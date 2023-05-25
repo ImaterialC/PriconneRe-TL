@@ -1,0 +1,27 @@
+タイトルへ=Back To Title
+エラー=Error
+アプリ終了=Exit Application
+タイムアウト=Time Out
+[3C404E]しばらく操作されなかったため、\nゲームを終了して、DMM GAME PLAYERから再起動してください。[-]=[3C404E]No responding for a while\nPlease quit the game and restart from DMM GAME PLAYER. [-]
+[3C404E]エラーコード：201\n接続が途切れました。\nタイトルに戻ります。[-]=[3C404E]Error Code:201\nConnection was interrupted.\nReturn to the title.[-]
+エラーコード：3319\nプリンセスアリーナにおける接続が途切れました。\nタイトルに戻ります。=Error code: 3319\nThe connection in the Princess Arena has been interrupted.\nReturn to the title.
+[3C404E]エラーコード：216\nエラーが発生しました。\n直接ゲームを起動することはできません。\nプラットフォーム指定の方法で\nゲームを起動してください。[-]=[3C404E]Error code: 216\nYou cannot launch the game directly.\nPlease launch the game using the method specified by the platform.[-]
+[3C404E]タイムアウトしました。[-]=[3C404E]Timed out [-].
+[3C404E]エラーコード：3511\n開催中のクエストがありません。[-]=[3C404E]Error code: 3511\nNo quests are being held.[-]
+
+[3C404E]エラーコード：205\nエラーが発生しました。\nタイトルに戻ります。[-]=[3C404E]Error code: 205\nAn error has occurred\nBack to title.[-]
+[3C404E]エラーコード：501\nエラーが発生しました。\nタイトルに戻ります。[-]=[3C404E]Error code: 501\nAn error has occurred\nBack to title.[-]
+エラーコード：501\nエラーが発生しました。\nタイトルに戻ります。=Error code: 501\nAn error has occurred\nBack to title.
+エラーコード:2\n処理中にエラーが発生しました=Error code: 2\nerror occurred during processing
+[3C404E]エラーコード:2\n処理中にエラーが発生しました[-]=[3C404E]Error code: 2\nerror occurred during processing[-]
+
+===System===
+[3C404E]ネットワーク接続エラーが発生しました。[-]=[3C404E]A network connection error has occurred. [-]
+[3C404E]新しいデータがあります。\nタイトルへをタップすると\nダウンロードが始まります。[-]=[3C404E]There is new data.\nTap to the title\nto start the download. [-]
+[3C404E]エラーコード：218-40\nエラーが発生しました[-]=[3C404E]Error code: 218-40\nError occurred[-]
+[3C404E]ただいまメンテナンス中です。\n完了までしばらくお待ちください。[-]=[3C404E]We are currently undergoing maintenance.
+r:"\[3C404E\]\[FFBB00\,CE4F00\]([0-9/ :]+)～ 翌([0-9/ :]+)\[-\]に\nメンテナンスを実施いたします。\n詳細はお知らせをご確認ください。\[-\]$"=[3C404E]At[FFBB00,CE4F00] $1 until next day $2[-]\nwill be performed maintenance.\nPlease check the announcement for details. [-]
+
+[3C404E]ダウンロード中にエラーが発生しました。[-]=[3C404E]An error occurred while downloading. [-]
+リトライ=retry
+ダウンロードエラー=Download Error

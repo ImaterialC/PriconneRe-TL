@@ -1,0 +1,114 @@
+ロフィール=rofile
+プ=P
+r:"^([0-9/／]+)人$"=$1 People
+30／30人
+===Menu===
+ウィークリー=Weekly
+EXクエスト=EX Quest
+クリアした階=Cleared Floor
+ルナの塔=Luna Tower
+r:"^(\d+)階$"=F$1
+解放数=Unlocked
+クエスト達成数=Quest
+IDコピー=Copy ID
+自己紹介=Intro
+所属クラン=Clan
+sr:"^(\d{4})年(\d+月)合計スコア$"=Total Score $2, $1
+sr:"^(\d{4})年(\d+月)$"=$2, $1
+プレイヤー名を変更しました。=The player name has been changed.
+
+全キャラ戦力=Total Power
+プロフ作成=Profile
+進行状況=Progress
+作成日=Started on
+キャラ変更=Change
+ランキング=Ranking
+
+お気に入り設定=Set Favorites
+お気に入りキャラ=Favorite Character
+差を表示する=Display
+sr:"^(\d+月)(\d{1,2})日"=$1 $2
+===Profile Card===
+保存=Save
+称号変更=Title change
+キャラ表示切替=Change Chara
+カードデザイン=Card Design
+デザイン変更=Change
+フレームデザイン=Frame Design
+コメント=Comment
+表示選択=Display selection
+基本デザイン=Template
+元に戻す=Undo
+Twitter投稿=Post to Twitter
+画像保存=Save
+プロフ編集=Edit
+クランプロフ=Clan Profile
+到達階=Current
+イプロフカード=y Profile Card
+ルナの塔階数=Luna's Tower Floors
+プリンセスアリーナ\n順位=Princess Arena\nRanking
+バトルアリーナ順位=Battle Arena\nRanking
+クランバトル\n合計スコア=Clan Battle\nTotal Score
+ステータス表示=Display
+※全角75文字以内(1行25文字)=※Up to 75 characters (25 characters per line)
+※全角150文字以内(1行30文字)=※Up to 150 characters (30 characters per line)
+※1文字以上60文字以内=※Between 1 and 60 characters
+アプリアイコン=App icon
+現在の設定=Current set
+スマートフォンのホーム画面に表示するアプリアイコンを変更\nすることができます。\n※変更が反映されない場合は、端末の再起動をお試しください。=You can change the app icon displayed on the smartphone home screen. \n※If the change is not reflected, try restarting the terminal.
+コメントを入力してください。=Please enter a comment.
+コメント編集=Comment Edit
+[3C404E]編集した内容を保存しました。[-]=[3C404E]Edited content has been saved.[-]
+[3C404E]編集した内容を破棄し、前回保存したときの状態に戻りますがよろしいですか？[-]=[3C404E]Discard the edited contents and return to the state when it was saved last time.\nis this OK? [-]
+前回保存したときの状態に戻りました。=Returned to the state when it was saved last time.
+r:"^※全角(\d+)文字以内$"=※Up to  $1 character
+[3C404E]編集した内容を保存していません。\nこのまま画面遷移してよろしいですか？[-]=[3C404E]You have not saved your edits.\nAre you sure you want to change the screen as it is?[-]
+[3C404E]画像の保存に失敗しました。\n保存領域が確保されているかご確認ください。[-]=[3C404E]Save Image saving failed.\nMake sure you have enough storage.[-]
+画像保存完了=Image Storage Completed
+[3C404E]画像を保存しました。[-]=[3C404E]The image has been saved.[-]
+プレイヤーIDをコピーしました。=Copied player ID.
+友達を招待=Invite friends
+所属なし=None
+クランに所属していません。=You do not belong to a Clan.
+
+===Clan Profile Card===
+クランランキング=Clan Ranking
+マイプロフ=My Profile
+募集要項=Bio
+メンバー数=Member
+未参加=N/A
+ランプロフカード=Clan Profile Card
+平均プレイヤーLv=Average P. LV
+個人=Personal
+過去の戦績=Past Results
+個人合計スコア=Individual Total Score
+クラン合計スコア=Clan Total Score
+全クランランキング=Total Ranking
+クラン内ランキング=In-Clan Ranking
+クランバトル戦績=Clan Battle Results
+キャラ一覧=Select A Character
+選択中のキャラ=Selected character
+
+生放送のお知らせ=Live broadcast news
+配信ページへ=To the distribution page
+クランメンバー募集中！一緒にプリコネ楽しもう！=We're looking for clan members!
+
+===Title===
+
+===Name& Self Introduce===
+※1文字以上10文字以内=※Between 1 and 10 characters
+プレイヤー名を入力してください。=Please enter a Player Name.
+[FF7C4E,D62146]個人情報や、公序良俗に反する内容は\n入力しないでください。[-]=[FF7C4E,D62146]Please refrain from including any\npersonal information and indecent  content.[-]
+プレイヤー名編集=Edit Player Name
+
+自己紹介を入力してください。=Please enter a Self Introduction..
+自己紹介編集=Edit Self Introduction.
+自己紹介文を変更しました。=Self intro has been changed.
+Translating JP Pricon atm.
+for Eng-UI contact Cornelia#0402
+===Not sure===
+到着階=Arrival floor
+
+===NPC===
+オリジナルのプロフカード画像を作成して、画像付きでTwitterに投稿することができます。\n素敵なお仲間と出会えるといいですね。=You can create your own profile card image and post it on Twitter with the image.\nI hope you can meet nice friends.
+所属しているクランの情報を元にクランプロフカードを作成できます。\n画像付きでTwitterに投稿して、クランメンバーの募集にお役立てくださいませ。=You can create a Clan Loff card based on the information of the Clan to which you belong. Please post it on Twitter with an image to help recruit clan members.

@@ -1,0 +1,14 @@
+【物理】前衛で母製の鎧を纏い気合い上々の獣人族騎士。自分のＨＰが低いほど与えるダメージと無効バリアの耐久力を高め、防御力ダウンと永続攻撃アップで活路を拓く。=[Physical] A beastkin knight who wears mother-made armor in the vanguard and is in high spirits. The lower her HP is, the higher the damage dealt and the durability of her negate barrier, with P.DEF debuff and perm P.ATK buff, lead to victory.
+
+ブレイブタイガースペシャル=Brave Tiger Special
+ブレイブパワーMAX！=Brave Power MAX!
+ブレイブパワーMAX！+=Brave Power MAX!+
+目の前の敵１キャラに物理特大ダメージと、自分のＨＰが低いほどダメージがアップする物理ダメージを与え、味方全体の物理攻撃力を特大アップさせるが、自分がスタンする。=Deals large amount of P.DMG to the first enemy character in front of you, as well as P.DMG that boost as your HP is lower, and Large boost the P.ATK of all allies, but you are stunned.
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体に自分のＨＰが低いほどダメージがアップする物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n自分を一定時間行動不能にする$"=Deals $1 P.DMG to enemies.\nDeals [15xHP-lost] P.DMG to enemies. Damage boost the lower your HP is.\nBoosts allies' P.ATK by $2 for 18s.\nInflict stun on self for 2s.
+
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を中ダウンさせる。自分のＨＰが低いほどダメージがアップする。=Deals moderate P.DMG to the first enemy character in front and moderately decreases P.DEF. The lower your HP, the higher the damage.
+
+
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ\n(\d+)ダメージ分の物理魔法無効バリアを展開する$"=Cast Time: 0.465s.\nBoosts own P.ATK by $1 for 180s.\nBoosts own P.DEF by $2 for 180s.\nDeploys a barrier over self that nullifies $3 P/M.DMG for 18s.
+自分の物理攻撃力を大アップ、物理防御力を小アップさせ、物理/魔法無効バリアを展開する。自分のＨＰが低いほどバリアの無効ダメージ量がアップする。=Large boost own P.ATK, slightly boost P.DEF, and deploys a physical/magic immunity barrier. The lower your HP, the more barrier does.

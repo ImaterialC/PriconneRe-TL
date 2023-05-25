@@ -1,0 +1,44 @@
+ャル=Kyaru
+猫と遊ぶ=Play with cats
+行き倒れの謎のネコミミ魔法使い=A mysterious cat-eared sorceress\ndiscovered lying unconscious
+ケイオスグリモワール=Chaos Grimoire
+Intro
+【魔法】後衛から、強力な全体攻撃を放つ、強気な猫娘。スキルで敵の物理、魔法両方の防御力を下げるため編成を選ばずにバトルを有利に進められる。=[Magic]A willful catgirl that casts powerful attacks from RG that hit all foes. Her skills lower both M.DEF and P.DEF, making her an easy choice for wining in any lineup.
+
+Story
+いつかお気楽な冒険を=Someday... a Normal Adventure.
+救いの手とハンバーガー=Helping Hand and Burgers
+儚い夢と宝くじ=Fleeting Dreams and Lottery
+意思を操る魔石=Magic Stone That Controls Will
+幸せの方程式=Working Towards One's Happiness
+初デートは刺激的？=A Thrilling First Date
+魔物たちの女王様=The Queen of Monsters
+隠されし少女の力=Her Secret
+野良猫少女との出会い=First Contact With the Stray Cat
+与えられた身分=A Place to Belong
+鳴き声に誘われて=A Cat's Silent Cry
+監視の目を光らせて=Under Her Watchful Eye
+
+Skill Name
+アビスバースト=Abyss Burst
+グリムバースト=Grim Burst
+ダークエクリプス+=Dark Eclipse+
+ダークエクリプス=Dark Eclipse
+
+UB *6
+r:"^敵全体に(\d+)の魔法ダメージ\n敵全体を恐慌状態にする$"=►Deals $1 M.DMG to all enemies.\n►Inflict Fear to All Enemies for 8s.
+敵全体に魔法大ダメージを与え、さ\nらに恐慌状態にする。=Deals large M.DMG and inflict fear to all enemies.
+UB
+敵全体に魔法中ダメージを与える。=Deals moderate M.DMG to all enemies.
+r:"^敵全体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to all enemies.
+Skill 1+
+サンダーボール=Lightning Sphere
+サンダーボール+=Lightning Sphere+
+目の前の敵１キャラに魔法中ダメージを与え、その敵から前方範囲内の敵すべてに魔法小ダメージを与えた上で、それらの魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and small M.DMG to enemies around it. Lowers M.DEF of all targets by a small amount.
+r:"^敵単体に(\d+)の魔法ダメージ\n範囲内の敵すべてに(\d+)の魔法ダメージ\n範囲内の敵すべての魔法防御力を(\d+)ダウン$"=Cast Time: 1.27s\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to all enemy within ranges 200.\n►Lowers M.DEF of all enemies in range by $3 for 12s.
+
+Skill 2
+アーマーダウン=Reduce Armor
+r:"^敵単体の物理防御力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン$"=Cast Time: 0.83s\n►Lowers an enemy's P.DEF by $1 for 12s.\n►Lowers an enemy's M.DEF by $2 for 12s.
+
+目の前の敵１キャラの物理防御力と魔法防御力を小ダウンさせる。=Lowers P.DEF and M.DEF of enemy directly in front by a small amount.

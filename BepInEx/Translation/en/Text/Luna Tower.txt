@@ -1,0 +1,125 @@
+ル=Lu
+ナの塔=na Tower
+r:"^(\[[0-9A-F,]{6,13}\])階\[-\]$"=$1F[-]
+階=F
+回廊探索=Corridor
+パーティ=Party
+保存パーティ=Save Party
+ルナの塔においてバトル速度の上限を設定できます。=You can set the upper limit\nof battle speed in the Luna Tower
+バトル速度の上限設定=Battle Speed Limit Settings
+このパーティを保存しますか？=Do you want to save this party?
+対象タブ=Tab
+パーティ名=Party Name
+残り挑戦回数がリセットされるまでお待ちください。=Please wait until your attempt limit resets.
+
+キャラ全回復=Full Heal
+r:"^\[3B3F4D\]あと\[-\]\[64C9FD,0060BA\](\d+)時間\[-\]\[3B3F4D\]で利用できます。\[-\]$"=[3B3F4D]Can be used in [FFBB00,CE4F00]$1h[-].[-]
+1日1回キャラを全回復できます。=Can Heals All once a day.
+sr:"^あと(\d+)?時?間(\d+分)で利用できます。$"=$1h$2 remaining to use it.
+
+全てのキャラのHPを全回復します。=Recovers HP of all characters.
+編成したキャラのTPもリセットされます。=TP will also be reset.
+サポートキャラはリセット対象外です。=Support characters cannot be reset.
+
+クリア済み=Cleared
+この階はすでにクリアしています。=This floor has already been cleared
+
+EXクエスト一覧=EX Floors
+
+回廊探索 クリアパーティ一覧=Corridor Search Clear Party List
+
+不参加=N/A
+
+未編成=Choose
+
+模擬戦で使用=Training Use
+本戦で使用=Main Use
+未所持/戦闘不能/制限Lv以下のキャラは編成できません。=Unclaimed/Uncombatable/Too low Lvl\ncannot be deployed.
+本戦の場合、本戦使用済みのキャラは編成されません。=In the main battle, already-used characters\ncannot be deployed again.
+本日の編成キャラ数=Today's chars
+
+ルナの塔バトル開始確認=Battle Start Confirmation
+本戦を開始しますか？=Do you want to start?
+
+今後このメッセージを表示しない=Don't show this message again
+
+r:"^\[3C404E\]リタイアするとスタミナが\[FFBB00,CE4F00\](\d+)\[-\]消費され、\nキャラのHP・TPがバトル前の状態に戻ります。\n\nよろしいですか？\[-\]$"=[3C404E]Retiring will consume [FFBB00,CE4F00]$1[-] stamina and return your character's HP and TP to their pre-battle state.\n\nAre you sure?[-]
+
+模擬戦では報酬は獲得できません。=No rewards can be\nearned in mock battles.
+
+進行中バトル=Battle in progress
+ルナの塔へ=To Luna Tower
+
+パーティ編成使用確認=Confirm Party Selection
+このパーティ編成を使用しますか？=Do you want to use this party setup?
+未所持/制限Lv以下のキャラは編成できません。=Characters you do not own\nor under leveled cannot be used.
+今後このメッセージを表示しない\n※この設定は後から［設定］で変更できます。=Do not display this message in the future.\nThis setting can be changed later in [Settings].
+
+クエストリタイア=Leave Quest
+[3C404E]リタイアするとクエスト報酬を\n獲得することができません。\n\nよろしいですか？[-]=[3C404E]You will not receive any rewards if you quit.\n\nAre you sure?[-]
+r:"^ルナの塔(\d+)階 EXクエスト$"=Luna Tower $1 Floor EX Quest
+r:"^ルナの塔(\d+)階$"=Luna Tower $1F
+r:"^(\d+)階 クリアパーティ一覧$"=$1 Floor Clear Party List
+このパーティはバトルに参加していません。=This party has not participated in the battle.
+同名キャラ編成の設定が「編成不可」になっています。=The setting of the same name character organization is "not organized".
+未所持のキャラは編成できません。=Characters you do not own cannot be assigned to a party.
+変更可=Changing
+変更不可=can't change
+選択したパーティの★=selected Party ★
+「★１、２、６へ変更」「星5に才能開花をしていないキャラを変更」はできません。=You cannot change ★1, ★2, ★6 Characters. Only ★5 can change the ★.
+選択したパーティの★に変更する=Change ★ to Selected Party's ★
+選択したパーティと現在のキャラの★の数が異なります。=The ★ of selected parties and the current character ★ is different.
+現在のキャラの★=Current character ★
+同じキャラを編成することはできません。=You can not organize the same character.
+05:00までは他のサポートキャラを選択できません。=You can not select other\nrental characters until 05:00(JST).
+[FF7C4E,D62146]全回復できる回数は毎日5:00にリセットされます。[-]=[FF7C4E,D62146]Full Heal's time are reset at 5:00 every day.[-]
+[FF7C4E,D62146]　1度本戦でサポートキャラを使用すると、\n05:00まで他のサポートキャラは使用できません。[-]=[FF7C4E,D62146] Once a support character\nis selected, no other support character can be picked until 05:00(JST).[-]
+[3C404E]全てのキャラのHPを全回復しました。[-]=[3C404E]HP of all characters\nhas been fully recovered.[-]
+[3C404E]全回復できる回数は毎日05:00にリセットされます。[-]=[3C404E]Full Heals resets daily at 05:00(JST).[-]
+ダメージをうけたキャラがいないため、利用できません。=Cannot be used because no characters have been damaged.
+すでに他のサポートキャラが設定されています。=Other rental characters are already set.
+すでにサポートキャラに設定されています。=Rental characters are already set.
+戦闘不能キャラは編成できません。=Uncombatable characters cannot be organized.
+到達時間=When
+この階をクリアしたクランメンバーです。=Clan members that have cleared this floor.
+r:"^(\d+)階 クリアメンバー$"=Floor $1 Survivors
+
+このEXクエストをクリアしたクランメンバーです。=Clan members who cleared this EX Quest.
+r:"^(\d+)階EXクエスト クリアメンバー$"=Floor $1 EX Quest Survivors
+r:"^(\d+)階EX クリアパーティ一覧$"=Floor $1 EX Clear Party List
+このクエストをクリアしたクランメンバーです。=Clan members that have cleared this quest.
+回廊探索 クリアメンバー=Corridor Exploration Survivors
+r:"^回廊探索 wave(\d)$"=Corridor Exploration Wave$1
+バトルスキップを行いますか？=Do you want to skip the battle?
+[FF7C4E,D62146]対象のクエストはありません。[-]=[FF7C4E,D62146]No quests are available.[-]
+クリアで使用できます。=Must clear it first.
+AUTO・SMARTで操作せずバトル終了した場合リプレイできます。=You can replay if the battle ends without using AUTO/SMART.
+※「AUTO」にてバトルが行われます。\nまたスキップ時はUB即発動モードはOFFになります。\n※リプレイは最後まで操作方法を変えずにバトルを行った場合に再生できます。="※Battle will be held in "AUTO".\nAlso, when skipping, UB immediate activation mode will be OFF.\n※Replays can be replayed when the battle is played without changing the operation method until the end."
+===Story card===
+閲覧したい章を選択してください。=Please select the chapter you would like\nto view.
+ルナの塔ストーリー一覧=Luna's Tower Story List
+レディの理想と大人の真実=Lady's Ideals And Adult Truth
+姉なる命題と博士の対偶=The Kinematic Pair Of The Proposition Of My Sister And The Doctor
+追憶の歌姫と彷徨う幽霊=Reminiscence Diva And Wandering Ghosts
+美の探求者と女君の宴=Feast Of Beauty Seekers And Women
+ちぐはぐワーク&レスト=Chiguhagu Work & Rest
+忍剣珍道中=Ninja Sword Rare Journey
+冥風戦記外伝・吸血鬼伝承=Meifu Senki Gaiden / Vampire Tradition
+あまあま妹シューターズ！=Sweet Sister Shooters!
+もふもふメルヘン珍道中=Mofumofu Fairytale Rare Road
+ティーチャーズガイダンス=Teachers Guidance
+スターたちの二重奏=The Duo Of The Stars
+失われた記憶を求めて=In Search Of Lost Memory
+姉妹の絆と願いの塔=Sisters' Bonds And The Tower Of Wishes
+シスターズ・ブッキング=Sisters Booking
+あまのじゃくゴーストハウス=Amanojaku Ghost House
+二つの誇りは絆と共に=Two Pride With A Bond
+すれちがいディスタンス=Passing Distance
+湧き上がる勇気が=The Courage that springs
+トリプルヒーロー参上！=Triple Hero Going!
+===NPC
+選択した使用したいパーティ内のキャラの★数が現在設定している★数と\n異なります。★選択した使用したいパーティの★に変更できます。\n★の数は★5～★3の間で変更できますよ。=The ★ number of the selected characters in the party you want to use is different from the currently set ★ number. ★ You can change to the ★ of the party you want to use. The number of ★ can be changed between ★ 5 and ★ 3.
+塔は育てたキャラ全員を編成することが可能で、何回でも挑戦できます。\n1日に1回、HPを全回復できる「キャラ全回復」ボタンが使えます。=The Tower can be attempted as many times as you want using parties that consist of any of characters you have. You can also use "Full Heal" once per day to fully restore your team's HP.
+塔に出現するシャドウは、バトル開始時にTPが溜まっています。\n加えて、バトルの制限時間を過ぎると全滅してしまいます。\n残り時間にもお気を付けくださいませ。=The shadow in the Tower start battle with their TP full. What's more your party will be wiped out if battle goes over the time limit. Please pay attention to the remaining time.
+70階までクリアすると、特殊なボスが出現する「EXクエスト」に\n挑戦できます。これは3パーティで挑む特別なクエストです。\n主さま、しっかりと準備を整えて挑みましょう。=Completing 70F will allow you undertake an "EX Quest". You may use 3 parties on this Special Boss.\Be sure to prepare before you attempt, Aruji-sama.
+ルナの塔に出現する強敵を倒すと「プリンセスハート」が手に入ります。\nこちらはキャラ専用装備の作成に必要ですので、\nなくさないように大事に持っておきましょう。=You can get "Princess Heart" by defeating the powerful enemy in the Luna Tower. This is necessary for creating character's Unique Equipment, so Take good care of it so that you don't miss it.

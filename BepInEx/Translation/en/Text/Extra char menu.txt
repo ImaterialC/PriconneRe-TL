@@ -1,0 +1,42 @@
+クストラキャラ=xtra Character
+エ=E
+
+説明=Description
+セットする=Set
+アイテム交換=Item Exchange
+アイテムを集めてキャラを解放=Collect items to free your character.
+
+セットするマナの量を指定してください。=Specify the amount of Mana.
+r:"^最小単位は([0-9,]+)です。$"=Minimum unit is $1.
+
+必要アイテム=Required Items
+
+メモリーピース(選択可)=Memory shard (Selected)
+交換必要数=To Unlock
+
+所持している、才能開花が★5以上のすべてのキャラの\nメモリーピースから使用数を指定してセットできます。\n女神の秘石を代わりにのメモリーピース個使用してセットできます。=You can only select memory shards of characters that are already 5★ or use Divine Amulets.
+所持している、才能開花が★5以上のすべてのキャラのメモリーピースから使用数を指定してセットできます。女神の秘石を代わりに5個使用してセットできます。=You can only select memory shards of characters that are already 5★ or use Divine Amulets.
+
+セットしていないアイテムがあるため、解放できません。=Cannot be unlocked because there is an item that has not been set.
+最小単位は10,000で、一度に最大1億までセットできます。=Set around 10,000-100,000,000.
+
+アイテム交換確認=Item Exchange Confirmation
+
+キャラの才能開花が★5以上で選択できます。=You can only select memory shards of characters that are already 5★
+使用アイテム選択=Select item to set
+限定キャラのメモリーピースが含まれています。=It contains a limited character memory piece.
+このアイテムはこれ以上セットできません=This item cannot be set anymore
+アイテム1個あたりの女神の秘石必要数は5です。=The required number of goddesses per item is 5.
+セットしたアイテムは元に戻せません。=The set items cannot be restored.
+このアイテムはこれ以上セットできません。=This item cannot be set anymore.
+合計消費数=Total consumption number
+
+sr:"^セットする([べ-ヺー＆]+)のメモリーピースの\n数を変更しますか？$"=Use $1's Memory Shards to set?
+sr:"^([べ-・ー＆]{2,16})解放 $"=$1 Unlocked
+交換数確認=Check Number Confirmation
+
+
+以下のアイテムを消費してセットしました。=The following items were consumed and set.
+アイテム交換完了=Item Exchange Is Completed
+
+いろいろなキャラのメモリーピースとマナを使用して解放できる特別なキャラ「エクストラキャラ」が登場いたしました。新たな仲間との出会いを目指して、アイテムを探しに行きましょう。=A special character "Extra Character" that can be unlocked using various characters' memory pieces and mana has appeared. Let's look for items to meet new friends.

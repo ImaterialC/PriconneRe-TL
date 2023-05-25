@@ -1,0 +1,45 @@
+Ruka 
+Profile
+人情味溢れる粋でいなせな「姉御」=A smart and sophisticated elder sister-type overflowing with kindness
+釣り=fishing
+さまよう刃を断て！=Cut the wandering blade!
+因果応報の切れ味=The Cutting Edge of Causes and Effects
+お見合いハプニング=Matchmaking Happening
+幽霊退治はお手の物？=Are you good at exterminating ghosts?
+お魚くわえた野良猫=Stray cat with a fish in its mouth
+その女、姉御肌につき=That woman has a big sisterly heart
+波打ち際の一閃=A flash of light on the beach
+放っておけない性分=I can't leave her alone
+
+
+【物理】前衛で味方のため剣を振るう、いなせな姉御。相手へのカウンターも行う挑発や、敵の防御力を下げるユニオンバーストを持ち、攻防両面で実力を発揮する。=[Physical] A gregarious Oneesan who wields a sword for her allies in the VG. She can taunt and counters opponents and has UB, which lowers the enemy's defenses, making her a strong offensive and defensive player.
+
+Skills
+UB
+零の太刀・水月鏡花=Origin Strike: Severing Moon
+目の前の敵１キャラに物理大ダメージを与え、さらに物理防御力を大ダウンさせる。=Deals large P.DMG to an enemy directly in front and lowers their P.DEF by a large amount.
+S1
+
+敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵すべてに物理中ダメージを与え、さらに小さく吹き飛ばす。=Taunts all enemies and enters a stance. If attacked during this stance, deals moderate P.DMG to all enemies in range and knocks them back slightly.
+r:"^敵全体を挑発する\n範囲内の敵に(\d+)の物理ダメージ$"=Cast time:1.125s\nProvokes all enemies for 17s.\nCounter if damage is taken in next 2s by $1 P.DMG within 200 range\nKnocks enemies by 200.
+S2
+
+自分のＨＰを中回復し、さらに物理防御力を中アップさせる。=Recovers own HP by a small amount and boosts P.DEF by a moderate amount.
+r:"^自分のＨＰを(\d+)回復\n自分の物理防御力を(\d+)アップ$"=Recovers own HP by $1.\nBoosts own P.DEF by $2.
+ex
+明鏡止水の境地=True Enlightenment
+Skills+
+UB
+
+S1
+
+敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵すべてに物理大ダメージを与え、物理防御力を小ダウンさせ、さらに小さく吹き飛ばす。=Taunt all enemies. If attacked during the provoke action, it deals large physical damage to all enemies in the front area, reduces their physical defense by a small amount, and blows them up into small pieces.
+r:"^敵全体を挑発する\n範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン"=Cast time:1.125s\nProvokes all enemies for 17s.\nCounter if damage is taken in next 2s by $1 P.DMG within 200 range\nKnocks enemies by 200.\nLowers P.DEF of all enemies within 200 range by $2 for 12s.
+S2
+
+ex
+明鏡止水の境地+=True Enlightenment+
+バトル開始時に自分の魔法防御力を大アップさせる。=Large boost to own M.DEF at start of battle.
+r:"^自分の魔法防御力を(\d+)アップ$"=Boosts own M.DEF by $1.
+UE
+真打 絶海・波浪丸=Shin -shuttery / Namimaru
