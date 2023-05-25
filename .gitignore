@@ -15,7 +15,6 @@ BepInEx/Translation/en/Text/3_Skill_active.txt
 BepInEx/Translation/en/Text/4_Temp.txt
 BepInEx/Translation/en/Texture/*.*
 BepInEx/config/*.*
-*.ini
 BepInEx/config/BepInEx.cfg
 BepInEx/config/AutoTranslatorConfig.ini
 *.exe
