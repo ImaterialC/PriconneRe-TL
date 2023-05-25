@@ -63,7 +63,7 @@ winhttp.dll
 
 Vanilla state of priconner folder was like the below picture:
 
-![vanilla_state](https://cdn.discordapp.com/attachments/1042973733272424491/1042973733540868228/unknown.png)
+![vanilla_state](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/320e06f4-8da3-4378-bc14-0d2212c6d6d9)
 
 ## ![Kyouka](https://static.wikia.nocookie.net/princess-connect/images/3/39/Kyouka_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113712) SETTINGS AND OPTIONS
 
