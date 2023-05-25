@@ -32,7 +32,7 @@ Priconne Re: TL is an unofficial English UI patch for [Cygames' Princess Connect
 ### Manual
 
 0. Make sure that you installed [PriconneR](https://dmg.priconne-redive.jp/) from DMM Game Launcher, not via Android Emulator
-1. Download the latest release asset from [latest release](https://github.com/ImaterialC/Priconne Re: TL/releases/latest "Releases")
+1. Download the latest release asset from [latest release](https://github.com/ImaterialC/PriconneRe-TL/releases/latest "Releases")
 2. Extract all files from zip files to your `priconner` folder
 3. Make sure your `priconner` folder looks like this
 
