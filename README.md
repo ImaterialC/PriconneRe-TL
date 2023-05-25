@@ -71,12 +71,12 @@ The Vanilla state of the priconner folder was like the below picture:
 
 ## ![Kyouka](https://static.wikia.nocookie.net/princess-connect/images/3/39/Kyouka_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113712) SETTINGS, OPTIONS, AND FEATURES
 
-  - Priconne Re: TL uses a dedicated framework based on [BepInEx Bleeding Edge](https://builds.bepinex.dev/projects/bepinex_be) as the framework and uses a dedicated plugin based on [bbepis/XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator). Configurations of both are available too!
+  - Dedicated framework based on [BepInEx Bleeding Edge](https://builds.bepinex.dev/projects/bepinex_be) as the framework and uses a dedicated plugin based on [bbepis/XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator). Configurations of both are available too!
     - [BepInEx Config](https://docs.bepinex.dev/articles/user_guide/configuration.html)
     - [AutoTranslator Config](https://github.com/bbepis/XUnity.AutoTranslator#configuration)
-  - Priconne Re: TL also included Full Screenizer based on [FineBrewDev/BepInEx.FullScreenizer](https://github.com/FineBrewDev/BepInEx.FullScreenizer). You can press F4 to toggle fullscreen
-  - Priconne Re: TL uses a 16:9 aspect ratio and can maximize or adjust client sizes larger than 720p for a better experience on the modern monitor resolution.
-  - Priconne Re: TL uses 2 strategies on textures based on size for Atlases and Name for others else, it will auto revert when textures are changed and unusable. unfortunately, AMD GPU users need to replace atlas textures due to different compressing sizes.
+  - Full Screenizer based on [FineBrewDev/BepInEx.FullScreenizer](https://github.com/FineBrewDev/BepInEx.FullScreenizer). You can press F4 to toggle fullscreen
+  - 16:9 aspect ratio and can maximize or adjust client sizes larger than 720p for a better experience on the modern monitor resolution.
+  - 2 strategies on textures based on size for Atlases and Name for others else, it will auto revert when textures are changed and unusable. unfortunately, AMD GPU users need to replace atlas textures due to different compressing sizes.
 
 ## ![Saren](https://static.wikia.nocookie.net/princess-connect/images/b/b3/Saren_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925084518) DONATION
 
