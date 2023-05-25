@@ -35,7 +35,7 @@ Priconne Re: TL is an unofficial English UI patch for [Cygames' Princess Connect
 2. Extract all files from zip files to your `priconner` folder
 3. Make sure your `priconner` folder looks like this
 
-![filestructure](https://user-images.githubusercontent.com/105358849/220214406-429aeff9-c488-4e3f-a023-4f9e65336127.png)
+![Patched](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/f9ef7290-1ed4-41d4-b55e-616cb3d84636)
 
 ### Automatic
 
@@ -62,8 +62,7 @@ winhttp.dll
 ```
 
 Vanilla state of priconner folder was like the below picture:
-
-![vanilla_state](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/320e06f4-8da3-4378-bc14-0d2212c6d6d9)
+![Vanila state](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/3d5823e6-5f67-42be-aaa7-dd2c452535a5)
 
 ## ![Kyouka](https://static.wikia.nocookie.net/princess-connect/images/3/39/Kyouka_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925113712) SETTINGS AND OPTIONS
 
