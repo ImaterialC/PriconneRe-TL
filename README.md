@@ -37,6 +37,9 @@ Priconne Re: TL is an unofficial English UI patch for [Cygames' Princess Connect
 
 ![Patched](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/f9ef7290-1ed4-41d4-b55e-616cb3d84636)
 
+**!!! For FIRST TIME run will cause freeze for minutes and its normal, the second run and so on will like usual!!!**
+**!!! All Translation texts and Textures are chaced on your memory. 3.5-4gb ram total for patched priconne needed!!!**
+
 ### Automatic
 
 ** under maintain **
@@ -71,11 +74,13 @@ Priconne Re: TL uses dedicated framework based on [BepInEx Bleeding Edge](https:
 - [AutoTranslator Config](https://github.com/bbepis/XUnity.AutoTranslator#configuration)
 
 Priconne Re: TL also included Full Screenizer based on [FineBrewDev/BepInEx.FullScreenizer](https://github.com/FineBrewDev/BepInEx.FullScreenizer). You can press F4 to toggle fullscreen
-Priconne Re: TL force to use 16:9 aspect ratio and can maximize or adjust client size larger than 720p for better experience on the modern monitor resolution.
+
+Priconne Re: TL use 16:9 aspect ratio and can maximize or adjust client size larger than 720p for better experience on the modern monitor resolution.
 
 ## ![Saren](https://static.wikia.nocookie.net/princess-connect/images/b/b3/Saren_Box_Icon.png/revision/latest/scale-to-width-down/40?cb=20190925084518) DONATION
 
 Any donation is a huge encouragement for having more motivation to maintain text and texture translation. Many thanks you guys! ![KokkoroThumpUp](https://cdn.discordapp.com/emojis/974959962814021683.webp?size=32)
+
 Your name may appear on montly video at [my channel](https://www.youtube.com/playlist?list=PL7rvyKiF8qfl4WgOAcSOuYnkg4fEbL66c)
 
 [![ko-fi](https://img.shields.io/badge/_-kofi-red.svg?logo=kofi&labelColor=555555&style=for-the-badge)](https://ko-fi.com/E1E5HG8RP) [![saweria](https://img.shields.io/badge/_-Saweria.co-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://saweria.co/imaterial "Saweria.co") [![saweria](https://img.shields.io/badge/_-Patreon-red.svg?logo=patreon&labelColor=555555&style=for-the-badge)](https://patreon.com/imaterial "Saweria.co")
