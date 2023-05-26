@@ -70,5 +70,6 @@ r:"^(|60\.)カウダ(|\n　　　　　)砂浜・北部(.*)$"=$1 Kauda Beach (No
 r:"^(|61\.)カウダ(|\n　　　　　)砂浜・南部(.*)$"=$1 Kauda Beach (South) $3
 r:"^(|62\.)プロピーナ岬(.*)$"=$1 Cape Propina $2
 r:"^(|63\.)アパレーユ(\n　　　　　)?街道・西側(.*)$"=$1 Aparelle Highway (West) $3
+r:"^(|64\.)アパレーユ(\n　　　　　)?街道・東側(.*)$"=$1 Aparelle Highway (East) $3
 ===*6 Quest
 sr:"^([べ-ヺー＆]+)(（.+）)?の解放クエスト$"=$1$2 Ascension Quest

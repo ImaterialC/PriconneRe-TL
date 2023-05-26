@@ -148,6 +148,8 @@ r:"^\[3C404E\]CPを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]獲得して、\[-\
 マイログ保存確認=My log Save Confirmation
 模擬戦中=Training
 本日の挑戦回数の上限に達しています。=You have reached the maximum number of attempt for today.
+
+段階が変更されています。=Laps has been changed.
 ===Carry Over Time
 r:"^\[3C404E\]モンスターを撃破したため\n残り時間を\[FF7C4E,D62146\]([0-9:]+)\[-\]使って\n次のバトルに挑戦できます。\[-\]$"=[3C404E]Since you have defeated a monster,\nyou can use Left-Over time [FF7C4E,D62146]$1[-]\nto challenge the next battle.[-]
 残り時間持越し通知=Left-Over Time Notification

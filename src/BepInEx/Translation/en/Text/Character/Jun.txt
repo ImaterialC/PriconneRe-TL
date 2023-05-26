@@ -24,9 +24,53 @@ r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n物理攻
 
 S1
 自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a moderate amount. Large boost to the ally's P.ATK and small boost to their action speed.
+自分の周りの味方のうち、最もＨＰの割合が低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a large amount. Large boost to the ally's P.ATK and small boost to their action speed.
+
 r:"^味方単体のＨＰを(\d+)回復\n味方単体の物理攻撃力を(\d+)アップ\n味方単体の行動速度アップ$"=Cast time:0.475s\nRecovers an ally's HP by $1.\nBoosts an ally's P.ATK by $2 for 12s.\nBoosts an ally's action speed to 120% for 12s.
 S2
 ex
 ジャスティスバリア+=Justice Barrier+
 UE
 シュバリエメイル=Chevalier Mail
+
+
+ブレイブリカバリー=Brave Recovery
+ブレイブリカバリー+=Brave Recovery+
+アーマーブレイク=Armor Break
+
+Episode
+君のことを知りたくて=Wanting to Know About You
+真のヒーロー=True Hero
+仮面に隠れた乙女心=Maiden Heart Hidden Behind the Mask
+乙女な団長=Maiden Captain
+ビハインド・ザ・マスク=Behind the Mask
+ヒーローの日常=Hero's Daily Life
+思い出にセルフィーを=Taking a Selfie for Memories
+プレゼントは突然に=Surprise Presents
+門番と迷子=Gatekeeper and Lost Child
+たとえ君に会えなくても=Even If I Can't Meet You
+ヒーローは立ち上がる=Heroes Rise
+複雑なエモーション=Complex Emotions
+
+
+
+Affection
+やぁ、迷子の少年。君とのおしゃべりは楽しかったよ\n私はいつも門の前にいるから、また迷子になったら\n王宮目指して訪ねておいで=Hey, lost boy. I had a fun chat with you. I'm \nalways by the gate, so if you ever get lost \nagain, come visit me on your way to the palace.
+わざわざお礼に来てくれるとは思わなかったよ\nしかも可愛らしい贈り物まで用意してくれて…\n照れくさいけどとても嬉しかった。ありがとう=I didn't expect you to come all this way just\nto thank me. And you even brought such a \nlovely gift... It's embarrassing, \nbut I was really happy. Thank you.
+いや、今までも迷惑などでは決してなかったよ\n君とのお喋りはとても楽しかったし、有意義だった=No, it was never a bother. \nTalking with you was enjoyable and meaningful.
+もう私に会いに来ない方がいいだろうな\n私は君がいい子だと知っているが\nスパイではないかと疑う者も中にはいるんだ=Maybe it's best if you don't come to see \nme anymore. I know you're a good boy, but \nsome suspect that you might be a spy.
+私はこの仕事に誇りを持っているし好きなんだ\n王宮の門を守るという、先祖代々の重要な使命だし…\nそれに、君のようないい子と出会えたりもするからね=I take pride in this job and I enjoy it. \nIt's an important ancestral duty to protect \nthe gates of the palace... \nAnd I get to meet good boys like you too.
+少年、また会えるなんて本当に嬉しかったよ\nそれにしても、二人そろって眠ってしまうなんてね…\n変な夢を見たような…あまり気にするのはよそう=Boy, I was truly happy to see you again. \nBut both of us falling asleep together... \nIt feels like we had a strange dream. \nLet's not dwell on it too much.
+やぁ、少年。心配をかけて悪かったね\nところで、私の素顔についてなんだが\nその…いつかは君に見せようと思う=Hey, boy. Sorry for worrying you. By the way,\n about my true face... \n Um, someday, I think I'll show it to you.
+少年、一緒に料理を作れて楽しかったよ。\n君には、普段人に言えないことも話せてしまう\nなぜだろうね、ふふ=Boy, it was fun cooking together. \nI can talk to you about things I can't \nnormally tell others. I wonder why... Hehe.
+事情を話した以上は、私の素顔を少年に\n見せてもいいと思うが、やはり恥ずかしい…\nでも、君が望むのなら…少しくらいは…=Since I've told you my circumstances, \nI guess it's okay to show you my true face, \nbut it's still embarrassing... But if you \nwish for it... maybe just a little...
+許しているせいか\n心の悩みも打ち明けてしまった…\n迷惑でなければいいのだが…=I must have given the impression that it's \nokay to share my worries... \nIf it's not a bother to you...
+少年には世話になりっぱなしだな\n倒れている私を救護院まで運んだり\n鎧や兜を洗ってもらったり…=I've been relying on you a lot, boy. You \ncarried me to the infirmary when I collapsed \nand even washed my armor and helmet...
+
+
+久しぶりに時間が取れそうだ\n食事でもしながら、ゆっくりと話さないか？\nこ、これはデートの誘いではないからね…？=It seems like I'll have some free time after a long \nwhile. How about having a meal and talking leisurely? \nUh, this isn't an invitation for a date, okay...?
+この間の任務では不覚を取ったから\n一度鍛えなおそうと思っているのだが\n少年も一緒に鍛錬しないか？=I took a hit during the last mission, \nso I'm thinking of retraining myself. \nWould you like to train together, boy?
+少年と一緒にいると、複雑な感情が芽生えてくる…\n緊張するようで安堵もするような…不思議な感じだ\n…少年はこの感覚を知っているかい？=Being with you, complex emotions start to sprout... \nIt's a mix of nervousness and relief. It's a \nstrange feeling. Do you know this sensation, boy?
+それでも、私は少年とは何も隠さない関係でありたい\n私が仮面も外して、普通の女の子になれた時に…\nそばにいるのは少年であってほしいな=Nevertheless, I want to have a relationship \nwhere I don't hide anything from you, boy. \nWhen I can take off my mask and be a normal \ngirl... I want you to be by my side.
+ふふっ、思い返すと私の方が世話になってるな\n君は私を特別扱いしないから\nつい本音で甘えてしまっているのかもしれない=Hehe, come to think of it, I'm the one who \nrelies on you more. You don't treat me \nspecially, so maybe I unconsciously \nexpress my true feelings to you.
+思えば、少年とは色々とあったな\n迷子のところを助けたり、逆に私が助けられたり…\n他にも個人的な相談に乗ってもらったりもした=Looking back, there have been various \nexperiences with you, boy. Helping you when \nyou were lost, and vice versa... \nI've also sought personal advice from you.
