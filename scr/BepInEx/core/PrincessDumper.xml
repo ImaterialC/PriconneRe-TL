@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrincessDumper</name>
+    </assembly>
+    <members>
+        <member name="T:PrincessDumper.PrincessDumper">
+            <summary>
+            Provides functionality for runtime dumping of a specified module's memory, including IL2CPP bytes and metadata bytes.
+            </summary>
+        </member>
+        <member name="P:PrincessDumper.PrincessDumper.logger">
+            <summary>
+            The logger used for logging information and errors.
+            </summary>
+        </member>
+        <member name="M:PrincessDumper.PrincessDumper.#cctor">
+            <summary>
+            Initializes the ExtensionMethods class.
+            </summary>
+        </member>
+        <member name="M:PrincessDumper.PrincessDumper.RuntimeDump(System.Byte[]@,System.Byte[]@)">
+            <summary>
+            Performs a runtime dump of the specified module's memory and retrieves IL2CPP bytes and metadata bytes.
+            </summary>
+            <param name="il2cppBytes">Output parameter to store the IL2CPP bytes.</param>
+            <param name="metadataBytes">Output parameter to store the metadata bytes.</param>
+        </member>
+        <member name="M:PrincessDumper.PrincessDumper.ValidateMetadata(System.String,System.Byte[],System.Byte[]@)">
+            <summary>
+            Validates the metadata by checking if the IL2CPP bytes and metadata bytes are the same.
+            If they are the same, it searches for the global-metadata.dat file at the specified path
+            and updates the metadata bytes accordingly. If the file is not found, it prompts the user
+            to input the file path manually.
+            </summary>
+            <param name="metadataPath">The path to the global-metadata.dat file.</param>
+            <param name="il2cppBytes">The IL2CPP file bytes.</param>
+            <param name="metadataBytes">The metadata file bytes.</param>
+        </member>
+    </members>
+</doc>

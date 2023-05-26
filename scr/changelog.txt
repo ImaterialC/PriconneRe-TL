@@ -1,0 +1,113 @@
+118 changes since v6.0.0-pre.1
+
+Changelog (excluding merge commits):
+* (f611f9a) [Kasuromi] Bump Il2CppInterop
+* (de2d03e) [Kasuromi] Bump Il2CppInterop
+* (200dceb) [Kasuromi] Bump Cpp2IL
+* (6aabdb5) [ds5678] Switch to the `development` branch of Cpp2IL (#533)
+* (0b23557) [js6pak] Bump Il2CppInterop
+* (5796f53) [ghorsington] Bump Il2CppInterop, HarmonyX
+* (582f4d0) [js6pak] Bump Il2CppInterop
+* (bea5106) [js6pak] Add a config option to disable xref and disable it by default on x32
+* (40bf261) [ghorsington] Bump Il2CppInterop
+* (0106719) [ghorsington] Bump Cpp2IL version
+* (7b8c677) [ghorsington] Temporarily downgrade to Cpp2IL 2022.0.5
+* (684959d) [ghorsington] Bump Cpp2IL and Il2CppInterop
+* (b3485f4) [ghorsington] Bump Dobby version
+* (b9fe507) [ghorsington] Use Assembly.LoadFrom for loading assemblies
+* (c0b9eae) [ghorsington] Bump Dobby version
+* (44cb650) [ghorsington] Bump Il2CppInterop version
+* (736138b) [ghorsington] Bump Il2CppInterop version
+* (8621f84) [ghorsington] Bump Il2CppInterop
+* (a77efac) [js6pak] Warn about outdated wine
+* (0d2cbe6) [js6pak] Add chainloader events
+* (78b5b58) [ghorsington] Build: Fix NuGet packages not being pushed
+* (b41697c) [ghorsington] CI: Fix BE file lookup; fix last build commit check
+* (e8ba62b) [ghorsington] Specify correct .NET version in README
+* (b917345) [ghorsington] Bump Doorstop version
+* (0e8ff5c) [ghorsington] Use dotnet 6.0.7
+* (9e8c0bd) [ghorsington] Move extra docs to docs/
+* (add17f1) [ghorsington] Add build types to build script; enable CI for all branches
+* (27016a3) [ghorsington] Update build guide
+* (6773609) [ghorsington] Add package descriptions
+* (4695db1) [ghorsington] CI: Update workflow scripts to work with new args
+* (6232925) [ghorsington] Remove old tests project
+* (008f835) [ghorsington] Port Cakebuild script to Cake.Frosting
+* (f7857c7) [ghorsington] Restructure project names and folder layout
+* (ae18f16) [ghorsington] Il2Cpp: Redirect stderr on Windows to log CoreCLR crash messages
+* (c5ca4a8) [ghorsington] Il2Cpp: Add missing Console redirect fix
+* (ad5ca9d) [ghorsington] Bump Doorstop
+* (531bda7) [ghorsington] Use Doorstop 4.0.0-rc.6
+* (8d743ff) [ghorsington] run_bepinex_mono: Fix target name
+* (c770455) [ghorsington] Port #443 from upstream
+* (cb344fb) [ghorsington] Disable linux x86 build for Il2Cpp
+* (6bb83b5) [ghorsington] Bump Il2CppInterop version
+* (ad85dbb) [ghorsington] Fix style
+* (39b84a2) [ghorsington] Remove remaining "unhollow" wording
+* (4b240fc) [ghorsington] Select better entrypoint for Unity 4; restore ThreadingHelper
+* (9e87075) [ghorsington] Use new version handler for Il2CppInteropManager
+* (579ee85) [ghorsington] Add extended Unity version resolver; reorganise projects
+* (f27cfd7) [ghorsington] Fix MonoAssemblyHelper not working on Unity 5 and older
+* (5ef040f) [ghorsington] Add Doorstop folders as solution items
+* (ea6af5f) [ghorsington] Bump Doorstop version
+* (24d2395) [ghorsington] Bump CakeBuild version
+* (2751056) [ghorsington] Remove extra logging
+* (828ef20) [ghorsington] UnityMono: Resolve assemblies into memory using mono API
+* (f400445) [ghorsington] Refactor Unity -> UnityMono
+* (46d9dd4) [ghorsington] Fix Wine check not working on UnityMono version
+* (f658a4f) [ghorsington] Adjust hash info message
+* (d232386) [ghorsington] Use release .NET 6.0.6 builds
+* (d190b06) [ghorsington] Restructure versioning and project configuration
+* (28487d2) [ghorsington] Disable Il2CppInterop parallel writing on Wine
+* (60147c7) [ghorsington] Add platform check for Wine, report Wine version
+* (d42f342) [ghorsington] Bump Il2CppInterop
+* (dcab274) [ghorsington] Bump Il2CppInterop version
+* (cbb864d) [Kasuromi] Pass in delegate instead of function pointer
+* (e0023bb) [Kasuromi] Wrap detour on create
+* (ef89754) [js6pak] Add the using back
+* (0c0b8cf) [Kasuromi] it was still needed
+* (cad26ff) [ghorsington] Update Doorstop
+* (8122165) [ghorsington] Update README
+* (9224a2a) [ghorsington] Update Il2CppInterop
+* (0e58099) [js6pak] Allow changing preloader log name with an env variable
+* (9743fb4) [js6pak] Preloader fail fast
+* (c184450) [ghorsington] Fix BepInExLogger not logging exceptions
+* (0bc9578) [ghorsington] Update Cakebuild script
+* (5ba3199) [js6pak] Add linux support
+* (8d26da3) [js6pak] Centralize the delegate workaround
+* (5dce490) [js6pak] ConsoleOut workaround isn't needed anymore
+* (97998e7) [ghorsington] Use latest dotnet; fix *nix scripts
+* (3538abf) [js6pak] Support macos
+* (12079ae) [js6pak] Improve ConsoleWindow exceptions
+* (1315427) [js6pak] Fix console on wine
+* (266a2c8) [ghorsington] Use new Il2CppInterop detour provider, add Il2CppInterop.HarmonySupport
+* (59097db) [ghorsington] Update Il2CppInterop; use new runner API
+* (abb1073) [ghorsington] Target latest Il2CppInterop code
+* (01635d9) [Kasuromi] Cache Harmony Delegates & Runtime Invoke
+* (68cadbf) [ghorsington] Fix hook logs not showing
+* (6ca26f4) [ghorsington] Clean up after merge
+* (83b72d5) [Kasuromi] Add config option for forced detour provider
+* (9432878) [Kasuromi] Remove unused method
+* (2797bef) [Kasuromi] Add Dobby Detour Provider
+* (1360639) [Kasuromi] Cleanup imports and rename region
+* (8743674) [Kasuromi] Create NativeDetourHelper and internalize funchook
+* (6897bb0) [Kasuromi] Deprecate FastNativeDetour in favor of Funchook
+* (3a47049) [ghorsington] Add dobby to distribution
+* (0da14c5) [ghorsington] BepInEx.IL2CPP: Move runtime info logging to preloader
+* (5afef9a) [ghorsington] FastNativeDetour: temporary fix for net6.0 support
+* (7a54a77) [ghorsington] BepInEx.IL2CPP: Remove old MonoExtensions
+* (b80f297) [ghorsington] BepInEx.IL2CPP: Fix mutex checks
+* (8dc326c) [ghorsington] ConsoleManager: enable console by default
+* (a8dbe2c) [ghorsington] BepInEx.IL2CPP: fix ReferenceLibs copying to output
+* (a1c7f5c) [ghorsington] ConsoleManager: refactor useWinApiEncoder -> useManagedEncoder
+* (57658bd) [ghorsington] BepInEx.IL2CPP: retarget to net6.0, switch to Il2CppInterop
+* (514d273) [ghorsington] Use RC builds for Doorstop 4
+* (c2dfd63) [ghorsington] CakeBuild: Revert "task" -> "target"
+* (b927279) [ghorsington] Il2Cpp: bundle dotnet runtime, add linux/macos
+* (f1146a2) [Dusk Banks] General build.cake clean-up
+* (ab5d882) [Dusk Banks] Normalize target triples (platform names)
+* (a431814) [ghorsington] Add note about platform name
+* (ae9232a) [ghorsington] Add nightly.link comment bot for PRs
+* (f4334f5) [ghorsington] Update CI to work with Doorstop 4
+* (43c8831) [Dusk Banks] [WIP] UnityDoorstop 4 support
+* (643ab34) [Dusk Banks] TODO(Bepis): commit your UnityChainloader patch

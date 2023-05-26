@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Il2CppDumper</name>
+    </assembly>
+    <members>
+        <member name="T:Il2CppDumper.ExtensionMethods">
+            <summary>
+            Provides extension methods for logging and processing IL2CPP files.
+            </summary>
+        </member>
+        <member name="F:Il2CppDumper.ExtensionMethods.logger">
+            <summary>
+            The logger instance for the Il2CppDumper extension methods.
+            </summary>
+        </member>
+        <member name="M:Il2CppDumper.ExtensionMethods.Init(System.Byte[],System.Byte[],Il2CppDumper.Metadata@,Il2CppDumper.Il2Cpp@)">
+            <summary>
+            Initializes the IL2CPP metadata and IL2CPP file.
+            </summary>
+            <param name="il2cppBytes">The IL2CPP file bytes.</param>
+            <param name="metadataBytes">The metadata file bytes.</param>
+            <param name="metadata">The initialized metadata object.</param>
+            <param name="il2Cpp">The initialized IL2CPP object.</param>
+            <returns><c>true</c> if initialization is successful; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:Il2CppDumper.ExtensionMethods.GenerateCecilAssemblies(Il2CppDumper.Metadata,Il2CppDumper.Il2Cpp,System.Collections.Generic.List{Mono.Cecil.AssemblyDefinition}@)">
+            <summary>
+            Generates Cecil assemblies from the metadata and IL2CPP.
+            </summary>
+            <param name="metadata">The metadata object.</param>
+            <param name="il2Cpp">The IL2CPP object.</param>
+            <param name="Assemblies">The generated AssemblyDefinitions.</param>
+        </member>
+        <member name="P:Il2CppDumper.Il2CppType.Union.klassIndex">
+            <summary>
+            for VALUETYPE and CLASS
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Il2CppType.Union.typeHandle">
+            <summary>
+            for VALUETYPE and CLASS at runtime
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Il2CppType.Union.type">
+            <summary>
+            for PTR and SZARRAY
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Il2CppType.Union.array">
+            <summary>
+            for ARRAY
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Il2CppType.Union.genericParameterIndex">
+            <summary>
+            for VAR and MVAR
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Il2CppType.Union.genericParameterHandle">
+            <summary>
+            for VAR and MVAR at runtime
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Il2CppType.Union.generic_class">
+            <summary>
+            for GENERICINST
+            </summary>
+        </member>
+        <member name="T:Il2CppDumper.Resource1">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Resource1.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Resource1.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性，对
+              使用此强类型资源类的所有资源查找执行重写。
+            </summary>
+        </member>
+        <member name="P:Il2CppDumper.Resource1.Il2CppDummyDll">
+            <summary>
+              查找 System.Byte[] 类型的本地化资源。
+            </summary>
+        </member>
+    </members>
+</doc>
