@@ -50,23 +50,18 @@ jobs:
           }
           while (git tag -l $ReleaseTag)
 
-          $Version = Get-Content "Translation/en/Text/Version.txt"
-
-          "RELEASE_NAME=Pricone UI EN DMM v$ReleaseTag" >> $Env:GITHUB_ENV
           "RELEASE_TAG=$ReleaseTag" >> $Env:GITHUB_ENV
-          "VERSION=$Version" >> $Env:GITHUB_ENV
 
           Write-Output "::group::Logs"
-          Write-Output "Release Name: Pricone UI EN DMM v$ReleaseTag"
           Write-Output "Tag: $ReleaseTag"
           Write-Output "::endgroup::"
 
       - name: Create download button
         if: inputs.release_note_download
         run: |
-          "`n# Download`n" >> "./RELEASE_NOTE"
-          "Choose a version:`n" >> "./RELEASE_NOTE"
-          "|[Normal](https://github.com/ImaterialC/PriconeTL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)|[Alternative](https://github.com/ImaterialC/PriconeTL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}_Alternative.zip)|[Textureless](https://github.com/ImaterialC/PriconeTL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}_Textureless.zip)`n|-|-|-|" >> "./RELEASE_NOTE"
+          #"`n# Download`n" >> "./RELEASE_NOTE"
+          #"Choose a version:`n" >> "./RELEASE_NOTE"
+          "|[Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/Re-TL_${{ env.RELEASE_TAG }}.zip)|`n|-|" >> "./RELEASE_NOTE"
           Write-Output "::group::Release Note"
           Get-Content -Raw "./RELEASE_NOTE"
           Write-Output "::endgroup::"
@@ -74,12 +69,12 @@ jobs:
       - name: Generating changelog
         if: inputs.release_note_changelog
         run: |
-          & .\.github\actions\release\make_changelog.ps1
+          & .\.github\scripts\make_changelog.ps1
 
       - name: Generating changelog in Discord format
         id: changes
         run: |
-          & .\.github\actions\release\make_announce.ps1
+          & .\.github\scripts\make_announce.ps1
           "discord_changes<<EOF" >> "$env:GITHUB_OUTPUT"
           Get-Content -Raw "./DISCORD_NOTE" >> "$env:GITHUB_OUTPUT"
           "EOF" >> "$env:GITHUB_OUTPUT"
@@ -89,36 +84,12 @@ jobs:
         run: |
           "`n**Full Changelog:** https://github.com/ImaterialC/PriconeTL/compare/$(git describe --tags --abbrev=0)...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
 
-      - name: Downloading core files
+      - name: Generating artifact
         run: |
-          Write-Output "Creating release folder..."
-          New-Item -ItemType Directory -Force -Path "newrelease"
-          Invoke-WebRequest -URI "https://github.com/BepInEx/BepInEx/releases/download/v5.4.21/BepInEx_x86_5.4.21.0.zip" -OutFile "BepInEx.zip"
-          Expand-Archive -Path "BepInEx.zip" -DestinationPath "newrelease"
-          Invoke-WebRequest -URI "https://github.com/bbepis/XUnity.AutoTranslator/releases/download/v5.2.0/XUnity.AutoTranslator-BepInEx-5.2.0.zip" -OutFile "AutoTrans.zip"
-          Expand-Archive -Path "AutoTrans.zip" -DestinationPath "newrelease"
-          Invoke-WebRequest -URI "https://github.com/FineBrewDev/BepInEx.FullScreenizer/releases/download/1.0/FullScreenizer.dll" -OutFile "./newrelease/BepInEx/plugins/FullScreenizer.dll"
-          Invoke-WebRequest -URI "https://github.com/priconnEnjoyer/XUnity.AutoTranslator/releases/latest/download/XUnity.AutoTranslator.Plugin.Core.dll" -OutFile "./newrelease/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll"
-          Invoke-WebRequest -URI "https://github.com/priconnEnjoyer/XUnity.AutoTranslator/releases/latest/download/XUnity.Common.dll" -OutFile "./newrelease/BepInEx/core/XUnity.Common.dll"
-
-      - name: Generating artifact (Textureless)
-        run: |
-          Copy-Item "config" -Destination "newrelease/BepInEx" -Recurse
-          Write-Output "Copied config into newrelease"
-          Copy-Item "Translation/en/Text" -Destination "newrelease/BepInEx/Translation/en/Text" -Recurse
-          Write-Output "Copied Text into newrelease"
-          "${{ env.VERSION }}".Replace("Unknown", "${{ env.RELEASE_TAG }} Textureless") | Out-File -FilePath "newrelease/BepInEx/Translation/en/Text/Version.txt" -Encoding utf8
+          $Version = Get-Content "src/BepInEx/Translation/en/Text/Version.txt"
+          Set-Content -Path "src/BepInEx/Translation/en/Text/Version.txt" -Value $Version.Replace("Pre-release", "${{ env.RELEASE_TAG }}")
           Write-Output "Generated Version file"
-          Compress-Archive -Path "newrelease/*" -DestinationPath 'PriconneTL_${{ env.RELEASE_TAG }}_Textureless.zip'
-          Get-Item "PriconneTL_${{ env.RELEASE_TAG }}_Textureless.zip" -ErrorAction Stop
-
-      - name: Generating artifact (Normal)
-        run: |
-          Copy-Item "Translation/en/Texture"  -Destination "newrelease/BepInEx/Translation/en/Texture" -Recurse
-          Write-Output "Copied Texture into newrelease"
-          "${{ env.VERSION }}".Replace("Unknown", "${{ env.RELEASE_TAG }}") | Out-File -FilePath "newrelease/BepInEx/Translation/en/Text/Version.txt" -Encoding utf8
-          Write-Output "Generated Version file"
-          Compress-Archive -Path "newrelease/*" -DestinationPath 'PriconneTL_${{ env.RELEASE_TAG }}.zip'
+          Compress-Archive -Path "src/*" -DestinationPath 'PriconneTL_${{ env.RELEASE_TAG }}.zip'
           Get-Item "PriconneTL_${{ env.RELEASE_TAG }}.zip" -ErrorAction Stop
 
       - name: Publish Release
@@ -127,11 +98,9 @@ jobs:
         run: |
           gh release create `
             --latest `
-            --title "${{ env.RELEASE_NAME }}" `
             --notes-file RELEASE_NOTE `
             ${{ env.RELEASE_TAG }} `
             PriconneTL_${{ env.RELEASE_TAG }}.zip `
-            PriconneTL_${{ env.RELEASE_TAG }}_Textureless.zip
 
   announce:
     name: Discord Announcement

@@ -8,9 +8,9 @@ if ($Changelog -match "Changelog") {
         "</summary>" = "";
         "<details>"  = "";
         "</details>" = "";
-        "Changelog"  = "**Changelog:**";
         "Text"       = "Text:";
         "Texture"    = "Texture:";
+        "Other"      = "Other:";
         "-"          = "•"
     }
     ($Replacement | ConvertTo-Json | ConvertFrom-Json).PSObject.Properties.Name | ForEach-Object {
@@ -29,3 +29,5 @@ else {
 }
 
 $Changelog >> "./DISCORD_NOTE"
+
+Set-Content -Value "" -Path 
