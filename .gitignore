@@ -15,12 +15,4 @@ src/BepInEx/Translation/en/Text/2_temp.txt
 src/BepInEx/Translation/en/Text/3_Skill_active.txt
 src/BepInEx/Translation/en/Text/4_Temp.txt
 src/BepInEx/Translation/en/Texture/*.*
-*.exe
-PrincessConnectRediveUninstaller.exe
-PrincessConnectReDive.exe._
-PrincessConnectReDive.exe
-baselib.dll
-UnityCrashHandler64.exe
-UnityPlayer.dll
-GameAssembly.dll
-PrincessConnectReDive_Data/
+src/BepInEx/Translation/en/Texture/Untranslated
