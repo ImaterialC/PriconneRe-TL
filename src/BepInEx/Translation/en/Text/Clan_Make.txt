@@ -1,0 +1,136 @@
+ラン加入=Join Clan
+クラン検索=Search Clan
+クラン結成=Create Clan
+勧誘リスト=Invite List
+
+条件:誰でも加入=Open to All
+方針:指定なし=Policy: None
+人数:指定なし=Mem.: None
+クランバトル:クランモード=CB: Clan Mode
+
+勧誘設定:受け付ける=Will get an invite
+勧誘設定:受け付けない=Won't get an invite
+設定変更=Change Settings
+勧誘設定を変更しますか？=Change invitation setting?
+クランからの勧誘を受け付けるか選択できます。\nすでにクランに所属している場合は、新たに勧誘はされません。=Select whether or not to receive invitation from clans.\nYou will not receive invitations if you are already in a Clan.
+受け付けない=Don't accept
+受け付ける=Accept
+
+※2文字以上=At least 2 characters
+クラン名検索=Search by Clan Name
+メンバー人数=Members
+
+活動方針=Play Stye
+自由にプレイ=Free to Play
+まったりプレイ=Casual
+がっつりプレイ=Hardcore
+初心者OK=Beginners Welcome
+わいわいプレイ=Just Having Fun
+r:"^クランバトル(\d+)位以内$"=Top $1
+毎日ログイン=Online Every Day
+2日以内ログイン=Online within 2 Days
+朝プレイメイン=Mainly Mornings
+昼プレイメイン=Mainly Afternoons
+夜プレイメイン=Mainly Nights
+深夜プレイメイン=Mainly Late-Nights
+
+加入条件=Requirements
+誰でも加入=Open to All
+承認あり=By approval
+勧誘のみ=Invitation Only
+
+シングルモード=Single Mode
+クランモード=Clan Mode
+
+申請中=Pending
+勧誘を拒否する=Reject the invitation
+加入申請する=Apply
+
+プレイヤー情報を見る=View Player Data
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]\nに加入申請を出しますか？\[-\]\[-\]$"=[3C404E]Apply to join\n[FFBB00,CE4F00]$1[-]?[-]
+加入申請確認=Application
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]\nに加入申請を出しました。\[-\]\[-\]$"=[3C404E]You have applied to join\n[FFBB00,CE4F00]$1[-].[-]
+加入申請完了=Application Sent
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]に申請中です。\n申請を取り消しますか？\[-\]\[-\]$"=[3C404E]Cancel application to join\n[FFBB00,CE4F00]$1[-]?[-]
+申請取り消し確認=Cancel Application
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]への\n申請を取り消しました。\[-\]\[-\]$"=[3C404E]You have canceled your application to join\n[FFBB00,CE4F00]$1[-].[-]
+申請取り消し完了=Application Canceled
+
+[FF7C4E,D62146]検索結果に一致するクランが見つかりませんでした。[-]=[FF7C4E,D62146]Unable to find any clans that match your search.[-]
+
+
+クラン説明=Clan Description
+クラン名=clan name
+クランの情報を設定します。=Sets clan information.
+※60文字以内=※60 characters maximum
+※2文字以上10文字以内=※Between 2 and 10 characters
+クラン名を2文字以上入力してください。=Clan name must be at least 2 characters long.
+結成する=Create
+[FF7C4E,D62146]設定内容は結成後でも変更できます。[-]=[FF7C4E,D62146]Settings can be changed later[-].
+r:"^\[3C404E\]\[3C404E\]クラン\[FFBB00\,CE4F00\](.+)\[-\]を\n結成しました。\[-\]\[-\]$"=[3C404E]Created the clan\n[FFBB00,CE4F00]$1[-].[-]
+クラン結成完了=Clan Created
+解散=Disband
+[3C404E][3C404E]クランを[-][FF7C4E,D62146]解散[-][3C404E]します。\nよろしいですか？[-][-]=[FF7C4E,D62146]Disband[-][3C404E] this clan?[-]
+[FF7C4E,D62146]解散後24時間はクランの結成・加入ができません。[-]=[FF7C4E,D62146]You can't join or create a clan for\n24 hours after disbanding.[-]
+クラン編集=Clan Edit
+[FF7C4E,D62146]加入申請中のプレイヤーがいません。[-]=[FF7C4E,D62146]There are no players application.[-]
+メンバー管理=Member Management
+勧誘プレイヤーリスト=Invite player list
+加入申請リスト=Join application list
+加入/勧誘リスト=Join/Invite List
+メンバーを探す=Find Members
+r:"^プレイヤーLv ： ([0-9 ～]+)$"=Player Lv : $1
+プレイヤー情報=Player Info
+勧誘=Invite
+勧誘を解除=Cancel Invite
+除名する=Delete
+クラン勧誘=Clan Invite
+よろしくお願いします。=Nice to meet you.
+シングルモード参加=Participation in single mode
+r:"^(.+)をクランに勧誘しますか？$"=Invite $1 to join the clan?
+勧誘コメント=Invite Message
+r:"^(.+)を勧誘しました。$"=You sent an invite to $1.
+
+r:"^(.+)への勧誘を取り消しました。$"=Invite to $1 canceled.
+勧誘取り消し=Cancel Invite
+すでに勧誘済みです。=Already Invited
+加入する=Join
+勧誘
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの勧誘を\n拒否しますか？\[-\]\[-\]$"=[3C404E]Decline invite from\n[FFBB00,CE4F00]$1[-]?[-]
+勧誘拒否確認=Decline Invitation
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの勧誘を\n拒否しました。\[-\]\[-\]$"=[3C404E]You have declined the invitation from\n[FFBB00,CE4F00]$1[-].[-]
+勧誘拒否完了=Invitation Declined
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの加入を\n拒否しますか？\[-\]\[-\]$"=[3C404E]Decline apply from\n[FFBB00,CE4F00]$1[-]?[-]
+加入拒否確認=Decline Application
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの加入を\n拒否しました。\[-\]\[-\]$"=[3C404E]You have declined the application from\n[FFBB00,CE4F00]$1[-].[-]
+加入拒否完了=Application Declined
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]\nに加入しますか？\[-\]\[-\]$"=[3C404E]Do you want to join\n[FFBB00,CE4F00]$1[-]?[-]
+加入確認=Join Confirmation
+
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]\nに加入しました。\[-\]\[-\]$"=[3C404E]Joined\n[FFBB00,CE4F00]$1[-].[-]
+加入完了=Join the Clan
+
+クランを解散しました。=Clan disbanded.
+r:"^(\d+)時間(\d+)分後にクラン結成が可能です。$"=You can create a clan after $1h$2m.
+r:"^(\d+)分後にクラン結成が可能です。$"=You can create a clan after $1m.
+r:"^(\d+)時間(\d+)分後にクラン加入が可能です。$"=You can join a clan after $1h$2m.
+r:"^(\d+)分後にクラン加入が可能です。$"=You can join a clan after $1m.
+初心者応援クラン=Beginners support clan
+まったりやりましょう=Let's take it easy.
+サーバーエラー=Server Error
+前回、このプレイヤーから勧誘を拒否されました。\n勧誘拒否から24時間以内は勧誘できません。=Last time you declined an invitation from this player. You cannot
+Invite within 24 hours after the Invitation is rejected.
+NPC
+他のプレイヤーと、クランを結成しましょう。\nクランを結成すると、クランバトルやダンジョンで協力して戦えます。=Team up with other player to form a clan.\nDoing so allows you to fight alongside ach other in Clan Battle and Dungeons.
+
+クランに入れるらしいわよ\nせっかくだから入ってみたら？\nけっこう楽しいみたいよ♪=Looks like you can join a Clan.\nWhy not give it a try?\nCould be a lot of fun!♪
+こちらでクランに加入できます\n素敵なクランがたくさんあって、\n目移りしてしまいますね=You can join a Clan here.\nThere are so many wonderful Clans, it is difficult fo choose.
+クランに加入してみませんか？\nみんなといっしょに冒険した方が、\n楽しいですよ！=Want to join Clan?\n It's a lot more fun going on adventures as a team!

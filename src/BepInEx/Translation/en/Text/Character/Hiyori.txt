@@ -1,0 +1,45 @@
+Profileヒヨリ
+ヒ=Hi
+人助け、応援=Helping people, cheering
+人助けが大好き！　前向き格闘娘=An optimistic fighter who loves helping people
+Skills
+UB
+
+【物理】前衛で、敵前線を押し返す笑顔の元気娘。前衛に対して大ダメージを与えるユニオンバーストと、自身の攻撃力を強化するスキルを持つ攻撃役。=[Physics] A cheerful girl who fights from the vanguard to push back the enemy's front lines. An offensive fighter with a Union Burst that hits the vanguard hard and skills that enhance her own attack power.
+
+ドキドキがくれるパワー=Power that makes your heart beat
+ストレイキャットメモリー=Stray cat memory
+助けるべき悪人=villain to help
+ムズムズの秘密=Itchy secret
+
+エールを送りたいのに=Yell for You Yell for Me
+勝利を君に=Something to Fight For
+休みたいのに休めない！=No Rest for the Wicked!
+しっぽは反則？=The Tail's Off-Limits!
+ストレイキャットガール=The Stray Cat Girl
+願いは笑顔のために=An Earnest Desire for Happiness
+誓いのゆびきり=A Promise Worth Keeping
+困った時はお互いさまさま=I Scratch Your Back, You Scratch Mine
+
+ヒヨリラッシュ=Hiyori Rush
+目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals large P.DMG to an enemy directly in front and deals moderate P.DMG to all enemies in a small radius around it.
+r:"^敵単体に(\d+)の物理ダメージ\n範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to enemies in range.
+S1
+キャットストライク=Cat strike
+キャットストライク+=Cat strike+
+S2
+キャットコンビネーション=Cat Combination
+目の前の敵１キャラに物理小ダメージを与え、さらに自分の物理攻撃力を中アップさせる。=Deals small P.DMG to an enemy directly in front. Boosts own P.ATK by a moderate amount.
+ex
+肉球パワー！=Paw Power
+Skills+
+UB
+ヒヨリバーニングラッシュ=Hiyo River Ningy Rush
+目の前の敵１キャラに物理特大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。=Deals massive P.DMG to an enemy directly in front and deals moderate P.DMG to all enemies in a radius around it.
+S1
+目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理小ダメージを与える。=Deals large P.DMG to an enemy directly in front and deals small P.DMG to all enemies in a small radius around it.
+S2
+ex
+肉球パワー！+=Paw Power+
+UE
+ニャンピオンベルト=Nyampion's Belt

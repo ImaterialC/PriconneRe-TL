@@ -1,0 +1,29 @@
+【魔法】中衛で、魔力共鳴し連撃を放つマナリアの双姫。ステータスアップ効果を受けると増加する【友情の魔印】がスキルを強化し、波長を合わせた炎の魔槍で敵を討つ。=[Magic] A twin princess of Manaria who resonates with magic and fires continuous attacks in the MG. The [Magic Seal of Friendship] give status-up effects, strengthens her skills, and she strikes down her enemies with her wavelength-aligned flame magic spear.
+
+一緒にピアノを連弾すること=Make a piano together
+ヒューマン、半人半竜=Human, half-human half-dragon
+
+約束を誓い合うマナリアの双姫=Two Princesses of Manaria who vow to each other
+人助けの魔法=Magic of Helping People
+再会の魔法=Magic of Reunion
+繋がりあう魔法=Magic to Connect
+素直になる魔法=Magic of Being Honest
+
+レイディアントインフェルノ=Radiant Inferno
+r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n►Boosts allies' M.ATK by $3 for 18s.
+
+目の前の敵１キャラに魔法大ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。さらに、自分の周囲の味方すべての魔法攻撃力を大アップさせる。=Inflicts large M.DMG twice on the enemy in front. The damage of this skill boost according to the number of Magic Seals of Friendship. In addition, Large boost M.ATK of all allies around you.
+
+フレンズリンケージ=Friends Linkage
+フレンズリンケージ+=Friends Linkage+
+r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ$"=Cast time: 1.59s\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.
+
+目の前の敵１キャラに魔法小ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。=Inflicts minor M.DMG twice to the enemy in front. The damage of this skill boost according to the number of Magic Seal of Friendship.
+
+
+フレンズリード=Friends Lead
+r:"^ステータスアップ効果を受けるたびに【友情の魔印】を付与する状態になる\n自分の魔法攻撃力を(\d+)アップ\n自分の魔法クリティカルを200アップ\n自分のＴＰ上昇を15アップ$"=Cast time: 0.59s (once on start of battle)\n►Whenever self receive buffs, add 1 [Magic Seal of Friendship]\n►Boosts own M.ATK by $1 for 90s.\n►Boosts own M.Crit by 200 for 90s.\n►Boosts own TP boost by 15 for 90s.
+自分がステータスアップ効果を受ける度に、【友情の魔印】が１つ追加される。【友情の魔印】は最大40まで追加される。さらに自分の魔法攻撃力と魔法クリティカルを特大アップさせ、ＴＰ上昇を小アップさせる。=Each time you receive a buff, 1 [Magic Seal of Friendship] is added (up to 40). In addition, Large boost own M.ATK and M.crit rate, and slightly boost TP Boost.
+
+マナリアハート=Manaria Heart
+マナリアハート+=Manaria Heart+

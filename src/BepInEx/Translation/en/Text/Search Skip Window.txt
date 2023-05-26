@@ -1,0 +1,64 @@
+検索=Search
+チェック全解除=Uncheck All
+リスト切替=Switch
+クエスト一覧=Quest List
+チェックのみ=Check Only
+検索結果=Search Results
+絞り込み中=Filtering
+絞り込みが設定されています。=Selection filtered.
+対象のクエストがありません。=No checked quests.
+まとめてスキップ=Skip
+アイテム名から検索=Item Name
+アイテム長押しで詳細を=Hold to check for item info.
+選択全解除=Clear
+選択中アイテム=Selected
+装備品=Equip
+ピュアメモリーピース=Pure Shards
+レア度=Rarity
+アイテム種類=Item Type
+チケット=Ticket
+１クエストの使用チケット枚数=Tickets used per quest
+全クエスト=All Quests
+サイドスト…=Side-story
+残り挑戦回数がありません。=No attempts remaining.
+[FF7C4E,D62146]残り挑戦回数がありません。[-]=[FF7C4E,D62146]No attempts remaining.[-]
+実行可能なクエストがありません。=There are no available quests.
+本日挑戦できないクエストのみ選択されています。=Only quests that cannot be challenged\nare selected.
+装備済み=Equipped
+装備可能キャラ=Equipable
+装備可能なキャラがいません=No chars available.
+チェックしたクエストがありません。=There are no quests selected.
+以下クエストは次回まとめてスキップの対象外です=These quests are not eligible for batch skip.
+スタミナ、挑戦回数不足のため\n実行できないクエストがあります。=Some quests cannot be performed\ndue to lack of stamina or challenges.
+チェック済みのクエストがあります。=There are quests that have already been checked.
+同時に検索できるアイテムは３個までです。=Only up to three items that can be searched at the same time.
+サイドストーリー HARD=Side Story(HARD)
+プリセット編集=Edit Preset Name
+スキップボーナス=Skip Bonus
+キャラを選択してください。=Please select a character
+
+スキップするクエスト=# of Quests
+合計スキップ回数=# of skip tix
+
+確認できます。= 
+クエスト検索=Confirm
+
+表示クエスト=Display Quest
+キャンペーン一覧=Campaign List
+スタミナ不足のため実行できないクエストがあります。=Some quests cannot be performed\ndue to lack of stamina.
+
+回復なしで次へ=Don't Reset
+回復する=Reset
+
+まとめて挑戦回数回復=Reset Confirmation
+残り挑戦回数が0のクエストがあります。=These quests have 0 runs remaining.
+ジュエルを消費して、以下のクエストの\n残り挑戦回数をまとめて回復しますか？=Do you want to reset with Jewels?
+
+まとめてスキップ確認=Skip Confirmation
+スキップチケットとスタミナを消費して、以下のクエストを実行します。よろしいですか？=Spend skip tickets and stamina to do the following quests.
+
+スキップ済み確認=Skip Confirmation
+前回まとめてスキップ時にスキップできなかった\nクエストが次回まとめてスキップの対象となります。=Quest that could not be skipped will be skipped next time.
+
+対象のアイテムがありません。=There is no target item.
+対象クエストの残り挑戦回数を超えてスキップはできません。=You cannot skip beyond the number of remaining attempts in the target quest.

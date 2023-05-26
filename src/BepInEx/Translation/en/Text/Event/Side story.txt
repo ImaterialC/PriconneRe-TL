@@ -1,0 +1,192 @@
+イドストーリー=ide Story
+サイドストーリー=Side Story
+
+
+
+sr:"^\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]が解放されました。\[-\]$"=[3C404E]The [FFBB00,CE4F00]$1[-] has been unlocked.[-]
+r:"^メインクエスト([0-9\-\(\)（）\w ]*)クリアで$"=Cleared Main Quest $1
+
+sr:"^(.+) エンディングを閲覧$"=Unlock by View ending of $1
+
+コンテンツ解放=Unlock Content
+
+エンディング=Ending
+イベントストーリー=Event Story
+イベントストーリー一覧=Event Story List
+入手できるメモリーピースで絞り込み=Filter by Memory Shards
+クエストが解放されていません。=The quest has not been unlocked.
+全キャラ=All Char
+
+未クリア=Not Cleared
+開催順=Release Order
+
+ボスバトル（NORMAL）をクリアで解放されます。=Defeat Normal Boss First
+
+キャラ選択中=Selection
+
+討伐済みです。=Already Cleared
+
+これまでのイベントで登場した\n限定キャラを仲間にできたり\nメモリーピースが手に入る\nみたいですよ。やばいですね☆=It seems that you'll be able befriend limited characters from previous events and get their memory shards. Yabai~
+
+過去のストーリーイベントを\n楽しめちゃいますよ！\n遊んだことのないものがあれば\n一緒にやってみましょう♪=You can enjoy story events from the past, and if there's one you haven't played before, we'll do it with you.
+[FF7C4E,D62146]討伐完了[-]=[FF7C4E,D62146]Subjugation Completed[-]
+ストーリー初回閲覧で、\nボーナスアイテムを獲得できます。=You can get bonus items for\nthe first time view of the story.
+ミッションをクリアすると、\n報酬がもらえますよ！\n頑張ってください=If you clear the mission, you will get rewards! Please do your best
+イベントボス（NORMAL）を解放すると確認できます。=You can confirm by releasing the event boss (normal).
+日高里菜＆諸星すみれ＆小倉唯あああ=Rina Hidaka & Sumire Moroboshi & Yui Ogura
+===NPC===
+ミッションをクリアして、\n報酬をゲットしましょう！=Clear the mission and get a reward!
+
+====
+===Wonderland===
+メモリアルマップ=Memorial Map
+黒の王ジャバウォック=Black King Jabberwock
+r:"^不思議の国([0-9\-\(\)\w （）]*)$"=Wonderland $1
+===Cassino===
+r:"^カジノホール([0-9\-\(\)\w （）]*)$"=Cassino Hall $1
+===St. Teresa Girls' Academy Holy School Festival===
+聖テレサ女学院 聖学祭会場=St. Teresa Girls' Academy Holy School Festival Venue
+聖学祭\nプログラム=St.School Fes Program
+名もなき芸術=Nameless Art
+r:"^聖テレサ女学院 聖学祭会場([0-9\-\(\)\w （）]*)$"=Peripheral Tapas Beach $1
+===Beach Tapaz: kokkoro Summer===
+r:"^タパスビーチ周辺([0-9\-\(\)\w （）]*)$"=Peripheral Tapas Beach $1
+===
+r:"^サンレインビーチ([0-9\-\(\)\w （）]*)$"=Sunrain Beach $1
+====
+r:"^ウィッシュビーチ周辺([0-9\-\(\)\w （）]*)$"=Around Wish Beach $1
+r:"^星降る天の川([0-9\-\(\)\w （）]*)$"=Starring Milky Way $1
+覚醒・浮気星=Awakening / cheating star
+ウィッシュビーチ周辺=Around Wish Beach
+未登録=Unregistered
+ナナカの水着=Nanaka swimsuit
+水着でも二刀流=Two -sword style in swimwear
+見守るということ=To watch
+七夕の願い=Tanabata's wish
+ギルドの近況=Guild status
+魔法少女\nらしさとは=Magical girl\nWhat is the feeling?
+感想は？=impression?
+天才魔法少女=Genius magical girl
+新たな変身グッズ=New transformation goods
+ナナカ新魔法！=Nanaka new magic!
+海でやること=Do it in the sea
+飲み物といえば=Speaking of drinks
+日焼け、\nどうする？=Sunburn,\nwhat will you do?
+お土産といえば=Speaking of souvenirs
+織姫について=About Orihime
+彦星について=About Hikoboshi
+織姫のこれから=Orihime's future
+素質を\n見抜いた理由=Qualities\nReasons for seeing through
+謎のマフラー=Mysterious muffler
+スタイルについて=About style
+====
+r:"^ビーチボールパーク([0-9\-\(\)\w ]*)$"=Beach Ball Park $1
+渚の暴君・鮫吉=Nagisa's Tyrant Samekichi
+===Pirate
+解放されし財宝の守護者=The Guardian of the Liberated Treasure
+r:"^呪われた海賊島([0-9\-\(\)\w ]*)$"=Cursed Pirate Island $1
+縮小=[-]
+拡大=[+]
+これ以上縮小できません。=Cannot be zoom out anymore.
+これ以上拡大できません。=Cannot be zoom in anymore.
+=====
+r:"^タイムトンネル([0-9\-\(\)\w （）]*)$"=Time Tunnel $1
+バースト・タイムラーベ=Burst Time Love
+=====
+r:"^キャンピングフィールド([0-9\-\(\)\w （）]*)$"=Camping Field $1
+アストライアタケモドキ=Astrea Takemodoki
+キャンプと野営=Camps and wild management
+バケーション・\nジュン=Vacation\nJun
+いつもの習慣=The usual habit
+はじめての\nグループキャンプ=For the first time\nGroup camp
+コーヒーに映る\n精神=Appear in coffee\nspirit
+癒して\nぼっち精神=Heal\nSpirit
+たき火の魅力=The charm of bonfire
+最高の一杯に\n必要な物=To the best cup\nNecessary
+最高の一杯を\n求めし女=The best cup\nDesired woman
+========
+r:"^王都ランドソル([0-9\-\(\)\w （）]*)$"=Landosol City $1
+r:"^王都ランドソル 女神の祭典([0-9\-\(\)\w （）]*)$"=Landosol City: Goddess Festival $1
+r:"^おもちゃ工場([0-9\-\(\)\w （）]*)$"=Toy Factory $1
+究極玩具王 メガトイキング=Ultimate Mega Toy King
+作業服の\n着心地は？=Workwear\nWhat is your comfort?
+人生初アルバイト\nスタート！=My first part-time job\nstart!
+バイト仲間作りで\n脱ぼっちへ！=By making a part-time job\nTo take it off!
+ミフユさんとは\nうまくやれてる？=What is Mifuyu?\nAre you doing it well?
+おもちゃ作りは\nもう慣れた？=Toys making\nalready get used to?
+タマキの\n印象について=Tamaki\nAbout the impression
+マイフレンドくん\nカスタマイズ！=My Friend\nCustomize!
+========
+暴走のイノセントボウ=Runaway Innocent Bow
+ナナカについて=About Nanaka
+初めてのオフ会\nについて=The first off -line meeting\nabout
+入れ替わり\nについて=Replacement\nabout
+エンジェルの衣装=Angel costume
+ラフィについて=About raffy
+リンについて=About phosphorus
+誰と\n入れ替わりたい？=with who\nWant to replace it?
+巨大弓矢\nについて=Giant bow and arrow\nabout
+ヨリについて=About Yori
+ラフィを\n見送って=Raffle\nOff
+アカリについて=About Akari
+ユキについて=About Yuki
+スズナについて=About Suzuna
+初めてのフェス=First festival
+最高最強の双子=The strongest twins
+==========
+バカンスへの招待状=Invitation to Vacation
+r:"^第二ゲームのビーチバレーに挑むことになったチームトゥインクル。相手チームの(.{1,10})への想いの力に翻弄されるも、自分も気持ちを解き放つ決意をしたレイの活躍により、逆転勝利を決めた。$"=Team Twinkle has decided to challenge the beach volleyball of the second game. Although he was at the mercy of the opponent team's feelings for $1, Ray decided to release his feelings and decided to win in a come-from-behind victory.
+必勝法は耳にあり=The winning method is in your ears
+夜空に誓う三つの想い=Three feelings to swear in the night sky
+続く第３ゲーム、ハイ＆ローは、数字が７より上か下かを選ぶ単純な運試しとみられたが、ユイはこのゲームに隠されたヒントに気づく。一方、島の極秘区画では、ゲームの様子を覗き見る観覧者の姿があった。=The third game, High & Low, seemed to be a simple luck test to choose whether the numbers were above or below 7, but Yui noticed a hint hidden in the game. On the other hand, in the top secret section of the island, there was a viewer looking into the game.
+素直な気持ちで=With honest feelings
+r:"^第４ゲームはボートレース。呼吸を合わせることが大事だが、いまだ調子の上がらないヒヨリは、焦りから空回る。しかし(.{1,10})のおかげで落ち着きを取り戻し大復活。見事勝利を飾ったのだった。$"=The fourth game is boat racing. It's important to keep breathing together, but Hiyori, who isn't feeling well yet, runs idle from impatience. However, thanks to $1, she regained her composure and made a big comeback. It was a brilliant victory.
+三つの想いが向かう先=The destination of the three thoughts
+最終ゲームはなんと、チームメンバー同士で争うビーチフラッグ。支配人は、メンバー同士の醜い蹴落としあいを目論むが、遠慮をしないと誓い合ったヒヨリたちは、正々堂々力を出し切ろうと笑顔を見せた。=The final game is a beach flag where team members compete with each other. The manager aims for an ugly kick-off between the members, but Hiyori and his friends, who vowed not to hesitate, smiled as if they were trying to do their best.
+夏海に告げる想い=Summer Confession
+暴走した支配人に放たれた魔物をなんとか制圧したヒヨリたち。改心した支配人を許したヒヨリ、ユイ、レイは、再びビーチフラッグで競い合う。昨夜誓い合った想いを胸に、三人は一斉に駆け出すのだった。=Hiyori who managed to suppress the monsters released by the runaway manager. Hiyori, Yui, and Rei, who forgave the converted manager, compete again at the beach flag. With the feelings they swore last night in their hearts, the three rushed out all at once.
+バカンスは終わらない=Vacation not end yet
+海辺に集められたゲーム参加者達。そこには正々堂々競い合える場、アルティメットビーチフラッグスのコースが。テクニカルな仕掛けが追加されたコースにワクワクする一同。再び全力バトルの幕が開く！=Game participants gathered at the beach. There is a course of Ultimate Beach Flags, a place where you can compete openly. Everyone is excited about the course with the addition of technical gimmicks. The curtain of full-scale battle opens again!
+
+r:"^サマーゲームリゾート([0-9\-\(\)\w （）]*)$"=Summer Game Resort $1
+海将タツノココマンダー=General Tatsunoko
+トゥインクルサマーゲーム　夏海にきらめく三つの想い エンディングを閲覧で解放=Release by View ending of Twinkle Summer Game: Sparkle Memories In the Summer Sea
+はじけるバカンスガール=Battle Vacation Girl
+オープニング=Opening
+集うゲーム参加者達=Game participants to gather
+気持ち、解き放って=Feeling, releasing
+支配人=Manager
+必勝法は耳にあり=The winning method is in the ear
+====
+r:"^とある無人島([0-9\-\(\)\w （）]*)$"=A Certain Uninhabited Island $1
+残りクリア回数=Number of remaining clears
+合計完了数=Total completion number
+今回の進捗=Progress
+経過した秒数=Elapsed
+宿題=homework
+得意な宿題=Homework You are Good 
+ちょっと苦手な宿題=Homework You are Little Weak
+すごく苦手な宿題=Homework You are Very Weak
+ボスバトル（HARD）をクリアで解放されます。=Clear Boss Battle (Hard) to unlock.
+r:"^\[FF7C4E,D62146\](\d+)回目挑戦！\[-\]$"=[FF7C4E,D62146]$1 × challenge! [-]
+r:"^(\d+)回完了$"=Done × $1
+残り宿題=Remaining homework
+最高最大のご褒美を=The biggest reward
+スペシャルバトルはバトルモードが３段階変化するバトルです。\nより豪華な報酬やミッション報酬をゲットしましょう。期間中１回しかクリアできないので編成を工夫して挑戦しましょう。=The special battle is a battle mode that changes in three steps. Get more luxurious rewards and mission rewards. You can clear it only once during the period, so let's try the formation by devising it.
+主さまが宿題に励んでおられるようです。\n宿題が終わるまでモンスターの攻撃を耐え抜けば勝利となりますよ。\n宿題がどこまで進んでいるかは画面のゲージを確認しましょう。	=It seems that the Lord is working hard on homework. If you endure the monster attack until the homework is over, you will win. Check the gauge on the screen to see how far homework is going.	
+エキシビションモードは、SPECIALのバトルに何度も挑戦できます。\nまた、バトルのログを保存して振り返ることができるので、\n独自の攻略法を見つけたり、様々な編成を試してみましょう。=Exhibition mode can challenge the Special battle many times. Also, you can save the battle log and look back, so let's find a unique strategy and try various formation.
+夏休み最後まで残りし宿題=Remaining to the end of summer vacation and homework
+得意な宿題を1回終わらせよう=Finish the homework that is a strong
+ちょっと苦手な宿題を1回終わらせよう=Finish the homework that is a little weak
+すごく苦手な宿題を1回終わらせよう=Finish the homework that is very weak once
+夏休み最後まで残りし宿題を1回終わらせよう=Leave the homework once until the end of the summer vacation
+=============================
+
+r:"^カルミナサマーライブ会場([0-9\-\(\)\w （）]*)$"=Carmina Summer Live Venue $1
+クイーンウタクラゲ=Queen Singer Jellyfish
+====
+r:"^港町・オーマ([0-9\-\(\)\w （）]*)$"=Port town Oma $1
+グレートトゥンヌス=Great Tunnus
+VERY HARDでカズマサさまが援護してくれるようです。強力なスタン効果のユニオンバーストで、サポートしてくださいますよ。ボスが身動きを取れなくなっている間に、一気に倒しましょう。=It seems that Kazumasa-sama will support you in VERY HARD. I will support you with a powerful stun effect UB. While the boss is stun, let's defeat it at once.
+
+ゲストキャラ確認=Guest Character Confirmation

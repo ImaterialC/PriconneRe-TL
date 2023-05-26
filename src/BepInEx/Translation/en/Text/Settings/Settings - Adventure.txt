@@ -1,0 +1,7 @@
+アドベンチャーで、同じ名前のキャラを同一パーティ内に編成できるようにするかの設定です。=Set whether or not characters of the same name can be used in the same party at Adventure
+アドベンチャー同名キャラ編成=Add Characters with the Same Name at Adventure
+
+アドベンチャー完了通知=Adventure Completion Notification
+アドベンチャーが完了したときに通知します。=Notify when the Adventure is completed.
+アドベンチャー周回完了通知=Adventure Lap completion notification
+繰り返し設定をしたアドベンチャーが完了したときに通知します。=Notify when the repeated adventure is completed.

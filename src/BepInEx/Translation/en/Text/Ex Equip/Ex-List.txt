@@ -1,0 +1,185 @@
+武器=Weapon
+アクセサリ=Accessory
+アクセサリー=Accessories
+防具=Armor
+EX装備コイン=EX Equip Coin
+EX装備=Ex Equip
+毎日9:00ラインナップ更新=Lineup update at 9:00 every day
+EX装備分解=Dismantle EX Equipment
+強化Pt=Refine PT
+強化Pt聖杯=Refine PT Holy
+スキル２=Skill 2
+スキル１=Skill 1
+
+片手剣=Sword
+両手剣=Claymore
+短剣=Dagger
+槍=Spear
+斧=Axe
+弓=Bow
+拳=Fist
+盾=Shield
+杖=Wand
+本=Book
+服=Clothes
+鎧=Armor
+白ローブ=White look
+黒ローブ=Black look
+指輪=Ring
+腕輪=Bracelet
+ネックレス=Necklace
+宝珠=Jewel
+イヤリング=Earring
+おまかせ強化対象の素材がありません。=There is no material to be enhanced.
+必要コイン=Required Coin
+アイテム一覧へ移動しますか?=Do you want to go to the Item List?
+購入に必要なEX武器コインが不足しています。=There is a shortage of EX Equip Coins required for purchase.
+アイテム一覧へ=Item List
+EX武器コイン不足=Insufficient Ex Equip Coin
+おまかせ分解設定=Auto Dismantle Settings
+まとめて\n分解する=Batch\nDismantle
+おまかせ\n分解する=Auto\nDismantle
+10個のアイテムを選択中=Select 10 items
+外す=Unequip
+分解=Dismantle
+保護=Protection
+上限解放=Limit Break
+まとめて分解=Batch Dismantle
+選択解除=Deselect
+絞り込み中(仮)=Filter (provisional)
+詳細表示するEX装備を\n選択してください。=Select the EX Equip to be displayed in detail.
+上限に達したアイテムはプレゼントに送られます。=Items that reach the limit will be sent to Present Box.
+使用制限状態のEX装備は選択できません。=Already used EX equipment cannot be selected.
+
+他キャラが装備中のEX装備が選択されています。=The Ex Equip currently equipped by other characters is selected.
+パーティキャラのEX装備を変更できます。=You can change the Ex Equip of the party character.
+EX装備が変更されていません。=EX Equip has not been changed.
+装備確定=Equip Confirmation
+おまかせ装備=Auto Equip
+EX装備設定=Ex Equip Settings
+全て外す=Remove All
+装備なし=No equipment
+選択可能なEX装備を所持していません。=You do not have selected Ex Equip.
+EX装備入れ替え詳細=Replace details
+装備選択=Equipment selection
+装備可能なEX装備がありません。=There is no Ex Equip that can be equipped.
+入れ替えるEX装備が選択されていません。=The Ex Equip to be replaced is not selected.
+上限解放回数=Limit Breaks
+スキルあり=Skills
+
+EX装備絞り込み=Filter EX Equipment
+選択したEX装備を絞り込み表示します。=Selected EX equipment will be filtered.
+
+絞り込みをリセット=Reset Filter
+アクセサリー全て=All Accessories
+EX防具アクセサリー交換対象=Ex Accessories replacement target
+防具全て=All Armor
+EX防具コイン交換対象=Ex Armor coin replacement target
+武器全て=All Weapons
+EX武器コイン交換対象=Ex Weapon coin replacement target
+EX装備種別=Ex Equip type
+優先消費設定=Priority consumption setting
+アドベンチャーで獲得した際に自動で分解するEX装備を設定します。=Set EX Equip that will be auto dismantled\nwhen acquired in an adventure.
+
+おまかせ強化設定=Auto Refine Setting
+EX装備強化=EX Equip Refine
+所持強化Pt=Possession Pt
+EX装備強化Ptを使用します。=Use Ex Equip Refine PT.
+EX装備強化Pt使用=EX Equip Refine Pt use
+
+装備中のEX装備は選択できません。=Ex Equip in equipment cannot be selected.
+保護状態のEX装備は選択できません。=Ex Equipment in protected state cannot be selected.
+未装備のEX装備です。=Unequipped Ex Equipment.
+装備可能なキャラがいません。=There is no character that can be equipped.
+装備するキャラを選択してください。=Please select the character to be equipped.
+装備するキャラを選択できます。=You can select the character to be equipped.
+装備キャラ選択=Equipment character selection
+
+獲得上限解放Pt=Max Limit Break Pt
+使用できる素材がありません。=No materials can be use.
+上限解放素材を選択してください。=Please select the Limit Break material.
+選択数=Select
+EX装備上限解放=Ex Equipment Uncap
+EX装備は\nアドベンチャーで入手することができます。=Ex Equipment can be obtained by Adventure.
+
+EX装備一覧にフィルタを適用します。=Apply the filter to the Ex Equipment list.
+EX装備強化素材絞り込み=Filter Ex Equipment refine material
+おまかせ強化実行時の消費対象を設定します。=Set the consumption target when performing Auto Refine.
+おまかせEX装備強化設定=Auto Ex Equipment Refine Setting
+EX装備強化Pt=Ex Equip\nRefine Pt
+
+以下のアイテムを消費して強化します。=Consume the following items to refine it.
+EX装備強化確認=EX Equipment Refine Confirmation
+★3以上のEX装備が消費されます。=★3 or more Ex Equipment is consumed.
+返還アイテム=Returned item
+
+
+EX装備(武器)を装備していません。=Not equipped with\nEx Equipment (weapons).
+EX装備(防具)を装備していません。=Not equipped with\nEx Equipment (armor).
+EX装備(アクセサリー)を装備していません。=Not equipped with\nEx Equipment (accessories).
+装備変更=Change
+EX装備一覧=Ex Equipment list
+変更せずにダイアログを閉じます。\nよろしいですか？=Close windows without changing.\nIs it OK?
+差分確認=Check Changes
+
+他キャラが装備中のEX装備を選択する=Select EX equipment that\nother characters are equipped with
+優先ステータス=Priority Status
+条件を指定して自動でEX装備を装備します。=Equip EX equipment automatically\nby specifying the conditions.
+おまかせEX装備設定=Auto Ex Equipment Settings
+
+装備選択(クランバトル)=Equipment Selection (Clan Battle)
+入手可能な遠征クエストがありません。=No expedition quests available.
+この装備はこれ以上上限解放できません。=This equipment cannot be Limit Break anymore.
+
+以下のEX装備を装備します。=Equipped with the following Ex Equipment.
+おまかせEX装備確認=Auto Ex Equipment Confirmation
+変更後=After
+変更前=Before
+sr:"^「(.+)」のEX装備$"="Ex Equipment of "$1""
+sr:"^EX装備（(.+)）$"=Ex Equipment ($1)
+入手可能なアドベンチャークエストがありません。=There is no available Adventure quest.
+以下のアイテムの入手方法を確認できます。=You can check how to get the following items.
+
+EX装備の選択上限に達しています。=reached the selection limit for EX equipment.
+EX装備入れ替え確認=EX Equipment replacement confirmation
+EX装備を入れ替えます。\nよろしいですか？=Swap the EX equipment.\nIs it OK?
+
+r:"^(\d+)Pt使用$"=Use $1pt
+装備品・強化アイテムは\nクエストで入手することができます。=Equipment and Refinement items can be obtained from quests.
+以下のアイテムを消費して上限解放します。=Consume the following items to Uncap.
+EX装備上限解放確認=Confirm Uncap Ex Equipment
+
+EX装備で、キャラのステータスをさらにパワーアップできます。付け替えできるのでお気に入りの組み合わせを探してみましょう。EX装備はアドベンチャーで入手できますよ。=With EX equipment, you can further power up the character's status. You can change them, so find your favorite combination. EX equipment can be obtained in adventure.
+
+EX装備コインを使ってEX装備の交換ができるようです。\nEX装備コインは武器・防具・アクセサリーの種類があり、\n対応するEX装備を分解または強化で消費すると手に入りますよ。=It seems that EX equipment can be exchanged using EX equipment coins. There are types of EX equipment coins for weapons, armor, and accessories, and you can get them by disassembling or enhancing the corresponding EX equipment.
+
+【クラン】ホープオブアーチャー=[Clan] Hope of Archer
+
+
+カシコミノツルギ=Kashikominotsurugi
+ヒドゥンエッジ=Hidden Edge
+白馬の戦弓=White Horse War Bow
+クルーエルナックル=Cruel Knuckle
+グリーンウッド=Green Wood
+スペリオールガントレット=Superior Gauntlets
+レッドアイウィズダム=Red Eye Wisdom
+トリックスター=Trickster
+救済者の聖典=Savior's Scripture
+ハープボウ=Harp Bow
+ナイトガード=Night Guard
+特殊魔法大全=Special Magic Encyclopedia
+黒魔女の本=Black Witch Book
+エルブンローブ=Elven Robe
+パラディンメイル=Paladin Mail
+ノーブルビースト=Noble Beast
+デモンズオーダー=Demon's Order
+グレイブウィッチ=Grave Witch
+巫女の法衣=Shrine Maiden's Robe
+フォーチュンペンダント=Fortune Pendant
+チャンピオンリング=Champion Ring
+クリティカルリング=Critical Ring
+パワーリング=Power Ring
+慈母の涙=Mother's Tears
+賢王の耳飾り=Wise King's Earrings
+慈母の涙=Mother's Tears
+賢王の耳飾り=Wise King's Earrings

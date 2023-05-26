@@ -1,0 +1,162 @@
+アドベンチャー=Adventure
+ドベンチャー=dventure
+
+冒険先一覧=Adventure List
+まとめて\n帰還確認=Mass\nReturn
+まとめて\n出発=Mass\nDeparture
+パーティ上限=Party Limit
+r:"^冒険中PT\n\(([0-9/]+)\)$"=Adventure\nParty\n($1)
+冒険中=Adventuring
+sr:"^(.+)が現れた！$"=$1 appeared!
+メモピ数=#Memos
+メモピ=Memo
+メモリーピース対象=M.Shard target
+人数=People
+人数:=People
+10キャラ=10 Characters
+おまかせ=Random
+全選択解除=Cancel All
+必要戦力=Requirement
+時間短縮=Time Reduction
+繰り返し出発=Repeat depart
+出発する=Depart
+
+時間短縮設定=Time Reduction Settings
+r:"^(\d+)ジュエル1時間短縮$"=$1 Jewels for 1h reduction
+1チケット1時間短縮=1 Tix for 1h reduction
+ジュエルを使って必要時間を短縮！=Use Jewels to shorten time!
+チケットを使って必要時間を短縮！=Use a Ticket to shorten time!
+r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
+チケットが不足しています。=There is a shortage of tickets.
+チケットやジュエルを使って時間を短縮！=Time to shorten time using tickets and jewels!
+1日の時間短縮可能回数の上限に達しているため時間短縮できません。=Reached maximum time reduction for today
+戦力オーバーによる時間短縮の上限になりました。=Too over powered, already max time reduction
+
+ファストチケットを所持していません。=You do not have a fast ticket.
+これ以上短縮できません。=Can't shorten it anymore.
+帰還したパーティはありません。=There is no party that has returned.
+冒険中のパーティはありません。=There is no party during the adventure.
+時間短縮アイテムが設定されていません。=Time reduction items are not set.
+
+時間短縮詳細=Time Reduction Details
+繰り返し出発5回目=5th departure
+繰り返し出発4回目=4th departure
+繰り返し出発3回目=3rd departure
+繰り返し出発2回目=2nd departure
+繰り返し出発1回目=1st departure
+合計必要時間=Total Time
+戦力時間短縮=Over Power
+合計短縮時間=Reduction
+周回数上限です。=The maximum number of laps.
+
+撤退=Retreat
+結果確認=Result confirmation
+パーティ確認=Confirmed Party
+
+このパーティは帰還していません。=This party has not returned.
+パーティ数上限=Party Limit
+冒険中のパーティが上限に達しています。=The party during the adventure has reached max limit.
+
+短縮する=Shorten
+周回追加=+Lap
+周回詳細=Lap Details
+遠征中のパーティーはありません。=There is no party during the expedition.
+冒険中パーティの状態を確認できます。=You can check the condition of the party during the adventure.
+アドベンチャーパーティ一覧=Adventure Party List
+周回数が指定されていません。=The number of laps is not specified.
+他の冒険に参加しています。=Join another adventure.
+
+残り必要時間=Remaining time
+撤退確認=Retreat Confirmation
+r:"^本日の残り撤退可能回数  ([0-9/]+)$"=Today's retreat: $1
+時間短縮に使用したアイテムは返却されません。=Items used will not be returned.
+帰還していないアドベンチャーの報酬は獲得できず、\n必要時間もリセットされます。\n\nよろしいですか？=You will not be able to get a reward for an adventure that has not returned, and time required will be reset.\nIs it OK?
+
+報酬詳細=Reward details
+キャンペーン=Campaign
+終了日時=Finish date
+
+冒険開始に必要な戦力が不足しています。=Insufficient power to start the adventure.
+戦力不足=Lack Power
+
+r:"^残り必要時間が(\d+)分未満のアドベンチャーに対して\nジュエルで時間短縮が設定されます。\n※時間短縮は1時間単位で行われます。$"=Adventures with less than $1m  will be set\nwith Jewels to reduce time.\n※Reduce time is a multiple of 1 hour.
+
+r:"^本日のジュエルでの短縮残り回数　([0-9/]+)$"=Today's Jewel usage: $1
+r:"^本日のジュエルでの時間短縮可能回数 ([0-9/]+)$"=Today's Jewel usage: $1
+ジュエルを消費して\n時間短縮を行います。よろしいですか？=Consume Jewel and reduce time.\nIs it OK?
+[FD8F00]帰還[-]=[FD8F00]Return[-]
+
+r:"^残り必要時間が(\d+)分未満のアドベンチャーに対して\nファストチケットで時間短縮が設定されます。\n※時間短縮は1時間単位で行われます。$"=Adventures with less than $1m will be set\nwith Fast Ticket to reduce time.\n※Reduce time is a multiple of 1 hour.
+r:"^残り必要時間が(\d+)分未満のアドベンチャーに対して\nファストチケットとジュエルで時間短縮が設定されます。\n※時間短縮は1時間単位で行われます。$"=Adventures with less than $1m will be set\nwith Fast Ticket and Jewels to reduce time.\n※Reduce time is a multiple of 1 hour.
+r:"^本日のチケットでの短縮残り回数　([0-9/]+)$"=Today's Fast Ticket usage: $1
+r:"^本日のチケットでの時間短縮可能回数 ([0-9/]+)$"=Today's Fast Ticket usage: $1
+ファストチケットを消費して\n時間短縮を行います。よろしいですか？=Consume Fast Tickets and reduce time.\nIs it OK?
+
+ファストチケットとジュエルを消費して\n時間短縮を行います。よろしいですか？=Consume Fast Tickets and Jewels\nto shorten the time. Is it OK?
+
+
+再出発しない=Return
+再出発する=Start again
+レースの神様=Race Deity
+ファントムキャッツ登場！=Phantom Cats Appears!
+
+r:"^([0-9/]+)キャラ$"=$1 Chara
+戦力不足のため実行できない遠征があります。=There are Adventures that cannot be carried out due to insufficient Power.
+対象のアドベンチャーポイントがありません。=There are no target adventure points.
+編成クリア=Clear Formation
+メモリーピース優先設定=Memo Priority Setting
+アドベンチャーポイント一覧=List of Adventure Points
+優先編成=List
+最大人数=Max People
+おまかせ編成時に、優先設定されたキャラクターが優先的に編成されます。=At the time of the random formation, the priority character is given priority.
+優先キャラクター設定=Priority Character Settings
+チェックしたアドベンチャーがありません。=There is no checked adventure.
+優先設定の情報がありません。=There is no priority setting information.
+出発可能パーティが上限に達しています。=The departure parties have reached the limit.
+以下のアドベンチャーに出発します。よろしいですか？=Depart for the following adventure. Is it OK?
+1時間未満の時間短縮が設定されています。=The time reduction of less than an hour is set.
+出発確認=Departure confirmation
+繰り返し回数=Repeated number
+r:"(\d+)回追加$"=+$1 Lap
+周回数を追加しました。=The number of laps has been added.
+周回追加完了=Lap addition is completed
+
+ガイド=Guide
+コンテンツ=Content
+自動分解\n設定=Auto Dismantle\nSetting
+優先度\n設定=Priority\nSetting
+思い出イベント=Memorial Event
+これまでに発見した思い出イベントのイラストを確認出来ます。=You can check the illustrations of the memorable events you have discovered so far.
+まだ発見していない思い出イベントです。=This memorable event has not been found yet.
+r:"選択は(\d+)キャラまでです。$"=Up to $1 characters can be selected.
+
+メモピドロップ枠=Memory Shard Drop
+冒険へ出発する時メモリーピース対象に編成されたキャラは、冒険\nから帰還した際の報酬としてメモリーピースを獲得できる可能性が\nあります。強化したいキャラクターを優先的に編成しましょう。=Characters organized for Memory Shard when d for an adventure may be able to acquire memory pieces as a reward when returning from an adventure. Prioritize the characters you want to strengthen.
+優先度設定されたキャラクターは、おまかせ編成時にメモリーピース対象の枠に優先的に編成されます。強化したいキャラクターに優先度を設定しましょう。=Characters with a priority set will be preferentially organized in the memory piece target frame during random formation. Prioritize the characters you want to strengthen.
+パーティの戦力が高くなるほど、冒険から帰還する時間が短くなり\nます。キャラクターを強化して戦力アップさせましょう。=The higher the party's strength, the shorter the time to return from the adventure. Let's enhance the character and improve your strength.
+冒険出発前と出発後に、チケットやジュエルを使用して時間短縮が\nできます。時間短縮は１日で上限があり、日が変わると上限はリ\nセットされます。アイテムを使用して効率よく冒険をしましょう。=Before and after departure, you can use tickets and jewels to save time. The time reduction is one day, and the upper limit is reset when the day changes. Use items to make an adventure efficient.
+
+5人以上編成してください。=Please organize 5 or more girls.
+変更先のキャラクターを選択してください。=Please select the character you want to change to.
+優先度を変更するキャラクターを選択してください。=Select the character whose\npriority you want to change.
+優先度変更=Priority Change
+
+遠征中=During the expedition
+帰還したパーティがあります。=There is a party that has returned.
+一括帰還確認=Batch Return
+アドベンチャー遷移時に、帰還したパーティがある場合\nアドベンチャーパーティ一覧を表示するか設定します。=Setting to display the Adventure Party list when transitioning to\nAdventure if there is a party that has returned.
+アドベンチャー設定=Adventure Settings
+アドベンチャーパーティ一覧表示=Adventure party list display
+「表示する」を選択すると、帰還したパーティがある場合\n「アドベンチャーパーティ一覧」を表示します。=If you select "Display", the "Adventure Party List" will be displayed if there is a party that has returned.
+
+
+ファストチケットを消費して以下のアドベンチャーに出発します。よろしいですか？=Consume a Fast Ticket and depart for the following Adventure.\nIs it OK?
+設定されている内容がリセットされます。\nよろしいですか？=The settings will be reset.\nIs it OK?
+
+sr:"^(.+)のアドベンチャーから撤退しました。$"=Retreat from the $1 Adventure.
+アドベンチャー撤退=Adventure Retreat
+
+アドベンチャーでは、仲間にしたキャラを冒険させることができます。一定の時間が経過すると冒険から帰還し、『EX装備』等のアイテムを獲得します。結果報告を確認し報酬を受け取りましょう。=In adventure, you can adventure the characters you made friends with. After a certain amount of time has passed, you will return from the adventure and acquire items such as "EX Equipment". Check the result report and receive the reward.
+
+【美食殿】を訪れたカリンは、アストライア大陸の各地で見つ\nかった新たな冒険先の調査をぺコリーヌたちに依頼する。ぺコ\nリーヌたちは新たな冒険に心を躍らせて依頼を快諾し、お宝を\n求めて旅立つのだった。=Karin, who visited the [Gourmet Hall], asks Pecorine and others to investigate new adventure destinations found in various parts of the Astraea continent. Pecorine and the others were excited about the new adventure, readily accepted the request, and departed in search of the treasure.
+アストライア大陸の未踏地=Unexplored Lands of Astraea

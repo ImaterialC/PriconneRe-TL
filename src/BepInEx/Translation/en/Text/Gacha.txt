@@ -1,0 +1,269 @@
+ガ=G
+チャ=acha
+
+カムバック スペシャルフェス=Return SpecialFes
+ムバック スペシャルフェス=-Ching: Return SpecialFes
+チャ結果=acha Results
+Sダッシュ=J:Start
+プリフェス=PriFES
+プリフェスガチャ=PriFES Gacha
+★3確定=Guarantee ★3
+プラチナ=Premium
+ピックアップ=Focus
+プラチナガチャ=Premium Gacha
+ノーマルガチャ=Normal Gacha
+プライズガチャ=Prize gacha
+限定★3確定=Limited ★3\nGuarantee
+限定★3確定ガチャ=Guarantee ★3\nLim gacha
+r:"^([0-9.]+)Year Anniversaryガチャ$"=$1 Year Anniversary Gacha
+r:"^([0-9.]+)th Anniversaryガチャ$"=$1th Anniversary Gacha
+限定スタートダッシュガチャ=Limited Start Dash Gacha
+★3確定 ガチャチケットについて=Guarantee ★3 Gacha Ticket
+Anniv. スペシャル交換チケットについて=Anniv. Sp Exchange Ticket
+
+★3確定 アニメガチャチケットについて=Guarantee ★3 Anime Gacha Ticket
+★3確定 プリコネフェス記念ガチャチケット=Guarantee ★3 Pricone-FES Memorial Gacha Ticket
+r:"^★3確定 プリコネフェス(\d*)記念ガチャチケット$"=Guarantee ★3 PriCone-FES $1 Memorial gacha ticket
+r:"^★3確定 ([0-9.]+)周年記念ガチャチケット$"=Guarantee ★3 $1th Anniversary Gacha Ticket
+★3確定プラチナガチャ=Guarantee ★3 Platinum Gacha
+★3確定ガチャ=Guarantee ★3 Gacha
+sr:"^★3確定( )?(.*)?(ガチャ)(チケット)?$"=Guarantee ★3 $2 $3 $4
+出現率UP=Boosted rates
+
+選択人数が不足しています。=The number of selections is insufficient.
+購入Lv制限解除中=Purchase Lv restrictions are being lifted
+所持制限数を越えたアイテムは、プレゼントに送られます。=Items beyond the possession limit will be sent to the present.
+r:"^提供期間：([0-9/ :]+)まで$"=Provision Until: $1(JST)
+r:"^あと ([0-9:]{8})$"=$1 Left
+ガチャリセットまで=Until the gacha reset
+===
+交換ラインナップ=Exchange Lineup
+所持キャラ交換Pt=Char. Exchange Pts
+所持数=Held
+有償=Paid
+限定Sダッシュ=Limited S Dash
+無償=Free
+プライズ=Prize
+キャラ詳細=Characters Details
+有償ジュエルで！=Use Paid Jewels!
+r:"^ストーリー (\d+)話$"=Story Episode $1
+
+キャラ交換=Character Exchange
+
+キャラ交換Ptを200Pt消費して、\n対象のラインナップから1キャラ仲間にできます。=You can use 200 Character Exchange Points to recruit one character from the lineup.
+
+おまけ:=Bonus
+秘石交換=Trade for Amulets
+
+もう一度引く=Try Again
+キャラ交換Ptが不足しています。=Insufficient character exchange Pt.
+[FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。[-]=[FF7C4E,D62146]Duplicate characters will be converted to Divine Amulets.[-]
+
+[FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。\nおまけで獲得できるメモリーピースは直接付与されます。[-]=[FF7C4E,D62146]Duplicate characters will be\nconverted to Divine Amulets.[-]
+追加データは、アプリ起動時に削除されます。=Additional data is deleted at app startup.
+[FF7C4E,D62146]追加データは、アプリ起動時に削除されます。[-]=[FF7C4E,D62146]Additional data is deleted at app startup.[-]
+未解放キャラを仲間にする際に、1キャラあたり\n最大55MBの追加データをダウンロードします。=You will download up to 55MB of additional\ndata per unowned character.
+ガチャチケットを消費してガチャを 1 回引きます。\nよろしいですか？=Consumes 1 gacha ticket to draw 1 Gacha.\nIs it OK?
+ガチャチケットを消費してガチャを 10 回引きます。\nよろしいですか？=Consumes 10 gacha ticket to draw 10 Gacha.\nIs it OK?
+・キャラ交換Ptを「200Pt」以上所持している場合、\nキャラ交換Ptを使用してキャラを仲間にするか、すでに仲間にしているキャラを選択して「女神の秘石」を獲得するまで、キャラ交換Ptが共通のガチャを利用できません。\n・チュートリアル中に引くガチャでは、キャラ交換Ptを獲得できません。\n・「有効期間」内にキャラ交換Ptを200Pt以上保持したまま「有効期間」が終了した場合も、キャラ交換Ptは\n「0Pt」にリセットされてPt数と同枚数の\n「スキップチケット」に変換されるため、キャラを仲間にすることはできません。\n・キャラ交換の有効期間、内容は予告なく変更する場合があります。\n・おまけでメモリーピースが獲得できる場合、直接付与されます。ただし、獲得したメモリーピースが所持上限に達している場合、プレゼントボックスに贈られます。=・If you have more than "200 Pt" in character exchange Pt, use the character exchange Pt to make a character a friend, or select a character that is already a friend and acquire "Goddess' Secret Stone", Character exchange Pt cannot use common gacha.\n・Character exchange Pt cannot be obtained in the gacha drawn during the tutorial.\n・Even if the character exchange point is over 200 points within the "valid period" and the "valid period" ends, the character exchange point will be reset to "0 point" and converted to the same number of "skip tickets" as the number of points. Therefore, characters cannot be made friends.\n・ The validity period and contents of character exchange are subject to change without notice.\n・ If you can get a memory piece as a bonus, it will be given directly. However, if the acquired memory pieces have reached the possession limit, they will be given to the present box.
+キャラ交換Ptを200Pt消費して\n以下のキャラと交換しますか?=Would you like to spend 200Pt\nof character exchange Pt and exchange with the following characters?
+既に仲間にしているキャラなので=Because it's a character I've already made friends with
+[FF7C4E,D62146]女神の秘石に変換されます。　[-]=[FF7C4E,D62146]It will be converted into Divine Amulet[-]
+キャラ交換へ=Character\nExchange
+このプライズは現在選択されています。=This prize is currently selected.
+
+==Time==
+次回ガチャリセット時間=Next Gacha Reset
+イベント限定キャラをGET！=GET event-limited characters!
+===Preview chara
+r:"^RANK(\d+)/Lv(\d+)/装備強化MAX/RANKボーナスを含むステータスです。$"=Rank$1/Lv$2/MAX Refined Equipment/Status including Rank Bonus.
+強化済=Enhanced
+所持スキル=Possessed skill
+イベントを進めてボスを討伐しよう！\n残り25体 BOSS討伐で解放=Advance the event and defeat the boss!\nRemaining 25 subjugating BOSS
+==Banner time
+r:"^(\[[0-9A-F,]{6,13}\])([0-9/ :]{16})～([0-9/ :]{11,16})まで\[-\]$"="$1$2 to $3 (JST)[-]"
+r:"^(\[[0-9A-F,]{6,13}\])有効期間:([0-9/ :]{16}) ～ ([0-9/ :]{11,16})\[-\]$"="$1 Period: $2 to $3 (JST)[-]"
+==Banner Description==
+======「ハツネ（サマー）のメモリーピース」\nに変更しますか？=Do you change to "Hatsune (Summer) Memory Piece"?
+sr:"^(\[[0-9A-F,]{6,13}\])★3キャラ出現率2倍\n限定キャラ「([べ-ヺー＆]+)(（.+）)?」登場！期間中出現率UP！\[-\]$"="$1$1Boosted rates for the Limited ★3\n$2$3![-]"
+
+r:"^(\[[0-9A-F,]{6,13}\])『10回引く』は(\[[0-9A-F,]{6,13}\])★2以上\[-\]1キャラ確定！\n対象キャラを仲間にする度に(\[[0-9A-F,]{6,13}\])対象メモピ(\d+)個\[-\]GET！\[-\]$"="$1A $2★2 or higher[-] character is guaranteed with each "10x draw"!\nEach pull a target Character, $3Gets a Bonus of $4 Memory Shards[-][-]"
+
+[FFBB00,CE4F00]限定スタートダッシュガチャ開催！[-]=[FFBB00,CE4F00]Limited Start Dash Gacha![-]
+[3C404E]10キャラ目は[-][FFBB00,CE4F00]限定★3キャラ確定！\n[-][3C404E]※すでに仲間にしているキャラは女神の秘石に変換されます。[-]=[3C404E]A [FFBB00,CE4F00]★3 or higher[-] character is guaranteed with each 10x draw!\n※Already recruited characters will be converted to Divine Amulets[-].
+
+
+
+sr:"^「([べ-ヺー＆]+)(（.+）)?のメモリーピース」\nに変更しますか？$"="Do you change to\n"$1$2 Memory Shard"?"
+sr:"^(\[[0-9A-F,]{6,13}\])★3キャラ出現率2倍\n新キャラ「([べ-ヺー＆]+)(（.+）)?」登場！期間中出現率UP！\[-\]$"="$1Double rates for the New character\n$2$3![-]"
+sr:"^(\[[0-9A-F,]{6,13}\])新キャラ「([べ-ヺー＆]+)(（.+）)?」登場！\n期間中出現率UP！\[-\]$"="$1Boosted rates for the New character\n$2$3![-]"
+
+sr:"^(\[[0-9A-F,]{6,13}\])★3キャラ出現率2倍！限定「([べ-ヺー＆]+)(（.+）)?」(登場|出現率UP)！\n対象キャラを仲間にする度に対象メモピ(\d+)個GET！\[-\]$"="$1Boosted rates for the Limited ★3 $2$3!\nEach pull a target Chara will Gets $4 Memory Shards![-]"
+sr:"^(\[[0-9A-F,]{6,13}\])限定「([べ-ヺー＆]+)(（.+）)?」登場！\n期間中出現率UP！\[-\]$"=$1Boosted rates for the Limited ★3\n$2$3![-]
+
+sr:"^(\[[0-9A-F,]{6,13}\])★3キャラ出現率2倍！限定「([べ-ヺー＆]+)(（.+）)?」「([べ-ヺー＆]+)(（.+）)?」(登場|出現率UP)！\n対象キャラを仲間にする度に対象メモピ(\d+)個GET！\[-\]$"="$1Boosted rates for the Limited ★3 $2$3 & $4$5!\nEach pull a target Chara will Gets $6 Memory Shards![-]"
+
+
+下記リストの中からプライズのメモリーピースキャラを\n選択してください。=Select the prize memory shard character\nfrom the list below.
+[3C404E]『10回引く』は[FFBB00,CE4F00]★2以上[-]1キャラ確定！\n※すでに仲間にしているキャラは女神の秘石に変換されます。[-]=[3C404E]A [FFBB00,CE4F00]★2 or higher[-] character is guaranteed with each 10x draw!\n※Already recruited characters will be converted to Divine Amulets[-].
+
+r:"^(\[[0-9A-F,]{6,13}\])10キャラ目は(\[[0-9A-F,]{6,13}\])限定★3キャラ確定！\[-\]\n対象キャラを仲間にする度に(\[[0-9A-F,]{6,13}\])対象メモピ(\d+)個\[-\]GET！\[-\]$"=$1A $2Limited ★3 character[-] is guaranteed with each 10x draw!\n※Each pull a target Character, $3Gets a Bonus of $4 Memory Shards[-].[-]
+
+r:"^(\[[0-9A-F,]{6,13}\])10キャラ目は(\[[0-9A-F,]{6,13}\])★3キャラ確定！\[-\]\n対象キャラを仲間にする度に(\[[0-9A-F,]{6,13}\])対象メモピ(\d+)個\[-\]GET！\[-\]$"=$1A $2★3 character[-] is guaranteed with each 10x draw!\n※Each pull a target Character, $3Gets a Bonus of $4 Memory Shards[-].[-]
+
+[FFBB00,CE4F00]プラチナガチャはキャラのみ出現！[-]=[FFBB00,CE4F00]Platinum Gacha only appears for characters![-].
+キャラ交換Ptの説明=Character exchange Pt description
+
+===Banner==
+
+無料で10回ガチャは\n毎日5時と12時にリセットされます。=Free 10x Gacha resets daily at\n5:00 and 12:00 (JST).
+ノーマルガチャを無料で10回引きます。\nよろしいですか？=Draw Normal Gacha 10x for free?
+キャラ交換Ptリセット=Char Exchange Pt Reset
+ガチャが更新されました。\n所持していたキャラ交換Ptがリセットされました。\n\n※キャラ交換PtはPt数と同枚数、\nスキップチケットに変換されました。=The Gacha has been updated, and the Character Exchange Points you had have been reset.\n\nThe same number of Character Exchange Points as the number of Pt have been converted into Skip Tickets.
+
+ピックアップガチャ=Focus Gacha
+
+r:"^ジュエルを消費してガチャを (\d+) 回引きます。\nよろしいですか？$"=Spend Jewels for $1 pull?
+
+===prize gacha===
+[FFBB00,CE4F00]限定キャラ復刻！出現率が期間中UP！\n『10回引く』で5等以上1個確定！[-]=[FFBB00,CE4F00]Limited Character Rerun! Boosted rates during the period!\n"10Draw" will guarantee 1 time 5th prize or higher[-]
+
+sr:"^\[FFBB00,CE4F00\]「([べ-ヺー＆]+)(\（.{3,10}\）)?(\s|)」(「|)([べ-・ー＆]{2,11}|)(\（.{3,10}\）)?(\s|)(」|)の\n出現率が期間中UP！『10回引く』で5等以上1個確定！\[-\]$"="[FFBB00,CE4F00]Boosted rates for 「$1$2」$4$5$6$7$8 !\n"10Draw" will guarantee 1 time 5th prize or higher[-]"
+
+選択する=Select
+プライズ選択=Prize Selection
+プライズ詳細=Prize Details
+プライズ履歴=Prize History
+プライズ内容=Prize Contents
+履歴がありません。=There is no history.
+提供割合=Rates
+メモリーピース選択=Memory Shard Selection
+選択中=Selected
+1等に当選し、以下のプライズを入手しました。=You won the 1st prize and got the following prizes.
+2等に当選し、以下のプライズを入手しました。=You won the 2nd prize and got the following prizes.
+3等に当選し、以下のプライズを入手しました。=You won the 3rd prize and got the following prizes.
+r:"^(1?[4-9,0])等に当選し、以下のプライズを入手しました。$"=You won the $1th prize and got the following prizes.
+アメス賞に当選し、以下のプライズを入手しました。=You won the Ameth prize and got the following prizes.
+シェフィ賞に当選し、以下のプライズを入手しました。=You won the Sheffy prize and got the following prizes.
+キャル賞に当選し、以下のプライズを入手しました。=You won the Kyaru prize and got the following prizes.
+コッコロ賞に当選し、以下のプライズを入手しました。=You won the Kokkoro prize and got the following prizes.
+ペコリーヌ賞に当選し、以下のプライズを入手しました。=You won the Pecorine prize and got the following prizes.
+獲得したプライズは直接所持数に加算されます。=The prizes you win will be added directly to your inventory.
+1等  0.50％\n2等  1.00％\n3等  5.00％\n4等  10.00％\n5等  23.50％\n6等  60.00％\n\n※1回ごとに、その提供割合にもとづいて抽選を行っております。\n※『1回引く』と『10回引く』（1～9プライズ目まで）は、\n同じ提供割合です。\n=1st   0.50%\n2nd  1.00%\n3rd  5.00%\n4th 10.00%\n5th 23.50%\n6th 60.00%\n\n※A lottery is held for each time based on the ratio\nof provision.\n※"1回引く" and "10回引く" (1st to 9th prizes)\nare the same ratio.\n
+
+1等  0.50％\n2等  1.00％\n3等  5.00％\n4等  10.00％\n5等  83.50％\n\n※『10回引く』では、10プライズ目に5等以上が必ず出現します。=1st   0.50%\n2nd  1.00%\n3rd  5.00%\n4th 10.00%\n5th 83.50%\n\n※In "10回引く", 5th prize or higher will appear on the 10th pull.\n
+
+『10回引く』（10プライズ目）="10 times" (10th prize)
+『10回引く』（1～9プライズ目）="10 times" (1st-9th prize)
+プライズ1個つき=1 prizes included
+プライズ10個つき=10 prizes included
+
+カテゴリ別の提供割合=Percentage per category
+
+下記リストの中からプライズのメモリーピースキャラを\n選択してください。\n※選択したキャラはいつでも変更可能です。=Please select a Memory Shard character\nfrom the list below.\nThe selected character can be changed at any time.
+
+1回ガチャを引くごとに、下記リストの中から\nプライズが1つ抽選されます。\n獲得したプライズは直接所持数に加算されます。=One prize from the list below\nwill be drawn for each gacha drawn.
+
+プライズガチャで獲得したプライズ報酬の\n履歴を見ることができます。=You can view the history of the prize rewards you have won in the Prize Gacha.
+
+[FFBB00,CE4F00]ピックアップキャラを選べる！\n『10回引く』で5等以上1個確定！[-]=[FFBB00,CE4F00]You can choose a Character to Focus on!\n"Draw 10 times" to guarantee a 5th prize or higher! [-]
+ピックアップキャラ選択=Select Focus Character
+残り1人選択してください。=Please select the remaining one.
+r:"^残り([2-9])人選択してください。？$"=Please select $1 characters.
+下記リストの中から\nピックアップキャラを選択してください。\n※選択したキャラはいつでも変更可能です。=Please select a Focus Character from the list below. \n※Selected characters can be changed at any time.
+必要人数選択済みです。=Character has been selected.
+選択中のキャラの選択状態を解除してください。=Please cancel the selection status of the selected character.
+解放済みのキャラがピックアップ対象に選択されています。=         The unlocked character has been\n              selected as a pickup target.
+sr:"^「([べ-ヺー＆]+)(（.+）)?」\n\nにピックアップ対象を変更しますか？$"=Do you want to change the pickup target to\n\n$1$2?
+===Free Gacha===
+無料=free
+[3C404E]アイテムやメモリーピースをGET！[-]=[3C404E] Get item and memory shards! [-]
+所持上限を超えるアイテムはプレゼントに送られます。=Items over the possession limit will be sent to the present box.
+日   回無料！=Daily free!
+   日最大     度引ける=   day,         Times
+   時と     時リセット= &        : Reset
+毎日   時にリセット=am    :00 Reset   
+無料=free
+1度= 
+だけ引ける!=Once Pull!
+すでに\n引き終わっています=Already\npulled
+すでに\\n引き終わっています=Already\npulled
+===Pri Fes
+プリンセスフェス開催！=Princess Festival!
+プリンセスフェスへ=To the Princess Fes
+日付が変わるまで表示しない=Don't show until the date changes
+
+無料でガチャを10回引きます。\nよろしいですか？=Draw 10 times for free.\nIs this OK?
+残り回数=Remaining number
+===Special Tickets===
+スペシャル交換チケットについて=About Special Exchange Tickets
+
+・使用期限\nチケットには、使用期限が設定されているものがあります。使用期限については［所持チケット］から対象のチケットの［使用期限］をご確認ください。=・ Expiration Date \nSome tickets have an expiration date. For the expiration date, please check the [Expiration Date] of the selected ticket from [Possession Ticket].
+[FF7C4E,D62146]所持しているチケットがありません。[-]=[FF7C4E,D62146]You don't have the ticket.[-]
+メモリーピース交換チケットについて=About Memory Shards Exchange Ticket
+===A-memory shard,B-200/100,C-1
+・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×100と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットのメモリーピース交換ダイアログ内をご確認ください。=•Each character's Memory Shard exchange ticket can be exchanged for {{C}} character's Memory Shard × {{B}}.\n・ Acquired Memory Shard will be given directly. If you have reached the maximum number of Memory Shards, you will be given to the present box.\n※ For the characters to be exchanged, please check the memory piece exchange dialog for each ticket.
+・★3確定 ガチャチケット1枚につき特定の★3キャラが1キャラ獲得できるチケットです。\n・出現するキャラにつきましては各チケットの［提供割合］ボタンよりご確認ください。\n・★3確定 ガチャチケットではキャラ交換Ptを獲得できません。\n・すでに仲間になったキャラが出現した場合、「女神の秘石」に変換されます。\n・変換された女神の秘石は、プレゼントボックスに贈られずに、直接所持数に加算されます。\n・女神の秘石の所持数が上限に達している場合、プレゼントボックスに贈られます。\n・ガチャは1回ごとに提供割合にもとづいて抽選を行います。そのため、提供割合が1％のキャラが、100回中1回必ず出現するわけではありません。=・Each Gacha Ticket is a ticket to acquire a specific 3★ character.\n・Refer to the [Percentage] button on each ticket for the character that will appear.\n・You will not be able to exchange Pts for a character with a Guarantee 3★ Gacha Ticket.\n・When a character who is already a member appears, it will be converted into the "Divine Amulets".\n・The converted Divine Amulets will not be sent to your gift box, but will be directly added to your possession count.\n・ If the maximum number of Divine Amulets in your possession has been reached, they will be sent to your Gift Box.\n・The lottery will be drawn based on the offered percentage for each gacha. Therefore, a character with a donation ratio of 1% is not guaranteed to appear once out of every 100 times.
+
+r:"^([0-9.]+)th Anniv/. スペシャル交換チケットについて$"=About $1th Anniv. special exchange tickets
+r:"^([0-9.]+)th Anniv/. スペシャル交換チケットを所持していません。$"=Insufficient $1th Anniv. Special Exchange Ticket.
+r:"^([0-9.]+)th Anniv/. スペシャル交換チケット$"=$1th Anniv. Special Exchange Ticket
+
+チケットガチャではキャラ交換Ptは獲得できません。=Character exchange Pt cannot be earned\nwith this Gacha Ticket .
+sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?$"=Use $1 to draw Gacha.\nIs this OK?
+===Guarantee 3===
+[3C404E]キャラ交換Ptが共通のガチャ[-]=[3C404E]Exchange Pt Character Common Gacha[-]
+ピックアップキャラなし=No pickup character
+
+有償ジュエルが不足しています。=Not enough paid jewels..
+このガチャは有償ジュエルで引くことができます。=This gacha can be drawn only with a paid jewel.
+[FFBB00,CE4F00]有償ジュエル限定\n限定★3確定ガチャ開催！[-]=[FFBB00,CE4F00]Guarantee ★3 Limited character\nGuaranteed Gacha[-]
+[FFBB00,CE4F00]有償ジュエル限定\n★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Limited Guarantee ★3\nPaid Jewel Platinum Gacha! [-]
+有償ジュエルを消費してガチャを 10 回引きます。\nよろしいですか？=Consume paid jewel and draw 10 gacha.\nIs this OK?
+有償ジュエルを消費してガチャを 1 回引きます。\nよろしいですか？=Consume paid jewel and draw 1 gacha.\nIs this OK?
+===Special Tickets use===
+スペシャル キャラ交換ガチャセット=Special Character Exchange
+r:"^([0-9.]+)th Anniv. SPキャラ交換ガチャセット$"=$1th Anniv. Special Character Exchange
+選択可能キャラ一覧=Select a character
+キャラ一覧から仲間にしたいキャラを選択してください。=Choose the character you want.
+未解放=Unowned
+解放済み=Unlocked
+限定キャラ=Limited
+スペシャル キャラ交換ガチャセットについて=About Special Character Exchange
+[3C404E]外部ブラウザを開きますがよろしいですか？[-]=[3C404E]Are you sure you want to open an external browser?[-]
+交換可能=Purchased
+交換する=Exchange
+スペシャル交換チケット=Special Exchange Ticket
+チケットガチャ=Ticket Gacha
+所持チケット=Tickets Owned
+使用期限=Expiry:
+===first time in gacha
+未解放キャラを仲間にした場合、ガチャ演出前に\n「ダウンロード中」表示ができます。=If you pull an unowned character, there will be "Downloading" before the gacha animation.
+ガチャ設定=Gacha Settings
+===Start Dash Gacha
+
+[3C404E]スタートダッシュガチャ開催！[-]=[3C404E]Start Dash Gacha in Period![-]
+[3C404E]ゲーム開始から７日間限定！[-]=[3C404E]Limited to 7 days from the start of the game! [-]
+・ピックアップキャラなし=・No pickup character
+プリンセスフェス=Princess Festival
+スタートダッシュガチャ=Start Dash Gacha
+選べるプライズガチャ=Choose prize gacha
+
+選択のピックアップキャラがプライズと一致していません。=The selection Focus chara\ndoes not match with the prize.
+===SP FES
+スペシャルフェスガチャ=SpFES Gacha
+[3C404E]キャラ交換Ptが共通のガチャ[-]=[3C404E]Exchange Pt Sp FES Chara Gacha[-]
+SPフェスキャラ交換Ptが共通のガチャ=Exchange Pt Sp FES Chara Gacha
+SPフェスキャラ交換Ptの説明=SpFES Character exchange Pt description
+所持SPフェスキャラ交換Pt=SpFES Char. Exchange Pts
+SPフェスキャラ交換Ptリセット=SpFES Char. Exchange Pt Reset
+SPフェスキャラ交換Ptが不足しています。=Insufficient SpFES character exchange Pt.
+r:"^(\[[0-9A-F,]{6,13}\])終了まであと([0-9: ]+)\[-\]$"=$1End in: $2[-] to end
+
+
+有償ジュエルで=Use Paid Jewels
+ペシャルフェス=Special Festival
+sr:"^\[FFBB00\,CE4F00\]★3キャラ出現率2倍\n限定「([べ-ヺー＆]+)(（.+）)?」出現率UP！\[-\]$"=[FFBB00,CE4F00]Boosted rates for the Limited ★3\n「$1$2」![-]
+
+
+sr:"^(.{2,12}ガチャ)「(\d+)回引く」$"=$1 "Draw $2 Times".

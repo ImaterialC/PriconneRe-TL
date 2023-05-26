@@ -1,0 +1,24 @@
+【物理】中衛でみんなを応援する真夏のトップアイドル。すべてのスキルで味方全体の物理攻撃をサポートし、バトル中盤から味方全体のＴＰ回復で、皆を勝利に導く。=[Physical]Summer's top idol who cheers on everyone in the MG. She uses all of her skills to support the P.ATKs of all allies, and recovers allies' TP in the middle of battle, leading everyone to victory.
+
+メモリーズ・オブ・サマー=Memories of Summer
+
+r:"^味方全体の物理攻撃クリティカル時のダメージを16％アップ\n敵単体に(\d+)の物理ダメージ$"=Boosts allies' P.Crit dmg by 16% for 18s.\nDeals $1 P.DMG to an enemy.
+味方全体の物理攻撃クリティカル時のダメージを小アップさせ、目の前の敵１キャラに物理特大ダメージを与える。=Slightly boost the P.Crit dmg of all allies, and deals massive P.DMG to the nearest enemy.
+
+味方全体の物理攻撃力を大アップさせ、物理防御力と魔法防御力を中アップさせる。=Large boost the P.ATK of all allies, and moderately boost the P.DEF and M.DEF of all allies.
+味方全体の物理攻撃力を特大アップさせ、物理防御力と魔法防御力を中アップさせ、さらにＴＰ上昇を小アップさせる。=Massively boost the P.ATK of all allies, moderately boost the P.DEF and M.DEF, and also slightly boost the TP boost of all allies.
+
+r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=Boosts allies' P.ATK by $1 for 12s.\nBoosts allies' P.DEF by $2 for 12s.\nBoosts allies' M.DEF by $3 for 12s.
+
+r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n味方全体のＴＰ上昇を５アップ$"=Boosts allies' P.ATK by $1 for 12s.\nBoosts allies' P.DEF by $2 for 12s.\nBoosts allies' M.DEF by $3 for 12s.\nBoosts allies' TP boost by 5 for 12s.
+
+
+
+
+味方全体のＴＰを小回復させ、さらに物理攻撃力を中アップさせる。=Slightly restores the TP of all allies and boost their physical attack power by a moderate amount.
+r:"^味方全体のＴＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ$"=Recovers allies' TP by $1.\nBoosts allies' P.ATK by $2 for 12s.
+
+
+サンシャインスマイル+=Sunshine Smile+
+サンシャインスマイル=Sunshine Smile
+ブリリアントサマー=Brilliant Summer

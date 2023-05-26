@@ -1,0 +1,32 @@
+===Profileミソギ
+ソギ=sogi 
+いたずら、探検=Prank, exploration
+探検好きのイタズラっ子=A prankster who loves exploring
+===Skills
+===UB
+トリックボマー=Trick Bomber
+自分から２番目に近い敵を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to enemies in a radius around the 2nd closest enemy.
+===S1
+自分から２番目に近い敵１キャラに物理小ダメージを与え、さらに暗闇状態にする。=Deals small P.DMG to the 2nd closest enemy and inflicts Blind.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体を暗闇状態にする$"=Deals $1 P.DMG to an enemy.\nInflicts Blind.
+===S2
+最も物理攻撃力が高い敵１キャラに物理小ダメージを与え、物理攻撃力を小ダウンさせ、さらに自分の物理攻撃力を小アップさせる。=Deals small P.DMG to an enemy with the highest P.ATK and lowers its P.ATK by a small amount. Small boost to own P.ATK.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理攻撃力を(\d+)ダウン\n自分の物理攻撃力を(\d+)アップ$"=Deals $1 P.DMG to an enemy.\nLowers an enemy's P.ATK by $2 for 99s.\nBoosts own P.ATK by $3 for 99s.
+===ex
+トラップエキスパート=Professional Prankster
+===Skills+
+===UB
+トリックハート=Trick heart
+敵全体に物理大ダメージを与え、物理攻撃力と物理クリティカルを特大ダウンさせる。さらに、物理攻撃クリティカル時のダメージを中ダウンさせる。=Deals large P.DMG to all enemies. Inflict massive P.ATK debuff, massive P.Crit Rate debuff and Moderate P.Crit DMG debuff to the targets.
+r:"^敵全体に(\d+)の物理ダメージ\n敵全体の物理攻撃力を(\d+)ダウン\n敵全体の物理クリティカルを(\d+)ダウン\n敵全体の物理攻撃クリティカル時のダメージを25％ダウン$"=Deals $1 M.DMG to all enemies.\nLowers all enemies’ P.ATK by $2 for 18s.\nLowers all enemies’ P.Crit Rate by $3 for 18s.\nLowers all enemies’ P.Crit DMG by 25% for 18s.
+===S1
+インクシューター+=Ink Spray+
+自分から２番目に近い敵１キャラに物理中ダメージを与え、暗闇状態にする。さらに範囲内の敵すべての物理攻撃力を小ダウンさせる。=Deals small P.DMG to the 2nd closest enemy and inflicts Blind. Lowers the P.ATK of all enemies in range by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体を暗闇状態にする\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nInflicts Blind for 10s.\nLowers P.ATK of enemies within range 200 by $2 for 180s.
+===S2
+===ex
+トラップエキスパート+=Professional Prankster+
+バトル開始時に自分の物理防御力を中アップさせ、さらに自分の物理攻撃力を小アップさせる。=Moderate boost to own P.DEF and small boost to P.ATK at start of battle.
+r:"^自分の物理防御力を(\d+)アップ\n自分の物理攻撃力を(\d+)アップ$"=Boosts own P.DEF by $1.\nBoosts own P.ATK by $2.
+===UE
+トリックギフト=Trick Gift

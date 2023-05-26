@@ -1,0 +1,73 @@
+プレゼントボックス=Present Box
+すべて受け取る=Receive All
+受け取り履歴=History
+[FF7C4E,D62146]期限が切れたプレゼントは自動的に削除されます。一度に受け取れるプレゼントは100件までです。[-]=[FF7C4E,D62146]Presents will be automatically deleted once their time limit expires.\nUp to 100 presents can be received at once.[-]
+スタミナ以外=Other than stamina
+新しい順=Newest
+古い順=Oldest
+家具=Furniture
+ギルドハウス家具は、メインクエスト2-1（NORMAL）クリアで受け取れます。=Guild House Furniture can be received by clearing the main quest $1.
+[FF7C4E,D62146]受け取れるアイテムがありません。[-]=[FF7C4E,D62146]There are no items.[-]
+[FF7C4E,D62146]受け取ったアイテムはありません。[-]=[FF7C4E,D62146]There are no items.[-]
+
+以下のプレゼントをまとめて受け取りますか？=Would you like to accept all of the following presents?
+プレゼント受け取り=Receive Present
+報酬はプレゼントに送られました。=Reward have been sent to the Present Box.
+所持上限を超えたアイテムはプレゼントに送られました。=Items that exceed the possession limit have been sent as gifts.
+「信頼度エピソード」で獲得したアイテムです。=item acquired from "Intimacy Episode"
+運営からのお詫びの品です。=It is an apology item from the operation.
+
+プレゼントに送られたアイテムがあります。=There are items sent to the present.
+ガチャ更新によりキャラ交換Ptを変換したアイテムです。=It is an item that converted character replacement PT by gacha update.
+===Item List Receive===A->Item,B->Number
+
+===Item Receive===
+sr:"^\[3C404E\]([\s\S]+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]$"=[3C404E]$1 × [-][FFBB00,CE4F00]$2[-]
+sr:"^(\D+)×(\d+)$"=$1 × $2
+===sort===
+フィルタ=Filter
+期限あり=Limited Time
+期限なし=No Limit
+プレゼントの種類=Present Type
+メモリーピース=Memory Shards
+コイン=Coins
+その他=Other
+
+===items===
+受け取り期限=Deadline
+獲得日時=Earned
+受け取り日時=Date and time
+プリンセスアリーナの防衛報酬です。=Princess Arena defense reward.
+バトルアリーナの防衛報酬です。=Battle Arena defense reward.
+sr:"^「(.+)」で獲得したアイテムです。$"="This is an item obtained in "$1"."
+sr:"^バトルアリーナ(\d+位)のランキング報酬です。$"="Battle Arena $1 ranking reward."
+sr:"^プリンセスアリーナ(\d+位)のランキング報酬です。$"="Princess Arena $1 ranking reward."
+sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan Battle ($1) $2 ranking reward."
+みんなのカレンダー内で獲得したアイテムです。=This item was acquired in everyone's calendar.
+
+
+スタミナ\n受取対象外=Exclude\nStamina
+期限を過ぎていたため、一部のプレゼントは受け取れませんでした。=Some gifts were not received because the deadline had passed.
+所持上限を超えて獲得したスタミナです。=It is a stamina acquired beyond the upper limit.
+スタミナ受取対象外にチェックしているため受け取れません。=You cannot receive it, you exclude it. check your check Box.
+===Login Bonus===
+
+クリスマス=Christmas
+謹賀新年 お正月=Happy New Year
+元日特別=New Year's Day Special
+復刻イベント=Revival Event
+スタートダッシュログイン=Jump Start Log In 
+事前登録=Pre-registration
+メインストーリー第3部開始記念ログイン=Main story Part 3 commemorative login
+
+
+r:"^([0-9.]+) Year Anniversary スペシャル$"=$1 Year Anniversary Special
+sr:"^「(.+)ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $2 day of "$1 Login Bonus"."
+sr:"^「ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $1 day of "Login Bonus"."
+sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。$"="Item obtained on $2 day of "$1 Campaign"."
+
+メンテナンスにご協力いただいたお礼です。=Thank you for your cooperation in maintenance.
+運営からのプレゼントです。=Gift from the management.
+
+===Premium===
+sr:"^\[3C404E\]([^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\]$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-][3C404E] day(s) remaining.[-]

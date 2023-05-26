@@ -1,0 +1,50 @@
+Nozomi 
+ゾミ=zomi 
+歌って踊れる大人気アイドル=A popular idol known for her singing and dancing
+
+舞台鑑賞、ダンス=Watching stage performances, dancing
+【物理】前衛で、皆の壁になって戦うアイドルのぞみん。彼女がステージに立てば、味方の物理攻撃力が大きくアップし、さらに敵の注意を一手に惹き付ける。=[Physical] An idol who fights from the VG, protecting others. Once on stage, she Large boosts the attack power of allies while drawing all enemy attacks to herself.
+
+高みへ続く道へ=To the road leading to high levels
+輝きの原点=The origin of shine
+『希望』の扉が開くとき=When the door of "Hope" opens
+ゾミ=Zomi
+真のトップアイドルとは=What is a true top idol?
+
+二人だけのバースデー=A Birthday for Two
+この気持ちは業務上の秘密=Secret of the Trade
+キミの笑顔が見たいから=To See Your Smile
+ラブソングの作り方=Lyrical Love Letter
+火のない所に大火災=All Smoke No Fire
+超新解釈『赤ずきん』=Red Riding Revisited
+ランドソル式ダイエット=The Landosol Diet
+わけあって追われる身=Chasing a Dream
+
+Skills
+UB
+ライブ・オンステージ=Live on Stage
+【挑発】味方全体の物理攻撃力を小アップさせ、自分の物理防御力と魔法防御力を大アップさせる。さらに敵全体を挑発する。=[Taunt] Taunts all enemies. Moderate boost to own P.DEF and M.DEF. Small boost to P.ATK of all allies.
+r:"^味方全体の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n敵全体を挑発する$"=Boosts allies' P.ATK by $1 for 18s.\nBoosts own P.DEF by $2 for 18s.\nBoosts own M.DEF by $3 for 18s.\nProvokes all enemies for 10s.
+S1
+S2
+自分の周囲の味方すべてのＨＰを中回復させる。=Recovers HP of all nearby allies by a small amount.
+r:"^範囲内の味方のＨＰを(\d+)回復$"=Recovers HP of all allies within range by $1.
+ex
+ルミナススマイル=Radiant Smile
+Skills+
+UB
+ライブ・オンスペシャルステージ=Live on Special Stage
+【挑発】味方全体の物理攻撃力を大アップさせ、物理/魔法無効バリアを展開し、自分の物理防御力と魔法防御力を特大アップさせる。さらに敵全体を挑発してスタンさせる。=[Taunt] Large boost the P.ATK of all allies, deploys a P/M nullification barrier, and Large boost own M/P.DEF. Also provokes and stuns all enemies.
+
+r:"^味方全体の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法無効バリアを展開する\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n敵全体を挑発する\n敵全体を一定時間行動不能にする$"=Boosts allies' P.ATK by $1 for 18s.\nDeploy a barrier that Nullifies P/M. DMG $2 to All Allies for 20s.\nBoosts own P.DEF by $3 for 18s.\nBoosts own M.DEF by $4 for 18s.\nProvokes all enemies for 11s.\nInflicts Stun to all enemies for 1.5s.
+S1
+前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせて物理攻撃力を小ダウンさせる。=Deals moderate P.DMG to all enemies in range, inflicts Stun, and lowers their P.ATK by a small amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.25s\nDeals $1 P.DMG to enemies in 280 range.\nInflicts Stun to all enemies within 280 range for 2s.\nLowers P.ATK of enemies in 280 range by $2 for 12s.
+S2
+
+ex
+ルミナススマイル+=Radiant Smile+
+バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法防御力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.DEF at start of battle.
+r:"^自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ$"=Boosts own P.DEF by $1.\nBoosts own M.DEF by $2.
+UE
+ブリリアントマイク=Brilliant Microphone

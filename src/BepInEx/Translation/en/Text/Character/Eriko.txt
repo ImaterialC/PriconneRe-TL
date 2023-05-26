@@ -1,0 +1,50 @@
+Profile
+リコ=riko 
+【物理】前衛で、毒スキルで敵を粉砕する、通称壊し屋。最高クラスの攻撃力を持ち、ユニオンバーストで敵にとどめの一撃を放つ毎に、その攻撃力はさらに上昇する。=[Physical] A self-styled demolisher who destroys foes from the vanguard with poison skills. Boasts top-tier attack power and Union Burst that further enhances her attacks for each enemy she fells.
+
+実験、裁縫、料理=Experiment, sewing, cooking
+運命の相手に一途すぎる乙女=A girl who's obsessed with her soulmate
+
+
+愛は欲望すら壊して=Love Destroys Even Desires
+幸せの天秤=Scales Of Happiness
+下手な縫い目のまにまに=In the Middle Of a Bad Seam
+逃れられない愛=Can Not Escape
+
+エリコの愛情テスト=Eriko's Love Exam
+本物の想い=True Feelings
+壊し屋の錬金術=The Destroyer's Arts
+最高の誕生日プレゼント=The Finest Birthday Gift
+狂気的な彼女=She's Crazy
+恐怖のラブレター=Love Letter Wrath
+全てはエリコのもの=It's All Mine
+その出会いは…運命？=Is This Fate?
+
+Skills
+UB
+デッドリーパニッシュ=Deadly Discipline
+目の前の敵１キャラに物理特大ダメージを与え、さらにこのスキルで敵を倒した場合、自分の物理攻撃力を大アップさせる。=Deals massive P.DMG to an enemy directly in front. boost to own P.ATK if the enemy is defeated by this skill.
+r:"^敵単体に(\d+)の物理ダメージ\nとどめを刺した時、自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 upon defeating an enemy.
+
+S1
+自分の物理攻撃力を小アップさせる。=Small boost to own P.ATK.
+S2
+ex
+狂愛の力=Unrelenting Obsession
+Skills+
+UB
+デッドリーエグゼキューション=Deadly Execution
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを6％アップ\n自分の物理攻撃力を(\d+)アップ\nとどめを刺せなかった時、自分の物理攻撃クリティカル時のダメージを40％アップ$"=►Deal $1 P.DMG to an enemy.\n►Deal $2 P.DMG to an enemy.\n►Reduce 6% P.Crit dmg resistance to an enemy for 18s.\n►Boosts own P.ATK by $3 for 180s.\n►If target not defeat, Boosts own P.Crit dmg by 40% for 18s.
+
+目の前の敵１キャラに物理特大ダメージを２回与え、クリティカルを受けた際のダメージを小アップさせ、さらに自分の物理攻撃力を大アップさせる。このスキルで敵を倒せなかった場合、自分の物理攻撃クリティカル時のダメージを大アップさせる。=Inflicts massive P.DMG twice to the first enemy character in front of you, slightly inflict the critical damage reduce toward the target, and Large boost your P.ATK power. If this skill fails to defeat the enemy, Large boost the P.Crit dmg.
+S1
+オブセッション=Obsession
+オブセッション+=Obsession+
+自分の物理攻撃力を大アップさせ、さらに短時間物理攻撃力と物理クリティカルを特大アップさせる。=Large boost to own P.ATK. Additional massive boost to own P.ATK and P.Crit rate for a brief period.
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを400アップ$"=Cast time: 1.125s\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.ATK by $2 for 7.5s.\n►Boosts own P.Crit rate by 400 for 7.5s.
+S2
+ポイズンブロウ=Poison Mist
+ex
+狂愛の力+=Unrelenting Obsession+
+UE
+ノーマーシー=No Mercy

@@ -1,0 +1,5 @@
+r:"^サレンディア救護院内([0-9\-\(\)\w （）]*)$"=Sarendia Orphanage (Inside) $1
+r:"^エリザベスパーク　牧場温泉([0-9\-\(\)\w （）]*)$"=Elizabeth Park (Onsen) $1
+
+讐鼠・ステゴロのチュウザ=Vengeful Rat, Stegoro Chuuza
+讐鼠・怒髪天のチュウジ=Vengeful Rat, Dorohaten Chuji
