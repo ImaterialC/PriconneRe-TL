@@ -46,7 +46,7 @@
 ノーマルガチャを1度も引いていないとき予定帳からノーマルガチャを引けるようにするか、\n表示するか設定できます。=When you have never pulled the normal gacha, you can set whether to draw normal gacha or display from the schedule book.
 
 ノーマルガチャ詳細設定=Normal Gacha Details Settings
-ノーマルガチャの利用回数がリセットされたとき「ノーマルガチャ設定」の項目の達成状況を\nリセットするか設定できます。=When the number of uses of Normal Gacha is reset, you can reset the achievement status of the "Normal Gacha Settings" item.
+ノーマルガチャの利用回数がリセットされたとき「ノーマルガチャ設定」の項目の達成状況を\nリセットするか設定できます。=Normal Gacha is reset twice in a day, you can reset the achievement status of the "Normal Gacha Settings", which mean the schedule book will update or not.
 リセットしない=Do not Reset
 
 「いいね」設定="Like" Settings
