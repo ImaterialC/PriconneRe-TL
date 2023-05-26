@@ -15,10 +15,6 @@ scr/BepInEx/Translation/en/Text/2_temp.txt
 scr/BepInEx/Translation/en/Text/3_Skill_active.txt
 scr/BepInEx/Translation/en/Text/4_Temp.txt
 scr/BepInEx/Translation/en/Texture/*.*
-BepInEx/
-BepInEx/config/*.*
-BepInEx/config/BepInEx.cfg
-BepInEx/config/AutoTranslatorConfig.ini
 *.exe
 PrincessConnectRediveUninstaller.exe
 PrincessConnectReDive.exe._
