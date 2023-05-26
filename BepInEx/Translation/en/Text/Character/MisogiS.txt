@@ -1,9 +1,0 @@
-ビックリ・ファイヤーワーク=Surprised Firework
-サマートリック=Summer Tricks
-前方の最も遠い敵を中心に、範囲内の敵すべてに物理大ダメージを与え、自分の目の前まで引き寄せる。=Inflicts heavy P.DMG to all enemies within range, centering on the farthest enemy in front, and pulls them in front of you.
-
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを150失わせる$"=Deal $1 P.DMG within the range 300.\nreduce TP by 150 toward target.
-前方範囲内の敵すべてに物理中ダメージを与え、ＴＰを中ダウンさせる。=Inflicts moderate P.DMG to all enemies within range and moderately decreases TP.
-
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n敵単体の物理防御力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy\nInflict Stun to the target for 1.5s.\nLowers an enemy's P.DEF by $2. for 12s.
-目の前の敵１キャラに物理中ダメージを与え、スタンさせる。さらに物理防御力を小ダウンさせる。=Inflicts moderate P.DMG to 1 enemy character in front and stuns it. In addition, the physical defense power is decreased by a small amount.

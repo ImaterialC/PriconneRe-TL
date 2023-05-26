@@ -1,2 +1,0 @@
-sr:"^([べ-ヺー＆]+)(（.+）)?のシャドウ$"=$1$2's Shadow
-sr:"^([べ-ヺー＆]+)(（.+）)?の姿をした特殊な魔物$"=A peculiar monster bearing a striking resemblance to $1$2.
