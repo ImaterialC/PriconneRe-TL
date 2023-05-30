@@ -1,4 +1,4 @@
-【物理】中衛で風刃を従え激戦を流麗に征く嵐翼の剣士。敵が多い程に効果が高まる自己強化スキルで、自身を奮い立たせ、強力な範囲攻撃スキルで一切の敵を鏖滅する。=[Physical] A storm-winged swordsman who gracefully wins fierce battles with his wind blade as a middle guard. A self-strengthening skill that becomes more effective as the number of enemies increases, motivating yourself and destroying all enemies with a powerful ranged attack skill.
+【物理】中衛で風刃を従え激戦を流麗に征く嵐翼の剣士。敵が多い程に効果が高まる自己強化スキルで、自身を奮い立たせ、強力な範囲攻撃スキルで一切の敵を鏖滅する。=[Physical] A storm-winged swordswoman who gracefully wins fierce battles with her wind blade as a middle guard. A self-strengthening skill that becomes more effective as the number of enemies increases, motivating herself and destroying all enemies with a powerful ranged attack skill.
 
 剣を交えて分かること=What can be understood by crossing swords
 活路はまどろみの向こうに=The way out is beyond slumber
@@ -19,3 +19,12 @@ r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカル
 
 ブロウアップハート+=Blow-up heart+
 ブロウアップハート=Blow-up heart
+
+グロリアスプリンセスドレス=Glorious Princess Dress
+トゥインクルエッジ+=Twinkle Edge+
+
+自分の物理攻撃力を4842アッ\nプ\n自分の物理クリティカルを80\nアップ\n自分の物理攻撃クリティカル時\nのダメージを8％アップ\n自分のＴＰを70回復=Increase your Physical ATK by 4842 Increase your own Physical Critical 80 Increases your Physical Attack Critical DMG 8% Restores 70 of your own TP
+
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを8％アップ\n自分のＴＰを70回復$"=►Increases own P.ATK by $1 for 18s.\n►Increases own P.Crit by $2(×Target) for 18s.\n►Increases own P.Crit dmg by 8%(×Target) for 18s.\n►Recovers own TP by 70.
+
+自分の物理攻撃力と物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。敵の数に応じて、このスキルの効果値がアップする。さらに自分のＴＰを小回復する。=Boost own P.ATK and P.crit rate, further increasing P crit dmg. The effectiveness of this skill increases based on the number of enemies. Additionally, restore a small amount of your own TP.

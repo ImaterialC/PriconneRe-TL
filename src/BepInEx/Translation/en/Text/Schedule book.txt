@@ -1,8 +1,8 @@
 予定帳=Schedule
 主さま、ご用事が立て込んでいらっしゃるようですね。\n日々のご予定の管理はわたくしにおまかせくださいまし。=Aruji-sama, it seems that your business is built in.\nLeave it to me for your daily plan.
 
-まとめておまかせ=Complete all
-リストの設定=List Setting
+まとめておまかせ=Complete All
+リストの設定=List Settings
 実行=Do
 
 メインかイベントクエストを10回クリアしよう=Clear "Main Quest" or "Event Quest" 10 Times
@@ -11,9 +11,9 @@
 メイン(HARD、VERY HARD)かイベントクエスト(HARD)を3回クリアしよう=Clear Main/Event Quest HARD/VERY HARD 3 Times
 バトルアリーナで1回戦おう=Participate in the "Battle Arena" 1 time
 プリンセスアリーナで1回戦おう=Participate in the "Princess Arena" 1 time
-アリーナコインを1回受け取ろう=Collect Battle Arena Coin once
-プリンセスアリーナコインを1回受け取ろう=Collect Princess Arena Coin once
-ギルドハウスでアイテムを受け取ろう=Collect items at the Guildhouse
+アリーナコインを1回受け取ろう=Collect Battle Arena Coin(s) once
+プリンセスアリーナコインを1回受け取ろう=Collect Princess Arena Coin(s) once
+ギルドハウスでアイテムを受け取ろう=Collect item(s) at the Guildhouse
 マナクエストを残り挑戦回数分クリアしよう=Clear the remaining Mana Quests
 経験値クエストを残り挑戦回数分クリアしよう=Clear the remaining EXP Potion Quests
 ノーマルガチャを引こう=Pull the Normal Gacha
@@ -23,7 +23,7 @@
 キャラのスキルを1回強化しよう=Enhance character's Skill 1 time
 装備強化で装備の★を1つ増やそう=Refine the equipment and increase ★ by 1
 マナを1回購入しよう=Purchase Mana 1 Time
-クランメンバーに「いいね」しよう=Give [Like] to other Member of your Clan
+クランメンバーに「いいね」しよう=Give a [Like] to another Member of your Clan
 ルナの塔に1回挑戦しよう=Attempt a Tower of Luna 1 time
 クランバトルに1回挑戦しよう=Attempt a Clan Battle 1 time
 ダンジョンに1回挑戦しよう=Attempt a Dungeon 1 time

@@ -12,6 +12,8 @@ r:"^トレーニングログ保存件数 ([0-9/]+)$"=Saved training logs: 6/30
 マイログに保存しました。=Save it to My Log.
 r:"^([0-9/]+)回$"=$1×
 
+[3C404E]サポート設定で獲得できるマナが\n合計[-][FFBB00,CE4F00]5,000,000[-][3C404E]マナ以上たまりました。[-]=[3C404E]Total mana obtained through support settings has exceeded [FFBB00,CE4F00]5,000,000[-] mana.[-]
+
 ===Clan List===
 r:"^\[FFBB00\,CE4F00\]最終ログイン:(\d+)時間以内\[-\]$"=[FFBB00,CE4F00]Online for: $1h[-]
 r:"^\[FFBB00\,CE4F00\]最終ログイン:(\d+)日前\[-\]$"=[FFBB00,CE4F00]Last Login: $1d ago[-]
@@ -83,6 +85,7 @@ sr:"^([0-9]{1,2}月)の順位：$"=$1 Rank:
 ===Clan===
 装備リクエスト=Request
 次回のモード変更開始まで\nモードは変更できません。=The mode cannot be changed\nuntil the next mode change starts.
+段階を変更したバトルでは\n撃破報酬は獲得できません。=Battles that Tier changed will not\nreceive a reward for defeating them.
 
 クランバトル モード変更受付終了=Mode Change Request Closed.
 開催までお待ちください。=Please wait until CB ends.

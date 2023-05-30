@@ -13,6 +13,7 @@
 獲得したプレイヤー経験値はダンジョンコインに変換されました。=Player Exp points earned have been converted\ninto Dungeon Coins.
 
 sr:"^あと ([0-9]{2})時間([0-9]{2})分$"=Deadline $1h$2m
+sr:"^あと ([0-9]{2})分([0-9]{2})秒$"=Deadline $1m$2s
 ==Daily==
 [3C404E]12:00～翌朝04:59の間にゲームにログインしよう[-]=[3C404E]Log-in between 12:00 and the next morning 04:59(JST)[-]
 [3C404E]18:00～翌朝04:59の間にゲームにログインしよう[-]=[3C404E]Log-in between 18:00 and the next morning 04:59(JST)[-]
@@ -27,7 +28,7 @@ sr:"^あと ([0-9]{2})時間([0-9]{2})分$"=Deadline $1h$2m
 [3C404E]キャラのスキルを1回強化しよう[-]=[3C404E]Enhance character's Skill 1 time[-]
 [3C404E]装備強化で装備の★を1つ増やそう[-]=[3C404E]Refine the equipment and increase ★ by 1[-]
 [3C404E]マナを1回購入しよう[-]=[3C404E]Purchase Mana 1 Time[-]
-[3C404E]クランメンバーに「いいね」しよう[-]=[3C404E]Give [Like] to other Member of your Clan[-]
+[3C404E]クランメンバーに「いいね」しよう[-]=[3C404E]Give a [Like] to another Member of your Clan[-]
 [3C404E]ノーマルガチャを10回引こう[-]=[3C404E]Draw the Normal Gacha "10 Times"[-]
 [3C404E]ルナの塔に1回挑戦しよう[-]=[3C404E]Attempt a Tower of Luna 1 time[-]
 [3C404E]クランバトルに1回挑戦しよう[-]=[3C404E]Attempt a Clan Battle 1 time[-]
@@ -46,7 +47,7 @@ sr:"^あと ([0-9]{2})時間([0-9]{2})分$"=Deadline $1h$2m
 [FFFFFF]キャラのスキルを1回強化しよう[-]=[FFFFFF]Enhance character's Skill 1 time[-]
 [FFFFFF]装備強化で装備の★を1つ増やそう[-]=[FFFFFF]Refine the equipment and increase ★ by 1[-]
 [FFFFFF]マナを1回購入しよう[-]=[FFFFFF]Purchase Mana 1 Time[-]
-[FFFFFF]クランメンバーに「いいね」しよう[-]=[FFFFFF]Give [Like] to other Member of your Clan[-]
+[FFFFFF]クランメンバーに「いいね」しよう[-]=[FFFFFF]Give a [Like] to another Member of your Clan[-]
 [FFFFFF]ノーマルガチャを10回引こう[-]=[FFFFFF]Draw the Normal Gacha "10 Times"[-]
 [FFFFFF]ルナの塔に1回挑戦しよう[-]=[FFFFFF]Attempt a Tower of Luna 1 time[-]
 [FFFFFF]クランバトルに1回挑戦しよう[-]=[FFFFFF]Attempt a Clan Battle 1 time[-]

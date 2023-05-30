@@ -7,7 +7,7 @@
 収納BOX拡張=Expand Storage
 スタミナ回復=Recharge Stamina
 価格=Price
-
+商品内容の詳細=Details
 r:"^毎日更新 ジュエル ([0-9]+)個$"=Daily Update Jewel $1
 r:"^([1-9])回限定 ジュエル ([0-9]+)個$"="$1 Left: Limited Jewel $2"
 r:"^([2-9])回限定$"="Limited!\n$1 times only"
@@ -32,20 +32,42 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 [FF7C4E,D62146]未購入の商品はありません。[-]=[FF7C4E,D62146]There is no available to purchase.[-]
 スペシャルショップ=Special Shop
 購入済み=Purchased
-デイリージュエルパック=Daily Jewel Pack
-探索挑戦回数 +3回について=About Grotto +3 Attempts 
-
-探索挑戦回数 +3回=Grotto +3
-特定商取引法に基づく表示=Commercial Transactions Law
 資金決済法に基づく表示=Fund Settlement Law
-デイリージュエルパックについて=Daily Jewel Packs
+コラボ記念 専用装備グロウスフィアパック=Collab-Event UE Growsphere Pack
+探索挑戦回数 +3回=Grotto +3
+探索挑戦回数 +3回購入=Buy Grotto +3
+探索挑戦回数 +3回について=About Grotto +3 Attempts 
+特定商取引法に基づく表示=Commercial Transactions Law
+デイリージュエルパック=Daily Jewel Pack
+デイリージュエルパック購入=Buy Daily Jewel Packs
+デイリージュエルパックについて=About Daily Jewel Packs
 7日間スタミナ応援パック=7 Days Stamina Pack
+7日間スタミナ応援パック購入=Buy 7 Days Stamina Pack
+7日間スタミナ応援パックについて=About 7 Days Stamina Pack
 30日間スタミナ応援パック=30 Days Stamina Pack
+30日間スタミナ応援パック購入=Buy 30-Days Stamina Pack
+30日間スタミナ応援パックについて=About 30 Days Stamina Pack
+  pack
+7日間探索挑戦回数+3回=7 days Grotto +3 pack
+7日間探索挑戦回数+3回購入=Buy 7 days Grotto +3 pack
+7日間探索挑戦回数+3回について=About 7 days Grotto +3 pack
+30日間探索挑戦回数+3回=30 days Grotto +3 pack
+30日間探索挑戦回数+3回購入=Buy 30 days Grotto +3 pack
+30日間探索挑戦回数+3回について=About 30 days Grotto +3 pack
 購入Lv制限あり=Purchase Lv Limit
 
-7日間スタミナ応援パック購入=Buy 7 Days Stamina Pack
-探索挑戦回数+7回の期間が追加となります。\n7日間スタミナ応援パックを購入しますか？=Would you like to purchase\nthe 7 Day Stamina Pack?
-残り有効期間=Days Remaining
+sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of [FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1pt[-]?[-]
+
+r:"^探索挑戦回数+(\d+)回の期間が追加となります。\n(\d+)日間スタミナ応援パックを購入しますか？?$"=For period time\nThe number of Grotto attempts +$1.\nWould you like to purchase the $2-Day Stamina Support Pack?
+
+sr:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]For period time The number of Grotto attempts +$1.\nWould you like to purchase [FFBB00,CE4F00]$3[-] for[FFBB00,CE4F00]$2pt[-]?[-]
+
+r:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\](\d+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](\d+)日間スタミナ応援パック\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]For period time\nThe number of Grotto attempts +$1.\nWould you like to purchase the $2-Day Stamina Support Pack for[FFBB00,CE4F00]$2pt[-]?[-]
+
+[3C404E]探索挑戦回数+3回の期間が追加となります。\n[-][FFBB00,CE4F00]480pt[-][3C404E]で[-][FFBB00,CE4F00]7日間探索挑戦回数+3回[-][3C404E]を購入しますか？[-]
+r:"^(\[3C404E\]\[FFBB00,CE4F00\])?(\d+)日(\[-\]\[-\])?$"=$1$2 Days $3
+
+残り有効期間=Duration
 
 
 sr:"^(\d+)年(\d+月)(\d+)日まで$"=Until $2 $3, $1
@@ -68,6 +90,10 @@ r:"^販売期間([0-9: /]+)まで$"=Sales period until$1
 
 r:"^あと(\d+)日有効$"=$1 Day(s) Left
 r:"^あと(\d+)時間有効$"=$1 Hours Left
+
+r:"^探索挑戦回数+(\d+)回の期間が\n追加されました。$"=Grotto Attempt count +$1\nhas been added for a limited time.
+購入成功=Purchase Successful
+
 
 ===Age registration
 入力する=input
@@ -115,4 +141,5 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 マナ購入で、「マナ」と「スキップチケット」が手に入ります。\nさらにオマケで「メモリーピース」「女神の秘石」「探索挑戦回数増加」\nが手に入るかもしれませんよ。=Buying Mana will get you both Mana and skip tickets.\nYou may also receive bonuses such as Memory Shards,\nDivine Amulets and additional Grotto attempts.
 
 決済手続=Payment Procedure
-r:"^DMMポイントを消費して、\n購入手続きを完了しますか?\n所持DMMポイント:(\d+)\n(\[[0-9A-F]{6}\])?ここで購入したジュエルやマナは\nDMM版でご利用いただけます。(\[-\])?$"=Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n$2The jewels and mana purchased here\ncan be used on the DMM version.$3
+r:"^\[3C404E\]\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\]\[-\]$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The jewels and mana purchased here\ncan be used on the DMM version[-].[-]
+

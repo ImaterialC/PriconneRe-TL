@@ -1,6 +1,6 @@
 システム=System
 
-表示する=Display.
+表示する=Display
 表示しない=No display
 
 通知=Notification
@@ -55,7 +55,7 @@ Lvアップ可能な効果つき家具がある場合、通知を表示するか
 ダウンロードしたプレイ動画を保存するか設定します。\n「保存しない」を選択すると、プレイ動画はアプリ起動の度に削除されます。=Set whether or not you want to save the downloaded videos;\nif you select "Don't save", the videos will be deleted every time you exit the game.
 
 イベント終了予告=End-of-Event Warning
-イベントクエストが終了する前に、イベント終了の注意喚起をダイアログ表示するか設定します。=Set whether or not to show a dialog to remind end of the event before the event quest ends.
+イベントクエストが終了する前に、イベント終了の注意喚起をダイアログ表示するか設定します。=Set whether or not to show a reminder for the end of an event before the event ends.
 3日前から表示=3 Days Before
 最終日のみ表示=Only Last Day
 
@@ -76,7 +76,7 @@ Lvアップ可能な効果つき家具がある場合、通知を表示するか
 クランバトルでサポートキャラの★変更を行った後、確認ダイアログを表示するか設定します。=Sets whether or not to display a confirmation prompt\nafter changing the star level for CB support character.
 
 アイテム所持上限時のダイアログ表示=Confirmation Prompt when reaching item limit
-所持上限を超えた獲得アイテムおよびマナが、\nプレゼントボックスに送られたことの確認ダイアログを表示するか設定します。=Set whether or not to display a dialog box to confirm\nitems that exceeds the limit have been sent to the gift box.
+所持上限を超えた獲得アイテムおよびマナが、\nプレゼントボックスに送られたことの確認ダイアログを表示するか設定します。=Set whether or not to display a dialog box to confirm\nwhen items that have exceeded the limit get sent to the gift box
 
 クランバトルモンスター討伐演出設定の確認ダイアログ=Confirmation Prompt for Clan Battle Monster Defeat
 クランバトルを開始する前に、モンスター討伐演出設定を確認するダイアログを開きます。=A prompt that allows you to confirm monster defeat settings\nbefore starting a clan battle.

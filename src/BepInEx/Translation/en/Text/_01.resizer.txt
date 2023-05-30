@@ -47,6 +47,7 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab03(Clone)/LimitedShopTab/TabButton_9/State_Active/Label=ChangeFontSize(10)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/TabPos/PartsShopTab03(Clone)/LimitedShopTab/TabButton_9/State_Normal/Label=ChangeFontSize(10)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/TabPos/PartsShopTab03(Clone)/LimitedShopTab/TabButton_9/State_Active/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab03(Clone)/LimitedShopTab/TabButton_9/State_Normal/Label=ChangeFontSize(10)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/FooterDefault/Label_reset_time=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/FooterCounter2Digit/ButtonReset/Label_reset_price=ChangeFontSize(12)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/FooterDefault/ButtonMove/Label_target=ChangeFontSize(14)
@@ -161,5 +162,7 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/WidgetOff(Clone)/SlideObj/Main/TabObject/MemoryPieceTab/State_Normal/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/NodeItemDetail/ExEquip/ExEquipStatus/Scroll/ScrollView/EquipmentInfo/UITable/Head/ItemDescription/ItemDescriptionLabel=ChangeFontSize(11)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitDetail(Clone)/Right/UnitRarityUp(Clone)/Right/RarityUpButton/Label=ChangeFontSize(25)
-
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogTrialBattleResult(Clone)/Main/Bottom/BottomParts/UIButton_Parts/ButtonAnimator/Button/NextButton/Label=ChangeFontSize(24)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(12)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewGrandArenaTop(Clone)/WidgetOff(Clone)/SlideLeft/GUIGroup_RankInfo_new/UIButton_DefenceSetting/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/WidgetOff(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(10)

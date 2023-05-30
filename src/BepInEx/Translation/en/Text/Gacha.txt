@@ -4,7 +4,7 @@
 カムバック スペシャルフェス=Return SpecialFes
 ムバック スペシャルフェス=-Ching: Return SpecialFes
 チャ結果=acha Results
-Sダッシュ=J:Start
+Sダッシュ=S:Dash
 プリフェス=PriFES
 プリフェスガチャ=PriFES Gacha
 ★3確定=Guarantee ★3
@@ -25,7 +25,7 @@ Anniv. スペシャル交換チケットについて=Anniv. Sp Exchange Ticket
 ★3確定 プリコネフェス記念ガチャチケット=Guarantee ★3 Pricone-FES Memorial Gacha Ticket
 r:"^★3確定 プリコネフェス(\d*)記念ガチャチケット$"=Guarantee ★3 PriCone-FES $1 Memorial gacha ticket
 r:"^★3確定 ([0-9.]+)周年記念ガチャチケット$"=Guarantee ★3 $1th Anniversary Gacha Ticket
-★3確定プラチナガチャ=Guarantee ★3 Platinum Gacha
+★3確定プラチナガチャ=Guarantee ★3 Premium Gacha
 ★3確定ガチャ=Guarantee ★3 Gacha
 sr:"^★3確定( )?(.*)?(ガチャ)(チケット)?$"=Guarantee ★3 $2 $3 $4
 出現率UP=Boosted rates
@@ -111,7 +111,7 @@ r:"^(\[[0-9A-F,]{6,13}\])10キャラ目は(\[[0-9A-F,]{6,13}\])限定★3キャ�
 
 r:"^(\[[0-9A-F,]{6,13}\])10キャラ目は(\[[0-9A-F,]{6,13}\])★3キャラ確定！\[-\]\n対象キャラを仲間にする度に(\[[0-9A-F,]{6,13}\])対象メモピ(\d+)個\[-\]GET！\[-\]$"=$1A $2★3 character[-] is guaranteed with each 10x draw!\n※Each pull a target Character, $3Gets a Bonus of $4 Memory Shards[-].[-]
 
-[FFBB00,CE4F00]プラチナガチャはキャラのみ出現！[-]=[FFBB00,CE4F00]Platinum Gacha only appears for characters![-].
+[FFBB00,CE4F00]プラチナガチャはキャラのみ出現！[-]=[FFBB00,CE4F00]Premium Gacha only appears for characters![-].
 キャラ交換Ptの説明=Character exchange Pt description
 
 ===Banner==
@@ -176,14 +176,13 @@ r:"^残り([2-9])人選択してください。？$"=Please select $1 characters
 解放済みのキャラがピックアップ対象に選択されています。=         The unlocked character has been\n              selected as a pickup target.
 sr:"^「([べ-ヺー＆]+)(（.+）)?」\n\nにピックアップ対象を変更しますか？$"=Do you want to change the pickup target to\n\n$1$2?
 ===Free Gacha===
-無料=free
+無料=Free
 [3C404E]アイテムやメモリーピースをGET！[-]=[3C404E] Get item and memory shards! [-]
 所持上限を超えるアイテムはプレゼントに送られます。=Items over the possession limit will be sent to the present box.
 日   回無料！=Daily free!
    日最大     度引ける=   day,         Times
    時と     時リセット= &        : Reset
 毎日   時にリセット=am    :00 Reset   
-無料=free
 1度= 
 だけ引ける!=Once Pull!
 すでに\n引き終わっています=Already\npulled
@@ -218,7 +217,7 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 有償ジュエルが不足しています。=Not enough paid jewels..
 このガチャは有償ジュエルで引くことができます。=This gacha can be drawn only with a paid jewel.
 [FFBB00,CE4F00]有償ジュエル限定\n限定★3確定ガチャ開催！[-]=[FFBB00,CE4F00]Guarantee ★3 Limited character\nGuaranteed Gacha[-]
-[FFBB00,CE4F00]有償ジュエル限定\n★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Limited Guarantee ★3\nPaid Jewel Platinum Gacha! [-]
+[FFBB00,CE4F00]有償ジュエル限定\n★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Limited Guarantee ★3\nPaid Jewel Premium Gacha! [-]
 有償ジュエルを消費してガチャを 10 回引きます。\nよろしいですか？=Consume paid jewel and draw 10 gacha.\nIs this OK?
 有償ジュエルを消費してガチャを 1 回引きます。\nよろしいですか？=Consume paid jewel and draw 1 gacha.\nIs this OK?
 ===Special Tickets use===

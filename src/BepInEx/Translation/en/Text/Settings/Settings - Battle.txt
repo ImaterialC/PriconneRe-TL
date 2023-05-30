@@ -44,7 +44,7 @@ Bアリーナ=B Arena
 ルナの塔において現在の階層がスキップ可能な場合、確認ダイアログを開きます。=Opens a confirmation prompt if the current level in Tower of Luna is skippable.
 
 マルチターゲット演出=Multi-Target Animation
-マルチターゲットのモンスターが登場するバトルを開始した際の演出を表示するかどうかの設定です。\n「1日1回見る」を設定すると、毎日初回挑戦時のみ表示されます。=Whether or not to show the effect for multi-targeted monsters.
+マルチターゲットのモンスターが登場するバトルを開始した際の演出を表示するかどうかの設定です。\n「1日1回見る」を設定すると、毎日初回挑戦時のみ表示されます。=Whether or not to show the effect for multi-target monsters.
 
 クイックスタート機能使用時の確認ダイアログ=Quick Start Confirmation Prompt
 クリアパーティ一覧画面でクイックスタート機能を使用するときに、確認ダイアログを開きます。=Opens a confirmation prompt when using the Quick Start function on the Clear Party List.

@@ -51,4 +51,7 @@ Skill EX
 バトル開始時に自分の最大ＨＰを中アップさせる。=Moderate boost to own max HP at start of battle.
 r:"^自分の最大ＨＰを(\d+)アップさせる$"=►Boosts own max HP by $1.
 r:"^自分の最大ＨＰを(\d+)アップ$"=►Boosts own max HP by $1.
-(temp)
+
+
+
+おいっす～☆　わたしの名前は…\nお腹ペコペコのペコリーヌです！=Heiya~!☆ My name is...\nThe always starving Pecorine!
