@@ -1,5 +1,5 @@
-UB即発動モードを使用するか設定できます。=You can use the UB immediately activation mode.
-UB即発動モードの設定=UB immediately activation mode setting
+UB即発動モードを使用するか設定できます。=You can use Union Burst activation mode as soon as the TP is full just like rapid click.
+UB即発動モードの設定=UB immediately activation mode setting (Set mode)
 UB即発動モードを有効にする=Enable UB prompt mode
 各キャラがユニオンバーストを発動する度に、UB即発動モードを解除するか設定できます。=Each time character activates UB, you can set whether to cancel the UB prompt mode.
 ユニオンバースト発動時にUB即発動モードを解除=Cancel UB prompt mode when union burst is activated

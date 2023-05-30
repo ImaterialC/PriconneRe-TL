@@ -137,31 +137,3 @@ sr:"^([べ-ヺー＆]+)(（.+）) が仲間になりました。$"=$1$2 has beco
 sr:"^([べ-ヺー]{2,7})(（.{2,8}）)$"=$1$2
 
 
-===Story Nick Name
-エリス=Eris
-アゾールド=Azold
-ミソラ=Misora
-ゼーン=Zane
-カリザ=Caliza
-ミネルバ=Minerva
-カイザーインサイト=Kaiser Insight
-
-シュテッヒパルム=Stechpalm
-草花さんたち=Flowers
-ゴロツキ１=Gorotsuki 1
-ゴロツキ２=Gorotsuki 2
-王宮騎士団員１=Royal Knight 1
-王宮騎士団員２=Royal Knight 2
-二人=Both
-ぷうきち=Pukichi
-老旅人=Old traveler
-店員=Clerk
-商人=Merchant
-女の子=Girl
-カガミ=Kagami
-ひより=Hiyori
-バックログ=Back log
-
-魔法少女たち=Magical Girls
-イオ・ノワール=Io Noir
-クウカ・ノワール=Kuuka Noir
