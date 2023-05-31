@@ -16,3 +16,5 @@ src/BepInEx/Translation/en/Text/3_Skill_active.txt
 src/BepInEx/Translation/en/Text/4_Temp.txt
 src/BepInEx/Translation/en/Texture/*.*
 src/BepInEx/Translation/en/Texture/Untranslated
+
+src/BepInEx/Translation/en/Texture/[Dump]
