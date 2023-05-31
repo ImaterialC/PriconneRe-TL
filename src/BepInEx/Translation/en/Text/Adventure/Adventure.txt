@@ -117,7 +117,7 @@ r:"^([0-9/]+)キャラ$"=$1 Chara
 1時間未満の時間短縮が設定されています。=The time reduction of less than an hour is set.
 出発確認=Departure confirmation
 繰り返し回数=Repeated number
-r:"(\d+)回追加$"=+$1 Lap
+r:"^(\d+)回追加$"=+$1 Lap
 周回数を追加しました。=The number of laps has been added.
 周回追加完了=Lap addition is completed
 
@@ -128,7 +128,7 @@ r:"(\d+)回追加$"=+$1 Lap
 思い出イベント=Memorial Event
 これまでに発見した思い出イベントのイラストを確認出来ます。=You can check the illustrations of the memorable events you have discovered so far.
 まだ発見していない思い出イベントです。=This memorable event has not been found yet.
-r:"選択は(\d+)キャラまでです。$"=Up to $1 characters can be selected.
+r:"^選択は(\d+)キャラまでです。$"=Up to $1 characters can be selected.
 
 メモピドロップ枠=Memory Shard Drop
 冒険へ出発する時メモリーピース対象に編成されたキャラは、冒険\nから帰還した際の報酬としてメモリーピースを獲得できる可能性が\nあります。強化したいキャラクターを優先的に編成しましょう。=Characters organized for Memory Shard when d for an adventure may be able to acquire memory pieces as a reward when returning from an adventure. Prioritize the characters you want to strengthen.

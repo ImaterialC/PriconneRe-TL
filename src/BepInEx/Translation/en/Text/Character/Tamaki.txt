@@ -39,7 +39,6 @@ S1
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体の魔法攻撃力を(\d+)ダウン\n敵単体を一定時間行動不能にする$"=Cast Time:1.325s\nDeals $1 P.DMG to an enemy.\nLowers an enemy's M.ATK by $2.\nInflict stun on damaged target for 1.5s
 S2
 
-r:"^$"=
 ex
 マーベラスキャッツ+=One Myarvelous Cat+
 UE

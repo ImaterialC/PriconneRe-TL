@@ -38,7 +38,6 @@ S1
 目の前の敵１キャラに物理大ダメージを与える。=Deals large P.DMG to an enemy directly in front.
 S2
 
-r:"^$"=
 ex
 琉球犬式練気術+=Ryukyu-Ken Martial Breathing+
 UE

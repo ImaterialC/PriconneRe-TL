@@ -4,10 +4,10 @@
 
 キャンピングライムライト=Camping Limelight
 
-r:"敵単体に(\d+)の物理ダメージ\n至福のひと時が３以上の場合、味方全体の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、味方全体の物理クリティカルを(\d+)アップ"=Deals $1 P.DMG to nearest enemy target within 500 range.\nif Self have 3 or more stack, buff all friendly target by $2 P.ATK and $2 P.Crit rate for 18s.
+r:"^敵単体に(\d+)の物理ダメージ\n至福のひと時が３以上の場合、味方全体の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、味方全体の物理クリティカルを(\d+)アップ$"=Deals $1 P.DMG to nearest enemy target within 500 range.\nif Self have 3 or more stack, buff all friendly target by $2 P.ATK and $2 P.Crit rate for 18s.
 目の前の敵に物理特大ダメージを与える。このスキルがクリティカルした場合のダメージは２倍ではなく３倍になる。【至福のひと時】が３以上の場合、味方全体の物理攻撃力を小アップし物理クリティカルを大アップする。このスキルのクリティカルした場合のダメージと物理攻撃力と物理クリティカルの上昇量は【至福のひと時】に応じて増加する。=Deals Massive P.DMG to nearest enemy target within 500 range.\nDeals 3x P.DMG if critical.\ndamage is boosted by 0.125*stack count.if Self have 3 or more stack, buff all friendly target by (Medium amount x stack count) P.ATK and +(100+(5*stack count)) P.Crit rate for 18s.
 
 
-r:"至福のひと時が３以上の場合、敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ"=If self have 3 or more stack, deals $1P.DMG to one of random front enemy within 500 range.\nIf stack less then 3, deals $2 P.DMG to one of random front enemy within 500 range.
+r:"^至福のひと時が３以上の場合、敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ$"=If self have 3 or more stack, deals $1P.DMG to one of random front enemy within 500 range.\nIf stack less then 3, deals $2 P.DMG to one of random front enemy within 500 range.
 
 前方範囲内のランダムな敵キャラに単体物理小ダメージを与える。【至福のひと時】が３以上の場合、このスキルによるダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になり、【至福のひと時】に応じてクリティカルした場合のダメージが増加する。=If self have 3 or more stack, deals Large P.DMG to one of random front enemy within 500 range.\nDeals 3x P.DMG if critical.\nDamage is boosted by 0.0625*stack count.\nIf stack less then 3, deals medium  P.DMG to one of random front enemy within 500 range.

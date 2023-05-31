@@ -26,7 +26,6 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の物理防御
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン$"=Deals $1 M.DMG to enemies in range.\nLowers P.DEF of enemies in range by $1.\nLowers M.DEF of enemies in range by $1.
 ===S2
 
-r:"^$"=
 ===ex
 メイドスピリット+=Maid's Dedication+
 ===UE

@@ -12,10 +12,10 @@ r:"^対象の味方の魔法攻撃力を(\d+)アップ\n対象の味方の魔法
 
 最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。自分の魔法攻撃力が高い程、それぞれの効果量がアップする。さらに、最も魔法攻撃力が高い味方１キャラのＴＰを小回復させる。=Increases M.ATK and M.crit rate of the ally with highest M.ATK by large amount, with boosted effect based on user's M.ATK. Also boosts M.crit dmg and slightly restores TP of ally with highest M.ATK.
 
-r:"味方単体の魔法攻撃力を(\d+)アップ\n味方単体の魔法クリティカルを(\d+)アップ\n味方単体の魔法攻撃クリティカル時のダメージを5％アップ\n味方単体のＴＰを(\d+)回復$"=Cast time: 0.59s\nToward highest M.ATK:\n►Boost M.ATK by $1(+0.27×M.ATK) for 12s.\n►Boost M.Crit Rate by $2 for 12s.\n►Boost M.Crit DMG by 5% for 12s.\n►Restore target's TP by $3.
+r:"^味方単体の魔法攻撃力を(\d+)アップ\n味方単体の魔法クリティカルを(\d+)アップ\n味方単体の魔法攻撃クリティカル時のダメージを5％アップ\n味方単体のＴＰを(\d+)回復$"=Cast time: 0.59s\nToward highest M.ATK:\n►Boost M.ATK by $1(+0.27×M.ATK) for 12s.\n►Boost M.Crit Rate by $2 for 12s.\n►Boost M.Crit DMG by 5% for 12s.\n►Restore target's TP by $3.
 
 サンライズヒール=Sunrise Heal
-r:"味方単体のＨＰを(\d+)回復\n味方単体の魔法攻撃力を(\d+)アップ$"=Cast time: 0.59s\n►Recovers an ally's HP by $1.\n►Boosts target allies’ M.ATK by $2 for 12s.
+r:"^味方単体のＨＰを(\d+)回復\n味方単体の魔法攻撃力を(\d+)アップ$"=Cast time: 0.59s\n►Recovers an ally's HP by $1.\n►Boosts target allies’ M.ATK by $2 for 12s.
 最もＨＰが低い味方１キャラのＨＰを小回復させ、さらに魔法攻撃力を中アップさせる。=Restores a small amount of HP to the character with the lowest HP, and also moderately boost magic attack power.
 ブランニューイリュージョン+=Brand New Illusion+
 ブランニューイリュージョン=Brand New Illusion

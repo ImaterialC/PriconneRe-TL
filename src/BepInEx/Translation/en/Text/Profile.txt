@@ -27,7 +27,7 @@ sr:"^(\d{4})年(\d+月)$"=$2, $1
 お気に入り設定=Set Favorites
 お気に入りキャラ=Favorite Character
 差を表示する=Display
-sr:"^(\d+月)(\d{1,2})日"=$1 $2
+sr:"^(\d+月)(\d{1,2})日$"=$1 $2
 ===Profile Card===
 保存=Save
 称号変更=Title change

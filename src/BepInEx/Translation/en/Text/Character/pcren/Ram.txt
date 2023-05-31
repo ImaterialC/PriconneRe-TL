@@ -20,13 +20,11 @@ r:"^敵単体に次の物理攻撃が確定で回避される状態を付与す�
 ===Skills+
 ===UB
 
-r:"^$"=
 ===S1
 目の前の敵１キャラが行動不能状態だった場合魔法特大ダメージを与えて大きく吹き飛ばし、そうでない場合魔法大ダメージを与えて小さく吹き飛ばす。=If the enemy in front of you is inevitable, it will cause magic special damage and blow it off, and if not, it will cause M.DMG and blow it off small.
 r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ\n敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=M.DMG of $1 when it is unable to act on the enemy alone\nM.DMG of $1 when it is not unable to act on the enemy alone
 ===S2
 
-r:"^$"=
 ===ex
 傲岸不遜+=Pure Arrogance+
 ===UE

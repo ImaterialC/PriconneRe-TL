@@ -27,7 +27,7 @@ r:"^敵全体に(\d+)の魔法ダメージ\n敵全体のＴＰを(\d+)失わせ�
 S1
 前から２番目の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに誘惑状態の敵のＴＰを大ダウンさせ、そうでない敵の物理攻撃力と魔法攻撃力を中ダウンさせる。=Deals moderate M.DMG to all enemies in range. If they are Charmed, reduces their TP by a large amount, and if they are not, lowers their P.ATK by a moderate amount.
 
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n敵が誘惑状態の時、敵単体のＴＰを(\d+)失わせる\n敵が誘惑状態でない時、範囲内の敵の物理攻撃力を(\d+)ダウン"=►Deals $1 M.DMG to enemies in range.\n►Reduces an enemy's TP by $2 if they are Charmed.\n►Lowers P.ATK of enemies in range by $3 if they are not Charmed.
+r:"^範囲内の敵に(\d+)の魔法ダメージ\n敵が誘惑状態の時、敵単体のＴＰを(\d+)失わせる\n敵が誘惑状態でない時、範囲内の敵の物理攻撃力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in range.\n►Reduces an enemy's TP by $2 if they are Charmed.\n►Lowers P.ATK of enemies in range by $3 if they are not Charmed.
 S2
 ex
 スウィートラブリーハート+=Sweet, Loving Heart+

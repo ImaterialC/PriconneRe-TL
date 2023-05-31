@@ -3,13 +3,29 @@ Profile
 クールで何事にも真っ直ぐな剣士=A cool-headed swordswoman\nwho faces everything head-on
 【物理】前衛で、一点突破で敵を討つ、孤高の剣士。ユニオンバースト、スキル共に眼前の敵を倒す事に優れ、攻撃スキルやカウンターを駆使して前線を押し上げる。=[Physical] An Aloof swordswoman who deals strong, singular blows from VG. Her UB and skills excel at excel at felling enemies directly before her. allowing her to push forward with attacks and counters.
 
+目指せ大海原=Aim for the Vast Sea
+信じるべきものは=What to Believe In
+剣で救えるものがあるなら=If There's Something Swords Can Save
+無事に釣り上げられるか？=Can It Be Safely Reeled In?
+暴れ馬を乗りこなせ=Mastering the Wild Horse
+刻限は日が沈むまで=The Deadline is Until the Sun Sets
+弱気の理由はどこから？=Where Does the Cowardice Come From?
+波打ち際の休息=Rest at the Water's Edge
+偽りのない笑顔=Genuine Smile
+二人だけの約束=Promise Between the Two of Us
+いつか支え合うために=To Support Each Other Someday
+心強い指南役=Reassuring Guide
+
 
 読書、乗馬、お茶=Reading, riding, tea
 Skills
 UB
 スラッシュストーム=Hurricane Slash
 S1
+ウィンドスラスト=Wind Thrust
+ウィンドスラスト+=Wind Thrust+
 S2
+カウンタースラッシュ=Counter Slash
 目の前の敵１キャラに物理中ダメージを与える。攻撃前の構え中にレイが受けたダメージに応じて、与えるダメージがアップする。=Deals moderate P.DMG to an enemy directly in front. boost to damage dealt based on the damage taken while in pre-attack stance.
 ex
 ラピッドフェンサー=Rapid Riposte
@@ -27,3 +43,24 @@ ex
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の最大ＨＰを(\d+)アップさせる$"=►Boosts own P.ATK by $1.\n►Boosts own max HP by $2.
 UE
 ゲイルグローブ=Glove of Gales
+
+
+
+キミとなら、一緒に強くなれそうだ\nこれからよろしく=Looks like I'll be able to get stronger\nwith you. I look forward to\nworking with you from now on.
+私と互角の腕前を目指すなら、今後も修行は\n欠かさないで。たゆまぬ努力を続けていけば\nキミも私も、今よりもっと強くなれるよ=If you're aiming to be on par with me, don't miss out\non your training. If you keep working hard,\nyou and I will both become stronger than we are now.
+キミは日々、着実に成長しているね…\nただし、私を守るといったからには、\nもっと強くなって。大丈夫。キミなら出来るさ=You've been growing steadily day after day...\nBut since you said you'd protect me, you've\ngotten stronger. Don't worry. You can do it.
+つまりその…もっとキミのそばにいたいんだ…\nいつか本当に、キミが私を守ってくれる騎士になると\n信じてる…だ、だからこれからも…頑張って！=I mean... I want to be with you more...\nI really believe that one day, you'll be the\nknight who will protect me... S—So please...\nkeep up the good work!
+戦いだけが全てではない…そう思えるのは\n大切な仲間と出会って、こうして絆を深めてきた\n日々の積み重ねがあるからだって感じてる=Fighting isn't the only thing...\nI feel that way because I've met my precious\n friends and deepened my bonds with them.
+実は最近、修行以外でもキミと一緒にいたい…\nそんな気分になることが多くなってきたんだ=Actually, I've been wanting \nto be with you a lot lately,\neven if it's not training
+キミにとって、私はいつまで必要な存在でいられるのか\n最近はそんなことを考えてしまう時もある…\n…少なくとも私にとって、キミは必要な存在だよ=Lately, I've been thinking about how long\nI'll be necessary to you...\nAt least, you're what I need.
+修行も大切だけど、時には息抜きだって必要さ\n…今、私がそんなことを言うなんて、と思ってる？\n戦う時だって、力みすぎるのは良くないよ=Training is important, but sometimes it's important\nto take a breather... Do you really think I'd say\nsomething like that now? It's not good to\nbe too tense when you're fighting.
+まったく…風邪を引くだけならまだしも、キミに\n移してしまうなんて。自分が不甲斐ない\n…あの時は、看病してくれてありがとう= Honestly... It'd be one thing if I'd just caught\na cold, but I've moved it to you. I'm worthless...\nThank you for taking care of me back then.
+…だが、同時にとても頼もしいし、嬉しいんだ\nこれからもキミの歩みを、ずっとそばにいて見届けたい\n…この特等席は、誰にも譲らないよ=...But at the same time, I'm also very reliable\nand happy. I want to always be by your side,\nwatching your steps from now on...\nI won't give up this special seat to anyone.
+私がキミを助けるつもりだったのに、\n今では私の方が助けられることだってある…\nその成長の早さには、嫉妬すら覚えるほどだよ=I was going to help you, but now I'm the one who\ncan help you... You're growing up so fast,\nI almost feel jealous.
+参ったな…手加減をしたつもりはないのに\n本当に私から一本取ってしまうなんて…\nキミはスゴいね…=This is bad... I didn't mean to hold back,\nbut you really did take one from me...\nYou're amazing...
+キミと出会って、キミの優しい心に触れて…\n私は本当の意味で強くなれた気がする\nキミにはいつも感謝しているよ。…ありがとう=When I met you, when I touched your kind heart...\nI feel like I've become stronger in the truest sense\nof the word. I'm always grateful to you... Thank you.
+たまにはキミと、ゆっくり過ごしたいと思ってね\n一緒に旅へ行けること、とてもうれしいよ\nキミといる時間が、少しでも長く続きますように…=I'd like to spend some time with you once in a while.\nI'm very happy to be able to travel with you.\nI hope our time together will last as long as possible...
+私は自由に生きたい。けれど、苦しんでいる人に\n手を差し伸べられるのが自分だけなら、喜んで\nそうするよ。キミがいつも私へしてくれているようにね=I want to live free. But if I'm the only one\nwho can help someone who's suffering,\nI'd be happy to. Just like you always do for me.
+キミの歩みを見届けるのではなく、\nキミと共に歩みたい…これからも、\n私の隣にいてくれるとうれしいな=I want to walk alongside you,\nnot watch you walk...\nI hope you'll stay by my side from now on.
+…いつかキミに、\nキミの歩みを見届けたいと言ったけど、\nあの発言を撤回させてほしい=...I said I wanted to see you walk away someday,\nbut I want to take back what I said.
+今の私は、キミがそばにいてくれることが\n当然のように感じている…それぐらい、\nキミの存在が私の中で大きくなっているんだ=Right now, I feel like it's only natural\nfor you to be by my side... That's how much\nyour existence has grown inside me.

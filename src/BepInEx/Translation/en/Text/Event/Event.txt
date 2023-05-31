@@ -177,7 +177,7 @@ sr:"^(.+)(（.{2,10}）)?が解放されました。$"=$1$2 has been Unlock.
 sr:"^(.+)が\n解放されました。$"=$1\nhas been Unlocked.
 イベント限定キャラ解放=Event Limited Character has been Unlocked
 条件を達成したためスキップチケットを使用することができるようになりました。=Because you have met the conditions\nYou can now use Skip Tickets.
-sr:"([べ-ヺー＆]+)との信頼度$"=Intimacy with $1
+sr:"^([べ-ヺー＆]+)との信頼度$"=Intimacy with $1
 信頼度エピソード解放=Intimacy Episode has been Unlocked
 閲覧する=Watch
 

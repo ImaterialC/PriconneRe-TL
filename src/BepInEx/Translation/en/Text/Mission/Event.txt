@@ -2,13 +2,14 @@
 ボス=Boss
 ミッションレベルが対象外になった場合、達成することはできません。=If the mission level is not covered, it can not be achieved.
 
-[3C404E]MODE2のお供のモンスターを全て倒そう[-]=[3C404E]Defeat all monsters on MODE2[-]
+[3C404E]MODE2のお供のモンスターを全て倒そう[-]=[3C404E]Defeat all monsters on MODE 2.[-]
 sr:"^(\[[0-9A-F]{6}\])?スペシャルかエキシビションのバトルで(.+)を(\d)回以内に討伐しよう(\[-\])?$"=$1Defeat the $2 within $3 attempts in SP or Exhibition Battles.$4
 
 sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)を討伐しよう(\[-\])?$"=$1Defeat $3.$4
 sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)のHPを(\d+)まで減らそう(\[-\])?$"="$1Reduce $3's HP to $4.$5"
 r:"^(\[[0-9A-F]{6}\])?討伐証交換の報酬ラインナップを(\d)回リセットしよう(\[-\])?$"=$1Reset the reward lineup of subjugation exchange $2 Time.$3
-r:"^(\[[0-9A-F]{6}\])?(.+)のMODE(\d)をクリアしよう(\[-\])?$"=$1 Clear $2 Mode$3$4
+r:"^(\[[0-9A-F]{6}\])?スペシャルバトルのMODE(\d)をクリアしよう(\[-\])?$"=$1 Clear Special Battles MODE $2.$3
+sr:"^(\[[0-9A-F]{6}\])?(.+)のMODE(\d)をクリアしよう(\[-\])?$"=$1 Clear $2 Mode$3$4
 r:"^(\[[0-9A-F]{6}\])?MODE(\d)のお供のモンスターを全て倒そう(\[-\])?$"=$1Defeat all companion monsters on MODE $2.$3
 r:"^(\[[0-9A-F]{6}\])?スペシャルバトルのボスのHPを(\d+)まで減らそう(\[-\])?$"="$1Damage Special Boss's $2 HP.$3"
 sr:"^(\[[0-9A-F]{6}\])?(.+)に1回挑戦しよう（全難易度共通） (\[-\])?$"="$1Battle $2 1 time (Any Difficulty).$3"

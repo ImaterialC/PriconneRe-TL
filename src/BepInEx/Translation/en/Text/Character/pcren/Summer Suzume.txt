@@ -22,13 +22,10 @@ r:"^自分の魔法防御力を(\d+)アップ$"=Boosts own M.DEF by $1.
 ===Skills+
 ===UB
 
-r:"^$"=
 ===S1
 【召喚】自分の前に、目の前の敵１キャラを攻撃するぷちゴーレムを召喚し、さらに一番前の味方の周囲に物理防御力と魔法防御力を大アップさせるフィールドを展開する。=[Summon] In front of yourself, you summon Petit Golem, which attacks one enemy in front of you, and develop a field that Large improves P.DEF and M.DEF around the front ally.
 r:"^ぷちゴーレムを召喚する\n物理防御力を(\d+)アップさせるフィールドを展開する\n魔法防御力を(\d+)アップさせるフィールドを展開する$"=Summon Petit Golem\nExpanding a field to increase P.DEF $1\nExpanding a field to increase the M.DEF $1
 ===S2
-
-r:"^$"=
 ===ex
 トロピカルメイド+=Tropical Maid+
 バトル開始時に自分の魔法防御力を中アップさせ、さらに物理防御力を小アップさせる。=Moderate boost to own M.DEF and small boost to own P.DEF at start of battle.

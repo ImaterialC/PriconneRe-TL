@@ -17,13 +17,10 @@ r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメー�
 ===Skills+
 ===UB
 
-r:"^$"=
 ===S1
 目の前の敵１キャラのＴＰを小ダウンさせ、自分のＴＰを小回復する。さらに目の前の敵１キャラの物理攻撃力を大ダウンさせ、自分の物理攻撃力を特大アップさせる。=Let the TP of one character in front of you in front of you and recover your TP small. Furthermore, the P.ATK of one character in front of you in front of you will be Large reduced and your P.ATK will be increased.
 r:"^敵単体のＴＰを(\d+)失わせる\n自分のＴＰを(\d+)回復\n敵単体の物理攻撃力を(\d+)ダウン\n自分の物理攻撃力を(\d+)アップ$"=Lost the TP of the enemy alone $1\nRecovery of your TP $1\nThe P.ATK of the enemy alone $1 down\n$1 up your P.ATK
 ===S2
-
-r:"^$"=
 ===ex
 キャッツインパラダイス+=Kitty in Paradise+
 ===UE

@@ -72,7 +72,7 @@ Lvアップ可能な効果つき家具がある場合、通知を表示するか
 
 サポートキャラ★変更後の確認ダイアログ=Support Character ★ Change Confirmation Prompt
 クランバトル サポートキャラ★変更後の確認ダイアログ=CB Support Character ★ Change Confirmation Prompt
-クランバトルおよびみんなの稽古場でサポートキャラの★変更を行った後、\n確認ダイアログを表示するか設定します。=Sets whether or not to display a confirmation prompt\nafter changing the star level for CB or Everyone's Rehearsal Room support character.
+クランバトルおよびみんなの稽古場でサポートキャラの★変更を行った後、\n確認ダイアログを表示するか設定します。=Sets whether or not to display a confirmation prompt\nafter changing the star level for CB or Everyone's Trial Room support character.
 クランバトルでサポートキャラの★変更を行った後、確認ダイアログを表示するか設定します。=Sets whether or not to display a confirmation prompt\nafter changing the star level for CB support character.
 
 アイテム所持上限時のダイアログ表示=Confirmation Prompt when reaching item limit

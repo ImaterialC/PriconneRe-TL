@@ -1,11 +1,11 @@
 1回バトルしよう=Let's battle once
-r:"(\[[0-9A-F]{6}\])?(\d+)回バトルしよう(\[-\])?$"="$1Let's battle $2 times[-]"
+r:"^(\[[0-9A-F]{6}\])?(\d+)回バトルしよう(\[-\])?$"="$1Let's battle $2 times[-]"
 フェーズ3=Phase 3
 フェーズ2=Phase 2
 フェーズ1=Phase 1
 
-sr:"(\[[0-9A-F]{6}\])?(.+)に累積(\d+)万ダメージ与えよう(\[-\])?$"="$1Cumulative $300000 damage to $2[-]"
-sr:"(\[[0-9A-F]{6}\])?(.+)に1度のバトルで(\d+)万ダメージ与えよう(\[-\])?$"="$1Deal $300000 damage to $2 in one battle[-]"
+sr:"^(\[[0-9A-F]{6}\])?(.+)に累積(\d+)万ダメージ与えよう(\[-\])?$"="$1Cumulative $300000 damage to $2[-]"
+sr:"^(\[[0-9A-F]{6}\])?(.+)に1度のバトルで(\d+)万ダメージ与えよう(\[-\])?$"="$1Deal $300000 damage to $2 in one battle[-]"
 
 フェーズ1クリアで解放=Clear Phase 1 to unlock
 フェーズ2クリアで解放=Clear Phase 2 to unlock

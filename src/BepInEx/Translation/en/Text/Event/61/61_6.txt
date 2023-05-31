@@ -51,7 +51,7 @@
 [3C404EFF]到着しました。[3C404EFF]\nここから先が[3C404EFF]ハンターズギルド管轄の魔物保護区です。=We've arrived. Beyond this point is the Hunter's Guild's monster protection zone.
 [3C404EFF]何が起きるかわかりません。[3C404EFF]\n[3C404EFF]十分に注意して進みましょう。=We don't know what will happen. Let's proceed with caution.                              
 [3C404EFF]作戦内容ですが、[3C404EFF]大猿さんに接近したのち、[3C404EFF]\n麻酔矢や眠り薬などで対象を眠らせます。=As for the plan, we'll approach the Great Ape and put it to sleep using tranquilizer darts and sleeping drugs.                           
-r:"\[3C404EFF\]私と(.{2,10})さんは\[3C404EFF\]周囲を警戒しつつ、\[3C404EFF\]\nドクターの治療が終わるまで待機……\[3C404EFF\]\n\[3C404EFF\]コッコロちゃんは治療のお手伝い、[3C404EFF]という感じですね。$"=$1-san and I will be on alert while the doctor treats it. Kokkoro will assist in the treatment.                          
+r:"^\[3C404EFF\]私と(.{2,10})さんは\[3C404EFF\]周囲を警戒しつつ、\[3C404EFF\]\nドクターの治療が終わるまで待機……\[3C404EFF\]\n\[3C404EFF\]コッコロちゃんは治療のお手伝い、[3C404EFF]という感じですね。$"=$1-san and I will be on alert while the doctor treats it. Kokkoro will assist in the treatment.                          
 [3C404EFF]ところでドクターさま。[3C404EFF]\n麻酔薬などに余裕はあるでしょうか？[3C404EFF]\n[3C404EFF]大猿さまが暴れた場合に備えて[3C404EFF]鎮静させるためにも……=By the way, Doctor, do you have enough anesthetic? Just in case the Great Ape goes berserk...              
 [3C404EFF]いや、[3C404EFF]麻酔薬や鎮痛剤の用意はしているが……[3C404EFF]\n余裕があるとはとても言えないな。=Well, I have prepared anesthetics and painkillers, but I can't say I have much extra.                 
 [3C404EFF]それならば、[3C404EFF]わたくしに考えがあります。=In that case, I have an idea.                 

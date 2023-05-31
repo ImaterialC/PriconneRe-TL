@@ -33,7 +33,7 @@ r:"^あと(\d+)時間(\d+)分は挑戦できません。$"=Can't challenge for $
 
 ==========Tittle dungeon
 砂=S
-瀑の底都=aandfall's Capital
+瀑の底都=andfall's Capital
 砂瀑の底都=Sandfall's Capital
 
 天=H

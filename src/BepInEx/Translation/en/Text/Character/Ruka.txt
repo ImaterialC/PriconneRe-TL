@@ -34,7 +34,7 @@ UB
 S1
 
 敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵すべてに物理大ダメージを与え、物理防御力を小ダウンさせ、さらに小さく吹き飛ばす。=Taunt all enemies. If attacked during the provoke action, it deals large physical damage to all enemies in the front area, reduces their physical defense by a small amount, and blows them up into small pieces.
-r:"^敵全体を挑発する\n範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン"=Cast time:1.125s\nProvokes all enemies for 17s.\nCounter if damage is taken in next 2s by $1 P.DMG within 200 range\nKnocks enemies by 200.\nLowers P.DEF of all enemies within 200 range by $2 for 12s.
+r:"^敵全体を挑発する\n範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン$"=Cast time:1.125s\nProvokes all enemies for 17s.\nCounter if damage is taken in next 2s by $1 P.DMG within 200 range\nKnocks enemies by 200.\nLowers P.DEF of all enemies within 200 range by $2 for 12s.
 S2
 
 ex

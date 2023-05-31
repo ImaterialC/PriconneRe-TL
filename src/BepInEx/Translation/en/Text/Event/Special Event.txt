@@ -124,8 +124,8 @@ r:"^スタン(\d+)秒$"=Stun $1s
 毎秒ＴＰ=TP every second
 毎秒アップ=Up every second
 
-sr:"バトル開始から(\d+)秒間、(.+)の(.+)が(.+)$"=For $1s from the start of the battle, the $2's $3 is $4.
-sr:"(.+)のバースト効果確認$"=Burst Effect of $1
+sr:"^バトル開始から(\d+)秒間、(.+)の(.+)が(.+)$"=For $1s from the start of the battle, the $2's $3 is $4.
+sr:"^(.+)のバースト効果確認$"=Burst Effect of $1
 残り有効時間=Duration
 バーストエンド=Burst end
 バーストダウン=Burst down
