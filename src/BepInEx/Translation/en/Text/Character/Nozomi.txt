@@ -47,4 +47,4 @@ ex
 バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法防御力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.DEF at start of battle.
 r:"^自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ$"=Boosts own P.DEF by $1.\nBoosts own M.DEF by $2.
 UE
-ブリリアントマイク=BrIllyant Microphone
+ブリリアントマイク=Brilliant Microphone
