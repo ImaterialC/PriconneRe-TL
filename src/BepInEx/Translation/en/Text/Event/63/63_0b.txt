@@ -12,9 +12,9 @@
 今じゃないとダメなんだよ！=It has to be now!
 
 
-r:"^(\[3C404EFF\])?おお！　(\[3C404EFF\])?(.{2,10})よ、(\[3C404EFF\])?いいところに来おったな！(\[3C404EFF\])?\n(\[3C404EFF\])?こやつをここから摘まみだしてくれぬか！$"=Oh! $1, you've come at the right time! Will you pluck this thing out of here?!
+r:"^(\[3C404EFF\])?おお！　(\[3C404EFF\])?(.{2,10})よ、(\[3C404EFF\])?いいところに来おったな！(\[3C404EFF\])?\n(\[3C404EFF\])?こやつをここから摘まみだしてくれぬか！$"=Oh! $3, you've come at the right time! Will you pluck this thing out of here?!
 
-r:"^(\[3C404EFF\])?ふふっ。(\[3C404EFF\])?\n(.{2,10})さんも(\[3C404EFF\])?ボクの美に惹かれて来たんだね。(\[3C404EFF\])?\n(\[3C404EFF\])?だったら(\[3C404EFF\])?キミからもお願いしてよ、(\[3C404EFF\])?この吸血鬼さんにさ。$"=Hehe. You're attracted to my beauty too, aren't you, $1-san? Then you should ask this vampire to do the same.
+r:"^(\[3C404EFF\])?ふふっ。(\[3C404EFF\])?\n(.{2,10})さんも(\[3C404EFF\])?ボクの美に惹かれて来たんだね。(\[3C404EFF\])?\n(\[3C404EFF\])?だったら(\[3C404EFF\])?キミからもお願いしてよ、(\[3C404EFF\])?この吸血鬼さんにさ。$"=Hehe. You're attracted to my beauty too, aren't you, $3-san? Then you should ask this vampire to do the same.
 
 このボクを──=I'll--
 吸血鬼にしてくれってね！=ask her to turn me into a vampire!
@@ -28,7 +28,7 @@ r:"^(\[3C404EFF\])?ふふっ。(\[3C404EFF\])?\n(.{2,10})さんも(\[3C404EFF\])
 まぁ確かに、そうじゃな。\nわらわも永い時を生きておる。\n姿形は……多少大きくなったり小さくなったりしておるが。=Well, you're right. I've lived for a long time. My appearance... has grown a little larger and smaller.
 ボクはね、ボク自身の美を永久不変のものとするため、\n吸血鬼になろう、なるべきだと思ったのさ。\nそれが美を背負った者の宿命だからね！=You see, in order to make my beauty eternal, I thought I should become a vampire. That's the fate of those who bear the burden of beauty.
 背負われた美も困惑しておろうな。=I'm sure the beauty on your back is bewildered as well.
-r:"^(\[3C404EFF\])?……のう(.{2,10})よ、(\[3C404EFF\])?なんなのじゃこやつは。(\[3C404EFF\])?\nこんなにも訳の分からぬやつは初めて見るぞ。$"=...Hey, $1, what's with this guy? I've never seen anyone so incomprehensible before.
+r:"^(\[3C404EFF\])?……のう(.{2,10})よ、(\[3C404EFF\])?なんなのじゃこやつは。(\[3C404EFF\])?\nこんなにも訳の分からぬやつは初めて見るぞ。$"=...Hey, $2, what's with this guy? I've never seen anyone so incomprehensible before.
 
 ふふん、イリヤも誇らしいでしょ？\nこのボクの美しさを永遠のものにできるんだよ♪=Heheh, you’re proud too, aren’t you, Illya? You can make my beauty eternal♪
 はぁ……こやつが押しかけてくるようになってから、\n【悪魔偽王国軍（ディアボロス）】の者たちも\n城に寄り付かなくなってしまったのじゃ。=*sigh*... Ever since he started barging in, the members of the Demon Fake Kingdom Army have stopped coming to the castle.
@@ -123,7 +123,7 @@ r:"^(\[3C404EFF\])?……のう(.{2,10})よ、(\[3C404EFF\])?なんなのじゃ�
 [3C404EFF]……の？[3C404EFF]\nまったく話が通じんじゃろ？=...Huh? You don't get it at all, do you?
 [3C404EFF]聞いた話によると、[3C404EFF]吸血鬼って[3C404EFF]姿形はそのまま、[3C404EFF]\n永遠の時を生きるらしいじゃないか。=From what I’ve heard, vampires continue to live in their eternal forms, don’t they?
 [3C404EFF]まぁ[3C404EFF]確かに、[3C404EFF]そうじゃな。[3C404EFF]\n[3C404EFF]わらわも永い時を生きておる。[3C404EFF]\n[3C404EFF]姿形は……[3C404EFF]多少大きくなったり小さくなったりしておるが。=Well, you're right. I've lived for a long time. My appearance... has grown a little larger and smaller.
-[3C404EFF]ボクはね、[3C404EFF]ボク自身の美を[3C404EFF]永久不変のものとするため、[3C404EFF]\n[3C404EFF]吸血鬼になろう、[3C404EFF]なるべきだと思ったのさ。[3C404EFF]\n[3C404EFF]それが[3C404EFF]美を背負った者の宿命だからね！=unk>You see, in order to make my beauty eternal, I thought I should become a vampire. That's the fate of those who bear the burden of beauty ──
+[3C404EFF]ボクはね、[3C404EFF]ボク自身の美を[3C404EFF]永久不変のものとするため、[3C404EFF]\n[3C404EFF]吸血鬼になろう、[3C404EFF]なるべきだと思ったのさ。[3C404EFF]\n[3C404EFF]それが[3C404EFF]美を背負った者の宿命だからね！=You see, in order to make my beauty eternal, I thought I should become a vampire. That's the fate of those who bear the burden of beauty ──
 [3C404EFF]背負われた美も困惑しておろうな。=I'm sure the beauty on your back is bewildered as well.
 
 [3C404EFF]ふふん、[3C404EFF]イリヤも誇らしいでしょ？[3C404EFF]\n[3C404EFF]このボクの美しさを[3C404EFF]永遠のものにできるんだよ♪=Heheh, you’re proud too, aren’t you, Illya? You can make my beauty eternal♪
