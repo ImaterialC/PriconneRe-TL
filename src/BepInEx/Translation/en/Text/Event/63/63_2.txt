@@ -1,16 +1,16 @@
 伝説の再臨=The Legend's Return
 
-r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物たちがイリヤのもとに集う。地位と名声を高めるため、イリヤはユキ、(.{2,10})と共に、謁見とは名ばかりのニンニク地獄を乗り越えていく。$"=Upon hearing the news of the legendary resurrection of the vampire, the demons seeking an audience gather at Illya's side. In order to increase their status and fame, Illia and Yuki and $1 overcome the garlic hell in name only.
+r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物たちがイリヤのもとに集う。地位と名声を高めるため、イリヤはユキ、(.{2,10})と共に、謁見とは名ばかりのニンニク地獄を乗り越えていく。$"=Upon hearing the news of the legendary resurrection of the vampire, the demons seeking an audience gather at Illya's side. In order to increase their status and fame, Illya and Yuki and $1 overcome the garlic hell in name only.
 
 どうじゃ、わらわの偉大さが改めて分かったか？=What do you think? Do you understand how great I am now?
 
 
-イリヤ様、ばんざーい！\nイリヤ様、ばんざーい！=Good evening, Lady Illya! Good evening!
+イリヤ様、ばんざーい！\nイリヤ様、ばんざーい！=All hail Lady Illya!\nAll hail Lady Illya!
 うむうむ。\nやはりお主は愛いやつじゃの。=Yes, yes. You really are my love.
 [3C404EFF]伝説の吸血鬼が語り継がれる地にて、主として祭り上げられたイリヤ。[3C404EFF]\n玉座に座る彼女の元には、魔物たちがひっきりなしに訪れていた。=Illya is worshipped as the master of the land passed down through the generations as a legendary vampire. Monsters visit her incessantly as she sits on the throne.
 じゃがお主はさま付けなどせんでよいぞ？\n……お主は特別じゃからな。=But you don't have to wear a sama, you know? ...You're special.
 ご機嫌だね、イリヤ。=You’re in a good mood, Illya.
-いやユキ、お主はさまを付けぬか。\nなんならそこで魔物たちに交ざってひざまずいてもいいくらいじゃぞ。\nほれほれ、あのように頭を下げてわらわを崇めよ。=No, Yuki, you should join the familia and use lady? You can kneel there if you want. Come on, bow your head and worship me.
+いやユキ、お主はさまを付けぬか。\nなんならそこで魔物たちに交ざってひざまずいてもいいくらいじゃぞ。\nほれほれ、あのように頭を下げてわらわを崇めよ。=No, Yuki, you should join the familiar and use lady? You can kneel there if you want. Come on, bow your head and worship me.
 なに言ってるのさ。\n彼らはボクの髪の艶めきに目がくらんで頭を下げてるんだよ？=What are you talking about? They’re bowing their heads, blinded by the luster of my hair
 イリヤ様万歳言うとるのに！？=Even though they said "All hailI Lady llya!?"
 ……とまぁ、ひとしきりいい気分になってみたはよいが。\nこやつらを率いるとは言うても、何をしたらいいんじゃろうな。=...Well, it's good to feel good for a while. I say I'll lead them, but what should I do?
@@ -22,10 +22,11 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 今もこの地に移住したいと申し出る者たちが続々と訪れております。\nそういった者たちにイリヤ様との謁見をさせたいのです。=Even now, there are many people who wish to move to this land. I want them to have an audience with Lady Illya.
 まだわらわが来て一日も経っとらんのにもう来とるのか！？\nううむ、謁見……あまり堅苦しいのは気が乗らんのじゃが……=It hasn't even been a day since I arrived, and you're already here?! Hmm, the audience... I don't want to be too formal, but...
 ご容赦ください。各地より訪ねてくる者たちとの関係を築き上げ、\nうまく従えることができれば、イリヤ様の地位は上がり、名声は轟き、\n伝説の復活も早まることになりましょう。=Please forgive me. If I can build relationships with the visitors from all over the country and follow them well, Lady Illya’s position will increase, her fame will spread, and the legend will be revived faster.
-ここで嫌われちゃったら、イリヤの地位は下がり、名声はガタ落ち、\n伝説の復活は潰えるってわけだね。=If she hates me here, Illya’s position will drop, her reputation will plummet, and the legendary resurrection will be crushed.
+ここで嫌われちゃったら、イリヤの地位は下がり、名声はガタ落ち、\n伝説の復活は潰えるってわけだね。=If being hated here, Illya’s position will drop, her reputation will plummet, and the legendary resurrection will be crushed.
 なぜわらわにプレッシャーをかけた！？=Why did you put pressure on me?!
 ううむ、余計に気が乗らなくなってきたわ。\n眷属よ、なにかいいアイデアはないかの？=Hmm, I'm getting even more disinterested. Familiar, do you have any good ideas?
 僕が代わりにやる。=I'll do it in your place.
+ユキが代わりにやる。=Let Yuki does it instead.
 なるほど、お主がわらわの代弁者として謁見を進めるわけか。\nそれはよい考えじゃのう！=I see. So you're going to proceed with the audience on my behalf? That's a good idea!
 よし、では任せた！\nわらわはその辺でふんぞり返っておこう！=All right, then! I'll leave it to you! Let's leave it at that!
 ……などという冗談はさておき。\nそれがわらわの完全復活への近道というならばやるしかあるまい。=...Putting all jokes aside, if that was a shortcut to my complete resurrection, then I had no choice but to do it.
@@ -47,7 +48,7 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 え、ええと……その、わらわは……=U-Umm... Um, I...
 あれ？\nそういえば吸血鬼ってニンニクが弱点じゃなかったっけ？=Huh? Come to think of it, wasn’t garlic a weakness for vampires?
 おお、よう言うたぞユキ！\nわらわが直接苦手と口にするわけにはいかんからな、\nユキよ、その調子でやんわりと伝えるのじゃ……！　=Oh, you said it, Yuki! I can't say I'm not good at it directly, Yuki. Keep it up and tell me gently...!　
-いえ、それは違いますな。\nただの吸血鬼であるならそうかもしれませんが、\n伝説の吸血鬼に弱点などございません。=No, that's not it. If you're just a vampire, that may be true, but a legendary vampir has no weaknesses.
+いえ、それは違いますな。\nただの吸血鬼であるならそうかもしれませんが、\n伝説の吸血鬼に弱点などございません。=No, that's not it. If you're just a vampire, that may be true, but a legendary vampire has no weaknesses.
 えっ。=Huh?
 はい、魔族の間に伝わっている話によりますと、伝説の吸血鬼は\n『弱点であるはずのニンニクを好んで食べる、しかも生で』\nと伝わっております。=Yes, according to the stories passed down among daemons, legendary vampires prefer garlic, which should be their weak point, and eat it raw at that
 誰じゃそんな噂を広めたの！？=Who spread such rumors?!
@@ -61,10 +62,10 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 おっ、お主……！=Y-You...!
 ああっ、なんということを……！=Aaah, how dare you...!
 すごく美味しそうだったから。=Because it looked really good.
-ふっ、どうやら我が眷属も喜んでおるようじゃ。\n此度の献上品、実に良いものであったぞ。=Heh, it seems my minions are pleased as well. This gift was quite good.
+ふっ、どうやら我が眷属も喜んでおるようじゃ。\n此度の献上品、実に良いものであったぞ。=Heh, it seems My familiars are pleased as well. This gift was quite good.
 お主たちを夜を統べる者の同胞として、認めようぞ……！=I’ll recognize you as my brethren, the rulers of the night!
 ははーっ！\nありがたき幸せ……！=Haha! I'm so happy!
-ふぅ……まったく、よりによってニンニクを持ってくるとは。\nじゃが、何とかなってよかったわい。\nこれもよい眷属を持ったおかげじゃな！　ハーッハッ──=*sigh*... I can't believe you brought garlic, of all things. Still, I'm glad it worked out somehow. This is all thanks to having a good familia! Haha~
+ふぅ……まったく、よりによってニンニクを持ってくるとは。\nじゃが、何とかなってよかったわい。\nこれもよい眷属を持ったおかげじゃな！　ハーッハッ──=*sigh*... I can't believe you brought garlic, of all things. Still, I'm glad it worked out somehow. This is all thanks to having a good familiar! Haha~
 ねぇイリヤ。\n伝説の吸血鬼はニンニクが好物って伝わってるんだよね？=Hey, Illya. It’s said that the legendary vampire likes garlic, right?
 だったらさ、このあともずっとニンニクじゃない？=In that case, won't it be garlic forever after this?
 ハッ──=Ha~
@@ -135,7 +136,6 @@ r:"^(\[3C404EFF\])?ハッハッハ！　(\[3C404EFF\])?見ておるか(.{2,10})�
 [3C404EFF]ここで嫌われちゃったら、[3C404EFF]イリヤの地位は下がり、[3C404EFF]名声はガタ落ち、[3C404EFF]\n[3C404EFF]伝説の復活は潰えるってわけだね。=If being hated here, Illya’s position will drop, her reputation will plummet, and the legendary resurrection will be crushed.
 [3C404EFF]なぜわらわにプレッシャーをかけた！？=Why did you put pressure on me?!
 [3C404EFF]ううむ、[3C404EFF]余計に気が乗らなくなってきたわ。[3C404EFF]\n[3C404EFF]眷属よ、[3C404EFF]なにかいいアイデアはないかの？=Hmm, I'm getting even more disinterested.\nFamiliar, do you have any good ideas?
-ユキが代わりにやる。=Yuki did it in her place.
 [3C404EFF]なるほど、[3C404EFF]お主がわらわの代弁者として謁見を進めるわけか。[3C404EFF]\n[3C404EFF]それはよい考えじゃのう！=I see. So you're going to proceed with the audience on my behalf? That's a good idea!
 [3C404EFF]よし、[3C404EFF]では任せた！[3C404EFF]\nわらわはその辺でふんぞり返っておこう！=All right, then! I'll leave it to you! Let's leave it at that!
 [3C404EFF]……などという冗談はさておき。[3C404EFF]\n[3C404EFF]それがわらわの完全復活への近道というならば[3C404EFF]やるしかあるまい。=...Putting all jokes aside, if that was a shortcut to my complete resurrection, then I had no choice but to do it.
@@ -157,23 +157,23 @@ r:"^(\[3C404EFF\])?ハッハッハ！　(\[3C404EFF\])?見ておるか(.{2,10})�
 [3C404EFF]え、[3C404EFF]ええと……[3C404EFF]その、[3C404EFF]わらわは……=U-Umm... Um, I...
 [3C404EFF]あれ？[3C404EFF]\nそういえば吸血鬼って[3C404EFF]ニンニクが弱点じゃなかったっけ？=Huh?\nCome to think of it, wasn’t garlic a weakness for vampires?
 [3C404EFF]おお、[3C404EFF]よう言うたぞユキ！[3C404EFF]\n[3C404EFF]わらわが直接苦手と口にするわけにはいかんからな、[3C404EFF]\n[3C404EFF]ユキよ、[3C404EFF]その調子でやんわりと伝えるのじゃ……！　=Oh, you said it, Yuki!\nI can't say I'm not good at it directly.\nYuki, Keep it up and tell me gently...!　
-[3C404EFF]いえ、[3C404EFF]それは違いますな。[3C404EFF]\n[3C404EFF]ただの吸血鬼であるならそうかもしれませんが、[3C404EFF]\n伝説の吸血鬼に[3C404EFF]弱点などございません。=No, that's not it. If you're just a vampire, that may be true, but a legendary vampir has no weaknesses.
+[3C404EFF]いえ、[3C404EFF]それは違いますな。[3C404EFF]\n[3C404EFF]ただの吸血鬼であるならそうかもしれませんが、[3C404EFF]\n伝説の吸血鬼に[3C404EFF]弱点などございません。=No, that's not it. If you're just a vampire, that may be true, but a legendary vampire has no weaknesses.
 [3C404EFF]えっ。=Huh?
 [3C404EFF]はい、[3C404EFF]魔族の間に伝わっている話によりますと、[3C404EFF]伝説の吸血鬼は[3C404EFF]\n『弱点であるはずのニンニクを好んで食べる、[3C404EFF]しかも生で』[3C404EFF]\nと伝わっております。=Yes, according to the stories passed down among daemons, legendary vampires prefer garlic, which should be their weak point, and eat it raw at that
 [3C404EFF]誰じゃ[3C404EFF]そんな噂を広めたの！？=Who spread such rumors?!
 [3C404EFF]もしやイリヤ様……[3C404EFF]ニンニクが……？=Lady Illya... is garlic...?
 [3C404EFF]eh?  [3C404EFF]\nあ、いや……[3C404EFF]そんなことはない、[3C404EFF]ぞ……？=Eh? Ah, no... That's not true...
-[3C404EFF]ぐぬぬ……[3C404EFF]わらわの頭の中のユキが囁いておる……！[3C404EFF]\n[3C404EFF]どこまでもはた迷惑なやつじゃ……！　=Grrr... \nThe Yuki in my head is smirk to me...!\nShe's such a nuisance...!　
+[3C404EFF]ぐぬぬ……[3C404EFF]わらわの頭の中のユキが囁いておる……！[3C404EFF]\n[3C404EFF]どこまでもはた迷惑なやつじゃ……！　=Grrr...\nThe Yuki in my head is whispering to me...! She's such a nuisance...!　
 [3C404EFF]えっ、[3C404EFF]なにイリヤ、[3C404EFF]どうしてボクをにらんでるの……？[3C404EFF]\n[3C404EFF]ボク何も言ってないけど……=Huh? What is it, Illya? Why are you glaring at me...? I didn’t say anything...
 [3C404EFF]ここで突っぱねるのも[3C404EFF]夜を統べる者としての威厳が……！[3C404EFF]\n[3C404EFF]ええい、[3C404EFF]腹をくくるしかあるまい……！　=Rejecting here would be a sign of my dignity as the ruler of the night! Argh, I have no choice but to brace myself!　
 [3C404EFF]そっ、[3C404EFF]そうじゃな……[3C404EFF]とてもおいしそうなニンニクじゃ……！[3C404EFF]\nい、[3C404EFF]いただくと……[3C404EFF]しよう……=Th-That's right... It looks really good...! I-I'll... have some...
 [3C404EFF]おっ、[3C404EFF]お主……！=Y-You...!
 [3C404EFF]ああっ、[3C404EFF]なんということを……！=Aaah, how dare you...!
 r:"^(\[3C404EFF\])?(.{2,10})よ……(\[3C404EFF\])?お主、(\[3C404EFF\])?わらわのために……！　$"=$2... You did it for me...!　
-[3C404EFF]ふっ、[3C404EFF]どうやら我が眷属も喜んでおるようじゃ。[3C404EFF]\n[3C404EFF]此度の献上品、[3C404EFF]実に良いものであったぞ。=Heh, it seems my minions are pleased as well. This gift was quite good.
+[3C404EFF]ふっ、[3C404EFF]どうやら我が眷属も喜んでおるようじゃ。[3C404EFF]\n[3C404EFF]此度の献上品、[3C404EFF]実に良いものであったぞ。=Heh, it seems My familiars are pleased as well. This gift was quite good.
 [3C404EFF]お主たちを[3C404EFF]夜を統べる者の同胞として、[3C404EFF]認めようぞ……！=I’ll recognize you as my brethren, the rulers of the night!
 [3C404EFF]Hahaaa![3C404EFF]\nありがたき幸せ……！=Hahaaa! I'm so happy...!
-[3C404EFF]ふぅ……[3C404EFF]まったく、[3C404EFF]よりによってニンニクを持ってくるとは。[3C404EFF]\n[3C404EFF]じゃが、[3C404EFF]何とかなってよかったわい。[3C404EFF]\n[3C404EFF]これもよい眷属を持ったおかげじゃな！　[3C404EFF]ハーッハッ──=*sigh*... I can't believe you brought garlic, of all things. Still, I'm glad it worked out somehow. This is all thanks to having a good familia! Haha~
+[3C404EFF]ふぅ……[3C404EFF]まったく、[3C404EFF]よりによってニンニクを持ってくるとは。[3C404EFF]\n[3C404EFF]じゃが、[3C404EFF]何とかなってよかったわい。[3C404EFF]\n[3C404EFF]これもよい眷属を持ったおかげじゃな！　[3C404EFF]ハーッハッ──=*sigh*... I can't believe you brought garlic, of all things. Still, I'm glad it worked out somehow. This is all thanks to having a good familiar! Haha~
 [3C404EFF]ねぇイリヤ。[3C404EFF]\n伝説の吸血鬼は[3C404EFF]ニンニクが好物って伝わってるんだよね？=Hey, Illya. It’s said that the legendary vampire likes garlic, right?
 [3C404EFF]だったらさ、[3C404EFF]このあともずっとニンニクじゃない？=In that case, won't it be garlic forever after this?
 [3C404EFF]ハッ──=Ha~

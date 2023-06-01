@@ -476,4 +476,6 @@ r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[
 このログを削除してもよろしいですか?=Is it okay to delete this log?
 
 クランに加入=Join a Clan
-クランに所属すると、\nクランバトルに挑戦することができます。=If you join to a Clan,\nyou can challenge Clan Battles.
+クランに所属すると、\nクランバトルに挑戦することができます。=If you join to a Clan,\nyou can participate in Clan Battles.
+クランに所属すると、=If you join to a Clan,
+クランバトルに挑戦することができます。=you can participate in Clan Battles.

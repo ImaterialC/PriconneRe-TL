@@ -8,8 +8,8 @@
 吸血姫とベス人形=Vampire Princess and Beth doll
 
 r:"^ゴロツキに絡まれていた(.{1,10})を助けてくれたのは、謎の少女ヴァンピィだった。友だちのドラゴン『ベス』を探すヴァンピィのために(.{1,10})は協力することに。$"="It was Vampy, a mysterious girl, who helped $1, who was entwined with Gorotsuki. Finding her friend's dragon "Beth".$1 decides to cooperate for Vampy."
-r:"^ベスを探す(.{1,10})とヴァンピィ。そんな二人の前に、吸血鬼のイリヤが現れる。かくして(.{1,10})を巡り、イリヤとヴァンピィによる眷属の取り合いが始まるのだった。$"=$1 and Vampy looking for Beth. A vampire, Ilya, appears in front of them. Thus, over $1, Ilya and Vampy began to fight for the genus.
-r:"^元々、ヴァンピィとベスは何者かに誘拐されてランドソルへ来たことを知った(.{1,10})。イリヤのコウモリのおかげでベスの居場所が判明し、ついにベスとヴァンピィは再会を果たした。$"=Originally $1 learned that Vampy and Beth had been kidnapped by someone and came to Landosol. Thanks to Ilya's bats, Beth's whereabouts were revealed, and Beth and Vampy finally reunited.
+r:"^ベスを探す(.{1,10})とヴァンピィ。そんな二人の前に、吸血鬼のイリヤが現れる。かくして(.{1,10})を巡り、イリヤとヴァンピィによる眷属の取り合いが始まるのだった。$"=$1 and Vampy looking for Beth. A vampire, Illya, appears in front of them. Thus, over $1, Illya and Vampy began to fight for the genus.
+r:"^元々、ヴァンピィとベスは何者かに誘拐されてランドソルへ来たことを知った(.{1,10})。イリヤのコウモリのおかげでベスの居場所が判明し、ついにベスとヴァンピィは再会を果たした。$"=Originally $1 learned that Vampy and Beth had been kidnapped by someone and came to Landosol. Thanks to Illya's bats, Beth's whereabouts were revealed, and Beth and Vampy finally reunited.
 
 r:"^夜の学校に少女の霊が現れるという噂が囁かれていた頃。成り行きで(.{1,10})はその少女と出会い、学校案内を頼まれる。そこで(.{1,10})は、少女の本当の正体を知るのだった。$"=Around the time when rumors were whispered that a girl's spirit would appear at night school. $1 meets the girl and is asked for her school information. So $1 knew what she really was about the girl.
 

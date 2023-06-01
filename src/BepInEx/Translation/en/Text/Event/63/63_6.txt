@@ -1,11 +1,10 @@
 伝説を超える輝き=Radiance that Surpasses Legend
 
-r:"^イリヤを救出したユキたちの前に、魔物と化したブラドが立ちふさがる。強敵に臆せず、自分を貫き通すユキ。そして、Corneliaとの絆で真の力を発揮したイリヤは、最後の戦いに挑む。$"=After rescuing Illya, Blood, who had turned into a familiar, stood in front of Yuki and the others. Yuki didn't hesitate to pierce herself against a formidable enemy. And since she had unleashed her true power through her bond with Cornelia, she challenged the final battle.
+r:"^イリヤを救出したユキたちの前に、魔物と化したブラドが立ちふさがる。強敵に臆せず、自分を貫き通すユキ。そして、(.{2,10})との絆で真の力を発揮したイリヤは、最後の戦いに挑む。$"=After rescuing Illya, Brad, who had turned into a familiar, stood in front of Yuki and the others. Yuki didn't hesitate to pierce herself against a formidable enemy. And since she had unleashed her true power through her bond with $1, she challenged the final battle.
 
 なにがあっても僕はイリヤの味方だよ。=No matter what happens, I’ll be on Illya’s side.
 危うく──お主の敵に、なるところじゃった。=I almost became your enemy.
-……感謝するぞ、我が眷属よ。=...Thank you, my Familia.
-儀式の最中、イリヤの救出に成功するCorneliaとユキ。=Cornelia and Yuki succeeded in rescuing Illya during the ceremony.
+……感謝するぞ、我が眷属よ。=...Thank you, my Familiar.
 お主……！=You...!
 ねぇねぇイリヤ、見てた？\n儀式中に堂々と現れるボクの美しい姿！\nボクを引き立てる最高の演出だったと思わないかい？=Hey, hey, Illya, did you see? My beautiful figure appeared boldly during the ceremony! Don’t you think it was the best performance to accentuate me?
 わらわの窮地を演出に使うでないわ！\n……まぁ、実際助かったのじゃがな。\nユキよ……よくやってくれた。=Don't use my predicament as a staging! ...Well, you actually saved me. Yuki... You did well.
@@ -15,7 +14,7 @@ r:"^イリヤを救出したユキたちの前に、魔物と化したブラド�
 ──イリヤ、様。=⁇ Illya-sama.
 来ちゃったみたいだよ。\nでも……なんだか雰囲気が違うみたいだね？=Looks like he's here. But... He looks different, doesn't he?
 何故、ですか……何故、復活を拒むのです……=Why... Why do you refuse to be revived...?
-あなた様は伝説の吸血鬼。\nあなた様はこの世界の支配者。\nあなた様は私のすべて……！=You are a legendary vampire. You are the ruler of this world. You is everything to me...!
+あなた様は伝説の吸血鬼。\nあなた様はこの世界の支配者。\nあなた様は私のすべて……！=You are a legendary vampire. You are the ruler of this world. You are everything to me...!
 ブラド……お主……=Brad... You...
 あなたサマハァァァァァァァァァァァ──！=Darling, you bastaaaaard!
 うわぁ、魔物に変わっちゃった！？\nあの人、魔族じゃなかったの！？=Wow, he’s transformed into a monster?! Wasn’t he a daemon?!
@@ -48,12 +47,12 @@ r:"^イリヤを救出したユキたちの前に、魔物と化したブラド�
 ──キサマァッ！=──You bastard!
 ふふっ、いいね！\nもっとっ、ボクを美しく輝かせなよっ……♪=Hehe, nice! Make me shine more beautifully...
 みんなに見せてあげるよ♪\n伝説の吸血鬼の力を打ち破る、美しいボクを！\nこのボクが、伝説を超える瞬間を……♪=I'll show you all♪ I'm beautiful enough to defeat the power of a legendary vampire! I will surpass the legend...
-……美しい、からか……？\n絶対に勝てない相手に立ち向かう自分が。=......because she's beautiful......?She's facing an opponent she'll never win against.
-そこまでして……自分を貫くというのか？=Are you going to go that far... to pierce yourself?
+……美しい、からか……？\n絶対に勝てない相手に立ち向かう自分が。=......because he's beautiful......? He's facing an opponent He'll never win against.
+そこまでして……自分を貫くというのか？=Are you going to go that far... to bend herself?
 ユキは絶対に自分を曲げない。=Yuki would never bend herself.
-ああ、そうなのじゃろうな。\n今、ようやく理解できたのじゃ……あやつの美しさが。=Yes, I'm sure you're right. I've finally come to understand his beauty.
+ああ、そうなのじゃろうな。\n今、ようやく理解できたのじゃ……あやつの美しさが。=Yes, I'm sure you're right.\nI've finally come to understand his beauty.
 自分に自信がある者は──美しいのじゃな。=Those who are confident in themselves are beautiful.
-なぁ、我が眷属よ。\nお主に一つ、聞いてもよいか。=Hey, my minions. May I ask you a question?
+なぁ、我が眷属よ。\nお主に一つ、聞いてもよいか。=Hey, My familiars. May I ask you a question?
 ──わらわは何者じゃ？=-Who am I?
 イリヤは、イリヤだよ。=You, are you.
 ……うむ。=...Indeed.
@@ -71,14 +70,14 @@ r:"^イリヤを救出したユキたちの前に、魔物と化したブラド�
 ……へぇ。\n大きく出たね。\n面白いじゃないか。=......huh.That's a big deal.Interesting.
 だったら、これも使いなよ。\n少しは足しになるでしょ。=In that case, use this, too. It'll help you add a little.
 ユキ、お主……=Yuki, you...
-美を統べる者が、\n見せ場を譲ってあげたんだからさ。=The ruler of beauty gave him a chance to show off, after all.
+美を統べる者が、\n見せ場を譲ってあげたんだからさ。=The ruler of beauty gave you a chance to show off, after all.
 ──負けたりしないよね？=-You won't lose, will you?
 ……誰に言うておる。=...Who are you talking to?
 イリヤ、サマ……オォ……イリヤサマァァァァァ！=Lady... Illya...ohh...Lady...Illyaaaaa!
 ブラドよ──少し黙れ。=Shut up, Brad.
 ……ッ！=Ngh
 まかせて。=Leave it to me.
-ふふっ♪　では、頼む。\nその……最大級のドキドキ……胸の高鳴りを、わらわに捧げるがよい。=Hehe♪ Well then, I'm counting on you. Um... my heart is beating like crazy... Offer it to me.
+ふふっ♪　では、頼む。\nその……最大級のドキドキ……胸の高鳴りを、わらわに捧げるがよい。=Hehe♪ Well then, I'm counting on you.\nUm... my heart is beating like crazy...\nOffer it to me.                                          
 手のひらに口づけ。=Kiss the palm of her hand.
 んっ……♪=Mm...♪
 思いきり抱き締める。=Hugged her as hard as I could.
@@ -95,20 +94,21 @@ r:"^イリヤを救出したユキたちの前に、魔物と化したブラド�
 貴様は……わらわではない。=You're... not me.
 キ、キサマ……！\nイリヤサマニ、ナントイウコトヲ……！\nキサマ、キサマ、キサマァァァァァァァァ──！=Y-You bastard...! Illya, what are you doing...!? You bastaaaaard!
 
-[3C404EFF]儀式の最中、イリヤの救出に成功するCorneliaとユキ。=Cornelia and Yuki succeeded in rescuing Illya during the ceremony.
-[3C404EFF]……感謝するぞ、[3C404EFF]我が眷属よ。=...Thank you, my Familia.
+r:"^(\[3C404EFF\])?儀式の最中、イリヤの救出に成功する(.{2,10})とユキ。$"=$2 and Yuki succeeded in rescuing Illya during the ceremony.                             
+
+[3C404EFF]……感謝するぞ、[3C404EFF]我が眷属よ。=...Thank you, my Familiar.
 
 [3C404EFF]危うく──[3C404EFF]お主の敵に、[3C404EFF]なるところじゃった。=I almost became your enemy.
 [3C404EFF]お主……！=You...!
 [3C404EFF]ねぇねぇイリヤ、[3C404EFF]見てた？[3C404EFF]\n[3C404EFF]儀式中に堂々と現れる[3C404EFF]ボクの美しい姿！[3C404EFF]\n[3C404EFF]ボクを引き立てる[3C404EFF]最高の演出だったと思わないかい？=Hey, hey, Illya, did you see? My beautiful figure appeared boldly during the ceremony! Don’t you think it was the best performance to accentuate me?
-[3C404EFF]わらわの窮地を演出に使うでないわ！[3C404EFF]\n……[3C404EFF]まぁ、[3C404EFF]実際助かったのじゃがな。[3C404EFF]\n[3C404EFF]ユキよ……[3C404EFF]よくやってくれた。=Don't use my predicament as a staging! ...Well, you actually saved me. Yuki... You did well.
+[3C404EFF]わらわの窮地を演出に使うでないわ！[3C404EFF]\n……[3C404EFF]まぁ、[3C404EFF]実際助かったのじゃがな。[3C404EFF]\n[3C404EFF]ユキよ……[3C404EFF]よくやってくれた。=Don't use my predicament as a staging! ...Well, you actually saved me.\nYuki... You did well.                                          
 [3C404EFF]……[3C404EFF]どういたしまして♪=...You're welcome♪
 [3C404EFF]それより、[3C404EFF]これからどうする気じゃ？[3C404EFF]\n[3C404EFF]儀式場から脱したはいいが、[3C404EFF]ここはまだ街の中。[3C404EFF]\n[3C404EFF]ブラドはこのまま[3C404EFF]わらわたちを逃がしてはくれぬじゃろう。=More importantly, what are you going to do now? We may have escaped from the ritual site, but we're still in the city. Brad won't let us escape.
 [3C404EFF]今に追手が──=We've got pursuers
 [3C404EFF]──イリヤ、[3C404EFF]様。=──Lady Illya.
 [3C404EFF]来ちゃったみたいだよ。[3C404EFF]\n[3C404EFF]でも……[3C404EFF]なんだか雰囲気が違うみたいだね？=Looks like he's here. But... He looks different, doesn't he?
 [3C404EFF]何故、[3C404EFF]ですか……[3C404EFF]何故、[3C404EFF]復活を拒むのです……=Why... Why do you refuse to be revived...?
-[3C404EFF]あなた様は伝説の吸血鬼。[3C404EFF]\n[3C404EFF]あなた様はこの世界の支配者。[3C404EFF]\n[3C404EFF]あなた様は私のすべて……！=You are a legendary vampire. You are the ruler of this world. You is everything to me...!
+[3C404EFF]あなた様は伝説の吸血鬼。[3C404EFF]\n[3C404EFF]あなた様はこの世界の支配者。[3C404EFF]\n[3C404EFF]あなた様は私のすべて……！=You are a legendary vampire. You are the ruler of this world. You are everything to me...!
 [3C404EFF]ブラド……[3C404EFF]お主……=Brad... You...
 [3C404EFF]あなたサマハァァァァァァァァァァァ──！=My ladyyyyyyy──!
 [3C404EFF]うわぁ、[3C404EFF]魔物に変わっちゃった！？[3C404EFF]\nあの人、[3C404EFF]魔族じゃなかったの！？=Wow, he’s transformed into a monster?! Wasn’t he a daemon?!
@@ -135,16 +135,17 @@ r:"^イリヤを救出したユキたちの前に、魔物と化したブラド�
 [3C404EFF]ドケェェェェェェェ！=out of the way!
 [3C404EFF]ボクを前にして退け、[3C404EFF]なんて[3C404EFF]見る目がないねっ♪=You don't have the eyes to tell me to retreat in front of you♪
 [3C404EFF]ユキ、[3C404EFF]お主……[3C404EFF]\nなぜ渡り合えるのじゃ……[3C404EFF]あの力は……=Yuki, you... How can you fight each other...? That power...
+[3C404EFF]Yuki, you...[3C404EFF]\nなぜ渡り合えるのじゃ……[3C404EFF]あの力は……=Yuki, how can you fight each other...? That power...
 [3C404EFF]どうだい、[3C404EFF]イリヤ？[3C404EFF]\n[3C404EFF]ボクの美しさ……[3C404EFF]褒め称えていいんだよ……[3C404EFF]ッ……=What do you think, Illya? My beauty... You can praise me...
 [3C404EFF]違う……[3C404EFF]こやつ、[3C404EFF]無理をしておる……！[3C404EFF]\n[3C404EFF]なぜじゃ？　[3C404EFF]なぜ、[3C404EFF]そんなことを……？[3C404EFF]\n力の差がありすぎることくらい、[3C404EFF]お主も分かるじゃろう……？　=No......she's pushing herself......!Why? Why would she do that......?You know there's too much of a difference in power between us......　
 [3C404EFF]──キサマァッ！=──You bastard!
-[3C404EFF]ふふっ、[3C404EFF]いいね！[3C404EFF]\n[3C404EFF]もっとっ、[3C404EFF]ボクを美しく輝かせなよっ……♪=Hehe, nice! Make me shine more beautifully...
+[3C404EFF]ふふっ、[3C404EFF]いいね！[3C404EFF]\n[3C404EFF]もっとっ、[3C404EFF]ボクを美しく輝かせなよっ……♪=Hehe, nice!\nMake me shine more beautifully...                                     
 [3C404EFF]みんなに見せてあげるよ♪[3C404EFF]\n[3C404EFF]伝説の吸血鬼の力を打ち破る、[3C404EFF]美しいボクを！[3C404EFF]\n[3C404EFF]このボクが、[3C404EFF]伝説を超える瞬間を……♪=I'll show you all♪ I'm beautiful enough to defeat the power of a legendary vampire! I will surpass the legend...
-[3C404EFF]……美しい、[3C404EFF]からか……？[3C404EFF]\n[3C404EFF]絶対に勝てない相手に[3C404EFF]立ち向かう自分が。=......because she's beautiful......?She's facing an opponent she'll never win against.
-[3C404EFF]そこまでして……[3C404EFF]自分を貫くというのか？=Are you going to go that far... to pierce yourself?
-[3C404EFF]ああ、[3C404EFF]そうなのじゃろうな。[3C404EFF]\n[3C404EFF]今、[3C404EFF]ようやく理解できたのじゃ……[3C404EFF]あやつの美しさが。=Yes, I'm sure you're right. I've finally come to understand his beauty.
+[3C404EFF]……美しい、[3C404EFF]からか……？[3C404EFF]\n[3C404EFF]絶対に勝てない相手に[3C404EFF]立ち向かう自分が。=......because he's beautiful......?\nHe's facing an opponent He'll never win against.                               
+[3C404EFF]そこまでして……[3C404EFF]自分を貫くというのか？=Are you going to go that far... to bend yourself?
+[3C404EFF]ああ、[3C404EFF]そうなのじゃろうな。[3C404EFF]\n[3C404EFF]今、[3C404EFF]ようやく理解できたのじゃ……[3C404EFF]あやつの美しさが。=Yes, I'm sure you're right.\nI've finally come to understand his beauty.                                               
 [3C404EFF]自分に自信がある者は──[3C404EFF]美しいのじゃな。=Those who are confident in themselves are beautiful.
-[3C404EFF]なぁ、[3C404EFF]我が眷属よ。[3C404EFF]\nお主に一つ、[3C404EFF]聞いてもよいか。=Hey, my familia. May I ask you a question?
+[3C404EFF]なぁ、[3C404EFF]我が眷属よ。[3C404EFF]\nお主に一つ、[3C404EFF]聞いてもよいか。=Hey, my familiar. May I ask you a question?
 [3C404EFF]──わらわは何者じゃ？=──What am I?
 
 [3C404EFF]……うむ。=...Indeed.
@@ -162,17 +163,17 @@ r:"^イリヤを救出したユキたちの前に、魔物と化したブラド�
 [3C404EFF]……へぇ。[3C404EFF]\n大きく出たね。[3C404EFF]\n面白いじゃないか。=......huh.That's a big deal.Interesting.
 [3C404EFF]だったら、[3C404EFF]これも使いなよ。[3C404EFF]\n[3C404EFF]少しは足しになるでしょ。=In that case, use this, too.\n It'll help you add a little.
 [3C404EFF]ユキ、[3C404EFF]お主……=Yuki, you...
-[3C404EFF]美を統べる者が、[3C404EFF]\n見せ場を譲ってあげたんだからさ。=The ruler of beauty gave him a chance to show off, after all.
+[3C404EFF]美を統べる者が、[3C404EFF]\n見せ場を譲ってあげたんだからさ。=The ruler of beauty gave you a chance to show off, after all.
 [3C404EFF]──負けたりしないよね？=-You won't lose, will you?
 [3C404EFF]……誰に言うておる。=...Who are you talking to?
 [3C404EFF]イリヤ、[3C404EFF]サマ……[3C404EFF]オォ……[3C404EFF]イリヤサマァァァァァ！=Lady...Illya...ohh...Lady...Illyaaaa!
 [3C404EFF]ブラドよ──[3C404EFF]少し黙れ。=Shut up, Brad.
 [3C404EFF]……ッ！=Ngh 
 r:"^(\[3C404EFF\])?(.{2,10})よ。(\[3C404EFF\])?\nいつものやつを……(\[3C404EFF\])?いいや、(\[3C404EFF\])?いつも以上に(\[3C404EFF\])?わらわの力を引き出すぞ。(\[3C404EFF\])?\n協力、(\[3C404EFF\])?してくれるか。$"=$2. The usual one... No, I'll draw out more of my power than usual. Will you help me?
-[3C404EFF]ふふっ♪　[3C404EFF]では、[3C404EFF]頼む。[3C404EFF]\n[3C404EFF]その……[3C404EFF]最大級のドキドキ……[3C404EFF]胸の高鳴りを、[3C404EFF]わらわに捧げるがよい。=Hehe♪ Well then, I'm counting on you.\nUm... my heart is beating like crazy... Offer it to me.
+[3C404EFF]ふふっ♪　[3C404EFF]では、[3C404EFF]頼む。[3C404EFF]\n[3C404EFF]その……[3C404EFF]最大級のドキドキ……[3C404EFF]胸の高鳴りを、[3C404EFF]わらわに捧げるがよい。=Hehe♪ Well then, I'm counting on you.\nUm... my heart is beating like crazy...\nOffer it to me.                                                 
 [3C404EFF]んっ……♪=Mm...♪
 [3C404EFF]おおっ……！=Ohh...!
-[3C404EFF]なな、[3C404EFF]なん[3C404EFF]と……！？=Wh-Wh-What...?!
+[3C404EFF]なな、[3C404EFF]なん[3C404EFF]と……！？=Wh-Wh-What...?!                                                                         
 [3C404EFF]も、[3C404EFF]もももっ、[3C404EFF]もうよい！[3C404EFF]\n[3C404EFF]そこまででよい！　[3C404EFF]十分、[3C404EFF]十分じゃ！[3C404EFF]\nよ、[3C404EFF]よくやったな……[3C404EFF]胸の高鳴り、[3C404EFF]確かに受け取ったぞ……！=Th-Th-That's enough! That's more than enough!\nEnough, enough! W-Well done...\nMy heart's beating so fast, I'm sure I got it...!
 [3C404EFF]……イリヤ、[3C404EFF]顔真っ赤でニヤニヤしてるけど大丈夫？[3C404EFF]\nさっきまでの威厳とか残ってる？=...Illya, your face is bright red and you’re grinning.\nAre you okay? Do you still have your dignity from before?
 [3C404EFF]や、[3C404EFF]やや、[3C404EFF]やかましいわ！[3C404EFF]\nまさか[3C404EFF]３連続とは思わなかったんじゃ！=Sh-Sh-Shut up!\nI didn't think it would be three times in a row!

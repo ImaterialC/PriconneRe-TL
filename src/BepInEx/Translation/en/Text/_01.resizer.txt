@@ -166,3 +166,5 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(12)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewGrandArenaTop(Clone)/WidgetOff(Clone)/SlideLeft/GUIGroup_RankInfo_new/UIButton_DefenceSetting/Label=ChangeFontSize(10)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/WidgetOff(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(10)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/PartsDailyTask(Clone)/Main/ScrollContent/ScrollView/WrapContent/PartsDailyTaskPlate(Clone)/Node/GUIGroup_Button/UIButton_Move/Label=ChangeFontSize(17)

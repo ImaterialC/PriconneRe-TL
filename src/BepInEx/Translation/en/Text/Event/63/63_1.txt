@@ -1,7 +1,7 @@
 闇に秘されし街=City Hidden in Darkness
 
 
-ブラドの案内で赴いた街で、住人の魔族に歓迎されるイリヤたち。力の完全復活に必要な「伝説の吸血鬼としての記憶」を思い出す傍ら、イリヤは王として数多の魔族が住むその地を治めることになる。=Illya and the others are welcomed by the daemons in the city where Brod guided them. While remembering the “memories of a legendary vampire” necessary to fully revive her power, Illia will rule that land, where many daemons live as kings.
+ブラドの案内で赴いた街で、住人の魔族に歓迎されるイリヤたち。力の完全復活に必要な「伝説の吸血鬼としての記憶」を思い出す傍ら、イリヤは王として数多の魔族が住むその地を治めることになる。=Illya and the others are welcomed by the daemons in the city where Brod guided them. While remembering the “memories of a legendary vampire” necessary to fully revive her power, Illya will rule that land, where many daemons live as kings.
 かつて伝説の吸血鬼が支配していた地。\nそこを目指してイリヤたちは険しい道を進んでいた。=The land ruled by the legendary vampire. Illya and the others are heading down a steep road.
 イリヤ様、この先でございます。=Lady Illya, just ahead.
 r:"^(\[3C404EFF\])?うむ。(\[3C404EFF\])?\n足場が悪いのう……(\[3C404EFF\])?(.{2,10})よ、(\[3C404EFF\])?気をつけるのじゃぞ。$"=Umu. The footing is bad...$4, be careful.
@@ -9,7 +9,7 @@ r:"^(\[3C404EFF\])?うむ。(\[3C404EFF\])?\n足場が悪いのう……(\[3C404
 r:"^(\[3C404EFF\])?はぁ～、(\[3C404EFF\])?随分遠いとこにあるんだね、(\[3C404EFF\])?その場所ってさ。(\[3C404EFF\])?\nボク、(\[3C404EFF\])?疲れてきちゃったよ。(\[3C404EFF\])?ねぇ(.{2,10})さん、(\[3C404EFF\])?\n(\[3C404EFF\])?ボクを(\[3C404EFF\])?お姫さまみたいに抱っこさせてあげるよ。$"=*sigh*, that place is pretty far away, isn't it? I'm starting to get tired. Hey, $7-san, I'll make you carry me like a princess.
 
 
-やめぬか！　こやつはわらわの眷属じゃ！　勝手にイチャつくでないわ！\nそもそも！　我が眷属はともかく。\nユキ、なぜお主がついてきておるのじゃ？=Stop it! He's my minion! Don't flirt with him! Besides! My minion is one thing, but Yuki, why are you following me?
+やめぬか！　こやつはわらわの眷属じゃ！　勝手にイチャつくでないわ！\nそもそも！　我が眷属はともかく。\nユキ、なぜお主がついてきておるのじゃ？=Stop it! He's My familiar! Don't flirt with him! Besides! My familiar is one thing, but Yuki, why are you following me?
 だってボク、まだ吸血鬼になってないんでしょ？\nもらった魔力だって、ボクの肌ツヤをよくした程度だしね。=I mean, I haven’t become a vampire yet, right? The magical energy I got from it only made my skin smoother
 確かに、お主自身が吸血鬼になったという気配はないが……\nお主……人の身に余るほどの魔力を手にしておきながら、\n出てくる感想がそれか……？=It’s true that you don’t seem to have become a vampire yourself, but... You... You have more magical energy than a human could handle, and that’s how you feel about coming out...?
 ユキらしいね。=That's just like you, Yuki.
@@ -57,8 +57,8 @@ r:"^(\[3C404EFF\])?(.{2,10})！\n(.{2,10})さん！$"=$2!\n$3-san!
 r:"^(\[3C404EFF\])?ふふっ、(\[3C404EFF\])?(.{2,10})さんも大人気だね。(\[3C404EFF\])?\n(\[3C404EFF\])?そんなに魔物たちに囲まれるなんて。$"=Heehee. You're so popular, $3-san. I didn't think you'd be surrounded by so many monsters.
 r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何もないんじゃったな！？$"=That's right! You don't have any magical energy, do you?!
 やめよ！=Stop it!
-こやつはわらわの大切な眷属じゃ！\n手を出すことは許さぬ。=He's a my familia! I won't allow you to lay a finger on him.
-ケンゾク……！\n伝説の吸血鬼様の……！？=Familia...! The legendary vampire...!?
+こやつはわらわの大切な眷属じゃ！\n手を出すことは許さぬ。=He's a my familiar! I won't allow you to lay a finger on him.
+ケンゾク……！\n伝説の吸血鬼様の……！？=Familiar...! The legendary vampire...!?
 その通りじゃ！\nそれにゆくゆくは、わらわの──=That's right! And eventually, my──
 ボクの美の最高の理解者だよ♪\nみんな、この人からボクの魅力の引き立て方を学ぶといいよ。=He's the greatest sympathizer of my beauty♪ Everyone, you should learn from him how to draw out my charms.
 ははーっ！=Hahaaa!
@@ -77,7 +77,7 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 なんかボロくない？　美しさが足りないよ。\nまぁ、美しすぎるボクとバランスが取れてちょうどいいかもね。=Isn't it kind of shabby? It's not beautiful enough. Well, maybe it's just right to balance it out with me, who's too beautiful.
 バランスを取りに行くパターンもあるんじゃな。=I guess there's a pattern where you go to balance it out.
 街の方は魔物たちと共に修復したのですが、\nこの城だけはそのままにしているのですよ。\n……時の流れを、断ち切らぬように。=The city has been repaired along with the monsters, but this castle is the only one left as it is. ...Don't break the flow of time.
-……ブラドよ。もうそろそろよかろう。\nお主の言う通りに出向いてやったのじゃ。\nわらわの完全復活に足りないものについて、話すがよい。=...Blade, it's about time. I did as you said. Tell me what I need to do to fully revive myself.
+……ブラドよ。もうそろそろよかろう。\nお主の言う通りに出向いてやったのじゃ。\nわらわの完全復活に足りないものについて、話すがよい。=...Brad, it's about time. I did as you said. Tell me what I need to do to fully revive myself.
 ……イリヤ様。あなた様はかつて、\n神々との戦いにおいて封印されてしまった、と伝えられています。=...Lady Illya. It is said that you were once sealed away in the battle against the gods.
 魔族の間ではそう伝わっている、とヨリたちも言っておったな。\nおとぎ話だとも言うておったが。=That’s what the daemons said, too, Yori and the others said. They also said it was a fairy tale.
 ……私はその伝説について、ずっと調べていたのです。\n各地を巡り、伝説の吸血鬼に関する文献や痕跡を探し続け──\nその旅の果てに見つけたのが、この地にございます。=...I've been investigating that legend for a long time. I've traveled all over the place, searching for documents and traces of the legendary vampire----and at the end of that journey, I found this place.
@@ -105,7 +105,7 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 千は超えているかと。\n……少なくて申し訳ありません。\nかつては、数万はくだらぬ軍勢をお持ちでしたでしょうに……！=I'm sorry there aren't more than a thousand of them. You used to have a ridiculous army of tens of thousands!
 ……お、おぉ……=...O-Ohhh...
 どうしたの？=What's the matter with you?
-いや、なんというか……起きてから今に至るまで、\nここまで多くの部下は持っておらんかったじゃろ？\nお主を含めて６人程度だったわけじゃし。=Well, how should I put it... From the time you woke up to now, you didn't have this many subordinates, did you? Including you, there were only six of you.
+いや、なんというか……起きてから今に至るまで、\nここまで多くの部下は持っておらんかったじゃろ？\nお主を含めて６人程度だったわけじゃし。=Well, how should I put it... From the time I woke up to now, I didn't have this many subordinates, didn't it? Including you, there were only six of you.
 それが急に千ともなると……\nなんというか……少し驚いておるのじゃ。=I'm a little surprised to see a thousand of them all of a sudden.
 ……だというのに。=...And yet.
 ふふん♪=Heheh♪
@@ -122,7 +122,7 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 [3C404EFF]かつて伝説の吸血鬼が支配していた地。[3C404EFF]\nそこを目指してイリヤたちは険しい道を進んでいた。=The land ruled by the legendary vampire. Illya and the others are heading down a steep road.
 [3C404EFF]イリヤ様、[3C404EFF]この先でございます。=Lady Illya, just ahead.
 
-[3C404EFF]やめぬか！　[3C404EFF]こやつはわらわの眷属じゃ！　[3C404EFF]勝手にイチャつくでないわ！[3C404EFF]\n[3C404EFF]そもそも！　[3C404EFF]我が眷属はともかく。[3C404EFF]\n[3C404EFF]ユキ、[3C404EFF]なぜお主がついてきておるのじゃ？=Stop it! He's my familia! Don't flirt with him! Besides! My familia is one thing, but Yuki, why are you following me?
+[3C404EFF]やめぬか！　[3C404EFF]こやつはわらわの眷属じゃ！　[3C404EFF]勝手にイチャつくでないわ！[3C404EFF]\n[3C404EFF]そもそも！　[3C404EFF]我が眷属はともかく。[3C404EFF]\n[3C404EFF]ユキ、[3C404EFF]なぜお主がついてきておるのじゃ？=Stop it! He's my familiar! Don't flirt with him! Besides! My familiar is one thing, but Yuki, why are you following me?
 [3C404EFF]だってボク、[3C404EFF]まだ吸血鬼になってないんでしょ？[3C404EFF]\n[3C404EFF]もらった魔力だって、[3C404EFF]ボクの肌ツヤをよくした程度だしね。=I mean, I haven’t become a vampire yet, right? The magical energy I got from it only made my skin smoother
 [3C404EFF]確かに、[3C404EFF]お主自身が吸血鬼になったという気配はないが……[3C404EFF]\n[3C404EFF]お主……[3C404EFF]人の身に余るほどの魔力を手にしておきながら、[3C404EFF]\n出てくる感想がそれか……？=It’s true that you don’t seem to have become a vampire yourself, but... You... You have more magical energy than a human could handle, and that’s how you feel about coming out...?
 [3C404EFF]そうなのじゃな……[3C404EFF]\n[3C404EFF]わらわも長年生きて[3C404EFF]いろいろなものを見てきたが、[3C404EFF]\n[3C404EFF]まだまだ新しい発見があるものじゃなぁ……=That's right... I've lived for many years and seen many things, but I still have new discoveries to make...
@@ -158,8 +158,8 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 [3C404EFF]追い出せー！=Throw him out!
 [3C404EFF]ここは魔の者のすみかだぞー！=This is the demon's abode!
 [3C404EFF]やめよ！=Stop it!
-[3C404EFF]こやつは[3C404EFF]わらわの大切な眷属じゃ！[3C404EFF]\n[3C404EFF]手を出すことは許さぬ。=He's my precious familia! I won't allow you to lay a finger on him.
-[3C404EFF]ケンゾク……！[3C404EFF]\n伝説の吸血鬼様の……！？=Familia...! The legendary vampire...!?
+[3C404EFF]こやつは[3C404EFF]わらわの大切な眷属じゃ！[3C404EFF]\n[3C404EFF]手を出すことは許さぬ。=He's my precious familiar! I won't allow you to lay a finger on him.
+[3C404EFF]ケンゾク……！[3C404EFF]\n伝説の吸血鬼様の……！？=Familiar...! The legendary vampire...!?
 [3C404EFF]その通りじゃ！[3C404EFF]\n[3C404EFF]それに[3C404EFF]ゆくゆくは、[3C404EFF]わらわの──=That's right! And eventually, my──
 [3C404EFF]ボクの美の最高の理解者だよ♪[3C404EFF]\n[3C404EFF]みんな、[3C404EFF]この人から[3C404EFF]ボクの魅力の引き立て方を学ぶといいよ。=He's the greatest sympathizer of my beauty♪ Everyone, you should learn from him how to draw out my charms.
 [3C404EFF]ははーっ！=Hahaaa!
@@ -177,7 +177,7 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 [3C404EFF]なんかボロくない？　[3C404EFF]美しさが足りないよ。[3C404EFF]\n[3C404EFF]まぁ、[3C404EFF]美しすぎるボクとバランスが取れてちょうどいいかもね。=Isn't it kind of shabby? It's not beautiful enough. Well, maybe it's just right to balance it out with me, who's too beautiful.
 [3C404EFF]バランスを取りに行くパターンもあるんじゃな。=I guess there's a pattern where you go to balance it out.
 [3C404EFF]街の方は魔物たちと共に修復したのですが、[3C404EFF]\n[3C404EFF]この城だけはそのままにしているのですよ。[3C404EFF]\n……[3C404EFF]時の流れを、[3C404EFF]断ち切らぬように。=The city has been repaired along with the monsters, but this castle is the only one left as it is. ...Don't break the flow of time.
-[3C404EFF]……ブラドよ。[3C404EFF]もうそろそろよかろう。[3C404EFF]\n[3C404EFF]お主の言う通りに出向いてやったのじゃ。[3C404EFF]\nわらわの完全復活に足りないものについて、[3C404EFF]話すがよい。=...Blade, it's about time. I did as you said. Tell me what I need to do to fully revive myself.
+[3C404EFF]……ブラドよ。[3C404EFF]もうそろそろよかろう。[3C404EFF]\n[3C404EFF]お主の言う通りに出向いてやったのじゃ。[3C404EFF]\nわらわの完全復活に足りないものについて、[3C404EFF]話すがよい。=...Brad, it's about time. I did as you said. Tell me what I need to do to fully revive myself.
 [3C404EFF]……イリヤ様。[3C404EFF]あなた様はかつて、[3C404EFF]\n神々との戦いにおいて封印されてしまった、[3C404EFF]と伝えられています。=...Lady Illya. It is said that you were once sealed away in the battle against the gods.
 [3C404EFF]魔族の間ではそう伝わっている、[3C404EFF]とヨリたちも言っておったな。[3C404EFF]\n[3C404EFF]おとぎ話だとも言うておったが。=That’s what the daemons said, too, Yori and the others said. They also said it was a fairy tale.
 [3C404EFF]……私はその伝説について、[3C404EFF]ずっと調べていたのです。[3C404EFF]\n[3C404EFF]各地を巡り、[3C404EFF]伝説の吸血鬼に関する文献や痕跡を探し続け──[3C404EFF]\nその旅の果てに見つけたのが、[3C404EFF]この地にございます。=...I've been investigating that legend for a long time. I've traveled all over the place, searching for documents and traces of the legendary vampire----and at the end of that journey, I found this place.
@@ -203,7 +203,7 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 [3C404EFF]な、[3C404EFF]なんじゃと！？[3C404EFF]\n……ちなみに、[3C404EFF]この街には[3C404EFF]今どのくらい魔物たちがおるのじゃ……？=Wh-What?! ...By the way, how many monsters are there in this city right now...?
 [3C404EFF]千は超えているかと。[3C404EFF]\n[3C404EFF]……少なくて申し訳ありません。[3C404EFF]\nかつては、[3C404EFF]数万はくだらぬ軍勢をお持ちでしたでしょうに……！=I'm sorry there aren't more than a thousand of them. You used to have a ridiculous army of tens of thousands!
 [3C404EFF]……お、[3C404EFF]おぉ……=...O-Ohhh...
-[3C404EFF]いや、[3C404EFF]なんというか……[3C404EFF]起きてから今に至るまで、[3C404EFF]\nここまで多くの部下は持っておらんかったじゃろ？[3C404EFF]\nお主を含めて[3C404EFF]６人程度だったわけじゃし。=Well, how should I put it... From the time you woke up to now, you didn't have this many subordinates, did you? Including you, there were only six of you.
+[3C404EFF]いや、[3C404EFF]なんというか……[3C404EFF]起きてから今に至るまで、[3C404EFF]\nここまで多くの部下は持っておらんかったじゃろ？[3C404EFF]\nお主を含めて[3C404EFF]６人程度だったわけじゃし。=Well, how should I put it... From the time I woke up to now, I didn't have this many subordinates, didn't it? Including you, there were only six of you.
 [3C404EFF]それが急に千ともなると……[3C404EFF]\nなんというか……[3C404EFF]少し驚いておるのじゃ。=I'm a little surprised to see a thousand of them all of a sudden.
 [3C404EFF]……だというのに。=...And yet.
 [3C404EFF]ふふん♪=Heheh♪
@@ -218,5 +218,5 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 [3C404EFF]かつての伝説が残る地に君臨するイリヤ。[3C404EFF]\n同時に何故か同じくらいの存在感を放つユキ。[3C404EFF]\n二人を称える魔物たちの喝采が、古城に響き渡るのであった。=Illya reigns over the land where the legends of the past remain. At the same time, Yuki gives off the same presence for some reason. The applause of the demons praising the two echoes through Kojou.
 
 [3C404EFF]ま、[3C404EFF]そうだろうね。[3C404EFF]当たり前の結果に言うべきことなんてないよ。[3C404EFF]\n[3C404EFF]もしボクを選ばなかったら、[3C404EFF]ボクの美しさを[3C404EFF]耳元で囁き続けて[3C404EFF]\nあげようかと思ってたけど、[3C404EFF]その必要はなかったみたいだね♪=Well, I guess you're right. There's nothing to be said about the obvious outcome. If you hadn't chosen me, I would have continued to whisper my beauty into your ear, but it seems you didn't need to♪
-[3C404EFF]……なるほど。[3C404EFF]\nお主、[3C404EFF]選ばなかったら面倒なことになるのが分かっとったんじゃな。[3C404EFF]\n[3C404EFF]酷な選択をさせてすまなかった。[3C404EFF]危機回避は大事じゃな、[3C404EFF]賢い眷属じゃ。=...I see. So you knew it would be troublesome if you didn't choose. I'm sorry for making such a terrible choice. Avoiding danger is important, wise familia.
+[3C404EFF]……なるほど。[3C404EFF]\nお主、[3C404EFF]選ばなかったら面倒なことになるのが分かっとったんじゃな。[3C404EFF]\n[3C404EFF]酷な選択をさせてすまなかった。[3C404EFF]危機回避は大事じゃな、[3C404EFF]賢い眷属じゃ。=...I see. So you knew it would be troublesome if you didn't choose. I'm sorry for making such a terrible choice. Avoiding danger is important, wise familiar.
 [3C404EFF]ちゃんと選ばんかい！\nちゃんと選びなよ！=Make sure you choose!\nMake sure to choose!
