@@ -29,5 +29,3 @@ else {
 }
 
 $Changelog >> "./DISCORD_NOTE"
-
-Set-Content -Value "" -Path 
