@@ -46,7 +46,7 @@ sr:"^([^NVHS]+?)(NORMAL|VERY HARD|SPECIAL|HARD)討伐！$"=Defeat $1 ($2)
 アイドル・ゴー・ビヨンド=Idol Go Beyond
 未来を切り開く解放の拳=Unleashed Fist That Cuts Through the Future
 こ、これからは先輩の隣で！=F-From Now On, Next to the Senior!
-まばゆき未来の大悪党=BrIllyant Villain of the Dazzling Future
+まばゆき未来の大悪党=Brilliant Villain of the Dazzling Future
 どるるるる～ん★=Dorurururu~n★
 タマキ特製ブレンドにゃ=Tamaki's Special Blend-Nya
 

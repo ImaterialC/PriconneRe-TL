@@ -9,7 +9,7 @@
 
 r:"^ステータスアップ効果を受けるたびに聖夜の煌きを付与する状態になる\n自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを(\d+)アップ\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを(\d+)アップ\n自分のＴＰ上昇を(\d+)アップ$"=Cast time:0.4s\n►add 1 [Christmas Sparkle] per status boost\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.Crit by $2 for 180s.\n►Boosts allies' P.ATK by $3 for 180s.\n►Boosts allies' P.Crit by $4 for 180s.\n►Boosts own TP gain by $5 for 180s.
 
-ブリリアントスラッシュ=BrIllyant slash
+ブリリアントスラッシュ=Brilliant slash
 目の前の敵１キャラに物理小ダメージを与える。このスキルのダメージは、【聖夜の煌き】の数に応じて増加する。=Deals small physical damage to one enemy in front. Damage increases based on the number of "Christmas Sparkles".
 
 
