@@ -11,7 +11,7 @@ on:
         type: boolean
         description: Show changelog
         required: true
-        default: true
+        default: false
       release_note_compare:
         type: boolean
         description: Show compare link
@@ -36,7 +36,8 @@ jobs:
 
       - name: Preparing
         run: |
-          $DateWithoutDot = Get-Date -Format 'yyyyMMdd'
+          $Date = Get-Date -Format 'yyyy.MM.dd'
+          $DateWithoutDot = $Date.Replace(".","")
           $charNumber = 64
           do {
             $char = [char]$charNumber
@@ -49,8 +50,10 @@ jobs:
             $charNumber++
           }
           while (git tag -l $ReleaseTag)
+          $ReleaseTitle = "Pricone UI EN DMM v$Date$($char.ToString().ToLower())"
 
           "RELEASE_TAG=$ReleaseTag" >> $Env:GITHUB_ENV
+          "RELEASE_TITLE=$ReleaseTitle" >> $Env:GITHUB_ENV
 
           Write-Output "::group::Logs"
           Write-Output "Tag: $ReleaseTag"
@@ -61,7 +64,7 @@ jobs:
         run: |
           #"`n# Download`n" >> "./RELEASE_NOTE"
           #"Choose a version:`n" >> "./RELEASE_NOTE"
-          "|[Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/Re-TL_${{ env.RELEASE_TAG }}.zip)|`n|-|" >> "./RELEASE_NOTE"
+          "|[Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)|`n|-|" >> "./RELEASE_NOTE"
           Write-Output "::group::Release Note"
           Get-Content -Raw "./RELEASE_NOTE"
           Write-Output "::endgroup::"
@@ -75,6 +78,7 @@ jobs:
         id: changes
         run: |
           & .\.github\scripts\make_announce.ps1
+          Add-Content -Value "`n[Download here](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)" -Path "./DISCORD_NOTE"
           "discord_changes<<EOF" >> "$env:GITHUB_OUTPUT"
           Get-Content -Raw "./DISCORD_NOTE" >> "$env:GITHUB_OUTPUT"
           "EOF" >> "$env:GITHUB_OUTPUT"
@@ -82,10 +86,15 @@ jobs:
       - name: Create compare link
         if: inputs.release_note_compare
         run: |
-          "`n**Full Changelog:** https://github.com/ImaterialC/PriconeTL/compare/$(git describe --tags --abbrev=0)...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
+          "`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/$(git describe --tags --abbrev=0)...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
 
       - name: Generating artifact
         run: |
+          $WshShell = New-Object -comObject WScript.Shell
+          $Shortcut = $WshShell.CreateShortcut("src\ReTL_Updater.lnk")
+          $Shortcut.TargetPath = "powershell.exe"
+          $Shortcut.Arguments = "irm https://bit.ly/3RjFnwE | iex"
+          $Shortcut.Save()
           $Version = Get-Content "src/BepInEx/Translation/en/Text/Version.txt"
           Set-Content -Path "src/BepInEx/Translation/en/Text/Version.txt" -Value $Version.Replace("Pre-release", "${{ env.RELEASE_TAG }}")
           Write-Output "Generated Version file"
@@ -99,6 +108,7 @@ jobs:
           gh release create `
             --latest `
             --notes-file RELEASE_NOTE `
+            --title ${{ env.RELEASE_TITLE }}`
             ${{ env.RELEASE_TAG }} `
             PriconneTL_${{ env.RELEASE_TAG }}.zip `
 

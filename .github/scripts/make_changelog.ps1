@@ -32,8 +32,8 @@ foreach ($file in $ChangedFiles) {
         }
         $Splitted = $FileName.Split("/")
         if ("Text" -in $Splitted) {
-            if ( $Splitted[4] ) {
-                $Log += $Splitted[3] + ": " + (Split-Path -LeafBase $FileName) + "`n"
+            if ( $Splitted[6] ) {
+                $Log += $Splitted[5] + ": " + (Split-Path -LeafBase $FileName) + "`n"
             }
             else {
                 $Log += (Split-Path -LeafBase $FileName) + "`n"
@@ -41,14 +41,18 @@ foreach ($file in $ChangedFiles) {
             $Text += $Log
         }
         else {
-            $Log += $Splitted[3] + ": " + $Splitted[4].Split(" ")[0] + "`n"
+            $Log += $Splitted[5] + ": " + $Splitted[6].Split(" ")[0] + "`n"
             if (!$Texture -match $Log) {
                 $Texture += $Log
             }
         }
     }
     elseif ($file -match ".+config/.+") {
-        $Log = "- Updated $(Split-Path -LeafBase $FileWStatus[1])`n"
+        $Log = "- Updated config file`n"
+        $Other += $Log
+    }
+    elseif ($file -match "^src/.+") {
+        $Log = "- Updated framework files"
         $Other += $Log
     }
     Write-Output "$file`n=> $Log"
@@ -57,7 +61,7 @@ Write-Output "::endgroup::`n"
 
 Write-Output "::group::Final Release Note"
 $ListVar = "Text", "Texture", "Other"
-"`n# Changelog`n" >> "./RELEASE_NOTE"
+"`n## Changelog`n" >> "./RELEASE_NOTE"
 foreach ($VarName in $ListVar) {
     $Value = Get-Variable -ValueOnly $VarName
     if ($Value) {
