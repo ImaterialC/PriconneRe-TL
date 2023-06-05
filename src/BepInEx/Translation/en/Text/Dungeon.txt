@@ -25,6 +25,9 @@ r:"^あと(\d+)時間(\d+)分は挑戦できません。$"=Can't challenge for $
 このダンジョンのボスを倒すと、スキップが可能になります。=Defeat this dungeon boss to skip.
 クリア回数=Number of clears
 イベント開催までお待ちください。=Please wait until the event.
+
+
+ダンジョンはLv10以上のキャラから編成できます。=Dungeons can be organized from characters with Lv 10 or higher
 ===Return===
 帰還確認=Return
 [3C404E]帰還しますか？[-]=[3C404E]Return from this dungeon? [-]
