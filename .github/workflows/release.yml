@@ -42,15 +42,16 @@ jobs:
           do {
             $char = [char]$charNumber
             if ($charNumber -eq 64) {
+              $ReleaseTitle = "Pricone UI EN DMM v$Date"
               $ReleaseTag = $DateWithoutDot
             }
             else {
+              $ReleaseTitle = "Pricone UI EN DMM v$Date$($char.ToString().ToLower())"
               $ReleaseTag = $DateWithoutDot + $char.ToString().ToLower()
             }
             $charNumber++
           }
           while (git tag -l $ReleaseTag)
-          $ReleaseTitle = "Pricone UI EN DMM v$Date$($char.ToString().ToLower())"
 
           "RELEASE_TAG=$ReleaseTag" >> $Env:GITHUB_ENV
           "RELEASE_TITLE=$ReleaseTitle" >> $Env:GITHUB_ENV
@@ -108,7 +109,7 @@ jobs:
           gh release create `
             --latest `
             --notes-file RELEASE_NOTE `
-            --title ${{ env.RELEASE_TITLE }}`
+            --title "${{ env.RELEASE_TITLE }}"`
             ${{ env.RELEASE_TAG }} `
             PriconneTL_${{ env.RELEASE_TAG }}.zip `
 
