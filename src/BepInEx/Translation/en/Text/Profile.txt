@@ -2,7 +2,7 @@
 プ=P
 r:"^([0-9/／]+)人$"=$1
 30／30人
-===Menu===
+---Menu---
 ウィークリー=Weekly
 EXクエスト=EX Quest
 クリアした階=Cleared Floor
@@ -28,7 +28,7 @@ sr:"^(\d{4})年(\d+月)$"=$2, $1
 お気に入りキャラ=Favorite Character
 差を表示する=Display
 sr:"^(\d+月)(\d{1,2})日$"=$1 $2
-===Profile Card===
+---Profile Card---
 保存=Save
 称号変更=Title change
 キャラ表示切替=Change Chara
@@ -71,7 +71,7 @@ r:"^※全角(\d+)文字以内$"=※Up to  $1 character
 所属なし=None
 クランに所属していません。=You do not belong to a Clan.
 
-===Clan Profile Card===
+---Clan Profile Card---
 クランランキング=Clan Ranking
 マイプロフ=My Profile
 募集要項=Bio
@@ -93,9 +93,9 @@ r:"^※全角(\d+)文字以内$"=※Up to  $1 character
 配信ページへ=To the distribution page
 クランメンバー募集中！一緒にプリコネ楽しもう！=We're looking for clan members!
 
-===Title===
+---Title---
 
-===Name& Self Introduce===
+---Name& Self Introduce---
 ※1文字以上10文字以内=※Between 1 and 10 characters
 プレイヤー名を入力してください。=Please enter a Player Name.
 [FF7C4E,D62146]個人情報や、公序良俗に反する内容は\n入力しないでください。[-]=[FF7C4E,D62146]Please refrain from including any\npersonal information and indecent  content.[-]
@@ -106,9 +106,9 @@ r:"^※全角(\d+)文字以内$"=※Up to  $1 character
 自己紹介文を変更しました。=Self intro has been changed.
 Translating JP Pricon atm.
 for Eng-UI contact Cornelia#0402
-===Not sure===
+---Not sure---
 到着階=Arrival floor
 
-===NPC===
+---NPC---
 オリジナルのプロフカード画像を作成して、画像付きでTwitterに投稿することができます。\n素敵なお仲間と出会えるといいですね。=You can create your own profile card image and post it on Twitter with the image.\nI hope you can meet nice friends.
 所属しているクランの情報を元にクランプロフカードを作成できます。\n画像付きでTwitterに投稿して、クランメンバーの募集にお役立てくださいませ。=You can create a Clan Loff card based on the information of the Clan to which you belong. Please post it on Twitter with an image to help recruit clan members.

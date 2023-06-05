@@ -1,23 +1,23 @@
-===Skillsシノブ（ハロウィン）
-===UB
+---Skillsシノブ（ハロウィン）
+---UB
 ハロウィンテラー=Halloween Terror
 最もＨＰの割合が低い敵１キャラに物理特大ダメージを与え、さらにこのスキルで敵を倒した場合、敵全体に物理中ダメージを与える。=Deals large P.DMG to the enemy with the lowest HP percentage. Deals additional moderate P.DMG to all enemies if the enemy is defeated by this skill.
 r:"^敵単体に(\d+)の物理ダメージ\n敵全体に(\d+)の物理ダメージ$"=Deals $1 P.DMG to an enemy.\nDeals $2 P.DMG to all enemies.
-===S1
+---S1
 レイスウェポン=Wraith Weapon
 自分の物理攻撃力を大アップさせる。=Large boost to own P.ATK.
-===S2
+---S2
 ホロウサイズ=Hollow Scythe
 自分を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to all enemies in range.
-===ex
+---ex
 冥界の夜想歌=Netherworld Nocturne
-===Skills+
-===UB
-===S1
+---Skills+
+---UB
+---S1
 レイスウェポン+=Ray Sword+
 自分の物理攻撃力を特大アップさせ、さらに物理クリティカルを大アップさせる。=Massive boost to own P.ATK and Large boost to own P.Crit Rate.
-===S2
-===ex
+---S2
+---ex
 冥界の夜想歌+=Netherworld Nocturne+
-===UE
+---UE
 霊鎌パンプキンサイズ=Spirit Cynpan Pumpkin Size

@@ -17,7 +17,7 @@ SDカード保存設定=Transfer data to SD
 絆の記憶=Bonds Memories
 
 
-===code input===
+---code input---
 一定期間内に無効なシリアルコードを3回連続で\n入力すると1時間入力できなくなります。=If you enter an invalid serial code 3 in row in a certain\nperiod of time, you will not be able to enter for 1 hour.
 半角英数字のみ入力できます。=Only half-width alphanumeric characters\ncan be entered.
 

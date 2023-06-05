@@ -88,7 +88,7 @@ r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F0
 あるけな=Somehow
 生産者の顔=Producer's face
 上限解放に必要なキャラLvを満たしていません。\n「まとめて強化」ではEXPポーションを使用して\n上限解放を行えます。=The character Lv required to unlock the upper limit is not met. You can unlock the upper limit by using EXP potions in "Uncap + Lv".
-===Equip===
+---Equip---
 以下のアイテムを消費して装備しますか？=Do you want to consume and equip the following items?
 まとめて装備確認=Equip All?
 原晶を消費する=Consume
@@ -99,14 +99,14 @@ r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F0
 装備をリクエスト=Equipment Request
 この装備はリクエストできません=You cannot request this equipment.
 この装備は素材から作成できません。=You cannot craft this equipment.
-===ORE===
+---ORE---
 原鉱を使えば作成できます。=Can be created by using Ore.
 今後このメッセージを表示しない\n※設定から変更可=Do not show this message in the future\n※Can be changed from the settings.
 原鉱消費確認=Ore Consumption Confirmation
 以下の原鉱が消費されます。\nよろしいですか？=The following ore will be consumed.\nIs this OK?
 消費装備が十分のため、原鉱を消費できません。=No need, you have enough equipment.
 原鉱を消費しなければ装備を作成できません。=You can't make equipment without consuming ore.
-===Rank up===
+---Rank up---
 にランクアップしますか？=Do you want to rank up?
 獲得スキル=Acquired Skills
 ランク=Rank
@@ -128,7 +128,7 @@ EXスキルスロット=EX skill slot
 使用できる素材がありません=No material available
 この装備はこれ以上強化できません。=This equipment cannot be refine any further.
 この装備は強化できません。=This equipment cannot be refined.
-===Rank Up Detail===
+---Rank Up Detail---
 未装備のステータス=Unequipped Stats
 装備強化MAX=MAX Refineme
 未装備=Unequip
@@ -139,7 +139,7 @@ EXスキルスロット=EX skill slot
 装備強化アイテム返還=Equipment Refine item Return
 消費装備一覧=Equipment Consumed
 
-===star change===
+---star change---
 ★変更確認=Change ★ Confirmation
 下記キャラの★の数を変更します。=Change the character's "★".
 差を非表示にする=Hide the difference
@@ -148,7 +148,7 @@ EXスキルスロット=EX skill slot
 変更する★の数を選択してください。=Please select the number of ★ to be changed.
 現在の★=Current ★
 ★変更中は才能開花できません。=Cannot ascend during "★" change.
-===LB===
+---LB---
 アストライアリング一覧=List of Astraea Rings
 限界突破内容=Contents of Limit Break
 所持アストライアリング一覧=List of owned Astraea rings
@@ -163,10 +163,10 @@ EXスキルスロット=EX skill slot
 [3C404E]アイテムを消費して、キャラのLv上限を[-][FFBB00,CE4F00]10[-][3C404E]突破します。\nよろしいですか？[-]=[3C404E]Consume shards to break through character's level limit by[FFBB00,CE4F00] 10[-]?[-]
 限界突破する=Limit Break
 このキャラは編成から外せません。=This character cannot be removed from the formation.
-===npc===
+---npc---
 「キャラLv限界突破」によりプレイヤーLvを超えてキャラLvを強化\nできます。ステータスアップやスキルLvの強化上限が解放されるので\n各キャラ{{B}}と{{A}}を集め、限界突破を目指しましょう。=You can raise the character Lv beyond the player Lv by "Character Lv Limit Break". Since the upper limit of stat up and skill Lv cap also increased, collect Memory Shards and Manas to Limit Break her.
 
-===6star===
+---6star---
 合計ボーナス=Total bonus
 まとめてセット=Combine All
 才能開花確認=Ascension Confirmation
@@ -189,14 +189,14 @@ EXスキルスロット=EX skill slot
 すでにセットしています。=It's already placed
 必要なメモリーピースの上限に達しています。=Required the number of Memory Shards reached.
 
-===Recommended Enhancement
+---Recommended Enhancement
 おすすめ強化メニュー=Recommended Enhancements
 装備強化=Refine
 装備強化でステータスアップ！=Refine items to boost their stats!
 消費Pt=PT Cost
 装備を手に入れてランクアップしよう！=Get the equipment to raise rank!
 おすすめクエスト=Quest
-====
+---=
 強化ボーナス=Stat Bonus
 プリンセスオーブ詳細=Princess Orb details
 強化段階=Stage
@@ -214,7 +214,7 @@ UB予約を有効にする=Enable UB reservation
 [3C404E]リタイアすると報酬は獲得できませんが、\nクリアするまで何度でも再挑戦できます。[-]=[3C404E]If you retire, you won't get any rewards,\nYou can try again until you clear it.[-]
 r:"^(\d+)文字以上(\d+)文字以下で入力してください。$"=Please enter between $1-$2 character.
 強化上限に達しています。上限解放を行ってください。="You have reached the enhancement limit.\nYou can enhance by select "Uncap"."
-===rank up===
+---rank up---
 ランクアップ確認=Rank Up Character
 以下のアイテムを装備してランクアップします。\nよろしいですか？=Equip the following items?
 キャラLvとスキルLvはこれ以上強化できません。=Cannot be enhanced any further.
@@ -230,7 +230,7 @@ RANKボーナス詳細のステータス=Status Details
 消費する装備、マナはありません。=There is no equipment or mana to consume.
 消費する装備やマナがない場合は、\nこのダイアログを表示しない。=If you have nothing to spend,\nthis dialog will not appear.
 
-===UE===
+---UE---
 装備/強化確認=Equip Character
 専用装備を装備/強化します。よろしいですか？=Equip Unique Equipment?
 作成に必要なマナ=Mana Cost
@@ -285,7 +285,7 @@ RANKボーナス詳細のステータス=Status Details
 （キャラ）=(Character)
 
 専用装備をまだ装備していません。\n作成するにはRANK7にする必要があります。\n\nランクアップしますか？=You can't equip Unique Equipment yet\nMust be RANK7 or higher to create Unique Equipment.\n\nWould you like to rank up?
-====NPC
+---=NPC
 「キャラLv限界突破」によりプレイヤーLvを超えてキャラLvを強化できます。ステータスアップやスキルLvの強化上限が解放されるので各キャラのメモリーピースとマナを集め、限界突破を目指しましょう。=You can leveling the chara Lv beyond the PLv by "Chara Lv limit breakthrough". The status and skill Lv will be Uncaped,so collect memory shards and mana for each character and aim to limit break them.
 
 プレイヤーLvが、キャラクターLvの上限になります。\nメインクエストやミッション達成で、プレイヤーEXPをGETし\nLvアップを目指しましょう。=Character levels can only go as high as your player level.\nComplete Main Quests and missions to earn player EXP and raise your level.

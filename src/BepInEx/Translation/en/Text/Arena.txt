@@ -1,4 +1,4 @@
-===Arena===
+---Arena---
 リンセスアリーナ=rincess Arena
 トルアリーナ=attle Arena
 バ=B
@@ -89,7 +89,7 @@ r:"^\[3B3F4D\]ランキングが\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]位�
 [3C404E]現在対戦中です。\nしばらくお待ちください。[-]=[3C404E]Currently in a match.\nPlease wait for a moment.[-]
 [3C404E]現在他のプレイヤーと対戦中です。\nしばらくしてから再度挑戦するか、別の対戦相手を\n探してください。[-]=[3C404E]Currently in a match against another player.\nTry again after a while or find another opponent.[-]
 対戦確認=Battle Confirmation
-===Reward Info===
+---Reward Info---
 sr:"^(\[[0-9A-F,]{6,13}\])最高ランク：(\d+位)\[-\]$"=$1Best rank: $2[-]
 最高ランク=Best Rank
 毎日15:00のランキングにより獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards based on Your ranking each day at 15:00.\n※Reward will sent to a Present Box.
@@ -110,7 +110,7 @@ r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回の防衛に成功！報酬はプレ
 
 sr:"^対戦相手のランキングが(\d+位)に変更されました。\n勝利してもランキングは変わりません。\n対戦しますか？$"=The opponent's ranking has been changed to $1 place. The ranking does not change even if you win.\nDo you want to play?
 
-===NPC Help===
+---NPC Help---
 対戦相手に勝利すると、対戦相手と順位が入れ替わります。\n対戦相手は、自分と同等の強さか、格上の相手が登場します。\nランキングを上げてアリーナコインやジュエルを獲得しましょう。=Defeat an opponent and you will take their place in the rankings. You will face opponents of similar or higher rank than your own. Work your way up the ranking, and win Arena Coins and Jewels!
 
 最大15キャラ対15キャラのバトルです。\nバトルを勝ち抜いて、ランキングの頂点を目指しましょう。\n上位ランクインするほど、Pアリーナコインが多く手に入ります。=Princess Arena Battles are fought between teams of up to 15 characters each. Keep winning battles to climb to the top of the rankings. At higher 

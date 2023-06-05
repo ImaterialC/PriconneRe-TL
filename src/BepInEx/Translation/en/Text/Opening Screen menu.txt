@@ -1,4 +1,4 @@
-===Menu===
+---Menu---
 キャンセル=Cancel
 一括ダウンロード=Download All
 お問い合わせ=Contact Us
@@ -10,7 +10,7 @@
 ＳＤカード保存設定=SDCard Storage Setting
 
 
-===Data Link===
+---Data Link---
 既にプリンセスコネクト！Re:Diveをプレイしている場合は「データ連携」を選択してください。\n以前のゲームデータと連携してプレイすることが出来ます。=Please select "Data Link" if you are already playing Princess! Re: Dive.\nThis will allow you to link your existing game data.
 連携方法を選択してください。=Please select a linkage method.
 連携方法を選ぶ=Select Link Method
@@ -21,9 +21,9 @@
 プレイヤーID=Player ID
 連携パスワード=Link Password
 
-===Data Repair===
+---Data Repair---
 [3C404E]データ修復を行うと動作が軽くなることがあります。\nプレイ中のゲームデータは削除されません。\n\nデータ修復を行う際\nタイトルに戻り、再度データをダウンロードします。\nタイトルに戻るまでに時間がかかる場合がございます。\nアプリを強制終了させないように、ご注意ください。\nまた、通信状況により、データダウンロードに\n時間がかかる場合があります。\n\nデータ修復を行いますか？[-]=[3C404E]Data repair may make the operation lighter.\nThe game data being played will not be deleted.\nWhen repairing data, Game will return to title and download data again.\nPlease be careful not to kill the app.\nIt may take some time to return to the title.\nIn addition, it may take some time to download the data depending on connection status.\n\nDo you want to repair the data?[-]
-===inquiry form===
+---inquiry form---
 お問い合わせフォームを開きます。よろしいですか？=Open the inquiry form. Is this OK?
 問い合わせる=Inquire
 アプリバージョン=App version
@@ -31,7 +31,7 @@
 フォームに引き継ぐ項目=Items to take over to the form
 ※チェックされた情報は、アプリからお問い合わせフォームに\n引き継がれ、お客様のご利用状況を確認するために使用します。\n情報がない場合、確認や調査ができないことがございます。=※The checked information will be carried over from the app to the inquiry form and used to check the usage status of the customer.\nIf there is no information, we may not be able to confirm or investigate.
 ご利用機種の\nOSバージョン=Your Device\nOS version
-===Download All===
+---Download All---
 r:"^\[3C404E\]すべてのデータのダウンロードを行います。\n通信環境の良いところでの\nダウンロードを推奨いたします。\nダウンロードを開始してよろしいですか？\n\(([0-9.]+) ([MG])B\)\[-\]$"=[3C404E]Download all data.\nWe recommend downloading in a good connection.\nAre you sure you want to start the download?\n($1 $2B)[-]
 
 [3C404E]ダウンロードが完了しました。\n再起動します。[-]=[3C404E]Download is completed.\nRestart.[-]

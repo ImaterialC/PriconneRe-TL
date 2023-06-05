@@ -1,4 +1,4 @@
-===Quest===
+---Quest---
 このクエストは今後解放される予定です。=This quest will be released in the future
 エルピス島へ=To Elpis Island
 アストライア大陸へ=To Astria Continent
@@ -71,5 +71,5 @@ r:"^(|61\.)カウダ(|\n　　　　　)砂浜・南部(.*)$"=$1 Kauda Beach (So
 r:"^(|62\.)プロピーナ岬(.*)$"=$1 Cape Propina $2
 r:"^(|63\.)アパレーユ(\n　　　　　)?街道・西側(.*)$"=$1 Aparelle Highway (West) $3
 r:"^(|64\.)アパレーユ(\n　　　　　)?街道・東側(.*)$"=$1 Aparelle Highway (East) $3
-===*6 Quest
+---*6 Quest
 sr:"^([べ-ヺー＆]+)(（.+）)?の解放クエスト$"=$1$2 Ascension Quest

@@ -1,43 +1,43 @@
 ヤネ=yane
 ぷうきちといつも一緒！=Together forever with Pukichi!
 偉大なクマ王ぷうきち=Great Bear King Pukichi
-===Bio
+---Bio
 【物理】前衛で、戦場をかき乱す、くまっ子。ユニオンバーストで、相手を思い切り吹き飛ばすと同時にスタンと大ダメージを与えることで敵陣形を大きく乱す。=[Physical] The Ayane/Pukichi duo stuns and smashes enemies from the vanguard. Her Union Burst deals massive damage while sending enemies flying.
 
-===Profile
+---Profile
 屋内でできる遊び=Indoor Activities
 
-===Skills
+---Skills
 ぷうきちサイクロンアーチ=Pukichi Cyclone Arch 
 ぷうきちフルスイング=Pukichi Full Swing
 プリティスラッガー=Pretty Slugger
 プリティスラッガー+=Pretty Slugger+
 
-===UB (6 star)
+---UB (6 star)
 前方範囲内の敵すべてに物理特大ダメージを与え、さらに大きく吹き飛ばしてスタンさせる。=Deals Massive P.DMG to all the enemies within the front range, inflicts Stun, and knocks it back a large distance.
 
-===UB 
+---UB 
 目の前の敵１キャラに物理大ダメージを与え、さらに大きく吹き飛ばしてスタンさせる。=Deals large P.DMG to an enemy directly in front, inflicts Stun, and knocks it back a large distance.
 
-===Skill 1 (UE)
+---Skill 1 (UE)
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n目の前の敵に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる$"=Deals $1 P.DMG to enemies within 325 range. \nRenders enemies within 325 range immobile for 2.5s.\nDeals $2 P.DMG within 325 range.\nReduces an enemy’s action speed to 80% for 10.5s.
 
 前方範囲内の敵すべてに物理中ダメージを与え、スタンさせる。さらに、目の前の敵１キャラに物理大ダメージを与え、行動速度を小ダウンさせる。=Deals moderate P.DMG and inflicts Stun to all enemies in range and reduces an enemy’s action speed by a small amount.
 
-===Skill 1 
+---Skill 1 
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする$"=►Deals $1 P.DMG to enemies within range. \n►Renders enemies within range immobile.
 same with Shizuru Noir
 前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG and inflicts Stun to all enemies in range 
 
-===Skill 2
+---Skill 2
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン$"=Deals $1 P.DMG to enemies in range.\nLowers P.DEF of all enemies in range by $2.
 自分を中心とした範囲内の敵すべてに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals small P.DMG to enemies in range and lowers their P.DEF by a small amount.
 
-===EX
+---EX
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ$"=Boosts own P.ATK by $1.\nBoosts own M.DEF by $2.
 バトル開始時に自分の物理攻撃力を中アップさせ、さらに自分の魔法防御力を小アップさせる。=Moderate boost to own physical attack at start of battle.\nSmall boost to own M.DEF at start of battle.
 
-===Story
+---Story
 
 アヤネとぷうきち=Ayane and Pukichi
 家族のためなら怖くない=I'm Not Scared If It’s For Family

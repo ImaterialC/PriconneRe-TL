@@ -23,12 +23,12 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 スタミナ回復=Recharge Stamina
 スタミナを回復します。よろしいですか？=Heal Stamina?
 
-===Storage===
+---Storage---
 収納数：=Storage:
 [3C404E]収納BOXの収納数を拡張しました。[-]=[3C404E]The capacity of the Storage was expanded.[-]
 収納BOX拡張結果=Expand Storage Results
 
-===actual jewel shop===
+---actual jewel shop---
 [FF7C4E,D62146]未購入の商品はありません。[-]=[FF7C4E,D62146]There is no available to purchase.[-]
 スペシャルショップ=Special Shop
 購入済み=Purchased
@@ -65,7 +65,7 @@ sr:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\
 r:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\](\d+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](\d+)日間スタミナ応援パック\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]For period time\nThe number of Grotto attempts +$1.\nWould you like to purchase the $2-Day Stamina Support Pack for[FFBB00,CE4F00]$2pt[-]?[-]
 
 [3C404E]探索挑戦回数+3回の期間が追加となります。\n[-][FFBB00,CE4F00]480pt[-][3C404E]で[-][FFBB00,CE4F00]7日間探索挑戦回数+3回[-][3C404E]を購入しますか？[-]
-r:"^(\[3C404E\]\[FFBB00,CE4F00\])?(\d+)日(\[-\]\[-\])?$"=$1$2 Days $3
+r:"^(\[3C404E\]\[FFBB00,CE4F00\])(\d+)日(\[-\]\[-\])$"=$1$2 Days $3
 
 残り有効期間=Duration
 
@@ -95,7 +95,7 @@ r:"^探索挑戦回数+(\d+)回の期間が\n追加されました。$"=Grotto A
 購入成功=Purchase Successful
 
 
-===Age registration
+---Age registration
 入力する=input
 年齢確認=Age Confirmation
 16歳未満=under 16yo
@@ -119,7 +119,7 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 
 あなたの生年月を登録しました。=your birth date has been Registered.
 登録完了=Completion of Registration
-===View Jewel===
+---View Jewel---
 無償ジュエル=Free Jewels
 有償ジュエル=Paid Jewels
 合計ジュエル=Total Jewels
@@ -128,7 +128,7 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 購入商品の区分・所持数=Purchased List
 有償ジュエル内訳詳細=Paid Jewel Breakdown Details
 有償ジュエルを所持していません。=You do not have Paid Jewels.
-===View Mana===
+---View Mana---
 合計マナ=Total Mana
 現在のストックマナ=Stock Mana
 無償マナ=Free Mana
@@ -136,7 +136,7 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 無償マナから先に消費され、=Free Manas will be used first.
 有償マナ内訳詳細=Paid Mana Breakdown Details
 有償マナを所持していません。=You do not have a Paid Manas.
-===NPC===
+---NPC---
 ジュエルはよく考えて\n使うことね\n無駄遣い厳禁！=Think carefully\nwhen spending Jewels.\nDon't waste them!
 マナ購入で、「マナ」と「スキップチケット」が手に入ります。\nさらにオマケで「メモリーピース」「女神の秘石」「探索挑戦回数増加」\nが手に入るかもしれませんよ。=Buying Mana will get you both Mana and skip tickets.\nYou may also receive bonuses such as Memory Shards,\nDivine Amulets and additional Grotto attempts.
 

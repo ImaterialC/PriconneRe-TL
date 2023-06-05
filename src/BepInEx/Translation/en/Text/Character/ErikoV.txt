@@ -1,20 +1,20 @@
-===Skillsエリコ（バレンタイン）
-===UB
+---Skillsエリコ（バレンタイン）
+---UB
 ラブパニッシュメント=Love Punishment
 目の前の敵１キャラに物理特大ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。=Deals massive P.DMG to an enemy directly in front. Damage boost the lower Eriko's HP.
-===S1
+---S1
 目の前の敵１キャラに物理中ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。=Deals moderate P.DMG to an enemy directly in front. Damage boost the lower Eriko's HP.
-===S2
+---S2
 自分のＨＰを消費し、物理攻撃力を中アップさせる。エリコのＨＰが低いほど、効果がアップする。=Boosts own P.ATK by a moderate amount at the cost of HP. Effect boost the lower Eriko's HP.
 r:"^自分のＨＰを(\d+)消費\n自分の物理攻撃力を(\d+)アップ$"=Reduces own HP by $1.\nBoosts own P.ATK by $2 for 12s.
-===ex
+---ex
 ディープスピリット=Deep Spirit
-===Skills+
-===UB
-===S1
+---Skills+
+---UB
+---S1
 目の前の敵１キャラに物理大ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals moderate P.DMG to an enemy directly in front. Damage boost the lower Eriko's HP.\nWhen critical occurs deals ４x damage instead ２x.
-===S2
-===ex
+---S2
+---ex
 ディープスピリット+=Deep Spirit+
-===UE
+---UE
 デストロイホイッパー=Destroy Whipper

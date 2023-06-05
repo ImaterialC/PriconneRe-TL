@@ -113,7 +113,7 @@ r:"^(.{1,10})からの\nフレンド申請を拒否しました。$"=Rejected fr
 フレンド拒否完了=Friend Rejection Completion
 
 
-===NPC===
+---NPC---
 こちらがフレンドの\n皆さんです\n素敵な関係を\n築いてくださいね！=This is your friends list, let's build a wonderful relationship!
 主さま、フレンドを作りましょう。フレンドからはクエストにてサポートキャラをレンタルすることができますよ。=Aruji-sama, the time is ripe for making friends.\nOnce you register a friend, you will be able to call on their characters for support in various quests.
 サポートキャラを設定してフレンドの方々をお助けいたしましょう。また、サポートを設定すると主さまもマナを獲得できますよ。=You can set support characters to aid your friend in battle.\nYou will also earn Mana for providing this service.

@@ -24,7 +24,7 @@
 スキル=Skills
 EXスキル=EX Skill
 r:"^(\[[0-9A-F,]{6,13}\])RANK(\d+)で解放！\[-\]$"=$1Unlock at RANK $2!
-===exit menu===
+---exit menu---
 中断=Stop
 [3C404E]リプレイを中断しますか？\nリプレイはクリアパーティ一覧から\n再度見ることができます。[-]=[3C404E]Stop Replay?\n Replays can be watched again\nfrom party list.[-]
 

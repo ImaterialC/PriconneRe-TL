@@ -95,7 +95,7 @@ r:"^回廊探索 wave(\d)$"=Corridor Exploration Wave$1
 クリアで使用できます。=Must clear it first.
 AUTO・SMARTで操作せずバトル終了した場合リプレイできます。=You can replay if the battle ends without using AUTO/SMART.
 ※「AUTO」にてバトルが行われます。\nまたスキップ時はUB即発動モードはOFFになります。\n※リプレイは最後まで操作方法を変えずにバトルを行った場合に再生できます。="※Battle will be held in "AUTO".\nAlso, when skipping, UB immediate activation mode will be OFF.\n※Replays can be replayed when the battle is played without changing the operation method until the end."
-===Story card===
+---Story card---
 閲覧したい章を選択してください。=Please select the chapter you would like\nto view.
 ルナの塔ストーリー一覧=Luna's Tower Story List
 レディの理想と大人の真実=Lady's Ideals And Adult Truth
@@ -117,7 +117,7 @@ AUTO・SMARTで操作せずバトル終了した場合リプレイできます�
 すれちがいディスタンス=Passing Distance
 湧き上がる勇気が=The Courage that springs
 トリプルヒーロー参上！=Triple Hero Going!
-===NPC
+---NPC
 選択した使用したいパーティ内のキャラの★数が現在設定している★数と\n異なります。★選択した使用したいパーティの★に変更できます。\n★の数は★5～★3の間で変更できますよ。=The ★ number of the selected characters in the party you want to use is different from the currently set ★ number. ★ You can change to the ★ of the party you want to use. The number of ★ can be changed between ★ 5 and ★ 3.
 塔は育てたキャラ全員を編成することが可能で、何回でも挑戦できます。\n1日に1回、HPを全回復できる「キャラ全回復」ボタンが使えます。=The Tower can be attempted as many times as you want using parties that consist of any of characters you have. You can also use "Full Heal" once per day to fully restore your team's HP.
 塔に出現するシャドウは、バトル開始時にTPが溜まっています。\n加えて、バトルの制限時間を過ぎると全滅してしまいます。\n残り時間にもお気を付けくださいませ。=The shadow in the Tower start battle with their TP full. What's more your party will be wiped out if battle goes over the time limit. Please pay attention to the remaining time.

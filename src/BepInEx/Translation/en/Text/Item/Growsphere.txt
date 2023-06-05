@@ -67,11 +67,11 @@ r:"^\[3C404E\]無料で強化できるのは\[-\]\[FF7C4E,D62146\]Lv(\d+)\[-\]\[
 無料強化完了=Free Enhancement Completed
 一括強化完了=Completion of Batch Enhancement
 ・ランクアップ\n・レベルアップ\n・装備装着\n・装備強化=・Rank-up\n・Level up\n・Equipped an equipment\n・Equipment enhancement
-===npc===
+---npc---
 マナや装備が足りない場合でも、グロウスフィアを使用すれば\nお仲間を一気に強化ができるようです。\nグロウスフィアを手に入れたらすぐに使ってみましょう。=Even if you don't have enough mana or equipment, you can use Growsphere to strengthen your friends at once. Use it as soon as you get the Growsphere.
 
 主さま、今手に入れたのがグロウスフィアになります。\nマナや装備を使わずに一気に強化できるアイテムですので\nさっそく使ってみましょう。=Lord, We got Growsphere now. It is an item that can be strengthened at once without using mana or equipment, so let's use it immediately.
-===Help
+---Help
 キャラ専用のグロウスフィアは、指定のキャラ以外で使用することはできません。\n※グロウスフィアは、メインクエスト 2-3(NORMAL)をクリアした後に使用できます。\n\n現在のキャラのステータスが、グロウスフィアの全ての無料強化値を上回る場合、グロウスフィアは使用できません。\nグロウスフィアでは、プレイヤーLvを上回る強化はできません。\n\nグロウスフィアの所持上限はそれぞれ「999」です。\n所持上限を超えて獲得したグロウスフィアは、プレゼントボックスに送られます。=The character-specific Growsphere can only be used by designated characters.\n※Growsphere can be used after clearing Main Quest 2-3 (NORMAL).\nIf the current character's stats exceed all of the Growsphere's free enhancements, the Growsphere cannot be used.\nGrowsphere cannot be enhanced beyond Player Lv.\n\nThe maximum possession limit for Growsphere is "999".\n\nGrowspheres earned in excess of the possession limit will be sent to the present box.
 
 グロウスフィアを使用後に、キャラを無料強化した場合も、デイリーミッションの加算対象です。\n例：グロウスフィアを使用したキャラのスキルを無料強化した場合、デイリーミッションの「キャラのスキルを1回強化しよう」が達成されます。=Even if you strengthen your character for free after using Growsphere, you will be eligible for daily missions.\nExample: If you enhance the skill of a character using Growsphere for free, the daily mission "Let's enhance the skill of the character once" will be completed.

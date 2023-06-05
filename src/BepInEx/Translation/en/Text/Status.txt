@@ -1,4 +1,4 @@
-===Character List===
+---Character List---
 戦力=Power 
 物攻=P.ATK 
 魔攻=M.ATK
@@ -9,7 +9,7 @@ r:"^\[3C404E\]物攻 (\d+)\[-\]$"="[3C404E]P.ATK $1[-]"
 r:"^\[3C404E\]魔攻 (\d+)\[-\]$"="[3C404E]M.ATK $1[-]"
 r:"^\[3C404E\]物防 (\d+)\[-\]$"="[3C404E]P.DEF $1[-]"
 r:"^\[3C404E\]魔防 (\d+)\[-\]$"="[3C404E]M.DEF $1[-]"
-===Stat===
+---Stat---
 HP吸収=HP Drain
 HP自動回復=HP Regen
 TP上昇=TP Boost
@@ -33,7 +33,7 @@ TP消費軽減=TP Retain
 バージョンエラー=Version Error
 特殊スキル=Special Skill
 通常時=Normal Skill
-===Status Popup===
+---Status Popup---
 
 スキル切り替え！=Skills Change!
 
@@ -94,14 +94,14 @@ r:"^呪いの1秒当たりのダメージ量\+(\d+)$"="Curse Damage per Second +
 r:"^毒の1秒当たりのダメージ量\+(\d+)$"="Poison Damage per Second +$1"
 r:"^猛毒の1秒当たりのダメージ量\+(\d+)$"="Venom Damage per Second +$1"
 r:"^確定成功Ｌｖ\+(\d+)$"="Inflict Success Lv +$1"
-===
+---
 r:"^装備必要キャラLv：(\d+)$"="LV Requirement: $1"
 r:"^上限解放必要キャラLv:(\d+)$"="Character Lv required to unlock the Level Cap: $1"
 上限解放に必要なキャラLvを満たしていません。=Insufficient character Lv to unlock the cap.
 r:"^\[FF7C4E,D62146\]装備必要キャラLv：(\d+)\[-\]$"="[FF7C4E,D62146]LV Requirement: $1[-]"
 r:"^強化Lv上限  (\d+)$"="Max Lv $1"
 r:"^上限Lv(\d+)$"="Lv. $1"
-===Status UP Equip===
+---Status UP Equip---
 r:"^HP吸収＋(\d+)$"="HP Drain +$1"
 r:"^HP自動回復＋(\d+)$"="HP Regen +$1"
 r:"^回復量上昇＋(\d+)$"="Heal Bonus +$1"
@@ -120,7 +120,7 @@ r:"^魔法クリティカル＋(\d+)$"="Magic Critical +$1"
 r:"^命中＋(\d+)$"="Accuracy +$1"
 r:"^回避＋(\d+)$"="Dodge +$1"
 r:"^戦力＋(\d+)$"="Combat Power +$1"
-===Rank Bonus===
+---Rank Bonus---
 r:"^RANK(\d+)が登場した場合、RANK(\d+)では\nRANKボーナスが獲得されていない状態になります。$"=When RANK $1 appears, RANK $2\nwill not be able to get the RANK bonus.
 
 r:"^(\[[0-9A-F,]+\])RANK(\d+)\[-\]\[3C404E\]まで強化したため\n以下のステータスボーナスを獲得しています。\[-\]$"=[3C404E]The following status bonuses are obtained for strengthening to $1RANK $2[-].[-]

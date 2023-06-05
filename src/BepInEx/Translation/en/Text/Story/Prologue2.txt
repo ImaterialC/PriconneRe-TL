@@ -1,4 +1,4 @@
-===A:Pecorine B:Kokkoro C:Yui
+---A:Pecorine B:Kokkoro C:Yui
 序章 後編=Prologue: Part 2
 あなたは自らを「{{B}}」と名乗る『ガイド役』の元で目を\n覚ます。突如現れた腹ペコ少女「{{A}}」、回復魔法が得\n意な「{{C}}」と共に、行き倒れていた少女を守るため魔物と戦\nうことになる。=You are awoken by Kokkoro, "your mom guide". Together with "big boob genki girl" Pecorine and a "kind but gomen" Yui, you fighting a monsters that are attacking collapsed girl in the woods.
 
@@ -14,7 +14,7 @@
 {{A}}主さま。={{A}} Lord.
 {{A}}お聞かせ願えますか？={{A}} Can you tell us?
 
-===Battle tutorial
+---Battle tutorial
 {{A}}わたくし達が「キャラ」として戦います。={{A}} We fight as "characters".
 {{A}}各バトルは自動的に進行いたしますので、={{A}} Each battle will proceed automatically, so
 {{A}}お任せくださいませ。=Please leave {{A}}.

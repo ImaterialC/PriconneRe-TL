@@ -1,4 +1,4 @@
-===medal gacha settings===
+---medal gacha settings---
 回=×
 スキップする=Skip
 スキップしない=Don't Skip
@@ -19,4 +19,4 @@
 まとめて交換時の確認ダイアログ表示=Display dialog after draw
 
 50回以上交換の場合スキップ設定をOFFにしていても演出は再生されません。=The cutscene will not play after 50 tries even if Skip is set to OFF.
-===Item line up list===
+---Item line up list---

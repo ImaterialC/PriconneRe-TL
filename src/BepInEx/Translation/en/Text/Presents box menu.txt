@@ -19,12 +19,12 @@
 
 プレゼントに送られたアイテムがあります。=There are items sent to the present.
 ガチャ更新によりキャラ交換Ptを変換したアイテムです。=It is an item that converted character replacement PT by gacha update.
-===Item List Receive===A->Item,B->Number
+---Item List Receive---A->Item,B->Number
 
-===Item Receive===
+---Item Receive---
 sr:"^\[3C404E\]([\s\S]+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]$"=[3C404E]$1 × [-][FFBB00,CE4F00]$2[-]
 sr:"^(\D+)×(\d+)$"=$1 × $2
-===sort===
+---sort---
 フィルタ=Filter
 期限あり=Limited Time
 期限なし=No Limit
@@ -33,7 +33,7 @@ sr:"^(\D+)×(\d+)$"=$1 × $2
 コイン=Coins
 その他=Other
 
-===items===
+---items---
 受け取り期限=Deadline
 獲得日時=Earned
 受け取り日時=Date and time
@@ -50,7 +50,7 @@ sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan
 期限を過ぎていたため、一部のプレゼントは受け取れませんでした。=Some gifts were not received because the deadline had passed.
 所持上限を超えて獲得したスタミナです。=It is a stamina acquired beyond the upper limit.
 スタミナ受取対象外にチェックしているため受け取れません。=You cannot receive it, you exclude it. check your check Box.
-===Login Bonus===
+---Login Bonus---
 
 クリスマス=Christmas
 謹賀新年 お正月=Happy New Year
@@ -69,7 +69,7 @@ sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。
 メンテナンスにご協力いただいたお礼です。=Thank you for your cooperation in maintenance.
 運営からのプレゼントです。=Gift from the management.
 
-===Premium===
+---Premium---
 sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\]$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-][3C404E] day(s) remaining.[-]
 
 [3C404E]7日間スタミナ応援パック4日目のアイテムセット[-] [3C404E]あと[-][FFBB00,CE4F00]4[-][3C404E]日有効[-]=[3C404E] Seven days of stamina support pack, item set for the fourth day [--], [-] [FFBB00, SE4F004E], and valid [- -]

@@ -1,4 +1,4 @@
-===Buy Mana===
+---Buy Mana---
 5:00にリセット=Reset at 5:00
 購入回数=# of purchases
 r:"^無償(\d+)で$"=Use Free $1

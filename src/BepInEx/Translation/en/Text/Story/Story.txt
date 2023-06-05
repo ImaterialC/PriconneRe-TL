@@ -50,7 +50,7 @@ r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Stor
 個別にストーリーを閲覧することもできます。=You can also browse individual stories.
 メインシナリオ第2部 第16章 幕間までのストーリーを\nスキップして閲覧済みにしますか？\n\nスキップした場合、以下の報酬を獲得できます。=Do you want to skip the story up to the main scenario part 2 chapter 16 interlude and mark it as read?\n\nIf you skip it, you will get the following rewards.
 
-===Story Menu==
+---Story Menu==
 
 メイン=Main
 アストライア大陸を\n舞台にした物語を\n見ることができます=View stories set on the Continent of Astraea.
@@ -71,25 +71,25 @@ r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Stor
 閲覧するストーリーを選択してください。=Select the story to view.
 リーナ=rena
 ルドハウス=uild House
-===Bond Rank Story==
+---Bond Rank Story==
 
-===anni===
+---anni---
 ストーリーへ=Go to Story
 ストーリー紹介=Story Introduction
 ストーリー一覧=Story List
-===NPC===
+---NPC---
 解放したコンテンツにまつわるストーリーを見られます。\n冒険の途中で出会った、ちょっと特別な物語を振り返ってみましょう。=Watch stories about content you have unlocked\n and gain slightly different perspective of events from your adventures.
 各ギルドのストーリーを見られます。\nギルドストーリーは、ギルドに所属するキャラを１人以上仲間にし、\nギルドメンバーの絆ランク合計を、一定以上にすると解放されます。=Experience the stories of each guild.\nNew episodes unlock as you recruit characters belonging to that guild and reach a certain bond level total with its members.
 各キャラの専用ストーリーを見られます。絆ランクアップで、新しいストーリーが解放されます。ストーリーの中には、見ることでステータスアップするものもあります。=Watch stories unique to each character.\nNew episodes will be unlocked as bond level rises.\nViewing some episodes will give stat boost bonuses.
 メインクエストの名場面を、振り返ることができます。それぞれのストーリー初回閲覧で、ジュエルがもらえます。=View various scenes from the Main Quest.\nJewels will be awarded the first time you view each episode.
 キャラ専用装備はみなさまの秘められた力を解放して、さらにスキルもパワーアップするようです。主さま、さっそく必要なアイテムを探しに行きましょう。=Unique Equipment unlocks each of our hidden potentials, making our skills even more powerful.\nLet us go search for necessary items at once, Aruji-sama.
-===Character===
+---Character---
 ま～わ=Ma-Wa
 た～は=Ta-Ha
 あ～さ=A-Sa
 主を慕う、小さなガイド役=A little guide who takes care of her lord
 
-===Bond Stuff===
+---Bond Stuff---
 絆ランク=Bond
 r:"^第(\d+)話$"=Episode $1
 キャラストーリー=Character Story
@@ -98,7 +98,7 @@ r:"^第(\d+)話$"=Episode $1
 ステータスアップ対象キャラクター=Target Characters
 該当キャラのストーリー初回閲覧で、\nステータスアップボーナスを獲得できます。=Get stat boost bonuses for characters\nby viewing their story for the first time.
 r:"^第(\d+)話ステータスアップボーナス$"=Episode $1 Stats boost Bonus
-===Chara story===
+---Chara story---
 
 sr:"^([^ ]+)( |　)第(\d+)話$"=$1 Episode $3
 連続で閲覧できるストーリーがあります。=There is next story that can be viewed.

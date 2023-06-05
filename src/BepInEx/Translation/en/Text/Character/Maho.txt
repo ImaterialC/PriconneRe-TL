@@ -1,31 +1,31 @@
-===Profileマホ
+---Profileマホ
 ホ=Ho 
 空想、ぬいぐるみ集め=Fancy, collecting stuffed animals
 マホマホ王国のプリンセス=The Princess of the Maho-Maho Kingdom
-===Skills
-===UB
+---Skills
+---UB
 メルヘンガーデン=Märchen Garden
 味方全体の魔法攻撃力を小アップ、物理防御力を小アップさせ、さらにＴＰを小回復する。=Small boost to M.ATK and P.DEF of all allies and recovers their TP by a small amount.
 r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体のＴＰを(\d+)回復$"=Boosts allies' M.ATK by $1 for 18s.\nBoosts allies' P.DEF by $2 for 18s.\nRecovers allies' TP by $3.
-===S1
+---S1
 ＨＰが１番低い味方１キャラのＨＰを中回復する。=Recovers the HP of the party member with the lowest HP by a moderate amount.
-===S2
+---S2
 前から２番目の敵１キャラを暗闇状態にする。=Inflicts Blind to an enemy in the 2nd position.
 r:"^敵単体を暗闇状態にする$"=Inflicts Blind.
-===ex
+---ex
 メルヘンチャージ=Fanciful Furor
-===Skills+
-===UB
+---Skills+
+---UB
 メルヘンキングダム=Märchen Kingdom
 味方全体の魔法攻撃力を特大アップ、物理防御力を中アップさせ、さらにＴＰを中回復し、継続ＴＰ回復状態を付与する。=Massive boost to M.ATK and P.DEF of all allies, recovers their TP by a moderate amount, and grant a continuous TP recovery state.
 r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体のＴＰを(\d+)回復\n毎秒ＴＰを(\d+)回復する$"=Boosts allies' M.ATK by $1 for 18s.\nBoosts allies' P.DEF by $2 for 18s.\nRecovers allies' TP by $3.\nRecovers TP by $4/s for 10s.
-===S1
+---S1
 最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount.Furthermore, the physical defense power is increased by a moderate amount, and a HP regen state is given.
 r:"^味方単体のＨＰを(\d+)回復\n味方単体の物理防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する$"=Recovers an ally's HP by $1.\nBoosts an ally's P.DEF by $2.\nRecovers HP by $3 every second.
-===S2
-===ex
+---S2
+---ex
 メルヘンチャージ+=Fanciful Furor+
 バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法攻撃力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.ATK at start of battle.
 r:"^自分の物理防御力を(\d+)アップ\n自分の魔法攻撃力を(\d+)アップ$"=Boosts own P.DEF by $1.\nBoosts own M.ATK by $2.
-===UE
+---UE
 ピュアメルヘンワンド=Pure Märchen Wand

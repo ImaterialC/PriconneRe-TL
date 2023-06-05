@@ -1,4 +1,4 @@
-===Guildhouse===
+---Guildhouse---
 データの取得に失敗しました。\nタイトルへ戻ります。=Data acquisition failed.\nReturn to the title.
 
 Lv上限：=Max Lv:
@@ -53,7 +53,7 @@ Like情報=Like Info
 受け取っていないアイテムはありません。=No items you can collect at the moment.
 
 Likeする=Like!
-===gifting===
+---gifting---
 絆ランクアップに必要なギフトアイテムが足りません。=There is not enough gift items needed for the rankup.
 これ以上絆ランクを上げられません。=You can't raise the bond rank anymore.
 贈ったギフトアイテムは消費されます。=The gift item you give will be consumed.
@@ -73,7 +73,7 @@ Likeする=Like!
 
 r:"^絆ランク (\d+)$"=Bond\nRank $1
 
-===Games===
+---Games---
 購入価格=Price
 み=E
 んなのゲームテーブル=veryone's Game Table
@@ -87,11 +87,11 @@ r:"^絆ランク (\d+)$"=Bond\nRank $1
 エピソード=Episode
 エピソードリスト=List of Episodes
 
-===Random menu===
+---Random menu---
 ランダムお出かけ確認=Visit Random Guildhouse?
 [3C404E]他のプレイヤーのギルドハウスに\nランダムで訪問します。\nよろしいですか？[-]=[3C404E]Would you like to randomly visit the Guildhouse of another Player? [-]
 
-===Like Info===
+---Like Info---
 今日Likeした数=Today's Likes by You
 今日Likeされた数=Today's Likes
 Likeされた総数=Total Likes
@@ -100,7 +100,7 @@ Likeした人=Liked by You
 クランメンバー=Clan Members
 最近のLike情報はありません。=There is no recent LIKE information.
 
-===Furniture shop===
+---Furniture shop---
 sr:"^(\d+)年(\d+月)(\d+)日 ([0-9:]+)まで$"=Until $2 $3, $1 $4(JST)
 該当する家具はありません。=There is no applicable furniture.
 テーマ=Theme
@@ -129,7 +129,7 @@ sr:"^(\d+)年(\d+月)(\d+)日 ([0-9:]+)まで$"=Until $2 $3, $1 $4(JST)
 以下の家具を購入しました。=You bought the following furniture.
 
 
-===my sets===
+---my sets---
 反転=Turn
 クリア=Clear
 名前変更=Change Name
@@ -148,7 +148,7 @@ r:"^\[3C404E\]現在の配置をマイセット(\d+)に保存しました。\[-\
 sr:"^\[3C404E\]\[D13250\](.+)\[-\]\[3C404E\]を\n収納します。よろしいですか？\[-\]\[-\]$"=[3C404E]Put [D13250]$1[-]\nin storage. Is this OK?[-]
 [FF7C4E,D62146]設定よりダウンロードした動画の端末保存選択ができます。[-]=[FF7C4E,D62146]You can select to save the downloaded\nvideo to the device from the settings.[-]
 [FF7C4E,D62146]未保存のミニゲームプレイ動画をダウンロードします。[-]=[FF7C4E,D62146]Download unsaved mini gameplay videos.[-]
-===Like a Room===
+---Like a Room---
 ルピが得られるのは１日あたり10件です。=You can get Rupies 10 times per day.
 ルピが上限に達している場合、報酬は受け取れません。=Reward can't be received if Rupies reach the Limit.
 獲得ルピ=Earn Rupies
@@ -164,7 +164,7 @@ Like日時=Date
 クランメンバーがいません。=No clan members.
 このプレイヤーにはすでにLike済みです。=You have already liked this Player.
 
-===upgrade notification===
+---upgrade notification---
 r:"^プレイヤーLv(\d+)以上 / (\d+)ルピ$"=P. Lv$1 or more & $2 Rupies
 
 ルピ=Rupies
@@ -183,7 +183,7 @@ r:"^(\d+)秒$"=$1s
 Lvアップ中止確認=LV-up Cancellation Confirmation
 返還ルピ=Refund Rupies
 [FF7C4E,D62146]Lvアップに消費したルピは半額戻ります。[-]=[FF7C4E,D62146]Rupi consumed for Lv Up will be returned by half.[-]
-===upgrade done===
+---upgrade done---
 r:"^\[3C404E\]Lv(\d+)→\[-\]\[FFBB00,CE4F00\]Lv(\d+)\[-\]$"=[3C404E]Lv$1→[-][FFBB00,CE4F00]Lv$2[-]
 
 sr:"^(\d+時間)?(\d+分)?で(.+)×(\d+)生産、(\d+)まで保管可能\(あと(\d+時間)?(\d+分)?(\d+秒)?\)$"=Produce $3 × $4 every $1$2. Can store up to $5.($6$7$8 left)
@@ -191,7 +191,7 @@ sr:"^(\d+時間)?(\d+分)?で(.+)×(\d+)生産、(\d+)まで保管可能$"=$3 ×
 r:"^(\d+)秒$"=$1s
 r:"^(\d+)分$"=$1m
 r:"^(\d+)時間$"=$1h
-===NPC===
+---NPC---
 ギルドハウスの\n使い心地は\nどうですか？=How is the\nguild house\ncomfortable isn't it?
 ご用があれば\nなんでも言って\nくださいね～♪=Please tell me\nif you need\nsomething~♪
 ふぁ～…あっ\n見られちゃい\nましたか？=Ah...\nCould be\nyou see it?

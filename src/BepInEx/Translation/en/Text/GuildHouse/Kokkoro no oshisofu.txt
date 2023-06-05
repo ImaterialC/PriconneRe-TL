@@ -13,6 +13,6 @@
 r:"^\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]マナを引き出しました。\[-\]$"=[3C404E]Withdraw [FFBB00,CE4F00]$1[-] Manas.[-]
 引き出せるマナがありません。=There is no mana that can be withdraw.
 マナ所持上限をこえました=Exceeded the Mana Possession Limit
-===setting
+---setting
 マナ所持上限時の「コッコロのおさいふ」ダイアログ表示=Kokkoro's Wallet prompt when max Mana has reached
 所持上限を超えた獲得マナが、「コッコロのおさいふ」に送られたことの確認ダイアログを表示するか設定します。=Set whether or not to display a dialog box to confirm\nwhen acquired mana that exceeds the limit has been sent to Kokkoro's Wallet.

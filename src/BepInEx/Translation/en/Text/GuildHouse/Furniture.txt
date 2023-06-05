@@ -17,7 +17,7 @@ sr:"^\[3C404E\]\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[F
 
 ギルドハウスに設置すると、一定時間ごとにスタミナやアイテムを生産する家具です。=When installed in the guild house, this furniture produces stamina and items at regular intervals.
 キャラがアクションをとる家具です。一部のキャラは非対象の場合があります。=This is furniture that allows characters to perform actions. Some characters may not be able to use it.
-===furniture effect===
+---furniture effect---
 マナ生成機=Mana Creation Device
 r:"^マナ生成機Lv.(\d+)$"=Mana Creation Device Lv.$1
 自動的にマナを作ってくれる卵型の器。常に美しい緑色の光を放っている。取扱いには資格が必要だが、カリンが資格を持っているおかげで設置できている。=An egg-shaped device that automatically makes mana and emits a beautiful, green light. You need to be qualified to use it, but the device can be easily set up thanks to Karin's certification.
@@ -34,8 +34,10 @@ r:"^カリンの机Lv.(\d+)$"=Karin's Table Lv.$1
 r:"^おやつテーブルLv.(\d+)$"=Snack Table lv.$1
 誰もが一度は夢見たはずの、食べても食べても時間がたつと元に戻っているお菓子の山。おなかいっぱい食べて、幸せ＆元気いっぱいに！=An endless mountain of sweets that is something out of a dream. Eat to your heart's content and be happy!
 
+イベント限定ギルドハウス家具獲得=Event-Limited Guildhouse Furniture Acquired
+sr:"^\[3C404E\]\[3C404E\]イベント限定ギルドハウス家具\n「\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]」を\nプレゼントしました！\n\nプレゼントは直接収納BOXに贈られます。\[-\]\[-\]$"=[3C404E]Event-Limited Guildhouse Furniture [FFBB00,SE4F00]$1[-] has been given as a present!\n\nPresents will be sent directly to the storage box.[-]
 
-====Furniture===
+---=Furniture---
 教室の黒板=Classroom Blackboard
 教室の机=Classroom Desk
 教室の掃除用具=Classroom Cleaning Tool

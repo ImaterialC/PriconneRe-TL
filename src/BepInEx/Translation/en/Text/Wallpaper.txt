@@ -3,7 +3,11 @@
 設定完了=Save
 順番入れ替え=Order
 ミニゲーム=Mini Game
-r:"^カスタムマイページ(\d+)$"=Slot $1
+カスタムマイページ1=Custom Home 1
+カスタムマイページ2=Custom Home 2
+カスタムマイページ3=Custom Home 3
+カスタムマイページ4=Custom Home 4
+カスタムマイページ5=Custom Home 5
 変更=+
 はずす=-
 マイページに移動する\nたびにランダム表示する=Randomize
@@ -30,7 +34,7 @@ BGM購入ページへ移動=Move to BGM Shop
 発売順=Release Date
 曲名順=Song Title
 
-===Sort===
+---Sort---
 あ行=A,I,E
 か行=C,K,G
 さ行=D,J,S

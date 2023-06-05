@@ -24,15 +24,15 @@ r:"^残り(\d+)回$"=$1 Times Left
 ポーション=EXP Potion
 r:^"([0-9,]+)でまとめて購入する$"=Buy All with: $1
 まとめて購入する=Buy All
-===Confirm===
+---Confirm---
 sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しますか\?\[-\]$"=[3B3F4D]Use $1 × [FFBB00,CE4F00]$2[-]\nto purchase the following items?[-]
 
-===Bough List===
+---Bough List---
 sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しました。\[-\]$"=[3B3F4D]You used $1 × [FFBB00,CE4F00]$2[-]\n to buy the following items.[-]
 
 sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\](\d+)\[-\]を購入しました。\[-\]$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-]to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
 
-===sort order===
+---sort order---
 ピュアメモリー\nピースのみ=Pure memory\nshard only
 メモリーピースのみ=Memory shard only
 表示項目=Display item
@@ -43,14 +43,14 @@ sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,
 ョップ=hop
 シ=S
 
-===purchase window===
+---purchase window---
 購入完了=Purchase Complete
 ショップを閉じる=Close the shop
 購入確認=Buy Items?
 所持マナ=Mana Held:
 女神の秘石必要数確認=Exchange Divine Amulet Confirmation
 
-===bonus===
+---bonus---
 マスターショップ （開店準備中）=Master Shop (Preparing)
 マスターショップ (開店準備中)=Master Shop (Preparing)
 マスターコイン獲得で解放=Unlocked by acquiring Master Coins\n(by acquiring exp at level cap)
@@ -71,7 +71,7 @@ sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,
 今日の出現回数上限に達しました。\n回数上限は05:00にリセットされます。=The maximum number of appearances for today has been reached, and will be reset at 05:00.
 購入するアイテムを選択してください。=Please select the item to purchase.
 購入できるアイテムがありません。=There are no items that can be purchased.
-===master shop===
+---master shop---
 マスターコイン上限確認=Master Coin Limit
 マスターコインはプレイヤーLvと所持EXPが上限に達した状態でスタミナ消費した際に獲得できます。=Master Coins can be earned by consuming stamina when the player's Lv and EXP have reached the max.
 現在の獲得状況=Current status
@@ -84,9 +84,9 @@ r:"^([0-9,]+)で一部更新$"=$1: To Reset Some.
 一部ラインナップは毎日5:00更新=Some lineup Reset Daily at 5:00(JST)
 r:"^([0-9/]+) 枚$"=$1 Coin
 
-===npc
+---npc
 主さま、マスターコインをマスターショップで入手困難なアイテムと\n交換できるようです。プレイヤーLvを上限まで上げた後、スタミナを消費\nすることでマスターコインが手に入るようです。=Mainly, it seems that Master Coin can be exchanged for items that are difficult to obtain at the master shop. After raising the player Lv to the upper limit, it seems that Master Coin can be obtained by consuming Stamina.
-===Divine Amulet===
+---Divine Amulet---
 在のメモリーピース1個あたりの単価=Prices per Shards: 
 現在のメモリーピース1個あたりの単価=Prices per Shards: 
 対象アイテムのメモリーピース個あたりの単価が=Prices per Memory Shards: 
@@ -118,7 +118,7 @@ r:"^(\d)個になります。$"=$1 per Shard
 
 対象アイテム1個あたりの単価が=The unit price per target item is
 sr:"^([べ-ヺー＆]+)(（.+）)?の\nメモリーピースの購入数が(\d+)になりました。$"=The Total number of purchases of\n$1$2's Memory Shard is $3.
-====Reset
+---=Reset
 一部毎日5:00更新=Reset some Daily at 5:00(JST)
 
 sr:"^\[3B3F4D\]([べ-・ー]{2,12})を\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]個使用して\nショップの内容をリセットしますか\?\[-\]$"=[3B3F4D]Use $1 ×[FFBB00,CE4F00]$2[-]\nto reset the contents of the shop?[-]

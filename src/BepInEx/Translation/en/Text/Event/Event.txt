@@ -1,4 +1,4 @@
-===Event Banner===
+---Event Banner---
 終了まであと=Event end in:
 日=Day
 時間=h
@@ -14,7 +14,7 @@ r:"^スキップチケットとボスチケットを消費して\n(\d+)体ボス
 
 [FFBB00,CE4F00]30[-][3C404E]枚で挑戦[-]=[FFBB00,CE4F00]30[-][3C404E]Tix[-]
 [FFBB00,CE4F00]20[-][3C404E]枚で挑戦[-]=[FFBB00,CE4F00]20[-][3C404E]Tix[-]
-===Event===
+---Event---
 登録中=Registered
 ドロップ報酬=Drop reward
 ボス詳細=Boss Details
@@ -102,12 +102,12 @@ r:"^([1-9])回目の報酬をリセット$"=Reward Reset $1
 あとボスを2回1バトルで撃破することで解放されます。=Can Skip by defeating the boss twice in one battle.
 あとボスを1回1バトルで撃破することで解放されます。=Can Skip by defeating the boss once in one battle.
 魔法提督ラブリー★モニカ レッツゴー！マジカルカルテット！=Magical Admiral Lovely★Monica Let's Go! Magical Quartet!
-===Login===
+---Login---
 イベントログインボーナス獲得=Event Login Bonus Received
 r:"^(\d+)日目のログインボーナスとして以下のアイテムを獲得しました。$"=Received items as Day $1 login bonus.
 r:"^(\d+)日目のログインボーナスとして以下のアイテムを受け取りました。$"=Received items as Day $1 login bonus.
 
-===exhibition===
+---exhibition---
 バトルログがまだありません。=There is no battle log.
 エキシビションモード バトルログ=Exhibition Mode Battle Log
 バトルログは最大60件までしか保存できません。=You can only store up to 60 battle logs.
@@ -120,7 +120,7 @@ r:"^挑戦回数[\r]*\n(\d+)回$"=$1pan
 討伐日時=Time:
 
 r:"^挑戦(\d+)回目$"=Party $1
-===lineup===
+---lineup---
 
 交換=Roll
 r:"^(\d+)枚消費$"=Exchange $1
@@ -234,7 +234,7 @@ sr:"^([べ-ヺー＆]+)との信頼度$"=Intimacy with $1
 ノブとの信頼度エピソード=hinobu's Intimacy Episode
 リコとの信頼度エピソード=Eriko's Intimacy Episode
 エルとの信頼度エピソード=eru's Intimacy Episode
-ネカとの信頼度エピソード=eneka's Intimacy Episode
+ネカとの信頼度エピソード=neka's Intimacy Episode
 
 ナカとの信頼度エピソード=anaka's Intimacy Episode
 ノリとの信頼度エピソード=Inori's Intimacy Episode
@@ -267,7 +267,7 @@ sr:"^([べ-ヺー＆]+)との信頼度$"=Intimacy with $1
 ュンとの信頼度エピソード=un's Intimacy Episode
 カとの信頼度エピソード=ka's Intimacy Episode
 ンナとの信頼度エピソード=nna's Intimacy Episode
-===NPC (Karin)===
+---NPC (Karin)---
 お疲れ様です！\nここでは、討伐証と報酬を\n交換することができます！=Otsukaresama! You can exchange Victory Medals for rewards here!
 受け取ることができる\n報酬があるようです\n確認してみてください=You've got rewards\nwaiting to be collected!
 報酬がもらえますよ！\nチェックしてみてください=Don't forget to collect!\nYour mission reward!

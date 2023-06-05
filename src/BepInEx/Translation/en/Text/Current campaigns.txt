@@ -11,10 +11,10 @@ SPダンジョン=SP dungeon
 神殿調査クエスト=Temple Trek Quest
 スキップ確認 =Skip Confirmation 
 全バトルをスキップして、報酬を獲得しますか？=Do you want to skip all battles and get rewards?
-===Half Stamina===
+---Half Stamina---
 r:"^\[475F7B\]メインクエスト(.+|)の\n消費スタミナが半減\[-\]$"=[475F7B]Consumption Stamina halved \nfor Main Quest$1[-]
 消費スタミナ半減=Consumption Stamina Halved
-===mana===
+---mana---
 マナドロップ量アップ=Mana Drops Up
 [475F7B]メインクエスト（NORMAL）         の\nマスターコイン獲得量が1.5倍にアップ[-]
 sr:"^\[475F7B\](.+)(（.+）)?\n?の\n?(.+)(ドロップ|獲得)量が\n?([0-9.]+)倍にアップ\[-\]$"=[475F7B]$3 $4 × $5\nfor $1 $2[-]
@@ -22,14 +22,14 @@ sr:"^\[475F7B\](.+)(（.+）)?\n?の\n?(.+)(ドロップ|獲得)量が\n?([0-9.]
 ドロップ=Drop
 残り挑戦回数が0回です。=The remaining challenge is 0 times.
 
-===exp===
+---exp---
 プレイヤーEXP獲得量アップ=EXP Up
 
-===reward===
+---reward---
 報酬ドロップ量アップ=Reward Drops Up
 デイリージュエルパック効果=Daily Jewel Pack Effect
 
-===Master Coin===
+---Master Coin---
 マスターコイン獲得量アップ=Master Coin Reward Up
 
 r:"^あと(\d+)日$"=$1d left

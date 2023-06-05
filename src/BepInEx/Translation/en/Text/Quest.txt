@@ -18,7 +18,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 1体に戻す=Reset to 1
 スキップチケット枚数リセット確認=Skip Ticket Number Reset
 
-====Menu===
+---=Menu---
 次へ=Next
 勝利数=Win
 編成完了=Done
@@ -54,12 +54,12 @@ Lv上限に達した状態で消費したスタミナは\nマスターコイン�
 経験値の最大値が更新されるまで表示しない=Do not display until the maximum\nvalue of the exp value is updated
 チケットで再戦=Replay with Ticket
 このキャラのユニオンバースト中は速度を変更できません=Speed cannot be changed during Union Burst of this character
-===Posting===
+---Posting---
 ※80文字以下=※ More than 80 characters
 バトルログをクランチャットに投稿しますか？=Do you want to post battle log to clan chat?
 投稿する=Post
 バトルログ投稿確認=Battle Log Post Confirmation
-===Re enter===AB->Text color,C-> stamina,D number
+---Re enter---AB->Text color,C-> stamina,D number
 再戦する=Retry
 
 r:"^\[3C404E\]挑戦回数を\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパーティで\nもう一度クエストをプレイします。\[-\]$"=[3C404E]Use [FFBB00,CE4F00]$1[-] Attempt to play quest\none more time with same party.[-]
@@ -71,11 +71,11 @@ r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]枚消費して、
 [3C404E]よろしいですか？[-]=[3C404E]Is this OK?[-]
 本日の回復可能回数上限に達しているため回復できません。=You cannot recover because you have reached the limit for today.
 クエストリトライ=Retry Quest
-===Abort===
+---Abort---
 リタイア=Quit
 sr:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nスタミナが\[FFBB00,CE4F00\]([0-9])\[-\]消費されます。\n\nよろしいですか？\[-\]$"=[3C404E]You will not receive any rewards if you quit,\nand stamina is consumed [FFBB00,CE4F00]$1 [-].\n\nIs this OK?[-]
 
-===Recharges stamina===
+---Recharges stamina---
 回復回数指定=Heal count
 現在のスタミナ回復（１回あたり）の消費ジュエル=Current Heal price
 支払・提供時期・返品について=About Payment/Offer/refund
@@ -87,12 +87,12 @@ sr:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nス
 [3C404E]スタミナが不足しています。\n回復しますか?[-]=[3C404E]Insufficient Stamina.\nDo you want to heal? [-]
 
 r:"^\[3C404E\]\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個使用して\nスタミナを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回復しました。\[-\]\n\n本日の回復可能回数 ([0-9/]+)回\[-\]$"=[3C404E]Use [FFBB00,CE4F00]$1[-] Jewels \nto recover [FFBB00,CE4F00]$2[-] Stamina\n\nRecharges left today: $3[-]
-===Attempt restore===
+---Attempt restore---
 r:"^\[3C404E\]\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個使用して\n残り挑戦回数を\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回復しました。\[-\]\n\n本日の回復可能回数 ([0-9/]+)回\[-\]$"=[3C404E]Use [FFBB00,CE4F00]$1[-] Jewels\nto recover [FFBB00,CE4F00]$2[-] Attempts\n\nRecharges left today: $3[-]
 
 r:"^\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個消費して、\n以下のクエストの残り挑戦回数を回復しました。\[-\]$"=[3C404E]Consume [FFBB00,CE4F00]$1[-] Jewels,\nThe number of remaining Attempts for the following quests has been restored.[-]
 
-===Skip Table===
+---Skip Table---
 本日の回復可能回数上限に達しました。=Today's recoverable limit was reached.
 スキップ回数=Skip count
 対象=subject

@@ -1,4 +1,4 @@
-===Input Name===
+---Input Name---
 r:"^※(\d+)文字以内で入力してください。名前は後でも変更できます。$"=※Between 1 and $1 characters..
 登録する=Register
 プレイヤー名登録=Player Name Registration
@@ -8,10 +8,10 @@ r:"^※(\d+)文字以内で入力してください。名前は後でも変更�
 [3C404E]プレイヤー名の登録が完了しました。[-]=[3C404E]Player name registration is complete.[-]
 名前登録完了=Name Registration Completed
 
-===Locked menu===
+---Locked menu---
 r:"^メインクエスト([\s\S]*)クリアで解放$"=Clear Main Quest\n$1
 r:"^メインクエスト([\s\S]*)クリアで$"=Main Quest $1 has been cleared.
-===Birthday Registration
+---Birthday Registration
 誕生日登録=Birthday Registration
 登録した誕生日はプロフィールから確認できます。=Registered birthday can be check on profile.
 好きな日付を誕生日として登録できます。=You can register any date as your birthday.
@@ -22,7 +22,7 @@ r:"^メインクエスト([\s\S]*)クリアで$"=Main Quest $1 has been cleared.
 誕生日を登録しました。=birthday has registered at:
 r:"^(.{1,10}) さん$"=$1-san
 
-===Profile
+---Profile
 ‐年‐月合計スコア=No participate yet.
 ‐階=No info
 ‐位=No rank
