@@ -1,0 +1,32 @@
+---Chu-Chu Panic! The Great Cheese Protection Strategy!-----
+---Title/Description---
+キミはチーズを守り抜けるか！？\n瞬発力が試される\n反射神経系カジュアルゲーム！=Can you protect the cheese?!\nA game to test you speed and reflexes!
+素早い動きのネズミに合わせ、\nタップで撃退！\nやる気のリンさんと一緒に\n大切なチーズを守りましょう！=Be quick and whack the mice to protect the precious cheese together with Rin!
+
+---Tips---
+リンさまと協力して、チーズを狙うネズミたちを退治しましょう。\nネズミたちは色々な方向から狙ってくるので注意してくださいまし。=Let's work together with Rin to exterminate the rats targeting the cheese. The rats will be coming at us from various directions, so please be careful.
+ネズミ退治を進めていくと、ハンマーを獲得できます。\nハンマーには色々な種類がございますので、手に入れたハンマーを\n是非、試してみてください。=You can obtain new mallets by slaying rats. There are many types try them all out!
+たくさんネズミを退治すると、ほんきゲージが上昇いたします。\nゲージを最大まで貯めると、ほんきの一撃が使えるようですよ。\nチーズに群がるネズミを一網打尽に撃退しましょう。=Defeating a lot of rats will increase your gauge. If you save up to the maximum, you'll be able to use your ultimate attack. Let's take out all the rats swarming around the cheese in one fell swoop.
+合計スコアに応じて、報酬を獲得できます。\nスコアは全難易度共通ですので、ご自分に合った難易度で\n観察日記や図鑑を解放していきましょう。=You will receive rewards based on your total score.\nScore accumulates through all difficulties, so feel free to choose the one that suits you best!
+
+---Main screen dialogue---
+あたしの前に\n現れたこと\n後悔させてあげる=I’ll make you regret showing up here!
+ねずみのことなんか\n知りたくないよ\nはぁ…めんどくさい=I don't want to have anything to do mice.\nUgh... it's so bothersome.
+コツをつかめば\n結構楽しいかも\nいや、労働は労働か…=If you get the hang of it, it's pretty fun.\nWell, work is still work, though...
+うわっ！？\nこっちこないでよ！\nはぁ…チマチマ\n追い払うのは大変だ…=Whoa! Don't come near me! *sigh*\nIt's hard to get rid of them one by one...
+こんなことに\n慣れたくないよ…\nでも牧場のためには\nやるしかないか=I don't want to get used to this...\nBut I guess I'll just have to do it for the ranch!
+
+---Main Screen---
+リンの手帳=Rin's Notes
+木槌一覧=Mallets
+ご褒美一覧=Rewards
+
+---Mallet unlock---
+ハンマー解放=Mallet unlocked
+ハンマーはミニゲーム画面から確認できます。=You can check the mallet\n from the main screen.
+[FFBB00,CE4F00]魔法の小槌\n[-][3C404E]が解放されました。[-]=[FFBB00,CE4F00]The Magic Mallet[-]\n[3C404E] has been unlocked.[-]
+
+---Result screen---
+獲得コインボーナス=Coin Bonus
+残りライフボーナス=Life Bonus
+総討伐数=Defeated

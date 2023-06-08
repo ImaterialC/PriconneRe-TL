@@ -1,0 +1,95 @@
+---Kaori's Soulful Karate Dojo---
+---Title/description---
+これぞ琉球魂！\n押し寄せるマジムンをなぎ倒す\n爽快アクションゲーム！=The Spirit of Ryukyu!\nMow down the attacking Majimun in an exhilarating action game!
+左右をタップしてマジムンを倒し\nましょう！\n放て！\n琉球犬アラウンドシュート！=Tap Left← and Right→ to defeat Majimun!\nFire!\nRyukyu-ken Around Shot!
+
+---Tips---
+戦いに備えて、カオリさまとイメージトレーニングをいたしましょう。\n左右から押し寄せる魔物をクリックか左右キーで撃退してくださいまし。\n色違いの魔物は、尻尾の炎の数だけ攻撃する必要がございます。=Let's do some training with Kaori to prepare for battle!\nClick on the monsters coming from left and right, or use the Left← and Right→ arrow keys to repel them. Monsters of different colors need to be attacked as many times as the number of flames on their tails.
+足もとが光っている魔物を倒すと、フィーバーゲージが上昇します。\nゲージが最大まで溜まるとフィーバーモードが発動しますよ。\n時間の許す限り連打して、魔物たちを一網打尽にいたしましょう。=Defeating opponents that have a glow beneath will increase your Fever Gauge. When your Gauge reaches its maximum, Fever Mode will activate! Keep hitting as many of them during this time!
+合計スコアに応じて、報酬を獲得することができます。\nどの難易度でトレーニングをしてもスコアは共通ですので\nご自分に合った難易度をお選びください。=You will receive rewards based on your total score.\nScore accumulates through all difficulties, so feel free to choose the one that suits you best!
+
+---Result screen---
+ハイスコア=High score
+撃破数=Defeated
+過去最高スコア=High Score
+撃破スコア=Defeat Score
+匹=X
+残りライフ / ボーナス=Remaining Life / Bonus
+最大コンボ / ボーナス=Max Combo/Bonus
+
+---Earn title---
+難易度EXTRAで一度に\n70000以上のスコアを獲得したため\n称号「荒波のマジムンバスター」を獲得しました。=You acquired a score of 70,000 or more at once in EXTRA diffculty!\nYou earned the title [FFBB00,CE4F00]Majimun Buster of the Wild Waves[-]!
+
+---Win dialogues---
+まだまだ私は元気だよ～！\nマジムンでもなんでも、\nどんとこーいさー♪=I'm still full of energy! Majimun or whatever, i'll take them on anytime! ♪
+何匹で襲ってきたって\n私はマブイを落っことさないよ～！\nくしゅん！　あ……\n今のくしゃみで落っこちたかも～？=No matter how many of them come at me, I won't drop my Mabui! Achoo! Ah... Maybe that sneeze just made me drop it?
+あれ～？　戦ってるうちに\n水着がどっか行っちゃった～？\nねぇキミ、どっかで見なかった～？\nなんで離れるさ～？=Huh? Where'd my swimsuit go while I was fighting? Hey, have you seen it somewhere? Did it drift away?
+
+ひーやーさーさー♪\n戦いの後は、踊りを踊って\n気分スッキリさ～！=Hi-ya-sa-sa~♪\nDancing after battle feels sooo refreshing~!
+
+私の空手は世界最強さ～！\n夏の陽射しと青い海も合わされば、\n向かうところ敵なしだよー！=My karate is the strongest in the world! Combined with the summer sun and the blue sea, noone can match me!
+恥ずかしいところ\n見られちゃったね～\n水着？　水着のことじゃないよー？=You saw something embarrassing, didn't you? No, I'm not talking about my swimsuit..
+絶好調さ～！　この調子で\n海の平和を取り戻すよ～！\n楽しい夏が待ってるさ～！=I'm in top form! We'll bring back the peace of the sea in no time! And then a fun summer awaits us!
+
+---Lose dialogue---
+なんくるない、なんくるない\n次、頑張ればいいんだよ～！\n海で泳いで\nリフレッシュするさー！=Don't worry, I'll do my best next time! I'll just take a dip in the ocean first to refresh myself!
+
+あうぅ～残念さ～\nマジムンに魂を\n奪われちゃったかな～？=Aww, too bad.\nDid the Majimun steal your spirit?
+マジムンだらけで目が回るさ～！\nふらふらさ～！=All theeese Majimuuuun..\nI'm feeling dizzy!\nI can't take it!
+今日は踊りのキレも悪いよ～\nゴーヤーっぽいもの食べて、元気回復さ～！=My dance moves are not too sharp today! I better eat something like bitter melon to regain my energy!
+
+---Story---
+カオリと海辺で大特訓！=Kaori's special beach training!
+
+r:"^海辺で一人、空手の特訓をしているカオリ。自分の頭の中で思\nい浮かべたマジムンを大量に倒すというイメージトレーニング\nをしていた彼女は、(.{2,10})に応援を頼みながら、特訓に励\nむのであった。$"=Kaori is doing karate training by herself on the beach. She's doing image training to defeat the Majimun she made up in her mind. With $1 cheering her on, she diligently loses herself in her training.
+
+[3C404EFF]せい、[3C404EFF]はっ！[3C404EFF]\n[3C404EFF]えーい、[3C404EFF]さーっ！=Sei~! Ha~! Eei~! Saa~!
+何してるの？=What are you doing?
+r:"^(\[3C404EFF\])?あ、(\[3C404EFF\])?(.{2,10})！(\[3C404EFF\])?　(\[3C404EFF\])?ハイターイ♪(\[3C404EFF\])?\n(\[3C404EFF\])?これー？(\[3C404EFF\])?　イメージトレーニングさー！$"=Ah, $3! Hai-tai!♪\nThis..? It's image training!
+[3C404EFF]相手はマジムンだからねー[3C404EFF]\n[3C404EFF]故郷の血が騒ぐんだよ～！=You know, because the opponents are Majimun,\nit makes the blood of my homeland boil in me!
+r:"^(\[3C404EFF\])?(.{2,10})もやってみるー？(\[3C404EFF\])?\n(\[3C404EFF\])?大丈夫、(\[3C404EFF\])?私の真似をしたらいいだけよー！$"=You wanna try it too, $2?\nDon't worry, just copy me!
+[3C404EFF]まずは集中してイメージするさー……=Let's focus on imagining them first...
+[3C404EFF]ほら、[3C404EFF]目の前にマジムンがいっぱい出てくるでしょー？[3C404EFF]\nそれをなぎ倒すんさー！=Come on, there's a lot of Majimun in front of you, right?\nLet's mow them down!
+……え？=...Huh?
+[3C404EFF]え、[3C404EFF]出てこない～？[3C404EFF]\n[3C404EFF]集中力が足りないさ～、[3C404EFF]もっと強くイメージするさ～！=Huh? You're not seeing them?\nYou seem to be lacking concentration.\nYou need to try harder!
+[3C404EFF]難しい？　[3C404EFF]う～ん、[3C404EFF]仕方ないさ～！[3C404EFF]\n[3C404EFF]じゃあ、そこで応援しててほしいさ～！=Too difficult? Hmm, it can't be helped then!\nCheer me on while I show you!
+r:"^(\[3C404EFF\])(.{2,10})の応援だけは、(\[3C404EFF\])\nイメージじゃ満足できないからね～♪$"=It seems $2 can't be satisfied with just imagination~♪
+[3C404EFF]じゃあ、[3C404EFF]いっくさ～！=Okay, let's do this!
+
+礼に始まり礼に終わる=It begins and ends with gratitude!
+
+r:"^イメージトレーニングを終えたカオリは、(.{2,10})と礼を交\nわす。その際に頭をぶつけてしまったカオリは、頭を冷やすた\nめに海へ行こうと誘う。体が冷えたらまた特訓だと、張り切る\nカオリだった。$"=Having finished her image training, Kaori exchanges bows with $1. She bumps her head into $1 and takes him to the beach to cool his head off. She's excited to do some more special training once they cooled down a bit.
+
+[3C404EFF]はいやぁっ！[3C404EFF]\n[3C404EFF]……ふぅ、[3C404EFF]こんなところだね～♪=Hai-yaah! ...Phew, that should do it~♪
+本当にマジムンがいるみたいだった。=It really felt like the Majimun were here
+r:"^\[3C404EFF\](.{2,10})にも見えた～？\[3C404EFF\]\n\[3C404EFF\]よかったさ～！$"=Did you see them too, $1?\nThank goodness!
+[3C404EFF]でもこれで[3C404EFF]イメージトレーニングはバッチリよ～[3C404EFF]\n[3C404EFF]応援してくれて[3C404EFF]ありがとうね～=But with this, my image training is complete~\nThanks for cheering me on~
+[3C404EFF]そうだ、[3C404EFF]最後はちゃんと礼をしないと～[3C404EFF]\n[3C404EFF]空手は礼に始まり[3C404EFF]礼に終わるのが基本だからね～！=Right... I have to show my thanks!\nKarate starts and ends with properly expressing gratitude!
+r:"^\[3C404EFF\](.{2,10})もするの～？\[3C404EFF\]\n\[3C404EFF\]じゃあ、私と向かい合って～、\[3C404EFF\]礼っ！$"=You're going to do it too, $1?\nThen, look at me and bow!
+r:"^\[3C404EFF\]いたた～！\[3C404EFF\]\n\[3C404EFF\]あは～、\[3C404EFF\]顔がぶつかっちゃったねぇ♪\[3C404EFF\]\n\[3C404EFF\](.{2,10})、\[3C404EFF\]勢いよく頭を下げ過ぎだよ～♪$"=Ow ow ow! Aha... our heads bumped into each other♪\n$1, you bowed too deep♪
+[3C404EFF]大丈夫～？　[3C404EFF]顔、[3C404EFF]痛いところはない～？[3C404EFF]\n[3C404EFF]ちょっとよく見せるさ～=Are you alright~? Does your face hurt anywhere~?\nLemme take a look~
+[3C404EFF]ん？[3C404EFF]　近い？[3C404EFF]　[3C404EFF]近づかないと見えないでしょ～？[3C404EFF]\n[3C404EFF]ほらほら、[3C404EFF]逃げちゃダメさ～♪=Hm...? Close...? I can't see it unless I get close, right?\nCome on, don't run away♪
+[3C404EFF]おでこがちょっと赤くなってるだけだね～[3C404EFF]\n[3C404EFF]これくらいなら、[3C404EFF]冷やしておけば大丈夫だね～=Your forehead is just a little red~\nIt should be fine if it's cooled down a bit~
+[3C404EFF]じゃあ、[3C404EFF]冷やすために海に行くさ～！[3C404EFF]\n[3C404EFF]決して泳ぎたいわけじゃないよ～？=Okay, let's go to the beach to cool it down!\nDefinitely not because I want to swim, okay?
+[3C404EFF]体が冷えたら[3C404EFF]またイメージトレーニングして、[3C404EFF]\n[3C404EFF]体をあっためればいいさ～♪=If you cool down, you can do more image training to warm yourself up~♪
+
+
+挑め、己の限界に=Push it to the limit!
+
+マジムンを倒すイメージトレーニングを繰り返し、体が温まっ\nてきたカオリ。これならもっと本気を出せると思ったカオリ\nは、限界を超えるためにより強いマジムンをイメージして、激\nしい特訓に挑むのであった。=Kaori's getting warmed up from all the image training.\nShe thinks she can get more serious now, so she imagines stronger Majimun to surpass her limits and challenge herself with more intense training.
+
+[3C404EFF]だいぶ体があったまってきたさ～=I'm getting quite warmed up already~
+[3C404EFF]これならもう少し、[3C404EFF]\n本気でやってみてもいいかもねぇ～=Maybe it's time to get a bit more serious~
+[3C404EFF]もっと強くマジムンをイメージするさ～！[3C404EFF]\n今の私の限界を超えるよ～！=I'm going to imagine stronger Majimun,\nand surpass my limits~!
+[3C404EFF]さぁ、[3C404EFF]どんどんかかってくるさ～！=Come on, bring it on~!
+
+本物が一番=The real thing is the best!
+
+r:"^より強くイメージしたマジムンを打ち破ったカオリ。まだまだ\n上を目指せると言う彼女は、休憩するために砂浜に寝転ぶ。(.*)\n(.*)の膝を枕にしながら、カオリはイメージより本物が一番\nだと微笑む。$"=Kaori defeats the Majimun she envisioned to be even stronger. She says she can still aim higher, so she lies down on the beach to rest. Using $1$2's knees as a pillow, Kaori smiles and says that the real thing is better than her imagination.
+
+[3C404EFF]琉球犬アラウンドシュートッ！[3C404EFF]\n[3C404EFF]……か、[3C404EFF]勝ったさ～！=Ryukyu-ken Around Shot!\n...I-I won~!
+[3C404EFF]自分でイメージしたものだけど、[3C404EFF]\n[3C404EFF]なかなかの強敵だったさ～！=Although I imagined it myself, it was a pretty formidable enemy~!
+[3C404EFF]さすがに疲れたねぇ～[3C404EFF]\n[3C404EFF]でも、[3C404EFF]まだまだ上を目指せるはずさ～！=Aaah.. I'm exhausted~\nBut I can still aim higher~!
+[3C404EFF]とりあえず今は、[3C404EFF]砂浜に寝転んで休憩さ～[3C404EFF]\n気持ちのいい枕でもあったらいいんだけど、[3C404EFF]\n[3C404EFF]それもイメージで我慢さ～=For now, I just want to lie down on the beach and take a break. It'd be nice if I had a nice pillow, but I'll just have to bear with it~
+r:"^\[3C404EFF\]ん？　\[3C404EFF\]なんか本当に柔らかいさ～？\[3C404EFF\]\n……(.{2,10})？\[3C404EFF\]\n私、\[3C404EFF\](.{2,10})の膝を枕にしてるさ～？$"=Hm? Something feels.. really soft~ ...$1?\nAm I using $2's lap as a pillow~?
+[3C404EFF]これ、[3C404EFF]イメージ、[3C404EFF]じゃないよね？[3C404EFF]\n[3C404EFF]あは～、[3C404EFF]気持ちいいさ～、[3C404EFF]やっぱり本物が一番だね～♪=I'm not imagining this, am I..?\nAha~, it feels good~, the real thing really is the best~♪
