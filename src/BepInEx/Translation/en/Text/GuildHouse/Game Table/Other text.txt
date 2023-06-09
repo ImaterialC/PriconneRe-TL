@@ -11,12 +11,12 @@
 エピソードリスト=List of Episodes
 ゲームテーブルへ=To the game table
 販売開始までお待ちください。=Coming soon.
-新しく追加されたミニゲームがあります。=There's a Newly Added Minigame.
+新しく追加されたミニゲームがあります。=There's a newly added minigame.
 
 累計獲得スコア=Total score
 r:"^スコアを累計で(\d+)獲得しよう$"=Get a total score of of $1
 
-楽しいミニゲームをご紹介！\nあなたはどのミニゲームで\n遊びますか？=Here are some fun mini-games! Which one will you play?
+楽しいミニゲームをご紹介！\nあなたはどのミニゲームで\n遊びますか？=Here are some fun mini-games!\nWhich one will you play?
 様々なミニゲームをご用意してい\nますよ！\nどのミニゲームで遊びますか？=We have a variety of mini-games for you to play!
 
 ---Not unlocked---
