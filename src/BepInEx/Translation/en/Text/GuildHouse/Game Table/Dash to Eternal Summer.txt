@@ -1,10 +1,6 @@
-ニゲーム=nigame
-累計獲得スコア=Total score
 距離は普通、天候が荒れる時もある。道中は様々な障害物が邪魔をする。=Normal Distances, sometimes storm. Various obstacles get in the way along the way.
 距離は短く、天候が荒れやすい。道中は暴れる魔物が行く手を阻む。=Short Distances, often strom. On the way, the rampant monster blocks the way.
 距離は長く、天候が落ち着いている。道中は大きめの障害物が立ち塞がる。=Long Distances, Calm weather. A large obstacle stands on the way.
-
-r:"^スコアを累計で(\d+)獲得しよう$"=Get a total of $1 scores
 
 難易度EXTRAで、1度にスコアを135000以上獲得しつつ、全ラウンド1着でゴールしよう=Get a score of 135,000 or more at a time on EXTRA difficulty, and finish first in all rounds.
 難易度EXTRAで、1度にスコアを115000以上獲得しよう=Get a score of 115,000 or more at a time on EXTRA difficulty
@@ -57,7 +53,7 @@ sr:"^(.+)GP・(.+)において下記の成績を収められましたので、�
 ラウンド2=Round 2
 ラウンドスコア=Round score
 ラウンド1=Round 1
-再挑戦=challenge again
+再挑戦=Retry
 以下の報酬を獲得しました。=The following rewards have been obtained.
 
 
