@@ -1,0 +1,184 @@
+---Squeak Squeak Panic! - The Cheese Thief Thwacker!-----
+---Title/Description---
+キミはチーズを守り抜けるか！？\n瞬発力が試される\n反射神経系カジュアルゲーム！=Can you protect the cheese?!\nA game to test your speed and reflexes!
+素早い動きのネズミに合わせ、\nタップで撃退！\nやる気のリンさんと一緒に\n大切なチーズを守りましょう！=Be quick and thwack the mice to protect the precious cheese together with Rin!
+
+---Story---
+チーズを見張ろう！=Let's guard the cheese!
+
+牧場メンバーたちは牧場温泉に来るお客さんのお土産にできそ\nうな熟成チーズを倉庫で発見するも、それを狙うネズミたちに\n頭を悩ませる。そこで、たまたま手の空いていたリンがチーズ\n警備に名乗りを上げる。=The ranch members found mature cheese in the warehouse that could be used as a souvenir for customers coming to the ranch hot spring, but they were troubled about the mice targeting it. Then Rin arrived, who happened to be free, and volunteered to guard the cheese.
+
+[3C404EFF]牧場温泉開業に向けて着々と準備を進める[3C404EFF]\n【牧場（エリザベスパーク）】のメンバーたちは[3C404EFF]\n何やら頭を抱えていた。=The members of Elizabeth Park were diligently preparing for the opening of their hot spring bath (onsen).\nAlthough, they seemed to be troubled by something..
+[3C404EFF]ん～[3C404EFF]困ったな。[3C404EFF]どうすっべ。=Hmm... This could be a problem.\nWhat should we do?
+[3C404EFF]私が[3C404EFF]なんとかがんばれば……=If only I could do better...
+[3C404EFF]シオリちゃんには[3C404EFF]チラシを作り足してもらわないといけないでしょ。[3C404EFF]\n[3C404EFF]早めに仕事を片づけるから[3C404EFF]私がやるわ。=You still have to make more flyers, don't you Shiori?\nI have finished early, so I'll take care of it.
+[3C404EFF]みんな難しそうな顔して[3C404EFF]どうしたの？　[3C404EFF]何かあった？=Why do you all look so troubled?\nDid something happen?
+[3C404EFF]リンリン！　[3C404EFF]ちょうどいいところに！=Rin-Rin! Perfect timing!
+[3C404EFF]な、[3C404EFF]なになに？[3C404EFF]\n面倒なことならいやだよ？=Wh-What?\nIf it's something troublesome, I'd rather not do it.
+[3C404EFF]そっか……[3C404EFF]やっぱりオラたちでどうにかするしかねぇか。=I see... Looks like we'll just have to do something about it on our own.
+[3C404EFF]そうですね。[3C404EFF]\nリンちゃんは連日チラシ配りで疲れてるでしょうし。=That's right.\nRin must be tired from handing out flyers all day.
+[3C404EFF]あーもう！　[3C404EFF]なんなの！[3C404EFF]\n言ってくれなきゃなんのことか分からないよ！[3C404EFF]\n[3C404EFF]一回言ってみなよ！=Argh! What is it?!\nIf you don't tell me, how am I supposed to know what you're talking about? Out with it!
+[3C404EFF]そう？　[3C404EFF]あのね、[3C404EFF]倉庫を片づけてたら[3C404EFF]\nお客さんのお土産にできそうな[3C404EFF]熟成チーズが見つかったんだけど、[3C404EFF]\n[3C404EFF]チーズの匂いに釣られて[3C404EFF]ねずみが来ちゃってるのよ。=Really? You know, while I was cleaning up the warehouse, I found some matured cheese that could be used as a souvenir for the customers, but the smell of cheese lured the mice in.
+[3C404EFF]チーズを食べられないように見張りを立てなきゃいけないんだけど、[3C404EFF]\n[3C404EFF]私たちは[3C404EFF]いろんな作業で手が離せなくて。=So we have to keep watch to make sure they can't eat the cheese, but we all have our hands full with other work.
+[3C404EFF]あー[3C404EFF]確かに[3C404EFF]あたしはチラシなくなっちゃったから[3C404EFF]手が空いてるね。=Ah, well.. actually, I'm out of flyers, so I have some free time now.
+[3C404EFF]リンリン、[3C404EFF]疲れてると思うけど[3C404EFF]チーズの見張り[3C404EFF]やってくんねぇか？=Rin-Rin, I know you're tired, but could you keep an eye on the cheese?
+[3C404EFF]疲れてるなら[3C404EFF]無理しなくていいのよ！[3C404EFF]\n[3C404EFF]見張りって結構疲れるし！=You don't have to force yourself if you're tired!\nKeeping watch can be pretty tiring!
+[3C404EFF]そうです。[3C404EFF]私はチラシ作りしかやってないし、[3C404EFF]私が見張りを……=That's right. I've only been making flyers, so I can take care of the watch...
+[3C404EFF]そんなに気を使ってくれなくても大丈夫だよ。[3C404EFF]\n[3C404EFF]あたしがやるよ、[3C404EFF]チーズの見張り。=You don't have to be so considerate.\nI'll guard the cheese.
+[3C404EFF]ほんとだべか！？=Really?!
+[3C404EFF]うん。[3C404EFF]見張りって言っても相手はねずみでしょ？[3C404EFF]\n[3C404EFF]そのくらいなら平気平気。=Yeah, sure.\nEven if I say "guarding", it's just mice, right?\nI'll be fine, don't worry.
+[3C404EFF]本当に大丈夫？[3C404EFF]\n無理しなくていいんだからね。=Are you sure it will be okay?\nYou don't have to push yourself, you know.
+[3C404EFF]そうだよ。[3C404EFF]\nリンちゃん[3C404EFF]ずっと歩き回って疲れてるだろうし。=Right, Rin-chan, you've been walking around a lot and must be tired.
+[3C404EFF]平気だから！　[3C404EFF]そりゃ確かにめんどくさいけど、[3C404EFF]\n人手が足りないんだから[3C404EFF]やれることはやるって！[3C404EFF]\n[3C404EFF]あたしに任せて[3C404EFF]みんなは自分の仕事して。=I'm fine, really!\nSure, it's a pain, but we're shorthanded, so I'll do what I can!\nLeave it to me, you just do your own work.
+[3C404EFF]リンリン、[3C404EFF]ほんとうにあんがとな。=Rin-Rin, thank you so much~!
+[3C404EFF]手が空いたときは私たちも手伝うから！=Once we're free, we'll help too!
+[3C404EFF]だから無理しなくて大丈夫だよ。=So don't overdo it!
+[3C404EFF]…………みんな[3C404EFF]あたしのことなんだと思ってるのさ。[3C404EFF]\n[3C404EFF]いやまぁ、[3C404EFF]手伝ってくれる分には助かるけど。=.........Everyone thinks about me, huh?\nWell, I mean, I'll appreciate if they're willing to help.
+[3C404EFF]そんじゃあリンリン。[3C404EFF]\nチーズのことは任せたべ。=Well then, Rin-Rin, we'll leave the cheese to you!
+[3C404EFF]はいはい。[3C404EFF]大船に乗った気で居てよ。[3C404EFF]\n[3C404EFF]チーズくらいあたしが守ってみせるから。=Alright, alright! Let's be positive!\nI'll show you I can protect the cheese!
+
+小さき敵との攻防=Offense and defense
+
+[3C404EFF]熟成チーズを守るため一人倉庫にたたずむリンは[3C404EFF]\n早くもねずみと対峙するのだった。=Rin was alone in the warehouse, protecting the mature cheese.\nBefore long, she came to confront the mice though...
+[3C404EFF]ちゅ～！！=*squeaaak!*
+[3C404EFF]あっ！　[3C404EFF]さっそく現れたな！[3C404EFF]\n[3C404EFF]はぁ……[3C404EFF]ねずみが出てこなきゃ楽な仕事だったのになぁ。=Ah! There you are already! *sigh*...\nIt would've been so much easier if you hadn't come out.
+[3C404EFF]みんなにああ言っちゃった以上、[3C404EFF]\nちゃんとねずみを追い払わないとね。[3C404EFF]\n[3C404EFF]ほら、[3C404EFF]あっちいけ！　[3C404EFF]このチーズはあんたのじゃないよ！=Since I promised everyone, I have to properly drive them away, eh?\nGo away! This cheese isn't yours!
+[3C404EFF]ちゅいっ！\nちゅっちゅ！=*squeak!* *squeak squeak!*
+[3C404EFF]あっ、[3C404EFF]この！[3C404EFF]\n意外とねばるな！[3C404EFF]\n[3C404EFF]ほら、[3C404EFF]あっちいけ～～～！！=Ah, you! Persistent, aren't you?\nCome on, get lost~~~!!
+[3C404EFF]ちゅ～！？=*squeeeaaak!*
+[3C404EFF]ふぅ……[3C404EFF]なんとか追い払えた。[3C404EFF]\n[3C404EFF]ねずみって意外と手ごわいんだね。=Phew... Managed to drive them away somehow.\nMice can be surprisingly tough opponents, huh?
+[3C404EFF]追い払えるには追い払えたし、[3C404EFF]\nこの調子でチーズを守っていこうか。=Well, I was able to drive them away, so let's keep looking after the cheese!
+
+チーズの誘惑=Temptation of Cheese
+
+[3C404EFF]ねずみを追い払うのにもだいぶ慣れてきたね。[3C404EFF]\n[3C404EFF]それにしても、[3C404EFF]なんでこんなにチーズを狙うのかな？=I think I'm getting pretty used to driving away mice.\nStill, I wonder why they are so obsessed with cheese?
+[3C404EFF]チーズ以外にも食べ物はあるじゃん。[3C404EFF]\nまっひ～には悪いけど、[3C404EFF]ドングリとかくるみとかの方が[3C404EFF]\nおいしいと思う。=There's food other than cheese, isn't there?\nI feel bad for Mahy~ to say this, but I think acorns and walnuts are better.
+[3C404EFF]んー、[3C404EFF]でもよく考えたらあたし、[3C404EFF]牧場のチーズを[3C404EFF]\nきちんと味わったことないな。=Hmm, but now that I think about it, I've never tasted cheese from the farm before.
+[3C404EFF]このチーズはお土産用だから[3C404EFF]食べちゃダメだよね。[3C404EFF]\n[3C404EFF]ん～[3C404EFF]でも[3C404EFF]さっきから[3C404EFF]ドングリにはない[3C404EFF]独特な匂いが食欲を刺激して……[3C404EFF]\n[3C404EFF]なんて言うんだろう……[3C404EFF]生命の源みたいな感じで芳醇な……=This cheese is for souvenirs, so I can't eat it. Hmm, but the unique aroma.. nothing like acorns... it's enticing... How should I put this... It's like the essence of life, rich and fragrant...
+[3C404EFF]チーズもなかなか……[3C404EFF]いや！　[3C404EFF]いやいや！[3C404EFF]\nやっぱりドングリの方がいいよ！[3C404EFF]\n[3C404EFF]うん、[3C404EFF]絶対ドングリの方がいい！=Cheese is quite... No! No, no!\nAcorns are definitely better!\nYes, acorns are the way to go!
+[3C404EFF]ちゅ～！！=*squeeaak!*
+[3C404EFF]わっ！？　[3C404EFF]また出た！！[3C404EFF]\n[3C404EFF]しかもさっきのねずみより大きい！=Wah!? There you are again!!\nAnd you're bigger than the one from before!
+[3C404EFF]そんなにチーズが欲しいの？[3C404EFF]\n[3C404EFF]余計にチーズのこと調べたくなっちゃったじゃん。=Do you want cheese that badly?\nYou make me want to look into cheese even more.
+[3C404EFF]さっさと追い払わせてもらうよ！[3C404EFF]\n覚悟してね！=I'll get rid of you right away!\nPrepare yourself!
+
+芽生える愛情？=A Budding Love?
+
+[3C404EFF]ちゅ～～！=*squeeeaak!*
+[3C404EFF]はぁ、[3C404EFF]ようやく追い払えたよ。[3C404EFF]\n[3C404EFF]なんかねずみたち、[3C404EFF]\nどんどん必死になってる感じがするんだけど……[3C404EFF]気のせい？=Phew, I finally got them all.\nFeels like they are getting more and more desperate... or am I imagining things?
+[3C404EFF]でもまぁ、[3C404EFF]なんとか守れてよかったよ。[3C404EFF]\n[3C404EFF]あんたたちも[3C404EFF]食べられなくてよかったね……[3C404EFF]って、[3C404EFF]\nあたし[3C404EFF]なんでチーズに話しかけてるの？=Well, I'm glad I managed to protect you.\nThey weren't able to eat you...\nWait, why am I talking to the cheese~??
+[3C404EFF]この子たちのために戦ってたから愛着湧いちゃった……？[3C404EFF]\n[3C404EFF]ん？　[3C404EFF]いや、[3C404EFF]この子って……[3C404EFF]あたし本当にどうしたんだろう。[3C404EFF]\nどのみち食べられるのに変わりはないじゃん。=Maybe I got attached to these children 'cause I was fighting for them...? Hm? Wait.. "Children"? ... Seriously, what's wrong with me? In any case, I can't let them be eaten.
+[3C404EFF]チーズがなくなったら[3C404EFF]まっひ～が悲しむからだよね。[3C404EFF]\n[3C404EFF]うん。[3C404EFF]それだけだよ。=It's because Mahy~ would be sad if the cheese was gone.\nYeah, that's it.
+[3C404EFF]ちゅ～～！！=*squeeeaaak!*
+[3C404EFF]また来たの？　[3C404EFF]本当に懲りないね～……[3C404EFF]って！？[3C404EFF]\n[3C404EFF]すごいデカいじゃん！！　[3C404EFF]ほんとにねずみなの！？=You're back again? You really never learn, do you?\n...Wait! How BIG are you!! Are you really a mouse?!
+[3C404EFF]ちゅ～～って鳴いてるからねずみか。[3C404EFF]\n[3C404EFF]あ～～もう、[3C404EFF]何度来たって無駄だよ！[3C404EFF]\nここは絶対に通さないから！！=You're squealing, so you must be, huh..?\nAh, geez, no matter how many times you come here, it's pointless! I'll never let you pass!!
+[3C404EFF]この子たちはあたしが守り抜いてみせる！！=I'll protect my children!!
+
+労働は続くよどこまでも=The Labor Never Ends
+
+[3C404EFF]はぁ……[3C404EFF]はぁ……[3C404EFF]なんなの……[3C404EFF]\nもうクタクタだよ……[3C404EFF]\n追い払えたからいいけど……=*pant pant*... What's this...? I'm completely exhausted...\nThough, I was able to beat them all...
+[3C404EFF]あの大きさ、[3C404EFF]ねずみの親玉だったのかな？[3C404EFF]\n[3C404EFF]親玉を追い払ったんだから[3C404EFF]もう大丈夫だよね。[3C404EFF]\n[3C404EFF]大丈夫だと思いたい。=Was that big one the boss?\nI drove it away, so we should be fine now.\nAt least, I hope we'll be.
+[3C404EFF]この子たちは……[3C404EFF]よかった～[3C404EFF]\n傷一つないね。[3C404EFF]\n[3C404EFF]ん？　[3C404EFF]むしろさっきよりツヤツヤになってない？=My children... Thank goodness.\nNot a single scratch on them. Hm?\nIf anything, they look even shinier than before?
+[3C404EFF]そんなすぐに熟成されるものなのかな？[3C404EFF]\n[3C404EFF]まぁ、[3C404EFF]あたしも短時間でねずみ追い払うのうまくなったし、[3C404EFF]\nこの子たちがあっという間に育ってもおかしくないよね。=I wonder if they can mature that quickly?\nWell, I've also gotten better at driving away mice in a short time, so it wouldn't be strange if these little ones grew fast too, right?
+[3C404EFF]心なしか[3C404EFF]匂いもおいしく感じてきた……[3C404EFF]気がする。[3C404EFF]\n[3C404EFF]おかしいな。[3C404EFF]ドングリと比べたら全然だったのに。=Their scent is also starting to taste delicious... I mean, feel delicious... It's strange. Compared to acorns, it really is completely different.
+[3C404EFF]これは確かに[3C404EFF]エリザベスパーク印の製品が人気なのもうなずけるね。[3C404EFF]\nまっひ～はすごいよ。[3C404EFF]改めて見直しちゃう。=I can see why Elizabeth Park's products are so popular.\nMahy~ is amazing. \nI'm starting to appreciate it even more.
+[3C404EFF]まっひ～の期待に応えるためにも[3C404EFF]このままチーズを守り続け……[3C404EFF]\n[3C404EFF]あれ？　[3C404EFF]あそこになんか穴が開いてる。[3C404EFF]\n[3C404EFF]ひょっとしてねずみの巣！？　[3C404EFF]ここから湧いて出てたの？=To live up to Mahy's expectations, I will continue to protect the cheese... Huh? There seems to be a hole over there. Could it be a mouse nest?! Were they coming out from there all along?
+[3C404EFF]あ～もう！　[3C404EFF]これまたねずみ出てくるパターンじゃん！[3C404EFF]\nいいよ！　[3C404EFF]何度でも撃退するよ！[3C404EFF]\n掛かってきな！！=Argh, geez! It's another pattern of mice coming out!\nIt's fine! I'll drive them away as many times as it takes! Come at me~!
+
+---Tips---
+リンさまと協力して、チーズを狙うネズミたちを退治しましょう。\nネズミたちは色々な方向から狙ってくるので注意してくださいまし。=Let's work together with Rin to exterminate mice targeting the cheese. They will be coming from all directions, so watch out!
+ネズミ退治を進めていくと、ハンマーを獲得できます。\nハンマーには色々な種類がございますので、手に入れたハンマーを\n是非、試してみてください。=You can obtain new hammers by slaying mice. There are many types, all with different abilities, so try them all out!
+たくさんネズミを退治すると、ほんきゲージが上昇いたします。\nゲージを最大まで貯めると、ほんきの一撃が使えるようですよ。\nチーズに群がるネズミを一網打尽に撃退しましょう。=Defeating a lot of rodens will increase your Effort gauge. If the gauge reaches it's maximum, you'll be able to Get Serious and take out all the mice swarming around the cheese in one fell swoop!
+合計スコアに応じて、報酬を獲得できます。\nスコアは全難易度共通ですので、ご自分に合った難易度で\n観察日記や図鑑を解放していきましょう。=You will receive rewards based on your total score.\nScore accumulates through all difficulties, so feel free to choose the one that suits you best!
+
+---Main screen dialogue---
+あたしの前に\n現れたこと\n後悔させてあげる=I’ll make you regret\nshowing up here!
+ねずみのことなんか\n知りたくないよ\nはぁ…めんどくさい=I don't want to have\nanything to do mice.\nUgh... it's so bothersome.
+コツをつかめば\n結構楽しいかも\nいや、労働は労働か…=If you get the hang of it,\nit's pretty fun.\nWell, work is still\nwork, though...
+うわっ！？\nこっちこないでよ！\nはぁ…チマチマ\n追い払うのは大変だ…=Whoa! Get awaay~!\n*sigh*\nIt's hard to get rid of them\none by one...
+こんなことに\n慣れたくないよ…\nでも牧場のためには\nやるしかないか=I don't want to get used to this...\nBut I guess I'll just have to\ndo it for the ranch!
+任された仕事は\nきちんとやるよ=Leave all the\nhard work to me!
+
+---Main Screen---
+リンの手帳=Rin's Journal
+木槌一覧=Hammers
+ご褒美一覧=Rewards
+
+r:"^(.+)をクリアすると解放されます。$"=Clear $1 to unlock.
+
+---Rewards Screen---
+最終報酬スコア=Final Reward
+
+---Hammers---
+木槌選択=Hammer Selection
+装備するアイテムを選んでください=Select weapon to use.
+
+r:"^\[FFBB00,CE4F00\]累計(.{2,10})pt\n\[-\]\[3C404E\]で解放されます\[-\]$"=[3C404E]Unlocked at [FFBB00,CE4F00]$1\n      total points.[-]
+
+[3C404E]装備すると\\nほんき上昇率が\\n[FFBB00,CE4F00]1.2倍[-]になる。[-]=[3C404E]Increases the Effort Gauge gain\nby[FFBB00,CE4F00]1.2 times.[-]
+[3C404E]装備すると\\n攻撃が届く範囲が\\n[FFBB00,CE4F00]1.2倍[-]になる。[-]=[3C404E]Increases the attack range gain\nby[FFBB00,CE4F00]1.2 times.[-]
+[3C404E]装備すると\\nコイン獲得量が\\n[FFBB00,CE4F00]1.2倍[-]になる。[-]=[3C404E]Increases coin gain\nby[FFBB00,CE4F00]1.2 times.[-]
+
+木槌=Mallet
+初期装備=Default weapon
+
+魔法の小槌=Magic Hammer
+[3C404E]ほんきゲージ\n上昇率が\n[FFBB00,CE4F00]1.5倍[-]になる。[-]=[3C404E]Effort Gauge\ngain rate[FFBB00,CE4F00] 1.5x[-]
+
+マヒルお手製ハリセン=Mahiru's Homemade Fan
+[3C404E]コイン獲得量が\n[FFBB00,CE4F00]1.5倍[-]になる。[-]=[3C404E]     Coin\ngain rate[FFBB00,CE4F00] 1.5x[-]
+
+打ちでの小槌=Uchide's Mallet
+[3C404E]攻撃範囲が\n[FFBB00,CE4F00]3倍[-]になる。[-]=[3C404E]Attack range \nincreases [FFBB00,CE4F00]3x.[-]
+
+---Hammer unlock---
+ハンマー解放=Hammer Unlocked
+sr:"^\[FFBB00,CE4F00\](.+)\n\[-\]\[3C404E\]が解放されました。\[-\]$"=[FFBB00,CE4F00]$1[-]\n[3C404E] has been unlocked.[-]
+ハンマーはミニゲーム画面から確認できます。=You can check the hammer\n from the main screen.
+
+---Title---
+チーズ番見習い=Apprentice Cheese Sentry
+チーズ番隊長=Captain Cheese Sentry
+コインマスター=Coin Master
+
+sr:"^累計(.+)獲得で\n「(.+)」ゲット$"=Acquired $1!\nEarned title $2!
+
+獲得した報酬はプレゼントに送られました。=The earned rewards have been sent as gifts.
+
+---Rin's Journal---
+ンの手帳=n's Journal
+ネズミ構成録=Mouse Log
+観察日記=Journal
+討伐数=Killed
+
+日記解放=Journal Entry Unlocked
+日記はミニゲーム画面から確認できます。=You can check the Journal\nfrom the main screen.
+
+熟成=Maturation
+麗しき青=Beautiful Blue
+誘惑=Temptation
+謎は謎のままに=Unsolved Mysteries
+
+---Result screen---
+獲得コインボーナス=Coin Bonus
+残りライフボーナス=Life Bonus
+総討伐数=Defeated
+体=X
+
+---Result Screen Dialog (leaving some empty lines for eventual future additions) ---
+あたしを敵に回した\n恐ろしさ\n思い知ったか！=Have you realized the fear of making me your enemy?!
+ふぅ…\nこれであたしの仕事は\n終わりだね=Phew...\nWith this, my work is done, right?
+やったね！\nこれでようやく\nサボれるよ…=Well done!\nNow I can finally take a break...
+あたしも意外と\nやるもんでしょ？=I'm surprisingly good at this, aren't I?
+
+
+
+疲れた…\nけど、次こそは\n守り抜くよ…=I'm tired...\nBut next time, I'll make sure to protect it...
+疲れた…\nねずみの逃げ足\n速すぎるよ…=I'm sooo tired...\nThese mice are just too faaast...
+
+
+
+やられた…\nねずみって意外と\nてごわいね=They got me...\nMice are unexpectedly tough, aren't they?
+おのれ～\nあたしのチーズを\n盗みやがって～！=Damn you, stealing my cheese!
+まじめに\nやったんだけどな…\n悔しいな～=I was seriously trying, but...\nIt's frustrating~
+このままじゃ\nまっひ～に\n叱られちゃうよ=If this goes on,\nMahy~ will definintely scold me~
+

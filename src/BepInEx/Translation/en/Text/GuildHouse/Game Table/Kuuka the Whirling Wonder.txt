@@ -25,14 +25,14 @@
 ---Result screen---
 起きたハプニング=Unnatural Disasters
 今回の飛距離=Distance Flown
-測定不能=Unfathomable
+測定不能=Unmeasurable
 
 ---Pause menu---
 このエクスタシーをリタイアしますか？=Do you want to quit this ecstasy?
 
 ---Skip replay---
 このリプレイをスキップしますか？=Skip this replay?
-[FF7C4E,D62146]スキップするとミニゲームトップ画面に遷移します。[-]=[FF7C4E, D62146]Skipping will return you to the main screen.[-]
+[FF7C4E,D62146]スキップするとミニゲームトップ画面に遷移します。[-]=[FF7C4E,D62146]Skipping will return you to the main screen.[-]
 
 ---Prize list---
 クウカ大回転で合計30000m飛ばそう=Make Kuuka fly a total of 30,000 meters
