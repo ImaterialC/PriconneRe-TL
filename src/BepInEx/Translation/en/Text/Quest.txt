@@ -103,3 +103,12 @@ r:"^\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個消費
 か所=Place
 
 クエストTOPへ=To the Quest top
+
+---Main Quest Menu---
+未達成=Unfinished
+未達成クエスト=Unfinished Quests
+★3未達成=Not 3★
+サブクエスト=Subquest
+★3クリアしていないクエストを確認できます。=Check quests that are not 3★ yet.
+未達成のクエストがありません。=No unfinished quests.
+クリアしていないサブクエストを確認できます。=Check unfinished subquests.
