@@ -1,0 +1,39 @@
+【物理】後衛で百千の矢を放つ、ぼっちの山籠りエルフ。物理魔法無効バリアで耐え凌ぎ、敵全体への射撃と自分の間合いに入った敵への強力な弓雨の追撃で掃討する。=[Physical] A lone mountain-dwelling elf who unleashes a barrage of arrows from the backline. With a barrier that nullifies P/M.DMG, she withstand and endure attacks, while swiftly eliminating enemies with their powerful volley of arrows, especially those who come within their range.
+
+キャンピングブラスト=Camping Blast
+敵全体に物理中ダメージを与え、さらに前方範囲内の敵すべてに物理大ダメージを与える。=Deals moderate physical damage to all enemies and further inflicts heavy physical damage to all enemies within the front area.
+r:"^敵全体に(\d+)の物理ダメージ\n範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies.\n►Deals $2 P.DMG to enemies within range.
+
+ブッシュショット=Bushshot
+ブッシュショット+=Bushshot+
+敵全体に物理小ダメージを与え、さらに前方範囲内の敵すべてに物理中ダメージを与える。=Deals minor physical damage to all enemies and further inflicts moderate physical damage to all enemies within the front area.
+
+プレシャスコーヒー=Precious Coffee
+自分に物理/魔法無効バリアを展開し、さらにＴＰ上昇を小アップする。=Deploys a physical/magical damage nullification barrier on self and further increases TP slightly.
+
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する\n自分のＴＰ上昇を(\d+)アップ$"=►Deploys a barrier that nullifies P/M.DMG by $1.\n►Increases own TP by $2.
+
+ぼっちキャンパーの流儀=Loner Camper Style
+ぼっちキャンパーの流儀+=Loner Camper Style+
+
+ソロキャンパーボウガン=Solo Camper Bowgun
+r:"^敵全体に(\d+)の物理ダメージ\n範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする$"=►Deals $1 P.DMG to all enemies.\n►Deals $2 P.DMG to enemies within range.\n►Renders enemies within range immobile.
+敵全体に物理中ダメージを与え、さらに前方範囲内の敵すべてに物理大ダメージを与え、スタンさせる。=Deals moderate P.DMG to all enemies and heavy P.DMG to all enemies within frontal range, inflicting stun.
+
+キャンプ講座はじめます！=Starting Camp Course!
+密着取材！　アオイの流儀=In-Depth Coverage! Aoi's Style
+みんなで笑って輪になって=Laughing Together in a Circle
+手作りの理想郷=Handmade Utopia
+
+森を出てから、たくさんのことがありました…\nだから、いくら私でも少しは成長できたと思うんです！\nそんな私の姿を、あなたに見てもらいたいです…！\n=Since leaving the forest, so many things have happened... That's why I think even I have grown a little! I want you to see me in that way...!
+ソロキャンでもグループキャンプでもない\n私たちのキャンプ…その名もＢＢキャンです\n=It's not solo camping or group camping.\nOur camping style is called BB Camp.
+自信を持つのって、なかなか難しいですけど…\nキャンプのことなら、それなりに出来るかもしれません\nだって…正しい知識は嘘をつきませんから！\n=Having confidence is quite difficult... But when it comes to camping, I might be able to handle it to some extent because... Correct knowledge doesn't lie!
+こんな未熟な私ですけど…\nどうか、これからも…その、あの…\n私の、な、仲間でいてくださいっ！　お願いします！\n=Even though I am still inexperienced... Please, from now on... Um, well... Please be my... c-comrade! I beg you!
+でも、団長さんはそんな私を心配してくれました\n呆れたりなんかせず、思いやってくれました\nそのことに気付いた時…とってもうれしかったです…！\n=However, the captain was worried about me. Instead of getting annoyed, they showed concern. When I realized that... I was really happy!
+都会での生活で浮かれて、から回って…\nその挙句に疲れちゃうなんて…\n私、ダメダメですよね。あはは…\n=Getting carried away with city life and ending up exhausted... I'm such a failure. Ahaha...
+アイコンタクトで意思疎通ができると\nかなり友達っぽいですよね。さっそく練習しましょう！\nじ～～っ…………あ、これ、かなり…照れますね……っ\n=Being able to communicate through eye contact makes you feel quite friendly, doesn't it? Let's practice it right away! stares... Ah, um... This is quite embarrassing...
+ありのままでいるのって、実は難しいんですね…\n張りきると、カッコつけたくなっちゃいますし\nいつも自然体でいられる秘訣を教えてもらえませんか？\n=Being true to yourself is actually difficult... When you're enthusiastic, you start wanting to show off. Can you tell me the secret to always being natural?
+どれだけ多くの人と一緒にいても…\n気がついたら、あなたのことを探してるんですよ…\nだから…なるべくそばにいてくれますか…？\n=No matter how many people I'm with... Before I know it, I find myself looking for you... So... Could you stay close to me as much as possible?
+あなたが、私のそばにいてくれることが…\nなんだか奇跡みたいだなって思うんです\nこれはもう大事にするしかないですね、ぼっちの奇跡！\n=The fact that you're by my side... It feels like a miracle, you know. I have no choice but to cherish it, the miracle of a loner!
+当たり前ですよね？　自分でも分かってます\n私なんて、どこにでもいる普通のぼっちですから…\n目立つことのほうが珍しいです。だからこそ…\n=It's obvious, right? I understand it myself. I'm just an ordinary loner who can be found anywhere... Standing out is more unusual. That's why...
+都会には、たくさんの人がいますよね\nでも人がいればいるほど…\n私のことを知らない人も、多く感じちゃうんです\n=In the city, there are so many people, right? But the more people there are, the more I feel like there are many who don't know me.

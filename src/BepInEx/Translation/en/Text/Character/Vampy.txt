@@ -1,11 +1,57 @@
-ヴァンピィちゃん、登場♪=Vampy-chan appears♪
-けんぞくはどっちのもの？=Which is Kenzoku?
-ベスちゃん奪還作戦！=Beth-chan recapture operation!
-夜の学校と謎の少女=Night school and mysterious girl
-故郷はどこに？=Where is your hometown?
-はくしゃくとの決着！=Settlement with Hakusaku!
-約束の花をあなたに=Promised flowers to you
-吸血姫とベス人形=Vampire Princess and Beth doll
+ヴ=V
+ァンピィ=ampy
+釘宮理恵=Kugimiya Rie
+お散歩、お料理=A walk, Cooking
+
+【魔法】中衛で、幼き竜と共に歩むさいきょーの吸血姫。味方全体の強化と、敵のＴＰを吸収するスキルで力を蓄えＵＢ発動後ベスと共闘し防御ダウンと強撃で攻勢に出る。=[Magic] A formidable vampire princess who walks alongside a young dragon as a mid-range fighter. She strengthens the entire party and absorbs enemy TP to accumulate power. After unleashing her UB, she teams up with "Beth" to launch a relentless assault with defense debuffs and powerful strikes.
+
+ヴァンピィちゃん、登場♪=Vampy-chan Makes an Appearance♪
+けんぞくはどっちのもの？=Whose Swordsmanship is Superior?
+ベスちゃん奪還作戦！=Operation Rescue Beth-chan!
+夜の学校と謎の少女=Night School and the Mysterious Girl
+故郷はどこに？=Where is My Hometown?
+はくしゃくとの決着！=Settling the Score with Hakushaku!
+約束の花をあなたに=The Promise Flower for You
+吸血姫とベス人形=Vampire Princess and Beth Doll
+
+エターナル・フレンドシップ=Eternal Friendship
+目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップさせる。さらにＴＰが無くなるまでの間ベスと共闘状態になる。=Deals massive M.DMG to the enemy in front and greatly increases her own M.ATK. Additionally, she enters a cooperative state with "Beth" until her TP is depleted.
+
+ブラッド・ドレイン=Blood Drain
+ブラッド・ドレイン+=Blood Drain+
+r:"^敵単体に(\d+)の魔法ダメージ\n敵単体のＴＰを75失わせる\n自分のＴＰを75回復$"=►Deals $1 M.DMG to a single enemy. \n►Reduces the TP of the target enemy by 75. \n►Recovers own TP by 75.
+目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、さらに自分のＴＰを小回復させる。=Deals high M.DMG to the enemy in front, slightly reduces TP, and also slightly recovers her own TP.
+
+クリムゾンギフト=Crimson Gift
+味方全体の魔法攻撃力を大アップさせる。=Greatly increases the magic attack power of all allies.
+
+おしおきしちゃうよっ！+=I'll Punish You!+
+おしおきしちゃうよっ！=I'll Punish You!
+
+このスキルのスキルレベルは「エターナル・フレンドシップ」と連動しています=This skill’s skill level is linked to Eternal Friendship
+
+リトルブレス=Little Breath
+スカーレット・リンク=Scarlet Link
+目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を大アップさせる。=Deals heavy magic damage to the enemy in front, and further increases own magic attack power.
+目の前の敵１キャラに魔法大ダメージを与え、さらに魔法防御力を大ダウンさせる。=Deals heavy magic damage to the enemy in front, and greatly decreases their magic defense.
+
+
+ねぇねぇ、けんぞくぅ～♪\n…えへへ！　なんでもなーい！\nちょっと言ってみたかっただけ♪\n=Hey, hey, Kensoku~♪ ...Ehehe! It's nothing, really! I just wanted to say it for fun♪
+もーけんぞくは世話が焼けるんですからー\nご主人様として、けんぞくのことは\nヴァンピィちゃんが見ててあげないと！\n=But Kensoku can be quite a handful, you know. As your master, Vampy-chan needs to look after Kensoku!
+…そーだよ？　ヴァンピィちゃんは\nアンタのことすっごく気に入ってるんだから！\n大切に、大切にするんだからね！\n=...That's right, Vampy-chan really likes you! I'll cherish you, I promise!
+ヴァンピィちゃんはアンタのご主人様だし…\nそれに、けんぞくに嫌われちゃうのは\nやっぱりイヤだもん…\n=Vampy-chan is your master... And besides, I don't want Kensoku to dislike me...
+けんぞくっておいしそーな匂いがするねー！\nあっ、でもヴァンピィちゃん、急にがおーって\nおそったりしませんからっ！\n=Kensoku has such a delicious smell! Oh, but don't worry, Vampy-chan won't suddenly... pounce on you!
+けんぞく！　あーん♪\nフルーツ、おいしい？　ベスちゃんも好きなんだよ！\nけんぞくも、もっと大きくなーれ♪\n=Kensoku, ahh~♪ Are the fruits tasty? Beth-chan also likes them! Kensoku, grow even bigger!
+けんぞく、ご主人様のゆーことはちゃんと聞くのよ？\nたとえば…危ないものには近づかないこと！\nヴァンピィちゃんのそばを離れないこと！　分かった？\n=Kensoku, make sure to listen to your master, okay? For example... don't go near dangerous things! Don't leave Vampy-chan's side! Got it?
+けんぞくはよわよわなんだから、無理しちゃメッよ？\nどーしてもって時は、ヴァンピィちゃんを呼ぶこと！\n大怪我したら、ヴァンピィちゃん泣いちゃうからね！\n=Since Kensoku is weak, don't overexert yourself, okay? If there's no other way, call for Vampy-chan! If you get seriously hurt, Vampy-chan will cry!
+アンタは、ヴァンピィちゃんのそばにいること！\n…え？　他にはないのか？\nうん！　それだけでいいの！　約束だよ、けんぞくぅ♪\n=You need to stay by Vampy-chan's side! ...Huh? Isn't there anything else? Nope! That's all! It's a promise, Kensoku~♪
+けんぞくを助けたり守るのは、ご主人様のぎむなの！\nだから、困ったときはヴァンピィちゃんに言うのよ？\nそのかわり…\n=It's your duty as a master to help and protect Kensoku! So, when you're in trouble, tell Vampy-chan, okay? In return...
+いーい？\nまだ、ほんとーのけーやくは結んでないけど\nアンタはヴァンピィちゃんのけんぞくなんだからね？\n=Alright? We haven't officially made the true contract yet, but since you're Vampy-chan's Kensoku, right?
+
+
+
+
+
 
 r:"^ゴロツキに絡まれていた(.{1,10})を助けてくれたのは、謎の少女ヴァンピィだった。友だちのドラゴン『ベス』を探すヴァンピィのために(.{1,10})は協力することに。$"="It was Vampy, a mysterious girl, who helped $1, who was entwined with Gorotsuki. Finding her friend's dragon "Beth".$1 decides to cooperate for Vampy."
 r:"^ベスを探す(.{1,10})とヴァンピィ。そんな二人の前に、吸血鬼のイリヤが現れる。かくして(.{1,10})を巡り、イリヤとヴァンピィによる眷属の取り合いが始まるのだった。$"=$1 and Vampy looking for Beth. A vampire, Illya, appears in front of them. Thus, over $1, Illya and Vampy began to fight for the genus.
@@ -20,3 +66,4 @@ r:"^ヴァンピィたちを誘拐した黒幕が『伯爵』だと判明。単�
 r:"^『伯爵』の供述によって、ヴァンピィの故郷がすでにないことを知る。永い眠りの末、大切な記憶を失ったヴァンピィのために、(.{1,10})とベスはひとつの約束をヴァンピィに伝えるのだった。$"="The statement of "Count" tells us that Vampy's hometown is no longer there. $1 and Beth tell Vampy a promise for Vampy, who lost her precious memory after a long sleep."
 
 r:"^眠る(.{1,10})の前に現れたヴァンピィは、ぬいぐるみのベスを紹介。『レジェンドオブアストルム』にもベスがいると知ったヴァンピィは、(.{1,10})とゲームで会う約束をするのだった。$"="Vampy, who appeared in front of Sleeping $1, introduced Beth, a stuffed animal. Knowing that Beth is also in Legend of Astrum, Vampy promises to meet $1 in the game."
+

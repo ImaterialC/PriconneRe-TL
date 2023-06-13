@@ -1,28 +1,28 @@
 ミリア=milia 
 銀髪のおっとりハーフエルフ=A gentle silver-haired half elf
----Profile
+---Profile---
 ハーフエルフ=Half elf
 パックの毛繕い、勉強=Hair grooming and Studying
 
----Skills
----UB
+---Skills---
+---UB---
 約束の花園=Promised Field
 最もＨＰが低い味方１キャラのＨＰを特大回復させ、さらに味方全体の物理防御力と魔法防御力を中アップさせる。=Recovers the HP of the ally with the lowest HP by a massive amount. Moderate boost to the P.DEF and M.DEF of all allies.
-r:"^味方単体のＨＰを(\d+)回復\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=Recovers an ally's HP by $1.\nBoosts allies' P.DEF by $2.\nBoosts allies' M.DEF by $3.
----S1
+r:"^味方単体のＨＰを(\d+)回復\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=►Recovers an ally's HP by $1.\n►Boosts allies' P.DEF by $2.\n►Boosts allies' M.DEF by $3.
+---S1---
 目の前の敵１キャラに魔法中ダメージを与え、さらに自分の魔法攻撃力を中アップさせる。=Deals moderate M.DMG to an enemy directly in front. Moderate boost to own M.ATK.
-r:"^敵単体に(\d+)の魔法ダメージ\n自分の魔法攻撃力を(\d+)アップ$"=Deals $1 M.DMG to an enemy.\nBoosts own M.ATK by $2.
----S2
+r:"^敵単体に(\d+)の魔法ダメージ\n自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Boosts own M.ATK by $2.
+---S2---
 前方範囲内のランダムな敵キャラに、単体魔法小ダメージを計４回与える。=Deals small M.DMG to a random enemy in range 4 times.
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ$"=Deals $1 M.DMG to an enemy.\nDeals $2 M.DMG to an enemy.\nDeals $3 M.DMG to an enemy.\nDeals $4 M.DMG to an enemy.
----ex
+r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n►Deals $3 M.DMG to an enemy.\n►Deals $4 M.DMG to an enemy.
+---ex---
 大精霊との契約=Great Spirit Contract
----Skills+
----UB
----S1
+---Skills+---
+---UB---
+---S1---
 目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を特大アップさせる。=Deals Large M.DMG to one enemy in front of you, and also increase your M.ATK power.
----S2
----ex
+---S2---
+---ex---
 大精霊との契約+=Great Spirit Contract+
----UE
+---UE---
 約束の花束=Promised Bouquet

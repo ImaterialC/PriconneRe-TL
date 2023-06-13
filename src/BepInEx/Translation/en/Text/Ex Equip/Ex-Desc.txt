@@ -1,4 +1,4 @@
-Pink ----------------------------------------------------------
+---Pink ----------------------------------------------------------
 ソードオブエレメント=Sword of Element
 貴忠装リヴガルデット=Tadatada Live Gardette
 インドミタブルスカイ=Indian Mitables Sky
@@ -33,7 +33,7 @@ Pink ----------------------------------------------------------
 ドラグーンファング=Dragon Fang
 獄炎をまとう竜の牙から作られた大槍。穂先で大地をなぞるだけで炎が吹き上がり、瞬く間に周囲を煉獄に変えてしまうという。=A large spear made from the fang of a hellfire dragon. It is said that just by tracing the ground with the tip, flames will shoot up, turning the surroundings into purgatory in the blink of an eye.
 
-Gold ----------------------------------------------------------
+---Gold ----------------------------------------------------------
 【クラン】ウィズダムオブノーブル=[Clan] Wizdom of Noble
 【クラン】ワイズオブノーブル=[Clan] Wise of Noble
 【クラン】ウィズダムオブシャーマン=[Clan] Wisdom of Shaman
@@ -209,7 +209,7 @@ Gold ----------------------------------------------------------
 伊藤美来すこすこ侍=Mika Ito Samurai Mail
 貴族が決闘の際に着用する服装。見事な装飾が目を引くが、使われている生地は強力な魔物の皮であり、並の鎧よりはるかに堅牢である。=Clothes worn by nobles during duel. The stunning decorations are eye-catching, but the fabric used is a strong monster skin, much more robust than the average armor.
 
-Silver---------------------------------------------------------------------------------
+---Silver---------------------------------------------------------------------------------
 【クラン】ウィッシュオブセージ=[Clan] Wish of Sage
 虹色に輝く鉱石を、職人が丁寧に加工した魔導書。強く他者を想うほど鉱石に力が宿り、多彩な秘術を扱えるようになる。=A magic book carefully processed by craftsmen with a rainbow ore. The more you strongly think of others, the more powerful you are, and you will be able to handle a variety of secrets.
 
@@ -382,7 +382,7 @@ Silver--------------------------------------------------------------------------
 ソルジャーソード=Soldier Sword
 軍隊で採用されている両刃の大剣。安価で大量に揃えることができ、素直な性能で使い手を選ばない。=A double -edged sword adopted by the army. It is inexpensive and can be prepared in large quantities, and does not choose the user with obedient performance.
 
-Bronze---------------------------------------------------------------------------------
+---Bronze---------------------------------------------------------------------------------
 
 ガラス玉のオーブ=Glass Ball Orb
 ガラス製の安価なオーブ。微量だが魔力が込められており、駆け出しの魔法使いにとっては扱いやすい補助具となっている。=Inexpensive orb made of glass. Although it is a small amount, it is an easy -to -handle auxiliary tool for the wizard that is a driving wizard.
@@ -441,3 +441,15 @@ Bronze--------------------------------------------------------------------------
 ストーンソード=Stone sword
 一般的な石材で制作された大剣。切れ味が鈍くほぼ鈍器に近いが、手入れが簡単で荒くれ者に好まれる。=A large sword produced with general stone. Although the sharpness is slow and close to the blunt instrument, it is easy to clean and is preferred by those who are rough.
 
+数多の罪人を裁いたという審問官の耳飾り。持ち主が戒律に忠実であれば、あらゆる悪意や混沌を退け、秩序と安寧を約束するという。=The earring of an Inquisitor said to have judged countless sinners. It is said that as long as the wearer is faithful to the precepts, they will repel all malice and chaos, and promise order and peace.
+戦場で王を守り抜いたという、伝説の近衛兵の装束。激しい戦いを経てもほつれひとつなく高貴な威容を保ち、味方を大いに勇気づけた。=Legendary attire of the royal guards who protected the king on the battlefield. Despite enduring fierce battles, it maintains a noble appearance without a single frayed edge, greatly inspiring allies with courage.
+人間が精霊と契約を交わす際に用いられたとされる指輪。精霊のために戦う限り、装備者は万難を排する力を得られたという。=A ring believed to be used when humans form contracts with spirits. As long as the wearer fights for the spirits, they gain the power to overcome any hardship.
+海底から発掘された、世界最大級の宝石を用いている盾。非常に高価だが性能も相応で、生半可な攻撃では表面に傷ひとつつけられない。=A shield adorned with the world's largest gemstone, excavated from the depths of the sea. It is highly valuable and its performance matches its price, as it cannot be scratched by ordinary attacks.
+エルフの古代魔法の粋を集めて制作された魔法弓。風の精霊の力を借りることで、木々を薙ぎ払い、地面をえぐるほどの一矢を放つ。=A magical bow crafted by gathering the essence of ancient elven magic. By harnessing the power of the wind spirits, it unleashes an arrow that mows down trees and cuts through the ground.
+雷の化身である幻獣の角を用いた短剣。使い手は天を味方につけるとされ、掲げれば嵐が起き、振りぬけば雷を放ち、敵対者をうち滅ぼす。=A dagger adorned with the horn of a mythical creature embodying thunder. It is said that the wielder gains the favor of the heavens, summoning storms and unleashing lightning to vanquish enemies.
+優れた治世によって歴史に名を刻んだ王の耳飾り。膨大な知識と明晰な判断力を得られ、高度な魔法の行使を実現する。=Earrings of a renowned king who left a mark in history with excellent governance. They bestow vast knowledge and keen judgment, enabling the proficient use of advanced magic.
+虹色に輝く鉱石を、職人が丁寧に加工した耳飾り。誰かとの絆を守りたいと願うと、呼応するかのように自然の力を授けてくれる。=Earrings crafted by skilled artisans from shimmering rainbow-colored gemstones. When one wishes to protect a bond, they seem to respond by granting the wearer the power of nature.
+遥か東の国から伝わった、巫女がまとう法衣。全身をおおう神聖な気が邪悪な魔力から着用者を守ってくれる。=Robes worn by shrine maidens from a distant eastern country. The sacred aura enveloping the entire body protects the wearer from malevolent dark magic.
+中級の攻撃魔法が多数収録されている書物。実用的でありながら修得は難しくないため、多くの魔法使いに読まれている。=A tome containing numerous intermediate-level attack spells. It is practical yet not too difficult to master, making it widely read among many spellcasters.
+特殊な魔法が記された本。基本の系統からは外れるが、使用者の能力を高めるための専門的な魔法を多種学ぶことができる。=A book containing specialized magic spells. It deviates from the fundamental system but allows the user to learn various specialized spells that enhance their abilities.
+複数の弦を持つ特殊な弓。矢を放つだけではなく音楽も奏でられ、その音色は耳にした者の戦意を高揚させる効果がある。=A unique bow with multiple strings. Not only does it shoot arrows, but it also produces music, the melodies of which uplift the fighting spirit of those who hear it.

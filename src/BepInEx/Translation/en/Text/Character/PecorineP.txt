@@ -26,5 +26,5 @@ r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d
 オニギリタイム=Onigiri Time
 ロイヤルスラッシュ=Royal slash
 ロイヤルスピリット+=Royal Spirit+
-ロイヤルスピリット+=Royal Spirit
+ロイヤルスピリット=Royal Spirit
 ロイヤルプリンセスドレス=Royal Princess Dress

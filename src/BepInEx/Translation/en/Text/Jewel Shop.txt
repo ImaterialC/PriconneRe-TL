@@ -41,19 +41,24 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 デイリージュエルパック=Daily Jewel Pack
 デイリージュエルパック購入=Buy Daily Jewel Packs
 デイリージュエルパックについて=About Daily Jewel Packs
+デイリージュエルパック期間通知=Daily Jewel Pack Period Notification
 7日間スタミナ応援パック=7 Days Stamina Pack
 7日間スタミナ応援パック購入=Buy 7 Days Stamina Pack
 7日間スタミナ応援パックについて=About 7 Days Stamina Pack
+7日間スタミナ応援パッ期間通知=7 Days Stamina Pack Period Notification
 30日間スタミナ応援パック=30 Days Stamina Pack
 30日間スタミナ応援パック購入=Buy 30-Days Stamina Pack
 30日間スタミナ応援パックについて=About 30 Days Stamina Pack
+30日間スタミナ応援パッ期間通知=30 Days Stamina Pack Period Notification
   pack
 7日間探索挑戦回数+3回=7 days Grotto +3 pack
 7日間探索挑戦回数+3回購入=Buy 7 days Grotto +3 pack
 7日間探索挑戦回数+3回について=About 7 days Grotto +3 pack
+7日間探索挑戦回数+3回期間通知=7 days Grotto +3 pack Period Notification
 30日間探索挑戦回数+3回=30 days Grotto +3 pack
 30日間探索挑戦回数+3回購入=Buy 30 days Grotto +3 pack
 30日間探索挑戦回数+3回について=About 30 days Grotto +3 pack
+30日間探索挑戦回数+3回期間通知=30 days Grotto +3 pack Period Notification
 購入Lv制限あり=Purchase Lv Limit
 
 sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of [FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1pt[-]?[-]
@@ -95,7 +100,7 @@ r:"^探索挑戦回数+(\d+)回の期間が\n追加されました。$"=Grotto A
 購入成功=Purchase Successful
 
 
----Age registration
+---Age registration---
 入力する=input
 年齢確認=Age Confirmation
 16歳未満=under 16yo
@@ -143,3 +148,8 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 決済手続=Payment Procedure
 r:"^\[3C404E\]\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\]\[-\]$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The jewels and mana purchased here\ncan be used on the DMM version[-].[-]
 
+sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C404E\]で終了します。\n購入ページへ移動しますか?\[-\]$"=[3C404E]The period of the $1\nwill end in FF7C4E,D62146]$2 day(s)[-].\nWould you like to go to the Purchase Page?[-]
+購入ページへ=To the Purchase Page
+
+r:"^プレイヤーLv(\d+)まで購入可能$"=Under Lv$1 Only!
+r:"^([0-9/]+) に追加購入可能$"=Available on $1

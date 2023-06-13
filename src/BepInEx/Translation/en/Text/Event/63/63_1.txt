@@ -29,7 +29,7 @@ r:"^(\[3C404EFF\])?(.{2,10})！\n(.{2,10})さん！$"=$2!\n$3-san!
 ご歓談の最中、申し訳ありません。\n間もなく──到着にございます。=I apologize for interrupting your pleasantries. We will be arriving shortly.
 ここがかつて、伝説の吸血鬼……わらわがおった地……？=This is the legendary vampire... the land I came from...?
 へぇ、ちゃんとした街だね。\n今のボクのファッションにぴったりな雰囲気じゃないか♪=Wow, it's a proper city. It's the perfect atmosphere for my current fashion. ♪
-ようこそお越しくださいました。\nいえ──おかえりなさいませ、と言うべきですな。=Welcome back. No, I should say welcome back.
+ようこそお越しくださいました。\nいえ──おかえりなさいませ、と言うべきですな。=Welcome back. No, I should say welcome home.
 この雰囲気……確かに懐かしいような気はする。\nじゃが、やはりはっきりとは思い出せんな……=This atmosphere... It does feel nostalgic. But, I still can't remember it clearly...
 ──グオオオオオッ！=Guoooooooh!
 街の入り口に魔物の群れじゃと！？\nブラド貴様、わらわをたばかりおったか！？=A swarm of monsters at the entrance to the city?! Brad, did you just leave me alone?!
@@ -85,7 +85,7 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 ここは、そういった場所なのです。=That's the kind of place this is.
 この地に関するいわくは分かった。\nじゃが、やはりわらわには実感がない。\nその真偽を語る術も持ってはおらぬ。=I understand what you're saying about this place, but it still doesn't feel real to me. I don't have the means to tell you the truth.
 ええ、そうなのでしょう。\nその原因は……かつての戦いによる、封印が関係しているのかと。=Yes, that's right. The reason for that...is because of the seal from the previous battle.
-そう、そのお姿が……魔力が戻っただけでは、\n伝説の吸血鬼の完全復活とはいえぬのです……！\nあなた様は思い出さなくてはならない、かの伝説のすべてを……！=Yes, that form... You can’t call it the complete resurrection of a legendary vampire just because your magical energy has returned...!You must remember all of that legend...!
+そう、そのお姿が……魔力が戻っただけでは、\n伝説の吸血鬼の完全復活とはいえぬのです……！\nあなた様は思い出さなくてはならない、かの伝説のすべてを……！=Yes, that form... You can’t call it the complete resurrection of a legendary vampire just because your magical energy has returned...! You must remember all of that legend...!
 思い出す……わらわのすべてを……？=Remember... everything about me...?
 あの時聞いた声は、わらわの記憶じゃというのか……？　=Was the voice I heard back then a memory of mine...?　
 伝説とかなんとかはよくわかんないけどさー、具体的にはどうするわけ？\n記憶喪失って簡単に治らないみたいだよ。\n……ね？=I don't really understand legends or anything, but what exactly are you going to do? Amnesia doesn't seem to heal easily. ...Right?
@@ -185,7 +185,7 @@ r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何�
 [3C404EFF]ここは、[3C404EFF]そういった場所なのです。=That's the kind of place this is.
 [3C404EFF]この地に関するいわくは分かった。[3C404EFF]\n[3C404EFF]じゃが、[3C404EFF]やはりわらわには実感がない。[3C404EFF]\n[3C404EFF]その真偽を語る術も持ってはおらぬ。=I understand what you're saying about this place, but it still doesn't feel real to me. I don't have the means to tell you the truth.
 [3C404EFF]ええ、[3C404EFF]そうなのでしょう。[3C404EFF]\n[3C404EFF]その原因は……[3C404EFF]かつての戦いによる、[3C404EFF]封印が関係しているのかと。=Yes, that's right. The reason for that...is because of the seal from the previous battle.
-[3C404EFF]そう、[3C404EFF]そのお姿が……[3C404EFF]魔力が戻っただけでは、[3C404EFF]\n伝説の吸血鬼の完全復活とはいえぬのです……！[3C404EFF]\n[3C404EFF]あなた様は思い出さなくてはならない、[3C404EFF]かの伝説のすべてを……！=Yes, that form... You can’t call it the complete resurrection of a legendary vampire just because your magical energy has returned...!You must remember all of that legend...!
+[3C404EFF]そう、[3C404EFF]そのお姿が……[3C404EFF]魔力が戻っただけでは、[3C404EFF]\n伝説の吸血鬼の完全復活とはいえぬのです……！[3C404EFF]\n[3C404EFF]あなた様は思い出さなくてはならない、[3C404EFF]かの伝説のすべてを……！=Yes, that form... You can’t call it the complete resurrection of a legendary vampire just because your magical energy has returned...! You must remember all of that legend...!
 [3C404EFF]思い出す……[3C404EFF]わらわのすべてを……？=Remember... everything about me...?
 [3C404EFF]あの時聞いた声は、[3C404EFF]わらわの記憶じゃというのか……？　=Was the voice I heard back then a memory of mine...?　
 [3C404EFF]伝説とかなんとかはよくわかんないけどさー、[3C404EFF]具体的にはどうするわけ？[3C404EFF]\n[3C404EFF]記憶喪失って簡単に治らないみたいだよ。[3C404EFF]\n[3C404EFF]……ね？=I don't really understand legends or anything, but what exactly are you going to do? Amnesia doesn't seem to heal easily. ...Right?

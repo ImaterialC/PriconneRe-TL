@@ -12,5 +12,3 @@
 sr:"^ストーリーイベント「(.+)」の\nミッション「(.+)を1体倒そう（HARD限定）」を達成すると確認できます。$"="You can select once finished the story event of \n"$1"\nand defeat $2 (Hard or above) at least once."
 
 既に設定されています。=It has already been set.
-
-エンジョイ＆リフレッシュ！でこぼこガールズ・キャンプ=Enjoy & refresh! Bubko Girls Camp

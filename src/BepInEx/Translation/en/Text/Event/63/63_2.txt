@@ -12,8 +12,8 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 ご機嫌だね、イリヤ。=You’re in a good mood, Illya.
 いやユキ、お主はさまを付けぬか。\nなんならそこで魔物たちに交ざってひざまずいてもいいくらいじゃぞ。\nほれほれ、あのように頭を下げてわらわを崇めよ。=No, Yuki, you should join the familiar and use lady? You can kneel there if you want. Come on, bow your head and worship me.
 なに言ってるのさ。\n彼らはボクの髪の艶めきに目がくらんで頭を下げてるんだよ？=What are you talking about? They’re bowing their heads, blinded by the luster of my hair
-イリヤ様万歳言うとるのに！？=Even though they said "All hailI Lady llya!?"
-……とまぁ、ひとしきりいい気分になってみたはよいが。\nこやつらを率いるとは言うても、何をしたらいいんじゃろうな。=...Well, it's good to feel good for a while. I say I'll lead them, but what should I do?
+イリヤ様万歳言うとるのに！？=Even though they said "All hail Lady Illya!?"
+……とまぁ、ひとしきりいい気分になってみたはよいが。\nこやつらを率いるとは言うても、何をしたらいいんじゃろうな。=...Well, it's nice to feel this way. Even if I say I'll lead them, what should I do?
 スケジュールでしたら、すでに決まっております。=If you're looking for a schedule, it's already been decided.
 ふむ、申してみよ。=Hmm, let's hear it.
 伝説の吸血鬼が復活し、この地に降臨された件。\n闇を生きる者たちの情報網によって、すでに各地に広がっております。=The story of the legendary vampire reviving and descending upon this land. The information network of those who live in the darkness has already spread throughout the land.
@@ -26,7 +26,7 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 なぜわらわにプレッシャーをかけた！？=Why did you put pressure on me?!
 ううむ、余計に気が乗らなくなってきたわ。\n眷属よ、なにかいいアイデアはないかの？=Hmm, I'm getting even more disinterested. Familiar, do you have any good ideas?
 僕が代わりにやる。=I'll do it in your place.
-ユキが代わりにやる。=Let Yuki does it instead.
+ユキが代わりにやる。=Let Yuki do it instead.
 なるほど、お主がわらわの代弁者として謁見を進めるわけか。\nそれはよい考えじゃのう！=I see. So you're going to proceed with the audience on my behalf? That's a good idea!
 よし、では任せた！\nわらわはその辺でふんぞり返っておこう！=All right, then! I'll leave it to you! Let's leave it at that!
 ……などという冗談はさておき。\nそれがわらわの完全復活への近道というならばやるしかあるまい。=...Putting all jokes aside, if that was a shortcut to my complete resurrection, then I had no choice but to do it.
@@ -54,7 +54,7 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 誰じゃそんな噂を広めたの！？=Who spread such rumors?!
 もしやイリヤ様……ニンニクが……？=Lady Illya... is garlic...?
 えっ？\nあ、いや……そんなことはない、ぞ……？=Huh? Oh, no... That's not true...
-ぐぬぬ……わらわの頭の中のユキが囁いておる……！\nどこまでもはた迷惑なやつじゃ……！　=Grrr... The Yuki in my head is whispering to me...! She's such a nuisance...!　
+ぐぬぬ……わらわの頭の中のユキが囁いておる……！\nどこまでもはた迷惑なやつじゃ……！　=Grrr... The Yuki in my head is whispering to me...! He's such a nuisance...!　
 えっ、なにイリヤ、どうしてボクをにらんでるの……？\nボク何も言ってないけど……=Huh? What is it, Illya? Why are you glaring at me...? I didn’t say anything...
 ここで突っぱねるのも夜を統べる者としての威厳が……！\nええい、腹をくくるしかあるまい……！　=Rejecting here would be a sign of my dignity as the ruler of the night! Argh, I have no choice but to brace myself!　
 そっ、そうじゃな……とてもおいしそうなニンニクじゃ……！\nい、いただくと……しよう……=Th-That's right... It looks really good...! I-I'll... have some...
@@ -62,7 +62,7 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 おっ、お主……！=Y-You...!
 ああっ、なんということを……！=Aaah, how dare you...!
 すごく美味しそうだったから。=Because it looked really good.
-ふっ、どうやら我が眷属も喜んでおるようじゃ。\n此度の献上品、実に良いものであったぞ。=Heh, it seems My familiars are pleased as well. This gift was quite good.
+ふっ、どうやら我が眷属も喜んでおるようじゃ。\n此度の献上品、実に良いものであったぞ。=Heh, it seems familiars are pleased as well. This gift was quite good.
 お主たちを夜を統べる者の同胞として、認めようぞ……！=I’ll recognize you as my brethren, the rulers of the night!
 ははーっ！\nありがたき幸せ……！=Haha! I'm so happy!
 ふぅ……まったく、よりによってニンニクを持ってくるとは。\nじゃが、何とかなってよかったわい。\nこれもよい眷属を持ったおかげじゃな！　ハーッハッ──=*sigh*... I can't believe you brought garlic, of all things. Still, I'm glad it worked out somehow. This is all thanks to having a good familiar! Haha~
@@ -79,7 +79,7 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 ……こほん。\nイリヤ様、次のお客様がお待ちで──=...Ahem. Lady Illya, the next customer is waiting for you--
 よぉ、邪魔するぜ……！=Hey, sorry to bother you...!
 凶悪そうな魔物=Fiendish-looking monsters
-へぇ、あんたが伝説の吸血鬼か。\nなんだ、どんなバケモノかと思ったが、\nニンゲンと大して変わらねぇじゃねぇか……=Huh, so you’re the legendary vampire, huh? I was wondering what kind of monster you were, but you weren’t much different from a Human...
+へぇ、あんたが伝説の吸血鬼か。\nなんだ、どんなバケモノかと思ったが、\nニンゲンと大して変わらねぇじゃねぇか……=Huh, so you’re the legendary vampire, huh? I was wondering what kind of monster you were, but you weren’t much different from a human...
 なんかわかりやすいのが来たよ。\nボクには他の魔物との見分けがつかないけど。=There's something easy to understand here. I can't tell them apart from the other monsters, though.
 あー、お主はアレじゃろ？\n伝説の吸血鬼が復活したと聞き及び、\n倒して名を上げようと思ったのじゃろう？=Ah, you're that thing, aren't you? When you heard that the legendary vampire had revived, you thought you'd defeat him and make a name for yourself, right?
 さすがだな、このオレサマの野望も全部お見通しってワケか！\nそうだ、伝説とやらをこのオレサマが終わらせてやろうってワケさ！=I knew you'd see through all my ambitions! That's right, I'm going to put an end to this legend!
@@ -91,7 +91,7 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 ニンニクの恨みをぶつける、の間違いだよね？=You're going to take out your garlic grudge, right?
 へっ、よく分からねぇが、\n挑戦を受けるってことでいいんだよな！？=Heh, I don't really get it, but we're taking on a challenge, right?!
 よい。\n──少し遊んでやろう。=It's fine. Let's play a little.
-……！\n大した気迫だ……さすがだぜ……！\nおおっと、間合いには気を付けねぇとな……！=......! That's some spirit......I knew you'd do it......!Whoops, I need to be careful of the distance......!!
+……！\n大した気迫だ……さすがだぜ……！\nおおっと、間合いには気を付けねぇとな……！=......! That's some spirit......I knew you'd do it......! Whoops, I need to be careful of the distance......!!
 ふっ、でかい図体の割に随分と臆病ではないか。=Heh. You're quite the coward for your huge frame.
 当然だ。知ってるんだぜ？\n伝説の吸血鬼は、とんでもない距離まで首を伸ばして吸血できるんだろ？\nあの空に浮かぶ月にまで届いたっていうじゃねぇか！=Of course. I know, you know? Legendary vampires can stretch their necks to an unbelievable distance and suck blood, right? They even reached that moon floating in the sky!
 ……んっ？=...Hm?
@@ -111,8 +111,6 @@ r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物た�
 なんでオレサマまでーーーっ！？=Why am I here too!?
 復活の報を受け訪れる様々な者たちと交流したイリヤ。\nその苦労の甲斐もあり、\nこの地に集う闇の者たちの数は大きく増加したのであった。=Illya mingles with the various people who receive the news of her resurrection. Thanks to that hardship, the number of people gathered here has greatly increased.
 
-
-
 伝説の吸血鬼が語り継がれる地にて、主として祭り上げられたイリヤ。\n玉座に座る彼女の元には、魔物たちがひっきりなしに訪れていた。=Illya is worshipped as the master of the land passed down through the generations as a legendary vampire. Monsters visit her incessantly as she sits on the throne.
 [3C404EFF]イリヤ様、[3C404EFF]ばんざーい！[3C404EFF]\nイリヤ様、[3C404EFF]ばんざーい！=All hail Lady Illya!\nAll hail Lady Illya!
 イリヤさま、ばんざーい！=All hail Lady Illya!
@@ -123,7 +121,7 @@ r:"^(\[3C404EFF\])?ハッハッハ！　(\[3C404EFF\])?見ておるか(.{2,10})�
 [3C404EFF]ご機嫌だね、[3C404EFF]イリヤ。=You’re in a good mood, Illya.
 [3C404EFF]いやユキ、[3C404EFF]お主はさまを付けぬか。[3C404EFF]\nなんならそこで魔物たちに交ざって[3C404EFF]ひざまずいてもいいくらいじゃぞ。[3C404EFF]\n[3C404EFF]ほれほれ、[3C404EFF]あのように頭を下げてわらわを崇めよ。=No, Yuki, you should join the familiars and use lady?\nYou can kneel there. Come on, bow your head and worship me.
 [3C404EFF]なに言ってるのさ。[3C404EFF]\n彼らはボクの髪の艶めきに目がくらんで[3C404EFF]頭を下げてるんだよ？=What are you talking about?\nThey’re bowing their heads, blinded by the luster of my hair
-[3C404EFF]イリヤ様万歳言うとるのに！？=Even though they said "All hailI Lady llya!?"
+[3C404EFF]イリヤ様万歳言うとるのに！？=Even though they said "All hail Lady Illya!?"
 [3C404EFF]……とまぁ、[3C404EFF]ひとしきりいい気分になってみたはよいが。[3C404EFF]\n[3C404EFF]こやつらを率いるとは言うても、[3C404EFF]何をしたらいいんじゃろうな。=...Well, it's good to feel good for a while.\nI say I'll lead them, but what should I do?
 [3C404EFF]スケジュールでしたら、[3C404EFF]すでに決まっております。=If you're looking for a schedule,\nit's already been decided.
 [3C404EFF]ふむ、[3C404EFF]申してみよ。=Hmm,\nlet's hear it.
@@ -170,7 +168,7 @@ r:"^(\[3C404EFF\])?ハッハッハ！　(\[3C404EFF\])?見ておるか(.{2,10})�
 [3C404EFF]おっ、[3C404EFF]お主……！=Y-You...!
 [3C404EFF]ああっ、[3C404EFF]なんということを……！=Aaah, how dare you...!
 r:"^(\[3C404EFF\])?(.{2,10})よ……(\[3C404EFF\])?お主、(\[3C404EFF\])?わらわのために……！　$"=$2... You did it for me...!　
-[3C404EFF]ふっ、[3C404EFF]どうやら我が眷属も喜んでおるようじゃ。[3C404EFF]\n[3C404EFF]此度の献上品、[3C404EFF]実に良いものであったぞ。=Heh, it seems My familiars are pleased as well. This gift was quite good.
+[3C404EFF]ふっ、[3C404EFF]どうやら我が眷属も喜んでおるようじゃ。[3C404EFF]\n[3C404EFF]此度の献上品、[3C404EFF]実に良いものであったぞ。=Heh, it seems familiars are pleased as well. This gift was quite good.
 [3C404EFF]お主たちを[3C404EFF]夜を統べる者の同胞として、[3C404EFF]認めようぞ……！=I’ll recognize you as my brethren, the rulers of the night!
 [3C404EFF]Hahaaa![3C404EFF]\nありがたき幸せ……！=Hahaaa! I'm so happy...!
 [3C404EFF]ふぅ……[3C404EFF]まったく、[3C404EFF]よりによってニンニクを持ってくるとは。[3C404EFF]\n[3C404EFF]じゃが、[3C404EFF]何とかなってよかったわい。[3C404EFF]\n[3C404EFF]これもよい眷属を持ったおかげじゃな！　[3C404EFF]ハーッハッ──=*sigh*... I can't believe you brought garlic, of all things. Still, I'm glad it worked out somehow. This is all thanks to having a good familiar! Haha~
@@ -187,7 +185,7 @@ r:"^(\[3C404EFF\])?(.{2,10})よ……(\[3C404EFF\])?お主、(\[3C404EFF\])?わ�
 [3C404EFF]伝説が……[3C404EFF]伝説の伝わり方がおかしいのじゃ……！[3C404EFF]\n[3C404EFF]一体なにがどうなってこんな話が伝わっておるのじゃ……！？=There's something wrong with the legend...! What the hell is going on here?!
 [3C404EFF]……こほん。[3C404EFF]\n[3C404EFF]イリヤ様、[3C404EFF]次のお客様がお待ちで──=...Ahem. Lady Illya, the next customer is waiting for you--
 [3C404EFF]よぉ、[3C404EFF]邪魔するぜ……！=Hey, sorry to bother you...!
-[3C404EFF]へぇ、[3C404EFF]あんたが伝説の吸血鬼か。[3C404EFF]\nなんだ、[3C404EFF]どんなバケモノかと思ったが、[3C404EFF]\nニンゲンと大して変わらねぇじゃねぇか……=Huh, so you’re the legendary vampire, huh? I was wondering what kind of monster you were, but you weren’t much different from a Human...
+[3C404EFF]へぇ、[3C404EFF]あんたが伝説の吸血鬼か。[3C404EFF]\nなんだ、[3C404EFF]どんなバケモノかと思ったが、[3C404EFF]\nニンゲンと大して変わらねぇじゃねぇか……=Huh, so you’re the legendary vampire, huh? I was wondering what kind of monster you were, but you weren’t much different from a human...
 [3C404EFF]なんかわかりやすいのが来たよ。[3C404EFF]\n[3C404EFF]ボクには他の魔物との見分けがつかないけど。=There's something easy to understand here. I can't tell them apart from the other monsters, though.
 [3C404EFF]あー、[3C404EFF]お主はアレじゃろ？[3C404EFF]\n[3C404EFF]伝説の吸血鬼が復活したと聞き及び、[3C404EFF]\n[3C404EFF]倒して名を上げようと思ったのじゃろう？=Ah, you're that thing, aren't you? When you heard that the legendary vampire had revived, you thought you'd defeat him and make a name for yourself, right?
 [3C404EFF]さすがだな、[3C404EFF]このオレサマの野望も[3C404EFF]全部お見通しってワケか！[3C404EFF]\n[3C404EFF]そうだ、[3C404EFF]伝説とやらを[3C404EFF]このオレサマが終わらせてやろうってワケさ！=I knew you'd see through all my ambitions! That's right, I'm going to put an end to this legend!
@@ -198,7 +196,7 @@ r:"^(\[3C404EFF\])?(.{2,10})よ……(\[3C404EFF\])?お主、(\[3C404EFF\])?わ�
 [3C404EFF]ニンニクの恨みをぶつける、[3C404EFF]の間違いだよね？=You're going to take out your garlic grudge, right?
 [3C404EFF]へっ、[3C404EFF]よく分からねぇが、[3C404EFF]\n挑戦を受けるってことでいいんだよな！？=Heh, I don't really get it, but we're taking on a challenge, right?!
 [3C404EFF]よい。[3C404EFF]\n[3C404EFF]──少し遊んでやろう。=It's fine. Let's play a little.
-[3C404EFF]……！[3C404EFF]\n大した気迫だ……[3C404EFF]さすがだぜ……！[3C404EFF]\nおおっと、[3C404EFF]間合いには気を付けねぇとな……！=......! That's some spirit......I knew you'd do it......!Whoops, I need to be careful of the distance......!!
+[3C404EFF]……！[3C404EFF]\n大した気迫だ……[3C404EFF]さすがだぜ……！[3C404EFF]\nおおっと、[3C404EFF]間合いには気を付けねぇとな……！=......! That's some spirit......I knew you'd do it......! Whoops, I need to be careful of the distance......!!
 [3C404EFF]ふっ、[3C404EFF]でかい図体の割に[3C404EFF]随分と臆病ではないか。=Heh. You're quite the coward for your huge frame.
 [3C404EFF]当然だ。[3C404EFF]知ってるんだぜ？[3C404EFF]\n伝説の吸血鬼は、[3C404EFF]とんでもない距離まで首を伸ばして吸血できるんだろ？[3C404EFF]\n[3C404EFF]あの空に浮かぶ月にまで届いたっていうじゃねぇか！=Of course. I know, you know? Legendary vampires can stretch their necks to an unbelievable distance and suck blood, right? They even reached that moon floating in the sky!
 [3C404EFF]……んっ？=...Hm?

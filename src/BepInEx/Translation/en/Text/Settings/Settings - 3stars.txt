@@ -7,15 +7,20 @@
 設定変更を適応するためにアプリの再起動が必要になります。=You need to restart the app to apply the setting changes.
 演出設定=Direction Settings
 ガチャで★3キャラを獲得した際の演出と、マイページのキャラ演出の設定を行います。\n※この設定は後から【設定】で変更できます。=Set the effect when you get ★3 characters in the gacha and the character effect on Home.\nThis setting can be changed later in [Settings].
+ガチャで★3キャラを獲得した際の演出と、マイページのキャラ演出の設定を行います。\\n\n※この設定は後から【設定】で変更できます。=Set the effect when you get ★3 characters in the gacha and the character effect on Home.\nThis setting can be changed later in [Settings].
+
 
 ガチャの★3キャラ獲得時の演出設定=Display download bar for ★3 char from Gacha
 ★3キャラを獲得した際の演出設定です。\n※「リッチ版」を選択すると、再生前にデータダウンロードを行います。="Animated" will show a data download bar before playing it.
+★3キャラを獲得した際の演出設定です。\\n\n※「リッチ版」を選択すると、再生前にデータダウンロードを行います。="Animated" will show a data download bar before playing it.
 リッチ版=Animated
 
 マイページのキャラ演出設定=CG animation in Home screen
 マイページのキャラ演出設定です。\n※「リッチ版」を選択すると、キャラ設定変更時にデータダウンロードを行います。="Animated" will show a data download bar when you change the character displayed.
+マイページのキャラ演出設定です。\\n\n※「リッチ版」を選択すると、キャラ設定変更時にデータダウンロードを行います。="Animated" will show a data download bar when you change the character displayed.
 
 リッチ版演出データの保存設定=Save downloaded animated CGs
 ダウンロードしたリッチ版演出データを保存するか設定します。\n「保存しない」を選択すると、リッチ版演出データはアプリ起動の度に削除されます。=If you don't save them, the data will be deleted and redownloaded every time.
+ダウンロードしたリッチ版演出データを、端末に保存するか設定します。\\n\n「保存しない」を選択すると、リッチ版演出データはアプリ起動の度に削除されます。=If you don't save them, the data will be deleted and redownloaded every time.
 保存する=Save
 保存しない=Do Not Save
