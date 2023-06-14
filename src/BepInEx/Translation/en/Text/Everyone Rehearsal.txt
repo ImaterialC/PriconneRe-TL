@@ -40,14 +40,14 @@ sr:"^(\d+)年(\d+月) クランバトル（([0-9 :/]+)まで）$"=Clan Battle $2
 無料対象のためアイテムやマナは消費しません。=Free, no item or mana cost.
 r:"^難易度「(.+)」のクリア報酬です。$"="It is a clear reward for the difficulty "$1"."
 初回クリア報酬獲得=Get first time clear reward
----Mission
+---Mission---
 古場ミッション=rial Mission
-稽=r
+稽=T
 稽古場=Trial hall
 
 sr:"^(\[[0-9A-F]{6}\])?(ガーゴイル|マグスガーゴイル|ガードガーゴイル|ガーゴイル・バースト|ガーゴイル・マギ)（([\w\W]+)）をクリアしよう(\[-\])?$"="$1Defeat $2 ($3) at Trial$4"
 
----NPC
+---NPC---
 ここで腕試しを\nしていきましょう！\n全力全開、\nがんばっちゃいますよ～！=Let's try your skills here! I'll do my best, I'll do my best!
 ここで腕試しが\nできるみたいね。\n試してみるのも\nいいんじゃない？=It looks like you can try your skills here. Isn't it good to try it?
 腕試しをがんばれば、\n報酬がもらえますよ。\n挑戦していきましょう☆=If you do your best to test your skills, you will be rewarded.\nLet's try☆
