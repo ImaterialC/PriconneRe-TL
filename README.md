@@ -56,6 +56,8 @@ doorstop_config.ini
 winhttp.dll
 .doorstop_version
 ```
+also 1 folder at AppData\Roaming\
+```%appdata%\BepInEx``` 
 
 The Vanilla state of the priconner folder was like the below picture:
 ![Vanila state](https://github.com/ImaterialC/PriconneRe-TL/assets/105358849/3d5823e6-5f67-42be-aaa7-dd2c452535a5)
