@@ -92,18 +92,8 @@ r:"^呪われた海賊島([0-9\-\(\)\w ]*)$"=Cursed Pirate Island $1
 ---==
 r:"^タイムトンネル([0-9\-\(\)\w （）]*)$"=Time Tunnel $1
 バースト・タイムラーベ=Burst Time Love
----==
-r:"^キャンピングフィールド([0-9\-\(\)\w （）]*)$"=Camping Field $1
-アストライアタケモドキ=Astrea Takemodoki
-キャンプと野営=Camps and wild management
-バケーション・\nジュン=Vacation\nJun
-いつもの習慣=The usual habit
-はじめての\nグループキャンプ=For the first time\nGroup camp
-コーヒーに映る\n精神=Appear in coffee\nspirit
-癒して\nぼっち精神=Heal\nSpirit
-たき火の魅力=The charm of bonfire
-最高の一杯に\n必要な物=To the best cup\nNecessary
-最高の一杯を\n求めし女=The best cup\nDesired woman
+---==---
+
 ------==
 r:"^王都ランドソル([0-9\-\(\)\w （）]*)$"=Landosol City $1
 r:"^王都ランドソル 女神の祭典([0-9\-\(\)\w （）]*)$"=Landosol City: Goddess Festival $1
