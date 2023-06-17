@@ -114,7 +114,7 @@ r:"^(\[[0-9A-F,]{6,13}\])10キャラ目は(\[[0-9A-F,]{6,13}\])★3キャラ確�
 [FFBB00,CE4F00]プラチナガチャはキャラのみ出現！[-]=[FFBB00,CE4F00]Premium Gacha only appears for characters![-].
 キャラ交換Ptの説明=Character exchange Pt description
 
----Banner==
+---Banner---
 
 無料で10回ガチャは\n毎日5時と12時にリセットされます。=Free 10x Gacha resets daily at\n5:00 and 12:00 (JST).
 ノーマルガチャを無料で10回引きます。\nよろしいですか？=Draw Normal Gacha 10x for free?
@@ -180,14 +180,14 @@ sr:"^「([べ-ヺー＆]+)(（.+）)?」\n\nにピックアップ対象を変更
 [3C404E]アイテムやメモリーピースをGET！[-]=[3C404E] Get item and memory shards! [-]
 所持上限を超えるアイテムはプレゼントに送られます。=Items over the possession limit will be sent to the present box.
 日   回無料！=Daily free!
-   日最大     度引ける=   day,         Times
+   日最大     度引ける=.　roll,　　x / day
    時と     時リセット= &        : Reset
 毎日   時にリセット=am    :00 Reset   
 1度= 
 だけ引ける!=Once Pull!
 すでに\n引き終わっています=Already\npulled
 すでに\\n引き終わっています=Already\npulled
----Pri Fes
+---Pri Fes---
 プリンセスフェス開催！=Princess Festival!
 プリンセスフェスへ=To the Princess Fes
 日付が変わるまで表示しない=Don't show until the date changes
@@ -200,7 +200,7 @@ sr:"^「([べ-ヺー＆]+)(（.+）)?」\n\nにピックアップ対象を変更
 ・使用期限\nチケットには、使用期限が設定されているものがあります。使用期限については［所持チケット］から対象のチケットの［使用期限］をご確認ください。=・ Expiration Date \nSome tickets have an expiration date. For the expiration date, please check the [Expiration Date] of the selected ticket from [Possession Ticket].
 [FF7C4E,D62146]所持しているチケットがありません。[-]=[FF7C4E,D62146]You don't have the ticket.[-]
 メモリーピース交換チケットについて=About Memory Shards Exchange Ticket
----A-memory shard,B-200/100,C-1
+---A-memory shard,B-200/100,C-1---
 ・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×100と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットのメモリーピース交換ダイアログ内をご確認ください。=•Each character's Memory Shard exchange ticket can be exchanged for {{C}} character's Memory Shard × {{B}}.\n・ Acquired Memory Shard will be given directly. If you have reached the maximum number of Memory Shards, you will be given to the present box.\n※ For the characters to be exchanged, please check the memory piece exchange dialog for each ticket.
 ・★3確定 ガチャチケット1枚につき特定の★3キャラが1キャラ獲得できるチケットです。\n・出現するキャラにつきましては各チケットの［提供割合］ボタンよりご確認ください。\n・★3確定 ガチャチケットではキャラ交換Ptを獲得できません。\n・すでに仲間になったキャラが出現した場合、「女神の秘石」に変換されます。\n・変換された女神の秘石は、プレゼントボックスに贈られずに、直接所持数に加算されます。\n・女神の秘石の所持数が上限に達している場合、プレゼントボックスに贈られます。\n・ガチャは1回ごとに提供割合にもとづいて抽選を行います。そのため、提供割合が1％のキャラが、100回中1回必ず出現するわけではありません。=・Each Gacha Ticket is a ticket to acquire a specific 3★ character.\n・Refer to the [Percentage] button on each ticket for the character that will appear.\n・You will not be able to exchange Pts for a character with a Guarantee 3★ Gacha Ticket.\n・When a character who is already a member appears, it will be converted into the "Divine Amulets".\n・The converted Divine Amulets will not be sent to your gift box, but will be directly added to your possession count.\n・ If the maximum number of Divine Amulets in your possession has been reached, they will be sent to your Gift Box.\n・The lottery will be drawn based on the offered percentage for each gacha. Therefore, a character with a donation ratio of 1% is not guaranteed to appear once out of every 100 times.
 

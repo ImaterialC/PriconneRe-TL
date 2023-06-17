@@ -56,6 +56,7 @@ r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
 このパーティは帰還していません。=This party has not returned.
 パーティ数上限=Party Limit
 冒険中のパーティが上限に達しています。=The party during the adventure has reached max limit.
+この操作には対応していません。=Not supported for this operation.
 
 短縮する=Shorten
 周回追加=+Lap
