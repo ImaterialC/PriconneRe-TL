@@ -112,3 +112,4 @@ r:"^\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個消費
 ★3クリアしていないクエストを確認できます。=Check quests that are not 3★ yet.
 未達成のクエストがありません。=No unfinished quests.
 クリアしていないサブクエストを確認できます。=Check unfinished subquests.
+挑戦回数が0のクエストはオート進行対象外になります。=Quests with 0 attempts will not be automatically progressed.
