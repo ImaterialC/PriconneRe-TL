@@ -3,7 +3,7 @@
 メルヘンエクスプロール=Fairy Tale Explorer
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n味方全体の魔法攻撃力を(\d+)アップ$"=Deals $1 M.DMG to all enemies within 1000 range.\nBoosts allies' M.ATK by $2 for 18s.
 
-前方範囲内の敵すべてに魔法大ダメージを与え、味方全体の魔法攻撃力を大アップする。=Inflicts large amounts of M.DMG to all enemies within range, and Large boost the M.ATK of all allies.
+前方範囲内の敵すべてに魔法大ダメージを与え、味方全体の魔法攻撃力を大アップする。=Deals large amounts of M.DMG to all enemies within range, and Large boost the M.ATK of all allies.
 
 
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを100アップ$"=Cast Time:0.72s\nDeals $1 M.DMG to all enemies within 1000 range.\nBoosts allies' M.ATK by $2 for 12s.\nBoosts allies' M.Crit Rate by 100 for 12s.

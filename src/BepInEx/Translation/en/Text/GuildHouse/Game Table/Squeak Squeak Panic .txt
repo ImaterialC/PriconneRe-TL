@@ -103,7 +103,7 @@
 木槌一覧=Hammers
 ご褒美一覧=Rewards
 
-r:"^(.+)をクリアすると解放されます。$"=Clear $1 to unlock.
+r:"^([^\d]+)をクリアすると解放されます。$"=Clear $1 to unlock.
 
 ---Rewards Screen---
 最終報酬スコア=Final Reward

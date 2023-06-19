@@ -3,10 +3,10 @@
 魔物=Monster
 イノセントマジシャン=Innocent Magician
 ベノムサラマンドラ=Venom Salamandra
-【物理】獲物を求め水辺を猛毒\nで満たす、サンショウウオの魔物。\n漏れるほどに溜め込んだ猛毒は、\n近づくだけで意識を奪う危険物。\n\n・敵全体に魔法中ダメージを与え、\n　毒状態にする。\n　さらに猛毒状態にする。\n\n・前方範囲内の敵に\n　魔法小ダメージを与え、\n　猛毒状態にする。=[Physical]A salamander monster that fills waterside with deadly poison in search of prey. The deadly poison that has accumulated to the point of leaking out is a dangerous substance that deprives you of consciousness just by approaching it.\n\n・Inflicts magic damage to all enemies and poisons them. Make it even more poisonous.\n・Inflicts small magic damage to enemies within range and inflicts poisonous state.
+【物理】獲物を求め水辺を猛毒\nで満たす、サンショウウオの魔物。\n漏れるほどに溜め込んだ猛毒は、\n近づくだけで意識を奪う危険物。\n\n・敵全体に魔法中ダメージを与え、\n　毒状態にする。\n　さらに猛毒状態にする。\n\n・前方範囲内の敵に\n　魔法小ダメージを与え、\n　猛毒状態にする。=[Physical]A salamander monster that fills waterside with deadly poison in search of prey. The deadly poison that has accumulated to the point of leaking out is a dangerous substance that deprives you of consciousness just by approaching it.\n\n・Inflicts magic damage to all enemies and poisons them. Make it even more poisonous.\n・Deals small magic damage to enemies within range and inflicts poisonous state.
 
 ワイルドクロウ=Wild Crow
-【物理】荒れ山の捕食者として君臨\nする、凶悪な怪鳥獣。\n狩りを続けることでつくりあげた\n膂力と剛爪が、侵入者をつけ狙う。\n\n・敵全体に物理大ダメージを与え、\n　ＴＰ上昇をダウンさせる。\n　発動するたびにダメージがアップ\n　する。この効果は最大３回まで\n　累積する。\n\n・後ろから２番目の敵を中心にした\n　小範囲に物理小ダメージを与え、\n　麻痺状態にする。=[Physical]A ferocious monster bird that reigns as a predator in the deserted mountains. The physical strength and stiff claws built up by continuing to hunt will stalk intruders.\n\n・Inflicts large P.DMG to all enemies and reduces TP increase\n. Damage boost with each activation. This effect stacks up to 3 times.\n・Inflicts small P.DMG in a small area centering on the second enemy from the back and paralyzes them.
+【物理】荒れ山の捕食者として君臨\nする、凶悪な怪鳥獣。\n狩りを続けることでつくりあげた\n膂力と剛爪が、侵入者をつけ狙う。\n\n・敵全体に物理大ダメージを与え、\n　ＴＰ上昇をダウンさせる。\n　発動するたびにダメージがアップ\n　する。この効果は最大３回まで\n　累積する。\n\n・後ろから２番目の敵を中心にした\n　小範囲に物理小ダメージを与え、\n　麻痺状態にする。=[Physical]A ferocious monster bird that reigns as a predator in the deserted mountains. The physical strength and stiff claws built up by continuing to hunt will stalk intruders.\n\n・Deals large P.DMG to all enemies and reduces TP increase\n. Damage boost with each activation. This effect stacks up to 3 times.\n・Deals small P.DMG in a small area centering on the second enemy from the back and paralyzes them.
 
 バーンサウルス=Bern Saurus
 【物理】強靭な脚と鋭利なツメで\n獲物を一瞬で狩る、獰猛な恐竜。\n滅びた大地でマグマを喰らい、\n生存の道を見つけた孤高の存在。\n\n・敵全体に物理中ダメージを与え、\n　自分の行動速度を上げる。\n\n・前方3キャラに物理中ダメージ\n　を与え、行動速度を下げる。=[Physical] A ferocious dinosaur that instantly hunts prey with its strong legs and sharp claws. A solitary existence that found a way to survive by eating magma in the ruined land.\n\n・Inflicts moderate P.DMG to all enemies and boost own action speed.\n\n・Inflicts moderate P.DMG to 3 characters in front and slows down their action speed.
@@ -14,14 +14,14 @@
 クリーパー=Creeper
 【物理】頭から放つ毒攻撃と\nツタによる範囲物理攻撃で\n近づく冒険者の体力を一気に奪う\n悪魔の花。\n\n・前方2キャラに物理中ダメージ\n　を与える。\n\n・前方3キャラの物理防御力を\n　下げ、毒状態にする。=[Physical] A demonic flower that uses a poisonous attack from its head and a ranged physical attack with vines to drain away the physical strength of adventurers who approach it.\n\n・Inflicts moderate P.DMG to 2 characters in front.\n\n・Reduces the physical defense of the 3 characters in front and poisons them.
 
-【物理】二刀を自在に操り、\n煙幕弾で相手の目を\nくらませる\nオオトカゲの戦士。\n\n・ランダムな1キャラに物理\n　中ダメージを与える。\n\n・ランダムな敵を中心にした小範囲\n　に、物理小ダメージを与え、\n　暗闇状態にする。=[Physical] A warrior of a wolf lizard who freely manipulates two swords and keeps the opponent's eyes with smoke.\n\n・Inflicts moderate P.DMG to one random character.\n\n・Inflicts small P.DMG to a small area centered on random enemies and causes darkness.
+【物理】二刀を自在に操り、\n煙幕弾で相手の目を\nくらませる\nオオトカゲの戦士。\n\n・ランダムな1キャラに物理\n　中ダメージを与える。\n\n・ランダムな敵を中心にした小範囲\n　に、物理小ダメージを与え、\n　暗闇状態にする。=[Physical] A warrior of a wolf lizard who freely manipulates two swords and keeps the opponent's eyes with smoke.\n\n・Inflicts moderate P.DMG to one random character.\n\n・Deals small P.DMG to a small area centered on random enemies and causes darkness.
 リザードマン=Lizardman
 
 
 ラースドラゴン=Wrath Dragon
 【物理】忘却の秘境に、住まう若き巨竜。=[Physical] A giant dragon that lives in an unexplored oblivion.
 ・ラースドラゴン自身の残りＨＰが30％を切る=・Remaining HP of Wrath Dragon falls below 30%
-・最も近い敵１キャラに物理大ダメージを与える。=・Inflicts large physical damage to the closest enemy character.
+・最も近い敵１キャラに物理大ダメージを与える。=・Deals large physical damage to the closest enemy character.
 
 
 【物理】特異な力で変質したサベージベア。=[Physical] A Savage Bear transformed by a unique power.

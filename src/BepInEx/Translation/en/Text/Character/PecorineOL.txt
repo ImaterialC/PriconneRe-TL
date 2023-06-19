@@ -1,7 +1,7 @@
 【物理】前衛で、仲間との絆を力に変え戦う腹ペコ王女。敵のＨＰ状態で永続の物理攻撃力上昇と、短時間の特大攻撃力上昇＆自己ＴＰ回復を使い分け戦況を一変させる。=[Physical]A starving princess who fights with power of bonds. She can use either permanent or durated P.ATK buff depending on the enemy's HP, and self-TP recovery to completely change the battle situation.
 
 オーバーロードストライク=Overload Strike
-目の前の敵１キャラに物理特大ダメージを与える。対象の残りＨＰが最大ＨＰの50％以上だった場合、味方全体のＴＰ上昇を小アップさせ、対象の残りＨＰが50％未満の場合、与えるダメージがアップする。=Inflicts massive P.DMG to one enemy character in front. If the target's remaining HP is 50% or more, slightly raise TP boost of all allies, and if the target's remaining HP is less than 50%, the damage dealt is increased.
+目の前の敵１キャラに物理特大ダメージを与える。対象の残りＨＰが最大ＨＰの50％以上だった場合、味方全体のＴＰ上昇を小アップさせ、対象の残りＨＰが50％未満の場合、与えるダメージがアップする。=Deals massive P.DMG to one enemy character in front. If the target's remaining HP is 50% or more, slightly raise TP boost of all allies, and if the target's remaining HP is less than 50%, the damage dealt is increased.
 
 r:"^対象の残りＨＰが50％以上の場合、味方全体のＴＰ上昇を5アップ\n対象の残りＨＰが50％未満の場合、敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n\nIf the remaining target's HP > 50%:\n►Raise allies' TP boost by 5 for 18s.\n\nIf the remaining target's HP < 50%:\n►Deals $2 P.DMG to an enemy.
 

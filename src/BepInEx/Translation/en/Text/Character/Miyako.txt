@@ -6,7 +6,7 @@ Profileミヤコ
 Skills
 UB
 プリンにしてやるの=You're Pudding Now!
-目の前の敵１キャラに物理大ダメージを与え、さらに自分のＨＰを中回復する。=Inflicts large P.DMG to one enemy directly in front while also healing own HP by a large amount.
+目の前の敵１キャラに物理大ダメージを与え、さらに自分のＨＰを中回復する。=Deals large P.DMG to one enemy directly in front while also healing own HP by a large amount.
 r:"^敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers own HP by $2.
 S1
 う～ら～め～し～や～なの+=I~ Will~ Haunt~ You~+

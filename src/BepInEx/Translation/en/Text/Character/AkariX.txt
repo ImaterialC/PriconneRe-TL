@@ -2,9 +2,9 @@
 
 スペシャルスイートギフト=Special Suite Gift
 r:"^敵単体に(\d+)の魔法ダメージ\n味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Boosts allies' M.ATK by $2.
-目の前の敵１キャラに魔法特大ダメージを与え、味方全体の魔法攻撃力を大アップさせる。魔法攻撃力の上昇量は自身の魔法攻撃力に応じて最大５倍までアップする。=Inflicts massive M.DMG to the first enemy in front, and Large boost the M.ATK of all allies. boost M.ATK by up to 5 times depending on own M.ATK.
+目の前の敵１キャラに魔法特大ダメージを与え、味方全体の魔法攻撃力を大アップさせる。魔法攻撃力の上昇量は自身の魔法攻撃力に応じて最大５倍までアップする。=Deals massive M.DMG to the first enemy in front, and Large boost the M.ATK of all allies. boost M.ATK by up to 5 times depending on own M.ATK.
 
-目の前の敵１キャラに魔法大ダメージを与え、味方全体の魔法攻撃力を中アップさせる。魔法攻撃力の上昇量は自身の魔法攻撃力に応じて最大５倍までアップする。=Inflicts large M.DMG to the first enemy in front, and moderate boost the M.ATK of all allies. boost M.ATK by up to 5 times depending on own M.ATK.
+目の前の敵１キャラに魔法大ダメージを与え、味方全体の魔法攻撃力を中アップさせる。魔法攻撃力の上昇量は自身の魔法攻撃力に応じて最大５倍までアップする。=Deals large M.DMG to the first enemy in front, and moderate boost the M.ATK of all allies. boost M.ATK by up to 5 times depending on own M.ATK.
 
 
 r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを200アップ\n自分のＴＰ上昇を15アップ$"=Cast time: 0.45s\n►Boosts allies' M.ATK by $1 for 180s.\n►Boosts allies' M.Crit rate by 200 for 180s.\n►Boosts own TP boost by 15 for 180s.

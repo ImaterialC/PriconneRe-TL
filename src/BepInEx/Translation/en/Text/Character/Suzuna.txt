@@ -32,7 +32,7 @@ ex
 Skills+
 UB
 オートクチュール・ハート=Auto Couture Heart
-自分の物理攻撃クリティカル時のダメージを中アップさせる。さらに目の前の敵１キャラに物理特大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Moderately boost your P.ATK Crit DMG. Inflicts massive P.DMG to one enemy character in front. This skill's 1-hit damage is always a critical hit.
+自分の物理攻撃クリティカル時のダメージを中アップさせる。さらに目の前の敵１キャラに物理特大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Moderately boost your P.ATK Crit DMG. Deals massive P.DMG to one enemy character in front. This skill's 1-hit damage is always a critical hit.
 r:"^自分の物理攻撃クリティカル時のダメージを25％アップ\n敵単体に(\d+)の物理ダメージ$"=Boosts own P.Crit DMG by 25% for 18s.\nDeals $1 P.DMG to an enemy.\nGuaranteed to crit.
 S1
 目の前の敵１キャラに計３回ヒットし、クリティカル時のダメージが２倍ではなく３倍になる物理大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Hits 1 enemy in front of you 3 times in total, dealing large P.DMG that 3x the damage of a critical hit instead of 2x it. This skill's 1-hit damage is always a critical hit.

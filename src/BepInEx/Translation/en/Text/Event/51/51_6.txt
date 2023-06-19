@@ -1,0 +1,304 @@
+
+r:"^アストライア茸が見せる幻覚の中で、アオイたちは理想の自分になっていた。だが、そこには(.{2,10})がいないと絶望する。一同は理想の自分を捨て、(.{2,10})を求めて幻覚を振り切る。$"=In the hallucinations caused by the Astraea mushrooms, Aoi and the others had become their ideal selves. But they despair when they realize that $1 is not there. They abandon their ideal selves and shake off the hallucinations in search of $2.
+
+キノコの毒による幻覚に囚われているアオイたちは、\n理想の自分になれたと勘違いし、舞い上がっていた──=Aoi and the others, who were trapped in hallucinations caused by the mushroom poison, mistakenly thought they had become their ideal selves and were overjoyed──
+
+おおっ、すごいです！　なんだか体の奥底から湧いてきますよ！\nこれがずっと憧れていたリア充パワーなんですねっ！=Wow, this is amazing! I feel something bubbling up from the depths of my body! This is the real-life power I've always longed for!
+
+r:"^(\[3C404EFF\])?(.{2,10})さんもあのキノコを食べましたよね？(\[3C404EFF\])?\nどうですか？　(\[3C404EFF\])?友達100人できた気分は？$"=$2-san also ate that mushroom, right? How do you feel? Do you feel like you've made 100 friends?
+
+ついにＢＢ団の悲願、達成ですよ！　盛大にお祝いしましょ～！\nもちろん100人の友達にも参加してもらってパーティーするんです！=Finally, BB-Brigade's long-cherished wish has been fulfilled! Let's celebrate in a big way! Of course, we'll have a party with 100 friends!
+──────アオイ、起きて！=──────Aoi, wake up!
+寝てもないのに……？\n何を言ってるんでしょうか……？=I'm not sleeping...? What are you talking about...?
+
+r:"^(\[3C404EFF\])?あははっ、(\[3C404EFF\])?(.{2,10})さんってば、(\[3C404EFF\])?面白いこと言いますね。(\[3C404EFF\])?\n目を覚ますも何も、(\[3C404EFF\])?ずっと憧れてた夢が叶ったばかりじゃないですか〜$"=Ahaha, $3-san, you say funny things. Wake up or not, I just realized my dream that I've always longed for~
+
+ふふっ……みんなから仕事も飲み方も、\n私の全てを憧れられて、とってもいい気分……♪=Fufu... I'm admired by everyone for my work and drinking style, and everything about me... I feel so good...♪
+どう？　キミ、お姉さんと過ごす時間は楽しいかしら？=How about you? Do you enjoy spending time with your big sister?
+──────起きて、ユカリさん！=──────Wake up, Yukari-san!
+……え？　何を言っているのかしら。\n前みたいに泥酔して突っ伏して寝たりなんかしてないじゃない。=...Huh? What are you talking about? I'm not like before, when I would get drunk and fall asleep on the floor.
+はっはっはっ！\n【王宮騎士団（NIGHTMARE）】は、本日も素晴らしい組織だな！=Hahaha! The Royal Knights (NIGHTMARE) are a wonderful organization today as well!
+どうだい、少年！　並び立つ団員たちの引き締まった表情は！\n私に聞かせてくれるかな？　目の前に広がる、この壮観な眺めの感想を！=How about it, boy! The tense expressions of the fellow members standing beside me! Can you tell me? Your impression of this magnificent view that spreads before your eyes!
+──────ジュンさん！　起きて！=──────Jun-san! Wake up!
+なにを言っているんだ。私は常に臨戦態勢だよ。\nそんなことも分からないとは……\n寝ぼけているのは少年の方なんじゃないのかい？=What are you talking about? I'm always ready for battle. You don't even know that... Are you the one who's sleepy, boy?
+らんらるら〜♪\n友達100人うれしいな〜♪=La la lun la la~♪\nI'm so happy to have a hundred friends~♪
+──────目を覚まして！=──────Wake up!
+もう……さっきから何を言ってるんですか……？\nＢＢ団の夢が叶ったんですよ！　私に100人の友達ができたんですよ！=Geez... What are you talking about since earlier...? BB-Brigade's dream came true! I made 100 friends!
+これ以上、ぼっちだった頃の私の戯言みたいなこと言うのは、\nなしにしてくださいね？　ユカリさんも、そう思いますよね？=Please stop saying things like that, like my old self who was alone... Yukari-san thinks so too, right?
+ふふっ、ほんとね。変なこと言うなんて、\nランドソルの飲食店の床に転がってる酔っ払いみたいだわ。=Fufu, yeah. Saying weird things is like a drunkard lying on the floor of a restaurant in Landosol.
+無敵の【王宮騎士団（NIGHTMARE）】がいるから、\nそんな人はもう見かけたりしないけど。ね、ジュンさん？=We don't see people like that anymore because of the invincible Royal Knights (NIGHTMARE). Right, Jun-san?
+ふっふっふっ……その通りだ！\nこの私が、大勢の優秀な部下たちを率いているからね。\nランドソルの平和も風紀も規律も国民も……全てを守り続けていくよ！=Fufufu... That's right! I lead a large number of excellent subordinates. I will continue to protect everything in Landosol: peace, order, discipline, and citizens...!
+──────みんな、しっかりして！=──────Everyone, get a grip!
+も〜、しっかりしてほしいのは、キミのほうよ。\nさっきから変なことばっかり言って………………あれ？=Geez... You're the one who needs to get a grip. You've been saying weird things since earlier... Huh?
+
+r:"^(\[3C404EFF\])?(.{2,10})くん……？(\[3C404EFF\])?\nさっきから声は聞こえるけど……(\[3C404EFF\])?そういえば、(\[3C404EFF\])?姿はどこにも……？$"=$2-kun...? I can hear his voice since earlier... But come to think of it, his figure is nowhere to be seen...?
+
+はっはーん！　きっとかくれんぼしてるんですよ！\n私の100人の友達の中にいるはずです！　ちょっと探してきますね！=Ha-han! He must be playing hide-and-seek! He must be among my 100 friends! I'll go look for him!
+はあっ……はあっ……！\n友達100人の中を探し回ったのに……どこにもいませんでした……！=Haa... Haa...! I searched through my 100 friends, but... He's nowhere to be found...!
+
+──────早く起きて！=──────Wake up already!
+
+r:"^(\[3C404EFF\])?また、(\[3C404EFF\])?(.{2,10})くんの声だけが……(\[3C404EFF\])?\n(\[3C404EFF\])?ここにいないのに……(\[3C404EFF\])?一体どうなってるの……？$"=Again, $3-kun's voice...\nBut he's not here... What's going on...?
+
+r:"^(\[3C404EFF\])?キャンプ場に来た(.{2,10})さんに、(\[3C404EFF\])?\nアストライア茸の料理を食べてもらったはずですが……$"=We came to the campsite with $2-san and had him eat Astraea mushroom dishes...
+
+
+まさか……\nアオイちゃん……アストライア茸に、幻覚作用はあるかい……？=Don't tell me... Aoi-chan... Does Astraea mushroom have hallucinogenic effects...?
+えっ？　いえ、そんなことは……\nどうしてそんなことを？=Huh? No, no way... Why do you say that?
+いや、みんなでおかしなことになるなんて、普通はありえないからね……\n可能性があるとすれば、あのキノコくらいじゃないかと……=Well, it's not normal for us to be acting weird like this... The only possibility is that mushroom...
+
+r:"^(\[3C404EFF\])?そういえば……(\[3C404EFF\])?料理を食べてたら、(\[3C404EFF\])?突然友達が100人できていて……(\[3C404EFF\])?\nそしたら(.{2,10})さんの姿がいつの間にか……$"=Come to think of it... When we ate the dishes, I suddenly made a hundred friends... And then I saw $5-san...
+
+で、でも……アストライア茸にそんな毒があるなんて話……\n私でも聞いたことがありませんよ……！=But... I've never heard of such a poison in Astraea mushrooms...
+もしくは……アストライア茸ではなかったのかもしれないね……=Or maybe...it wasn't an Astraea Mushroom...
+ええーっ！　見た目が似てるだけの毒キノコ！？\nあんなにおいしかったのにーっ！=Eeeh! A poisonous mushroom that looks similar! But it was so delicious!
+お、落ち着いてください、ユカリさん！\n確かにショックですし、口の中にリフレインしてきた味は無視です無視！\nそれよりも今は──=Oh, calm down, Yukari-san! It's true that it's shocking, and ignore the taste that came back in your mouth! Ignore it! More importantly now──
+──────正気に戻って！=──────Come back to your senses!
+そうです！　正気に戻ることです！\n……あぁ、やっぱり今正気じゃなかったんですね……=That's right! Come back to your senses! ...Ah, I guess we weren't sane until now...
+
+r:"^(\[3C404EFF\])?でも……(\[3C404EFF\])?(.{2,10})さんの声を聞くたびに……(\[3C404EFF\])?\nだんだん頭もスッキリしてきましたよ……！$"=But... Every time I hear $3-san's voice... My head clears up a little bit...!
+
+ああ……\n少年と再び会えるように、この幻覚から抜け出そう！=Yeah... I'll get out of this hallucination so I can see the boy again!
+そ、そんなぁ……！\n今の私は、ずっと憧れてた私なのに……！=N-No way...! I’ve always admired myself right now...!
+──────ユカリさん！=──────Yukari-san!
+そう……飲んで寝ちゃった時は、こうやっていつも起こしてくれて……\nだから、しっかりしてる姿を見せたかったの……=That's right... When I drank too much and fell asleep, you always woke me up like this... That's why I wanted to show you that I can be reliable...
+でも……そんな私になれても……\n肝心のキミが見てくれなきゃ……なんの意味もないわ……！=But... Even if I can become like that... If you don't look at me... It meaningless...!
+だって……周りから頼られるのもうれしいけど……\nキミが、ありのままの私を受け止めてくれることのほうが、\n何倍もうれしいんだもん……！　キミの前で正直でいたいわ！=Because... I'm happy to be relied on by others, but... I'm much happier when you accept me as I am...! I want to be honest with you!
+ああ。私も同じだよ、ユカリちゃん……\n大事なことに気付かず、まやかしに舞い上がっていた……！=Ah. I feel the same way, Yukari-chan... I didn't notice what was important, and I was blinded by the illusion...
+──────ジュンさん！=──────Jun-san!
+そう、この声……！　この声を聞ける君との会話は、\n心の中でも被っている仮面を外すことのできる数少ない時間だ……！=Yes, this voice...! The conversation with you, who can hear this voice, is one of the few times when I can take off the mask that covers my heart...
+そうだ……最も守りたい者がいない空虚な団長になるより……\n不器用でも君を守れる私のほうがずっといい……=That's right... Rather than becoming an empty leader who has no one to protect... I'd rather be clumsy but able to protect you...
+そうです……！　あなたがいないなら、友達なんて100人いても……\nいえ、例え1000人いても寂しいだけです……！=That's right...! If you're not here, even if I have 100 friends... No, even if I have 1000 friends, I'll only feel lonely...!
+私は……あなたがいないのに100人の友達がいる自分よりも、\nたった一人の同志と二人で友達を作ろうとしている……\nそんなダメダメなぼっちな自分のほうが好きです……！=I prefer... Myself who is trying to make friends with you, my only comrade, rather than myself who has 100 friends without you... Even if I'm a hopeless loner...
+もう一度……いえ、何度だって胸を張って言いますよ！\nいくら私だけが理想の自分になったとしても全然意味がないんです！=Once again... No, I'll say it as many times as it takes! It doesn't matter at all if I'm the only one who becomes my ideal self!
+だって、私たちの理想の私にはっ！\nあなたがいないとダメなんですっ！=Because, our ideal selves are! We can't do without you!
+──────僕はここにいるよ！=──────I'm right here!
+私は！　キミの前で楽しく麦しゅわを飲みたいわ！=I want! To drink barley Soda with you happily!
+私は……何があっても君を守り続けたい！=I want... To keep protecting you no matter what!
+私は……！　あなたと二人でたくさんの友達を作りたいですっ！=I want...! To make a lot of friends with you!
+
+r:"^(\[3C404EFF\])?………………はっ！？(\[3C404EFF\])?\n(.{2,10})さん！！？？$"=............Huh!? \n$3-san!!??
+………………はっ！？\nCorneliaさん！！？？=............Huh!? Cornelia-san!!??
+よかった！　目が覚めたんだね！=Thank goodness! You woke up!
+
+……ありがとう、少年。不甲斐ないところを見せてしまったね……\n君の声は、確かに私の耳に届いていたよ。=...Thank you, boy. I'm sorry for showing you such a pathetic sight... Your voice was definitely reaching my ears.
+……うう～、気持ちわる～\nなにが最高の一杯よ……\n後味最悪のおつまみだったわ……=...Ugh~. It feels awful~. What a perfect drink... It was a horrible snack...
+ひぃぃぃっ！？　で、でっかいアストライア茸！？\nしかも、ひげが生えてて、動いてる！？=Eeeek!? A huge Astraea mushroom!? And it has a beard and it's moving!?
+ということは、魔物！？\n一体どういうことなの〜〜！？=That means, a monster!? What's going on~~!?
+話は後だ。まずは目の前の敵を倒そう。\n状況を見るに、幻覚に囚われていた私たちを、\n少年が守ってくれていたようだね……=We'll talk later. First, let's defeat the enemy in front of us. From the looks of it, the boy was protecting us while we were trapped in the hallucination...
+
+……どこまでも私たちは、少年に助けられてばかりのようだな。\nその礼は、ここでさせてもらう！　さあ、いくぞ！=...We seem to be always saved by the boy. Let me repay you here! Come on, let's go!
+みんなで倒そう！=Let's defeat it together!
+はいっ！\nええっ！=Yes! Eeeeei!
+アオイ・ユカリ=Aoi & Yukari
+ひょえええ！？\nなんですかあれ！　キノコの胞子！？=Hyoee!? What is that! Mushroom spores!?
+──インフェルノシールド！=──Inferno Shield!
+──聖なる盾よ！=──Holy shield!
+おおっ！　お二人が胞子を防いでくれました！=Wow! The two of you blocked the spores!
+でも、あの胞子……なにか危ない効果があったりするんじゃ……？\nた、例えば幻覚とか……？=But, those spores... Do they have any dangerous effects...? L-like hallucinations...?
+僕に任せて！=Leave it to me!
+え、ええええーーっ！？\nユカリさんたちの盾の後ろにいたほうがいいですよ！！=E-eeeeh!? You should stay behind Yukari-san's shield!!
+キミ！　大丈夫なの！？\n思いっきり胞子を吸い込んじゃうわよ！！=You! Are you okay!? You're inhaling the spores like crazy!!
+ふむ……これまでたった一人で粘っていたんだ。\nきっと何か策があってのことだろう……=Hmm... He's been holding out by himself for so long. He must have some plan...
+私たちは少年を信じよう……！=Let's trust the boy...
+魔物に攻撃して、隙を作る。=Attack the monster and create an opening.
+よし！　隙が生まれたぞ！=All right! We've got an opening!
+それに、胞子も止みました！\n威厳ある見た目をしてますけど、意外と脆いのかもしれません……！=And, the spores have stopped too! It looks dignified, but maybe it's surprisingly fragile...!
+胞子が厄介ですけど、止んだ今なら！=The spores are troublesome, but now that they've stopped!
+ここは私たちお姉さんコンビが、切り込みをかけるわ！=This is where we sisters combo will make a cut in!
+ああ、行くぞっ！=Yeah, let's go!
+──グオオオオオッ！\n──グオオオオオッ！=──Gwooooh!\n──Gwooooh!
+子分魔物たち=Minion monsters
+森の茂みからまたキノコが出てきた！？=More mushrooms came out of the bushes!?
+ちっちゃくて、手下っぽいです〜〜！？=They're small and look like minions~~!?
+怯むな、ユカリちゃん！\nその鉈で切り刻むんだ！=Don't falter, Yukari-chan! Cut them up with that hatchet!
+ええっ！\nしばらくキノコが食べられなくなった恨み、晴らさせてもらうわ！=Yes! I'll take revenge for not being able to eat mushrooms for a while!
+キノコの素焼き、大好きなおつまみだったのにーー！！\nえーーーーいっ！！=Grilled mushrooms were my favorite snack!\nEeeeii!!
+この穏やかな休暇中に剣を持たせるとは……\n断じて許さん！　はあっ！=I can't believe you made me hold a sword during this peaceful vacation... I won't forgive you! Haaah!
+──ギャオオオオオッ！\n──ギャオオオオオッ！=──Gyaaoooh!\n──Gyaaoooh!
+このまま一気に親玉を狙おう！=Let's go for the boss at once!
+まずい！　また胞子を吐き出し始めるぞ！？=Watch out! It's starting to spit out spores again!?
+させませんっ！\nこのブッシュクラフトで作ったボウガンで……やああっ！！=We won't let you! With this bowgun I made with bushcraft skills... Yaaah!!
+みなさん！　今のうちに！=Everyone! Now's our chance!
+ありがとう、アオイちゃん！=Thanks, Aoi-chan!
+少年！　このままいくぞ！\nキャンプを取り戻すのだ！=Boy! Let's go like this! Let's take back our campsite!
+うん！=Yeah!
+はあーっ！！=Haaaa!!
+──ギャオオオオオッ！=──Gyaaoooh!
+はあ、はあ……\nなんとか、倒せたわね……=Haa, haa... We somehow managed to defeat it...
+ああ……ずっとキノコの幻覚にやられていたせいで、\n体の動きは本調子ではなかったがね……=Yeah... My body wasn't in top shape because I was under the influence of the mushroom hallucination for so long...
+
+r:"^(\[3C404EFF\])?(.{2,10})さん、ありがとうございます……！(\[3C404EFF\])?\n私たちのこと、(\[3C404EFF\])?ずっと守っててくれていたんですよね……？$"=$2-san, thank you...! You've been protecting us all this time, haven't you...?
+
+あなたがいなかったら、\nきっとずっと幻覚を見たまま、あの魔物にも今頃……=If you weren't here, we'd probably still be seeing hallucinations, and by now... That monster would have...
+ねえ……\nでも、そもそもどうしてキミがここに来たの……？=Hey... But why did you come here in the first place...?
+それは……=That's...
+私たちが失踪扱いー！？=We were reported missing!?
+そ、そういえば……\n飲食店でキャンプ飲みの話を聞いた勢いで出発しちゃってたかも……=Oh, right... I might have left in a hurry after hearing about the camping drink at the restaurant...
+私も……女学院と工場に休みの連絡を入れただけで、\nミサト先生たちには行先を伝えてなかったです……=Me too... I only contacted the girls' academy and the factory to take a break, but I didn't tell Miss Misato and the others where I was going...
+全く……二人とも、駄目じゃないか。\n休みを取るのはいいが、人に迷惑をかけてしまっては……！=Geez... you two are hopeless. It's fine to take a break, but you shouldn't cause trouble for others...!
+すみません……=I'm sorry...
+まあ、こうして無事で済んだし……それにせっかくの休暇だ。\nこれ以上、堅いことは言わないでおこう。=Well, it's good that we're safe now... and it's a rare vacation. Let's not say anything more serious.
+二人とも無事に見つかってよかった。=I'm glad you two were found safe.
+だが、なぜあの魔物は、\nアストライア茸……いや毒キノコと似た見た目をしていたんだ……？=But why did that monster look like an Astraea mushroom... or rather, a poisonous mushroom...?
+う～ん……多分なんですけど……\nそれに非常に言いづらいのですが……=Hmm... I think it's probably... but it's very hard to say...
+私たちが食べちゃったキノコは……\nあの魔物の菌糸なんじゃないでしょうか……？=The mushrooms we ate... were actually part of that monster's mycelium...?
+食べられやすい見た目の菌糸で誘って、それを食べた人間……\nつまり、獲物が幻覚を見ている隙に狩りをするという……=It lures its prey with edible-looking mycelium, and then hunts them while they're hallucinating from eating it...
+そんな生態の魔物や生き物がいるって、\n【フォレスティエ】の資料で読んだことがあります。=I've read about such creatures and monsters in the [Forestea] materials.
+つまり私たちは、毒キノコどころか魔物の一部を食べていたってこと！？=So we were eating not just poisonous mushrooms, but part of a monster!?
+そう、なるな……=That's how it is...
+ううっ……\n最高の一杯のための最高のおつまみなんかじゃなかったってわけね……=Ugh... it wasn't the best snack for the best drink...
+だが、先ほどの魔物を倒したことで、\nあの偽アストライア茸も死滅するのではないかな。=But maybe by defeating that monster earlier, those fake Astraea mushrooms will die out too.
+少年が聞いたという、毒キノコの噂がそれだとすれば、\nこのキャンプ場の安全面は高まるというわけだ。=If that's what the rumor of the poisonous mushrooms that the boy heard was about, then this campsite will be safer.
+元々、森の中に入って行きさえしなければ問題なかったとはいえ、\n危険な魔物が潜んでいるよりはマシだからね。=It wasn't a problem as long as we didn't go into the forest in the first place, but it's better than having a dangerous monster lurking around.
+
+r:"^(\[3C404EFF\])?そういえば、(\[3C404EFF\])?(.{2,10})さんもキノコを食べましたよね？$"=By the way, $3-kun also ate the mushrooms, right?
+
+というか、私たちが無理やり……\nううっ……なにからなにまですみません……=Or rather, we forced him to... ugh... I'm sorry for everything...
+
+確かに気になるね。魔物の胞子も効かなかったようだし……\nどうして少年だけ平気だったんだろうか……？=I'm curious about that too. He didn't seem to be affected by the monster's spores either... why was he the only one who was fine...?
+
+
+r:"^(\[3C404EFF\])?……(.{2,10})くんって、(\[3C404EFF\])?\n理想の自分の姿って、(\[3C404EFF\])?思い浮かべたこと(\[3C404EFF\])?ある？$"=...Cornelia-kun, do you have an image of your ideal self?
+
+それが何か関係あるのかい？=What does that have to do with anything?
+ほら……私たち、幻覚の中ではなりたい自分になっていたわよね。\nそれが幸せで幸せでたまらなくて……=Well... we were all becoming who we wanted to be in our hallucinations. And we were so happy and ecstatic...
+それに、キノコを食べる前……３人でそんな話もしてたじゃない？\nだから、それも関係してるのかなって……=And before we ate the mushrooms... we were talking about that kind of thing, right? So maybe that had something to do with it...
+ねえ、キミ。例えば、超モテモテのイケメンになりたい～とか、\n大富豪になって豪遊したい～とか……そういうものってあるかしら？=Hey, you. Do you have anything like that? Like wanting to be a super popular handsome guy, or becoming a millionaire and living it up...?
+
+理想の自分？　よく分からない。=My ideal self? I don't really get it.
+ああ、やっぱり……\nだから、食べても平気だったのかも。=Oh, I see... maybe that's why you were fine after eating them.
+
+私たちは、このキャンプで自分を見つめ直そうとしていたわけだからね。\n特に影響を強く受けたのかもしれない。=We were trying to find ourselves in this camp, after all. Maybe we were more influenced by them.
+だが、少年がいい見本なのかもしれないな。\nいつも飾らない等身大な君の姿が……=But maybe you're a good example for us. You're always yourself without any pretense...
+そうね……私みたいに見栄っ張りじゃないもんね。\nだから、年下なのに頼りにしちゃってて……\nいつもありがとう、キミ。=That's right... you're not like me who's always vain. That's why I rely on you even though you're younger than me... thank you for everything, you.
+そうですね……\n私もぼっち卒業に向けて、最近はずっと焦ってばかりでした……=Yes... I've been feeling anxious lately about graduating from being alone...
+独りよがりになって、あなたにも心配をかけてしまいました……\nそんなんじゃいつまで経っても友達なんかできるわけありませんよね。=I became self-centered and worried you too... I can't make any friends like this.
+いつも自分をしっかりと持ってるあなたは、私の憧れです！\nさすが、ＢＢ団の団長さんです！=You're always confident and true to yourself. You're my admiration! You're amazing, the leader of the BB-Brigade!
+
+r:"^(\[3C404EFF\])?いつも飾らない(.{2,10})のおかげで、(\[3C404EFF\])?\nアオイたち３人は、正気を取り戻すのだった。$"=Thanks to Cornelia's honesty, Aoi and the others regained their sanity.
+
+[3C404EFF]キノコの毒による幻覚に囚われているアオイたちは、[3C404EFF]\n理想の自分になれたと勘違いし、舞い上がっていた──=Aoi and the others, trapped in a hallucination caused by the mushroom's poison, thought they'd become their ideal selves, and were soaring through the air
+[3C404EFF]おおっ、[3C404EFF]すごいです！　[3C404EFF]なんだか体の奥底から湧いてきますよ！[3C404EFF]\nこれがずっと憧れていたリア充パワーなんですねっ！=Wow, this is amazing! I feel something bubbling up from the depths of my body! This is the real-life power I've always longed for!
+
+[3C404EFF]ついにＢＢ団の悲願、[3C404EFF]達成ですよ！　[3C404EFF]盛大にお祝いしましょ～！[3C404EFF]\n[3C404EFF]もちろん100人の友達にも参加してもらって[3C404EFF]パーティーするんです！=Finally, BB-Brigade's long-cherished wish has been fulfilled! Let's celebrate in a big way! Of course, we'll have a party with 100 friends!
+[3C404EFF]寝てもないのに……？[3C404EFF]\n[3C404EFF]何を言ってるんでしょうか……？=I'm not sleeping...? What are you talking about...?
+
+[3C404EFF]ふふっ……[3C404EFF]みんなから仕事も飲み方も、[3C404EFF]\n私の全てを憧れられて、[3C404EFF]とってもいい気分……♪=Fufu... I'm admired by everyone for my work and drinking style, and everything about me... I feel so good...♪
+[3C404EFF]どう？　[3C404EFF]キミ、[3C404EFF]お姉さんと過ごす時間は[3C404EFF]楽しいかしら？=How about you? Do you enjoy spending time with your big sister?
+[3C404EFF]……え？　[3C404EFF]何を言っているのかしら。[3C404EFF]\n[3C404EFF]前みたいに泥酔して[3C404EFF]突っ伏して寝たりなんかしてないじゃない。=...Huh? What are you talking about? I'm not like before, when I would get drunk and fall asleep on the floor.
+[3C404EFF]はっはっはっ！[3C404EFF]\n【王宮騎士団（NIGHTMARE）】は、[3C404EFF]本日も素晴らしい組織だな！=Hahaha! The Royal Knights (NIGHTMARE) are a wonderful organization today as well!
+[3C404EFF]どうだい、[3C404EFF]少年！　[3C404EFF]並び立つ団員たちの引き締まった表情は！[3C404EFF]\n私に聞かせてくれるかな？　[3C404EFF]目の前に広がる、[3C404EFF]この壮観な眺めの感想を！=How about it, boy! The tense expressions of the fellow members standing beside me! Can you tell me? Your impression of this magnificent view that spreads before your eyes!
+[3C404EFF]なにを言っているんだ。[3C404EFF]私は常に臨戦態勢だよ。[3C404EFF]\nそんなことも分からないとは……[3C404EFF]\n寝ぼけているのは[3C404EFF]少年の方なんじゃないのかい？=What are you talking about? I'm always ready for battle. You don't even know that... Are you the one who's sleepy, boy?
+[3C404EFF]らんらるら〜♪[3C404EFF]\n友達100人[3C404EFF]うれしいな〜♪=La la lun la la~♪\nI'm so happy to have a hundred friends~♪
+[3C404EFF]もう……[3C404EFF]さっきから何を言ってるんですか……？[3C404EFF]\n[3C404EFF]ＢＢ団の夢が叶ったんですよ！　[3C404EFF]私に100人の友達ができたんですよ！=Geez... What are you talking about since earlier...? BB-Brigade's dream came true! I made 100 friends!
+[3C404EFF]これ以上、[3C404EFF]ぼっちだった頃の私の戯言みたいなこと言うのは、[3C404EFF]\nなしにしてくださいね？　[3C404EFF]ユカリさんも、[3C404EFF]そう思いますよね？=Please stop saying things like that, like my old self who was alone... Yukari-san thinks so too, right?
+[3C404EFF]ふふっ、[3C404EFF]ほんとね。[3C404EFF]変なこと言うなんて、[3C404EFF]\n[3C404EFF]ランドソルの飲食店の床に転がってる[3C404EFF]酔っ払いみたいだわ。=Fufu, yeah. Saying weird things is like a drunkard lying on the floor of a restaurant in Landosol.
+[3C404EFF]無敵の【王宮騎士団（NIGHTMARE）】がいるから、[3C404EFF]\nそんな人はもう見かけたりしないけど。[3C404EFF]ね、[3C404EFF]ジュンさん？=We don't see people like that anymore because of the invincible Royal Knights (NIGHTMARE). Right, Jun-san?
+[3C404EFF]ふっふっふっ……[3C404EFF]その通りだ！[3C404EFF]\nこの私が、[3C404EFF]大勢の優秀な部下たちを率いているからね。[3C404EFF]\nランドソルの平和も風紀も規律も国民も……[3C404EFF]全てを守り続けていくよ！=Fufufu... That's right! I lead a large number of excellent subordinates. I will continue to protect everything in Landosol: peace, order, discipline, and citizens...!
+[3C404EFF]も〜、[3C404EFF]しっかりしてほしいのは、[3C404EFF]キミのほうよ。[3C404EFF]\n[3C404EFF]さっきから変なことばっかり言って………………[3C404EFF]あれ？=Geez... You're the one who needs to get a grip. You've been saying weird things since earlier... Huh?
+
+[3C404EFF]はっはーん！　[3C404EFF]きっとかくれんぼしてるんですよ！[3C404EFF]\n私の100人の友達の中にいるはずです！　[3C404EFF]ちょっと探してきますね！=Ha-han! He must be playing hide-and-seek! He must be among my 100 friends! I'll go look for him!
+[3C404EFF]はあっ……[3C404EFF]はあっ……！[3C404EFF]\n友達100人の中を探し回ったのに……[3C404EFF]どこにもいませんでした……！=Haa... Haa...! I searched through my 100 friends, but... He's nowhere to be found...!
+
+[3C404EFF]まさか……[3C404EFF]\n[3C404EFF]アオイちゃん……[3C404EFF]アストライア茸に、[3C404EFF]幻覚作用はあるかい……？=Don't tell me... Aoi-chan... Does Astraea mushroom have hallucinogenic effects...?
+[3C404EFF]eh?[3C404EFF]いえ、[3C404EFF]そんなことは……[3C404EFF]\nどうしてそんなことを？=Huh? No, no way... Why do you say that?
+[3C404EFF]いや、[3C404EFF]みんなでおかしなことになるなんて、[3C404EFF]普通はありえないからね……[3C404EFF]\n可能性があるとすれば、[3C404EFF]あのキノコくらいじゃないかと……=Well, it's not normal for us to be acting weird like this... The only possibility is that mushroom...
+
+[3C404EFF]で、[3C404EFF]でも……[3C404EFF]アストライア茸にそんな毒があるなんて話……[3C404EFF]\n私でも聞いたことがありませんよ……！=But... I've never heard of such a poison in Astraea mushrooms...
+[3C404EFF]もしくは……[3C404EFF]アストライア茸では[3C404EFF]なかったのかもしれないね……=Or maybe...it wasn't an Astraea Mushroom...
+[3C404EFF]ええーっ！　[3C404EFF]見た目が似てるだけの[3C404EFF]毒キノコ！？[3C404EFF]\n[3C404EFF]あんなにおいしかったのにーっ！=Eeeh! A poisonous mushroom that looks similar! But it was so delicious!
+[3C404EFF]お、[3C404EFF]落ち着いてください、[3C404EFF]ユカリさん！[3C404EFF]\n確かにショックですし、[3C404EFF]口の中にリフレインしてきた味は無視です無視！[3C404EFF]\n[3C404EFF]それよりも今は──=Oh, calm down, Yukari-san! It's true that it's shocking, and ignore the taste that came back in your mouth! Ignore it! More importantly now──
+[3C404EFF]そうです！　[3C404EFF]正気に戻ることです！[3C404EFF]\n[3C404EFF]……あぁ、[3C404EFF]やっぱり今正気じゃなかったんですね……=That's right! Come back to your senses! ...Ah, I guess we weren't sane until now...
+
+
+[3C404EFF]ああ……[3C404EFF]\n少年と再び会えるように、[3C404EFF]この幻覚から抜け出そう！=Yeah... I'll get out of this hallucination so I can see the boy again!
+[3C404EFF]そ、[3C404EFF]そんなぁ……！[3C404EFF]\n今の私は、[3C404EFF]ずっと[3C404EFF]憧れてた私なのに……！=N-No way...! I’ve always admired myself right now...!
+[3C404EFF]そう……[3C404EFF]飲んで寝ちゃった時は、[3C404EFF]こうやっていつも起こしてくれて……[3C404EFF]\n[3C404EFF]だから、[3C404EFF]しっかりしてる姿を見せたかったの……=That's right... When I drank too much and fell asleep, you always woke me up like this... That's why I wanted to show you that I can be reliable...
+[3C404EFF]でも……[3C404EFF]そんな私になれても……[3C404EFF]\n肝心のキミが見てくれなきゃ……[3C404EFF]なんの意味もないわ……！=But... Even if I can become like that... If you don't look at me... It meaningless..!
+[3C404EFF]だって……[3C404EFF]周りから頼られるのもうれしいけど……[3C404EFF]\n[3C404EFF]キミが、[3C404EFF]ありのままの私を受け止めてくれることのほうが、[3C404EFF]\n何倍もうれしいんだもん……！　[3C404EFF]キミの前で正直でいたいわ！=Because... I'm happy to be relied on by others, but... I'm much happier when you accept me as I am...! I want to be honest with you!
+[3C404EFF]Yeah.[3C404EFF]私も同じだよ、[3C404EFF]ユカリちゃん……[3C404EFF]\n大事なことに気付かず、[3C404EFF]まやかしに舞い上がっていた……！=Ah. I feel the same way, Yukari-chan... I didn't notice what was important, and I was blinded by the illusion...
+[3C404EFF]そう、[3C404EFF]この声……！　[3C404EFF]この声を聞ける君との会話は、[3C404EFF]\n心の中でも被っている仮面を外すことのできる[3C404EFF]数少ない時間だ……！=Yes, this voice...! The conversation with you, who can hear this voice, is one of the few times when I can take off the mask that covers my heart...
+[3C404EFF]そうだ……[3C404EFF]最も守りたい者がいない空虚な団長になるより……[3C404EFF]\n不器用でも[3C404EFF]君を守れる私のほうがずっといい……=That's right... Rather than becoming an empty leader who has no one to protect... I'd rather be clumsy but able to protect you...
+[3C404EFF]そうです……！　[3C404EFF]あなたがいないなら、[3C404EFF]友達なんて100人いても……[3C404EFF]\n[3C404EFF]いえ、[3C404EFF]例え1000人いても寂しいだけです……！=That's right...! If you're not here, even if I have 100 friends... No, even if I have 1000 friends, I'll only feel lonely...!
+[3C404EFF]私は……[3C404EFF]あなたがいないのに[3C404EFF]100人の友達がいる自分よりも、[3C404EFF]\n[3C404EFF]たった一人の同志と[3C404EFF]二人で友達を作ろうとしている……[3C404EFF]\n[3C404EFF]そんなダメダメなぼっちな自分のほうが好きです……！=I prefer... Myself who is trying to make friends with you, my only comrade, rather than myself who has 100 friends without you... Even if I'm a hopeless loner...
+[3C404EFF]もう一度……[3C404EFF]いえ、[3C404EFF]何度だって胸を張って言いますよ！[3C404EFF]\nいくら私だけが理想の自分になったとしても[3C404EFF]全然意味がないんです！=Once again... No, I'll say it as many times as it takes! It doesn't matter at all if I'm the only one who becomes my ideal self!
+[3C404EFF]だって、[3C404EFF]私たちの理想の私にはっ！[3C404EFF]\nあなたがいないとダメなんですっ！=Because, our ideal selves are! We can't do without you!
+[3C404EFF]私は！　[3C404EFF]キミの前で楽しく麦しゅわを飲みたいわ！=I want! To drink barley Soda with you happily!
+[3C404EFF]私は……[3C404EFF]何があっても[3C404EFF]君を守り続けたい！=I want... To keep protecting you no matter what!
+[3C404EFF]私は……！　[3C404EFF]あなたと二人で[3C404EFF]たくさんの友達を作りたいですっ！=I want...! To make a lot of friends with you!
+
+[3C404EFF]……ありがとう、[3C404EFF]少年。[3C404EFF]不甲斐ないところを見せてしまったね……[3C404EFF]\n君の声は、[3C404EFF]確かに私の耳に届いていたよ。=...Thank you, boy. I'm sorry for showing you such a pathetic sight... Your voice was definitely reaching my ears.
+[3C404EFF]……[3C404EFF]うう～、[3C404EFF]気持ちわる～[3C404EFF]\n[3C404EFF]なにが最高の一杯よ……[3C404EFF]\n後味最悪のおつまみだったわ……=...Ugh~. It feels awful~. What a perfect drink... It was a horrible snack...
+[3C404EFF]ひぃぃぃっ！？　[3C404EFF]で、[3C404EFF]でっかいアストライア茸！？[3C404EFF]\nしかも、[3C404EFF]ひげが生えてて、[3C404EFF]動いてる！？=Eeeek!? A huge Astraea mushroom!? And it has a beard and it's moving!?
+[3C404EFF]ということは、[3C404EFF]魔物！？[3C404EFF]\n一体どういうことなの〜〜！？=That means, a monster!? What's going on~~!?
+[3C404EFF]話は後だ。[3C404EFF]まずは目の前の敵を倒そう。[3C404EFF]\n状況を見るに、[3C404EFF]幻覚に囚われていた私たちを、[3C404EFF]\n少年が守ってくれていたようだね……=We'll talk later. First, let's defeat the enemy in front of us. From the looks of it, the boy was protecting us while we were trapped in the hallucination...
+[3C404EFF]……どこまでも私たちは、[3C404EFF]少年に助けられてばかりのようだな。[3C404EFF]\nその礼は、[3C404EFF]ここでさせてもらう！　[3C404EFF]さあ、[3C404EFF]いくぞ！=...We seem to be always saved by the boy. Let me repay you here! Come on, let's go!
+[3C404EFF]はいっ！\nええっ！=Yes! Eeeeei!
+[3C404EFF]ひょえええ！？[3C404EFF]\nなんですかあれ！　[3C404EFF]キノコの胞子！？=Hyoee!? What is that! Mushroom spores!?
+[3C404EFF]──インフェルノシールド！=──Inferno Shield!
+[3C404EFF]──聖なる盾よ！=──Holy Shield!
+[3C404EFF]おおっ！　[3C404EFF]お二人が胞子を防いでくれました！=Wow! The two of you blocked the spores!
+[3C404EFF]でも、[3C404EFF]あの胞子……[3C404EFF]なにか危ない効果があったりするんじゃ……？[3C404EFF]\n[3C404EFF]た、[3C404EFF]例えば幻覚とか……？=But, those spores... Do they have any dangerous effects...? L-like hallucinations...?
+[3C404EFF]え、[3C404EFF]ええええーーっ！？[3C404EFF]\nユカリさんたちの盾の後ろにいたほうがいいですよ！！=E-eeeeh!? You should stay behind Yukari-san's shield!!
+[3C404EFF]キミ！　[3C404EFF]大丈夫なの！？[3C404EFF]\n思いっきり胞子を吸い込んじゃうわよ！！=You! Are you okay!? You're inhaling the spores like crazy!!
+[3C404EFF]ふむ……[3C404EFF]これまでたった一人で粘っていたんだ。[3C404EFF]\nきっと何か策があってのことだろう……=Hmm... He's been holding out by himself for so long. He must have some plan...
+[3C404EFF]私たちは少年を信じよう……！=Let's trust the boy...
+[3C404EFF]よし！　[3C404EFF]隙が生まれたぞ！=All right! We've got an opening!
+[3C404EFF]それに、[3C404EFF]胞子も止みました！[3C404EFF]\n[3C404EFF]威厳ある見た目をしてますけど、[3C404EFF]意外と脆いのかもしれません……！=And, the spores have stopped too! It looks dignified, but maybe it's surprisingly fragile...!
+[3C404EFF]胞子が厄介ですけど、[3C404EFF]止んだ今なら！=The spores are troublesome, but now that they've stopped!
+[3C404EFF]ここは私たちお姉さんコンビが、[3C404EFF]切り込みをかけるわ！=This is where we sisters combo will make a cut in!
+[3C404EFF]ああ、[3C404EFF]行くぞっ！=Yeah, let's go!
+[3C404EFF]──グオオオオオッ！\n──グオオオオオッ！=──Gwooooh!\n──Gwooooh!
+[3C404EFF]森の茂みからまたキノコが出てきた！？=More mushrooms came out of the bushes!?
+[3C404EFF]ちっちゃくて、[3C404EFF]手下っぽいです〜〜！？=They're small and look like minions~~!?
+[3C404EFF]怯むな、[3C404EFF]ユカリちゃん！[3C404EFF]\nその鉈で切り刻むんだ！=Don't falter, Yukari-chan! Cut them up with that hatchet!
+[3C404EFF]Eeeeei![3C404EFF]\nしばらくキノコが食べられなくなった恨み、[3C404EFF]晴らさせてもらうわ！=Yes! I'll take revenge for not being able to eat mushrooms for a while!
+[3C404EFF]キノコの素焼き、[3C404EFF]大好きなおつまみだったのにーー！！[3C404EFF]\n[3C404EFF]えーーーーいっ！！=Grilled mushrooms were my favorite snack!\nEeeeii!!
+[3C404EFF]この穏やかな休暇中に剣を持たせるとは……[3C404EFF]\n断じて許さん！　[3C404EFF]はあっ！=I can't believe you made me hold a sword during this peaceful vacation... I won't forgive you! Haaah!
+[3C404EFF]──ギャオオオオオッ！\n──ギャオオオオオッ！=──Gyaaoooh!\n──Gyaaoooh!
+[3C404EFF]このまま一気に[3C404EFF]親玉を狙おう！=Let's go for the boss at once!
+[3C404EFF]まずい！　[3C404EFF]また胞子を吐き出し始めるぞ！？=Watch out! It's starting to spit out spores again!?
+[3C404EFF]させませんっ！[3C404EFF]\nこのブッシュクラフトで作ったボウガンで……[3C404EFF]やああっ！！=We won't let you! With this bowgun I made with bushcraft skills... Yaaah!!
+[3C404EFF]みなさん！　[3C404EFF]今のうちに！=Everyone! Now's our chance!
+[3C404EFF]ありがとう、[3C404EFF]アオイちゃん！=Thanks, Aoi-chan!
+[3C404EFF]少年！　[3C404EFF]このままいくぞ！[3C404EFF]\nキャンプを取り戻すのだ！=Boy! Let's go like this! Let's take back our campsite!
+[3C404EFF]はあーっ！！=Haaaa!!
+[3C404EFF]はあ、[3C404EFF]はあ……[3C404EFF]\n[3C404EFF]なんとか、[3C404EFF]倒せたわね……=Haa, haa... We somehow managed to defeat it...
+[3C404EFF]ああ……[3C404EFF]ずっとキノコの幻覚にやられていたせいで、[3C404EFF]\n体の動きは本調子ではなかったがね……=Yeah... My body wasn't in top shape because I was under the influence of the mushroom hallucination for so long...
+
+
+[3C404EFF]あなたがいなかったら、[3C404EFF]\nきっとずっと幻覚を見たまま、[3C404EFF]あの魔物にも今頃……=If you weren't here, we'd probably still be seeing hallucinations, and by now... That monster would have...
+[3C404EFF]ねえ……[3C404EFF]\nでも、[3C404EFF]そもそもどうしてキミがここに来たの……？=Hey... But why did you come here in the first place...?
+[3C404EFF]私たちが失踪扱いー！？=We were reported missing!?
+[3C404EFF]そ、[3C404EFF]そういえば……[3C404EFF]\n飲食店でキャンプ飲みの話を聞いた勢いで出発しちゃってたかも……=Oh, right... I might have left in a hurry after hearing about the camping drink at the restaurant...
+[3C404EFF]私も……[3C404EFF]女学院と工場に休みの連絡を入れただけで、[3C404EFF]\n[3C404EFF]ミサト先生たちには行先を伝えてなかったです……=Me too... I only contacted the girls' academy and the factory to take a break, but I didn't tell Miss Misato and the others where I was going...
+[3C404EFF]全く……[3C404EFF]二人とも、[3C404EFF]駄目じゃないか。[3C404EFF]\n休みを取るのはいいが、[3C404EFF]人に迷惑をかけてしまっては……！=Geez... you two are hopeless. It's fine to take a break, but you shouldn't cause trouble for others...!
+[3C404EFF]すみません……=I'm sorry...
+[3C404EFF]まあ、[3C404EFF]こうして無事で済んだし……[3C404EFF]それにせっかくの休暇だ。[3C404EFF]\nこれ以上、[3C404EFF]堅いことは言わないでおこう。=Well, it's good that we're safe now... and it's a rare vacation. Let's not say anything more serious.
+[3C404EFF]だが、[3C404EFF]なぜあの魔物は、[3C404EFF]\nアストライア茸……[3C404EFF]いや[3C404EFF]毒キノコと似た見た目をしていたんだ……？=But why did that monster look like an Astraea mushroom... or rather, a poisonous mushroom...?
+[3C404EFF]う～ん……[3C404EFF]多分なんですけど……[3C404EFF]\n[3C404EFF]それに[3C404EFF]非常に言いづらいのですが……=Hmm... I think it's probably... but it's very hard to say...
+[3C404EFF]私たちが食べちゃったキノコは……[3C404EFF]\nあの魔物の[3C404EFF]菌糸なんじゃないでしょうか……？=The mushrooms we ate... were actually part of that monster's mycelium...?
+[3C404EFF]食べられやすい見た目の菌糸で誘って、[3C404EFF]それを食べた人間……[3C404EFF]\n[3C404EFF]つまり、[3C404EFF]獲物が幻覚を見ている隙に狩りをするという……=It lures its prey with edible-looking mycelium, and then hunts them while they're hallucinating from eating it...
+[3C404EFF]そんな生態の魔物や生き物がいるって、[3C404EFF]\n【フォレスティエ】の資料で読んだことがあります。=I've read about such creatures and monsters in the [Forestea] materials.
+[3C404EFF]つまり私たちは、[3C404EFF]毒キノコどころか[3C404EFF]魔物の一部を食べていたってこと！？=So we were eating not just poisonous mushrooms, but part of a monster!?
+[3C404EFF]そう、[3C404EFF]なるな……=That's how it is...
+[3C404EFF]ううっ……[3C404EFF]\n最高の一杯のための[3C404EFF]最高のおつまみなんかじゃなかったってわけね……=Ugh... it wasn't the best snack for the best drink...
+[3C404EFF]だが、[3C404EFF]先ほどの魔物を倒したことで、[3C404EFF]\nあの偽アストライア茸も死滅するのではないかな。=But maybe by defeating that monster earlier, those fake Astraea mushrooms will die out too.
+[3C404EFF]少年が聞いたという、[3C404EFF]毒キノコの噂がそれだとすれば、[3C404EFF]\nこのキャンプ場の安全面は高まるというわけだ。=If that's what the rumor of the poisonous mushrooms that the boy heard was about, then this campsite will be safer.
+[3C404EFF]元々、[3C404EFF]森の中に入って行きさえしなければ問題なかったとはいえ、[3C404EFF]\n危険な魔物が潜んでいるよりはマシだからね。=It wasn't a problem as long as we didn't go into the forest in the first place, but it's better than having a dangerous monster lurking around.
+
+[3C404EFF]というか、[3C404EFF]私たちが無理やり……[3C404EFF]\n[3C404EFF]ううっ……[3C404EFF]なにからなにまですみません……=Or rather, we forced him to... ugh... I'm sorry for everything...
+[3C404EFF]確かに気になるね。[3C404EFF]魔物の胞子も効かなかったようだし……[3C404EFF]\nどうして少年だけ平気だったんだろうか……？=I'm curious about that too. He didn't seem to be affected by the monster's spores either... why was he the only one who was fine...?
+
+[3C404EFF]それが何か関係あるのかい？=What does that have to do with anything?
+[3C404EFF]ほら……[3C404EFF]私たち、[3C404EFF]幻覚の中では[3C404EFF]なりたい自分になっていたわよね。[3C404EFF]\n[3C404EFF]それが幸せで幸せでたまらなくて……=Well... we were all becoming who we wanted to be in our hallucinations. And we were so happy and ecstatic...
+[3C404EFF]それに、[3C404EFF]キノコを食べる前……[3C404EFF]３人でそんな話もしてたじゃない？[3C404EFF]\n[3C404EFF]だから、[3C404EFF]それも関係してるのかなって……=And before we ate the mushrooms... we were talking about that kind of thing, right? So maybe that had something to do with it...
+[3C404EFF]ねえ、[3C404EFF]キミ。[3C404EFF]例えば、[3C404EFF]超モテモテのイケメンになりたい～[3C404EFF]とか、[3C404EFF]\n[3C404EFF]大富豪になって豪遊したい～[3C404EFF]とか……[3C404EFF]そういうものってあるかしら？=Hey, you. Do you have anything like that? Like wanting to be a super popular handsome guy, or becoming a millionaire and living it up...?
+[3C404EFF]ああ、[3C404EFF]やっぱり……[3C404EFF]\n[3C404EFF]だから、[3C404EFF]食べても平気だったのかも。=Oh, I see... maybe that's why you were fine after eating them.
+[3C404EFF]私たちは、[3C404EFF]このキャンプで自分を見つめ直そうとしていたわけだからね。[3C404EFF]\n特に影響を強く受けたのかもしれない。=We were trying to find ourselves in this camp, after all. Maybe we were more influenced by them.
+[3C404EFF]だが、[3C404EFF]少年がいい見本なのかもしれないな。[3C404EFF]\n[3C404EFF]いつも飾らない[3C404EFF]等身大な君の姿が……=But maybe you're a good example for us. You're always yourself without any pretense...
+[3C404EFF]そうね……[3C404EFF]私みたいに見栄っ張りじゃないもんね。[3C404EFF]\nだから、[3C404EFF]年下なのに頼りにしちゃってて……[3C404EFF]\n[3C404EFF]いつもありがとう、[3C404EFF]キミ。=That's right... you're not like me who's always vain. That's why I rely on you even though you're younger than me... thank you for everything, you.
+[3C404EFF]そうですね……[3C404EFF]\n私もぼっち卒業に向けて、[3C404EFF]最近はずっと焦ってばかりでした……=Yes... I've been feeling anxious lately about graduating from being alone...
+[3C404EFF]独りよがりになって、[3C404EFF]あなたにも心配をかけてしまいました……[3C404EFF]\n[3C404EFF]そんなんじゃいつまで経っても[3C404EFF]友達なんかできるわけありませんよね。=I became self-centered and worried you too... I can't make any friends like this.
+[3C404EFF]いつも自分をしっかりと持ってるあなたは、[3C404EFF]私の憧れです！[3C404EFF]\nさすが、[3C404EFF]ＢＢ団の団長さんです！=You're always confident and true to yourself. You're my admiration! You're amazing, the leader of the BB-Brigade!

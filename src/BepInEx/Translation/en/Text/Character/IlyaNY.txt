@@ -4,7 +4,7 @@
 
 r:"^自分の魔法攻撃力を(\d+)アップ\n自分の魔法クリティカルを100アップ\n敵単体に(\d+)の魔法ダメージ\n自分のＨＰを(\d+)回復$"=Boosts own M.ATK by $1 for 18s.\nBoosts own M.crit by 100 for 18s.\nDeals $2 P.DMG to an enemy.\nRecovers own HP by $3.
 
-自分の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、目の前の敵１キャラに魔法特大ダメージを与え、さらに自分のＨＰを中回復させる。=Large increase in own M.ATK, large increase in M.crit rate, inflicts large amount of M.DMG to an enemy in front, and medium recovers own HP.
+自分の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、目の前の敵１キャラに魔法特大ダメージを与え、さらに自分のＨＰを中回復させる。=Large increase in own M.ATK, large increase in M.crit rate, Deals large amount of M.DMG to an enemy in front, and medium recovers own HP.
 
 r:"^敵単体に(\d+)の魔法ダメージ\n自分の魔法攻撃力を(\d+)アップ\n自分の残りＨＰの40%を消費$"=Cast time: 0.52s\nDeals $1 P.DMG to an enemy.\nBoosts own M.ATK by $2 for 12s.\nDeals 40% M.DMG to own of current HP.
 目の前の敵１キャラに魔法大ダメージを与え、自分の魔法攻撃力を中アップさせるが、自分の残りＨＰの40％を消費する。=Inflicts a large amount of M.DMG to the enemy in front, and medium boost own M.ATK, but consumes 40% of own remaining HP.

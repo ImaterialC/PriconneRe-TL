@@ -18,7 +18,7 @@ r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカル
 
 イニシャライズ=Initialization
 このスキルのスキルレベルは「オブジェクトクリエイション」と連動しています=The skill level of this skill is linked to "Object Creation"
-敵全体に物理特大ダメージを与え、七冠の権能を解除する。自分のＴＰを-1000する。=Inflicts massive physical damage to all enemies and Lock the power of the Seven Crowns. -1000 to own TP.
+敵全体に物理特大ダメージを与え、七冠の権能を解除する。自分のＴＰを-1000する。=Deals massive physical damage to all enemies and Lock the power of the Seven Crowns. -1000 to own TP.
 r:"^敵全体に(\d+)の物理ダメージ\n自分のＴＰを1000失わせる\n七冠の権能を解除する$"=►Deals $1 P.DMG to all enemies.\n►Reduces own TP by 1000.\n►Lock the power of the Seven Crowns (Switches to attack pattern 1).
 
 アクセラレーション=Acceleration

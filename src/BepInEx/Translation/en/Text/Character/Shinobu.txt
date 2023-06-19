@@ -12,7 +12,7 @@ UB
 前方範囲内の敵すべてに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to all enemies in range and lowers their P.DEF by a small amount.
 
 ファントムインフェルノ=Phantom Inferno
-前方範囲内の敵すべてに物理大ダメージを与え、物理防御力を中ダウン、行動速度を大ダウンさせ、恐慌状態にする。さらに、【霊力】を解放する。【霊力】解放中、召喚するドクロ親父の各種ステータスがアップする。=Inflicts large P.DMG to all enemies within range, moderately decreases P.DEF, Large decreases SPD, and inflict panics. Furthermore, Receive [spiritual power] (various stats of the summoned Skull Father will be increased).
+前方範囲内の敵すべてに物理大ダメージを与え、物理防御力を中ダウン、行動速度を大ダウンさせ、恐慌状態にする。さらに、【霊力】を解放する。【霊力】解放中、召喚するドクロ親父の各種ステータスがアップする。=Deals large P.DMG to all enemies within range, moderately decreases P.DEF, Large decreases SPD, and inflict panics. Furthermore, Receive [spiritual power] (various stats of the summoned Skull Father will be increased).
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の行動速度を一定時間低下させる\n範囲内の敵を恐慌状態にする\n霊力を解放する$"=►Deals $1 P.DMG to enemies within 850 range.\n►Lowers P.DEF of all enemies within range by $2 for 18s.\n►Reduces SPD of enemies within range to 65% for 12s.\n►Inflict fear on target for 12s.\n►Receive Spiritual Power for 180s.
 
 S1

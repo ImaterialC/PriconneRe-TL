@@ -14,7 +14,7 @@ r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカル
 
 
 バーニングサンライズ=Burning Sunrise
-自分の物理攻撃力を小アップさせ、さらに目の前の敵１キャラに物理中ダメージを与える。=Boost own P.ATK by a small amount, and inflicts medium P.DMG to 1 enemy character in front.
+自分の物理攻撃力を小アップさせ、さらに目の前の敵１キャラに物理中ダメージを与える。=Boost own P.ATK by a small amount, and Deals medium P.DMG to 1 enemy character in front.
 
 
 トゥインクルブレイブ+=Twinkle Brave+

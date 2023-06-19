@@ -4,5 +4,6 @@ UB即発動モードを有効にする=Enable UB prompt mode
 各キャラがユニオンバーストを発動する度に、UB即発動モードを解除するか設定できます。=Each time character activates UB, you can set whether to cancel the UB prompt mode.
 ユニオンバースト発動時にUB即発動モードを解除=Cancel UB prompt mode when union burst is activated
 ルナの塔において、バトル速度の上限を設定できます。設定は次回のバトルから反映されます。=You can set an upper limit for battle speed in the Tower of Luna.\n The settings will be reflected from the next battle.
+次元断層において、バトル速度の上限を設定できます。設定は次回のバトルから反映されます。=You can set an upper limit for battle speed in the Dimension Vault.\n The settings will be reflected from the next battle.
 
 UB即発動モードが無効になっています。=UB prompt mode disabled.

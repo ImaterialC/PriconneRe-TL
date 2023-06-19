@@ -27,7 +27,7 @@ UB Non-6*
 残りＨＰが最も高い敵１キャラに魔法特大ダメージを与える。=Deals massive magic damage to the enemy with the highest current HP.
 
 UB 6*
-残りＨＰが最も高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Inflicts massive magic damage to the enemy with the highest remaining HP, and also slightly decreases magic defense.
+残りＨＰが最も高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive magic damage to the enemy with the highest remaining HP, and also slightly decreases magic defense.
 
 Rank 2 Skill
 目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を小ダウンさせる。=Lowers magic defense of enemies within the radius of the target by a small amount.

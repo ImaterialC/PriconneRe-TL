@@ -26,7 +26,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御
 Enemies within the aoe range receive extra 2% critical dmg
 味方全体に継続ＨＰ回復状態と継続ＴＰ回復状態を付与し、さらに物理無効バリアを展開する。=Gives HP regen and continuous TP recovery to all allies, and deploys a physical nullification barrier.
 
-r:"^毎秒ＨＰを(\d+)回復する\n毎秒ＴＰを10回復する\n(\d+)ダメージ分の物理無効バリアを展開する$"=►Recovers allies' HP by $1/s for 10.5s.\n►Recovers allies' TP by $2/s for 10.5s.\n►Deploys barrier over all allies that negates $3 P.DMG for 11s.
+r:"^毎秒ＨＰを(\d+)回復する\n毎秒ＴＰを10回復する\n(\d+)ダメージ分の物理無効バリアを展開する$"=►Recovers allies' HP by $1/s for 10.5s.\n►Recovers allies' TP by 10 for 10.5s.\n►Deploys barrier over all allies that negates $2 P.DMG for 11s.
 
 
 ロイヤリティライト=Loyalty light

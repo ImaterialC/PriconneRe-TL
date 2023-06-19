@@ -3,7 +3,7 @@
 うさぎさんサマーインパクト=Rabbit Summer Impact
 夏の海もうさぎさんパワー=Summer Sea More Power
 夏の海もうさぎさんパワー+=Summer Sea More Power+
-自分の物理攻撃力を特大アップし、敵全体に物理小ダメージを与える。さらに、マルチターゲットのターゲットすべてに物理大ダメージを与え、物理防御力を中ダウンさせる。=Massively boost own P.ATK power and deals small P.DMG to all enemies. In addition, inflicts large P.DMG on all multi-target targets and moderately decreases their P.DEF.
+自分の物理攻撃力を特大アップし、敵全体に物理小ダメージを与える。さらに、マルチターゲットのターゲットすべてに物理大ダメージを与え、物理防御力を中ダウンさせる。=Massively boost own P.ATK power and deals small P.DMG to all enemies. In addition, Deals large P.DMG on all multi-target targets and moderately decreases their P.DEF.
 r:"^自分の物理攻撃力を(\d+)アップ\n敵全体に(\d+)の物理ダメージ\n対象の敵のターゲットに(\d+)の物理ダメージ\n対象の敵のターゲットの物理防御力を(\d+)ダウン$"=Boosts own P.ATK by $1.\nDeals $2 P.DMG to all enemies.\nDeals $3 P.DMG to all multi-target enemies.\nLowers all multi-target enemies’ P.DEF by $4.
 
 目の前の敵１キャラに物理中ダメージを与え、さらに自分のＴＰを中回復する。目の前の敵がマルチターゲットの場合、ターゲットすべてに物理中ダメージを与える。=Inflicts moderate P.DMG to the first enemy character in front, and moderately restores own TP. If the enemy in front of you is a multi-target, deal P.DMG to all targets.

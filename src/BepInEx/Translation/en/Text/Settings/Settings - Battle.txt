@@ -17,7 +17,7 @@ Bアリーナ=B Arena
 特定のキャラのユニオンバースト速度設定=UB Speed settings for Prifes.
 
 特定のキャラのユニオンバースト演出速度を設定できます。\n※対象キャラは、「ペコリーヌ（プリンセス）」・「コッコロ（プリンセス）」・「ユイ（プリンセス）」・\n「ヒヨリ（プリンセス）」・「キャル（プリンセス）」・「レイ（プリンセス）」です。=Set UB animation speed for prifes chars.\n※Target is:「Pecorine(Princess)」・「Kokkoro(Princess)」・「Yui(Princess)」・\n「Hiyori(Princess)」・「Kyaru(Princess)」・「Rei(Princess)」
----特定のキャラのユニオンバースト演出速度を設定できます。\n※対象キャラは、「ペコリーヌ（プリンセス）」・「コッコロ（プリンセス）」・「ユイ（プリンセス）」・\n「ヒヨリ（プリンセス）」・「キャル（プリンセス）」・「レイ（プリンセス）」です。=Set UB animation speed for prifes chars.
+
 高速=High Speed
 
 クランバトル開始前の確認ダイアログ=CB Start Confirmation Prompt
@@ -66,3 +66,4 @@ Bアリーナ=B Arena
 ルナの塔を開始する前に、バトル速度設定を確認するダイアログを開きます。=Opens a dialog box to confirm your battle speed settings.
 
 クランバトルの模擬戦・トレーニングバトルにおいて、バトル速度の上限を設定できます。\n設定は次回のバトルから反映されます。=You can set the upper limit of the battle speed in the mock battle of the clan battle.\nThe settings will be reflected from the next battle.
+

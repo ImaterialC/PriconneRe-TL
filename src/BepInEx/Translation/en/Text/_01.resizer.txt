@@ -168,3 +168,6 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/WidgetOff(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(10)
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/PartsDailyTask(Clone)/Main/ScrollContent/ScrollView/WrapContent/PartsDailyTaskPlate(Clone)/Node/GUIGroup_Button/UIButton_Move/Label=ChangeFontSize(17)
+/_Game(Clone)/UI Root/FrontArea/BlurLayer/SubtitleArea/Subtitle/Text=ChangeFontSize(30)
+
+r:"^([^\n]{2,10})が$"=[00FF0099]$1[-] attacked

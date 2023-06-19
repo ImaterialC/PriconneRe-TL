@@ -15,7 +15,7 @@ r:"^分身を生成する\n魔法攻撃力を(\d+)アップさせるフィール
 
 【召喚】ユニオンバーストを使用しない、自分の分身を生成する。さらに自分の周囲に魔法攻撃力を特大アップさせ、ＴＰ上昇を小アップさせるフィールドを展開する。=[Summon]Create a duplicate of herself that cannot use UB. Deploys a field around self that grants a massive boost to M.ATK and small boost to TP Boost.
 
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、さらにスタンさせる。=Inflicts large amounts of magic damage to all enemies within range centering on the first enemy character in front of you, decreases their magic defense by a small amount, and stuns them.
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、さらにスタンさせる。=Deals large amounts of magic damage to all enemies within range centering on the first enemy character in front of you, decreases their magic defense by a small amount, and stuns them.
 
 r:"^範囲内の敵すべてに(\d+)の魔法ダメージ\n範囲内の敵すべての魔法防御力を(\d+)ダウン\n範囲内の敵を一定時間行動不能にする$"=►Deals $1 to All Enemies in the front within 250 range.\n►Lowers M.DEF of all enemies in range by $2 for 12s.\n►Inflict Stun to the targets for 1.5s.
 
