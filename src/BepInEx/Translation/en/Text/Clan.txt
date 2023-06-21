@@ -331,7 +331,7 @@ r:"^(\d)戦目\n本戦参加済$"=Used at\nParty $1
 パーティ情報がまだありません。しばらくして再度ご確認ください。=There are no party information, please check back later.
 [FF7C4E,D62146]表示されている編成は、すべてAUTO・SMART設定で挑戦した編成です。[-]=[FF7C4E,D62146]All of the parties shown were played with AUTO and SMART settings.[-]
 
----recommended party
+---recommended party---
 上級=Advanced
 中級=Intermediate
 初級=Beginner
