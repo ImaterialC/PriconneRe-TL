@@ -1,0 +1,20 @@
+【物理】前衛でたい焼き器片手に悪を討つ売り子の猫娘。味方全体を物理攻撃力アップとＴＰ回復させ、ＵＢでさらに自分の攻撃力を特大強化し、驚異の威力を発揮する。=[Physical] A cat girl who wields a taiyaki griddle as she fights against evil as a vendor. She boosts the P.ATK power and recovers TP of all allies, and during UB, further strengthens her own P.ATK to unleash incredible power.
+
+目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を特大アップさせる。=Dealt P.DMG to a single enemy character in front of you, and further increase your own P.ATK power by an extra-large amount
+
+目の前の敵１キャラに物理大ダメージを与え、味方全体の物理攻撃力を特大アップする。さらに自分のＴＰ上昇を小アップさせ、ＴＰを中回復させる。=Dealt P.DMG to an enemy character in front of you, increasing the P.DMG power of all your allies by an extra-large amount. Additionally, increase own TP as well, restoring your TP inside.
+
+味方全体のＴＰを小回復させ、さらに物理攻撃力を大アップさせる。=It restored small amounts of TP for all allies and increased their physical attack power even further
+
+r:"^敵単体に(\d+)の物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n自分のＴＰ上昇を(\d+)アップ\n自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK by $2.\n►Increases own TP Boost by $3.\n►Recovers own TP by $4.
+
+
+キャッツショータイム+=Cats Showtime+
+キャッツショータイム=Cats Showtime
+猫のおもてなし=Cat hospitality
+フィッシュエッジ+=Fish Edge+
+フィッシュエッジ=Fish Edge
+ねこねこたい焼きラッシュ=Neko Taiyaki Rush
+猫とたわむれること=Playing With Cats
+
+鯛刃ニャンオペダガー=Taiba Nyan Oper Dagger

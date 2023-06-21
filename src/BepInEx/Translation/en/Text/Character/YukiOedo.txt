@@ -1,14 +1,15 @@
-【魔法】後衛で、迷える皆を救う白衣を纏いし美の象徴。一番低い味方１キャラのＴＰを回復し、ＨＰ回復スキルで守り、魔法攻撃力アップのスキルで一気に攻め落とす。=【Magic】As a backline support, she wears a white robe that symbolizes beauty and saves everyone who is lost. She can recover the TP of the lowest ally character, protect with an HP recovery skill, and then launch a fierce attack with a skill that increases magic attack power.
+【魔法】後衛で、迷える皆を救う白衣を纏いし美の象徴。一番低い味方１キャラのＴＰを回復し、ＨＰ回復スキルで守り、魔法攻撃力アップのスキルで一気に攻め落とす。=[Magic] As a backline support, she wears a white robe that symbolizes beauty and saves everyone who is lost. She can recover the TP of the lowest ally character, protect with an HP recovery skill, and then launch a fierce attack with a skill that increases magic attack power.
 
-可愛いボクを緊急投与だよ♪=Emergency Dose for Cute Me ♪
-天使なボクが癒しちゃう♪=Angel-like Me Will Heal You ♪
+可愛いボクを緊急投与だよ♪=Emergency Dose for Cute Me♪
+天使なボクが癒しちゃう♪=Angel-like Me Will Heal You♪
+天使なボクが癒しちゃう♪+=Angel-like Me Will Heal You♪+
 r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の行動速度アップ\n敵全体の魔法防御力を(\d+)ダウン$"=►Increases the M.ATK of all allies by $1.\n►Increases the speed of allies' actions.\n►Reduces the M.DEF of all enemies by $2
 味方全体の魔法攻撃力と行動速度を大アップさせる。さらに敵全体の魔法防御力を小ダウンさせる。=Greatly increases magic attack power and action speed of all allies. Also, slightly lowers magic defense of all enemies.
 
-天使なボクが癒しちゃう♪=An angel will heal ♪
+天使なボクが癒しちゃう♪=An angel will heal♪
 最もＨＰが低い味方１キャラを中心とした範囲内の味方すべてのＨＰを中回復させる。=Moderately restores HP of all allies in range centered on lowest HP ally.
 
-ボクの美しさが処方箋さ♪=My beauty is a prescription ♪
+ボクの美しさが処方箋さ♪=My beauty is a prescription♪
 最もＴＰが低い味方１キャラのＴＰを中回復させる。さらにそのキャラを中心とした範囲内の味方すべての魔法攻撃力を中アップさせる。=Moderately restores TP of lowest TP ally and moderately increases magic attack power of allies in range centered on that character.
 r:"^味方単体のＴＰを(\d+)回復\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=Cast Time: 0.66s\n►Recovers an ally's TP by $1.\n►Boosts M.ATK of all allies whitin 200 range by $2 for 12s.
 

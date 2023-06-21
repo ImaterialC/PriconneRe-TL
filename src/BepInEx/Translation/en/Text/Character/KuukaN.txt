@@ -1,0 +1,17 @@
+【魔法】前衛で、猛攻をバリアで受けきる闇のドＭ娘。最も魔法攻撃力が高い味方の魔法攻撃力とクリティカルをアップさせ、魔法防御力ダウンスキルで敵を怯ませる。=[Magic] A dark and masochistic girl who stands at the front line, enduring fierce attacks with her barrier. She boosts the M.ATK power and M.crit rate of the ally with the highest M.ATK, and uses a skill to decrease the M.DEF of enemies, making them flinch.
+
+自分に物理/魔法吸収バリアを展開し、継続ＨＰ回復状態を付与する。さらに、最も魔法攻撃力が高い味方１キャラの魔法攻撃力と魔法クリティカルを特大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。=Deploys a P/M absorption barrier on herself and grants continuous HP recovery. Additionally, significantly increases the M.ATK power and M.crit rate of the ally with the highest M.ATK, and slightly boosts the M.crit dmg.
+
+目の前の敵１キャラに魔法小ダメージを与え、魔法防御力を小ダウンさせる。さらに、自分のＨＰを大回復し、物理防御力を大アップさせる。=Deals minor M.DMG to the enemy in front and reduces their M.DEF. Furthermore, she greatly restores her own HP and significantly increases her P.DEF.
+
+r:"^味方単体の魔法攻撃力を(\d+)アップ\n味方単体の魔法クリティカルを(\d+)アップ\n味方単体の魔法攻撃クリティカル時のダメージを10%アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する\n毎秒ＨＰを(\d+)回復する$"=►Boosts an ally's M.ATK by $1 for 12.\n►Boosts an ally's M.Crit Rate by $2 for 12.\n►Boosts an ally's M.Crit dmg by 10% for 12.\n►Deploys a barrier upon self that absorbs $3 P/M.DMG for 12s.\n►Recovers Own HP by $4/s for 6s.
+
+r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン\n自分のＨＰを(\d+)回復\n自分の物理防御力を(\d+)アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2 for 12.\n►Recovers own HP by $3.\n►Boosts own P.DEF by $4 for 12.
+
+ドＭ・フィールド+=M Field+
+ドＭ・フィールド=M Field
+ドМ・パッション=M Passion
+ドМ・シェアリング+=M Share+
+ドМ・シェアリング=M Share
+クウカ・ドМ・エクスプロージョン=Kuuka's M Explosion
+闇のドＭオーブ=Dark M Orb

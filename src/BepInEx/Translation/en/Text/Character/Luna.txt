@@ -1,7 +1,7 @@
 【魔法】後衛で、死霊術でおともだちを作る可憐な少女。\nルナがダメージを与える度に集まってくるおともだちを、\n各スキルで消費する。消費数に応じ強大な力を発揮する。=[Magic]A cute necromancer loli from the RG who gathering Friends. The more Friends the greater the power of Luna's skill. Nyaru is one of Luna's favorite Friend.
 「おともだち」を探すこと=looking for "friends"
 
-おともだちを探す死霊術師の少女=A loli Necromancer who looking for a friends
+おともだちを探す死霊術師の少女=A necromancer girl looking for a friend
 
 おともだちになってよ！=Come On My Adventure
 かくれんぼ=Hide and Seek
@@ -17,17 +17,17 @@
 おともだちになってくれる？=Will You Join My Adventure?
 おともだちになってくれる？+=Will You Join My Adventure?+
 
-r:"^敵単体に(\d+)の魔法ダメージ\nおともだちを最大５人減らす$"=Deals $1 M.DMG to an enemy.\nLosses up to 5 Friends.
+r:"^敵単体に(\d+)の魔法ダメージ\nおともだちを最大５人減らす$"=►Deals $1 M.DMG to an enemy.\n►Losses up to 5 Friends.
 目の前の敵１キャラに魔法中ダメージを与える。おともだちがいる場合、最大５人までおともだちを消費してダメージを増加させる。=Deals moderate M.DMG to an enemy directly in front. if Luna has any Friends, Consumes up to 5 Friends to boost the damage.
 
-r:"^味方単体に(\d+)の魔法ダメージ\n味方単体のＴＰを(\d+)回復\nおともだちを追加で１人増やす\n味方単体の魔法攻撃力を(\d+)アップ\n味方単体の魔法クリティカルを(\d+)アップ\n自分のＴＰを(\d+)回復$"=Cast Time:0.74s\nDeal $1 M.DMG to Highest %HP ally\nRecover an ally's TP by $2.\nAdds 1 additional Friend.\nBoosts an ally's M.ATK by $3 for 12s.\nBoost M.Crit Rate by $4 for 12s.\nRecover own TP by $5.
-r:"^味方単体に(\d+)の魔法ダメージ\n味方単体のＴＰを(\d+)回復\nおともだちを追加で１人増やす$"=Cast Time:0.74s\nDeal $1 M.DMG to Highest %HP ally\nRecover an ally's TP by $2.\nAdds 1 additional Friend.
+r:"^味方単体に(\d+)の魔法ダメージ\n味方単体のＴＰを(\d+)回復\nおともだちを追加で１人増やす\n味方単体の魔法攻撃力を(\d+)アップ\n味方単体の魔法クリティカルを(\d+)アップ\n自分のＴＰを(\d+)回復$"=Cast Time:0.74s\n►Deal $1 M.DMG to Highest %HP ally\n►Recover an ally's TP by $2.\n►Adds 1 additional Friend.\n►Boosts an ally's M.ATK by $3 for 12s.\n►Boost M.Crit Rate by $4 for 12s.\n►Recover own TP by $5.
+r:"^味方単体に(\d+)の魔法ダメージ\n味方単体のＴＰを(\d+)回復\nおともだちを追加で１人増やす$"=Cast Time:0.74s\n►Deal $1 M.DMG to Highest %HP ally\n►Recover an ally's TP by $2.\n►Adds 1 additional Friend.
 
 最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復し魔法攻撃力を小アップ、魔法クリティカルを大アップさせる。さらに、自分のＴＰを小回復する。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the Highest %HP ally and recovers their TP by moderate amount, boost their M.ATK and M.Crit rate. Restore a small amount of own's TP. Luna gains 1 extra Friend.
 
 最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復しルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the Highest %HP ally and recovers their TP by moderate amount, restores their TP to medium. Luna gains 1 extra Friend.
 
-r:"^おともだちが２人以上いない時敵単体に(\d+)の魔法ダメージ\nおともだちが２人以上いる時敵単体に(\d+)の魔法ダメージ\nおともだちが２人以上いる時おともだちを２人減らす$"=Cast Time:0.74s\nIf Friends < 2:\nDeals $1 M.DMG to an enemy.\n\nIf Friends ≥ 2:\nDeals $2 M.DMG to an enemy.\nLoses 2 Friends.
+r:"^おともだちが２人以上いない時敵単体に(\d+)の魔法ダメージ\nおともだちが２人以上いる時敵単体に(\d+)の魔法ダメージ\nおともだちが２人以上いる時おともだちを２人減らす$"=Cast Time:0.74s\nIf Friends < 2:\n►Deals $1 M.DMG to an enemy.\n\nIf Friends ≥ 2:\n►Deals $2 M.DMG to an enemy.\n►Loses 2 Friends.
 目の前の敵１キャラに魔法中ダメージを与える。おともだちが２人以上いる場合、代わりにおともだちを２人消費して魔法大ダメージを与える。=Deals moderate M.DMG to an enemy directly in front, If Luna has 2 or more Friends, consumes 2 Friends and deals large M.DMG instead.
 
 ルナのおともだち=Luna's Friends

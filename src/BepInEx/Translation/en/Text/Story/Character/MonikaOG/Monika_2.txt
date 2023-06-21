@@ -1,0 +1,42 @@
+
+r:"^モニカは決闘大会のための練習相手として(.{2,10})を指名する。モニカはリーチの短さを補うために上空からの攻撃法を修得しようとする。二人はとりあえず足腰の強化としてランニングに励む。$"=Monika nominates $1 as her practice partner for the duel tournament. Monika tries to learn aerial attack techniques to compensate for her short reach. For now, they focus on strengthening their legs by running.
+
+r:"^(\[3C404EFF\])?(.{2,10})はモニカに呼ばれて、\n待ち合わせ場所へとやって来た。$"=$2 arrives at the meeting place when called by Monika.
+
+来たか。\n今日は貴公に相談がある。=You're here. I have something to discuss with you.
+一週間後にある決闘大会を知っているか？\n最近やたらと宣伝されている、あのイベントだ。=Do you know about the duel tournament that will take place in a week? It's the event that has been heavily promoted recently.
+じつは、その大会に出ようと思っている。\n私の所属する部隊、ヴァイスフリューゲルの名を\n広く知らしめるいい機会だからな。=The truth is, I'm thinking of participating in that tournament. It's a great opportunity to make the name of the Weissflügel, the unit I belong to, widely known.
+というわけで、\n大会に向けて特訓をしたい。\n貴公にはその手伝いをしてもらいたいのだ。=So, I want to train for the tournament. I want you to help me with that.
+特訓相手としては、腕前がもの足りないが……\n貴公のそばにいると力がわいてくるからな。=Though your skills may be lacking as a training partner... I feel energized when I'm around you.
+それに貴公は目の付け所もいい。\nなにか気づいたことがあれば、指摘してほしいのだが……\nどうだ？=Besides, you have a good eye for details. If you notice anything, I want you to point it out... What do you think?
+タダというわけには……=Not for free, I suppose...
+見返りがほしい、ということか。\nそうだな、私としてもその方が気兼ねしないで済む。=You want something in return, is that it? Well, it's better for me too, so I don't feel indebted to you.
+では、こういうのはどうだ？\n貴公の手伝いのおかげで優勝できたら、\n賞品を山分けするというのは。=Then, how about this? If I win thanks to your help, we'll share the prize.
+そうか、引き受けてくれるか！=I see, so you're willing to accept!
+では、さっそく特訓だ。\nここでは人の邪魔になる。場所を変えよう。=Well then, let's get to the training right away. We'll be in the way here. Let's change the location.
+ここならば、思う存分動けるな。\nさっそく特訓を──=Here, we can move freely. Let's start the training──
+ん？　どうした？\n特訓の前に言いたいこと……？=Hm? What's the matter? Is there something you want to say before the training?
+私に致命的な弱点がある、だと！？\nそれは本当か？=I have a fatal weakness, you say!? Is that true?
+戦ってみればわかる……？\nそうか、では手合わせ願おうか！=I'll understand once we fight...? I see, then let's have a match!
+ん、なんだ？\n長い木の枝など拾って……=Hmm, what's this? Pick up long branches and...
+……うわっ！　なにをする！\nいきなり枝を向けて……\nおちょくっているのか！=...Whoa! What are you doing?! Suddenly pointing the branch at me... Are you teasing me?
+わっ！\nやめろっ！　え、枝で押すな！\nぬぐぐ……剣が……届かない……！！=Hey! Stop it! Don't push me with the branch! Ugh... I can't reach with my sword...!!
+おいっ、脇腹をつつくな！\nくっ、くすぐったい……！　くふ……=Hey, don't poke my side! It tickles... Heh...
+ひ、卑怯だぞ、そんな長い枝を持たれたら……\nん？\nそうか、貴公の言っていた私の弱点はこれか！=Ha... It's unfair to hold such a long branch... Huh? I see, so this is the weakness you were talking about!
+私の手足では、長い武器を持った相手と正面から戦うのは\n大きな不利があるのか……\n多少左右に動いてもリーチの差はいかんともしがたい……=With my arms and legs, it's a significant disadvantage to face an opponent with a long weapon head-on... Even if I move a bit to the left or right, the reach difference is hard to overcome...
+むむむ……\nどうしたものか？=Hm, hmm... What should I do?
+貴公に秘策がある……？\nど、どんな方法だ！？=You have a secret plan...? Wh-what method is it!?
+空……？\nなるほど、正面も左右もダメなら、\n上から攻めればいい、と。=The sky...? I see, if the front and sides don't work, then attack from above.
+確かに、それなら相手にとっても予想外の攻撃だ。\nそう簡単に対処はできないな。=Indeed, that would be an unexpected attack for the opponent. It won't be easy for them to deal with it.
+しかも、空を舞う戦法は、\n白翼という意味を持つヴァイスフリューゲルの名に\n相応しい戦法でもある……うむ、さすが貴公だ。=Moreover, an aerial technique suits the name Weissflügel, meaning White Wings... Yes, you're truly remarkable.
+しかし、上から攻めるというのは、難しいぞ。\nかなりの訓練が必要になるな……=However, attacking from above is challenging. It will require a significant amount of training...
+Cornelia……貴公も訓練に付き合ってくれるか？=Cornelia... Will you join me in the training as well?
+もちろん。=Of course.
+そ、そうか！　よかった……\nでは、二人でがんばるぞ！=I-I see! That's great... Well then, let's do our best together!
+こらCornelia、なにを休んでいる！\nまだメニューの半分しか、こなしていないぞ！\n訓練の本番はここからだ！=Hey, Cornelia, why are you resting? We've only completed half of the training menu! The real training starts now!
+まずは足腰を鍛えなくては……！\nさぁ、追加でランニング１０キロだ！=First, we need to strengthen our legs...! Now, let's add a 10-kilometer run!
+モニカの訓練は数時間に及び、\nヘロヘロに疲れ果てるCorneliaであった。=Monika's training continues for several hours, leaving Cornelia exhausted.
+
+
+
+[3C404EFF]来たか。[3C404EFF]\n今日は貴公に相談がある。=You're here. I have something to discuss with you.

@@ -19,7 +19,7 @@ Story
 宿題お手伝い=Homework Helper
 逆上がり特訓！=The Path of Gymnast
 かくれんぼの助っ人=Hide-and-Seeker
-へんたいふしんしゃさん=A Lolimancer
+へんたいふしんしゃさん=Very Suspicious Creep
 
 Skill name
 コスモブループラネット=Cosmo Blue Planet
@@ -31,11 +31,11 @@ Skill name
 マジックブースト=Magic Surge
 
 UB *6
-目の前の敵１キャラに魔法大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals large M.DMG to an enemy directly in front.\nWhen critical occurs\ndeals ４x damage instead ２x.
+目の前の敵１キャラに魔法大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals large M.DMG to an enemy directly in front. When critical occurs deals ４x damage instead ２x.
 
 目の前の敵１キャラに魔法特大ダメージを与える。=Deals massive M.DMG to an enemy directly in front.
 Skill 1+
-目の前の敵１キャラに魔法特大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals massive M.DMG to an enemy directly in front.\nWhen critical occurs\ndeals ４x damage instead ２x.
+目の前の敵１キャラに魔法特大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals massive M.DMG to an enemy directly in front. When critical occurs deals ４x damage instead ２x.
 
 Skill 2
 自分の魔法攻撃力を短時間大アップさせる。=Large boost to own M.ATK for brief period (9s).

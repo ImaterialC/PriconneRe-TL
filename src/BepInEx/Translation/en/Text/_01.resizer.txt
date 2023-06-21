@@ -169,3 +169,4 @@
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/PartsDailyTask(Clone)/Main/ScrollContent/ScrollView/WrapContent/PartsDailyTaskPlate(Clone)/Node/GUIGroup_Button/UIButton_Move/Label=ChangeFontSize(17)
 /_Game(Clone)/UI Root/FrontArea/BlurLayer/SubtitleArea/Subtitle/Text=ChangeFontSize(30)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/OtherNode/WidgetOff(Clone)/Right/BottomRightAnchor/ButtonShopIcon/NumIconNode/text=ChangeFontSize(15)

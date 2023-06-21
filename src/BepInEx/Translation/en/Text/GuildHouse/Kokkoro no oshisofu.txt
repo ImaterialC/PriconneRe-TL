@@ -5,7 +5,7 @@
 このメッセージを以降は表示しない\n※メニューから設定が可能です=Do not display this message anymore\n※Can be set from the menu
 
 引き出すマナは1以上で入力してください。=Please enter at least 1 mana to be withdrawn.
-マナが所持上限に達しているため引き出せません。=Mana can not be pulled out because the possession limit is reached.
+マナが所持上限に達しているため引き出せません。=Already carrying max Mana. Cannot withdraw.
 引き出し後の所持マナ=Current Mana
 ストックしたマナを引き出します。=Withdraw stocked Mana.
 マナを引き出す=Mana Withdraw
@@ -13,6 +13,6 @@
 r:"^\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]マナを引き出しました。\[-\]$"=[3C404E]Withdraw [FFBB00,CE4F00]$1[-] Manas.[-]
 引き出せるマナがありません。=There is no mana that can be withdraw.
 マナ所持上限をこえました=Exceeded the Mana Possession Limit
----setting
+---setting---
 マナ所持上限時の「コッコロのおさいふ」ダイアログ表示=Kokkoro's Wallet prompt when max Mana has reached
 所持上限を超えた獲得マナが、「コッコロのおさいふ」に送られたことの確認ダイアログを表示するか設定します。=Set whether or not to display a dialog box to confirm\nwhen acquired mana that exceeds the limit has been sent to Kokkoro's Wallet.
