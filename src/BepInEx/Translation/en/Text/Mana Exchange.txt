@@ -13,7 +13,6 @@ r:"^(\d+)で$"=Use $1
 
 r:"^マナセットを(\d+)セット購入しますか？$"=to buy $1 set of Mana?
 r:"^ジュエル×(\d+)を消費して$"=Use $1 Jewels
-ジュエルが不足しています=Jewel is missing
 最低獲得マナ=MIN mana gained
 所持無償ジュエル=Free Jewel Held:
 r:"^\[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)セット購入\[-\]\[3C404E\]で、おまけで探索回数もGET！\[-\]$"=[3C404E]Buy[FFBB00,CE4F00] $1 more sets[-], to get bonus Grotto attempts![-]

@@ -79,7 +79,6 @@ sr:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nス
 回復回数指定=Heal count
 現在のスタミナ回復（１回あたり）の消費ジュエル=Current Heal price
 支払・提供時期・返品について=About Payment/Offer/refund
-ジュエルが不足しています。=Not enough Jewels
 回復回数=#Heal
 スタミナ回復単価一覧=Stamina Recovery Unit Price List
 スタミナ回復回数に応じて、スタミナ回復１回あたりの\nジュエルの必要数が異なります。詳細は下記をご覧ください。=Depending on the number of stamina recovery, the required number of jewels per stamina recovery differs.\nSee below for details.

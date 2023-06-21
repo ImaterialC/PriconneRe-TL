@@ -91,7 +91,7 @@ r:"^アイテム装備パック(.+)?（([\d]+)周年）$"="Equipment Pack $1 ($2
 r:"^販売期間([0-9: /]+)まで$"=Sales period until$1
 
 ジュエル購入=Buy Jewels
-[3C404E]DMMポイントが不足しています。\nチャージしますか？[-]=[3C404E]You are out of DMM points, would you like to recharge them?[-].
+[3C404E]DMMポイントが不足しています。\nチャージしますか？[-]=[3C404E]Insufficient DMM points, would you like to recharge them?[-].
 
 r:"^あと(\d+)日有効$"=$1 Day(s) Left
 r:"^あと(\d+)時間有効$"=$1 Hours Left

@@ -13,8 +13,9 @@ r:"^(\[[0-9A-F,]{6,13}\])階\[-\]$"=$1F[-]
 残り挑戦回数がリセットされるまでお待ちください。=Please wait until your attempt limit resets.
 r:"^このEXクエストは(\d+)階をクリアすると解放されます。$"=This EX quest will be unlocked after Clearing the floor $1.
 キャラ全回復=Full Heal
-r:"^\[3B3F4D\]あと\[-\]\[64C9FD,0060BA\](\d+)時間\[-\]\[3B3F4D\]で利用できます。\[-\]$"=[3B3F4D]Can be used in [FFBB00,CE4F00]$1h[-].[-]
-1日1回キャラを全回復できます。=Can Heals All once a day.
+r:"^\[3B3F4D\]あと\[-\]\[64C9FD,0060BA\](\d+)時間\[-\]\[3B3F4D\]で利用できます。\[-\]$"=[3B3F4D]Can be used in [64C9FD,0060BA]$1h[-].[-]
+r:"^\[3B3F4D\]あと\[-\]\[64C9FD,0060BA\](\d+)分\[-\]\[3B3F4D\]で利用できます。\[-\]$"=[3B3F4D]Can be used in [64C9FD,0060BA]$1m[-].[-]
+1日1回キャラを全回復できます。=Can Heal All once a day
 sr:"^あと(\d+)?時?間(\d+分)で利用できます。$"=$1h$2 remaining to use it.
 
 全てのキャラのHPを全回復します。=Recovers HP of all characters.
@@ -95,6 +96,13 @@ r:"^回廊探索 wave(\d)$"=Corridor Exploration Wave$1
 クリアで使用できます。=Must clear it first.
 AUTO・SMARTで操作せずバトル終了した場合リプレイできます。=You can replay if the battle using AUTO/SMART.
 ※「AUTO」にてバトルが行われます。\nまたスキップ時はUB即発動モードはOFFになります。\n※リプレイは最後まで操作方法を変えずにバトルを行った場合に再生できます。="※Battle will be held in "AUTO".\nAlso, when skipping, UB immediate activation mode will be OFF.\n※Replays can be replayed when the battle is played without changing the operation method until the end."
+
+スキップ結果確認=Skip Results Confirmed
+リタイアすると、\n敵とキャラのHP・TPがバトル前の状態に戻ります。\n\nよろしいですか？=When you retire, the character's HP and TP will return to how they were before the battle.\n\nIs that all right?
+
+スキップ結果確認=Confirm Skip Results
+スキップした結果を反映しますか？=Reflect the result of skipping?
+
 ---Story card---
 閲覧したい章を選択してください。=Please select the chapter you would like\nto view.
 ルナの塔ストーリー一覧=Luna's Tower Story List

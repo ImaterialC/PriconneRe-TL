@@ -4,12 +4,16 @@
 
 【物理】前衛で、手数で圧倒する、ダウナー系エルフ。攻撃するたびに相手に【畏縮】ステータスを追加し、スキルのダメージと物理防御力ダウンに磨きをかける。=[Physical] Front-line unit. An elf who's a bit of a downer, who can overwhelm her enemies with a flurry of moves. Each attack of hers adds a "cowering" status to the enemy, which steadily improves her skill damage and lowers their physical defense.
 
----Skill Name
+---Skill Name---
 闇黒の曙光=Darkness Glory
-更け征く夜+=Conqueror of The Night+
+紫紺の黄昏=Violet Dusk
+白銀の月影=Silver Moonlight
+紫紺の黄昏+=Silver Moonlight+
+フロムダスク・ティルドーン=From Dusk Till Dawn
 更け征く夜=Conqueror of The Night
+更け征く夜+=Conqueror of The Night+
 
----Story
+---Story---
 クロエ純情白書／芽生え編=Chloe's junjō hakusho / Bud Part
 クロエ勤労日報／飲食店編=Chloe's Working Diary / Restaurant Part
 クロエ勤労日報／配送業編=Chloe's Working Diary / Delivery Job Part
@@ -19,13 +23,13 @@
 クロエ勤労日報／古物商編=Chloe's Working Diary / Secondhand Dealer Part
 クロエ勤労日報／居酒屋編=Chloe's Working Diary / Japanese Bar Part
 
----Skill 1
+---Skill 1---
 敵全体を、クロエの攻撃が当たるたびに【畏縮】ステータスが１つ追加されるようにする。【畏縮】は最大66まで追加される。さらに、自身の物理攻撃力を中アップさせる。=Whenever one of Chloe's attacks hit an enemy, that enemy gains one stack of the "cowering" status. Up to 66 stacks can be inflicted at once. Additionally, moderately boost Chloe's own physical attack.
 
 r:"^攻撃が当たるたびに畏縮を付与する状態になる\n自分の物理攻撃力を(\d+)アップ$"=When an attack connects, inflicts the cowering status. \nBoost own physical attack by $1.
 
----Skill 2
+---Skill 2---
 目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。ダメージと物理防御力の減少量は、対象の【畏縮】の数に応じて増加する。=Deals moderate P.DMG to the first enemy in front, and slightly lowers their physical defense. The damage and defense decrease become more powerful depending on how many "cowering" stacks the enemy has.
 
----Unique Weapon
+---Unique Weapon---
 敵全体を、クロエの攻撃が当たるたびに【畏縮】ステータスが１つ追加されるようにする。【畏縮】は最大99まで追加される。さらに、自身の物理攻撃力を中アップさせる。=Whenever one of Chloe's attacks hit an enemy, that enemy gains one stack of the "cowering" status. Up to 99 stacks can be inflicted at once. Additionally, moderately boost Chloe's own physical attack.
