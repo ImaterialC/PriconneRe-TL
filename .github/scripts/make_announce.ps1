@@ -5,21 +5,21 @@ if ($Changelog -match "## Changelog") {
 
     $Replacement = @{
         "<summary>"  = "";
-        "</summary>" = "";
-        "<details>"  = "";
-        "</details>" = "";
-        "Text"       = "### Text:";
-        "Texture"    = "### Texture:";
-        "Other"      = "### Other:";
+        "</summary>`n" = "";
+        "`n<details>"  = "";
+        "`n</details>`n" = "";
+        "Text"       = "";
+        "Texture"    = "";
+        "Other"      = "";
     }
-    ($Replacement | ConvertTo-Json | ConvertFrom-Json).PSObject.Properties.Name | ForEach-Object {
+    ($Replacement.PSOBject.Properties | Where-Object Name -eq "Keys").Value | ForEach-Object {
         $Changelog = $Changelog.Replace($_, $Replacement.$_)
         Write-Output "Replace $_ => $($Replacement.$_)"
     }
 
     if ($Changelog.Length -ge 500) {
-        $Changelog = $Changelog.Substring(0, 500)
-        $Changelog += "..."
+        $Changelog = $Changelog.Substring(0, 300).Substring(0, $Changelog.LastIndexOf("`n"))
+        $Changelog += "- ..."
         $Changelog += "`n*Check detailed changelog at the link below!*"
     }
 }
