@@ -30,7 +30,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 ダンジョン=Dungeon
 調査=Expedition
 探索=Grotto
-バトルアリーナ=Battle Arena
+バトルアリーナ=\u2800  Battle Arena
 プリンセスアリーナ=Princess Arena
 キャンペーン中=Campaign
 
