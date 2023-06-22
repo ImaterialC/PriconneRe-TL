@@ -79,7 +79,7 @@ jobs:
         id: changes
         run: |
           & .\.github\scripts\make_announce.ps1
-          Add-Content -Value "`n[Download here](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)" -Path "./DISCORD_NOTE"
+          Add-Content -Value "[Detail](https://github.com/ImaterialC/PriconneRe-TL/releases/tag/${{ env.RELEASE_TAG }})`n`n[Download here](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)" -Path "./DISCORD_NOTE"
           "discord_changes<<EOF" >> "$env:GITHUB_OUTPUT"
           Get-Content -Raw "./DISCORD_NOTE" >> "$env:GITHUB_OUTPUT"
           "EOF" >> "$env:GITHUB_OUTPUT"
