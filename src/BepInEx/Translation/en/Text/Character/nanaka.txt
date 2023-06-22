@@ -24,10 +24,10 @@ UE
 
 
 UB Non-6*
-残りＨＰが最も高い敵１キャラに魔法特大ダメージを与える。=Deals massive magic damage to the enemy with the highest current HP.
+残りＨＰが最も高い敵１キャラに魔法特大ダメージを与える。=Deals massive M.DMG to the enemy with the highest current HP.
 
 UB 6*
-残りＨＰが最も高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive magic damage to the enemy with the highest remaining HP, and also slightly decreases magic defense.
+残りＨＰが最も高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive M.DMG to the enemy with the highest remaining HP, and also slightly decreases magic defense.
 
 Rank 2 Skill
 目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を小ダウンさせる。=Lowers magic defense of enemies within the radius of the target by a small amount.
@@ -39,7 +39,7 @@ Rank 2 Skill+
 r:"^範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 1.4s\nLowers all enemies M.DEF within 200 range by $1 for 12s. 
 
 Rank 4 Skill
-残りＨＰが最も高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate magic damage to the enemy with the highest current HP. Inflict stun to the target for 1.5 seconds.
+残りＨＰが最も高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to the enemy with the highest current HP. Inflict stun to the target for 1.5 seconds.
 
 EX Skill
 バトル開始時に自分の魔法攻撃力を中アップさせる。=Small boost to own magic attack at the start of the battle.

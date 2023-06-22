@@ -32,8 +32,8 @@ r:"^敵単体に(\d+)の魔法ダメージ\n敵単体のＴＰを75失わせる\
 
 リトルブレス=Little Breath
 スカーレット・リンク=Scarlet Link
-目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を大アップさせる。=Deals heavy magic damage to the enemy in front, and further increases own magic attack power.
-目の前の敵１キャラに魔法大ダメージを与え、さらに魔法防御力を大ダウンさせる。=Deals heavy magic damage to the enemy in front, and greatly decreases their magic defense.
+目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を大アップさせる。=Deals heavy M.DMG to the enemy in front, and further increases own magic attack power.
+目の前の敵１キャラに魔法大ダメージを与え、さらに魔法防御力を大ダウンさせる。=Deals heavy M.DMG to the enemy in front, and greatly decreases their magic defense.
 
 
 ねぇねぇ、けんぞくぅ～♪\n…えへへ！　なんでもなーい！\nちょっと言ってみたかっただけ♪\n=Hey, hey, Kensoku~♪ ...Ehehe! It's nothing, really! I just wanted to say it for fun♪

@@ -5,12 +5,12 @@
 特に無し=nothing especially
 
 ガトリング★シンフォニア=Gatling ★ Symphonia
-目の前の最大３キャラまでの敵に魔法大ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。さらに、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。=Deals large magic damage to up to 3 enemies in front. Damage increases against farther enemies. Also slightly increases damage taken from critical hits by 1 enemy in front.
+目の前の最大３キャラまでの敵に魔法大ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。さらに、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。=Deals large M.DMG to up to 3 enemies in front. Damage increases against farther enemies. Also slightly increases damage taken from critical hits by 1 enemy in front.
 r:"^１番目に近い敵に(\d+)の魔法ダメージ\n２番目に近い敵に(\d+)の魔法ダメージ\n３番目に近い敵に(\d+)の魔法ダメージ\n敵単体のクリティカルを受けた際のダメージを10％アップ\nPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to the nearest enemy.\n►Deals $2 M.DMG to the 2nd-nearest enemy.\n►Deals $3 M.DMG to the 3rd-nearest enemy.\n►Increases damage taken when hit by a critical attack by 10% for 10s.\n►Reduces the M.DEF of a single enemy while in PSI★Charge state by $4 for 18s.
 
 どるるる～ん★=Doruru～n★
 どるるる～ん★+=Doruru～n★+
-目の前の最大３キャラまでの敵に魔法中ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。=Deals magic damage to up to 3 enemies in front. Damage increases based on the distance of the targets. 
+目の前の最大３キャラまでの敵に魔法中ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。=Deals M.DMG to up to 3 enemies in front. Damage increases based on the distance of the targets. 
 r:"^１番目に近い敵に(\d+)の魔法ダメージ\n２番目に近い敵に(\d+)の魔法ダメージ\n３番目に近い敵に(\d+)の魔法ダメージ\nPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.0s\n►Deals $1 M.DMG to the nearest enemy.\n►Deals $2 M.DMG to the 2nd nearest enemy.\n►Deals $3 M.DMG to the 3rd nearest enemy.\n►While in PSI★Charge state, lowers the M.DEF of a single enemy by $4 for 12s.
 
 

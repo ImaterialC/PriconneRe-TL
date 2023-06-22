@@ -25,19 +25,3 @@
 r:"^ハロウィンパーク([0-9\-\(\)\w （）]*)$"=Halloween Park $1
 ゴーストブラザーズ=Ghost Brothers
 叫怖のゴーストファーザー=Ghostfather of Screaming
-
-
-boss desc
-自身の体を盾にして、一切の攻撃から首領を守る。=Use his body as a shield to protect the chief from all attacks.
-ゴーストファーザーの側近の手下。=Ghostfather's close aide.
-・ゴーストファーザーのＴＰを小回復させる。=・Slightly restore Ghostfather's TP.
-取り立てた精気を首領へ渡し、補佐を務めあげる。=Give the captured energy to the leader and serve as assistant.
-　除できない。=　I can't.
-　少させる。減少したＨＰは、バトル終了まで解=　Make a small amount. The decreased HP solves until the end of the battle
-　さらに、敵全体のキャラの最大ＨＰを10％減=　Furthermore, 10 % reduction of the maximum HP of the entire enemy character
-　最大ＨＰに応じた魔法割合ダメージを与える。=　Gain magic ratio damage according to the maximum HP.
-・ユニオンバーストは、敵全体にキャラの元々の=・ Union burst is the original character of the entire enemy
-手下をけしかけ、シマの拡大を密かに画策する。=Make a minion and secretly plans to expand the shima.
-【魔法】人間を恐怖に慄かせるお化けたちの首領。=[Magic] The lord of the ghosts that scorch humans in fear.
-・ゴーストファーザー自身のＨＰが40％を切る=・ Ghost father's own HP is less than 40 %
-　と、さらに攻撃が激しく凶暴になる。=　And the attack becomes violently ferocious.

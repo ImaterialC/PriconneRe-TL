@@ -166,7 +166,11 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(12)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewGrandArenaTop(Clone)/WidgetOff(Clone)/SlideLeft/GUIGroup_RankInfo_new/UIButton_DefenceSetting/Label=ChangeFontSize(10)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/WidgetOff(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(10)
-
 /_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/PartsDailyTask(Clone)/Main/ScrollContent/ScrollView/WrapContent/PartsDailyTaskPlate(Clone)/Node/GUIGroup_Button/UIButton_Move/Label=ChangeFontSize(17)
 /_Game(Clone)/UI Root/FrontArea/BlurLayer/SubtitleArea/Subtitle/Text=ChangeFontSize(30)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/OtherNode/WidgetOff(Clone)/Right/BottomRightAnchor/ButtonShopIcon/NumIconNode/text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewMyProfileCard(Clone)/TopProfileImage/MyProfileCard/ProfileLayer/ProfileNode/Profile/Tower/ReachingFloor/common_dt_bg_pink/Label=ChangeFontSize(19)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewMyProfileCard(Clone)/TopProfileImage/MyProfileCard/ProfileLayer/ProfileNode/Profile/Power/common_dt_bg_pink/Label=ChangeFontSize(18)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogUniqueEquipmentRankUpConfirm(Clone)/GUIGroup_/GUIGroup_Alert/AlertLabel=ChangeFontSize(20)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonMiddle(Clone)/Main/PartsParent/PartsDialogMonsterDetail(Clone)/GUIPanel_DialogCommonSmall/GUIGroup_DialogContents/ScrollContent/ScrollView/WrapContent/PartsMonsterDetailTextPlate(Clone)/DetailLabel=ChangeFontSize(14)

@@ -16,7 +16,7 @@ r:"^味方全体のクリティカル時のダメージを10%アップ\n敵全�
 味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに力の魔字を刻む。力の魔字が刻まれている間、味方の行動速度を大アップさせる。（このスキルの効果は他の行動速度変化スキルと重複する）=Large boost the physical attack power and magic attack power of all allies, and engraves the power spell. Large boost the action speed of allies while the power spell is engraved. (The effect of this skill overlaps with other action speed change skills)
 
 ギルドオブデトネーション=Guild of Detonation
-敵全体に魔法中ダメージを与え、さらに大きく吹き飛ばす。=Deals moderate magic damage to all enemies and blows them away.
+敵全体に魔法中ダメージを与え、さらに大きく吹き飛ばす。=Deals moderate M.DMG to all enemies and blows them away.
 
 ペンオブハーモニー+=Pen of Harmony+
 ペンオブハーモニー=Pen of Harmony

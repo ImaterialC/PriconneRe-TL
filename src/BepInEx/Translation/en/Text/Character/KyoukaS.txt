@@ -2,7 +2,7 @@
 
 
 サマーアクアフロック=Summer Aqua Flock
-ランダムな敵キャラに、単体魔法中ダメージを計３回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Inflicts magic damage to a random enemy character 3 times. The damage of this skill boost according to the number of [Butterfly Seals] on the target.
+ランダムな敵キャラに、単体魔法中ダメージを計３回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Inflicts M.DMG to a random enemy character 3 times. The damage of this skill boost according to the number of [Butterfly Seals] on the target.
 
 r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ$"=Deals $1 M.DMG to an enemy.\nDeals $2 M.DMG to an enemy.\nDeals $3 M.DMG to an enemy.
 
@@ -10,7 +10,7 @@ r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメー�
 
 r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン$"=Deals $1 M.DMG to an enemy.\nDeals $2 M.DMG to an enemy.\nLowers an enemy’s M.DEF by $3.\nLowers an enemy’s M.DEF by $4.
 
-ランダムな敵キャラに、単体魔法小ダメージを計３回与える。このスキルのダメージは対象の【バタフライ\nシール】の数に応じて増加する。=Deals small magic damage to a random enemy character 3 times in total. The damage of this skill boost according to the number of [Butterfly Seals] on the target.
+ランダムな敵キャラに、単体魔法小ダメージを計３回与える。このスキルのダメージは対象の【バタフライ\nシール】の数に応じて増加する。=Deals small M.DMG to a random enemy character 3 times in total. The damage of this skill boost according to the number of [Butterfly Seals] on the target.
 
 サマーリトルブレイブ=Summer Little Brave
 サマーリトルブレイブ+=Summer Little Brave+

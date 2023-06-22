@@ -10,14 +10,14 @@ r:"^敵全体に(\d+)の魔法ダメージ\n敵全体を恐慌状態にする\n�
 ダークボルテックス+=Dark Vortex+
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵のＴＰを(\d+)失わせる$"=Cast time: 0.74s\n►Deals $1 M.DMG to all enemies within 300 range Centered at the nearest enemy.\n►Reduce target's TP by $2.
 
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらにＴＰを小ダウンさせる。=Deals moderate magic damage to all enemies within range, centering on the first enemy character in front, and also slightly decreases TP.
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらにＴＰを小ダウンさせる。=Deals moderate M.DMG to all enemies within range, centering on the first enemy character in front, and also slightly decreases TP.
 
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵のＴＰを180失わせる\n敵が恐慌状態の時、対象のＴＰを180失わせる$"=Cast time: 0.74s\n►Deals $1 M.DMG to all enemies within 300 range Centered at the nearest enemy.\n►Reduce target's TP by 180.\n\nIf enemy in Fear state:\n►Reduce target's TP by 180.
 
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、ＴＰを中ダウンさせる。このスキルの対象が恐慌状態だった場合、さらにＴＰを中ダウンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy in front, and moderately decreases TP. If the target of this skill is in Fear state, further reduces TP by a medium amount.
 
 デッドエンドカース=Deadend Curse
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法小ダメージを与え、さらに麻痺状態にする。=Deals minor magic damage to all enemies within range centering on the first enemy character in front of you, and also stun them.
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法小ダメージを与え、さらに麻痺状態にする。=Deals minor M.DMG to all enemies within range centering on the first enemy character in front of you, and also stun them.
 
 ダークアブソリュート=Dark Absolute
 ダークアブソリュート+=Dark Absolute+

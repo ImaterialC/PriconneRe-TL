@@ -9,7 +9,7 @@
 ---Skills+
 ---UB
 サマーフルフローター=Summer Full Floater
-目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。発動時既にこのスキルの対象が魔法防御力ダウン状態だった場合、さらに魔法大ダメージを与える。=Deals massive M.DMG to an enemy directly in front, and reduces M.DEF by small amount. If the target of this skill is already in the M.DEF down state at the time of activation, it will do more magic damage.
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。発動時既にこのスキルの対象が魔法防御力ダウン状態だった場合、さらに魔法大ダメージを与える。=Deals massive M.DMG to an enemy directly in front, and reduces M.DEF by small amount. If the target of this skill is already in the M.DEF down state at the time of activation, it will do more M.DMG.
 
 r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン\n対象が魔法防御力ダウン状態の時、敵単体に(\d+)の魔法ダメージ$"=Deals $1 M.DMG to an enemy\nLowers an enemy’s M.DEF by $2.\nWhen the target at M.DEF down state, Deals $3 M.DMG.
 ---S1
