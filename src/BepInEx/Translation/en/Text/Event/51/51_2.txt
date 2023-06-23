@@ -243,9 +243,10 @@ r:"^(\[3C404EFF\])?失踪する直前のアオイの情報を集めた(.{2,10})�
 [3C404EFF]よーし、[3C404EFF]草花さんたちに言われた通り、[3C404EFF]\nこのまま心を無にして、[3C404EFF]森の緑に包まれながら反省をします……=Alright, as instructed by the flowers and plants, I will empty my mind and reflect while surrounded by the greenery of the forest...
 [3C404EFF]私は、[3C404EFF]草……[3C404EFF]私は、[3C404EFF]木……[3C404EFF]\n私は、[3C404EFF]森生まれ森育ちのエルフ……=I am grass... I am a tree... I am an elf born and raised in the forest...
 [3C404EFF]そう……[3C404EFF]\n自然に愛され、[3C404EFF]\n自然を愛してきたぼっちなのです……=Yes... I have been loved by nature and have loved nature as a loner...
-r:"^(\[3C404EFF\])?──一方その頃、アオイの直近の動向を探るため、(\[3C404EFF\])?\n(.{2,10})はおもちゃ工場を訪れていた。=Meanwhile, to investigate Aoi's recent whereabouts, $3 visited the toy factory.
+r:"^(\[3C404EFF\])?──一方その頃、アオイの直近の動向を探るため、(\[3C404EFF\])?\n(.{2,10})はおもちゃ工場を訪れていた。$"=Meanwhile, to investigate Aoi's recent whereabouts, $3 visited the toy factory.
 [3C404EFF]...Oh, him.[3C404EFF]アオイくんの様子？=...Hmm. How is Aoi-kun doing?
 [3C404EFF]そうだねえ……[3C404EFF]\nここ最近は、[3C404EFF]なんだか様子がおかしかった気がするよ。=Yeah, recently She's been acting a bit strange, I feel.
+
 [3C404EFF]ものすごい集中力を発揮したかと思えば、[3C404EFF]\n[3C404EFF]次の瞬間には[3C404EFF]抜け殻のように停止したりね。=One moment, She displays an incredible level of concentration, and the next moment, She becomes like an empty shell.
 [3C404EFF]いつも通り頑張ってくれてて助けてもらってるんだけど、[3C404EFF]\n[3C404EFF]見ていてちょっと心配してたんだ。=She's been working hard and helping us as always, but I've been a little worried watching her.
 [3C404EFF]学院で講師もしているんでしょ？[3C404EFF]\n[3C404EFF]もしかしたら、[3C404EFF]疲れが溜まっていたのかもね。=She's also a teacher at the academy, right? Maybe She's accumulated some fatigue.
