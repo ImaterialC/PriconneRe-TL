@@ -1,5 +1,0 @@
-ミツキの診察室　エピソード解放=Mitsuki's Examination Room Episode Unlock
-麗しのレッスンが解放されました。=Beautiful lessons was Unlocked.
-r:"^オーエド町([0-9\-\(\)\w （）]*)$"=Oedo Town $1
-ドクターギグル=Doctor Gigle
-sr:"^([べ-ヺー＆]+)のカルテ　その([１２３])$"=$1's Medical Record Part $2
