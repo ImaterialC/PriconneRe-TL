@@ -1,0 +1,6 @@
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHatsuneGacha(Clone)/WidgetOff(Clone)/RightObj/GUIGroup_Ticket/Label_ticket=ChangeFontSize(15)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHatsuneTop(Clone)/WidgetOff(Clone)/RightObj/RightAnchor/GUIGroup_Hatsune/GUIGroup_ButtonGacha/GUIGroup_Ticket/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHatsuneTop(Clone)/WidgetOff(Clone)/RightObj/RightAnchor/GUIGroup_Hatsune/GUIGroup_ButtonGacha/Label_Title=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHatsuneMap(Clone)/UI/UIPanel/RightUI/AnchorBottomRight/AnchorBottomRightChild/GUIGroup_Info/GUIGroup_dt/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHatsuneWon(Clone)/PartsWonUi(Clone)/Main/ArrowButton/RightArrowButton/label=ChangeFontSize(21)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHatsuneWon(Clone)/PartsWonUi(Clone)/Main/ArrowButton/LeftArrowButton/label=ChangeFontSize(20)

@@ -84,7 +84,7 @@ r:"^\[3C404EFF\]ただし、\[3C404EFF\]警戒は解かないでください。\
 [3C404EFF]シオリさま？=Shiori-sama? 
 [3C404EFF]でも、[3C404EFF]ひとまず合宿所に戻りましょう。[3C404EFF]\n[3C404EFF]私たちも体力を使い切っていますし……[3C404EFF]\n[3C404EFF]色々と確認したいこともありますから。=But for now, let's return to the training camp. We've exhausted ourselves and there are things we need to confirm.              
 [3C404EFF]そうして、合宿所に戻った一行だったが──=And so, the group returned to the training camp──
-r:"^\[3C404EFF\](.{2,10})さんが拾ってきてくれたあの欠片。\[3C404EFF\]\nあれは大猿さんの\[3C404EFF\]「歯」の一部だそうです。$"="That fragment that Cornelia picked up for us. It seems to be a part of Great Ape-sama's 'tooth.'"
+r:"^(\[3C404EFF\])?(.{2,10})さんが拾ってきてくれたあの欠片。(\[3C404EFF\])?\nあれは大猿さんの(\[3C404EFF\])?「歯」の一部だそうです。$"="That fragment that $2-san picked up for us. It seems to be a part of Great Ape-sama's 'tooth.'"
 [3C404EFF]おそらく[3C404EFF]食いしばった際に欠けたものと思われますが、[3C404EFF]\n[3C404EFF]注意すべきは[3C404EFF]その断面──=It is believed that it was chipped when he gritted his teeth, but what we should be careful
 [3C404EFF]──この[3C404EFF]虫歯に侵されている部分です。=─ This is the part that is invaded by cavities.                                     
 [3C404EFF]つまり大猿さまは[3C404EFF]虫歯の痛みに耐えかねて、[3C404EFF]\n暴れ回っていたものと結論付けたわけでございます。=In other words, it was concluded that Great Ape-sama was rampaging due to the pain of a cavity.

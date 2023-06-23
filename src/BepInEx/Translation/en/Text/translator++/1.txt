@@ -1,0 +1,12 @@
+sr:"^([べ-ヺー＆]+)(（.{2,10}）)?のステータスアップボーナス$"=$1$2's status up bonus
+初回閲覧報酬=First-time Viewing Reward
+ストーリー閲覧報酬として下記を受け取りました。=Received the following as a story viewing reward.
+ストーリー閲覧報酬として下記を受け取りました=Received the following as a story viewing reward.��にデータが削除されます。=If you do not set it at Home, or if you\nremove it from My Page after setting it, the data\nwill be deleted the next time you start the app.
+このムービーをマイページに設定完了すると\nダウンロードしたデータはそのまま保存されます。=Once this movie has been set up on My Page,\nthe downloaded data will be saved as is.
+[FFBB00,CE4F00]設定中[-]=[FFBB00,CE4F00]Set[-]
+[5f6fa1]アニメ内\n音声[-]=[5f6fa1]Anime\nAudio[-]
+フレーム=Frame
+イラスト・ムービー=Illustration Movie
+エンディングを見ると確認できます。=You can see it by looking at the ending.
+sr:"^ストーリーイベント「(.+)」の\nミッション「(.+)を1体倒そう（HARD限定）」を達成すると確認できます。$"="You can select once finished the story event of \n"$1"\nand defeat $2 (Hard or above) at least once."
+既に設定されています。=It has already been set.

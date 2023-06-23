@@ -103,7 +103,7 @@ Yes, it was a good practical lesson.
 [3C404EFF]そうだ、[3C404EFF]授業といえば……[3C404EFF]\n君たちの出席日数は足りているのか？=Oh, speaking of lessons... have you all attended enough classes?               
 出席……日数？=Attendance...?
 [3C404EFF]そういえば、[3C404EFF]わたくしたち……[3C404EFF]\nこの森の調査任務を受けていたとはいえ、[3C404EFF]\n[3C404EFF]遭難した日の講義もすっぽかしておりますね。=Come to think of it, we missed lectures on the day we got lost, even though we were on a mission to investigate this forest.
-[3C404EFF]私は[3C404EFF]さらに一日休んじゃってますし、[3C404EFF]\nCorneliaさんは[3C404EFF]いくつか再試験がありましたよね。=I took an extra day off, and Cornelia had a few make-up exams, didn't she?                                                  
+r:"^(\[3C404EFF\])?私は(\[3C404EFF\])?さらに一日休んじゃってますし、(\[3C404EFF\])?\n(.{2,10})さんは(\[3C404EFF\])?いくつか再試験がありましたよね。=I took an extra day off, and $4-san had a few make-up exams, didn't she?                                                  
 もしかして……？=Could it be...?
 [3C404EFF]……えっと、[3C404EFF]どう計算しても、[3C404EFF]\n[3C404EFF]レンジャー資格を取るための最終試験に[3C404EFF]\n必要な単位が足りない……[3C404EFF]ですね。=Um, no matter how you calculate it, we don't have enough credits to take the final exam to become Rangers.                             
 [3C404EFF]つまり、[3C404EFF]わたくしたちは……[3C404EFF]\n[3C404EFF]その、[3C404EFF]最終試験を受けるまでもなく、[3C404EFF]不合格、[3C404EFF]だと。=In other words, we're unqualified without even taking the final exam.                            

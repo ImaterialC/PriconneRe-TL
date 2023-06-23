@@ -36,7 +36,7 @@ sr:"^★3確定( )?(.*)?(ガチャ)(チケット)?$"=Guarantee ★3 $2 $3 $4
 r:"^提供期間：([0-9/ :]+)まで$"=Provision Until: $1(JST)
 r:"^あと ([0-9:]{8})$"=$1 Left
 ガチャリセットまで=Until the gacha reset
----
+------
 交換ラインナップ=Exchange Lineup
 所持キャラ交換Pt=Char. Exchange Pts
 所持数=Held
@@ -57,7 +57,7 @@ r:"^ストーリー (\d+)話$"=Story Episode $1
 
 もう一度引く=Try Again
 キャラ交換Ptが不足しています。=Insufficient character exchange Pt.
-[FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。[-]=[FF7C4E,D62146]Duplicate characters will be converted to Divine Amulets.[-]
+[FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。[-]=[FF7C4E,D62146]Duplicate characters\nwill be converted to Divine Amulets.[-]
 
 [FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。\nおまけで獲得できるメモリーピースは直接付与されます。[-]=[FF7C4E,D62146]Duplicate characters will be\nconverted to Divine Amulets.[-]
 追加データは、アプリ起動時に削除されます。=Additional data is deleted at app startup.
@@ -72,19 +72,19 @@ r:"^ストーリー (\d+)話$"=Story Episode $1
 キャラ交換へ=Character\nExchange
 このプライズは現在選択されています。=This prize is currently selected.
 
-==Time==
+---Time---
 次回ガチャリセット時間=Next Gacha Reset
 イベント限定キャラをGET！=GET event-limited characters!
----Preview chara
+---Preview chara---
 r:"^RANK(\d+)/Lv(\d+)/装備強化MAX/RANKボーナスを含むステータスです。$"=Rank$1/Lv$2/MAX Refined Equipment/Status including Rank Bonus.
 強化済=Enhanced
 所持スキル=Possessed skill
 イベントを進めてボスを討伐しよう！\n残り25体 BOSS討伐で解放=Advance the event and defeat the boss!\nRemaining 25 subjugating BOSS
-==Banner time
+---Banner time---
 r:"^(\[[0-9A-F,]{6,13}\])([0-9/ :]{16})～([0-9/ :]{11,16})まで\[-\]$"="$1$2 to $3 (JST)[-]"
 r:"^(\[[0-9A-F,]{6,13}\])有効期間:([0-9/ :]{16}) ～ ([0-9/ :]{11,16})\[-\]$"="$1 Period: $2 to $3 (JST)[-]"
-==Banner Description==
-------「ハツネ（サマー）のメモリーピース」\nに変更しますか？=Do you change to "Hatsune (Summer) Memory Piece"?
+---Banner Description---
+
 sr:"^(\[[0-9A-F,]{6,13}\])★3キャラ出現率2倍\n限定キャラ「([べ-ヺー＆]+)(（.+）)?」登場！期間中出現率UP！\[-\]$"="$1$1Boosted rates for the Limited ★3\n$2$3![-]"
 
 r:"^(\[[0-9A-F,]{6,13}\])『10回引く』は(\[[0-9A-F,]{6,13}\])★2以上\[-\]1キャラ確定！\n対象キャラを仲間にする度に(\[[0-9A-F,]{6,13}\])対象メモピ(\d+)個\[-\]GET！\[-\]$"="$1A $2★2 or higher[-] character is guaranteed with each "10x draw"!\nEach pull a target Character, $3Gets a Bonus of $4 Memory Shards[-][-]"
@@ -149,9 +149,13 @@ r:"^(1?[4-9,0])等に当選し、以下のプライズを入手しました。$"
 コッコロ賞に当選し、以下のプライズを入手しました。=You won the Kokkoro prize and got the following prizes.
 ペコリーヌ賞に当選し、以下のプライズを入手しました。=You won the Pecorine prize and got the following prizes.
 獲得したプライズは直接所持数に加算されます。=The prizes you win will be added directly to your inventory.
+
 1等  0.50％\n2等  1.00％\n3等  5.00％\n4等  10.00％\n5等  23.50％\n6等  60.00％\n\n※1回ごとに、その提供割合にもとづいて抽選を行っております。\n※『1回引く』と『10回引く』（1～9プライズ目まで）は、\n同じ提供割合です。\n=1st   0.50%\n2nd  1.00%\n3rd  5.00%\n4th 10.00%\n5th 23.50%\n6th 60.00%\n\n※A lottery is held for each time based on the ratio\nof provision.\n※"1回引く" and "10回引く" (1st to 9th prizes)\nare the same ratio.\n
 
 1等  0.50％\n2等  1.00％\n3等  5.00％\n4等  10.00％\n5等  83.50％\n\n※『10回引く』では、10プライズ目に5等以上が必ず出現します。=1st   0.50%\n2nd  1.00%\n3rd  5.00%\n4th 10.00%\n5th 83.50%\n\n※In "10回引く", 5th prize or higher will appear on the 10th pull.\n
+
+・獲得方法\nガチャを引きキャラを仲間にするごとに、キャラ交換Ptを「1Pt」獲得できます。\n※獲得したキャラの★に関わらず、1キャラにつき獲得できるキャラ交換Ptは「1Pt」です。\n※すでに仲間にしているキャラが出現して\n「女神の秘石」を獲得した際も、1キャラごとに「1Pt」獲得できます。\n※「プラチナガチャチケット」を消費してガチャを引いた場合も、キャラ交換Ptを獲得できます。\n\n・使い方\n開催中のガチャの期間内にキャラ交換Ptが「200Pt」に達すると、キャラ交換Ptを「200Pt」消費して\n「交換ラインナップ」内の対象キャラの中から1キャラを仲間にできます。\nすでに仲間にしているキャラを選択した場合は、\n対象キャラの★の数に応じた「女神の秘石」を獲得できます。\n\n女神の秘石の獲得数は下記のとおりです。\n\n★★★キャラの場合：女神の秘石×50\n★★キャラの場合：女神の秘石×10\n★キャラの場合：女神の秘石×1\n\n※獲得したキャラ交換Ptの保持、および対象のガチャのキャラ交換は「交換ラインナップ」タブ内の\n「有効期間」の期間のみ可能です。\n※「有効期間」終了後に、キャラ交換Ptは「0Pt」にリセットされ、Pt数と同枚数の「スキップチケット」に変換されます。\n※「有効期間」中に獲得したキャラ交換Ptが、\n「有効期間」終了後に別のガチャへ引き継がれる場合があります。\nその場合キャラ交換Ptの「スキップチケット」への変換は行われません。キャラ交換Ptが引き継がれる場合については「ガチャ詳細」やゲーム内お知らせにてお知らせします。\n\n・交換対象キャラ\nキャラ交換の対象キャラは、開催されているガチャに\nよって異なります。\n［交換ラインナップ］タブをご確認ください。=・Acquisition Method\nEach time you draw a character and make them your ally through a gacha, you can acquire "1 Pt" of Character Exchange Points (Pt).\n※ Regardless of the ★ rating of the acquired character, you can obtain "1 Pt" of Character Exchange Points per character.\n※ Even if a character that you already have as an ally appears and you acquire "Divine Amulets," you can still obtain "1 Pt" of Character Exchange Points per character.\n※ Even when you consume a "Platinum Gacha Ticket" to draw a gacha, you can acquire Character Exchange Points.\n\n・Usage\nWhen the accumulated Character Exchange Points reach "200 Pt" within the period of the ongoing gacha, you can spend "200 Pt" of Character Exchange Points to make one character your ally from the eligible characters in the "Exchange Lineup".\nIf you select a character that you already have as an ally, you can acquire "Divine Amulets" corresponding to the number of ★ of the selected character.\n\nThe number of acquired Divine Amulets is as follows:\n\n★★★ characters: Divine Amulets × 50\n★★ characters: Divine Amulets × 10\n★ characters: Divine Amulets × 1\n\n※ The retention of acquired Character Exchange Points and the exchange of characters in the eligible gacha are only possible within the "Validity Period" in the "Exchange Lineup" tab.\n※ After the "Validity Period" ends, the Character Exchange Points will be reset to "0 Pt" and converted into an equal number of "Skip Tickets".\n※ The Character Exchange Points acquired during the "Validity Period" may be carried over to another gacha after the "Validity Period" ends. In such cases, they will not be converted into "Skip Tickets". Details regarding the carryover of Character Exchange Points will be provided in the "Gacha Details" or in-game announcements.\n\n・Eligible Characters for Exchange\nThe eligible characters for the character exchange vary depending on the ongoing gacha. Please check the "[Exchange Lineup]" tab for more information.
+
 
 『10回引く』（10プライズ目）="10 times" (10th prize)
 『10回引く』（1～9プライズ目）="10 times" (1st-9th prize)

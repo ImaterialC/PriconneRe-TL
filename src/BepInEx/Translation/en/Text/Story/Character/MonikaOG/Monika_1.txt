@@ -44,7 +44,7 @@ r:"^(\[3C404EFF\])?(.{2,10})が散歩をしていると、\n頭を抱えてい�
 
 r:"^(\[3C404EFF\])?貴公、(\[3C404EFF\])?名前は？(\[3C404EFF\])?\n(\[3C404EFF\])?……(.{2,10})か。$"=Your name?... $5, is it?
 r:"^(\[3C404EFF\])?(.{2,10})、このアメに免じて、(\[3C404EFF\])?\n(\[3C404EFF\])?さっきの非礼は許そう。$"=$2, in consideration of this candy, I'll forgive your rudeness earlier.
-r:"^(\[3C404EFF\])?では、(\[3C404EFF\])?今日の特訓はこれくらいにしておこう。(\[3C404EFF\])?\n(\[3C404EFF\])?(.{2,10})、帰るぞ！$"=Well, let's call it a day for today's training. Cornelia, let's go back!
+r:"^(\[3C404EFF\])?では、(\[3C404EFF\])?今日の特訓はこれくらいにしておこう。(\[3C404EFF\])?\n(\[3C404EFF\])?(.{2,10})、帰るぞ！$"=Well, let's call it a day for today's training. $5, let's go back!
 
 アメ一つで、すっかり機嫌を良くするモニカであった。=With just one candy, Monika's mood brightened considerably.
 

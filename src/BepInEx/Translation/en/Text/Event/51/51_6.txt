@@ -78,7 +78,6 @@ r:"^(\[3C404EFF\])?でも……(\[3C404EFF\])?(.{2,10})さんの声を聞くた�
 私は……！　あなたと二人でたくさんの友達を作りたいですっ！=I want...! To make a lot of friends with you!
 
 r:"^(\[3C404EFF\])?………………はっ！？(\[3C404EFF\])?\n(.{2,10})さん！！？？$"=............Huh!? \n$3-san!!??
-………………はっ！？\nCorneliaさん！！？？=............Huh!? Cornelia-san!!??
 よかった！　目が覚めたんだね！=Thank goodness! You woke up!
 
 ……ありがとう、少年。不甲斐ないところを見せてしまったね……\n君の声は、確かに私の耳に届いていたよ。=...Thank you, boy. I'm sorry for showing you such a pathetic sight... Your voice was definitely reaching my ears.
@@ -159,7 +158,7 @@ r:"^(\[3C404EFF\])?そういえば、(\[3C404EFF\])?(.{2,10})さんもキノコ�
 確かに気になるね。魔物の胞子も効かなかったようだし……\nどうして少年だけ平気だったんだろうか……？=I'm curious about that too. He didn't seem to be affected by the monster's spores either... why was he the only one who was fine...?
 
 
-r:"^(\[3C404EFF\])?……(.{2,10})くんって、(\[3C404EFF\])?\n理想の自分の姿って、(\[3C404EFF\])?思い浮かべたこと(\[3C404EFF\])?ある？$"=...Cornelia-kun, do you have an image of your ideal self?
+r:"^(\[3C404EFF\])?……(.{2,10})くんって、(\[3C404EFF\])?\n理想の自分の姿って、(\[3C404EFF\])?思い浮かべたこと(\[3C404EFF\])?ある？$"=...$2-kun, do you have an image of your ideal self?
 
 それが何か関係あるのかい？=What does that have to do with anything?
 ほら……私たち、幻覚の中ではなりたい自分になっていたわよね。\nそれが幸せで幸せでたまらなくて……=Well... we were all becoming who we wanted to be in our hallucinations. And we were so happy and ecstatic...
@@ -176,7 +175,7 @@ r:"^(\[3C404EFF\])?……(.{2,10})くんって、(\[3C404EFF\])?\n理想の自�
 独りよがりになって、あなたにも心配をかけてしまいました……\nそんなんじゃいつまで経っても友達なんかできるわけありませんよね。=I became self-centered and worried you too... I can't make any friends like this.
 いつも自分をしっかりと持ってるあなたは、私の憧れです！\nさすが、ＢＢ団の団長さんです！=You're always confident and true to yourself. You're my admiration! You're amazing, the leader of the BB-Brigade!
 
-r:"^(\[3C404EFF\])?いつも飾らない(.{2,10})のおかげで、(\[3C404EFF\])?\nアオイたち３人は、正気を取り戻すのだった。$"=Thanks to Cornelia's honesty, Aoi and the others regained their sanity.
+r:"^(\[3C404EFF\])?いつも飾らない(.{2,10})のおかげで、(\[3C404EFF\])?\nアオイたち３人は、正気を取り戻すのだった。$"=Thanks to $2's honesty, Aoi and the others regained their sanity.
 
 [3C404EFF]キノコの毒による幻覚に囚われているアオイたちは、[3C404EFF]\n理想の自分になれたと勘違いし、舞い上がっていた──=Aoi and the others, trapped in a hallucination caused by the mushroom's poison, thought they'd become their ideal selves, and were soaring through the air
 [3C404EFF]おおっ、[3C404EFF]すごいです！　[3C404EFF]なんだか体の奥底から湧いてきますよ！[3C404EFF]\nこれがずっと憧れていたリア充パワーなんですねっ！=Wow, this is amazing! I feel something bubbling up from the depths of my body! This is the real-life power I've always longed for!

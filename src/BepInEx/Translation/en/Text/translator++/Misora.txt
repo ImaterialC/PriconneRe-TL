@@ -1,0 +1,17 @@
+騎士さんは人気者ですよねー\nこんな人を好きになって\nそして想いが叶わなかったら…\nどれだけ傷つくんでしょうねー★=You're popular, Mr. Knight. If someone were to fall in love with you and their feelings weren't reciprocated, I wonder how much they would be hurt.
+過去のこと？\n責めちゃっていいですよ？\nやったことは変わりませんし\n恨まれても仕方ないです★=The past? You can blame me if you want. What's done is done and it can't be changed. Even if you resent me, it can't be helped.
+んー、もっと騎士さんと\n二人きりになりたいんですよねー\n駆け落ちとかしちゃいます？\n…なーんて★=Hmm, I want to be alone with you, knight. Shall we elope? ...Just kidding★
+騎士さんって、\nとっても優しいですよねー\nでもでもー、わたしには\n優しくしなくて、いいですよ？=Mr. Knight, you're really kind. But you don't have to be kind to me, okay?
+騎士さん、お出かけしましょ♪\n場所はー…どこでもいいですよ？\n騎士さんと一緒なら…★=Let's go out, Mr. Knight♪ It doesn't matter where we go. As long as I'm with you...
+騎士さんがピンチの時は言ってくださいねー\nラブ＆テレポーテーションで駆けつけちゃいますから★=If you're ever in a pinch, please let me know, Mr. Knight. I'll come running with love and teleportation!
+誰かをスキになるのって\nこんなに不思議なんですね\nまるでわたしが、違うわたしに\nなっちゃうみたいです…★=It's so mysterious to fall in love with someone. It's like I'm becoming a different me...
+どるるるる～んっ！　…あはっ★\nガトリングってサイコーですね\n狙うのヘタでも関係ないですしー\nたくさん壊せて快感♪　です♪=Drudrudru～m! Ahaha★ Gatling guns are the best. Even if you're not good at aiming, it doesn't matter. It's so satisfying to destroy lots of things♪
+ぺんぽこりん、ごーごー★\nえ？　中の人？\nんもー★　そんなの\nいるわけないじゃないですかぁ♪=Penpokorin, go-go★ Huh? The person inside? Oh my★ There's no way someone like that exists♪
+ライクからラブになるには\n「キュン★」が大切ですからー\nだからもっともーっと…\n「キュン★」な展開希望です★=To go from "like" to "love", "kyun★" is important, you know~ So, even more and more, I hope for a "kyun★" development~★攻撃力と魔法クリティカルを大アップさせる。=Greatly increases the magic attack power and magic critical hit rate of all allies.
+r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ$"=Cast time: 0.87s\n►Increases M.ATK of all allies by $1 for 180s.\n►Increases M.crit of all allies by $2 for 180s.
+サイキック・サイト=Psychic site
+サイキック・サイト+=Psychic site+
+自分に【PSI★チャージ】状態を付与する。【PSI★チャージ】状態中はＨＰが毎秒回復し、ダメージスキルを使用する際、目の前の敵１キャラの魔法防御力を小ダウンさせる。=Grants the user the [PSI★Charge] state. While under the [PSI★Charge] state, the user recovers HP every second and reduces the magic defense of the nearest enemy character when using damage skills.
+r:"^自分にPSI★チャージ状態を付与する\n毎秒ＨＰを(\d+)回復する$"=Cast time: 1.24s\n►Grants self [PSI★Charge] status.\n►Recovers HP every second by $1 for 12s.
+このスキルのスキルレベルは「ガトリング★シンフォニア」と連動しています=The skill level of this skill is linked to "Gatling★Symphonia"
+バンキッシュ・バレット=Banquish Barrett
