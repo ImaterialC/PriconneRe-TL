@@ -17,8 +17,8 @@ if ($Changelog -match "## Changelog") {
         Write-Output "Replace $_ => $($Replacement.$_)"
     }
 
-    if ($Changelog.Length -ge 300) {
-        $Changelog = $Changelog.Substring(0, 300).Substring(0, $Changelog.LastIndexOf("`n"))
+    if ($Changelog.Length -ge 250) {
+        $Changelog = $Changelog.Substring(0, 250).Substring(0, $Changelog.LastIndexOf("`n"))
         $Changelog += "- ..."
         $Changelog += "`n*Check detailed changelog at the link below!*"
     }
