@@ -11,7 +11,7 @@ r:"^味方全体の毎秒ＨＰを(\d+)回復する\n対象の味方の物理攻
 r:"^毎秒ＨＰを(\d+)回復する\n対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の物理クリティカルを80アップ\n対象の味方のＴＰ上昇を10アップ$"=►Recovers allies' HP by $1/s for 10.5s.\n►Boosts all P-type allies' P.ATK by $2 for 18s.\n►Boosts all P-type allies' P.Crit by 80 for 18s.\n►Boosts all P-type allies' TP boost by 10 for 18s.
 味方全体に継続ＨＰ回復状態を付与し、物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、物理クリティカルを大アップさせ、さらに、ＴＰ上昇を小アップさせる。=Grant HP regen to all allies, Large boost the P.ATK of all physical allied, Large boost P.crit, and also slightly boost TP Boost.
 
-ハッピーニューテイスト=Happy New taste
+ハッピーニューテイスト=Happy New Taste
 r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを50アップ\n味方全体のＴＰを100回復$"=Cast time: 0.59s.\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.crit by 50 for 12s.\n►Recovers allies' TP by 100.
 味方全体の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに、ＴＰを小回復する。=Large boost the P.ATK of all allies, moderately boost the P.crit, and recovers a small amount of TP.
 
