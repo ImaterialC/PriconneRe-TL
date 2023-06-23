@@ -175,7 +175,7 @@ r:"^(\d+)回完了$"=Done × $1
 r:"^カルミナサマーライブ会場([0-9\-\(\)\w （）]*)$"=Carmina Summer Live Venue $1
 クイーンウタクラゲ=Queen Singer Jellyfish
 ---=
-r:"^港町・オーマ([0-9\-\(\)\w （）]*)$"=Port town Oma $1
+r:"^港町・オーマ([0-9\-\(\)\w （）]*)$"=Port town Ohma $1
 グレートトゥンヌス=Great Tunnus
 VERY HARDでカズマサさまが援護してくれるようです。強力なスタン効果のユニオンバーストで、サポートしてくださいますよ。ボスが身動きを取れなくなっている間に、一気に倒しましょう。=It seems that Kazumasa-sama will support you in VERY HARD. I will support you with a powerful stun effect UB. While the boss is stun, let's defeat it at once.
 
