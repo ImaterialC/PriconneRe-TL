@@ -2,7 +2,7 @@
 ※この設定は後から[設定]で変更できます。=※This setting can be changed later.
 この設定は後から［設定］で変更できます。=This setting can be\nchanged later in [Settings].
 [FF7C4E,D62146]この設定は後から［設定］で変更できます。[-]=[FF7C4E,D62146]This setting can be changed later in [Settings].[-]
-今後このメッセージを表示しない\n※この設定は後から[設定]で変更できます。=Do not show this message in the future\n※Can be changed from the settings.
+今後このメッセージを表示しない\n※この設定は後から[設定]で変更できます。=Do not show this message in the future.\n※Can be changed later from [Settings].
 
 設定変更を適応するためにアプリの再起動が必要になります。=You need to restart the app to apply the setting changes.
 演出設定=Direction Settings

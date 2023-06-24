@@ -35,7 +35,7 @@ EXクエスト一覧=EX Floors
 
 模擬戦で使用=Training Use
 本戦で使用=Main Use
-未所持/戦闘不能/制限Lv以下のキャラは編成できません。=Unclaimed/Uncombatable/Too low Lvl\ncannot be deployed.
+未所持/戦闘不能/制限Lv以下のキャラは編成できません。=Underleveled \ Not owned \ Incapacitated\ncharacters can't be used.
 本戦の場合、本戦使用済みのキャラは編成されません。=In the main battle, already-used characters\ncannot be deployed again.
 本日の編成キャラ数=Today's chars
 
@@ -46,15 +46,15 @@ EXクエスト一覧=EX Floors
 
 r:"^\[3C404E\]リタイアするとスタミナが\[FFBB00,CE4F00\](\d+)\[-\]消費され、\nキャラのHP・TPがバトル前の状態に戻ります。\n\nよろしいですか？\[-\]$"=[3C404E]Retiring will consume [FFBB00,CE4F00]$1[-] stamina and return your character's HP and TP to their pre-battle state.\n\nAre you sure?[-]
 
-模擬戦では報酬は獲得できません。=No rewards can be\nearned in mock battles.
+模擬戦では報酬は獲得できません。= \u2800    No rewards earned in training.
 
 進行中バトル=Battle in progress
 ルナの塔へ=To Luna Tower
 
 パーティ編成使用確認=Confirm Party Selection
 このパーティ編成を使用しますか？=Do you want to use this party setup?
-未所持/制限Lv以下のキャラは編成できません。=Characters you do not own\nor under leveled cannot be used.
-今後このメッセージを表示しない\n※この設定は後から［設定］で変更できます。=Do not display this message in the future.\nThis setting can be changed later in [Settings].
+未所持/制限Lv以下のキャラは編成できません。=Underleveled / not owned characters can't be used.
+今後このメッセージを表示しない\n※この設定は後から［設定］で変更できます。=Do not show this message in the future.\n※Can be changed later from [Settings].
 
 クエストリタイア=Leave Quest
 [3C404E]リタイアするとクエスト報酬を\n獲得することができません。\n\nよろしいですか？[-]=[3C404E]You will not receive any rewards if you quit.\n\nAre you sure?[-]
@@ -63,13 +63,13 @@ r:"^ルナの塔(\d+)階$"=Luna Tower $1F
 r:"^(\d+)階 クリアパーティ一覧$"=$1 Floor Clear Party List
 このパーティはバトルに参加していません。=This party has not participated in the battle.
 同名キャラ編成の設定が「編成不可」になっています。=The setting of the same name character organization is "not organized".
-未所持のキャラは編成できません。=Characters you do not own cannot be assigned to a party.
+未所持のキャラは編成できません。= not own cannot be assigned to a party.
 変更可=Changing
-変更不可=can't change
-選択したパーティの★=selected Party ★
+変更不可=Can't Chg
+選択したパーティの★=Selected Party ★
 「★１、２、６へ変更」「星5に才能開花をしていないキャラを変更」はできません。=You cannot change ★1, ★2, ★6 Characters. Only ★5 can change the ★.
-選択したパーティの★に変更する=Change ★ to Selected Party's ★
-選択したパーティと現在のキャラの★の数が異なります。=The ★ of selected parties and the current character ★ is different.
+選択したパーティの★に変更する=\u2800 Change ★ to Selected Party's ★
+選択したパーティと現在のキャラの★の数が異なります。=The ★ of selected and \ncurrent characters is different.
 現在のキャラの★=Current character ★
 同じキャラを編成することはできません。=You can not organize the same character.
 05:00までは他のサポートキャラを選択できません。=You can not select other\nrental characters until 05:00(JST).

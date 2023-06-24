@@ -172,5 +172,7 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewMyProfileCard(Clone)/TopProfileImage/MyProfileCard/ProfileLayer/ProfileNode/Profile/Tower/ReachingFloor/common_dt_bg_pink/Label=ChangeFontSize(19)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewMyProfileCard(Clone)/TopProfileImage/MyProfileCard/ProfileLayer/ProfileNode/Profile/Power/common_dt_bg_pink/Label=ChangeFontSize(18)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogUniqueEquipmentRankUpConfirm(Clone)/GUIGroup_/GUIGroup_Alert/AlertLabel=ChangeFontSize(20)
-
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonMiddle(Clone)/Main/PartsParent/PartsDialogMonsterDetail(Clone)/GUIPanel_DialogCommonSmall/GUIGroup_DialogContents/ScrollContent/ScrollView/WrapContent/PartsMonsterDetailTextPlate(Clone)/DetailLabel=ChangeFontSize(14)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogDifferenceRarityExConfirm(Clone)/Right/CheckBox/Label=ChangeFontSize(18)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogDifferenceRarityExConfirm(Clone)/Right/AlertTable/Alert/Label_1=ChangeFontSize(16)
+/ALERT/Label=ChangeFontSize(18)

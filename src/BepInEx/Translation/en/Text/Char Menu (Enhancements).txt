@@ -102,7 +102,7 @@ r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F0
 この装備は素材から作成できません。=You cannot craft this equipment.
 ---ORE---
 原鉱を使えば作成できます。=Can be created by using Ore.
-今後このメッセージを表示しない\n※設定から変更可=Do not show this message in the future\n※Can be changed from the settings.
+今後このメッセージを表示しない\n※設定から変更可=Do not show this message in the future.\n※Can be changed later from [Settings].
 原鉱消費確認=Ore Consumption Confirmation
 以下の原鉱が消費されます。\nよろしいですか？=The following ore will be consumed.\nIs this OK?
 消費装備が十分のため、原鉱を消費できません。=No need, you have enough equipment.
