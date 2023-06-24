@@ -15,7 +15,7 @@ sr:"^\[3C404E\]\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[F
 プリぐるみスペシャル（アメス）=Purigurumi Special (Ameth)
 新しい家具を入手しました。\n収納BOX、またはプレゼントリストをご確認ください。=New furniture has been obtained. \nPlease check the Storage Boxes.
 
-ギルドハウスに設置すると、一定時間ごとにスタミナやアイテムを生産する家具です。=When installed in the guild house, this furniture produces stamina and items at regular intervals.
+ギルドハウスに設置すると、一定時間ごとにスタミナやアイテムを生産する家具です。=When installed in the Guildhouse, this furniture produces stamina and items at regular intervals.
 キャラがアクションをとる家具です。一部のキャラは非対象の場合があります。=This is furniture that allows characters to perform actions. Some characters may not be able to use it.
 ---furniture effect---
 マナ生成機=Mana Creation Device
@@ -228,7 +228,7 @@ sr:"^\[3C404E\]\[3C404E\]イベント限定ギルドハウス家具\n「\[-\]\[F
 １stアニバーサリーモニュメント=1st Anniversary Monument
 sr:"^プリぐるみ（([べ-・ー]{2,11})）$"=Pri-gurumi ($1)
 ネビアのくつろぎツリーハウス=Navi Relax Tree House
-ギルドハウス内にネビアが出現=Navi appears in the guild house
+ギルドハウス内にネビアが出現=Navi appears in the Guildhouse
 ピップルのおうち=Pipple house
 今日は何しようかな=What shall we do today?
 ネビアのやすらぎビオトープ=Yasuragi Biotope in Navi

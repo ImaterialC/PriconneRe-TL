@@ -193,7 +193,7 @@ r:"^(\d+)秒$"=$1s
 r:"^(\d+)分$"=$1m
 r:"^(\d+)時間$"=$1h
 ---NPC---
-ギルドハウスの\n使い心地は\nどうですか？=How is the\nguild house\ncomfortable isn't it?
+ギルドハウスの\n使い心地は\nどうですか？=How is the\nGuildhouse\ncomfortable isn't it?
 ご用があれば\nなんでも言って\nくださいね～♪=Please tell me\nif you need\nsomething~♪
 ふぁ～…あっ\n見られちゃい\nましたか？=Ah...\nCould be\nyou see it?
 

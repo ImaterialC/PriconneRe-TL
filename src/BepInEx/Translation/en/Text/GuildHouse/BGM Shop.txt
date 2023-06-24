@@ -24,7 +24,7 @@ sr:"^(.{3,20})\nを購入しました。$"=Purchased\n$1
 メモリアルサウンドボックスの購入により、ギルドハウスの各フロアで流れるBGMを変更できるようになりました。お好みの楽曲を購入してくださいませ。主さまの選曲、楽しみです。=Now that we have the Memorial Jukebox, you can purchase new tracks to use as BGM on your home screen and each floor of guildhouse. I cannot wait to hear your favorite melodies, Aruji-sama.
 
 ---NPC karin
-ようこそ！\nこちらでは、\nギルドハウスで流れる音楽の\n変更や購入が出来ますよ=Hello there!\nIn this section, you can choose new music to play on your home screen or in the guild house
+ようこそ！\nこちらでは、\nギルドハウスで流れる音楽の\n変更や購入が出来ますよ=Hello there!\nIn this section, you can choose new music to play on your home screen or in the Guildhouse
 
 こちらでは、ＢＧＭの変更が\nできますよ\nどんな曲に変更しますか？\nふふふ、私も楽しみです♪=This is where you can change BGM setting! What kind of track are you after?\nHaha, I can't wait to hear it!
 

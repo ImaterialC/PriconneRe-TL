@@ -54,8 +54,8 @@
 「いいね」する="Like"
 
 
-ギルドハウス設定=Guild House Settings
-ギルドハウスから1度もアイテムを受け取っていないとき予定帳からアイテムを受け取れるようにするか、\n表示するか設定できます。受け取れるアイテムがない場合は予定帳に表示されません。=You can set whether or not to receive items from the schedule book when you have not received any items from the guild house. If there are no items to receive, they will not be displayed in the schedule book.
+ギルドハウス設定=Guildhouse Settings
+ギルドハウスから1度もアイテムを受け取っていないとき予定帳からアイテムを受け取れるようにするか、\n表示するか設定できます。受け取れるアイテムがない場合は予定帳に表示されません。=You can set whether or not to receive items from the schedule book when you have not received any items from the Guildhouse. If there are no items to receive, they will not be displayed in the schedule book.
 
 マナ購入設定=Mana Purchase Settings
 設定した回数マナを購入していないとき予定帳からマナを購入可能にするか、表示するか設定できます。=If you have not purchased the set number of mana, you can purchase mana from the schedule book or display it.

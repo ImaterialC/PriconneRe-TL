@@ -1,7 +1,7 @@
 コッコロのおさいふ=Kokkoro's Wallet
 コッコロの\nおさいふ=Kokkoro's\nWallet
 「コッコロのおさいふ」からマナを引き出し可能です。=Mana can be drawn from "Kokkoro's Wallet".
-所持上限を超えたマナはギルドハウスの\n「コッコロのおさいふ」に自動で送られます。=Mana that exceeds the maximum is automatically sent to the guild house "Kokkoro's Wallet".
+所持上限を超えたマナはギルドハウスの\n「コッコロのおさいふ」に自動で送られます。=Mana that exceeds the maximum is automatically sent to the Guildhouse "Kokkoro's Wallet".
 このメッセージを以降は表示しない\n※メニューから設定が可能です=Do not display this message anymore\n※Can be set from the menu
 
 引き出すマナは1以上で入力してください。=Please enter at least 1 mana to be withdrawn.
