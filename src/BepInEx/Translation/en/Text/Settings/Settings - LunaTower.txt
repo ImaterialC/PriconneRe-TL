@@ -2,8 +2,8 @@
 ルナの塔の通常階とボス階で、パーティ決定直後スキップを行うか設定します。\n※スキップ中は、「AUTO」で戦闘が実行されます。=You can set whether to skip the party selection process on the normal\nand boss floors of Luna Tower immediately after the decision is made.\n※During the skip, battles will be executed automatically with "AUTO".
 通常階=Normal floors
 ボス階=Boss floor
-ルナの塔 回廊探索＆EX階バトルスキップ=Luna Tower Corridor Search & EX Floor Battle Skip
-ルナの塔の回廊探索とEX階で、パーティ決定直後スキップを行うか設定します。\n※スキップ中は、「AUTO」で戦闘が実行されます。=You can set whether to skip the party selection process on the Corridor\nand EX Boss floors of Luna Tower immediately after the decision is made.\n※During the skip, battles will be executed automatically with "AUTO".
+ルナの塔 回廊探索＆EX階バトルスキップ=Luna Tower Phantom Passage Search & EX Floor Battle Skip
+ルナの塔の回廊探索とEX階で、パーティ決定直後スキップを行うか設定します。\n※スキップ中は、「AUTO」で戦闘が実行されます。=You can set whether to skip the party selection process on the Phantom Passage\nand EX Boss floors of Luna Tower immediately after the decision is made.\n※During the skip, battles will be executed automatically with "AUTO".
 EX階=EX floor
 ルナの塔 バトルスキップ完了後のスキップ確認ダイアログ表示=Luna Tower Battle Skip After completing the skip check dialog display
 ルナの塔のバトルスキップ後のダイアログにて、スキップ選択時に確認ダイアログを表示するか設定します。\n※ボスEX階では、ダイアログは表示されません。=Setting to display a confirmation dialog when selecting to\nskip battles in the dialog box after the battle in the Luna Tower.\n※The dialog box will not be displayed on the Boss EX floor.

@@ -31,7 +31,7 @@ Lv強化=Level Up
 装備ステータス=Equipment Stats
 使う=Use
 強化ポーションを所持していません=no EXP Potion left!
-あと=Remain:
+あと=Left:
 この装備は今後登場予定です。=This equipment will appear in the future.
 マイパーティ=My Parties
 エクストラキャラ=Extra Character
@@ -50,7 +50,7 @@ Lv強化=Level Up
 強化素材選択=Select\nRefinement Materials
 まとめてリセット=Reset All
 獲得強化Pt=Refinement Pts
-強化=Enhance
+強化=Refine
 最大まで強化=to maximize
 合計Pt=Total Pts
 強化確認=Refine Equipment
@@ -131,7 +131,7 @@ EXスキルスロット=EX skill slot
 この装備は強化できません。=This equipment cannot be refined.
 ---Rank Up Detail---
 未装備のステータス=Unequipped Stats
-装備強化MAX=MAX Refineme
+装備強化MAX=MAX Refinement
 未装備=Unequip
 ランクアップ詳細=Rank Up Detail
 装備強化MAXのステータス=MAX Refinement Stats
@@ -182,16 +182,16 @@ EXスキルスロット=EX skill slot
 セットボーナス=Stats Bonus
 
 アイテムを消費して、セット/強化します。=The following items are consumed.
-アイテム強化確認=Reinforcement Confirmation
+アイテム強化確認=Refine Confirmation
 
 ステータスアップ=Status Up
 以下のセットボーナスを獲得しました！=You've earned the following stat bonuses!
-最大まで強化しています。=Maxed enhanced already
+最大まで強化しています。=Maxed refinement already
 すでにセットしています。=It's already placed
 必要なメモリーピースの上限に達しています。=Required the number of Memory Shards reached.
 
----Recommended Enhancement
-おすすめ強化メニュー=Recommended Enhancements
+---Recommended Enhancement---
+おすすめ強化メニュー=Recommended Refinement
 装備強化=Refine
 装備強化でステータスアップ！=Refine items to boost their stats!
 消費Pt=PT Cost

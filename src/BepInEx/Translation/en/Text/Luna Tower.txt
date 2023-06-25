@@ -2,7 +2,7 @@
 ナの塔=na Tower
 r:"^(\[[0-9A-F,]{6,13}\])階\[-\]$"=$1F[-]
 階=F
-回廊探索=Corridor
+回廊探索=Phantom Passage
 パーティ=Party
 保存パーティ=Save Party
 ルナの塔においてバトル速度の上限を設定できます。=You can set the upper limit\nof battle speed in the Luna Tower
@@ -27,7 +27,7 @@ sr:"^あと(\d+)?時?間(\d+分)で利用できます。$"=$1h$2 remaining to us
 
 EXクエスト一覧=EX Floors
 
-回廊探索 クリアパーティ一覧=Corridor Search Clear Party List
+回廊探索 クリアパーティ一覧=Phantom Passage Search Clear Party List
 
 不参加=N/A
 
@@ -89,8 +89,8 @@ r:"^(\d+)階 クリアメンバー$"=Floor $1 Survivors
 r:"^(\d+)階EXクエスト クリアメンバー$"=Floor $1 EX Quest Survivors
 r:"^(\d+)階EX クリアパーティ一覧$"=Floor $1 EX Clear Party List
 このクエストをクリアしたクランメンバーです。=Clan members that have cleared this quest.
-回廊探索 クリアメンバー=Corridor Exploration Survivors
-r:"^回廊探索 wave(\d)$"=Corridor Exploration Wave$1
+回廊探索 クリアメンバー=Phantom Passage Exploration Survivors
+r:"^回廊探索 wave(\d)$"=Phantom Passage Exploration Wave$1
 バトルスキップを行いますか？=Do you want to skip the battle?
 [FF7C4E,D62146]対象のクエストはありません。[-]=[FF7C4E,D62146]No quests are available.[-]
 クリアで使用できます。=Must clear it first.

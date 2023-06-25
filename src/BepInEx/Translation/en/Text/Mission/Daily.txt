@@ -32,6 +32,8 @@ sr:"^あと ([0-9]{2})分([0-9]{2})秒$"=Deadline $1m$2s
 [3C404E]ノーマルガチャを10回引こう[-]=[3C404E]Draw the Normal Gacha "10 Times"[-]
 [3C404E]ルナの塔に1回挑戦しよう[-]=[3C404E]Attempt a Tower of Luna 1 time[-]
 [3C404E]クランバトルに1回挑戦しよう[-]=[3C404E]Attempt a Clan Battle 1 time[-]
+[3C404E]クランバトルに3回参加しよう[-]=[3C404E]Attempt a Clan Battle 3 time[-]
+
 [3C404E]ダンジョンに1回挑戦しよう[-]=[3C404E]Attempt a Dungeon 1 time[-]
 
 [FFFFFF]12:00～翌朝04:59の間にゲームにログインしよう[-]=[FFFFFF]Log-in between 12:00 and the next morning 04:59(JST)[-]
@@ -51,6 +53,7 @@ sr:"^あと ([0-9]{2})分([0-9]{2})秒$"=Deadline $1m$2s
 [FFFFFF]ノーマルガチャを10回引こう[-]=[FFFFFF]Draw the Normal Gacha "10 Times"[-]
 [FFFFFF]ルナの塔に1回挑戦しよう[-]=[FFFFFF]Attempt a Tower of Luna 1 time[-]
 [FFFFFF]クランバトルに1回挑戦しよう[-]=[FFFFFF]Attempt a Clan Battle 1 time[-]
+[FFFFFF]クランバトルに3回参加しよう[-]=[FFFFFF]Attempt a Clan Battle 3 time[-]
 [FFFFFF]ダンジョンに1回挑戦しよう[-]=[FFFFFF]Attempt a Dungeon 1 time[-]
 
 r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]プレイヤー経験値\[-\]$"=[3C404E]Player Experience × [FFBB00,CE4F00]$1[-].[-]

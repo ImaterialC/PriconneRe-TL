@@ -84,7 +84,20 @@ r:"^([0-9,]+)で一部更新$"=$1: To Reset Some.
 一部ラインナップは毎日5:00更新=Some lineup Reset Daily at 5:00(JST)
 r:"^([0-9/]+) 枚$"=$1 Coin
 
----npc
+ダンジョンコイン不足=Insufficient Dungeon Coins 
+プリンセスアリーナコイン不足=Insufficient Princess Arena Coins
+アリーナコイン不足=Insufficient Battle Arena Coins
+バトルアリーナへ=To the Battle Arena
+プリンセスアリーナへ=To the Princess Arena
+購入に必要なダンジョンコインが不足しています。=Not enough Dungeon Coins to complete purchase.
+購入に必要なプリンセスアリーナコインが不足しています。=Not enough Princess Arena Coins to complete purchase.
+購入に必要なアリーナコインが不足しています。=Not enough Battle Arena Coins to complete purchase.
+ダンジョンへ移動しますか?=Move to the Dungeon?
+プリンセスアリーナへ移動しますか?=Move to the Princess Arena?
+バトルアリーナへ移動しますか?=Move to the Battle Arena?
+
+
+---npc---
 主さま、マスターコインをマスターショップで入手困難なアイテムと\n交換できるようです。プレイヤーLvを上限まで上げた後、スタミナを消費\nすることでマスターコインが手に入るようです。=Mainly, it seems that Master Coin can be exchanged for items that are difficult to obtain at the master shop. After raising the player Lv to the upper limit, it seems that Master Coin can be obtained by consuming Stamina.
 ---Divine Amulet---
 在のメモリーピース1個あたりの単価=Prices per Shards: 

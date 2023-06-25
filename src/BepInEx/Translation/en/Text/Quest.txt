@@ -73,7 +73,7 @@ r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]枚消費して、
 クエストリトライ=Retry Quest
 ---Abort---
 リタイア=Quit
-sr:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nスタミナが\[FFBB00,CE4F00\]([0-9])\[-\]消費されます。\n\nよろしいですか？\[-\]$"=[3C404E]You will not receive any rewards if you quit,\nand stamina is consumed [FFBB00,CE4F00]$1 [-].\n\nIs this OK?[-]
+r:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nスタミナが\[FFBB00,CE4F00\](\d)\[-\]消費されます。\n\nよろしいですか？\[-\]$"=[3C404E]You will not receive any rewards if you quit,\nand you will lose [FFBB00,CE4F00]$1 [-]stamina.\n\nIs this OK?[-]
 
 ---Recharges stamina---
 回復回数指定=Heal count

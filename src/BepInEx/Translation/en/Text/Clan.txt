@@ -153,7 +153,7 @@ r:"^\[3C404E\]CPを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]獲得して、\[-\
 模擬戦中=Training
 本日の挑戦回数の上限に達しています。=You have reached the maximum number of attempt for today.
 
-段階が変更されています。=Laps has been changed.
+段階が変更されています。=Tier has been changed.
 ---Carry Over Time---
 r:"^\[3C404E\]モンスターを撃破したため\n残り時間を\[FF7C4E,D62146\]([0-9:]+)\[-\]使って\n次のバトルに挑戦できます。\[-\]$"=[3C404E]Since you have defeated a monster,\nyou can use Left-Over time [FF7C4E,D62146]$1[-]\nto challenge the next battle.[-]
 残り時間持越し通知=Left-Over Time Notification
@@ -224,7 +224,7 @@ sr:"^(.+) (\d)段階目$"=Tier $2 $1
 [FF7C4E,D62146]トレーニングバトルでは\n報酬は獲得できません。[-]=[FF7C4E,D62146]No rewards can be earned\nin training battles.[-]
 [FF7C4E,D62146]模擬戦では報酬は獲得できません。[-]=[FF7C4E,D62146]No rewards can be earned\nfrom training battles[-].
 [FF7C4E,D62146]模擬戦設定になっています。[-]=[FF7C4E,D62146]Set to training.[-]
-※各報酬は撃破時に獲得できます。=You can get each rewards\nwhen you destroy them.
+※各報酬は撃破時に獲得できます。=※Rewards can be obtained\nupon defeating the target.
 クランメンバーのバトルと、マイログに保存したバトルのログが確認できます。=You can view the battles of your clan members.
 ダメージ=Damage
 [3C404E]このモンスターは他メンバーに先に倒されました。\n[FF7C4E,D62146]※挑戦回数は消費されません。[-][-]=[3C404E]This monster was defeated by other members.\n[FF7C4E,D62146]※ Your attempt has been refunded.[-][-]
@@ -343,7 +343,10 @@ r:"^(\d)戦目\n本戦参加済$"=Used at\nParty $1
 リプレイで確認できるバトルは\n該当編成を使用した場合の一例です。=The battles that can be confirmed in replays are examples of battles that were fought using the corresponding formation.
 
 
-r:"^\[3C404E\]このおすすめ編成は、\n持越し時間\[FF7C4E,D62146\]([0-9:]+)\[-\]を使用して\nバトルした編成です。\[-\]$"=[3C404E]This recommended party is\nthe formation battle using\nleft-over time [FF7C4E,D62146]$1[-].[-]
+r:"^\[3C404E\]このおすすめ編成は、\n持越し時間\[FFBB00,CE4F00\]([0-9:]+)\[-\]を使用して\nバトルした編成です。\[-\]$"=[3C404E]This recommended party is\nthe formation battle using\nleft-over time [FFBB00,CE4F00]$1[-].[-]
+
+
+
 持越し時間について=About Left-Over Time.
 
 使用=Use
@@ -392,7 +395,12 @@ sr:"^(\d+月)のランキング結果$"=($1) Ranking Results
 ---Boss---
 持越し時間：=Finish left over:
 sr:"^(.+)　Lv.(\d+)$"=$1 lv.$2
-r:"^(\d)体目$"=B-$1
+1体目=Boss 1
+2体目=Boss 2
+3体目=Boss 3
+4体目=Boss 4
+5体目=Boss 5
+
 
 与えたダメージ=Damage Dealt
 全段階合計=All Tier Score Total
