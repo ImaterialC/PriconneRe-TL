@@ -30,7 +30,7 @@ sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n
 ---Bough List---
 sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しました。\[-\]$"=[3B3F4D]You used $1 × [FFBB00,CE4F00]$2[-]\n to buy the following items.[-]
 
-sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\](\d+)\[-\]を購入しました。\[-\]$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-]to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
+sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\](\d+)\[-\]を購入しました。\[-\]$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-] to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
 
 ---sort order---
 ピュアメモリー\nピースのみ=Pure memory\nshard only
@@ -79,8 +79,8 @@ sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,
 リセット対象のアイテムがありません。=There are no items to reset.
 
 r:"^(\d+)で一部ラインナップを今すぐ更新$"=Reset some lineup: $1
-r:"^([0-9,]+)で今すぐ更新$"=$1: To Reset
-r:"^([0-9,]+)で一部更新$"=$1: To Reset Some.
+r:"^([0-9,]+)で今すぐ更新$"=$1: Reset
+r:"^([0-9,]+)で一部更新$"=$1: Reset Some.
 一部ラインナップは毎日5:00更新=Some lineup Reset Daily at 5:00(JST)
 r:"^([0-9/]+) 枚$"=$1 Coin
 

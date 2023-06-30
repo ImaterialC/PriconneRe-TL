@@ -1,4 +1,3 @@
 demon city
 r:"^魔族の街([0-9\-\(\)\w （）]*)$"=Demon City $1
 変貌せし従者・ブラド=Transformed Servant Brad
-・ユニオンバーストは、敵全体のバリアを解除=Union Burst removes all enemy barriers

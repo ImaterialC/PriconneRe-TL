@@ -1,0 +1,82 @@
+キャラバン=Caravan
+ャラバン=Caravan
+ボーナス一覧=Bonus List
+経過ターン=Elapsed turn
+r:"^\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]ターン\[-\]$"=[FF7C4E,D62146]$1[3C404E] Turn[-][-]
+
+チェックポイント=Checkpoint
+r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]マス\[-\]$"=[FF7C4E,D62146]$1[3C404E] Maze left[-][-]
+シーズン切替=Season Change
+r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]日\[-\]$"=[FF7C4E,D62146]$1[3C404E] Days left[-][-]
+発動中の効果=Effects while activated
+サイコロを振る=Roll the dice
+料理を食べる=Eat the Dish
+使用済=Used
+本日の消費スタミナ=Today's Consumption Stamina
+追加サイコロをゲット！=Extra die!
+トレジャー=Treasure
+現在位置に戻る=Return
+チェックポイントまで=To the checkpoint
+
+ダイスを振る=Roll the dice
+シーズン終了=End of Season
+料理を所持していません。=You don't have any Dish.
+r:"^(\d+)ターン以内にギルド管理協会出張所へ到着$"=$1 turns more to the GMA branch office.
+
+---Bonus List---
+r:"^(\d+)ターン以内に到達$"=Reach within $1 turns
+r:"^(\d+)ターンで到達$"=Reach within $1 turns
+r:"^レベル(\d)$"=Level $1
+ターン数ボーナス=Turn bonus
+一定のターン以内にチェックポイントへ到達すると\nボーナスが獲得できます！=If you reach the checkpoint within\na certain number of turns, you'll get a bonus!
+
+---Maze---
+福引券はチェックポイント到達時に抽選が行われます。=Lottery Tickets will be drawn at the checkpoint.
+福引券を獲得しました。=Received Lottery Ticket.
+福引券獲得=Acquired a Lottery Ticket
+
+---Treasure List---
+所持トレジャー一覧=Possessed Treasure List
+トレジャーを所持していません。=No treasure in your possession.
+---Shop at Map---
+マップに戻る=Back to the map
+所持マイル=Miles Held
+必要マイル=Miles req
+売却メニュー=Shop menu
+料理=Dish
+マイルでアイテムを購入することができます。=You can purchase items in miles.
+マイルショップ=Miles Shop
+ランダムなイベントを発生させる。=Creates a random event.
+特殊系=Special type
+補助系=Support type
+移動系=Mobile type
+料理詳細=Dish Details
+以下の料理を獲得しました。=Obtained the following dishes:
+食べる=Eat
+r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
+食べる料理を選択してください。=Select a dish to eat.
+所持している料理=Possession Dishes
+食事確認=Meal Confirmed
+食事済=Meal's Done
+以下の料理を食べます。よろしいですか？=Feed the following dishes. Is it OK?
+
+
+
+マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The "Mile Maze," "Treasure Maze," and "Shop Maze" on the map will increase by 1 rank. The effect will continue until you land on the target maze twice.
+
+アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special lunch basket together. The cheerful dishes filled with hopes for adventures with friends will make various events along the way feel like one rank higher.
+
+クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Qurea has prepared an adventure bento since early morning. The side dishes are diverse and all of them are exquisite, but the contents are kept secret from everyone, making it a delightful surprise until you open the lid.
+
+獲得料理=Acquired dish
+キャルが食べたい物を挟み込んだハンバーガー。香ばしいパンとお肉の香りが食欲を刺激する。魔物でない素材で作られた、冒険中に食べるにはゴージャスすぎる一品、とキャルは信じている。=A hamburger filled with Kyaru's favorite dish. The aroma of toasted bread and meat stimulates the appetite. Kyaru believes it's a luxurious dish made with non-monster ingredients, perfect for eating during an adventure.
+
+---Tutorial Kokkoro---
+皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Let's embark on an adventure with Onigiri-sama on the Gourmet Chaser. Roll the dice and move forward on the map, aiming for the Guild Management Association branch office where Karin-sama is waiting.
+ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the treasures you collected for caravan coins. Also, the fewer turns it takes you to reach there, the more bonus you can get. Let's exchange coins for items at the shop.
+料理からは、冒険を有利に進める効果が得られますよ。1ターンに1品\nまで召し上がることができ、同じカテゴリーの効果は重複いたしません。\n…あぁっペコリーヌさま、おかわりは次のターンまで我慢でございます。=You can get beneficial effects from cooking to advance your adventure. You can eat up to one dish per turn, and the effects of the same category do not stack. ... Ahh, Pecorine-sama, please wait until the next turn for seconds.
+道中には様々なマスがございます。「マイルマス」で集めたマイルは料理\nやトレジャーの購入にお使いいただけますよ。「トレジャーマス」や\n「料理マス」ではスロットを回して出たアイテムを獲得できるとか。=There are various squares along the way. You can use the miles you collected at the "Mile Square" to buy Dish or treasures. At the "Treasure Square" and "Dish Square", you can spin the slot and get the items that come out.
+「ショップマス」ではマイルを用いたアイテムの購入が可能です。\n「イベントマス」では嬉しい効果を得られるイベントが起きるようです。\n「移動マス」に止まると、そこからさらに先へ進めるのでございますね。=You can buy items with miles at the "Shop Square". At the "Event Square", you can get happy effects from events that happen. If you stop at the "Move Square", you can move further ahead from there.
+「ミニゲームマス」に止まったら、ミニゲームに挑戦いたしましょう。\n結果に応じた報酬が獲得できるのですね。「福引券マス」は福引券を入手\nでき、「ガチャマス」ではマイルガチャが回せるようですよ、主さま。=If you stop at the "Mini Game Square", let's challenge the mini game. You can get rewards according to the results. The "Lottery Ticket Square" allows you to get a lottery ticket, and the "Gacha Square" allows you to spin the mile gacha, Aruji-sama.
+
+

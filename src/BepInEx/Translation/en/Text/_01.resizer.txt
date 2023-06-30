@@ -189,8 +189,32 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab2/State_Normal/Label=ChangeFontSize(16)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab2/State_Active/Label=ChangeFontSize(16)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab3/State_Normal/Label=ChangeFontSize(16)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab3/State_Active/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab3/State_Active/Label(font\=hummingstd-e) =ChangeFontSize(16)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab4/State_Normal/Label=ChangeFontSize(16)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab4/State_Active/Label=ChangeFontSize(16)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab5/State_Normal/Label=ChangeFontSize(16)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab5/State_Active/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewClanBattleRanking(Clone)/WidgetOff(Clone)/RightNode/TabParent/InClanMonsterTabObject/GUIGroup_tab5/State_Active/Label(font\=hummingstd-e) =ChangeFontSize(16)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonSmall(Clone)/Main/PartsParent/PartsDialogShopShortage(Clone)/GUIGroup_/Movable/CurrencyInfoLong/GUIGroup_Money/Label=ChangeFontSize(19)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewCaravanShop(Clone)/Main/SlideRight/AnchorRight/Contents/GUIGroup_CategoryTab/GUIGroup_tab1/State_Normal/Label=ChangeFontSize(18)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewCaravanShop(Clone)/Main/SlideRight/AnchorRight/Contents/GUIGroup_CategoryTab/GUIGroup_tab1/State_Active/Label=ChangeFontSize(18)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewCaravanShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/Contents/GUIGroup_CategoryTab/GUIGroup_tab1/State_Normal/Label=ChangeFontSize(18)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewCaravanShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/Contents/GUIGroup_CategoryTab/GUIGroup_tab1/State_Active/Label=ChangeFontSize(18)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewCaravanShop(Clone)/Main/SlideRight/AnchorRight/Contents/ScrollNode/ScrollContent/ScrollView/WrapContent/PartsCaravanCoinShopRow(Clone)/Grid/ShopList(Clone)/Label_item_name=ChangeFontSize(13)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewCaravanShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/Contents/ScrollNode/ScrollContent/ScrollView/WrapContent/PartsCaravanCoinShopRow(Clone)/Grid/ShopList(Clone)/Label_item_name=ChangeFontSize(15)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewMinigameCccGameMain(Clone)/FixedUiPanel/ingameuiroot/PartsCccInGameResult(Clone)/maingroup/base/GUIGroup_Score/GUIGroup_DefeatIndex/Label=ChangeFontSize(16)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewMinigameCccGameMain(Clone)/FixedUiPanel/ingameuiroot/PartsCccInGameResult(Clone)/maingroup/base/GUIGroup_Button_Solo/UIButton_8/Label=ChangeFontSize(18)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCaravanMileShop(Clone)/Main/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanTreasurePlateRow(Clone)/Grid/PartsCaravanTreasurePlate(Clone)/Label_item_name=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCaravanMileShop(Clone)/Main/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_description=ChangeFontSize(12)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCaravanMileShop(Clone)/Main/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_item_name=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishInfo(Clone)/GUIGroup_DishInfo/GUIGroup_DishInfo/DishInfoLabel=ChangeFontSize(12)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishInfo(Clone)/GUIGroup_DishInfo/GUIGroup_DishEffectInfo/DishEffectInfoLabel=ChangeFontSize(12)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogCaravanDishSelect(Clone)/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_item_name=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogCaravanDishSelect(Clone)/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_description=ChangeFontSize(12)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanRewardConfirm(Clone)/ScrollContent/ScrollView/WrapContent/PartsCaravanRewardPlateRow(Clone)/Grid/PartsDialogCommonItem_ITEM_DETAIL_CORRECT_ILLEGAL(Clone)/ItemName=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanRewardConfirm(Clone)/ScrollContent/ScrollView/WrapContent/PartsCaravanRewardPlateRow(Clone)/Grid/PartsDialogCommonItem_ITEM_DETAIL_CORRECT_ILLEGAL(Clone)/ItemDetail=ChangeFontSize(12)

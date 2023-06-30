@@ -27,7 +27,7 @@
 グロウスフィアを使用後に、キャラを無料強化した場合も、デイリーミッションの加算対象です。\n例：グロウスフィアを使用したキャラのスキルを無料強化した場合、デイリーミッションの「キャラのスキルを{{A}}回強化しよう」が達成されます。=Even if you strengthen your character for free after using Growsphere, you will be eligible for daily missions. Example: If you enhance the skill of a character using Growsphere, the daily mission "Enhance character's Skill 1 time" will be completed.
 デイリーミッションについて=About Daily Mission
 キャラの大いなる力を呼び醒ますア\nイテム。=An item that invokes the great power of the character.
-r:"^グロウスフィア / Lv(\d+)$"=Growsphere / Lv$1
+r:"^グロウスフィア /\n? Lv(\d+)$"=Growsphere / Lv$1
 r:"^専用装備グロウスフィア\n? / Lv(\d+)$"=Unique Equipment Growsphere / Lv$1
 
 強化できるLvまでLvアップする=Level up to the Lv cap.

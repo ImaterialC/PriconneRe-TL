@@ -3,7 +3,7 @@ r:"^ランフェス会場([0-9\-\(\)\w （）]*)$"=Rando FES $1
 狂乱の配信者・カガミ=Kagami, the Deliverer of Madness
 
 漫画の\nアシスタント=Doujin\nAssistant
-興味のある\nゲーム=Interested in\nGames
+興味のある\nゲーム=Interested in\ngames
 ファンについて=About Fans
 フェスの見どころ=FES highlights
 同人誌即売会=Doujinshi sale

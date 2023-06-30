@@ -219,6 +219,7 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 ピックアップキャラなし=No pickup character
 
 有償ジュエルが不足しています。=Insufficient paid jewels.
+ジュエルが不足しています。=Insufficient jewels.
 このガチャは有償ジュエルで引くことができます。=This gacha can be drawn only with a paid jewel.
 [FFBB00,CE4F00]有償ジュエル限定\n限定★3確定ガチャ開催！[-]=[FFBB00,CE4F00]Guarantee ★3 Limited character\nGuaranteed Gacha[-]
 [FFBB00,CE4F00]有償ジュエル限定\n★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Limited Guarantee ★3\nPaid Jewel Premium Gacha! [-]

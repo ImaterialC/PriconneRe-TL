@@ -1,0 +1,36 @@
+------
+r:"^(\d+)マイル 獲得！$"=$1 Miles acquired!
+獲得トレジャーはありません。=Obtained Treasure not available.
+獲得トレジャー=Obtained Treasures
+個=
+アイテム獲得数=Acquired Items 
+マイル=Mile
+今回の獲得マイル=Obtained Miles
+------
+個= 
+貴重なインゴット=Precious Ingot
+貴重なルーン=Precious Runes
+貴重なスクロール=Precious Scroll
+平凡なインゴット=Ordinary Ingot
+平凡なスクロール=Ordinary Scroll
+平凡なルーン=Ordinary Runes
+至高のインゴット=Supreme Ingot
+至高のスクロール=Supreme Scroll
+至高のルーン=Supreme Rune
+至高の未鑑定トレジャー=Supreme UnAppraisal Treasure
+貴重な未鑑定トレジャー=Precious UnAppraisal Treasure
+平凡な未鑑定トレジャー=Ordinary UnAppraised Treasure
+以下のトレジャーを獲得しました。=Obtained the following Treasures:
+[f6d75e,f68600]至高のスクロール[-]=[f6d75e,f68600]supreme Scroll[-]
+[f6d75e,f68600]至高のインゴット[-]=[f6d75e,f68600]Supreme Ingot[-]
+[f6d75e,f68600]至高のルーン[-]=[f6d75e,f68600]Supreme Rune[-]
+正体不明な謎のお宝。ギルド管理協会出張所まで持ち込むとカリンに鑑定してもらえる。鑑定の結果、レアリティが上がる場合がある。=An unidentified, mysterious treasure. Karin will appraise it if you bring it all the way to the Guild's branch office. Appraisals can increase the rarity.
+正体不明な謎のお宝。ギルド管理協会出張所まで持ち込むとカリンに鑑定してもらえる。=An unidentified, mysterious treasure. If you bring it to the Guild Management Association branch office, you'll be appraised by Karin.
+
+
+
+落ちてくるリンゴや宝箱をキャッチしましょう！\n画面の左右をタッチすると移動できますよ！=Let's catch falling apples and treasure chests! You can move by touching the left and right sides of the screen!
+スタート=Start
+集めたリンゴはマイルと交換させていただきます。\n金リンゴはなんと、赤リンゴ5個分の価値がありますよ♪\nさらに宝箱をキャッチすると、トレジャーがGETできます！=The collected apples will be exchanged for Miles. And guess what, a golden apple is worth five red apples! Furthermore, if you catch a treasure chest, you'll get a treasure!
+トゲトゲにぶつかると、少しの間動けなくなるので注意してください。\nマグネットをキャッチすると、範囲内のフルーツや宝箱を一定時間\n引き寄せることができますよ♪=Be careful not to collide with thorny obstacles, as it will temporarily immobilize you. If you catch a magnet, it will attract fruits and treasure chests within its range for a certain period of time♪
+リンゴや宝箱はリザルトでまとめて報酬に交換いたします！\nたくさんキャッチして、マイルやトレジャーをGETしましょう♪=Apples and treasure chests will be converted into rewards in the results! Catch a lot of them and get Miles and treasures♪

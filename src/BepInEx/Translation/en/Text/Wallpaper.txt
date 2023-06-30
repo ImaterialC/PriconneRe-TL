@@ -10,7 +10,7 @@
 カスタムマイページ5=Custom Home 5
 変更= +
 はずす=-
-マイページに移動する\nたびにランダム表示する=Randomize
+マイページに移動する\nたびにランダム表示する=Shuffle each time\nreturn to Home
 BGM変更=BGM
 現在のBGM=♪Playing
 表示設定=Display Settings

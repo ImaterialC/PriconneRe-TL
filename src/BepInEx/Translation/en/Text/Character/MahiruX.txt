@@ -1,0 +1,25 @@
+漫才=Manzai
+
+【物理】中衛で味方を支援し、守護する聖夜の牧場主。範囲内の敵をノックバックさせることで相手の隊列を崩し全体物理バリア展開と単体ＨＰ回復で激戦を勝利に導く。=[Physical] A ranch owner of the holy night who supports and protects allies in the midline. By knocking back enemies within range, she disrupts their formation and leads the battle to victory with a wide-range physical barrier deployment and single-target HP recovery.
+
+エリザベスドリームランド=Elizabeth Dreamland
+味方全体の物理防御力を中アップさせ、さらに物理無効バリアを展開する。=Moderately boosts P.DEF for all allies and deploys a physical nullification barrier.
+
+セイントハーベスト=Saint Harvest
+セイントハーベスト+=Saint Harvest+
+最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップする。さらに味方全体の物理攻撃力を大アップし、ＨＰとＴＰを小回復する。=Greatly recovers the HP of the ally with the lowest HP, further increases their P.DEF, and additionally boosts P.ATK for all allies. Also provides small HP and TP recovery.
+
+ワイルドホイール=Wild Wheel
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに行動速度を大ダウンさせ、大きく吹き飛ばす。範囲内の敵の数に応じて吹き飛ばしの距離がダウンする。=Deals moderate P.DMG to all enemies within the range centered around the target character, significantly decreases their action speed, and blows them away. The distance of the blow depends on the number of enemies within the area.
+
+
+r:"^味方全体の物理防御力を(\d+)アップ\n(\d+)ダメージ分の物理無効バリアを展開する$"=►Boosts allies' P.DEF by $1 for 18s.\n►►Deploys Barrier over all allies that negates $2 P.DMG for 18s.
+
+r:"^味方単体のＨＰを(\d+)回復\n味方単体の物理防御力を(\d+)アップ\n味方全体の物理攻撃力を(\d+)アップ\n味方全体のＴＰを(\d+)回復\n味方全体のＨＰを(\d+)回復$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2 for 12s.\n►Boosts allies' P.ATK by $3 for 12s.\n►Recovers allies' TP by $4.\n►Recovers allies' HP by $5.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to enemies within 150 range.\n►Reduces action speed of enemies to 60% within 150 range for 12s.\n►Knocks targets back by 600.
+
+
+クリスマスファーミング=Christmas Farming
+クリスマスファーミング+=Christmas Farming+
+大聖牧杖エリザベス=Great Holy Staff Elizabeth

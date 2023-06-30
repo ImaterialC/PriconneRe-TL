@@ -101,7 +101,7 @@ r:"^([1-9])回目の報酬をリセット$"=Reward Reset $1
 あとボスを3回1バトルで撃破することで解放されます。=Can Skip by defeating the boss 3 times in one battle.
 あとボスを2回1バトルで撃破することで解放されます。=Can Skip by defeating the boss twice in one battle.
 あとボスを1回1バトルで撃破することで解放されます。=Can Skip by defeating the boss once in one battle.
-魔法提督ラブリー★モニカ レッツゴー！マジカルカルテット！=Magical Admiral Lovely★Monica Let's Go! Magical Quartet!
+魔法提督ラブリー★モニカ レッツゴー！マジカルカルテット！=Magical Admiral Lovely★Monika Let's Go! Magical Quartet!
 ---Login---
 イベントログインボーナス獲得=Event Login Bonus Received
 r:"^(\d+)日目のログインボーナスとして以下のアイテムを獲得しました。$"=Received items as Day $1 login bonus.

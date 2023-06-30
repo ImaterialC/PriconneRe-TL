@@ -1,0 +1,21 @@
+ャラバンショップ=Caravan Shop
+r:"^あと (\d{1,2})日$"=$1 days left
+シーズン2=Season 2
+シーズン1=Season 1
+シーズン2は開催されていません。=Season 2 is not open yet.
+キャラバンコイン=Caravan Coin
+トレジャーは売却できません。=Treasures cannot be sold.
+
+---about to buy---
+所持キャラバンコイン=Caravan Coins Held
+キャラバンに戻りますか?=Do you want to go back to the Caravan?
+購入に必要なキャラバンコインが不足しています。=Insufficient Caravan Coin to purchase.
+必要キャラバンコイン=Caravan Coin Cost
+キャラバンへ=To the Caravan
+キャラバンコイン不足=Insufficient Caravan Coin
+
+
+---NPC---
+いらっしゃいませっ♪\nキャラバンコインを使って\n買い物ができますよっ！=Welcome to the shop♪ You can use Caravan Coins to buy things here!
+ショップへようこそ\nキャラバンコインはこちら\nで買い物に使えますよ=Welcome to the shop. Caravan coins can be used for shopping here.
+こちらのショップで\n買い物をして、素敵な\n旅を楽しんでくださいね=Please enjoy shopping at this shop and have a wonderful journey.

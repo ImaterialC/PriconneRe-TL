@@ -1,4 +1,5 @@
-
+TextureHashGenerationStrategy=FromImageName
+TextureHashDataPattern=^Atlas
 足元注意！=Watch your step!
 怪鳥、襲来=Monster Bird Attack
 もがいて逃げる=Struggle and escape
@@ -7,5 +8,5 @@
 木の陰に隠れる=Hide behind a tree
 岩の陰に隠れる=Hide in the rock
 森のトランポリン？=A trampoline in the forest?
-起こさないように…=Don't wake up ...
+起こさないように…=Please don't wake up...
 

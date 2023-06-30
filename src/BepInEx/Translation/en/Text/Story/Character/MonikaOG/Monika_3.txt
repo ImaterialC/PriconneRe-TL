@@ -1,0 +1,115 @@
+受付係=Receptionist
+参加者１=Contestant 1
+参加者２=Contestant 2
+
+r:"^決闘大会当日、モニカは身長制限に引っかかり出場が認められない。モニカは怒って暴れてしまい、警備員につまみ出されてしまう。しゅんとするモニカだが(.{2,10})と話して本来の目標を思い出す。$"=On the day of the duel tournament, Monika is disqualified due to a height restriction. She gets angry and causes a scene, getting escorted out by security. Feeling down, Monika talks with $1 and remembers her true goal.
+
+モニカが出場することにした決闘大会、当日。=The day of the duel tournament where Monika decided to participate.
+……さ、さぁ、ついにこの日がきたな！=...Well, the day has finally come!
+貴公が特訓に付き合ってくれたおかげで、\n私もかなり強くなれた。\nこの大会でも、大活躍だろうな！=Thanks to you accompanying me during training, I've become quite strong. I'm sure I'll make a big impact in this tournament!
+そのはずだったのだが……=Or so I thought...
+あぁ、いや、なんでもない！\nわ、私はエントリーの確認があるから、もう行くぞ。\n次に会う時は、優勝した後だ！　ではっ！=Ah, no, it's nothing! I, um, have to check my entry, so I'm off. The next time we meet will be after I've won! See you!
+うぅ……しまったな……\n結局、本当のことを言えなかった……=Ugh... I messed up... I couldn't tell them the truth in the end...
+まさか、大会に身長制限があったとは……\n私の身長では……=I never expected there to be a height restriction in the tournament... and with my height...
+し、しかし特訓を手伝ってもらっておいて、\n出場もできなかった、とは言いにくいし……=B-But it's hard to say that I couldn't even participate after receiving help with my training...
+どうしたものか……\n一応エントリー表には、\n水増しした身長を書いておいたが……=What should I do... I did write an inflated height on the entry form, just in case...
+いや、諦めてはダメだ！\nもしかしたら、この一晩で背が伸びたかもしれない！=No, I can't give up! Maybe I've grown taller overnight!
+それに、細かいチェックがあるとも限らないのだ。\n試しに受付に行ってみよう！=Besides, there's no guarantee they'll check it meticulously. Let's go to the reception and try!
+では、順番に身長を測っていきまーす！=Alright, let's measure the height one by one!
+終わった……\nやはり実際に測られるのか……=It's over... They actually measured it...
+次の方ー！\nそこのお嬢さんですよ。\nここに乗ってください。=Next person! You there, miss. Please step on here.
+い、いや、私は……ちょっとトイレに。=N-No, I... I need to use the restroom.
+すぐに済みますから。\nさぁ、乗ってください。=It'll be quick. Come on, step on it.
+う、うむ……観念するしかないか。=Ugh... I guess I have to accept it.
+どれどれ……？\nえっと、138cmですね。=Let me see... Hmm, it's 138cm.
+申し訳ありません。\n危険防止のために140cm以下の方は参加できないんです。=I'm sorry. For safety reasons, those under 140cm can't participate.
+やはりか……\nし、しかし、私は充分に実力がある！=I knew it... B-But, I have more than enough skill!
+それに、今日のために\nわざわざ特訓に付き合ってくれた仲間がいるんだ。\n仲間のためにも、不参加というわけにはいかない！=And there are comrades who went through special training just for today. I can't simply not participate for his sake!
+どうか、頼む！\n私も参加させてくれ！=Please, I beg you! Let me participate too!
+そう言われても、規則ですので……=Even if you say that, it's against the rules...
+そこをなんとかっ！=Try to make an exception!
+なんだ、なんだ？\nどうかしたのか？=What's going on?\nIs something wrong?
+身長が足りない？\nいいじゃねぇか。\nこんなに頼んでるんだから、出してやれよ。=Not tall enough? Who cares? I'm begging you like this, so just let her in!
+貴公たち……！=You guys...!
+ですが、規則なので……\nダメなものはダメなんです。=However, it's against the rules... What's not allowed is not allowed.
+子供にそんなこと言ったら、かわいそうだろ。\nってか、子供部門くらい作ってやれよ！=It would be pitiful to say that to a child. Come on, make a children's division!
+そうだ、そうだ！\nどうして子供部門がないんだ？\nそれさえあれば、解決すんだろ！=That's right, that's right! Why isn't there a children's division? If we have that, the problem would be solved!
+あ……い、いや……\n私は子供というわけでは……=Ah... N-No, I'm not a child...
+子供部門！　子供部門！=Children's division! Children's division!
+参加者たち=Participants:
+だから、違うと──=I told you, that's not──
+子供部門！！　子供部門っ！！=Children's division!! Children's division!!
+わ、わかりました！\n私が間違ってました！\nだから、お静かに！！=Alright, alright! I understand! I was mistaken! So, please be quiet!!
+おお！？\nまさか、私も参加できるのか！？=Oh?! Could it be, I can participate too?!
+次回からは子供部門を作ります。\nだから、お嬢ちゃんも次回までいい子で待っててね？=From the next time, we'll have a children's division. So, little miss, please be a good girl until then, okay?
+う……うぐ、ぐぬぬ……！\nだから、私は子供ではない！\n子供、子供、といい加減にしろぉおおお！！=Uh... Ugh, grr... I'm not a child, I said! Stop with this child, child nonsense!!
+う、うわぁ！\n暴れ出したぞ！？\n誰か、止めろー！！=Uh, uh-oh! She's causing a scene! Someone, stop her!!
+止めに入る。=Intervening.
+r:"^(\[3C404EFF\])?(.{2,10})……見ていたのか！？(\[3C404EFF\])?\n(\[3C404EFF\])?止めてくれるな！(\[3C404EFF\])?\n私はこいつらに引導を渡さねばならないっ！$"=$2... Did you hear that?\nDon't stop me!\nI must teach them a lesson!
+し、失格！　しっかーく！！\n警備を呼んでくれ！\n強制退場させるんだー！=D-Disqualified! Quiet down!! Call security and make them leave!!
+す、すまない……\nせっかく貴公が特訓に付き合ってくれたのに、\nこんな結果になってしまった……=I-I'm sorry... Despite you accompanying me in training, it ended up like this...
+謝らなくてもいい。=You don't have to apologize.
+
+ゆ、許してくれるのか？\n優勝どころか、出場すらできなかったのに……=Y-You forgive me? We couldn't even participate, let alone win...
+ん？\n大会で勝つことが目標だったのか……だと？\nいや、それは……=Huh? Winning the tournament was your goal... is that right? Well, that's...
+……言われてみれば、私の目標はそうではないな。=...Now that you mention it, that wasn't my goal.
+誇り高きヴァイスフリューゲルの一員として、\n立派な軍人になる！\nそれこそが、私の目標だ！=My goal is to become a proud member of Weissflügel and a splendid soldier! That's my true goal!
+
+r:"^(\[3C404EFF\])?一番の目標を失念するところだった。(\[3C404EFF\])?\n(\[3C404EFF\])?(.{2,10})、感謝するぞ。$"=I almost forgot my main objective.\nThank you, $4.
+
+r:"^(\[3C404EFF\])?では、(\[3C404EFF\])?真の目標のために、(\[3C404EFF\])?\nこれからも二人でがんばるぞ！(\[3C404EFF\])?\n(\[3C404EFF\])?さあ、(\[3C404EFF\])?帰ろう、(.{2,10})！$"=So, for the sake of our true goal, let's keep doing our best together from now on!\nNow, let's go back, $7!
+
+r:"^(\[3C404EFF\])?(.{2,10})の言葉に、気持ちを新たにするモニカであった。$"=With Cornelia's words, Monika's spirit is revitalized.
+
+
+[3C404EFF]モニカが出場することにした決闘大会、当日。=The day of the duel tournament Monika had decided to participate in.
+[3C404EFF]モニカが出場することにした決闘大会、当日。=The day of the duel tournament where Monika decided to participate.
+[3C404EFF]……さ、[3C404EFF]さぁ、[3C404EFF]ついにこの日がきたな！=...Well, the day has finally come!
+[3C404EFF]貴公が特訓に付き合ってくれたおかげで、[3C404EFF]\n私もかなり強くなれた。[3C404EFF]\n[3C404EFF]この大会でも、[3C404EFF]大活躍だろうな！=Thanks to you accompanying me during training, I've become quite strong. I'm sure I'll make a big impact in this tournament!
+[3C404EFF]そのはずだったのだが……=Or so I thought...
+[3C404EFF]あぁ、いや、なんでもない！[3C404EFF]\nわ、私はエントリーの確認があるから、[3C404EFF]もう行くぞ。[3C404EFF]\n[3C404EFF]次に会う時は、[3C404EFF]優勝した後だ！　[3C404EFF]ではっ！=Ah, no, it's nothing! I, um, have to check my entry, so I'm off. The next time we meet will be after I've won! See you!
+[3C404EFF]うぅ……[3C404EFF]しまったな……[3C404EFF]\n[3C404EFF]結局、[3C404EFF]本当のことを言えなかった……=Ugh... I messed up... I couldn't tell them the truth in the end...
+[3C404EFF]まさか、[3C404EFF]大会に身長制限があったとは……[3C404EFF]\n[3C404EFF]私の身長では……=I never expected there to be a height restriction in the tournament... and with my height...
+[3C404EFF]し、[3C404EFF]しかし特訓を手伝ってもらっておいて、[3C404EFF]\n出場もできなかった、[3C404EFF]とは言いにくいし……=B-But it's hard to say that I couldn't even participate after receiving help with my training...
+[3C404EFF]どうしたものか……[3C404EFF]\n[3C404EFF]一応エントリー表には、[3C404EFF]\n水増しした身長を書いておいたが……=What should I do... I did write an inflated height on the entry form, just in case...
+[3C404EFF]いや、[3C404EFF]諦めてはダメだ！[3C404EFF]\n[3C404EFF]もしかしたら、[3C404EFF]この一晩で背が伸びたかもしれない！=No, I can't give up! Maybe I've grown taller overnight!
+[3C404EFF]それに、[3C404EFF]細かいチェックがあるとも限らないのだ。[3C404EFF]\n[3C404EFF]試しに受付に行ってみよう！=Besides, there's no guarantee they'll check it meticulously. Let's go to the reception and try!
+[3C404EFF]では、順番に身長を測っていきまーす！=Alright, let's measure the height one by one!
+[3C404EFF]終わった……[3C404EFF]\nやはり実際に測られるのか……=It's over... They actually measured it...
+[3C404EFF]次の方ー！[3C404EFF]\nそこのお嬢さんですよ。[3C404EFF]\nここに乗ってください。=Next person! You there, miss. Please step on here.
+[3C404EFF]い、いや、[3C404EFF]私は……ちょっとトイレに。=N-No, I... I need to use the restroom.
+[3C404EFF]すぐに済みますから。[3C404EFF]\n[3C404EFF]さぁ、[3C404EFF]乗ってください。=It'll be quick. Come on, step on it.
+[3C404EFF]う、[3C404EFF]うむ……[3C404EFF]観念するしかないか。=Ugh... I guess I have to accept it.
+[3C404EFF]どれどれ……？[3C404EFF]\nえっと、[3C404EFF]138cmですね。=Let me see... \nHmm, it's 138cm.
+[3C404EFF]申し訳ありません。[3C404EFF]\n危険防止のために140cm以下の方は参加できないんです。=I'm sorry.\nFor safety reasons, those under 140cm can't participate.
+[3C404EFF]やはりか……[3C404EFF]\n[3C404EFF]し、[3C404EFF]しかし、私は充分に実力がある！=I knew it...\nB-But, I have more than enough skill!
+[3C404EFF]それに、[3C404EFF]今日のために[3C404EFF]\nわざわざ特訓に付き合ってくれた仲間がいるんだ。[3C404EFF]\n[3C404EFF]仲間のためにも、[3C404EFF]不参加というわけにはいかない！=And there are comrades who went through special training just for today. I can't simply not participate for his sake!
+[3C404EFF]どうか、頼む！[3C404EFF]\n私も参加させてくれ！=Please, I beg you! Let me participate too!
+[3C404EFF]そう言われても、[3C404EFF]規則ですので……=Even if you say that, it's against the rules...
+[3C404EFF]そこをなんとかっ！=Try to make an exception!
+[3C404EFF]なんだ、なんだ？[3C404EFF]\nどうかしたのか？=What's going on?\nIs something wrong?
+[3C404EFF]身長が足りない？[3C404EFF]\nいいじゃねぇか。[3C404EFF]\nこんなに頼んでるんだから、出してやれよ。=Not tall enough? Who cares?\nI'm begging you like this, so just let her in!
+[3C404EFF]貴公たち……！=You guys...!
+[3C404EFF]ですが、[3C404EFF]規則なので……[3C404EFF]\n[3C404EFF]ダメなものはダメなんです。=However, it's against the rules... What's not allowed is not allowed.
+[3C404EFF]子供にそんなこと言ったら、かわいそうだろ。[3C404EFF]\n[3C404EFF]ってか、子供部門くらい作ってやれよ！=It would be pitiful to say that to a child. Come on, make a children's division!
+[3C404EFF]そうだ、そうだ！[3C404EFF]\n[3C404EFF]どうして子供部門がないんだ？[3C404EFF]\nそれさえあれば、解決すんだろ！=That's right, that's right! Why isn't there a children's division? If we have that, the problem would be solved!
+[3C404EFF]あ……い、[3C404EFF]いや……[3C404EFF]\n[3C404EFF]私は子供というわけでは……=Ah... N-No,\nI'm not a child...
+[3C404EFF]子供部門！　[3C404EFF]子供部門！=Children's division!\nChildren's division!
+[3C404EFF]だから、違うと──=I told you, that's not──
+[3C404EFF]子供部門！！　[3C404EFF]子供部門っ！！=Children's division!\nChildren's division!
+[3C404EFF]わ、わかりました！[3C404EFF]\n私が間違ってました！[3C404EFF]\n[3C404EFF]だから、お静かに！！=Alright, alright! I understand!\nI was mistaken! So, please be quiet!!
+[3C404EFF]おお！？[3C404EFF]\n[3C404EFF]まさか、[3C404EFF]私も参加できるのか！？=Oh?! Could it be, I can participate too?!
+[3C404EFF]次回からは子供部門を作ります。[3C404EFF]\n[3C404EFF]だから、お嬢ちゃんも次回までいい子で待っててね？=From the next time, we'll have a children's division. So, little miss, please be a good girl until then, okay?
+[3C404EFF]う……[3C404EFF]うぐ、[3C404EFF]ぐぬぬ……！[3C404EFF]\n[3C404EFF]だから、[3C404EFF]私は子供ではない！[3C404EFF]\n子供、[3C404EFF]子供、と[3C404EFF]いい加減にしろぉおおお！！=Uh... Ugh, grr... I'm not a child, I said! Stop with this child, child nonsense!!
+[3C404EFF]う、うわぁ！\n暴れ出したぞ！？[3C404EFF]\n[3C404EFF]誰か、止めろー！！=Uh, uh-oh!\nShe's causing a scene!\nSomeone, stop her!!
+[3C404EFF]し、[3C404EFF]失格！　[3C404EFF]しっかーく！！[3C404EFF]\n警備を呼んでくれ！[3C404EFF]\n強制退場させるんだー！=You are disqualified!\nAnyway!! Call security!\nI'll force you to leave the stage!
+[3C404EFF]す、[3C404EFF]すまない……[3C404EFF]\nせっかく貴公が特訓に付き合ってくれたのに、[3C404EFF]\n[3C404EFF]こんな結果になってしまった……=I-I'm sorry... Despite you accompanying me in training, it ended up like this...
+そんなに出たかったの？=Did you really want participate that badly?
+[3C404EFF]ゆ、許してくれるのか？[3C404EFF]\n[3C404EFF]優勝どころか、[3C404EFF]出場すらできなかったのに……=Y-You forgive me?\nWe couldn't even participate, let alone win...
+
+[3C404EFF]ん？[3C404EFF]\n大会で勝つことが目標だったのか……[3C404EFF]だと？[3C404EFF]\n[3C404EFF]いや、[3C404EFF]それは……=Huh? Winning the tournament was your goal... is that right? Well, that's...
+
+[3C404EFF]……言われてみれば、[3C404EFF]私の目標はそうではないな。=...Now that you mention it, that wasn't my goal.
+[3C404EFF]誇り高きヴァイスフリューゲルの一員として、[3C404EFF]\n立派な軍人になる！[3C404EFF]\nそれこそが、[3C404EFF]私の目標だ！=My goal is to become a proud member of Weissflügel and a splendid soldier! That's my true goal!
+
+[3C404EFF]もちろんだ！[3C404EFF]\n[3C404EFF]そのために特訓してきたのだから！=Of course! That's what We've been training for!

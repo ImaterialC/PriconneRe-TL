@@ -48,7 +48,7 @@
 家具Lvアップ可能な効果つき家具の通知=Furniture Effect Upgrade Notification
 Lvアップ可能な効果つき家具がある場合、通知を表示するか設定します。=Set whether or not to be notified when there are piece(s) of furniture that can be upgraded
 
-新しく追加されたミニゲームの通知=Newly Added Mini-Games Notification
+新しく追加されたミニゲームの通知=Newly Added Mini Games Notification
 みんなのゲームテーブルに新しくミニゲームが追加された場合、通知を表示するか設定します。=Set whether or not to show a notification for when a new mini-game is added.
 
 みんなのゲームテーブルのプレイ動画保存設定=Video Settings For Mini Games

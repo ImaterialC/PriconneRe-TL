@@ -36,7 +36,7 @@ Rank 2 Skill
 Rank 2 Skill+
 スターダストマジック+=Stardust Magic+
 目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を中ダウンさせる。=Lowers magic defense of enemies within the radius of the target by a moderate amount.
-r:"^範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 1.4s\nLowers all enemies M.DEF within 200 range by $1 for 12s. 
+r:"^範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 1.4s\nLowers all enemies' M.DEF within 200 range by $1 for 12s. 
 
 Rank 4 Skill
 残りＨＰが最も高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to the enemy with the highest current HP. Inflict stun to the target for 1.5 seconds.
