@@ -6,6 +6,9 @@ r:"^あと (\d{1,2})日$"=$1 days left
 キャラバンコイン=Caravan Coin
 トレジャーは売却できません。=Treasures cannot be sold.
 
+キャラバンコイン（シーズン1）=Caravan Coins (Season 1)
+トレジャーの清算で獲得できる特別\nな通貨。キャラバンショップの\n「シーズン1」タブで買い物ができ\nる。=A special currency that can be obtained through the appraisal of treasures. It can be used for shopping in the "Season 1" tab of the Caravan Shop.
+
 ---about to buy---
 所持キャラバンコイン=Caravan Coins Held
 キャラバンに戻りますか?=Do you want to go back to the Caravan?
@@ -17,5 +20,6 @@ r:"^あと (\d{1,2})日$"=$1 days left
 
 ---NPC---
 いらっしゃいませっ♪\nキャラバンコインを使って\n買い物ができますよっ！=Welcome to the shop♪ You can use Caravan Coins to buy things here!
-ショップへようこそ\nキャラバンコインはこちら\nで買い物に使えますよ=Welcome to the shop. Caravan coins can be used for shopping here.
+ショップへようこそ\nキャラバンコインはこちら\nで買い物に使えますよ=Welcome to the shop. Caravan Coins can be used for shopping here.
 こちらのショップで\n買い物をして、素敵な\n旅を楽しんでくださいね=Please enjoy shopping at this shop and have a wonderful journey.
+素敵な品が揃ってるので\nたーっくさん買っていって\nくださいねっ♪=There's a lot of great stuff here, so please enjoy shopping!♪

@@ -1,36 +1,84 @@
 ------
 r:"^(\d+)マイル 獲得！$"=$1 Miles acquired!
-獲得トレジャーはありません。=Obtained Treasure not available.
+獲得トレジャーはありません。=No Treasures obtained.
 獲得トレジャー=Obtained Treasures
 個=
 アイテム獲得数=Acquired Items 
-マイル=Mile
+マイル=Miles
+キャラバンで用いる特別な通貨。マイルショップやマイルガチャ利用時に必要となる。=A special currency used in the caravan. It is required for Mile Shop purchases and Mile Gacha usage.
 今回の獲得マイル=Obtained Miles
+
 ------
 個= 
 貴重なインゴット=Precious Ingot
 貴重なルーン=Precious Runes
 貴重なスクロール=Precious Scroll
+貴重なティアラ=Precious Tiara
+貴重なジェムストーン=Precious Gemstone
+貴重なアーティファクト=Precious Artifact
+
 平凡なインゴット=Ordinary Ingot
 平凡なスクロール=Ordinary Scroll
 平凡なルーン=Ordinary Runes
+平凡なアーティファクト=Ordinary Artifacts
+平凡なティアラ=Ordinary Tiara
+平凡なクラウン=Ordinary Crown
+
 至高のインゴット=Supreme Ingot
 至高のスクロール=Supreme Scroll
 至高のルーン=Supreme Rune
-至高の未鑑定トレジャー=Supreme UnAppraisal Treasure
-貴重な未鑑定トレジャー=Precious UnAppraisal Treasure
-平凡な未鑑定トレジャー=Ordinary UnAppraised Treasure
+至高のアーティファクト=Supreme Artifact
+至高のティアラ=Supreme Tiara
+至高のクラウン=Supreme Crown
+
+至高の未鑑定トレジャー=Supreme Unappraised Treasure
+貴重な未鑑定トレジャー=Precious Unappraised Treasure
+平凡な未鑑定トレジャー=Ordinary Unappraised Treasure
 以下のトレジャーを獲得しました。=Obtained the following Treasures:
-[f6d75e,f68600]至高のスクロール[-]=[f6d75e,f68600]supreme Scroll[-]
+
+[f6d75e,f68600]至高のスクロール[-]=[f6d75e,f68600]Supreme Scroll[-]
 [f6d75e,f68600]至高のインゴット[-]=[f6d75e,f68600]Supreme Ingot[-]
 [f6d75e,f68600]至高のルーン[-]=[f6d75e,f68600]Supreme Rune[-]
+[f6d75e,f68600]至高のアーティファクト[-]=[f6d75e,f68600]Supreme Artifact[-]
+[f6d75e,f68600]至高のティアラ[-]=[f6d75e,f68600]Supreme Tiara[-]
+[f6d75e,f68600]至高のクラウン[-]=[f6d75e,f68600]Supreme Crown[-]
+[f6d75e,f68600]至高のジェムストーン[-]=[f6d75e,f68600] Supreme Gemstone [-]
+[f6d75e,f68600]至高の未鑑定トレジャー[-]=[f6d75e,f68600]Supreme Unappraised Treasure[-]
+
+r:"^\[f6d75e,f68600\]至高のスクロール×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Scroll x$1[-]
+r:"^\[f6d75e,f68600\]至高のインゴット×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Ingot x$1[-]
+r:"^\[f6d75e,f68600\]至高のルーン×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Rune x$1[-]
+r:"^\[f6d75e,f68600\]至高のアーティファクト×(\d+)[-]$"=[f6d75e,f68600]Supreme Artifact x$1[-]
+r:"^\[f6d75e,f68600\]至高のティアラ×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Tiara x$1[-]
+r:"^\[f6d75e,f68600\]至高のクラウン×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Crown x$1[-]
+r:"^\[f6d75e,f68600\]至高のジェムストーン×(\d+)\[-\]$"=[f6d75e, f68600] Supreme Gemstone x$1[-]
+
+
 正体不明な謎のお宝。ギルド管理協会出張所まで持ち込むとカリンに鑑定してもらえる。鑑定の結果、レアリティが上がる場合がある。=An unidentified, mysterious treasure. Karin will appraise it if you bring it all the way to the Guild's branch office. Appraisals can increase the rarity.
-正体不明な謎のお宝。ギルド管理協会出張所まで持ち込むとカリンに鑑定してもらえる。=An unidentified, mysterious treasure. If you bring it to the Guild Management Association branch office, you'll be appraised by Karin.
+正体不明な謎のお宝。ギルド管理協会出張所まで持ち込むとカリンに鑑定してもらえる。=An unidentified, mysterious treasure. If you bring it to the Guild Management Association branch office, it'll be appraised by Karin.
+非常に珍しいトレジャー。ギルド管理協会出張所まで持ち込むと、多額のキャラバンコインに換金できる。=An extremely rare treasure. If you bring it to the Guild Management Association branch office, you can exchange it for a large amount of Caravan Coins.
+珍しいトレジャー。ギルド管理協会出張所まで持ち込むと、キャラバンコインに換金できる。=A rare treasure. If you bring it to the Guild Management Association branch office, you can exchange it for Caravan Coins.
+平凡なトレジャー。ギルド管理協会出張所まで持ち込むと、少額のキャラバンコインに換金できる。=Ordinary treasure. If you bring it to the Guild Management Association branch office, you can exchange it for a few Caravan Coins.
 
 
-
-落ちてくるリンゴや宝箱をキャッチしましょう！\n画面の左右をタッチすると移動できますよ！=Let's catch falling apples and treasure chests! You can move by touching the left and right sides of the screen!
+落ちてくるリンゴや宝箱をキャッチしましょう！\n画面の左右をタッチすると移動できますよ！=Let's catch falling apples and treasure chests! Since you play on PC, you can use arrow key on keyboard or joystick.
 スタート=Start
 集めたリンゴはマイルと交換させていただきます。\n金リンゴはなんと、赤リンゴ5個分の価値がありますよ♪\nさらに宝箱をキャッチすると、トレジャーがGETできます！=The collected apples will be exchanged for Miles. And guess what, a golden apple is worth five red apples! Furthermore, if you catch a treasure chest, you'll get a treasure!
 トゲトゲにぶつかると、少しの間動けなくなるので注意してください。\nマグネットをキャッチすると、範囲内のフルーツや宝箱を一定時間\n引き寄せることができますよ♪=Be careful not to collide with thorny obstacles, as it will temporarily immobilize you. If you catch a magnet, it will attract fruits and treasure chests within its range for a certain period of time♪
 リンゴや宝箱はリザルトでまとめて報酬に交換いたします！\nたくさんキャッチして、マイルやトレジャーをGETしましょう♪=Apples and treasure chests will be converted into rewards in the results! Catch a lot of them and get Miles and treasures♪
+
+--Gacha machine--
+マイルガチャ=Mile Gacha
+ガチャ台を選択してください。ガチャはいずれか1台を1度だけ利用できます。=Please select a gacha machine. You can only use one gacha machine once.
+
+ガチャ詳細=Gacha Details
+マイルを消費せず、無料で回せるガチャです。\nトレジャーか料理を1品獲得できます。=This is a free gacha where you can spin without spending any Miles. You have a chance to obtain either a treasure or one dish.
+1500マイルを消費して回せるガチャです。\nお得にトレジャーや料理を入手するチャンス！=This is a gacha that you can spin by consuming 1500 Miles. It provides a cost-effective opportunity to obtain treasures and dishes.
+3000マイルを消費して回せるガチャです。\n大量のトレジャーや料理が手に入ることも…！？=This is a gacha that you can spin by consuming 3000 Miles. It offers the possibility of obtaining a large quantity of treasures and dishes as well.
+ダイスまたは料理を使用する前であれば\n再度開くことができます。=If you haven't used the Dice or a Dish yet,\nyou can reopen it again.
+利用可能なガチャがあります。\nダイアログを閉じてもよろしいですか？\n=There is a gacha available for use.\nWould you still like to close the dialog?
+
+マイルが不足しています。=Insufficient Miles.
+マイルを消費して\nレアガチャを引きます。\nよろしいですか？=Spend Miles to draw the Rare Gacha?
+マイルを消費して\nプレミアムガチャを引きます。\nよろしいですか？=Spend Miles to draw the Premium Gacha?
+ノーマルガチャを無料で引きます。\n\nよろしいですか？=Draw the Normal Gacha for free?

@@ -59,7 +59,7 @@ r:"^(\[3C404EFF\])?一番の目標を失念するところだった。(\[3C404EF
 
 r:"^(\[3C404EFF\])?では、(\[3C404EFF\])?真の目標のために、(\[3C404EFF\])?\nこれからも二人でがんばるぞ！(\[3C404EFF\])?\n(\[3C404EFF\])?さあ、(\[3C404EFF\])?帰ろう、(.{2,10})！$"=So, for the sake of our true goal, let's keep doing our best together from now on!\nNow, let's go back, $7!
 
-r:"^(\[3C404EFF\])?(.{2,10})の言葉に、気持ちを新たにするモニカであった。$"=With Cornelia's words, Monika's spirit is revitalized.
+r:"^(\[3C404EFF\])?(.{2,10})の言葉に、気持ちを新たにするモニカであった。$"=With $2's words, Monika's spirit is revitalized.
 
 
 [3C404EFF]モニカが出場することにした決闘大会、当日。=The day of the duel tournament Monika had decided to participate in.

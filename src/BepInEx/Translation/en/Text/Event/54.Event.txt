@@ -38,4 +38,4 @@ r:"^世界の果ての森([0-9\-\(\)\w （）]*)$"=Forest at the End of the Worl
 僕もお揃いが欲しい。=I want a match too.
 マホ姫の新境地だね。=It's a New frontier for Princess Maho.
 
-sr:"^イベント「([\s\S]+)」のスペシャルエピソードが解放されました。$"="A special episode of the event\n"$1"\nhas been unlock."
+sr:"^イベント「([\s\S]+)」のスペシャルエピソードが解放されました。$"="A special episode of the event\n"$1"\nhas been unlocked."

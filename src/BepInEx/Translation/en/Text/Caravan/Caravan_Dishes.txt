@@ -1,22 +1,43 @@
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
-クリアの彩り華やかバラエティ弁当=Qurea's Colorful and Vibrant Variety Bento
+クリアの彩り華やかバラエティ弁当=Quria's Colorful and Vibrant Variety Bento
 トレジャーは売却できません。=Treasures cannot be sold.
 クローチェのフルパワーポテトサラダ=Croce's Full-Power Potato Salad
-カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Appetite-Boosting Kebab Sandwich
-タマキの金運招くレインボーたい焼き=Tamaki's Rainbow Taiyaki That Attracts Good Fortune
+カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Appetizer Kebab Sandwich
+タマキの金運招くレインボーたい焼き=Tamaki's Good Fortune Rainbow Taiyaki
 キャルの絶品五つ星バーガー=Kyaru's Exquisite Five-Star Burger
 リリのコツコツまい進かしわ餅=Riri's Steadfast Kashiwa Mochi
 ペコリーヌの満腹ツインおにぎり=Pecorine's Satisfying Twin Onigiri
 プレシアの食いしん坊ぶーぶー肉まん=Presia's Gluttony Boo-boo Meat Buns
+コッコロの\nゆるりと休憩サラダ=Kokkoro's Relaxing Break Salad
+
+ランダムなイベントを発生させる。=Creates a random event.
 次に振るダイスの目が必ず「5」になる。=The next dice roll is always a 5.
 ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=The next 3 dice roll is always a 4.
 次に振るダイスが2個に増える。出目の合計の数だけ進める。=The number of dice rolled next increases to 2. You can move forward as many spaces as the sum of the dice roll results.
 次に振るダイスの目が「4・5・6」のみになる。=The next dice roll is between 4,5,6.
-
-クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=Cloche's potato salad, made with full power. Originally intended to make galette, but accidentally squashed it and made a course correction to finish this dish. Regardless of the process, the taste is exceptionally delicious.
-
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]The next dice roll result will always be "8," and the dice roll after that will always be "1."[-]
+マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The "Mile Tiles," "Treasure Tiles," and "Shop Tiles" on the map will increase by 1 rank. The effect will continue until you land on the target tile twice.
+次に振るダイスの目が必ず「1」になる。さら\nに、次のターン数のカウントをスキップする。=The next roll of the dice will always result in 1. Additionally, the count for the next turn will be skipped.
+次に振るダイスの目を必ず「3」に、その次に振\nるダイスの目を必ず「6」にする。=The next roll of the dice will always result in 3, and the subsequent roll of the dice will always result in 6.
+次にマイルマスに止まった際の獲得マイルが20\n0%アップする。=When landing on the Mile Tile next, the Miles obtained will be increased by 200%.
+
+
+クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=Croce's potato salad, made with full power. Originally intended to make galette, but accidentally squashed it and made a course correction to finish this dish. Regardless of the process, the taste is exceptionally delicious.
 
 ペコリーヌが丹精込めて握った特大おにぎり。ごはんは命のエネルギーを体現しているらしい。普通の人が満腹に感じる量の倍のサイズの中に最高級の具を閉じ込めた【美食殿】らしい一品。=Pecorine's meticulously crafted extra-large onigiri. It is said that rice embodies the energy of life. This dish represents the 【Gourmet Guild】, enclosing the finest ingredients within a size double that of what an ordinary person would consider filling.
 
 リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Riri's kashiwa-mochi... Among them, it is a carefully selected item that was successfully made. Using the best ingredients and with the failed ones consumed by Lily herself, it has become quite a luxurious item when considering the unit price.
+
+プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=It's a meat bun packed with carefully selected fillings by Presia. Based on her request, it is several times larger than a regular meat bun. According to Quria, the chef in charge, the taste and volume are outstanding, guaranteeing a happy experience without a doubt.
+
+アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special lunch basket together. The cheerful dishes filled with hopes for adventures with friends will make various events along the way feel like one rank higher.
+
+クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria has prepared an adventure bento since early morning. The side dishes are diverse and all of them are exquisite, but the contents are kept secret from everyone, making it a delightful surprise until you open the lid.
+
+キャルが食べたい物を挟み込んだハンバーガー。香ばしいパンとお肉の香りが食欲を刺激する。魔物でない素材で作られた、冒険中に食べるにはゴージャスすぎる一品、とキャルは信じている。=A hamburger filled with Kyaru's favorite dish. The aroma of toasted bread and meat stimulates the appetite. Kyaru believes it's a luxurious dish made with non-monster ingredients, perfect for eating during an adventure.
+
+コッコロが皆のことを思って用意したサラダ。\n栄養バランスも考えられたうえに腹持ちもよく\n味だけではなく見た目にも気を配られている。\n冒険への活力を与えてくれる慈愛溢れる一品。=A salad prepared by Kokkoro with everyone in mind. It not only considers nutritional balance but also provides a satisfying feeling of fullness. Attention has been given not only to the taste but also to the appearance. It is a loving dish that provides energy for adventures.
+
+カヤとイノリが弁当代わりに持ってきたケバブ。\nイノリ行きつけの店の硬派な味わいで、ギャング\nとしてのやる気が一人3倍、コンビで6倍となり\n下剋上を成し遂げるパワーが湧く……らしい。=The kebab that Kaya and Inori brought as a substitute for lunch. It has a tough and robust flavor from Inori's favorite shop, and it is said that it triples the motivation of each individual as a gang member, and when enjoyed as a duo, it provides six times the power to achieve a revolution from the bottom up... or so they say.
+
+タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=The concept of taiyaki brought by Tamaki and the others to Geo Theogonia has blended with the local culture and given birth to a modified sweet treat. This modified sweet treat, shining in rainbow colors, is said to be several times sweeter than the taiyaki of Landosol.

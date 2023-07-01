@@ -54,7 +54,7 @@ r:"^(\[3C404EFF\])?(.{2,10})、目をつぶれ……(\[3C404EFF\])?\n(\[3C404EFF
 それっ、キース！\nキース！　キース！=Hey, Kissing!\nKissing! Kissing!
 あ、う……うぅ……！=Ah, uh... Ugh...!
 うわぁあああ！！\n見るな～～～～！！！=Waaaaah!!\nDon't look at meeeee!!
-r:"^(\[3C404EFF\])?照れたモニカに殴り飛ばされ、\n星になる(.{2,10})であった……$"=It was Cornelia, blown away by the blushing Monika and turned into a star...
+r:"^(\[3C404EFF\])?照れたモニカに殴り飛ばされ、\n星になる(.{2,10})であった……$"=It was $2, blown away by the blushing Monika and turned into a star...
 
 [3C404EFF]ねぇ、[3C404EFF]いいでしょ？[3C404EFF]\n[3C404EFF]私たちといいコトしましょ～=Hey, isn't it nice?\nLet's have some fun together.
 [3C404EFF]ん？　[3C404EFF]なんだ……？[3C404EFF]\nやけに騒がしいな。=Huh? What's going on...?\nIt's unusually noisy.

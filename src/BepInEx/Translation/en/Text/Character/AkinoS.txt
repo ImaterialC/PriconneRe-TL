@@ -1,0 +1,20 @@
+【物理】前衛で、優雅なバカンスを過ごす夕映えの令嬢。敵が魔法攻撃をする場合に効果を大幅に上げる２種の範囲攻撃と攻防両面の支援スキルで、盛夏の勝鬨を上げる。=[Physical] A front-line heiress who enjoys a graceful vacation. She excels in supporting her allies and disrupting enemies with two powerful area attacks that greatly enhance their effectiveness against magical attacks, boosting both offense and defense. She brings the joyous victory of midsummer.
+
+前方範囲内の敵すべてに物理大ダメージを与え、自分の物理攻撃力を大アップする。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに物理攻撃力の上昇量がアップする。=Deals massive P.DMG to all enemies in the frontal area and greatly boosts her own P.ATK power. If the target is an enemy using M.ATKs, the damage is further increased. Additionally, if there are enemies using M.ATKs, the increase in P.ATK power is boosted.
+
+前方範囲内の敵すべてに物理小ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに自分のＴＰ上昇を小アップする。=Deals small P.DMG to all enemies in the frontal area. If the target is an enemy using M.ATKs, the damage is increased. Additionally, if there are enemies using M.ATKs, her TP Boost is further boosted.
+
+味方全体の物理攻撃力を大アップさせる。魔法攻撃をする敵がいる場合、物理攻撃力の上昇量がアップし、さらに魔法防御力を大アップする。=Small boosts the P.ATK power of all allies. If there are enemies using M.ATKs, the increase in P.ATK power is enhanced, and additionally, their M.DEF is greatly boosted.
+
+r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n魔法攻撃をする敵がいない場合、自分の物理攻撃力を(\d+)アップ\n魔法攻撃をする敵がいる場合、自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG if enemy is P-type.\n►Deals $2 P.DMG if enemy is M-type.\n►Boosts own P.ATK by $3 if enemy is M-type.\n►Boosts own P.ATK by $4 if there are M-type enemy.
+
+r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n魔法攻撃をする敵がいる場合、自分のＴＰ上昇を(\d+)アップ$"=►Deals $1 P.DMG if enemy is P-type.\n►Deals $2 P.DMG if enemy is M-type.\n►Boosts own TP Boost by $3 if there are M-type enemy.
+
+r:"^魔法攻撃をする敵がいない場合、味方全体の物理攻撃力を(\d+)アップ\n魔法攻撃をする敵がいる場合、味方全体の物理攻撃力を(\d+)アップ\n魔法攻撃をする敵がいる場合、味方全体の魔法防御力を(\d+)アップ$"=►Boosts P.ATK of all allies by $1 if enemy is M-type.\n►Boosts P.ATK of all allies by $2 if there are M-type enemy.\n►Boosts M.DEF of all allies by $3 if there are M-type enemy.
+
+
+ウィスタリアンスプラッシュ=Wisterian Splash
+ミッドサマーエッジ=Midsummer Edge
+ミッドサマーエッジ+=Midsummer Edge+
+ヒートアップソウル=Heat Up Soul
+ノーブルサマースタイル=Noble Summer Style

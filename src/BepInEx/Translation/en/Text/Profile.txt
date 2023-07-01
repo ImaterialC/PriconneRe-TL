@@ -104,11 +104,9 @@ r:"^※全角(\d+)文字以内$"=※Up to  $1 character
 自己紹介を入力してください。=Please enter a Self Introduction..
 自己紹介編集=Edit Self Introduction.
 自己紹介文を変更しました。=Self intro has been changed.
-Translating JP Pricon atm.
-for Eng-UI contact Cornelia#0402
 ---Not sure---
 到着階=Arrival floor
 
 ---NPC---
-オリジナルのプロフカード画像を作成して、画像付きでTwitterに投稿することができます。\n素敵なお仲間と出会えるといいですね。=You can create your own profile card image and post it on Twitter with the image.\nI hope you can meet nice friends.
-所属しているクランの情報を元にクランプロフカードを作成できます。\n画像付きでTwitterに投稿して、クランメンバーの募集にお役立てくださいませ。=You can create a Clan Loff card based on the information of the Clan to which you belong. Please post it on Twitter with an image to help recruit clan members.
+オリジナルのプロフカード画像を作成して、画像付きでTwitterに投稿することができます。\n素敵なお仲間と出会えるといいですね。=You can create your own profile card image and post it on Twitter with the image.\nI hope we can meet nice friends.
+所属しているクランの情報を元にクランプロフカードを作成できます。\n画像付きでTwitterに投稿して、クランメンバーの募集にお役立てくださいませ。=You can create a Clan Profile card based on the information of the Clan to which you belong. Please post it on Twitter with an image to help recruit clan members.
