@@ -7,29 +7,57 @@ r:"^(\d+)マイル 獲得！$"=$1 Miles acquired!
 マイル=Miles
 キャラバンで用いる特別な通貨。マイルショップやマイルガチャ利用時に必要となる。=A special currency used in the caravan. It is required for Mile Shop purchases and Mile Gacha usage.
 今回の獲得マイル=Obtained Miles
-
+r:"^(\d+)ターン以内に到着$"=Arrive in $1 turns
 ------
 個= 
+
+平凡なインゴット=Ordinary Ingot
+平凡なルーン=Ordinary Runes
+平凡なスクロール=Ordinary Scroll
+平凡なアーティファクト=Ordinary Artifacts
+平凡なティアラ=Ordinary Tiara
+平凡なジェムストーン=Ordinary Gemstone
+平凡なクラウン=Ordinary Crown
+
 貴重なインゴット=Precious Ingot
 貴重なルーン=Precious Runes
 貴重なスクロール=Precious Scroll
+貴重なアーティファクト=Precious Artifact
 貴重なティアラ=Precious Tiara
 貴重なジェムストーン=Precious Gemstone
-貴重なアーティファクト=Precious Artifact
-
-平凡なインゴット=Ordinary Ingot
-平凡なスクロール=Ordinary Scroll
-平凡なルーン=Ordinary Runes
-平凡なアーティファクト=Ordinary Artifacts
-平凡なティアラ=Ordinary Tiara
-平凡なクラウン=Ordinary Crown
+貴重なクラウン=Precious Crown
 
 至高のインゴット=Supreme Ingot
-至高のスクロール=Supreme Scroll
 至高のルーン=Supreme Rune
+至高のスクロール=Supreme Scroll
 至高のアーティファクト=Supreme Artifact
 至高のティアラ=Supreme Tiara
+至高のジェムストーン=Supreme Gemstone
 至高のクラウン=Supreme Crown
+
+r:"^\[3C404E\]平凡なインゴットを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Ingots.[-]
+r:"^\[3C404E\]平凡なルーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Runes.[-]
+r:"^\[3C404E\]平凡なスクロールを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Scrolls.[-]
+r:"^\[3C404E\]平凡なアーティファクトを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Artifacts.[-]
+r:"^\[3C404E\]平凡なティアラを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Tiaras.[-]
+r:"^\[3C404E\]平凡なジェムストーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Gemstones.[-]
+r:"^\[3C404E\]平凡なクラウンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Crowns.[-]
+
+r:"^\[3C404E\]貴重なインゴットを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Ingots.[-]
+r:"^\[3C404E\]貴重なルーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Runes.[-]
+r:"^\[3C404E\]貴重なスクロールを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Scrolls.[-]
+r:"^\[3C404E\]貴重なアーティファクトを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Artifacts.[-]
+r:"^\[3C404E\]貴重なティアラを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Tiaras.[-]
+r:"^\[3C404E\]貴重なジェムストーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Gemstones.[-]
+r:"^\[3C404E\]貴重なクラウンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Crowns.[-]
+
+r:"^\[3C404E\]至高のインゴットを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Ingots.[-]
+r:"^\[3C404E\]至高のルーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Runes.[-]
+r:"^\[3C404E\]至高のスクロールを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Scrolls.[-]
+r:"^\[3C404E\]至高のアーティファクトを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Artifacts.[-]
+r:"^\[3C404E\]至高のティアラを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Tiaras.[-]
+r:"^\[3C404E\]至高のジェムストーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Gemstones.[-]
+r:"^\[3C404E\]至高のクラウンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Crowns.[-]
 
 至高の未鑑定トレジャー=Supreme Unappraised Treasure
 貴重な未鑑定トレジャー=Precious Unappraised Treasure
@@ -48,10 +76,10 @@ r:"^(\d+)マイル 獲得！$"=$1 Miles acquired!
 r:"^\[f6d75e,f68600\]至高のスクロール×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Scroll x$1[-]
 r:"^\[f6d75e,f68600\]至高のインゴット×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Ingot x$1[-]
 r:"^\[f6d75e,f68600\]至高のルーン×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Rune x$1[-]
-r:"^\[f6d75e,f68600\]至高のアーティファクト×(\d+)[-]$"=[f6d75e,f68600]Supreme Artifact x$1[-]
+r:"^\[f6d75e,f68600\]至高のアーティファクト×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Artifact x$1[-]
 r:"^\[f6d75e,f68600\]至高のティアラ×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Tiara x$1[-]
 r:"^\[f6d75e,f68600\]至高のクラウン×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Crown x$1[-]
-r:"^\[f6d75e,f68600\]至高のジェムストーン×(\d+)\[-\]$"=[f6d75e, f68600] Supreme Gemstone x$1[-]
+r:"^\[f6d75e,f68600\]至高のジェムストーン×(\d+)\[-\]$"=[f6d75e,f68600] Supreme Gemstone x$1[-]
 
 
 正体不明な謎のお宝。ギルド管理協会出張所まで持ち込むとカリンに鑑定してもらえる。鑑定の結果、レアリティが上がる場合がある。=An unidentified, mysterious treasure. Karin will appraise it if you bring it all the way to the Guild's branch office. Appraisals can increase the rarity.
@@ -61,11 +89,11 @@ r:"^\[f6d75e,f68600\]至高のジェムストーン×(\d+)\[-\]$"=[f6d75e, f6860
 平凡なトレジャー。ギルド管理協会出張所まで持ち込むと、少額のキャラバンコインに換金できる。=Ordinary treasure. If you bring it to the Guild Management Association branch office, you can exchange it for a few Caravan Coins.
 
 
-落ちてくるリンゴや宝箱をキャッチしましょう！\n画面の左右をタッチすると移動できますよ！=Let's catch falling apples and treasure chests! Since you play on PC, you can use arrow key on keyboard or joystick.
+落ちてくるリンゴや宝箱をキャッチしましょう！\n画面の左右をタッチすると移動できますよ！=Let's catch falling apples and treasure chests! Since you play on PC, you can use the Left← and Right→ arrow keys on the keyboard or a joystick.
 スタート=Start
-集めたリンゴはマイルと交換させていただきます。\n金リンゴはなんと、赤リンゴ5個分の価値がありますよ♪\nさらに宝箱をキャッチすると、トレジャーがGETできます！=The collected apples will be exchanged for Miles. And guess what, a golden apple is worth five red apples! Furthermore, if you catch a treasure chest, you'll get a treasure!
+集めたリンゴはマイルと交換させていただきます。\n金リンゴはなんと、赤リンゴ5個分の価値がありますよ♪\nさらに宝箱をキャッチすると、トレジャーがGETできます！=The collected apples will be exchanged for Miles. And guess what, a golden apple is worth five red apples! Furthermore, if you catch a treasure chest, you'll get a Treasure!
 トゲトゲにぶつかると、少しの間動けなくなるので注意してください。\nマグネットをキャッチすると、範囲内のフルーツや宝箱を一定時間\n引き寄せることができますよ♪=Be careful not to collide with thorny obstacles, as it will temporarily immobilize you. If you catch a magnet, it will attract fruits and treasure chests within its range for a certain period of time♪
-リンゴや宝箱はリザルトでまとめて報酬に交換いたします！\nたくさんキャッチして、マイルやトレジャーをGETしましょう♪=Apples and treasure chests will be converted into rewards in the results! Catch a lot of them and get Miles and treasures♪
+リンゴや宝箱はリザルトでまとめて報酬に交換いたします！\nたくさんキャッチして、マイルやトレジャーをGETしましょう♪=Apples and treasure chests will be converted into rewards in the results! Catch a lot of them and get Miles and Treasures♪
 
 --Gacha machine--
 マイルガチャ=Mile Gacha

@@ -469,7 +469,7 @@ sr:"^\(クラン内ランキング　(\d+位)\)$"=(in-clan Rank $1)
 今回のクランバトルでの戦績を\nおさらいできますよ！\n私にも見せてください☆=You can go over your Battle Record for this Battle!\nLet me have a look too☆~!
 模擬戦の戦績もアンタが\n気に入ったものがあれば\n記録しておけるのね=Look like you can save Battle Records of your favorite practice runs.
 ---Damage Log---
----(?!.*My)^.*$
+---(?!.*My)^.*$---
 
 まだ誰も挑戦していません=No attempts made yet.
 r:"^([^\n]{2,10})が$"="[00ff0099]$1[-] hit"

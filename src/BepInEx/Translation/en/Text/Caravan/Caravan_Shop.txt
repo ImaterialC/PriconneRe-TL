@@ -7,7 +7,7 @@ r:"^あと (\d{1,2})日$"=$1 days left
 トレジャーは売却できません。=Treasures cannot be sold.
 
 キャラバンコイン（シーズン1）=Caravan Coins (Season 1)
-トレジャーの清算で獲得できる特別\nな通貨。キャラバンショップの\n「シーズン1」タブで買い物ができ\nる。=A special currency that can be obtained through the appraisal of treasures. It can be used for shopping in the "Season 1" tab of the Caravan Shop.
+トレジャーの清算で獲得できる特別\nな通貨。キャラバンショップの\n「シーズン1」タブで買い物ができ\nる。=A special currency that can be obtained through the appraisal of Treasures. It can be used for shopping in the "Season 1" tab of the Caravan Shop.
 
 ---about to buy---
 所持キャラバンコイン=Caravan Coins Held

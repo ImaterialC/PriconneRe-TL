@@ -1,16 +1,16 @@
 キャラバン=Caravan
 ャラバン=Caravan
 ボーナス一覧=Bonus List
-経過ターン=Elapsed Turn(s)
+経過ターン=Elapsed Turns
 
 [FF7C4E,D62146]1[-][3C404E]ターン[-]=[FF7C4E,D62146]1[-][3C404E] Turn[-]
 r:"^\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]ターン\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Turns[-]
 チェックポイント=Checkpoint
 [3C404E]あと [-][FF7C4E,D62146]1[-][3C404E]マス[-]=[FF7C4E,D62146]1[-][3C404E] Tile left[-]
-r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]マス\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Tile(s) left[-]
+r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]マス\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Tiles left[-]
 シーズン切替=Season Change
 [3C404E]あと [-][FF7C4E,D62146]1[-][3C404E]日[-]=[FF7C4E,D62146]1[-][3C404E] Day left[-]
-r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]日\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Day(s) left[-]
+r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]日\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Days left[-]
 発動中の効果=Effects while activated
 サイコロを振る=Roll the Dice
 料理を食べる=Eat a Dish
@@ -28,7 +28,13 @@ r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]日\[-\]$"=[FF7C4
 シーズン終了=End of Season
 料理を所持していません。=You don't have any Dishes.
 料理は1ターンに1品までしか食べられません。=You can only eat one Dish per turn.
-r:"^(\d+)ターン以内にギルド管理協会出張所へ到着$"=$1 more turn(s) to the GMA branch office.
+1ターン以内にギルド管理協会出張所へ到着=1 more turn to the GMA branch office.
+r:"^(\d+)ターン以内にギルド管理協会出張所へ到着$"=$1 more turns to the GMA branch office.
+
+---Dish overwrite---
+上書き前効果=Pre-overwriting effect
+上書き後効果=Overwriting effect
+この料理を食べると発動中の効果が上書きされます。=Eating this Dish overwrites the previous one's effects.
 
 ---Bonus List---
 r:"^(\d+)ターン以内に到達$"=Reach within $1 turns
@@ -43,9 +49,16 @@ r:"^レベル(\d)$"=Level $1
 次のターン数のカウントを\nスキッ\rプする。=Skipping the count for the next turn.
 
 ---Effects---
-発動中の効果一覧=List of active effects
-【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Increases Minigame Miles acquisition by 100%
-【イベント】マイルマスの獲得マイルが100%アップする=[Event] Increase Miles gained from Mile Tiles by 100%
+発動中の効果一覧=List of Active Effects
+ダイス 残り2回=2 More Rolls
+ダイス 残り1回=1 More Roll
+【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Increases Minigame Miles acquisition by 100%.
+【イベント】マイルマスの獲得マイルが100%アップする=[Event] Increase Miles gained from Mile Tiles by 100%.
+【料理】ダイスが2個に増える=[Cooking] Rolls 2 dice on the next roll.
+【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] The next dice\nroll will always be a 3, and the following roll a 6.
+【料理】ダイスの目が必ず「1」になる=[Cooking] The next dice roll will always be a 1.
+【料理】次のターン数のカウントをスキップする=[Cooking] Skipping the count for the next turn.
+
 
 ---GMA/Checkpoint---
 以下のアイテムを獲得しました。=Obtained the following items:
@@ -54,9 +67,9 @@ r:"^レベル(\d)$"=Level $1
 
 ---Lottery---
 福引結果=Lottery Results
-所持していた福引券の抽選を行いました。=The lottery tickets have been drawn.
+所持していた福引券の抽選を行いました。=The Lottery Tickets have been drawn.
 
----Maze---
+---Tile---
 福引券はチェックポイント到達時に抽選が行われます。=Lottery Tickets will be drawn at the checkpoint.
 福引券を獲得しました。=Received Lottery Ticket.
 福引券獲得=Acquired a Lottery Ticket
@@ -94,35 +107,34 @@ r:"^レベル(\d)$"=Level $1
 r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しますか\?\[-\]$"=[3B3F4D]Sell the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles?[-]
 r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles.[-]
 
-現在マイルショップが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Shop is currently open.\nIt will not be available\nafter using the Dice or a Dish.\nIs that okay with you?
+現在マイルショップが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Shop is currently open.\nIt will not be available\nafter using the Dice or a Dish.\nContinue?
 
 料理=Dish
 特殊系=Special type
 補助系=Support type
 移動系=Mobile type
 料理詳細=Dish Details
+獲得料理=Acquired Dish
 以下の料理を獲得しました。=Obtained the following Dishes:
 食べる=Eat
 r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 食べる料理を選択してください。=Select a Dish to eat.
 所持している料理=Dishes Held
-食事確認=Meal Confirmed
-食事済=Meal's Done
-以下の料理を食べます。よろしいですか？=Feed the following Dishes. Is it OK?
+食事確認=Meal Confirmation
+食事済=Eaten
+以下の料理を食べます。よろしいですか？=Eat the following Dish?
 
 料理所持数上限=Maximum Dishes Reached
 料理が所持上限に達しています。\n新たに料理を入手した場合、超過分の売却が必要です。\n\nこのままダイスを振ってもよろしいですか？=Your dish inventory is currently at its limit.\nIf you acquire new dishes, you will need to sell the excess ones.\nRoll the Dice anyway?
 所持数がいっぱいです。売却する料理を選んでください。=Inventory full. Select Dish(es) to sell.
 r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]/8\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/8[-]
 
-獲得料理=Acquired dish
-
+現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or cooking.\n\nIs that all right?
 ---Tutorial Kokkoro---
 皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Let's embark on an adventure with Onigiri-sama on the Gourmet Chaser. Roll the dice and move forward on the map, aiming for the Guild Management Association branch office where Karin-sama is waiting.
-ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach there, the more bonus you can get. Let's exchange coins for items at the shop.
+ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach there, the more bonus you can get. Let's exchange coins for items at the shop.
 料理からは、冒険を有利に進める効果が得られますよ。1ターンに1品\nまで召し上がることができ、同じカテゴリーの効果は重複いたしません。\n…あぁっペコリーヌさま、おかわりは次のターンまで我慢でございます。=You can get beneficial effects from cooking to advance your adventure. You can eat up to one Dish per turn, and the effects of the same category do not stack. ... Ahh, Pecorine-sama, please wait until the next turn for seconds.
 道中には様々なマスがございます。「マイルマス」で集めたマイルは料理\nやトレジャーの購入にお使いいただけますよ。「トレジャーマス」や\n「料理マス」ではスロットを回して出たアイテムを獲得できるとか。=There are various tiles along the way. You can use the Miles you collected at the "Mile Tile" to buy Dishes or Treasures. At the "Treasure Tile" and "Dish Tile", you can spin the slot and get the items that come out.
 「ショップマス」ではマイルを用いたアイテムの購入が可能です。\n「イベントマス」では嬉しい効果を得られるイベントが起きるようです。\n「移動マス」に止まると、そこからさらに先へ進めるのでございますね。=You can buy items with Miles at the "Shop Tile". At the "Event Tile", you can get happy effects from events that happen. If you stop at the "Move Tile", you can move further ahead from there.
 「ミニゲームマス」に止まったら、ミニゲームに挑戦いたしましょう。\n結果に応じた報酬が獲得できるのですね。「福引券マス」は福引券を入手\nでき、「ガチャマス」ではマイルガチャが回せるようですよ、主さま。=If you stop at the "Minigame Tile", let's challenge the minigame. You can get rewards according to the results. The "Lottery Ticket Tile" allows you to get a Lottery Ticket, and the "Gacha Tile" allows you to spin the Mile Gacha, Aruji-sama.
-
 

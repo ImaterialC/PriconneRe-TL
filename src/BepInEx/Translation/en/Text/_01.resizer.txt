@@ -219,3 +219,5 @@
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanRewardConfirm(Clone)/ScrollContent/ScrollView/WrapContent/PartsCaravanRewardPlateRow(Clone)/Grid/PartsDialogCommonItem_ITEM_DETAIL_CORRECT_ILLEGAL(Clone)/ItemName=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanRewardConfirm(Clone)/ScrollContent/ScrollView/WrapContent/PartsCaravanRewardPlateRow(Clone)/Grid/PartsDialogCommonItem_ITEM_DETAIL_CORRECT_ILLEGAL(Clone)/ItemDetail=ChangeFontSize(12)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanTop(Clone)/WidgetOff(Clone)/ClanUI/UI_Left/GUIGroup_leftInfo/GUIGroup_ReleaseSingleMode/GUIGroup_ClanBattleModeInfo/LabelTitle=ChangeFontSize(17)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishOverrideConfirm(Clone)/AlertLabel=ChangeFontSize(18)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogAnimationViewer(Clone)/CaravanTurnStart(Clone)/root/base/goal/targetTurnCountText=ChangeFontSize(28)

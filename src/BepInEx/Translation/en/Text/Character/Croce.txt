@@ -1,4 +1,9 @@
 ローチェ=Croce
+昼寝、誰かの役に立つこと=Napping, being useful to someone
+未換装時252kg=252kg (Not retrofitted)
+機械人族=Android
+スマイル満タン！　パワフル機械少女=Full of smiles! Powerful Machine Girl
+
 
 【物理】中衛で着脱可能な鉄腕を放つ機械人族のロボ娘。ＵＢ発動で【フルチャージ】状態になり、【バッテリー】が切れるまで強化スキルを連発し、一帯を超速圧砕する。=[Physical] A robotic girl from the mechanical race who wields detachable iron arms in the midline. When activating UB, she enters the [Full Charge] state and unleashes a barrage of strengthening skills until her [Battery] runs out, crushing the entire area at super speed.
 
@@ -34,3 +39,8 @@ r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカル
 イグニッション！=Ignition!
 フルブースト=Full Boost
 フルブースト+=Full Boost+
+
+機械仕掛けの好奇心=Curiosity of Mechanical Contraptions
+機械人族は夢を見るか=Do Mechanoid Beings Dream?
+ドキドキドッキング=Heart-Pounding Docking
+クローチェinランドソル=Cloche in Randsol

@@ -1,5 +1,4 @@
-r:"^
-グルメバカンスを過ごすべくオーマを訪れたネネカ、アキノ、ユカリと(.{2,10})。しかし目当てのトゥンヌスは、期待とは程遠い微妙な味。どうやらオーマの海にただ事ではない異変が起きている。$"=Neneka, Akino, Yukari and $1 visited Ohma to enjoy a gourmet vacation. But their target, the Tunnus fish, had a mediocre taste that was far from their expectations. It seemed that something unusual was happening in the sea of Ohma.
+r:"^グルメバカンスを過ごすべくオーマを訪れたネネカ、アキノ、ユカリと(.{2,10})。しかし目当てのトゥンヌスは、期待とは程遠い微妙な味。どうやらオーマの海にただ事ではない異変が起きている。$"=Neneka, Akino, Yukari and $1 visited Ohma to enjoy a gourmet vacation. But their target, the Tunnus fish, had a mediocre taste that was far from their expectations. It seemed that something unusual was happening in the sea of Ohma.
 嘘と本当。\n勝利と敗北。=Lies and truth. Victory and defeat.
 ……水と空気。=...Water and air.
 白と黒。\n好きと、好きじゃない──=White and black. Love and hate.
@@ -26,7 +25,7 @@ r:"^
 ──ネネカさん！=──Neneka-san!
 すごい偶然よね～\nネネカさんたちもグルメバカンスに来てたなんて。\nやっぱりそれだけおいしいんだ、トゥンヌスって？=What a coincidence~ You guys were also here for a gourmet vacation. I guess Tunnus is really that delicious?
 ……わざわざ訪れる程度には。\n貴方がたとバッティングすると知っていれば来ませんでしたが。=...Only to the extent that I bothered to visit. I wouldn't have come if I had known that I would run into you guys.
-わ、ネネカさん辛口ね。\nえっ、もしかして、こっちもイケる口？=Wow, Neneka-san is so harsh. Huh, are you also into barley soda?
+わ、ネネカさん辛口ね。\nえっ、もしかして、こっちもイケる口？=Wow, neneka-san is so harsh.\ndon't tell me, you're just like me?
 ユカリさん、話題の誘導が強引でしてよ。\n何でもかんでも麦しゅわにつなげるのはよろしくありませんわ。\nほら、ネネカさんも戸惑っていらっしゃいます。=Yukari-san, your topic change is too abrupt. It's not good to connect everything to barley soda. Look, Neneka-san is confused too.
 失礼しますわ、ネネカさん。\nこれまであまりご一緒したことがなかったように思いますが、\nお噂はかねがね。非常に優秀な研究者でいらっしゃるとか。=Excuse me, Neneka-san. I haven't had much chance to work with you before, but I've heard rumors. You're a very talented researcher.
 え、そうなの？\nってことは～……\n多忙なビジネスガールが、バカンスの地で３人そろったってわけね～！=Huh, really? That means~... three busy business girls gathered in the vacation spot!
@@ -123,7 +122,7 @@ r:"^(\[3C404EFF\])?で、(\[3C404EFF\])?ですわね！(\[3C404EFF\])?\n(\[3C404
 [3C404EFF]──ネネカさん！=──Neneka-san!
 [3C404EFF]すごい偶然よね～[3C404EFF]\nネネカさんたちもグルメバカンスに来てたなんて。[3C404EFF]\n[3C404EFF]やっぱりそれだけおいしいんだ、[3C404EFF]トゥンヌスって？=What a coincidence~ You guys were also here for a gourmet vacation. I guess Tunnus is really that delicious?
 [3C404EFF]……わざわざ訪れる程度には。[3C404EFF]\n[3C404EFF]貴方がたとバッティングすると知っていれば[3C404EFF]来ませんでしたが。=...Only to the extent that I bothered to visit. I wouldn't have come if I had known that I would run into you guys.
-[3C404EFF]わ、[3C404EFF]ネネカさん辛口ね。[3C404EFF]\nえっ、[3C404EFF]もしかして、[3C404EFF]こっちもイケる口？=Wow, Neneka-san is so harsh. Huh, are you also into barley soda?
+[3C404EFF]わ、[3C404EFF]ネネカさん辛口ね。[3C404EFF]\nえっ、[3C404EFF]もしかして、[3C404EFF]こっちもイケる口？=Wow, neneka-san is so harsh.\ndon't tell me, you're just like me?
 [3C404EFF]ユカリさん、[3C404EFF]話題の誘導が強引でしてよ。[3C404EFF]\n何でもかんでも麦しゅわにつなげるのは[3C404EFF]よろしくありませんわ。[3C404EFF]\n[3C404EFF]ほら、[3C404EFF]ネネカさんも戸惑っていらっしゃいます。=Yukari-san, your topic change is too abrupt. It's not good to connect everything to barley soda. Look, Neneka-san is confused too.
 [3C404EFF]失礼しますわ、[3C404EFF]ネネカさん。[3C404EFF]\n[3C404EFF]これまで[3C404EFF]あまりご一緒したことがなかったように思いますが、[3C404EFF]\n[3C404EFF]お噂はかねがね。[3C404EFF]非常に優秀な研究者でいらっしゃるとか。=Excuse me, Neneka-san. I haven't had much chance to work with you before, but I've heard rumors. You're a very talented researcher.
 [3C404EFF]え、[3C404EFF]そうなの？[3C404EFF]\nってことは～……[3C404EFF]\n[3C404EFF]多忙なビジネスガールが、[3C404EFF]バカンスの地で３人そろったってわけね～！=Huh, really? That means~... three busy business girls gathered in the vacation spot!
