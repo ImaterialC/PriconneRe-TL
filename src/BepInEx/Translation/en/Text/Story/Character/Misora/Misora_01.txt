@@ -8,7 +8,7 @@
 
 r:"^突如現れたミソラに、半ば強引にデートへ連れ出された(.*)\n(.*)。テレポーテーションで様々なデートスポットを回った後、\nミソラはその真意を語り、「騎士さんラブになりたい」と宣言\nする。$"=Misora suddenly appeared and took $1$2 on a date.\nAfter teleporting through various dating spots, she revealed her true intention and declared 'I want to\nlove Kishi-san'.
 
-r:"^(\[3C404EFF\])?ある日。(\[3C404EFF\])?\n(.{2,10})が、バイトから帰る途中──$"=One day, $3 is going home from a part-time job.
+r:"^(?:\[3C404EFF\])?ある日。(?:\[3C404EFF\])?\n(.{2,10})が、バイトから帰る途中──$"=One day, $1 is going home from a part-time job.
 
 [3C404EFF]ふふっ★[3C404EFF]\nだ～～れだっ？=Hehe★ Whooo am I?
 
@@ -242,4 +242,4 @@ r:"^(\[3C404EFF\])?ある日。(\[3C404EFF\])?\n(.{2,10})が、バイトから�
 
 [3C404EFF]でもでも？[3C404EFF]\nさっきも言ったとおり、[3C404EFF]わたし諦めないですから♪[3C404EFF]\n騎士さんラブになれるように、[3C404EFF]これからがんばりまーす★=But...! I’m not going to give up♪\nI’ll do my best starting from now so I can get to love Kishi-san★
 
-r:"^(\[3C404EFF\])?──かつて敵として出会い、(\[3C404EFF\])?\n(.{2,10})たちと何度も争った少女・ミソラ。(\[3C404EFF\])?\n果たして彼女は、(.{2,10})ラブになれるのだろうか……？$"=──they first met as enemies, the girl who fought with $3 many times previously, Misora.\nCan she really get to love $3...?
+r:"^(?:\[3C404EFF\])?──かつて敵として出会い、(?:\[3C404EFF\])?\n(.{2,10})たちと何度も争った少女・ミソラ。(?:\[3C404EFF\])?\n果たして彼女は、(.{2,10})ラブになれるのだろうか……？$"=──they first met as enemies, the girl who fought with $1 many times previously, Misora.\nCan she really get to love $3...?

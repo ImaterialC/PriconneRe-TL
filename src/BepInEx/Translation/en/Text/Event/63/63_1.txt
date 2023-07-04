@@ -14,9 +14,9 @@
 イリヤ様、この先でございます。=Illya-sama, it's just ahead.
 [3C404EFF]イリヤ様、[3C404EFF]この先でございます。=Illya-sama, it's just ahead.
 
-r:"^(\[3C404EFF\])?うむ。(\[3C404EFF\])?\n足場が悪いのう……(\[3C404EFF\])?(.{2,10})よ、(\[3C404EFF\])?気をつけるのじゃぞ。$"=Hmm. The road is quite bad...$4, be careful.
+r:"^(?:\[3C404EFF\])?うむ。(?:\[3C404EFF\])?\n足場が悪いのう……(?:\[3C404EFF\])?(.{2,10})よ、(?:\[3C404EFF\])?気をつけるのじゃぞ。$"=Hmm. The road is quite bad...$1, be careful.
 
-r:"^(\[3C404EFF\])?はぁ～、(\[3C404EFF\])?随分遠いとこにあるんだね、(\[3C404EFF\])?その場所ってさ。(\[3C404EFF\])?\nボク、(\[3C404EFF\])?疲れてきちゃったよ。(\[3C404EFF\])?ねぇ(.{2,10})さん、(\[3C404EFF\])?\n(\[3C404EFF\])?ボクを(\[3C404EFF\])?お姫さまみたいに抱っこさせてあげるよ。$"=*sigh*, that place is pretty far away, isn't it? I'm starting to get tired. Hey, $7-san, could you carry me like a princess?
+r:"^(?:\[3C404EFF\])?はぁ～、(?:\[3C404EFF\])?随分遠いとこにあるんだね、(?:\[3C404EFF\])?その場所ってさ。(?:\[3C404EFF\])?\nボク、(?:\[3C404EFF\])?疲れてきちゃったよ。(?:\[3C404EFF\])?ねぇ(.{2,10})さん、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ボクを(?:\[3C404EFF\])?お姫さまみたいに抱っこさせてあげるよ。$"=*sigh*, that place is pretty far away, isn't it? I'm starting to get tired. Hey, $1-san, could you carry me like a princess?
 
 やめぬか！　こやつはわらわの眷属じゃ！　勝手にイチャつくでないわ！\nそもそも！　我が眷属はともかく。\nユキ、なぜお主がついてきておるのじゃ？=Stop that! Don't just flirt in front of me, he's still my familiar! And why are you still following me in the first place?
 [3C404EFF]やめぬか！　[3C404EFF]こやつはわらわの眷属じゃ！　[3C404EFF]勝手にイチャつくでないわ！[3C404EFF]\n[3C404EFF]そもそも！　[3C404EFF]我が眷属はともかく。[3C404EFF]\n[3C404EFF]ユキ、[3C404EFF]なぜお主がついてきておるのじゃ？=Stop that! Don't just flirt in front of me, he's still my familiar! And why are you still following me in the first place?
@@ -47,7 +47,7 @@ r:"^(\[3C404EFF\])?はぁ～、(\[3C404EFF\])?随分遠いとこにあるんだ�
 いいんじゃないかな。まぁこの人はすでにボクの虜なんだけどね？\nいやぁ、申し訳ないよ。\n伝説に泥を塗ることになってしまって。=That's fine with me. It's just that he's already a captive of my beauty, you know? Oh, I'm really sorry, I wouldn't want to paint a bad name on the legend herself.
 [3C404EFF]いいんじゃないかな。[3C404EFF]まぁ[3C404EFF]この人はすでに[3C404EFF]ボクの虜なんだけどね？[3C404EFF]\n[3C404EFF]いやぁ、[3C404EFF]申し訳ないよ。[3C404EFF]\n伝説に泥を塗ることになってしまって。=That's fine with me. It's just that he's already a captive of my beauty, you know? Oh, I'm really sorry, I wouldn't want to paint a bad name on the legend herself.
 
-r:"^(\[3C404EFF\])?(.{2,10})！\n(.{2,10})さん！$"=$2!\n$3-san!
+r:"^(?:\[3C404EFF\])?(.{2,10})！\n(.{2,10})さん！$"=$1!\n$1-san!
 どっちが美しい！？=Which of us is more beautiful?!
 [3C404EFF]どっちが美しい！？=Which of us is more beautiful?!
 
@@ -132,9 +132,9 @@ r:"^(\[3C404EFF\])?(.{2,10})！\n(.{2,10})さん！$"=$2!\n$3-san!
 ここは魔の者のすみかだぞー！=This is the demon's home!
 [3C404EFF]ここは魔の者のすみかだぞー！=This is the demon's home!
 
-r:"^(\[3C404EFF\])?ふふっ、(\[3C404EFF\])?(.{2,10})さんも大人気だね。(\[3C404EFF\])?\n(\[3C404EFF\])?そんなに魔物たちに囲まれるなんて。$"=Heehee. You're so popular, $3-san. I didn't think you'd be surrounded by so many monsters.
+r:"^(?:\[3C404EFF\])?ふふっ、(?:\[3C404EFF\])?(.{2,10})さんも大人気だね。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?そんなに魔物たちに囲まれるなんて。$"=Heehee. You're so popular, $1-san. I didn't think you'd be surrounded by so many monsters.
 
-r:"^(\[3C404EFF\])?そうじゃった！(\[3C404EFF\])?\n.{2,10}は魔力も何もないんじゃったな！？$"=Oh right! You don't have any magical energy!
+r:"^(?:\[3C404EFF\])?そうじゃった！(?:\[3C404EFF\])?\n.{2,10}は魔力も何もないんじゃったな！？$"=Oh right! You don't have any magical energy!
 
 やめよ！=Stop it!
 [3C404EFF]やめよ！=Stop it!

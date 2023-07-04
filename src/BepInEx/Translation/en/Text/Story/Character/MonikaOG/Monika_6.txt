@@ -7,7 +7,7 @@
 住民２=Resident 2
 r:"^街に多数の魔物が現れ、子供たちを連れ去ってしまう。(.{2,10})の助言で、モニカが人々に声をかけて子供の救出に向かうと意外な真相が判明する。魔物たちは人間に助けを求めていただけだった。$"=Numerous monsters appeared in the town and abducted the children. With $1's advice, Monika approached the people and headed for the rescue of the children, only to discover a surprising truth. The monsters were simply seeking help from humans.
 
-r:"^(\[3C404EFF\])?モニカと(.{2,10})が\n訓練に向かおうとした時だった──$"=Just as Monika and $2 were about to head off to train──
+r:"^(?:\[3C404EFF\])?モニカと(.{2,10})が\n訓練に向かおうとした時だった──$"=Just as Monika and $1 were about to head off to train──
 
 な！　魔物だと！？\n街の中まで入ってきたのか！？=What! Monsters!? They've entered the town!
 しかも、かなりの数だ……\n早く退治しないと──=And there are quite a few of them... We need to defeat them quickly...
@@ -17,7 +17,7 @@ r:"^(\[3C404EFF\])?モニカと(.{2,10})が\n訓練に向かおうとした時�
 私の見ている前で、こんなことを許すとは、\nなんて情けない……\nなんとかしなければっ！=It's so disgraceful to allow this to happen right in front of me... I have to do something!
 
 待っていてくれ。\n私が必ず……！=Wait for me. I will definitely...
-r:"^(\[3C404EFF\])?(.{2,10})！？(\[3C404EFF\])?\n(\[3C404EFF\])?どうして、(\[3C404EFF\])?ここに……？$"=$2?!\nWhy are you here...?
+r:"^(?:\[3C404EFF\])?(.{2,10})！？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?どうして、(?:\[3C404EFF\])?ここに……？$"=$1?!\nWhy are you here...?
 そうか……\n私が何をするか予想したわけだな。=I see... You predicted what I would do.
 貴公の考えている通り、\n私は魔物のところに行って、\n子供たちを取り返すつもりだ。=As you expected, I'm planning to go to where the monsters are and retrieve the children.
 危険だということは、わかっている。\nしかし、どうやら私の友人たちもさらわれたらしい。\n放っておくことはできない！=I know it's dangerous. However, it seems that my friends have also been taken. I can't just leave them!
@@ -55,12 +55,12 @@ r:"^(\[3C404EFF\])?(.{2,10})！？(\[3C404EFF\])?\n(\[3C404EFF\])?どうして�
 い、いや……私は、大したことは……=N-No... It wasn't much...
 お姉ちゃん、僕たちの話を聞いてくれて、\n魔物の子供を助けてくれてありがとう！=Onee-chan, thank you for listening to us and rescuing the monsters' children!
 う、うむ……\nこう何度も感謝されると、さすがに気恥ずかしいな。=Y-Yes... It's embarrassing to be thanked so many times.
-r:"^(\[3C404EFF\])?(.{2,10})、貴公もご苦労だったな。$"=$2, you've also worked hard.
+r:"^(?:\[3C404EFF\])?(.{2,10})、貴公もご苦労だったな。$"=$1, you've also worked hard.
 
 万事が丸く収まったのは貴公のおかげだ。\n街のみんなに協力を頼むなど、私では考えつかなかった。\n私一人なら……何も考えずに魔物に切り込んでいただろうな。=Everything turned out well thanks to you. I couldn't have come up with the idea to ask for cooperation from the townspeople. If it were just me... I would have rushed into the monsters without thinking.
 貴公には助けられてばかりだな。\n本当にありがとう。=I've been helped by you so many times. Thank you very much.
 これからも……私のそばにいて、助言してくれると……うれしい。=From now on... I'd be happy if you stay by my side and give me advice.
-r:"^(\[3C404EFF\])?微笑むモニカに、(.{2,10})もやさしく微笑み返すのだった。$"=As Monika smiled, $2 smiled gently back at her.
+r:"^(?:\[3C404EFF\])?微笑むモニカに、(.{2,10})もやさしく微笑み返すのだった。$"=As Monika smiled, $1 smiled gently back at her.
 
 
 [3C404EFF]な！　[3C404EFF]魔物だと！？[3C404EFF]\n街の中まで入ってきたのか！？=What! Monsters!?\nThey've entered the town!

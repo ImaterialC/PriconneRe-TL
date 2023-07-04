@@ -6,7 +6,7 @@
 
 r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物たちがイリヤのもとに集う。地位と名声を高めるため、イリヤはユキ、(.{2,10})と共に、謁見とは名ばかりのニンニク地獄を乗り越えていく。$"=As the news of the legendary vampire's return spreads, monsters began to seek an audience. Illya, Yuki, and $1 will have to overcome "Garlic Hell" in order to increase their status and reputation.
 
-r:"^(\[3C404EFF\])?ハッハッハ！　(\[3C404EFF\])?見ておるか(.{2,10})よ。(\[3C404EFF\])?\n(\[3C404EFF\])?これまではちゃんと伝わっておらんかったかもしれんが、(\[3C404EFF\])?\nわらわは本来、(\[3C404EFF\])?こうして魔の者たちに崇められる存在だったのじゃ。$"=Hahaha! Are you watching, $3? You might not have known this before, but demons originally worshipped me.
+r:"^(?:\[3C404EFF\])?ハッハッハ！　(?:\[3C404EFF\])?見ておるか(.{2,10})よ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?これまではちゃんと伝わっておらんかったかもしれんが、(?:\[3C404EFF\])?\nわらわは本来、(?:\[3C404EFF\])?こうして魔の者たちに崇められる存在だったのじゃ。$"=Hahaha! Are you watching, $1? You might not have known this before, but demons originally worshipped me.
 
 どうじゃ、わらわの偉大さが改めて分かったか？=What do you think? Do you understand how great I am now?
 [3C404EFF]どうじゃ、[3C404EFF]わらわの偉大さが改めて分かったか？=What do you think? Do you understand how great I am now?
@@ -177,7 +177,7 @@ r:"^(\[3C404EFF\])?ハッハッハ！　(\[3C404EFF\])?見ておるか(.{2,10})�
 ああっ、なんということを……！=Aaah, what are you saying...!
 [3C404EFF]ああっ、[3C404EFF]なんということを……！=Aaah, what are you saying...!
 
-r:"^(\[3C404EFF\])?(.{2,10})よ……(\[3C404EFF\])?お主、(\[3C404EFF\])?わらわのために……！　$"=$2... Did you do that for me...?　
+r:"^(?:\[3C404EFF\])?(.{2,10})よ……(?:\[3C404EFF\])?お主、(?:\[3C404EFF\])?わらわのために……！　$"=$1... Did you do that for me...?　
 
 すごく美味しそうだったから。=It looked really tasty.
 

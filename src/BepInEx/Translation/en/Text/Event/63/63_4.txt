@@ -112,7 +112,7 @@
 [3C404EFF]如何もなにもないわ！　[3C404EFF]この街に来てから毎日毎日、[3C404EFF]\n椅子に座ったまま[3C404EFF]魔物たちの願いを聞くばかり！[3C404EFF]\nしかも大半は[3C404EFF]伝説を勘違いした無茶振りじゃ！=It's nothing! Ever since I came to this city, I've been sitting in my chair day after day, listening to the monsters' wishes! And most of them are just acting reckless because they misunderstood the legend!
 [3C404EFF]元々わらわは、[3C404EFF]自身の完全復活のために[3C404EFF]ここまで足を運んだのじゃぞ！[3C404EFF]\n[3C404EFF]このままでは何もできんではないか！=I came all the way here to fully revive myself! At this rate, I won't be able to do anything!
 [3C404EFF]し、[3C404EFF]しかしイリヤ様……！=B-But Lady Illya...!
-r:"^(\[3C404EFF\])?街へ行くぞ(.{2,10})、(\[3C404EFF\])?それと(\[3C404EFF\])?来なくてもいいがユキも！$"=Let's go to the city, $2, and you don't have to come, Yuki!
+r:"^(?:\[3C404EFF\])?街へ行くぞ(.{2,10})、(?:\[3C404EFF\])?それと(?:\[3C404EFF\])?来なくてもいいがユキも！$"=Let's go to the city, $1, and you don't have to come, Yuki!
 
 [3C404EFF]仕方がないなぁ。[3C404EFF]\n[3C404EFF]ボクという美を連れて歩ける幸せをあげるよ♪=Oh well. I'll give you the happiness of walking around with my beauty♪
 [3C404EFF]ふぅ、[3C404EFF]ようやくリフレッシュできるわい。[3C404EFF]\n[3C404EFF]夜を統べる者とはいえ、[3C404EFF]息抜きは必要じゃからな。=Phew, I'm finally able to relax. I may be the ruler of the night, but I need to take a break.
@@ -152,7 +152,7 @@ r:"^(\[3C404EFF\])?街へ行くぞ(.{2,10})、(\[3C404EFF\])?それと(\[3C404EF
 [3C404EFF]──なんじゃ、[3C404EFF]この建物は？=-What's with this building?
 [3C404EFF]ねっ♪　[3C404EFF]なかなかいいデザインだと思わない？[3C404EFF]\nボクが立つに相応しい場所でしょ！=Right?♪ Don't you think it's a pretty nice design? It's the perfect place for me to stand!
 [3C404EFF]それはよう分からんが、[3C404EFF]確かによい雰囲気じゃの。[3C404EFF]\n特別な儀式を行う場所、[3C404EFF]といったところじゃろうか……=I don't know about that, but it certainly does have a nice atmosphere. It's a place for special ceremonies, I guess...
-r:"^(\[3C404EFF\])?特別な儀式かぁ……(\[3C404EFF\])?\n(\[3C404EFF\])?そうだ(.{2,10})さん、(\[3C404EFF\])?ちょっとこっちにおいでよ。$"=A special ceremony, huh... Oh, right, $4-san, come here for a bit.
+r:"^(?:\[3C404EFF\])?特別な儀式かぁ……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?そうだ(.{2,10})さん、(?:\[3C404EFF\])?ちょっとこっちにおいでよ。$"=A special ceremony, huh... Oh, right, $1-san, come here for a bit.
 [3C404EFF]そうそう、[3C404EFF]この中心のあたりに立って、[3C404EFF]\n[3C404EFF]ボクの前にひざまずいてごらん？=Oh yeah, why don't you stand around the center and kneel in front of me?
 [3C404EFF]ふふっ、[3C404EFF]えらいね……♪[3C404EFF]\n[3C404EFF]それじゃあほら、[3C404EFF]次はどうしたらいいか[3C404EFF]わかるかな？=Teehee, that's great... ♪ Well then, do you know what to do next?
 [3C404EFF]わからない？[3C404EFF]\n[3C404EFF]もう、[3C404EFF]仕方がないなぁ。[3C404EFF]\nほら、[3C404EFF]ボクの手に[3C404EFF]口づけをするんだよ♪=Don't you get it? Geez, it can't be helped. Here, kiss my hand♪
@@ -165,7 +165,7 @@ r:"^(\[3C404EFF\])?特別な儀式かぁ……(\[3C404EFF\])?\n(\[3C404EFF\])?�
 [3C404EFF]こ、[3C404EFF]こやつは～[3C404EFF]～～～～！[3C404EFF]\n[3C404EFF]と、[3C404EFF]とにかく！　[3C404EFF]我が眷属はこちらに来るのじゃ！=Th-That bastard!\nA-Anyway! My familiars are coming this way!
 [3C404EFF]仕方ないなぁ、[3C404EFF]少し貸してあげるよ。=Oh well, I'll lend it to you for a bit.
 [3C404EFF]まったく……[3C404EFF]少し目を離すと[3C404EFF]すぐに状況に流されおって。[3C404EFF]\n[3C404EFF]なにが儀式じゃ。=Honestly... As soon as I take my eyes off you, you're swept away by the situation. What kind of ritual is that?
-r:"^(\[3C404EFF\])?(.{2,10})よ。(\[3C404EFF\])?\nわらわの前にひざまずくがいい。$"=$2, kneel before me.
+r:"^(?:\[3C404EFF\])?(.{2,10})よ。(?:\[3C404EFF\])?\nわらわの前にひざまずくがいい。$"=$1, kneel before me.
 イリヤの前にひざまずく。=I kneel in front of Illya.
 [3C404EFF]なっ、[3C404EFF]なぜわらわの時は聞き返すのじゃ！？[3C404EFF]\n[3C404EFF]い、[3C404EFF]いいから[3C404EFF]黙って言う通りにせよ！=Wh-Why are you asking me again when I'm with you?! S-Shut up and do as I say!
 [3C404EFF]べ、[3C404EFF]別に[3C404EFF]ユキが羨ましかったわけではないぞ……？=I-It's not like I was jealous of Yuki...

@@ -1,13 +1,13 @@
 
 r:"^モニカは決闘大会のための練習相手として(.{2,10})を指名する。モニカはリーチの短さを補うために上空からの攻撃法を修得しようとする。二人はとりあえず足腰の強化としてランニングに励む。$"=Monika nominates $1 as her practice partner for the duel tournament. Monika tries to learn aerial attack techniques to compensate for her short reach. For now, they focus on strengthening their legs by running.
 
-r:"^(\[3C404EFF\])?(.{2,10})はモニカに呼ばれて、\n待ち合わせ場所へとやって来た。$"=$2 arrives at the meeting place when called by Monika.
+r:"^(?:\[3C404EFF\])?(.{2,10})はモニカに呼ばれて、\n待ち合わせ場所へとやって来た。$"=$1 arrives at the meeting place when called by Monika.
 
-来たか。\n今日は貴公に相談がある。=You're here. I have something to discuss with you.
+来たか。\n今日は貴公に相談がある。=You're here.\nI have something to discuss with you comrade.
 一週間後にある決闘大会を知っているか？\n最近やたらと宣伝されている、あのイベントだ。=Do you know about the duel tournament that will take place in a week? It's the event that has been heavily promoted recently.
 じつは、その大会に出ようと思っている。\n私の所属する部隊、ヴァイスフリューゲルの名を\n広く知らしめるいい機会だからな。=Actually, I'm thinking of participating in that tournament. It's a great opportunity to make the name of the Weissflügel, the guild I belong to, widely known.
-というわけで、\n大会に向けて特訓をしたい。\n貴公にはその手伝いをしてもらいたいのだ。=So, I want to train for the tournament. I want you to help me with that.
-特訓相手としては、腕前がもの足りないが……\n貴公のそばにいると力がわいてくるからな。=Though your skills may be lacking as a training partner... I feel energized when I'm around you.
+というわけで、\n大会に向けて特訓をしたい。\n貴公にはその手伝いをしてもらいたいのだ。=So, I want to train for the tournament.\nI want you to help me with that.
+特訓相手としては、腕前がもの足りないが……\n貴公のそばにいると力がわいてくるからな。=Though your skills may be lacking as a training partner...\nI feel energized when I'm around you, comrade.
 それに貴公は目の付け所もいい。\nなにか気づいたことがあれば、指摘してほしいのだが……\nどうだ？=Besides, you have a good eye for details. If you notice anything, I want you to point it out... What do you think?
 タダというわけには……=Not for free, I suppose...
 見返りがほしい、ということか。\nそうだな、私としてもその方が気兼ねしないで済む。=You want something in return, is that it? Well, it's better for me too, so I don't feel indebted to you.
@@ -26,29 +26,29 @@ r:"^(\[3C404EFF\])?(.{2,10})はモニカに呼ばれて、\n待ち合わせ場�
 ひ、卑怯だぞ、そんな長い枝を持たれたら……\nん？\nそうか、貴公の言っていた私の弱点はこれか！=Ha... It's unfair to hold such a long branch... Huh? I see, so this is the weakness you were talking about!
 私の手足では、長い武器を持った相手と正面から戦うのは\n大きな不利があるのか……\n多少左右に動いてもリーチの差はいかんともしがたい……=With my arms and legs, it's a significant disadvantage to face an opponent with a long weapon head-on... Even if I move a bit to the left or right, the reach difference is hard to overcome...
 むむむ……\nどうしたものか？=Hm, hmm... What should I do?
-貴公に秘策がある……？\nど、どんな方法だ！？=You have a secret plan...? Wh-what method is it!?
+貴公に秘策がある……？\nど、どんな方法だ！？=You have a secret plan comrade...? Wh-what method is it!?
 空……？\nなるほど、正面も左右もダメなら、\n上から攻めればいい、と。=The sky...? I see, if the front and sides don't work, then attack from above.
 確かに、それなら相手にとっても予想外の攻撃だ。\nそう簡単に対処はできないな。=Indeed, that would be an unexpected attack for the opponent. It won't be easy for them to deal with it.
 しかも、空を舞う戦法は、\n白翼という意味を持つヴァイスフリューゲルの名に\n相応しい戦法でもある……うむ、さすが貴公だ。=Moreover, an aerial technique suits the name Weissflügel, meaning White Wings... Yes, you're truly remarkable.
 しかし、上から攻めるというのは、難しいぞ。\nかなりの訓練が必要になるな……=However, attacking from above is challenging. It will require a significant amount of training...
-r:"^(\[3C404EFF\])?(.{2,10})……貴公も訓練に付き合ってくれるか？$"=$2... Will you join me in the training as well?
+r:"^(?:\[3C404EFF\])?(.{2,10})……貴公も訓練に付き合ってくれるか？$"=$1... Will you join me in the training as well?
 もちろん。=Of course.
 そ、そうか！　よかった……\nでは、二人でがんばるぞ！=I-I see! That's great... Well then, let's do our best together!
 
 
-r:"^(\[3C404EFF\])?こら(.{2,10})、なにを休んでいる！(\[3C404EFF\])?\nまだメニューの半分しか、こなしていないぞ！(\[3C404EFF\])?\n(\[3C404EFF\])?訓練の本番はここからだ！$"=Hey, $2, why are you resting? We've only completed half of the training menu! The real training starts now!
+r:"^(?:\[3C404EFF\])?こら(.{2,10})、なにを休んでいる！(?:\[3C404EFF\])?\nまだメニューの半分しか、こなしていないぞ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?訓練の本番はここからだ！$"=Hey, $1, why are you resting? We've only completed half of the training menu! The real training starts now!
 
 
 まずは足腰を鍛えなくては……！\nさぁ、追加でランニング１０キロだ！=First, we need to strengthen our legs...! Now, let's add a 10-kilometer run!
 
-r:"^(\[3C404EFF\])?モニカの訓練は数時間に及び、\nヘロヘロに疲れ果てる(.{2,10})であった。$"=Monika's training continues for several hours, leaving $2 exhausted.
+r:"^(?:\[3C404EFF\])?モニカの訓練は数時間に及び、\nヘロヘロに疲れ果てる(.{2,10})であった。$"=Monika's training continues for several hours, leaving $1 exhausted.
 
-[3C404EFF]来たか。[3C404EFF]\n今日は貴公に相談がある。=You're here. I have something to discuss with you.
+[3C404EFF]来たか。[3C404EFF]\n今日は貴公に相談がある。=You're here. I have something to discuss with you comrade.
 強化Lv上限  {0}=Max Level Enhancement {0}
 [3C404EFF]一週間後にある決闘大会を知っているか？[3C404EFF]\n[3C404EFF]最近やたらと宣伝されている、あのイベントだ。=Do you know about the duel tournament that will take place in a week? It's the event that has been heavily promoted recently.
 [3C404EFF]じつは、[3C404EFF]その大会に出ようと思っている。[3C404EFF]\n私の所属する部隊、[3C404EFF]ヴァイスフリューゲルの名を[3C404EFF]\n[3C404EFF]広く知らしめるいい機会だからな。=Actually, I'm thinking of participating in that tournament. It's a great opportunity to make the name of the Weissflügel, the guild I belong to, widely known.
-[3C404EFF]というわけで、[3C404EFF]\n大会に向けて特訓をしたい。[3C404EFF]\n貴公にはその手伝いをしてもらいたいのだ。=So, I want to train for the tournament. I want you to help me with that.
-[3C404EFF]特訓相手としては、[3C404EFF]腕前がもの足りないが……[3C404EFF]\n[3C404EFF]貴公のそばにいると力がわいてくるからな。=Though your skills may be lacking as a training partner... I feel energized when I'm around you.
+[3C404EFF]というわけで、[3C404EFF]\n大会に向けて特訓をしたい。[3C404EFF]\n貴公にはその手伝いをしてもらいたいのだ。=So, I want to train for the tournament.\nI want you to help me with that.
+[3C404EFF]特訓相手としては、[3C404EFF]腕前がもの足りないが……[3C404EFF]\n[3C404EFF]貴公のそばにいると力がわいてくるからな。=Though your skills may be lacking as a training partner...\nI feel energized when I'm around you, comrade.
 [3C404EFF]それに貴公は目の付け所もいい。[3C404EFF]\n[3C404EFF]なにか気づいたことがあれば、[3C404EFF]指摘してほしいのだが……[3C404EFF]\nどうだ？=Besides, you have a good eye for details. If you notice anything, I want you to point it out... What do you think?
 自信がない……=I'm not confident...
 [3C404EFF]見返りがほしい、[3C404EFF]ということか。[3C404EFF]\n[3C404EFF]そうだな、[3C404EFF]私としてもその方が気兼ねしないで済む。=You want something in return, is that it? Well, it's better for me too, so I don't feel indebted to you.
@@ -66,15 +66,15 @@ r:"^(\[3C404EFF\])?モニカの訓練は数時間に及び、\nヘロヘロに�
 [3C404EFF]ひ、卑怯だぞ、[3C404EFF]そんな長い枝を持たれたら……[3C404EFF]\n[3C404EFF]ん？[3C404EFF]\nそうか、[3C404EFF]貴公の言っていた私の弱点はこれか！=Ha... It's unfair to hold such a long branch... Huh? I see, so this is the weakness you were talking about!
 [3C404EFF]私の手足では、[3C404EFF]長い武器を持った相手と正面から戦うのは[3C404EFF]\n大きな不利があるのか……[3C404EFF]\n多少左右に動いてもリーチの差はいかんともしがたい……=With my arms and legs, it's a significant disadvantage to face an opponent with a long weapon head-on... Even if I move a bit to the left or right, the reach difference is hard to overcome...
 [3C404EFF]むむむ……[3C404EFF]\nどうしたものか？=Hm, hmm... What should I do?
-[3C404EFF]貴公に秘策がある……？[3C404EFF]\n[3C404EFF]ど、[3C404EFF]どんな方法だ！？=You have a secret plan...? Wh-what method is it!?
+[3C404EFF]貴公に秘策がある……？[3C404EFF]\n[3C404EFF]ど、[3C404EFF]どんな方法だ！？=You have a secret plan comrade...?\nWh-what method is it!?
 [3C404EFF]空……？[3C404EFF]\n[3C404EFF]なるほど、[3C404EFF]正面も左右もダメなら、[3C404EFF]\n上から攻めればいい、と。=The sky...? I see, if the front and sides don't work, then attack from above.
 [3C404EFF]確かに、[3C404EFF]それなら相手にとっても予想外の攻撃だ。[3C404EFF]\n[3C404EFF]そう簡単に対処はできないな。=Indeed, that would be an unexpected attack for the opponent. It won't be easy for them to deal with it.
 [3C404EFF]しかも、[3C404EFF]空を舞う戦法は、[3C404EFF]\n白翼という意味を持つヴァイスフリューゲルの名に[3C404EFF]\n相応しい戦法でもある……[3C404EFF]うむ、[3C404EFF]さすが貴公だ。=Moreover, an aerial technique suits the name Weissflügel, meaning White Wings... Yes, you're truly remarkable.
 [3C404EFF]しかし、[3C404EFF]上から攻めるというのは、[3C404EFF]難しいぞ。[3C404EFF]\n[3C404EFF]かなりの訓練が必要になるな……=However, attacking from above is challenging. It will require a significant amount of training...
 
-[3C404EFF]そ、そうか！　[3C404EFF]よかった……[3C404EFF]\n[3C404EFF]では、[3C404EFF]二人でがんばるぞ！=I-I see! That's great... Well then, let's do our best together!
+[3C404EFF]そ、そうか！　[3C404EFF]よかった……[3C404EFF]\n[3C404EFF]では、[3C404EFF]二人でがんばるぞ！=I-I see! That's great...\nWell then, let's do our best together!
 
-[3C404EFF]まずは足腰を鍛えなくては……！[3C404EFF]\n[3C404EFF]さぁ、[3C404EFF]追加でランニング１０キロだ！=First, we need to strengthen our legs...! Now, let's add a 10-kilometer run!
+[3C404EFF]まずは足腰を鍛えなくては……！[3C404EFF]\n[3C404EFF]さぁ、[3C404EFF]追加でランニング１０キロだ！=First, we need to strengthen our legs...!\nNow, let's add a 10-kilometer run!
 
-[3C404EFF]そ、[3C404EFF]そんなことはないぞ！[3C404EFF]\n貴公の意見は貴重だ。=Th-That's not true! Your opinion is valuable.
-[3C404EFF]それに……私も他に頼める相手がいない。[3C404EFF]\n[3C404EFF]どうか、[3C404EFF]お願いできないだろうか？=Besides... I don't have anyone else I can ask. Could you do that for me?
+[3C404EFF]そ、[3C404EFF]そんなことはないぞ！[3C404EFF]\n貴公の意見は貴重だ。=Th-That's not true!\nYour opinion is valuable.
+[3C404EFF]それに……私も他に頼める相手がいない。[3C404EFF]\n[3C404EFF]どうか、[3C404EFF]お願いできないだろうか？=Besides... I don't have anyone else I can ask.\nCould you do that for me?

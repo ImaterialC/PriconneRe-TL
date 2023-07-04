@@ -101,7 +101,7 @@ r:"^ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼�
 [3C404EFF]不自然？[3C404EFF]\nなにがでございますか？=Unnatural?\nWhat do you mean?
 [3C404EFF]このボクに[3C404EFF]見向きもしないことがさ♪=Don't even look at me♪
 [3C404EFF]あはは。[3C404EFF]冗談だと思ってる？[3C404EFF]\n[3C404EFF]でも本気だよ。[3C404EFF]ボクは美しすぎるからね、[3C404EFF]\n周りのみんなの視線の動きには敏感なんだ。=Haha, you think I'm joking? But I mean it. I am too beautiful, and I am sensitive to the gazes of everyone around me.
-r:"^(\[3C404EFF\])?キミさ……(\[3C404EFF\])?\nボクや(.{2,10})さんに目を留めたこと、(\[3C404EFF\])?ないでしょ？$"=You... You've never caught my eye or $3-san's, have you?
+r:"^(?:\[3C404EFF\])?キミさ……(?:\[3C404EFF\])?\nボクや(.{2,10})さんに目を留めたこと、(?:\[3C404EFF\])?ないでしょ？$"=You... You've never caught my eye or $1-san's, have you?
 [3C404EFF]冷静なように見えて、[3C404EFF]ずっと熱狂的な視線をイリヤに向けてた。[3C404EFF]\n[3C404EFF]イリヤ以外はどうでもよかったんだよね？[3C404EFF]\n[3C404EFF]じゃないと、[3C404EFF]ボクを無視するなんて、[3C404EFF]ありえないことなのさ♪=You looked calm, and was always looking at Illya with an enthusiastic gaze. Anything but Illya didn't matter, right? Otherwise, it would be impossible for you to ignore me♪
 [3C404EFF]最後の台詞はともかく、[3C404EFF]\n[3C404EFF]ユキのやつ……[3C404EFF]案外よく見とるんじゃな。=Putting that last line aside, Yuki... he's surprisingly perceptive.
 [3C404EFF]ブラドよ、[3C404EFF]説明してもらうぞ。[3C404EFF]\nお主は一体なにを企んでおる。=Brad, you're going to have to explain. What the hell are you planning?
@@ -127,7 +127,7 @@ r:"^(\[3C404EFF\])?キミさ……(\[3C404EFF\])?\nボクや(.{2,10})さんに�
 [3C404EFF]……街ごとすべてが吹き飛ぶじゃろうな。=...I'm sure the whole city will be blown away.
 [3C404EFF]さすがのご理解。[3C404EFF]\n[3C404EFF]……[3C404EFF]魔物たちよ、[3C404EFF]ここへ。=As expected of your understanding.\n...Demons, come here.
 [3C404EFF]丁重に、[3C404EFF]イリヤ様をお連れしろ。[3C404EFF]\n[3C404EFF]そっちのニンゲンは、[3C404EFF]牢にでも入れておけ。=Take Illya-sama with you.\nPut that Human in jail.
-r:"^(\[3C404EFF\])?小癪な……(\[3C404EFF\])?わらわと(.{2,10})を分断するとは。(\[3C404EFF\])?\n(\[3C404EFF\])?……人質のつもりか？　$"=How irritating... To think you'd split $3 and me apart... Are you trying to take me hostage?　
+r:"^(?:\[3C404EFF\])?小癪な……(?:\[3C404EFF\])?わらわと(.{2,10})を分断するとは。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……人質のつもりか？　$"=How irritating... To think you'd split $1 and me apart... Are you trying to take me hostage?　
 [3C404EFF]──参りましょう、[3C404EFF]イリヤ様。=──Let's go, Lady Illya.
 [3C404EFF]あ～あ、[3C404EFF]捕まっちゃった。=Aww, they caught me.
 [3C404EFF]……これはまずいね。=...This is bad.

@@ -106,7 +106,7 @@
 [3C404EFF]では[3C404EFF]この残された最後の力を使い、[3C404EFF]\n──お主を吸血鬼にしてやろう。[3C404EFF]\n[3C404EFF]それくらいなら可能なはずじゃ。=Then I'll use the last of my strength to turn you into a vampire. That should be possible.
 [3C404EFF]えっ、[3C404EFF]いいのっ？=Huh? Are you sure?
 [3C404EFF]ふっ。[3C404EFF]\n[3C404EFF]城に戻ってからもお主が通ってきては、[3C404EFF]たまったものではないからな。=Heh. It would be unbearable for you to come here even after returning to the castle.
-r:"^(\[3C404EFF\])?いやったぁ♪(\[3C404EFF\])?\n(\[3C404EFF\])?(.{2,10})さん、(\[3C404EFF\])?良かったね。(\[3C404EFF\])?\n永遠の美が誕生する瞬間に立ち会えるよ♪$"=Yay♪ Isn't that great, $4-san? You'll be able to witness the moment eternal beauty is born♪
+r:"^(?:\[3C404EFF\])?いやったぁ♪(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})さん、(?:\[3C404EFF\])?良かったね。(?:\[3C404EFF\])?\n永遠の美が誕生する瞬間に立ち会えるよ♪$"=Yay♪ Isn't that great, $1-san? You'll be able to witness the moment eternal beauty is born♪
 [3C404EFF]案外……[3C404EFF]お主のようなやつが、[3C404EFF]本当に伝説に残るのやもしれんな。=Unexpectedly...someone like you might actually be legendary.
 [3C404EFF]では、[3C404EFF]まずは相応しい格好にならねばの。=Well then, first of all, you must dress appropriately.
 [3C404EFF]あ……！=Ah...!
@@ -125,7 +125,7 @@ r:"^(\[3C404EFF\])?いやったぁ♪(\[3C404EFF\])?\n(\[3C404EFF\])?(.{2,10})�
 [3C404EFF]ふふふっ、[3C404EFF]永遠の時間があれば、[3C404EFF]\nどれだけ鏡を見ながら過ごしてもいいんだよね♪=Hehehe, if you have eternal time, you can spend as much time looking in the mirror as you want♪
 [3C404EFF]そうだ！[3C404EFF]\nボクもイリヤみたいにお城を持とうかな。[3C404EFF]\n[3C404EFF]全面鏡張りの[3C404EFF]ボクだけのお城をさ……♪=That’s right! Maybe I’ll have a castle like Illya’s. A castle just for me, with a full-length mirror...♪
 [3C404EFF]なんか恐ろしいこと言っとる……=What a terrifying thing to say...
-r:"^(\[3C404EFF\])?ん？(\[3C404EFF\])?\nどうかしたか、(\[3C404EFF\])?(.{2,10})よ。(\[3C404EFF\])?\n書物を見ながら目を見開いておるが……$"=Hm? What's wrong, $4? Your eyes are wide open as you look at the book...
+r:"^(?:\[3C404EFF\])?ん？(?:\[3C404EFF\])?\nどうかしたか、(?:\[3C404EFF\])?(.{2,10})よ。(?:\[3C404EFF\])?\n書物を見ながら目を見開いておるが……$"=Hm? What's wrong, $1? Your eyes are wide open as you look at the book...
 [3C404EFF]さ、[3C404EFF]帰ろっか。=Come on, let's go home.
 [3C404EFF]おっ！？[3C404EFF]\n待ていお主、[3C404EFF]まだ吸血しとらんぞ！？[3C404EFF]\nよいのか、[3C404EFF]永遠の美は！？=Oh?! Wait, I haven't sucked your blood yet! Are you sure about eternal beauty?!
 [3C404EFF]鏡に映る美しいボクを永遠に見られなくなるなんて、[3C404EFF]\nそんなの意味ないでしょ。=There's no point in eternal beauty if I'm not able to see myself in the mirror, is there?

@@ -45,7 +45,7 @@ r:"^決闘大会当日、モニカは身長制限に引っかかり出場が認�
 う……うぐ、ぐぬぬ……！\nだから、私は子供ではない！\n子供、子供、といい加減にしろぉおおお！！=Uh... Ugh, grr... I'm not a child, I said! Stop with this child, child nonsense!!
 う、うわぁ！\n暴れ出したぞ！？\n誰か、止めろー！！=Uh, uh-oh! She's causing a scene! Someone, stop her!!
 止めに入る。=Intervening.
-r:"^(\[3C404EFF\])?(.{2,10})……見ていたのか！？(\[3C404EFF\])?\n(\[3C404EFF\])?止めてくれるな！(\[3C404EFF\])?\n私はこいつらに引導を渡さねばならないっ！$"=$2... Did you hear that?\nDon't stop me!\nI must teach them a lesson!
+r:"^(?:\[3C404EFF\])?(.{2,10})……見ていたのか！？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?止めてくれるな！(?:\[3C404EFF\])?\n私はこいつらに引導を渡さねばならないっ！$"=$1... Did you hear that?\nDon't stop me!\nI must teach them a lesson!
 し、失格！　しっかーく！！\n警備を呼んでくれ！\n強制退場させるんだー！=D-Disqualified! Quiet down!! Call security and make them leave!!
 す、すまない……\nせっかく貴公が特訓に付き合ってくれたのに、\nこんな結果になってしまった……=I-I'm sorry... Despite you accompanying me in training, it ended up like this...
 謝らなくてもいい。=You don't have to apologize.
@@ -55,15 +55,13 @@ r:"^(\[3C404EFF\])?(.{2,10})……見ていたのか！？(\[3C404EFF\])?\n(\[3C
 ……言われてみれば、私の目標はそうではないな。=...Now that you mention it, that wasn't my goal.
 誇り高きヴァイスフリューゲルの一員として、\n立派な軍人になる！\nそれこそが、私の目標だ！=My goal is to become a proud member of Weissflügel and a splendid soldier! That's my true goal!
 
-r:"^(\[3C404EFF\])?一番の目標を失念するところだった。(\[3C404EFF\])?\n(\[3C404EFF\])?(.{2,10})、感謝するぞ。$"=I almost forgot my main objective.\nThank you, $4.
+r:"^(?:\[3C404EFF\])?一番の目標を失念するところだった。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})、感謝するぞ。$"=I almost forgot my main objective.\nThank you, $1.
 
-r:"^(\[3C404EFF\])?では、(\[3C404EFF\])?真の目標のために、(\[3C404EFF\])?\nこれからも二人でがんばるぞ！(\[3C404EFF\])?\n(\[3C404EFF\])?さあ、(\[3C404EFF\])?帰ろう、(.{2,10})！$"=So, for the sake of our true goal, let's keep doing our best together from now on!\nNow, let's go back, $7!
+r:"^(?:\[3C404EFF\])?では、(?:\[3C404EFF\])?真の目標のために、(?:\[3C404EFF\])?\nこれからも二人でがんばるぞ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?さあ、(?:\[3C404EFF\])?帰ろう、(.{2,10})！$"=So, for the sake of our true goal, let's keep doing our best together from now on!\nNow, let's go back, $1!
 
-r:"^(\[3C404EFF\])?(.{2,10})の言葉に、気持ちを新たにするモニカであった。$"=With $2's words, Monika's spirit is revitalized.
-
+r:"^(?:\[3C404EFF\])?(.{2,10})の言葉に、気持ちを新たにするモニカであった。$"=With $1's words, Monika's spirit is revitalized.
 
 [3C404EFF]モニカが出場することにした決闘大会、当日。=The day of the duel tournament Monika had decided to participate in.
-[3C404EFF]モニカが出場することにした決闘大会、当日。=The day of the duel tournament where Monika decided to participate.
 [3C404EFF]……さ、[3C404EFF]さぁ、[3C404EFF]ついにこの日がきたな！=...Well, the day has finally come!
 [3C404EFF]貴公が特訓に付き合ってくれたおかげで、[3C404EFF]\n私もかなり強くなれた。[3C404EFF]\n[3C404EFF]この大会でも、[3C404EFF]大活躍だろうな！=Thanks to you accompanying me during training, I've become quite strong. I'm sure I'll make a big impact in this tournament!
 [3C404EFF]そのはずだったのだが……=Or so I thought...

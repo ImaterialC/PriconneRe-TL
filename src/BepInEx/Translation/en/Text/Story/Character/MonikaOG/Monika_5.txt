@@ -3,7 +3,7 @@
 子供１=Child 1
 子供２=Child 2
 r:"^モニカは(.{2,10})を連れて、子供たちとの訓練に臨む。モニカは、すばしっこい子供たちの相手をすると足腰が強くなると言う。しかし、傍から見ているとその光景は微笑ましい限りだった。$"=Monika takes $1 and prepares for training with the children. Monika says that dealing with agile children will strengthen her legs and waist. However, from the bystander's perspective, the scene was nothing short of heartwarming.
-r:"^(\[3C404EFF\])?散歩をしていた(.{2,10})は、\n偶然モニカを見かけた。$"=While taking a walk, $2 coincidentally comes across Monika.
+r:"^(?:\[3C404EFF\])?散歩をしていた(.{2,10})は、\n偶然モニカを見かけた。$"=While taking a walk, $1 coincidentally comes across Monika.
 誰かと思えば、貴公か。\nどうかしたか？=I was wondering who you were, but it's you.\nWhat's wrong?
 私が何をしているか、気になった……？\nなに、大したことではない。=You're curious about what I'm doing...? Well, it's nothing important.
 軍人として己を高めるため、\nこれから友人たちと訓練をするのだ。\n貴公も来るか？=I'm about to train with my friends to improve myself as a soldier. Will you come along?
@@ -30,19 +30,19 @@ r:"^(\[3C404EFF\])?散歩をしていた(.{2,10})は、\n偶然モニカを見�
 
 う、うむ。\nいつも悪いな。=Um, yes.\nThank you very much.
 
-r:"^(\[3C404EFF\])?な、(\[3C404EFF\])?なんだ、(.{2,10})？(\[3C404EFF\])?\nその疑いの目は？$"=Wh-What is it, $3? What's with those suspicious eyes?
+r:"^(?:\[3C404EFF\])?な、(?:\[3C404EFF\])?なんだ、(.{2,10})？(?:\[3C404EFF\])?\nその疑いの目は？$"=Wh-What is it, $1? What's with those suspicious eyes?
 
 私が菓子をもらうために\nここに来ていると言いたいのか！？\nち、違うぞ！　そんなわけがない！=Are you trying to tell me I'm here to get sweets?! N-No! Of course not!
 菓子ほしさに、子供の遊び相手になるなど……\n誇り高き軍人が、そんなことをするはずがない！\nう、う、ウソではないぞ！=There's no way A proud soldier like me would do something like that...to play with a child just because she wants sweets! I-I-I'm not lying!
 モニカちゃん！\nはやくさっきの続きしよー！=Monika-chan! Let's continue what we were doing earlier!
 
-r:"^(\[3C404EFF\])?あ、(\[3C404EFF\])?ああ、(\[3C404EFF\])?そうだな！(\[3C404EFF\])?\n(\[3C404EFF\])?私はあの子たちの相手をしなくてはならない！(\[3C404EFF\])?\n(\[3C404EFF\])?ではな、(.{2,10})！$"=Y-Yeah, that's right!\nI have to deal with them!\nSee you later, $8!
+r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?ああ、(?:\[3C404EFF\])?そうだな！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?私はあの子たちの相手をしなくてはならない！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ではな、(.{2,10})！$"=Y-Yeah, that's right!\nI have to deal with them!\nSee you later, $1!
 
 
 モニカちゃん、このお菓子おいしいよ。\n半分あげる。=Monika-chan, this snack is delicious.\nI'll give you half.
 いいのか？\nでは、私のも半分にわけてやる。=Is that okay?\nThen, I'll split mine in half for you too.
 
-r:"^(\[3C404EFF\])?子供たちと仲良くしているモニカを、\n微笑ましく見守る(.{2,10})であった。$"=$2 watches over Monika, who is happily getting along with the children, with a smile on his face.
+r:"^(?:\[3C404EFF\])?子供たちと仲良くしているモニカを、\n微笑ましく見守る(.{2,10})であった。$"=$1 watches over Monika, who is happily getting along with the children, with a smile on his face.
 
 
 

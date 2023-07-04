@@ -1,7 +1,7 @@
 敵チームの生徒=Enemy Team Student
 味方チームの生徒=Ally Team Student
 モニカは新奥義の特訓が難航し、焦っていた。ある時夢の世界で彼女は、友を信じ好機を待つことが大切だと悟る。夢の出来事を通じて確かな感覚を掴んだモニカは、ついに新奥義を会得するのだった。=Monika was struggling with her special training for a new secret technique and was feeling anxious. One time, in the world of dreams, she realized that it was important to trust her friends and wait for the right opportunity. Through the events of the dream, Monika gained a certain sense of the technique and finally mastered it.
-r:"^(\[3C404EFF\])?数日後に開幕する大会で優勝するべく、(\[3C404EFF\])?\n(.{2,10})が見守る中、(\[3C404EFF\])?\nモニカは連日、新奥義の修行を行っていた。しかし……$"=In order to win the tournament that would begin in a few days, as $3 watched, Monica practiced her new ultimate technique day after day, but...
+r:"^(?:\[3C404EFF\])?数日後に開幕する大会で優勝するべく、(?:\[3C404EFF\])?\n(.{2,10})が見守る中、(?:\[3C404EFF\])?\nモニカは連日、新奥義の修行を行っていた。しかし……$"=In order to win the tournament that would begin in a few days, as $1 watched, Monica practiced her new ultimate technique day after day, but...
 うわあっ！？=Uwaaah!?
 ……だ、大丈夫だ。岩を砕くどころか、\n自分の技で吹き飛ばされてしまうとは情けない……\n話は祖国で聞いていたが、これほど会得が難しいとはな……=...I'm fine. It's pathetic that I can't even break a rock, let alone blow myself away with my own technique... I heard stories from my homeland, but I didn't know it was so hard to master...
 もう一度だ！\n……っ！=One more time!...!
@@ -100,7 +100,7 @@ r:"^(\[3C404EFF\])?数日後に開幕する大会で優勝するべく、(\[3C40
 最後の奥の手として、なるべく使わないようにしよう。\n使いどころは……そうだな。貴公の作戦にゆだねる。=I'll try not to use it as much as possible as a last resort. The timing is... yeah. I'll leave it to your strategy.
 大会は明日からだ。\n最後まで共に、全力を尽くして戦おう。=The tournament starts tomorrow. Let's fight together with all our strength until the end.
 
-r:"^(\[3C404EFF\])?差し出された、傷だらけの小さな手。(\[3C404EFF\])?\n(.{2,10})はその手に触れ、大きくうなずくのだった。$"=She reached out her small hand covered in wounds. $3 touched that hand and nodded firmly.
+r:"^(?:\[3C404EFF\])?差し出された、傷だらけの小さな手。(?:\[3C404EFF\])?\n(.{2,10})はその手に触れ、大きくうなずくのだった。$"=She reached out her small hand covered in wounds. $1 touched that hand and nodded firmly.
 
 
 [3C404EFF]うわあっ！？=Uwaaa!?

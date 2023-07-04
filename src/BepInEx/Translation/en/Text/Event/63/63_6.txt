@@ -94,7 +94,7 @@ r:"^イリヤを救出したユキたちの前に、魔物と化したブラド�
 貴様は……わらわではない。=You're... not me.
 キ、キサマ……！\nイリヤサマニ、ナントイウコトヲ……！\nキサマ、キサマ、キサマァァァァァァァァ──！=Y-You bastard...! Illya, what are you doing...!? You bastaaaaard!
 
-r:"^(\[3C404EFF\])?儀式の最中、イリヤの救出に成功する(.{2,10})とユキ。$"=$2 and Yuki succeeded in rescuing Illya during the ceremony.                             
+r:"^(?:\[3C404EFF\])?儀式の最中、イリヤの救出に成功する(.{2,10})とユキ。$"=$1 and Yuki succeeded in rescuing Illya during the ceremony.                             
 
 [3C404EFF]……感謝するぞ、[3C404EFF]我が眷属よ。=...Thank you, my Familiar.
 
@@ -169,7 +169,7 @@ r:"^(\[3C404EFF\])?儀式の最中、イリヤの救出に成功する(.{2,10})�
 [3C404EFF]イリヤ、[3C404EFF]サマ……[3C404EFF]オォ……[3C404EFF]イリヤサマァァァァァ！=Lady...Illya...ohh...Lady...Illyaaaa!
 [3C404EFF]ブラドよ──[3C404EFF]少し黙れ。=Shut up, Brad.
 [3C404EFF]……ッ！=Ngh 
-r:"^(\[3C404EFF\])?(.{2,10})よ。(\[3C404EFF\])?\nいつものやつを……(\[3C404EFF\])?いいや、(\[3C404EFF\])?いつも以上に(\[3C404EFF\])?わらわの力を引き出すぞ。(\[3C404EFF\])?\n協力、(\[3C404EFF\])?してくれるか。$"=$2. The usual one... No, I'll draw out more of my power than usual. Will you help me?
+r:"^(?:\[3C404EFF\])?(.{2,10})よ。(?:\[3C404EFF\])?\nいつものやつを……(?:\[3C404EFF\])?いいや、(?:\[3C404EFF\])?いつも以上に(?:\[3C404EFF\])?わらわの力を引き出すぞ。(?:\[3C404EFF\])?\n協力、(?:\[3C404EFF\])?してくれるか。$"=$1. The usual one... No, I'll draw out more of my power than usual. Will you help me?
 [3C404EFF]ふふっ♪　[3C404EFF]では、[3C404EFF]頼む。[3C404EFF]\n[3C404EFF]その……[3C404EFF]最大級のドキドキ……[3C404EFF]胸の高鳴りを、[3C404EFF]わらわに捧げるがよい。=Hehe♪ Well then, I'm counting on you.\nUm... my heart is beating like crazy...\nOffer it to me.                                                 
 [3C404EFF]んっ……♪=Mm...♪
 [3C404EFF]おおっ……！=Ohh...!

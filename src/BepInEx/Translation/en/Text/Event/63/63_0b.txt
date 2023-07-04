@@ -26,9 +26,9 @@
 
 ……どうしたの？=...What's wrong?
 
-r:"^(\[3C404EFF\])?おお！　(\[3C404EFF\])?(.{2,10})よ、(\[3C404EFF\])?いいところに来おったな！(\[3C404EFF\])?\n(\[3C404EFF\])?こやつをここから摘まみだしてくれぬか！$"=Oh! $3, you've come at the right time! Can you help me kick him\n out of here?!
+r:"^(?:\[3C404EFF\])?おお！　(?:\[3C404EFF\])?(.{2,10})よ、(?:\[3C404EFF\])?いいところに来おったな！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?こやつをここから摘まみだしてくれぬか！$"=Oh! $1, you've come at the right time! Can you help me kick him\n out of here?!
 
-r:"^(\[3C404EFF\])?ふふっ。(\[3C404EFF\])?\n(.{2,10})さんも(\[3C404EFF\])?ボクの美に惹かれて来たんだね。(\[3C404EFF\])?\n(\[3C404EFF\])?だったら(\[3C404EFF\])?キミからもお願いしてよ、(\[3C404EFF\])?この吸血鬼さんにさ。$"=Hehe. You're attracted to my beauty too, aren't you, $3-san? Now why don't you help me get a favor from this\n vampire?
+r:"^(?:\[3C404EFF\])?ふふっ。(?:\[3C404EFF\])?\n(.{2,10})さんも(?:\[3C404EFF\])?ボクの美に惹かれて来たんだね。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?だったら(?:\[3C404EFF\])?キミからもお願いしてよ、(?:\[3C404EFF\])?この吸血鬼さんにさ。$"=Hehe. You're attracted to my beauty too, aren't you, $1-san? Now why don't you help me get a favor from this\n vampire?
 
 このボクを──=I want──
 [3C404EFF]このボクを──=I want──
@@ -59,7 +59,7 @@ r:"^(\[3C404EFF\])?ふふっ。(\[3C404EFF\])?\n(.{2,10})さんも(\[3C404EFF\])
 背負われた美も困惑しておろうな。=I'm sure that "beauty" would be baffled as well.
 [3C404EFF]背負われた美も困惑しておろうな。=I'm sure that "beauty" would be baffled as well.
 
-r:"^(\[3C404EFF\])?……のう(.{2,10})よ、(\[3C404EFF\])?なんなのじゃこやつは。(\[3C404EFF\])?\nこんなにも訳の分からぬやつは初めて見るぞ。$"=...Hey, $2, what's with this guy? I've never seen anyone so\nincomprehensible before.
+r:"^(?:\[3C404EFF\])?……のう(.{2,10})よ、(?:\[3C404EFF\])?なんなのじゃこやつは。(?:\[3C404EFF\])?\nこんなにも訳の分からぬやつは初めて見るぞ。$"=...Hey, $1, what's with this guy? I've never seen anyone so\nincomprehensible before.
 
 ふふん、イリヤも誇らしいでしょ？\nこのボクの美しさを永遠のものにできるんだよ♪=Heheh. Aren't you proud too, Illya? You'll be the one to make my beauty eternal after all♪
 [3C404EFF]ふふん、[3C404EFF]イリヤも誇らしいでしょ？[3C404EFF]\n[3C404EFF]このボクの美しさを[3C404EFF]永遠のものにできるんだよ♪=Heheh. Aren't you proud too, Illya? You'll be the one to make my beauty eternal after all♪
