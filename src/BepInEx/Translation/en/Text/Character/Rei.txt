@@ -31,7 +31,7 @@ ex
 ラピッドフェンサー=Rapid Riposte
 Skills+
 UB
-スラッシュテンペスト=Slash tempest
+スラッシュテンペスト=Slash Tempest
 目の前の敵１キャラに物理特大ダメージを与え、さらに風の刃を纏う。纏っている間、スキルの効果値が２倍になる。=Deals massive P.DMG to an enemy directly in front, and applies a Wind Blade. While wearing it, the effect value of the skill is doubled.
 r:"^敵単体に(\d+)の物理ダメージ\n一定時間風の刃を纏う$"=►Deals $1 P.DMG to an enemy.\n►Applies a Wind Blade (2x effect of the skills) for 18s.
 S1

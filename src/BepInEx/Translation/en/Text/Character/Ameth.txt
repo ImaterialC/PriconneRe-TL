@@ -21,7 +21,7 @@ r:"^味方単体のＨＰを(\d+)回復\n味方単体が受ける物理ダメー
 r:"^バリアが展開されている味方の物理攻撃力を(\d+)アップ\nバリアが展開されている味方の魔法攻撃力を(\d+)アップ\nバリアが展開されている味方のＴＰを200回復$"=Cast time: 0.74s\n►Boosts P.ATK of all allies with barrier by $1 for 18s.\n►Boosts M.ATK of all allies with barrier by $2 for 18s.\n►Recovers TP of allies with barrier by 200.
 
 スクデット=Scudo
-このスキルのスキルレベルは「フィオレ・\nフェリチータ」と連動しています="The skill level of this skill is linked to "Fiore Felicita""
+このスキルのスキルレベルは「フィオレ・\nフェリチータ」と連動しています="The skill level of this skill is linked to "Fiore Felicità""
 味方全体の物理防御力を初期値の15％アップ味方全体の魔法防御力を初期値の15％アップ=Cast time: 2.04s\n►Increase P.DEF of all allies by 15% from initial value for 12s.\n►Increase M.DEF of all allies by 15% from initial value for 12s.
 
 

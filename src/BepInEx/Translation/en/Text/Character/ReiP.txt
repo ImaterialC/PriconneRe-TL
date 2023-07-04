@@ -17,8 +17,8 @@ r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカル
 
 前方範囲内の敵すべてに物理中ダメージを与え、さらに自分の物理攻撃力を中アップさせる。対象になる敵が多いほど、物理攻撃力の上昇量がアップする。=Inflicts moderate P.DMG to all enemies within range, and moderately boost own P.ATK. The more enemies that are targeted, the higher the increase of P.ATK.
 
-ブロウアップハート+=Blow-up heart+
-ブロウアップハート=Blow-up heart
+ブロウアップハート+=Blow-Up Heart+
+ブロウアップハート=Blow-Up Heart
 
 グロリアスプリンセスドレス=Glorious Princess Dress
 トゥインクルエッジ+=Twinkle Edge+

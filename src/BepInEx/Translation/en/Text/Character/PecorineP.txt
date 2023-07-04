@@ -7,24 +7,21 @@
 お忍びバイトと民の声=A Secret Bite and the Voice of the People
 憩いの時間をあなたと=Rest and Relaxation with You
 
+超全力全開☆プリンセスストライク=Ultimate☆Princess Strike
 目の前の敵１キャラに物理特大ダメージを与える。ぺコリーヌのＨＰが高い程ダメージがアップ。残りＨＰが50%未満で自分に騎士の加護を付与する。騎士の加護付与時にＨＰが0になると、倒れずに加護を消費してＨＰを回復する。=Deals massive P.DMG to one enemy in front. Damage increases the more HP Pecorine has. Grants Knight's Blessing to herself when her remaining HP is less than 50%. Knight's blessing will revive her when she receives damage less than the remaining HP.
-
 r:"^敵単体に(\d+)の物理ダメージ\n騎士の加護付与中にＨＰが0になった場合、戦闘不能になる前に加護を消費してＨＰを(\d+)回復する$"=►Deals $1 (+270%HP) P.DMG to an enemy.\n►If HP of self < 50%, grant Knight's Blessing that revives self and heals by $2 when receiving damage less than remaining HP.
 
-r:"^自分の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する\n毎秒ＨＰを(\d+)回復する$"=Cast time:0.46s\n►Boosts own P.ATK by $1 (+20%HP) for 12s.\n►Recovers own's HP by $3/s for 12.5s.\n\nIf HP of self < 50%:\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.
-
+オニギリタイム=Onigiri Time
 r:"^自分の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Cast time:0.46s\n►Boosts own P.ATK by $1 (+20%HP) for 12s.\n\nIf HP of self < 50%:\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.
 
-自分の物理攻撃力を特大アップし、継続ＨＰ回復状態を付与する。ぺコリーヌのＨＰが高い程攻撃力の上昇量がアップする。残りＨＰが50%未満で自分に物理/魔法吸収バリアを展開する。=Increases own P.ATK by a massive amount and grants a HP regen state. The higher Pecorine's HP, the greater the increase in P.ATK. Deploys a P/M absorption barrier on herself when her remaining HP is less than 50%.
-
+ロイヤルスラッシュ=Royal Slash
+前方範囲内の敵すべてに物理中ダメージを与える。ぺコリーヌのＨＰが高い程ダメージがアップ。残りＨＰが50%以上でダメージの合計に応じて自分の物理攻撃力をアップさせ、50%未満でダメージの合計に応じて自分のＨＰを回復させる。=Deals medium P.DMG to all enemies within a forward range. The higher Pecorine's HP, the more damage it does. Increases own P.ATK based on remaining HP (>50%HP), and heals own HP based on damage total (<50%HP).
 r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分のＨＰを(\d+)回復$"=Cast time:0.62s\n►Deals $1 P.DMG to enemies within 300 range.\nIf HP of self > 50%:\n►Boosts own P.ATK by $2 for 12s.\n\nIf HP of self < 50%:\n►Recovers own HP by $3.
 
-前方範囲内の敵すべてに物理中ダメージを与える。ぺコリーヌのＨＰが高い程ダメージがアップ。残りＨＰが50%以上でダメージの合計に応じて自分の物理攻撃力をアップさせ、50%未満でダメージの合計に応じて自分のＨＰを回復させる。=Deals medium P.DMG to all enemies within a forward range. The higher Pecorine's HP, the more damage it does. Increases own P.ATK based on remaining HP (>50%HP), and heals own HP based on damage total (<50%HP).
-
-超全力全開☆プリンセスストライク=Ultimate☆Princess Strike
-オニギリタイム+=Onigiri Time+
-オニギリタイム=Onigiri Time
-ロイヤルスラッシュ=Royal slash
-ロイヤルスピリット+=Royal Spirit+
-ロイヤルスピリット=Royal Spirit
 ロイヤルプリンセスドレス=Royal Princess Dress
+オニギリタイム+=Onigiri Time+
+自分の物理攻撃力を特大アップし、継続ＨＰ回復状態を付与する。ぺコリーヌのＨＰが高い程攻撃力の上昇量がアップする。残りＨＰが50%未満で自分に物理/魔法吸収バリアを展開する。=Increases own P.ATK by a massive amount and grants a HP regen state. The higher Pecorine's HP, the greater the increase in P.ATK. Deploys a P/M absorption barrier on herself when her remaining HP is less than 50%.
+r:"^自分の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する\n毎秒ＨＰを(\d+)回復する$"=Cast time:0.46s\n►Boosts own P.ATK by $1 (+20%HP) for 12s.\n►Recovers own's HP by $3/s for 12.5s.\n\nIf HP of self < 50%:\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.
+
+ロイヤルスピリット=Royal Spirit
+ロイヤルスピリット+=Royal Spirit+

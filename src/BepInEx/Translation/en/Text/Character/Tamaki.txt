@@ -23,9 +23,11 @@ UB
 ねこねこファイナルブレイク=Kitty Cat-aclysm
 魔法攻撃力が最も高い敵１キャラに物理特大ダメージを与える。=Deals massive P.DMG to an enemy with the highest M.ATK.
 S1
+ねこねこスローイング=Kitty Cat-apult
 魔法攻撃力が最も高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力を小ダウンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK and lowers its M.ATK by a small amount.
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体の魔法攻撃力を(\d+)ダウン$"=Cast Time:1.325s\nDeals $1 P.DMG to an enemy.\nLowers an enemy's M.ATK by $2 for 12s.
 S2
+猫の気まぐれ=Cat's Whims
 魔法攻撃力が最も高い敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Reduces the TP of the enemy with the highest M.ATK power by a small amount while also recovering own TP by a small amount.
 ex
 マーベラスキャッツ=One Myarvelous Cat

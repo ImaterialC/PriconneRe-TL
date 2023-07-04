@@ -16,7 +16,7 @@ S1
 r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の行動速度アップ$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' M.ATK by $2.\n►Boosts action speed of all allies.
 ►same with karin, SarenS
 S2
-マスケットショット=Masket shot
+マスケットショット=Musket Shot
 ex
 白翼の加護=Blessing of the White Wings
 Skills+

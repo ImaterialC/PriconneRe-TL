@@ -11,11 +11,11 @@
 
 r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する\nＴＰ上昇を5アップさせるフィールドを展開する\n味方全体の物理・魔法クリティカル時のダメージを16％アップ\n敵全体の物理・魔法防御力を(\d+)ダウン$"=►Deploy a field of radius 2160 at self that restore $1/s for 18.5s\n►Deploy a field of radius 2160 at self that Boosts TP boost by 5 for 18s.\n►Boosts allies' M/P.Crit dmg by 16％ for 18s.\n►Lowers all enemies’ M/P.DEF by $2 for 18s.
 
-エアロヒーリング=Aero healing
-エアロヒーリング+=Aero healing+
+エアロヒーリング=Aero Healing
+エアロヒーリング+=Aero Healing+
 味方全体のＨＰを小回復する。=Restores a small amount of HP to all allies.
 
-ブライトアテンション=Bright attitude
+ブライトアテンション=Bright Attitude
 味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらにＴＰを小回復する。=Large boost the physical and magical attack power of all allies, and recovers a small amount of TP.
 
 r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体のＴＰを(\d+)回復$"=Cast time: 0.66s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' M.ATK by $2 for 12s.\n►Recovers allies' TP by $3.
