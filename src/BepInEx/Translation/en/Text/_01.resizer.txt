@@ -221,3 +221,5 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanTop(Clone)/WidgetOff(Clone)/ClanUI/UI_Left/GUIGroup_leftInfo/GUIGroup_ReleaseSingleMode/GUIGroup_ClanBattleModeInfo/LabelTitle=ChangeFontSize(17)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishOverrideConfirm(Clone)/AlertLabel=ChangeFontSize(18)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogAnimationViewer(Clone)/CaravanTurnStart(Clone)/root/base/goal/targetTurnCountText=ChangeFontSize(28)
+/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON(Clone)/Button/Text=ChangeFontSize(15)
+/PartsDialogJewelStorePurchaseConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)

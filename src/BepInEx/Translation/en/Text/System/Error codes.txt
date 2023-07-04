@@ -3,6 +3,7 @@
 アプリ終了=Exit Application
 タイムアウト=Time Out
 [3C404E]しばらく操作されなかったため、\nゲームを終了して、DMM GAME PLAYERから再起動してください。[-]=[3C404E]No responding for a while\nPlease quit the game and restart from DMM GAME PLAYER. [-]
+新しいバージョンがあります。\nゲームを一度終了し、DMM GAME PLAYERから再起動を行ってください。=New game version available.\nPlease exit the game and restart from DMM GAME PLAYER.
 [3C404E]エラーコード：201\n接続が途切れました。\nタイトルに戻ります。[-]=[3C404E]Error Code:201\nConnection was interrupted.\nReturn to the title.[-]
 エラーコード：3319\nプリンセスアリーナにおける接続が途切れました。\nタイトルに戻ります。=Error code: 3319\nThe connection in the Princess Arena has been interrupted.\nReturn to the title.
 [3C404E]エラーコード：216\nエラーが発生しました。\n直接ゲームを起動することはできません。\nプラットフォーム指定の方法で\nゲームを起動してください。[-]=[3C404E]Error code: 216\nYou cannot launch the game directly.\nPlease launch the game using the method specified by the platform.[-]

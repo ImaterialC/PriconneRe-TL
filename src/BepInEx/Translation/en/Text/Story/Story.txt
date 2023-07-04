@@ -24,12 +24,12 @@ r:"^ボイスなし\n\(([.0-9]+) ([MG])B\)$"=Voice OFF\n($1 $2B)
 ストーリー全文表示=Full Story Script Display
 このムービーをスキップしてもよろしいですか？=Are you sure you want to skip this movie?
 第=Part
-r:"^(\d+)章$"= 1 Chapter $1
+r:"^(\d+)章$"=🎵1 Chapter $1
 r:"^第?(\d+)章 第(\d+)話が\n解放可能になりました。$"=Ch $1 Ep $2\nStory has been unlocked.
 r:"^第?(\d+)部 第(\d+)章 第(\d+)話が\n解放可能になりました。$"=Part $1 Ch $2 Ep $3\nStory been unlock.
 r:"^第?(\d+)部 第(\d+)章 幕間が\n解放可能になりました。$"=Part $1 Ch $2 Epilogue\nStory been unlock.
 r:"^第(\d+)部 第(\d+)章$"=Part $1 Chapter $2
-r:"^(\d+)部 第(\d+)章$"= $1 Chapter $2
+r:"^(\d+)部 第(\d+)章$"=🎵 $1 Chapter $2
 r:"^第(\d+)章$"=Chapter $1
 r:"^(\d+)部 第(\d+)章 第(\d+)話$"=Part $1 Chapter $2 Episode $3
 r:"^幕間・(.{1,5})$"=Interlude $1
@@ -50,7 +50,7 @@ r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Stor
 個別にストーリーを閲覧することもできます。=You can also browse individual stories.
 メインシナリオ第2部 第16章 幕間までのストーリーを\nスキップして閲覧済みにしますか？\n\nスキップした場合、以下の報酬を獲得できます。=Do you want to skip the story up to the main scenario part 2 chapter 16 interlude and mark it as read?\n\nIf you skip it, you will get the following rewards.
 
----Story Menu==
+---Story Menu---
 
 メイン=Main
 アストライア大陸を\n舞台にした物語を\n見ることができます=View stories set on the Continent of Astraea.
