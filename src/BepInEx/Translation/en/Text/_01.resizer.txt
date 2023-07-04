@@ -223,3 +223,5 @@
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogAnimationViewer(Clone)/CaravanTurnStart(Clone)/root/base/goal/targetTurnCountText=ChangeFontSize(28)
 /PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON(Clone)/Button/Text=ChangeFontSize(15)
 /PartsDialogJewelStorePurchaseConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogEquipmentCraft(Clone)/EquipmentCraftMap/EquipmentTree/GoldPlate/transactionLawsButtonParent/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogEnhanceExtraEquip(Clone)/Right/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON (1)/Button/Text=ChangeFontSize(15)
