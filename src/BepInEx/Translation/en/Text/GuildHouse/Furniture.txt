@@ -4,7 +4,6 @@
 r:"^床([1-9×]{3})$"=$1
 必要面積=Size
 売却価格=Sale price
-sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]\[-\]$"=[3C404E]$1×[FFBB00,CE4F00]$2[-][-]
 sr:"^\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[FFBB00,CE4F00\](\d+)\[-\]生産、\[FFBB00,CE4F00\](\d+)\[-\]まで保管可能\[-\]$"=[3C404E]Produce $3 × [FFBB00,CE4F00]$4[-] every [FFBB00,CE4F00]$1$2[-]. Can store up to [FFBB00,CE4F00]$5[-].[-]
 sr:"^\[3C404E\]\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[FFBB00,CE4F00\](\d+)\[-\]生産、\[FFBB00,CE4F00\](\d+)\[-\]まで保管可能\[-\]\[-\]$"=[3C404E]Produce $3 × [FFBB00,CE4F00]$4[-] every [FFBB00,CE4F00]$1$2[-]. Can store up to [FFBB00,CE4F00]$5[-].[-]
 

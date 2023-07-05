@@ -2,6 +2,6 @@
 明日はこちらをご用意して\nお待ちしてますね=I will have this ready\nfor you tomorrow,\nAruji-sama.
 
 sr:"^(.+)×(\d+)を\n獲得しました$"=Receive\n$1 × $2.
+
 sr:"^(.+)×(\d+)\n(.+)×(\d+)を\n獲得しました$"=Receive\n$1 × $2\n$3 × $4.
-ジュエル×100\nスキップチケット×20を\n獲得しました
 r:"^(.{3,4}) Anniversary スペシャル$"=$1 Anniversary Special

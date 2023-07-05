@@ -58,6 +58,7 @@ r:"^レベル(\d)$"=Level $1
 【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] The next dice\nroll will always be a 3, and the following roll a 6.
 【料理】ダイスの目が必ず「1」になる=[Cooking] The next dice roll will always be a 1.
 【料理】次のターン数のカウントをスキップする=[Cooking] Skipping the count for the next turn.
+【料理】「マイルマス」「トレ\nジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile rank increased by 1.
 
 
 ---GMA/Checkpoint---

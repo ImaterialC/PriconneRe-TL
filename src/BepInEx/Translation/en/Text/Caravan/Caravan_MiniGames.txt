@@ -1,5 +1,5 @@
 ------
-r:"^(\d+)マイル([×3]{2})? 獲得！$"=$1$2 Miles acquired!
+r:"^(\d+)マイル([×\d]{2})? 獲得！$"=$1$2 Miles acquired!
 獲得トレジャーはありません。=No Treasures obtained.
 獲得トレジャー=Obtained Treasures
 個=
@@ -35,30 +35,6 @@ r:"^(\d+)ターン以内に到着$"=Arrive in $1 turns
 至高のジェムストーン=Supreme Gemstone
 至高のクラウン=Supreme Crown
 
-r:"^\[3C404E\]平凡なインゴットを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Ingots.[-]
-r:"^\[3C404E\]平凡なルーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Runes.[-]
-r:"^\[3C404E\]平凡なスクロールを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Scrolls.[-]
-r:"^\[3C404E\]平凡なアーティファクトを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Artifacts.[-]
-r:"^\[3C404E\]平凡なティアラを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Tiaras.[-]
-r:"^\[3C404E\]平凡なジェムストーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Gemstones.[-]
-r:"^\[3C404E\]平凡なクラウンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Ordinary Crowns.[-]
-
-r:"^\[3C404E\]貴重なインゴットを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Ingots.[-]
-r:"^\[3C404E\]貴重なルーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Runes.[-]
-r:"^\[3C404E\]貴重なスクロールを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Scrolls.[-]
-r:"^\[3C404E\]貴重なアーティファクトを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Artifacts.[-]
-r:"^\[3C404E\]貴重なティアラを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Tiaras.[-]
-r:"^\[3C404E\]貴重なジェムストーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Gemstones.[-]
-r:"^\[3C404E\]貴重なクラウンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Precious Crowns.[-]
-
-r:"^\[3C404E\]至高のインゴットを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Ingots.[-]
-r:"^\[3C404E\]至高のルーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Runes.[-]
-r:"^\[3C404E\]至高のスクロールを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Scrolls.[-]
-r:"^\[3C404E\]至高のアーティファクトを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Artifacts.[-]
-r:"^\[3C404E\]至高のティアラを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Tiaras.[-]
-r:"^\[3C404E\]至高のジェムストーンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Gemstones.[-]
-r:"^\[3C404E\]至高のクラウンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained [-][FFBB00,CE4F00]$1[-][3C404E] Supreme Crowns.[-]
-
 至高の未鑑定トレジャー=Supreme Unappraised Treasure
 貴重な未鑑定トレジャー=Precious Unappraised Treasure
 平凡な未鑑定トレジャー=Ordinary Unappraised Treasure
@@ -73,21 +49,11 @@ r:"^\[3C404E\]至高のクラウンを \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\
 [f6d75e,f68600]至高のジェムストーン[-]=[f6d75e,f68600] Supreme Gemstone [-]
 [f6d75e,f68600]至高の未鑑定トレジャー[-]=[f6d75e,f68600]Supreme Unappraised Treasure[-]
 
-r:"^\[f6d75e,f68600\]至高のスクロール×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Scroll x$1[-]
-r:"^\[f6d75e,f68600\]至高のインゴット×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Ingot x$1[-]
-r:"^\[f6d75e,f68600\]至高のルーン×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Rune x$1[-]
-r:"^\[f6d75e,f68600\]至高のアーティファクト×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Artifact x$1[-]
-r:"^\[f6d75e,f68600\]至高のティアラ×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Tiara x$1[-]
-r:"^\[f6d75e,f68600\]至高のクラウン×(\d+)\[-\]$"=[f6d75e,f68600]Supreme Crown x$1[-]
-r:"^\[f6d75e,f68600\]至高のジェムストーン×(\d+)\[-\]$"=[f6d75e,f68600] Supreme Gemstone x$1[-]
-
-
 正体不明な謎のお宝。ギルド管理協会出張所まで持ち込むとカリンに鑑定してもらえる。鑑定の結果、レアリティが上がる場合がある。=An unidentified, mysterious treasure. Karin will appraise it if you bring it all the way to the Guild's branch office. Appraisals can increase the rarity.
 正体不明な謎のお宝。ギルド管理協会出張所まで持ち込むとカリンに鑑定してもらえる。=An unidentified, mysterious treasure. If you bring it to the Guild Management Association branch office, it'll be appraised by Karin.
 非常に珍しいトレジャー。ギルド管理協会出張所まで持ち込むと、多額のキャラバンコインに換金できる。=An extremely rare treasure. If you bring it to the Guild Management Association branch office, you can exchange it for a large amount of Caravan Coins.
 珍しいトレジャー。ギルド管理協会出張所まで持ち込むと、キャラバンコインに換金できる。=A rare treasure. If you bring it to the Guild Management Association branch office, you can exchange it for Caravan Coins.
 平凡なトレジャー。ギルド管理協会出張所まで持ち込むと、少額のキャラバンコインに換金できる。=Ordinary treasure. If you bring it to the Guild Management Association branch office, you can exchange it for a few Caravan Coins.
-
 
 落ちてくるリンゴや宝箱をキャッチしましょう！\n画面の左右をタッチすると移動できますよ！=Let's catch falling apples and treasure chests! Since you play on PC, you can use the Left← and Right→ arrow keys on the keyboard or a joystick.
 スタート=Start
@@ -110,3 +76,5 @@ r:"^\[f6d75e,f68600\]至高のジェムストーン×(\d+)\[-\]$"=[f6d75e,f68600
 マイルを消費して\nレアガチャを引きます。\nよろしいですか？=Spend Miles to draw the Rare Gacha?
 マイルを消費して\nプレミアムガチャを引きます。\nよろしいですか？=Spend Miles to draw the Premium Gacha?
 ノーマルガチャを無料で引きます。\n\nよろしいですか？=Draw the Normal Gacha for free?
+
+sr:"^\[3C404E\](.+)を \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained\n[FFBB00,CE4F00]$2 × [-]$1![-]

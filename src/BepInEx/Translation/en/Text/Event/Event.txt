@@ -164,7 +164,6 @@ r:"^討伐証(\d+)枚を消費して、以下のアイテムを獲得できま�
 r:"^(\d+)回交換はできません。$"=You do not have any Victory Medals.
 
 sr:"^\[3C404E\]([^\[]+)\[-\]$"=[3C404E]$1[-]
-sr:"^\[3C404E\]([^ ]+) x\[-\]\[FFBB00,CE4F00\](\d+)\[-\]$"=[3C404E]$1 × [-][FFBB00,CE4F00]$2[-]
 ボスNORMAL討伐で解放！=Defeat boss(N) to Unlock!
 解放条件=Unlock Condition
 [FFBB00,CE4F00]イベント限定キャラをGETしよう！[-]=[FFBB00,CE4F00]Get event-limited characters![-]
@@ -173,8 +172,7 @@ sr:"^\[3C404E\]([^ ]+) x\[-\]\[FFBB00,CE4F00\](\d+)\[-\]$"=[3C404E]$1 × [-][FFB
 未読EPISODE=Unread Episode
 sr:"^\[3C404E\]([べ-ヺー＆]+)との信頼度エピソード\n「\[FFBB00,CE4F00\](.+)\[-\]」が\n解放されました。\[-\]$"="[3C404E]$1 Intimacy  Episode\n"[FFBB00,CE4F00]$2[-]"\nHas been unlocked.[-]"
 sr:"^イベント「エピソード・オブ・パイレーツ　([\s\S]+)」のスペシャルエピソードが解放されました。$"="The special episode of the event "Episode of \n$1" has been unlocked."
-sr:"^(.+)(（.{2,10}）)?が解放されました。$"=$1$2 has been Unlocked.
-sr:"^(.+)が\n解放されました。$"=$1\nhas been Unlocked.
+sr:"^(.+)(（.{2,10}）)?が(\n)?解放されました。$"=$1$2$3 has been Unlocked.
 イベント限定キャラ解放=Event Limited Character has been Unlocked
 条件を達成したためスキップチケットを使用することができるようになりました。=Because you have met the conditions\nYou can now use Skip Tickets.
 sr:"^([べ-ヺー＆]+)との信頼度$"=Intimacy with $1
