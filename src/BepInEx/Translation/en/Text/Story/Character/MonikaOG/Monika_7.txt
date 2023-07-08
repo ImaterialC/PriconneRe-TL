@@ -3,7 +3,7 @@
 男性客２=Male Customer 2
 ギャラリーたち=Everyone in the Gallery
 
-r:"^モニカは街の女性たちから子供扱いを受けて憤り、「自分は([\s\S]{2,10})の恋人だ」と出任せを言う。証明のためにキスしようとするが、注目を受けて恥ずかしくなり(.{2,10})を殴り飛ばす。$"=Monika, angered by being treated like a child by the women in the town, impulsively declares, "I am $1's lover." In an attempt to prove it, she tries to kiss $1 but gets embarrassed by the attention and ends up slapping him instead.
+r:"^モニカは街の女性たちから子供扱いを受けて憤り、「自分は([\s\S]{2,10})の恋人だ」と出任せを言う。証明のためにキスしようとするが、注目を受けて恥ずかしくなり(.{2,10})を殴り飛ばす。$"="Monika, angered by being treated like a child by the women in the town, impulsively declares, "I am $1's lover." In an attempt to prove it, she tries to kiss $1 but gets embarrassed by the attention and ends up slapping him instead."
 
 r:"^(?:\[3C404EFF\])?モニカと食事に来た(.{2,10})。$"=$1 had come to eat with Monika.
 

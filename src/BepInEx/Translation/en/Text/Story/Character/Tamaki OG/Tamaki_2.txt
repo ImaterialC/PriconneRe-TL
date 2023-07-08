@@ -1,6 +1,6 @@
 子猫=Kitten
 r:"^猫好きなタマキは、子猫に([\s\S]{2,10})と同じ名前を付ける。その子猫がいなくなり、タマキと共に子猫を捜索する[\s\S]{2,10}。無事子猫を保護した後、タマキは感謝の言葉を述べた。$"=Tamaki, who loves cats, named a kitten the same as $1. When the kitten went missing, $1 searched for the kitten with Tamaki. After safely rescuing the kitten, Tamaki thanked him.
-r:"^(?:\[3C404EFF\])?(.{2,10})はある日、ランドソルの郊外で\n大勢の猫を集めているタマキを見かけた。$"=One day, Cornelia saw Tamaki gathering a lot of cats in the outskirts of Landosol.
+r:"^(?:\[3C404EFF\])?(.{2,10})はある日、ランドソルの郊外で\n大勢の猫を集めているタマキを見かけた。$"=One day, $1 saw Tamaki gathering a lot of cats in the outskirts of Landosol.
 r:"^(?:\[3C404EFF\])?あ、(.{2,10})！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(?:\[3C404EFF\])?先日はどうもありがとうにゃ。$"=Oh, $1!\nThank you very much for the other day~nya.
 何をしてるかって……？\nそれは当然、猫にエサをあげてるのにゃ！=What am I doing...? That's obvious, I'm feeding the cats~nya!
 この辺りの猫は、\n全部あたしが世話をしてるにゃ！=I take care of all the cats around here~nya!
@@ -28,7 +28,7 @@ r:"^(?:\[3C404EFF\])?って、(?:\[3C404EFF\])?にゃはは！(?:\[3C404EFF\])?\
 r:"^(?:\[3C404EFF\])?……にゃ？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?別に(.{2,10})のことじゃにゃいんだから、(?:\[3C404EFF\])?\nそんな微妙な顔しないでほしいのにゃ。$"=...Nya? It's not about $1, so don't make such a subtle face~nya.
 r:"^(?:\[3C404EFF\])?ほら、(.{2,10})も、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?あたしと一緒に猫と遊ぶのにゃ！$"=Come on, $1 too, play with the cats with me~nya!
 それから一週間後──=A week later──
-r:"^(?:\[3C404EFF\])?あ……(?:\[3C404EFF\])(.{2,10})……$"=Ah...$1...
+r:"^(?:\[3C404EFF\])?あ……(?:\[3C404EFF\])?(.{2,10})……$"=Ah...$1...
 泣きそうな顔してるけど、何かあったの？=You look like you're about to cry, what happened?
 かわいがってた猫が一匹、いなくなっちゃったにゃ……\nキミと同じ名前を付けた、あの子猫にゃ……=The cat I was taking care of disappeared~nya... The kitten I named after you~nya...
 まだ子猫だから、きっと食べるものがなくて困ってるにゃ……\nどこに行っちゃったのにゃ……=It's still a kitten, so it must be in trouble without food~nya... Where did it go~nya...

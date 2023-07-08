@@ -63,9 +63,11 @@ RANK2で解放されます。=Will be unlocked in RANK 2.
 強化素材を選択してください。=Please select a refinement material.
 装備可能なスロットがありません。=There is no slot that can be equipped.
 以下のアイテムを消費しておまかせ強化しますか？=Use the following items to enhance\ncharacter as recommended?
+おまかせ無料強化対象キャラ=Character(s) eligible for free enhancement
 キャラLvとスキルLvのみ強化のため、原鉱は消費できません。=Only Character Lv and Skill Lv are enhanced, so no Ore can be consumed.
 r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]に解放します。\nよろしいですか？\[-\]$"=[3C404E]Consume items to increase Lv limit to [FFBB00,CE4F00]$1[-].\nIs this OK? [-]
-
+おまかせ装備強化確認=Confirm Equipment Refinement
+以下のアイテムを消費しておまかせ装備強化します。\nよろしいですか？=Spend the following items\nto strengthen your equipment?
 キャラ解放確認=Unlock Character
 解放する=Unlock
 アイテムが不足しています。=Insufficient Items.
@@ -197,7 +199,7 @@ EXスキルスロット=EX skill slot
 消費Pt=PT Cost
 装備を手に入れてランクアップしよう！=Get the equipment to raise rank!
 おすすめクエスト=Quest
----=
+------
 強化ボーナス=Stat Bonus
 プリンセスオーブ詳細=Princess Orb details
 強化段階=Stage
@@ -286,7 +288,7 @@ RANKボーナス詳細のステータス=Status Details
 （キャラ）=(Character)
 
 専用装備をまだ装備していません。\n作成するにはRANK7にする必要があります。\n\nランクアップしますか？=You can't equip Unique Equipment yet\nMust be RANK7 or higher to create Unique Equipment.\n\nWould you like to rank up?
----=NPC
+---NPC---
 「キャラLv限界突破」によりプレイヤーLvを超えてキャラLvを強化できます。ステータスアップやスキルLvの強化上限が解放されるので各キャラのメモリーピースとマナを集め、限界突破を目指しましょう。=You can leveling the chara Lv beyond the PLv by "Chara Lv limit breakthrough". The status and skill Lv will be Uncaped,so collect memory shards and mana for each character and aim to limit break them.
 
 プレイヤーLvが、キャラクターLvの上限になります。\nメインクエストやミッション達成で、プレイヤーEXPをGETし\nLvアップを目指しましょう。=Character levels can only go as high as your player level.\nComplete Main Quests and missions to earn player EXP and raise your level.

@@ -54,6 +54,7 @@ r:"^レベル(\d)$"=Level $1
 ダイス 残り1回=1 More Roll
 【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Increases Minigame Miles acquisition by 100%.
 【イベント】マイルマスの獲得マイルが100%アップする=[Event] Increase Miles gained from Mile Tiles by 100%.
+【料理】ダイスの目が必ず「5」になる=[Cooking] The next dice roll will always be a 5.
 【料理】ダイスが2個に増える=[Cooking] Rolls 2 dice on the next roll.
 【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] The next dice\nroll will always be a 3, and the following roll a 6.
 【料理】ダイスの目が必ず「1」になる=[Cooking] The next dice roll will always be a 1.

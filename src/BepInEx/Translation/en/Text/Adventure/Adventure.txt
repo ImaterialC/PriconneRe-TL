@@ -99,7 +99,7 @@ r:"^本日のチケットでの時間短縮可能回数 ([0-9/]+)$"=Today's Fast
 再出発しない=Return
 再出発する=Start again
 レースの神様=Race Deity
-ファントムキャッツ登場！=Phantom Cats Appears!
+ファントムキャッツ登場！=Phantom Cat Appears!
 
 r:"^([0-9/]+)キャラ$"=$1 Chara
 戦力不足のため実行できない遠征があります。=There are Adventures that cannot be carried out due to insufficient Power.

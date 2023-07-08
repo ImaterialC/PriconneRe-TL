@@ -24,13 +24,13 @@
 探索せよ！『砂瀑の底都』=Investigate! "Sandfall's Capital"
 甘くて優しいおすそ分け=Sweet and Gentle Sharing
 
------------------------
+--------------------
 sr:"^秘境『雲海の山脈』にやってきた(.{2,10})と美食殿。『雲海の山脈』には貴重な食材があると語るペコリーヌ。慣れない山登りでへばるキャルを励ますコッコロ。そして一同は秘境攻略に挑む……$"=$1 and the Gourmet Guild travel to the remote Cloudtop Peak which Pecorine claims is home to rare ingredients. Karyl complains while Kokkoro encourages her. Together, the four aim to conquer this uncharted land!
 
 『雲海の山脈』で倒した魔物の肉を全員で美味しく食べる美食殿の面々。『雲海の山脈』以外の各地の秘境にも美味・珍味があると言い、やる気を見せるペコリーヌだった。=The Gourmet Guild defeats the monster on Cloudtop Peak and savors its delicious meat. Pecorine gets excited at the prospect of other uncharted lands hiding strange and wonderful delicacies.
 
 
-sr:"^新たな秘境『密林の大樹』にやってきた(.{2,10})と美食殿。今回は大樹に実る『世界一おいしいフルーツ』を狙っているのだと語るペコリーヌ。そして一同は秘境攻略に挑む……$"=$1 and the Gourmet Guild venture into Deepwood Oak, where Pecorine believes they will find the "most delicious fruit in the world." Together, the four set out to challenge another uncharted land...
+sr:"^新たな秘境『密林の大樹』にやってきた(.{2,10})と美食殿。今回は大樹に実る『世界一おいしいフルーツ』を狙っているのだと語るペコリーヌ。そして一同は秘境攻略に挑む……$"="$1 and the Gourmet Guild venture into Deepwood Oak, where Pecorine believes they will find the "most delicious fruit in the world." Together, the four set out to challenge another uncharted land..."
 
 『密林の大樹』で『世界一おいしいフルーツ』を手に入れたものの、外皮が硬く、調理法がわからない美食殿の面々。とりあえず町まで戻って、調理方法を模索することになったのだった。=The Gourmet Guild obtains the "most delicious fruit in the world" in the heart of Deepwood Oak, but the skin is so tough that they can't figure out how to cook it. They decide to head back to town and do more research.
 
@@ -42,7 +42,7 @@ sr:"^新たな秘境『断崖の遺跡』にやってきた(.{2,10})と美食殿
 
 難関の『蒼海の孤塔』を攻略した一同は、「神すら魅了する」と言われる食材を手に入れた。辺りに鳴り響き始めた雷の音に、神の怒りではないかと怯えながら一同は急いで帰途につくのだった。=The gang has overcome the traps of Tideborne Tower and found the delicacy that "God Himself prefers above all other food." A sudden crack of thunder that sounds suspiciously like divine wrath sends them hurrying home.
 
-sr:"^『絶世の卵』を使った卵かけご飯を味わうため、『毒瘴の闇稜』にやってきた美食殿と(.{2,10})。しかし山からは毒の瘴気が吹き出しているため、ペコリーヌたちは苦戦しながら登ることに。$"=Seeking the "Ultimate Egg" for the greatest bowl of egg over rice in history, $1 and the Gourmet Guild venture to Darkblight Crag. A noxious miasma spews from the mountain, making their climb slow and treacherous.
+sr:"^『絶世の卵』を使った卵かけご飯を味わうため、『毒瘴の闇稜』にやってきた美食殿と(.{2,10})。しかし山からは毒の瘴気が吹き出しているため、ペコリーヌたちは苦戦しながら登ることに。$"="Seeking the "Ultimate Egg" for the greatest bowl of egg over rice in history, $1 and the Gourmet Guild venture to Darkblight Crag. A noxious miasma spews from the mountain, making their climb slow and treacherous."
 
 山のヌシを倒し『絶世の卵』を入手した一同。気味の悪いヌシの姿を見て当初は卵を食べることを拒んでいたキャルだったが、ペコリーヌの勧めでようやく食べたその味に感動を覚えるのだった。=The Gourmet Guild vanquishes the Lord of the Mountain and obtains the "Ultimate Egg!" After seeing the beast that laid it, Karyl is hesitant to eat the egg, but after a little convincing from Pecorine, she relents.
 

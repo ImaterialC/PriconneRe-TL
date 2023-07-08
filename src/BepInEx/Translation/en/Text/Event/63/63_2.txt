@@ -4,7 +4,7 @@
 伝説の吸血鬼が語り継がれる地にて、主として祭り上げられたイリヤ。\n玉座に座る彼女の元には、魔物たちがひっきりなしに訪れていた。=In the land where legends of the legendary vampire has been passed down, Illya is now worshipped as their ruler. As she sits on her throne, many monsters starts arriving.
 [3C404EFF]伝説の吸血鬼が語り継がれる地にて、主として祭り上げられたイリヤ。[3C404EFF]\n玉座に座る彼女の元には、魔物たちがひっきりなしに訪れていた。=In the land where legends of the legendary vampire has been passed down, Illya is now worshipped as their ruler. As she sits on her throne, many monsters starts arriving.
 
-r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物たちがイリヤのもとに集う。地位と名声を高めるため、イリヤはユキ、(.{2,10})と共に、謁見とは名ばかりのニンニク地獄を乗り越えていく。$"=As the news of the legendary vampire's return spreads, monsters began to seek an audience. Illya, Yuki, and $1 will have to overcome "Garlic Hell" in order to increase their status and reputation.
+r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物たちがイリヤのもとに集う。地位と名声を高めるため、イリヤはユキ、(.{2,10})と共に、謁見とは名ばかりのニンニク地獄を乗り越えていく。$"="As the news of the legendary vampire's return spreads, monsters began to seek an audience. Illya, Yuki, and $1 will have to overcome "Garlic Hell" in order to increase their status and reputation."
 
 r:"^(?:\[3C404EFF\])?ハッハッハ！　(?:\[3C404EFF\])?見ておるか(.{2,10})よ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?これまではちゃんと伝わっておらんかったかもしれんが、(?:\[3C404EFF\])?\nわらわは本来、(?:\[3C404EFF\])?こうして魔の者たちに崇められる存在だったのじゃ。$"=Hahaha! Are you watching, $1? You might not have known this before, but demons originally worshipped me.
 

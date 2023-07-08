@@ -225,3 +225,10 @@
 /PartsDialogJewelStorePurchaseConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogEquipmentCraft(Clone)/EquipmentCraftMap/EquipmentTree/GoldPlate/transactionLawsButtonParent/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogEnhanceExtraEquip(Clone)/Right/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON (1)/Button/Text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogChargesStaminaConfirm(Clone)/TopTable/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogUniqueEquipmentEnhanceConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogBulkRecommendedEnhanceConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogShopScrollConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogTogetherEquip(Clone)/transactionLawsButtonParent/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+
+/PartsDialogBulkRecommendedEnhance(Clone)/Main/ContentNode/btn_deselection/Label=ChangeFontSize(18)

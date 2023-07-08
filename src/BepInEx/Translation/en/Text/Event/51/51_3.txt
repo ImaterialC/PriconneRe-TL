@@ -1,4 +1,4 @@
-r:"^ユカリは、ジュンが休暇でキャンプ場へ来ていると知って麦しゅわを勧める。一方ランドソルでは、(.{2,10})が所属ギルドなどから行方不明扱いされているアオイとユカリの行方を追っていた。$"=Yukari, upon learning that Jun is on vacation and at the campsite, suggests having some "Barley Soda". Meanwhile, in Landosole, $1 is investigating the whereabouts of Aoi and Yukari, who have been reported missing by their guilds.
+r:"^ユカリは、ジュンが休暇でキャンプ場へ来ていると知って麦しゅわを勧める。一方ランドソルでは、(.{2,10})が所属ギルドなどから行方不明扱いされているアオイとユカリの行方を追っていた。$"="Yukari, upon learning that Jun is on vacation and at the campsite, suggests having some "Barley Soda". Meanwhile, in Landosol, $1 is investigating the whereabouts of Aoi and Yukari, who have been reported missing by their guilds."
 
 キャンプ場で最高の一杯を求めるユカリは、\nジュンと共に薪割りを行っていた──=In search of the perfect drink at the campsite, Yukari and Jun were splitting firewood together──
 ……うん。これくらい用意すれば、薪は持つだろう。\nそれじゃあ、食事まで少し休もうか。=...Yeah, if we prepare this much, we should have enough firewood. Well then, let's take a little break until mealtime.

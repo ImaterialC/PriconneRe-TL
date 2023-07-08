@@ -30,7 +30,7 @@
 じぇんじぇんおいしくな～～～～い！！！！=It's not delicious at all!!
 悲鳴っ！？\n今助けに行くっ！！=Someone screamed!? I'll go help right away!!
 レジャー施設に似つかわしくない悲鳴を聞いたジュンは、\n広大なキャンプ場を駆け抜けていくのだった。=Upon hearing a scream that doesn't suit a leisure facility, Jun rushes through the vast campground.
-r:"^(?:\[3C404EFF\])?──一方その頃、ユカリの足取りを求める(.{2,10})は、(?:\[3C404EFF\])?\n【フォレスティエ】を訪ねていた。$"=Meanwhile, $2, who is seeking Yukari's whereabouts, visits the "Forestier" guild.
+r:"^(?:\[3C404EFF\])?──一方その頃、ユカリの足取りを求める(.{2,10})は、(?:\[3C404EFF\])?\n【フォレスティエ】を訪ねていた。$"="Meanwhile, $2, who is seeking Yukari's whereabouts, visits the "Forestier" guild."
 あらあら～……\nお知り合いが失踪？　大変だわ～……=Oh my... A acquaintance has gone missing? That's troublesome...
 ユカリさん、だったわよね？\n聖騎士の格好をしたエルフさん……ハツネちゃん、どうかしら？=It was Yukari-san, right? The elf dressed as a holy knight... Did you know anything, Hatsune-chan?
 う～～ん……私は見てないなぁ。\n同じエルフでも、そんな人は珍しくてきっと目立つからね。=Hmm... I haven't seen her. Even among the elves, someone like that would stand out, so I'm sure I would notice.

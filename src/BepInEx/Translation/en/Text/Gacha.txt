@@ -254,7 +254,7 @@ r:"^([0-9.]+)th Anniv. SPキャラ交換ガチャセット$"=$1th Anniv. Special
 選べるプライズガチャ=Choose prize gacha
 
 選択のピックアップキャラがプライズと一致していません。=The selection Focus chara\ndoes not match with the prize.
----SP FES
+---SP FES---
 スペシャルフェスガチャ=SpFES Gacha
 [3C404E]キャラ交換Ptが共通のガチャ[-]=[3C404E]Exchange Pt Sp FES Chara Gacha[-]
 SPフェスキャラ交換Ptが共通のガチャ=Exchange Pt Sp FES Chara Gacha
@@ -270,4 +270,4 @@ r:"^(\[[0-9A-F,]{6,13}\])終了まであと([0-9: ]+)\[-\]$"=$1End in: $2[-] to 
 sr:"^\[FFBB00\,CE4F00\]★3キャラ出現率2倍\n限定「([べ-ヺー＆]+)(（.+）)?」出現率UP！\[-\]$"=[FFBB00,CE4F00]Boosted rates for the Limited ★3\n「$1$2」![-]
 
 
-sr:"^(.{2,12}ガチャ)「(\d+)回引く」$"=$1 "Draw $2 Times".
+sr:"^(.{2,12}ガチャ)「(\d+)回引く」$"="$1 "Draw $2 Times"."

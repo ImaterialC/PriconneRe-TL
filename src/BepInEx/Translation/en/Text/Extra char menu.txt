@@ -4,7 +4,7 @@
 説明=Description
 セットする=Set
 アイテム交換=Item Exchange
-アイテムを集めてキャラを解放=Collect items to free your character.
+アイテムを集めてキャラを解放=Collect items to unlock the character.
 
 セットするマナの量を指定してください。=Specify the amount of Mana.
 r:"^最小単位は([0-9,]+)です。$"=Minimum unit is $1.
@@ -35,7 +35,7 @@ sr:"^セットする([べ-ヺー＆]+)のメモリーピースの\n数を変更�
 sr:"^([べ-・ー＆]{2,16})解放 $"=$1 Unlocked
 交換数確認=Check Number Confirmation
 
-
+このキャラのアイテム交換にはカリンの解放が必要です。=To exchange items for this character, Karin must be unlocked.
 以下のアイテムを消費してセットしました。=The following items were consumed and set.
 アイテム交換完了=Item Exchange Is Completed
 

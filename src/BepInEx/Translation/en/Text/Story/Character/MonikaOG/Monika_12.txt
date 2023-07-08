@@ -18,7 +18,7 @@ r:"^(?:\[3C404EFF\])?そ、(?:\[3C404EFF\])?それは(.{2,10})の方だろう！
 そして戦いの舞台はこちら！\n相手を戦闘不能にするか。降参させるか。\nそれともこのフィールドの場外へ追い込むのか……戦略はさまざま！=And the stage of the battle is here! You can either make your opponent incapacitated or surrender. Or you can push them out of this field... There are various strategies!
 さぁさぁ！\nここからは手に汗握る真剣勝負を、刮目せよっ！！=Come on!\nFrom here on, watch carefully the serious battle that will make you sweat!
 それでは第一試合！　選手入場です！\n両チーム、どうぞ中央へ！=Let's begin the first match! Players are entering! Both teams, please head to the center!
-r:"^(?:\[3C404EFF\])?よし！　(?:\[3C404EFF\])?私たちの出番だ。(?:\[3C404EFF\])?\n(.{2,10})、(?:\[3C404EFF\])?行くぞ！$"=All right! It's our turn.\nCornelia, let's go!
+r:"^(?:\[3C404EFF\])?よし！　(?:\[3C404EFF\])?私たちの出番だ。(?:\[3C404EFF\])?\n(.{2,10})、(?:\[3C404EFF\])?行くぞ！$"=All right! It's our turn.\n$1, let's go!
 げっ！？　あの時の……\n言っておくが、子供が相手でも手加減はしないぞ。=Geh?! That guy from that time... I'll tell you, I won't go easy on you even if you're a kid.
 奇遇だね！　それとも運命なのかな！？\nでも敵同士だなんて、僕は悲しいよ……！=What a coincidence! Or is it fate!? But I'm sad that we're enemies...
 なんだ、おまえたちか。因縁があるな。\nお互い、いい戦いをしよう。=I see, it's you guys. We have some history. Let's have a good fight.
@@ -28,7 +28,7 @@ r:"^(?:\[3C404EFF\])?よし！　(?:\[3C404EFF\])?私たちの出番だ。(?:\[3
 
 r:"^(?:\[3C404EFF\])?貴公の予想した通りで来たな。(?:\[3C404EFF\])?私が迎え撃つ。(?:\[3C404EFF\])?\n援護は頼んだぞ！　(?:\[3C404EFF\])?(.{2,10})！$"=It's just as my predicted. I'll intercept them. Cover me! $5!
 受けてみよっ……せりゃあっ！！=Let's try it......Take this!!
-羽のように軽そうな子だし、\n空中斬りなんてすぐ振り払えると思ったけど、ちょっとこれは……！　==She looked as light as a feather, and I thought she could easily shake off an aerial slash, but this is...!　
+羽のように軽そうな子だし、\n空中斬りなんてすぐ振り払えると思ったけど、ちょっとこれは……！　=She looked as light as a feather, and I thought she could easily shake off an aerial slash, but this is...!　
 よし！　体勢が崩れた！\nこのまま宙返りで着地！　背後からトドメの──=Yes! He lost his balance! I'll land with a somersault and finish him off from behind with──
 一撃でノックダウン！？　これはすごい！\nしかしモニカ選手、ここで止まらず、\n疾風のような速さでフィールドを駆け抜けていきます！=A knockdown in one hit!? This is amazing! But Monika doesn't stop there, she runs across the field with the speed of a gale!
 目指すその先には──=Her target is──
@@ -82,7 +82,7 @@ r:"^(?:\[3C404EFF\])?こうしてモニカと(.{2,10})は順調に順位を上�
 ん？　モニカ選手……剣を構えて集中しています！\nどうやらまだ奥の手があるようですね！=Hm? Monika... is concentrating with her sword ready! It seems she still has a trump card!
 私が新奥義を放ち、形勢逆転を狙う。\nその準備を終えるまで、あいつが時間を稼いでくれる。=I'll unleash a new secret technique and turn the tide. Until I finish preparing, he'll buy me some time.
 しかし……=But...
-r:"^(?:\[3C404EFF\])?しかし、(?:\[3C404EFF\])?それを黙って見ているわけがありません！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?クラッシャー兄弟の総攻撃に……(?:\[3C404EFF\])?ああっ！(?:\[3C404EFF\])?\nCornelia選手ダウン！$"=But they won't let that happen quietly! The Crusher Brothers' all-out attack on... oh no! $1 is down!
+r:"^(?:\[3C404EFF\])?しかし、(?:\[3C404EFF\])?それを黙って見ているわけがありません！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?クラッシャー兄弟の総攻撃に……(?:\[3C404EFF\])?ああっ！(?:\[3C404EFF\])?\n$1選手ダウン！$"=But they won't let that happen quietly! The Crusher Brothers' all-out attack on... oh no! $1 is down!
 やはり失敗か……！　奥義が成功するとも限らん……\n私も前線へ戻って、あいつと一緒に戦った方が……！　=So it was a failure after all...! There's no guarantee my ultimate technique will succeed... I should go back to the front lines and fight alongside him...!　
 おおっ！？　立ち上がりました……！！\nそして兄の方に……しがみついた！？　弟は引きはがそうとしますが……\nうまい！　見事な避けっぷりです！！=Oooh!? He got up...!! And he clung to The Brothers...! The Brothers tries to shake him off, but... nice! He dodges skillfully!!
 死に物狂いです！　ある種の執念すら感じます！\n一体なにが彼をここまで突き動かすのでしょうか！？=He's desperate! I can feel a kind of tenacity from him! What drives him to this extent!?
@@ -108,7 +108,7 @@ r:"^(?:\[3C404EFF\])?(.{2,10})、(?:\[3C404EFF\])?歩けるか？(?:\[3C404EFF\]
 見ず知らずの私を心配して危険な場所までついてきて、\n困っている私のために、見返りもなく力を貸してくれた。=You worried about me, a stranger, and followed me to a dangerous place. You helped me without asking for anything in return when I was in trouble.
 私を子供のようにからかうこともあるが、\n私を私以上に信頼してくれて、迷っている時は道を一緒に探してくれた。=You sometimes tease me like a child, but you trust me more than I trust myself. When I'm lost, you help me find the way.
 背を預けあえる仲間は多くいるが、\n貴公が隣にいると……どんな状況でも、不思議と負ける気がしない。\n……貴公が、私をそうさせるのだ。=I have many comrades who can rely on each other, but when you're next to me... No matter what situation, I don't feel like losing. ...You make me feel that way.
-r:"^(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?最初から『男前』だったぞ。$"=$1, you were "manly" from the start.
+r:"^(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?最初から『男前』だったぞ。$"="$1, you were "manly" from the start."
 い、今のは友人としての意見だ！\nにしても、ずいぶんと歩きにくそうだな……よし！=T-that was just my opinion as a friend! Anyway, you look very hard to walk... Here!
 私の肩に掴まれ。\n腕を回すのは無理でも、支えぐらいにはなるはずだ。=Hold on to my shoulder. Even if you can't wrap your arm around me, I should be able to support you.
 よし、これなら……わっとっと！？=OK, this should do it... Whoa!
@@ -116,7 +116,7 @@ r:"^(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?最初から『男前』だっ
 しかし、そうやって私たちはここまで来たのだ。\n支えあっていこうではないか！　これからも、ずっとずっとな！=But that's how we got here. Let's support each other! From now on, forever and ever!
 我が友よ、準備はいいか！？\nではあの表彰台に向かって……さぁ行くぞっ！！=My friend, are you ready!? Then let's head to that podium... Let's go!!
 
-r:"^(?:\[3C404EFF\])?支え支えられ、モニカと(.{2,10})は表彰台へと上がった。(?:\[3C404EFF\])?\n次の日、新聞に掲載された小さな軍人のインタビューには、(?:\[3C404EFF\])?\n祖国やランドソルのこと……友への感謝の言葉が綴られていたという。$"=Supporting and supported by each other, Monika and Cornelia climbed up to the podium. The next day, a small interview with a soldier was published in the newspaper. It contained words of gratitude to their country, Landosol... and their friend.
+r:"^(?:\[3C404EFF\])?支え支えられ、モニカと(.{2,10})は表彰台へと上がった。(?:\[3C404EFF\])?\n次の日、新聞に掲載された小さな軍人のインタビューには、(?:\[3C404EFF\])?\n祖国やランドソルのこと……友への感謝の言葉が綴られていたという。$"=Supporting and supported by each other, Monika and $1 climbed up to the podium. The next day, a small interview with a soldier was published in the newspaper. It contained words of gratitude to their country, Landosol... and their friend.
 
 [3C404EFF]これより、[3C404EFF]開会式を始めたいと思います！[3C404EFF]\nまずはご覧ください！　[3C404EFF]この大観衆を！=We will now begin the opening ceremony!\nPlease take a look at this crowd!
 [3C404EFF]おおおおっ！=Ohhhh!

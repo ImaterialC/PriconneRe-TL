@@ -40,7 +40,7 @@
 
 ……はい？=......Pardon?
 
-ほら、最近ランドソルでキャンプが流行ってるだろう？\n先月、私も山奥のキャンプ場に家族で行ったんだよ。=You see, camping has been popular in Landosole lately, right? Last month, I went to a campsite deep in the mountains with my family.
+ほら、最近ランドソルでキャンプが流行ってるだろう？\n先月、私も山奥のキャンプ場に家族で行ったんだよ。=You see, camping has been popular in Landosol lately, right? Last month, I went to a campsite deep in the mountains with my family.
 
 そしたら、野外で飲む麦しゅわが格別の味だったんだ！\nすっかりキャンプ飲みにハマってしまったよ！=And there, drinking barley soda outdoors was an extraordinary experience! I got completely hooked on camping and drinking!
 
@@ -48,7 +48,7 @@
 
 ああ。大自然の中で……\n小鳥のさえずりを聴き、新鮮な空気を吸い、星を眺め……\nそして、誰にも邪魔されないで、麦しゅわと真っ向から向き合う……=Yes. In the midst of nature... listening to the chirping of birds, breathing fresh air, gazing at the stars... and facing barley soda head-on without any interruptions...
 
-ランドソルのこういった飲食店で飲むのももちろんいいが、\nキャンプ場で飲む麦しゅわは、また別次元の体験さ。=Drinking barley soda in restaurants like this in Landosole is fine, of course, but drinking it at a campsite is a whole different dimension of experience.
+ランドソルのこういった飲食店で飲むのももちろんいいが、\nキャンプ場で飲む麦しゅわは、また別次元の体験さ。=Drinking barley soda in restaurants like this in Landosol is fine, of course, but drinking it at a campsite is a whole different dimension of experience.
 
 だから、出張だのなんだのと理由をつけて、\nここのところ週末はずっとソロキャンプさ！\n家族の前で満足いくまで飲むのは気も引けるからね！　はははっ！=So, make up some excuses like a business trip or something, and recently, I've been solo camping every weekend! I feel awkward drinking to my heart's content in front of my family! Hahaha!
 
@@ -283,11 +283,11 @@ r:"^(?:\[3C404EFF\])?──一方その頃、ランドソルでは、(?:\[3C404E
 [3C404EFF]……[3C404EFF]それは？=...What's that?
 [3C404EFF]淑女よ、[3C404EFF]山に行け！！=Lady, go to the mountains!!
 [3C404EFF]……はい？=......Pardon?
-[3C404EFF]ほら、[3C404EFF]最近ランドソルでキャンプが流行ってるだろう？[3C404EFF]\n[3C404EFF]先月、[3C404EFF]私も山奥のキャンプ場に家族で行ったんだよ。=You see, camping has been popular in Landosole lately, right? Last month, I went to a campsite deep in the mountains with my family.
+[3C404EFF]ほら、[3C404EFF]最近ランドソルでキャンプが流行ってるだろう？[3C404EFF]\n[3C404EFF]先月、[3C404EFF]私も山奥のキャンプ場に家族で行ったんだよ。=You see, camping has been popular in Landosol lately, right? Last month, I went to a campsite deep in the mountains with my family.
 [3C404EFF]そしたら、[3C404EFF]野外で飲む麦しゅわが[3C404EFF]格別の味だったんだ！[3C404EFF]\n[3C404EFF]すっかりキャンプ飲みにハマってしまったよ！=And there, drinking barley soda outdoors was an extraordinary experience! I got completely hooked on camping and drinking!
 [3C404EFF]キャンプ飲み……？[3C404EFF]\n[3C404EFF]それって[3C404EFF]野外で飲むってことよね？=Camping and drinking...? That means drinking outdoors, right?
 [3C404EFF]ああ。[3C404EFF]大自然の中で……[3C404EFF]\n小鳥のさえずりを聴き、[3C404EFF]新鮮な空気を吸い、[3C404EFF]星を眺め……[3C404EFF]\nそして、[3C404EFF]誰にも邪魔されないで、[3C404EFF]麦しゅわと真っ向から向き合う……=Yes. In the midst of nature... listening to the chirping of birds, breathing fresh air, gazing at the stars... and facing barley soda head-on without any interruptions...
-[3C404EFF]ランドソルのこういった飲食店で飲むのも[3C404EFF]もちろんいいが、[3C404EFF]\n[3C404EFF]キャンプ場で飲む麦しゅわは、[3C404EFF]また別次元の体験さ。=Drinking barley soda in restaurants like this in Landosole is fine, of course, but drinking it at a campsite is a whole different dimension of experience.
+[3C404EFF]ランドソルのこういった飲食店で飲むのも[3C404EFF]もちろんいいが、[3C404EFF]\n[3C404EFF]キャンプ場で飲む麦しゅわは、[3C404EFF]また別次元の体験さ。=Drinking barley soda in restaurants like this in Landosol is fine, of course, but drinking it at a campsite is a whole different dimension of experience.
 [3C404EFF]だから、[3C404EFF]出張だのなんだのと理由をつけて、[3C404EFF]\nここのところ週末はずっとソロキャンプさ！[3C404EFF]\n[3C404EFF]家族の前で満足いくまで飲むのは[3C404EFF]気も引けるからね！　[3C404EFF]はははっ！=So, make up some excuses like a business trip or something, and recently, I've been solo camping every weekend! I feel awkward drinking to my heart's content in front of my family! Hahaha!
 [3C404EFF]キャンプ飲み、[3C404EFF]かぁ……[3C404EFF]\n[3C404EFF]そもそもキャンプなんてやったことないけど……[3C404EFF]大丈夫かしら……？=Camping and drinking, huh...? I've never done camping in the first place... Is it okay?
 [3C404EFF]ああ。[3C404EFF]最近のブームのおかげで、[3C404EFF]いい道具も安価で手に入るし、[3C404EFF]\nキャンプ場のホスピタリティも充実してるから心配なんていらないさ。=Ah. Thanks to the recent trend, you can get good camping equipment at affordable prices, and the hospitality at campsites is excellent, so there's no need to worry.
