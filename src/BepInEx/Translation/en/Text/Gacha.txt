@@ -241,10 +241,10 @@ r:"^([0-9.]+)th Anniv. SPキャラ交換ガチャセット$"=$1th Anniv. Special
 チケットガチャ=Ticket Gacha
 所持チケット=Tickets Owned
 使用期限=Expiry:
----first time in gacha
+---first time in gacha---
 未解放キャラを仲間にした場合、ガチャ演出前に\n「ダウンロード中」表示ができます。=If you pull an unowned character, there will be "Downloading" before the gacha animation.
 ガチャ設定=Gacha Settings
----Start Dash Gacha
+---Start Dash Gacha---
 
 [3C404E]スタートダッシュガチャ開催！[-]=[3C404E]Start Dash Gacha in Period![-]
 [3C404E]ゲーム開始から７日間限定！[-]=[3C404E]Limited to 7 days from the start of the game! [-]
@@ -262,11 +262,11 @@ SPフェスキャラ交換Ptの説明=SpFES Character exchange Pt description
 所持SPフェスキャラ交換Pt=SpFES Char. Exchange Pts
 SPフェスキャラ交換Ptリセット=SpFES Char. Exchange Pt Reset
 SPフェスキャラ交換Ptが不足しています。=Insufficient SpFES character exchange Pt.
-r:"^(\[[0-9A-F,]{6,13}\])終了まであと([0-9: ]+)\[-\]$"=$1End in: $2[-] to end
+r:"^(\[[0-9A-F,]{6,13}\])終了まであと([0-9: ]+)\[-\]$"=$1End in: $2[-]
 
 
 有償ジュエルで=Use Paid Jewels
-ペシャルフェス=Special Festival
+ペシャルフェス=pecial Festival
 sr:"^\[FFBB00\,CE4F00\]★3キャラ出現率2倍\n限定「([べ-ヺー＆]+)(（.+）)?」出現率UP！\[-\]$"=[FFBB00,CE4F00]Boosted rates for the Limited ★3\n「$1$2」![-]
 
 
