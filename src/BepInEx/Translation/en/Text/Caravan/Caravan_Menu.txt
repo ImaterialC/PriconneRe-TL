@@ -50,17 +50,23 @@ r:"^レベル(\d)$"=Level $1
 
 ---Effects---
 発動中の効果一覧=List of Active Effects
+ダイス 残り3回=3 More Rolls
 ダイス 残り2回=2 More Rolls
 ダイス 残り1回=1 More Roll
+次に開いたマイルショップで全商品が20%以上割引される。=The next time the Mile Shop opens, all items will be discounted by at least 20%.
 【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Increases Minigame Miles acquisition by 100%.
 【イベント】マイルマスの獲得マイルが100%アップする=[Event] Increase Miles gained from Mile Tiles by 100%.
-【料理】ダイスの目が必ず「5」になる=[Cooking] The next dice roll will always be a 5.
+【イベント】マイルショップの全商品が20%以上割引される=[Event] All items in the Mile Shop will be discounted by at least 20%.
 【料理】ダイスが2個に増える=[Cooking] Rolls 2 dice on the next roll.
-【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] The next dice\nroll will always be a 3, and the following roll a 6.
-【料理】ダイスの目が必ず「1」になる=[Cooking] The next dice roll will always be a 1.
 【料理】次のターン数のカウントをスキップする=[Cooking] Skipping the count for the next turn.
 【料理】「マイルマス」「トレ\nジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile rank increased by 1.
-
+【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] The next dice\nroll will always be a 3, and the following roll a 6.
+【料理】ダイスの目が必ず「1」になる=[Cooking] The next dice roll will always be a 1.
+【料理】ダイスの目が必ず「2」になる=[Cooking] The next dice roll will always be a 2.
+【料理】ダイスの目が必ず「3」になる=[Cooking] The next dice roll will always be a 3.
+【料理】ダイスの目が必ず「4」になる=[Cooking] The next dice roll will always be a 4.
+【料理】ダイスの目が必ず「5」になる=[Cooking] The next dice roll will always be a 5.
+【料理】ダイスの目が必ず「6」になる=[Cooking] The next dice roll will always be a 6.
 
 ---GMA/Checkpoint---
 以下のアイテムを獲得しました。=Obtained the following items:
@@ -78,7 +84,7 @@ r:"^レベル(\d)$"=Level $1
 
 ---Appraisal---
 鑑定結果=Appraisal Results
-合計獲得コイン=Total Coins Acquired
+合計獲得コイン=Coins Received
 以下の通りトレジャーを清算しました。=Appraised the following Treasure:
 以下の通り、トレジャーをお引き受けしました。=Appraised the following Treasure:
 平凡なトレジャー=Ordinary Treasure
@@ -112,9 +118,9 @@ r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B
 現在マイルショップが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Shop is currently open.\nIt will not be available\nafter using the Dice or a Dish.\nContinue?
 
 料理=Dish
-特殊系=Special type
-補助系=Support type
-移動系=Mobile type
+特殊系=Special
+補助系=Support
+移動系=Movement
 料理詳細=Dish Details
 獲得料理=Acquired Dish
 以下の料理を獲得しました。=Obtained the following Dishes:

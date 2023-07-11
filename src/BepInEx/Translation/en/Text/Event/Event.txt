@@ -124,8 +124,6 @@ r:"^挑戦(\d+)回目$"=Party $1
 
 交換=Roll
 r:"^(\d+)枚消費$"=Exchange $1
-r:"^(\d+)回目$"="Lap $1"
-r:"^(\d+)回目～$"="Lap $1+"
 全ラインナップの確認=Full Lineup
 リセット対象報酬=Reset Rewards
 通常報酬=Normal Rewards

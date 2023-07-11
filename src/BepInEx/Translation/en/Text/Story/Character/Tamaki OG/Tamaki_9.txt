@@ -29,7 +29,7 @@ r:"^(?:\[3C404EFF\])?ねえねえ、(?:\[3C404EFF\])?(.{2,10})。(?:\[3C404EFF\]
 俺も行くかな。\nまたな、タマキちゃん！=I'll go too.\nSee you later, Tamaki-chan!
 あ、毎度あり！\nまた来てにゃ～！=Ah, thank you for coming!\nCome again~nya!
 ……さっきのお客さんたちの話なんだけど、\nもしかしたら、\nまたアクドーイ商会みたいなのが現れたのかもしれないにゃ。=...About what those customers were talking about earlier,\nmaybe there's another Krook'd & Co. out there~nya.
-ファントムキャッツの出番では？=Is it time for the Phantom Cats?
+ファントムキャッツの出番では？=Is it time for the Phantom Cat?
 その通りにゃ！\nみんなをいじめる悪い商会なんて、\nファントムキャッツが懲らしめてやるにゃ！=That's right~nya!\nThe Phantom Cat will teach those bad trading companies a lesson~nya!
 まずは、噂が本当かどうかを調査することから始めるにゃ。\nアクドーイのときみたいに、ニセ情報で失敗するのはもうたくさんにゃ。=First of all, we need to investigate whether the rumor is true or not~nya.\nWe don't want to fail again with false information like we did with Krook~nya.
 商会の情報に強そうなアキノにも協力してもらって……にゃ？\nどうかしたのかにゃ？=We'll ask Akino for help too...~nya?\nWhat's wrong~nya?
@@ -48,7 +48,7 @@ r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?あたしはなにを考えている
 ………………ま、まあ、考えなくもないにゃ。=................W-well, I'm not completely against it.
 うにゃ～～！！\nあたしは何を言ってるのにゃ～～！！！！　=Unyaaaa!!\nWhat am I saying~nya!!!!　
 い、今からでも、\nなんでもいいから理由をつけて断らにゃいと……そうにゃ！　=I-I have to refuse him somehow...\nthat's it! I'll make up some excuse and say no...
-でも、義賊というのは、とっても大変なのにゃ。\nだから、テストさせてもらうにゃ！\n名付けて、『ファントムキャッツの相棒テスト』にゃ！=But being a righteous thief is very hard~nya. That's why I'll test you~nya! I call it, "Phantom Cats' Partner Test"~nya!
+でも、義賊というのは、とっても大変なのにゃ。\nだから、テストさせてもらうにゃ！\n名付けて、『ファントムキャッツの相棒テスト』にゃ！=But being a righteous thief is very hard~nya. That's why I'll test you~nya! I call it, "Phantom Cat's Partner Test"~nya!
 言っておくけど、このテストは厳しいにゃよ？\n一緒に行動するからには、それは相棒にゃ！\n互いを支え合うぐらいの能力がなければならないのにゃ！=I'll tell you, this test is tough~nya.\nSince we'll act together, you're my partner~nya! You have to have the ability to support each other~nya!
 
 r:"^(?:\[3C404EFF\])?だから、(?:\[3C404EFF\])?いくら(.{2,10})に不思議な力があっても、(?:\[3C404EFF\])?\nこんなひょろひょろの腕じゃ、(?:\[3C404EFF\])?テストを受けることすら……$"=So, even if $1 has a mysterious power~nya, with such a weak arm~nya, you can't even take the test~nya...
@@ -71,7 +71,7 @@ r:"^(?:\[3C404EFF\])?I see...(?:\[3C404EFF\])?はあ……(?:\[3C404EFF\])?(.{2,
 言っておくけど、次の試験は最大の難関にゃ。\nさあみんな、こっちに来るにゃ～～！！=Just so you know, the next exam will be the biggest hurdle~nya. Come on, everyone, come here~nya~!!
 にゃにゃーん！=Nya-nyan!
 ……にゃあ？=...Nya?
-ふっふっふっ、ファントムキャッツの相棒ならば、\n猫に好かれてしかるべきなのにゃ！\nさあ、この猫たちに懐かれてみるにゃ！=Fufufu, if you're a Phantom Cats' partner, you should be liked by cats~nya! Now, let's see if these cats can get attached to you~nya!
+ふっふっふっ、ファントムキャッツの相棒ならば、\n猫に好かれてしかるべきなのにゃ！\nさあ、この猫たちに懐かれてみるにゃ！=Fufufu, if you're a Phantom Cat's partner, you should be liked by cats~nya! Now, let's see if these cats can get attached to you~nya!
 ふっふっふっ、\nこの子たちはあたし以外に懐かない……これで失格確定にゃ！　=Fufufu, these kids won't get attached to anyone but me... this is a sure disqualification~nya!
 r:"^(?:\[3C404EFF\])?悪く思わないでほしいにゃ……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?これも、(?:\[3C404EFF\])?(.{2,10})のためなのにゃ！　$"=Don't take it personally~nya...\nthis is for $1's sake too~nya!
 さ～て、\n猫たちに懐かれることはできたかにゃ？\nダメだったら諦めても……=Now then,\nhave you been able to get attached to the cats~nya?\nIf you can't, you can give up...
@@ -112,7 +112,7 @@ r:"^(?:\[3C404EFF\])?──こうしてタマキは、(?:\[3C404EFF\])?\n(.{2,10
 [3C404EFF]俺も行くかな。[3C404EFF]\n[3C404EFF]またな、[3C404EFF]タマキちゃん！=I'll go too.\nSee you later, Tamaki-chan!
 [3C404EFF]あ、[3C404EFF]毎度あり！[3C404EFF]\n[3C404EFF]また来てにゃ～！=Ah, thank you for coming!\nCome again~nya!
 [3C404EFF]……さっきのお客さんたちの話なんだけど、[3C404EFF]\n[3C404EFF]もしかしたら、[3C404EFF]\nまたアクドーイ商会みたいなのが現れたのかもしれないにゃ。=...About what those customers were talking about earlier,\nmaybe there's another Krook'd & Co. out there~nya.
-[3C404EFF]その通りにゃ！[3C404EFF]\nみんなをいじめる悪い商会なんて、[3C404EFF]\nファントムキャッツが懲らしめてやるにゃ！=That's right~nya!\nThe Phantom Cats will teach those bad trading companies a lesson~nya!
+[3C404EFF]その通りにゃ！[3C404EFF]\nみんなをいじめる悪い商会なんて、[3C404EFF]\nファントムキャッツが懲らしめてやるにゃ！=That's right~nya!\nThe Phantom Cat will teach those bad trading companies a lesson~nya!
 [3C404EFF]まずは、[3C404EFF]噂が本当かどうかを調査することから始めるにゃ。[3C404EFF]\n[3C404EFF]アクドーイのときみたいに、[3C404EFF]ニセ情報で失敗するのはもうたくさんにゃ。=First of all, we need to investigate whether the rumor is true or not~nya.\nWe don't want to fail again with false information like we did with Krook~nya.
 [3C404EFF]商会の情報に強そうなアキノにも協力してもらって……[3C404EFF]にゃ？[3C404EFF]\nどうかしたのかにゃ？=We'll ask Akino for help too...~nya?\nWhat's wrong~nya?
 [3C404EFF]は、[3C404EFF]早すぎるにゃ！[3C404EFF]\nまだ30秒もたってないにゃ！=~nya? That's too fast~nya!\nIt hasn't even been 30 seconds~nya!
@@ -126,7 +126,7 @@ r:"^(?:\[3C404EFF\])?──こうしてタマキは、(?:\[3C404EFF\])?\n(.{2,10
 [3C404EFF]………………ま、[3C404EFF]まあ、[3C404EFF]考えなくもないにゃ。=................W-well, I'm not completely against it.
 [3C404EFF]うにゃ～～！！[3C404EFF]\n[3C404EFF]あたしは何を言ってるのにゃ～～！！！！　=Unyaaaa!!\nWhat am I saying~nya!!!!　
 [3C404EFF]い、[3C404EFF]今からでも、[3C404EFF]\nなんでもいいから理由をつけて断らにゃいと……[3C404EFF]そうにゃ！　=I-I have to refuse him somehow...\nthat's it! I'll make up some excuse and say no...
-[3C404EFF]でも、[3C404EFF]義賊というのは、[3C404EFF]とっても大変なのにゃ。[3C404EFF]\nだから、[3C404EFF]テストさせてもらうにゃ！[3C404EFF]\n[3C404EFF]名付けて、[3C404EFF]『ファントムキャッツの相棒テスト』にゃ！=But being a righteous thief is very hard~nya. That's why I'll test you~nya! I call it, "Phantom Cats' Partner Test"~nya!
+[3C404EFF]でも、[3C404EFF]義賊というのは、[3C404EFF]とっても大変なのにゃ。[3C404EFF]\nだから、[3C404EFF]テストさせてもらうにゃ！[3C404EFF]\n[3C404EFF]名付けて、[3C404EFF]『ファントムキャッツの相棒テスト』にゃ！=But being a righteous thief is very hard~nya. That's why I'll test you~nya! I call it, "Phantom Cat's Partner Test"~nya!
 [3C404EFF]言っておくけど、[3C404EFF]このテストは厳しいにゃよ？[3C404EFF]\n[3C404EFF]一緒に行動するからには、[3C404EFF]それは相棒にゃ！[3C404EFF]\n互いを支え合うぐらいの能力がなければならないのにゃ！=I'll tell you, this test is tough~nya.\nSince we'll act together, you're my partner~nya! You have to have the ability to support each other~nya!
 [3C404EFF]あ、[3C404EFF]改めて見ると、[3C404EFF]結構がっちりしてるにゃ。[3C404EFF]\n[3C404EFF]年下だし、[3C404EFF]弟みたいって色々とからかってたけど、[3C404EFF]\n[3C404EFF]なんだか[3C404EFF]ずいぶんと頼れる感じになったにゃ……=Ah, now that I look at him again~nya, he's pretty firm~nya. He's younger than me, and I teases him about how he looks like a little brother, but he seems pretty reliable~nya...
 [3C404EFF]な、[3C404EFF]なんか見てるだけでも照れてきたにゃ……[3C404EFF]\n[3C404EFF]早くテストを終わらせて、[3C404EFF]失格にするにゃ！　=S-somehow I feel embarrassed just looking at him~nya...\nLet's finish the test quickly and disqualify him~nya!

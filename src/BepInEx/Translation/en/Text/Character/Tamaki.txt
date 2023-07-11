@@ -4,10 +4,10 @@
 マキ=amaki 
 弱きを助け強きをくじく猫娘=A catgirl who fights against the strong on behalf of the weak
 
-巨悪に挑むは二人の義賊=Two thieves who challenge the great evil
-乙女心とたい焼きと=Maiden's heart and taiyaki
+巨悪に挑むは二人の義賊=Two Righteous Thieves vs the Great Evil
+乙女心とたい焼きと=Maiden's Heart and Taiyaki
 ショック・ザ・キャット！=Shock the Cat!
-猫の心配、相棒知らず=Worrying about cats, not knowing your partner
+猫の心配、相棒知らず=Cat's Concern, Unaware of a Partner
 
 ドギマギ☆ダイエット=Dieting Delights
 発見せよビッグキャット=Finding Bigcat
@@ -33,7 +33,7 @@ ex
 マーベラスキャッツ=One Myarvelous Cat
 Skills+
 UB
-ねこねこファントムラッシュ=Neko Neko Phantom Rush
+ねこねこファントムラッシュ=Neko-Neko Phantom Rush
 魔法攻撃力が最も高い敵１キャラに物理特大ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加し、さらに物理防御力を特大ダウンさせる。=Deals massive P.DMG to the enemy with the highest M.ATK. If the target is an M-type, the damage is increased and additional P.DEF debuff by large amount.
 r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合物理防御力を(\d+)ダウン$"=If target is physical:\nDeals $1 P.DMG to an enemy.\n\nIf target is magic:\nDeals $2 P.DMG to an enemy.\nLowers P.DEF of an enemies by $3 for 18s.
 S1

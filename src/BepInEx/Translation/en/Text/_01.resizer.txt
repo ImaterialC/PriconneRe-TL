@@ -213,6 +213,7 @@
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCaravanMileShop(Clone)/Main/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_item_name=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishInfo(Clone)/GUIGroup_DishInfo/GUIGroup_DishInfo/DishInfoLabel=ChangeFontSize(12)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishInfo(Clone)/GUIGroup_DishInfo/GUIGroup_DishEffectInfo/DishEffectInfoLabel=ChangeFontSize(12)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCaravanAppraisalTreasure(Clone)/Main/TreasureResult/TotalGetCoin/Tween/TotalGetCoinLabel=ChangeFontSize(23)
 
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogCaravanDishSelect(Clone)/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_item_name=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogCaravanDishSelect(Clone)/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_description=ChangeFontSize(12)

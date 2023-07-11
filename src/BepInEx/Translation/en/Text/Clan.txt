@@ -408,8 +408,8 @@ sr:"^(.+)　Lv.(\d+)$"=$1 lv.$2
 お気に入り=Favorite
 バトルTLをコピーしました。=Copied the Battle Time Lines.
 ---lap---
-r:"^現在(\d+)周目$"=Lap $1
-r:"^(\d+)周目$"=Lap $1
+回目
+r:"^(?:現在)?(\d+)(?:周|回)目(～)?$"=Lap $1$2
 sr:"^\[FF9393,E82F71\](\d+月)クラン内ランキング一覧\[-\]$"=[FF9393,E82F71]In-Clan Rankings ($1)[-]
 sr:"^(\d+月)全クランランキング$"=Global Ranking($1)
 ---My Log---
