@@ -21,7 +21,7 @@
 次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=The next roll of the dice will always result in 1. Additionally, the count for the next turn will be skipped.
 次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=The next roll of the dice will always result in 3, and the subsequent roll of the dice will always result in 6.
 次にマイルマスに止まった際の獲得マイルが200%アップする。=When landing on the Mile Tile next, the Miles obtained will be increased by 200%.
-
+現在、移動系カテゴリの料理は食べられません。=Can't eat a Movement dish right now.
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
 [90A0BC]ランダムなイベントを発生させる。[-]=[90A0BC]Creates a random event.[-]
 [90A0BC]次に振るダイスの目が必ず「5」になる。[-]=[90A0BC]The next dice roll is always a 5.[-]

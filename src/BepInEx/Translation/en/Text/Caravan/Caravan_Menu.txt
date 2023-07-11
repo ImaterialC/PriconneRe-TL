@@ -67,7 +67,7 @@ r:"^レベル(\d)$"=Level $1
 【料理】ダイスの目が必ず「4」になる=[Cooking] The next dice roll will always be a 4.
 【料理】ダイスの目が必ず「5」になる=[Cooking] The next dice roll will always be a 5.
 【料理】ダイスの目が必ず「6」になる=[Cooking] The next dice roll will always be a 6.
-
+【料理】ダイスの目が1回目は必ず「8」に、2回目は必ず「1」になる=[Cooking] The next dice\nroll will always be an 8, and the following roll a 1.
 ---GMA/Checkpoint---
 以下のアイテムを獲得しました。=Obtained the following items:
 ボーナスレベル=Bonus level
