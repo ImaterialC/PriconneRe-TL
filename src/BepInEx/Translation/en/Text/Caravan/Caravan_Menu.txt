@@ -30,6 +30,8 @@ r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]日\[-\]$"=[FF7C4
 料理は1ターンに1品までしか食べられません。=You can only eat one Dish per turn.
 1ターン以内にギルド管理協会出張所へ到着=1 more turn to the GMA branch office.
 r:"^(\d+)ターン以内にギルド管理協会出張所へ到着$"=$1 more turns to the GMA branch office.
+ダイスを１個入手した。=Obtained Dice x1.
+残り99ターン=99 turns left
 
 ---Dish overwrite---
 上書き前効果=Pre-overwriting effect
@@ -57,6 +59,10 @@ r:"^レベル(\d)$"=Level $1
 【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Increases Minigame Miles acquisition by 100%.
 【イベント】マイルマスの獲得マイルが100%アップする=[Event] Increase Miles gained from Mile Tiles by 100%.
 【イベント】マイルショップの全商品が20%以上割引される=[Event] All items in the Mile Shop will be discounted by at least 20%.
+【料理】ミニゲームの獲得マイルが100%アップする=[Cooking] Increases Minigame Miles acquisition by 100%.
+【料理】マイルマスの獲得マイルが200%アップする=[Cooking] Increase Miles gained from Mile Tiles by 200%.
+【料理】マイルマスの獲得マイルが100%アップする=[Cooking] Increase Miles gained from Mile Tiles by 100%.
+【料理】マイルショップの全商品が20%以上割引される=[Cooking] All items in the Mile Shop will be discounted by at least 20%.
 【料理】ダイスが2個に増える=[Cooking] Rolls 2 dice on the next roll.
 【料理】次のターン数のカウントをスキップする=[Cooking] Skipping the count for the next turn.
 【料理】「マイルマス」「トレ\nジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile rank increased by 1.

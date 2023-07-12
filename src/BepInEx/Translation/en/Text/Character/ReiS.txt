@@ -1,0 +1,23 @@
+【物理】前衛で水刃の加護を纏い水面を駆ける渚の剣士。クリティカル時のダメージを底上げしＵＢ発動の度、纏う【水刃の加護】で全スキルダメージを上げ、敵陣を穿つ。=[Physical] A frontline swordswoman who adorns the protection of water blades and gracefully traverses the water's surface. With each activation of UB, their critical damage is enhanced, and their enveloping "Water Blade's Blessing" raises the damage of all skills, piercing through enemy lines.
+
+目の前の敵１キャラに物理特大ダメージを与え、さらに自分に【水刃の加護】を７つ追加する。【水刃の加護】は最大10まで追加される。このスキルのダメージは、【水刃の加護】の数に応じて増加し、１ヒットは必ずクリティカルする。=Deals massive P.DMG to the enemy in front, and adds 7 instances of "Water Blade's Blessing" to oneself. "Water Blade's Blessing" can be added up to a maximum of 10. The damage of this skill boosts based on the number of "Water Blade's Blessing" instances, and each hit is guaranteed to be a critical hit.
+
+自分の周囲の味方すべての物理攻撃力を特大アップさせ、目の前の敵１キャラに物理小ダメージを与える。このスキルの物理攻撃力の上昇量とダメージは、【水刃の加護】の数に応じて増加する。【水刃の加護】を１つ消費する。=Significantly boosts the P.ATK of all allies around oneself and deals small P.DMG to the enemy in front. The boost in P.ATK and the damage of this skill further boost based on the number of "Water Blade's Blessing" instances. Consumes 1 instance of "Water Blade's Blessing."
+
+目の前の敵１キャラに物理中ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。このスキルのダメージは、【水刃の加護】の数に応じて増加する。【水刃の加護】を１つ消費する。=Deals moderate P.DMG to the enemy in front and boosts damage taken from critical hits. The damage of this skill boosts based on the number of "Water Blade's Blessing" instances. Consumes 1 instance of "Water Blade's Blessing."
+
+自分の周囲の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップさせ、目の前の敵１キャラに物理大ダメージを与える。このスキルの物理攻撃力の上昇量とダメージは、【水刃の加護】の数に応じて増加する。さらに、自分のＴＰを中回復し、【水刃の加護】を１つ消費する。=Moderately boosts the P.ATK and P.crit of all allies around oneself and deals massive P.DMG to the enemy in front. The boost in P.ATK and the damage based on the number of "Water Blade's Blessing" stacks. Additionally, moderately recovers own TP and consumes 1 instance of "Water Blade's Blessing."
+
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを(\d+)アップ\n敵単体に(\d+)の物理ダメージ\n自分のＴＰを175回復$"=►Boosts P.ATK of allies within 100 range by $1 for 12s.\n►Boosts P.crit Rate of allies within 100 range by $2 for 12s.\n►Deals $3 P.DMG to a single enemy.\n►Recovers own TP by 175.
+
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n敵単体に(\d+)の物理ダメージ$"=►Boosts P.ATK of allies within 100 range by $1 for 12s.\n►Deals $2 P.DMG to an enemy.
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを16％アップ$"=►Deals $1 P.DMG to an enemy.\n►Reduce 16% P.Crit dmg resistance to an enemy for 12s.
+
+アズールショット=Azur Shot
+サマーオーシャングレイス=Summer Ocean Grace
+レイジングフラッド=Raging Flood
+レイジングフラッド+=Raging Flood+
+アンリミットサマー=Unlimited Summer
+アンリミットサマー+=Unlimited Summer+
+トゥインクルサマーソード=Twinkle Summer Sword

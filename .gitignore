@@ -2,6 +2,8 @@
 *.bak
 *.zip
 *.rar
+*.ass
+*.srt
 *.7z
 **/Texture/1dump
 **/temp/
