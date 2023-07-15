@@ -1,23 +1,23 @@
----Skills
----UB
+---Skills---
+---UB---
 シルフィードキャロル=Sylphide Carol
 【召喚】自分の目の前に３体の精霊を唱喚する。=[Summon] Summons three spirits directly in front of oneself.
 魔法攻撃を行う精霊を唱喚する\n最もＨＰが低い味方のＨＰを回復する精霊を唱喚する\n味方全体のＴＰを回復する精霊を唱喚する=Summons a spirit that performs M.ATKs.\nSummons a spirit that recovers the HP of the ally with the lowest HP.\nSummons a spirit that recovers the TP of all allies.
----S1
+---S1---
 一番物理攻撃力が高い味方１キャラの物理攻撃力を大アップさせる。=Large boost to the P.ATK of the ally with the highest P.ATK.
-r:"^味方単体の物理攻撃力を(\d+)アップ$"=Boosts an ally's P.ATK by $1.
----S2
-自分を中心とした範囲内の味方すべての物理防御力を中アップさせ、さらにＴＰを小回復する。=Moderate boost to the P.DEF of all allies in range, and recovers their TP by a small amount.
-r:"^範囲内の味方の物理防御力を(\d+)アップ\n範囲内の味方のＴＰを(\d+)回復$"=Boosts P.DEF of all allies in range by $1.\nRecovers TP of allies in range by $2.
----ex
+r:"^味方単体の物理攻撃力を(\d+)アップ$"=►Boosts an ally's P.ATK by $1.
+---S2---
+自分を中心とした範囲内の味方すべての物理防御力を中アップさせ、さらにＴＰを小回復する。=Moderate boost to the allies' P.DEF in range, and recovers their TP by a small amount.
+r:"^範囲内の味方の物理防御力を(\d+)アップ\n範囲内の味方のＴＰを(\d+)回復$"=►Boosts allies' P.DEF within range by $1.\n►Recovers allies' TP within range by $2.
+---ex---
 ギフテッドアンセム=Gifted Anthem
----Skills+
----UB
----S1
-一番物理攻撃力が高い味方１キャラの物理攻撃力と物理クリティカルを大アップさせる。このキャラの魔法攻撃力が高い程、物理攻撃力の上昇量がアップする。=The P.ATK of 1 character with the highest P.ATK and P.Crit Rate are improved. The higher the M.ATK power of this character, the higher the increase in P.ATK.
-r:"^味方単体の物理攻撃力を(\d+)アップ\n味方単体の物理クリティカルを(\d+)アップ$"=Up $1 up to the P.ATK of the ally alone\nUp $2 up to the P.Crit Rate of allies
----S2
----ex
+---Skills+---
+---UB---
+---S1---
+一番物理攻撃力が高い味方１キャラの物理攻撃力と物理クリティカルを大アップさせる。このキャラの魔法攻撃力が高い程、物理攻撃力の上昇量がアップする。=Greatly boosts the P.ATK and P.crit rate of the ally with the highest P.ATK. The boost in P.ATK is further enhanced based on the character's high M.ATK..
+r:"^味方単体の物理攻撃力を(\d+)アップ\n味方単体の物理クリティカルを(\d+)アップ$"=►Boosts an ally's P.ATK by $1.\n►Boosts an ally's P.crit rate by $2.
+---S2---
+---ex---
 ギフテッドアンセム+=Gifted Anthem+
----UE
-翠霊杖ルーンスノウ=Midori Spirit Stuck Roonnou
+---UE---
+翠霊杖ルーンスノウ=Emerald Cane Rune Snow

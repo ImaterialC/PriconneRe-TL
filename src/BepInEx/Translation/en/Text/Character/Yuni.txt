@@ -29,7 +29,7 @@ r:"^味方単体の物理攻撃力を(\d+)アップ\n味方単体の物理クリ
 
 
 緩衝因子探求=A Study in Insulating Factors
-r:"^毎秒ＴＰを5回復する\n(\d+)ダメージ分の魔法無効バリアを展開する\n自分の魔法攻撃力を初期値の70%ダウン$"=Cast time: 0.57s\n►Restore allies' TP by 5/s for 10s.\n►Deploys Barrier to all allies that negates $1 M.DMG for 12s\n►Lowers own M.ATK by 70% for 12s.
+r:"^毎秒ＴＰを5回復する\n(\d+)ダメージ分の魔法無効バリアを展開する\n自分の魔法攻撃力を初期値の70%ダウン$"=Cast time: 0.57s\n►Restore allies' TP by 5/s for 10s.\n►Deploys Barrier to all allies that negates $1 M.DMG for 12s.\n►Lowers own M.ATK by 70% for 12s.
 
 味方全体に継続ＴＰ回復状態を付与し、魔法無効バリアを展開するが、自分の魔法攻撃力を大ダウンさせる。=Grants TP regen to all allies and deploys a barrier that negates magical damage around them, but lowers own magical attack by a large amount.
 

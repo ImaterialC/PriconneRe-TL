@@ -20,7 +20,7 @@ r:"^敵単体に(\d+)の物理ダメージ\nフィールド展開中、敵単体
 
 目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を大アップさせ、さらに自分の周囲の味方すべてのＴＰを小回復する。【フィールド展開中】ダメージがアップし、自分の周囲の味方すべての物理攻撃力を大アップさせ、ＴＰを小回復する。=Inflicts P.DMG(M) to the enemy, and boost own P.ATK(L). If field deployed boost the damage also boost the P.ATK(XL) of all allies and recovers TP(S) of all allies around you.
 
-r:"^敵単体に(\d+)の物理ダメージ\nフィールド展開中、敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\nフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方のＴＰを80回復$"=Cast time: 0.94s\n►Recovers TP of allies within 150 range by 80.\nIf Field not deployed:\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $3 for 12s.\n\nIf Field deployed:\n►Deals $2 P.DMG to an enemy.\n►Boosts allies' P.ATK within 150 range by $4 for 12s.
+r:"^敵単体に(\d+)の物理ダメージ\nフィールド展開中、敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\nフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方のＴＰを80回復$"=Cast time: 0.94s\n►Recovers allies' TP within 150 range by 80.\nIf Field not deployed:\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $3 for 12s.\n\nIf Field deployed:\n►Deals $2 P.DMG to an enemy.\n►Boosts allies' P.ATK within 150 range by $4 for 12s.
 
 ひとくちだけなの=Just a Bite
 自分の周囲に物理攻撃力と物理クリティカルを大アップさせるフィールドを展開する。さらに自分の周囲の味方すべての物理攻撃クリティカル時のダメージを小アップさせ、自分のＴＰ上昇を中アップさせる。=Creates a field around you that Large boost P.ATK and Pcrit rate. In addition, slightly boost P.crit dmg of all nearby allies, and moderately boost own TP Boost.

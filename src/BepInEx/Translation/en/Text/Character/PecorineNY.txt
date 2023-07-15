@@ -11,11 +11,11 @@ r:"^自分の残りＨＰが最大ＨＰの80％未満の場合、敵単体に(\
 
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の残りＨＰが最大ＨＰの80％以上の場合、味方全体の物理攻撃力を(\d+)アップ$"=Cast time: 0.465s.\nBoosts own P.ATK by $1 (+9%HP) for 12s.\nIf HP > 80%, Boosts allies' P.ATK by $2 (+5%HP) for 12s.
 
-自分の物理攻撃力を小アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。=Boosts your P.ATK by a small amount. If HP > 80%, it further increases the P.ATK of all allies by a medium amount. The amount of increase in P.ATK is increased according to your remaining HP.
+自分の物理攻撃力を小アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。=Boosts your P.ATK by a small amount. If HP > 80%, it further increases the allies' P.ATK by a medium amount. The amount of increase in P.ATK is increased according to your remaining HP.
 
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の残りＨＰが最大ＨＰの80％以上の場合、味方全体の物理攻撃力を(\d+)アップ\n自分の残りＨＰが最大ＨＰの90％以上の場合、自分のＴＰを(\d+)回復$"=Cast time:0.465s\nBoosts own P.ATK by $1 (+11%HP) for 12s.\nIf HP > 80%, Boosts allies' P.ATK by $2 (+6%HP) for 12s.\nIf HP > 90%, Recovers own TP by $3.
 
-自分の物理攻撃力を小アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。自分の残りＨＰが90％以上だった場合、さらに自分のＴＰを中回復する。=Boosts your P.ATK by a small amount. If HP > 80%, it further increases the P.ATK of all allies by a medium amount. The amount of increase in P.ATK is increased according to your remaining HP. If HP > 90%, your TP will be restored by a medium amount.
+自分の物理攻撃力を小アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。自分の残りＨＰが90％以上だった場合、さらに自分のＴＰを中回復する。=Boosts your P.ATK by a small amount. If HP > 80%, it further increases the allies' P.ATK by a medium amount. The amount of increase in P.ATK is increased according to your remaining HP. If HP > 90%, your TP will be restored by a medium amount.
 
 r:"^敵単体に(\d+)の物理ダメージ\n自分の残りＨＰが最大ＨＰの80％以上の場合、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.795s.\nDeals $1 P.DMG to an enemy.\nIf HP > 80%, Lowers an enemy's P.DEF by $2 for 12s.
 

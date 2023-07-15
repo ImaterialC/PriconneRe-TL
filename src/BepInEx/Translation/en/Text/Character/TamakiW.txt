@@ -6,7 +6,7 @@
 
 味方全体のＴＰを小回復させ、さらに物理攻撃力を大アップさせる。=It restored small amounts of TP for all allies and increased their physical attack power even further
 
-r:"^敵単体に(\d+)の物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n自分のＴＰ上昇を(\d+)アップ\n自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK by $2.\n►Increases own TP Boost by $3.\n►Recovers own TP by $4.
+r:"^敵単体に(\d+)の物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n自分のＴＰ上昇を(\d+)アップ\n自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK by $2.\n►Boosts own TP Boost by $3.\n►Recovers own TP by $4.
 
 
 キャッツショータイム+=Cats Showtime+

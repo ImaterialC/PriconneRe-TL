@@ -1,10 +1,10 @@
-【魔法】中衛で、聖夜の街に幸せを運ぶ双子の妹サンタ。自分の魔法攻撃力に応じて効果が上がる味方全体への攻撃力強化に加え、単体特大魔法攻撃で勝利の旋律を奏でる。=[Magic] A younger Twin Santa who brings happiness to the streets of Xmas Eve from MG. Boosts the M.ATK of all allies whose effect boost according to your M.ATK, you can play the melody of victory with a single-target massive M.ATK.
+【魔法】中衛で、聖夜の街に幸せを運ぶ双子の妹サンタ。自分の魔法攻撃力に応じて効果が上がる味方全体への攻撃力強化に加え、単体特大魔法攻撃で勝利の旋律を奏でる。=[Magic] A younger Twin Santa who brings happiness to the streets of Xmas Eve from MG. Boosts the allies' M.ATK whose effect boost according to your M.ATK, you can play the melody of victory with a single-target massive M.ATK.
 
 スペシャルスイートギフト=Special Suite Gift
 r:"^敵単体に(\d+)の魔法ダメージ\n味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Boosts allies' M.ATK by $2.
-目の前の敵１キャラに魔法特大ダメージを与え、味方全体の魔法攻撃力を大アップさせる。魔法攻撃力の上昇量は自身の魔法攻撃力に応じて最大５倍までアップする。=Deals massive M.DMG to the first enemy in front, and Large boost the M.ATK of all allies. boost M.ATK by up to 5 times depending on own M.ATK.
+目の前の敵１キャラに魔法特大ダメージを与え、味方全体の魔法攻撃力を大アップさせる。魔法攻撃力の上昇量は自身の魔法攻撃力に応じて最大５倍までアップする。=Deals massive M.DMG to the first enemy in front, and Large boost the allies' M.ATK. boost M.ATK by up to 5 times depending on own M.ATK.
 
-目の前の敵１キャラに魔法大ダメージを与え、味方全体の魔法攻撃力を中アップさせる。魔法攻撃力の上昇量は自身の魔法攻撃力に応じて最大５倍までアップする。=Deals large M.DMG to the first enemy in front, and moderate boost the M.ATK of all allies. boost M.ATK by up to 5 times depending on own M.ATK.
+目の前の敵１キャラに魔法大ダメージを与え、味方全体の魔法攻撃力を中アップさせる。魔法攻撃力の上昇量は自身の魔法攻撃力に応じて最大５倍までアップする。=Deals large M.DMG to the first enemy in front, and moderate boost the allies' M.ATK. boost M.ATK by up to 5 times depending on own M.ATK.
 
 
 r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを200アップ\n自分のＴＰ上昇を15アップ$"=Cast time: 0.45s\n►Boosts allies' M.ATK by $1 for 180s.\n►Boosts allies' M.Crit rate by 200 for 180s.\n►Boosts own TP boost by 15 for 180s.

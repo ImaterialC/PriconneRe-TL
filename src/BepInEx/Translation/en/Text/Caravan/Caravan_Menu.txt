@@ -50,30 +50,6 @@ r:"^レベル(\d)$"=Level $1
 次にマイルマスに止まった際の\n獲得マイルが100%アップする。=The next time you stop on a Mile Tile, you will gain a 100% more Miles.
 次のターン数のカウントを\nスキッ\rプする。=Skipping the count for the next turn.
 
----Effects---
-発動中の効果一覧=List of Active Effects
-ダイス 残り3回=3 More Rolls
-ダイス 残り2回=2 More Rolls
-ダイス 残り1回=1 More Roll
-次に開いたマイルショップで全商品が20%以上割引される。=The next time the Mile Shop opens, all items will be discounted by at least 20%.
-【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Increases Minigame Miles acquisition by 100%.
-【イベント】マイルマスの獲得マイルが100%アップする=[Event] Increase Miles gained from Mile Tiles by 100%.
-【イベント】マイルショップの全商品が20%以上割引される=[Event] All items in the Mile Shop will be discounted by at least 20%.
-【料理】ミニゲームの獲得マイルが100%アップする=[Cooking] Increases Minigame Miles acquisition by 100%.
-【料理】マイルマスの獲得マイルが200%アップする=[Cooking] Increase Miles gained from Mile Tiles by 200%.
-【料理】マイルマスの獲得マイルが100%アップする=[Cooking] Increase Miles gained from Mile Tiles by 100%.
-【料理】マイルショップの全商品が20%以上割引される=[Cooking] All items in the Mile Shop will be discounted by at least 20%.
-【料理】ダイスが2個に増える=[Cooking] Rolls 2 dice on the next roll.
-【料理】次のターン数のカウントをスキップする=[Cooking] Skipping the count for the next turn.
-【料理】「マイルマス」「トレ\nジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile rank increased by 1.
-【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] The next dice\nroll will always be a 3, and the following roll a 6.
-【料理】ダイスの目が必ず「1」になる=[Cooking] The next dice roll will always be a 1.
-【料理】ダイスの目が必ず「2」になる=[Cooking] The next dice roll will always be a 2.
-【料理】ダイスの目が必ず「3」になる=[Cooking] The next dice roll will always be a 3.
-【料理】ダイスの目が必ず「4」になる=[Cooking] The next dice roll will always be a 4.
-【料理】ダイスの目が必ず「5」になる=[Cooking] The next dice roll will always be a 5.
-【料理】ダイスの目が必ず「6」になる=[Cooking] The next dice roll will always be a 6.
-【料理】ダイスの目が1回目は必ず「8」に、2回目は必ず「1」になる=[Cooking] The next dice\nroll will always be an 8, and the following roll a 1.
 ---GMA/Checkpoint---
 以下のアイテムを獲得しました。=Obtained the following items:
 ボーナスレベル=Bonus level

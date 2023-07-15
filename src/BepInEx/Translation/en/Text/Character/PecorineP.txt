@@ -15,12 +15,12 @@ r:"^敵単体に(\d+)の物理ダメージ\n騎士の加護付与中にＨＰが
 r:"^自分の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Cast time:0.46s\n►Boosts own P.ATK by $1 (+20%HP) for 12s.\n\nIf HP of self < 50%:\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.
 
 ロイヤルスラッシュ=Royal Slash
-前方範囲内の敵すべてに物理中ダメージを与える。ぺコリーヌのＨＰが高い程ダメージがアップ。残りＨＰが50%以上でダメージの合計に応じて自分の物理攻撃力をアップさせ、50%未満でダメージの合計に応じて自分のＨＰを回復させる。=Deals medium P.DMG to all enemies within a forward range. The higher Pecorine's HP, the more damage it does. Increases own P.ATK based on remaining HP (>50%HP), and heals own HP based on damage total (<50%HP).
+前方範囲内の敵すべてに物理中ダメージを与える。ぺコリーヌのＨＰが高い程ダメージがアップ。残りＨＰが50%以上でダメージの合計に応じて自分の物理攻撃力をアップさせ、50%未満でダメージの合計に応じて自分のＨＰを回復させる。=Deals medium P.DMG to all enemies within a forward range. The higher Pecorine's HP, the more damage it does. Boosts own P.ATK based on remaining HP (>50%HP), and heals own HP based on damage total (<50%HP).
 r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分のＨＰを(\d+)回復$"=Cast time:0.62s\n►Deals $1 P.DMG to enemies within 300 range.\nIf HP of self > 50%:\n►Boosts own P.ATK by $2 for 12s.\n\nIf HP of self < 50%:\n►Recovers own HP by $3.
 
 ロイヤルプリンセスドレス=Royal Princess Dress
 オニギリタイム+=Onigiri Time+
-自分の物理攻撃力を特大アップし、継続ＨＰ回復状態を付与する。ぺコリーヌのＨＰが高い程攻撃力の上昇量がアップする。残りＨＰが50%未満で自分に物理/魔法吸収バリアを展開する。=Increases own P.ATK by a massive amount and grants a HP regen state. The higher Pecorine's HP, the greater the increase in P.ATK. Deploys a P/M absorption barrier on herself when her remaining HP is less than 50%.
+自分の物理攻撃力を特大アップし、継続ＨＰ回復状態を付与する。ぺコリーヌのＨＰが高い程攻撃力の上昇量がアップする。残りＨＰが50%未満で自分に物理/魔法吸収バリアを展開する。=Boosts own P.ATK by a massive amount and grants a HP regen state. The higher Pecorine's HP, the greater the increase in P.ATK. Deploys a P/M absorption barrier on herself when her remaining HP is less than 50%.
 r:"^自分の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する\n毎秒ＨＰを(\d+)回復する$"=Cast time:0.46s\n►Boosts own P.ATK by $1 (+20%HP) for 12s.\n►Recovers own's HP by $3/s for 12.5s.\n\nIf HP of self < 50%:\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.
 
 ロイヤルスピリット=Royal Spirit

@@ -14,23 +14,23 @@ Skills
 翠霊譜ルーンノーツ=Spirit Runes Notes
 
 UB (6 star)
-r:"^味方全体のＨＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理攻撃クリティカル時のダメージを28％アップ\n毎秒ＨＰを(\d+)回復する\n精霊を唱喚する$"=►Recovers HP of all allies by $1.\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' P.Crit dmg by 28％ for 18s.\n►grants HP regen by $3 for 18.5s.\n►Summons a spirit next to foremost ally.
+r:"^味方全体のＨＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理攻撃クリティカル時のダメージを28％アップ\n毎秒ＨＰを(\d+)回復する\n精霊を唱喚する$"=►Recovers allies' HP by $1.\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' P.Crit dmg by 28％ for 18s.\n►grants HP regen by $3 for 18.5s.\n►Summons a spirit next to foremost ally.
 
 【召喚】味方全体のＨＰを中回復し、物理攻撃力を特大アップさせ、物理攻撃クリティカル時のダメージを中アップさせ、継続ＨＰ回復状態を付与する。さらに最も前の味方のそばに精霊を唱喚する。=[Summon] Moderate HP recovers of all allies, massive boost their P.ATK, and moderate boost their P.Crit damage, and grants continuous small HP recovery. Furthermore, summons a spirit next to foremost ally.
 
 UB 
-r:"^範囲内の味方のＨＰを(\d+)回復\n精霊を唱喚する$"=►Recovers HP of all allies in front of her by $1.\n►Summons a spirit next to foremost ally.
+r:"^範囲内の味方のＨＰを(\d+)回復\n精霊を唱喚する$"=►Recovers allies' HP in front of her by $1.\n►Summons a spirit next to foremost ally.
 
-【召喚】チカの背後にいないすべての味方のＨＰを中回復し、さらに最も前の味方のそばに精霊を唱喚する。=[Summon] Recovers HP of all allies in front of her by a moderate amount and summons a fairy beside the foremost ally.
+【召喚】チカの背後にいないすべての味方のＨＰを中回復し、さらに最も前の味方のそばに精霊を唱喚する。=[Summon] Recovers allies' HP in front of her by a moderate amount and summons a fairy beside the foremost ally.
 
 Skill 1 (UE)
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを50アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 1.5s\n►Boosts P.ATK of all allies within range 200 by $1 for 12s.\n►Boosts P.Crit Rate of all allies within range 200 by 50 for 12s.\n►Deploys a 250 radius field that recovers HP of all allies in it by $2 every second for 8s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを50アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 1.5s\n►Boosts allies' P.ATK within 200 range by $1 for 12s.\n►Boosts allies' P.Crit Rate within 200 range by 50 for 12s.\n►Deploys a 250 radius field that recovers allies' HP in it by $2 every second for 8s.
 
-最も前の味方を中心として、範囲内の味方すべての物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに範囲内の味方すべてを小回復するフィールドを展開する。=Large boost to P.ATK, moderate boost to P.Crit Rate, and recovers HP of all allies in a radius around the foremost ally. 
+最も前の味方を中心として、範囲内の味方すべての物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに範囲内の味方すべてを小回復するフィールドを展開する。=Large boost to P.ATK, moderate boost to P.Crit Rate, and recovers allies' HP in a radius around the foremost ally. 
 
 Skill 1 
-最も前の味方を中心として、範囲内の全味方の物理攻撃力を中アップさせる。=Small boost to P.ATK of all allies in a radius around the foremost ally.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ$"=►Boosts physical attack of all allies in range by $1.
+最も前の味方を中心として、範囲内の全味方の物理攻撃力を中アップさせる。=Small boost to allies' P.ATK in a radius around the foremost ally.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ$"=►Boosts physical attack of all allies within range by $1.
 Skill 2
 r:"^敵単体の物理攻撃力を(\d+)ダウン$"=►Lowers an enemy’s P.ATK by $1.
 目の前の敵１キャラの物理攻撃力を中ダウンさせる。=Lowers P.ATK of an enemy directly in front by a moderate amount.

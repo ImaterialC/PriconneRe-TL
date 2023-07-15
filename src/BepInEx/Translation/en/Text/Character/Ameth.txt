@@ -4,25 +4,25 @@
 
 【魔法】後衛で、新たな姿で騎士の冒険を支える妖精。ダメージカットや防御力アップ、無効バリアで味方を護りバリアを起点とする攻撃力とＴＰの支援で攻勢に転ずる。=[Magic] A fairy who supports knights' adventures in a new form as a backline character. She protects allies with damage reduction, defense boost, and nullifying barriers, and switches to an offensive role by using attacks and TP that originate from her barrier.
 
-味方全体の物理防御力と魔法防御力を大アップさせ、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。=Large boost the P.DEF & M.DEF of all allies, grants HP regen, and deploys a physical/magic nullification barrier.
+味方全体の物理防御力と魔法防御力を大アップさせ、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。=Large boost the P.DEF & allies' M.DEF, grants HP regen, and deploys a physical/magic nullification barrier.
 
 フィオレ・フェリチータ=Fiore Felicità
-r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する\n(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Boosts allies' P.DEF by $1 for 18s.\n►Boosts allies' M.DEF by $2 for 18s.\n►Recovers HP of all allies by $3/s for 10.5s.\n►Deploy a barrier that Nullifies P/M. DMG $4 to All Allies for 90s.
+r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する\n(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Boosts allies' P.DEF by $1 for 18s.\n►Boosts allies' M.DEF by $2 for 18s.\n►Recovers allies' HP by $3/s for 10.5s.\n►Deploy a barrier that Nullifies P/M. DMG $4 to All Allies for 90s.
 
 
 ルーチェ・クラティーヴァ=Luce Creativa
 ルーチェ・クラティーヴァ+=Luce Creativa+
-最もＨＰが低い味方１キャラのＨＰを中回復し、さらに物理ダメージカット効果と魔法ダメージカット効果を付与する。=Moderately restores the HP of the 1 ally character with the lowest HP, and also grants P.DMG cut and M.DMG cut effects.
+最もＨＰが低い味方１キャラのＨＰを中回復し、さらに物理ダメージカット効果と魔法ダメージカット効果を付与する。=Moderately restores the HP of the 1 ally with the lowest HP, and also grants P.DMG cut and M.DMG cut effects.
 r:"^味方単体のＨＰを(\d+)回復\n味方単体が受ける物理ダメージを15％カット\n味方単体が受ける魔法ダメージを15％カット$"=Cast time: 1.04s\n►Recovers an ally's HP by $1.\n►Applies P.DMG cut by 15％ for 12s.\n►Applies M.DMG cut by 15％ for 12s.
 
-バリアが展開されている味方全ての物理攻撃力と魔法攻撃力を極大アップさせ、ＴＰを中回復させる。自分の魔法攻撃力が高い程、物理攻撃力と魔法攻撃力の上昇量が最大５倍までアップする。=Massively boost the P.ATK & M.ATK of all allies with barriers deployed, and restores a moderate amount of TP. The higher your M.ATK, the higher P&M ATK buff up to 5 times.
+バリアが展開されている味方全ての物理攻撃力と魔法攻撃力を極大アップさせ、ＴＰを中回復させる。自分の魔法攻撃力が高い程、物理攻撃力と魔法攻撃力の上昇量が最大５倍までアップする。=Massively boost the P.ATK & allies' M.ATK with barriers deployed, and restores a moderate amount of TP. The higher your M.ATK, the higher P&M ATK buff up to 5 times.
 
 トーレ・スプレデンテ=Torre Splendente
-r:"^バリアが展開されている味方の物理攻撃力を(\d+)アップ\nバリアが展開されている味方の魔法攻撃力を(\d+)アップ\nバリアが展開されている味方のＴＰを200回復$"=Cast time: 0.74s\n►Boosts P.ATK of all allies with barrier by $1 for 18s.\n►Boosts M.ATK of all allies with barrier by $2 for 18s.\n►Recovers TP of allies with barrier by 200.
+r:"^バリアが展開されている味方の物理攻撃力を(\d+)アップ\nバリアが展開されている味方の魔法攻撃力を(\d+)アップ\nバリアが展開されている味方のＴＰを200回復$"=Cast time: 0.74s\n►Boosts barriered allies' P.ATK by $1 for 18s.\n►Boosts barriered allies' M.ATK by $2 for 18s.\n►Recovers barriered allies' TP by 200.
 
 スクデット=Scudo
 このスキルのスキルレベルは「フィオレ・\nフェリチータ」と連動しています="The skill level of this skill is linked to "Fiore Felicità""
-味方全体の物理防御力を初期値の15％アップ味方全体の魔法防御力を初期値の15％アップ=Cast time: 2.04s\n►Increase P.DEF of all allies by 15% from initial value for 12s.\n►Increase M.DEF of all allies by 15% from initial value for 12s.
+味方全体の物理防御力を初期値の15％アップ味方全体の魔法防御力を初期値の15％アップ=Cast time: 2.04s\n►Boosts allies' P.DEF by 15% from initial value for 12s.\n►Boosts allies' M.DEF by 15% from initial value for 12s.
 
 
 リファーレピウマ=Rifare Piuma

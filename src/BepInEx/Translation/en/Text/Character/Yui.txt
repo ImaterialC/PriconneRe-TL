@@ -29,7 +29,7 @@ S1
 目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
 S2
 フローラルシールド=Floral Shield
-味方全体の物理防御力を小アップさせる。=Small boost to P.DEF of all allies.
+味方全体の物理防御力を小アップさせる。=Small boost to allies' P.DEF.
 r:"^味方全体の物理防御力を(\d+)アップ$"=Cast time: 1.46s\n►Boosts allies' P.DEF by $1 for 12s.
 ex
 フラワーオーラ=Floral Aura

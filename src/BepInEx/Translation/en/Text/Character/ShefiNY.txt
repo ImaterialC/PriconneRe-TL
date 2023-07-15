@@ -3,15 +3,15 @@
 天舞・初春氷竜=Sky Dance: Early Spring Ice Dragon
 前方範囲内の敵すべてに物理大ダメージを与える。さらに、ＴＰが無くなるまでの間【氷竜の牙】が顕現する。=Deals large P.DMG to all enemies within range. Furthermore, [Ice Dragon Fang] manifests until the TP runs out.
 
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方のＴＰ上昇を5アップ$"=Cast time: 0465s\nBoosts P.ATK of all allies whitin 280 by $1 for 12s.\nBoosts allies' TP boost by 5 for 12s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方のＴＰ上昇を5アップ$"=Cast time: 0465s\nBoosts allies' P.ATK whitin 280 by $1 for 12s.\nBoosts allies' TP boost by 5 for 12s.
 
-自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。【氷竜の牙】が顕現中、このスキルの効果値が増加する。=Moderately increases the P.ATK of all allies within an area centered on you, and slightly increases their TP Boost. While [Ice Dragon Fang] is manifesting, the effect value of this skill increases.
+自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。【氷竜の牙】が顕現中、このスキルの効果値が増加する。=Moderately increases the allies' P.ATK within an area centered on you, and slightly increases their TP Boost. While [Ice Dragon Fang] is manifesting, the effect value of this skill increases.
 
 
 舞氷竜の神楽振袖=Kagura Furisode of the Ice Dragon
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方のＴＰ上昇を10アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 0465s\nBoosts P.ATK of all allies whitin 280 by $1 for 12s.\nBoosts allies' TP boost by 10 for 12s.\nRecovers allies' HP within 280 range by $2/s for7.5s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方のＴＰ上昇を10アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 0465s\nBoosts allies' P.ATK whitin 280 by $1 for 12s.\nBoosts allies' TP boost by 10 for 12s.\nRecovers allies' HP within 280 range by $2/s for7.5s.
 
-自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。さらに自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開する。【氷竜の牙】が顕現中、このスキルの効果値が増加する。=Moderately increases the P.ATK of all allies within an area centered on you, and slightly increases their TP Boost. In addition, deploys a field that recovers a small amount of HP for all allies within range around you. While [Ice Dragon Fang] is manifesting, the effect value of this skill increases.
+自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。さらに自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開する。【氷竜の牙】が顕現中、このスキルの効果値が増加する。=Moderately increases the allies' P.ATK within an area centered on you, and slightly increases their TP Boost. In addition, deploys a field that recovers a small amount of HP for all allies within range around you. While [Ice Dragon Fang] is manifesting, the effect value of this skill increases.
 
 
 前方範囲内の敵すべてに物理中ダメージを与え、物理防御力を小ダウンさせる。【氷竜の牙】が顕現中、敵全体に追加で物理中ダメージを与える。=Inflicts moderate P.DMG to all enemies within range and slightly decreases their P.DEF. Inflicts additional moderate P.DMG to all enemies while [Ice Dragon Fang] is manifesting.

@@ -12,8 +12,8 @@ r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御
 【召喚】自分の前に、目の前の敵１キャラを攻撃するぷちゴーレムを召喚する。=[Summon] Summons a mini-golem in front of oneself, which attacks an enemy directly in front.
 r:"^ぷちゴーレムを召喚する$"=Summons a Mini-Golem.
 ---S2
-一番前の味方を中心とした範囲内の味方すべての魔法防御力を中アップさせる。=Moderate boost to M.DEF of allies in a radius around the foremost ally.
-r:"^範囲内の味方の魔法防御力を(\d+)アップ$"=Boosts M.DEF of all allies in range by $1.
+一番前の味方を中心とした範囲内の味方すべての魔法防御力を中アップさせる。=Moderate boost to allies' M.DEF in a radius around the foremost ally.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ$"=Boosts allies' M.DEF within range by $1.
 ---ex
 トロピカルメイド=Tropical Maid
 バトル開始時に自分の魔法防御力を中アップさせる。=Moderate boost to own M.DEF at start of battle.

@@ -1,23 +1,23 @@
----Skillsミサキ
----UB
+---Skillsミサキ---
+---UB---
 パンプキンデスパーティー=Deadly Pumpkin Party
 敵全体に魔法中ダメージを与え、呪いと束縛を付与し、さらに魔法防御力を小ダウンさせる。=Deals small M.DMG to all enemies in the front and lowers M.DEF by a small amount. Inflicts Curse and Bind.
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体を一定時間行動不能にする\n(\d+)ダメージを与える呪い状態にする\n敵全体の魔法防御力を(\d+)ダウン$"=Deals $1 M.DMG to all enemies.\nRenders all enemies immobile for a set period of time.\nInflicts Curse that deals $2 damage.\nLowers M.DEF of all enemies by $3.
----S1
+r:"^敵全体に(\d+)の魔法ダメージ\n敵全体を一定時間行動不能にする\n(\d+)ダメージを与える呪い状態にする\n敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Renders all enemies immobile for a set period of time.\n►Inflicts Curse that deals $2 damage.\n►Lowers M.DEF of all enemies by $3.
+---S1---
 目の前の敵１キャラに魔法小ダメージを与え、さらに誘惑状態にする。=Deals small M.DMG to an enemy directly in front and inflicts Charm.
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を誘惑する$"=Deals $1 M.DMG to an enemy.\nInflicts Charm on an enemy.
----S2
-自分を中心とした範囲内の味方すべての魔法攻撃力を中アップさせる。=Boosts M.ATK of all allies in range by a moderate amount.
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ$"=Boosts M.ATK of all allies in range by $1.
----ex
+r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を誘惑する$"=►Deals $1 M.DMG to an enemy.\n►Inflicts Charm on an enemy.
+---S2---
+自分を中心とした範囲内の味方すべての魔法攻撃力を中アップさせる。=Boosts allies' M.ATK within range by a moderate amount.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Boosts allies' M.ATK within range by $1.
+---ex---
 ハロウィンレディ=Lady of Halloween
----Skills+
----UB
----S1
-目の前の敵１キャラに魔法中ダメージを与え、ＴＰを小ダウンさせ、さらに誘惑状態にする。=Gain M.DMG to one enemy in front of you, reduce the TP small down, and then be Charmed.
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を誘惑する\n敵単体のＴＰを(\d+)失わせる$"=Deals $1 M.DMG to an enemy.\nInflicts Charm on an enemy.\nReduces an enemy's TP by $2.
----S2
----ex
+---Skills+---
+---UB---
+---S1---
+目の前の敵１キャラに魔法中ダメージを与え、ＴＰを小ダウンさせ、さらに誘惑状態にする。=Deals medium M.DMG to the enemy character in front and slightly reduces their TP. Additionally, inflicts them with the Charm status.
+r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を誘惑する\n敵単体のＴＰを(\d+)失わせる$"=►Deals $1 M.DMG to an enemy.\n►Inflicts Charm on an enemy.\n►Reduces an enemy's TP by $2.
+---S2---
+---ex---
 ハロウィンレディ+=Lady of Halloween+
----UE
+---UE---
 魔箒ハロウィン・アイ=Magic Broom Halloween Eye

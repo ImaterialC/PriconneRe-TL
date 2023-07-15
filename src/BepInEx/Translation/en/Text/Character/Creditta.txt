@@ -22,7 +22,7 @@ skill 1+
 トラップウォレット+=Trap wallet+
 目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与える。バトル開始後、初弾のこのスキルはさらに敵の物理防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。=Deals moderate P.DMG to all enemies within range centering on the first enemy in front. After the battle starts, this skill of the first bullet further reduces the P.DEF of the enemy by a small amount, and slightly boost the DMG when receiving a critical hit.
 
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵のクリティカルを受けた際のダメージを2％アップ$"=►Deals $1 P.DMG to enemies within 250 range.\n►Lowers P.DEF of all enemies in range by $2 for 180s.\n►Lowers P.Crit DMG RES of all enemies in range by 2% for 180s.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵のクリティカルを受けた際のダメージを2％アップ$"=►Deals $1 P.DMG to enemies within 250 range.\n►Lowers P.DEF of all enemies within range by $2 for 180s.\n►Lowers P.Crit DMG RES of all enemies within range by 2% for 180s.
 Enemies within the aoe range receive extra 2% critical dmg
 味方全体に継続ＨＰ回復状態と継続ＴＰ回復状態を付与し、さらに物理無効バリアを展開する。=Gives HP regen and continuous TP recovery to all allies, and deploys a physical nullification barrier.
 

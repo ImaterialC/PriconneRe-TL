@@ -1,0 +1,6 @@
+料理所持数上限時のダイアログ表示=Display Confirmation Dialog for Maximum Number of Held Dishes
+料理が所持上限に達した場合、ダイスを振る前に確認ダイアログを表示するか設定します。=When the maximum number of held dishes is reached, choose whether to display a confirmation dialog before rolling the dice.
+マイルショップ利用の確認ダイアログ表示=Display Confirmation Dialog for Mile Shop Usage
+利用可能なマイルショップが開いている場合、\nダイスを振る、または料理を食べる前に確認ダイアログを表示するか設定します。=When the Mile Shop is available, choose whether to display a confirmation dialog before rolling the dice or eating a dish.
+マイルガチャ利用の確認ダイアログ表示=Display Confirmation Dialog for Mile Gacha Usage
+利用可能なマイルガチャが開いている場合、\nダイスを振る、または料理を食べる前に確認ダイアログを表示するか設定します。=When the Mile Gacha is available, choose whether to display a confirmation dialog before rolling the dice or eating a dish.

@@ -1,4 +1,4 @@
-（欠片）=(Piece)
+（欠片）= (Piece)
 の欠片= Piece
 の\n欠片= Piece
 の設計図= Blueprint
@@ -528,3 +528,10 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 紅色花飾菓子切包丁=Crimson Floral Pastry Cutting Knife
 サファイアフォークヘアピン=Sapphire Fork Hairpin
 翡翠花飾箸=Jade Floral Chopsticks
+
+ホライゾンウォッチャー=Horizon Watcher
+シーナビゲイタークロス=Sea Navigator Cross
+ライトセイラークロス=Light Sailor Cross
+ヘビーマリナークロス=Heavy Mariner Cross
+ウォーターラインランナー=Waterline Runner
+エスクード・デ・ボランテ=Escudo de Volante

@@ -8,22 +8,22 @@ r:"^自分以外の味方の物理攻撃力を(\d+)アップ\n自分以外の味
 
 魔法力学的解析演習+=Analysis and Exercises in Magical Mechanics+
 魔法力学的解析演習=Analysis and Exercises in Magical Mechanics
-r:"^範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン\n学びの時間中、範囲内の敵のクリティカルを受けた際のダメージを8％アップ$"=Cast time: 0.465s\n►Lowers P.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers M.DEF of all enemies within 1080 range by $2 for 12s.\n►If Yuni has [Learning Time], Lowers P/M.Crit DMG RES of all enemies in range by 8% for 12s
+r:"^範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン\n学びの時間中、範囲内の敵のクリティカルを受けた際のダメージを8％アップ$"=Cast time: 0.465s\n►Lowers P.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers M.DEF of all enemies within 1080 range by $2 for 12s.\n►If Yuni has [Learning Time], Lowers P/M.Crit DMG RES of all enemies within range by 8% for 12s
 前方範囲内の敵すべての物理防御力と魔法防御力を小ダウンさせる。【学びの時間】中、さらにクリティカルを受けた際のダメージを小アップさせる。=Slightly decreases the P&M DEF of all enemies within range. [Learning Time] Moderately boost the damage taken when receiving a critical hit.
 
 
 
 形而上学的拡張理論=Metaphysical Extended Theory
-r:"^範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン\n敵単体の物理防御力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン\n学びの時間中、範囲内の敵のクリティカルを受けた際のダメージを8％アップ$"=Cast time: 0.465s\n►Lowers P/M.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers P/M.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers an enemy's P/M.DEF by $3 for 12s.\n►If Yuni has [Learning Time], Lowers P/M.Crit DMG RES of all enemies in range by 8% for 12s
+r:"^範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン\n敵単体の物理防御力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン\n学びの時間中、範囲内の敵のクリティカルを受けた際のダメージを8％アップ$"=Cast time: 0.465s\n►Lowers P/M.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers P/M.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers an enemy's P/M.DEF by $3 for 12s.\n►If Yuni has [Learning Time], Lowers P/M.Crit DMG RES of all enemies within range by 8% for 12s
 
 前方範囲内の敵すべての物理防御力と魔法防御力を小ダウンさせ、目の前の敵１キャラの物理防御力と魔法防御力を小ダウンさせる。【学びの時間】中、さらにクリティカルを受けた際のダメージを小アップさせる。=Slightly lowers the P/M.DEF of all enemies within the front range, and slightly lowers the P/M.DEF of one enemy in front. During [Learning Time] Moderately increases the damage taken when receiving a critical hit.
 
 
-r:"^自分以外の味方の行動速度アップ\n自分以外の味方のＴＰ上昇を5アップ\n学びの時間中、自分以外の味方のＴＰを(\d+)回復$"=Cast time: 0.625s\n►Boost action speed to 150% to all allies for 12s.\n►Boosts allies'(except self) TP boost by 5 for 12s.\n►If Yuni has [Learning Time],Recovers TP of allies (except self) by $1.
+r:"^自分以外の味方の行動速度アップ\n自分以外の味方のＴＰ上昇を5アップ\n学びの時間中、自分以外の味方のＴＰを(\d+)回復$"=Cast time: 0.625s\n►Boost action speed to 150% to all allies for 12s.\n►Boosts allies'(except self) TP boost by 5 for 12s.\n►If Yuni has [Learning Time],Recovers allies' TP (except self) by $1.
 自分以外の味方全体の行動速度を大アップさせ、ＴＰ上昇を小アップさせる。【学びの時間】中、さらに自分以外の味方全体のＴＰを小回復する。=Boosts the action speed of all allies except the user and slightly increases their TP Boost. During [Learning time], slightly recovers the TP of all allies except the user. allies other than yourself.
 
 
-r:"^自分以外の味方の行動速度アップ\n自分以外の味方のＴＰ上昇を5アップ\n自分以外の味方の物理攻撃力を(\d+)アップ\n自分以外の味方の魔法攻撃力を(\d+)アップ\n学びの時間中、自分以外の味方のＴＰを(\d+)回復$"=Cast time: 0.625s\n►Boost action speed to 150% to all allies for 12s.\n►Boosts allies'(except self) TP boost by 5 for 12s.\n►Boosts allies'(except self) P/M.ATK by $1 for 12s.\n►If Yuni has [Learning Time],Recovers TP of allies (except self) by $3.
+r:"^自分以外の味方の行動速度アップ\n自分以外の味方のＴＰ上昇を5アップ\n自分以外の味方の物理攻撃力を(\d+)アップ\n自分以外の味方の魔法攻撃力を(\d+)アップ\n学びの時間中、自分以外の味方のＴＰを(\d+)回復$"=Cast time: 0.625s\n►Boost action speed to 150% to all allies for 12s.\n►Boosts allies'(except self) TP boost by 5 for 12s.\n►Boosts allies'(except self) P/M.ATK by $1 for 12s.\n►If Yuni has [Learning Time],Recovers allies' TP (except self) by $3.
 自分以外の味方全体の行動速度を大アップさせ、ＴＰ上昇と物理・魔法攻撃力を小アップさせる。【学びの時間】中、さらに自分以外の味方全体のＴＰを小回復する。=Boosts the action speed of all allies except the user and slightly increases the P.ATK, M.ATK, and TP Boost. During [Learning time], slightly recovers the TP of all allies except the user. allies other than yourself.
 
 聖域の学び=Sanctuary Learning

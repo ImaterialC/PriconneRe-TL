@@ -17,7 +17,7 @@ r:"^分身を生成する\n魔法攻撃力を(\d+)アップさせるフィール
 
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、さらにスタンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy character in front of you, decreases their magic defense by a small amount, and stuns them.
 
-r:"^範囲内の敵すべてに(\d+)の魔法ダメージ\n範囲内の敵すべての魔法防御力を(\d+)ダウン\n範囲内の敵を一定時間行動不能にする$"=►Deals $1 to All Enemies in the front within 250 range.\n►Lowers M.DEF of all enemies in range by $2 for 12s.\n►Inflict Stun to the targets for 1.5s.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ\n範囲内の敵すべての魔法防御力を(\d+)ダウン\n範囲内の敵を一定時間行動不能にする$"=►Deals $1 to All Enemies in the front within 250 range.\n►Lowers M.DEF of all enemies within range by $2 for 12s.\n►Inflict Stun to the targets for 1.5s.
 
 ファンタズマゴリア+=Phantasmagoria+
 ファンタズマゴリア=Phantasmagoria

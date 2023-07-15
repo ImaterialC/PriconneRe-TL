@@ -3,7 +3,7 @@
 ブレイブタイガースペシャル=Brave Tiger Special
 ブレイブパワーMAX！=Brave Power MAX!
 ブレイブパワーMAX！+=Brave Power MAX!+
-目の前の敵１キャラに物理特大ダメージと、自分のＨＰが低いほどダメージがアップする物理ダメージを与え、味方全体の物理攻撃力を特大アップさせるが、自分がスタンする。=Deals large amount of P.DMG to the first enemy character in front of you, as well as P.DMG that boost as your HP is lower, and Large boost the P.ATK of all allies, but you are stunned.
+目の前の敵１キャラに物理特大ダメージと、自分のＨＰが低いほどダメージがアップする物理ダメージを与え、味方全体の物理攻撃力を特大アップさせるが、自分がスタンする。=Deals large amount of P.DMG to the first enemy character in front of you, as well as P.DMG that boost as your HP is lower, and Large boost the allies' P.ATK, but you are stunned.
 
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体に自分のＨＰが低いほどダメージがアップする物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n自分を一定時間行動不能にする$"=Deals $1 P.DMG to enemies.\nDeals [15xHP-lost] P.DMG to enemies. Damage boost the lower your HP is.\nBoosts allies' P.ATK by $2 for 18s.\nInflict stun on self for 2s.
 

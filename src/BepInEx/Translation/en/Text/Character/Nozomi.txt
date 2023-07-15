@@ -23,18 +23,18 @@ Nozomi
 Skills
 UB
 ライブ・オンステージ=Live on Stage
-【挑発】味方全体の物理攻撃力を小アップさせ、自分の物理防御力と魔法防御力を大アップさせる。さらに敵全体を挑発する。=[Taunt] Taunts all enemies. Moderate boost to own P.DEF and M.DEF. Small boost to P.ATK of all allies.
+【挑発】味方全体の物理攻撃力を小アップさせ、自分の物理防御力と魔法防御力を大アップさせる。さらに敵全体を挑発する。=[Taunt] Taunts all enemies. Moderate boost to own P.DEF and M.DEF. Small boost to allies' P.ATK.
 r:"^味方全体の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n敵全体を挑発する$"=Boosts allies' P.ATK by $1 for 18s.\nBoosts own P.DEF by $2 for 18s.\nBoosts own M.DEF by $3 for 18s.\nProvokes all enemies for 10s.
 S1
 S2
 自分の周囲の味方すべてのＨＰを中回復させる。=Recovers HP of all nearby allies by a small amount.
-r:"^範囲内の味方のＨＰを(\d+)回復$"=Recovers HP of all allies within range by $1.
+r:"^範囲内の味方のＨＰを(\d+)回復$"=Recovers allies' HP within range by $1.
 ex
 ルミナススマイル=Radiant Smile
 Skills+
 UB
 ライブ・オンスペシャルステージ=Live on Special Stage
-【挑発】味方全体の物理攻撃力を大アップさせ、物理/魔法無効バリアを展開し、自分の物理防御力と魔法防御力を特大アップさせる。さらに敵全体を挑発してスタンさせる。=[Taunt] Large boost the P.ATK of all allies, deploys a P/M nullification barrier, and Large boost own M/P.DEF. Also provokes and stuns all enemies.
+【挑発】味方全体の物理攻撃力を大アップさせ、物理/魔法無効バリアを展開し、自分の物理防御力と魔法防御力を特大アップさせる。さらに敵全体を挑発してスタンさせる。=[Taunt] Large boost the allies' P.ATK, deploys a P/M nullification barrier, and Large boost own M/P.DEF. Also provokes and stuns all enemies.
 
 r:"^味方全体の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法無効バリアを展開する\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n敵全体を挑発する\n敵全体を一定時間行動不能にする$"=Boosts allies' P.ATK by $1 for 18s.\nDeploy a barrier that Nullifies P/M. DMG $2 to All Allies for 20s.\nBoosts own P.DEF by $3 for 18s.\nBoosts own M.DEF by $4 for 18s.\nProvokes all enemies for 11s.\nInflicts Stun to all enemies for 1.5s.
 S1

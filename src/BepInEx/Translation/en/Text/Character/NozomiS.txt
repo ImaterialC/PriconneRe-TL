@@ -5,8 +5,8 @@
 r:"^味方全体の物理攻撃クリティカル時のダメージを16％アップ\n敵単体に(\d+)の物理ダメージ$"=Boosts allies' P.Crit dmg by 16% for 18s.\nDeals $1 P.DMG to an enemy.
 味方全体の物理攻撃クリティカル時のダメージを小アップさせ、目の前の敵１キャラに物理特大ダメージを与える。=Slightly boost the P.Crit dmg of all allies, and deals massive P.DMG to the nearest enemy.
 
-味方全体の物理攻撃力を大アップさせ、物理防御力と魔法防御力を中アップさせる。=Large boost the P.ATK of all allies, and moderately boost the P.DEF and M.DEF of all allies.
-味方全体の物理攻撃力を特大アップさせ、物理防御力と魔法防御力を中アップさせ、さらにＴＰ上昇を小アップさせる。=Massively boost the P.ATK of all allies, moderately boost the P.DEF and M.DEF, and also slightly boost the TP boost of all allies.
+味方全体の物理攻撃力を大アップさせ、物理防御力と魔法防御力を中アップさせる。=Large boost the allies' P.ATK, and moderately boost the P.DEF and allies' M.DEF.
+味方全体の物理攻撃力を特大アップさせ、物理防御力と魔法防御力を中アップさせ、さらにＴＰ上昇を小アップさせる。=Massively boost the allies' P.ATK, moderately boost the P.DEF and M.DEF, and also slightly boost the TP boost of all allies.
 
 r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=Boosts allies' P.ATK by $1 for 12s.\nBoosts allies' P.DEF by $2 for 12s.\nBoosts allies' M.DEF by $3 for 12s.
 

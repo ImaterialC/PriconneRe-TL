@@ -7,7 +7,7 @@
 ---Skills---
 ---UB---
 約束の花園=Promised Field
-最もＨＰが低い味方１キャラのＨＰを特大回復させ、さらに味方全体の物理防御力と魔法防御力を中アップさせる。=Recovers the HP of the ally with the lowest HP by a massive amount. Moderate boost to the P.DEF and M.DEF of all allies.
+最もＨＰが低い味方１キャラのＨＰを特大回復させ、さらに味方全体の物理防御力と魔法防御力を中アップさせる。=Recovers the HP of the ally with the lowest HP by a massive amount. Moderate boost to the P.DEF and allies' M.DEF.
 r:"^味方単体のＨＰを(\d+)回復\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=►Recovers an ally's HP by $1.\n►Boosts allies' P.DEF by $2.\n►Boosts allies' M.DEF by $3.
 ---S1---
 目の前の敵１キャラに魔法中ダメージを与え、さらに自分の魔法攻撃力を中アップさせる。=Deals moderate M.DMG to an enemy directly in front. Moderate boost to own M.ATK.

@@ -1,16 +1,16 @@
 【物理】後衛から客を癒しもてなす猫カフェ店員の猫娘。物攻の高いキャラの傍で周囲の物攻アップやＨＰとＴＰを回復し、周囲の味方数で強化される攻撃で敵を一掃する。=[Physical] A cat girl who works as a cafe clerk, healing and entertaining customers from the backline. She boosts P.ATK and restores HP and TP to allies near high P.ATK characters. She also uses attacks that are strengthened based on the number of allies around her to eliminate enemies.
 
 ねこねこカフェパーティー=Neko-Neko Cafe Party
-r:"^敵全体に(\d+)の物理ダメージ\n範囲内の味方のＨＰを(\d+)回復\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1(×0.48×target) P.DMG to all enemies.\n►Recovers HP of all allies within 150 range by $2.\n►Increases own physical attack power by $3(+789×target) for 18s.
-敵全体に物理大ダメージを与え、自分の物理攻撃力を中アップし、自分を中心とした範囲内の味方すべてのＨＰを小回復する。範囲内の味方の人数に応じて、ダメージと物理攻撃力の上昇量が増加する。=Deals large P.DMG to all enemies, increases own P.ATK by a medium amount, and slightly recovers the HP of all allies within range centered around self. The amount of P.DMG and P.ATK boost are enhanced based on the number of allies within range.
+r:"^敵全体に(\d+)の物理ダメージ\n範囲内の味方のＨＰを(\d+)回復\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1(×0.48×target) P.DMG to all enemies.\n►Recovers allies' HP within 150 range by $2.\n►Boosts own physical attack power by $3(+789×target) for 18s.
+敵全体に物理大ダメージを与え、自分の物理攻撃力を中アップし、自分を中心とした範囲内の味方すべてのＨＰを小回復する。範囲内の味方の人数に応じて、ダメージと物理攻撃力の上昇量が増加する。=Deals large P.DMG to all enemies, increases own P.ATK by a medium amount, and slightly recovers the allies' HP within range centered around self. The amount of P.DMG and P.ATK boost are enhanced based on the number of allies within range.
 
 ビターエッジ=Bitter edge
 ビターエッジ+=Bitter edge+
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の味方のＴＰを75回復\n自分のＴＰを100回復$"=Cast time: 1.05s\n►Deals $1(×0.48×target) P.DMG to all enemies within range.\n►Recovers TP of allies within 150 range by 75.\n►Recovers your TP by 100(+10×target).
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の味方のＴＰを75回復\n自分のＴＰを100回復$"=Cast time: 1.05s\n►Deals $1(×0.48×target) P.DMG to all enemies within range.\n►Recovers allies' TP within 150 range by 75.\n►Recovers your TP by 100(+10×target).
 前方の敵すべてに物理中ダメージを与え、自分を中心とした範囲内の味方すべてのＴＰを小回復させ、自分のＴＰを小回復させる。範囲内の味方の人数に応じて、ダメージと自分のＴＰの回復量が増加する。=Deal moderate P.DMG to all enemies in front, recover small amount of TP for all allies within range centered on self, and recover small amount of TP for self. Damage and TP recovery amount increase based on the number of allies within range.
 
 スウィートサービス=Sweet Service
-最も物理攻撃力の高い味方１キャラの傍に移動し、そのキャラを中心とした範囲内の味方すべての物理攻撃力を大アップ、ＨＰを小回復するフィールドを展開する。=Moves to the side of the character with the highest P.ATK, and creates a field that greatly increases the P.ATK of all allies within range centering on that character and restores a small amount of HP.
+最も物理攻撃力の高い味方１キャラの傍に移動し、そのキャラを中心とした範囲内の味方すべての物理攻撃力を大アップ、ＨＰを小回復するフィールドを展開する。=Moves to the side of the character with the highest P.ATK, and creates a field that greatly increases the allies' P.ATK within range centering on that character and restores a small amount of HP.
 r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 1.05s\n►Deploys a field of radius 150 that boosts P.ATK by $1 for 12s.\n►Deploys a field of radius 150 that recovers HP by $2 per second for 7s.
 
 キャッツチルアウト=Cats Chill Out

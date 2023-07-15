@@ -15,8 +15,8 @@ S1
 r:"^斬撃で範囲内の敵に(\d+)の物理ダメージ\n蹴りで範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする$"=Cast time: 0.34s\n►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflict stun on targets damaged by act 1 for 1.5s.\n►Knock targets damaged by act 2.
 S2
 こっちだこっち！=Right This Way!
-前方範囲内の敵すべての物理防御力を小ダウンさせる。=Lowers the P.DEF of all enemies in range by a small amount.
-r:"^範囲内の敵の物理防御力を(\d+)ダウン$"=►Lowers P.DEF of enemies in range by $1.
+前方範囲内の敵すべての物理防御力を小ダウンさせる。=Lowers the P.DEF of all enemies within range by a small amount.
+r:"^範囲内の敵の物理防御力を(\d+)ダウン$"=►Lowers P.DEF of enemies within range by $1.
 ex
 ポテンシャルフォース=Potential Force
 Skills+

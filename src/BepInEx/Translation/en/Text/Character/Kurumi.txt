@@ -8,7 +8,7 @@
 目の前の敵１キャラに物理大ダメージを与え、さらに長時間スタンさせる。=Deals large P.DMG to an enemy directly in front and inflicts Stun for a long period.
 ---S1
 味方全体の物理防御力と魔法防御力を小アップさせる。=Small boost to P.DEF and M.DEF of all nearby allies.
-r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=Boosts P.DEF of all allies in range by $1.\nBoosts M.DEF of all allies in range by $1.
+r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=Boosts allies' P.DEF within range by $1.\nBoosts allies' M.DEF within range by $1.
 ---S2
 目の前の敵１キャラに物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG to an enemy directly in front and inflicts Stun.
 
@@ -17,10 +17,10 @@ r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御
 ---Skills+
 ---UB
 デビュースターアクション=Debut star action
-前方範囲内の敵すべてに物理大ダメージを与え、長時間スタンさせる。さらに、味方全体の物理防御力と魔法防御力を大アップし、自分を中心とした範囲内の味方すべてに継続ＨＰ回復状態を付与する。=Damage all of the enemies within the front range and stun for a long time. In addition, the P.DEF and M.DEF of all allies are Large improved, and the continuation HP recovery status is granted to all allies within the range centered on themselves.
+前方範囲内の敵すべてに物理大ダメージを与え、長時間スタンさせる。さらに、味方全体の物理防御力と魔法防御力を大アップし、自分を中心とした範囲内の味方すべてに継続ＨＰ回復状態を付与する。=Damage all of the enemies within the front range and stun for a long time. In addition, the P.DEF and allies' M.DEF are Large improved, and the continuation HP recovery status is granted to all allies within the range centered on themselves.
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する$"=Deals $1 P.DMG to an enemy.\nRenders an enemy immobile.\nBoosts allies' P.DEF by $2.\nBoosts allies' M.DEF by $3.\nRecovers allies' HP by $4/s.
 ---S1
-味方全体の物理防御力と魔法防御力を中アップさせ、さらにＴＰを小回復させる。=Moderate boost to P.DEF and M.DEF of all allies, and recovers their TP by a small amount.
+味方全体の物理防御力と魔法防御力を中アップさせ、さらにＴＰを小回復させる。=Moderate boost to P.DEF and allies' M.DEF, and recovers their TP by a small amount.
 r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n味方全体のＴＰを(\d+)回復$"=Boosts allies' P.DEF by $1.\nBoosts allies' M.DEF by $1.\nRecovers allies' TP by $1.
 ---S2
 ---ex

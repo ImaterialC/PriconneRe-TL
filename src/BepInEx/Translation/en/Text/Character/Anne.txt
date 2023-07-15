@@ -10,19 +10,19 @@
 レイディアントコーリング+=Radiant Calling+
 ディターレントスラスト=Deterrent Thrust
 ---UB 
-目の前の敵１キャラに魔法特大ダメージを与え、さらに英霊の加護を受けているキャラの魔法攻撃力を大アップさせる。=Deals massive M.DMG to an enemy directly in front. Boosts the M.ATK of all allies under Spirit’s Blessing by a large amount.
+目の前の敵１キャラに魔法特大ダメージを与え、さらに英霊の加護を受けているキャラの魔法攻撃力を大アップさせる。=Deals massive M.DMG to an enemy directly in front. Boosts the allies' M.ATK under Spirit’s Blessing by a large amount.
 
 r:"^敵単体に(\d+)の魔法ダメージ\n対象の味方の魔法攻撃力を(\d+)アップ$"=Deals $1 M.DMG to an enemy.\nBoosts target allies’ M.ATK by $2 for 18s.
 
 ---Skill 1 (UE)
-目の前の敵１キャラに魔法大ダメージを与え、自分が英霊の加護を受けている場合味方全体のＴＰを小回復し、自分が英霊の加護を受けていない場合自分の行動速度を中アップさせる。=Deals large M.DMG to an enemy directly in front. Recover TP of allies' by a small amount if Anne is under Spirit’s Blessing. Boosts Anne’s action speed if she is not under Spirit’s Blessing
+目の前の敵１キャラに魔法大ダメージを与え、自分が英霊の加護を受けている場合味方全体のＴＰを小回復し、自分が英霊の加護を受けていない場合自分の行動速度を中アップさせる。=Deals large M.DMG to an enemy directly in front. Recover allies' TP' by a small amount if Anne is under Spirit’s Blessing. Boosts Anne’s action speed if she is not under Spirit’s Blessing
 
 r:"^敵単体に(\d+)の魔法ダメージ\n味方全体のＴＰを(\d+)回復\n自分の行動速度アップ$"=Deals $1 M.DMG to an enemy. \nRecovers all other allies’ TP by $2 if Anne is under Spirit’s Blessing. \nBoosts own action speed to 125% if Anne is not under Spirit’s Blessing for 12s.
 
 ---Skill 2
 自分を中心とした範囲内の味方すべてに英霊の加護を付与し、さらに魔法攻撃力を中アップさせ、行動速度を小アップさせる。=Grants Spirit’s Blessing to all nearby allies. Boosts their M.ATK by a large amount and their action speed by a small amount.
 
-r:"^範囲内の味方に英霊の加護を付与\n範囲内の味方の行動速度アップ\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=Grants Spirit’s Blessing to allies in range for 12s.\nBoosts action speed of allies to 110% within range 200. \nBoosts M.ATK of all allies in range by $1 for 12s.
+r:"^範囲内の味方に英霊の加護を付与\n範囲内の味方の行動速度アップ\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=Grants Spirit’s Blessing to allies in range for 12s.\nBoosts action speed of allies to 110% within 200 range. \nBoosts allies' M.ATK within range by $1 for 12s.
 
 ---Story
     

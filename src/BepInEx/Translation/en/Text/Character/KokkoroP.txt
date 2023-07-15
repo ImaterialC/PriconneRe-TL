@@ -7,7 +7,7 @@
 
 オーロラ・サンクチュアリ=Aurora Sanctuary
 
-自分を中心に、範囲内の味方すべてのＨＰを小回復し、ＴＰ上昇を小アップさせるフィールドを展開する。さらに味方全体の物理・魔法クリティカル時のダメージを小アップさせ、敵全体の物理・魔法防御力を小ダウンさせる。=Deploys a field that slightly restores the HP of all allies within range and boost their TP by a small amount, centering on you. In addition, the P/M crit dmg of all allies is slightly increased, and the P/M.DEF of all enemies is slightly decreased.
+自分を中心に、範囲内の味方すべてのＨＰを小回復し、ＴＰ上昇を小アップさせるフィールドを展開する。さらに味方全体の物理・魔法クリティカル時のダメージを小アップさせ、敵全体の物理・魔法防御力を小ダウンさせる。=Deploys a field that slightly restores the allies' HP within range and boost their TP by a small amount, centering on you. In addition, the P/M crit dmg of all allies is slightly increased, and the P/M.DEF of all enemies is slightly decreased.
 
 r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する\nＴＰ上昇を5アップさせるフィールドを展開する\n味方全体の物理・魔法クリティカル時のダメージを16％アップ\n敵全体の物理・魔法防御力を(\d+)ダウン$"=►Deploy a field of radius 2160 at self that restore $1/s for 18.5s\n►Deploy a field of radius 2160 at self that Boosts TP boost by 5 for 18s.\n►Boosts allies' M/P.Crit dmg by 16％ for 18s.\n►Lowers all enemies’ M/P.DEF by $2 for 18s.
 

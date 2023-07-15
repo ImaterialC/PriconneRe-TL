@@ -11,7 +11,7 @@ r:"^敵全体に(\d+)の物理ダメージ\n範囲内の敵に(\d+)の物理ダ�
 プレシャスコーヒー=Precious Coffee
 自分に物理/魔法無効バリアを展開し、さらにＴＰ上昇を小アップする。=Deploys a physical/magical damage nullification barrier on self and further increases TP slightly.
 
-r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する\n自分のＴＰ上昇を(\d+)アップ$"=►Deploys a barrier that nullifies P/M.DMG by $1.\n►Increases own TP by $2.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する\n自分のＴＰ上昇を(\d+)アップ$"=►Deploys a barrier that nullifies P/M.DMG by $1.\n►Boosts own TP by $2.
 
 ぼっちキャンパーの流儀=Loner Camper Style
 ぼっちキャンパーの流儀+=Loner Camper Style+

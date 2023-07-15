@@ -35,7 +35,7 @@ Skill 1+
 サンダーボール=Lightning Sphere
 サンダーボール+=Lightning Sphere+
 目の前の敵１キャラに魔法中ダメージを与え、その敵から前方範囲内の敵すべてに魔法小ダメージを与えた上で、それらの魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and small M.DMG to enemies around it. Lowers M.DEF of all targets by a small amount.
-r:"^敵単体に(\d+)の魔法ダメージ\n範囲内の敵すべてに(\d+)の魔法ダメージ\n範囲内の敵すべての魔法防御力を(\d+)ダウン$"=Cast Time: 1.27s\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to all enemy within ranges 200.\n►Lowers M.DEF of all enemies in range by $3 for 12s.
+r:"^敵単体に(\d+)の魔法ダメージ\n範囲内の敵すべてに(\d+)の魔法ダメージ\n範囲内の敵すべての魔法防御力を(\d+)ダウン$"=Cast Time: 1.27s\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to all enemy within ranges 200.\n►Lowers M.DEF of all enemies within range by $3 for 12s.
 
 Skill 2
 アーマーダウン=Reduce Armor

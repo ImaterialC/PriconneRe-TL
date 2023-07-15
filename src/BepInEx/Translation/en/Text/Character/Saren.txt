@@ -17,7 +17,7 @@ ex
 Skills+
 UB
 エンドオブフェニックス=End of Phoenix
-前方範囲内の敵すべてに物理大ダメージを与え、さらに味方全体の物理攻撃力と魔法攻撃力を大アップさせる。サレンのＨＰが低いほど、ダメージと攻撃力の上昇量がアップする。=Inflicts a large amount of P.DMG to all enemies within range, and Large boost the P/M.ATK of all allies. The lower Saren's HP, the more damage and attack power Boost.
+前方範囲内の敵すべてに物理大ダメージを与え、さらに味方全体の物理攻撃力と魔法攻撃力を大アップさせる。サレンのＨＰが低いほど、ダメージと攻撃力の上昇量がアップする。=Inflicts a large amount of P.DMG to all enemies within range, and Large boost the P/allies' M.ATK. The lower Saren's HP, the more damage and attack power Boost.
 r:"^範囲内の敵に(\d+)の物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within 900 range.\n►Additional P.DMG by 2.5x HP lost\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' M.ATK by $3 for 18s.\n►Additional P/M.ATK boosts by 0.2x HP lost
 S1
 ファイアスラッシュ=Fiery Slash

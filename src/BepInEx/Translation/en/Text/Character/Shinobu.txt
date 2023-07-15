@@ -28,8 +28,8 @@ UB
 S1
 ファントムコール=Phantom Call
 ファントムコール+=Phantom Call+
-【召喚】自分の前に、目の前の敵１キャラを攻撃するドクロを召喚し、自分を中心とした範囲内の味方の物理攻撃力と物理クリティカルを中アップする。=[Summon] Summons a skull in front of oneself, which attacks an enemy directly in front. Moderate boost to P.ATK and P.Crit rate of all allies in a radius around the frontmost ally.
-r:"^ドクロ親父を召喚する\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを(\d+)アップ$"=►Summons Shinobu's Skull Father.\n►Boosts P.ATK of all allies in range by $1.\n►Boosts P.Crit rate of all allies in range by $2.
+【召喚】自分の前に、目の前の敵１キャラを攻撃するドクロを召喚し、自分を中心とした範囲内の味方の物理攻撃力と物理クリティカルを中アップする。=[Summon] Summons a skull in front of oneself, which attacks an enemy directly in front. Moderate boost to P.ATK and allies' P.Crit Rate in a radius around the frontmost ally.
+r:"^ドクロ親父を召喚する\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを(\d+)アップ$"=►Summons Shinobu's Skull Father.\n►Boosts allies' P.ATK within range by $1.\n►Boosts allies' P.Crit Rate within range by $2.
 S2
 ウィークレイス=Weak Wraith
 ex

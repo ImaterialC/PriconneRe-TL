@@ -20,6 +20,7 @@
 [3C404E]ネットワーク接続エラーが発生しました。[-]=[3C404E]A network connection error has occurred. [-]
 [3C404E]新しいデータがあります。\nタイトルへをタップすると\nダウンロードが始まります。[-]=[3C404E]There is new data.\nTap to the title\nto start the download. [-]
 [3C404E]エラーコード：218-40\nエラーが発生しました[-]=[3C404E]Error code: 218-40\nError occurred[-]
+ネットワーク接続エラーが発生しました。\nエラーコード：1-2-0=Network connection error has occurred.\nError Code: 1-2-0
 [3C404E]ただいまメンテナンス中です。\n完了までしばらくお待ちください。[-]=[3C404E]We are currently undergoing maintenance.
 r:"^\[3C404E\]\[FFBB00\,CE4F00\]([0-9/ :]+)～ 翌([0-9/ :]+)\[-\]に\nメンテナンスを実施いたします。\n詳細はお知らせをご確認ください。\[-\]$"=[3C404E]At[FFBB00,CE4F00] $1 until next day $2[-]\nwill be performed maintenance.\nPlease check the announcement for details. [-]
 

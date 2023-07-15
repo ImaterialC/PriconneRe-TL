@@ -24,4 +24,4 @@ r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)�
 
 天楼轟破刃=Spires Roaring Blade
 r:"^敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを200アップ\n敵単体に(\d+)の物理ダメージ$"=Cast time: 0.59s\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.Crit by 200 for 12s.\n►Deals $3 P.DMG to an enemy.
-自分の物理攻撃力と物理クリティカルを特大アップさせ、目の前の敵１キャラに物理大ダメージを与える。さらに、追加の物理特大ダメージを与える。=Increases own P.ATK and P.crit rate by a massive amount, and deals large P.DMG to one enemy in front. It also deals an additional massive P.DMG.
+自分の物理攻撃力と物理クリティカルを特大アップさせ、目の前の敵１キャラに物理大ダメージを与える。さらに、追加の物理特大ダメージを与える。=Boosts own P.ATK and P.crit rate by a massive amount, and deals large P.DMG to one enemy in front. It also deals an additional massive P.DMG.

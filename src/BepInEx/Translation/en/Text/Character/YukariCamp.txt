@@ -1,13 +1,13 @@
 ユ=Yu
 
-【物理】中衛で最高の一杯を自然と共に愉しむ元聖騎士。【至福のひと時】が増えるほどに、味方の物理攻撃力やクリティカル時のダメージを強力に強化し、勝利を掴む。=[Physical] A former paladin who enjoys the best drink with nature in the MG. The more [Moment of Bliss], the stronger the P.ATK of allies and P.Crit Rate.
+【物理】中衛で最高の一杯を自然と共に愉しむ元聖騎士。【至福のひと時】が増えるほどに、味方の物理攻撃力やクリティカル時のダメージを強力に強化し、勝利を掴む。=[Physical] A former paladin who enjoys the best drink with nature in the MG. The more [Moment of Bliss], the stronger the allies' P.ATK and P.Crit Rate.
 
 キャンピングライムライト=Camping Limelight
 
 r:"^敵単体に(\d+)の物理ダメージ\n至福のひと時が３以上の場合、味方全体の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、味方全体の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to nearest enemy target within 500 range.\n►if Self have 3 or more stack, buff all friendly target by $2 P.ATK and $2 P.Crit rate for 18s.
 目の前の敵に物理特大ダメージを与える。このスキルがクリティカルした場合のダメージは２倍ではなく３倍になる。【至福のひと時】が３以上の場合、味方全体の物理攻撃力を小アップし物理クリティカルを大アップする。このスキルのクリティカルした場合のダメージと物理攻撃力と物理クリティカルの上昇量は【至福のひと時】に応じて増加する。=Deals Massive P.DMG to nearest enemy target within 500 range. Deals 3x P.DMG if critical. if Self have 3 or more stack [Moment of Bliss], buff all friendly target P.ATK and P.Crit rate.
 
-r:"^自分のＴＰを150回復\n対象の味方のＴＰを150回復\n自分の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、対象の味方の物理攻撃力を(\d+)アップ$"=►Recovers own TP by 150.\n►Recovers target ally's TP by 150.\n►Increases own P.ATK by $1.\n►If Blissful Moment is 3 or more, increases target ally's P.ATK by $2 for 12s.
+r:"^自分のＴＰを150回復\n対象の味方のＴＰを150回復\n自分の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、対象の味方の物理攻撃力を(\d+)アップ$"=►Recovers own TP by 150.\n►Recovers target ally's TP by 150.\n►Boosts own P.ATK by $1.\n►If Blissful Moment is 3 or more, increases target ally's P.ATK by $2 for 12s.
 
 自分に【至福のひと時】を１つ追加して、ＴＰを中回復し、物理攻撃力を中アップする。【至福のひと時】は最大７まで追加される。さらに【至福のひと時】が３未満の場合、自分以外のＴＰが低い味方２キャラのＴＰを中回復させ、【至福のひと時】が３以上の場合は、自分以外のＴＰが低い味方３キャラのＴＰを中回復させ、物理攻撃力を中アップする。=Adds 1 [Blissful Moment] to self, moderately restores TP and boosts P. ATK(Max:7). If fewer than 3 [Blissful Moments], moderately restores TP of 2 low TP allies (excluding self) and boosts P. ATK. If 3 or more [Blissful Moments], moderately restores TP of 3 low TP allies (excluding self) and boosts P.ATK.
 

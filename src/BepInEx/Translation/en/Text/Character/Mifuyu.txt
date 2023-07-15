@@ -17,7 +17,7 @@ r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能
 S1
 ファーストエイド=First Aid
 ファーストエイド+=First Aid+
-自分のＨＰを大回復し、さらに自分の物理防御力と魔法防御力を大アップし、自分の周りに範囲内の味方すべてを小回復するフィールドを展開する。=Recovers own HP by a large amount. Large boost to own P.DEF and M.DEF. Deploys a field around oneself that recovers HP of all allies in range by a small amount.
+自分のＨＰを大回復し、さらに自分の物理防御力と魔法防御力を大アップし、自分の周りに範囲内の味方すべてを小回復するフィールドを展開する。=Recovers own HP by a large amount. Large boost to own P.DEF and M.DEF. Deploys a field around oneself that recovers allies' HP within range by a small amount.
 r:"^自分のＨＰを(\d+)回復\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Recovers own HP by $1.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.\n►Deploys a field (Radius 150) that recovers HP by $4/s for 8.5s.
 S2
 ハイドロスラッシュ=Hydro Slash

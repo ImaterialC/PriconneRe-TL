@@ -10,7 +10,7 @@
 敵全体に魔法中ダメージを与え、さらに自分のＴＰを中回復する。敵の数に応じて与えるダメージとＴＰの回復量が増加する。=Deals moderate M.DMG to all enemies and further restores her own TP. The damage dealt and TP recovery amount increase based on the number of enemies.
 
 チアフル☆ハピネス=Cheerful☆Happiness
-自分を中心とした範囲内の味方すべての魔法攻撃力と魔法クリティカルを中アップさせる。=Increases the M.ATK and M.crit rate of all allies within the range centered around herself.
+自分を中心とした範囲内の味方すべての魔法攻撃力と魔法クリティカルを中アップさせる。=Boosts the M.ATK and allies' M.Crit Rate within the range centered around herself.
 グリッタースターズ☆ポンポン=Gritter Stars ☆ Pom-Pom
 
 ハッピー☆チアボイス+=Happy Cheer Voice+
@@ -20,5 +20,5 @@ r:"^敵全体に(\d+)の魔法ダメージ\n自分を行動不能にする$"=►
 
 r:"^敵全体に(\d+)の魔法ダメージ\n自分のＴＰを(\d+)回復$"=►Deals $1 M.DMG to all enemies.\n►Restores own TP by $2.
 
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを(\d+)アップ$"=►Boosts M.ATK of all allies within range by $1.\n►Boosts M.crit Rate of allies within range by $2.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを(\d+)アップ$"=►Boosts allies' M.ATK within range by $1.\n►Boosts M.crit Rate of allies within range by $2.
 

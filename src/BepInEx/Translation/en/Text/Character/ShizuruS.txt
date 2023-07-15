@@ -8,11 +8,11 @@ r:"^範囲内の敵に(\d+)の物理ダメージ\n(\d+)ダメージ分の物理�
 
 ブルーウェービング=Blue Weaving
 ブルーウェービング+=Blue Weaving+
-前方範囲内の敵すべてに物理中ダメージを与え、自分の物理防御力を大アップさせ、さらに自分のＨＰを小回復し、味方全体の物理攻撃力を中アップする。自分の物理防御力が高い程ダメージとＨＰの回復量と物理攻撃力の上昇量がアップする。=Deal medium P.DMG to all enemies within a forward range, greatly increase the user's P.DEF, and additionally restore a small amount of user's HP and increase the P.ATK of all allies. The higher the user's P.DEF, the greater the amount of damage, HP recovery, and P.ATK increase.
+前方範囲内の敵すべてに物理中ダメージを与え、自分の物理防御力を大アップさせ、さらに自分のＨＰを小回復し、味方全体の物理攻撃力を中アップする。自分の物理防御力が高い程ダメージとＨＰの回復量と物理攻撃力の上昇量がアップする。=Deal medium P.DMG to all enemies within a forward range, greatly increase the user's P.DEF, and additionally restore a small amount of user's HP and increase the allies' P.ATK. The higher the user's P.DEF, the greater the amount of damage, HP recovery, and P.ATK increase.
 r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理防御力を(\d+)アップ\n自分のＨＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ$"=►Deals $1(+40×P.DEF) P.DMG to enemies whitin 500 range.\n►Boosts own P.DEF by $2 for 12s.\n►Recovers own HP by $3(+3.2×P.DEF).\n►Boosts allies' P.ATK by $4(+1.6×P.DEF) for 12s.
 
 サン・フラワリー=Sun Flowery
-味方全体の物理攻撃力を小アップし、さらにＨＰを小回復する。自分の物理防御力が高い程、物理攻撃力の上昇量とＨＰの回復量がアップする。=Increase the P.ATK of all allies and restore a small amount of HP. The higher the user's P.DEF, the greater the amount of P.ATK increase and HP recovery.
+味方全体の物理攻撃力を小アップし、さらにＨＰを小回復する。自分の物理防御力が高い程、物理攻撃力の上昇量とＨＰの回復量がアップする。=Boost the allies' P.ATK and restore a small amount of HP. The higher the user's P.DEF, the greater the amount of P.ATK increase and HP recovery.
 r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体のＨＰを(\d+)回復$"=►Boosts allies' P.ATK by $1(+2.7×P.DEF) for 12s.\n►Recovers allies' HP by $2(+0.9×P.DEF).
 
 お姉ちゃんサマーサンライズEX=Onee-chan Summer Sunrise EX

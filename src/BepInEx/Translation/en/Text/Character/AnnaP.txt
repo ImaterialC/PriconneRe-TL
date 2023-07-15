@@ -8,7 +8,7 @@
 
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n自分の魔法攻撃力を(\d+)アップ\n自分の魔法攻撃クリティカル時のダメージを2％アップ$"=►Deals $1 M.DMG to enemies within 600 range.\n►Boosts own M.ATK by $2 for 180s.\n►Boosts own M.crit dmg by by 2% for 180s.
 
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n自分のＴＰ上昇を20アップ\n自分の残りＨＰの30％を消費$"=►Deals $1 M.DMG to enemies within 600 range.\n►Increases own TP Boost by 20 for 12s.\n►Consumes 30% of remaining HP.
+r:"^範囲内の敵に(\d+)の魔法ダメージ\n自分のＴＰ上昇を20アップ\n自分の残りＨＰの30％を消費$"=►Deals $1 M.DMG to enemies within 600 range.\n►Boosts own TP Boost by 20 for 12s.\n►Consumes 30% of remaining HP.
 
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の魔法防御力を(\d+)ダウン\n範囲内の敵の魔法攻撃力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within 600 range.\n►Lowers all enemies’ M.DEF within 600 range by $2 for 18s.\n►Lowers all enemies’ M.ATK within 600 range by $3 for 18s.
 前方範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、魔法攻撃力を特大ダウンさせる。=Deals massive M.DMG to all enemies within the frontal area, reduces their M.DEF, and greatly decreases their M.ATK.

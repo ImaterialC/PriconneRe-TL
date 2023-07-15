@@ -14,7 +14,7 @@
 カラミティサンダー+=Calamity Thunder+
 r:"^敵単体に(\d+)の魔法ダメー\n?ジ\n敵単体の魔法防御力を(\d+)ダウ\n?ン\n敵単体のクリティカルを受けた\n?際のダメージを10％アップ\n自分のＴＰを350回復\n自分の魔法攻撃力を(\d+)アッ\n?プ$"=Cast Time: 0.66s\n►Deals $1 M.DMG to an enemy.\n►Lowers an enemy’s M.DEF by $2 for 12s.\n►Reduce 10% M.Crit dmg resistance to an enemy for 12s.\n►Recovers own TP by 350.\n►Boosts own M.ATK by $3 for 18s.
 
-目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を大ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに、自分の魔法攻撃力を小アップさせ、ＴＰを大回復する。このスキルで与えたダメージ量に応じて、攻撃力の上昇量がアップする。=Deal medium M.DMG to a single enemy in front and greatly decrease their M.DEF. Increase damage taken when hit with M.crit. Additionally, slightly increase own M.ATK and greatly recover TP. The amount of M.ATK boost will also rise depending on the damage dealt with this skill.
+目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を大ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに、自分の魔法攻撃力を小アップさせ、ＴＰを大回復する。このスキルで与えたダメージ量に応じて、攻撃力の上昇量がアップする。=Deal medium M.DMG to a single enemy in front and greatly decrease their M.DEF. Boost damage taken when hit with M.crit. Additionally, slightly increase own M.ATK and greatly recover TP. The amount of M.ATK boost will also rise depending on the damage dealt with this skill.
 
 
 アビスコールエイド=Abyss Call Aid

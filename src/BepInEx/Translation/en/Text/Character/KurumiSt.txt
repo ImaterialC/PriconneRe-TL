@@ -1,7 +1,7 @@
 【物理】後衛で、皆のため意を決し奮起する小さな女優。残りＨＰが多いほど物理攻撃力がアップし、物理攻撃無効バリアのスキルやＨＰ・ＴＰ継続回復で味方を支援する。=【Physical】As a backliner, she is a small actress who gathers her courage and rises up for everyone's sake. Her physical attack power increases the more HP she has left, and she supports her allies with skills such as a physical attack nullifying barrier and continuous HP/TP recovery.
 
 ブルーミングスポットライト=Blooming Spotlight
-物理攻撃を行うすべての味方キャラの物理攻撃力を中アップさせる。自分の残りＨＰが多いほど、物理攻撃力の上昇量がアップする。=Increase the P.ATK of all allies who perform physical attacks by a medium amount. The higher the user's remaining HP, the more the P.ATK of all allies is increased.
+物理攻撃を行うすべての味方キャラの物理攻撃力を中アップさせる。自分の残りＨＰが多いほど、物理攻撃力の上昇量がアップする。=Boost the allies' P.ATK who perform physical attacks by a medium amount. The higher the user's remaining HP, the more the allies' P.ATK is increased.
 r:"^対象の味方の物理攻撃力を(\d+)アップ$"=►Boosts P-type allies' P.ATK by $1(+14%×HP) for 18s.
 
 

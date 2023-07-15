@@ -8,19 +8,19 @@ Profileマホ
 Skills
 UB
 メルヘンガーデン=Märchen Garden
-味方全体の魔法攻撃力を小アップ、物理防御力を小アップさせ、さらにＴＰを小回復する。=Small boost to M.ATK and P.DEF of all allies and recovers their TP by a small amount.
+味方全体の魔法攻撃力を小アップ、物理防御力を小アップさせ、さらにＴＰを小回復する。=Small boost to M.ATK and allies' P.DEF and recovers their TP by a small amount.
 r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体のＴＰを(\d+)回復$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.
 S1
 ＨＰが１番低い味方１キャラのＨＰを中回復する。=Recovers the HP of the party member with the lowest HP by a moderate amount.
 S2
 前から２番目の敵１キャラを暗闇状態にする。=Inflicts Blind to an enemy in the 2nd position.
-r:"^敵単体を暗闇状態にする$"=Inflicts Blind.
+r:"^敵単体を暗闇状態にする$"=►Inflicts Blind.
 ex
 メルヘンチャージ=Fanciful Furor
 Skills+
 UB
 メルヘンキングダム=Märchen Kingdom
-味方全体の魔法攻撃力を特大アップ、物理防御力を中アップさせ、さらにＴＰを中回復し、継続ＴＰ回復状態を付与する。=Massive boost to M.ATK and P.DEF of all allies, recovers their TP by a moderate amount, and grant a continuous TP recovery state.
+味方全体の魔法攻撃力を特大アップ、物理防御力を中アップさせ、さらにＴＰを中回復し、継続ＴＰ回復状態を付与する。=Massive boost to M.ATK and allies' P.DEF, recovers their TP by a moderate amount, and grant a continuous TP recovery state.
 r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体のＴＰを(\d+)回復\n毎秒ＴＰを(\d+)回復する$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.\n►Recovers TP by $4/s for 10s.
 S1
 マホマホヒール=Mahomaho Heal

@@ -4,8 +4,8 @@
 味方全体の魔法防御力を中アップさせ、さらに自分に魔法吸収バリアを展開する。=Moderate boost to allies' M.DEF. Deploys a barrier around oneself that absorbs M.DMG.
 r:"^味方全体の魔法防御力を(\d+)アップ\n(\d+)ダメージ分の魔法吸収バリアを展開する$"=Boosts allies' M.DEF by $1.\nDeploys Barrier that absorbs $2 M.DMG.
 ---S1
-攻撃を受けるか一定時間経過するまでの間、ベルを鳴らして自分を中心とした範囲内の味方の物理防御力を特大アップさせる。=Rings a bell to massively boost the P.DEF of all allies in range. This effect continues for a set time or until attacked.
-r:"^ベルを鳴らしている間、範囲内の味方の物理防御力を(\d+)アップ$"=While ringing the bell, boosts P.DEF of allies in range by $1.
+攻撃を受けるか一定時間経過するまでの間、ベルを鳴らして自分を中心とした範囲内の味方の物理防御力を特大アップさせる。=Rings a bell to massively boost the allies' P.DEF in range. This effect continues for a set time or until attacked.
+r:"^ベルを鳴らしている間、範囲内の味方の物理防御力を(\d+)アップ$"=While ringing the bell, boosts allies' P.DEF within range by $1.
 ---S2
 ---ex
 セイントエトワール=Saint Etoile
@@ -14,7 +14,7 @@ r:"^ベルを鳴らしている間、範囲内の味方の物理防御力を(\d+
 ---UB
 ---S1
 ５回攻撃を受けるか一定時間経過するまでの間、ベルを鳴らして自分を中心とした範囲内の味方の物理防御力を特大アップさせる。さらに味方全体の物理防御力を中アップさせ、自分のＴＰを小回復する。=Until you receive 5 attacks or for a certain period of time, you will sound the physics defense of allies, led by yourself. Furthermore, the P.DEF power of all allies is improved to recover your TP small.
-r:"^ベルを鳴らしている間、範囲内の味方の物理防御力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n自分のＴＰを(\d+)回復$"=Up the P.DEF of allies within the range while ringing the bell $1\nUp $2 the P.DEF of all allies\nRecovery of your TP $3
+r:"^ベルを鳴らしている間、範囲内の味方の物理防御力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n自分のＴＰを(\d+)回復$"=Up the allies' P.DEF within the range while ringing the bell $1\nUp $2 the allies' P.DEF\nRecovery of your TP $3
 ---S2
 ---ex
 セイントエトワール+=Saint Etoile+

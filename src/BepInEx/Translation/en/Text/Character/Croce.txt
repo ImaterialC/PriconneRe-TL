@@ -5,7 +5,7 @@
 スマイル満タン！　パワフル機械少女=Full of smiles! Powerful Machine Girl
 
 
-【物理】中衛で着脱可能な鉄腕を放つ機械人族のロボ娘。ＵＢ発動で【フルチャージ】状態になり、【バッテリー】が切れるまで強化スキルを連発し、一帯を超速圧砕する。=[Physical] A robotic girl from the mechanical race who wields detachable iron arms in the midline. When activating UB, she enters the [Full Charge] state and unleashes a barrage of strengthening skills until her [Battery] runs out, crushing the entire area at super speed.
+【物理】中衛で着脱可能な鉄腕を放つ機械人族のロボ娘。ＵＢ発動で【フルチャージ】状態になり、【バッテリー】が切れるまで強化スキルを連発し、一帯を超速圧砕する。=[Physical] An automaton robot girl who fires her detachable steel arms at the enemy from the midlines. When she UBs, she enters full charge mode and delivers powerful skills continuously until her batteries run out, after which her speed greatly decreases.
 
 
 ギガンティックアームパンチ=Gigantic Arm Punch
@@ -25,7 +25,7 @@ r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受
 最も後ろの敵１キャラに物理大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。【バッテリー】を１つ消費する。=Deals large P.DMG to the rearmost enemy character and slightly increases damage received from critical hits. This skill always lands a critical hit with each hit, and if it lands a critical hit, the damage is tripled instead of doubled. Consumes 1 [Battery].
 
 サマーソルトソニック=Somersault Sonic
-自分の物理攻撃力と物理クリティカルを中アップさせ、前方範囲内の敵すべてに物理大ダメージを与える。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。【バッテリー】を１つ消費する。=Increases own P.ATK and P.Crit, and deals massive P.DMG to all enemies within the frontal range. This skill always lands a critical hit with each hit, and if it lands a critical hit, the damage is tripled instead of doubled. Consumes 1 [Battery].
+自分の物理攻撃力と物理クリティカルを中アップさせ、前方範囲内の敵すべてに物理大ダメージを与える。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。【バッテリー】を１つ消費する。=Boosts own P.ATK and P.Crit, and deals massive P.DMG to all enemies within the frontal range. This skill always lands a critical hit with each hit, and if it lands a critical hit, the damage is tripled instead of doubled. Consumes 1 [Battery].
 
 r:"^範囲内の敵に(\d+)の物理ダメージ\n自分のＴＰを1000失わせる\n自分のステータスアップ効果を解除する\n自分の行動速度ダウン\nバッテリーを７つ消費する$"=►Deals $1 P.DMG to enemies within 800 range.\n►Reduces own TP by 1000.\n►Removes own status enhancement effects.\n►reduces own action speed by 300% for 180s.\n►Consumes 7 batteries.
 

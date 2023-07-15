@@ -17,7 +17,7 @@ r:"^自分のＨＰを(\d+)回復\n毎秒ＨＰを(\d+)回復する\n味方全�
 
 r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n敵全体を挑発する$"=Cast time: 0.375s.\nDeploys Barrier that absorbs $1 P/M.DMG for 12s.\nTaunt on self for 17s.
 
-【挑発】自身に物理/魔法吸収バリアを展開し、味方全体の物理攻撃力を大アップさせ、さらに敵全体を挑発する。=[Taunt] Deploy a barrier around self that absorbs P/M DMG, boost the P.ATK of all allies, and taunts all enemies.
+【挑発】自身に物理/魔法吸収バリアを展開し、味方全体の物理攻撃力を大アップさせ、さらに敵全体を挑発する。=[Taunt] Deploy a barrier around self that absorbs P/M DMG, boost the allies' P.ATK, and taunts all enemies.
 
 r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n味方全体の物理攻撃力を(\d+)アップ\n敵全体を挑発する$"=Cast time: 0.375s.\nDeploys Barrier that absorbs $1 P/M.DMG for 12s.\nBoosts allies' P.ATK by $2 for 12s.\nTaunt on self for 17s.
 

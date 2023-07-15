@@ -21,8 +21,8 @@ r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理攻撃力を(\d+)�
 r:"^敵全体に(\d+)の物理ダメージ\n敵全体の物理攻撃力を(\d+)ダウン\n敵全体の物理クリティカルを(\d+)ダウン\n敵全体の物理攻撃クリティカル時のダメージを25％ダウン$"=Deals $1 M.DMG to all enemies.\nLowers all enemies’ P.ATK by $2 for 18s.\nLowers all enemies’ P.Crit Rate by $3 for 18s.\nLowers all enemies’ P.Crit DMG by 25% for 18s.
 ---S1
 インクシューター+=Ink Spray+
-自分から２番目に近い敵１キャラに物理中ダメージを与え、暗闇状態にする。さらに範囲内の敵すべての物理攻撃力を小ダウンさせる。=Deals small P.DMG to the 2nd closest enemy and inflicts Blind. Lowers the P.ATK of all enemies in range by a small amount.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を暗闇状態にする\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nInflicts Blind for 10s.\nLowers P.ATK of enemies within range 200 by $2 for 180s.
+自分から２番目に近い敵１キャラに物理中ダメージを与え、暗闇状態にする。さらに範囲内の敵すべての物理攻撃力を小ダウンさせる。=Deals small P.DMG to the 2nd closest enemy and inflicts Blind. Lowers the P.ATK of all enemies within range by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体を暗闇状態にする\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nInflicts Blind for 10s.\nLowers P.ATK of enemies within 200 range by $2 for 180s.
 ---S2
 ---ex
 トラップエキスパート+=Professional Prankster+

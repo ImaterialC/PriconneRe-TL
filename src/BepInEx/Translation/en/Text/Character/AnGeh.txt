@@ -12,7 +12,7 @@
 レイディアントインフェルノ=Radiant Inferno
 r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n►Boosts allies' M.ATK by $3 for 18s.
 
-目の前の敵１キャラに魔法大ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。さらに、自分の周囲の味方すべての魔法攻撃力を大アップさせる。=Deals large M.DMG twice on the enemy in front. The damage of this skill boost according to the number of Magic Seals of Friendship. In addition, Large boost M.ATK of all allies around you.
+目の前の敵１キャラに魔法大ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。さらに、自分の周囲の味方すべての魔法攻撃力を大アップさせる。=Deals large M.DMG twice on the enemy in front. The damage of this skill boost according to the number of Magic Seals of Friendship. In addition, Large boost allies' M.ATK around you.
 
 フレンズリンケージ=Friends Linkage
 フレンズリンケージ+=Friends Linkage+

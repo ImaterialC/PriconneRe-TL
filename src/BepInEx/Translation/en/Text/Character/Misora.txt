@@ -6,7 +6,7 @@
 
 ガトリング★シンフォニア=Gatling ★ Symphonia
 目の前の最大３キャラまでの敵に魔法大ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。さらに、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。=Deals large M.DMG to up to 3 enemies in front. Damage increases against farther enemies. Also slightly increases damage taken from critical hits by 1 enemy in front.
-r:"^１番目に近い敵に(\d+)の魔法ダメージ\n２番目に近い敵に(\d+)の魔法ダメージ\n３番目に近い敵に(\d+)の魔法ダメージ\n敵単体のクリティカルを受けた際のダメージを10％アップ\nPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to the nearest enemy.\n►Deals $2 M.DMG to the 2nd-nearest enemy.\n►Deals $3 M.DMG to the 3rd-nearest enemy.\n►Increases damage taken when hit by a critical attack by 10% for 10s.\n►Reduces the M.DEF of a single enemy while in PSI★Charge state by $4 for 18s.
+r:"^１番目に近い敵に(\d+)の魔法ダメージ\n２番目に近い敵に(\d+)の魔法ダメージ\n３番目に近い敵に(\d+)の魔法ダメージ\n敵単体のクリティカルを受けた際のダメージを10％アップ\nPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to the nearest enemy.\n►Deals $2 M.DMG to the 2nd-nearest enemy.\n►Deals $3 M.DMG to the 3rd-nearest enemy.\n►Boosts damage taken when hit by a critical attack by 10% for 10s.\n►Reduces the M.DEF of a single enemy while in PSI★Charge state by $4 for 18s.
 
 どるるる～ん★=Doruru～n★
 どるるる～ん★+=Doruru～n★+
@@ -16,7 +16,7 @@ r:"^１番目に近い敵に(\d+)の魔法ダメージ\n２番目に近い敵に
 
 えい★えい★おー！=Ei★Ei★oh!
 味方全体の魔法攻撃力と魔法クリティカルを大アップさせる。=Greatly increases the magic attack power and magic critical hit rate of all allies.
-r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ$"=Cast time: 0.87s\n►Increases M.ATK of all allies by $1 for 180s.\n►Increases M.crit of all allies by $2 for 180s.
+r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ$"=Cast time: 0.87s\n►Boosts allies' M.ATK by $1 for 180s.\n►Boosts M.crit of all allies by $2 for 180s.
 
 サイキック・サイト=Psychic site
 サイキック・サイト+=Psychic site+

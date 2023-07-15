@@ -10,7 +10,7 @@ r:"^対象の味方の魔法攻撃力を(\d+)アップ\n対象の味方の魔法
 フラワーブレッシング+=Flower Breaking+
 最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。自分の魔法攻撃力に応じて、魔法攻撃力アップと魔法クリティカルアップの効果量が最大４倍、魔法攻撃クリティカル時のダメージアップの効果量が最大２倍までアップする。さらに、最も魔法攻撃力が高い味方１キャラのＴＰを小回復させる。=Large boost the M.ATK, and slightly raise, M.ATK, M.crit and M.crit dmg Depending on your M.ATK up to 4 times, and the effect amount of M.crit dmg will be increased up to 2 times. In addition, restores a small amount of TP to the 1 ally character with the highest M.ATK.
 
-最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。自分の魔法攻撃力が高い程、それぞれの効果量がアップする。さらに、最も魔法攻撃力が高い味方１キャラのＴＰを小回復させる。=Increases M.ATK and M.crit rate of the ally with highest M.ATK by large amount, with boosted effect based on user's M.ATK. Also boosts M.crit dmg and slightly restores TP of ally with highest M.ATK.
+最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。自分の魔法攻撃力が高い程、それぞれの効果量がアップする。さらに、最も魔法攻撃力が高い味方１キャラのＴＰを小回復させる。=Boosts M.ATK and M.crit rate of the ally with highest M.ATK by large amount, with boosted effect based on user's M.ATK. Also boosts M.crit dmg and slightly restores TP of ally with highest M.ATK.
 
 r:"^味方単体の魔法攻撃力を(\d+)アップ\n味方単体の魔法クリティカルを(\d+)アップ\n味方単体の魔法攻撃クリティカル時のダメージを5％アップ\n味方単体のＴＰを(\d+)回復$"=Cast time: 0.59s\nToward highest M.ATK:\n►Boost M.ATK by $1(+0.27×M.ATK) for 12s.\n►Boost M.Crit Rate by $2 for 12s.\n►Boost M.Crit DMG by 5% for 12s.\n►Restore target's TP by $3.
 

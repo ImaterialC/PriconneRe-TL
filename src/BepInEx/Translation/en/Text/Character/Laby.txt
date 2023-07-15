@@ -35,7 +35,7 @@ r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリ
 
 オプティマイズ+=Optimize+
 味方全体の物理攻撃力を特大アップさせ、物理クリティカルを中アップさせる。さらに自分のＴＰを中回復する。=Massively increases the physical attack power of all allies, and moderately increases the physical critical rate of all allies. In addition, moderately restore own TP.
-r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを(\d+)アップ\n自分のＴＰを200回復$"=Cast time: 0.59s\n►Boosts P.ATK of all allies by $1 for 12s.\n►Boosts P.crit rate of all allies by $2 for 12s.\n►Recovers own TP by 200.
+r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを(\d+)アップ\n自分のＴＰを200回復$"=Cast time: 0.59s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.Crit Rate by $2 for 12s.\n►Recovers own TP by 200.
 
 
 味方全体の物理攻撃力を特大アップさせ、物理クリティカルを大アップさせ、行動速度を大アップさせる。このスキルのスキルレベルは「オブジェクトクリエイション」と連動しています=Greatly increases physical attack power, physical criticality, and action speed of all allies. The skill level of this skill is linked to "Object Creation"

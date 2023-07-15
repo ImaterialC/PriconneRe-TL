@@ -8,7 +8,7 @@
 r:"^目の前の敵単体に(\d+)の物理ダメージ\n２番目に近い敵単体に(\d+)の物理ダメージ$"=Deals $1 P.DMG to closest enemy.\nDeals $1 P.DMG to 2nd closest target.
 ---S1
 ---S2
-味方全体の物理攻撃力を小アップさせる。=Small boost to P.ATK of all allies.
+味方全体の物理攻撃力を小アップさせる。=Small boost to allies' P.ATK.
 r:"^味方全体の物理攻撃力を(\d+)アップ$"=Boosts allies' P.ATK by $1.
 ---ex
 うさぎさんパワー=Bunny Power

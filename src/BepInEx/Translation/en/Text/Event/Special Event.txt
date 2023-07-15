@@ -58,7 +58,7 @@
 バーストエンド発生！=Burst end occurs!
 ボスを完全討伐したため、バーストエンドが発生しました。=A burst end occurred because\nthe boss was completely defeated.
 TP250アップ=TP250 up
-バトル開始時、味方のＴＰが250アップ=At the start of the battle, the TP of allies is up 250
+バトル開始時、味方のＴＰが250アップ=At the start of the battle, the allies' TP is up 250
 [FF7C4E,D62146]このクエストではスタミナは消費されません[-]=[FF7C4E,D62146]Stamina is not consumed in this quest[-]
 
 リタイアするとバトルの進捗が\nバトル開始時点までリセットされます。\n\nまた、このバトルはクリアするまで\n何度でも挑戦可能です。=If you retire, the progress of the battle will be reset until the start of the battle.\n\nIn addition, this battle can be challenged as many times as you want.

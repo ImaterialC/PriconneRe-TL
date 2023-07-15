@@ -6,7 +6,7 @@ Profileミサト
 Skills
 UB
 シスターフェイバー=Sister's Blessing
-味方全体のＨＰを中回復し、さらに魔法防御力を小アップさせる。=Recovers HP of all allies by a moderate amount. Small boost to their M.DEF.
+味方全体のＨＰを中回復し、さらに魔法防御力を小アップさせる。=Recovers allies' HP by a moderate amount. Small boost to their M.DEF.
 r:"^味方全体のＨＰを(\d+)回復\n味方全体の魔法防御力を(\d+)アップ$"=►Recovers allies' HP by $1.\n►Boosts allies' M.DEF by $2 for 18s.
 S1
 ディバインフォース=Divine Force

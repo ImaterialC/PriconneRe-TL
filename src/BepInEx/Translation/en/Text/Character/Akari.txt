@@ -18,7 +18,7 @@ UB (6 star)
 
 r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ\n敵全体の魔法防御力を(\d+)ダウン$"=►Grants lifesteal to allies' next attack.\n►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.Crit rate by $2 for 18s.\n►Lowers all enemy’s M.DEF by $3 for 18s.
 UB (Need Non-6*)
-味方全体の魔法攻撃力を小アップさせ、さらに次の攻撃のダメージ量に応じて追加でＨＰを回復させる。=Small boost to M.ATK of all allies and recovers their HP based on the damage dealt by their next attack.
+味方全体の魔法攻撃力を小アップさせ、さらに次の攻撃のダメージ量に応じて追加でＨＰを回復させる。=Small boost to allies' M.ATK and recovers their HP based on the damage dealt by their next attack.
 r:"^味方全体の魔法攻撃力を(\d+)アップ$"=►Boosts allies' M.ATK by $1.
 
 Skill 1 (with UE)

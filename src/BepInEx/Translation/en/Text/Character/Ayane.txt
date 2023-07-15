@@ -30,7 +30,7 @@ same with Shizuru Noir
 前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG and inflicts Stun to all enemies in range 
 
 ---Skill 2
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン$"=Deals $1 P.DMG to enemies in range.\nLowers P.DEF of all enemies in range by $2.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン$"=Deals $1 P.DMG to enemies in range.\nLowers P.DEF of all enemies within range by $2.
 自分を中心とした範囲内の敵すべてに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals small P.DMG to enemies in range and lowers their P.DEF by a small amount.
 
 ---EX

@@ -7,17 +7,17 @@
 
 金牙神然=Gold Fangs
 目の前の敵１キャラに物理大ダメージを与え、一定時間無敵状態になる。【フィールド展開中】自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせる。=Damage to one enemy in front of you, and you will be invincible for a certain period of time.[During the field] Oversized all the physical attack power of all allies within the range centered on yourself.
-r:"^敵単体に(\d+)の物理ダメージ\n一定時間無敵状態になる\nフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 physical damage to a single enemy.\n►Applies invulnerable on Self for 4s.\n►During field deployment, boosts P.ATK of allies within 195 range by $2 for 18s.
+r:"^敵単体に(\d+)の物理ダメージ\n一定時間無敵状態になる\nフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 physical damage to a single enemy.\n►Applies invulnerable on Self for 4s.\n►During field deployment, boosts allies' P.ATK within 195 range by $2 for 18s.
 
 自分を中心とした範囲内の味方すべての物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＴＰを小回復させる。【フィールド展開中】ＴＰの回復量がアップし、自分を中心とした範囲内の味方すべてのＴＰ上昇を小アップさせる。=Boosts P.ATK and crit. dmg of all allies in range, while recovering a small amount of TP. When use during Field Deployment, TP recovery is increased, and allies' TP Boosts is slightly increased in range.
 
 一子之夢=Only child's dream
 一子之夢+=Only child's dream+
-r:"^範囲内の味方のＴＰを50回復\nフィールド展開中、範囲内の味方のＴＰを100回復\nフィールド展開中、範囲内の味方のＴＰ上昇を8アップ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカル時のダメージを5％アップ$"=►Recovers 50 TP for allies within 195 range.(recovers 100 TP During field deployment).\n►During field deployment, increases TP Boosts of allies within 195 range by 8 for 12s.\n►Boosts P.ATK of allies within range by $1.\n►Increases Crit dmg by 5% within 195 range for 12s.
+r:"^範囲内の味方のＴＰを50回復\nフィールド展開中、範囲内の味方のＴＰを100回復\nフィールド展開中、範囲内の味方のＴＰ上昇を8アップ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカル時のダメージを5％アップ$"=►Recovers 50 TP for allies within 195 range.(recovers 100 TP During field deployment).\n►During field deployment, increases TP Boosts of allies within 195 range by 8 for 12s.\n►Boosts allies' P.ATK within range by $1.\n►Boosts Crit dmg by 5% within 195 range for 12s.
 
 パレードの時間だよ♪=It's Parade Time♪
-自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開し、さらに自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを大アップさせる。=Deploys a field that slightly recovers HP of all allies in range, and significantly boosts P.ATK and P.crit rate of all allies in range centered around oneself.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを120アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 1.5s\n►Boosts P.ATK of all allies within range 195 by $1 for 12s.\n►Boosts P.Crit Rate of all allies within range 195 by 120 for 12s.\n►Deploys a 305 radius field that recovers HP of all allies in it by $2 every second for 12s.
+自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開し、さらに自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを大アップさせる。=Deploys a field that slightly recovers allies' HP in range, and significantly boosts P.ATK and allies' P.Crit Rate in range centered around oneself.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを120アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 1.5s\n►Boosts allies' P.ATK within 195 range by $1 for 12s.\n►Boosts allies' P.Crit Rate within 195 range by 120 for 12s.\n►Deploys a 305 radius field that recovers allies' HP in it by $2 every second for 12s.
 
 ビート･ザ･マウス=Beat the Mouse
 

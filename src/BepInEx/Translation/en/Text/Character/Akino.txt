@@ -34,7 +34,7 @@ r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメ
 Skill 2
 ヒーリングジュエル=Rejuvenating Jewel
 自分の周囲に、範囲内の味方すべてを小回復するフィールドを展開する。=Deploys a Field that recovers HP of all nearby allies by a small amount.
-r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time:1.5575s\n►Deploys a 150 radius field that recovers HP of all allies in it by $1 every second for 8s.
+r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time:1.5575s\n►Deploys a 150 radius field that recovers allies' HP in it by $1 every second for 8s.
 
 EX Skill
 フレイムソウル=Burning Soul
