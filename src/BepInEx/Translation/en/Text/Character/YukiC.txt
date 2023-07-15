@@ -17,4 +17,4 @@ r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法攻撃力を(\d+)�
 
 r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方のＴＰを40回復$"=Cast time: 1.05s.\n►Boosts allies' M.ATK within 100 range by $1 for 12s.\n►Recovers allies' TP within 100 range by 40 for 12s.
 
-r:"^ステータスアップ効果を受けるたびに【美貌】を付与する状態になる\n範囲内の味方の魔法防御力を(\d+)アップ\n(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.415s.\n►Grants 【Beauty】 state whenever receiving a stat boost effect.\n►Boosts allies' M.DEF within 100 range by $1 for 180s.\n►Deploys Barrier over allies within 100 range that negates $2 M.DMG for 180s.
+r:"^ステータスアップ効果を受けるたびに【美貌】を付与する状態になる\n範囲内の味方の魔法防御力を(\d+)アップ\n(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.415s.\n►Grants [Beauty] state whenever receiving a buff.\n►Boosts allies' M.DEF within 100 range by $1 for 180s.\n►Deploys Barrier over allies within 100 range that negates $2 M.DMG for 180s.

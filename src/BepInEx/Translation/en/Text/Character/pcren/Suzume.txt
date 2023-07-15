@@ -23,7 +23,7 @@ r:"^範囲内の味方のＨＰを(\d+)回復\n範囲内の味方の物理攻撃
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン$"=M.DMG of $1 to enemies in the range\nThe P.DEF power of the enemy in the range $1 down\n$1 down the M.DEF of the enemy in the range
 ---S1
 前方範囲内の敵すべてに魔法中ダメージを与える。さらに物理防御力と魔法防御力を小ダウンさせる。=Deals moderate M.DMG to all enemies in range and lowers their P.DEF and M.DEF by a small amount.
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン$"=Deals $1 M.DMG to enemies in range.\nLowers P.DEF of enemies within range by $1.\nLowers M.DEF of enemies within range by $1.
+r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン$"=Deals $1 M.DMG to enemies in range.\nLowers enemies' P.DEF within range by $1.\nLowers enemies' M.DEF within range by $1.
 ---S2
 
 ---ex

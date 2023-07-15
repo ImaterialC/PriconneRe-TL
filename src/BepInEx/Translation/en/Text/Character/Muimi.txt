@@ -16,7 +16,7 @@ r:"^斬撃で範囲内の敵に(\d+)の物理ダメージ\n蹴りで範囲内の
 S2
 こっちだこっち！=Right This Way!
 前方範囲内の敵すべての物理防御力を小ダウンさせる。=Lowers the P.DEF of all enemies within range by a small amount.
-r:"^範囲内の敵の物理防御力を(\d+)ダウン$"=►Lowers P.DEF of enemies within range by $1.
+r:"^範囲内の敵の物理防御力を(\d+)ダウン$"=►Lowers enemies' P.DEF within range by $1.
 ex
 ポテンシャルフォース=Potential Force
 Skills+

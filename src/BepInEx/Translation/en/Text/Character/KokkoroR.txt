@@ -1,4 +1,5 @@
 【物理】後衛で、わんわんと一緒の新緑レンジャー少女。自分の攻撃力に応じて強化される物理攻撃支援スキルやＨＰ継続回復、バリアで周囲を支え、絆の勝利へと導く。=[Physical] A girl ranger with a new green outfit who fights from the backline with her cute puppy. She supports her allies with P.ATK boosting skills, continuous HP recovery, and barriers that strengthen based on her own attack power. She guides her team to victory through bonds.
+
 主従の絆風=Master-Servant Bond Style
 自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、物理クリティカルを中アップさせる。自分の物理攻撃力が高い程、物理攻撃力と物理クリティカルの上昇量が最大５倍までアップする。=Greatly increases the allies' P.ATK within a range centered around self and moderately increases P.Crit. The higher the user's P.ATK, the greater the increase in P.ATK and P.Crit, up to a maximum of 5x increase.
 r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを55アップ$"=Boosts allies' P.ATK within 100 range by $1 for 18s.\nBoosts allies' P.Crit Rate within 100 range by 55 for 18s.
