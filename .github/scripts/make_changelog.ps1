@@ -74,9 +74,9 @@ Add-Content -Path ./RELEASE_NOTE -Value "`n## Changelog`n"
 foreach ($VarName in $ListVar) {
     $Value = [System.Collections.ArrayList]((Get-Variable -ValueOnly $VarName).ToString().Split("`n"))
     if ($Value.Count -ne 1) {
-        $null = $Value.Insert(0, "<details><summary>$VarName</summary>`n")
-        $null = $Value.Add("</details>`n")
-        Add-Content -Path ./RELEASE_NOTE -Value ($Value | Get-Unique).Trim()
+        $null = $Value.Insert(0, "<details><summary>$VarName</summary>`n`n")
+        $null = $Value.Add("`n`n</details>`n")
+        Add-Content -Path ./RELEASE_NOTE -Value ($Value | Get-Unique) -NoNewline
     }
 }
 
