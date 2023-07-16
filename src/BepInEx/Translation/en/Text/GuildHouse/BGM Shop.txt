@@ -35,6 +35,6 @@ sr:"^(.{3,20})\nを購入しました。$"=Purchased\n$1
 いらっしゃいませ！\nＢＧＭの購入はこちらです\n素敵な曲がたくさんあって、\n目移りしちゃいますね=Always a pleasure to see you! welcome to music store. There are so many lovely tracks. it can be hard to chose can't it?
 
 こちらでは、ＢＧＭを購入\nすることができますよ\n試聴することもできるので、\nじっくり選んでくださいね=this is where you can purchase new music tracks to use! you can listen to a sample first so feel free to take your time.
----=
+---
 ストーリーイベントテーマ=Story Event Theme
 

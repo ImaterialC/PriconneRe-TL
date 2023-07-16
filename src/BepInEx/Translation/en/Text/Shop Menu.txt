@@ -131,7 +131,7 @@ r:"^(\d)個になります。$"=$1 per Shard
 
 対象アイテム1個あたりの単価が=The unit price per target item is
 sr:"^([べ-ヺー＆]+)(（.+）)?の\nメモリーピースの購入数が(\d+)になりました。$"=The Total number of purchases of\n$1$2's Memory Shard is $3.
----=Reset
+---Reset
 一部毎日5:00更新=Reset some Daily at 5:00(JST)
 
 sr:"^\[3B3F4D\]([べ-・ー]{2,12})を\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]個使用して\nショップの内容をリセットしますか\?\[-\]$"=[3B3F4D]Use $1 ×[FFBB00,CE4F00]$2[-]\nto reset the contents of the shop?[-]

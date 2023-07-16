@@ -18,7 +18,7 @@
 このスキルのスキルレベルは「シャドウ・スプリット -嘆鎌-」と連動しています=This skill’s skill level is linked to Shadow Split -Scythe-
 
 
-シャドウ・スプリット -嘆鎌-=Shadow Split -Lamenting Scythe-
+シャドウ・スプリット -嘆鎌-Shadow Split -Lamenting Scythe-
 r:"^敵単体に(\d+)の物理ダメージ\nシャドウを(\d+)体生成する$"=►Deals $1 P.DMG to a single enemy.\n►Generates $2 Shadows.
 【召喚】目の前の敵１キャラに物理大ダメージを与える。このスキルのダメージは自分のシャドウの数に応じて増加する。さらにユニオンバーストを使用しない、自分のシャドウを２体生成する。=【Summon】 Deals heavy P.DMG to the enemy character in front. The damage of this skill increases based on the number of her shadows. Additionally, she generates two shadows without UB's skill.
 

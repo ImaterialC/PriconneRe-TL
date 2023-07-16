@@ -218,6 +218,8 @@
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogCaravanDishSelect(Clone)/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_item_name=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogCaravanDishSelect(Clone)/ScrollBg/ScrollContent/ScrollView/WrapContent/PartsCaravanDishPlateRow(Clone)/Grid/PartsCaravanDishPlate(Clone)/Label_description=ChangeFontSize(12)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanRewardConfirm(Clone)/ScrollContent/ScrollView/WrapContent/PartsCaravanRewardPlateRow(Clone)/Grid/PartsDialogCommonItem_ITEM_DETAIL_CORRECT_ILLEGAL(Clone)/ItemName=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogHighRarityEquipmentConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogTogetherEquipHighRaritySingle(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanRewardConfirm(Clone)/ScrollContent/ScrollView/WrapContent/PartsCaravanRewardPlateRow(Clone)/Grid/PartsDialogCommonItem_ITEM_DETAIL_CORRECT_ILLEGAL(Clone)/ItemDetail=ChangeFontSize(12)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewClanTop(Clone)/WidgetOff(Clone)/ClanUI/UI_Left/GUIGroup_leftInfo/GUIGroup_ReleaseSingleMode/GUIGroup_ClanBattleModeInfo/LabelTitle=ChangeFontSize(17)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishOverrideConfirm(Clone)/AlertLabel=ChangeFontSize(18)
@@ -233,3 +235,10 @@
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogTogetherEquip(Clone)/transactionLawsButtonParent/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
 
 /PartsDialogBulkRecommendedEnhance(Clone)/Main/ContentNode/btn_deselection/Label=ChangeFontSize(18)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewSecretDungeonTop(Clone)/FrontUi/WidgetOff(Clone)/RightObj/RightAnchor/GUIGroup_RewardListButton/Label=ChangeFontSize(20)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewSecretDungeonTop(Clone)/FrontUi/WidgetOff(Clone)/RightObj/RightAnchor/GUIGroup_FloorListButton/Label=ChangeFontSize(20)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogSecretDungeonRewardList(Clone)/TotalAchievement/ScrollContent/ScrollView/WrapContent/PartsSecretDungeonFloorAchievementPlate(Clone)/Rewards/Info/InfoLabel=ChangeFontSize(10)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogSecretDungeonRewardList(Clone)/TotalAchievement/FloorNumInfo/InfoLabel=ChangeFontSize(18)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogSecretDungeonRewardList(Clone)/Mission/ScrollContent/ScrollView/WrapContent/PartsSecretDungeonMissionPlate(Clone)/Rewards/Info/InfoLabel=ChangeFontSize(10)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogSecretDungeonRewardList(Clone)/Mission/ScrollContent/ScrollView/WrapContent/PartsSecretDungeonMissionPlate(Clone)/MissionStatus/Info/InfoLabel=ChangeFontSize(10)

@@ -28,6 +28,7 @@ Like情報=Like Info
 同名キャラ\n選択中=Already\nSelected
 同名キャラ\n設置中=Already\nPlaced
 同じ名前のキャラは同一パーティに編成できません。=Characters with the same name cannot be organized in the same party.
+カリンとカリンの机は同時に配置できません。=Karin and Karin's Table cannot be placed at the same time.
 報酬受取=Claim All
 以下のアイテムを受け取りました。=You have received the following items.
 引き出せるマナがありません。=There is no mana to take out.

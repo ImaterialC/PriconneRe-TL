@@ -34,7 +34,7 @@ r:"^あと(\d+)時間(\d+)分は挑戦できません。$"=Can't challenge for $
 [FF7C4E,D62146]帰還すると最初からのスタートになります。[-]=[FF7C4E,D62146]You will have to start the dungeon over\nfrom the beginning if you return.[-]
 [FF7C4E,D62146]獲得した報酬は失われません。[-]=[FF7C4E,D62146]Rewards earned will not be lost.[-]
 
----------=Tittle dungeon
+---Tittle dungeon---
 砂=S
 瀑の底都=andfall's Capital
 砂瀑の底都=Sandfall's Capital
@@ -75,14 +75,6 @@ r:"^あと(\d+)時間(\d+)分は挑戦できません。$"=Can't challenge for $
 sr:"^エリア「(.+)」に挑戦しますか？$"="Do you want to challenge the area\n"$1"?"
 ---Dungeon names---
 sr:"^\[2874AE,12304D\](.+)\[-\]$"="[2874AE,12304D]$1[-]"
----[2874AE,12304D]雲海の山脈[-]=[2874AE,12304D]Cloudtop Peak[-]
----[2874AE,12304D]密林の大樹[-]=[2874AE,12304D]Deepwood Oak[-]
----[2874AE,12304D]断崖の遺跡[-]=[2874AE,12304D]Sheercliff Ruins[-]
----[2874AE,12304D]蒼海の孤塔[-]=[2874AE,12304D]Tideborne Tower[-]
----[2874AE,12304D]毒瘴の闇稜[-]=[2874AE,12304D]Darkblight Crag[-]
----[2874AE,12304D]緑竜の骸嶺[-]=[2874AE,12304D]Dragoncorpse\nPeak[-]
----[2874AE,12304D]天上の浮城[-]=[2874AE,12304D]Heaven's Fortress[-]
----[2874AE,12304D]砂瀑の底都[-]=[2874AE,12304D]Sandfall's Capital[-]
 
 雲をつらぬく山脈=A mountain that\npierces the clouds.
 深い森の奥に存在する1本の大樹=A massive tree\ndeep within the forest.
@@ -107,7 +99,7 @@ r:"^([0-9/]+)階( EX)?$"=$1F$2
 
 この機能はまだ解放されていません。=This feature has not been released yet.
 ---Special Dungeon---
-階層一覧=Layer List
+階層一覧=Floor List
 スペシャルダンジョン=Special Dungeon
 ペシャルダンジョン=pecial Dungeon
 まだ挑戦できません。=Can't challenge it yet.
@@ -131,7 +123,7 @@ r:"^([0-9/]+)階( EX)?$"=$1F$2
 バトルログ確認=Battle log Information
 [FF7C4E,D62146]バトル情報がありません。[-]=[FF7C4E,D62146]There is no battle information. [-]
 黒月・白陽の守護像=Black Moon&White Sun Guardian Statue
----Mission
+---Mission---
 r:"^スペシャルダンジョンを(\d+)回登頂しよう$"=Climb a special dungeon $1 Times
----=Story?
+---Story?---
 合わせた呼吸、重なる絆=Combined breathing, Overlap bond

@@ -36,7 +36,7 @@ r:"^おやつテーブルLv.(\d+)$"=Snack Table lv.$1
 イベント限定ギルドハウス家具獲得=Event-Limited Guildhouse Furniture Acquired
 sr:"^\[3C404E\]\[3C404E\]イベント限定ギルドハウス家具\n「\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]」を\nプレゼントしました！\n\nプレゼントは直接収納BOXに贈られます。\[-\]\[-\]$"=[3C404E]Event-Limited Guildhouse Furniture [FFBB00,SE4F00]$1[-] has been given as a present!\n\nPresents will be sent directly to the storage box.[-]
 
----=Furniture---
+---Furniture---
 教室の黒板=Classroom Blackboard
 教室の机=Classroom Desk
 教室の掃除用具=Classroom Cleaning Tool

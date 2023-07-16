@@ -230,7 +230,7 @@ sr:"^(.+) (\d)段階目$"=Tier $2 $1
 [3C404E]このモンスターは他メンバーに先に倒されました。\n[FF7C4E,D62146]※挑戦回数は消費されません。[-][-]=[3C404E]This monster was defeated by other members.\n[FF7C4E,D62146]※ Your attempt has been refunded.[-][-]
 バトル結果確認=Battle Result Confirmation
 このモンスターはすでに討伐されています。=This monster has already been defeated.
----=討伐情報=Clear info---
+---討伐情報=Clear info---
 伐情報=onsters Clear info
 ピリオド=period
 sr:"^(\d+月)(\d+)日(\d{2})時(\d)分$"=$2 $1, $3:0$4

@@ -37,7 +37,6 @@ sr:"^(.+) エンディングを閲覧$"=Unlock by View ending of $1
 ---NPC---
 ミッションをクリアして、\n報酬をゲットしましょう！=Clear the mission and get a reward!
 
----=
 ---Wonderland---
 メモリアルマップ=Memorial Map
 黒の王ジャバウォック=Black King Jabberwock
@@ -51,9 +50,9 @@ r:"^カジノホール([0-9\-\(\)\w （）]*)$"=Cassino Hall $1
 r:"^聖テレサ女学院 聖学祭会場([0-9\-\(\)\w （）]*)$"=Peripheral Tapas Beach $1
 ---Beach Tapaz: kokkoro Summer---
 r:"^タパスビーチ周辺([0-9\-\(\)\w （）]*)$"=Peripheral Tapas Beach $1
----
+
 r:"^サンレインビーチ([0-9\-\(\)\w （）]*)$"=Sunrain Beach $1
----=
+
 r:"^ウィッシュビーチ周辺([0-9\-\(\)\w （）]*)$"=Around Wish Beach $1
 r:"^星降る天の川([0-9\-\(\)\w （）]*)$"=Starring Milky Way $1
 覚醒・浮気星=Awakening / cheating star
@@ -79,22 +78,22 @@ r:"^星降る天の川([0-9\-\(\)\w （）]*)$"=Starring Milky Way $1
 素質を\n見抜いた理由=Qualities\nReasons for seeing through
 謎のマフラー=Mysterious muffler
 スタイルについて=About style
----=
+
 r:"^ビーチボールパーク([0-9\-\(\)\w ]*)$"=Beach Ball Park $1
 渚の暴君・鮫吉=Nagisa's Tyrant Samekichi
----Pirate
+---Pirate---
 解放されし財宝の守護者=The Guardian of the Liberated Treasure
 r:"^呪われた海賊島([0-9\-\(\)\w ]*)$"=Cursed Pirate Island $1
 縮小=[-]
 拡大=[+]
 これ以上縮小できません。=Cannot be zoom out anymore.
 これ以上拡大できません。=Cannot be zoom in anymore.
----==
+------
 r:"^タイムトンネル([0-9\-\(\)\w （）]*)$"=Time Tunnel $1
 バースト・タイムラーベ=Burst Time Love
 ------
 
-------==
+------
 r:"^王都ランドソル([0-9\-\(\)\w （）]*)$"=Landosol City $1
 r:"^王都ランドソル 女神の祭典([0-9\-\(\)\w （）]*)$"=Landosol City: Goddess Festival $1
 r:"^おもちゃ工場([0-9\-\(\)\w （）]*)$"=Toy Factory $1
@@ -106,7 +105,7 @@ r:"^おもちゃ工場([0-9\-\(\)\w （）]*)$"=Toy Factory $1
 おもちゃ作りは\nもう慣れた？=Toys making\nalready get used to?
 タマキの\n印象について=Tamaki\nAbout the impression
 マイフレンドくん\nカスタマイズ！=My Friend\nCustomize!
-------==
+------
 暴走のイノセントボウ=Runaway Innocent Bow
 ナナカについて=About Nanaka
 初めてのオフ会\nについて=The first off -line meeting\nabout
@@ -123,7 +122,7 @@ r:"^おもちゃ工場([0-9\-\(\)\w （）]*)$"=Toy Factory $1
 スズナについて=About Suzuna
 初めてのフェス=First festival
 最高最強の双子=The strongest twins
----------=
+------------
 バカンスへの招待状=Invitation to Vacation
 r:"^第二ゲームのビーチバレーに挑むことになったチームトゥインクル。相手チームの(.{1,10})への想いの力に翻弄されるも、自分も気持ちを解き放つ決意をしたレイの活躍により、逆転勝利を決めた。$"=Team Twinkle has decided to challenge the beach volleyball of the second game. Although he was at the mercy of the opponent team's feelings for $1, Ray decided to release his feelings and decided to win in a come-from-behind victory.
 必勝法は耳にあり=The winning method is in your ears
@@ -147,7 +146,7 @@ r:"^サマーゲームリゾート([0-9\-\(\)\w （）]*)$"=Summer Game Resort $
 気持ち、解き放って=Feeling, releasing
 支配人=Manager
 必勝法は耳にあり=The winning method is in the ear
----=
+------
 r:"^とある無人島([0-9\-\(\)\w （）]*)$"=A Certain Uninhabited Island $1
 残りクリア回数=Number of remaining clears
 合計完了数=Total completion number
@@ -170,11 +169,11 @@ r:"^(\d+)回完了$"=Done × $1
 ちょっと苦手な宿題を1回終わらせよう=Finish the homework that is a little weak
 すごく苦手な宿題を1回終わらせよう=Finish the homework that is very weak once
 夏休み最後まで残りし宿題を1回終わらせよう=Leave the homework once until the end of the summer vacation
----------------------------==
+--------------------------
 
 r:"^カルミナサマーライブ会場([0-9\-\(\)\w （）]*)$"=Carmina Summer Live Venue $1
 クイーンウタクラゲ=Queen Singer Jellyfish
----=
+------
 r:"^港町・オーマ([0-9\-\(\)\w （）]*)$"=Port town Ohma $1
 グレートトゥンヌス=Great Tunnus
 VERY HARDでカズマサさまが援護してくれるようです。強力なスタン効果のユニオンバーストで、サポートしてくださいますよ。ボスが身動きを取れなくなっている間に、一気に倒しましょう。=It seems that Kazumasa-sama will support you in VERY HARD. I will support you with a powerful stun effect UB. While the boss is stun, let's defeat it at once.

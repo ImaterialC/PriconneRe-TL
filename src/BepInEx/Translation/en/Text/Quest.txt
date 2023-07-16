@@ -18,7 +18,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 1体に戻す=Reset to 1
 スキップチケット枚数リセット確認=Skip Ticket Number Reset
 
----=Menu---
+---Menu---
 次へ=Next
 勝利数=Win
 編成完了=Done
