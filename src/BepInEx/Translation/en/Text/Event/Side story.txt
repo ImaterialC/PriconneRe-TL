@@ -123,30 +123,6 @@ r:"^おもちゃ工場([0-9\-\(\)\w （）]*)$"=Toy Factory $1
 初めてのフェス=First festival
 最高最強の双子=The strongest twins
 ------------
-バカンスへの招待状=Invitation to Vacation
-r:"^第二ゲームのビーチバレーに挑むことになったチームトゥインクル。相手チームの(.{1,10})への想いの力に翻弄されるも、自分も気持ちを解き放つ決意をしたレイの活躍により、逆転勝利を決めた。$"=Team Twinkle has decided to challenge the beach volleyball of the second game. Although he was at the mercy of the opponent team's feelings for $1, Ray decided to release his feelings and decided to win in a come-from-behind victory.
-必勝法は耳にあり=The winning method is in your ears
-夜空に誓う三つの想い=Three feelings to swear in the night sky
-続く第３ゲーム、ハイ＆ローは、数字が７より上か下かを選ぶ単純な運試しとみられたが、ユイはこのゲームに隠されたヒントに気づく。一方、島の極秘区画では、ゲームの様子を覗き見る観覧者の姿があった。=The third game, High & Low, seemed to be a simple luck test to choose whether the numbers were above or below 7, but Yui noticed a hint hidden in the game. On the other hand, in the top secret section of the island, there was a viewer looking into the game.
-素直な気持ちで=With honest feelings
-r:"^第４ゲームはボートレース。呼吸を合わせることが大事だが、いまだ調子の上がらないヒヨリは、焦りから空回る。しかし(.{1,10})のおかげで落ち着きを取り戻し大復活。見事勝利を飾ったのだった。$"=The fourth game is boat racing. It's important to keep breathing together, but Hiyori, who isn't feeling well yet, runs idle from impatience. However, thanks to $1, she regained her composure and made a big comeback. It was a brilliant victory.
-三つの想いが向かう先=The destination of the three thoughts
-最終ゲームはなんと、チームメンバー同士で争うビーチフラッグ。支配人は、メンバー同士の醜い蹴落としあいを目論むが、遠慮をしないと誓い合ったヒヨリたちは、正々堂々力を出し切ろうと笑顔を見せた。=The final game is a beach flag where team members compete with each other. The manager aims for an ugly kick-off between the members, but Hiyori and his friends, who vowed not to hesitate, smiled as if they were trying to do their best.
-夏海に告げる想い=Summer Confession
-暴走した支配人に放たれた魔物をなんとか制圧したヒヨリたち。改心した支配人を許したヒヨリ、ユイ、レイは、再びビーチフラッグで競い合う。昨夜誓い合った想いを胸に、三人は一斉に駆け出すのだった。=Hiyori who managed to suppress the monsters released by the runaway manager. Hiyori, Yui, and Rei, who forgave the converted manager, compete again at the beach flag. With the feelings they swore last night in their hearts, the three rushed out all at once.
-バカンスは終わらない=Vacation not end yet
-海辺に集められたゲーム参加者達。そこには正々堂々競い合える場、アルティメットビーチフラッグスのコースが。テクニカルな仕掛けが追加されたコースにワクワクする一同。再び全力バトルの幕が開く！=Game participants gathered at the beach. There is a course of Ultimate Beach Flags, a place where you can compete openly. Everyone is excited about the course with the addition of technical gimmicks. The curtain of full-scale battle opens again!
-
-r:"^サマーゲームリゾート([0-9\-\(\)\w （）]*)$"=Summer Game Resort $1
-海将タツノココマンダー=General Tatsunoko
-トゥインクルサマーゲーム　夏海にきらめく三つの想い エンディングを閲覧で解放=Release by View ending of Twinkle Summer Game: Sparkle Memories In the Summer Sea
-はじけるバカンスガール=Battle Vacation Girl
-オープニング=Opening
-集うゲーム参加者達=Game participants to gather
-気持ち、解き放って=Feeling, releasing
-支配人=Manager
-必勝法は耳にあり=The winning method is in the ear
-------
 r:"^とある無人島([0-9\-\(\)\w （）]*)$"=A Certain Uninhabited Island $1
 残りクリア回数=Number of remaining clears
 合計完了数=Total completion number

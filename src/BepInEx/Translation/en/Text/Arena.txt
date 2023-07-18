@@ -100,7 +100,7 @@ sr:"^(\[[0-9A-F,]{6,13}\])最高ランク：(\d+位)\[-\]$"=$1Best rank: $2[-]
 sr:"^(\d+位)～(\d+位)$"=$1 to $2
 
 最高ランクの更新時に獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards based on Your best rank. \n※Reward will sent to a Present Box.
-r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回の防衛に成功！報酬はプレゼントに送られました。\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E]×successfully defend! Reward was sent.[-]
+r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回の防衛に成功！報酬はプレゼントに送られました。\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E]×successful defenses! Reward has been sent.[-]
 
 現在、対戦可能な相手がいません=Currently there is no opponent that can be played
 ※一定時間経過後、リストが更新されると表示される場合があります=※ After a certain period of time,\nit may be displayed when the list is updated
