@@ -46,6 +46,7 @@ r:"^期間限定([0-9/: ]+)～([0-9/: ]+)$"=Period$1 to $2
 ベントミッション=Event Mission
 所持上限を超えたアイテムはプレゼントに送られます。=Maxed items will be sent as a gift.
 スペシャル=Special
+SP=Secret
 スキップ結果=Skip Results
 スキップ完了=Skip Complete!
 合計獲得報酬=Total Reward

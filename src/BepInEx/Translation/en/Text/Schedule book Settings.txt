@@ -20,8 +20,8 @@
 ダンジョン設定=Dungeon Settings
 ダンジョンの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。=If the number of dungeons challenges remains, you can skip or display from the Schedule Book.
 
-スペシャルダンジョン開催中詳細設定=Special Dungeon Details Settings
-スペシャルダンジョン開催中にダンジョンの挑戦回数が残っているとき\n予定帳からダンジョンをスキップ可能にするか表示するかを設定できます。\n「ダンジョン設定」の項目で「表示する」設定にしている場合はスキップできません。\n「ダンジョン設定」の項目で「表示しない」設定にしている場合はスキップできず表示もされません。=When the number of dungeon challenges remains during a special dungeon\nYou can set whether the dungeon can be skipped or displayed from the schedule book.\nYou cannot skip it if you have set "Display" in the "Dungeon Settings" item.\nIf you have set "Do not display" in the "Dungeon Settings" item, it will not be skipped and will not be displayed.
+スペシャルダンジョン開催中詳細設定=Secret Dungeon Details Settings
+スペシャルダンジョン開催中にダンジョンの挑戦回数が残っているとき\n予定帳からダンジョンをスキップ可能にするか表示するかを設定できます。\n「ダンジョン設定」の項目で「表示する」設定にしている場合はスキップできません。\n「ダンジョン設定」の項目で「表示しない」設定にしている場合はスキップできず表示もされません。=When the number of dungeon challenges remains during a Secret Dungeon\nYou can set whether the dungeon can be skipped or displayed from the schedule book.\nYou cannot skip it if you have set "Display" in the "Dungeon Settings" item.\nIf you have set "Do not display" in the "Dungeon Settings" item, it will not be skipped and will not be displayed.
 
 経験値クエスト設定=EXP Quest Settings
 経験値クエストの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。\nスキップ可能なクエストが無い場合はスキップできません。=If the number of attempts of the EXP quest remains, you can set whether you can skip or display it from the Schedule Book. If there is no skippable quest, it cannot be skipped.

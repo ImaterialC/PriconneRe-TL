@@ -232,10 +232,12 @@
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogUniqueEquipmentEnhanceConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogBulkRecommendedEnhanceConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogShopScrollConfirm(Clone)/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
+Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogRecommendedEnhance(Clone)/BottomTable/transactionLawsButtonParent/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogTogetherEquip(Clone)/transactionLawsButtonParent/PartsDialogCommonItem_TRANSACTION_LAWS_BUTTON/Button/Text=ChangeFontSize(15)
 
 /PartsDialogBulkRecommendedEnhance(Clone)/Main/ContentNode/btn_deselection/Label=ChangeFontSize(18)
-
+/_Game(Clone)/UI Root/ViewsArea/View/ViewQuestTop(Clone)/Right/quest_menu_00/WidgetOff(Clone)/Slide4/UIButtonDungeon/GUIButton_Dungeon/State_Normal/DungeonSameCampaign/dungeon_badge_noshadow/Label=ChangeFontSize(12)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewQuestTop(Clone)/Right/quest_menu_00/WidgetOff(Clone)/Slide4/UIButtonDungeon/GUIButton_Dungeon/State_Normal/DungeonSameCampaign/secret_dungeon_badge_noshadow/Label=ChangeFontSize(12)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSecretDungeonTop(Clone)/FrontUi/WidgetOff(Clone)/RightObj/RightAnchor/GUIGroup_RewardListButton/Label=ChangeFontSize(20)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSecretDungeonTop(Clone)/FrontUi/WidgetOff(Clone)/RightObj/RightAnchor/GUIGroup_FloorListButton/Label=ChangeFontSize(20)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogSecretDungeonRewardList(Clone)/TotalAchievement/ScrollContent/ScrollView/WrapContent/PartsSecretDungeonFloorAchievementPlate(Clone)/Rewards/Info/InfoLabel=ChangeFontSize(10)

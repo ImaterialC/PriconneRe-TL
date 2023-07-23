@@ -1,83 +1,104 @@
 ---Dish names---
-アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
-クリアの彩り華やかバラエティ弁当=Quria's Colorful and Vibrant Variety Bento
-クローチェのフルパワーポテトサラダ=Croce's Full-Power Potato Salad
-カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Appetizer Kebab Sandwich
-タマキの金運招くレインボーたい焼き=Tamaki's Good Fortune Rainbow Taiyaki
-キャルの絶品五つ星バーガー=Kyaru's Exquisite Five-Star Burger
-リリのコツコツまい進かしわ餅=Riri's Steadfast Kashiwa Mochi
+---Red---
 ペコリーヌの満腹ツインおにぎり=Pecorine's Satisfying Twin Onigiri
-プレシアの食いしん坊ぶーぶー肉まん=Presia's Gluttony Boo-boo Meat Buns
-コッコロのゆるりと休憩サラダ=Kokkoro's Relaxing Break Salad
+コッコロのゆるりと休憩サラダ=Kokkoro's Laid-back Relaxing Salad
+キャルの絶品五つ星バーガー=Kyaru's Delicious 5-Star Burger
+リリのコツコツまい進かしわ餅=Riri's Slow and Steady Kashiwa Mochi
+プレシアの食いしん坊ぶーぶー肉まん=Presia's Gourmet Bu-Bu Pork Bun
+クローチェのフルパワーポテトサラダ=Croce's Full Power Potato Salad
 リマの不思議なスイートアップル=Rima’s Mysterious Sweet Apple
+---Yellow----
+アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
+カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Apettite-doubling Kebab Sandwich
+タマキの金運招くレインボーたい焼き=Tamaki's Rainbow Wealth Fortune Taiyaki
+---Green---
+クリアの彩り華やかバラエティ弁当=Quria's Colorful Variety Bento
 
 ---Dish effects---
-ランダムなイベントを発生させる。=Creates a random event.
-次に振るダイスの目が必ず「5」になる。=The next dice roll is always a 5.
-ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=The next 3 dice rolls are always a 4.
-次に振るダイスが2個に増える。出目の合計の数だけ進める。=The number of dice rolled next increases to 2. You can move forward as many spaces as the sum of the dice roll results.
-次に振るダイスの目が「4・5・6」のみになる。=The next dice roll is between 4,5,6.
-[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]The next roll of the dice will always result in 8, and the subsequent roll of the dice will always result in 1.[-]
-マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The "Mile Tiles," "Treasure Tiles," and "Shop Tiles" on the map will increase by 1 rank. The effect will continue until you land on the target tile twice.
-次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=The next roll of the dice will always result in 1. Additionally, the count for the next turn will be skipped.
-次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=The next roll of the dice will always result in 3, and the subsequent roll of the dice will always result in 6.
-次に振るダイスの目を必ず「2」に、その次に振 るダイスの目を必ず「7」にする。=The next roll of the dice will always result in 2, and the subsequent roll of the dice will always result in 7.
-次にマイルマスに止まった際の獲得マイルが200%アップする。=When landing on the Mile Tile next, the Miles obtained will be increased by 200%.
+---Red---
+次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice next turn and move as many tiles as their sum.
+次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 next turn. The turn counter will not increase.
+次に振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 next turn.
+ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=You will roll a guaranteed 4 for the next 3 turns.
+次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
+次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.[-]
+次に振るダイスの目を必ず「2」に、その次に振 るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
+---Yellow---
+マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
+次にマイルマスに止まった際の獲得マイルが200%アップする。=You will get 200% more Miles on the next Mile Tile you stop at.
+---Green---
+ランダムなイベントを発生させる。=You will get a random event next turn.
+
 現在、移動系カテゴリの料理は食べられません。=Can't eat a Movement dish right now.
+
 ---Effects---
 発動中の効果一覧=List of Active Effects
 ダイス 残り3回=3 More Rolls
 ダイス 残り2回=2 More Rolls
 ダイス 残り1回=1 More Roll
 次に開いたマイルショップで全商品が20%以上割引される。=The next time the Mile Shop opens, all items will be discounted by at least 20%.
-【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Boosts Minigame Miles acquisition by 100%.
+【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Boost Minigame Miles acquisition by 100%.
 【イベント】マイルマスの獲得マイルが100%アップする=[Event] Boost Miles gained from Mile Tiles by 100%.
 【イベント】マイルショップの全商品が20%以上割引される=[Event] All items in the Mile Shop will be discounted by at least 20%.
-【料理】ミニゲームの獲得マイルが100%アップする=[Cooking] Boosts Minigame Miles acquisition by 100%.
+【料理】ミニゲームの獲得マイルが100%アップする=[Cooking] Boost Minigame Miles acquisition by 100%.
 【料理】マイルマスの獲得マイルが200%アップする=[Cooking] Boost Miles gained from Mile Tiles by 200%.
 【料理】マイルマスの獲得マイルが100%アップする=[Cooking] Boost Miles gained from Mile Tiles by 100%.
 【料理】マイルショップの全商品が20%以上割引される=[Cooking] All items in the Mile Shop will be discounted by at least 20%.
 【料理】ダイスが2個に増える=[Cooking] Rolls 2 dice on the next roll.
-【料理】次のターン数のカウントをスキップする=[Cooking] Skipping the count for the next turn.
-【料理】「マイルマス」「トレジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile rank increased by 1.
+【料理】次のターン数のカウントをスキップする=[Cooking] The turn counter will not increase.
+【料理】「マイルマス」「トレジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile RANK increased by 1.
 
-【料理】ダイスの目が必ず「1」になる=[Cooking] The next dice roll will always be a 1.
-【料理】ダイスの目が必ず「2」になる=[Cooking] The next dice roll will always be a 2.
-【料理】ダイスの目が必ず「3」になる=[Cooking] The next dice roll will always be a 3.
-【料理】ダイスの目が必ず「4」になる=[Cooking] The next dice roll will always be a 4.
-【料理】ダイスの目が必ず「5」になる=[Cooking] The next dice roll will always be a 5.
-【料理】ダイスの目が必ず「6」になる=[Cooking] The next dice roll will always be a 6.
-【料理】ダイスの目が1回目は必ず「8」に、2回目は必ず「1」になる=[Cooking] The next dice\nroll will always be an 8, and the following roll a 1.
-【料理】ダイスの目が1回目は必ず「2」に、2回目は必ず「7」になる=[Cooking] The next dice\nroll will always be an 2, and the following roll a 7.
-【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] The next dice\nroll will always be a 3, and the following roll a 6.
+【料理】ダイスの目が必ず「1」になる=[Cooking] You will roll a guaranteed 1 next turn.
+【料理】ダイスの目が必ず「2」になる=[Cooking] You will roll a guaranteed 2 next turn.
+【料理】ダイスの目が必ず「3」になる=[Cooking] You will roll a guaranteed 3 next turn.
+【料理】ダイスの目が必ず「4」になる=[Cooking] You will roll a guaranteed 4 next turn.
+【料理】ダイスの目が必ず「5」になる=[Cooking] You will roll a guaranteed 5 next turn.
+【料理】ダイスの目が必ず「6」になる=[Cooking] You will roll a guaranteed 6 next turn.
+【料理】ダイスの目が1回目は必ず「8」に、2回目は必ず「1」になる=[Cooking] You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.
+【料理】ダイスの目が1回目は必ず「2」に、2回目は必ず「7」になる=[Cooking] You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
+【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
+【料理】ダイスの目が「4・5・6」のみになる=[Cooking] You will roll a 4, 5 or 6 next turn.
+
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
-[90A0BC]ランダムなイベントを発生させる。[-]=[90A0BC]Creates a random event.[-]
-[90A0BC]次に振るダイスの目が必ず「5」になる。[-]=[90A0BC]The next dice roll is always a 5.[-]
-[90A0BC]ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。[-]=[90A0BC]The next 3 dice rolls are always a 4.[-]
-[90A0BC]次に振るダイスが2個に増える。出目の合計の数だけ進める。[-]=[90A0BC]The number of dice rolled next increases to 2. You can move forward as many spaces as the sum of the dice roll results.[-]
-[90A0BC]次に振るダイスの目が「4・5・6」のみになる。[-]=[90A0BC]The next dice roll is between 4,5,6.[-]
-[90A0BC]マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。[-]=[90A0BC]The "Mile Tiles," "Treasure Tiles," and "Shop Tiles" on the map will increase by 1 rank. The effect will continue until you land on the target tile twice.[-]
-[90A0BC]次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]The next roll of the dice will always result in 1. Additionally, the count for the next turn will be skipped.[-]
-[90A0BC]次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。[-]=[90A0BC]The next roll of the dice will always result in 3, and the subsequent roll of the dice will always result in 6.[-]
-[90A0BC]次にマイルマスに止まった際の獲得マイルが200%アップする。[-]=[90A0BC]When landing on the Mile Tile next, the Miles obtained will be increased by 200%.[-]
+---Red---
+[90A0BC]次に振るダイスが2個に増える。出目の合計の数だけ進める。[-]=[90A0BC]You will roll 2 dice next turn and move as many tiles as their sum.[-]
+[90A0BC]次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a guaranteed 1 next turn. The turn counter will not increase.[-]
+[90A0BC]次に振るダイスの目が必ず「5」になる。[-]=[90A0BC]You will roll a guaranteed 5 next turn.[-]
+[90A0BC]ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。[-]=[90A0BC]You will roll a guaranteed 4 for the next 3 turns.[-]
+[90A0BC]次に振るダイスの目が「4・5・6」のみになる。[-]=[90A0BC]You will roll a 4, 5 or 6 next turn.[-]
+[90A0BC]次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。[-]=[90A0BC]You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.[-]
+[90A0BC]次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。[-]=[90A0BC]You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.[-]
+---Yellow---
+[90A0BC]マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。[-]=[90A0BC]The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. [-]
+[90A0BC]次にマイルマスに止まった際の獲得マイルが200%アップする。[-]=[90A0BC]You will get 200% more Miles on the next Mile Tile you stop at.[-]
+---Green---
+[90A0BC]ランダムなイベントを発生させる。[-]=[90A0BC]You will get a random event next turn.[-]
 
 ---Dish descriptions---
-クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=Croce's potato salad, made with full power. Originally intended to make galette, but accidentally squashed it and made a course correction to finish this dish. Regardless of the process, the taste is exceptionally delicious.
+---Red---
+ペコリーヌが丹精込めて握った特大おにぎり。ごはんは命のエネルギーを体現しているらしい。普通の人が満腹に感じる量の倍のサイズの中に最高級の具を閉じ込めた【美食殿】らしい一品。=Pecorine's, meticulously crafted, extra-large onigiri. It is said that rice embodies the energy of life. This dish represents the 【Gourmet Guild】, enclosing the finest ingredients within a size double that of what an ordinary person would consider filling.
 
-ペコリーヌが丹精込めて握った特大おにぎり。ごはんは命のエネルギーを体現しているらしい。普通の人が満腹に感じる量の倍のサイズの中に最高級の具を閉じ込めた【美食殿】らしい一品。=Pecorine's meticulously crafted extra-large onigiri. It is said that rice embodies the energy of life. This dish represents the 【Gourmet Guild】, enclosing the finest ingredients within a size double that of what an ordinary person would consider filling.
-
-リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Riri's kashiwa-mochi... Among them, it is a carefully selected item that was successfully made. Using the best ingredients and with the failed ones consumed by Lily herself, it has become quite a luxurious item when considering the unit price.
-
-プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=It's a meat bun packed with carefully selected fillings by Presia. Based on her request, it is several times larger than a regular meat bun. According to Quria, the chef in charge, the taste and volume are outstanding, guaranteeing a happy experience without a doubt.
-
-アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special lunch basket together. The cheerful dishes filled with hopes for adventures with friends will make various events along the way feel like one rank higher.
-
-クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria has prepared an adventure bento since early morning. The side dishes are diverse and all of them are exquisite, but the contents are kept secret from everyone, making it a delightful surprise until you open the lid.
+コッコロが皆のことを思って用意したサラダ。\n栄養バランスも考えられたうえに腹持ちもよく\n味だけではなく見た目にも気を配られている。\n冒険への活力を与えてくれる慈愛溢れる一品。=A salad prepared by Kokkoro with everyone in mind. It not only nutritionally balanced and filling, but it is also visually appealing. It is a loving dish that provides energy for adventures.
 
 キャルが食べたい物を挟み込んだハンバーガー。香ばしいパンとお肉の香りが食欲を刺激する。魔物でない素材で作られた、冒険中に食べるにはゴージャスすぎる一品、とキャルは信じている。=A hamburger filled with Kyaru's favorite dish. The aroma of toasted bread and meat stimulates the appetite. Kyaru believes it's a luxurious dish made with non-monster ingredients, perfect for eating during an adventure.
 
-コッコロが皆のことを思って用意したサラダ。\n栄養バランスも考えられたうえに腹持ちもよく\n味だけではなく見た目にも気を配られている。\n冒険への活力を与えてくれる慈愛溢れる一品。=A salad prepared by Kokkoro with everyone in mind. It not only considers nutritional balance but also provides a satisfying feeling of fullness. Attention has been given not only to the taste but also to the appearance. It is a loving dish that provides energy for adventures.
+リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Riri's kashiwa-mochi is one of the best... carefully crafted using the best ingredients. Failed attempts were consumed by Riri herself, making it a very high-end product in terms of unit price.
 
-カヤとイノリが弁当代わりに持ってきたケバブ。\nイノリ行きつけの店の硬派な味わいで、ギャング\nとしてのやる気が一人3倍、コンビで6倍となり\n下剋上を成し遂げるパワーが湧く……らしい。=The kebab that Kaya and Inori brought as a substitute for lunch. It has a tough and robust flavor from Inori's favorite shop, and it is said that it triples the motivation of each individual as a gang member, and when enjoyed as a duo, it provides six times the power to achieve a revolution from the bottom up... or so they say.
+プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=It's a steamed bun filled with ingredients carefully selected by Presia. Based on her request, it is several times larger than a regular pork bun. According to Quria, the chef in charge, the taste and volume are outstanding, guaranteeing a happy experience without a doubt.
 
-タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=The concept of taiyaki brought by Tamaki and the others to Geo Theogonia has blended with the local culture and given birth to a modified sweet treat. This modified sweet treat, shining in rainbow colors, is said to be several times sweeter than the taiyaki of Landosol.
+クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=Croce's potato salad, made with full power. She originally intended to make galette, but accidentally squashed it and made a course correction. Regardless of the process, the taste is exceptionally delicious.
+
+リマがネネカにもらったリンゴで作った秘密の\nスイーツ。爽やかな酸味と濃厚な甘さがまるで\n魔法のようなバランスでお互いを引きたてており\n食べた者をたちまち虜にしてしまうという。=A secret dessert made from apples that Rima had received from Neneka. It is said that the refreshing sourness and rich sweetness balance each other out like magic, captivating anyone who eats it in an instant.
+
+---Yellow---
+アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special lunch basket together. The cheerful dishes filled with hopes for adventures with friends will make various events along the way feel like one rank higher.
+
+カヤとイノリが弁当代わりに持ってきたケバブ。\nイノリ行きつけの店の硬派な味わいで、ギャング\nとしてのやる気が一人3倍、コンビで6倍となり\n下剋上を成し遂げるパワーが湧く……らしい。=The kebab that Kaya and Inori brought as a substitute for lunch. The tough and robust flavor from Inori's favorite restaurant gives it three times the energy of each individual gang member. When enjoyed as a duo, it provides six times the power to achieve a revolution from the bottom up... or so they say.
+
+タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=The concept of a taiyaki, brought to Geo Theogonia by Tamaki and her friends, has blended with the local culture and given birth to a modified sweet treat. This rainbow-colored, magical treat is said to be several times sweeter than the taiyaki of Landosol.
+
+---Green---
+クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria has prepared an adventure bento box since early morning. The side dishes are diverse and all of them are exquisite. The contents are kept secret from everyone, making it a delightful surprise until you open the lid and find out.
+
+
