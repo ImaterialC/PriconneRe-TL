@@ -2,7 +2,7 @@
 
 前方の味方すべての物理攻撃力と魔法攻撃力を特大アップさせ、継続ＨＰ回復状態を付与する。=Greatly boosts the P.ATK and M.ATK of all front-line allies and grants them continuous HP recovery status.
 
-前方の敵すべての物理攻撃力と魔法攻撃力を大ダウンさせ、物理防御力と魔法防御力を小ダウンさせる。=Significantly reduces the P.ATK and M.ATK of all front-line enemies and slightly decreases their P.DEF and M.DEF.
+前方の敵すべての物理攻撃力と魔法攻撃力を大ダウンさせ、物理防御力と魔法防御力を小ダウンさせる。=Greatly reduces the P.ATK and M.ATK of all front-line enemies and slightly decreases their P.DEF and M.DEF.
 
 前方の味方すべてのＨＰを中回復させ、物理防御力と魔法防御力を中アップさせる。=Moderately restores the HP of all front-line allies and increases their P.DEF and M.DEF.
 

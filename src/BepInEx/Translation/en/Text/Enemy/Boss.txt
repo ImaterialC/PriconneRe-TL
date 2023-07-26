@@ -8,7 +8,7 @@
 ワイルドクロウ=Wild Crow
 【物理】荒れ山の捕食者として君臨\nする、凶悪な怪鳥獣。\n狩りを続けることでつくりあげた\n膂力と剛爪が、侵入者をつけ狙う。\n\n・敵全体に物理大ダメージを与え、\n　ＴＰ上昇をダウンさせる。\n　発動するたびにダメージがアップ\n　する。この効果は最大３回まで\n　累積する。\n\n・後ろから２番目の敵を中心にした\n　小範囲に物理小ダメージを与え、\n　麻痺状態にする。=[Physical]A ferocious monster bird that reigns as a predator in the deserted mountains. The physical strength and stiff claws built up by continuing to hunt will stalk intruders.\n\n►Deals large P.DMG to all enemies and reduces TP increase\n. Damage boost with each activation. This effect stacks up to 3 times.\n►Deals small P.DMG in a small area centering on the second enemy from the back and paralyzes them.
 
-バーンサウルス=Bern Saurus
+バーンサウルス=Burn Saurus
 【物理】強靭な脚と鋭利なツメで\n獲物を一瞬で狩る、獰猛な恐竜。\n滅びた大地でマグマを喰らい、\n生存の道を見つけた孤高の存在。\n\n・敵全体に物理中ダメージを与え、\n　自分の行動速度を上げる。\n\n・前方3キャラに物理中ダメージ\n　を与え、行動速度を下げる。=[Physical] A ferocious dinosaur that instantly hunts prey with its strong legs and sharp claws. A solitary existence that found a way to survive by eating magma in the ruined land.\n\n►Inflicts moderate P.DMG to all enemies and boost own action speed.\n\n►Inflicts moderate P.DMG to 3 characters in front and slows down their action speed.
 
 クリーパー=Creeper

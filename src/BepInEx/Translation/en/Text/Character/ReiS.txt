@@ -2,7 +2,7 @@
 
 目の前の敵１キャラに物理特大ダメージを与え、さらに自分に【水刃の加護】を７つ追加する。【水刃の加護】は最大10まで追加される。このスキルのダメージは、【水刃の加護】の数に応じて増加し、１ヒットは必ずクリティカルする。=Deals massive P.DMG to the enemy in front, and adds 7 instances of "Water Blade's Blessing" to oneself. "Water Blade's Blessing" can be added up to a maximum of 10. The damage of this skill boosts based on the number of "Water Blade's Blessing" instances, and each hit is guaranteed to be a critical hit.
 
-自分の周囲の味方すべての物理攻撃力を特大アップさせ、目の前の敵１キャラに物理小ダメージを与える。このスキルの物理攻撃力の上昇量とダメージは、【水刃の加護】の数に応じて増加する。【水刃の加護】を１つ消費する。=Significantly boosts the allies' P.ATK around oneself and deals small P.DMG to the enemy in front. The boost in P.ATK and the damage of this skill further boost based on the number of "Water Blade's Blessing" instances. Consumes 1 instance of "Water Blade's Blessing."
+自分の周囲の味方すべての物理攻撃力を特大アップさせ、目の前の敵１キャラに物理小ダメージを与える。このスキルの物理攻撃力の上昇量とダメージは、【水刃の加護】の数に応じて増加する。【水刃の加護】を１つ消費する。=Greatly boosts the allies' P.ATK around oneself and deals small P.DMG to the enemy in front. The boost in P.ATK and the damage of this skill further boost based on the number of "Water Blade's Blessing" instances. Consumes 1 instance of "Water Blade's Blessing."
 
 目の前の敵１キャラに物理中ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。このスキルのダメージは、【水刃の加護】の数に応じて増加する。【水刃の加護】を１つ消費する。=Deals moderate P.DMG to the enemy in front and boosts damage taken from critical hits. The damage of this skill boosts based on the number of "Water Blade's Blessing" instances. Consumes 1 instance of "Water Blade's Blessing."
 

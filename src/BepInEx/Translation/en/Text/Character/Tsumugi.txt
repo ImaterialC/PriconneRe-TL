@@ -23,7 +23,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の移動速度
 キャプチャーストリング+=Capture String+
 ---UB---
 エンドドレステーラー=Endless Dresstailor
-前方範囲内の敵すべてに物理大ダメージを与えて束縛し、さらに前方範囲内の一番遠くの敵を大きく引き寄せ、一番近くの敵を大きく吹き飛ばす。範囲内の敵の数に応じて、与えるダメージ量が増加する。=Deals massive P.DMG to all enemies within the frontal area, binding them, and significantly pulls the farthest enemy closer while launching the nearest enemy far away. The amount of damage increases based on the number of enemies within the area.
+前方範囲内の敵すべてに物理大ダメージを与えて束縛し、さらに前方範囲内の一番遠くの敵を大きく引き寄せ、一番近くの敵を大きく吹き飛ばす。範囲内の敵の数に応じて、与えるダメージ量が増加する。=Deals massive P.DMG to all enemies within the frontal area, binding them, and greatly pulls the farthest enemy closer while launching the nearest enemy far away. The amount of damage increases based on the number of enemies within the area.
 ---S1---
 前から２番目の敵１キャラに物理中ダメージを与え、小さく引き寄せ、スタンさせる。さらに自分の物理攻撃力を中アップ、物理防御力を小アップさせる。=Deals Small P.DMG to the 2nd Closest Enemy. Slightly Pulls the Target Towards Her and Stun the Target. In addition, Boost own P.ATK by Medium Amount and Boost own P.DEF by Small Amount.
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n自分の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Inflict Stun to an enemy for 1.5s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.DEF by $3 for 12s.

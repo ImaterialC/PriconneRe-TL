@@ -10,7 +10,7 @@
 最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップする。さらに味方全体の物理攻撃力を大アップし、ＨＰとＴＰを小回復する。=Greatly recovers the HP of the ally with the lowest HP, further increases their P.DEF, and additionally boosts P.ATK for all allies. Also provides small HP and TP recovery.
 
 ワイルドホイール=Wild Wheel
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに行動速度を大ダウンさせ、大きく吹き飛ばす。範囲内の敵の数に応じて吹き飛ばしの距離がダウンする。=Deals moderate P.DMG to all enemies within the range centered around the target character, significantly decreases their action speed, and blows them away. The distance of the blow depends on the number of enemies within the area.
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに行動速度を大ダウンさせ、大きく吹き飛ばす。範囲内の敵の数に応じて吹き飛ばしの距離がダウンする。=Deals moderate P.DMG to all enemies within the range centered around the target character, greatly decreases their action speed, and blows them away. The distance of the blow depends on the number of enemies within the area.
 
 
 r:"^味方全体の物理防御力を(\d+)アップ\n(\d+)ダメージ分の物理無効バリアを展開する$"=►Boosts allies' P.DEF by $1 for 18s.\n►►Deploys Barrier over all allies that negates $2 P.DMG for 18s.

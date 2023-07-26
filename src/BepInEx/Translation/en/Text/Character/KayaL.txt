@@ -5,7 +5,7 @@
 ドラゴンズエンドブレイク=Dragon's End Break
 r:"^範囲内の敵に(\d+)の物理ダメージ\n初使用時、範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ$"=At the first use:\n►Deals $2 P.DMG to enemies within 600 range.\n\nAfterward:\n►Deals $1 P.DMG to enemies within 600 range.\n►Boosts own P.ATK by $3 for 7.5s.
 
-前方範囲内の敵すべてに物理大ダメージを与え、大きく吹き飛ばし、自分の物理攻撃力を短時間特大アップさせる。バトル開始後、初弾のユニオンバーストはダメージ量が大幅アップする。=Deals large P.DMG to all enemies within a range, blows them away significantly, and increases your P.ATK by an massive amount for a short period of time. After the battle begins, the first shot of the UB significantly increases the amount of DMG.
+前方範囲内の敵すべてに物理大ダメージを与え、大きく吹き飛ばし、自分の物理攻撃力を短時間特大アップさせる。バトル開始後、初弾のユニオンバーストはダメージ量が大幅アップする。=Deals large P.DMG to all enemies within a range, blows them away greatly, and increases your P.ATK by an massive amount for a short period of time. After the battle begins, the first shot of the UB greatly increases the amount of DMG.
 
 レイジングフィスト=Raging Fist
 レイジングフィスト+=Raging Fist+
