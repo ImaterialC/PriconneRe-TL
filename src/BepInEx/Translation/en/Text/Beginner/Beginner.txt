@@ -11,7 +11,7 @@ r:"^※(\d+)文字以内で入力してください。名前は後でも変更�
 ---Locked menu---
 r:"^メインクエスト([\s\S]*)クリアで解放$"=Clear Main Quest\n$1
 r:"^メインクエスト([\s\S]*)クリアで$"=Main Quest $1 has been cleared.
----Birthday Registration
+---Birthday Registration---
 誕生日登録=Birthday Registration
 登録した誕生日はプロフィールから確認できます。=Registered birthday can be check on profile.
 好きな日付を誕生日として登録できます。=You can register any date as your birthday.
@@ -19,7 +19,7 @@ r:"^メインクエスト([\s\S]*)クリアで$"=Main Quest $1 has been cleared.
 あなたの誕生日を入力してください。\n誕生日から7日間、キャラたちのお祝い\nメッセージを聞くことができます。=Please enter your birthday.\nYou can listen to the characters' celebration\nmessages for seven days from your birthday.
 あなたの誕生日を下記で登録します。=Registering your birthday as below.\n Is this OK?
 
-誕生日を登録しました。=birthday has registered at:
+誕生日を登録しました。=Birthday has registered at:
 r:"^(.{1,10}) さん$"=$1-san
 
 ---Profile

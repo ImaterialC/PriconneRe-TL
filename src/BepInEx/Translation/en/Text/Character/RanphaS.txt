@@ -1,0 +1,21 @@
+【魔法】後衛で、密やかな潮騒に耳を傾ける晩陽の歌姫。魔法クリティカルの極大アップを筆頭に攻防両面で周囲の味方を強化し、さらに自身もＵＢで数多の敵を退かせる。=[Magic] A rear-guard songstress of the sunset who listens to the discreet sounds of the tides. She excels in enhancing her surrounding allies on both offensive and defensive fronts, with a medium boost to M.crit, and can also repel numerous enemies with her UB.
+
+ネフライトアリア=Nephrite Aria
+自分を中心とした範囲内の敵すべてに魔法大ダメージを与え、自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップさせる。範囲内の敵の数に応じて、ダメージと魔法攻撃力の上昇量が増加する。=Deals massive M.DMG to all enemies within her range and greatly boosts the M.ATK of all allies within her range. The M.DMG and M.ATK boost depend on the number of enemies within the range.
+r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to enemies within 850 range.\n►Boosts allies' M.ATK within 150 range by $2 for 18s.
+
+セイレーンブレス=Siren's Breath
+セイレーンブレス+=Siren's Breath+
+自分を中心とした範囲内の味方すべての魔法攻撃力を大アップ、魔法クリティカルを極大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。=Greatly boosts the M.ATK of all allies within her range, greatly enhances M.crit, and slightly boosts the M.crit dmg.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを700アップ\n範囲内の味方の魔法攻撃クリティカル時のダメージを10％アップ$"=Cast time: 1.05s\n►Boosts allies' M.ATK within 150 range by $1 for 12s.\n►Boosts allies' M.Crit Rate within 150 range by 700 for 12s.\n►Boosts allies' M.Crit DMG within 150 range by 10% for 12s.
+
+サンシェイドバリア=Sunshade Barrier
+自分を中心とした範囲内の味方すべてに物理/魔法無効バリアを展開し、継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。=Deploys physical/magical nullification barriers to all allies within her range and grants continuous HP and TP recovery status.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する\n毎秒ＨＰを(\d+)回復する\n毎秒ＴＰを10回復する$"=Cast time: 1.05s\n►Deploys a barrier over allies within 150 range that nullifies P/M.DMG by $1 for 12s.\n►Recovers allies' HP within 150 range by $2/s for 10s.\n►Recovers allies' TP within 150 range by 10/s for 10s.
+
+
+マリンボイス=Marine Voice
+マリンボイス+=Marine Voice+
+
+
+

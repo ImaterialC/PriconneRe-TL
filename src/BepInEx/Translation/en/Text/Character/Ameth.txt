@@ -1,4 +1,3 @@
-メス=meth
 勇気は朽ちることなく=Courage never fades
 新たな姿で騎士の冒険を支え続ける妖精=A fairy who continues to support the knight's adventures in a new form.
 
@@ -15,9 +14,10 @@ r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御
 最もＨＰが低い味方１キャラのＨＰを中回復し、さらに物理ダメージカット効果と魔法ダメージカット効果を付与する。=Moderately restores the HP of the 1 ally with the lowest HP, and also grants P.DMG cut and M.DMG cut effects.
 r:"^味方単体のＨＰを(\d+)回復\n味方単体が受ける物理ダメージを15％カット\n味方単体が受ける魔法ダメージを15％カット$"=Cast time: 1.04s\n►Recovers an ally's HP by $1.\n►Applies P.DMG cut by 15％ for 12s.\n►Applies M.DMG cut by 15％ for 12s.
 
-バリアが展開されている味方全ての物理攻撃力と魔法攻撃力を極大アップさせ、ＴＰを中回復させる。自分の魔法攻撃力が高い程、物理攻撃力と魔法攻撃力の上昇量が最大５倍までアップする。=Massively boost the P.ATK & allies' M.ATK with barriers deployed, and restores a moderate amount of TP. The higher your M.ATK, the higher P&M ATK buff up to 5 times.
+
 
 トーレ・スプレデンテ=Torre Splendente
+バリアが展開されている味方全ての物理攻撃力と魔法攻撃力を極大アップさせ、ＴＰを中回復させる。自分の魔法攻撃力が高い程、物理攻撃力と魔法攻撃力の上昇量が最大５倍までアップする。=Massively boosts the P&M ATK of allies' with barriers deployed, and restores a moderate amount of TP. The higher your M.ATK, the higher P&M ATK buff up to 5 times.
 r:"^バリアが展開されている味方の物理攻撃力を(\d+)アップ\nバリアが展開されている味方の魔法攻撃力を(\d+)アップ\nバリアが展開されている味方のＴＰを200回復$"=Cast time: 0.74s\n►Boosts barriered allies' P.ATK by $1 for 18s.\n►Boosts barriered allies' M.ATK by $2 for 18s.\n►Recovers barriered allies' TP by 200.
 
 スクデット=Scudo
