@@ -1,6 +1,6 @@
 r:"^身長が足りず参加できなかった大会へのリベンジを考えるモニカ。身長を伸ばすため、([\s\S]{2,10})と共に様々な特訓を開始する。特訓の成果を確信したモニカは、出場に向け努力し続けるのだった。$"=Monika contemplates revenge on the tournament she couldn't participate in due to her height. To increase her height, she begins various special training sessions with $1. Confident in the results of her training, Monika continues to strive for participation.
 
-r:"^(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?\n鼻歌交じりでスキップする、小柄な軍人の後ろ姿に気づいた。$"=$1 notices a petite soldier skipping and humming a tune.
+r:"^(.{2,10})は\n鼻歌交じりでスキップする、小柄な軍人の後ろ姿に気づいた。$"=$1 notices a petite soldier skipping and humming a tune.
 
 ふんふんふーん♪=Hmm hmm hmm~
 声をかける。=Call her out.
@@ -17,7 +17,7 @@ r:"^(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?\n鼻歌交じりでスキッ�
 モニカ隊長ー！=Captain Monika!
 ……む？\nああ、おまえたちか！=...Hm? Ah, it's you two!
 貴公にも紹介しよう。\n二人とは、森で出会ってな。\n以来、隣人として懇意にさせてもらっている。=Let me introduce you to each other. We met these two in the forest. Since then, we've become friendly neighbors.
-あのね、あのね。\n魔物から逃げてた時、モニカ隊長に助けてもらったの！\n大きな剣で、あっという間に倒しちゃったんだよ！=listen, listen! When we were running away from monsters, Captain Monika saved us! With her big sword, she defeated them in no time!
+あのね、あのね。\n魔物から逃げてた時、モニカ隊長に助けてもらったの！\n大きな剣で、あっという間に倒しちゃったんだよ！=Listen, listen! When we were running away from monsters, Captain Monika saved us! With her big sword, she defeated them in no time!
 モニカ隊長、かっこ良かったよな～！\nこーんなちっさいのに！=Captain Monika was so cool! Even though she's so tiny!
 うん、すっごく強かったよね！\nこーんなにちっちゃいのに！=Yeah, she was really strong! Even though she's so small!
 小さい言うなっ！！\nまったく。子供は素直というか、正直というか……=Don't call me small!! Geez. Kids are straightforward, or rather, honest...
@@ -29,7 +29,7 @@ r:"^(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?\n鼻歌交じりでスキッ�
 いや。『大きく』というのは体のことではなく、\n年齢のことを言ったのだがな……=No. When I said "get bigger," I was referring to age, not the body...
 しかし、うらやましい限りだ。\n豆粒米粒だなんて言わず、もっと背が伸びていればリベンジできたが……=But I'm quite envious. If only I had grown taller than just bean-sized or rice grain-sized, I could have had my revenge...
 リベンジ？=Revenge?
-r:"^(?:\[3C404EFF\])?……そうだな。(?:\[3C404EFF\])?(.{2,10})に関係のない話ではない。(?:\[3C404EFF\])?\n覚えているか？　(?:\[3C404EFF\])?以前、開催された(?:\[3C404EFF\])?決闘大会のことを。$"=...That's right. It's not unrelated to $1. Do you remember? The duel tournament that was held before.
+r:"^……そうだな。(.{2,10})に関係のない話ではない。\n覚えているか？　以前、開催された決闘大会のことを。$"=...That's right. It's not unrelated to $1. Do you remember? The duel tournament that was held before.
 私も参加するために貴公と訓練を重ねたが、\n140cm以下は参加できないと言われ、出場すら叶わなかった……=I trained with you to participate, but they said I couldn't participate if I was below 140cm, so I couldn't even enter...
 少し先の話だが……またその大会が開催されるらしくてな。\n今回こそはと思ったが、私は未だに138cmの壁を突破できていない。\n……出場など、夢のまた夢というわけだ。=It's a story a bit ahead, but... it seems that the tournament will be held again. I thought this time I would be able to participate, but I still haven't surpassed the 138cm wall. ...Participation and such, it's just a dream within a dream.
 出場してたらモニカが優勝だったのに。=If you participate, you will definitely become a champion.
@@ -43,7 +43,7 @@ r:"^(?:\[3C404EFF\])?……そうだな。(?:\[3C404EFF\])?(.{2,10})に関係の
 そうだな。これは気合根性の話ではないと思うが、\n最善を尽くさず諦めるのは性に合わん。=That's right. I don't think this is just about determination and willpower, but it's not in my nature to give up without giving it our best.
 どんな噂や説だろうとも、最後までやり抜いてみせよう！\n貴公、すまないが手伝ってくれ！！=No matter what rumors or theories there may be, let's see it through to the end! Sorry, but can you help me with this, please!
 
-r:"^(?:\[3C404EFF\])?子供たちからメモを受け取った(?:\[3C404EFF\])?\nモニカと(.{2,10})は、特訓のために森へ移動した。$"=After receiving the notes from the children, Monica and $1 moved to the forest for special training.
+r:"^子供たちからメモを受け取った\nモニカと(.{2,10})は、特訓のために森へ移動した。$"=After receiving the notes from the children, Monica and $1 moved to the forest for special training.
 さっそく特訓を始めよう！\nメモの一番上から下まで、順番に実行していくぞ！=Let's start the special training right away! We'll execute it in order from the top to the bottom of the notes!
 まずは『身長を強制的に伸ばすストレッチ』……\nストレッチは基本中の基本だな！=First is the "stretch that forcibly extends height"... Stretching is the basics of basics!
 やり方は……\n『木の枝にぶら下がって、両足を引っ張ってもらう』……=The method is... "hang from a tree branch and have both legs pulled"...
@@ -75,7 +75,7 @@ r:"^(?:\[3C404EFF\])?子供たちからメモを受け取った(?:\[3C404EFF\])?
 ………………や。=............Damn.
 やはり、薬に頼るのはよくないなっ！\nここは実直に、健全なルートでいこうっ！！=As expected, relying on drugs is not a good idea! Let's take a healthy route!!
 
-r:"^(?:\[3C404EFF\])?こうしてモニカと(.{2,10})は、(?:\[3C404EFF\])?\n数日間に渡って、『背が伸びる方法』を試していった……$"=In this way, Monika and $1 spent several days trying various methods to increase their height...
+r:"^こうしてモニカと(.{2,10})は、\n数日間に渡って、『背が伸びる方法』を試していった……$"=In this way, Monika and $1 spent several days trying various methods to increase their height...
 
 『エリザベスパークの牛乳100本飲み』！？\n……いや、弱気になってはいかんな。やってやるぞ！！="Drink 100 bottles of Elizabeth Park's milk"!?... No, I can't be weak. I'll do it!!
 『今話題の栄養素満点の肉を食べる』……\nおい。この毛の生えたミミズのような魔物、本当に食べられるのか！？="Eat the nutrient-rich meat that's the talk of the town"... Hey. Can this hairy-worm-like creature really edible!?
@@ -91,7 +91,7 @@ r:"^(?:\[3C404EFF\])?こうしてモニカと(.{2,10})は、(?:\[3C404EFF\])?\n�
 なにっ！？=What?!
 どれぐらい伸びている！？\n……139cmだと！？　1cmも伸びたのは初めてだ……！！=How much I grew?!...\nIt's 139cm you say!? It's the first time I've grown 1cm...!!
 つまり私は……まだ成長できるということか！？=So, that means... I can still grow?!
-r:"^(?:\[3C404EFF\])?(.{2,10})……っ！！$"=$1...!!
+r:"^(.{2,10})……っ！！$"=$1...!!
 ……お、おいっ！　人の頭をぐりぐりするのはよせっ！\n小さな子供ではないのだぞ！　縮んだらどうしてくれるのだ！=H-Hey! Stop poking people's heads! I'm not a little child! What will you do if I shrink!
 ははっ！　こんなにうれしいのは、軍に入隊して以来だなっ！\n貴公には、なんと感謝すればいいのか……=Haha! This is the happiest I've been since joining the army! How can I thank you enough... Comrade.
 いや、喜ぶのは早いな。私はまだ、出場の条件を満たしていない。\n私は引き続き、背を伸ばす努力をしていくぞ。\nそして……=Well, it's too early to celebrate. I still haven't met the requirements for participation. I will continue my efforts to increase my height. And...
@@ -99,88 +99,88 @@ r:"^(?:\[3C404EFF\])?(.{2,10})……っ！！$"=$1...!!
 そうと決まれば、さっそく特訓を再開しよう。\n貴公、付き合ってくれるか？=Now that it's decided, let's resume the special training right away. Will you join me, my lord?
 
 
-r:"^(?:\[3C404EFF\])?子供のようにうれしそうに笑いかけるモニカに(?:\[3C404EFF\])?\nうなずく(.{2,10})。(?:\[3C404EFF\])?\n大会受付まで数か月……二人は再び秘密の特訓を続けるのだった。$"=$1 nodded to Monika, who smiled happily like a child. The tournament registration was still months away... The two of them continued their special training once again.
+r:"^子供のようにうれしそうに笑いかけるモニカに\nうなずく(.{2,10})。\n大会受付まで数か月……二人は再び秘密の特訓を続けるのだった。$"=$1 nodded to Monika, who smiled happily like a child. The tournament registration was still months away... The two of them continued their special training once again.
 
-[3C404EFF]ふん[3C404EFF]ふん[3C404EFF]ふーん♪=Hmm hmm hm hmm♪
-[3C404EFF]うわっ！？　[3C404EFF]貴公いたのか！？[3C404EFF]\n[3C404EFF]まさか今の、[3C404EFF]見ていたのでは……[3C404EFF]\nなにをって……[3C404EFF]い、[3C404EFF]言わせる気か！？=Whoa! You were here!?\nDid you see what I was just doing...\nWhat do you mean, what... You're trying to make me say it, aren't you?
-[3C404EFF]ん？　[3C404EFF]なぜそんなにうれしそうなのか……[3C404EFF]だと？[3C404EFF]\n[3C404EFF]……笑うなよ？=Huh? Why am I seem so happy...?\nDon't laugh!
-[3C404EFF]今朝、[3C404EFF]自主的に身体測定を行ったのだが……[3C404EFF]\n[3C404EFF]伸びていたんだ！　[3C404EFF]私の身長が！！=This morning, I took my measurements on my own...\nand I grew! My height did!!
-[3C404EFF]……おい！　[3C404EFF]なにをジロジロ見ている！？[3C404EFF]\n信じられないというのか！？=...Hey! Why are you staring at me like that!?\n Can't you believe it!?
-[3C404EFF]言っておくが、[3C404EFF]嘘ではないぞ！[3C404EFF]\n[3C404EFF]確かに[3C404EFF]ほんの少し……[3C404EFF]そう、[3C404EFF]豆粒くらいは伸びたんだ！=I'm telling you, it's not a lie! It did grow a little...\nyeah, like the size of a bean!
-[3C404EFF]……いや、[3C404EFF]豆粒は言い過ぎか。[3C404EFF]\n米粒くらいは……[3C404EFF]えっ！？　[3C404EFF]もう一度測ってみよう！？=...Well, maybe calling it a bean is an exaggeration.\nMore like the size of a grain of rice...\nHuh!? measure again?
-[3C404EFF]こ、[3C404EFF]断る！[3C404EFF]\n[3C404EFF]もし気のせいだったらへこむではないかっ！=N-No, I refuse!\nIf it turns out to be my imagination, I'd feel depressed!
-[3C404EFF]おーい！=Hey!
-[3C404EFF]モニカ隊長ー！=Captain Monica!
-[3C404EFF]……む？[3C404EFF]\n[3C404EFF]ああ、[3C404EFF]おまえたちか！=...Hm? Ah, it's you two!
-[3C404EFF]貴公にも紹介しよう。[3C404EFF]\n二人とは、[3C404EFF]森で出会ってな。[3C404EFF]\n以来、[3C404EFF]隣人として[3C404EFF]懇意にさせてもらっている。=Let me introduce you to each other. We met these two in the forest. Since then, we've become friendly neighbors.
-[3C404EFF]あのね、[3C404EFF]あのね。[3C404EFF]\n魔物から逃げてた時、[3C404EFF]モニカ隊長に助けてもらったの！[3C404EFF]\n[3C404EFF]大きな剣で、[3C404EFF]あっという間に倒しちゃったんだよ！=listen, listen! When we were running away from monsters, Captain Monika saved us! With her big sword, she defeated them in no time!
-[3C404EFF]モニカ隊長、[3C404EFF]かっこ良かったよな～！[3C404EFF]\n[3C404EFF]こーんなちっさいのに！=Captain Monika was so cool!\nEven though she's so tiny!
-[3C404EFF]うん、[3C404EFF]すっごく強かったよね！[3C404EFF]\n[3C404EFF]こーんなにちっちゃいのに！=Yeah, she was really strong!\nEven though she's so small!
-[3C404EFF]小さい言うなっ！！[3C404EFF]\n[3C404EFF]まったく。[3C404EFF]子供は素直というか、[3C404EFF]正直というか……=Don't call me small!!\nGeez. Kids are straightforward, or rather, honest...
-[3C404EFF]それで[3C404EFF]おまえたち、[3C404EFF]今日はどうしたんだ？[3C404EFF]\nまた稽古をつけてほしいのか？=So, what are you two up to today?\nDo you want me to give you more training?
-[3C404EFF]へへん！　[3C404EFF]今日はモニカ隊長に[3C404EFF]『ほうこく』[3C404EFF]があって。[3C404EFF]\n実は俺たち、[3C404EFF]身長が伸びてたんだ！=Ehem! Today, Captain Monika, we have "news." Actually, we've grown taller!
-[3C404EFF]なに！？[3C404EFF]\nこの間も同じ報告をしてなかったか！？=What!? Didn't you report the same thing the other day!?
-[3C404EFF]うん。[3C404EFF]この間も伸びたけど、[3C404EFF]今回も伸びたみたい。=Yeah. We grew taller the other day, and it seems like we grew taller again this time.
-[3C404EFF]『子供は成長が早いわねー♪』[3C404EFF]って[3C404EFF]イオ先生が言ってた。[3C404EFF]\n[3C404EFF]それより、[3C404EFF]大きくなったら部下にしてくれるんでしょ！？=Io-sensei said, "Kids grow up so fast~♪." But more importantly, if we get bigger, will you make us your subordinates!?
-[3C404EFF]いや。[3C404EFF]『大きく』というのは[3C404EFF]体のことではなく、[3C404EFF]\n年齢のことを言ったのだがな……=No. When I said "get bigger," I was referring to age, not the body...
-[3C404EFF]しかし、[3C404EFF]うらやましい限りだ。[3C404EFF]\n[3C404EFF]豆粒米粒だなんて言わず、[3C404EFF]もっと背が伸びていれば[3C404EFF]リベンジできたが……=But I'm quite envious. If only I had grown taller than just bean-sized or rice grain-sized, I could have had my revenge...
-[3C404EFF]私も参加するために[3C404EFF]貴公と訓練を重ねたが、[3C404EFF]\n140cm以下は参加できないと言われ、[3C404EFF]出場すら叶わなかった……=I trained with you to participate, but they said I couldn't participate if I was below 140cm, so I couldn't even enter...
 
-[3C404EFF]少し先の話だが……[3C404EFF]またその大会が開催されるらしくてな。[3C404EFF]\n[3C404EFF]今回こそはと思ったが、[3C404EFF]私は未だに[3C404EFF]138cmの壁を突破できていない。[3C404EFF]\n……出場など、[3C404EFF]夢のまた夢というわけだ。=It's a story a bit ahead, but... it seems that the tournament will be held again. I thought this time I would be able to participate, but I still haven't surpassed the 138cm wall. ...Participation and such, it's just a dream within a dream.
-[3C404EFF]そうだよな、[3C404EFF]兄ちゃんもそう思うよな！？[3C404EFF]\n[3C404EFF]ならさ、[3C404EFF]今度こそ出場しようよ！　[3C404EFF]俺たちも協力するからさ！=Yeah, that's right! Onii-chan, you think so too, right!? Then, let's participate this time for sure! We'll help too!
-[3C404EFF]いいこと思いついた！[3C404EFF]\n[3C404EFF]私たちが試した[3C404EFF]『背が伸びる方法』を[3C404EFF]\nモニカ隊長もやってみるのはどうかな！？=I have a good idea! How about Captain Monika tries the "How to Grow Up Taller" that we tried!?
-[3C404EFF]それいいじゃん！[3C404EFF]\n[3C404EFF]二人とも、[3C404EFF]ちょっと待ってて！[3C404EFF]\nメモに全部まとめるから！！=That's a great idea!\nWait a moment, both of you!\nI'll write it all down!!
-[3C404EFF]い、[3C404EFF]いや……[3C404EFF]\n私はもう、[3C404EFF]ここですっぱり[3C404EFF]諦めようかと……=N-No... I was thinking of giving up completely here...
-[3C404EFF]なに言ってるんだよ！　[3C404EFF]モニカ隊長が[3C404EFF]一番諦めたくないくせに！[3C404EFF]\n[3C404EFF]それに[3C404EFF]俺たちも、[3C404EFF]モニカ隊長が優勝する姿、[3C404EFF]見てみたいんだ！=What are you talking about! Captain Monika is the one who least wants to give up! And we also want to see Captain Monika winning!
-[3C404EFF]みんなで力を合わせれば、[3C404EFF]\nモニカ隊長の身長も[3C404EFF]すぐにぐーんって伸びるよ！=If we all work together, Captain Monica will grow taller in no time!
-[3C404EFF]……おまえたち。=......you guys.
-[3C404EFF]そうだな。[3C404EFF]これは気合根性の話ではないと思うが、[3C404EFF]\n最善を尽くさず諦めるのは[3C404EFF]性に合わん。=That's right. I don't think this is just about determination and willpower, but it's not in my nature to give up without giving it our best.
-[3C404EFF]どんな噂や説だろうとも、[3C404EFF]最後までやり抜いてみせよう！[3C404EFF]\n[3C404EFF]貴公、[3C404EFF]すまないが手伝ってくれ！！=No matter what rumors or theories there may be, let's see it through to the end! Sorry, but can you help me with this, please!
-[3C404EFF]さっそく特訓を始めよう！[3C404EFF]\nメモの一番上から下まで、[3C404EFF]順番に実行していくぞ！=Let's start the special training right away! We'll execute it in order from the top to the bottom of the notes!
-[3C404EFF]まずは[3C404EFF]『身長を強制的に伸ばすストレッチ』……[3C404EFF]\n[3C404EFF]ストレッチは[3C404EFF]基本中の基本だな！=First is the "stretch that forcibly extends height"... Stretching is the basics of basics!
-[3C404EFF]やり方は……[3C404EFF]\n[3C404EFF]『木の枝にぶら下がって、[3C404EFF]両足を引っ張ってもらう』……=The method is... "hang from a tree branch and have both legs pulled"...
-[3C404EFF]…………こんな方法で[3C404EFF]本当に伸びるのか？[3C404EFF]\n[3C404EFF]い、[3C404EFF]いや。[3C404EFF]疑う前に[3C404EFF]まずは実践だ！=............ Can you really grow taller with this method? N-No, before doubting, let's try it first!
-[3C404EFF]よし、[3C404EFF]貴公！　[3C404EFF]丈夫そうな枝にぶら下がったぞ！[3C404EFF]\n私を思いっきり引っ張ってくれ！！=Alright, you! Hang on to a sturdy branch! Pull me as hard as you can!!
 
-[3C404EFF]言っておくが、[3C404EFF]上は見るなよ！？[3C404EFF]\n[3C404EFF]……どうしてって、[3C404EFF]私はスカートだぞ！？　[3C404EFF]察しろ！=I'm telling you, don't look up! Why? Because I'm wearing a skirt! Take a clue!
-[3C404EFF]どんと来い！！[3C404EFF]\n[3C404EFF]……あ[3C404EFF]だっ！　[3C404EFF]あだだだだ！？=Bring it on!!\n...Ouch! Ouch, ouch, ouch!
-[3C404EFF]だ、[3C404EFF]大丈夫だ！[3C404EFF]\n手を緩めなくていい！！=I-I'm fine!\nDon't loosen your grip!!
-[3C404EFF]私は[3C404EFF]今度こそ大会に出場するのだ！[3C404EFF]\nそのためにも……！！　=I will participate in the tournament this time! For that...!! 
-[3C404EFF]伸びろぉお！！[3C404EFF]\n私の身長ぉおーーー！！！！=Stretch out!!\nMy height!!
-[3C404EFF]……うわっ！？=...Whoa!?
-[3C404EFF]いたた……[3C404EFF]くないぞ？=Ouch... That didn't feel good.
-[3C404EFF]うわあっ！？[3C404EFF]\n[3C404EFF]貴公、[3C404EFF]すまん！　[3C404EFF]大丈夫か！？=Whoa! Sorry! Are you okay!?
-[3C404EFF]し、[3C404EFF]下敷きにして[3C404EFF]本当に悪かった……[3C404EFF]\n怪我はないか？　[3C404EFF]…[3C404EFF]…そうか、[3C404EFF]それは安心した。=S-Sorry for using you as a cushion... Are you hurt?\n...I see, that's a relief.
-[3C404EFF]この方法は危険だし、[3C404EFF]効果もなさそうだな。[3C404EFF]\n[3C404EFF]……はぁ、[3C404EFF]先は長そうだ。=This method is dangerous and doesn't seem effective.\n...Sigh, it seems like a long road ahead.
-[3C404EFF]次は……[3C404EFF]\n[3C404EFF]『ミツキ先生の診療所で処方される[3C404EFF]魔法薬を飲むと[3C404EFF]背が伸びるらしい』？=Next is... "It seems that drinking a magic potion prescribed by Dr. Mitsuki at the clinic will make you grow taller"?
-[3C404EFF]背が伸びる魔法薬……？[3C404EFF]\n『怪しい』の一言に尽きるのだが……[3C404EFF]\nその医者を信じても大丈夫なのだろうか？=A magic potion to increase height...? To put it simply, it sounds "suspicious"... Can we trust that doctor?
-[3C404EFF]お、[3C404EFF]おい！？[3C404EFF]\nなぜ目を合わせないのだ！？[3C404EFF]\n[3C404EFF]こっちを見て、[3C404EFF]信用できると言ってくれ！？=H-Hey! Why won't you make eye contact? Look at me and tell me I can trust you!
-[3C404EFF]...I see.[3C404EFF]貴公の話をまとめると、[3C404EFF]\n色々と過激な手段を用いるが、[3C404EFF]\n医者としての実力は本物で[3C404EFF]信用できると……=...I see. So, summarizing your story, she use various extreme methods, but her skill as a doctor is genuine and trustworthy...
-[3C404EFF]背を伸ばすためならば、[3C404EFF]多少のリスクも承知の上だ。[3C404EFF]\nその魔法薬、[3C404EFF]是非とも試してみたい！=If it's for increasing height, I'm willing to accept some risks. I definitely want to try that magic potion!
-[3C404EFF]……なに？　[3C404EFF]貴公が相談してくれるだと？[3C404EFF]\n[3C404EFF]それはありがたい申し出だ！　[3C404EFF]頼んだぞ！！=...What? Are you willing to consult? That's a grateful offer! I am count on you!
-[3C404EFF]もう話がついたのか？[3C404EFF]\n[3C404EFF]それで[3C404EFF]どうだった！？=Is the consultation over?\nSo, how did it go!?
-[3C404EFF]おお！　[3C404EFF]魔法薬をもらってきてくれたのか！？[3C404EFF]\n[3C404EFF]……メモを預かった[3C404EFF]だと？　[3C404EFF]拝見しよう。=Oh! Did you bring the magic potion!?... You took the notes? Let me see.
-[3C404EFF]『骨を強制的に伸ばす魔法薬のため、[3C404EFF]\n[3C404EFF]数か月の間は、[3C404EFF]のたうち回るような痛みと高熱の症状あり。[3C404EFF]\n[3C404EFF]また[3C404EFF]副作用で、[3C404EFF]第三第四の手足が生えてくることもあるため[3C404EFF]自己責任で』="For the magic potion that forcibly extends bones, there may be symptoms of intense pain and high fever for several months. Also, as a side effect, a third or fourth pair of limbs may grow, so it's at your own risk."
-[3C404EFF]………………や。=............Damn.
-[3C404EFF]やはり、[3C404EFF]薬に頼るのはよくないなっ！[3C404EFF]\n[3C404EFF]ここは実直に、[3C404EFF]健全なルートでいこうっ！！=As expected, relying on drugs is not a good idea! Let's take a healthy route!!
 
-[3C404EFF]『エリザベスパークの牛乳100本飲み』！？[3C404EFF]\n[3C404EFF]……いや、[3C404EFF]弱気になってはいかんな。[3C404EFF]やってやるぞ！！="Drink 100 bottles of Elizabeth Park's milk"!?... No, I can't be weak. I'll do it!!
-[3C404EFF]『今話題の栄養素満点の肉を食べる』……[3C404EFF]\nおい。[3C404EFF]この毛の生えたミミズのような魔物、[3C404EFF]本当に食べられるのか！？="Eat the nutrient-rich meat that's the talk of the town"... Hey. Can this hairy-worm-like creature really edible!?
-[3C404EFF]貴公。[3C404EFF]『流れ星に頼もう作戦』を[3C404EFF]今晩決行する。[3C404EFF]\n[3C404EFF]あの山小屋に集合だ。[3C404EFF]風邪をひかぬよう[3C404EFF]毛布を忘れるな。=Comrade, we'll carry out the "Wising upon to shooting stars" plan tonight. Meet at that mountain cabin. Don't forget the blankets so you don't catch a cold.
-[3C404EFF]それから数日が過ぎ、いよいよ測定してみることになった。=And then, several days passed, and it was finally time to measure their height.
-[3C404EFF]もし[3C404EFF]身長が伸びていなかったら……=If my height hasn't increased...
-[3C404EFF]そうは言うが……[3C404EFF]わ、[3C404EFF]分かった。[3C404EFF]\n測ってくれ……=Even you say that, but... I-I understand.\nPlease measure my height...
-[3C404EFF]それで……[3C404EFF]どうだ？=So... how is it?
-[3C404EFF]……そうか。[3C404EFF]驚くほど私の背は伸びていなかったか。[3C404EFF]\n分かっていたことだが、[3C404EFF]やはり……=...I see. My height hasn't grown as much as I expected. I knew it, but still...
-[3C404EFF]なにっ！？=What!?
-[3C404EFF]どれぐらい伸びている！？[3C404EFF]\n……139cmだと！？　[3C404EFF]1cmも伸びたのは初めてだ……！！=How much?!... 139cm you say!? It's the first time I've grown 1cm...!!
-[3C404EFF]つまり私は……[3C404EFF]まだ成長できるということか！？=So, that means... I can still grow?!
-[3C404EFF]……お、[3C404EFF]おいっ！　[3C404EFF]人の頭をぐりぐりするのはよせっ！[3C404EFF]\n[3C404EFF]小さな子供ではないのだぞ！　[3C404EFF]縮んだらどうしてくれるのだ！=H-Hey! Stop poking people's heads! I'm not a little child! What will you do if I shrink!
-[3C404EFF]ははっ！　[3C404EFF]こんなにうれしいのは、[3C404EFF]軍に入隊して以来だなっ！[3C404EFF]\n[3C404EFF]貴公には、[3C404EFF]なんと感謝すればいいのか……=Haha! This is the happiest I've been since joining the army! How can I thank you enough... Comrade.
-[3C404EFF]いや、[3C404EFF]喜ぶのは早いな。[3C404EFF]私はまだ、[3C404EFF]出場の条件を満たしていない。[3C404EFF]\n私は引き続き、[3C404EFF]背を伸ばす努力をしていくぞ。[3C404EFF]\nそして……=Well, it's too early to celebrate. I still haven't met the requirements for participation. I will continue my efforts to increase my height. And...
-[3C404EFF]大会で優勝するのだ！[3C404EFF]\n[3C404EFF]我が名誉のためでなく、[3C404EFF]支えてくれた[3C404EFF]仲間のために！！=I will win the tournament! Not just for my honor, but for the sake of the comrades who supported me!!
-[3C404EFF]そうと決まれば、[3C404EFF]さっそく特訓を再開しよう。[3C404EFF]\n[3C404EFF]貴公、[3C404EFF]付き合ってくれるか？=Now that it's decided, let's resume the special training right away. Will you join me, Comrade?
 
-[3C404EFF]なにやつ！　[3C404EFF]……って[3C404EFF]貴公か。[3C404EFF]\n[3C404EFF]ふー、[3C404EFF]投げ飛ばさなくてよかった。[3C404EFF]\n[3C404EFF]怪我をしたくなければ、[3C404EFF]無断で軍人の背に触れてはならん。=What the hell! ...Wait, it's you. Phew, I'm glad I didn't throw you. If you don't want to get hurt, you can't touch a soldier's back without permission.
-[3C404EFF]は、[3C404EFF]はっきり言ってくれ！[3C404EFF]\nごまかされると余計に怪しいのだが！？　[3C404EFF]むしろ怖いぞ！？=S-Say it out loud! It'd be even more suspicious if you tricked me! If anything, I'm scared!
-[3C404EFF]あはははっ！？[3C404EFF]\n[3C404EFF]……って、[3C404EFF]この大バカ者っ！！　[3C404EFF]どこを触ってる！？[3C404EFF]\n軍人をくすぐるなど、[3C404EFF]貴公でなければ斬っているところだ！！=Ahahaha?! ...Wait, you big idiot!! Where are you touching?! I would've killed you if you weren't the one tickling a soldier!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

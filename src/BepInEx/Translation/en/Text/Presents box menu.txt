@@ -14,12 +14,11 @@
 プレゼント受け取り=Receive Present
 報酬はプレゼントに送られました。=Reward have been sent to the Present Box.
 所持上限を超えたアイテムはプレゼントに送られました。=Items that exceed the possession limit have been sent as gifts.
-「信頼度エピソード」で獲得したアイテムです。=item acquired from "Intimacy Episode"
+「信頼度エピソード」で獲得したアイテムです。=Item acquired from "Intimacy Episode"
 運営からのお詫びの品です。=It is an apology item from the operation.
 
 プレゼントに送られたアイテムがあります。=There are items sent to the present.
 ガチャ更新によりキャラ交換Ptを変換したアイテムです。=Converted from character exchange points due to gacha update.
----Item List Receive---A->Item,B->Number
 
 ---Item Receive---
 sr:"^(\[[0-9A-Fa-f,]{6,13}\])?(\D+?)(（.+）)?(の\n?(?:ピュア)?メモリーピース|の設計図)? ?(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?(\d+)(\[-\])?(?:\[-\])?$"=$1$2$3$4 × $5$6$7$7

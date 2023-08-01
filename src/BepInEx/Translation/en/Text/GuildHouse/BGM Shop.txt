@@ -1,5 +1,3 @@
-GM変更=GM Change
-GM購入=uy BGM
 BGM購入=Buy BGM
 BGM変更=BGM
 
@@ -15,15 +13,15 @@ BGM変更へ=Change BGM
 ギルドハウス2FのBGMを初期設定に戻します。\nよろしいですか？=Revert the BGM of 2F to default?
 ギルドハウス3FのBGMを初期設定に戻します。\nよろしいですか？=Revert the BGM of 3F to default?
 
----
+------
 r:"^\[3C404E\]ルピ×\[FFBB00,CE4F00\]([\d,]+)\[-\]を消費して\n以下のBGMを購入しますか？\[-\]$"=[3C404E]Use [-][FFBB00,CE4F00]$1[-][3C404E] Rupies to purchase this BGM?[-]
 (tempt)
 sr:"^(.{3,20})\nを購入しました。$"=Purchased\n$1
 
----NPC koro
+---NPC koro---
 メモリアルサウンドボックスの購入により、ギルドハウスの各フロアで流れるBGMを変更できるようになりました。お好みの楽曲を購入してくださいませ。主さまの選曲、楽しみです。=Now that we have the Memorial Jukebox, you can purchase new tracks to use as BGM on your home screen and each floor of guildhouse. I cannot wait to hear your favorite melodies, Aruji-sama.
 
----NPC karin
+---NPC karin---
 ようこそ！\nこちらでは、\nギルドハウスで流れる音楽の\n変更や購入が出来ますよ=Hello there!\nIn this section, you can choose new music to play on your home screen or in the Guildhouse
 
 こちらでは、ＢＧＭの変更が\nできますよ\nどんな曲に変更しますか？\nふふふ、私も楽しみです♪=This is where you can change BGM setting! What kind of track are you after?\nHaha, I can't wait to hear it!
@@ -34,7 +32,7 @@ sr:"^(.{3,20})\nを購入しました。$"=Purchased\n$1
 
 いらっしゃいませ！\nＢＧＭの購入はこちらです\n素敵な曲がたくさんあって、\n目移りしちゃいますね=Always a pleasure to see you! welcome to music store. There are so many lovely tracks. it can be hard to chose can't it?
 
-こちらでは、ＢＧＭを購入\nすることができますよ\n試聴することもできるので、\nじっくり選んでくださいね=this is where you can purchase new music tracks to use! you can listen to a sample first so feel free to take your time.
----
+こちらでは、ＢＧＭを購入\nすることができますよ\n試聴することもできるので、\nじっくり選んでくださいね=This is where you can purchase new music tracks to use! you can listen to a sample first so feel free to take your time.
+------
 ストーリーイベントテーマ=Story Event Theme
 

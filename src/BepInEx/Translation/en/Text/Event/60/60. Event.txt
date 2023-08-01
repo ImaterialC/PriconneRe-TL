@@ -22,4 +22,4 @@ r:"^ランドソル 市街地([0-9\-\(\)\w （）]*)$"=Landosol urban area $1
 
 
 カフェの戦闘服はエプロン=Cafe combat uniforms are apron
-[3C404EFF]なにやら思いがけない方向に事態が転がってしまったが……[3C404EFF]\n[3C404EFF]この制服に身を包んでいると、[3C404EFF]不思議と気合が入るようだ！[3C404EFF]\n[3C404EFF]軍人には軍服、[3C404EFF]カフェ店員には[3C404EFF]エプロン、[3C404EFF]だな！=The situation has rolled in an unexpected direction, but when you are dressed in this uniform, you seem to be wondering!\nMilitary uniform for soldiers, apron for cafe clerks!
+なにやら思いがけない方向に事態が転がってしまったが……\nこの制服に身を包んでいると、不思議と気合が入るようだ！\n軍人には軍服、カフェ店員にはエプロン、だな！=The situation has rolled in an unexpected direction, but when you are dressed in this uniform, you seem to be wondering!\nMilitary uniform for soldiers, apron for cafe clerks!

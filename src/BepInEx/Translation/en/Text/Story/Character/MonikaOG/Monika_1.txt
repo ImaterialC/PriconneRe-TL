@@ -1,6 +1,6 @@
 r:"^魔物退治の特訓をするためモニカが街の外に出ようとするのを見て、(.{2,10})が子供が魔物と戦うのは危険だと諭す。自分は子供ではないと否定し魔物と戦うモニカを(.{2,10})は助ける。$"=To train in monster extermination, Monika tries to go outside the town. $1 warns that it's dangerous for a child to fight monsters. Monika denies being a child and $1 helps her fight monsters.
 
-r:"^(?:\[3C404EFF\])?(.{2,10})が散歩をしていると、\n頭を抱えている女の子を目撃した。$"=While taking a walk, $1 witnesses a girl clutching her head.
+r:"^(.{2,10})が散歩をしていると、\n頭を抱えている女の子を目撃した。$"=While taking a walk, $1 witnesses a girl clutching her head.
 うーむ……\nギルドを結成したのはいいが、\nまさか、まともに魔物退治もできないとは……=Hmmm... It's good that we formed a guild, but I never expected us to be incapable of proper monster extermination...
 全ては、私に司令官としての能力が欠如していたせいだ。\nもっと的確に指示を出せていれば……=It's all because of my lacking abilities as a commander. If only I could give more accurate instructions...
 よしっ！　ならば特訓あるのみだ！\n私が強くなれば、その分ギルドが強くなるだろう！=Alright! We have no choice but to train! If I become stronger, the guild will become stronger as well!
@@ -40,53 +40,53 @@ r:"^(?:\[3C404EFF\])?(.{2,10})が散歩をしていると、\n頭を抱えてい
 ふん、そのようなもの受け取る気は……=Hmph, I don't feel like accepting such a thing...
 それは……アメか？\n……し、仕方ない。\nどうしてもというなら、受け取ってやろう。=Is this... candy?... Sigh, fine. If you insist, I'll accept it.
 
-あむっ……！\nうん、なかなかの味だ！=munch... Mmm, it tastes pretty good!
+あむっ……！\nうん、なかなかの味だ！=Munch... Mmm, it tastes pretty good!
 
-r:"^(?:\[3C404EFF\])?貴公、(?:\[3C404EFF\])?名前は？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……(.{2,10})か。$"=Your name?... $1, is it?
-r:"^(?:\[3C404EFF\])?(.{2,10})、このアメに免じて、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?さっきの非礼は許そう。$"=$1, in consideration of this candy, I'll forgive your rudeness earlier.
-r:"^(?:\[3C404EFF\])?では、(?:\[3C404EFF\])?今日の特訓はこれくらいにしておこう。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})、帰るぞ！$"=Well, let's call it a day for today's training. $1, let's go back!
+r:"^貴公、名前は？\n……(.{2,10})か。$"=Your name?... $1, is it?
+r:"^(.{2,10})、このアメに免じて、\nさっきの非礼は許そう。$"=$1, in consideration of this candy, I'll forgive your rudeness earlier.
+r:"^では、今日の特訓はこれくらいにしておこう。\n(.{2,10})、帰るぞ！$"=Well, let's call it a day for today's training. $1, let's go back!
 
 アメ一つで、すっかり機嫌を良くするモニカであった。=With just one candy, Monika's mood brightened considerably.
 
-[3C404EFF]うーむ……[3C404EFF]\nギルドを結成したのはいいが、[3C404EFF]\nまさか、[3C404EFF]まともに魔物退治もできないとは……=Hmmm... It's good that we formed a guild, but I never expected us to be incapable of proper monster extermination...
-[3C404EFF]全ては、[3C404EFF]私に司令官としての能力が欠如していたせいだ。[3C404EFF]\n[3C404EFF]もっと的確に指示を出せていれば……=It's all because of my lacking abilities as a commander. If only I could give more accurate instructions...
-[3C404EFF]よしっ！　[3C404EFF]ならば特訓あるのみだ！[3C404EFF]\n[3C404EFF]私が強くなれば、[3C404EFF]その分ギルドが強くなるだろう！=Alright! We have no choice but to train! If I become stronger, the guild will become stronger as well!
-[3C404EFF]……しかし街中では人がいて危険だな。[3C404EFF]\n仕方ない、[3C404EFF]外に出て特訓するか。=...But it's dangerous with people around in the town. Well, I guess I'll have to train outside.
 
-[3C404EFF]む？　[3C404EFF]なんだ、貴公は？[3C404EFF]\n[3C404EFF]私に用か？=Huh? Who are you? What do you want from me?
-[3C404EFF]街の外は危険……だと？[3C404EFF]\n[3C404EFF]そんなことはわかっている。[3C404EFF]\n危険だからこそ、[3C404EFF]訓練になるのではないか。=It's dangerous outside the town...? I know that. It's precisely because it's dangerous that it becomes training, isn't it?
-[3C404EFF]なに……？[3C404EFF]\n子供が一人で出てはダメ……？=What...? A child shouldn't go out alone...?
+
+
+
+
+
+
+
 こ、子供ではないっ！=I-I'm not a child!
-[3C404EFF]こ、[3C404EFF]子供ではないっ！=I-I'm not a child!
-[3C404EFF]私はモニカ・ヴァイスヴィント！[3C404EFF]\n誇り高きヴァイスフリューゲルに所属する、[3C404EFF]\n[3C404EFF]立派な軍人だ！=I am Monika Weisswind, a proud member of the Weissflügel, a distinguished soldier!
+
+
 軍人ダッタノカー=Yes yes, a soldier in a duty
-[3C404EFF]ごっこ、ではない！=It's not playing soldier!
 
-[3C404EFF]なんだ、その棒読みは！？=What's with that monotone?!
-[3C404EFF]貴公、[3C404EFF]さては信じていないな！？[3C404EFF]\n[3C404EFF]嘘ではない、[3C404EFF]私は本当に軍人なのだ！=You... You don't believe me, do you?! It's not a lie, I really am a soldier!
-[3C404EFF]ん？　[3C404EFF]両親の居場所？　[3C404EFF]私の家……？[3C404EFF]\n[3C404EFF]なぜ、[3C404EFF]そんなことを聞く？=Huh? My parents' whereabouts? My home...? Why are you asking such things?
-[3C404EFF]送り届けるため……？[3C404EFF]\n[3C404EFF]だから、[3C404EFF]私は子供ではないと言っているっ！=To escort me home...?\nI told you, I'm not a child!
-[3C404EFF]ぐぬぬ……[3C404EFF]\nどうやら貴公は、[3C404EFF]私を怒らせたいようだな。=Grrr... It seems you're trying to provoke me.
-[3C404EFF]もう、貴公など知らん！[3C404EFF]\n[3C404EFF]私は特訓に向かう。[3C404EFF]止めても無駄だ！=Fine, I don't care about you anymore! I'm heading for my training. It's useless to try and stop me!
-[3C404EFF]ふむ……[3C404EFF]\n[3C404EFF]ここなら、[3C404EFF]広いし訓練にもちょうどいいな。=Hmm... This place is wide enough and suitable for training.
-[3C404EFF]……なんだ貴公、[3C404EFF]ついてきたのか？[3C404EFF]\n[3C404EFF]心配しなくとも、[3C404EFF]街を出たからといって、[3C404EFF]\nすぐに魔物と遭遇するはずが──=...What's the matter? Why did you follow me? Even if we left the town, it doesn't mean we'll encounter monsters immediately...
-[3C404EFF]ま、[3C404EFF]魔物！？[3C404EFF]\n[3C404EFF]噂をすればなんとやら、か……=Well, a monster?! So it's true after all...
-[3C404EFF]なに？　[3C404EFF]逃げよう、だと？[3C404EFF]\n[3C404EFF]なら、[3C404EFF]一人で逃げるのだな。=What? You're suggesting we run away? Then go ahead and run alone.
-[3C404EFF]私は軍人だ。[3C404EFF]魔物相手でも逃げたりはしない。[3C404EFF]\nたとえ一人でも戦ってみせる。=I'm a soldier. I won't run away even if it's against monsters. I'll fight, even if I'm alone.
-[3C404EFF]なんだ……なにを呆れている？[3C404EFF]\n[3C404EFF]仕方ない、とはどういうことだ？=What...? Why are you so astonished? What do you mean, "it can't be helped"?
-[3C404EFF]……む！？[3C404EFF]\nなんだ、[3C404EFF]これは……？[3C404EFF]\n力がみなぎってくる！？=Hmm?!\nWhat's this...?\nPower is surging within me!
-[3C404EFF]これならば、[3C404EFF]魔物も怖れることはない！[3C404EFF]\nくらえっ！=With this, even monsters have nothing to fear! Take this!
-[3C404EFF]ふふ、[3C404EFF]どうだ私の実力は？[3C404EFF]\n[3C404EFF]素晴らしいだろう？=Hehe, how's my strength? It's magnificent, isn't it?
-[3C404EFF]そうか、[3C404EFF]すごいか！[3C404EFF]\nやっと貴公も私を軍人と認める気に……=I see, it's amazing! Finally, you acknowledge me as a soldier, too...
-[3C404EFF]え？　[3C404EFF]すごく強い子供でびっくりした？[3C404EFF]\n[3C404EFF]わ、[3C404EFF]私は子供ではないっ！=Huh? You're surprised that a child is so strong? I... I'm not a child!
-[3C404EFF]お、おい！　[3C404EFF]なぜ手をつかむ！？[3C404EFF]\n[3C404EFF]誰が触れていいと言った！？=Hey! Why are you grabbing my hand? Who said you could touch me?
-[3C404EFF]は……？　[3C404EFF]危ないからおうちまで[3C404EFF]\n送ってあげるだと？=Huh...? You'll take me home because it's dangerous?
-[3C404EFF]う、[3C404EFF]うぐぐ……[3C404EFF]\n[3C404EFF]だから、[3C404EFF]私を子供扱いするなっ！=U-Ugh... I... I told you not to treat me like a child!
-[3C404EFF]貴公は、[3C404EFF]そんなに私を愚弄したいのか！？[3C404EFF]\n不愉快だ！=Do you want to mock me that much? It's unpleasant!
-[3C404EFF]ふん、[3C404EFF]そのようなもの[3C404EFF]受け取る気は……=Hmph, I don't feel like accepting such a thing...
-[3C404EFF]それは……アメか？[3C404EFF]\n[3C404EFF]……し、[3C404EFF]仕方ない。[3C404EFF]\nどうしてもというなら、[3C404EFF]受け取ってやろう。=Is this... candy?... Sigh, fine. If you insist, I'll accept it.
-[3C404EFF]あむっ……！[3C404EFF]\n[3C404EFF]うん、[3C404EFF]なかなかの味だ！=munch... Mmm, it tastes pretty good!
 
-[3C404EFF]アメ一つで、すっかり機嫌を良くするモニカであった。=With just a single piece of candy, Monika was in a good mood.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

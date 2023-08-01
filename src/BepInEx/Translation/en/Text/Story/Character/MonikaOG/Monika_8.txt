@@ -2,7 +2,7 @@
 小学生たち=Grade Schoolers
 
 r:"^アメスの力で、モニカたちは夢を見る。子供たちと仲良くしているモニカを見て、([\s\S]{2,10})はモニカの優しさを感じる。([\s\S]{2,10})は普段のお礼として、モニカに駄菓子をおごるのだった。$"=With the power of Ameth, Monika and $1 have a dream. Seeing Monica getting along with the children, $1 feels Monica's kindness. As a usual gratitude, $1 treats Monica to some sweets.
-r:"^(?:\[3C404EFF\])?モニカと(.{2,10})は\n二人きりで買い出しに向かっていた。$"=Monika and $1 headed out for shopping alone.
+r:"^モニカと(.{2,10})は\n二人きりで買い出しに向かっていた。$"=Monika and $1 headed out for shopping alone.
 いいか、寄り道はなしだ。\n無駄なものを買っている余裕などないからな。=Listen, no detours. We can't afford to buy unnecessary things.
 そう……そんな余裕はない、のだが……\nま、まさか道中に菓子屋があるとは……！=That's right... We don't have time for that, but... I-I didn't think there'd be a confectionery shop along the way...!
 いや！　菓子に目がくらんでいるわけではないぞ！\nしかし、せっかく菓子屋を見つけたのだし、\nちょっとくらいなら……=No! It's not like I'm obsessed with sweets! But since we found a sweets store, a little indulgence wouldn't hurt...
@@ -37,54 +37,53 @@ r:"^(?:\[3C404EFF\])?モニカと(.{2,10})は\n二人きりで買い出しに向
 以前のあんたとモニカの記憶を元に作った『夢』なんだけど、\nお菓子をもらってあんなに喜ぶモニカってやっぱり……\nどう見ても……=It was a "dream" based on your and Monika's previous memories, but Monika's joy when receiving the candy... it's quite evident...
 ま、いいか。\n人生いろいろ、みんなちがってみんないい、ってことで。\nそれじゃあ、また会いましょ♪=Well, whatever. Life is different for everyone, but it's all good. Well then, let's meet again♪
 
-r:"^(?:\[3C404EFF\])?(.{2,10})、起きたか？(?:\[3C404EFF\])?\n私もついさっき目が覚めた。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?どうやら、道で眠ってしまっていたようだな。$"=$1, are you awake?\nI just woke up a little while ago. It seems like I fell asleep on the road.
+r:"^(.{2,10})、起きたか？\n私もついさっき目が覚めた。\nどうやら、道で眠ってしまっていたようだな。$"=$1, are you awake?\nI just woke up a little while ago. It seems like I fell asleep on the road.
 
 前にも、こんなことがあったが……\nもしや駄菓子屋の夢を見たのではないか？=This has happened before... Could it be that we dreamed about the confectionery store again?
 そうか……またしても同じ夢を見ていたようだ。\n今回も、懐かしい感覚を覚えた……貴公もか？\nあの夢はいったい……？=I see... It seems like we had the same dream once again. This time, I felt a nostalgic sensation... Did you feel it too? What on earth is that dream...?
 原因はまだわからないな。\nこれからも調査を続けるしかなさそうだ。=We still don't know the cause. It seems we'll have to continue the investigation.
-r:"^(?:\[3C404EFF\])?しかし、(?:\[3C404EFF\])?何度も同じ夢を見るとは……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?もしかすると私と(.{2,10})の気持ちが(?:\[3C404EFF\])?\nつながってきているのかも……$"=Still, having the same dream over and over again...\nMaybe my feelings for $1 and I are connected...
+r:"^しかし、何度も同じ夢を見るとは……\nもしかすると私と(.{2,10})の気持ちが\nつながってきているのかも……$"=Still, having the same dream over and over again...\nMaybe my feelings for $1 and I are connected...
 って、なにを考えているんだ、私は！？\n口に出さなくてよかった……\nこんなこと、本人には言えん。=Wait, what am I thinking?! I shouldn't have said that... I can't say such things to the person directly.
 ま、まぁ、なんだ……\n夢で言った気持ちは嘘ではないぞ。\n貴公には感謝している……=W-Well... Anyway, the feelings I expressed in the dream were not a lie. I'm grateful to you...
 ひとまず、これからもよろしく頼むぞ。=For now, I'll be relying on you. Please take care of me.
 
 
-[3C404EFF]いいか、[3C404EFF]寄り道はなしだ。[3C404EFF]\n[3C404EFF]無駄なものを買っている余裕などないからな。=Listen, no detours. We can't afford to buy unnecessary things.
-[3C404EFF]そう……そんな余裕はない、[3C404EFF]のだが……[3C404EFF]\n[3C404EFF]ま、[3C404EFF]まさか道中に菓子屋があるとは……！=That's right... We don't have time for that, but... I-I didn't think there'd be a confectionery shop along the way...!
-[3C404EFF]いや！　[3C404EFF]菓子に目がくらんでいるわけではないぞ！[3C404EFF]\n[3C404EFF]しかし、[3C404EFF]せっかく菓子屋を見つけたのだし、[3C404EFF]\nちょっとくらいなら……=No! It's not like I'm obsessed with sweets! But since we found a sweets store, a little indulgence wouldn't hurt...
-[3C404EFF]わっ！　[3C404EFF]ま、まぶしい……！？[3C404EFF]\n[3C404EFF]この光は、[3C404EFF]以前にも……=Wow! It's so dazzling! This light... I've seen it before...
-[3C404EFF]わぁああああ！！=Waaaaahhh!!
-[3C404EFF]ん？　[3C404EFF]誰かと思えば、[3C404EFF]貴公か。[3C404EFF]\n買い物か？=Hm? I was wondering who it was, but it's you.\nAre you out shopping?
-[3C404EFF]私は……ちょっとした野暮用だ。=I... have some errands to run.
-[3C404EFF]隊長～っ！　[3C404EFF]みてみて～！=Captain! Take a look!
-[3C404EFF]おお、[3C404EFF]これはなんという菓子だ？[3C404EFF]\n[3C404EFF]なかなか美味そうだな。=Oh, what kind of candy is this?\nIt looks delicious.
-[3C404EFF]うんっ、[3C404EFF]とっても美味しいよ～=Yeah, it's really tasty!
-[3C404EFF]そうか。[3C404EFF]\nでは私も後で買ってみるとしよう。=I see.\nThen I'll buy some later.
 
-[3C404EFF]そんなわけがあるか！[3C404EFF]\n[3C404EFF]あれは、[3C404EFF]あいつらが勝手に言っているだけだ。=There's no way! They're just saying that on their own. 
-[3C404EFF]あいつらは……[3C404EFF]まぁ、[3C404EFF]友だちのようなものだ。[3C404EFF]\n[3C404EFF]よく遊ぼうと誘われて、[3C404EFF]いつも断りきれなくてな。=They're... well, we're a friends. They often ask me to play with them, and I can't turn them down.
-[3C404EFF]今日も駄菓子屋に行きたいというから、[3C404EFF]\n仕方なく付き合ってやったんだ。=I wanted to go to the candy store again today, so I had no choice but to go along with it.
-[3C404EFF]なんだ？　[3C404EFF]私が優しい……だと？[3C404EFF]\nなんだかんだ言って付き合うから？=What? I'm kind... You say? Even with all the complaints, I'm just going along because our goals align?
-[3C404EFF]そ、そうだとも！[3C404EFF]\n私が優しいから、[3C404EFF]一緒にいるだけだ！[3C404EFF]\n[3C404EFF]遊びたかったとか、[3C404EFF]菓子が食べたかったというわけではないぞ。=Th-That's right! I'm just being nice, so we're together! It's not like I wanted to play or eat sweets.
-[3C404EFF]な！？[3C404EFF]\n突然、[3C404EFF]どうした？=Wha?! What's suddenly gotten into you?
-[3C404EFF]なに？　[3C404EFF]いつも助けられているから……？[3C404EFF]\n[3C404EFF]感謝されるようなことはしていない。[3C404EFF]\n貴公とは、[3C404EFF]ただ目的が一致しているだけだ。=What? I haven't done anything worthy of gratitude. We just have a common purpose.
-[3C404EFF]それでもお礼がしたい、[3C404EFF]と？[3C404EFF]\n[3C404EFF]そうか、[3C404EFF]では駄菓子を買ってもらおう。=But still, You want to appreciate?\nSo, let me return by buy you some snacks.
-[3C404EFF]いいのだな？[3C404EFF]\n[3C404EFF]なら、[3C404EFF]まずは全種類ひとつずつ買ってもらおうか。[3C404EFF]\nどれも、一度は食べてみたかったからな。=Are you sure?\nThen let's start by buying one of each kind. I've always wanted to try them.
-[3C404EFF]ん？　[3C404EFF]どうした、[3C404EFF]そんなに慌てて？[3C404EFF]\n特に、何個までとは言われていないはずだが？=Huh? Why are you in such a hurry? You didn't specify how many I can buy, did You?
-[3C404EFF]なになに～[3C404EFF]\nにいちゃん、[3C404EFF]お菓子買ってくれるの～？=What's this~? Nii-chan, are you going to treat us sweets~?
-[3C404EFF]私も、私も～！=Me too, me too!
-[3C404EFF]涙目になっているが、[3C404EFF]大丈夫か？[3C404EFF]\n[3C404EFF]なに？　[3C404EFF]財布が空になってしまう、[3C404EFF]だと？[3C404EFF]\n[3C404EFF]お礼と言ったのだから、[3C404EFF]覚悟するしかないな。=Are you alright? You seem teary-eyed. What? Your wallet will be empty? Well, since I said it was a token of gratitude, there's no choice but to prepare for it.
-[3C404EFF]……とはいえ、[3C404EFF]お礼をしたいのはこちらも同じだ。=...Nevertheless, I am also want to express my gratitude.
-[3C404EFF]私も、[3C404EFF]貴公にはいつも助けられているからな。[3C404EFF]\nい、一応、[3C404EFF]感謝しているぞ……=I'm grateful to you because you've always helped me. I-I mean, I appreciate it...
-[3C404EFF]How was it? A present from me![3C404EFF]いい『夢』見られた？=How was it? A present from me! Did you have a good "dream"?
-[3C404EFF]以前のあんたとモニカの記憶を元に作った『夢』なんだけど、[3C404EFF]\n[3C404EFF]お菓子をもらってあんなに喜ぶモニカってやっぱり……[3C404EFF]\nどう見ても……=It was a "dream" based on your and Monika's previous memories, but Monika's joy when receiving the candy... it's quite evident...
-[3C404EFF]ま、いいか。[3C404EFF]\n[3C404EFF]人生いろいろ、[3C404EFF]みんなちがってみんないい、ってことで。[3C404EFF]\n[3C404EFF]それじゃあ、[3C404EFF]また会いましょ♪=Well, whatever. Life is different for everyone, but it's all good. Well then, let's meet again♪
 
-[3C404EFF]前にも、[3C404EFF]こんなことがあったが……[3C404EFF]\nもしや駄菓子屋の夢を見たのではないか？=This has happened before... Could it be that we dreamed about the candy store again?
-[3C404EFF]そうか……[3C404EFF]またしても同じ夢を見ていたようだ。[3C404EFF]\n[3C404EFF]今回も、懐かしい感覚を覚えた……[3C404EFF]貴公もか？[3C404EFF]\n[3C404EFF]あの夢はいったい……？=I see... It seems like we had the same dream once again. This time, I felt a nostalgic sensation... Did you feel it too? What on earth is that dream...?
-[3C404EFF]原因はまだわからないな。[3C404EFF]\n[3C404EFF]これからも調査を続けるしかなさそうだ。=We still don't know the cause. It seems we'll have to continue the investigation.
 
-[3C404EFF]って、[3C404EFF]なにを考えているんだ、[3C404EFF]私は！？[3C404EFF]\n[3C404EFF]口に出さなくてよかった……[3C404EFF]\n[3C404EFF]こんなこと、[3C404EFF]本人には言えん。=Wait, what am I thinking?! I shouldn't have said that... I can't say such things to the person directly.
-[3C404EFF]ま、[3C404EFF]まぁ、[3C404EFF]なんだ……[3C404EFF]\n[3C404EFF]夢で言った気持ちは嘘ではないぞ。[3C404EFF]\n貴公には感謝している……=W-Well... Anyway, the feelings I expressed in the dream were not a lie. I'm grateful to you...
-[3C404EFF]ひとまず、[3C404EFF]これからもよろしく頼むぞ。=For now, I'll be relying on you. Please take care of me.
 
-[3C404EFF]なぜ私が遊んでもらう側なんだ！？[3C404EFF]\n普通に考えれば、逆だろ！=Why am I the one accompanied? If you think about it normally, it's the other way around!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

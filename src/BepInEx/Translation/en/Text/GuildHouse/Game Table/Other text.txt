@@ -1,10 +1,5 @@
 ---Other---
-
-み=E
-んなのゲームテーブル=veryone's Game Table
-
-ニゲーム=nigame
-
+みんなのゲームテーブル=Everyone's Game Table
 購入価格=Price
 素材購入=Buy stuff
 エピソード=Episode
@@ -26,9 +21,10 @@ r:"^スコアを累計で(\d+)獲得しよう$"=Get a total score of of $1
 [3C404E]ルピ×[FFBB00,CE4F00]10,000[-]を消費して\n以下のミニゲームを購入しますか？[-]=[3C404E]Spend [FFBB00,CE4F00]10,000[-] Rupies to buy the following minigame?[-]
 
 ---Purchase/unlock popup window---
----(Note from Farleena: I had most already purchased by the time of translating, so i can't get those anymore :( )
+---(Note from Farleena: I had most already purchased by the time of translating, so i can't get those anymore :( )---
 お兄ちゃん争奪！\nどっちのチョコがおいしいでSHOW\nを購入しました。=[3C404E]Purchased [FFBB00,CE4F00]The Battle for Big Bro! - Struggle for Chocolatey Dominance![-]\n[3C404E]Whose chocolate will be more delicious?[-]
 駆けろ常夏！\nアルティメットビーチフラッグス\nを購入しました。=[3C404E]Summer Festival, run!\nPurchased [FFBB00,CE4F00]Dash to Eternal Summer! - Ultimate Beach Flags[-]
+
 
 ---Clan chat post---
 結果をクランチャットに投稿しますか？=Post the results to Clan Chat?

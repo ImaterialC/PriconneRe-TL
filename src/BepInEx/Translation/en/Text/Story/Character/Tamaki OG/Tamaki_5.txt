@@ -1,12 +1,12 @@
 王宮騎士団=Royal Knights
 老人=Old man
 r:"^評判に浮かれ調子に乗ったファントムキャッツは、何者かの罠で善良な人の家に泥棒に入り捕らえられてしまう。ファントムキャッツがタマキだと知った([\s\S]{2,10})は事件の真相を追い始める。$"=The Phantom Cat, who got carried away by their reputation and became overconfident, fell into someone's trap and broke into a good person's house and were caught. $1, who found out that the Phantom Cat were Tamaki, began to pursue the truth of the incident.
-r:"^(?:\[3C404EFF\])?ランドソルの繁華街で、(.{2,10})は、\n妙にご機嫌なタマキの姿を見つけた。$"=In the downtown area of Landosol, $1 saw Tamaki, who was strangely in a good mood.
+r:"^ランドソルの繁華街で、(.{2,10})は、\n妙にご機嫌なタマキの姿を見つけた。$"=In the downtown area of Landosol, $1 saw Tamaki, who was strangely in a good mood.
 にゃん、にゃにゃにゃ～ん♪=Nyan, nyanya nya~n♪
-r:"^(?:\[3C404EFF\])?あ、(.{2,10})！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?こんなところで会うなんて、(?:\[3C404EFF\])?奇遇だにゃ！$"=Ah, $1! What a coincidence to meet you here, nya!
+r:"^あ、(.{2,10})！\nこんなところで会うなんて、奇遇だにゃ！$"=Ah, $1! What a coincidence to meet you here, nya!
 妙に機嫌がいいけど、どうしたの？=You're in a good mood, but what's up?
 ふふん、よく聞いてくれたにゃ！=Fufun, you asked me well, nya!
-r:"^(?:\[3C404EFF\])?(.{2,10})には前に、(?:\[3C404EFF\])?\n美少女義賊・ファントムキャッツについて話したけど、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?覚えてるにゃ？$"=I told you before about the beautiful girl vigilante Phantom Cat, do you remember, nya?
+r:"^(.{2,10})には前に、\n美少女義賊・ファントムキャッツについて話したけど、\n覚えてるにゃ？$"=I told you before about the beautiful girl vigilante Phantom Cat, do you remember, nya?
 うむうむ。ちゃんと覚えているとは感心にゃ。=Umuumu. I'm impressed that you remember well, nya.
 実はにゃ、このランドソルには、\nファントムキャッツへの目安箱のようなものが\n設置されているのにゃ。=Actually, nya, there is something like a suggestion box for the Phantom Cat in this Landosol, nya.
 噂によると、今日、その目安箱に依頼があったらしいのにゃ。=According to rumors, there was a request in that suggestion box today, nya.
@@ -14,7 +14,7 @@ r:"^(?:\[3C404EFF\])?(.{2,10})には前に、(?:\[3C404EFF\])?\n美少女義賊�
 だから今宵も悪人を懲らしめる──じゃなくて、\nファントムキャッツが悪人を懲らしめてくれるのにゃ！=That's why I'm going to punish the bad guys tonight──no,\nThe Phantom Cat will punish the bad guys!
 
 連日のファントムキャッツの活躍……\n胸が躍って仕方がないにゃ！=The Phantom Cat have been working so hard every day...\nI can't help but feel excited!
-r:"^(?:\[3C404EFF\])?つい先日も……(?:\[3C404EFF\])?(.{2,10})が(?:\[3C404EFF\])?\n見張りを引き受けてくれた日のことにゃ。$"=Just the other day...\nThe day when $1 took over the lookout for me, nya.
+r:"^つい先日も……(.{2,10})が\n見張りを引き受けてくれた日のことにゃ。$"=Just the other day...\nThe day when $1 took over the lookout for me, nya.
 あの日もファントムキャッツは悪を懲らしめたにゃ。\n高利貸しのアクドーイ商会、手強い相手だったにゃ……\nだったと聞いたにゃ。=That day too, the Phantom Cat punished the evil ones, nya. The usurer Krook'd & Co., they were a tough opponent, nya... I heard they were, nya.
 ファントムキャッツ、最近出すぎじゃない？=Phantom Cat, aren't he going out too much lately?
 むっ……確かに、ファントムキャッツは連日活動しているにゃ。\nそれが……？=Muu... It's true that the Phantom Cat are active every night, nya. So what...?
@@ -22,12 +22,12 @@ r:"^(?:\[3C404EFF\])?つい先日も……(?:\[3C404EFF\])?(.{2,10})が(?:\[3C40
 心配しなくとも、\nファントムキャッツはそう簡単には負けないにゃ！=Don't worry, the Phantom Cat won't lose so easily, nya!
 目安箱の話だってそうにゃ！\nみんながファントムキャッツに期待しているのにゃ！\nみんなに期待されたら動くのが義賊にゃ！=The suggestion box story is the same thing, nya! Everyone is expecting the Phantom Cat to do something for them, nya! If everyone expects them to do something for them, they have to do it as vigilantes, nya!
 みんなのために頑張る、\nファントムキャッツは何も間違ったことはしてないのにゃ！\n正しいことなら毎日でもするべきなのにゃ！=She did her best for everyone's sake. The Phantom Cat aren't doing anything wrong at all. If it's the right thing to do, She should do it every day!
-r:"^(?:\[3C404EFF\])?(.{2,10})もたまには(?:\[3C404EFF\])?弱きを助け強きを挫くにゃ！$"=$1 should also help the weak and crush the bully sometimes!
+r:"^(.{2,10})もたまには弱きを助け強きを挫くにゃ！$"=$1 should also help the weak and crush the bully sometimes!
 義賊みたいな違法行為がいやなら、そこの掲示板に\n正式な用心棒の依頼なりがたくさん貼ってあるにゃ！=If you don't like illegal acts like vigilantes, there are plenty of official bodyguard requests posted on that bulletin board over there!
 さてと、あたしはこれから少し忙しいから、\nこれで失礼するにゃ。=Well then, I'm a little busy now, so I'll excuse myself.
 じゃあ、またにゃ！=See you later, nya!
 
-r:"^(?:\[3C404EFF\])?タマキの言葉に従い、(.{2,10})は掲示板で\n募集していた依頼を引き受け、依頼人のもとにやってきた。$"=Following Tamaki's words, $1 accepted one of the requests posted on the bulletin board and went to the requester's place.
+r:"^タマキの言葉に従い、(.{2,10})は掲示板で\n募集していた依頼を引き受け、依頼人のもとにやってきた。$"=Following Tamaki's words, $1 accepted one of the requests posted on the bulletin board and went to the requester's place.
 あなたが私の出した\n用心棒の依頼を引き受けてくれた方、ですね。=You're the one who accepted my bodyguard request, right?
 あの、私たちなんかの出した依頼を引き受けていただいて、\nどうもすみません……\n大したお礼もお出しできないのに……=Um... I'm sorry for asking you to accept a request from someone like us... \nWe can't offer much of a reward...
 今晩、お前の家に盗みに入るぞっていう泥棒の\n犯行予告が何者からかありまして……\n今回、用心棒を依頼した次第です。=We received a threat from someone saying they would break into our house tonight... That's why we requested a bodyguard this time.
@@ -43,8 +43,8 @@ r:"^(?:\[3C404EFF\])?タマキの言葉に従い、(.{2,10})は掲示板で\n募
 あ、ちょっと、尻尾を掴まれると力が……\nこ、このままじゃ捕まるにゃ……！=Ah! Wait! When my tail is grabbed. I lose my strength... I-I'll be caught at this rate...!
 だけど、あたしはこんなことじゃ諦めないにゃー！=But I won't give up on this, nya~!
 うぅ……ま、まさかこのあたしが捕まることになるなんて……\nまるであたしの動き方をよく知っているかのような\n用心棒だったにゃ……=Uu... N-no way, I can't believe I got caught... The guard was so careful, as if he knew my every move, nya...
-r:"^(?:\[3C404EFF\])?にゃっ、(?:\[3C404EFF\])?あたしの仮面が……！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?って、(.{2,10})……？$"=Nya, my mask...! Wait, $1...?
-r:"^(?:\[3C404EFF\])?ど、(?:\[3C404EFF\])?どうしてにゃ！？(?:\[3C404EFF\])?\nどうして(.{2,10})が……$"=W-why, nya!? Why is $1 here...
+r:"^にゃっ、あたしの仮面が……！\nって、(.{2,10})……？$"=Nya, my mask...! Wait, $1...?
+r:"^ど、どうしてにゃ！？\nどうして(.{2,10})が……$"=W-why, nya!? Why is $1 here...
 なんじゃ、この騒ぎは……？=What's going on here...?
 あの姿って、今有名な義賊のファントムキャッツ……？=That figure, is it the famous phantom thief Phantom Cat...?
 え？\nじゃあファントムキャッツがあの家に盗みに入ったの？=Eh? Then Phantom Cat broke into that house to steal?
@@ -52,7 +52,7 @@ r:"^(?:\[3C404EFF\])?ど、(?:\[3C404EFF\])?どうしてにゃ！？(?:\[3C404EF
 にゃっ！？\nそれはおかしいにゃ！=Nya!?\nThat's not right, nya!
 ここの家は、あくどいやり方で金を儲けてるうちじゃないにゃ？\nここから盗んでくれって依頼があったのにゃ！=This house is one of those that make money by shady means, nya! I got a request to steal from here, nya!
 依頼では確かに……\nこ、これは何かの間違いにゃ！=The request did say... N-no, this must be a mistake, nya!
-r:"^(?:\[3C404EFF\])?……(.{2,10})にも、(?:\[3C404EFF\])?バレてしまったのにゃ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?そうにゃ。(?:\[3C404EFF\])?ファントムキャッツの正体は、(?:\[3C404EFF\])?あたしだったにゃ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……キミには、(?:\[3C404EFF\])?知られたくなかったにゃ。$"=...$1 found out too, nya. That's right, nya. I was the one behind Phantom Cat, nya. ...I didn't want you to know, nya.
+r:"^……(.{2,10})にも、バレてしまったのにゃ。\nそうにゃ。ファントムキャッツの正体は、あたしだったにゃ。\n……キミには、知られたくなかったにゃ。$"=...$1 found out too, nya. That's right, nya. I was the one behind Phantom Cat, nya. ...I didn't want you to know, nya.
 でも、信じてほしいにゃ！\nあたし、いい人を狙おうだなんて決して思ってなかったにゃ……=But please believe me, nya! I never thought of targeting good people, nya...
 ファントムキャッツを捕まえたそうだな。\nここからは私が連行しよう。\nご苦労だった。=So you caught Phantom Cat. I'll take her from here. Good job.
 え？　あ、ああ、はい。\nよろしくお願いします。=Eh? Ah, yes. Thank you.
@@ -61,53 +61,53 @@ r:"^(?:\[3C404EFF\])?……(.{2,10})にも、(?:\[3C404EFF\])?バレてしまっ
 も、もがっ……にゃー…………=M-mph... Nya...
 ふう。泥棒が無事捕まってよかったわ……\nそういえばあなた、さっき王宮騎士団の方がもみ合っていた時に\nこの白い紙を落としていったのだけど……どうしましょう？=Phew. I'm glad the thief was caught safely... By the way, you dropped this white paper from your royal knight armor when you were scuffling earlier... What should we do?
 なになに……『アクドーイ商会』？\nなんだって、この名刺が王宮騎士団の鎧から……\n用心棒さん……これ、どういうことだと思いますか？=What's this... "Krook'd & Co."? Why is this business card from the royal knight's armor... Guard-san... What do you think this means?
-r:"^(?:\[3C404EFF\])?タマキの身を案じながらも、\n一連の出来事で残った謎を少し調べてみることを\n決意した(.{2,10})だった。$"=While worrying about Tamaki's fate, $1 decided to investigate a little bit the mysteries left by the series of events.
-[3C404EFF]にゃん、[3C404EFF]にゃにゃにゃ～ん♪=Nyan, nyanya nya~n♪
-[3C404EFF]ふふん、[3C404EFF]よく聞いてくれたにゃ！=Fufun, you asked me well, nya!
-[3C404EFF]うむうむ。[3C404EFF]ちゃんと覚えているとは感心にゃ。=Umuumu. I'm impressed that you remember well, nya.
-[3C404EFF]実はにゃ、[3C404EFF]このランドソルには、[3C404EFF]\n[3C404EFF]ファントムキャッツへの目安箱のようなものが[3C404EFF]\n設置されているのにゃ。=Actually, nya, there is something like a suggestion box for the Phantom Cat in this Landosol, nya.
-[3C404EFF]噂によると、[3C404EFF]今日、[3C404EFF]その目安箱に依頼があったらしいのにゃ。=According to rumors, there was a request in that suggestion box today, nya.
-[3C404EFF]「悪と戦うファントムキャッツさま。[3C404EFF]どうか懲らしめていただきたい[3C404EFF]\n悪人がいます。[3C404EFF]ファントムキャッツさまの[3C404EFF]\n正義の鉄槌を下してください」[3C404EFF]とのことにゃ。="Phantom Cat-sama who fight evil. There is a bad person I want you to punish. Please strike down your justice hammer," it said, nya.
-[3C404EFF]だから今宵も悪人を懲らしめる──[3C404EFF]じゃなくて、[3C404EFF]\n[3C404EFF]ファントムキャッツが悪人を懲らしめてくれるのにゃ！=That's why I'm going to punish the bad guys tonight──no,\nThe Phantom Cat will punish the bad guys!
-[3C404EFF]連日のファントムキャッツの活躍……[3C404EFF]\n[3C404EFF]胸が躍って仕方がないにゃ！=The Phantom Cat have been working so hard every day... I can't help but feel excited!
-[3C404EFF]あの日もファントムキャッツは悪を懲らしめたにゃ。[3C404EFF]\n[3C404EFF]高利貸しのアクドーイ商会、[3C404EFF]手強い相手だったにゃ……[3C404EFF]\n[3C404EFF]だったと聞いたにゃ。=That day too, the Phantom Cat punished the evil ones, nya. The usurer Krook'd & Co., they were a tough opponent, nya... I heard they were, nya.
-[3C404EFF]むっ……[3C404EFF]確かに、[3C404EFF]ファントムキャッツは連日活動しているにゃ。[3C404EFF]\n[3C404EFF]それが……？=Muu... It's true that the Phantom Cat are active every night, nya. So what...?
-[3C404EFF]調子に乗ると、[3C404EFF]足元を掬われる、[3C404EFF]っていうのかにゃ……？[3C404EFF]\n[3C404EFF]もっと慎重に行動した方がいい……[3C404EFF]にゃ？="He'll get tripped up if you get carried away", nya...? "He should be more careful"... nya?
-[3C404EFF]心配しなくとも、[3C404EFF]\nファントムキャッツはそう簡単には負けないにゃ！=Don't worry, the Phantom Cat won't lose so easily, nya!
-[3C404EFF]目安箱の話だってそうにゃ！[3C404EFF]\n[3C404EFF]みんながファントムキャッツに期待しているのにゃ！[3C404EFF]\n[3C404EFF]みんなに期待されたら[3C404EFF]動くのが義賊にゃ！=The suggestion box story is the same thing, nya! Everyone is expecting the Phantom Cat to do something for them, nya! If everyone expects them to do something for them, they have to do it as vigilantes, nya!
-[3C404EFF]みんなのために頑張る、[3C404EFF]\nファントムキャッツは何も間違ったことはしてないのにゃ！[3C404EFF]\n[3C404EFF]正しいことなら[3C404EFF]毎日でもするべきなのにゃ！=She did her best for everyone's sake. The Phantom Cat aren't doing anything wrong at all. If it's the right thing to do, She should do it every day!
-[3C404EFF]義賊みたいな違法行為がいやなら、[3C404EFF]そこの掲示板に[3C404EFF]\n正式な用心棒の依頼なりがたくさん貼ってあるにゃ！=If you don't like illegal acts like vigilantes, there are plenty of official bodyguard requests posted on that bulletin board over there!
-[3C404EFF]さてと、[3C404EFF]あたしはこれから少し忙しいから、[3C404EFF]\nこれで失礼するにゃ。=Well then, I'm a little busy now,\nso I'll excuse myself.
-[3C404EFF]じゃあ、[3C404EFF]またにゃ！=See you later, meow!
-[3C404EFF]あなたが私の出した[3C404EFF]\n用心棒の依頼を引き受けてくれた方、[3C404EFF]ですね。=You're the one who accepted my bodyguard request, right?
-[3C404EFF]あの、[3C404EFF]私たちなんかの出した依頼を引き受けていただいて、[3C404EFF]\nどうもすみません……[3C404EFF]\n大したお礼もお出しできないのに……=Um... I'm sorry for asking you to accept a request from someone like us...\nWe can't offer much of a reward...
-[3C404EFF]今晩、[3C404EFF]お前の家に盗みに入るぞっていう[3C404EFF]泥棒の\n犯行予告が[3C404EFF]何者からかありまして……[3C404EFF]\n[3C404EFF]今回、[3C404EFF]用心棒を依頼した次第です。=We received a threat from someone saying they would break into our house tonight...\nThat's why we requested a bodyguard this time.
-[3C404EFF]でも、[3C404EFF]どうして私たちの家に犯行予告なんて……=But why would someone send us a threat...
-[3C404EFF]そうなんです、[3C404EFF]\n私たち一家は、[3C404EFF]恨まれるようなことをした覚えもないし、[3C404EFF]\n大してお金もない、[3C404EFF]貧乏な家なのに……=That's right.\nWe're a poor family that doesn't have much money or any grudges...
-[3C404EFF]……いえ、[3C404EFF]ここで理由を考えても仕方がありませんよね。[3C404EFF]\n[3C404EFF]あの、[3C404EFF]今夜はよろしくお願いいたします。=...No. There's no point in thinking about the reason here. Um... Thank you for your help tonight.
-[3C404EFF]その夜。=That night.
-[3C404EFF]にゃーーーっ！=Nya-ah!
-[3C404EFF]ふっふっふ……[3C404EFF]予告通り、[3C404EFF]\nこの家の者たちに天誅を与えにきたにゃ。[3C404EFF]\n金目の物はいただいてくにゃ！=Fufufu... As promised. I'm here to deliver divine punishment to the people of this house. I'll take anything valuable with me!
-[3C404EFF]用心棒！？[3C404EFF]\nにゃーっ！？　[3C404EFF]つかまってたまるかにゃ！=Bodyguard!?\nNya-ah!? You won't catch me alive!
-[3C404EFF]ふにゃにゃ！[3C404EFF]\nちょっ、[3C404EFF]変なとこ触るにゃ！　[3C404EFF]え、[3C404EFF]エッチ！=Funyanya!\nHey! Don't touch me in weird places! E-ecchi!
-[3C404EFF]あ、[3C404EFF]ちょっと、[3C404EFF]尻尾を掴まれると力が……[3C404EFF]\nこ、[3C404EFF]このままじゃ捕まるにゃ……！=Ah! Wait! When my tail is grabbed.\nI lose my strength... I-I'll be caught at this rate...!
-[3C404EFF]だけど、[3C404EFF]あたしはこんなことじゃ諦めないにゃー！=But I won't give up on this, nya~!
-[3C404EFF]うぅ……[3C404EFF]ま、[3C404EFF]まさかこのあたしが捕まることになるなんて……[3C404EFF]\nまるで[3C404EFF]あたしの動き方をよく知っているかのような[3C404EFF]\n用心棒だったにゃ……=Uu... N-no way, I can't believe I got caught... The guard was so careful, as if he knew my every move, nya...
+r:"^タマキの身を案じながらも、\n一連の出来事で残った謎を少し調べてみることを\n決意した(.{2,10})だった。$"=While worrying about Tamaki's fate, $1 decided to investigate a little bit the mysteries left by the series of events.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 正体を見せてもらうぞ、泥棒。=Let's see who you really are, thief.
-[3C404EFF]なんじゃ、[3C404EFF]この騒ぎは……？=What's going on here...?
-[3C404EFF]あの姿って、[3C404EFF]今有名な義賊のファントムキャッツ……？=That figure, is it the famous phantom thief Phantom Cat...?
-[3C404EFF]え？[3C404EFF]\nじゃあファントムキャッツが[3C404EFF]あの家に盗みに入ったの？=Eh?\nThen Phantom Cat broke into that house to steal?
-[3C404EFF]信じられない……[3C404EFF]あそこの家の人たちは、[3C404EFF]\nとってもいい人なのに……=I can't believe it...\nThe people in that house are so nice...
-[3C404EFF]にゃっ！？[3C404EFF]\nそれはおかしいにゃ！=Nya!?\nThat's not right, nya!
-[3C404EFF]ここの家は、[3C404EFF]あくどいやり方で金を儲けてるうちじゃないにゃ？[3C404EFF]\nここから盗んでくれって依頼があったのにゃ！=This house is one of those that make money by shady means, nya! I got a request to steal from here, nya!
-[3C404EFF]依頼では確かに……[3C404EFF]\n[3C404EFF]こ、[3C404EFF]これは何かの間違いにゃ！=The request did say...\nN-no, this must be a mistake, nya!
+
+
+
+
+
+
+
 タマキ、どうして……？=Tamaki, why...?
-[3C404EFF]でも、[3C404EFF]信じてほしいにゃ！[3C404EFF]\n[3C404EFF]あたし、[3C404EFF]いい人を狙おうだなんて決して思ってなかったにゃ……=But please believe me, nya!\nI never thought of targeting good people, nya...
-[3C404EFF]ファントムキャッツを捕まえたそうだな。[3C404EFF]\nここからは私が連行しよう。[3C404EFF]\nご苦労だった。=I hear you've caught the Phantom Cat. I'll take them in from here. Good work.
-[3C404EFF]え？　[3C404EFF]あ、[3C404EFF]ああ、[3C404EFF]はい。[3C404EFF]\n[3C404EFF]よろしくお願いします。=Eh? Ah, yes. Thank you.
-[3C404EFF]にゃ、[3C404EFF]にゃーーーーーー！=Nya-aaaaaa!
-[3C404EFF]こ、[3C404EFF]こらっ、[3C404EFF]暴れるな！=Hey, stop struggling!
-[3C404EFF]も、[3C404EFF]もがっ……[3C404EFF]にゃー…………=M-mph... Nya...
-[3C404EFF]ふう。[3C404EFF]泥棒が無事捕まってよかったわ……[3C404EFF]\n[3C404EFF]そういえばあなた、[3C404EFF]さっき王宮騎士団の方がもみ合っていた時に[3C404EFF]\nこの白い紙を落としていったのだけど……[3C404EFF]どうしましょう？=Phew. I'm glad the thief was caught safely... By the way, you dropped this white paper from your royal knight armor when you were scuffling earlier... What should we do?
-[3C404EFF]なになに……[3C404EFF]『アクドーイ商会』？[3C404EFF]\nなんだって、[3C404EFF]この名刺が王宮騎士団の鎧から……[3C404EFF]\n[3C404EFF]用心棒さん……[3C404EFF]これ、[3C404EFF]どういうことだと思いますか？=What's this... "Krook'd & Co."? Why is this business card from the royal knight's armor... Guard-san... What do you think this means?
+
+
+
+
+
+
+
+
 その名刺、貸してください。=Please lend me that business card.

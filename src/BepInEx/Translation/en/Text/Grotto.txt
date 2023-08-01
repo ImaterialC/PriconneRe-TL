@@ -1,4 +1,3 @@
-ナクエスト=ana Quest
 マナクエスト=Mana Quests
 経験値クエスト=EXP Quests
 マナを大量獲得=Earn lots of Mana
@@ -18,10 +17,6 @@ EXPポーションを大量獲得=Find lots of EXP Potions
 こちらでは★6才能開花に必要なアイテム、「プリンセスオーブ」を手に入れられます。たくさん集めて、才能開花を目指しましょう。=In this temple, we should be able to find Princess Orbs, a resource required to upgrade characters to ★6. Let us collect as many as we can, and achieve new heights of strength.
 ------
 
-経=E
-験値クエスト=XP Quests
-探=G
-索=rotto
 経験値クエストへ=To EXP Quests
 マナクエストへ=To Mana Quests
 探索TOPへ=To Grotto

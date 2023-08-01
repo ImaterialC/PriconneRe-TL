@@ -1,6 +1,3 @@
-トーリー=tories
-ス=S
-インストーリー=ain Stories
 追加ストーリー情報=Sub Story Information
 [3C404E]未読の[FFBB00,CE4F00]メインストーリー[-]があります。\nストーリーを読んで報酬を獲得しましょう。[-]=[3C404E]Unread [FFBB00,CE4F00]Main Story[-].\nRead the story and earn a reward.[-]
 未読ストーリー=Unread Story
@@ -15,7 +12,7 @@
 追加データをダウンロードします。\nボイスを再生しますか?=Additional data will be downloaded.\nApprove?
 r:"^ボイスあり\n\(([.0-9]+) ([MG])B\)$"=Voice ON\n($1 $2B)
 r:"^ボイスなし\n\(([.0-9]+) ([MG])B\)$"=Voice OFF\n($1 $2B)
-エピローグ=epilogue
+エピローグ=Epilogue
 ログ=Log
 オート=Auto
 オートON=Auto-on
@@ -23,15 +20,12 @@ r:"^ボイスなし\n\(([.0-9]+) ([MG])B\)$"=Voice OFF\n($1 $2B)
 全文表示=Script
 ストーリー全文表示=Full Story Script Display
 このムービーをスキップしてもよろしいですか？=Are you sure you want to skip this movie?
-第=Part
-r:"^(\d+)章$"=🎵1 Chapter $1
 r:"^第?(\d+)章 第(\d+)話が\n解放可能になりました。$"=Ch $1 Ep $2\nStory has been unlocked.
 r:"^第?(\d+)部 第(\d+)章 第(\d+)話が\n解放可能になりました。$"=Part $1 Ch $2 Ep $3\nStory been unlock.
 r:"^第?(\d+)部 第(\d+)章 幕間が\n解放可能になりました。$"=Part $1 Ch $2 Epilogue\nStory been unlock.
 r:"^第(\d+)部 第(\d+)章$"=Part $1 Chapter $2
-r:"^(\d+)部 第(\d+)章$"=🎵 $1 Chapter $2
 r:"^第(\d+)章$"=Chapter $1
-r:"^(\d+)部 第(\d+)章 第(\d+)話$"=Part $1 Chapter $2 Episode $3
+r:"^第(\d+)部 第(\d+)章 第(\d+)話$"=Part $1 Chapter $2 Episode $3
 r:"^幕間・(.{1,5})$"=Interlude $1
 
 r:"^サブストーリー(.{1,4})$"=Substory $1
@@ -56,22 +50,19 @@ r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Stor
 アストライア大陸を\n舞台にした物語を\n見ることができます=View stories set on the Continent of Astraea.
 
 エクストラ=Extra
-クストラストーリー=xtra Story
+エクストラストーリー=Extra Story
 ちょっと特別な\n物語を見ることが\nできます=View stories that are just a wee-bit special.
 
 ギルド=Guild
 女の子たちの日常を\n見ることができます=See snippets of daily life for the girls.
 
 キャラクター=Character
-ャラクターストーリー=Character Story
 絆ランクUPで\n新しい物語が\n追加されます=Increasing Bond Level will add new stories.
 
 現在公開されているストーリーはここまでです。=No further story is currently available
 
 閲覧するストーリーを選択してください。=Select the story to view.
-リーナ=rena
-ルドハウス=uild House
----Bond Rank Story==
+---Bond Rank Story---
 
 ---anni---
 ストーリーへ=Go to Story
@@ -100,7 +91,7 @@ r:"^第(\d+)話$"=Episode $1
 r:"^第(\d+)話ステータスアップボーナス$"=Episode $1 Stats boost Bonus
 ---Chara story---
 
-sr:"^([^ ]+)( |　)第(\d+)話$"=$1 Episode $3
+sr:"^([^ ]+)(?: |　)第(\d+)話$"=$1 Episode $2
 連続で閲覧できるストーリーがあります。=There is next story that can be viewed.
 連続ストーリー閲覧確認=Confirmation of Marathon Story Viewing
 

@@ -2,8 +2,6 @@
 r:"^レンジャー合宿所周辺([0-9\-\(\)\w （）]*)$"=Around Ranger Camp $1
 
 魔物生態報告書=Monster Ecology Report
-魔=M
-物生態報告書=onster Ecology Report
 
 ニャット=Nyat
 主さま=Shou-sama

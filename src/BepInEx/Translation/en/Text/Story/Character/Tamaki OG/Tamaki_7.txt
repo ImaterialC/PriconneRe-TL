@@ -5,17 +5,17 @@ r:"^タマキは「伝説の猫」を探すために探検隊を結成！　([\s
 伝説の猫、発見なるか！？=Will they find the legendary cat!?
 まだ見ぬ秘境に未確認猫、\n「ビッグキャット」の目撃情報を聞いたタマキ探検隊は、\n一路ジャングルの奥地へと飛んだ！=Unseen wilderness, unidentified cats, "Bigcats" sightings... Tamaki's expedition team flew to the depths of the jungle!
 待ち受ける岩！　崖！　そして猫よけビン！\n果たして、一行は無事に帰ってこられるのか！=Rocks! Cliffs! And cat repellent bottles! Will they be able to return safely!
-r:"^(?:\[3C404EFF\])?んー、(.{2,10})、(?:\[3C404EFF\])?なんなのにゃ？(?:\[3C404EFF\])?\n今のナレーションに無限にツッコミたいみたいな顔してるにゃ。$"=Nn~, $1, what's wrong~nya? You look like you want to endlessly retort to that narration~nya.
+r:"^んー、(.{2,10})、なんなのにゃ？\n今のナレーションに無限にツッコミたいみたいな顔してるにゃ。$"=Nn~, $1, what's wrong~nya? You look like you want to endlessly retort to that narration~nya.
 そもそも来てるのはジャングルじゃない。=First of all, this is not a jungle.
 いつの間に探検隊なんて結成されたの？=When did the exploration team get formed?
-r:"^(?:\[3C404EFF\])?むむっ、(?:\[3C404EFF\])?(.{2,10})は、細かいことを気にするにゃあ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?こういうのは、(?:\[3C404EFF\])?楽しんだ人が勝ちなのにゃ。$"=Mumu, $1, you're too nitpicky~nya. This kind of thing, the person who enjoys it wins~nya.
+r:"^むむっ、(.{2,10})は、細かいことを気にするにゃあ。\nこういうのは、楽しんだ人が勝ちなのにゃ。$"=Mumu, $1, you're too nitpicky~nya. This kind of thing, the person who enjoys it wins~nya.
 
 凝り固まった考えは、いけないにゃ。=You shouldn't think too hard about it~nya.
 それより「ビッグキャット」は身長２メートル、\n体重500キロ、二足歩行で歩くと言われているにゃ。\n何があるかわからないからしっかりついてくるにゃ！=Besides, the "Bigcat" is said to be 2 meters tall, 500 kilograms, and walks on two legs~nya. You never know what might happen, so follow me closely~nya!
 みんな、何か不審なものを見つけたら、\nすぐに教える──=Everyone, if you find anything suspicious, let me know right away──
 ってあれは……！=Wait, what's that...!
 大変にゃ、目の前に大岩が転がってくるにゃ！=Oh no~nya, a big rock is rolling towards us~nya!
-r:"^(?:\[3C404EFF\])?きゃー！(?:\[3C404EFF\])?\n(.{2,10})、危ないにゃー！　(?:\[3C404EFF\])?ひしっ！$"=Kyaa! $1, watch out~nya! Hish!
+r:"^きゃー！\n(.{2,10})、危ないにゃー！　ひしっ！$"=Kyaa! $1, watch out~nya! Hish!
 ふう……危ないところだったにゃ。=Phew... that was close~nya.
 今の岩……発泡スチロールじゃ……=That rock... It's styrofoam...
 な、なんのことかにゃ？\nあたし、知らないにゃ。=W-what are you talking about~nya? I don't know anything~nya.
@@ -39,7 +39,7 @@ r:"^(?:\[3C404EFF\])?きゃー！(?:\[3C404EFF\])?\n(.{2,10})、危ないにゃ�
 真剣に上がる気がなさそうって……何を言ってるにゃ！\nこのゴンザレスの必死な目を見るにゃ！=You don't seem to have any intention of climbing up... What are you saying! Look at my desperate eyes!
 ぼく、もう限界……バイバイ、タマキちゃん……にゃって！？\nゴンザレス、諦めたらダメにゃ！="I'm at my limit... \nBye bye, Tamaki..."\nNya!? Gonzalez, don't give up!
 ああーーーっ！\nゴンザレスーーーーーーーー！！=Aaaaah!\nGonzalez!!
-r:"^(?:\[3C404EFF\])?かくして、(?:\[3C404EFF\])?ゴンザレスは崖の下へと消えていった……(?:\[3C404EFF\])?\nタマキ探検隊は涙をこらえて、(?:\[3C404EFF\])?さらに先へと進む！$"=And so, Gonzalez disappeared into the abyss... The $1 exploration team held back their tears and moved on!
+r:"^かくして、ゴンザレスは崖の下へと消えていった……\nタマキ探検隊は涙をこらえて、さらに先へと進む！$"=And so, Gonzalez disappeared into the abyss... The $1 exploration team held back their tears and moved on!
 崖、30センチぐらいしかなかった……=The cliff was only about 30 centimeters...
 ゴンザレス……！\nお前の犠牲は無駄にはしないにゃーー！=Gonzalez...!\nWe won't waste your sacrifice!
 すぐそこで死んだふりしてる……=He's playing dead right there...
@@ -50,63 +50,63 @@ r:"^(?:\[3C404EFF\])?かくして、(?:\[3C404EFF\])?ゴンザレスは崖の下
 猫が集まって布を被っただけだ……=It's just a bunch of cats wearing a cloth...
 …………ふぅ。=........Phew.
 はい、バイト終了にゃ。=Okay, that's it for today.
-r:"^(?:\[3C404EFF\])?探検隊のみんなも、整列して(.{2,10})に(?:\[3C404EFF\])?\n挨拶するにゃ。$"=Everyone in the exploration team, line up and say goodbye to $1.
+r:"^探検隊のみんなも、整列して(.{2,10})に\n挨拶するにゃ。$"=Everyone in the exploration team, line up and say goodbye to $1.
 にゃーん。ということで、\nドッキリだったにゃ。\nびっくりしたかにゃ？=Nyaan. That was a prank. Did you get surprised?
 にゃはは、やっぱりびっくりはさせられなかったかにゃ。\n残念にゃ。=Nyahahaha, I guess I couldn't surprise you after all. Too bad.
 にゃ？\nなんでこんなことをしたかって？=Nya? Why did I do this?
-r:"^(?:\[3C404EFF\])?……(.{2,10})を、(?:\[3C404EFF\])?ここに連れてくるためにゃ。$"=...To bring you here, $1.
+r:"^……(.{2,10})を、ここに連れてくるためにゃ。$"=...To bring you here, $1.
 ……ここ、あたしたちが初めて出会った場所なのにゃ。\n覚えてるかにゃ？=...This is where we first met. Do you remember?
-r:"^(?:\[3C404EFF\])?なんだかんだで、(?:\[3C404EFF\])?ここから色々始まったんだなあって思ったら、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?どうしても(.{2,10})をここに連れてきたくなったのにゃ。$"=I thought about how everything started from here, and I just wanted to bring you here,$1~nya.
+r:"^なんだかんだで、ここから色々始まったんだなあって思ったら、\nどうしても(.{2,10})をここに連れてきたくなったのにゃ。$"=I thought about how everything started from here, and I just wanted to bring you here,$1~nya.
 ……その、普段あんまり素直になることはないから……=...I'm not very good at being honest...
-r:"^(?:\[3C404EFF\])?(.{2,10})……いつもありがとうにゃ。$"=$1... Thank you as always.
+r:"^(.{2,10})……いつもありがとうにゃ。$"=$1... Thank you as always.
 にゃはは、改まっていうのは、やっぱり恥ずかしいにゃ。\n今日のところはもう戻って──=Nyahahaha, it's embarrassing to say it formally.\nLet's go back for today──
 ……あっ！　あそこにビッグキャットが見えたにゃ！\n今から、追いかけにいくにゃ！=...Ah! I saw the Bigcat over there! I'm going to chase it!
 実在したのかって、当然にゃ！\nこんな大切なことを伝えるのに、嘘なんてつかないにゃ！=Of course it exists!\nI wouldn't lie about something so important!
-r:"^(?:\[3C404EFF\])?さあ(.{2,10})！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ビッグキャットを捕まえに行くにゃ！$"=Come on $1!\nLet's catch the Bigcat!
-r:"^(?:\[3C404EFF\])?気まぐれなタマキに、\n今日も(.{2,10})は振り回されるのだった。$"=$1 was swept away by Tamaki's whimsy again today.
+r:"^さあ(.{2,10})！\nビッグキャットを捕まえに行くにゃ！$"=Come on $1!\nLet's catch the Bigcat!
+r:"^気まぐれなタマキに、\n今日も(.{2,10})は振り回されるのだった。$"=$1 was swept away by Tamaki's whimsy again today.
 
-[3C404EFF]伝説の猫、[3C404EFF]発見なるか！？=Will they find the legendary cat!?
-[3C404EFF]まだ見ぬ秘境に未確認猫、[3C404EFF]\n「ビッグキャット」の目撃情報を聞いたタマキ探検隊は、[3C404EFF]\n一路[3C404EFF]ジャングルの奥地へと飛んだ！=Unseen wilderness, unidentified cats, "Bigcats" sightings...\nTamaki's expedition team flew to the depths of the jungle!
-[3C404EFF]待ち受ける岩！　[3C404EFF]崖！　[3C404EFF]そして猫よけビン！[3C404EFF]\n果たして、[3C404EFF]一行は無事に帰ってこられるのか！=Rocks! Cliffs! And cat repellent bottles!\nWill they be able to return safely!
-[3C404EFF]凝り固まった考えは、[3C404EFF]いけないにゃ。=You shouldn't think too hard about it~nya.
-[3C404EFF]それより[3C404EFF]「ビッグキャット」は身長２メートル、[3C404EFF]\n体重500キロ、[3C404EFF]二足歩行で歩くと言われているにゃ。[3C404EFF]\n[3C404EFF]何があるかわからないからしっかりついてくるにゃ！=Besides, the "Bigcat" is said to be 2 meters tall, 500 kilograms, and walks on two legs~nya. You never know what might happen, so follow me closely~nya!
-[3C404EFF]みんな、[3C404EFF]何か不審なものを見つけたら、[3C404EFF]\nすぐに教える──=Everyone, if you find anything suspicious, let me know right away──
-[3C404EFF]ってあれは……！=Wait, what's that...!
-[3C404EFF]大変にゃ、[3C404EFF]目の前に大岩が転がってくるにゃ！=Oh no~nya, a big rock is rolling towards us~nya!
-[3C404EFF]ふう……[3C404EFF]危ないところだったにゃ。=Phew... that was close~nya.
-[3C404EFF]な、[3C404EFF]なんのことかにゃ？[3C404EFF]\n[3C404EFF]あたし、知らないにゃ。=W-what are you talking about~nya?\nI don't know anything~nya.
-[3C404EFF]べ、[3C404EFF]別に猫に指示して転がさせたりなんてしてないにゃ。[3C404EFF]\n[3C404EFF]きっとやらせなんかじゃないにゃ。=I-I didn't tell the cats to roll it or anything like that~nya.\nIt's definitely not a setup~nya.
-[3C404EFF]さ、[3C404EFF]さあ！[3C404EFF]\n早く奥に進むのにゃ！=C-come on!\nLet's go deeper into the jungle~nya!
-[3C404EFF]かくして[3C404EFF]生命の危険と戦いながら、[3C404EFF]\nタマキ探検隊はジャングルの奥地へと進んだ。=And so, fighting for their lives,\nTamaki's expedition team advanced into the depths of the jungle.
-[3C404EFF]探検隊に、[3C404EFF]ナレーションはつきものにゃ！[3C404EFF]\n[3C404EFF]そんなことより、[3C404EFF]先に進むのにゃ！=Narration is essential for an expedition team~nya!\nForget about that and move on~nya!
-[3C404EFF]にゃーーーーっ！[3C404EFF]\nこの足跡を見るにゃーー！=Nyaaaaah!\nLook at these footprints~nya----!
-[3C404EFF]この足跡、[3C404EFF]軽く見ても１メートル以上はあるにゃ！=These footprints are easily over 1 meter in size~nya!
-[3C404EFF]通常の猫ではありえない足跡……[3C404EFF]\n[3C404EFF]これこそ、[3C404EFF]ビッグキャットが存在する確実な証拠にゃ！=Footprints that are impossible for a normal cat... this is the definitive proof that the Bigcat exists~nya!
-[3C404EFF]あ、[3C404EFF]こら、[3C404EFF]何をしてるにゃ！[3C404EFF]\n[3C404EFF]今日までにちゃんと仕事を終わらせておくように言ったにゃ！[3C404EFF]\nそれじゃバイト代のまたたびはあげないにゃ！=Hey, what are you doing~nya! I told you to finish your work by today~nya! If you don't, I won't give you the catnip pay~nya!
-[3C404EFF]にゃ、にゃー！=Nya,~nyaa!
-[3C404EFF]あ、[3C404EFF]こら逃げるにゃ！=Hey, don't run away~nya!
-[3C404EFF]にゃ……にゃっ！？=Nya...~nyaa!?
-[3C404EFF]Nya-ah![3C404EFF]ゴンザレス！=Nya----! Gonzalez!
-[3C404EFF]探検隊切り込み隊長のゴンザレスが、[3C404EFF]\n猫よけビンを恐れるあまり、[3C404EFF]\n[3C404EFF]崖に半分だけ足を踏み外してしまったにゃ！=Gonzalez, the leader of the exploration team, was so scared of the cat repellent bottle that he stepped off the cliff with only half of his foot!
-[3C404EFF]にゃっ！　[3C404EFF]ゴンザレス！　[3C404EFF]このかつおぶしに捕まるにゃ！=Nya! Gonzalez! Grab this dried bonito!
-[3C404EFF]にゃ……=Nya...
-[3C404EFF]真剣に上がる気がなさそうって……[3C404EFF]何を言ってるにゃ！[3C404EFF]\nこのゴンザレスの必死な目を見るにゃ！=You don't seem to have any intention of climbing up... What are you saying! Look at my desperate eyes!
-[3C404EFF]ぼく、[3C404EFF]もう限界……[3C404EFF]バイバイ、[3C404EFF]タマキちゃん……[3C404EFF]にゃって！？[3C404EFF]\n[3C404EFF]ゴンザレス、[3C404EFF]諦めたらダメにゃ！="I'm at my limit... \nBye bye, Tamaki..."\nNya!? Gonzalez, don't give up!
-[3C404EFF]ああーーーっ！[3C404EFF]\n[3C404EFF]ゴンザレスーーーーーーーー！！=Aaaaah! Gonzalez!!
-[3C404EFF]ゴンザレス……！=Gonzalez!
-[3C404EFF]Gonzalez![3C404EFF]\n[3C404EFF]お前の犠牲は[3C404EFF]無駄にはしないにゃーー！=Gonzalez...!\nWe won't waste your sacrifice!
-[3C404EFF]ゴンザレス……[3C404EFF]お前のためにも、[3C404EFF]\n必ずビッグキャットは見つけてみせるにゃ！=Gonzalez... For your sake, we'll find the Bigcat!
-[3C404EFF]そして、[3C404EFF]タマキ探検隊の眼前に、[3C404EFF]ついに[3C404EFF]\n待望の未確認猫生物が現れた！！=And then, in front of the Tamaki exploration team, the long-awaited unidentified cat creature appeared!!
-[3C404EFF]あーーーーっ！　[3C404EFF]前方注目にゃ！[3C404EFF]\n[3C404EFF]いたにゃ！　[3C404EFF]ビッグキャットにゃ！=Ahhh! Attention ahead! There it is! The Bigcat!
-[3C404EFF]にゃおー=Nyao-
-[3C404EFF]はい、[3C404EFF]バイト終了にゃ。=Okay, that's it for today.
-[3C404EFF]にゃーん。[3C404EFF]ということで、[3C404EFF]\nドッキリだったにゃ。[3C404EFF]\n[3C404EFF]びっくりしたかにゃ？=Nyaan. That was a prank.\nDid you get surprised?
-[3C404EFF]にゃはは、[3C404EFF]やっぱりびっくりはさせられなかったかにゃ。[3C404EFF]\n[3C404EFF]残念にゃ。=Nyahahaha, I guess I couldn't surprise you after all.\nToo bad.
-[3C404EFF]にゃ？[3C404EFF]\nなんでこんなことをしたかって？=Nya? Why did I do this?
-[3C404EFF]……ここ、[3C404EFF]あたしたちが初めて出会った場所なのにゃ。[3C404EFF]\n[3C404EFF]覚えてるかにゃ？=...This is where we first met. Do you remember?
-[3C404EFF]……その、[3C404EFF]普段あんまり素直になることはないから……=...Um,I'm not very good at being honest...
-[3C404EFF]にゃはは、[3C404EFF]改まっていうのは、[3C404EFF]やっぱり恥ずかしいにゃ。[3C404EFF]\n[3C404EFF]今日のところはもう戻って──=Nyahahaha, it's embarrassing to say it formally.\nLet's go back for today──
-[3C404EFF]……あっ！　[3C404EFF]あそこにビッグキャットが見えたにゃ！[3C404EFF]\n[3C404EFF]今から、追いかけにいくにゃ！=...Ah! I saw the Bigcat over there! I'm going to chase it!
-[3C404EFF]実在したのかって、[3C404EFF]当然にゃ！[3C404EFF]\n[3C404EFF]こんな大切なことを伝えるのに、[3C404EFF]嘘なんてつかないにゃ！=Of course it exists!\nI wouldn't lie about something so important!
-[3C404EFF]それはもちろん、[3C404EFF]今日にゃ！=That's today, of course!
-r:"^(?:\[3C404EFF\])?そもそも(.{2,10})は、(?:\[3C404EFF\])?\n探検隊に勧誘するために声をかけたのにゃ！$"=In the first place, $1 was called upon to be invited to join the expedition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r:"^そもそも(.{2,10})は、\n探検隊に勧誘するために声をかけたのにゃ！$"=In the first place, $1 was called upon to be invited to join the expedition.

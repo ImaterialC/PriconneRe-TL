@@ -159,7 +159,7 @@ r:"^(?:\[3C404EFF\])?(.{2,10})は、(?:\[3C404EFF\])?\nアオイたちの後を�
 
 にへへ……\nこのキノコのおかげで、人気者に……♪=Hehe... Thanks to these mushrooms, I've become popular...♪
 うひゃひゃひゃ……\nできる大人のお姉さんになっちゃった……♪=Uhyahyahyah...  I've become a capable adult sister...♪
-ふっふっふっ……\nさあみんな、私についてこい。今日も楽しく働こう♪=fufufufu... Come on, everyone, follow me. Let's work happily today too♪
+ふっふっふっ……\nさあみんな、私についてこい。今日も楽しく働こう♪=Fufufufu... Come on, everyone, follow me. Let's work happily today too♪
 ……あれ？　なんともない……？=...Huh? Not affected...?
 
 r:"^(?:\[3C404EFF\])?なぜかキノコ料理を食べても平気だった(.{2,10})の前に、(?:\[3C404EFF\])?\nキャンプ場に隣接する森の奥から、怪しげな音が近づいてくるのだった。$"=For some reason, strange sounds approached $2 from deep within the forest adjacent to the campsite, despite eating mushroom dishes without any issues.
@@ -205,164 +205,163 @@ r:"^(?:\[3C404EFF\])?なぜかキノコ料理を食べても平気だった(.{2,
 アオイは、キノコの毒が見せる幻覚に囚われてしまう。\nそして、その中で出会った理想の自分の幻影を、\n自分自身だと勘違いし始めるのだった──=Aoi was trapped in hallucinations caused by the poisonous mushrooms. And within that, he began to mistake the illusion of his ideal self as his real self.
 
 
-[3C404EFF]ユカリとジュンにぼっちキャンプの過ごし方を教えたアオイは、[3C404EFF]\n二人の様子をたき火に当たりながら見守っていた──=Aoi, who had taught Yukari and Jun how to spend their time camping alone, watched the two of them from the bonfire
-
-[3C404EFF]うんうん……[3C404EFF]二人とも、[3C404EFF]集中していますね。=Hmm... both of them seem focused.
-[3C404EFF]私はコーヒーでも飲みながら、[3C404EFF]木で何か作ろうかな〜=I think I'll make something out of wood while enjoying a cup of coffee.
-[3C404EFF]そうだ！[3C404EFF]\nマイフレンドくんをモチーフにした[3C404EFF]カッコいい武器とかどうかな！=I know! How about a cool weapon inspired by My Friend-kun!
-[3C404EFF]ランドソルに帰ったら、[3C404EFF]おもちゃ工場のみなさんに見せてみようかな〜[3C404EFF]\n[3C404EFF]よーし、[3C404EFF]がんばるぞー！=When we return to Landosol, I'll show it to the folks at the toy factory. Yeah, I'll do my best!
-[3C404EFF]自分と向き合う、[3C404EFF]か……=Facing oneself, huh...
-[3C404EFF]麦しゅわを飲み過ぎた翌日は、[3C404EFF]昨日の自分を恨むことはあるけど……[3C404EFF]\n[3C404EFF]自分がどんな人間かって、[3C404EFF]しっかり考えたことはなかったわね。=After drinking too much Barley Soda, I sometimes regret my actions from the previous day... But I've never really thought about what kind of person I am.
-[3C404EFF]本当の私か～……=The real me, huh...
-[3C404EFF]そういえば、[3C404EFF]アオイちゃんにいいところ見せようと、[3C404EFF]\nつい無意識でお姉さんぶった態度を取っちゃったわ……=Come to think of it, I unintentionally acted like an older sister to impress Aoi-chan...
-[3C404EFF]キャンプ道具を買う時も失敗したなあ～……=I made mistakes when buying camping gear too...
-[3C404EFF]ブームに乗っかりました感のある客だって思われたくなくて、[3C404EFF]\n店員さんに通ぶった態度を取っちゃったのよね……=I didn't want to be seen as someone who just jumps on the bandwagon, so I acted all high and mighty with the store clerks...
-[3C404EFF]だから、[3C404EFF]テントの張り方も[3C404EFF]火の起こし方も、[3C404EFF]なんにも知らなくて……=That's why I didn't know how to set up a tent or start a fire...
-[3C404EFF]麦しゅわのことで頭がいっぱいだったわ……[3C404EFF]\n[3C404EFF]最高の一杯のためには、[3C404EFF]まずキャンプするのが大前提なのにね……=MI was so preoccupied with Barley Soda... Even though camping is a prerequisite for the ultimate drink...
-[3C404EFF]麦しゅわも飲める歳なんだし、[3C404EFF]精神的にも大人にならないと……=I'm old enough to drink Barley Soda, so I need to mature mentally as well...
-[3C404EFF]見栄っ張りなただの酔っ払い……[3C404EFF]\n[3C404EFF]それが私なのよね……=I'm just a vain drunkard... That's who I am...
-[3C404EFF]いかんな……[3C404EFF]\nいざ自分自身と対話しようとすると、[3C404EFF]なにも言葉が出てこない……=Oh no... When I try to have a dialogue with myself, no words come out...
-[3C404EFF]まるで[3C404EFF]スペア用の鎧と向き合っているようだ……=It feels like I'm facing my spare armor...
-[3C404EFF]まさか……[3C404EFF]\nトモちゃんたちには、[3C404EFF]私はこういうふうに見えていたのか？　=Could it be... is this how Tomo-chan and the others see me?
-[3C404EFF]だから、[3C404EFF]休みを取らせて、[3C404EFF]\n人間らしさを取り戻させようと……？　=So they gave me time off to help me regain my humanity...?
-[3C404EFF]……部下にそこまで心配させてしまうなんて、[3C404EFF]\n私はなんて上司なんだ……=I must be such a terrible boss to make my subordinates worry to that extent...
-[3C404EFF]しかし……[3C404EFF]それが私ということなんだな……=But... that's who I am...
-[3C404EFF]よーし、[3C404EFF]いい感じの木製ボウガンが作れました！=Alright, I made a nice wooden crossbow!
-[3C404EFF]マイフレンドくんのキーホルダーもつけてみましたし、[3C404EFF]\nきっと[3C404EFF]子どもからの人気も出そうですね！=I even added a keychain of My Friend-kun. It's sure to be popular with kids!
-[3C404EFF]工場でおもちゃを作るのもいいけど、[3C404EFF]\n[3C404EFF]やっぱり私は[3C404EFF]自然の中で手作りするのも好きだな〜=Making toys at the factory is great, but I still love crafting in nature...
-[3C404EFF]ごくっごくっ……[3C404EFF]うん！[3C404EFF]\n一仕事した後に[3C404EFF]青空の下で飲むコーヒーも格別ですね！[3C404EFF]\nぼっち空間は、[3C404EFF]鬱蒼とした森ですから、[3C404EFF]気持ち良さが段違いです！=*gulp, gulp*... Yes! Drinking coffee under the blue sky after a job well done is extraordinary! The solitude of the campsite, surrounded by dense forest, brings an unparalleled sense of peace!
-[3C404EFF]このお天気のように、[3C404EFF]\nぼっち精神を取り戻した今、[3C404EFF]私の心も晴々としています！=Just like this weather, now that I've regained my solo spirit, my heart is clear and bright!
-[3C404EFF]でも、[3C404EFF]私のぼっち空間の隣に、[3C404EFF]こんな場所があったなんて驚いたなぁ……=But I never expected there to be a place like this next to my solo space... I'm surprised...
-[3C404EFF]キャンプかぁ……[3C404EFF]\nランドソルの人たちも、[3C404EFF]みんなつらいことを抱えているんですね……=Camping, huh... Seems like everyone in Landsor is carrying their own burdens...
-[3C404EFF]ユカリさんたちも、[3C404EFF]目的があって来たって言ってましたし……=Yukari-san and the others mentioned they came here with a purpose...
-[3C404EFF]私のキャンプ術が役に立つといいけど、[3C404EFF]\nお二人の様子はどうかな？　[3C404EFF]どれどれ……？=I hope my camping techniques will be helpful, but I wonder how the two of you are doing. Let me see...?
-[3C404EFF]はあ…………=*sigh*...
-[3C404EFF]ええっ！？[3C404EFF]\nどどどど、[3C404EFF]どうして落ち込んでいるんですか！？=Huh!? Wh-Why are you feeling down!?
-[3C404EFF]いや……[3C404EFF]\n私が部下にかけている苦労に気付いてしまってな……=Well... I realized the hardships I put my subordinates through...
-[3C404EFF]私……[3C404EFF]いい大人なのに……[3C404EFF]\n[3C404EFF]見栄っ張りなだけで、[3C404EFF]ダメダメなことに気付いちゃって……=I... I'm supposed to be an adult... but I'm just a vain person, and I've noticed how useless I am...
-[3C404EFF]あわわわわわ……！=Awawawa...!
-[3C404EFF]せっかく誘ってくれたのに、[3C404EFF]\nお二人を落ち込ませてしまいました……=I ended up making you two feel down even though you invited me...
-[3C404EFF]キャンプは……[3C404EFF]ううん。[3C404EFF]\n[3C404EFF]山籠りは、[3C404EFF]やっぱり一人でしなきゃいけなかったんだ……=Camping... no. I mean, I should have done this alone...
-[3C404EFF]また一人で突っ走っちゃって、[3C404EFF]失敗してしまいました……=Once again, I rushed ahead by myself and failed...
-[3C404EFF]いつもいつも、[3C404EFF]こんなことを繰り返してばかり……[3C404EFF]\n[3C404EFF]女学院でも工場でも……[3C404EFF]団長さんに対しても……=I keep repeating the same mistakes... at the academy, at the factory... even with Captain...
-
-[3C404EFF]なんとかして、[3C404EFF]この重い空気を変えてみせます……！=I'll find a way to change this heavy atmosphere...!
-[3C404EFF]独りよがりなぼっちの私とは、[3C404EFF]バイバイしてみせるって、[3C404EFF]\n[3C404EFF]誓ったばかりですから……！=I vowed to say goodbye to the self-centered loner me...!
-[3C404EFF]あ、[3C404EFF]あの～……[3C404EFF]ジュンさん、[3C404EFF]ユカリさん。[3C404EFF]\n[3C404EFF]そろそろお昼ですし、[3C404EFF]ご飯にしませんか？=Uh, um... Jun-san, Yukari-san. It's about lunchtime. How about having a meal?
-[3C404EFF]私が腕によりをかけて作りますよ？[3C404EFF]\n山での料理歴は長いですから、[3C404EFF]\n食べたいものがあれば[3C404EFF]どんなものでも対応可能です！=I'll put my skills to use and cook for you. I have a long history of cooking in the mountains, so I can prepare anything you want!
-[3C404EFF]That's right ...[3C404EFF]\n気分を変えたいし、[3C404EFF]食事にしようか……=Yeah... I want to change the mood, so let's have a meal...
-[3C404EFF]ええ、[3C404EFF]そうしましょう……=Yes, let's do that...
-[3C404EFF]そういえば……[3C404EFF]\n昨日、[3C404EFF]森の中で見つけたこのキノコ……[3C404EFF]食べられる物なのかしら？=By the way... Is this mushroom we found in the forest yesterday edible?
-[3C404EFF]アオイちゃんと会う前、[3C404EFF]森で食材を探していたんだ。[3C404EFF]\nだが、[3C404EFF]見つかったのは[3C404EFF]このキノコだけで……=Before meeting Aoi-chan, I was searching for ingredients in the forest. But I only found this mushroom...
-[3C404EFF]でも、[3C404EFF]森に生えてるキノコ[3C404EFF]って……[3C404EFF]\n[3C404EFF]なんか、[3C404EFF]ねえ……？=But mushrooms that grow in the forest... It feels a bit...
-[3C404EFF]こ、[3C404EFF]これはっ……！？=Th-This is...!?
-[3C404EFF]そうよね。[3C404EFF]やっぱり毒キノコよね……=I see. It's probably a poisonous mushroom...
-[3C404EFF]毒キノコだなんてとんでもありません！[3C404EFF]\n[3C404EFF]これは最高級キノコ……[3C404EFF]アストライア茸ですよ！=No, it's not a poisonous mushroom at all! This is a premium mushroom... Astraea mushroom!
-[3C404EFF]私たち【フォレスティエ】でもめったに見ることのできない品種です。[3C404EFF]\n[3C404EFF]焼いてよし、[3C404EFF]煮てよし、[3C404EFF]蒸してよし！　[3C404EFF]とってもおいしいそうですよ！=It's a variety that we rarely see even in our Forrestier guild. It's great grilled, boiled, or steamed! It's very delicious!
-[3C404EFF]そ、[3C404EFF]そうなの！？[3C404EFF]\n[3C404EFF]じゃあ、[3C404EFF]おつまみにぴったりじゃない！=I-Is that so!? Then it's perfect as a snack!
-[3C404EFF]おつまみ？=Snacks?
-[3C404EFF]えっと……[3C404EFF]ちょっと大人な食べ物のことかな……？[3C404EFF]\n[3C404EFF]き、[3C404EFF]気にしないでちょうたい。=Uh... It's a term for slightly more adult food... D-Don't worry about it.
-[3C404EFF]わ、[3C404EFF]分かりました……[3C404EFF]\n[3C404EFF]それにしても、[3C404EFF]こんなすごいキノコが、[3C404EFF]\nぼっち空間に生えていただなんて……！=I-I understand... But still, it's amazing to find such a fantastic mushroom in my loner space...!
-[3C404EFF]お二人を落ち込ませてしまったお詫びに、[3C404EFF]\n最高のキノコ料理を振る舞いますね！　[3C404EFF]腕によりをかけますよ！=As an apology for making you two feel down, I'll treat you to the best mushroom dish! I'll put my skills to work!
-[3C404EFF]おお、[3C404EFF]それは楽しみだ。[3C404EFF]\n良ければ私たちも手伝わせてくれないか？=Oh, that sounds exciting. If it's alright with you, could we help too?
-[3C404EFF]３人でこうしてキャンプをしているんだ。[3C404EFF]\n力を合わせようじゃないか。=The three of us are camping like this. Let's work together.
-[3C404EFF]ええ。[3C404EFF]私にも手伝わせて！[3C404EFF]\n[3C404EFF]料理はあんまり得意じゃないけど、[3C404EFF]最高の一杯のために頑張るわ！=Yes. Let me help too! I'm not very good at cooking, but I'll do my best for the best cup!
-[3C404EFF]はい！　[3C404EFF]ぜひお願いします！[3C404EFF]\n[3C404EFF]ぼっちじゃないキャンプは初めてですが、[3C404EFF]私も精一杯やってみます！=Sure! Please, go ahead! This is my first time camping with others, not as a loner, but I'll do my best!
-[3C404EFF]ジュンさん、[3C404EFF]もう少し火を強めてください。[3C404EFF]\n薪をじゃんじゃん追加しちゃいましょう！=Jun-san, please increase the fire a bit more. Let's keep adding firewood!
-[3C404EFF]分かった。[3C404EFF]薪ならたくさんあるよ。[3C404EFF]\nユカリちゃんと昨日準備をしておいたからね。=Understood. We have plenty of firewood. Yukari-chan and I prepared it yesterday.
-[3C404EFF]さすが、[3C404EFF]【王宮騎士団（NIGHTMARE）】の団長さん！[3C404EFF]\n野営に慣れているだけあって用意周到ですね！=That's the leader of the Knights of the Royal Palace for you! You're so well prepared, as you're used to camping!
-[3C404EFF]さ、[3C404EFF]あとは食材に火が通るのを待つだけです。[3C404EFF]\n[3C404EFF]完成までしばらく休んでいましょう～！=All that's left is to wait for the ingredients to cook. Let's rest for a while until it's done!
-[3C404EFF]ふふっ。[3C404EFF]さすがミフユさんの下で働いていたことはあるわ。[3C404EFF]\n[3C404EFF]効率を重視する手際の良さがそっくりよ。=Heehee. I'd expect no less from someone who worked for Mifuyu. She's the spitting image of someone who prioritizes efficiency.
-[3C404EFF]そ、[3C404EFF]そんなっ！[3C404EFF]\n[3C404EFF]リーダーさんと私なんか[3C404EFF]比べ物にはなりませんよっ！=N-Not at all! I can't compare myself to the leader!
-[3C404EFF]でも、[3C404EFF]少しでもそう言ってもらえると、[3C404EFF]ちょっとうれしいです……！[3C404EFF]\n恐れ多さのほうが圧倒的に勝ってはいますが！=But it makes me a little happy when you say that...! Although I'm overwhelmingly lacking in many aspects!
-
-[3C404EFF]二人には共通の知人がいるのだな。[3C404EFF]\nこれも巡り合わせの縁だね。=So, you have a mutual acquaintance. It's a small world, isn't it?
-
-
-[3C404EFF]こうして私たちが集まるとは思っていなかったが、[3C404EFF]\n彼ともキャンプをしてみたかったな。=I didn't expect us to gather like this, but I wanted to go camping with him too.
-[3C404EFF]おおっ！　[3C404EFF]それはとっても面白そうですね！=Oh, that sounds really fun!
-[3C404EFF]ええ。[3C404EFF]きっと楽しいに違いないわ。=Yes, it's bound to be enjoyable.
-[3C404EFF]それに、[3C404EFF]穏やかな時間になるだろうね。=And it will be a peaceful time.
-[3C404EFF]少年といると[3C404EFF]張り詰めた気持ちが少し和らぐというか……[3C404EFF]\n不思議な感覚になるんだ。=Being with the boy somehow eases the tension... or rather, it's a strange feeling.
-[3C404EFF]ここで一緒に過ごせたら、[3C404EFF]\nトモちゃんたちが私に課した休暇も[3C404EFF]難なくできたかもしれないな。=If we could spend time together here, I might have easily fulfilled the vacation imposed on me by Tomo-chan and the others.
-[3C404EFF]そうなのよね。[3C404EFF]彼の前なら、[3C404EFF]自分をさらけ出せるっていうか……[3C404EFF]\n[3C404EFF]あっ、[3C404EFF]変な意味じゃないわよ？=That's true. In front of him, I can expose my true self... Ah, not in a weird way!
-[3C404EFF]なんというか、[3C404EFF]肩肘張らなくていいのよね。[3C404EFF]\n[3C404EFF]私……[3C404EFF]その、[3C404EFF]ついつい見栄を張っちゃうところがあるから……=I mean, I don't have to be on guard. I... Well, I tend to show off a bit...
-[3C404EFF]ふふっ、[3C404EFF]照れ臭い話をしちゃったわ。[3C404EFF]\n[3C404EFF]さっきまでは、[3C404EFF]こんなことバラすつもりなかったのだけど……=Hehe, I ended up saying something embarrassing. I didn't intend to reveal this earlier, but...
-[3C404EFF]この気持ちの良いロケーションがそうさせるのかしら？[3C404EFF]\n[3C404EFF]なんだか……[3C404EFF]心が開放的になるのよね。=Maybe it's because of this pleasant location? Somehow... my heart feels liberated.
-[3C404EFF]Yeah.[3C404EFF]そうかもしれないな。[3C404EFF]\n普段は仕事柄、[3C404EFF]弱みを見せてはいけないが、[3C404EFF]\n今この時だけは、[3C404EFF]気を緩められそうだ。=Ah, I see. That might be true. Usually, because of my job, I can't show weakness, but at this moment, I can relax.
-[3C404EFF]これが、[3C404EFF]キャンプ……[3C404EFF]なんでしょうか？[3C404EFF]\n[3C404EFF]いつもの山籠りでは[3C404EFF]こんな気持ちになったことはありませんでした。=So, this is camping... What it feels like, I wonder? I've never felt like this during my usual seclusion in the mountains.
-[3C404EFF]なにせ、[3C404EFF]私が山籠りをするのは、[3C404EFF]ぼっち精神を癒すためですから。[3C404EFF]\n[3C404EFF]こうしてみなさんとキャンプできるなんて、[3C404EFF]思ってもいませんでした。=After all, I go to the mountains to heal my loner spirit. I never imagined that I would be able to camp with everyone like this.
-[3C404EFF]そういえば、[3C404EFF]昨日お二人も目的があるって言っていましたよね？[3C404EFF]\n[3C404EFF]ちゃんと聞いてなかったような気がしていて……=By the way, both of you mentioned having a purpose yesterday, right? I feel like I didn't listen properly...
-[3C404EFF]昨日も少し話したかもしれないが、[3C404EFF]私は部下に休みを取らされてね。[3C404EFF]\n休みなど不要だったのだが、[3C404EFF]心配する部下の気持ちも無視できず……=We may have talked about it a little yesterday, but my subordinates insisted that I take a break. I didn't need a break, but I couldn't ignore their concern...
-[3C404EFF]だから、[3C404EFF]このキャンプでしっかりとリラックスして、[3C404EFF]\n帰らなければならないんだ。=So, I came here to relax properly and then return.
-[3C404EFF]団長である私の状態が、[3C404EFF]騎士団全体の士気に関わるからね。[3C404EFF]\nランドソルをいかなる脅威から守るためにも、[3C404EFF]\n私が支えていかなければならないんだ。=As the captain of the Nightmare of the Royal Palace, I can't imagine the weight of that responsibility...
-[3C404EFF]【王宮騎士団（NIGHTMARE）】の団長さんですもんね……[3C404EFF]\n[3C404EFF]私にはその責任の重さは想像もできません……=You're the leader of the Nightmare of the Royal Palace, after all... I can't imagine the weight of that responsibility...
-[3C404EFF]でも、[3C404EFF]ジュンさんならきっと大丈夫だと思います！[3C404EFF]\nリラックスして帰れるように、[3C404EFF]私も精一杯お手伝いしますね！=But, Jun-san, I believe you'll be fine! I'll do my best to help you relax and return home safely!
-[3C404EFF]ふふ、[3C404EFF]心強いね。[3C404EFF]頼りにさせてもらうよ。=Heh, it's reassuring to have you by my side. I'll rely on you.
-[3C404EFF]ユカリちゃんがキャンプにきた目的は確か……=If I remember correctly, Yukari-chan came to camp for...
-[3C404EFF]えーっと、[3C404EFF]ジュンさんには話したけど、[3C404EFF]\nアオイちゃんには……=Um, I told Jun-san, but not Aoi-chan...
-[3C404EFF]は、[3C404EFF]話せないようなことなんですか……？[3C404EFF]\n[3C404EFF]す、[3C404EFF]すみません、[3C404EFF]踏み入ったことを聞いてしまって……=I-is it something you can't talk about...? I'm sorry, I feel like I've asked something intrusive...
-[3C404EFF]ううん、[3C404EFF]違うのよ。[3C404EFF]\n[3C404EFF]ただ、[3C404EFF]ジュンさんみたいな立派な目的じゃないの……=No, it's not like that. It's just that it's not as important as Jun-san's purpose...
-[3C404EFF]私は、[3C404EFF]麦しゅわが好きなんだけど、[3C404EFF]\n飲み仲間からキャンプ飲みを勧められてね……=I like Barley Soda, but my drinking buddies offered me a camp drink...
-[3C404EFF]今までアウトドアなんてしたことなかったんだけど、[3C404EFF]\n[3C404EFF]最高の一杯というのが興味深くて……=I've never done anything like outdoor activities before, but the idea of having the perfect drink intrigued me...
-[3C404EFF]本当はそんな理由で来てたの……[3C404EFF]\n[3C404EFF]ミフユさんたちの知り合いってこともあって、[3C404EFF]\n[3C404EFF]アオイちゃんの前では[3C404EFF]お姉さんぶってたけど……=That's why I came for that reason... And also because I know Mifuyu-san and the others, I tried to act like a big sister in front of Aoi-chan, but...
-[3C404EFF]げ、[3C404EFF]幻滅しちゃったかしら……？=D-did I disappoint you...?
-[3C404EFF]いえ、[3C404EFF]そんなことはありませんよ……！[3C404EFF]\n[3C404EFF]好きなことをして過ごすのって[3C404EFF]とっても大事ですから……！=No, not at all...! It's important to do things you love...!
-[3C404EFF]そ、[3C404EFF]そう……？[3C404EFF]\n[3C404EFF]そう言ってもらえて、[3C404EFF]すごく安心したわ……！=I-I see...? I'm really relieved to hear you say that...!
-[3C404EFF]でも、[3C404EFF]本当は[3C404EFF]ちゃんとした大人にもならないといけない[3C404EFF]って思ってるの。=But deep down, I think I need to become a proper adult.
-
-
-[3C404EFF]羽目を外さず、[3C404EFF]嗜む程度に抑えられるといいんだけど……[3C404EFF]\n[3C404EFF]麦しゅわを飲みに来ておいて、[3C404EFF]変な話よね。=I hope I can enjoy it responsibly without going overboard... It's strange to come for Barley Soda and talk like this.
-[3C404EFF]ユカリちゃんも、[3C404EFF]なりたい自分があったんだね。=Yukari-chan, you also have an ideal version of yourself, right?
-[3C404EFF]アオイちゃんも、[3C404EFF]そういう理想の姿はあるのかい？[3C404EFF]\n[3C404EFF]前途ある君のような若者の話も聞いてみたいな。=Aoi-chan, do you have a similar ideal? I'd like to hear more about the aspirations of a young person like you.
-[3C404EFF]私は……[3C404EFF]いつか[3C404EFF]100人の友達を作りたいと思っているんです。[3C404EFF]\nあの人と結成したＢＢ団でかなえられるように、[3C404EFF]日々がんばっています！=I... I... I want to make a hundred friends someday. I'm working hard every day to make sure I can make it through the BB Brigade I formed with him!
-[3C404EFF]だけど、[3C404EFF]いつもいつも空回りして失敗続きで……[3C404EFF]\n[3C404EFF]それで山籠りして、[3C404EFF]大反省会をしていたんです……=But I always end up failing and going in circles... That's why I retreat to the mountains and have serious reflection sessions...
-[3C404EFF]この夢を抱き続けて早十数年……[3C404EFF]\nそろそろ[3C404EFF]友達が100人いる自分になってみたいですね。=It's been over a decade since I've had this dream... I want to become someone who has 100 friends.
-[3C404EFF]きっと人生も充実しちゃうんだろうな～[3C404EFF]\n[3C404EFF]早くなりたいな～=I'm sure my life would be fulfilling... I want to become that person soon.
-[3C404EFF]きっとアオイちゃんなら叶うさ。[3C404EFF]\n私はそう思っているよ。=I believe you can make it, Aoi-chan. That's what I think.
-[3C404EFF]そ、[3C404EFF]そうですか？[3C404EFF]\n[3C404EFF]期待に応えられるように、[3C404EFF]がんばりますねっ！=R-really? I'll do my best to live up to your expectations!
-[3C404EFF]……[3C404EFF]くんくん。=...Sniff, sniff.
-[3C404EFF]ねえ、[3C404EFF]アオイちゃん……[3C404EFF]\nなんだかいい匂いがしてきたわよ？=Hey, Aoi-chan... I smell something delicious.
-[3C404EFF]そろそろ料理できたんじゃないかしら？[3C404EFF]\n[3C404EFF]私、[3C404EFF]お腹も空いたし、[3C404EFF]喉も渇いてきちゃった……！=Could the food be ready soon? I'm getting hungry and thirsty...
-[3C404EFF]そうですね！　[3C404EFF]もう十分煮えたかと思います！[3C404EFF]\nさあ、[3C404EFF]みんなでいただきましょう！=That's right! I think it's boiled enough! Come on, let's all eat together!
-[3C404EFF]わあ～、[3C404EFF]私が山で誰かと食事する時が来るなんて～！[3C404EFF]\n楽しみだな、[3C404EFF]楽しみだな～！=Wow~ The day has come when I have a meal with someone in the mountains! I'm so excited!
-[3C404EFF]そうだね。[3C404EFF]\nキャンプが得意なアオイちゃんが作ったんだ。[3C404EFF]\nきっとおいしいに違いないよ。=That's right. Aoi-chan, who is good at camping, made it. I'm sure it will be delicious without a doubt.
-[3C404EFF]そうよ！　[3C404EFF]きっと麦しゅわに合うに違いないわ！[3C404EFF]\n最高の一杯を[3C404EFF]目指すわよー！=That's right! I'm sure it'll go great with the wheat! Let's aim for the best!
-
-[3C404EFF]にへへ……[3C404EFF]\nこのキノコのおかげで、[3C404EFF]人気者に……♪=Hehe... Thanks to these mushrooms, I've become popular...♪
-[3C404EFF]うひゃひゃひゃ……[3C404EFF]\nできる大人のお姉さんになっちゃった……♪=Uhyahyahyah...  I've become a capable adult sister...♪
-[3C404EFF]ふっふっふっ……[3C404EFF]\nさあみんな、[3C404EFF]私についてこい。[3C404EFF]今日も楽しく働こう♪=fufufufu... Come on, everyone, follow me. Let's work happily today too♪
 
 
 
-[3C404EFF]一方のアオイたちは、キノコの毒による幻覚に囚われていた──=Meanwhile, Aoi and the others were caught in hallucinations caused by the poison of the mushrooms.
-[3C404EFF]アオイ様、[3C404EFF]ごきげんよう！[3C404EFF]\n今日もお目にかかれて光栄です！=Have a good day, Aoi-sama! It's an honor to see you today!
-[3C404EFF]おはよう、[3C404EFF]アオイくん！[3C404EFF]\n[3C404EFF]君に働いてもらえるなんて、[3C404EFF]とってもうれしいよ！=Good morning, Aoi-kun! I'm so happy to have you working for me!
-[3C404EFF]アオイさんと友達になれるなんて、[3C404EFF]\n幸せすぎて死にそうだわ～～～！！=I'm so happy to be friends with Aoi-san! I'm so happy that I could die~!
-[3C404EFF]あははっ！　[3C404EFF]ありがとう、[3C404EFF]みんな！[3C404EFF]\n今日も私と友達でいてくれて[3C404EFF]ありがとう～！=Hahaha! Thank you, everyone! Thank you for being my friends today too!
-[3C404EFF]うわぁぁ～～！[3C404EFF]\nあれが[3C404EFF]友達が100人いる私の姿！？=Wow~! Is that the image of me with 100 friends!?
-[3C404EFF]すごいです！　[3C404EFF]キラキラと輝いています！[3C404EFF]\n本当に[3C404EFF]あんなふうになりたいな～！=It's amazing! It's sparkling! I really want to become like that~!
-[3C404EFF]ユカリさん、[3C404EFF]今日もいい飲みっぷりですね！=Yukari-san, you're enjoying your drink today too!
-[3C404EFF]それでいて華麗に飲んでいる！[3C404EFF]\n麦しゅわを楽しむ者の鑑だよ！=And you're drinking elegantly! You're a role model for those who enjoy Barley Soda!
-[3C404EFF]しかも、[3C404EFF]バリバリ働いて[3C404EFF]ギルドでも頼りにされているらしいわよ？[3C404EFF]\n[3C404EFF]ユカリさんがいなければ、[3C404EFF]仕事が回らないって話をよく聞くわ。=Moreover, I hear that you're working hard and relied upon in the guild. They often say that without Yukari-san, work wouldn't progress.
-[3C404EFF]ふふっ、[3C404EFF]大袈裟よ。[3C404EFF]\n[3C404EFF]目の前の仕事に対して、[3C404EFF]一つ一つ丁寧に向き合っているだけ。=Haha, that's an exaggeration. I'm just diligently focusing on each task in front of me.
-[3C404EFF]それは[3C404EFF]麦しゅわも同じだわ。[3C404EFF]\n[3C404EFF]お店から出された麦しゅわを[3C404EFF]感謝の気持ちを込めて、[3C404EFF]\n一口ずつ丁寧に味わっているの。=The same goes for Barley Soda. You savor it carefully, with gratitude for being served Barley Soda from the store, one sip at a time.
-[3C404EFF]……んくっ。[3C404EFF]\nふ～、[3C404EFF]とっ[3C404EFF]てもおいしいわ。=...Mmm. Ahh, it's so delicious.
-[3C404EFF]あれが……[3C404EFF]私？[3C404EFF]\n麦しゅわを飲んでも乱れてない……？=Is that... me? Even after drinking Barley Soda, I'm not drunk...?
-[3C404EFF]あんなふうに仕事でも評価されて、[3C404EFF]\n麦しゅわで失敗もしないなんて……！　[3C404EFF]まさに[3C404EFF]理想の姿だわ！=To be recognized in my work like that, and not make mistakes with Barley Soda...! It's truly an ideal image!
-[3C404EFF]団長、[3C404EFF]おはようございます！=Good morning, Captain!
-[3C404EFF]ああ、[3C404EFF]おはよう。[3C404EFF]清々しい天気だね。[3C404EFF]\nこの平和なランドソルを、[3C404EFF]今日も守っていこうじゃないか！=Ah, good morning. It's a refreshing weather. Let's continue protecting the peaceful Landosol today!
-[3C404EFF]はい！=Yes, sir!
-[3C404EFF]おおっ……[3C404EFF]なんという士気の高さなんだ……！=Oooh... What high morale...!
-[3C404EFF]あの私は、[3C404EFF]普段よりも明るいようだが……[3C404EFF]\n団全体も変に浮ついておらず、[3C404EFF]程よく肩の力が抜けていて悪くない。[3C404EFF]\nいや、[3C404EFF]むしろいい……！=Although I seem more cheerful than usual... the whole squad isn't overly excited and has relaxed shoulders. It's not bad at all. No, rather, it's good...!
-[3C404EFF]あれが理想の上司、[3C404EFF]理想の団長のあるべき姿だというのか……？=Is that how an ideal superior, an ideal captain, should be...?
-[3C404EFF]きゃー！　[3C404EFF]アオイさーーん！！=Kyaa! Aoi-saaaan!!
-[3C404EFF]ハッハッハ～！　[3C404EFF]落ち着いてくれたまえ、[3C404EFF]100人の友達たちよ！[3C404EFF]\n慌てなくても、[3C404EFF]みんなと会話するからね。=Hahaha! Stay calm, my 100 friends! Don't panic, I'll talk with everyone.
-[3C404EFF]す、[3C404EFF]すごい……！[3C404EFF]\n私も、[3C404EFF]あんな『私』になりたいな～～！=A-Amazing...! I also want to become like that ideal version of me~!
-[3C404EFF]……ふふっ。[3C404EFF]なれるよ……？=......huhu.I can become one......
-[3C404EFF]えっ！？　[3C404EFF]ほ、[3C404EFF]本当ですかっ！？[3C404EFF]\n[3C404EFF]でも、[3C404EFF]とっても難しそうですけど……=Huh?! R-Really?! But it looks like it'll be really difficult...
-[3C404EFF]なぁに、[3C404EFF]簡単だよ……[3C404EFF]\nこのキノコをもっと食べれば一発さ！　[3C404EFF]さあ、[3C404EFF]どうぞ！=Oh well, it's easy... Just eat more of this mushroom, and you'll achieve it in no time! Come on, go ahead!
-[3C404EFF]おおっ！[3C404EFF]\nなら遠慮なく……[3C404EFF]あむっ！=Wow! Then I won't hold back... munch!
-[3C404EFF]うん、[3C404EFF]いい食べっぷりだね。[3C404EFF]その調子だよ……[3C404EFF]\nそれで、[3C404EFF]私は……=Great, you're eating well. Keep it up... As for me...
-[3C404EFF]……理想の『私』になれました！=...I have become my ideal self!
-[3C404EFF]アオイは、キノコの毒が見せる幻覚に囚われてしまう。[3C404EFF]\nそして、その中で出会った理想の自分の幻影を、[3C404EFF]\n自分自身だと勘違いし始めるのだった──=Aoi was trapped in hallucinations caused by the poisonous mushrooms. And within that, he began to mistake the illusion of his ideal self as his real self.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,236 +6,235 @@
 
 r:"^落ちていく最中、黒服に追われる少女を連れ逃げる光景を見た\n(.{2,10})。地面に落ちる直前ミソラをかばう。それを受けて思わ\nず超能力で危機回避したミソラは、ラブに少し近づけたと笑う\nのだった。$"=$1 saw a girl being chased by the black-clad men as they were falling. He protected Misora just before he hit the ground which made Misora unintentionally saves both of them with her supernatural powers. She laughed as she realizes she's a little closer to falling in love.
 
-r:"^(?:\[3C404EFF\])?「超能力を使わない」と宣言したミソラは(?:\[3C404EFF\])?\n(.{2,10})の腕を掴んだまま(?:\[3C404EFF\])?\n城壁の上から飛び降りた。$"=Misora declared 'I won't use my powers ever again' and jumped off from the top of the walls while still holding $1's arm.
+r:"^「超能力を使わない」と宣言したミソラは\n(.{2,10})の腕を掴んだまま\n城壁の上から飛び降りた。$"=Misora declared 'I won't use my powers ever again' and jumped off from the top of the walls while still holding $1's arm.
 
-[3C404EFF]それは数秒後、[3C404EFF]彼らの命を奪うのに十分な高さで──……=It was high enough to take their lives in just seconds...
+それは数秒後、彼らの命を奪うのに十分な高さで──……=It was high enough to take their lives in just seconds...
 
-r:"^(?:\[3C404EFF\])?そのとき。(?:\[3C404EFF\])?\nまるで走馬灯のように、(?:\[3C404EFF\])?\n(.{2,10})の脳裏に不思議な光景がよぎった。$"=In that moment, a strange scene plays in $1's mind.
+r:"^そのとき。\nまるで走馬灯のように、\n(.{2,10})の脳裏に不思議な光景がよぎった。$"=In that moment, a strange scene plays in $1's mind.
 
 えっと……=Uhh...
 僕は、何をしてたんだっけ……=What was I...
-[3C404EFF]『……から[3C404EFF]……へ。[3C404EFF]\n……、[3C404EFF]発見できま……』="From... to... couldn't... find..."
+『……から……へ。\n……、発見できま……』="From... to... couldn't... find..."
 
-[3C404EFF]『……了解。[3C404EFF]\n班を……、[3C404EFF]……の捜索を……』="...Roger.\nSquad... Keep searching..."
+『……了解。\n班を……、……の捜索を……』="...Roger.\nSquad... Keep searching..."
 
 ……あのひと、何をしてるんだろう？=...What's that person doing?
 
-[3C404EFF]……班長。[3C404EFF]\n目標は、[3C404EFF]瞬間移動みたいなことだって[3C404EFF]できちまうんでしょう？[3C404EFF]\n[3C404EFF]なら、[3C404EFF]もうこの辺りにはいないんじゃ……=...Leader, isn't the target able to teleport around? Maybe she's not in this area anymore.
+……班長。\n目標は、瞬間移動みたいなことだってできちまうんでしょう？\nなら、もうこの辺りにはいないんじゃ……=...Leader, isn't the target able to teleport around? Maybe she's not in this area anymore.
 
-[3C404EFF]いや。[3C404EFF]\n目標が能力を使えば、[3C404EFF]こっちの機器に反応があるはずだ──=No. If the target is using her abilities then our equipments would've reacted.
+いや。\n目標が能力を使えば、こっちの機器に反応があるはずだ──=No. If the target is using her abilities then our equipments would've reacted.
 
-[3C404EFF]……[3C404EFF]ちょっと待て。[3C404EFF]\n地元のガキが見てる。[3C404EFF]\n移動するぞ。=...Hold up, a kid is watching. \nLet's move first.
+……ちょっと待て。\n地元のガキが見てる。\n移動するぞ。=...Hold up, a kid is watching. \nLet's move first.
 
 行っちゃった……=They're gone...
 
 僕も、誰かを探していたような……？=Wasn't I searching for a person too...?
 
-[3C404EFF]──きゃんっ★=Kyaa★
+──きゃんっ★=Kyaa★
 
-[3C404EFF]すみませーん、[3C404EFF]大丈夫ですかっ？[3C404EFF]\n[3C404EFF]わたしったら、[3C404EFF]すっごい慌てちゃっててー=Sorry, are you all right? I'm really in a rush right nowー
+すみませーん、大丈夫ですかっ？\nわたしったら、すっごい慌てちゃっててー=Sorry, are you all right? I'm really in a rush right nowー
 
 君は……=You're...
 
-[3C404EFF]わたしですか？[3C404EFF]\nわたしは、[3C404EFF]試験体Ｍ３号──=Me? I'm Test Subject M3ー
+わたしですか？\nわたしは、試験体Ｍ３号──=Me? I'm Test Subject M3ー
 
-[3C404EFF]じゃなくて♪[3C404EFF]\n[3C404EFF]流魅空っていいます★[3C404EFF]\n[3C404EFF]あなたは……=Not♪ I'm called Nagare Misora, and you are...?
+じゃなくて♪\n流魅空っていいます★\nあなたは……=Not♪ I'm called Nagare Misora, and you are...?
 
-[3C404EFF]っと！[3C404EFF]\nごあいさつしてる場合じゃなかったです！[3C404EFF]\n[3C404EFF]わたし今、[3C404EFF]とっても大変なんでしたっ。=Ah! This isn't the time to exchange pleasantries.\nRight now, I'm in a big trouble!
-[3C404EFF]どうしたの？=What's the matter?
-[3C404EFF]えっとえっと……=Umm...
+っと！\nごあいさつしてる場合じゃなかったです！\nわたし今、とっても大変なんでしたっ。=Ah! This isn't the time to exchange pleasantries.\nRight now, I'm in a big trouble!
+どうしたの？=What's the matter?
+えっとえっと……=Umm...
 
-[3C404EFF]すみません、[3C404EFF]初対面のあなた！[3C404EFF]\nわたし、[3C404EFF]悪いやつらに追われちゃってて。[3C404EFF]\n[3C404EFF]助けてくださいっ！=I'm sorry, person I've never met before!\nI'm being chased by some bad guys so please save me!
+すみません、初対面のあなた！\nわたし、悪いやつらに追われちゃってて。\n助けてくださいっ！=I'm sorry, person I've never met before!\nI'm being chased by some bad guys so please save me!
 
 そんなこと言われても……=Even if you say that...
 
-[3C404EFF]もぉ。[3C404EFF]こんなかわい……[3C404EFF]かよわいオンナノコが[3C404EFF]\nよってたかって狙われてるんですよ？[3C404EFF]\n[3C404EFF]オトコノコなら、[3C404EFF]助けなくっちゃ！　[3C404EFF]ですよ？=But such a prettyー... feeble girl is being chased～\nAny man would rescue her, wouldn't they?
+もぉ。こんなかわい……かよわいオンナノコが\nよってたかって狙われてるんですよ？\nオトコノコなら、助けなくっちゃ！　ですよ？=But such a prettyー... feeble girl is being chased～\nAny man would rescue her, wouldn't they?
 
 分かった。=Ok.
 
-[3C404EFF]eh?[3C404EFF]\nほんとに？=Eh? Are you sure?
+えっ？\nほんとに？=Eh? Are you sure?
 
 困ってるなら、助けるよ。=If you're in trouble, I'll save you.
 
-[3C404EFF]Hmmm... ......[3C404EFF]はい★=Ehehe... Alright★
-[3C404EFF]Ehehe...[3C404EFF]はい★=Ehehe... Alright★
+ふふっ……はい★=Ehehe... Alright★
 
-[3C404EFF]目標発見！[3C404EFF]\nさっきのガキも一緒です！=Found the target!\nThe kid from earlier is with her too!
+目標発見！\nさっきのガキも一緒です！=Found the target!\nThe kid from earlier is with her too!
 
-[3C404EFF]まとめて捕らえろ！[3C404EFF]\n絶対逃がすな！=Catch them!\nDon't let them get away!
+まとめて捕らえろ！\n絶対逃がすな！=Catch them!\nDon't let them get away!
 
-[3C404EFF]あちゃー、[3C404EFF]さっそく見つかっちゃったみたいですね。=Ahhー Looks they found us.
+あちゃー、さっそく見つかっちゃったみたいですね。=Ahhー Looks they found us.
 
 逃げよう！=Let's run away!
 
-[3C404EFF]はーい★=Yes～★
+はーい★=Yes～★
 
-[3C404EFF]待て、[3C404EFF]ガキども！=Wait, you kids!
+待て、ガキども！=Wait, you kids!
 
-[3C404EFF]逃げ切れると思うなよ！=Don't think that you can get away!
+逃げ切れると思うなよ！=Don't think that you can get away!
 
-[3C404EFF]んー[3C404EFF]\nこのままじゃ、[3C404EFF]追いつかれちゃいそうですねー=Hmmm...\nAt this rate, they're going to catch usー
+んー\nこのままじゃ、追いつかれちゃいそうですねー=Hmmm...\nAt this rate, they're going to catch usー
 
-[3C404EFF]──あっ♪[3C404EFF]\nこんなところに消火器が★=Ah♪ A fire extinguisher in a place like this★
+──あっ♪\nこんなところに消火器が★=Ah♪ A fire extinguisher in a place like this★
 
 どうするの！？=What do we do!?
 
-[3C404EFF]もちろん、[3C404EFF]決まってるじゃないですか♪[3C404EFF]\nせーのっ──=I have an idea♪\nNowー
+もちろん、決まってるじゃないですか♪\nせーのっ──=I have an idea♪\nNowー
 
-[3C404EFF]どるるるる～ん★=Dorururu～n ★
+どるるるる～ん★=Dorururu～n ★
 
-[3C404EFF]うおおおっ！？=Whoa!
+うおおおっ！？=Whoa!
 
-[3C404EFF]げほっ、[3C404EFF]げほっ……[3C404EFF]\n[3C404EFF]ガキが、[3C404EFF]ナメやがって……！=*coughs*...\nYou brats, don't screw with us!
+げほっ、げほっ……\nガキが、ナメやがって……！=*coughs*...\nYou brats, don't screw with us!
 
-[3C404EFF]ちょっとあんたたち、[3C404EFF]なにやってんだい！？=Wait, what are they doing!?
+ちょっとあんたたち、なにやってんだい！？=Wait, what are they doing!?
 
 
-[3C404EFF]ケーサツ呼ぶぞ、[3C404EFF]ケーサツ！=I'm calling the police!
+ケーサツ呼ぶぞ、ケーサツ！=I'm calling the police!
 
-[3C404EFF]んー[3C404EFF]\nなんだかずいぶん騒ぎになっちゃいましたね。=Hmmー\nThat caused quite a bit of a commotion, didn't it?
+んー\nなんだかずいぶん騒ぎになっちゃいましたね。=Hmmー\nThat caused quite a bit of a commotion, didn't it?
 
-[3C404EFF]ふふっ。[3C404EFF]\nものはついでです♪[3C404EFF]\n[3C404EFF]そこの自転車、[3C404EFF]借りちゃいましょう★=Ehehe～ Let's use this opportunity then♪\nHow about we borrow that bike over there?
+ふふっ。\nものはついでです♪\nそこの自転車、借りちゃいましょう★=Ehehe～ Let's use this opportunity then♪\nHow about we borrow that bike over there?
 
 それはちょっと……=That's a bit...
 
-[3C404EFF]もー、[3C404EFF]あとで返せば大丈夫ですって♪[3C404EFF]\n[3C404EFF]はやくはやく～！=It's fine～ I'll return it later♪\nNow let's just go already!
+もー、あとで返せば大丈夫ですって♪\nはやくはやく～！=It's fine～ I'll return it later♪\nNow let's just go already!
 
-[3C404EFF]ふぅ★[3C404EFF]\nひとまず、[3C404EFF]あのひとたちは振り切れたみたいですねー♪=Phew～★\nLooks like we shook them off for nowー♪
+ふぅ★\nひとまず、あのひとたちは振り切れたみたいですねー♪=Phew～★\nLooks like we shook them off for nowー♪
 
-[3C404EFF]ふふっ。[3C404EFF]\n大変かもですけど、[3C404EFF]がんばって漕いでくださーい★[3C404EFF]\n[3C404EFF]限界になったら、[3C404EFF]わたしが代わってあげますから♪=Ehehe. It might be tiring, but do your best★\nI'll change with you when you're tired♪
+ふふっ。\n大変かもですけど、がんばって漕いでくださーい★\n限界になったら、わたしが代わってあげますから♪=Ehehe. It might be tiring, but do your best★\nI'll change with you when you're tired♪
 
 まだ、大丈夫……=I'm still good...
 
-[3C404EFF]わぁ、[3C404EFF]頼もしいです★[3C404EFF]\nさっすがオトコノコ、[3C404EFF]ってカンジですねー♪=Wow, so reliable!\nYou really are a man after all♪
+わぁ、頼もしいです★\nさっすがオトコノコ、ってカンジですねー♪=Wow, so reliable!\nYou really are a man after all♪
 
-[3C404EFF]それに……[3C404EFF]ふふっ。[3C404EFF]\nこういうの、[3C404EFF]なんだかドキドキしますね♪[3C404EFF]\nスパイ映画のワンシーンってカンジじゃないですか？=Also... Ehehe♪ Being like this really make my heart throbs♪\nDon't we look like that one scene from a spy movie?
+それに……ふふっ。\nこういうの、なんだかドキドキしますね♪\nスパイ映画のワンシーンってカンジじゃないですか？=Also... Ehehe♪ Being like this really make my heart throbs♪\nDon't we look like that one scene from a spy movie?
 
 こんな状況なのに、楽しそうだね。=You're really enjoying yourself despite the situation.
 
-[3C404EFF]たしかに、[3C404EFF]捕まったら。[3C404EFF]\nまたアンチサイ装置をつけられて、[3C404EFF]幽閉されちゃうでしょうけど……[3C404EFF]\n[3C404EFF]ふふっ♪=That's true, if I got caught...\nThen they would put devices to block my power and lock me up again. Ehehe♪
+たしかに、捕まったら。\nまたアンチサイ装置をつけられて、幽閉されちゃうでしょうけど……\nふふっ♪=That's true, if I got caught...\nThen they would put devices to block my power and lock me up again. Ehehe♪
 
-[3C404EFF]なんてゆーかー[3C404EFF]\nこうして誰かが助けてくれるのって、[3C404EFF]いーなーって★=But you know... Being saved like this isn't so bad★
+なんてゆーかー\nこうして誰かが助けてくれるのって、いーなーって★=But you know... Being saved like this isn't so bad★
 
-[3C404EFF]わたしのコト、[3C404EFF]身体を張って助けてくれるヒトなんて。[3C404EFF]\nこれまでずーっと、[3C404EFF]だーれもいませんでしたから。=Till now, I've never had a person who's willing to risk their lives for me.
+わたしのコト、身体を張って助けてくれるヒトなんて。\nこれまでずーっと、だーれもいませんでしたから。=Till now, I've never had a person who's willing to risk their lives for me.
 
 そもそも、どうして追われてたの？=Why are they after you in the first place?
 
-[3C404EFF]それはですね、[3C404EFF]わたしがとーってもカワイイから★[3C404EFF]\n[3C404EFF]……じゃなくて……=You see, it's because I'm so pretty★\n...Well, I guess not♪
+それはですね、わたしがとーってもカワイイから★\n……じゃなくて……=You see, it's because I'm so pretty★\n...Well, I guess not♪
 
-[3C404EFF]わたし、[3C404EFF]どうもこの世界のイレギュラー？[3C404EFF]\nっていうか、[3C404EFF]バグみたいな存在らしいんですよねー=I seem to be an irregularity in this world.\nSomething like a bug in a program.
+わたし、どうもこの世界のイレギュラー？\nっていうか、バグみたいな存在らしいんですよねー=I seem to be an irregularity in this world.\nSomething like a bug in a program.
 
-[3C404EFF]おかげで、[3C404EFF]拉致られたり実験台にされたりで。[3C404EFF]\nほんとカンベンしてほしいなーってキモチなんですけど。[3C404EFF]\n[3C404EFF]ついでに親も死んじゃいましたし？=Because of that, I was kidnapped and used as a test subject.\nI really wish I could run away from all that, but my parents were dead too.
+おかげで、拉致られたり実験台にされたりで。\nほんとカンベンしてほしいなーってキモチなんですけど。\nついでに親も死んじゃいましたし？=Because of that, I was kidnapped and used as a test subject.\nI really wish I could run away from all that, but my parents were dead too.
 
 ……そんな……=That's...
 
-[3C404EFF]...Ehe.[3C404EFF]\nもうカオもちゃんと覚えてないんで、[3C404EFF]気にしないでください★[3C404EFF]\n[3C404EFF]それよりもー=...Ehe. I don't even remember their faces so you don't have to feel bad★\nMore importantlyー
+...Ehe.\nもうカオもちゃんと覚えてないんで、気にしないでください★\nそれよりもー=...Ehe. I don't even remember their faces so you don't have to feel bad★\nMore importantlyー
 
-[3C404EFF]そろそろ、[3C404EFF]お別れしときましょっか♪[3C404EFF]\nたくさん漕いでくれて、[3C404EFF]ありがとうございました。=It's about time to say goodbye♪\nThank you so much for bringing me this far away～
+そろそろ、お別れしときましょっか♪\nたくさん漕いでくれて、ありがとうございました。=It's about time to say goodbye♪\nThank you so much for bringing me this far away～
 
 えっ？=What?
 
-[3C404EFF]だってほら。[3C404EFF]\n足も疲れちゃうわけですから、[3C404EFF]\nこのまま永遠に自転車で逃避行[3C404EFF]ってワケにもいかないですよね？=You know we can't run away forever in a bike, right? You'll eventually get tired...
+だってほら。\n足も疲れちゃうわけですから、\nこのまま永遠に自転車で逃避行ってワケにもいかないですよね？=You know we can't run away forever in a bike, right? You'll eventually get tired...
 
-[3C404EFF]結局、[3C404EFF]追っ手の狙いはわたしなんですから。[3C404EFF]\nいつまでもわたしに付き合ってると、[3C404EFF]\nあなたまでひどいコトになっちゃうかもですよ？=And in the end, I'm the only one they're chasing.\nYou'll put yourself at risk if you keep being around me, you know?
+結局、追っ手の狙いはわたしなんですから。\nいつまでもわたしに付き合ってると、\nあなたまでひどいコトになっちゃうかもですよ？=And in the end, I'm the only one they're chasing.\nYou'll put yourself at risk if you keep being around me, you know?
 
 ……そうかもしれないけど……=That might be true, but...
 
-[3C404EFF]けど？=But...?
+けど？=But...?
 
 こうなったら、最後まで付き合うよ。=Even if that's the case, I'll stay with you until the end.
 
-[3C404EFF]……わぁ★[3C404EFF]\n[3C404EFF]わぁ～★=...Wow★\nJust wow～★
+……わぁ★\nわぁ～★=...Wow★\nJust wow～★
 
-[3C404EFF]こんな状況で、[3C404EFF]本当にそんなコト言えちゃうなんて。[3C404EFF]\nさすが、[3C404EFF]ってカンジですね。=I'm impressed that you can say that in this kind of situation. You really are as manly as I thought★
+こんな状況で、本当にそんなコト言えちゃうなんて。\nさすが、ってカンジですね。=I'm impressed that you can say that in this kind of situation. You really are as manly as I thought★
 
-[3C404EFF]……ふふっ。[3C404EFF]\n[3C404EFF]イイですねー[3C404EFF]\nボーイミーツガールで吊り橋効果とか★=...Ehehe. This sure feels niceー\n"Boy Meets Girl" kind of situation★
+……ふふっ。\nイイですねー\nボーイミーツガールで吊り橋効果とか★=...Ehehe. This sure feels niceー\n"Boy Meets Girl" kind of situation★
 
-[3C404EFF]っとぉ★[3C404EFF]\n[3C404EFF]なんでもないでーす♪=Oh, it's nothing♪
+っとぉ★\nなんでもないでーす♪=Oh, it's nothing♪
 
-[3C404EFF]そうと決まれば、[3C404EFF]じゃんじゃん漕いでくださいね？[3C404EFF]\n[3C404EFF]振り落とされないように、[3C404EFF]\nわたし、[3C404EFF]ぴーったりくっついちゃいますから♪=If you're that determined, then please pedal the bike even faster!\nAnd I'll cling to you even more so I don't fall off♪
+そうと決まれば、じゃんじゃん漕いでくださいね？\n振り落とされないように、\nわたし、ぴーったりくっついちゃいますから♪=If you're that determined, then please pedal the bike even faster!\nAnd I'll cling to you even more so I don't fall off♪
 
-[3C404EFF]あなたみたいなひとと、[3C404EFF]もっと早く出会えてたら──[3C404EFF]\nわたしは救われてたかもですね。[3C404EFF]\n[3C404EFF]騎士さん……★=If I had met someone like you sooner, maybe I would've been saved. Kishi-san...★
+あなたみたいなひとと、もっと早く出会えてたら──\nわたしは救われてたかもですね。\n騎士さん……★=If I had met someone like you sooner, maybe I would've been saved. Kishi-san...★
 
 落ちる──！！=I'm fallingー!!
 
-r:"^(?:\[3C404EFF\])?城壁の上から、(?:\[3C404EFF\])?\n即死確実の速度で落下する(?:\[3C404EFF\])?\nミソラと(.{2,10})。$"=Misora and $1 is falling from the top of the town walls with a speed that's certain to be fatal.
+r:"^城壁の上から、\n即死確実の速度で落下する\nミソラと(.{2,10})。$"=Misora and $1 is falling from the top of the town walls with a speed that's certain to be fatal.
 
-r:"^(?:\[3C404EFF\])?地面にたたきつけられる直前、(?:\[3C404EFF\])?\n(.{2,10})は──$"=Just before they hit the ground, $1...
+r:"^地面にたたきつけられる直前、\n(.{2,10})は──$"=Just before they hit the ground, $1...
 
 ミソラを抱きしめる。=Hold Misora tightly.
 
 ミソラをかばう。=Protects Misora.
 
-[3C404EFF]っ！！？=!!?
+っ！！？=!!?
 
 ……あ、あれ……？=W-what happened...?
 
-[3C404EFF]……ふふっ。[3C404EFF]\n[3C404EFF]おはようございます、[3C404EFF]きーしさん★=...Ehehe. Wakey-wakey, Kishi-san★
+……ふふっ。\nおはようございます、きーしさん★=...Ehehe. Wakey-wakey, Kishi-san★
 
 僕たち、落ちてたはずじゃ……=We were supposed to hit the ground...
 
-[3C404EFF]そうですねー[3C404EFF]\n二人して、[3C404EFF]頭から真っ逆さまでしたもんねー=That's rightー\nThe two of us were falling headfirst to the groundー
+そうですねー\n二人して、頭から真っ逆さまでしたもんねー=That's rightー\nThe two of us were falling headfirst to the groundー
 
-[3C404EFF]なら今のコレは、[3C404EFF]\n走馬灯、[3C404EFF]ってやつじゃないですか？=Doesn't that mean this is that 'Life Flashing Before You' moment?
+なら今のコレは、\n走馬灯、ってやつじゃないですか？=Doesn't that mean this is that 'Life Flashing Before You' moment?
 
-[3C404EFF]……なーんて。[3C404EFF]\n[3C404EFF]騎士さんが見た「走馬灯っぽいもの」は[3C404EFF]\nわたしが共感覚で見せた、[3C404EFF]まぼろしってやつです。=...Just kidding★\nWhat you saw earlier was just an illusion.
+……なーんて。\n騎士さんが見た「走馬灯っぽいもの」は\nわたしが共感覚で見せた、まぼろしってやつです。=...Just kidding★\nWhat you saw earlier was just an illusion.
 
-[3C404EFF]それに──[3C404EFF]\n[3C404EFF]確かにわたしたち、[3C404EFF]地面にぶつかっちゃう0.1秒前でしたけど。[3C404EFF]\n[3C404EFF]それより早く、[3C404EFF]テレポーテーションで跳んじゃいました。=And... it's true that we were falling headfirst to the ground. But 0.1 seconds before we hit the ground, I teleported both of us here.
+それに──\n確かにわたしたち、地面にぶつかっちゃう0.1秒前でしたけど。\nそれより早く、テレポーテーションで跳んじゃいました。=And... it's true that we were falling headfirst to the ground. But 0.1 seconds before we hit the ground, I teleported both of us here.
 
-[3C404EFF]……死ぬのなんて、[3C404EFF]ぜんぜん怖くないですし。[3C404EFF]\n[3C404EFF]騎士さんと一緒なら、[3C404EFF]すっごくアリよりのアリだなーって。[3C404EFF]\n[3C404EFF]そう思ったんですけど……=I'm not really afraid of dying if I'm with you.\nThat's what I thought, but...
+……死ぬのなんて、ぜんぜん怖くないですし。\n騎士さんと一緒なら、すっごくアリよりのアリだなーって。\nそう思ったんですけど……=I'm not really afraid of dying if I'm with you.\nThat's what I thought, but...
 
-[3C404EFF]さっき騎士さんが、[3C404EFF]わたしをハグしてくれたとき。[3C404EFF]\n[3C404EFF]なんだかすっごく、[3C404EFF]「キュン★」[3C404EFF]てしちゃって。[3C404EFF]\n気付いたら、[3C404EFF]テレポーテーション使っちゃってました。=When Kishi-san hugged me earlier, I felt 「Kyuun★」 \nthat I teleported us both before I knew what I was doing.
+さっき騎士さんが、わたしをハグしてくれたとき。\nなんだかすっごく、「キュン★」てしちゃって。\n気付いたら、テレポーテーション使っちゃってました。=When Kishi-san hugged me earlier, I felt 「Kyuun★」 \nthat I teleported us both before I knew what I was doing.
 
-[3C404EFF]ごめんなさい？[3C404EFF]\n[3C404EFF]超能力使いません、[3C404EFF]って約束したのに。[3C404EFF]\n[3C404EFF]わたしってば、[3C404EFF]また秒で破っちゃいましたね。=I'm really sorry. I promised not to use my psychic powers, but I broke my promise yet again.
+ごめんなさい？\n超能力使いません、って約束したのに。\nわたしってば、また秒で破っちゃいましたね。=I'm really sorry. I promised not to use my psychic powers, but I broke my promise yet again.
 
 それは、いいけど……=That's... fine, but...
 
 本当に、死ぬつもりだったの……？=Were you really fine with dying...?
 
-[3C404EFF]はい★[3C404EFF]\nだって、[3C404EFF]夕陽がとってもキレイでしたし？[3C404EFF]\n[3C404EFF]二人でそれを眺めるシチュも、[3C404EFF]イイカンジでしたし。=Yes★ Well like, the sunset was so nice and it felt so good just watching it with just the two of us.
+はい★\nだって、夕陽がとってもキレイでしたし？\n二人でそれを眺めるシチュも、イイカンジでしたし。=Yes★ Well like, the sunset was so nice and it felt so good just watching it with just the two of us.
 
-[3C404EFF]それに、[3C404EFF]わたしを探しに来てくれた騎士さんに[3C404EFF]\nちょっと[3C404EFF]「キュン★」[3C404EFF]ってしちゃいましたから。[3C404EFF]\n[3C404EFF]だから、[3C404EFF]いいかなー[3C404EFF]って。=And when I realized Kishi-san was looking for me, I felt 「Kyuun★」 and that's why I was fine doing all of those.
+それに、わたしを探しに来てくれた騎士さんに\nちょっと「キュン★」ってしちゃいましたから。\nだから、いいかなーって。=And when I realized Kishi-san was looking for me, I felt 「Kyuun★」 and that's why I was fine doing all of those.
 
-[3C404EFF]……でも……=But...
+……でも……=But...
 
-[3C404EFF]終わる直前に、[3C404EFF]もーっとイイカンジの[3C404EFF]「キュン★」[3C404EFF]しちゃったので。[3C404EFF]\n[3C404EFF]なんだか、[3C404EFF]つい？　[3C404EFF]みたいな♪[3C404EFF]\nこれも吊り橋効果なんですかねー？=Right before we hit the ground, I had an even bigger 「Kyuun★」 feeling.\nI wonder if that's the Suspension Bridge Effectー?
+終わる直前に、もーっとイイカンジの「キュン★」しちゃったので。\nなんだか、つい？　みたいな♪\nこれも吊り橋効果なんですかねー？=Right before we hit the ground, I had an even bigger 「Kyuun★」 feeling.\nI wonder if that's the Suspension Bridge Effectー?
 
 ミソラちゃんの考えが、分からない……=I really don't know what you're thinking...
 
-[3C404EFF]ふふっ、[3C404EFF]気にしないでください。[3C404EFF]\n[3C404EFF]ぶっちゃけ、[3C404EFF]わたしもわたしにびっくりしてるので♪=Ehehe. You don't have to understand it～\nMore importantly, I was also surprised you know♪
+ふふっ、気にしないでください。\nぶっちゃけ、わたしもわたしにびっくりしてるので♪=Ehehe. You don't have to understand it～\nMore importantly, I was also surprised you know♪
 
-[3C404EFF]もう、[3C404EFF]お気付きかもですけど。[3C404EFF]\nわたし、[3C404EFF]結構気まぐれで天邪鬼ってゆーか。[3C404EFF]\n[3C404EFF]衝動的なうえにひねくれてるってゆーか、[3C404EFF]ま[3C404EFF]ぁそういうカンジなので。=You've probably noticed this already... I'm not someone who follow\nthe rules in what I can or can't do♪ And I often tend to act on a whim～ Well, that's how I feel about myself anyway.
+もう、お気付きかもですけど。\nわたし、結構気まぐれで天邪鬼ってゆーか。\n衝動的なうえにひねくれてるってゆーか、まぁそういうカンジなので。=You've probably noticed this already... I'm not someone who follow\nthe rules in what I can or can't do♪ And I often tend to act on a whim～ Well, that's how I feel about myself anyway.
 
-[3C404EFF]憎まれると喜んじゃうし。[3C404EFF]\n大事なものは壊したくなっちゃうし。[3C404EFF]\n[3C404EFF]ほんと、[3C404EFF]自分でも嫌になっちゃうんですけど……=I'm happy when people hate me, I want to destroy things that are important to me, and I also really hate myself...
+憎まれると喜んじゃうし。\n大事なものは壊したくなっちゃうし。\nほんと、自分でも嫌になっちゃうんですけど……=I'm happy when people hate me, I want to destroy things that are important to me, and I also really hate myself...
 
-[3C404EFF]あっ、[3C404EFF]でもでも。[3C404EFF]\n騎士さんからハグされて、[3C404EFF]終わるのやーめたってした理由は[3C404EFF]\nなんとなくわかりました★=Oh, but... I kind of understand why I teleported us both after getting a hug from you now★
+あっ、でもでも。\n騎士さんからハグされて、終わるのやーめたってした理由は\nなんとなくわかりました★=Oh, but... I kind of understand why I teleported us both after getting a hug from you now★
 
-[3C404EFF]それってやっぱり、[3C404EFF]今の「キュン★」が[3C404EFF]\nステキだったからだと思うんですよ。[3C404EFF]\n[3C404EFF]こういうキモチがラブなんだったら、[3C404EFF]もっと知りたいなー[3C404EFF]って♪=After all, that 「Kyuun★」 feeling I felt was so nice.\nIf this feeling is love, I want to know more about it♪
+それってやっぱり、今の「キュン★」が\nステキだったからだと思うんですよ。\nこういうキモチがラブなんだったら、もっと知りたいなーって♪=After all, that 「Kyuun★」 feeling I felt was so nice.\nIf this feeling is love, I want to know more about it♪
 
-[3C404EFF]ふふっ★[3C404EFF]\n騎士さんラブへの道、[3C404EFF]一歩前進ってカンジですね♪=Ehehe★ I guess that's one step closer to Kishi-san's love♪
+ふふっ★\n騎士さんラブへの道、一歩前進ってカンジですね♪=Ehehe★ I guess that's one step closer to Kishi-san's love♪
 
 ……一つ、聞いても良い？=...Can I ask you one thing?
 
-[3C404EFF]はい★[3C404EFF]\nなんでもどうぞ？=Sure★ Feel free to ask anything.
+はい★\nなんでもどうぞ？=Sure★ Feel free to ask anything.
 
 フラれて傷つきたいって言ってたけど……=You said you wanted to be heartbroken...
 
 僕が君を好きになったら、どうするの？=But what if I fall in love with you?
 
-[3C404EFF]安心してください★[3C404EFF]\nラブラブになったとしても、[3C404EFF]\n騎士さんのコト[3C404EFF]壊したりなんかしませんよ。=Don't worry★\nIf you really fall for me, I won't try to break your love.
+安心してください★\nラブラブになったとしても、\n騎士さんのコト壊したりなんかしませんよ。=Don't worry★\nIf you really fall for me, I won't try to break your love.
 
-[3C404EFF]さっきも言いましたよね？[3C404EFF]\n「騎士さんラブになれたら、[3C404EFF]どう転んでも絶対楽しい」って。[3C404EFF]\n[3C404EFF]わたし的には、[3C404EFF]フラれて傷つくのも楽しそうですし──=I told you earlier, didn't I?\n"I'll definitely enjoy being in love with Kishi-san no matter what."\nIt might be true that I enjoy getting heartbrokenー
+さっきも言いましたよね？\n「騎士さんラブになれたら、どう転んでも絶対楽しい」って。\nわたし的には、フラれて傷つくのも楽しそうですし──=I told you earlier, didn't I?\n"I'll definitely enjoy being in love with Kishi-san no matter what."\nIt might be true that I enjoy getting heartbrokenー
 
-[3C404EFF]ラブラブになったら、[3C404EFF]最高に楽しいじゃないですか。[3C404EFF]\n[3C404EFF]わたし的には、[3C404EFF]もちろんとってもうれしいですし？[3C404EFF]\n[3C404EFF]そ[3C404EFF]れ[3C404EFF]にー=But being in love with you would give me the greatest joy.\nAnd my goal is to have fun in the end. Alsoー
+ラブラブになったら、最高に楽しいじゃないですか。\nわたし的には、もちろんとってもうれしいですし？\nそれにー=But being in love with you would give me the greatest joy.\nAnd my goal is to have fun in the end. Alsoー
 
-[3C404EFF]騎士さんが、[3C404EFF]ほんとにわたしとラブラブになったら？[3C404EFF]\n[3C404EFF]騎士さんのコトを好きな、[3C404EFF]たくさんのひとから嫉妬されて──[3C404EFF]\n[3C404EFF]わたし、[3C404EFF]とっても恨まれたりしそうで★=If Kishi-san is really in love with me, then all the people who've come to love Kishi-san...\nI'm sure they'll come to resent me.
+騎士さんが、ほんとにわたしとラブラブになったら？\n騎士さんのコトを好きな、たくさんのひとから嫉妬されて──\nわたし、とっても恨まれたりしそうで★=If Kishi-san is really in love with me, then all the people who've come to love Kishi-san...\nI'm sure they'll come to resent me.
 
-[3C404EFF]あはっ♪[3C404EFF]\nそういうの、[3C404EFF]修羅場っていうんですか？[3C404EFF]\n[3C404EFF]想像するだけで、[3C404EFF]なんだかゾクゾクしちゃいますね……★=Aha♪ Wouldn't it end in such a big fight?\nIt's thrilling just imagining if that'd happen.
+あはっ♪\nそういうの、修羅場っていうんですか？\n想像するだけで、なんだかゾクゾクしちゃいますね……★=Aha♪ Wouldn't it end in such a big fight?\nIt's thrilling just imagining if that'd happen.
 
-[3C404EFF]というわけで？[3C404EFF]\nそんな楽しい未来のためにも──=So, do you get it? For the sake of that future...
+というわけで？\nそんな楽しい未来のためにも──=So, do you get it? For the sake of that future...
 
-[3C404EFF]わたしこれからも、[3C404EFF]騎士さんとラブラブになれるように。[3C404EFF]\nまだまだいっぱい[3C404EFF]がんばっちゃいまーす★=So I can be in love with Kishi-san.\nFrom now on, I'll do my best～★
+わたしこれからも、騎士さんとラブラブになれるように。\nまだまだいっぱいがんばっちゃいまーす★=So I can be in love with Kishi-san.\nFrom now on, I'll do my best～★
 
-r:"^(?:\[3C404EFF\])?──かつて敵として出会い、(?:\[3C404EFF\])?\n(.{2,10})たちと何度も争った少女・ミソラ。$"=──They once met as enemies.\nThe girl who fought with $1 many times, Misora.
+r:"^──かつて敵として出会い、\n(.{2,10})たちと何度も争った少女・ミソラ。$"=──They once met as enemies.\nThe girl who fought with $1 many times, Misora.
 
-[3C404EFF]敵ではなくなった現在も、[3C404EFF]\nミソラは他の少女たちと違う[3C404EFF]\nあやうさを抱えたままなのだった。=Even though they're no longer enemies, Misora still carries a danger unlike any other girl.
+敵ではなくなった現在も、\nミソラは他の少女たちと違う\nあやうさを抱えたままなのだった。=Even though they're no longer enemies, Misora still carries a danger unlike any other girl.

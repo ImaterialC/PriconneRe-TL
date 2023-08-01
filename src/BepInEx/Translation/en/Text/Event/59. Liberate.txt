@@ -49,8 +49,7 @@ sr:"^ムイミと(.{2,10})は、同様にカヤに助けられたペコリー\n�
 
 後編
 
-想のデフラグ=eminiscence Defrag
-追=R
+追想のデフラグ=Reminiscence Defrag
 懐かしき過去の結晶=Nostalgic Crystals of the Past
 懐かしいような不思議な感覚に襲われ、倒れるムイミ。不思議\nな空間で目覚めたムイミは、そこに浮かんでいた不思議な結晶\nに触れる。眩い輝きと共に目の前に広がるのは、記憶の中にあ\nる懐かしい光景であった。=Muimi collapses after being attacked by a strange, nostalgic feeling. She wakes up in a mysterious space, and she touches a mysterious crystal floating there. Along with her dazzling brilliance, what spread out before her eyes was a nostalgic scene in her memory.
 イベントクエストを進めると、ムイミさまの大切な思い出のエピソードを楽しむことができますよ。\nエピソードを見ると、ピースに情景が描かれていくようでございます。=As you progress through the event quests, you can enjoy episodes of Ms. Muimi's precious memories. Looking at the episode, it seems that the scene is being drawn on the piece.
@@ -71,11 +70,11 @@ sr:"^ムイミと(.{2,10})は、同様にカヤに助けられたペコリー\n�
 オクトーの追想　その5=Memories of Octo Part 3
 リーダーはどっちだ！=Which one is the leader!
 表示できるストーリーがありません。=There are no stories to display.
-勝ちたい理由=why i want to win
+勝ちたい理由=Why i want to win
 クリスティーナの追想　その1=Reminiscence of Christina Part 1
 クリスティーナの追想　その2=Reminiscence of Christina Part 2
 クリスティーナの追想　その3=Reminiscence of Christina Part 3
-聞き上手な誓約女君=good listener Regina Geas
+聞き上手な誓約女君=Good listener Regina Geas
 秘めたる本当の実力……？=Hidden true power...?
 ダイゴの追想　その1=Daigo's Memories Part 1
 ダイゴの追想　その2=Daigo's Memories Part 2
@@ -84,7 +83,7 @@ sr:"^ムイミと(.{2,10})は、同様にカヤに助けられたペコリー\n�
 ラビリスタの追想　その1=Labyrinth's Reminiscence Part 1
 ラビリスタの追想　その2=Labyrinth's Reminiscence Part 2
 ラビリスタの追想　その3=Labyrinth's Reminiscence Part 3
-悪と正義の高笑い=laughter of evil and justice
+悪と正義の高笑い=Laughter of evil and justice
 マサキの追想=Memories of Masaki
 プリンセスナイトとは=What is Princess Night
 ラジラジの追想　その1=Reminiscence of Rajiraji Part 1
@@ -106,33 +105,33 @@ sr:"^ムイミと(.{2,10})は、同様にカヤに助けられたペコリー\n�
 
 
 
-[3C404EFF]Onii－chanたちとの戦いに敗れたノウェムとオクトー[3C404EFF]\n街に戻ってもノウェムは悔しさを爆発させていた。=Knawem, who was defeated in the battle with ONII -CHAN, returned to Okto Street, and Nawem exploded regret.
+Onii－chanたちとの戦いに敗れたノウェムとオクトー\n街に戻ってもノウェムは悔しさを爆発させていた。=Knawem, who was defeated in the battle with ONII -CHAN, returned to Okto Street, and Nawem exploded regret.
 Onii－chanたちに負けたことを悔しがるノウェムだが、オク\nトーは全く気にしない。その態度が気に入らないノウェムは勝\n利へのこだわりを示す。そんなノウェムをオクトーは秘かにう\nらやましく思う。=Knowem regrets that ONII -CHAN has lost, but Okto doesn't care at all.\nKnowem, who does not like his attitude, indicates his commitment to victory.\nOkto is secretly envious of such a knowem.
-[3C404EFF]任務を終えた帰り道。[3C404EFF]\nノウェムはため息交じりに呟きを漏らす。=On the way back after finishing the mission.\nKnawem sighs and mutters.
+任務を終えた帰り道。\nノウェムはため息交じりに呟きを漏らす。=On the way back after finishing the mission.\nKnawem sighs and mutters.
 誓約女君について人使いが荒いと愚痴るノウェム。しかし当の\n本人にそれを聞かれていた。オクトーは逃走したため、ノウェ\nムは地獄のように長い時間を過ごすことになるのであった。=A Knowem who complains that the person who is rough about the pledge is rough.\nHowever, the person was asked that.\nOkto escaped, so the knowem spent a long time like hell.
-[3C404EFF]街道をぶらつきながら、ノウェムはオクトーに話しかける。=Nawem talks to Okto while hanging on the highway.
+街道をぶらつきながら、ノウェムはオクトーに話しかける。=Nawem talks to Okto while hanging on the highway.
 オクトーの実力を知りたいノウェムは、足止めをしてダイゴと\n戦わせることに成功する。しかし一撃を入れられるオクトーを\n見たノウェムは、反射的に背後からダイゴに攻撃して気絶させ\nてしまうのだった。=Knowem, who wants to know Okto's ability, succeeds in stopping and fighting Daigo.\nHowever, when he saw Okto, who could hit, he attacked Daigo from behind him and stunned him.
 晶とはどんな人物なのか気になったノウェムは、同じ七冠の誓\n約女君に人柄を尋ねてみる。誓約女君の返答から、晶への絆と\nライバル心をノウェムは感じ取るのだった。=Knowem, who is worried about what Akira is, asks the same seven crown pledge for his personality.\nFrom the reply of the pledge, Knawem felt her bond and rivalry.
 悪と正義、それぞれのこだわりを持って高笑いの練習に励んで\nいるノウェムとマサキ。満足のいく高笑いの実現のため二人は\n協力（？）することになるが、巻き込まれたオクトーはため息\nをつくのだった。=Evil and justice, Knawem and Masaki are working hard to practice high laughter.\nThe two will cooperate (?) To realize a satisfactory laugh, but the involved Okto sighed.
 ノウェムとオクトーは時と場所を選ばず勝負を仕掛けてくるダ\nイゴについて、跳躍王にクレームを入れる。しかし跳躍王にす\nらダイゴは制御不能だと言われ、二人は肩を落とすのであっ\nた。=Nawem and Okto complain to the jumping king about Daigo, who will play the game regardless of time and place.\nHowever, even the jumping king told me that Daigo was unable to control, and they dropped their shoulders.
-[3C404EFF]ギルドハウス内を捜し回り、=Looking around the Guildhouse,
+ギルドハウス内を捜し回り、=Looking around the Guildhouse,
 張り込み中のノウェムとオクトーは、会話の中で理想のギルド\nハウスの話題になり、やがて自分たちはこのゲームを楽しめて\nはいないのではと気付く。そして、いつか本当に楽しめる日が\n来ることを想い馳せる。=Knawem and Okto, who are in the conversation, become a topic of the ideal Guildhouse in the conversation, and eventually realize that they have not enjoyed this game.\nAnd I will think that someday you can really enjoy it.
-[3C404EFF]任務に向かうノウェムとオクトーは、出立前に跳躍王の元へと向かう。=Knowem and Okto head for their mission head to the jumping king before leaving.
+任務に向かうノウェムとオクトーは、出立前に跳躍王の元へと向かう。=Knowem and Okto head for their mission head to the jumping king before leaving.
 任務のために跳躍王から跳躍の力を借りるノウェムとオク\nトー。しかしその能力を買い物などの私用に使っていたことが\nバレてしまい、お仕置きとして極寒の雪山に跳躍させられ、放\n置されてしまうのだった。=Knowem and Okto who borrow the power of jumping from the jumping king for their mission.\nHowever, what I used for private use such as shopping was broken, and I was left to the frigid snowy mountain as a punishment and was left alone.
 ノウェム=Knowem
-[3C404EFF]教授、[3C404EFF]ちょっと例のアレ=Professor, a little example
+教授、ちょっと例のアレ=Professor, a little example
 誓約女君と剣を交えるノウェム。絶対防御を破りたいという彼\n女の思いを聞いてオクトーは逃げようとするが、結局手伝うこ\nとになってしまう。そのまま二人は力を合わせ誓約女君に挑む\nのであった。=Knowem who has a sword with a pledge.\nOkto tries to escape after hearing her desire to break her absolute defense, but she ends up helping.\nThey just worked together and challenged the pledge.
 たまたま出会ったダイゴと世間話をするノウェムとオクトー。\n打ち合わせ一切なしの状態で見事な連携でダイゴの名前を弄\nる。ついにブチ切れて暴れ出したダイゴから、二人は笑いなが\nら逃げ出すのだった。=Nawem and Okto talk with Daigo who happened to meet Daigo.\nWith no meeting at all, play with Daigo's name with a wonderful cooperation.\nFinally, the two fled from Daigo, who were cut off and rampaged.
-[3C404EFF]暇を持てあましたノウェムとオクトーは、[3C404EFF]\nたまたま鉢合わせたダイゴに話しかける。=Knawem and Okto, who have spare time, happen to talk to Daigo, a bowl.
+暇を持てあましたノウェムとオクトーは、\nたまたま鉢合わせたダイゴに話しかける。=Knawem and Okto, who have spare time, happen to talk to Daigo, a bowl.
 晶の人柄について変貌大妃に尋ねるノウェム。仕事では助け合\nうこともあったが、それでも晶は信用できない怪しい女だと言\nい張る変貌大妃に、ノウェムは思わず本音をこぼしかけたの\nだった。=Knowem asks the great princess of Akira's personality.\nHer work sometimes helped each other, but she still spilled her true intentions to her transformation, claiming that Akira was an unreliable suspicious woman.
-[3C404EFF]晶のことが気になっているノウェムは、=Knawem who is worried about Akira is
+晶のことが気になっているノウェムは、=Knawem who is worried about Akira is
 オクトーに化けてノウェムにイタズラする変貌大妃。しかしノ\nウェムはあっさり正体を見抜いてしまう。深い絆を結んだ者た\nちが相手だと、変化を見抜かれやすいのかもしれないと変貌大\n妃は感心するのだった。=A transformed princess who turns into an okto and mischieves in the knowawem.\nHowever, the knawem easily sees her true identity.\nThe transformed princess was impressed that if those who had a deep bond were the opponent, they could be easily spotted.
-[3C404EFF]ノウェムは、次の戦いに向けて作戦を立てたいと、=Nawem wants to make a strategy for the next battle
+ノウェムは、次の戦いに向けて作戦を立てたいと、=Nawem wants to make a strategy for the next battle
 ノウェムは、オクトーが戦闘をモンスターに任せていることに\n疑問を抱く。オクトーはモンスターの有用性を説くが、扱いの\n難しい一体がいるという。それが自分だと気付いたノウェムは\nオクトーを追いかける。=Knawem questions Okto's battle to monsters.\nOkto preaches the usefulness of monsters, but it is said that there is a difficult one to handle.\nKnowem realizes that it is himself chasing Okto.
-[3C404EFF]その日、一仕事を終えたノウェムとオクトーは、帰路についていた。=On that day, Konowem and Okto, who finished their work, were on the way home.
+その日、一仕事を終えたノウェムとオクトーは、帰路についていた。=On that day, Konowem and Okto, who finished their work, were on the way home.
 激務を終え疲労困憊のムイミとオクトー。だがこれも自由になるためだと\n自分たちに言い聞かせる。そして、自分たちの目標が世界一の悪いヤツら\nになることだと、改めて確認し合うのだった。=Muimi and Okto who are exhausted after finishing hard work.\nBut tell us that this is also free.\nAnd they checked again that their goals would be the worst guys in the world.
-[3C404EFF]激務を終えたノウェムとオクトーは、やっとの思いで街へと戻ってきた。=Knawem and Okto, who have finished their hard work, have finally returned to the city with their own thoughts.
+激務を終えたノウェムとオクトーは、やっとの思いで街へと戻ってきた。=Knawem and Okto, who have finished their hard work, have finally returned to the city with their own thoughts.
 過去を超える思い出を=Memories beyond the past
 全ての結晶に触れ、懐かしい思い出を見てきたムイミ。楽しかった過去に\n浸りたいという想いを振り切り、ムイミは進むことを決意する。昔の思い\n出を超える未来を作るために、彼女は目を覚ますのであった。=Muimi touched all crystals and saw nostalgic memories.\nShe shakes her desire to immerse him in the fun past, and Muimi decides to go.\nShe woke up to create a future beyond old memories.
-[3C404EFF]不思議な結晶に触れ、様々な思い出を感じたムイミ。=Muimi touched a mysterious crystal and felt various memories.
+不思議な結晶に触れ、様々な思い出を感じたムイミ。=Muimi touched a mysterious crystal and felt various memories.
 追想のデフラグ カスタムマイページ=Remarkable defragmentation custom My page

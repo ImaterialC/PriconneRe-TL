@@ -1,32 +1,30 @@
----Profile
-グ=G
-レア=rea 
+---Profile---
 ピアノ=Piano
 半人半竜=Half-human half-dragon
 
 人を超越した力を有す心優しい竜姫=A kind-hearted dragon princess with powers that transcend human beings.
----Skills
----UB
+---Skills---
+---UB---
 マッドネスクリーヴ=Cleaving Madness
 前方範囲内の敵すべてに魔法大ダメージを与える。=Deals large M.DMG to all enemies in range.
----S1
+---S1---
 目の前の敵１キャラの所まで無敵状態で突進し、魔法中ダメージを与える。=Gains invincibility and charges toward an enemy directly in front, dealing moderate M.DMG.
 
 r:"^飛行中無敵状態になる\n敵単体に(\d+)の魔法ダメージ$"=Becomes immune to all damage while in flight.\nDeals $1 M.DMG to an enemy.
----S2
+---S2---
 最も物理攻撃力が高い敵を中心として、魔法ダメージフィールドを展開する。=Deploys a field that deals M.DMG around the enemy with the highest P.ATK.
 r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する$"=Deploys a field that deals $1 M.DMG every second.
----ex
+---ex---
 ドラグハート=Dragonheart
 
----Skills+
----UB
----S1
+---Skills+---
+---UB---
+---S1---
 目の前の敵１キャラの所まで無敵状態で突進し、魔法大ダメージを与え、さらにその周囲の敵に魔法中ダメージを与える。=It rushes to one character in front of you in invincible state, causes M.DMG, and also causes M.DMG to the surrounding enemies.
 
 r:"^飛行中無敵状態になる\n敵単体に(\d+)の魔法ダメージ\n範囲内の敵に(\d+)の魔法ダメージ$"=Become invincible during flight\nM.DMG of $1 to the enemy aloneM.DMG of $2 to enemies in the range
----S2
----ex
+---S2---
+---ex---
 ドラグハート+=Dragonheart+
----UE
+---UE---
 ドラグアミュレット=Draga Amulet

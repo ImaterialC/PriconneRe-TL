@@ -3,7 +3,7 @@ r:"^ガストロス山([0-9\-\(\)\w （）]*)$"=Mount Gastros Venue $1
 
 勝利のおせち=Victory New Year
 
-んなでおせちパーティー=veryone's New Year Party
+みんなでおせちパーティー=Everyone's New Year Party
 
 ノーマルクエスト・ハードクエストのクリア時に出現することがあります=It may appear when the normal quest hard quest is cleared
 集合写真追加=Group photo addition

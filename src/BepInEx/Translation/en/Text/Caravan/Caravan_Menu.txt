@@ -1,5 +1,4 @@
 キャラバン=Caravan
-ャラバン=Caravan
 ボーナス一覧=Bonus List
 経過ターン=Elapsed Turns
 
@@ -54,6 +53,9 @@ r:"^レベル(\d)$"=Level $1
 以下のアイテムを獲得しました。=Obtained the following items:
 ボーナスレベル=Bonus level
 到達までにかかったターン数=Turns Needed to Reach Checkpoint
+
+---Sell Dhises---
+[3B3F4D](.+)を売却して\n[-][FFBB00,CE4F00](\d+)[-][3B3F4D]マイルを獲得しました。[-]=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
 
 ---Lottery---
 福引結果=Lottery Results

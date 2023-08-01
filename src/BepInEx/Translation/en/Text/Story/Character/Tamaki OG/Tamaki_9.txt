@@ -4,17 +4,17 @@
 猫２=Cat 2
 猫３=Cat 3
 r:"^価格操作により多額の利益を得る悪党の存在を知ったタマキたち。調査の準備をするタマキに([\s\S]{2,10})も手伝うと申し出るが、彼を心配したタマキは無理難題なテストを出して諦めさせようとする。$"=Tamaki and her friends learned of the existence of villains who made huge profits by manipulating prices. $1 offered to help Tamaki prepare for the investigation, but Tamaki, who was worried about him, tried to make him give up by giving him an impossible test.
-r:"^(?:\[3C404EFF\])?──たい焼き屋で働くタマキ。(?:\[3C404EFF\])?\n臨時バイトとして入った(.{2,10})と共に、(?:\[3C404EFF\])?\n次々とたい焼きを焼いていくのであった。$"=──Tamaki, who works at a taiyaki shop. She and $1, who joined as a temporary part-timer, were baking taiyaki one after another.
+r:"^──たい焼き屋で働くタマキ。\n臨時バイトとして入った(.{2,10})と共に、\n次々とたい焼きを焼いていくのであった。$"=──Tamaki, who works at a taiyaki shop. She and $1, who joined as a temporary part-timer, were baking taiyaki one after another.
 タマキちゃん！\nいつものあずきを一つくれ！=Tamaki-chan!\nGive me one of your usual red bean paste!
 こっちは白あんで頼むよ！=I order this with white bean paste, please!
-r:"^(?:\[3C404EFF\])?毎度ありにゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?あずき一つに(?:\[3C404EFF\])?白あん一つ……(?:\[3C404EFF\])?(.{2,10})、(?:\[3C404EFF\])?\nこっちのあんこが切れそうだから、(?:\[3C404EFF\])?準備しといてにゃ！$"=Thank you for your patronage! One red bean paste and one white bean paste... $1, this bean paste is running out, so get ready for it!
+r:"^毎度ありにゃ！\nあずき一つに白あん一つ……(.{2,10})、\nこっちのあんこが切れそうだから、準備しといてにゃ！$"=Thank you for your patronage! One red bean paste and one white bean paste... $1, this bean paste is running out, so get ready for it!
 もう用意してある。=I have it ready.
-r:"^(?:\[3C404EFF\])?おお、(?:\[3C404EFF\])?仕事が早いにゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})がバイトに入ってくれて、(?:\[3C404EFF\])?\n本当に助かってるにゃ～♪$"=Oh, you're quick! I'm really grateful that you joined as a part-timer, $1~nya♪
+r:"^おお、仕事が早いにゃ！\n(.{2,10})がバイトに入ってくれて、\n本当に助かってるにゃ～♪$"=Oh, you're quick! I'm really grateful that you joined as a part-timer, $1~nya♪
 へえ……=I see...
 ん、どうかしたかにゃ？=Hm, what's wrong~nya?
 いやいや、\nなんだか夫婦でたい焼き屋をやってるみたいに、\n二人の息がぴったりだったから、見てて感動しちゃってね。=No, no, it's just that you two looked like a married couple running a taiyaki shop, and I was moved by how well you worked together.
 そ、そうかにゃ？\nにゃはは～、なんだか照れるにゃ～♪=Is that so?~nya ha ha~, that makes me blush~nya♪
-r:"^(?:\[3C404EFF\])?ねえねえ、(?:\[3C404EFF\])?(.{2,10})。(?:\[3C404EFF\])?\nなんだったら、(?:\[3C404EFF\])?本当に結婚しちゃうかにゃ？$"=Hey, hey, $1.\nWhy don't we get married for real~nya?
+r:"^ねえねえ、(.{2,10})。\nなんだったら、本当に結婚しちゃうかにゃ？$"=Hey, hey, $1.\nWhy don't we get married for real~nya?
 うん、分かった。=Okay, Let's do it.
 え！？\nちょっ、ちょっと待つにゃ！\nいくらなんでもその……ほ、本気なのかにゃ？=Eh!?\nWait a minute! It's so sudden...\nA-are you serious~nya?
 ははっ！\n最近、物価が上がって大変だから、\nこういう楽しげな話が聞けてうれしいよ。=Ha ha! Lately, prices have been rising and it's been tough, so I'm glad to hear such a cheerful story.
@@ -37,11 +37,11 @@ r:"^(?:\[3C404EFF\])?ねえねえ、(?:\[3C404EFF\])?(.{2,10})。(?:\[3C404EFF\]
 は、早すぎるにゃ！\nまだ30秒もたってないにゃ！=~nya? That's too fast~nya!\nIt hasn't even been 30 seconds~nya!
 もしかして、\nあたしの……義賊ファントムキャッツに協力するつもりなのかにゃ？=Are you...\nplanning to join me... as a righteous thief Phantom Cat~nya?
 そ、そんなのダメに決まってるにゃ！！=O-Of course you can't~nya!!
-r:"^(?:\[3C404EFF\])?……あ、(?:\[3C404EFF\])?き、(?:\[3C404EFF\])?きつく言ってごめんにゃ？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?でも、(?:\[3C404EFF\])?(.{2,10})は一般人なんだから、(?:\[3C404EFF\])?\nもう首を突っ込むのはやめた方がいいにゃ。$"=...Ah, s-sorry for being harsh~nya?\nBut $1're a civilian,\nso you should stop sticking your nose in this~nya.
+r:"^……あ、き、きつく言ってごめんにゃ？\nでも、(.{2,10})は一般人なんだから、\nもう首を突っ込むのはやめた方がいいにゃ。$"=...Ah, s-sorry for being harsh~nya?\nBut $1're a civilian,\nso you should stop sticking your nose in this~nya.
 こういうことはあたしに任せるのにゃ！\nファントムキャッツであるあたしに、\n不可能はないにゃ！=Leave this to me~nya!\nThere's nothing impossible for me as a Phantom Cat~nya!
 タマキの力になりたい。=I want to help Tamaki.
 あ、あたしの力にって……ほ、本当かにゃ？\nえっと、だったら……はっ！=A-are you sure~nya?\nE-erm... then... ah!
-r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?あたしはなにを考えているにゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?これ以上、(?:\[3C404EFF\])?(.{2,10})を危険な目にあわせたくないにゃ！(?:\[3C404EFF\])?\nここは断らないと……(?:\[3C404EFF\])?ん！　$"=W-what am I thinking~nya!\nI don't want to put $1 in any more danger~nya!\nI have to refuse... Mm!　
+r:"^あ、あたしはなにを考えているにゃ！\nこれ以上、(.{2,10})を危険な目にあわせたくないにゃ！\nここは断らないと……ん！　$"=W-what am I thinking~nya!\nI don't want to put $1 in any more danger~nya!\nI have to refuse... Mm!　
 うぅ……なんかすっごい寂しそうな目で見てるにゃ……\nそんな、捨て猫みたいな目で見ないでほしいにゃぁ……=I have to refuse him... hm!\nUgh... he's looking at me with such sad eyes...\ndon't look at me like that, like an abandoned cat...
 ……でも、ここは心を鬼にして、きっぱりと断るべきにゃ！\nよーし、びしっと言ってやるにゃ～！　=...But now, I need to hardened my heart and flatly refuse~nya!\nAlright, I'll say it clearly~nya!
 ……迷惑かな？=...Will it bother you?
@@ -51,8 +51,8 @@ r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?あたしはなにを考えている
 でも、義賊というのは、とっても大変なのにゃ。\nだから、テストさせてもらうにゃ！\n名付けて、『ファントムキャッツの相棒テスト』にゃ！=But being a righteous thief is very hard~nya. That's why I'll test you~nya! I call it, "Phantom Cat's Partner Test"~nya!
 言っておくけど、このテストは厳しいにゃよ？\n一緒に行動するからには、それは相棒にゃ！\n互いを支え合うぐらいの能力がなければならないのにゃ！=I'll tell you, this test is tough~nya.\nSince we'll act together, you're my partner~nya! You have to have the ability to support each other~nya!
 
-r:"^(?:\[3C404EFF\])?だから、(?:\[3C404EFF\])?いくら(.{2,10})に不思議な力があっても、(?:\[3C404EFF\])?\nこんなひょろひょろの腕じゃ、(?:\[3C404EFF\])?テストを受けることすら……$"=So, even if $1 has a mysterious power~nya, with such a weak arm~nya, you can't even take the test~nya...
-r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?あれ？(?:\[3C404EFF\])?\n(.{2,10})ってこんなに鍛えてたのかにゃ？$"=H-Huh? Was $1 this trained~nya?
+r:"^だから、いくら(.{2,10})に不思議な力があっても、\nこんなひょろひょろの腕じゃ、テストを受けることすら……$"=So, even if $1 has a mysterious power~nya, with such a weak arm~nya, you can't even take the test~nya...
+r:"^あ、あれ？\n(.{2,10})ってこんなに鍛えてたのかにゃ？$"=H-Huh? Was $1 this trained~nya?
 あ、改めて見ると、結構がっちりしてるにゃ。\n年下だし、弟みたいって色々とからかってたけど、\nなんだかずいぶんと頼れる感じになったにゃ……=Ah, now that I look at him again~nya, he's pretty firm~nya. He's younger than me, and I teases him about how he looks like a little brother, but he seems pretty reliable~nya...
 な、なんか見てるだけでも照れてきたにゃ……\n早くテストを終わらせて、失格にするにゃ！　=S-somehow I feel embarrassed just looking at him~nya...\nLet's finish the test quickly and disqualify him~nya!
 ではまず、\n身体能力テストを……にゃぁぁあああ～～！！=First of all,\nthe physical ability test...~nyaaaaaa~!!
@@ -62,7 +62,7 @@ r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?あれ？(?:\[3C404EFF\])?\n(.{2,10}
 い、いや、そんなふうに答えられても、\nこっちはどうしてこうなっているか、\nまったく訳が分からないのにゃ！=N-no, even if you answer me like that,\nI don't understand why you did this~nya!
 あ、もしかして、\n互いを『支える』ってのを勘違いしているのかにゃ！？=Oh, maybe you misunderstood what it means to "support" each other~nya!?
 互いを支えるってのは、\n物理的に『支える』って意味じゃないにゃ！\nと、とにかく！　恥ずかしいから降ろすにゃ～～！！=Supporting each other doesn't mean physically "supporting" them~nya!\nA-anyway! It's embarrassing so put me down~nya!!
-r:"^(?:\[3C404EFF\])?I see...(?:\[3C404EFF\])?はあ……(?:\[3C404EFF\])?(.{2,10})。(?:\[3C404EFF\])?\nいくら記憶喪失だからって、(?:\[3C404EFF\])?\n女の子にこんなことばっかしてたらそのうち捕まるにゃ……$"=Haa... haa... $1. Even if you have amnesia, if you keep doing this to girls, you'll get caught someday~nya...
+r:"^I see...はあ……(.{2,10})。\nいくら記憶喪失だからって、\n女の子にこんなことばっかしてたらそのうち捕まるにゃ……$"=Haa... haa... $1. Even if you have amnesia, if you keep doing this to girls, you'll get caught someday~nya...
 え……次のテストはなにかって……=Huh... "what's the next test?"
 き、鍛えてるのは分かったから、\nもう身体能力テストはやめて、最後のテストを始めるにゃ！=S-since I know you're trained,\nlet's stop the physical ability test and start the final test~nya!
 もう最後なの？=Already the last one?
@@ -73,7 +73,7 @@ r:"^(?:\[3C404EFF\])?I see...(?:\[3C404EFF\])?はあ……(?:\[3C404EFF\])?(.{2,
 ……にゃあ？=...Nya?
 ふっふっふっ、ファントムキャッツの相棒ならば、\n猫に好かれてしかるべきなのにゃ！\nさあ、この猫たちに懐かれてみるにゃ！=Fufufu, if you're a Phantom Cat's partner, you should be liked by cats~nya! Now, let's see if these cats can get attached to you~nya!
 ふっふっふっ、\nこの子たちはあたし以外に懐かない……これで失格確定にゃ！　=Fufufu, these kids won't get attached to anyone but me... this is a sure disqualification~nya!
-r:"^(?:\[3C404EFF\])?悪く思わないでほしいにゃ……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?これも、(?:\[3C404EFF\])?(.{2,10})のためなのにゃ！　$"=Don't take it personally~nya...\nthis is for $1's sake too~nya!
+r:"^悪く思わないでほしいにゃ……\nこれも、(.{2,10})のためなのにゃ！　$"=Don't take it personally~nya...\nthis is for $1's sake too~nya!
 さ～て、\n猫たちに懐かれることはできたかにゃ？\nダメだったら諦めても……=Now then,\nhave you been able to get attached to the cats~nya?\nIf you can't, you can give up...
 にゃあ～♪=Nya~♪
 にゃにゃにゃーん！=Nya-nya-nyan!
@@ -85,75 +85,74 @@ r:"^(?:\[3C404EFF\])?悪く思わないでほしいにゃ……(?:\[3C404EFF\])?
 それで、テスト結果は？=So what's the test result?
 えっと、それはその……=Um that's...
 失格と言うのにゃ、タマキ！\nもうこうなったら、理由なんて後でどうとでもするにゃ！\nとにかく失格と言えば終わるはずなのにゃ！　=Say he's disqualified already Tamaki! Now that it's come to this just make up any reason later! Just say he's disqualified and it should be over!
-r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?あんな子どもみたいに目を輝かせていようが(?:\[3C404EFF\])?関係ないのにゃ！(?:\[3C404EFF\])?\nこれも、(?:\[3C404EFF\])?(.{2,10})のためなのにゃ！　$"=I-I don't care if he looks at me with such childish sparkling eyes! This is for $1's sake too!
+r:"^あ、あんな子どもみたいに目を輝かせていようが関係ないのにゃ！\nこれも、(.{2,10})のためなのにゃ！　$"=I-I don't care if he looks at me with such childish sparkling eyes! This is for $1's sake too!
 ──さあ、思いっきり失格って言ってやるにゃ～～！！！！　=──Come on say he's disqualified with all your might!! 
 ………………サ、サポートだけなら、付いてきてもいいにゃ。=................Y-you can come along if it's just support.
-r:"^(?:\[3C404EFF\])?──こうしてタマキは、(?:\[3C404EFF\])?\n(.{2,10})と共に、\n新たなる敵に立ち向かうのであった。$"=──And so, Tamaki, along with $1, faced a new enemy.
+r:"^──こうしてタマキは、\n(.{2,10})と共に、\n新たなる敵に立ち向かうのであった。$"=──And so, Tamaki, along with $1, faced a new enemy.
 
 
-[3C404EFF]タマキちゃん！[3C404EFF]\nいつものあずきを一つくれ！=Tamaki-chan!\nGive me one of your usual red bean paste!
-[3C404EFF]こっちは[3C404EFF]白あんで頼むよ！=I order this with white bean paste, please!
-[3C404EFF]へえ……=I see...
-[3C404EFF]ん、[3C404EFF]どうかしたかにゃ？=Hm? What's wrong, meow?
-[3C404EFF]いやいや、[3C404EFF]\nなんだか夫婦でたい焼き屋をやってるみたいに、[3C404EFF]\n二人の息がぴったりだったから、[3C404EFF]見てて感動しちゃってね。=No, no, it's just that you two looked like a married couple running a taiyaki shop, and I was moved by how well you worked together.
-[3C404EFF]そ、[3C404EFF]そうかにゃ？[3C404EFF]\nにゃはは～、[3C404EFF]なんだか[3C404EFF]照れるにゃ～♪=Is that so?~nya ha ha~,\nthat makes me blush~nya♪
 
-[3C404EFF]え！？[3C404EFF]\nちょっ、[3C404EFF]ちょっと待つにゃ！[3C404EFF]\n[3C404EFF]いくらなんでも[3C404EFF]その……[3C404EFF]ほ、[3C404EFF]本気なのかにゃ？=Eh!?\nWait a minute! It's so sudden...\nA-are you serious~nya?
 
-[3C404EFF]ははっ！[3C404EFF]\n最近、[3C404EFF]物価が上がって大変だから、[3C404EFF]\nこういう楽しげな話が聞けてうれしいよ。=Ha ha! Lately, prices have been rising and it's been tough, so I'm glad to hear such a cheerful story.
-[3C404EFF]物価が上がってるのにゃ？=Prices are going up~nya?
-[3C404EFF]Yeah.[3C404EFF]\n食い物に服、[3C404EFF]日用品まで値上がりしてやがる。=Yeah.\nFood, clothes, daily necessities, everything is getting more expensive.
-[3C404EFF]……そういえば最近、[3C404EFF]猫のエサも高いし、[3C404EFF]\n店長もたい焼きの値段を上げるかもってぼやいてたにゃ。=...Come to think of it, cat food has been expensive lately, and the manager was grumbling about how he might raise the price of taiyaki.
-[3C404EFF]……ここだけの話だけど、[3C404EFF]物価が上がってるってのは、[3C404EFF]\n商人どもが値段を示し合わせて、[3C404EFF]価格を操作してるかららしいぞ。=...This is just between us, but the reason why prices are rising is because the merchants are colluding and manipulating the prices.
-[3C404EFF]そ、[3C404EFF]そうなのかにゃ！=I-Is that true~nya!
-[3C404EFF]ま、[3C404EFF]たんなる噂さ。[3C404EFF]\n……[3C404EFF]でもそれが本当なら、[3C404EFF]\n今頃あいつらは笑いが止まらないだろうさ。=Well, it's just a rumor.\n...But if it's true, they must be laughing their heads off by now.
-[3C404EFF]ちくしょう！[3C404EFF]\n苦労するのはいつだって、[3C404EFF]俺たちみたいな貧乏人ってことかよ！=Damn it!\nIt's always us poor people who have to suffer!
-[3C404EFF]さーて、[3C404EFF]そろそろ仕事に戻るか。=Well, time to get back to work.
-[3C404EFF]俺も行くかな。[3C404EFF]\n[3C404EFF]またな、[3C404EFF]タマキちゃん！=I'll go too.\nSee you later, Tamaki-chan!
-[3C404EFF]あ、[3C404EFF]毎度あり！[3C404EFF]\n[3C404EFF]また来てにゃ～！=Ah, thank you for coming!\nCome again~nya!
-[3C404EFF]……さっきのお客さんたちの話なんだけど、[3C404EFF]\n[3C404EFF]もしかしたら、[3C404EFF]\nまたアクドーイ商会みたいなのが現れたのかもしれないにゃ。=...About what those customers were talking about earlier,\nmaybe there's another Krook'd & Co. out there~nya.
-[3C404EFF]その通りにゃ！[3C404EFF]\nみんなをいじめる悪い商会なんて、[3C404EFF]\nファントムキャッツが懲らしめてやるにゃ！=That's right~nya!\nThe Phantom Cat will teach those bad trading companies a lesson~nya!
-[3C404EFF]まずは、[3C404EFF]噂が本当かどうかを調査することから始めるにゃ。[3C404EFF]\n[3C404EFF]アクドーイのときみたいに、[3C404EFF]ニセ情報で失敗するのはもうたくさんにゃ。=First of all, we need to investigate whether the rumor is true or not~nya.\nWe don't want to fail again with false information like we did with Krook~nya.
-[3C404EFF]商会の情報に強そうなアキノにも協力してもらって……[3C404EFF]にゃ？[3C404EFF]\nどうかしたのかにゃ？=We'll ask Akino for help too...~nya?\nWhat's wrong~nya?
-[3C404EFF]は、[3C404EFF]早すぎるにゃ！[3C404EFF]\nまだ30秒もたってないにゃ！=~nya? That's too fast~nya!\nIt hasn't even been 30 seconds~nya!
-[3C404EFF]もしかして、[3C404EFF]\nあたしの……[3C404EFF]義賊ファントムキャッツに協力するつもりなのかにゃ？=Are you...\nplanning to join me... as a righteous thief Phantom Cat~nya?
-[3C404EFF]そ、[3C404EFF]そんなのダメに決まってるにゃ！！=O-Of course you can't~nya!!
-[3C404EFF]こういうことは[3C404EFF]あたしに任せるのにゃ！[3C404EFF]\n[3C404EFF]ファントムキャッツであるあたしに、[3C404EFF]\n不可能はないにゃ！=Leave this to me~nya!\nThere's nothing impossible for me as a Phantom Cat~nya!
-[3C404EFF]あ、[3C404EFF]あたしの力にって……[3C404EFF]ほ、[3C404EFF]本当かにゃ？[3C404EFF]\n[3C404EFF]えっと、[3C404EFF]だったら……[3C404EFF]はっ！=A-are you sure~nya?\nE-erm... then... ah!
 
-[3C404EFF]うぅ……[3C404EFF]なんかすっごい寂しそうな目で見てるにゃ……[3C404EFF]\nそんな、[3C404EFF]捨て猫みたいな目で見ないでほしいにゃぁ……=I have to refuse him... hm!\nUgh... he's looking at me with such sad eyes...\ndon't look at me like that, like an abandoned cat...
-[3C404EFF]……でも、[3C404EFF]ここは心を鬼にして、[3C404EFF]きっぱりと断るべきにゃ！[3C404EFF]\n[3C404EFF]よーし、[3C404EFF]びしっと言ってやるにゃ～！　=...But now, I need to hardened my heart and flatly refuse~nya! Alright, I'll say it!　
-[3C404EFF]………………ま、[3C404EFF]まあ、[3C404EFF]考えなくもないにゃ。=................W-well, I'm not completely against it.
-[3C404EFF]うにゃ～～！！[3C404EFF]\n[3C404EFF]あたしは何を言ってるのにゃ～～！！！！　=Unyaaaa!!\nWhat am I saying~nya!!!!　
-[3C404EFF]い、[3C404EFF]今からでも、[3C404EFF]\nなんでもいいから理由をつけて断らにゃいと……[3C404EFF]そうにゃ！　=I-I have to refuse him somehow...\nthat's it! I'll make up some excuse and say no...
-[3C404EFF]でも、[3C404EFF]義賊というのは、[3C404EFF]とっても大変なのにゃ。[3C404EFF]\nだから、[3C404EFF]テストさせてもらうにゃ！[3C404EFF]\n[3C404EFF]名付けて、[3C404EFF]『ファントムキャッツの相棒テスト』にゃ！=But being a righteous thief is very hard~nya. That's why I'll test you~nya! I call it, "Phantom Cat's Partner Test"~nya!
-[3C404EFF]言っておくけど、[3C404EFF]このテストは厳しいにゃよ？[3C404EFF]\n[3C404EFF]一緒に行動するからには、[3C404EFF]それは相棒にゃ！[3C404EFF]\n互いを支え合うぐらいの能力がなければならないのにゃ！=I'll tell you, this test is tough~nya.\nSince we'll act together, you're my partner~nya! You have to have the ability to support each other~nya!
-[3C404EFF]あ、[3C404EFF]改めて見ると、[3C404EFF]結構がっちりしてるにゃ。[3C404EFF]\n[3C404EFF]年下だし、[3C404EFF]弟みたいって色々とからかってたけど、[3C404EFF]\n[3C404EFF]なんだか[3C404EFF]ずいぶんと頼れる感じになったにゃ……=Ah, now that I look at him again~nya, he's pretty firm~nya. He's younger than me, and I teases him about how he looks like a little brother, but he seems pretty reliable~nya...
-[3C404EFF]な、[3C404EFF]なんか見てるだけでも照れてきたにゃ……[3C404EFF]\n[3C404EFF]早くテストを終わらせて、[3C404EFF]失格にするにゃ！　=S-somehow I feel embarrassed just looking at him~nya...\nLet's finish the test quickly and disqualify him~nya!
-[3C404EFF]ではまず、[3C404EFF]\n身体能力テストを……[3C404EFF]にゃぁぁあああ～～！！=First of all,\nthe physical ability test...~nyaaaaaa~!!
-[3C404EFF]な、[3C404EFF]ななな、[3C404EFF]なんであたしを持ち上げてるにゃ！？[3C404EFF]\nしかもこれ、[3C404EFF]お、[3C404EFF]おお、[3C404EFF]お姫さまだっこってやつにゃ！！=W-why are you holding me up~nya!?\nAnd this is the p-p-princess carry~nya!!
-[3C404EFF]い、[3C404EFF]いや、[3C404EFF]そんなふうに答えられても、[3C404EFF]\n[3C404EFF]こっちはどうしてこうなっているか、[3C404EFF]\nまったく訳が分からないのにゃ！=N-no, even if you answer me like that,\nI don't understand why you did this~nya!
-[3C404EFF]あ、[3C404EFF]もしかして、[3C404EFF]\n互いを『支える』ってのを[3C404EFF]勘違いしているのかにゃ！？=Oh, maybe you misunderstood what it means to "support" each other~nya!?
-[3C404EFF]互いを支えるってのは、[3C404EFF]\n物理的に『支える』って意味じゃないにゃ！[3C404EFF]\n[3C404EFF]と、[3C404EFF]とにかく！　[3C404EFF]恥ずかしいから降ろすにゃ～～！！=Supporting each other doesn't mean physically "supporting" them~nya! A-anyway! It's embarrassing so put me down~nya!!
-[3C404EFF]え……[3C404EFF]次のテストはなにかって……=Huh... "what's the next test?"
-[3C404EFF]き、[3C404EFF]鍛えてるのは分かったから、[3C404EFF]\nもう身体能力テストはやめて、[3C404EFF]最後のテストを始めるにゃ！=S-since I know you're trained,\nlet's stop the physical ability test and start the final test~nya!
-[3C404EFF]ぎ、[3C404EFF]義賊のテストってのは、[3C404EFF]こんなもんなのにゃ！=Th-This is what it means to be a thief, meow!
-[3C404EFF]……もし、[3C404EFF]テストの度に[3C404EFF]\nさっきみたいなことが起きたら、[3C404EFF]こっちの身がもたないにゃ！[3C404EFF]\n[3C404EFF]ここは早く諦めさせるにゃ！　=...If something like that happens every time I test, I won't last long~nya! I have to make him give up quickly~nya!
-[3C404EFF]言っておくけど、[3C404EFF]次の試験は最大の難関にゃ。[3C404EFF]\n[3C404EFF]さあみんな、[3C404EFF]こっちに来るにゃ～～！！=Just so you know, the next exam will be the biggest hurdle~nya. Come on, everyone, come here!!
-[3C404EFF]にゃにゃーん！=Nya-nyan!
-[3C404EFF]……にゃあ？=...Nya?
-[3C404EFF]ふっふっふっ、[3C404EFF]ファントムキャッツの相棒ならば、[3C404EFF]\n猫に好かれてしかるべきなのにゃ！[3C404EFF]\n[3C404EFF]さあ、[3C404EFF]この猫たちに懐かれてみるにゃ！=Hehehe, if you're a partner of the Phantom Cat, you should be liked by cats! Now, let's see if these cats can get attached to you~nya!
-[3C404EFF]ふっふっふっ、[3C404EFF]\nこの子たちはあたし以外に懐かない……[3C404EFF]これで失格確定にゃ！　=Fufufu, these kids won't get attached to anyone but me... this is a sure disqualification~nya!
-[3C404EFF]さ～て、[3C404EFF]\n猫たちに懐かれることはできたかにゃ？[3C404EFF]\nダメだったら諦めても……=Now then, have you been able to get attached to the cats~nya? If you can't, you can give up...
-[3C404EFF]にゃあ～♪=Nya~♪
-[3C404EFF]にゃにゃにゃーん！=Nya-nya-nyan!
-[3C404EFF]……にゃあ♪=...Nya♪
-[3C404EFF]なんかめちゃくちゃ懐いてるにゃー！！=They really attached to him, meow!!
-[3C404EFF]な、[3C404EFF]なんでにゃ！[3C404EFF]\n[3C404EFF]この子たちは[3C404EFF]あたし以外に懐かないはずにゃ！=Ny-Nyaa...!!\nI lost to food~nya...\nbut thank you for feeding them anyway~nya...
-[3C404EFF]にゃ、[3C404EFF]にゃんと……！！[3C404EFF]\n[3C404EFF]あたしは食べ物に負けたのかにゃ……[3C404EFF]\nでも、[3C404EFF]エサをあげてくれてありがとうとしか言えないにゃ……=Ny-Nyaa...!!\nI lost to food~nya...\nbut thank you for feeding them anyway~nya...
-[3C404EFF]えっと、[3C404EFF]それはその……=Um that's...
-[3C404EFF]失格と言うのにゃ、[3C404EFF]タマキ！[3C404EFF]\n[3C404EFF]もうこうなったら、[3C404EFF]理由なんて後でどうとでもするにゃ！[3C404EFF]\n[3C404EFF]とにかく失格と言えば終わるはずなのにゃ！　=Say he's disqualified already Tamaki!\nNow that it's come to this just make up any reason later!\nJust say he's disqualified and it should be over!
-[3C404EFF]──さあ、[3C404EFF]思いっきり失格って[3C404EFF]言ってやるにゃ～～！！！！　=──Come on say he's disqualified with all your might!! 
-[3C404EFF]………………サ、[3C404EFF]サポートだけなら、[3C404EFF]付いてきてもいいにゃ。=................Y-you can come along if it's just support.
 
-[3C404EFF]えっ……[3C404EFF]あ、[3C404EFF]うん。[3C404EFF]\nありがとにゃ……[3C404EFF]じゃなくて！[3C404EFF]\nなんであたしを持ち上げてるにゃ！=Eh...? Oh, I am flatered.\nThanks~nya... I mean!\nWhy are you lifting me up?!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

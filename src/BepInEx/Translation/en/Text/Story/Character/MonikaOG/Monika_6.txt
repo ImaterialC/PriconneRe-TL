@@ -7,7 +7,7 @@
 住民２=Resident 2
 r:"^街に多数の魔物が現れ、子供たちを連れ去ってしまう。(.{2,10})の助言で、モニカが人々に声をかけて子供の救出に向かうと意外な真相が判明する。魔物たちは人間に助けを求めていただけだった。$"=Numerous monsters appeared in the town and abducted the children. With $1's advice, Monika approached the people and headed for the rescue of the children, only to discover a surprising truth. The monsters were simply seeking help from humans.
 
-r:"^(?:\[3C404EFF\])?モニカと(.{2,10})が\n訓練に向かおうとした時だった──$"=Just as Monika and $1 were about to head off to train──
+r:"^モニカと(.{2,10})が\n訓練に向かおうとした時だった──$"=Just as Monika and $1 were about to head off to train──
 
 な！　魔物だと！？\n街の中まで入ってきたのか！？=What! Monsters!? They've entered the town!
 しかも、かなりの数だ……\n早く退治しないと──=And there are quite a few of them... We need to defeat them quickly...
@@ -17,7 +17,7 @@ r:"^(?:\[3C404EFF\])?モニカと(.{2,10})が\n訓練に向かおうとした時
 私の見ている前で、こんなことを許すとは、\nなんて情けない……\nなんとかしなければっ！=It's so disgraceful to allow this to happen right in front of me... I have to do something!
 
 待っていてくれ。\n私が必ず……！=Wait for me. I will definitely...
-r:"^(?:\[3C404EFF\])?(.{2,10})！？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?どうして、(?:\[3C404EFF\])?ここに……？$"=$1?!\nWhy are you here...?
+r:"^(.{2,10})！？\nどうして、ここに……？$"=$1?!\nWhy are you here...?
 そうか……\n私が何をするか予想したわけだな。=I see... You predicted what I would do.
 貴公の考えている通り、\n私は魔物のところに行って、\n子供たちを取り返すつもりだ。=As you expected, I'm planning to go to where the monsters are and retrieve the children.
 危険だということは、わかっている。\nしかし、どうやら私の友人たちもさらわれたらしい。\n放っておくことはできない！=I know it's dangerous. However, it seems that my friends have also been taken. I can't just leave them!
@@ -55,59 +55,58 @@ r:"^(?:\[3C404EFF\])?(.{2,10})！？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?どう�
 い、いや……私は、大したことは……=N-No... It wasn't much...
 お姉ちゃん、僕たちの話を聞いてくれて、\n魔物の子供を助けてくれてありがとう！=Onee-chan, thank you for listening to us and rescuing the monsters' children!
 う、うむ……\nこう何度も感謝されると、さすがに気恥ずかしいな。=Y-Yes... It's embarrassing to be thanked so many times.
-r:"^(?:\[3C404EFF\])?(.{2,10})、貴公もご苦労だったな。$"=$1, you've also worked hard.
+r:"^(.{2,10})、貴公もご苦労だったな。$"=$1, you've also worked hard.
 
 万事が丸く収まったのは貴公のおかげだ。\n街のみんなに協力を頼むなど、私では考えつかなかった。\n私一人なら……何も考えずに魔物に切り込んでいただろうな。=Everything turned out well thanks to you. I couldn't have come up with the idea to ask for cooperation from the townspeople. If it were just me... I would have rushed into the monsters without thinking.
 貴公には助けられてばかりだな。\n本当にありがとう。=I've been helped by you so many times. Thank you very much.
 これからも……私のそばにいて、助言してくれると……うれしい。=From now on... I'd be happy if you stay by my side and give me advice.
-r:"^(?:\[3C404EFF\])?微笑むモニカに、(.{2,10})もやさしく微笑み返すのだった。$"=As Monika smiled, $1 smiled gently back at her.
+r:"^微笑むモニカに、(.{2,10})もやさしく微笑み返すのだった。$"=As Monika smiled, $1 smiled gently back at her.
 
 
-[3C404EFF]な！　[3C404EFF]魔物だと！？[3C404EFF]\n街の中まで入ってきたのか！？=What! Monsters!?\nThey've entered the town!
-[3C404EFF]しかも、かなりの数だ……[3C404EFF]\n[3C404EFF]早く退治しないと──=And there are quite a few of them...\nWe need to defeat them quickly...
-[3C404EFF]うわぁあああん！[3C404EFF]\nお父さーん、お母さーん！！=Waaaah!\nMom! Dad!
-[3C404EFF]待ってくれっ！[3C404EFF]\n子供をどうするつもりだ！？=Wait! What are you planning to do with the children!?
-[3C404EFF]子供たちをさらっていったのか！？[3C404EFF]\n[3C404EFF]どうして、そんなことを……？=Did they take the children!?\nWhy would they do such a thing...?
-[3C404EFF]私の見ている前で、[3C404EFF]こんなことを許すとは、[3C404EFF]\n[3C404EFF]なんて情けない……[3C404EFF]\n[3C404EFF]なんとかしなければっ！=It's so disgraceful to allow this to happen right in front of me...\nI have to do something!
-[3C404EFF]待っていてくれ。[3C404EFF]\n私が必ず……！=Wait for me.\nI will definitely...
 
-[3C404EFF]そうか……[3C404EFF]\n私が何をするか予想したわけだな。=I see...\nSo you predicted what I would do.
-[3C404EFF]貴公の考えている通り、[3C404EFF]\n私は魔物のところに行って、[3C404EFF]\n子供たちを取り返すつもりだ。=As you expected, I'm planning to go to where the monsters are and retrieve the children.
-[3C404EFF]危険だということは、わかっている。[3C404EFF]\nしかし、[3C404EFF]どうやら私の友人たちもさらわれたらしい。[3C404EFF]\n[3C404EFF]放っておくことはできない！=I know it's dangerous.\nHowever, it seems that my friends have also been taken.\nI can't just leave them!
-[3C404EFF]救助依頼が色々なギルドに……？[3C404EFF]\n[3C404EFF]それもわかっている。=I understand that rescue requests have been sent to various guilds...?\nI'm aware of that.
-[3C404EFF]だが、[3C404EFF]あれだけの魔物が相手となると、[3C404EFF]\nどこのギルドも、[3C404EFF]そう簡単には引き受けないだろう。=But with so many monsters to deal with, no guild will easily take on the task.
-[3C404EFF]複数のギルドが協力することになるはずだが……[3C404EFF]\nギルド間の交渉を待ってはいられない。[3C404EFF]\n[3C404EFF]その間にも、[3C404EFF]子供たちが苦しんでいる！=Multiple guilds should cooperate... but we can't wait for negotiations between guilds.\nIn the meantime, the children are suffering!
-[3C404EFF]なんと言われても、[3C404EFF]私は行くぞ！=No matter what you say, I'm going!
 
-[3C404EFF]な、[3C404EFF]なにを言っている！？[3C404EFF]\nダメに決まっているだろう！[3C404EFF]\n[3C404EFF]貴公には危険すぎる！=Wha-what are you saying!?\nThat's out of the question!\nIt's too dangerous for you!
-[3C404EFF]ん？　[3C404EFF]貴公だけではない……[3C404EFF]だと？=Huh? It's not just you...?
-[3C404EFF]貴公には、[3C404EFF]なにか策があるようだな？[3C404EFF]\n聞かせてもらおうか。=Seems like you have a plan, don't you? Tell me about it.
-[3C404EFF]子供たちがいなくなって大変だってのに、[3C404EFF]\n急に呼び出して……なんなんだ？=Even though it's a serious matter that the children are missing, you suddenly called us... What's going on?
-[3C404EFF]おい、あの子がなんか話すみたいだぞ？=Hey, that kid seems like they want to say something.
-[3C404EFF]みんな、[3C404EFF]聞いてくれ！[3C404EFF]\n私はこれから子供たちを助けに向かう！[3C404EFF]\n[3C404EFF]どうか力を貸してくれ！=Listen, everyone!\n'm going to rescue the children from now on!\nPlease lend me your strength!
-[3C404EFF]ギルドに任せていては、[3C404EFF]\n救出がいつになるか、[3C404EFF]わからない……[3C404EFF]\n[3C404EFF]その間に子供たちに何かあっては大変だ！=We can't rely on the guilds and wait for who knows how long for the rescue...\nIt would be terrible if something happened to the children during that time!
-[3C404EFF]私たち全員が力を合わせれば、[3C404EFF]きっと成功する！[3C404EFF]\n[3C404EFF]みんなで子供たちを助けに行こう！=If we all join forces, we can definitely succeed! \nLet's go and rescue the children together!
-[3C404EFF]……そ、[3C404EFF]そうだよ。[3C404EFF]\n[3C404EFF]彼女の言う通りだ！=...Y-yeah.\nShe's right!
-[3C404EFF]ああ！　[3C404EFF]やってやる！[3C404EFF]\n自分たちの子供は、[3C404EFF]自分たちで取り戻すんだ！=Yeah! Let's do it! We'll retrieve our own children ourselves!
-[3C404EFF]みんな……[3C404EFF]ありがとう！[3C404EFF]\nでは、[3C404EFF]行くぞ！[3C404EFF]\n進軍開始だ！=Thank you, everyone!\nLet's go! Advance!
-[3C404EFF]おおおおお！！=Ooooooooh!!
-[3C404EFF]おーーーい！[3C404EFF]\nこっちに子供たちがいたぞーっ！=Heeey!\nThe children are over here!
-[3C404EFF]大丈夫か！？[3C404EFF]\n[3C404EFF]いま、[3C404EFF]みんなで魔物を倒して助け出してやるからな！=Are you all right?!\nWe'll defeat the monsters and rescue you all!
-[3C404EFF]パパ！　違うんだよ！　話を聞いて！=Dad! You're wrong! Listen to me!
-00[3C404EFF]住人たちが中を覗き込むと、穴の中には魔物の子供が\n落ちてしまったようで、切なげな声で鳴いていた。\nその姿からは、敵意のようなものは感じられない。=It seemed that the monsters' children had fallen into the hole and were whimpering. Their appearance didn't give off any sense of hostility.
-[3C404EFF]お、[3C404EFF]おい、[3C404EFF]誰がこんなとこに穴掘ったんだよ……=Hey, who dug this hole...?
-[3C404EFF]そ、[3C404EFF]そりゃ、[3C404EFF]俺が廃棄処分の資材を捨てようと思って……[3C404EFF]\n[3C404EFF]おい、[3C404EFF]とりあえずこいつを引き上げてみるぞ！=W-Well, I was going to dispose of some waste materials... Hey, let's pull this one up for now!
-[3C404EFF]その後、モニカと住民たちが恐る恐る魔物の子供を引き上げると、\n魔物たちはそれ以上深入りせず、森の奥へと帰っていった。=After that, Monika and the townspeople cautiously pulled up the monsters' children. The monsters didn't venture further and returned to the depths of the forest.
-[3C404EFF]これで済んだ……[3C404EFF]のか？=Is it over...?
-[3C404EFF]きっと……[3C404EFF]\nあの魔物たちは、街を襲いに来たのではなく、[3C404EFF]\n[3C404EFF]これを知らせに来ただけだったのだな……=I'm sure...\nthose monsters didn't come to attack the city, they just to let us know about this...
-[3C404EFF]いやー、[3C404EFF]とにかくぜんぶ丸く収まったな！　[3C404EFF]ありがとう！[3C404EFF]\n[3C404EFF]君がみんなで助けに行こうと提案してくれたおかげだ！=Well, everything worked out in the end! Thanks to you! It was your suggestion to go and help everyone!
-[3C404EFF]い、[3C404EFF]いや……[3C404EFF]私は、[3C404EFF]大したことは……=N-No... It wasn't much...
-[3C404EFF]お姉ちゃん、[3C404EFF]僕たちの話を聞いてくれて、[3C404EFF]\n[3C404EFF]魔物の子供を助けてくれてありがとう！=Onee-chan, thank you for listening to us and rescuing the monsters' children!
-[3C404EFF]う、[3C404EFF]うむ……[3C404EFF]\n[3C404EFF]こう何度も感謝されると、[3C404EFF]さすがに気恥ずかしいな。=Y-Yes...\nIt's embarrassing to be thanked so many times.
 
-[3C404EFF]万事が丸く収まったのは貴公のおかげだ。[3C404EFF]\n[3C404EFF]街のみんなに協力を頼むなど、[3C404EFF]私では考えつかなかった。[3C404EFF]\n[3C404EFF]私一人なら……何も考えずに魔物に切り込んでいただろうな。=Everything turned out well thanks to you. I couldn't have come up with the idea to ask for cooperation from the townspeople. If it were just me... I would have rushed into the monsters without thinking.
-[3C404EFF]貴公には助けられてばかりだな。[3C404EFF]\n本当にありがとう。=I've been helped by you so many times.\nThank you very much.
-[3C404EFF]これからも……私のそばにいて、[3C404EFF]助言してくれると……[3C404EFF]うれしい。=From now on...\nI'd be happy if you stay by my side and give me advice.
 
-[3C404EFF]だから、[3C404EFF]引き止めても無駄だ！[3C404EFF]\n私は一人でも……=So there’s no point in trying to stop me!\nI can’t do it alone...
-[3C404EFF]……ん？[3C404EFF]\nいったん帰る……と言ったか？=...Hm?\nDid you say you'd go home for now?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 r:"^アメスの力で(.{2,10})とモニカは夢を見る。二人は水泳の授業でバディを組む。モニカは自分の潜水の腕前を見せつけようとするが、(.{2,10})はモニカが溺れていると勘違いしてしまう。$"=With the power of Ameth, $1 and Monika have a dream. The two of them become swimming buddies in Monika's swimming class. Monika tries to show off her diving skills, but $1 misunderstands and thinks that Monika is drowning.
-r:"^(?:\[3C404EFF\])?(.{2,10})が街を歩いていると、\nモニカと出会った。$"=While $1 is walking in the city, she meets Monika.
+r:"^(.{2,10})が街を歩いていると、\nモニカと出会った。$"=While $1 is walking in the city, she meets Monika.
 
 ん？　貴公か。\nこれから買い出しに……？\n暑いのに感心だな。=Huh? Is it you?\nAre you going shopping...?\nIt's impressive even though it's hot.
 最近は、本当に暑くなってきて、外を歩くのもつらい……\n水浴びでもしたい気分だ。=Lately, it has become really hot, and it's tough to walk outside... I feel like taking a swim.
@@ -8,7 +8,7 @@ r:"^(?:\[3C404EFF\])?(.{2,10})が街を歩いていると、\nモニカと出会
 特殊部隊でも水中訓練はあったが、\n学校での水泳授業ははじめてだ。=Although the special forces had underwater training, this is their first time having a swimming class at school.
 このスクール水着というものも、はじめて着たが、\nなかなか動きやすくていいな。=This school swimsuit is also something they're wearing for the first time, but it's quite easy to move in.
 
-r:"^(?:\[3C404EFF\])?ほら(.{2,10})、何をしている？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?危険がないようにバディを組むように言われていただろう？$"=Come on, $1, what are you doing? I told you to form a buddy so there's no danger, didn't I?
+r:"^ほら(.{2,10})、何をしている？\n危険がないようにバディを組むように言われていただろう？$"=Come on, $1, what are you doing? I told you to form a buddy so there's no danger, didn't I?
 
 貴公は、私のバディなのだから、\nぼーっとしていないで、しっかりついてくるように！=Since you're my buddy, don't just stand there and stick close to me!
 しかし、バディと言うと……\nそれこそ特殊部隊の訓練を思い出すな。\n危険な訓練ではバディは必須だった。=But when it comes to being buddies... it reminds me of the special forces training. Buddies were essential during dangerous training.
@@ -20,8 +20,8 @@ r:"^(?:\[3C404EFF\])?ほら(.{2,10})、何をしている？(?:\[3C404EFF\])?\n(
 
 ふむ……久々だが、感覚は鈍っていないようだ。\nこれならば、自己ベストも出せるかもしれないな。=Hmm... it's been a while, but it seems like I haven't lost my sense. With this, I might even achieve a personal best.
 
-r:"^(?:\[3C404EFF\])?ふふふ。(?:\[3C404EFF\])?それほど長く潜っていれば、(?:\[3C404EFF\])?\n(.{2,10})もビックリするだろうな。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?私のすごさを、(?:\[3C404EFF\])?しっかりわからせてやる！$"=Hehehe. If I stay underwater for a long time, $1 will be surprised. I'll make her fully aware of my greatness!
-r:"^(?:\[3C404EFF\])?……ん？　(?:\[3C404EFF\])?なんだ？(?:\[3C404EFF\])?\n(.{2,10})も潜ってきた？$"=...Hm? What? Did $1 dive in too?
+r:"^ふふふ。それほど長く潜っていれば、\n(.{2,10})もビックリするだろうな。\n私のすごさを、しっかりわからせてやる！$"=Hehehe. If I stay underwater for a long time, $1 will be surprised. I'll make her fully aware of my greatness!
+r:"^……ん？　なんだ？\n(.{2,10})も潜ってきた？$"=...Hm? What? Did $1 dive in too?
 
 
 な、なにをする！？\nどうして私を抱えて……！？\nなぜ引き上げようとする！？=Wh-What are you doing!? Why are you holding me...!?Why are you trying to pull me up!?
@@ -39,7 +39,7 @@ r:"^(?:\[3C404EFF\])?……ん？　(?:\[3C404EFF\])?なんだ？(?:\[3C404EFF\]
 たくさんの女の子との『夢』を見ること……\nそれが世界の真実にたどり着くことになるの。\nがんばってね♪=To see "dreams" with many girls... that will lead you to the truth of the world. Good luck♪
 それじゃあ、またね～♪=Well then, see you later~♪
 
-r:"^(?:\[3C404EFF\])?ん……？　(?:\[3C404EFF\])?ここは？(?:\[3C404EFF\])?\n私は一体なにを……？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})、何が起きたんだ？$"=Hm...? Where am I? What on earth happened, $1?
+r:"^ん……？　ここは？\n私は一体なにを……？\n(.{2,10})、何が起きたんだ？$"=Hm...? Where am I? What on earth happened, $1?
 
 寝ていた……？　私が？\n……貴公も、ついさっきまで寝ていた、と？\n二人して道で寝てしまうとは……=I was sleeping...? Me?... You were also sleeping until just now? Both of us fell asleep on the road...
 しかし、面白い夢を見たぞ。\nプールで貴公と、水泳の授業というものを受けていた。=But, I had an interesting dream. I was taking a swimming class with you in a pool.
@@ -54,48 +54,47 @@ r:"^(?:\[3C404EFF\])?ん……？　(?:\[3C404EFF\])?ここは？(?:\[3C404EFF\]
 こ、この件については、私のほうで調査しておく！\nだから貴公はキレイさっぱり忘れるんだ！\nいいな！　絶対だぞ！=I'll investigate this matter on my own! So you should completely forget about it! Got it? Absolutely!
 
 
-[3C404EFF]ん？　[3C404EFF]貴公か。[3C404EFF]\n[3C404EFF]これから買い出しに……？[3C404EFF]\n[3C404EFF]暑いのに感心だな。=Huh? Is it you?\nAre you going shopping...?\nIt's impressive even though it's hot.
-
-[3C404EFF]最近は、本当に暑くなってきて、[3C404EFF]外を歩くのもつらい……[3C404EFF]\n[3C404EFF]水浴びでもしたい気分だ。=Lately, it has become really hot, and it's tough to walk outside... I feel like taking a swim.
-
-[3C404EFF]な、[3C404EFF]なんだ、[3C404EFF]この光は！？[3C404EFF]\n[3C404EFF]まぶしい……！？=Wh-What's this light!? It's dazzling...!
-[3C404EFF]うわぁああああ！！=Waaaaahhh!!
-[3C404EFF]特殊部隊でも水中訓練はあったが、[3C404EFF]\n[3C404EFF]学校での水泳授業ははじめてだ。=Although the special forces had underwater training, this is their first time having a swimming class at school.
-[3C404EFF]このスクール水着というものも、[3C404EFF]はじめて着たが、[3C404EFF]\n[3C404EFF]なかなか動きやすくていいな。=This school swimsuit is also something they're wearing for the first time, but it's quite easy to move in.
 
 
-[3C404EFF]貴公は、[3C404EFF]私のバディなのだから、[3C404EFF]\n[3C404EFF]ぼーっとしていないで、[3C404EFF]しっかりついてくるように！=Since you're my buddy, don't just stand there and stick close to me!
-[3C404EFF]しかし、[3C404EFF]バディと言うと……[3C404EFF]\n[3C404EFF]それこそ特殊部隊の訓練を思い出すな。[3C404EFF]\n[3C404EFF]危険な訓練ではバディは必須だった。=But when it comes to being buddies... it reminds me of the special forces training. Buddies were essential during dangerous training.
-[3C404EFF]あの頃は、[3C404EFF]何分潜っていられるかという[3C404EFF]\n潜水訓練をよくやっていたな……[3C404EFF]\n[3C404EFF]懐かしいものだ。=During those days, we often did diving training to see how long we could stay underwater... it brings back memories.
-[3C404EFF]よし、[3C404EFF]懐かしいついでに久々に潜水をしてみよう。[3C404EFF]\n[3C404EFF]私はかなりの時間潜っていられるぞ？=Alright, while we're at it, let's try diving after a long time. I can stay underwater for a considerable amount of time, you know?
+
+
+
+
+
+
+
+
+
+
+
+
 危険なんじゃ？=Isn't it dangerous?
-[3C404EFF]そうか！　[3C404EFF]興味があるか！[3C404EFF]\n[3C404EFF]まぁ、[3C404EFF]自慢するほどのものではないが、[3C404EFF]\n特別に近くで見せてやる。=I see! You're interested! Well, it's not something to brag about, but I'll show you up close.
-[3C404EFF]では、いくぞ。[3C404EFF]\nしっかり見ていろ！=Alright, let's go.\nWatch closely!
-[3C404EFF]ふむ……久々だが、感覚は鈍っていないようだ。[3C404EFF]\n[3C404EFF]これならば、自己ベストも出せるかもしれないな。=Hmm... it's been a while, but it seems like I haven't lost my sense. With this, I might even achieve a personal best.
 
-[3C404EFF]な、[3C404EFF]なにをする！？[3C404EFF]\nどうして私を抱えて……！？[3C404EFF]\n[3C404EFF]なぜ引き上げようとする！？=Wh-What are you doing!? Why are you holding me...!?Why are you trying to pull me up!?
-[3C404EFF]いや、[3C404EFF]そ、[3C404EFF]それよりも……手が……！？[3C404EFF]\n[3C404EFF]へ、[3C404EFF]変な所を触るなっ！=No, more importantly... your hands...!? D-Don't touch me there!
-[3C404EFF]プハッ！[3C404EFF]\n[3C404EFF]……き、[3C404EFF]き、貴公！　[3C404EFF]何をする！？[3C404EFF]\n人前でこんなことをして、[3C404EFF]タダで済むと──=Pwah! ...Y-Y-You! What are you doing?! Doing this in public for free?!
-[3C404EFF]な、[3C404EFF]なに？[3C404EFF]\n私が溺れていると思って……？=W-What? You thought I was drowning...?
-[3C404EFF]そうか……[3C404EFF]長く潜りすぎて心配させてしまったな。[3C404EFF]\n[3C404EFF]そ、そういうことなら、[3C404EFF]今回のことは許そう。=I see... I stayed underwater for too long and made you worried. I-I see, in that case, I'll forgive you for this incident.
-[3C404EFF]しかしだな！[3C404EFF]\n女性の体を触る時には、[3C404EFF]もっと気をつけろ！=However! When touching a woman's body, be more careful!
-[3C404EFF]私を助けるために焦っていたのはわかる……[3C404EFF]\n[3C404EFF]だがな、[3C404EFF]さっきのように、[3C404EFF]む、むね……胸部とか、[3C404EFF]\nへ、変な所を触られたら、[3C404EFF]反射的に手が出てしまうかもしれない。=I understand that you were in a hurry to help me... but if you touch strange places like... my, my chest or something, I might instinctively retaliate.
-[3C404EFF]……な、[3C404EFF]なんだ、[3C404EFF]その意外そうな顔は？[3C404EFF]\n[3C404EFF]なに？　[3C404EFF]触ったのは、[3C404EFF]背中だと思っていた……[3C404EFF]だと？=...What? That surprised expression on your face... What? You thought I was touched on the back...?
-[3C404EFF]う……[3C404EFF]うぐぐ……！[3C404EFF]\n[3C404EFF]誰がぺったんこだぁあああ！=Ugh... ughh...! Who did you think was flat?!
-[3C404EFF]どうだった？　[3C404EFF]あたしからのプレゼント！=How was it? A present from me!
-[3C404EFF]それにしても、[3C404EFF]モニカっていくら強がっても、[3C404EFF]\nどう見ても子供なのよね、体型が……[3C404EFF]\n[3C404EFF]ま、そこが可愛いんだけど。=By the way, no matter how much Monika pretends to be strong, she still looks like a child, especially her body... well, that's what makes her cute.
-[3C404EFF]あんたがもっと『記憶の欠片』を集めたら、[3C404EFF]\nまた『夢』を見せてあげるわ。=Once you gather more "Fragments of Memories," I'll show you another "dream."
-[3C404EFF]たくさんの女の子との『夢』を見ること……[3C404EFF]\nそれが世界の真実にたどり着くことになるの。[3C404EFF]\n[3C404EFF]がんばってね♪=To see "dreams" with many girls... that will lead you to the truth of the world. Good luck♪
-[3C404EFF]それじゃあ、[3C404EFF]またね～♪=Well then, see you later~♪
 
-[3C404EFF]寝ていた……？　[3C404EFF]私が？[3C404EFF]\n……貴公も、[3C404EFF]ついさっきまで寝ていた、[3C404EFF]と？[3C404EFF]\n[3C404EFF]二人して道で寝てしまうとは……=I was sleeping...? Me?... You were also sleeping until just now? Both of us fell asleep on the road...
-[3C404EFF]しかし、面白い夢を見たぞ。[3C404EFF]\nプールで貴公と、[3C404EFF]水泳の授業というものを受けていた。=But, I had an interesting dream. I was taking a swimming class with you in a pool.
-[3C404EFF]……貴公も同じ夢を？[3C404EFF]\nそれは不思議だな。[3C404EFF]二人が同じ夢を見るなど……=...You had the same dream? That's strange. The two of us having the same dream...
-[3C404EFF]身近な場所ならまだしも、[3C404EFF]まったく知らない所だったからな。[3C404EFF]\n[3C404EFF]偶然にしてはできすぎている……=If it were a familiar place, it would make sense, but it was a completely unfamiliar place. It's too much of a coincidence...
-[3C404EFF]なに？　[3C404EFF]懐かしい気がした、[3C404EFF]だと？[3C404EFF]\n[3C404EFF]……確かに、私もそんな感覚があった。=What? It felt nostalgic, you say?... Indeed, I felt the same way.
-[3C404EFF]ただの夢ではなさそうだな。[3C404EFF]\n私の軍人としての勘が、[3C404EFF]違和感を訴えている。=It doesn't seem like an ordinary dream. My instincts as a soldier are telling me something is off.
-[3C404EFF]それになにより、[3C404EFF]普通の夢ならおかしい点があった。[3C404EFF]\nどうせ夢なのだから、[3C404EFF]私はあんな幼児体形ではなく、[3C404EFF]\nもっとボンキュッボンでもよかったはずだ……=Moreover, there were strange aspects that wouldn't be present in a normal dream. Since it was a dream anyway, I should have had a more voluptuous figure rather than that of a child...
-[3C404EFF]そうすれば、[3C404EFF]貴公が触っても、[3C404EFF]\n背中と間違えることは──=If that were the case, even if you touched me, it wouldn't be mistaken for my back──
-[3C404EFF]……い、いや、なんでもない！[3C404EFF]\n[3C404EFF]忘れろ！　夢であったこと、全部忘れろ！=...N-No, it's nothing! Forget it! Forget that it was a dream, all of it!
-[3C404EFF]こ、[3C404EFF]この件については、[3C404EFF]私のほうで調査しておく！[3C404EFF]\n[3C404EFF]だから貴公はキレイさっぱり忘れるんだ！[3C404EFF]\nいいな！　絶対だぞ！=I-I'll investigate this matter on my own! So you should completely forget about it! Got it? Absolutely!
-[3C404EFF]素人が真似するのは危険だ。[3C404EFF]\n[3C404EFF]しかし私は、[3C404EFF]しっかり訓練を受けているからな。[3C404EFF]\n[3C404EFF]問題ないということを、[3C404EFF]証明してやる。=It's dangerous for an amateur to imitate it. However, I'm well-trained. I'll prove that there's no problem.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

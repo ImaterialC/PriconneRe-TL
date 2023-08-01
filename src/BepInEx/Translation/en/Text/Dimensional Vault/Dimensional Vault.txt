@@ -1,11 +1,5 @@
-
-次=D
-元断層=imension Vault
 次元断層=Dimension Vault
 次元断層へ=To Dimension Vault
-
-
-
 r:"^開催期間:([0-9/ :]+)～([0-9/ :]+)$"="Period: $1 to $2 (JST)"
 PHASE\nクリア報酬=Phase\nClear Reward
 出現中！=Appearing!
@@ -15,8 +9,6 @@ PHASE\nクリア報酬=Phase\nClear Reward
 このバトルではキャラ制限は発生しません。=No character limit in this battle.
 ボスのHPは敗北時にリセットされます。=The boss's HP is reset when defeated.
 模擬戦設定になっています。=Set to training.
-
-
 
 トレジャークエスト=Treasure Quest
 トレジャークエスト出現まで=Next Treasure Quest

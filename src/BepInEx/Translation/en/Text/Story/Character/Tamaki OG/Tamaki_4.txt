@@ -1,13 +1,13 @@
 r:"^「夢」でたい焼きを焼くたまきは、([\s\S]{2,10})に新開発の試作品を食べさせるために、公園の子供を手懐ける。作戦が成功して上機嫌のたまき。夢から覚めた後も、同じことをたくらむのだった。$"=Tamaki, who bakes taiyaki in her dreams, tries to feed $1 her new prototype by befriending the children in the park. Tamaki is in a good mood as her plan succeeds. Even after waking up from her dream, she plots the same thing.
-r:"^(?:\[3C404EFF\])?ある日。(.{2,10})は、\nタマキと一緒に猫にエサをあげていた。$"=One day. $1 was feeding the cats with Tamaki.
+r:"^ある日。(.{2,10})は、\nタマキと一緒に猫にエサをあげていた。$"=One day. $1 was feeding the cats with Tamaki.
 ほ～れ、今日もエサを持ってきたにゃ。\nみんな、たっぷりと食べるのにゃ。=Here you go, I brought some food for you today~nya. Everyone, eat up~nya.
 ……？\nあ、もうエサがなくなってるのにゃ。=...? Oh, the food is already gone~nya.
 ここは新しい缶詰を開けて──=I'm going to open a new can──
 にゃっ！？\nなんにゃ、缶詰から光が……にゃああああああっ！？=Nya!? What's this, light from the can... nyaaaaaaa!?
 たい焼きは～、いらんかにゃ～？=Taiyaki, anyone want some~nya?
 美味しい美味しいたい焼きにゃ～\nよってらっしゃい、みてらっしゃい、にゃ！=Delicious delicious taiyaki~nya. Come and see, come and see~nya!
-r:"^(?:\[3C404EFF\])?おっ、(.{2,10})！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ちょうどいいところにきたにゃ。(?:\[3C404EFF\])?ほら、(?:\[3C404EFF\])?ちょっと寄っていくにゃ。$"=Oh, $1!\nYou came at the right time~nya.\nCome here, come here~nya.
-r:"^(?:\[3C404EFF\])?実はにゃ……(?:\[3C404EFF\])?(.{2,10})に頼みたいことがあるのにゃ。$"=Actually...\nI have a favor to ask of you, $1~meow.
+r:"^おっ、(.{2,10})！\nちょうどいいところにきたにゃ。ほら、ちょっと寄っていくにゃ。$"=Oh, $1!\nYou came at the right time~nya.\nCome here, come here~nya.
+r:"^実はにゃ……(.{2,10})に頼みたいことがあるのにゃ。$"=Actually...\nI have a favor to ask of you, $1~meow.
 あたしが新開発した試作品のたい焼きを食べて、\n実験台になってほしいにゃ！=I want you to eat my new prototype taiyaki and be my test subject~nya!
 一個100円のところ、特別に一個70円でいいのにゃ。\nだから頼むにゃ！=It's usually 100 yen per piece, but I'll give you a special price of 70 yen per piece~nya. So please~nya!
 ……それって、食べられるものなの？=...Is that edible?
@@ -34,7 +34,7 @@ r:"^(?:\[3C404EFF\])?実はにゃ……(?:\[3C404EFF\])?(.{2,10})に頼みたい
 うん、もちろん！=Yeah of course!
 よしよし、それじゃあ、行くにゃ！=Alright then let's go!
 お兄ちゃん！\nわたしたちが作ったたい焼き、買ってくださーい！=Onii-chan! Please buy the taiyaki we made!
-r:"^(?:\[3C404EFF\])?(.{2,10})！\n(?:\[3C404EFF\])?この中に、(?:\[3C404EFF\])?あたしの試作品と子供たちが(?:\[3C404EFF\])?\n一生懸命作ったたい焼きが混じってるにゃ。$"=$1! Among these are my prototype and the taiyaki that the kids worked hard to make.
+r:"^(.{2,10})！\nこの中に、あたしの試作品と子供たちが\n一生懸命作ったたい焼きが混じってるにゃ。$"=$1! Among these are my prototype and the taiyaki that the kids worked hard to make.
 
 これを特別セール価格で販売するにゃ。\n子供たちが作ったたい焼きだったら、\n目の前で食べないわけにはいかないにゃ～？=I'll sell this at a special discount~nya. If it's taiyaki made by children, how could you not eat it right in front of their eyes?
 ふっふっふ……大人しくあたしの実験台になるにゃ！=Fufufu... Just obediently become my test subject~nya!
@@ -46,11 +46,11 @@ r:"^(?:\[3C404EFF\])?(.{2,10})！\n(?:\[3C404EFF\])?この中に、(?:\[3C404EFF
 食べ過ぎてお腹を壊さないようににゃ。=Be careful not to upset your stomach from overeating~nya.
 うん！\nほんとうにありがとう！\nおねえちゃん、またね！=Yeah! Thank you so much! Onee-chan, see you later!
 素直ないい子たちだったにゃ。\nバイトをさせた甲斐があるのにゃ。=They were honest and good kids~nya. \nIt was worth letting them work part-time~nya.
-r:"^(?:\[3C404EFF\])?それで、(.{2,10})。(?:\[3C404EFF\])?\n調子の方はどうにゃ？$"=So, $1. How are you feeling~nya?
+r:"^それで、(.{2,10})。\n調子の方はどうにゃ？$"=So, $1. How are you feeling~nya?
 30倍激辛たい焼きとか、しびれたい焼きとか、\n意欲的な実験作もいっぱいあったんだけどにゃ？=There were a lot of ambitious experimental products, like 30 times spicy taiyaki or numbing taiyaki~nya?
 正直、もう思い出したくもない……=Honestly, I don't even want to remember...
 うーん、実験は失敗に終わったようにゃ。\nまあ、新商品開発には犠牲がつきものにゃ。=Hmm, it seems the experiment was a failure~nya. Well, sacrifices are inevitable for new product development~nya.
-r:"^(?:\[3C404EFF\])?でも、(?:\[3C404EFF\])?今日は付き合ってくれてありがとにゃ、(.{2,10})♪$"=But thank you for joining me today~nya, $1♪
+r:"^でも、今日は付き合ってくれてありがとにゃ、(.{2,10})♪$"=But thank you for joining me today~nya, $1♪
 はい、お疲れさま。=Well, good work.
 あんたが今、見てたのは夢みたいなものよ。\n目覚めたらすぐに忘れちゃうと思うし、\n今はあんまり気にしなくてもいいわ。=What you saw just now was something like a dream. I think you'll forget it as soon as you wake up, so don't worry too much about it right now.
 というか、あのたい焼き10個以上はあったと思うんだけど、\nあんた、よく食べきれたわね。=Or rather, I think there were more than 10 of those taiyaki, but you ate them all well.
@@ -60,70 +60,70 @@ r:"^(?:\[3C404EFF\])?でも、(?:\[3C404EFF\])?今日は付き合ってくれて
 あんたも、いつの間にか大変なことを\n引き受けさせられていないように、気を付けるのよ？=You should be careful not to be tricked into doing something terrible by her, okay?
 じゃあ、今日はここまで。もっと『記憶の欠片』を集めたら、\nまた『夢』を見せてあげるから。=Well then, that's it for today. When I collect more "fragments of memory", I'll show you another "dream".
 うぅ……なんだか、変な夢を見てたにゃ。=Uu... I had a weird dream~nya.
-r:"^(?:\[3C404EFF\])?(.{2,10})と猫にエサをあげてて、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?変な光に包まれて、(?:\[3C404EFF\])?何だったのかにゃ？$"=I was feeding $1 and the cats, and I was wrapped in a strange light. What was that~nya?
+r:"^(.{2,10})と猫にエサをあげてて、\n変な光に包まれて、何だったのかにゃ？$"=I was feeding $1 and the cats, and I was wrapped in a strange light. What was that~nya?
 でも……なるほど、新商品のたい焼きを食べさせるには、\nそういう手段もあるのにゃ……いいことを知ったにゃ！=But... I see. To make them eat the new taiyaki products, there's also that method~nya... I learned something good~nya!
 ……え？\n子供たちを利用するのはやめてくれ？=...Huh? "Stop using the kids"?
 なんで、あたしが見てた夢の内容を知っているにゃ！=How do you know what I saw in my dream~nya!
-r:"^(?:\[3C404EFF\])?……にゃるほど。(?:\[3C404EFF\])?\n(.{2,10})も同じ夢を見てた、(?:\[3C404EFF\])?と。$"=...Nyai see. $1 also saw the same dream.
-r:"^(?:\[3C404EFF\])?でも関係ないにゃ！　(?:\[3C404EFF\])?(.{2,10})には今度いっぱい、(?:\[3C404EFF\])?\nたい焼きを食べてもらうのにゃ！$"=But it doesn't matter~nya! I'll make $1 eat a lot of taiyaki next time~nya!
+r:"^……にゃるほど。\n(.{2,10})も同じ夢を見てた、と。$"=...Nyai see. $1 also saw the same dream.
+r:"^でも関係ないにゃ！　(.{2,10})には今度いっぱい、\nたい焼きを食べてもらうのにゃ！$"=But it doesn't matter~nya! I'll make $1 eat a lot of taiyaki next time~nya!
 ふっふっふ……楽しみにしてるのにゃ！=Fufufu... I'm looking forward to it~nya!
 タマキはそう言って、嬉しそうに笑うのだった。=Tamaki said that and smiled happily.
 
-[3C404EFF]ほ～れ、[3C404EFF]今日もエサを持ってきたにゃ。[3C404EFF]\n[3C404EFF]みんな、[3C404EFF]たっぷりと食べるのにゃ。=Here you go, I brought some food for you today~nya.\nEveryone, eat up~nya.
-[3C404EFF]……？[3C404EFF]\n[3C404EFF]あ、[3C404EFF]もうエサがなくなってるのにゃ。=...? Oh, the food is already gone~nya.
-[3C404EFF]ここは新しい缶詰を開けて──=I'm going to open a new can──
-[3C404EFF]にゃっ！？[3C404EFF]\nなんにゃ、[3C404EFF]缶詰から光が……[3C404EFF]にゃああああああっ！？=Nya!? What's this, light from the can... nyaaaaaaa!?
-[3C404EFF]たい焼きは～、[3C404EFF]いらんかにゃ～？=Taiyaki, anyone want some~nya?
-[3C404EFF]美味しい美味しいたい焼きにゃ～[3C404EFF]\n[3C404EFF]よってらっしゃい、[3C404EFF]みてらっしゃい、[3C404EFF]にゃ！=Delicious delicious taiyaki~nya.\nCome and see, come and see~nya!
-[3C404EFF]あたしが新開発した試作品のたい焼きを食べて、[3C404EFF]\n実験台になってほしいにゃ！=I want you to eat my new prototype taiyaki and be my test subject~nya!
-[3C404EFF]一個100円のところ、[3C404EFF]特別に一個70円でいいのにゃ。[3C404EFF]\n[3C404EFF]だから頼むにゃ！=It's usually 100 yen per piece, but I'll give you a special price of 70 yen per piece~nya. So please~nya!
-[3C404EFF]そ、[3C404EFF]それは……=W-Well...
-[3C404EFF]し、[3C404EFF]死ぬことはないと思うにゃ。[3C404EFF]\nだから大人しく実験に付き合って──=I-I don't think you'll die from it~nya.\nSo just cooperate with the experiment and──
-[3C404EFF]あ、[3C404EFF]あの……=U-Umm...
-[3C404EFF]お、[3C404EFF]可愛い兄妹さん、[3C404EFF]いらっしゃいにゃ。[3C404EFF]\n[3C404EFF]たい焼き一個、100円だにゃ。=Oh, cute siblings, welcome~nya.\nTaiyaki is 100 yen per piece~nya.
-[3C404EFF]その……[3C404EFF]えっと……[3C404EFF]ぼくたちお小遣いが少なくて……[3C404EFF]\n[3C404EFF]これで、[3C404EFF]たい焼き半分だけ売ってくれませんか……？=Um... uh... we don't have much allowance...\ncan you sell us half a piece of taiyaki for this...?
-[3C404EFF]This is……[3C404EFF]50円……？=This is... 50 yen...?
-[3C404EFF]50円だけかにゃ……[3C404EFF]\nうーん、[3C404EFF]それじゃあ……[3C404EFF]でも、[3C404EFF]にゃあ……=Only 50 yen~nya...\nhmm, that's not enough... but~nyaa...
-[3C404EFF]……うん、[3C404EFF]思いついたにゃ。=...Okay, I have an idea~nya.
-[3C404EFF]キミたちがたい焼きづくりをお手伝いしてくれたら、[3C404EFF]\nバイト代代わりにたい焼きをプレゼントするにゃ！=If you help me make taiyaki,\nI'll give you some as a reward instead of paying you~nya!
-[3C404EFF]おねえちゃん……[3C404EFF]ほんと？=Onee-chan... Really?
-[3C404EFF]もちろんにゃ、[3C404EFF]嘘はつかないにゃ！[3C404EFF]\n[3C404EFF]それと……=Of course~nya.\nI don't lie~nya! And...
-[3C404EFF]ごにょごにょ……=*Whisper* *whisper*...
-[3C404EFF]うん……[3C404EFF]うん、[3C404EFF]わかった！=Okay... okay, I understand!
-[3C404EFF]交渉成立にゃ！[3C404EFF]\n[3C404EFF]それじゃあ、[3C404EFF]早速たい焼きづくり、[3C404EFF]開始にゃ！=Deal done~nya!\nThen let's start making taiyaki right away~nya!
-[3C404EFF]ここのコツは、[3C404EFF]もっとこう、[3C404EFF]しっかりと焼いて……[3C404EFF]\n[3C404EFF]この部分で一気にやるのにゃ！=The trick here is to bake it more firmly like this...\nand do it all at once in this part~nya!
-[3C404EFF]えっと……[3C404EFF]こう……？=Um... Like this...?
-[3C404EFF]そうにゃ！[3C404EFF]\n[3C404EFF]うまいにゃ！　[3C404EFF]たい焼きの天才にゃ！=That's right~nya! You're good at it~nya!\nYou're a genius of taiyaki making~nya!
-[3C404EFF]えへへ……[3C404EFF]おねえちゃん、[3C404EFF]ありがとう。=Ehehe... thank you Onee-chan.
-[3C404EFF]さ、[3C404EFF]これで完成にゃ！[3C404EFF]\n[3C404EFF]二人とも、[3C404EFF]やることはわかってるかにゃ？=There we go! It's done!\nDo you both know what to do now?
-[3C404EFF]うん、[3C404EFF]もちろん！=Yeah, of course!
-[3C404EFF]よしよし、[3C404EFF]それじゃあ、[3C404EFF]行くにゃ！=Alright, alright, let's go, meow!
-[3C404EFF]お兄ちゃん！[3C404EFF]\nわたしたちが作ったたい焼き、[3C404EFF]買ってくださーい！=Onii-chan!\nPlease buy the taiyaki we made!
-[3C404EFF]これを特別セール価格で販売するにゃ。[3C404EFF]\n[3C404EFF]子供たちが作ったたい焼きだったら、[3C404EFF]\n目の前で食べないわけにはいかないにゃ～？=I'll sell this at a special discount~nya.\nIf it's taiyaki made by children, how could you not eat it right in front of their eyes?
-[3C404EFF]ふっふっふ……[3C404EFF]大人しく[3C404EFF]あたしの実験台になるにゃ！=Fufufu... Just obediently become my test subject~nya!
-[3C404EFF]ちゃんと全部食べてくれたにゃ。[3C404EFF]\n計画通りにゃ。=You ate everything properly~nya.\nJust as planned~nya.
-[3C404EFF]さ、[3C404EFF]このたい焼きは今日のバイト代にゃ。[3C404EFF]\n[3C404EFF]二人で好きなだけ食べるにゃ。=Now, this taiyaki is your payment for today's part-time job~nya.\nEat as much as you like~nya.
-[3C404EFF]うわあああああっ……！[3C404EFF]\n[3C404EFF]たい焼きがいっぱいだぁ……！=Waaaaah...!\nThere's so much taiyaki...!
-[3C404EFF]ありがとう、[3C404EFF]おねえちゃん！=Thank you, Onee-chan!
-[3C404EFF]食べ過ぎてお腹を壊さないようににゃ。=Be careful not to upset your stomach from overeating~nya.
-[3C404EFF]うん！[3C404EFF]\nほんとうにありがとう！[3C404EFF]\n[3C404EFF]おねえちゃん、[3C404EFF]またね！=Yeah!\nThank you so much!\nOnee-chan, see you later!
-[3C404EFF]素直ないい子たちだったにゃ。[3C404EFF]\n[3C404EFF]バイトをさせた甲斐があるのにゃ。=They were honest and good kids~nya. \nIt was worth letting them work part-time~nya.
-[3C404EFF]30倍激辛たい焼きとか、[3C404EFF]しびれたい焼きとか、[3C404EFF]\n意欲的な実験作もいっぱいあったんだけどにゃ？=There were a lot of ambitious experimental products, like 30 times spicy taiyaki or numbing taiyaki~nya?
-[3C404EFF]うーん、[3C404EFF]実験は失敗に終わったようにゃ。[3C404EFF]\n[3C404EFF]まあ、[3C404EFF]新商品開発には犠牲がつきものにゃ。=Hmm, it seems the experiment was a failure~nya. Well, sacrifices are inevitable for new product development~nya.
-[3C404EFF]はい、[3C404EFF]お疲れさま。=Well, good work.
-[3C404EFF]あんたが今、見てたのは夢みたいなものよ。[3C404EFF]\n[3C404EFF]目覚めたらすぐに忘れちゃうと思うし、[3C404EFF]\n[3C404EFF]今はあんまり気にしなくてもいいわ。=What you saw just now was something like a dream. I think you'll forget it as soon as you wake up, so don't worry too much about it right now.
-[3C404EFF]というか、あのたい焼き[3C404EFF]10個以上はあったと思うんだけど、[3C404EFF]\nあんた、[3C404EFF]よく食べきれたわね。=Or rather, I think there were more than 10 of those taiyaki, but you ate them all well.
-[3C404EFF]子供たちのためとはいえ、[3C404EFF]よく頑張ったわ。[3C404EFF]\n褒めてあげる。=You did well for the sake of the kids.\nI'll praise you.
-[3C404EFF]タマキもよくすぐにあんな作戦を思いついたわね。=I'm surprised Tamaki came up with such a plan so quickly.
-[3C404EFF]商売……[3C404EFF]というか話の持っていき方が[3C404EFF]\nうまいわよね。=She's good at business...\nor rather, at leading the conversation.
-[3C404EFF]あんたも、[3C404EFF]いつの間にか大変なことを[3C404EFF]\n引き受けさせられていないように、[3C404EFF]気を付けるのよ？=You should be careful not to be tricked into doing something terrible by her, okay?
-[3C404EFF]じゃあ、[3C404EFF]今日はここまで。[3C404EFF]もっと『記憶の欠片』を集めたら、[3C404EFF]\nまた『夢』を見せてあげるから。=Well then, that's it for today. When I collect more "fragments of memory", I'll show you another "dream".
-[3C404EFF]うぅ……[3C404EFF]なんだか、[3C404EFF]変な夢を見てたにゃ。=Uu... I had a weird dream~nya.
-[3C404EFF]でも……[3C404EFF]なるほど、[3C404EFF]新商品のたい焼きを食べさせるには、[3C404EFF]\nそういう手段もあるのにゃ……[3C404EFF]いいことを知ったにゃ！=But... I see. To make them eat the new taiyaki products, there's also that method~nya...\nI learned something good~nya!
-[3C404EFF]...Huh?[3C404EFF]\n子供たちを利用するのはやめてくれ？=...Huh?\n"Stop using the kids"?
-[3C404EFF]なんで、[3C404EFF]あたしが見てた夢の内容を知っているにゃ！=How do you know what I was dreaming about?!
-[3C404EFF]ふっふっふ……[3C404EFF]楽しみにしてるのにゃ！=Fufufu... I'm looking forward to it~nya!
-[3C404EFF]タマキはそう言って、嬉しそうに笑うのだった。=Tamaki said that and smiled happily.
 
 
-r:"^(?:\[3C404EFF\])?うぐっ……(?:\[3C404EFF\])?確かに、(?:\[3C404EFF\])?(.{2,10})の気持ちもわかるにゃ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?でも……$"=Ugh... I do understand how you feel~nya. But...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r:"^うぐっ……確かに、(.{2,10})の気持ちもわかるにゃ。\nでも……$"=Ugh... I do understand how you feel~nya. But...

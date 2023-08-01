@@ -1,14 +1,8 @@
 キャラクター\n図鑑=Character\nInfo
 アイテム\n図鑑=Item\nInfo
 用語集=Glossary
----ア=A
-ルバム=lbum
-
-ャラクター図鑑=Character Info
-
-思=M
-い出アルバム=emory Album
-語集=lossary
-用=G
-イテム図鑑=ll Item Info
+---アA---
+キャラクター図鑑=Character Info
+思い出アルバム=Memory Album
+イテム図鑑=Item Info
 sr:"^([べ-ヺー＆]+)(（.+）)? 第(\d+)話を見ると確認できます。$"=Viewable after watching $1$2 Episode $3.

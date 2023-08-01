@@ -3,10 +3,10 @@
 アクシツ=Croock
 王宮騎士=Royal Knight
 r:"^『アクシツ商会連合』から、一度に全てのお宝を盗む作戦をとる二人。([\s\S]{2,10})を人質にされるなどのピンチもあったが、猫たちの助力もあり、ついに『アクシツ商会連合』を打ち破るのであった。$"="The two of them decided to steal all the treasures from the "Croock'd & Inc." at once. They faced some dangers, such as $1 being taken hostage, but with the help of the cats, they finally defeated the "Croock'd & Inc.""
-r:"^(?:\[3C404EFF\])?──『悪い奴らはまとめて猫パンチ作戦』決行日。(?:\[3C404EFF\])?\nランドソル郊外に、(?:\[3C404EFF\])?\nタマキと(.{2,10})の姿があった。$"=。="──The day of the "Bad Guys Get a Cat Punch Operation". Tamaki and $1 were in the outskirts of Landosol."
+r:"^──『悪い奴らはまとめて猫パンチ作戦』決行日。\nランドソル郊外に、\nタマキと(.{2,10})の姿があった。$"=。="──The day of the "Bad Guys Get a Cat Punch Operation". Tamaki and $1 were in the outskirts of Landosol."
 ……それじゃあ、\n改めて『悪い奴らはまとめて猫パンチ作戦』を確認するにゃ。=...Well then, let's review the "Bad Guys Get a Cat Punch Operation" again~nya.
 作戦内容はいたって単純にゃ。\n『今夜中にアクシツ商会連合全てに潜り込んで、\n悪事で稼いだ金を街にばらまく』、これだけにゃ。=The operation is very simple~nya. "Sneak into all the Croock'd & Inc. tonight and scatter the money they earned from evil deeds around the town", that's all~nya.
-r:"^(?:\[3C404EFF\])?にゃ～に、(?:\[3C404EFF\])?確かに数は多いかもしれないけど、(?:\[3C404EFF\])?\nやってることはいつもと同じにゃ！！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?あたしと(.{2,10})がいれば……(?:\[3C404EFF\])?あっ！$"=Nya~, it may seem like a lot, but it's the same as always~nya!! If I have $1 with me... Ah!
+r:"^にゃ～に、確かに数は多いかもしれないけど、\nやってることはいつもと同じにゃ！！\nあたしと(.{2,10})がいれば……あっ！$"=Nya~, it may seem like a lot, but it's the same as always~nya!! If I have $1 with me... Ah!
 にゃ、にゃはは……\nた、短剣を落としちゃったにゃ～\nまったく、もっと気を引き締めないといけないにゃ～♪=Ny~nyaha... \nI, I dropped my dagger~nya~ Really,\nI have to be more careful~nya~♪
 ……緊張してるの？=...Are you nervous?
 ……ここで強がっても意味ないかにゃ。\n情けないことに、怖くて手が震えちゃってるのにゃ。=...There's no point in pretending here~nya.\nI'm ashamed to say, but I'm so scared that my hands are shaking~nya.
@@ -14,8 +14,8 @@ r:"^(?:\[3C404EFF\])?にゃ～に、(?:\[3C404EFF\])?確かに数は多いかも
 義賊が……あたしなんかが、\nそんなやつらをどうにかできるのかなって思ったら、\n手の震えが止まらなくて……にゃにゃっ！？=A righteous thief...\nCan someone like me really do something about them? When I think that, my hands won't stop shaking...~nyanyaa!?
 な、なんでいきなり、\n手を握ってくるのにゃ！？=W, why are you suddenly holding my hand~nya!?
 一緒に頑張ろう。=Let's do our best together.
-r:"^(?:\[3C404EFF\])?(.{2,10})……(?:\[3C404EFF\])?うん！(?:\[3C404EFF\])?\nあたしと.{2,10}なら絶対楽勝にゃ！！$"=$1... Yeah!\nIf it's me and $1, together...\nwe'll definitely win easily~nya!!
-r:"^(?:\[3C404EFF\])?──そろそろ時間にゃ。(?:\[3C404EFF\])?\n(.{2,10})はあたしに強化能力をかけつつ、(?:\[3C404EFF\])?\n付いてくるのにゃ！$"=──It's almost time~nya.\n$1, use your enhancement ability on me and follow me~nya!
+r:"^(.{2,10})……うん！\nあたしと.{2,10}なら絶対楽勝にゃ！！$"=$1... Yeah!\nIf it's me and $1, together...\nwe'll definitely win easily~nya!!
+r:"^──そろそろ時間にゃ。\n(.{2,10})はあたしに強化能力をかけつつ、\n付いてくるのにゃ！$"=──It's almost time~nya.\n$1, use your enhancement ability on me and follow me~nya!
 ……言っておくけど、お宝をいただいて帰ってくるまでが義賊！\n二人で行ったなら、二人とも戻る！\nちゃんと戻ってきて、ただいまって言うのにゃ！=...I'll tell you this, but we'll be thieves only until we get back with the treasure! If we go together, we'll both come back! Make sure you come back and say "I'm home"~nya!
 約束する。=I promise.
 だったらいいにゃ♪\n……さて、義賊ファントムキャッツの、\n華麗なるネコババ劇の始まりにゃ～～！！=Then it's fine~nya♪...\nWell then, let the splendid cat burglary play of the righteous thief Phantom Cat begin~nya～～！！
@@ -46,7 +46,7 @@ r:"^(?:\[3C404EFF\])?──そろそろ時間にゃ。(?:\[3C404EFF\])?\n(.{2,10
 ファントムキャッツ！　ファントムキャッツ！！\nファントムキャッツ！　ファントムキャッツ！！=Phantom Cat! Phantom Cat!!\nPhantom Cat! Phantom Cat!!
 いや～上手くいったにゃ～～♪\nみんなも喜んでくれたみたいだしよかったにゃ！=Oh~ It went well~nya♪\nIt seems like everyone is happy, so I'm glad~nya!
 成功してよかった。=I'm glad we succeeded.
-r:"^(?:\[3C404EFF\])?これも(.{2,10})のおかげにゃ！(?:\[3C404EFF\])?\n本当にありがとにゃ～♪$"=This is also thanks to you, $1!\nThank you so much~nya♪
+r:"^これも(.{2,10})のおかげにゃ！\n本当にありがとにゃ～♪$"=This is also thanks to you, $1!\nThank you so much~nya♪
 それよりそれより～♪\nちょっとこれを見てほしいにゃ～♪=But more importantly, more importantly♪\nI want you to take a look at this~nya♪
 あいつらの不正取引の証文にゃ！\nお宝と一緒にネコババしといたにゃ～♪=It's evidence of their illicit dealings!\nWe've snatched it along with the treasure~nya♪
 これで悪いやつらはみんな捕まって、\nアクシツ商会連合は自然に消滅していくはずにゃ！=With this, all the bad guys will be caught, and the Croock will naturally dissolve~nya!
@@ -56,7 +56,7 @@ r:"^(?:\[3C404EFF\])?これも(.{2,10})のおかげにゃ！(?:\[3C404EFF\])?\n�
 危ない！！=Watch out!!
 ちっ、男がかばいやがったか！=Tch, that guy protected her!
 あ～その彼だけでいいです。\n人質にするんで捕まえちゃってください。\n私は犬が大好きな平和主義者ですから、暴力は最小限でいきましょう♪=Ah~ It's fine with just him.\nPlease capture him as a hostage.\nI'm a pacifist who loves dogs, so let's keep violence to a minimum, okay?
-r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?あたしをかばって……(?:\[3C404EFF\])?(.{2,10})！！(?:\[3C404EFF\])?\n今助けるにゃ！！$"=Y-You're protecting me... $1!!\nI'll save you now!!
+r:"^あ、あたしをかばって……(.{2,10})！！\n今助けるにゃ！！$"=Y-You're protecting me... $1!!\nI'll save you now!!
 は～い、動かない動かない。\n動いたら、私のこわ～い部下が、彼をどうにかしちゃいますよぉ？=Hey, don't move, don't move. If you do, my scary subordinates will do something to him, you know?
 くっ……おまえはいったい誰にゃ！！=Kuh... Who the heck are you~nya!!
 これはこれは！\n自己紹介が遅れてしまいましたねぇ……\n私は『アクシツ商会連合』の代表、名前もそのままアクシツです！=Oh my, my apologies for not introducing myself sooner... I am the representative of the "Croock'd & Inc.," and my name is Croock itself!
@@ -72,7 +72,7 @@ r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?あたしをかばって……(?:\[3
 くっ……卑怯にゃ！！=Ugh... That's not fair~nya!!
 お褒めに預かり光栄です♪\nではではではぁ……改めて商談を開始しましょうか。\n証文を置いていくか……彼の命か……好きな方を選んでください♪=I'm honored by your praise♪ Well, well, well... Shall we start the business deal again? Will you leave the evidence behind... or his life...? Please choose whichever you like♪
 
-r:"^(?:\[3C404EFF\])?こいつは……(?:\[3C404EFF\])?こいつだけは、(?:\[3C404EFF\])?\n絶対に逃がしちゃいけない悪党にゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?でも(?:\[3C404EFF\])?このままじゃ(.{2,10})が……$"=This guy... this guy is the one villain I can't let escape~nya! But... at this rate, $1 will...
+r:"^こいつは……こいつだけは、\n絶対に逃がしちゃいけない悪党にゃ！\nでもこのままじゃ(.{2,10})が……$"=This guy... this guy is the one villain I can't let escape~nya! But... at this rate, $1 will...
 どうしたら……どうしたらいいのにゃ……！！　=What should I... what should I do~nya...!!
 ──にゃ～♪=──nya~♪
 ……！？\nこ、この声……！？=...!?\nTh, this voice...!?
@@ -81,7 +81,7 @@ r:"^(?:\[3C404EFF\])?こいつは……(?:\[3C404EFF\])?こいつだけは、(?:
 ファントムキャッツは狙った獲物をのがさない……\nだから、両方いただくにゃ！！=The Phantom Cat never let go of their prey...\nthat's why, we'll take both of them~nya!!
 にゃにゃーん！！=Nya-nyan!!
 な、なんだこの猫の大群は！？\nや、やめろぉ！\n俺は猫アレルギーなんだぁ～～！！=Wh, what is this horde of cats!? St, stop it! I'm allergic to cats~!!
-r:"^(?:\[3C404EFF\])?(.{2,10})！(?:\[3C404EFF\])?\n今のうちに逃げるにゃ～～！！！！$"=Cornelia!\nNow's your chance to escape~nya!!
+r:"^(.{2,10})！\n今のうちに逃げるにゃ～～！！！！$"=Cornelia!\nNow's your chance to escape~nya!!
 くそっ！\n逃がすんじゃねえぞおまえら！\n後を追って……ん？　あれは？=Damn it!\nDon't let them get away!\nFollow them... huh? What's that?
 怪しい集団を見たという通報があったから来てみれば……\nファントムキャッツの周りには、猫の大群が出没するという情報がある！\nファントムキャッツがいるかもしれんから、付近を探索しろ！=We got a report that a suspicious group was seen here... there's information that a horde of cats appears around the Phantom Cat! They might be here, so search the area!
 あ～～王宮騎士さま、\nとてもとてもとてもいいところにぃ～～！！=Ahh~ Royal Knight-sama,\nyou came to a very very very good time~!!
@@ -98,11 +98,11 @@ r:"^(?:\[3C404EFF\])?(.{2,10})！(?:\[3C404EFF\])?\n今のうちに逃げるに�
 ……だから、\n自分の名前を入れるのは嫌なんだよぉぉ～～～～！！=...Li, like i said, I don't like putting my name on the guild name~!!
 はあ……はあ……\nここまで来れば大丈夫にゃ！！=Haa... haa...\nI should be safe here~nya!!
 なんとかなったにゃ～～！！\nアクシツは今頃捕まってるだろうし、\nこれで一件落着…………あれ？=I made it somehow~nya!! Croock must be caught by now, and this case is closed........huh?
-r:"^(?:\[3C404EFF\])?……いない……(?:\[3C404EFF\])?(.{2,10})がいないにゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ど、(?:\[3C404EFF\])?どうして！？(?:\[3C404EFF\])?\nだって、(?:\[3C404EFF\])?ちゃんと後ろを付いてきてたにゃ……！$"=...He's gone...\n$1 is gone~nya! Wh, why!?\nHe was following me behind me~nya...
+r:"^……いない……(.{2,10})がいないにゃ！\nど、どうして！？\nだって、ちゃんと後ろを付いてきてたにゃ……！$"=...He's gone...\n$1 is gone~nya! Wh, why!?\nHe was following me behind me~nya...
 まさか……\nアクシツたちに捕まって……=Could it be...\nhe was captured by Croock and his men...
 どうして……\nどうして、あたしはいつもこうなのにゃ……？=Why...\nWhy am I always like this...?
 勝手に突っ走って……調子にのって……\nいつも大事なところで失敗して……\nそして、またあいつを…………！=I act on my own... get carried away... always fail at the crucial moment... and then, again lose him........!
-r:"^(?:\[3C404EFF\])?……(.{2,10})～～～～！！(?:\[3C404EFF\])?\n返事をしてにゃ～～～～！！！！$"=...$1~~~~~!!\nAnswer me~nya!!
+r:"^……(.{2,10})～～～～！！\n返事をしてにゃ～～～～！！！！$"=...$1~~~~~!!\nAnswer me~nya!!
 ………………なんでいるにゃ？=............Why are you here~nya?
 途中で転んじゃって。=I tripped on the way.
 う……うぅ………………=Ow... ow............
@@ -110,104 +110,104 @@ r:"^(?:\[3C404EFF\])?……(.{2,10})～～～～！！(?:\[3C404EFF\])?\n返事�
 い、痛い！=Ow, that hurts!
 そんなの知ったこっちゃないのにゃ！！\n少しは人の気持ちってのを考えろにゃ～！！=I don't care about that~nya!! Think about how other people feel sometimes~nya!!
 泣いてるの？=Are you crying?
-r:"^(?:\[3C404EFF\])?……心配したにゃ！　(?:\[3C404EFF\])?心配したのにゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?またあたしのせいで、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})になにかあったらと思って……！$"=...I was worried about you, $1~nya!\nI was worried that something might have happened to you because of me...!
-r:"^(?:\[3C404EFF\])?それなのに(?:\[3C404EFF\])?(.{2,10})はしれっと帰ってきて……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?でも無事でうれしくて……(?:\[3C404EFF\])?あ～もう！！(?:\[3C404EFF\])?\n人を何度も泣かせて、(?:\[3C404EFF\])?そんなに楽しいかにゃ！？$"=And yet you came back so casually... but I'm glad you're safe, $1... ah~ geez!! Do you enjoy making me cry so many times~nya!?
+r:"^……心配したにゃ！　心配したのにゃ！\nまたあたしのせいで、\n(.{2,10})になにかあったらと思って……！$"=...I was worried about you, $1~nya!\nI was worried that something might have happened to you because of me...!
+r:"^それなのに(.{2,10})はしれっと帰ってきて……\nでも無事でうれしくて……あ～もう！！\n人を何度も泣かせて、そんなに楽しいかにゃ！？$"=And yet you came back so casually... but I'm glad you're safe, $1... ah~ geez!! Do you enjoy making me cry so many times~nya!?
 ……にゃ！？\n頭をなでてご機嫌をとろうったって……=...Nya!?\nDon't think you can make me happy by patting my head...
 ……ただいま。=...I'm home.
 ……うん。\nお帰りにゃ……=...Yeah.\nWelcome back~nya...
 ──次の日、ランドソルには号外が配られる。\n内容はもちろん、たった一日で、\n不正取引をしていた商会が一斉検挙されたというもの。=──The next day, an extra edition was distributed in Landosol. The content was of course, that in just one day, all the trading companies that were involved in illegal trade deals were arrested.
 そして、記事にはある名前が書かれていた。\n庶民を助け、悪を討った英雄、ファントムキャッツと。=And in the article, there was a name written. The hero who helped the common people and defeated evil, Phantom Cat and──.
 
-[3C404EFF]……それじゃあ、[3C404EFF]\n改めて[3C404EFF]『悪い奴らはまとめて猫パンチ作戦』を確認するにゃ。=...Well then, let's review the "Bad Guys Get a Cat Punch Operation" again~nya.
-[3C404EFF]作戦内容はいたって単純にゃ。[3C404EFF]\n『今夜中にアクシツ商会連合全てに潜り込んで、[3C404EFF]\n悪事で稼いだ金を街にばらまく』、[3C404EFF]これだけにゃ。=The operation is very simple~nya. "Sneak into all the Croock'd & Inc. tonight and scatter the money they earned from evil deeds around the town", that's all~nya.
-[3C404EFF]にゃ、[3C404EFF]にゃはは……[3C404EFF]\nた、[3C404EFF]短剣を落としちゃったにゃ～[3C404EFF]\n[3C404EFF]まったく、[3C404EFF]もっと気を引き締めないといけないにゃ～♪=Ny~nyaha...\nI, I dropped my dagger~nya~\nReally, I have to be more careful~nya~♪
-[3C404EFF]……[3C404EFF]ここで強がっても[3C404EFF]意味ないかにゃ。[3C404EFF]\n[3C404EFF]情けないことに、[3C404EFF]怖くて手が震えちゃってるのにゃ。=...There's no point in pretending here~nya.\nI'm ashamed to say, but I'm so scared that my hands are shaking~nya.
-[3C404EFF]今回の相手は[3C404EFF]今までとは格が違う、[3C404EFF]\n[3C404EFF]ランドソルの商会の大半を傘下としている[3C404EFF]アクシツ商会連合にゃ。=This time's opponent is different from before, the Croock'd & Inc. that has most of the merchants in Landosol under its umbrella~nya.
-[3C404EFF]義賊が……[3C404EFF]あたしなんかが、[3C404EFF]\nそんなやつらをどうにかできるのかなって思ったら、[3C404EFF]\n手の震えが止まらなくて……[3C404EFF]にゃにゃっ！？=A righteous thief...\nCan someone like me really do something about them?\nWhen I think that, my hands won't stop shaking...~nyanyaa!?
-[3C404EFF]な、[3C404EFF]なんでいきなり、[3C404EFF]\n手を握ってくるのにゃ！？=W, why are you suddenly holding my hand~nya!?
 
-[3C404EFF]……言っておくけど、[3C404EFF]お宝をいただいて[3C404EFF]帰ってくるまでが義賊！[3C404EFF]\n二人で行ったなら、[3C404EFF]二人とも戻る！[3C404EFF]\n[3C404EFF]ちゃんと戻ってきて、[3C404EFF]ただいまって言うのにゃ！=...I'll tell you this, but we'll be thieves only until we get back with the treasure! If we go together, we'll both come back! Make sure you come back and say "I'm home"~nya!
-[3C404EFF]だったらいいにゃ♪[3C404EFF]\n……[3C404EFF]さて、[3C404EFF]義賊ファントムキャッツの、[3C404EFF]\n華麗なるネコババ劇の始まりにゃ～～！！=Then it's fine~nya♪...\nWell then, let the splendid cat burglary play of the righteous thief Phantom Cat begin~nya～～！！
-[3C404EFF]……見えたにゃ！[3C404EFF]\nあれが最初の商会にゃ！=...I see it~nya!\nThat's the first merchant~nya!
-[3C404EFF]安心するにゃ！[3C404EFF]\n[3C404EFF]事前調査で、[3C404EFF]この時間は警備員も従業員もいないのは分かってるにゃ！[3C404EFF]\n[3C404EFF]扉はあたしが開けるから、[3C404EFF]一気にお宝まで行くのにゃ～！！=Don't worry~nya!\nFrom the preliminary investigation, I know that there are no guards or employees at this time~nya! I'll open the door, so let's go straight to the treasure~nya～！！
-[3C404EFF]手に入れた間取り図から考えて、[3C404EFF]\nたぶんここが……[3C404EFF]あ、[3C404EFF]あったにゃ！=According to the floor plan I got, it should be here...\nOh, I found it~nya!
-[3C404EFF]にゃ、[3C404EFF]にゃあ～～～！！[3C404EFF]\n[3C404EFF]こ、[3C404EFF]これは……[3C404EFF]とんでもないお宝にゃ～～！！=Ny~nyaa～～～！！\nTh, this is... an amazing treasure～～！！
-[3C404EFF]い、[3C404EFF]今まで色んなお宝を見てきたけど、[3C404EFF]\nこんなにすごいのは初めてなのにゃ……=I've seen a lot of treasures before, but this is the first time I've seen something so amazing~nya...
-[3C404EFF]こ、[3C404EFF]これだけあれば、[3C404EFF]\n高級あんこのたい焼き食べ放題なだけじゃにゃくて、[3C404EFF]\n猫たちのエサを毎日マグロにすることすら……=W, with this much, not only can I eat as many high-quality red bean paste taiyaki as I want, but I can even...
-[3C404EFF]はっ！？[3C404EFF]\nご、[3C404EFF]ごめんにゃ。[3C404EFF]\n[3C404EFF]あまりの光景に[3C404EFF]我を失っていたのにゃ……=Huh!? S, sorry~nya.\nI lost myself in this sight~nya...
-[3C404EFF]あたしは義賊、[3C404EFF]ファントムキャッツ！[3C404EFF]\n私利私欲の盗みは絶対にしないのにゃ！！=I'm a righteous thief, Phantom Cat!\nI'll never steal for my own greed~nya!!
-[3C404EFF]し、[3C404EFF]しないけど……[3C404EFF]このお宝の山に飛び込んで、[3C404EFF]\n[3C404EFF]お金持ちの気分を楽しむぐらいなら……=I won't, but... if I just dive into this mountain of treasure and enjoy the feeling of being rich for a bit...
-[3C404EFF]…………はい。[3C404EFF]\nすぐに袋に詰めて、[3C404EFF]\n次の商会に向かいますにゃ。=..........Yes.\nI'll pack it in a bag right away and head to the next merchant~nya.
-[3C404EFF]──ふっふっふっ、[3C404EFF]最後の商会も上手くいったのにゃ♪[3C404EFF]\nこれでアクシツ商会連合のやつらはすっからかん……[3C404EFF]\n[3C404EFF]あとは、[3C404EFF]最後の仕上げにゃ～！=──Fufufu, the last merchant went well too~nya♪\nThis makes the Croock'd & Inc. guys penniless...\nNow for the final touch～！
-[3C404EFF]街のみんにゃ～！[3C404EFF]\n元気かにゃ～～！！[3C404EFF]\nこの不景気をぶっ飛ばすプレゼントを持ってきたにゃ～！=Everyone of townspeople～！\nHow do you do～?！！\nI brought you a present that will blow away this recession～！
-[3C404EFF]な、[3C404EFF]なにこの声！？=Wh, what is this voice!?
-[3C404EFF]この声は……[3C404EFF]ファントムキャッツだ！[3C404EFF]\n[3C404EFF]ファントムキャッツが出たぞー！=This voice is... Phantom Cat!\nPhantom Cat appearedー！
-[3C404EFF]……みんな、[3C404EFF]世の中にはつらいことが多いにゃ。[3C404EFF]\n[3C404EFF]何をやっても上手くいかなかったり、[3C404EFF]\n[3C404EFF]そんなときに限って、[3C404EFF]悪いことばっかり起きたりするにゃ……=...There's a lot of hardships in this world~nya.\nNo matter what you do, things don't go well, or when that happens, bad things happen one after another~nya.
-[3C404EFF]……それはあたしも同じにゃ。[3C404EFF]\n[3C404EFF]よかれと思ってやってたら、[3C404EFF]むしろそれがみんなの迷惑になったり、[3C404EFF]\n身近な人を[3C404EFF]危険な目にあわせてしまったにゃ……=...I'm the same~nya.\nI was doing it because I thought it'd be good, but it actually caused trouble for everyone, and put the people close to me in danger~nya...
-[3C404EFF]でも！　[3C404EFF]つらいからって[3C404EFF]諦めないでほしいのにゃ！[3C404EFF]\n諦めたら……[3C404EFF]なにかに挑むことをやめてしまったら、[3C404EFF]\n本当に自分がやりたいことだって、[3C404EFF]できなくなってしまうのにゃ！=But！　Don't give up because it's hard~nya！\nIf you give up... if you stop challenging something, you won't be able to do what you really want to do either~nya！
-[3C404EFF]……ファントムキャッツ。=...Phantom Cat.
-[3C404EFF]それでもつらいって思ったら、[3C404EFF]街の夜空を見上げてほしいにゃ。[3C404EFF]\n[3C404EFF]そこにはきっと、[3C404EFF]ファントムキャッツがいるはずにゃ～～！！=If you're feeling down, I want you to look up at the night sky of the town~nya. There, surely, the Phantom Cat will be present~!!
-[3C404EFF]おぉぉ～～！！！！=Ohhhh!!!!
-[3C404EFF]さ～て、[3C404EFF]今日はアクシツ商会連合の全商会から[3C404EFF]\nネコババしてきたから、[3C404EFF]いっぱいあるにゃ～！！[3C404EFF]\n[3C404EFF]あたしからのプレゼントを[3C404EFF]受け取ってほしいにゃ～～！！=Well then, today I've collected plenty of loot from all the guilds of the Croock'd & Inc.~nya! I want you to receive a gift from me~!!
-[3C404EFF]ありがとね、[3C404EFF]ファントムキャッツ！=Thank you, Phantom Cat!
-[3C404EFF]俺もやさぐれてないで、[3C404EFF]頑張っていくぜ！=Instead of wallowing in self-pity, I'll do my best too!
-[3C404EFF]ファントムキャッツ！　[3C404EFF]ファントムキャッツ！！[3C404EFF]\nファントムキャッツ！　[3C404EFF]ファントムキャッツ！！=Phantom Cat! Phantom Cat!!\nPhantom Cat! Phantom Cat!!
-[3C404EFF]いや～[3C404EFF]上手くいったにゃ～～♪[3C404EFF]\n[3C404EFF]みんなも喜んでくれたみたいだし[3C404EFF]よかったにゃ！=Oh~ It went well~nya♪\nIt seems like everyone is happy, so I'm glad~nya!
-[3C404EFF]それよりそれより～♪[3C404EFF]\n[3C404EFF]ちょっとこれを見てほしいにゃ～♪=But more importantly, more importantly♪\nI want you to take a look at this~nya♪
-[3C404EFF]あいつらの不正取引の証文にゃ！[3C404EFF]\n[3C404EFF]お宝と一緒にネコババしといたにゃ～♪=It's evidence of their illicit dealings!\nWe've snatched it along with the treasure~nya♪
-[3C404EFF]これで悪いやつらはみんな捕まって、[3C404EFF]\nアクシツ商会連合は自然に消滅していくはずにゃ！=With this, all the bad guys will be caught, and the Croock will naturally dissolve~nya!
-[3C404EFF]お、[3C404EFF]そこまで考えてるとは思ってなかったって顔だにゃ？[3C404EFF]\n[3C404EFF]ふっふっふっ、[3C404EFF]あたしは常に成長する女なのにゃ～♪=Oh, you have a surprised look on your face like you didn't expect it~nya? Hehehe, I'm a woman who is always growing~nya♪
-[3C404EFF]──ワンダフル！[3C404EFF]\n常に成長するその姿、[3C404EFF]実にワンダフル！！=──Wonderful!\nAlways growing, truly wonderful!!
-[3C404EFF]……えっ！？=......eh!?
-[3C404EFF]ちっ、[3C404EFF]男がかばいやがったか！=Tch, that guy protected her!
-[3C404EFF]あ～[3C404EFF]その彼だけでいいです。[3C404EFF]\n人質にするんで捕まえちゃってください。[3C404EFF]\n[3C404EFF]私は[3C404EFF]犬が大好きな平和主義者ですから、[3C404EFF]暴力は最小限でいきましょう♪=Ah~ It's fine with just him.\nPlease capture him as a hostage.\nI'm a pacifist who loves dogs, so let's keep violence to a minimum, okay?
-[3C404EFF]は～い、[3C404EFF]動かない動かない。[3C404EFF]\n[3C404EFF]動いたら、[3C404EFF]私のこわ～い部下が、[3C404EFF]彼をどうにかしちゃいますよぉ？=Hey, don't move, don't move. If you do, my scary subordinates will do something to him, you know?
-[3C404EFF]くっ……[3C404EFF]おまえはいったい誰にゃ！！=Kuh... Who the heck are you~nya!!
-[3C404EFF]これはこれは！[3C404EFF]\n自己紹介が遅れてしまいましたねぇ……[3C404EFF]\n[3C404EFF]私は[3C404EFF]『アクシツ商会連合』の代表、[3C404EFF]名前もそのままアクシツです！=Oh my, my apologies for not introducing myself sooner... I am the representative of the "Croock'd & Inc.," and my name is Croock itself!
-[3C404EFF]いやいやいや、[3C404EFF]私も[3C404EFF]商会に自分の名前なんて入れたくなかったんですよ？[3C404EFF]\n[3C404EFF]自分が悪いことしてるって、[3C404EFF]世に教えてるようなもんですしねぇ。[3C404EFF]\n[3C404EFF]でも、[3C404EFF]決まりごとだからって、[3C404EFF]アクドーイ叔父さんがうるさくて……=Oh, no, no, no, I didn't want to put my name in the guild either, you know? It's like I'm telling the world that I'm doing something bad, you know? But it's just a rule, and Uncle Krook was being so annoying...
-[3C404EFF]アクドーイ……[3C404EFF]叔父さん！？[3C404EFF]\n[3C404EFF]ということはおまえ、[3C404EFF]アクドーイの……！？=Krook... Uncle?!\nWait, that means you're Krook's...!
-[3C404EFF]おぉっと！　[3C404EFF]勘違いされる前に言っておきましょうか！[3C404EFF]\n[3C404EFF]あなたへの復讐とか、[3C404EFF]私は[3C404EFF]まったく[3C404EFF]まーったく考えていませんよぉ。[3C404EFF]\n[3C404EFF]そ～んなことしてる暇があったら、[3C404EFF]少しでも[3C404EFF]少しでも[3C404EFF]稼ぎたいですから！=Oh~ Oops! Let me say this before you misunderstand! I absolutely, absolutely have no intention of seeking revenge against you. If I had time to do that, I would want to earn even just a little bit more!
-[3C404EFF]ならばなぜ、[3C404EFF]私がここに来たのか！[3C404EFF]\n稼ぎたくて稼ぎたくてしかたがないこの私が！　[3C404EFF]なぜここに来たのか！[3C404EFF]\n[3C404EFF]いや～[3C404EFF]これはバレバレですよねぇ～～～～♪=Then why did I come here?! Why did I want to make so much money?! What did I bring here? Well, this is obvious, isn't it?♪
-[3C404EFF]ま、[3C404EFF]まさか……[3C404EFF]この証文を……！=D-Don't tell me...this is proof...!
-[3C404EFF]──はぁい、ご名答♪[3C404EFF]\n[3C404EFF]あなたの持っているそれ、[3C404EFF]私に返してほしいんですよぉ♪=──Yes, you guessed it right~♪\nI want you to give it back to me, the one you have♪
-[3C404EFF]こ、[3C404EFF]これだけは絶対に渡せないのにゃ！=I absolutely can't give this up~nya!
-[3C404EFF]盗られたお金は諦めます！　[3C404EFF]また稼ぎますから！！[3C404EFF]\n[3C404EFF]商品の価格操作もやめます！　[3C404EFF]別の方法で稼ぎますから！！[3C404EFF]\n[3C404EFF]でもでもぉ……[3C404EFF]代わりがいない私は、[3C404EFF]捕まるわけにはいかないんですよ。=I'll give up the stolen money! I'll earn it again!! I'll stop manipulating product prices! I'll find another way to earn!! But, but... I can't afford to be caught because there's no replacement for me.
-[3C404EFF]もちろん！　[3C404EFF]ただとは言いません！！[3C404EFF]\n[3C404EFF]こちらが用意する対価はこちら！[3C404EFF]\nはい！　[3C404EFF]彼の命でぇす！！=Of course! It's not for free!!\nThe compensation we offer is this!\nYes! His life!!
-[3C404EFF]Ugh...[3C404EFF]卑怯にゃ！！=Ugh... That's not fair~nya!!
-[3C404EFF]お褒めに預かり光栄です♪[3C404EFF]\n[3C404EFF]ではではではぁ……[3C404EFF]改めて商談を開始しましょうか。[3C404EFF]\n[3C404EFF]証文を置いていくか……[3C404EFF]彼の命か……[3C404EFF]好きな方を選んでください♪=I'm honored by your praise♪ Well, well, well... Shall we start the business deal again? Will you leave the evidence behind... or his life...? Please choose whichever you like♪
-[3C404EFF]どうしたら……[3C404EFF]どうしたらいいのにゃ……！！　=What should I... what should I do~nya...!!
-[3C404EFF]──にゃ～♪=──nya~♪
-[3C404EFF]……！？[3C404EFF]\nこ、[3C404EFF]この声……！？=...!?\nTh, this voice...!?
-[3C404EFF]はぁい、[3C404EFF]時間切れ♪[3C404EFF]\n[3C404EFF]ではではでは、[3C404EFF]返答をいただきましょうか！！=Okay, time's up♪\nWell then, let's hear your answer!!
-[3C404EFF]……悪党ども。[3C404EFF]\nいいことを教えてやるにゃ。=...You villains.\nI'll tell you something good~nya.
-[3C404EFF]ファントムキャッツは狙った獲物をのがさない……[3C404EFF]\n[3C404EFF]だから、[3C404EFF]両方いただくにゃ！！=The Phantom Cat never let go of their prey...\nthat's why, we'll take both of them~nya!!
-[3C404EFF]にゃにゃーん！！=Nya-nyan!!
-[3C404EFF]な、[3C404EFF]なんだこの猫の大群は！？[3C404EFF]\n[3C404EFF]や、[3C404EFF]やめろぉ！[3C404EFF]\n俺は猫アレルギーなんだぁ～～！！=Wh, what is this horde of cats!?\nSt, stop it!\nI'm allergic to cats~!!
-[3C404EFF]くそっ！[3C404EFF]\n逃がすんじゃねえぞおまえら！[3C404EFF]\n後を追って……[3C404EFF]ん？　[3C404EFF]あれは？=Damn it!\nDon't let them get away!\nFollow them... huh? What's that?
-[3C404EFF]怪しい集団を見たという通報があったから来てみれば……[3C404EFF]\nファントムキャッツの周りには、[3C404EFF]猫の大群が出没するという情報がある！[3C404EFF]\nファントムキャッツがいるかもしれんから、[3C404EFF]付近を探索しろ！=We got a report that a suspicious group was seen here... there's information that a horde of cats appears around the Phantom Cat! They might be here, so search the area!
-[3C404EFF]あ～～[3C404EFF]王宮騎士さま、[3C404EFF]\nとてもとてもとてもいいところにぃ～～！！=Ahh~ Royal Knight-sama,\nyou came to a very very very good time~!!
-[3C404EFF]私の名はアクシツ！　[3C404EFF]しがないしがない商人です！[3C404EFF]\n[3C404EFF]それより、[3C404EFF]あのファントムキャッツが現れて、[3C404EFF]\n[3C404EFF]私から大事なものを奪って……[3C404EFF]あちらに逃げていきました！！=My name is Croock! I'm just a very humble merchant!\nBut more importantly, those Phantom Cat appeared and stole something precious from me... they ran away over there!!
-[3C404EFF]なんだと！？[3C404EFF]\n情報感謝する！！[3C404EFF]\nさっそく追いかけて……[3C404EFF]ん？=What!?\nThank you for the information!!\nI'll chase them right away... huh?
-[3C404EFF]……にゃあ。=...Nya.
-[3C404EFF]なんだこの猫は？[3C404EFF]\n口に何かをくわえて……[3C404EFF]こ、[3C404EFF]これは！？=What is this cat?\nIt has something in its mouth... th, this is!?
-[3C404EFF]……へ？[3C404EFF]\nなんで私に向かってくるんです？[3C404EFF]\n[3C404EFF]それよりファントムキャッツを追いかけて……=...Huh?\nWhy are you coming to me?\nYou should chase the Phantom Cat...
-[3C404EFF]この猫……[3C404EFF]おそらくファントムキャッツに従う猫だろう。[3C404EFF]\nそして、[3C404EFF]この猫がくわえていたのは証文。[3C404EFF]\n取引内容が明らかにおかしい、[3C404EFF]違法取引の証文だ。=This cat... probably a cat that obeys the Phantom Cat. And what this cat had in its mouth was a document. A document of a trade deal that was clearly wrong, an illegal trade deal.
-[3C404EFF]あ、[3C404EFF]あの猫女ぁ……！[3C404EFF]\n[3C404EFF]で、[3C404EFF]ではなく、[3C404EFF]いやぁ……[3C404EFF]悪いことをする人もいるもんですねぇ……=Th, that cat girl...! \nNo, no, I mean... well... there are bad people in this world...
-[3C404EFF]取引した商会の名は、[3C404EFF]『アクシツ』商会連合。[3C404EFF]\nそしておまえは、[3C404EFF]『アクシツ』という名の商人で、[3C404EFF]\nファントムキャッツに[3C404EFF]『大事なもの』を奪われた……=The name of the trading company that made the deal was "Croock"'d & Inc. And you are a merchant named "Croock", who had your "precious thing" stolen by the Phantom Cat...
-[3C404EFF]──ここまで状況が一致すると、[3C404EFF]偶然ではすまされんぞ。[3C404EFF]\n話を聞かせてもらおうか、[3C404EFF]アクシツ商人どの？=──When the situation matches up to this point, it can't be a coincidence. Let me hear your story, Mr. Croock Merchant?
-[3C404EFF]だ、[3C404EFF]だから…………=Li, like i said...
-[3C404EFF]……だから、[3C404EFF]\n自分の名前を入れるのは[3C404EFF]嫌なんだよぉぉ～～～～！！=...Li, like i said, I don't like putting my name on the guild name~!!
-[3C404EFF]I see...[3C404EFF]はあ……[3C404EFF]\n[3C404EFF]ここまで来れば大丈夫にゃ！！=Haa... haa...\nI should be safe here~nya!!
-[3C404EFF]なんとかなったにゃ～～！！[3C404EFF]\n[3C404EFF]アクシツは今頃捕まってるだろうし、[3C404EFF]\nこれで一件落着…………[3C404EFF]あれ？=I made it somehow~nya!! \nCroock must be caught by now, and this case is closed........huh?
 
-[3C404EFF]まさか……[3C404EFF]\nアクシツたちに捕まって……=Could it be...\nhe was captured by Croock and his men...
-[3C404EFF]どうして……[3C404EFF]\nどうして、あたしはいつもこうなのにゃ……？=Why...\nWhy am I always like this...?
-[3C404EFF]勝手に突っ走って……[3C404EFF]調子にのって……[3C404EFF]\n[3C404EFF]いつも大事なところで失敗して……[3C404EFF]\n[3C404EFF]そして、[3C404EFF]またあいつを…………！=I act on my own... get carried away...\nAlways fail at the crucial moment...\nand then, again lose him........!
-[3C404EFF]………………なんでいるにゃ？=............Why are you here~nya?
-[3C404EFF]う……[3C404EFF]うぅ………………=Ow... ow............
-[3C404EFF]……うにゃぁぁぁあああ～～～～！！[3C404EFF]\nその顔引っかかせろにゃ～～！！=...Unyaaa~!!\nLet me scratch your face~nya!!
-[3C404EFF]そんなの知ったこっちゃないのにゃ！！[3C404EFF]\n[3C404EFF]少しは[3C404EFF]人の気持ちってのを考えろにゃ～！！=I don't care about that~nya!!\nThink about how other people feel sometimes~nya!!
-[3C404EFF]……にゃ！？[3C404EFF]\n[3C404EFF]頭をなでてご機嫌をとろうったって……=...Nya!?\nDon't think you can make me happy by patting my head...
-[3C404EFF]...Ok.[3C404EFF]\n[3C404EFF]お帰りにゃ……=...Yeah.\nWelcome back~nya...
-[3C404EFF]──次の日、ランドソルには号外が配られる。[3C404EFF]\n内容はもちろん、たった一日で、[3C404EFF]\n不正取引をしていた商会が一斉検挙されたというもの。=──The next day, an extra edition was distributed in Landosol. The content was of course, that in just one day, all the trading companies that were involved in illegal trade deals were arrested.
-[3C404EFF]そして、記事にはある名前が書かれていた。[3C404EFF]\n庶民を助け、悪を討った英雄、ファントムキャッツと。=And in the article, there was a name written. The hero who helped the common people and defeated evil, Phantom Cat and──.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

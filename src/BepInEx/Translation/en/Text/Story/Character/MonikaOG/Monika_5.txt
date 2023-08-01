@@ -3,7 +3,7 @@
 子供１=Child 1
 子供２=Child 2
 r:"^モニカは(.{2,10})を連れて、子供たちとの訓練に臨む。モニカは、すばしっこい子供たちの相手をすると足腰が強くなると言う。しかし、傍から見ているとその光景は微笑ましい限りだった。$"=Monika takes $1 and prepares for training with the children. Monika says that dealing with agile children will strengthen her legs and waist. However, from the bystander's perspective, the scene was nothing short of heartwarming.
-r:"^(?:\[3C404EFF\])?散歩をしていた(.{2,10})は、\n偶然モニカを見かけた。$"=While taking a walk, $1 coincidentally comes across Monika.
+r:"^散歩をしていた(.{2,10})は、\n偶然モニカを見かけた。$"=While taking a walk, $1 coincidentally comes across Monika.
 誰かと思えば、貴公か。\nどうかしたか？=I was wondering who you were, but it's you.\nWhat's wrong?
 私が何をしているか、気になった……？\nなに、大したことではない。=You're curious about what I'm doing...? Well, it's nothing important.
 軍人として己を高めるため、\nこれから友人たちと訓練をするのだ。\n貴公も来るか？=I'm about to train with my friends to improve myself as a soldier. Will you come along?
@@ -30,49 +30,48 @@ r:"^(?:\[3C404EFF\])?散歩をしていた(.{2,10})は、\n偶然モニカを見
 
 う、うむ。\nいつも悪いな。=Um, yes.\nThank you very much.
 
-r:"^(?:\[3C404EFF\])?な、(?:\[3C404EFF\])?なんだ、(.{2,10})？(?:\[3C404EFF\])?\nその疑いの目は？$"=Wh-What is it, $1? What's with those suspicious eyes?
+r:"^な、なんだ、(.{2,10})？\nその疑いの目は？$"=Wh-What is it, $1? What's with those suspicious eyes?
 
 私が菓子をもらうために\nここに来ていると言いたいのか！？\nち、違うぞ！　そんなわけがない！=Are you trying to tell me I'm here to get sweets?! N-No! Of course not!
 菓子ほしさに、子供の遊び相手になるなど……\n誇り高き軍人が、そんなことをするはずがない！\nう、う、ウソではないぞ！=There's no way A proud soldier like me would do something like that...to play with a child just because she wants sweets! I-I-I'm not lying!
 モニカちゃん！\nはやくさっきの続きしよー！=Monika-chan! Let's continue what we were doing earlier!
 
-r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?ああ、(?:\[3C404EFF\])?そうだな！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?私はあの子たちの相手をしなくてはならない！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ではな、(.{2,10})！$"=Y-Yeah, that's right!\nI have to deal with them!\nSee you later, $1!
+r:"^あ、ああ、そうだな！\n私はあの子たちの相手をしなくてはならない！\nではな、(.{2,10})！$"=Y-Yeah, that's right!\nI have to deal with them!\nSee you later, $1!
 
 
 モニカちゃん、このお菓子おいしいよ。\n半分あげる。=Monika-chan, this snack is delicious.\nI'll give you half.
 いいのか？\nでは、私のも半分にわけてやる。=Is that okay?\nThen, I'll split mine in half for you too.
 
-r:"^(?:\[3C404EFF\])?子供たちと仲良くしているモニカを、\n微笑ましく見守る(.{2,10})であった。$"=$1 watches over Monika, who is happily getting along with the children, with a smile on his face.
+r:"^子供たちと仲良くしているモニカを、\n微笑ましく見守る(.{2,10})であった。$"=$1 watches over Monika, who is happily getting along with the children, with a smile on his face.
 
 
 
 
-[3C404EFF]誰かと思えば、[3C404EFF]貴公か。[3C404EFF]\nどうかしたか？=I was wondering who you were, but it's you. What's wrong?
 
-[3C404EFF]私が何をしているか、[3C404EFF]気になった……？[3C404EFF]\n[3C404EFF]なに、[3C404EFF]大したことではない。=You're curious about what I'm doing...? Well, it's nothing important.
-[3C404EFF]軍人として己を高めるため、[3C404EFF]\nこれから友人たちと訓練をするのだ。[3C404EFF]\n[3C404EFF]貴公も来るか？=I'm about to train with my friends to improve myself as a soldier.\nWill you come along?
-[3C404EFF]やる気のようだな。[3C404EFF]\n[3C404EFF]なら、[3C404EFF]ついて来るといい。=Seems like you're motivated.\nIn that case, come with me.
-[3C404EFF]さぁ、[3C404EFF]到着だ。[3C404EFF]\n今日はここで訓練をするぞ。[3C404EFF]\n[3C404EFF]私の友人たちも、そろそろ来るはずだが……=Here we are, we'll train here today.\nMy friends should be arriving soon...
-[3C404EFF]モニカちゃーん！[3C404EFF]\n[3C404EFF]お待たせー！=Monika-chan!\nSorry to keep you waiting!
-[3C404EFF]お、[3C404EFF]噂をすれば。[3C404EFF]\nちょうど来たようだな。=Oh, speaking of which.\nLooks like they just arrived.
-[3C404EFF]モニカちゃん、[3C404EFF]早いね。=Monika-chan, you're early.
-[3C404EFF]当然だ。[3C404EFF]\n[3C404EFF]軍人たるもの、[3C404EFF]時間厳守だからな。=Of course.\nA soldier is always punctual.
-[3C404EFF]さぁ、[3C404EFF]今日の訓練を始めるぞ！[3C404EFF]\nまずは整列だ！=Alright, let's begin today's training!\nFirst, line up!
-[3C404EFF]はーい！=Okay!
-[3C404EFF]It's not playing soldier![3C404EFF]\nちゃんとした訓練だ！=It's not playing soldier! This is proper training!
-[3C404EFF]これは、[3C404EFF]多人数を想定した戦闘訓練だ。[3C404EFF]\n[3C404EFF]子供はすばしっこいからな。[3C404EFF]\nこちらの足腰も鍛えられて──=This is combat training designed for multiple people. Children are agile, you see. It will also train our legs and waist──
-[3C404EFF]あ、[3C404EFF]お父さんだ！[3C404EFF]\n[3C404EFF]お父さーん！　[3C404EFF]こっちこっちー！=Oh, it's Dad!\nDad, over here!
-[3C404EFF]みんな、娘と仲良くしてくれてありがとうね。[3C404EFF]\n[3C404EFF]今日もお菓子を持ってきたよ。=Everyone, thank you for being kind to my daughter.\nI brought some snacks today as well.
-[3C404EFF]わーい！=Yay!
-[3C404EFF]ふん、[3C404EFF]菓子ごときで浮かれて……[3C404EFF]\nこれだから子供は。=Hmph, getting excited over snacks...\nThat's what children are like.
-[3C404EFF]……し、[3C404EFF]しかし、[3C404EFF]私だけもらわないというのも、[3C404EFF]\n和を乱す行為だ。[3C404EFF]\n[3C404EFF]うん、[3C404EFF]それはよくないな。=...Sh-Still, if I'm the only one who doesn't get it, it's going to ruin the peace. Yeah, that's not good.
-[3C404EFF]モニカちゃんも、[3C404EFF]どうぞ。=Monika-chan, please have some too.
-[3C404EFF]う、[3C404EFF]うむ。[3C404EFF]\n[3C404EFF]いつも悪いな。=Um, yes.\nThank you very much.
 
-[3C404EFF]私が菓子をもらうために[3C404EFF]\nここに来ていると言いたいのか！？[3C404EFF]\n[3C404EFF]ち、違うぞ！　[3C404EFF]そんなわけがない！=Are you trying to tell me I'm here to get sweets?! N-No! Of course not!
-[3C404EFF]菓子ほしさに、[3C404EFF]子供の遊び相手になるなど……[3C404EFF]\n[3C404EFF]誇り高き軍人が、[3C404EFF]そんなことをするはずがない！[3C404EFF]\n[3C404EFF]う、[3C404EFF]う、[3C404EFF]ウソではないぞ！=There's no way A proud soldier like me would do something like that...to play with a child just because she wants sweets! I-I-I'm not lying!
-[3C404EFF]モニカちゃん！[3C404EFF]\n[3C404EFF]はやくさっきの続きしよー！=Monika-chan! Let's continue what we were doing earlier!
 
-[3C404EFF]モニカちゃん、[3C404EFF]このお菓子おいしいよ。[3C404EFF]\n[3C404EFF]半分あげる。=Monika-chan, this snack is delicious.\nI'll give you half.
-[3C404EFF]いいのか？[3C404EFF]\n[3C404EFF]では、[3C404EFF]私のも半分にわけてやる。=Is that okay?\nThen, I'll split mine in half for you too.
-[3C404EFF]貴公……[3C404EFF]バカにしているな？[3C404EFF]\n私は遊びに来たわけではないぞ！=You're making fun of me, aren't you?\nI'm not here to play!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

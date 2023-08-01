@@ -1,29 +1,20 @@
-イドストーリー=ide Story
 サイドストーリー=Side Story
-
-
-
 sr:"^\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]が解放されました。\[-\]$"=[3C404E]The [FFBB00,CE4F00]$1[-] has been unlocked.[-]
 r:"^メインクエスト([0-9\-\(\)（）\w ]*)クリアで$"=Cleared Main Quest $1
-
 sr:"^(.+) エンディングを閲覧$"=Unlock by View ending of $1
-
 コンテンツ解放=Unlock Content
-
 エンディング=Ending
 イベントストーリー=Event Story
 イベントストーリー一覧=Event Story List
 入手できるメモリーピースで絞り込み=Filter by Memory Shards
 クエストが解放されていません。=The quest has not been unlocked.
 全キャラ=All Char
-
 未クリア=Not Cleared
 開催順=Release Order
 
 ボスバトル（NORMAL）をクリアで解放されます。=Defeat Normal Boss First
 
 キャラ選択中=Selection
-
 討伐済みです。=Already Cleared
 
 これまでのイベントで登場した\n限定キャラを仲間にできたり\nメモリーピースが手に入る\nみたいですよ。やばいですね☆=It seems that you'll be able befriend limited characters from previous events and get their memory shards. Yabai~
@@ -128,7 +119,7 @@ r:"^とある無人島([0-9\-\(\)\w （）]*)$"=A Certain Uninhabited Island $1
 合計完了数=Total completion number
 今回の進捗=Progress
 経過した秒数=Elapsed
-宿題=homework
+宿題=Homework
 得意な宿題=Homework You are Good 
 ちょっと苦手な宿題=Homework You are Little Weak
 すごく苦手な宿題=Homework You are Very Weak

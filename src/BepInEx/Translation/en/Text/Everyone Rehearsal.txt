@@ -1,5 +1,4 @@
 みんなの稽古場=Everyone's Trial Room
-んなの稽古場=veryone's Trial Room
 
 ガーゴイル=Gargoyle
 剛力なる鳥像=A strong bird statue
@@ -41,8 +40,7 @@ sr:"^(\d+)年(\d+月) クランバトル（([0-9 :/]+)まで）$"=Clan Battle $2
 r:"^難易度「(.+)」のクリア報酬です。$"="It is a clear reward for the difficulty "$1"."
 初回クリア報酬獲得=Get first time clear reward
 ---Mission---
-古場ミッション=rial Mission
-稽=T
+稽古場ミッション=Trial Mission
 稽古場=Trial hall
 
 sr:"^(\[[0-9A-F]{6}\])?(ガーゴイル|マグスガーゴイル|ガードガーゴイル|ガーゴイル・バースト|ガーゴイル・マギ)（([\w\W]+)）をクリアしよう(\[-\])?$"="$1Defeat $2 ($3) at Trial$4"

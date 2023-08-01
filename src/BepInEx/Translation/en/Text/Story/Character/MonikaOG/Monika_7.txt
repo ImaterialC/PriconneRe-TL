@@ -5,21 +5,21 @@
 
 r:"^モニカは街の女性たちから子供扱いを受けて憤り、「自分は([\s\S]{2,10})の恋人だ」と出任せを言う。証明のためにキスしようとするが、注目を受けて恥ずかしくなり(.{2,10})を殴り飛ばす。$"="Monika, angered by being treated like a child by the women in the town, impulsively declares, "I am $1's lover." In an attempt to prove it, she tries to kiss $1 but gets embarrassed by the attention and ends up slapping him instead."
 
-r:"^(?:\[3C404EFF\])?モニカと食事に来た(.{2,10})。$"=$1 had come to eat with Monika.
+r:"^モニカと食事に来た(.{2,10})。$"=$1 had come to eat with Monika.
 
-r:"^(?:\[3C404EFF\])?(.{2,10})、どこだ？(?:\[3C404EFF\])?\n席を確保しておくように頼んだが……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?こう人が多いと、(?:\[3C404EFF\])?探しようがないな。$"=$1, where are you? I asked her to secure a seat, but... With this many people around, there's no way to find you.
+r:"^(.{2,10})、どこだ？\n席を確保しておくように頼んだが……\nこう人が多いと、探しようがないな。$"=$1, where are you? I asked her to secure a seat, but... With this many people around, there's no way to find you.
 
 ねぇ、いいでしょ？\n私たちといいコトしましょ～=Hey, isn't it nice?\nLet's have some fun together.
 ん？　なんだ……？\nやけに騒がしいな。=Huh? What's going on...?\nIt's unusually noisy.
 照れちゃってかわいい～\nね？　あたしたちと遊びましょうよ～=You're so cute when you're embarrassed. Let's play together, okay?
 なんだ、あの女たちは？\nこんな所でナンパとは……=Who are those women? Trying to pick up someone in a place like this...
-r:"^(?:\[3C404EFF\])?って、(?:\[3C404EFF\])?声をかけられてるのは(.{2,10})か！？$"=Wait, they're pick up on $1! 
+r:"^って、声をかけられてるのは(.{2,10})か！？$"=Wait, they're pick up on $1! 
 そこの女たち、待て！\nそいつは、私と食事をしに来たのだ。\n連れていかれては困る！=Hold on, you girls! She came here to have a meal with me. I can't let you take her away!
 ええ～、なにこの子？=Oh, come on, what's with this kid?
 子供は引っ込んでてくれる？\nこれは大人の話なのよ。=Could you step back, children? This is a conversation for adults.
 な！？\n私は子供ではない！=What!? I'm not a kid!
 
-r:"^(?:\[3C404EFF\])?(.{2,10})、こいつらのことは無視しろ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?見た目だけ大人で、(?:\[3C404EFF\])?中身が子供の連中など(?:\[3C404EFF\])?\n相手にする必要はないぞ！$"=$1, ignore these people!\nThere's no need to bother with those who may look like adults but act like children!
+r:"^(.{2,10})、こいつらのことは無視しろ！\n見た目だけ大人で、中身が子供の連中など\n相手にする必要はないぞ！$"=$1, ignore these people!\nThere's no need to bother with those who may look like adults but act like children!
 
 あら？\nそれ、どういうこと？=Oh? What do you mean by that?
 あたしたちのことバカにしてるの？\n子供だからって、許さないわよ？=Are you making fun of us?\nI won’t forgive you just because you’re a kid
@@ -27,13 +27,13 @@ r:"^(?:\[3C404EFF\])?(.{2,10})、こいつらのことは無視しろ！(?:\[3C4
 だから、子供ではないと言っている！=That's why I'm saying I'm not a little girl!
 そんな見た目で言われてもね～\n子供にしか見えないわよ？=Even if you say that with your appearance...\nyou still look like a child to us.
 
-r:"^(?:\[3C404EFF\])?ぐ、(?:\[3C404EFF\])?ぐぬぬ……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?私は立派な大人だ！(?:\[3C404EFF\])?\n(.{2,10})とだって……(?:\[3C404EFF\])?こ、(?:\[3C404EFF\])?恋人同士だからなっ！$"=Grr... I am a respectable adult!\nAnd $1 and I... we're... we're lovers, you know!
+r:"^ぐ、ぐぬぬ……\n私は立派な大人だ！\n(.{2,10})とだって……こ、恋人同士だからなっ！$"=Grr... I am a respectable adult!\nAnd $1 and I... we're... we're lovers, you know!
 ええ！？=Eh!?
 素直に謝ったら？=Why don't you just sincerely apologize?
 しーっ！\n貴公は黙っていろ。=Shh! You, stay quiet.
 ふぅ～ん、恋人ねぇ？\n本当かしら？\nちょっとウソっぽいわ。=Hmm, lovers, huh? It sounds a bit suspicious to me.
 
-r:"^(?:\[3C404EFF\])?ウ、(?:\[3C404EFF\])?ウソではないぞ！(?:\[3C404EFF\])?\n私と(.{2,10})は、付き合っている！$"=I-I'm not lying!\n$1 and I are dating!
+r:"^ウ、ウソではないぞ！\n私と(.{2,10})は、付き合っている！$"=I-I'm not lying!\n$1 and I are dating!
 へぇ～\nじゃあ、キスしてみなさいよ？=Oh really? Then why don't you prove it with a kiss?
 キ、キ、キ、キス……だと！？=K-K-K-Kiss... you say!?
 そうよ。\n本当に恋人なら、簡単でしょ？=That's right. If you're truly lovers, it should be easy, right?
@@ -43,9 +43,9 @@ r:"^(?:\[3C404EFF\])?ウ、(?:\[3C404EFF\])?ウソではないぞ！(?:\[3C404EF
 よし、キスしよう。=Alright, let's kiss.
 なぜ乗り気になっている！？\nそんなことできるわけが……！\nし、しかし……ここで引くわけにはっ！=Why are you so eager!? There's no way I can do something like that...! B-but... I can't back down here!
 
-r:"^(?:\[3C404EFF\])?子供扱いをされたままでは、(?:\[3C404EFF\])?\n私の名誉が保てない！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})……キ、キ、キスッ、(?:\[3C404EFF\])?するぞ！$"=With everyone treating me like a child, I can't maintain my honor! $1... I-I'm going to kiss you!
+r:"^子供扱いをされたままでは、\n私の名誉が保てない！\n(.{2,10})……キ、キ、キスッ、するぞ！$"=With everyone treating me like a child, I can't maintain my honor! $1... I-I'm going to kiss you!
 
-r:"^(?:\[3C404EFF\])?(.{2,10})、目をつぶれ……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?いいか、(?:\[3C404EFF\])?絶対に開けるなよ？$"=$1, close your eyes...\nListen, don't you dare open them!
+r:"^(.{2,10})、目をつぶれ……\nいいか、絶対に開けるなよ？$"=$1, close your eyes...\nListen, don't you dare open them!
 お、落ちつけ……\nこれは本心からのキスではない！\n名誉を守るため……軍人の使命としてのキスだ！=C-Calm down... This isn't a kiss from the bottom of my heart! To protect my honor... This is a kiss as a soldier's mission!
 ん？　なんだなんだ？\n何かやってるのか？=Hey, what's going on over there? Are they doing something?
 あそこのカップルがキスするんだと。=That couple over there is about to kiss.
@@ -54,42 +54,41 @@ r:"^(?:\[3C404EFF\])?(.{2,10})、目をつぶれ……(?:\[3C404EFF\])?\n(?:\[3C
 それっ、キース！\nキース！　キース！=Hey, Kissing!\nKissing! Kissing!
 あ、う……うぅ……！=Ah, uh... Ugh...!
 うわぁあああ！！\n見るな～～～～！！！=Waaaaah!!\nDon't look at meeeee!!
-r:"^(?:\[3C404EFF\])?照れたモニカに殴り飛ばされ、\n星になる(.{2,10})であった……$"=It was $1, blown away by the blushing Monika and turned into a star...
-
-[3C404EFF]ねぇ、[3C404EFF]いいでしょ？[3C404EFF]\n[3C404EFF]私たちといいコトしましょ～=Hey, isn't it nice?\nLet's have some fun together.
-[3C404EFF]ん？　[3C404EFF]なんだ……？[3C404EFF]\nやけに騒がしいな。=Huh? What's going on...?\nIt's unusually noisy.
-[3C404EFF]照れちゃってかわいい～[3C404EFF]\n[3C404EFF]ね？　[3C404EFF]あたしたちと遊びましょうよ～=You're so cute when you're embarrassed.\nLet's play together, okay?
-[3C404EFF]なんだ、[3C404EFF]あの女たちは？[3C404EFF]\n[3C404EFF]こんな所でナンパとは……=Who are those women?\nTrying to pick up someone in a place like this...
-
-[3C404EFF]そこの女たち、[3C404EFF]待て！[3C404EFF]\nそいつは、[3C404EFF]私と食事をしに来たのだ。[3C404EFF]\n[3C404EFF]連れていかれては困る！=Hold on, you girls!\nHe came here to have a meal with me.\nI can't let you take him away!
-[3C404EFF]ええ～、[3C404EFF]なにこの子？=Oh, come on, what's with this kid?
-[3C404EFF]子供は引っ込んでてくれる？[3C404EFF]\n[3C404EFF]これは大人の話なのよ。=Could you step back, kid?\nThis is a conversation for adults.
-[3C404EFF]な！？[3C404EFF]\n[3C404EFF]私は子供ではない！=What!?\nI'm not a kid!
-
-[3C404EFF]あら？[3C404EFF]\nそれ、どういうこと？=Oh?\nWhat do you mean by that?
-[3C404EFF]あたしたちのことバカにしてるの？[3C404EFF]\n子供だからって、[3C404EFF]許さないわよ？=Are you making fun of us?\nI won’t forgive you just because you’re a kid
-[3C404EFF]お子様には、[3C404EFF]私たちの魅力がわからないんでしょうね。=It seems like our charm is lost on you, little girl.
-[3C404EFF]だから、[3C404EFF]子供ではないと言っている！=That's why I'm saying I'm not a little girl!
-[3C404EFF]そんな見た目で言われてもね～[3C404EFF]\n[3C404EFF]子供にしか見えないわよ？=Even if you say that with your appearance...\nyou still look like a child to us.
-
-[3C404EFF]しーっ！[3C404EFF]\n貴公は黙っていろ。=Shh!\n You, stay quiet.
-[3C404EFF]ふぅ～ん、[3C404EFF]恋人ねぇ？[3C404EFF]\n本当かしら？[3C404EFF]\n[3C404EFF]ちょっとウソっぽいわ。=Hmm, lovers, huh?\nIt sounds a bit suspicious to me.
-
-[3C404EFF]へぇ～[3C404EFF]\nじゃあ、[3C404EFF]キスしてみなさいよ？=Oh really?\nThen why don't you prove it with a kiss?
-[3C404EFF]キ、キ、キ、キス……だと！？=K-K-K-Kiss... you say!?
-[3C404EFF]そうよ。[3C404EFF]\n[3C404EFF]本当に恋人なら、[3C404EFF]簡単でしょ？=That's right.\nIf you're truly lovers, it should be easy, right?
-[3C404EFF]ほら、[3C404EFF]どうしたの？[3C404EFF]\n早くキスしてみなさいよ。=Come on, what's the matter?\n Kiss already.
-[3C404EFF]う、[3C404EFF]うぅ……[3C404EFF]どうすれば……[3C404EFF]\n[3C404EFF]キ、[3C404EFF]キスなんて……[3C404EFF]そんな恥ずかしいこと……！=Uh, ugh... What should I do... a kiss... such an embarrassing thing...!
-[3C404EFF]しかし、[3C404EFF]やらなければウソがバレてしまう。[3C404EFF]\n[3C404EFF]それでは、[3C404EFF]私の名誉が……！=But if I don't do it, the lie will be exposed. And then, my honor...
-[3C404EFF]なぜ乗り気になっている！？[3C404EFF]\nそんなことできるわけが……！[3C404EFF]\n[3C404EFF]し、[3C404EFF]しかし……ここで引くわけにはっ！=Why are you so eager!?\nThere's no way I can do something like that...! B-but... I can't back down here!
+r:"^照れたモニカに殴り飛ばされ、\n星になる(.{2,10})であった……$"=It was $1, blown away by the blushing Monika and turned into a star...
 
 
-[3C404EFF]お、[3C404EFF]落ちつけ……[3C404EFF]\nこれは本心からのキスではない！[3C404EFF]\n名誉を守るため……[3C404EFF]軍人の使命としてのキスだ！=C-Calm down... This isn't a kiss from the bottom of my heart! To protect my honor... This is a kiss as a soldier's mission!
-[3C404EFF]ん？　[3C404EFF]なんだなんだ？[3C404EFF]\n何かやってるのか？=Hey, what's going on over there?\n Are they doing something?
-[3C404EFF]あそこのカップルがキスするんだと。=That couple over there is about to kiss.
-[3C404EFF]おお、いいぞー！[3C404EFF]\nやれやれー！=Oh, wow!\nWay to go!
-[3C404EFF]な！？[3C404EFF]\nい、[3C404EFF]いつの間に、[3C404EFF]こんなにギャラリーが……！？=What!?\nWhen did all these people become an audience...!?
-[3C404EFF]それっ、キース！[3C404EFF]\nキース！　[3C404EFF]キース！=Hey, Kissing!\nKissing! Kissing!
-[3C404EFF]あ、[3C404EFF]う……うぅ……！=Ah, uh... Ugh...!
-[3C404EFF]うわぁあああ！！[3C404EFF]\n[3C404EFF]見るな～～～～！！！=Waaaaah!!\nDon't look at meeeee!!
-[3C404EFF]い、[3C404EFF]いや！　[3C404EFF]そうはいかない！[3C404EFF]\n貴公には悪いが、[3C404EFF]覚悟を決めてもらうぞ！=I-I refuse! I can’t do that! I apologize involving you, but prepare yourself!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

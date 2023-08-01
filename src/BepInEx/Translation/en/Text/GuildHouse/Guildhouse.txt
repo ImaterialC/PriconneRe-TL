@@ -77,8 +77,7 @@ r:"^絆ランク (\d+)$"=Bond\nRank $1
 
 ---games---
 購入価格=Price
-み=E
-んなのゲームテーブル=veryone's Game Table
+みんなのゲームテーブル=Everyone's Game Table
 レッツ・クッキング！\nミヤコとプリンを作って食べて\nプリンの道を極めよう！=Let's Cook! Let's make and eat pudding with Miyako to master the way of pudding!
 こちらは1,000ルピで\n販売中！\nぜひ購入して\n遊んでくださいね！=This one's on sale for 1,000 rupees, so buy it and play with it!
 楽しいミニゲームをご紹介！\nあなたはどのミニゲームで\n遊びますか？=Here are some fun Mini Games! Which mini-game will you play?

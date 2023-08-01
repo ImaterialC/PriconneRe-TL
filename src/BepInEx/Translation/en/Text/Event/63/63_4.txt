@@ -100,101 +100,101 @@
 さすが、でございますね。=That's very impressive.
 怪しい地下洞窟を見つけたイリヤたちの前に姿を現すブラド。\nその表情は冷静なまま変わらず、イリヤを見つめているのであった。=Brad appears in front of Illya and the others when they find a suspicious underground cave. His expression remains calm as he stares at Illya.
 
-[3C404EFF]滞在してからしばらく経ち、街は賑やかさを増していた。[3C404EFF]\n順調に増していく闇の勢力──その頂点に立つイリヤもまた、[3C404EFF]\n伝説の存在として地位を確立しつつあった。=It's been a while since I last stayed here, and the city is getting livelier and livelier. The forces of darkness are steadily increasing. Standing at the top of them, Illya is establishing her positiong as a legendary being.
 
-[3C404EFF]イリヤ様。[3C404EFF]本日のスケジュールですが、[3C404EFF]\nこれよりゼラチナ族との交流でございます。[3C404EFF]\n[3C404EFF]握手などの際は[3C404EFF]少々ぬるぬるになってしまうかもしれませんが……=Illya-sama. About today's schedule, we will now be interacting with the Gelachina. It may get a little slippery when we shake hands, but...
-[3C404EFF]えっ、[3C404EFF]ほんと？[3C404EFF]\n是非見てみたいね、[3C404EFF]イリヤがぬるぬるになるところ。[3C404EFF]\n[3C404EFF]きっと芸術的なんだろうな……♪=Huh, really? I’d love to see Illya get slimy. It must be artistic... ♪
-[3C404EFF]ぐ、[3C404EFF]ぬぬ──=Ugh, ngh...
-[3C404EFF]イリヤ？=Illya?
-[3C404EFF]──えぇーいっ！[3C404EFF]\n[3C404EFF]いやじゃいやじゃ！　[3C404EFF]やっとられんわー！=Eeeeey! I don't want to! I can't do this!
-[3C404EFF]わぁ。[3C404EFF]\n子どもみたいに暴れ出したね。=Wow. You're going on a rampage like a child.
-[3C404EFF]……如何なされましたかな？=...Is something the matter?
-[3C404EFF]如何もなにもないわ！　[3C404EFF]この街に来てから毎日毎日、[3C404EFF]\n椅子に座ったまま[3C404EFF]魔物たちの願いを聞くばかり！[3C404EFF]\nしかも大半は[3C404EFF]伝説を勘違いした無茶振りじゃ！=It's nothing! Ever since I came to this city, I've been sitting in my chair day after day, listening to the monsters' wishes! And most of them are just acting reckless because they misunderstood the legend!
-[3C404EFF]元々わらわは、[3C404EFF]自身の完全復活のために[3C404EFF]ここまで足を運んだのじゃぞ！[3C404EFF]\n[3C404EFF]このままでは何もできんではないか！=I came all the way here to fully revive myself! At this rate, I won't be able to do anything!
-[3C404EFF]し、[3C404EFF]しかしイリヤ様……！=B-But Lady Illya...!
-r:"^(?:\[3C404EFF\])?街へ行くぞ(.{2,10})、(?:\[3C404EFF\])?それと(?:\[3C404EFF\])?来なくてもいいがユキも！$"=Let's go to the city, $1, and you don't have to come, Yuki!
 
-[3C404EFF]仕方がないなぁ。[3C404EFF]\n[3C404EFF]ボクという美を連れて歩ける幸せをあげるよ♪=Oh well. I'll give you the happiness of walking around with my beauty♪
-[3C404EFF]ふぅ、[3C404EFF]ようやくリフレッシュできるわい。[3C404EFF]\n[3C404EFF]夜を統べる者とはいえ、[3C404EFF]息抜きは必要じゃからな。=Phew, I'm finally able to relax. I may be the ruler of the night, but I need to take a break.
-[3C404EFF]ふふっ。[3C404EFF]\n伝説の吸血鬼、[3C404EFF]なんていう割には[3C404EFF]俗だよね、[3C404EFF]イリヤってさ。=Hehe. For a legendary vampire, Illya is pretty vulgar.
-[3C404EFF]なんじゃと！？　[3C404EFF]誰が俗物じゃ！=What?! Who are you calling vulgar?!
-[3C404EFF]ほ、[3C404EFF]ほう。[3C404EFF]\nそうなのか……[3C404EFF]それならばよい。=O-Oh? I see... Very well, then.
-[3C404EFF]うん。[3C404EFF]俗というか……[3C404EFF]ちょろいって感じだね。=Yeah. It's more like... it's easy.
-[3C404EFF]ちょろい！？=Easy!?
-[3C404EFF]それで、[3C404EFF]力を復活させる方法を探すんだっけ。[3C404EFF]\n[3C404EFF]確か[3C404EFF]街の中に本屋さんとかあったから、[3C404EFF]案内してあげようか？=So, you’re going to look for a way to revive your power, right? There’s a bookstore in the city, if I remember correctly, so should I show you around?
-[3C404EFF]ほう、[3C404EFF]ユキにしては気が利いておるではないか。[3C404EFF]\n[3C404EFF]では[3C404EFF]案内するがよい！=Oh? How thoughtful of you, Yuki. Now then, show me the way!
-[3C404EFF]ええっと、[3C404EFF]この辺りだったかな。=Let's see, I think it was around here.
-[3C404EFF]──Guoooo![3C404EFF]\nあ、[3C404EFF]イリヤ様、[3C404EFF]いらっしゃいませー！=Guoooo!\nAh, Lady Illya, welcome!
-[3C404EFF]うむ。[3C404EFF]\nちと覗かせてもらうぞ。=Yes. I'll take a peek.
-[3C404EFF]それにしても、[3C404EFF]本当に本屋なのじゃな。[3C404EFF]\n[3C404EFF]通貨とか一体どうなっとるんじゃ……？=Still, it really is a bookstore. I wonder what's going on with the currency...?
-[3C404EFF]こちらに並んでいる書物はすべて[3C404EFF]10イリヤになっておりますー=All the books lined up here are 10 Illya-
-[3C404EFF]10イリヤ！？=10 Illya!?
-[3C404EFF]わらわ、[3C404EFF]通貨になっておる……[3C404EFF]こ、[3C404EFF]これ以上考えるのはよそう。[3C404EFF]\n[3C404EFF]なんか恐ろしくなってきおった……=Wow, it's turning into currency... I-I don't think we should think about it anymore. I'm starting to get scared...
-[3C404EFF]肝心の品ぞろえはどうなのかな？[3C404EFF]\n[3C404EFF]闇の美容法の本とか、[3C404EFF]闇のファッション雑誌とかあるかな～？=I wonder what the most important items are? Do you have a book on dark beauty salons or a fashion magazine?
-[3C404EFF]闇を付ければ何でもいいと思うとらんか？=Don't you think anything is fine as long as you put darkness on it?
-[3C404EFF]えぇっと、[3C404EFF]なになに？[3C404EFF]\n『闇の図解、[3C404EFF]吸血鬼のすべて！』、[3C404EFF]『オススメ闇の眷属百選』、[3C404EFF]\n『明日から使える[3C404EFF]闇の吸血鬼ジョーク』……=Let’s see, what’s this? “Dark Diagram, Vampire’s All!” “One of the Hundred Recommendations of Darkness Familiars,” and “A Dark Vampiric joke we can use starting tomorrow”...
-[3C404EFF]……闇を付ければなんでもよかったようじゃな。[3C404EFF]\n[3C404EFF]吸血鬼に関する書物ばかりじゃな。[3C404EFF]\n[3C404EFF]まぁ、[3C404EFF]それもそうであろうな。=...It seems you could have put on any darkness. It's all books about vampires. Well, I guess that's true.
-[3C404EFF]む、[3C404EFF]これは……[3C404EFF]『神に挑みし魔族の王、[3C404EFF]伝説の吸血鬼』。[3C404EFF]\nこの街に伝わる伝説のものか。=Hm, this is... 'The legendary vampire, the king of daemons who challenged the gods.' Is this a legendary thing passed down in this city?
-[3C404EFF]ふむ……[3C404EFF]\n[3C404EFF]書いてあるのは、[3C404EFF]ブラドが語っておったものと大した違いはないな。=Hmm... What's written here isn't much different from what Brad said.
 
-[3C404EFF]実際に起きた歴史、[3C404EFF]というよりは[3C404EFF]おとぎ話のような書き方じゃ。=It's more like a fairy tale than a history that actually happened.
-[3C404EFF]……思い出す、[3C404EFF]か。[3C404EFF]\n[3C404EFF]何か頭に引っ掛かっておるのは確かじゃが……=...Remember, huh?\nIt's true that something's bothering me, but...
-[3C404EFF]はっきりしないなぁ。[3C404EFF]っていうかイリヤ、[3C404EFF]\nあんまり興味がなさそうだよね？　[3C404EFF]その伝説とかにさ。[3C404EFF]\n[3C404EFF]神に挑んだとか何とか、[3C404EFF]結構大ごとだと思うんだけど。=It’s not clear. Actually, you don’t seem very interested, do you, Illya? About that legend. I think it’s pretty big that you challenged God or something.
-[3C404EFF]興味がない、[3C404EFF]か……[3C404EFF]確かにユキ、[3C404EFF]お主の言う通りじゃな。=Not interested, huh...?\nYuki, you're right.
-[3C404EFF]確かにわらわは、[3C404EFF]夜を統べる者──[3C404EFF]\n[3C404EFF]この世界では[3C404EFF]伝説の吸血鬼と呼ばれる存在なのじゃろう。=It's true that I am the ruler of the night. In this world, I'm called a legendary vampire.
-[3C404EFF]だが、[3C404EFF]その文献に残る伝説……[3C404EFF]\n[3C404EFF]過去に成し遂げたという偉業も悪行も、[3C404EFF]\n[3C404EFF]すべてがおぼろげなのじゃ。=However, the legend in those documents...\nThe great deeds and misdeeds said to have been accomplished in the past are all hazy.
-[3C404EFF]【悪魔偽王国軍（ディアボロス）】の皆によって\n目覚めさせられてから、[3C404EFF]ずっとそうなのじゃ。=It's been that way ever since I was awakened by everyone in the Demon Fake Kingdom Army. Diabolos.
-[3C404EFF]ふぅん。[3C404EFF]もしかしてイリヤ、[3C404EFF]\n伝説の吸血鬼じゃないんじゃない？=Hmm. Could it be that Illya isn’t a legendary vampire?
-[3C404EFF]むっ、[3C404EFF]なにを言うておるか！[3C404EFF]\n[3C404EFF]わらわは夜を統べる者！[3C404EFF]\n偉大なる吸血鬼なのじゃ！　[3C404EFF]これだけは譲れぬ！=What are you talking about?!\nI am the ruler of the night!\nI'm a great vampire! I won't back down!
-[3C404EFF]……こっちには自信があるんだよね。[3C404EFF]\n[3C404EFF]じゃあ、[3C404EFF]伝説の吸血鬼っていうのは[3C404EFF]なんなんだろうね……=...I'm confident in myself.\nThen what is this legendary vampire...?
-[3C404EFF]ま、[3C404EFF]ボクの美しさの前では[3C404EFF]どうでもいいことだけどさ！[3C404EFF]\n……あ、[3C404EFF]そうだ二人とも。[3C404EFF]本屋はもういいよね。[3C404EFF]\nボクさ、[3C404EFF]気になってた場所があるんだ、[3C404EFF]ついてきなよ♪=Well, it doesn't matter in the face of my beauty! ...Oh, right, you two. That's enough bookstores, right? There's a place I've been wondering about, so follow me♪
-[3C404EFF]分かった分かった。[3C404EFF]\n[3C404EFF]お主の強引さにも慣れてきたわ。=Alright, alright.\nI'm getting used to your pushiness.
-[3C404EFF]──なんじゃ、[3C404EFF]この建物は？=-What's with this building?
-[3C404EFF]ねっ♪　[3C404EFF]なかなかいいデザインだと思わない？[3C404EFF]\nボクが立つに相応しい場所でしょ！=Right?♪ Don't you think it's a pretty nice design? It's the perfect place for me to stand!
-[3C404EFF]それはよう分からんが、[3C404EFF]確かによい雰囲気じゃの。[3C404EFF]\n特別な儀式を行う場所、[3C404EFF]といったところじゃろうか……=I don't know about that, but it certainly does have a nice atmosphere. It's a place for special ceremonies, I guess...
-r:"^(?:\[3C404EFF\])?特別な儀式かぁ……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?そうだ(.{2,10})さん、(?:\[3C404EFF\])?ちょっとこっちにおいでよ。$"=A special ceremony, huh... Oh, right, $1-san, come here for a bit.
-[3C404EFF]そうそう、[3C404EFF]この中心のあたりに立って、[3C404EFF]\n[3C404EFF]ボクの前にひざまずいてごらん？=Oh yeah, why don't you stand around the center and kneel in front of me?
-[3C404EFF]ふふっ、[3C404EFF]えらいね……♪[3C404EFF]\n[3C404EFF]それじゃあほら、[3C404EFF]次はどうしたらいいか[3C404EFF]わかるかな？=Teehee, that's great... ♪ Well then, do you know what to do next?
-[3C404EFF]わからない？[3C404EFF]\n[3C404EFF]もう、[3C404EFF]仕方がないなぁ。[3C404EFF]\nほら、[3C404EFF]ボクの手に[3C404EFF]口づけをするんだよ♪=Don't you get it? Geez, it can't be helped. Here, kiss my hand♪
-[3C404EFF]そのあとは思いっきり抱き締めて、[3C404EFF]\n[3C404EFF]そして[3C404EFF]ゆっくりと顔を近づけて──=After that, she hugged him as hard as she could, and slowly brought her face close to his
-[3C404EFF]──ちょっと待たんかい！？=-Wait a minute!?
-[3C404EFF]いい、[3C404EFF]いきなりなにをやっとるんじゃ！？[3C404EFF]\n[3C404EFF]わらわの目の前で！？=Wh-What are you doing all of a sudden?! Right in front of me?!
-[3C404EFF]なにって……[3C404EFF]儀式？=What do you mean...a ritual?
-[3C404EFF]なんのじゃ！？[3C404EFF]\n[3C404EFF]というか[3C404EFF]そやつはわらわの眷属じゃぞ！[3C404EFF]\n主であるわらわを通さず、[3C404EFF]勝手な儀式に巻き込むでない！=What?! He's one of My familiars! Don't let him get involved in this rites without my permission!
-[3C404EFF]ふふ♪[3C404EFF]\n[3C404EFF]イリヤってば、[3C404EFF]ボクたちの美しさに妬いちゃったの？=Hehe♪ Illya, are you jealous of our beauty?
-[3C404EFF]こ、[3C404EFF]こやつは～[3C404EFF]～～～～！[3C404EFF]\n[3C404EFF]と、[3C404EFF]とにかく！　[3C404EFF]我が眷属はこちらに来るのじゃ！=Th-That bastard!\nA-Anyway! My familiars are coming this way!
-[3C404EFF]仕方ないなぁ、[3C404EFF]少し貸してあげるよ。=Oh well, I'll lend it to you for a bit.
-[3C404EFF]まったく……[3C404EFF]少し目を離すと[3C404EFF]すぐに状況に流されおって。[3C404EFF]\n[3C404EFF]なにが儀式じゃ。=Honestly... As soon as I take my eyes off you, you're swept away by the situation. What kind of ritual is that?
-r:"^(?:\[3C404EFF\])?(.{2,10})よ。(?:\[3C404EFF\])?\nわらわの前にひざまずくがいい。$"=$1, kneel before me.
+
+
+
+
+
+
+
+
+
+r:"^街へ行くぞ(.{2,10})、それと来なくてもいいがユキも！$"=Let's go to the city, $1, and you don't have to come, Yuki!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r:"^特別な儀式かぁ……\nそうだ(.{2,10})さん、ちょっとこっちにおいでよ。$"=A special ceremony, huh... Oh, right, $1-san, come here for a bit.
+
+
+
+
+
+
+
+
+
+
+
+
+r:"^(.{2,10})よ。\nわらわの前にひざまずくがいい。$"=$1, kneel before me.
 イリヤの前にひざまずく。=I kneel in front of Illya.
-[3C404EFF]なっ、[3C404EFF]なぜわらわの時は聞き返すのじゃ！？[3C404EFF]\n[3C404EFF]い、[3C404EFF]いいから[3C404EFF]黙って言う通りにせよ！=Wh-Why are you asking me again when I'm with you?! S-Shut up and do as I say!
-[3C404EFF]べ、[3C404EFF]別に[3C404EFF]ユキが羨ましかったわけではないぞ……？=I-It's not like I was jealous of Yuki...
-[3C404EFF]そうじゃな……[3C404EFF]この場で改めて誓うのじゃ。[3C404EFF]\n[3C404EFF]夜を統べる者、[3C404EFF]イリヤ・オーンスタインの眷属として、[3C404EFF]\n一生わらわに尽くすことを。=That's right... I swear to you, here and now, that I will devote my life to you as a follower of Illya Ornstein, ruler of the night.
-[3C404EFF]永遠の忠誠を……[3C404EFF]いや。=Eternal loyalty... No.
-[3C404EFF]変わらぬ心を──[3C404EFF]捧げると。=When I offer my unchanging heart...
-[3C404EFF]って、[3C404EFF]自分で言っておきながら……[3C404EFF]ドキドキしてきおった……！　=Wait, even though I said it myself... my heart was pounding...!　
-[3C404EFF]こんな場所で、[3C404EFF]こういった儀式をするというのは、[3C404EFF]その……[3C404EFF]まるで……=To perform a ritual like this in a place like this... It's like...
-[3C404EFF]──ドキドキしすぎて、[3C404EFF]魔力が高まってきおった……！　=My heart's beating so fast, my magical energy is rising......!　
-[3C404EFF]──I am, King of Demon──[3C404EFF]\n──ヤミノケンゾクタチヨ──[3C404EFF]\n──ワレラノテキヲ、[3C404EFF]ホロボスガイイ──=──I am, King of Demon── \n──Familiar of the darkness──\n──Destroy our enemies──
-[3C404EFF]っ！？=!?
-[3C404EFF]なになにっ？[3C404EFF]\nどうしたの！？=What? What's wrong?!
-[3C404EFF]今の地鳴り……[3C404EFF]ただ事ではなかったな。[3C404EFF]\n[3C404EFF]高まった魔力に共鳴しておったのか……？=That rumbling just now... It was no ordinary thing. Was it resonating with the increased magical energy...?
-[3C404EFF]……ねぇ、[3C404EFF]イリヤ。=...Hey, Illya.
-[3C404EFF]感じない？[3C404EFF]\nなんかさっきから[3C404EFF]体がムズムズするんだよね。[3C404EFF]\n[3C404EFF]ドレスが[3C404EFF]ピリピリしてるっていうのかな。=Don't you feel it? My body's been itching for a while now. I guess you could say my dress is on edge.
-[3C404EFF]この下から……[3C404EFF]何かを感じるよ。=I can feel something...from under here.
-[3C404EFF]ユキ、[3C404EFF]お主もか。[3C404EFF]\n[3C404EFF]……わらわもじゃ。=Yuki, you too, huh?\n ...Me too.                                               
-[3C404EFF]……どうやらこの儀式場、[3C404EFF]地下があるようじゃな。=...Looks like this ritual site is underground.
-[3C404EFF]面白そうだね。[3C404EFF]\n[3C404EFF]行ってみようよ♪=Sounds interesting. Let's go check it out♪
-[3C404EFF]ん？[3C404EFF]\n[3C404EFF]ああ、[3C404EFF]もちろん、[3C404EFF]暗がりに入っても[3C404EFF]ボクの美に陰りはないよ。=Hm? Oh, of course, there's no gloom in my beauty when I'm in the dark.
-[3C404EFF]この洞窟……[3C404EFF]この壁……=This cave... This wall...
-[3C404EFF]そこら中から[3C404EFF]凄い力を感じるね。[3C404EFF]\n洞窟に来てから[3C404EFF]体のムズムズが強くなってる……[3C404EFF]\n[3C404EFF]これって……[3C404EFF]同じ力、[3C404EFF]だよね？=I can feel a lot of power coming from all over. My body's been itching ever since I came to the cave... This is... the same power, right?
-[3C404EFF]ああ。[3C404EFF]\nブラドのやつが持ってきた、[3C404EFF]伝説の吸血鬼の力が込められた魔力結晶。[3C404EFF]\nそれと同じものじゃ。=Yes. It's a magic crystal imbued with the power of a legendary vampire that Blood brought with him. It is the same as that.
-[3C404EFF]それにしても、[3C404EFF]なんということじゃ。[3C404EFF]\nわらわが手にした結晶でも、[3C404EFF]膨大な魔力を秘めておったというのに……[3C404EFF]\n[3C404EFF]よもやこれだけの量を……=Still, how could this be? Even the crystal in my hand contained an enormous amount of magical energy... Could it be this much...?
-[3C404EFF]ねぇイリヤ。[3C404EFF]\nこれってさ、[3C404EFF]明らかにボクたち、[3C404EFF]\n見ちゃいけないものを見てる、[3C404EFF]よね？=Hey, Illya. This is clearly something we shouldn’t be looking at, right?
-[3C404EFF]そうじゃろうな。[3C404EFF]\n……[3C404EFF]いや。[3C404EFF]\n実際に聞いてみた方が早いかもしれんの。=You're right. ...No. It might be faster to ask him directly.
-[3C404EFF]のう、[3C404EFF]ブラドよ。=Hey, Brad.
-[3C404EFF]──お気づきでございましたか。=-Did you notice?
-[3C404EFF]魔力が漏れぬよう、[3C404EFF]厳重に隠しておいたのですが……[3C404EFF]\n[3C404EFF]イリヤ様の強大な魔力に反応してしまったようですね。=I hid it tightly so that the magical energy wouldn’t leak out, but... it seems it reacted to Lady Illya’s immense magical energy.
-[3C404EFF]さすが、[3C404EFF]でございますね。=That's very impressive.
-[3C404EFF]怪しい地下洞窟を見つけたイリヤたちの前に姿を現すブラド。[3C404EFF]\nその表情は冷静なまま変わらず、イリヤを見つめているのであった。=Brad appears in front of Illya and the others when they find a suspicious underground cave. His expression remains calm as he stares at Illya.
-[3C404EFF]おお、[3C404EFF]これはなかなかいい気分じゃな。[3C404EFF]\n[3C404EFF]主と眷属らしいではないか……♪=Oh, this feels quite good. It's just like the master and the familia... ♪
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

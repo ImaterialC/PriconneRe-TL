@@ -20,7 +20,7 @@
 クラン名検索=Search by Clan Name
 メンバー人数=Members
 
-活動方針=Play Stye
+活動方針=Stye
 自由にプレイ=Free to Play
 まったりプレイ=Casual
 がっつりプレイ=Hardcore
@@ -36,7 +36,7 @@ r:"^クランバトル(\d+)位以内$"=Top $1
 
 加入条件=Requirements
 誰でも加入=Open to All
-承認あり=By approval
+承認あり=By Approval
 勧誘のみ=Invitation Only
 
 シングルモード=Single Mode
@@ -64,7 +64,7 @@ r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]への\n申請を取り消し
 
 
 クラン説明=Clan Description
-クラン名=clan name
+クラン名=Clan name
 クランの情報を設定します。=Sets clan information.
 ※60文字以内=※60 characters maximum
 ※2文字以上10文字以内=※Between 2 and 10 characters

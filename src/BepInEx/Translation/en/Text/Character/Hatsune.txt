@@ -1,37 +1,35 @@
----Profile
-ハ=H
-ツネ=atsune 
+---Profile---
 みんなのために超能力を使う眠り姫=A sleeping beauty who uses her superpowers to help others
 
----Skills
----UB
+---Skills---
+---UB---
 シューティング☆スター=Shooting☆Star
 物理攻撃をする敵すべてに魔法小ダメージを与え、さらに敵全体に魔法中ダメージを与える。=Deals small M.DMG to all enemies that use physical attacks. Deals moderate M.DMG to all enemies.
 r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ\n敵全体に(\d+)の魔法ダメージ$"=Deals $1 extra M.DMG to enemies that use P.ATK.\nDeals $1 M.DMG to all enemies.
 
----S1
+---S1---
 最も物理攻撃力が高い敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to the enemy with the highest physical attack.
 
----S2
+---S2---
 最も物理攻撃力が高い敵１キャラに魔法小ダメージを与え、さらにスタンさせる。=Deals small M.DMG to the enemy with the highest physical attack and inflicts Stun.
 r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を一定時間行動不能にする$"=Deals $1 M.DMG to an enemy.\nRenders an enemy immobile.
 
----ex
+---ex---
 
----Skills+
----UB
+---Skills+---
+---UB---
 シューティング☆ミーティア=Shooting☆Meteor
 物理攻撃をする敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ長時間スタンさせる。さらに敵全体に魔法中ダメージを与える。=Great M.DMG to all enemies that attack physical attacks, reduce M.DEF small and stun for a long time. In addition, it does M.DMG to all enemies.
 r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ\n物理攻撃をする敵の魔法防御力を(\d+)ダウン\n物理攻撃をする敵を一定時間行動不能にする\n敵全体に(\d+)の魔法ダメージ$"=Deals $1 extra M.DMG to all enemies that use P.ATK.\nLowers all enemies M.DEF that use P.ATK by $2 for 6s.\nRenders all enemies immobile that use P.ATK for 6s.\nDeals $3 M.DMG to all enemies.
 
----S1
+---S1---
 最も物理攻撃力が高い敵１キャラに魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals moderate M.DMG to the enemy with the highest physical attack and lowers its M.DEF by a small amount.
 enemy's M.DEF by {0}.
 
----S2
+---S2---
 
----ex
+---ex---
 ハピネス☆エナジー+=Happy☆Energy+
 
----UE
+---UE---
 ミーティア☆リボン=Meteor☆Ribbon

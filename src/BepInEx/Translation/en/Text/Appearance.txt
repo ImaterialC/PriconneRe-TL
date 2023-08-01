@@ -1,7 +1,3 @@
-示切替=ppearance
-表=A
-
-
 各種キャラ詳細画面にデフォルトで表示するキャラの画像を変更できます。=You can change the image of the character that displays by default on the various character details screen.
 キャラ詳細表示=Chara Details Display
 各画面に表示されているアイコンを変更できます。=You can change the icon displayed on each screen.
@@ -15,4 +11,4 @@
 バトル中やマップに表示されるキャラの表示を変更できます。= Change the Chibi Detail displayed.
 バトルキャラ表示=Battle character display
 ★6以降=★6+
-★6のキャラは★変更を利用できません。=can't be used on ★6 characters.
+★6のキャラは★変更を利用できません。=Can't be used on ★6 characters.

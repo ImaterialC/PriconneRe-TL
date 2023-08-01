@@ -9,7 +9,7 @@
 ボスの極楽もてなし術=The Boss's Art of Extreme Hospitality
 臥竜を揺さぶる同人誌=A doujinshi that shakes the dragon
 優しい願いを憂う臥竜=A dragon who worries about a gentle wish
-臥竜の仁義=the dignity of a reclining dragon
+臥竜の仁義=The dignity of a reclining dragon
 
 r:"^敵全体に(\d+)の魔法ダメージ\n敵全体の魔法防御力を(\d+)ダウン$"=Deals $1 M.DMG to all enemies.\nLowers all enemies` M.DEF by $2.
 敵全体に魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。敵の数に応じて、ダメージと防御力の減少量が増加する。=Deals medium M.DMG to all enemies and also reduces their M.DEF by a small amount. The amount of M.DMG and M.DEF reduction increases with the number of enemies.

@@ -15,7 +15,6 @@ sr:"^12月(\d+日)のストーリー$"=December $1 Story
 新たなバースデーストーリーが解放されました。\nマイページまたはバースデーストーリーから閲覧できます。=A new birthday story has been unlocked.\nYou can view it from Home or Birthday Story.
 バースデーストーリー解放=Birthday Story has been Unlocked
 
-ースデーストーリー=irthday Story
 お返しに以下のアイテムを獲得しました。=Received the following items.
 アイテム獲得=Acquiring items
 現在、未読のバースデーストーリーはありません。=Currently, there is no unread birthday story.

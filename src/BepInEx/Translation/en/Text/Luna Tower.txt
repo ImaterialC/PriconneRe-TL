@@ -1,5 +1,3 @@
-ル=Lu
-ナの塔=na Tower
 r:"^(\[[0-9A-F,]{6,13}\])階\[-\]$"=$1F[-]
 階=F
 回廊探索=Phantom Passage

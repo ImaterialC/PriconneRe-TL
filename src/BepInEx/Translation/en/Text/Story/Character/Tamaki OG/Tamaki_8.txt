@@ -1,23 +1,23 @@
 r:"^(.{2,10})は、タマキと同時に「夢」を見る。たまきのダイエットに協力する[\s\S]{2,10}は、夢の中でも目覚めてからも、タマキのいたずらな魅力に振り回されるのだった。$"="$1 sees the same "dream" as Tamaki. Even after waking up in his dreams and helping Tamaki with her diet, he was still swayed by Tamaki's mischievous charm."
-r:"^(?:\[3C404EFF\])?(.{2,10})は、タマキがバイトをしているという\nたい焼き屋の屋台までやってきていた。$"=$1 had come to the taiyaki stand where Tamaki worked part-time.
-r:"^(?:\[3C404EFF\])?お、(.{2,10})にゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?こんなところでどうしたにゃ？$"=Oh, $1~nya!\nWhat are you doing here~nya?
+r:"^(.{2,10})は、タマキがバイトをしているという\nたい焼き屋の屋台までやってきていた。$"=$1 had come to the taiyaki stand where Tamaki worked part-time.
+r:"^お、(.{2,10})にゃ！\nこんなところでどうしたにゃ？$"=Oh, $1~nya!\nWhat are you doing here~nya?
 もしかして、たい焼きを食べにきたにゃ？=Did you come to eat taiyaki~nya?
-r:"^(?:\[3C404EFF\])?(.{2,10})だったら、たっぷりとサービスするにゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?だからほら、(?:\[3C404EFF\])?何か買っていく──$"=If it's $1, I'll give you plenty of service~nya!\nSo come on, buy something──
+r:"^(.{2,10})だったら、たっぷりとサービスするにゃ！\nだからほら、何か買っていく──$"=If it's $1, I'll give you plenty of service~nya!\nSo come on, buy something──
 って、これはなんにゃ！？\nた、たい焼きから光が──にゃああああああっ！？=What is this~nya!?\nT, taiyaki is glowing──nyaaaaaaa!?
 ほら、エサにゃ。\nたくさんあるからいっぱい食べるにゃ……はぁ……=Here, food~nya.\nThere's a lot, so eat a lot~nya... haa...
-r:"^(?:\[3C404EFF\])?あ、(.{2,10})……(?:\[3C404EFF\])?\nいらっしゃいにゃ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?たい焼き、買っていくかにゃ？$"=Ah, $1... welcome~nya.\nDo you want to buy taiyaki~nya?
+r:"^あ、(.{2,10})……\nいらっしゃいにゃ。\nたい焼き、買っていくかにゃ？$"=Ah, $1... welcome~nya.\nDo you want to buy taiyaki~nya?
 元気がないみたいだけど、何かあったの？=You don't seem to be feeling well, did something happen?
-r:"^(?:\[3C404EFF\])?……さすが(.{2,10})にゃ。(?:\[3C404EFF\])?\nあたしが悩んでいることに、(?:\[3C404EFF\])?すぐに気づくなんて……$"=...As expected of $1~nya.\nYou noticed that I'm troubled...
+r:"^……さすが(.{2,10})にゃ。\nあたしが悩んでいることに、すぐに気づくなんて……$"=...As expected of $1~nya.\nYou noticed that I'm troubled...
 実は、その……=Actually, um...
-r:"^(?:\[3C404EFF\])?(.{2,10})は、(?:\[3C404EFF\])?あたしを見て、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?何か気づかないにゃ？$"=$1, don't you notice anything when you look at me~nya?
+r:"^(.{2,10})は、あたしを見て、\n何か気づかないにゃ？$"=$1, don't you notice anything when you look at me~nya?
 実はあたし……最近、その、太ってきたのにゃ。=Actually, I... recently, that, I've gained weight~nya.
 だからダイエット中なのに……こうやってエサをあげてると、\nあたしもお腹が減ってくるにゃ……=So I'm on a diet but... when I feed them like this, I get hungry too~nya...
 まかないのたい焼きも、涙を飲んで猫たちにあげてるにゃ……=I also give the cats the taiyaki for staff meals with tears in my eyes~nya...
 だけど……もう、お腹と背中がくっつきそうで、\n我慢の限界なのにゃ……！=But... my stomach and back are about to stick together, and I can't stand it anymore~nya...!
-r:"^(?:\[3C404EFF\])?うぅ……(.{2,10})！(?:\[3C404EFF\])?\nキミを見込んで、(?:\[3C404EFF\])?頼みがあるのにゃ！$"=Uu... $1! I have a favor to ask you~nya!
+r:"^うぅ……(.{2,10})！\nキミを見込んで、頼みがあるのにゃ！$"=Uu... $1! I have a favor to ask you~nya!
 どうか、どうかダイエットを手伝ってほしいのにゃ！\nあたし一人の意志じゃなかなか……=Please, please help me with my diet~nya! I can't do it by myself...
 わかった。ダイエット、手伝うよ。=I understand. I'll help you with your diet.
-r:"^(?:\[3C404EFF\])?本当かにゃ！？(?:\[3C404EFF\])?\nあ、(?:\[3C404EFF\])?ありがとにゃ、(.{2,10})！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?早速、(?:\[3C404EFF\])?明日からダイエットを開始するにゃ！$"=Really~nya!? Ah, thank you~nya, $1! Let's start the diet tomorrow~nya!
+r:"^本当かにゃ！？\nあ、ありがとにゃ、(.{2,10})！\n早速、明日からダイエットを開始するにゃ！$"=Really~nya!? Ah, thank you~nya, $1! Let's start the diet tomorrow~nya!
 翌日。=The next day.
 ふっふっ、ふっふっ！=Fufu, fufu!
 がんばれ、がんばれ！=Go for it, go for it!
@@ -27,14 +27,14 @@ r:"^(?:\[3C404EFF\])?本当かにゃ！？(?:\[3C404EFF\])?\nあ、(?:\[3C404EFF
 ご、ゴール……！\nゴール、してやったのにゃ……！=Go, goal...! I did it, I did it~nya...!
 ふああ、つかれたにゃああああああ……=Fuaa, I'm tired~nyaaaaaaaaa...
 はあ、はあ……にゃ？=Haa, haa...~nya?
-r:"^(?:\[3C404EFF\])?どうしたにゃ、(.{2,10})。(?:\[3C404EFF\])?\n視線を逸らしてるにゃ。$"=What's wrong~nya, $1. You're looking away~nya.
+r:"^どうしたにゃ、(.{2,10})。\n視線を逸らしてるにゃ。$"=What's wrong~nya, $1. You're looking away~nya.
 あ、もしかして……=Oh, could it be...?
-r:"^(?:\[3C404EFF\])?(.{2,10})、今、(?:\[3C404EFF\])?汗で服が張り付いたあたしの体を見て、(?:\[3C404EFF\])?\nちょっとドキドキしてたんじゃないかにゃ？$"=$1, did you just get a little excited when you saw my body sticking to my clothes with sweat~nya?
-r:"^(?:\[3C404EFF\])?Fufufu(?:\[3C404EFF\])?Corneliaの視線には、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?あたしは敏感なのにゃ。$"=Fufufu, I'm sensitive to $1's gaze.
-r:"^(?:\[3C404EFF\])?男の子はしょうがないにゃあ……(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……じゃあもしかして、(?:\[3C404EFF\])?(.{2,10})は、(?:\[3C404EFF\])?\nこの服の中も見たい、(?:\[3C404EFF\])?にゃ……？$"=It can't be helped since you are boy~nyaa... Then maybe, $1 wants to see what's inside this clothes too~nya...?
-r:"^(?:\[3C404EFF\])?あたし……(?:\[3C404EFF\])?(.{2,10})になら、(?:\[3C404EFF\])?\n見せてあげてもいいかにゃ……$"=I... if it's $1, I don't mind showing you...
+r:"^(.{2,10})、今、汗で服が張り付いたあたしの体を見て、\nちょっとドキドキしてたんじゃないかにゃ？$"=$1, did you just get a little excited when you saw my body sticking to my clothes with sweat~nya?
+r:"^FufufuCorneliaの視線には、\nあたしは敏感なのにゃ。$"=Fufufu, I'm sensitive to $1's gaze.
+r:"^男の子はしょうがないにゃあ……\n……じゃあもしかして、(.{2,10})は、\nこの服の中も見たい、にゃ……？$"=It can't be helped since you are boy~nyaa... Then maybe, $1 wants to see what's inside this clothes too~nya...?
+r:"^あたし……(.{2,10})になら、\n見せてあげてもいいかにゃ……$"=I... if it's $1, I don't mind showing you...
 にゃーんちゃって！\n冗談にゃー！\n期待、したかにゃ？=Nyaan just kidding! Joke~nya! Did you expect it~nya?
-r:"^(?:\[3C404EFF\])?ふふふ。(?:\[3C404EFF\])?でも、(?:\[3C404EFF\])?$1に見ててもらったら、(?:\[3C404EFF\])?\nサボり防止になっていいにゃ！　(?:\[3C404EFF\])?これからもよろしくにゃ！$"=Fufufu. But if $1 watches me, it'll prevent me from slacking off! I'm counting on you from now on~nya!
+r:"^ふふふ。でも、$1に見ててもらったら、\nサボり防止になっていいにゃ！　これからもよろしくにゃ！$"=Fufufu. But if $1 watches me, it'll prevent me from slacking off! I'm counting on you from now on~nya!
 アンタ、珍しく女の子の体を見てドギマギしてたわね～=You were unusually flustered when you saw a girl's body~
 それにしても、タマキって積極的なのか、\nからかってるのか、よくわからない子ね。=But Tamaki is a strange girl. I don't know if she's aggressive or teasing.
 それも含めて、気まぐれってことか。\nああいう子と付き合ったら、やっぱり大変なのかしらね。\nまあ、退屈はしないかもだけど……=Maybe that's part of her whimsy.\nIt must be hard to date a girl like that.\nWell, it might not be boring though...
@@ -42,41 +42,40 @@ r:"^(?:\[3C404EFF\])?ふふふ。(?:\[3C404EFF\])?でも、(?:\[3C404EFF\])?$1�
 ……うにゃ……？\nうぅ……いつの間にか、寝てたみたいにゃ……=...Unya...? Uu... I fell asleep before I knew it~nya...
 不思議な夢だったにゃ……=It was a strange dream~nya...
 でも、夢の中でもあたしはたい焼き屋をしてたのにゃ！=But even in the dream, I was selling taiyaki~nya!
-r:"^(?:\[3C404EFF\])?...Huh?(?:\[3C404EFF\])?\n(.{2,10})の夢でも、(?:\[3C404EFF\])?あたしがたい焼き屋をしてた？$"=...Eh? In $1's dream too, I was selling taiyaki?
+r:"^...Huh?\n(.{2,10})の夢でも、あたしがたい焼き屋をしてた？$"=...Eh? In $1's dream too, I was selling taiyaki?
 ……にゃるほど。\nあたしと同じ夢を見てたみたいだにゃ。\n不思議なこともあるもんだにゃ。=...Nyai see.\nIt seems like we had the same dream~nya. Strange things happen sometimes~nya.
 ふふっ、夢の内容を思い出してたら、\n楽しくなってきたのにゃ。=Fufu, when I remember the contents of the dream, I feel happy~nya.
-r:"^(?:\[3C404EFF\])?なんて言ったって、(?:\[3C404EFF\])?(.{2,10})は、\n夢の中でもあたしの魅力にイチコロだったにゃ。$"=After all, $1 was smitten by my charm even in the dream~nya.
+r:"^なんて言ったって、(.{2,10})は、\n夢の中でもあたしの魅力にイチコロだったにゃ。$"=After all, $1 was smitten by my charm even in the dream~nya.
 にゃはは、夢の中の続き……ということで、\nこの中を見せてあげようかにゃ……？=Nyahaha, let's continue from the dream...\nSo, shall I show you what's inside~nyaa...?
 にゃはは、冗談にゃ！\nそれじゃあ、お仕事、再開にゃ！=Nyahaha, I'm kidding!\nWell then, let's get back to work~nya!
 嬉しそうに笑いながら、タマキは仕事に戻るのだった。=Tamaki smiled happily and went back to work.
-[3C404EFF]もしかして、[3C404EFF]たい焼きを食べにきたにゃ？=Did you come to eat taiyaki~nya?
-[3C404EFF]って、[3C404EFF]これはなんにゃ！？[3C404EFF]\n[3C404EFF]た、[3C404EFF]たい焼きから光が──[3C404EFF]にゃああああああっ！？=What is this~nya!?\nT, taiyaki is glowing──nyaaaaaaa!?
-[3C404EFF]ほら、[3C404EFF]エサにゃ。[3C404EFF]\nたくさんあるからいっぱい食べるにゃ……[3C404EFF]はぁ……=Here, food~nya.\nThere's a lot, so eat a lot~nya... haa...
-[3C404EFF]実は、[3C404EFF]その……=Actually, um...
-[3C404EFF]実はあたし……[3C404EFF]最近、[3C404EFF]その、[3C404EFF]太ってきたのにゃ。=Actually, I... recently, that, I've gained weight~nya.
-[3C404EFF]だからダイエット中なのに……[3C404EFF]こうやってエサをあげてると、[3C404EFF]\nあたしもお腹が減ってくるにゃ……=So I'm on a diet but...\nwhen I feed them like this, I get hungry too~nya...
-[3C404EFF]まかないのたい焼きも、[3C404EFF]涙を飲んで猫たちにあげてるにゃ……=I also give the cats the taiyaki for staff meals with tears in my eyes~nya...
-[3C404EFF]だけど……[3C404EFF]もう、[3C404EFF]お腹と背中がくっつきそうで、[3C404EFF]\n我慢の限界なのにゃ……！=But... my stomach and back are about to stick together, and I can't stand it anymore~nya...!
-[3C404EFF]どうか、[3C404EFF]どうかダイエットを手伝ってほしいのにゃ！[3C404EFF]\n[3C404EFF]あたし一人の意志じゃなかなか……=Please, please help me with my diet~nya! I can't do it by myself...
-[3C404EFF]翌日。=The next day.
-[3C404EFF]ふっふっ、[3C404EFF]ふっふっ！=Fufu, fufu!
-[3C404EFF]はあ、[3C404EFF]はあ、[3C404EFF]マラソン、[3C404EFF]一体、[3C404EFF]何キロ走らせる気にゃ……[3C404EFF]\n有酸素運動にはなるけどにゃあ……=Haa, haa, how many kilometers do you want me to run for this marathon...\nIt's aerobic exercise but~nyaa...
-[3C404EFF]はあ、はあ…[3C404EFF]よ、[3C404EFF]ようやく[3C404EFF]ゴールが見えてきたのにゃ……[3C404EFF]\nあそこまで行ければ[3C404EFF]休める……！[3C404EFF]\n[3C404EFF]ラストスパート、[3C404EFF]頑張るにゃ！=Haa, haa... finally, the goal is in sight~nya...\nIf I can get there, I can rest...!\nI'll do my best in the final spurt~nya!
-[3C404EFF]うにゃああああああああっ……！=Unyaaaaaaaaaaaaa...!
-[3C404EFF]ご、[3C404EFF]ゴール……！[3C404EFF]\n[3C404EFF]ゴール、[3C404EFF]してやったのにゃ……！=Go, goal...!\nI did it, I did it~nya...!
-[3C404EFF]ふああ、[3C404EFF]つかれたにゃああああああ……=Fuaa, I'm tired~nyaaaaaaaaa...
-[3C404EFF]はあ、はあ……[3C404EFF]にゃ？=Haa, haa...~nya?
-[3C404EFF]あ、[3C404EFF]もしかして……=Oh, could it be...?
-[3C404EFF]にゃーんちゃって！[3C404EFF]\n冗談にゃー！[3C404EFF]\n[3C404EFF]期待、[3C404EFF]したかにゃ？=Nyaan just kidding!\nJoke~nya!\nDid you expect it~nya?
-[3C404EFF]アンタ、[3C404EFF]珍しく女の子の体を見てドギマギしてたわね～=You were unusually flustered when you saw a girl's body~
-[3C404EFF]それにしても、[3C404EFF]タマキって積極的なのか、[3C404EFF]\nからかってるのか、[3C404EFF]よくわからない子ね。=But Tamaki is a strange girl. I don't know if she's assertive or teasing.
-[3C404EFF]それも含めて、[3C404EFF]気まぐれってことか。[3C404EFF]\n[3C404EFF]ああいう子と付き合ったら、[3C404EFF]やっぱり大変なのかしらね。[3C404EFF]\nまあ、[3C404EFF]退屈はしないかもだけど……=Maybe that's part of her whimsy.\nIt must be hard to date a girl like that.\nWell, it might not be boring though...
-[3C404EFF]まあいいか。[3C404EFF]\n実際に悩むのはアンタだし。[3C404EFF]それじゃあね～=Oh well. It's your problem if you're actually troubled.\nSee you later~
-[3C404EFF]……うにゃ……？[3C404EFF]\n[3C404EFF]うぅ……[3C404EFF]いつの間にか、[3C404EFF]寝てたみたいにゃ……=...Unya...? Uu...\nI fell asleep before I knew it~nya...
-[3C404EFF]不思議な夢だったにゃ……=It was a strange dream~nya...
-[3C404EFF]でも、[3C404EFF]夢の中でもあたしはたい焼き屋をしてたのにゃ！=But even in the dream, I was selling taiyaki~nya!
-[3C404EFF]……にゃるほど。[3C404EFF]\n[3C404EFF]あたしと同じ夢を見てたみたいだにゃ。[3C404EFF]\n[3C404EFF]不思議なこともあるもんだにゃ。=...Nyai see.\nIt seems like we had the same dream~nya. Strange things happen sometimes~nya.
-[3C404EFF]ふふっ、[3C404EFF]夢の内容を思い出してたら、[3C404EFF]\n楽しくなってきたのにゃ。=Fufu, when I remember the contents of the dream, I feel happy~nya.
-[3C404EFF]にゃはは、[3C404EFF]夢の中の続き……[3C404EFF]ということで、[3C404EFF]\n[3C404EFF]この中を見せてあげようかにゃ……？=Nyahaha, let's continue from the dream...\nSo, shall I show you what's inside~nyaa...?
-[3C404EFF]にゃはは、[3C404EFF]冗談にゃ！[3C404EFF]\n[3C404EFF]それじゃあ、[3C404EFF]お仕事、再開にゃ！=Nyahaha, I'm kidding! Well then, let's get back to work~nya!
-[3C404EFF]嬉しそうに笑いながら、タマキは仕事に戻るのだった。=Tamaki smiled happily and went back to work.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

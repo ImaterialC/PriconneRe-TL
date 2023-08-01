@@ -1,5 +1,3 @@
-号=itle
-称=T
 入手条件=Condition
 指定なし=None
 選択中の称号=Selected Title
@@ -58,4 +56,4 @@ sr:"^([^NVHS]+?)(NORMAL|VERY HARD|SPECIAL|HARD)討伐！$"=Defeat $1 ($2)
 白翼のバリスタ=White-Winged Ballista
 熾炎戦鬼煉獄血盟暗黒団=Blazing Ogre Purgatory
 魔導の騎空士=Magimatic Knight
-大悪党ノウェムさま=the great villain Noemu-Sama
+大悪党ノウェムさま=The great villain Noemu-Sama

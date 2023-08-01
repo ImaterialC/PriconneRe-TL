@@ -1,4 +1,4 @@
-チュートリアル=tutorial
+チュートリアル=Tutorial
 クリアランク=Clear rank
 連携=Link
 r:"^(\[[0-9A-F]{6}\])?プレイヤーLvを(\d+)にしよう(\[-\])?$"="$1Reach player level $2[-]"

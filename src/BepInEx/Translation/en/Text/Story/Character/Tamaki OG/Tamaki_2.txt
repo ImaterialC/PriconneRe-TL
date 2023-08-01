@@ -1,12 +1,12 @@
 子猫=Kitten
 r:"^猫好きなタマキは、子猫に([\s\S]{2,10})と同じ名前を付ける。その子猫がいなくなり、タマキと共に子猫を捜索する[\s\S]{2,10}。無事子猫を保護した後、タマキは感謝の言葉を述べた。$"=Tamaki, who loves cats, named a kitten the same as $1. When the kitten went missing, $1 searched for the kitten with Tamaki. After safely rescuing the kitten, Tamaki thanked him.
-r:"^(?:\[3C404EFF\])?(.{2,10})はある日、ランドソルの郊外で\n大勢の猫を集めているタマキを見かけた。$"=One day, $1 saw Tamaki gathering a lot of cats in the outskirts of Landosol.
-r:"^(?:\[3C404EFF\])?あ、(.{2,10})！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(?:\[3C404EFF\])?先日はどうもありがとうにゃ。$"=Oh, $1!\nThank you very much for the other day~nya.
+r:"^(.{2,10})はある日、ランドソルの郊外で\n大勢の猫を集めているタマキを見かけた。$"=One day, $1 saw Tamaki gathering a lot of cats in the outskirts of Landosol.
+r:"^あ、(.{2,10})！\n先日はどうもありがとうにゃ。$"=Oh, $1!\nThank you very much for the other day~nya.
 何をしてるかって……？\nそれは当然、猫にエサをあげてるのにゃ！=What am I doing...? That's obvious, I'm feeding the cats~nya!
 この辺りの猫は、\n全部あたしが世話をしてるにゃ！=I take care of all the cats around here~nya!
 えっへん！\n驚いたかにゃ？=Ehhen! Are you surprised~nya?
 まあ、こんなに大勢の猫の面倒を見ていると、\nさすがにエサ代もバカににゃらないけどにゃ。=Well, it's not easy to take care of so many cats, and the food costs are not cheap~nya.
-r:"^(?:\[3C404EFF\])?(.{2,10})は、(?:\[3C404EFF\])?あたしのことをケチだと\n思ってるかもしれにゃいけど、(?:\[3C404EFF\])?この子たちのエサ代を\n稼ぐ必要もあるし、(?:\[3C404EFF\])?ただのケチンボじゃないのにゃ。$"=$1 might think I'm stingy, but I need to earn money for their food, so I'm not just a cheapskate~nya.
+r:"^(.{2,10})は、あたしのことをケチだと\n思ってるかもしれにゃいけど、この子たちのエサ代を\n稼ぐ必要もあるし、ただのケチンボじゃないのにゃ。$"=$1 might think I'm stingy, but I need to earn money for their food, so I'm not just a cheapskate~nya.
 
 どうしてそこまでして、猫の面倒を見るの？=Why do you go so far to take care of cats?
 タマキは、猫が好きなんだね。=Tamaki, really likes cats.
@@ -18,17 +18,17 @@ r:"^(?:\[3C404EFF\])?(.{2,10})は、(?:\[3C404EFF\])?あたしのことをケチ
 にゃはは、あたしに撫でてほしいのかにゃ？\nだったら、そのリクエストにお応えしてあげるにゃ。=Nyahahaha, do you want me to pet you~nya? Then, I'll grant your request~nya.
 ほれほれ、お腹がいいのかにゃ？\n喉がいいのかにゃ？=There there, do you like your belly~nya? Do you like your throat~nya?
 お前が満足するまで、たっぷりと撫でてあげるにゃ。\nごろごろごろー♪=I'll pet you until you're satisfied~nya. Purrr purrr purrr♪
-r:"^(?:\[3C404EFF\])?にゃはは。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?何だかこの子猫、(?:\[3C404EFF\])?(.{2,10})に似てるのにゃ。$"=Nyahahaha. This kitten somehow looks like $1~nya.
-r:"^(?:\[3C404EFF\])?名前、(?:\[3C404EFF\])?まだ決めてなかったけど、(?:\[3C404EFF\])?\n(.{2,10})にしちゃおっかにゃー$"=I haven't decided on a name yet, but maybe I'll name it $1~nya
+r:"^にゃはは。\n何だかこの子猫、(.{2,10})に似てるのにゃ。$"=Nyahahaha. This kitten somehow looks like $1~nya.
+r:"^名前、まだ決めてなかったけど、\n(.{2,10})にしちゃおっかにゃー$"=I haven't decided on a name yet, but maybe I'll name it $1~nya
 勝手に人の名前を付けないで……=Please don't name it after me without permission...
-r:"^(?:\[3C404EFF\])?もう決定したのにゃ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})がいくら文句を言おうと、(?:\[3C404EFF\])?\nこの子猫の名前はキミと同じなのにゃ。$"=It's already decided~nya. No matter how much $1 complains, this kitten's name is the same as yours~nya.
+r:"^もう決定したのにゃ。\n(.{2,10})がいくら文句を言おうと、\nこの子猫の名前はキミと同じなのにゃ。$"=It's already decided~nya. No matter how much $1 complains, this kitten's name is the same as yours~nya.
 にゃー=Nyaah~
 にゃはは、この子も名前、気に入ったみたいにゃ！=Nyahahaha, this kid seems to like the name too~nya!
-r:"^(?:\[3C404EFF\])?って、(?:\[3C404EFF\])?にゃはは！(?:\[3C404EFF\])?\n(.{2,10})、そんなに舐めちゃダメにゃ！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?もう、(?:\[3C404EFF\])?いやらしい子だにゃあ。$"=Hey, hey! $1, don't lick me so much~nya!\nYou're such a naughty kid~nya.
-r:"^(?:\[3C404EFF\])?……にゃ？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?別に(.{2,10})のことじゃにゃいんだから、(?:\[3C404EFF\])?\nそんな微妙な顔しないでほしいのにゃ。$"=...Nya? It's not about $1, so don't make such a subtle face~nya.
-r:"^(?:\[3C404EFF\])?ほら、(.{2,10})も、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?あたしと一緒に猫と遊ぶのにゃ！$"=Come on, $1 too, play with the cats with me~nya!
+r:"^って、にゃはは！\n(.{2,10})、そんなに舐めちゃダメにゃ！\nもう、いやらしい子だにゃあ。$"=Hey, hey! $1, don't lick me so much~nya!\nYou're such a naughty kid~nya.
+r:"^……にゃ？\n別に(.{2,10})のことじゃにゃいんだから、\nそんな微妙な顔しないでほしいのにゃ。$"=...Nya? It's not about $1, so don't make such a subtle face~nya.
+r:"^ほら、(.{2,10})も、\nあたしと一緒に猫と遊ぶのにゃ！$"=Come on, $1 too, play with the cats with me~nya!
 それから一週間後──=A week later──
-r:"^(?:\[3C404EFF\])?あ……(?:\[3C404EFF\])?(.{2,10})……$"=Ah...$1...
+r:"^あ……(.{2,10})……$"=Ah...$1...
 泣きそうな顔してるけど、何かあったの？=You look like you're about to cry, what happened?
 かわいがってた猫が一匹、いなくなっちゃったにゃ……\nキミと同じ名前を付けた、あの子猫にゃ……=The cat I was taking care of disappeared~nya... The kitten I named after you~nya...
 まだ子猫だから、きっと食べるものがなくて困ってるにゃ……\nどこに行っちゃったのにゃ……=It's still a kitten, so it must be in trouble without food~nya... Where did it go~nya...
@@ -41,7 +41,7 @@ r:"^(.{2,10})ー！\nどこにいるにゃー！$"=$1!\nWhere are you~nya!
 ダメにゃ……やっぱり、見つからないにゃ。\nこんな時間まで見つからないってことはもしかして……=No good~nya... I can't find it after all~nya. Maybe it's because it's been so long...
 諦めるな、って……？\n……また慰められちゃったのにゃ。="Don't give up", huh...? ...I was comforted again~nya.
 そうにゃ。\nまだいなくなってからたったの１日にゃ。\n絶対に見つけてみせるのにゃ！=That's right~nya. It's only been one day since it disappeared. I'll definitely find it and show you~nya!
-r:"^(?:\[3C404EFF\])?(.{2,10})ー！！\nあたしの声が聞こえたなら、(?:\[3C404EFF\])?返事をしてほしいにゃー！$"=$1! If you hear my voice, please answer me~nya!
+r:"^(.{2,10})ー！！\nあたしの声が聞こえたなら、返事をしてほしいにゃー！$"=$1! If you hear my voice, please answer me~nya!
 にゃー……=Nyaah...
 この鳴き声は……\nどこから聞こえるにゃ！？=This voice is... Where is it coming from~nya!?
 あっ！\n見つけた、この家の屋根の上にゃ！=Ah! I found it on the roof of this house~nya!
@@ -50,52 +50,52 @@ r:"^(?:\[3C404EFF\])?(.{2,10})ー！！\nあたしの声が聞こえたなら、
 にゃー、にゃー=Nyaah, nyaah
 うーん、いい子いい子にゃ。もう迷子になっちゃダメにゃ。=Umm, good boy good boy~nya. Don't get lost again~nya.
 こんなに震えて……\nあたしがついてるから、もう安心するにゃ。=You're trembling so much... I'm with you, so don't worry~nya.
-r:"^(?:\[3C404EFF\])?今日は、(?:\[3C404EFF\])?子猫を探してくれてありがとにゃ、(.{2,10})！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?やっぱりキミも、(?:\[3C404EFF\])?猫みたいにかわいいところあるにゃ！$"=Thank you for helping me find the kitten today, $1! You're also cute like a cat~nya!
+r:"^今日は、子猫を探してくれてありがとにゃ、(.{2,10})！\nやっぱりキミも、猫みたいにかわいいところあるにゃ！$"=Thank you for helping me find the kitten today, $1! You're also cute like a cat~nya!
 お礼に今度、また割引で何か売ってあげるにゃ！=As a thank you, I'll sell you something at a discount next time~nya!
 結局割引なのかって？　んー……\nあたしの無償の愛なんて、よっぽどのことがないと\n得られないのにゃ。="You're still giving me a discount?" Hmm... My unconditional love is hard to get unless something really happens~nya.
 だって、あたしは気まぐれな猫ちゃんだもんにゃ！\n……ま、気まぐれだから、そのうちイイコトもあるかも。\nしれないけどにゃ……？=Because I'm a whimsical cat girl~nya! ...Well, because I'm whimsical, there might be something good someday. Maybe~nya...?
 それじゃああたしは、この子をお家に連れて帰ってあげるにゃ。\nまたにゃ、ばいばい！=Then I'll take this kid home with me~nya. See ya later~nya!
 タマキは笑顔で子猫を連れ帰るのだった。=Tamaki left with a smile and the kitten.
 
-[3C404EFF]何をしてるかって……？[3C404EFF]\n[3C404EFF]それは当然、[3C404EFF]猫にエサをあげてるのにゃ！=What am I doing...?\nThat's obvious, I'm feeding the cats~nya!
-[3C404EFF]この辺りの猫は、[3C404EFF]\n全部あたしが世話をしてるにゃ！=I take care of all the cats around here~nya!
-[3C404EFF]えっへん！[3C404EFF]\n驚いたかにゃ？=Ehhen!\nAre you surprised~nya?
-[3C404EFF]まあ、[3C404EFF]こんなに大勢の猫の面倒を見ていると、[3C404EFF]\nさすがにエサ代もバカににゃらないけどにゃ。=Well, it's not easy to take care of so many cats,\nand the food costs are not cheap~nya.
 
-[3C404EFF]猫が可愛くて、[3C404EFF]大好きだからにゃ！=Because cats are cute and I love them~nya!
-[3C404EFF]それに、[3C404EFF]猫は飼いならせば何かと役に立つのにゃ。=And, cats are useful if you tame them~nya.
-[3C404EFF]何の役に立つのかって？[3C404EFF]\n[3C404EFF]それは秘密にゃ！=What are they useful for?\nThat's a secret~nya!
-[3C404EFF]にゃあー=Nyaah~
-[3C404EFF]……にゃ？[3C404EFF]\n[3C404EFF]お前、[3C404EFF]どうかしたかにゃ？=...Nya? \nWhat's wrong with you~nya?
-[3C404EFF]にゃはは、[3C404EFF]あたしに撫でてほしいのかにゃ？[3C404EFF]\n[3C404EFF]だったら、[3C404EFF]そのリクエストにお応えしてあげるにゃ。=Nyahahaha, do you want me to pet you~nya? \nThen, I'll grant your request~nya.
-[3C404EFF]ほれほれ、[3C404EFF]お腹がいいのかにゃ？[3C404EFF]\n[3C404EFF]喉がいいのかにゃ？=There there, do you like your belly~nya? \nDo you like your throat~nya?
-[3C404EFF]お前が満足するまで、[3C404EFF]たっぷりと撫でてあげるにゃ。[3C404EFF]\nごろごろごろー♪=I'll pet you until you're satisfied~nya. \nPurrr purrr purrr♪
-[3C404EFF]にゃー=Nyaah~
-[3C404EFF]にゃはは、[3C404EFF]この子も名前、[3C404EFF]気に入ったみたいにゃ！=Nyahahaha, this kid seems to like the name too~nya!
-[3C404EFF]それから一週間後──=A week later──
-[3C404EFF]かわいがってた猫が一匹、[3C404EFF]いなくなっちゃったにゃ……[3C404EFF]\nキミと同じ名前を付けた、[3C404EFF]あの子猫にゃ……=The cat I was taking care of disappeared~nya...\nThe kitten I named after you~nya...
-[3C404EFF]まだ子猫だから、[3C404EFF]きっと食べるものがなくて困ってるにゃ……[3C404EFF]\n[3C404EFF]どこに行っちゃったのにゃ……=It's still a kitten, so it must be in trouble without food~nya... Where did it go~nya...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 きっと無事だよ。=I'm sure she'll be fine.
-[3C404EFF]……手伝ってくれるのかにゃ……？=...You'll help me~nya...?
-[3C404EFF]……本当にゃ？　[3C404EFF]ありがとうにゃ。=...Really~nya? Thank you~nya.
-[3C404EFF]それじゃあ、[3C404EFF]早速探しに行くにゃ！=Then let's go look for it right away~nya!
-[3C404EFF]いるなら[3C404EFF]返事をしてほしいにゃー！=If you hear my voice, please answer me~nya!
-[3C404EFF]ダメにゃ……[3C404EFF]やっぱり、見つからないにゃ。[3C404EFF]\nこんな時間まで見つからないってことは[3C404EFF]もしかして……=No good~nya... I can't find it after all~nya.\nMaybe it's because it's been so long...
-[3C404EFF]諦めるな、[3C404EFF]って……？[3C404EFF]\n[3C404EFF]……また慰められちゃったのにゃ。="Don't give up," huh...?\n...I was comforted again~nya.
-[3C404EFF]そうにゃ。[3C404EFF]\nまだいなくなってからたったの１日にゃ。[3C404EFF]\n[3C404EFF]絶対に見つけてみせるのにゃ！=That's right~nya. It's only been one day since it disappeared. I'll definitely find it and show you~nya!
-[3C404EFF]にゃー……=Nyaah...
-[3C404EFF]この鳴き声は……[3C404EFF]\n[3C404EFF]どこから聞こえるにゃ！？=This voice is... \nWhere is it coming from~nya!?
-[3C404EFF]あっ！[3C404EFF]\n見つけた、[3C404EFF]この家の屋根の上にゃ！=Ah!\nI found it on the roof of this house~nya!
-[3C404EFF]きっと、[3C404EFF]高いところに登りすぎて、[3C404EFF]\n降りられなくなったのにゃ。=It must have climbed too high and couldn't get down~nya.
-[3C404EFF]待ってるにゃ！[3C404EFF]\nあたしが今、[3C404EFF]助けてあげるのにゃ！=Wait for me~nya!\nI'll help you now~nya!
-[3C404EFF]にゃー、にゃー=Nyaah, nyaah
-[3C404EFF]うーん、[3C404EFF]いい子いい子にゃ。[3C404EFF]もう迷子になっちゃダメにゃ。=Umm, good boy good boy~nya.\nDon't get lost again~nya.
-[3C404EFF]こんなに震えて……[3C404EFF]\n[3C404EFF]あたしがついてるから、[3C404EFF]もう安心するにゃ。=You're trembling so much...\nI'm with you, so don't worry~nya.
-[3C404EFF]お礼に今度、[3C404EFF]また割引で何か売ってあげるにゃ！=As a thank you, I'll sell you something at a discount next time~nya!
-[3C404EFF]結局割引なのかって？　[3C404EFF]んー……[3C404EFF]\n[3C404EFF]あたしの無償の愛なんて、[3C404EFF]よっぽどのことがないと[3C404EFF]\n得られないのにゃ。="You're still giving me a discount?" Hmm...\nMy unconditional love is hard to get unless something really happens~nya.
-[3C404EFF]だって、[3C404EFF]あたしは気まぐれな猫ちゃんだもんにゃ！[3C404EFF]\n……ま、[3C404EFF]気まぐれだから、[3C404EFF]そのうちイイコトもあるかも。\nしれないけどにゃ……？=Because I'm a whimsical cat girl~nya!\n...Well, because I'm whimsical, there might be something good someday. Maybe~nya...?
-[3C404EFF]それじゃああたしは、[3C404EFF]この子をお家に連れて帰ってあげるにゃ。[3C404EFF]\nまたにゃ、[3C404EFF]ばいばい！=Then I'll take this kid home with me~nya.\nSee ya later~nya!
-[3C404EFF]タマキは笑顔で子猫を連れ帰るのだった。=Tamaki left with a smile and the kitten.
-[3C404EFF]もちろんにゃ！　[3C404EFF]大好きにゃ！[3C404EFF]\n[3C404EFF]可愛くてたまらないのにゃ！=Of course~nya! I love it~nya!\nThey're so cute~nya, I can't stand it~nya!
-[3C404EFF]……慰めてくれて、[3C404EFF]ありがとにゃ。[3C404EFF]\n[3C404EFF]って、[3C404EFF]どこに行くにゃ？=...Thanks for comforting me~nya.\nWait, where are you going~nya?
-[3C404EFF]探してみるって……[3C404EFF]もしかして、[3C404EFF]手伝ってくれるのかにゃ？=Try looking for it...?\nAre you going to help me~nya?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

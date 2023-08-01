@@ -109,12 +109,12 @@
 だから、白状します！　これ！\n自分のドジを直すために作った、「ドジ矯正魔法具」なんです。=So, I confess! This! I made this "blunder correction magic tool" to fix my own blunders.
 でも……これで自分に魔法をかけると、ドジが直るんじゃなくて……\nドジを、ドジと思わなくなってしまうみたいで。\nただの無反省なドジ人間になっちゃうんです私～～！=But... when I use this magic on myself, it doesn't fix my clumsiness... it makes me not think of them as clumsiness. I just become an unrepentant clumsier~~!
 ドジを直す道具を作るのに……ドジってしまった……\n恥ずかしすぎて……つい密廃サービスに……=I made a clumsy while making a tool to fix clumsiness... I was so embarrassed... I just threw it away in the secret disposal service...
-r:"^(?:\[3C404EFF\])?(.{2,10})さん！\nこれが、(?:\[3C404EFF\])?本当の私です！$"=$1-san!\n This is the real me!
+r:"^(.{2,10})さん！\nこれが、本当の私です！$"=$1-san!\n This is the real me!
 その正直さがスズメちゃんらしい。=That honesty is just like you, Suzume-chan.
 ……ほ、ほんとですかぁぁ～～！=...R-really~~~!
 結局自分で暴露してしまわれましたわね……=You ended up exposing yourself in the end...
 これ、波乱含みだわ～……=This is going to be a mess~~...
-r:"^(?:\[3C404EFF\])?その後も少女たちの(?:\[3C404EFF\])?\n「(.{2,10})になら知られてもいい。(?:\[3C404EFF\])?\nけど知られたくない。でもやっぱり知ってほしい」パニックは続いた──$"="The girls' panic in "I don't mind if $1 knows. But I don't want you to know, but at the same time I want you to know""
+r:"^その後も少女たちの\n「(.{2,10})になら知られてもいい。\nけど知られたくない。でもやっぱり知ってほしい」パニックは続いた──$"="The girls' panic in "I don't mind if $1 knows. But I don't want you to know, but at the same time I want you to know""
 ……主さま。=...Aruji-sama.
 これは見ての通り、カウンターでございます。\n「主さまのお知り合いカウンター」……=This is, as you can see, a counter. A "Aruji-sama's acquaintance counter"...
 主さまにあまりにもお知り合いが多いものですから、\n従者としては……数を把握しておきたく……\nお作りさせていただきました。=You have so many acquaintances, Aruji-sama, that as your servant... I wanted to keep track of the number... and I made this.
@@ -176,162 +176,161 @@ r:"^(?:\[3C404EFF\])?その後も少女たちの(?:\[3C404EFF\])?\n「(.{2,10})�
 ──明日は我が身、ということですね。=──Tomorrow could be my turn, huh.
 誰かに見つけられる前に\nなんとしてもこの手で回収しなければ……=I have to recover them before someone finds them by any means necessary...
 
-[3C404EFF]無事に復活を果たしたデンジャラス・オクトパスの活躍で、[3C404EFF]\n海の水はものすごい勢いで抜かれていった。=Thanks to the successful repair of the Dangerous Octopus, the water of the sea was rapidly drained.
-[3C404EFF]すごい……[3C404EFF]ほんとに海底が見えてるわ。[3C404EFF]\n[3C404EFF]ウィスタリア家色々あったみたいだけど、[3C404EFF]結果[3C404EFF]海に完全勝利ね。[3C404EFF]\n[3C404EFF]ヤマダ、[3C404EFF]飛び級昇格させてあげてもいいと思う……=Wow... I can actually see the bottom of the sea. The Wisteria family has done a lot and in the end we achieved a complete victory over the sea. Yamada, I think you should be promoted to a higher rank...
-[3C404EFF]おーっほっほっほっほ♪=O~hohohoho♪
-[3C404EFF]そして、[3C404EFF]目視でも確認できますね。[3C404EFF]\n[3C404EFF]海底にうごめく──[3C404EFF]秘密魔物たちが。=And we can confirm it visually as well. The secret monsters lurking at the bottom of the sea.
-[3C404EFF]うん……[3C404EFF]\n[3C404EFF]というかこれ……=Hmm... In other words, these...
-[3C404EFF]すごい数じゃない！？=There's an incredible number of them!?
-[3C404EFF]これ一つ一つが全て……[3C404EFF]\n誰かの、[3C404EFF]秘密……=Each and every one of these... is someone's secret...
-[3C404EFF]深入りは禁物です。[3C404EFF]\n手早く退治を進めましょう。=We shouldn't delve too deep. Let's proceed with extermination quickly.
-[3C404EFF]そ、[3C404EFF]そうね。[3C404EFF]\n[3C404EFF]幸い秘密魔物ちゃんたち、[3C404EFF]とても強そうには見えないし。=Y-Yes, you're right. Fortunately, these secret monsters don't seem very strong.
-[3C404EFF]秘密を知ってしまわないよう、[3C404EFF]\n見ざる、[3C404EFF]聞かざる……[3C404EFF]\n半分くらいの集中力で、[3C404EFF]倒しちゃおう！=I don't want to know the secret, so I won't look, I won’t listen... I'll defeat you with half of my concentration!
-[3C404EFF]えーい、[3C404EFF]っと！=Alright, here I go!
-[3C404EFF]……あれ。[3C404EFF]びくともしない。=...Huh. It's not even flinching.
-[3C404EFF]ええいっ！！=Eeei!!
-[3C404EFF]加勢します！=I'll assist you!
-[3C404EFF]──はぁっ！=──Haah!
-[3C404EFF]──！？[3C404EFF]\n攻撃が、[3C404EFF]まったく効いていない！？=──!? Our attacks are completely ineffective!?
-[3C404EFF]私たちの攻撃はさておき、[3C404EFF]\nネネカさんの力もはねのけるなんて……[3C404EFF]そんな魔物いるかしら？=Setting aside our attacks, it's even repelling Neneka-san's power... Are they even real?
-[3C404EFF]これでは……[3C404EFF]手の打ちようが──=At this rate... there's no way to deal with them...
-[3C404EFF]あ、[3C404EFF]あなたさま！？[3C404EFF]\n秘密魔物に[3C404EFF]話しかけていらっしゃるの？=Oh, you're talking to the monsters?
-[3C404EFF]フ、[3C404EFF]フツーに話せてるわ……=Y-You can talk to them normally...
-[3C404EFF]で、[3C404EFF]で？[3C404EFF]\n魔物さんはなんて？=S-So, what do the monsters say?
-[3C404EFF]持ち主に……=They have to be...
-[3C404EFF]返却しなきゃいけない！？=Returned to their owners!?
-[3C404EFF]秘密ブツには情念がこもっていて、[3C404EFF]\n物理的な攻撃では倒せない。=The secrets are infused with strong emotions and cannot be defeated by physical attacks.
-[3C404EFF]魔物化を解くには、[3C404EFF]\n元の持ち主の手元に返却する以外に[3C404EFF]方法はない……[3C404EFF]と。=The only way to revert them back from being monsters is to return them to their original owners... so they say.
-[3C404EFF]で、[3C404EFF]ですが……=B-But...
-[3C404EFF]持ち主に返した瞬間に[3C404EFF]元の「秘密」の姿に戻るのだとしたら、[3C404EFF]\n[3C404EFF]返却する我々は、[3C404EFF]必然的にその秘密を知ることになりますわよね……=If they instantly revert to their original "secret" form upon being returned, then we, who return them, will inevitably come to know those secrets...
-[3C404EFF]……確かに。[3C404EFF]\n魔物だし、[3C404EFF]郵送とか置き配とか、[3C404EFF]するわけには[3C404EFF]いかないわよね。[3C404EFF]\n[3C404EFF]手渡しってなると、[3C404EFF]そうなっちゃう……=...Indeed. They're monsters, so we can't send them by mail or leave them at the door. And if we hand them directly, that will end up happening...
-[3C404EFF]海を浄化したければ、[3C404EFF]\n他人の秘密を暴くのは避けられない、[3C404EFF]ということですね。=If we want to purify the sea, it seems unavoidable to learn about other people's secrets, doesn't it?
-[3C404EFF]でも、[3C404EFF]持ち主本人の目の前で暴くなんて……[3C404EFF]\n[3C404EFF]個人情報の取り扱い方として、[3C404EFF]さすがに……=But revealing them in front of the owners themselves... As a handling of personal information, that's a bit...
-[3C404EFF]……今更、[3C404EFF]日和るんですか。=...Are you hesitating now?
-[3C404EFF]なんでしたっけ。[3C404EFF]\nアキノさんお得意の、[3C404EFF]ノンレム睡眠の……[3C404EFF]名人？=What was it again? Akino-san's specialty, the master of non-REM sleep?
-[3C404EFF]……[3C404EFF]\nノブレスオブリージュの、[3C404EFF]精神です。=...It's the Noblesse Oblige spirit.
-[3C404EFF]え？　[3C404EFF]即レス鬼畜の、[3C404EFF]５分前精神……？=Huh? The mmediate response demon's... five minutes ago spirit...?
-[3C404EFF]で、[3C404EFF]ですから、[3C404EFF]ノブレス──=I said the Noblesse──
-[3C404EFF]なんでもいいです。=It doesn't matter.
-[3C404EFF]その、[3C404EFF]なんちゃら精神とやらで暴走する貴方のことを、[3C404EFF]\n止められないと判断したから[3C404EFF]ここまで協力したんです。=You were going off the rails with your spirit of whatever it is you are doing. So far you have been unstoppable, that is why I've cooperated with you.
-[3C404EFF]見てください[3C404EFF]この海を。[3C404EFF]もはや海ではありませんが。[3C404EFF]\n[3C404EFF]後戻りができるタイミングは、[3C404EFF]とっくに過ぎていると思います。=Please look at the sea. It is no longer a sea. I think the time to step back has long passed.
-[3C404EFF]……ネネカさん……=...Neneka-san...
-[3C404EFF]「痛みや批判を伴うことは承知の上で、[3C404EFF]\n[3C404EFF]より公共の利益に資する方策を採る」ことが……="It is to choose the option that serves the public interest more, even if it involves pain or criticism"...
-[3C404EFF]ノースリーブの旅芸人？　[3C404EFF]とやらなのでしょう？=A sleeveless traveling entertainer? Is that what you are?
-[3C404EFF]……ぷっ。=...Pfft.
-[3C404EFF]ですから！[3C404EFF]\n[3C404EFF]ノブレスオブリージュの精神、[3C404EFF]ですわよっ！=That's why! It's the Spirit of Noblesse Oblige!
-[3C404EFF]ああ、[3C404EFF]そうでしたか。[3C404EFF]\n……やっと聞こえました。=Oh, I see. ...I finally heard you.
-[3C404EFF]……ありがとうございます。=...Thank you.
-[3C404EFF]……別に。=...It's nothing.
-[3C404EFF]つまり、[3C404EFF]やるしかないのよね。=In other words, we have no choice but to do it.
-[3C404EFF]ええ……[3C404EFF]\n[3C404EFF]ネネカさんのおっしゃる通り、[3C404EFF]もはや後戻りはできません。[3C404EFF]\n[3C404EFF]美しいオーマの海を取り戻すために……=Yes... As Neneka-san said, we can't go back anymore. To reclaim the beautiful sea of Ohma...
-[3C404EFF]秘密魔物を、[3C404EFF]返却いたしましょう！[3C404EFF]\n一つ一つ、[3C404EFF]我々の手で、[3C404EFF]持ち主の元へ──！=Let's return the secret monsters to their owners, one by one!
-[3C404EFF]──ネネカさま。[3C404EFF]\nよかったんですか……？=-Neneka-sama. Is this okay...?
-[3C404EFF]ああいう暑苦しい正義感でもって[3C404EFF]他人の秘密に踏み込むなんて、[3C404EFF]\n[3C404EFF]一番お嫌いなんじゃ……=You hate it when people intrude on other people's secrets with that kind of hot-blooded sense of justice, don't you...
-[3C404EFF]…………虫唾が走りますね。=...It makes me sick.
-[3C404EFF]あー！　[3C404EFF]これっ、[3C404EFF]密廃サービスに出した、[3C404EFF]俺の──[3C404EFF]\nなんで返却されるの！？=Ah! This is the one I sent to the Secret Disposal Service, my... Why is it being returned!?
-[3C404EFF]契約が履行できず、[3C404EFF]大変申し訳ございません。[3C404EFF]\n[3C404EFF]返金と併せまして、[3C404EFF]お詫び金もお受け取りいただけると……=We apologize for not being able to fulfill the contract. In addition to the refund, we hope you will accept the compensation money as well...
-[3C404EFF]きゃっ！　[3C404EFF]魔物！？=Kyaa! A monster!?
-[3C404EFF]受け取ってもらえたら、[3C404EFF]元の秘密ブツの姿に戻りますので……！=If you accept it, it will return to its original secret form...!
-[3C404EFF]あ、[3C404EFF]ほんとだ。[3C404EFF]「付け焼刃料理教室」の会員証に戻ったわ。[3C404EFF]\n[3C404EFF]……って[3C404EFF]私が焦り気味に婚活中だってバレちゃったじゃないのよ！=Oh, it's true. It turned back into a "Crash Course Cooking Class" membership card. That only means everyone will know I'm in a hurry to get married!
-[3C404EFF]誰の目にも耳にも、[3C404EFF]触れない場所で保管していたので。[3C404EFF]\n私以外に秘密を知る人間はいません。[3C404EFF]\n[3C404EFF]誓って口外はしませんから……！=I kept it in a place where no one could see or hear it. No one knows the secret except me. I swear I won't tell anyone...!
-[3C404EFF]あ、[3C404EFF]あああ、[3C404EFF]こ、[3C404EFF]これはその……！=Ah, ah, this is that...!
-[3C404EFF]いつもエラソーな妻に、[3C404EFF]言い返したいけど[3C404EFF]言い返せなくて……[3C404EFF]\n[3C404EFF]せめてあいつの顔写真に落書きでもして、[3C404EFF]憂さ晴らしをしようと……[3C404EFF]\n[3C404EFF]ち、[3C404EFF]血の涙と、[3C404EFF]世にもおぞましい吹き出し台詞を……！=I always wanted to talk back to my arrogant wife, but I couldn't... So I thought to at least scribble on her picture and vent my frustration. T-tears of blood... and the most horrifying speech bubble...
-[3C404EFF]あ、[3C404EFF]あわわわわ[3C404EFF]こんなことがバレて、[3C404EFF]タダで済むはずがない！[3C404EFF]\n[3C404EFF]──そうだ、[3C404EFF]逃げよう……[3C404EFF]今なら間に合う！　[3C404EFF]脱獄だ！　[3C404EFF]逃走だ！[3C404EFF]\n[3C404EFF]それしかない！！　[3C404EFF]そうと決まれば荷物を──=Ah, ahwawawawa, if this gets out, I won't get away with it! ...That's it, I'll run away... There's still time! It's a jailbreak! A escape! That's the only way!! If this gets out then I'll pack my bags...
-[3C404EFF]落ち着いてください。[3C404EFF]\n他言はしませんから。=Please calm down. I won't tell anyone.
-[3C404EFF]ああこれ。[3C404EFF]\n上司が前に関わった書類改ざん案件の、[3C404EFF]原本帳簿なんですよね。=Oh, this. It's the original account book for the falsification of documents my boss was involved in.
-[3C404EFF]返却ですか？　[3C404EFF]かしこまりました。[3C404EFF]\n[3C404EFF]では燃えるゴミに出します。[3C404EFF]もう面倒なので。[3C404EFF]あ、[3C404EFF]紙だから[3C404EFF]\n資源ゴミですね。[3C404EFF]来世はきれいな書類に生まれると良いですね。[3C404EFF]ぽーい。=You want me to return it? Okay. Then, I'll throw it in the burnable trash. I'm tired of it. Oh, it's paper, so it's recyclable trash. I hope you'll be reborn as a clean document in your next life. Bye.
-[3C404EFF]はい、[3C404EFF]お構いなく。[3C404EFF]\nあの人、[3C404EFF]過去の反省を忘れて[3C404EFF]最近また調子に乗りつつありますし。[3C404EFF]\n[3C404EFF]内容は頭に入っているので。[3C404EFF]ところであなた、[3C404EFF]お茶でも飲みますか？=Yes, don't worry about it. He's been forgetting his past mistakes and getting cocky again lately. I have the contents in my head. By the way, do you want some tea?
 
-[3C404EFF]ふー[3C404EFF]\n返却、[3C404EFF]思った以上に気を遣うわね。[3C404EFF]ハードだ～！=Returning them to their owners is more stressful than I thought. It's hard!
-[3C404EFF]でもまぁ……[3C404EFF]そりゃそうよね。[3C404EFF]\n[3C404EFF]誰にも知られたくなくて廃棄したモノが、[3C404EFF]\n赤の他人から返されるんだもん。=But well... that makes sense. They are things that people wanted to dispose of without anyone knowing, and now they are being returned by strangers.
-[3C404EFF]取り乱さない方がおかしいですね。=It would be strange if they didn't freak out.
-[3C404EFF]ですから、[3C404EFF]秘密の暴露範囲を最小限に抑えるために、[3C404EFF]\nカズマサさんやマサキさんには[3C404EFF]手助けをご遠慮いただきました。=That's why, to minimize the exposure of their secrets, we asked Kazumasa-san and Masaki-san to refrain from helping us.
-[3C404EFF]返却は、[3C404EFF]私、[3C404EFF]ユカリさん、[3C404EFF]ネネカさん、[3C404EFF]あなたさま。[3C404EFF]\nこの４人だけで。[3C404EFF]手分けしてやりきるしかありません。=The return is done by Yukari-san, Neneka-san, you and I. Only four people. We have to divide the work and finish it.
-[3C404EFF]……まぁ、[3C404EFF]とはいえ[3C404EFF]幸い、[3C404EFF]見も知らぬ赤の他人の秘密ですから。[3C404EFF]\n[3C404EFF]なるべく[3C404EFF]感情移入は控えて、[3C404EFF]さらっと──=...Well, fortunately, they are secrets of people we don't know. We try not to empathize too much, and just do it casually...
-[3C404EFF]……ねぇ。[3C404EFF]ねぇねぇねぇちょっと！=...Hey. Hey hey hey wait a minute!
-[3C404EFF]なんか、[3C404EFF]この辺にいる秘密魔物たちさ。[3C404EFF]\n名前と住所に……=Some of the secret monsters around here. Their names and addresses...
-[3C404EFF]見覚えがあるものが多いんだけど～～！=I recognize many of them~~!
-[3C404EFF]考えてみれば、[3C404EFF]驚くようなことじゃないわよね……=Now that I think about it, it's not surprising...
-[3C404EFF]ええ。[3C404EFF]誰にだって秘密はありますもの。[3C404EFF]\n[3C404EFF]お知り合いの方たちにだって、[3C404EFF]あって当然……=Yes. Everyone has secrets. Even the people we know, it's natural...
-[3C404EFF]まさか[3C404EFF]顔見知りから返却されるとは、[3C404EFF]\n夢にも思っていなかったでしょうけどね。=But they probably never dreamed that they would be returned by someone they know.
-[3C404EFF]…………ですわよねぇ……\n…………そうよねぇ……=...That's right...\nright...
-[3C404EFF]本当に、[3C404EFF]あのお方一人に任せて大丈夫でしょうか……=Are you sure it's okay to leave it all to him...?
-[3C404EFF]かなり不安ですが、[3C404EFF]仕方ありませんね。=I'm very worried, but there's no choice.
-[3C404EFF]他人であるカズマサさんたちから返却する、[3C404EFF]という提案もしましたが、[3C404EFF]\n[3C404EFF]少女たちは皆、[3C404EFF]「知られるなら彼がいい」[3C404EFF]「彼になら明かせる」[3C404EFF]\nと、[3C404EFF]口を揃えましたから。=I suggested that we return them by strangers like Kazumasa-san and the others. But all the girls said: "If someone has to know, I want it to be him", "I can tell him", in unison.
-[3C404EFF]そうよね……[3C404EFF]\n[3C404EFF]持ち主がそう希望する限り、[3C404EFF]返却は、[3C404EFF]彼に任せるしか……=That's right... As long as the owners wishes so, we have no choice but to leave the return to him...
-[3C404EFF]い～～～～や～～～～！[3C404EFF]\nやっぱりいや～～～～！　[3C404EFF]アキノさ～～ん！！=Noooo~~! I don't want to~~! Akino-sa~~n!!
-[3C404EFF]ごめんください！[3C404EFF]\nスズメさん！？=Excuse me! Suzume-san!?
-[3C404EFF]やっぱり私、[3C404EFF]恥ずかしいです～～！[3C404EFF]\n[3C404EFF]このかたには知られたくないです～～！=I changed my mind~~! I'm embarrassed~~! I don't want him to know~~!
-[3C404EFF]確かに私、[3C404EFF]言いました……[3C404EFF]そう言いましたけど～！=I did say that, I said that!
-[3C404EFF]だけど！　[3C404EFF]だけどやっぱり……[3C404EFF]\n[3C404EFF]このかたに「だけ」は[3C404EFF]知られたくないんです～！=But! But still... I don't want "only" you to know!
-[3C404EFF]ふ、[3C404EFF]複雑～う……=I-It's complicated...
-[3C404EFF]スズメさん？　[3C404EFF]このお方がいることで[3C404EFF]お気持ちが乱れてしまうのなら、[3C404EFF]\n私たちのいずれかから返却させていただくのはどうでしょう？[3C404EFF]\n[3C404EFF]絶対に、[3C404EFF]他言はいたしませんから。=Suzume-san? If you feel uncomfortable with him doing it, how about we return it? We won't tell anyone.
-[3C404EFF]……絶対に、[3C404EFF]ですか？=...Are you sure of it?
-[3C404EFF]ええ。[3C404EFF]\n墓場まで、[3C404EFF]なんなら[3C404EFF]来世までもっていきますわ。=Yes. To the grave, or even to the next life.
-[3C404EFF]来世では忘れてほしいですけど～！[3C404EFF]\n[3C404EFF]でも、[3C404EFF]そう言うなら……[3C404EFF]じゃあ、[3C404EFF]アキノさんに……=I hope you forget about it in your next life! But if you say so... then, Akino-san...
-[3C404EFF]承知いたしました。=Understood.
-[3C404EFF]では、[3C404EFF]私からお返ししますわね。[3C404EFF]\n[3C404EFF]誰にも見えないように、[3C404EFF]と……=Then, I'll return it to you. So that no one can see...
-[3C404EFF]──ちょっと、待ってください！！=-Wait a minute!!
-[3C404EFF]すみません、[3C404EFF]私……[3C404EFF]\n[3C404EFF]このかたになら知られてもいい、[3C404EFF]けど、[3C404EFF]\n[3C404EFF]このかたにだけは知られたくない……[3C404EFF]そう言いました。=I'm sorry, I meant... I don't mind if he knows, but I don't want him to be the only one to know... 
-[3C404EFF]でも……[3C404EFF]でもやっぱりのやっぱり！[3C404EFF]\n[3C404EFF]このかたには、[3C404EFF]知ってほしい！　[3C404EFF]本当の私を！=But... but still! I want him to know the real me!
-[3C404EFF]……え、[3C404EFF]ええと……[3C404EFF]つまり？=...Eh, um... what do you mean?
-[3C404EFF]だから、[3C404EFF]白状します！　[3C404EFF]これ！[3C404EFF]\n[3C404EFF]自分のドジを直すために作った、[3C404EFF]「ドジ矯正魔法具」なんです。=So, I confess! This! I made this "clumsy correction magic tool" to fix my own clumsiness.
-[3C404EFF]でも……[3C404EFF]これで自分に魔法をかけると、[3C404EFF]ドジが直るんじゃなくて……[3C404EFF]\n[3C404EFF]ドジを、[3C404EFF]ドジと思わなくなってしまうみたいで。[3C404EFF]\n[3C404EFF]ただの無反省なドジ人間になっちゃうんです[3C404EFF]私～～！=But... when I use this magic on myself, it doesn't fix my clumsiness... it makes me ignore my clumsiness. I just become an unrepentant klutz~~!
-[3C404EFF]ドジを直す道具を作るのに……[3C404EFF]ドジってしまった……[3C404EFF]\n[3C404EFF]恥ずかしすぎて……[3C404EFF]つい密廃サービスに……=I was clumsy making a tool to fix clumsiness... I was so embarrassed... I just threw it away in the Secret Disposal Service...
 
-[3C404EFF]……ほ、[3C404EFF]ほんとですかぁぁ～～！=...R-Really?!
-[3C404EFF]結局[3C404EFF]自分で暴露してしまわれましたわね……=You ended up exposing yourself in the end...
-[3C404EFF]これ、[3C404EFF]波乱含みだわ～……=This is going to be a mess~~...
 
-[3C404EFF]……主さま。=...Aruji-sama.
-[3C404EFF]これは見ての通り、[3C404EFF]カウンターでございます。[3C404EFF]\n[3C404EFF]「主さまのお知り合いカウンター」……=This is, as you can see, a counter. An "Aruji-sama's Acquaintance Counter"...
-[3C404EFF]主さまに[3C404EFF]あまりにもお知り合いが多いものですから、[3C404EFF]\n従者としては……[3C404EFF]数を把握しておきたく……[3C404EFF]\n[3C404EFF]お作りさせていただきました。=You have so many acquaintances, Aruji-sama, that as your servant... I wanted to keep track of the number... and I made this.
-[3C404EFF]そう……[3C404EFF]でございますね……[3C404EFF]\n[3C404EFF]主さまに余計なお手間をとらせてしまい、[3C404EFF]申し訳ございませんでした。=Yes... that's true... I'm sorry for making you go through unnecessary trouble, Aruji-sama.
-[3C404EFF]え……[3C404EFF]\n鳴らしてみてほしい、[3C404EFF]でございますか……？=Eh... you want me to try it out...?
-[3C404EFF]ええと……[3C404EFF]その…………………[3C404EFF]\n…………[3C404EFF]承知、[3C404EFF]いたしました。=Um... that..........................\n.................. Understood.
-[3C404EFF]ビーッ！　ビーッ！\nビーッ！　ビーッ！=Beep! Beep!\nBeep! Beep!
-[3C404EFF]す、[3C404EFF]すごい音！[3C404EFF]\nなに、[3C404EFF]緊急事態！？　[3C404EFF]またトラブル！？=W-wow, what a sound! What, an emergency!? Another trouble!?
-[3C404EFF]主さまにお知り合いが一人増えるごとに、[3C404EFF]\n[3C404EFF]通知音が鳴る仕様でございます……=It's a notification sound that goes off every time Aruji-sama gains a new acquaintance...
-[3C404EFF]……………！[3C404EFF]\nおっしゃる通り……[3C404EFF]で、[3C404EFF]ございますね。[3C404EFF]\n[3C404EFF]音量を、[3C404EFF]調整いたします…………=............! You're right... it is. I'll adjust the volume............
-[3C404EFF]主さま……=Aruji-sama...
-[3C404EFF]…………[3C404EFF]\n主さまは、[3C404EFF]こんなにも寛容でいらっしゃるのに……=............Aruji-sama, you’re so tolerant...
-[3C404EFF]……わたくしは、[3C404EFF]悪い従者でございますね。=...What a bad servant I am.
-[3C404EFF]幸せな従者にございます……=I am a happy servant...
 
-[3C404EFF]次はマコトさんか……[3C404EFF]確か[3C404EFF]【自警団（カォン）】の子よね。[3C404EFF]\n[3C404EFF]なんだろう、[3C404EFF]胸騒ぎがする。[3C404EFF]\n[3C404EFF]詳しい事情は一切分からないけど、[3C404EFF]激しく胸騒ぎがするわ……=Next is Makoto-san... She's from Caon, right? I wonder what's going on. I don't know any details, but I have a very bad feeling...
-[3C404EFF]ええ。[3C404EFF]これまでの流れからして……=Yes. Judging from previous situations...
-[3C404EFF]彼に秘密を知られたいのか、[3C404EFF]はたまた知られたくないのか。[3C404EFF]\n[3C404EFF]もう彼女たち本人にすら[3C404EFF]分かっていないようですからね……=Does she want him to know her secret or not? Even the girls themselves don't seem to know anymore...
-[3C404EFF]これ、[3C404EFF]手紙なんだ……[3C404EFF]\n[3C404EFF]おまえに……[3C404EFF]宛てた。=This is a letter... for you...\naddressed to you.
-[3C404EFF]でもっ……[3C404EFF]捨てた。[3C404EFF]\n[3C404EFF]だ、[3C404EFF]だからっ……[3C404EFF]ええと……[3C404EFF]その……！=But... I threw it away. S-so... um... that...!
-[3C404EFF]こんにちは～[3C404EFF]\nマコトちゃ～ん、[3C404EFF]いる？=Hello~ Makoto-cha~n,\n are you there?
-[3C404EFF]え、[3C404EFF]足止め！？　[3C404EFF]私が行くの！？　=Eh, she is interrupting!? I have to go!? 
-[3C404EFF]話題はなんでもいいんです！　[3C404EFF]さぁ[3C404EFF]早く！　=The topic doesn't matter! Hurry up!
-[3C404EFF]こ、[3C404EFF]こんにちは～[3C404EFF]\n[3C404EFF]お姉さん、[3C404EFF]突然だけど、[3C404EFF]ソ、[3C404EFF]ソフトドリンク占いやらない？[3C404EFF]\n[3C404EFF]──って！　[3C404EFF]あなたは……[3C404EFF]ユイさん？　[3C404EFF]【トゥインクルウィッシュ】の！=Uh, hello~ Miss, this is sudden, but do you want to do a soft drink fortune-telling?──What! You are... Yui-san? From Twinkle Wish!
-[3C404EFF]こ、[3C404EFF]こんにちは。[3C404EFF]\nソフトドリンク占い……？=Uh, hello.\nSoft drink fortune-telling...?
-[3C404EFF]そ、[3C404EFF]そそそそうそう。[3C404EFF]なにか、[3C404EFF]悩んでること、[3C404EFF]ないかしら？[3C404EFF]\n[3C404EFF]好きなソフトドリンクを一つ挙げてもらえたら、[3C404EFF]\nそこそこややなんとなく、[3C404EFF]占えるとか占えないとか……[3C404EFF]まぁそんな感じ。=Y-Y-Yeah, that's right. Is there anything bothering you? If you give me one of your favorite soft drinks, I'll be able to tell you a fortune or something... Well, something like that.
-[3C404EFF]悩み……[3C404EFF]ですか。[3C404EFF]\n[3C404EFF]ん～、[3C404EFF]ないことはないですが……=Bothering me...? Hmm, I do have some things, but...
-[3C404EFF]でも、[3C404EFF]遠慮しておきます。[3C404EFF]\nマコトちゃんが、[3C404EFF]あ、[3C404EFF]親友が、[3C404EFF]いつも相談にのってくれるから。[3C404EFF]\n[3C404EFF]人には言いにくいことも、[3C404EFF]なんでも、聞いてくれて。=But, I'll pass. Makoto-chan, ah, my best friend, always listens to my problems. She listens to everything, even things that are hard to say to others.
-[3C404EFF]あ～……[3C404EFF]なるほど……[3C404EFF]\n人に言えないことも……=Ah... I see... Even things that you can't tell others...
-[3C404EFF]Yes.[3C404EFF]\nお互いに、[3C404EFF]なんでも話せる[3C404EFF]大親友なんです♪=Yes. We are best friends who can talk about anything♪
-[3C404EFF]………………[3C404EFF]うん、[3C404EFF]そっか！=............Yeah, I see!
-[3C404EFF]ごめん[3C404EFF]引き留め大失敗！[3C404EFF]\n[3C404EFF]これ以上は無理よ～！　=Sorry for keeping you here! Big failure! I can't do this anymore~!
-[3C404EFF]これまで、[3C404EFF]ですか……！　=That's it, then...?
-[3C404EFF]きゃ、[3C404EFF]客も来たことだし、[3C404EFF]おまえはそろそろ帰れ。[3C404EFF]\n[3C404EFF]悪いな、[3C404EFF]わざわざ届けてもらって。=Hey, a customer is here too, so you should go home soon. Sorry for making you deliver this.
-[3C404EFF]…………いや、[3C404EFF]なにも。=.........No, nothing.
-[3C404EFF]……！[3C404EFF]\nなっ、[3C404EFF]中身も分からないのに礼を言う奴が──=......! Wha, don't thank me when you don't even know what's inside──
-[3C404EFF]…[3C404EFF]………！[3C404EFF]\n[3C404EFF]……ぬ、[3C404EFF]ぬか喜びかもしれねぇんだからなっ！=........!...Do, don't get your hopes up too soon!
-[3C404EFF]あ！　[3C404EFF]あのお方が戻ってきましたわ！[3C404EFF]\n[3C404EFF]ユイさんと入れ違い……[3C404EFF]間に合いましたのね！=Ah! He's back! You just missed Yui-san... You made it in time!
-[3C404EFF]よかったわ～！[3C404EFF]\n[3C404EFF]ふ～、[3C404EFF]スリルある～っ。=That's good~! Phew, that was thrilling~.
 
-[3C404EFF]その後も──=After that──
-[3C404EFF]こ、[3C404EFF]これは[3C404EFF]その……[3C404EFF]「告白ゲーム」ってやつよ。[3C404EFF]\n[3C404EFF]ゲームにのっかって告白しちゃおう、[3C404EFF]みたいなこと、[3C404EFF]らしいわ……[3C404EFF]\n[3C404EFF]べっ、[3C404EFF]別に、[3C404EFF]アンタとやろうだなんて思ってないんだからね！？=Th-this is... a "confession game". It's a game where you confess to someone as a joke. I-I don't want to do it with you or anything!
-[3C404EFF]こ、[3C404EFF]これは……[3C404EFF]\n[3C404EFF]「巨大・マトリョーシカ型たい焼き器」の試作品にゃ。[3C404EFF]\n[3C404EFF]インパクトあるたい焼きが作りたくて、[3C404EFF]発注したにゃ……=Th-this is... a "giant matryoshka-shaped taiyaki maker" prototype. I wanted to make some impactful taiyaki, so I ordered it...
-[3C404EFF]でもよく考えたらマトリョーシカ型って、[3C404EFF]\nたい焼き器として構造的に破綻してて……[3C404EFF]\n[3C404EFF]高かったのに、[3C404EFF]失敗作にゃ。[3C404EFF]見つかったらアキノに叱られると思って……=But when I thought about it more, a matryoshka shape doesn't make sense as a taiyaki maker... It was expensive and it turned out to be a failure. I thought Akino would scold me if she found out...
-[3C404EFF]This is……[3C404EFF]大量の麦しゅわの空き瓶！？[3C404EFF]\n[3C404EFF]みんな[3C404EFF]用心して！　[3C404EFF]この辺に恐ろしいウワバミが潜んでるわ！[3C404EFF]\n………………[3C404EFF]ごめんなさい[3C404EFF]私です……=This is... a lot of empty bottles of barley soda!? Be careful everyone! There's a scary glutton hiding around here!\n............Sorry it's me...
-[3C404EFF]密廃サービスって聞いてなんとなくよぎったんだけど……[3C404EFF]\n[3C404EFF]まさか自分が利用したあれだったとは……=I heard about the Secret Disposal Service and I had a vague idea... But I didn't think it was the one I used...
-[3C404EFF]はっ……[3C404EFF]恥ずかしい……！=Ah... How embarrassing...!
-[3C404EFF]秘密ブツの返却は、[3C404EFF]\n波乱とパニックを引き起こしながらも、なんとかかんとか続けられた──=The return of the secret items continued with some turmoil and panic──
-[3C404EFF]──明日は我が身、[3C404EFF]ということですね。=──Tomorrow could be my turn, huh.
-[3C404EFF]誰かに見つけられる前に[3C404EFF]\n[3C404EFF]なんとしてもこの手で回収しなければ……=I have to recover it before someone finds does... by any means necessary...
 
-[3C404EFF]しゃあしゃあと……！[3C404EFF]\n[3C404EFF]……き、[3C404EFF]気が向いたらなっ。=All right...!\n...I-If I feel like it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

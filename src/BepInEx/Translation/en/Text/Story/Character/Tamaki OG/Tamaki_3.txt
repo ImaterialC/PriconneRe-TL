@@ -1,20 +1,20 @@
 r:"^タマキからのお願いで、指定の通路の見張り番をした([\s\S]{2,10})は、お礼にとたい焼きを貰う。翌日、美少女義賊「ファントムキャッツ」が出没したというニュースが、ランドソルの街を駆け巡った。$"="As a favor for Tamaki, $1 kept watch over a designated passage and received some taiyaki as a reward. The next day, news of the appearance of the beautiful girl bandit "Phantom Cat" spread throughout the city of Landosol."
-r:"^(?:\[3C404EFF\])?ある日、(.{2,10})は、\nタマキに呼び出されて市街地の大きな屋敷の側にきた。$"=One day, $1 was called by Tamaki to the side of a large mansion in the city.
-r:"^(?:\[3C404EFF\])?(.{2,10})、よく来てくれたにゃ。(?:\[3C404EFF\])?\n今日はちょっと、(?:\[3C404EFF\])?キミに話したいことがあるのにゃ。$"=$1, I'm glad you came~nya. I have something to talk to you about today~nya.
-r:"^(?:\[3C404EFF\])?(.{2,10})は、(?:\[3C404EFF\])?\n最近この辺に現れる謎の義賊・(?:\[3C404EFF\])?ファントムキャッツっていうのを(?:\[3C404EFF\])?\n知っているかにゃ？$"=$1, do you know about the mysterious bandit who appears around here lately~nya? The Phantom Cat~nya?
+r:"^ある日、(.{2,10})は、\nタマキに呼び出されて市街地の大きな屋敷の側にきた。$"=One day, $1 was called by Tamaki to the side of a large mansion in the city.
+r:"^(.{2,10})、よく来てくれたにゃ。\n今日はちょっと、キミに話したいことがあるのにゃ。$"=$1, I'm glad you came~nya. I have something to talk to you about today~nya.
+r:"^(.{2,10})は、\n最近この辺に現れる謎の義賊・ファントムキャッツっていうのを\n知っているかにゃ？$"=$1, do you know about the mysterious bandit who appears around here lately~nya? The Phantom Cat~nya?
 知らないのかにゃ？\n弱きを助け強きを挫く、美少女義賊……\nその名もファントムキャッツ……！=You don't know~nya?\nThe beautiful girl bandit who helps the weak and crushes the strong...\nher name is Phantom Cat...!
 いったい、正体は何者なのにゃ……！=Who is she, really~nya...!
 おっさん？=An old man?
 にゃーっ！　誰がおっさんにゃ……\nこ、こほん、おっさんではきっとないのにゃ……=Nya-! Who are you calling an old man~nya...\nc-cough, she's definitely not an old man~nya...
 と、とにかく、ファントムキャッツは可愛い美少女義賊だと\n聞いたにゃ。=Anyway, I heard that Phantom Cat is a cute and beautiful girl bandit~nya.
 ……ところで義賊といえば……=...Speaking of bandits...
-r:"^(?:\[3C404EFF\])?(.{2,10})は、(?:\[3C404EFF\])?義賊ってどう思うかにゃ……？$"=$1, what do you think of bandits~nya...?
+r:"^(.{2,10})は、義賊ってどう思うかにゃ……？$"=$1, what do you think of bandits~nya...?
 悪いやつからだけお金を盗む、正義の泥棒……\nそんな義賊がにゃ、例えば目の前にいたとしたら……=Stealing money only from bad guys, a thief of justice...\nif such a bandit was in front of you~nya, for example...
 ゆすって分け前をいただく。=I'd shake him down and take my cut.
 泥棒は泥棒だ。すぐ捕まえよう。=Thieves are thieves. Must catch them right away.
 にゃっ！？　そ、それはだめにゃ！\nっていうか、そっちの方が悪いやつにゃ！=Nya-!? N-no, that's not good~nya!\nThat's what I mean, you're the bad guy~nya!
 
-r:"^(?:\[3C404EFF\])?ううん……(?:\[3C404EFF\])?やっぱり、(?:\[3C404EFF\])?軽々しく正体は明かせないにゃ……(?:\[3C404EFF\])?\nいくら(.{2,10})でも……$"=No... I really can't reveal my true identity so lightly, nya... Even if it's $1...
+r:"^ううん……やっぱり、軽々しく正体は明かせないにゃ……\nいくら(.{2,10})でも……$"=No... I really can't reveal my true identity so lightly, nya... Even if it's $1...
 ま、それはそれとしてにゃ。\n実は今日は、キミに相談があって、\n呼び出させてもらったにゃ。=Well, that's beside the point~nya. Actually, I have a favor to ask you today, and that's why I called you here~nya.
 ここの屋敷は、巷で暴利をむさぼる高利貸し、アクドーイの\n家だと言われているにゃ。=This mansion is said to belong to a usurer named Krook'd, who makes a fortune by exploiting people in the streets~nya.
 善人から不当に奪った財産で私腹を肥やす……\nきっと、義賊の天誅が下ってもしかたないやつにゃ！=He fattens his own pockets with the property he unjustly took from good people... surely, he deserves the divine punishment of a bandit~nya!
@@ -23,7 +23,7 @@ r:"^(?:\[3C404EFF\])?ううん……(?:\[3C404EFF\])?やっぱり、(?:\[3C404EF
 え、なんでかってにゃ？　それは……\nええと……ちょっと、人に見られると\n恥ずかしい魔法の練習をするのにゃ。=Why, you ask~nya? That's because... um... I'm going to practice some magic that's embarrassing to be seen by people~nya.
 今晩はギルドのみんなも手が離せなくて……\nお願いにゃ！　頼まれてくれないかにゃ……？=Everyone in the guild is busy tonight... please~nya! Won't you do me a favor~nya...?
 ほんとかにゃ！\n引き受けてくれるにゃ！？=Really~nya! You'll accept it~nya!?
-r:"^(?:\[3C404EFF\])?さっすが(.{2,10})にゃ！(?:\[3C404EFF\])?\nそれでこそあたしが見込んだだけあるにゃ！$"=That's $1 for you!\nThat's why I had high hopes for you~nya!
+r:"^さっすが(.{2,10})にゃ！\nそれでこそあたしが見込んだだけあるにゃ！$"=That's $1 for you!\nThat's why I had high hopes for you~nya!
 とりあえず、あたしが戻ってくるまで、\nここで見張っててほしいにゃ。\n頼んだにゃ！=For now, I want you to keep an eye on this place until I come back~nya. I'm counting on you~nya!
 にゃーっ！　大漁、大漁♪=Nya-! A big catch, a big catch♪
 おまたー、にゃ！　見張り、ありがとうにゃ！=See you later~nya! Thanks for keeping watch~nya!
@@ -33,40 +33,39 @@ r:"^(?:\[3C404EFF\])?さっすが(.{2,10})にゃ！(?:\[3C404EFF\])?\nそれで�
 いつまでぼーっとしてるにゃ？\n早く逃げないと見つかるにゃ……っとと。=How long are you going to space out~nya?\nHurry up and run or you'll get caught~nya...
 夜も遅くなってるし、早く帰らないと危ないにゃよ？\nにゃっ！=It's late at night, so it's dangerous if you don't go home soon~nya? Nya-!
 おっと、分かれ道に来たのにゃ。\n今日はこれで……=Oops, we came to a fork in the road~nya. This is it for today...
-r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?忘れてたのにゃ。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?今日は付き合ってくれてありがとにゃ(.{2,10})！(?:\[3C404EFF\])?\nこれはお礼にゃ！$"=Oh, I forgot~nya.\nThank you for sticking with me today $1!\nThis is a thank you gift~nya!
+r:"^あ、忘れてたのにゃ。\n今日は付き合ってくれてありがとにゃ(.{2,10})！\nこれはお礼にゃ！$"=Oh, I forgot~nya.\nThank you for sticking with me today $1!\nThis is a thank you gift~nya!
 あたしのバイトのまかないとしてもらった、\nたい焼きの詰め合わせにゃ！=I got these as part of my part-time job, a set of taiyaki~nya!
 すっごく美味しいにゃ！\nきっとキミも気に入ってくれると思うのにゃ。=They're really delicious~nya! I'm sure you'll like them too~nya.
 それじゃあ、またにゃ！\n今日は本当にありがとにゃ～！=Well then, see you later~nya! Thank you so much for today~nya!
-r:"^(?:\[3C404EFF\])?上機嫌なタマキを見送った(.{2,10})。\nその翌日、ファントムキャッツが出たというニュースで\nランドソルは騒然となったのだった。$"=$1 watched Tamaki leave in a good mood. The next day, Landosol was in an uproar with news of Phantom Cat' appearance.
+r:"^上機嫌なタマキを見送った(.{2,10})。\nその翌日、ファントムキャッツが出たというニュースで\nランドソルは騒然となったのだった。$"=$1 watched Tamaki leave in a good mood. The next day, Landosol was in an uproar with news of Phantom Cat' appearance.
 
-[3C404EFF]知らないのかにゃ？[3C404EFF]\n[3C404EFF]弱きを助け強きを挫く、[3C404EFF]美少女義賊……[3C404EFF]\n[3C404EFF]その名も[3C404EFF]ファントムキャッツ……！=You don't know~nya? The beautiful girl bandit who helps the weak and crushes the strong... her name is Phantom Cat...!
-[3C404EFF]いったい、[3C404EFF]正体は何者なのにゃ……！=Who is she, really~nya...!
+
+
 奇跡のような美少女に違いない。=She had to be a miraculously beautiful girl.
-[3C404EFF]にゃーっ！　[3C404EFF]誰がおっさんにゃ……[3C404EFF]\n[3C404EFF]こ、[3C404EFF]こほん、[3C404EFF]おっさんではきっとないのにゃ……=Nya-! Who are you calling an old man~nya...\nc-cough, she's definitely not an old man~nya...
-[3C404EFF]と、[3C404EFF]とにかく、[3C404EFF]ファントムキャッツは可愛い美少女義賊だと[3C404EFF]\n聞いたにゃ。=Anyway, I heard that Phantom Cat is a cute and beautiful girl bandit~nya.
-[3C404EFF]……ところで[3C404EFF]義賊といえば……=...Speaking of bandits...
-[3C404EFF]悪いやつからだけお金を盗む、[3C404EFF]正義の泥棒……[3C404EFF]\n[3C404EFF]そんな義賊がにゃ、[3C404EFF]例えば[3C404EFF]目の前にいたとしたら……=Stealing money only from bad guys, a thief of justice... if such a bandit was in front of you~nya, for example...
-[3C404EFF]にゃっ！？　[3C404EFF]そ、[3C404EFF]それはだめにゃ！[3C404EFF]\n[3C404EFF]っていうか、[3C404EFF]そっちの方が悪いやつにゃ！=Nya-!? N-no, that's not good~nya!\nThat's what I mean, you're the bad guy~nya!
-[3C404EFF]ま、[3C404EFF]それはそれとしてにゃ。[3C404EFF]\n[3C404EFF]実は今日は、[3C404EFF]キミに相談があって、[3C404EFF]\n呼び出させてもらったにゃ。=Well, that's beside the point~nya. Actually, I have a favor to ask you today, and that's why I called you here~nya.
-[3C404EFF]ここの屋敷は、[3C404EFF]巷で暴利をむさぼる高利貸し、[3C404EFF]アクドーイの[3C404EFF]\n家だと言われているにゃ。=This mansion is said to belong to a usurer named Krook'd, who makes a fortune by exploiting people in the streets~nya.
-[3C404EFF]善人から不当に奪った財産で私腹を肥やす……[3C404EFF]\nきっと、[3C404EFF]義賊の天誅が下ってもしかたないやつにゃ！=He fattens his own pockets with the property he unjustly took from good people... surely, he deserves the divine punishment of a bandit~nya!
-[3C404EFF]で……[3C404EFF]ええと……[3C404EFF]\nそれとは関係ない話なんだけどにゃ……=So... um... this has nothing to do with that, but~nya...
-[3C404EFF]今日これからここの逃走経路……[3C404EFF]じゃなかった、[3C404EFF]ごほん、[3C404EFF]\n通路に人が通らないように、[3C404EFF]さりげなく見張っていてほしいにゃ。=I want you to keep an eye on this escape route...\nI mean, cough, this passage, and make sure no one passes through it casually~nya.
-[3C404EFF]え、[3C404EFF]なんでかってにゃ？　[3C404EFF]それは……[3C404EFF]\nええと……[3C404EFF]ちょっと、[3C404EFF]人に見られると[3C404EFF]\n恥ずかしい魔法の練習をするのにゃ。=Why, you ask~nya? That's because... um...\nI'm going to practice some magic that's embarrassing to be seen by people~nya.
-[3C404EFF]今晩はギルドのみんなも手が離せなくて……[3C404EFF]\nお願いにゃ！　[3C404EFF]頼まれてくれないかにゃ……？=Everyone in the guild is busy tonight... \nplease~nya! Won't you do me a favor~nya...?
-[3C404EFF]ほんとかにゃ！[3C404EFF]\n引き受けてくれるにゃ！？=Really~nya!\nYou'll accept it~nya!?
-[3C404EFF]とりあえず、[3C404EFF]あたしが戻ってくるまで、[3C404EFF]\nここで見張っててほしいにゃ。[3C404EFF]\n[3C404EFF]頼んだにゃ！=For now, I want you to keep an eye on this place until I come back~nya. I'm counting on you~nya!
-[3C404EFF]にゃーっ！　[3C404EFF]大漁、[3C404EFF]大漁♪=Nya-! A big catch, a big catch♪
-[3C404EFF]おまたー、[3C404EFF]にゃ！　[3C404EFF]見張り、[3C404EFF]ありがとうにゃ！=See you later~nya! Thanks for keeping watch~nya!
-[3C404EFF]細かいことを気にしたらダメにゃ！=Don't worry about the details~nya!
-[3C404EFF]さ、[3C404EFF]もうここに用事はないにゃ。[3C404EFF]\n早く離れるにゃ。=There's nothing more to do here~nya.\nLet's get away quickly~nya.
-[3C404EFF]いつまでぼーっとしてるにゃ？[3C404EFF]\n早く逃げないと見つかるにゃ……[3C404EFF]っとと。=How long are you going to space out~nya?\nHurry up and run or you'll get caught~nya...
-[3C404EFF]夜も遅くなってるし、[3C404EFF]早く帰らないと危ないにゃよ？[3C404EFF]\n[3C404EFF]にゃっ！=It's late at night, so it's dangerous if you don't go home soon~nya? Nya-!
-[3C404EFF]おっと、[3C404EFF]分かれ道に来たのにゃ。[3C404EFF]\n[3C404EFF]今日はこれで……=Oops, we came to a fork in the road~nya.\nThis is it for today...
 
-[3C404EFF]あたしのバイトのまかないとしてもらった、[3C404EFF]\n[3C404EFF]たい焼きの詰め合わせにゃ！=I got these as part of my part-time job, a set of taiyaki~nya!
-[3C404EFF]すっごく美味しいにゃ！[3C404EFF]\nきっとキミも気に入ってくれると思うのにゃ。=They're really delicious~nya! I'm sure you'll like them too~nya.
-[3C404EFF]それじゃあ、またにゃ！[3C404EFF]\n今日は[3C404EFF]本当にありがとにゃ～！=Well then, see you later~nya! Thank you so much for today~nya!
 
-[3C404EFF]奇跡のように[3C404EFF]かわいくてスタイル抜群で[3C404EFF]\n性格最高の美少女……？[3C404EFF]\n[3C404EFF]そ、[3C404EFF]そこまで期待を持たれても、[3C404EFF]その……=She's "miraculously cute, has an outstanding figure, and has the best personality...?" Y-You don't have to expect so much from me, um...
-[3C404EFF]にゃっ！？　[3C404EFF]そ、[3C404EFF]そこまで言い切っちゃうにゃ！？=Meow?! Y-You're so sure~nya?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

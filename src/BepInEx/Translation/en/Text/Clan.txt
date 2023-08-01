@@ -90,7 +90,6 @@ sr:"^([0-9]{1,2}月)の順位：$"=$1 Rank:
 クランバトル モード変更受付終了=Mode Change Request Closed.
 開催までお待ちください。=Please wait until CB ends.
 
-ンバー情報=ember Info
 メンバーリスト=Member List
 
 脱退=Leave
@@ -131,7 +130,7 @@ r:"^パーティ(\d+)と\n対戦$"=Party $1\nMatch
 確認する=Confirm
 パーティ総戦力=Party Power
 対戦する=Match
-あなた=you
+あなた=You
 現在の装備リクエストの状況です。=Status of current equipment request.
 寄付の情報がありません。=No donation info.
 現在の寄付数=Donations
@@ -140,8 +139,6 @@ r:"^パーティ(\d+)と\n対戦$"=Party $1\nMatch
 寄付状況=Donation Status
 寄付できる装備を所持していません。=You don't have equipment to donate.
 r:"^\[FF7C4E,D62146\]本日の残り寄付数は(\d+)です。\[-\]$"=[FF7C4E,D62146]$1 donations left today.[-]
-ラ=Ra
-ンキング=nking
 トレーニングモード解放中=Training Mode was Open
 sr:"^\[25CFDE,0E6C98\](\d+月)全クランランキング\[-\]$"=[25CFDE,0E6C98]Global Ranking($1)[-]
 ---Clan Battle---
@@ -186,7 +183,6 @@ r:"^トレーニング (\d)段階目$"=Training Tier $1
 バトルログ=Battle Log
 トレーニング\nモード=Training Mode
 トレーニング\\nモード=Training\\n Mode
-マイログ=My log
 バトル設定=Settings
 モンスターHPとバトル\n時間を本戦状態にする=Set HP and time to main status.
 模擬戦=Train
@@ -213,7 +209,7 @@ sr:"^(.+) (\d)段階目$"=Tier $2 $1
 討伐情報がありません。=No clear info.
 討伐情報がありません=No clear info.
 バトル情報がありません。=No battle info.
-獲得可能なアイテムがありません。=no items that can be obtained.
+獲得可能なアイテムがありません。=No items that can be obtained.
 モンスター詳細=Monster Details
 開催期間が終了しました=This Clan Battle is\nno longer in progress.
 ボスを選択してトレーニングバトルに挑戦できます。=Select a boss to challenge for training.
@@ -231,8 +227,7 @@ sr:"^(.+) (\d)段階目$"=Tier $2 $1
 バトル結果確認=Battle Result Confirmation
 このモンスターはすでに討伐されています。=This monster has already been defeated.
 ---討伐情報=Clear info---
-伐情報=onsters Clear info
-ピリオド=period
+ピリオド=Period
 sr:"^(\d+月)(\d+)日(\d{2})時(\d)分$"=$2 $1, $3:0$4
 sr:"^(\d+月)(\d+)日(\d)時(\d{2})分$"=$2 $1, 0$3:$4
 sr:"^(\d+月)(\d+)日(\d)時(\d)分$"=$2 $1, 0$3:0$4
@@ -413,7 +408,7 @@ r:"^(?:現在)?(\d+)(?:周|回)目(～)?$"=Lap $1$2
 sr:"^\[FF9393,E82F71\](\d+月)クラン内ランキング一覧\[-\]$"=[FF9393,E82F71]In-Clan Rankings ($1)[-]
 sr:"^(\d+月)全クランランキング$"=Global Ranking($1)
 ---My Log---
-イログ=y Log
+マイログ=My log
 r:"^模擬戦ログ保存件数([0-9/ ]+)$"=Number of mock battle logs saved: $1
 ---Battle Log detail windows---
 「１件のみ表示」は、同一編成のうちダメージが最も高いログを表示します。="Display only one" displays the log with the highest damage in the same line-up.
@@ -485,4 +480,4 @@ r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[
 クランに加入=Join a Clan
 クランに所属すると、\nクランバトルに挑戦することができます。=If you join to a Clan,\nyou can participate in Clan Battles.
 クランに所属すると、=If you join to a Clan,
-クランバトルに挑戦することができます。=you can participate in Clan Battles.
+クランバトルに挑戦することができます。=You can participate in Clan Battles.

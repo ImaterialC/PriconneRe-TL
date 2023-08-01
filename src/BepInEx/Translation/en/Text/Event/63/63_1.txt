@@ -9,312 +9,312 @@
 ブラドの案内で赴いた街で、住人の魔族に歓迎されるイリヤたち。力の完全復活に必要な「伝説の吸血鬼としての記憶」を思い出す傍ら、イリヤは王として数多の魔族が住むその地を治めることになる。=Brad guided Illya and the others towards the city, where they are welcomed by its residents of demons. To restore her powers, Illya will need to remember her "Memories of Being the Legendary Vampire”. And to do that, Illya will need to reign over the city as their ruler.
 
 かつて伝説の吸血鬼が支配していた地。\nそこを目指してイリヤたちは険しい道を進んでいた。=The Land Once Ruled by the Legendary Vampire. Illya and the others are heading there through a rugged path.
-[3C404EFF]かつて伝説の吸血鬼が支配していた地。[3C404EFF]\nそこを目指してイリヤたちは険しい道を進んでいた。=The Land Once Ruled by the Legendary Vampire. Illya and the others are heading there through a rugged path.
+
 
 イリヤ様、この先でございます。=Illya-sama, it's just ahead.
-[3C404EFF]イリヤ様、[3C404EFF]この先でございます。=Illya-sama, it's just ahead.
 
-r:"^(?:\[3C404EFF\])?うむ。(?:\[3C404EFF\])?\n足場が悪いのう……(?:\[3C404EFF\])?(.{2,10})よ、(?:\[3C404EFF\])?気をつけるのじゃぞ。$"=Hmm. The road is quite bad...$1, be careful.
 
-r:"^(?:\[3C404EFF\])?はぁ～、(?:\[3C404EFF\])?随分遠いとこにあるんだね、(?:\[3C404EFF\])?その場所ってさ。(?:\[3C404EFF\])?\nボク、(?:\[3C404EFF\])?疲れてきちゃったよ。(?:\[3C404EFF\])?ねぇ(.{2,10})さん、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ボクを(?:\[3C404EFF\])?お姫さまみたいに抱っこさせてあげるよ。$"=*sigh*, that place is pretty far away, isn't it? I'm starting to get tired. Hey, $1-san, could you carry me like a princess?
+r:"^うむ。\n足場が悪いのう……(.{2,10})よ、気をつけるのじゃぞ。$"=Hmm. The road is quite bad...$1, be careful.
+
+r:"^はぁ～、随分遠いとこにあるんだね、その場所ってさ。\nボク、疲れてきちゃったよ。ねぇ(.{2,10})さん、\nボクをお姫さまみたいに抱っこさせてあげるよ。$"=*sigh*, that place is pretty far away, isn't it? I'm starting to get tired. Hey, $1-san, could you carry me like a princess?
 
 やめぬか！　こやつはわらわの眷属じゃ！　勝手にイチャつくでないわ！\nそもそも！　我が眷属はともかく。\nユキ、なぜお主がついてきておるのじゃ？=Stop that! Don't just flirt in front of me, he's still my familiar! And why are you still following me in the first place?
-[3C404EFF]やめぬか！　[3C404EFF]こやつはわらわの眷属じゃ！　[3C404EFF]勝手にイチャつくでないわ！[3C404EFF]\n[3C404EFF]そもそも！　[3C404EFF]我が眷属はともかく。[3C404EFF]\n[3C404EFF]ユキ、[3C404EFF]なぜお主がついてきておるのじゃ？=Stop that! Don't just flirt in front of me, he's still my familiar! And why are you still following me in the first place?
+
 
 だってボク、まだ吸血鬼になってないんでしょ？\nもらった魔力だって、ボクの肌ツヤをよくした程度だしね。=I mean, I haven’t become a vampire yet, right? The magical power I got only made my skin smoother.
-[3C404EFF]だってボク、[3C404EFF]まだ吸血鬼になってないんでしょ？[3C404EFF]\n[3C404EFF]もらった魔力だって、[3C404EFF]ボクの肌ツヤをよくした程度だしね。=I mean, I haven’t become a vampire yet, right? The magical power I got only made my skin smoother.
+
 
 確かに、お主自身が吸血鬼になったという気配はないが……\nお主……人の身に余るほどの魔力を手にしておきながら、\n出てくる感想がそれか……？=It’s true that you don’t seem to be a vampire yet but...\nYou have more magical energy than what a human could handle, and that’s all you have to say about it?
-[3C404EFF]確かに、[3C404EFF]お主自身が吸血鬼になったという気配はないが……[3C404EFF]\n[3C404EFF]お主……[3C404EFF]人の身に余るほどの魔力を手にしておきながら、[3C404EFF]\n出てくる感想がそれか……？=It’s true that you don’t seem to be a vampire yet but... You have more magical energy than what a human could handle, and that’s all you have to say about it?
+
 
 ユキらしいね。=That's just like you, Yuki.
 
 そうなのじゃな……\nわらわも長年生きていろいろなものを見てきたが、\nまだまだ新しい発見があるものじゃなぁ……=Is that so...? I've lived for many years and seen many things, but it seems that I can still discover something new...
-[3C404EFF]そうなのじゃな……[3C404EFF]\n[3C404EFF]わらわも長年生きて[3C404EFF]いろいろなものを見てきたが、[3C404EFF]\n[3C404EFF]まだまだ新しい発見があるものじゃなぁ……=Is that so...? I've lived for many years and seen many things, but it seems that I can still discover something new...
+
 
 長い時の中で出会った、\n最高の美として記憶しておくといいよ♪=You should remember me as the greatest beauty you've met in a long time♪
-[3C404EFF]長い時の中で出会った、[3C404EFF]\n最高の美として記憶しておくといいよ♪=You should remember me as the greatest beauty you've met in a long time♪
+
 
 ……ふん、最高の美とは片腹痛い。\nそれはお主たち人間の尺度であろう？\nこの世で最も美しいのは、偉大なるこのわらわじゃ！=...Hmph, greatest beauty is absurd. Isn't that just within the standards of humans? After all, the most beautiful thing in the world is the great me!
-[3C404EFF]……ふん、[3C404EFF]最高の美とは片腹痛い。[3C404EFF]\n[3C404EFF]それは[3C404EFF]お主たち人間の尺度であろう？[3C404EFF]\n[3C404EFF]この世で最も美しいのは、[3C404EFF]偉大なるこのわらわじゃ！=...Hmph, greatest beauty is absurd. Isn't that just within the standards of humans? After all, the most beautiful thing in the world is the great me!
+
 
 ……むっ。\n面白いね……このボクと美を競おうっていうの？=...Hmm. Interesting... Are you trying to compete with me in beauty?
-[3C404EFF]……むっ。[3C404EFF]\n面白いね……[3C404EFF]このボクと美を競おうっていうの？=...Hmm. Interesting... Are you trying to compete with me in beauty?
+
 
 ふっ、結果は分かりきっておるがな。\n幸い、ここには素直さに定評のある我が眷属がおる。\nこやつに聞いてみるのはどうじゃ？=Heh, I already know how that'd end. Fortunately, there is a familiar here who's renowned for being honest. Why don't we ask him?
-[3C404EFF]ふっ、[3C404EFF]結果は分かりきっておるがな。[3C404EFF]\n[3C404EFF]幸い、[3C404EFF]ここには素直さに定評のある我が眷属がおる。[3C404EFF]\nこやつに聞いてみるのはどうじゃ？=Heh, I already know how that'd end. Fortunately, there is a familiar here who's renowned for being honest. Why don't we ask him?
+
 
 いいんじゃないかな。まぁこの人はすでにボクの虜なんだけどね？\nいやぁ、申し訳ないよ。\n伝説に泥を塗ることになってしまって。=That's fine with me. It's just that he's already a captive of my beauty, you know? Oh, I'm really sorry, I wouldn't want to paint a bad name on the legend herself.
-[3C404EFF]いいんじゃないかな。[3C404EFF]まぁ[3C404EFF]この人はすでに[3C404EFF]ボクの虜なんだけどね？[3C404EFF]\n[3C404EFF]いやぁ、[3C404EFF]申し訳ないよ。[3C404EFF]\n伝説に泥を塗ることになってしまって。=That's fine with me. It's just that he's already a captive of my beauty, you know? Oh, I'm really sorry, I wouldn't want to paint a bad name on the legend herself.
 
-r:"^(?:\[3C404EFF\])?(.{2,10})！\n(.{2,10})さん！$"=$1!\n$1-san!
+
+r:"^(.{2,10})！\n(.{2,10})さん！$"=$1!\n$1-san!
 どっちが美しい！？=Which of us is more beautiful?!
-[3C404EFF]どっちが美しい！？=Which of us is more beautiful?!
+
 
 
 イリヤ。=Illya.
 
 それ見たことか！\nやはりお主は最も優秀な眷属じゃな！\n褒めて遣わす！　ほれ、近うよれ、愛いやつ愛いやつ……♪=Is that so! You really are an exceptional familiar! Come closer, I shall praise you!
-[3C404EFF]それ見たことか！[3C404EFF]\nやはりお主は[3C404EFF]最も優秀な眷属じゃな！[3C404EFF]\n褒めて遣わす！　[3C404EFF]ほれ、[3C404EFF]近うよれ、[3C404EFF]愛いやつ愛いやつ……♪=See! He really is an exceptional familiar! Come closer, I shall praise you!
+
 
 なるほど、そういうことか……あえてボクを選ばないことで、\n悔しがるボクを見たかったんだね？\nこんな意地悪な駆け引きができたんだね、キミってば。=I see how it is... You just wanted to see me frustrated, right? You're such a bully♪
-[3C404EFF]なるほど、[3C404EFF]そういうことか……[3C404EFF]あえてボクを選ばないことで、[3C404EFF]\n悔しがるボクを見たかったんだね？[3C404EFF]\n[3C404EFF]こんな意地悪な駆け引きができたんだね、[3C404EFF]キミってば。=I see how it is... You just wanted to see me frustrated, right? You're such a bully♪
+
 
 無敵かこやつ。=He's tougher than I thought.
-[3C404EFF]無敵かこやつ。=He's tougher than I thought.
+
 
 ユキ。=Yuki.
-[3C404EFF]ま、[3C404EFF]そうだろうね。[3C404EFF]当たり前の結果に言うべきことなんてないよ。[3C404EFF]\n[3C404EFF]もしボクを選ばなかったら、[3C404EFF]ボクの美しさを[3C404EFF]耳元で囁き続けて[3C404EFF]\nあげようかと思ってたけど、[3C404EFF]その必要はなかったみたいだね♪=Well, that's to be expected. I've nothing to say about such an obvious outcome. In the off chance you hadn't chosen me then I would've spelled my beauty to your ears over and over, but it seems you really don't need it♪
-[3C404EFF]...I see.[3C404EFF]\nお主、[3C404EFF]選ばなかったら面倒なことになるのが分かっとったんじゃな。[3C404EFF]\n[3C404EFF]酷な選択をさせてすまなかった。[3C404EFF]危機回避は大事じゃな、[3C404EFF]賢い眷属じゃ。=...I see. If you didn't choose him, it would've been very troublesome for you. I'm realy sorry for putting you on the spot. You're a smart familiar for putting your safety first.
+
+
 
 二人とも美しい。=You're both beautiful.
-[3C404EFF]ちゃんと選ばんかい！\nちゃんと選びなよ！=Don't avoid the question!\nDon't avoid the question!
+
 
 ご歓談の最中、申し訳ありません。\n間もなく──到着にございます。=I apologize for interrupting your pleasantries. We will be arriving shortly.
-[3C404EFF]ご歓談の最中、[3C404EFF]申し訳ありません。[3C404EFF]\n[3C404EFF]間もなく──[3C404EFF]到着にございます。=I apologize for interrupting your pleasantries. We will be arriving shortly.
+
 
 ここがかつて、伝説の吸血鬼……わらわがおった地……？=So this is where the legendary vampire once ruled... where I once ruled...?
-[3C404EFF]ここがかつて、[3C404EFF]伝説の吸血鬼……[3C404EFF]わらわがおった地……？=So this is where the legendary vampire once ruled... where I once ruled...?
+
 
 へぇ、ちゃんとした街だね。\n今のボクのファッションにぴったりな雰囲気じゃないか♪=Wow, what a proper city. And it's just perfect mood for my current fashion. ♪
-[3C404EFF]へぇ、[3C404EFF]ちゃんとした街だね。[3C404EFF]\n[3C404EFF]今のボクのファッションにぴったりな雰囲気じゃないか♪=Wow, what a proper city. And it's just perfect mood for my current fashion. ♪
+
 
 ようこそお越しくださいました。\nいえ──おかえりなさいませ、と言うべきですな。=Welcome to the city. Or rather── Welcome back.
-[3C404EFF]ようこそお越しくださいました。[3C404EFF]\n[3C404EFF]いえ──[3C404EFF]おかえりなさいませ、[3C404EFF]と言うべきですな。=Welcome to the city. Or rather── Welcome back.
+
 
 この雰囲気……確かに懐かしいような気はする。\nじゃが、やはりはっきりとは思い出せんな……=This atmosphere... Certainly, it does feel nostalgic. But sure enough, I still can't remember it clearly...
-[3C404EFF]この雰囲気……[3C404EFF]確かに懐かしいような気はする。[3C404EFF]\n[3C404EFF]じゃが、[3C404EFF]やはりはっきりとは思い出せんな……=This atmosphere... Certainly, it does feel nostalgic. But sure enough, I still can't remember it clearly...
+
 
 ──グオオオオオッ！=Guoooooooh!
 
 街の入り口に魔物の群れじゃと！？\nブラド貴様、わらわをたばかりおったか！？=A swarm of monsters in the entrance of the city?! Did you set us up, Brad?!
-[3C404EFF]街の入り口に[3C404EFF]魔物の群れじゃと！？[3C404EFF]\n[3C404EFF]ブラド[3C404EFF]貴様、[3C404EFF]わらわをたばかりおったか！？=A swarm of monsters in the entrance of the city?! Did you set us up, Brad?!
+
 
 滅相もない──彼らはこの街の住民にございます。=Don't be absurd, they are residents of this city.
-[3C404EFF]滅相もない──[3C404EFF]彼らはこの街の住民にございます。=Don't be absurd, they are residents of this city.
+
 
 住民……魔物たちの街なの？\nそれってボクたちが入って大丈夫？=Residents... Is this a city of monsters? Is it even okay for us to enter?
-[3C404EFF]住民……[3C404EFF]魔物たちの街なの？[3C404EFF]\nそれって[3C404EFF]ボクたちが入って大丈夫？=Residents... Is this a city of monsters? Is it even okay for us to enter?
+
 
 ご安心ください。\nこの場にイリヤ様に牙を剝く者など決しておりません。\nどうぞよく耳を傾けてみてくださいませ。今のあなた様なら──=Please rest assured. In this place, no one will dare to bare their fangs to Illya-sama. Now please put your ears closer──
-[3C404EFF]ご安心ください。[3C404EFF]\nこの場にイリヤ様に牙を剝く者など決しておりません。[3C404EFF]\n[3C404EFF]どうぞよく耳を傾けてみてくださいませ。[3C404EFF]今のあなた様なら──=Please rest assured. In this place, no one will dare to bare their fangs to Illya-sama. Now please put your ears closer──
+
 
 耳を……？=My ears...?
-[3C404EFF]耳を……？=My ears...?
+
 
 ようこそお越しくださいました！=Welcome! Thank you for coming!
-[3C404EFF]ようこそお越しくださいました！=Welcome! Thank you for coming!
+
 
 魔物の声が聞こえおった！\nこれも力が戻っておるからか……？=I can hear the monsters voices! Is this also because my power has returned...?
-[3C404EFF]魔物の声が聞こえおった！[3C404EFF]\nこれも[3C404EFF]力が戻っておるからか……？=I can hear the monsters voices! Is this also because my power has returned...?
+
 
 ほんとだ。\nみんな美しいボクを歓迎してくれてるね♪=Oh you're right♪ Everyone is welcoming my beauty♪
-[3C404EFF]ほんとだ。[3C404EFF]\n[3C404EFF]みんな[3C404EFF]美しいボクを歓迎してくれてるね♪=Oh you're right♪ Everyone is welcoming my beauty♪
+
 
 お主を歓迎しとるわけではないと思うぞ……？\nというか、お主も魔物の声が聞けるのか？=I don’t think they're welcoming you... Actually, can you even hear these monsters?
-[3C404EFF]お主を歓迎しとるわけではないと思うぞ……？[3C404EFF]\n[3C404EFF]というか、[3C404EFF]お主も魔物の声が聞けるのか？=I don’t think they're welcoming you... Actually, can you even hear these monsters?
+
 
 うん。\nバッチリ聞こえてるよ？\nみんながボクの美を称えているじゃないか♪=Yeah. I can hear them perfectly. Everyone's praising my beauty, aren't they♪
-[3C404EFF]うん。[3C404EFF]\nバッチリ聞こえてるよ？[3C404EFF]\nみんなが[3C404EFF]ボクの美を称えているじゃないか♪=Yeah. I can hear them perfectly. Everyone's praising my beauty, aren't they♪
+
 
 うむ。ほんとに聞こえとるかどうか分からんから、\n少しくらいいつもの言動を控えてくれぬか。=Yep. I still don't know if you could actually hear them. Can't you tone down your usual behavior just a bit?
-[3C404EFF]うむ。[3C404EFF]ほんとに聞こえとるかどうか分からんから、[3C404EFF]\n少しくらいいつもの言動を控えてくれぬか。=Yep. I still don't know if you could actually hear them. Can't you tone down your usual behavior just a bit?
+
 
 ただの人間であるユキにまでこのような能力をもたらすとは、\nこの魔力が特別なものであることは間違いないようじゃな……=To think that even a mere human like Yuki would be able... There's no doubt that this magical power is special...
-[3C404EFF]ただの人間であるユキにまで[3C404EFF]このような能力をもたらすとは、[3C404EFF]\n[3C404EFF]この魔力が特別なものであることは[3C404EFF]間違いないようじゃな……=To think that even a mere human like Yuki would be able... There's no doubt that this magical power is special...
+
 
 ニンゲン、弱そうなニンゲンがいるぞー！=A human! There's a weak-looking human!
-[3C404EFF]ニンゲン、[3C404EFF]弱そうなニンゲンがいるぞー！=A human! There's a weak-looking human!
+
 
 追い出せー！=Let's throw him out!
-[3C404EFF]追い出せー！=Let's throw him out!
+
 
 ここは魔の者のすみかだぞー！=This is the demon's home!
-[3C404EFF]ここは魔の者のすみかだぞー！=This is the demon's home!
 
-r:"^(?:\[3C404EFF\])?ふふっ、(?:\[3C404EFF\])?(.{2,10})さんも大人気だね。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?そんなに魔物たちに囲まれるなんて。$"=Heehee. You're so popular, $1-san. I didn't think you'd be surrounded by so many monsters.
 
-r:"^(?:\[3C404EFF\])?そうじゃった！(?:\[3C404EFF\])?\n.{2,10}は魔力も何もないんじゃったな！？$"=Oh right! You don't have any magical energy!
+r:"^ふふっ、(.{2,10})さんも大人気だね。\nそんなに魔物たちに囲まれるなんて。$"=Heehee. You're so popular, $1-san. I didn't think you'd be surrounded by so many monsters.
+
+r:"^そうじゃった！\n.{2,10}は魔力も何もないんじゃったな！？$"=Oh right! You don't have any magical energy!
 
 やめよ！=Stop it!
-[3C404EFF]やめよ！=Stop it!
+
 
 こやつはわらわの大切な眷属じゃ！\n手を出すことは許さぬ。=He's my precious familiar! I won't allow you to lay a finger on him.
-[3C404EFF]こやつは[3C404EFF]わらわの大切な眷属じゃ！[3C404EFF]\n[3C404EFF]手を出すことは許さぬ。=He's my precious familiar! I won't allow you to lay a finger on him.
+
 
 ケンゾク……！\n伝説の吸血鬼様の……！？=Familiar...! The legendary vampire's...!?
-[3C404EFF]ケンゾク……！[3C404EFF]\n伝説の吸血鬼様の……！？=Familiar...! The legendary vampire's...!?
+
 
 その通りじゃ！\nそれにゆくゆくは、わらわの──=That's right! And eventually, become my──
-[3C404EFF]その通りじゃ！[3C404EFF]\n[3C404EFF]それに[3C404EFF]ゆくゆくは、[3C404EFF]わらわの──=That's right! And eventually, become my──
+
 
 ボクの美の最高の理解者だよ♪\nみんな、この人からボクの魅力の引き立て方を学ぶといいよ。=He's the one who understands my beauty the best♪ Everyone, you should learn from him on how to compliment my beauty.
-[3C404EFF]ボクの美の最高の理解者だよ♪[3C404EFF]\n[3C404EFF]みんな、[3C404EFF]この人から[3C404EFF]ボクの魅力の引き立て方を学ぶといいよ。=He's the one who understands my beauty the best♪ Everyone, you should learn from him on how to compliment my beauty.
+
 
 ははーっ！=Hahaaa!
-[3C404EFF]ははーっ！=Hahaaa!
+
 
 なぜユキに従う！？\nそっちもただの人間じゃぞ！？=Why are you guys going along with him! Isn't he just a normal human!?
-[3C404EFF]なぜユキに従う！？[3C404EFF]\nそっちもただの人間じゃぞ！？=Why are you guys going along with him! Isn't he just a normal human!?
+
 
 美しいからさ！=Because I'm beautiful!
-[3C404EFF]美しいからさ！=Because I'm beautiful!
+
 
 言うと思ったわ！\n……はぁ。もうよい。\nなぜわらわがツッコミまくらねばならんのじゃ。=Knew you'd say that! ...*sigh* I had enough. Why do I have to keep playing the straight man?
-[3C404EFF]言うと思ったわ！[3C404EFF]\n[3C404EFF]……はぁ。[3C404EFF]もうよい。[3C404EFF]\n[3C404EFF]なぜわらわがツッコミまくらねばならんのじゃ。=Knew you'd say that! ...*sigh* I had enough. Why do I have to keep playing the straight man?
+
 
 いいコンビだね。=You two make a good pair.
 
 ……ふっ……=...Heh.
-[3C404EFF]……ふっ……=...Heh.
+
 
 お主、いい笑顔で言えばいい話になると思うてないか？\nこんなのとコンビにせんでくれ、本当に頼むから。=Do you think just saying that with a big smile is enough to make that a good thing? Please never pair me with him again, I'm begging you.
-[3C404EFF]お主、[3C404EFF]いい笑顔で言えばいい話になると思うてないか？[3C404EFF]\n[3C404EFF]こんなのとコンビにせんでくれ、[3C404EFF]本当に頼むから。=Do you think just saying that with a big smile is enough to make that a good thing? Please never pair me with him again, I'm begging you.
+
 
 ねぇねぇ、そろそろ休めるところに行かない？\nボク、喉が渇いちゃったよ。肌が乾燥しちゃうじゃないか。=Hey, can we hurry up and find a place to rest? I'm thirsty and my skin's going to get dry.
-[3C404EFF]ねぇねぇ、[3C404EFF]そろそろ休めるところに行かない？[3C404EFF]\nボク、[3C404EFF]喉が渇いちゃったよ。[3C404EFF]肌が乾燥しちゃうじゃないか。=Hey, can we hurry up and find a place to rest? I'm thirsty and my skin's going to get dry.
+
 
 マイペースか！=You sure move at your own pace!
-[3C404EFF]マイペースか！=You sure move at your own pace!
+
 
 おお、これは配慮が行き届かず、失礼いたしました。\nそれでは参りましょうか。\n──イリヤ様に相応しき場所へ。=Oh, my apologies for not being considerate. Well, shall we go? To a place befitting for Illya-sama.
-[3C404EFF]おお、[3C404EFF]これは配慮が行き届かず、[3C404EFF]失礼いたしました。[3C404EFF]\n[3C404EFF]それでは参りましょうか。[3C404EFF]\n──イリヤ様に相応しき場所へ。=Oh, my apologies for not being considerate. Well, shall we go? To a place befitting for Illya-sama.
+
 
 こちらがかつて、伝説の吸血鬼が居を構えていらした城にございます。=This is the castle where the legendary vampire once resided.
-[3C404EFF]こちらがかつて、[3C404EFF]伝説の吸血鬼が居を構えていらした城にございます。=This is the castle where the legendary vampire once resided.
+
 
 ……わらわが眠っていたあの城によく似ておるな。=...This place looks a lot like my own castle.
-[3C404EFF]……わらわが眠っていたあの城に[3C404EFF]よく似ておるな。=...This place looks a lot like my own castle.
+
 
 ええ、そうでしょう。\n他ならぬ、イリヤ様が御座した場所なのですから。=Yes, that’s right. After all, this is where Illya-sama once lived.
-[3C404EFF]ええ、[3C404EFF]そうでしょう。[3C404EFF]\n他ならぬ、[3C404EFF]イリヤ様が御座した場所なのですから。=Yes, that’s right. After all, this is where Illya-sama once lived.
+
 
 なんかボロくない？　美しさが足りないよ。\nまぁ、美しすぎるボクとバランスが取れてちょうどいいかもね。=Isn't it kind of shabby? It's quite lacking in beauty. Well, considering I'm too beautiful to begin with it kinda balances out.
-[3C404EFF]なんかボロくない？　[3C404EFF]美しさが足りないよ。[3C404EFF]\n[3C404EFF]まぁ、[3C404EFF]美しすぎるボクとバランスが取れてちょうどいいかもね。=Isn't it kind of shabby? It's quite lacking in beauty. Well, considering I'm too beautiful to begin with it kinda balances out.
+
 
 バランスを取りに行くパターンもあるんじゃな。=I guess you're used to balancing things out with your beauty.
-[3C404EFF]バランスを取りに行くパターンもあるんじゃな。=I guess you're used to balancing things out with your beauty.
+
 
 街の方は魔物たちと共に修復したのですが、\nこの城だけはそのままにしているのですよ。\n……時の流れを、断ち切らぬように。=The city has been repaired along with the monsters, but this castle has been left as is.\n ...It's as if it's been cut from the flow of time itself.
-[3C404EFF]街の方は魔物たちと共に修復したのですが、[3C404EFF]\n[3C404EFF]この城だけはそのままにしているのですよ。[3C404EFF]\n……[3C404EFF]時の流れを、[3C404EFF]断ち切らぬように。=The city has been repaired along with the monsters, but this castle has been left as is.\n ...It's as if it's been cut from the flow of time itself.
+
 
 ……ブラドよ。もうそろそろよかろう。\nお主の言う通りに出向いてやったのじゃ。\nわらわの完全復活に足りないものについて、話すがよい。=...Brad, it's about time. I've come to this place as you've said, now tell me about how to restore my power.
-[3C404EFF]……ブラドよ。[3C404EFF]もうそろそろよかろう。[3C404EFF]\n[3C404EFF]お主の言う通りに出向いてやったのじゃ。[3C404EFF]\nわらわの完全復活に足りないものについて、[3C404EFF]話すがよい。=...Brad, it's about time. I've come to this place as you've said, now tell me about how to restore my power.
+
 
 ……イリヤ様。あなた様はかつて、\n神々との戦いにおいて封印されてしまった、と伝えられています。=...Illya-sama. It is said that you were once sealed in the battle against the gods.
-[3C404EFF]……イリヤ様。[3C404EFF]あなた様はかつて、[3C404EFF]\n神々との戦いにおいて封印されてしまった、[3C404EFF]と伝えられています。=...Illya-sama. It is said that you were once sealed in the battle against the gods.
+
 
 魔族の間ではそう伝わっている、とヨリたちも言っておったな。\nおとぎ話だとも言うておったが。=Yori and the others also said it was a story that spread amongst the demons. They also said it was a fairy tale.
-[3C404EFF]魔族の間ではそう伝わっている、[3C404EFF]とヨリたちも言っておったな。[3C404EFF]\n[3C404EFF]おとぎ話だとも言うておったが。=Yori and the others also said it was a story that spread amongst the demons. They also said it was a fairy tale.
+
 
 ……私はその伝説について、ずっと調べていたのです。\n各地を巡り、伝説の吸血鬼に関する文献や痕跡を探し続け──\nその旅の果てに見つけたのが、この地にございます。=...I've been investigating that legend for a long time. I've traveled all over the place, searching for documents and traces of the legendary vampire── and at the end of that journey, I finally found this place.
-[3C404EFF]……私はその伝説について、[3C404EFF]ずっと調べていたのです。[3C404EFF]\n[3C404EFF]各地を巡り、[3C404EFF]伝説の吸血鬼に関する文献や痕跡を探し続け──[3C404EFF]\nその旅の果てに見つけたのが、[3C404EFF]この地にございます。=...I've been investigating that legend for a long time. I've traveled all over the place, searching for documents and traces of the legendary vampire── and at the end of that journey, I finally found this place.
+
 
 伝説の吸血鬼が支配し、多くの魔族、魔物たちを率いて、\nやがて──神々との戦いに臨んだ街。=A place once ruled by the legendary vampire, where many demons and monsters were once led, and it is the city where the battle against the gods took place.
-[3C404EFF]伝説の吸血鬼が支配し、[3C404EFF]多くの魔族、[3C404EFF]魔物たちを率いて、[3C404EFF]\nやがて──[3C404EFF]神々との戦いに臨んだ街。=A place once ruled by the legendary vampire, where many demons and monsters were once led, and it is the city where the battle against the gods took place.
+
 
 ここは、そういった場所なのです。=This place is where all of those happened.
-[3C404EFF]ここは、[3C404EFF]そういった場所なのです。=This place is where all of those happened.
+
 
 この地に関するいわくは分かった。\nじゃが、やはりわらわには実感がない。\nその真偽を語る術も持ってはおらぬ。=I get what you're trying to say, but honestly I still can't believe it. I don't have any means of confirming what you said either.
-[3C404EFF]この地に関するいわくは分かった。[3C404EFF]\n[3C404EFF]じゃが、[3C404EFF]やはりわらわには実感がない。[3C404EFF]\n[3C404EFF]その真偽を語る術も持ってはおらぬ。=I get what you're trying to say, but honestly I still can't believe it. I don't have any means of confirming what you said either.
+
 
 ええ、そうなのでしょう。\nその原因は……かつての戦いによる、封印が関係しているのかと。=Yes, that's right. The reason for that is... the battle that once happened here is related to the sealing itself.
-[3C404EFF]ええ、[3C404EFF]そうなのでしょう。[3C404EFF]\n[3C404EFF]その原因は……[3C404EFF]かつての戦いによる、[3C404EFF]封印が関係しているのかと。=Yes, that's right. The reason for that is... the battle that once happened here is related to the sealing itself.
+
 
 そう、そのお姿が……魔力が戻っただけでは、\n伝説の吸血鬼の完全復活とはいえぬのです……！\nあなた様は思い出さなくてはならない、かの伝説のすべてを……！=Which means... Even if you've reclaimed your magical energy and outfit, it's not enough to call it a full restoration...! You must remember it, everything about the legendary vampire!
-[3C404EFF]そう、[3C404EFF]そのお姿が……[3C404EFF]魔力が戻っただけでは、[3C404EFF]\n伝説の吸血鬼の完全復活とはいえぬのです……！[3C404EFF]\n[3C404EFF]あなた様は思い出さなくてはならない、[3C404EFF]かの伝説のすべてを……！=Which means... Even if you've reclaimed your magical energy and outfit, it's not enough to call it a full restoration...! You must remember it, everything about the legendary vampire!
+
 
 思い出す……わらわのすべてを……？=Remember... everything about me...?
-[3C404EFF]思い出す……[3C404EFF]わらわのすべてを……？=Remember... everything about me...?
+
 
 あの時聞いた声は、わらわの記憶じゃというのか……？　=Was that voice I heard, a part of my memory...?　
-[3C404EFF]あの時聞いた声は、[3C404EFF]わらわの記憶じゃというのか……？　=Was that voice I heard, a part of my memory...?　
+
 
 伝説とかなんとかはよくわかんないけどさー、具体的にはどうするわけ？\n記憶喪失って簡単に治らないみたいだよ。\n……ね？=I don't quite get about legends and the likes, but what exactly are you going to do? Amnesia doesn't seem to heal easily... right?
-[3C404EFF]伝説とかなんとかはよくわかんないけどさー、[3C404EFF]具体的にはどうするわけ？[3C404EFF]\n[3C404EFF]記憶喪失って簡単に治らないみたいだよ。[3C404EFF]\n[3C404EFF]……ね？=I don't quite get about legends and the likes, but what exactly are you going to do? Amnesia doesn't seem to heal easily... right?
+
 
 力強く頷く。=Nods firmly.
 
 凄い説得力じゃのう……=You look very confident...
-[3C404EFF]凄い説得力じゃのう……=You look very confident...
+
 
 ご心配には及びません、道筋ならばとうに整っております。\nイリヤ様──どうぞ、こちらの玉座にお座りください。=There's no need to worry. I've already arranged a method for that. Illya-sama, please sit on this throne.
-[3C404EFF]ご心配には及びません、[3C404EFF]道筋ならばとうに整っております。[3C404EFF]\n[3C404EFF]イリヤ様──[3C404EFF]どうぞ、[3C404EFF]こちらの玉座にお座りください。=There's no need to worry. I've already arranged a method for that. Illya-sama, please sit on this throne.
+
 
 ここに座ればよいのか？\n……ふむ、なかなかいい座り心地ではないか。=Do I just sit here? ...Hmm, it's a pretty good throne.
-[3C404EFF]ここに座ればよいのか？[3C404EFF]\n[3C404EFF]……ふむ、[3C404EFF]なかなかいい座り心地ではないか。=Do I just sit here? ...Hmm, it's a pretty good throne.
+
 
 皆の者、集結せよ！=Everyone, gather!
-[3C404EFF]皆の者、[3C404EFF]集結せよ！=Everyone, gather!
+
 
 はっ！=Ha!
-[3C404EFF]はっ！=Ha!
+
 
 んっ！？=Hmm?!
-[3C404EFF]んっ！？=Hmm?!
+
 
 ここに再び！\nかつてこの世界を震撼させた伝説の吸血鬼、\nイリヤ・オーンスタイン様が降臨された！=Once again! The legendary vampire who once shook this world, Illya-sama Ornstein, has descended!
-[3C404EFF]ここに再び！[3C404EFF]\nかつてこの世界を震撼させた[3C404EFF]伝説の吸血鬼、[3C404EFF]\nイリヤ・オーンスタイン様が降臨された！=Once again! The legendary vampire who once shook this world, Illya-sama Ornstein, has descended!
+
 
 夜に生き、闇に潜む魔の者たちよ！\n頭を垂れよ！=Demons who live in the night and monsters lurking in the darkness! Bow your heads!
-[3C404EFF]夜に生き、[3C404EFF]闇に潜む魔の者たちよ！[3C404EFF]\n頭を垂れよ！=Demons who live in the night and monsters lurking in the darkness! Bow your heads!
+
 
 待て待て待てい！\nどういうことじゃ、これはどういう流れじゃ！？=Wait, wait, wait! What's going on? What's this for!?
-[3C404EFF]待て待て待てい！[3C404EFF]\nどういうことじゃ、[3C404EFF]これはどういう流れじゃ！？=Wait, wait, wait! What's going on? What's this for!?
+
 
 無論。\nイリヤ様が伝説の吸血鬼として完全復活するための道筋にございます。=Naturally, this is my method of helping Illya-sama remember her memories of being a legendary vampire.
-[3C404EFF]無論。[3C404EFF]\nイリヤ様が伝説の吸血鬼として[3C404EFF]完全復活するための道筋にございます。=Naturally, this is my method of helping Illya-sama remember her memories of being a legendary vampire.
+
 
 伝説の吸血鬼、イリヤ・オーンスタイン様。\n今からあなた様はかつてと同じように魔族、魔物を率い、\nこの街の主として、我々の王として君臨するのです……！=The legendary vampire, Illya Ornstein-sama. From this point onward, you will lead the demons and monsters as you once did and reign as the ruler of this city...!
-[3C404EFF]伝説の吸血鬼、[3C404EFF]イリヤ・オーンスタイン様。[3C404EFF]\n今からあなた様はかつてと同じように[3C404EFF]魔族、[3C404EFF]魔物を率い、[3C404EFF]\nこの街の主として、[3C404EFF]我々の王として[3C404EFF]君臨するのです……！=The legendary vampire, Illya Ornstein-sama. From this point onward, you will lead the demons and monsters as you once did and reign as the ruler of this city...!
+
 
 な、なんじゃと！？\n……ちなみに、この街には今どのくらい魔物たちがおるのじゃ……？=Wh-What?! ...By the way, how many monsters are there in this city right now...?
-[3C404EFF]な、[3C404EFF]なんじゃと！？[3C404EFF]\n……ちなみに、[3C404EFF]この街には[3C404EFF]今どのくらい魔物たちがおるのじゃ……？=Wh-What?! ...By the way, how many monsters are there in this city right now...?
+
 
 千は超えているかと。\n……少なくて申し訳ありません。\nかつては、数万はくだらぬ軍勢をお持ちでしたでしょうに……！=It's only slightly over a thousand... I'm very sorry there's only so little considering you once had an army in the tens of thousands.
-[3C404EFF]千は超えているかと。[3C404EFF]\n[3C404EFF]……少なくて申し訳ありません。[3C404EFF]\nかつては、[3C404EFF]数万はくだらぬ軍勢をお持ちでしたでしょうに……！=It's only slightly over a thousand... I'm very sorry there's only so little considering you once had an army in the tens of thousands.
+
 
 ……お、おぉ……=...O-Ohhh...
-[3C404EFF]……お、[3C404EFF]おぉ……=...O-Ohhh...
+
 
 どうしたの？=What's wrong?
 
 いや、なんというか……起きてから今に至るまで、\nここまで多くの部下は持っておらんかったじゃろ？\nお主を含めて６人程度だったわけじゃし。=No, how should I put it... From the time I woke till now, I've never had this many subordinates before. Including you, I only had 6 subordinates before.
-[3C404EFF]いや、[3C404EFF]なんというか……[3C404EFF]起きてから今に至るまで、[3C404EFF]\nここまで多くの部下は持っておらんかったじゃろ？[3C404EFF]\nお主を含めて[3C404EFF]６人程度だったわけじゃし。=No, how should I put it... From the time I woke till now, I've never had this many subordinates before. Including you, I only had 6 subordinates before.
+
 
 それが急に千ともなると……\nなんというか……少し驚いておるのじゃ。=To see it grow to over a thousand... I'm just a little surprised.
-[3C404EFF]それが急に千ともなると……[3C404EFF]\nなんというか……[3C404EFF]少し驚いておるのじゃ。=To see it grow to over a thousand... I'm just a little surprised.
+
 
 ……だというのに。=...and even though I say that.
-[3C404EFF]……だというのに。=...and even though I say that.
+
 
 ふふん♪=Heheh♪
-[3C404EFF]ふふん♪=Heheh♪
+
 
 なぜこやつはわらわよりも堂々としておるのじゃ？=Why is he more confident than I am?
-[3C404EFF]なぜこやつはわらわよりも堂々としておるのじゃ？=Why is he more confident than I am?
+
 
 ねぇ……あれって誰なの？\nイリヤ様の隣でふんぞり返ってるニンゲン……=Hey... Who's that? That arrogant human next to Illya-sama...
-[3C404EFF]ねぇ……[3C404EFF]あれって誰なの？[3C404EFF]\nイリヤ様の隣でふんぞり返ってるニンゲン……=Hey... Who's that? That arrogant human next to Illya-sama...
+
 
 さぁ……なんかすごく態度がでかいね……\n凄いお方、なのかも……？=Who knows... seems to have a big attitude, so... maybe it's someone important...?
-[3C404EFF]さぁ……[3C404EFF]なんかすごく態度がでかいね……[3C404EFF]\n凄いお方、[3C404EFF]なのかも……？=Who knows... seems to have a big attitude, so... maybe it's someone important...?
+
 
 そうだよな。\n凄くないと、あんな態度できないよな……？=Sounds right. You can't act like that unless you're important, right...?
-[3C404EFF]そうだよな。[3C404EFF]\n凄くないと、[3C404EFF]あんな態度できないよな……？=Sounds right. You can't act like that unless you're important, right...?
+
 
 ふふっ♪\nボクが美しすぎるからって目を背けることはないんだよ。\nさぁ、もっとボクの美を目に焼き付けるといいよ……♪=Hehe♪ You don't have to look away just because I'm too beautiful. Now, burn my beauty into your eyes more♪
-[3C404EFF]ふふっ♪[3C404EFF]\nボクが美しすぎるからって[3C404EFF]目を背けることはないんだよ。[3C404EFF]\nさぁ、[3C404EFF]もっとボクの美を目に焼き付けるといいよ……♪=Hehe♪ You don't have to look away just because I'm too beautiful. Now, burn my beauty into your eyes more♪
+
 
 ……なんか驚いておるのがバカバカしくなってきたわ。=...I'm starting to feel stupid for being surprised at what he does.
-[3C404EFF]……なんか[3C404EFF]驚いておるのがバカバカしくなってきたわ。=...I'm starting to feel stupid for being surprised at what he does.
+
 
 伝説の吸血鬼の記憶を取り戻す、か。\nそれでわらわの力が戻るか、半信半疑ではあるが……=Regaining my memories of being the legendary vampire, huh? I'm not sure if that will restore my power, but...
-[3C404EFF]伝説の吸血鬼の記憶を取り戻す、[3C404EFF]か。[3C404EFF]\nそれでわらわの力が戻るか、[3C404EFF]半信半疑ではあるが……=Regaining my memories of being the legendary vampire, huh? I'm not sure if that will restore my power, but...
+
 
 ……やってみるとするか。=...I guess I'll give it a try.
-[3C404EFF]……やってみるとするか。=...I guess I'll give it a try.
+
 
 かつての伝説が残る地に君臨するイリヤ。\n同時に何故か同じくらいの存在感を放つユキ。\n二人を称える魔物たちの喝采が、古城に響き渡るのであった。=Illya now reigns over the city where traces of the legendary vampire remains. At the same time, Yuki is giving off the same presence as the legend for some reason. The sound of the two being celebrated by the monsters echoes through the old castle. 
-[3C404EFF]かつての伝説が残る地に君臨するイリヤ。[3C404EFF]\n同時に何故か同じくらいの存在感を放つユキ。[3C404EFF]\n二人を称える魔物たちの喝采が、古城に響き渡るのであった。=Illya now reigns over the city where traces of the legendary vampire remains. At the same time, Yuki is giving off the same presence as the legend for some reason. The sound of the two being celebrated by the demons and monsters echoes throughout the old castle. 
+

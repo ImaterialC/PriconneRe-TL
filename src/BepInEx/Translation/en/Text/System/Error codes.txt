@@ -25,5 +25,5 @@
 r:"^\[3C404E\]\[FFBB00\,CE4F00\]([0-9/ :]+)～ 翌([0-9/ :]+)\[-\]に\nメンテナンスを実施いたします。\n詳細はお知らせをご確認ください。\[-\]$"=[3C404E]At[FFBB00,CE4F00] $1 until next day $2[-]\nwill be performed maintenance.\nPlease check the announcement for details. [-]
 
 [3C404E]ダウンロード中にエラーが発生しました。[-]=[3C404E]An error occurred while downloading. [-]
-リトライ=retry
+リトライ=Retry
 ダウンロードエラー=Download Error

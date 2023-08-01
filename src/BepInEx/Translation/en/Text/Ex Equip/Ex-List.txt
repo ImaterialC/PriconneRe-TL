@@ -50,7 +50,7 @@ EX武器コイン不足=Insufficient Ex Equip Coin
 詳細表示するEX装備を\n選択してください。=Select the EX Equip to be displayed in detail.
 上限に達したアイテムはプレゼントに送られます。=Items that reach the limit will be sent to Present Box.
 使用制限状態のEX装備は選択できません。=Already used EX equipment cannot be selected.
-
+購入回数または所持数が上限に達しています。=You have reached the maximum number of purchases or possessions.
 他キャラが装備中のEX装備が選択されています。=The Ex Equip currently equipped by other characters is selected.
 パーティキャラのEX装備を変更できます。=You can change the Ex Equip of the party character.
 EX装備が変更されていません。=EX Equip has not been changed.
@@ -140,7 +140,7 @@ sr:"^EX装備（(.+)）$"=Ex Equipment ($1)
 入手可能なアドベンチャークエストがありません。=There is no available Adventure quest.
 以下のアイテムの入手方法を確認できます。=You can check how to get the following items.
 
-EX装備の選択上限に達しています。=reached the selection limit for EX equipment.
+EX装備の選択上限に達しています。=Reached the selection limit for EX equipment.
 EX装備入れ替え確認=EX Equipment replacement confirmation
 EX装備を入れ替えます。\nよろしいですか？=Swap the EX equipment.\nIs it OK?
 

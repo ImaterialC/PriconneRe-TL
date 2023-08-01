@@ -2,7 +2,7 @@
 戦士２=Warrior 2
 戦士１=Warrior 1
 r:"^大会がペア制になった事を知ったモニカは、相手を探すも、外見で断られ続けてしまう。そんな時、([\s\S]{2,10})からのペアの申し出を受け、ためらいつつもうれしく思ったモニカは共に戦うことを誓う。$"=When Monika learned that the tournament had become a pair system, she tried to find a partner, but was rejected by everyone because of her appearance. At that time, she received an offer from $1 to be her pair, and she felt happy and hesitant at the same time. Monika vowed to fight together with him.
-r:"^(?:\[3C404EFF\])?背伸ばしの特訓から数か月後──(?:\[3C404EFF\])?\nついに大会受付当日……(?:\[3C404EFF\])?\n(.{2,10})はモニカと最後の身体測定を行っていた。$"=A few months after the special training to grow taller, the day of the tournament registration finally arrived. $1 was doing the final measurement with Monika.
+r:"^背伸ばしの特訓から数か月後──\nついに大会受付当日……\n(.{2,10})はモニカと最後の身体測定を行っていた。$"=A few months after the special training to grow taller, the day of the tournament registration finally arrived. $1 was doing the final measurement with Monika.
 貴公、どうだ……？=How, Comrade...?
 140cmと……1mm！=140cm and... 1mm!
 くぅうう……！　100回測って同じならば、夢でも気のせいでもない！\n私はこれでようやく大会に……！=Ugh...! If it's the same after measuring 100 times, it's not a dream or an illusion! I can finally enter the tournament...!
@@ -29,7 +29,7 @@ r:"^(?:\[3C404EFF\])?背伸ばしの特訓から数か月後──(?:\[3C404EFF\
 その時、ルールも変わったんです。\n単独で勝ち抜く力も大切ですが、\n今は他者と協力しあえる能力が広く求められている……ということで。=That's when the rules changed. It's important to have the power to win alone, but now people are looking for the ability to cooperate with others...
 そ、そうか……規則ならば、私も従おう。\nしかし……=I see... If it's a rule, I'll follow it too. But...
 
-r:"^(?:\[3C404EFF\])?ペアか……(?:\[3C404EFF\])?(.{2,10})になら(?:\[3C404EFF\])?背中を預けられるのだがな。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?とはいえ、(?:\[3C404EFF\])?これ以上私のワガママに付き合わせるわけにもいかん……$"=Pairs, huh...? I can trust $1 with my back. But I can't make him go along with my selfishness any more...
+r:"^ペアか……(.{2,10})になら背中を預けられるのだがな。\nとはいえ、これ以上私のワガママに付き合わせるわけにもいかん……$"=Pairs, huh...? I can trust $1 with my back. But I can't make him go along with my selfishness any more...
 
 決まった相手がいないようでしたら、奥のスペースをのぞいてください。\nペアをお探しの方が大勢いらっしゃると思います。=If you don't have a partner yet, please check out the space in the back. There should be a lot of people looking for pairs.
 分かった！　情報提供、感謝する。\n……貴公、すまないがここで待っていてくれ。\n終わったら共に食事でもしよう。=I got it! Thank you for the information. ...Sorry, but wait here for me. When I'm done, let's have a meal together.
@@ -55,7 +55,7 @@ r:"^(?:\[3C404EFF\])?ペアか……(?:\[3C404EFF\])?(.{2,10})になら(?:\[3C40
 一緒に乗り越える道もあるよ。=There's also a way to overcome it together.
 一緒に？　それは一体──=Together? What do you mean by that──
 うわぁあっ！！=Uwaaah!!
-r:"^(?:\[3C404EFF\])?今の悲鳴はなんだ！？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})、(?:\[3C404EFF\])?行くぞ！$"=What was that scream just now?! $1, let's go!
+r:"^今の悲鳴はなんだ！？\n(.{2,10})、行くぞ！$"=What was that scream just now?! $1, let's go!
 か、壁がボコボコじゃん……！？\n俺に当たったら、どうしてくれたんだよ……！？=Th, the wall is all dented...!? If it hit me, what would you have done...!?
 言っておくが、最初にケンカを吹っ掛けたのは貴様の方だぞ。\n……にしても兄者、こいつ弱いな。=Just so you know, you were the first one to start a fight. ...Still, brother, you're weak.
 強者を定める大会に、お前のような半端者がいては興が醒める。\nここで退場させてやるのが情けだろう。弟よ、トドメを。=Having a half-wit like you in a tournament to determine the strong is fun. It would be a pity to let you leave the stage here. Finish him off, little brother.
@@ -81,93 +81,92 @@ r:"^(?:\[3C404EFF\])?今の悲鳴はなんだ！？(?:\[3C404EFF\])?\n(?:\[3C404
 おいこら！　見た目で判断するな！\nこの者を愚弄することは、この私が許さんぞっ！=Hey! Don't judge by appearance! I won't let you make fun of my comrade!
 いいか、よく聞けよ！\n我々は優勝する！　おまえたちを倒してな！=Listen up, and listen well! We're going to win! We'll beat you guys!
 では、期待せずに待っているとしよう。=Then we'll wait without expecting anything.
-r:"^(?:\[3C404EFF\])?……言ってしまった～……！！(?:\[3C404EFF\])?\n結局、(?:\[3C404EFF\])?(.{2,10})を巻き込んでしまうとは……！！$"=...I said it~~...!! In the end, I dragged $1 into this...!!
+r:"^……言ってしまった～……！！\n結局、(.{2,10})を巻き込んでしまうとは……！！$"=...I said it~~...!! In the end, I dragged $1 into this...!!
 ……ん？　な、なんだ？　そんなにこにこして……\nモニカのペアになれてうれしい……？=...Hm? Wh, what? Why are you smiling so much... Are you happy to be Monica's partner...?
 えっ！？　いや、それは私だって……\n…………わ、私だって正直、うれしいぞ！？\n最初からずっと、貴公がペアならと考えていた！！=Huh!? N-no, that's not what I meant... I mean, I'm also............ h-honestly, I'm happy too!? I've always thought that if you were my partner...
 ……だが貴公は人がいいから、私が誘えば断らないだろう？\nそれでなんとなく……誘うのをためらっていたのだが……=But you're a nice person, so I thought you wouldn't refuse if I asked you. That's why I hesitated to ask you...
-r:"^(?:\[3C404EFF\])?しかし(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?\n『ペアになれてうれしい』と言ってくれた。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……誰にも選ばれなかった、(?:\[3C404EFF\])?この私に。$"=But $1 said he was happy to be paired up with me. ...As someone who hadn't been chosen by anyone.
+r:"^しかし(.{2,10})は\n『ペアになれてうれしい』と言ってくれた。\n……誰にも選ばれなかった、この私に。$"=But $1 said he was happy to be paired up with me. ...As someone who hadn't been chosen by anyone.
 おかげで腹が据わった！\n貴公が私のために戦ってくれたように、\n私も最後まで諦めず、全力で戦うと誓おう！=Thanks to that, I've got guts! Just like you fought for me, I swear I won't give up until the very end and will fight with all my might!
 そんなモニカを信じてる。=I believe Monika can do it.
 ああ！　その信頼、しかと受け止めたぞ！\nまずは大会エントリーだ。\nそのあとは……本番までの数日間、猛特訓しよう。=Yeah! I accept your trust! Let's enter the tournament first. After that... let's train hard for a few days until the main event.
 一番警戒すべきはあの兄弟たちだ。\n相手は、あいさつ代わりの一撃で壁を破壊できる。\n本気の攻撃が来た時、防げるかどうか……=Those siblings are the ones I should be most wary of. They can destroy the wall with a single strike that serves as a greeting. I don't know if I'll be able to block a serious attack...
 だから私は、新しい技を会得しようと思う。\n祖国に伝わる奥義を。=That’s why I think I’ll learn a new technique—the secret technique passed down in my homeland.
 すまないが貴公のアドバイスをまた聞かせてほしい。\n付き合ってくれるか？=I'm sorry, but I need your advice again. Will you help me?
-r:"^(?:\[3C404EFF\])?モニカからの頼みに快く応じる(.{2,10})。(?:\[3C404EFF\])?\n優勝に向け、新たな特訓が始まろうとしていた。$"=$1 gladly agreed to Monika's request. A new training session was about to begin for the championship.
-[3C404EFF]貴公、[3C404EFF]どうだ……？=How, Comrade...?
-[3C404EFF]くぅうう……！　[3C404EFF]100回測って同じならば、[3C404EFF]夢でも気のせいでもない！[3C404EFF]\n[3C404EFF]私はこれでようやく大会に……！=Ugh...! If it's the same after measuring 100 times, it's not a dream or an illusion! I can finally enter the tournament...!
-[3C404EFF]ここまで[3C404EFF]本当に険しい道のりだった。[3C404EFF]\nしかし[3C404EFF]貴公の支えのおかげで[3C404EFF]……[3C404EFF]いや、[3C404EFF]すまない。[3C404EFF]気が早かったな！[3C404EFF]\n[3C404EFF]あまりにもうれしくて、[3C404EFF]つい……=It was really a tough journey until now. But thanks to your support... No, I'm sorry. I was too hasty! I was so happy that I just...
-[3C404EFF]私の本当の目的は、[3C404EFF]決闘大会で優勝することだ。[3C404EFF]\n[3C404EFF]出場できると分かった以上、[3C404EFF]早々に会場へ向かわねば……=My real goal is to win the duel tournament. Now that I know I can participate, I have to hurry to the venue...
-[3C404EFF]……ん？　[3C404EFF]別に構わないが……[3C404EFF]\n[3C404EFF]今日は受付だけで、[3C404EFF]試合はまだ先だぞ？=...Hm? I don't mind, but... Today is just registration, and the matches are still ahead, you know?
-[3C404EFF]……エントリーされる[3C404EFF]瞬間が見たい？[3C404EFF]\n[3C404EFF]貴公は本当に人がいいな。[3C404EFF]では[3C404EFF]存分に見届けてもらうとしよう。=...You want to see the moment I enter? You're really a nice person. Then let me show you as much as you want.
-[3C404EFF]大会参加者の方は[3C404EFF]こちらにお並びください！[3C404EFF]\n順番に受付します！=Participants of the tournament, please line up here!\nWe will register you in order!
-[3C404EFF]ああ、[3C404EFF]はやく順番が回ってこないだろうか。[3C404EFF]\nこれほど測定が楽しみなのは[3C404EFF]生まれて初めてだ♪=Ah, I wish it was my turn soon. This is the first time I'm looking forward to measuring so much♪
-[3C404EFF]それにしても、[3C404EFF]ずいぶん参加者が多いな……[3C404EFF]\n[3C404EFF]というより。[3C404EFF]私と同じ、[3C404EFF]同行者連ればかりのようだが……=But there are so many participants... Rather. They all seem to have companions like me...
-[3C404EFF]では、[3C404EFF]次の方どうぞ！=Next, please!
-[3C404EFF]おっと、[3C404EFF]私の出番だな。[3C404EFF]\n[3C404EFF]ぞんぶんに測ってくれ！！=Oops, it's my turn.\nTake My measurements please!!
-[3C404EFF]……微差ではありますが、[3C404EFF]確かに[3C404EFF]条件を満たしています。[3C404EFF]\nエントリーを受け付けますね。=...There is a slight difference, but you do meet the conditions. We will accept your entry.
-[3C404EFF]貴公、[3C404EFF]聞いたか！？[3C404EFF]\n[3C404EFF]よし……[3C404EFF]あとは優勝を目指すだけ──=Did you hear that!? All right... All that's left is to aim for victory──
-[3C404EFF]では次に……[3C404EFF]モニカさんのペアは、[3C404EFF]\nそちらのあなたでよろしいでしょうか？=Next is... Ms. Monika's pair is you over there, right?
-[3C404EFF]右に同じく、[3C404EFF]一体なんのことだ！？　[3C404EFF]これは決闘大会なのだろう！？[3C404EFF]\n一対一の[3C404EFF]真剣勝負ではないのか！？=Right as well, what do you mean!? This is a duel tournament, right!? A one-on-one serious match, isn't it!?
-[3C404EFF]実はルールの見直しがされて、[3C404EFF]\n今年から二人一組で共闘する[3C404EFF]『武闘大会』に変わったんですよ。=Actually, the rules have been revised and this year it has changed to a "martial arts tournament" where two people fight together.
-[3C404EFF]ルール改定の告知は、[3C404EFF]\n掲示板やビラ配り、[3C404EFF]通信魔法でお届けしていたんですけど……=We announced the rule changes on bulletin boards, flyers, and communication magic...
-[3C404EFF]本大会は恒例行事のようなものでしたし、[3C404EFF]\nルールの発表もついこの間のことだったので……[3C404EFF]\nここで説明を受けて、[3C404EFF]初めて知る方も多いんですよね。=This tournament was like an annual event and the rules were announced just recently... So there are many people who hear the explanation here and find out for the first time.
-[3C404EFF]そ、[3C404EFF]そうだったのか……[3C404EFF]\n[3C404EFF]しばらく森で特訓するだけの日々だったからな……[3C404EFF]私のミスだ。[3C404EFF]\nしかし、[3C404EFF]なぜそんなことに……=Is that so... I've been training in the forest for a while now... It's my mistake. But why did they do that...
-[3C404EFF]本大会は昔から[3C404EFF]貴族議会が運営を行っていたんですが、[3C404EFF]\nギルド管理協会に一任されることが決まったんですよ。=This tournament has been run by the nobility council for a long time, but it was decided to entrust it to the Guild Management Association.
-[3C404EFF]その時、[3C404EFF]ルールも変わったんです。[3C404EFF]\n単独で勝ち抜く力も大切ですが、[3C404EFF]\n今は[3C404EFF]他者と協力しあえる能力が広く求められている……[3C404EFF]ということで。=That's when the rules changed. It's important to have the power to win alone, but now people are looking for the ability to cooperate with others...
-[3C404EFF]そ、[3C404EFF]そうか……[3C404EFF]規則ならば、[3C404EFF]私も従おう。[3C404EFF]\n[3C404EFF]しかし……=I see... If it's a rule, I'll follow it too. But...
+r:"^モニカからの頼みに快く応じる(.{2,10})。\n優勝に向け、新たな特訓が始まろうとしていた。$"=$1 gladly agreed to Monika's request. A new training session was about to begin for the championship.
 
-[3C404EFF]決まった相手がいないようでしたら、[3C404EFF]奥のスペースをのぞいてください。[3C404EFF]\nペアをお探しの方が大勢いらっしゃると思います。=If you don't have a partner yet, please check out the space in the back. There should be a lot of people looking for pairs.
-[3C404EFF]分かった！　[3C404EFF]情報提供、[3C404EFF]感謝する。[3C404EFF]\n……貴公、[3C404EFF]すまないがここで待っていてくれ。[3C404EFF]\n[3C404EFF]終わったら共に食事でもしよう。=I got it! Thank you for the information. ...Sorry, but wait here for me. When I'm done, let's have a meal together.
-[3C404EFF]私は子供じゃないんだぞ……？[3C404EFF]\n[3C404EFF]心配するな、[3C404EFF]すぐ決めてくる。=I'm not a child, you know...?\nDon't worry, I'll decide quickly.
-[3C404EFF]さて、[3C404EFF]誰に声をかけようか……=Well, who should I talk to...
-[3C404EFF]そこの者よ！=You there!
-[3C404EFF]ん？　[3C404EFF]どこだ？=Huh? Who call?
-[3C404EFF]下を見よ！[3C404EFF]\n[3C404EFF]言っておくがな、[3C404EFF]私はそれほど小さくないぞ！？=Look down! Just so you know, I'm not that small!
-[3C404EFF]あ、[3C404EFF]ああ……[3C404EFF]\n[3C404EFF]それで[3C404EFF]俺になにか用か？=Oh... Yeah...\nSo what do you want from me?
-[3C404EFF]私はモニカ。[3C404EFF]この大会の参加者だ。[3C404EFF]\nペアが決まっていないようであれば、[3C404EFF]私と組まないか？=I'm Monika. A participant in this tournament. If you don't have a partner yet, why don't you team up with me?
-[3C404EFF]は！？　[3C404EFF]参加者だって！？[3C404EFF]\n[3C404EFF]あ、[3C404EFF]いや……[3C404EFF]ええと……[3C404EFF]俺、[3C404EFF]別の奴と組むからさ……[3C404EFF]\n悪いな！=What!? You're a participant!? Oh, no... Um... Sorry, but I'm teaming up with someone else...
-[3C404EFF]……まったく、[3C404EFF]人を見かけで判断するとは情けない。[3C404EFF]\n[3C404EFF]次だ次！=...Really, judging people by their looks is pathetic.\nNext!
-[3C404EFF]え？　[3C404EFF]僕とペアを組みたい？[3C404EFF]\n[3C404EFF]こんなかわいい子が一緒なら頑張れそうだけど、[3C404EFF]ごめんね。[3C404EFF]\n僕、[3C404EFF]優勝目指してるからさ。[3C404EFF]あ、[3C404EFF]良かったら連絡先交換しない？=Huh? You want to team up with me? You're such a cute girl that I feel like working hard with you, but sorry. I'm aiming for victory. Oh, do you want to exchange contact information?
-[3C404EFF]次っ！！=Next!!
-[3C404EFF]それからモニカは参加者たちに声をかけるも、[3C404EFF]\n即答で断られ続けるのだった。=From there, Monica called out to the participants, but they kept turning her down on the spot.
-[3C404EFF]……んぐっ！？　[3C404EFF]貴公か！？[3C404EFF]\n私の口になにを入れ……[3C404EFF]飴玉？=...Nguh!? Comrade!? What did you put in my mouth... a candy?
-[3C404EFF]しかもこれは……[3C404EFF]今流行りのレインボー味！[3C404EFF]\n[3C404EFF]この不思議な味覚が[3C404EFF]病みつきになるんだよな♪=And this is... the trendy rainbow flavor! This mysterious taste is addictive♪
-[3C404EFF]……すまない。[3C404EFF]心配して見に来てくれたんだな。[3C404EFF]\n[3C404EFF]これぐらいで落ち込むなど、[3C404EFF]情けない話だ。=...I'm sorry. You came to see me because you were worried. It's pathetic to be depressed by something like this.
-[3C404EFF]私は……[3C404EFF]弱いな。[3C404EFF]\n自分の弱さを乗り越えられるぐらい、[3C404EFF]強くなりたい。=I'm... weak. I want to be strong enough to overcome my own weakness.
-[3C404EFF]一緒に？　[3C404EFF]それは[3C404EFF]一体──=Together? What do you mean by that──
-[3C404EFF]うわぁあっ！！=Uwaaah!!
-[3C404EFF]か、[3C404EFF]壁がボコボコじゃん……！？[3C404EFF]\n俺に当たったら、[3C404EFF]どうして[3C404EFF]くれたんだよ……！？=Th, the wall is all dented...!? If it hit me, what would you have done...!?
-[3C404EFF]言っておくが、[3C404EFF]最初にケンカを吹っ掛けたのは貴様の方だぞ。[3C404EFF]\n……にしても兄者、[3C404EFF]こいつ弱いな。=Just so you know, you were the first one to start a fight. ...Still, brother, you're weak.
-[3C404EFF]強者を定める大会に、[3C404EFF]お前のような半端者がいては興が醒める。[3C404EFF]\nここで退場させてやるのが情けだろう。[3C404EFF]弟よ、[3C404EFF]トドメを。=Having a half-wit like you in a tournament to determine the strong is fun. It would be a pity to let you leave the stage here. Finish him off, little brother.
-[3C404EFF]了解した。=Understood.
-[3C404EFF]ひぃっ……！！=Eeek...!!
-[3C404EFF]やめろっ！！=Stop it!!
-[3C404EFF]参加者同士のいざこざに口を出すつもりはないが、[3C404EFF]\nこれはさすがにやりすぎだぞ……！=I have no intention of interfering with the quarrel between the participants, but this is going too far...!
-[3C404EFF]ん？　[3C404EFF]なんだこのまん丸は。[3C404EFF]\nこれも参加者なのか。=Hm? What's with this circle? Is this another participant?
-[3C404EFF]おい！　[3C404EFF]私は子供では……[3C404EFF]ま、[3C404EFF]まん丸！？[3C404EFF]\n[3C404EFF]まん丸とは私のことか！？=Hey! I'm not a kid... M-Manmaru?! Do you mean me?!
-[3C404EFF]くそ……[3C404EFF]くそ……っ！[3C404EFF]\nこんなおっかねー大会、[3C404EFF]こっちから[3C404EFF]願い下げだ～～～！！=Damn... damn...! This scary tournament, I don't want to participate anymore~~!!
-[3C404EFF]おい！？　[3C404EFF]どこへ行く！？=Hey!? Where are you going!?
-[3C404EFF]敗者は潔く去るのが騎士道だ。=The loser should leave gracefully.
-[3C404EFF]まだ大会は始まっていないのだぞ！[3C404EFF]\n正式な場ではない決闘など、[3C404EFF]ただのケンカだ！[3C404EFF]\n騎士道なものか！=The tournament hasn't even started yet! A duel that isn't official is just a fight! It's chivalry!
-[3C404EFF]よくしゃべる饅頭だ。=You're a talkative bun.
-[3C404EFF]今度は饅頭！？　[3C404EFF]饅頭と言ったよな！？[3C404EFF]\nおまえたち兄弟、[3C404EFF]さっきから無礼すぎるぞ！？=Now it's a bun!? You said bun, right!? You two brothers are too rude!
-[3C404EFF]くっ、[3C404EFF]無礼な連中だが……[3C404EFF]隙がない。[3C404EFF]\nあの壁も、[3C404EFF]剣一振りで砕いたのだろう。[3C404EFF]\nめったにお目に掛かれない強者たちだ。=Kuh, they're rude guys... but they have no openings. They must have shattered that wall with one swing of their swords. They're rare strongmen.
-[3C404EFF]……なるほど、[3C404EFF]少しはできるようだな。[3C404EFF]\nまん丸の子供よ、[3C404EFF]剣から手を離せ。[3C404EFF]抜けば怪我ではすまぬぞ。=...I see, you're not bad. Let go of your sword, kid. If you pull it out, it won't end with just an injury.
-[3C404EFF]……誰が抜くものか。[3C404EFF]\n決着は、[3C404EFF]この大会でつける！=...Who said I'm going to pull it out? The outcome will be decided at this tournament!
-[3C404EFF]見たところ、[3C404EFF]ペアさえいないようだが？[3C404EFF]\nそもそも、[3C404EFF]お前一人でどうやって大会に出るつもりだ？=From what I saw, you don't even have a partner, do you? How are you going to enter the tournament by yourself?
-[3C404EFF]き、[3C404EFF]貴公……！　[3C404EFF]出てこなくていい……！[3C404EFF]\nこれは私の問題だ……！！=Wh, Comrade...! You don't have to come out...! This is my problem...!!
-[3C404EFF]なんだ？　[3C404EFF]今度は棒切れが出てきたぞ。[3C404EFF]\n今朝食った骨付き肉の方が、[3C404EFF]よっぽど筋肉がありそうだし……[3C404EFF]\nさっきの男より弱そうだな。=What? Now a stick came out. The bone-in meat I ate this morning had more muscle than this... and he looks weaker than the guy from earlier.
-[3C404EFF]おいこら！　[3C404EFF]見た目で判断するな！[3C404EFF]\nこの者を愚弄することは、[3C404EFF]この私が許さんぞっ！=Hey! Don't judge by appearance! I won't let you make fun of my comrade!
-[3C404EFF]いいか、[3C404EFF]よく聞けよ！[3C404EFF]\n我々は優勝する！　[3C404EFF]おまえたちを倒してな！=Listen up, and listen well! We're going to win! We'll beat you guys!
-[3C404EFF]では、[3C404EFF]期待せずに待っているとしよう。=Then we'll wait without expecting anything.
 
-[3C404EFF]……ん？　[3C404EFF]な、[3C404EFF]なんだ？　[3C404EFF]そんなにこにこして……[3C404EFF]\nモニカのペアになれて[3C404EFF]うれしい……？=...Hm? Wh, what? Why are you smiling so much... Are you happy to be Monica's partner...?
-[3C404EFF]えっ！？　[3C404EFF]いや、[3C404EFF]それは私だって……[3C404EFF]\n…………[3C404EFF]わ、[3C404EFF]私だって正直、[3C404EFF]うれしいぞ！？[3C404EFF]\n[3C404EFF]最初からずっと、[3C404EFF]貴公がペアならと考えていた！！=Huh!? N-no, that's not what I meant... I mean, I'm also............ h-honestly, I'm happy too!? I've always thought that if you were my partner...
-[3C404EFF]……だが[3C404EFF]貴公は人がいいから、[3C404EFF]私が誘えば[3C404EFF]断らないだろう？[3C404EFF]\n[3C404EFF]それで[3C404EFF]なんとなく……[3C404EFF]誘うのをためらっていたのだが……=But you're a nice person, so I thought you wouldn't refuse if I asked you. That's why I hesitated to ask you...
 
-[3C404EFF]おかげで腹が据わった！[3C404EFF]\n貴公が私のために戦ってくれたように、[3C404EFF]\n私も最後まで諦めず、[3C404EFF]全力で戦うと誓おう！=Thanks to that, I've got guts! Just like you fought for me, I swear I won't give up until the very end and will fight with all my might!
-[3C404EFF]ああ！　[3C404EFF]その信頼、[3C404EFF]しかと受け止めたぞ！[3C404EFF]\n[3C404EFF]まずは大会エントリーだ。[3C404EFF]\nそのあとは……[3C404EFF]本番までの数日間、[3C404EFF]猛特訓しよう。=Yeah! I accept your trust! Let's enter the tournament first. After that... let's train hard for a few days until the main event.
-[3C404EFF]一番警戒すべきは[3C404EFF]あの兄弟たちだ。[3C404EFF]\n相手は、[3C404EFF]あいさつ代わりの一撃で[3C404EFF]壁を破壊できる。[3C404EFF]\n[3C404EFF]本気の攻撃が来た時、[3C404EFF]防げるかどうか……=Those siblings are the ones I should be most wary of. They can destroy the wall with a single strike that serves as a greeting. I don't know if I'll be able to block a serious attack...
-[3C404EFF]だから私は、[3C404EFF]新しい技を会得しようと思う。[3C404EFF]\n祖国に伝わる奥義を。=That’s why I think I’ll learn a new technique—the secret technique passed down in my homeland.
-[3C404EFF]すまないが[3C404EFF]貴公のアドバイスをまた聞かせてほしい。[3C404EFF]\n[3C404EFF]付き合って[3C404EFF]くれるか？=I'm sorry, but I need your advice again. Will you help me?
-[3C404EFF]貴公というやつは……[3C404EFF]戦いは苦手なくせに。[3C404EFF]\n[3C404EFF]ここまで付き合ってくれただけで十分だ。=Comrade... Even you're not very good at fighting.\nIt's enough that you've come this far with me.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

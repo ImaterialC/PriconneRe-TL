@@ -90,91 +90,91 @@ r:"^ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼�
 それだけは……=That's the one thing...
 いやじゃ……！=I don't want to...!
 
-[3C404EFF]街の地下に足を踏み入れたイリヤたち。[3C404EFF]\nそこで見つけたのは膨大な量の魔力結晶であった。=Illya and the others step into the city’s basement. What they find is an enormous amount of magic crystals.
 
-[3C404EFF]やはりな。[3C404EFF]\nついてきておると思っておったぞ、[3C404EFF]ブラドよ。=I knew it. I knew you'd follow me, Brad.
-[3C404EFF]……イリヤ様に付き従うことこそ、[3C404EFF]私の役目。=...It’s my duty to follow Lady Illya.
-[3C404EFF]それでさー、[3C404EFF]結局ブラドさんは──=So, in the end, Brad...
-[3C404EFF]──イリヤを使って[3C404EFF]何を企んでるわけ？=What are you planning to do with Illya?
-[3C404EFF]ほう。[3C404EFF]\nその様子ですと、[3C404EFF]初めから私を怪しんでおられたようですな。=Oh? From the looks of it, you were suspicious of me from the start.
-[3C404EFF]そりゃあそうでしょ、[3C404EFF]不自然だったもん。=Isn’t that obvious? It was unnatural.
-[3C404EFF]不自然？[3C404EFF]\nなにがでございますか？=Unnatural?\nWhat do you mean?
-[3C404EFF]このボクに[3C404EFF]見向きもしないことがさ♪=Don't even look at me♪
-[3C404EFF]あはは。[3C404EFF]冗談だと思ってる？[3C404EFF]\n[3C404EFF]でも本気だよ。[3C404EFF]ボクは美しすぎるからね、[3C404EFF]\n周りのみんなの視線の動きには敏感なんだ。=Haha, you think I'm joking? But I mean it. I am too beautiful, and I am sensitive to the gazes of everyone around me.
-r:"^(?:\[3C404EFF\])?キミさ……(?:\[3C404EFF\])?\nボクや(.{2,10})さんに目を留めたこと、(?:\[3C404EFF\])?ないでしょ？$"=You... You've never caught my eye or $1-san's, have you?
-[3C404EFF]冷静なように見えて、[3C404EFF]ずっと熱狂的な視線をイリヤに向けてた。[3C404EFF]\n[3C404EFF]イリヤ以外はどうでもよかったんだよね？[3C404EFF]\n[3C404EFF]じゃないと、[3C404EFF]ボクを無視するなんて、[3C404EFF]ありえないことなのさ♪=You looked calm, and was always looking at Illya with an enthusiastic gaze. Anything but Illya didn't matter, right? Otherwise, it would be impossible for you to ignore me♪
-[3C404EFF]最後の台詞はともかく、[3C404EFF]\n[3C404EFF]ユキのやつ……[3C404EFF]案外よく見とるんじゃな。=Putting that last line aside, Yuki... he's surprisingly perceptive.
-[3C404EFF]ブラドよ、[3C404EFF]説明してもらうぞ。[3C404EFF]\nお主は一体なにを企んでおる。=Brad, you're going to have to explain. What the hell are you planning?
 
-[3C404EFF]私の目的は、[3C404EFF]伝説の吸血鬼の復活でございます。=My goal is to revive the legendary vampire.
-[3C404EFF]なに一つ、[3C404EFF]私は偽りを申し上げておりません。[3C404EFF]\n[3C404EFF]私が目指すのは伝説の吸血鬼の復活、[3C404EFF]それ以外にございません。=No, I'm not lying. My goal is to revive the legendary vampire, nothing more.
-[3C404EFF]嘘をついてるって感じじゃない。[3C404EFF]\n[3C404EFF]けど、[3C404EFF]その瞳……[3C404EFF]危ないね。=I don't feel like you are lying.\n But those eyes... It's dangerous.          
-[3C404EFF]瞳っていうのは[3C404EFF]本来美しい輝きを放つものだけど、[3C404EFF]\n[3C404EFF]キミのそれは……[3C404EFF]危険な輝きを秘めてるよ。=Eyes are supposed to give off a beautiful glow, \nbut yours... have a dangerous glow.                    
-[3C404EFF]危険……[3C404EFF]ええ、[3C404EFF]当然ですとも！[3C404EFF]\n[3C404EFF]伝説の吸血鬼の復活は、[3C404EFF]この世界において最大の危機にして、[3C404EFF]\n歴史に残る最上の出来事でなくてはなりません……！=Danger... Yes, of course! The resurrection of the legendary vampire must be the greatest crisis in this world and the greatest event in history...!
-[3C404EFF]『指先一つで天候を変え、[3C404EFF]足を踏み鳴らせば大地を割り、[3C404EFF]吐息を漏らせば[3C404EFF]\n大嵐を巻き起こし、[3C404EFF]眼差しを向けるだけで数万の生物の心を魅了する』[3C404EFF]\n[3C404EFF]そんなイリヤ様の復活だけが、[3C404EFF]我が目的でございます……！=‘Change the weather with a single fingertip, split the earth if you step on it, create a great storm if you let out a sigh, and captivate the hearts of tens of thousands of creatures just by looking at them.’ Lady Illya’s resurrection is my only goal...!
-[3C404EFF]そして！　[3C404EFF]お力のすべてを取り戻した後は、[3C404EFF]\n[3C404EFF]ヒューマン族、[3C404EFF]獣人族、[3C404EFF]エルフ族のすべてをこの世界から滅ぼし、[3C404EFF]\n今度こそ！　[3C404EFF]かつてあなた様を封じた[3C404EFF]神々を討ちに行くのです！=And then! After we regain all of your power, we will destroy all of the humans, beastfolk, and elves from this world, and this time for sure! We will go slay the gods who once sealed you away!
-[3C404EFF]お主、[3C404EFF]それ……[3C404EFF]本気で言うておるのか？=Are you... Are you serious?
-[3C404EFF]もちろんでございます。[3C404EFF]\nそのための準備は整えてあります。=Of course. I've prepared everything for that purpose.
-[3C404EFF]ご覧になったでしょう？[3C404EFF]\n[3C404EFF]これだけの魔力結晶があれば、[3C404EFF]イリヤ様の復活は叶ったも同然！[3C404EFF]\n[3C404EFF]それに兵の数も、[3C404EFF]十分に揃いつつあります。=You’ve seen it, haven’t you? With this many magic crystals, Lady Illya’s resurrection is as good as possible! And we’re getting plenty of soldiers.
-[3C404EFF]伝説伝説って、[3C404EFF]ただ憧れてるだけじゃないんだね……[3C404EFF]\n[3C404EFF]本気で、[3C404EFF]なぞるつもりなんだ。=Legendary legends aren’t just something you admire, are they...? I’m serious about tracing them.
-[3C404EFF]ねぇ、[3C404EFF]神々とかってどこにいるかわかってるの？[3C404EFF]\n……ていうか[3C404EFF]何の神さま？=Hey, do you know where the gods and stuff are? ...Wait, what kind of god is he?
-[3C404EFF]私ごときが存じ上げることではありません。[3C404EFF]\n[3C404EFF]ですが[3C404EFF]伝説の吸血鬼であるイリヤ様が完全復活されたとき、[3C404EFF]\nすべてが明らかになることでしょう。=It's not for the likes of me to know. But when the legendary vampire, Lady Illya, is fully revived, everything will be revealed.
-[3C404EFF]うわぁ、[3C404EFF]厄介な人だなぁ……=Wow, what a troublesome person...
-[3C404EFF]伝説の吸血鬼の復活、[3C404EFF]それ以外に目的はないか。[3C404EFF]\n[3C404EFF]本当に[3C404EFF]それ以外に目を向けておらんな。=The resurrection of the legendary vampire, is there any other goal? You really haven’t turned your attention to anything else.
-[3C404EFF]面倒なことになる前に、[3C404EFF]止めておいた方がよさそうじゃ。=I think we should stop before things get too troublesome.
-[3C404EFF]おっと、[3C404EFF]イリヤ様。[3C404EFF]\n[3C404EFF]ここで戦うのは、[3C404EFF]お勧めできかねます。=Whoops, Lady Illya. I can’t recommend fighting here.
-[3C404EFF]分かっておられるでしょう？[3C404EFF]\nイリヤ様の魔力と軽く共鳴しただけで地鳴りが起きるのです。[3C404EFF]\n[3C404EFF]もし、[3C404EFF]全力でぶつかりあってしまえば──=You understand, don’t you? Just a light resonance with Lady Illya’s magical energy causes the rumbling to occur. If we clash with all our might
-[3C404EFF]……街ごとすべてが吹き飛ぶじゃろうな。=...I'm sure the whole city will be blown away.
-[3C404EFF]さすがのご理解。[3C404EFF]\n[3C404EFF]……[3C404EFF]魔物たちよ、[3C404EFF]ここへ。=As expected of your understanding.\n...Demons, come here.
-[3C404EFF]丁重に、[3C404EFF]イリヤ様をお連れしろ。[3C404EFF]\n[3C404EFF]そっちのニンゲンは、[3C404EFF]牢にでも入れておけ。=Take Illya-sama with you.\nPut that Human in jail.
-r:"^(?:\[3C404EFF\])?小癪な……(?:\[3C404EFF\])?わらわと(.{2,10})を分断するとは。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……人質のつもりか？　$"=How irritating... To think you'd split $1 and me apart... Are you trying to take me hostage?　
-[3C404EFF]──参りましょう、[3C404EFF]イリヤ様。=──Let's go, Lady Illya.
-[3C404EFF]あ～あ、[3C404EFF]捕まっちゃった。=Aww, they caught me.
-[3C404EFF]……これはまずいね。=...This is bad.
-[3C404EFF]ちょっとどころじゃないよ！[3C404EFF]\n[3C404EFF]ボクの両手に鎖をつけるなんて──[3C404EFF]全然わかってない！=It's not just a little! You don't understand, putting chains in my hands and all!                   
-[3C404EFF]どう見たって[3C404EFF]こういうアクセサリーはクウカさん向きでしょ？[3C404EFF]\n[3C404EFF]屈辱だよ。[3C404EFF]こんなコーディネートをされちゃうなんて……！=No matter how you look at it, accessories like this are for Kuuka-san, aren't they? It's humiliating. I can't believe she's coordinating like this...!
-[3C404EFF]おい！[3C404EFF]\nうるさいぞ！=Hey! Shut up!
-[3C404EFF]当たり前じゃないか！[3C404EFF]\nボクは[3C404EFF]ファッションにはうるさいんだよ！=Isn't it obvious? I'm fussy about fashion!
-[3C404EFF]……何言ってるんだこのニンゲン……[3C404EFF]\nとにかく大人しくしていろ！[3C404EFF]\nもうじき儀式が始まる……[3C404EFF]それが終わるまで、[3C404EFF]なぁ。=......what are you saying, Human......? Anyway, behave yourself! The ceremony will begin soon......until it's over.
-[3C404EFF]儀式？　[3C404EFF]それってなんの？=Ritual? What's that?
-[3C404EFF]決まっているだろう。[3C404EFF]\n伝説の吸血鬼──[3C404EFF]イリヤ・オーンスタイン様、[3C404EFF]復活の儀式だ。[3C404EFF]\nこの街に集まった者たちの前で、[3C404EFF]イリヤ様が完全復活を果たされるのだ！=Isn't it obvious? The legendary vampire----Illya Ornstein-sama, the resurrection ceremony. Lady Illya will be completely revived in front of everyone gathered in this city!
-[3C404EFF]……本当に[3C404EFF]伝説を実現させるみたいだね。[3C404EFF]\n[3C404EFF]このままじゃ、[3C404EFF]イリヤが世界征服を始めちゃう。=...Looks like we’re really going to make the legend a reality. At this rate, Illya will start conquering the world.
-[3C404EFF]……ボクもそう思うんだけどね。[3C404EFF]\nただちょっと、[3C404EFF]気になることがあるんだ。=...I think so too. But there's something that's been bothering me.
-[3C404EFF]さっき儀式場で地震が起きた時、[3C404EFF]変な声を聞いたんだよね。=When there was an earthquake at the ceremonial hall earlier, I heard a strange voice.
-[3C404EFF]魔族の王がどうとか、[3C404EFF]敵を滅ぼせ、[3C404EFF]とかさ。[3C404EFF]\n最初は気のせいかと思ってたんだけど……[3C404EFF]\n[3C404EFF]これって多分、[3C404EFF]伝説の吸血鬼の声じゃないかなって。=Like, “What about the king of daemons? Destroy the enemy.” At first, I thought it was just my imagination...but then I realized this was probably the voice of a legendary vampire
-[3C404EFF]あの魔力結晶から力を得ることで、[3C404EFF]\nこの声が聞こえてるんだとしたら……[3C404EFF]ちょっとイヤな予感がしない？=If gaining power from that magic crystal is what allows you to hear this voice... Don’t you have a bad feeling about this?
-[3C404EFF]とにかく、[3C404EFF]ここから脱出しないとね。[3C404EFF]\n[3C404EFF]イリヤにはまだボクのお願い、[3C404EFF]叶えてもらってないし。=Anyway, we need to get out of here. Illya hasn’t fulfilled my wish yet.
-[3C404EFF]それに──[3C404EFF]世界を征服するなら、[3C404EFF]美しいボクの方がいいでしょ？=Besides, if you're going to conquer the world, wouldn't a beautiful me be better?
-[3C404EFF]ははは！[3C404EFF]\nなにを言い出すかと思えば！[3C404EFF]\n愚かなニンゲンめ、[3C404EFF]どうやってここから出るつもり──=Hahaha! I was wondering what you were going to say! Foolish Human, how do you plan to get out of here?
-[3C404EFF]鍵、[3C404EFF]あ～[3C404EFF]けてっ♪=Open the door! ♪
-[3C404EFF]……はい、[3C404EFF]ユキ様……=...Yes, Yuki-sama...
-[3C404EFF]ふふっ、[3C404EFF]今日もボクの魅力は絶好調だね♪=Hehe, my charm is in top form again today♪
-[3C404EFF]うわぁ、[3C404EFF]すごい数の魔物。[3C404EFF]\nそれもそうだよね、[3C404EFF]イリヤやボクが集めたわけだもんね。=Wow, there’s so many monsters. That’s true, Illya and I collected them.
-[3C404EFF]……うん？[3C404EFF]\nどうしてこそこそ行く必要があるのさ。=...Hm? Why do you need to sneak off?
-[3C404EFF]ボクみたいに美しい存在が、[3C404EFF]\nこそこそと人目につかないように動くなんてありえないよ。=There's no way someone as beautiful as me would sneak around and hide from the public eye.
-[3C404EFF]こんな時こそ──[3C404EFF]派手に行かないとね♪=It's times like these when we have to make a big show of it! ♪
-[3C404EFF]なるほど、[3C404EFF]ここはわらわのために用意された舞台だったのじゃな。=I see. So this is a stage prepared for me.
-[3C404EFF]ええ、[3C404EFF]お気に召していただけましたかな？[3C404EFF]\n[3C404EFF]──それではイリヤ様、[3C404EFF]始めましょうか。[3C404EFF]\n伝説の吸血鬼、[3C404EFF]完全復活の儀を。=Yes, do you like it? -Well then, Lady Illya, shall we begin? The legendary vampire, the Ritual of Perfect Resurrection.
-[3C404EFF]イリヤ様……！=Lady Illya...!
-[3C404EFF]内にも外にも、[3C404EFF]魔物どもが集まっておるようじゃ。[3C404EFF]\n[3C404EFF]眷属やユキは無事じゃろうか……=It seems monsters have gathered both inside and outside. I wonder if the Familiar and Yuki are safe...
-[3C404EFF]幸い、[3C404EFF]今のわらわは力が戻っておる。[3C404EFF]\n[3C404EFF]本気になれば、[3C404EFF]この程度の窮地は問題あるまい。=Fortunately, my power has returned. If I get serious, this level of predicament shouldn't be a problem.
-[3C404EFF]じゃが──[3C404EFF]なぜか、[3C404EFF]嫌な予感がする。[3C404EFF]\n[3C404EFF]力を使おうとするたびに……=But for some reason, I have a bad feeling about this. Every time I try to use my power...
-[3C404EFF]──チカラガ、[3C404EFF]ヨミガエル──=──Resurrect, the Power──
 
-[3C404EFF]……っ！=...Ngh!
-[3C404EFF]あの声が、[3C404EFF]段々と近くから聞こえてくるような……[3C404EFF]\n[3C404EFF]体の奥底に、[3C404EFF]沈んでくるような感覚……！[3C404EFF]\n[3C404EFF]これは本当にわらわの記憶なのか……？　=I can hear that voice coming from closer and closer... It feels like it's sinking into the depths of my body...! Is this really my memory...?　
-[3C404EFF]さぁ、[3C404EFF]イリヤ様！[3C404EFF]\n私が集めた魔力を、[3C404EFF]お受け取りください……！=Now, Lady Illya! Please accept the magical energy I’ve gathered...!
-[3C404EFF]っ、[3C404EFF]やめるのじゃ！[3C404EFF]\nその力は……！=Stop it! That power...!
-[3C404EFF]く[3C404EFF]っ……！=Ugh...!
-[3C404EFF]おお、[3C404EFF]なんという凄まじい魔力……！=Wow, what incredible magical energy...!
-[3C404EFF]まさしく、[3C404EFF]伝説の吸血鬼のお力……！=Truly, the power of a legendary vampire...!
-[3C404EFF]始まるんだ、[3C404EFF]闇の時代が……！=The age of darkness is about to begin...!
-[3C404EFF]──ニクキカミガミニ、[3C404EFF]フクシュウヲ──=──Revenge... the Evil Gods──
-[3C404EFF]これが、[3C404EFF]復活じゃと……？[3C404EFF]\n[3C404EFF]まるで今のわらわを、[3C404EFF]塗りつぶそうとしているようではないか……！=This is the resurrection...? It's as if you're trying to paint over me...!
-[3C404EFF]もしこの声に従ってしまえば……[3C404EFF]\nわらわは……[3C404EFF]伝説の吸血鬼となってしまうのか……？[3C404EFF]\n[3C404EFF]あらゆるものを敵に回し、[3C404EFF]神々に挑むような存在に……？=If I obey this voice... will I... become a legendary vampire...? A being who will make enemies of everything and challenge the gods...?
-[3C404EFF]あやつをも、[3C404EFF]敵に……？=Make him an enemy, too...?
-[3C404EFF]それだけは……=That's the one thing...
-[3C404EFF]いやじゃ……！=I don't want to...!
+
+
+
+
+
+
+
+
+r:"^キミさ……\nボクや(.{2,10})さんに目を留めたこと、ないでしょ？$"=You... You've never caught my eye or $1-san's, have you?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r:"^小癪な……わらわと(.{2,10})を分断するとは。\n……人質のつもりか？　$"=How irritating... To think you'd split $1 and me apart... Are you trying to take me hostage?　
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 movie
 さぁ伝説の吸血鬼、イリヤ・オーンスタイン様=Now, the legendary vampire, Lady Illya Ornstein

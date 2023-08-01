@@ -4,7 +4,7 @@
 戦士１・戦士２=Warrior 1 & 2
 r:"^破竹の勢いで勝ち進む二人は、決勝で強敵相手に苦戦を強いられてしまう。([\s\S]{2,10})は逆転を狙い、前線で奮闘する。そんな彼を信じたモニカは新奥義を発動させ、絆の力で勝利をもぎ取る。$"=The two of them advanced with an unstoppable momentum, but they faced a tough opponent in the final. $1 aimed for a comeback and fought hard on the front line. Monika, who believed in him, activated her new secret technique and snatched victory with the power of their bond.
 
-r:"^(?:\[3C404EFF\])?大会当日──(?:\[3C404EFF\])?\nモニカと(.{2,10})は会場にて、開会式に参加していた。$"=On the day of the tournament, Monika and $3 were at the venue, participating in the opening ceremony.
+r:"^大会当日──\nモニカと(.{2,10})は会場にて、開会式に参加していた。$"=On the day of the tournament, Monika and $3 were at the venue, participating in the opening ceremony.
 これより、開会式を始めたいと思います！\nまずはご覧ください！　この大観衆を！=We will now begin the opening ceremony!\nPlease take a look at this crowd!
 おおおおっ！=Ohhhh!
 ランドソル一の最強コンビを見届けようと、\n会場は満員となっています！=They are here to witness the strongest duo in Landosol!
@@ -12,13 +12,13 @@ r:"^(?:\[3C404EFF\])?大会当日──(?:\[3C404EFF\])?\nモニカと(.{2,10})�
 がんばってねー！！=Good luck!!
 あいつら、応援に来てくれたのか。\nそれにしても、すごい熱気だな……=Are they here to cheer for us? Anyway, it's amazing how enthusiastic they are...
 緊張してる？=Are you nervous?
-r:"^(?:\[3C404EFF\])?そ、(?:\[3C404EFF\])?それは(.{2,10})の方だろう！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……と(?:\[3C404EFF\])?言ってやるつもりだったが、(?:\[3C404EFF\])?普段と変わらん様子だな……$"=T-that's you, $3... meant to say that, but it looks like we're the same.
+r:"^そ、それは(.{2,10})の方だろう！\n……と言ってやるつもりだったが、普段と変わらん様子だな……$"=T-that's you, $3... meant to say that, but it looks like we're the same.
 私はこの人数に臆したわけではない。\nそれでも貴公の調子を見ていたら、少し肩の力が抜けた。=I'm not intimidated by this number of people.\nBut seeing your condition, I feel a little more relaxed.
 ……そうだとも。\n状況が変わろうとも、いつも通り力を尽くすのみだ！=...That's right. No matter what the situation is, we just have to do our best as always!
 そして戦いの舞台はこちら！\n相手を戦闘不能にするか。降参させるか。\nそれともこのフィールドの場外へ追い込むのか……戦略はさまざま！=And the stage of the battle is here! You can either make your opponent incapacitated or surrender. Or you can push them out of this field... There are various strategies!
 さぁさぁ！\nここからは手に汗握る真剣勝負を、刮目せよっ！！=Come on!\nFrom here on, watch carefully the serious battle that will make you sweat!
 それでは第一試合！　選手入場です！\n両チーム、どうぞ中央へ！=Let's begin the first match! Players are entering! Both teams, please head to the center!
-r:"^(?:\[3C404EFF\])?よし！　(?:\[3C404EFF\])?私たちの出番だ。(?:\[3C404EFF\])?\n(.{2,10})、(?:\[3C404EFF\])?行くぞ！$"=All right! It's our turn.\n$1, let's go!
+r:"^よし！　私たちの出番だ。\n(.{2,10})、行くぞ！$"=All right! It's our turn.\n$1, let's go!
 げっ！？　あの時の……\n言っておくが、子供が相手でも手加減はしないぞ。=Geh?! That guy from that time... I'll tell you, I won't go easy on you even if you're a kid.
 奇遇だね！　それとも運命なのかな！？\nでも敵同士だなんて、僕は悲しいよ……！=What a coincidence! Or is it fate!? But I'm sad that we're enemies...
 なんだ、おまえたちか。因縁があるな。\nお互い、いい戦いをしよう。=I see, it's you guys. We have some history. Let's have a good fight.
@@ -26,7 +26,7 @@ r:"^(?:\[3C404EFF\])?よし！　(?:\[3C404EFF\])?私たちの出番だ。(?:\[3
 先にあの小僧を片付けるぞ！=I'll take care of that brat first!
 おっけー　それじゃ、僕が先行でいくよっ！=Okay, then I'll go ahead!
 
-r:"^(?:\[3C404EFF\])?貴公の予想した通りで来たな。(?:\[3C404EFF\])?私が迎え撃つ。(?:\[3C404EFF\])?\n援護は頼んだぞ！　(?:\[3C404EFF\])?(.{2,10})！$"=It's just as my predicted. I'll intercept them. Cover me! $5!
+r:"^貴公の予想した通りで来たな。私が迎え撃つ。\n援護は頼んだぞ！　(.{2,10})！$"=It's just as my predicted. I'll intercept them. Cover me! $5!
 受けてみよっ……せりゃあっ！！=Let's try it......Take this!!
 羽のように軽そうな子だし、\n空中斬りなんてすぐ振り払えると思ったけど、ちょっとこれは……！　=She looked as light as a feather, and I thought she could easily shake off an aerial slash, but this is...!　
 よし！　体勢が崩れた！\nこのまま宙返りで着地！　背後からトドメの──=Yes! He lost his balance! I'll land with a somersault and finish him off from behind with──
@@ -47,7 +47,7 @@ r:"^(?:\[3C404EFF\])?貴公の予想した通りで来たな。(?:\[3C404EFF\])?
 モニカがすごいって言ってるよ。=Monika, they say it's amazing.
 本当か？　だとすれば、我が参謀殿のおかげだな。\n貴公の助けなくして、私の活躍はなかった。=Is that true? If so, it's thanks to comrade.\nWithout your help, I wouldn't have been able to shine.
 私は前線で攻撃と守りを。貴公はそんな私に支援と指示を。\n私たちの戦い方を貫いていけば、どんな相手にも負けはしない！！=I attack and defend on the front line. You support and instruct me. If we stick to our way of fighting, we won't lose to anyone!!
-r:"^(?:\[3C404EFF\])?こうしてモニカと(.{2,10})は順調に順位を上げ、(?:\[3C404EFF\])?\nついに準決勝を勝ち抜き、決勝戦出場が決まったのだった……$"=And so, Monika and $2 steadily climbed the ranks, and finally won the semi-finals, securing their spot in the final match...
+r:"^こうしてモニカと(.{2,10})は順調に順位を上げ、\nついに準決勝を勝ち抜き、決勝戦出場が決まったのだった……$"=And so, Monika and $2 steadily climbed the ranks, and finally won the semi-finals, securing their spot in the final match...
 みなさま！　お待たせしました！\nいよいよ最終決戦が始まります！！\n勝ち上がったのは……この２チームです！！=Ladies and gentlemen! Thank you for waiting! The final showdown is about to begin!! The two teams that made it are... these two!!
 貴公、やはりこうなったぞ。\n我らの最後の相手は……あの兄弟だ。=You, both of you came to this after all.\nOur last opponent is... those brothers.
 通称『クラッシャー兄弟』！\n数々の大会で優勝を果たしてきたこの二人！\n覇者たちが見せる豪快な戦いをとくとご覧あれ～！=Known as the "Crusher Brothers"! These two have won many tournaments with their spectacular fights! Watch and marvel at the champions' mighty battle!
@@ -82,7 +82,7 @@ r:"^(?:\[3C404EFF\])?こうしてモニカと(.{2,10})は順調に順位を上�
 ん？　モニカ選手……剣を構えて集中しています！\nどうやらまだ奥の手があるようですね！=Hm? Monika... is concentrating with her sword ready! It seems she still has a trump card!
 私が新奥義を放ち、形勢逆転を狙う。\nその準備を終えるまで、あいつが時間を稼いでくれる。=I'll unleash a new secret technique and turn the tide. Until I finish preparing, he'll buy me some time.
 しかし……=But...
-r:"^(?:\[3C404EFF\])?しかし、(?:\[3C404EFF\])?それを黙って見ているわけがありません！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?クラッシャー兄弟の総攻撃に……(?:\[3C404EFF\])?ああっ！(?:\[3C404EFF\])?\n$1選手ダウン！$"=But they won't let that happen quietly! The Crusher Brothers' all-out attack on... oh no! $1 is down!
+r:"^しかし、それを黙って見ているわけがありません！\nクラッシャー兄弟の総攻撃に……ああっ！\n$1選手ダウン！$"=But they won't let that happen quietly! The Crusher Brothers' all-out attack on... oh no! $1 is down!
 やはり失敗か……！　奥義が成功するとも限らん……\n私も前線へ戻って、あいつと一緒に戦った方が……！　=So it was a failure after all...! There's no guarantee my ultimate technique will succeed... I should go back to the front lines and fight alongside him...!　
 おおっ！？　立ち上がりました……！！\nそして兄の方に……しがみついた！？　弟は引きはがそうとしますが……\nうまい！　見事な避けっぷりです！！=Oooh!? He got up...!! And he clung to The Brothers...! The Brothers tries to shake him off, but... nice! He dodges skillfully!!
 死に物狂いです！　ある種の執念すら感じます！\n一体なにが彼をここまで突き動かすのでしょうか！？=He's desperate! I can feel a kind of tenacity from him! What drives him to this extent!?
@@ -101,14 +101,14 @@ r:"^(?:\[3C404EFF\])?しかし、(?:\[3C404EFF\])?それを黙って見ている
 勝利を、友のために……！　=Victory, for my friend...!
 旋風雷閃撃鎖斬っ！！=Whirlwind Thunder Flash Lock!!
 みなさま、お待たせいたしました！\nこれより、表彰式を始めます！\nチャンピオンチーム、表彰台へどうぞ！！=Ladies and gentlemen, thank you for your patience! We will now begin the award ceremony! Champion team, please come to the podium!!
-r:"^(?:\[3C404EFF\])?(.{2,10})、(?:\[3C404EFF\])?歩けるか？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?……だいぶあいつらに痛めつけられたからな。(?:\[3C404EFF\])?\n体も顔も(?:\[3C404EFF\])?ひどいことになっている……$"=Can you walk, $1? ...You were badly hurt by them. Your body and face are in a terrible state...
+r:"^(.{2,10})、歩けるか？\n……だいぶあいつらに痛めつけられたからな。\n体も顔もひどいことになっている……$"=Can you walk, $1? ...You were badly hurt by them. Your body and face are in a terrible state...
 
 男前だって褒められた。=I want to show the manly side.
 そうなのか？\n私から言わせれば、貴公は出会った時から変わらないがな……=Is that so?\nIf you ask me, you haven't changed since we met...
 見ず知らずの私を心配して危険な場所までついてきて、\n困っている私のために、見返りもなく力を貸してくれた。=You worried about me, a stranger, and followed me to a dangerous place. You helped me without asking for anything in return when I was in trouble.
 私を子供のようにからかうこともあるが、\n私を私以上に信頼してくれて、迷っている時は道を一緒に探してくれた。=You sometimes tease me like a child, but you trust me more than I trust myself. When I'm lost, you help me find the way.
 背を預けあえる仲間は多くいるが、\n貴公が隣にいると……どんな状況でも、不思議と負ける気がしない。\n……貴公が、私をそうさせるのだ。=I have many comrades who can rely on each other, but when you're next to me... No matter what situation, I don't feel like losing. ...You make me feel that way.
-r:"^(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?最初から『男前』だったぞ。$"="$1, you were "manly" from the start."
+r:"^(.{2,10})は最初から『男前』だったぞ。$"="$1, you were "manly" from the start."
 い、今のは友人としての意見だ！\nにしても、ずいぶんと歩きにくそうだな……よし！=T-that was just my opinion as a friend! Anyway, you look very hard to walk... Here!
 私の肩に掴まれ。\n腕を回すのは無理でも、支えぐらいにはなるはずだ。=Hold on to my shoulder. Even if you can't wrap your arm around me, I should be able to support you.
 よし、これなら……わっとっと！？=OK, this should do it... Whoa!
@@ -116,104 +116,104 @@ r:"^(?:\[3C404EFF\])?(.{2,10})は(?:\[3C404EFF\])?最初から『男前』だっ
 しかし、そうやって私たちはここまで来たのだ。\n支えあっていこうではないか！　これからも、ずっとずっとな！=But that's how we got here. Let's support each other! From now on, forever and ever!
 我が友よ、準備はいいか！？\nではあの表彰台に向かって……さぁ行くぞっ！！=My friend, are you ready!? Then let's head to that podium... Let's go!!
 
-r:"^(?:\[3C404EFF\])?支え支えられ、モニカと(.{2,10})は表彰台へと上がった。(?:\[3C404EFF\])?\n次の日、新聞に掲載された小さな軍人のインタビューには、(?:\[3C404EFF\])?\n祖国やランドソルのこと……友への感謝の言葉が綴られていたという。$"=Supporting and supported by each other, Monika and $1 climbed up to the podium. The next day, a small interview with a soldier was published in the newspaper. It contained words of gratitude to their country, Landosol... and their friend.
+r:"^支え支えられ、モニカと(.{2,10})は表彰台へと上がった。\n次の日、新聞に掲載された小さな軍人のインタビューには、\n祖国やランドソルのこと……友への感謝の言葉が綴られていたという。$"=Supporting and supported by each other, Monika and $1 climbed up to the podium. The next day, a small interview with a soldier was published in the newspaper. It contained words of gratitude to their country, Landosol... and their friend.
 
-[3C404EFF]これより、[3C404EFF]開会式を始めたいと思います！[3C404EFF]\nまずはご覧ください！　[3C404EFF]この大観衆を！=We will now begin the opening ceremony!\nPlease take a look at this crowd!
-[3C404EFF]おおおおっ！=Ohhhh!
-[3C404EFF]ランドソル一の最強コンビを見届けようと、[3C404EFF]\n会場は満員となっています！=They are here to witness the strongest duo in Landosol!
-[3C404EFF]モニカ隊長ー！！=Captain Monica!!
-[3C404EFF]がんばってねー！！=Good luck!!
-[3C404EFF]あいつら、[3C404EFF]応援に来てくれたのか。[3C404EFF]\n[3C404EFF]それにしても、[3C404EFF]すごい熱気だな……=e they here to cheer for us?\nAnyway, it's amazing how enthusiastic they are...
-[3C404EFF]私は[3C404EFF]この人数に臆したわけではない。[3C404EFF]\n[3C404EFF]それでも[3C404EFF]貴公の調子を見ていたら、[3C404EFF]少し[3C404EFF]肩の力が抜けた。=I'm not intimidated by this number of people.\nBut seeing your condition, I feel a little more relaxed.
-[3C404EFF]……そうだとも。[3C404EFF]\n状況が変わろうとも、[3C404EFF]いつも通り力を尽くすのみだ！=...That's right. No matter what the situation is, we just have to do our best as always!
-[3C404EFF]そして[3C404EFF]戦いの舞台はこちら！[3C404EFF]\n相手を戦闘不能にするか。[3C404EFF]降参させるか。[3C404EFF]\nそれとも[3C404EFF]このフィールドの場外へ追い込むのか……[3C404EFF]戦略はさまざま！=And the stage of the battle is here! You can either make your opponent incapacitated or surrender. Or you can push them out of this field... There are various strategies!
-[3C404EFF]さぁさぁ！[3C404EFF]\nここからは手に汗握る真剣勝負を、[3C404EFF]刮目せよっ！！=Come on!\nFrom here on, watch carefully the serious battle that will make you sweat!
-[3C404EFF]それでは第一試合！　[3C404EFF]選手入場です！[3C404EFF]\n両チーム、[3C404EFF]どうぞ中央へ！=Let's begin the first match!\nPlayers are entering!\nBoth teams, please head to the center!
-[3C404EFF]げっ！？　[3C404EFF]あの時の……[3C404EFF]\n[3C404EFF]言っておくが、[3C404EFF]子供が相手でも手加減はしないぞ。=Geh?! That guy from that time...\nI'll tell you, I won't go easy on you even if you're a kid.
-[3C404EFF]奇遇だね！　[3C404EFF]それとも運命なのかな！？[3C404EFF]\n[3C404EFF]でも敵同士だなんて、[3C404EFF]僕は悲しいよ……！=What a coincidence! Or is it fate!? But I'm sad that we're enemies...!
-[3C404EFF]なんだ、[3C404EFF]おまえたちか。[3C404EFF]因縁があるな。[3C404EFF]\n[3C404EFF]お互い、[3C404EFF]いい戦いをしよう。=I see, it's you guys. We have some history. Let's have a good fight.
-[3C404EFF]それでは[3C404EFF]両チームの挨拶が終わったところで……[3C404EFF]\n[3C404EFF]試合開始！！=Now that both teams have finished their greetings......the match begins!!
-[3C404EFF]先にあの小僧を片付けるぞ！=I'll take care of that brat first!
-[3C404EFF]おっけー　[3C404EFF]それじゃ、[3C404EFF]僕が先行でいくよっ！=Okay, then I'll go ahead!
 
-[3C404EFF]受けてみよっ……[3C404EFF]せりゃあっ！！=Let's try it......Take this!!
-[3C404EFF]羽のように軽そうな子だし、[3C404EFF]\n空中斬りなんてすぐ振り払えると思ったけど、[3C404EFF]ちょっとこれは……！　=She looked as light as a feather, and I thought she could easily shake off an aerial slash, but this is...!　
-[3C404EFF]よし！　[3C404EFF]体勢が崩れた！[3C404EFF]\nこのまま宙返りで着地！　[3C404EFF]背後からトドメの──=Yes! He lost his balance! I'll land with a somersault and finish him off from behind with──
-[3C404EFF]うわ[3C404EFF]っ！？=Whoa!?
-[3C404EFF]一撃でノックダウン！？　[3C404EFF]これはすごい！[3C404EFF]\nしかしモニカ選手、[3C404EFF]ここで止まらず、[3C404EFF]\n疾風のような速さでフィールドを駆け抜けていきます！=A knockdown in one hit!? This is amazing! But Monika doesn't stop there, she runs across the field with the speed of a gale!
-[3C404EFF]目指すその先には──=Her target is──
-[3C404EFF]来るなら来いっ！！=Don't come any closer!!
-[3C404EFF]覚悟っ！！=Prepare yourself!!
-[3C404EFF]紫電一閃っ！！=Violetshock Flare!!
-[3C404EFF]うわあ[3C404EFF]あっ！？=Uwaaaa!?
-[3C404EFF]ま、[3C404EFF]まさに一撃必殺……！[3C404EFF]\nモニカ選手の体が光に包まれたと思ったら、[3C404EFF]\nものすごい稲妻と共に[3C404EFF]勝負が決まりました！！=A-A one-hit kill...!\nAs soon as Monika's body was wrapped in light, the match was decided with a tremendous thunderbolt!!
-[3C404EFF]勝者、[3C404EFF]モニカチームです！！！！=The winner is Monika's team!!!
-[3C404EFF]し、[3C404EFF]信じらんねぇ……[3C404EFF]\nあんな小さな子が倒しちまった……=I-I can't believe it...\nThat little girl defeated him...
-[3C404EFF]ふ[3C404EFF]ふん！　[3C404EFF]モニカ隊長っていうんだ！[3C404EFF]\n[3C404EFF]遠い国から、[3C404EFF]俺たちと友達になるために来たんだぜ！=Hehe! Her name is Captain Monika!\nShe is our friend that came from a faraway country!
-[3C404EFF]そ、[3C404EFF]そうなのか……[3C404EFF]\n[3C404EFF]ところで、[3C404EFF]相棒の方はずっと後ろにいたな。[3C404EFF]\n[3C404EFF]剣を構えたまんま、[3C404EFF]なにやってたんだ？=Is that so... By the way, her partner was behind her all the time. He had his sword ready, what was he doing?
-[3C404EFF]あのね、[3C404EFF]お兄ちゃんは援護担当なんだよ！[3C404EFF]\n[3C404EFF]実はすっごい魔法を使って、[3C404EFF]モニカ隊長を助けてたの！=You see, he's in charge of support! He actually used amazing magic to help Captain Monika!
-[3C404EFF]な、[3C404EFF]なんだ。[3C404EFF]そういうことか……[3C404EFF]\n[3C404EFF]つまりあの二人は[3C404EFF]『どっちもすげー』ってことか……[3C404EFF]\n[3C404EFF]これはとんだダークホースかもしれんぞ！！=I see. So that's how it is... In other words, they are both "awesome"... This might be a dark horse!!
-[3C404EFF]本当か？　[3C404EFF]だとすれば、[3C404EFF]我が参謀殿のおかげだな。[3C404EFF]\n[3C404EFF]貴公の助けなくして、[3C404EFF]私の活躍はなかった。=Is that true? If so, it's thanks to comrade.\nWithout your help, I wouldn't have been able to shine.
-[3C404EFF]私は前線で攻撃と守りを。[3C404EFF]貴公はそんな私に[3C404EFF]支援と指示を。[3C404EFF]\n[3C404EFF]私たちの戦い方を貫いていけば、[3C404EFF]どんな相手にも負けはしない！！=I attack and defend on the front line. You support and instruct me. If we stick to our way of fighting, we won't lose to anyone!!
 
-[3C404EFF]みなさま！　[3C404EFF]お待たせしました！[3C404EFF]\nいよいよ最終決戦が始まります！！[3C404EFF]\n勝ち上がったのは……[3C404EFF]この２チームです！！=Ladies and gentlemen! Thank you for waiting! The final showdown is about to begin!! The two teams that made it are... these two!!
 
-[3C404EFF]貴公、[3C404EFF]やはりこうなったぞ。[3C404EFF]\n[3C404EFF]我らの最後の相手は……[3C404EFF]あの兄弟だ。=You, both of you came to this after all.\nOur last opponent is... those brothers.
-[3C404EFF]通称『クラッシャー兄弟』！[3C404EFF]\n数々の大会で優勝を果たしてきたこの二人！[3C404EFF]\n覇者たちが見せる豪快な戦いを[3C404EFF]とくとご覧あれ～！=Known as the "Crusher Brothers"! These two have won many tournaments with their spectacular fights! Watch and marvel at the champions' mighty battle!
-[3C404EFF]対するは……[3C404EFF]異色のダークホース！！[3C404EFF]\n一見すれば、[3C404EFF]とても挑戦者には見えません。[3C404EFF]\nしかし！　[3C404EFF]彼らこそまさに新しい風！　[3C404EFF]その戦いに[3C404EFF]刮目してください！=On the other hand... a dark horse with a unique style!! At first glance, they don't look like challengers at all. But! They are the new wind! Pay attention to their fight!
-[3C404EFF]それでは両者、[3C404EFF]なにか意気込みを──=Now, both teams, do you have any words to say before──
-[3C404EFF]不要だ。[3C404EFF]騎士道たるもの、[3C404EFF]言葉ではなく、[3C404EFF]刃で語るべし。=No need. A knight should speak with his blade, not his words.
-[3C404EFF]同感だな。[3C404EFF]さっそく始めよう。=I agree. Let's get started.
-[3C404EFF]えっ、[3C404EFF]えっ！？[3C404EFF]\n……[3C404EFF]ええと、[3C404EFF]両者気合[3C404EFF]十分のようです！[3C404EFF]\nそれでは……[3C404EFF]はじめ！！=Eh, eh!?\n...Um, both teams are full of spirit!\nThen... begin!!
-[3C404EFF]よし、[3C404EFF]貴公。[3C404EFF]\n作戦通り、[3C404EFF]まず奴らの動きを観察してから──=Alright, comrade.\nAs planned, first observe their movements and then──
-[3C404EFF]とぉりゃあああ──っ！！！！=Take this──!!!
-[3C404EFF]いきなりだと！？[3C404EFF]\n[3C404EFF]貴公、[3C404EFF]避けろっ！！=All of a sudden?!\nComrade, dodge!!
-[3C404EFF]ケホッコホッ……[3C404EFF]さ、[3C404EFF]さすがクラッシャー兄弟！[3C404EFF]\n序盤からクライマックス級の一撃です！！[3C404EFF]\nモニカチームは無事でしょうか！？=Cough cough... As expected of the Crusher Brothers!\nA climax-level blow from the start!! Is Team Monika alright!?
-[3C404EFF]貴公、[3C404EFF]大丈夫か？　[3C404EFF]とっさに紫電一閃で相殺しようとしたのだが……[3C404EFF]\n攻撃を反らすだけで精いっぱいだった……=Are you all right, comrade? I tried to counter with my Violetshock Flare... but I could only deflect their attack...
-[3C404EFF]そうだな。[3C404EFF]しかし……[3C404EFF]腕を負傷してしまった。[3C404EFF]\n当初はあいつらが疲れてきたところで[3C404EFF]\nあの奥義を使う予定だったが……[3C404EFF]それまで私が持ちこたえられない。=That's good. But... my arm injured. I was planning to use that secret technique when they got tired... but I don't think I can hold out until then.
-[3C404EFF]では今すぐ使えるかといえば……[3C404EFF]\n[3C404EFF]あいつらが元気なうちは、[3C404EFF]前線を守る私もうかつに隙を作れない。[3C404EFF]\n[3C404EFF]貴公、[3C404EFF]すまない。[3C404EFF]時間を稼ぐ間に、[3C404EFF]作戦を立て直してくれ！=Then can I use it right now, you say...? As long as they're energetic, I can't afford to make a gap in the front line. You, I'm sorry. While I buy some time, come up with a new plan!
-[3C404EFF]おおっと！　[3C404EFF]二人とも無事のようです！[3C404EFF]\nそしてモニカ選手、[3C404EFF]反撃に乗り出しました！！=Whoops! They're both fine! And Monika is going on the offensive!!
-[3C404EFF]せぇいっ！！　[3C404EFF]やぁっ！！=Take this!! And this!!
-[3C404EFF]速いな。[3C404EFF]しかし、[3C404EFF]一人で我ら兄弟を相手にするつもりか？=You're fast. But are you going to take on our brothers all by yourself?
-[3C404EFF]大した覚悟だが……[3C404EFF]甘いぞっ！=That's some guts... but you're naive!
-[3C404EFF]くぅ……！　[3C404EFF]うわっ……！？=Ugh...! Whoa...!?
-[3C404EFF]モニカ選手、[3C404EFF]二人の攻撃を受け止めるので精いっぱいだ！[3C404EFF]\nしかしそこへ、[3C404EFF]二人が一気に畳みかけます！！[3C404EFF]\nモニカ選手、[3C404EFF]大ピンチだー！？=Monika is barely holding off their attacks! But then, they both go for a final blow!! Monika is in big trouble!?
-[3C404EFF]これで終わりだ。=This is the end.
-[3C404EFF]……くっ！！=......uu!!
-[3C404EFF]……貴公！？=...Comrade!?
-[3C404EFF]貴公が前線に出るつもりか……？[3C404EFF]\n……まさか、[3C404EFF]それが新しい作戦なのか！？[3C404EFF]\n[3C404EFF]いくらなんでも無茶だ！=You're going to the front line...? ...Don't tell me, that's your new plan!? That's too reckless!
-[3C404EFF]いや。[3C404EFF]無茶なのはこいつが一番分かっている。[3C404EFF]\n[3C404EFF]ならば[3C404EFF]私のやるべきことは──=No. He knows better than anyone how reckless that is. Then what I have to do is──
-[3C404EFF]わ、[3C404EFF]分かった……！[3C404EFF]\nこの場は任せるが、[3C404EFF]無理はするなよ！=Alright...! I'll leave this to you, but don't push yourself too hard!
-[3C404EFF]おおっと、[3C404EFF]モニカチームは役割をチェンジするようです！[3C404EFF]\n一体、[3C404EFF]なにを始めようというのでしょうか！=Oh, Team Monika is changing roles! What are they trying to do!
-[3C404EFF]ん？　[3C404EFF]モニカ選手……[3C404EFF]剣を構えて集中しています！[3C404EFF]\nどうやらまだ奥の手があるようですね！=Hm? Monika... is concentrating with her sword ready! It seems she still has a trump card!
-[3C404EFF]私が新奥義を放ち、[3C404EFF]形勢逆転を狙う。[3C404EFF]\n[3C404EFF]その準備を終えるまで、[3C404EFF]あいつが時間を稼いでくれる。=I'll unleash a new secret technique and turn the tide. Until I finish preparing, he'll buy me some time.
-[3C404EFF]しかし……=But...
 
-[3C404EFF]やはり失敗か……！　[3C404EFF]奥義が成功するとも限らん……[3C404EFF]\n私も前線へ戻って、[3C404EFF]あいつと一緒に戦った方が……！　=So it was a failure after all...! There's no guarantee my ultimate technique will succeed... I should go back to the front lines and fight alongside him...!　
-[3C404EFF]おおっ！？　[3C404EFF]立ち上がりました……！！[3C404EFF]\n[3C404EFF]そして兄の方に……[3C404EFF]しがみついた！？　[3C404EFF]弟は引きはがそうとしますが……[3C404EFF]\nうまい！　[3C404EFF]見事な避けっぷりです！！=Oooh!? He got up...!! And he clung to The Brothers...! The Brothers tries to shake him off, but... nice! He dodges skillfully!!
-[3C404EFF]死に物狂いです！　[3C404EFF]ある種の執念すら感じます！[3C404EFF]\n一体なにが彼をここまで突き動かすのでしょうか！？=He's desperate! I can feel a kind of tenacity from him! What drives him to this extent!?
-[3C404EFF]……そんなの、[3C404EFF]決まっているではないか。=...Isn’t that obvious?
-[3C404EFF]あいつが必死に戦っているのは、[3C404EFF]私のためだ。[3C404EFF]\n私をただ信じて……[3C404EFF]好機を待っているのだ。=He's fighting desperately for me. He just trusts me... and waits for the right moment.
-[3C404EFF]あいつは諦めない。[3C404EFF]私が奥義を放つまで、[3C404EFF]絶対に……[3C404EFF]\n[3C404EFF]ならば、[3C404EFF]私がすべきことは……=He won't give up. Until I unleash my secret technique, he will never... Then, what I have to do is...
-[3C404EFF]あいつを信じ、[3C404EFF]私がやるべきことをやり抜く！　=Trust him, and do what I have to do!
-[3C404EFF]すー[3C404EFF]はー……=*Breathe in*, *breathe out*...
-[3C404EFF]ああっ！　[3C404EFF]ついにクラッシャー兄弟が彼を引きはがしました！！[3C404EFF]\n[3C404EFF]二つの刃が、[3C404EFF]可憐な少女に迫ります！[3C404EFF]\nしかしモニカ選手、[3C404EFF]動かないっ！！=Ah! The Crusher Brothers finally pulled him off!! Their blades are approaching the lovely girl! But Monika doesn't move!!
-[3C404EFF]今だっ！！　=Now!!　
-[3C404EFF]!?[3C404EFF]モニカ選手にご注目ください！！[3C404EFF]\nすさまじい風と稲妻が、[3C404EFF]モニカ選手の周囲に渦巻いております！！=Huh!? Look at Monika!! A fierce wind and lightning are swirling around her!!
-[3C404EFF]待たせたなっ！[3C404EFF]\n[3C404EFF]手加減はしない……[3C404EFF]我が奥義、[3C404EFF]受けてみよ！=Sorry to keep you waiting! I won't hold back... Take my secret technique!
-[3C404EFF]なるほど……[3C404EFF]これは予想以上だ。[3C404EFF]\n相手に不足なしっ！　[3C404EFF]我ら兄弟、[3C404EFF]全力で迎え撃とう！=I see... This is more than I expected. They are worthy opponents! Let's face them with our full power, brother!
-[3C404EFF]せりゃぁああっ！！！！=Here we gooooo!!
-[3C404EFF]勝利を、[3C404EFF]友のために……！　=Victory, for my friends...!　
-[3C404EFF]旋風雷閃撃鎖斬っ！！=Whirlwind Thunder Flash Lock!!
-[3C404EFF]みなさま、[3C404EFF]お待たせいたしました！[3C404EFF]\nこれより、[3C404EFF]表彰式を始めます！[3C404EFF]\nチャンピオンチーム、[3C404EFF]表彰台へどうぞ！！=Ladies and gentlemen, thank you for your patience! We will now begin the award ceremony! Champion team, please come to the podium!!
-[3C404EFF]そうなのか？[3C404EFF]\n[3C404EFF]私から言わせれば、[3C404EFF]貴公は出会った時から変わらないがな……=Is that so? If you ask me, you haven't changed since we first met...
-[3C404EFF]見ず知らずの私を心配して[3C404EFF]危険な場所までついてきて、[3C404EFF]\n困っている私のために、[3C404EFF]見返りもなく[3C404EFF]力を貸してくれた。=You worried about me, a stranger, and followed me to a dangerous place. You helped me without asking for anything in return when I was in trouble.
-[3C404EFF]私を[3C404EFF]子供のようにからかうこともあるが、[3C404EFF]\n[3C404EFF]私を[3C404EFF]私以上に信頼してくれて、[3C404EFF]迷っている時は[3C404EFF]道を一緒に探してくれた。=You sometimes tease me like a child, but you trust me more than I trust myself. When I'm lost, you help me find the way.
-[3C404EFF]背を預けあえる仲間は多くいるが、[3C404EFF]\n貴公が隣にいると……[3C404EFF]どんな状況でも、[3C404EFF]不思議と[3C404EFF]負ける気がしない。[3C404EFF]\n[3C404EFF]……貴公が、[3C404EFF]私をそうさせるのだ。=I have many comrades who can rely on each other, but when you're next to me... No matter what situation, I don't feel like losing. ...You make me feel that way.
 
-[3C404EFF]い、[3C404EFF]今のは[3C404EFF]友人としての意見だ！[3C404EFF]\n[3C404EFF]にしても、[3C404EFF]ずいぶんと歩きにくそうだな……[3C404EFF]よし！=T-that was just my opinion as a friend! Anyway, you look very hard to walk... Here!
-[3C404EFF]私の肩に掴まれ。[3C404EFF]\n腕を回すのは無理でも、[3C404EFF]支えぐらいにはなるはずだ。=Hold on to my shoulder. Even if you can't wrap your arm around me, I should be able to support you.
-[3C404EFF]よし、[3C404EFF]これなら……[3C404EFF]わっとっと！？=OK, this should do it... Whoa!
-[3C404EFF]す、[3C404EFF]すまない。[3C404EFF]私もフラフラだな……[3C404EFF]\n[3C404EFF]結局、[3C404EFF]貴公に支えられてしまった。=S-sorry. I'm dizzy too... In the end, you're supporting me.
-[3C404EFF]しかし、[3C404EFF]そうやって私たちは[3C404EFF]ここまで来たのだ。[3C404EFF]\n[3C404EFF]支えあっていこうではないか！　[3C404EFF]これからも、[3C404EFF]ずっと[3C404EFF]ずっとな！=But that's how we got here. Let's support each other! From now on, forever and ever!
-[3C404EFF]我が友よ、[3C404EFF]準備はいいか！？[3C404EFF]\nでは[3C404EFF]あの表彰台に向かって……[3C404EFF]さぁ[3C404EFF]行くぞっ！！=My friend, are you ready!? Then let's head to that podium... Let's go!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

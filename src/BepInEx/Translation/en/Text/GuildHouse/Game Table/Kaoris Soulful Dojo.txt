@@ -43,53 +43,53 @@
 
 r:"^海辺で一人、空手の特訓をしているカオリ。自分の頭の中で思\nい浮かべたマジムンを大量に倒すというイメージトレーニング\nをしていた彼女は、(.{2,10})に応援を頼みながら、特訓に励\nむのであった。$"=Kaori is doing karate training by herself on the beach. She's doing mental training to defeat the Majimun she made up in her mind. With $1 cheering her on, she diligently loses herself in her training.
 
-[3C404EFF]せい、[3C404EFF]はっ！[3C404EFF]\n[3C404EFF]えーい、[3C404EFF]さーっ！=Sei~! Ha~! Eei~! Saa~!
+せい、はっ！\nえーい、さーっ！=Sei~! Ha~! Eei~! Saa~!
 何してるの？=What are you doing?
 r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?(.{2,10})！(?:\[3C404EFF\])?　(?:\[3C404EFF\])?ハイターイ♪(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?これー？(?:\[3C404EFF\])?　イメージトレーニングさー！$"=Ah, $1! Hai-tai!♪\nThis..? It's mental training!
-[3C404EFF]相手はマジムンだからねー[3C404EFF]\n[3C404EFF]故郷の血が騒ぐんだよ～！=You know, because the opponents are Majimun,\nit makes the blood of my homeland boil in me!
+相手はマジムンだからねー\n故郷の血が騒ぐんだよ～！=You know, because the opponents are Majimun,\nit makes the blood of my homeland boil in me!
 r:"^(?:\[3C404EFF\])?(.{2,10})もやってみるー？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?大丈夫、(?:\[3C404EFF\])?私の真似をしたらいいだけよー！$"=You wanna try it too, $1?\nDon't worry, just copy me!
-[3C404EFF]まずは集中してイメージするさー……=Let's focus on imagining them first...
-[3C404EFF]ほら、[3C404EFF]目の前にマジムンがいっぱい出てくるでしょー？[3C404EFF]\nそれをなぎ倒すんさー！=Come on, there's a lot of Majimun in front of you, right?\nLet's mow them down!
+まずは集中してイメージするさー……=Let's focus on imagining them first...
+ほら、目の前にマジムンがいっぱい出てくるでしょー？\nそれをなぎ倒すんさー！=Come on, there's a lot of Majimun in front of you, right?\nLet's mow them down!
 ……え？=...Huh?
-[3C404EFF]え、[3C404EFF]出てこない～？[3C404EFF]\n[3C404EFF]集中力が足りないさ～、[3C404EFF]もっと強くイメージするさ～！=Huh? You're not seeing them?\nYou seem to be lacking concentration.\nYou need to try harder!
-[3C404EFF]難しい？　[3C404EFF]う～ん、[3C404EFF]仕方ないさ～！[3C404EFF]\n[3C404EFF]じゃあ、そこで応援しててほしいさ～！=Too difficult? Hmm, it can't be helped then!\nCheer me on while I show you!
+え、出てこない～？\n集中力が足りないさ～、もっと強くイメージするさ～！=Huh? You're not seeing them?\nYou seem to be lacking concentration.\nYou need to try harder!
+難しい？　う～ん、仕方ないさ～！\nじゃあ、そこで応援しててほしいさ～！=Too difficult? Hmm, it can't be helped then!\nCheer me on while I show you!
 r:"^(?:\[3C404EFF\])?(.{2,10})の応援だけは、(?:\[3C404EFF\])?\nイメージじゃ満足できないからね～♪$"=It seems $1 can't be satisfied with just imagination~♪
-[3C404EFF]じゃあ、[3C404EFF]いっくさ～！=Okay, let's do this!
+じゃあ、いっくさ～！=Okay, let's do this!
 
 礼に始まり礼に終わる=It begins and ends with gratitude!
 
 r:"^イメージトレーニングを終えたカオリは、(.{2,10})と礼を交\nわす。その際に頭をぶつけてしまったカオリは、頭を冷やすた\nめに海へ行こうと誘う。体が冷えたらまた特訓だと、張り切る\nカオリだった。$"=Having finished her mental training, Kaori exchanges bows with $1. She bumps her head into $1 and takes him to the beach to cool his head off. She's excited to do some more special training once they cooled down a bit.
 
-[3C404EFF]はいやぁっ！[3C404EFF]\n[3C404EFF]……ふぅ、[3C404EFF]こんなところだね～♪=Hai-yaah! ...Phew, that should do it~♪
+はいやぁっ！\n……ふぅ、こんなところだね～♪=Hai-yaah! ...Phew, that should do it~♪
 本当にマジムンがいるみたいだった。=It really felt like the Majimun were here
 r:"^(?:\[3C404EFF\])?(.{2,10})にも見えた～？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?よかったさ～！$"=Did you see them too, $1?\nThank goodness!
-[3C404EFF]でもこれで[3C404EFF]イメージトレーニングはバッチリよ～[3C404EFF]\n[3C404EFF]応援してくれて[3C404EFF]ありがとうね～=But with this, my mental training is complete~\nThanks for cheering me on~
-[3C404EFF]そうだ、[3C404EFF]最後はちゃんと礼をしないと～[3C404EFF]\n[3C404EFF]空手は礼に始まり[3C404EFF]礼に終わるのが基本だからね～！=Right... I have to show my thanks!\nKarate starts and ends with properly expressing gratitude!
+でもこれでイメージトレーニングはバッチリよ～\n応援してくれてありがとうね～=But with this, my mental training is complete~\nThanks for cheering me on~
+そうだ、最後はちゃんと礼をしないと～\n空手は礼に始まり礼に終わるのが基本だからね～！=Right... I have to show my thanks!\nKarate starts and ends with properly expressing gratitude!
 r:"^(?:\[3C404EFF\])?(.{2,10})もするの～？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?じゃあ、私と向かい合って～、(?:\[3C404EFF\])?礼っ！$"=You're going to do it too, $1?\nThen, look at me and bow!
 r:"^(?:\[3C404EFF\])?いたた～！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?あは～、(?:\[3C404EFF\])?顔がぶつかっちゃったねぇ♪(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?(.{2,10})、(?:\[3C404EFF\])?勢いよく頭を下げ過ぎだよ～♪$"=Ow ow ow! Aha... our heads bumped into each other♪\n$1, you bowed too deep♪
-[3C404EFF]大丈夫～？　[3C404EFF]顔、[3C404EFF]痛いところはない～？[3C404EFF]\n[3C404EFF]ちょっとよく見せるさ～=Are you alright~? Does your face hurt anywhere~?\nLemme take a look~
-[3C404EFF]ん？[3C404EFF]　近い？[3C404EFF]　[3C404EFF]近づかないと見えないでしょ～？[3C404EFF]\n[3C404EFF]ほらほら、[3C404EFF]逃げちゃダメさ～♪=Hm...? Close...? I can't see it unless I get close, right?\nCome on, don't run away♪
-[3C404EFF]おでこがちょっと赤くなってるだけだね～[3C404EFF]\n[3C404EFF]これくらいなら、[3C404EFF]冷やしておけば大丈夫だね～=Your forehead is just a little red~\nIt should be fine if it's cooled down a bit~
-[3C404EFF]じゃあ、[3C404EFF]冷やすために海に行くさ～！[3C404EFF]\n[3C404EFF]決して泳ぎたいわけじゃないよ～？=Okay, let's go to the beach to cool it down!\nDefinitely not because I want to swim, okay?
-[3C404EFF]体が冷えたら[3C404EFF]またイメージトレーニングして、[3C404EFF]\n[3C404EFF]体をあっためればいいさ～♪=If you cool down, you can do more mental training to warm yourself up~♪
+大丈夫～？　顔、痛いところはない～？\nちょっとよく見せるさ～=Are you alright~? Does your face hurt anywhere~?\nLemme take a look~
+ん？　近い？　近づかないと見えないでしょ～？\nほらほら、逃げちゃダメさ～♪=Hm...? Close...? I can't see it unless I get close, right?\nCome on, don't run away♪
+おでこがちょっと赤くなってるだけだね～\nこれくらいなら、冷やしておけば大丈夫だね～=Your forehead is just a little red~\nIt should be fine if it's cooled down a bit~
+じゃあ、冷やすために海に行くさ～！\n決して泳ぎたいわけじゃないよ～？=Okay, let's go to the beach to cool it down!\nDefinitely not because I want to swim, okay?
+体が冷えたらまたイメージトレーニングして、\n体をあっためればいいさ～♪=If you cool down, you can do more mental training to warm yourself up~♪
 
 
 挑め、己の限界に=Push it to the limit!
 
 マジムンを倒すイメージトレーニングを繰り返し、体が温まっ\nてきたカオリ。これならもっと本気を出せると思ったカオリ\nは、限界を超えるためにより強いマジムンをイメージして、激\nしい特訓に挑むのであった。=Kaori's getting warmed up from all the mental training.\nShe thinks she can get more serious now, so she imagines stronger Majimun to surpass her limits and challenge herself with more intense training.
 
-[3C404EFF]だいぶ体があったまってきたさ～=I'm getting quite warmed up already~
-[3C404EFF]これならもう少し、[3C404EFF]\n本気でやってみてもいいかもねぇ～=Maybe it's time to get a bit more serious~
-[3C404EFF]もっと強くマジムンをイメージするさ～！[3C404EFF]\n今の私の限界を超えるよ～！=I'm going to imagine stronger Majimun,\nand surpass my limits~!
-[3C404EFF]さぁ、[3C404EFF]どんどんかかってくるさ～！=Come on, bring it on~!
+だいぶ体があったまってきたさ～=I'm getting quite warmed up already~
+これならもう少し、\n本気でやってみてもいいかもねぇ～=Maybe it's time to get a bit more serious~
+もっと強くマジムンをイメージするさ～！\n今の私の限界を超えるよ～！=I'm going to imagine stronger Majimun,\nand surpass my limits~!
+さぁ、どんどんかかってくるさ～！=Come on, bring it on~!
 
 本物が一番=The real thing is the best!
 
 r:"^より強くイメージしたマジムンを打ち破ったカオリ。まだまだ\n上を目指せると言う彼女は、休憩するために砂浜に寝転ぶ。([\s\S]{2,10})の膝を枕にしながら、カオリはイメージより本物が一番\nだと微笑む。$"=Kaori defeats the Majimun she envisioned to be even stronger. She says she can still aim higher, so she lies down on the beach to rest. Using $1's knees as a pillow, Kaori smiles and says that the real thing is better than her imagination.
 
-[3C404EFF]琉球犬アラウンドシュートッ！[3C404EFF]\n[3C404EFF]……か、[3C404EFF]勝ったさ～！=Ryukyu-ken Around Shot!\n...I-I won~!
-[3C404EFF]自分でイメージしたものだけど、[3C404EFF]\n[3C404EFF]なかなかの強敵だったさ～！=Although I imagined it myself, it was a pretty formidable enemy~!
-[3C404EFF]さすがに疲れたねぇ～[3C404EFF]\n[3C404EFF]でも、[3C404EFF]まだまだ上を目指せるはずさ～！=Aaah.. I'm exhausted~\nBut I can still aim higher~!
-[3C404EFF]とりあえず今は、[3C404EFF]砂浜に寝転んで休憩さ～[3C404EFF]\n気持ちのいい枕でもあったらいいんだけど、[3C404EFF]\n[3C404EFF]それもイメージで我慢さ～=For now, I just want to lie down on the beach and take a break. It'd be nice if I had a nice pillow, but I'll just have to bear with it~
+琉球犬アラウンドシュートッ！\n……か、勝ったさ～！=Ryukyu-ken Around Shot!\n...I-I won~!
+自分でイメージしたものだけど、\nなかなかの強敵だったさ～！=Although I imagined it myself, it was a pretty formidable enemy~!
+さすがに疲れたねぇ～\nでも、まだまだ上を目指せるはずさ～！=Aaah.. I'm exhausted~\nBut I can still aim higher~!
+とりあえず今は、砂浜に寝転んで休憩さ～\n気持ちのいい枕でもあったらいいんだけど、\nそれもイメージで我慢さ～=For now, I just want to lie down on the beach and take a break. It'd be nice if I had a nice pillow, but I'll just have to bear with it~
 r:"^(?:\[3C404EFF\])?ん？　(?:\[3C404EFF\])?なんか本当に柔らかいさ～？(?:\[3C404EFF\])?\n……(.{2,10})？(?:\[3C404EFF\])?\n私、(?:\[3C404EFF\])?(.{2,10})の膝を枕にしてるさ～？$"=Hm? Something feels.. really soft~ ...$1?\nAm I using $2's lap as a pillow~?
-[3C404EFF]これ、[3C404EFF]イメージ、[3C404EFF]じゃないよね？[3C404EFF]\n[3C404EFF]あは～、[3C404EFF]気持ちいいさ～、[3C404EFF]やっぱり本物が一番だね～♪=I'm not imagining this, am I..?\nAha~, it feels good~, the real thing really is the best~♪
+これ、イメージ、じゃないよね？\nあは～、気持ちいいさ～、やっぱり本物が一番だね～♪=I'm not imagining this, am I..?\nAha~, it feels good~, the real thing really is the best~♪

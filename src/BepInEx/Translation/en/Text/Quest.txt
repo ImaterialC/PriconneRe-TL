@@ -30,14 +30,12 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 ダンジョン=Dungeon
 調査=Expedition
 探索=Grotto
-バトルアリーナ=\u2800  Battle Arena
+バトルアリーナ=Battle Arena
 プリンセスアリーナ=Princess Arena
 キャンペーン中=Campaign
 
 ★3クリアで使用できます。=Can use it once clear with 3★.
 スキップ=Skip
-インクエスト=ain Quest
-メ=M
 同キャラ\n編成中=Already\nAssigned
 バトル開始=Begin Battle
 挑戦する=Start

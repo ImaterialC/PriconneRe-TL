@@ -1,6 +1,6 @@
 常連客=Regular Customer
 『アクシツ商会連合』打倒のため、二人は調査を進めるも突破口が見つからない。だが二人で見た夢の中で、町中のたい焼きを食べて研究する自分を見たタマキは、『アクシツ商会連合』打倒の作戦を思いつく。=To defeat the "Croock'd & Inc.", the two of them continue their investigation, but they can't find a breakthrough. But Tamaki, who saw herself eating and researching taiyaki all over town in a dream, came up with a plan to defeat the "Croock'd & Inc."
-r:"^(?:\[3C404EFF\])?──『アクシツ商会連合』に戦いを挑む決意をした、(?:\[3C404EFF\])?\nタマキと(.{2,10})。(?:\[3C404EFF\])?\n調査を進めながらも、たい焼き屋で働くのであった。$"="──Tamaki and $1, who have decided to challenge the "Croock'd & Inc." to a fight. They continue their investigation while working at a taiyaki shop."
+r:"^──『アクシツ商会連合』に戦いを挑む決意をした、\nタマキと(.{2,10})。\n調査を進めながらも、たい焼き屋で働くのであった。$"="──Tamaki and $1, who have decided to challenge the "Croock'd & Inc." to a fight. They continue their investigation while working at a taiyaki shop."
 うーん、\n今日はお客さんがあんまり来ないにゃ……=Hmm, today there aren't many customers coming in~nya...
 あ！　あそこにいつもの常連さんがいるにゃ！\nおーい！　たい焼きいかがかにゃー！=Ah! There's our regular customer over there~nya!\nHey! How about some taiyaki~nya?
 ……すまねえ、タマキちゃん。\n今はちょっと節約中でな。=...Sorry, Tamaki-chan.\nI'm on a budget right now.
@@ -10,7 +10,7 @@ r:"^(?:\[3C404EFF\])?──『アクシツ商会連合』に戦いを挑む決�
 アクシツ商会連合に所属している商会の調査は済んだにゃ。\nでも、数が多すぎるのにゃあ……=We've finished investigating the companies that belong to the Croock'd & Inc.~nya. But there are too many of them~nya...
 一つ一つ商会を懲らしめて、\n警戒を強められたら、潜り込めなくなるにゃ……=If we punish each company one by one, they'll become more alert and we won't be able to infiltrate them~nya...
 あ～もう！\nどうしたらいいのにゃ～～！！=Ahh, what should we do~nya~~!!
-r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?なんか光が見えるにゃ……(?:\[3C404EFF\])?\n頭を使いすぎて、(?:\[3C404EFF\])?いよいよ幻覚が……(?:\[3C404EFF\])?って、(?:\[3C404EFF\])?(.{2,10})！！(?:\[3C404EFF\])?\nなんか体が光って……(?:\[3C404EFF\])?にゃああああああっ！？$"=Oh, I see some light~nya... I've been using my brain too much and I'm starting to hallucinate... Wait, $1!! Something's glowing on your body...~nyaaaaaaaah!?
+r:"^あ、なんか光が見えるにゃ……\n頭を使いすぎて、いよいよ幻覚が……って、(.{2,10})！！\nなんか体が光って……にゃああああああっ！？$"=Oh, I see some light~nya... I've been using my brain too much and I'm starting to hallucinate... Wait, $1!! Something's glowing on your body...~nyaaaaaaaah!?
 生地の艶……甘い香り……きれいな形……まさにお宝にゃ。\nこんなたい焼きを作るなんて、さすがは超有名店。\nうちの店じゃ、歯が立ちそうにないにゃ……=The gloss of the dough... The sweet smell...\nThe beautiful shape... It's a treasure~nya.\nTo make such taiyaki, you have to be a super famous shop. Our shop can't compete with them~nya...
 でも、大きなミスをしてしまったようだにゃ。\nなんの警戒もせず、このあたしにたい焼きを売るにゃんて……=But they made a big mistake~nya.\nThey sold taiyaki to me without any caution~nya...
 後で驚くがいいにゃ！　町中のたい焼き屋の味を盗む、\n『味の秘密までおいしくいただくにゃ作戦』で、\n自分の味が盗まれてるということに！=They'll be surprised later~nya! With my "Operation Deliciously Steal the Secret of the Taste", they'll find out that their taste has been stolen!
@@ -18,7 +18,7 @@ r:"^(?:\[3C404EFF\])?あ、(?:\[3C404EFF\])?なんか光が見えるにゃ……
 義賊の方がよさそう。=Righteous Thief sounds better.
 怪盗の方がよさそう。=Phantom Thief would be better.
 お、本当かにゃ？\n実はちょっと、貧しい人のために戦う義賊に憧れてたのにゃ～♪=Oh, really~nya?\nActually, I've always admired Righteous thief who fight for the poor~nya♪
-r:"^(?:\[3C404EFF\])?はい、(?:\[3C404EFF\])?(.{2,10})！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?あたしが食べさせてあげるから、(?:\[3C404EFF\])?あ～んするにゃ～♪$"=Here you go, $1!\nI'll feed you, meow~
+r:"^はい、(.{2,10})！\nあたしが食べさせてあげるから、あ～んするにゃ～♪$"=Here you go, $1!\nI'll feed you, meow~
 さて、ではさっそく、\n手に入れたお宝を山分けしようかにゃ～♪=Well then,\nlet's split the treasure we got~nya♪
 お、その顔はもしかして照れてるのかにゃ？\nまあ、こんなにきれいなお姉さんに\n食べさせてもらえるんだから、しかたないかもにゃ～♪=Oh, are you blushing~nya? Well, it can't be helped since you're being fed by such a beautiful Onee-san~nya♪
 お姉さん？=Onee-san?
@@ -37,12 +37,12 @@ r:"^(?:\[3C404EFF\])?はい、(?:\[3C404EFF\])?(.{2,10})！(?:\[3C404EFF\])?\n(?
 ん？\nなんか言いたそうだけど、どうかしたかにゃ？=Hm? You seem like you want to say something, what's the matter~nya?
 協力できてうれしい。=I'm glad I can help.
 ……………………にゃぁっ～～～～！？=...Nyaa~!!
-r:"^(?:\[3C404EFF\])?だ、(?:\[3C404EFF\])?だだ、(?:\[3C404EFF\])?だから(.{2,10})は！(?:\[3C404EFF\])?\nここぞってタイミングで、(?:\[3C404EFF\])?\nそういうこと言うのは反則だからやめるにゃ～！！$"=I-I told you, $1! It's unfair to say something like that at a crucial moment, so stop it~nya!!
+r:"^だ、だだ、だから(.{2,10})は！\nここぞってタイミングで、\nそういうこと言うのは反則だからやめるにゃ～！！$"=I-I told you, $1! It's unfair to say something like that at a crucial moment, so stop it~nya!!
 ま、まあでも……\nその、あ、ありがとにゃ…………=W-Well, anyway...\nTh-Thank you~nya...
 ……あ、あのにゃ？\nこの後も他のたい焼き屋を回るんだけど、\nたい焼きを食べると喉が渇くにゃ……=...Um, speaking of which... Ah, right!\nAfter this, we'll be visiting other taiyaki shops, and eating taiyaki makes me thirsty~nya...
 だ、だから……その、\nお、おお、お茶ぐらいは出すから、\nうちでたい焼きを食べないかにゃ！？=S-So... Um, I-I'll at least serve you some tea, so why don't you eat some taiyaki at my place?!
 喉乾いたなら、お茶を買ってこようか？=If you're thirsty, shall I buy you some tea?
-r:"^(?:\[3C404EFF\])?…………ねえ、(.{2,10})。(?:\[3C404EFF\])?\nちょっとそこに正座するにゃ。$"=...Hey, $1.\nCould you kneel down right there~nya?.
+r:"^…………ねえ、(.{2,10})。\nちょっとそこに正座するにゃ。$"=...Hey, $1.\nCould you kneel down right there~nya?.
 なんで？=Why?
 …………いいから、さっさとやれにゃ♪=...Just do it already~nya♪
 ……は、はい。=...Y-Yes.
@@ -57,7 +57,7 @@ r:"^(?:\[3C404EFF\])?…………ねえ、(.{2,10})。(?:\[3C404EFF\])?\nちょ�
 あ、あれ、確かあたしは……はっ！\n火元は……ふう、\n気を失ってから全然たってないみたいにゃ～=H-Huh? If I remember correctly, I'm...\nAh! The stove...!\nPhew, it looks like it hasn't been that long since we passed out, nya~
 それにしても、客足が悪くて助かったにゃ～\nもしたい焼きを焼いてたら、焦げ焦げのガリガリにゃ。\nそんなものをお客さんに出したら……=Still, I'm glad we didn't get too many customers, nya~, because if I were baking taiyaki, it would have turned out burnt and crunchy~nya. It wouldn't be good to serve such things to customers...
 お客さんに笑ってもらえないね。=They wouldn't be able to smile, right?
-r:"^(?:\[3C404EFF\])?……な、(?:\[3C404EFF\])?なな、(?:\[3C404EFF\])?なんでそのことを知ってるにゃ？(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?も、(?:\[3C404EFF\])?もしかして、(?:\[3C404EFF\])?\nさっきの夢を(.{2,10})も見てたのかにゃ！？$"=...H-H-how do you know about that~nya?\nD-Did you, by any chance, see the same dream as me, $1?!
+r:"^……な、なな、なんでそのことを知ってるにゃ？\nも、もしかして、\nさっきの夢を(.{2,10})も見てたのかにゃ！？$"=...H-H-how do you know about that~nya?\nD-Did you, by any chance, see the same dream as me, $1?!
 い、今すぐ忘れるにゃ～！！\n研究のためとはいえ、町中のたい焼きを食べようとしたり、\n柄にもないこと言ってるあたしを……=I-Immediately forget it~!!\nEven though it was for research purposes, eating taiyaki all over town and saying such uncharacteristic things... I...
 え、『町中』のたい焼きを『食べる』…………？=Eating taiyaki all over town...?
 こ、これにゃ～～～～！！=T-This is it~!!
@@ -65,64 +65,64 @@ r:"^(?:\[3C404EFF\])?……な、(?:\[3C404EFF\])?なな、(?:\[3C404EFF\])?な�
 名付けて！\n『悪い奴らはまとめて猫パンチ作戦』だにゃ～！=Let's name it! The "Bad Guys Get a Cat Punch Operation"~nya!
 すごい！=Amazing!
 こんな作戦を思い付けたのも、夢のあたしのおかげにゃ！\n夢を通してヒントをくれるなんて……\nいや～夢の中でもあたしは優秀だにゃ～♪=I could come up with such a strategy thanks to my dream self! To receive hints through dreams... Oh, even in my dreams, , I'm excellent~nya♪
-r:"^(?:\[3C404EFF\])?それにしても、(?:\[3C404EFF\])?改めて思い出すと(?:\[3C404EFF\])?面白い夢だったにゃ～(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?町中のたい焼きを研究して、(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?途中で(.{2,10})を………………$"=By the way, when I think about it again, it was an interesting dream~ Studying taiyaki all over town and in the middle of it, and $1 along the way.........
-r:"^(?:\[3C404EFF\])?…………ねえ(.{2,10})。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ちょっとそこに正座…………$"=...Hey, $1. Please kneel down right there...
+r:"^それにしても、改めて思い出すと面白い夢だったにゃ～\n町中のたい焼きを研究して、\n途中で(.{2,10})を………………$"=By the way, when I think about it again, it was an interesting dream~ Studying taiyaki all over town and in the middle of it, and $1 along the way.........
+r:"^…………ねえ(.{2,10})。\nちょっとそこに正座…………$"=...Hey, $1. Please kneel down right there...
 用事を思い出した。=I remembered something important.
-r:"^(?:\[3C404EFF\])?──迫るアクシツ商会連合との決戦。(?:\[3C404EFF\])?\nタマキは闘志を燃やしつつ、(?:\[3C404EFF\])?\n(.{2,10})に、乙女の怒りをぶつけるのであった。$"=──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon $1.
+r:"^──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\n(.{2,10})に、乙女の怒りをぶつけるのであった。$"=──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon $1.
 あ～！\nこら待つにゃ～！\nちょっと引っかかせろにゃ～！=Ah~! Wait~nya! Let me catch you~nya!
 ──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\nCorneliaに、乙女の怒りをぶつけるのであった。=──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon $1.
 
-[3C404EFF]うーん、[3C404EFF]\n今日はお客さんがあんまり来ないにゃ……=Hmm, today there aren't many customers coming in~nya...
-[3C404EFF]あ！　[3C404EFF]あそこにいつもの常連さんがいるにゃ！[3C404EFF]\n[3C404EFF]おーい！　[3C404EFF]たい焼きいかがかにゃー！=Ah! There's our regular customer over there~nya!\nHey! How about some taiyaki~nya?
-[3C404EFF]……すまねえ、[3C404EFF]タマキちゃん。[3C404EFF]\n今はちょっと節約中でな。=...Sorry, Tamaki-chan.\nI'm on a budget right now.
-[3C404EFF]そ、[3C404EFF]それは残念にゃ……[3C404EFF]\n[3C404EFF]また来てにゃー！！=That's too bad~nya...\nCome again~nya!!
-[3C404EFF]分かってるにゃ！[3C404EFF]\n[3C404EFF]でも、[3C404EFF]そう簡単にはいかないのにゃあ……=I know~nya!\nBut it's not that easy~nya...
-[3C404EFF]アクシツ商会連合に所属している[3C404EFF]商会の調査は済んだにゃ。[3C404EFF]\n[3C404EFF]でも、[3C404EFF]数が多すぎるのにゃあ……=We've finished investigating the companies that belong to the Croock'd & Inc.~nya. But there are too many of them~nya...
-[3C404EFF]一つ一つ商会を懲らしめて、[3C404EFF]\n警戒を強められたら、[3C404EFF]潜り込めなくなるにゃ……=If we punish each company one by one, they'll become more alert and we won't be able to infiltrate them~nya...
-[3C404EFF]あ～もう！[3C404EFF]\nどうしたらいいのにゃ～～！！=Ahh, what should we do~nya~~!!
-[3C404EFF]生地の艶……[3C404EFF]甘い香り……[3C404EFF]きれいな形……[3C404EFF]まさにお宝にゃ。[3C404EFF]\n[3C404EFF]こんなたい焼きを作るなんて、[3C404EFF]さすがは超有名店。[3C404EFF]\nうちの店じゃ、[3C404EFF]歯が立ちそうにないにゃ……=The gloss of the dough... The sweet smell... The beautiful shape... It's a treasure~nya. To make such taiyaki, you have to be a super famous shop. Our shop can't compete with them~nya...
-[3C404EFF]でも、[3C404EFF]大きなミスをしてしまったようだにゃ。[3C404EFF]\n[3C404EFF]なんの警戒もせず、[3C404EFF]このあたしにたい焼きを売るにゃんて……=But they made a big mistake~nya.\nThey sold taiyaki to me without any caution~nya...
-[3C404EFF]後で驚くがいいにゃ！　[3C404EFF]町中のたい焼き屋の味を盗む、[3C404EFF]\n『味の秘密までおいしくいただくにゃ作戦』で、[3C404EFF]\n[3C404EFF]自分の味が盗まれてるということに！=They'll be surprised later~nya! With my "Operation Deliciously Steal the Secret of the Taste", they'll find out that their taste has been stolen!
-[3C404EFF]こんな完璧な作戦を考えつくなんて、[3C404EFF]自分が恐ろしいにゃ～♪[3C404EFF]\n[3C404EFF]世が世なら、[3C404EFF]怪盗とか義賊として、[3C404EFF]\n世界にその名をとどろかせていたかもしれないにゃ！=To come up with such a perfect plan, I'm scared of myself~nya♪ If this were a different world, I might have been a phantom thief or a righteous thief, making my name known to the world~nya!
-[3C404EFF]お、[3C404EFF]本当かにゃ？[3C404EFF]\n[3C404EFF]実はちょっと、[3C404EFF]貧しい人のために戦う義賊に憧れてたのにゃ～♪=Oh, really~nya?\nActually, I've always admired Righteous thief who fight for the poor~nya♪
-[3C404EFF]さて、[3C404EFF]ではさっそく、[3C404EFF]\n手に入れたお宝を山分けしようかにゃ～♪=Well then,\nlet's split the treasure we got~nya♪
-[3C404EFF]お、[3C404EFF]その顔はもしかして照れてるのかにゃ？[3C404EFF]\n[3C404EFF]まあ、[3C404EFF]こんなにきれいなお姉さんに[3C404EFF]\n食べさせてもらえるんだから、[3C404EFF]しかたないかもにゃ～♪=Oh, are you blushing~nya?\nWell, it can't be helped since you're being fed by such a beautiful Onee-san~nya♪
-[3C404EFF]……ほほう、[3C404EFF]なぜそこで疑問に思ったか、[3C404EFF]\n詳しく聞かせてもらおうじゃないかにゃ～♪=...Hohoho, why did you question that?\nTell me in detail~nya♪
-[3C404EFF]ちなみに！　[3C404EFF]体が小さいとか、[3C404EFF]\n年相応に見えないとか、[3C404EFF]そういう言葉一つにつき一回引っかくから、[3C404EFF]\n言葉は慎重に選ぶことをお勧めしとくにゃ！=By the way! For every word like small body or not looking your age, I'll scratch you once, so I recommend you choose your words carefully~nya!
-[3C404EFF]さて、[3C404EFF]あたしも一口……[3C404EFF]ん～！[3C404EFF]\n[3C404EFF]これ、[3C404EFF]すっごくおいしいにゃ～♪[3C404EFF]\n特にあんこが絶妙にゃ～♪=Well then, I'll have a bite too... Mmm! This is so delicious~nya♪\nEspecially the red bean paste is exquisite~nya♪
-[3C404EFF]ここのたい焼きは、[3C404EFF]あんこを重視しているようにゃ。[3C404EFF]\n[3C404EFF]絶品のあんこを邪魔しないように、[3C404EFF]生地を調整している……[3C404EFF]\n[3C404EFF]まさに職人の技にゃ！=This taiyaki shop focuses on the red bean paste~nya.\nThey adjust the dough so that it doesn't interfere with the superb red bean paste... It's truly a craftsman's skill~nya!
-[3C404EFF]この技術はうちのたい焼きにも……[3C404EFF]ん？[3C404EFF]\nどうかしたのかにゃ？=This technique could be used for our taiyaki too... Hm? What's wrong~nya?
-[3C404EFF]あ、[3C404EFF]もしかして、[3C404EFF]\nあたしが熱心に研究するなんて、[3C404EFF]らしくないかにゃ？=Oh, maybe you think it's not like me to be so enthusiastic about research~nya?
-[3C404EFF]にゃははは！[3C404EFF]\n自分でもそう思ってるから、[3C404EFF]気にしなくていいにゃ～♪=Nyahaha!\nI think so too, so don't worry about it~nya♪
-[3C404EFF]こんなことしても[3C404EFF]バイト代が上がるわけじゃないし、[3C404EFF]\nバイトがここまでする必要ないってのも、[3C404EFF]\n十分に分かってるにゃ。=It's not like my pay will go up by doing this, and I know very well that there's no need for a part-timer to do this much.
-[3C404EFF]……ただ、[3C404EFF]あたしが焼いたたい焼きを食べて、[3C404EFF]\nお客さんが笑ってくれるのが……[3C404EFF]誰かの笑顔のために[3C404EFF]\nなにかできるって思ったら、[3C404EFF]頑張ろうって思っちゃったのにゃ。=...But when they eat the taiyaki I've baked and customers laugh, I feel like I can do something for someone's smile... So I ended up thinking, let's do our best~nya.
-[3C404EFF]にゃ、[3C404EFF]にゃはは～♪[3C404EFF]\n[3C404EFF]柄にもないこと言っちゃったにゃ～♪=Nyahaha~♪\nI said something out of character~nya♪
-[3C404EFF]ほら、[3C404EFF]早く食べて、[3C404EFF]次の店に行くのにゃ！[3C404EFF]\n今日は、[3C404EFF]とことんたい焼きを味わうのにゃ～～♪=Come on, eat quickly so we can go to the next shop~nya!\nToday, let's thoroughly enjoy the taste of taiyaki~nya♪
-[3C404EFF]ん？[3C404EFF]\nなんか言いたそうだけど、[3C404EFF]どうかしたかにゃ？=Hm? You seem like you want to say something, what's the matter~nya?
-[3C404EFF]……………………にゃぁっ～～～～！？=...Meow?!
-[3C404EFF]ま、[3C404EFF]まあ[3C404EFF]でも……[3C404EFF]\nその、[3C404EFF]あ、[3C404EFF]ありがとにゃ…………=W-Well, anyway...\nTh-Thank you~nya...
-[3C404EFF]……あ、[3C404EFF]あのにゃ？[3C404EFF]\nこの後も[3C404EFF]他のたい焼き屋を回るんだけど、[3C404EFF]\nたい焼きを食べると喉が渇くにゃ……=...Um, speaking of which... Ah, right!\nAfter this, we'll be visiting other taiyaki shops, and eating taiyaki makes me thirsty~nya...
-[3C404EFF]だ、[3C404EFF]だから……[3C404EFF]その、[3C404EFF]\n[3C404EFF]お、[3C404EFF]おお、[3C404EFF]お茶ぐらいは出すから、[3C404EFF]\nうちでたい焼きを食べないかにゃ！？=S-So... Um, I-I'll at least serve you some tea, so why don't you eat some taiyaki at my place?!
-[3C404EFF]…………いいから、[3C404EFF]さっさとやれにゃ♪=...Just do it already~nya♪
-[3C404EFF]うんうん、[3C404EFF]人間素直が一番にゃ～♪[3C404EFF]\nじゃあさっそく…………=Yes, being obedient is the best~nya♪\nNow, let's get to it...
-[3C404EFF]…………[3C404EFF]この鈍感バカ～～！[3C404EFF]\n乙女の引っかきをくらうにゃ～～！！=...You clueless idiot~!\nTaste the wrath of a maiden's scratch~!!
-[3C404EFF]……はい、[3C404EFF]そこ正座♪=...Okay, kneel down right there~nya♪
-[3C404EFF]うん、[3C404EFF]素直なのはいいことよ♪[3C404EFF]\n[3C404EFF]ま、それはそれとして……=Yes, being obedient is a good thing♪\nWell, aside from that...
-[3C404EFF]あんたね……[3C404EFF]\nさすがにあれはどうかと思うわよ。=You, um...\nI think that was a bit too much, you know.
-[3C404EFF]タマキが一生懸命誘っていたのに、[3C404EFF]\n『喉乾いたなら、[3C404EFF]お茶を買ってこようか？』って……=Even though Tamaki was doing her best to invite you, you responded with, "If you're thirsty, shall I buy you some tea?"
-[3C404EFF]まあ、[3C404EFF]意識してなかったみたいだけど、[3C404EFF]\nタマキの頑張りを応援したのはよかったと思うわ。[3C404EFF]\n[3C404EFF]あんたもやるようになったじゃない♪=Well, even though you weren't conscious of it, I think it's good that you supported Tamaki's efforts. You've become more proactive too, haven't you?
-[3C404EFF]ほら、[3C404EFF]もういいから、[3C404EFF]\n[3C404EFF]タマキのところに戻ってあげなさい。=Now, come on, that's enough.\nGo back to Tamaki's side.
-[3C404EFF]あ、[3C404EFF]あれ、[3C404EFF]確かあたしは……[3C404EFF]はっ！[3C404EFF]\n火元は……[3C404EFF]ふう、[3C404EFF]\n気を失ってから全然たってないみたいにゃ～=H-Huh? If I remember correctly, I'm...\nAh! The stove...!\nPhew, it looks like it hasn't been that long since we passed out, nya~
-[3C404EFF]それにしても、[3C404EFF]客足が悪くて助かったにゃ～[3C404EFF]\nもしたい焼きを焼いてたら、[3C404EFF]焦げ焦げのガリガリにゃ。[3C404EFF]\nそんなものをお客さんに出したら……=Still, I'm glad we didn't get too many customers, nya~, because if I were baking taiyaki, it would have turned out burnt and crunchy~nya. It wouldn't be good to serve such things to customers...
-[3C404EFF]い、[3C404EFF]今すぐ忘れるにゃ～！！[3C404EFF]\n[3C404EFF]研究のためとはいえ、[3C404EFF]町中のたい焼きを食べようとしたり、[3C404EFF]\n[3C404EFF]柄にもないこと言ってるあたしを……=I-Immediately forget it~!!\nEven though it was for research purposes, eating taiyaki all over town and saying such uncharacteristic things... I...
-[3C404EFF]え、[3C404EFF]『町中』のたい焼きを[3C404EFF]『食べる』…………？=Eating taiyaki all over town...?
-[3C404EFF]こ、[3C404EFF]これにゃ～～～～！！=Th-This is...!!
-[3C404EFF]一つ一つ懲らしめていって相手が警戒するなら、[3C404EFF]\n一度に全員を懲らしめてやればいいのにゃ！=If the opponents become wary as we punish them one by one,\nwhy not punish them all at once~nya!
-[3C404EFF]名付けて！[3C404EFF]\n『悪い奴らはまとめて猫パンチ作戦』だにゃ～！=Let's name it! The "Bad Guys Get a Cat Punch Operation"~nya!
-[3C404EFF]こんな作戦を思い付けたのも、[3C404EFF]夢のあたしのおかげにゃ！[3C404EFF]\n[3C404EFF]夢を通してヒントをくれるなんて……[3C404EFF]\n[3C404EFF]いや～[3C404EFF]夢の中でもあたしは優秀だにゃ～♪=I could come up with such a strategy thanks to my dream self! To receive hints through dreams... Oh, even in my dreams, I'm excellent~nya♪
-[3C404EFF]あ～！[3C404EFF]\nこら待つにゃ～！[3C404EFF]\nちょっと引っかかせろにゃ～！=Ah~! Wait~nya!\nLet me catch you~nya!
 
-[3C404EFF]怪盗いいにゃ～♪[3C404EFF]\nファントムキャッツ[3C404EFF]とか名乗って、[3C404EFF]\n華麗にお宝を頂戴してやりたいにゃ～♪=Phantom Thief~nya♪\nI want to call myself a Phantoms Cat and gracefully receive treasure~♪
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ……いただきます。=...Itadakimasu.
-[3C404EFF]素直でよろしいにゃ！[3C404EFF]\nはい、[3C404EFF]あ～ん♪=I'm glad you're being honest~nya!\nHere, open wide♪
-[3C404EFF]にゃふふ……[3C404EFF]なんだか、[3C404EFF]\n二人でこういうことするのも楽しくていいにゃ～♪=Nyahaha... It's kind of fun to do this together~nya
+
+

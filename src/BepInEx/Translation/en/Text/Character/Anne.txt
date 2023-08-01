@@ -1,30 +1,29 @@
-ン=nne
 読書=Reading
 アンの魔導書=Grimoire Ann
----Bio
+---Bio---
 【魔法】後衛で、英霊の召喚術を武器に戦うお姫様。味方に英霊の加護を付与するスキルによるサポーターと、高威力の魔法によるアタッカーの二つの役割を併せ持つ。=[Magic] Manaria’s genius princess. She summons spirits from the backline to provide blessings to her allies and deal devastating damage to her enemies.
----Profile
+---Profile---
 
----Skills
+---Skills---
 レイディアントコーリング=Radiant Calling
 レイディアントコーリング+=Radiant Calling+
 ディターレントスラスト=Deterrent Thrust
----UB 
+---UB ---
 目の前の敵１キャラに魔法特大ダメージを与え、さらに英霊の加護を受けているキャラの魔法攻撃力を大アップさせる。=Deals massive M.DMG to an enemy directly in front. Boosts the allies' M.ATK under Spirit’s Blessing by a large amount.
 
 r:"^敵単体に(\d+)の魔法ダメージ\n対象の味方の魔法攻撃力を(\d+)アップ$"=Deals $1 M.DMG to an enemy.\nBoosts target allies’ M.ATK by $2 for 18s.
 
----Skill 1 (UE)
+---Skill 1 (UE)---
 目の前の敵１キャラに魔法大ダメージを与え、自分が英霊の加護を受けている場合味方全体のＴＰを小回復し、自分が英霊の加護を受けていない場合自分の行動速度を中アップさせる。=Deals large M.DMG to an enemy directly in front. Recover allies' TP' by a small amount if Anne is under Spirit’s Blessing. Boosts Anne’s action speed if she is not under Spirit’s Blessing
 
 r:"^敵単体に(\d+)の魔法ダメージ\n味方全体のＴＰを(\d+)回復\n自分の行動速度アップ$"=Deals $1 M.DMG to an enemy. \nRecovers all other allies’ TP by $2 if Anne is under Spirit’s Blessing. \nBoosts own action speed to 125% if Anne is not under Spirit’s Blessing for 12s.
 
----Skill 2
+---Skill 2---
 自分を中心とした範囲内の味方すべてに英霊の加護を付与し、さらに魔法攻撃力を中アップさせ、行動速度を小アップさせる。=Grants Spirit’s Blessing to all nearby allies. Boosts their M.ATK by a large amount and their action speed by a small amount.
 
 r:"^範囲内の味方に英霊の加護を付与\n範囲内の味方の行動速度アップ\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=Grants Spirit’s Blessing to allies in range for 12s.\nBoosts action speed of allies to 110% within 200 range. \nBoosts allies' M.ATK within range by $1 for 12s.
 
----Story
+---Story---
     
 英霊と契約を結んだマナリアの天才王女=The spirit-summoning royal prodigy of Manaria
 

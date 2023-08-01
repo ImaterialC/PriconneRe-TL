@@ -8,238 +8,238 @@
 
 r:"^突如現れたミソラに、半ば強引にデートへ連れ出された(.*)\n(.*)。テレポーテーションで様々なデートスポットを回った後、\nミソラはその真意を語り、「騎士さんラブになりたい」と宣言\nする。$"=Misora suddenly appeared and took $1$2 on a date.\nAfter teleporting through various dating spots, she revealed her true intention and declared 'I want to\nlove Kishi-san'.
 
-r:"^(?:\[3C404EFF\])?ある日。(?:\[3C404EFF\])?\n(.{2,10})が、バイトから帰る途中──$"=One day, $1 is going home from a part-time job.
+r:"^ある日。\n(.{2,10})が、バイトから帰る途中──$"=One day, $1 is going home from a part-time job.
 
-[3C404EFF]ふふっ★[3C404EFF]\nだ～～れだっ？=Hehe★ Whooo am I?
+ふふっ★\nだ～～れだっ？=Hehe★ Whooo am I?
 
 分からない。=I don't know.
 
-[3C404EFF]んもー[3C404EFF]\nわたしのこと、[3C404EFF]忘れたなんて言わせませんよ？[3C404EFF]\n[3C404EFF]あんなにいっぱい、[3C404EFF]コロシアイした仲じゃないですか★=Oh you, how can you forget about me～\nAren’t we connected after all that happened★
+んもー\nわたしのこと、忘れたなんて言わせませんよ？\nあんなにいっぱい、コロシアイした仲じゃないですか★=Oh you, how can you forget about me～\nAren’t we connected after all that happened★
 
 ミソラちゃん……=Misora-chan...
 
 まさか、ミソラちゃんっ……？=It can’t be, Misora-chan...？
 
-[3C404EFF]はい★[3C404EFF]\n[3C404EFF]なんだかご無沙汰ですね、[3C404EFF]騎士さん♪=Yep★ It's been a while, Kishi-san♪
+はい★\nなんだかご無沙汰ですね、騎士さん♪=Yep★ It's been a while, Kishi-san♪
 
-[3C404EFF]ふふっ★[3C404EFF]\n[3C404EFF]それはもちろん……=Ehehe★ Obviously it's to...
-[3C404EFF]騎士さんと、[3C404EFF]デートしに来たんです★=Go on a date with Kishi-san★
+ふふっ★\nそれはもちろん……=Ehehe★ Obviously it's to...
+騎士さんと、デートしに来たんです★=Go on a date with Kishi-san★
 
 いいよ。=Fine by me.
 断る。=I refuse.
 
-[3C404EFF]わぁ★[3C404EFF]\nさっすが騎士さん、[3C404EFF]オンナノコ慣れしちゃってますねー♪=As expected of Kishi-san, you know how to please a girl♪
+わぁ★\nさっすが騎士さん、オンナノコ慣れしちゃってますねー♪=As expected of Kishi-san, you know how to please a girl♪
 
-[3C404EFF]んーっと、[3C404EFF]それじゃどうしましょっか。[3C404EFF]\nぶっちゃけ９割お断りされると思ってたので[3C404EFF]\n結構ノープラン気味なんですよね♪=Well then, what should we do now?\nI honestly thought I would get rejected 9 out of 10 times.\nSo I don't know what to do now♪
+んーっと、それじゃどうしましょっか。\nぶっちゃけ９割お断りされると思ってたので\n結構ノープラン気味なんですよね♪=Well then, what should we do now?\nI honestly thought I would get rejected 9 out of 10 times.\nSo I don't know what to do now♪
 
 そのへんで、食べ歩きとか……？=Do you want to find something to eat?
 
-[3C404EFF]なるほどなるほど★[3C404EFF]\n[3C404EFF]とりあえず、[3C404EFF]そのへんをブラブラするってカンジですかね♪=Oh, I see★\nThen let's go to a place I know of♪
+なるほどなるほど★\nとりあえず、そのへんをブラブラするってカンジですかね♪=Oh, I see★\nThen let's go to a place I know of♪
 
 警戒する。=*Keep your guard up*
 
-[3C404EFF]んもぅ、[3C404EFF]やですねー★[3C404EFF]\n[3C404EFF]そんなにコワイカオ、[3C404EFF]しないでくださいよぅ♪=That hurts you knowー★ \nDon’t make such a scary face♪
-[3C404EFF]今のわたしは、[3C404EFF]【レイジ・レギオン】でもなんでもない[3C404EFF]\nフツーのオンナノコですから★[3C404EFF]\n[3C404EFF]騎士さんに怒られるようなこと、[3C404EFF]なーんにもしないですよ？=Right now, I’m not Misora from the "Rage Legion" but just a plain girl★\nI’m not going to do anything bad～
+んもぅ、やですねー★\nそんなにコワイカオ、しないでくださいよぅ♪=That hurts you knowー★ \nDon’t make such a scary face♪
+今のわたしは、【レイジ・レギオン】でもなんでもない\nフツーのオンナノコですから★\n騎士さんに怒られるようなこと、なーんにもしないですよ？=Right now, I’m not Misora from the "Rage Legion" but just a plain girl★\nI’m not going to do anything bad～
 
 それじゃ、何をしにきたの？=Then, why are you here?
 
-[3C404EFF]えーっ、[3C404EFF]いいじゃないですかぁ。[3C404EFF]\n[3C404EFF]騎士さんいつも、[3C404EFF]いろんなオンナノコを[3C404EFF]\nとっかえひっかえしてるんですしー=Ehhhー why not?\nKishi-san is always out with a new girl anywayー
-[3C404EFF]そ・[3C404EFF]れ・[3C404EFF]にー[3C404EFF]\n騎士さんがイヤって言ってもー？[3C404EFF]\n[3C404EFF]えいっ★=And even if you don't want to, I'll justー\nTake this★
+えーっ、いいじゃないですかぁ。\n騎士さんいつも、いろんなオンナノコを\nとっかえひっかえしてるんですしー=Ehhhー why not?\nKishi-san is always out with a new girl anywayー
+そ・れ・にー\n騎士さんがイヤって言ってもー？\nえいっ★=And even if you don't want to, I'll justー\nTake this★
 
-[3C404EFF]こーやってー[3C404EFF]\nラブラブってカンジで、[3C404EFF]ぎゅっとくっついて──=Like this──\nI'll get closer with you──
+こーやってー\nラブラブってカンジで、ぎゅっとくっついて──=Like this──\nI'll get closer with you──
 
-[3C404EFF]それじゃ、[3C404EFF]\nラブラブってカンジで、[3C404EFF]ぎゅっとくっついて──=Now── Get closer with me──
+それじゃ、\nラブラブってカンジで、ぎゅっとくっついて──=Now── Get closer with me──
 
-[3C404EFF]はい★[3C404EFF]\nテレポーテーション～=Alright★ Teleportation～
+はい★\nテレポーテーション～=Alright★ Teleportation～
 
 船の上……！？=We're on a boat!?
 
-[3C404EFF]ふふっ★[3C404EFF]\n記念すべき、[3C404EFF]騎士さんとわたしの初デートなわけですし？[3C404EFF]\nとっても美味しいものが食べたいなーって。=Hehe★ It’s our first date, right?\nI want to eat something really delicious.
+ふふっ★\n記念すべき、騎士さんとわたしの初デートなわけですし？\nとっても美味しいものが食べたいなーって。=Hehe★ It’s our first date, right?\nI want to eat something really delicious.
 
-[3C404EFF]それに[3C404EFF]今ちょっと、[3C404EFF]和食な気分ですし？[3C404EFF]\n[3C404EFF]新鮮なお刺身とか、[3C404EFF]いいですよね★=Well, right now I’m feeling like something traditional...\nSashimi from a fresh fish would be nice★
+それに今ちょっと、和食な気分ですし？\n新鮮なお刺身とか、いいですよね★=Well, right now I’m feeling like something traditional...\nSashimi from a fresh fish would be nice★
 
-[3C404EFF]あっ。[3C404EFF]\n[3C404EFF]でもでも、[3C404EFF]釣り竿とかエサがありませんでした。[3C404EFF]\n[3C404EFF]それじゃあ──=Ah! But we don’t have a fishing rod or bait to fish with.\nWell then──
+あっ。\nでもでも、釣り竿とかエサがありませんでした。\nそれじゃあ──=Ah! But we don’t have a fishing rod or bait to fish with.\nWell then──
 
-[3C404EFF]よいしょっと★=There we go★
+よいしょっと★=There we go★
 
-[3C404EFF]じゃーん♪[3C404EFF]\nダイナマイト漁ならぬ、[3C404EFF]ガトリング漁ですよ～★=Tadaa♪ Let's fish with dynamites and gatling guns!
+じゃーん♪\nダイナマイト漁ならぬ、ガトリング漁ですよ～★=Tadaa♪ Let's fish with dynamites and gatling guns!
 
-[3C404EFF]うおっ！？[3C404EFF]\nなんだお前ら！=Agh!? Who're you guys?
+うおっ！？\nなんだお前ら！=Agh!? Who're you guys?
 
 
-[3C404EFF]密航者か！？[3C404EFF]\nどこに隠れてやがった！=Stowaways!? Where were they hiding!
+密航者か！？\nどこに隠れてやがった！=Stowaways!? Where were they hiding!
 
-[3C404EFF]んー[3C404EFF]\n騒ぎになっちゃいましたかぁ。=Oopsー We made too much of a ruckus。
+んー\n騒ぎになっちゃいましたかぁ。=Oopsー We made too much of a ruckus。
 
-[3C404EFF]あっ★[3C404EFF]\nイイコト思いつきました♪[3C404EFF]\n[3C404EFF]このひとたちを撒き餌に──=Ah★ I came up with a good idea♪\nLet’s use these people as bait──
+あっ★\nイイコト思いつきました♪\nこのひとたちを撒き餌に──=Ah★ I came up with a good idea♪\nLet’s use these people as bait──
 
 ダメだよ。=Don't do that.
 
-[3C404EFF]ふふっ、[3C404EFF]冗談ですって★=Ehehe, it’s just a joke★
+ふふっ、冗談ですって★=Ehehe, it’s just a joke★
 
-[3C404EFF]それじゃあもう一回──[3C404EFF]ぎゅっ♪=Well then, let’s try once again──♪
+それじゃあもう一回──ぎゅっ♪=Well then, let’s try once again──♪
 
-[3C404EFF]おい！[3C404EFF]\n──って、[3C404EFF]消えたぁっ！？=What! T-They disappeared!?
+おい！\n──って、消えたぁっ！？=What! T-They disappeared!?
 
-[3C404EFF]お、[3C404EFF]おお[3C404EFF]お化けェッ！？=It’s a g-g-GHOST!?
+お、おおお化けェッ！？=It’s a g-g-GHOST!?
 
-[3C404EFF]う～[3C404EFF]ら～[3C404EFF]め～[3C404EFF]し～[3C404EFF]や～……=I’m going～ to curse you～
+う～ら～め～し～や～……=I’m going～ to curse you～
 
-[3C404EFF]やーん、[3C404EFF]こわーい★[3C404EFF]\n騎士さぁん、[3C404EFF]たすけてくださーい♪=Kyaaa, I’m so scared★ \nKishi-san, please save me ♪
+やーん、こわーい★\n騎士さぁん、たすけてくださーい♪=Kyaaa, I’m so scared★ \nKishi-san, please save me ♪
 
 ぜんぜん怖そうじゃない……=You’re not scared at all...
 
-[3C404EFF]eh?[3C404EFF]\nそんなことないですってー=Ehh? That’s not true at allー
+えっ？\nそんなことないですってー=Ehh? That’s not true at allー
 
-[3C404EFF]ほらほら見てくださいよ、[3C404EFF]\n指も声も[3C404EFF]こんなに震えて……=Just look at me, my hands and voice is shaking...
+ほらほら見てくださいよ、\n指も声もこんなに震えて……=Just look at me, my hands and voice is shaking...
 
 ないね……=It’s not...
 
 ……あはっ。=...Ehe.
 
-[3C404EFF]そうですねー[3C404EFF]\n「オバケ屋敷でカレシにオンナノコっぽくアピール」するのって、[3C404EFF]\nデートの定番かなって思ったんですけど……=You’re not wrongー And I thought 「Getting Scared\nin a Haunted House」 is a common dating trope for getting closer to each other...
+そうですねー\n「オバケ屋敷でカレシにオンナノコっぽくアピール」するのって、\nデートの定番かなって思ったんですけど……=You’re not wrongー And I thought 「Getting Scared\nin a Haunted House」 is a common dating trope for getting closer to each other...
 
-[3C404EFF]アトラクションの幽霊さんが怖いかって聞かれても、[3C404EFF]\n[3C404EFF]しょせん作り物ですし？[3C404EFF]\n[3C404EFF]壊そうと思えば、[3C404EFF]簡単に壊せちゃいますからねー=Well if you ask me if these ghost are scary, I already know it's just a fake ghost so it’s easier to just destroy themー
+アトラクションの幽霊さんが怖いかって聞かれても、\nしょせん作り物ですし？\n壊そうと思えば、簡単に壊せちゃいますからねー=Well if you ask me if these ghost are scary, I already know it's just a fake ghost so it’s easier to just destroy themー
 
-[3C404EFF]ひぃっ……！？=Hieee...!
+ひぃっ……！？=Hieee...!
 
-[3C404EFF]ふふっ、[3C404EFF]わかってますって★=Ehehe, alright★
+ふふっ、わかってますって★=Ehehe, alright★
 
-[3C404EFF]んー[3C404EFF]でも。[3C404EFF]\n[3C404EFF]ちょーっと目当てハズレちゃいましたかねー[3C404EFF]\n[3C404EFF]次はもっと、[3C404EFF]楽しそうなところにしましょっか★=Though, I think this place is kind of a let downー\nLet’s do something more fun★
+んーでも。\nちょーっと目当てハズレちゃいましたかねー\n次はもっと、楽しそうなところにしましょっか★=Though, I think this place is kind of a let downー\nLet’s do something more fun★
 
-[3C404EFF]赤っ！[3C404EFF]\n赤の奇数こい！=Red! Come on, odd red!
+赤っ！\n赤の奇数こい！=Red! Come on, odd red!
 
-[3C404EFF]黒っ！[3C404EFF]\n黒のローこいぃぃっ！=Black! Come on, even black!
+黒っ！\n黒のローこいぃぃっ！=Black! Come on, even black!
 
-[3C404EFF]騎士さん騎士さん、[3C404EFF]\nわたしたちはどこにベットします？=Kishi-san! Where are we going to bet？
+騎士さん騎士さん、\nわたしたちはどこにベットします？=Kishi-san! Where are we going to bet？
 
 ルーレット、よく分からないんだけど……= I don’t understand Roulette...
 
-[3C404EFF]テキトーでいいですよ♪[3C404EFF]\n[3C404EFF]一番上の、[3C404EFF]ゼロが二つ並んでるのとかどうですか？=It’s fine, just do your best♪\nWhat about the first one from the top?
+テキトーでいいですよ♪\n一番上の、ゼロが二つ並んでるのとかどうですか？=It’s fine, just do your best♪\nWhat about the first one from the top?
 
 じゃあ、それで。=Then, that one.
 
-[3C404EFF]Yes～★[3C404EFF]\n[3C404EFF]それじゃあディーラーさん、[3C404EFF]00に有り金全部です♪=Okaay★\nThen Dealer-san, all money on 00♪
+はーい★\nそれじゃあディーラーさん、00に有り金全部です♪=Okaay★\nThen Dealer-san, all money on 00♪
 
-[3C404EFF]ノー・モア・ベット。[3C404EFF]\nグッドラック。=No・More・Bets.\nGood luck.
+ノー・モア・ベット。\nグッドラック。=No・More・Bets.\nGood luck.
 
-[3C404EFF]コロコロコロコロ……=*dice rolls around*
+コロコロコロコロ……=*dice rolls around*
 
-[3C404EFF]フッ。[3C404EFF]\n嬢ちゃん坊ちゃん、[3C404EFF]おのぼりさん丸だしだぜ！=Heh.\nMiss, I can tell you're a newbie!
+フッ。\n嬢ちゃん坊ちゃん、おのぼりさん丸だしだぜ！=Heh.\nMiss, I can tell you're a newbie!
 
-[3C404EFF]そーそー！[3C404EFF]\nストレートアップなんざ、[3C404EFF]狙うもんじゃねーっての！=Yeah, definitely!\nNo one would bet it all on a single number unless you're a newbie!
+そーそー！\nストレートアップなんざ、狙うもんじゃねーっての！=Yeah, definitely!\nNo one would bet it all on a single number unless you're a newbie!
 
-[3C404EFF]えーっ、[3C404EFF]そうなんですかー♪=Ohhh, is that soー♪
+えーっ、そうなんですかー♪=Ohhh, is that soー♪
 
-[3C404EFF]ああ。[3C404EFF]\nたしか、[3C404EFF]確率３％もいかねーはずだかんなぁ！=Yeah. If I remember correctly, the chance of winning a single number doesn't even reach 3%!
+ああ。\nたしか、確率３％もいかねーはずだかんなぁ！=Yeah. If I remember correctly, the chance of winning a single number doesn't even reach 3%!
 
-[3C404EFF]クク……[3C404EFF]残念だが、[3C404EFF]０％だよ。[3C404EFF]\nわたしのボールコントロールは正確無比。[3C404EFF]\n子供たちには悪いが、[3C404EFF]勉強代と思ってもらおうか……=Heheh... Unfortunately for you, it's actually 0%.\nI can control where the ball will land when I threw it. I feel bad for you kids, but just think of it as learning experience!
+クク……残念だが、０％だよ。\nわたしのボールコントロールは正確無比。\n子供たちには悪いが、勉強代と思ってもらおうか……=Heheh... Unfortunately for you, it's actually 0%.\nI can control where the ball will land when I threw it. I feel bad for you kids, but just think of it as learning experience!
 
-[3C404EFF]わぁ★[3C404EFF]\nそろそろ玉が落ちそうですよ[3C404EFF]騎士さんっ。[3C404EFF]\n[3C404EFF]ドキドキしますね～♪=Woww★\nKishi-san, the ball is going to stop soon.\nIt's so nerve-wracking～♪
+わぁ★\nそろそろ玉が落ちそうですよ騎士さんっ。\nドキドキしますね～♪=Woww★\nKishi-san, the ball is going to stop soon.\nIt's so nerve-wracking～♪
 
-[3C404EFF]赤！[3C404EFF]\n赤の奇数～っ！=Red! It's an odd red!
+赤！\n赤の奇数～っ！=Red! It's an odd red!
 
-[3C404EFF]黒のローこいぃぃっ！=Black! It's an even black!
+黒のローこいぃぃっ！=Black! It's an even black!
 
-[3C404EFF]──黒の29。[3C404EFF]\n間違いなく……=──I know already it'll land on 29 Black.
+──黒の29。\n間違いなく……=──I know already it'll land on 29 Black.
 
-[3C404EFF]……よっと。=...Just a little push.
+……よっと。=...Just a little push.
 
-[3C404EFF]うぉっ！？[3C404EFF]\n[3C404EFF]玉が跳ねた！？=What!? The ball bounced!?
+うぉっ！？\n玉が跳ねた！？=What!? The ball bounced!?
 
-[3C404EFF]なんだぁ！？[3C404EFF]\nありえねえ、[3C404EFF]あんな動き……！=Impossible, that kind of movement...！
+なんだぁ！？\nありえねえ、あんな動き……！=Impossible, that kind of movement...！
 
-[3C404EFF]00！[3C404EFF]\n[3C404EFF]やったぁ、[3C404EFF]騎士さんすごーい★=It landed on 00! Yay!\nKishi-san is so amazing★
+00！\nやったぁ、騎士さんすごーい★=It landed on 00! Yay!\nKishi-san is so amazing★
 
-[3C404EFF]バ、[3C404EFF]バカなっ……！[3C404EFF]\nどんなイカサマだ、[3C404EFF]魔法の対策だって万全のはずなのに……！　=T-that can’t be...! How did she cheat?\nOur countermeasures should've caught her...！　
+バ、バカなっ……！\nどんなイカサマだ、魔法の対策だって万全のはずなのに……！　=T-that can’t be...! How did she cheat?\nOur countermeasures should've caught her...！　
 
 帰ろう。=Let's go home.
 
-[3C404EFF]……はーい。=...Alright.
+……はーい。=...Alright.
 
-[3C404EFF]ディーラーさん、[3C404EFF]ごめんなさーい♪[3C404EFF]\n配当は結構ですのでー=Sorry, Dealer-san♪ You can keep our winningsー
+ディーラーさん、ごめんなさーい♪\n配当は結構ですのでー=Sorry, Dealer-san♪ You can keep our winningsー
 
-[3C404EFF]き、[3C404EFF]消えた……=T-they’re gone...
+き、消えた……=T-they’re gone...
 
-[3C404EFF]なんだったんだ、[3C404EFF]一体……=What just... happened...
+なんだったんだ、一体……=What just... happened...
 
-[3C404EFF]ふぅ★[3C404EFF]\n誰もいない教室って、[3C404EFF]落ち着きますねー=Phew～★\nAn empty classroom sure is calmingー
+ふぅ★\n誰もいない教室って、落ち着きますねー=Phew～★\nAn empty classroom sure is calmingー
 
 イカサマしちゃダメだよ。=Don't cheat again.
 
-[3C404EFF]んー[3C404EFF]でもでもー[3C404EFF]\n[3C404EFF]あのディーラーさん、[3C404EFF]投げるときにコントロールしてたみたいですし。[3C404EFF]\nちょっとくらい、[3C404EFF]痛い目にあってもらったって──=Uuuー but...\nWhen that Dealer-san threw the ball, he was clearly making sure we'll lose. I just wanted to play around with him a bit──
+んーでもでもー\nあのディーラーさん、投げるときにコントロールしてたみたいですし。\nちょっとくらい、痛い目にあってもらったって──=Uuuー but...\nWhen that Dealer-san threw the ball, he was clearly making sure we'll lose. I just wanted to play around with him a bit──
 
-[3C404EFF]はーい。=Alriiight.
-[3C404EFF]……はぁ。=...Haah.
+はーい。=Alriiight.
+……はぁ。=...Haah.
 
-[3C404EFF]ごめんなさい。[3C404EFF]\nデートだったのに、[3C404EFF]騎士さん楽しくなさそうですね。[3C404EFF]\n[3C404EFF]やっぱり、[3C404EFF]わたしなんかと一緒じゃ……=I’m sorry. Even though we’re on a date, you don't look like you're enjoying it.\nAs I thought, if I’m together with you...
+ごめんなさい。\nデートだったのに、騎士さん楽しくなさそうですね。\nやっぱり、わたしなんかと一緒じゃ……=I’m sorry. Even though we’re on a date, you don't look like you're enjoying it.\nAs I thought, if I’m together with you...
 
 それより、どうしてデートしたいの？=Why did you want to date me?
 
-[3C404EFF]もー[3C404EFF]\nそんなの、[3C404EFF]決まってるじゃないですか。[3C404EFF]\n[3C404EFF]わたしが騎士さんのコトを、[3C404EFF]「ダイスキ」だからでーす。=Uuuー That should be obvious.\nIt’s because... I "love" Kishi-san.
+もー\nそんなの、決まってるじゃないですか。\nわたしが騎士さんのコトを、「ダイスキ」だからでーす。=Uuuー That should be obvious.\nIt’s because... I "love" Kishi-san.
 
 ……本当に？=...Really?
 
-[3C404EFF]……あはっ。=...Ehe.
+……あはっ。=...Ehe.
 
-[3C404EFF]……覚えてますか？[3C404EFF]\n騎士さん。[3C404EFF]\nわたしたちが、[3C404EFF]最初に会ったときのコト。=Do you still remember, Kishi-san? That time we first met.
+……覚えてますか？\n騎士さん。\nわたしたちが、最初に会ったときのコト。=Do you still remember, Kishi-san? That time we first met.
 
-[3C404EFF]この教室で。[3C404EFF]\n転校してきたペコリーヌさんや、[3C404EFF]キャルさんと。[3C404EFF]\n遊んで[3C404EFF]勉強して[3C404EFF]給食を食べて、[3C404EFF]仲良くなって──=Together with Pecorine-chan and Kyaru-chan in this classroom. Playing, studying, and eating together in the school while slowly getting closer to each other──
+この教室で。\n転校してきたペコリーヌさんや、キャルさんと。\n遊んで勉強して給食を食べて、仲良くなって──=Together with Pecorine-chan and Kyaru-chan in this classroom. Playing, studying, and eating together in the school while slowly getting closer to each other──
 
-[3C404EFF]それから、[3C404EFF]コロシアイしましたね★=After that, we fought each other★
+それから、コロシアイしましたね★=After that, we fought each other★
 
-[3C404EFF]その次は、[3C404EFF]オーエドでしたっけ。[3C404EFF]\n[3C404EFF]ふふっ、[3C404EFF]あのときは楽しかったですね。=The next event was an Ooedo festival, right? Hehe, it was really fun.
+その次は、オーエドでしたっけ。\nふふっ、あのときは楽しかったですね。=The next event was an Ooedo festival, right? Hehe, it was really fun.
 
-[3C404EFF]ランファさんと温泉に入ったり、[3C404EFF]騎士さんの夢に入ったり──=Together with Ranpha-san in an onsen, and with Kishi-san in a dream──
+ランファさんと温泉に入ったり、騎士さんの夢に入ったり──=Together with Ranpha-san in an onsen, and with Kishi-san in a dream──
 
-[3C404EFF]そのあとは、[3C404EFF]ちょっと時間があきましたけど。[3C404EFF]\n[3C404EFF]【レイジ・レギオン】総出で、[3C404EFF]コロシアイでした♪[3C404EFF]\nそれでそれでー=We had some downtime after. But it's not long until 【Rage Legion】 went all out and we fought again♪\nAnd after thatー
+そのあとは、ちょっと時間があきましたけど。\n【レイジ・レギオン】総出で、コロシアイでした♪\nそれでそれでー=We had some downtime after. But it's not long until 【Rage Legion】 went all out and we fought again♪\nAnd after thatー
 
 ……それで、最後に……=In the end...
 
-[3C404EFF]……そうですね。[3C404EFF]\n【悪魔偽王国軍（ディアボロス）】や他のみなさんと、[3C404EFF]ゲームして。[3C404EFF]\nコロシアイして……[3C404EFF]わたし、[3C404EFF]負けちゃったんですよね。=...That’s right.\nWe played with Diabolos and everyone else.\nWe fought... and ultimately we lost.
+……そうですね。\n【悪魔偽王国軍（ディアボロス）】や他のみなさんと、ゲームして。\nコロシアイして……わたし、負けちゃったんですよね。=...That’s right.\nWe played with Diabolos and everyone else.\nWe fought... and ultimately we lost.
 
-[3C404EFF]思い出してみると、[3C404EFF]わたしたち[3C404EFF]コロシアイばっかりでしたよね。[3C404EFF]\n[3C404EFF]まぁ[3C404EFF]ウザ絡み好きっぽいわたしとしては、[3C404EFF]\nそれでもフツーに楽しかったんですけど。[3C404EFF]でも……=Thinking back, we've only been fighting all this time.\nI still had fun, but...
+思い出してみると、わたしたちコロシアイばっかりでしたよね。\nまぁウザ絡み好きっぽいわたしとしては、\nそれでもフツーに楽しかったんですけど。でも……=Thinking back, we've only been fighting all this time.\nI still had fun, but...
 
-[3C404EFF]もう、[3C404EFF]騎士さんたちと戦う理由もないですし。[3C404EFF]\n[3C404EFF]わたしも[3C404EFF]戦うこと自体がスキっていうよりは、[3C404EFF]\n構ってもらうのがスキってカンジなので。=Because of Kishi-san, there’s no reason for us to fight anymore.\nThough I mainly just wanted the attention from everyone～
+もう、騎士さんたちと戦う理由もないですし。\nわたしも戦うこと自体がスキっていうよりは、\n構ってもらうのがスキってカンジなので。=Because of Kishi-san, there’s no reason for us to fight anymore.\nThough I mainly just wanted the attention from everyone～
 
-[3C404EFF]それなら……[3C404EFF]戦い以外の方法で、[3C404EFF]\n騎士さんに構ってもらうのもありかな～？[3C404EFF]\nって★=And if that's the case...\nMaybe I can still get Kishi-san’s attention even without fighting each other～? Ehe★
+それなら……戦い以外の方法で、\n騎士さんに構ってもらうのもありかな～？\nって★=And if that's the case...\nMaybe I can still get Kishi-san’s attention even without fighting each other～? Ehe★
 
 それで、デートを？=Is that what the date is for?
 
-[3C404EFF]……ふふっ♪[3C404EFF]\n[3C404EFF]もちろん、[3C404EFF]それだけじゃないですよ。=...Ehehe♪ Of course that’s not all.
+……ふふっ♪\nもちろん、それだけじゃないですよ。=...Ehehe♪ Of course that’s not all.
 
-[3C404EFF]だって──[3C404EFF]\n[3C404EFF]とっても楽しそうじゃないですか、[3C404EFF]恋愛って★=Because──\nBeing in love sounds like a lot of fun, don't you think?★
+だって──\nとっても楽しそうじゃないですか、恋愛って★=Because──\nBeing in love sounds like a lot of fun, don't you think?★
 
-[3C404EFF]ランファさんも、[3C404EFF]騎士さんのまわりのオンナノコたちも。[3C404EFF]\n[3C404EFF]わたしより、[3C404EFF]かわいそうだったあの人も……[3C404EFF]\n[3C404EFF]みーんな恋してて。=Ranpha-san and the girls with Kishi-san are also in love. Even other people who looked more pitiful than me...\nAll of them are in love.
+ランファさんも、騎士さんのまわりのオンナノコたちも。\nわたしより、かわいそうだったあの人も……\nみーんな恋してて。=Ranpha-san and the girls with Kishi-san are also in love. Even other people who looked more pitiful than me...\nAll of them are in love.
 
-[3C404EFF]喜んだり。[3C404EFF]ときめいたり。[3C404EFF]苦しんだりして。[3C404EFF]\n[3C404EFF]なんだかみなさん、[3C404EFF]生きてるーってカオしてるんですよね。=Being happy. Excited. And sad...\nSomehow everyone just has those faces that says they're alive.
+喜んだり。ときめいたり。苦しんだりして。\nなんだかみなさん、生きてるーってカオしてるんですよね。=Being happy. Excited. And sad...\nSomehow everyone just has those faces that says they're alive.
 
-[3C404EFF]わたしは、[3C404EFF]恋愛とかよくわからないんですけど。[3C404EFF]\n[3C404EFF]そんなふうに生き生きしてるみなさんのことは、[3C404EFF]\n[3C404EFF]うらやましいなー[3C404EFF]って思うんです。=I don't quite get love myself. But whenever I see other people like that, I get really jealousー I think.
+わたしは、恋愛とかよくわからないんですけど。\nそんなふうに生き生きしてるみなさんのことは、\nうらやましいなーって思うんです。=I don't quite get love myself. But whenever I see other people like that, I get really jealousー I think.
 
-[3C404EFF]だから、[3C404EFF]とりあえず？　[3C404EFF]じゃないですけど──=That's why, even if it's not right now──
+だから、とりあえず？　じゃないですけど──=That's why, even if it's not right now──
 
-[3C404EFF]騎士さんに、[3C404EFF]恋してみちゃおっかなーって★=I want to fall in love with Kishi-san★
+騎士さんに、恋してみちゃおっかなーって★=I want to fall in love with Kishi-san★
 
 よく分からない……=I don’t quite get it...
 
-[3C404EFF]あはっ★[3C404EFF]\nわからないほうがいいかもですよ♪[3C404EFF]\n[3C404EFF]それって騎士さんが、[3C404EFF]マトモってコトだと思いますから。=Ehe★ It's probably better if you don't understand♪ Kishi-san's a good person after all.
+あはっ★\nわからないほうがいいかもですよ♪\nそれって騎士さんが、マトモってコトだと思いますから。=Ehe★ It's probably better if you don't understand♪ Kishi-san's a good person after all.
 
-[3C404EFF]……わたし、[3C404EFF]ですね？[3C404EFF]\n今までイロイロ……[3C404EFF]諦めちゃってたんですよね。=But me...? To this day, there's a lot of things I've given up.
+……わたし、ですね？\n今までイロイロ……諦めちゃってたんですよね。=But me...? To this day, there's a lot of things I've given up.
 
-[3C404EFF]恋とか。[3C404EFF]\n生きることとか。[3C404EFF]\n[3C404EFF]誰かを本当に好きになったりとか、[3C404EFF]好きになってもらったりとか。=Such as being in love. Or even living itself.\nI've given up expecting to love someone and to be loved back as much.
+恋とか。\n生きることとか。\n誰かを本当に好きになったりとか、好きになってもらったりとか。=Such as being in love. Or even living itself.\nI've given up expecting to love someone and to be loved back as much.
 
-[3C404EFF]でも──[3C404EFF]この前。[3C404EFF]\n[3C404EFF]どんなことがあっても、[3C404EFF]諦めずに戦ってる騎士さんたちを見て。[3C404EFF]\n[3C404EFF]わたしももうちょっとだけ……[3C404EFF]諦めないでみようかなーって。=But── back when I saw Kishi-san kept fighting on without giving up.\nI had a thought... that maybe I shouldn't give up too.
+でも──この前。\nどんなことがあっても、諦めずに戦ってる騎士さんたちを見て。\nわたしももうちょっとだけ……諦めないでみようかなーって。=But── back when I saw Kishi-san kept fighting on without giving up.\nI had a thought... that maybe I shouldn't give up too.
 
-[3C404EFF]……ぎゅっ★=*hugs*★
+……ぎゅっ★=*hugs*★
 
-[3C404EFF]わたし[3C404EFF]騎士さんのこと、[3C404EFF]スキですよ？[3C404EFF]\n[3C404EFF]それはホントにホントです。[3C404EFF]\n[3C404EFF]もし恋をするなら、[3C404EFF]相手は騎士さんがいいなって思います。=I really like Kishi-san, you know? It's really true.\nIf I were to fall in love, I wouldn't mind if it's with you.
+わたし騎士さんのこと、スキですよ？\nそれはホントにホントです。\nもし恋をするなら、相手は騎士さんがいいなって思います。=I really like Kishi-san, you know? It's really true.\nIf I were to fall in love, I wouldn't mind if it's with you.
 
-[3C404EFF]でもでも……[3C404EFF]\n[3C404EFF]ん～=But...～
+でもでも……\nん～=But...～
 
-[3C404EFF]まだ、[3C404EFF]ドキドキが足りないっていうか。[3C404EFF]\n[3C404EFF]ラブなひとに「ぎゅっ」てしたら、[3C404EFF]ハートも「ぎゅっ」とか[3C404EFF]\n[3C404EFF]「キュン★」[3C404EFF]ってなるかなーって思うんですけど。=It's still not enough right now.\nIf I'm really in love, my heart would go all 「Gyuuu★」\nand 「Kyuun★」 when I hug you wouldn't I?
+まだ、ドキドキが足りないっていうか。\nラブなひとに「ぎゅっ」てしたら、ハートも「ぎゅっ」とか\n「キュン★」ってなるかなーって思うんですけど。=It's still not enough right now.\nIf I'm really in love, my heart would go all 「Gyuuu★」\nand 「Kyuun★」 when I hug you wouldn't I?
 
-[3C404EFF]……まだ、[3C404EFF]やっぱり。[3C404EFF]\n今のわたしは、[3C404EFF]騎士さんラブじゃなくて[3C404EFF]\n[3C404EFF]ライクみたいなんですよねー=...As I thoght, right now I'm not in "love" with Kishi-san yet.\nAt best it's just "like" right now──
+……まだ、やっぱり。\n今のわたしは、騎士さんラブじゃなくて\nライクみたいなんですよねー=...As I thoght, right now I'm not in "love" with Kishi-san yet.\nAt best it's just "like" right now──
 
-[3C404EFF]でもでも？[3C404EFF]\nさっきも言ったとおり、[3C404EFF]わたし諦めないですから♪[3C404EFF]\n騎士さんラブになれるように、[3C404EFF]これからがんばりまーす★=But...! I’m not going to give up♪\nI’ll do my best starting from now so I can get to love Kishi-san★
+でもでも？\nさっきも言ったとおり、わたし諦めないですから♪\n騎士さんラブになれるように、これからがんばりまーす★=But...! I’m not going to give up♪\nI’ll do my best starting from now so I can get to love Kishi-san★
 
-r:"^(?:\[3C404EFF\])?──かつて敵として出会い、(?:\[3C404EFF\])?\n(.{2,10})たちと何度も争った少女・ミソラ。(?:\[3C404EFF\])?\n果たして彼女は、(.{2,10})ラブになれるのだろうか……？$"=──they first met as enemies, the girl who fought with $1 many times previously, Misora.\nCan she really get to love $3...?
+r:"^──かつて敵として出会い、\n(.{2,10})たちと何度も争った少女・ミソラ。\n果たして彼女は、(.{2,10})ラブになれるのだろうか……？$"=──they first met as enemies, the girl who fought with $1 many times previously, Misora.\nCan she really get to love $3...?

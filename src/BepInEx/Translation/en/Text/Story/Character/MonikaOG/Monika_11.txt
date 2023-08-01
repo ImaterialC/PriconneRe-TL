@@ -1,7 +1,7 @@
 敵チームの生徒=Enemy Team Student
 味方チームの生徒=Ally Team Student
 モニカは新奥義の特訓が難航し、焦っていた。ある時夢の世界で彼女は、友を信じ好機を待つことが大切だと悟る。夢の出来事を通じて確かな感覚を掴んだモニカは、ついに新奥義を会得するのだった。=Monika was struggling with her special training for a new secret technique and was feeling anxious. One time, in the world of dreams, she realized that it was important to trust her friends and wait for the right opportunity. Through the events of the dream, Monika gained a certain sense of the technique and finally mastered it.
-r:"^(?:\[3C404EFF\])?数日後に開幕する大会で優勝するべく、(?:\[3C404EFF\])?\n(.{2,10})が見守る中、(?:\[3C404EFF\])?\nモニカは連日、新奥義の修行を行っていた。しかし……$"=In order to win the tournament that would begin in a few days, as $1 watched, Monica practiced her new ultimate technique day after day, but...
+r:"^数日後に開幕する大会で優勝するべく、\n(.{2,10})が見守る中、\nモニカは連日、新奥義の修行を行っていた。しかし……$"=In order to win the tournament that would begin in a few days, as $1 watched, Monica practiced her new ultimate technique day after day, but...
 うわあっ！？=Uwaaah!?
 ……だ、大丈夫だ。岩を砕くどころか、\n自分の技で吹き飛ばされてしまうとは情けない……\n話は祖国で聞いていたが、これほど会得が難しいとはな……=...I'm fine. It's pathetic that I can't even break a rock, let alone blow myself away with my own technique... I heard stories from my homeland, but I didn't know it was so hard to master...
 もう一度だ！\n……っ！=One more time!...!
@@ -100,98 +100,97 @@ r:"^(?:\[3C404EFF\])?数日後に開幕する大会で優勝するべく、(?:\[
 最後の奥の手として、なるべく使わないようにしよう。\n使いどころは……そうだな。貴公の作戦にゆだねる。=I'll try not to use it as much as possible as a last resort. The timing is... yeah. I'll leave it to your strategy.
 大会は明日からだ。\n最後まで共に、全力を尽くして戦おう。=The tournament starts tomorrow. Let's fight together with all our strength until the end.
 
-r:"^(?:\[3C404EFF\])?差し出された、傷だらけの小さな手。(?:\[3C404EFF\])?\n(.{2,10})はその手に触れ、大きくうなずくのだった。$"=She reached out her small hand covered in wounds. $1 touched that hand and nodded firmly.
-
-
-[3C404EFF]うわあっ！？=Uwaaa!?
-[3C404EFF]……だ、[3C404EFF]大丈夫だ。[3C404EFF]岩を砕くどころか、[3C404EFF]\n自分の技で吹き飛ばされてしまうとは[3C404EFF]情けない……[3C404EFF]\n話は祖国で聞いていたが、[3C404EFF]これほど会得が難しいとはな……=...I'm fine. It's pathetic that I can't even break a rock, let alone blow myself away with my own technique... I heard stories from my homeland, but I didn't know it was so hard to master...
-[3C404EFF]もう一度だ！[3C404EFF]\n[3C404EFF]……っ！=One more time! ...!
-[3C404EFF]あはははっ！！！！[3C404EFF]\n……[3C404EFF]なにをするっ！？　[3C404EFF]というより、[3C404EFF]どうしてくすぐった！？=Ahahahaha!!... What are you doing!?\nAnd why are you tickling me!?
-[3C404EFF]なに？　[3C404EFF]休憩した方がいい？[3C404EFF]\n[3C404EFF]いや、[3C404EFF]しかし……[3C404EFF]んぐっ！？=What? You think I need a break?\nNo, but... Nguh!?
-[3C404EFF]これは、[3C404EFF]チョコレート……！！[3C404EFF]\n[3C404EFF]んん～……[3C404EFF]口の中がとろけるようだ……♪=This is chocolate...!!\nMmm... It melts in my mouth...♪
-[3C404EFF]……こほん。[3C404EFF]休憩は終わりだ。[3C404EFF]続きを──[3C404EFF]\nわ、[3C404EFF]分かった分かった！　[3C404EFF]従うから[3C404EFF]人を荷物のように抱えるな！=...Ahem. Break time is over. Let's continue──\nW-what, I get it, I get it! Don't carry me around like luggage!
-[3C404EFF]いつっ……！？　[3C404EFF]……[3C404EFF]だ、[3C404EFF]大丈夫だ。[3C404EFF]手当て、[3C404EFF]感謝する。[3C404EFF]\n[3C404EFF]しかし……[3C404EFF]これぐらいで休んでいるようでは──=When...!? ...I'm fine.\nThanks for the treatment. But... If I rest for something like this...
-[3C404EFF]あ、[3C404EFF]焦ってないぞ！？　[3C404EFF]私はいつだって冷静に……[3C404EFF]\n[3C404EFF]いや、[3C404EFF]たしかに焦りまくっているな……=Huh, no, I'm not!? I'm always calm and... No, I admit it, I'm freaking out...
-[3C404EFF]私が会得しようとしている奥義は、[3C404EFF]祖国に伝わるものなんだ。[3C404EFF]\nまさに嵐のような大技で、[3C404EFF]敵を一掃する。[3C404EFF]\n[3C404EFF]ただ、[3C404EFF]使いこなせる者は[3C404EFF]ほとんどいない。=The secret technique I'm trying to master is one that has been passed down in my homeland. It's a huge technique that sweeps away enemies like a storm. But there are hardly any people who can use it.
-[3C404EFF]諦めていた背も伸びたんだし、[3C404EFF]\n奥義の会得だって[3C404EFF]不可能ではないと挑戦してはみたが……[3C404EFF]\n[3C404EFF]まさか[3C404EFF]そよ風すら掴めないとはな。=I grew taller and gave up on it, but I tried to challenge it because it's not impossible to master the secret technique... But I didn't expect to not even catch a breeze.
-[3C404EFF]強引に捕まえようとすれば[3C404EFF]暴れて吹き飛ばされるし、[3C404EFF]\n誘導してもなびきやしない。[3C404EFF]気まぐれな性質で、[3C404EFF]私は弄ばれてばかりだ。=If I try to force it, it goes wild and blows me away, and if I try to guide it, it doesn't budge. It's whimsical and I'm just being toyed with.
-[3C404EFF]私は[3C404EFF]この奥義の使い手になることで、[3C404EFF]自分の成長を証明したい。[3C404EFF]\n[3C404EFF]しかし[3C404EFF]それができなくて、[3C404EFF]焦ってるのかもしれん。=I want to prove my growth by becoming a user of this secret technique. But maybe I'm inpatient because I can't do it.
-[3C404EFF]……よし！　[3C404EFF]休憩は終わりだ！[3C404EFF]\n[3C404EFF]日が落ちる前に、[3C404EFF]一回でも多くの奥義を──=...Alright! Break time is over!\nBefore the sun sets, let's do as many secret techniques as possible──
-[3C404EFF]って貴公！！　[3C404EFF]また体が光っているぞ！？[3C404EFF]\n……うわっ！？=Hey, comrade!!\nYou're glowing again!? ...Uwah!?
-[3C404EFF]本気か！？=Are you serious?!
-[3C404EFF]おーい、[3C404EFF]作戦会議は終わったかー？[3C404EFF]\nドッジボールの続き、[3C404EFF]そろそろ始めたいんだけどー……=Hey, is the strategy meeting over? I want to continue the dodgeball game soon...
-[3C404EFF]もう少し待ってくれ！！[3C404EFF]\n[3C404EFF]……現状の説明および、[3C404EFF]貴公の作戦を[3C404EFF]もう一度復唱させてほしい。=Wait a little longer!!\n...I will repeat the current situation and our strategy one more time.
-[3C404EFF]我々は今、[3C404EFF]\n放課後の校庭で[3C404EFF]ドッジボールという球技を行っている。[3C404EFF]\n[3C404EFF]戦況は圧倒的に不利で、[3C404EFF]我ら赤組は[3C404EFF]壊滅寸前だ。=Right now, we're playing dodgeball in the schoolyard after school. The battle is at an overwhelming disadvantage, and we, the Red Team, are on the verge of annihilation.
-[3C404EFF]赤組の内野に残っているのは……[3C404EFF]\nボールを避けることに関してはまさにプロ級である貴公。[3C404EFF]\nそして[3C404EFF]子供扱いゆえに[3C404EFF]一切のボールが飛んでこない私の二人のみ。=The only ones left in the red team's infield are... You, who are professional at dodging balls. And me, who doesn't get any balls thrown at me because of being treated like a child.
-[3C404EFF]皮肉にも[3C404EFF]我々のおかげで[3C404EFF]勝敗は先送りされてきたが、[3C404EFF]もう日が沈む。[3C404EFF]\n[3C404EFF]……つまり、[3C404EFF]門限によって我々は[3C404EFF]敗北するということだ。=Ironically, thanks to us, the outcome has been postponed, but the sun is setting. ...In other words, we will lose by curfew.
-[3C404EFF]そして[3C404EFF]敗北したチームは、[3C404EFF]なんと言った？[3C404EFF]\n『一週間の間、[3C404EFF]毎日お菓子を奢る』……[3C404EFF]だ！=And what did they say about the losing team?\n"Treat them to candy every day for a week"...!
-[3C404EFF]私だってな、[3C404EFF]少ない軍資金で[3C404EFF]どうにかやりくりしているのだぞ！？[3C404EFF]\n[3C404EFF]毎日奢りなんてことになれば……[3C404EFF]自分のお菓子が買えないではないか！=I'm also trying to make ends meet with my little money, you know!? If I have to treat them every day... I won't be able to buy my own candy!
-[3C404EFF]くぅ……[3C404EFF]『ドッジボールとはなにか？』と\nクラスメイトに質問したばかりに……！=Grrr... Just because I asked my classmates "What is dodgeball?"...!
-[3C404EFF]……しかし、[3C404EFF]過ぎてしまったことはしょうがない。[3C404EFF]\n[3C404EFF]同じように考えた貴公は、[3C404EFF]私にある作戦を提案した。=...But there's no use crying over spilled milk. You, who thought the same way, proposed a strategy to me.
-[3C404EFF]貴公がボールに当たっても、[3C404EFF]\n私がそのボールをキャッチできれば[3C404EFF]貴公はアウトにならない。[3C404EFF]\nそのルールを利用して、[3C404EFF]我々で[3C404EFF]ボールの主導権を握るというものだ。=Even if you get hit by the ball, you won't be out if I can catch it. That's the rule. We'll use it to take control of the ball.
-[3C404EFF]つまり……[3C404EFF]貴公は囮として、[3C404EFF]自らボールの的になる。[3C404EFF]\n私は[3C404EFF]貴公に当たったボールを確実にキャッチして、[3C404EFF]敵に当てていく。[3C404EFF]\n[3C404EFF]なぁ、[3C404EFF]本当にこの作戦でいくのか？=In other words... you'll be the decoy and make yourself a target for the ball. I'll catch the ball that hits you and throw it at the enemy. Hey, are you sure you want to go with this plan?
-[3C404EFF]……なんだ？　[3C404EFF]弱気なのが珍しいだとぉ！？[3C404EFF]\nむしろ何故[3C404EFF]それほど強気でいられるのだ！？=...What? It's rare to see you so timid! Rather, why are you so confident?
-[3C404EFF]私なら[3C404EFF]全員倒せると考えているのか！？[3C404EFF]\n[3C404EFF]……いや。[3C404EFF]そう思っているから、[3C404EFF]話したのだろうな。=Do you think you can take them all down by yourself!? ...No. That's why you told me, right?
-[3C404EFF]言っておくが、[3C404EFF]銃やナイフの扱いには慣れていても、[3C404EFF]ボールは初めてだ。[3C404EFF]\n貴公が私を凄腕の軍人だと頼りにしてくれるのはうれしいが……=I'll tell you this, I'm used to handling guns and knives, but this is my first time with a ball. I appreciate that you trust me as a skilled soldier, but...
-[3C404EFF]……目の前の、[3C404EFF]私？=...Me at front?
-[3C404EFF]……だとすれば、[3C404EFF]より一層分からないな。[3C404EFF]\n私は小柄だし、[3C404EFF]力も強そうに見えないと思うが……=...If that's the case, I'm even more confused.\nI'm small and I don't look very strong...
-[3C404EFF]私の外見や肩書きではなく、[3C404EFF]中身を信頼している……[3C404EFF]\n[3C404EFF]つまり、[3C404EFF]そう言いたいのか……？　=You trust me not for my appearance or title, but for who I am inside... is that what you're trying to say...?
-[3C404EFF]はははっ！　[3C404EFF]いいだろう！[3C404EFF]\n[3C404EFF]友よ、[3C404EFF]その作戦……[3C404EFF]のったぞ！=Hahaha! Very well!\nMy friend, that plan... I'm in!
-[3C404EFF]よし！　[3C404EFF]来るがいい！！=Alright! Bring it on!!
-[3C404EFF]いくぞ、[3C404EFF]そりゃあっ！！=Let's go, here we go!!
-[3C404EFF]……えっ！？　[3C404EFF]当たった！？=...Huh!? It hit!?
-[3C404EFF]よしっ！　[3C404EFF]ギリギリだったが……[3C404EFF]貴公の作戦、[3C404EFF]うまくいったぞ！[3C404EFF]\n[3C404EFF]ボールはこの通り、[3C404EFF]私の手の中だ！！=Yes! It was close, but... your plan worked! The ball is right here, in my hand!!
-[3C404EFF]……作戦？　[3C404EFF]それじゃ、[3C404EFF]あいつはわざと当たったのか？[3C404EFF]\nモニカにボールを取らせるために！？=...Plan? So he got hit on purpose?\nTo let Monika get the ball!?
-[3C404EFF]驚くのはまだ早いぞ。[3C404EFF]\n[3C404EFF]我が渾身の一撃……[3C404EFF]受けてみよっ！！=It's too early to be surprised.\nMy full-power shot... take this!!
-[3C404EFF]よっと！[3C404EFF]\n……なんかすごいの来ると思ったけど、[3C404EFF]案外普通だったな？[3C404EFF]\n次はこっちの番だ！=Yoink! ...I thought something amazing was coming, but it was pretty normal. Now it's my turn!
-[3C404EFF]いきなり当てるのは無理か……[3C404EFF]\n[3C404EFF]しかし[3C404EFF]今ので分かったぞ。[3C404EFF]真正面からではボールは取られてしまう。=It's impossible to hit him right away... but I learned something from that. If I throw it straight, he'll catch it.
-[3C404EFF]待つ……？=Wait...?
-[3C404EFF]とりゃあっ！！=Take this!!
-[3C404EFF]よし、[3C404EFF]キャッチしたぞ……！　[3C404EFF]ところで貴公よ、[3C404EFF]涙目になってるぞ。[3C404EFF]\n体ではなく、[3C404EFF]両手で受け止めるのは無理なのか？[3C404EFF]\n[3C404EFF]……そうか、[3C404EFF]それだけは無理か。=Alright, I caught it...! By the way, are you crying? Can't you catch it with your hands instead of your body? ...I see, that's impossible.
-[3C404EFF]何度も全身でボールを受け止めるのは流石に痛そうだな。[3C404EFF]\nこの状況を、[3C404EFF]はやく変えなければ……=It must hurt to take the ball with your whole body over and over. We have to change this situation quickly...
-[3C404EFF]『チャンスを待て』とこいつは言ったが……[3C404EFF]\n待つとは一体……="Wait for a chance" he said...\nwhat does he mean by that...
-[3C404EFF]モニカちゃーん！　[3C404EFF]こっちこっち！！=Monika-chaaan! Over here over here!!
-[3C404EFF]……そうか！　[3C404EFF]我々の仲間は、[3C404EFF]外にもいる。[3C404EFF]\n貴公のアドバイスの意味も理解したぞ。[3C404EFF]つまり……=...I see! We have friends outside too. I understand what your advice meant. In other words...
-[3C404EFF]そりゃあっ！！=Here we go!!
-[3C404EFF]……ナイスモニカちゃん！[3C404EFF]\nちょっとスピードアップして[3C404EFF]投げ返すよー！=...Nice Monika-chan! I'll speed up a bit and throw it back!
-[3C404EFF]……よし。[3C404EFF]これしき問題ない。[3C404EFF]\nもっと速く投げ返してもいいぞーっ！=...Alright. This is no problem. You can throw it back faster!
-[3C404EFF]どっちから来るんだ……？[3C404EFF]\nみんな、[3C404EFF]警戒しろよ……！=Which way is it coming from...?\nEveryone, be on guard...!
-[3C404EFF]……よし！　[3C404EFF]今だっ！！　=......okay! Now!!　
-[3C404EFF]うわっ！　[3C404EFF]……当てられた！？=Ugh! ...I got hit!?
-[3C404EFF]ふふん。[3C404EFF]好機を待つ……[3C404EFF]それこそが勝利の鍵だ！[3C404EFF]\n[3C404EFF]この調子で、[3C404EFF]どんどん当てていくぞ！！=Heheh. Waiting for an opportunity... that's the key to victory! Let's keep hitting them like this!!
-[3C404EFF]ドッジボールの試合は白熱し、[3C404EFF]\nそしてついに……=The dodgeball game heated up, and finally...
-[3C404EFF]勝利を祝して……[3C404EFF]かんぱーい！！[3C404EFF]\n[3C404EFF]……[3C404EFF]くっ～～～[3C404EFF]勝利の後のラムネは格別だ♪=To celebrate our victory... cheers!! ...Ahh~ The Lamune after winning is exceptional♪
-[3C404EFF]ところで貴公……[3C404EFF]怪我は大丈夫か？[3C404EFF]\n[3C404EFF]私も無様に転んだりして、[3C404EFF]お互いボロボロだな。=By the way, are you okay...? I also fell down in a clumsy way, we're both a mess.
-[3C404EFF]ああ、[3C404EFF]楽しかった！[3C404EFF]\n[3C404EFF]窓の外からいつも見ているばかりだったが……[3C404EFF]\n誰かと遊ぶとは、[3C404EFF]こんな感じだったのだな。=Ah, it was fun! I always just watch from outside the window... but playing with someone is like this, huh?
-[3C404EFF]そうだ。[3C404EFF]貴公にこれをやろう。=That's right. I'll give you this.
-[3C404EFF]戦友とは、[3C404EFF]勝利とお菓子を分かち合うのが鉄則。[3C404EFF]\nそういうわけで、[3C404EFF]チョコレートも半分こだ！=It's a rule among comrades to share victory and sweets. So, let's split the chocolate!
-[3C404EFF]これは[3C404EFF]私だけが知る機密情報なのだが……[3C404EFF]\n[3C404EFF]ラムネの後のチョコレートは最高にうまいのだぞ？=This is confidential information that only I know...\nbut chocolate after Lamune is the best, you know?
-[3C404EFF]さぁ、[3C404EFF]遠慮するな。[3C404EFF]\nそのままかぶりついてこい！=Come on, don't hold back.\nJust bite into it!
-[3C404EFF]……ん？　[3C404EFF]なにを照れているのだ？[3C404EFF]\n人に食べさせてもらうというのは、[3C404EFF]そんなに恥ずかしいことなのか？=...Hm? Why are you embarrassed? Is it that embarrassing to eat something from someone?
-[3C404EFF]……おかしいな。[3C404EFF]この間[3C404EFF]屋上の隅っこで、[3C404EFF]\nクラスメイトがこんな風にお菓子を分け合っているのを見たのだが……=...That's strange. The other day, I saw some classmates sharing sweets like this in the corner of the rooftop...
-[3C404EFF]二人とも[3C404EFF]楽しそうに笑っていてな。[3C404EFF]\n[3C404EFF]友人と過ごすとは[3C404EFF]どんな感じなのだろうと、[3C404EFF]ずっと考えていたんだ。=They were both smiling happily. I wondered what it was like to spend time with friends. I've been thinking about it for a long time.
-[3C404EFF]貴公には打ち明けるが……[3C404EFF]\n私は[3C404EFF]本来の任務以外に[3C404EFF]もう一つ、[3C404EFF]個人的なミッションがある。=I'll tell you something... I have another personal mission besides my original one.
-[3C404EFF]それはな……[3C404EFF]友人を作って[3C404EFF]全力で青春することだ！=That is... to make friends and enjoy my youth with all my might!
-[3C404EFF]放課後に、[3C404EFF]誰かと一緒にお菓子を食べながら[3C404EFF]他愛もない会話をする。[3C404EFF]\nこれはきっと[3C404EFF]青春の第一歩なんだ。=After school, to have a casual conversation with someone while eating sweets. This must be the first step of youth.
-[3C404EFF]貴公にはすまないが[3C404EFF]\n私のミッション制覇に付き合ってもらうぞ。=I'm sorry, but you'll have to join me in conquering my mission.
-[3C404EFF]では[3C404EFF]我が友よ、[3C404EFF]その口を[3C404EFF]大きく開けるがいい。[3C404EFF]\n[3C404EFF]……[3C404EFF]しかし、[3C404EFF]青春とは[3C404EFF]いささか[3C404EFF]くすぐったい感じがするな！=So, my friend, open your mouth wide.\n...But youth feels a bit ticklish, huh!
-[3C404EFF]はい、[3C404EFF]お疲れさま！[3C404EFF]\n[3C404EFF]チョコレートの味はどうだった？=There you go, good job! How was the chocolate?
-[3C404EFF]でも二人ってあま～い関係っていうより、[3C404EFF]\n一緒に助け合うザ・戦友って感じよね。=But You're more like the comrades who help each other out than a sweet relationship, right?
-[3C404EFF]背中を預け合ったり、[3C404EFF]一緒に子供みたいにはしゃいだり……[3C404EFF]\n[3C404EFF]そんな絆も、[3C404EFF]かけがえのないものだと思うわ。=Both of you trust each other's backs, and act like kids together... That kind of bond is also priceless, I think.
-[3C404EFF]どんなに困難な道も、[3C404EFF]二人なら乗り越えられるはず。[3C404EFF]\n[3C404EFF]というわけで、[3C404EFF]応援してるからねー！=No matter how difficult the road is, you can overcome it if both of you're together. That's why I'm cheering for you!
-[3C404EFF]……はっ！？　[3C404EFF]またこの現象か！？[3C404EFF]\n[3C404EFF]貴公といると[3C404EFF]妙なことばかり起こるな……=...Huh!? This phenomenon again!? Why do strange things always happen when I'm with you...
-[3C404EFF]だが[3C404EFF]その後はいつも、[3C404EFF]不思議と清々しい気持ちになる。[3C404EFF]\n[3C404EFF]それはきっと[3C404EFF]夢の中に[3C404EFF]貴公が……[3C404EFF]ああ、[3C404EFF]いや。[3C404EFF]\nこれは胸の内に留めておこう。=But after that, I always feel strangely refreshed. It must be because you're in my dreams... Ah, no. I'll keep this in my heart.
-[3C404EFF]さて……[3C404EFF]ちょっと休息を取りすぎたな。[3C404EFF]\n訓練を再開しよう。=Well... I took a break for too long.\nLet's resume training.
-[3C404EFF]そう見えるか？　[3C404EFF]実はな、[3C404EFF]自分でもよく分からないのだが……[3C404EFF]\n今ならできそうな気がするんだ。=Do I? Actually, I don't really understand myself...\nbut I feel like I can do it now.
-[3C404EFF]そうだ。[3C404EFF]がむしゃらに追い求めるだけではだめだ。[3C404EFF]\n勝利の風は、[3C404EFF]好機を待つものにのみ、[3C404EFF]掴むことができる。[3C404EFF]\n[3C404EFF]だから──=That's right. It's not enough to just chase after it blindly.\nThe wind of victory only blows for those who wait for the right opportunity. So...
-[3C404EFF]…………今だ！=...Now!
-[3C404EFF]せりゃああっ！！=Take this!!
-[3C404EFF]や……[3C404EFF]やったぞ！[3C404EFF]\n[3C404EFF]成功……[3C404EFF]うう[3C404EFF]っ……=I... I did it!\nSuccess... ugh...
-[3C404EFF]だ、[3C404EFF]大丈夫だ……[3C404EFF]\nこの奥義、[3C404EFF]体への負担が大きいようだ……=I'm fine... This technique puts a lot of strain on my body...
-[3C404EFF]最後の奥の手として、[3C404EFF]なるべく使わないようにしよう。[3C404EFF]\n使いどころは……[3C404EFF]そうだな。[3C404EFF]貴公の作戦にゆだねる。=I'll try not to use it as much as possible as a last resort. The timing is... yeah. I'll leave it to your strategy.
-[3C404EFF]大会は明日からだ。[3C404EFF]\n[3C404EFF]最後まで共に、[3C404EFF]全力を尽くして戦おう。=The tournament starts tomorrow. Let's fight together with all our strength until the end.
+r:"^差し出された、傷だらけの小さな手。\n(.{2,10})はその手に触れ、大きくうなずくのだった。$"=She reached out her small hand covered in wounds. $1 touched that hand and nodded firmly.
 
 
 
 
-[3C404EFF]ちゅめたっ！？[3C404EFF]\n……[3C404EFF]貴公っ！　[3C404EFF]急になにをするのだっ！？=Cold?!\n......Comrade! What are you doing all of a sudden?!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

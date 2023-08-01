@@ -10,251 +10,250 @@
 
 r:"^ミソラと再びデートする条件として、(.{2,10})は一緒に人助けを\nしていくが、人さらいと遭遇したミソラは相手を撃ち殺そうと\nする。それを止められたミソラは気持ちが冷めたと言い、去っ\nていった。$"=To get $1 to date her again, Misora had to do 'Good Deeds' together with him. In the middle of that, they encountered a group of kidnappers and she tried to gun down all of them. $1 stopped her but also ended up making Misora leave, leaving $1 with mixed feelings.
 
-[3C404EFF]──どるるるる～んっ★=──Dorururu～n ★
+──どるるるる～んっ★=──Dorururu～n ★
 
-[3C404EFF]ぎゃあああっ！=Gyahhhh!
-[3C404EFF]逃げろ！[3C404EFF]\n逃げろ～っ！！=Run! We have to run away!!
+ぎゃあああっ！=Gyahhhh!
+逃げろ！\n逃げろ～っ！！=Run! We have to run away!!
 
-[3C404EFF]もー、[3C404EFF]動かないでくださいよぅ。[3C404EFF]\n[3C404EFF]わたし、[3C404EFF]偏差射撃とかへたっぴなんですから。[3C404EFF]\n[3C404EFF]ね？=Awwー don't move around so much.\nI'm no-good at shooting moving targets. Okay?
+もー、動かないでくださいよぅ。\nわたし、偏差射撃とかへたっぴなんですから。\nね？=Awwー don't move around so much.\nI'm no-good at shooting moving targets. Okay?
 
 ダメだ！=Stop it!
 
-[3C404EFF]騎士さーん？[3C404EFF]\n[3C404EFF]そこに立つと、[3C404EFF]当たっちゃうかもですよー=Kishi-san? You can get shot if you stand thereー
+騎士さーん？\nそこに立つと、当たっちゃうかもですよー=Kishi-san? You can get shot if you stand thereー
 
-[3C404EFF]こういうとき、[3C404EFF]なんて言うんでしたっけ。[3C404EFF]\nえーっと……=At times like these, what're you supposed to say...\nHmm...
+こういうとき、なんて言うんでしたっけ。\nえーっと……=At times like these, what're you supposed to say...\nHmm...
 
-[3C404EFF]「どいてください、[3C404EFF]そのひと殺せません！」[3C404EFF]\n[3C404EFF]……とか？★='I don't want to kill you, so please move out of the way!'\n...Something like that?★
+「どいてください、そのひと殺せません！」\n……とか？★='I don't want to kill you, so please move out of the way!'\n...Something like that?★
 
-[3C404EFF]──しばらく前のこと。=──A while ago.
+──しばらく前のこと。=──A while ago.
 
-r:"^(?:\[3C404EFF\])?(.{2,10})が、街を歩いていると……$"=$1 is walking around the streets...
+r:"^(.{2,10})が、街を歩いていると……$"=$1 is walking around the streets...
 
-[3C404EFF]だ～～れだっ？=Whooo do you think I am?
+だ～～れだっ？=Whooo do you think I am?
 
-[3C404EFF]あはっ★[3C404EFF]\n[3C404EFF]すみません、[3C404EFF]ちょっとワンパターンでしたねー=Ehe★ Sorry if it's too obviousー
+あはっ★\nすみません、ちょっとワンパターンでしたねー=Ehe★ Sorry if it's too obviousー
 
 今日は、どうしたの？=What're you doing today?
 
-[3C404EFF]ふふっ♪[3C404EFF]\n[3C404EFF]もちろん、[3C404EFF]騎士さんとデート！　[3C404EFF]しにきたんですよー=Ehehe♪ Naturally, I came to date Kishi-san!
-[3C404EFF]Ehehe♪[3C404EFF]\n[3C404EFF]もちろん、[3C404EFF]騎士さんとデート！　[3C404EFF]しにきたんですよー=Ehehe♪ Naturally, I came to date Kishi-san!
+ふふっ♪\nもちろん、騎士さんとデート！　しにきたんですよー=Ehehe♪ Naturally, I came to date Kishi-san!
 
-[3C404EFF]ダメ、[3C404EFF]なんて言わないでくださいね？[3C404EFF]\n[3C404EFF]まぁ言われてもー、[3C404EFF]ラチっちゃうんですけど★=And please don't say no, okay?\nWell, even if you didー I'll still force you anyway★
+ダメ、なんて言わないでくださいね？\nまぁ言われてもー、ラチっちゃうんですけど★=And please don't say no, okay?\nWell, even if you didー I'll still force you anyway★
 
 ……分かった。でも……=...Alright, but...
 
 その前に、僕の頼みも聞いてほしい。=Listen to my request first.
 
-[3C404EFF]なるほど♪[3C404EFF]\n交換条件ってやつですね。[3C404EFF]\n[3C404EFF]そーゆーの、[3C404EFF]わかりやすくてスキですよ★=I see♪\nThere's a condition. I like how simple that is★
+なるほど♪\n交換条件ってやつですね。\nそーゆーの、わかりやすくてスキですよ★=I see♪\nThere's a condition. I like how simple that is★
 
-[3C404EFF]じゃあ騎士さん？[3C404EFF]\n騎士さんは、[3C404EFF]わたしに「デートさせられる」かわりに。[3C404EFF]\n[3C404EFF]わたしに、[3C404EFF]どんなことをさせたいんですか？=So, Kishi-san...\nWhat do I need to do for you to date me? 
+じゃあ騎士さん？\n騎士さんは、わたしに「デートさせられる」かわりに。\nわたしに、どんなことをさせたいんですか？=So, Kishi-san...\nWhat do I need to do for you to date me? 
 
 一緒に、いいことをしよう。=Let's do good deeds together.
 
-[3C404EFF]わぁっ★[3C404EFF]\nそれって──=Wah★ That's──
+わぁっ★\nそれって──=Wah★ That's──
 
-[3C404EFF]わぁ～んっ！[3C404EFF]\nペロちゃ～ん！[3C404EFF]\n[3C404EFF]どこ行ったの～！！=Uwaaah! Pero-chan! Where did you run off!
+わぁ～んっ！\nペロちゃ～ん！\nどこ行ったの～！！=Uwaaah! Pero-chan! Where did you run off!
 
-[3C404EFF]んー[3C404EFF]\n飼ってる猫が、[3C404EFF]迷子になっちゃってるっぽいですねーあの子。=Hmmー Looks like that girl lost her pet cat.
+んー\n飼ってる猫が、迷子になっちゃってるっぽいですねーあの子。=Hmmー Looks like that girl lost her pet cat.
 
 捜してあげよう！=Let's find it!
 
-[3C404EFF]Alriiight.[3C404EFF]\nそれじゃ、[3C404EFF]サイコメトリーで痕跡を探査してー=Alright～ Then I'll use psychometry to look for a leadー
+はーい。\nそれじゃ、サイコメトリーで痕跡を探査してー=Alright～ Then I'll use psychometry to look for a leadー
 
-[3C404EFF]ミャ～=Meow～
+ミャ～=Meow～
 
-[3C404EFF]はい、[3C404EFF]ペロちゃん発見です★=Alright, we have discovered Pero-chan★
+はい、ペロちゃん発見です★=Alright, we have discovered Pero-chan★
 
-[3C404EFF]わぁ～っ！[3C404EFF]\nこんなにすぐ見つけてくれるなんて……[3C404EFF]\nありがとうお姉ちゃん！=Wow! You found my cat so fast...\nMiss, thank you so much!
+わぁ～っ！\nこんなにすぐ見つけてくれるなんて……\nありがとうお姉ちゃん！=Wow! You found my cat so fast...\nMiss, thank you so much!
 
-[3C404EFF]はぁ、[3C404EFF]ふぅ……[3C404EFF]\nこんなにたくさん買い物すると、[3C404EFF]坂道を上るのも億劫だねぇ……=Huff, huff...\nAfter shopping so much, climbing up this slope is so tiring...
+はぁ、ふぅ……\nこんなにたくさん買い物すると、坂道を上るのも億劫だねぇ……=Huff, huff...\nAfter shopping so much, climbing up this slope is so tiring...
 
-[3C404EFF]んー[3C404EFF]\n[3C404EFF]荷物がいっぱいで、[3C404EFF]困ってるみたいですねー[3C404EFF]あのおばあさん。=Hmm～ That old lady seems to have a hard time carrying all of that.
+んー\n荷物がいっぱいで、困ってるみたいですねーあのおばあさん。=Hmm～ That old lady seems to have a hard time carrying all of that.
 
 運んであげよう！=Let's carry it for her!
 
-[3C404EFF]おばあさーん。[3C404EFF]\nそれ運ぶの、[3C404EFF]手伝ってあげますね？=Grandma, can I help you carry those？
+おばあさーん。\nそれ運ぶの、手伝ってあげますね？=Grandma, can I help you carry those？
 
-[3C404EFF]おや？[3C404EFF]\n悪いねぇ[3C404EFF]お嬢ちゃん。[3C404EFF]\n[3C404EFF]でもお米もあるしね、[3C404EFF]ほんとうに重いんだよ。=Oh? Sorry, little girl but... there's rice in here so it's really heavy.
+おや？\n悪いねぇお嬢ちゃん。\nでもお米もあるしね、ほんとうに重いんだよ。=Oh? Sorry, little girl but... there's rice in here so it's really heavy.
 
-[3C404EFF]大丈夫ですってー♪[3C404EFF]\n[3C404EFF]それじゃ、[3C404EFF]念動で持ち上げてー=That's fineー♪ Then, I'll carry it with telekinesisー
+大丈夫ですってー♪\nそれじゃ、念動で持ち上げてー=That's fineー♪ Then, I'll carry it with telekinesisー
 
-[3C404EFF]んんっ！？[3C404EFF]\n米の袋が、[3C404EFF]浮き袋みたいにっ……！？=Hiee!? The sacks of rice... they're swimming!?
+んんっ！？\n米の袋が、浮き袋みたいにっ……！？=Hiee!? The sacks of rice... they're swimming!?
 
-[3C404EFF]ついでにおばあさんも持ち上げてー=And let's carry you tooー
+ついでにおばあさんも持ち上げてー=And let's carry you tooー
 
-[3C404EFF]わあああっ！？[3C404EFF]\nなんだいこれはっ……！=Wahhh!? What is this...！
+わあああっ！？\nなんだいこれはっ……！=Wahhh!? What is this...！
 
-[3C404EFF]んー[3C404EFF]\n[3C404EFF]このままじゃ、[3C404EFF]ちょっと目立っちゃいそうですね。= Hmmmー We might be standing out too much.
+んー\nこのままじゃ、ちょっと目立っちゃいそうですね。= Hmmmー We might be standing out too much.
 
-[3C404EFF]じゃ、[3C404EFF]おうちに送ってあげます★[3C404EFF]\nテレポーテーショーン♪=Then I'll just send her home directly★\nTeleportation♪
+じゃ、おうちに送ってあげます★\nテレポーテーショーン♪=Then I'll just send her home directly★\nTeleportation♪
 
-[3C404EFF]えええぇっ！？[3C404EFF]\nどこだい、[3C404EFF]ここはっ……！=Ehhhh!? Where are we...!
+えええぇっ！？\nどこだい、ここはっ……！=Ehhhh!? Where are we...!
 
-[3C404EFF]ありゃ？[3C404EFF]\n[3C404EFF]すみませーん、[3C404EFF]座標間違えちゃいました★=Oh? Sorry, I messed up the coordinates★
+ありゃ？\nすみませーん、座標間違えちゃいました★=Oh? Sorry, I messed up the coordinates★
 
-[3C404EFF]モノが多いと難しいんですよねー、[3C404EFF]跳躍王じゃないですし。[3C404EFF]\n[3C404EFF]ってコトで、[3C404EFF]もー一回★=It's hard to teleport lots of stuffs at onceー\nI'm not the best at this after all. Now, let's try it again★
+モノが多いと難しいんですよねー、跳躍王じゃないですし。\nってコトで、もー一回★=It's hard to teleport lots of stuffs at onceー\nI'm not the best at this after all. Now, let's try it again★
 
-[3C404EFF]今度はあたしの家じゃないか……！[3C404EFF]\n[3C404EFF]なにがどうなってるんだい、[3C404EFF]あんたたち……！？=This isn't my home either...! What are you really doing...!?
+今度はあたしの家じゃないか……！\nなにがどうなってるんだい、あんたたち……！？=This isn't my home either...! What are you really doing...!?
 
 すみません、お邪魔しました……！= Sorry for the inconvenience.
 
-[3C404EFF]……ふふっ♪[3C404EFF]\n迷子の猫を見つけて、[3C404EFF]おばあさんを助けて……=...Hehe♪ We found a lost cat, and we helped an old lady...
+……ふふっ♪\n迷子の猫を見つけて、おばあさんを助けて……=...Hehe♪ We found a lost cat, and we helped an old lady...
 
-[3C404EFF]ねー騎士さん★[3C404EFF]\nわたし、[3C404EFF]だいぶイイコトしたんじゃないですか？=Hey, Kishi-san★ I did a lot of good deeds, right？
+ねー騎士さん★\nわたし、だいぶイイコトしたんじゃないですか？=Hey, Kishi-san★ I did a lot of good deeds, right？
 
 やり方をもっと考えよう。=You need to think about your methods more.
 
-[3C404EFF]eh?[3C404EFF]\n[3C404EFF]も[3C404EFF]ーやですねー、[3C404EFF]ちゃんと考えてますよ？[3C404EFF]\nわたしなりにですけど♪=Eh? That can't be rightー\nI did think a lot about it, you know?
+えっ？\nもーやですねー、ちゃんと考えてますよ？\nわたしなりにですけど♪=Eh? That can't be rightー\nI did think a lot about it, you know?
 
 やりすぎたら、迷惑になっちゃうよ。=If you overdo it, it'll bother everyone.
 
-[3C404EFF]んー[3C404EFF]\n……ムズカシーですね、[3C404EFF]イイコトって。=Uuuー\n...Doing good deeds is so hard.
+んー\n……ムズカシーですね、イイコトって。=Uuuー\n...Doing good deeds is so hard.
 
-[3C404EFF]イイコト初心者のわたしには、[3C404EFF]\nもっと採点甘くしてくれてもいいのになー[3C404EFF]って思うんですけど。[3C404EFF]\n[3C404EFF]それとも、[3C404EFF]何かアドバイスしてくれます？=As a beginner in doing good deeds, I think you should be more lenient in my grading～\nAlso, is there any other advice you want to give?
+イイコト初心者のわたしには、\nもっと採点甘くしてくれてもいいのになーって思うんですけど。\nそれとも、何かアドバイスしてくれます？=As a beginner in doing good deeds, I think you should be more lenient in my grading～\nAlso, is there any other advice you want to give?
 
 超能力は使わないほうがいいんじゃ……=It's probably better to not use your powers...
 
-[3C404EFF]でもでもー[3C404EFF]\nこれまでは結果オーライだったわけですし……[3C404EFF]\n[3C404EFF]……んっ？=Butー I did get a good result in the end...\nHmm?
+でもでもー\nこれまでは結果オーライだったわけですし……\n……んっ？=Butー I did get a good result in the end...\nHmm?
 
-[3C404EFF]わぁ～ん！[3C404EFF]\nフーセン、[3C404EFF]木に引っかかっちゃった～！=Waaah～！ My kite got stuck in a tree～！
+わぁ～ん！\nフーセン、木に引っかかっちゃった～！=Waaah～！ My kite got stuck in a tree～！
 
-[3C404EFF]……あの子、[3C404EFF]困ってるみたいですけど。[3C404EFF]\n[3C404EFF]どうしますー？　[3C404EFF]騎士さん。[3C404EFF]\nわたしやります？=...That boy seems to be troubled.\nKishi-san, what should I do? Should I help？
+……あの子、困ってるみたいですけど。\nどうしますー？　騎士さん。\nわたしやります？=...That boy seems to be troubled.\nKishi-san, what should I do? Should I help？
 
 ……僕が取ってくるよ。=...I'll get the kite.
 
-[3C404EFF]あ♪[3C404EFF]\n能力を使わない見本ですか？[3C404EFF]\n木から落っこちちゃわないように、[3C404EFF]気をつけてくださいねー=Aha♪ You want to show me how to do it without using my power?\nThat tree looks like it's gonna break, so be careful～
+あ♪\n能力を使わない見本ですか？\n木から落っこちちゃわないように、気をつけてくださいねー=Aha♪ You want to show me how to do it without using my power?\nThat tree looks like it's gonna break, so be careful～
 
-[3C404EFF]お兄ちゃん、[3C404EFF]おねがい……！=Onii-chan, please...!
+お兄ちゃん、おねがい……！=Onii-chan, please...!
 
-[3C404EFF]がんばれがんばれ、[3C404EFF]騎士さーん★=Do your best, Kishi-san★
+がんばれがんばれ、騎士さーん★=Do your best, Kishi-san★
 
 取った……！=I got it...！
 
-[3C404EFF]……あっ！[3C404EFF]\n[3C404EFF]お兄ちゃん、[3C404EFF]危ない！[3C404EFF]\n枝が……！=...Ah! Onii-chan, watch out! The branch...！
+……あっ！\nお兄ちゃん、危ない！\n枝が……！=...Ah! Onii-chan, watch out! The branch...！
 
 折れるっ……！？=It's breaking...!?
 
-[3C404EFF]お兄ちゃーん！=Onii-chan!
+お兄ちゃーん！=Onii-chan!
 
-[3C404EFF]……あ、[3C404EFF]あれ？[3C404EFF]\nう、[3C404EFF]浮いてる……？=...W-what? You're floating……?
+……あ、あれ？\nう、浮いてる……？=...W-what? You're floating……?
 
-[3C404EFF]はい。[3C404EFF]\n空中浮遊でーす。=Yep. It's levitation.
+はい。\n空中浮遊でーす。=Yep. It's levitation.
 
-[3C404EFF]わぁ、[3C404EFF]すごい！[3C404EFF]\n[3C404EFF]お姉ちゃん、[3C404EFF]魔法使いなの！？=Wow, amazing! Onee-chan is a magician!?
+わぁ、すごい！\nお姉ちゃん、魔法使いなの！？=Wow, amazing! Onee-chan is a magician!?
 
-[3C404EFF]……ふふっ。[3C404EFF]\nそうですよー[3C404EFF]\n[3C404EFF]ミソラお姉ちゃんは、[3C404EFF]ちょっとトクベツな魔法使いなんです。=...Ehehe. That's rightー\nSister Misora can use a special kind of magic.
+……ふふっ。\nそうですよー\nミソラお姉ちゃんは、ちょっとトクベツな魔法使いなんです。=...Ehehe. That's rightー\nSister Misora can use a special kind of magic.
 
-[3C404EFF]でもでも。[3C404EFF]\nこのコトは、[3C404EFF]ヒミツにしてくださいね？[3C404EFF]\n[3C404EFF]でないとお姉ちゃん、[3C404EFF]悪いひとに狙われちゃいますから。=But... Can you keep this a secret?\nIf you don't, I'll get chased by some bad guys.
+でもでも。\nこのコトは、ヒミツにしてくださいね？\nでないとお姉ちゃん、悪いひとに狙われちゃいますから。=But... Can you keep this a secret?\nIf you don't, I'll get chased by some bad guys.
 
-[3C404EFF]うん、[3C404EFF]わかった！=Yeah, I got it!
+うん、わかった！=Yeah, I got it!
 
-[3C404EFF]お兄ちゃんもフーセン、[3C404EFF]ありがとー！[3C404EFF]\nばいばーい！=Onii-chan, thanks for getting my kite! Bye-bye!
+お兄ちゃんもフーセン、ありがとー！\nばいばーい！=Onii-chan, thanks for getting my kite! Bye-bye!
 
-[3C404EFF]さようならー=Goodbyeー
+さようならー=Goodbyeー
 
-[3C404EFF]……騎士さん、[3C404EFF]ごめんなさい？[3C404EFF]\nさっきの[3C404EFF]「超能力つかうなー」ってアドバイス、[3C404EFF]\n[3C404EFF]秒で破っちゃいました。=...Kishi-san, I'm sorry.\nYou gave me advice earlier but I ignored it right away.
+……騎士さん、ごめんなさい？\nさっきの「超能力つかうなー」ってアドバイス、\n秒で破っちゃいました。=...Kishi-san, I'm sorry.\nYou gave me advice earlier but I ignored it right away.
 
 ……助けてくれて、ありがとう。=...Thank you for saving me.
 
-[3C404EFF]どういたしまして、[3C404EFF]ですけど。[3C404EFF]\n[3C404EFF]……いいんです？=You're welcome, but...\nIs it really fine？
+どういたしまして、ですけど。\n……いいんです？=You're welcome, but...\nIs it really fine？
 
 やりすぎなければね。=Just don't overdo it.
 
-[3C404EFF]ふふっ。[3C404EFF]\n[3C404EFF]はーい★=Ehehe. Alright～★
+ふふっ。\nはーい★=Ehehe. Alright～★
 
-[3C404EFF]それじゃ騎士さん★[3C404EFF]\nだいぶ人助けもしましたしー？[3C404EFF]\n[3C404EFF]そろそろわたしと[3C404EFF]デートしてくれて、[3C404EFF]いいんじゃないですか♪=Now then Kishi-san★ I helped a lot of people, rightー?\nIt'd be really nice if we could go on a date soon♪
+それじゃ騎士さん★\nだいぶ人助けもしましたしー？\nそろそろわたしとデートしてくれて、いいんじゃないですか♪=Now then Kishi-san★ I helped a lot of people, rightー?\nIt'd be really nice if we could go on a date soon♪
 
-[3C404EFF]……今の声。[3C404EFF]\nさっきの男の子の……？=...That sound.\nIs that the boy from earlier...？
+……今の声。\nさっきの男の子の……？=...That sound.\nIs that the boy from earlier...？
 
-[3C404EFF]……んぐっ！[3C404EFF]\nむぐぅっ……！=...Mmph! Mmmph...!
+……んぐっ！\nむぐぅっ……！=...Mmph! Mmmph...!
 
-[3C404EFF]へへっ！[3C404EFF]\n捕まえたぜ～！=Hehe! Caught one～!
+へへっ！\n捕まえたぜ～！=Hehe! Caught one～!
 
-[3C404EFF]おう！[3C404EFF]\n誰かに見つかったら厄介だ、[3C404EFF]とっとと袋に押し込んじまいな！=Nice! It'll be troublesome if someone heard him, so stuff him in the sack quickly!
+おう！\n誰かに見つかったら厄介だ、とっとと袋に押し込んじまいな！=Nice! It'll be troublesome if someone heard him, so stuff him in the sack quickly!
 
-[3C404EFF]んーーっ！=MMMMMー!
+んーーっ！=MMMMMー!
 
 待って！=Hold it！
 
-[3C404EFF]チッ。[3C404EFF]\n言ってる傍から……=Tch. Just as you said that...
+チッ。\n言ってる傍から……=Tch. Just as you said that...
 
-[3C404EFF]んぐっ！[3C404EFF]\nお、[3C404EFF]お兄ちゃん！　[3C404EFF]お姉ちゃんっ……！=Mmph! Onii-chan! Onee-chan!
+んぐっ！\nお、お兄ちゃん！　お姉ちゃんっ……！=Mmph! Onii-chan! Onee-chan!
 
 いま助けるから！=We'll save you!
 
-[3C404EFF]ハッ！[3C404EFF]\nガキ二人が何ができるってんだ！=Hah! What can two brats possibly do!
+ハッ！\nガキ二人が何ができるってんだ！=Hah! What can two brats possibly do!
 
-[3C404EFF]おい兄弟。[3C404EFF]\nそっちの女は、[3C404EFF]高く売れそうじゃないか？[3C404EFF]\nそいつらも捕まえちまおうぜ！=Hey, brother. Wouldn't that girl fetch a huge price?\nLet's catch her too!
+おい兄弟。\nそっちの女は、高く売れそうじゃないか？\nそいつらも捕まえちまおうぜ！=Hey, brother. Wouldn't that girl fetch a huge price?\nLet's catch her too!
 
-[3C404EFF]ああ！[3C404EFF]\n用が済んだら、[3C404EFF]とっととこんな街おさらばだ！[3C404EFF]\n[3C404EFF]騎士団が来たらメンドクセーからな！=Yeah! And after we finish this, we can say goodbye to this town! It'll be troublesome if the knights came!
+ああ！\n用が済んだら、とっととこんな街おさらばだ！\n騎士団が来たらメンドクセーからな！=Yeah! And after we finish this, we can say goodbye to this town! It'll be troublesome if the knights came!
 
-[3C404EFF]そうと決まったら──[3C404EFF]おう、[3C404EFF]オメーら出てこい！=Then it's decided── You guys! Come out!
+そうと決まったら──おう、オメーら出てこい！=Then it's decided── You guys! Come out!
 
-[3C404EFF]ぁ、[3C404EFF]ああぁっ……=Ahh... Ahhhh...
+ぁ、ああぁっ……=Ahh... Ahhhh...
  
-[3C404EFF]よぅ！[3C404EFF]\n加減しろよテメーら！[3C404EFF]\n[3C404EFF]あんま怪我さすと、[3C404EFF]売値が下がっちまうからなあ！=Yo! Keep it down in there!\nYou wouldn't wanna get hurt, that'll lower your price!
+よぅ！\n加減しろよテメーら！\nあんま怪我さすと、売値が下がっちまうからなあ！=Yo! Keep it down in there!\nYou wouldn't wanna get hurt, that'll lower your price!
 
-[3C404EFF]ぎゃははっ！[3C404EFF]\n大人しくしてりゃ、[3C404EFF]俺たちもやさ～[3C404EFF]しくしてやるよ！=Gyahaha!\nIf you behave, we'll be real nice!
+ぎゃははっ！\n大人しくしてりゃ、俺たちもやさ～しくしてやるよ！=Gyahaha!\nIf you behave, we'll be real nice!
 
-[3C404EFF]...Haah.[3C404EFF]\n[3C404EFF]武器を持った男の人が、[3C404EFF]ん～[3C404EFF]\n[3C404EFF]見張りも含めて、[3C404EFF]ざっと10人前後ってところですか──=...Haah. The people holding weapons are... Hmm～ around 10 people I think? Including the guards──
+...Haah.\n武器を持った男の人が、ん～\n見張りも含めて、ざっと10人前後ってところですか──=...Haah. The people holding weapons are... Hmm～ around 10 people I think? Including the guards──
 
-[3C404EFF]それっぽっちで、[3C404EFF]いいんですかぁ？=Is it really fine to only have that much people?
+それっぽっちで、いいんですかぁ？=Is it really fine to only have that much people?
 
-[3C404EFF]──は？=──Huh?
+──は？=──Huh?
 
-[3C404EFF]どるるるる～んっ★=Dorururu～n ★
+どるるるる～んっ★=Dorururu～n ★
 
-[3C404EFF]やっちゃえ、[3C404EFF]ぺんぽこりん★=Get them, Pempokorin★
+やっちゃえ、ぺんぽこりん★=Get them, Pempokorin★
 
 ぺんぽこりん=Pempokorin
 
-[3C404EFF]うびゃあああっ！！=Ugyaaah!!
+うびゃあああっ！！=Ugyaaah!!
 
-[3C404EFF]な、[3C404EFF]なんだこのアマっ！=W-What's with this girl!
+な、なんだこのアマっ！=W-What's with this girl!
 
 殺しちゃダメだ。=Don't kill them.
 
-[3C404EFF]……いちおー、[3C404EFF]ゆっときますけどー[3C404EFF]\n[3C404EFF]わたし的には？　[3C404EFF]ヨソのお子さんがどんな目にあっても[3C404EFF]\n別にどうでもー[3C404EFF]ってカンジなんですけど……=...Not even one?\nI don't really care about the kid, but...
+……いちおー、ゆっときますけどー\nわたし的には？　ヨソのお子さんがどんな目にあっても\n別にどうでもーってカンジなんですけど……=...Not even one?\nI don't really care about the kid, but...
 
-[3C404EFF]でーもー[3C404EFF]\n[3C404EFF]ぶっちゃけ、[3C404EFF]人さらいとか[3C404EFF]\nこの世にいないほうが良くないです？=Honestly, wouldn't the world be a better place without these kidnappers?
+でーもー\nぶっちゃけ、人さらいとか\nこの世にいないほうが良くないです？=Honestly, wouldn't the world be a better place without these kidnappers?
 
-[3C404EFF]サイテーじゃないですか。[3C404EFF]\n抵抗できないちっちゃい子を狙って、[3C404EFF]\n[3C404EFF]人生メチャクチャにして、[3C404EFF]小遣い稼ぎとか。=Aren't they just the worst? They're fine with capturing childrens and messing up people's life for money.
+サイテーじゃないですか。\n抵抗できないちっちゃい子を狙って、\n人生メチャクチャにして、小遣い稼ぎとか。=Aren't they just the worst? They're fine with capturing childrens and messing up people's life for money.
 
-[3C404EFF]だーかーらー[3C404EFF]\n[3C404EFF]わたし、[3C404EFF]『イイコト』しちゃおっかなーって★[3C404EFF]\n[3C404EFF]こんなふーに♪=That'sー Whyー I'll be doing 'Good Deeds' now★\nJust like this♪
+だーかーらー\nわたし、『イイコト』しちゃおっかなーって★\nこんなふーに♪=That'sー Whyー I'll be doing 'Good Deeds' now★\nJust like this♪
 
-[3C404EFF]ぎゃああああっ！=Gyaaaah!
+ぎゃああああっ！=Gyaaaah!
 
 あとは騎士団に任せて！=Let the Knights do the rest!
 
 やりすぎだ！=You're going too far!
 
-[3C404EFF]……どうしても、[3C404EFF]なんですね。=...I don't really know about that.
-[3C404EFF]他のひとならともかく。[3C404EFF]\n[3C404EFF]騎士さんが、[3C404EFF]それだけ言うなら……=I don't quite care what other people says.\nBut I guess, if it's Kishi-san...
+……どうしても、なんですね。=...I don't really know about that.
+他のひとならともかく。\n騎士さんが、それだけ言うなら……=I don't quite care what other people says.\nBut I guess, if it's Kishi-san...
 
 デートするから。=I'll date you.
 
-[3C404EFF]っ……=Mmm...
+っ……=Mmm...
 
-[3C404EFF]もーいーです。[3C404EFF]\nなんかシラケーってゆーかー[3C404EFF]\n[3C404EFF]そんな気分じゃ、[3C404EFF]なくなっちゃいました。=It's fine, you don't have to. I'm not in the mood anymore.
+もーいーです。\nなんかシラケーってゆーかー\nそんな気分じゃ、なくなっちゃいました。=It's fine, you don't have to. I'm not in the mood anymore.
 
-[3C404EFF]わたし、[3C404EFF]帰りまーす。=I'll just go home.
+わたし、帰りまーす。=I'll just go home.
 
-[3C404EFF]……ほんとは。[3C404EFF]\nそのひとたちのこと、[3C404EFF]\nワッフルみたいに蜂の巣にしてあげたいところですけど……=Honestly. I really wanted to fill these people full of leads...
+……ほんとは。\nそのひとたちのこと、\nワッフルみたいに蜂の巣にしてあげたいところですけど……=Honestly. I really wanted to fill these people full of leads...
 
-[3C404EFF]ひぃっ！=Hiee!
+ひぃっ！=Hiee!
 
-[3C404EFF]あとは、[3C404EFF]そっちでどーにかしてくださいね。[3C404EFF]\n騎士さん。=Please do something about them afterwards, Kishi-san.
+あとは、そっちでどーにかしてくださいね。\n騎士さん。=Please do something about them afterwards, Kishi-san.
 
-[3C404EFF]き、[3C404EFF]消えたっ！？=S-She's gone!?
+き、消えたっ！？=S-She's gone!?
 
-[3C404EFF]助かったぁ……=We're saved...
+助かったぁ……=We're saved...
 
-[3C404EFF]お前たち！[3C404EFF]\n何の騒ぎだっ！！=You guys! What's with all the ruckus here!!
+お前たち！\n何の騒ぎだっ！！=You guys! What's with all the ruckus here!!
 
-[3C404EFF]あっ！[3C404EFF]\n【王宮騎士団（NIGHTMARE）】だ～っ♪=Ah! It's the Royal Knights!
+あっ！\n【王宮騎士団（NIGHTMARE）】だ～っ♪=Ah! It's the Royal Knights!
 
-[3C404EFF]助かってねェ～！！=We're not saved!
+助かってねェ～！！=We're not saved!
 
 ……ミソラちゃん……=Misora-chan...
 
-r:"^(?:\[3C404EFF\])?ケンカ別れのような形で去っていったミソラ。(?:\[3C404EFF\])?\n(.{2,10})は、複雑な思いで(?:\[3C404EFF\])?\n彼女のことを考えるのだった……$"=Misora fought with $1 and split up in the end.\n$1 is left thinking about her with mixed feeling...
+r:"^ケンカ別れのような形で去っていったミソラ。\n(.{2,10})は、複雑な思いで\n彼女のことを考えるのだった……$"=Misora fought with $1 and split up in the end.\n$1 is left thinking about her with mixed feeling...

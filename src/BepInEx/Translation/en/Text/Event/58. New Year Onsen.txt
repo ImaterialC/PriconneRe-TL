@@ -1,6 +1,5 @@
-春日替わり湯=Year Daily Onsen
-春日替湯録=Year's Daily Bath Record
-新=New 
+新春日替わり湯=New Year Daily Onsen
+新春日替湯録=New Year's Daily Bath Record
 
 sr:"^(\d+日)目の日替わり湯$"="$1 day of Daily Onsen"
 日替わり湯解放=Unlock Daily Onsen
@@ -42,7 +41,7 @@ sr:"^(\d+日)目の日替わり湯$"="$1 day of Daily Onsen"
 （こ、これは……チャンスですよ！\nあたしよりも先にボスがのぼせたら\nその時点でボスはあたしよりへっぽこ！\nつまりあたしの勝ち！　ザ・下克上！）=(Hey, this is... a chance!\nIf the boss gets hotter than me,\nat that point\nthe boss will be weaker than me!\nIn other words,\nI win! The Gekokujo!)
 
 くっくっく……\nこの勝負、もらったですよー！\nあーっはっはっはっは！=Kukkuku……\nI got this win!\nAhahahahahahahaha!
-うーん♪\nようやくあったまってきた～\nね、イノリちゃん？=hmm ♪\nIt's finally warmed up~\nHey, Inori-chan?
+うーん♪\nようやくあったまってきた～\nね、イノリちゃん？=Hmm ♪\nIt's finally warmed up~\nHey, Inori-chan?
 ぴ……\nぴぃいいい……\nゆでドラゴン族になっちまうです～っ！=Pi……\nPiiiiiiie......\nI'm going to become a boiled dragon!
 
 エルピス島のドラゴンもどきから分けて\nもらった火の実をふんだんにつかった\n情熱的な温泉。ひとたび浸かれば汗が\n滝のように噴き出してくる。その熱さは\n己の限界を極めようとする漢・漢女たちの\n勝負心をがっちりと掴んで離さない。=A passionate Onsen that uses plenty\nof fire nuts given by a dragon-like\ncreature on Elpis Island. Once immersed,\nsweat erupts like a waterfall. The passion\nfirmly grasps the fighting spirit of the\nHan and Han women who are trying to reach\ntheir limits and does not let go.
@@ -61,7 +60,7 @@ sr:"^(\d+日)目の日替わり湯$"="$1 day of Daily Onsen"
 よーし！\nじゃあいーっぱい入ってー\nお肌ツヤッツヤにしてー\nヒデサイびっくりさせちゃおーっと☆=All right!\nThen come in full\nMake your skin glossy\nLet's surprise Hidesai☆
 あ、そーだ！\nびっくりっていったらさー？\nここももっとすごそー感\n出しちゃってもいんじゃない？=Oh yeah!\nWhat if you were surprised?\nIsn't it okay to feel\neven more amazing here?
 すごそー感？=It is that great?
-そそ！\nみんな一発でやばば！\nってわかるようにすんの！=ikr! Everyone is yababa with a single shot! Do you want to know!
+そそ！\nみんな一発でやばば！\nってわかるようにすんの！=Ikr! Everyone is yababa with a single shot! Do you want to know!
 フンイキ変わるとバズるかもだし！\nめっちゃかわいいおフロだったら\nお客さんもジャンジャンだよ！=If you change your mood,\nit might go viral!\n If it's a super cute bath,\nthe customer will be Jean Jean!
 かわいいお風呂……\n気になるわね～♪\nどんな感じになるのかしら？=Cute bath...\nI'm curious~♪\nI wonder what it's going to look like?
 
@@ -100,7 +99,7 @@ sr:"^(\d+日)目の日替わり湯$"="$1 day of Daily Onsen"
 はしたないなんて……\n今は私たち二人きりなのよ。\nメロンソーダの中で泳いだら\nきっと楽しいと思うけど……？=What a shame...\nwe're alone now.\nI think it would be fun\nto swim in melon soda...?
 そ、それは……\n楽しそうですけど……\n私も少し泳げるようになりましたし……\nでも、マナー的に……う～ん……=Well, that...\nsounds like fun,\nbut...\nI've learned to swim a little too...\nbut in terms of manners...\numm...
 ……ふふふ。\nじゃあ、私は泳いじゃおっかな～？=……Fufufu.\nThen, should I swim?
-ええっ！？\nそんな、ズルいですっ。\nだったら……わ、私もっ！=eee!?\n That's cheating.\nThen... I, me too!
+ええっ！？\nそんな、ズルいですっ。\nだったら……わ、私もっ！=Eee!?\n That's cheating.\nThen... I, me too!
 
 優しい微炭酸と甘いメロンの香りに満ちた\n遊び心をくすぐる温泉。子どもたちが喜ぶ\nような温泉を、というミツキの想いが形に\nなったもの。いつもは大人びている優等生\nさんも、この湯舟に浸かればつい年相応に\nはしゃいでしまうのだとか。=A playful Onsen filled with mild\ncarbonation and sweet melon scent.\nMitsuki's desire to create a Onsen\nthat will please children has taken shape.\nIt is said that even the normally grown-up\nhonor students will be in high spirits\nfor their age if they soak in this bath.
 血行促進、ピーリング効果\n童心に帰る効果=Peeling effect to promote blood\ncirculation Effect to return to childhood
@@ -137,7 +136,7 @@ sr:"^(\d+日)目の日替わり湯$"="$1 day of Daily Onsen"
 もう十分、疲れはとれたわ。\nあんまり長湯しちゃうと\nかえって時間がもったいないもの。\n時は金なりよ！=Enough, my tired was gone. \nIf you spend too long in the bath\nit's a waste of time. \n Time is money!
 時は金なり……\nそうね\nそういう考え方もあるわね～=Time is money... \nThere is such a way of thinking~
 でも……\nたまには時間をぜいたくに使うのも\nいいんじゃないかしら？=But...\nIsn't it nice to spend your time lavishly\nonce in a while?
-え？=ee?
+え？=Eh?
 疲れがたまるのは体だけじゃないわ。\nあんまり気を張りすぎたら\n心だって疲れちゃうもの。=It's not just your body that gets tired. \nIf you try too hard,\nyour heart will get tired.
 そういう目に見えないところを癒すのも\n大切なことだって……\n私は思うの♪=I think it's \nimportant to heal those things\nthat you can't see...♪
 た、たしかに……\nそういう考え方もあるわね。\nはるばるオーエドまで足を運んだんだし\nこの機会を生かした方がいいのかも……=Well, that's true... \nThere's a way to think about it. \nI've traveled all the way to Oed\nSo maybe I should make the most of this opportunity...
@@ -154,7 +153,7 @@ sr:"^(\d+日)目の日替わり湯$"="$1 day of Daily Onsen"
 ブラ=Bra
 ブラック労働のストレスからの食欲！\n食欲からのぜい肉！\nこの私腹を肥やすのは却下ですわ！\nすっきりごっそり清算しますわよ～！！=Appetite from the stress of black labor! \n Flesh from appetite! \nI'm going to refuse to fill my pocket! \nI'll clean it all up! !
 入浴時間には気をつけてね？\n脂肪燃焼効果が高いから……\n入りすぎると大変なことになるわよ。=Be careful when bathing, okay? \nBecause it has a high fat-burning effect...\nIf you add too much, you'll be in big trouble.
-ええ、ええ！　もちろんですわ！\nそれにしても……短時間で\nこれほどの温泉が用意できるとは。\nさすがは『隻眼の悪魔』ですわね？=yeah yeah! Of course! \nEven so...I didn't expect to prepare such a Onsen\nin such a short time. \n As expected of the One-Eyed Devil, right?
+ええ、ええ！　もちろんですわ！\nそれにしても……短時間で\nこれほどの温泉が用意できるとは。\nさすがは『隻眼の悪魔』ですわね？=Yeah yeah! Of course! \nEven so...I didn't expect to prepare such a Onsen\nin such a short time. \n As expected of the One-Eyed Devil, right?
 お褒めの言葉どうも。\nといっても……\n私はあなたの依頼に応えただけだけど。=Thank you for your compliment. \nBut...\nI was just responding to your request.
 あらあらご謙遜ですこと。\nもっとつけ入る隙を見せてくれたら\nわたくしも楽ですのに。=Oh my God, be humble. \nIt would be easier for me if you showed me a chance\nto take advantage of it more.
 私が楽にしてあげるのは患者だけよ。\n商売の取引相手は範囲外。=The only person I can make easy for is the patient. \nBusiness partner is out of range.
@@ -186,7 +185,7 @@ sr:"^(\d+日)目の日替わり湯$"="$1 day of Daily Onsen"
 たしかにじんわりと\n魔力は回復してきてるし……\nこのヌルヌルしたお湯の感じが\n肌にも効きそうな気がするわ。=It's true that\nI'm slowly recovering my magical power...\nI feel like this slimy Onsen\nwill work on my skin.
 そっか～♪\nじゃあ今日の温泉は大成功だね☆\n捕まえてきてもらったかいがあったよ～=I see~♪\nSo today's Onsen was a great success☆\nIt was worth it to catch you~
 なかなかやるじゃない！\n……ん？　ちょっと待って。\n捕まえてきてもらった……？=It's hard to do! \n... Hmm?  wait a minute. \nDid you catch me...?
-あれ？　温泉の名前、見なかったの～？\nこの今日の温泉は……\n特製のポーションとゼラチナを混ぜた\n当旅館自慢のゼラチナの湯で～す☆=that? "Didn't you see the name of the Onsen~?" \nToday's Onsen...\nIt's a mixture of special potions and gelatin\nthat's the pride of our ryokan.
+あれ？　温泉の名前、見なかったの～？\nこの今日の温泉は……\n特製のポーションとゼラチナを混ぜた\n当旅館自慢のゼラチナの湯で～す☆=That? "Didn't you see the name of the Onsen~?" \nToday's Onsen...\nIt's a mixture of special potions and gelatin\nthat's the pride of our ryokan.
 ゼ……ゼラチナ風呂ぉ～～！？\nそういえば、どこかでそんな\n不穏な言葉を見たような気が……=Ze……Gelatina bath~~! ? \nCome to think of it, I feel like I've seen such disturbing words somewhere...
 どうりでなんだか懐かしい感じの\nする温泉だと思ったわ……じゃなくて！\nなんてものを作ってんのよ！？=No wonder I thought it was a Onsen with a nostalgic\n feel... no! \n What are you making! ?
 でも効能はよかったでしょ～？\nちなみに入浴時間に比例して\n魔力の回復量も増大しちゃう\n素敵仕様となっておりま～す☆=But it worked well, right? \nBy the way, the amount of magical power recovered increases\nin proportion to the bathing time\nIt has a wonderful specification ☆

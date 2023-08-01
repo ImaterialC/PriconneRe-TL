@@ -1,12 +1,10 @@
-ロフィール=rofile
-プ=P
 r:"^([0-9/／]+)人$"=$1
 30／30人
 ---Menu---
 ウィークリー=Weekly
 EXクエスト=EX Quest
 クリアした階=Cleared Floor
-ルナの塔=Luna T.
+ルナの塔=Luna Tower
 r:"^(\d+)階$"=F$1
 解放数=Unlocked
 クエスト達成数=Quest
@@ -44,7 +42,7 @@ Twitter投稿=Post to Twitter
 プロフ編集=Edit
 クランプロフ=Clan Profile
 到達階=Current
-イプロフカード=y Profile Card
+マイプロフカード=My Profile Card
 ルナの塔階数=Luna's Tower Floors
 プリンセスアリーナ\n順位=Princess Arena\nRanking
 バトルアリーナ順位=Battle Arena\nRanking
@@ -77,7 +75,7 @@ r:"^※全角(\d+)文字以内$"=※Up to  $1 character
 募集要項=Bio
 メンバー数=Member
 未参加=N/A
-ランプロフカード=Clan Profile Card
+クランプロフカード=Clan Profile Card
 平均プレイヤーLv=Average P. LV
 個人=Personal
 過去の戦績=Past Results
@@ -86,7 +84,7 @@ r:"^※全角(\d+)文字以内$"=※Up to  $1 character
 全クランランキング=Total Ranking
 クラン内ランキング=In-Clan Ranking
 クランバトル戦績=Clan Battle Results
-キャラ一覧=Select A Character
+キャラ一覧=Characters
 選択中のキャラ=Selected character
 
 生放送のお知らせ=Live broadcast news

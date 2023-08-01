@@ -57,7 +57,7 @@ r:"^グルメバカンスを過ごすべくオーマを訪れたネネカ、ア�
 チイッスお待たせしましたー！\nトゥンヌスの薄造りアーンドゥ煮つけでございまーッス。=Here you go, sorry for the wait! Thin slices of Tunnus and stewed Tunnus!
 ウェイター=Waiter
 あっ、じゃ、と、とりあえず、とりあえず食べましょ！\n空気が凍った時は食べる！　そして飲む！　ね、それがいいわ。=Ah, then, f-for now, let's eat! When the situation freezes, we eat! And drink! Right, that's good.
-r:"^(?:\[3C404EFF\])?で、(?:\[3C404EFF\])?ですわね！(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?どうぞ、(?:\[3C404EFF\])?ネネカさん。(?:\[3C404EFF\])?\n(?:\[3C404EFF\])?ほら、(?:\[3C404EFF\])?(.{2,10})さまも、(?:\[3C404EFF\])?従者様も……！$"=Y-yes! Here you go, Neneka-san. Look, $1-sama and the attendant too...!
+r:"^で、ですわね！\nどうぞ、ネネカさん。\nほら、(.{2,10})さまも、従者様も……！$"=Y-yes! Here you go, Neneka-san. Look, $1-sama and the attendant too...!
 せーの！=Ready!
 いただきます。=Bon Appétit.
 一同=Everyone
@@ -98,88 +98,87 @@ r:"^(?:\[3C404EFF\])?で、(?:\[3C404EFF\])?ですわね！(?:\[3C404EFF\])?\n(?
 ……そいつらと知り合いなのか？=...Do you know these guys?
 ああ。この人たちは信用できる。\n洗いざらいぜんぶ吐いちまいな。\nオレたちの、のっぴきならねぇ「事情」をよ。=Yeah. These people are trustworthy. Tell them everything. Our unavoidable "situation".
 
-[3C404EFF]……水と[3C404EFF]空気。=...Water and air.
-[3C404EFF]嘘と[3C404EFF]本当。[3C404EFF]\n勝利と[3C404EFF]敗北。=Lies and truth.\nVictory and defeat.
-[3C404EFF]白と[3C404EFF]黒。[3C404EFF]\n好きと、[3C404EFF]好きじゃない──=White and black.\nLove and hate.
-[3C404EFF]裏も表も関係なく、[3C404EFF]全てひっくり返してお天道様の元に晒せば、[3C404EFF]\n必ず正解に辿り着ける。=If you turn everything upside down and expose it to the sun, you will surely find the right answer.
-[3C404EFF]そんなふうに信じていられたのは、=That's what I used to believe,
-[3C404EFF]いつまでだった……？=Until when...?
-[3C404EFF]青い空！　[3C404EFF]青い海！　[3C404EFF]灼熱の[3C404EFF]太陽！[3C404EFF]\nさぁ～[3C404EFF]待ちに待った[3C404EFF]サマーバケーションですわよーー！=Blue sky! Blue sea! Scorching sun! It's finally time for the summer vacation!
-[3C404EFF]……の割に、[3C404EFF]ずいぶん夏っぽくない方角に来ちゃったわね～=...But, we came to a rather un-summery destination, didn't we?
-[3C404EFF]オーマって確か、[3C404EFF]冬が盛りの漁港じゃなかったかしら……[3C404EFF]\n[3C404EFF]極寒の荒波、[3C404EFF]板子一枚[3C404EFF]下は地獄、[3C404EFF]みたいな？[3C404EFF]\n[3C404EFF]福利厚生で来てる身で文句言うのもアレだけど……=Ohma is supposed to be a fishing port that thrives in winter, right? Extreme cold, rough sea, hell on earth below the wooden planks? I am not complaining since we are here on a welfare package...
-[3C404EFF]あ～ら、[3C404EFF]ご存じありませんの？[3C404EFF]\n幻の魚[3C404EFF]『トゥンヌス』は、[3C404EFF]ここで一年中！　獲れるんですのよ！=Oh, you don't know? The phantom fish "Tunnus" can be caught here all year round!
-[3C404EFF]トゥンヌス？=Tunnus?
-[3C404EFF]ええ。[3C404EFF]お刺身はもちろんのこと……[3C404EFF]\n[3C404EFF]内臓や皮は[3C404EFF]加工すれば絶品のオツマミ。[3C404EFF]\n[3C404EFF]余すところなく使える[3C404EFF]超高級魚ですわ。=Yes. It's a super-premium fish that can be used without waste. The sashimi is, of course, delicious... but the innards and skin are also exquisite finger food when prepared.
-[3C404EFF]絶品オツマミ！？=Exquisite finger food!?
-[3C404EFF]そういえば、[3C404EFF]オツマミのこと「肴」って言うわよね……[3C404EFF]\n[3C404EFF]アテの真髄は[3C404EFF]魚にあり？　[3C404EFF]じゅるり……=That's right. They call finger food "snacks" here, right? The essence of snacks is in fish? Drool...
-[3C404EFF]にしても……[3C404EFF]ちょっと静かな気がしない？[3C404EFF]\n[3C404EFF]バカンスに来るにはメジャーじゃないってことなのかしら。[3C404EFF]\nオーマは冬が本番……[3C404EFF]みたいな？=But... don't you think it's a bit quiet? I guess it not a major destination for vacationing. Ohma is at its best in winter... maybe?
-[3C404EFF]おーっほっほっほ♪[3C404EFF]\n人でごった返すビーチより[3C404EFF]断然ゆっくりできますわ！[3C404EFF]\n[3C404EFF]真のバカンスとは、[3C404EFF]グルメを楽しむものですもの。=Ohohoho♪ I can relax much more than on a crowded beach! The best part of vacations is to enjoy the gourmet food.
-[3C404EFF]さぁ、[3C404EFF]オーマというオーベルジュを、[3C404EFF]楽しみ尽くしましょう！=Come on, let's enjoy this Ohma inn to the fullest!
-[3C404EFF]ぃやったーー！=Yaaaaay!
-[3C404EFF]──すまないがそちらの方々。[3C404EFF]\n少し静かにしてはもらえないだろうか。=──I'm sorry, but could you please be quiet?
-[3C404EFF]我が主は、[3C404EFF]騒々しいのがお嫌いなもので。=My master doesn't like noise.
-[3C404EFF]……[3C404EFF]まったく[3C404EFF]ここはいつ来ても……[3C404EFF]\n静かに過ごせるだろうという期待を、[3C404EFF]即刻裏切ってきますね。=...Really, every time I come here... they betray my expectation of being able to have some quiet time.
-[3C404EFF]──ネネカさん！=──Neneka-san!
-[3C404EFF]すごい偶然よね～[3C404EFF]\nネネカさんたちもグルメバカンスに来てたなんて。[3C404EFF]\n[3C404EFF]やっぱりそれだけおいしいんだ、[3C404EFF]トゥンヌスって？=What a coincidence~ You guys were also here for a gourmet vacation. I guess Tunnus is really that delicious?
-[3C404EFF]……わざわざ訪れる程度には。[3C404EFF]\n[3C404EFF]貴方がたとバッティングすると知っていれば[3C404EFF]来ませんでしたが。=...Only to the extent that I bothered to visit. I wouldn't have come if I had known that I would run into you guys.
-[3C404EFF]わ、[3C404EFF]ネネカさん辛口ね。[3C404EFF]\nえっ、[3C404EFF]もしかして、[3C404EFF]こっちもイケる口？=Wow, Neneka-san you are so harsh. Huh, you can surely hold your drink, don't you?
-[3C404EFF]ユカリさん、[3C404EFF]話題の誘導が強引でしてよ。[3C404EFF]\n何でもかんでも麦しゅわにつなげるのは[3C404EFF]よろしくありませんわ。[3C404EFF]\n[3C404EFF]ほら、[3C404EFF]ネネカさんも戸惑っていらっしゃいます。=Yukari-san, you are pushing forcibly to another topic. It's not good to connect everything to barley soda. Look, Neneka-san is confused too.
-[3C404EFF]失礼しますわ、[3C404EFF]ネネカさん。[3C404EFF]\n[3C404EFF]これまで[3C404EFF]あまりご一緒したことがなかったように思いますが、[3C404EFF]\n[3C404EFF]お噂はかねがね。[3C404EFF]非常に優秀な研究者でいらっしゃるとか。=Excuse me, Neneka-san. I haven't had much chance to work with you before, but I've heard the rumors. You're a very talented researcher.
-[3C404EFF]え、[3C404EFF]そうなの？[3C404EFF]\nってことは～……[3C404EFF]\n[3C404EFF]多忙なビジネスガールが、[3C404EFF]バカンスの地で３人そろったってわけね～！=Huh, really? That means~... three busy business girls gathered in this vacation spot!
-[3C404EFF]じゃあじゃあ、[3C404EFF]せっかくだし色々しゃべらない？[3C404EFF]\n[3C404EFF]おいしいもの食べながらおしゃべりして～[3C404EFF]\n[3C404EFF]仕事で溜まりまくりのストレスと疲労、[3C404EFF]一気に解消しちゃいましょう～！=Well, well, since we're here, why don't we chat about various things? Let's eat something delicious and talk~ Let's get rid of all the stress and fatigue that piled up from work at once~!
-[3C404EFF]ま、[3C404EFF]まるでうちがブラック企業かのような言い回しなのが[3C404EFF]\n少々気になりますが……[3C404EFF]\n[3C404EFF]でも、[3C404EFF]おしゃべりには賛成ですわ！　[3C404EFF]異業種交流にもなりますし♪=I'm a little concerned about your choice of words as if I run a black company... But I agree with chatting! It's also a cross-industry exchange♪
-[3C404EFF]早速ですがネネカさん。[3C404EFF]\nどのような分野の研究に、従事されていますの？[3C404EFF]\n企業との事業提携は、[3C404EFF]既にされておいでで？=Right away, Neneka-san. What kind of research field are you working in? Have you already done any business collaboration with companies?
-[3C404EFF]も～[3C404EFF]アキノさん。[3C404EFF]\n私たち、バカンスに来てるんでしょ？[3C404EFF]\n[3C404EFF]そんな堅苦しい質問より、[3C404EFF]まずは砕けた話題からでしょ～？=Akino-san, we're on vacation, right? Rather than this stiff questions, let's start with some casual topics~?
-[3C404EFF]ネネカさんも仕事、[3C404EFF]忙しいんでしょ？[3C404EFF]\n普段どんなふうにストレス解消してるの？[3C404EFF]\nなにか……[3C404EFF]飲むとか？　[3C404EFF]あおるとか？　[3C404EFF]グイっといくとか？=Neneka-san, you are also busy with work, right? How do you usually relieve your stress? Do you like to drink it out? Laugh it away? Or just gulp it down? 
-[3C404EFF]だからっ、[3C404EFF]話題の誘導が強引──[3C404EFF]\nネネカさん困っていらっしゃるじゃないの！=That's why, your topic guidance is too forceful--- You are troubled, Neneka-san, aren´t you?
-[3C404EFF]え～、[3C404EFF]そーお？[3C404EFF]\n[3C404EFF]じゃあ、[3C404EFF]女子に共通の話題といえば……=Eh~, really? Then, a common topic for girls is...
-[3C404EFF]誰か、[3C404EFF]プライベートで気になる人は、[3C404EFF]いたりするの？=Do you have someone you're interested in privately?
-[3C404EFF]あれ、[3C404EFF]もしかして、[3C404EFF]聞くならまず自分から言えって感じ？[3C404EFF]\n[3C404EFF]気になる人、[3C404EFF]もちろんいるわよ。[3C404EFF]年下なんだけど、[3C404EFF]頼りないようでいて、[3C404EFF]\nなかなか頼もしいの。[3C404EFF]ねえ、[3C404EFF]アキノさんは？=Huh, do you mean I should say it first if I want to ask? Of course I have someone I'm interested in. He's younger than me. He might seem unreliable yet he is dependable. Hey, how about you, Akino-san?
-[3C404EFF]私もですわ！[3C404EFF]\n[3C404EFF]私とは違った視点を教えてくださる[3C404EFF]\n[3C404EFF]頼もしくも物知りなお方なのです。[3C404EFF]それに[3C404EFF]とっても働き者で……=Me too! A reliable and knowledgeable person who teaches me different perspectives from mine. And he's very hard-working too...
-[3C404EFF]…………[3C404EFF]ええっと……[3C404EFF]\nそ、[3C404EFF]それ以上のことは、[3C404EFF]ここではちょっと言えないのよね……[3C404EFF]\n[3C404EFF]ほら、[3C404EFF]こういう話は、[3C404EFF]話せないことも多いのよ！　[3C404EFF]だって女子だもの！=...Um... I can't say anything more here... You know, this kind of talk has many things that can't be said! A girl has to keep some secrets!
-[3C404EFF]……そ、[3C404EFF]そうですわね…………！[3C404EFF]\n[3C404EFF]ここでは、[3C404EFF]これ以上はちょっと……=...Y-yes... Here, we can't say anything more...
-[3C404EFF]……か、[3C404EFF]風邪ですわね！=...Y-yes I-it's a cold, right!
-[3C404EFF]そ、[3C404EFF]そうそう、[3C404EFF]風邪よ風邪！[3C404EFF]\n[3C404EFF]こんな真夏に、[3C404EFF]水着なんて、[3C404EFF]薄着にも程があるんじゃない？=Y-yeah, yeah, a cold! In the middle of summer, wearing swimsuits this small, isn't it?
-[3C404EFF]……[3C404EFF]\n[3C404EFF]断っておきますが。[3C404EFF]\n個人情報について[3C404EFF]話すつもりはありません。=...Just to make it clear. I have no intention of talking about personal information.
-[3C404EFF]や、[3C404EFF]やだわ、[3C404EFF]ネネカさん、[3C404EFF]個人情報って。[3C404EFF]\n[3C404EFF]別にそんな、[3C404EFF]機密情報を聞き出そうとか、[3C404EFF]そういうことじゃ……[3C404EFF]\n[3C404EFF]ただの雑談っていうか、[3C404EFF]女子トークの類？　[3C404EFF]ねぇ？=N-no way, Neneka-san, personal information. It's not like I'm trying to get some confidential information or anything... Just some casual chat or girl talk? Right?
-[3C404EFF]一つ話せば、[3C404EFF]無数の推察が成立します。[3C404EFF]\n[3C404EFF]プライベートを明かすという行為に、[3C404EFF]百害あって[3C404EFF]一利なしです。=If I say one thing, countless speculations can be made. There is no benefit and only harm in revealing my private life.
-[3C404EFF]ネ、[3C404EFF]ネネカさん？=N-Neneka-san?
-[3C404EFF]人は私のことを、[3C404EFF]”職業柄”[3C404EFF]秘密主義だ、[3C404EFF]などと言いますが、[3C404EFF]\n別に、職業柄でもなんでもありません。[3C404EFF]これが、素です。=People say that I'm secretive because of my "profession", but it's not because of my profession or anything. This is just me.
-[3C404EFF]……しゃべり過ぎました。=...I talked too much.
-[3C404EFF]……は、[3C404EFF]はぁ……=...H-huh...
-[3C404EFF]チイッスお待たせしましたー！[3C404EFF]\nトゥンヌスの薄造り[3C404EFF]アーンドゥ煮つけでございまーッス。=Here you go, sorry for the wait! Thin slices of Tunnus and stewed Tunnus!
-[3C404EFF]あっ、[3C404EFF]じゃ、[3C404EFF]と、[3C404EFF]とりあえず、[3C404EFF]とりあえず食べましょ！[3C404EFF]\n[3C404EFF]空気が凍った時は食べる！　[3C404EFF]そして飲む！　[3C404EFF]ね、[3C404EFF]それがいいわ。=Ah, then, f-for now, let's eat! When the situation freezes, we eat! And drink! Right, that's good.
 
-[3C404EFF]せーの！=Ready!
-[3C404EFF]いただきます。=Bon Appétit.
-[3C404EFF]こ、[3C404EFF]これが……=Th-This is...
-[3C404EFF]…………トゥンヌス？？？？=...Tunnus???
-[3C404EFF]正直……………………[3C404EFF]微妙だ。=Honestly.........that's not quite right.
-[3C404EFF]ええ。[3C404EFF]美味くもなく[3C404EFF]不味くもなく……[3C404EFF]\n[3C404EFF]あえて言うならば……[3C404EFF]「曖昧模糊とした味」。=Yes. It's neither tasty nor bad... If I had to say... "A vague and ambiguous taste".
-[3C404EFF]まるで[3C404EFF]隠し味に隠し味を重ね、[3C404EFF]挙句正体が見えなくなったような……[3C404EFF]\n[3C404EFF]もしくは、[3C404EFF]奥歯にモノが挟まったまま食べているような……？[3C404EFF]\n[3C404EFF]これが、[3C404EFF]あのトゥンヌスですの！？=It's like they added a hidden flavor to the hidden flavor, and in the end, the identity was lost... Or, it's like eating with something stuck in your back teeth...? This is the Tunnus you're talking about!?
-[3C404EFF]確かにこれは、[3C404EFF]曖昧模糊味ね……=Indeed, this is a vague and ambiguous taste...
-[3C404EFF]以前食べたトゥンヌスと、[3C404EFF]到底同じ魚とは思えません。=I can't believe this is the same fish as the Tunnus I ate before.
-[3C404EFF]あっれ。[3C404EFF]お客さんたち知らなかったんスか？[3C404EFF]\nトゥンヌス、[3C404EFF]ここんとこずーっと、[3C404EFF]そんなテンションッスよ。=Oh. You guys didn't know? Tunnus has been like this for a while now.
-[3C404EFF]にわかには信じがたいお話ですわ。[3C404EFF]\nあのトゥンヌスの味が落ちて、[3C404EFF]売れ行き絶不調だなんて。=I find it hard to believe. The quality of Tunnus has dropped, and the sales are terrible.
-[3C404EFF]だが残念ながら、[3C404EFF]売れないのも頷ける。[3C404EFF]\n[3C404EFF]期待が高かっただけに、[3C404EFF]体感100、[3C404EFF]いや[3C404EFF]50ルピ程度の味だった……=Unfortunately, I can understand why it doesn't sell. The expectations were high, but it tasted like 100, no, 50 rupees...
-[3C404EFF]子どものオヤツ代でも[3C404EFF]ちょっと小馬鹿にされる額ね……=That's an amount that would be laughed at even for a child's snack...
-[3C404EFF]港が閑散としている理由も、[3C404EFF]恐らくそこですね。=That is probably the reason why the port is quiet.
-[3C404EFF]でも、[3C404EFF]その割にぜんぜん危機感がなさそうだったわね。[3C404EFF]\n原因聞いてもはぐらかすし。[3C404EFF]\n[3C404EFF]どうしても知りたいなら漁協に聞いてくれ～[3C404EFF]とか。=But they didn't seem to have any sense of crisis at all. They dodged the question when I asked them why. "If you really want to know, ask the fishing cooperative~" or something.
-[3C404EFF]許せませんわ、[3C404EFF]こんな事態……[3C404EFF]\n[3C404EFF]トゥンヌスは、[3C404EFF]オーマが育んだ宝ですのよ！？[3C404EFF]\n[3C404EFF]なんとしても、[3C404EFF]原因を突き止めて──=I can't forgive this situation... Tunnus is a treasure that Ohma nurtured! I have to find out the cause and...
-[3C404EFF]ね、[3C404EFF]ねぇねぇ、[3C404EFF]ちょっと待って。[3C404EFF]\n見て、[3C404EFF]海が……[3C404EFF]ヘンじゃない？=Hey, hey, wait a minute. Look, the sea is... weird, isn't it?
-[3C404EFF]本当、[3C404EFF]ですわね。[3C404EFF]\n小さな泡が、[3C404EFF]ぷくぷくと……？=You're right. There are small bubbles, it is bubbling up...?
-[3C404EFF]うわ～[3C404EFF]すごくいい泡具合……[3C404EFF]喉越し良さそう……[3C404EFF]\n[3C404EFF]じゃ、[3C404EFF]じゃなくて！[3C404EFF]\nトゥンヌスの味がおかしいのと、[3C404EFF]関係があるのかしら。=Wow, that's a nice amount bubbles... It looks like it would go down well... No, no! I wonder if this has anything to do with the taste of Tunnus.
-[3C404EFF]お前たち。[3C404EFF]なにを嗅ぎまわっている。[3C404EFF]\n──お引き取り願え。=You guys. What are you sniffing around for? Get out of here.
-[3C404EFF]……漁協長。[3C404EFF]\nだけど客ですよ、[3C404EFF]この人たち！=...Chief Fisherman. But these people are customers!
-[3C404EFF]うるせえ。[3C404EFF]\nなんも知らねえで土地の事情に首突っ込むやつのことを[3C404EFF]\n客とは言わねえんだよ。=Shut up. I don't call people who don't know anything and stick their noses into the local situation customers.
-[3C404EFF]──やだ！　[3C404EFF]ちょっと、[3C404EFF]いきなりなにするの！=...Hey! What are you doing all of a sudden!
-[3C404EFF]ずいぶんと手荒な歓迎ですわね……？=That's quite a rough welcome... isn't it?
-[3C404EFF]そうですわ、[3C404EFF]この海の異変、[3C404EFF]お困りではありませんの？[3C404EFF]\n[3C404EFF]それとも何か、[3C404EFF]理由が……=That's right. Are you having trouble with this strange sea? Or do you have some reason...
-[3C404EFF]余計な詮索するんじゃねえ。[3C404EFF]おら、[3C404EFF]出ていけ。=Don't ask too much. Get out of here.
-[3C404EFF]き[3C404EFF]ゃっ──！=Kyaa──!
-[3C404EFF]まぁ待てや。[3C404EFF]\n陸の人間相手に[3C404EFF]そう荒ぶるもんじゃねぇ。=Hey, wait a minute. Don't be so rough with the landlubbers.
-[3C404EFF]久しぶりだな、[3C404EFF]ネネの助。[3C404EFF]マントの坊主よ。[3C404EFF]\n[3C404EFF]元気そうじゃねぇか。=Long time no see, Nene's gofer. Mantled boy. You look well.
-[3C404EFF]……カズマサさん！=...Kazumasa-san!
-[3C404EFF]こいつはな、[3C404EFF]ここの漁協長なんだわ。[3C404EFF]\n[3C404EFF]いー学校出たインテリのクセに、[3C404EFF]地元に舞い戻ってきた変わりモンよ。=He's Fisherman chief here. He's a weirdo who came back to his hometown after graduating from a good school.
-[3C404EFF]……そいつらと知り合いなのか？=...Do you know these guys?
-[3C404EFF]Yeah.[3C404EFF]この人たちは信用できる。[3C404EFF]\n洗いざらいぜんぶ吐いちまいな。[3C404EFF]\n[3C404EFF]オレたちの、[3C404EFF]のっぴきならねぇ[3C404EFF]「事情」をよ。=Yeah. These people are trustworthy. Tell them everything. Our unavoidable "situation".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
