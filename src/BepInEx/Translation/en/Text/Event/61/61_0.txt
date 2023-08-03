@@ -1,14 +1,15 @@
 牧場を警備するシオリの元へ主人公が配達に訪れる。届いた荷物からニャットのエサ代がかさんでいる事を知ったシオリは、牧場に負担をかけないよう新たな仕事を求めて、レンジャー合宿の門戸を叩くのだった。=The hero visits the delivery to Shiori, who guards the ranch. She knew that the luggage was received from the luggage, and Shiori knew a new job in search of a new job so that the ranch would not be burdened.
 
 ある晴れた日。あたたかい日差しを感じながら\nシオリとニャットはのどかな牧場を警備していた。=On a sunny day, feeling the warm sun on their skin, Shiori and Nyatt were guarding the peaceful pasture.
-グルル……=Grrrrr......                         
+グルル……=Grrrrr...... 
 いけませんね、どうしても眠くなっちゃいます……=It can't be helped, we get sleepy no matter what...
 平和な時だからこそ、気を抜いちゃいけないのに。=Especially during peaceful times, we can't let our guard down.
 ね？　ニャットちゃん。=Right, Nyatt-chan?
 グルル……？=Gururu...?
 ニャットちゃん？　急にどうしたの──=Nyatt-chan? What's wrong all of a sudden──
 荷物の配達に来たよ。=I came to deliver a package.
-r:"^\[3C404EFF\]あ、\[3C404EFF\](.{2,10})さん。\[3C404EFF\]\n\[3C404EFF\]こんにちは。$"=Oh, $1-san.\nGood afternoon.                               
+
+r:"^あ、(.{2,10})さん。\nこんにちは。$"=Oh, $1-san.\nGood afternoon.
 ほら、ニャットちゃん。\nお仕事の邪魔しちゃダメですよ。=Come on, Nyatt-chan. Don't get in the way of our work.
 ゴロゴロゴロ……♪=Purrs...♪
 ふふっ、うれしそう……♪\n何度も来てくれるから、すっかり懐いちゃいましたね。=Fufu, he looks happy... Because you've come so many times, he's become very friendly with you.
@@ -16,7 +17,7 @@ r:"^\[3C404EFF\]あ、\[3C404EFF\](.{2,10})さん。\[3C404EFF\]\n\[3C404EFF\]�
 よい、しょ……=Heave-ho!
 ありがとう。=Thank you.
 いいえ、どういたしまして。\nもともと、全部うち宛の荷物ですから。=No, don't mention it. Actually, all the packages were addressed to us originally.
-よかったら、あなたも少し休憩していってください。\nお茶でも淹れます……あの、どうかしましたか？=Please feel free to take a break here if you'd like.                                  
+よかったら、あなたも少し休憩していってください。\nお茶でも淹れます……あの、どうかしましたか？=Please feel free to take a break here if you'd like.  
 今日はいつもの配達だけじゃなくて、\n代引きの荷物もある……？=Today, there's not only the usual delivery, but also a Cash on Delivery package...?
 
 あ、本当ですね。\nどうしよう、マヒルさんは牧場に出ていてしばらく戻ってこないし……=Oh, you're right. What should we do? Mahiru-san is out on the pasture and won't be back for a while...
@@ -47,8 +48,8 @@ r:"^\[3C404EFF\]あ、\[3C404EFF\](.{2,10})さん。\[3C404EFF\]\n\[3C404EFF\]�
 ううん、違う……\nずっと見えないようにしてくれてたんだ。=No, that's not it... she was keeping it from me on purpose.
 ニャットちゃんを拾ってきたのは私だから。\n私が、気を遣わなくても済むように。=I'm the one who brought Nyatt-chan home. I wanted to spare you the worry.
 グルルルル……=Gurururururu...
-ニャットちゃん、心配してくれてるの？\nごめんね、大丈夫だから。=Nyatt-chan, are you worried?\nI'm sorry, it's okay.                   
-ただでさえお世話になっているのに\nこれ以上、負担を掛け続けるわけにはいきません。=Even though she just took care of me.                                                                                                              
+ニャットちゃん、心配してくれてるの？\nごめんね、大丈夫だから。=Nyatt-chan, are you worried?\nI'm sorry, it's okay.
+ただでさえお世話になっているのに\nこれ以上、負担を掛け続けるわけにはいきません。=Even though she just took care of me.  
 I cannot continue to burden ourselves with this.
 私も、ちょっとずつだけど元気になってきたし。\n今なら何か新しいお仕事とかできるかも……=Especially since I'm starting to feel a little better myself. Maybe I can find a new job or something...
 こんなこともあろうかと……じゃーん。=Just in case, ta-da!
@@ -58,9 +59,9 @@ I cannot continue to burden ourselves with this.
 そうなると内職……かな？\n造花のお花作りとか、商品のシール貼りとか。=That would be something like telework, right? Making artificial flowers or putting stickers on products.
 でも、牧場までわざわざ運んできてもらって、\nそれをまた市内まで持っていくのは大変ですし……\n送ったりしたら往復の送料だけで赤字になっちゃいそう。=But it would be difficult to transport them all the way to the city and back, just for that. The shipping alone would make us lose more than we earn.
 あっ、クレープ屋さんのアルバイト……♪\nかわいいエプロンを着てクレープを作るの、楽しそうだなぁ……=Ah, working at a crepe shop...♪ Wearing a cute apron and making crepes sounds so fun......
-えっと、内容は……？=Let's see, what's it about?                       
+えっと、内容は……？=Let's see, what's it about?
 「時給1000ルピ。曜日、時間帯は応相談。\n※尚、応募者によっては別の業務を依頼することもあります。\n腕に覚えのある冒険者、求む……！」="Hourly wage: 1000 Rupies. Weekday and time negotiable. ※Depending on the applicant, we may request other tasks. Adventurers with experience wanted...!"
-クレープ屋さんなのに冒険者の募集……？\nちょっと変な求人ですね。次は……=A crepe shop... looking for adventurers? That's a strange job posting. Next...                             
+クレープ屋さんなのに冒険者の募集……？\nちょっと変な求人ですね。次は……=A crepe shop... looking for adventurers? That's a strange job posting. Next... 
 「開発した新薬の被検──治験対象を募集中。\n腰痛肩こり慢性疲労、なんでも治す万能薬（の予定）。\n現時点では99％安全性は保証されています。」="We are recruiting test subjects for a newly developed medicine. We can cure anything, from back pain to shoulder stiffness and chronic fatigue (hopefully). At this stage, we can guarantee the medicine is 99% safe."
 新しいお薬の試験……\n気になるけど、期間が長くて難しいですね……=I'm interested in the new medicine, but the duration seems too long and complicated...
 「要人警護、警備を中心に幅広い業務に当たってもらいま～す★\nドラゴン族だと特別に報酬アップだよ～★\n※面接時、魔道具による機密保持契約の締結必須。」="We are looking for personnel to work in a wide range of fields, mainly in VIP protection and security.★ If you're a dragon, we'll pay you extra~★. ※At the time of the interview, signing a confidentiality agreement using magical tools is mandatory."
@@ -68,9 +69,9 @@ I cannot continue to burden ourselves with this.
 
 
 えっと、他のお仕事は……\nあれ、ページの間に何か挟まってる？=Umm, let's see the other jobs... Huh, something's stuck between the pages?
-これは……=This is……          
-それから数日後──=A few days later──                
-という感じで、新しいお仕事を探していたんです。=So, I was looking for a new job.   
+これは……=This is……  
+それから数日後──=A few days later──
+という感じで、新しいお仕事を探していたんです。=So, I was looking for a new job.
 それで、これが挟まってたんですけど……=I was flipping through the booklet, and then I found this stuck in here...
 ……合宿案内？=...A training camp brochure?
 はい。レンジャー系の専門資格が取れる合宿があるらしくって。\n私、これに行ってみようと思うんです。=Yes. It seems there's a training camp where you can get a specialist qualification for Ranger-type work. I'm thinking of going to this.
@@ -80,13 +81,13 @@ I cannot continue to burden ourselves with this.
 ええ、この合宿はレンジャー資格のカリキュラムと並行して、\nパートナーとなるレンジャーアニマルの訓練も行えるみたいなんです。=Yes, it seems that in addition to the Ranger qualification curriculum, the training camp also offers partner training for Ranger Animals.
 私、ニャットちゃんに前からちょっとずつ、\n牧場の見回りなんかの仕事を教えていたんです。=I've been teaching Nyatt-chan little by little about tasks like patrolling the ranch.
 ニャットちゃんを飼い始めたのは、私ですから。\n私が、ニャットちゃんが安心して\nここに居られるようにしてあげないと。=I'm the one who started keeping Nyatt-chan, so I have to make sure Nyatt-chan can feel secure here.
-ニャットちゃんを怖がったり、\n『危険な魔物』だって言う人にも、\nそうじゃないってことを、わかってもらえると思ったんです。=I thought that the people who were afraid of Nyatt-chan, or the ones who say he's a "dangerous monster," might finally be able to understand that he's not.   
+ニャットちゃんを怖がったり、\n『危険な魔物』だって言う人にも、\nそうじゃないってことを、わかってもらえると思ったんです。=I thought that the people who were afraid of Nyatt-chan, or the ones who say he's a "dangerous monster," might finally be able to understand that he's not.
 それで、応募要項を確認したところ、\nニャットちゃんも大丈夫そうだったので。\nこれを機に、レンジャーアニマル認定めざして頑張ってみようかと。=So, when I checked the application requirements, it seemed that Nyatt-chan would be fine too. I'm going to do my best to become a certified Ranger Animal with this opportunity.
 現状を変えたいなら、私が変わらないといけないですから。=Besides, if I want to change the current situation, I have to change myself.
 その合宿、僕も行っていい？=Can I go to that training camp too?
-r:"^\[3C404EFF\](.{2,10})さんも？\[3C404EFF\]\nええ、\[3C404EFF\]申込自体はまだ間に合いますけど……$"=$1-san wants to go too? Yes, there's still time to apply, but...
+r:"^(.{2,10})さんも？\nええ、申込自体はまだ間に合いますけど……$"=$1-san wants to go too? Yes, there's still time to apply, but...
 合宿の案内を見てたら、興味が湧いてきたんですか？\n私も、あなたが一緒なら心強いです。=Did you become interested in the training camp brochure? It'll be reassuring if you're with me.
-r:"^\[3C404EFF\]私が受けるのは\[3C404EFF\]レンジャー育成コースですけど、\[3C404EFF\]\n(.{2,10})さんも同じコースで大丈夫ですか？$"=I'll be taking the Ranger Training Course, but is it okay if $1-san takes the same course?
+r:"^私が受けるのはレンジャー育成コースですけど、\n(.{2,10})さんも同じコースで大丈夫ですか？$"=I'll be taking the Ranger Training Course, but is it okay if $1-san takes the same course?
 もちろん！=Of course!
 わかりました。\nそれじゃあ、私の方で申し込みをしておきますね。=Alright, I understand. Then, I'll apply for both of us.
 そして、後日──=And then, later on──
@@ -95,15 +96,15 @@ r:"^\[3C404EFF\]私が受けるのは\[3C404EFF\]レンジャー育成コース�
 マ、マヒルさん……\nもう鞄がぎゅうぎゅうで、これ以上入らないです。=Mahiru-san, my bag is already packed and won't fit anything else.
 っとと、そっか。わりぃ。\nつい心配であれもこれも用意しちまった。=Oh, right. Sorry about that. I just got worried and prepared too much.
 でもシオシオが合宿か～\nこの前、相談を受けた時はびっくりしたべよ。=But, when Shio-shio said she wanted to go to the training camp, I was surprised.
-ごめんなさい、急な話で。\nでも、私……どうしても、やってみたいんです。=I'm sorry it's on such short notice. But... I really want to try it.                    
+ごめんなさい、急な話で。\nでも、私……どうしても、やってみたいんです。=I'm sorry it's on such short notice. But... I really want to try it.
 謝ることねぇべさ、やりたい事があんのはいい事だべ。\nオラにも、いつか漫才で大爆笑を取るっていう立派な夢があるべさ。=No need to apologize. It's a good thing to have something you want to do. Even I have a great dream of someday making people laugh with a comedy act.
 だからシオシオが行きてぇなら……オラ、心から応援する。\nつって、今生の別れってわけでもねぇしな。=So if Shio-shio wants to go... I'll support you from the bottom of my heart. And this isn't a farewell for life or anything like that.
 お！　そうこう言ってる間に、お迎えが来たみたいだべ。=Oh! Looks like your ride just arrived while we were talking.
 準備万端だね。=You're well-prepared.
-ええ、今日のために備えましたから。\n……それじゃ、マヒルさん。行ってきますね。=Yes, I've prepared for today. Well then, Mahiru-san, I'm off.                                      
+ええ、今日のために備えましたから。\n……それじゃ、マヒルさん。行ってきますね。=Yes, I've prepared for today. Well then, Mahiru-san, I'm off.  
 ああ、いってらっしゃい。=Yeah, take care.
 しっかり頑張るべ、シオシオ。=Please do your best, Shio-shio.
-r:"^\[3C404EFF\]それから、シオリと(.{2,10})は馬車に揺られ、\[3C404EFF\]\nランドソルから離れたハンターズギルドの合宿所へ向かった。$"=And then, Shiori and $1 rode a carriage and headed to the Hunter's Guild training camp, away from Landosol.
+r:"^それから、シオリと(.{2,10})は馬車に揺られ、\nランドソルから離れたハンターズギルドの合宿所へ向かった。$"=And then, Shiori and $1 rode a carriage and headed to the Hunter's Guild training camp, away from Landosol.
 そこに待っていたのは──=Waiting for them there was──
 お待ちしておりました。\n主さま、シオリさま。それにニャットさまも。=I've been waiting for you, Aruji-sama and Shiori-sama, and also Nyatt-sama.
 コッコロちゃん？　どうしてここに……=Kokkoro-chan?\nWhat are you doing here...?
@@ -114,11 +115,12 @@ r:"^\[3C404EFF\]それから、シオリと(.{2,10})は馬車に揺られ、\[3C
 それに、わたくしの里でも\n昨今は自然との共生が課題になってまして。=Also, in my village, coexistence with nature has become an issue lately.
 里を守るために魔物を追い払ったりもしますが、\nお互い平和に暮らせるなら、それに越したことはありませんから。=While we do repel monsters to protect the village, living in peace with each other is the best thing possible.
 あとは……主さまが合宿に参加されるなら、\nやはり、ここはわたくしもご同行せねばと思いまして。\nはせ参じた次第にございます。=Furthermore, if Aruji-sama is going to participate in the training camp, then I feel I must accompany him.
-そうだったんですね。\nよろしくお願いします、コッコロちゃん。=Oh, that makes sense.\nThanks for coming with us, Kokkoro-chan.         
-はい、こちらこそよろしくお願いします。\nシオリさま。=No, thank you,                                   \n Shiori-sama.                                                                    
+そうだったんですね。\nよろしくお願いします、コッコロちゃん。=Oh, that makes sense.\nThanks for coming with us, Kokkoro-chan. 
+はい、こちらこそよろしくお願いします。\nシオリさま。=No, thank you,\n Shiori-sama.
 合宿受付=Training camp reception
 ──はい、こちらが合宿の詳細資料になります。\n部屋番号の確認もお願いしますね。=──Yes, this is the detailed information about the camp. Please also confirm your room number.
-thank you.                    \n私とコッコロちゃんは同じお部屋ですね。=Thank you.                    \nKokkoro-chan and I are in the same room, right?                                                                     
+ありがとうございます。\n私とコッコロちゃんは同じお部屋ですね。=Thank you very much.\nKokkoro-chan and I are in the same room, right?
+
 主さまは、お一人で大丈夫でしょうか？=Is Aruji-sama okay being alone?
 寝かしつけの子守歌や、歯磨きのお世話など、\nやはりわたくしがご一緒の部屋になるよう、相談を……=I can help with lullabies and brushing teeth if you want me to stay in the same room...
 大丈夫だよ。=I'll be fine.
@@ -131,7 +133,7 @@ thank you.                    \n私とコッコロちゃんは同じお部屋で
 こ、これ以上こんな場所にいられるかーーっ！！=I can't take this kind of place anymore!!
 教官の声=An instructor's voice
 そんな根性でレンジャー幹部になれると思ってるのか貴様ァ！\nここまで流した血と汗と涙を裏切るなッ！　腕立て伏せ用意！=Do you really think you can become a ranger officer with that attitude?! Don't betray the blood, sweat, and tears you shed up to this point! Get ready for push-ups!
-くぅっ！　りょ、了解っ……！　一、ニっ……！=Kuu! Ro, roger...! One, two...!              
+くぅっ！　りょ、了解っ……！　一、ニっ……！=Kuu! Ro, roger...! One, two...!  
 あの、あれは一体……？=What is that...?
 ああ、レンジャーの幹部候補生クラスだね。\nたまに出るんだ。訓練の厳しさに脱走しようとする輩が。=Oh, that's the ranger officer candidate class. They occasionally have people who try to escape the harshness of training.
 大丈夫！　君たちは一般のレンジャー育成コースだから。\nあそこまでは厳しくないよ。あそこまでは。=Don't worry, you guys are in the regular ranger development course, so it won't be that harsh. Not that harsh.
@@ -140,4 +142,4 @@ thank you.                    \n私とコッコロちゃんは同じお部屋で
 わたくしも、より実践的な勉強をしたかったので。\nおや、主さま。少し顔色がすぐれませんね……？=I also wanted to study more practical things. Oh my, Aruji-sama. Your complexion doesn't look good...
 長旅で疲れちゃいましたか？\nそれなら明日に備えて、早めに休むことにしましょうか。=Have you become tired from the long journey? Then, let's rest early to prepare for tomorrow.
 とんでもないところに来てしまった……=I ended up coming to such a terrible place...
-r:"^\[3C404EFF\]こうして、シオリとコッコロ、そして(.{2,10})の\[3C404EFF\]\nレンジャー資格を取得するためのカリキュラムがスタートするのだった。$"=And so, the curriculum for Shiori, Kokkoro, and $1 to obtain their ranger qualifications began like this.
+r:"^こうして、シオリとコッコロ、そして(.{2,10})の\nレンジャー資格を取得するためのカリキュラムがスタートするのだった。$"=And so, the curriculum for Shiori, Kokkoro, and $1 to obtain their ranger qualifications began like this.

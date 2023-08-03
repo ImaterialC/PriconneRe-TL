@@ -17,7 +17,7 @@
 
 ぅ……=Uh...
 ペコリーヌの声=Pecorine's voice.
-r:"^\[3C404EFF\]あっ☆\[3C404EFF\]\n目が覚めました？　\[3C404EFF\](.{2,10})くん。$"=[3C404EFF]Oh☆\n$1-kun! Did you just wake up?
+r:"^あっ☆\n目が覚めました？　(.{2,10})くん。$"=Oh☆\n$1-kun! Did you just wake up?
 ペコさん……？=Peco-san...?
 はい♪\nおはようございます☆=Yes♪ Good morning☆
 魔物の群れ=A group of monsters
@@ -76,7 +76,7 @@ r:"^\[3C404EFF\]あっ☆\[3C404EFF\]\n目が覚めました？　\[3C404EFF\](.
 主さま。\nいかがなさいますか？=Aruji-sama, what shall we do?
 困っている人がいるなら放っておけない。=I can't leave someone in need.
 引き受けよう。=I'll take on the task.
-r:"^\[3C404EFF\]ひゅうひゅう☆\[3C404EFF\]\nさすがは(.{2,10})くんですね！$"=[3C404EFF]Hyuuhyuu☆\nAs expected of $1-kun!
+r:"^ひゅうひゅう☆\nさすがは(.{2,10})くんですね！$"=Hyuuhyuu☆\nAs expected of $1-kun!
 はい。\nそれでこそわたくしのお仕えする主さまでございます。=[3C404EFF]Yes. That is why I am the one serving Aruji-sama.
 ありがとうございます♪\nそれでは、依頼人の方々のところにご案内を──=Thank you♪ Well then, I will guide you to the clients--
 あっ、待ってください！=Oh, wait a minute!
@@ -125,7 +125,7 @@ r:"^\[3C404EFF\]ひゅうひゅう☆\[3C404EFF\]\nさすがは(.{2,10})くん�
 あらためまして……\nわたくしは【アルターメイデン】ギルドマスターの、\nリリと申します。=Once again...\nI am Lilie, the guild master of the Alter Maiden.                                      
 クリアです。\nよろしくお願いしますね、【美食殿】のみなさん……♪=I am Clear. Nice to meet you, everyone from the Bisokuden... ♪
 プレシア。\n……です。=My name is...\nPrecia.
-r:"^\[3C404EFF\]ご丁寧に、\[3C404EFF\]ありがとうございます。\[3C404EFF\]\n\[3C404EFF\]わたくし\[3C404EFF\](.{2,10})さまの従者、\[3C404EFF\]コッコロと申します。$"=[3C404EFF]Thank you for your kindness. \nMy name is Kokkoro, the attendant of $1-sama.
+r:"^ご丁寧に、ありがとうございます。\nわたくし(.{2,10})さまの従者、コッコロと申します。$"=Thank you for your kindness. \nMy name is Kokkoro, the attendant of $1-sama.
 キャルよ。\nあー、なんかマトモっぽそうなやつらねー\nカリンの紹介だから、もっとブッ飛んだ連中かもって思ってたわ。=I'm Kyaru. Ah, you guys seem more normal than I expected. I thought you might be even more outrageous since Karin introduced us.
 ぶ、ぶっとんだ、連中……？=Even more outrageous?
 例えばそーね……ほら。\nあたしの横で、「ピザ食べたいです～☆」みたいなカオして\nヨダレ垂らしてる王女サマみたいなやつよ。=For example... Look.\nThere's a drooling princess next to me who's going, "I want eat that pizza~☆".                                  

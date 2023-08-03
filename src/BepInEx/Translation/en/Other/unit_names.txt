@@ -82,6 +82,9 @@
 ライラエル=Lyrael
 クルル=Kururu
 ネビア=Navi
+ヤマト=Yamato
+フブキ=Fubuki
+ワカナ=Wakana
 
 アオイ（編入生）=Aoi (Student);TAoi
 カスミ（マジカル）=Kasumi (Magical);MKasumi
@@ -250,6 +253,9 @@
 ライラエル（サマー）=Lyrael (Summer);SLyrael;Summer;Swimsuit;Bikini
 クルル（サマー）=Kururu (Summer);SKururu;Summer;Swimsuit;Bikini
 ネビア（サマー）=Navi (Summer);SNavi;Summer;Swimsuit;Bikini
+ヤマト（サマー）=Yamato (Summer);SYamato;Summer;Swimsuit;Bikini
+フブキ（サマー）=Fubuki (Summer);SFubuki;Summer;Swimsuit;Bikini
+ワカナ（サマー）=Wakana (Summer);SWakana;Summer;Swimsuit;Bikini
 
 ヒヨリ（ハロウィン）=Hiyori (Halloween);HHiyori;Halloween
 ユイ（ハロウィン）=Yui (Halloween);HYui;Halloween
@@ -335,6 +341,9 @@
 ライラエル（ハロウィン）=Lyrael (Halloween);HLyrael;Halloween
 クルル（ハロウィン）=Kururu (Halloween);HKururu;Halloween
 ネビア（ハロウィン）=Navi (Halloween);HNavi;Halloween
+ヤマト（ハロウィン）=Yamato (Halloween);HYamato;Halloween
+フブキ（ハロウィン）=Fubuki (Halloween);HFubuki;Halloween
+ワカナ（ハロウィン）=Navi (Halloween);HWakana;Halloween
 
 ヒヨリ（クリスマス）=Hiyori (Holiday);XHiyori;Holiday;Christmas;Xmas
 ユイ（クリスマス）=Yui (Holiday);XYui;Holiday;Christmas;Xmas
@@ -420,6 +429,9 @@
 ライラエル（クリスマス）=Lyrael (Holiday);XLyrael;Holiday;Christmas;Xmas
 クルル（クリスマス）=Kururu (Holiday);XKururu;Holiday;Christmas;Xmas
 ネビア（クリスマス）=Navi (Holiday);XNavi;Holiday;Christmas;Xmas
+ヤマト（クリスマス）=Yamato (Holiday);XYamato;Holiday;Christmas;Xmas
+フブキ（クリスマス）=Fubuki (Holiday);XFubuki;Holiday;Christmas;Xmas
+ワカナ（クリスマス）=Wakana (Holiday);XWakana;Holiday;Christmas;Xmas
 
 ヒヨリ（ニューイヤー）=Hiyori (New Year);NyHiyori;New Year;Kimono
 ユイ（ニューイヤー）=Yui (New Year);NyYui;New Year;Kimono
@@ -505,6 +517,9 @@
 ライラエル（ニューイヤー）=Lyrael (New Year);NyLyrael;New Year;Kimono
 クルル（ニューイヤー）=Kururu (New Year);NyKururu;New Year;Kimono
 ネビア（ニューイヤー）=Navi (New Year);NyNavi;New Year;Kimono
+ヤマト（ニューイヤー）=Yamato (New Year);NyYamato;New Year;Kimono
+フブキ（ニューイヤー）=Fubuki (New Year);NyFubuki;New Year;Kimono
+ワカナ（ニューイヤー）=Wakana (New Year);NyWakana;New Year;Kimono
 
 ヒヨリ（オーエド）=Hiyori (Ooedo);OHiyori;Ooedo
 ユイ（オーエド）=Yui (Ooedo);OYui;Ooedo
@@ -590,6 +605,9 @@
 ライラエル（オーエド）=Lyrael (Ooedo);OLyrael;Ooedo
 クルル（オーエド）=Kururu (Ooedo);OKururu;Ooedo
 ネビア（オーエド）=Navi (Ooedo);ONavi;Ooedo
+ヤマト（オーエド）=Yamato (Ooedo);OYamato;Ooedo
+フブキ（オーエド）=Fubuki (Ooedo);OFubuki;Ooedo
+ワカナ（オーエド）=Wakana (Ooedo);OWakana;Ooedo
 
 ヒヨリ（フォールン）=Hiyori (Fallen);FHiyori;Fallen
 ユイ（フォールン）=Yui (Fallen);FYui;Fallen
@@ -675,3 +693,6 @@
 ライラエル（フォールン）=Lyrael (Fallen);FLyrael;Fallen
 クルル（フォールン）=Kururu (Fallen);FKururu;Fallen
 ネビア（フォールン）=Navi (Fallen);FNavi;Fallen
+ヤマト（フォールン）=Yamato (Fallen);FYamato;Fallen
+フブキ（フォールン）=Fubuki (Fallen);FFubuki;Fallen
+ワカナ（フォールン）=Wakana (Fallen);FWakana;Fallen

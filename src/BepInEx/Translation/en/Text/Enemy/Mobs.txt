@@ -1,48 +1,105 @@
-【物理】近接攻撃\n厳しい鍛錬を重ね、強靭な肉体を\n手に入れたオークの上位種。=[Physical]Front\nA high-ranking orc that has acquired a tough body through repeated rigorous training.
-ハイオーク=High orc
-
-【物理】近接攻撃\n大人を真似て、楽器をたたく、\n悪戯好きなオークのこども。=[Physical]Front\nA miscellaneous orc child who imitates adult, taps instruments, and loves mischief.
-ウーピーオーク=Whoopi Orc
-
-【物理】遠距離攻撃\n脅威となる敵をいち早く察知し、\n的確に狙い穿つハチの魔物。=[Physical]Row\nA bee monster that quickly detects a threatening enemy and accurately targets it.
-キラービー=Killer Bee
-
-【物理】近距離攻撃\n巨大なハサミと硬い殻が自慢の\nカニの魔物。砂に潜んで気長に獲物\nを待つ姿はどこか愛らしい。=[Physical]Middle\nA crab monster that boasts huge claws and a hard shell. There is something adorable about the way it hides in the sand and waits patiently for its prey.
-スパイククラブ=Spike Club
-
-【魔法】近接攻撃\n物理攻撃が当たりにくい\nとってもヌルヌルなゼリーの魔物。=[Magic]Front\nA slimy jelly monster that is hard to hit with physical attacks.
-ゼラチナ=Gelatin
-
-【物理】近接攻撃\n尾先の炎を燃やし続けることで\n常に躰を温め、二連撃を繰り出す\nトカゲの魔物。=[Physical]Front\nA lizard monster that constantly warms its body by burning flames at the tip of its tail and unleashes two consecutive attacks.
-サラマンダー=Salamander
-
-【物理】中距離攻撃\n尾の花はひどい臭いを放つが、\n慣れると案外癖になるらしい。=[Physical]Middle\nThe tail flower gives off a terrible smell, but it seems that once you get used to it, you will unexpectedly get used to it.
-マッドフラワー=Mad flower
-
-【物理】中距離攻撃\n穴を掘って獲物をじっと待ち、\n毒牙で確実に仕留めるヘビの魔物。=[Physical]Middle\nA snake monster that digs a hole, waits patiently for its prey, and kills it with its poisonous fangs.
-ランドスネーク=Land Snake
-
-【魔法】遠距離攻撃\n地獄から呼び寄せた炎で\n魔法を飛ばす上級悪魔。=[Magic]Back\nA high-ranking demon that shoots magic with flames summoned from hell.
-ファイヤーメイジ=Fire Mage
-
-【物理】近接攻撃\nするどいキバで咬みつき\n致命的な傷を残す毒トカゲの魔物。=[Physical]A poisonous lizard demon that bites with its sharp fangs and leaves fatal wounds.
-ポイドン=Poidon
-
-【魔法】近接攻撃\n小さくても強力な炎を吐く、\nこどものオオトカゲ。=[Magic]A baby Monitor Lizard that breathes powerful flames despite its small size.
-コドモオオトカゲ=Monitor Lizard Child
-
 ウキキー=Ukiki
-
-ゴーレム=Golem
 ブルーゴーレム=Blue Golem
 シャドウ=Shadow
 
+ハイオーク=High orc
+【物理】近接攻撃\n厳しい鍛錬を重ね、強靭な肉体を\n手に入れたオークの上位種。=[Physical] Close-range attack\nA high-ranking orc that has acquired a tough body through repeated rigorous training.
 
-ワイズワンド=Wisewand
-【魔法】遠距離攻撃\n浴びれば凍える冷気の魔法で、\n戦意を奪うオウムガイ型の魔物。=[Magic]Long-range Attack\nAn owl-like magical creature that uses a chilling magic capable of freezing those it touches, stealing away their fighting spirit.
+ウーピーオーク=Woopy orc
+【物理】近接攻撃\n大人を真似て、楽器をたたく、\n悪戯好きなオークのこども。=[Physical] Close-range attack\nChild orc that imitates adults by playing instruments and enjoys pranks.
 
-クレイジードギー=Crazy Dogy
-【物理】近接攻撃\n主人と共に生み出された、凶暴な改造犬。\n大きな頭を支えようと、必死な顔が殊更、怖い。=[Physical]Melee Attack\nA ferocious genetically modified dog created alongside its master. Its desperate expression while trying to support its large head makes it particularly fearsome.
+キラービー=Killer bee
+【物理】遠距離攻撃\n脅威となる敵をいち早く察知し、\n的確に狙い穿つハチの魔物。=[Physical] Long-range attack\nA bee-like monster that quickly detects threatening enemies and accurately pierces them.
+
+スパイククラブ=Spike club
+【物理】近距離攻撃\n巨大なハサミと硬い殻が自慢の\nカニの魔物。砂に潜んで気長に獲物\nを待つ姿はどこか愛らしい。=[Physical] Short-range attack\nA crab monster with huge pincers and a hard shell. It lurks in the sand and patiently waits for prey, giving it a somewhat endearing appearance.
+
+ゼラチナ=Zerachina
+【魔法】近接攻撃\n物理攻撃が当たりにくい\nとってもヌルヌルなゼリーの魔物。=[Magic] Close-range attack\nA jelly-like monster that is very slippery, making physical attacks difficult to land.
+
+サラマンダー=Salamander
+【物理】近接攻撃\n尾先の炎を燃やし続けることで\n常に躰を温め、二連撃を繰り出す\nトカゲの魔物。=[Physical] Close-range attack\nA lizard-like monster that constantly burns the tip of its tail to keep itself warm and delivers a double attack.
+
+マッドフラワー=Mudflower
+【物理】中距離攻撃\n尾の花はひどい臭いを放つが、\n慣れると案外癖になるらしい。=[Physical] Medium-range attack\nThe flower on its tail emits a terrible smell, but apparently, one can get used to it and even find it somewhat addictive.
+
+ランドスネーク=Land snake
+【物理】中距離攻撃\n穴を掘って獲物をじっと待ち、\n毒牙で確実に仕留めるヘビの魔物。=[Physical] Medium-range attack\nA snake monster that digs holes and patiently waits for prey, then strikes with its venomous fangs to ensure a kill.
+
+ファイヤーメイジ=Fire mage
+【魔法】遠距離攻撃\n地獄から呼び寄せた炎で\n魔法を飛ばす上級悪魔。=[Magic] Long-range attack\nA high-level demon that hails from hell and launches magical attacks using summoned flames.
+
+ポイドン=Poydon
+【物理】近接攻撃\nするどいキバで咬みつき\n致命的な傷を残す毒トカゲの魔物。=[Physical] Close-range attack\nA poisonous lizard monster that inflicts lethal wounds with its sharp fangs.
+
+コドモオオトカゲ=Child giant lizard
+【魔法】近接攻撃\n小さくても強力な炎を吐く、\nこどものオオトカゲ。=[Magic] Close-range attack\nA child giant lizard that can breathe powerful flames despite its small size.
+
+ワイズワンド=Wise wand
+【魔法】遠距離攻撃\n浴びれば凍える冷気の魔法で、\n戦意を奪うオウムガイ型の魔物。=[Magic] Long-range attack\nAn owl-shaped monster that wields a magic wand capable of freezing opponents and robbing them of their fighting spirit.
+
+クレイジードギー=Crazy doggy
+【物理】近接攻撃\n主人と共に生み出された、凶暴な改造犬。\n大きな頭を支えようと、必死な顔が殊更、怖い。=[Physical] Close-range attack\nA ferocious, genetically modified dog created alongside its owner. Its desperate expression while supporting its large head makes it even scarier.
 
 タツノコナイト=Tatsunoko Knight
 【物理】中距離攻撃\n海で溺れた騎士の槍を奪い、\n縄張りを警備するタツノコの戦士。=[Physical]Mid-range Attack\nA warrior of the Tatsunoko clan that guards its territory by wielding a lance stolen from a knight who drowned at sea.
+
+ウェアウルフ=Werewolf
+【物理】近接攻撃\nするどいツメで敵を切り刻む、\nオオカミの魔物。=[Physical] Close-range attack\nA wolf-like monster that slashes enemies with sharp claws.
+
+ゲートキーパー=Gatekeeper
+【魔法】範囲攻撃\n地獄のトビラを開き、火傷を伴う\n炎を吐きだす魔界の番人。=[Magic] Area attack\nA demon of the underworld that opens the gates of hell and breathes flames accompanied by burning.
+
+スカルフレイム=Skullflame
+【魔法】中距離攻撃\n地獄の炎をまとい、\n生者に襲い掛かる怨念の集合体。=[Magic] Medium-range attack\nA gathering of vengeful spirits enveloped in hell's flames, attacking the living.
+
+ベニタケ=Benitake
+【物理】近接攻撃\n煮込むと意外と美味いという\nウワサの歩くキノコ。=[Physical] Close-range attack\nA walking mushroom that is said to be surprisingly delicious when cooked.
+
+アルトバード=Altbird
+【回復】範囲回復\n癒しの歌声が遠くまでよく届く\nトリ魔物界の有名歌手。=[Healing] Area healing\nA famous bird-like monster in the magical world known for its healing songs that reach far distances.
+
+ワイルドホーン=Wildhorn
+【物理】近接攻撃\n大きな角を攻撃にも\n防御にも使う、シカの魔物。=[Physical] Close-range attack\nA deer-like monster that uses its large horns for both offense and defense.
+
+オーク=Orc
+【物理】近接攻撃\n倒した冒険者の鎧をまとい\n斧を振り回す凶暴な森の獣人。=[Physical] Close-range attack\nA ferocious forest-dwelling humanoid creature that wears the armor of defeated adventurers and wields an axe.
+
+バットケイブ=Batcave
+【魔法】近接攻撃\n洞窟に棲み、獲物の足音を聞いて\n襲い掛かる、コウモリの魔物。=[Magic] Close-range attack\nA bat-like monster that resides in caves and attacks prey upon hearing their footsteps.
+
+グラスリザード=Grasslizard
+【物理】近接攻撃\n葉っぱの襟巻が鮮やかな\nトカゲ魔物界のオシャレ番長。=[Physical] Close-range attack\nA stylish lizard monster from the magical world, distinguished by its vibrant leafy collar.
+
+ゴブリンガード=Goblinguard
+【物理】近接攻撃\n身の丈ほどもある、巨大な盾で\n仲間を護る見習いゴブリン兵。=[Physical] Close-range attack\nAn apprentice goblin soldier that protects its allies with a massive shield.
+
+ホオズキムシ=Hoozukimushi
+【回復】単体回復\nお尻に溜まった蜜が、魔物の\n栄養源になる、不思議なホタル。=[Healing] Single-target healing\nA mysterious firefly-like creature with nectar stored in its rear, which serves as a nourishment source for other monsters.
+
+ドリアード=Dryad
+【魔法】【召喚】近接攻撃\n大地の魔力でキノコの魔物\nを自在に生やす、森の精霊。=[Magic][Summon] Close-range attack\nA forest spirit capable of using the earth's magic to summon mushroom creatures at will.
+
+ロックリザード=Rocklizard
+【物理】近接攻撃\n頭の皮膚が固くなり\n鎧のようになった岩トカゲの魔物。=[Physical] Close-range attack\nA lizard-like monster with hardened skin on its head that resembles armor.
+
+ハーミットナイト=Hermitknight
+【物理】近接攻撃\n倒した騎士の兜を、貝殻の\n代わりに被るヤドカリの戦士。=[Physical] Close-range attack\nA warrior hermit crab that wears the helmets of defeated knights in place of shells.
+
+モグリクラゲ=Mogurikurage
+【回復】範囲回復\n拾った潜水服に水を溜め、\n陸でも戦えるクラゲの魔物。=[Healing] Area healing\nA jellyfish-like monster that can store water in the diving suit it picked up and fight on land as well.
+
+ウイングロップ=Wingropp
+【魔法】近接攻撃\n大きな耳をはばたかせて、\n勢いよく突き上げるウサギの魔物。=[Magic] Close-range attack\nA rabbit-like monster that uses its large ears to flutter and launches attacks with great force.
+
+ケイブエイプ=Caveape
+【物理】近接攻撃\n強靭な腕の筋肉で、鍾乳石を\n掴んで渡る大ザルの魔物。=[Physical] Close-range attack\nA large ape-like monster that traverses caves by gripping stalactites with its strong arm muscles.
+
+エルダークラウド=Eldercloud
+【魔法】【補助】範囲攻撃\n気象を自在に操り、\n雷を落とす雲の魔物。=[Magic][Support] Area attack\nA cloud-like monster with control over weather, capable of summoning lightning.
+
+ゴーレム=Golem
+【物理】近接攻撃\n頑丈な身体で、攻守を備えた\n岩の魔物。=[Physical] Close-range attack\nA rock monster with a sturdy body, skilled in both offense and defense.
+
+バルーンバード=Balloonbird
+【回復】範囲回復\nぷっくりお腹に溜めた魔力を、\n癒しの波動に変えるトリの魔物。=[Healing] Area healing\nA bird-like monster that stores magical power in its puffy belly and converts it into healing waves.
