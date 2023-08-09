@@ -1,7 +1,7 @@
 
 r:"^レンジャー合宿所周辺([0-9\-\(\)\w （）]*)$"=Around Ranger Camp $1
 
-魔物生態報告書=Monster Ecology Report
+魔物生態報告書=Monster's Ecology Report
 
 ニャット=Nyat
 主さま=Shou-sama
@@ -9,7 +9,7 @@ r:"^レンジャー合宿所周辺([0-9\-\(\)\w （）]*)$"=Around Ranger Camp $
 森の大猿=Great Ape of the Torest
 大猿さま
 
-魔物生態報告書解放=Monster Ecology Report has been Unlocked
+魔物生態報告書解放=Monster's Ecology Report has been Unlocked
 ワッパダヌキの生態メモ①=Wappadanuki's Ecology Memo ①
 ワッパダヌキの生態メモ②=Wappadanuki's Ecology Memo ②
 ワッパダヌキの生態メモ③=Wappadanuki's Ecology Memo ③

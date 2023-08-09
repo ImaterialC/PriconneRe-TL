@@ -21,7 +21,7 @@ r:"^味方全体のクリティカル時のダメージを10%アップ\n敵全�
 ペンオブハーモニー+=Pen of Harmony+
 ペンオブハーモニー=Pen of Harmony
 
-このスキルのスキルレベルは「コールオブギ\nルド」と連動しています=The skill level of this skill is linked to "Call of Guild"
+このスキルのスキルレベルは「コールオブギ\nルド」と連動しています=This skill’s level is linked to "Call of Guild"
 
 エグゼクティブサポート=Executive Support
 味方全体の物理攻撃力と魔法攻撃力と物理防御力と魔法防御力を中アップさせる。=Moderately boost physical attack, magic attack, physical defense, and magic defense of all allies.

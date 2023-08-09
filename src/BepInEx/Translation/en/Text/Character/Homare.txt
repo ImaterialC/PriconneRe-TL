@@ -31,7 +31,7 @@ r:"^龍眼状態の敵に(\d+)の魔法ダメージ\n龍眼状態の敵の魔法
 龍眼状態の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに自分のＴＰを小回復する。=Deals medium M.DMG to all enemies in Dragon Eye state, slightly decreases magic defense, and slightly boost critical damage. In addition, recover your own TP by small amount.
 
 龍眼=Dragon's Eye
-このスキルのスキルレベルは「ドラゴンズ\nドゥーム」と連動しています=The skill level of this skill is linked to "Dragon's Doom"
+このスキルのスキルレベルは「ドラゴンズ\nドゥーム」と連動しています=This skill’s level is linked to "Dragon's Doom"
 龍眼状態中、その敵が受ける魔法ダメージを12％アップ=Cast time: 0.93s\n►Mark enemy with Dragon's Eye state for 180s.\n►Dragon's Eyes: M.DMG taken debuff by 12%
 最も魔法攻撃力が高い敵１キャラを龍眼状態にし、さらに魔法攻撃を受けた際のダメージを小アップさせる。=Inflict Dragon's Eyes to the enemy with the highest current Magical Attack.
 

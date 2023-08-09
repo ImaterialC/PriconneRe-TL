@@ -11,7 +11,7 @@ r:"^敵単体に(\d+)の魔法ダメージ\n自分のＨＰを(\d+)回復\n範�
 r:"^敵単体に(\d+)の魔法ダメージ\n自分のＴＰを100回復$"=Cast time: 1.05s\n►Deals $1 M.DMG to a single enemy.\n►Recovers own TP by 100.
 
 エンゲージブルーム=Engage Bloom
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを40アップ\n範囲内の味方の行動速度アップ$"=Cast time: 1.05s\n►Boosts allies' M.ATK within 150 range by $1 for 12s.\n►Boosts M.Crit rate of allies within 150 range by 40 for 12s.\n►Boosts action speed of allies within 150 range to 155% for 12s.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを40アップ\n範囲内の味方の行動速度アップ$"=Cast time: 1.05s\n►Boosts allies' M.ATK within 150 range by $1 for 12s.\n►Boosts M.Crit rate of allies within 150 range by 40 for 12s.\n►Boosts action speed of allies within 150 range into 155% for 12s.
 自分を中心とした範囲内の味方の魔法攻撃力と魔法クリティカルを中アップさせ、行動速度を大アップさせる。=Boosts the M.ATK and M.crit rate of allies within her range and greatly increases their action speed.
 
 
@@ -23,7 +23,7 @@ r:"^味方単体のＨＰを(\d+)回復\n自分の残りＨＰの20%を消費$"=
 月下の血盟=Moonlit Blood Pact
 月下の血盟+=Moonlit Blood Pact+
 
-このスキルのスキルレベルは「ヴァーミリオ\nンベール」と連動しています=This skill’s level is linked to Vermilion Veil
+このスキルのスキルレベルは「ヴァーミリオ\nンベール」と連動しています=This skill’s level is linked to "Vermilion Veil"
 
 
 厄日、旅立ち=Unlucky Day, Departure

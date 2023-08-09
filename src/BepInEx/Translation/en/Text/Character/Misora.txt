@@ -23,5 +23,5 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリ
 r:"^自分にPSI★チャージ状態を付与する\n毎秒ＨＰを(\d+)回復する$"=Cast time: 1.24s\n►Grants self [PSI★Charge] status.\n►Recovers HP every second by $1 for 12s.
 
 
-このスキルのスキルレベルは「ガトリング★シンフォニア」と連動しています=The skill level of this skill is linked to "Gatling★Symphonia"
+このスキルのスキルレベルは「ガトリング★シンフォニア」と連動しています=This skill’s level is linked to "Gatling★Symphonia"
 バンキッシュ・バレット=Banquish Barrett

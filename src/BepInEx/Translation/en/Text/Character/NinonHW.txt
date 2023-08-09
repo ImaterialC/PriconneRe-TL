@@ -12,10 +12,10 @@
 r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の物理クリティカルを100アップ$"=Boosts all P-type allies' P.ATK by $1 for 18s.\nBoosts all P-type allies' P.Crit rate by 100 for 18s.
 物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップさせ、物理クリティカルを大アップさせる。=Massively boost the P.ATK of all ally characters that use P.ATK, and Large boost the P.Crit rate.
 
-r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の行動速度アップ\n対象の味方の物理クリティカルを50アップ$"=Cast time: 0.465s\nBoosts all P-type allies' P.ATK by $1 for 12s.\nBoosts action speed of P-type allies to 155% for 12s.\nBoosts all P-type allies' P.Crit rate by 50 for 12s.
+r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の行動速度アップ\n対象の味方の物理クリティカルを50アップ$"=Cast time: 0.465s\nBoosts all P-type allies' P.ATK by $1 for 12s.\nBoosts action speed of P-type allies into 155% for 12s.\nBoosts all P-type allies' P.Crit rate by 50 for 12s.
 物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、行動速度を大アップさせ、物理クリティカルを中アップさせる。=Large boost the P.ATK, SPD, and P.Crit rate of all ally characters that use P.ATK.
 
-r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の行動速度アップ$"=Cast time: 0.465s\nBoosts all P-type allies' P.ATK by $1 for 12s.\nBoosts action speed of P-type allies to 155% for 12s.
+r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の行動速度アップ$"=Cast time: 0.465s\nBoosts all P-type allies' P.ATK by $1 for 12s.\nBoosts action speed of P-type allies into 155% for 12s.
 物理攻撃を行うすべての味方キャラの物理攻撃力と行動速度を大アップさせる。=Large boost the P.ATK and SPD of all friendly characters that use P.ATK.
 
 r:"^対象の味方の物理攻撃力を(\d+)アップ\n範囲内の敵に(\d+)の物理ダメージ$"=Cast time: 0.465s\nBoosts all P-type allies' P.ATK by $1 for 12s.\nDeal $2 P.DMG to enemies within 865 range.

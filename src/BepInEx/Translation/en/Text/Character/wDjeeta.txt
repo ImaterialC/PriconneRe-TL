@@ -1,0 +1,18 @@
+##UB##
+エーテルブラスト=Ether Blast
+自分の魔法攻撃力を大アップさせ、\n目の前の敵１キャラに魔法特大ダ\nメージを与える。さらに自分に【万\n象の刻印】を付与する。=Boosts own M.ATK and deals large damage to nearest enemy. Applies a crest of all creation to self, this lasts 18s.
+r:"^自分の魔法攻撃力を(\d+)アップ\n敵単体に(\d+)の魔法ダメージ\n自分に万象の刻印を付与する$"=►Boosts own M.ATK by $1\n►$2 M.DMG to nearest enemy.\n►Infuses self with: Crest of all creation. 
+
+#S1#
+ブラックヘイズ=Black Haze
+ブラックヘイズ+=Black Haze+
+目の前の敵１キャラを中心に魔法ダ\nメージフィールドと、魔法攻撃力と\n魔法防御力を中ダウンさせるフィー\nルドを展開する。=Deploys a Magicical field that deals M.DMG every second. The field also lowers M.ATK and M.DEF around the nearest enemy.
+r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する\nフィールド内の敵の魔法攻撃力(\d+)ダウン\nフィールド内の敵の魔法防御力(\d+)ダウン$"=►Deploys a magical field that deals $1 M.DMG every second.\n►Lowers enemy M.ATK by $2.\n►Lowers enemy M.DEF by $3.
+
+#S2#
+チェイサー=Chaser
+味方全体の魔法攻撃力を大アップさ\nせ、魔法クリティカルを中アップ\nし、魔法攻撃クリティカル時のダ\nメージを小アップさせ、さらにＴＰ\nを小回復させる。自分に【万象の刻\n印】が付与されている場合、この魔\n法攻撃力と魔法クリティカルと魔法\n攻撃クリティカル時のダメージアッ\nプの効果量が上昇する。=►Boosts allies' M.ATK, M.CRIT AND M.CRIT DMG and Recovers TP.\n If Djeeta has a crest of all creation, the buffs applied will scale. 
+r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ\n味方全体の魔法クリティカル時のダメージを10％アップ\n味方全体のＴＰを75回復$"=►Boosts allies' M.ATK by $1.\n►Boosts allies' M.CRIT by $2\n►Boosts allies' M.CRIT DMG by 10%.\n►Recovers allies' TP by 75.
+
+#EX#
+魔導の達士+=Master of Magic+

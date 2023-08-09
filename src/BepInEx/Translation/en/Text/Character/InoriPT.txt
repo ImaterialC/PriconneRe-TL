@@ -23,7 +23,7 @@ r:"^敵単体に(\d+)の物理ダメージ\n自分が隠密状態の時、敵単
 
 
 ドラゴンズミスト=Dragons Mist
-r:"^自分を隠密状態にする\n自分の行動速度アップ\n自分の物理攻撃力を(\d+)アップ\n自分のＴＰを350回復$"=Cast time: 0.465\n►Enters stealth mode.\n►Boosts own action speed to 200% for 18s.\n►Boosts own P.ATK by $1 for 18s.\n►Recovers own TP by 350.
+r:"^自分を隠密状態にする\n自分の行動速度アップ\n自分の物理攻撃力を(\d+)アップ\n自分のＴＰを350回復$"=Cast time: 0.465\n►Enters stealth mode.\n►Boosts own action speed into 200% for 18s.\n►Boosts own P.ATK by $1 for 18s.\n►Recovers own TP by 350.
 【隠密】自分を隠密状態にして、行動速度を大アップさせ、物理攻撃力を特大アップし、さらに自分のＴＰを大回復する。=[Stealth] Enter stealth mode. Greatly increase action speed and P.ATK, and further greatly recover own TP.
 
 いただくですよ！=I Will Take It!

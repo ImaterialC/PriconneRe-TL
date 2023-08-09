@@ -152,3 +152,6 @@ sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C40
 
 r:"^プレイヤーLv(\d+)まで購入可能$"=Under Lv$1 Only!
 r:"^([0-9/]+) に追加購入可能$"=Available on $1
+
+デイリージュエルパック終了通知=Daily Jewel Package Ending Notice
+デイリージュエルパックの\n期間が終了しました。\n購入ページへ移動しますか?=Daily Jewel Package period has ended. Would you like to go to the purchase page?

@@ -8,7 +8,7 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体のＨＰを(\d
 味方全体の魔法攻撃力を中アップさせ、ＨＰを中回復させる。=Moderately boost the allies' M.ATK and restores a moderate amount of HP.
 
 最も近くの味方１キャラの魔法攻撃力と行動速度を特大アップさせ、ＴＰを大回復する。=Massively boost the magic attack power and action speed of the closest ally character, and recovers a large amount of TP.
-r:"^味方単体の魔法攻撃力を(\d+)アップ\n味方単体の行動速度アップ\n味方単体のＴＰを350回復$"=Cast Time: 0.59s\nBoosts a 2nd nearest ally's M.ATK by $1 for 12s.\nBoosts a 2nd nearest ally's action speed to 250% for 12s.\nRestore 350 TP to the 2nd nearest ally.
+r:"^味方単体の魔法攻撃力を(\d+)アップ\n味方単体の行動速度アップ\n味方単体のＴＰを350回復$"=Cast Time: 0.59s\nBoosts a 2nd nearest ally's M.ATK by $1 for 12s.\nBoosts a 2nd nearest ally's action speed into 250% for 12s.\nRestore 350 TP to the 2nd nearest ally.
 エンジェルセレブレーション=Angel celebration
 エンジェルセレブレーション+=Angel celebration+
 

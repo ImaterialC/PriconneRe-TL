@@ -1,6 +1,6 @@
+シャドウ=Shadow
 ウキキー=Ukiki
 ブルーゴーレム=Blue Golem
-シャドウ=Shadow
 
 ハイオーク=High orc
 【物理】近接攻撃\n厳しい鍛錬を重ね、強靭な肉体を\n手に入れたオークの上位種。=[Physical] Close-range attack\nA high-ranking orc that has acquired a tough body through repeated rigorous training.
@@ -103,3 +103,36 @@
 
 バルーンバード=Balloonbird
 【回復】範囲回復\nぷっくりお腹に溜めた魔力を、\n癒しの波動に変えるトリの魔物。=[Healing] Area healing\nA bird-like monster that stores magical power in its puffy belly and converts it into healing waves.
+
+ツキツキ=Tsukitsuki
+【物理】中距離攻撃\n魔力の流れに敏感なキツツキ。\n鋭い嘴の攻撃で気力を減衰させる。=[Physical] Mid-range Attack.\nA tight spot sensitive to the flow of magical energy. A sharp beak attack dampens your willpower.
+
+ツチノコブラ=Tsuchinocobra
+【物理】中距離攻撃\n物陰から飛びかかり魔力を吸って\n腹を満たすという魔物ヘビの変種。\n魔力が高いほど狙われやすい。=[Physical]\nvariant of a monster snake that jumps from the shadows and absorbs magical energy to fill its stomach. The higher the mana, the easier it is to be targeted.
+
+コボルト=Kobold
+【物理】中距離攻撃\nブーメランのように組んだ骨を、\n投げて攻撃する山犬の魔物。=[Physical] Mid-range Attack.\nA wild dog monster that throws and attacks bones that form a boomerang.
+
+マジックレイ=Magic Ray
+【魔法】範囲攻撃\n頭部の石から発する超音波で\n巧みに狩りをするエイの魔物。=[Magic] Area attack\nThe stingray monsters skillfully hunted with ultrasonic waves emitted from the stone on their head.
+
+コボルトアサシン=Kobold Assassin
+【物理】中距離攻撃\n素早いステップで翻弄し、わずかな\n隙にナイフを飛ばす、山犬の魔物。=[Physical] Mid-range Attack.\nA wild dog monster that toyed with it with swift steps and used a small opening to send a knife flying.
+
+ポイズンポッド=Poison Pod
+【物理】近接攻撃\n大きく開いた口に溜めた\n溶解液で獲物を食らう。=[Physical] Close-range attack\nEats prey with the dissolution built up in its wide-open mouth.
+
+フェアリー=Fairy
+【魔法】中距離攻撃\n風を自在に操り、冒険者を\n翻弄する花の精霊。=[Magic] Mid-range Attack.\nA flower spirit that can freely control Mid-range Attack winds and toy with adventurers
+
+ポーチカ=Poochka
+【魔法】範囲攻撃\n花畑に棲み、特殊な光線で獲物を\n弱らせる、花つぼみの魔物。=[Magic] Area attack\nA flower bud monster that lives in a field of flowers and weakens its prey with a special beam of light
+
+ドリルモール=Drill Mall
+【物理】中距離攻撃\n地中に手を伸ばし、足元から\n攻撃するモグラの魔物。=[Physical] The mole monsters reached into the Mid-range Attack ground and attacked from their feet.
+
+スタンプ=Sticker
+【物理】前衛・近接攻撃\nしなやかな枝を、ムチのように\n使い攻撃する木の魔物。=[Physical]\ntree monster that uses its vanguard, and supple branches like whips to attack.
+
+イワアライグマ=Rock raccoons
+【物理】中距離攻撃\n行き過ぎた綺麗好きのアライグマ。\n特製のガマ油石鹸を一度浴びると、\nまともに武器も握れない。=[Physical] Mid-range Attack.\nraccoon that loves cleanliness after going too far with Mid-range Attacks. Once it's bathed in special Gama Oil soap, it can't even hold a weapon properly.

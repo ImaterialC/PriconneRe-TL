@@ -26,7 +26,7 @@ r:"^敵単体に(\d+)の魔法ダメージ\n敵単体のＴＰを75失わせる\
 おしおきしちゃうよっ！+=I'll Punish You!+
 おしおきしちゃうよっ！=I'll Punish You!
 
-このスキルのスキルレベルは「エターナル・フレンドシップ」と連動しています=This skill’s skill level is linked to Eternal Friendship
+このスキルのスキルレベルは「エターナル・フレンドシップ」と連動しています=This skill’s level is linked to "Eternal Friendship"
 
 リトルブレス=Little Breath
 スカーレット・リンク=Scarlet Link

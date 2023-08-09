@@ -18,14 +18,14 @@ ex
 Skills+
 UB
 インフェルノランパート=Inferno Rampart
-r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n物理攻撃力を(\d+)アップさせるフィールドを展開する\n行動速度をアップさせるフィールドを展開する$"=Deploys Barrier that absorbs $1 P/M.DMG for 18s.\nBoosts allies' P.ATK within 300 range by $2 for 18s\nBoost allies' action speed within 300 range to 155% for 18s.
+r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n物理攻撃力を(\d+)アップさせるフィールドを展開する\n行動速度をアップさせるフィールドを展開する$"=Deploys Barrier that absorbs $1 P/M.DMG for 18s.\nBoosts allies' P.ATK within 300 range by $2 for 18s\nBoost allies' action speed within 300 range into 155% for 18s.
 自分に物理/魔法吸収バリアを展開し、自分の周囲に範囲内の味方すべての物理攻撃力を特大アップ、行動速度を大アップさせるフィールドを展開する。=Deploys a P/M absorption barrier on herself, and creates a field around self that greatly increases the P.ATK and action speed of all allies within range.
 
 S1
 自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a moderate amount. Large boost to the ally's P.ATK and small boost to their action speed.
 自分の周りの味方のうち、最もＨＰの割合が低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a large amount. Large boost to the ally's P.ATK and small boost to their action speed.
 
-r:"^味方単体のＨＰを(\d+)回復\n味方単体の物理攻撃力を(\d+)アップ\n味方単体の行動速度アップ$"=Cast time:0.475s\nRecovers an ally's HP by $1.\nBoosts an ally's P.ATK by $2 for 12s.\nBoosts an ally's action speed to 120% for 12s.
+r:"^味方単体のＨＰを(\d+)回復\n味方単体の物理攻撃力を(\d+)アップ\n味方単体の行動速度アップ$"=Cast time:0.475s\nRecovers an ally's HP by $1.\nBoosts an ally's P.ATK by $2 for 12s.\nBoosts an ally's action speed into 120% for 12s.
 S2
 ex
 ジャスティスバリア+=Justice Barrier+

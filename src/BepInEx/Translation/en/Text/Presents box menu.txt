@@ -60,7 +60,7 @@ sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan
 事前登録=Pre-registration
 メインストーリー第3部開始記念ログイン=Main story Part 3 commemorative login
 
-
+r:"^([0-9.]+) Year Anniversary カウントダウン$"=$1 Year Anniversary Countdown
 r:"^([0-9.]+) Year Anniversary スペシャル$"=$1 Year Anniversary Special
 sr:"^「(.+)ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $2 day of "$1 Login Bonus"."
 sr:"^「ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $1 day of "Login Bonus"."

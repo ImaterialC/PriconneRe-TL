@@ -19,7 +19,7 @@
 目の前の敵１キャラに物理大ダメージを与え、さらに大きく吹き飛ばしてスタンさせる。=Deals large P.DMG to an enemy directly in front, inflicts Stun, and knocks it back a large distance.
 
 ---Skill 1 (UE)---
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n目の前の敵に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる$"=Deals $1 P.DMG to enemies within 325 range. \nRenders enemies within 325 range immobile for 2.5s.\nDeals $2 P.DMG within 325 range.\nReduces an enemy’s action speed to 80% for 10.5s.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n目の前の敵に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる$"=Deals $1 P.DMG to enemies within 325 range. \nRenders enemies within 325 range immobile for 2.5s.\nDeals $2 P.DMG within 325 range.\nReduces an enemy’s action speed into 80% for 10.5s.
 
 前方範囲内の敵すべてに物理中ダメージを与え、スタンさせる。さらに、目の前の敵１キャラに物理大ダメージを与え、行動速度を小ダウンさせる。=Deals moderate P.DMG and inflicts Stun to all enemies in range and reduces an enemy’s action speed by a small amount.
 

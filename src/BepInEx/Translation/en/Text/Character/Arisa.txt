@@ -17,15 +17,15 @@ r:"^敵単体に(\d+)の物理ダメージ\n５回目以降の使用時、敵単
 ---UB ---
 目の前の敵１キャラに物理特大ダメージを与える。このスキルを既に使用していた場合、ダメージが増加する。=Deals massive P.DMG to an enemy directly in front. boost to damage dealt if this skill has already been used.
 r:"^敵単体に(\d+)の物理ダメージ\nユニオンバースト使用後、敵単体に(\d+)の物理ダメージ$"=Deals $1 P.DMG to an enemy.\nAfter using Union Burst, deals $2 P.DMG to an enemy.
----Skill 1 (UE)
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる\n敵単体の魔法攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nReduces an enemy’s action speed to 80% for 12s.\nLowers an enemy’s M.ATK by $2 for 12s.
+---Skill 1 (UE)---
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる\n敵単体の魔法攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nReduces an enemy’s action speed into 80% for 12s.\nLowers an enemy’s M.ATK by $2 for 12s.
 
 最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力と行動速度を小ダウンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK. Lowers their M.ATK and reduces their action speed by a small amount.
----Skill 1 
+---Skill 1 ---
 最も魔法攻撃力が高い敵１キャラに物理小ダメージを与え、さらに行動速度を小ダウンさせる。=Deals small P.DMG to the enemy with the highest M.ATK and reduces their action speed by a small amount.
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる$"=Deals $1 P.DMG to an enemy.\nReduces an enemy’s action speed.
 
----Skill 2
+---Skill 2---
 r:"^自分のＴＰを(\d+)回復\nユニオンバースト使用後、自分のＴＰを(\d+)回復$"=Recovers own TP by $1.\nAfter using UB, recovers own TP by $2.
 自分のＴＰを中回復する。既にユニオンバーストを使用していた場合、回復量が増加する。=Recovers own TP by a moderate amount. This amount boost when a UB has been used.
 ---EX skill

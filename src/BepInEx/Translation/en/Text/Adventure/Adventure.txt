@@ -29,7 +29,8 @@ r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
 チケットやジュエルを使って時間を短縮！=Time to shorten time using tickets and jewels!
 1日の時間短縮可能回数の上限に達しているため時間短縮できません。=Reached maximum time reduction for today
 戦力オーバーによる時間短縮の上限になりました。=Too over powered, already max time reduction
-
+自動分解設定確認=Auto Dismantle Settings Confirmation
+アドベンチャーで獲得した際、\n以下のEX装備を自動で分解します。=When obtained on an adventure, \nthe following EX equipments will be automatically dismantled:
 ファストチケットを所持していません。=You do not have a fast ticket.
 これ以上短縮できません。=Can't shorten it anymore.
 帰還したパーティはありません。=There is no party that has returned.

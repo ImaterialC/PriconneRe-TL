@@ -20,10 +20,10 @@
 ミクマ流剣術・陣風+=Mikuma style: Gale Strike+
 ミクマ流剣術・燕返し=Mikuma style: Returning Swallow
 目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を特大アップさせ、行動速度を中アップさせる。=Deals moderate P.DMG to an enemy directly in front. Massive boost to own P.ATK and moderate boost to own action speed.
-r:"^敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 24s.\n►Boosts own action speed to 125% for 24s.
+r:"^敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 24s.\n►Boosts own action speed into 125% for 24s.
 
 ミクマ流奥義・烈風迅光=Mikuma Hidden Art: Gale Swift Light
-r:"^敵２体に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の行動速度アップ$"=►Deals $1 P.DMG to 2 enemy.\n►Boosts allies' P.ATK within 150 range by $2 for 24s.\n►Boosts allies' action speed within 150 range to 160% for 24s.
+r:"^敵２体に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の行動速度アップ$"=►Deals $1 P.DMG to 2 enemy.\n►Boosts allies' P.ATK within 150 range by $2 for 24s.\n►Boosts allies' action speed within 150 range into 160% for 24s.
 目の前の敵２キャラに物理特大ダメージを与え、さらに自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、行動速度を大アップさせる。=Deals massive P.DMG to the 2 enemies in front, and Large boost the physical attack power and action speed of all allies within range.
 
 

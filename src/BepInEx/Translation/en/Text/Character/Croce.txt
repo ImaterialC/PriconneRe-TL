@@ -32,7 +32,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ\n自分のＴＰを1000失わ�
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを8％アップ\nバッテリーを１つ消費する$"=►Deals $1 P.DMG to a single enemy.\n►Reduce 8% P.Crit dmg resistance to an enemy for 12s.\n►Consumes 1 batteries.
 
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを50アップ\n範囲内の敵に(\d+)の物理ダメージ\nバッテリーを１つ消費する$"=►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.Crit by 50 for 12s.\n►Deals $2 P.DMG to enemies within 800 range.\n►Consumes 1 batteries.
-このスキルのスキルレベルは「ギガンティックアームパンチ」と連動しています=This skill’s skill level is linked to Gigantic Arm Punch
+このスキルのスキルレベルは「ギガンティックアームパンチ」と連動しています=This skill’s level is linked to "Gigantic Arm Punch"
 
 ジャンピングロケットパンチ=Jumping Rocket Punch
 ジャンピングロケットパンチ+=Jumping Rocket Punch+

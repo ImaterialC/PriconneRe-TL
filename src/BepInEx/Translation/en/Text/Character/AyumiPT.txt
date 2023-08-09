@@ -16,7 +16,7 @@ r:"^自分を隠密状態にする\n敵単体の物理攻撃力を(\d+)ダウン
 【隠密】自分を隠密状態にする。最も遠くの敵１キャラの物理攻撃力と魔法攻撃力を大ダウンさせ、自分の物理攻撃力を大アップさせる。さらに、対象の敵に物理中ダメージを与える。=[Stealth] Enter stealth mode. Greatly decreases the P/M.ATK of the farthest enemy character and greatly increases one's own P.ATK. Additionally, deals medium P.DMG to the target enemy.
 
 
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d+)失わせる$"=►Deals $1 P.DMG to enemies within range.\n►Reduces the TP of enemies within range by $2.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d+)失わせる$"=►Deals $1 P.DMG to enemies within range.\n►Reduces enemis' TP within range by $2.
 (overlap with misogiS)
 
 最も遠くの敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、ＴＰを小ダウンさせる。=Deal medium P.DMG to all enemies within the range centered around the farthest enemy character, and decrease their TP slightly.

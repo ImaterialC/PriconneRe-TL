@@ -1,15 +1,24 @@
-【物理】中衛で巨大バルーンと跳ね回る夏色うさぎっこ。ＵＢやスキルで全てのマルチターゲットに追加ダメージを与え、自己強化と防御力ダウンで強敵のブレイクを狙う。=[Physical]A summer-bunny who bounces around with a huge balloon in MG. Inflict dmg to all multi-targets with UB and skills, and aim to break strong enemies with self-buff and def reduction.
+【物理】中衛で巨大バルーンと跳ね回る夏色うさぎっこ。ＵＢやスキルで全てのマルチターゲットに追加ダメージを与え、自己強化と防御力ダウンで強敵のブレイクを狙う。=[Physical] A summer-bunny who bounces around with a huge balloon in MG. Inflict dmg to all multi-targets with UB and skills, and aim to break strong enemies with self-buff and def reduction.
 
 うさぎさんサマーインパクト=Rabbit Summer Impact
 夏の海もうさぎさんパワー=Summer Sea More Power
 夏の海もうさぎさんパワー+=Summer Sea More Power+
 自分の物理攻撃力を特大アップし、敵全体に物理小ダメージを与える。さらに、マルチターゲットのターゲットすべてに物理大ダメージを与え、物理防御力を中ダウンさせる。=Massively boost own P.ATK power and deals small P.DMG to all enemies. In addition, Deals large P.DMG on all multi-target targets and moderately decreases their P.DEF.
-r:"^自分の物理攻撃力を(\d+)アップ\n敵全体に(\d+)の物理ダメージ\n対象の敵のターゲットに(\d+)の物理ダメージ\n対象の敵のターゲットの物理防御力を(\d+)ダウン$"=Boosts own P.ATK by $1.\nDeals $2 P.DMG to all enemies.\nDeals $3 P.DMG to all multi-target enemies.\nLowers all multi-target enemies’ P.DEF by $4.
+r:"^自分の物理攻撃力を(\d+)アップ\n敵全体に(\d+)の物理ダメージ\n対象の敵のターゲットに(\d+)の物理ダメージ\n対象の敵のターゲットの物理防御力を(\d+)ダウン$"=►Boosts own P.ATK by $1 for 18s.\n►Deals $2 P.DMG to all enemies.\n►Deals $3 P.DMG to all multi-target enemies.\n►Lowers all multi-target enemies’ P.DEF by $4 for 18s.
 
-目の前の敵１キャラに物理中ダメージを与え、さらに自分のＴＰを中回復する。目の前の敵がマルチターゲットの場合、ターゲットすべてに物理中ダメージを与える。=Inflicts moderate P.DMG to the first enemy character in front, and moderately restores own TP. If the enemy in front of you is a multi-target, deal P.DMG to all targets.
-r:"^敵単体に(\d+)の物理ダメージ\n対象の敵のターゲットに(\d+)の物理ダメージ\n自分のＴＰを(\d+)回復$"=Restores own TP by $3.\nIf enemy is not multi-target:\nDeals $1 P.DMG to an enemy.\n\nIf enemy is a multi-target:\nDeals $2 P.DMG to all target.
+ぴょんぴょんサマー=Hop-hop Summer
+ぴょんぴょんサマー+=Hop-hop Summer+
+目の前の敵１キャラに物理中ダメージを与え、さらに自分のＴＰを中回復する。目の前の敵がマルチターゲットの場合、ターゲットすべてに物理中ダメージを与える。=Deals moderate P.DMG to the first enemy character in front, and moderately restores own TP. If the enemy in front of you is a multi-target, deal P.DMG to all targets.
+r:"^敵単体に(\d+)の物理ダメージ\n対象の敵のターゲットに(\d+)の物理ダメージ\n自分のＴＰを(\d+)回復$"=Cast time: 0.59s\n►Restores own TP by $3.\n►Deals $1 P.DMG to an enemy.\n\nIf enemy is a multi-target:\n►Deals $2 P.DMG to all target.
+
+目の前の敵１キャラに物理中ダメージを与え、さらに自分のＴＰを大回復する。目の前の敵がマルチターゲットの場合、ターゲットすべてに物理中ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。=Deals medium P.DMG to the enemy in front and further greatly recovers her own TP. If the front enemy is a multi-target, she deals medium P.DMG to all targets, greatly reducing their P.ATK and M.ATK, and slightly increasing damage taken from critical hits.
+
+r:"^敵単体に(\d+)の物理ダメージ\n対象の敵のターゲットに(\d+)の物理ダメージ\n対象の敵のターゲットがクリティカルを受けた際のダメージを13％アップ\n自分のＴＰを(\d+)回復\n対象の敵がマルチターゲットの場合、物理攻撃力を(\d+)ダウン\n対象の敵がマルチターゲットの場合、魔法攻撃力を(\d+)ダウン$"=Cast time: 0.59s\n►Restores own TP by $3.\n►Deals $1 P.DMG to an enemy.\nIf enemy is a multi-target:\n►Deals $2 P.DMG to all target.\n►Reduce 13% P.Crit dmg resistance to an enemy by 13% for 12s.\n►Lowers an enemy's P/M.ATK by $4 for 12s.
+
+うさぎさんサマーアタック=Usagi-san's Summer Attack
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理防御力を小ダウンさせる。目の前の敵がマルチターゲットの場合、自分の物理攻撃力と物理クリティカルを中アップする。=Deals P.DMG to all enemies within the range centered on one enemy character in front of you, and slightly reduces the P.DEF power. If the enemy in front is a multi-target, increase own P.ATK power and P.Crit rate.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n対象がマルチターゲットの場合、自分の物理攻撃力を(\d+)アップ\n対象がマルチターゲットの場合、自分の物理クリティカルを(\d+)アップ$"=Cast time: 0.59s\n►Deals $1 P.DMG to all enemies within range.\n►Lowers all enemies’ P.DEF by $2 for 18s.\nIf enemy is a multi-target:\n►Boosts own P.ATK by $3 for 18s.\n►Boosts own P.Crit rate by $4 for 18s.
 
 
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理防御力を小ダウンさせる。目の前の敵がマルチターゲットの場合、自分の物理攻撃力と物理クリティカルを中アップする。=Inflicts P.DMG to all enemies within the range centered on one enemy character in front of you, and slightly reduces the P.DEF power. If the enemy in front is a multi-target, increase own P.ATK power and P.Crit rate.
-
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n対象がマルチターゲットの場合、自分の物理攻撃力を(\d+)アップ\n対象がマルチターゲットの場合、自分の物理クリティカルを(\d+)アップ$"=Deals $1 P.DMG to all enemies within range.\nLowers all enemies’ P.DEF by $2.\nIf enemy is a multi-target:\nBoosts own P.ATK by $3.\nBoosts own P.Crit rate by $4.
+うさぎさんスイムウェア=Usagi-san's Swimwear

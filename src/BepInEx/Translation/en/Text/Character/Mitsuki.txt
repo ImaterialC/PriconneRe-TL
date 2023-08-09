@@ -27,7 +27,7 @@ UB
 r:"^範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵に(\d+)の物理ダメージ\n敵を倒した数×20%のＨＰを回復$"=►Lowers all enemies’ P.DEF by $1 for 18s.\n►Deals $2 P.DMG to all enemies in range.\n►Recovers HP based on enemies defeated ×20%.
 S1
 前方範囲内の敵すべてを呪い状態にし、さらに行動速度を小ダウンさせる。=Inflicts Curse to all enemies in range and reduces their action speed by a small amount.
-r:"^(\d+)ダメージを与える呪い状態にする\n範囲内の敵の行動速度を一定時間低下させる$"=Cast time: 1.41s\n►Inflicts Curse within 620 range that deals $1 P.DMG/s.\n►Reduces action speed of enemies within 620 range to 95% for 12s.
+r:"^(\d+)ダメージを与える呪い状態にする\n範囲内の敵の行動速度を一定時間低下させる$"=Cast time: 1.41s\n►Inflicts Curse within 620 range that deals $1 P.DMG/s.\n►Reduces action speed of enemies within 620 range into 95% for 12s.
 S2
 ex
 隻眼の悪魔+=One-Eyed Devil+

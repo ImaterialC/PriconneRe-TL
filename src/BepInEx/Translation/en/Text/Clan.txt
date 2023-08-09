@@ -93,7 +93,6 @@ sr:"^([0-9]{1,2}月)の順位：$"=$1 Rank:
 メンバーリスト=Member List
 
 脱退=Leave
-スタンプ=Sticker
 フレンドバトル=Friend Battle
 クランメンバーが設定しているパーティはありません。=There is no party set by the clan member.
 メッセージを入力してください=Enter a message

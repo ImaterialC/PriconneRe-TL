@@ -12,7 +12,7 @@
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを100アップ\n敵単体に(\d+)の物理ダメージ$"=Boosts own P.ATK by $1 for 18s.\nBoosts own P.Crit Rate by 100 for 18s.\nDeals $2 P.DMG to an enemy.
 
 
-このスキルのスキルレベルは「雪の太刀・冬帝　細雪」と連動しています=The skill level of this skill is linked to "Snow Sword: Fuyutei Sasetsu"
+このスキルのスキルレベルは「雪の太刀・冬帝　細雪」と連動しています=This skill’s level is linked to "Snow Sword: Fuyutei Sasetsu"
 
 
 目の前の敵１キャラに物理中ダメージを与える。【剣の刻印】の数が最大時に使用すると、すべて消費し、目の前の敵１キャラに物理特大ダメージを与え、自分の物理攻撃力を特大アップさせる。=Deals medium P.DMG to an enemy in front. When used at the max number of [Mark of Sword], it consumes all of them, dealing massive P.DMG to an enemy in front and boosts own P.ATK by a massive amount.

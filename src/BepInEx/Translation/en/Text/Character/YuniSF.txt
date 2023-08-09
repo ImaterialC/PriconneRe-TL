@@ -3,7 +3,7 @@
 真理と実存の共同幻想=Joint Illusion of Truth and Existence
 r:"^自分以外の味方の物理攻撃力を(\d+)アップ\n自分以外の味方の魔法攻撃力を(\d+)アップ\n神速くんを学びの時間状態にする\n学びの時間中、自分以外の味方の物理攻撃クリティカル時のダメージを12％アップ\n学びの時間中、自分以外の味方の魔法攻撃クリティカル時のダメージを12％アップ$"=►Boosts P&M ATK of all allies by $1 for 18s.\n►Applies 1 Stack of [Learning Time] to Self for 18s.\n►If Yuni has [Learning Time], Boosts P&M Crit DMG of all allies by 12%.
 
-自分以外の味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに一定時間、神速くんを【学びの時間】状態にする。【学びの時間】中、さらに自分以外の味方全体の物理攻撃と魔法攻撃クリティカル時のダメージを小アップさせる。=Large boost the P&M ATK of all allies other than yourself, and puts Kamihaya-kun in the [Learning Time] state for a certain period of time.\n[Learning time]: Moderately boost the P&M Crit DMG of all allies other than yourself by a small amount.
+自分以外の味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに一定時間、神速くんを【学びの時間】状態にする。【学びの時間】中、さらに自分以外の味方全体の物理攻撃と魔法攻撃クリティカル時のダメージを小アップさせる。=Large boost the P&M ATK of all allies other than yourself, and puts God-Speed-kun in the [Learning Time] state for a certain period of time.\n[Learning time]: Moderately boost the P&M Crit DMG of all allies other than yourself by a small amount.
 
 
 魔法力学的解析演習+=Analysis and Exercises in Magical Mechanics+
@@ -30,7 +30,7 @@ r:"^自分以外の味方の行動速度アップ\n自分以外の味方のＴ�
 聖域の学び+=Sanctuary Learning+
 高機動万能靴・レプリカ=High Mobility All-Purpose Shoes Replica
 
-このスキルのスキルレベルは「真理と実存の共同幻想」と連動しています="The skill level of this skill is linked to "Joint Illusion of Truth and Existence"."
+このスキルのスキルレベルは「真理と実存の共同幻想」と連動しています=This skill’s level is linked to "Joint Illusion of Truth and Existence"
 
 禁忌の断章=Forbidden Chapter
 自分以外の味方の物理攻撃力を初期値の22%アップ\n自分以外の味方の魔法攻撃力を初期値の22%アップ=Cast time: 2.1s\n►Boosts allies' P.ATK by 22% of initial value for 12s.\n►Boosts allies' M.ATK by 22% of initial value for 22s.
