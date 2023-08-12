@@ -34,7 +34,7 @@ ex
 
 Skills+
 UB
-星河一天=Hoshikawa Ichiten
+星河一天=Celestial Torrent
 r:"^敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2.
 
 目の前の敵１キャラに物理特大ダメージを与え、さらに自分の物理攻撃力を特大アップさせる。=Deals massive P.DMG to an enemy directly in front, and massive boost to own physical attack.

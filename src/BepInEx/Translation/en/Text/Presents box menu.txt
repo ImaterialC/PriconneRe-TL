@@ -62,6 +62,9 @@ sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan
 
 r:"^([0-9.]+) Year Anniversary カウントダウン$"=$1 Year Anniversary Countdown
 r:"^([0-9.]+) Year Anniversary スペシャル$"=$1 Year Anniversary Special
+期間限定ストーリーの通知=Limited-time Story Notification
+r:"^([0-9.]+) Year Anniversary カウントダウンログインボーナスの開催期間中、通知を表示するか設定します。$"=$1 Year Anniversary Set to display a notification during the countdown login bonus event.
+
 sr:"^「(.+)ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $2 day of "$1 Login Bonus"."
 sr:"^「ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $1 day of "Login Bonus"."
 sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。$"="Item obtained on $2 day of "$1 Campaign"."

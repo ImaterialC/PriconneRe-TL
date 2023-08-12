@@ -34,11 +34,7 @@ sr:"^(.+) エンディングを閲覧$"=Unlock by View ending of $1
 r:"^不思議の国([0-9\-\(\)\w （）]*)$"=Wonderland $1
 ---Cassino---
 r:"^カジノホール([0-9\-\(\)\w （）]*)$"=Cassino Hall $1
----St. Teresa Girls' Academy Holy School Festival---
-聖テレサ女学院 聖学祭会場=St. Teresa Girls' Academy Holy School Festival Venue
-聖学祭\nプログラム=St.School Fes Program
-名もなき芸術=Nameless Art
-r:"^聖テレサ女学院 聖学祭会場([0-9\-\(\)\w （）]*)$"=Peripheral Tapas Beach $1
+
 ---Beach Tapaz: kokkoro Summer---
 r:"^タパスビーチ周辺([0-9\-\(\)\w （）]*)$"=Peripheral Tapas Beach $1
 
