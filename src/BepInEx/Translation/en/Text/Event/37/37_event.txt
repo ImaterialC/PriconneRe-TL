@@ -1,0 +1,6 @@
+---St. Theresa Girls' Academy Holy School Festival---
+聖テレサ女学院 聖学祭会場=Saint Theresa Girls' Academy Festival Venue
+
+r:"^聖テレサ女学院 聖学祭会場([0-9\-\(\)\w （）]*)$"=St. Theresa Fes Venue $1
+聖学祭\nプログラム=St. Theresa's Fes Program
+名もなき芸術=Nameless Art

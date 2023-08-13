@@ -1,5 +1,10 @@
 r:"^ゲーム起動中　([0-9.]+)％$"=Launching Game... $1%
 r:"^\[3C404E\]追加データをダウンロードします。\n\(([.0-9]+) ([MG])B\)\[-\]$"=[3C404E]Download additional data.\n($1 $2B)[-]
+
+r:"^追加データをダウンロードします。\n追加データは、保存されます。\n\(([.0-9]+) ([MG])B\)$"=Downloading additional data.\nAdditional data will be saved.\n($1 $2B)
+
+
+
 追加データをダウンロードします。=Download additional data.
 r:"^\[3C404E\]プレイを進めるにはデータの\nダウンロードが必要です。\n\(([.0-9]+) ([MG])B\)\[-\]$"=[3C404E]You need to download the data\nto proceed with the play.\n($1 $2B)[-]
 ダウンロード=Download
