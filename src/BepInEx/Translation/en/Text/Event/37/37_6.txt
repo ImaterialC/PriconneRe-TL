@@ -125,8 +125,8 @@ r:"^うん？　誰だ、あの娘は。\nまた例によって(.{2,10})君の�
 そうなの？　どうして？=Is that so? Why?
 あっ……いえ、それは、あの、えっと……=Ah... well, you see, um...
 とっ、とにかく私、ステージは無理です！　ごめんなさいっ！=Anyway, I can't do the stage! I'm sorry!
-あっ！　待って、カルミナすこすこ侍ちゃん！=Wait! Carmina Incredible Samurai-chan!
-そうだ、待つんだカルミナすこすこ侍くん！=That's right, wait, Carmina Incredible Samurai-kun!
+あっ！　待って、カルミナすこすこ侍ちゃん！=Wait! Carmina's Incredible Samurai-chan!
+そうだ、待つんだカルミナすこすこ侍くん！=That's right, wait, Carmina's Incredible Samurai-kun!
 あーあ、逃げちゃった……らしくないなあ、あいつ。=Oh well, she ran away... It's unlike her.
 彼女、何かあったの？=Did something happen to her?
 そっか、そういうことだったんだ……=I see, so that's what it was...
@@ -137,7 +137,7 @@ r:"^うん？　誰だ、あの娘は。\nまた例によって(.{2,10})君の�
 いやパイセン、冗談にしてもソレは。\nノゾミンだって突然そんなん言われても「えー」だし。\nねえ？　困っちゃうでしょ？　断り辛いしねえ？=Well, Paisen, even if it's a joke, that's too much. Nozomin would also say "Eh?" if told something like that out of the blue, right? Right? It's difficult to refuse, isn't it?
 ごめん。それはできない。=Sorry. I can't do that.
 あ、とくに断り辛くはないんだ。ちぇー=Oh, it's not particularly difficult to refuse. Chieー
-r:"^話を聞いてキミたち──なかよし部の関係はいいなって思ったし、\n(.{2,10})君の友達なら絶対悪い人たちではないはずだし、\n私たちをいつも応援してくれるカルミナすこすこ侍ちゃんもいる。$"="After listening to your talk, you guys... Friendship Club's relationships seem nice, and if you're friends with $1, you can't be bad people, and Carmina Incredible Samurai-chan, who always supports us, is here."
+r:"^話を聞いてキミたち──なかよし部の関係はいいなって思ったし、\n(.{2,10})君の友達なら絶対悪い人たちではないはずだし、\n私たちをいつも応援してくれるカルミナすこすこ侍ちゃんもいる。$"="After listening to your talk, you guys... Friendship Club's relationships seem nice, and if you're friends with $1, you can't be bad people, and Carmina's Incredible Samurai-chan, who always supports us, is here."
 だから、できるかぎり力にはなりたいって思う。=That's why, I want to help as much as I can.
 でも私はアイドルだから、アイドルであることに嘘はつけない。\n経緯はどうあれオファーを受けた以上、一切の手抜きはしない。=But I'm an idol, so I can't lie about being an idol. Regardless of the circumstances, since I received the offer, I won't cut any corners.
 それが私の、アイドルとしての矜持だから。=Because that's my pride as an idol.
@@ -145,7 +145,7 @@ r:"^話を聞いてキミたち──なかよし部の関係はいいなって�
 ──なんて、ごめんね格好つけちゃって。\n本当はスタッフさんや他のメンバーに迷惑かけたくないだけかも。\n他のことなら何でも喜んで協力させてもらうから、遠慮なく言って？=──I'm sorry for acting all cool. It might just be that I don't want to inconvenience the staff and other members. I'm happy to help with anything else, so feel free to ask without hesitation, okay?
 ああ、スケジュールの許す限りだけどね。\n怖いんだ、うちのプロデューサー\n怒らせると宴が始まっちゃうから。=Ah, as long as my schedule allows. I'm scared, upsetting our producer could turn into a feast.
 いや、すまない、こちらこそ野暮を言った。\n冗談だったでは済まされないな。ぺこり。=No, I'm sorry, I was being uncouth. It's not enough to say it was a joke. My apologies.
-ま、知んないけどさ。\n多分あんたのそういう本物っぽいところがすこれるんだろうね、\nカルミナすこすこ侍さんは。=Well, I don't really know, but maybe that's what makes you seem so genuine, Carmina Incredible Samurai-san.
+ま、知んないけどさ。\n多分あんたのそういう本物っぽいところがすこれるんだろうね、\nカルミナすこすこ侍さんは。=Well, I don't really know, but maybe that's what makes you seem so genuine, Carmina's Incredible Samurai-san.
 そうなのかな？\nだとしたら、すごくうれしいな。\nここまで頑張ってきたのは間違いじゃなかったって思えるから。=Could it be? If that's the case, I'm really happy. It makes me feel like all the hard work I've put in so far wasn't in vain.
 これより「きよらか」組の企画運営によるセレモニーステージ、\n聖学祭サプライズライブをお送りいたします。\nスペシャルびっくりゲストは、なんと、この方です！=From now on, we will present a ceremony stage organized by the Pure team, a surprise live performance for the St. Theresa's Fes. And our special surprise guest is none other than this person!
 ノゾミさん、お願いします。=Nozomi-san, please.

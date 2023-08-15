@@ -7,6 +7,8 @@ EX装備ショップで販売されているアイテムを、所持数の昇順
 「必要戦力重視」の場合、アドベンチャー開始に必要な戦力が最小限となるようにキャラを編成します。=In the case of "Focus on required power", girls are organized so that the power required to start the adventure is minimized.
 「時間短縮重視」の場合、編成可能なキャラのうち、戦力の高い順に編成可能上限まで編成します。=In the case of "Focus on time reduction", girls will be organized in descending order of combat power.
 
+「必要戦力重視」の場合、アドベンチャー開始に必要な戦力が最小限となるようにキャラを編成します。\n\n「時間短縮重視」の場合、編成可能なキャラのうち、\n戦力の高い順に編成可能上限まで編成します。=In the case of "Focus on required power", girls are organized so that the power required to start the adventure is minimized.\n\nIn the case of "Focus on time reduction", girls will be organized in descending order of combat power.
+
 必要戦力重視\n（最小戦力）=Focus on\nrequired power\n(Min Power)
 
 時間短縮重視\n（最大戦力）=Focus on\ntime reduction\n(Max Power)

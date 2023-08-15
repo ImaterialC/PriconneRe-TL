@@ -36,7 +36,7 @@ r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
 帰還したパーティはありません。=There is no party that has returned.
 冒険中のパーティはありません。=There is no party during the adventure.
 時間短縮アイテムが設定されていません。=Time reduction items are not set.
-
+現在は別の画面に移動できません。=You can't move to another screen at the moment.
 時間短縮詳細=Time Reduction Details
 繰り返し出発5回目=5th departure
 繰り返し出発4回目=4th departure

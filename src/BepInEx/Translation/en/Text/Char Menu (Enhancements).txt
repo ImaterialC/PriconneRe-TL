@@ -193,6 +193,9 @@ EXスキルスロット=EX skill slot
 すでにセットしています。=It's already placed
 必要なメモリーピースの上限に達しています。=Required the number of Memory Shards reached.
 ★6才能開花に必要なアイテムをセットするには\n専用装備が必要です。\n\nまた、専用装備を装備するには\nRANK7にする必要があります。\n\nランクアップしますか？=To set the items needed for 6★ ascension, Unique Equipment is required.\n\nTo equip the Unique Equipment,\nthe character needs to be raised to RANK7.\n\n Rank up now?
+★6才能開花に必要なアイテムをセットするには\n専用装備が必要です。\n\n専用装備を作成しますか？=To set the items needed for 6★ ascension, Unique Equipment is required. Would you like to make Unique Equipment?
+専用装備作成確認=Craft Unique Equipment Confirmation
+専用装備へ=To Unique Equipment Gear
 ---Recommended Enhancement---
 おすすめ強化メニュー=Recommended Refinement
 装備強化=Refine

@@ -57,7 +57,7 @@ r:"^ストーリー (\d+)話$"=Story Episode $1
 キャラ交換Ptが不足しています。=Insufficient character exchange Pt.
 [FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。[-]=[FF7C4E,D62146]Duplicate characters\nwill be converted to Divine Amulets.[-]
 
-[FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。\nおまけで獲得できるメモリーピースは直接付与されます。[-]=[FF7C4E,D62146]Duplicate characters will be\nconverted to Divine Amulets.[-]
+[FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。\nおまけで獲得できるメモリーピースは直接付与されます。[-]=[FF7C4E,D62146]Duplicate characters will be converted to Divine Amulets.[-]
 追加データは、アプリ起動時に削除されます。=Additional data is deleted at app startup.
 [FF7C4E,D62146]追加データは、アプリ起動時に削除されます。[-]=[FF7C4E,D62146]Additional data is deleted at app startup.[-]
 未解放キャラを仲間にする際に、1キャラあたり\n最大55MBの追加データをダウンロードします。=You will download up to 55MB of additional\ndata per unowned character.

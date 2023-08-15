@@ -535,3 +535,13 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 ヘビーマリナークロス=Heavy Mariner Cross
 ウォーターラインランナー=Waterline Runner
 エスクード・デ・ボランテ=Escudo de Volante
+
+ステアリングホイーラー=Steering Wheel
+シーバードフローター=Seabird Floater
+豪斧大抜錨=Mighty Anchor
+セイリングシューター=Sailing Shooter
+ツインオールランス=Twin All-Lance
+大灯刃アレキサンドリア=Great Lamp Blade Alexandria
+海賊王の義手=Pirate King's Prosthetic Hand
+バリアントマスト=Variant Mast
+フィッシャーマンズソード=Fisherman's Sword

@@ -7,7 +7,7 @@
 学んで進んで乗りこえて=Learn, proceed and get over
 
 ホープ・オンステージ=Hope on Stage
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n対象の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Boosts all P-type allies' P.ATK by $2 for 18s.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n対象の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Boosts all P-type allies' P.ATK by $3 for 18s.
 目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに、物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップさせる。=Deals large P.DMG to an enemy in the front, and lowers its P.DEF by a small amount. In addition, the P.ATK of all physical-type allied by an massive amount.
 
 グロウイレーション=Glow Irradiation
