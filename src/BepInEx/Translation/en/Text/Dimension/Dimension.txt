@@ -1,5 +1,5 @@
-次元断層=Dimension Fault
-次元断層へ=To Dimension Fault
+次元断層=Dimensional Fault
+次元断層へ=To Dimensional Fault
 r:"^開催期間:([0-9/ :]+)～([0-9/ :]+)$"="Period: $1 to $2 (JST)"
 PHASE\nクリア報酬=Phase\nClear Reward
 出現中！=Appearing!
@@ -65,7 +65,7 @@ r:"^パーティキャラの最大HPが(\d+)％ダウンする。$"=The maximum 
 スペシャルバトルの=Special battle
 スペシャルバトル=Special battle
 
-r:"^(\[[0-9A-F]{6}\])?次元断層のEXTRA PHASEをクリアしよう(\[-\])?$"=$1 clear the EXTRA PHASE of the Dimension Fault $2
+r:"^(\[[0-9A-F]{6}\])?次元断層のEXTRA PHASEをクリアしよう(\[-\])?$"=$1 clear the EXTRA PHASE of the Dimensional Fault $2
 
 途中でリタイアした場合、この内容はキャンセルされます。=If you retire on the way, this content will be canceled.
 
