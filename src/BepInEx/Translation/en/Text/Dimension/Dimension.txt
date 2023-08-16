@@ -17,15 +17,52 @@ PHASE\nクリア報酬=Phase\nClear Reward
 バトル開始確認=Battle Start Confirmation
 みんな昂りますよぉ！=Everyone gets excited!
 
-sr:"^([べ-ヺー＆]+)(（.+）)?のシャドウが追加される。$"=Added $1$2's Shadow.
-sr:"^([べ-ヺー＆]+)(（.+）)?と([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Added $1$2 and $3$4's Shadow.
-sr:"^([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Added $1$2, $3$4, and $5$6's Shadow.
+sr:"^([べ-ヺー＆・]+?)(（.+）)?(のシャドウ)?が追加される。$"=Added $1$2's Shadow.
+sr:"^([べ-ヺー＆]+?)(（.+）)?(?:と|、)([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Added $1$2 and $3$4's Shadow.
+sr:"^([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+?)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Added $1$2, $3$4, and $5$6's Shadow.
 
-r:"^シャドウ(\d+)体追加$"=Add $1 shadow
+r:"^シャドウ(\d)体追加$"=Add $1 shadow
+r:"^モンスター(\d)体追加$"=Add $1 monster
+
 シャドウ★6化=Shadow★6
-sr:"^([べ-ヺー＆]+)(（.+）)?のシャドウが★6になる。$"=$1$2's shadow becomes ★6.
-sr:"^([べ-ヺー＆]+)(（.+）)?と([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。$"=$1$2 and $3$4's shadow becomes ★6.
-sr:"^([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。$"=$1$2, $3$4, and $5$6's shadow becomes ★6.
+シャドウ強化=Shadow Strengthening
+sr:"^([べ-ヺー＆]+?)(（.+）)?のシャドウが★6になる。$"=$1$2's shadow becomes ★6.
+sr:"^([べ-ヺー＆]+?)(（.+）)?(?:と|、)([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。$"=$1$2 and $3$4's shadow becomes ★6.
+sr:"^([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。$"=$1$2, $3$4, and $5$6's shadow becomes ★6.
+
+
+sr:"^([べ-ヺー＆]+?)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Unique Equipment was added to $1$2's Shadow.
+
+sr:"^([べ-ヺー＆]+?)(（.+）)?(?:と|、)([べ-ヺー＆]+)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Unique Equipment was added to $1$2 and $3$4's Shadow.
+sr:"^([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Unique Equipment was added to $1$2, $3$4, $5$6's Shadow.
+
+バトル開始時、カーズ・レリックが味方全体を魔法\nダメージ50%カット状態にさせる。=At the start of the battle, Car's Relic will reduce all allies' M.DMG by 50%.
+バトル開始時、カーズ・レリックが味方全体を魔法\nダメージ75%カット状態にさせる。=At the start of the battle, Car's Relic will reduce all allies' M.DMG by 75%.
+
+開始時魔法ダメージカット=Magic damage cut at the start
+モンスター強化=Monster enhancement
+カーズ・レリックのスキルが強化される。=Cars relic's skill is strengthened.
+ヒール・レリックのスキルが強化される。=Heal Relic's skill is strengthened.
+バトル開始時、ヒール・レリックが味方全体を物理\nダメージ50%カット状態にさせる。=At the start of the battle, Heal Relic will reduce all allies' P.DMG by 50%.
+バトル開始時、ヒール・レリックが味方全体を物理\nダメージ50%カット状態にさせる。=At the start of the battle, Heal Relic will reduce all allies' P.DMG by 75%.
+
+バトル開始時、ボスモンスターがＴＰダウン100％\nカット状態になる。=At the start of the battle, the boss monster will have 100% TP cut.
+ボスＴＰダウンカット=Boss TP Down Cut
+
+
+開始時物理ダメージカット=Physical DMG Cut at Start
+シャドウ最大ＨＰアップ=Shadow Max HP Bonus
+すべてのシャドウの最大ＨＰが大幅に上昇する。=All Shadow's maximum HP will greatly increase.
+
+ボス物理防御力（ダウン不可）アップ=Boost Boss's P.DEF (Absolute)
+ボス魔法防御力（ダウン不可）アップ=Boost Boss's M.DEF (Absolute)
+バトル開始時、ボスモンスターの物理防御力を小\nアップさせる。この効果は物理防御力ダウンの影響\nを受けない。=Slightly boosts the boss's P.DEF at the start of battle. This effect is unaffected by P.DEF down.
+バトル開始時、ボスモンスターの魔法防御力を小\nアップさせる。この効果は魔法防御力ダウンの影響\nを受けない。=Slightly boosts the boss's M.DEF at the start of battle. This effect is unaffected by M.DEF down.
+
+バトル開始時、ボスモンスターの魔法防御力を中\nアップさせる。この効果は魔法防御力ダウンの影響\nを受けない。=Medium Boosts the boss's P.DEF at the start of battle. This effect is unaffected by P.DEF down.
+バトル開始時、ボスモンスターの物理防御力を中\nアップさせる。この効果は物理防御力ダウンの影響\nを受けない。=Medium Boosts the boss's M.DEF at the start of battle. This effect is unaffected by M.DEF down.
+
+
 
 r:"^バトル時間が(\d+)秒になる。$"=The battle time is $1 seconds.
 バトル時間制限=Battle time limit
@@ -75,3 +112,7 @@ r:"^(\[[0-9A-F]{6}\])?次元断層のEXTRA PHASEをクリアしよう(\[-\])?$"=
 クエストに勝利してゲージが最大になると、トレジャークエストが出現し\nます。トレジャークエストに勝利することでジュエルを獲得できますよ。\n出現したらぜひ挑戦してみてくださいまし。=If you win the quest and fill the gauge to the maximum, a treasure quest will appear. You can get jewels by winning treasure quests. Please try it when it appears.
 
 PHASE5をクリアしたことで、EXTRA PHASEが解放されました。\nEXTRA PHASEでは、すべてのクエストの最大危険度まで挑戦でき\nるようでございます。すべて勝利して完全クリアを目指しましょう。=Clearing PHASE5 unlocked EXTRA PHASE. In EXTRA PHASE, it seems that you can challenge all quests up to the maximum danger level. Let's win all and aim for complete clear.
+
+
+リッチゴーレム=Rich Golem
+【物理】次元の狭間に誕生した、生きた財宝。\n煌めく財貨を散しながら、冒険者に襲い掛かる。\n\n\n・ユニオンバーストは、敵全体に物理大ダメージ\n　を与え、物理攻撃力と魔法攻撃力を大ダウンさ\n　せる。その後、自身の物理防御力と魔法防御力\n　を特大ダウン。このスキルの状態異常はダメー\n　ジを無効化しても付与される。\n\n・敵全体に物理中ダメージを与え、スタンさせる。\n　その後、自身の物理防御力と魔法防御力を特大\n　ダウン。このスキルの状態異常はダメージを無\n　効化しても付与される。\n\n・前方３キャラに物理中ダメージを与え、ノック\n　バックさせる。その後、自身の物理防御力と魔\n　法防御力を特大ダウン。このスキルの状態異常\n　はダメージを無効化しても付与される。\n\n・目の前の１キャラに物理中ダメージを与える。\n　その後、自身の物理防御力と魔法防御力を特大\n　ダウン。=[Physical] A living treasure born in the rift of dimensions. It assaults adventurers while scattering sparkling riches.\n\n►UB: Deals massive P.DMG to all enemies and greatly reduces P.ATK and M.ATK. Subsequently, greatly reduces its own P.DEF and M.DEF. The status ailments caused by this skill persist even if the damage is nullified.\n\n►Deals moderate P.DMG to all enemies and inflicts stun. Subsequently, greatly reduces its own P.DEF and M.DEF. The status ailments caused by this skill persist even if the damage is nullified.\n\n►Deals moderate P.DMG to the front three characters and knocks them back. Subsequently, greatly reduces its own P.DEF and M.DEF. The status ailments caused by this skill persist even if the damage is nullified.\n\n►Deals moderate P.DMG to the enemy character in front. Subsequently, greatly reduces its own P.DEF and M.DEF. The status ailments caused by this skill persist even if the damage is nullified.

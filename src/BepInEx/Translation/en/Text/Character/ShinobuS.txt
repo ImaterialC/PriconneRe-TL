@@ -1,0 +1,16 @@
+【物理】前衛で、穏やかな水面に揺蕩う夜光の霊能少女。召喚した親父に敵の攻撃を引き付けさせつつ、シノブ自身の攻撃性能強化と防御ダウンを扱い、敵を冥海へと誘う。=[Physical] A front-line spiritualist girl who casts gentle night light on the calm water's surface. She draws enemy attacks towards her summoned Father while enhancing her own attack power and applying defense reduction, guiding the enemies to the depths of the dark sea.
+
+自分の物理攻撃力と物理クリティカルを大アップさせ、目の前の敵１キャラに物理特大ダメージを与え、さらにクリティカルを受けた際のダメージを小アップさせる。=Greatly boosts her own P.ATK and P.crit rate, deals massive P.DMG to the enemy in front of her, and additionally increases damage taken from critical hits.
+
+【召喚】自分の物理攻撃力と物理クリティカルを中アップする。さらにシノブ（サマー）が召喚したドクロ親父が味方にいる場合、ドクロ親父のＨＰを大回復し、そうでない場合ドクロ親父を召喚する。=[Summon] Increases her own P.ATK and P.crit rate. Furthermore, if "Shinobu (Summer)" has summoned the Skull Father, it recovers the Skull Father's HP; if not, she summons the Skull Father.
+
+ディープブルーメナス=Deep Blue Menace
+スペクターズエッジ=Specter's Edge
+スペクターズエッジ+=Specter's Edge+
+ノイジーバカンス=Noisy Vacation
+深淵の狂騒歌=Chaos Song of the Abyss
+深淵の狂騒歌+=Chaos Song of the Abyss+
+
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを150アップ\n敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを6％アップ$"=►Boosts own P.ATK by $1 for 18s.\n►Boosts own P.Crit rate by 150 for 18s.\n►Deals $2 P.DMG to an enemy.\n►Reduce P.Crit dmg resistance to an enemy by 6% for 18s.
+
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを40アップ\nドクロ親父を召喚する\nドクロ親父のＨＰを(\d+)回復$"=Cast time: 1.05s\n►Boosts own P.ATK by $1 for 180s.\n►Increases own P.Crit rate by 40 for 180s.\n►Summons Skull Father [Max: 1].\n►Recovers Skull Father's HP by $2.

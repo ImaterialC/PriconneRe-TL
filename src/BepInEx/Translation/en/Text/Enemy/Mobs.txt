@@ -74,8 +74,14 @@
 ゴブリンガード=Goblinguard
 【物理】近接攻撃\n身の丈ほどもある、巨大な盾で\n仲間を護る見習いゴブリン兵。=[Physical] Close-range attack\nAn apprentice goblin soldier that protects its allies with a massive shield.
 
+インプ=Imp
+【魔法】近接攻撃\n身の丈に合わない大きなカギ爪で\nひっかき攻撃する、見習い悪魔。=[Magic] Close-range attack\nApprentice demon scratches and attacks with large claws that don't match her close-range attack height.
+
 ホオズキムシ=Hoozukimushi
 【回復】単体回復\nお尻に溜まった蜜が、魔物の\n栄養源になる、不思議なホタル。=[Healing] Single-target healing\nA mysterious firefly-like creature with nectar stored in its rear, which serves as a nourishment source for other monsters.
+
+ケイブスネイル=Cave Snail
+【回復】範囲回復\n分泌するヌルヌルが美容にいいと\nウワサの、カタツムリの魔物。=[Healing] Area\nA snail monster rumored to be good for beauty because of its AoE recovery secretion.
 
 ドリアード=Dryad
 【魔法】【召喚】近接攻撃\n大地の魔力でキノコの魔物\nを自在に生やす、森の精霊。=[Magic][Summon] Close-range attack\nA forest spirit capable of using the earth's magic to summon mushroom creatures at will.
@@ -136,3 +142,9 @@
 
 イワアライグマ=Rock raccoons
 【物理】中距離攻撃\n行き過ぎた綺麗好きのアライグマ。\n特製のガマ油石鹸を一度浴びると、\nまともに武器も握れない。=[Physical] Mid-range Attack.\nraccoon that loves cleanliness after going too far with Mid-range Attacks. Once it's bathed in special Gama Oil soap, it can't even hold a weapon properly.
+
+カーズ・レリック=Cars Relic
+【魔法】範囲攻撃\nシャドウと共に聖域を守護する、記憶の番人。\n真なる力を欲するものに、相応の試練を与える。\n\n\n・敵全体に毒状態を付与し、ＨＰ吸収とＨＰ回復\n　量をダウンさせる。=[Magic] Area attack\nThe guardian of memories, who guards the Sanctuary with Shadows. Those who desire true power are given a suitable trial.\n\n►Inflicts a Poison status on all opponents, reducing their HP Absorption and HP recovery.
+
+ルナポッド=Luna Pod
+【回復】単体ＴＰ回復\nルナの塔建造と共に造られた、エネルギー増幅器。\n漂う魔力を濃縮し、供給することで守護者を強化\nする。=[Recovery] Single TP recovery\nAn energy amplifier built along with the construction of Luna's tower. Concentrating and supplying drifting magical energy strengthens the guardian bearer.
