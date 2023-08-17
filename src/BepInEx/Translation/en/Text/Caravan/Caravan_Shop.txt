@@ -1,4 +1,4 @@
-ャラバンショップ=Caravan Shop
+キャラバンショップ=Caravan Shop
 r:"^あと (\d{1,2})日$"=$1 days left
 シーズン2=Season 2
 シーズン1=Season 1

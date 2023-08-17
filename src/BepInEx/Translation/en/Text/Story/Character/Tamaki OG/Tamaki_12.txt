@@ -3,7 +3,7 @@
 アクシツ=Croock
 王宮騎士=Royal Knight
 r:"^『アクシツ商会連合』から、一度に全てのお宝を盗む作戦をとる二人。([\s\S]{2,10})を人質にされるなどのピンチもあったが、猫たちの助力もあり、ついに『アクシツ商会連合』を打ち破るのであった。$"="The two of them decided to steal all the treasures from the "Croock'd & Inc." at once. They faced some dangers, such as $1 being taken hostage, but with the help of the cats, they finally defeated the "Croock'd & Inc.""
-r:"^──『悪い奴らはまとめて猫パンチ作戦』決行日。\nランドソル郊外に、\nタマキと(.{2,10})の姿があった。$"=。="──The day of the "Bad Guys Get a Cat Punch Operation". Tamaki and $1 were in the outskirts of Landosol."
+r:"^──『悪い奴らはまとめて猫パンチ作戦』決行日。\nランドソル郊外に、\nタマキと(.{2,10})の姿があった。$"="──The day of the "Bad Guys Get a Cat Punch Operation". Tamaki and $1 were in the outskirts of Landosol."
 ……それじゃあ、\n改めて『悪い奴らはまとめて猫パンチ作戦』を確認するにゃ。=...Well then, let's review the "Bad Guys Get a Cat Punch Operation" again~nya.
 作戦内容はいたって単純にゃ。\n『今夜中にアクシツ商会連合全てに潜り込んで、\n悪事で稼いだ金を街にばらまく』、これだけにゃ。=The operation is very simple~nya. "Sneak into all the Croock'd & Inc. tonight and scatter the money they earned from evil deeds around the town", that's all~nya.
 r:"^にゃ～に、確かに数は多いかもしれないけど、\nやってることはいつもと同じにゃ！！\nあたしと(.{2,10})がいれば……あっ！$"=Nya~, it may seem like a lot, but it's the same as always~nya!! If I have $1 with me... Ah!

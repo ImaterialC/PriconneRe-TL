@@ -144,7 +144,13 @@
 【物理】中距離攻撃\n行き過ぎた綺麗好きのアライグマ。\n特製のガマ油石鹸を一度浴びると、\nまともに武器も握れない。=[Physical] Mid-range Attack.\nraccoon that loves cleanliness after going too far with Mid-range Attacks. Once it's bathed in special Gama Oil soap, it can't even hold a weapon properly.
 
 カーズ・レリック=Cars Relic
-【魔法】範囲攻撃\nシャドウと共に聖域を守護する、記憶の番人。\n真なる力を欲するものに、相応の試練を与える。\n\n\n・敵全体に毒状態を付与し、ＨＰ吸収とＨＰ回復\n　量をダウンさせる。=[Magic] Area attack\nThe guardian of memories, who guards the Sanctuary with Shadows. Those who desire true power are given a suitable trial.\n\n►Inflicts a Poison status on all opponents, reducing their HP Absorption and HP recovery.
+【魔法】範囲攻撃\nシャドウと共に聖域を守護する、記憶の番人。\n真なる力を欲するものに、相応の試練を与える。\n\n\n・敵全体に毒状態を付与し、ＨＰ吸収とＨＰ回復\n　量をダウンさせる。=[Magic] Area attack\nA guardian of sanctuaries alongside Shadows, the keeper of memories.\nIt bestows appropriate trials upon those who seek true power.\n\n\n・Inflicts poison status on all enemies, reducing HP absorption and HP recovery amount.
 
-ルナポッド=Luna Pod
-【回復】単体ＴＰ回復\nルナの塔建造と共に造られた、エネルギー増幅器。\n漂う魔力を濃縮し、供給することで守護者を強化\nする。=[Recovery] Single TP recovery\nAn energy amplifier built along with the construction of Luna's tower. Concentrating and supplying drifting magical energy strengthens the guardian bearer.
+ルナポッド=Lunapod
+【回復】単体ＴＰ回復\nルナの塔建造と共に造られた、エネルギー増幅器。\n漂う魔力を濃縮し、供給することで守護者を強化\nする。=[Healing] Single-target TP recovery\nAn energy amplifier created alongside the construction of the Luna Tower.\nIt concentrates and supplies floating magical energy to enhance guardians.
+
+ギャングオッター=Gang Otter
+【物理】中距離攻撃\n貝殻をぶつけて不意をつく、\n意地悪な北海のチンピラっこ。=[Physical] Medium-range attack\nA mischievous hooligan from the northern seas that surprises foes by striking them with shells.
+
+エンゼルダーツ=Angel Darts
+【物理】近接攻撃\n熱帯魚のカタチをした魚の魔物。\nその優雅な姿とは裏腹に、鋭いアゴ\nを獲物めがけて突き立てる。=[Physical] Close-range attack\nA fish-like monster with the shape of a tropical fish.\nContrary to its elegant appearance, it thrusts its sharp jaws towards prey.
