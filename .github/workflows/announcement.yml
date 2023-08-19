@@ -1,0 +1,25 @@
+name: Announce to Discord channel
+on:
+  release:
+    types: [released]
+
+defaults:
+  run:
+    shell: pwsh
+
+jobs:
+  announce:
+    name: Discord Announcement
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generating changelog in Discord format
+        id: changes
+        run: |
+          & .\.github\scripts\make_announce.ps1
+
+      - name: Announcing new release
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9
+        with:
+          args: "<@&1082514350700515348> Aruji-sama, look like there is a new update dropped, why don't we check it out?\n${{ steps.changes.outputs.discord_changes }}\n"

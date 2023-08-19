@@ -2,6 +2,10 @@ name: Create new release
 on:
   workflow_dispatch:
     inputs:
+      release_note_smallnote:
+        type: string
+        description: Small note above download button
+        required: false
       release_note_download:
         type: boolean
         description: Show download button
@@ -17,6 +21,11 @@ on:
         description: Show compare link
         required: true
         default: true
+      test_mode:
+        type: boolean
+        description: Test mode
+        required: true
+        default: false
 
 defaults:
   run:
@@ -26,9 +35,6 @@ jobs:
   build:
     name: Windows release
     runs-on: windows-latest
-    concurrency: staging_environment
-    outputs:
-      changes: ${{ steps.changes.outputs.discord_changes }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -36,36 +42,19 @@ jobs:
 
       - name: Preparing
         run: |
-          $Date = Get-Date -Format 'yyyy.MM.dd'
-          $DateWithoutDot = $Date.Replace(".","")
-          $charNumber = 64
-          do {
-            $char = [char]$charNumber
-            if ($charNumber -eq 64) {
-              $ReleaseTitle = "Pricone UI EN DMM v$Date"
-              $ReleaseTag = $DateWithoutDot
-            }
-            else {
-              $ReleaseTitle = "Pricone UI EN DMM v$Date$($char.ToString().ToLower())"
-              $ReleaseTag = $DateWithoutDot + $char.ToString().ToLower()
-            }
-            $charNumber++
-          }
-          while (git tag -l $ReleaseTag)
+          & .\.github\scripts\initialize.ps1
 
-          "RELEASE_TAG=$ReleaseTag" >> $Env:GITHUB_ENV
-          "RELEASE_TITLE=$ReleaseTitle" >> $Env:GITHUB_ENV
-
-          Write-Output "::group::Logs"
-          Write-Output "Tag: $ReleaseTag"
-          Write-Output "::endgroup::"
+      - name: Add small note
+        if: inputs.release_note_smallnote
+        run: |
+          "${{ inputs.release_note_smallnote }}" >> "./RELEASE_NOTE"
 
       - name: Create download button
         if: inputs.release_note_download
         run: |
-          #"`n# Download`n" >> "./RELEASE_NOTE"
-          #"Choose a version:`n" >> "./RELEASE_NOTE"
-          "|[Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)|`n|-|" >> "./RELEASE_NOTE"
+          #"`r`n# Download`r`n" >> "./RELEASE_NOTE"
+          #"Choose a version:`r`n" >> "./RELEASE_NOTE"
+          "|[Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)|`r`n|-|" >> "./RELEASE_NOTE"
           Write-Output "::group::Release Note"
           Get-Content -Raw "./RELEASE_NOTE"
           Write-Output "::endgroup::"
@@ -75,19 +64,10 @@ jobs:
         run: |
           & .\.github\scripts\make_changelog.ps1
 
-      - name: Generating changelog in Discord format
-        id: changes
-        run: |
-          & .\.github\scripts\make_announce.ps1
-          Add-Content -Value "### [Github release](https://github.com/ImaterialC/PriconneRe-TL/releases/tag/${{ env.RELEASE_TAG }}) | [Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip) | [What's changed?](https://github.com/ImaterialC/PriconneRe-TL/compare/$(git describe --tags --abbrev=0)...${{ env.RELEASE_TAG }})" -Path "./DISCORD_NOTE"
-          "discord_changes<<EOF" >> "$env:GITHUB_OUTPUT"
-          Get-Content -Raw "./DISCORD_NOTE" >> "$env:GITHUB_OUTPUT"
-          "EOF" >> "$env:GITHUB_OUTPUT"
-
       - name: Create compare link
         if: inputs.release_note_compare
         run: |
-          "`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/$(git describe --tags --abbrev=0)...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
+          "`r`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/$(git describe --tags --abbrev=0)...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
 
       - name: Generating artifact
         run: |
@@ -98,6 +78,7 @@ jobs:
           Get-Item "PriconneTL_${{ env.RELEASE_TAG }}.zip" -ErrorAction Stop
 
       - name: Publish Release
+        if: inputs.test_mode == false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -107,16 +88,3 @@ jobs:
             --title "${{ env.RELEASE_TITLE }}"`
             ${{ env.RELEASE_TAG }} `
             PriconneTL_${{ env.RELEASE_TAG }}.zip `
-
-  announce:
-    name: Discord Announcement
-    runs-on: ubuntu-latest
-    concurrency: staging_environment
-    needs: build
-    steps:
-      - name: Announcing new release
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9
-        with:
-          args: "<@&1082514350700515348> Aruji-sama, look like there is a new update dropped, why don't we check it out?\n${{ needs.build.outputs.changes }}\n"
