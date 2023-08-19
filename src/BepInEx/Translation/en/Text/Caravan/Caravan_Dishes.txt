@@ -7,6 +7,7 @@
 プレシアの食いしん坊ぶーぶー肉まん=Presia's Gourmet Bu-Bu Pork Bun
 クローチェのフルパワーポテトサラダ=Croce's Full Power Potato Salad
 リマの不思議なスイートアップル=Rima’s Mysterious Sweet Apple
+ニノンのオリジナル一二三寿司=Ninon's Original Hifumi Sushi
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
 カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Apettite-doubling Kebab Sandwich
@@ -24,6 +25,7 @@
 次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.[-]
 次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
+次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 next turn.\nThe turn counter will not increase.
 ---Yellow---
 マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
 次にマイルマスに止まった際の獲得マイルが200%アップする。=You will get 200% more Miles on the next Mile Tile you stop at.
@@ -59,6 +61,7 @@
 【料理】ダイスの目が1回目は必ず「2」に、2回目は必ず「7」になる=[Cooking] You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
 【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
 【料理】ダイスの目が「4・5・6」のみになる=[Cooking] You will roll a 4, 5 or 6 next turn.
+【料理】ダイスの目が\n「1・2・3」のみになる=[Cooking] You will roll a 1, 2 or 3 next turn.
 
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
 ---Red---
@@ -69,6 +72,7 @@
 [90A0BC]次に振るダイスの目が「4・5・6」のみになる。[-]=[90A0BC]You will roll a 4, 5 or 6 next turn.[-]
 [90A0BC]次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。[-]=[90A0BC]You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.[-]
 [90A0BC]次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。[-]=[90A0BC]You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.[-]
+[90A0BC]次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。[-]=[90A0BC]You will roll a 1, 2 or 3 next turn.\nThe turn counter will not increase.[-]
 
 ---Yellow---
 [90A0BC]マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。[-]=[90A0BC]The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. [-]
@@ -91,6 +95,8 @@
 クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=Croce's potato salad, made with full power. She originally intended to make galette, but accidentally squashed it and made a course correction. Regardless of the process, the taste is exceptionally delicious.
 
 リマがネネカにもらったリンゴで作った秘密の\nスイーツ。爽やかな酸味と濃厚な甘さがまるで\n魔法のようなバランスでお互いを引きたてており\n食べた者をたちまち虜にしてしまうという。=A secret dessert made from apples that Rima had received from Neneka. It is said that the refreshing sourness and rich sweetness balance each other out like magic, captivating anyone who eats it in an instant.
+
+ニノンがジオ・テオゴニアに持ち込んだ特別な\n寿司。厳選された新鮮な魚介を使った逸品だが、\n一部のネタは、寿司のセオリーを逸脱したニノン\n我流のものに仕上がっている。=A special type of sushi that Ninon brought to Geo Theogonia. It's made with carefully selected fresh seafood, but some of the ingredients are made in Ninon's own style, which deviates from the sushi theory.
 
 ---Yellow---
 アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special lunch basket together. The cheerful dishes filled with hopes for adventures with friends will make various events along the way feel like one rank higher.

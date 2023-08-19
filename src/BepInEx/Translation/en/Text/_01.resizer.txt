@@ -268,3 +268,7 @@ Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParen
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogPurchaseOrUseCharaExchangeTicket(Clone)/ScrollContent/ScrollView/WrapContent/PartsDialogCharaExchangeTicketUnitRow(Clone)/Right/Plate/OwnedUnitObject/Label=ChangeFontSize(12)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogPurchaseOrUseCharaExchangeTicket(Clone)/ScrollContent/ScrollView/WrapContent/PartsDialogCharaExchangeTicketUnitRow(Clone)/Left/Plate/OwnedUnitObject/Label=ChangeFontSize(12)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogPurchaseOrUseCharaExchangeTicket(Clone)/GUIGroup_Price/PriceLabel=ChangeFontSize(16)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogGoldShop(Clone)/Main/GUIPanel_Dialog_R/PartsScrollObjects/ScrollContent/ScrollView/WrapContent/PartsGoldShopPlate(Clone)/PartsSet/GUIGroup_UseJewel/Label_UseJewelType=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonSmall(Clone)/Main/PartsParent/PartsDialogGoldBuyConfirm(Clone)/Main/GUIPanel_Dialog_SS/GUIGroup_DialogContents/GUIGroup_Num_Mana/Label=ChangeFontSize(17)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogGoldShop(Clone)/Main/GUIPanel_Dialog_L/GUIGroup_DialogContents/GUIGroup_CurrencyInfo/GUIGroup_InfoJewel/Label_JewelTitle=ChangeFontSize(17)
