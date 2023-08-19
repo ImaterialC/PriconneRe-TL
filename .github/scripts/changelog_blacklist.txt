@@ -1,0 +1,6 @@
+# This file contains a list of file which will be excluded from make_changelog process.
+# Support regular expression
+
+src/BepInEx/Translation/en/Other
+\.resizer\.txt
+/_.+.txt
