@@ -1,21 +1,21 @@
----Skills
----UB
+---Skills---
+---UB---
 ぷうきちサンタ・ストーム=Pukichi Santa Storm
 目の前の敵１キャラに物理特大ダメージを与えるが、自分のＨＰを消費する。=Deals massive P.DMG to an enemy directly in front, at the cost of HP.
-r:"^敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)消費$"=Deals $1 P.DMG to an enemy.\nReduces own HP by $2.
----S1
----S2
+r:"^敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)消費$"=►Deals $1 P.DMG to an enemy.\n►Reduces own HP by $2.
+---S1---
+---S2---
 目の前の敵１キャラに物理中ダメージを与え、さらに小さく吹き飛ばす。=Deals moderate P.DMG to an enemy directly in front and knocks them back slightly.
----ex
+---ex---
 ホーリーナイトスラッガー=Holy Night Slugger
 
----Skills+
----UB
----S1
-自分の物理攻撃力を特大アップさせ、さらに行動速度を大アップさせる。=Make your P.ATK oversized and increase your action speed.
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=$1 up your P.ATK\nImprove your action speed
----S2
----ex
+---Skills+---
+---UB---
+---S1---
+自分の物理攻撃力を特大アップさせ、さらに行動速度を大アップさせる。=Massively increases own physical attack power and greatly increases action speed.
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=►Boosts own P.ATK by $1.\nBoosts own action speed.
+---S2---
+---ex---
 ホーリーナイトスラッガー+=Holy Night Slugger+
----UE
+---UE---
 クリスマス王ぷうきち=Christmas King Pukichi

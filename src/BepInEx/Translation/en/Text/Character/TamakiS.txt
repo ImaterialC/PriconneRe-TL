@@ -1,0 +1,29 @@
+【物理】前衛で連続攻撃を放つ、海辺の気まぐれ猫娘。ランダムな相手への単体攻撃を計４度行うユニオンバーストは、対象がランダムだが威力は抜群。=[Physical] A front-line whimsical cat-girl of the seaside who delivers consecutive attacks. Performs a total of 4 individual attacks on random enemies. Her Union Burst targets randomly, but its power is outstanding.
+
+ねこねこサマーレイブ=Kitty-Cat Summer Rave
+
+前方範囲内のランダムな敵キャラに、単体物理中ダメージを計４回与える。=Deals moderate P.DMG to a random enemy in range 4 times.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.
+
+目の前の敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Lowers the enemy's TP directly in front by a small amount and recovers own TP by a small amount.
+
+自分の物理攻撃力を中アップさせ、さらに行動速度を大アップさせる。=Large boost to own P.ATK and action speed.
+
+目の前の敵１キャラのＴＰを小ダウンさせ、自分のＴＰを小回復する。さらに目の前の敵１キャラの物理攻撃力を大ダウンさせ、自分の物理攻撃力を特大アップさせる。=Let the TP of one character in front of you in front of you and recover your TP small. Furthermore, the P.ATK of one character in front of you in front of you will be Large reduced and your P.ATK will be increased.
+
+r:"^敵単体のＴＰを(\d+)失わせる\n自分のＴＰを(\d+)回復\n敵単体の物理攻撃力を(\d+)ダウン\n自分の物理攻撃力を(\d+)アップ$"=Cast time: 0.5s\n►Reduces an enemy's TP by $1.\n►Recovers Own TP by $2.\n►Lowers an enemy’s P.ATK by $1 for 12s.\n►Boosts own physical attack by $1 for 12s.
+
+Lost the TP of the enemy alone $1\nRecovery of your TP $1\nThe P.ATK of the enemy alone $1 down\n$1 up your P.ATK
+
+自分の物理攻撃力を20080アップ\n自分の物理攻撃クリティカル時のダメージを10％アップ\n自分の行動速度アップ=Increase your own physical attack power by 20080 Increase your physical attack Critical DMG by 10% Increase your behavioral speed
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを10％アップ\n自分の行動速度アップ$"=Cast time: 1.1s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.Crit DMG by 10% for 180s.\n►Boosts own action speed into 200% for 18s.
+自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、さらに行動速度を大アップさせる。=Greatly boosts her own P.ATK, slightly enhances damage dealt on physical attack criticals, and further greatly increases her action speed.
+
+アイスブレイク=Icebreak
+アイスブレイク+=Icebreak+
+サマービーチアブソーブ=Summer Beach Absorb
+サマービーチアブソーブ+=Summer Beach Absorb+
+キャッツインパラダイス+=Kitty in Paradise+
+キャッツインパラダイス=Kitty in Paradise
+氷鯛アイスダガー=Ice Bream Ice Dagger
+ねこねこフェザーローブ=Cat Feather Robe

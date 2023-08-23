@@ -9,6 +9,8 @@ Lv強化=Level Up
 ★変更=★Change
 
 専用装備をまだ装備していません。=Haven't equipped Unique Equipment yet.
+専用装備１をまだ装備していません。=Haven't equipped 1st Unique Equipment yet.
+専用装備２をまだ装備していません。=Haven't equipped 2nd Unique Equipment yet.
 強化できる箇所がありません。=There are no areas to strengthen.
 自分のキャラではないので★変更できません。=You can't change the ★ that isn't yours
 おまかせ強化=Optimize
@@ -27,7 +29,8 @@ Lv強化=Level Up
 メモリーピースとマナが不足しています。=Insufficient Memory Shards and Manas.
 ャラ強化=Enhance Characters
 強化する=Refine
-専用装備グロウスフィアを使用するにはRANK7にする必要があります。=At least rank 7 to use a Unique Equipment growsphere.
+専用装備グロウスフィアを使用するにはRANK7にする必要があります。=At least rank 7 to equip a Unique Equipment growsphere.
+専用装備１グロウスフィアを使用するにはRANK7にする必要があります。=At least rank 7 to equip 1st Unique Equipment growsphere.
 ランクアップ=Rank Up
 装備ステータス=Equipment Stats
 使う=Use
@@ -45,6 +48,9 @@ Lv強化=Level Up
 キャラLvとスキルLvのみ強化=Ignore equips
 上限解放する=Uncap
 まとめて強化=Uncap+Lv
+
+必要作成Pt=Required creation Pt
+専用装備２を装備/作成します。よろしいですか？=2nd Unique Equipment 2 will be equipped/created. Is that all right?
 
 マイセレクトを解除しました。=My Fav has been deselected.
 以下のアイテムを装備してランクアップしますか？=Equip the following items to rank up?
@@ -77,12 +83,16 @@ r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F0
 現在、このアイテムは\nメインクエスト等では入手できません。=This item cannot be obtained in the Main Quest.
 以下のアイテムの入手場所を確認できます。=View locations where the follow items can be obtained
 
+専用装備１を装備した状態のキャラが装備できます。=Can only equip after equipped 1st UE.
+
 キャラのRANKが7以上で装備できます。=Equipable at RANK 7.
 [FF7C4E,D62146]キャラのRANKが7以上で装備できます。[-]=[FF7C4E,D62146]Equipable at RANK 7.[-]
 
 このキャラの★6は今後登場予定です。=This character's 6★ ascension \nwill be introduced at a later date.
 パーティ情報がありません。=There is no party information.
 [FF7C4E,D62146]専用装備グロウスフィアを使用できます。[-]=[FF7C4E,D62146]UE Growsphere can be used.[-]
+[FF7C4E,D62146]専用装備１グロウスフィアを使用できます。[-]=[FF7C4E,D62146]1st UE Growsphere can be used.[-]
+[FF7C4E,D62146]専用装備２グロウスフィアを使用できます。[-]=[FF7C4E,D62146]2nd UE Growsphere can be used.[-]
 
 アイテム入手方法=How To Get Items
 ★6解放クエストに必要なアイテムの一部をセットします。よろしいですか？=Fuse some of the items required for unlock ★6 quest. Is it OK? 
@@ -193,7 +203,11 @@ EXスキルスロット=EX skill slot
 すでにセットしています。=It's already placed
 必要なメモリーピースの上限に達しています。=Required the number of Memory Shards reached.
 ★6才能開花に必要なアイテムをセットするには\n専用装備が必要です。\n\nまた、専用装備を装備するには\nRANK7にする必要があります。\n\nランクアップしますか？=To set the items needed for 6★ ascension, Unique Equipment is required.\n\nTo equip the Unique Equipment,\nthe character needs to be raised to RANK7.\n\n Rank up now?
+★6才能開花に必要なアイテムをセットするには\n専用装備１が必要です。\n\nまた、専用装備１を装備するには\nRANK7にする必要があります。\n\nランクアップしますか？=To set the items needed for 6★ ascension, 1st Unique Equipment is required.\n\nTo equip the 1st Unique Equipment,\nthe character needs to be raised to RANK7.\n\n Rank up now?
+
+
 ★6才能開花に必要なアイテムをセットするには\n専用装備が必要です。\n\n専用装備を作成しますか？=To set the items needed for 6★ ascension, Unique Equipment is required. Would you like to make Unique Equipment?
+★6才能開花に必要なアイテムをセットするには\n専用装備１が必要です。\n\n専用装備１を作成しますか？=To set the items needed for 6★ ascension, 1st Unique Equipment is required. Would you like to make 1st Unique Equipment?
 専用装備作成確認=Craft Unique Equipment Confirmation
 専用装備へ=To Unique Equipment Gear
 ---Recommended Enhancement---
@@ -240,6 +254,9 @@ RANKボーナス詳細のステータス=Status Details
 ---UE---
 装備/強化確認=Equip Character
 専用装備を装備/強化します。よろしいですか？=Equip Unique Equipment?
+専用装備１を装備/強化します。よろしいですか？=Equip 1st Unique Equipment?
+専用装備２を装備/強化します。よろしいですか？=Equip 2nd Unique Equipment?
+
 作成に必要なマナ=Mana Cost
 作成に必要な素材=Required Items
 強化に必要なマナ=Mana Cost For Enhancement
@@ -252,6 +269,8 @@ RANKボーナス詳細のステータス=Status Details
 上限解放確認=Confirm Uncap
 まとめて強化確認=Enhancement Confirmation
 以下のアイテムを消費して専用装備を強化しますか？=Would you like to spend the following items\nto enhance Unique Equipment?
+以下のアイテムを消費して専用装備１を強化しますか？=Would you like to spend the following items\nto enhance 1st Unique Equipment?
+以下のアイテムを消費して専用装備２を強化しますか？=Would you like to spend the following items\nto enhance 2nd Unique Equipment?
 上限解放に必要なマナ=Mana Cost
 消費数=Cost
 上限解放に必要な素材=Required Items
@@ -270,6 +289,9 @@ RANKボーナス詳細のステータス=Status Details
 
 消費する強化素材=Refine materials consumed
 以下のアイテムを消費して専用装備を強化します。\nよろしいですか？=Consumes the following items to refine the Unique Equipment.\nIs it OK?
+以下のアイテムを消費して専用装備１を強化します。\nよろしいですか？=Consumes the following items to refine the 1st Unique Equipment.\nIs it OK?
+以下のアイテムを消費して専用装備２を強化します。\nよろしいですか？=Consumes the following items to refine the 2nd Unique Equipment.\nIs it OK?
+
 強化の素材が不足しています。=Insufficient refinement material.
 
 ランクアップへ=To Rank Up
@@ -285,13 +307,21 @@ RANKボーナス詳細のステータス=Status Details
 専用装備スフィア=Unique Equipment Spheres
 キャラスフィア=Character Spheres
 専用装備上限Lv=UE max Level
+専用装備１上限Lv=1st UE max Level
+専用装備２上限Lv=2nd UE max Level
 専用装備Lv=UE Level
+専用装備１Lv=1st UE Level
+専用装備２Lv=2nd UE Level
 未登場=N/A
 登場=Implemented
 専用装備グロウスフィア=UE Spheres
+専用装備１グロウスフィア=1st UE Spheres
+専用装備２グロウスフィア=2nd UE Spheres
+
 （キャラ）=(Character)
 
 専用装備をまだ装備していません。\n作成するにはRANK7にする必要があります。\n\nランクアップしますか？=You can't equip Unique Equipment yet\nMust be RANK7 or higher to create Unique Equipment.\n\nWould you like to rank up?
+専用装備１をまだ装備していません。\n作成するにはRANK7にする必要があります。\n\nランクアップしますか？=You can't equip 1st Unique Equipment yet\nMust be RANK7 or higher to create 1st Unique Equipment.\n\nWould you like to rank up?
 ---NPC---
 「キャラLv限界突破」によりプレイヤーLvを超えてキャラLvを強化できます。ステータスアップやスキルLvの強化上限が解放されるので各キャラのメモリーピースとマナを集め、限界突破を目指しましょう。=You can leveling the chara Lv beyond the PLv by "Chara Lv limit breakthrough". The status and skill Lv will be Uncaped,so collect memory shards and mana for each character and aim to limit break them.
 
@@ -306,5 +336,7 @@ RANKボーナス詳細のステータス=Status Details
 キャラは、最大★６まで才能開花できます。★５まで才能開花すると、ＥＸスキルがＥＸスキル＋となり、さらにパワーアップしますよ。=Characters can be ascended up to ★6.\nReaching ★5 will transform the character's EX skill to an EX skill+, making them even more powerful.
 
 専用装備を装備したら、★6才能開花に必要なアイテムを集めましょう。「ピュアメモリーピース」はメインクエストのVERY HARD、「プリンセスオーブ」は神殿調査から入手できますよ。=After equipping their UE, gather the necessary items to upgrade a character to ★6. Pure Memory Shards can be obtained from VH stage, and Princess Orbs from Temple Trek.
+
+専用装備１を装備したら、★6才能開花に必要なアイテムを集めましょう。「ピュアメモリーピース」はメインクエストのVERY HARD、「プリンセスオーブ」は神殿調査から入手できますよ。=After equipping their 1st UE, gather the necessary items to upgrade a character to ★6. Pure Memory Shards can be obtained from VH stage, and Princess Orbs from Temple Trek.
 
 最後に、解放クエストをクリアすると才能開花ができます。ステータスに加え、ユニオンバーストもパワーアップしますよ。みなさまの真の力の解放を目指して頑張りましょう。=Finally, must complete the character's Ascension Quest. If you succeed, both their stats and their UB will be upgraded. Please do your best to unlock our friend's true power.

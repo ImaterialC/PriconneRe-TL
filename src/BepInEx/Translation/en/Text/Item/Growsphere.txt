@@ -16,6 +16,8 @@
 使用するグロウスフィアを選択してください。=Select the Growsphere to use.
 無料対象が残っています。=There are still free stuff left.
 専用装備を強化します。よろしいですか？=Enhance the Unique Equipment?
+専用装備１を強化します。よろしいですか？=Enhance the 1st Unique Equipment?
+専用装備２を強化します。よろしいですか？=Enhance the 2nd Unique Equipment?
 [FF7C4E,D62146]無料対象のためアイテムやマナは消費しません。[-]=[FF7C4E,D62146]Items or mana are not consumed.[-]
 強化内容=Raise
 育成玉を所持していません。=Do not have a training ball.
@@ -28,19 +30,20 @@
 デイリーミッションについて=About Daily Mission
 キャラの大いなる力を呼び醒ますア\nイテム。=An item that invokes the great power of the character.
 r:"^グロウスフィア /\n? Lv(\d+)$"=Growsphere / Lv$1
-r:"^専用装備グロウスフィア\n? / Lv(\d+)$"=Unique Equipment Growsphere / Lv$1
+r:"^専用装備(.)グロウスフィア\n? / Lv(\d+)$"=Unique Equipment-$1 Growsphere / Lv$2
 
 強化できるLvまでLvアップする=Level up to the Lv cap.
 
 
 r:"^すべてのキャラに使用できるグロウスフィア。キャラのステータスをLv(\d+)/RANK(\d+)まで強化できる。$"=Growsphere that can be used for all characters. Raise character's status to LV$1/RANK$2.
-r:"^すべてのキャラに使用できる専用装備のグロウスフィア。専用装備を作成し、Lv(\d+)まで強化できる。$"=Unique Equipment Growsphere that can be used for all characters. Create a Unique Equipment and Enhance up to Lv240.
+r:"^すべてのキャラに使用できる\n専用装備(.)のグロウスフィ\nア。専用装備を作成し、Lv\n(\d+)まで強化できる。$"=Unique Equipment-$1 Growsphere that can be used for all characters. Create a Unique Equipment-$1 and Enhance up to Lv$2.
 
-
+現在使用中のスフィアよりも、Lvアップができないアイテムです。=Can only be used if the Lv is below Growsphere's Lv
 sr:"^([べ-ヺー＆]+)(（.{2,10}）)?\n?専用スフィア / Lv(\d+)$"=$1$2\nExclusive Sphere / Lv$3
 sr:"^([べ-ヺー＆]+)(（.{2,10}）)?専用のグロウスフィア。キャラのステータスをLv(\d+)/RANK(\d+)まで強化できる。$"=Growsphere exclusively for $1$2.\n Raise character's status to LV$3/RANK$4.
 
-r:"^専用装備グロウスフィア / Lv(\d+)\nを使用しました。\n設定値まで、無料で強化できます。$"=You used UE Growsphere / Lv$1.\nNow you can enhance the set value for free.
+r:"^専用装備(.)グロウスフィア / Lv(\d+)\nを使用しました。\n設定値まで、無料で強化できます。$"=You used UE-$1 Growsphere / Lv$2.\nNow you can enhance the set value for free.
+
 r:"^グロウスフィア / Lv(\d+)\nを使用しました。\n設定値まで、無料で強化できます。$"=You used Growsphere / Lv$1.\nNow you can enhance the set value for free.
 sr:"^([べ-ヺー＆]+)(（.+）)?専用スフィア / Lv(\d+)\nを使用しました。\n設定値まで、無料で強化できます。$"=You used $1$2 dedicated\nGrowsphere / Lv$3.\nNow you can enhance the set value for free.
 グロウスフィアセット完了=Growsphere Set Completion
@@ -58,11 +61,25 @@ r:"^\[3C404E\]無料で強化できるのは\[-\]\[FF7C4E,D62146\]Lv(\d+)\[-\]\[
 [3C404E]無料で強化できるのは[-][FF7C4E,D62146]
 ・ランクアップ\n・装備装着\n・装備強化=·rank up\n・Equipped an equipment\n・Equipment enhancement
 ・専用装備作成\n・専用装備上限解放\n・専用装備レベルアップ=・ Craft Unique Equipment\n・ Unlock Level Cap of Unique Equipment\n・ Unique Equipment Level Up
+・専用装備１作成\n・専用装備１上限解放\n・専用装備１レベルアップ=・ Craft 1st Unique Equipment\n・ Unlock Level Cap of 1st Unique Equipment\n・ 1st Unique Equipment Level Up
+・専用装備２作成\n・専用装備２上限解放\n・専用装備２レベルアップ=・ Craft 2nd Unique Equipment\n・ Unlock Level Cap of 2nd Unique Equipment\n・ 2nd Unique Equipment Level Up
+
 ・専用装備作成\n・専用装備上限解放=・ Craft Unique Equipment\n・ Unlock Level Cap of Unique Equipment
+・専用装備１作成\n・専用装備１上限解放=・ Craft 1st Unique Equipment\n・ Unlock Level Cap of 1st Unique Equipment
+・専用装備２作成\n・専用装備２上限解放=・ Craft 2nd Unique Equipment\n・ Unlock Level Cap of 2nd Unique Equipment
+
 ・専用装備上限解放\n・専用装備レベルアップ=・ Unlock Level Cap of Unique Equipment\n・ Unique Equipment Level Up
+・専用装備１上限解放\n・専用装備１レベルアップ=・ Unlock Level Cap of 1st Unique Equipment\n・ 1st Unique Equipment Level Up
+・専用装備２上限解放\n・専用装備２レベルアップ=・ Unlock Level Cap of 2nd Unique Equipment\n・ 2nd Unique Equipment Level Up
 ・専用装備上限解放=・ Unlock Level Cap of Unique Equipment
+・専用装備１上限解放=・ Unlock Level Cap of 1st Unique Equipment
+・専用装備２上限解放=・ Unlock Level Cap of 2nd Unique Equipment
 ・専用装備レベルアップ=・ Unique Equipment Level Up
+・専用装備１レベルアップ=・ Unique 1st Equipment Level Up
+・専用装備２レベルアップ=・ Unique 2nd Equipment Level Up
 専用装備レベルアップ=Unique Equipment Level Up
+専用装備１レベルアップ=1st Unique Equipment Level Up
+専用装備２レベルアップ=2nd Unique Equipment Level Up
 無料強化分が完了したものがあります。=Some free enhancements have been completed.
 無料強化完了=Free Enhancement Completed
 一括強化完了=Completion of Batch Enhancement
@@ -71,7 +88,7 @@ r:"^\[3C404E\]無料で強化できるのは\[-\]\[FF7C4E,D62146\]Lv(\d+)\[-\]\[
 マナや装備が足りない場合でも、グロウスフィアを使用すれば\nお仲間を一気に強化ができるようです。\nグロウスフィアを手に入れたらすぐに使ってみましょう。=Even if you don't have enough mana or equipment, you can use Growsphere to strengthen your friends at once. Use it as soon as you get the Growsphere.
 
 主さま、今手に入れたのがグロウスフィアになります。\nマナや装備を使わずに一気に強化できるアイテムですので\nさっそく使ってみましょう。=Lord, We got Growsphere now. It is an item that can be strengthened at once without using mana or equipment, so let's use it immediately.
----Help
+---Help---
 キャラ専用のグロウスフィアは、指定のキャラ以外で使用することはできません。\n※グロウスフィアは、メインクエスト 2-3(NORMAL)をクリアした後に使用できます。\n\n現在のキャラのステータスが、グロウスフィアの全ての無料強化値を上回る場合、グロウスフィアは使用できません。\nグロウスフィアでは、プレイヤーLvを上回る強化はできません。\n\nグロウスフィアの所持上限はそれぞれ「999」です。\n所持上限を超えて獲得したグロウスフィアは、プレゼントボックスに送られます。=The character-specific Growsphere can only be used by designated characters.\n※Growsphere can be used after clearing Main Quest 2-3 (NORMAL).\nIf the current character's stats exceed all of the Growsphere's free enhancements, the Growsphere cannot be used.\nGrowsphere cannot be enhanced beyond Player Lv.\n\nThe maximum possession limit for Growsphere is "999".\n\nGrowspheres earned in excess of the possession limit will be sent to the present box.
 
 グロウスフィアを使用後に、キャラを無料強化した場合も、デイリーミッションの加算対象です。\n例：グロウスフィアを使用したキャラのスキルを無料強化した場合、デイリーミッションの「キャラのスキルを1回強化しよう」が達成されます。=Even if you strengthen your character for free after using Growsphere, you will be eligible for daily missions.\nExample: If you enhance the skill of a character using Growsphere for free, the daily mission "Let's enhance the skill of the character once" will be completed.
@@ -84,4 +101,4 @@ r:"^\[3C404E\]無料で強化できるのは\[-\]\[FF7C4E,D62146\]Lv(\d+)\[-\]\[
 専用装備グロウスフィアは、メインクエスト 2-3(NORMAL)をクリアした後に使用できます。\n\n下記のいずれかに当てはまる場合、専用装備グロウスフィアを使用できません。\n・現在のキャラの専用装備強化Lv上限が、専用装備グロウスフィアの無料強化値を上回る場合\n・キャラの専用装備が登場していない場合\n・キャラのRankが6以下の場合\n\nまた、無料強化値が残っている場合でも、専用装備は現在のキャラLvに対応した専用装備強化Lv上限までしか強化できません。\n例：キャラのLvが200の場合、専用装備を強化できるのはLv210までです。\n※キャラLvを上げれば、続きから無料強化上限のLvまで無料で強化できます。\n\n専用装備グロウスフィアの所持上限は「999」です。\n所持上限を超えて獲得した専用装備グロウスフィアは、プレゼントボックスに送られます。=UE Growsphere can be used after clearing Main Quest 2-3 (NORMAL).\n\nIf any of the following applies, you cannot use the UE Growsphere.\n・If the current character's Unique Equipment enhancement Lv upper limit exceeds the free enhancement value of UE Growsphere.\n・If the character's Unique Equipment does not appear\n・If the character's Rank is 6 or less\n\nAlso, even if the free enhancement value remains, Unique Equipment can only be enhanced up to the Unique Equipment enhancement Lv upper limit corresponding to the current character Lv.\nExample: If your character is Lv 200, you can only upgrade your Unique Equipment to Lv 210.\n* If you raise the character Lv, you can strengthen it for free from the continuation to the Lv of the free enhancement upper limit.\n\nThe maximum possession limit for the UE Growsphere is 999.\nUE Growsphere that are acquired beyond the possession limit will be sent to the present box.
 
 
-専用装備グロウスフィアを使用すれば、素材を消費せずに専用装備を作成、一気に強化ができるようです。ぜひご活用くださいませ。=If you use the Unique Equipment Growsphere, you can create special equipment without consuming materials and strengthen it at once. Please take advantage of it.
+専用装備グロウスフィアを使用すれば、素材を消費せずに専用装備を作成、一気に強化ができるようです。ぜひご活用くださいませ。=If you use the Unique Equipment Growsphere, you can create Unique Equipment without consuming materials and strengthen it at once. Please take advantage of it.
