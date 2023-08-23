@@ -1,24 +1,32 @@
----Profile
----Skillsミフユ（サマー）
----UB
+---Profile---
+【物理】中衛で、攻撃と補助の両方をこなす海の傭兵。ユニオンバーストの効果で味方全体の物理攻撃力を高め、物理攻撃パーティの能力アップに一役買う。=[Physical] A mid-range mercenary of the sea who excels in both offense and support. With the effect of her Union Burst, she enhances the physical attack power of all allies, contributing to the overall strength of the physical attack-focused party.
+
+目の前の敵１キャラに物理中ダメージを与え、さらにその周囲の敵すべてに物理大ダメージを与える。=Deals medium P.DMG to the enemy in front and further deals massive P.DMG to all surrounding enemies.
+
+---Skillsミフユ（サマー）---
+---UB---
 レヴィアタンランス=Leviathan Lance
 目の前の敵１キャラに物理大ダメージを与え、さらに味方全体の物理攻撃力を中アップさせる。=Deals large P.DMG to an enemy directly in front. Moderate boost to allies' P.ATK.
 r:"^敵単体に(\d+)の物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ$"=Deals $1 P.DMG to an enemy.\nBoosts allies' P.ATK by $2.
----S1
+---S1---
 目の前の敵１キャラに物理中ダメージを与え、さらにその周囲の敵すべてに物理小ダメージを与える。=Deals small P.DMG to an enemy directly in front, and additional small P.DMG to enemies nearby the target.
----S2
+---S2---
 自分の物理攻撃力を中アップさせ、さらに物理クリティカルを大アップさせる。=Moderate boost to own P.ATK and P.Crit rate.
----ex
+---ex---
 サマーマーセナリー=Summer Mercenary
----Skills+
----UB
----S1
+---Skills+---
+---UB---
+---S1---
 ハイドロスティング+=Hydro Swing+
 目の前の敵１キャラに物理中ダメージを与え、さらにその周囲の敵すべてに物理大ダメージを与える。=
 Deals moderate P.DMG to an enemy directly in front, and additional small P.DMG to enemies nearby the target.
 It deals P.DMG to one enemy in front of you, and also does physics -based damage to all the surrounding enemies.
----S2
----ex
+---S2---
+---ex---
+ハイドロスティング=Hydro Sting
+ハンティングモード=Hunting Mode
+ハイドロスティング+=Hydro Sting+
+ハンティングモード+=Hunting Mode+
 サマーマーセナリー+=Summer Mercenary+
----UE
+---UE---
 蒼竜槍ミズチ=Soryu Spear Mizuchi
