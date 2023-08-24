@@ -1,14 +1,17 @@
 name: Announce to Discord channel
 on:
-  release:
-    types: [released]
+  workflow_call:
+    inputs:
+      kokkoro_message:
+        required: false
+        type: string
 
 defaults:
   run:
     shell: pwsh
 
 jobs:
-  announce:
+  discord_changes:
     name: Discord Announcement
     runs-on: ubuntu-latest
     steps:
@@ -22,4 +25,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9
         with:
-          args: "<@&1082514350700515348> Aruji-sama, look like there is a new update dropped, why don't we check it out?\n${{ steps.changes.outputs.discord_changes }}\n"
+          args: "<@&1082514350700515348> ${{ inputs.kokkoro_message }} \n${{ steps.changes.outputs.discord_changes }}\n"

@@ -21,6 +21,11 @@ on:
         description: Show compare link
         required: true
         default: true
+      announcement_message:
+        type: tring
+        description: Kokkoro's Message
+        required: false
+        default: Aruji-sama, look like there is a new update dropped, why don't we check it out?
       test_mode:
         type: boolean
         description: Test mode
@@ -88,3 +93,9 @@ jobs:
             --title "${{ env.RELEASE_TITLE }}"`
             ${{ env.RELEASE_TAG }} `
             PriconneTL_${{ env.RELEASE_TAG }}.zip `
+  announce:
+    needs: build
+    if: inputs.test_mode == false
+    uses: ./.github/workflows/announcement.yml
+    with:
+      kokkoro_message: ${{ inputs.announcement_message }}
