@@ -8,6 +8,7 @@
 ゲーム起動中=Game Start
 データダウンロード=Data Download
 ＳＤカード保存設定=SDCard Storage Setting
+情報の外部送信について=About the external transmission of information
 
 
 ---Data Link---
@@ -27,7 +28,7 @@
 お問い合わせフォームを開きます。よろしいですか？=Open the inquiry form. Is this OK?
 問い合わせる=Inquire
 アプリバージョン=App version
-ご利用機種名=Device Used
+ご利用機種名=Device Info
 フォームに引き継ぐ項目=Items to take over to the form
 ※チェックされた情報は、アプリからお問い合わせフォームに\n引き継がれ、お客様のご利用状況を確認するために使用します。\n情報がない場合、確認や調査ができないことがございます。=※The checked information will be carried over from the app to the inquiry form and used to check the usage status of the customer.\nIf there is no information, we may not be able to confirm or investigate.
 ご利用機種の\nOSバージョン=Your Device\nOS version
