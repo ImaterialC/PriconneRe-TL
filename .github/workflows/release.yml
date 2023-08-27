@@ -21,7 +21,7 @@ on:
         description: Show compare link
         required: true
         default: true
-      announcement_message:
+      kokkoro_message:
         type: tring
         description: Kokkoro's Message
         required: false
@@ -40,6 +40,8 @@ jobs:
   build:
     name: Windows release
     runs-on: windows-latest
+    outputs:
+      changes: ${{ steps.changes.outputs.discord_changes }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -69,10 +71,15 @@ jobs:
         run: |
           & .\.github\scripts\make_changelog.ps1
 
+      - name: Generating changelog in Discord format
+        id: changes
+        run: |
+          & .\.github\scripts\make_announce.ps1
+
       - name: Create compare link
         if: inputs.release_note_compare
         run: |
-          "`r`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/$(git describe --tags --abbrev=0)...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
+          "`r`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/${{ env.PREVIOUS_TAG }}...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
 
       - name: Generating artifact
         run: |
@@ -94,8 +101,14 @@ jobs:
             ${{ env.RELEASE_TAG }} `
             PriconneTL_${{ env.RELEASE_TAG }}.zip `
   announce:
-    needs: build
+    name: Discord Announcement
     if: inputs.test_mode == false
-    uses: ./.github/workflows/announcement.yml
-    with:
-      kokkoro_message: ${{ inputs.announcement_message }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Announcing new release
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9
+        with:
+          args: "<@&1082514350700515348> ${{ inputs.kokkoro_message }} \n${{ needs.build.outputs.changes }}\n"
