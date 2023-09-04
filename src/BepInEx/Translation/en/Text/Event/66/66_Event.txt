@@ -1,6 +1,7 @@
 r:"^アンブローズ魔法学園([0-9\-\(\)\w （）]*)$"=Ambrose Magic Academy $1
 放たれし暴魔・アルゲース=Arges the Released Demon
-
+称号一覧に直接追加されます=will be added directly to the title list
+ベンキョーできる系女子！=She's the kind of girl who can do it!
 
 【魔法】800年の封印から目覚めし、一つ目の\n魔物。封じられし魔力を解き放ち、忌まわしき魔\n術師の名を冠する学園を破壊せんとする。\n\n\n・ユニオンバーストは、最も近い敵１キャラのバ\n　リアを解除し、魔法固定ダメージを与える。さ\n　らに自身の魔法攻撃力を特大アップさせる。こ\n　のスキルで与えたダメージ量に応じて、攻撃力\n　の上昇量がアップする。\n\n・敵全体に魔法特大ダメージを与える。\n\n・敵全体に魔法大ダメージを与える。\n\n・自身の魔法攻撃力を中アップし、自身のＴＰを\n　中回復する。\n\n・最も近い敵１キャラに魔法大ダメージを与え\n　る。=[Magic] A one-eyed magical creature that awakened from an 800-year seal. It unleashes its sealed magic power and seeks to destroy the accursed academy bearing the name of a dreaded sorcerer.\n\n ►UB: Removes barriers from the nearest enemy character and deals fixed M.DMG. Additionally, greatly increases its own M.ATK power. The increase in attack power depends on the amount of damage dealt with this skill.\n\n ►Deals massive M.DMG to all enemies.\n\n ►Deals large M.DMG to all enemies.\n\n ►Moderately increases its own M.ATK power and moderately recovers its own TP.\n\n ►Deals large M.DMG to the nearest enemy character.
 
