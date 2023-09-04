@@ -18,8 +18,10 @@ function New-ReleaseTag {
 
 $ReleaseTag = New-ReleaseTag
 $ReleaseTitle = "Pricone UI EN DMM v$ReleaseTag"
+$PreviousTag = git describe --tags --abbrev=0
 "RELEASE_TAG=$ReleaseTag" >> $Env:GITHUB_ENV
 "RELEASE_TITLE=$ReleaseTitle" >> $Env:GITHUB_ENV
+"PREVIOUS_TAG=$PreviousTag" >> $Env:GITHUB_ENV
 
 Write-Output @"
 ::group::Logs
