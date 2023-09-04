@@ -1,21 +1,22 @@
 【物理】前衛で、夏の麦しゅわを嗜むビーチの元聖騎士。敵単体にダメージを与えながら、周囲の味方への魔法無効バリア付与と魔防アップで守りを固めて勝利の波に乗る。=[Physical] A former paladin drinking sparkling wheat juice in the summer frontlines. She deals single target damage, and protects nearby allies with an anti-magic barrier and buffing their magic defense. With these skills, she rides the wave of victory!
 
+--UB--
+サント・ミ・チェラーダ=Saint Michelada
 自分の物理攻撃力を大アップし、目の前の敵１キャラに物理特大ダメージを与える。さらに自分のＨＰを中回復し、自分を中心とした範囲内の味方すべてに魔法無効バリアを展開する。=Greatly boosts her own P.ATK and deals massive P.DMG to the enemy character in front. Additionally, moderately recovers her own HP and deploys magic nullification barriers to all allies within her range, centered around herself.
-
-自分を中心とした範囲内の味方すべての魔法防御力を中アップし、自分のＴＰを小回復する。=Moderately boosts the allies' M.DEF within her range, centered around herself, and slightly recovers her own TP.
-
-目の前の敵１キャラに物理大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせる。=Deals large P.DMG to the enemy character in front and greatly boosts the allies' P.ATK within her range, centered around herself.
-
 r:"^自分の物理攻撃力を(\d+)アップ\n敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)回復\n(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts own P.ATK by $1 for 18s.\n►Deals $2 P.DMG to an enemy.\n►Recovers own HP by $3.\n►Deploys Barrier over all allies that negates $4 M.DMG for 18s.
 
-r:"^範囲内の味方の魔法防御力を(\d+)アップ\n自分のＴＰを100回復$"=Cast time: 1.05s.\n►Boosts allies' M.DEF within 350 range by $1 for 12s.\n►Recovers own TP by 100.
-
-r:"^敵単体に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.795s.\n►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK within 350 range by $2 for 12s.
-
-サント・ミ・チェラーダ=Saint Mi Cerada
+--S1--
 サマーディライト=Summer Delight
 サマーディライト+=Summer Delight+
+自分を中心とした範囲内の味方すべての魔法防御力を中アップし、自分のＴＰを小回復する。=Moderately boosts the allies' M.DEF within her range, centered around herself, and slightly recovers her own TP.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ\n自分のＴＰを100回復$"=Cast time: 1.05s.\n►Boosts allies' M.DEF within 350 range by $1 for 12s.\n►Recovers own TP by 100.
+
+--S2--
 シャンディガフ=Shandygaff
+目の前の敵１キャラに物理大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせる。=Deals large P.DMG to the enemy character in front and greatly boosts the allies' P.ATK within her range, centered around herself.
+r:"^敵単体に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.795s.\n►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK within 350 range by $2 for 12s.
+
+--EX--
 サマー・パナシェ=Summer Panache
 サマー・パナシェ+=Summer Panache+
 

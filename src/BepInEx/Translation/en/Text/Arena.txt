@@ -89,7 +89,7 @@ r:"^\[3B3F4D\]ランキングが\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]位�
 ---Reward Info---
 sr:"^(\[[0-9A-F,]{6,13}\])最高ランク：(\d+位)\[-\]$"=$1Best rank: $2[-]
 最高ランク=Best Rank
-毎日15:00のランキングにより獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards based on Your ranking each day at 15:00.\n※Reward will sent to a Present Box.
+毎日19:00のランキングにより獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards based on Your ranking each day at 19:00.\n※Reward will sent to a Present Box.
 デイリー報酬=Daily
 1日5回まで、防衛成功時に獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards for succesful defenses up to 5x/Day.\n※Reward will sent to a Present Box.
 防衛報酬=Defense Reward

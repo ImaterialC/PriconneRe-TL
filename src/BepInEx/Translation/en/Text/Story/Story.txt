@@ -25,7 +25,7 @@ r:"^第?(\d+)部 第(\d+)章 第(\d+)話が\n解放可能になりました。$"
 r:"^第?(\d+)部 第(\d+)章 幕間が\n解放可能になりました。$"=Part $1 Ch $2 Epilogue\nStory been unlock.
 r:"^第(\d+)部 第(\d+)章$"=Part $1 Chapter $2
 r:"^第(\d+)章$"=Chapter $1
-r:"^第(\d+)部 第(\d+)章 第(\d+)話$"=Part $1 Chapter $2 Episode $3
+r:"^第?(\d+)部 第(\d+)章 第(\d+)話$"=Part $1 Chapter $2 Episode $3
 r:"^幕間・(.{1,5})$"=Interlude $1
 
 r:"^サブストーリー(.{1,4})$"=Substory $1

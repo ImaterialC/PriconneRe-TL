@@ -19,6 +19,10 @@ sr:"^(.+)が現れた！$"=$1 appeared!
 繰り返し出発=Repeat depart
 出発する=Depart
 
+以下のクエストが進行中です。\n状態を確認しますか？=The following quests are in progress.\nCheck the status?
+アドベンチャー確認=Adventure confirmed
+アドベンチャー画面に移動します。=Move to Adventure Screen.
+
 時間短縮設定=Time Reduction Settings
 r:"^(\d+)ジュエル1時間短縮$"=$1 Jewels for 1h reduction
 1チケット1時間短縮=1 Tix for 1h reduction

@@ -1,20 +1,25 @@
----Skillsミヤコ（ハロウィン）
 ---UB
 トリックオアプリンなの=Trick or Pudding!
 一番遠くの敵１キャラに物理特大ダメージを与え、さらに呪い状態にする。=Deals large P.DMG to the farthest enemy and inflicts Curse.
 r:"^敵単体に(\d+)の物理ダメージ\n(\d+)ダメージを与える呪い状態にする$"=Deals $1 P.DMG to an enemy.\nInflicts Curse that deals $2 P.DMG/s.
+
 ---S1
-一番遠くの敵１キャラのＴＰを小ダウンさせ、さらにスタンさせる。=Reduces the farthest enemy's TP by a small amount and inflicts Stun.
+おおかみおんななの=A Girly Wolf!
+前方範囲内の一番遠くの敵１キャラ\nのＴＰを小ダウンさせ、さらにスタ\nンさせる。=Reduces the farthest enemy's TP by a small amount and inflicts Stun.
 r:"^敵単体のＴＰを(\d+)失わせる\n敵単体を一定時間行動不能にする$"=Reduces an enemy's TP by $1.\nRenders an enemy immobile for 1.8s.
+
 ---S2
+おばけごーらんどなの=Ghosty-Go-Round
 一番遠くの敵１キャラの物理攻撃力と魔法攻撃力を中ダウンさせる。=Lowers the P.ATK and M.ATK of the farthest enemy by a moderate amount.
 r:"^敵単体の物理攻撃力を(\d+)ダウン\n敵単体の魔法攻撃力を(\d+)ダウン$"=Lowers an enemy's P.ATK by $1.\nLowers an enemy's M.ATK by $2.
+
 ---ex
 がおがお～なの～=Growly-Growl!
+
 ---Skills+
----UB
 ---S1
-一番遠くの敵１キャラのＴＰを小ダウンさせ、さらにスタンさせて恐慌状態にする。=Reduces the farthest enemy's TP by a small amount, inflicts Stun and Fear.
+おおかみおんななの+=A Girly Wolf!+
+前方範囲内の一番遠くの敵１キャラ\nのＴＰを小ダウンさせ、さらにスタ\nンさせて恐慌状態にする。=Reduces the farthest enemy's TP by a small amount, inflicts Stun and Fear.
 r:"^敵単体のＴＰを(\d+)失わせる\n敵単体を一定時間行動不能にする\n敵単体を恐慌状態にする$"=Lost the TP of the enemy alone $1\nRenders an enemy immobile for 1.8s\ninflicts fear to an enemy for 8s.
 ---S2
 ---ex

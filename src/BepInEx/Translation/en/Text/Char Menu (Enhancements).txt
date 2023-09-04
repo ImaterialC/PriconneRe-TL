@@ -1,4 +1,6 @@
 専用装備=Unique
+専用装備２=2nd UE
+専用装備１=1st UE
 才能開花=Ascension
 スキル強化=Skills
 強化スキル1=Enhance Skill 1
@@ -300,8 +302,8 @@ RANKボーナス詳細のステータス=Status Details
 原鉱=Ore
 グロウスフィア=Growsphere
 作成確認=Creation Confirmation
-装備やメモリーピースを消費して、\n専用装備を作成します。=Consume Items and memory shards to create Unique Equipment.
-[FF7C4E,D62146]作成した専用装備を元に戻すことはできません。[-]=[FF7C4E,D62146]You cannot undo the UE once created.[-]
+装備やメモリーピースを消費して、\n専用装備１を作成します。=Consume Items and memory shards to create 1st Unique Equipment.
+[FF7C4E,D62146]作成した専用装備１を元に戻すことはできません。[-]=[FF7C4E,D62146]You cannot undo once crafted.[-]
 キャラ専用装備の所持最大数に達しています。=You already have UE for this characters.
 作成確認=Creation confirmation
 

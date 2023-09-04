@@ -157,3 +157,11 @@ r:"^([0-9/]+) に追加購入可能$"=Available on $1
 
 デイリージュエルパック終了通知=Daily Jewel Package Ending Notice
 デイリージュエルパックの\n期間が終了しました。\n購入ページへ移動しますか?=Daily Jewel Package period has ended. Would you like to go to the purchase page?
+
+スペシャル交換チケット期限通知=Special Exchange Ticket Due Date Notice
+
+r:"^交換期間が(\d+)月(\d+)日 (\d+)時(\d+)分に終了します。\n\(残り(\d+)日と(\d+)時間(\d+)分\)$"=The exchange period will end on $2/$1 at $3:$4.\n($5d $6h$7m remaining)
+r:"^交換期間が(\d+)月(\d+)日 (\d+)時(\d+)分に終了します。\n\(残り(\d+)時間(\d+)分\)$"=The exchange period will end on $2/$1 at $3:$4.\n($5h$6m remaining)
+r:"^交換期間が(\d+)月(\d+)日 (\d+)時(\d+)分に終了します。\n\(残り(\d+)分\)$"=The exchange period will end on $2/$1 at $3:$4.\n($5m remaining)
+
+交換ページへ移動しますか？=Would you like to go to the exchange page?

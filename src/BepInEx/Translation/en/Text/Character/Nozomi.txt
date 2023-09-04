@@ -25,7 +25,13 @@ UB
 【挑発】味方全体の物理攻撃力を小アップさせ、自分の物理防御力と魔法防御力を大アップさせる。さらに敵全体を挑発する。=[Taunt] Taunts all enemies. Moderate boost to own P.DEF and M.DEF. Small boost to allies' P.ATK.
 r:"^味方全体の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n敵全体を挑発する$"=Boosts allies' P.ATK by $1 for 18s.\nBoosts own P.DEF by $2 for 18s.\nBoosts own M.DEF by $3 for 18s.\nProvokes all enemies for 10s.
 S1
+クレールスラッシュ=Claire Slash
+クレールスラッシュ+=Claire Slash+
+前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせて物理攻撃力を小ダウンさせる。=Deals moderate P.DMG to all enemies in range, inflicts Stun, and lowers their P.ATK by a small amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.25s\nDeals $1 P.DMG to enemies in 280 range.\nInflicts Stun to all enemies within 280 range for 2s.\nLowers enemies' P.ATK in 280 range by $2 for 12s.
+
 S2
+アイドルエール=Idol Cheer
 自分の周囲の味方すべてのＨＰを中回復させる。=Recovers HP of all nearby allies by a small amount.
 r:"^範囲内の味方のＨＰを(\d+)回復$"=Recovers allies' HP within range by $1.
 ex
@@ -36,10 +42,6 @@ UB
 【挑発】味方全体の物理攻撃力を大アップさせ、物理/魔法無効バリアを展開し、自分の物理防御力と魔法防御力を特大アップさせる。さらに敵全体を挑発してスタンさせる。=[Taunt] Large boost the allies' P.ATK, deploys a P/M nullification barrier, and Large boost own M/P.DEF. Also provokes and stuns all enemies.
 
 r:"^味方全体の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法無効バリアを展開する\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n敵全体を挑発する\n敵全体を一定時間行動不能にする$"=Boosts allies' P.ATK by $1 for 18s.\nDeploy a barrier that Nullifies P/M. DMG $2 to All Allies for 20s.\nBoosts own P.DEF by $3 for 18s.\nBoosts own M.DEF by $4 for 18s.\nProvokes all enemies for 11s.\nInflicts Stun to all enemies for 1.5s.
-S1
-前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせて物理攻撃力を小ダウンさせる。=Deals moderate P.DMG to all enemies in range, inflicts Stun, and lowers their P.ATK by a small amount.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.25s\nDeals $1 P.DMG to enemies in 280 range.\nInflicts Stun to all enemies within 280 range for 2s.\nLowers enemies' P.ATK in 280 range by $2 for 12s.
-S2
 
 ex
 ルミナススマイル+=Radiant Smile+

@@ -20,6 +20,7 @@ ex
 すけすけおばけなの～=Floaty Wispy Ghosty!
 Skills+
 UB
+ぜ～んぶプリンにしてやるの=Everyone's Pudding Now!
 r:"^敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)回復\n自分の回避を(\d+)アップ$"=►Deals $1 physical damage to a single enemy.\n►Recovers own HP by $2.\n►Boosts own dodge by $3 for 180s.
 目の前の敵１キャラに物理特大ダメージを与え、さらに自分のＨＰを中回復し、回避を中アップさせる。=Deal massive P.DMG to the enemy in front, additionally restore a moderate amount of your own HP, and increase dodge by a moderate amount.
 S1

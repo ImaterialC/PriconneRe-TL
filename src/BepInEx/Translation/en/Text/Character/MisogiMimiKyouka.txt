@@ -1,0 +1,21 @@
+【物理】中衛で敵単体に必殺の一撃を放つ仲良しトリオ。\n３人の力を合わせて放つ攻撃は、相手の弱点に合わせて\n物理から魔法攻撃に変化し、どんな強い敵も退治する！=[Physical] A trio of friends in the middle guard that unleashes a deadly blow on an enemy. With their powers, they can adapt to the enemy's weakness by changing from physical to magical attacks, defeating any strong foes! 
+ヒューマン、獣人族、エルフ=Humanfolk, Beastfolk, Elvenfolk
+みんなで冒険すること=Going on adventures together
+
+--UB--
+リトルリリカルパレード！=Little Lyrical Parade!
+目の前の敵１キャラに物理特大ダ\nメージと、対象の魔法防御力が物理\n防御力より低い場合、魔法ダメージ\n扱いになる物理特大ダメージを与え\nる。=Deals massive P.DMG to an enemy directly in front. If the target's M.DEF is lower than P.DEF, massive M.DMG will be dealt instead. 
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の低い側の防御力で防御する物理ダメージ$"=►Deals $1 P.DMG to a single enemy.\n►Deals P.DMG to a single enemy with the lowest defense to $2.
+
+--S1--
+トライ・アドべンチャー=Tri-Adventures
+目の前の敵１キャラに物理中ダメー\nジと、対象の魔法防御力が物理防御\n力より低い場合、魔法ダメージ扱い\nになる物理小ダメージを与える。=Deals moderate P.DMG and small P.DMG that is treated as M.DMG if the enemy's M.DEF is lower than its P.DEF.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の低い側の防御力で防御する物理ダメージ$"=►Deal $1 P.DMG to a single enemy.\n►Deal P.DMG to a single enemy with the lowest defense to $2
+
+--S2--
+リリカルダンシング=Lyrical Dancing
+自分の物理攻撃力と物理クリティカ\nルを中アップさせ、目の前の敵１\nキャラの物理防御力を小ダウンさせ\nる。さらに自分のＴＰを小回復させ\nる。=Moderately boosts own P.ATK and P.Crit Rate, lowers the P.DEF of an enemy in front of you by a small amount, and recover own TP by a small amount.
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを60アップ\n敵単体の物理防御力を(\d+)ダウン\n自分のＴＰを50回復$"=►Boosts own P.ATK by $1.\n►Increase your P.Crit DMG by 60\n►Lowers a single enemy's P.DEF by $2\n►Recover own TP by 50.
+
+--EX--
+リトルブレイブリー=Little Bravely

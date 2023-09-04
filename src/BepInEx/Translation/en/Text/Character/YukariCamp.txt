@@ -1,11 +1,11 @@
 ユ=Yu
 
-【物理】中衛で最高の一杯を自然と共に愉しむ元聖騎士。【至福のひと時】が増えるほどに、味方の物理攻撃力やクリティカル時のダメージを強力に強化し、勝利を掴む。=[Physical] A former paladin who enjoys the best drink with nature in the MG. The more [Moment of Bliss], the stronger the allies' P.ATK and P.Crit Rate.
+【物理】中衛で最高の一杯を自然と共に愉しむ元聖騎士。【至福のひと時】が増えるほどに、味方の物理攻撃力やクリティカル時のダメージを強力に強化し、勝利を掴む。=[Physical] A former paladin who enjoys the best drink with nature in the MG. The more [Bliss Moment], the stronger the allies' P.ATK and P.Crit Rate.
 
 キャンピングライムライト=Camping Limelight
 
 r:"^敵単体に(\d+)の物理ダメージ\n至福のひと時が３以上の場合、味方全体の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、味方全体の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to nearest enemy target within 500 range.\n►if Self have 3 or more stack, buff all friendly target by $2 P.ATK and $2 P.Crit rate for 18s.
-目の前の敵に物理特大ダメージを与える。このスキルがクリティカルした場合のダメージは２倍ではなく３倍になる。【至福のひと時】が３以上の場合、味方全体の物理攻撃力を小アップし物理クリティカルを大アップする。このスキルのクリティカルした場合のダメージと物理攻撃力と物理クリティカルの上昇量は【至福のひと時】に応じて増加する。=Deals Massive P.DMG to nearest enemy target within 500 range. Deals 3x P.DMG if critical. if Self have 3 or more stack [Moment of Bliss], buff all friendly target P.ATK and P.Crit rate.
+目の前の敵に物理特大ダメージを与える。このスキルがクリティカルした場合のダメージは２倍ではなく３倍になる。【至福のひと時】が３以上の場合、味方全体の物理攻撃力を小アップし物理クリティカルを大アップする。このスキルのクリティカルした場合のダメージと物理攻撃力と物理クリティカルの上昇量は【至福のひと時】に応じて増加する。=Deals Massive P.DMG to nearest enemy target within 500 range. Deals 3x P.DMG if critical. if Self have 3 or more stack [Bliss Moment], buff all friendly target P.ATK and P.Crit rate.
 
 r:"^自分のＴＰを150回復\n対象の味方のＴＰを150回復\n自分の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、対象の味方の物理攻撃力を(\d+)アップ$"=►Recovers own TP by 150.\n►Recovers target ally's TP by 150.\n►Boosts own P.ATK by $1.\n►If Blissful Moment is 3 or more, increases target ally's P.ATK by $2 for 12s.
 
@@ -14,13 +14,13 @@ r:"^自分のＴＰを150回復\n対象の味方のＴＰを150回復\n自分の
 
 r:"^至福のひと時が３以上の場合、敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ$"=►If self have 3 or more stack, deals $1 P.DMG to one of random front enemy within 500 range.\n►If stack less then 3, deals $2 P.DMG to one of random front enemy within 500 range.
 
-前方範囲内のランダムな敵キャラに単体物理小ダメージを与える。【至福のひと時】が３以上の場合、このスキルによるダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になり、【至福のひと時】に応じてクリティカルした場合のダメージが増加する。=If self have 3 or more stack [Moment of Bliss], deals Large P.DMG to one of random front enemy within 500 range.\nDeals 3x P.DMG if critical.\nIf stack less then 3, deals medium P.DMG to one of random front enemy within 500 range. Add 1 stack [Moment of Bliss].
+前方範囲内のランダムな敵キャラに単体物理小ダメージを与える。【至福のひと時】が３以上の場合、このスキルによるダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になり、【至福のひと時】に応じてクリティカルした場合のダメージが増加する。=If self have 3 or more stack [Bliss Moment], deals Large P.DMG to one of random front enemy within 500 range.\nDeals 3x P.DMG if critical.\nIf stack less then 3, deals medium P.DMG to one of random front enemy within 500 range. Add 1 stack [Bliss Moment].
 
 
 キャンピングペアマグ=Camping Pair Mug
 r:"^至福のひと時が３以上の場合、敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n至福のひと時が６以上の場合、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to a single enemy if [Blissful Moment] is 3 or higher.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy if [Blissful Moment] is 6 or higher.
 
-前方範囲内のランダムな敵１キャラに物理中ダメージを与える。【至福のひと時】が３以上の場合、ダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になる。さらに【至福のひと時】に応じてこのスキルがクリティカルした場合のダメージが増加する。【至福のひと時】が６以上の場合、前方範囲内のランダムな敵１キャラにクリティカルした場合のダメージが２倍ではなく４倍になる追加の物理大ダメージを与える。=Front-range random enemy: P. DMG. If [Moment of Bliss] > 2, damage increases and critical hits deal 3x damage instead of 2x. Additionally, this skill's critical hit damage increases based on 【至福のひと時】. If [Moment of Bliss] > 5, extra P. DMG is dealt (4x damage) on critical hits to front-range random enemy.
+前方範囲内のランダムな敵１キャラに物理中ダメージを与える。【至福のひと時】が３以上の場合、ダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になる。さらに【至福のひと時】に応じてこのスキルがクリティカルした場合のダメージが増加する。【至福のひと時】が６以上の場合、前方範囲内のランダムな敵１キャラにクリティカルした場合のダメージが２倍ではなく４倍になる追加の物理大ダメージを与える。=Front-range random enemy: P. DMG. If [Bliss Moment] > 2, damage increases and critical hits deal 3x damage instead of 2x. Additionally, this skill's critical hit damage increases based on [Bliss Moment]. If [Bliss Moment] > 5, extra P. DMG is dealt (4x damage) on critical hits to front-range random enemy.
 
 
 

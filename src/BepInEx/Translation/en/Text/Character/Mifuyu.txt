@@ -10,9 +10,9 @@ ex
 マーセナリープライド=Mercenary's Pride
 Skills+
 UB
-ボルテクスストリーム=Voltex Stream
+ボルテクスストリーム=Vortex Stream
 目の前の敵１キャラに物理特大ダメージを与え、さらにスタンさせる。そのキャラがユニオンバースト発動時既に行動不能状態だった場合、さらに敵全体に物理特大ダメージを与え、スタンさせる。=Deals massive P.DMG to an enemy directly in front and stuns it further. If target is already disabled when UB is activated, it will deal extra P.DMG to all enemies and stun them.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n敵全体に(\d+)の物理ダメージ\n敵全体を一定時間行動不能にする$"=►Deals $1 M.DMG to an enemy.\n►Inflict Stun to an enemy for 4s.\nIf already stunned:\n►Deals $2 M.DMG to all enemies.\n►Inflict Stun to all enemies for 4s.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n敵全体に(\d+)の物理ダメージ\n敵全体を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Inflict Stun to an enemy for 4s.\nIf already stunned:\n►Deals $2 P.DMG to all enemies.\n►Inflict Stun to all enemies for 4s.
 S1
 ファーストエイド=First Aid
 ファーストエイド+=First Aid+

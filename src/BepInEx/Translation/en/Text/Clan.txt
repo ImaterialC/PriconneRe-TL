@@ -51,6 +51,8 @@ r:"^([\-0-9]+)日 ?([\-0-9]+)分$"=$1d $2m
 r:"^終了まで (\d+)時間(\d+)分$"=Ends in $1h$2m
 r:"^終了まで (\d+)分$"=Ends in $1m
 
+r:"^次の装備リクエストは(\d+)時間(\d+)分後に可能です。$"=You can make your next equipment request in $1h$2m.
+r:"^次の装備リクエストは(\d+)分後に可能です。$"=You can make your next equipment request in $1m.
 この装備リクエストは終了しました。=This equipment request has ended.
 この装備リクエストは終了しました=This equipment request has ended.
 ここから未読メッセージ=Unread message from here
@@ -64,6 +66,7 @@ r:"^終了まで (\d+)分$"=Ends in $1m
 寄付完了=Donation completion
 
 8時間経過したため、装備リクエストが終了しました。=You received the following equipment.\n8 hours have passed and the equipment request has ended.
+r:"^以下の装備をx(\d+)獲得しました。\n寄付上限に達したため、装備リクエストが終了しました。$"=Acquired the following equipment x$1.\nYou have reached the donation limit, equipment requests have ended.
 [FF7C4E,D62146]バトルを開始した時点で挑戦回数が消費され、\n編成キャラとそのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]Attempt are consumed when the battle starts,\nusage restrictions apply to characters\nand their EX equipment in the formation.[-]
 
 [FF7C4E,D62146]サポート以外のキャラのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]rent char and their EX equipment will be restricted.[-]
@@ -77,7 +80,7 @@ At the start of the battle, usage restrictions apply to the above characters and
 残り挑戦回数が0回です。=The remaining attempt is 0.
 現在の装備リクエストの状況です。=Status of current equipment request.
 r:"^以下の装備をx(\d+)獲得しました。\n現在の装備リクエストの状況です。$"=You received the following equipment × $1.\nStatus of current equipment request.
-
+難易度変更したバトルでは使用できません。=Cannot be used in battles with changed difficulty.
 所持上限を超えたアイテムはプレゼントに送られました=Items that exceed the possession limit have been sent as gifts
 前回のリクエスト結果=Result of Previous Request
 リクエスト結果=Request result
@@ -305,6 +308,7 @@ r:"^持越し(\d)回目$"=LO Party $1
 持越し時間を使用する=Use left over time
 持越し時間を使用しない=Not use left over time
 持越し時間を使用するとき、\n参加済キャラを編成する。=Use the characters\nfrom left over team
+サポートキャラのEX装備は変更できません。=Support character EX equipment cannot be changed.
 r:"^あと(\d+)回$"=$1 left
 r:"^(\d)戦目\n本戦参加済$"=Used at\nParty $1
 

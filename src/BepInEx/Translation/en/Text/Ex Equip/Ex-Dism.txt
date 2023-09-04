@@ -11,6 +11,7 @@ r:"^(\d+)個のアイテムを選択中$"=$1 item(s) selected
 
 一度に分解出来る最大数に達しています。これ以上は選択出来ません。=Reached the maximum number that can be dismantled at one time.
 まとめて分解するEX装備を選択中です。=Selecting EX equipment to be dismantled all at once
+おまかせ分解するEX装備がありません。=There is no EX equipment available for Auto Dismantle.
 おまかせ分解が設定されていません。\nおまかせ分解設定を行ってください。=No Auto Dismantle is set.\nPlease set the Auto Dismantle.
 分解するEX装備が選択されていません。=The EX equipment to dismantle is not selected.
 

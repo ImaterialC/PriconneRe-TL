@@ -1,0 +1,35 @@
+天使族=Angel
+昼寝、新作スイーツの試食=Nap, tasting of new sweets
+河瀬茉希=Maki Kawase
+優しさと傲慢さを併せ持つプリンセス=A Princess with Both Kindness and Arrogance
+【魔法】後衛で優美にほほ笑むジオ・テオゴニアの姫君。開始時に発動する【界雷】で、敵味方に影響を与えつつ、魔法防御ダウンと強力なダメージスキルで裁きを下す。=[Magic] A graceful princess of Geo Theogonia who smiles elegantly from the rear. With the initial activation of [Thunder Realm], she influences both enemies and allies, rendering judgments with her powerful damage skill and reducing M.DEF.
+
+白雷夜天=White Thunder Night Sky
+霹靂の調べ=Tune of Thunderclap
+霹靂の調べ+=Tune of Thunderclap+
+震霆の聖奏=Thunderous Roar Sanctuary
+震霆の聖奏+=Thunderous Roar Sanctuary+
+傲慢なる雷=Arrogant Thunder
+傲慢なる雷+=Arrogant Thunder+
+界雷=Boundary Thunder
+
+このスキルのスキルレベルは「白雷夜天」と連動しています=The skill level of this skill is linked to "White Thunder Night Sky"
+
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。【界雷】中、このスキルのダメージが増加する。=Deals massive M.DMG to the enemy in front and decreases their M.DEF. During [Thunder Realm], the damage of this skill boosts.
+r:"^敵単体に(\d+)の魔法ダメージ\n界雷中、敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►During Thunder Realm, deals $2 M.DMG to an enemy.\n►Lowers an enemy’s M.DEF by $3 for 18s.
+
+
+
+自分を中心とした範囲内の味方すべての魔法攻撃力を大アップさせる。さらに、目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。【界雷】中、このスキルの魔法攻撃力の上昇量とダメージが増加する。=Greatly boosts the M.ATK of all allies within her range, and additionally deals moderate M.DMG to the enemy in front, reducing their M.DEF. During [Thunder Realm], the boost in M.ATK and the damage of this skill are enhanced.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n界雷中、範囲内の味方の魔法攻撃力を(\d+)アップ\n敵単体に(\d+)の魔法ダメージ\n界雷中、敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン$"=►Boosts all allies' M.ATK within 250 range by $1 for 12s.\n►During Thunder Realm, boosts all allies' M.ATK within 250 range by $2 for 12s.\n►Deals $3 M.DMG to an enemy.\n►During Thunder Realm, deals $4 M.DMG to an enemy.\n►Lowers an enemy’s M.DEF by $5 for 12s.
+
+
+
+自分を中心とした範囲内の味方すべての魔法攻撃力を大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。【界雷】中、このスキルの効果量が上昇する。=Greatly boosts the M.ATK of all allies within her range, and slightly boosts the M.Crit dmg. During [Thunder Realm], the boost in M.Crit dmg and the boost in M.ATK are enhanced.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n界雷中、範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法攻撃クリティカル時のダメージを10％アップ\n界雷中、範囲内の味方の魔法攻撃クリティカル時のダメージを20％アップ$"=►Boosts all allies' M.ATK within 250 range by $1 for 12s.\n►During Realm Lightning, boosts all allies' M.ATK within 250 range by $2 for 12s.\n►Boosts allies' M.crit dmg within 250 range by 10% for 12s.\n►During Thunder Realm, boosts allies' M.crit dmg within 250 range by 20% for 12s.
+
+環境効果【界雷】を発動する。このスキルの効果は敵、味方すべてに適用される。魔法攻撃のダメージが小アップし、物理攻撃を行うキャラが行動する度にそのキャラの最大ＨＰに応じて最大99999の割合ダメージを与える。=Activates the environmental effect [Thunder Realm]. This skill's effect applies to all enemies and allies. Damage from magic attacks is slightly increased, and whenever a character performs a physical attack action, they deal damage equal to a maximum of 99999 based on their maximum HP.
+
+環境を界雷にする敵味方が与える魔法ダメージを10％アップ物理攻撃をする敵味方が行動する度に最大99999の割合ダメージを与える=When the environment is under [Thunder Realm], boosts M.DMG dealt by both allies and enemies by 10%, and every time an enemy or ally takes an action, deals damage equal to a maximum of 99999 based on their current HP.
+
+魔法攻撃のダメージが小アップし、物理攻撃を行うキャラが行動する度にそのキャラの最大ＨＰに応じて最大99999の割合ダメージを与える。=Damage from magic attacks is slightly increased, and whenever a character performing a physical attack takes action, they deal damage equal to a maximum of 99999 based on their maximum HP.

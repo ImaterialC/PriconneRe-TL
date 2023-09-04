@@ -272,3 +272,8 @@ Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParen
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogGoldShop(Clone)/Main/GUIPanel_Dialog_R/PartsScrollObjects/ScrollContent/ScrollView/WrapContent/PartsGoldShopPlate(Clone)/PartsSet/GUIGroup_UseJewel/Label_UseJewelType=ChangeFontSize(16)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonSmall(Clone)/Main/PartsParent/PartsDialogGoldBuyConfirm(Clone)/Main/GUIPanel_Dialog_SS/GUIGroup_DialogContents/GUIGroup_Num_Mana/Label=ChangeFontSize(17)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogGoldShop(Clone)/Main/GUIPanel_Dialog_L/GUIGroup_DialogContents/GUIGroup_CurrencyInfo/GUIGroup_InfoJewel/Label_JewelTitle=ChangeFontSize(17)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewMinigameAsmTop(Clone)/AsmTop(Clone)/GUIGroup_CenterInfo/UIButton_s8/Label=ChangeFontSize(13)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewMinigameAsmTop(Clone)/WidgetOff(Clone)/RightObj/GUIGroup_RightInfo/AnchorRight/UIButton_s6/Label=ChangeFontSize(13)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewMinigameAsmTop(Clone)/WidgetOff(Clone)/LeftObj/GUIGroup_LeftInfo/AnchorLeft/UIButton_s6/Label=ChangeFontSize(13)
