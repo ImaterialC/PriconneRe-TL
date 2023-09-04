@@ -79,7 +79,7 @@ jobs:
       - name: Create compare link
         if: inputs.release_note_compare
         run: |
-          "`r`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/${{ env.PREVIOUS_TAG }}...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
+          "`r`n`r`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/${{ env.PREVIOUS_TAG }}...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
 
       - name: Generating artifact
         run: |
