@@ -59,6 +59,7 @@ r:"^(\d+)ターン以内に到着$"=Arrive in $1 turns
 スタート=Start
 集めたリンゴはマイルと交換させていただきます。\n金リンゴはなんと、赤リンゴ5個分の価値がありますよ♪\nさらに宝箱をキャッチすると、トレジャーがGETできます！=The collected apples will be exchanged for Miles. And guess what, a golden apple is worth five red apples! Furthermore, if you catch a treasure chest, you'll get a Treasure!
 トゲトゲにぶつかると、少しの間動けなくなるので注意してください。\nマグネットをキャッチすると、範囲内のフルーツや宝箱を一定時間\n引き寄せることができますよ♪=Be careful not to collide with thorny obstacles, as it will temporarily immobilize you. If you catch a magnet, it will attract fruits and treasure chests within its range for a certain period of time♪
+トゲトゲにぶつかると、少しの間動けなくなるので注意です！\nマグネットをキャッチすると、範囲内のリンゴや宝箱を一定時間\n引き寄せることができますよ♪=Be careful not to collide with thorny obstacles, as it will temporarily immobilize you. If you catch a magnet, it will attract fruits and treasure chests within its range for a certain period of time♪
 リンゴや宝箱はリザルトでまとめて報酬に交換いたします！\nたくさんキャッチして、マイルやトレジャーをGETしましょう♪=Apples and treasure chests will be converted into rewards in the results! Catch a lot of them and get Miles and Treasures♪
 
 --Gacha machine--
