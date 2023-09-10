@@ -1,4 +1,5 @@
 2部 第8章 第1話=Part 2 Chapter 8 Episode 1
+あ、(.{2,10})……$Oh, $1...
 ネネカとクリスティーナの失踪を知り、衝撃を受ける【美食殿】と【トゥインクルウィッシュ】。一連の出来事は【レイジ・レギオン】の仕業だと推察し、ぺコリーヌは彼らの拠点に乗り込むことを提案する。=When she learned of Neneka and Christina’s disappearance, the shocked [Gourmet] and [Twinkle Wish]. Deciding that the chain of events was the work of the [[Rage Legion]], Pecorine suggested they board their base.
 r:"^その日の朝。\n(.{2,10})は大急ぎで、知り合いの少女を捜していた。$"="That morning, in a great hurry, $1 was searching for a girl he knew."
 あれ？\n騎士クン、おはよう！=Huh? Good morning, Knight!
@@ -353,7 +354,6 @@ r:"^【美食殿】、【トゥインクルウィッシュ】、\nそして(.{2,
 r:"^(.{2,10})くんが言うように、本当に『現実』があるなら。\n覇瞳皇帝に魔力を吸い取られて、目覚めないままの\nわたしの両親も……もしかしたら……？　$"="If there really is a “reality” like $1 said...then my parents, who have had their magical energy sucked out of them by Omniscient Kaiser and still haven't awoken...my parents may also..... be....?　"
 r:"^──午前０時。\n操縦担当：シェフィと(.{2,10})──$"="-Midnight. Pilots: Sheffy and $1 are in charge of steering the ship"
 シェフィちゃん？=Sheffy?
-r:"^あ、(.{2,10})……$"="Oh, $1..."
 そうね、少しだけ……\n夜が明けたら、【レイジ・レギオン】のアジトがある島に着くんだし。\nそうしたら、戦いになってしまうかもだし。=Yeah, just a little... Once dawn breaks, we’ll reach the island where the [Rage Legion]’s hideout is. If we do that, we might have a fight on our hands.
 でも大丈夫よ。\n戦うのは、私もあまり好きじゃないけど……\nそれよりも、あなたやみんなが傷つくほうが怖いから。=But it's okay. I don't really like fighting, but... I'm more afraid of you and everyone else getting hurt.
 シェフィちゃんも、怪我しないでね。=Don't get hurt, Sheffy.
@@ -907,7 +907,7 @@ r:"^……落ち着いて、(.{2,10})。\nもしもあなたが誰かを庇っ�
 ……！\n息が上がってる……！？\nそれに……=...! He's out of breath...?! And...
 い、今……\n回復魔法を……=I-I just... used healing magic...
 動けるのは、私だけ……\nなら、仕掛けるしかない！\nみんなが立ち上がる時間を稼ぐために……！　=The only one who can move is me... then I have to set it up! I have to......buy time for everyone else to get up!　
-r:"^(.{2,10})！\n力を！$"="$1! Power!"
+r:"^(.{2,10}?)！\n力を！$"="$1! Power!"
 絶対零度よ……！\n舞斬・月下氷竜ッ！！=Absolute zero...! Dance Slash: Moonlit Ice Dragon!!
 たあぁっ！=Taaah!
 ぐっ……！？=Guh...!?

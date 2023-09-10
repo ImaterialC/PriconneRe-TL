@@ -47,7 +47,7 @@ r:"^はぁ～、随分遠いとこにあるんだね、その場所ってさ。\
 いいんじゃないかな。まぁこの人はすでにボクの虜なんだけどね？\nいやぁ、申し訳ないよ。\n伝説に泥を塗ることになってしまって。=That's fine with me. It's just that he's already a captive of my beauty, you know? Oh, I'm really sorry, I wouldn't want to paint a bad name on the legend herself.
 
 
-r:"^(.{2,10})！\n(.{2,10})さん！$"=$1!\n$1-san!
+r:"^(.{2,10}?)！\n(.{2,10}?)さん！$"=$1!\n$1-san!
 どっちが美しい！？=Which of us is more beautiful?!
 
 

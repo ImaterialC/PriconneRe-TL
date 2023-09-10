@@ -1,4 +1,5 @@
-2部 第4章 第1話=Part 2 Chapter 4 Episode 1
+r(.{2,10}?)です。$I'm $1.
+
 美食殿の面々は日常を取り戻しつつあった。そんな中、ペコリーヌは公務として、市民との交流をすることになったという。彼女の護衛役として、一同はルーセント学院へと期限付きの転入をすることに。=The members of the Gourmet were returning to their daily lives. As part of their official duties, Pecorine had decided to interact with the citizens. As her bodyguard, everyone decided to transfer to Lucent Academy for a limited period of time.
 カリザ、アゾールドらの襲撃を退けてから、しばらく経ったある日……=One day, a while after Kariza, Azold, and the others had repelled the attack...
 ふぅん……\n今のランドソルの議会制度は、こうなっているのね……=Hmm... So this is what The Landsol's parliamentary system looks like right now...
@@ -127,7 +128,7 @@ r:"^おかえりなさい、(.{2,10})くん。\nまた一緒に、たっくさ�
 シェフィよ。\nいちおう、ペコリーヌさんの護衛ってことになってるけど……\n仕事がないことを祈っているわ。=It's Sheffy. I'm supposed to be Pecorine's bodyguard, but... I hope she doesn't have any work to do.
 ……キャル。\nま、よろしく頼むわ。=...Kyaru. Well, I'm counting on you.
 シェフィさんと、キャルさんですね★\nそれに……=Sheffy and Kyarue, right? ★ And...
-r:"^(.{2,10})です。$"="I'm $1."
+
 r:"^(.{2,10})くんは、プリンセスナイト……\nじゃなくって、えーっと、ナイト！\nそう、わたしと一緒に戦ってくれる、騎士みたいなひとなんです！$"="$1-kun is a Princess Knight... I mean, um, a Knight! Yes, he’s like a knight fighting alongside me!"
 えええーっ！？\nヒデサイ、王女さまとマブダチだったの！？=Whaaat?! Hidesai, you were friends with the princess?!
 うっそマジ！？\nアンタどうして言わないのよそういう大事なことーっ！=No way, seriously?! Why didn't you say something so important?!

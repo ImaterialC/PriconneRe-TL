@@ -1,6 +1,7 @@
 女性=Woman
 アクドーイ=Krook
 猫たち=Cats
+^ねえ(.{2,10})！$"Hey, $1!
 r:"^捕らわれていたタマキを脱出させた([\s\S]{2,10})。実はファントムキャッツが捕らえられた一連の事件は、悪徳商人アクドーイの陰謀だった。タマキたちはアクドーイを倒し、その金を町中にばらまく。$"=$1, who had escaped with Tamaki, who had been captured. In fact, the series of incidents in which the Phantom Cat were captured was a conspiracy of the Krook'd & Co. Tamaki and her friends defeated Krook and scattered his money all over the town.
 r:"^悪党「アクドーイ商会」を倒したタマキに促され、\n泥棒の犯行予告があった家の\n用心棒になった(.{2,10})。$"="$1, who was urged by Tamaki, who had defeated the villain "Krook'd & Co", became a guard at the house where there was a notice of a thief's crime."
 実際に泥棒を捕まえてみたところ、それはタマキだった。\nタマキは何かの間違いだと言うが、美少女義賊・\nファントムキャッツの正体は衆目に晒されてしまう。=When he actually caught the thief, it was Tamaki. Tamaki said it was a mistake, but the identity of the beautiful girl thief Phantom Cat was exposed to everyone.
@@ -62,7 +63,7 @@ r:"^でも、(.{2,10})がそばにいてくれるなら……！\n二人なら�
 大丈夫にゃ！\nよっ、と！=It's okay~nya!\nHere we go!
 にゃ、にゃ、にゃっ！\nこれで……どうにゃ！=Nya~nya~nya! How about this...~nya!
 ぐっ……！？　は、離しなさい！=Guhh...!? L-let go of me!
-r:"^(.{2,10})、今にゃ！$"=$1, now~nya!
+r:"^(.{2,10}?)、今にゃ！$"=$1, now~nya!
 っがはっ……！　こん、な……バカな……=Gahh...! Th-this... can't be...
 r:"^ナイスにゃ、$1。\nアクドーイは気絶したようだにゃ。\nいまのうちにずらかるにゃ！$"=Nice one, $1. Krook seems to have fainted~nya. Let's get out of here while we can~nya!
 r:"^あっ……そうだ、どうせなら……！\nちょっと待っててほしいにゃ、(.{2,10})！$"=Ah... That's right, if you're going to do it...! Please wait a moment, $1, meow!
@@ -78,7 +79,7 @@ r:"^……ありがとにゃ、(.{2,10})。\nそれじゃあ、行くにゃ！$"
 にゃーーー！　街のみんにゃ！\nこれは、ご迷惑かけたファントムキャッツの、お詫びにゃ──！=Nya-nya! Everyone in town! This is an apology from Phantom Cat who caused you trouble-nya-!
 ……これでよし、と。=...That should do it.
 にゃ、にゃ、にゃー！\nこないだ間違えて泥棒に入って、ご迷惑をおかけしたお家にも、\nしっかりばらまいてきたにゃ！=Nya-nya-nya! We also scattered some money to the houses where we broke in by mistake and caused trouble the other day!
-r:"^ねえ(.{2,10})！$"=Hey, $1!
+
 何かと気まぐれで、早とちりで……\n間違いを起こすあたしだけど……=I'm whimsical and hasty and make mistakes sometimes...
 ……これからもよろしく頼むにゃ！=...But please take care of me from now on too!
 

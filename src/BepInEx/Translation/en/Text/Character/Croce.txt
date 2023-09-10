@@ -1,11 +1,11 @@
 ローチェ=Croce
 昼寝、誰かの役に立つこと=Napping, being useful to someone
 未換装時252kg=252kg (Not retrofitted)
-機械人族=Android
-スマイル満タン！　パワフル機械少女=Full of smiles! Powerful Robot Girl
+機械人族=Automaton
+スマイル満タン！　パワフル機械少女=Full of smiles! Powerful Automaton Girl
 
 
-【物理】中衛で着脱可能な鉄腕を放つ機械人族のロボ娘。ＵＢ発動で【フルチャージ】状態になり、【バッテリー】が切れるまで強化スキルを連発し、一帯を超速圧砕する。=[Physical] A robot girl who fires her detachable steel arms at the enemy from the midlines. When she UBs, enters "Full Charge" state and delivers powerful skills continuously until her "batteries" runs out, after which her speed greatly decreases.
+【物理】中衛で着脱可能な鉄腕を放つ機械人族のロボ娘。ＵＢ発動で【フルチャージ】状態になり、【バッテリー】が切れるまで強化スキルを連発し、一帯を超速圧砕する。=[Physical] A automaton girl who fires her detachable steel arms at the enemy from the midlines. When she UBs, enters "Full Charge" state and delivers powerful skills continuously until her "batteries" runs out, after which her speed greatly decreases.
 
 ギガンティックアームパンチ=Gigantic Arm Punch
 前方範囲内の敵すべてに物理大ダメージを与え、【フルチャージ】状態になり【バッテリー】を７つ充填し、１ヒットを必ずクリティカルさせる。【バッテリー】を充填している場合、このスキルがクリティカルした場合ダメージが２倍から３倍に変わる。充填されていない場合、自分の物理攻撃力を特大アップさせ行動速度を特大アップさせる。(この効果は重複する)【バッテリー】は最大７まで充填される。=Deals massive P.DMG to all enemies within range, enters [Full Charge] state, and charge up to 7 [Batteries]. This damage is guaranteed to crit. If [Batteries] are fully charged, the crits for 3x the damage. If not fully charged, instead greatly boosts her own P.ATK and small boost to her action speed. (This effect can stack up to 7)
@@ -40,6 +40,6 @@ r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカル
 フルブースト+=Full Boost+
 
 機械仕掛けの好奇心=Mechanical Curiosity
-機械人族は夢を見るか=Do Androids Dream?
+機械人族は夢を見るか=Do Automaton Dream?
 ドキドキドッキング=Doki Doki Docking
 クローチェinランドソル=Croce in Landosol

@@ -6,8 +6,26 @@
 こちらからアリーナに挑戦することができます。主さまらしい編成でライバルに挑みましょう。=You can challenge the Arena from here. Let's face our rivals with a lineup worthy of Aruji-sama!
 ここからアリーナに挑戦できるわよ！しっかり編成を考えてライバルに挑みなさい！=You can challenge the Arena from here! Make sure to plan your lineup carefully before taking on your rivals!
 
-難易度最高スコア=Highest difficulty score
-未挑戦=Unchallenged
+難易度最高スコア=Hi-Score
+未挑戦=N/A
 次の報酬まで=Until the next reward
 総合スコア=General score
 バトルスタジアムでは、難易度ごとにそれぞれ３つの編成が登場します。\nバトルには何度も挑戦可能ですので、編成を工夫して挑みましょう。=In the Battle Stadium, three teams will appear for each difficulty level. Battles can be challenged over and over again, so let's try to organize them.
+編成選択=Select Formation
+編成最高スコア=Pt Hi-Score
+
+勝敗=Win
+最高スコア=Highest
+挑戦履歴=Challenge History
+パーティ残りHP=Party HP
+合計=Total
+残り時間ボーナス=Time Left Bonus
+編成詳細=Party
+敵減少HP=Damage
+
+挑戦履歴はありません。=There is no challenge history.
+---Mission---
+バトルスタジアムミッション=Battle Stadium Mission
+r:"^(\[.+\])?全難易度合計で(\d+)pt獲得しよう(?:\[-\])?$"=$1Get $2pt in total on all difficulties[-]
+r:"^(\[.+\])?難易度(.+)で1回戦おう(?:\[-\])?$"=$1 Fight once on $2 difficulty[-]
+r:"^(\[.+\])?難易度(.+)で(\d+)pt獲得しよう(?:\[-\])?$"=$1 Get $3pt on $2 difficulty[-]

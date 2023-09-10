@@ -91,7 +91,7 @@ r:"^こうしてモニカと(.{2,10})は、\n数日間に渡って、『背が�
 なにっ！？=What?!
 どれぐらい伸びている！？\n……139cmだと！？　1cmも伸びたのは初めてだ……！！=How much I grew?!...\nIt's 139cm you say!? It's the first time I've grown 1cm...!!
 つまり私は……まだ成長できるということか！？=So, that means... I can still grow?!
-r:"^(.{2,10})……っ！！$"=$1...!!
+r:"^(.{2,10}?)……っ！！$"=$1...!!
 ……お、おいっ！　人の頭をぐりぐりするのはよせっ！\n小さな子供ではないのだぞ！　縮んだらどうしてくれるのだ！=H-Hey! Stop poking people's heads! I'm not a little child! What will you do if I shrink!
 ははっ！　こんなにうれしいのは、軍に入隊して以来だなっ！\n貴公には、なんと感謝すればいいのか……=Haha! This is the happiest I've been since joining the army! How can I thank you enough... Comrade.
 いや、喜ぶのは早いな。私はまだ、出場の条件を満たしていない。\n私は引き続き、背を伸ばす努力をしていくぞ。\nそして……=Well, it's too early to celebrate. I still haven't met the requirements for participation. I will continue my efforts to increase my height. And...

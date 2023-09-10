@@ -49,7 +49,7 @@ sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan
 スタミナ\n受取対象外=Exclude\nStamina
 期限を過ぎていたため、一部のプレゼントは受け取れませんでした。=Some gifts were not received because the deadline had passed.
 所持上限を超えて獲得したスタミナです。=It is a stamina acquired beyond the upper limit.
-スタミナ受取対象外にチェックしているため受け取れません。=You cannot receive it, you exclude it. check your check Box.
+スタミナ受取対象外にチェックしているため受け取れません。=Stamina is currently excluded. Please uncheck "Exclude Stamina" to claim.
 ---Login Bonus---
 
 クリスマス=Christmas
