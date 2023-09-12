@@ -521,7 +521,7 @@ r:"^やぁ、(.{2,10})さん！\n散歩の途中かい？\nボクは……$"="He
 r:"^ふふっ……♪　当然さ、ボクだからね！\n美しいボクに出会えて幸運だね、\n(.{2,10})さん……♪$"="Hehe...♪ Of course, it's me! You're lucky to have met such a beautiful me, $1...♪"
 この声は……！=This voice...!
 おーいユキー！\nアユミー！\nいったいどこに行ったのだー！？=Hey, Yuki! Ayumi! Where the hell did you go?!
-ああ、我らが【ヴァイスフリューゲル　ランドソル支部】の\nギルドマスターだね。\nそういえば買い出しの途中だったんだっけ。=Oh, you're the guild master of the [Weissflugel Landsol branch]. Come to think of it, you were in the middle of shopping, weren't you?
+ああ、我らが【ヴァイスフリューゲル　ランドソル支部】の\nギルドマスターだね。\nそういえば買い出しの途中だったんだっけ。=Oh, you're the guild master of the [Weissflügel Landsol branch]. Come to think of it, you were in the middle of shopping, weren't you?
 おお、ユキ！　見つけたぞ！\nまったく……窓や水たまりに映り込む己の姿に引き寄せられて\nフラフラと歩くんじゃないと、いつもいつも……=Oh, Yuki! I found you! Honestly... If you don't get drawn in by the reflection of yourself in the windows and puddles, you'll always, always...
 むっ！？　貴公！\nひさしぶりではないか！=Mm?! Noble! Long time no see!
 ……待てよ？\n貴公がいるということは……=...Wait. If you're here, then...
@@ -602,7 +602,7 @@ r:"^ですが、私と(.{2,10})さんだけでは\n追い詰めるのが難し�
 ……頼むから、ボクの美しい顔は\nこんな気持ち悪いモノに映さないでほしいな……=...Please, don't let my beautiful face be reflected in something so disgusting...
 よし、把握したぞ。\nこの少女がミソラとやらだな。\nでは──=Alright, I've got it. This girl is Misora. Well then...
 街の皆！\n急にすまないが、力を貸してもらえないだろうか！=Everyone in the city! I'm sorry to spring this on you, but could you lend me your strength?
-──んっ？\nありゃ、【ヴァイスフリューゲル　ランドソル支部】の\nマスターのお嬢ちゃんじゃねーか。=Hmm? Oh, if it isn't the young lady from the Weissflugel Landsol branch.
+──んっ？\nありゃ、【ヴァイスフリューゲル　ランドソル支部】の\nマスターのお嬢ちゃんじゃねーか。=Hmm? Oh, if it isn't the young lady from the Weissflügel Landsol branch.
 治安維持のため、\nこの少女を確保しなくてはならないのだ！\n我々だけでは手が足りぬゆえ、諸君らも一緒に捜してもらいたい！=In order to maintain public order, we need to secure this girl! We can't handle this on our own, so I'd like you all to search with us!
 よくわかんないけど……ええ、いいわよ！\nあなたの率いるギルドには、いつも助けられてるしね！=I don't really get it, but... Yes, it's fine! Your guild is always helping us out!
 ああ、そうだな！\nオレたちに任せとけ！=Yeah, that's right! Leave it to us!
@@ -1288,7 +1288,7 @@ r:"^ミソラとの激闘を終えた(.{2,10})たち。\n彼らに対し、ラ�
 ……貴公。\n我々は途中から巻き込まれたかたちで、\n全容を把握しているとはとても言えないが……=...You guys.... We were caught up in the middle of it, so we can't say we have a full grasp of the situation...
 気絶しちゃってるユイちゃんは、あたしがおんぶしていくね！\n騎士くんと交代で！=I'll carry Yui-chan while she's unconscious! Lets take turns Kish-kun!
 貴公らは、何かとんでもない事態の渦中にあるのだな？\nあの覇瞳皇帝と戦ったときと同じか、それ以上の。=You're all in the middle of something terrible, aren't you? The same as when you fought Omniscient Kaiser, or even worse.
-……そうか。\nぜひとも力になってやりたいが……そのためにはまず、\n【ヴァイスフリューゲル　ランドソル支部】の総力を結集せねばならん。=...I see. I'd love to help, but... To do that, we need to gather the full strength of the Weissflugel Landsol branch.
+……そうか。\nぜひとも力になってやりたいが……そのためにはまず、\n【ヴァイスフリューゲル　ランドソル支部】の総力を結集せねばならん。=...I see. I'd love to help, but... To do that, we need to gather the full strength of the Weissflügel Landsol branch.
 クウカさんやニノンさん……どこ行っちゃったんでしょうね……=I wonder where Kuuka and Ninon went...
 この前、オーエドで会ったよ。=We met in Oedo the other day.
 えええっ？\nほ、本当ですか先輩……！=Whaaat? R-Really, Senpai...?!

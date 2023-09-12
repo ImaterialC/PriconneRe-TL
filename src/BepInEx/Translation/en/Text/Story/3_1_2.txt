@@ -1,4 +1,4 @@
-クリア・リリ=Clear & Lili
+クリア・リリ=Clear & Lily
 ンドソル～食料品店～=ndosol - Grocery
 ンドソル～魔法薬の店～=ndosol ~Magic Potion Shop~
 r:"^(.{2,10})はリリたちと旅立ち前の買い出しをしながら交流を深める。その折、クレジッタの説得に失敗し追われるペコリーヌたちが合流する。そうして一同は、慌ただしく新たな冒険へと出発した。$"="$1 and Lily deepen their bonds while doing some shopping before embarking on their journey. At that moment, Pecorine and the others, who failed to persuade Creditta and are being chased, join them. In this way, the group sets off on a new adventure in a bustling manner."
@@ -110,7 +110,7 @@ r:"^(.{2,10})と【アルターメイデン】の３人は、\nその後も雑�
 遠くからの声=Distant Voice
 そいつから逃げてるの！\nいいから走りなさいあんたたちっ！=Run from that person!\nJust run already!
 りょ。=Rog--
-もしや、ペコリーヌ様の\nご政務の都合がつかなかったのでしょうか……！？=Could it be that Pecholine-sama’s political affairs weren’t convenient for her?!
+もしや、ペコリーヌ様の\nご政務の都合がつかなかったのでしょうか……！？=Could it be that Pecorine-sama’s political affairs weren’t convenient for her?!
 いえ、それは全然大丈夫だったんですけど！\nしばらく街を離れるって言ったら、\n行政長官さんが付いてくるって聞かなくって！=No, that was perfectly fine! But when I said I'd leave the city for a while, I didn't expect the Chief Administrator to say she'd come along!
 えっ……！？=Ee...!?
 あいつバカだけど行動力あるから厄介なのよね……！\nしょうがない、コロ助拾って出発するわよあんたたちっ！=She might be an idiot, but she's got a lot of initiative...!\nOh well, we'll just pick up Koro-suke and leave, you guys!

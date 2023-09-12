@@ -10,7 +10,7 @@
 r:"^ああもうっ、うっさいわね！\n(.{2,10})、派手に行くから力を寄越しなさい！$"="Ugh, it's so noisy! $1, lend us your strength for a flashy move!"
 落盤に気をつけて！=Watch out for falling rocks!
 よーっし、グリムバーストッ！=Alright, Grim Burst!
-ンドソル～テミス銀嶺～=Landosol -Themis Snowpeaks-
+ンドソル～テミス銀嶺～=ndosol -Themis Snowpeaks-
 わかってるわよ！\nグリムバーストッ！=I know,\nGrim Burst!
 グリムバーストッ！\nグリムバーストォッ！！\nグリムバーストォォッ！！！=Grim Burst!\nGrim Burst!\nGrim Burst!
 ──ギャオオオオオッ！\n──ギャオオオオオッ！\n──ギャオオオオオッ！=──Roooooooooooar!\n──Roooooooooooar!\n──Roooooooooooar!
