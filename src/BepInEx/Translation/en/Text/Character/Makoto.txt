@@ -2,6 +2,7 @@
 お菓子作り=Making sweets
 男勝りで情に厚いワイルド娘=A wild girl who's strong-minded\nand compassionate
 
+【物理】前衛で、敵の防御力を削り取る、正義の獣人。敵の盾役の防御力を下げ、着実にダメージを与えることで早期に敵の守りを突破する。=[Physical] A beastgirl of justice that tears down enemy defenses from the vanguard. Lowers enemy tank defenses to deal solid damage, quickly destroying their protective measures.
 ---Skills---
 ---S1---
 ハードスラッシュ=Hard Slash
@@ -24,3 +25,7 @@ r:"^敵単体の物理防御力を(\d+)ダウン$"=►Lowers an enemy's P.DEF by
 
 ---UE---
 ウルフェンブレード=Wolfen Blade
+
+ウルフェンランページ=Wolfen Rampage
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を特大ダウンさせる。さらに自分に【狼牙の咆哮】を付与する。【狼牙の咆哮】が付与されている間、すべてのスキルの効果値が増加する。=Deals massive P.DMG to the enemy character in front and greatly reduces their P.DEF. Additionally, grants self "Wolf's Howl." While "Wolf's Howl" is active, the effectiveness of all skills is increased.
+r:"^自分に狼牙の咆哮を付与する\n敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン$"=►Grants self Wolf's Howl.\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.
