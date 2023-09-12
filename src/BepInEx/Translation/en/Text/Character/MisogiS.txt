@@ -9,8 +9,9 @@
 前方範囲内の敵すべてに物理中ダメージを与え、ＴＰを中ダウンさせる。=Inflicts moderate P.DMG to all enemies within range and moderately decreases TP.
 
 前方範囲内の敵すべてに物理中ダメージを与え、ＴＰを中ダウンさせ、行動速度を小ダウンさせる。=Deals medium P.DMG to all enemies in the frontal area, inflicts a moderate TP reduction, and slightly decreases their action speed.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d+)失わせる\n範囲内の敵の行動速度を一定時間低下させる$"=Cast time: 0.795s\n►Deals $1 P.DMG to enemies within 300 range.\n►Reduces enemies' TP within 300 range by $2.\n►Lowers enemies' action speed within 300 range into 95% for 12s.
 
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d+)失わせる\n範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to enemies within range.\n►Reduces enemies' TP within range by $2.\n►Lowers enemies' action speed within range for 12s.
+(shared with nea)
 
 トロピカルサンシャイン=Tropical Sunshine
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.45s\n►Deals $1 P.DMG to an enemy\n►Inflict Stun to the target for 1.5s.\n►Lowers an enemy's P.DEF by $2. for 12s.

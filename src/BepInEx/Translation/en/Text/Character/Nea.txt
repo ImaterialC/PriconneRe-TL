@@ -1,4 +1,4 @@
-【物理】中衛で粘液を振りまくキイロいスライムギャル。スキルで敵全体の物理攻撃能力やＴＰ上昇を低下させ、ＵＢでスライム化し全敵を攻撃しつつ無敵ボディを得る。=[Physical]Yellow Slime gal who spreads mucus in the MG. Use skills to reduce the P.ATK and TP boost of all enemies, Get an invincible body, Taunt all enemies and attacking all enemies with her UB.
+【物理】中衛で粘液を振りまくキイロいスライムギャル。スキルで敵全体の物理攻撃能力やＴＰ上昇を低下させ、ＵＢでスライム化し全敵を攻撃しつつ無敵ボディを得る。=[Physical]Yellow Slime (ko)gal who spreads mucus in the MG. Use skills to reduce the P.ATK and TP boost of all enemies, Get an invincible body, Taunt all enemies and attacking all enemies with her UB.
 
 可愛いショタと遊ぶ、買い物=Play with cute shota, shopping
 魔族？=Demon tribe?
@@ -11,13 +11,20 @@
 スライミィストリーム=Slimey Stream
 イエロージェル=Yellow Gel
 イエロージェル+=Yellow Gel+
+ジャムジャムスライム=Jam-Jam Slime
+ジャムジャムスライム+=Jam-Jam Slime+
+カムカムスライム=Camu-Camu Slime
+カムカムスライム+=Camu-Camu Slime+
 
-r:"^敵全体に(\d+)の物理ダメージ\n一定時間無敵状態になる\n敵全体を挑発する$"=Deals $1 P.DMG to all enemies\nInvulnerability to self for 3s.
+r:"^敵全体に(\d+)の物理ダメージ\n一定時間無敵状態になる\n敵全体を挑発する$"=►Deals $1 P.DMG to all enemies\n►Invulnerability to self for 3s.
 \nTaunt to all enemies for 3s.
 敵全体に物理大ダメージを与え、短時間無敵状態になり敵全体を挑発する。=Inflicts heavy P.DMG to all enemies, becomes invincible for a short time, and provokes all enemies.
 
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体のＴＰを(\d+)失わせる$"=Cast Time:0.59s\nDeals $1 P.DMG to the highest TP enemy target.\nReduce an enemy's TP by $2.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体のＴＰを(\d+)失わせる$"=Cast Time:0.59s\n►Deals $1 P.DMG to the highest TP enemy target.\n►Reduce an enemy's TP by $2.
 最もＴＰが多い敵１キャラに物理中ダメージを与え、ＴＰを中ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Inflicts moderate P.DMG to the character with the most TP and moderately lowers TP. Excludes characters whose TP has reached the maximum value.
 
-r:"^敵全体の物理攻撃力を(\d+)ダウン\n敵全体の物理クリティカルを(\d+)ダウン\n敵全体のＴＰ上昇を(\d+)ダウン$"=Cast Time:0.59s\nLowers all enemies’ P.ATK by $1 for 12s\nLowers all enemies’ P.Crit rate by $2 for 12s\nLowers all enemies’ TP boost by $3 for 12s
+r:"^敵全体の物理攻撃力を(\d+)ダウン\n敵全体の物理クリティカルを(\d+)ダウン\n敵全体のＴＰ上昇を(\d+)ダウン$"=Cast Time:0.59s\n►Lowers all enemies’ P.ATK by $1 for 12s\n►Lowers all enemies’ P.Crit rate by $2 for 12s\n►Lowers all enemies’ TP boost by $3 for 12s
 敵全体の物理攻撃力を大ダウンさせ、物理クリティカルとＴＰ上昇を中ダウンさせる。=Large decreases the P.ATK of all enemies, and moderately decreases P.Crit rate and TP Boost.
+
+ＴＰが最大値に達しているキャラを除く最もＴＰが多い敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、ＴＰを中ダウンさせ、行動速度を大ダウンさせる。このスキルによるダメージでは敵のＴＰは回復しない。=Deals massive P.DMG to all enemies within the area centered around the enemy with the highest TP, excluding characters whose TP is at its maximum, and inflicts a moderate TP reduction and a large speed reduction. This skill's damage does not restore the enemy's TP.
+スライミィフェザーローブ=Slimy Feather Robe
