@@ -5,11 +5,11 @@
 r:"^対象の味方の物理攻撃力を(\d+)アップ$"=►Boosts P-type allies' P.ATK by $1(+14%×HP) for 18s.
 
 
-タイニーエール=Tiny Ale
+タイニーエール=Tiny Yell
 自分のＴＰを小回復させ、物理攻撃を行うすべての味方キャラに継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。=Restore a small amount of your own TP and grant all ally characters who perform a physical attack with continuous HP and TP recovery status.
 r:"^自分のＴＰを(\d+)回復\n毎秒ＨＰを(\d+)回復する\n毎秒ＴＰを10回復する$"=Cast time: 1.27s\n►Recovers own TP by $1.\n►Recovers HP of P-type allies by $2/s for 10.5s.\n►Recovers TP of P-type allies by 10/s for 10.5s.
 
-タイニーエール+=Tiny Ale+
+タイニーエール+=Tiny Yell+
 物理攻撃を行うすべての味方キャラの物理クリティカルを中アップさせ、継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。自分の残りＨＰが多いほど、継続ＨＰ回復量がアップし、継続ＴＰ回復量が最大1.4倍までアップする。さらに、自分のＴＰを中回復する。=Boosts P.crit rate for all physical allies and grants HP and TP regen. The effectiveness of the HP and TP regen is increased based on the user's remaining HP, with the TP regen capped at 1.4x. Additionally, the user recovers a moderate amount of TP
 r:"^自分のＴＰを200回復\n毎秒ＨＰを(\d+)回復する\n毎秒ＴＰを10回復する\n対象の味方の物理クリティカルを50アップ$"=Cast time: 1.27s\n►Recovers own TP by 200.\n►Recovers HP of P-type allies by $1(+0.5%×HP)/s for 10.5s.\n►Recovers TP of P-type allies by 10(+0.06%×HP)/s for 10.5s.\nBoosts P-type allies' P.crit rate by 50 for 12s.
 

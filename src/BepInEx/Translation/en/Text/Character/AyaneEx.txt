@@ -2,15 +2,19 @@
 
 ぷうきちアドベンチャー=Pukichi Adventure
 前方範囲内の敵すべてに物理特大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップする。=Deals massive P.DMG to all enemies within range, and Large boost the allies' P.ATK within range centering on you.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ$"=Deals $1 P.DMG to enemies within 700 range.\nBoosts allies' P.ATK within 700 range by $2 for 18s.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within 700 range.\n►Boosts allies' P.ATK within 700 range by $2 for 18s.
 
 
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを80アップ$"=Cast Time:0.59s\nBoosts allies' P.ATK within 150 range by $1 for 180s.\nBoosts allies' P.Crit Rate within 150 range by 80 for 180s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを80アップ$"=Cast Time:0.59s\n►Boosts allies' P.ATK within 150 range by $1 for 180s.\n►Boosts allies' P.Crit Rate within 150 range by 80 for 180s.
 
 自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを大アップする。=Large boost the P.ATK and allies' P.Crit Rate within range around you.
 ブレイブフルジャーニー=Brave Full Journey
 ブレイブフルジャーニー+=Brave Full Journey+
 
 ぷうきちチョッピング=Pukichi Chopping
-ぷうきちチョッピング+=Pukichi Chopping
+ぷうきちチョッピング+=Pukichi Chopping+
 ぷうきちエンブレイス=Pukichi Embrace
+クマクマサファリドレス=Kuma-kuma Safari Dress
+
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを120アップ$"=►Deals $1 P.DMG to enemies within 700 range.\n►Boosts allies' P.ATK by $2 for 12s.\n►Boosts allies' P.Crit rate by 120 for 12s.
+前方範囲内の敵すべてに物理大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、物理クリティカルを大アップさせる。=Deals massive P.DMG to all enemies within the front area, greatly boosts the P.ATK of all allies within the area centered around herself, and large boost P.crit rate.

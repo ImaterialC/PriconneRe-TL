@@ -1,6 +1,6 @@
 『ジオ・テオゴニア』へ魔物討伐にきた【トワイライトキャラバン】。案内役のリンドは、呑気な一行を不審な目で見る。だが魔物が出てくるや否や、一行は過剰な暴力を行使しリンドをドン引きさせるのだった。=The Twilight Caravan arrived to exterminate monsters in "Geo Teogonia." Their guide, Lind, observed the carefree group suspiciously. However, when monsters appeared, the group used excessive violence, leaving Lind utterly bewildered.
 アストライア大陸と繋がったことにより、\n魔物が大量に流入してしまった『ジオ・テオゴニア』。=Due to the connection between the Astraea continent and Geo Teogonia, monsters had flooded into the latter.
-より多くの魔物を退治するために、\nCorneliaは仲間のギルドに救援を要請する。\nそして最初にやってきたのは──=To eliminate more monsters, Cornelia requested assistance from her guildmates. The first to arrive were...
+r:"^より多くの魔物を退治するために、\n(.{2,10})は仲間のギルドに救援を要請する。\nそして最初にやってきたのは──$"="To eliminate more monsters, $1 requested assistance from her guildmates. The first to arrive were..."
 ──そう、我ら【トワイライトキャラバン】！\n迷惑な魔物を討伐するため、我々は幻の秘境へと飛んだっ……！=...none other than the Twilight Caravan! In our quest to vanquish troublesome monsters, we ventured into this mystical realm!
 ここが異世界『ジオ・テオゴニア』、か……\nふふふっ……異世界！　いい響きだ！\nこの疾風の冥姫を歓迎するように心地よい風も吹いて……む？=So, this is the isekai (Another world), Geo Teogonia, huh...\nHaha... Isekai! That sounds great!\nA pleasant breeze even welcomes the Gale Princess!
 この香りは、キャンディにクッキー……？\nう～ん、おいしそ～う……\nって！！　待て待て！　おかしいぞ。一体どこからこんな香りが！？=This scent, is it candy or cookies...?\nMmm, it looks delicious... Wait, wait! Something's off.\nWhere is this scent even coming from?

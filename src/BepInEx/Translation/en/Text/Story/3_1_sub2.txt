@@ -1,7 +1,7 @@
 鍛えろ！アルターメイデン=Train! Alter Maiden!
 モニカ、マツリ、マコトが【アルターメイデン】に戦闘訓練をつける。しかしモニカとマツリはお子様のように張り合ってばかり。それを止めるため、クリアとマコトはとある作戦を実行する。=Monika, Matsuri, and Makoto are giving combat training to the Alter Maidens. However, Monika and Matsuri are constantly competing like children. To stop this, Clear and Makoto execute a certain strategy.
-新米冒険者ギルド【アルターメイデン】。\nまだまだ未熟な彼女たちは早く強くなって\nCorneliaたちの魔物討伐を手伝いたいと考えていた。=The novice adventurer guild, Alter Maidens, was eager to become stronger quickly to assist Cornelia and her team in monster hunting.
-それを聞いたCorneliaは、\n仲間のギルドのいくつかに彼女たちの訓練を頼んだ。\nそして……=Upon hearing this, Cornelia asked some of her guild companions to train them. And...
+r:"^新米冒険者ギルド【アルターメイデン】。\nまだまだ未熟な彼女たちは早く強くなって\n(.{2,10})たちの魔物討伐を手伝いたいと考えていた。$"="The novice adventurer guild, Alter Maidens, was eager to become stronger quickly to assist $1 and her team in monster hunting."
+r:"^それを聞いた(.{2,10})は、\n仲間のギルドのいくつかに彼女たちの訓練を頼んだ。\nそして……$"="Upon hearing this, $1 asked some of her guild companions to train them. And..."
 【ヴァイスフリューゲル　ランドソル支部】の\nギルドマスター、モニカだ。\n其方らを立派な戦士に鍛え上げてやろう！=The guildmaster of the Weissflügel Land Sol branch, Monika. Let's train these folks into splendid warriors!
 【王宮騎士団（NIGHTMARE）】のマツリッス！\n新米騎士ッスけど、そのぶん基礎訓練には詳しいッスよ！=Matsuri of the Nightmare!\nI might be new knights, but I am experts in basic training!
 【自警団（カォン）】のマコトだ。\nあんまり人に教えるのは得意じゃねえけど……ま、よろしくな。=I'm Makoto from the Caon.\nI'm not really good at teaching, but... well, let's get to it.

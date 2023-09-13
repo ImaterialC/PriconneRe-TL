@@ -1,6 +1,6 @@
 フェイスレス=Faceless
 八斗神局長=Director Yatogami
-Corneliaの家に訪れたペコリーヌは自身の母国で起きたことを話す。そして二人はひとまずキャルたちを捜しに行くことに。一方その頃、ウィズダムの後を継いだ国際警察組織が暗躍を開始する……=Cornelia's house, Pecorine, who had come to visit, talked about what had happened in her own country. And the two of them decided to go look for Carol and the others for now. Meanwhile, the international police organization that had succeeded Wisdom began to act in secret...
+r:"^(.{2,10})の家に訪れたペコリーヌは自身の母国で起きたことを話す。そして二人はひとまずキャルたちを捜しに行くことに。一方その頃、ウィズダムの後を継いだ国際警察組織が暗躍を開始する……$"="$1's house, Pecorine, who had come to visit, talked about what had happened in her own country. And the two of them decided to go look for Kyaru and the others for now. Meanwhile, the international police organization that had succeeded Wisdom began to act in secret..."
 ──はい、お疲れさま。=──OK, thank you for your hard work.
 ……君は……=...You are...
 もー\nなに？\nそのガッカリしたカオ……んー=What's wrong?\nThat disappointed expression... Hmm.

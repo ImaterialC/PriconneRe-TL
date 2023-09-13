@@ -2,7 +2,7 @@
 スズナ＆ミサキ=Suzuna & Misaki
 案内役=Guide
 社会科見学のために『ジオ・テオゴニア』の街を散策中の【ルーセント学院】は、見たことのない種族の住民たちと交流。「レディだから大丈夫」と見栄をはるミサキだが、その足はぷるぷる震えているのだった。=The Lucent Academy, exploring the city of Geo Teogonia for their social science field trip, interacted with residents of an unfamiliar species. Misaki, attempting to act brave by saying, I'm a lady, so it's okay, had trembling legs.
-アストルムから魔物が侵入し、混乱している『ジオ・テオゴニア』。\nCorneliaから頼まれた【ルーセント学院】は、\n社会科見学を兼ねて、侵入した魔物の調査に訪れた。=From Astrum, where monsters invaded, they visited the chaotic Geo Teogonia to investigate the invading creatures, as requested by Cornelia.
+r:"^アストルムから魔物が侵入し、混乱している『ジオ・テオゴニア』。\n(.{2,10})から頼まれた【ルーセント学院】は、\n社会科見学を兼ねて、侵入した魔物の調査に訪れた。$"="From Astrum, where monsters invaded, they visited the chaotic Geo Teogonia to investigate the invading creatures, as requested by $1."
 はい、みなさん着きましたよ～\nここが『ジオ・テオゴニア』の王城、『キャッスル・オブ・パルフェ』の\n城下町だそうです。=Yes, everyone, we've arrived!\nThis is the town below 'Castle of Parfait,' the royal castle of Geo Teogonia.
 うっわ～！　ヒデサイから聞いた通りじゃん！\nマジでおうちとかがお菓子でできてる～！　もにカワ～♪=Wow! It's just like what we heard from Hidesai!\nHouses and everything are made of sweets! So cute!
 スズナ、そんなにはしゃいだらおのぼりさん丸出しよ？\nも～……\n……これってほんとに食べれるのかしら？=Suzuna, you're getting way too excited,\nand it's pretty obvious you're not from here.\nI wonder if you can really eat those.
