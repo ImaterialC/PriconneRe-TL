@@ -23,5 +23,4 @@ r:"^ダメージを受けた時、ＴＰを100回復して消失する【ふわ�
 
 味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。さらに、前方範囲内の敵すべてに魔法大ダメージを与える。=Massive boost to all allies' M.ATK, large boost to M.Crit, and slight boost to M.Crit damage. Additionally, deals massive M.DMG to all enemies within the front area.
 
-範囲内の敵に96150の魔法ダメージ\n味方全体の魔法攻撃力を6456アップ\n味方全体の魔法クリティカルを120アップ\n味方全体の魔法攻撃クリティカル時のダメージを5％アップ=96150 magic damage to opponents in an AoE boosts the magic attack power of all allies by 6456 boosts all allies' magic critical 120, boosts all allies’ magic attack critical DMG by 5%
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを120アップ\n味方全体の魔法攻撃クリティカル時のダメージを5％アップ$"=►Deals $1 M.DMG to enemies within 1000 range.\n►Boosts allies' M.ATK by $2 for 12s.\n►Boosts allies' M.Crit rate by 120 for 12s.\n►Boosts allies' M.Crit dmg by 5% for 12s.
