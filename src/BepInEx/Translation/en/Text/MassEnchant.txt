@@ -1,9 +1,10 @@
 
 まとめて\nおまかせ強化=Auto\nEnhance
+まとめて強化=Auto\nEnhance
 
 おまかせ選択=Auto Select
 
-選択したキャラをまとめておまかせ強化します。=The selected character will be strengthened at once.
+選択したキャラをまとめておまかせ強化します。=The selected character will be enhances at once.
 選択キャラ=Selected
 
 おまかせ強化条件=Auto Enhancement Conditions
@@ -14,7 +15,7 @@
 
 上限消費500,000,000まで=Max up to 500,000,000.
 
-まとめておまかせ強化で一度に強化できるキャラ上限に達しました。=Reached the max of chara that can be strengthened at once with Auto Enchantment.
+まとめておまかせ強化で一度に強化できるキャラ上限に達しました。=Reached the max of chara that can be enhances at once with Auto Enchantment.
 おまかせ強化対象キャラ=Character to be enhanced
 まとめておまかせ強化確認=Confirmation of Enchantment
 
@@ -34,6 +35,15 @@
 まとめておまかせ強化キャラ詳細=Auto Enhancement Character Details
 
 まとめておまかせ強化を利用すれば、多くのキャラをよりお手軽に強化できるようです。強化条件を設定し、キャラをさらに強くしてみましょう。=It seems that many characters can be more easily enhanced by using the enhancements. Set the enhancement conditions and make the characters stronger.
+まとめておまかせ強化では、多くのキャラを一括でおまかせ強化ができる\n上に、強化の条件を細かく設定可能でございます。=In Auto Enhance, you can enhance multiple characters collectively, and you can also set detailed enhancement conditions.
 
+まとめておまかせランクアップは、多くのキャラを一括でランクアップで\nきるようです。主さま、この機能をしっかり使いこなし、共に成長してま\nいりましょう。=Collective rank-up allows you to rank up multiple characters at once. My Lord, let us make the most of this feature and grow together.
+ランクアップの条件を設定します。=Set the conditions for ranking up.
+ランクアップ条件設定=Rank-up Condition Setting
 
 アイテム、もしくはマナが不足しているため強化できません。=Cannot be enhanced due to lack of Items or Mana.
+
+強化条件=Enhancement Conditions
+選択したキャラをまとめて強化します。=Enhances all selected characters at once.
+r:"^RANK (\d+)までランクアップ$"=Rank up to RANK $1
+まとめて強化を利用すれば、一度に多くのキャラを強化できるようです。\nまとめておまかせ強化を行うか、まとめておまかせランクアップを行うか\n選び、キャラをさらに強くしてみましょう。=By using collective enhancement, it seems you can strengthen multiple characters at once. Choose between conducting collective automatic enhancements or collective rank-ups and further empower your characters.

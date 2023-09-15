@@ -10,6 +10,9 @@ r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]マス\[-\]$"=[FF
 シーズン切替=Season Change
 [3C404E]あと [-][FF7C4E,D62146]1[-][3C404E]日[-]=[FF7C4E,D62146]1[-][3C404E] Day left[-]
 r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]日\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Days left[-]
+
+r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\]([0-9]+)\[-\]\[3C404E\]時間\[-\]\[FF7C4E,D62146\]([0-9]+)\[-\]\[3C404E\]分\[-\]$"=[FF7C4E,D62146]$1[-][3C404E]h[-][FF7C4E,D62146]$2[-][3C404E]m left[-]
+r:"^\[3C404E\]あと \[-\]\[FF7C4E,D62146\]([0-9]+)\[-\]\[3C404E\]分\[-\]$"=[FF7C4E,D62146]$1[-][3C404E]m left[-]
 発動中の効果=Effects while activated
 サイコロを振る=Roll the Dice
 料理を食べる=Eat a Dish
@@ -122,6 +125,13 @@ r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]/8\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/8[-]
 
 現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or cooking.\n\nIs that all right?
+---New Season---
+
+r:"^\[FF7C4E,D62146\]このコインの使用期限は([0-9/ :]+)までです。\[-\]$"=[FF7C4E,D62146]This coin can be used until $1.[-]
+r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(700)$"=Caravan Coin (Season $1)ｘ$2
+シーズン切り替わり=The Seasons have Changed
+新シーズンが始まったため、\n所持していたトレジャーをコインに変換しました。=Since the new season has begun,\nall your treasure has been converted into coins.
+
 ---Tutorial Kokkoro---
 皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Let's embark on an adventure with Onigiri-sama on the Gourmet Chaser. Roll the dice and move forward on the map, aiming for the Guild Management Association branch office where Karin-sama is waiting.
 ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach there, the more bonus you can get. Let's exchange coins for items at the shop.

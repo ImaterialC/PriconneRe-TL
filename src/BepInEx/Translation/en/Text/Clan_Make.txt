@@ -129,7 +129,7 @@ r:"^(\d+)分後にクラン加入が可能です。$"=You can join a clan after 
 前回、このプレイヤーから勧誘を拒否されました。\n勧誘拒否から24時間以内は勧誘できません。=Last time you declined an invitation from this player. You cannot
 Invite within 24 hours after the Invitation is rejected.
 NPC
-他のプレイヤーと、クランを結成しましょう。\nクランを結成すると、クランバトルやダンジョンで協力して戦えます。=Team up with other player to form a clan.\nDoing so allows you to fight alongside ach other in Clan Battle and Dungeons.
+他のプレイヤーと、クランを結成しましょう。\nクランを結成すると、クランバトルやダンジョンで協力して戦えます。=Team up with other player to form a clan.\nDoing so allows you to fight alongside each other in Clan Battle and Dungeons.
 
 クランに入れるらしいわよ\nせっかくだから入ってみたら？\nけっこう楽しいみたいよ♪=Looks like you can join a Clan.\nWhy not give it a try?\nCould be a lot of fun!♪
 こちらでクランに加入できます\n素敵なクランがたくさんあって、\n目移りしてしまいますね=You can join a Clan here.\nThere are so many wonderful Clans, it is difficult fo choose.

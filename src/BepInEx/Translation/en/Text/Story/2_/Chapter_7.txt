@@ -47,7 +47,7 @@ r:"^ワタシは正直なところ、あの話を眉唾ものだと思ってい�
 暇潰しのネタ？\n──まさか、『真那の敵』ってやつを探すつもりかっ？=A way to kill time? Don't tell me you're looking for 'Mana's Enemy'?
 応とも。\n【トゥインクルウィッシュ】に頼まれたソルオーブ探しのついでにな。=Yes. While I was searching for the Sol Orb [Twiinkle Wish] asked me to.
 ああ、そうだ。\nさっきのソルオーブは、\nオマエから【トゥインクルウィッシュ】に渡してやれ。=Oh, that's right. You can give the Sol Orb to Twinkle Wish.
-連中、そろそろオーエドからランドソルに戻っているはずだし……\nもしかしたらオマエの目当てのオクトーも、\nランドソルに帰っているかもしれないぞ？=They should be back in Landsol by now... And that Octo you're looking for might be back in Landsol, too.
+連中、そろそろオーエドからランドソルに戻っているはずだし……\nもしかしたらオマエの目当てのオクトーも、\nランドソルに帰っているかもしれないぞ？=They should be back in Landosol by now... And that Octo you're looking for might be back in Landosol, too.
 そ、それもアリかもな……\nこれだけ捜し回って手がかりなしじゃ、\nいったん振り出しに戻ってみるのも……=Y-Yeah, that might be a good idea... I've searched all over the place for clues, So I might want to go back to the drawing board...
 っていうかクリスティーナ。\nもし本当に、『真那が戦おうとしていた敵』を見つけたら\nオマエどうするんだ？=By the way, Christina. What would you do if you really did find the enemy Mana was trying to fight?
 おいおい。\nそれは愚問というやつだぞ☆=Hey, hey. What a stupid question☆
@@ -72,12 +72,12 @@ r:"^(.{2,10})たちが\n街で買い物や情報収集などをしていた、�
 よしよし、手筈通りだな。\n……どぉれ。\n事の始めにまずひとつ、兵たちに火をつけてやるとするか。=All right, everything's going according to plan. ...Well then. Let's start by setting the soldiers on fire.
 ──ウォッホン！\n聞け、諸君！=Ahem! Listen to me, gentlemen!
 これは革命である！\nこの国のため、我々は立たねばならぬ！=This is a revolution! For this country, we must stand!
-諸君らも気づいているであろう！\nテロリストごときをのさばらせ、復興もままならぬ現状では、\nいずれランドソルは獣人どもや他国の連中に蹂躙されるさだめだ！=I'm sure you're all aware of this! With terrorists on the loose and unable to recover, Landsol will eventually be overrun by beastmen and people from other countries!
+諸君らも気づいているであろう！\nテロリストごときをのさばらせ、復興もままならぬ現状では、\nいずれランドソルは獣人どもや他国の連中に蹂躙されるさだめだ！=I'm sure you're all aware of this! With terrorists on the loose and unable to recover, Landosol will eventually be overrun by beastmen and people from other countries!
 未熟な小娘を玉座に据え、賢者が振り回されるなど愚の骨頂！\nもはや吾輩には、これを看過できぬ！\n暗愚なる君主ユースティアナを廃し、この国を救済する！=Putting an inexperienced girl on the throne and being swayed by a wise man is the height of foolishness! I can no longer overlook this! I will dethrone the dark lord Eustiana and save this country!
 繰り返す、これは革命である！\n吾輩の下に集った勇敢なる諸君よ！\n諸君らが新たな、この国の柱になるのだ！=I repeat, this is a revolution! Brave men who have gathered under me! You will become the pillar of this new country!
 お……=Oh...
 おおおおぉーーーっ！！=Ooooooohhhh!!
-ゴウシンさま万歳！\n新たなるランドソルの王に栄光あれ！=Long live Goshin! Glory to the new king of Landsol!
+ゴウシンさま万歳！\n新たなるランドソルの王に栄光あれ！=Long live Goshin! Glory to the new king of Landosol!
 キング・ゴウシン！=King Goshin!
 キング・ゴウシン万歳っ！！=Long live King Goshin!!
 キング・ゴウシン……！\nそうだ！　吾輩がこの国の王になるのだ！\nこの吾輩がっ……！=King Goshin...! That's right! I will become the king of this country! I...!
@@ -103,7 +103,7 @@ r:"^(.{2,10})たちが\n街で買い物や情報収集などをしていた、�
 最近一緒にごはんを食べたひとからも、\n「陛下は公平さが足りない」って、怒られてばっかりです。=Lately, Even people who ate with me have been yelling at me, saying, “Your Majesty is not fair enough."
 フン！\n誰だか知らんが、多少は的を射ているではないか？=Hmph! Whoever you are, You're right on the mark, aren't you?
 ……でも……\n人間には、公平を与え続けることなんて、絶対にできないんです。\nううん。きっと神様にだって。=......but......humans will never be able to keep giving fairness to others. No. Surely not even God.
-それは、貴様が無能であるからだ！\n吾輩が支配者となった暁には、\nランドソルの民に完全なる平等を与えてやろうではないか！=That's because you're incompetent! When I become the ruler, I'll give the people of Landsol perfect equality!
+それは、貴様が無能であるからだ！\n吾輩が支配者となった暁には、\nランドソルの民に完全なる平等を与えてやろうではないか！=That's because you're incompetent! When I become the ruler, I'll give the people of Landosol perfect equality!
 完全なる平等っていうのは……与えるんじゃなくて。\nみなさんから権利や、自由を奪うことですよ。\n恐怖でみなさんを押さえつけてた覇瞳皇帝と同じです。=Perfect equality...isn't about giving. It's about robbing everyone of their rights and freedom. Just like Omniscient Kaiser, who controlled everyone through fear.
 ぬっ……=Ngh...
 ゴウシンさん。\nあなたを第二の覇瞳皇帝にするわけにはいきません。\nだから、あなたに玉座を渡すわけには、いかないんです。=Mr. Goshin, I cannot allow you to become the second Omniscient Kaiser. That is why I cannot give you the throne.
@@ -165,7 +165,7 @@ r:"^(.{2,10})たちが\n街で買い物や情報収集などをしていた、�
 くっ……！\n本当に、このような汚れた場所を通らねばならんのか……！？=Ugh...! Do I really have to go through such a dirty place...?!
 ゴウシン議長！\nこちらです！=Chairman Goshin! Over here!
 ふぅ、ふぅぅ……=Phew, phew...
-―ランドソル・地下道―=Landsol Underpass
+―ランドソル・地下道―=Landosol Underpass
 ど、どうかご辛抱を。\n【王宮騎士団（NIGHTMARE）】による追跡が、非常に厳しく……=P-Please bear with me. The Royal Knights of Nightmare are gaining on us...
 むぐぐぐ……！=Mugugugu......!
 いったい、何故このような！\n今ごろ吾輩は王に……\nキング・ゴウシンとなっているはずではなかったか！　=Why the hell is this happening?! I should have become the king... King Goshin by now!　
@@ -216,7 +216,7 @@ r:"^(.{2,10})たちが\n街で買い物や情報収集などをしていた、�
 あいたぁーっ！？=Owwww!?
 マツリちゃんっ！？=Matsuri?!
 小便くさいガキどもが！\nどいつもこいつも大人を舐めくさりおってからにッ！！=You pissy brats! You can lick my boot!
-もはや辛抱ならぬ！\n無能どもに任せるのはもうやめだ！\nランドソルの玉座は、吾輩のこの拳で掴んでやるわーーーッ！！=I can't take it anymore! I will no longer leave it in the hands of incompetents! I will seize the throne of Landosol with my own fists! Landsol's throne is mine!!
+もはや辛抱ならぬ！\n無能どもに任せるのはもうやめだ！\nランドソルの玉座は、吾輩のこの拳で掴んでやるわーーーッ！！=I can't take it anymore! I will no longer leave it in the hands of incompetents! I will seize the throne of Landosol with my own fists! Landosol's throne is mine!!
 くぅぅッ……！\nト、トモね～ちゃん！\nこのオッサン、かなり強いッス……！=Ugh...! T-Tomo onee-chan! This old man's pretty strong...!
 全身マジックアイテムだらけの、豪華装備みたいだね……！=It's like an extravagant piece of equipment, full of magic items...!
 ガッハッハ！\n名づけてグレートゴウシンフェイバリットナックルMkⅡフルセット！！\n燃費の悪い王家の装備など、もはや前時代の遺物よ！=Gahaha! I call it the Great Goshin Favorite Knuckle Mk. II!! The inefficient equipment of the royal family is a relic of the past!
@@ -265,7 +265,7 @@ r:"^(.{2,10})たちが\n街で買い物や情報収集などをしていた、�
 思いっきり叩いちゃったッス！\nごめんなさいッス～！=I smacked you with all my might! I'm so sorry!
 構いませんよ。\nここにいる私は、本体ではありませんし……\n手抜きをされて、内通がバレてしまっては元も子もないでしょう？=I don't mind. This is not the real me... Besides, It would have been for nothing if they found out about my secret communication.
 おーっ、なんかアタマいいっぽいッス！\nカッコいいッスね！=Wow, you look so smart! You're so cool!
-えっと。それじゃあ君も私たちと同じで、\nランドソルとユースティアナ陛下に忠誠を誓う臣下……\nってことでいいのかな。=Let's see. In that case, you're just like us, a retainer loyal to Landsol and Her Majesty Eustiana... I guess that's what it means.
+えっと。それじゃあ君も私たちと同じで、\nランドソルとユースティアナ陛下に忠誠を誓う臣下……\nってことでいいのかな。=Let's see. In that case, you're just like us, a retainer loyal to Landosol and Her Majesty Eustiana... I guess that's what it means.
 的外れな推測と言わざるを得ませんね。\n現状は、単に利害が一致している関係に過ぎません。=I must say, this is an off-the-mark conjecture. The current situation is nothing more than a relationship of mutual interest.
 あ、えっとですね……\n幽閉中の覇瞳皇帝を、監視しておきたいみたいなんです。\n魔力を吸収して、動きを抑える装置の管理もしてくれてますし。=Oh, umm... It seems she wants to keep an eye on the imprisoned Omniscient Kaiser. She's also absorbing magical energy and managing devices to suppress her movements.
 ……ねぇペコリーヌ。\n結局ネネカのやつって、なんで協力してくれてるんだっけ？　=...Hey, Pecorine. In the end, why is Neneka helping us again?　
@@ -428,7 +428,7 @@ r:"^(.{2,10})くん！\nお願いしますっ！$"="$1! Please!"
 どっちにしろ、あんなおっきいのが暴れたら街がめちゃめちゃです！\n絶対止めなくちゃ！=Either way, if something that big went on a rampage, the city would be in chaos! We absolutely have to stop it!
 ああもう、厄介な奴ね～っ！=Oh geez, what a troublesome guy!
 ーセント学院～プール～=St. Paul's. Pool
-ンドソル=LaLandsol
+ンドソル=LaLandosol
 ごーごー☆　ぺんぽこり～ん♪=Gooogoooh☆ Penpokoriiiin♪
 ……っ！　させません！！=...! I won’t let you!!
 いきますよっ！=Let's go!
@@ -545,7 +545,7 @@ r:"^祭典前夜、ノゾミと(.{2,10})は\n明日の舞台の下見をして�
 倒産ですっ！！！！=We're going bankrupt!!!
 ……プハ～=...Pwah~
 えええええーっ！=Whaaaaat?!
-ランドソルの踊り食いと参りましょうかな=I think I'll go eat Landsol's dance
+ランドソルの踊り食いと参りましょうかな=I think I'll go eat Landosol's dance
 ……\nっと、そうではありません。\n私が気がかりなのは、ここ最近の【アマルガム貿易】の躍進ぶりです。=...Oh, that's not it. What I'm worried about is the recent progress of the Amalgam trade.
 ンむむむ……\n……確かにそちらも、捨て置けませんでしたわね……=Hmmm... You're right, I couldn't abandon you either...
 我が【リッチモンド商工会】の得意とする建築業には、\nまだ大きな影響は出ておりませんが……運送、金融、武具関係の\n事業では、今期の大幅な減益が避けられません。=Our Richmond Merchants Association's specialty, the construction industry, hasn't been affected in any way yet...but with transportation, finance, and weapons-related businesses, we can't avoid a significant reduction in profits this term.
@@ -663,7 +663,7 @@ r:"^──【レイジ・レギオン】。\n以前、私と(.{2,10})、コッ�
 ……わかってるのに。\nなのに……なんで……=...I know. So why...?
 どうして……\nどうしても……あきらめられないの。=Why... can't I... give up?
 お取込み中、悪いけれど……予定変更よ。\nあなたたち二人とも、私の根城に連れて帰ることになったわ。\nこれ以上怪我したくなかったら、おとなしくしなさい？=I'm sorry to interrupt, but we've changed our plans. We've decided to take both of you back to my stronghold. If you don't want to get hurt any more, stay put, okay?
-うぅっ……こうなったら！\n【王宮騎士団（NIGHTMARE）】のみなさんにも\n手伝ってもらって、ランドソル中に捜索をっ……！=Ugh... Now that it's come to this! With the help of the Knights of the Royal Palace (Nightmare), we'll search all over Landsol...!
+うぅっ……こうなったら！\n【王宮騎士団（NIGHTMARE）】のみなさんにも\n手伝ってもらって、ランドソル中に捜索をっ……！=Ugh... Now that it's come to this! With the help of the Knights of the Royal Palace (Nightmare), we'll search all over Landosol...!
 だぁぁもうっ！\nそのような命令をすれば、街の警備がおろそかにっ……！=Argh! If you give such an order, the city's security will be neglected...!
 …………なんか、いきなり魔法を\n浴びせられた気がするけど……\n強制的に空間跳躍でも、させられたのかしら……？　=............I feel like I've been showered with magic all of a sudden......maybe I was forced to jump through the air......?　
 でも、そんなことできるのって……\n跳躍王か、あるいは…………=But the only ones who can do that...are the Jumping King, or.........
@@ -739,8 +739,8 @@ r:"^それだけじゃない。\n今はユイが、ヒヨリが、(.{2,10})が�
 ん……\nどうして魔族たちをまとめて、協力を取り付けたいわけ？=Hmm... Why do you want to unite the daemons and get their cooperation?
 そうですね……理由はいくつかあるんですけど。\n一番大きいのは、不安要素を取り除きたいからです。=Well... There are a few reasons, but the biggest reason is because we want to get rid of the anxiety factor.
 不安要素？\n魔族たちが、敵に回るっての？=An element of unease? Are the daemons going to become enemies?
-いえ、そうじゃないんです。\nただ、覇瞳皇帝がいなくなって……わたしがプリンセスになって。\nランドソルが、不安定になっているのは……事実だと思うんです。=No, that's not it. It's just that, with Omniscient Kaiser gone... I became a princess. I think it's true... that Landsol is becoming unstable.
-魔族だけじゃなくて、獣人族とか、エルフ族とか、他の国の方々とか。\nランドソルを取り巻くみなさんと、仲良くできるかはわかりませんが……\n少なくとも、攻め込まれるようなことは絶対に避けなくちゃいけなくて。=Not just daemons, but beastfolk, elves, and people from other countries, too. I don’t know if I’ll be able to get along with everyone around Landsol, but...at the very least, I have to avoid being attacked.
+いえ、そうじゃないんです。\nただ、覇瞳皇帝がいなくなって……わたしがプリンセスになって。\nランドソルが、不安定になっているのは……事実だと思うんです。=No, that's not it. It's just that, with Omniscient Kaiser gone... I became a princess. I think it's true... that Landosol is becoming unstable.
+魔族だけじゃなくて、獣人族とか、エルフ族とか、他の国の方々とか。\nランドソルを取り巻くみなさんと、仲良くできるかはわかりませんが……\n少なくとも、攻め込まれるようなことは絶対に避けなくちゃいけなくて。=Not just daemons, but beastfolk, elves, and people from other countries, too. I don’t know if I’ll be able to get along with everyone around Landosol, but...at the very least, I have to avoid being attacked.
 その一環として……私が、魔族との橋渡しか。\nんん……=As part of that... I'm the bridge between you and the daemons, huh? Hmm...
 重ね重ね、ありがとうございます。\n魔族のみなさんや、この大陸の、この世界のみなさんと交流を持つことは\n今後のためにも、きっと大事なことだと思いますので。=Thank you very much for your continued patronage. I think it's important for the future to be able to interact with the daemons, this continent, and everyone else in this world.
 失礼いたします、クレジッタさま。\n７番地区の繁華街広場の修繕手配、完了いたしました。=Excuse me, Miss Creditta. The repairs to Sector 7's shopping district plaza have been completed.
@@ -926,7 +926,7 @@ r:"^まぁ……(.{2,10})くん、女の子には優しいから。\nあんな�
 そんな寄り道して、いいのかしら。\n転移魔法陣を使えば、すぐ戻れるけど……=I wonder if it’s okay to take such a detour. If I use the teleportation magic circle, I’ll be able to get back right away, but...
 ふむ……\nわたくしとしてはむしろ、必須の寄り道かと思いますよ。\nシェフィさま。=Hmm... As far as I'm concerned, I think it's a necessary detour. Lady Sheffy.
 そうなの？\nコッコロさん。=Is that so, Kokkoro-san?
-ええ。何故ならば──\nランドソルで待っているペコリーヌさまやキャルさまに\nお土産を買っていくと、お約束いたしましたからね。=Yes. After all, I promised to buy souvenirs for Lady Pecorine and Lady Kyaru, who are waiting for me in Landsol.
+ええ。何故ならば──\nランドソルで待っているペコリーヌさまやキャルさまに\nお土産を買っていくと、お約束いたしましたからね。=Yes. After all, I promised to buy souvenirs for Lady Pecorine and Lady Kyaru, who are waiting for me in Landosol.
 あなたに忠誠を誓いますわ！！\nユースティアナ陛下ぁっ！！=I swear allegiance to you!! Your Majesty Eustianaaa!!
 ええええええッッ！？！？=Whaaaaat?!
 【レイジ・レギオン】……=[Rage Legion]...
@@ -934,7 +934,7 @@ r:"^まぁ……(.{2,10})くん、女の子には優しいから。\nあんな�
 『七冠』の、恐ろしさについて=About the fearsomeness of the Seven Crowns
 第ニ部七章　闇から伸びる手=Part Two, Chapter Seven: A Hand Reaches Out from the Darkness
 さぁ、おしおきの時間です=Now, it's time for your punishment
-一方。\nランドソルから遠く離れた、ある街道沿いでのこと──=On the other hand, far away from Landsol, along a highway
+一方。\nランドソルから遠く離れた、ある街道沿いでのこと──=On the other hand, far away from Landosol, along a highway
 オマエ──クリスティーナ！？=You~ Christina!?
 久しぶりだなー！　元気にしてたか？　アタシは元気だぞ！\nっていうかオマエ、こんなところで何やってるんだ？=It's been a while! How have you been? I'm fine! Wait, what are you doing here?
 相変わらず騒がしい奴だな。\n質問する時は数を絞らないと、相手から嫌われるぞ……？=You're as noisy as ever. If you don't narrow down the number of questions, I'll start to get annoyed...
@@ -998,7 +998,7 @@ r:"^そりゃあ、危なっかしいとは思うけど。\nでも(.{2,10})た�
 ほんと、相変わらずだなオマエは……=You really haven't changed a bit...
 ああ、聞かれる前に答えてやるが、\nワタシはオクトーの行方など知らんぞ。\n興味もない。=Oh, before you ask, I don't know where Octo is. And I have no interest in it.
 ん……そっかぁ……=Hmm... I see...
-ここしばらく、ずーっと捜し回ってるんだけど、\nぜんっぜん足取りがつかめなくってさ。ランドソルの北の街道沿いで\n何回か目撃情報があった以降は、さっぱり……=I've been searching all over the place for a while now, but I haven't been able to track him down at all. After a few sightings along the northern highway of Landsol, I don't have a clue...
+ここしばらく、ずーっと捜し回ってるんだけど、\nぜんっぜん足取りがつかめなくってさ。ランドソルの北の街道沿いで\n何回か目撃情報があった以降は、さっぱり……=I've been searching all over the place for a while now, but I haven't been able to track him down at all. After a few sightings along the northern highway of Landosol, I don't have a clue...
 のらくらしているが、抜け目のない男だ。\nオマエが後を追ってくることも、織り込み済みだろうよ。\n見つかりたくないなら、それなりの隠蔽をするんじゃないか？=He may be lazy, but he's a shrewd man. He's probably already taken into account the fact that you're following him. If he doesn't want you to find him, He'll cover his tracks.
 う……た、たしかに……=Ugh... Y-You're right...
 オクトー……どこ行っちゃったんだよ。\n結構、『現実』の記憶も戻ってるはずなのに。\n……なんでか、気づいてないってフリするし……=Octo... Where did he go? His memories of “reality” should have returned quite a bit. ...For some reason, he's pretended not to notice...
@@ -1016,7 +1016,7 @@ r:"^キョウカと別れた\nシェフィと(.{2,10})は、\nしばらく買い
 r:"^うーん……\n(.{2,10})、どこに行っちゃったのかしら。$"="Hmm... I wonder where $1 went."
 ……まったくもう。\n街をちょっと歩くだけでトラブルに巻き込まれたり、\n女の子に声を掛けられたりしちゃうんだから。=......Totally. I'm sure you'll get into trouble or be approached by a girl just by walking around the city.
 そんなに遠くには行っていないと思うけど。\nでも……敵に狙われてるって可能性もあるし。\n早く合流しなくっちゃ──=I don't think they are that far away. It is also possible that..... Enemies are targeting us. We have to join up with them as soon as possible.
-ん～～っ！　帰ってきたぞランドソル！\nなんだか久しぶりだなーっ！=Mmm! We're back, Landsol! It's been a while!
+ん～～っ！　帰ってきたぞランドソル！\nなんだか久しぶりだなーっ！=Mmm! We're back, Landosol! It's been a while!
 さーてっ。\n渡す物もあるし、とりあえず\n【トゥインクルウィッシュ】の連中を捜すか……=Now then. I have something to give you, so I guess I'll start by looking for the Twinkle Wish...
 そのあとは【王宮騎士団（NIGHTMARE）】にでも\n顔を出そっと！　オクトーが戻ってるかもしれないしな！\nよーしっ！=After that, let's head to the Knights of the Royal Palace or something! Octo might be back! Alright!
 ──きゃっ！？=Kyah!?
@@ -1090,7 +1090,7 @@ r:"^でさ。『創り直される前の世界』で、\nオマエら【トゥ�
 あんな優しいやつに、こんなの……できるわけないのに。\nアストルムの世界を『現実』から切り離して、\nみんなを閉じ込めるようなこと……あのユイに、できるわけ……=There’s no way someone as kind as her...could do something like this. Something that would separate the world of Astrum from “reality” and locks everyone in...
 うん……\nそのせいでアタシは、\n草野優衣……ユイのことを、うたがっちゃった。=Yeah... Because of that, I ended up asking about Yui Kusano... Yui.
 2部 第7章 第5話=Part 2 Chapter 7 Episode 5
-クーデターの一件でぺコリーヌの信頼を増したネネカは、もはやランドソルの実権は手のひらの上も同然だと一人ほくそ笑む。そこへ侵入したカリザの挑発に静かな怒りをたたえ、大勢の分身で圧倒するのだった。=Neneka, who had gained Pecorine’s trust during the coup d’etat, chuckled to herself that the real power of Landsol was practically in the palm of her hand now. She was quietly angry at Kariza’s taunts for invading it, and overwhelmed them with a large number of clones.
+クーデターの一件でぺコリーヌの信頼を増したネネカは、もはやランドソルの実権は手のひらの上も同然だと一人ほくそ笑む。そこへ侵入したカリザの挑発に静かな怒りをたたえ、大勢の分身で圧倒するのだった。=Neneka, who had gained Pecorine’s trust during the coup d’etat, chuckled to herself that the real power of Landosol was practically in the palm of her hand now. She was quietly angry at Kariza’s taunts for invading it, and overwhelmed them with a large number of clones.
 ──ネネカの隠し拠点──=--Neneka's Secret Base --
 分身体とはいえ……\nあれだけクレープを食べさせられると。\n胸がつかえたような気持ちになりますね……=Even though it's a clone body... After being fed so many crepes, it feels like my stomach is going to burst...
 ……にしても……=...But still...
@@ -1102,7 +1102,7 @@ r:"^でさ。『創り直される前の世界』で、\nオマエら【トゥ�
 真那の脱走防止、影武者としての役割……\nそして、今回の騒動で失脚する文官たちの後釜に、\n私の分身を据えれば……=Preventing Mana from escaping and acting as a spy.... If I can set up my alter ego to take the place of the civil officers who would take new positions in the current commotion...
 ……ふふ。\nもはやこの国の実権は、私の手のひらの上も同然……=...Heheh. The real power of this country is already in the palm of my hand...
 おわかりですか、議長？\n陰謀とは、極力ひっそりと。\n誰にも気づかせずに進めるものなのですよ……このように、ね。=Do you understand, Chairman? Conspiracy is something that should be carried out as quietly as possible without anyone noticing... Like this.
-ランドソルの実権。\n真那の知識と魔力。\nこれらはもはや、私の手に収めたと言っていいでしょう。=Landsol's real power. Mana's knowledge and magical power. It's safe to say that I've already taken them into my own hands.
+ランドソルの実権。\n真那の知識と魔力。\nこれらはもはや、私の手に収めたと言っていいでしょう。=Landosol's real power. Mana's knowledge and magical power. It's safe to say that I've already taken them into my own hands.
 そして、あとは……私の最大の狙いを。\n『彼女』を手に入れれば……\nおそらくこの『懲役』も、終えることができる……=And now... my greatest goal. If I get my hands on 'her'... I'll probably be able to finish this 'imprisonment'...
 ですが……=However...
 ……ミネルヴァ。\nいったい、今どこに……？=...Minerva. Where in the world are you...?
@@ -1112,7 +1112,7 @@ r:"^もし、『彼女』がソルの塔にいないとなると。\n現状唯�
 いい加減、避けてまわるのも面倒になってきていたところです。\nこのあたりで、教育してあげましょう……\n七冠の恐ろしさというものを。=It was getting to the point where I was getting tired of avoiding it all the time. Let me educate you on the.......Fearsomeness of the Seven Crowns.
 ……さーて。\n変貌大妃のアジトはこのあたりか……=...Now then. So this is where the Metamorph Monarch's hideout is...
 ぷるぷるっ。=*squish squish*
-情報を解析した限りじゃ、ヤツのアジトはいくつかあるみてーだが。\nその中でランドソルに一番近いのがココだ。\nま、この森が外れだったしてもシラミツブシにしてやるだけだがな。=According to my analysis of the information, There are a number of places she could be hiding out, Of them, this is the closest to Landsol. Well, even if this forest is off the beaten path, I'll just make it a licebush.
+情報を解析した限りじゃ、ヤツのアジトはいくつかあるみてーだが。\nその中でランドソルに一番近いのがココだ。\nま、この森が外れだったしてもシラミツブシにしてやるだけだがな。=According to my analysis of the information, There are a number of places she could be hiding out, Of them, this is the closest to Landosol. Well, even if this forest is off the beaten path, I'll just make it a licebush.
 あー、変貌大妃さーん？\nお届け物ですよー？\nテメーんちの庭を更地にしてやるサービスですよーっと。=Oh, Metamorph Monarch? Here's a delivery for you! It's a service to clear your garden!
 ……なーんつってな。\nま、ホイホイ出てくるワケねーよな。=...Just kidding. Well, there's no way she'd just come out.
 ……ぷるぷる？=...*Squish squish*?
@@ -1263,7 +1263,7 @@ r:"^ラビリスタのクレープ屋に長蛇の列ができているのを見�
 ……\nそれじゃあ、場所を変えようか。=...Okay, We should go somewhere else.
 ……ええ。\nそのほうがいいでしょう。=...Yes. That would be for the best.
 にしても……\nわざわざアタシを訪ねてくるなんて、珍しいじゃん？\n今日は何の用事なのかな、ネネカ。=Still... It's rare for you to come all the way here just to see me, isn't it? I wonder what business you have with me today, Neneka.
-この頃、貴方はランドソルを留守にしていたようですから。\n近況報告も兼ねて、情報の共有を提案しに来たのです。=It seems you've been away from Landsol for quite some time now. I've come to share information with you to update you on recent events.
+この頃、貴方はランドソルを留守にしていたようですから。\n近況報告も兼ねて、情報の共有を提案しに来たのです。=It seems you've been away from Landosol for quite some time now. I've come to share information with you to update you on recent events.
 近況報告に、情報の共有！\n秘密主義者のネネカから、そんな提案をされるとは思わなかったな～=A status report, sharing information! I didn't expect such a proposal from Neneka, the "Secretive"!
 秘密主義はお互い様でしょう。\n私たちだけでなく、七冠は全員……例外は、クリスティーナくらいで。=We're both secretive, aren't we? Not just us, but all of the Seven Crowns... Christina is the only exception.
 あはは、確かにね。\nそれで？　そっちの近況はどんな感じ？=Ahaha, you're right. So? How's it going over there?
@@ -1401,9 +1401,9 @@ r:"^うーん。\nこの分じゃあ、(.{2,10})たちも\nオクトーの行方
 あっ、悪い！\nついついクセでさー\nあきら……ビリスタ！=Ah, sorry! It's just a habit of mine... Labyrista!
 オクトーかぁ……ごめんね、アタシも知らないなぁ。=Octo, huh... Sorry, I don't know either.
 ……そっかー\nうーん……=...I see... Hmm...
-参ったな……もうアテがなくなったぞ。\nこうなったら、ランドソル中に聞き込みを……=This is bad... I don't have any leads. I'll have to ask all over Landsol...
+参ったな……もうアテがなくなったぞ。\nこうなったら、ランドソル中に聞き込みを……=This is bad... I don't have any leads. I'll have to ask all over Landosol...
 ふむ……\nあのさ、ノウェム。=Hmm... Hey, Novem.
-アタシはこれから、ちょっとランドソルの外に出かけるけど。\nノウェムがアタシのお願いを聞いてくれるなら、\nオクトーの情報集めに協力してもいいよ。どうかな？=I'm going to head outside Landsol for a bit. If you're willing to listen to my request, I can help you gather information on Octo. What do you think?
+アタシはこれから、ちょっとランドソルの外に出かけるけど。\nノウェムがアタシのお願いを聞いてくれるなら、\nオクトーの情報集めに協力してもいいよ。どうかな？=I'm going to head outside Landosol for a bit. If you're willing to listen to my request, I can help you gather information on Octo. What do you think?
 ほんとかっ！？\nすっごく助かるぞ！　お願いってなんだっ！？=Really?! That would be a big help! What do you mean, please?
 それはね──=Well, you see...
 アタシのプリンセスナイト。\n少年や、仲間の子たちがピンチになったときに\n助けてあげてほしいんだ。=My Princess Knight. I want you to help the boy and his friends when they're in trouble.
@@ -1454,7 +1454,7 @@ r:"^うーん。\nこの分じゃあ、(.{2,10})たちも\nオクトーの行方
 うん。\nそれに……=Yeah. And...
 みんなで一緒に、現実に帰る方法を──だよ。=It's a way for us all to return to reality together.
 ふぅ～……\nあ～焦った焦った。=Phew... Man, I was so impatient.
-ランドソルに戻ってきてるとは、思わなかったな。\n反省反省っと。\nこれからしばらく、気を付けなくっちゃ……=I didn't think you'd be back in Landsol. I'll reflect on my actions. I need to be careful for a while from now on...
+ランドソルに戻ってきてるとは、思わなかったな。\n反省反省っと。\nこれからしばらく、気を付けなくっちゃ……=I didn't think you'd be back in Landosol. I'll reflect on my actions. I need to be careful for a while from now on...
 ……オクトーさん。=...Octo.
 ……なんだ、アンタか。\n心臓に悪いから、いきなり声をかけないでほしいな～=...Oh, it's you. Please don't call out to me out of the blue because you're giving me a heart attack!~
 おや、失礼。\n驚かせるつもりはなかったのですが。=Oh, pardon me. I didn't mean to surprise you.
@@ -1624,14 +1624,14 @@ r:"^……あのっ、(.{2,10})くん。\nその……$"="...Um, $1. Um..."
 よーしっ、やるぞー！=Alright, let's do this!
 そして、ラビリスタの言う通り──=And, just as Labyrista said
 r:"^それからしばらくのあいだ、(.{2,10})たちは\n平穏な日常を過ごすことができたのだった。$"="For a while after that, $1 and the others were able to live a peaceful life."
-ランドソルを狙う【レイジ・レギオン】=[Rage Legion] targeting Landsol
+ランドソルを狙う【レイジ・レギオン】=[Rage Legion] targeting Landosol
 彼らに反撃するために、私たちは海を越える=To counter them, we cross the sea
 第二部八章　ゼーンの覚醒=Arc 2, Chapter 8: Zane's Awakening
 ──あなた、もしかして……=Are you...?
-地下牢に投獄されていたゴウシンを、救いと称して消滅させた謎の男・ミロク。一方、ミソラと対峙したクリスティーナ、そしてランドソルの玉座に腰かけるネネカにも、それぞれ闇から手が伸ばされ……=Miroku, the mysterious man who annihilated Goshin, who had been imprisoned in the dungeon, calling him salvation. On the other hand, Christina, who faced Misora, and Neneka, who sat on Landsol’s throne, each reached out from the darkness...
+地下牢に投獄されていたゴウシンを、救いと称して消滅させた謎の男・ミロク。一方、ミソラと対峙したクリスティーナ、そしてランドソルの玉座に腰かけるネネカにも、それぞれ闇から手が伸ばされ……=Miroku, the mysterious man who annihilated Goshin, who had been imprisoned in the dungeon, calling him salvation. On the other hand, Christina, who faced Misora, and Neneka, who sat on Landosol’s throne, each reached out from the darkness...
 ……ズズっ……=*slurp*...
 むぅ……=Mmm...
-反逆に失敗したゴウシン『元』議長は、\nランドソルの地下牢に投獄されていた。=Goshin “former” chairman, who had failed to rebel, had been imprisoned in Landsol’s dungeon.
+反逆に失敗したゴウシン『元』議長は、\nランドソルの地下牢に投獄されていた。=Goshin “former” chairman, who had failed to rebel, had been imprisoned in Landosol’s dungeon.
 ……むぐっ！\nうむむむっ……！=...Mmmph! Mmmph...!
 な、なんという不味いスープだ……！\nこのようなもの、人間の食べる物ではない！=Wh-What disgusting soup...! This isn't something a human can eat!
 おい！\n贅沢言うな、この反逆者め！=Hey! Don't be so extravagant, you traitor!
@@ -1646,7 +1646,7 @@ r:"^それからしばらくのあいだ、(.{2,10})たちは\n平穏な日常�
 キミ……何か、欲しいものはないかね？\n財産、地位、権力……なんでもくれてやる。\n……吾輩を、ここから出してくれさえすれば……！=Is there anything you want? I'll give you my wealth, my position, my power... anything. ...As long as you let me out of here...!
 やかましい！\n俺は王女やジュン団長を裏切ったりはせんっ！=Shut up! I won't betray the princess or Commander Jun!
 ぐっ……！\nな、何故だ！\nあのような小娘たちを……！=Ugh...! Wh-Why?!
-あの方々はランドソルを守るため、懸命だからだ！\n私利私欲にまみれた、お前ら貴族どもと違ってッ──=Because they're doing their best to protect Landsol! Unlike you aristocrats, with your self interests~
+あの方々はランドソルを守るため、懸命だからだ！\n私利私欲にまみれた、お前ら貴族どもと違ってッ──=Because they're doing their best to protect Landosol! Unlike you aristocrats, with your self interests~
 なっ……\n何が起きた……？\nあの牢番は、いったいどこへ……=Wh-What happened...? Where did that prison guard go...?
 さぁ──\nどこへ行ってしまったんでしょうね？=I wonder where he's gone?
 ──ヒッ！=Eek!
@@ -1658,9 +1658,9 @@ r:"^それからしばらくのあいだ、(.{2,10})たちは\n平穏な日常�
 私が手を差し伸べなくては……\n貴方は一生、この檻の中で過ごすことになるでしょう。\nそれはあまりにも、不憫というものですから。=If I don't reach out to you, you'll be stuck in this cage for the rest of your life. I feel sorry for you.
 お、おぉ……！\nでは……！=O-Oh...! Then...!
 ええ。\n私が来たのは……\n貴方を救って差し上げるためです、ゴウシンさん。=Yes. I came here...to save you, Goshin.
-感謝いたします、“救い手”さま！\n必ずやランドソル王家を転覆し、あの小娘に復讐を！\nあなたのご助力さえいただければ……！=Thank you, 'savior'! We will overthrow the Landsol royal family and take revenge on that girl! With your help...!
+感謝いたします、“救い手”さま！\n必ずやランドソル王家を転覆し、あの小娘に復讐を！\nあなたのご助力さえいただければ……！=Thank you, 'savior'! We will overthrow the Landosol royal family and take revenge on that girl! With your help...!
 ……ふむ。\nそういえば、そんな話でしたか。=...Hmm. Come to think of it, that's what we were talking about.
-……？\nランドソル王家を滅ぼし、\n塔の管轄権を手にするのが我々の目的では……=...? Our goal is to destroy the Landsol royal family and gain control of the tower...
+……？\nランドソル王家を滅ぼし、\n塔の管轄権を手にするのが我々の目的では……=...? Our goal is to destroy the Landosol royal family and gain control of the tower...
 ──ソルの塔の、真の意味での『管轄権』。\nそれは、人間による政治などで左右できるようなものではありません。=The true 'jurisdiction' of the Tower of Sol. It's not something that can be influenced by human politics.
 『偶像』を手入れし。『神託』に従う。そして、『塔』を侵食する。\n──輪廻の円環に呑まれぬように、慎重に。\nそれゆえ、私は忙しいわけですが……=Taking care of the Idol. Obeying the Oracle. Corroding the Tower. Careful not to be swallowed by the ring of reincarnation. That's why I'm busy, but...
 で……では、なにゆえに？\n前陛下が倒れた後……あなたは何故、吾輩に声をかけたのですか。\n他の貴族どもを脅し、議長へと押し上げたのですかっ……？=Wh-Why, then? Why did you call out to me after the previous ruler fell? Did you threaten the other nobles and force them to become the chairman...?
@@ -1672,7 +1672,7 @@ r:"^それからしばらくのあいだ、(.{2,10})たちは\n平穏な日常�
 おやめください！　ミロク様ッ────=Please stop, Miroku-sama!
 どうぞ安らかに──ゴウシンさん。=Rest in peace, Mr. Goshin.
 『神』が完全に目覚める前に。\nこれより先の地獄を見ずに済んだ貴方は──\n間違いなく、救われておりますよ。=Before my 'God' is fully awakened. You who have not seen the hell ahead of you are definitely saved. Without a doubt, you have been saved.
-そして、一方。\nランドソルから遠く離れた、ある浜辺──=And then, on the other hand, on a beach far away from Landsol
+そして、一方。\nランドソルから遠く離れた、ある浜辺──=And then, on the other hand, on a beach far away from Landosol
 ……海、か。=...The sea, huh?
 フン。\nわざわざこんなところにまで出向くのなら、\n水着でも持ってくるんだったかな。=Hmph. If you're going out of your way to come all the way out here, I guess I should've brought a swimsuit.
 といっても。\n一人きりで海水浴など、退屈極まりないものに過ぎんが……=That said, bathing alone at the beach is nothing short of boring...
@@ -1702,7 +1702,7 @@ r:"^それからしばらくのあいだ、(.{2,10})たちは\n平穏な日常�
 それほどの力を有する存在は、\n強い意志を持った者によって正しく管理されねばなりません。\nたとえば、そう──=A being with that much power must be properly managed by someone with a strong will. For example, yes
 超高度にネットワークが発達した『現実』世界において、\nミネルヴァは核兵器よりも強大で危険な……いわば、\n『意志を持たざる神』のごとき存在なのです。=In the “real” world, where super-high-level networks have developed, Minerva is more powerful and dangerous than nuclear weapons... In other words, she's like a god without a will of her own.
 私のような……ね。=Someone like me, huh?
-r:"^この玉座──ランドソルの実権同様。\nミネルヴァもまた、必ずや私のものに。\nそして、(.{2,10})も……$"="This throne--just like the real power of Landsol. Minerva will be mine, too. And $1..."
+r:"^この玉座──ランドソルの実権同様。\nミネルヴァもまた、必ずや私のものに。\nそして、(.{2,10})も……$"="This throne--just like the real power of Landosol. Minerva will be mine, too. And $1..."
 ──ネネカさまッッ！！=Lady Neneka!!
 なっ……！\nこれは一体……！！？=Wha...?! What the hell is this...?!!
 謎の少女たち=Mysterious Girls
@@ -1730,5 +1730,5 @@ r:"^この玉座──ランドソルの実権同様。\nミネルヴァもま�
 ストーリー全解放確認=Complete release of the story
 ストーリーをすべて解放します。\nよろしいですか？=I will release the entire story. Is that all right?
 ノウェムちゃんがそこまで言うってことは、\nきっと本当に、つらいお話なんだって思うけど。\nだからこそ、逃げないで、ちゃんと向き合いたいんだっ！=If Novem-chan's going that far, I'm sure it's a really painful story. But that's why I don't want to run away. I want to face it properly!
-うん。\nそれじゃあ、話すよ。\nアタシの知ってること、全部──……=Okay. Then I'll tell you everything I know...ンドソル～貴族街～=Landsol. Noble's Quarter
-ンドソル～貴族街～=Landsol. Noble's Quarter
+うん。\nそれじゃあ、話すよ。\nアタシの知ってること、全部──……=Okay. Then I'll tell you everything I know...ンドソル～貴族街～=Landosol. Noble's Quarter
+ンドソル～貴族街～=Landosol. Noble's Quarter

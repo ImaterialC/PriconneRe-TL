@@ -99,7 +99,7 @@ r:"^……だいぶ前の、あのとき……\n陛下が(.{2,10})に言って�
 あははは～！\nこんなにおいしい麦しゅわが、水みたいに安いなんてー！\n夢みたい～っ♪　ヒック♪=Ahahaha~! I can't believe that such delicious barley wine is as cheap as water! It's like a dream~ Hiccup~♪ Hic♪
 ミフユ～～っ！　ユカリも！\n買い物してる場合じゃないにゃっ！=Mifuyu! You too, Yukari! This isn't the time to be shopping, nya!
 はっ！？\nそうだったわ……みんなに市場の様子を見てもらうつもりが、\nあまりの安売りっぷりについ目がくらんで……=Huh?! I was going to let you guys see what the market was like, but I was so dazzled by how cheap everything is, that I couldn't help myself...
-ミフユさんの報告通り……\nランドソルの市場のあちこちで、\n異様な安売りをする新店が増えているようですわね。=Just as Mifuyu reported... It seems that there are more new shops selling at oddly low prices everywhere in The Landsol.
+ミフユさんの報告通り……\nランドソルの市場のあちこちで、\n異様な安売りをする新店が増えているようですわね。=Just as Mifuyu reported... It seems that there are more new shops selling at oddly low prices everywhere in The Landosol.
 しかもその全部が、【アマルガム貿易】っていうギルドの\n息がかかっているだなんて。\nいままでそんなギルド、聞いたことなかったけど……=What's more, the guild known as the 'Amalgam Trade' is responsible for all of this. I've never heard of this guild before...
 ねぇねぇ～、あっちのおみせも、\nあたらしいおみせみたい～？=Hey, hey~, is that store over there a new store?
 【アマルガム貿易】印の\nたい焼きショップ、本日開店！\n安くて旨いたい焼きが、たったの10ルピ！　さぁ食べてって～！=【Amalgam Trade】Mark's Taiyaki Shop opens today! The cheap and tasty Taiyaki is only 10 Rupees! Come have a taste!
@@ -125,7 +125,7 @@ r:"^……だいぶ前の、あのとき……\n陛下が(.{2,10})に言って�
 貸してるお金、ぜーんぶ焦げ付いちゃうにゃ！\n真っ黒コゲにゃ～っ！=All the money I owe you will get burnt!
 タマキ・アキノ・ミフユ=Tamaki Akino Mifuyu
 というかすでに、\n売上と客をぜんぶ持っていかれたうえ、生鮮食品の在庫をダメにして……\n閉店に追い込まれた店も出始めているわ。=Some stores have already been forced to close because they lost all their sales and customers, as well as their perishable food inventory.
-それに、ランドソル各地の市場だけじゃないのよ。\nうちの稼ぎ頭の金融業にも、【アマルガム貿易】が入り込んでて……\n10年で0.1％とか、ありえないほど安い金利で貸し付けしてるのよ！=Besides, it's not just the markets all over Landsol. The Amalgam trade is involved in our finance industry, too... We lend it to them at an unbelievably low interest rate, like 0.1 percent for ten years!
+それに、ランドソル各地の市場だけじゃないのよ。\nうちの稼ぎ頭の金融業にも、【アマルガム貿易】が入り込んでて……\n10年で0.1％とか、ありえないほど安い金利で貸し付けしてるのよ！=Besides, it's not just the markets all over Landosol. The Amalgam trade is involved in our finance industry, too... We lend it to them at an unbelievably low interest rate, like 0.1 percent for ten years!
 アキノ・ユカリ・タマキ=Akino Yukari Tamaki
 来期の売り上げは、間違いなく過去最低……大赤字間違いなし！\n冗談抜きで……倒産もありうるわ！=Next term's sales are definitely at an all-time low... We're definitely in the red! I'm not joking... We might go bankrupt!
 ただでさえ、飛空艇を落っことして大損害を出したり、\n復興の公共工事は【リッチモンド商工会】に\n掻っ攫われたりで、苦しかったところにこれじゃ──=Even so, we had already suffered heavy losses when our airship was destroyed, and the public works for reconstruction was taken over by the [Richmond Chamber of Commerce and Industry]...
@@ -138,7 +138,7 @@ r:"^……だいぶ前の、あのとき……\n陛下が(.{2,10})に言って�
 ひぃっ！\n山賊っ！？=Eeek! Bandits?!
 失礼にゃ！\nあたしは山賊じゃなくて正義の義賊にゃ！\nその積み荷、ちょっと調べさせてもらうにゃー！=Excuse me! I'm not a bandit, but a righteous thief! Let me take a look at that cargo!
 ひぃ～っ！？=Eeeeeek!?
-ダンピング商法？　とんでもない！\n我々【アマルガム貿易】一同は、より良いものをより安く！\nランドソルのみなさまにお届けしようとしているだけですよ。=A pump and dump scheme? Nonsense! All of us in the Amalgam Trade, We are just trying to deliver better products at lower prices to you, the people of Landsol.
+ダンピング商法？　とんでもない！\n我々【アマルガム貿易】一同は、より良いものをより安く！\nランドソルのみなさまにお届けしようとしているだけですよ。=A pump and dump scheme? Nonsense! All of us in the Amalgam Trade, We are just trying to deliver better products at lower prices to you, the people of Landosol.
 なあ、みんな！\nそうだろう？=Hey, guys! Isn't that right?
 もちろんです、支配人！=Of course, boss!
 ううぅ～～～～～ん……=Hmmmmm...
@@ -246,7 +246,7 @@ r:"^最悪の場合……以前の私は、(.{2,10})と、\n敵対する立場�
 誰よっ！？=Who's there?!
 キャルちゃんも、忘れちゃってることがあるんじゃないかな？\n……ううん。\nこの世界のみんなみ〜んな、大事なコトを忘れちゃってたりとかしてね☆=Kyaru-chan, I'm sure you've forgotten some things, too. ...Nope. Everyone in this world might have forgotten something important☆
 2部 第5章 第4話=Part 2 Chapter 5 Episode 4
-修行をしていた【ドラゴンズネスト】をランファが襲撃する。だが能力を開放して戦うホマレに対しランファは苦戦を強いられた。その後、ランドソルに現れたホマレは、シェフィを自分のギルドに勧誘する。=Ranpha attacked the training Dragonsnest. However, she was forced to fight against Homare, who unleashed her power. After that, homare who appeared in Landsol invited Sheffy to join her guild.
+修行をしていた【ドラゴンズネスト】をランファが襲撃する。だが能力を開放して戦うホマレに対しランファは苦戦を強いられた。その後、ランドソルに現れたホマレは、シェフィを自分のギルドに勧誘する。=Ranpha attacked the training Dragonsnest. However, she was forced to fight against Homare, who unleashed her power. After that, homare who appeared in Landosol invited Sheffy to join her guild.
 ──１週間前──=One week ago
 ぜぇ、ぜぇ……=*wheeze, wheze*...
 ひぃぃ、ぶぁぁぁ……\nも、もぉ限界ですぅ……うぷっ……\n臓物が口から自己主張したがってやがるです……=Eeek, buahhh... I-I'm at my limit... Ugh... I wanna throw up.
@@ -308,9 +308,9 @@ r:"^最悪の場合……以前の私は、(.{2,10})と、\n敵対する立場�
 こっちはあなたたちと遊びたくて、\nギャングのみんなを使ってウワサを流してたんだもん。\nこれくらいの準備は、するに決まってるよね～♪=I wanted to play with you, so I used everyone in the gang to spread the barrier. Of course I'd be prepared for this~♪
 それに……ケンカをするなら、勝たなくっちゃ♪\n……どんなコトをしてでも☆=And......if we're going to fight, we have to win♪......no matter what we do☆
 それじゃあ──第２ラウンド、そろそろ始めよっか。\n【レイジ・レギオン】……♪=Well then, let's start round two. [Rage Legion]...♪
-―そして、一週間後。\nランドソル下町地区―=And then, a week later, in the Landsol Downtown District...
+―そして、一週間後。\nランドソル下町地区―=And then, a week later, in the Landosol Downtown District...
 うふふっ……♪=Hehehe...♪
-そんな感じで……【レイジ・レギオン】の子と「遊んだ」私たちは、\n次に面白そうなことがはじまりそうなランドソルへと\n来ちゃったのでした～☆　=That's how... After playing with the [Rage Legion] girl, we ended up in Landsol, where something interesting was about to happen next~☆　
+そんな感じで……【レイジ・レギオン】の子と「遊んだ」私たちは、\n次に面白そうなことがはじまりそうなランドソルへと\n来ちゃったのでした～☆　=That's how... After playing with the [Rage Legion] girl, we ended up in Landosol, where something interesting was about to happen next~☆　
 はじめまして〜☆\n私は【ドラゴンズネスト】っていうギルドのホマレだよ。\nよろしくね、キャルちゃん。=Nice to meet you~☆ I'm Homare of the Dragonsnest guild. Nice to make your acquaintance, Kyaru.
 あ、ど、ども……=Ah, h-hello...
 ……じゃなくって！\nあんた、あたしのこと知ってるの！？=...No, wait! Do you know me?!
@@ -386,7 +386,7 @@ r:"^だってあなたは、覇瞳皇帝の元側近で〜\n今の王女さま�
 ──あぐっ！！！=Agh!!!
 2部 第5章 第5話=Part 2 Chapter 5 Episode 5
 ゴウシンから、ペコリーヌ失脚の手引きをさせられることになったクレジッタ。彼女はペコリーヌを繁華街に呼び出すと食べ物に毒を盛ろうと画策する。そんな最中、彼女らはアゾールドに出会ってしまう。=Creditta had been forced by Goshin to lead Pecorine to her downfall. She had planned to poison Pecorine's food when she summoned her downtown. In the midst of that, they met Azold.
-―翌日・ランドソル繁華街―=The next day, in the Landsol shopping district...
+―翌日・ランドソル繁華街―=The next day, in the Landosol shopping district...
 ばくばくもぐもぐ！\nうーん美味しい！　オープンしたてのタコ焼き屋さんなのに、\nまるでベテランさんの焼き加減です～！=*munch munch munch* Mmm, this is delicious! It's a freshly opened takoyaki shop, but it's just like a seasoned chef's cooking!
 あれっ？\n食べないんですか、クレジッタさん。\nソースと青のりが効いてて、とっても美味しいですよ♪=Huh? Aren't you going to eat it, Mr. Creditta? The sauce and the blue glue are very good. It's delicious♪
 ……普通サイズのタコ焼きが、\nポップコーンみたいに吸い込まれるなんて……\n……見ているだけでもう、わたくしお腹がいっぱいですわ……=...To think that a normal-sized takoyaki would be sucked in like popcorn... Just looking at it is enough to fill my stomach...
@@ -451,7 +451,7 @@ r:"^あれっ、コッコロちゃん？\nそれに(.{2,10})くんも、シェ�
 アゾールド……！=Azold...!
 おやおや。\nそちらにおわすは、【美食殿】のお歴々ではありませんか。\n偶然ですな。=Oh, my. Isn't that the Gourmet Guild over there? What a coincidence.
 とぼけないでください！\n今度は何を企んでいるんですか、【レイジ・レギオン】っ！=Don't play dumb! What are you planning this time, Rage Legion?!
-企むも何も。ワタクシ、ただ食事を楽しんでいるだけなのですが……\n最近では、このランドソルにも\nワタクシの舌を満足させる店が増えたようですし。=There's nothing to plan. I'm just enjoying my meal, but... The lately, there have been more shops here in Landsol that satisfy my palate.
+企むも何も。ワタクシ、ただ食事を楽しんでいるだけなのですが……\n最近では、このランドソルにも\nワタクシの舌を満足させる店が増えたようですし。=There's nothing to plan. I'm just enjoying my meal, but... The lately, there have been more shops here in Landosol that satisfy my palate.
 店が増えた……？　……ハッ！\nもしや【アマルガム貿易】とやらも、\n貴方がたの仕掛けなのではありませんこと！？=More shops...? ...Hah! Could this 'Amalgam Trade' be your plan?!
 そうです！\nキャルちゃんを攫ったのも、貴方じゃないんですか！？=That's right! Isn't it also you who kidnapped Kyaru!?
 ほっほっほ。\nいかなる根拠がおありで？=Hohoho. What is your basis for this?
@@ -478,7 +478,7 @@ r:"^あれっ、コッコロちゃん？\nそれに(.{2,10})くんも、シェ�
 プリンセス・ユースティアナ選手、\n開始の合図と同時に猛烈な勢いでたいらげていくぜ！\n一方のアゾールド選手は、スタートに遅れが見られるようだけど……=Princess Eustiana's starts eating at the same time as the start signal! Azold, on the other hand, seems to be falling behind...
 ……あむ。\nふむふむ……\nこちらの肉厚のケバブサンド、なかなかに美味ですな。=...Hmm. Hmm, hmm... This thick kebab sandwich is quite delicious.
 はぐはぐはぐはぐ！！\nむしゃむしゃがつがつ！！！=*munch munch munch*!! *munc munch munch*!!!
-さあ！\nついに始まりやがったです、ランドソル大食い対決！\n勝つのはどっちだですー！？=Come on! It's finally started! The Landsol big eating contest! Who's going to win?!
+さあ！\nついに始まりやがったです、ランドソル大食い対決！\n勝つのはどっちだですー！？=Come on! It's finally started! The Landosol big eating contest! Who's going to win?!
 味わって食べてる、って感じかなー？\nでも、これは早食い勝負じゃなくて大食い勝負だからねー=I guess it’s like I’m savoring and eating it? But this isn’t a fast-eating contest, this is a big eating contest
 体格……容量の大きさじゃ、\nブタのオッサンのほうが圧倒的です。\nでも、勝負はまだまだわからねーですよ！=In terms of physique...... capacity, the old pig man is overwhelmingly larger than the Princess. But the winner is still to be decided!
 っぷはぁ☆\nすみません、おかわりお願いしまーす♪\n屋台の端から端まで、じゃんじゃんもってきてくださーい！=Pwah! ☆ Excuse me, can I have seconds? ♪ From one end of the stall to the other, please bring me some more!
@@ -492,7 +492,7 @@ r:"^あれっ、コッコロちゃん？\nそれに(.{2,10})くんも、シェ�
 えっ、あれが王女さま？\nホンモノ……？=Huh? Is that the princess? The real one...?
 町人３=Merchant 3
 あーっとユースティアナ選手、\n序盤から一気に突き放しにかかりやがる戦法のようです！=Ahhhh, Eustiana, you seem to have a strategy to push all the way through from the beginning of the game!
-……っていうか……なぁボス。\nなんでオレたち、わざわざランドソルまで来て、\n大食い対決の実況なんてしてるんだ？=...By the way... Hey, Boss. Why do we have to come all the way to Landsol to give a live commentary on the big eating contest?
+……っていうか……なぁボス。\nなんでオレたち、わざわざランドソルまで来て、\n大食い対決の実況なんてしてるんだ？=...By the way... Hey, Boss. Why do we have to come all the way to Landosol to give a live commentary on the big eating contest?
 ふふっ、すごいね～♪\nお腹がはち切れちゃったりしないのかな～？=Hehe, that's amazing♪ I wonder if my stomach's going to burst?
 そ、そーいえばそーですよっ！\n【レイジ・レギオン】のボソボソ女には、\n結局逃げられちゃったですし……=S-Speaking of which, that's right! In the end, the Rage Legion's mumbling woman managed to escape...
 あのオジサンも、【レイジ・レギオン】ってヤツなんだろ？\nあんなカラダしちゃいるけど、相当動けると見た。\nいっぺんケンカしてみたいぜ……！=That old man’s a [Rage Legion] too, isn’t he? He’s so fat, but I can tell he’s pretty good at moving. I’d like to fight him too...!
@@ -860,7 +860,7 @@ r:"^でも……\n馬鹿で、みじめで、みっともなくたって。\n(.{
 あ……ああああーーーーっ！！！=Ah... Aaaahhhh!!!
 2部 第5章 第10話=Part 2 Chapter 5 Episode 10
 助太刀に現れたユイたちと力を合わせ、アゾールドを止めようとするアキノらだったが、【ドラゴンズネスト】の妨害により戦いは混迷を極める。その時、プリンセスフォームへの変身を遂げたキャルが現れ――=Akino and the others joined forces with Yui and the rest who appeared in the suketa to try and stop Azold, but due to the interference of Dragonsnest, the battle became extremely chaotic. Just then, Kyaru, who had transformed into Princess Form, appeared—
-ランドソルの繁華街を舞台に、\n【美食殿】【トゥインクルウィッシュ】【メルクリウス財団】\n【ドラゴンズネスト】【レイジ・レギオン】入り乱れての乱戦が続く──=Set in the shopping district of Landsol, the chaotic melee between The Gourmet Guild, Twinkle Wish, Mercurius Foundation, Dragonsnest, and Rage Legion continued
+ランドソルの繁華街を舞台に、\n【美食殿】【トゥインクルウィッシュ】【メルクリウス財団】\n【ドラゴンズネスト】【レイジ・レギオン】入り乱れての乱戦が続く──=Set in the shopping district of Landosol, the chaotic melee between The Gourmet Guild, Twinkle Wish, Mercurius Foundation, Dragonsnest, and Rage Legion continued
 せええーいっ！！=Yaaaaay!!
 このこのこのーっ！！=Take This, this, and this!!
 ははっ！　やるなテメェら！\nもっと楽しもうぜ！　このケンカをよぉ！\n次はオレ様の番だ！　オラァっ！=Haha! Not bad You guys are good! Let's have more fun! Now its my turn! Heey!
@@ -1021,7 +1021,7 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 コッコロちゃん！=Kokkoro-chan!
 町人たち=The townspeople
 アゾールド？=Azold?
-ユイたちの活躍によってアゾールドは撤退し、ランドソルに再び平和が戻った。後日、ペコリーヌ暗殺に失敗したクレジッタはその責をゴウシンに咎められる。彼が計画を急ぐのにはある理由があるようだが……=Thanks to Yui and the others' efforts, Azold withdrew, and peace returned to Landsol. The ter, Creditta, who failed to assassinate Pecorine, would be blamed by Gosin for that. There seemed to be a reason why he was rushing his plan, but...
+ユイたちの活躍によってアゾールドは撤退し、ランドソルに再び平和が戻った。後日、ペコリーヌ暗殺に失敗したクレジッタはその責をゴウシンに咎められる。彼が計画を急ぐのにはある理由があるようだが……=Thanks to Yui and the others' efforts, Azold withdrew, and peace returned to Landosol. The ter, Creditta, who failed to assassinate Pecorine, would be blamed by Gosin for that. There seemed to be a reason why he was rushing his plan, but...
 そして、アゾールドとの戦いの翌日──=And then, the day after the battle with Azold
 【リッチモンド商工会】のクレジッタは、\n再びゴウシン議長に呼び出しを受けていた。=Creditta of the Richmond Chamber of Commerce had received another summons from Chairman Goshin.
 ──クレジッタ・キャッシュ。\n自分が何をしでかして呼び出されたか……わかっておるだろうな？=Creditta Cash. You know why you've been summoned, right?
@@ -1039,7 +1039,7 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 ……フン。\nならば、貴様はどうすればいい？=...Hmph. In that case, what should you do?
 ……その、議長。\n同感ではありますけれど……\nそう事を急く必要は、ないのではありませんこと？=...Um, Chairman. I agree, but... There's no need to rush things, is there?
 ……あぁん？=...Huh?
-わたくしたちにかかれば、あの甘ったるいお姫さまを孤立させ、\n体の良い傀儡にすることは難しくありません。\n……手荒な方法は、むしろランドソルに混乱を引き起こすだけでは──=With us, it won't be hard to isolate that naive princess and turn her into a good-bodied puppet. ...If anything, rough methods only cause chaos in Landsol
+わたくしたちにかかれば、あの甘ったるいお姫さまを孤立させ、\n体の良い傀儡にすることは難しくありません。\n……手荒な方法は、むしろランドソルに混乱を引き起こすだけでは──=With us, it won't be hard to isolate that naive princess and turn her into a good-bodied puppet. ...If anything, rough methods only cause chaos in Landosol
 黙れッ！！=Shut up!!
 良いか！\nこれまではただ、貴様が少しばかり融通の利く仕事をしてきたからこそ\n便宜を図ってやったまでのこと……！=Listen up! Up until now, I've only been trying to make things more convenient for you because you've been doing a little flexible work...!
 吾輩の言葉の裏も、忖度することができぬ無能であるというのなら──\n貴様の如き木っ端商人、いつでも吹き飛ばせるということを教えてやる！\n貴族議会の権力は、吾輩の手の内なのだからなッ！=If you are incompetent beyond belief, then I will teach you that a mere merchant like you can be blown away at any time! After all, the power of the nobles' council is in my hands!
@@ -1075,19 +1075,19 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 もう、定時もだいぶ過ぎましたし。\n憂さ晴らしに一杯、いかがですか。たまには。=It's already past the appointed time. How about a drink to relieve your worries?
 …………。\nオゴリませんでしてよ？=.........Don't treat me, okay?
 ええ。\n期待なんか、してませんよ。=Yes. I'm not expecting anything from you.
-同日。\nランドソル・某所──=On the same day, at a certain place in Landsol...
+同日。\nランドソル・某所──=On the same day, at a certain place in Landosol...
 ……う、ぅぅ……=......uu, uu......
 ゴウシンさん。=Mr. Goshin.
 ──ヒッ……！=Eeek...!
 こっ、これはこれは……！\nご機嫌、麗しゅう……“救い手”さま……！=W-Well, well...! Good day, my dear savior...!
 ……落ち着いて。\nそう、怯えなくても大丈夫です。=...Calm down. Yes, you don't have to be scared.
 は、はっ……！=H-Hah...!
-あらかた、状況は把握していますよ。\n貴方が提案してくれた、ランドソル王家を転覆させる計画……\nなかなか、上手くいっていないようですね？=I have a general grasp of the situation. The plan you proposed to overthrow the Landsol royal family... It seems things aren't going well, are they?
+あらかた、状況は把握していますよ。\n貴方が提案してくれた、ランドソル王家を転覆させる計画……\nなかなか、上手くいっていないようですね？=I have a general grasp of the situation. The plan you proposed to overthrow the Landosol royal family... It seems things aren't going well, are they?
 そっ、それは、そのっ！\n部下が、無能で、あまりにも無能なものでっ……！\n吾輩はっ……！=Th-That's, umm! My subordinates are incompetent and too inept...! I...!
 ……いけませんね、ゴウシンさん。\n部下の失敗は、組織の長である貴方の失敗でもあります……\n責任ある立場なら、当然ではないでしょうか？=...You shouldn't, Mr. Goshin. Your subordinate's failure is also your failure as the leader of the organization... Isn't it only natural for you to be responsible?
 うぐっ！\nはっ……はい……\nおっしゃる通りで、ございます……=Ugh! Y-Yes... You're right...
 以前にも、お伝えしましたが──\n我らが『神』。\n『この世界』における絶対存在……その降臨の日が、近づいています。=As I've told you before, our 'god'. The absolute existence of this world... The day of its descent is drawing near.
-ですが……\nソルの塔の管理者を僭称するランドソル王家は、\n『神』の邪魔にならないとも限りません。=But... there's no guarantee that the Landsol royal family, who presumptuously claim to be the administrators of The Tower of Sol, won't get in the way of the “god.
+ですが……\nソルの塔の管理者を僭称するランドソル王家は、\n『神』の邪魔にならないとも限りません。=But... there's no guarantee that the Landosol royal family, who presumptuously claim to be the administrators of The Tower of Sol, won't get in the way of the “god.
 ゴウシンさん。\n貴方が、更なる栄達を望まれるのでしたら……\n我らが『神』のため、さらに励むように。=Mr. Goshin, if you wish for more glory... ...then do your best for our 'god'.
 は……はーっ……！=Ha...haaa...!
 はい。\nでは、行ってよろしい。=Yes. Then, you may go.

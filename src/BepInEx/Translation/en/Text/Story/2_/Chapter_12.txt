@@ -1,6 +1,6 @@
-r:"^世界の運命を賭けたゲーム勝負を乗り切ったものの、\n戦いの連続で満身創痍となる(.{2,10})たち。\n彼らはラビリスタの要請で、ランドソルを脱出しようとしていた。$"="Despite having made it through the game of the fate of the world, $1 and the others were still covered in wounds from the series of battles. They were trying to escape Landsol at Labyrista’s request."
+r:"^世界の運命を賭けたゲーム勝負を乗り切ったものの、\n戦いの連続で満身創痍となる(.{2,10})たち。\n彼らはラビリスタの要請で、ランドソルを脱出しようとしていた。$"="Despite having made it through the game of the fate of the world, $1 and the others were still covered in wounds from the series of battles. They were trying to escape Landosol at Labyrista’s request."
 どこまでも、どこまでも……\n枝道や出口もなく、一本道が真っ直ぐに続いておりますね。=Endlessly, endlessly... There are no side paths or exits, just a straight path that continues.
-ランドソルの地下深くに、こんな道を作っちゃうなんて。\nやっぱりラビリスタさん、すごいね！=To create a path like this deep underground in Landsol... Labyrista is truly amazing, after all!
+ランドソルの地下深くに、こんな道を作っちゃうなんて。\nやっぱりラビリスタさん、すごいね！=To create a path like this deep underground in Landosol... Labyrista is truly amazing, after all!
 ああ。それに……\nここならばひとまずは安全、と思っていいのだろうか。\n今クリスティーナやネネカから攻撃されたら、ひとたまりもないが……=Ah, and... Can we consider this place safe for now? If we were attacked by Christina or Neneka here, we'd be in big trouble...
 ……キャルちゃん？\nどうしたんですか、さっきから何度も後ろを振り返って。=...Kyaru? What's wrong? You've been looking back and forth this whole time.
 もしや、何者かが後をつけてきていたり、\nあやしげな魔力を感じる……などでしょうか？=Could it be that someone is following us, or you sense some suspicious magic... Is that it?
@@ -47,7 +47,7 @@ r:"^世界の運命を賭けたゲーム勝負を乗り切ったものの、\n�
 あぁ！\nオラたちんちは、このすぐ上だべ。\n案内は任せてくんろ～♪=Ah! Our house is right above here. Leave it to me to guide you~♪
 寝ちゃってる子は、私が運んでいってあげるわ。\nよいしょっと♪=I'll carry the sleeping girls. Here we go♪
 わぁ！\nほんとにエリザベスパークに着いちゃってる！=Wow! We've really arrived at Elizabeth Park!
-体感では、ランドソルから少し離れたくらいなのにね。\nさすがはラビリスタの作った地下道だ。=Labyrista's tunnel made it only take a short amount of time to get here from Landsol.
+体感では、ランドソルから少し離れたくらいなのにね。\nさすがはラビリスタの作った地下道だ。=Labyrista's tunnel made it only take a short amount of time to get here from Landosol.
 あはは♪\n地下の道だけに、近道ってな♪=Ahaha♪ It's a shortcut, just an underground path.♪
 早く扉を開けて、中に入りましょ。\nラビリスタちゃんたち、首をながーくして待ってるわよ。=Let's open the door and go inside. Labyrista and the others are waiting for you with their heads held high.
 ……「たち」？\nでは、まさか……="others" ? Then, by no means....
@@ -114,9 +114,9 @@ r:"^世界の運命を賭けたゲーム勝負を乗り切ったものの、\n�
 私たちも、クレープの材料の用意とか、それを運ぶのとか。\nお手伝いさせてもらったわ。=We helped prepare the crepes and carry them.
 たっくさんお買い上げしてくれて、感謝感激って気持ちだべ～♪=We are so grateful for the many purchases!♪
 たっくさん働かされて、もうこりごりって気持ちだわ……=I feel like I've been forced to work for a long time...
-思い返せば……数か月前でしたか。\nゴウシン議長の反乱の少し後に、\nラビリスタさまはランドソルを出立なさいましたが……=Thinking back... It was a few months ago, wasn't it? Shortly after Chairman Goshin's rebellion, Lady Labyrista left Landsol...
+思い返せば……数か月前でしたか。\nゴウシン議長の反乱の少し後に、\nラビリスタさまはランドソルを出立なさいましたが……=Thinking back... It was a few months ago, wasn't it? Shortly after Chairman Goshin's rebellion, Lady Labyrista left Landosol...
 r:"^たしか、(.{2,10})のために\n【レイジ・レギオン】からの囮になってくれるって言ってたわよね。\nおかげであたしたちは、しばらく平和に過ごせたけど……$"="You said you'd be a decoy from the [Rage Legion] for $1, right? Thanks to that, we were able to live in peace for a while..."
-それじゃあランドソルの外で、\n【レイジ・レギオン】から逃げ回りつつ\nシズルさんたちとクレープを売って歩いてたってことですか？=So you're saying you were walking outside Landsol, selling crepes with Shizuru and the others while running away from the [Rage Legion]?
+それじゃあランドソルの外で、\n【レイジ・レギオン】から逃げ回りつつ\nシズルさんたちとクレープを売って歩いてたってことですか？=So you're saying you were walking outside Landosol, selling crepes with Shizuru and the others while running away from the [Rage Legion]?
 うん。\nま、そういうことになるかな。=Yeah. Well, I guess that's the way it is.
 えっ、でもさ。\nなんでわざわざ……=Huh? But why would you go out of your way to...
 ……いい機会だし。\n情報交換も兼ねて、ちょっと話を整理しようか。=...This is a good opportunity. Let's exchange information and sort out the details.
@@ -288,7 +288,6 @@ r:"^(.{2,10})たちは、次なる戦いに備え\nエリザベスパークに�
 ！\nお、おにーたんっ……\nおにーたんっ……！=...! Onii-tan... Oni-tan!
 もう大丈夫。=I'm fine now.
 でも、おにーたんがっ……=But Nii-tan...
-r:"^あ……\n(.{2,10})……$"="Oh...$1..."
 ……ご、ごめんなさい。\n私、取り乱してしまったみたいで……=...I-I'm sorry. I guess I lost my cool...
 でも……変なの。\n夢なのに……やけに、あなたのことをはっきり感じる……=But... it's weird. It's just a dream... but I can feel you so clearly...
 ……あなたも？\nひょっとして……普通の夢じゃない？=...You too? Don't tell me... this isn't just a normal dream, is it?
@@ -452,8 +451,8 @@ r:"^(.{2,10})たちがミソラと\nゲーム勝負する、少し前のこと�
 ええ。\n当たり前のことですが、とてもうれしいですね。=Yes. It's only natural, but I'm very happy.
 でもでも。\n『探しもの』のほうは、なかなか見つかりそうにないですね。\nあんなにたくさんの人に聞いたのに……=But, but... I don't think we'll be able to find what we're looking for. We asked so many people...
 『洗脳魔法装置』、かぁ……。覇瞳皇帝が使ってたのは、\n中に人が入れるくらいの大きな箱型のマジックアイテムだったって\n【王宮騎士団（NIGHTMARE）】の団長さんは言ってたけど。=The Brainwashing Magic Device, huh...? The commander of the Knights of the Royal Palace (Nightmare) said that what Omniscient Kaiser used was a box-shaped magic item big enough for a person to fit inside.
-ジュンさん、無事にランドソルに戻っていると良いんですが。\n『装置』を探してくれるって、約束してくれましたし。=Jun, I hope you're back in Landsol safely. You promised to look for the device.
-うん。\n『装置』があるとしたら、ランドソルの可能性は高そうだけど。\nでも……=Yeah. If there's a 'device' there, it's likely Landsol. But...
+ジュンさん、無事にランドソルに戻っていると良いんですが。\n『装置』を探してくれるって、約束してくれましたし。=Jun, I hope you're back in Landosol safely. You promised to look for the device.
+うん。\n『装置』があるとしたら、ランドソルの可能性は高そうだけど。\nでも……=Yeah. If there's a 'device' there, it's likely Landosol. But...
 敵の親玉……\nエリスさんの本拠地に『装置』が置いてあっても、\nぜんぜんおかしくないですよね。むしろそっちのほうが安全ですし。=The enemy boss... It wouldn't be strange at all if there was a device at Eris' home base. In fact, it'd be safer there.
 あの、エリスのとてつもない魔力なら、\nどれだけ遠くからでも洗脳魔法の力が届きそうですからね。=Um, with Eris's tremendous magical power, it seems that the power of brainwashing magic can reach us from any distance.
 うん。\nなにせ、プロデューサーたちを操っちゃうほどだもんね。=Yeah. After all, it's enough to control the producer.
@@ -679,7 +678,7 @@ r:"^一方、牧場入り口。\n目覚めない(.{2,10})たちを守るため�
 簡単だよ。\nこういう時は頭をポカっとやって、\nしばらくお休みしてもらえばいいの。=It's simple. At times like these, you just need to open your head and get some rest.
 甘く見られたものだ。\n峰打ちで我々を抑えようなどと。=She underestimated us. She tried to hold us back with a backhand strike.
 それ、お姉ちゃんが私によくやるやつじゃないですかー！=That's the kind of thing you do to me all the time!
-先日のランドソルで、\nミソラの手伝いをさせられた時のようにはいきませんよ。=It won't be the same as when I was forced to help Misora at Landsol the other day.
+先日のランドソルで、\nミソラの手伝いをさせられた時のようにはいきませんよ。=It won't be the same as when I was forced to help Misora at Landosol the other day.
 やってみなくちゃわかんないよ！\nさっきも言ったけど！=You won't know until you try! Like I said!
 はい！\nポカっとやっちゃいますっ……=Yes! I'm going to do it...
 よそ見をするんじゃない！=Don't look away!
@@ -779,7 +778,7 @@ r:"^ええ、ですが……\n(.{2,10})の力も無しに。\nずいぶんと、
 ダイゴだボケェ！！=It's daigo, idiot!!
 ……さきほどペコリーヌに対して\n送られていた通信魔法は……\n貴方からだったのですか。跳躍王。=...So the communication magic you sent to Pecorine earlier...was from you, Leap King?
 いいえ。\n私には、王女の現在地を知るすべはありませんでした。\nしかし──=No. I had no way of knowing the princess's current location. However...
-ランドソルで、\n胸の大きさと服のセンスが反比例してるお姉さんから\n聞いてきたんですよ！=I heard it from my sister, who's inversely proportional to the size of her breasts and her sense of clothing in Landsol!
+ランドソルで、\n胸の大きさと服のセンスが反比例してるお姉さんから\n聞いてきたんですよ！=I heard it from my sister, who's inversely proportional to the size of her breasts and her sense of clothing in Landosol!
 【カルミナ】のみなさまも！=[Carmina] Everyone!
 セントールスで約束したとおり。\n見つけてきたよ、プロデューサーを助けるための答え！=Just as I promised in Centorus. I found the answer to help the producer!
 ……ほう。\nこれはまた、なんともうれしい第３ラウンドだ……！=...Oh? This is another happy third round...!

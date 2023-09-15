@@ -26,11 +26,11 @@
 まずは……=First...
 ようこそ、助手くん=Welcome, Assistant
 獣人の国『セントールス』へ！=To Centaur, the land of beastfolk!
-広さや人口はランドソルにちょっとばかり負けてるが、\n獣人の戦士たちは鍛え抜かれてる連中ばかりだしな。\n国と国とでガチでやりあったとしても、どう転ぶかわからないぜ。=The size and population are a little outmatched by Landsol's, but the beastfolk warriors are all well-trained people. Even if there's a real fight between nations, I don't know how it'll turn out.
+広さや人口はランドソルにちょっとばかり負けてるが、\n獣人の戦士たちは鍛え抜かれてる連中ばかりだしな。\n国と国とでガチでやりあったとしても、どう転ぶかわからないぜ。=The size and population are a little outmatched by Landosol's, but the beastfolk warriors are all well-trained people. Even if there's a real fight between nations, I don't know how it'll turn out.
 ……とはいっても。\nすんまへんけど……王女はんは、一人で外に出んといてな。\nあんたはんの考えが覇瞳皇帝とは違うって、知ってる獣人も多いけど……=...Still, I'm sorry, but... Knight, don't go outside by yourself. There are a lot of beastfolk who know that your thoughts are different from that of Omniscient Kaiser...
 ントールス～広場～=Main Plaza
 セ=C
-はい。\nランドソルの貴族のひとたちの中には、\n獣人族に恨みを買うようなことをしてしまったひともいますからね。=Yes, I am aware of that. Some of the aristocrats in Landsol have done things that have caused resentment among the beastfolk.
+はい。\nランドソルの貴族のひとたちの中には、\n獣人族に恨みを買うようなことをしてしまったひともいますからね。=Yes, I am aware of that. Some of the aristocrats in Landosol have done things that have caused resentment among the beastfolk.
 こうして手当てをしてくれて、\n匿ってもらえてるだけで、十分ありがたいです。=Just being treated and sheltered like this is more than enough to make me grateful.
 ペコさん、身体は平気？=Pecorine, are you all right?
 ……はい☆\nわたし、これでも結構頑丈ですし……\nジュンさんやトモちゃんたちが、庇ってくれましたので。=...Yes☆ I'm pretty sturdy... Jun-san, Tomo-chan, and the others protected me.
@@ -38,7 +38,7 @@
 ……特に、ユイは……=...Especially Yui...
 あっ、でも。\n鎧の男の人と、半裸の男の人は\nすっごく慌てたカンジで出てっちゃったさ。=Oh, but the armored man and the half-naked man left in a really panic.
 鎧の男の人と、半裸の男の人……\nマサキさまと、ダイゴさまでしょうか。=A man in armor and a half-naked man... Masaki-sama and Daigo-sama, perhaps?
-まだ手当ても途中やったんやけどねえ。\nランドソルに戻るまでのあいだに、\n行き倒れとかにならへんかったらええけど……=I was still in the middle of taking care of him. though. I hope he doesn't collapse or anything before we get back to Landsol...
+まだ手当ても途中やったんやけどねえ。\nランドソルに戻るまでのあいだに、\n行き倒れとかにならへんかったらええけど……=I was still in the middle of taking care of him. though. I hope he doesn't collapse or anything before we get back to Landosol...
 戻れたとしたって、安全とは言い切れないよ。\nランドソルに残っている【動物苑】の連絡員からの通信魔法では、\nあの街が今、とても混乱していると言っていたし。=Even if you could go back, you can't be sure it would be safe. The communication magic from the liaison officer from Elizabeth Park that is still in Landosol says that that city is in a lot of turmoil right now, and...
 混乱……\n……そう、ですよね……=Confusion... That's right...
 r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たちと一緒に空間跳躍してくるなんて\nとんでもない緊急事態だもんな……$"="The princess and the captain of the soldiers, who were seriously injured in the first place, Teleporting with $1 and the others? That's a hell of an emergency..."
@@ -58,7 +58,7 @@ r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たち�
 ……そうですね。\nどう考えても、その辺がうやむやのまま説明するのは無理っぽいです。\nわたしたちを打ちのめした、あの人たちのことを話すためには。=...You're right. No matter how you look at it, it seems impossible to explain that. To tell you about the people who defeated us.
 『現実』……？=Reality'...?
 『あの人たち』……？=Those people'...?
-みなさまの国へと転移してくる、少し前のこと。\nわたくしたちは、ランドソルで破壊活動を繰り返していた\n【レイジ・レギオン】というギルドと戦っていました。=It was a little while before we were transported to your country. We were fighting a guild called the [Rage Legion], which had been active repeatedly in Landsol.
+みなさまの国へと転移してくる、少し前のこと。\nわたくしたちは、ランドソルで破壊活動を繰り返していた\n【レイジ・レギオン】というギルドと戦っていました。=It was a little while before we were transported to your country. We were fighting a guild called the [Rage Legion], which had been active repeatedly in Landosol.
 とても厳しい戦いでしたが、\nなんとか勝利を収めることができて。\nこれで平和になるはずだって、そう思ったんですけれど……=It was a very difficult battle, but we somehow managed to win. I thought this should bring peace, but...
 【レイジ・レギオン】の方々も、\nどうやら利用されていただけのご様子で。\nつまり……彼らを操る、黒幕がいたのです。=The members of the [Rage Legion] were apparently just being used. In other words... there was a mastermind controlling them.
 黒幕……\nあの、仮面の女性ですね。\nエリスという……=The mastermind... That masked woman, right? Her name is Eris...
@@ -112,7 +112,7 @@ r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たち�
 ああっ、こんがらがってきちまった！\nつまり──ミネルヴァってスゲーやつがいて。\nそいつが覇瞳皇帝にやられかかって……=Aaah, this is getting complicated! In other words, there's a guy named Minerva. He's about to be killed by the Omniscient Kaiser...
 どうにかしようとして、その場にいたユイと同じ身体を作った。\nそれがおまえらを倒した、エリスだってことか……？=Trying to do something about it, They made the same body as Yui, who was there. Does that mean Eris was the one who defeated you guys...?
 そうそう、そんな感じそんな感じ！=That's right, that's what it feels like!
-フム、しかし……その【トゥインクルウィッシュ】と\n覇瞳皇帝の戦いは、いつのものだろう。\nこの前のランドソルでの戦いではないよね。=Hmm, but... When was the battle between the Twinkle Wish and the Omniscient Kaiser? It wasn't the last time we fought in Landsol.
+フム、しかし……その【トゥインクルウィッシュ】と\n覇瞳皇帝の戦いは、いつのものだろう。\nこの前のランドソルでの戦いではないよね。=Hmm, but... When was the battle between the Twinkle Wish and the Omniscient Kaiser? It wasn't the last time we fought in Landosol.
 さっきノウェムさんは初対面の私に対して、まるで前に会ったことが\nあるような褒め方をしたけど。それってつまり……\n私や他のみんなが忘れてしまった、何か大きな出来事があったのかな。=Miss Novem just complimented me as if she'd met me before. Does that mean... something big happened that everyone else forgot about?
 いや。忘れたどころか、過去がすべて上書きされたとか。\n『認識の修正』とやらが行われる前と後の、『前』……\nそれがさっき言っていた、『おかしくなる前の世界』なのかな？=No. Not only did she forget, but the past had all been overwritten. Before and after this so-called “correction of perception” took place... Is that the “before” she mentioned earlier? Is that what she meant by “the world before it went crazy”?
 えっ！？　うわっ！\nたったこれっぽっちしか話してないのに\nそこまでわかっちゃうなんて──スゴいな探偵！=Huh?! Whoa! I've only told you this once, and you already know that much? Wow, detective!
@@ -156,11 +156,11 @@ r:"^そもそも大怪我の王女さんや兵士の隊長が\n(.{2,10})たち�
 ゼーンだけじゃなくて。他の【レイジ・レギオン】の生き残りも、\nこの獣人の国には空間跳躍してこなかったみたいだし。\nひょっとしたらあいつら全員、やられちゃってるかも……=Not just Zane. It seems like the other members of the [Rage Legion] didn’t teleport to this beastfolk country, either. Maybe they’ve all been taken out...
 ……ありがとう。\nはっきり言ってくれて。\n私も……ほとんど、キャルと同じ意見だわ……=...Thank you. For saying it so bluntly. I'm...almost of the same opinion as you...
 だ、だって……\n最後にさわった兄さんは……もう、少し冷たくて……=B-But... Nii-san, the last time I touched him... He was a little cold... already...
-……この街に空間跳躍してきたのが、本当に私たちだけなら。\nまだ、兄さんが……ランドソルに残されているなら……=...If we really are the only ones who teleported to this city. If Nii-san...is still in Landsol...
+……この街に空間跳躍してきたのが、本当に私たちだけなら。\nまだ、兄さんが……ランドソルに残されているなら……=...If we really are the only ones who teleported to this city. If Nii-san...is still in Landosol...
 ……迎えに行って、あげなくちゃ……=...I have to go pick him up...
 ……そう、ね。=...Yeah, that's right.
 でも……今はあたしもあんたも、他の連中もボロボロだし。\nまずは寝て、ケガをなんとかしましょ。=But...you, me, and the others are all in shambles right now. Let's go to sleep first and do something about our injuries.
-ランドソルに戻るときは、\nあたしも、ついてってあげるから。=I'll come with you when you go back to Landsol.
+ランドソルに戻るときは、\nあたしも、ついてってあげるから。=I'll come with you when you go back to Landosol.
 ……うん。\n……ありがとう、キャル。=...Yeah. ...Thank you, Kyaru.
 
 2部 第10章 第2話=Part 2 Chapter 10 Episode 2
@@ -219,7 +219,7 @@ r:"^(.{2,10})たちのために、回復魔法を使いっぱなしさ。\nち�
 カスミ、警備の強化ってどういうことさ？=Kasumi, what do you mean by strengthening security?
 敵が来る、ってことやろか？=Does that mean the enemy is coming?
 あくまで、いざという時のための備えだけどね。\n助手くんたちの様子を見たら、暢気にはしていられないよ。=It's just for emergencies, though. I can't just sit back and watch my assistants.
-……つっても、『ランドソルの姫さまが大ケガして転がり込んできた』\nなんてスキャンダル、現場の兵士にまでは伝えられねーから\n本格的な防衛体制にはできねーけどな。=...however, we can't put a full-scale defense system in place because we can't tell the soldiers on the ground about the scandal of the "Princess of Landsol rolling in with a serious injury.
+……つっても、『ランドソルの姫さまが大ケガして転がり込んできた』\nなんてスキャンダル、現場の兵士にまでは伝えられねーから\n本格的な防衛体制にはできねーけどな。=...however, we can't put a full-scale defense system in place because we can't tell the soldiers on the ground about the scandal of the "Princess of Landosol rolling in with a serious injury.
 ……せやなぁ。\nただの里帰りのつもりが\nえらいことになってもうたなぁ。=...Yeah. I was just planning to go back to my hometown, but it turned out to be a big problem.
 ああ。\nけど、あたしらも無関係じゃない。\nユイたちのことももちろんだが、さっきのあいつらの話が本当なら……=Yeah. But it's not like we're uninvolved. Of course, Yui and the others are involved too, but if what they said earlier is true...
 ……うん。\nこの世界が……どこかの誰かの、作り物かもしれないなんて……=...Yeah. To think that this world... might be made by someone...
@@ -336,7 +336,7 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 でも……\nああ。\nもし本当に……わたしがぜんぶ、悪いなら……=But......yeah. If......it's all my fault......
 わ、わたし……=I-I...
 なにが、できるの……？\nどうしたら、いいの……？　=What can I...do...? What should I do...?　
-一方。\nランドソル王宮──=Meanwhile, at the Landsol Royal Palace...
+一方。\nランドソル王宮──=Meanwhile, at the Landosol Royal Palace...
 ……ったく。やっと見つけたー\n捜しちゃったよ、アンタ通信魔法も届かないしさ。=...Geez. I finally found you. I've been looking for you. The communication magic won't reach you, either.
 オクトーさん。\nごきげんよう。=Octo. Good day.
 んー、別にご機嫌はよくないけど……=Hmm, I'm not really in a good mood, but...
@@ -379,7 +379,7 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 っていうかさ、アンタのほうだって。\n『彼女』を元に戻してどうするか、言ってないじゃん？=Actually, you're the one who said it. You haven't told me what you're going to do with "her" when you returned her to normal, did you?
 そう──“神”になろうとしたこの玉座のかつての主。\n覇瞳皇帝もまた、権力者であること自体は\n副次的な余禄だったのでしょう。そう推察しています。=That's right--the former master of this throne, who tried to become a 'god'. Omniscient Kaiser being a powerful person in itself was probably an accessory extravagance. That is my guess.
 フフ。\n大したことではありません。\n私も、地位や権力には興味はありませんから。=Hehe. It's no big deal. I'm not interested in status or power.
-覇瞳皇帝ねえ。\nそういえば、ランドソルの地下のどっかに幽閉されてるらしいけれど。=The Omniscient Kaiser, huh? Come to think of it, I heard she's imprisoned somewhere in the basement of Landsol.
+覇瞳皇帝ねえ。\nそういえば、ランドソルの地下のどっかに幽閉されてるらしいけれど。=The Omniscient Kaiser, huh? Come to think of it, I heard she's imprisoned somewhere in the basement of Landosol.
 もしかして、捜して掘り起こしたりするの？\n迷宮女王の結界とか、解くの面倒くさそうだけど。=Are we going to look for them and dig them up? It’d be a pain to solve Queen Labyrinth’s barrier or something.
 いいえ。\n覇瞳皇帝の持つ情報に興味があるのはミソラさんでしょうし。\nもし捜すなら彼女にお任せしますよ。=No. I'm sure Misora is the one who's interested in the information the Omniscient Kaiser has. If you're looking for her, I'll leave it to her.
 とはいえミソラさんもミソラさんでお忙しいようです。\nしばらくは、危険な札として伏せておくことになるでしょうね。=That said, Misora seems to be busy with something of her own as well. I'm sure she'll be keeping it a secret as well. I guess we will have to keep it down as a dangerous tag for a while.
@@ -400,7 +400,7 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 少なくとも、陛下や少年たちが\n窮地から落ち延びたらしいということです。\n行く先まではわかりませんでしたが……=At the very least, it means that Her Majesty and the boy have escaped from their predicament. I don't know where they're going, but...
 そうですか。\n良かった……=I see. That's good...
 ええまったく。\n不幸中の幸いというやつですわね。=Yes, indeed. It's a blessing in disguise.
-それで。\nランドソルの市中の現状は？\n貴女なら、情報収集くらい済ませているでしょう。=So, what's the current state of Landsol? You've already gathered information.
+それで。\nランドソルの市中の現状は？\n貴女なら、情報収集くらい済ませているでしょう。=So, what's the current state of Landosol? You've already gathered information.
 はい。\n王城に出現した巨大な魔物が姿を消し、戦闘が終わったため\n人々のパニックはひとまず収まったようですが……=Yes. The giant monsters that appeared in the castle disappeared, and with the battle over, the panic of the people has subsided for the time being...
 【レイジ・レギオン】による建造物の損壊はもちろん、\n外門へ殺到したことで負傷する者たち、各地の火事場泥棒など。\n現在進行形で被害が拡大中です。=There is the damage to the buildings caused by the [Rage Legion], of course, but also those injured by the rush to the outer gates, and the fire from all over the country. The damage is still ongoing and expanding.
 仕方ありませんわね！\nそうとわかれば、やることはふたつですわ！\n街の方は貴女に任せます秘書１号！=There's nothing we can do! Now that we know that, there are two things to do! I'll leave the city to you, Secretary 1!
@@ -414,7 +414,7 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 r:"^(.{2,10})たちと分かれ、王都へ向かうぺコリーヌたち。見送った後、カスミは仲間の中に内通者がいる可能性があるため経過を見ようと話す。そんな折、療養していたはずのユイが姿を消してしまう。$"="Pecorine and the others split off from $1 and headed to the capital. After seeing them off, Kasumi spoke to them to see how things were going, since there was a possibility there might be a traitor among their ranks. That was when Yui, who should have been recuperating, disappeared."
 マホさん、それに【自警団（カォン）】のみなさん！\n手当てとごはん、ありがとうございました！=Maho, and everyone from Vigilante! Thank you for treating me and eating!
 r:"^(.{2,10})たちが\n獣人の国にたどり着いてから、二日後──$"="Two days after $1 and the others arrived in the land of beastfolk"
-おいおい。\nランドソルに戻るって本気かよ。\nここにいりゃ、ちったぁ安全だろうに。=Hey, hey. Are you serious about going back to Landsol? You should be safe here.
+おいおい。\nランドソルに戻るって本気かよ。\nここにいりゃ、ちったぁ安全だろうに。=Hey, hey. Are you serious about going back to Landosol? You should be safe here.
 気持ちはありがたいんだけどね。\nでも相手は空間跳躍だって使えるんだし、\n正直、安全なところなんてどこにも無いと思うわ。=I appreciate the offer, but the enemy can also use spatial leap, and I honestly don't think there is any safe place to be.
 はい。なので、時間との勝負です。\n本当はもっときちんとご挨拶したり、\n食べ歩きとかもさせてもらいたいんですけど……=Yes. That's why it's a race against time. Honestly, I'd like to greet you more properly and walk around eating, but...
 えっと……戻らはるんはペコリーヌはん、キャルはん、シェフィはんと\n【王宮騎士団（NIGHTMARE）】のひとらなん？\n王子はんとコッコロはんは……=Let's see... You're going back to Pecorine, Kyaru, Sheffy, and the Knights of the Royal Palace? The prince and Kokkoro-san...
@@ -425,7 +425,7 @@ r:"^本気で戦いになるのなら、\n(.{2,10})にも一緒に来てもら�
 もし危険そうなら、我々が盾となって\n逃げていただくための時間を稼ぐ。\nどれだけ役に立てるかは、わからないが……=If it looks dangerous, we'll use it as a shield to buy time for them to escape. I don't know how useful it will be, but...
 っていうか、みんな身体は平気さ？\nまだ寝てたほうがいいんじゃ……=By the way, is everyone all right? Shouldn't they still be asleep...?
 まー正直、\nそうさせてもらいたい気持ちはやまやまなんだけど……=Well, to be honest, I do want to do that, but...
-ランドソルのプリンセスとして、\nいつまでも街をほったらかしにすることはできません。\n一刻も早く、戻らなくっちゃです。=As the princess of Landsol, I cannot leave the city unattended. I must return as soon as possible.
+ランドソルのプリンセスとして、\nいつまでも街をほったらかしにすることはできません。\n一刻も早く、戻らなくっちゃです。=As the princess of Landosol, I cannot leave the city unattended. I must return as soon as possible.
 うん。\n私も……そのままには、しておけないの。\nゼーンのこと……=Yeah. Me too... I can't leave things as they are. About Zane...
 r:"^コッコロさんと(.{2,10})は、ゆっくり傷を治して。\nこれからますます、大変なことになっちゃいそうだし。$"="Kokkoro-san and $1, take your time healing your wounds. Things are going to get even more serious from here on out."
 あたしはこいつら、放っておくわけにはいかないし。\n……陛下のことも気になるし……=I can't just leave these guys alone. I'm worried about Her Majesty, too...
@@ -459,7 +459,7 @@ r:"^コッコロさんと(.{2,10})は、ゆっくり傷を治して。\nこれ�
 で、ですが。\nやはり、信じられません……\nそのようなこと……=B-But... I still can't believe it...
 一応言っておくけれど、必ずしも本人に\n情報を漏らしてしまっている自覚があるとは限らない。=Just to be clear, she wasn't necessarily aware that she was leaking information to the person in question.
 通信魔法みたいなもので、思考を読み取られているとか。\n体内に、音を拾うマジックアイテムを埋め込まれているとか。\nそういう可能性もある……ちょっと楽観的な見方かもしれないけどね。=It's like communication magic, where you can read people's thoughts. There's a magic item embedded in your body that picks up sound. That's possible... It might be an optimistic view, though.
-内通者……なるほどなぁ。\nそれでランドソルに帰りたい言い張る王女はんらを、\n止めへんかったんやねぇ。=A traitor... I see. So that's why you couldn't stop the princesses from insisting on going back to Landsol.
+内通者……なるほどなぁ。\nそれでランドソルに帰りたい言い張る王女はんらを、\n止めへんかったんやねぇ。=A traitor... I see. So that's why you couldn't stop the princesses from insisting on going back to Landosol.
 みんなを二手に分けて\nどっちの動きがばれちゃうか……見ようってことさ～？=Let's split everyone into two groups and see which of them finds out what we're doing.
 賭けではあるけどね。\nでもエリスが動き出したらどこに誰が、何人居ようと危ないっていうのは\nペコリーヌさんの言う通りだし……=It's a gamble, though. But Pecorine's right that if Eris makes her move, it'll be dangerous no matter where or how many people there are...
 な、なぁ。\nもしかして、王女さんたちの見送りに\nユイたちを呼ばなかったのは……=H-Hey. Could it be that the reason I didn't call Yui and the others to see the princess off was...
@@ -471,7 +471,7 @@ r:"^それじゃあ(.{2,10})っ？\nごはんにするさ？\nそれとも、私
 私にする。=I'll do it.
 は～い♪\nそれなら私らの故郷のフルコース、たっくさん用意するさ～！=Okay♪ Then we'll prepare a full course meal from our hometown!
 そろそろおかゆさんとかだけじゃなくて\n獣人族の手の込んだ料理、王子はんに味わってもらいたいわぁ。=It's about time for the prince to get a taste of not just porridge, but the beastfolk's elaborate cooking as well.
-ああ！　王女さんたちにはあんまり食わせてやれなかったけど……\nランドソルの食事に戻りたくなくなるくらい、\nとびっきりのご馳走でもてなしてやるぜ！=Yeah! I didn't give the prince much to eat, but... I'll treat them to a feast so amazing that they won't want to go back to Landsol's food!
+ああ！　王女さんたちにはあんまり食わせてやれなかったけど……\nランドソルの食事に戻りたくなくなるくらい、\nとびっきりのご馳走でもてなしてやるぜ！=Yeah! I didn't give the prince much to eat, but... I'll treat them to a feast so amazing that they won't want to go back to Landosol's food!
 は～い♪\nまっかせるさ～♪=Okay~♪ Leave it to me~♪
 ええっ！？\n「私にする」って、カオリさんっ……！？=Whaaat!? Kaori-san said she'd do it to me...!?
 r:"^私の踊りで、(.{2,10})を元気にしてあげるさ～！\nたっくさん踊っちゃうよ～！\nあっ、それとも(.{2,10})も一緒に踊るさ～？$"="I'll cheer up $1 with my dance! I'm going to dance a lot! Oh, or will you dance with me, $1?"
@@ -829,9 +829,9 @@ r:"^(.{2,10})が【悪魔偽王国軍（ディアボロス）】から\n通信�
 ──もう。\n世界のどこにも、いないんですよ……★=He's not anywhere in the world anymore......★
 
 2部 第10章 第8話=Part 2 Chapter 10 Episode 8
-急ぎランドソルに帰還したペコリーヌたちは、街の平和な様子に安堵する。ぺコリーヌはジュンに兵士たちの指揮を任せ、シェフィたちと共に王宮へ向かう。カリザはそんな彼女たちの後を密かに尾行していた。=Pecorine and the others were relieved to see the peaceful state of the city as they hurried back to Landsol. Pecorine left Jun in charge of the soldiers and headed to the royal palace with Sheffy and the rest. Kariza was secretly following them.
+急ぎランドソルに帰還したペコリーヌたちは、街の平和な様子に安堵する。ぺコリーヌはジュンに兵士たちの指揮を任せ、シェフィたちと共に王宮へ向かう。カリザはそんな彼女たちの後を密かに尾行していた。=Pecorine and the others were relieved to see the peaceful state of the city as they hurried back to Landosol. Pecorine left Jun in charge of the soldiers and headed to the royal palace with Sheffy and the rest. Kariza was secretly following them.
 ──獣人の国にオクトーが襲撃をかける、少し前。=A little while before Octo attacked the Beastfolk Nation.
-ペコリーヌ、キャル、シェフィ、ジュンは、\nランドソルへ戻るため急いでいた。=Pecorine, Kyaru, Sheffy, and Jun were in a hurry to return to Landsol.
+ペコリーヌ、キャル、シェフィ、ジュンは、\nランドソルへ戻るため急いでいた。=Pecorine, Kyaru, Sheffy, and Jun were in a hurry to return to Landosol.
 ──『霜の道』ッ！=Road of Frost!!
 ひゅうひゅう☆\nはやいですーっ♪=Hyuhyuu☆ It's so fast♪
 平らなところなら、地面を凍らせてしまって──\n荷車の底に氷の刃をつけて、滑ればいいけどっ……=If it's flat, I can just freeze the ground and put a blade of ice on the bottom of the cart...
@@ -869,12 +869,12 @@ r:"^(.{2,10})が【悪魔偽王国軍（ディアボロス）】から\n通信�
 きゃああああっ！？=Kyaaaaah!?
 そして、半日後──=Then, half a day later
 はーっ、くったびれたー\n今日も一日よく働いたぜー=*sigh*, I'm exhausted. I worked hard all day again today.
-全速力で、ランドソルまで戻ってきたのはいいものの……=I'm glad we made it back to Landsol at full speed, but...
+全速力で、ランドソルまで戻ってきたのはいいものの……=I'm glad we made it back to Landosol at full speed, but...
 よっしゃ、日銭も入ったことだし\nどっかで一杯引っかけようぜ兄弟！=Alright, now that we've got the day's coin, let's grab a drink somewhere, bro!
 あーら、そこのお兄さんたちー\nウチ寄ってかなーい？=Oh, are you guys going to stop by my place?
 市民３=Citizen 3
 ……なんだか、拍子抜けするくらい平和なカンジですね。=...It's almost anticlimactically peaceful.
-まー【自警団（カォン）】の連絡網で、\nランドソルがエリスたちに乗っ取られたりしてるわけじゃないことは\nわかってたけどね。=Well, thanks to the Vigilante's communication network, I knew Landsol wasn't being taken over by Eris and the others.
+まー【自警団（カォン）】の連絡網で、\nランドソルがエリスたちに乗っ取られたりしてるわけじゃないことは\nわかってたけどね。=Well, thanks to the Vigilante's communication network, I knew Landosol wasn't being taken over by Eris and the others.
 王宮のほうはともかく……\n街への被害は、そこまで大きくなかったのかしら。=The royal palace was one thing, but... I wonder if the damage to the city wasn’t that great.
 きっとそうです。\nみなさんが頑張ってくれたおかげですね！\n……あれっ？=I'm sure you're right. It's all thanks to everyone's hard work! ...Huh?
 団長～！=Boss~!
@@ -1200,7 +1200,7 @@ r:"^(.{2,10})抜きで、太刀打ちできるかわかんないわよ！\n逃�
 ……っ！\nあぃったたた～～っ！=...! Ow ow ow!
 あ、あれっ？\nごめんさ～っ！=H-Huh? Sorry!
 お、おいおい。\nカオリもあたしも、そんなに強く掴んでねーはずだけど……=H-Hey, hey. Kaori and I aren't supposed to hold on that tightly...
-まったくもう。\nノウェムはん、ランドソルでのケガが治りきっとらへんのに\n無茶ばっかりして！=Geez. Novem-san, your wounds from Landsol won't heal, but you're always so reckless!
+まったくもう。\nノウェムはん、ランドソルでのケガが治りきっとらへんのに\n無茶ばっかりして！=Geez. Novem-san, your wounds from Landosol won't heal, but you're always so reckless!
 そうだね。\n観察している感じじゃ、立っているのも精一杯だろう。=That's right. Judging by the way she's observing, it's probably all she can do to stand.
 しばらくは絶対安静え！\nぶぶ漬けやのうて、おかゆはんようけ食べさせたります！=You'll definitely get some rest for a while! I'll feed her a lot of rice porridge instead of pickles!
 げっ！\n……おかゆも嫌いじゃないけど、どうせなら肉とかのほうがいいなぁ……=Geh! ...I don't hate porridge, but meat and stuff would be better anyway...

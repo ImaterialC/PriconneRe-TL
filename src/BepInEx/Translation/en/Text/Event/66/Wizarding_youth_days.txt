@@ -859,4 +859,4 @@ r:"^……(.{2,10})。\nちょっと歩いてみましょうか。$"="...$1. Let
 これからは、\nもっともっと楽しいことが待ってるんだから！=From now on, there are even more fun things waiting for us!
 さすがキャルちゃん！=That's our Kyaru!
 ったりまえでしょ！\nさ、行くわよ！=Of course! Alright, let's go!
-r:"^束の間の制服デートを楽しむキャルと(.{2,10})。\n慣れ親しんだ帰り道を少しぎこちなく歩く、その二人並んだ青春の影が、\n夕暮れのランドソルに、長く長く、伸びていた──$"="Kyaru and $1, enjoying a brief moment of a uniformed date, walked somewhat awkwardly along the familiar way back. The shadows of their youth, side by side, stretched long into Landsol's evening's golden glow."
+r:"^束の間の制服デートを楽しむキャルと(.{2,10})。\n慣れ親しんだ帰り道を少しぎこちなく歩く、その二人並んだ青春の影が、\n夕暮れのランドソルに、長く長く、伸びていた──$"="Kyaru and $1, enjoying a brief moment of a uniformed date, walked somewhat awkwardly along the familiar way back. The shadows of their youth, side by side, stretched long into Landosol's evening's golden glow."

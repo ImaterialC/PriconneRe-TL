@@ -1,7 +1,10 @@
 おかえりなさいませ、\n主さま=Welcome back,\nAruji-sama
 明日はこちらをご用意して\nお待ちしてますね=I will have this ready\nfor you tomorrow,\nAruji-sama.
 
-sr:"^(.+)×(\d+)を\n獲得しました$"=Receive\n$1 × $2.
-
-sr:"^(.+)×(\d+)\n(.+)×(\d+)を\n獲得しました$"=Receive\n$1 × $2\n$3 × $4.
+sr:"^(?:(.+)(×)(\d+)(\n))?(?:(.+)(×)(\d+)(\n))?(?:(.+)(×)(\d+)(\n))?(.+)×(\d+)を\n獲得しました$"=Receive\n$1$2$3$4$5$6$7$8$9$10$11$12$13×$14
 r:"^(.{3,4}) Anniversary スペシャル$"=$1 Anniversary Special
+
+
+
+
+

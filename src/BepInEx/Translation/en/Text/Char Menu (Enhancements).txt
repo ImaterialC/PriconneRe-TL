@@ -49,7 +49,6 @@ Lv強化=Level Up
 消費装備=Equipment Consumed
 キャラLvとスキルLvのみ強化=Ignore equips
 上限解放する=Uncap
-まとめて強化=Uncap+Lv
 
 装備/作成確認=Equipment/Confirm Creation
 必要作成Pt=Required creation Pt
@@ -287,7 +286,7 @@ RANKボーナス詳細のステータス=Status Details
 女神の秘石ショップ=Divine Amulet Shop
 バトルアリーナショップ=Battle Arena shop
 プリンセスアリーナショップ=Princess Arena shop
-まとめて強化へ=Uncap+Lv
+まとめて強化へ=Auto\nEnhance
 
 
 消費する強化素材=Refine materials consumed

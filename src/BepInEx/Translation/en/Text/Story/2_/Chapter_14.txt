@@ -85,9 +85,9 @@ r:"^『……だって、もし私が……\nユイではなく、\n私が(.{2,1
 『もし、ユイがミソラのいう『悪い子』になって。\nすべて自分に非があると言ったら。\nそして……』=What if Yui ends up being the "bad girl" Misora described. That everything was because of her mistake. And....
 今の彼も、前の彼も同じだと……自分が選ばれたのだと。\nそう、開き直ってしまっていたら。\nそうしたら……私は……=If both the current him and the previous him are the same.... that she's the chosen one. Then, if I had turned on it back then. If I had done so..... then I.......
 ──イさん！\nレイさ～んっ！=Rei-san!\nRei-san!
-……ヒヨリ……？\nもう、ランドソルについたの……？=...Hiyori...?\nHave we already arrived in Landsol...?
+……ヒヨリ……？\nもう、ランドソルについたの……？=...Hiyori...?\nHave we already arrived in Landosol...?
 ううん。\nもうちょっとだけど……\nレイさん、なんだか寝苦しそうで。=No. \nJust a little more... \nRei-san, you seem to be having trouble sleeping.
-それにランドソルに着いたら、戦いになるかもって。\nだからその前に、騎士くんたちと街の近くで合流したほうがいいって、\nたしか、そういう作戦……だったよね？=And when we arrive at Landsol, there might be a battle. So, before that, it would be better to meet up with Kish-kun near the town. I'm pretty sure that was the plan... right?
+それにランドソルに着いたら、戦いになるかもって。\nだからその前に、騎士くんたちと街の近くで合流したほうがいいって、\nたしか、そういう作戦……だったよね？=And when we arrive at Landosol, there might be a battle. So, before that, it would be better to meet up with Kish-kun near the town. I'm pretty sure that was the plan... right?
 そうだったね……ありがとう。=That's right... Thank you.
 ……レイさん？=...Rei-san?
 ……ああ、その……\nおかしな夢を、見てしまって。\n目を逸らそうとしていたことを、自分自身に指摘されるみたいな……=...Ah, well... I had a strange dream.\nIt's like I'm being pointed out by myself that I was trying to look away...
@@ -108,7 +108,7 @@ r:"^『……だって、もし私が……\nユイではなく、\n私が(.{2,1
 ……な、なんだかあたしらしくないこと言っちゃった！\nごめんねレイさん！=...I, I said something that's not like me at all! \nI'm sorry, Rei-san!
 ヒヨリ……=Hiyori...
 ……っ？\nなんだ、遠くのほうから騒ぎの声が……=...?\nWhat's that? I can hear voices of commotion from far away...
-そろそろ、ランドソルのお城が見えてくる頃だけど……\nって、今度は通信魔法っ！？=We should be able to see the castle of Landsol soon...\nWait, communication magic this time?!
+そろそろ、ランドソルのお城が見えてくる頃だけど……\nって、今度は通信魔法っ！？=We should be able to see the castle of Landosol soon...\nWait, communication magic this time?!
 レイ！\nヒヨリ！\n良かった、結構近くまで来てるわね！？=Rei! 
 キャルちゃんっ？\nどうしたの！？=Kyaru-chan? \n What's wrong!?
 どうもこうもないわ、緊急事態よ！\n待ち合わせの場所も変更！\nあんたたち、今すぐランドソルに来なさい！=There's no time to waste, it's an emergency! \nThe meeting place has changed! \nYou all, come to Randsol right away!
@@ -142,7 +142,7 @@ r:"^たぶん、途中で襲われると思うけど！\nそこらへんなら(.
 えっ？\nだ、だれっ？=Huh?\nW-Who?
 あなたは──\nいえ、あなたたちは……！=You──\nNo, all of you...!
 ヒヨリの声=Hiyori's voice.
-r:"^最後のソルオーブを集めた(.{2,10})たちが\nランドソルに戻る、少し前──$"="A little while before $1 and the others returned to Landsol after gathering the last Sol Orbs..."
+r:"^最後のソルオーブを集めた(.{2,10})たちが\nランドソルに戻る、少し前──$"="A little while before $1 and the others returned to Landosol after gathering the last Sol Orbs..."
 ……Rちゃんたち。\nみんな、世界のあちこちで悪い子しちゃってるみたいですねー=......R-chan and everyone, it seems like you've been causing trouble all over the world, huh?
 シャドウをたくさん創るのに、\nわたしの力も結構使っちゃいましたけど。\nでも……=To create a lot of shadows,\nI've used quite a bit of my power.\nBut...
 こうして、『冒険できなくなる世界』に近づけば。\n『世界をリセットする装置』であるエリスさまも\n行動に制限がかからなくなって……=Like this, as we get closer to the "world where we can no longer adventure". Even Lady Eris, who is the "device to reset the world", is no longer restricted in her actions...
@@ -197,7 +197,7 @@ r:"^最後のソルオーブを集めた(.{2,10})たちが\nランドソルに�
 エリスさまったら……\nこらえ性ないんですから。\n恋する乙女は、ってやつですかねー=Eris-sama... You really have no self-control, do you?\nIs this what they call a lovestruck maiden?
 ……エリスさまだけじゃなく。\nランファさんも、他のみなさんも……\n好きとか恋したとか、なにがそんなに楽しいんでしょうか。=...Not just Eris-sama. Even Ranpha-san and everyone else... What is it about liking someone or falling in love that is so enjoyable?
 ま……、わたしには。\nずっとわからないまま……なんでしょうね。=Well... for me.\nI guess I'll never really know.
-──そして現在。\nランドソル市街地では、エリスを完全に覚醒させるため放たれた\n黒い天使のシャドウたちが被害を拡大させていた。=──And now. In the city of Landsol, the shadows of the black angels that were released to fully awaken Eris were causing widespread damage.
+──そして現在。\nランドソル市街地では、エリスを完全に覚醒させるため放たれた\n黒い天使のシャドウたちが被害を拡大させていた。=──And now. In the city of Landosol, the shadows of the black angels that were released to fully awaken Eris were causing widespread damage.
 そっち行ったわよ、ペコリーヌ！\n任せるわ！=They went over there, Pecorine!\nI'll leave it to you!
 はいっ！\nえええーーーいっ！=Yes!\nEeeeeeiiii!
 えっ！？\n王女さまっ！？\n行方不明ってウワサじゃ……=Huh!?\nThe princess!?\nRumors say she's missing...

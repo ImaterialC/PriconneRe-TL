@@ -34,14 +34,14 @@
 え、復縁？　やめた方がよくないです？\n彼女フッてすぐ女学院のフェスに来るような男、だいぶアレですよ。=Eh Reconciliation? A guy who breaks up and then immediately comes to the girls' festival at the academy is a bit sketchy.
 ふふっ、チエルは口だけで、男と女のこと何も知らないからね。\nあんたも恋愛運、あの店で占ってもらった方がいいんじゃない？=Hehe, Chieru is just all talk and doesn't know anything about relationships between guys and girls. You should get your love fortune read at that store too, don't you think?
 恋愛運はちぇるの毛ほども興味ないですけど、\nミィコさんが急にラブ師匠気取りになっちゃうほどの占いは\nちょっと気になりますね。そんなに当たる店なんです？=Love fortunes aren't my cup of tea, but I am intrigued by Mii-chan suddenly acting like a love expert. Is that fortune-telling shop really that accurate?
-ヤバい。もうランドソルの母。=Uh-oh, she's already becoming the "Mother of Landsol."
+ヤバい。もうランドソルの母。=Uh-oh, she's already becoming the "Mother of Landosol."
 ほう……\nとりあえず我々もそこへ行ってみるか……=I see... Anyway, should we go there as well?
 申し訳ございません。\nこちらの出展は、先ほど午前の部が終了いたしました。=I apologize. The exhibit here has already closed for the morning session.
 ええぇー！！=What? No way!
 にべもなし。=Very well.
 母、午後の部オープンまで戻らんって。="Mother won't be back until the afternoon session starts." it said.
 午後になったら、\nうちらも総合リレーとかあるからバタバタしてきますよね。=Yeah, and we'll be busy with the relay and stuff in the afternoon.
-やれやれ、不正捜査はここまでか。\nランドソルの母に、ぼくらの明日でも占ってほしかったものだ。=Sigh, so the cheating investigation ends here. I wish we had Landsol's mother tell our fortunes for tomorrow too.
+やれやれ、不正捜査はここまでか。\nランドソルの母に、ぼくらの明日でも占ってほしかったものだ。=Sigh, so the cheating investigation ends here. I wish we had Landosol's mother tell our fortunes for tomorrow too.
 僕も占ってもらいたかった。=I wanted to have my fortune told too.
 無邪気か。\nいや、ぼくらの明日というのはこの場合、\n皮肉めいた諧謔というか、端的に換言すればお先真っ暗という──=So innocent. No, in this case, when we say "our future," it's more like a sarcastic joke or simply put, it's completely uncertain...
 r:"^すみません、(.{2,10})さんもいらしてたんですね。\nお友達の皆さんも、私でよければ占いましょうか？$"="I'm sorry, $1-san is here too. Friends, would you like me to read your fortunes if you're okay with me?"
