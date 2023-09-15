@@ -23,3 +23,9 @@ r:"^あと (\d{1,2})日$"=$1 days left
 ショップへようこそ\nキャラバンコインはこちら\nで買い物に使えますよ=Welcome to the shop. Caravan Coins can be used for shopping here.
 こちらのショップで\n買い物をして、素敵な\n旅を楽しんでくださいね=Please enjoy shopping at this shop and have a wonderful journey.
 素敵な品が揃ってるので\nたーっくさん買っていって\nくださいねっ♪=There's a lot of great stuff here, so please enjoy shopping!♪
+
+
+ショップへようこそ\nキャラバンコインと品物を\n交換できるんで、よければ=Welcome to the shop! You can exchange Caravan Coins for items here, so feel free.
+いらっしゃいませ\nキャラバンコインを使って\nお買い物ができますよ=Welcome! You can use Caravan Coins to shop here.
+なんで店番なんか…\nま、やりますけど\n好きな品物をどうぞ=Why am I running the shop... Well, I'll do it. Please choose the items you like.
+ショップの掃除は完璧です\n姫さま直営のお店として\n当然のことですから=The shop is perfectly clean. It's a shop directly managed by the princess, so it's only natural.

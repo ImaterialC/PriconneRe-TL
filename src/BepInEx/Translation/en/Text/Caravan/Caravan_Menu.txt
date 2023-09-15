@@ -131,7 +131,18 @@ r:"^\[FF7C4E,D62146\]このコインの使用期限は([0-9/ :]+)までです。
 r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(700)$"=Caravan Coin (Season $1)ｘ$2
 シーズン切り替わり=The Seasons have Changed
 新シーズンが始まったため、\n所持していたトレジャーをコインに変換しました。=Since the new season has begun,\nall your treasure has been converted into coins.
+ショップマス=Shop Tile
+r:"^(\d+)マイルを獲得する。$"=Acquire $1 miles.
+福引券を1枚獲得する。=Acquire 1 lottery ticket.
 
+r:"^RANK(\d+)のマイルショップを開く。$"=Open a RANK$1 mile shop.
+サブ=Sub
+サブ効果=Subeffect
+メイン効果=Main effect
+福引券=Lottery Ticket
+シズルの愛情\n盛り盛りハンバーグ=Shizuru's Love Salisbury Steak
+平凡な未鑑定トレジャーを1個獲得する。=Acquire 1 Ordinary UnAppraised Treasure.
+次にダイスを振った際、1マス多く進める。=The next time roll the dice, has additional 1 tile.
 ---Tutorial Kokkoro---
 皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Let's embark on an adventure with Onigiri-sama on the Gourmet Chaser. Roll the dice and move forward on the map, aiming for the Guild Management Association branch office where Karin-sama is waiting.
 ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach there, the more bonus you can get. Let's exchange coins for items at the shop.

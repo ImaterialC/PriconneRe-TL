@@ -77,3 +77,7 @@ sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\
 スタミナ上限に到達しました。\n獲得したスタミナをプレゼントに送ります。=Your Stamina has reached its maximum. You will receive the stamina in your present box.
 
 所持上限に達しているアイテムがあります。\n対象アイテムは受け取れませんでした。=Item limit reached.\nUnable to receive the designated item.
+
+無料対象キャラは無料分のみの強化になります。=Free characters will only be strengthened for free.
+所持上限を超えて獲得したダイスです。=These are dice obtained beyond the possession limit.
+ダイス=Dice

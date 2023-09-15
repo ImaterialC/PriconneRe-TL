@@ -545,3 +545,7 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 海賊王の義手=Pirate King's Prosthetic Hand
 バリアントマスト=Variant Mast
 フィッシャーマンズソード=Fisherman's Sword
+
+紅海のホイールブローチ=Crimson Sea Wheel Brooch
+蒼海のフローターブローチ=Azure Sea Floater Brooch
+碧海のアンカーブローチ=Jade Sea Anchor Brooch
