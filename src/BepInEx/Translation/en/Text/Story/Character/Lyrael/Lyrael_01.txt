@@ -2,7 +2,7 @@
 ヴルム=Wurm
 ヴォルガーノ=Volgano
 
-r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べながら旅についての雑談をしていた。国を離れる考えがあまりなかった彼女が手にしたのは旅を後押しするフォーチュンクッキーの結果だった。$"="Lyrael and $1 were chatting about travelling while eating sweets from Landosol. She had never thought of leaving her country before until a result from a fortune cookie changed her mind.
+r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べながら旅についての雑談をしていた。国を離れる考えがあまりなかった彼女が手にしたのは旅を後押しするフォーチュンクッキーの結果だった。$"="Lyrael and $1 were chatting about travelling while eating sweets from Landosol. She had never thought of leaving her country before until a result from a fortune cookie changed her mind."
 
 裏世界『ジオ・テオゴニア』──\nその地を治めるプリンセス・ライラエル。\n彼女は今日も玉座につき、臣下からの報告に目を通していた。=The Reverse World "Geo Teogonia"── Princess Lyrael is managing this land. Today too, she is sitting on her throne and receiving reports from her subjects.
 ……これで書類はすべて目を通せたでしょうか。\n今回は大きなトラブルの報告はありませんでしたね。\nなによりです。=...With that, I've read all of the documents.\nThankfully, there is no major incidents this time.
