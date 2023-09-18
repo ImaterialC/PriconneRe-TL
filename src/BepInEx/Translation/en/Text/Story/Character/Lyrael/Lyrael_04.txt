@@ -7,8 +7,8 @@
 おばさん=Aunt
 母親=Mother
 
-r:"^夢の中で、(.{2,10})が出会ったのはどこか人間離れした気配を持つ女性──えるだった。夢の作り主であるティアの力さえも翻弄し、えるは束の間のおままごとを無邪気に楽しむのだった。$"="Inside a dream, $1 met a woman with an unworldly air around her. Even Tia, the dream's creator, was at her mercy while she enjoyed playing house with $1.
-r:"^ある日。\n(.{2,10})は、\nライラエルからお茶に誘われていた。$"=One day, $1 was invited by Lyrael for tea.
+r:"^夢の中で、(.{2,10})が出会ったのはどこか人間離れした気配を持つ女性──えるだった。夢の作り主であるティアの力さえも翻弄し、えるは束の間のおままごとを無邪気に楽しむのだった。$"="Inside a dream, $1 met a woman with an unworldly air around her. Even Tia, the dream's creator, was at her mercy while she enjoyed playing house with $1."
+r:"^ある日。\n(.{2,10})は、\nライラエルからお茶に誘われていた。$"="One day, $1 was invited by Lyrael for tea."
 ──まぁ、そんなことが……？\nヴォルガーノが花束を渡したという女性と、そのお仲間……\nぜひ一度ご挨拶させていただきたいですね。=Is that so...? The woman who gave a bouquet of flowers to Volgano... I would like to greet them at least once.
 自慢の仲間たちですよ。=She's a proud friend of mine.
 ふふっ……ええ。\n楽しみです。=Fufu... I'm looking forward to it.
