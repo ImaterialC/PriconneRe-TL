@@ -82,4 +82,7 @@ sr:"^\[3C404E\](.+)を \[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個獲得しま
 
 再開=Resume
 ミニゲームを中断しました。=The minigame has been suspended.
-もう一度中断した場合、リタイアとなります。=If you interrupt again,\nyou will considered retire.
+もう一度中断した場合、リタイアとなります。=If you interrupt again,\nit will result in retirement.
+一時停止=Pause
+[FF7C4E,D62146]リタイアした場合、集めた報酬は獲得できません。\nまた、再挑戦はできません。[-]=[FF7C4E, D62146]If you retire, you'll not be able to obtain the rewards you have collected.\nAlso, you cannot retry.[-]
+ミニゲームをリタイアしますか？=Do you want to quit the minigame?

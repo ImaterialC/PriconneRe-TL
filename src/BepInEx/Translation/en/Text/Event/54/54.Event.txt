@@ -1,0 +1,51 @@
+マホマホ・ミラクル・ジャーニー！　旅する少女と最果ての大樹=Mahomaho Miracle Journey! The Traveling Girl and the Farthest Tree
+
+綿と旅が紡ぐ物語=A tale of cotton and travel
+
+r:"^最果てを目指す旅路([0-9\-\(\)\w （）]*)$"=Journey to the End $1
+r:"^世界の果ての森([0-9\-\(\)\w （）]*)$"=Forest at the End of the World $1
+ホーリーエンブレイス=Holy Embrace
+ほっと一息、お茶の時間=Relievedly a breath, tea time
+二人のティータイム=Two tea time
+特製の服=Special clothes
+哀執のバロメッツ=Sorrowful Baromets
+目的地はどこに=Where is the destination
+
+夢の鞄に\n詰めるもの=pack in\ndream bag
+寂しい時の\nおまじない=Lonely\ncharm
+冒険のための基礎=Basics for adventure
+バロメッツ=Baromets
+
+スーパー●●●=Super ●●●
+すごい強いアヤネちゃん。=A very strong Ayane-chan.
+石頭のアヤネちゃん。=together with Ayane-chan.
+いつも通りのアヤネちゃん。=Ayane-chan as usual.
+
+モフモフ勝負とは=What is Flufy game?
+リマちゃんも、もこもこ大きくなったりするのかな。=I wonder if Lima will get bigger.
+アヤネちゃんが審判になるのは？=Ayane-chan will be the referee?
+アヤネちゃんも参戦してみよう。=Ayane-chan, let's join the battle.
+
+ぷうきちと一緒に駆けつける。=Rush with Pukichi.
+離れていても気持ちはずっと一緒だよ。=Even if we are apart, our feelings are always together.
+必ず行くよ。=I will definitely go.
+
+冒険しよう！=Let's adventure!
+ランドソルを10周！=10 laps of Landosol!
+いっぱい食べよう。=Let's eat a lot.
+
+フリルやレースを足してみよう。=Let's add frills and laces.
+僕もお揃いが欲しい。=I want a match too.
+マホ姫の新境地だね。=It's a New frontier for Princess Maho.
+
+sr:"^イベント「([\s\S]+)」のスペシャルエピソードが解放されました。$"="A special episode of the event\n"$1"\nhas been unlocked."
+
+【物理】最果ての大樹に住まう伝説の植物羊。老\n人との再会を望み続けたが、その長い時間が彼を\n追い詰め他者を拒絶する魔獣へと変えてしまった。\n\n\n・哀執のバロメッツに毎秒【憂いの棘】を３つ追\n　加する。\n\n・哀執のバロメッツがダメージを受けるたびに哀\n　執のバロメッツの【憂いの棘】を１つ減少させ\n　る。\n\n・ユニオンバーストは、敵全体のバリアを解除し\n　敵全体に哀執のバロメッツの【憂いの棘】の数\n　に応じた物理割合ダメージを与える。\n\n・残りＨＰ割合が少ない敵３キャラに哀執のバロ\n　メッツの【憂いの棘】の数に応じた物理割合ダ\n　メージを与える。\n\n・前方３キャラに哀執のバロメッツの【憂いの\n　棘】の数に応じた物理割合ダメージを与える。=[Physical] A legendary plant sheep that dwells in the farthest tree. It longed to be reunited with an old man, but that long period of time drove him into a corner and turned him into an evil beast that rejected others. ・Adds 3 more Thorns of Woe to the Melancholy Barometz every second. ・Deals Physical Ratio DMG based on the number of Thornss of Worry to the three opposing characters who have low HP. ・Dispels Physical Chance DMG according to the number Of Woe Baromeitz's Thorns to the previous 3 characters.
+
+【物理】最果ての大樹に住まう伝説の植物羊。老\n人との再会を望み続けたが、その長い時間が彼を\n追い詰め他者を拒絶する魔獣へと変えてしまった。\n\n\n・哀執のバロメッツに毎秒【憂いの棘】を４つ追\n　加する。\n\n・哀執のバロメッツがダメージを受けるたびに哀\n　執のバロメッツの【憂いの棘】を１つ減少させ\n　る。\n\n・ユニオンバーストは、敵全体のバリアを解除し\n　敵全体に哀執のバロメッツの【憂いの棘】の数\n　に応じた物理割合ダメージを与える。\n\n・残りＨＰ割合が少ない敵３キャラに哀執のバロ\n　メッツの【憂いの棘】の数に応じた物理割合ダ\n　メージを与える。\n\n・前方３キャラに哀執のバロメッツの【憂いの\n　棘】の数に応じた物理割合ダメージを与える。\n\n・残り体力が25％を切ると哀執のバロメッツ\n　に【憂いの棘】を35個付与する。=[Physical] A legendary plant sheep that dwells in the farthest tree. It longed to be reunited with an old man, but that long period of time drove him into a corner and turned him into an evil beast that rejected others. ・Adds 4 Thorns of Woe to the Melancholy Barometz every second. ・Deals Physical Ratio DMG based on the number of Thornss of Worry to the character who has low HP remaining. ・Drops Physical Chance to the 3 characters in front of you based on Baromez's number of thorns of woe. ・Inflicts 35 Thorns on the character with low HP.
+
+【ＭＯＤＥ１】孤独と猜疑と言う名の被毛に閉じ\n籠った獣を守るが如く、森の魔物たちが冒険者の\n前に立ち塞がる。魔物を制し道を切り開け。\n\n\n・バトル開始時、哀執のバロメッツの物理防御力\n　と魔法防御力を小アップさせる。この防御力\n　アップ効果で上昇した防御力は、バトル中に受\n　ける防御力ダウンスキルの影響を受けない。\n\n・哀執のバロメッツとお供のモンスターから受け\n　るすべてのダメージで発生する、パーティキャ\n　ラのＴＰ回復量を中ダウンさせる。\n\n・哀執のバロメッツは環境効果によるダメージを\n　受けない。\n\n・残りＨＰ割合が少ない敵３キャラに物理割合ダ\n　メージを与える。=【mode 1】The monsters of the forest stand in the way of the adventurers, as if to protect a beast trapped in the fur of solitude and suspicion. Clear a path for the monsters. ・At the start of the battle, the Physical and Magic Defenses of Melancholy Barometz will be slightly increased. This DEF boost will not affect the DEF Decrease skill taken during the battle. ・This will decrease the TP recovery rate of party members created by all the damage taken by Melanietz and his companion. ・The Melantic Baromez will not take DMG from environmental effects. ・Deals Physical DMG to 3 characters with a low HP remaining.
+
+【ＭＯＤＥ２】哀しき羊は被毛の鎧を硬化させ\nあらゆるものを拒絶する。刃も拳も魔法も\n差し伸べられた手でさえも。\n\n\n・バトル開始時、哀執のバロメッツの物理防御力\n　を中アップさせ、魔法防御力を小アップさせる。\n　この防御力アップ効果で上昇した防御力は、バ\n　トル中に受ける防御力ダウンスキルの影響を受\n　けない。\n\n・哀執のバロメッツから受けるすべてのダメージ\n　で発生する、パーティキャラのＴＰ回復量を中\n　ダウンさせる。\n\n・ユニオンバーストは、敵全体のバリアを解除し\n　物理割合ダメージを与える。哀執のバロメッツ\n　が毒、猛毒、呪い、火傷、呪詛の効果を受けて\n　いると、与えるダメージがダウンする。\n\n・残りＨＰ割合が少ない敵３キャラに物理大\n　ダメージを与える。哀執のバロメッツが毒、猛\n　毒、呪い、火傷、呪詛の効果を受けている\n　と、与えるダメージがダウンする。\n\n・哀執のバロメッツが毒、猛毒、呪い、火傷、呪\n　詛の効果を受けると、哀執のバロメッツの\n　物理\n\n・魔法防御力が特大ダウンする。=【mode 2】Sad Sheep hardens her woolen armor and rejects anything and everything. Blades, fists, magic, even her outstretched hand. ・At the start of the battle, the Physical Defense of the Sorrow Barometz increases and increases its magic defense slightly. The Sorcerer's Baromez's DEF increases will not be affected by the Defense Down skill taken during the battle. ・All party members' TP Regeneration will be decreased based on the DMG taken from the SORrow Baromets. ・The Eagle Union Burst will dispel the entire enemy's barrier and deal Physical Ratio DMG. When the Sore's barometz is affected by poison, poison, curse, burn, or curse, damage will be reduced. ・Physical DMG will be dealt to 3 characters with with with low HP remaining. ・Sorrow's Balometz will suffer Physical DMG when the Sick Baromets are affected by Poison, Venom, Curse, Burn, and Curse. ・Mor's Obsessive is poisonous, cursed, curses, and curses. ・Magic Defense of
+
+【ＭＯＤＥ３】老旅人と結んだ約束と臆病な心の\n間で揺れる葛藤は、憂いの棘となり狂気を生む。\nその暴威に立ち向かい、かの獣に想いを届けろ。\n\n\n・バトル開始時、哀執のバロメッツの物理防御力\n　と魔法防御力を小アップさせる。この防御力\n　アップ効果で上昇した防御力は、バトル中に受\n　ける防御力ダウンスキルの影響を受けない。\n\n・哀執のバロメッツから受けるすべてのダメージ\n　で発生する、パーティキャラのＴＰ回復量を中\n　ダウンさせる。\n\n・哀執のバロメッツに毎秒【憂いの棘】を４つ追\n　加する。\n\n・哀執のバロメッツがダメージを受けるたびに哀\n　執のバロメッツの【憂いの棘】を１つ減少させ\n　る。\n\n・ユニオンバーストは、敵全体のバリアを解除し\n　敵全体に哀執のバロメッツの【憂いの棘】の数\n　に応じた物理割合ダメージを与える。\n\n・残りＨＰ割合が少ない敵３キャラに哀執のバロ\n　メッツの【憂いの棘】の数に応じた物理割合ダ\n　メージを与える。\n\n・前方３キャラに哀執のバロメッツの【憂いの\n　棘】の数に応じた物理割合ダメージを与える。\n\n・残り体力が25％を切ると哀執のバロメッツ\n　に【憂いの棘】を20個付与する。=[mode3] The conflict between the promise you made with an old traveler and your cowardly heart becomes a thorn of worry that creates madness. Stand up to that tyranny and convey your feelings to the beast. ・At the start of the battle, the Sorrow Barometz's Physical Defense and Magic Defense will increase slightly. The increased DEF of this skill will not be affected by the Defense Down skill taken during the battle. ・All DMG taken from the SORrow Baromets will decrease the TP recovery rate of party members. ・Adds 4 Thorns of Melancholy to the Scorching Barometers per second. ・When the Sore Barottez takes DMG, the Stinging Baromits of Sorship will decrease by one. ・Union Burst will dispel the entire barrier of the enemy and deal Physical DMG based on the number of Thorns that Sororrows Baroment takes to the entire enemy. ・Low HP remaining 3 to the enemy. ·Characters of SOR 3 to Sorights · Deals of Sting Thorns · Increases of Physical Sors of the S

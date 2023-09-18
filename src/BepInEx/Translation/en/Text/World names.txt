@@ -72,7 +72,7 @@ r:"^(62\.)?プロピーナ岬(.*)$"=$1 Cape Propina $2
 r:"^(63\.)?アパレーユ(?:[・\s]*)?街道・西側(.*)$"=$1 Aparelle Highway (West) $2
 r:"^(64\.)?アパレーユ(?:[・\s]*)?街道・東側(.*)$"=$1 Aparelle Highway (East) $2
 r:"^(65\.)?キャッスル・オブ・パルフェ(?:[・\s]*)?城下町(.*)$"=$1 Castle of Parfait (Town) $2
-r:"^(66\.)?ラモリール平原(.*)$"=$1 Lamorir plains
+r:"^(66\.)?ラモリール平原(.*)$"=$1 Lamorir Plains $2
 
 ---*6 Quest---
 sr:"^([べ-ヺー＆]+)(（.+）)?の解放クエスト$"=$1$2 Ascension Quest

@@ -57,10 +57,11 @@ r:"^レベル(\d)$"=Level $1
 ボーナスレベル=Bonus level
 到達までにかかったターン数=Turns Needed to Reach Checkpoint
 
----Sell Dhises---
-[3B3F4D](.+)を売却して\n[-][FFBB00,CE4F00](\d+)[-][3B3F4D]マイルを獲得しました。[-]=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
+---Sell Dishes---
+r:"^[3B3F4D](.+)を売却して\n[-][FFBB00,CE4F00](\d+)[-][3B3F4D]マイルを獲得しました。[-]$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
 
 ---Lottery---
+福引券=Lottery Ticket
 福引結果=Lottery Results
 所持していた福引券の抽選を行いました。=The Lottery Tickets have been drawn.
 
@@ -68,6 +69,7 @@ r:"^レベル(\d)$"=Level $1
 福引券はチェックポイント到達時に抽選が行われます。=Lottery Tickets will be drawn at the checkpoint.
 福引券を獲得しました。=Received Lottery Ticket.
 福引券獲得=Acquired a Lottery Ticket
+ショップマス=Shop Tile
 
 ---Appraisal---
 鑑定結果=Appraisal Results
@@ -81,6 +83,7 @@ r:"^レベル(\d)$"=Level $1
 ---Treasure List---
 所持トレジャー一覧=Possessed Treasure List
 トレジャーを所持していません。=No Treasure in your possession.
+現在トレジャーを所持していません。=You don't possess any treasure on you at the moment.
 
 ---Shop at Map---
 マイルショップ=Mile Shop
@@ -108,6 +111,9 @@ r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B
 特殊系=Special
 補助系=Support
 移動系=Movement
+サブ=Sub
+サブ効果=Subeffect
+メイン効果=Main effect
 料理詳細=Dish Details
 獲得料理=Acquired Dish
 以下の料理を獲得しました。=Obtained the following Dishes:
@@ -125,24 +131,14 @@ r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]/8\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/8[-]
 
 現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or cooking.\n\nIs that all right?
+
 ---New Season---
 
 r:"^\[FF7C4E,D62146\]このコインの使用期限は([0-9/ :]+)までです。\[-\]$"=[FF7C4E,D62146]This coin can be used until $1.[-]
 r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(700)$"=Caravan Coin (Season $1)ｘ$2
-シーズン切り替わり=The Seasons have Changed
+シーズン切り替わり=New Caravan Season
 新シーズンが始まったため、\n所持していたトレジャーをコインに変換しました。=Since the new season has begun,\nall your treasure has been converted into coins.
-ショップマス=Shop Tile
-r:"^(\d+)マイルを獲得する。$"=Acquire $1 miles.
-福引券を1枚獲得する。=Acquire 1 lottery ticket.
 
-r:"^RANK(\d+)のマイルショップを開く。$"=Open a RANK$1 mile shop.
-サブ=Sub
-サブ効果=Subeffect
-メイン効果=Main effect
-福引券=Lottery Ticket
-シズルの愛情\n盛り盛りハンバーグ=Shizuru's Love Salisbury Steak
-平凡な未鑑定トレジャーを1個獲得する。=Acquire 1 Ordinary UnAppraised Treasure.
-次にダイスを振った際、1マス多く進める。=The next time roll the dice, has additional 1 tile.
 ---Tutorial Kokkoro---
 皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Let's embark on an adventure with Onigiri-sama on the Gourmet Chaser. Roll the dice and move forward on the map, aiming for the Guild Management Association branch office where Karin-sama is waiting.
 ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach there, the more bonus you can get. Let's exchange coins for items at the shop.
