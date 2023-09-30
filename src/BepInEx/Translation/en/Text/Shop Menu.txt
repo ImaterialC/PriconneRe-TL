@@ -111,8 +111,11 @@ r:"^([0-9/]+) 枚$"=$1 Coin
 そのまま購入=Purchase as it is
 r:"^([0-9,]+)で購入$"=Purchase at $1
 ★6才能開花に必要な数を超えています。=Exceeds the number required for *6 Ascension.
-[FF7C4E,D62146]専用装備作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE.[-]
-[FF7C4E,D62146]専用装備作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE.[-]
+[FF7C4E,D62146]専用装備１作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-1.[-]
+[FF7C4E,D62146]専用装備１作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-1.[-]
+[FF7C4E,D62146]専用装備２作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-2.[-]
+[FF7C4E,D62146]専用装備２作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-2.[-]
+
 キャラLv限界突破に必要な数が含まれています。\n専用装備の上限解放に必要な数を購入できます。=Contains the number required to break character Lv limit.\nYou can purchase the number required to unlock the limit of exclusive equipment.
 特定の強化分の購入数を超えています。\nそのまま購入しますか？=Exceeded the number of purchases for a UE enhancement.\nDo you want to buy it as is?
 ★5に必要な個数まで指定できます。=You can specify up to the number you need for ★5.

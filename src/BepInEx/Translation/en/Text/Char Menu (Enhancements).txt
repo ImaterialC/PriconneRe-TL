@@ -288,6 +288,11 @@ RANKボーナス詳細のステータス=Status Details
 プリンセスアリーナショップ=Princess Arena shop
 まとめて強化へ=Auto\nEnhance
 
+まとめておまかせランクアップ確認=Auto Enhance: Rank-up Confirmation
+まとめておまかせランクアップ完了=Auto Enhance: Rank-up Complete
+以下のアイテムを消費してランクアップしますか？=Spend the following items to rank up?
+ランクアップ対象キャラ=Rank-up target character(s)
+
 
 消費する強化素材=Refine materials consumed
 以下のアイテムを消費して専用装備を強化します。\nよろしいですか？=Consumes the following items to refine the Unique Equipment.\nIs it OK?
@@ -337,8 +342,6 @@ RANKボーナス詳細のステータス=Status Details
 
 キャラは、最大★６まで才能開花できます。★５まで才能開花すると、ＥＸスキルがＥＸスキル＋となり、さらにパワーアップしますよ。=Characters can be ascended up to ★6.\nReaching ★5 will transform the character's EX skill to an EX skill+, making them even more powerful.
 
-専用装備を装備したら、★6才能開花に必要なアイテムを集めましょう。「ピュアメモリーピース」はメインクエストのVERY HARD、「プリンセスオーブ」は神殿調査から入手できますよ。=After equipping their UE, gather the necessary items to upgrade a character to ★6. Pure Memory Shards can be obtained from VH stage, and Princess Orbs from Temple Trek.
-
-専用装備１を装備したら、★6才能開花に必要なアイテムを集めましょう。「ピュアメモリーピース」はメインクエストのVERY HARD、「プリンセスオーブ」は神殿調査から入手できますよ。=After equipping their 1st UE, gather the necessary items to upgrade a character to ★6. Pure Memory Shards can be obtained from VH stage, and Princess Orbs from Temple Trek.
+専用装備１を装備したら★6才能開花に必要なアイテムを集めましょう。\n「ピュアメモリーピース」はメインクエストのVERY HARD、\n「プリンセスオーブ」は神殿調査から入手できますよ。=After equipping their 1st UE, gather the necessary items to upgrade a character to ★6. Pure Memory Shards can be obtained from VH stage, and Princess Orbs from Temple Trek.
 
 最後に、解放クエストをクリアすると才能開花ができます。ステータスに加え、ユニオンバーストもパワーアップしますよ。みなさまの真の力の解放を目指して頑張りましょう。=Finally, must complete the character's Ascension Quest. If you succeed, both their stats and their UB will be upgraded. Please do your best to unlock our friend's true power.

@@ -20,7 +20,6 @@ Suzuna
 Skills
 UB
 ハートブレイク=Heart Breaker
-
 目の前の敵１キャラに物理特大ダメージを与える。このスキルは必ずクリティカルする。=Deals large P.DMG to an enemy directly in front. This always results in a critical hit.
 S1
 目の前の敵１キャラに物理中ダメージを与える。このスキルは必ずクリティカルする。=Deals moderate P.DMG to an enemy directly in front. This always results in a critical hit.
@@ -37,8 +36,11 @@ S1
 目の前の敵１キャラに計３回ヒットし、クリティカル時のダメージが２倍ではなく３倍になる物理大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Hits 1 enemy in front of you 3 times in total, dealing large P.DMG that 3x the damage of a critical hit instead of 2x it. This skill's 1-hit damage is always a critical hit.
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ$"=Deals $1 P.DMG to an enemy.\nDeals $2 P.DMG to an enemy.\nDeals $3 P.DMG to an enemy.
 S2
-
+カリスマオーラ♪+=Charisma Aura ♪ +
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを15％アップ\n自分のＴＰを150回復$"=►Increases P.ATK by $1.\n►Increases P.Crit DMG by 15%.\n►Increases own TP by 150.
+自分の物理攻撃力を特大アップ、\n物理攻撃クリティカル時のダメー\nジを小アップし、ＴＰを中回復す\nる。=Increases P.ATK and P.Crit DMG. Recovers own TP.
 ex
 もにカワフィーリング+=Super Cute Sensation+
 UE
 クリティカルキス=Critical kiss
+

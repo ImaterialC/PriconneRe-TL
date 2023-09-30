@@ -815,10 +815,6 @@ r:"^それだけじゃない。\n今はユイが、ヒヨリが、(.{2,10})が�
 ちっ、またかよ！=Tch, not again!
 それじゃあコッチは……\nランファさん、がんばれがんばれ♪=Then this is... Ranpha-san, do your best♪
 おおおおおお～っ！！=Ooooooohhhh!!
-キャラLvと\\nスキルLvのみ強化=Character Lv and \\nSkill Lv only strengthened
-フラグメントを\\n消費する=Consume Fragments
-[FF7C4E,D62146]専用装備１作成に必要な数を超えています。[-]=[FFF7C4E, D621446] This exceeds the required number to create 1 personal equipment. [--]
-[FF7C4E,D62146]専用装備１作成に必要な数を所持しています。[-]=[FFF7C4E, D621446] You have the necessary number to make your personal equipment 1. [--]
 設定されている周回数と時間短縮がリセットされます。\nよろしいですか？=The set number of laps and time limit will be reset. Is that all right?
 魔法を使った、精神的な干渉ってことかしら……\nユイさんの場合は、夢の中でおどかされて目覚めたみたいだけど。=I guess it's a mental interference using magic... In Yui-san's case, it seems she woke up after being frightened in a dream.
 では、夢に干渉した【レイジ・レギオン】の側が\nそのつもりにならない限り、\n主さまはお目覚めにならないということでしょうか？=So, as long as the Rage Legion side doesn't intend to interfere with your dreams, you won't wake up, My Lord?
