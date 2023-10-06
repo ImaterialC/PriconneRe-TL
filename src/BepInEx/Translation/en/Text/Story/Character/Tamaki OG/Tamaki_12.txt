@@ -81,7 +81,7 @@ r:"^こいつは……こいつだけは、\n絶対に逃がしちゃいけな�
 ファントムキャッツは狙った獲物をのがさない……\nだから、両方いただくにゃ！！=The Phantom Cat never let go of their prey...\nthat's why, we'll take both of them~nya!!
 にゃにゃーん！！=Nya-nyan!!
 な、なんだこの猫の大群は！？\nや、やめろぉ！\n俺は猫アレルギーなんだぁ～～！！=Wh, what is this horde of cats!? St, stop it! I'm allergic to cats~!!
-r:"^(.{2,10})！\n今のうちに逃げるにゃ～～！！！！$"=Cornelia!\nNow's your chance to escape~nya!!
+r:"^(.{2,10})！\n今のうちに逃げるにゃ～～！！！！$"=$1!\nNow's your chance to escape~nya!!
 くそっ！\n逃がすんじゃねえぞおまえら！\n後を追って……ん？　あれは？=Damn it!\nDon't let them get away!\nFollow them... huh? What's that?
 怪しい集団を見たという通報があったから来てみれば……\nファントムキャッツの周りには、猫の大群が出没するという情報がある！\nファントムキャッツがいるかもしれんから、付近を探索しろ！=We got a report that a suspicious group was seen here... there's information that a horde of cats appears around the Phantom Cat! They might be here, so search the area!
 あ～～王宮騎士さま、\nとてもとてもとてもいいところにぃ～～！！=Ahh~ Royal Knight-sama,\nyou came to a very very very good time~!!

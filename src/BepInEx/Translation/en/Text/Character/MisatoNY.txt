@@ -16,7 +16,7 @@ r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリ
 味方全体の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに、ＴＰを小回復する。=Large boost the allies' P.ATK, moderately boost the P.crit, and recovers a small amount of TP.
 
 ニューイヤーアフェクション=New Year Affection
-r:"^味方単体のＨＰを(\d+)回復\n範囲内の味方の物理攻撃クリティカル時のダメージを16％アップ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.59s.\n►Recovers an ally's HP by $1.\n►Boosts P.Crit dmg of all allies within 200 range by 16% for 12s.\n►Boosts allies' M.DEF within 200 range by $2 for 12s.
+r:"^味方単体のＨＰを(\d+)回復\n範囲内の味方の物理攻撃クリティカル時のダメージを16％アップ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.59s.\n►Recovers an ally's HP by $1.\n►Boosts P.Crit dmg of all allies within 200 range by 16% for 12s.\n►Boosts allies' P.ATK within 200 range by $2.\n►Boosts allies' M.DEF within 200 range by $3 for 12s.
 最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに、そのキャラを中心とした範囲内の味方すべての物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、魔法防御力を大アップさせる。=Moderately restores the HP of the lowest's chara HP, Large boost the allies' P.ATK within range centering on that chara, and slightly boost the P.crit dmg, Large boost M.DEF.
 
 ニューイヤーズスマイル=New Year's Smile

@@ -70,7 +70,7 @@ r:"^…………ねえ(.{2,10})。\nちょっとそこに正座…………$"=..
 用事を思い出した。=I remembered something important.
 r:"^──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\n(.{2,10})に、乙女の怒りをぶつけるのであった。$"=──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon $1.
 あ～！\nこら待つにゃ～！\nちょっと引っかかせろにゃ～！=Ah~! Wait~nya! Let me catch you~nya!
-──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\nCorneliaに、乙女の怒りをぶつけるのであった。=──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon $1.
+r:"^──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\n(.{2,10})に、乙女の怒りをぶつけるのであった。$"="──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon $1."
 
 
 

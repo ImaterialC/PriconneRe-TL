@@ -1,34 +1,35 @@
 Summer Suzume Summer Suzume 
----Profile
+---Profile---
 スズメ（サマー）=Summer Suzume 
 お嬢さまのためにがんばるドジっ娘メイド=A clumsy maid who works hard for her mistress
 
----Skills
----UB
+---Skills---
+---UB---
 トロピカルバケーション=Tropical Vacation
 味方全体の物理防御力と魔法防御力を小アップさせ、さらに継続ＨＰ回復状態を付与する。=Small boost to allies' P.DEF and M.DEF. Grants HP regen to all allies.
 r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する$"=Boosts allies' P.DEF by $1.\nBoosts allies' M.DEF by $1.\nRecovers HP by $1 every second.
----S1
+---S1---
 【召喚】自分の前に、目の前の敵１キャラを攻撃するぷちゴーレムを召喚する。=[Summon] Summons a mini-golem in front of oneself, which attacks an enemy directly in front.
-r:"^ぷちゴーレムを召喚する$"=Summons a Mini-Golem.
----S2
+ぷちゴーレムを召喚する=Summons a Mini-Golem.
+---S2---
 一番前の味方を中心とした範囲内の味方すべての魔法防御力を中アップさせる。=Moderate boost to allies' M.DEF in a radius around the foremost ally.
 r:"^範囲内の味方の魔法防御力を(\d+)アップ$"=Boosts allies' M.DEF within range by $1.
----ex
+---ex---
 トロピカルメイド=Tropical Maid
 バトル開始時に自分の魔法防御力を中アップさせる。=Moderate boost to own M.DEF at start of battle.
 r:"^自分の魔法防御力を(\d+)アップ$"=Boosts own M.DEF by $1.
 
----Skills+
----UB
+---Skills+---
+---UB---
 
----S1
+---S1---
 【召喚】自分の前に、目の前の敵１キャラを攻撃するぷちゴーレムを召喚し、さらに一番前の味方の周囲に物理防御力と魔法防御力を大アップさせるフィールドを展開する。=[Summon] In front of yourself, you summon Petit Golem, which attacks one enemy in front of you, and develop a field that Large improves P.DEF and M.DEF around the front ally.
 r:"^ぷちゴーレムを召喚する\n物理防御力を(\d+)アップさせるフィールドを展開する\n魔法防御力を(\d+)アップさせるフィールドを展開する$"=Summon Petit Golem\nExpanding a field to increase P.DEF $1\nExpanding a field to increase the M.DEF $1
----S2
----ex
+---S2---
+---ex---
 トロピカルメイド+=Tropical Maid+
 バトル開始時に自分の魔法防御力を中アップさせ、さらに物理防御力を小アップさせる。=Moderate boost to own M.DEF and small boost to own P.DEF at start of battle.
+
 r:"^自分の魔法防御力を(\d+)アップ\n自分の物理防御力を(\d+)アップ$"=Boosts own M.DEF by $1.\nBoosts own P.DEF by $1.
----UE
+---UE---
 陽杖シャインサンデー=Sun Stick Shine Sunday

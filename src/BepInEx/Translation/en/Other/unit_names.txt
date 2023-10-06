@@ -194,7 +194,7 @@
 ツムギ（サマー）=Tsumugi (Summer);STsumugi;Summer;Swimsuit;Bikini
 アカリ（サマー）=Akari (Summer);SAkari;Summer;Swimsuit;Bikini
 ヨリ（サマー）=Yori (Summer);SYori;Summer;Swimsuit;Bikini
-ミヤコ（サマー）=Miyako;Pudding (Summer);SMiyako;SPudding;Summer;Swimsuit;Bikini
+ミヤコ（サマー）=Miyako (Summer);Pudding (Summer);SMiyako;SPudding;Summer;Swimsuit;Bikini
 イリヤ（サマー）=Illya (Summer);Ilya (Summer);SIllya;SIlya;Summer;Swimsuit;Bikini
 シノブ（サマー）=Shinobu (Summer);SShinobu;Summer;Swimsuit;Bikini
 モニカ（サマー）=Monika (Summer);SMonika;Summer;Swimsuit;Bikini
@@ -282,7 +282,7 @@
 ツムギ（ハロウィン）=Tsumugi (Halloween);HTsumugi;Halloween
 アカリ（ハロウィン）=Akari (Halloween);HAkari;Halloween
 ヨリ（ハロウィン）=Yori (Halloween);HYori;Halloween
-ミヤコ（ハロウィン）=Miyako;Pudding (Halloween);HMiyako;HPudding;Halloween
+ミヤコ（ハロウィン）=Miyako (Halloween);Pudding (Halloween);HMiyako;HPudding;Halloween
 イリヤ（ハロウィン）=Illya;Ilya (Halloween);HIllya;Ilya;Halloween
 シノブ（ハロウィン）=Shinobu (Halloween);HShinobu;Halloween
 モニカ（ハロウィン）=Monika (Halloween);HMonika;Halloween
@@ -370,7 +370,7 @@
 ツムギ（クリスマス）=Tsumugi (Holiday);XTsumugi;Holiday;Christmas;Xmas
 アカリ（クリスマス）=Akari (Holiday);XAkari;Holiday;Christmas;Xmas
 ヨリ（クリスマス）=Yori (Holiday);XYori;Holiday;Christmas;Xmas
-ミヤコ（クリスマス）=Miyako;Pudding (Holiday);XMiyako;XPudding;Holiday;Christmas;Xmas
+ミヤコ（クリスマス）=Miyako (Holiday);Pudding (Holiday);XMiyako;XPudding;Holiday;Christmas;Xmas
 イリヤ（クリスマス）=Illya;Ilya (Holiday);XIllya;Ilya;Holiday;Christmas;Xmas
 シノブ（クリスマス）=Shinobu (Holiday);XShinobu;Holiday;Christmas;Xmas
 モニカ（クリスマス）=Monika (Holiday);XMonika;Holiday;Christmas;Xmas
@@ -458,7 +458,7 @@
 ツムギ（ニューイヤー）=Tsumugi (New Year);NyTsumugi;New Year;Kimono
 アカリ（ニューイヤー）=Akari (New Year);NyAkari;New Year;Kimono
 ヨリ（ニューイヤー）=Yori (New Year);NyYori;New Year;Kimono
-ミヤコ（ニューイヤー）=Miyako;Pudding (New Year);NyMiyako;NyPudding;New Year;Kimono
+ミヤコ（ニューイヤー）=Miyako (New Year);Pudding (New Year);NyMiyako;NyPudding;New Year;Kimono
 イリヤ（ニューイヤー）=Illya;Ilya (New Year);NyIllya;Ilya;New Year;Kimono
 シノブ（ニューイヤー）=Shinobu (New Year);NyShinobu;New Year;Kimono
 モニカ（ニューイヤー）=Monika (New Year);NyMonika;New Year;Kimono
@@ -634,7 +634,7 @@
 ツムギ（オーエド）=Tsumugi (Ooedo);OTsumugi;Ooedo
 アカリ（オーエド）=Akari (Ooedo);OAkari;Ooedo
 ヨリ（オーエド）=Yori (Ooedo);OYori;Ooedo
-ミヤコ（オーエド）=Miyako;Pudding (Ooedo);OMiyako;OPudding;Ooedo
+ミヤコ（オーエド）=Miyako (Ooedo);Pudding (Ooedo);OMiyako;OPudding;Ooedo
 イリヤ（オーエド）=Illya (Ooedo);Ilya (Ooedo);OIllya;oIlya;Ooedo
 シノブ（オーエド）=Shinobu (Ooedo);OShinobu;Ooedo
 モニカ（オーエド）=Monika (Ooedo);OMonika;Ooedo
@@ -722,7 +722,7 @@
 ツムギ（フォールン）=Tsumugi (Fallen);FTsumugi;Fallen
 アカリ（フォールン）=Akari (Fallen);FAkari;Fallen
 ヨリ（フォールン）=Yori (Fallen);FYori;Fallen
-ミヤコ（フォールン）=Miyako;Pudding (Fallen);FMiyako;FPudding;Fallen
+ミヤコ（フォールン）=Miyako (Fallen);Pudding (Fallen);FMiyako;FPudding;Fallen
 イリヤ（フォールン）=Illya (Fallen);Ilya (Fallen);FIllya;FIlya;Fallen
 シノブ（フォールン）=Shinobu (Fallen);FShinobu;Fallen
 モニカ（フォールン）=Monika (Fallen);FMonika;Fallen

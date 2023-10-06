@@ -29,7 +29,7 @@
 ラ=La
 ンドソル～飲食店～=Ndsol Restaurant
 ちょっとぉ！\nいい加減教えなさいよ！=Hey! Tell me already!
-あっ、あれですね！　Corneliaくんの\nプリンセスナイトの力がグレードアップした、\n『プリンセスフォーム』！　……らしいですよ☆=Ah, that's it! It's the 'Princess Form' that Cornelia's Princess Knight's power has upgraded! ...Apparently☆
+r:"^あっ、あれですね！　(.{2,10})くんの\nプリンセスナイトの力がグレードアップした、\n『プリンセスフォーム』！　……らしいですよ☆$"="Ah, that's it! It's the 'Princess Form' that $1's Princess Knight's power has upgraded! ...Apparently☆"
 『プリンセスフォーム』……\nやはり、あれは主さまのお力によるものだったのですね。=Princess Form'... I knew it. It was thanks to Master's power.
 でも、らしいってどういうこと？=But what do you mean by “apparently”?
 名前はネネカさんが付けてくれたんです。\n「呼び名がないと面倒でしょう」って。=Neneka gave me a name: “It’d be a pain if I didn’t have a name.
@@ -40,9 +40,9 @@
 肉まん、ごちそうさまでした！　とっても美味しかったです！=Thank you for the meat bun! It was really good!
 えっと……それで、御用件はなんですか？\nわざわざ警備の目をごまかして来たってことは、\nわたしになにか、大事な話があるってことですよね？=Umm... So, what can I do for you? If you came all the way out here to deceive the guards, that means you have something important to discuss with me, right?
 そうですね。\nまずは単刀直入に、こうお伝えしましょう。=That's right. Let's get straight to the point.
-──世界の危機です、陛下。\nおそらく太刀打ちできるのは、\nCorneliaだけ……=-The world is in danger, Your Majesty. The only one who can match her is Cornelia...
+r:"^──世界の危機です、陛下。\nおそらく太刀打ちできるのは、\n(.{2,10})だけ……$"="-The world is in danger, Your Majesty. The only one who can match her is $1..."
 えええっ！？\n世界の危機……ですかっ！？=Whaaat?! The world's in danger...?!
-それに、太刀打ちできるのがCorneliaくんだけって！\nあの人はいま、それどころじゃないっていうか……剣よりも\nおしゃぶりが似合っちゃいそうな感じ、なんですけどっ！？=And you're the only one who can match her! She's not in the mood for that right now... I feel like sucking suits her better than swords!
+r:"^それに、太刀打ちできるのが(.{2,10})くんだけって！\nあの人はいま、それどころじゃないっていうか……剣よりも\nおしゃぶりが似合っちゃいそうな感じ、なんですけどっ！？$"="And you're the only one who can match her $1-kun! She's not in the mood for that right now... I feel like sucking suits her better than swords!"
 そうですね。\n知っています。=That's right. I know.
 ……そもそも。\nいま、彼が生きていること……それすらもが、奇跡に等しい。\nあなたも良くご存知でしょう、陛下？=...In the first place, the fact that he’s alive right now...is practically a miracle. You know that well, don’t you, Your Majesty?
 ……そう、ですね……\n覇瞳皇帝との、戦いで……あの人は、わたしを庇ってくれて。\nあのときは本当に、死んじゃったのかって思ったんですけど……=...That's right... In the battle with the Hegemon... he protected me. At the time, I thought he really had died...
@@ -51,13 +51,13 @@
 ええっ……？\nた、魂ですか？=Whaaat...? A-A soul?
 そう。魂。\n魔力の根源にして精神の核。\nシャドウを構築する、元となるもの……=That's right. Souls. The source of magical energy and the core of the mind. The origin of Shadow construction...
 私も少し、調べてみましたが……\n効果的な治療法は、特にないようです。\nそもそも、魂にダメージを負うこと自体がレアケースですし……=I did a little research myself, but... There doesn't seem to be any effective treatment. In the first place, taking damage to the soul is a rare case...
-そんな……\nそれじゃあ、どうすればCorneliaくんは\n元に戻るんですか？=No way... Then what should I do to get Cornelia back to normal?
+r:"^そんな……\nそれじゃあ、どうすれば(.{2,10})くんは\n元に戻るんですか？$"="No way... Then what should I do to get $1 back to normal?"
 表面的な言語能力や、判断能力については……再学習によって、\nあるいは何かのきっかけで修復する可能性もあるかと思います。\n私が教えてあげても構いません……=As for your ability to speak on the surface and to judge... I think it's possible that you'll be able to repair it through relearning, or by some other means. I don't mind teaching you...
 しかし……完全に元通りということは、ないでしょうね。=But... I don't think it'll be completely back to normal.
 ……ぅぅ……=...Ugh...
 ……悪い意味ばかりではありません。\n彼のプリンセスナイトの力は、より強いものに変化した……\nあなたもその身に受けたはずでしょう、陛下。=...I don't mean it in a bad way. His power as a Princess Knight has changed into something stronger... You must have received it, Your Majesty.
-……はい。\nCorneliaくんがいつも以上に力をくれたおかげで、\n覇瞳皇帝の全力の魔法からみんなを守ることが出来ました……=...Yes. Thanks to you giving me more power than usual, I was able to protect everyone from the Hegemon's full-power magic...
+r:"^……はい。\n(.{2,10})くんがいつも以上に力をくれたおかげで、\n覇瞳皇帝の全力の魔法からみんなを守ることが出来ました……$"="...Yes. Thanks to you giving me more power than usual $1-kun, I was able to protect everyone from the Hegemon's full-power magic..."
 パワーアップした、彼の新しい力。\n……そうですね。\n『プリンセスフォーム』とでも呼びましょうか。=His new power has been powered up. ...That's right. Let's call it the 'Princess Form'.
 『プリンセスフォーム』……=Princess Form'...
-これからCorneliaは、そしてあなたたちは……\nその力を使いこなせるようにならなくてはいけません。=From now on, Cornelia, and all of you... will have to be able to use that power.
+r:"^これから(.{2,10})は、そしてあなたたちは……\nその力を使いこなせるようにならなくてはいけません。$"="From now on, $1, and all of you... will have to be able to use that power."
 世界を救うためにも、ね……=To save the world, huh...

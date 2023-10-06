@@ -30,7 +30,7 @@ r:"^本当かにゃ！？\nあ、ありがとにゃ、(.{2,10})！\n早速、明
 r:"^どうしたにゃ、(.{2,10})。\n視線を逸らしてるにゃ。$"=What's wrong~nya, $1. You're looking away~nya.
 あ、もしかして……=Oh, could it be...?
 r:"^(.{2,10})、今、汗で服が張り付いたあたしの体を見て、\nちょっとドキドキしてたんじゃないかにゃ？$"=$1, did you just get a little excited when you saw my body sticking to my clothes with sweat~nya?
-r:"^FufufuCorneliaの視線には、\nあたしは敏感なのにゃ。$"=Fufufu, I'm sensitive to $1's gaze.
+r:"^Fufufu(.{2,10})の視線には、\nあたしは敏感なのにゃ。$"=Fufufu, I'm sensitive to $1's gaze.
 r:"^男の子はしょうがないにゃあ……\n……じゃあもしかして、(.{2,10})は、\nこの服の中も見たい、にゃ……？$"=It can't be helped since you are boy~nyaa... Then maybe, $1 wants to see what's inside this clothes too~nya...?
 r:"^あたし……(.{2,10})になら、\n見せてあげてもいいかにゃ……$"=I... if it's $1, I don't mind showing you...
 にゃーんちゃって！\n冗談にゃー！\n期待、したかにゃ？=Nyaan just kidding! Joke~nya! Did you expect it~nya?

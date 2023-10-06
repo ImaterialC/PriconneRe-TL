@@ -4,8 +4,8 @@
 自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、物理クリティカルを中アップさせる。自分の物理攻撃力が高い程、物理攻撃力と物理クリティカルの上昇量が最大５倍までアップする。=Greatly increases the allies' P.ATK within a range centered around self and moderately increases P.Crit. The higher the user's P.ATK, the greater the increase in P.ATK and P.Crit, up to a maximum of 5x increase.
 r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを55アップ$"=Boosts allies' P.ATK within 100 range by $1 for 18s.\nBoosts allies' P.Crit Rate within 100 range by 55 for 18s.
 
-わんわんと一緒=With Wan-wan
-わんわんと一緒+=With Wan-wan+
+わんわんと一緒=With Doggie My Lord
+わんわんと一緒+=With Doggie My Lord+
 r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理攻撃クリティカル時のダメージを5％アップ$"=Cast time: 1.05s\n►Boosts allies' P.ATK within 100 range by $1 for 12s.\n►Boosts P.Crit dmg of all allies within 100 range by 5% for 12s.
 
 自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせ、物理攻撃クリティカル時のダメージを小アップさせる。自分の物理攻撃力が高い程、物理攻撃力の上昇量が最大５倍までアップする。=Boost the allies' P.ATK within a range centered around self and slightly increase the damage dealt by critical hits from P.ATKs. The higher the user's P.ATK, the greater the increase in P.ATK, up to a maximum of 5x increase.
@@ -15,5 +15,10 @@ r:"^毎秒ＨＰを(\d+)回復する\n(\d+)ダメージ分の物理魔法吸収�
 自分を中心とした範囲内の味方すべてに継続ＨＰ回復状態を付与し、物理/魔法吸収バリアを展開する。=Grant all allies within a range centered on self a continuous HP recovery status and deploy a physical/magical absorption barrier.
 Cast Time: 0.59s\nRecovers allies' HP within 80 range by $1/s for 10.5s.
 
-わんわんコンビネーション=Wan-wan Combination
-わんわんコンビネーション+=Wan-wan Combination+
+わんわんコンビネーション=Doggie My Lord Combination
+わんわんコンビネーション+=Doggie My Lord Combination+
+
+人と自然、交わるココロ=Hearts Where People and Nature Meet
+森の恵みと薬草泥棒=Forest's Blessings and the Herb Thief
+大自然のガイド役=A Guide to the Great Outdoors
+こころからの憧れ=Longing from the Heart

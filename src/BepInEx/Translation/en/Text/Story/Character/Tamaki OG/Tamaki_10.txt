@@ -74,65 +74,8 @@ r:"^……なんだか、\n(.{2,10})にはあたしの弱い姿を見られて�
 それでも……あたしに力を貸してくれるにゃ？=Even so... will you lend me your strength?
 もちろん！！=Of course!!
 r:"^……ありがとにゃ。\n(.{2,10})と出会えて、本当によかったにゃ……$"=...Thank you~nya. I'm really glad I met you, $1...
-……ありがとにゃ。\nCorneliaと出会えて、本当によかったにゃ……=...Thank you. I'm really glad I met you...
 さ～て、覚悟するにゃ、悪党ども～！\nファントムキャッツが、おまえらを懲らしめてやるにゃ～～！！=Well then~ get ready~ villains~!\nThe Phantom Cat will teach you a lesson~!!
 ランドソル郊外に響く声……\n街の人には酔っ払いのふざけた叫びにしか聞こえなかったが、\nタマキにとっては、新たな決意と、確かな絆を乗せた誓いでもあった。=A voice echoing in the outskirts of Landosol...\nTo the people of the city it sounded like a drunken scream.\nBut for Tamaki it was also a vow of new determination and a bond of trust.
-
-
-
-
-
-
 仮面のせいで喋りづらい……=It’s hard to talk because of the mask...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 r:"^……あれ、お古にゃ？\nよくよく考えれば、あたしの顔に付いてたものが、\n(.{2,10})の顔にも付いてるってわけで……$"=...Huh, old~nya?\nNow that I think about it, what's on my face is on $1's face too...
 r:"^な、なんか急に恥ずかしくなってきたにゃ！\n(.{2,10})！\nその仮面をすぐに返すにゃ～～！！$"=I-I'm suddenly embarrassed~nya! $1!\nReturn that mask right away~nya!!

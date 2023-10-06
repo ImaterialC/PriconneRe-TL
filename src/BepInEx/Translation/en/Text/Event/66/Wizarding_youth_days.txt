@@ -231,11 +231,11 @@ r:"^はー今日も終わったわね！！\nさあ(.{2,10})、帰るわよ！�
 ……キャルさん？\nだいぶ恥ずかしいことを仰ってますよ？=Kyaru-san?\nYou've said quite embarrassing things, you know?
 エリコ！？　リノにニノンも……\nあ、あんたたちも告白の阻止に……？=Eriko!? Rino and Ninon, too...\nYou're trying to stop the confession, aren't you?
 ええ、ですがその必要はないみたいです。\nですよね？　恋文の差出人さん？=Yes, but it doesn't seem necessary.\nRight? Mr. Love-letter-sender?
-r:"^え？　あんたが(.{2,10})に一目惚れしたの……？$"=Huh? You're the one who fell in love with Cornelia...?
-いえ、間違えて隣のロッカーに\nラブレターを入れちゃったんですって。=No, He put the love letter in the wrong locker, next to Cornelia's.
+r:"^え？　あんたが(.{2,10})に一目惚れしたの……？$"=Huh? You're the one who fell in love with $1...?
+いえ、間違えて隣のロッカーに\nラブレターを入れちゃったんですって。=No, He put the love letter in the wrong locker, next to $1's.
 オッチョコチョイのスットコドッコイデース……=It was a silly mistake...
-r:"^ああ、そういうこと……\n本来は(.{2,10})の隣の人にラブレターを\n渡したかったってわけね？$"=Ah, I see... So, you actually wanted to give the love letter to the person next to Cornelia's locker?
-r:"^……えと、(.{2,10})の隣のロッカーって。\n…………あたし？$"=Um, Cornelia's locker is...\n Isn't it me?
+r:"^ああ、そういうこと……\n本来は(.{2,10})の隣の人にラブレターを\n渡したかったってわけね？$"=Ah, I see... So, you actually wanted to give the love letter to the person next to $1's locker?
+r:"^……えと、(.{2,10})の隣のロッカーって。\n…………あたし？$"=Um, $1's locker is...\n Isn't it me?
 キャルちゃん！！\n一目見て好きになりました！！\n俺と付き合ってください！！=Kyaru-chan!!\nI fell in love with you at first sight!!\nPlease go out with me!!
 えええええ～～～～～～！！？=Eeeeeh~!? 
 そんっ、いきっ、あたっ、ええ！？！？=So, wha, whe, how, eee!?
@@ -254,7 +254,7 @@ r:"^……えと、(.{2,10})の隣のロッカーって。\n…………あた�
 あーやっぱここにいた。\nおいお前、また一目惚れしちゃったのかよ？\nいい加減にしとけー？=Ah, so you were here.\nHey, you fell in love at first sight again?\nCut it out!
 あーキャルちゃんだっけ？　ごめんねこいつ、超惚れっぽくてさ。\n多分今まで100人くらいに告ってんだ。で、全フラれ。=Oh, Kyaru-chan, right? I'm sorry, this guy falls in love super easily. He's probably confessed to about a hundred girls by now. And, he's been rejected every time.
 はあ……今回も駄目だったか～\nつかまあ流石に今日は、100パー無理ってわかっちまったけど。=Sigh... It didn't work this time either, huh?\nWell, I knew today was a 100% no chance, but still.
-r:"^真っ赤な顔で屋上まで走ってきて、\n(.{2,10})の名前を呼んだキャルちゃんを見たら、\nどんだけ鈍感な奴でも気づいちまうよ……君の好きな人。$"=Seeing Kyaru-chan sprint all the way to the rooftop with a bright red face, calling out Cornelia's name, even the densest as diamond would notice it... who you really like are.
+r:"^真っ赤な顔で屋上まで走ってきて、\n(.{2,10})の名前を呼んだキャルちゃんを見たら、\nどんだけ鈍感な奴でも気づいちまうよ……君の好きな人。$"=Seeing Kyaru-chan sprint all the way to the rooftop with a bright red face, calling out $1's name, even the densest as diamond would notice it... who you really like are.
 どういうこと？=What do you mean?
 いい！！　聞かなくていいから！！=Enough!! You don't have to ask!!
 さ、触ってんじゃないわよ！！\nもうほんとこれ以上は……！！=D-don't touch me!\nSeriously, I can't take this anymore...!
@@ -264,10 +264,10 @@ r:"^真っ赤な顔で屋上まで走ってきて、\n(.{2,10})の名前を呼�
 男子生徒３=Male Student 3
 待ちなさい！！\n粉々にぶっ壊して差し上げますからあああ！！！=Wait!!\nI'll smash you to pieces!!
 ちょー！？\n誰か止めてーーーーー！！=Hold-!\nSomeone, stop her please!!!
-r:"^突如始まった屋上での青春鬼ごっこを、\n不思議そうに見つめる(.{2,10})だった。$"=Cornelia watched the sudden rooftop chaos with a puzzled expression.
+r:"^突如始まった屋上での青春鬼ごっこを、\n不思議そうに見つめる(.{2,10})だった。$"=$1 watched the sudden rooftop chaos with a puzzled expression.
 顔が真っ赤で熱いよ……！？=Your face is so red and hot...!?
 期末試験が迫ることを知り驚愕するスズナたち。順調に勉強を進めるキャルは、スズナたちのために徹夜の勉強会を提案する。しかしパジャマ姿で現れた面々に呆れたキャルは、怒りの魔法を放つのであった。=Suzuna and the others were shocked to learn that the final exams were approaching. Kyaru, who was studying smoothly, proposed an all-night study session for Suzuna and the others. However, when Kyaru saw them in their pajamas, she cast an angry spell.
-r:"^ある日の休み時間、(.{2,10})たちは、\n修学旅行の話題で盛り上がっていた。$"=During a break one day, Cornelia and the others were excitedly discussing the upcoming school trip.
+r:"^ある日の休み時間、(.{2,10})たちは、\n修学旅行の話題で盛り上がっていた。$"=During a break one day, $1 and the others were excitedly discussing the upcoming school trip.
 あ～修学旅行とかマジ楽しみ～♪\nねーヒデサイ、一緒に班組もーね！\nもち、キャルっちも♪=A school trip, I can't wait! Hey, Hidesai, let's be in the same group, okay? Of course, Kyaru-chi too!
 スズナー、浮かれんのはいいけど、\n修学旅行前にもう一つイベントあるわよ？=Suzuna, it's great that you're excited, but don't forget there's another event before the school trip.
 マ？　なんかあるっけ？=Huh? What else is there?
@@ -291,7 +291,7 @@ r:"^ある日の休み時間、(.{2,10})たちは、\n修学旅行の話題で�
 ニノンに聞く。=Ask Ninon.
 は～い！　答えはー\n『食べた後すぐに走ったらマジ片腹痛いんですけど！』=Alright! The answer is, "I laughed so hard after eating and then running that it split my sides!"
 いやそれ片腹じゃなくて脇腹ね！\n食べた後すぐは消化に悪いから走っちゃダメよ！=No, it's not your sides, it's your ribs! It's not good to run right after eating because it's bad for digestion!
-r:"^ふふ、簡単です。答えは、\n『私以外のゴミ虫が(.{2,10})様とお近づきになるなど、\n片腹痛いので私の手でギタギタにして差し上げますわ』$"=Hehe, it's easy. The answer is, "Anyone other than me who gets close to Cornelia-sama, I'll make them laugh so hard that I'll destroy them!"
+r:"^ふふ、簡単です。答えは、\n『私以外のゴミ虫が(.{2,10})様とお近づきになるなど、\n片腹痛いので私の手でギタギタにして差し上げますわ』$"=Hehe, it's easy. The answer is, "Anyone other than me who gets close to $1-sama, I'll make them laugh so hard that I'll destroy them!"
 いや意味はあってるけど私情が凄いわね！\n……ってあたし睨まれてる！？=Well, the meaning is right, but it's very personal! ...Wait, why are you glaring at me!?
 ハーイ、ワタシの答えは、\n『ハラキリすると片腹痛いデース！』=Hey, my answer is, "It's painful to laugh so hard that you split your sides!"
 どんな状況！！？=In what situation!?
@@ -333,7 +333,7 @@ r:"^ふふ、簡単です。答えは、\n『私以外のゴミ虫が(.{2,10})�
 ……リノとニノンは？=...What about Rino and Ninon?
 行きます！！=We're coming too!!
 エリコは頭良いし来ないわよね？=Eriko is smart, so she won't come, right?
-r:"^ええ、私はハーブティーでも飲みながら、\n(.{2,10})様の好きなところを数えて過ごしますわ。$"=Yes, I'll be sipping herbal tea and counting Cornelia-sama's good points.
+r:"^ええ、私はハーブティーでも飲みながら、\n(.{2,10})様の好きなところを数えて過ごしますわ。$"=Yes, I'll be sipping herbal tea and counting $1-sama's good points.
 キャルちゃん、僕も行く。=Kyaru, I'll go too.
 私も行きますわ！！！=I'm going too!!!
 ……分かった。\nじゃあ放課後待ってるわ。=...I see. Then I'll wait for you after school.
@@ -366,7 +366,7 @@ r:"^ええ、私はハーブティーでも飲みながら、\n(.{2,10})様の�
 ヤバ、宿題忘れちゃった……ね～ヒデサイ助けて～～！？\n……え、見せてあげようかって？　それはダメだよズルだもん。\nえとね、今からやるから、ヒデサイに隣で見ててほしいかも……♪=Uh-oh, I forgot my homework... Hey, Hidesai, help me out? Huh? You want to show me yours? That's not fair; it's cheating. Well, I'm going to start mine now, so maybe you could sit next to me and watch...♪
 うん。\nそれじゃあ、話すよ。\nアタシの知ってること、全部──……=Sure. In that case, I'll tell you everything I know...♪
 修学旅行中、キャルたちは射的のイカサマを疑われる不良生徒に出くわす。見た目だけで悪と決めつける店主に憤り不良生徒の無実を証明したキャル。その姿を見た不良生徒はキャルに感謝し、心を開くのだった。=During the school trip, Kyaru and the others encountered some delinquent students who suspected cheating in the shooting game. Kyaru, angered by the shopkeeper who judged them solely by appearance, proved the innocence of the delinquent students. Witnessing Kyaru's actions, the delinquent students were grateful and opened up to her.
-r:"^(.{2,10})たちは、\n修学旅行でオーエドを訪れていた。$"=Cornelia and the others visited Oedo during their school trip.
+r:"^(.{2,10})たちは、\n修学旅行でオーエドを訪れていた。$"=$1 and the others visited Oedo during their school trip.
 ショーグン！　サイコーでしたネ、オーエド忍術博物館♪\nニンジャはまさにトーゴクの魔法使いデース！\nシュババババッ♪=Shogun! It was amazing, the Oedo Ninja Art Museum♪ Ninjas are like wizards from a different land! Shubabababa♪♪
 見てくださいお兄ちゃん！\nシュガーラッキーハッピー体験でお兄ちゃんの置物作りましたよ！\nえ？　シガラキ焼体験？　シュガーラッキーハッピー体験……似てる！=Look, Onii-chan! I made a statue of you in the Sugar Lucky Happy Experience! Huh? Sugakaki-yaki experience? Sugar Lucky Happy Experience... sounds similar!
 クスクス、見てくださいあなた様。\n木刀に私とあなた様の名前を刻印していただきましたわ。=Kusu kusu, look at this, my dear. They've engraved our names on wooden swords.

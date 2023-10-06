@@ -151,7 +151,9 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 決済手続=Payment Procedure
 r:"^\[3C404E\]\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\]\[-\]$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The jewels and mana purchased here\ncan be used on the DMM version[-].[-]
 
-sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C404E\]で終了します。\n購入ページへ移動しますか?\[-\]$"=[3C404E]The period of the $1\nwill end in FF7C4E,D62146]$2 day(s)[-].\nWould you like to go to the Purchase Page?[-]
+sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C404E\]で終了します。\n購入ページへ移動しますか\?\[-\]$"=[3C404E]The period of the $1\nwill end in [-][FF7C4E,D62146]$2 day(s)[-].\nWould you like to go to the Purchase Page?[-]
+
+
 購入ページへ=To the Purchase Page
 
 r:"^プレイヤーLv(\d+)まで購入可能$"=Under Lv$1 Only!
