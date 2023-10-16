@@ -1,15 +1,25 @@
-【物理】中衛で敵を悪戯で翻弄する恐怖のキョンシー娘。最も魔法攻撃力が高い敵に急襲を仕掛け、ＴＰ減少や魔法攻撃力ダウン、スタン等の妨害スキルで機先を制する。=[Physical]A terrifying Kyonshi girl who plays tricks on her enemies as a MG. She launches a surprise attack on the enemy with the highest M.ATK, and uses obstructive skills such as TP reduction, M.ATK reduction, and stun to get ahead of her.
+【物理】中衛で敵を悪戯で翻弄する恐怖のキョンシー娘。最も魔法攻撃力が高い敵に急襲を仕掛け、ＴＰ減少や魔法攻撃力ダウン、スタン等の妨害スキルで機先を制する。=[Physical]A terrifying Jiangxi girl who plays tricks on her enemies as a MG. She launches a surprise attack on the enemy with the highest M.ATK, and uses obstructive skills such as TP reduction, M.ATK reduction, and stun to get ahead of her.
 
 キョンシーヘルラッシュ=Jiangxi Hell Rush
 キョンシーオカルトパワー=Jiangxi Occult Power
 キョンシーオカルトパワー+=Jiangxi Occult Power+
 
 敵全体に物理大ダメージを与え、魔法攻撃力を大ダウンさせる。=Deals massive P.DMG to all enemies and Large reduces their magic attack power.
-r:"^敵全体に(\d+)の物理ダメージ\n敵全体の魔法攻撃力を(\d+)ダウン$"=Deals $1 M.DMG to all enemies.\nLowers all enemies’ M.ATK by $2 for 18s
+r:"^敵全体に(\d+)の物理ダメージ\n敵全体の魔法攻撃力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies’ M.ATK by $2 for 18s
 
-r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合魔法攻撃力を(\d+)ダウン$"=Cast Time: 0.59s\nDeals $1 P.DMG to an enemy.\n\nIf highest M.ATK is M-type:\nDeals $2 P.DMG to the highest M.ATK enemy.\nLowers an enemy’s M.ATK by $3 for 12s.
+r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合魔法攻撃力を(\d+)ダウン$"=Cast Time: 0.59s\n►Deals $1 P.DMG to an enemy.\n\nIf highest M.ATK is M-type:\n►Deals $2 P.DMG to the highest M.ATK enemy.\n►Lowers an enemy’s M.ATK by $3 for 12s.
 最も魔法攻撃力が高い敵１キャラに物理大ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加し、さらに魔法攻撃力を大ダウンさせる。=Deals massive P.DMG to the enemy with the highest M.ATK, if the target is a magic, the damage is increased and their M.ATK is also Large reduced.
 
-r:"^敵単体のＴＰを(\d+)失わせる\n敵単体の魔法攻撃力を(\d+)ダウン\n敵単体を一定時間行動不能にする$"=Cast Time: 0.59s\nReduces a highest M.ATK enemy's TP by $1\nReduces a highest M.ATK enemy's M.ATK by $2\nInflict Stun on the highest M.Atk enemy for 3s.
+r:"^敵単体のＴＰを(\d+)失わせる\n敵単体の魔法攻撃力を(\d+)ダウン\n敵単体を一定時間行動不能にする$"=Cast Time: 0.59s\n►Reduces a highest M.ATK enemy's TP by $1\nReduces a highest M.ATK enemy's M.ATK by $2\n►Inflict Stun on the highest M.Atk enemy for 3s.
 Causes a single enemy to lose 150 TP. 25% of an enemy's magic attack power is reduced and a single enemy is disabled for a certain amount of time.
 最も魔法攻撃力が高い敵１キャラのＴＰを中ダウンさせ、魔法攻撃力を特大ダウンさせ、さらにスタンさせる。=Moderately lowers the TP of the enemy character with the highest M.ATK, massively lowers the M.ATK, and stuns them.
+
+最も魔法攻撃力が高い敵１キャラに物理大ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加し、魔法攻撃力を大ダウンさせ、さらにスタンさせる。=Deals massive P.DMG to the enemy with the highest M.ATK. If the target is an enemy that uses magic attacks, the damage increases, their M.ATK is greatly reduced, and they are additionally stunned.
+r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合魔法攻撃力を(\d+)ダウン\n対象が魔法攻撃をする敵だった場合一定時間行動不能にする$"=Cast time: 0.59s\n►If the target is a physical attacker, deals $1 P.DMG.\n►If the target is a magic attacker, deals $2 P.DMG.\n►If the target is a magic attacker, decreases their M.ATK by $3 for 12s.\n►If the target is a magic attacker, inflicts Stun for 1s.
+
+
+恐怖のデカドングリ=Fearful Big Acorn
+恐怖のデカドングリ+=Fearful Big Acorn+
+ぐうたらになる呪い=Curse of Laziness
+ぐうたらになる呪い+=Curse of Laziness+
+ぐうたらキョンシーキャップ=Lazy Jiangxi Cap

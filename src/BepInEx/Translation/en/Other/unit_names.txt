@@ -66,7 +66,7 @@
 ネア=Nea
 ミソラ=Misora
 カリン=Karin
-ムイミ=Muimi
+ムイミ=Muimi;Noemu
 ジータ=Djeeta
 ビカラ=Vikala;Vikara;Vicky;Vikki;Bikki;Bicky;Bikala;Bikara
 アリサ=Arisa
@@ -149,7 +149,7 @@
 グレア（アン＆グレア）=Grea (Anne & Grea)
 ノゾミ（リベレイター）=Nozomi (Liberator);LNozomi;Liberator
 カヤ（リベレイター）=Kaya (Liberator);LKaya;Liberator
-ムイミ（リベレイター）=Muimi (Liberator);LMuimi;Liberator
+ムイミ（リベレイター）=Muimi (Liberator);LMuimi;Noemu;Liberator
 タマキ（カフェ）=Tamaki (Cafe);CTamaki;Cafe
 モニカ（カフェ）=Monika (Cafe);CMonika;Cafe
 コッコロ（レンジャー）=Kokkoro (Ranger);Kokoro;KKR;RKKR;Ranger;RKokoro;Rkokkoro;mama
@@ -239,7 +239,7 @@
 ネア（サマー）=Nea (Summer);SNea;Summer;Swimsuit;Bikini
 ミソラ（サマー）=Misora (Summer);SMisora;Summer;Swimsuit;Bikini
 カリン（サマー）=Karin (Summer);SKarin;Summer;Swimsuit;Bikini
-ムイミ（サマー）=Muimi (Summer);SMuimi;Summer;Swimsuit;Bikini
+ムイミ（サマー）=Muimi (Summer);SMuimi;Noemu;Summer;Swimsuit;Bikini
 ジータ（サマー）=Djeeta (Summer);SDjeeta;Summer;Swimsuit;Bikini
 ビカラ（サマー）=Vikala (Summer);SVikala;Vikara;Vicky;Vikki;Bikki;Bicky;Bikala;Bikara;Summer;Swimsuit;Bikini
 アリサ（サマー）=Arisa (Summer);SArisa;Summer;Swimsuit;Bikini
@@ -327,7 +327,7 @@
 ネア（ハロウィン）=Nea (Halloween);HNea;Halloween
 ミソラ（ハロウィン）=Misora (Halloween);HMisora;Halloween
 カリン（ハロウィン）=Karin (Halloween);HKarin;Halloween
-ムイミ（ハロウィン）=Muimi (Halloween);HMuimi;Halloween
+ムイミ（ハロウィン）=Muimi (Halloween);HMuimi;Noemu;Halloween
 ジータ（ハロウィン）=Djeeta (Halloween);HDjeeta;Halloween
 ビカラ（ハロウィン）=Vikala (Halloween);Vikara (Halloween);Vicky (Halloween);Vikki (Halloween);Bikki (Halloween);Bicky (Halloween);Bikala (Halloween);Bikara (Halloween);HVikala;HVikara;HVicky;HVikki;HBikki;HBicky;HBikala;HBikara;Halloween
 アリサ（ハロウィン）=Arisa (Halloween);HArisa;Halloween
@@ -415,7 +415,7 @@
 ネア（クリスマス）=Nea (Holiday);XNea;Holiday;Christmas;Xmas
 ミソラ（クリスマス）=Misora (Holiday);XMisora;Holiday;Christmas;Xmas
 カリン（クリスマス）=Karin (Holiday);XKarin;Holiday;Christmas;Xmas
-ムイミ（クリスマス）=Muimi (Holiday);XMuimi;Holiday;Christmas;Xmas
+ムイミ（クリスマス）=Muimi (Holiday);XMuimi;Noemu;Holiday;Christmas;Xmas
 ジータ（クリスマス）=Djeeta (Holiday);XDjeeta;Holiday;Christmas;Xmas
 ビカラ（クリスマス）=Vikala (Holiday);Vikara (Holiday);Vicky (Holiday);Vikki (Holiday);Bikki (Holiday);Bicky (Holiday);Bikala (Holiday);Bikara (Holiday);XVikala;XVikara;XVicky;XVikki;XBikki;XBicky;XBikala;XBikara;Holiday;Christmas;Xmas
 アリサ（クリスマス）=Arisa (Holiday);XArisa;Holiday;Christmas;Xmas
@@ -503,7 +503,7 @@
 ネア（ニューイヤー）=Nea (New Year);NyNea;New Year;Kimono
 ミソラ（ニューイヤー）=Misora (New Year);NyMisora;New Year;Kimono
 カリン（ニューイヤー）=Karin (New Year);NyKarin;New Year;Kimono
-ムイミ（ニューイヤー）=Muimi (New Year);NyMuimi;New Year;Kimono
+ムイミ（ニューイヤー）=Muimi (New Year);NyMuimi;Noemu;New Year;Kimono
 ジータ（ニューイヤー）=Djeeta (New Year);NyDjeeta;New Year;Kimono
 ビカラ（ニューイヤー）=Vikala (New Year);Vikara (New Year);Vicky (New Year);Vikki (New Year);Bikki (New Year);Bicky (New Year);Bikala (New Year);Bikara (New Year);NyVikala;NyVikara;NyVicky;NyVikki;NyBikki;NyBicky;NyBikala;NyBikara;New Year;Kimono
 アリサ（ニューイヤー）=Arisa (New Year);NyArisa;New Year;Kimono
@@ -591,7 +591,7 @@
 ネア（バレンタイン）=Nea (Valentine);VNea;Valentine
 ミソラ（バレンタイン）=Misora (Valentine);VMisora;Valentine
 カリン（バレンタイン）=Karin (Valentine);VKarin;Valentine
-ムイミ（バレンタイン）=Muimi (Valentine);VMuimi;Valentine
+ムイミ（バレンタイン）=Muimi (Valentine);VMuimi;Noemu;Valentine
 ジータ（バレンタイン）=Djeeta (Valentine);VDjeeta;Valentine
 ビカラ（バレンタイン）=Vikala (Valentine);VVikala;Vikara (Valentine);VVikara;Vicky (Valentine);VVicky;Vikki (Valentine);VVikki;Bikki (Valentine);VBikki;Bicky (Valentine);VBicky;Bikala (Valentine);VBikala;Bikara (Valentine);VBikara;Valentine
 アリサ（バレンタイン）=Arisa (Valentine);VArisa;Valentine
@@ -679,7 +679,7 @@
 ネア（オーエド）=Nea (Ooedo);ONea;Ooedo
 ミソラ（オーエド）=Misora (Ooedo);OMisora;Ooedo
 カリン（オーエド）=Karin (Ooedo);OKarin;Ooedo
-ムイミ（オーエド）=Muimi (Ooedo);OMuimi;Ooedo
+ムイミ（オーエド）=Muimi (Ooedo);OMuimi;Noemu;Ooedo
 ジータ（オーエド）=Djeeta (Ooedo);ODjeeta;Ooedo
 ビカラ（オーエド）=Vikala (Ooedo);Vikara (Ooedo);Vicky (Ooedo);Vikki (Ooedo);Bikki (Ooedo);Bicky (Ooedo);Bikala (Ooedo);Bikara (Ooedo);OVikala;oVikara;oVicky;oVikki;oBikki;oBicky;oBikala;oBikara;Ooedo
 アリサ（オーエド）=Arisa (Ooedo);OArisa;Ooedo
@@ -767,7 +767,7 @@
 ネア（フォールン）=Nea (Fallen);FNea;Fallen
 ミソラ（フォールン）=Misora (Fallen);FMisora;Fallen
 カリン（フォールン）=Karin (Fallen);FKarin;Fallen
-ムイミ（フォールン）=Muimi (Fallen);FMuimi;Fallen
+ムイミ（フォールン）=Muimi (Fallen);FMuimi;Noemu;Fallen
 ジータ（フォールン）=Djeeta (Fallen);FDjeeta;Fallen
 ビカラ（フォールン）=Vikala (Fallen);Vikara (Fallen);Vicky (Fallen);Vikki (Fallen);Bikki (Fallen);Bicky (Fallen);Bikala (Fallen);Bikara (Fallen);FVikala;FVikara;FVicky;FVikki;FBikki;FBicky;FBikala;FBikara;Fallen
 アリサ（フォールン）=Arisa (Fallen);FArisa;Fallen
@@ -854,7 +854,7 @@
 ネア（編入生）=Nea (Student);TNea;Student
 ミソラ（編入生）=Misora (Student);TMisora;Student
 カリン（編入生）=Karin (Student);TKarin;Student
-ムイミ（編入生）=Muimi (Student);TMuimi;Student
+ムイミ（編入生）=Muimi (Student);TMuimi;Noemu;Student
 ジータ（編入生）=Djeeta (Student);TDjeeta;Student
 ビカラ（編入生）=Vikala (Student);TVikala;TVikara;TVicky;TVikki;TBikki;TBicky;TBikala;TBikara;Student
 アリサ（編入生）=Arisa (Student);TArisa;Student

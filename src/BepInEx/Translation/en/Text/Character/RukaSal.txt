@@ -1,0 +1,19 @@
+【物理】前衛で、空飛ぶ絨毯で巡り回るオアシスの姉御。自分の物防を大幅に高めて敵を挑発するスキルと敵のＴＰとＴＰ上昇をダウンさせるＵＢで、爽やかに勝利を掴む。=[Physical] A frontline oasis guardian Anego soaring on a flying carpet. With a skill that inflicts massive physical damage on the front enemy, decreasing their TP gain and TP, she gracefully secures victory.
+
+目の前の敵１キャラに物理大ダメージを与え、ＴＰ上昇を小ダウンさせ、ＴＰを中ダウンさせる。さらに、自分のＨＰを中回復する。=Deals massive P.DMG to the enemy in front, slightly decreases TP gain, and moderately reduces TP. Additionally, moderately recovers her own HP.
+
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を中ダウンさせる。=Deals medium P.DMG on the enemy in front, and moderately decreases their P.DEF.
+
+【挑発】自分の物理防御力を特大アップし、物理吸収バリアを展開する。さらに、敵全体を挑発して自分のＴＰを中回復する。=[Taunt] Greatly boosts her own P.DEF and deploys a physical absorption barrier. Provokes all enemies and moderately recovers her own TP.
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体のＴＰ上昇を20ダウン\n敵単体のＴＰを250失わせる\n自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to a single enemy.\n►Reduces an enemy's TP Boost by 20 for 18s.\n►Decreases an enemy's TP by 250.\n►Recovers own HP by $2.
+
+r:"^自分の物理防御力を(\d+)アップ\n(\d+)ダメージ分の物理吸収バリアを展開する\n敵全体を挑発する\n自分のＴＰを200回復$"=Cast time: 1.05\n►Boosts own P.DEF by $1 for 12s.\n►Deploys a Barrier that absorbs $2 P.DMG for 12s.\n►Taunts all enemies for 12s.\n►Recovers own TP by 200.
+
+破の太刀・巴円舞=Destruction Blade: Tomoe Embodied Dance
+序の太刀・流水刃=First Blade: Flowing Water Edge
+序の太刀・流水刃+=First Blade: Flowing Water Edge+
+急の太刀・流れ八艘=Swift Blade: Flow of Eight Boats
+急の太刀・流れ八艘+=Swift Blade: Flow of Eight Boats+
+水郷の契=Waterside Promise
+水郷の契+=Waterside Promise+

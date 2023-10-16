@@ -1,6 +1,7 @@
 ---Profile---
 読書、推理=Reading and deducting
 頭脳明晰な美少女名探偵=A brilliant, beautiful detective
+【魔法】後衛で、相手の行動妨害に特化した名探偵。束縛や混乱を付与するスキルで相手の行動を妨害し、魔法防御力ダウンのフィールドを展開して王手をかける。=[Magic] A great detective who specializes in obstructing the enemy's actions from the rearguard. Her skills inflict Bind and Confusion to prevent enemy attacks from succeeding, while she deploys a field to lower their M.DEF, leaving them utterly helpless.
 ---Skills---
 ---UB---
 クリミナルプリズン=Criminal Prison
@@ -16,6 +17,11 @@ r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を混乱させる$"=Deals 
 ディテクティブマインド=Detective Mind
 ---Skills+---
 ---UB---
+トゥルーエンドケース=True End Case
+r:"^フィールド内の敵の魔法防御力(\d+)ダウン\nフィールド内の敵のＴＰ上昇10ダウン\n範囲内の敵の行動速度を一定時間低下させる\n敵全体に(\d+)の魔法ダメージ$"=►Lowers M.DEF of enemies within 410 range by $1 for 18s.\n►Reduces enemies' TP Boost within 410 range by 10 for 18s.\n►Reduces action speed of enemies to 70% within 300 range for 18s.\n►Deals $2 M.DMG to all enemies.
+
+前から３番目の敵を中心に、範囲内の敵の魔法防御力を特大ダウン、ＴＰ上昇を小ダウンさせるフィールドを展開し、さらに行動速度を中ダウンさせる。さらに【カウントダウン】を付与し、５カウント後に敵全体に魔法小ダメージを与える。このスキルによるダメージでは敵のＴＰは回復しない。=Deploys a field to the 3rd enemy from the front, massively lowering the M.DEF of enemies within the area, slightly decreasing TP Boost, and moderately reducing their action speed. Additionally, applies Countdown, and after 5 counts, deals small M.DMG to all enemies. The damage inflicted by this skill does not restore enemy TP.
+
 ---S1---
 前方範囲内の敵全てに魔法小ダメージを与え、さらに束縛する。範囲内の敵の数に応じて、束縛時間が増加する。=Deals small M.DMG to all enemies in range and inflicts Bind. The binding time boost according to the number of enemies within the range.unable to act for a certain period of time
 ---S2---

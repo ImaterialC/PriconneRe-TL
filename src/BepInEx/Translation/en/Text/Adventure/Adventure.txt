@@ -19,6 +19,7 @@ sr:"^(.+)が現れた！$"=$1 appeared!
 繰り返し出発=Repeat depart
 出発する=Depart
 
+成功報酬=Success Reward
 以下のクエストが進行中です。\n状態を確認しますか？=The following quests are in progress.\nCheck the status?
 アドベンチャー確認=Adventure confirmed
 アドベンチャー画面に移動します。=Move to Adventure Screen.

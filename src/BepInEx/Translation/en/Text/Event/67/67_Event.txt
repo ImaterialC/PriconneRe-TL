@@ -11,8 +11,7 @@ r:"^砂漠の国　サラサリア周辺([0-9\-\(\)\w （）]*)$"=Salasaria The 
 夢幻のマリッジ・シム エクストラ=Illusion Marriage Sim Extra
 二人だけの時間=Time for Just the Two of Us
 エピソード閲覧数=Episode View
-夢幻のマリッジ・シム サレンエピソード=Illusion Marriage Sim Shared Episodes
-
+夢幻のマリッジ・シム サレンエピソード=Illusion Marriage Sim Saren Episodes
 カリド=Kalid
 古代小兵=Ancient Soldier
 【魔法】はるか古に作られし防衛兵器。邪なる者\nの願いにより封を解かれ、地中深くより現れる。\n\n\n・ユニオンバーストは、敵全体に魔法固定ダメー\n　ジを与え、魔法防御力を小ダウンさせる。この\n　スキルの状態異常はダメージを無効化しても付\n　与される。\n\n・最も近い敵１キャラを中心とした小範囲に魔法\n　大ダメージを与える。\n\n・自身に魔法小ダメージを与え、さらに物理防御\n　力と魔法防御力を小ダウンさせる。\n\n・自身のＨＰが50％を切ると、右腕部が破損\n　し、行動パターンが変化する。さらに自身の物\n　理防御力、魔法防御力を特大ダウンさせる。\n\n・最も近い敵１キャラに魔法大ダメージを与え\n　る。=[Magic] A defense mechanism crafted in the distant past. Unleashed from its seal by the desires of the malevolent, it emerges from the depths below.\n\n►Union Burst: Deals fixed M.DMG to all enemies, slightly reducing their magic defense. The status effects of this skill persist even if the damage is nullified.\n\n►Deals massive M.DMG to a small area centered around the nearest enemy.\n\n►Deals small M.DMG upon itself, additionally decreasing its physical defense and magic defense.\n\n►When its HP falls below 50%, its right arm becomes damaged, altering its behavior pattern. Furthermore, it significantly decreases its own physical defense and magic defense.\n\n►Deals massive M.DMG to the nearest enemy.

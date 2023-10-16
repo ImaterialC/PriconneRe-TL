@@ -1,15 +1,22 @@
-【魔法】後衛で、オタ活に精を出すハロウィン魔法少女。ＨＰ回復量ダウンで敵の戦略を崩し、ダメージフィールドと対象の数で火傷の威力を増す熱狂の炎が敵を包み込む。=[Magic] A RG Halloween Mahoushoujo otaku. The amount of HP recovered breaks down the enemy's strategy, and the damage field and the number of targets increase the power of burns, enveloping the enemy in a frenzied flame.
+【魔法】後衛で、オタ活に精を出すハロウィン魔法少女。ＨＰ回復量ダウンで敵の戦略を崩し、ダメージフィールドと対象の数で火傷の威力を増す熱狂の炎が敵を包み込む。=[Magic] A RG Halloween Mahou Shoujo Geek. The amount of HP recovered breaks down the enemy's strategy, and the damage field and the number of targets increase the power of burns, enveloping the enemy in a frenzied flame.
 
 ナナカ・マニアックフレイム=Nanaka Maniac Flame
+ナナカちゃんトリック=Nanaka-chan Trick
+ジャックオーサークル=Jack O Circle
+ジャックオーサークル+=Jack O Circle+
+ナナカちゃんウィッチコス=Nanaka-chan Witch Cosplay
 
 残りＨＰが最も高い敵を中心とした範囲内の敵すべてに魔法大ダメージを与え、火傷状態にする。火傷のダメージは範囲内の敵の数に応じて増加する。=Deals large amounts of M.DMG to all enemies within range, centering on the enemy with the highest remaining HP, and inflicts Burns. Burn damage boost with the number of enemies in range.
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n(\d+)ダメージを与える火傷状態にする$"=Targeting to the highest %HP enemy.\nDeals $1 M.DMG to enemy targets within 300 range.\nInflict burn on targets by $2/s for 7s.
-
+r:"^範囲内の敵に(\d+)の魔法ダメージ\n(\d+)ダメージを与える火傷状態にする$"=Targeting to the highest %HP enemy.\n►Deals $1 M.DMG to enemy targets within 300 range.\n►Inflict burn on targets by $2/s for 7s.
 
 残りＨＰが最も高い敵を中心として、魔法ダメージフィールドを展開する。=Deploys a M.DMG field centered on the enemy with the highest remaining HP.
-r:"^範囲内の敵のＨＰ回復量を80％ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast Time:0.94s\nTargeting to the highest %HP enemy.\nHP recovery of enemies targets within 300 range reduced by 80% for 12s.\nLowers all enemies M.DEF within 300 range by $1 for 12s. 
+r:"^範囲内の敵のＨＰ回復量を80％ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast Time:0.94s\n►Targeting to the highest %HP enemy.\n►HP recovery of enemies targets within 300 range reduced by 80% for 12s.\n►Lowers all enemies M.DEF within 300 range by $1 for 12s. 
 
 残りＨＰが最も高い敵を中心とした範囲内の敵すべてのＨＰ回復量を特大ダウンさせ、魔法防御力を小ダウンさせる。=Large reduction in HP recovery and small reduction in magic defense of all enemies within range, centering on the enemy with the highest remaining HP.
 
 コスプレマジック=Cosplay Magic
 コスプレマジック+=Cosplay Magic+
+
+r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する\n範囲内の敵のＴＰ上昇を(\d+)ダウン$"=Cast time:1.24s\n►Deploys a field within 410 area of Highest enemy's HP that Deals $1 M.DMG/s for 12s.\n►Reduces TP increase for enemies within range by $2.
+
+残りＨＰが最も高い敵を中心として、魔法ダメージフィールドを展開する。さらに、残りＨＰが最も高い敵を中心とした範囲内の敵すべてのＴＰ上昇を中ダウンさせる。=Deploys a M.DMG field centered around the enemy with the highest remaining HP. Additionally, moderately decreases TP boost for all enemies within the area centered around the enemy with the highest remaining HP.

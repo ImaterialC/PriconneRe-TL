@@ -18,7 +18,7 @@ r:"^……ありがとう、(.{2,10})。\nそこに置いてもらえるかし�
 きゃっきゃ～♪=Kya-kya~♪
 も、もうっ！\nやめてったら……！=G-Geez! Stop it...!
 オイッス☆\nなんだか楽しそうですね♪=Hey, pal! ☆ You look like you're having fun! ♪
-こんにちは、ペコさん。=Hello, Peco.
+こんにちは、ペコさん。=It's good to see you, Peco.
 お、王女さま。\nご機嫌麗しく……=Oh, Princess. Have a good day...
 もう、シェフィちゃんたら♪\nペコリーヌでいいですよ？\nおしめ替えてあげた仲じゃないですか！=Geez, Sheffy! ♪ You can call me Pecorine, you know? We changed diapers, didn't we?
 そ、そんなことっ！\n……してない、ですよねっ……？=Th-That's not true! ...You didn't, did you...?
@@ -48,7 +48,7 @@ r:"^わぉ♪　さすが(.{2,10})くんですね……\n……えっ？　知�
 うーん。それだと余計に、\n学院のみなさんを警戒させちゃう気がして。\n今回は、みなさんと仲良くなるのが目的ですからね。=Hmm. I feel like that would only make everyone at the academy even more wary. Our goal this time is to make friends with everyone.
 では、ユイさまたちは……？=Then, what about Yui-sama and the others...?
 ユイちゃんたちは今、\nソルオーブっていうのを集めに行ってるそうです。=Yui-chan and the others are out collecting Sol Orbs right now.
-ラビリスタさんに協力してもらって、\n街に帰還できる転移魔法陣を作ったそうですから。\n何かあったらすぐ戻ってきてくれますよ。=With The Labyrista's help, they made a teleportation magic circle that would allow them to return to the city. If anything happens, they'll come right back.
+ラビリスタさんに協力してもらって、\n街に帰還できる転移魔法陣を作ったそうですから。\n何かあったらすぐ戻ってきてくれますよ。=With Labyrista's help, they made a teleportation magic circle that would allow them to return to the city. If anything happens, they'll come right back.
 あたしもその魔法陣作るの、手伝わされたわね。\nついでに、通信魔法のアイテム作りとか。\n突貫だったけど、ちゃんと使えるかしら……=I was forced to help make that magic circle, too. While I was at it, I also made items for communication magic. It was a charge, but I wonder if I'll be able to use them properly...
 ……ねぇ、ペコリーヌさん。=...Hey, Pecorine.
 はい、なんでしょう？=Yes, what is it?
@@ -1118,8 +1118,8 @@ r:"^……陛下は、ペコリーヌたちに敗れた。\nワタシではな�
 ………………なんだ。\nワタシの耳がおかしくなったか？\n王宮の関係者でもない娘が、陛下を釈放させると聞こえたが。=............What? Have my ears gone haywire? I heard that a girl who wasn't related to the royal palace was going to let Her Majesty go.
 聞き間違えじゃありませんよ、クリスティーナさん。\nわたしたちは今、ペコリーヌちゃんと協力しあってるんです。=Don't mishear us, Christina. We're cooperating with Pecorine right now.
 釈放といっても、一時的なものだし。\nいざとなれば我々総出で、再び覇瞳皇帝を押さえ込む。=It's only a temporary release, after all. If worse comes to worst, we'll all take control of the Omniscient Kaiser once more.
-あたしたちも、前よりパワーアップしてるしね！\nネネカさんとか、ラビリスタさんとかも力を貸してくれてるし！=We’re even more powered up than before! Neneka and The Labyrista are lending us their strength, too!
-ネネカ、ラビリスタ……はん。\n奴らの差し金か。\n成程成程……=Neneka, The Labyrista... Hmph. They sent you, huh? I see...
+あたしたちも、前よりパワーアップしてるしね！\nネネカさんとか、ラビリスタさんとかも力を貸してくれてるし！=We’re even more powered up than before! Neneka and Labyrista are lending us their strength, too!
+ネネカ、ラビリスタ……はん。\n奴らの差し金か。\n成程成程……=Neneka, Labyrista... Hmph. They sent you, huh? I see...
 ……どうかな、誓約女君。\n我々の依頼、聞く気になってくれただろうか？=...What do you think, Regina Geas? Are you willing to accept our request?
 構えろよ、お嬢ちゃん。=Get ready, young lady.
 レイさんっ！=Mr. Rei!

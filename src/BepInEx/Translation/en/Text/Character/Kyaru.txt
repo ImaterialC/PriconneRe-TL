@@ -1,5 +1,5 @@
 ャル=Kyaru
-猫と遊ぶ=Play with cats
+猫と遊ぶ=Playing with cats
 行き倒れの謎のネコミミ魔法使い=A mysterious cat-eared sorceress\ndiscovered lying unconscious
 ケイオスグリモワール=Chaos Grimoire
 Intro
@@ -44,6 +44,7 @@ r:"^敵単体の物理防御力を(\d+)ダウン\n敵単体の魔法防御力を
 目の前の敵１キャラの物理防御力と魔法防御力を小ダウンさせる。=Lowers P.DEF and M.DEF of enemy directly in front by a small amount.
 
 Skill 2+
+ケイオススフィア=Chaos Sphere
 アーマーダウン+=Armour Down+
 目の前の敵１キャラを中心とした範\n囲内の敵すべてを麻痺させて、クリ\nティカルを受けた際のダメージを中\nアップ、物理防御力と魔法防御力を\n特大ダウンさせる。= Inflicts a Paralysis debuff on the nearest enemy which lasts 3 seconds and impacts all enemies within a range of 300. Applies another debuff which increases damage taken from critical attacks and lowers P&M DEF.
 r:"^範囲内の敵すべてを一定時間行動不能にする\n範囲内の敵すべてのクリティカルを受けた際のダメージを20％アップ\n範囲内の敵すべての物理防御力を(\d+)ダウン\n範囲内の敵すべての魔法防御力を(\d+)ダウン$"=►Inflicts a Paralysis debuff around an area to the nearest enemy.\n►Inflicts enemies with another debuff causing them to take 20% more damage from critical attacks.\n►Lowers M.DEF by $1.\n►Lowers P.DEF by $2.
