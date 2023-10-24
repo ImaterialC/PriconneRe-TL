@@ -12,7 +12,9 @@
 それは命と死の母=Family in Life and Death
 心を込めて=With All Your Heart
 
-
+消えぬ怨恨=Unquenchable Grudge
+ソウルコンバージョン+=Soul Conversion+
+ソウルコンバージョン=Soul Conversion
 ファントムハウル=Phantom Howl
 おともだちになってくれる？=Will You Join My Adventure?
 おともだちになってくれる？+=Will You Join My Adventure?+
@@ -24,6 +26,8 @@ r:"^味方単体に(\d+)の魔法ダメージ\n味方単体のＴＰを(\d+)回�
 r:"^味方単体に(\d+)の魔法ダメージ\n味方単体のＴＰを(\d+)回復\nおともだちを追加で１人増やす$"=Cast Time:0.74s\n►Deal $1 M.DMG to Highest %HP ally\n►Recover an ally's TP by $2.\n►Adds 1 additional Friend.
 
 最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復し魔法攻撃力を小アップ、魔法クリティカルを大アップさせる。さらに、自分のＴＰを小回復する。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the Highest %HP ally and recovers their TP by moderate amount, boost their M.ATK and M.Crit rate. Restore a small amount of own's TP. Luna gains 1 extra Friend.
+
+最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復し魔法攻撃力を中アップ、魔法クリティカルを大アップさせる。さらに、自分のＴＰを小回復する。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the Highest %HP ally and recovers their TP by moderate amount, boost their M.ATK and M.Crit rate. Restore a small amount of own's TP. Luna gains 1 extra Friend.
 
 最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復しルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the Highest %HP ally and recovers their TP by moderate amount, restores their TP to medium. Luna gains 1 extra Friend.
 

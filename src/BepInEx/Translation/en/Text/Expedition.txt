@@ -1,9 +1,9 @@
 聖跡調査=Sanctum Survey
 神殿調査=Temple Trek
 
-専用装備１に必要な\nハートの欠片を獲得=Earn a piece of heart needed for 1st UE
+専用装備１に必要な\nハートの欠片を獲得=Obtain Princess Heart (Pieces) for UE 1!
 
-★6に必要な\n解放アイテムを獲得=Earn items required for unlocking 6★
+★6に必要な\n解放アイテムを獲得=Obtain items required for ascension to 6★!
 
 残り挑戦回数回復=Restore Attempts
 残り挑戦回数を回復します。よろしいですか？=Would you like to restore your\nremaining attempts?
@@ -22,22 +22,22 @@ r:"^本日の回復可能回数 (\d+)/(\d+)回$"=Recharges left today: $1/$2
 
 ---npc dialogue---
 ---hearts---
-ここで手に入れたアイテムで\n専用装備を作成できるみたいね\nアイテムが集まったら\nさっそく作ってみましょ！=Looks like the items found here are useful for crafting Unique Equipment. Once you've got enough let's try it out ourselves!
+ここで手に入れたアイテムで\n専用装備を作成できるみたいね\nアイテムが集まったら\nさっそく作ってみましょ！=Looks like the items found here can be used to craft Unique Equipment. Once we get enough of them, let's try making some ourselves!
 
-攻略すると珍しいアイテムが\n手に入りますよ\nこのアイテムで専用装備を\n作成できるようです=It seems these quests may yield some rather rare resources. We can use them to craft Unique Equipment, Aruji-sama.
+攻略すると珍しいアイテムが\n手に入りますよ\nこのアイテムで専用装備を\n作成できるようです=It seems these quests may yield some rather rare resources. We can use them to craft Unique Equipment.
 
 専用装備の作成に必要な\nアイテムを獲得できますよ\nたくさん集めてどんどん\n強くなりましょう！=If we collect enough items here, we might be able to make some Unique Equipment! This is our chance to get even stronger!
-こちらでは「プリンセスハート（欠片）」を手に入れられます。\nたくさん集めると、キャラ専用装備を作るのに必要な\n「プリンセスハート」を作成することができますよ。=Princess Heart Shards can be obtained here.\nCollect a lot of them, and you will be able to make Princess Heart,which is required to craft our Unique Equipment.
+こちらでは「プリンセスハート（欠片）」を手に入れられます。\nたくさん集めると、キャラ専用装備を作るのに必要な\n「プリンセスハート」を作成することができますよ。=Princess Heart Pieces can be obtained here. \nCollect enough of them and they will form a Princess Heart, which can be used to craft our Unique Equipment.
 ---orbs---
-ここにさらなる力を得るための\nアイテムが眠っているみたい\nです！　どこから挑戦するか\n迷っちゃいますね！=It seems that there are items lying here that will give you even more power! I can't decide where to start!
+ここにさらなる力を得るための\nアイテムが眠っているみたい\nです！　どこから挑戦するか\n迷っちゃいますね！=It seems that the items lying here can grant us extra power! I don't even know where to start!
 
-ここにさらなる力を得るための\nアイテムが眠っているみたい！\nどんどん挑戦して\n強くなっちゃいましょ！=It seems that there are some items here that will give you more power!
+ここにさらなる力を得るための\nアイテムが眠っているみたい！\nどんどん挑戦して\n強くなっちゃいましょ！=Looks like items that awaken our potential are lying around here! Let's grab as many as we can and get even stronger!
 
-こちらにさらなる力を得る\nためのアイテムが眠っている\nようです。主さま、どこから\n挑戦いたしましょう。=It seems that the items to gain more power are lying here.
+こちらにさらなる力を得る\nためのアイテムが眠っている\nようです。主さま、どこから\n挑戦いたしましょう。=I believe the items in this area can further awaken our abilities. Aruji-sama, where should we begin our search?
 
 ---sanctum menu---
-ここから先は神聖な場所\nでございます。\n気を引き締めてお宝の\n調査探索に参りましょう=From here on out, this is a sacred place, so let's brace ourselves for the search for treasure.
+ここから先は神聖な場所\nでございます。\n気を引き締めてお宝の\n調査探索に参りましょう=From this point onward, we are roaming within sacred territory. Let's hold our heads high and see what we can find.
 
-ここから先は神聖な場所\nみたいです！\nどんなお宝が手に入るか\n楽しみですね！=It looks like it's a sacred place from here on out, and I can't wait to see what kind of treasure we get!
+ここから先は神聖な場所\nみたいです！\nどんなお宝が手に入るか\n楽しみですね！=Looks like we're entering a sacred place! I can't wait to see what kind of treasure is up for grabs!
 
-この先は神聖な場所みたい。\n手に入るお宝も並じゃないけど\n気を付けていかないと\n痛い目にあうわよ=It looks like it's a sacred place, and the treasures you'll get are extraordinary, but be careful or you'll get hurt.
+この先は神聖な場所みたい。\n手に入るお宝も並じゃないけど\n気を付けていかないと\n痛い目にあうわよ=Seems like we are dealing with a sacred site. The treasures will be extraordinary, but be careful or you'll get hurt.

@@ -8,4 +8,17 @@
 【回復】ＨＰ・ＴＰ回復=[Physical] HP/TP recovery
 
 ヒール・レリック=Heal Relic
-【回復】全体継続回復\nシャドウと共に聖域を守護する、記憶の番人。\n真なる力を欲するものに、相応の試練を与える。\n\n\n・自身以外の味方全体にＨＰとＴＰ継続回復状態\n　を付与し、物理防御力と魔法防御力をアップさ\n　せる。=[Recovery] Continuous recovery for all.\n\n►A guardian of memories who protects the sanctuary alongside the shadows. It presents suitable trials to those who seek true power.\n\n►Grants HP and TP regeneration status to all allies except itself and increases their P.DEF and M.DEF.
+【回復】全体継続回復シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。\n\n\n・自身以外の味方全体にＨＰとＴＰ継続回復状態を付与し、物理防御力と魔法防御力をアップさせる。=[Recovery] Continuous recovery for all.\n\n►A guardian of memories who protects the sanctuary alongside the shadows. It presents suitable trials to those who seek true power.\n\n►Grants HP and TP regeneration status to all allies except itself and increases their P.DEF and M.DEF.
+
+
+カーズ・レリック=Cars Relic
+【魔法】範囲攻撃シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。\n\n・敵全体に毒状態を付与し、ＨＰ吸収とＨＰ回復　量をダウンさせる。=[Magic] Area attack\nA guardian of sanctuaries alongside Shadows, the keeper of memories.\nIt bestows appropriate trials upon those who seek true power.\n\n・Inflicts poison status on all enemies, reducing HP absorption and HP recovery amount.
+
+アタック・レリック=Attack Relic
+【魔法】近接攻撃シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=[Magic] close-range attack\nA keeper of memories who protects the sanctuary together with Shadow. He gives suitable trials to those who desire true power.
+
+【物理】近接攻撃シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=[Physical] close-range attack\nA keeper of memories who protects the sanctuary together with Shadow. He gives suitable trials to those who desire true power.
+
+【回復】ＨＰ・ＴＰ回復シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=[Healing] HP & TP Recovery\nA keeper of memories who protects the sanctuary together with Shadow. He gives suitable trials to those who desire true power.
+
+【魔法】攻撃力ダウンシャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=[Magic] Attack power down\nA keeper of memories who protects the sanctuary together with Shadow. He gives suitable trials to those who desire true power.

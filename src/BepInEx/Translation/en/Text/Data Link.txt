@@ -1,12 +1,12 @@
-[FF7C4E,D62146]異なるOSにデータ連携した場合、連携前のOSで\n所持していた有償ジュエルと有償マナは連携後の\nOSでは使用できません。\n連携前のOSに戻ると使用できるようになります。[-]=[FF7C4E,D62146]Paid Jewel, Mana, and any Paid\nPackages are not transfer-able between OS[-]
-データ連携を行うことで、複数の端末でプ{{A}}セスコネクト！Re:Diveのゲームデータを共有してプ{{B}}できます。データ連携には「プレイヤーID」と「連携パスワード」が必要です。=By using this menu, you can transfer your "Priconne ID" to any OS Available.\nTo do this, you must provide Bind ID and Bind Password.\n \nAre you sure to do this operation?
+[FF7C4E,D62146]異なるOSにデータ連携した場合、連携前のOSで\n所持していた有償ジュエルと有償マナは連携後の\nOSでは使用できません。\n連携前のOSに戻ると使用できるようになります。[-]=[FF7C4E,D62146]Paid Jewels, Mana, and any Paid\nPackages are not transferable between OS[-]
+
 [3C404E]連携パスワードを再設定する[-]=[3C404E]Reset Link Password [-]
 [3C404E]連携パスワードを入力して引き継ぐ[-]=[3C404E]Transfer Using Link Password [-]
 連携パスワードについて選択してください。=Please select one of the following options:
 
 
-[FF7C4E,D62146]データ連携には、「プレイヤーID」が必要です。\nプレイヤーIDは、スクリーンショットやメモで、\n忘れないようにしてください。\n※プレイヤーIDの確認は、タイトル画面の右下や、\nフッターメニュー「メニュー」内の「プロフィール」\nから行えます。[-]=[FF7C4E,D62146]Data Bind required to store you game progress.\nPlease save your game ID's and Password\nwith Screenshot or any notes.\nCheck your "ID" in Title Screen or Profile Menu\n(example: xxx xxx xxx)[-]
-プライバシーポリシーは必ず確認し、次の画面で連携パスワードの設定をしてください。=Make sure to check Privacy Policy first, and then,set your Bind Password on the next screen.\nBind Password is re-usable as many time as you like.
+[FF7C4E,D62146]データ連携には、「プレイヤーID」が必要です。\nプレイヤーIDは、スクリーンショットやメモで、\n忘れないようにしてください。\n※プレイヤーIDの確認は、タイトル画面の右下や、\nフッターメニュー「メニュー」内の「プロフィール」\nから行えます。[-]=[FF7C4E,D62146]Data Link is required to store your game progress.\nPlease save your game ID and Password\nwith a screenshot or note.\nCheck your ID on the Title Screen or Profile Card\n(example: 123 456 789)[-]
+プライバシーポリシーは必ず確認し、次の画面で連携パスワードの設定をしてください。=Make sure to check the Privacy Policy, and then set your Link Password in the next screen.\nYour Link Password can be re-used as many times as you like.
 連携パスワードの設定を行います。よろしいですか？=Setting-up the Link Password. Is this OK?
 設定する=Set
 連携パスワードの設定=Setup Link Password
@@ -31,7 +31,7 @@
 [3C404E]連携パスワードの設定が完了しました。\n\n連携パスワードは、\n他の人に教えないようにしてください。[-]=[3C404E]Link password setting is complete.\n\nPlease do not give the link password to other people.[-]
 データ連携パスワード設定完了=Data Link Password Setting Completed
 
-[3C404E]ログインしたアカウントは、すでに現在のプリンセスコネクト！Re:Diveのゲームデータと連携しています。[-]=[3C404E]The current account is already linked in Princess Connect! Re:Dive game data.[-]
+[3C404E]ログインしたアカウントは、すでに現在のプリンセスコネクト！Re:Diveのゲームデータと連携しています。[-]=[3C404E]The current account is already linked to Princess Connect! Re:Dive game data.[-]
 データ引き継ぎ済み=Inherited Data
 
 [3C404E]プレイヤーIDと連携パスワードが一致しませんでした。\nご確認のうえ、再度お試しください。[-]=[3C404E]The Player ID and the Linked Password did not match.\nPlease check and try again.[-]

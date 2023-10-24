@@ -77,7 +77,7 @@ r:"^\[3C404E\]\[3C404E\]クラン\[FFBB00\,CE4F00\](.+)\[-\]を\n結成しまし
 [3C404E][3C404E]クランを[-][FF7C4E,D62146]解散[-][3C404E]します。\nよろしいですか？[-][-]=[FF7C4E,D62146]Disband[-][3C404E] this clan?[-]
 [FF7C4E,D62146]解散後24時間はクランの結成・加入ができません。[-]=[FF7C4E,D62146]You can't join or create a clan for\n24 hours after disbanding.[-]
 クラン編集=Clan Edit
-[FF7C4E,D62146]加入申請中のプレイヤーがいません。[-]=[FF7C4E,D62146]There are no players application.[-]
+[FF7C4E,D62146]加入申請中のプレイヤーがいません。[-]=[FF7C4E,D62146]There are no player applications.[-]
 メンバー管理=Member Management
 勧誘プレイヤーリスト=Invite player list
 加入申請リスト=Join application list
@@ -106,7 +106,7 @@ r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの勧誘を\n拒否し
 r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの勧誘を\n拒否しました。\[-\]\[-\]$"=[3C404E]You have declined the invitation from\n[FFBB00,CE4F00]$1[-].[-]
 勧誘拒否完了=Invitation Declined
 
-r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの加入を\n拒否しますか？\[-\]\[-\]$"=[3C404E]Decline apply from\n[FFBB00,CE4F00]$1[-]?[-]
+r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの加入を\n拒否しますか？\[-\]\[-\]$"=[3C404E]Decline application from\n[FFBB00,CE4F00]$1[-]?[-]
 加入拒否確認=Decline Application
 
 r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]からの加入を\n拒否しました。\[-\]\[-\]$"=[3C404E]You have declined the application from\n[FFBB00,CE4F00]$1[-].[-]
@@ -129,8 +129,8 @@ r:"^(\d+)分後にクラン加入が可能です。$"=You can join a clan after 
 前回、このプレイヤーから勧誘を拒否されました。\n勧誘拒否から24時間以内は勧誘できません。=Last time you declined an invitation from this player. You cannot
 Invite within 24 hours after the Invitation is rejected.
 NPC
-他のプレイヤーと、クランを結成しましょう。\nクランを結成すると、クランバトルやダンジョンで協力して戦えます。=Team up with other player to form a clan.\nDoing so allows you to fight alongside each other in Clan Battle and Dungeons.
+他のプレイヤーと、クランを結成しましょう。\nクランを結成すると、クランバトルやダンジョンで協力して戦えます。=Team up with other players to form a clan.\nDoing so allows you to fight alongside each other in Clan Battle and Dungeons.
 
 クランに入れるらしいわよ\nせっかくだから入ってみたら？\nけっこう楽しいみたいよ♪=Looks like you can join a Clan.\nWhy not give it a try?\nCould be a lot of fun!♪
 こちらでクランに加入できます\n素敵なクランがたくさんあって、\n目移りしてしまいますね=You can join a Clan here.\nThere are so many wonderful Clans, it is difficult fo choose.
-クランに加入してみませんか？\nみんなといっしょに冒険した方が、\n楽しいですよ！=Want to join Clan?\n It's a lot more fun going on adventures as a team!
+クランに加入してみませんか？\nみんなといっしょに冒険した方が、\n楽しいですよ！= Want to join a clan?\n It's a lot more fun going on adventures as a team!

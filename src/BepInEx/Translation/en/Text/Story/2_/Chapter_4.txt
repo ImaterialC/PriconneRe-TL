@@ -972,23 +972,7 @@ r:"^もちろんです、シェフィちゃん☆\nギルド【美食殿】は�
 それなのに……それなのにぃぃ～！　無職はいや～！=And yet...and yet...! I don't want to be unemployed!
 第ニ部五章　竜たちと金貨の坩堝=Chapter 2: The Dragons and the melting pot of Gold Coins
 こうなりゃもう、ヤケシュワよ～！=At this point, it's all over!
-｛ボス名あああああああ｝=Boss Name: Aaaaahhh
-{0}セット購入=Purchase {0} Set
-で!=So!
-専用装備１に必要な\nハートの欠片を獲得=Obtain the Heart Fragment required for Special Equipment 1
-{0:D2}月{1:D2}日まで販売中=They're on sale until {1:D2} month
-アイドルエール=Idol ale
-クレールスラッシュ=Clair Slash
-バトル中防御力小アップ=Small Defense Boost during battle
-ヒヒイロカネの盾=Hihiirokane Shield
-クレールスラッシュ+=Clair Slash +
-[FF7C4E,D62146]★6才能開花に必要な数を超えています。[-]=[FFF7C4E, D62146)★6 Talent exceeds the required number for flowering. [--]
-本日の{0}での時間短縮可能回数 {1}/{2}=Today's {0} can shorten time by {1}/{2}
-湯呑み=Yunomi
-しまうま=Takuma
-ゆうき=Yuuki
-合計消費スタミナ・マナ=Total Consumption Stamina Mana
-あと {0}=And {0}
+
 ふあぁ～……=*yawn*...
 みんな、どうしたの？\nさっきからあくびばっかりしているけど……=What's wrong, everyone? You've been yawning nonstop for a while now...
 えへへ、すみません……\n森がぽかぽか陽気すぎて、つい眠くなっちゃうんですよね～=Ehehe, I'm sorry... The forest is so warm and sunny that I can't help but get sleepy~

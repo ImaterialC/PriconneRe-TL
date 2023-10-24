@@ -42,21 +42,21 @@ r:"^プリセット(\d+)$"=Preset $1
 ログを削除=Remove log
 バトルログ投稿完了=Battle Log Posting Completed
 [3C404E]パーティ編成を保存しました。[-]=[3C404E]Party Formation has been saved.[-]
-[FF7C4E,D62146]マイパーティに保存されている数が上限に達しています。\n上書きして保存するパーティを選択してください。[-]=[FF7C4E,D62146]The number stored in My Party has reached the upper limit.\nSelect the party to overwrite and save. [-]
+[FF7C4E,D62146]マイパーティに保存されている数が上限に達しています。\n上書きして保存するパーティを選択してください。[-]=[FF7C4E,D62146]There are no more available slots in My Party.\nSelect the party to replace. [-]
 ここに保存=Save here
 上書きして保存するパーティを選択してください。=Select the party to overwrite and save.
 保存場所を選択=Select a storage location
 編成制限のため選択できません。=Cannot be selected due to organization restrictions.
 保存完了=Save Completed
-バトルアリーナではオートのみになります。=In the battle arena it will only be auto.
+バトルアリーナではオートのみになります。=Only AUTO is available in the Battle Arena.
 バトルアリーナでは選択できません。=Cannot be selected in Battle Arena.
 [3B3F4D]クールタイム中です。\nジュエル×[-][FFBB00,CE4F00]10[-][3B3F4D]を使用して\nクールタイムを解除しますか？[-]=[3B3F4D]You are currently on cooldown.\nuse Jewels × [FFBB00,CE4F00]10[-]\n to reset cooldown?[-]
 [FF7C4E,D62146]スキップ設定になっています。[-]=[FF7C4E,D62146]It's set to skip.[-]
 [3C404E]パーティ編成が時間切れになりました。\n対戦相手を選択し直してください。[-]=[3C404E]The party formation has expired.\nPlease reselect your opponent.[-]
-現在クールタイムです。\nしばらくお待ちください。=It's currently on cool time,\nplease wait a moment.
+現在クールタイムです。\nしばらくお待ちください。=It's currently on cooldown,\nplease wait a moment.
 r:"^パーティ(\d)にキャラが選択されていません。$"=No character is selected for Party $1.
-フレンド以外のプレイヤーのキャラは、ステータスが\\n下方補正されている場合があります。=Characters of players other than friends\\nmay have their stats revised downwards.
-別のパーティに編成中のキャラは選択できません。=Characters being organized in another party cannot be selected.
+フレンド以外のプレイヤーのキャラは、ステータスが\\n下方補正されている場合があります。=Characters from players not on your friend list\\nmay have their stats scaled down.
+別のパーティに編成中のキャラは選択できません。=Characters being used in another party cannot be selected.
 
 [3B3F4D]本日の挑戦回数の上限に達しています。\nジュエル×[-][FFBB00,CE4F00]50[-][3B3F4D]を使用して挑戦回数をリセットしますか？[-]=[3C404E]You have reached the maximum number of attempts for today.Do you want to reset the number of attempts using Jewels × [FFBB00,CE4F00]50[-]?[-]
 [3C404E]対戦相手のランキングが更新されました。[-]=[3C404E] The ranking of the opponent has been updated. [-]
@@ -66,11 +66,11 @@ sr:"^\[3C404E\]対戦相手のランキングが(\d+位)に変更されました
 
 報酬獲得=Rewards
 タイム報酬は時間経過で溜まります。=Time rewards built up as time passes.
-1～50位のプレイヤーのため、表示できません。=Cannot be displayed players ranked 1st-50th.
-対戦履歴はありません。=There is no match history.
+1～50位のプレイヤーのため、表示できません。=Cannot be displayed as players are ranked 1st-50th.
+対戦履歴はありません。=No match history is available.
 r:"^\[3C404E\](\d)勝(\d)敗\[-\]$"="[3C404E]win:$1 lose:$2[-]"
 r:"^\[3B3F4D\]ランキングが\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]位アップし、\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]位になりました。\[-\]$"=[3B3F4D]Climb [FFBB00,CE4F00]$1[-] rank, Current Rank: [FFBB00,CE4F00]$2[-].[-]
-プリンセスアリーナではオートのみになります。=Princess Arena only can auto.
+プリンセスアリーナではオートのみになります。=Only AUTO is available in the Princess Arena
 
 [FF7C4E,D62146]ランキング変動なし、スキップ不可のバトルです。[-]=[FF7C4E,D62146]This is a non-skippable battle, no change in ranking.[-]
 3パーティの総戦力=3Party Total Power
@@ -89,17 +89,17 @@ r:"^\[3B3F4D\]ランキングが\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]位�
 ---Reward Info---
 sr:"^(\[[0-9A-F,]{6,13}\])最高ランク：(\d+位)\[-\]$"=$1Best rank: $2[-]
 最高ランク=Best Rank
-毎日19:00のランキングにより獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards based on Your ranking each day at 19:00.\n※Reward will sent to a Present Box.
+毎日19:00のランキングにより獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards based on your ranking each day at 19:00.\n※Rewards will be sent to your Present Box.
 デイリー報酬=Daily
-1日5回まで、防衛成功時に獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards for succesful defenses up to 5x/Day.\n※Reward will sent to a Present Box.
+1日5回まで、防衛成功時に獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards for successful defenses up to 5x/Day.\n※Rewards will be sent to your Present Box.
 防衛報酬=Defense Reward
 防衛成功時=Successful Defense 
 sr:"^(\d+位)～(\d+位)$"=$1 to $2
 
-最高ランクの更新時に獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards based on Your best rank. \n※Reward will sent to a Present Box.
-r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回の防衛に成功！報酬はプレゼントに送られました。\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E]×successful defenses! Reward has been sent.[-]
+最高ランクの更新時に獲得できます。\n※報酬はプレゼントに送られます。=You can earn rewards based on your best rank. \n※Rewards will be sent to your Present Box.
+r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回の防衛に成功！報酬はプレゼントに送られました。\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E]×successful defenses! Rewards have been sent.[-]
 
-現在、対戦可能な相手がいません=Currently there is no opponent that can be played
+現在、対戦可能な相手がいません=Currently, there are no opponents available.
 ※一定時間経過後、リストが更新されると表示される場合があります=※ After a certain period of time,\nit may be displayed when the list is updated
 バトルが行われていないため、閲覧できません。=Cannot be viewed because the battle has not taken place.
 

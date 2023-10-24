@@ -7,6 +7,7 @@
 
 ハロウィンブルームダンス=Halloween Bloom Dance
 マジカルトリート=Magical Treat
+マジカルトリート+=Magical Treat+
 マジカルトリック+=Magical Trick+
 マジカルトリック=Magical Trick
 目の前の敵１キャラの魔法防御力を中ダウンさせ、さらに味方全体の魔法攻撃力を特大アップさせる。=The magic defense power of one enemy in front of you in front of you will be downward, and the magical attack power of all allies will be increased.
@@ -14,7 +15,7 @@ r:"^敵単体の魔法防御力を(\d+)ダウン\n味方全体の魔法攻撃力
 
 r:"^味方単体の魔法攻撃力を(\d+)アップ$"=Cast time:1.27s\n►Boosts an ally's M.ATK by $1 for 12s.
 最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップさせる。このキャラの魔法攻撃力が高い程、攻撃力の上昇量がアップする。=Large boost to the M.ATK of the ally with the highest M.ATK. This boost increase based on the target's M.ATK.
-
+最も魔法攻撃力が高い味方１キャラの魔法攻撃力を中アップさせる。このキャラの魔法攻撃力が高い程、攻撃力の上昇量がアップする。=Large boost to the M.ATK of the ally with the highest M.ATK. This boost increase based on the target's M.ATK.
 ハロウィンブレイブ+=Halloween Bravery+
 ハロウィンブレイブ=Halloween Bravery
 ハロウィン猫さんブルーム=Halloween Cat Broom

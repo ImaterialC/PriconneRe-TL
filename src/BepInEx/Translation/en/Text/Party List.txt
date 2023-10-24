@@ -20,7 +20,6 @@ sr:"^編成(\d+)$"=Preset $1
 コピーするパーティを選択=Select slot
 ここにコピー=Copy Here
 登録済みのパーティを他のパーティにコピーします。=Copies a registered party to another slot.
-[FF7C4E,D62146]マイパーティに保存されている数が上限に達しています。\n上書きして保存するパーティを選択してください。[-]=[FF7C4E,D62146]The number stored in My Party has reached the upper limit.\nSelect the party to overwrite and save. [-]
 
 クリア確認=Delete Party
 下記のパーティ情報をクリアしますか？=Delete the following party?

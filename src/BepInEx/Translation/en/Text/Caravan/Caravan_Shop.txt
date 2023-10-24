@@ -1,13 +1,12 @@
 キャラバンショップ=Caravan Shop
 r:"^あと (\d{1,2})日$"=$1 days left
-シーズン2=Season 2
-シーズン1=Season 1
-シーズン2は開催されていません。=Season 2 is not open yet.
+r:"^シーズン(\d+)$"=Season $1
+r:"^シーズン(\d+)は開催されていません。$"=Season $1 is not open yet.
 キャラバンコイン=Caravan Coin
 トレジャーは売却できません。=Treasures cannot be sold.
 
-キャラバンコイン（シーズン1）=Caravan Coins (Season 1)
-トレジャーの清算で獲得できる特別\nな通貨。キャラバンショップの\n「シーズン1」タブで買い物ができ\nる。=A special currency that can be obtained through the appraisal of Treasures. It can be used for shopping in the "Season 1" tab of the Caravan Shop.
+r:"^キャラバンコイン（シーズン(\d+)）$"=Caravan Coins (Season $1)
+r:"^トレジャーの清算で獲得できる特別\nな通貨。キャラバンショップの\n「シーズン(\d+)」タブで買い物ができ\nる。$"=A special currency that can be obtained through the appraisal of Treasures. It can be used for shopping in the Season $1 tab of the Caravan Shop.
 
 ---about to buy---
 所持キャラバンコイン=Caravan Coins Held

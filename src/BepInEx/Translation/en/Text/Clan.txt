@@ -2,7 +2,7 @@
 サポートキャラを設定\\nできます=Set up Rent-Chara
 対象クエスト一覧=Available Quest List:
 対象のクエストは以下のものとなります。=The Available Quests that can\nuse Rent-Chara are as follows.
-メインクエスト(NORMAL)\nメインクエスト(HARD)\nメインクエスト(VERYHARD)\n探索経験値クエスト\n探索マナクエスト\n聖跡調査\n神殿調査\nイベントクエスト(NORMAL)\nイベントクエスト(HARD)\nサイドストーリークエスト(NORMAL)\nサイドストーリークエスト(HARD)=Main Quest (NORMAL)\nMain Quest (HARD)\nMain Quest (VERYHARD)\nGrotto EXP\nGrotto Mana\nSanctum Survey\nTemple Trek\nEvent Quest (NORMAL)\nEvent Quest (HARD)\nSide Story Quest (NORMAL)\nSide Story Quest (HARD)\n
+メインクエスト(NORMAL)\nメインクエスト(HARD)\nメインクエスト(VERYHARD)\nサブクエスト\n探索経験値クエスト\n探索マナクエスト\n聖跡調査\n神殿調査\nイベントクエスト(NORMAL)\nイベントクエスト(HARD)\nサイドストーリークエスト(NORMAL)\nサイドストーリークエスト(HARD)=Main Quest (NORMAL)\nMain Quest (HARD)\nMain Quest (VERYHARD)\nSub Quest\nGrotto EXP\nGrotto Mana\nSanctum Survey\nTemple Trek\nEvent Quest (NORMAL)\nEvent Quest (HARD)\nSide Story Quest (NORMAL)\nSide Story Quest (HARD)
 
 r:"^\-(\d+)日-(\d+)時間-(\d+)分$"=-$1d-$2h-$3m
 r:"^トレーニングログ保存件数 ([0-9/]+)$"=Saved training logs: 6/30
@@ -67,15 +67,13 @@ r:"^次の装備リクエストは(\d+)分後に可能です。$"=You can make y
 
 8時間経過したため、装備リクエストが終了しました。=You received the following equipment.\n8 hours have passed and the equipment request has ended.
 r:"^以下の装備をx(\d+)獲得しました。\n寄付上限に達したため、装備リクエストが終了しました。$"=Acquired the following equipment x$1.\nYou have reached the donation limit, equipment requests have ended.
-[FF7C4E,D62146]バトルを開始した時点で挑戦回数が消費され、\n編成キャラとそのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]Attempt are consumed when the battle starts,\nusage restrictions apply to characters\nand their EX equipment in the formation.[-]
+[FF7C4E,D62146]バトルを開始した時点で挑戦回数が消費され、\n編成キャラとそのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]Attempts are consumed when the battle starts,\nusage restrictions apply to characters\nand their EX equipment in the formation.[-]
 
 [FF7C4E,D62146]サポート以外のキャラのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]rent char and their EX equipment will be restricted.[-]
 [FF7C4E,D62146]バトルを開始した時点で上記のキャラと、[-]=[FF7C4E,D62146]Attempt will be used and the use of charas except[-]
 
 [3C404E][3C404E]クランを[-][FF7C4E,D62146]脱退[-][3C404E]します。\nよろしいですか？[-][-]=[3C404E]You will [FF7C4E,D62146]withdraw[-][ from the clan.\nIs that okay?
-[FF7C4E,D62146]脱退後24時間はクランに所属・結成ができません。[-]=[FF7C4E,D62146]You will not be able to belong to or\nform a clan for 24 hours after leaving.[-]
-
-At the start of the battle, usage restrictions apply to the above characters and EX equipment for characters other than support characters.
+[FF7C4E,D62146]脱退後24時間はクランに所属・結成ができません。[-]=[FF7C4E,D62146]You will not be able to join or\nform a clan for 24 hours after leaving.[-]
 
 残り挑戦回数が0回です。=The remaining attempt is 0.
 現在の装備リクエストの状況です。=Status of current equipment request.
@@ -116,7 +114,7 @@ r:"^パーティ(\d+)と\n対戦$"=Party $1\nMatch
 編成したパーティをクランチャットに投稿できます。=You can post the organized party to the clan chat.
 他メンバーのバトルログは投稿できません。=You cannot post the battle logs of other members.
 
-このパーティでクランチャットに投稿しますか？=Do you want to post to Clan Chat at this party?
+このパーティでクランチャットに投稿しますか？=Do you want to post this party to Clan Chat?
 パーティ名を編集します。=Edit the party name.
 パーティ名編集=Party Name Edit
 リクエスト=Request
@@ -145,12 +143,12 @@ r:"^\[FF7C4E,D62146\]本日の残り寄付数は(\d+)です。\[-\]$"=[FF7C4E,D6
 sr:"^\[25CFDE,0E6C98\](\d+月)全クランランキング\[-\]$"=[25CFDE,0E6C98]Global Ranking($1)[-]
 ---Clan Battle---
 CPと挑戦回数は毎日05:00にリセットされます。=CPs & attempts will be reset at 5:00(JST) daily.
-r:"^\[3C404E\]クランバトルの挑戦回数が\n?\[-\]\[FFBB00,CE4F00\](\d)回\[-\]\[3C404E\]アップしました。\[-\]$"=[3C404E]Your CB's attempt has increased by [FFBB00,CE4F00]$1[-].[-]
+r:"^\[3C404E\]クランバトルの挑戦回数が\n?\[-\]\[FFBB00,CE4F00\](\d)回\[-\]\[3C404E\]アップしました。\[-\]$"=[3C404E]Your CB attempts have increased by [FFBB00,CE4F00]$1[-].[-]
 r:"^\[3C404E\]CPを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]獲得して、\[-\]$"=[3C404E]Earned [FFBB00,CE4F00]$1 [-]CP,[-]
 [3C404E]マイログに保存しますか?[-]=[3C404E]Do you want to save it in My Log?[-]
 マイログ保存確認=My log Save Confirmation
 模擬戦中=Training
-本日の挑戦回数の上限に達しています。=You have reached the maximum number of attempt for today.
+本日の挑戦回数の上限に達しています。=You have reached the maximum number of attempts for today.
 
 段階が変更されています。=Tier has been changed.
 ---Carry Over Time---
@@ -165,7 +163,7 @@ r:"^\[3C404E\]オーバーキルが発生したため\nモンスターの実際�
 ---Windows popup---
 sr:"^(\d+月)クランバトル開始！！$"=CB-$1 has Started!
 r:"^期間 ([0-9/ :]+)～([0-9/ :]+)$"=Start $1\nEnd $2
-クランメンバーと協力して\n強力なモンスターを討伐しよう！=Become a slave of metas or kicked from clan!\nAll your gacha results was paid-off at here.\nGo fort Whales! Go fort Carriers! Aim to the top and flexing your precision finger at SNS!\nThe real fun has just begun
+クランメンバーと協力して\n強力なモンスターを討伐しよう！=Become a slave of metas lest you be struck down by those you called allies.\nAll the banners you sparked on (lmfao) were for this very moment.\nGo forth Whales! Go forth Dolphins! Aim for the top and show us how quickly you can tap the screen!\nThe real battle has just begun!
 
 [FFBB00,CE4F00]解放期間:[-]=[FFBB00,CE4F00]Period:[-]
 sr:"^\[FF7C4E,D62146\]ボスの強さは、(\d+月)クランバトル（クランモード）と同じです。\[-\]$"=[FF7C4E,D62146]The boss's strength was same as the CB ($1).[-]
@@ -461,7 +459,7 @@ sr:"^\(クラン内ランキング　(\d+位)\)$"=(in-clan Rank $1)
 『クランモード』はクランメンバーとボスに挑みランキングを競います。『シングルモード』は個々に挑み、討伐数に応じた報酬を獲得できます。\nクエストや調査で勝利し、CPを貯めることでボスに挑戦できますよ。=In Clan Mode, all clan members defeat bosses together and compete in clan rankings. In Solo Mode, each member defeats bosses individually. You can earn Clan Battle attempts by completing quest and earning CP
 『クランモード』の主な報酬は、メンバー全員に贈られます。『シングルモード』では、個人の達成度に応じて個人ごとに贈られます。パーティ編成を試行錯誤しながら、強敵とのバトルに挑みましょう。=In, Clan Mode, the primary rewards are sent equally to all clan members. In Solo Mode, each member's rewards depend on their own progress. Do your best to assemble strong parties to defeat these powerful foes.
 装備をクランのメンバー同士で贈りあいましょう。\n一部の装備は、装備リクエストできないのでご注意ください。=Be sure to gift equipment to your fellow clan members.\n Please note that some equipment cannot be requested.
-次回クランバトル開催までお待ちください。=Please wait until the next Clan Battle begin.
+次回クランバトル開催までお待ちください。=Please wait until the next Clan Battle begins.
  こちらではクランバトルに\n 参加された仲間のみなさんの\n 活躍を振り返ることができます=Here you can look back at the activities of friends who participated in the clan battle.
 主さま、今回のクランバトルでの\nご活躍が記録されています\nバトルの参考にいたしましょう=Aruji-sama, your activities in this Clan Battle have been recorded you can now review them for future battles.
 今回のクランバトルでの戦績を\nおさらいできますよ！\n私にも見せてください☆=You can go over your Battle Record for this Battle!\nLet me have a look too☆~!
@@ -481,6 +479,6 @@ r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[
 このログを削除してもよろしいですか?=Is it okay to delete this log?
 
 クランに加入=Join a Clan
-クランに所属すると、\nクランバトルに挑戦することができます。=If you join to a Clan,\nyou can participate in Clan Battles.
+クランに所属すると、\nクランバトルに挑戦することができます。=If you join a clan,\nyou can participate in Clan Battles.
 クランに所属すると、=If you join to a Clan,
 クランバトルに挑戦することができます。=You can participate in Clan Battles.

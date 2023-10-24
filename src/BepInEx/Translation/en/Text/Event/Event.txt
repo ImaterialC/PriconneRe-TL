@@ -176,6 +176,9 @@ sr:"^(.+?)との信頼度(エピソード)?$"=$1's Intimacy $2
 信頼度エピソード解放=Intimacy Episode has been Unlocked
 閲覧する=Watch
 
+sr:"「([^」]+)」\nのスペシャルエピソードが解放されました。"=The special episode of\n$1\nhas been unlocked.
+
+
 ---NPC (Karin)---
 お疲れ様です！\nここでは、討伐証と報酬を\n交換することができます！=Otsukaresama! You can exchange Victory Medals for rewards here!
 受け取ることができる\n報酬があるようです\n確認してみてください=You've got rewards\nwaiting to be collected!

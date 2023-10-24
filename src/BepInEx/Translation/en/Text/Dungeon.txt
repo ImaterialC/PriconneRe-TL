@@ -13,7 +13,7 @@
 キャラ一覧へ=To Character List
 
 戦闘不能=KO
-登録済みのパーティを呼び出してバトルに挑めます。=Choose your registered party.
+登録済みのパーティを呼び出してバトルに挑めます。=Choose a registered party.
 パーティ選択=Party Selection
 以下のキャラは制限のため編成できません。=The following characters cannot be used due to restrictions.
 このダイアログを表示しない=Do not show this dialog
@@ -25,7 +25,7 @@ r:"^あと(\d+)時間(\d+)分は挑戦できません。$"=Can't challenge for $
 イベント開催までお待ちください。=Please wait until the event.
 
 
-ダンジョンはLv10以上のキャラから編成できます。=Dungeons can be organized from characters with Lv 10 or higher
+ダンジョンはLv10以上のキャラから編成できます。=Dungeons can only be challenged using Characters that are Lv 10 or higher.
 ---Return---
 帰還確認=Return
 [3C404E]帰還しますか？[-]=[3C404E]Return from this dungeon? [-]
@@ -63,10 +63,10 @@ r:"^([0-9/]+)階( EX)?$"=$1F$2
 
 ---Tips and Help Button---
 ボスバトル=Boss battle
-確認したい遊び方を選択してください=Please select how to play want to check
-仲間にしたすべてのキャラで挑む総力戦です。各階層を突破すると「ダンジョンコイン」とランダムで「装備アイテム」\n「メモリーピース」といった報酬が獲得できます。=A battle uses the total power of all recruited characters, Completing floors will earn you Dungeon Coins and random rewards like equipment or Memory Shards.
+確認したい遊び方を選択してください=Please select the tutorial you wish to view.
+仲間にしたすべてのキャラで挑む総力戦です。各階層を突破すると「ダンジョンコイン」とランダムで「装備アイテム」\n「メモリーピース」といった報酬が獲得できます。=An all-out battle to the top with help from everyone you have recruited. Completing floors will earn you Dungeon Coins and random rewards including equipment and Memory Shards.
 各ダンジョンの最後にいるモンスターを倒すとギルドハウスで役に立つアイテムをもらえます。それぞれギルドハウスに設置するとスタミナを生産します。アイテムGETを目指し、ダンジョンを進みましょう。=Defeating the boss at the end of each dungeon rewards you with useful items for your Guildhouse that produce stamina once placed. Fight your way through the dungeons to earn these prizes!
-ダンジョン「砂瀑の底都」のボスバトルではバトルモードが３段階\n変化します。モンスター詳細を確認して、それぞれのバトルでどう\n戦うか、しっかり作戦を立ててくださいまし。=In the boss battle of the dungeon "Sandfall Bottom City", the battle mode changes in 3 stages. Please check the details of the monsters and plan how to fight in each battle.
+ダンジョン「砂瀑の底都」のボスバトルではバトルモードが３段階\n変化します。モンスター詳細を確認して、それぞれのバトルでどう\n戦うか、しっかり作戦を立ててくださいまし。=The boss battle of the dungeon "Sandfall's Capital" will cycle through three unique Stages in battle. Please check the details of the monsters and plan how to combat each Stage.
 ダンジョン「紺碧の王砦」のボスバトルでは挑戦するたびに攻撃パ\nターンが変化します。モンスター詳細を確認して、それぞれのバト\nルでどう戦うか、しっかり作戦を立ててくださいまし。=The attack pattern changes every time you challenge the boss battle of the dungeon "Azure King's Fortress". Please check the details of the monsters and plan how you will fight in each battle.
 
 この機能はまだ解放されていません。=This feature has not been released yet.
@@ -83,16 +83,16 @@ r:"^([0-9/]+)階( EX)?$"=$1F$2
 累計踏破=Floor
 [FF7C4E,D62146]TPが最大の状態でバトルを開始します。[-]=[FF7C4E,D62146]Battle starts with TP maxed.[-]
 
-次回挑戦から、ダンジョンの途中まで\n自動でスキップします。\n\nスキップしたバトルの報酬を獲得し、\n続きから挑戦開始します。=It will automatically skip from the next challenge to the middle of the dungeon.\n\nEarn rewards for skipped battles and start challenging from the continuation.
+次回挑戦から、ダンジョンの途中まで\n自動でスキップします。\n\nスキップしたバトルの報酬を獲得し、\n続きから挑戦開始します。=For the next attempt, you can skip to the middle of the Dungeon. \n\nEarn rewards for skipped battles and continue from the halfway point.
 初回クリア達成=First Clear Achievement
- 期間最終日のためこれ以上挑戦できません。=Since it is the last day of the period, I cannot challenge any more.
+ 期間最終日のためこれ以上挑戦できません。=You cannot challenge the Dungeon on the last day of the event period.
 イベントは開催終了しました。=The event has ended.
-このダンジョンをスキップできるようになりました！\n\n次回挑戦から、通常どおり挑戦するか\nバトルをスキップして報酬を獲得するか選択できます。=You can now skip this dungeon!\n\nFrom the next challenge, you can choose whether to try as usual or skip the battle to get a reward.
+このダンジョンをスキップできるようになりました！\n\n次回挑戦から、通常どおり挑戦するか\nバトルをスキップして報酬を獲得するか選択できます。=You can now skip this dungeon!\n\nFrom the next attempt, you can choose whether to start from the beginning or skip battles and get their rewards.
 スキップ条件達成=Achieving Skip Conditions
-マイログに保存したバトルのログが確認できます。="You can check the log of the battle saved in "my log"."
+マイログに保存したバトルのログが確認できます。=You can check the saved Battle Log in "My Log".
 周回数=Number of laps
 バトルログ確認=Battle log Information
-[FF7C4E,D62146]バトル情報がありません。[-]=[FF7C4E,D62146]There is no battle information. [-]
+[FF7C4E,D62146]バトル情報がありません。[-]=[FF7C4E,D62146]No battle information available.[-]
 黒月・白陽の守護像=Black Moon&White Sun Guardian Statue
 ---Mission---
 スペシャルダンジョンを1回登頂しよう$"=Climb a Secret Dungeon 1 Time

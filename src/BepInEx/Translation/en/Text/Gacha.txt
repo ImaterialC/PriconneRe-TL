@@ -261,7 +261,7 @@ r:"^([0-9.]+)th Anniv. SPキャラ交換ガチャセット$"=$1th Anniv. Special
 選択のピックアップキャラがプライズと一致していません。=The selection Focus chara\ndoes not match with the prize.
 ---SP FES---
 スペシャルフェスガチャ=SpFES Gacha
-[3C404E]キャラ交換Ptが共通のガチャ[-]=[3C404E]Exchange Pt Sp FES Chara Gacha[-]
+[3C404E]キャラ交換Ptが共通のガチャ[-]=[3C404E]Exchange Pt Chara Gacha[-]
 SPフェスキャラ交換Ptが共通のガチャ=Exchange Pt Sp FES Chara Gacha
 SPフェスキャラ交換Ptの説明=SpFES Character exchange Pt description
 所持SPフェスキャラ交換Pt=SpFES Char. Exchange Pts

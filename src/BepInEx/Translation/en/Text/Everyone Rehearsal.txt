@@ -10,10 +10,10 @@
 堅固なる鳥像=A sturdy bird statue
 
 ガーゴイル・バースト=Gargoyle Burst
-剛力の浮石を従えし鳥像=A bird statue with a strong floating stones
+剛力の浮石を従えし鳥像=A bird statue with strong floating stones
 
 ガーゴイル・マギ=Gargoyle Magi
-魔業の浮石を従えし鳥像=A bird statue with a magic floating stones
+魔業の浮石を従えし鳥像=A bird statue with magic floating stones
 
 高い物理攻撃力を宿し、強力な範囲攻撃を行うようプログラムされたボスが現れる。=A boss programmed with high P.ATK power\nand powerful area attacks.
 高い魔法攻撃力を宿し、強力な範囲攻撃を行うようプログラムされたボスが現れる。=A boss programmed with high M.ATK power\nand powerful area attacks.
@@ -33,7 +33,7 @@ sr:"^(\d+)年(\d+月) クランバトル（([0-9 :/]+)まで）$"=Clan Battle $2
 ※限界突破によるキャラの強化内容は反映されません。=※Character's Limit Break Level not applied.
 
 
-稽古場バトルをリタイアしますか？=Do you want to retire the Trial Room battle?
+稽古場バトルをリタイアしますか？=Do you want to stop the Trial Room battle?
 稽古場バトルリタイア=Trial Room battle retirement
 申請相手のフレンドが上限に達しています。=The friend of the application partner has reached the upper limit.
 無料対象のためアイテムやマナは消費しません。=Free, no item or mana cost.
@@ -46,10 +46,10 @@ r:"^難易度「(.+)」のクリア報酬です。$"="It is a clear reward for t
 sr:"^(\[[0-9A-F]{6}\])?(ガーゴイル|マグスガーゴイル|ガードガーゴイル|ガーゴイル・バースト|ガーゴイル・マギ)（([\w\W]+)）をクリアしよう(\[-\])?$"="$1Defeat $2 ($3) at Trial$4"
 
 ---NPC---
-ここで腕試しを\nしていきましょう！\n全力全開、\nがんばっちゃいますよ～！=Let's try your skills here! I'll do my best, I'll do my best!
-ここで腕試しが\nできるみたいね。\n試してみるのも\nいいんじゃない？=It looks like you can try your skills here. Isn't it good to try it?
-腕試しをがんばれば、\n報酬がもらえますよ。\n挑戦していきましょう☆=If you do your best to test your skills, you will be rewarded.\nLet's try☆
-こちらでは、さまざまなタイプのボスと腕試しができます。\n何度でも挑戦することができますので、\n主さまに合った難易度で挑戦してみましょう。=Here Aruji-sama can test your skills with different types of bosses. Aruji-sama can try as many times as Aruji-sama like, so let's try it with the difficulty level that suits Aruji-sama.
-腕試しができるようです。\nここで練習を重ね、実戦に\n活かしてまいりましょう。=It seems that you can try your skills. Let's practice here and use it in the actual battle.
-ここでは腕試しが\nできるんですって。\n自分の実力を測るのに、\nちょうどよさそうね。=You can try your skills here. It looks good to measure your ability.
+ここで腕試しを\nしていきましょう！\n全力全開、\nがんばっちゃいますよ～！=You can test your skills here! Let's charge ahead full throttle and give it our all!
+ここで腕試しが\nできるみたいね。\n試してみるのも\nいいんじゃない？=It looks like you can test your skills here. It's always good to get some practice in, right?
+腕試しをがんばれば、\n報酬がもらえますよ。\n挑戦していきましょう☆=If you do well in these trials, you'll be rewarded!\nLet's give it a shot!☆
+こちらでは、さまざまなタイプのボスと腕試しができます。\n何度でも挑戦することができますので、\n主さまに合った難易度で挑戦してみましょう。=Here, you can test your skills against different types of bosses. You can try as many times as you like, so let's try it with the difficulty level that suits you best.
+腕試しができるようです。\nここで練習を重ね、実戦に\n活かしてまいりましょう。=It seems that here you can put your skills to the test. Let's practice and use what we've learned in the real fight.
+ここでは腕試しが\nできるんですって。\n自分の実力を測るのに、\nちょうどよさそうね。=You can test your skills here. It seems like a good way to measure your abilities.
 
