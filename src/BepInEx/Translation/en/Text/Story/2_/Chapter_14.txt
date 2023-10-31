@@ -344,7 +344,7 @@ r:"^──そして、現在。\nソルの塔では、(.{2,10})たちと【レ�
 呉越同舟、と。\nその奇妙な同盟がどれほどか、見せていただきましょう。=Let's put aside our differences and sail in the same boat.\nLet's see just how strange this alliance can be.
 んーじゃ。\n打ち合わせどーり、コイツはアタシがジャマしたげっからー\nみんなはアメスちゃんって子のほう、よろー=Okay then. \nAs we discussed, I'm going to take care of this one, so the rest of you focus on the girl named Ameth. Okay?
 ああ！\n恩に着る……！=Ahh! I owe you one...!
-まずはあの魔物の動きを止めよう！\n騎士くん、コッコロちゃん！=First, let's stop the movement of that monster! \nKish-kun, Kokkoro-chan!
+まずはあの魔物の動きを止めよう！\n騎士くん、コッコロちゃん！=First, let's stop the movement of that monster! \nKish-kun, Kokkoro!
 強化は使えないけど……頑張る！=I can't use my power, but... I'll do my best!
 き、気をつけて……！=B-Be careful...!
 あの結晶……\nなんだか、嫌な気配がする。\n呪いの魔力の塊……？　=That crystal...\nIt feels kind of ominous.\nA mass of cursed magic...?
@@ -382,7 +382,7 @@ r:"^──そして、現在。\nソルの塔では、(.{2,10})たちと【レ�
 ……？\n足音が、下から……\n誰か、登ってきてる……？=...?\nFootsteps, coming from below...?\nSomeone is climbing up...?
 えっ？\nあたしたちの他に、ソルの塔をっ？=Huh? \nIn addition to us, the Sol Tower too?
 ！\nあれはっ……！=! \nAhh...!
-良かった……！\nシェフィさま、ご無事だったのですね……！=Thank goodness...!\nLady Sheffy, you're safe...!
+良かった……！\nシェフィさま、ご無事だったのですね……！=Thank goodness...!\nMiss Sheffy, you're safe...!
 r:"^……(.{2,10})。\nコッコロさん。……みんなも……\n心配かけて、ごめんなさい。$"="...$1.\n...Kokkoro.\n...I'm sorry...for making you all worry."
 そして……兄さん。=And... Nii-san.
 私の愛する人たち。\n家族のために。\n私は……=The people I love.\nFor my family.\nI...
@@ -434,7 +434,7 @@ r:"^……(.{2,10})。\nコッコロさん。……みんなも……\n心配か
 r:"^(.{2,10})たちの救援に駆け付けたシェフィは、\n暴走させられたゼーンを止めるため\n覚醒したドラゴン族の力を解き放つのだった。$"="Having rushed to the rescue of $1 and the others. Sheffy unleashed her power of the Awakening of the Dragon Tribe, to stop the rampaging Zane."
 シェフィちゃん！！=Sheffy!!
 r:"^……(.{2,10})！\n今は、彼女がゼーンを押さえてくれているうちに……！$"="...$1!\nNow! While she's holding Zane down...!"
-で、ですが！\nシェフィさまを、一人にするわけには……！=B-But!\nI can't just leave Lady Sheffy alone...!
+で、ですが！\nシェフィさまを、一人にするわけには……！=B-But!\nI can't just leave Miss Sheffy alone...!
 気持ちはわかる。\nだが、たった一人で兄を止めようとする彼女の決意を、\n無駄にしてはいけない……！=I understand how you feel.\nHowever, we must not let her determination to stop her brother alone go to waste...!
 う、うん！\nそれに、ネアちゃんがミロクをジャマしてくれてる今なら……！=Y-Yeah!\nAnd now that Nea-chan is getting in the way of Miroku...!
 強化が、使える……！=I can use strengthening...!
@@ -527,7 +527,7 @@ r:"^……(.{2,10})！\n今は、彼女がゼーンを押さえてくれてい�
 ンだそりゃっ！\nフザっけんじゃっ──\nあだだだっ！=What the hell!?\nDon't mess with me──\nOw ow ow!
 だ、だめよ……安静にしていなくちゃ。\nね……？=Y-You can't... You have to rest. Right...?
 【レイジ・レギオン】、\nすまないがヒヨリのことも頼む。\n我々は……=[Rage Legion], I'm sorry, but\nCan I also ask for your help with Hiyori.\nWe...
-はい。\nただちに、シェフィさまをお助けに行かなくては……=Yes. We have to go help Lady Sheffy at once...
+はい。\nただちに、シェフィさまをお助けに行かなくては……=Yes. We have to go help Miss Sheffy at once...
 な、何……？\nこの揺れは……=What...?\nWhat is this shaking...?
 じ、地震っ……？=A-An earthquake...?
 空に浮かぶ塔で、それは無いと思うがっ……=The tower is floating in the sky, I don't think that's possible...
@@ -983,3 +983,6 @@ r:"^そして──(.{2,10})は\nどこまでも続く、美しい花畑の中�
 もう、ずっと=Forever and ever
 ずっと一緒だよ──=We'll be together forever!
 ──騎士クン=Kish-kun
+えっと……\nラビリスタさんは……怪我の具合、大丈夫ですか？=Umm... Labyrista... Are you feeling all right?
+ユイ──！！=Yui~!!
+ここは……=This is...

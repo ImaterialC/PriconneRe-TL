@@ -14,7 +14,7 @@ r:"^世界の運命を賭けたゲーム勝負を乗り切ったものの、\n�
 うん。あたしたち、みんな傷だらけだもん。\nここで戦うなんて、ちょっとムリだよね。\nユイちゃんとシェフィちゃんも、まだ寝ちゃってるし……=Yeah, all of us are covered in wounds. Trying to fight here would be a bit too much. Yui-chan and Sheffy-chan are still asleep too...
 ん……ヒヨリ。\nユイを担ぐのを、そろそろ代わろう。=Hmm... Hiyori. It's about time I took over carrying Yui.
 ……うん。\nお願い、レイさん。=...Yeah. Please, Rei.
-主さま。\nシェフィさまをおんぶするのを、交代いたしましょうか？=My Lord... Shall we take turns carrying Lady Sheffy?
+主さま。\nシェフィさまをおんぶするのを、交代いたしましょうか？=My Lord... Shall we take turns carrying Miss Sheffy?
 まだ大丈夫だよ。=It's still okay for now.
 コロ助ー？\nあんたは魔力を溜めときなさい。\nそういうのは、こいつとかペコリーヌに任せておけばいーのよ。=Korosuke? You need to save your energy. Just leave that to him and Pecorine.
 はい☆\nどーんと任せてください♪\n……それより……=Yes☆ Leave it to me♪ ...More importantly...
@@ -149,7 +149,8 @@ r:"^たしか、(.{2,10})のために\n【レイジ・レギオン】からの�
 現実での私もきっと、お兄ちゃんの本物の妹で！\n同じ部屋の中で、一緒に暮らしてますよね！\n間違いなしです！=In real life, I’m probably your real sister, too! We live together under the same room, don't we? There’s no doubt about it!
 リノちゃん～？\nそれを言うなら、『同じ屋根の下』だよ～？=Rino? If you're going say it, it's "under the same roof"
 ちょっお姉ちゃん！？\n後ろからベアハッグしないでくださいよ食べたばっかりなのにっ\n……ぐえっ。=Hey, Sis?! Don't bear hug me from behind! I just ate... Gweh.
-えっと……現実っていう場所のことは、\nまだちゃんと思い出せないんですけど……\nラビリスタさんは、そっちに帰ったほうがいいって思ってるんですよね？=Umm... I still can't really remember what this place called reality is... But Labriysta think it's better to go back there, right?
+えっと……現実っていう場所のことは、\nまだちゃんと思い出せないんですけど……\
+、そっちに帰ったほうがいいって思ってるんですよね？=Umm... I still can't really remember what this place called reality is... But Labriysta think it's better to go back there, right?
 そうだね。\n実感はまだないかもしれないけど、ここはかりそめの世界だから。\nまずは、正常な状態に戻さなくっちゃ。=That's right. You may not feel it yet, but this is a temporary world. First, we need to return it to normal.
 ですが……そのためにはいったい、どうすれば……？=But.... How in the world do we..... Do that?
 色々調べたんだけど。\nこの世界から脱出できない理由──\n『ミネルヴァの懲役』を解決するためには、二つの課題がある。=I've done a lot of research. There are two issues that need to be addressed in order to solve the reason why we cannot escape from this world----to solve Minerva's prison.
@@ -226,7 +227,7 @@ r:"^たしか、(.{2,10})のために\n【レイジ・レギオン】からの�
 えっと。\nソルオーブって、【トゥインクルウィッシュ】のみなさんが\n集めてたやつですよね。たしか今は……=Um, Sol Orb is the one everyone at Twinkle Wish was collecting, right? I think it's...
 今は、９個だ。\n【レイジ・レギオン】の拠点に乗り込む少し前に、\n運良く一つ見つけられてね。=Right now, there are nine of them. We were lucky enough to find one before we attacked the [Rage Legion]'s base.
 あっ、レイさん。=Oh, Rei.
-ユイさまとシェフィさまは……=Lady Yui and Lady Sheffy...
+ユイさまとシェフィさまは……=Lady Yui and Miss Sheffy...
 うん、今のところぐっすり眠っているよ。\n万一なにかあったら、ヒヨリが知らせてくれるから。=Yeah, They're sound asleep right now. If anything happens, Hiyori will let us know.
 それで……ソルオーブの話だけど。\n夢の中で私たちが見たのは、全部で12個だったから。\nそれが正しいなら、あと３個で揃うことになる。=So... about Sol Orbs. In the dream, we saw twelve of them in total. If that's right, we'll need three more.
 じゃ、これであと２個だね。=Okay, that's two more.
@@ -271,7 +272,7 @@ r:"^たしか、(.{2,10})のために\n【レイジ・レギオン】からの�
 ちょっと狭いけど、文句は言わないでよ。\n馬小屋じゃないだけありがたく思ってよね。=It's a little cramped, but don't complain. You should be grateful it's not a stable.
 野宿に比べれば、ずっとずっと良いですよ～♪\nありがとうございます☆=Compared to camping out, it's much better~♪ Thank you very much☆
 それでは……主さま。\nご一緒に、お休みいたしましょう。\nわたくしと。=Well then... My Lord, let's take a rest together. With me.
-ああっ！\nコッコロちゃん、ずるい～！\n弟くんの隣は、私なんだから～っ！=Aaah! That's not fair! Kokkoro-chan, I'm next to you, little brother~!
+ああっ！\nコッコロちゃん、ずるい～！\n弟くんの隣は、私なんだから～っ！=Aaah! That's not fair! Kokkoro, I'm next to you, little brother~!
 お姉ちゃんもずるいです～！\n今日何度目の抜け駆けなんですか～っ！=Big sis. That's not fair! How many times have you been out of the loop today~!
 ふふっ。\nみんな、元気ねー=Hehe. Everyone's so energetic.
 休む必要あるべか、このひとら……=Do they really need to rest...?
@@ -324,7 +325,7 @@ r:"^(.{2,10})たちは、次なる戦いに備え\nエリザベスパークに�
 r:"^……ご無沙汰をしていました。\nあなたが赤子のようだったとき以来ですね、\n(.{2,10})。$"="It's been a while. I haven't seen you since you were a baby, $1."
 コッコロちゃん、どうしたの。\n少年たちは？=Kokkoro, what's wrong with the boy?
 主さまたちは、とても良く眠っていらっしゃるご様子です。\n疲れが溜まっていたでしょうから……=My Lord and the others seem to be sleeping very well. They must have been exhausted...
-そうだね。\nコッコロちゃんも、しっかり休んだほうがいいよ。\nそれとも、眠れないのかな？=You're right. You should get some rest too, Kokkoro-chan. Or maybe you can't sleep?
+そうだね。\nコッコロちゃんも、しっかり休んだほうがいいよ。\nそれとも、眠れないのかな？=You're right. You should get some rest too, Kokkoro. Or maybe you can't sleep?
 いえ……\nただ、どうしても……気になったことがありまして。\nさきほどのお話なのですが……=No... It's just... there's something that's been bothering me. About what you said earlier...
 レイさまから、「なぜ今、我々に声をかけたのか」と尋ねられたとき。\nラビリスタさまが、ほんの少し返答をためらわれたように思ったのです。\nその、ためらいの理由について……=When Lady Rei asked me, “Why did you call out to us just now?” I thought Lady Labyrista was just a little hesitant to answer. As for the reason for her hesitation...
 ……というと？=...What do you mean?
@@ -336,7 +337,7 @@ r:"^……ご無沙汰をしていました。\nあなたが赤子のようだ�
 ……！\nで、では……\nほんとうに……=...! Th-Then... really...
 ……いや、すごいね。\nカスミちゃんの推理は、正解だ。=...No, that's amazing. Kasumi-chan's reasoning was correct.
 そして、第三に。\n現在、もっとも可能性が高いと思っているのが……=And thirdly, the most likely possibility at the moment is...
-シェフィさまが……敵と、通じて……=Lady Sheffy... communicated with the enemy...
+シェフィさまが……敵と、通じて……=Miss Sheffy... communicated with the enemy...
 一応言っておくけれど。\nこっちの情報を流しているのは、彼女自身の意志ってわけじゃない。\n条件もあるみたいだ。=Just so you know, it's not her own will that's leaking this information. It seems she has some conditions.
 彼女の精神が、赤ちゃんみたいになっちゃってるときか。\nあるいは……\n普段は休眠しているエリスが、覚醒状態にあるとき。=Maybe it’s when her mind is like a baby’s. Or maybe...when Eris, who’s usually dormant, is in an awakened state.
 ……シェフィちゃんは、エリスの『端末』として機能する。\n真那が魔物やシャドウを、自身の『目』にしてたみたいに……ね。=...Sheffy-chan functions as one of Eris's “terminals.” Just like Mana used monsters and Shadows as her own..... “eyes”.
@@ -344,12 +345,12 @@ r:"^……ご無沙汰をしていました。\nあなたが赤子のようだ�
 今は、とりあえず大丈夫だよ。\nシェフィちゃんは、とても深い眠りについている。\n……ちょっとだけ、枕に細工をさせてもらったからね。=For now, it's fine. Sheffy is in a very deep sleep. ...I've done a little bit of work on her pillow.
 ……では、レイさまがご不審がられたとおり。\nラビリスタさまが「このタイミング」で声をかけていらしたのは……=...Then, as Lady Rei suspected. The reason Lady Labyrista called out to us this time is...
 うん。シェフィちゃんが意識を無くしてたからってのはある。\nアタシの居所がバレるのは時間の問題だとしても、\nこっちの手の内は、まだ向こうに明かしたくなかったからね。=Yeah. It's partly because she was unconscious. Even though it's only a matter of time before she finds out where I am, I didn't want to reveal my side of the story to them yet.
-……もし、このことをシェフィさまが知ってしまったら。\n深く、深く苦しむことになってしまいます。\nわたくしたちは、いったいどうすれば……=...If Lady Sheffy finds out about this, she will suffer deeply and profoundly. What should we do...?
-……とりあえずは。\nこの話は、アタシとコッコロちゃんの中で納めておこう。\nみんなには、それとなく口止めをしておくから。=...For now. Let's keep this between me and Kokkoro-chan. I'll keep everyone else in the dark about it.
+……もし、このことをシェフィさまが知ってしまったら。\n深く、深く苦しむことになってしまいます。\nわたくしたちは、いったいどうすれば……=...If Miss Sheffy finds out about this, she will suffer deeply and profoundly. What should we do...?
+……とりあえずは。\nこの話は、アタシとコッコロちゃんの中で納めておこう。\nみんなには、それとなく口止めをしておくから。=...For now. Let's keep this between me and Kokkoro. I'll keep everyone else in the dark about it.
 魔力を遮断する結界を作ったりして、その内側に\nシェフィちゃんを閉じ込めておくっていう手も、ないわけじゃないけど。\nそれは……=It's not like I don't have the option of creating a barrier to block out magical energy and trapping Sheffy inside it. But that's...
 ……それでは、\nエリスやミソラがユイさまにしようとしていたことと、\n同じになってしまいます……=...That would be the same as what Eris and Misora were trying to do to Yui-sama...
 そうだね。\nあくまでも、それは最後の手段にしよう。=That's right. Let's save that as a last resort.
-だから今は、\nこの秘密を共有するコッコロちゃんだけに\n次の目的地を教えておくよ。=That's why I'm going to tell Kokkoro-chan, who shares this secret, where we're going next.
+だから今は、\nこの秘密を共有するコッコロちゃんだけに\n次の目的地を教えておくよ。=That's why I'm going to tell Kokkoro, who shares this secret, where we're going next.
 ……はい。\nお願いいたします。=...Yes. Please do so.
 ソルオーブは、残り二つ。\n片方は行方知れずだけど、\nもう片方は、在り処も持ち主もわかってる。=There are only two Sol Orbs left. One of them is missing, but we know where the other one is and who has it.
 その在り処は──キミの故郷。\nエルフの隠れ里。\nそして、持ち主は……=It's your hometown. The hidden elven village. And the owner is...
@@ -601,7 +602,7 @@ r:"^そ、それで、\n(.{2,10})と和解しようだなんてことを……$"
 だってさぁ。\nキミの『懲役』の終わらせ方って、\nこの世界を破壊し尽くすことでしょう？=After all, the way you end your imprisonment is to destroy this world, isn't it?
 そうでもしないと、キミは彼と結ばれないからね。\n今のアストルムは『草野優衣ちゃんの願いが叶った世界』で。\nミネルヴァと一つになったキミは、その世界の運営装置なわけだから。=Because if you don't, you won't be able to bond with him. Right now, Astrum is in the world where Yui Kusano-chan's wish has been granted. You, who have become one with Minerva, are the operating device of that world.
 世界の破滅なんかを、望んだりはしないはずだ。=She wouldn't want the destruction of the world to happen.
-──でも。\n七冠が作り上げた超AIは。\nコッコロちゃんが情緒を育て上げたあの子は。=But the super AI created by the Seven Crowns. The child Kokkoro-chan nurtured emotionally.
+──でも。\n七冠が作り上げた超AIは。\nコッコロちゃんが情緒を育て上げたあの子は。=But the super AI created by the Seven Crowns. The child Kokkoro nurtured emotionally.
 にしても──=But still...
 やー、まさかね。\nミネルヴァが、キミに取り込まれてたなんて。エリス。=Oh, no way. To think Minerva was taken in by you, Eris.
 アタシやネネカが一生懸命ミネルヴァを捜しても、\nそりゃあ見つからないはずだよねー=No matter how hard Neneka and I search for Minerva, we shouldn't be able to find her.

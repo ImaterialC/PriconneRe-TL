@@ -21,7 +21,7 @@ Lv強化=Level Up
 必要強化Pt=Pts Required
 複数種類のピュアメモリーピースが消費されます。\nそのまま強化しますか？=Multiple Pure Memory Pieces will be consumed. Continue?
 そのまま強化=Keep strengthening
-
+アイテム、装備、もしくはマナが不足しているため強化できません。=Insufficient Items, equipment, or mana.
 おまかせ強化=Optimize
 まとめて装備=Equip All
 装備する=Equip

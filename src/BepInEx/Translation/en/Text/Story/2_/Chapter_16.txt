@@ -187,7 +187,7 @@ r:"^……えっ、と、……へいか……？\nそれじゃ、(.{2,10})た�
 「「「「はぁ～～～」」」」="「「「Haa~~」」"
 疲れたね……=I'm tired...
 もう、ペコペコすぎて……\nお腹と背中が、くっついちゃいました……=I'm so hungry... My stomach and back are sticking together...
-キャルさまが、ご自分から戻ってきてくださり……本当に助かりました。\nわたくしたちからお捜しできたかというと、\n正直なところあまり自信が……=Lady Kyaru, thank you so much for coming back on your own... We're really grateful for your help. To be honest, we didn't have much confidence in our ability to find you... \n
+キャルさまが、ご自分から戻ってきてくださり……本当に助かりました。\nわたくしたちからお捜しできたかというと、\n正直なところあまり自信が……=Miss Kyaru, thank you so much for coming back on your own... We're really grateful for your help. To be honest, we didn't have much confidence in our ability to find you... \n
 もー、家出した猫みたいに言うんじゃないわよコロ助……\nあたしだって飛行魔法で全力で飛ばしてきたんだからヘロヘロよ。\nシェフィを捜すはずが、えらいことになっちゃって……=Geez, Don't say it like I ran away from home, Korosuke...I flew here with all my might using flight magic, so I'm exhausted. I was supposed to be looking for Sheffy, but things have gotten complicated...
 ……心配かけてごめんね、キャル。\nでも、キャルのほうは何があったの……？=...I'm sorry for worrying you, Kyaru. But what happened to you...?
 あーうーん……、どっから話したらいいやら……=Hmm... I'm not sure where to start...
@@ -256,7 +256,7 @@ r:"^……えっ、と、……へいか……？\nそれじゃ、(.{2,10})た�
 はい、もちろんですっ。=Yes, of course.
 ……ところで……=...By the way...
 シェフィちゃん、身体は平気？=Sheffy, are you okay?
-そうでございますね。カヤさまからは、ドラゴン族の覚醒とは\n本来時間をかけて鍛え上げるものだとお伺いいたしました。\nそれを無理やり使えるようにしたのでしたら……=That's right. I have heard from Lady Kyaru that the awakening of the Dragon tribe is something that should normally be trained over time. If you were able to forcefully use it...
+そうでございますね。カヤさまからは、ドラゴン族の覚醒とは\n本来時間をかけて鍛え上げるものだとお伺いいたしました。\nそれを無理やり使えるようにしたのでしたら……=That's right. I have heard from Miss Kyaru that the awakening of the Dragon tribe is something that should normally be trained over time. If you were able to forcefully use it...
 慣れない力を使って、そのうえ兄貴と戦って……\n相当、無茶してるんじゃないの？=Using an unfamiliar power and on top of that, fighting against my Nii-chan... Are you really pushing yourself that much?
 ……そんなこと、ないわ。\nみんなだって、ミロクやエリスの使徒たちと戦って大変だっただろうし。\nそれに……=...That's not true. \nEveryone must have had a tough time fighting against Miroku and Ellis's apostles. \nBesides...
 みんなとこうして、また一緒の時間を過ごすためなら。\nいくらでも頑張れるって、そう思うもの。=If it means spending time together with everyone like this, I can give it my all, no matter how much.
@@ -348,7 +348,7 @@ r:"^負けてしまったら、世界が終わるっていうなら。\n(.{2,10}
 いいこと！？\nみんなが来るまで、ちゃんと休んどきなさいよあんたたちっ！=Good news!? \nUntil everyone arrives, make sure to rest properly, you guys!
 アメスさま……！\nどうぞ、よろしくお頼み申し上げます……！=Lady Ameth...! \nI look forward to working with you...!
 はぁ～～っ！！\n任せてコッコロたーーーん♪♪=Ha~~!!\nLeave it to me, Kokkoro-tan♪♪
-シェフィさま？\nあまり、お箸が進んでいないご様子ですが。\nいかがなさったのですか？=Lady Sheffy? \nIt seems like you haven't made much progress with your chopsticks. What happened?
+シェフィさま？\nあまり、お箸が進んでいないご様子ですが。\nいかがなさったのですか？=Miss Sheffy? \nIt seems like you haven't made much progress with your chopsticks. What happened?
 もし、ラビリスタさんの言うとおりなら。\nこれが、最後の戦いになるかもしれないんだな……って。=If what Labyrista-san says is true, \nthis might be the final battle...
 ……そうでございますね。\nエリスたちを倒し、ソルオーブを取り返せたのなら。\n『現実』へ、帰還することになるかもしれません……=...That's right, I suppose. \nIf we defeat Eris and the others and retrieve the Sol Orbs, \nwe might be able to return to "reality"...
 で、でもっ！\nまだ世界中のひとたちにラビリスタさんのクレープを配り終わって\nないはずですし、すぐってわけじゃないですよっ……=B-But! I'm sure Labyrista-san hasn't finished distributing crepes to people all over the world yet, so it's not like it will be immediate...
@@ -402,7 +402,7 @@ r:"^お待たせ(.{2,10})っ！\nあんたたちの仲間、みんな集めて�
 ありがとう、キャルちゃん。\n魔法が得意なひとたちで協力すれば、あっという間だね。=Thank you, Kyaru-chan. It won't take as long if we work together with people who are adept with the use of magic.
 閉じた場所の中に転移するんだから、慎重にいきましょ。\n魔物の身体とか、石の中にはまっちゃわないようにね。\nペコリーヌたちも、ちょっと待ってなさいよ。=Since we'll be teleporting into an enclosed space, let's proceed with caution. Make sure we don't get stuck inside the bodies of monsters or trapped in stones. Pecorine and the others, please wait a moment.
 はい、キャルちゃん。\nお願いします☆=Yes, Kyaru-chan. \nPlease do ☆
-……かしこまりました。\nシェフィさま、わたくしたちも\n決戦前の、最後の確認をいたしましょう。=...Understood. Lady Sheffy, let us also make the final confirmation before the decisive battle.
+……かしこまりました。\nシェフィさま、わたくしたちも\n決戦前の、最後の確認をいたしましょう。=...Understood. Miss Sheffy, let us also make the final confirmation before the decisive battle.
 r:"^うん。\n……またあとでね、(.{2,10})。$"="Sure. \n... See you later, $1."
 r:"^──(.{2,10})は、\n仲間たちと順番に話をすることにした。\nまず近くにいたのは……$"="──$1 decided to talk to his companions one by one. First, the one who was nearby was..."
 【メルクリウス財団】と話す。=I'll talk to the Mercurius Foundation.
@@ -447,7 +447,7 @@ r:"^ところで……(.{2,10})少年。\nそれに、陛下。\n……その…
 ──陛下ぁ～っ！！=- Your Majesty~!!
 わぁっ！？\nクレジッタさん！？=Wah?! \nMiss Creditta?!
 まことに僭越恐悦至極ながら！　【レイジ・レギオン】の拠点を強襲した\nあの時と違って今回は人数制限ナシの危険度マシマシであるのなら！\n陛下の御身を守るため、わたくしも作戦に参加させていただきますわっ！=I apologize for the audacity, but when we assaulted the headquarters of the "Rage Legion" before, there were restrictions on the number of people involved. However, if this time there are no limits and the danger level is even higher, I will participate in the operation to protect Your Majesty's esteemed person!
-……って言って、話を聞いてくれないんッス。\nまったく困ったおばさんッス。=...But she won't listen to me.\nWhat a troublesome aunt.
+……って言って、話を聞いてくれないんッス。\nまったく困ったおばさんッス。=...But she won't listen to me.\nWhat a troublesome lady.
 文官には、文官にしかできない大事な仕事がある。\nと、説得を試みたのですが……=There is important work that only civil servants can do. \nAnd I tried to persuade them...
 お黙りあそばせ【王宮騎士団（NIGHTMARE）】ッ！\n復興も立法も政も、まずは外敵を討ち滅ぼしてこそ！\n明日の仕事を考える前に、今日の火の粉を払う仕事が先ですわ！=Please be silent, [NIGHTMARE]! Before reconstruction, legislation, and politics, we must first defeat and annihilate the external enemies! Before thinking about tomorrow's work, we must first deal with today's embers!
 もちろんわたくし、戦闘員ではございませんけれども！　最近なぜか\n戦いに駆り出されることが多い気がしないでもありませんでして！？\nこうなればいっそ地獄の果てまでお供いたしますわよ陛下ぁ～っ！！=Of course, I am not a combatant! But lately, for some reason, I feel like I'm being dragged into battles more often! If it comes to this, I will accompany you to the ends of hell, Your Majesty~!!
@@ -871,7 +871,7 @@ r:"^悪いわねコッコロたん、(.{2,10})！\nあたしもっかい行っ�
 r:"^迷路のように入り組んだ巨神の体内。\n魔物を蹴散らしながら仲間を探す(.{2,10})は、\n【美食殿】とようやく合流した。$"="The labyrinthine interior of the colossal deity's body. As $1 kicks away the monsters while searching for his friends, he finally reunites with the "Gourmet Guild"."
 マ……コッコロさん！=Ma... Kokkoro-san!
 r:"^(.{2,10})くん！\nそれに、みなさんも！$"="$1-kun! \nAnd, everyone as well!"
-シェフィさま、キャルさま、ペコリーヌさま！\nご無事でしたか！=Lady Sheffy, Lady Kyaru, Lady Pecorine! \nYou're safe!
+シェフィさま、キャルさま、ペコリーヌさま！\nご無事でしたか！=Miss Sheffy, Miss Kyaru, Lady Pecorine! \nYou're safe!
 よかった……！=Thank goodness...!
 ……はぁ。\n空間跳躍が失敗しないように念入りに調整したのはいいけど、\n転移先をいじられて分断させられちゃうとか。想定外だったわね……=...sigh. I was careful to adjust the spatial leap so that it wouldn't fail, but I didn't expect it to be tampered with and for us to be separated from the destination...
 まだ全員揃ったわけでは、ありませんけど。\n七冠のみなさんが巨神をいつまで抑えてられるかわからないですし。\nそろそろ作戦を開始しなくっちゃですね。=We haven't gathered everyone yet,  and I don't know how long the Seven Crowns can keep the Giant God suppressed. We should start the operation soon.
@@ -1299,7 +1299,7 @@ r:"^ソルの塔の頂上には、(.{2,10})たちだけが残った。$"="At the
 ……ユイ。\n気持ちはわかるけど……今は、自分のことを気にしてほしい。\nユイだって、生きているのが不思議なほどの重傷だよ。=...Yui. I understand how you feel, but... I want you to worry about yourself right now. You're so badly injured that it's strange that you're still alive.
 ユイちゃんっ、しっかり……！=Yui-chan, hang in there...!
 気を失ってしまったみたいね……=Looks like she's passed out...
-……ひとまず、ユイさまの応急処置をいたします。\nキャルさまも、お疲れのところ申し訳ありませんが……=...For now, We must provide first aid to Lady Yui. \nI apologize, Lady Kyaru, for troubling you while you're tired...
+……ひとまず、ユイさまの応急処置をいたします。\nキャルさまも、お疲れのところ申し訳ありませんが……=...For now, We must provide first aid to Lady Yui. \nI apologize, Miss Kyaru, for troubling you while you're tired...
 わかってるわよ。\nでも……=I understand. But...
 エリスって……その、たしか……\n『この世界の管理者』っていうやつだったのよね。\nそれが消えたら、これからどうなっちゃうの……？=Eris... That, I remember... She was the one called "The Administrator of this world," right? \nIf she disappears, what will happen next...?
 ……それは、私から答えるべきでしょう。=...I should be the one to answer that.
@@ -1361,7 +1361,7 @@ r:"^ええ。\nあなたが自我を取り戻した夢の時以来ですね、\n
 うるさいっ！\nあたし、嫌よ！\n絶対嫌！　絶対帰んないから！=Shut up!\nI don't want to! \nAbsolutely not! I hate it! I'm never going back!
 ……えっと……\nミネルヴァさん。\n少しだけ、待ってもらうことはできないかしら。=...Um... \nMinerva-san. \nCould you wait for me just a little bit?
 ……そうだね。\n焦る必要はないと思う。\n心の問題の解決は、敵から身を守るのと同様に大切なことだよ。=...Yeah, I think so. There's no need to rush. Resolving matters of the heart is just as important as protecting oneself from enemies.
-はい。\nキャルさまと同じく、異なる世界というものを\n受け入れられない方々は、数多くいらっしゃると思われます。=Yes. \nJust like you Lady Kyaru, there are many people who cannot accept the concept of a different world.
+はい。\nキャルさまと同じく、異なる世界というものを\n受け入れられない方々は、数多くいらっしゃると思われます。=Yes. \nJust like you Miss Kyaru, there are many people who cannot accept the concept of a different world.
 うんっ。\nそもそもラビリスタさんのクレープをまだ食べてないひとも、\nたくさんいるはずだもんね。=Hmm. \nThere must be many people who haven't eaten Labyrista-san's crepes yet, after all.
 そっ、それじゃあ！　みなさんにクレープを食べてもらうためにも\nランドソルだけじゃなく、この世界ぜんぶを巻き込むような\nすっごいパーティーをするしかないですね！=Alright, then! In order for everyone to enjoy some crepes, not only Landosol, but we have no choice but to throw an amazing party that involves the entire world!
 あっ、もちろんミネルヴァさんも！\n長い間、閉じ込められちゃってたみたいですし……\nおいしいごはん、たくさん食べてください☆=Oh, of course Minerva-san too! \nIt seems like she has been trapped for a long time... \nPlease eat lots of delicious food ☆
@@ -1605,7 +1605,7 @@ r:"^だから……聞かせて、(.{2,10})。\nあなたは、どちらを選�
 ちょっと！\n何よこれっ！？=Hey! What is this!?
 これが、『再構築』なのか……！？=Is this... "Reconstruction"?!
 ……ううん。\n違うわ。=...No. That's not it.
-シェフィさまっ……？=Lady Sheffy...?
+シェフィさまっ……？=Miss Sheffy...?
 確かに、例のカウントは止まっているみたいですけど……！=Certainly, it seems that the count has stopped, but...!
 っていうか！\nあんたとシェフィはなんで光ってないのよ！？=Wait! Why aren't you and Sheffy glowing?!
 みんなは、現実に還るんだよ。=Everyone, return to reality.
@@ -1648,7 +1648,7 @@ r:"^だから……聞かせて、(.{2,10})。\nあなたは、どちらを選�
 みんな、私に掴まって！\n何があっても、はぐれちゃわないように！=Everyone, hold on to me! \nNo matter what happens, we won't get separated!
 弟くん！　安心してね！\n何があっても！　どこにいても！\nお姉ちゃんが絶対絶対、駆け付けるからっ──=Little brother! Don't worry! \nNo matter what happens! No matter where you are! \nBig sister will absolutely, absolutely come running to you──
 わわわっ！\nこれが、『強引矢の如し』！　っていうのですか！？\n……えっ違うっ？=Wow! \nSo this is the "Forceful Arrow" you're talking about!? \n...Huh, wait, that's not right?
-げむぎるがんごーぐふぉー！\n光になれぇぇー！\nってコトでありますかーっ！？=Gemu giru gan go gufo! \nBecome the Light! \nIs that what you're saying?!
+げむぎるがんごーぐふぉー！\n光になれぇぇー！\nってコトでありますかーっ！？=GEMU! GIRU! GAN! GO! GUFO!! \nBecome the light! \nIs that what you're saying?!
 ぐふふふっ、なんですかこれっ、\nクウカどこに連れてかれちゃうんですか？\nまさかこれが、ウワサのアブダクションですかぁ～っ！？=Hehehe, what is this? \nWhere are you taking Kuka? \nCould it be, the rumored abduction?!
 やぁ～んっ、\nアカリ、天にも昇るキモチだよぉ～っ。=Hey~n, Akari, it feels like soaring to the heavens~.
 これぞ忍法、光遁の術！\n……じゃアリマセン！\nほんとに消えてしまってるデース！？=This is the ninja art, Light Release Technique! \n...Just kidding! \nI really disappeared, you know?!

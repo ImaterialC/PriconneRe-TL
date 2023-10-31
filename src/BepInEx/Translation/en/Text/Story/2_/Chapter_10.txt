@@ -501,7 +501,7 @@ r:"^私の踊りで、(.{2,10})を元気にしてあげるさ～！\nたっく�
 
 2部 第10章 第5話=Part 2 Chapter 10 Episode 5
 r:"^ユイを捜すマホたちのもとにオクトーが現れ、(.{2,10})を狙う。マホたちはその場を引き受け、カスミとコッコロたちはユイの捜索を続けることに。一方、ユイは街の外である人物と遭遇していた。$"="As Maho and the others searched for Yui, Octo appeared and aimed for $1. Maho took the spot, while Kasumi and Kokkoro continued their search. Meanwhile, Yui encountered someone outside the city."
-コッコロちゃん！\nそっちはどう！？\nユイちゃんいたっ？=Kokkoro-chan! How's it going over there? Yui-chan, are you there?
+コッコロちゃん！\nそっちはどう！？\nユイちゃんいたっ？=Kokkoro! How's it going over there? Yui-chan, are you there?
 いえ、いらっしゃいません……\n各部屋をくまなく捜し、声をかけたのですが。=No, she's not here... I searched every room and called out to her.
 となれば……\nやはり、お屋敷から出られてしまっていると考えるべきかと。=In that case... I suppose I should assume that she has left the mansion after all.
 仕方ない……\n街の方を見てくれている【自警団（カォン）】のみんなと、\nいったん合流しよう。=Oh well... Let's meet up with the Vigilantes who are looking at the city.
@@ -684,7 +684,7 @@ r:"^一方、姿を消したユイを追いかける\n(.{2,10})、コッコロ�
 ……うーん。\nオクトー先輩の狙いが本当に助手くんだっていうなら……\n追撃の仕方が、ちょっと緩いような気がする。=...Hmm. If Octo-senpai's really after Assistant-kun... I feel like the way he's pursuing him is a little lax.
 『内通者』がいるから、いつでも捕まえられるとたかをくくっている？\nそれとも、他に目的があったんだろうか。\n何かの工作とか、アリバイ作りとか……？　=Is he pretending to be able to catch me at any time because he has a mole? Or maybe he had some other goal? Like plotting something, or creating an alibi...?　
 …………ふぅ……=............huu......
-コッコロちゃん、どうだった……？=Kokkoro-chan, how was it...?
+コッコロちゃん、どうだった……？=Kokkoro, how was it...?
 ユイの姿は、上空から見えただろうか？=Did I see Yui from above?
 申し訳ありません。\n目の届く範囲に、ユイさまはいらっしゃいませんでした。\n物陰などに隠れられていた場合は、わかりませんが……=I'm sorry. Yui-sama wasn't anywhere in sight. I don't know if she was hiding in the shadows or something, but...
 そ、そっか……=I-I see...

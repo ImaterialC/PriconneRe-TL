@@ -37,4 +37,4 @@ UE
 
 真破・天楼覇断剣=True Destruction: Spiresbane Blade
 前方の敵すべてに物理特大ダメージを与える。ＴＰが無くなるまでの間、真破・天楼覇断剣を装備し、装備中にスキルを使用する際、追加の物理大ダメージを与える。さらにバトル終了まで自分が敵から受ける行動不能を無効化する。=Deals massive P.DMG to all enemies in front. While TP remains, equip the "True Destruction: Spiresbane Blade" and when using skills while equipped, deal additional massive P.DMG. Additionally, nullify any Crowd Control inflicted on oneself by enemies until the end of the battle.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n自分が敵から受ける行動不能を無効化する$"=►Deals $1 physical damage to enemies within range.\n►Switch to Attack Pattern 2 until 0 TP\n►Nullifies own inability to act caused by enemies.\n►Consumes 100 TP per second.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n自分が敵から受ける行動不能を無効化する$"=►Deals $1 physical damage to enemies within range.\n►Switch to Attack Pattern 2 until 0 TP\n►Nullifies immobility effect on self.\n►Consumes 100 TP per second.

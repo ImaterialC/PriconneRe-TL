@@ -2,8 +2,8 @@
 経験値クエスト=EXP Quests
 マナを大量獲得=Earn lots of Mana
 EXPポーションを大量獲得=Find lots of EXP Potions
-キャラのLvアップに使う\nEXPポーションを獲得=Get EXP Potions used for leveling up characters.
-スキル強化や装備強化\nショップで使うマナを獲得=Get Mana used at shops and for enhancing skills and refining equipment.
+キャラのLvアップに使う\nEXPポーションを獲得=Get EXP Potions to level up characters.
+スキル強化や装備強化\nショップで使うマナを獲得=Get Mana to enhance skills and refine equipment.
 
 スキップチケットと挑戦回数を消費してクエストを\n実行します。よろしいですか？=Use skip tickets and attempts\nto complete this quest?
 
@@ -13,7 +13,7 @@ EXPポーションを大量獲得=Find lots of EXP Potions
 このクエストを攻略すれば、\nアイテムがもらえますよ\nたくさん集めて、どんどん\n強くなっちゃいましょう！=You'll receive some nice items for clearing this quest! Collect as many as you can and get super strong!
 
 クエストを攻略すると、\nアイテムが手に入るんだって\nもらえるものは、\nもらっておきましょ！=You can also receive items by clearing quests.\nLet's take all we can!
-キャラ強化に必要な「EXPポーション」を獲得できるクエストと「マナ」を獲得できるクエストの２種類があります。１日に挑戦できる回数は、それぞれのクエストで２回ずつです。=There are two types of quests: those that provide EXP Potions needed to power up character and those that offer Mana. Each type of quest can be played up to two times per day.
+キャラ強化に必要な「EXPポーション」を獲得できるクエストと「マナ」を獲得できるクエストの２種類があります。１日に挑戦できる回数は、それぞれのクエストで２回ずつです。=There are two types of quests: those that provide EXP Potions needed to level up characters and those that offer Mana. Each type of quest can be played up to two times per day.
 こちらでは★6才能開花に必要なアイテム、「プリンセスオーブ」を手に入れられます。たくさん集めて、才能開花を目指しましょう。=In this temple, we should be able to find Princess Orbs, a resource required to upgrade characters to ★6. Let us collect as many as we can, and achieve new heights of strength.
 ------
 

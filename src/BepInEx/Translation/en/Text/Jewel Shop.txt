@@ -28,13 +28,13 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 収納BOX拡張結果=Expand Storage Results
 
 ---actual jewel shop---
-[FF7C4E,D62146]未購入の商品はありません。[-]=[FF7C4E,D62146]There is no available to purchase.[-]
+[FF7C4E,D62146]未購入の商品はありません。[-]=[FF7C4E,D62146]There is nothing available to purchase.[-]
 スペシャルショップ=Special Shop
 購入済み=Purchased
 資金決済法に基づく表示=Fund Settlement Law
 コラボ記念 専用装備グロウスフィアパック=Collab-Event UE Growsphere Pack
-コラボ記念 専用装備１グロウスフィアパック=Collab-Event 1st UE Growsphere Pack
-コラボ記念 専用装備２グロウスフィアパック=Collab-Event 2nd UE Growsphere Pack
+コラボ記念 専用装備１グロウスフィアパック=Collab-Event UE 1Growsphere Pack
+コラボ記念 専用装備２グロウスフィアパック=Collab-Event UE 2 Growsphere Pack
 Anniversary グロウスフィアパック　=Anniversary Growsphere Pack
 Anniversary 専用装備グロウスフィアパック=Anniversary UE Growsphere Pack
 探索挑戦回数 +3回=Grotto +3
@@ -122,16 +122,16 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 あなたは16歳未満です。\n1か月の購入上限は5,000ptまでです。=You are under 16.\nmonth purchase limit is up to 5,000PT.
 あなたは16歳～19歳です。\n1か月の購入上限は10,000ptまでです。=You are 16-19 years old.\nmonth purchase limit is up to 10,000PT.
 
-よろしければ、左のチェックボックスをONにして\nOKボタンをタップしてください。=Turn on the left check box and tap the OK button to confirm.
+よろしければ、左のチェックボックスをONにして\nOKボタンをタップしてください。=Click on the left check box and click the OK button to confirm.
 あなたの生年月を以下で登録します。=Register your date of birth below.
 
-あなたの生年月を登録しました。=your birth date has been Registered.
+あなたの生年月を登録しました。=Your birth date has been registered.
 登録完了=Completion of Registration
 ---View Jewel---
 無償ジュエル=Free Jewels
 有償ジュエル=Paid Jewels
 合計ジュエル=Total Jewels
-無償ジュエルから先に消費され、=Free Jewel will be used first.
+無償ジュエルから先に消費され、=Free Jewels will be used first.
 詳細表示=Detail View
 購入商品の区分・所持数=Purchased List
 有償ジュエル内訳詳細=Paid Jewel Breakdown Details
@@ -141,15 +141,15 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 現在のストックマナ=Stock Mana
 無償マナ=Free Mana
 有償マナ=Paid Mana
-無償マナから先に消費され、=Free Manas will be used first.
+無償マナから先に消費され、=Free Mana will be used first.
 有償マナ内訳詳細=Paid Mana Breakdown Details
-有償マナを所持していません。=You do not have a Paid Manas.
+有償マナを所持していません。=You do not have any Paid Mana.
 ---NPC---
 ジュエルはよく考えて\n使うことね\n無駄遣い厳禁！=Think carefully\nwhen spending Jewels.\nDon't waste them!
-マナ購入で、「マナ」と「スキップチケット」が手に入ります。\nさらにオマケで「メモリーピース」「女神の秘石」「探索挑戦回数増加」\nが手に入るかもしれませんよ。=Buying Mana will get you both Mana and skip tickets.\nYou may also receive bonuses such as Memory Shards,\nDivine Amulets and additional Grotto attempts.
+マナ購入で、「マナ」と「スキップチケット」が手に入ります。\nさらにオマケで「メモリーピース」「女神の秘石」「探索挑戦回数増加」\nが手に入るかもしれませんよ。=Buying Mana will give you both Mana and Skip Tickets.\nYou may also receive bonuses such as Memory Shards,\nDivine Amulets and additional Grotto attempts.
 
 決済手続=Payment Procedure
-r:"^\[3C404E\]\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\]\[-\]$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The jewels and mana purchased here\ncan be used on the DMM version[-].[-]
+r:"^\[3C404E\]\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\]\[-\]$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The Jewels and Mana purchased here\ncan only be used on the DMM version[-].[-]
 
 sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C404E\]で終了します。\n購入ページへ移動しますか\?\[-\]$"=[3C404E]The period of the $1\nwill end in [-][FF7C4E,D62146]$2 day(s)[-].\nWould you like to go to the Purchase Page?[-]
 

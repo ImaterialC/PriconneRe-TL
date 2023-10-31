@@ -6,11 +6,10 @@ r:"^フレンド:(\d+)/(\d+)人$"=Friend: $1/$2
 r:"^承認待ち:(\d+)/(\d+)人$"=Waiting: $1/$2
 フレンド:=Friend:
 r:"^プレイヤーLv:([0-9～ ]+)$"=Player Lv: $1
-プレイヤーIDを入力してください=Please enter the player ID
+プレイヤーIDを入力してください=Please enter a Player ID
 取り消す=Cancel
-サポートキャラにはLv10以上のキャラを設定できます。=You can set a Lv10 or higher character as a rental character.
-サポートキャラを設定しておくと、マナを獲得できます。=Rent your characters to get manas.
-
+サポートキャラにはLv10以上のキャラを設定できます。=You can set a Lv10 or higher character as a Support Character.
+サポートキャラを設定しておくと、マナを獲得できます。=Add Support Characters to start earning Mana!
 
 サポート時間=Duration
 獲得マナ=Mana
@@ -22,16 +21,16 @@ r:"^プレイヤーLv:([0-9～ ]+)$"=Player Lv: $1
 承認=Approve
 拒否=Reject
 
-[FF7C4E,D62146]表示できるフレンドがいません。[-]=[FF7C4E,D62146]No friends available to view. [-]
-[FF7C4E,D62146]該当Lv帯のプレイヤーが見つかりませんでした。[-]=[FF7C4E,D62146]The corresponding Lv band player was not found.[-]
+[FF7C4E,D62146]表示できるフレンドがいません。[-]=[FF7C4E,D62146]You have no friends.[-]
+[FF7C4E,D62146]該当Lv帯のプレイヤーが見つかりませんでした。[-]=[FF7C4E,D62146]Could not find any players in the requested LV range.[-]
 フレンド管理は\nこちらになります\n新しいフレンドとの出会いを\n楽しんでくださいね！=Friend management will be here. Please enjoy meeting new friends!
 
 最終ログイン=Last Login
 
 申請中リスト=Pending
-[FF7C4E,D62146]フレンド申請中のプレイヤーはいません。[-]=[FF7C4E,D62146]You have not added anyone yet.[-]
+[FF7C4E,D62146]フレンド申請中のプレイヤーはいません。[-]=[FF7C4E,D62146]You haven't sent any friend requests.[-]
 承認待ちリスト=To Accept
-[FF7C4E,D62146]フレンド申請を受けているプレイヤーはいません。[-]=[FF7C4E,D62146]No one has added you yet.[-]
+[FF7C4E,D62146]フレンド申請を受けているプレイヤーはいません。[-]=[FF7C4E,D62146]You haven't received any friend requests.[-]
 
 フレンドを探す=Search
 検索設定=Search Settings
@@ -50,29 +49,29 @@ r:"^プレイヤーLv:([0-9～ ]+)$"=Player Lv: $1
 
 フレンドが設定しているパーティはありません。=There are no parties set up by friends.
 フレンド解除=Unfriend
-サポートキャラを設定\nできます=You can set a\nsupport character
+サポートキャラを設定\nできます=Set a\nSupport Character
 サポート完了=Support Complete
 
 サポート設定確認=Check Support Settings
-サポートキャラに設定しますか？=Do you want to set it as a support character?
-サポート終了確認=Confirmation of Ending Rental
-[3C404E]サポートを終了して、報酬を受け取りますか？[-]=[3C404E]Do you want end your rental and receive rewards?[-]
-サポート回数報酬=Rental number of used
-サポート時間報酬=Rental time-up reward
-サポートキャラ=Rental Character
+サポートキャラに設定しますか？=Would you like to set this character as Support?
+サポート終了確認=Confirmation of Ending Support
+[3C404E]サポートを終了して、報酬を受け取りますか？[-]=[3C404E]Do you want end the Support and receive rewards?[-]
+サポート回数報酬=Support Usage Reward
+サポート時間報酬=Support Duration Reward
+サポートキャラ=Support Character
 自分とバトル=Battle Yourself
 バトル編成=Battle Formation
-設定後30分間はサポートを終了できません。=After set a rental. You cannot terminate for 30 minutes.
-「編成」ボタンからフレンドバトル用のパーティを設定できます。=Click the "Formation" button to set up a party for Friend Battles.
-[3C404E]リタイアします。\n\nよろしいですか？[-]=[3C404E]Retires.\n\nIs this OK?[-]
+設定後30分間はサポートを終了できません。=Support cannot be ended for 30 minutes after set-up.
+「編成」ボタンからフレンドバトル用のパーティを設定できます。=Click the "Edit" button to set up a party for Friend Battles.
+[3C404E]リタイアします。\n\nよろしいですか？[-]=[3C404E]Are you sure you want to forfeit?[-]
 非表示設定=Hide Chars
-非表示にするキャラを設定できます。=You can set which characters to hide.
+非表示にするキャラを設定できます。=You can choose which characters to hide.
 非表示キャラ数=Hidden #
 
-「編成」ボタンから自分とバトル用のパーティを設定できます。=You can set up a party for you and your battles by clicking the "Formation" button.
+「編成」ボタンから自分とバトル用のパーティを設定できます。=Click the "Edit" button to set up a party for you to fight.
 
 設定しているパーティはありません。=No party is set up.
-自分の設定したパーティと対戦できます=You can play against your own party
+自分の設定したパーティと対戦できます=You can play against your own party.
 残りHP=HP Left
 残りHP合計=Total HP Left
 
@@ -81,42 +80,42 @@ r:"^プレイヤーLv:([0-9～ ]+)$"=Player Lv: $1
 フレンド解除確認=Unfriend Confirmation
 r:"^(.{1,10})を\nフレンド解除しますか？$"=Do you want to unfriend\n$1?
 フレンド解除完了=Unfriend Completed
-r:"^\[3C404E\](.{1,10})を\nフレンドから外しました。\[-\]$"=[3C404E]$1\nwas removed from my friend list. [-]
-パーティ１０文字最大=10 characters maximum for parties.
+r:"^\[3C404E\](.{1,10})を\nフレンドから外しました。\[-\]$"=[3C404E]$1\nwas removed from your friend list. [-]
+パーティ１０文字最大=Max 10 characters for party names.
 
-r:"^(.{1,10})からの\nフレンド申請を承認しますか？$"=Do you want to approve the friend request\nfrom $1?
-フレンド承認確認=Friend Approval Confirmation
+r:"^(.{1,10})からの\nフレンド申請を承認しますか？$"=Do you want to accept the friend request\nfrom $1?
+フレンド承認確認=Friend Request Confirmation
 
 r:"^(.{1,10})と\nフレンドになりました。$"=You became friends with\n$1.
-フレンド承認完了=Friend Approval Completion
+フレンド承認完了=Friend Request Accepted
 
-r:"^(.{1,10})へ\nフレンド申請しますか？$"=Do you want to apply for a friend to\n$1?
+r:"^(.{1,10})へ\nフレンド申請しますか？$"=Do you want to send a friend request to\n$1?
 フレンド申請確認=Friend Request
 
-r:"^(.{1,10})へ\nフレンド申請しました。$"=Applied for a friend to\n$1.
-フレンド申請完了=Friend Application Completed
+r:"^(.{1,10})へ\nフレンド申請しました。$"=Friend request sent to\n$1.
+フレンド申請完了=Friend Request Sent
 
 r:"^(.{1,10})への\nフレンド申請を取り消しますか？$"=Would you like to cancel your friend request\nto $1?
-フレンド申請取り消し確認=Friend Application Cancellation Confirmation
+フレンド申請取り消し確認=Cancel Friend Request
 
 r:"^\[3C404E\](.{1,10})への\nフレンド申請を取り消しました。\[-\]$"=[3C404E]Canceled friend request to\n$1.[-]
-フレンド申請取り消し完了=Friend Application Cancellation Completed
+フレンド申請取り消し完了=Friend Request Canceled
 
-r:"^(.{1,10})からの\nフレンド申請を拒否しますか？$"=Do you want to reject a friend request from\n$1?
-フレンド拒否確認=Friend Rejection Confirmation
+r:"^(.{1,10})からの\nフレンド申請を拒否しますか？$"=Do you want to reject the friend request from\n$1?
+フレンド拒否確認=Reject Friend Request
 
 r:"^(.{1,10})からの\nフレンド申請を拒否しました。$"=Rejected friend request from\n$1.
-フレンド拒否完了=Friend Rejection Completion
+フレンド拒否完了=Friend Request Rejected
 
 
 ---NPC---
-こちらがフレンドの\n皆さんです\n素敵な関係を\n築いてくださいね！=This is your friends list, let's build a wonderful relationship!
-主さま、フレンドを作りましょう。フレンドからはクエストにてサポートキャラをレンタルすることができますよ。=Aruji-sama, the time is ripe for making friends.\nOnce you register a friend, you will be able to call on their characters for support in various quests.
-サポートキャラを設定してフレンドの方々をお助けいたしましょう。また、サポートを設定すると主さまもマナを獲得できますよ。=You can set support characters to aid your friend in battle.\nYou will also earn Mana for providing this service.
-主さま、こちらでサポートキャラの設定ができますよ。\n設定してクランのメンバーやフレンドの方々をお助けいたしましょう。\nまた、サポートを設定すると主さまもマナを獲得できます。=Let's set a support character and help your friends.\nAlso, if you set support, you can also get mana.
-ギルド管理協会です\nフレンドに関しては\nこちらでご確認ください=This is the Guild Management Association. Check here for friends.
-こちらの一覧で\nフレンドのプロフィールを\n確認できますよ=You can see your friend's profile in this list.
-気になるパーティと\nバトルをしてみましょう！\nどちらが勝利するのか、\n私も楽しみにしていますね=Let's battle with the\nFriend's party! I'm looking forward\nto seeing which one will win.
-フレンドやクランメンバーと手合わせをいたしましょう。また、自分で編成したパーティと対戦することも可能です。主さまの鍛錬の成果、楽しみにしております。=Let us spar with our friends and clan members in battle, Aruji-sama.\nI am looking forward to witnessing your strategic prowess.
+こちらがフレンドの\n皆さんです\n素敵な関係を\n築いてくださいね！=Here you can find your friends, I hope you have a wonderful time together!
+主さま、フレンドを作りましょう。フレンドからはクエストにてサポートキャラをレンタルすることができますよ。=Aruji-sama, now is a perfect time to make some friends. \nOnce you befriend someone, you will be able to hire their characters for support in various quests.
+サポートキャラを設定してフレンドの方々をお助けいたしましょう。また、サポートを設定すると主さまもマナを獲得できますよ。=You can set support characters to aid your friends in battle.\nYou will also earn Mana from providing them support.
+主さま、こちらでサポートキャラの設定ができますよ。\n設定してクランのメンバーやフレンドの方々をお助けいたしましょう。\nまた、サポートを設定すると主さまもマナを獲得できます。=Aruji-sama, let's set a support character to help our friends and clan members.\nWe can also obtain Mana from providing this support.
+ギルド管理協会です\nフレンドに関しては\nこちらでご確認ください=This is the Guild Management Association. You can find friends here.
+こちらの一覧で\nフレンドのプロフィールを\n確認できますよ=You can check the profiles of your friends in this list.
+気になるパーティと\nバトルをしてみましょう！\nどちらが勝利するのか、\n私も楽しみにしていますね=Here you can fight against any party you'd like! I'm looking forward\nto seeing who will win.
+フレンドやクランメンバーと手合わせをいたしましょう。また、自分で編成したパーティと対戦することも可能です。主さまの鍛錬の成果、楽しみにしております。=You can spar with your friends and clan members here. It's also possible to fight your own parties. \nAruji-sama, I'm looking forward to seeing the results of your training.
 クランのチャットへフレンドバトルのパーティを投稿できるようです。主さまのご自慢のパーティをお披露目してくださいませ。=It seems you can post your Friend Battle parties to your clan chat.\nPlease take this opportunity to show off your most remarkable teams.
-フレンド管理は\nこちらになります\n新しいフレンドとの出会いを\n楽しんでくださいね！=Friend management will be here.\nEnjoy meeting new friends!
+フレンド管理は\nこちらになります\n新しいフレンドとの出会いを\n楽しんでくださいね！=You can manage your friends here.\n Please enjoy meeting new allies!

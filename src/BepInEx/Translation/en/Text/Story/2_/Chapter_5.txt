@@ -20,7 +20,7 @@
 コロ助……？\nシェフィ……？=Korosuke...? Sheffy...?
 ついでにネビアも……\n……誰もいないの？\nペコリーヌ……は、宮殿か……=And Nebia, too... Is no one here? Pecorine... A-A palace...?
 ん……置き手紙？=Hm... A letter?
-『キャルさまへ。\nお目覚めになられないようでしたので、市場へ買い物へ行って参ります。\n朝食は、少々お待ちくださいませ』　　　―コッコロ―。=To Kyaru-sama. You didn’t seem to be waking up, so I went shopping at the market. Please wait a moment for breakfast.” Kokkoro.
+『キャルさまへ。\nお目覚めになられないようでしたので、市場へ買い物へ行って参ります。\n朝食は、少々お待ちくださいませ』　　　―コッコロ―。=To Miss Kyaru. You didn’t seem to be waking up, so I went shopping at the market. Please wait a moment for breakfast.” Kokkoro.
 ……掃除でもするか。=...Maybe I should clean up.
 あー、思い出せない……\nさっきの夢の内容、どんなのだったかしら……\n……なんか、セミがうるさい夢だった気がするけど……=Ahh, I can't remember... I wonder what that dream was about... ...I think it was a dream about noisy cicadas, but...
 どうも最近、もやもやすることばっかりね……\nプリンセスフォームのこととか……\nこの前、あいつらに聞かれた、『もう一つの世界』のこととか……=I've been having a lot of doubts lately about things like the... Princess form, ...The other day they asked me about the "other world".
@@ -45,10 +45,10 @@ r:"^ねえ、(.{2,10})くん。\nこの世界が『つくりもの』のよう�
 r:"^……だいぶ前の、あのとき……\n陛下が(.{2,10})に言ってたのって。\n……コロ助たちが聞こうとしてたことと、同じ意味なの……？　$"="...What Her Majesty said to $1 a long time ago... ...Does it mean the same thing as what Korosuke and the others were trying to ask...?　"
 ……もし……\nもし万が一、あたしに、『あっちの世界のあたし』\nなんてものが、ほんとにいるとしたら……=......what if......there really is such a thing as a "me from the other world"......
 そっちのあたしは……今のあたしと違って。\n出来損ないの欠陥品だったり、裏切者の大罪人でもなくて……\nもうちょっとくらい、マシな人生でいてほしいわね……=That me over there is... Unlike the me I am now. I hope that "other me" is not a underachieving, defective, traitorous, sinner like me... I wish I could live a better life...
-シェフィさま？=Lady Sheffy?
+シェフィさま？=Miss Sheffy?
 キャルのこと……起こさないで、良かったのかしら。\n少し、寝苦しそうだったけど……=I wonder if it was a good thing I didn't wake up Kyaru. She seemed to be having a bit of trouble sleeping, but...
 悪い夢でも見てたのかも……=Maybe she was having a bad dream...
-ふむ。では……\nキャルさまの好きなものをたくさん買って、早く帰りましょう。=Hmm. Well then... Let's buy a lot of things that Lady Kyaru likes, and go home.
+ふむ。では……\nキャルさまの好きなものをたくさん買って、早く帰りましょう。=Hmm. Well then... Let's buy a lot of things that Miss Kyaru likes, and go home.
 おいしいお料理でお腹を満たせば、\n悪い夢に悩まされることも、きっとなくなるはずですから。=If you fill your stomach with delicious food, you will not be bothered by bad dreams anymore.
 ええ、そうね。\nそれがこのギルド……【美食殿】らしいやり方よね。=Yes, that's right. That's the Gourmet guild's... way of doing things.
 ロレッタ海岸から獲れたて直送！\n水揚げされたばかりのピチピチだ！\n見てってー！=Freshly caught from the Loretta coast! It's freshly caught! Look at it!
@@ -191,7 +191,7 @@ r:"^おっきくてもちっちゃくても……\n(.{2,10})くんをいじめ�
 はいはい、お似合いですわよったくもう。=Yes, yes, it suits you.
 俺が知るか！\nだが……議長は大層、不機嫌そうなご様子だったぞ？=I don't know! But... the chairman seemed to be in a bad mood.
 …………はぁ…………=.........haa.........
-キャルさま……\nどこかお加減が優れないのでしょうか。\nわたくし、心配でございます。=Lady Kyaru... Are feeling unwell? I'm worried about you.
+キャルさま……\nどこかお加減が優れないのでしょうか。\nわたくし、心配でございます。=Miss Kyaru... Are feeling unwell? I'm worried about you.
 キャルちゃん、大丈夫？=Kyaru, are you okay?
 ほらほら、おいしいものたくさん買ってきましたから！\n一緒に食べましょう、キャルちゃんっ。\n……ねっ？=Look, look, I bought lots of delicious food! Let's eat together, Kyaru. ...Right?
 【黄金の手】兵士=[Golden Hand] Soldier
@@ -437,7 +437,7 @@ r:"^だってあなたは、覇瞳皇帝の元側近で〜\n今の王女さま�
 ……クレジッタさん、怒らせちゃったでしょうか。\nプリンセスとして誰かと接するのって……やっぱり、難しいです。\nそれに……=...Creditta, did I upset you? As a princess, interacting with others is... difficult. And...
 「恵まれた境遇の自慢」…………\n……もしかして、キャルちゃんも……\nわたしたちのことをそんなふうに思ったり、してたんでしょうか……？　=I'm proud of my blessed circumstances.」「......Could it be that Kyaru-chan... thought of me that way too...?　
 ペコリーヌさまっ！=Lady Pecorine!
-r:"^あれっ、コッコロちゃん？\nそれに(.{2,10})くんも、シェフィちゃんも、オイッス☆\nあとでそっちに行こうと思ってたんですよ～！$"="Huh? Kokkoro-chan? And $1-kun and Sheffy-chan, too! Hey! ☆ I was thinking of metting up with you later!"
+r:"^あれっ、コッコロちゃん？\nそれに(.{2,10})くんも、シェフィちゃんも、オイッス☆\nあとでそっちに行こうと思ってたんですよ～！$"="Huh? Kokkoro? And $1-kun and Sheffy-chan, too! Hey! ☆ I was thinking of metting up with you later!"
 お話中のところに、悪いのだけど……ペコリーヌさん。\nキャルのこと、見てないかしら？=I'm sorry to interrupt, but... Pecorine, have you seen Kyaru?
 えっ？　キャルちゃん？\n見てないですけど……みんなと一緒じゃないんですか？=Huh? Kyaru-chan? I haven't seen her... Isn't she with everyone?
 それが、その……\n昨日の夕方から、キャルさまが戻られていないのです。=Well, umm... Miss Kyaru hasn't returned since yesterday evening.
@@ -533,7 +533,7 @@ r:"^(.{2,10})さま！\nそれに、コッコロさんも。\nご無沙汰して
 貴方がたの知る、七冠の所在──\n『迷宮女王』たちの居場所でも、お教えいただければと。=I'd like you to tell me where the Seven Crowns are, and where Queen Labyrinth, the Metamorph Monarch and the others are.
 この人も、狙いは七冠……！？=He's after the seven crowns, too...!?
 そのようなこと、教えられるわけが……！=There's no way! you can't tell him that...!
-待ってくださいコッコロちゃん。\nわたし、この勝負受けます！=Wait, Kokkoro-chan. I accept this challenge!
+待ってくださいコッコロちゃん。\nわたし、この勝負受けます！=Wait, Kokkoro. I accept this challenge!
 ペコリーヌさん！？=Pecorine?!
 ちょっ……お姫さまっ！=Hey... Princess!
 ほっほ。\nさすがは一国の長たる御仁。\n素晴らしい即断即決ぶりですな。=Hoho. You are indeed the leader of a country. She has a wonderful ability to make a quick decision.
@@ -741,7 +741,7 @@ r:"^この方を倒して！\n(.{2,10})さまを取り返すのですわ！\n覚
 さてさて。\nワタクシもひとつ、気合を入れるといたしましょうか。\nどうやら、お相手せねばならない方々が増えるようですし。=Now then, let's put some effort into this as well. It seems we have more people to deal with.
 ──みんな！\n待たせて済まない！=Everyone! Sorry to keep you waiting!
 【トゥインクルウィッシュ】のみなさま……！\n来てくださったのですね！=[Twinkle Wish] everyone...! You're here!
-うん！\nコッコロちゃんが通信魔法で知らせてくれたおかげだよ！=Yeah! It's all thanks to Kokkoro-chan using communication magic!
+うん！\nコッコロちゃんが通信魔法で知らせてくれたおかげだよ！=Yeah! It's all thanks to Kokkoro using communication magic!
 騎士クンを、騎士クンを返してっ！！=Give me back my Kish-kun!
 これはこれは、剣士のお嬢様がた。\nいつぞや以来ですな。=Oh, hello, Miss Swordsman. It's been a while since I've seen you.
 ──やったっ♪\n来た来た～♪=I've got it!♪
@@ -880,7 +880,7 @@ r:"^でも……\n馬鹿で、みじめで、みっともなくたって。\n(.{
 あっ！\n何か、下から飛び出してきたわよっ……！？=Ah! Something's coming out from below!
 あれは……！=That's...!
 ──ああああーっ！=Aaaaahhh!
-キャルさまっ！=Lady Kyaru!
+キャルさまっ！=Miss Kyaru!
 ああもうっ！\n街のあちこちにワラワラと……ゴキブリかっつーの！=Aaah, geez! There's so many of them all over the city... They're like cockroaches!
 ぶっ壊れろ！\nクソ人形どもーーーーっ！！！！=Break! You Damn Dolls!!!!
 あいつ！\n上空から、街で暴れてる『万能人形』だけを狙い撃ちしたですか……！？=That bastard! Did she shoot only the "All-Purpose Dolls" running amok in the city from far above...?!
@@ -902,14 +902,14 @@ r:"^でも……\n馬鹿で、みじめで、みっともなくたって。\n(.{
 よく言うぜボス……=Well said, boss...
 あたしたちにだってヒミツだらけの全身内緒ババアが、\nどの口でほざいてやがるですか……=What is that old hag hiding from us..?
 ……あー、しんどかった……=...Ahh, that was tough...
-主さま！\nキャルさま！=My Lord! Lady Kyaru!
+主さま！\nキャルさま！=My Lord! Miss Kyaru!
 良かった！\n二人とも無事みたいで……=I'm so glad they're both safe...
 ……ま、なんとかね。\nほんと、ひどい目に遭ったわ……=...Well, somehow. It wasn't so bad of an experience...
-というか……キャルさま！\nそのお姿は……！=Wait... Lady Kyaru! That figure is...!
+というか……キャルさま！\nそのお姿は……！=Wait... Miss Kyaru! That figure is...!
 はっ！？\n……こっ、これは……、そのぅ……=Huh?! Th-This is... umm...
 ……ってあぁっ！\n戻っちゃった……！？=...Wait! I've changed back...!?
 時間切れって感じじゃなさそうだけど……\nよく見たら、だいぶひどい怪我をしてるわね。=It doesn't look like time's up, but... Now that I look closely, you're pretty badly injured.
-後はわたくしたちにお任せを、キャルさま。\n事情は存じませんが、攫われた主さまも\n戻ってきてくださいましたし。=Leave the rest to us, Lady Kyaru. I don't know what's going on, but my lord who was kidnapped has returned as well.
+後はわたくしたちにお任せを、キャルさま。\n事情は存じませんが、攫われた主さまも\n戻ってきてくださいましたし。=Leave the rest to us, Miss Kyaru. I don't know what's going on, but my lord who was kidnapped has returned as well.
 ──みんなっ！=Everyone!
 ペコさんを、お願い……！=Please take care of Pecorine...!
 ぅ、ぅぅ……\nキャル、ちゃん……=U-Ugh... Kyaru...chan...
@@ -968,7 +968,7 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 こっちも、片付いたにゃ！=I've taken care of this too, nya!
 『クリーピングコイン』も、\n親玉がいなくなって動きを止めたみたいね。=It looks like the Creeping Coins stopped moving after the boss was beaten.
 ペコリーヌも、なんとか大丈夫みたい。\n寝ちゃってるけど……=Looks like Pecorine's okay, too. She's asleep...
-よかった……！\nありがとうございます、キャルさま……！=Thank goodness...! Thank you, Lady Kyaru...!
+よかった……！\nありがとうございます、キャルさま……！=Thank goodness...! Thank you, Miss Kyaru...!
 っていうか……あたしが何もしなくても、平気だったみたいね。\n誰か、解毒剤でも飲ませたのかしら……？　=Actually... It looks like she was fine without me doing anything. Did someone give her an antidote...?　
 えっと……\nそれじゃあ……=Umm... Then...
 おーっほっほ♪\n私たちの、大勝利というコトですわ♪=Oh ho ho♪ It's our big victory♪
@@ -1009,7 +1009,7 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 あたしも、いい加減ボロボロだし……早く休みたいわ。\nお腹も空いたしね。=I'm pretty beat up, too... I want to get some rest soon. I am hungry, after all.
 キャルさま。\nふふっ……良かった……=Miss Kyaru. Hehe... Thank goodness...
 な、なによ？=Wh-What?
-ここ数日のキャルさまは、とても思いつめたご様子で。\nわたくしたち、心配しておりましたが……\n今は、お怪我はしていても、とても晴れやかなお顔をしています。=For the past few days, Lady Kyaru has seemed to be deep in thought. We've been worried about her, but... Right now, even though she's injured, she looks very cheerful.
+ここ数日のキャルさまは、とても思いつめたご様子で。\nわたくしたち、心配しておりましたが……\n今は、お怪我はしていても、とても晴れやかなお顔をしています。=For the past few days, Miss Kyaru has seemed to be deep in thought. We've been worried about her, but... Right now, even though she's injured, she looks very cheerful.
 えっ……\nそ、そうかしら？\n……そんなにわかりやすいかしら、あたし……=Huh... R-Really? Am I really that easy to read...?
 思いつめたっていうか……\nまぁ……そうね。\n色々大変なのは、別に変わってないけど……=It's more like...well...you're right. It hasn't really changed how hard things are...
 ……でも。\nもやもやしてたコト、言葉にして、吐き出して……=......but...I put it into words, and spit it out......
@@ -1018,7 +1018,7 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 心配かけて、悪かったわね。\nでも、もう大丈夫だから──=Sorry for making you worry. But I'm fine now~
 帰りましょ。\nあたしたちの家に。=Let's go home. To our house.
 ええ。\n私たちの家に……！=Yes. To our house...!
-コッコロちゃん！=Kokkoro-chan!
+コッコロちゃん！=Kokkoro!
 町人たち=The townspeople
 アゾールド？=Azold?
 ユイたちの活躍によってアゾールドは撤退し、ランドソルに再び平和が戻った。後日、ペコリーヌ暗殺に失敗したクレジッタはその責をゴウシンに咎められる。彼が計画を急ぐのにはある理由があるようだが……=Thanks to Yui and the others' efforts, Azold withdrew, and peace returned to Landosol. The ter, Creditta, who failed to assassinate Pecorine, would be blamed by Gosin for that. There seemed to be a reason why he was rushing his plan, but...
@@ -1108,7 +1108,7 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 はい、おやすみなさい♪\nおかゆ、ご馳走さまでした！=Yes, good night♪ Thank you for the porridge!
 ……それでは、中に戻りましょう。\n夜風が少し、冷たいですし……=...Well then, let's go back inside. The night wind is a little cold...
 そうね。\n食器の片付け、手伝うわ。\nマ……ッコロさん。=That's right. I'll help you clean the dishes. Ma...kkoro-san.
-ふふ。\nありがとうございます、シェフィさま。=Heehee. Thank you very much, Lady Sheffy.
+ふふ。\nありがとうございます、シェフィさま。=Heehee. Thank you very much, Miss Sheffy.
 ……キャルちゃん？=...Kyaru?
 ……【レイジ・レギオン】かぁ。\nほーんと、ヤな連中よね。\n……今回は、陛下のニセモノなんてものまで持ち出してきたし……=...Rage Legion, huh? What a bunch of nasty people. ...This time, I even brought out a fake of Her Majesty's...
 驚いたね。=I'm surprised.
