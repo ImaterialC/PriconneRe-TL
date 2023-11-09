@@ -115,7 +115,7 @@ r:"^(.{2,10})たちがミロクからアメスを奪還する、少し前──$
 わんさかいる上に、手応えもあって……厄介だね、こりゃあ！=Not only is she here, but she's also there... This is a pain in the ass!
 なぁ、姫さん！\nこいつらは、あの塔にへばりついた\n大きな薔薇みたいな建物と何か関係があるのかい！？=Hey, princess! Do these guys have anything to do with that big rose-like building stuck to the tower?!
 すみません、わたしもあの薔薇みたいなのはよくわからなくてっ。\n今キャルちゃんが調べに行ってくれてますけど……=I'm sorry, I also don't really understand that rose-like thing. Kyaru-chan is currently investigating it for me, but...
-r:"^……でもきっと、無関係じゃないって思います！\nだって今、(.{2,10})くんは塔の中にいるはずで。\nこの天使の子たちの親玉の狙いも、Giovanniくんですから！$"="...But I'm sure it's not unrelated! Because right now, $1-kun should be inside the tower. And the target of the boss of these angel children is Giovanni-kun too!"
+r:"^……でもきっと、無関係じゃないって思います！\nだって今、(.{2,10})くんは塔の中にいるはずで。\nこの天使の子たちの親玉の狙いも、(.{2,10})くんですから！$"="...But I'm sure it's not unrelated! Because right now, $1-kun should be inside the tower. And the target of the boss of these angel children is $1-kun too!"
 なんですとー！\nそいつぁくせえ！\nゲロ以下の臭いがプンプンするでありますなー！=What did you say?! \nThat's disgusting! \nThe smell is worse than vomit!
 空飛ぶ城……！\nくっ……こちらもまた、我が心を疼かせるではないか……！=Flying castle...! Ugh... This is making my heart ache again...!
 ……なるほどね。\nようやく【レイジ・レギオン】のテロ騒動が収まったと安心してたら。\nまたずいぶんと、大変なことになっちゃってたみたいね……！=...I see. Just when I finally felt relieved that the terrorism incident involving the "Rage Legion" was settled. It seems like things have become quite troublesome again...!

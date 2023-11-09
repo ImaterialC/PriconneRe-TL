@@ -37,3 +37,4 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewMiniGameTtkRecord(Clone)/GUIButton_Index/Label=ChangeFontSize(17)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewMiniGameTtkRecord(Clone)/TtkPictureBookDetail(Clone)/GUIGroup_Record_Left/Label/Label=ChangeFontSize(16)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonMiddle(Clone)/Main/PartsParent/PartsDialogMinigameTtkResultRewardGet(Clone)/TtkResultRewardGet(Clone)/TextLabel=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewRedeemUnitDetail(Clone)/Left/GUIGroup_CastVoice/Label_CastVoice=ChangeFontSize(16)

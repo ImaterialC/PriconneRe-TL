@@ -132,7 +132,6 @@ sr:"^(\d+)年(\d+月)(\d+)日 ([0-9:]+)まで$"=Until $2 $3, $1 $4(JST)
 
 ---my sets---
 反転=Turn
-クリア=Clear
 名前変更=Change Name
 現在の配置を保存=Save Current Setup
 マイセット保存確認=Save My Sets

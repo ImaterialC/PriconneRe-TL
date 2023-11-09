@@ -77,7 +77,7 @@ r:"^このかたは、(.{2,10})さま。\nわたくしは、コッコロと申�
 もぐもぐ……\nあぁ、なるほど。\nこれは、なかなか美味でございますね。=*munch, munch*\nHmm, I see why you would recommend this.\nIt is quite the delicacy, if I do say so myself.
 わたくしには、\nすこし香辛料の刺激が舌に痛い感じですけれど。\n味そのものは、たいへん結構でございますね。=Alas,\nthe spices are a little much for me.\nOtherwise, though, it's more than edible.
 主さまも、どうぞ召し上がれ？\nはい、あ～ん……♪=You should try it too, my Lord.\nHere, open wide... ♪
-r:"^あぁっ、(.{2,10})！\nGiovanniがいたわよねそういえばっ、\nあんたって気配ないわよね！？$"="Oh, shoot!\nI forgot $1 was here! Sorry,\nyou just have like, zero signs of life!"
+r:"^あぁっ、(.{2,10})！\n(.{2,10})がいたわよねそういえばっ、\nあんたって気配ないわよね！？$"="Oh, shoot!\nI forgot $1 was here! Sorry,\nyou just have like, zero signs of life!"
 r:"^ねぇ、(.{2,10})！\nあんたは正気よねっ、\nそうだって言ってよ！$"="Anyway!\nYou're sane in the brain, right?!\nI can't trust anyone else here!"
 r:"^こらチビッ、食べさせんな虫なんか！\n(.{2,10})は、大事なご主人さまなんでしょ！？$"="Hey, squirt! Isn't he important to you?!\nQuit trying to feed him that awful stuff!"
 ふむ。\n大事だからこそ、\n豊かな食生活をおくってほしいのです。=So you say,\nbut that's precisely the point.\nI would much rather he enjoy all sorts of food.

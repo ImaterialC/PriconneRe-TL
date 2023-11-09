@@ -1,5 +1,6 @@
 アドベンチャー=Adventure
 冒険先一覧=Adventure List
+遺跡調査=Ruin Investigation
 まとめて\n帰還確認=Mass\nReturn
 まとめて\n出発=Mass\nDeparture
 パーティ上限=Party Limit
@@ -80,7 +81,8 @@ r:"^本日の残り撤退可能回数  ([0-9/]+)$"=Today's retreat: $1
 報酬詳細=Reward details
 キャンペーン=Campaign
 終了日時=Finish date
-
+戦力が不足しています。=Insufficient total power.
+人数が不足しています。=Insufficient people.
 冒険開始に必要な戦力が不足しています。=Insufficient power to start the adventure.
 戦力不足=Lack Power
 

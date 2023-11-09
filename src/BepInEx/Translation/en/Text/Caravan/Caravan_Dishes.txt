@@ -3,7 +3,7 @@
 ペコリーヌの満腹ツインおにぎり=Pecorine's Satisfying Twin Onigiri
 コッコロのゆるりと休憩サラダ=Kokkoro's Laid-back Relaxing Salad
 キャルの絶品五つ星バーガー=Kyaru's Delicious 5-Star Burger
-リリのコツコツまい進かしわ餅=Lily's Slow and Steady Kashiwa Mochi
+リリのコツコツまい進かしわ餅=Riri's Slow and Steady Kashiwa Mochi
 プレシアの食いしん坊ぶーぶー肉まん=Precia's Gourmet Bu-Bu Pork Bun
 クローチェのフルパワーポテトサラダ=Croce's Full Power Potato Salad
 リマの不思議なスイートアップル=Rima’s Mysterious Sweet Apple
@@ -105,7 +105,7 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 
 キャルが食べたい物を挟み込んだハンバーガー。香ばしいパンとお肉の香りが食欲を刺激する。魔物でない素材で作られた、冒険中に食べるにはゴージャスすぎる一品、とキャルは信じている。=A hamburger filled with Kyaru's favorite dish. The aroma of toasted bread and meat stimulates the appetite. Kyaru believes it's a luxurious dish made with non-monster ingredients, perfect for eating during an adventure.
 
-リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Lily's kashiwa-mochi is one of the best... carefully crafted using the best ingredients. Failed attempts were consumed by Lily herself, making it a very high-end product in terms of unit price.
+リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Riri's kashiwa-mochi is one of the best... carefully crafted using the best ingredients. Failed attempts were consumed by Riri herself, making it a very high-end product in terms of unit price.
 
 プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=It's a steamed bun filled with ingredients carefully selected by Precia. Based on her request, it is several times larger than a regular pork bun. According to Clear, the chef in charge, the taste and volume are outstanding, guaranteeing a happy experience without a doubt.
 

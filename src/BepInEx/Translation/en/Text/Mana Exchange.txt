@@ -7,15 +7,15 @@ r:"^有償(\d+)で$"=Use Paid $1
 r:"^(\d+)セット購入$"=$1 set purchase
 r:"^(\d+)で$"=Use $1
 
-ジュエルが不足しています=Not enough jewels
+ジュエルが不足しています=Not enough Jewels
 マナ購入詳細=Mana Purchase Details
 購入履歴=Purchase history
 
 r:"^マナセットを(\d+)セット購入しますか？$"=to buy $1 set of Mana?
 r:"^ジュエル×(\d+)を消費して$"=Use $1 Jewels
-最低獲得マナ=MIN mana gained
-所持無償ジュエル=Free Jewel Held:
-r:"^\[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)セット購入\[-\]\[3C404E\]で、おまけで探索回数もGET！\[-\]$"=[3C404E]Buy[FFBB00,CE4F00] $1 more sets[-], to get bonus Grotto attempts![-]
-r:"^(\d+)セット購入ごとに、おまけで探索回数をGET！$"=Buy $1 more sets, to get bonus Grotto attempts!
+最低獲得マナ=Min. mana gained
+所持無償ジュエル=Free Jewels Held:
+r:"^\[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)セット購入\[-\]\[3C404E\]で、おまけで探索回数もGET！\[-\]$"=[3C404E]Buy[FFBB00,CE4F00] $1 more sets[-] and get bonus Grotto attempts![-]
+r:"^(\d+)セット購入ごとに、おまけで探索回数をGET！$"=Buy $1 more sets and get bonus Grotto attempts!
 マナ上限に達しているためこれ以上購入できません。=Can't buy any more because you've reached your mana limit.
 おまけ=Bonus

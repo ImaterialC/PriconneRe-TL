@@ -12,7 +12,7 @@
 
 
 ---Data Link---
-既にプリンセスコネクト！Re:Diveをプレイしている場合は「データ連携」を選択してください。\n以前のゲームデータと連携してプレイすることが出来ます。=Please select "Data Link" if you are already playing Princess! Re: Dive.\nThis will allow you to link your existing game data.
+既にプリンセスコネクト！Re:Diveをプレイしている場合は「データ連携」を選択してください。\n以前のゲームデータと連携してプレイすることが出来ます。=Please select "Data Link" if you are already playing Princess Connect! Re: Dive.\nThis will allow you to link your existing game data.
 連携方法を選択してください。=Please select a linkage method.
 連携方法を選ぶ=Select Link Method
 パスワードを使う=Use a Password
@@ -30,9 +30,9 @@
 アプリバージョン=App version
 ご利用機種名=Device Info
 フォームに引き継ぐ項目=Items to take over to the form
-※チェックされた情報は、アプリからお問い合わせフォームに\n引き継がれ、お客様のご利用状況を確認するために使用します。\n情報がない場合、確認や調査ができないことがございます。=※The checked information will be carried over from the app to the inquiry form and used to check the usage status of the customer.\nIf there is no information, we may not be able to confirm or investigate.
+※チェックされた情報は、アプリからお問い合わせフォームに\n引き継がれ、お客様のご利用状況を確認するために使用します。\n情報がない場合、確認や調査ができないことがございます。=※The checked information will be carried over from the app to the inquiry form and used to check the usage status of the customer.\nWithout this information, we may not be able to confirm or investigate any issues.
 ご利用機種の\nOSバージョン=Your Device\nOS version
 ---Download All---
-r:"^\[3C404E\]すべてのデータのダウンロードを行います。\n通信環境の良いところでの\nダウンロードを推奨いたします。\nダウンロードを開始してよろしいですか？\n\(([0-9.]+) ([MG])B\)\[-\]$"=[3C404E]Download all data.\nWe recommend downloading in a good connection.\nAre you sure you want to start the download?\n($1 $2B)[-]
+r:"^\[3C404E\]すべてのデータのダウンロードを行います。\n通信環境の良いところでの\nダウンロードを推奨いたします。\nダウンロードを開始してよろしいですか？\n\(([0-9.]+) ([MG])B\)\[-\]$"=[3C404E]Download all data.\nWe recommend downloading with a good connection.\nAre you sure you want to start the download?\n($1 $2B)[-]
 
-[3C404E]ダウンロードが完了しました。\n再起動します。[-]=[3C404E]Download is completed.\nRestart.[-]
+[3C404E]ダウンロードが完了しました。\n再起動します。[-]=[3C404E]Download is completed.\nRestarting.[-]

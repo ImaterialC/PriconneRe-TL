@@ -1,11 +1,11 @@
 報酬アイテム=Reward Items
 auto限定=Auto only
-1回のみ=Only once
-1回だけ=Only once
+1回のみ=Once only
+1回だけ=Once only
 何度でも=Repeatable
 クエスト内容=Quest Details
 バトルに勝利する。=Win the battle.
-納品アイテム=Delivery item
+納品アイテム=Items rewarded
 
 出現モンスター=Monsters
 
@@ -17,8 +17,8 @@ auto限定=Auto only
 《EX》危険な影と怪鳥獣=<EX> Dangerous Shadows and Monsters
 《EX》危険な魔物・狂熊と翼竜=<EX> Dangerous Mad Bear and Wyvern
 裏世界安全講習会=Netherworld Safety Training
-《EX》危険な影と魔物・雷々傲M=<EX> Dangerous Arogant's Shadows Thunder
-このクエストはクリア後の挑戦ができません。=This quest cannot be challenged after clearing.
+《EX》危険な影と魔物・雷々傲M=<EX> Dangerous Monsters with Thunderous Arrogance
+このクエストはクリア後の挑戦ができません。=This quest cannot be attempted after completion.
 挑戦確認=Challenge Confirmation
 このクエストは再度クリアしても\n報酬を獲得できません。\n挑戦しますか？=You wont get the rewards even if you beat it again.\nDo you want to challenge?
 

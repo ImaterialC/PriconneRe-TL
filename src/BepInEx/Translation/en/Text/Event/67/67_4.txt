@@ -5,7 +5,7 @@
 
 maybe change magic to spell? prob not
 
-r:"^オアシスを占拠した盗賊の討伐中、異国の子どもの魔法で窮地を助けられた(.{2,10})たち。その後サラサリアに戻った一行が問うと、異国の子どもは伝説のランプの魔神当人であると認めるのだった。$"="While trying to recapture the oasis overtaken by the bandits, $1 and others were saved by the foreign child's magic. When they returned to Salasaria and asked about it, the child revealed that he's the legendary genie of the lamp.
+r:"^オアシスを占拠した盗賊の討伐中、異国の子どもの魔法で窮地を助けられた(.{2,10})たち。その後サラサリアに戻った一行が問うと、異国の子どもは伝説のランプの魔神当人であると認めるのだった。$"="While trying to recapture the oasis overtaken by the bandits, $1 and others were saved by the foreign child's magic. When they returned to Salasaria and asked about it, the child revealed that he's the legendary genie of the lamp."
 
 ファリーダとサイードの婚姻が決まってから数日後──\nサレンたちは、再び国王に呼び出された。=A few days after Farida and Saeed's marriage has been decided── Saren and the group is summoned by the king.
 そなたらが後押しをしてくれた、\nあの二人の披露宴を執り行うことになった。=Thanks to your support, we'll be holding a celebration for both of them.

@@ -35,7 +35,7 @@
 おや、キョトンとされておりますね。\nえぇっと、不躾ではございますが……\nあなたさまのお名前を、お聞かせ願えますか？=Hmm, you seem a little taken aback.\nAhh... I apologize if this seems intrusive, but...\nPerhaps you could tell me your name?
 r:"^ふむ。\n(.{2,10})さま、と仰るのですね。\n良かった、わたくしのお仕えする主さまで間違いないようです。$"="I see.\nSo, you are called $1.\nWonderful. That is indeed the name of the lord I was sent to serve."
 よもや人違いなのでは、などと疑って申し訳ありません。\nご不快でしたら、何なりと罰をお与えください。=I apologize for doubting your identity, even for a moment.\nIf you are displeased, you may punish me as you see fit.
-鞭で打たれようが何をされようが、\nわたくしは一向に構いません。=Whip me or stone me as you will;\nI have no reason to object.
+鞭で打たれようが何をされようが、\nわたくしは一向に構いません。=Whether I'm whipped or subjected to anything;\nI have no reason to object.
 アメスさまからの託宣によると、\n主さまは『ほとんどの記憶を失っている』ようなので……\nわけがわからない状態でしょうけど。=According to the divine message Lady Ameth revealed to me, you have apparently lost most of your memories... So it is little wonder that you are confused.
 わたくしがお導きしますので、\nどうかご安心を。=But I will guide you and show you the way forward,\nso worry not.
 お腹すいた～……\nお腹すいた～……=I'm Hungry...\nI'm so... hungry...
@@ -73,7 +73,7 @@ r:"^ふむ。\n(.{2,10})さま、と仰るのですね。\n良かった、わた
 あなたを？\nえぇっと、どういうことでしょう？=You brought them...?\nUm, I'm not quite sure I follow.
 というか本当に、あなたは何者なのでしょうか……？\nまだ、お名前すら不明なのですけど？=In the first place, can we clear up who exactly you are?\nIn the first place we have yet to so much as learn your name...\n
 あっ、わたしも名乗ってなかったよね。\nわたし、ユイっていいます。\n本当に、助けてくれてありがとう……♪=Oh, I haven't introduced myself either, have I?\nMy name is Yui.\nThank you again for all your help!
-あぁ、はい。わたくしは、コッコロと申します。\nこちらは、Giovanniさまです。=Ah--yes, of course. You may call me Kokkoro.\nAnd this fellow is my Lord.
+r:"^あぁ、はい。わたくしは、コッコロと申します。\nこちらは、(.{2,10})さまです。$"="Ah--yes, of course. You may call me Kokkoro.\nAnd this fellow is my Lord, $1-sama."
 えっと……わたしたち、どこかで会ったことがないかな？=Um... We haven't met somewhere before, have we?
 お～い！\nみんなっ、こっちにきてください！=Hey, guys!\nCome over here a sec! I found something!
 何か倒れてるひとがいるんですよ～\n回復魔法とか使えるひといましたよね？=It looks like someone's collapsed on the ground!\nOne of you was using healing magic back there, right?\nHey, guys!

@@ -6,6 +6,6 @@
 
 
 フォールンモード=Fallen mode
-シャドウ・スプリット -隠棘-=Shadow Split
+シャドウ・スプリット -隠棘-=Shadow Split: Hidden Thorns
 
 r:"^毎秒ＨＰを(\d+)回復する\n自分が受ける物理ダメージを30％カット\n自分が受ける魔法ダメージを30％カット\n味方単体に【堕天使の加護】を付与\n自分が敵から受ける行動不能を無効化する$"=Cast time: 0.44\n►Recovers HP by $1/s for 8s.\n►Applies P& M.DMG cut to own by 30% for 8s.\n►Grants a ally with [b]Fallen Angel's Blessing[/b].\n►Nullifies immobility effect on self for 8s.

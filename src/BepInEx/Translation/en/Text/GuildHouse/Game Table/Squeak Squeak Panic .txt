@@ -142,7 +142,7 @@ sr:"^\[FFBB00,CE4F00\](.+)\n\[-\]\[3C404E\]が解放されました。\[-\]$"=[F
 
 sr:"^累計(.+)獲得で\n「(.+)」ゲット$"=Acquired $1!\nEarned title $2!
 
-獲得した報酬はプレゼントに送られました。=The earned rewards have been sent as gifts.
+獲得した報酬はプレゼントに送られました。=Reward have been sent to the Present Box.
 
 ---Rin's Journal---
 ネズミ構成録=Mouse Log

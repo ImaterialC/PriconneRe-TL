@@ -9,7 +9,7 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の
 r:"^敵単体に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを45アップ\n自分のＴＰを200回復$"=Cast time: 1.05s\n►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK within 150 range by $2 for 180s.\n►Boosts allies' P.Crit rate within 150 range by 45 for 180s.\n►Recovers own TP by 200.
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを60アップ\n自分のＴＰ上昇を10アップ\n自分のＴＰを80回復$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.Crit rate by 60 for 180s.\n►Boosts own TP Boost by 10 for 18s.\n►Recovers own TP by 80.
 
-アオハルストリーミング=Blue Spring Streaming
+アオハルストリーミング=Youth Streaming
 もにカワユニフォーム♪=Moe Cute Uniform♪
-アオハルアブロード=Blue Spring Abroad
+アオハルアブロード=Youth Abroad
 ユースフルショット=Youthful shot

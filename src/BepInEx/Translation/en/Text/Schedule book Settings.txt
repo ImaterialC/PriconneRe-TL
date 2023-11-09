@@ -1,75 +1,77 @@
 予定の整理=Schedule Book Settings
 イベントのデイリーミッション設定=Event Daily Mission Setting
-開催中のイベントのデイリーミッションが達成済みで、報酬を受け取っていないものがあるとき\n予定帳に表示するかどうかを設定できます。=You can set whether or not to display in the schedule book when there are daily missions of the ongoing event that have been completed but have not received rewards.
+開催中のイベントのデイリーミッションが達成済みで、報酬を受け取っていないものがあるとき\n予定帳に表示するかどうかを設定できます。=You can set whether or not the schedule displays a task for completed daily event missions with unclaimed rewards.
 
 イベントボス設定=Event Boss Setting
-イベントボス（VERY HARD）を討伐していないときに予定帳に表示するかどうかを設定できます。\n開催中のイベントが無い、イベントボス（VERY HARD）が未解放の場合は設定によらず表示されません。\n複数のイベントが平行して開催されている場合はイベントごとに表示されます。=To display in the schedule book when the event boss (VERY HARD) is not defeated.\nIf there is no event in progress and the event boss (VERY HARD) is not unlocked, it will not be displayed regardless of the settings.\nIf multiple events are held in parallel, they will be displayed for each event.
+イベントボス（VERY HARD）を討伐していないときに予定帳に表示するかどうかを設定できます。\n開催中のイベントが無い、イベントボス（VERY HARD）が未解放の場合は設定によらず表示されません。\n複数のイベントが平行して開催されている場合はイベントごとに表示されます。=You can set whether or not the schedule displays a task for an undefeated event boss (VERY HARD).\nIf there is no event in progress or the event boss (VERY HARD) isn't unlocked, it won't be displayed regardless of this setting.\nIf multiple events are held in parallel, there will be one task for each event.
 
 通常ショップ設定=Normal Shop Settings
-通常ショップで購入されていないアイテムがある場合、予定帳に表示するかどうかを設定できます。=You can set whether or not to display items that are not purchased in the normal shop in Schedule Book.
+通常ショップで購入されていないアイテムがある場合、予定帳に表示するかどうかを設定できます。=You can set a task for purchasing items in the Normal Shop.
 
-通常ショップ詳細設定=Normal Shop Details Settings
-通常ショップに指定したアイテムに購入していないものがある場合、予定帳に表示する設定ができます。\n「通常ショップ設定」の項目で「表示しない」設定にしている場合は購入の有無によらず表示されません。=If there are items specified in the normal shop that haven't been purchased, you can set them to be displayed in the Schedule Book.\nIf you have set "Normal shop settings" to "Do not display", it will not be displayed regardless of whether or not you have purchased.
+通常ショップ詳細設定=Normal Shop Detailed Settings
+通常ショップに指定したアイテムに購入していないものがある場合、予定帳に表示する設定ができます。\n「通常ショップ設定」の項目で「表示しない」設定にしている場合は購入の有無によらず表示されません。=You can set a task for a specific type of item in the Normal Shop that hasn't been purchased.\nIf you have set "Normal Shop Settings" to "Do not display", it will not be displayed regardless of this setting.
 
-限定ショップ設定=Limited Shop Settings
-限定ショップで購入されていないアイテムがある場合、予定帳に表示するかどうかを設定できます。=If you have an item that is not purchased at a limited shop, you can set whether to display it in the Schedule Book.
+限定ショップ設定=Bonus Shop Settings
+限定ショップで購入されていないアイテムがある場合、予定帳に表示するかどうかを設定できます。=You can set a task for purchasing items in the Bonus Shop.
 
-限定ショップ詳細設定=Limited Shop Details Settings
-限定ショップに指定したアイテムに購入していないものがある場合、予定帳に表示する設定ができます。\n「限定ショップ設定」の項目で「表示しない」設定にしている場合は購入の有無によらず表示されません。=If there are items specified in the limited shop that have not been purchased, you can set them to be displayed in the Schedule Book.\nIf you have set "Do not display" in the "Limited Shop Settings" item, it will not be displayed regardless of whether or not you have purchased it.
+限定ショップ詳細設定=Bonus Shop Details Settings
+限定ショップに指定したアイテムに購入していないものがある場合、予定帳に表示する設定ができます。\n「限定ショップ設定」の項目で「表示しない」設定にしている場合は購入の有無によらず表示されません。=You can set a task to purchase a specific type of item in the Bonus Shop.\nIf you have set "Bonus Shop Settings" to "Do not display", it will not be shown regardless of this setting.
 
 ダンジョン設定=Dungeon Settings
-ダンジョンの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。=If the number of dungeons challenges remains, you can skip or display from the Schedule Book.
+ダンジョンの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。=You can set a task that will attempt or skip Dungeon if you still have attempts remaining.
 
-スペシャルダンジョン開催中詳細設定=Secret Dungeon Details Settings
-スペシャルダンジョン開催中にダンジョンの挑戦回数が残っているとき\n予定帳からダンジョンをスキップ可能にするか表示するかを設定できます。\n「ダンジョン設定」の項目で「表示する」設定にしている場合はスキップできません。\n「ダンジョン設定」の項目で「表示しない」設定にしている場合はスキップできず表示もされません。=When the number of dungeon challenges remains during a Secret Dungeon\nYou can set whether the dungeon can be skipped or displayed from the schedule book.\nYou cannot skip it if you have set "Display" in the "Dungeon Settings" item.\nIf you have set "Do not display" in the "Dungeon Settings" item, it will not be skipped and will not be displayed.
+スペシャルダンジョン開催中詳細設定=Special Dungeon Detailed Settings
+スペシャルダンジョン開催中にダンジョンの挑戦回数が残っているとき\n予定帳からダンジョンをスキップ可能にするか表示するかを設定できます。\n「ダンジョン設定」の項目で「表示する」設定にしている場合はスキップできません。\n「ダンジョン設定」の項目で「表示しない」設定にしている場合はスキップできず表示もされません。=You can set a task that will attempt or skip Special Dungeon if you still have attempts remaining.\nYou cannot skip it if you set "Display" for "Dungeon Settings".\nIf you set "Do not display" for "Dungeon Settings", it will not be shown regardless of this setting.
 
 経験値クエスト設定=EXP Quest Settings
-経験値クエストの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。\nスキップ可能なクエストが無い場合はスキップできません。=If the number of attempts of the EXP quest remains, you can set whether you can skip or display it from the Schedule Book. If there is no skippable quest, it cannot be skipped.
+経験値クエストの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。\nスキップ可能なクエストが無い場合はスキップできません。=You can set a task that will display or skip EXP Grotto quests if you still have attempts remaining. If there is no skippable quest, you will not be able to skip via Schedule.
 
 マナクエスト設定=Mana Quest Settings
-マナクエストの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。\nスキップ可能なクエストが無い場合はスキップできません。=If you have the number of attempts of the Mana Quest, you can set or display whether you can skip from the Schedule Book. If there is no skippable quest, it cannot be skipped.
+マナクエストの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。\nスキップ可能なクエストが無い場合はスキップできません。=You can set a task that will display or skip Mana Grotto quests if you still have attempts remaining. If there is no skippable quest, you will not be able to skip via Schedule.
 
 バトルアリーナ設定=Battle Arena Settings
-バトルアリーナで1度もバトルしていないとき予定帳に表示するかどうかを設定できます。=You can set whether to display it in the schedule book when you have never battled in the Battle Arena.
+バトルアリーナで1度もバトルしていないとき予定帳に表示するかどうかを設定できます。=You can set a reminder to fight in the Battle Arena if you haven't done it yet today.
 
-アリーナコイン受け取り設定=Arena Coin Receipt Settings
-バトルアリーナで1度もアリーナコインを受け取っていないとき\n予定帳からアリーナコインを受け取れるようにするか、表示するか設定できます。\n受け取れるアリーナコインがない場合は予定帳に表示されません。=When you have not received arena coins even once in the battle arena, You can set whether to collect arena coins from the schedule book or display them.\nIf there are no arena coins to collect, it will not be displayed in the schedule book.
+アリーナコイン受け取り設定=Arena Coin Collection Settings
+
+バトルアリーナで1度もアリーナコインを受け取っていないとき\n予定帳からアリーナコインを受け取れるようにするか、表示するか設定できます。\n受け取れるアリーナコインがない場合は予定帳に表示されません。=You can set a task that will display or collect Arena Coins if you haven't collected any from the Battle Arena yet.\nIf there are no Arena Coins to collect, this task will not be shown.
 
 プリンセスアリーナ設定=Princess Arena Settings
-プリンセスアリーナで1度もバトルしていないとき予定帳に表示するかどうかを設定できます。=You can set whether to display it in the Schedule Book when you have never battled in the Princess Arena.
+プリンセスアリーナで1度もバトルしていないとき予定帳に表示するかどうかを設定できます。=You can set a reminder to fight in the Princess Arena if you haven't done it yet today.
 
-プリンセスアリーナコイン受け取り設定=Princess Arena Coin Receipt Settings
-プリンセスアリーナで1度もプリンセスアリーナコインを受け取っていないとき\n予定帳からプリンセスアリーナコインを受け取れるようにするか、表示するか設定できます。\n受け取れるプリンセスアリーナコインがない場合は予定帳に表示されません。=When you have not received Princess Arena coins even once in Princess Arena, You can set whether to receive Princess Arena coins from the schedule book or display them.\nIf there is no Princess Arena Coins to receive, it will not be displayed in the schedule book.
+プリンセスアリーナコイン受け取り設定=Princess Arena Coin Collection Settings
+
+プリンセスアリーナで1度もプリンセスアリーナコインを受け取っていないとき\n予定帳からプリンセスアリーナコインを受け取れるようにするか、表示するか設定できます。\n受け取れるプリンセスアリーナコインがない場合は予定帳に表示されません。=You can set a task that will display or collect Princess Arena Coins if you haven't collected any from the Battle Arena yet.\nIf there are no Princess Arena Coins to collect, this task will not be shown.
 
 ノーマルガチャ設定=Normal Gacha Settings
 ガチャを引く=Pull the Gacha
-ノーマルガチャを1度も引いていないとき予定帳からノーマルガチャを引けるようにするか、\n表示するか設定できます。=When you have never pulled the normal gacha, you can set whether to draw normal gacha or display from the schedule book.
+ノーマルガチャを1度も引いていないとき予定帳からノーマルガチャを引けるようにするか、\n表示するか設定できます。=You can set a task that will display or pull the Normal Gacha if you haven't done it yet today.
 
-ノーマルガチャ詳細設定=Normal Gacha Details Settings
-ノーマルガチャの利用回数がリセットされたとき「ノーマルガチャ設定」の項目の達成状況を\nリセットするか設定できます。=Normal Gacha is reset twice in a day, you can reset the achievement status of the "Normal Gacha Settings", which mean the schedule book will update or not.
+ノーマルガチャ詳細設定=Normal Gacha Detailed Settings
+ノーマルガチャの利用回数がリセットされたとき「ノーマルガチャ設定」の項目の達成状況を\nリセットするか設定できます。=You can decide if the completion status of the task in "Normal Gacha Settings" will be reset when Normal Gacha is available to pull again within the day.
 リセットしない=Do not Reset
 
 「いいね」設定="Like" Settings
-「いいね」をしていないとき予定帳から「いいね」できるようにするか、表示するか設定できます。\n予定帳から「いいね」する場合はランダムなクランメンバーが選択されます。\nクランに所属していないまたはクランに自分以外のクランメンバーがいない場合は「いいね」できません。=You can set whether to enable or display "Like" from the schedule book when you are not "Like".\nA random clan member will be selected if you like from the schedule book.\nYou cannot "Like" if you are not in a clan or if there are no other clan members in the clan.
+「いいね」をしていないとき予定帳から「いいね」できるようにするか、表示するか設定できます。\n予定帳から「いいね」する場合はランダムなクランメンバーが選択されます。\nクランに所属していないまたはクランに自分以外のクランメンバーがいない場合は「いいね」できません。=You can set a task that will display or automatically "Like" a guildhouse.\nA random clan member will be selected if you choose to "Like" from the Schedule.\nYou cannot "Like" if you are not in a clan or if you are the only member of your clan.
 「いいね」する="Like"
 
 
 ギルドハウス設定=Guildhouse Settings
-ギルドハウスから1度もアイテムを受け取っていないとき予定帳からアイテムを受け取れるようにするか、\n表示するか設定できます。受け取れるアイテムがない場合は予定帳に表示されません。=You can set whether or not to receive items from the schedule book when you have not received any items from the Guildhouse. If there are no items to receive, they will not be displayed in the schedule book.
+ギルドハウスから1度もアイテムを受け取っていないとき予定帳からアイテムを受け取れるようにするか、\n表示するか設定できます。受け取れるアイテムがない場合は予定帳に表示されません。=You can set a task that will collect items from the Guildhouse if you haven't done it yet today. If there are no items to receive, this task will not be shown.
 
 マナ購入設定=Mana Purchase Settings
-設定した回数マナを購入していないとき予定帳からマナを購入可能にするか、表示するか設定できます。=If you have not purchased the set number of mana, you can purchase mana from the schedule book or display it.
+設定した回数マナを購入していないとき予定帳からマナを購入可能にするか、表示するか設定できます。=You can set a task that will display the Mana Purchase menu or purchase Mana directly from the Schedule.
 
-マナ購入回数設定=Mana Purchase Number Settings
-予定帳からマナを購入する回数を設定できます。\n事前にマナを購入していた場合はその購入回数とあわせて設定した回数になるようマナを購入します。=You can set the number of times to purchase mana from the schedule book.\nIf you have purchased mana in advance, you will purchase mana so that the number of purchases and the number of times you set will be the same.
+マナ購入回数設定=Mana Purchase Amount Settings
+予定帳からマナを購入する回数を設定できます。\n事前にマナを購入していた場合はその購入回数とあわせて設定した回数になるようマナを購入します。=You can choose the number of times to purchase mana via the Schedule task.\nIf you have already purchased Mana for the day, the task will purchase Mana enough times to match the number you set here.
 
-マナ購入詳細設定=Mana Purchase Details Setting
+マナ購入詳細設定=Mana Purchase Detailed Settings
 消費する=Consume
 消費しない=Do Not
-予定帳からマナを購入するときに無償ジュエルが不足していた場合、有償ジュエルを消費するか設定できます。=If there is a shortage of free jewels when purchasing mana from the Schedule Book, you can set to usage of the Paid Jewels.
+予定帳からマナを購入するときに無償ジュエルが不足していた場合、有償ジュエルを消費するか設定できます。=You can choose whether you consume Paid Jewels while purchasing Mana via the Schedule if you do not have enough Free Jewels.
 
 ルナの塔設定=Luna Tower Settings
-ルナの塔に1度も挑戦していないとき予定帳に表示するかどうかを設定できます。\nルナの塔が開催中でない場合は設定によらず表示されません。=You can set whether to display it in the Schedule Book when you have never challenged the Luna Tower. If the Luna Tower is not being held, it will not be displayed depending on the settings.
+ルナの塔に1度も挑戦していないとき予定帳に表示するかどうかを設定できます。\nルナの塔が開催中でない場合は設定によらず表示されません。=You can set a reminder to fight in the Luna Tower if you haven't challenged it yet today. If the Luna Tower is not open, this task will not be displayed regardless of the settings.
 
 クランバトル設定=Clan Battle Settings
-クランバトルに1度も挑戦していないとき予定帳に表示するかどうかを設定できます。\nクランバトルが開催されていない、クランに所属していない場合は設定によらず表示されません。=You can set whether to display it in the Schedule Book when you have never challenged the clan battle. If the Clan Battle is not held or not in the Clan, it will not be displayed depending on the settings.
+クランバトルに1度も挑戦していないとき予定帳に表示するかどうかを設定できます。\nクランバトルが開催されていない、クランに所属していない場合は設定によらず表示されません。=You can set a reminder to fight in the Clan Battle if you haven't battled yet today. If a Clan Battle is not running, this task will not be displayed regardless of the settings.

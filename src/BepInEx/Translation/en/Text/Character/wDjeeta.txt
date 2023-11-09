@@ -1,5 +1,5 @@
 ##UB##
-エーテルブラスト=Ether Blast
+エーテルブラスト=Æther Blast
 自分の魔法攻撃力を大アップさせ、\n目の前の敵１キャラに魔法特大ダ\nメージを与える。さらに自分に【万\n象の刻印】を付与する。=Boosts own M.ATK and deals large damage to nearest enemy. Applies a crest of all creation to self, this lasts 18s.
 r:"^自分の魔法攻撃力を(\d+)アップ\n敵単体に(\d+)の魔法ダメージ\n自分に万象の刻印を付与する$"=►Boosts own M.ATK by $1\n►$2 M.DMG to nearest enemy.\n►Infuses self with: Crest of all creation. 
 

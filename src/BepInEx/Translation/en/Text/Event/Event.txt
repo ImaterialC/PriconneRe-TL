@@ -135,7 +135,7 @@ r:"^(\d+)枚消費$"=Exchange $1
 r:"^合計 (\d+)$"=Total $1
 r:"^残り (\d+)/(\d+)$"=$1/$2 Remaining
 r:"^(\d+)回目の報酬ラインナップをすべて獲得しました。$"=You have obtained all of the $1 reward lineup.
-次の報酬ラインナップに切り替えます。=Switch to the next reward lineup.
+次の報酬ラインナップに切り替えます。=Switch to the new reward lineup.
 
 討伐証交換で、リセット対象アイテムを入手すると、即時ラインナップのリセットが行えます。\n\nリセット対象アイテムを入手した後も、リセットせずに引き続き同じラインナップ内から交換することも可能です。\n\n6回目以降のラインナップリセットは、討伐証交換報酬のラインナップを交換しきった場合に限り、リセットを行えます。=Once you have obtained the lineup reset rewards from the Victory Medal Gacha, you can reset the lineup immediately.\n\nYou also have the option to continue using the same lineup without resetting.\n\nFrom lineup 6 onward, you can reset only after obtaining the entire Victory Medal lineup.
 討伐証交換で、リセット対象アイテムを入手すると、即時ラインナップのリセットが行えます。\n\nリセット対象アイテムを入手した後も、リセットせずに引き続き同じラインナップ内から交換することも可能です。\n\n5回目以降のラインナップリセットは、討伐証交換報酬のラインナップを交換しきった場合に限り、リセットを行えます。=Once you have obtained the lineup reset rewards from the Victory Medal Gacha, you can reset the lineup immediately.\n\nYou also have the option to continue using the same lineup without resetting.\n\nFrom lineup 5 onward, you can reset only after obtaining the entire Victory Medal lineup.
