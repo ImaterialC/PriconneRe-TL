@@ -2,6 +2,10 @@
 バトル中敵防御中ダウン=Enemy DEF down during battle
 バトル開始後90秒間敵全体の物理防御力を５％ダ\nウンさせる。=For 90s after the battle begins, all opponents' P.DEF is decreased by 5%.
 
+量産型ワカナのフライパン=Mass-produced Wakana's Frying Pan
+バトル中盤攻撃力中アップ=Mid-battle P.ATK Bonus
+バトルの残り時間が45秒を切ると味方全体の物理攻撃力を５％アップさせる。=When the remaining time of the battle is less than 45s, the physical attack power of all allies is increased by 5%.
+
 
 愛情つなぐ健康エプロン=Love Healing Apron
 ユイが料理をする時に着用していたエプロン。食べる人のことを一番に考えることで優しい想いがつまった素敵なお弁当を作ることができる。=An apron worn by Yui when cooking. By prioritizing the person who will eat, she can create a wonderful bento box filled with gentle feelings.

@@ -99,7 +99,7 @@ r:"^しかし、それを黙って見ているわけがありません！\nク�
 なるほど……これは予想以上だ。\n相手に不足なしっ！　我ら兄弟、全力で迎え撃とう！=I see... This is more than I expected. They are worthy opponents! Let's face them with our full power, brother!
 せりゃぁああっ！！！！=Here we gooooo!!
 勝利を、友のために……！　=Victory, for my friend...!
-旋風雷閃撃鎖斬っ！！=Whirlwind Thunder Flash Lock!!
+旋風雷閃撃鎖斬っ！！=Archon Squallchain!!
 みなさま、お待たせいたしました！\nこれより、表彰式を始めます！\nチャンピオンチーム、表彰台へどうぞ！！=Ladies and gentlemen, thank you for your patience! We will now begin the award ceremony! Champion team, please come to the podium!!
 r:"^(.{2,10})、歩けるか？\n……だいぶあいつらに痛めつけられたからな。\n体も顔もひどいことになっている……$"=Can you walk, $1? ...You were badly hurt by them. Your body and face are in a terrible state...
 

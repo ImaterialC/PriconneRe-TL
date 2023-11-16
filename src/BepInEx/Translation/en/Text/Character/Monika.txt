@@ -19,7 +19,7 @@ ex
 白翼の加護=Blessing of the White Wings
 Skills+
 UB
-旋風雷閃撃鎖斬=Whirlwind Thunder Flash Lock
+旋風雷閃撃鎖斬=Archon Squallchain
 前方範囲内の敵すべてに物理大ダメージを与え、スタンさせる。さらに、味方全体の物理攻撃力と魔法攻撃力を大アップさせ、行動速度を大アップさせる。=Damage and stun on all of the enemies within the front range. In addition, the allies' P.ATK and the M.ATK power are Large increased, and the action speed is increased.
 
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の行動速度アップ$"=►Deals $1 P.DMG to all enemies in the frontline (Range 820).\n►Inflict stun to the Targets for 2.5s.\n►Boost to allies' P.ATK by $2.\n►Boost to allies' M.ATK by $3.\n►Boost action speed to 200% to All Allies for 30s.

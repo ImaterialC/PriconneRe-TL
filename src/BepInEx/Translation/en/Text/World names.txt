@@ -1,11 +1,13 @@
 ---Quest---
 このクエストは今後解放される予定です。=This quest will be released in the future
-エルピス島へ=To Elpis Island
-アストライア大陸へ=To Astraea Continent
-ジオ・テオゴニアへ=To Geo Theogonia
 ジオ・テオゴニア=Geo Theogonia
+ジオ・テオゴニアへ=To Geo Theogonia
+ジオ・ゲヘナ=Geo Gehenna
+ジオ・ゲヘナへ=To Geo Gehenna
 エルピス島=Elpis Island
+エルピス島へ=To Elpis Island
 アストライア大陸=Astraea Continent
+アストライア大陸へ=To Astraea Continent
 
 r:"^(1\.)?ジュノー平野(.*)$"=$1 Juno Plains $2
 r:"^(2\.)?パラス高原(.*)$"=$1 Pallas Peaks $2
@@ -74,6 +76,7 @@ r:"^(64\.)?アパレーユ(?:[・\s]*)?街道・東側(.*)$"=$1 Aparelle Highway
 r:"^(65\.)?キャッスル・オブ・パルフェ(?:[・\s]*)?城下町(.*)$"=$1 Castle of Parfait (Town) $2
 r:"^(66\.)?ラモリール平原(.*)$"=$1 Lamorir Plains $2
 
+r:"^(67\.)?渦炎密林(.*)$"=$1 Whirlpool Forest $2
 ---*6 Quest---
 sr:"^([べ-ヺー＆]+)(（.+）)?の解放クエスト$"=$1$2 Ascension Quest
 sr:"^(.+)（(.+)）$"=$1 ($2)

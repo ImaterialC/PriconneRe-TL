@@ -25,11 +25,11 @@
 実行可能なクエストがありません。=There are no available quests.
 本日挑戦できないクエストのみ選択されています。=Only quests that cannot be challenged\nare selected.
 装備済み=Equipped
-装備可能キャラ=Equipable
+装備可能キャラ=Equippable
 装備可能なキャラがいません=No chars available.
 チェックしたクエストがありません。=There are no quests selected.
 以下クエストは次回まとめてスキップの対象外です=These quests are not eligible for batch skip.
-スタミナ、挑戦回数不足のため\n実行できないクエストがあります。=Some quests cannot be performed\ndue to lack of stamina or challenges.
+スタミナ、挑戦回数不足のため\n実行できないクエストがあります。=Some quests cannot be skipped\ndue to lack of Stamina or Attempts.
 チェック済みのクエストがあります。=There are quests that have already been checked.
 同時に検索できるアイテムは３個までです。=Only up to three items that can be searched at the same time.
 サイドストーリー HARD=Side Story(HARD)
@@ -45,20 +45,20 @@
 
 表示クエスト=Display Quest
 キャンペーン一覧=Campaign List
-スタミナ不足のため実行できないクエストがあります。=Some quests cannot be performed\ndue to lack of stamina.
+スタミナ不足のため実行できないクエストがあります。=Some quests cannot be skipped\ndue to a lack of Stamina.
 
 回復なしで次へ=Don't Reset
 回復する=Reset
 
 まとめて挑戦回数回復=Reset Confirmation
-残り挑戦回数が0のクエストがあります。=These quests have 0 runs remaining.
+残り挑戦回数が0のクエストがあります。=These quests have 0 attempts remaining.
 ジュエルを消費して、以下のクエストの\n残り挑戦回数をまとめて回復しますか？=Do you want to reset with Jewels?
 
 まとめてスキップ確認=Skip Confirmation
-スキップチケットとスタミナを消費して、以下のクエストを実行します。よろしいですか？=Spend skip tickets and stamina to do the following quests.
+スキップチケットとスタミナを消費して、以下のクエストを実行します。よろしいですか？=Spending Skip Tickets and Stamina to do the following quests. Is it OK?
 
 スキップ済み確認=Skip Confirmation
 前回まとめてスキップ時にスキップできなかった\nクエストが次回まとめてスキップの対象となります。=Quest that could not be skipped will be skipped next time.
 
 対象のアイテムがありません。=There is no target item.
-対象クエストの残り挑戦回数を超えてスキップはできません。=You cannot skip beyond the number of remaining attempts in the target quest.
+対象クエストの残り挑戦回数を超えてスキップはできません。=You cannot skip beyond the number of remaining attempts for the selected quest.

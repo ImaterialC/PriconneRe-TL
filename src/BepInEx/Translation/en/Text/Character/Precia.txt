@@ -1,0 +1,20 @@
+正義の魂を受け継ぐ、爆食系天然天才娘=Inheriting the soul of justice, a genius girl with an explosive appetite.
+ごはんをたべること=Dinner
+【魔法】中衛で、マイペースに味方を支える破杖の少女。【飛行】し、クリティカルの強化やＨＰ・ＴＰ回復で味方を支援し、魔法攻撃力を加えた物理攻撃で敵を平らげる。=[Magic] A girl who goes about life in her own pace and supports her allies from the midlines with her destruction staff. She is capable of using the "flight" mechanic, and can buff the critical damage of her allies, as well as provide healing and TP charging.
+
+目の前の敵１キャラに物理と魔法攻撃力を合わせた物理特大ダメージを与え、自分の周囲の味方の物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。範囲内の味方の数に応じて味方への強化量がアップする。このスキルのクリティカルは物理と魔法クリティカルの値を合わせる。=Deals massive combined P.DMG & M.DMG to the enemy in front. Greatly boosts P.crit for allies around her, slightly boosts P.crit dmg. The enhancement to allies depends on the number of allies within the area. Criticals from this skill combine both P.crit & M.crit values.
+
+目の前の敵１キャラに物理と魔法攻撃力を合わせた物理大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。さらに、その敵を中心とした範囲内の敵すべてを束縛する。このスキルのクリティカルは物理と魔法クリティカルの値を合わせる。=Deals massive combined P.DMG & M.DMG to the enemy in front. Slightly boosts crit dmg. Additionally, binds all enemies within the area centered around that enemy. Criticals from this skill combine both P.crit & M.crit values.
+
+自分の周囲の味方の物理クリティカルを中アップ、ＨＰを中回復し、ＴＰを小回復する。さらに、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。範囲内の味方の数に応じて物理クリティカルの上昇量がアップする。このスキルのＨＰ回復量は、このキャラの物理と魔法攻撃力に応じて増加する。=Moderately boosts P.crit for allies around her, moderately recovers HP, and slightly recovers TP. Additionally, slightly boosts P.Crit dmg. The boost in P.crit depends on the number of allies within the area. The HP recovery amount boosts based on her P.ATK & M.ATK values.
+
+シュバイン・クラプフェン=Schwein Krapfen
+シャドウ・スプリット -破杖-=Shadow Split: Destruction Staff
+おいしいおいのり=Delicious Wish
+このスキルのスキルレベルは「シャドウ・スプリット -破杖-」と連動しています=This skill’s level is linked to "Shadow Split: Destruction Staff"
+
+r:"^敵単体に(\d+)の物理ダメージ\n範囲内の味方の物理クリティカルを30アップ\n範囲内の味方の物理攻撃クリティカル時のダメー\n?ジを1％アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.Crit rate within range by 30 for 18s.\n►Boosts allies' P.Crit dmg within range by 1% for 18s.
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを4％アップ\n範囲内の敵を一定時間行動不能にする$"=Cast time: 0.44s\n►Deals $1 P.DMG to an enemy.\n►Reduce 4% P.Crit dmg resistance to an enemy for 12s.\n►Inflicts Bind on enemies within 200 range for 2s.
+
+r:"^範囲内の味方の物理クリティカルを10アップ\n範囲内の味方のＨＰを(\d+)回復\n敵単体のクリティカルを受けた際のダメージを6％アップ\n範囲内の味方のＴＰを80回復$"=Cast time: 0.44s\n►Boosts allies' P.Crit rate within 220 range by 10 for 12s.\n►Recovers allies' HP within 220 range by $1.\n►Reduce 6% P.Crit dmg resistance to an enemy for 12s.\n►Recovers allies' TP within 220 range by 80.

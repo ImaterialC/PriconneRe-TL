@@ -14,8 +14,12 @@
 r:"^自分の物理攻撃力を(\d+)アップ\n一定時間全ての物理攻撃を回避する$"=Cast Time: 0.46s\n►Boosts own P.ATK by $1 for 180s.\n►Dodges all P.ATKs for 6s.
 自分を一定時間全ての物理攻撃を回避する状態にする。さらに物理攻撃力を大アップさせる。=Allows you to evade all physical attacks for a set period of time. Also boost physical attack power.
 
-
+ワイルドバニーアーマー=Wild Bunny Armor
 狂乱の街角インタビュー=Crazy Street Corner Interview
 ほっぷすてっぷ大乱闘☆=Hop Step Brawl☆
 ありのままの獣=Untamed Beasts.
 誓約女君にお仕置きを=Punishment for the Regina Geas
+
+目の前の敵１キャラに物理大ダメージを与え大きく吹き飛ばす。さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ず命中し、クリティカルする。さらに自分のＴＰを小回復する。=Deals massive P.DMG to the enemy in front, blowing them away. Additionally, deals massive P.DMG to all enemies within the area centered around herself. This attack always hits and criticals. Furthermore, slightly recovers her own TP.
+
+r:"^敵単体に(\d+)の物理ダメージ\n範囲内の敵に(\d+)の物理ダメージ\n自分のＴＰを60回復$"=Cast time: 0.525s\n►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to enemies within 450 range.\n►Recovers own TP by 60 .

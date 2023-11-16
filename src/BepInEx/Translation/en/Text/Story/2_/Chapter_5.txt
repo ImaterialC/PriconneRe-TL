@@ -18,7 +18,7 @@
 ……でも、どんな夢だっけ……？\n思い出せない……=...But what happened in the dream...? I can't remember...
 ……なんか、気持ちわるい……=...It's kind of creepy, I feel sick.
 コロ助……？\nシェフィ……？=Korosuke...? Sheffy...?
-ついでにネビアも……\n……誰もいないの？\nペコリーヌ……は、宮殿か……=And Nebia, too... Is no one here? Pecorine... A-A palace...?
+ついでにネビアも……\n……誰もいないの？\nペコリーヌ……は、宮殿か……=And Nebbia, too... Is no one here? Pecorine... A-A palace...?
 ん……置き手紙？=Hm... A letter?
 『キャルさまへ。\nお目覚めになられないようでしたので、市場へ買い物へ行って参ります。\n朝食は、少々お待ちくださいませ』　　　―コッコロ―。=To Miss Kyaru. You didn’t seem to be waking up, so I went shopping at the market. Please wait a moment for breakfast.” Kokkoro.
 ……掃除でもするか。=...Maybe I should clean up.
@@ -909,7 +909,7 @@ r:"^でも……\n馬鹿で、みじめで、みっともなくたって。\n(.{
 はっ！？\n……こっ、これは……、そのぅ……=Huh?! Th-This is... umm...
 ……ってあぁっ！\n戻っちゃった……！？=...Wait! I've changed back...!?
 時間切れって感じじゃなさそうだけど……\nよく見たら、だいぶひどい怪我をしてるわね。=It doesn't look like time's up, but... Now that I look closely, you're pretty badly injured.
-後はわたくしたちにお任せを、キャルさま。\n事情は存じませんが、攫われた主さまも\n戻ってきてくださいましたし。=Leave the rest to us, Miss Kyaru. I don't know what's going on, but my lord who was kidnapped has returned as well.
+後はわたくしたちにお任せを、キャルさま。\n事情は存じませんが、攫われた主さまも\n戻ってきてくださいましたし。=Leave the rest to us, Miss Kyaru. I don't know what's going on, but my Lord who was kidnapped has returned as well.
 ──みんなっ！=Everyone!
 ペコさんを、お願い……！=Please take care of Pecorine...!
 ぅ、ぅぅ……\nキャル、ちゃん……=U-Ugh... Kyaru...chan...
@@ -1137,4 +1137,4 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 ……ふふっ。\nばぁーーか♪=...Hehe. Stupid♪
 キャルちゃん？=Kyaru?
 第ニ部六章　オーエド漫遊湯煙旅情=Chapter 6: A Journey in the Steam Odedo
-だっ、ダイエットしなきゃ～っ！？=I-I have to go on a diet?!
+だっ、ダイエットしなきゃ～っ！？=I-I have to go on a diet?!n a diet?!

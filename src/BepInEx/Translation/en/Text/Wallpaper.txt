@@ -27,7 +27,7 @@ BGM購入へ=Buy BGM
 マイページ1のBGMを初期設定に戻します。\nよろしいですか？=Reset the background music on Homescreen 1 to the default setting.
 
 BGM購入ページへ移動=Move to BGM Shop
-[3C404E]BGM購入ページへ移動しますか?[-]=[3C404E]Do you want to go BGM shop?
+[3C404E]BGM購入ページへ移動しますか?[-]=[3C404E]Do you want to go to the BGM Shop?
 移動する=Move
 [FF7C4E,D62146]設定を完了していないカスタムマイページ\n設定は破棄されます。[-]=[FF7C4E,D62146]Custom Home settings that have\nnot been completed will be discarded.[-]
 購入順=Purchase Order

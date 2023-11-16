@@ -1,5 +1,5 @@
 予定帳=Schedule
-主さま、ご用事が立て込んでいらっしゃるようですね。\n日々のご予定の管理はわたくしにおまかせくださいまし。=Aruji-sama, it seems that your business is built in.\nLeave it to me for your daily plan.
+主さま、ご用事が立て込んでいらっしゃるようですね。\n日々のご予定の管理はわたくしにおまかせくださいまし。=Aruji-sama, it seems that you have alot of business to attend to.\nPlease allow me to manage your daily tasks.
 
 まとめておまかせ=Complete All
 リストの設定=List Settings
@@ -20,17 +20,18 @@
 
 イベントのデイリーミッション報酬を受け取ろう=Receive event daily mission rewards
 ダンジョンを1回クリアしよう=Clear 1 floor of Dungeon
-キャラのスキルを1回強化しよう=Enhance character's Skill 1 time
+キャラのスキルを1回強化しよう=Enhance a character's Skill 1 time
 装備強化で装備の★を1つ増やそう=Refine the equipment and increase ★ by 1
 マナを1回購入しよう=Purchase Mana 1 Time
 クランメンバーに「いいね」しよう=Give a [Like] to another Member of your Clan
-ルナの塔に1回挑戦しよう=Attempt a Tower of Luna 1 time
-クランバトルに1回挑戦しよう=Attempt a Clan Battle 1 time
+ルナの塔に1回挑戦しよう=Challenge the Tower of Luna 1 time
+クランバトルに1回挑戦しよう=Participate in the Clan Battle 1 time
 ダンジョンに1回挑戦しよう=Attempt a Dungeon 1 time
-マナを購入しよう=Buy 1 set of Manas
+マナを購入しよう=Buy 1 set of Mana
 
-限定ショップで買い物をしよう=Purchase at the Limited Shop
-通常ショップで買い物をしよう=Purchase at the Normal Shop
+
+限定ショップで買い物をしよう=Purchase items at the Bonus Shop
+通常ショップで買い物をしよう=Purchase items at the Normal Shop
 
 スキップする項目がありません。=There are no mission to skip.
 
@@ -39,11 +40,11 @@
 
 マナクエストスキップ確認=Mana Quest Skip Confirmation
 経験値クエストスキップ確認=EXP Quest Skip Confirmation
-スキップしますクエストを 実行します。\nよろしいですか？=Skip the quest.\nIs it OK?
-スキップチケットと挑戦回数を消費してマナクエストを実行します。よろしいですか？=Consume Skip Tickets and Attempts to perform Mana Quests.\nIs it OK?
-スキップチケットと挑戦回数を消費して経験値クエストを実行します。よろしいですか？=Consume Skip Tickets and Attempts to perform EXP Quests.\nIs it OK?
+スキップしますクエストを 実行します。\nよろしいですか？=Skipping the quest.\nIs it OK?
+スキップチケットと挑戦回数を消費してマナクエストを実行します。よろしいですか？=Consume Skip Tickets and Attempts to clear Mana Quests.\nIs it OK?
+スキップチケットと挑戦回数を消費して経験値クエストを実行します。よろしいですか？=Consume Skip Tickets and Attempts to clear EXP Quests.\nIs it OK?
 
 スキップ失敗=Skip Failed
-ダンジョン突入中のためダンジョンのスキップを実行できませんでした。=Dungeon skipping could not be executed because the dungeon is being entered.
-グループシャッフル後、プリンセスアリーナに移動していないためプリンセスアリーナコインが受け取れません=You can not receive Princess Arena Coins because You haven't moved to Princess Arena since shuffled arena brackets
-グループシャッフル後、バトルアリーナに移動していないためアリーナコインが受け取れません=You can not receive Arena Coins because You haven't moved to Battle Arena since shuffled arena brackets
+ダンジョン突入中のためダンジョンのスキップを実行できませんでした。=Dungeon could not be skipped because you have already entered a Dungeon.
+グループシャッフル後、プリンセスアリーナに移動していないためプリンセスアリーナコインが受け取れません=Cannot receive Princess Arena Coins because you haven't entered the Princess Arena since the arena brackets were shuffled.
+グループシャッフル後、バトルアリーナに移動していないためアリーナコインが受け取れません=Cannot receive Arena Coins because you haven't entered the Battle Arena since the arena brackets were shuffled.

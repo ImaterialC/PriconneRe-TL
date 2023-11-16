@@ -30,7 +30,7 @@ r:"^最小単位は([0-9,]+)です。$"=Minimum unit is $1.
 合計消費数=Total consumption number
 
 sr:"^セットする([べ-ヺー＆]+) ?(（.+）)?のメモリーピースの\n数を変更しますか？$"=Set $1$2's Memory Shards?
-sr:"^([べ-・ー＆]{2,16})解放 $"=$1 Unlocked
+sr:"^([べ-・ー＆]{2,16})(（.+）)?解放 $"=$1$2 Unlocked
 交換数確認=Check Number Confirmation
 
 このキャラのアイテム交換にはカリンの解放が必要です。=To exchange items for this character, Karin must be unlocked.

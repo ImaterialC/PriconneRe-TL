@@ -14,7 +14,7 @@
 しおりを挟み\n閲覧を続ける=Continue with a bookmark
 \nストーリーの途中にしおりを挟むことで\nその位置からストーリーを読み返せるようになります。\n\n現在の位置にしおりを挟みますか？=\nYou can reread the story from its position by placing a bookmark in the middle of the story. Place a bookmark at your current location?
 
-以前に登録されたしおりがあります。\n\nしおりの位置からストーリーを読み始めますか？\n\n=There is a bookmark registered to you before. Start reading the story from the position of the bookmark?\n\n
+以前に登録されたしおりがあります。\n\nしおりの位置からストーリーを読み始めますか？\n\n=A bookmark has been placed before. Start reading the story from where you placed a bookmark?\n\n
 
 削除したしおりは復元できません。=You can't restore deleted bookmarks.
 しおりを削除しますか？\n\n=Remove the bookmark?\n\n

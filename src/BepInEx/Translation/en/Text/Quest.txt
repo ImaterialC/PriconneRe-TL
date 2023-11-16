@@ -72,7 +72,7 @@ r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]枚消費して、
 ---Abort---
 リタイア=Quit
 r:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nスタミナが\[FFBB00,CE4F00\](\d)\[-\]消費されます。\n\nよろしいですか？\[-\]$"=[3C404E]You will not receive any rewards if you quit,\nand you will lose [FFBB00,CE4F00]$1 [-]stamina.\n\nIs this OK?[-]
-[FF7C4E,D62146]レンタル内容はキャンセルされます。[-]=[FF7C4E,D62146]The support will be canceled.. [-]
+[FF7C4E,D62146]レンタル内容はキャンセルされます。[-]=[FF7C4E,D62146]The support will be canceled.[-]
 ---Recharges stamina---
 回復回数指定=Refresh count
 現在のスタミナ回復（１回あたり）の消費ジュエル=Current Jewel Cost for Stamina Recharge

@@ -283,7 +283,7 @@
 アカリ（ハロウィン）=Akari (Halloween);HAkari;Halloween
 ヨリ（ハロウィン）=Yori (Halloween);HYori;Halloween
 ミヤコ（ハロウィン）=Miyako (Halloween);Pudding (Halloween);HMiyako;HPudding;Halloween
-イリヤ（ハロウィン）=Illya;Ilya (Halloween);HIllya;Ilya;Halloween
+イリヤ（ハロウィン）=Illya (Halloween);Ilya;HIllya;Ilya;Halloween
 シノブ（ハロウィン）=Shinobu (Halloween);HShinobu;Halloween
 モニカ（ハロウィン）=Monika (Halloween);HMonika;Halloween
 ニノン（ハロウィン）=Ninon (Halloween);HNinon;Halloween
@@ -371,7 +371,7 @@
 アカリ（クリスマス）=Akari (Holiday);XAkari;Holiday;Christmas;Xmas
 ヨリ（クリスマス）=Yori (Holiday);XYori;Holiday;Christmas;Xmas
 ミヤコ（クリスマス）=Miyako (Holiday);Pudding (Holiday);XMiyako;XPudding;Holiday;Christmas;Xmas
-イリヤ（クリスマス）=Illya;Ilya (Holiday);XIllya;Ilya;Holiday;Christmas;Xmas
+イリヤ（クリスマス）=Illya (Holiday);Ilya;XIllya;Ilya;Holiday;Christmas;Xmas
 シノブ（クリスマス）=Shinobu (Holiday);XShinobu;Holiday;Christmas;Xmas
 モニカ（クリスマス）=Monika (Holiday);XMonika;Holiday;Christmas;Xmas
 ニノン（クリスマス）=Ninon (Holiday);XNinon;Holiday;Christmas;Xmas
@@ -459,7 +459,7 @@
 アカリ（ニューイヤー）=Akari (New Year);NyAkari;New Year;Kimono
 ヨリ（ニューイヤー）=Yori (New Year);NyYori;New Year;Kimono
 ミヤコ（ニューイヤー）=Miyako (New Year);Pudding (New Year);NyMiyako;NyPudding;New Year;Kimono
-イリヤ（ニューイヤー）=Illya;Ilya (New Year);NyIllya;Ilya;New Year;Kimono
+イリヤ（ニューイヤー）=Illya (New Year);Ilya;NyIllya;Ilya;New Year;Kimono
 シノブ（ニューイヤー）=Shinobu (New Year);NyShinobu;New Year;Kimono
 モニカ（ニューイヤー）=Monika (New Year);NyMonika;New Year;Kimono
 ニノン（ニューイヤー）=Ninon (New Year);NyNinon;New Year;Kimono

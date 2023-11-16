@@ -53,3 +53,19 @@
 スズメの姿をした特殊な魔物\n\n\n・前方範囲内の敵すべてに魔法中ダメージを与え、さらに物理防御力を小～中ダウンさせる。\n\n・前方範囲内の敵すべてに魔法小ダメージを与える。\n\n・自分の周囲の味方すべてのＨＰを小回復させ、さらに物理攻撃力を小アップさせる。=A peculiar monster bearing a striking resemblance to Suzume.\n\n ►Deals medium M.DMG to all enemies in the frontal area and additionally decreases their P.DEF by a small to medium amount.\n\n ►Deals small M.DMG to all enemies in the frontal area.\n\n ►Slightly restores the HP of all allies around herself, further increasing their P.ATK power.
 
 ミフユの姿をした特殊な魔物\n\n\n・目の前の敵１キャラに物理特大ダメージを与え、さらにスタンさせる。\n\n・自分のＨＰを中回復する。\n\n・目の前の敵１キャラに物理小ダメージを与え、さらにスタンさせる。=A peculiar monster bearing a striking resemblance to Mifuyu.\n\n ►Deals massive P.DMG to the enemy in front and further inflicts stun.\n\n ►Moderately restores her own HP.\n\n ►Deals small P.DMG to the enemy in front and further inflicts stun.
+
+
+ネアの姿をした特殊な魔物\n\n\n・敵全体に物理大ダメージを与え、短時間無敵状態になり敵全体を挑発する。\n\n・最もＴＰが多い敵１キャラに物理中ダメージを与え、ＴＰを中ダウンさせる。ＴＰが最大値に達しているキャラを除く。\n\n・敵全体の物理攻撃力を大ダウンさせ、物理クリティカルとＴＰ上昇を中ダウンさせる。=A peculiar monster bearing a striking resemblance to Nea.\n\n ►Deals massive P.DMG to all enemies, becomes invincible for a short duration, and provokes all enemies.\n\n ►Deals moderate P.DMG to the enemy with the highest TP (except for characters at TP maximum), causing a moderate TP reduction.\n\n ►Significantly reduces the P.ATK of all enemies, and moderately reduces physical criticals and TP increase.
+
+
+リリ（フォールン）の姿をした特殊な魔物\n\n\n・特殊スキルは、【飛行】自分を飛行状態にする。\n\n\n・【召喚】目の前の敵１キャラに物理大ダメージを与える。このスキルのダメージは自分のシャドウの数に応じて増加する。さらにユニオンバーストを使用しない、自分のシャドウを２体生成する。\n\n・自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせる。\n\n・目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。=A peculiar monster bearing a striking resemblance to Riri (Fallen).\n\n ►Special Skill: [Flight] Grants the ability to fly to herself.\n\n ►[Summon] Deals massive P.DMG to the enemy in front and generates two shadows. The damage of this skill increases based on the number of shadows she has. Additionally, using Union Burst will not consume shadows.\n\n ►Significantly boosts the P.ATK of all allies within the area centered around herself.\n\n ►Deals massive P.DMG to the enemy in front, lowering their physical defense.
+
+
+
+ユキの姿をした特殊な魔物\n\n\n・敵全体に魔法小ダメージを与え、さらに物理防御力を小ダウンさせる。\n\n・自分から２番目に近い敵１キャラに魔法中ダメージを与え、さらに暗闇状態にする。\n\n・最もＴＰが多い味方１キャラのＴＰを中回復する。=A peculiar monster bearing a striking resemblance to Yuki.\n\n ►Deals small M.DMG to all enemies and additionally lowers their P.DEF.\n\n ►Deals medium M.DMG to the second-nearest enemy and inflicts darkness status.\n\n ►Moderately restores TP for the ally with the highest TP.
+
+
+マツリの姿をした特殊な魔物\n\n\n・前から３番目の敵の目の前に飛び込み、その敵を中心とした範囲内の敵すべてに物理大ダメージを与える。\n\n・自分の前後の範囲内の敵に物理小ダメージを与え、さらにスタンさせる。\n\n・自分の前後の範囲内の敵に物理小ダメージを与える。=A peculiar monster bearing a striking resemblance to Matsuri.\n\n ►Jumps into the area in front of the third enemy from the front, dealing massive P.DMG to all enemies within that range.\n\n ►Deals small P.DMG and inflicts stun to enemies within the range in front and behind.\n\n ►Deals small P.DMG to enemies within the range in front and behind.
+
+
+クリスティーナの姿をした特殊な魔物\n\n\n・目の前の敵１キャラに物理大ダメージを与え、さらに自分は一定時間全ての物理攻撃を回避する。この攻撃は必ず命中し、クリティカルする。\n\n・自分の物理攻撃力を中アップさせ、さらにＴＰ上昇を小アップさせる。\n\n・目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=A peculiar monster bearing a striking resemblance to Christina.\n\n ►Deals massive P.DMG to the enemy in front and additionally, avoids all physical attacks for a certain duration. This attack always hits and is a critical strike.\n\n ►Moderately boosts her own P.ATK and further slightly boosts TP boost.\n\n ►Deals medium P.DMG to the enemy in front and additionally lowers their physical defense.

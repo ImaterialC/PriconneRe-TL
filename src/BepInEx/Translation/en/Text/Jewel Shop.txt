@@ -32,6 +32,7 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 スペシャルショップ=Special Shop
 購入済み=Purchased
 資金決済法に基づく表示=Fund Settlement Law
+スフィアパック=Sphere Pack
 コラボ記念 専用装備グロウスフィアパック=Collab-Event UE Growsphere Pack
 コラボ記念 専用装備１グロウスフィアパック=Collab-Event UE 1Growsphere Pack
 コラボ記念 専用装備２グロウスフィアパック=Collab-Event UE 2 Growsphere Pack

@@ -15,7 +15,7 @@ r:"^残り(\d+)回$"=$1 Times Left
 全て解除=Clear
 全て選択=Select All
 すべて解除=Cancel
-[FF7C4E,D62146]限定キャラはメモリーピースによる解放はできません。[-]=[FF7C4E,D62146]Limited characters can not be\nunlock by Memory Shards.[-]
+[FF7C4E,D62146]限定キャラはメモリーピースによる解放はできません。[-]=[FF7C4E,D62146]Limited characters cannot be\nunlocked with Memory Shards.[-]
 主さま、旅の準備を整えて\nより充実した冒険をいたし\nましょう=Aruji-sama, let us prepare for our journey. It will make for an even more fulfilling adventure.
 
 これ以上、\n購入できません=Cannot purchase\nany more.
@@ -34,8 +34,8 @@ sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n
 sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\](\d+)\[-\]を購入しました。\[-\]$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-] to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
 
 ---sort order---
-ピュアメモリー\nピースのみ=Pure memory\nshard only
-メモリーピースのみ=Memory shard only
+ピュアメモリー\nピースのみ=Pure Memory\nShard only
+メモリーピースのみ=Memory Shard only
 表示項目=Display item
 ポジション=Position
 価格順=Price
@@ -52,13 +52,13 @@ sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,
 ---bonus---
 マスターショップ （開店準備中）=Master Shop (Preparing)
 マスターショップ (開店準備中)=Master Shop (Preparing)
-マスターコイン獲得で解放=Unlocked by acquiring Master Coins\n(by acquiring exp at level cap)
+マスターコイン獲得で解放=Unlocked by obtaining Master Coins
 限定ショップ （準備中）=Bonus Shop (Closed)
 
 限定ショップの出現回数上限に達しました。\n04:59まで限定ショップは出現しません。=The maximum number of times the Bonus Shop can appear has been reached, and the Bonus Shop will not appear until 04:59(JST).
 
 ショップ閉店確認=Close Shop
-[3C404E]今日の限定ショップを今すぐ閉店しますか？\n限定ショップを閉店した場合、\n次の開店は[FFBB00,CE4F00]05:00以降[-]になります。[-]=[3C404E]Do you want to close\ntoday's bonus shop now?\n\nThe next opening will be [FFBB00,CE4F00]after 05:00(JST).[-][-]
+[3C404E]今日の限定ショップを今すぐ閉店しますか？\n限定ショップを閉店した場合、\n次の開店は[FFBB00,CE4F00]05:00以降[-]になります。[-]=[3C404E]Do you want to close\ntoday's Bonus Shop now?\n\nThe next opening will be [FFBB00,CE4F00]after 05:00(JST).[-][-]
 
 限定ショップ=Bonus Shop
 必要マナ=Mana Req
@@ -66,7 +66,7 @@ sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,
 限定ショップにアイテムが追加されました。\nマイぺージのショップからも購入できます。=New items have been added to the Bonus Shop.
 
 本日の出現数=Appear
-限定ショップは開かれていません。=Bonus shop not open.
+限定ショップは開かれていません。=Bonus Shop isn't open.
 今日の出現回数上限に達しました。\n回数上限は05:00にリセットされます。=The maximum number of appearances for today has been reached, and will be reset at 05:00.
 購入するアイテムを選択してください。=Please select the item to purchase.
 購入できるアイテムがありません。=There are no items that can be purchased.
@@ -97,13 +97,13 @@ r:"^([0-9/]+) 枚$"=$1 Coin
 
 
 ---npc---
-主さま、マスターコインをマスターショップで入手困難なアイテムと\n交換できるようです。プレイヤーLvを上限まで上げた後、スタミナを消費\nすることでマスターコインが手に入るようです。=Mainly, it seems that Master Coin can be exchanged for items that are difficult to obtain at the master shop. After raising the player Lv to the upper limit, it seems that Master Coin can be obtained by consuming Stamina.
+主さま、マスターコインをマスターショップで入手困難なアイテムと\n交換できるようです。プレイヤーLvを上限まで上げた後、スタミナを消費\nすることでマスターコインが手に入るようです。=Aruji-sama, it looks like you can exchange Master Coins for items that are difficulty to obtain at the Master Shop. Once you have reached the max Player Lv, you can obtain Master Coins from consuming stamina upon reaching the EXP cap.
 ---Divine Amulet---
-在のメモリーピース1個あたりの単価=Prices per Shards: 
-現在のメモリーピース1個あたりの単価=Prices per Shards: 
-対象アイテムのメモリーピース個あたりの単価が=Prices per Memory Shards: 
+在のメモリーピース1個あたりの単価=Prices per Shard: 
+現在のメモリーピース1個あたりの単価=Prices per Shard: 
+対象アイテムのメモリーピース個あたりの単価が=Prices per Memory Shard: 
 
-ピュアメモリーピース1個あたりの単価=Price per Pure Memory Shards: 
+ピュアメモリーピース1個あたりの単価=Price per Pure Memory Shard: 
 ピュアメモリーピース単価一覧=Pure Memory Shard price list
 ピュアメモリーピース購入時の、1個あたりの女神の秘石の\n必要数の詳細は下記をご覧ください。=See below for details on the number of Divine Amulet required per Shard when purchasing a Pure Memory Shard.
 
@@ -116,16 +116,16 @@ r:"^([0-9,]+)で購入$"=Purchase at $1
 [FF7C4E,D62146]専用装備２作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-2.[-]
 [FF7C4E,D62146]専用装備２作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-2.[-]
 
-キャラLv限界突破に必要な数が含まれています。\n専用装備の上限解放に必要な数を購入できます。=Contains the number required to break character Lv limit.\nYou can purchase the number required to unlock the limit of exclusive equipment.
-特定の強化分の購入数を超えています。\nそのまま購入しますか？=Exceeded the number of purchases for a UE enhancement.\nDo you want to buy it as is?
+キャラLv限界突破に必要な数が含まれています。\n専用装備の上限解放に必要な数を購入できます。=Contains the number required to Limit Break the character\nYou can purchase the number required to uncap Unique Equipment.
+特定の強化分の購入数を超えています。\nそのまま購入しますか？=Exceeded the number required for UE enhancement.\nDo you want to continue with the purchase?
 ★5に必要な個数まで指定できます。=You can specify up to the number you need for ★5.
 ★4に必要な個数まで指定できます。=You can specify up to the number you need for ★4.
 ★3に必要な個数まで指定できます。=You can specify up to the number you need for ★3.
 ★2に必要な個数まで指定できます。=You can specify up to the number you need for ★2.
-限定ショップは開かれていません=Limited shop is not open
-メモリーピース購入数=Number of memory shards purchased
+限定ショップは開かれていません=Bonus Shop is not open
+メモリーピース購入数=Number of Memory Shards purchased
 以下のアイテムを購入しますか?=Do you buy the following items?
-メモリーピース購入数に応じて、1個あたりの女神の秘石の\n必要数が異なります。詳細は下記をご覧ください。=The required number of Divine Amulet per Shard\ndepends on the number of memory shards has purchased.\nSee below for details.
+メモリーピース購入数に応じて、1個あたりの女神の秘石の\n必要数が異なります。詳細は下記をご覧ください。=The required number of Divine Amulets per Shard\ndepends on the number of Memory Shards purchased.\nSee below for details.
 メモリーピース単価一覧=Memory Shard unit Price List
 sr:"^([べ-ヺー＆]+)(（.+）)?のメモリーピースの購入数が(\d)になりました。$"=The number of purchases of $1$2 now $4.
 
