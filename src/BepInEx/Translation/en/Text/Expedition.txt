@@ -33,7 +33,7 @@ r:"^本日の回復可能回数 (\d+)/(\d+)回$"=Recharges left today: $1/$2
 
 ここにさらなる力を得るための\nアイテムが眠っているみたい！\nどんどん挑戦して\n強くなっちゃいましょ！=Looks like items that awaken our potential are lying around here! Let's grab as many as we can and get even stronger!
 
-こちらにさらなる力を得る\nためのアイテムが眠っている\nようです。主さま、どこから\n挑戦いたしましょう。=I believe the items in this area can further awaken our abilities. Aruji-sama, where should we begin our search?
+こちらにさらなる力を得る\nためのアイテムが眠っている\nようです。主さま、どこから\n挑戦いたしましょう。=I believe the items in this area can further awaken our abilities. My Lord, where should we begin our search?
 
 ---sanctum menu---
 ここから先は神聖な場所\nでございます。\n気を引き締めてお宝の\n調査探索に参りましょう=From this point onward, we are roaming within sacred territory. Let's hold our heads high and see what we can find.

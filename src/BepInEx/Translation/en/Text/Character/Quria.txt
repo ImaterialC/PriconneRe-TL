@@ -6,7 +6,11 @@
 自分以外の最もＨＰの低い味方１キャラに継続ＨＰ回復状態と【堕天使の加護】を付与する。【堕天使の加護】が付与されている間、そのキャラへの敵の攻撃を代わりに受け、自分への物理ダメージと魔法ダメージをカットし、自分が敵から受ける行動不能を無効化する。=Grants continuous HP recovery and [b]Fallen Angel's Blessing[/b] to an ally with the lowest HP, excluding yourself that intercepts enemy attacks directed at that ally, reduces P/M DMG taken, and nullifies immobility effect.
 目の前の敵１キャラに物理中ダメージを与え、自分のＨＰを中回復させる。自分を除く味方の残りＨＰに応じて、このスキルのダメージがアップする。=Deals moderate P.DMG to the enemy in front and moderately recovers your HP. The damage of this skill increases based on the remaining HP of your allies, excluding yourself.
 
+このスキルのスキルレベルは「シャドウ・スプリット -隠棘-」と連動しています=This skill’s skill level is linked to Shadow Split: Hidden Thorns
+・シャドウ・スプリット -隠棘-\n・ソーンメイデン\n・アンビバレントガード\n・フォールンモード（Q）=Shadow Split - Hidden Thorn Maiden Ambivalent Guard Fallen Mode (Q)
 
+フォールンモード（Q）+=Fallen Mode(Q)+
+フォールンモード（Q）=Fallen Mode(Q)
 フォールンモード=Fallen mode
 シャドウ・スプリット -隠棘-=Shadow Split: Hidden Thorns
 

@@ -461,7 +461,7 @@ sr:"^\(クラン内ランキング　(\d+位)\)$"=(in-clan Rank $1)
 装備をクランのメンバー同士で贈りあいましょう。\n一部の装備は、装備リクエストできないのでご注意ください。=Be sure to gift equipment to your fellow clan members.\n Please note that some equipment cannot be requested.
 次回クランバトル開催までお待ちください。=Please wait until the next Clan Battle begins.
  こちらではクランバトルに\n 参加された仲間のみなさんの\n 活躍を振り返ることができます=Here you can look back at the activities of friends who participated in the clan battle.
-主さま、今回のクランバトルでの\nご活躍が記録されています\nバトルの参考にいたしましょう=Aruji-sama, your activities in this Clan Battle have been recorded you can now review them for future battles.
+主さま、今回のクランバトルでの\nご活躍が記録されています\nバトルの参考にいたしましょう=My Lord, your activities in this Clan Battle have been recorded. They can now be studied for future encounters.
 今回のクランバトルでの戦績を\nおさらいできますよ！\n私にも見せてください☆=You can go over your Battle Record for this Battle!\nLet me have a look too☆~!
 模擬戦の戦績もアンタが\n気に入ったものがあれば\n記録しておけるのね=Look like you can save Battle Records of your favorite practice runs.
 ---Damage Log---

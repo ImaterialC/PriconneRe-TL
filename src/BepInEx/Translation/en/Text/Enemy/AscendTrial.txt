@@ -22,3 +22,12 @@
 【回復】ＨＰ・ＴＰ回復シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=[Healing] HP & TP Recovery\nA keeper of memories who protects the sanctuary together with Shadow. He gives suitable trials to those who desire true power.
 
 【魔法】攻撃力ダウンシャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=[Magic] Attack power down\nA keeper of memories who protects the sanctuary together with Shadow. He gives suitable trials to those who desire true power.
+
+
+【魔法】遠距離攻撃シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。\n\n\n・敵の挑発を無視して、最も遠い敵１キャラに１００万の魔法固定ダメージを与える。このスキルを使用するたび、次のスキルを使用するまでの時間が短くなる。=[Magic] Long-range attack\A guardian of the sanctuary alongside the Shadow, the Keeper of Memories. Bestows appropriate trials upon those who seek true power.\n\n\n ►Ignores enemy provocation and deals 1,000,000 fixed magical damage to the farthest enemy character. Each time this skill is used, the time until the next skill can be used is reduced.
+
+試練を与える。\n\n\n・敵の挑発を無視して、最も遠い敵１キャラに５万の魔法固定ダメージを与える。このスキルを使用するたび、次のスキルを使用するまでの時間が短くなる。=[Magic] Long-range attack\A guardian of the sanctuary alongside the Shadow, the Keeper of Memories. Bestows appropriate trials upon those who seek true power.\n\n\n ►Ignores enemy provocation and deals 50,000 fixed magical damage to the farthest enemy character. Each time this skill is used, the time until the next skill can be used is reduced.
+
+【物理】ダメージカットシャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。\n\n\n・味方全体に物理魔法ダメージカット効果を付与する。さらに、自身以外のダメージを受けている味方に無敵状態を付与し、物理攻撃力と魔法攻撃力をアップさせる。=[Physical] Damage Cut\nA guardian of the sanctuary alongside the Shadow, the Keeper of Memories. Bestows a physical and magical damage reduction effect on all allies. Additionally, grants invincibility to allies, excluding oneself, who are taking damage, while boosting their physical and magical attack power.
+
+【物理】物理\n・魔法範囲攻撃シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=[Physical] Physical\nMagic range attack A keeper of memories who protects the sanctuary together with Shadow. He gives suitable trials to those who desire true power.

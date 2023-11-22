@@ -1,5 +1,5 @@
-次元断層=Dimensional Fault
-次元断層へ=To Dimensional Fault
+次元断層=Dimension Fault
+次元断層へ=To Dimension Fault
 r:"^開催期間:([0-9/ :]+)～([0-9/ :]+)$"="Period: $1 to $2 (JST)"
 PHASE\nクリア報酬=Phase\nClear Reward
 出現中！=Appearing!
@@ -39,21 +39,27 @@ sr:"^([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺ�
 バトル開始時、カーズ・レリックが味方全体を魔法\nダメージ50%カット状態にさせる。=At the start of the battle, Car's Relic will reduce all allies' M.DMG by 50%.
 バトル開始時、カーズ・レリックが味方全体を魔法\nダメージ75%カット状態にさせる。=At the start of the battle, Car's Relic will reduce all allies' M.DMG by 75%.
 
+ボスUB・スキル強化=Boss UB Skill Enhancement
+ボスモンスターのユニオンバーストとスキルが強化される。=Boss monster's Union Burst and skill are strengthened.
+
 開始時魔法ダメージカット=Magic damage cut at the start
 モンスター強化=Monster enhancement
-カーズ・レリックのスキルが強化される。=Cars relic's skill is strengthened.
-ヒール・レリックのスキルが強化される。=Heal Relic's skill is strengthened.
-バトル開始時、ヒール・レリックが味方全体を物理\nダメージ50%カット状態にさせる。=At the start of the battle, Heal Relic will reduce all allies' P.DMG by 50%.
-バトル開始時、ヒール・レリックが味方全体を物理\nダメージ50%カット状態にさせる。=At the start of the battle, Heal Relic will reduce all allies' P.DMG by 75%.
+sr:"^(.+?)のスキルが強化される。$"=$1's skill is strengthened.
+バトル開始時、ヒール・レリックが味方全体を物理ダメージ50%カット状態にさせる。=At the start of the battle, Heal Relic will reduce all allies' P.DMG by 50%.
+バトル開始時、ヒール・レリックが味方全体を物理ダメージ50%カット状態にさせる。=At the start of the battle, Heal Relic will reduce all allies' P.DMG by 75%.
 
-バトル開始時、ボスモンスターがＴＰダウン100％\nカット状態になる。=At the start of the battle, the boss monster will have 100% TP cut.
+バトル開始時、ボスモンスターがＴＰダウン100％カット状態になる。=At the start of the battle, the boss monster will have 100% TP cut.
+バトル開始時、ボスモンスターがＴＰダウン50％カット状態になる。=At the start of the battle, the boss monster will have 50% TP cut.
 ボスＴＰダウンカット=Boss TP Down Cut
-
-
+バトル開始時、シールド・レリックのが味方全体に\n継続ＴＰ回復状態を付与する。=At the start of the battle, Shield Relic's will inflict continuous TP recovery on all allies.
+開始時ＴＰ継続回復付与=Continuous TP recovery bonus at the start
+バトル開始時、アタック・レリックが味方全体の行\n動速度を特大アップさせるフィールドを展開する。=At the start of the battle, Attack Relick will deploy a field that will increase the speed of all allies' actions.
+開始時行動速度アップフィールド=Action speed-up field at the start
 開始時物理ダメージカット=Physical DMG Cut at Start
-シャドウ最大ＨＰアップ=Shadow Max HP Bonus
+シャドウ最大ＨＰアップ=Shadow Max HP Up
 すべてのシャドウの最大ＨＰが大幅に上昇する。=All Shadow's maximum HP will greatly increase.
-
+バトル開始時、シールド・レリックのが味方全体の\nＨＰを特大回復させる。=At the start of the battle, Shield Relic's will restore all allies' HP.
+開始時ＨＰ回復=HP recovery at the start
 ボス物理防御力（ダウン不可）アップ=Boost Boss's P.DEF (Absolute)
 ボス魔法防御力（ダウン不可）アップ=Boost Boss's M.DEF (Absolute)
 バトル開始時、ボスモンスターの物理防御力を小\nアップさせる。この効果は物理防御力ダウンの影響\nを受けない。=Slightly boosts the boss's P.DEF at the start of battle. This effect is unaffected by P.DEF down.
@@ -98,7 +104,6 @@ r:"^パーティキャラの最大HPが(\d+)％ダウンする。$"=The maximum 
 全PHASEクリア達成！=Achieved All Phase Clear!
 すべてのPHASEをクリアしました！\n\nここからはEXTRA PHASEに突入し\nまだ勝利していないクエストに\n挑戦することができます。=Cleared all phases!\n\nFrom here you can enter the EXTRA PHASE and challenge quests that you have not yet won.
 
-ノゾミ、ムイミ、カヤ=Nozomi, Muimi, Kaya
 スペシャルバトルの=Special battle
 スペシャルバトル=Special battle
 
@@ -106,8 +111,8 @@ r:"^(\[[0-9A-F]{6}\])?次元断層のEXTRA PHASEをクリアしよう(\[-\])?$"=
 
 途中でリタイアした場合、この内容はキャンセルされます。=If you retire on the way, this content will be canceled.
 
-
-５つのPHASEからなる期間限定クエスト『次元断層』が登場しました。\nクエストに３回勝利すると次のPHASEに進めますよ。討伐したモンス\nターは強化されて復活するので、気を引き締めて挑みましょう、主さま。=A limited-time quest "Dimensional Fault" consisting of 5 PHASE has appeared. If you win the quest three times, you will advance to the next PHASE. Defeated monsters will be strengthened and revived, so brace yourself and take on the challenge, Lord.
+sr:"^([べ-ヺー＆]+?)(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?のシャドウに専用装備が追加される。$"。=UE was added to $1$2$3$4$5$6$7$8$9$10$11’s Shadow
+５つのPHASEからなる期間限定クエスト『次元断層』が登場しました。\nクエストに３回勝利すると次のPHASEに進めますよ。討伐したモンス\nターは強化されて復活するので、気を引き締めて挑みましょう、主さま。=A limited-time quest "Dimension Fault" consisting of 5 PHASE has appeared. If you win the quest three times, you will advance to the next PHASE. Defeated monsters will be strengthened and revived, so brace yourself and take on the challenge, Lord.
 
 クエストに勝利してゲージが最大になると、トレジャークエストが出現し\nます。トレジャークエストに勝利することでジュエルを獲得できますよ。\n出現したらぜひ挑戦してみてくださいまし。=If you win the quest and fill the gauge to the maximum, a treasure quest will appear. You can get jewels by winning treasure quests. Please try it when it appears.
 

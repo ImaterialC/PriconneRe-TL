@@ -1,1 +1,1 @@
-r:"^(\[[0-9A-F]{6}\])?次元断層のPHASE (\d+)をクリアしよう(\[-\])?$"=$1Clear Phase $2 in the Dimensional Fault $3
+r:"^(\[[0-9A-F]{6}\])?次元断層のPHASE (\d+)をクリアしよう(\[-\])?$"=$1Clear Phase $2 in the Dimension Fault $3

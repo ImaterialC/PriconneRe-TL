@@ -28,4 +28,4 @@ r:"^フィールド内の敵の魔法防御力(\d+)ダウン\nフィールド内
 ---ex---
 ディテクティブマインド+=Detective Mind+
 ---UE---
-ディテクティブルーペ=Detectable
+ディテクティブルーペ=Detective Magnifier

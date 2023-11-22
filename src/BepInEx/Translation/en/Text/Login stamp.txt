@@ -1,4 +1,4 @@
-おかえりなさいませ、\n主さま=Welcome back,\nAruji-sama
+おかえりなさいませ、\n主さま=Welcome back,\nMy Lord
 明日はこちらをご用意して\nお待ちしてますね=I will have this ready\nfor you tomorrow.
 
 sr:"^(?:(.+)(×)(\d+)(\n))?(?:(.+)(×)(\d+)(\n))?(?:(.+)(×)(\d+)(\n))?(?:(.+)(×)(\d+)(\n))?(.+)×(\d+)を\n獲得しました$"=Receive\n$1$2$3$4$5$6$7$8$9$10$11$12$13$14$15$16$17×$18

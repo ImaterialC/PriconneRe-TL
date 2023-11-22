@@ -16,7 +16,7 @@ r:"^残り(\d+)回$"=$1 Times Left
 全て選択=Select All
 すべて解除=Cancel
 [FF7C4E,D62146]限定キャラはメモリーピースによる解放はできません。[-]=[FF7C4E,D62146]Limited characters cannot be\nunlocked with Memory Shards.[-]
-主さま、旅の準備を整えて\nより充実した冒険をいたし\nましょう=Aruji-sama, let us prepare for our journey. It will make for an even more fulfilling adventure.
+主さま、旅の準備を整えて\nより充実した冒険をいたし\nましょう=My Lord, let us prepare for our journey. It will make for an even more fulfilling adventure.
 
 これ以上、\n購入できません=Cannot purchase\nany more.
 これ以上、\\n購入できません=Cannot purchase\nany more.
@@ -97,7 +97,7 @@ r:"^([0-9/]+) 枚$"=$1 Coin
 
 
 ---npc---
-主さま、マスターコインをマスターショップで入手困難なアイテムと\n交換できるようです。プレイヤーLvを上限まで上げた後、スタミナを消費\nすることでマスターコインが手に入るようです。=Aruji-sama, it looks like you can exchange Master Coins for items that are difficulty to obtain at the Master Shop. Once you have reached the max Player Lv, you can obtain Master Coins from consuming stamina upon reaching the EXP cap.
+主さま、マスターコインをマスターショップで入手困難なアイテムと\n交換できるようです。プレイヤーLvを上限まで上げた後、スタミナを消費\nすることでマスターコインが手に入るようです。=My Lord, it looks like you can exchange Master Coins for items that are difficulty to obtain at the Master Shop. Once you have reached the max Player Lv, you can obtain Master Coins from consuming stamina upon reaching the EXP cap.
 ---Divine Amulet---
 在のメモリーピース1個あたりの単価=Prices per Shard: 
 現在のメモリーピース1個あたりの単価=Prices per Shard: 
