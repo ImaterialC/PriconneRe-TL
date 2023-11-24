@@ -17,7 +17,7 @@
 ふぅん……\nソルオーブっぽい宝石が、オーエドの質屋にねぇ。=Hmm... A sol orb-like jewel in an oedo pawn shop, huh?
 ま、腕の立つ冒険者とかがソルオーブを持ってる魔物を\n倒しちゃったりしたら、そういう店に流れてもおかしくないけどね。\nネネカの情報網って、どうなってんのかしら。=Well, if a skilled adventurer or something were to defeat a monster with a Sol Orb, it wouldn’t be strange for it to flow into a store like that. I wonder what’s going on with Neneka’s information network.
 自分の分身を魔法で何人か作って、変装させて、\nあちこちの情報収集をさせていると言っていたよ。\nクリスティーナもだが、七冠たちの出鱈目さには驚かされてばかりだ。=She said she made a few clones of herself out of magic, disguised them, and had them gather information all over the place. I am constantly amazed at the Seven Crowns, as well as Christina.
-最近はネネカさん、\n覇瞳皇帝さんに吸い取られた魔力も戻って、元気なんだって。\nマサキさんもいるしね。=Recently, Neneka-san's magical energy that was sucked out by Omniscient Kaiser has replenished, and she's doing well. Masaki-san is here too.
+最近はネネカさん、\n覇瞳皇帝さんに吸い取られた魔力も戻って、元気なんだって。\nマサキさんもいるしね。=Recently, Neneka-san's magical energy that was sucked out by Kaiser Insight has replenished, and she's doing well. Masaki-san is here too.
 ただ……その分身の１体が、【レイジ・レギオン】に\n奪われてしまったらしくてね。不完全ながら、能力を\n解析されてしまって……これ以上、大事な任務には使いたくないそうだ。=But...it seems one of my clones was stolen by the Rage Legion. They don't want to use it for any more important missions because of the incomplete analysis of its abilities.
 なるほど……では【トゥインクルウィッシュ】のみなさまは、\nそのオーブを求めて\nオーエドに向かわれるのですか。=I see... So everyone from Twinkle Wish is headed to Oedo in search of that orb?
 えっと、そのことなんだけど……=Um, about that...
@@ -28,7 +28,7 @@
 うん。\nあと６個も集めないといけないんだもん。\n奪い合いになっちゃったら、大変だよね。=Yeah. We need to gather six more. It'd be bad if we had to fight each other.
 クリスさんにお願いできれば良かったんだけど……\n今は、ランドソルを挟んで反対側だからね。\nでもユイちゃんひとりで行かせるわけにもいかないし……=I wish I could have asked Christina to do it... But right now, it's on the other side of Landosol. But I can't let Yui-chan go alone...
 たしかにねー\n敵がよっぽど弱っちいってワケじゃないなら、\n壁役なしの魔法使い一人っきりなんて危なっかしくてしょうがないわ。=If the enemy isn't too weak, it's not safe for her to be alone without a protection.
-それで、わたくしたち【美食殿】に\nソルオーブ集めの協力を要請したい……というわけなのですね。\nいかがでしょうか、主さま？=That's why you want us to help you gather Sol Orbs, isn't it? What do you think, My Lord?
+それで、わたくしたち【美食殿】に\nソルオーブ集めの協力を要請したい……というわけなのですね。\nいかがでしょうか、主さま？=That's why you want us to help you gather Sol Orbs, isn't it? What do you think, my Lord?
 もちろん、いいよ。=Of course, it's fine.
 ユイ一人に行かせられない。=I couldn't let Yui go alone.
 ありがとう、騎士クン……！=Thank you, Kish-kun!
@@ -79,7 +79,7 @@ r:"^……ん。ま、そんなわけだからさ。\nコッコロとシェフ�
 ああ。\nここのところ、せわしないことばかりだったし。\nソルオーブが見つかったら、少しくらいゆっくりしてきたらどうかな。=Yeah. You've been busy lately. Once you find a Sol Orb, why don't you take it easy for a bit?
 レイちゃん、ヒヨリちゃん……=Rei, Hiyori...
 そーそー♪\n休めるときに休んどかなきゃね。\nオーエドの温泉とか、身体にイイってウワサじゃない？=That's right♪ You need to rest when you can. Rumor has it that the hot springs in Oedo are good for your health, right?
-温泉……なるほど。\nそれは主さまの疲労回復に、効果がありそうです。=Hot springs... I see. I'm sure it will help you recover from your fatigue, My Lord.
+温泉……なるほど。\nそれは主さまの疲労回復に、効果がありそうです。=Hot springs... I see. I'm sure it will help you recover from your fatigue, my Lord.
 ウフフっ♪\n疲労回復ねぇ……じゃあ湯あがりにマッサージとか？　それとも\n混浴で、背中を流しっこーとか？　やだーオフロ入ってるのにフケツー♪=Ufufu♪ You're recovering from fatigue, huh... Then how about a massage after a bath? Or maybe a mixed bath, where you wash each other's backs? Oh no, it's totally normal♪
 えええっ！？\nこっ、こここ……っ。=Whaaat?! I-I-I...
 こんよく～～っっ！？！？=How are you doing?
@@ -194,9 +194,9 @@ r:"^今頃……(.{2,10})くんたちは、どの辺でしょうか。\n何事�
 へっ？\n橋渡しって……？=Huh? A bridge...?
 ……あまり広めたくない話だけど……\n私の実家は、いわゆる貴族というやつでね。\n他の魔族たちにも、ついでにその裏社会にも、顔が利くんだ。=...I don't want to spread the word, but... My family is a so-called aristocrat. I'm familiar with the other daemons and their underworld as well.
 とはいえ、レイさんのご実家が\n由緒ある名門貴族であることには変わりありません。=That said, it doesn't change the fact that Rei's family is a distinguished noble family with a long history.
-魔族たちは……特に私の父親は、エリート意識が強くてね。\n獣人族だった覇瞳皇帝に、\nおいそれと跪く気にはなれなかったようだ。=The daemons... especially my father, had a strong sense of being an elite. It seemed he couldn't bring himself to kneel before Omniscient Kaiser, who was a beastfolk.
+魔族たちは……特に私の父親は、エリート意識が強くてね。\n獣人族だった覇瞳皇帝に、\nおいそれと跪く気にはなれなかったようだ。=The daemons... especially my father, had a strong sense of being an elite. It seemed he couldn't bring himself to kneel before Kaiser Insight, who was a beastfolk.
 貴族──そういえばそうだったわね。\nでもあんたの父親、陛下にはあまり協力的じゃなかったから、\n冷や飯食わされてたはずだったけど……=Nobles... Come to think of it, you're right. But your father wasn't very cooperative with Her Majesty, so I'm sure he got the cold shoulder....
-わたしに協力していただけるのなら……\n魔族の方々をまとめていただけるのなら。\n覇瞳皇帝に剥奪されていた権限を、お返ししたいと思っているんです。=If you will cooperate with me, if you will bring the.... demon tribes together. I would like to give back the authority that was stripped from me by Omniscient Kaiser.
+わたしに協力していただけるのなら……\n魔族の方々をまとめていただけるのなら。\n覇瞳皇帝に剥奪されていた権限を、お返ししたいと思っているんです。=If you will cooperate with me, if you will bring the.... demon tribes together. I would like to give back the authority that was stripped from me by Kaiser Insight.
 どうか、お願いできませんでしょうか。\n魔族のひとたちって、ちょっと気難しい人が多いですけど……\nレイさんだったら、わたし、信用できますし。=Could I ask you to do something for me? There are a lot of daemons who are a little difficult to please, but... I can trust you, Rei.
 ……あまり、期待はしないでもらいたいな。\n魔族たちに顔が利くのは、父親のほうで……\nそれに……=...Please don't expect too much from me. My father is the one who knows the daemons better... and...
 これは、個人的な話で申し訳ないけど。\n私と父親との関係は、良好とは言い難いんだ。\nしばらく実家には、顔も見せていないしね。=I'm sorry to say this is personal, but it's hard to say my relationship with my father is good. I haven't seen my family in a while.
@@ -253,15 +253,15 @@ r:"^ホマレが７人目の七冠ではなかったと確信した【レイジ�
 それに、その人物は\n「『七番目』がこちらにいない」と言っていたそうだが……=And I heard that the person said that the "the 'seventh' is not here." ......
 あ、ありがとう……\nでも……鵜呑みにするわけには、いかないと思うけど……=Th-Thank you... But... I don't think I can take you at face value...
 うんうん★\nそれってとっても大事な情報ですよねっ。\nランファさん、お手柄です♪=Yep, yep! ★ That's really important information, isn't it? You did great, Ranpha-san! ♪
-つまり……\n変貌大妃、誓約女君、覇瞳皇帝、そして迷宮女王。\nこの４人をすべて獲るつもりで、狙いを絞らなくては。=In other words... the Metamorph Monarch, the Regina Geas, Omniscient Kaiser, and Queen Labyrinth. I need to narrow down my aim, I intend to take all four of them out.
+つまり……\n変貌大妃、誓約女君、覇瞳皇帝、そして迷宮女王。\nこの４人をすべて獲るつもりで、狙いを絞らなくては。=In other words... the Metamorph Monarch, the Regina Geas, Kaiser Insight, and Queen Labyrinth. I need to narrow down my aim, I intend to take all four of them out.
 だが今まで、アゾールドとミソラが手を尽くしても\n『七番目』は痕跡のひとつさえ見つけられなかった。\nならば、こちらにはいないと考えるのが筋だろう。=But up until now, even if Azold and Misora tried their best, they couldn't find a single trace of the Seventh. So it makes sense to assume they're not here.
 そ、そうね……\nわたしも、がんばらなきゃ……=Y-You're right... I have to do my best too...
 そりゃ構わねーけどよー\n獲る順番ってモンがあると思うぜー=That's fine, but I think there's an order in which to catch them.
 えっ？\n順番……？=Huh? In order...?
 あぁ。\nそん中で、唯一居場所のわかってる覇瞳皇帝は\n迷宮女王と変貌大妃がガードしてやがる。=Yeah. The only one who knows where the Kaiser is, Is guarded by Queen Labyrinth and the Metamorph Monarch.
 城の地下っつったってどれくらい深くかわかんねーし、\n連中の性格からして罠もタップリだろ。\n少なくとも、オレならそーする。=I don't know how deep it is under the castle, and with the nature of these people, there must be a lot of traps. At least, that's what I would do.
-だから先に、迷宮女王と変貌大妃を押さえなくちゃだ。\n覇瞳皇帝はそれからだ。\nんでもって、残りの誓約女君だが……=That's why we have to take down Queen Labyrinth and the Metamorph Monarch first. After that, Omniscient Kaiser. And as for the remaining, Regina Geas...
-ウワサじゃ、奴は覇瞳皇帝にオネツらしーからな。\n覇瞳皇帝をオトリにしてそこらへん引きずりまわしてやりゃ、\n向こうからホイホイつっかかってくるだろ。そこを返り討ちってワケだ。=Rumor has it, she's like a spoiled child to the Omniscient Kaiser. If we use her as a decoy and drag her around, she might come at us. That's what we're going to do.
+だから先に、迷宮女王と変貌大妃を押さえなくちゃだ。\n覇瞳皇帝はそれからだ。\nんでもって、残りの誓約女君だが……=That's why we have to take down Queen Labyrinth and the Metamorph Monarch first. After that, Kaiser Insight. And as for the remaining, Regina Geas...
+ウワサじゃ、奴は覇瞳皇帝にオネツらしーからな。\n覇瞳皇帝をオトリにしてそこらへん引きずりまわしてやりゃ、\n向こうからホイホイつっかかってくるだろ。そこを返り討ちってワケだ。=Rumor has it, she's like a spoiled child to the Kaiser Insight. If we use her as a decoy and drag her around, she might come at us. That's what we're going to do.
 ……カリザくん……=...Kariza...
 カリザくん、すごーい★\n天才ですか？　秀才ですか？　神童ですかぁ～っ？=Kariza, Are you a genius? A prodigy?
 頭ナデんじゃねーよっ！\nガキじゃねーんだっての！=Don't pat my head! I'm not a kid!
@@ -376,7 +376,7 @@ r:"^(.{2,10})たちはしばらくの後、\n隙を見てその大騒ぎの渦�
 ドSさん～っ♪\nドSさんも、オーエドに来てたんですね～♪=A sadist~♪ So sadist came to Oedo, too~♪
 あっ、ほんとデース！\n奇遇デスね、ショーグン！=Ah, you're right! What a coincidence, Shogun!
 はぁはぁ……♪\n思いがけず、もみくちゃにされちゃいました～っ♪=*pant pant*♪ I was unexpectedly jostled~♪
-……まさか茶屋の看板娘さまから、番頭の老女まで……\nオーエド中の女性が主さまのことをご存知とは。\nいったい、何をなさったらこうなるのですか……！？=......I didn't think that all the women in Odeo, from the signboard girl at the teahouse to the old woman in the guard room, knew about My Lord. What in the world did you to meet so many?
+……まさか茶屋の看板娘さまから、番頭の老女まで……\nオーエド中の女性が主さまのことをご存知とは。\nいったい、何をなさったらこうなるのですか……！？=......I didn't think that all the women in Odeo, from the signboard girl at the teahouse to the old woman in the guard room, knew about my Lord. What in the world did you to meet so many?
 いろいろあって……=A lot has happened...
 知らぬとあらば、語って聞かせまショウ！\n白き翼はためかせ、オーエドに舞い降りたショーグン御一行がっ！\n残虐非道のアクダイカンを成敗する英雄ターン！　そのテンマツ！=If you don't know, I'll tell you! White wings flap, and Shogun's party descends upon Oedo! A hero turn to punish the atrocious Akudaikan! That tenmatsu!
 それはとっても興味深いけど……\nお話を聞かせてもらうのは、\nここまで来た目的を達成してからのほうがいいんじゃないかしら？=That's very interesting, but... Wouldn't it be better for you to tell me about it after you've achieved your goal of coming this far?
@@ -457,7 +457,7 @@ r:"^ニノンの予想通り宿屋の主人は\n(.{2,10})たちを快く受け�
 ニンニンデス！\n忍法・バケチュ水遁の術ーっ！=Ninnindes! Ninpou: Bakechusuiton jutsu!
 だばばば……！=D-D-Damn it...!
 ……ぷしゅうぅぅ……=...Pshhhh...
-それでは……おやすみなさいませ、主さま。=Well then... Good night, My Lord.
+それでは……おやすみなさいませ、主さま。=Well then... Good night, my Lord.
 男女別室じゃ、寂しくないかしら？\nいつでもコッチに来ていいのよ？=It must get lonely in separate rooms for men and women, don't you think? You can come over here anytime you want~
 ダメですよぉミツキさん！\n別々なのがふつうです、ふつうっ！=You can't do that, Mitsuki-san! It's normal for us to be in separate rooms!
 おやすみ、みんな。=Good night, everyone.
@@ -782,7 +782,7 @@ r:"^ちょっと(.{2,10})！\n大丈夫！？\nあたしの声、聞こえてる
 ……キミは……=......you......
 はぁ……良かった。ようやく声が届いたわ。\n最近ぜんぜんダメだったんだけど。\nあんたの無意識の扉を、誰かが開けてくれたからかしらね……=*sigh*... Thank goodness. My voice finally reached you. I haven't been able to do it at all lately. Maybe it's because someone opened the door to your unconscious mind...
 なんだか、久しぶりのような……？=It feels like it's been a while...?
-……！\nあんたあたしのこと、覚えてるのね。\nそういや、覇瞳皇帝に殺されかけて避難させたときも、そうだったっけ。=...! You remember me, don't you? I remember when you saved me after the Omniscient Kaiser tried to kill me.
+……！\nあんたあたしのこと、覚えてるのね。\nそういや、覇瞳皇帝に殺されかけて避難させたときも、そうだったっけ。=...! You remember me, don't you? I remember when you saved me after the Kaiser Insight tried to kill me.
 ……ったく、心配してたんだから。\n『前のあんた』とのズレでついちゃった魂のキズも、\nとりあえず塞がってるみたいだし……良かった。=I was so worried about you. I'm glad to hear that the cracks in your soul that was caused by the discrepancy between you and the "previous you" seems to have been fixed... for the time being....
 まーね。\n今回は、夢の……あんたの無意識が攻撃されてるみたいだったから、\nあたしでもなんとか干渉できたの。=Well, you know. This time, it was like your unconscious was being attacked in your dream.... so even I managed to interfere.
 また、助けてくれたんだね。=You saved me again, didn't you?
@@ -809,7 +809,7 @@ r:"^だから……お願いよ、(.{2,10})。\nあんたもユイを、守っ�
 逃げ回ったり、隠れたり、もっと上の階層に避難したりしてたんだけど。\nそのせいで、うまくあんたと話ができなくなったみたいなのよね。=I've been running around, hiding, and moving to higher floors, but thanks to that, I can't really talk to you anymore.
 さっき言った夢の刷り込みだけは、なんとか続けてみるけど。\nそれだって、いつ不可能になるかわかんない。\n……どうも誰かが、塔のシステムを奪おうとしてるっぽくて……=I'll try to continue imprinting the dream I mentioned earlier, but I don't know when it'll be no longer possible. ...It seems like someone's trying to take over the tower's systems...
 これも、今あんたたちが戦ってる連中──\n【レイジ・レギオン】の仕業なのかしら。\n……わからないけど……どうも、違う気がするのよね……=I wonder if this is the work of the people you're fighting right now [Rage Legion] ...I don't know, but... it doesn't seem right...
-力を合わせて、覇瞳皇帝をようやく倒したってのに。\nこれから先……【レイジ・レギオン】をやっつけても\nまた、誰かと戦うハメになるのかしら。……その先も……あるいは……=Even though we've finally defeated Omniscient Kaiser together. I wonder if we'll be forced to fight someone even stronger if we defeat Rage Legion in the future. ...And beyond that...or maybe...
+力を合わせて、覇瞳皇帝をようやく倒したってのに。\nこれから先……【レイジ・レギオン】をやっつけても\nまた、誰かと戦うハメになるのかしら。……その先も……あるいは……=Even though we've finally defeated Kaiser Insight together. I wonder if we'll be forced to fight someone even stronger if we defeat Rage Legion in the future. ...And beyond that...or maybe...
 あんたと、あんたの仲間たちも\nちゃんと夢から醒めるといいけど……=I hope you and your friends wake up from their dreams...
 ん……そろそろ、夢は終わりみたいね。=Hmm... Looks like the dream is almost over.
 ……ねぇ、あんたたち。\n今、ソルオーブ集めてるのよね？=...Hey, you guys. You're collecting Sol Orbs right now, aren't you?

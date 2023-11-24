@@ -17,6 +17,7 @@ r:"^範囲内の味方のＴＰを50回復\nフィールド展開中、範囲内
 r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを120アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 1.5s\n►Boosts allies' P.ATK within 195 range by $1 for 12s.\n►Boosts allies' P.Crit Rate within 195 range by 120 for 12s.\n►Deploys a 305 radius field that recovers allies' HP in it by $2 every second for 12s.
 
 ビート･ザ･マウス=Beat the Mouse
+ビート･ザ･マウス+=Beat the Mouse+
 
 ぼくと踊ろう！=Let's Dance Together!
 陰陰陽陽繋ぐ絆=Bonds Connecting Light and Shadow

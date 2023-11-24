@@ -1,0 +1,26 @@
+【魔法】後衛で、敵の脅威から生徒を守る夏女神な先生。味方の魔法防御力を高め、ＨＰを継続回復するスキルや、バリア展開のユニオンバーストで味方を堅固に守護する。=[Magical] A summer goddess-like teacher protecting students from threats in the rear guard. With skills that enhance allies' M.DEF and provide continuous HP recovery, as well as a Union Burst that deploys barriers, she steadfastly guards her allies.
+
+サマーゴッデスコーチング=Summer Goddess Coaching
+ヒーリングドリンク=Healing Drink
+ヒーリングドリンク+=Healing Drink+
+アドバイスエール=Advise Yell
+アドバイスエール+=Advise Yell+
+サマーガイダンス+=Summer Guidance+
+ビーチビーナスメガホン=Beach Venus Megaphone
+
+物理攻撃を行うすべての味方キャラに魔法無効バリアを展開し、さらに魔法攻撃を行うすべての味方キャラに物理無効バリアを展開する。=Deploys a magic nullification barrier on allies performing P.ATKs and a physical nullification barrier on allies performing M.ATK.
+味方全体の物理攻撃力と魔法防御力を中アップさせる。=MModerately boosts allies' P.ATK and M.DEF.
+一番前の味方１キャラの魔法防御力を大アップさせ、さらに継続ＨＰ回復状態を付与する。対象が物理攻撃をするキャラの場合さらに魔法防御力を大アップさせ、魔法攻撃をする場合物理防御力を大アップさせる。=Greatly enhances M.DEF of the frontmost ally, grants continuous HP recovery. If the target performs P.ATK, further boosts M.DEF; if M.ATK, further boosts P.DEF.
+
+一番前の味方１キャラの魔法防御力を大アップさせ、さらに継続ＨＰ回復状態を付与する。=Greatly enhances the M.DEF of the frontmost ally character and grants continuous HP recovery.
+
+バトル開始時に自分の魔法防御力を中アップさせ、さらに自分の魔法攻撃力を小アップさせる。=At the start of the battle, moderately boosts own M.DEF and slightly boosts own M.ATK.
+r:"^自分の魔法防御力を(\d+)アップ\n自分の魔法攻撃力を(\d+)アップ$"=►Boosts own M.DEF by $1.\n►Boosts own M.ATK by $2.
+
+r:"^(\d+)ダメージ分の魔法無効バリアを展開する\n(\d+)ダメージ分の物理無効バリアを展開する$"=►Deploys barrier over all P-allies that negates $1 M.DMG for 45s.\n►Deploys barrier over all M-allies that negates $2 P.DMG for 45s.
+r:"^味方単体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する$"=Cast time:0.94s.\n►Boosts ally's M.DEF by $1 for 12s.\n►Recovers ally's HP by $2/s for 7s.
+r:"^味方単体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する\n対象が物理攻撃をする場合味方単体の魔法防御力を(\d+)アップ\n対象が魔法攻撃をする場合味方単体の物理防御力を(\d+)アップ$"=Cast time:0.94s.\n►Boosts ally's M.DEF by $1 for 12s.\n►Recovers ally's HP by $2/s for 7s.\n►If the target performs a physical attack, boosts ally's M.DEF by $3 for 12s.\n►If the target performs a magic attack, boosts ally's M.DEF by $4 for 12s.
+
+r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=Cast time:0.94s.\n►Boosts ally's P.ATK by $1 for 12s.\n►Boosts ally's M.DEF by $2 for 12s.
+
+

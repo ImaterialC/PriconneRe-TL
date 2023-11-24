@@ -5,18 +5,23 @@ UB
 
 ヒヨリハッピースタンプ=Hiyori Happy Stamp
 目の前の敵１キャラに物理特大ダメージを与え、さらに物理防御力とＴＰ上昇を小ダウンさせる。=Deals massive P.DMG to an enemy directly in front and lowers their P.DEF and TP boost by a small amount.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n敵単体のＴＰ上昇を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nLowers an enemy's P.DEF by $2 for 18s.\nLowers an enemy's TP boost by $3 for 18s.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n敵単体のＴＰ上昇を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Lowers an enemy's TP boost by $3 for 18s.
 S1
 自分の物理攻撃力を中アップさせ、さらに物理攻撃を行うすべての味方キャラの物理攻撃力を中アップさせる。=Large boost to own P.ATK, and moderate boost to the allies' P.ATK that use physical.
-r:"^自分の物理攻撃力を(\d+)アップ\n対象の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.8s\nBoosts own P.ATK by $1 for 12s.\nBoosts P-type allies' P.ATK by $2 for 12s.
+r:"^自分の物理攻撃力を(\d+)アップ\n対象の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.8s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts P-type allies' P.ATK by $2 for 12s.
 S2
 ex
 ハッピーストレングス=Strength of Happiness
 Skills+
 UB
 S1
+
+グッドラックパンチ=Good Luck Punch
+グッドラックパンチ=Good Luck Punch+
+肉球チャージ=Paw Charge
+肉球チャージ+=Paw Charge+
 自分の物理攻撃力を特大アップさせ、さらに物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、物理クリティカルを中アップさせる。=Large boost to own P.ATK, moderate boost to the allies' P.ATK and boosts their P.crit by a medium amount that use physical.
-r:"^自分の物理攻撃力を(\d+)アップ\n対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の物理クリティカルを(\d+)アップ$"=Cast time: 0.8s\nBoosts own P.ATK by $1 for 12s.\nBoosts target allies' P.ATK by $2 for 12s.\nBoosts own P.Crit Rate by $3 for 12s.
+r:"^自分の物理攻撃力を(\d+)アップ\n対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の物理クリティカルを(\d+)アップ$"=Cast time: 0.8s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts target allies' P.ATK by $2 for 12s.\n►Boosts own P.Crit Rate by $3 for 12s.
 S2
 ex
 ハッピーストレングス+=Strength of Happiness+

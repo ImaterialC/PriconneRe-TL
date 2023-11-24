@@ -455,7 +455,7 @@ r:"^(.{2,10})くん、コッコロちゃん！\nわたしたちも行きまし�
 前も戦ったときもそうでしたけど。\nこの子たち、コンビネーションで力を何倍にも引き上げてます……！\nどうやってこんなすごい連携を……！？=Before, it was the same when we fought.\nThese kids are multiplying their strength by combining their powers...!\nHow are they able to coordinate so well...?!
 いいえ、違います。\n通信魔法では、一度言葉にして考えを伝える必要がありますが……=No, that's not correct.\nWith communication magic, you need to put your thoughts into words once...
 えっとえっと……\n通信魔法、なのかなっ？=Umm... Is it communication magic?
-あの子たち、まるで見たものをそのまま伝えあってるみたい。\nたしか覇瞳皇帝さんも、魔物やシャドウが見たものを\n自分と共有してたけど……=It's like they're telling each other exactly what they saw. I'm pretty sure the Omniscient Kaiser shared what the monsters and Shadows saw with her, too...
+あの子たち、まるで見たものをそのまま伝えあってるみたい。\nたしか覇瞳皇帝さんも、魔物やシャドウが見たものを\n自分と共有してたけど……=It's like they're telling each other exactly what they saw. I'm pretty sure the Kaiser Insight shared what the monsters and Shadows saw with her, too...
 ……共有……？=...share...?
 そっか、データリンク！\nあたしがネビアと喋るときと、同じ方法だわ……！=I see, data link! \nIt's the same method as when I talk to Nebia...!
 データリンク？=Data link?
@@ -494,7 +494,7 @@ r:"^(.{2,10})くん、コッコロちゃん！\nわたしたちも行きまし�
 ！！\n今度はあっちみたいッス、トモねーちゃん！=This time, it looks like it's over there, Tomo-neechan!
 ちょっとくらいキツくても……\nこの区画のみんなを守るよう、ジュン団長から頼まれてるッスから！\nがんばるッスよー！！！=Even if it's a little tight... Master Jun asked me to protect everyone in this sector! I'll do my best!!!
 あぁ、そうだねマツリちゃん！=Oh, that's right, Matsuri!
-──こいつらの正体を知るには、情報がぜんぜん足りない。\nでもなんだか、私の想像も及ばないくらい\nとんでもない事態が起きてる気がする。覇瞳皇帝のときみたいに。=I don't have enough information to know their true identity. But somehow, I feel like something incredibly unexpected is happening, beyond my imagination. Just like during the reign of the Omniscient Kaiser.
+──こいつらの正体を知るには、情報がぜんぜん足りない。\nでもなんだか、私の想像も及ばないくらい\nとんでもない事態が起きてる気がする。覇瞳皇帝のときみたいに。=I don't have enough information to know their true identity. But somehow, I feel like something incredibly unexpected is happening, beyond my imagination. Just like during the reign of the Kaiser Insight.
 前のときみたいな置いてけぼりは、もうゴメンだ。\nいったい、何が起きているのか──\n一段落したら、調べなくっちゃ！　=I don't want to be left behind like last time. I need to find out what's going on once things are settled!　
 よーし♪\nお次は～=Okay♪ Next, up, is...
 『オブジェクト変更』で逃げ場を塞いでからの～\n『空間跳躍』からの～？=After blocking the escape route with [Object Change] ~ \nFrom [Spatial Leap] ~?
@@ -575,7 +575,7 @@ r:"^こうなったら……一か八かです！\n(.{2,10})くん！$"="If it c
 r:"^(.{2,10})！\nあいつらを救って……倒してあげて！\nそうすれば、仮のアバターに閉じ込められた魂も解放されるはずだから！$"="$1! Save them... Defeat them for me!\nIf you do that, the souls trapped in the temporary avatars should be released!"
 っとぉ！\nジャマなんかさせねーですよ……！=Whoa! I won't let you get in my way!
 お願い、騎士クン……！=Please, Kish-kun...!
-お父さま──\nどうか、主さまを……！　=Father── Please, protect My Lord...!
+お父さま──\nどうか、主さまを……！　=Father── Please, protect my Lord...!
 ……ぁ、ぁ……=...Ah, ah...
 ……ぁ……りがと……います……=...Ah... Thank... you...
 ……パ、パ……=...P-Pa...
@@ -607,10 +607,6 @@ r:"^にしても、(.{2,10})さ。\n鎌の天使に食らわせた最後の一�
 ちょっす～！　うち、何でも協力するよ～♪\n計算とかは苦手だけど…それ以外なら！\n=Hey there! I'm here to help with anything~♪\nI'm not good at math, but anything else is fine!\n
 シマモト死刑囚=Shimamoto death row
 あなたにしあわミミちゃんぺーろぺろぺろwwwww　　　　　　　　　　ー有罪のしましま囚人服おじさんよりー=I love you, Mimi-chan! Lick, lick, lick! LOL - From the striped convict outfit guy who is guilty
-レイジ=Rei
-ウィンドブラスト+=Wind Blast+
-フォークスラッシュ=Fork Slash
-ミルクタンクアタック+=Milk Tank Attack+
 シェフィちゃん！\nシェフィちゃん、しっかり！=Sheffy-chan! \nSheffy-chan, hang in there!
 ユイちゃん、回復魔法はっ？=Yui-chan, what about healing magic?
 大丈夫、効いてるよ……！\nこれならなんとか……=Don't worry, it's working...! \nI'll manage somehow...
@@ -696,7 +692,7 @@ r:"^『アメス』、でいいわ。\n余計な説明は省くけど、(.{2,10}
 あれ～？　もしかして……\nあなたはこの世界の生まれだし。\nリアルの不自由さのことなんて、わっかんないかな～？=Huh? Maybe... you were born in this world. Don't you understand the inconveniences of real life?
 ……否定する。\n『アストルムを作った世界』の、知識程度は……=...I deny it. The knowledge of the world that made Astrum...
 あははっ！　なーんてね☆\n本当に不自由なのは、あなたのほうだったよね～！\nリアルの身体もなしで、この歪んだ世界に囚われて！　ごめんごめん～♪=Ahaha! Just kidding! ☆ You're the one who's really crippled, aren't you~! Being trapped in this warped world without a real body! Sorry, sorry~♪
-……理解しかねる。\n覇瞳皇帝といい。\n迷宮女王といい。=...I don't understand. First Omniscient Kaiser, then Queen Labyrinth.
+……理解しかねる。\n覇瞳皇帝といい。\n迷宮女王といい。=...I don't understand. First Kaiser Insight, then Queen Labyrinth.
 そして、あなたといい。\n力を持った人間たちは……\nどうしてこうも、くどくどしい戯言を好むのか。=And, as for you. \nHumans with power... \nWhy do they like long-winded nonsense so much?
 そりゃあ、対話は基本っていうか～？\n相手のことを知る、いちばん良い方法だもん。\nもっともっとお喋りしようよ、『エリスさま』♪=Well, isn't dialogue the basics? \nIt's the best way to get to know the other person. \nLet's chat more and more, "Eris-sama" ♪
 ……断る。\nわたしはあなたになど、興味はない。\nただ少しばかり……路傍の石が、大きくなっただけのことに過ぎない。=...I refuse. I have no interest in you. It's just that the roadside stone has grown a little bigger, that's all.
@@ -738,7 +734,7 @@ r:"^『アメス』、でいいわ。\n余計な説明は省くけど、(.{2,10}
 （ふふ……）=(Hehe...)
 ……遠野、帆稀……=...Tono, Homare...
 七冠たちの力を、ただ一人の身に背負ったこと。\nそれ自体は……賞賛に値するけれど。\nわたしにとっては、この程度の障害にしかならない。=Bearing the power of the Seven Crowns all on her own. \nThat in and of itself was praiseworthy, \nBut to me her effort was nothing more than an obstacle.
-……虚しい。\nこんな勝利の味など……過去に、幾度も覇瞳皇帝を\n消し去ったときと、同じ……=...It feels empty. This taste of victory... it's the same as when I've defeated Omniscient Kaiser countless times in the past... \n
+……虚しい。\nこんな勝利の味など……過去に、幾度も覇瞳皇帝を\n消し去ったときと、同じ……=...It feels empty. This taste of victory... it's the same as when I've defeated Kaiser Insight countless times in the past... \n
 ……もう、いい。\nわたしにとって、大事なことは……一つだけ。=...Enough. \nThere is only one thing left that is important to me.
 今、行くよ。\n騎士クン。=I'm coming, Kish-kun.
 ボス～ッ！！=Boss~!!
@@ -765,7 +761,7 @@ r:"^『アメス』、でいいわ。\n余計な説明は省くけど、(.{2,10}
 ……騎士クン？\n邪魔をしないで。=...Kish-kun? Don't get in the way.
 もう少しだけ、待っていて。\nいま、他の女たちを消して。\n草野優衣を、永遠に幽閉してしまうから……=Please wait just a little longer. \nI will now erase the other women. \nI will imprison Yui Kusano forever...
 消すなんて、させない！=I won't let you kill them!
-……？　大丈夫だよ。\n彼女たちはこれまでに、何度も消えている。\n覇瞳皇帝に敗れたり、あるいは百地希留耶の裏切り……様々な理由で。=...? It's alright. They have disappeared many times before. \nDefeated by Omniscient Kaiser, or betrayed by Kiruya Momochi... for various reasons.
+……？　大丈夫だよ。\n彼女たちはこれまでに、何度も消えている。\n覇瞳皇帝に敗れたり、あるいは百地希留耶の裏切り……様々な理由で。=...? It's alright. They have disappeared many times before. \nDefeated by Kaiser Insight, or betrayed by Kiruya Momochi... for various reasons.
 それが、もう一度増えるだけ。\nだから……=That's why it will only increase once more. \nSo...
 そんなこと、理由にならない！=That's not a good reason!
 ……騎士クン。\nお願い。\n静かに……=...Kish-kun. \nPlease.\nBe quiet...
@@ -820,7 +816,7 @@ r:"^『アメス』、でいいわ。\n余計な説明は省くけど、(.{2,10}
 ──んも～、忘れちゃったの？\n言ったでしょ、\n「あなたからミネルヴァを引っぺがしてあげる」って──=Did you forget? \nI told you, \n"I'll tear Minerva out of you."
 ……い、行っちゃいました……？\nよくわからないですけど、助かりました……=...S-She's gone...?\nI don't really get it, but you saved me...
 ……ホマレさん。\nエリスから、ミネルヴァを完全には分離させられなかったみたいだけど。\nそれでも……ちゃんと、爪痕は残したのね。……すごいわ。=... Homare-san. It looks like you weren't able to completely separate Minerva from Eris. Still...you left a claw mark. \n...Amazing.
-あ、主さま……\n主さまは……？=Ah, my Lord... \nWhere is My Lord...?
+あ、主さま……\n主さまは……？=Ah, my Lord... \nWhere is my Lord...?
 生きてるみたい……=It feels like I'm alive...
 みなさん……ひとまず、わたしたちのギルドハウスに避難しましょう。\n絶対安全ってわけじゃないですけど……\nここよりは、まともな手当てができるはずですから。=Everyone... for now, let's take refuge in our guild house. It's not completely safe there... but, we should be able to receive proper treatment.
 ……すまない。\nそうさせてもらうしかなさそうだ……=...I'm sorry. \nIt seems that I have no choice...
@@ -980,7 +976,7 @@ r:"^プリンセスフォームが解除されてないってことは、\n少�
 いえいえ。\n変わってなんかないですよ？\n……ちょっとひねくれちゃってるかもしれませんけど……=No, no. \nI haven't changed at all. \n...Maybe I've become a little twisted though...
 ……わたし、流ミソラって言います。\n好きなものは、特になくて……趣味も、今は特にありません。=...I'm called Nagare Misora. \nI don't really have any favorites... \nand I don't have any hobbies right now.
 いきなり何よ？\nこんなつまらない自己紹介、はじめて聞いたわ。=What's this all of a sudden?\nI've never heard such a boring self-introduction before.
-あはっ。\nごめんなさーい★\n覇瞳皇帝さん。=Ahaha. \nSorryyyyy★ \nOmniscient Kaiser.
+あはっ。\nごめんなさーい★\n覇瞳皇帝さん。=Ahaha. \nSorryyyyy★ \nKaiser Insight.
 ……いえ。千里真那さん。\nあなたは……\nコペルニクスの能力開発研究所に関わったことはありますか？=... No. Senri Mana-san. \nHave you... been involved with the Copernican Institute of Ability Research Development?
 無いわね。\n前に国連の資料くらいなら読んだことがあるけれど……\nそもそもこんな答えを、あなたは信じるのかしら？=I see. \nI have read some United Nations documents before... \nDo you really believe such an answer in the first place?
 ……ふふっ。\nそうですね……★=...Hehe. \nThat's right...★
@@ -999,7 +995,7 @@ r:"^プリンセスフォームが解除されてないってことは、\n少�
 あなたを一滴残らず吸い尽くすなんて、造作もないことだけど。\n牢獄から助け出してくれたお礼に……命だけは、取らないであげるわ。=It's a simple matter to suck you dry, every last drop. As thanks for rescuing me from the prison... I won't take your life, that's all.
 ──数時間後……=──A few hours later...
 もう、ひどいなぁ……\nほとんど空っぽになるまで持っていかれちゃうなんて……=Geez, that's awful...\nTo think she would drain me until until I'm almost empty...
-……覇瞳皇帝さんが、わたしを殺すかは五分五分でしたけど。\n結局、生き延びちゃいましたか……=...It was fifty-fifty whether Omniscient Kaiser would kill me or not. In the end, I managed to survive...
+……覇瞳皇帝さんが、わたしを殺すかは五分五分でしたけど。\n結局、生き延びちゃいましたか……=...It was fifty-fifty whether Kaiser Insight would kill me or not. In the end, I managed to survive...
 まぁ……これで。\n最後の決戦が、ちょっとは面白くなったらいいんですけど……=Well... I hope this makes the final battle a little more interesting...
 ……外、今頃どうなってるでしょうか。\nアイテムは……使えそうですね。=... I wonder what's happening outside right now. \nIt seems like the Item can be used.
 ……燃えてる……\n何もかも、燃えている……=...It's burning... \nEverything is burning...

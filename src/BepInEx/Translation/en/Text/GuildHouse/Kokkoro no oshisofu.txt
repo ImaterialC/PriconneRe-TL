@@ -6,7 +6,7 @@
 
 引き出すマナは1以上で入力してください。=Please enter at least 1 mana to be withdrawn.
 マナが所持上限に達しているため引き出せません。=Already carrying max Mana. Cannot withdraw.
-所持上限に達しているため\nプレゼントは受け取れませんでした。\n\n[3C404E]スタミナ=Already carrying max Stamina. Cannot withdraw.\n\nStamina
+sr:"^\[3C404E\]所持上限に達しているため\nプレゼントは受け取れませんでした。\n\n\[3C404E\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[-\]$"=[3C404E]Already carrying max $1. Cannot withdraw.\n\n$1 × [FFBB00,CE4F001]$2[-][-]
 
 You have reached the limit of your possession, so you were unable to receive a present. [3C404E] Stamina
 

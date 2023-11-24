@@ -3,30 +3,30 @@
 ニューイヤーズブライト=New Year's Bright
 祝福の新風+=Blessing New Style+
 祝福の新風=Blessing New Style
+ブレッシングスピリット=Blessing spirit
+ブレッシングスピリット+=Blessing spirit+
+スピリットウォール=Spirit Wall
+スピリットウォール+=Spirit Wall+
 
 お正月験担ぎガイド=A Lucky New Year's Guide
 二人羽織チャレンジ=Two Bodies as One
 一年の計は元旦にあり=The Key to the Year
 舞い上がる願い=Dance of Fortune
 
-r:"^自分のＨＰを(\d+)回復\n毎秒ＨＰを(\d+)回復する\n味方全体の物理攻撃力を(\d+)アップ$"=Recovers own HP by $1.\nRecovers allies' HP by $2/s for 10s.\nBoosts allies' P.ATK by $3 for 18s.
+r:"^自分のＨＰを(\d+)回復\n毎秒ＨＰを(\d+)回復する\n味方全体の物理攻撃力を(\d+)アップ$"=►Recovers own HP by $1.\n►Recovers allies' HP by $2/s for 10s.\n►Boosts allies' P.ATK by $3 for 18s.
 
 自分のＨＰを中回復し、味方全体に継続ＨＰ回復を付与し、さらに物理攻撃力を大アップさせる。=Recovers own HP to medium, grants HP regen to all allies and boost allies' P.ATK by a large amount.
 
 【挑発】自身に物理/魔法吸収バリアを展開し、さらに敵全体を挑発する。=[Taunt] Deploy a barrier around self that absorbs P/M DMG, and taunts all enemies.
 
-r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n敵全体を挑発する$"=Cast time: 0.375s.\nDeploys Barrier that absorbs $1 P/M.DMG for 12s.\nTaunt on self for 17s.
+r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n敵全体を挑発する$"=Cast time: 0.375s.\n►Deploys Barrier that absorbs $1 P/M.DMG for 12s.\n►Taunt on self for 17s.
 
 【挑発】自身に物理/魔法吸収バリアを展開し、味方全体の物理攻撃力を大アップさせ、さらに敵全体を挑発する。=[Taunt] Deploy a barrier around self that absorbs P/M DMG, boost the allies' P.ATK, and taunts all enemies.
 
-r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n味方全体の物理攻撃力を(\d+)アップ\n敵全体を挑発する$"=Cast time: 0.375s.\nDeploys Barrier that absorbs $1 P/M.DMG for 12s.\nBoosts allies' P.ATK by $2 for 12s.\nTaunt on self for 17s.
+r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n味方全体の物理攻撃力を(\d+)アップ\n敵全体を挑発する$"=Cast time: 0.375s.\n►Deploys Barrier that absorbs $1 P/M.DMG for 12s.\n►Boosts allies' P.ATK by $2 for 12s.\n►Taunt on self for 17s.
 
-
-
-
-r:"^味方単体の物理攻撃力を(\d+)アップ\n味方単体の物理クリティカルを100アップ\n味方単体の物理攻撃クリティカル時のダメージを30％アップ$"=Cast time:0.715\nBoosts the highest P.ATK ally's P.ATK by $1 for 12s.\nBoosts the highest P.ATK ally's P.crit by 100 for 12s.\nBoosts the highest P.ATK ally's P.crit dmg by 30% for 12s.
+r:"^味方単体の物理攻撃力を(\d+)アップ\n味方単体の物理クリティカルを100アップ\n味方単体の物理攻撃クリティカル時のダメージを30％アップ$"=Cast time:0.715\n►Boosts the highest P.ATK ally's P.ATK by $1 for 12s.\n►Boosts the highest P.ATK ally's P.crit by 100 for 12s.\n►Boosts the highest P.ATK ally's P.crit dmg by 30% for 12s.
 
 最も物理攻撃力が高い味方の物理攻撃力を中アップ、物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを中アップさせる。=Moderate boost to P.ATK, large boost to P.crit rate, and Moderate boost to P.crit dmg for the ally with the highest P.ATK.
-
 
 新春祈幸の精霊杖=New Year Prayer Spirit Staff

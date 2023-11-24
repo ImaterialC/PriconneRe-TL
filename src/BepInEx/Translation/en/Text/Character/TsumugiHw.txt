@@ -5,17 +5,22 @@
 自分に物理無効バリアを展開し、さらに物理防御力を大アップさせる。=Deploys a P. Null Barrier on herself and massively increases her P.DEF.
 
 敵全体を挑発し、自分のＨＰを中回復する。さらに最も物理攻撃力が高い敵１キャラを恐慌状態にする。=Deploys a physical Null Barrier on herself and massively boosts her P.DEF.
+自分に物理無効バリアを展開し、さらに物理防御力を大アップさせ、継続ＨＰ回復状態を付与する。=Deploys a physical Null Barrier on herself and massively increases her P.DEF even further, granting own a continuous HP recovery.
 
 ストリングカーニバル=String Carnival
 テーラードハロウィン=Tailor Halloween
 テーラードハロウィン+=Tailor Halloween+
 フィアーアテンション=Fear Attenuation
 フィアーアテンション+=Fear Attenuation+
-テラーデコレーション=tailor Decoration
-テラーデコレーション+=tailor Decoration+
+テラーデコレーション=Tailor Decoration
+テラーデコレーション+=Tailor Decoration+
+ハロウィンナイトドレス=Halloween Night Dress
+
+
 
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理攻撃力を(\d+)ダウン\n敵単体の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy’s P.ATK by $2 for 18s.\n►Reduces an enemy’s action speed into 20% for 18s.
 
-r:"^(\d+)ダメージ分の物理無効バリアを展開する\n自分の物理防御力を(\d+)アップ$"=Cast time:0.715s\n►Deploys Barrier over herself that negates $1 P.DMG for 12s.\n►Boosts own's P.DEF by $2 for 12s.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する\n自分の物理防御力を(\d+)アップ$"=Cast time:0.715s.\n►Deploys Barrier over herself that negates $1 P.DMG for 12s.\n►Boosts own's P.DEF by $2 for 12s.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する\n自分の物理防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する$"=Cast time:0.715s.\n►Deploys Barrier over herself that negates $1 P.DMG for 12s.\n►Boosts own P.DEF by $2 for 12s.\n►Recovers own HP by $3/s for 6s.
 
-r:"^敵全体を挑発する\n自分のＨＰを(\d+)回復\n敵単体を恐慌状態にする$"=Cast time:0.715s\n►Provokes all enemies.\n►Recovers own's HP by $1.\n►Inflicts Fear on an enemy for 8s.
+r:"^敵全体を挑発する\n自分のＨＰを(\d+)回復\n敵単体を恐慌状態にする$"=Cast time:0.715s.\n►Provokes all enemies.\n►Recovers own's HP by $1.\n►Inflicts Fear on an enemy for 8s.

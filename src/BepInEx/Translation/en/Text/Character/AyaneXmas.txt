@@ -12,6 +12,10 @@ r:"^敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)消費$"=►D
 ---Skills+---
 ---UB---
 ---S1---
+ぷうきちラッシュ=Pukichi Rush
+ぷうきちラッシュ+=Pukichi Rush+
+ぷうきちエール=Pukichi Yell
+ぷうきちエール+=Pukichi Yell+
 自分の物理攻撃力を特大アップさせ、さらに行動速度を大アップさせる。=Massively increases own physical attack power and greatly increases action speed.
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=►Boosts own P.ATK by $1.\nBoosts own action speed.
 ---S2---

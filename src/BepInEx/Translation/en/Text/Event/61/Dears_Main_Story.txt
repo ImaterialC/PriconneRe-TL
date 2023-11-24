@@ -306,7 +306,7 @@ r:"^それじゃあ(.{2,10})さん、次のページに進みましょうか。\
 ふん！=Hmph!
 わぁっ=Wow
 主さま……！=My Lord...!
-あ、主さま～～～！？=Ah, My Lord?!
+あ、主さま～～～！？=Ah, my Lord?!
 
 
 シオリの看病中、この合宿で主人公の役に立てているのか悩むコッコロだったが、シオリと話す中で相手のために見守り耐える強さもあると学ぶ。翌日、合宿に戻ったシオリに競技会への参加が持ちかけられる。=While taking care of Shiori, Kokkoro worried whether she was able to be helpful to the protagonist during this training camp. However, through talking with Shiori, Kokkoro learned that there is also strength in enduring and watching over someone for their sake. The next day, when Shiori returned to the training camp, she was asked to participate in a competition.
@@ -353,7 +353,7 @@ r:"^コッコロちゃんも(.{2,10})さんも、\n自分の勉強をする時�
 危険ですので、こちらもわたくしめにお任せください。\n手袋をして、ごり……ごり……と。=It's dangerous, so please leave it to me. With gloves, *tremble*... *tremble*...
 次はケイブスネイルの分泌液ですね。\nこちらもわたくしが──=Next is the secretion of the Cave Snail. I will also──
 その次もお任せを──=Please leave the next one to me as well──
-……ふぅ、完璧な出来栄えでございます。\n主さま、こちらの丸薬をお持ちくださいまし。=...Phew, it's a perfect result. My Lord, please take this pill.
+……ふぅ、完璧な出来栄えでございます。\n主さま、こちらの丸薬をお持ちくださいまし。=...Phew, it's a perfect result. my Lord, please take this pill.
 ふむ、出来栄えは見事だ。\nだから選ばせてやる。=Hmm, the result is excellent. So, I'll let you choose.
 今すぐやり直すか、追加訓練を足されたうえでやり直すか。\n講義の時間内に終えられなければ、結末は同じだが。=Do you want to redo it now, or do you want to redo it with additional training? If you can't finish it within the lecture time, the outcome will be the same.
 今すぐやり直します……=I'll redo it now...
@@ -581,7 +581,7 @@ r:"^全員揃ってるな。\n(.{2,10})くんも連絡ありがとうね。$"=Ev
 魔物の幻影？=Demon's illusion?
 ハ、これでちったァ食いごたえが……って\nフィールドが魔物で埋まっちまってんじゃねェか！\nいくらなんでも限度ってもんがあんだろが！=Huh, this has a little more bite to it... Wait, the field is filled with monsters! Isn't there a limit to this?!
 なぜ、魔物の幻影がこちらのフィールドに？\n……いえ、これは、本物の魔物っ！？=Why are there monster illusions on the field?\n Ah... No, are these real monsters!?
-くっ……主さま、ご無事ですか！=Ugh... My Lord, are you okay?
+くっ……主さま、ご無事ですか！=Ugh... my Lord, are you okay?
 なに、魔物が会場に殺到してる！？　しかも異常な興奮状態で……？\n一体どこから……ここは生息地からかなり離れているっていうのに。=What, the monsters are rushing into the venue!? And they're in an abnormal state of excitement... Where did they come from? This place is quite far from their habitat.
 いや、まずは参加者の安全確保が優先だな。\n競技中の少年、君も避難するんだ！=No, first and foremost, we need to ensure the safety of the participants. Young man in the competition, you should also evacuate!
 あぁんっ！？　上から目線で命令すんじゃねーよ！\n避難指示だァ？　くっだらねぇっ！\n──要は、こいつらぶっ飛ばせばいいっつーだけの話だろ！　オラぁッ！=No, first and foremost, we need to ensure the safety of the participants. Young man in the competition, you should also evacuate!
@@ -687,7 +687,7 @@ r:"^全員揃ってるな。\n(.{2,10})くんも連絡ありがとうね。$"=Ev
 でも……！=but...!
 こちらにはニャットさまがいますから。\nさあ、お早く！=We have Nyatt here. Now, hurry!
 ……分かった！=...Okay, I got it!
-さあ、わんわんの方の主さまはこちらへ……主さま？=Now, My Doggie Lord let's go... My Lord?
+さあ、わんわんの方の主さまはこちらへ……主さま？=Now, My Doggie Lord let's go... my Lord?
 ウゥゥゥ…………=Woo..................
 どうにか、注意をそらせたみたいですね……\nコッコロちゃんたち、無事に逃げられてたらいいけど……=Looks like we managed to distract it... I hope Kokkoro and the others were able to escape safely...
 はっはっはっ……=Haa haa haa...
@@ -783,7 +783,7 @@ r:"^コッコロちゃんや(.{2,10})さん、\nみんなを危険に晒して�
 付いてきてって。="Come with me."
 主さま、言葉が分かるのですか？=My Lord, do you understand its language?
 なんとなく、そんな感じがして。=Somehow, I have that feeling.
-……どういたしましょう、シオリさま。\n主さまはあの魔物に付いていかれましたが。=...What can I do for you, Miss Shiori? My Lord followed that monster, but... 
+……どういたしましょう、シオリさま。\n主さまはあの魔物に付いていかれましたが。=...What can I do for you, Miss Shiori? my Lord followed that monster, but... 
 ……付いていってみましょう。\nあの魔物が暴れていた原因が掴めるかもしれません。=Let's follow them. We might be able to find out the cause of the monster's rampage.
 r:"^ただし、警戒は解かないでください。\n危険だとわかれば(.{2,10})さんを連れて、\nいつでも退却できる準備を。$"=However, don't let your guard down. If it becomes dangerous, we can retreat with $1 at any time.
 ここは……果樹林？\n木の実がたくさんなっていますね……\n密林にこんなところがあるなんて……=This is... an orchard? There are lots of fruits growing here... I can't believe there's a place like this in the jungle...
@@ -792,7 +792,7 @@ r:"^ただし、警戒は解かないでください。\n危険だとわかれ�
 ウホ……？=Uho...? 
 あんなに暴れていたのが信じられないくらい、\n大人しいですね。\nなんだか歓迎されているみたいですし……=Can't believe how calm he is now, after being so wild earlier. It's like he's welcome us...
 ええ、とてもつぶらな瞳をされております。\nまるでわんわんの主さまのような──=Yes, with those big round eyes of his, he's just like my Doggie Lord.
-あ、ああっ。そんなにぺろぺろしないでくださいまし。\n主さま、めっ、でございますよ。=Oh, oh my! Please don't lick me so much. My Lord, please. 
+あ、ああっ。そんなにぺろぺろしないでくださいまし。\n主さま、めっ、でございますよ。=Oh, oh my! Please don't lick me so much. my Lord, please. 
 そういえばお腹が空きましたね……\n非常用の食料は食べてしまいましたから、夜が明けてからは何も……=Come to think of it, I'm getting quite hungry now... We've already eaten all the emergency rations, so we have nothing left for when the morning comes...
 昨日のような危険はなさそうですから、\nここはありがたくご相伴にあずかるとしましょう。=There doesn't seem to be any danger like yesterday, so let's just be grateful and enjoy what we have here.
 大猿さま、ありがとうございます。=Thank you, Great Ape.
@@ -991,7 +991,7 @@ r:"^……作戦の位置に着きましょう。\nドクターはこちらで�
 パニックを避けるためです。\n私たちとあの大猿さん、お互いの安全のために。=It's to avoid causing panic. From their perspective, we suddenly attacked them.
 私たちには虫歯の治療という目的がありましたけど、\n向こうからすれば、いきなり襲いかかられたと感じたはずです。=We had the purpose of treating tooth decay, but from the other side, we felt that we were suddenly attacked.
 目を覚ました時、そんな私たちに取り囲まれていたら。\n自分の身を守ろうと、とっさに攻撃を仕掛けることも──=If He woke up surrounded by us, He might have tried to defend themselves and attack us...
-あっ！　主さまっ……！=Ah! My Lord!
+あっ！　主さまっ……！=Ah! my Lord!
 対象、あるじちゃんに気づきました！\n……こちらに視線を向けてますね。=The target, Aruji-chan, noticed us! He looking this way!
 はっはっはっはっ……=Hah hah hah hah hah...
 ウオォォ──……=Woooo──...  
@@ -1034,7 +1034,7 @@ r:"^大丈夫です。\nコッコロちゃんと(.{2,10})さんと……\nみん
 ええ。……帰ったらまずは、予習と復習ですね。\n最終試験の日まで、あまり時間もありませんから。=Yes... When we get back, we'll need to review and prepare. There's not much time left until the final exam.
 では、わたくしは主さまにお夜食などを用意いたしましょう。\n追試験では満点が取れるよう、頑張ってくださいまし。=Well, then I'll prepare a meal for my Lord. Please do your best to get a perfect score on the make-up exams.
 ……明日からじゃダメ？=Can we start tomorrow?
-ダメでございます。\n主さまは再試験の科目も多いのですから。=No, we can't. My Lord has a lot of subjects to take make-up exams for.
+ダメでございます。\n主さまは再試験の科目も多いのですから。=No, we can't. my Lord has a lot of subjects to take make-up exams for.
 主さまのためなら、わたくしは鬼にもなります。\nさあ、戻って一休みしたらお勉強の時間でございますよ。=For my Lord's sake, If necessary I'll become a monster. Now, once we return and take a break, it will be study time.
 絶対にみんなで合格するって約束しましたから。\n頑張って、私もサポートしますからね。=We promised to pass together, so let's do our best. I'll support you too.  
 r:"^そして、数日後──\n最終試験を終えた(.{2,10})たちは\nそれぞれの結末と共に、ランドソルへ帰還した。$"=And a few days later, $1 and the others returned to Randsel with their respective outcomes after the final exam.

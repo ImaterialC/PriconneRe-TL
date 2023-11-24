@@ -118,7 +118,7 @@ r:"^……だいぶ前の、あのとき……\n陛下が(.{2,10})に言って�
 ……そうね。開店セールってだけじゃなく、\nもう半月以上も安売りを続けているところもあるし。\nまわりの競合店は、たまったものじゃないわ。=...That's right. It's not just an opening sale, either. We've been selling it cheap for over half a month now. Our competition is not happy.
 不当廉売……いわゆるダンピング商法ですわね。\n【メルクリウス財団】と取引させていただいている商店からも、\n仕入れを安くしてほしいと泣きつかれてしまいましたけど……=It is what is called dumping sales... Even the merchants who do business with the Mercurius Foundation have been crying out for a lower price on their purchases...
 うぅん……値下げしてあげたい気持ちはわかるけど、\n今だってかなりギリギリの卸値よ。\nこれ以上は、こっちが赤字になっちゃうわ。=Hmm... I understand why you'd want to lower the price, but it's still just barely at wholesale price. Any more and we'll lose money.
-そうね……この何か月かは\n覇瞳皇帝や魔物たちに壊された商店を立て直すために\n慈善事業みたいな投資を、たくさんしてしまったんだしね。=That's right... For the past few months, we've invested a lot of money in charity work to rebuild the shops that were destroyed by Omniscient Kaiser and the monsters.
+そうね……この何か月かは\n覇瞳皇帝や魔物たちに壊された商店を立て直すために\n慈善事業みたいな投資を、たくさんしてしまったんだしね。=That's right... For the past few months, we've invested a lot of money in charity work to rebuild the shops that were destroyed by Kaiser Insight and the monsters.
 たい焼き屋=Taiyaki Shop
 何をおっしゃいますの！　あれは必要な投資でしたわ♪\n市場の活気を取り戻すことは、巡り巡って\n私たち【メルクリウス財団】の利益になりますもの。=What are you saying?! That was a necessary investment♪ Revitalizing the market will benefit us at the Mercurius Foundation.
 でも……その貸し付けた店が\n【アマルガム貿易】系列の店との価格競争に負けて、\n潰れてしまったら……=But... if that loaned store loses out in a price war with the Amalgam-affiliated stores and goes out of buisness...
@@ -228,7 +228,7 @@ r:"^あ、あたしは……陛下を、本当に、裏切っちゃった。\n�
 わからない……=I don't know...
 ……はんっ。\nそうよね。\nあんたにこんなこと言ったって、わかるわけ──……=...Hmph. I know. You don't understand...
 以前の私は。\nキャルの『陛下』を、殺そうとした……かもしれないのだけど。=Before, Maybe I tried to kill Kyaru's 'Her Majesty'.
-私……どうして覇瞳皇帝を狙ったのか、全然思い出せなくて。\nそれはひょっとしたら、悪政を布く暴君だからじゃなくて……\n『七冠』という存在を、狙っていたのかもしれなくて……=I... I couldn't remember why I was after Omniscient Kaiser. Maybe it wasn't because she was a tyrant spreading propaganda... Maybe because she was going to kill the Seven Crowns...
+私……どうして覇瞳皇帝を狙ったのか、全然思い出せなくて。\nそれはひょっとしたら、悪政を布く暴君だからじゃなくて……\n『七冠』という存在を、狙っていたのかもしれなくて……=I... I couldn't remember why I was after Kaiser Insight. Maybe it wasn't because she was a tyrant spreading propaganda... Maybe because she was going to kill the Seven Crowns...
 ……そういえば……\n赤ちゃんのときのこいつ、\nネネカにもラビリスタにも、妙にトゲトゲしかったっけ……=...Come to think of it... When she was a baby, she was strangely thorny with both Neneka and Labyrista...
 r:"^聞くところによると……(.{2,10})は、\nあのクレープ屋さんの……\n七冠のひとりから、選ばれた存在だっていうし。$"="From what I've heard...$1 was chosen from one of the...the Seven Crowns... the one who owns that crepe shop."
 r:"^最悪の場合……以前の私は、(.{2,10})と、\n敵対する立場だったのかもしれない。$"="In the worst-case scenario... I might have been an enemy against $1 before."
@@ -316,7 +316,7 @@ r:"^最悪の場合……以前の私は、(.{2,10})と、\n敵対する立場�
 ……じゃなくって！\nあんた、あたしのこと知ってるの！？=...No, wait! Do you know me?!
 うん、知ってるよ～\nもうちょっと、自分が有名人だっていう\n自覚を持ったほうがいいよ？　キャルちゃん？=Yeah, I know. You should be a little more aware that you're a celebrity, Kyaru
 へっ……？=Huh...?
-r:"^だってあなたは、覇瞳皇帝の元側近で〜\n今の王女さまとも仲良しで。\nそれに、(.{2,10})くんの仲間なんだもん♪$"="After all, you're the former aide of the Omniscient Kaiser, and you are friends with the current princess. Besides, you are a friend of $1-kun's♪"
+r:"^だってあなたは、覇瞳皇帝の元側近で〜\n今の王女さまとも仲良しで。\nそれに、(.{2,10})くんの仲間なんだもん♪$"="After all, you're the former aide of the Kaiser Insight, and you are friends with the current princess. Besides, you are a friend of $1-kun's♪"
 歪んだ坩堝みたいなこの世界、その中心……\nん～、正確には中心から限りなく近いところに、\nあなたはいるんだから。=This warped, crucible-like world, its center... Hmm, to be precise, you're in a place that's infinitely close to the center.
 キャルちゃんたちに興味を持つひとは、\nキャルちゃんたちの想像以上に多いと思っておいたほうが\nいいんじゃないかな？=I think it's best to assume that there are more people interested in Kyaru-chan and the others than you can imagine
 うっ……=Ugh...
@@ -356,13 +356,13 @@ r:"^だってあなたは、覇瞳皇帝の元側近で〜\n今の王女さま�
 ひゃああっ？！=Hyaaah?!
 ごめんね、ひとつ言い忘れ☆=Sorry, I forgot to say one thing☆
 なななによっ！？=Wh-Wh-What?!
-七冠の一人──覇瞳皇帝がいなくなったことによる、世界への影響。\nそれはキャルちゃんたちが考えているよりも、ず〜っと大きいよ。\nまるで世界に見えない穴が開いたみたいにね。=The loss of one of the Seven Crowns, the Omniscient Kaiser, has an impact on the world. That's a lot bigger than Kyaru-chan and the others think. It's as if an invisible hole has opened up in it.
+七冠の一人──覇瞳皇帝がいなくなったことによる、世界への影響。\nそれはキャルちゃんたちが考えているよりも、ず〜っと大きいよ。\nまるで世界に見えない穴が開いたみたいにね。=The loss of one of the Seven Crowns, the Kaiser Insight, has an impact on the world. That's a lot bigger than Kyaru-chan and the others think. It's as if an invisible hole has opened up in it.
 その穴に、落っこちちゃわないように……\nもっと気を配ったほうがいいと思うな♪=You should be more careful not to fall into that hole...♪
 今の……どういうことかしら……？=What... was that just now...?
 …………\n……しらないわよ……=...I don't know...
 陛下の、いなくなった影響……か……=The influence of Her Majesty's disappearance, huh...
 ……あのね、キャル。\n私もさっき、言い忘れてしまったことがあって。=...Hey, Kyaru. There's something I forgot to tell you earlier.
-あなたは……\n「もし」覇瞳皇帝が少しでも優しくしてくれたら、\nどうなっていたかわからないって、言ってたけど。=You said... that if the Omniscient Kaiser had been even a little kinder to you, you wouldn't know what would have happened.
+あなたは……\n「もし」覇瞳皇帝が少しでも優しくしてくれたら、\nどうなっていたかわからないって、言ってたけど。=You said... that if the Kaiser Insight had been even a little kinder to you, you wouldn't know what would have happened.
 その、「もし」が無かったから、\n今のあなたと、みんながいるのよ。\nもちろん、私もね。=It's because you didn't have a 'if' that you and everyone else are here now. Of course, so am I.
 …………\n……で、でも……、あたしは…………=B-But... I...
 あたしが陛下を……もっと前に止めることができてたら……=If only I had been able to stop Her Majesty before...
@@ -444,7 +444,7 @@ r:"^あれっ、コッコロちゃん？\nそれに(.{2,10})くんも、シェ�
 えええっ！？\nキャルちゃん、もしかして迷子にっ……？=What?! Kyaru-chan, did she get she lost...?
 いえ……\n賢い方ですので、道に迷うなどといったことは無いはずです。\nですが……=No... she's a smart girl, so she shouldn't get lost. However...
 ペコリーヌさまもご存知の通り、\nここ最近のキャルさまは、なにやら思いつめていらしたご様子。\nもしやそのことと、関係があるのかも……=As you know, Lady Pecorine, Kyaru has been thinking about something lately. Maybe it has something to do with that...
-……？\nいかがなさったのですか、主さま。=...? What is the matter, My Lord?
+……？\nいかがなさったのですか、主さま。=...? What is the matter, my Lord?
 ……はむ。\n……あむ。\nふむふむ……=...Hmm. ...Ahm. Hmmm...
 いやはや。露店での買い食いなど、食への侮辱と思っておりましたが。\n相応の食材と、相応の技量を持つ店主が提供するメニューならば……\nこれはこれで、趣深いものになりますなぁ。=My, my. I thought buying and eating at a stall was an insult to food, but... If it's the menu provided by a shopkeeper with the right ingredients and the right skill... It is quite interesting in its own way.
 あいつはっ……\n【レイジ・レギオン】の……！？=He's... from Rage Legion?!
@@ -458,7 +458,7 @@ r:"^あれっ、コッコロちゃん？\nそれに(.{2,10})くんも、シェ�
 うぐっ！？\nそ、それはわかりませんけれど……=Ugh?! I-I don't know, but...
 根拠はないですが……\n貴方のことを、このまま見過ごすわけにはいきませんっ。\n兵士のみなさんを呼びますから、大人しくお縄についてください！=I have no evidence to support this, but I can't just let you go on your way... I will call in the soldiers and you will come quietly!
 兵を呼ぶのは構いませんが。\n──怪我人が、増えるだけではありませんかな？=I don't mind summoning soldiers, but... ...wouldn't it just increase the number of injured?
-ペコリーヌさま。\nあの男性は、見た目以上の実力者です……\n主さまのお力を借りたとしても、太刀打ちできるか否か……！=Lady Pecorine, that man is far more powerful than he looks... Even with your help, My Lord, I don't know if we'll be able to match him...!
+ペコリーヌさま。\nあの男性は、見た目以上の実力者です……\n主さまのお力を借りたとしても、太刀打ちできるか否か……！=Lady Pecorine, that man is far more powerful than he looks... Even with your help, my Lord, I don't know if we'll be able to match him...!
 で、でも……っ！\nもしかしたら、キャルちゃんが捕まってるかもなのに……！=B-But...! Kyaru-chan might have been captured...!
 ところで、騎士の少年。\n以前、お別れの際に、こう申し上げたのを覚えておいでですかな？=By the way, young knight, do you remember what I said when we parted ways?
 「次に会う時は、別の趣向でお相手いたしましょう」、と。=The next time we meet, I'll have to deal with you in a different way.
@@ -636,7 +636,7 @@ r:"^屋台の人のお金かしら。\nこの騒ぎで、ポケットから落�
 主さまっ！？=My Lord!?
 おにーたんっ！？=Onii-chan!?
 あなた、一体なにをしているのっ！？\n赤ちゃんでもあるまいし……！=What the hell are you doing?! You're not even a baby...!
-ぺってしてくださいませ主さま、ぺって！=Please spit it out, My Lord! Spit it out!
+ぺってしてくださいませ主さま、ぺって！=Please spit it out, my Lord! Spit it out!
 ……！？\n待って！\n何かおかしいわ、その金貨っ……！=...?! Wait! Something's wrong with that coin...!
 ギチギチ、ギチギチ……！=Squeeze, squeeze...!
 なななっ……\n硬貨が動きましたわっ！？=Wh-Wh-What?! The coins are moving!
@@ -722,7 +722,7 @@ r:"^【アマルガム貿易】が送り込んだ店員たちは万能人形へ�
 騎士の少年の意識は狩りました。\nあとは任せますぞ、『万能人形』。=I've knocked the young knight unconscious. I'll leave the rest to you, All-Purpose Doll.
 ま、待ちなさいっ！\nああっ！？=W-Wait! Aaah!?
 ゴーレムごと、地面に飲み込まれちゃったにゃ……！？=The whole golem was swallowed up by the ground, nya...!?
-主さまっ！！\n主さまを、どうしたのですか……！=My Lord!! What have you done with My Lord...!?
+主さまっ！！\n主さまを、どうしたのですか……！=My Lord!! What have you done with my Lord...!?
 ほっほっほ。\nなに、殺しはしませんとも。\nどうやら彼には、人質以上の価値があるようですので。=Hohoho. I won't kill him. Now that he seems to be worth more than a hostage.
 転移の妨害がされていなければ、\nこのままお暇させていただきたいところなのですが。\n……そちらの眼鏡のお嬢様の仕業ですかな。=If the teleportation hasn't been interrupted, I'd like to take my leave. ...I wonder if it's the work of that bespectacled lady.
 貴方がたの手管は調べさせていただいておりますもの。\nこの程度の用心は、当然ですわ。=We've been investigating your handiwork. This level of caution is only natural.
@@ -856,7 +856,7 @@ r:"^でも……\n馬鹿で、みじめで、みっともなくたって。\n(.{
 キャルちゃん……！=Kyaru...!
 だからあたしも……この手を離さない。\nあきらめてなんかやらない！\nあがき続けてやるわ、あたし自身の運命に！！=That's why I also.... won't let go of this hand. I will not give up! I will continue to fight against my own fate!
 アビスエンド……バーーーストッッ！！！=Abyss End... BLAAAASSSTTTT!!!
-覇瞳皇帝？=Omniscient Kaiser?
+覇瞳皇帝？=Kaiser Insight?
 あ……ああああーーーーっ！！！=Ah... Aaaahhhh!!!
 2部 第5章 第10話=Part 2 Chapter 5 Episode 10
 助太刀に現れたユイたちと力を合わせ、アゾールドを止めようとするアキノらだったが、【ドラゴンズネスト】の妨害により戦いは混迷を極める。その時、プリンセスフォームへの変身を遂げたキャルが現れ――=Akino and the others joined forces with Yui and the rest who appeared in the suketa to try and stop Azold, but due to the interference of Dragonsnest, the battle became extremely chaotic. Just then, Kyaru, who had transformed into Princess Form, appeared—
@@ -923,7 +923,7 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 『オブジェクト変更』……！？\nまるで、ラビリスタさまの……=Change Object”...?! It’s like Lady Labyrista’s...
 それだけじゃないくせに～☆\n移動に使う『空間跳躍』。ゴーレムにかけてた『変身』……\nどれも不完全だけど、七冠の権能を模倣してるよね？=And that's not all! ☆ You used the [Spatial Leap] to move. The [Transform] you used on the golems... They're all incomplete, but they mimic the power of the Seven Crowns, right?
 ……じゃあ、あの陛下の偽物って……！=...So that fake Her Majesty was...!
-いやはや参りましたな。\n『覇瞳皇帝』の完全再現は無理だとしても……\nあの機体は、通常の100倍のコストを費やした傑作だったのですが。=That's a shame. Even if it's impossible to fully reproduce the Omniscient Kaiser, that machine cost a hundred times more than normal.
+いやはや参りましたな。\n『覇瞳皇帝』の完全再現は無理だとしても……\nあの機体は、通常の100倍のコストを費やした傑作だったのですが。=That's a shame. Even if it's impossible to fully reproduce the Kaiser Insight, that machine cost a hundred times more than normal.
 それに。姿を晒すことすらせず、遥か遠くから\nワタクシの『オブジェクト変更』を上書きしてのけるとは──\nさすがは『迷宮女王』。ゼーン君を退けただけのことはあります。=Besides, you overwrote my [Object Change] from far away without even revealing yourself. That's the Queen Labyrinth for you. You've managed to repel Zane.
 あの妨害さえなくば、\n騎士の少年とそちらの猫のお嬢さんを合流させることもなく……\n事はこちらの、思うように進んだのですが。=If it weren't for that interference, we wouldn't have been able to rendezvous with the young knight and the cat lady over there... Things would have gone our way.
 い、行っちゃったわ……=She's gone...
@@ -1112,7 +1112,7 @@ r:"^(.{2,10})くんを攫った時、\n地面を沼みたいに変えちゃっ�
 ……キャルちゃん？=...Kyaru?
 ……【レイジ・レギオン】かぁ。\nほーんと、ヤな連中よね。\n……今回は、陛下のニセモノなんてものまで持ち出してきたし……=...Rage Legion, huh? What a bunch of nasty people. ...This time, I even brought out a fake of Her Majesty's...
 驚いたね。=I'm surprised.
-連中の狙いは、『七冠』。\nそのうちの一人、『覇瞳皇帝』は、\n今も城の地下深くの結界に幽閉されたまま……。=They're after the Seven Crowns. One of them, the Omniscient Kaiser, is still trapped in the castle's underground barrier...
+連中の狙いは、『七冠』。\nそのうちの一人、『覇瞳皇帝』は、\n今も城の地下深くの結界に幽閉されたまま……。=They're after the Seven Crowns. One of them, the Kaiser Insight, is still trapped in the castle's underground barrier...
 てことはあたしたちは今、陛下を守ってるってことでもあるのよね。\nそう思うと……なんか、ヘンな感じだわ。\n陛下を裏切ったのに、また守る立場になるなんて。ナイトみたいに……=Which also means we're protecting Her Majesty right now. Thinking about it... It feels kind of weird. I betrayed her, but now I'm in a position to protect her again. Like a knight...
 前とは、違うよ。=It's different from before.
 だっ、だからっ！\nプリンセスフォームになる前にあんたに言った、アレ……=I-I'm telling you! That thing I said to you before I became a princess...

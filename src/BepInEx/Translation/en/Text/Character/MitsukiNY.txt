@@ -1,20 +1,26 @@
 【物理】中衛で、振袖姿で旅館に手を貸す隻眼の闇医者。朧ろ状態にした敵への攻撃時、スキルのダメージや防御力のダウン値が上昇し、紫煙に捉えた敵を艶然と討ち取る。=[Physics] A one-eyed dark doctor who lends a helping hand to the inn in furisode in MG. When attacking a stunned enemy, the skills damage and the P.DEF debuff increase, and the enemy caught in purple smoke is brilliantly defeated.
 
-闇医者の憂鬱=Dark doctor's melancholy
-闇医者のヤキモチ=Dark doctor's Yakimochi
+風雲初春ノ渦=Spring Whirlwind of Turbulence
+滅封刻印初め=Seal-Breaking First Mark
+滅封刻印初め+=Seal-Breaking First Mark+
+孟春ノ荒灸治=Early Spring Scorching Treatment
+孟春ノ荒灸治+=Early Spring Scorching Treatment+
+新春荒療治=New Year's Disorderly Healing
+新春荒療治+=New Year's Disorderly Healing+
 
-風雲初春ノ渦=Wind and Cloud Early Spring Swirl
+闇医者の憂鬱=Back Alley Doctor's Melancholy
+闇医者のヤキモチ=Back Alley Doctor's Jealously
 
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを6％アップ\n敵が朧ろ状態の時、自分の物理攻撃力を(\d+)アップ\n敵が朧ろ状態の時、自分の物理クリティカルを(\d+)アップ$"=Deals $1 P.DMG to an enemy.\nReduce 6% P.Crit dmg resistance to an enemy for 18s.\nWhen the enemy in stun state:\nBoosts own physical attack by $2 for 90s\nBoosts own P.Crit rate by $3 for 90s.
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを6％アップ\n敵が朧ろ状態の時、自分の物理攻撃力を(\d+)アップ\n敵が朧ろ状態の時、自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Reduce 6% P.Crit dmg resistance to an enemy for 18s.\nWhen the enemy in stun state:\n►Boosts own physical attack by $2 for 90s\n►Boosts own P.Crit rate by $3 for 90s.
 
 目の前の敵１キャラに物理特大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。対象が朧ろ状態だった場合、自分の物理攻撃力と物理クリティカルを中アップさせる。=Inflicts a large amount of P.DMG to the enemy in front, and slightly boost the damage taken when receiving a critical hit. Moderately boost own P.ATK and P.crit when the target is in a stunned state.
 
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを6％アップ$"=Cast time:0.59s\nDeals $1 P.DMG to an enemy.\nReduce 6% P.Crit dmg resistance to an enemy for 18s.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを6％アップ$"=Cast time:0.59s.\n►Deals $1 P.DMG to an enemy.\n►Reduce 6% P.Crit dmg resistance to an enemy for 18s.
 
 目の前の敵１キャラに物理中ダメージを与え、朧ろ状態を付与し、クリティカルを受けた際のダメージを小アップさせる。=Inflicts moderate P.DMG to the enemy in front, inflicts a stun, and slightly increases the damage taken when receiving a critical hit.
 
-r:"^敵が朧ろ状態でない時、敵単体に(\d+)の物理ダメージ\n敵が朧ろ状態でない時、敵単体の物理防御力を(\d+)ダウン\n敵が朧ろ状態の時、敵単体に(\d+)の物理ダメージ\n敵が朧ろ状態の時、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.59s\nIf the enemy is NOT in a stun state:\nDeals $1 P.DMG to an enemy.\nLowers an enemy's P.DEF by $2 for 18s.\n\nIf the enemy is in a stun state:\nDeals $3 P.DMG to an enemy.\nLowers an enemy's P.DEF by $4 for 18s.
+r:"^敵が朧ろ状態でない時、敵単体に(\d+)の物理ダメージ\n敵が朧ろ状態でない時、敵単体の物理防御力を(\d+)ダウン\n敵が朧ろ状態の時、敵単体に(\d+)の物理ダメージ\n敵が朧ろ状態の時、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.59s.\nIf the enemy is NOT in a stun state:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n\nIf the enemy is in a stun state:\n►Deals $3 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4 for 18s.
 
 目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。対象が朧ろ状態だった場合、ダメージと防御力のダウン値が上昇する。=Inflicts moderate P.DMG to the first enemy in front and slightly decreases P.DEF. If the target is stunned, the damage and defense down values increase.
 
-新春荒療治=New Year's Rough Treatment

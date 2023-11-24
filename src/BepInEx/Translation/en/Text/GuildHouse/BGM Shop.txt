@@ -19,7 +19,7 @@ r:"^\[3C404E\]ルピ×\[FFBB00,CE4F00\]([\d,]+)\[-\]を消費して\n以下のBG
 sr:"^(.{3,20})\nを購入しました。$"=Purchased\n$1
 
 ---NPC koro---
-メモリアルサウンドボックスの購入により、ギルドハウスの各フロアで流れるBGMを変更できるようになりました。お好みの楽曲を購入してくださいませ。主さまの選曲、楽しみです。=Now that we have the Memorial Jukebox, you can purchase new tracks to use as BGM on your home screen and each floor of guildhouse. I cannot wait to hear your favorite melodies, My Lord.
+メモリアルサウンドボックスの購入により、ギルドハウスの各フロアで流れるBGMを変更できるようになりました。お好みの楽曲を購入してくださいませ。主さまの選曲、楽しみです。=Now that we have the Memorial Jukebox, you can purchase new tracks to use as BGM on your home screen and each floor of guildhouse. I cannot wait to hear your favorite melodies my Lord.
 
 ---NPC karin---
 ようこそ！\nこちらでは、\nギルドハウスで流れる音楽の\n変更や購入が出来ますよ=Hello there!\nIn this section, you can choose new music to play on your home screen or in the Guildhouse

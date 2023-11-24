@@ -50,6 +50,11 @@ Skill EX
 r:"^自分の最大ＨＰを(\d+)アップさせる$"=►Boosts own max HP by $1.
 r:"^自分の最大ＨＰを(\d+)アップ$"=►Boosts own max HP by $1.
 
+プリンセスティアラ=Princess Tiara
+フォールスラッシュ+=Fall Slash+
+r:"^自分の物理攻撃力を(\d+)アップ\n敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n毎秒ＨＰを(\d+)回復する$"=Cast Time: 1.21s\n►Boosts own P.ATK by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 12s.\n►Recovers HP by $4/s for 12s.
+自分の物理攻撃力を特大アップし、目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに自分に継続ＨＰ回復状態を付与する。=Greatly boosts own P.ATK, deals massive P.DMG to the enemy in front, and slightly decreases their P.DEF. Additionally, grants herself a continuous HP recovery status.
+
 
 
 おいっす～☆　わたしの名前は…\nお腹ペコペコのペコリーヌです！=Heiya~!☆ My name is...\nThe always starving Pecorine!

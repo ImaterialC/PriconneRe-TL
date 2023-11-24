@@ -195,7 +195,7 @@ r:"^ある朝(.{2,10})はコッコロが熱を出していることに気付き�
 ふむ。\n寝ておられます……よね？=Hmm. \nAre you really sleeping...?
 ならば、くすぐったりしても反応はしませんよね。\n主さまは、寝ておられるのですから。\nこちょ、こちょ……♪=If that's the case, even if I tickle you, You won't react, right? Because my lord is sleeping. \nTickle, tickle...♪
 んもう、やはり狸寝入りでございましたか。\n起きろと言ったら起きていただかないと困ります、\nほんとに手のかかる主さまですね。=Oh dear, were you in a deep sleep after all? You'll be in trouble if you don't wake up when I tell you. You really are a handful, my lord.
-ふふ。\nおはようございます、主さま……♪=Hehe. Good morning, My Lord...♪
+ふふ。\nおはようございます、主さま……♪=Hehe. Good morning, my Lord...♪
 お疲れのところ、無理に起こしてしまって申し訳ありません。\nご不快でしたら、どうぞ罰をお与えください。=I apologize for waking you when you still quite evidently\nwished to remain sleeping.\nIf I have displeased you, punish me as you see fit.
 主さまが早寝早起きをして、健康に暮らしてくださるなら……\nわたくし、そのために犠牲になるのも吝かではありません。\nどれだけ虐げられようとも、本望です。=For the sake of awakening you and maintaining your health, I will gladly accept whatever sacrifices must befall me. Persecute me as you will— I have no regrets.
 はうっ！？\nあ、主さま？\n寝惚けてらっしゃるのですか？=Ahhh?!\nM-my lord?\nIs your sleepiness clouding your judgment?
@@ -263,9 +263,9 @@ r:"^ある朝(.{2,10})はコッコロが熱を出していることに気付き�
 けれど。\nだからこそ、今はとても幸せでございます。=However...\nThat is precisely why I am filled with such happiness now.
 参りましょう、主さま。\n願わくは、いつまでも……\nこうして肩を並べて、ともに歩いて行けたら幸いでございます。=Come along, my lord.\nI can only hope these days will last forever... The two of us side by side, travelling the path of life together.
 コッコロは保護した犬を「主さま」と呼んでいた。人間と犬の「主さま」に挟まれて、やはり独りは寂しいと本音を漏らす。二つのあたたかさに挟まれ眠りながら、幼い日の父のぬくもりを思い出すのだった。=Kokkoro called the rescued dog "My Lord". Caught between the "Lords" of human and dog, she couldn't help but let out her true feelings of loneliness when she was alone. As she slept, sandwiched between the warmth of the two, she recalled the warmth of her father from her childhood days.
-あぁ、いけません主さま……\nおいたをしちゃ駄目ですよ、悪い子ですね。=Please, My Lord, you must not...!\nPlease keep your tongue to yourself, you naughty boy!
+あぁ、いけません主さま……\nおいたをしちゃ駄目ですよ、悪い子ですね。=Please, my Lord, you must not...!\nPlease keep your tongue to yourself, you naughty boy!
 そんなふうに舐めたら、顔がべとべとになってしまいます。\nせっかく一緒にお風呂に入ってキレイキレイしたのに、\nまた汚れてしまうでしょう？=All of this licking is going to make my face quite slimy!\nWe only just got nice and clean in the bath together...\nThis is not the time to get dirty!
-くすぐったいです、あははっ♪\nふふ、主さまは本当に甘えん坊さんでございますね。=That tickles terribly... Ahaha...!♪\nEheh... You are such an affection-seeker, My Lord.
+くすぐったいです、あははっ♪\nふふ、主さまは本当に甘えん坊さんでございますね。=That tickles terribly... Ahaha...!♪\nEheh... You are such an affection-seeker, my Lord.
 ひゃっ……\n主さま、服の下に顔を突っこまないでください。=Aahh...!\nMy Lord, Please don't stick your face under my clothes.
 ……おや？\nこんな夜更けに何か御用ですか、主さま？=...Hello?\nWhat brings you here at this time of night, my lord?
 ふむ。\nわたくしの部屋からみょうな声が聞こえたから、気になったと？=I see...\nYou heard strange voices coming from my room\nand felt the need to investigate?
@@ -279,7 +279,7 @@ r:"^ある朝(.{2,10})はコッコロが熱を出していることに気付き�
 それは、ご存知ですよね。\nそのわんわんを、名前がないのも不便なので、\n『主さま』と呼んでいるのです。=I'm sure you recall that much.\nBut it seemed inconvenient to keep him around without a name, so I have been calling him "My Lord."
 主さまご本人がいると、まぎらわしいですけど。=I suppose it is a little confusing when both of you are here.
 きゅうん……♪=*whine...*
-ひゃっ……\nお利口さんにしてくださいまし、主さま。=Hyah...!\nPlease try to behave yourself, My Lord!
+ひゃっ……\nお利口さんにしてくださいまし、主さま。=Hyah...!\nPlease try to behave yourself, my Lord!
 今、人間のほうの主さまとお話をしているのです。\n先に寝ていてください、わたくしも後ほど参りますので。=I am trying to hold a conversation with my human lord\nright now. Please settle down to sleep, \nand I will join you shortly.
 ずいぶん懐かれてるね。=He sure seems fond of you.
 一緒に寝てるの？=You two sleep together?
@@ -288,10 +288,10 @@ r:"^ある朝(.{2,10})はコッコロが熱を出していることに気付き�
 わたくしが敵ではない、と理解してくれたのでしょうね。\nようやく、心を開いてくださいました。=I suppose you understand that I am not your enemy. Finally, you have opened your heart to me.
 むしろ、最近は甘えん坊すぎて困ってしまうぐらいです。\nほら今も、わたくしに頬ずりをして……\nあぁ主さま、かわいくて仕方がございません♪=Rather, lately he's been too much of a spoiled brat and it's becoming quite troublesome. See, even now, he's nuzzling against my cheek... Oh my Lord, he's just too adorable for words♪
 はい。\nえっと、いけませんか……？=Ah, yes.\nIs there... a problem with that?
-わんわんのほうの主さまが一緒に寝てくださるおかげで、\n最近は朝までぐっすり熟睡できております。\nやはり誰かの体温がそばにあると、安心できますね。=Thanks to the doggie My Lord sleeping by my side, I have been sleeping more soundly these past few days. Having someone's warmth nearby does bring a sense of comfort, indeed.
+わんわんのほうの主さまが一緒に寝てくださるおかげで、\n最近は朝までぐっすり熟睡できております。\nやはり誰かの体温がそばにあると、安心できますね。=Thanks to the doggie my Lord sleeping by my side, I have been sleeping more soundly these past few days. Having someone's warmth nearby does bring a sense of comfort, indeed.
 いつか本当の飼い主のもとへお返しして、\n離ればなれになってしまうのが寂しいほどです。=It actually makes me a little sad to think\nthat we will have to return him to his real owner someday...
 人間のほうの主さまとも、できれば一緒に寝たいのですけど。\nそれは、残念ながら禁止されてますし。=Of course, I would like to share a bed with my human lord as well. But alas, we have been warned against that.
-おっと。\nわんわんのほうの主さま、寝ちゃったみたいです。\n起こさないように、ゆっくりベッドまで運びますね。=Oh, look.\nI think the doggie My Lord has finally fallen asleep.\nLet me take him gently to bed, so that he does not wake up.
+おっと。\nわんわんのほうの主さま、寝ちゃったみたいです。\n起こさないように、ゆっくりベッドまで運びますね。=Oh, look.\nI think the doggie my Lord has finally fallen asleep.\nLet me take him gently to bed, so that he does not wake up.
 お布団をかけて、子守歌を口ずさんで……\n添い寝して、深い眠りにつかれるまで頭を撫でてさしあげます。=I will tuck him in, sing him a little lullaby,\nlie by his side, and pet his head until he is\nfar away and dreaming.
 あぁ、懐かしいですか？\nこの【サレンディア救護院】にくる前までは、\nこうやって主さまを寝かしつけておりましたからね。=Oh, does this bring back memories? Do you miss it?\nI used to put you to bed in a similar fashion before we arrived at the Orphanage, didn't I?
 ふふ。\n人間のほうの主さまも、久しぶりに……\nわたくしに、甘えん坊さんしたいですか？=Eheh...\nCould it be that my human lord is also wanting\nto snuggle up to me again for the first time in a while?
@@ -319,13 +319,13 @@ r:"^アメスの力で(.{2,10})は「夢」でコッコロと出会う。ここ�
 エルフの歌声には、特別なちからがありますので。\n本職のバードなどに比べたら、わたくしのは素人芸ですけど。\n主さまも、宜しければ一緒に歌いますか？=There is special power in the songs of elves, after all.\nThough compared to a real bard, I am but an amateur.\nMy lord, would you care to sing with me?
 主さまの声を聞くと、何だか安心してしまって……\nうっかり、眠ってしまいそうなのですけど♪=Although, since hearing your voice comforts me so much,\nif I am not careful I might find myself lulled into a deep sleep...♪
 ひゃっ……？\nあぁ、わんわんの主さまもご一緒だったのですね。\n急に飛びついてきちゃ駄目ですよ、びっくりしちゃいますから。=Hyah...?! Ah, I see you have brought our doggie friend\nalong with you. Do not leap at me so suddenly,\nMy Lord! You gave me a frightful shock.
-ぺろぺろも、しちゃ駄目……\n甘えん坊さんですね、主さま♪=All this licking is also unhelpful...\nHonestly, you are such an affection-seeker, My Lord!
-ふむ。\nわんわんの主さまが、\nわたくしがいないので寂しがって遠吠えをしたのですね。=I see...\nSo the doggie My Lord started howling when he realized I was gone because he left lonely without me.
+ぺろぺろも、しちゃ駄目……\n甘えん坊さんですね、主さま♪=All this licking is also unhelpful...\nHonestly, you are such an affection-seeker, my Lord!
+ふむ。\nわんわんの主さまが、\nわたくしがいないので寂しがって遠吠えをしたのですね。=I see...\nSo the doggie my Lord started howling when he realized I was gone because he left lonely without me.
 それでご近所迷惑だと、怒られてしまったのですか。=And the neighbors scolded you for letting him make\nso much noise?
 だから。\nわたくしのもとまで、\nわんわんの主さまをつれてきてくださったのですね。=So you thought it would be a good idea\nto take him on a little walk to find me.
 それは、すみません。\nわたくしの、配慮が足りませんでしたね。=Well, I apologize for the trouble.\nI suppose I should have foreseen this.
 置き去りにされたのではと、\nわんわんの主さまを不安にさせてしまったのでしょうか。=My Lord must have been afraid\nthat I was running away and abandoning him...
-大丈夫ですよ、主さま。\nいつか飼い主などが見つかって、お別れする日がくるとしても。\n今は、お傍におりますから。=It's all right, My Lord. Though someday when we find your owner, we may have to say goodbye, for now, I have no intention of leaving your side.
+大丈夫ですよ、主さま。\nいつか飼い主などが見つかって、お別れする日がくるとしても。\n今は、お傍におりますから。=It's all right, my Lord. Though someday when we find your owner, we may have to say goodbye, for now, I have no intention of leaving your side.
 わっ……\n主さま、また光っておりますよ。=Ah...\nMy lord, you seem to be glowing again.
 何でしょう。\nアメスさまから、主さまに伝えたいことがあるのでしょうか？=What could it be?\nDoes Lady Ameth have something she wishes to speak with you about?
 ……おや。\nこれはこれは、主さま。\nご無沙汰しております。=...What's this?\nWhy, if it isn't you, my lord!\nIt has been quite some time.
@@ -382,7 +382,7 @@ r:"^この地獄から、救いだしてあげて……\n今のあんたに言�
 r:"^r:"^(.{2,10})のお世話をしようとするも、頼りがいのでてきた姿にお世話が出来ず、寂しがるコッコロ。しかし(.{2,10})に耳かきをせがまれ、機嫌を直し甘やかして満たされるのだった。$"$"=""Kokkoro tries to take care of $1, but is unable to do so due to him trying to be more dependable, making Kokkoro lonely. However, $1 asks for ear cleaning, and Kokkoro's mood improves as she indulges and satisfies him.""
 r:"^買い出しのために町へとやってきた\nコッコロと(.{2,10})。$"="Today, Kokkoro and $1\nare out in town on a shopping trip together."
 主さま、今日は何を召し上がられますか？\nわたくし、なんでもお作りいたしますよ。=My lord, what would you like to eat today?\nI will gladly prepare anything you might desire.
-やはり主さまは殿方ですし、\nハンバーグなどはいかがでしょう？=As I thought, My Lord is a Strapping young lad,\nperhaps you would like a meaty hamburg steak?
+やはり主さまは殿方ですし、\nハンバーグなどはいかがでしょう？=As I thought, my Lord is a Strapping young lad,\nperhaps you would like a meaty hamburg steak?
 男の人はみんなハンバーグが大好きだと、\nわたくし、存じておりますので。=I am told that the vast majority of men\nare fond of hearty meals of that kind.
 はいよいらっしゃい！=How can I help you, young missus?
 そちらの挽き肉と……\nあと、そちらのお野菜もいただけますか？\n他にも──=I'd like some ground meat, and...\nLet's see, can we have some of those vegetables also?\nAside from that...
@@ -425,7 +425,7 @@ r:"^買い出しのために町へとやってきた\nコッコロと(.{2,10})�
 これを飲んで。=You should drink this.
 これで冷やして。=Here, Cool yourself down.
 飲み物までご用意していただいたのですね。\nんく、んく。冷たくて、美味しいです……=You have even brought a drink for me...\n*gulp*... *gulp*... Ah, such a refreshing sensation...
-濡らしたタオル……\n主さまがご用意してくださったのですか？=A wet towel... Did you prepare it for me, My Lord?
+濡らしたタオル……\n主さまがご用意してくださったのですか？=A wet towel... Did you prepare it for me, my Lord?
 ありがとうございます主さま、身に余る光栄です。\n……ですが……=Thank you so much, my lord. I am deeply honored.\n...And yet...
 どうしてわたくしにお世話させてくださらないのですか……？\nもうっ、もうっ。=Why will you not allow me to perform my duties...?\nOh... ohhh...!
 お買い物の時も、\nちゃんとお金を出してくださいますし……！=On our shopping trip,\nyou were the one with change prepared...
@@ -482,7 +482,7 @@ r:"^(.{2,10})のお世話を存分に堪能し、\n満足したように微笑�
 ……これが最後のお散歩、なのですから。=This will be... our final walk together, after all.
 まだほんの短い時間ではありますが、\n色々なことがございました。=We were only together for a brief time,\nbut it feels like so much longer.
 最初はごはんも食べてくれませんでしたが、\n根気強く接するうちに心を開いてくださり、\n今となっては同じベッドで眠ってくださるようになりました。=At first, you would not eat the food I offered,\nbut as I persisted, you slowly opened up,\nand lately, you are even willing to share a bed with me.
-主さまと名前を付け、眠るときは子守唄を歌い……\n柔らかい毛並みを撫でると、気持ちよさそうに鼻を鳴らして。=I gave you the name My Lord, and sang you to sleep each night... Whenever I stroke your soft fur, I can hear you murmur happily...
+主さまと名前を付け、眠るときは子守唄を歌い……\n柔らかい毛並みを撫でると、気持ちよさそうに鼻を鳴らして。=I gave you the name my Lord, and sang you to sleep each night... Whenever I stroke your soft fur, I can hear you murmur happily...
 その日々も……\n今日でおしまい、なのですね。\n……ぐすっ。=But those days must come to an end, it seems.\n...*sniffle*
 涙を拭いてあげる。=Wipe away Kokkoro's tears.
 あっ……申し訳ありません、主さま。\n喜ぶべきことなのに、涙を流してしまうなんて。=Ah... I am ever so sorry, my lord.\nShedding selfish tears on such a happy occasion...
@@ -637,7 +637,7 @@ r:"^ある日の昼下がり、(.{2,10})とコッコロは\nランドソルの�
 普段から何度も手をお繋ぎしているのに、なぜ……？　=Holding hands is an everyday occurrence for us, so why...?
 これは……緊張、なのでしょうか？\nわたくしが、主さまに……？=Am I... feeling nervous around him?\nMy own lord, of all people?
 さっきの馬車が戻ってくるよ。=The carriage from before is coming back.
-あ、主さまっ？=Ah, My Lord?
+あ、主さまっ？=Ah my Lord?
 今度は手を引かれただけなのに、\nさっきよりも動悸が激しいです……=This time he simply pulled me by the hand,\nyet my pulse is growing even stronger...
 わたくし、どうしてしまったのでしょう……？=Whatever is happening to me today...?
 え？\n危ないからこのまま手を繋いでいこう、ですって？=Huh? It's dangerous, so we should keep hold of one another's hands, you say?
@@ -645,7 +645,7 @@ r:"^ある日の昼下がり、(.{2,10})とコッコロは\nランドソルの�
 つい、咄嗟に断ってしまいました……\n主さまが、先に行ってしまいます……=I... I rejected him down out of instinct.\nMy lord is going ahead without me...
 危ない！=Watch out!
 さっきまで体が熱かったのに、\n今は急に冷たく……寂しい、のでしょうか。=My body felt so hot before, yet now it seems cold...\nAm I... feeling lonely?
-あ、あのっ、主さま！=U-um, My Lord!
+あ、あのっ、主さま！=U-um my Lord!
 やはり……手を繋いでいただいてよろしいでしょうか？\nその、指一本だけで、構いませんので……=Could we... hold hands as we walk after all, perhaps?\nEven just a single finger will be sufficient..
 どうかした？=What's wrong?
 どうぞ。=Of course.

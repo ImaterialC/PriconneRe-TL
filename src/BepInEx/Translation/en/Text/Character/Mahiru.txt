@@ -1,5 +1,7 @@
 ---Profile---
 みんなを笑顔にするお笑い牧場主=A comical farmgirl who loves making people smile
+
+【物理】中衛で、相手の動きを乱す牧場主。敵前衛をノックバックさせることで、隊列を崩し、他のキャラが使う範囲攻撃の対象に敵を押し込む。=[Physical] A farmer that disrupts enemy movement from the midguard. Knocks foes in the front row back, putting them in range of allies' area attacks.
 ---Skillsマヒル---
 ---UB---
 エリザベス=Elizabeth
@@ -15,12 +17,19 @@
 ---UB---
 エリザベスコンビネーション=Elizabeth combination
 目の前の敵１キャラに物理特大ダメージを与え、長時間スタンさせて大きく吹き飛ばし、さらにそのキャラを中心とした範囲内の敵すべてに物理大ダメージを与え、混乱させる。=Deals massive P.DMG to an enemy directly in front and inflicts Stun and knockback to the target. Then, deals large P.DMG to all enemies in the frontline and inflict confuse to the targets.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を混乱させる$"=Deals $1 P.DMG to an enemy.\nInflict Stun to the target for 5s.\nKnockback by 300 unit to the target.\nDeals $2 P.DMG to to all enemies in the frontline (Range 300).\nInflict Confuse to the targets for 4s.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を混乱させる$"=►Deals $1 P.DMG to an enemy.\n►Inflict Stun to the target for 5s.\n►Knockback by 300 unit to the target.\n►Deals $2 P.DMG to enemies within 300 range.\n►Inflict Confuse to the targets for 4s.
 ---S1---
+ミルクタンクアタック=Milk Tank Attack
+ミルクタンクアタック+=Milk Tank Attack+
 目の前の敵１キャラに物理大ダメージを与え、さらに混乱状態を付与し、大きく吹き飛ばす。=Deals moderate P.DMG to an enemy directly in front, inflicts Confusion, and knocks it back a large distance.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を混乱させる$"=Deals $1 P.DMG to an enemy.\nConfuses an enemy.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体を混乱させる$"=►Deals $1 P.DMG to an enemy.\n►Confuses an enemy.
 ---S2---
+フォークスラッシュ+=Fork Slash+
+フォークスラッシュ=Fork Slash
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n自分の物理攻撃力を(\d+)アップ$"=Cast Time: 1.4s\n►Deals $1 P.DMG to an enemy.\n►Inflicts Stun on an enemy for 1s.\n►Boosts own P.ATK by $2 for 12s.
+目の前の敵１キャラに物理大ダメージを与え、スタンさせる。さらに自分の物理攻撃力を大アップさせる。=Dealt physical damage to a character in front of you and stun them. Additionally, increases your own physical attack power.
 ---ex---
 つかみの鉄板ネタ+=Opening One-Liner+
 ---UE---
 エリザベスポンチョ=Elizabeth Poncho
+特濃【牧場】ミルク=Extra-thick [b]Ranch[/b] Milk

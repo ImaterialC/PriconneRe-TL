@@ -50,7 +50,7 @@ r:"^再び記憶喪失となった(.{2,10})は、\nギルドハウスでコッ�
 んもう、主さま……\nどうしても聞かないご様子……=Oh, my lord... \nIt seems you really don't want to hear it...
 思えば初めてお会いした頃から、\n主さまはそのような性格でございましたね。=Thinking back to when we first met, \nmy Lord has always had that kind of personality.
 記憶喪失だというのにご自身のことよりも、\nわたくしやお仲間のことをいつも気にかけてくださっておりました。\nそれは今も変わらない、主さまの一番大切な天稟でございます。=Even though he has amnesia, he's always cared about me and our friends more than himself. That hasn't changed even now, it is the most important talent of my Lord.
-そんな主さまがつないだ絆のおかげで、\n覇瞳皇帝をも打ち破ることができました。=Thanks to the bonds that my Lord has formed, we were able to overcome even Omniscient Kaiser.
+そんな主さまがつないだ絆のおかげで、\n覇瞳皇帝をも打ち破ることができました。=Thanks to the bonds that my Lord has formed, we were able to overcome even Kaiser Insight.
 串焼き屋台=Grilled skewer food stall
 主さまにお仕えするわたくしが、\nそんな主さまが重んじるものの邪魔をしてはなりませんね。=As a servant of my Lord, \nI mustn't interfere with what my Lord holds dear.
 食い逃げ犯=Dine and dash criminal
@@ -116,7 +116,7 @@ r:"^とある日の昼下がり、\nこの日もコッコロは(.{2,10})の世�
 r:"^突然すみません。\n(.{2,10})さんは……？$"="I'm sorry for the sudden interruption.\nWhere's $1...?"
 主さまでしたら、こちらにおりますが……=If you're looking for my Lord, he's right here...
 ああよかった。\n私は、彼のバイト先の郵便ギルドのメンバーなのですが……=Oh, thank goodness. I'm a member of the Postal Guild where he works part time...
-r:"^少し前から長期の休みを取りたいとは伺っていますが、\nどうしても(.{2,10})さんにも手伝ってもらえないか……\nと、今日はお願いにやってきました。"="I have been hearing that you wanted to take a long vacation, but I was wondering if you could help me out... So I came here today to ask for a favor."
+r:"^少し前から長期の休みを取りたいとは伺っていますが、\nどうしても(.{2,10})さんにも手伝ってもらえないか……\nと、今日はお願いにやってきました。$"="I have been hearing that you wanted to take a long vacation, but I was wondering if you could help me out... So I came here today to ask for a favor."
 実は配達員の人手不足や依頼の増加で、配達が滞り始めているんです……\nどうか、今日一日だけでも力を貸してもらえないでしょうか。=As a matter of fact, due to a shortage of delivery personnel and an increase in requests, deliveries have started to fall behind... Could you please lend us your strength for just today?
 ふむ……\n日頃から主さまがお世話になっておられるバイト先ですし、\n無下にお断りするわけにはまいりませんね。=Hmm... Since my lord frequents that part-time job, it wouldn't be right to decline abruptly.
 主さまは……少々体調を崩しておいでですので、\nわたくしが代わりに配達いたしましょう。=As for my Lord... He's not feeling well, \nso allow me to deliver it in his place.

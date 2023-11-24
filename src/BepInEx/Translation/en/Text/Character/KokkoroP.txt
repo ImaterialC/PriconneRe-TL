@@ -1,15 +1,17 @@
 【物理】中衛で、絶大な補助スキルを繰出す純白の巫女。味方の攻撃力とクリティカルダメージを強化しつつ、二つの全体回復スキルで味方を堅固に守護し勝利へ導く。=[Physical] A pure white miko who plays the role of mid-range support and possesses tremendous support skills. While enhancing the attack power and critical damage of allies, she defends her allies with two powerful healing skills, leading them to victory.
 
-空腹の主さま=Hungry My Lord?
+空腹の主さま=Hungr my Lord?
 突然の訪問者=Sudden Visitor
 幾重にも重なる絆=Multiple Overlap Bonds
 想い馳せる未来の姿=A Vision of the Future
 
 オーロラ・サンクチュアリ=Aurora Sanctuary
 
-自分を中心に、範囲内の味方すべてのＨＰを小回復し、ＴＰ上昇を小アップさせるフィールドを展開する。さらに味方全体の物理・魔法クリティカル時のダメージを小アップさせ、敵全体の物理・魔法防御力を小ダウンさせる。=Deploys a field that slightly restores the allies' HP within range and boost their TP by a small amount, centering on you. In addition, the P/M crit dmg of all allies is slightly increased, and the P/M.DEF of all enemies is slightly decreased.
+自分を中心に、範囲内の味方すべてのＨＰを小回復し、ＴＰ上昇を小アップさせるフィールドを展開する。さらに味方全体の物理・魔法クリティカル時のダメージを小アップさせ、敵全体の物理・魔法防御力を小ダウンさせる。=Deploys a field that Small restores the allies' HP within range and boost their TP by a small amount, centering on you. In addition, the P/M crit dmg of all allies is Small increased, and the P/M.DEF of all enemies is Small decreased.
+自分を中心に、範囲内の味方すべてのＨＰを小回復し、ＴＰ上昇を小アップさせるフィールドを展開する。さらに味方全体の物理・魔法攻撃クリティカル時のダメージを小アップさせ、敵全体の物理・魔法防御力を小ダウンさせる。=Deploys a field that Small restores the allies' HP within range and boost their TP by a small amount, centering on you. In addition, the P/M crit dmg of all allies is Small increased, and the P/M.DEF of all enemies is Small decreased.
 
-r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する\nＴＰ上昇を5アップさせるフィールドを展開する\n味方全体の物理・魔法クリティカル時のダメージを16％アップ\n敵全体の物理・魔法防御力を(\d+)ダウン$"=►Deploy a field of radius 2160 at self that restore $1/s for 18.5s\n►Deploy a field of radius 2160 at self that Boosts TP boost by 5 for 18s.\n►Boosts allies' M/P.Crit dmg by 16％ for 18s.\n►Lowers all enemies’ M/P.DEF by $2 for 18s.
+r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する\nＴＰ上昇を5アップさせるフィールドを展開する\n味方全体の物理・魔法クリティカル時のダメージを16％アップ\n敵全体の物理・魔法防御力を(\d+)ダウン$"=►Deploy a field of radius 2160 at self that restore $1/s for 18.5s\n►Deploy a field of radius 2160 at self that Boosts TP boost by 5 for 18s.\n►Boosts allies' P/M.Crit dmg by 16％ for 18s.\n►Lowers all enemies’ P/M.DEF by $2 for 18s.
+r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する\nＴＰ上昇を5アップさせるフィールドを展開する\n味方全体の物理・魔法攻撃クリティカル時のダメージを16％アップ\n敵全体の物理・魔法防御力を(\d+)ダウン$"=►Deploy a field of radius 2160 at self that restore $1/s for 18.5s\n►Deploy a field of radius 2160 at self that Boosts TP boost by 5 for 18s.\n►Boosts allies' P/M.Crit dmg by 16％ for 18s.\n►Lowers all enemies’ P/M.DEF by $2 for 18s.
 
 エアロヒーリング=Aero Healing
 エアロヒーリング+=Aero Healing+
@@ -22,3 +24,8 @@ r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃
 
 純白の天啓+=Pure White Revelation+
 純白の天啓=Pure White Revelation
+マーシフルプリンセスローブ=Merciful Princess Robe
+
+r:"^味方全体のＨＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の物理クリティカルを100アップ\n味方全体の魔法クリティカルを100アップ\n味方全体の物理・魔法攻撃クリティカル時のダメージを5％アップ$"=Cast Time: 0.66s\n►Recovers allies' HP by $1.\n►Boosts allies' P.ATK by $2 for 90s.\n►Boosts allies' M.ATK by $3 for 90s.\n►Boosts allies' P.Crit rate by 100 for 90s.\n►Boosts allies' M.Crit rate by 100 for 90s.\n►Boosts allies' P&M.Crit DMG by 5% for 90s.
+
+味方全体のＨＰを小回復する。さらに、味方全体の物理攻撃力と魔法攻撃力を特大アップさせ、物理クリティカルと魔法クリティカルを大アップし、物理・魔法攻撃クリティカル時のダメージを小アップさせる。=Small recovers HP for all allies. Furthermore, Massively boosts the P.ATK & M.ATK for all allies, greatly boosts P/M Crit Rates, and Small boosts P/M Crit DMG.

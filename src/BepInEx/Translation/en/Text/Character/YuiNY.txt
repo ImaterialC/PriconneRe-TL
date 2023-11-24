@@ -9,12 +9,12 @@
 UB
 サンライズプロテクション=Sunrise Protection
 味方全体に物理/魔法無効バリアと継続ＨＰ回復状態を付与するが、自身の魔法攻撃力を特大ダウンさせる。=Grants HP regen and a barrier that negates P.DMG and M.DMG to all allies, but lowers own M.ATK by a massive amount.
-r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する\n毎秒ＨＰを(\d+)回復する\n自分の魔法攻撃力を初期値の90%ダウン$"=Deploys Barrier that negates $1 P/M.DMG for 18s.\nRecovers HP by $2/s for 10s.\nLowers own M.ATK by 90% of base value for 18s.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する\n毎秒ＨＰを(\d+)回復する\n自分の魔法攻撃力を初期値の90%ダウン$"=►Deploys Barrier that negates $1 P/M.DMG for 18s.\n►Recovers HP by $2/s for 10s.\n►Lowers own M.ATK by 90% of base value for 18s.
 S1
 前から２番目の敵１キャラの物理攻撃力と魔法攻撃力を中ダウンさせる。=Moderately lowers the P.ATK and M.ATK of the 2nd closest enemy.
 S2
 魔法攻撃を行う全ての味方キャラの魔法攻撃力を大アップさせる。=Large boost to M-type all allies M.ATKs.
-r:"^対象の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.19s\nBoosts target allies' M.ATK by $1 for 12s.
+r:"^対象の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.19s.\n►Boosts target allies' M.ATK by $1 for 12s.
 ex
 ブライトネスニューイヤー=Bright New Year
 
@@ -22,8 +22,13 @@ Skills+
 UB
 
 S1
+ブルーミングチアーズ=Blooming Cheers
+ブルーミングチアーズ+=Blooming Cheers+
+ウィークネスペタル=Weekly Spectacular
+ウィークネスペタル+=Weekly Spectacular+
+
 前から２番目の敵１キャラの物理攻撃力と魔法攻撃力と魔法防御力とＴＰ上昇を中ダウンさせる。=Moderately lowers the P.ATK, M.ATK, M.DEF, TP Boost of the 2nd closest enemy.
-r:"^敵単体の物理攻撃力を(\d+)ダウン\n敵単体の魔法攻撃力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン\n敵単体のＴＰ上昇を(\d+)ダウン$"=Cast time: 1.05.\nLowers an enemy's P.ATK by $1 for 12s.\nLowers an enemy's M.ATK by $2 for 12s.\nLowers an enemy's M.DEF by $3 for 12s.\nLowers an enemy's TP Boost by $3 for 12s.
+r:"^敵単体の物理攻撃力を(\d+)ダウン\n敵単体の魔法攻撃力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン\n敵単体のＴＰ上昇を(\d+)ダウン$"=Cast time: 1.05s.\n►Lowers an enemy's P.ATK by $1 for 12s.\n►Lowers an enemy's M.ATK by $2 for 12s.\n►Lowers an enemy's M.DEF by $3 for 12s.\n►Lowers an enemy's TP Boost by $3 for 12s.
 S2
 
 ex

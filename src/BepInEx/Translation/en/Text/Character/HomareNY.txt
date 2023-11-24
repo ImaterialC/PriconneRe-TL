@@ -11,10 +11,10 @@
 優しい願いを憂う臥竜=A dragon who worries about a gentle wish
 臥竜の仁義=The dignity of a reclining dragon
 
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体の魔法防御力を(\d+)ダウン$"=Deals $1 M.DMG to all enemies.\nLowers all enemies` M.DEF by $2.
+r:"^敵全体に(\d+)の魔法ダメージ\n敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies` M.DEF by $2.
 敵全体に魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。敵の数に応じて、ダメージと防御力の減少量が増加する。=Deals medium M.DMG to all enemies and also reduces their M.DEF by a small amount. The amount of M.DMG and M.DEF reduction increases with the number of enemies.
 
-r:"^自分の魔法攻撃力を(\d+)アップ\n自分の魔法クリティカルを200アップ\n自分の魔法攻撃クリティカル時のダメージを10％アップ\n自分のＴＰを225回復$"=Cast time:0.59s\nBoosts own M.ATK by $1.\nBoosts own M.crit by 200 for 12s\nBoosts own M.crit dmg by 10% for 12s\nRecovers own TP by 225.
+r:"^自分の魔法攻撃力を(\d+)アップ\n自分の魔法クリティカルを200アップ\n自分の魔法攻撃クリティカル時のダメージを10％アップ\n自分のＴＰを225回復$"=Cast time:0.59s\n►Boosts own M.ATK by $1.\n►Boosts own M.crit by 200 for 12s\n►Boosts own M.crit dmg by 10% for 12s\n►Recovers own TP by 225.
 
 自分の魔法攻撃力と魔法クリティカルを特大アップ、魔法攻撃クリティカル時のダメージを小アップし、ＴＰを中回復させる。=Boosts your M.ATK and M.crit by a massive amount, increases the M.crit dmg by a small amount, and recovers TP by a medium amount.
 

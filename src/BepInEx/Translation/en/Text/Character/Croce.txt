@@ -8,23 +8,23 @@
 【物理】中衛で着脱可能な鉄腕を放つ機械人族のロボ娘。ＵＢ発動で【フルチャージ】状態になり、【バッテリー】が切れるまで強化スキルを連発し、一帯を超速圧砕する。=[Physical] A automaton girl who fires her detachable steel arms at the enemy from the midlines. When she UBs, enters "Full Charge" state and delivers powerful skills continuously until her "batteries" runs out, after which her speed greatly decreases.
 
 ギガンティックアームパンチ=Gigantic Arm Punch
-前方範囲内の敵すべてに物理大ダメージを与え、【フルチャージ】状態になり【バッテリー】を７つ充填し、１ヒットを必ずクリティカルさせる。【バッテリー】を充填している場合、このスキルがクリティカルした場合ダメージが２倍から３倍に変わる。充填されていない場合、自分の物理攻撃力を特大アップさせ行動速度を特大アップさせる。(この効果は重複する)【バッテリー】は最大７まで充填される。=Deals massive P.DMG to all enemies within range, enters [Full Charge] state, and charge up to 7 [Batteries]. This damage is guaranteed to crit. If [Batteries] are fully charged, the crits for 3x the damage. If not fully charged, instead greatly boosts her own P.ATK and small boost to her action speed. (This effect can stack up to 7)
+前方範囲内の敵すべてに物理大ダメージを与え、【フルチャージ】状態になり【バッテリー】を７つ充填し、１ヒットを必ずクリティカルさせる。【バッテリー】を充填している場合、このスキルがクリティカルした場合ダメージが２倍から３倍に変わる。充填されていない場合、自分の物理攻撃力を特大アップさせ行動速度を特大アップさせる。(この効果は重複する)【バッテリー】は最大７まで充填される。=Deals massive P.DMG to all enemies within range, enters [b]Full Charge[/b] state, and charge up to 7 [b]Batteries[/b]. This damage is guaranteed to crit. If [b]Batteries[/b] are fully charged, the crits for 3x the damage. If not fully charged, instead greatly boosts her own P.ATK and small boost to her action speed. (This effect can stack up to 7)
 最も後ろの敵１キャラに物理大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。=Deals large P.DMG to the rearmost enemy and slightly increases damage received from critical hits.
 
-【フルチャージ】中=[Full Charge]
+【フルチャージ】中=[b]Full Charge[/b]
 
 r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=►Deals $1 P.DMG to enemies within 800 range.\n►Boosts own P.ATK by $2 for 180s.\n►Boosts own action speed by 300% for 180s.
 
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを8％アップ$"=►Deals $1 P.DMG to a single enemy.\n►Reduce 8% P.Crit dmg resistance to an enemy for 12s.
 
 オーバーヒート=Overheat
-ユニオンバーストを使用してから一定回数行動後に発動し、前方範囲内の敵すべてに物理大ダメージを与え、自分のＴＰを-1000し、【フルチャージ】状態を解除する。さらに、【システムダウン】状態になり、自分のステータスアップ効果をすべて解除し、行動速度を特大ダウンさせる。(他の行動速度変化スキルと重複する)【バッテリー】をすべて消費する。=Activates after a certain number of actions after UB is used. Deals massive P.DMG to all enemies within range, reduces own TP by 1000, and removes [Full Charge] state. Additionally, enters [System Down] state, remove all buffs, and greatly decreases action speed. (This effect does not stack with other action speed alteration skills). Consumes all [Batteries].
+ユニオンバーストを使用してから一定回数行動後に発動し、前方範囲内の敵すべてに物理大ダメージを与え、自分のＴＰを-1000し、【フルチャージ】状態を解除する。さらに、【システムダウン】状態になり、自分のステータスアップ効果をすべて解除し、行動速度を特大ダウンさせる。(他の行動速度変化スキルと重複する)【バッテリー】をすべて消費する。=Activates after a certain number of actions after UB is used. Deals massive P.DMG to all enemies within range, reduces own TP by 1000, and removes [b]Full Charge[/b] state. Additionally, enters [System Down] state, remove all buffs, and greatly decreases action speed. (This effect does not stack with other action speed alteration skills). Consumes all [b]Batteries[/b].
 
 ブーステッドロケットパンチ=Boosted Rocket Punch
-最も後ろの敵１キャラに物理大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。【バッテリー】を１つ消費する。=Deals large P.DMG to the rearmost enemy character and slightly increases damage received from critical hits. This skill always lands a critical hit with each hit, and the critical damage is is tripled instead of being doubled. Consumes 1 [Battery].
+最も後ろの敵１キャラに物理大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。【バッテリー】を１つ消費する。=Deals large P.DMG to the rearmost enemy character and slightly increases damage received from critical hits. This skill always lands a critical hit with each hit, and the critical damage is is tripled instead of being doubled. Consumes 1 [b]Battery[/b].
 
 サマーソルトソニック=Somersault Sonic
-自分の物理攻撃力と物理クリティカルを中アップさせ、前方範囲内の敵すべてに物理大ダメージを与える。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。【バッテリー】を１つ消費する。=Boosts own P.ATK and P.Crit, and deals massive P.DMG to all enemies within range. This skill always lands a critical hit, and the critical damage is tripled instead of being doubled. Consumes 1 [Battery].
+自分の物理攻撃力と物理クリティカルを中アップさせ、前方範囲内の敵すべてに物理大ダメージを与える。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。【バッテリー】を１つ消費する。=Boosts own P.ATK and P.Crit, and deals massive P.DMG to all enemies within range. This skill always lands a critical hit, and the critical damage is tripled instead of being doubled. Consumes 1 [b]Battery[/b].
 
 r:"^範囲内の敵に(\d+)の物理ダメージ\n自分のＴＰを1000失わせる\n自分のステータスアップ効果を解除する\n自分の行動速度ダウン\nバッテリーを７つ消費する$"=►Deals $1 P.DMG to enemies within 800 range.\n►Reduces own TP by 1000.\n►Removes own status enhancement effects.\n►Reduces own action speed by 300% for 180s.\n►Consumes 7 batteries.
 
