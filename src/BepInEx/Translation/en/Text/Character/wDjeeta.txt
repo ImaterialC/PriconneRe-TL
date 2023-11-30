@@ -1,18 +1,20 @@
+【魔法】中衛で、他の術者と魔力を束ねる究竟の魔導士。味方への魔法攻撃支援とＴＰ回復に加え、敵陣の攻防両面の弱体化で戦況を整え、自らも強力な攻撃魔法を放つ。=[Magic] A superb wizard who governs over other mages and magic from the midline. In addition to a magical attack support and TP heals to her allies, she creates an attack and defense debuffing field to prepare for battles, while also firing powerful magic attacks.
 ##UB##
 エーテルブラスト=Æther Blast
-自分の魔法攻撃力を大アップさせ、\n目の前の敵１キャラに魔法特大ダ\nメージを与える。さらに自分に【万\n象の刻印】を付与する。=Boosts own M.ATK and deals large damage to nearest enemy. Applies a crest of all creation to self, this lasts 18s.
-r:"^自分の魔法攻撃力を(\d+)アップ\n敵単体に(\d+)の魔法ダメージ\n自分に万象の刻印を付与する$"=►Boosts own M.ATK by $1\n►$2 M.DMG to nearest enemy.\n►Infuses self with: Crest of all creation. 
+自分の魔法攻撃力を大アップさせ、目の前の敵１キャラに魔法特大ダメージを与える。さらに自分に【万象の刻印】を付与する。=Boosts own M.ATK and deals large damage to nearest enemy. Applies a [b]Crest of All Creation[/b] to self, this lasts 18s.
+r:"^自分の魔法攻撃力を(\d+)アップ\n敵単体に(\d+)の魔法ダメージ\n自分に万象の刻印を付与する$"=►Boosts own M.ATK by $1\n►$2 M.DMG to nearest enemy.\n►Infuses self with: [b]Crest of All Creation[/b]. 
 
 #S1#
 ブラックヘイズ=Black Haze
 ブラックヘイズ+=Black Haze+
-目の前の敵１キャラを中心に魔法ダ\nメージフィールドと、魔法攻撃力と\n魔法防御力を中ダウンさせるフィー\nルドを展開する。=Deploys a Magicical field that deals M.DMG every second. The field also lowers M.ATK and M.DEF around the nearest enemy.
-r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する\nフィールド内の敵の魔法攻撃力(\d+)ダウン\nフィールド内の敵の魔法防御力(\d+)ダウン$"=►Deploys a magical field that deals $1 M.DMG every second.\n►Lowers enemy M.ATK by $2.\n►Lowers enemy M.DEF by $3.
+目の前の敵１キャラを中心に魔法ダメージフィールドと、魔法攻撃力と魔法防御力を中ダウンさせるフィールドを展開する。=Deploys a Magicical field that deals M.DMG every second. The field also lowers M.ATK and M.DEF around the nearest enemy.
+r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する\nフィールド内の敵の魔法攻撃力(\d+)ダウン\nフィールド内の敵の魔法防御力(\d+)ダウン$"=►Deploys a magical field within 400 range that deals $1 M.DMG/s for 12s.\n►Lowers all enemies’ M.ATK within 400 range by $2 for 12s.\n►Lowers Lowers all enemies’ M.DEF within 400 range by $3 for 12s.
 
 #S2#
 チェイサー=Chaser
-味方全体の魔法攻撃力を大アップさ\nせ、魔法クリティカルを中アップ\nし、魔法攻撃クリティカル時のダ\nメージを小アップさせ、さらにＴＰ\nを小回復させる。自分に【万象の刻\n印】が付与されている場合、この魔\n法攻撃力と魔法クリティカルと魔法\n攻撃クリティカル時のダメージアッ\nプの効果量が上昇する。=►Boosts allies' M.ATK, M.CRIT AND M.CRIT DMG and Recovers TP.\n If Djeeta has a crest of all creation, the buffs applied will scale. 
-r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ\n味方全体の魔法クリティカル時のダメージを10％アップ\n味方全体のＴＰを75回復$"=►Boosts allies' M.ATK by $1.\n►Boosts allies' M.CRIT by $2\n►Boosts allies' M.CRIT DMG by 10%.\n►Recovers allies' TP by 75.
+味方全体の魔法攻撃力を大アップさせ、魔法クリティカルを中アップし、魔法攻撃クリティカル時のダメージを小アップさせ、さらにＴＰを小回復させる。自分に【万象の刻印】が付与されている場合、この魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージアップの効果量が上昇する。=Boosts allies' M.ATK, M.CRIT AND M.CRIT DMG and Recovers TP.\n If Djeeta has a [b]Crest of All Creation[/b], the buffs applied will scale. 
+r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ\n味方全体の魔法クリティカル時のダメージを10％アップ\n味方全体のＴＰを75回復$"=►Boosts allies' M.ATK by $1 for 12s.\n►Boosts allies' M.CRIT rate by $2 for 12s.\n►Boosts allies' M.CRIT DMG by 10% for 12s.\n►Recovers allies' TP by 75.
 
 #EX#
+魔導の達士=Master of Magic
 魔導の達士+=Master of Magic+

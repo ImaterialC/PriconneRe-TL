@@ -1,0 +1,21 @@
+プレシャスストライク=Precious Strike
+ロイヤルアフェクション=Royal Affection
+ロイヤルアフェクション+=Royal Affection+
+フローズンスラッシュ=Frozen Slash
+フローズンスラッシュ+=Frozen Slash+
+聖夜の晩餐パワー=Holy Night Supper Power
+聖夜の晩餐パワー+=Holy Night Supper Power+
+
+【魔法】中衛でみんなに笑顔を届ける腹ペコサンタ王女。前線で敵の攻撃を耐えながら範囲内の味方の防御サポートと敵の防御ダウンまでこなし、聖夜に勝利の輝きを灯す。=[Magic] A hungry princess Santa bringing smiles to everyone's homes from the midlines! She is able to tank enemy hits in the frontlines while buffing the defense of all allies around her, and simultaneously debuffing the defense of her enemies. With these skills, she shines the light of victory onto the Holy Night.
+
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。さらに、自分に物理ダメージカット効果と魔法ダメージカット効果を付与してＨＰを中回復する。=Deals massive M.DMG to the enemy character in front, slightly decreases their M.DEF. Additionally, grants herself a Physical Damage Cut and Magic Damage Cut effect, then moderately recovers HP.
+
+最もＨＰが低い味方１キャラのＨＰを中回復させる。さらに、そのキャラを中心とした範囲内の味方すべての物理防御力と魔法防御力を中アップさせる。=Moderately recovers the HP of the ally character with the lowest HP. Furthermore, within the area centered around that character, moderately boosts the P.DEF and M.DEF of all allies.
+
+目の前の敵１キャラに魔法大ダメージを与える。さらに自分を中心とした範囲内の味方すべてに物理/魔法無効バリアを展開し、ＴＰを小回復させる。=Deals massive M.DMG to the enemy character in front. Furthermore, deploys Physical/Magic Nullification Barriers on all allies within the area centered around herself and slightly recovers TP.
+
+r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン\n自分が受ける物理ダメージを15％カット\n自分が受ける魔法ダメージを15％カット\n自分のＨＰを(\d+)回復$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 18s.\n►Reduces P.DMG taken by 15% for 18s.\n►Reduces M.DMG taken by 15% for 18s.\n►Recovers own HP by $3.
+
+r:"^味方単体のＨＰを(\d+)回復\n範囲内の味方の物理防御力を(\d+)アップ\n範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 1.05s\n►Recovers ally's HP by $1.\n►Boosts allies' P.DEF within 300 range by $2 for 12s.\n►Boosts allies' M.DEF within 300 range by $3 for 12s.
+
+r:"^敵単体に(\d+)の魔法ダメージ\n(\d+)ダメージ分の物理魔法無効バリアを展開する\n範囲内の味方のＴＰを50回復$"=Cast time: 0.59s\n►Deals $1 M.DMG to an enemy.\n►Deploys barrier over allies within 300 range that nullifies P/M.DMG by $2 for 12s.\n►Recovers allies' TP within 300 range by $2.

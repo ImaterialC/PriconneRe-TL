@@ -1,5 +1,6 @@
-読書、お散歩=Reading, walk
-【物理】最後衛から高火力スキルを連発するスナイパー。ダメージを与えつつ、ＴＰを回復するスキルを持ち、強力な一撃のユニオンバーストを、素早く発動する。=[Physical] A sniper who fires off a barrage of formidable attack skills from RG. as well as dealing damage, her skills also yield TP, allowing her to use her to spam UB.
+柏崎 栞=Kashiwazaki Shiori
+読書、お散歩=Reading, Walking
+【物理】最後衛から高火力スキルを連発するスナイパー。ダメージを与えつつ、ＴＰを回復するスキルを持ち、強力な一撃のユニオンバーストを、素早く発動する。=[Physical] A sniper who fires off a barrage of formidable attack skills from the rearguard. As well as dealing damage, her skills also yield TP, allowing her to use her powerful Union Burst more quickly.
 
 読書が趣味の病弱少女=A frail girl who enjoys reading
 
@@ -17,7 +18,7 @@
 Skills
 UB
 エンチャントアロー=Enchanted Arrow
-目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を大アップさせる。=Deals large P.DMG to an enemy directly in front. Large boost to own P.ATK.
+目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を大アップさせる。=Deals large P.DMG to an enemy directly in front. Large boost to own P.ATK
 r:"^自分の物理攻撃力を(\d+)アップ\n敵単体に(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to an enemy.
 S1
 目の前の最大３キャラまでの敵に物理小ダメージを与え、さらに自分のＴＰを小回復させる。=Deals small P.DMG to up to 3 enemies directly in front. Recovers own TP by a small amount.
@@ -30,7 +31,8 @@ Skills+
 UB
 
 S1
-目の前の最大３キャラまでの敵に物理小ダメージを与える。このダメージは、遠い敵ほどダメージが増加する。さらに自分のＴＰを小回復させる。=Deals moderate P.DMG to all enemies in range. Damage boost based on the number of targets.
+目の前の最大３キャラまでの敵に物理小ダメージを与える。このダメージは、遠い敵ほどダメージが増加する。さらに自分のＴＰを小回復させる。=Deals small P.DMG to all enemies in range. Damage boost based on the number of targets.
+目の前の最大３キャラまでの敵に物理中ダメージを与える。このダメージは、遠い敵ほどダメージが増加する。さらに自分のＴＰを小回復させる。=Deals moderate P.DMG to all enemies in range. Damage boost based on the number of targets.
 r:"^１番目に近い敵単体に(\d+)の物理ダメージ\n２番目に近い敵単体に(\d+)の物理ダメージ\n３番目に近い敵単体に(\d+)の物理ダメージ\n自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to closest target.\n►Deals $2 P.DMG to 2nd closest target.\n►Deals $3 P.DMG to 3rd closest target.\n►Recovers own TP by $4.
 S2
 

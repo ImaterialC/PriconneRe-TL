@@ -222,7 +222,7 @@ sr:"^\[3C404E\]\[3C404E\]イベント限定ギルドハウス家具\n「\[-\]\[F
 メモリアルマップボード=Memorial Map Board
 なかよしＸ　Ｍｋ―Ⅱ=Friendship X MK-II
 マジカルラブリーソード=Magical Lovely Sword
-マジカルシャイニーレイピア=Magical Shiny Lapia
+マジカルシャイニーレイピア=Magical Shiny Rapier
 １stアニバーサリーフラワーポール=1st Anniversary Flower Pole
 １stアニバーサリーモニュメント=1st Anniversary Monument
 sr:"^プリぐるみ（([べ-・ー]{2,11})）$"=Pri-gurumi ($1)

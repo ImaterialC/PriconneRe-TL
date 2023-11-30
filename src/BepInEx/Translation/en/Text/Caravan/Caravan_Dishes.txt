@@ -12,7 +12,8 @@
 リノの「時は金時」かき氷=Rino's "Time is Money" Shaved Ice
 シズルの愛情\n盛り盛りハンバーグ=Shizuru's Affection-Loaded Hamburger Steak
 アオイの疾走サンドイッチ=Aoi's Sprinting Sandwich
-
+クウカの緊縛触手活け造り=Kuuka's Living Bondage Tentacle
+クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
 カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Apettite-doubling Kebab Sandwich
@@ -29,6 +30,8 @@
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
 次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.[-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Mobile Type Food] next turn, earn 2,000 miles on the spot. [-]
+
 次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
 次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 next turn.\nThe turn counter will not increase.
 マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You can move by skipping the Mile Tiles. Effect lasts for 2 turns.
@@ -82,6 +85,7 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
 ---Red---
+[90A0BC]マイルマスをスキップして移動できる。効果は2\nターンの間継続する。[-]=[90A0BC]You can move by skipping the Mile Tiles. Effect lasts for 2 turns.[-]
 [90A0BC]次に振るダイスが2個に増える。出目の合計の数だけ進める。[-]=[90A0BC]You will roll 2 dice next turn and move as many tiles as their sum.[-]
 [90A0BC]次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a guaranteed 1 next turn. The turn counter will not increase.[-]
 [90A0BC]次に振るダイスの目が必ず「5」になる。[-]=[90A0BC]You will roll a guaranteed 5 next turn.[-]
@@ -99,6 +103,9 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 
 ---Dish descriptions---
 ---Red---
+数多くのドM妄想をしてきたクウカの中で最近のマイブームである触手をモチーフとした活造り。新鮮な蛸足が、濃厚なうま味と共に物理的に絡み付き身も心も縛りあげられる様な体験ができる。=Among Kuuka's many masochistic fantasies, it was made with tentacles as its motif. Fresh octopus legs, along with their rich flavor, could physically entwine and bind her body and soul.
+
+
 ペコリーヌが丹精込めて握った特大おにぎり。ごはんは命のエネルギーを体現しているらしい。普通の人が満腹に感じる量の倍のサイズの中に最高級の具を閉じ込めた【美食殿】らしい一品。=Pecorine's, meticulously crafted, extra-large onigiri. It is said that rice embodies the energy of life. This dish represents the 【Gourmet Guild】, enclosing the finest ingredients within a size double that of what an ordinary person would consider filling.
 
 コッコロが皆のことを思って用意したサラダ。\n栄養バランスも考えられたうえに腹持ちもよく\n味だけではなく見た目にも気を配られている。\n冒険への活力を与えてくれる慈愛溢れる一品。=A salad prepared by Kokkoro with everyone in mind. It not only nutritionally balanced and filling, but it is also visually appealing. It is a loving dish that provides energy for adventures.
