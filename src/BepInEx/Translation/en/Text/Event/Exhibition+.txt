@@ -1,0 +1,26 @@
+アドバンス効果対象キャラ=Characters Eligible for Advanced Effects
+アドバンス効果詳細=Advanced Effect Details
+極大=Maximum
+絶大=Huge
+特大=Massive
+大=Large
+中=Medium
+小=Small
+
+全キャラ　アドバンス効果詳細=All Characters Advanced Effect Details
+r:"^効果(\d)$"=Effect $1
+sr:"^バトル開始後(\d+)秒間(.{2,7}?)(極大|絶大|特大|大|中|小)\n?アップ$"=$3 boost to own $2 for $1s at start of battle.
+バトル開始後90秒間物理防御力と魔法防御力極大アップ=Maximum boost to own P.DEF and M.DEF for 90s at start of battle.
+バトル開始後90秒間ＨＰが０になると倒れずにHP回復（１回のみ）=For 90s after the battle begins, When your HP reaches 0, recover own HP (only once) without falling.
+バトル開始後90秒間魔法防御力極大アップ、行動不能無効=For 90s after the battle begins, magic defense maxed out, and immune to immobility state.
+
+
+こちらから、より強大な力を得た魔物に挑戦することができます。\nあなたとみなさんの総力を合わせ、全身全霊で挑みましょう！=From here, you can challenge monsters that have gained greater power. Together, you and everyone else, let's give it our all!
+EXHIBITION＋は、SPECIALがさらに強力になったボスバトルです。\nボスチケットは消費されませんが、討伐までの挑戦回数に制限がござい\nます。アドバンス効果で強化されたキャラと共に強敵に挑みましょう。=EXHIBITION+ is a boss battle that has become even more powerful. Boss tickets will not be consumed, but there is a limit to how many challenges you can take before subjugating them. Challenge strong opponents with characters enhanced by the Advanced Effect.
+全キャラ詳細=All Character Details
+このバトルでは以下のキャラに\nアドバンス効果が付与されます。=In this battle, the following characters will be granted the Advanced Effect.
+キャラアイコンをタップすることで効果の詳細を確認できます。=Tap the character icon to view details of the effect.
+
+
+SPECIALはバトルモードが３段階変化するバトルです。\nより豪華な報酬やミッション報酬をゲットしましょう。期間中１体しか討伐できないので編成を工夫して挑戦しましょう。=Special Battle Mode is a battle that changes three levels of battle mode. You will receive more rewards and mission rewards. You can only subjugate once of them during the event, so try to organize them.
+EXHIBITIONでは、SPECIALのボスと何度も戦えます。\nまた、バトルのログを保存して振り返ることができるので、\n独自の攻略法を見つけたり、様々な編成を試してみましょう。=In EXHIBITION, you can fight the boss of SPEACIAL over and over again. You can also save your battle logs and look back at them, so try to find your own unique strategy and organize them in various ways.

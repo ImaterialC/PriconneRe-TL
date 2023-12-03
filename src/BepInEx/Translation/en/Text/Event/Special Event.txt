@@ -101,7 +101,6 @@ r:"^スタン(\d+)秒$"=Stun $1s
 ボスが完全討伐されたため、\n以下の報酬を獲得しました。=Boss was completely defeated,\nthe following items have been received.
 完全討伐報酬獲得=Complete Subjugation Reward Acquisition
 
-アドバンス効果対象キャラ=Charas with advantage effects
 撃退報酬=Repellent reward
 難易度変更=Difficulty
 

@@ -1,1 +1,1 @@
-[FF7C4E,D62146]BGMを設定しなかった場合や、設定後に外した場合は\n次にアプリを起動した際にデータが削除されます。[-]=[FF7C4E,D62146]If you don't set BGM or remove it after setting,\nthe data will be deleted when you start the app.\n[-]
+[FF7C4E,D62146]BGMを設定しなかった場合や、設定後に外した場合は\n次にアプリを起動した際にデータが削除されます。[-]=[FF7C4E,D62146]If you don't set the BGM or remove it afterwards,\nthe data will be deleted when you next launch the app.\n[-]

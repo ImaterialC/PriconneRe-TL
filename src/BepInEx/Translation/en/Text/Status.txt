@@ -13,6 +13,7 @@ r:"^\[3C404E\]魔防 (\d+)\[-\]$"="[3C404E]M.DEF $1[-]"
 HP吸収=HP Drain
 HP自動回復=HP Regen
 TP上昇=TP Boost
+ＴＰ上昇=TP Boost
 TP自動回復=TP Regen
 TP消費軽減=TP Retain
 物理攻撃力=Physical ATK

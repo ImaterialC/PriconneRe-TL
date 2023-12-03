@@ -13,7 +13,7 @@ r:"^メインクエスト([\s\S]*)クリアで解放$"=Clear Main Quest\n$1
 r:"^メインクエスト([\s\S]*)クリアで$"=Main Quest $1 has been cleared.
 ---Birthday Registration---
 誕生日登録=Birthday Registration
-登録した誕生日はプロフィールから確認できます。=Registered birthday can be check on profile.
+登録した誕生日はプロフィールから確認できます。=Registered birthday can be seen on your profile.
 好きな日付を誕生日として登録できます。=You can register any date as your birthday.
 誕生日を後から変更することはできません。=You cannot change your birthday later.
 あなたの誕生日を入力してください。\n誕生日から7日間、キャラたちのお祝い\nメッセージを聞くことができます。=Please enter your birthday.\nYou can listen to the characters' celebration\nmessages for seven days from your birthday.
@@ -22,7 +22,7 @@ r:"^メインクエスト([\s\S]*)クリアで$"=Main Quest $1 has been cleared.
 誕生日を登録しました。=Birthday has registered at:
 r:"^(.{1,10}) さん$"=$1-san
 
----Profile
-‐年‐月合計スコア=No participate yet.
+---Profile---
+‐年‐月合計スコア=No participation yet.
 ‐階=No info
 ‐位=No rank

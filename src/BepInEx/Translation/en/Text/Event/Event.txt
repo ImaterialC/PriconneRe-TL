@@ -169,9 +169,6 @@ sr:"^\[3C404E\](.+?)との信頼度エピソード\n「\[FFBB00,CE4F00\](.+?)\[-
 sr:"^イベント「エピソード・オブ・パイレーツ　([\s\S]+)」のスペシャルエピソードが解放されました。$"="The special episode of the event "Episode of \n$1" has been unlocked."
 sr:"^(.+)(（.{2,10}）)?が(\n)?解放されました。$"=$1$2$3 has been Unlocked.
 
-
-
-
 イベント限定キャラ解放=Event Limited Character has been Unlocked
 条件を達成したためスキップチケットを使用することができるようになりました。=Because you have met the conditions\nYou can now use Skip Tickets.
 sr:"^(.+?)との信頼度(エピソード)?$"=$1's Intimacy $2
@@ -192,9 +189,6 @@ sr:"「([^」]+)」\nのスペシャルエピソードが解放されました�
 強力なボス、VERY HARDが登場します。\nVERY HARDボスは１日に１体討伐が可能です。\n準備をしっかりして、気を引き締めて挑みましょう。=This event features a powerful Very Hard difficulty boss.\n it can only be defeated once each day.\n You will need to prepare well if you hope to conquer it.
 討伐証交換は、報酬ゲットのチャンスです。\n報酬の中には、イベントに登場するキャラ{{A}}もあります。\nたくさん集めてキャラを仲間にしましょう。=The Victory Medal Exchange is an opportunity to obtain rewards.\nAmong these rewards are Memory Shards for characters related to the Event. Try to collect plenty of them to unlock new party members!
 スペシャルバトルはバトルモードが３段階変化するバトルです。\nより豪華な報酬やミッション報酬をゲットしましょう。期間中１体しか討伐できないので編成を工夫して挑戦しましょう。=Special battle is a battle in which the battle mode changes in 3 mode. Get more luxurious rewards and mission rewards. Only once can be subdued during the period, so let's devise an organization and challenge.
-
-SPECIALはバトルモードが３段階変化するバトルです。\nより豪華な報酬やミッション報酬をゲットしましょう。期間中１体しか討伐できないので編成を工夫して挑戦しましょう。=Special Battle Mode is a battle that changes three levels of battle mode. You will receive more rewards and mission rewards. You can only subjugate once of them during the event, so try to organize them.
-EXHIBITIONでは、SPECIALのボスと何度も戦えます。\nまた、バトルのログを保存して振り返ることができるので、\n独自の攻略法を見つけたり、様々な編成を試してみましょう。=In EXHIBITION, you can fight the boss of SPEACIAL over and over again. You can also save your battle logs and look back at them, so try to find your own unique strategy and organize them in various ways.
 
 エキシビションモードは、SPECIALのボスと何度も戦えます。\nまた、バトルのログを保存して振り返ることができるので、\n独自の攻略法を見つけたり、様々な編成を試してみましょう。=Exhibition mode allows you to fight SPECIAL bosses many times. You can also save and look back at battle logs, so find your own strategy and experiment with different formations.
 イベントお疲れ様です！\n皆さんのご活躍ぶりには\nいつも感謝しています=Congratulations on the event! I am always grateful for your success!
