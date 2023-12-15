@@ -1,0 +1,56 @@
+グルメチェイサー号、全速前進です☆\nゴール目指して今日もがんばりましょう！\n──あれっ？=Gourmet Chaser, full speed ahead!☆ Let's aim for the finish line and do our best today! ──Huh?
+ハッハァ！\n見つけたよ、腹ペコ王女どもッ！=Haha! I found you, Hungry Princesses!
+あれは……\n【バンディ・シスターズ】！？=Is that...the Bandy Sisters?!
+こっちの世界まで追いかけてきたっての！？\nマジしつっこいわね……！=You chased us all the way to this world too?! You really are persistent...!
+しっ、しつこくて、ごめんなさいっ……=I-I'm sorry for being so persistent...
+いひっ♡\nこっちの世界でも～\nザコお兄さんたちをべっこべこにしてあげよっかな～？　って♡=Ihi~♡ Even in this world Maybe I should make the zako onii-san and the others all sticky? ♡
+えっ？\nそんなベコベコにされましたっけ──=Huh? Did she really make fun of us like that?
+忘れちまったなら、これからそうしてやるさ！\nシャークキャノン──撃てェっ！=If you've forgotten, I'll do just that! Shark Cannon! Fire!
+どんどぉーん♡=Thud thud thud♡
+っぶなぁっ！？\nうちのオニギリが穴あきドーナツになるとこだったじゃないの！\nあんたらも土手っ腹に風穴あけてやるわよ！？=That was close! Our Onigiri was about to turn into a donut with a hole in it! I’ll blow a hole through your guts, too!
+えぇっ！？\nそ、それじゃ食べたものが全部お腹の穴から出てっちゃいますっ、\nもったいない……！=Whaaat?! Th-Then everything I ate would come out of my stomach, what a waste...!
+も～バカナ姉またバカなコト言ってぇ。\nてかビンボーショーすぎだし──そだ♡\nアイツらからイロイロぶんどって、お腹いっぱいになっちゃお～♡=Geez, stupid sister, you're saying stupid things again. And it's way too much of a lame show~ That's right♡ Let's get all excited and full from them~♡
+オニギリさま、全速力で駆け抜けてくださいませ！\n動いていれば、砲撃はそう当たらないはずでございます！=Onigiri-sama, please run as fast as you can! As long as you're moving, the bombardment shouldn't hit you that hard!
+ぴぎゅぴぎゅ～っ！！=Pigyupigyugyuuu!!
+あ～っ！\nにげんなし～！=Aaah! Don't be shy!
+ゴールがわたしたちを待ってますので♪\nさようならー☆=The goal is waiting for us♪ Goodbye-☆
+ハッ、面白い！\nならついでに、先にゴールする権利も奪ってやろうじゃないか！\n行くよワカナ、フブキ！=Hah, interesting! In that case, I'll steal your right to reach the goal first! Let's go, Wakana, Fubuki!
+「あいあ～い♡」\n「は、はいっ」="Okay~~~♡"\n"Y-Yes!"
+
+フブキ・ワカナ=Fubuki & Wakana
+ターン開始時に確率でライバルが登場いたします。\nライバルより先にギルド管理協会出張所を目指してくださいまし。\n見事先に到着できると追加ボーナスを獲得できるようです。=Your rival will appear at the start of your turn. Please head to the guild branch office before your rival. If you arrive before him, you will receive an additional bonus.
+
+ライバルと同じマスに止まると、特別なミニゲームが始まるようです。\nミニゲームではバンディ・シスターズが妨害をしてきますので、\n妨害をかわしてトレジャーをたくさんGETいたしましょう、主さま。=Once you're on the same space as your rival, a special minigame will begin. The Bundy Sisters will interfere in the minigame, so let's dodge the interference and get lots of treasure, Master.
+
+ターン開始時にお仲間が登場して、しばし冒険をご一緒できますよ。\nお仲間は、さまざまな効果で主さまの冒険の手助けをしてくださいます。\n……むぅ。わたくしも負けてはいられません。=At the start of your turn, your companions will appear and will accompany you on your adventures for a while. They will assist you in your adventure with various effects. ...Hmm. I cannot lose to them.
+
+r:"^\[FF7C4E\,D62146\](\d+)\[-\]\[3C404E\]マス前\[-\]$"=[FF7C4E,D62146]2[-][3C404E] Tile(s) at the front[-]
+r:"^\[FF7C4E\,D62146\](\d+)\[-\]\[3C404E\]マス後\[-\]$"=[FF7C4E,D62146]2[-][3C404E] Tile(s) at the back[-]
+[FF7C4E,D62146]0[-][3C404E]マス[-]=[FF7C4E,D62146]0[-][3C404E]Tile[-]
+r:"^ダイスの目を(\d)回振りなおせる\n振りなおせない場合、マイルを入手する$"=You can reroll the dice $1x\nIf you can't reroll, you will get miles.
+
+r:"^ダイスの目を(\d)回振りなおせる$"=You can reroll the dice $1x.
+【仲間】ダイスの目を2回振りなおせる=[Friend] Can re-roll dice twice
+【仲間】ダイスの目を1回振りなおせる=[Friend] Can re-roll dice once
+【仲間】出目が4のダイスを同時に振ってどちらか選択できる=[Friend] You can choose between your dice roll or 4.
+出目が4のダイスを同時に振ってどちらか選択できる=You can choose between your dice roll or 4.
+料理を1つ入手する=Obtain 1 dish
+【仲間】料理を1つ入手する=[Friend] Obtain 1 dish
+出目の合計が7以上になるまで\nダイスを追加で振れる=You can roll additional dice until the total number of dice is 7 or higher
+【仲間】出目の合計が7以上になるまで\nダイスを追加で振れる=[Friend] You can roll additional dice until the total number of dice is 7 or higher
+最大50％割引確定のショップを開く\n（1品100％割引あり）=Open a shop with a 50% discount (100 percent discount on 1 item)
+【仲間】最大50％割引確定のショップを開く\n（1品100％割引あり）=[Friend] Open a shop with a 50% discount (100 percent discount on 1 item)
+
+画面の左右をクリックか左右の矢印キー移動できますよ！\nおジャマに当たると、少しの間、動けなくなるので要注意です！\n上手に避けて、フルーツをたくさん集めましょう！=You can either click on the left or right arrow keys on the screen! If you get hit by a jammer, you won't be able to move for a while, so be careful! Dodge it well and gather lots of fruit!
+練習する=Practice
+練習中=During practice
+
+r:"^\[3C404E\]ダイスの目を(\d)回振りなおせる\n\（あと\[D13250\](\d)\[-\]回\）\[-\]$"=[3C404E]Can re-roll dice $1x ([D13250]$2[-] more)
+
+
+
+
+
+ライバル登場予告=Rival Appearing Announcement
+ライバルの登場が近づくと警告アイコンが出現します。\n危険度は3段階あり、青→黄→赤の順番で\n登場する可能性が高まります。\n所持している料理を確認し、登場に備えましょう。=As your rival approaches, a warning icon will appear. There are three levels of danger, with each level signifying their likelihood of appearing on the next turn. Prepare your items accordingly for their arrival.
+落ちてくるフルーツや宝箱をキャッチしましょう！\n画面の左右をタッチすると移動できますよ！=Let's catch some fruit and treasure chests that are falling! Touch the left and right sides of the screen to move!

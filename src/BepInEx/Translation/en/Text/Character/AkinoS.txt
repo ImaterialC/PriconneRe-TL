@@ -1,19 +1,19 @@
-【物理】前衛で、優雅なバカンスを過ごす夕映えの令嬢。敵が魔法攻撃をする場合に効果を大幅に上げる２種の範囲攻撃と攻防両面の支援スキルで、盛夏の勝鬨を上げる。=[Physical] The heiress, enjoying her vacation in the sunset from the frontlines. She has an AoE attack skill and a support skill for both attack/defense, both of which greatly increase in effect if the enemy attacks with magic. With these skills, she brings on victory in the hottest summer heat!
+【物理】前衛で、優雅なバカンスを過ごす夕映えの令嬢。敵が魔法攻撃をする場合に効果を大幅に上げる２種の範囲攻撃と攻防両面の支援スキルで、盛夏の勝鬨を上げる。=[Physical] A young heiress basking in the sunset, spending her vacation on the frontlines with grace. She rouses her summer-time spirit with both offensive and defensive support, along with her two AoE attacks that all increase with effectiveness when facing an enemy wielding magic.
 
 --UB--
 ウィスタリアンスプラッシュ=Wisterian Splash
-前方範囲内の敵すべてに物理大ダメージを与え、自分の物理攻撃力を大アップする。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに物理攻撃力の上昇量がアップする。=Deals massive P.DMG to all enemies in the frontal area and greatly boosts her own P.ATK power. If the target is an enemy using M.ATKs, the damage is further increased. Additionally, if there are enemies using M.ATKs, the increase in P.ATK power is boosted.
+前方範囲内の敵すべてに物理大ダメージを与え、自分の物理攻撃力を大アップする。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに物理攻撃力の上昇量がアップする。=Deals massive P.DMG to all enemies in an area at the front and greatly boosts her own P.ATK. If the target primarily uses M.ATK, damage is increased and the increase in P.ATK is boosted.
 r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n魔法攻撃をする敵がいない場合、自分の物理攻撃力を(\d+)アップ\n魔法攻撃をする敵がいる場合、自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG if enemy is P-type.\n►Deals $2 P.DMG if enemy is M-type.\n►Boosts own P.ATK by $3 if enemy is M-type.\n►Boosts own P.ATK by $4 if there are M-type enemy.
 
 --S1--
 ミッドサマーエッジ=Midsummer Edge
 ミッドサマーエッジ+=Midsummer Edge+
-前方範囲内の敵すべてに物理小ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに自分のＴＰ上昇を小アップする。=Deals small P.DMG to all enemies in the frontal area. If the target is an enemy using M.ATKs, the damage is increased. Additionally, if there are enemies using M.ATKs, her TP Boost is further boosted.
+前方範囲内の敵すべてに物理小ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに自分のＴＰ上昇を小アップする。=Deals small P.DMG to all enemies in an area at the front. If the target primarily uses M.ATK, the damage is increased and TP will be slightly boosted.
 r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n魔法攻撃をする敵がいる場合、自分のＴＰ上昇を(\d+)アップ$"=►Deals $1 P.DMG if enemy is P-type.\n►Deals $2 P.DMG if enemy is M-type.\n►Boosts own TP Boost by $3 if there are M-type enemy.
 
 --S2--
 ヒートアップソウル=Heat-Up Soul
-味方全体の物理攻撃力を大アップさせる。魔法攻撃をする敵がいる場合、物理攻撃力の上昇量がアップし、さらに魔法防御力を大アップする。=Small boosts the P.ATK power of all allies. If there are enemies using M.ATKs, the increase in P.ATK power is enhanced, and additionally, their M.DEF is greatly boosted.
+味方全体の物理攻撃力を大アップさせる。魔法攻撃をする敵がいる場合、物理攻撃力の上昇量がアップし、さらに魔法防御力を大アップする。=Small boost to the P.ATK of all allies. If there are enemies that primarily use M.ATK, the boost to P.ATK is increased, and additionally, their M.DEF will be greatly boosted.
 r:"^魔法攻撃をする敵がいない場合、味方全体の物理攻撃力を(\d+)アップ\n魔法攻撃をする敵がいる場合、味方全体の物理攻撃力を(\d+)アップ\n魔法攻撃をする敵がいる場合、味方全体の魔法防御力を(\d+)アップ$"=►Boosts allies' P.ATK by $1 if enemy is M-type.\n►Boosts allies' P.ATK by $2 if there are M-type enemy.\n►Boosts allies' M.DEF by $3 if there are M-type enemy.
 
 --EX--

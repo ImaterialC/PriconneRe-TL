@@ -18,4 +18,4 @@ r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)�
 
 r:"^味方単体のＨＰを(\d+)回復\n範囲内の味方の物理防御力を(\d+)アップ\n範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 1.05s\n►Recovers ally's HP by $1.\n►Boosts allies' P.DEF within 300 range by $2 for 12s.\n►Boosts allies' M.DEF within 300 range by $3 for 12s.
 
-r:"^敵単体に(\d+)の魔法ダメージ\n(\d+)ダメージ分の物理魔法無効バリアを展開する\n範囲内の味方のＴＰを50回復$"=Cast time: 0.59s\n►Deals $1 M.DMG to an enemy.\n►Deploys barrier over allies within 300 range that nullifies P/M.DMG by $2 for 12s.\n►Recovers allies' TP within 300 range by $2.
+r:"^敵単体に(\d+)の魔法ダメージ\n(\d+)ダメージ分の物理魔法無効バリアを展開する\n範囲内の味方のＴＰを50回復$"=Cast time: 0.59s\n►Deals $1 M.DMG to an enemy.\n►Deploys barrier over allies within 300 range that nullifies P/M.DMG by $2 for 12s.\n►Recovers allies' TP within 300 range by 50.

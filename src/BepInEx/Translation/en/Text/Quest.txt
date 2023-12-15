@@ -61,6 +61,7 @@ Lv上限に達した状態で消費したスタミナは\nマスターコイン�
 再戦する=Retry
 
 r:"^\[3C404E\]挑戦回数を\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパーティで\nもう一度クエストをプレイします。\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Attempts to play the quest\none more time with the same party.[-]
+同じパーティでもう一度\nクエストをプレイします。\n\nよろしいですか？=Attempts to play the quest\none more time with the same party.\n\nConfirm?
 
 r:"^\[3C404E\]スタミナを\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパーティで\nもう一度クエストをプレイします。\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Stamina to play the quest\none more time with the same party.[-]
 

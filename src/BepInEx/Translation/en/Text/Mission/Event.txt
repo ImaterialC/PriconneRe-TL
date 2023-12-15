@@ -7,6 +7,9 @@ SPECIALのボス=Special Boss
 [3C404E]MODE2のお供のモンスターを全て倒そう[-]=[3C404E]Defeat all monsters on MODE 2.[-]
 sr:"^(\[[0-9A-F]{6}\])?スペシャルかエキシビションのバトルで(.+)を(\d)回以内に討伐しよう(\[-\])?$"=$1Defeat the $2 within $3 attempts in SP or Exhibition Battles.$4
 
+EXHIBITION＋でボスを5回以内に討伐しよう=Clear the Exhibition＋ within 5 attempts.
+[FFFFFF]EXHIBITION＋でボスを5回以内に討伐しよう[-]=[FFFFFF]Clear the Exhibition＋ within 5 attempts.[-]
+
 sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)を討伐しよう(\[-\])?$"=$1Defeat $3.$4
 sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)のHPを(\d+)まで減らそう(\[-\])?$"="$1Reduce $3's HP to $4.$5"
 r:"^(\[[0-9A-F]{6}\])?討伐証交換の報酬ラインナップを(\d)回リセットしよう(\[-\])?$"=$1Reset the reward lineup of subjugation exchange $2 Time.$3

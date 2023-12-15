@@ -15,8 +15,13 @@ r:"^味方単体の魔法攻撃力を(\d+)アップ\n味方単体の行動速度
 エンジェルコーデ+=Angel Code+
 エンジェルウィッシュ=Angel Wish
 エンジェルウィッシュ+=Angel Wish+
+ヨリからのぬいぐるみ=A stuffed animal from Yori
 
 
 やきもきするのは誰のせい=Who's fault is
 エンジェル・オン・アイス=Angel on Ice
 伝えてリトルエンジェル=Tell me Little Angel
+
+味方全体の魔法攻撃力を大アップさせ、ＨＰを中回復させる。さらに最も近くの味方１キャラの魔法攻撃クリティカル時のダメージを小アップさせる。=Boosts the M.ATK of all allies massively and moderately restores HP. Additionally, slightly boosts M.CRIT DMG for the nearest ally. 
+
+r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体のＨＰを(\d+)回復\n味方単体の魔法攻撃クリティカル時のダメージを10％アップ$"=Cast Time: 0.59s\n►Boosts allies' M.ATK by $1.\n►Recovers HP for all allies by $2.\n►Boosts allies' M.CRIT DMG by 10% for 12s.

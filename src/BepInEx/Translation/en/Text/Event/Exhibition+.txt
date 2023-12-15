@@ -15,6 +15,7 @@ sr:"^バトル開始後(\d+)秒間(.{2,7}?)(極大|絶大|特大|大|中|小)\n?
 バトル開始後90秒間魔法防御力極大アップ、行動不能無効=For 90s after the battle begins, magic defense maxed out, and immune to immobility state.
 
 
+r:"^【残り挑戦回数 ([0-9/]+)】$"=[Attempt Left: $1]
 こちらから、より強大な力を得た魔物に挑戦することができます。\nあなたとみなさんの総力を合わせ、全身全霊で挑みましょう！=From here, you can challenge monsters that have gained greater power. Together, you and everyone else, let's give it our all!
 EXHIBITION＋は、SPECIALがさらに強力になったボスバトルです。\nボスチケットは消費されませんが、討伐までの挑戦回数に制限がござい\nます。アドバンス効果で強化されたキャラと共に強敵に挑みましょう。=EXHIBITION+ is a boss battle that has become even more powerful. Boss tickets will not be consumed, but there is a limit to how many challenges you can take before subjugating them. Challenge strong opponents with characters enhanced by the Advanced Effect.
 全キャラ詳細=All Character Details

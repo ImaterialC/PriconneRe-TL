@@ -1,0 +1,22 @@
+【物理】後衛で、甘美なひと時を堪能する聖夜の女商人。最も遠い味方へのＴＰ回復や、初弾に追加効果のある攻撃で敵の弱体化と味方の強化を行い、勝利の舞台を整える。=[Physical] A rear-guard, a holy night female merchant who enjoys sweet moments. She weakens enemies and strengthens allies with TP recovery for the farthest ally and attacks with additional effects on the first shot, setting the stage for victory.
+
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせる。バトル開始後、初弾のユニオンバーストはさらに追加で目の前の敵１キャラの物理防御力を小ダウンさせる。=Deals massive P.DMG to the enemy character in front, moderately decreases their P.DEF. After the battle starts, the initial Union Burst additionally slightly decreases the P.DEF of the enemy character in front.
+
+目の前の敵１キャラに物理大ダメージを与え、物理攻撃力を中ダウンさせ、物理防御力を小ダウンさせる。バトル開始後、初弾のこのスキルは自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせ、物理防御力を中アップさせる。=Deals massive P.DMG to the enemy character in front, moderately decreases their P.ATK and slightly decreases their P.DEF. After the battle starts, the initial use of this skill within the area centered around herself greatly boosts the P.ATK and moderately boosts the P.DEF of all allies.
+
+自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせ、継続ＴＰ回復状態を付与する。さらに最も遠くの味方１キャラのＴＰを小回復させる。=Greatly boosts the P.ATK of all allies within the area centered around herself, and grants continuous TP recovery. Additionally, slightly recovers the TP of the ally character farthest away.
+
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n初使用時、敵単体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►On initial use, Lowers an enemy's P.DEF by $3 for 180s.
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理攻撃力を(\d+)ダウン\n敵単体の物理防御力を(\d+)ダウン\n初使用時、範囲内の味方の物理攻撃力を(\d+)アップ\n初使用時、範囲内の味方の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 12s.\n►Lowers an enemy's P.DEF by $3 for 12s.\n►On initial use, boosts allies' P.ATK within 150 range by $4 for 180s.\n►On initial use, boosts allies' P.DEF within 150 range by $5 for 180s.
+
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n毎秒ＴＰを10回復する\n味方単体のＴＰを100回復$"=►Boosts allies' P.ATK within 150 range by $1 for 12s.\n►Recovers an ally's TP within 150 range by 10/s for 12s.\n►Recovers an ally's TP by 100.
+
+スパークリングドロップ=Sparkling Drop
+ゴージャスグリッター=Gorgeous Gritter
+ラッピングキャロル=Wrapping Carroll
+聖夜のデラックスコース=Seiya’s Deluxe Course
+ゴージャスグリッター+=Gorgeous Gritter+
+ラッピングキャロル+=Wrapping Carroll+
+聖夜のデラックスコース+=Seiya’s Deluxe Course+

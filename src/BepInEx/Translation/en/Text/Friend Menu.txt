@@ -45,7 +45,7 @@ r:"^プレイヤーLv:([0-9～ ]+)$"=Player Lv: $1
 フレンドバトル=Friendly Battle
 対戦可能なフレンド=Fight with Friends
 対戦可能なクランメンバー=Fight with Clan
-
+フレンド申請されているプレイヤーです。=This is a player who has sent a friend request.
 
 フレンドが設定しているパーティはありません。=There are no parties set up by friends.
 フレンド解除=Unfriend

@@ -1,18 +1,18 @@
 ヒューマン、エルフ=Humanfolk, Elvenfolk
 松嵜麗、堀江由衣=Rei Matsuzaki, Yui Horie
-気高き友情で結ばれた好敵手=Rivals bound by noble friendship
+気高き友情で結ばれた好敵手=Rivals bound by noble camaraderie
 -月-日=N/A
 -型=N/A
 切磋琢磨=Working Hard
 
-【物理】中衛で背を預けあう最高の好敵手で親友の二人。味方の物理攻撃をサポートしつつＨＰとＴＰを継続回復しＨＰが多いほど威力が増すＵＢで、共に勝利の道を征く。=[Physical] Two best rivals and friends who depend on each other's back, acting as mid-range physical supports. They continuously heal their allies' HP and TP, and their Union Burst increases in power based on their own HP. Together, they march towards victory.
+【物理】中衛で背を預けあう最高の好敵手で親友の二人。味方の物理攻撃をサポートしつつＨＰとＴＰを継続回復しＨＰが多いほど威力が増すＵＢで、共に勝利の道を征く。=[Physical] Two best friends in the midlines who, despite their rivalry, have each other's backs when it counts. The duo can increase the P.ATK of their allies, along with recovering their HP and TP. They can pave a road to victory using their UB that grows in power the more HP they have.
 
-メルクリウス財団、サレンディア救護院=Mercurius Foundation, Sarendia Orphan
+メルクリウス財団、サレンディア救護院=Merc. Foundation, Saren. Orphanage
 
 未来はふわふわ未確定=The future is fluffy and uncertain
-３人だからできたこと=Three people made it possible
+３人だからできたこと=A Trio Made It So
 三角形の旅路=Triangle Journey
-好敵手たちの共闘関係=Co-op relationship between rivals
+好敵手たちの共闘関係=Cooperation Between Worthy Rivals
 
 ノーブルブレイズ=Noble Blaze
 目の前の敵１キャラに物理特大ダメージを与える。自分の残りＨＰが高い程、このダメージがアップする。さらにその敵を中心として物理ダメージフィールドを展開する。=Deals massive P.DMG to an enemy directly in front. The higher the remaining HP, the higher this damage. In addition, it develops P.DMG fields around the enemies.
@@ -21,7 +21,7 @@ r:"^敵単体に(\d+)の物理ダメージ\n毎秒(\d+)の物理ダメージを�
 
 ファイアエンハンスメント=Fire Enhancement
 ファイアエンハンスメント+=Fire Enhancement+
-味方全体の物理攻撃力を特大アップさせ、物理クリティカルと物理攻撃クリティカル時のダメージを小アップさせる。=Massively boost the physical attack power of all allies, and slightly boost physical critical damage and physical attack critical damage.
+味方全体の物理攻撃力を特大アップさせ、物理クリティカルと物理攻撃クリティカル時のダメージを小アップさせる。=Massively boost the P.ATK of all allies, slightly boost P.CRIT rate and P.CRIT damage.
 r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを(\d+)アップ\n味方全体の物理攻撃クリティカル時のダメージを10％アップ$"=Cast time:0.59s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.Crit Rate by $2 for 12s.\n►Boosts allies' P.Crit Dmg by 10% for 12s.
 
 
@@ -29,5 +29,5 @@ r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリ
 自分の周囲に範囲内の味方すべてのＨＰとＴＰを小回復するフィールドを展開する。さらに自分のＴＰを大回復する。=Develop a field around you that recovers a small amount of HP and TP for all allies within range. In addition, recover a large amount of your TP.
 r:"^毎秒ＴＰを10回復するフィールドを展開する\n毎秒ＨＰを(\d+)回復するフィールドを展開する\n自分のＴＰを280回復$"=Cast time:0.59s\n►Deploy a Field (Radius 300) around herself for 12.5s.\n►Recovers allies' HP within field by $1/s.\n►Recovers allies' TP within field by 10/s.\n►Recovers own's TP by 280.
 
-ノーブルグリッター=Noble glitter
-ノーブルグリッター+=Noble glitter+
+ノーブルグリッター=Noble Glitter
+ノーブルグリッター+=Noble Glitter+

@@ -1,7 +1,7 @@
 ------
 r:"^(\d+)マイル([×\d]{2})? 獲得！$"=$1$2 Miles acquired!
-獲得トレジャーはありません。=No Treasures obtained.
-獲得トレジャー=Obtained Treasures
+獲得トレジャーはありません。=No treasure(s) obtained.
+獲得トレジャー=Obtained Treasure(s)
 個=
 アイテム獲得数=Acquired Items 
 マイル=Miles

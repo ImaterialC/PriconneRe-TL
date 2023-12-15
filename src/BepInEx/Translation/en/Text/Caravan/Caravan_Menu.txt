@@ -2,6 +2,23 @@
 ボーナス一覧=Bonus List
 経過ターン=Elapsed Turns
 
+
+グルメチェイサー号=Gourmet Chaser
+バンディシャーク号=Bundyshark
+追加ボーナス発生中!=Additional bonus in progress!
+
+バンディシャーク号との距離=Bundyshark Distance
+目標到着ボーナス=Target arrival bonus
+到着までにかかったターン数=Total Turns
+ライバルに勝利=Won
+r:"^(\d+)ターン休み$"=$1 Turn(s) Break
+練習する=Practice
+練習中=During practice
+ライバル=Rival
+ライバル勝利ボーナス=Rival victory bonus
+
+r:"^ダイスを(\d+)個入手した。$"=Obtained $1 dice.
+
 [FF7C4E,D62146]1[-][3C404E]ターン[-]=[FF7C4E,D62146]1[-][3C404E] Turn[-]
 r:"^\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]ターン\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Turns[-]
 チェックポイント=Checkpoint
@@ -36,9 +53,9 @@ r:"^(\d+)ターン以内にギルド管理協会出張所へ到着$"=$1 more tur
 残り99ターン=99 turns left
 
 ---Dish overwrite---
-上書き前効果=Pre-overwriting effect
-上書き後効果=Overwriting effect
-この料理を食べると発動中の効果が上書きされます。=Eating this Dish overwrites the previous one's effects.
+上書き前効果=Current Effect
+上書き後効果=New Effect
+この料理を食べると発動中の効果が上書きされます。=Eating this Dish will overwrite the effects of the previous one.
 
 ---Bonus List---
 r:"^(\d+)ターン以内に到達$"=Reach within $1 turns
@@ -83,7 +100,7 @@ r:"^[3B3F4D](.+)を売却して\n[-][FFBB00,CE4F00](\d+)[-][3B3F4D]マイルを�
 ---Treasure List---
 所持トレジャー一覧=Possessed Treasure List
 トレジャーを所持していません。=No Treasure in your possession.
-現在トレジャーを所持していません。=You don't possess any treasure on you at the moment.
+現在トレジャーを所持していません。=You do not have any treasure at the moment.
 
 ---Shop at Map---
 マイルショップ=Mile Shop
@@ -112,7 +129,7 @@ r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B
 補助系=Support
 移動系=Movement
 サブ=Sub
-サブ効果=Subeffect
+サブ効果=Sub-effect
 メイン効果=Main effect
 料理詳細=Dish Details
 獲得料理=Acquired Dish
@@ -125,12 +142,14 @@ r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 食事済=Eaten
 以下の料理を食べます。よろしいですか？=Eat the following Dish?
 
+
+
 料理所持数上限=Maximum Dishes Reached
 料理が所持上限に達しています。\n新たに料理を入手した場合、超過分の売却が必要です。\n\nこのままダイスを振ってもよろしいですか？=Your dish inventory is currently at its limit.\nIf you acquire new dishes, you will need to sell the excess ones.\nRoll the Dice anyway?
 所持数がいっぱいです。売却する料理を選んでください。=Inventory full. Select Dish(es) to sell.
 r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]/8\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/8[-]
 
-現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or cooking.\n\nIs that all right?
+現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or eating food.\n\nIs this OK?
 
 ---New Season---
 
@@ -140,10 +159,12 @@ r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(700)$"=Caravan Coin (
 新シーズンが始まったため、\n所持していたトレジャーをコインに変換しました。=Since the new season has begun,\nall your treasure has been converted into coins.
 
 ---Tutorial Kokkoro---
-皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Let's embark on an adventure with Onigiri-sama on the Gourmet Chaser. Roll the dice and move forward on the map, aiming for the Guild Management Association branch office where Karin-sama is waiting.
-ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach there, the more bonus you can get. Let's exchange coins for items at the shop.
-料理からは、冒険を有利に進める効果が得られますよ。1ターンに1品\nまで召し上がることができ、同じカテゴリーの効果は重複いたしません。\n…あぁっペコリーヌさま、おかわりは次のターンまで我慢でございます。=You can get beneficial effects from cooking to advance your adventure. You can eat up to one Dish per turn, and the effects of the same category do not stack. ... Ahh, Pecorine-sama, please wait until the next turn for seconds.
-道中には様々なマスがございます。「マイルマス」で集めたマイルは料理\nやトレジャーの購入にお使いいただけますよ。「トレジャーマス」や\n「料理マス」ではスロットを回して出たアイテムを獲得できるとか。=There are various tiles along the way. You can use the Miles you collected at the "Mile Tile" to buy Dishes or Treasures. At the "Treasure Tile" and "Dish Tile", you can spin the slot and get the items that come out.
-「ショップマス」ではマイルを用いたアイテムの購入が可能です。\n「イベントマス」では嬉しい効果を得られるイベントが起きるようです。\n「移動マス」に止まると、そこからさらに先へ進めるのでございますね。=You can buy items with Miles at the "Shop Tile". At the "Event Tile", you can get happy effects from events that happen. If you stop at the "Move Tile", you can move further ahead from there.
-「ミニゲームマス」に止まったら、ミニゲームに挑戦いたしましょう。\n結果に応じた報酬が獲得できるのですね。「福引券マス」は福引券を入手\nでき、「ガチャマス」ではマイルガチャが回せるようですよ、主さま。=If you stop at the "Minigame Tile", let's challenge the minigame. You can get rewards according to the results. The "Lottery Ticket Tile" allows you to get a Lottery Ticket, and the "Gacha Tile" allows you to spin the Mile Gacha, my Lord.
+皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Everyone, let's set off on an adventure aboard the Gourmet Chaser with Onigiri-sama. Roll the dice and move forward on the map, our goal is the Guild Management Association office, where Lady Karin is waiting for us.
+ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach it, the bigger the bonus you will receive. Let's collect coins and trade them for items at the shop.
+料理からは、冒険を有利に進める効果が得られますよ。1ターンに1品\nまで召し上がることができ、同じカテゴリーの効果は重複いたしません。\n…あぁっペコリーヌさま、おかわりは次のターンまで我慢でございます。=You can eat up to one dish per turn to gain beneficial effects, however, effects from dishes in the same category will not stack. ...Ahh, Lady Pecorine, please wait until the next turn for seconds.
+道中には様々なマスがございます。「マイルマス」で集めたマイルは料理\nやトレジャーの購入にお使いいただけますよ。「トレジャーマス」や\n「料理マス」ではスロットを回して出たアイテムを獲得できるとか。=There are various tiles that you can land on. You can use the Miles obtained from a "Mile Tile" to buy Dishes and Treasures. At the "Treasure Tile" and "Dish Tile", you can spin a wheel and receive items.
+「ショップマス」ではマイルを用いたアイテムの購入が可能です。\n「イベントマス」では嬉しい効果を得られるイベントが起きるようです。\n「移動マス」に止まると、そこからさらに先へ進めるのでございますね。=You can buy items with Miles at a "Shop Tile". At an "Event Tile", a variety of things can happen that impart useful effects. If you stop on a "Move Tile", you can continue moving.
+「ミニゲームマス」に止まったら、ミニゲームに挑戦いたしましょう。\n結果に応じた報酬が獲得できるのですね。「福引券マス」は福引券を入手\nでき、「ガチャマス」ではマイルガチャが回せるようですよ、主さま。=You will be able to play a Minigame when you stop on a "Minigame Tile", and you will receive rewards based on your performance. The "Lottery Ticket Tile" allows you to obtain a Lottery Ticket, and the "Gacha Tile" allows you to spin the Mile Gacha, my Lord.
 
+1～14マス差で勝利=Win by one to fourteen tiles
+15マス差以上で勝利=Win by more than 15 tiles

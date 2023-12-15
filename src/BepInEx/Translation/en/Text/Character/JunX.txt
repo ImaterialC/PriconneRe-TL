@@ -19,3 +19,13 @@ r:"^敵単体に(\d+)の物理ダメージ\n(\d+)ダメージ分の物理魔法�
 ブレッシングホーン+=Blessing Horn+
 セイントエンハンス=Saint Enhancement
 セイントエンハンス+=Saint Enhancement+
+聖女仮面の鎧=Armor of the Holy Maiden Mask
+
+
+最も後ろの味方から前方範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップし、ＴＰを小回復する。=From the rearmost ally to all allies within the front range, greatly boosts the P.ATK, massively boosts P.CRIT, and slightly recovers TP.
+
+
+範囲内の味方の物理攻撃力を8610アップ\n範囲内の味方の物理クリティカルを100\nアップ\n範囲内の味方のＴＰを100回復=Ally within AoE's Physical ATK increased by 8610, ally'sPhysical Critical restored by 100, allied's TP recovered by 100
+
+
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを100アップ\n範囲内の味方のＴＰを100回復$"=Cast time: 1.795s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.Crit Rate within 150 range by 100 for 12s.\n►Recovers allies' TP within 150 range by 100.

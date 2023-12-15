@@ -16,15 +16,20 @@
 クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
-カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Apettite-doubling Kebab Sandwich
+カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Appetite-Doubling Kebab Sandwich
 タマキの金運招くレインボーたい焼き=Tamaki's Rainbow Wealth Fortune Taiyaki
+ランファの世話焼き三昧肉じゃが=Ranpha's Grilled Meat and Potato
 ---Green---
-クリアの彩り華やかバラエティ弁当=Clear's Colorful Variety Bento
+クリアの彩り華やかバラエティ弁当=Quria's Colorful Variety Lunch Box
 
+
+ワカナの節約腹八分目カレー=Wakana's Savory Belly Eighth Curry
 ---Dish effects---
 ---Red---
 次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice next turn and move as many tiles as their sum.
 次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 next turn. The turn counter will not increase.
+次に振るダイスの目が必ず「2」になる。=You will roll a guaranteed 2 next turn.
+次に振るダイスの目が必ず「3」になる。=You will roll a guaranteed 3 next turn.
 次に振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 next turn.
 次に振るダイスの目が必ず「6」になる。=You will roll a guaranteed 6 next turn.
 ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=You will roll a guaranteed 4 for the next 3 turns.
@@ -110,38 +115,36 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 数多くのドM妄想をしてきたクウカの中で最近のマイブームである触手をモチーフとした活造り。新鮮な蛸足が、濃厚なうま味と共に物理的に絡み付き身も心も縛りあげられる様な体験ができる。=Among Kuuka's many masochistic fantasies, it was made with tentacles as its motif. Fresh octopus legs, along with their rich flavor, could physically entwine and bind her body and soul.
 
 
-ペコリーヌが丹精込めて握った特大おにぎり。ごはんは命のエネルギーを体現しているらしい。普通の人が満腹に感じる量の倍のサイズの中に最高級の具を閉じ込めた【美食殿】らしい一品。=Pecorine's, meticulously crafted, extra-large onigiri. It is said that rice embodies the energy of life. This dish represents the 【Gourmet Guild】, enclosing the finest ingredients within a size double that of what an ordinary person would consider filling.
+ペコリーヌが丹精込めて握った特大おにぎり。ごはんは命のエネルギーを体現しているらしい。普通の人が満腹に感じる量の倍のサイズの中に最高級の具を閉じ込めた【美食殿】らしい一品。=Pecorine's meticulously crafted, oversized onigiri. It is said that the rice embodies the energy of life. A typical dish for the【Gourmet Guild】, enclosing the finest ingredients within a portion size double that of what a normal person would consider to be filling.
 
-コッコロが皆のことを思って用意したサラダ。\n栄養バランスも考えられたうえに腹持ちもよく\n味だけではなく見た目にも気を配られている。\n冒険への活力を与えてくれる慈愛溢れる一品。=A salad prepared by Kokkoro with everyone in mind. It not only nutritionally balanced and filling, but it is also visually appealing. It is a loving dish that provides energy for adventures.
+コッコロが皆のことを思って用意したサラダ。\n栄養バランスも考えられたうえに腹持ちもよく\n味だけではなく見た目にも気を配られている。\n冒険への活力を与えてくれる慈愛溢れる一品。=A salad that Kokkoro prepared with everyone in mind. It's an extremely delicate yet satisfying blend of presentation, nutrition and taste. A dish of overflowing compassion that imparts all the energy needed for adventure.
 
-キャルが食べたい物を挟み込んだハンバーガー。香ばしいパンとお肉の香りが食欲を刺激する。魔物でない素材で作られた、冒険中に食べるにはゴージャスすぎる一品、とキャルは信じている。=A hamburger filled with Kyaru's favorite dish. The aroma of toasted bread and meat stimulates the appetite. Kyaru believes it's a luxurious dish made with non-monster ingredients, perfect for eating during an adventure.
+キャルが食べたい物を挟み込んだハンバーガー。香ばしいパンとお肉の香りが食欲を刺激する。魔物でない素材で作られた、冒険中に食べるにはゴージャスすぎる一品、とキャルは信じている。=A hamburger using Kyaru's favorite ingredients. The aroma of toasted buns and meat whets the appetite. Being a dish made entirely with non-monster ingredients, Kyaru believes it's a waste to eat such a luxurious meal on the road.
 
-リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Riri's kashiwa-mochi is one of the best... carefully crafted using the best ingredients. Failed attempts were consumed by Riri herself, making it a very high-end product in terms of unit price.
+リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Riri's finest kashiwa-mochi... among the ones she made. In addition to the usage of top-class ingredients, Riri eats any failed attempts herself, making it a very costly dish per unit. 
 
-プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=It's a steamed bun filled with ingredients carefully selected by Precia. Based on her request, it is several times larger than a regular pork bun. According to Clear, the chef in charge, the taste and volume are outstanding, guaranteeing a happy experience without a doubt.
+プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=A steamed pork bun filled with ingredients chosen by Precia. At her request, it is several times larger than a normal pork bun. According to Quria, the chef in charge; the taste and volume are incredible, satisfaction is all but guaranteed♪experience without a doubt.
 
-クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=Croce's potato salad, made with full power. She originally intended to make galette, but accidentally squashed it and made a course correction. Regardless of the process, the taste is exceptionally delicious.
+クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=This potato salad was made by Croce at full power. Her intention was to make a potato galette, but she accidentally crushed it, so she pivoted and made this instead. Regardless of what happened, it's still very tasty.
 
-リマがネネカにもらったリンゴで作った秘密の\nスイーツ。爽やかな酸味と濃厚な甘さがまるで\n魔法のようなバランスでお互いを引きたてており\n食べた者をたちまち虜にしてしまうという。=A secret dessert made from apples that Rima had received from Neneka. It is said that the refreshing sourness and rich sweetness balance each other out like magic, captivating anyone who eats it in an instant.
+リマがネネカにもらったリンゴで作った秘密の\nスイーツ。爽やかな酸味と濃厚な甘さがまるで\n魔法のようなバランスでお互いを引きたてており\n食べた者をたちまち虜にしてしまうという。=A hidden dessert made from an apple that Rima had received from Neneka. The refreshing sourness and rich sweetness complement each other to form a truly magical balance, instantly captivating anyone who takes a bite.
 
-クレジッタが考案した、ジオ・テオゴニアで流通\nしているチョコの貨幣の盛り合わせ。一見すると\n金貨を口に入れるおバカさんではあるが、通貨を\n食べるという背徳感が隠し味となっている。=An assortment of chocolate coins distributed in Geo Teogonia, devised by Creditta. At first glance, she seems like an idiot who puts gold coins in her mouth, but the secret ingredient behind her is the sense of immorality that comes from eating currency.
+クレジッタが考案した、ジオ・テオゴニアで流通\nしているチョコの貨幣の盛り合わせ。一見すると\n金貨を口に入れるおバカさんではあるが、通貨を\n食べるという背徳感が隠し味となっている。=An assortment of chocolate coins in circulation within Geo Teogonia, invented by Creditta. At first, it might seem stupid to eat your own money, but the feeling of immorality that comes with consuming currency makes for an acquired taste.
 
-ニノンがジオ・テオゴニアに持ち込んだ特別な\n寿司。厳選された新鮮な魚介を使った逸品だが、\n一部のネタは、寿司のセオリーを逸脱したニノン\n我流のものに仕上がっている。=A special type of sushi that Ninon brought to Geo Theogonia. It's made with carefully selected fresh seafood, but some of the ingredients are made in Ninon's own style, which deviates from the sushi theory.
+ニノンがジオ・テオゴニアに持ち込んだ特別な\n寿司。厳選された新鮮な魚介を使った逸品だが、\n一部のネタは、寿司のセオリーを逸脱したニノン\n我流のものに仕上がっている。=A special sushi that Ninon brought to Geo Teogonia, only the freshest seafood was used in it's creation. Ultimately though, it's her unconventional usage of alternative ingredients that elevates this dish into a masterpiece.
 
-お姉ちゃんが弟くんのために心を込めて作った\nスペシャルなハンバーグ。アツアツの肉汁と共に\n溢れんばかりの愛が詰まっており、一口食べる\nだけで、走り回りたくなるような美味しさ。=Onee-chan put her heart and soul into making this special hamburg steak for her brother. It's filled with overflowing love along with the hot meat juices, and just one bite makes me want to run around.
-
-可愛い妹がお兄ちゃんのために心を込めて作った\nスペシャルなかき氷。一口食べるとたちどころに\nクールな甘さが精神を研ぎ澄まし、いかなる\nお得をも見逃さない要塞賢母と化すという。=A special shaved ice made with all the love of a cute little sister for her big brother. One bite, and it instantly sharpens your spirit with its cool sweetness, turning you into a fortress of wisdom that never misses any opportunity.
+可愛い妹がお兄ちゃんのために心を込めて作った\nスペシャルなかき氷。一口食べるとたちどころに\nクールな甘さが精神を研ぎ澄まし、いかなる\nお得をも見逃さない要塞賢母と化すという。=A special serving of shaved ice made with fiery passion, from an adorable little sister to her dearest brother. Just one bite and the cold, heart-melting sweetness will hone your senses, turning you into a veritable fountain of wisdom that never misses a bargain.
 
 お姉ちゃんが弟くんのために心を込めて作った\nスペシャルなハンバーグ。アツアツの肉汁と共に\n溢れんばかりの愛が詰まっており、一口食べる\nだけで、走り回りたくなるような美味しさ。=A special hamburger made with all the love of a big sister for her little brother. It's packed with overflowing love, along with piping hot meat juices. Just one bite, and it's so delicious that you'll want to run around.
 
 ---Yellow---
-アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special lunch basket together. The cheerful dishes filled with hopes for adventures with friends will make various events along the way feel like one rank higher.
+アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special picnic basket together. Their excitement for this trip with their friends is packed into every single delicious dish. Eating them fills you with joy and ensures that the next event will be just that bit more special.
 
-カヤとイノリが弁当代わりに持ってきたケバブ。\nイノリ行きつけの店の硬派な味わいで、ギャング\nとしてのやる気が一人3倍、コンビで6倍となり\n下剋上を成し遂げるパワーが湧く……らしい。=The kebab that Kaya and Inori brought as a substitute for lunch. The tough and robust flavor from Inori's favorite restaurant gives it three times the energy of each individual gang member. When enjoyed as a duo, it provides six times the power to achieve a revolution from the bottom up... or so they say.
+カヤとイノリが弁当代わりに持ってきたケバブ。\nイノリ行きつけの店の硬派な味わいで、ギャング\nとしてのやる気が一人3倍、コンビで6倍となり\n下剋上を成し遂げるパワーが湧く……らしい。=Instead of typical lunches, Kaya and Inori brought this Kebab from Inori's favorite restaurant. They claim that the robust savory flavor gives them three times the motivation (six times as a duo) to power on through and achieve their goals as the underdog... apparently.
 
-タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=The concept of a taiyaki, brought to Geo Theogonia by Tamaki and her friends, has blended with the local culture and given birth to a modified sweet treat. This rainbow-colored, magical treat is said to be several times sweeter than the taiyaki of Landosol.
+タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=After Tamaki and her friends introduced Geo Teogonia to taiyaki, the locals took the concept and adapted it into this magical sweet treat. This iridescent dessert is said to be several times sweeter than Landosol's taiyaki.
 
 ---Green---
-クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Clear has prepared an adventure bento box since early morning. The side dishes are diverse and all of them are exquisite. The contents are kept secret from everyone, making it a delightful surprise until you open the lid and find out.
+クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria woke up very early to prepare this lunch box for the adventure. There is a variety of dishes, all of them exquisite, but it's true contents are kept secret until lunch time, making everyone tremble in anticipation when it's time to open the lid.
 
 
