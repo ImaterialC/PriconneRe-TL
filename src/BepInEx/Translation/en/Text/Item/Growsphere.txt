@@ -31,7 +31,6 @@
 キャラの大いなる力を呼び醒ますア\nイテム。=An item that invokes the great power of the character.
 r:"^グロウスフィア /\n? Lv(\d+)$"=Growsphere / Lv$1
 r:"^専用装備(.)グロウスフィア\n? \/ Lv(\d+)$"=Unique Equipment-$1 Growsphere / Lv$2
-
 強化できるLvまでLvアップする=Level up to the Lv cap.
 
 

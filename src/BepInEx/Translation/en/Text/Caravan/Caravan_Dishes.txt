@@ -32,6 +32,8 @@
 次に振るダイスの目が必ず「3」になる。=You will roll a guaranteed 3 next turn.
 次に振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 next turn.
 次に振るダイスの目が必ず「6」になる。=You will roll a guaranteed 6 next turn.
+次に振るダイスの目が必ず「7」になる。=You will roll a guaranteed 8 next turn.
+次に振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 next turn.
 ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=You will roll a guaranteed 4 for the next 3 turns.
 
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
@@ -75,6 +77,8 @@
 【料理】ダイスの目が必ず「4」になる=[Cooking] You will roll a guaranteed 4 next turn.
 【料理】ダイスの目が必ず「5」になる=[Cooking] You will roll a guaranteed 5 next turn.
 【料理】ダイスの目が必ず「6」になる=[Cooking] You will roll a guaranteed 6 next turn.
+【料理】ダイスの目が必ず「7」になる=[Cooking] You will roll a guaranteed 7 next turn.
+【料理】ダイスの目が必ず「8」になる=[Cooking] You will roll a guaranteed 8 next turn.
 【料理】ダイスの目が1回目は必ず「8」に、2回目は必ず「1」になる=[Cooking] You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.
 【料理】ダイスの目が1回目は必ず「2」に、2回目は必ず「7」になる=[Cooking] You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
 【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
@@ -136,6 +140,9 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 可愛い妹がお兄ちゃんのために心を込めて作った\nスペシャルなかき氷。一口食べるとたちどころに\nクールな甘さが精神を研ぎ澄まし、いかなる\nお得をも見逃さない要塞賢母と化すという。=A special serving of shaved ice made with fiery passion, from an adorable little sister to her dearest brother. Just one bite and the cold, heart-melting sweetness will hone your senses, turning you into a veritable fountain of wisdom that never misses a bargain.
 
 お姉ちゃんが弟くんのために心を込めて作った\nスペシャルなハンバーグ。アツアツの肉汁と共に\n溢れんばかりの愛が詰まっており、一口食べる\nだけで、走り回りたくなるような美味しさ。=A special hamburger made with all the love of a big sister for her little brother. It's packed with overflowing love, along with piping hot meat juices. Just one bite, and it's so delicious that you'll want to run around.
+
+バンディ・シスターズの昨夜の夕食カレー。作り\n過ぎて食べきれずにいたものをワカナがお裾分け\nしてくれた。寝かされていたためしっかりと味の\n染みた、極上の二日目カレーとなっている。=The Bundy Sisters' dinner curry from last night. Wakana shared what she had made too much and couldn't eat. Since she'd been put to sleep, it was a first-class second-day curry with a clear flavor.
+
 
 ---Yellow---
 アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special picnic basket together. Their excitement for this trip with their friends is packed into every single delicious dish. Eating them fills you with joy and ensures that the next event will be just that bit more special.

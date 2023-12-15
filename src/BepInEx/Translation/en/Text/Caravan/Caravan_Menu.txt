@@ -141,6 +141,8 @@ r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 食事確認=Meal Confirmation
 食事済=Eaten
 以下の料理を食べます。よろしいですか？=Eat the following Dish?
+ワカナの施し=Wakana alms
+敗北=Defeat
 
 
 

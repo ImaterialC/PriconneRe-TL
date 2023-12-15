@@ -24,8 +24,8 @@
 
 ターン開始時にお仲間が登場して、しばし冒険をご一緒できますよ。\nお仲間は、さまざまな効果で主さまの冒険の手助けをしてくださいます。\n……むぅ。わたくしも負けてはいられません。=At the start of your turn, your companions will appear and will accompany you on your adventures for a while. They will assist you in your adventure with various effects. ...Hmm. I cannot lose to them.
 
-r:"^\[FF7C4E\,D62146\](\d+)\[-\]\[3C404E\]マス前\[-\]$"=[FF7C4E,D62146]2[-][3C404E] Tile(s) at the front[-]
-r:"^\[FF7C4E\,D62146\](\d+)\[-\]\[3C404E\]マス後\[-\]$"=[FF7C4E,D62146]2[-][3C404E] Tile(s) at the back[-]
+r:"^\[FF7C4E\,D62146\](\d+)\[-\]\[3C404E\]マス前\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Tile(s) at the front[-]
+r:"^\[FF7C4E\,D62146\](\d+)\[-\]\[3C404E\]マス後\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Tile(s) at the back[-]
 [FF7C4E,D62146]0[-][3C404E]マス[-]=[FF7C4E,D62146]0[-][3C404E]Tile[-]
 r:"^ダイスの目を(\d)回振りなおせる\n振りなおせない場合、マイルを入手する$"=You can reroll the dice $1x\nIf you can't reroll, you will get miles.
 
@@ -33,13 +33,17 @@ r:"^ダイスの目を(\d)回振りなおせる$"=You can reroll the dice $1x.
 【仲間】ダイスの目を2回振りなおせる=[Friend] Can re-roll dice twice
 【仲間】ダイスの目を1回振りなおせる=[Friend] Can re-roll dice once
 【仲間】出目が4のダイスを同時に振ってどちらか選択できる=[Friend] You can choose between your dice roll or 4.
-出目が4のダイスを同時に振ってどちらか選択できる=You can choose between your dice roll or 4.
+r:"^出目が(\d)のダイスを同時に振ってどちらか選択できる$"=You can choose between your dice roll or $1.
+r:"^【仲間】出目が(\d)のダイスを同時に振ってどちらか選択できる$"=[Friend] You can choose between your dice roll or $1.
 料理を1つ入手する=Obtain 1 dish
 【仲間】料理を1つ入手する=[Friend] Obtain 1 dish
 出目の合計が7以上になるまで\nダイスを追加で振れる=You can roll additional dice until the total number of dice is 7 or higher
 【仲間】出目の合計が7以上になるまで\nダイスを追加で振れる=[Friend] You can roll additional dice until the total number of dice is 7 or higher
 最大50％割引確定のショップを開く\n（1品100％割引あり）=Open a shop with a 50% discount (100 percent discount on 1 item)
 【仲間】最大50％割引確定のショップを開く\n（1品100％割引あり）=[Friend] Open a shop with a 50% discount (100 percent discount on 1 item)
+
+最大1000マイルを入手する=Acquire up to 1,000 miles
+【仲間】最大1000マイルを入手する=[Friend] Acquire up to 1,000 miles
 
 画面の左右をクリックか左右の矢印キー移動できますよ！\nおジャマに当たると、少しの間、動けなくなるので要注意です！\n上手に避けて、フルーツをたくさん集めましょう！=You can either click on the left or right arrow keys on the screen! If you get hit by a jammer, you won't be able to move for a while, so be careful! Dodge it well and gather lots of fruit!
 練習する=Practice
