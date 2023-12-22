@@ -1,9 +1,9 @@
 勇気は朽ちることなく=Courage never fades
 新たな姿で騎士の冒険を支え続ける妖精=A fairy who continues to support the knight's adventures in a new form.
 
-【魔法】後衛で、新たな姿で騎士の冒険を支える妖精。ダメージカットや防御力アップ、無効バリアで味方を護りバリアを起点とする攻撃力とＴＰの支援で攻勢に転ずる。=[Magic] A fairy who supports knights' adventures in a new form as a backline character. She protects allies with damage reduction, defense boost, and nullifying barriers, and switches to an offensive role by using attacks and TP that originate from her barrier.
+【魔法】後衛で、新たな姿で騎士の冒険を支える妖精。ダメージカットや防御力アップ、無効バリアで味方を護りバリアを起点とする攻撃力とＴＰの支援で攻勢に転ずる。=[Magic] A fairy in the backlines, supporting the knight's adventures in her new form. She protects allies with damage reduction, defense boosts, and barriers, and stimulates their offense with P.ATK, M.ATK and TP boosts if they have a barrier active.
 
-味方全体の物理防御力と魔法防御力を大アップさせ、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。=Large boost the P.DEF & allies' M.DEF, grants HP regen, and deploys a physical/magic nullification barrier.
+味方全体の物理防御力と魔法防御力を大アップさせ、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。=Large boost to allies' P.DEF & M.DEF, grants HP regen, and deploys a physical/magic nullification barrier.
 
 フィオレ・フェリチータ=Fiore Felicità
 r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する\n(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Boosts allies' P.DEF by $1 for 18s.\n►Boosts allies' M.DEF by $2 for 18s.\n►Recovers allies' HP by $3/s for 10.5s.\n►Deploy a barrier that Nullifies P/M. DMG $4 to All Allies for 90s.

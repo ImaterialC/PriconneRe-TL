@@ -12,7 +12,7 @@
 リノの「時は金時」かき氷=Rino's "Time is Money" Shaved Ice
 シズルの愛情\n盛り盛りハンバーグ=Shizuru's Affection-Loaded Hamburger Steak
 アオイの疾走サンドイッチ=Aoi's Sprinting Sandwich
-クウカの緊縛触手活け造り=Kuuka's Living Bondage Tentacle
+クウカの緊縛触手活け造り=Kuuka's Binding Live Octopus
 クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
@@ -23,7 +23,7 @@
 クリアの彩り華やかバラエティ弁当=Quria's Colorful Variety Lunch Box
 
 
-ワカナの節約腹八分目カレー=Wakana's Savory Belly Eighth Curry
+ワカナの節約腹八分目カレー=Wakana's Properly Portioned Curry
 ---Dish effects---
 ---Red---
 次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice next turn and move as many tiles as their sum.
@@ -116,8 +116,7 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 ---Red---
 アオイがお弁当として作ったエルフ伝統の野菜サンド。一緒についてきてくれる最高の友だちの助言により、どんなに深い森の中でも全速力で駆け抜けることができるらしい。（アオイ談）=A traditional Elven vegetable sandwich that Aoi made for lunch. Thanks to the advice of her best friend, she can run as fast as she wants, no matter how deep in the forest it is. (According to Aoi)
 
-数多くのドM妄想をしてきたクウカの中で最近のマイブームである触手をモチーフとした活造り。新鮮な蛸足が、濃厚なうま味と共に物理的に絡み付き身も心も縛りあげられる様な体験ができる。=Among Kuuka's many masochistic fantasies, it was made with tentacles as its motif. Fresh octopus legs, along with their rich flavor, could physically entwine and bind her body and soul.
-
+数多くのドM妄想をしてきたクウカの中で最近のマイブームである触手をモチーフとした活造り。新鮮な蛸足が、濃厚なうま味と共に物理的に絡み付き身も心も縛りあげられる様な体験ができる。=From yet another one of Kuuka's masochistic fantasies comes this sashimi-like dish with an octopus twist. The wriggling of the fresh tentacles combined with their rich umami flavor makes for an experience that ensnares both body and soul.
 
 ペコリーヌが丹精込めて握った特大おにぎり。ごはんは命のエネルギーを体現しているらしい。普通の人が満腹に感じる量の倍のサイズの中に最高級の具を閉じ込めた【美食殿】らしい一品。=Pecorine's meticulously crafted, oversized onigiri. It is said that the rice embodies the energy of life. A typical dish for the【Gourmet Guild】, enclosing the finest ingredients within a portion size double that of what a normal person would consider to be filling.
 
@@ -141,7 +140,9 @@ sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
 
 お姉ちゃんが弟くんのために心を込めて作った\nスペシャルなハンバーグ。アツアツの肉汁と共に\n溢れんばかりの愛が詰まっており、一口食べる\nだけで、走り回りたくなるような美味しさ。=A special hamburger made with all the love of a big sister for her little brother. It's packed with overflowing love, along with piping hot meat juices. Just one bite, and it's so delicious that you'll want to run around.
 
-バンディ・シスターズの昨夜の夕食カレー。作り\n過ぎて食べきれずにいたものをワカナがお裾分け\nしてくれた。寝かされていたためしっかりと味の\n染みた、極上の二日目カレーとなっている。=The Bundy Sisters' dinner curry from last night. Wakana shared what she had made too much and couldn't eat. Since she'd been put to sleep, it was a first-class second-day curry with a clear flavor.
+バンディ・シスターズの昨夜の夕食カレー。作り\n過ぎて食べきれずにいたものをワカナがお裾分け\nしてくれた。寝かされていたためしっかりと味の\n染みた、極上の二日目カレーとなっている。=The curry the Bandy Sisters' had for dinner last night. Wakana made too much, so she gave us the leftovers that they couldn't eat. Due to it sitting overnight, the depth of flavor has flourished, making this a true first-class second-day curry.
+ 
+
 
 
 ---Yellow---

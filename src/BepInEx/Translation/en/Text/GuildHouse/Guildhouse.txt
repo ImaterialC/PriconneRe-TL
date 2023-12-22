@@ -2,7 +2,7 @@
 データの取得に失敗しました。\nタイトルへ戻ります。=Data acquisition failed.\nReturn to the title.
 
 Lv上限：=Max Lv:
-r:"^(\d+)ルピを消費してLvアップ可能$"=Ready to Lv up using [FFBB00,CE4F00]$1[-] Rupies
+r:"^(\d+)ルピを消費してLvアップ可能$"=Ready to Lv up using [00ff0099]$1[-] Rupies
 Lvアップ可能な家具があります。=There is furniture that can be leveled up.
 すでに最大Lvに達しています。=Already at Max Level.
 

@@ -17,9 +17,16 @@ r:"^敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)消費$"=►D
 ぷうきちエール=Pukichi Yell
 ぷうきちエール+=Pukichi Yell+
 自分の物理攻撃力を特大アップさせ、さらに行動速度を大アップさせる。=Massively increases own physical attack power and greatly increases action speed.
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=►Boosts own P.ATK by $1.\nBoosts own action speed.
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=►Boosts own P.ATK by $1.\n►Boosts own action speed.
 ---S2---
 ---ex---
 ホーリーナイトスラッガー+=Holy Night Slugger+
 ---UE---
 クリスマス王ぷうきち=Christmas King Pukichi
+ぷうきちスノーマン=Pukichi Snowman
+
+【物理】前衛で、敵をなぎ倒していく聖夜のくまっ子。ユニオンバーストはＨＰを消費するが威力は絶大。スキルで物理攻撃力を上げ、さらにダメージアップ。=[Physical] A bear-loving girl who has no problem tearing through enemies on this supposedly silent night. Her Union Burst consumes her own HP to achieve incredible power, and her skills boost her physical attack for even more damage.
+
+目の前の敵１キャラに物理特大ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、小さく吹き飛ばす。さらに、自分の物理攻撃力を特大アップさせ、ＴＰを大回復し、【ぷうきちクッション】を付与する。【ぷうきちクッション】が付与されている間、ユニオンバーストで消費するＨＰは残りＨＰの40％になる。=Deals massive P.DMG to the enemy in front and lightly blows them away, slightly boost P.CRIT DMG. Additionally, greatly boosts own P.ATK, greatly recovers TP, and grants the [Pukichi Cushion] (UB consumption HP become 40% of the remaining HP).
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを14％アップ\n自分の物理攻撃力を(\d+)アップ\n自分のＴＰを500回復\n自分にぷうきちクッションを付与する$"=►Deals $1 P.DMG to a single enemy.\n►Knockback by 200 unit to the target.\n►Boost own P.CRIT DMG by 14％ for 12s.\n►Boosts own P.ATK by $2 for 180s.\n►Recovers own TP by 500.\n►Grants Puukichi Cushion to self.

@@ -2,7 +2,7 @@
 BB団の絆ベレー=BB Brigade Beret
 
 Bio
-【物理】最後衛から状態異常の矢を放つ、ぼっちの射手。ダメージと共に付与する毒や麻痺の追加効果により、防御力の高い敵であっても、確実にＨＰを削りとる。=[Physical]A loner archer. She plague the foe with status effects from the RG. The poison and paralysis she inflicts can drain health even from foes with high defense.
+【物理】最後衛から状態異常の矢を放つ、ぼっちの射手。ダメージと共に付与する毒や麻痺の追加効果により、防御力の高い敵であっても、確実にＨＰを削りとる。=[Physical] A lonely archer firing off poisoned arrows from the backlines. The poison and paralysis she inflicts can drain health from even the most solid combatants.
 
 Profile
 
@@ -15,7 +15,7 @@ Skills
 UB (6 Star)
 r:"^敵が毒状態の時、範囲内の敵に(\d+)の物理ダメージ\n敵が毒状態の時、(\d+)ダメージを与える猛毒状態にする\n敵が毒状態でない時、範囲内の敵に(\d+)の物理ダメージ\n敵が毒状態でない時、(\d+)ダメージを与える毒状態にする$"=Deals $3 P.DMG that to all enemies within 400 range and Inflict Poison $4 P.DMG/s for 24s.\n If the target is poisoned or venomed deals $1 P.DMG that to all enemies within 400 range and Inflict Venom $2 P.DMG/s for 12s.
 
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに毒状態にする。このスキルの対象が毒状態だった場合、代わりに物理特大ダメージを与え、さらに猛毒状態にする。=Deals P.DMG to all enemies within the range of 1 character in front of you, further poisoning. If the subject of this skill is poisoned, it will cause a massive P.DMG instead and become more poisonous.
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに毒状態にする。このスキルの対象が毒状態だった場合、代わりに物理特大ダメージを与え、さらに猛毒状態にする。=Deals massive P.DMG to all enemies within the range of 1 character in front of you, inflicting Poison. If the subject of this skill is already poisoned, it will deal extra P.DMG and inflict Venom.
 
 UB
 r:"^範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies in range.
@@ -23,7 +23,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies 
 Skill 1 (UE)
 r:"^敵が毒状態の時、敵単体に(\d+)の物理ダメージ\n敵が毒状態でない時、敵単体に(\d+)の物理ダメージ\n敵が毒状態の時、(\d+)ダメージを与える猛毒状態にする\n敵が毒状態でない時、(\d+)ダメージを与える毒状態にする$"=Deals $2 P.DMG to an enemy and Inflict Poison $4 P.DMG/s to the target for 24s.\nIf the target is poisoned or venomed, Deals $1 P.DMG to an enemy and Inflict Venom $3 P.DMG/s for 12s.
 
-目の前の敵１キャラに物理中ダメージを与え、さらに毒状態にする。このスキルの対象が毒状態だった場合、代わりに物理特大ダメージを与え、さらに猛毒状態にする。=Deal moderate P.DMG to one enemy character in front of you and inflicts poison. If the target of this skill is poisoned, it will deal extra P.DMG instead, making it even more poisonous.
+目の前の敵１キャラに物理中ダメージを与え、さらに毒状態にする。このスキルの対象が毒状態だった場合、代わりに物理特大ダメージを与え、さらに猛毒状態にする。=Deal moderate P.DMG to one enemy character in front of you and inflicts Poison. If the target of this skill is already poisoned, it will deal extra P.DMG and inflict Venom.
 
 Skill 1 (Without UE) (Need non-UE)
 目の前の敵１キャラに物理中ダメージを与え、さらに毒状態にする。=Deals moderate P.DMG to an enemy directly in front and inflicts Poison.
@@ -31,7 +31,7 @@ r:"^敵単体に(\d+)の物理ダメージ\n(\d+)ダメージを与える毒状�
 
 Skill 2
 r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする$"=Deals $1 P.DMG to an enemy.\nRenders an enemy immobile.
-目の前の敵１キャラに物理小ダメージを与え、さらに麻痺状態にする。=Deals small P.DMG to an enemy directly in front and inflicts Paralyze.
+目の前の敵１キャラに物理小ダメージを与え、さらに麻痺状態にする。=Deals small P.DMG to an enemy directly in front and inflicts Paralysis.
 
 
 パラライズアロー=Paralyze Arrow
@@ -48,4 +48,4 @@ Story
 星降る夜の奇跡=A Starlit Miracle
 私の、一番の友達=My Very Best Friend
     
-「友達」に憧れる、エルフの森の女の子=A girl hailing from the elven forest who wants to make friends
+「友達」に憧れる、エルフの森の女の子=A girl from the elven forest who longs for companionship.

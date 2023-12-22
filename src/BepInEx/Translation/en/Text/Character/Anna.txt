@@ -1,14 +1,14 @@
 小説執筆=Writing Novels
 
 Bio
-【魔法】中衛から圧倒的な魔力で攻撃する、疾風の冥姫。ユニオンバーストで敵全体に大ダメージを与えるが、高すぎる魔力の為、自分自身にも相応のリスクが生じる。=[Magic] Hecate of the Gale goes by many names. Annerose von Stechpalm, The Walking Tornado, or Anna unleashes magic power from the MG. Her UB is powerful but risky.
+【魔法】中衛から圧倒的な魔力で攻撃する、疾風の冥姫。ユニオンバーストで敵全体に大ダメージを与えるが、高すぎる魔力の為、自分自身にも相応のリスクが生じる。=[Magic] The Hecate of the Gale attacks from the midlines with overwhelming magical power. Her UB inflicts massive damage to the entire enemy team, but her excessive magical power is a great risk to even herself.
 
 Skills
-羅刹涅槃・極光終天冥壊破=Demonic Salvation: Apocalypse Dawn
+羅刹涅槃・極光終天冥壊破=Raksha Nirvana: Apocalypse Dawn
 覇叉冥滅獄炎呪=Hellfire of the Dark Conqueror
 覇叉冥滅獄炎呪+=Hellfire of the Dark Conqueror+
 UB (6 star)
-羅刹涅槃・《覇極》万象無尽冥壊破=Demonic Salvation: Parallel End-Worlds
+羅刹涅槃・《覇極》万象無尽冥壊破=Raksha Nirvana: Parallel End-Worlds
 r:"^自分の魔法攻撃力を(\d+)アップ\n敵全体に(\d+)の魔法ダメージ\n自分の物理防御力を初期値の100%ダウン\n自分の魔法防御力を初期値の100%ダウン$"=►Boosts own M.ATK by $1 for 8s.\n►Deals $2 M.DMG to all enemies.\n►Lowers own P.DEF to 0 for 99s. \n►Lowers own M.DEF to 0 for 99s.\n
 
 
@@ -21,8 +21,8 @@ r:"^敵全体に(\d+)の魔法ダメージ\n自分の物理防御力を0にす�
 Skill 1 (with UE) (Need UE)
 目の前の敵１キャラに魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and lowers its M.DEF by small amount.
 Skill 1 (no UE) 
-羅刹涅槃・無式+=Demonic Salvation: Infinity+
-羅刹涅槃・無式=Demonic Salvation: Infinity
+羅刹涅槃・無式+=Raksha Nirvana: Infinity+
+羅刹涅槃・無式=Raksha Nirvana: Infinity
 
 目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
 
@@ -33,7 +33,7 @@ Skill 2
 r:"^範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies in range.
 
 Story
-前世を信じる中二病患者、「疾風の冥姫」=A delusional girl who believes she was a hero in a previous life, “Hecate of the Gale”
+前世を信じる中二病患者、「疾風の冥姫」=A delusional girl who believes she was a hero named "Hecate of the Gale" in a previous life
 
 邂逅、閃光のシグルド！=Sigurd! We Meet Again!
 盟友との共同戦線=Comrades on the Field of Battle

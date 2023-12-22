@@ -14,10 +14,23 @@ r:"^範囲内の味方の物理防御力を(\d+)アップ\n範囲内の味方の
 ---Skills+---
 ---UB---
 ---S1---
-一番物理攻撃力が高い味方１キャラの物理攻撃力と物理クリティカルを大アップさせる。このキャラの魔法攻撃力が高い程、物理攻撃力の上昇量がアップする。=Greatly boosts the P.ATK and P.crit rate of the ally with the highest P.ATK. The boost in P.ATK is further enhanced based on the character's high M.ATK..
+一番物理攻撃力が高い味方１キャラの物理攻撃力と物理クリティカルを大アップさせる。このキャラの魔法攻撃力が高い程、物理攻撃力の上昇量がアップする。=Greatly boosts the P.ATK and P.crit rate of the ally with the highest P.ATK. The boost in P.ATK is further enhanced based on the character's high M.ATK.
 r:"^味方単体の物理攻撃力を(\d+)アップ\n味方単体の物理クリティカルを(\d+)アップ$"=►Boosts an ally's P.ATK by $1.\n►Boosts an ally's P.crit rate by $2.
 ---S2---
 ---ex---
 ギフテッドアンセム+=Gifted Anthem+
 ---UE---
 翠霊杖ルーンスノウ=Emerald Cane Rune Snow
+ルーンノエルドレス=Rune-Noel Dress
+
+
+ガーディアンメロディ=Guardian Melody
+ガーディアンメロディ+=Guardian Melody+
+アセンションワルツ=Ascension Waltz
+アセンションワルツ+=Ascension Waltz+
+
+r:"^自分の魔法攻撃力を(\d+)アップ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理防御力を(\d+)アップ\n範囲内の味方のＴＰを(\d+)回復$"=►Boosts own M.ATK by $1 for 18s.\n►Boosts allies' P.ATK within 400 range by $2 for 18s.\n►Boosts allies' P.DEF within 400 range by $3 for 18s.\n►Recovers allies' TP within 400 range by $4.
+
+
+
+自分の魔法攻撃力を特大アップさせ、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理防御力を中アップし、さらにＴＰを小回復する。このキャラの魔法攻撃力に応じて最大２倍まで物理攻撃力の上昇量がアップする。=Boosts own M.ATK massively, and within a range centered around the user, boost allies' P.ATK massively , boost P.DEF moderately, and further recovers TP slightly. The boost in P.ATK is further enhanced, up to a maximum of two times, based on this character's M.ATK.

@@ -1,6 +1,12 @@
 シャドウ=Shadow
 ウキキー=Ukiki
 
+カクタスフラワー=Cactus flower
+【物理】中距離攻撃触ると痺れる針山を無限に飛ばしてくる、動くサボテン。=[Physical] Mid-range attack\nA moving cactus that endlessly shoots needle mountains, causing numbness upon contact.
+
+ロックフラワー=Rock Flower
+【物理】中距離攻撃小石を弾丸のように飛ばして攻撃する、岩でできた動く花。=[Physical] Mid-range attack\nA moving flower made of rock that attacks by shooting small stones like bullets.
+
 ブルーゴーレム=Blue Golem
 【物理】【魔法防御】近接攻撃魔力を秘めた岩から生まれた、魔法耐性のあるゴーレム。=[Physical] [Magic Defense] close-range attack\nA magic-resistant golem born from a rock with hidden magical power.
 

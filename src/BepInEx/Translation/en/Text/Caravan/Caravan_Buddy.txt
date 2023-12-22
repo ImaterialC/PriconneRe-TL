@@ -18,9 +18,10 @@
 「あいあ～い♡」\n「は、はいっ」="Okay~~~♡"\n"Y-Yes!"
 
 フブキ・ワカナ=Fubuki & Wakana
-ターン開始時に確率でライバルが登場いたします。\nライバルより先にギルド管理協会出張所を目指してくださいまし。\n見事先に到着できると追加ボーナスを獲得できるようです。=Your rival will appear at the start of your turn. Please head to the guild branch office before your rival. If you arrive before him, you will receive an additional bonus.
+ターン開始時に確率でライバルが登場いたします。\nライバルより先にギルド管理協会出張所を目指してくださいまし。\n見事先に到着できると追加ボーナスを獲得できるようです。=Your rivals will appear at the start of your turn. Please make it to the guild branch office before your rivals. If you arrive before them, you will receive an additional bonus.
 
-ライバルと同じマスに止まると、特別なミニゲームが始まるようです。\nミニゲームではバンディ・シスターズが妨害をしてきますので、\n妨害をかわしてトレジャーをたくさんGETいたしましょう、主さま。=Once you're on the same space as your rival, a special minigame will begin. The Bundy Sisters will interfere in the minigame, so let's dodge the interference and get lots of treasure, Master.
+
+ライバルと同じマスに止まると、特別なミニゲームが始まるようです。\nミニゲームではバンディ・シスターズが妨害をしてきますので、\n妨害をかわしてトレジャーをたくさんGETいたしましょう、主さま。=Once you're on the same space as your rival, a special minigame will begin. The Bandy Sisters will attempt to sabotage us, so let's avoid their interference and get lots of treasure, my Lord.
 
 ターン開始時にお仲間が登場して、しばし冒険をご一緒できますよ。\nお仲間は、さまざまな効果で主さまの冒険の手助けをしてくださいます。\n……むぅ。わたくしも負けてはいられません。=At the start of your turn, your companions will appear and will accompany you on your adventures for a while. They will assist you in your adventure with various effects. ...Hmm. I cannot lose to them.
 
@@ -33,7 +34,7 @@ r:"^ダイスの目を(\d)回振りなおせる$"=You can reroll the dice $1x.
 【仲間】ダイスの目を2回振りなおせる=[Friend] Can re-roll dice twice
 【仲間】ダイスの目を1回振りなおせる=[Friend] Can re-roll dice once
 【仲間】出目が4のダイスを同時に振ってどちらか選択できる=[Friend] You can choose between your dice roll or 4.
-r:"^出目が(\d)のダイスを同時に振ってどちらか選択できる$"=You can choose between your dice roll or $1.
+r:"^出目が(\d)のダイスを同時に振って\n?どちらか選択できる$"=You can choose between your dice roll or $1.
 r:"^【仲間】出目が(\d)のダイスを同時に振ってどちらか選択できる$"=[Friend] You can choose between your dice roll or $1.
 料理を1つ入手する=Obtain 1 dish
 【仲間】料理を1つ入手する=[Friend] Obtain 1 dish

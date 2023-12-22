@@ -281,3 +281,5 @@ Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParen
 /_Game(Clone)/UI Root/ViewsArea/View/ViewMinigameAsmMain(Clone)/RightObj/PartsAsmResult(Clone)/pos/GUIGroup_Button/GUIGroup_NextButton/Label=ChangeFontSize(13)
  
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishInfo(Clone)/GUIGroup_DishInfo/GUIGroup_Scroll/ScrollContent/ScrollView/UITable/GUIGroup_DishInfo/DishInfoLabel=ChangeFontSize(14)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsNotifyRoomItemsAreReadyToLevelUp(Clone)/GUIPanel_Dialog/ScrollContentRoot/ScrollContent/ScrollView/WrapContent/PartsNotifyRoomItemsAreReadyToLevelUpManager(Clone)/UIGrid/PartsNotifyRoomItemsAreReadyToLevelUpPlate(Clone)/common_info_area/RoomItemCanLevelUpForCoins=ChangeFontSize(18)

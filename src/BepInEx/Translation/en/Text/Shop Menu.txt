@@ -97,7 +97,7 @@ r:"^([0-9/]+) 枚$"=$1 Coin
 
 
 ---npc---
-主さま、マスターコインをマスターショップで入手困難なアイテムと\n交換できるようです。プレイヤーLvを上限まで上げた後、スタミナを消費\nすることでマスターコインが手に入るようです。=My Lord, it looks like you can exchange Master Coins for items that are difficulty to obtain at the Master Shop. Once you have reached the max Player Lv, you can obtain Master Coins from consuming stamina upon reaching the EXP cap.
+主さま、マスターコインをマスターショップで入手困難なアイテムと\n交換できるようです。プレイヤーLvを上限まで上げた後、スタミナを消費\nすることでマスターコインが手に入るようです。=My Lord, it looks like you can exchange Master Coins for items that are difficult to obtain at the Master Shop. Once you have reached the max Player Lv, you can obtain Master Coins from consuming stamina upon reaching the EXP cap.
 ---Divine Amulet---
 在のメモリーピース1個あたりの単価=Prices per Shard: 
 現在のメモリーピース1個あたりの単価=Prices per Shard: 

@@ -4,10 +4,10 @@
 
 
 グルメチェイサー号=Gourmet Chaser
-バンディシャーク号=Bundyshark
+バンディシャーク号=Bandyshark
 追加ボーナス発生中!=Additional bonus in progress!
 
-バンディシャーク号との距離=Bundyshark Distance
+バンディシャーク号との距離=Bandyshark Distance
 目標到着ボーナス=Target arrival bonus
 到着までにかかったターン数=Total Turns
 ライバルに勝利=Won
@@ -75,7 +75,7 @@ r:"^レベル(\d)$"=Level $1
 到達までにかかったターン数=Turns Needed to Reach Checkpoint
 
 ---Sell Dishes---
-r:"^[3B3F4D](.+)を売却して\n[-][FFBB00,CE4F00](\d+)[-][3B3F4D]マイルを獲得しました。[-]$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
+r:"^\[3B3F4D\](.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
 
 ---Lottery---
 福引券=Lottery Ticket
@@ -144,7 +144,11 @@ r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 ワカナの施し=Wakana alms
 敗北=Defeat
 
+移動確認=Move confirmed
+このマスに移動しますか？=Move to this tile?
 
+r:"^(\d)ターンの間ターン数のカウントをスキップする。$"=For $1 turn(s), turns do not count.
+料理が所持上限を超えています。\n所持数が8個以下になるように料理を売却してください。=You have exceeded the maximum amount of dishes you can possess.\nPlease sell dish(es) until there are 8 or less left.
 
 料理所持数上限=Maximum Dishes Reached
 料理が所持上限に達しています。\n新たに料理を入手した場合、超過分の売却が必要です。\n\nこのままダイスを振ってもよろしいですか？=Your dish inventory is currently at its limit.\nIf you acquire new dishes, you will need to sell the excess ones.\nRoll the Dice anyway?
