@@ -16,29 +16,35 @@
 猫のちゃっかり恩返し=The Cheeky Cat Returns
 
 Skills
-UB
+
+--UB--
 ねこねこファイナルブレイク=Kitty Cat-aclysm
 魔法攻撃力が最も高い敵１キャラに物理特大ダメージを与える。=Deals massive P.DMG to an enemy with the highest M.ATK.
-S1
+r:"^敵単体に(\d+)の物理ダメージ\$"=►Deals Large $1 P.DMG to the enemy with the highest M.ATK.
+
+ねこねこファントムラッシュ= Kitty Cat-astrophic Rush
+魔法攻撃力が最も高い敵１キャラに物理特大ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加し、さらに物理防御力を特大ダウンさせる。=Deals massive P.DMG to the enemy with the highest M.ATK. If the target is an M-type, the damage is increased and additional P.DEF debuff by large amount.
+r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合物理防御力を(\d+)ダウン$"=If the target is physical:\n►Deal $1 P.DMG.\n\nIf target is magic:\n►Deal $2 P.DMG.\n►Lower P.DEF by $3 for 18s.
+
+
+--S1--
 ねこねこスローイング=Kitty Cat-apult
 魔法攻撃力が最も高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力を小ダウンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK and lowers its M.ATK by a small amount.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の魔法攻撃力を(\d+)ダウン$"=Cast Time:1.325s\nDeals $1 P.DMG to an enemy.\nLowers an enemy's M.ATK by $2 for 12s.
-S2
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の魔法攻撃力を(\d+)ダウン$"=Cast Time: 1.325s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2 for 12s.
+
+ねこねこスローイング+=Kitty Cat-apult+
+魔法攻撃力が最も高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力を中ダウンさせスタンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK, lowers its M.ATK by a moderate amount, and inflicts Stun.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の魔法攻撃力を(\d+)ダウン\n敵単体を一定時間行動不能にする$"=Cast Time: 1.325s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2.\n►Inflicts stun on damaged target for 1.5s
+
+--S2--
 猫の気まぐれ=Cat's Whims
 魔法攻撃力が最も高い敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Reduces the TP of the enemy with the highest M.ATK power by a small amount while also recovering own TP by a small amount.
-ex
-マーベラスキャッツ=One Myarvelous Cat
-Skills+
-UB
-ねこねこファントムラッシュ=Neko-Neko Phantom Rush
-魔法攻撃力が最も高い敵１キャラに物理特大ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加し、さらに物理防御力を特大ダウンさせる。=Deals massive P.DMG to the enemy with the highest M.ATK. If the target is an M-type, the damage is increased and additional P.DEF debuff by large amount.
-r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ\n対象が魔法攻撃をする敵だった場合物理防御力を(\d+)ダウン$"=If target is physical:\nDeals $1 P.DMG to an enemy.\n\nIf target is magic:\nDeals $2 P.DMG to an enemy.\nLowers P.DEF of an enemies by $3 for 18s.
-S1
-魔法攻撃力が最も高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力を中ダウンさせスタンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK, lowers its M.ATK by a moderate amount, and inflicts Stun.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の魔法攻撃力を(\d+)ダウン\n敵単体を一定時間行動不能にする$"=Cast Time:1.325s\nDeals $1 P.DMG to an enemy.\nLowers an enemy's M.ATK by $2.\nInflict stun on damaged target for 1.5s
-S2
+魔法攻撃力が最も高い敵１キャラの\nＴＰを小ダウンさせ、さらに自分の\nＴＰを小回復し、物理攻撃力を小\nアップさせる。=Reduces the TP of the enemy with the highest M.ATK power by a small amount. Recovers own TP by a small amount. Boosts own P.ATK by a small amount.
+r:"^敵単体のＴＰを(\d+)失わせる\n自分のＴＰを(\d+)回復\n自分の物理攻撃力を(\d+)アップ$"=Cast Time: 1.325s\n►Drains $1 TP of one enemy.\n►Recovers own TP by $2.\n►Boosts own P.ATK by $3.
 
-ex
+--EX--
+マーベラスキャッツ=One Myarvelous Cat
 マーベラスキャッツ+=One Myarvelous Cat+
-UE
+
+--UE--
 ファンタズムタイヤキ=Phantom Taiyaki

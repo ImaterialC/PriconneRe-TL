@@ -1,4 +1,4 @@
-【魔法】中衛で、聖夜の街に幸せを運ぶ双子の妹サンタ。自分の魔法攻撃力に応じて効果が上がる味方全体への攻撃力強化に加え、単体特大魔法攻撃で勝利の旋律を奏でる。=[Magic] A Twin Sister Santa who brings happiness to the city on the holy night. Boosting the M.ATK of allies based on her own M.ATK from the midlines, she plays a melody of victory with a single-target massive magic attack.
+【魔法】中衛で、聖夜の街に幸せを運ぶ双子の妹サンタ。自分の魔法攻撃力に応じて効果が上がる味方全体への攻撃力強化に加え、単体特大魔法攻撃で勝利の旋律を奏でる。=[Magic] A Twin Sister Santa who brings happiness to the city on Christmas Day. Boosting the M.ATK of allies based on her own M.ATK from the midlines, she plays a melody of victory with a massive single-target magic attack.
 
 スペシャルスイートギフト=Special Sweet Gift
 r:"^敵単体に(\d+)の魔法ダメージ\n味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Boosts allies' M.ATK by $2.

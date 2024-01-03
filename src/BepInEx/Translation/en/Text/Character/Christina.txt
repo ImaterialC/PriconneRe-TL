@@ -25,7 +25,7 @@ Skill name
 
 UB
 r:"^敵単体に(\d+)の物理ダメージ\n一定時間全ての物理攻撃を回避する$"=►Deals unavoidable $1 P.DMG to an enemy.\n►Dodges all P.ATKs for 3(+0.01×Lv)s.
-目の前の敵１キャラに物理大ダメージを与え、さらに自分は一定時間全ての物理攻撃を回避する。この攻撃は必ず命中し、クリティカルする。=Deals large P.DMG to an enemy directly in front and dodges all P.ATKs for set period of time. This attack can't misses and is always a critical hit.
+目の前の敵１キャラに物理大ダメージを与え、さらに自分は一定時間全ての物理攻撃を回避する。この攻撃は必ず命中し、クリティカルする。=Deals large P.DMG to an enemy directly in front and dodges all P.ATKs for set period of time. This attack cannot miss, and is always a critical hit.
 
 Skill 1+
 r:"^自分の物理攻撃力を(\d+)アップ\n自分のＴＰ上昇を(\d+)アップ\n自分のＴＰを(\d+)回復\n自分の物理攻撃クリティカル時のダメージを10％アップ$"=Cast time: 0.75s\n►Boosts own P.ATK by $1.\n►Boosts own TP boost by $2 for 15s.\n►Recover own TP by $3.\n►Boosts own P.Crit DMG by 10% for 180s.
@@ -39,5 +39,5 @@ r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)�
 
 UB+
 アルティマスアヴァロン=Ultimate Avalon
-目の前の敵１キャラに物理防御力を一定値無視する物理大ダメージを２回与え、物理防御力を小ダウンさせる。さらに自分は一定時間全ての物理攻撃を回避する。この攻撃は必ず命中し、クリティカルする。=Deals two massive P.DMG hits to the enemy in front, ignoring a certain amount of their P.DEF and slightly lowering their P.DEF. The user also gains P.ATK evasion for a period of time. This attack can't misses and is always a critical hit.
+目の前の敵１キャラに物理防御力を一定値無視する物理大ダメージを２回与え、物理防御力を小ダウンさせる。さらに自分は一定時間全ての物理攻撃を回避する。この攻撃は必ず命中し、クリティカルする。=Deals two massive P.DMG hits to the enemy in front, ignoring a certain amount of their P.DEF and slightly lowering their P.DEF. The user also gains P.ATK evasion for a period of time. This attack cannot miss, and is always a critical hit.
 r:"^敵単体に物理防御力を(\d+)無視する(\d+)の物理ダメージ\n敵単体に物理防御力を(\d+)無視する(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n一定時間全ての物理攻撃を回避する$"=►Deals unavoidable $2 P.DMG to an enemy, ignoring $1 of their P.DEF.\n►Deals unavoidable $4 P.DMG to an enemy, ignoring $3 of their P.DEF.\n►Lowers an enemy's P.DEF by $5 for 18s.\n►Dodges all P.ATKs for 3(+0.01×Lv)s.

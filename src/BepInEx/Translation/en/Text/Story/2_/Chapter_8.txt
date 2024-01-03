@@ -662,7 +662,6 @@ r:"^えへへ……\n前にあなたと戦った時は、あっという間に�
 ペコリーヌ・レイ=Pecorine Rei
 視界は晴れた。\n陣も崩した。\nプリンセスナイトは──=My vision clears. My circle crumbles. Princess Knight is....
 ──そこだ……！=There......!
-r:"^やばっ！\n(.{2,10})っ！$"="Oh no!! $1!"
 r:"^しまった！\n後ろの(.{2,10})を狙うか！$"="Crap! Should I go for $1 behind me?!"
 ──ッ！！=!!
 うわっ！！？=Whoa!!?

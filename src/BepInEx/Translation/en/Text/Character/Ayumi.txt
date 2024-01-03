@@ -1,7 +1,6 @@
 ストーキングマント=Stalking Cloak
 Bio
-【物理】中衛で、どたばたと敵をかく乱する、純情少女。敵をスタンさせるスキルのほか、ユニオンバーストでは暗闇と混乱を付与することで敵を邪魔することができる。=[Physical]A purehearted girl who wildly disrupts the enemy from the MG. Aside from stunning foes with her skills, she can also inflict Blind and Confusion with her UB to prevent their attacks from finding their mark.
-
+【物理】中衛で、どたばたと敵をかく乱する、純情少女。敵をスタンさせるスキルのほか、ユニオンバーストでは暗闇と混乱を付与することで敵を邪魔することができる。=[Physical] A purehearted girl who wildly disrupts the enemy from the midlines. Aside from stunning foes with her skills, she can also inflict Blind and Confusion with her UB to prevent their attacks from finding their mark.
 Profile
 観察=Observation
 
@@ -11,12 +10,11 @@ Skills
 湧き出す勇気+=Burst of Courage+
 
 UB (6 star)
-はわわわ、大変です～！？=Hawawawa, Taihendesu~!?
+はわわわ、大変です～！？=Hawawa, Isn't this a Disaster~!?
 前方範囲内の敵すべてに物理大ダメージを与え、暗闇・混乱状態にし、さらにＴＰ上昇を大ダウンさせる。このスキルを使用するたび、最大３回までダメージが増加する。=Deals massive P.DMG to all enemies within range, inflicts darkness and confusion, and greatly reduces TP Boost. Each time you use this skill, damage increases up to 3 times.
 
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を暗闇状態にする\n範囲内の敵を混乱させる\n範囲内の敵のＴＰ上昇を(\d+)ダウン$"=►Deals $1 P.DMG to all enemies within 1200 range to enemies\n►Blinds enemies in range for 12s (-70% hit rate).\n►Confuses enemies in range for 8s.\n►Lowers enemies TP boost within range by $2 for 12s.
 UB 
-【物理】中衛で、どたばたと敵をかく乱する、純情少女。敵をスタンさせるスキルのほか、ユニオンバーストでは暗闇と混乱を付与することで敵を邪魔することができる。=[Physical] A pure girl who disturbs the enemy and the enemy in the MG. She can disturb her enemy by giving darkness and confusion in UB in addition to the skills to stun the enemy.
 
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を暗闇状態にする\n範囲内の敵を混乱させる$"=►Deals $1 P.DMG to all enemies within 1200 range to enemies\n►Blinds enemies in range for 6s (-70% hit rate).\n►Confuses enemies in range for 4s.
 前方範囲内の敵すべてに物理中ダメージを与え、さらに暗闇・混乱状態にする。=Deals moderate P.DMG to all enemies in range and inflicts Blind and Confuse.
@@ -39,7 +37,7 @@ r:"^自分の物理防御力を(\d+)アップ$"=►Boosts own P.DEF by $1.
 バトル開始時に自分の物理防御力を中アップさせる。=Moderate boost to own physical defense at start of battle.
 
 Story
-どこまでも一途に慕う、純情乙女=A pure-hearted girl who loves with all her heart
+どこまでも一途に慕う、純情乙女=An innocent girl who yearns for you with all her heart
 
 
 

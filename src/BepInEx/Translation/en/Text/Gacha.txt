@@ -236,6 +236,7 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 ---Special Tickets use---
 スペシャル キャラ交換ガチャセット=Special Character Exchange
 r:"^([0-9.]+)th Anniv. SPキャラ交換ガチャセット$"=$1th Anniv. Special Character Exchange
+年末年始 SPキャラ交換ガチャセット=New Year's holiday SP Special Character Exchange
 選択可能キャラ一覧=Select a character
 キャラ一覧から仲間にしたいキャラを選択してください。=Choose the character you want.
 未解放=Locked

@@ -2,7 +2,7 @@
 オート進行=Auto Adv
 スキップチケットを使ってクエストをスキップ!=Skip the quest using a skip ticket!
 オート進行設定中=Auto Advance Setting
-主さま、オート進行が使えるようになりましたよ。\nオート進行はまだクリアしていないイベントクエストで使用できます。\nクエストの攻略が便利になりますので、さっそく使ってみましょう。=Lord, the advance of the Auto Advance is now available. Auto Advance can be used in event quests that have not been cleared yet. Quest capture will be convenient, so let's use it immediately.
+主さま、オート進行が使えるようになりましたよ。\nオート進行はまだクリアしていないイベントクエストで使用できます。\nクエストの攻略が便利になりますので、さっそく使ってみましょう。=My Lord, the advance of the Auto Advance is now available. Auto Advance can be used in event quests that have not been cleared yet. Quest capture will be convenient, so let's use it immediately.
 
 停止する=Stop
 停止しない=Don't
@@ -53,7 +53,7 @@ sr:"^([べ-ヺー＆]+)の\n絆ランクが(\d+)になりました。$"=$1\nThe 
 挑戦回数上限設定=Skip amount setting
 自動選択しない=Do not auto select
 
-主さま、オート進行が使えるようになりましたよ。\nオート進行はまだクリアしていないメインクエストで使用できます。=Lord, the progress of the Auto Advance is now available. Auto Advance can be used in the main quest that has not been cleared yet.
+主さま、オート進行が使えるようになりましたよ。\nオート進行はまだクリアしていないメインクエストで使用できます。=My Lord, the progress of the Auto Advance is now available. Auto Advance can be used in the main quest that has not been cleared yet.
 オート進行中の各条件は主さまお好みの設定ができるようです。\nクエストの攻略が便利になりますので、さっそく使ってみましょう。=Each condition during the Auto Advance seems to be able to set your favorite Main. Quest capture will be convenient, so let's use it immediately.
 
 クエストクリアごとの最大消費マナ=Max Mana Consumption per Quest Cleared

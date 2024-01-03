@@ -1,0 +1,32 @@
+弟を愛でること＆兄に甘えること=Admiring my brother & pampering my brother
+ヒューマン、ヒューマン=Human, human
+生天目仁美、阿澄佳奈=Hitomi Nabatame, Kana Asumi
+
+【物理】中衛でお揃い衣装の、真偽を超えた仲良し姉妹。攻守共に味方を支えるシズルと、クリティカル時に強力なダメージを与えるリノ、姉妹の絆で困難を跳ね除ける！=[Physical] A pair of close bonded sisters wearing matching outfits, that transcend truth or false. Shizuru can attack, defend and support her teammates, While Rino does tremendous damage when she scores a critical hit. With their sisterly bond, they overcome all trials and difficulties.
+
+セイクリッドレイン=Sacred Rain
+セイントアロー=Saint Arrow
+セイントアロー+=Saint Arrow+
+プレシャスコネクション=Precious Connection
+プレシャスコネクション+=Precious Connection+
+お姉ちゃん＆妹パワー=Big Sis and Lil Sis Power
+お姉ちゃん＆妹パワー+=Big Sis and Lil Sis Power+
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)回復\n物理攻撃力を(\d+)アップさせるフィールドを\n展開する\n物理クリティカルを(\d+)アップさせる\nフィールドを展開する$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Recovers own HP by $3.\n►Deploys a field of radius 300 that boosting P.ATK by $4 for 12s.\n►Deploys a field of radius 300 that boosting P.crit rate by $5 for 12s.
+
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\nフィールド展開中、味方全体のＴＰを75回復$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►If field deployed, recovers allies' TP by 75.
+
+
+r:"^フィールド展開中、(\d+)ダメージ分の物理無効バリアを展開する\n(\d+)ダメージ分の物理無効バリアを展開する\n自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを15％アップ\nフィールド展開中、敵全体の物理防御力を(\d+)ダウン$"=►If field deployed, Deploys a barrier that nullifies P.DMG by $1 for 12s.\n►If field deployed, Deploys a barrier that nullifies P.DMG by $2 for 12s.\n►Boosts own P.ATK by $3 for 12s.\n►Boosts own P.crit rate by $4 for 12s.\n►Boosts own P.crit dmg by 15% for 12s.\n►If field deployed, lowers enemies' P.DEF by $5.
+
+
+r:"^自分の物理クリティカルを(\d+)アップ$"=►Boosts own P.crit rate by $1
+
+
+目の前の敵１キャラに物理大ダメージを２回与え、自分のＨＰを中回復する。このスキルがクリティカルした場合のダメージは、２倍ではなく3.5倍になる。さらに、自分の後方に物理攻撃力を特大アップ、物理クリティカルを大アップさせるフィールドを展開する。=Deals massive P.DMG twice to the enemy character in front and moderately restores own HP. If this skill lands a critical hit, the damage is not 2x but becomes 3.5x. Additionally, deploys a field behind oneself, massively boosting P.ATK and greatly increasing P.crit rate.
+
+目の前の敵１キャラに物理中ダメージを２回与える。このスキルがクリティカルした場合のダメージは、２倍ではなく3.5倍になる。【フィールド展開中】味方全体のＴＰを小回復する。=Deals moderate P.DMG twice to the enemy character in front. If this skill lands a critical hit, the damage is not 2x but becomes 3.5x. During [b]Field Deployment[/b], slightly recovers TP for all allies.
+
+自分に物理無効バリアを展開し、物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを小アップする。【フィールド展開中】バリアの無効ダメージ量がアップし、敵全体の物理防御力を小ダウンさせる。=Deploys a physical immunity barrier on oneself, massively boosts P.ATK and P.crit rate, and boosts P.crit dmg. During [b]Field Deployment[/b], the barrier's damage nullification amount increases, and slightly reduces the P.DEF of all enemies.
+
+バトル開始時に自分の物理クリティカルを中アップさせる。=At the beginning of the battle, moderately boosts own physical critical rate.

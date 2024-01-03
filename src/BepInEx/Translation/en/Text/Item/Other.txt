@@ -12,9 +12,6 @@
 みんなでお花見=Everyone cherry blossom viewing
 みんなの好きなもの=Everyone's favorite
 
-３rdアニバーサリーフォトブック=3rd Anniversary Photobook
-フォト\nブック=Photobook
-
 ハロウィンパーティ=Halloween party
 
 イベント期間中にモンスターを討伐した証。集めて討伐証交換ができる。=Proof of defeating monsters during the event period. You can collect them and exchange them for subjugation certificates.
@@ -53,7 +50,7 @@ EX装備の強化に使用すると、強化Ptが1加算される。=When used t
 カスタムマイページのフレーム=Custom Home's frame
 マイページに設定できるフレーム画像。=Frame drawing that can be set on Home.
 オーマ地域振興ポスター『新春トゥンヌス釣上図柄』=New Year Tuna Fishing Poster for Ohma Regional Development
-主さま、カスタムマイページのフレームを獲得いたしましたよ。\nフレームを設定してマイページを飾ってみましょう。=Lord, we have won the custom My page frame. Set the frame and decorate your page.
+主さま、カスタムマイページのフレームを獲得いたしましたよ。\nフレームを設定してマイページを飾ってみましょう。=My Lord, we have won the custom My page frame. Set the frame and decorate your page.
 
 ---Dedicated Ring---
 sr:"^([べ-ヺー＆]+)(（.+）)?\s?専用リング$"=Dedicated $1$2's Ring

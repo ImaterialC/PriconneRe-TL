@@ -1,13 +1,13 @@
-【物理】前衛で、相棒と困難を越え猛進するアヤネ隊員。群る敵を二つの範囲攻撃で一気に捉え、周囲の味方の物理攻撃力とクリティカルアップで冒険を阻む壁を打ち崩す。=[Physical] Ayane who overcomes difficulties with her partner at VG. Catch a swarm of enemies with 3 aoe attack at once, and use the P.ATK and P.crit up of surrounding allies to break down the walls that block your adventure.
+【物理】前衛で、相棒と困難を越え猛進するアヤネ隊員。群る敵を二つの範囲攻撃で一気に捉え、周囲の味方の物理攻撃力とクリティカルアップで冒険を阻む壁を打ち崩す。=[Physical] The adventuring Ayane can do anything with her trusty partner by her side! She can leave enemies in a pinch with her AoE attacks, and increase P.ATK and P.CRIT rate of allies so they can all break down the walls blocking their path together.
 
 ぷうきちアドベンチャー=Pukichi Adventure
-前方範囲内の敵すべてに物理特大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップする。=Deals massive P.DMG to all enemies within range, and Large boost the allies' P.ATK within range centering on you.
+前方範囲内の敵すべてに物理特大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップする。=Deals massive P.DMG to all enemies within range, and large boost to allies' P.ATK within a range centered on the user.
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within 700 range.\n►Boosts allies' P.ATK within 700 range by $2 for 18s.
 
 
 r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを80アップ$"=Cast Time:0.59s\n►Boosts allies' P.ATK within 150 range by $1 for 180s.\n►Boosts allies' P.Crit Rate within 150 range by 80 for 180s.
 
-自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを大アップする。=Large boost the P.ATK and allies' P.Crit Rate within range around you.
+自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを大アップする。=Large boost to allies' P.ATK and P.CRIT rate within a range centered on the user.
 ブレイブフルジャーニー=Brave Full Journey
 ブレイブフルジャーニー+=Brave Full Journey+
 

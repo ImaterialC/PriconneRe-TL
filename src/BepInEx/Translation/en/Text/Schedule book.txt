@@ -5,10 +5,10 @@
 リストの設定=List Settings
 実行=Do
 
-メインかイベントクエストを10回クリアしよう=Clear "Main Quest" or "Event Quest" 10 Times
-メインかイベントクエストを20回クリアしよう=Clear "Main Quest" or "Event Quest" 20 Times
-イベントクエストを10回クリアしよう=Clear "Event Quest" 10 Times
-メイン(HARD、VERY HARD)かイベントクエスト(HARD)を3回クリアしよう=Clear Main/Event Quest HARD/VERY HARD 3 Times
+メインかイベントクエストを10回クリアしよう=Clear "Main Quest" or "Event Quest" 10 times
+メインかイベントクエストを20回クリアしよう=Clear "Main Quest" or "Event Quest" 20 times
+イベントクエストを10回クリアしよう=Clear "Event Quest" 10 times
+メイン(HARD、VERY HARD)かイベントクエスト(HARD)を3回クリアしよう=Clear Main/Event Quest HARD/VERY HARD 3 times
 バトルアリーナで1回戦おう=Participate in the "Battle Arena" 1 time
 プリンセスアリーナで1回戦おう=Participate in the "Princess Arena" 1 time
 アリーナコインを1回受け取ろう=Collect Battle Arena Coin(s) once
@@ -19,11 +19,11 @@
 ノーマルガチャを引こう=Pull the Normal Gacha
 
 イベントのデイリーミッション報酬を受け取ろう=Receive event daily mission rewards
-ダンジョンを1回クリアしよう=Clear 1 floor of Dungeon
-キャラのスキルを1回強化しよう=Enhance a character's Skill 1 time
-装備強化で装備の★を1つ増やそう=Refine the equipment and increase ★ by 1
-マナを1回購入しよう=Purchase Mana 1 Time
-クランメンバーに「いいね」しよう=Give a [Like] to another Member of your Clan
+ダンジョンを1回クリアしよう=Clear 1 floor of a dungeon
+キャラのスキルを1回強化しよう=Enhance a character's skill 1 time
+装備強化で装備の★を1つ増やそう=Refine a character's equipment 1 time
+マナを1回購入しよう=Purchase Mana 1 time
+クランメンバーに「いいね」しよう=Like a clan member
 ルナの塔に1回挑戦しよう=Challenge the Tower of Luna 1 time
 クランバトルに1回挑戦しよう=Participate in the Clan Battle 1 time
 ダンジョンに1回挑戦しよう=Attempt a Dungeon 1 time

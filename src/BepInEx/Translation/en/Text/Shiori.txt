@@ -1,22 +1,28 @@
 しおり=Bookmark
 しおり一覧=List of Bookmarks
-しおりを削除=Delete bookmark
-しおりを登録したストーリーがありません。=There are no stories with bookmarks registered.
+しおりから読む=Cancel
+しおりを削除=Delete
+しおりを登録したストーリーがありません。=There are no bookmarks registered.
 しおり登録数=Registered
 削除可能なしおりがありません。=There are no bookmarks that can be deleted.
+このストーリーはしおりを挟めません。=This story cannot be bookmarked.
 
-最初から=From the beginning
-ストーリー再生確認=Story playback confirmed
-しおり登録済みのストーリーに新たにしおりを挟む場合、\n以前のしおりは上書きされます。=If a new bookmark is inserted into a registered story,\nthe previous bookmark will be overwritten.
-
-しおりを挟み\n中断する=End with a bookmark
-しおりを挟む=Put a bookmark
-しおりを挟み\n閲覧を続ける=Continue with a bookmark
-\nストーリーの途中にしおりを挟むことで\nその位置からストーリーを読み返せるようになります。\n\n現在の位置にしおりを挟みますか？=\nYou can reread the story from its position by placing a bookmark in the middle of the story. Place a bookmark at your current location?
-
+ストーリー再生確認=Story Playback
 以前に登録されたしおりがあります。\n\nしおりの位置からストーリーを読み始めますか？\n\n=A bookmark has been placed before. Start reading the story from where you placed a bookmark?\n\n
+最初から=From the beginning
+\nストーリーの途中にしおりを挟むことで\nその位置からストーリーを読み返せるようになります。\n\n現在の位置にしおりを挟みますか？=\nYou can re-read the story from its position by placing a bookmark in the middle of the story.\nPlace a bookmark at your current location?
+しおり登録済みのストーリーに新たにしおりを挟む場合、\n以前のしおりは上書きされます。=If a new bookmark is inserted into a registered story,\nthe previous bookmark will be overwritten.
+しおりを挟み\n中断する=Bookmark and\nend story
+しおりを挟む=Put a bookmark
+しおりを挟み\n閲覧を続ける=Bookmark and\ncontinue
 
+選択したしおりを削除します。\nよろしいですか？\n\n=Delete the selected bookmarks?\n\n
+選択可能なしおりがありません。=There are no bookmarks to select.
+削除するしおりが選択されていません。=The bookmarks to be deleted is not selected.
 削除したしおりは復元できません。=You can't restore deleted bookmarks.
 しおりを削除しますか？\n\n=Remove the bookmark?\n\n
 削除する=Delete
-削除しない=Don't delete it
+削除しない=Cancel
+
+(I have no clue where I got this. Someone tell me please. - Miyakonano)
+しおりを挟んだストーリーがありません。=There is no story with bookmarks.

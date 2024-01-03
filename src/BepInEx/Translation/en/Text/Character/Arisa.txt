@@ -1,16 +1,16 @@
 クインティタニアス=Quintitanius
 ---Bio---
-【物理】後衛の、長期戦に優れた、森の守護者見習い。ＴＰ回復によるユニオンバーストの速攻が可能。さらに使用後はスキル効果が上昇するため高い殲滅力を誇る。=[Physical] An aspiring forest guardian who excels at drawn-out battles from the RG. Her rapid TP recovery allows constant firing of her UB, boosting her power every use.
+【物理】後衛の、長期戦に優れた、森の守護者見習い。ＴＰ回復によるユニオンバーストの速攻が可能。さらに使用後はスキル効果が上昇するため高い殲滅力を誇る。=[Physical] An aspiring forest guardian in the backlines who excels in longer battles. Her rapid TP recovery allows her to constantly use her powerful UB that gets stronger the more it's used.
 
 ---Profile---
-キレイな葉っぱを集めること=Collecting Beautiful Leaves
+キレイな葉っぱを集めること=Collecting beautiful leaves
 
 ---Skills---
 この矢に未来を乗せて！=I’ll Place The Future On This Arrow!
 エルフの弓術+=Elven Archery
 
 ---UB (6 star)---
-r:"^敵単体に(\d+)の物理ダメージ\n５回目以降の使用時、敵単体に(\d+)の物理ダメージ$"=For the 1st-4th UB:\nDeals $1 P.DMG to an enemy. \n\nFor the 5th UB and so on:\nDeals $2 P.DMG to an enemy.
+r:"^敵単体に(\d+)の物理ダメージ\n５回目以降の使用時、敵単体に(\d+)の物理ダメージ$"=For the 1st-4th UB:\nDeals $1 P.DMG to an enemy. \n\nFor the 5th UB onwards:\nDeals $2 P.DMG to an enemy.
 
 目の前の敵１キャラに物理特大ダメージを与える。このスキルを使用\nするたび、最大４回までダメージが増加する。=Deals massive damage to an enemy directly in front. Gain a damage boosting stack for each UB casted, up to 5. 
 
@@ -18,7 +18,7 @@ r:"^敵単体に(\d+)の物理ダメージ\n５回目以降の使用時、敵単
 目の前の敵１キャラに物理特大ダメージを与える。このスキルを既に使用していた場合、ダメージが増加する。=Deals massive P.DMG to an enemy directly in front. boost to damage dealt if this skill has already been used.
 r:"^敵単体に(\d+)の物理ダメージ\nユニオンバースト使用後、敵単体に(\d+)の物理ダメージ$"=Deals $1 P.DMG to an enemy.\nAfter using Union Burst, deals $2 P.DMG to an enemy.
 ---Skill 1 (UE)---
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる\n敵単体の魔法攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nReduces an enemy’s action speed into 80% for 12s.\nLowers an enemy’s M.ATK by $2 for 12s.
+r:"^敵単体に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる\n敵単体の魔法攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nReduces an enemy’s action speed to 80% for 12s.\nLowers an enemy’s M.ATK by $2 for 12s.
 
 最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力と行動速度を小ダウンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK. Lowers their M.ATK and reduces their action speed by a small amount.
 ---Skill 1 ---
@@ -42,7 +42,7 @@ r:"^自分のＴＰを(\d+)回復\nユニオンバースト使用後、自分の
 まどろみの森=Forest of Dreams
 放浪するエルフ=The Elven Wanderer
 妖精の楽園=Pixie Paradise
-フォレストムーブ=Forest Move
-森の意志=Forest will
-妖精の調べ=Fairy investigation
-重なり合う決意=Decision to overlap
+フォレストムーブ=Forest Movement
+森の意志=Will of the Forest
+妖精の調べ=Fairy Investigation
+重なり合う決意=Overlapping Resolutions

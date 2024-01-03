@@ -1,5 +1,6 @@
 ---Profile---
-読書、推理=Reading and deducting
+霧原 かすみ=Kirihara Kasumi
+読書、推理=Reading and Deducing
 頭脳明晰な美少女名探偵=A brilliant, beautiful detective
 【魔法】後衛で、相手の行動妨害に特化した名探偵。束縛や混乱を付与するスキルで相手の行動を妨害し、魔法防御力ダウンのフィールドを展開して王手をかける。=[Magic] A great detective who specializes in obstructing the enemy's actions from the rearguard. Her skills inflict Bind and Confusion to prevent enemy attacks from succeeding, while she deploys a field to lower their M.DEF, leaving them utterly helpless.
 ---Skills---
@@ -8,9 +9,11 @@
 前から3番目の敵を中心に、範囲内の敵の魔法防御力を特大ダウン、ＴＰ上昇を小ダウンさせるフィールドを展開し、さらに行動速度を小ダウンさせる。=Massively lowers M.DEF of all enemies in a radius around the third enemy from the front, deploys a field that lowers TP boost by a moderate amount, and reduces their action speed by a small amount.
 r:"^フィールド内の敵の魔法防御力(\d+)ダウン\nフィールド内の敵のＴＰ上昇(\d+)ダウン\n範囲内の敵の行動速度を一定時間低下させる$"=Creates a Field (Radius 300) Around the 3rd nearest enemy for 16s.\nLowers enemies' M.DEF within field by $1.\nLowers TP boost of enemies within field by $2.\nReduces action speed of enemies in range into 90% for 16s.
 ---S1---
+ルートオブバインド=Root of Binding
 前方範囲内の敵全てに魔法小ダメージを与え、さらに束縛する。=Deals small M.DMG to all enemies in range and inflicts Bind.
 r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵を一定時間行動不能にする$"=Deals $1 M.DMG to enemies in range.\nRenders enemies in range immobile for a set period of time.
 ---S2---
+ミスリードバレット=Misleading Bullet
 目の前の敵１キャラに魔法小ダメージを与え、さらに混乱させる。=Deals small M.DMG to an enemy directly in front and inflicts Confusion.
 r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を混乱させる$"=Deals $1 M.DMG to an enemy.\nConfuses an enemy for 7.5s.
 ---ex---
@@ -23,6 +26,7 @@ r:"^フィールド内の敵の魔法防御力(\d+)ダウン\nフィールド内
 前から３番目の敵を中心に、範囲内の敵の魔法防御力を特大ダウン、ＴＰ上昇を小ダウンさせるフィールドを展開し、さらに行動速度を中ダウンさせる。さらに【カウントダウン】を付与し、５カウント後に敵全体に魔法小ダメージを与える。このスキルによるダメージでは敵のＴＰは回復しない。=Deploys a field to the 3rd enemy from the front, massively lowering the M.DEF of enemies within the area, slightly decreasing TP Boost, and moderately reducing their action speed. Additionally, applies Countdown, and after 5 counts, deals small M.DMG to all enemies. The damage inflicted by this skill does not restore enemy TP.
 
 ---S1---
+ルートオブバインド+=Root of Binding+
 前方範囲内の敵全てに魔法小ダメージを与え、さらに束縛する。範囲内の敵の数に応じて、束縛時間が増加する。=Deals small M.DMG to all enemies in range and inflicts Bind. The binding time boost according to the number of enemies within the range.unable to act for a certain period of time
 ---S2---
 ---ex---

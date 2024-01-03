@@ -1,0 +1,22 @@
+【魔法】後衛で特別な景色を共にする初夢超能力ガール。敵が物理攻撃を行う場合、攻撃性能の強化に加えて複数の弱体効果が追加され、攻守ともに味方を支援し敵を掃う。=[Magic] An esper girl who beholds a special scenery while she dreams the first dream of the year. If the enemy uses physical attack, then she activates a bunch of buffs and debuffs, Attacking, defending and supporting her allies to defeat the enemy.
+
+ラッキーチャーム☆ドロップス=Lucky Charm☆Drops
+ドリーム☆シュート=Dream☆Shoot
+ドリーム☆シュート+=Dream☆Shoot+
+ミラクル☆スパークル=Miracle Sparkle
+ミラクル☆スパークル+=Miracle Sparkle+
+ニューイヤー☆ドリーム=New Year's Dream
+ニューイヤー☆ドリーム+=New Year's Dream+
+目の前の敵１キャラに魔法大ダメージを与え、味方全体の魔法攻撃力を大アップさせる。対象が物理攻撃をする敵だった場合、ダメージと攻撃力の上昇量がアップし、さらに物理攻撃力を大ダウンさせる。=Deals massive M.DMG to the enemy character in front and massively boosts the M.ATK of all allies. If the target is a physical type, the damage and the increase in attack power are enhanced, and additionally, their P.ATK power is massively reduced.
+
+目の前の敵１キャラに魔法中ダメージを与える。対象が物理攻撃をする敵だった場合、ダメージがアップし、さらに物理攻撃力を大ダウン、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。=Deals moderate M.DMG to the enemy character in front. If the target is a physical type, the damage is increased, and further, their P.ATK power is massively reduced, M.DEF is slightly reduced, and the damage taken when hit with a critical is slightly increased.
+
+目の前の敵１キャラに魔法中ダメージを与え、味方全体の魔法攻撃力を大アップさせる。対象が物理攻撃をする敵だった場合、ダメージと攻撃力の上昇量がアップし、味方全体に物理無効バリアを展開する。=Deals moderate M.DMG to the enemy character in front and greatly boosts the M.ATK of all allies. If the target is a physical type, the damage and the increase in attack power are amplified, and a physical immunity barrier is deployed for all allies.
+
+
+
+r:"^対象が魔法攻撃をする敵だった場合、味方全体の魔法攻撃力を(\d+)アップ\n対象が物理攻撃をする敵だった場合、味方全体の魔法攻撃力を(\d+)アップ\n対象の敵単体に(\d+)の魔法ダメージ\n対象の敵単体に(\d+)の魔法ダメージ\n対象が物理攻撃をする敵だった場合、物理攻撃力を(\d+)ダウン$"=►If the target is a magic user, boosts allies' M.ATK by $1.\n►If the target is a physical type, boosts allies' M.ATK by $2.\n►Deals $3 M.DMG to a single target.\n►Deals $4 M.DMG to a single target.\n►If the target is a physical type, lowers their P.ATK by $5.
+
+r:"^対象の敵単体に(\d+)の魔法ダメージ\n対象の敵単体に(\d+)の魔法ダメージ\n対象が物理攻撃をする敵だった場合、物理攻撃力を(\d+)ダウン\n対象が物理攻撃をする敵だった場合、魔法防御力を(\d+)ダウン\n対象が物理攻撃をする敵だった場合、クリティカルを受けた際のダメージを5％アップ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n\nIf the target is a physical type:\n►Lowers an enemy’s P.ATK by $3 for 12s.\n►Lowers an enemy’s M.DEF by by $4 for 12s.\n►Reduce M.Crit DMG resit by 5% for 12s.
+
+r:"^対象が魔法攻撃をする敵だった場合、味方全体の魔法攻撃力を(\d+)アップ\n対象が物理攻撃をする敵だった場合、味方全体の魔法攻撃力を(\d+)アップ\n対象の敵単体に(\d+)の魔法ダメージ\n対象の敵単体に(\d+)の魔法ダメージ\n対象が物理攻撃をする敵だった場合(\d+)ダメージ分の物理無効バリアを展開する$"=► If the target is a magic user, Boosts allies' M.ATK by $1 for 12s.\n\nIf the target is a physical type:\n►Boosts allies' M.ATK by $2.\n►Deals $3 M.DMG to an enemy.\n►Deals $4 M.DMG to an enemy.\n►Deploy barrier over allies that nullifies $5 P.DMG for 12s.

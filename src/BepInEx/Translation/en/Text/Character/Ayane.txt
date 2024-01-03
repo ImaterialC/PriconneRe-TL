@@ -1,7 +1,7 @@
 ぷうきちといつも一緒！=Together forever with Pukichi!
 偉大なクマ王ぷうきち=Great Bear King Pukichi
 ---Bio---
-【物理】前衛で、戦場をかき乱す、くまっ子。ユニオンバーストで、相手を思い切り吹き飛ばすと同時にスタンと大ダメージを与えることで敵陣形を大きく乱す。=[Physical] The Ayane/Pukichi duo stuns and smashes enemies from the vanguard. Her Union Burst deals massive damage while sending enemies flying.
+【物理】前衛で、戦場をかき乱す、くまっ子。ユニオンバーストで、相手を思い切り吹き飛ばすと同時にスタンと大ダメージを与えることで敵陣形を大きく乱す。=[Physical] The duo of Ayane and Pukichi stuns and pummels enemies from the frontlines. Her Union Burst deals massive damage while sending enemies flying.
 
 ---Profile---
 屋内でできる遊び=Indoor Activities
@@ -13,10 +13,10 @@
 プリティスラッガー+=Pretty Slugger+
 
 ---UB (6 star)---
-前方範囲内の敵すべてに物理特大ダメージを与え、さらに大きく吹き飛ばしてスタンさせる。=Deals Massive P.DMG to all the enemies within the front range, inflicts Stun, and knocks it back a large distance.
+前方範囲内の敵すべてに物理特大ダメージを与え、さらに大きく吹き飛ばしてスタンさせる。=Deals massive P.DMG to all enemies in a frontal area, inflicts Stun, and knocks them back a large distance.
 
 ---UB ---
-目の前の敵１キャラに物理大ダメージを与え、さらに大きく吹き飛ばしてスタンさせる。=Deals large P.DMG to an enemy directly in front, inflicts Stun, and knocks it back a large distance.
+目の前の敵１キャラに物理大ダメージを与え、さらに大きく吹き飛ばしてスタンさせる。=Deals large P.DMG to an enemy directly in front, inflicts Stun, and knocks them back a large distance.
 
 ---Skill 1 (UE)---
 r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n目の前の敵に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる$"=Deals $1 P.DMG to enemies within 325 range. \nRenders enemies within 325 range immobile for 2.5s.\nDeals $2 P.DMG within 325 range.\nReduces an enemy’s action speed into 80% for 10.5s.
@@ -36,7 +36,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御
 r:"^自分の物理攻撃力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ$"=Boosts own P.ATK by $1.\nBoosts own M.DEF by $2.
 バトル開始時に自分の物理攻撃力を中アップさせ、さらに自分の魔法防御力を小アップさせる。=Moderate boost to own physical attack at start of battle.\nSmall boost to own M.DEF at start of battle.
 
----Story
+---Story---
 
 アヤネとぷうきち=Ayane and Pukichi
 家族のためなら怖くない=I'm Not Scared If It’s For Family
@@ -47,6 +47,6 @@ r:"^自分の物理攻撃力を(\d+)アップ\n自分の魔法防御力を(\d+)�
 『つくりもの』の家族=Fake Family
 ぷうきち一家大集合=Pukichi’s Family Reunion
 ぷうきちミッシング=Pukichi Missing
-『ほんとう』の家族="Real" family
-あふれる想いは突然に=The overflowing feeling suddenly
-私だけの本当の気持ち=My true feelings
+『ほんとう』の家族="Real" Family
+あふれる想いは突然に=A Sudden Outburst
+私だけの本当の気持ち=My Own True Feelings

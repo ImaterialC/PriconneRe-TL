@@ -1,23 +1,23 @@
 チュートリアル=Tutorial
 クリアランク=Clear rank
 連携=Link
-r:"^(\[[0-9A-F]{6}\])?プレイヤーLvを(\d+)にしよう(\[-\])?$"="$1Reach player level $2[-]"
+r:"^(\[[0-9A-F]{6}\])?プレイヤーLvを(\d+)にしよう(\[-\])?$"="$1Reach Player Level $2[-]"
 
 sr:"^(\[[0-9A-F]{6}\])?(メイン|イベント)クエスト(.+)をクリアしよう(\[-\])?$"="$1Clear $2 Quest $3$4"
 sr:"^(\[[0-9A-F]{6}\])?(メイン|イベント)クエスト(.+)前編をクリアしよう(\[-\])?$"="$1Clear $2 Quest $3 Part 1$4"
 sr:"^(\[[0-9A-F]{6}\])?(メイン|イベント)クエスト(.+)後編をクリアしよう(\[-\])?$"="$1Clear $2 Quest $3 Part 2$4"
 
-r:"^(\[[0-9A-F]{6}\])?クリアランクの☆を(\d+)個集めよう(\[-\])?$"="$1Gather clear rank stars $2☆$3"
+r:"^(\[[0-9A-F]{6}\])?クリアランクの☆を(\d+)個集めよう(\[-\])?$"="$1Collect level stars $2☆$3"
 sr:"^(\[[0-9A-F]{6}\])?([\d+]+月)クランバトル \(クランモード\)で([1-5])段階目に到達しよう(\[-\])?$"="$1Reach Tier $3 Boss in Clan Battle ($2)[-]"
-r:"^(\[[0-9A-F]{6}\])?フレンドバトルで(\d+)回戦おう(\[-\])?$"="$1Do $2 times Friend Match$3"
+r:"^(\[[0-9A-F]{6}\])?フレンドバトルで(\d+)回戦おう(\[-\])?$"="$1Do a friend match $2 times $3"
 r:"^(\[[0-9A-F]{6}\])?(\d+)キャラ獲得しよう(\[-\])?$"="$1Recruit a total of $2 characters$3"
 r:"^(\[[0-9A-F]{6}\])?聖跡調査クエストLv(\d+)をクリアしよう(\[-\])?$"="$1Clear Sanctum Survey Quest Lv$2$3"
 r:"^(\[[0-9A-F]{6}\])?神殿調査クエストLv(\d+)をクリアしよう(\[-\])?$"="$1Clear Temple Trek Quest Lv$2$3"
 r:"^(\[[0-9A-F]{6}\])?(\d+)キャラをRANK(\d+)にしよう(\[-\])?$"="$1Promote $2 characters to RANK $3$4"
 sr:"^(\[[0-9A-F]{6}\])?(バトルアリーナ|プリンセスアリーナ)で(\d+)(回勝利しよう|勝しよう)(\[-\])?$"="$1Win $3 Times at $2$5"
 r:"^(\[[0-9A-F]{6}\])?バトルアリーナで(\d+)回勝利しよう(\[-\])?$"="$1Win $2 Times at Battle Arena$3"
-r:"^(\[[0-9A-F]{6}\])?ルナの塔(\d+)階をクリアしよう(\[-\])?$"="$1Clear floor $2 of Luna Tower$3"
-r:"^(\[[0-9A-F]{6}\])?ルナの塔(\d+)階EXクエストをクリアしよう(\[-\])?$"="$1Clear floor $2 EX Quest of Luna Tower$3"
+r:"^(\[[0-9A-F]{6}\])?ルナの塔(\d+)階をクリアしよう(\[-\])?$"="$1Clear Floor $2 of Luna Tower$3"
+r:"^(\[[0-9A-F]{6}\])?ルナの塔(\d+)階EXクエストをクリアしよう(\[-\])?$"="$1Clear Floor $2 EX Quest of Luna Tower$3"
 r:"^(\[[0-9A-F]{6}\])?★([1-6])のキャラを獲得しよう(\[-\])?$"="$1Recruit a $2★ character$3"
 r:"^(\[[0-9A-F]{6}\])?ギルドハウスアイテムを(\d+)個設置しよう(\[-\])?$"="$1Install $2 Guildhouse items$3"
 sr:"^(\[[0-9A-F]{6}\])?ダンジョン「(.+)」を制覇しよう(（追加）)?(\[-\])?$"="$1Clear Dungeon "$2"$3$4"
@@ -34,7 +34,7 @@ r:"^(\[[0-9A-F]{6}\])?【期間限定】メインストーリー第(\d+)部 第(
 [3C404E]クランでダンジョンのサポートキャラを設定しよう[-]=[3C404E]Set a Rental Character for Dungeon in the Clan[-]
 [3C404E]クランでクランバトル・ルナの塔のサポートキャラを設定しよう[-]=[3C404E]Set Rental Character for CB/Luna in the Clan[-]
 [3C404E]フレンドでクエストのサポートキャラを設定しよう[-]=[3C404E]Set Rental Character for Quest in the Clan[-]
-[3C404E]フレンドをつくろう[-]=[3C404E]Let's make a friend[-]
+[3C404E]フレンドをつくろう[-]=[3C404E]Add a friend[-]
 [3C404E]データ連携、またはアカウント連携を設定しよう[-]=[3C404E]Set data link or account link[-]
 [3C404E]称号を受け取ろう[-]=[3C404E]Receive a title[-]
 

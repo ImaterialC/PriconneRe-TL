@@ -1,9 +1,9 @@
-【物理】中衛で、闇夜に身を潜める神出鬼没の怪盗少女。敵の目の前から姿を消す隠密スキルや、遠くの敵に対するＴＰダウンスキルを駆使して、敵陣後方から瓦解させる。=[Physical] Mysterious thief girl who hides herself in the darkness and appears and disappears like a phantom. She makes use of stealth skills that make her disappear right before the enemy's eyes and TP-down skills against distant enemies, causing destruction from the enemy's rear.
+【物理】中衛で、闇夜に身を潜める神出鬼没の怪盗少女。敵の目の前から姿を消す隠密スキルや、遠くの敵に対するＴＰダウンスキルを駆使して、敵陣後方から瓦解させる。=[Physical] A Phantom Thief hiding in the darkness within the midlines. She uses her covert abilities to disappear from the enemy's sight and whittles down the enemy backlines with her TP reduction skills.
 
 思い出を盗み返して=Stealing Back Memories
 鍵のかかった恋心=Locked Heart
 案ずるより歩むが易し=Action Speaks Louder Than Words
-二人で一人の怪盗=Two Become One Thief
+二人で一人の怪盗=Two People, One Thief
 
 ファントムワイヤーイリュージョン=Phantom Wire Illusion
 最も遠くの敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、スタンさせる。=Deals P.DMG to all enemies within a range centered around the farthest enemy character and stuns them.
@@ -16,7 +16,7 @@ r:"^自分を隠密状態にする\n敵単体の物理攻撃力を(\d+)ダウン
 【隠密】自分を隠密状態にする。最も遠くの敵１キャラの物理攻撃力と魔法攻撃力を大ダウンさせ、自分の物理攻撃力を大アップさせる。さらに、対象の敵に物理中ダメージを与える。=[Stealth] Enter stealth mode. Greatly decreases the P/M.ATK of the farthest enemy character and greatly increases one's own P.ATK. Additionally, deals medium P.DMG to the target enemy.
 
 
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d+)失わせる$"=►Deals $1 P.DMG to enemies within range.\n►Reduces enemis' TP within range by $2.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d+)失わせる$"=►Deals $1 P.DMG to enemies within range.\n►Reduces enemies' TP within range by $2.
 (overlap with misogiS)
 
 最も遠くの敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、ＴＰを小ダウンさせる。=Deal medium P.DMG to all enemies within the range centered around the farthest enemy character, and decrease their TP slightly.
@@ -24,5 +24,5 @@ r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d
 こっそりこっそり…=Sneak Secretly…
 こっそりこっそり…+=Sneak Secretly…+
 
-見えざる乙女の槍=Invisible maiden spear
+見えざる乙女の槍=Invisible Maiden's Spear
 【隠密】自分を隠密状態にする。最も遠くの敵１キャラの物理攻撃力と魔法攻撃力を大ダウンさせ、自分の物理攻撃力を特大アップさせる。さらに、対象の敵に物理特大ダメージを与える。このスキルによるダメージでは敵のＴＰは回復しない。=[Stealth] Makes oneself stealthy. Greatly decreases the P/M.ATK of the farthest enemy character and greatly increases one's own P.ATK. Additionally, deal great P.DMG to the target enemy. TP does not recover for the enemy damaged by this skill.

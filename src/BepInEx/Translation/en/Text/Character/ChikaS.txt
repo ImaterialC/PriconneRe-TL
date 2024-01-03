@@ -1,14 +1,14 @@
-【魔法】中衛で、守護の賛歌を捧げる夏海の歌姫。\n最序盤に味方の魔法防御を大幅に強化し、吸収バリアや\nＨＰ回復スキルで、如何なる猛攻からも味方を守る。=[Magic]Summer's songstress who sings the hymn of protection. She Large strengthens the M.DEF of her allies in the early stages, and protects her allies from any onslaught with her absorbing barrier and HP recovery skills.
+【魔法】中衛で、守護の賛歌を捧げる夏海の歌姫。\n最序盤に味方の魔法防御を大幅に強化し、吸収バリアや\nＨＰ回復スキルで、如何なる猛攻からも味方を守る。=[Magic] A summer diva who sings a hymn of protection from the midlines. She greatly strengthens the M.DEF of her allies at the very start of the fight, and protects them from incoming attacks with her absorption barrier and HP Recovery skills.
 
 サマーオーシャンシンフォニー=Summer Ocean Symphony
-味方全体の物理防御力と魔法防御力を中アップさせる。さらに、物理/魔法吸収バリアを展開する。=Moderately boost the P.DEF and allies' M.DEF. In addition, deploy a physical/magical absorption barrier.
+味方全体の物理防御力と魔法防御力を中アップさせる。さらに、物理/魔法吸収バリアを展開する。=Moderately boost allies' P.DEF and M.DEF. In addition, deploy a physical/magical absorption barrier.
 r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Boosts allies' P.DEF by $1 for 18s.\n►Boosts allies' M.DEF by $2 for 18s.\n►Deploy Barrier to all allies that absorbs $3 P/M.DMG for 18s.
 
-自分を中心とした範囲内の味方すべての魔法防御力を特大アップさせる。このスキルは３回まで、使用する度にスキル効果がダウンする。=Large boost the allies' M.DEF within 255 range around you. This skill can be used up to 3 times, and the skill effect decreases after that.
+自分を中心とした範囲内の味方すべての魔法防御力を特大アップさせる。このスキルは３回まで、使用する度にスキル効果がダウンする。=Large boost to allies' M.DEF within a range of 255 around you. This skill's potency will decrease after 3 uses.
 
-自分を中心とした範囲内の味方すべての魔法防御力を特大アップさせ、魔法無効バリアを展開し、さらに自分のＴＰを特大回復させる。このスキルは３回まで、使用する度にスキル効果がダウンする。=Massively boost the allies' M.DEF within range around you, creates a magic-nullifying barrier, and Large recovers your own TP. This skill can be used up to 3 times, and the skill effect decreases after that.
+自分を中心とした範囲内の味方すべての魔法防御力を特大アップさせ、魔法無効バリアを展開し、さらに自分のＴＰを特大回復させる。このスキルは３回まで、使用する度にスキル効果がダウンする。=Massively boost allies' M.DEF within a range around you, creates a magic-nullifying barrier, and large boost to user's TP. This skill's potency will decrease after 3 uses.
 
-r:"^範囲内の味方の魔法防御力を(\d+)アップ\n自分のＴＰを(\d+)回復\n(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts allies' M.DEF by $1 within 255 range for 12s.\n►Recovers own TP by $2.\n►Deploys Barrier within 255 range that negates $3 M.DMG.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ\n自分のＴＰを(\d+)回復\n(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts allies' M.DEF by $1 within 255 range for 12s.\n►Recovers own TP by $2.\n►Deploys a barrier within 255 range that negates $3 M.DMG.
 
 r:"^味方単体のＨＰを(\d+)回復\n毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Recovers an ally's HP by $2/s.
 最もＨＰが低い味方１キャラのＨＰを小回復させ、継続ＨＰ回復状態を付与する。=Slightly restores the HP of the ally character with the lowest HP, and gives HP regen.
