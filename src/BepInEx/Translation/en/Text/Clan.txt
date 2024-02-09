@@ -468,7 +468,7 @@ sr:"^\(クラン内ランキング　(\d+位)\)$"=(in-clan Rank $1)
 ---(?!.*My)^.*$---
 
 まだ誰も挑戦していません=No attempts made yet.
-r:"^([^\n]{2,10})が$"="[00ff0099]$1[-] hit"
+r:"^([^\n、\\\.\,。\?\!]{2,10})が$"="[00ff0099]$1[-] hit"
 sr:"^([べ-ヺー＆]+)に$"=$1 for
 r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-]
 r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-][FF7C4E,D62146](kill)[-]
@@ -482,3 +482,7 @@ r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[
 クランに所属すると、\nクランバトルに挑戦することができます。=If you join a clan,\nyou can participate in Clan Battles.
 クランに所属すると、=If you join to a Clan,
 クランバトルに挑戦することができます。=You can participate in Clan Battles.
+
+---が dialogue void---
+かわいそうだが=I feel sorry for you
+はっ、バカが=Hah, you morons

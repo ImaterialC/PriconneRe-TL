@@ -344,13 +344,13 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 その証拠に。\n玉座に腰掛けたりは、していないでしょう。=As proof, you didn't sit on the throne, did you?
 王には様々な形がありますが。\n私は、人民を支え導くことにも。\n支配し搾取することにも興味はありません。=Kings come in many shapes and sizes. I have no interest in supporting or guiding the people, nor in ruling or exploiting them.
 あっそ。\nアンタの前の部下がいたら、飛びつきそうだけどねー=Ah, I see. I guess I'd be jumping up and down if I was a former subordinate of yours!
-ゴウシン議長は、部下などではありませんでしたが。\nとても愉快な人物でした。\n今ここに彼がいれば、きっと喜んでその玉座に座ったことでしょうね。=Chairman Goshin wasn't one of my subordinates, but he was a very pleasant man. If he were here right now, I'm sure he would have been happy to sit on that throne.
+ゴウシン議長は、部下などではありませんでしたが。\nとても愉快な人物でした。\n今ここに彼がいれば、きっと喜んでその玉座に座ったことでしょうね。=Chairman Gorschin wasn't one of my subordinates, but he was a very pleasant man. If he were here right now, I'm sure he would have been happy to sit on that throne.
 よく言うなあ。\n自分で消しておいてさー=Well said. You erased him yourself
 消した、というのは誤解があります。\nあのまま牢獄で朽ちてしまうのは、とても憐れでしたから。=There's a misunderstanding that I erased him. It was very pitiful for him to have to rot in a prison like that.
 ふーん。\nま、あんな小物はどうでもいいけど。\nところで、そっちの──=Hmm. Well, I don't care about those little things. By the way, that one over there
 さっきからすごい目でボクらを睨んでるお姉さんは。\n玉座に興味あっちゃう系なのかな？=She's been glaring at us with amazing eyes for a while now. I wonder if she's the type to be interested in the throne?
 あるわけないでしょうが！\nふざけるんじゃありませんことよっ！=Of course not! Don't be ridiculous!
-それにっ！\nゴウシン議長が、部下ですって……！？\n貴方でしたの！？　議長を手駒としていたのはっ！！=And! Chairman Goshin is one of your subordinates...!? Was it you!? The one who used the chairman as a pawn!!
+それにっ！\nゴウシン議長が、部下ですって……！？\n貴方でしたの！？　議長を手駒としていたのはっ！！=And! Chairman Gorschin is one of your subordinates...!? Was it you!? The one who used the chairman as a pawn!!
 ……んーっと。\nあのお姉さん、どうしたの？=...Hmm. What's wrong with that lady?
 私も王宮を散策するのは初めてでしたので。\n少々道案内をお願いしたのです。\n斬りかかってくるばかりの兵士の方と違って、話が通じそうでしたから。=This was my first time taking a stroll around the royal palace, so I asked her to show me the way. Unlike the soldiers who had just attacked me, she seemed like she could understand.
 散策ねぇ。\n別に面白いものなんてないと思うけど……=A walk, huh? I don't think there's anything interesting here...
@@ -359,9 +359,9 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 そういうアンタは……出入りの商人さんだっけ？\n災難だねー、巻き込まれちゃって。=You're a merchant who comes and goes, aren't you? What a disaster, getting caught up in it.
 お生憎さま！\nわたくし、自らの意志でここにおりましてよ！\n陛下の敵をこの目で確かめるためにね！=Unfortunately! I am here of my own free will! To witness Her Majesty's enemies with my own eyes!
 あはは、チューセイシンってやつ？\n……あれっ？\nでもアンタ、そんなキャラだったっけ。=Ahaha, a Chuseishin? ...Huh? But I didn't know you were like that.
-そうですね。ゴウシンさんに代わる、\n新しい道化役をお願いできればと思ったのですが。\nどうやら、そのつもりは無いようですし。=That's right. I was hoping I could ask for a new clown to replace Goshin. It seems she has no intention of doing that.
-そちらもお生憎さまですわッ！\nゴウシン議長と違って、わたくしは地位や権力など欲しておりませんの！\n傀儡にできるなどと、思わないでくださいまし！=I'm sorry to disappoint you, too! Unlike Chairman Goshin, I don't want status or power! Don't think you can turn me into a puppet!
-本当に違うかどうか。\n物は試しに、ゴウシン議長と\n同じ場所に送って差し上げても良いのですが……=I don't know if it's true or not. As a test, I could send you to the same place as Chairman Goshin...
+そうですね。ゴウシンさんに代わる、\n新しい道化役をお願いできればと思ったのですが。\nどうやら、そのつもりは無いようですし。=That's right. I was hoping I could ask for a new clown to replace Gorschin. It seems she has no intention of doing that.
+そちらもお生憎さまですわッ！\nゴウシン議長と違って、わたくしは地位や権力など欲しておりませんの！\n傀儡にできるなどと、思わないでくださいまし！=I'm sorry to disappoint you, too! Unlike Chairman Gorschin, I don't want status or power! Don't think you can turn me into a puppet!
+本当に違うかどうか。\n物は試しに、ゴウシン議長と\n同じ場所に送って差し上げても良いのですが……=I don't know if it's true or not. As a test, I could send you to the same place as Chairman Gorschin...
 ちょっとアンタさー\nそんなどうでもいい人、放っておけば？\nボクら別に、人殺しを楽しむチームじゃなかったと思ったけど？=Hey, you. Why don't you just leave people like that alone? I thought we weren't a team that enjoyed killing people.
 ほう。\nチーム、とおっしゃいますか。=Oh? A team, you say?
 ほら、お姉さん。\n足は動くんだから、さっさと逃げたら？=Come on, lady. Your legs are moving, so why don't you get out of here?
@@ -405,7 +405,7 @@ r:"^矛盾……えーっと。\nエリスの狙いは(.{2,10})で……\nそれ
 【レイジ・レギオン】による建造物の損壊はもちろん、\n外門へ殺到したことで負傷する者たち、各地の火事場泥棒など。\n現在進行形で被害が拡大中です。=There is the damage to the buildings caused by the [Rage Legion], of course, but also those injured by the rush to the outer gates, and the fire from all over the country. The damage is still ongoing and expanding.
 仕方ありませんわね！\nそうとわかれば、やることはふたつですわ！\n街の方は貴女に任せます秘書１号！=There's nothing we can do! Now that we know that, there are two things to do! I'll leave the city to you, Secretary 1!
 はい。ではこちらは、混乱からの正常化を。\nまずはギルド管理協会に民間協力を要請し、\n緊急時対策案のパターンFを遂行します。=Yes. Now, let's settle down the chaos. First, we'll request civilian cooperation from the guild management association and carry out emergency countermeasures, Pattern F.
-宜しくてよ！\nゴウシン議長の叛乱の際に顔を売っておいたのが活きますわね。\nわたくしの方は、もちろんっ──=Very good! I'm glad I was able to sell my face during Chairman Goshin's rebellion. Of course, I...
+宜しくてよ！\nゴウシン議長の叛乱の際に顔を売っておいたのが活きますわね。\nわたくしの方は、もちろんっ──=Very good! I'm glad I was able to sell my face during Chairman Gorschin's rebellion. Of course, I...
 それと半壊状態の【王宮騎士団（NIGHTMARE）】ですが、\n陛下とジュン団長が戻るまでの臨時措置として徴用する許可を。\n行政長官代理の権限ならば、彼らも従うはずです。=Also, regarding the half-destroyed Knights of the Royal Palace (NIGHTMARE), I request permission to conscript them as a temporary measure until Her Majesty and Commander Jun return. With the authority of the acting administrative director, they should obey as well.
 はい。\n心おきなく陛下の捜索をなさってください。\nクレジッタさま。=Yes. Please do not hesitate to search for Her Majesty, Lady Creditta.
 ええ、ええ！\n待っていてくださいまし陛下！\n必ずや馳せ参じますわ、貴女の忠実なる僕であるわたくしが～っ！！=Yes, yes! Please wait for me, Your Majesty! I will definitely treat you, as your loyal servant~!!

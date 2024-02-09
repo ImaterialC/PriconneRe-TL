@@ -283,3 +283,9 @@ Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParen
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogCaravanDishInfo(Clone)/GUIGroup_DishInfo/GUIGroup_Scroll/ScrollContent/ScrollView/UITable/GUIGroup_DishInfo/DishInfoLabel=ChangeFontSize(14)
 
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsNotifyRoomItemsAreReadyToLevelUp(Clone)/GUIPanel_Dialog/ScrollContentRoot/ScrollContent/ScrollView/WrapContent/PartsNotifyRoomItemsAreReadyToLevelUpManager(Clone)/UIGrid/PartsNotifyRoomItemsAreReadyToLevelUpPlate(Clone)/common_info_area/RoomItemCanLevelUpForCoins=ChangeFontSize(18)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogColosseumBattleResult(Clone)/Main/ButtonObject/NextButton/Label=ChangeFontSize(17)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogColosseumBattleResult(Clone)/Main/GUIPanel_Dialog/GUIGroup_Bonus/GUIGroup_TimeBonus/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogColosseumBattleResult(Clone)/Main/GUIPanel_Dialog/GUIGroup_Bonus/GUIGroup_TotalBonus/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsColosseumQuestDetail(Clone)/GUIGroup_questDetail/PartsColosseumResultScoreDetail/GUIGroup_timeBonus/GUIGroup_Label/Label=ChangeFontSize(13)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsColosseumQuestDetail(Clone)/GUIGroup_questDetail/UIButton_ChallengeHistory/Label=ChangeFontSize(13)

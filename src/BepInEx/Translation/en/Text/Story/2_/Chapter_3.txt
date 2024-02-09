@@ -217,7 +217,7 @@ r:"^あー、シェフィちゃんだっけ？\n(.{2,10})に、\nもうべった
 ええ。\nこの街は広い……サレンちゃんが加わったとしても、\n敵の初動に対応しきるのは、さすがに不可能ですしね。=Yes. This city is huge... Even if Saren joined us, it would be impossible to deal with the enemy's initial attack.
 まあ、いったん騒ぎが起きちゃえば\nわたしたちや【トゥインクルウィッシュ】のみなさんで\nばーっと駆けつけて、どーんっとやっつけちゃいますけどっ！=Well, once there's a commotion, we and everyone else at Twinkle Wish will come running and take care of it!
 ……え、えーっと……=...U-Umm...
-……ジュンさんは、ゴウシンさんみたいに\n『陛下は玉座にいてくだされ～！』ってカンジのことは\n言わないんですか？=...Aren't you going to say something like, “Your Majesty, please stay on the throne!” like Goshin?
+……ジュンさんは、ゴウシンさんみたいに\n『陛下は玉座にいてくだされ～！』ってカンジのことは\n言わないんですか？=...Aren't you going to say something like, “Your Majesty, please stay on the throne!” like Gorschin?
 ……【王宮騎士団（NIGHTMARE）】が万全で、どのような\nテロ行為にも対処できる確信があれば……きっと私も、そう言って\nいたことでしょう。御身をお守りすることは、私の大事な職務ですから。=...If the Knights of the Royal Palace were fully prepared and confident that they could handle any terrorist activity... I'm sure I would have said the same thing. It's my duty to protect you.
 しかし現状は、万全などとはとても言えない。\n現にカリザという少年には、王宮の地下にまで侵入され、\n魔物を放たれてしまいました。=However, the current situation is far from perfect. In fact, the young man named Kariza invaded the underground part of the royal palace and unleashed monsters.
 であれば……あえて陛下に戦場へ立っていただいて。\n兵の士気を鼓舞し、市民から不安を取り除くことも、立派な策であると。\n……そう考えています。=If that's the case... I'll have His Majesty stand on the battlefield. Encouraging the soldiers' morale and getting rid of the anxiety of the citizens is a splendid plan. ...That's what I believe.
@@ -667,7 +667,7 @@ r:"^【レイジ・レギオン】の行動って……この街を攻撃する�
 2部 第3章 第8話=Part 2 Chapter 3 Episode 8
 【レイジ・レギオン】のアジトに帰還したアゾールドとカリザ。彼らは自らの目的のため、ランドソルに居留する七冠のメンバーを強襲しようと画策していた。ゼーンは胸中に次なるターゲットを思い浮かべる。=Azold and Kariza returned to the [Rage Legion] hideout. They were planning to assault the members of the Seven Crowns residing in Landosol for their own purposes. Zane thought of the next target in his mind.
 r:"^(.{2,10})たちが\nラビリスタのクレープを食べている、ちょうどその頃──$"="Just as $1 and the others were eating the crepes of Labyrista..."
-……ゴウシン議長？\n昼に渡された、来月の国家予算をまとめた書類ですが。=...Chairman Goshin? About the documents that were given to us this afternoon, about the national budget for next month.
+……ゴウシン議長？\n昼に渡された、来月の国家予算をまとめた書類ですが。=...Chairman Gorschin? About the documents that were given to us this afternoon, about the national budget for next month.
 はい。\n少々ぶ厚い資料となっておりますが、\n明後日までには目を通し、陛下の押印をいただけると……=Yes. It's a rather thick document, but if you could look it over by the day after tomorrow and give me His Majesty's seal...
 37ページの５行目と54ページの８行目、\nそれから91ページの３行目、121ページの２行目。\n数字が矛盾していますね？=Page 37's fifth line and page 54's eighth line, page 91's third line, and page 121's second line. The numbers are contradictory, aren't they?
 座の間=Zama
@@ -677,7 +677,7 @@ r:"^(.{2,10})たちが\nラビリスタのクレープを食べている、ち�
 うぬぬ……かしこまりました。\nただちに取り掛からせていただきます。=Unnngh... Understood. We'll get to work immediately.
 それにしても……\n今日はずいぶんと目端が……いえ、ご慧眼ですな陛下。\n日頃から、そのようになさっていただきたいものです。=Still... You have quite the discerning eye today... No, Your Majesty. I would like you to do so on a daily basis.
 ……おっと。\n私としたことが、やりすぎてしまいましたね……=...Whoops. I guess I went too far...
-やだなーゴウシンさん、偶然ですよ偶然♪\nそれよりも、頭を使ったらお腹が空いちゃいました！\nお夜食増やしておいてもらえると助かります！=Oh no, Mr. Goshin, it's just a coincidence♪ More importantly, I'm hungry now that I've used my head! I'd appreciate it if you could give me more late-night snacks!
+やだなーゴウシンさん、偶然ですよ偶然♪\nそれよりも、頭を使ったらお腹が空いちゃいました！\nお夜食増やしておいてもらえると助かります！=Oh no, Mr. Gorschin, it's just a coincidence♪ More importantly, I'm hungry now that I've used my head! I'd appreciate it if you could give me more late-night snacks!
 ……承知いたしました。\n食べ過ぎて、大事なお身体を壊したりなどなさいませんよう。=...Understood. Please don't eat too much and ruin your precious body.
 ふぅ……=Phew...
 ようやく、一人になれましたか……=So you're finally alone...
@@ -686,7 +686,7 @@ r:"^(.{2,10})たちが\nラビリスタのクレープを食べている、ち�
 この椅子も……\n真那がこだわっただけあって、座り心地が良いですし。\nふふ……=This chair is also... comfortable to sit on, since Mana was so fixated on it. Hehe...
 私が本当に、この椅子を欲しくなってしまう前に。\n事態が解決するといいですね……『陛下』？　=Before I really want this chair. I hope this situation is resolved... 'Your Majesty'?　
 はあああぁあもうっ！\n書いても書いても、終わらないのですがっ！？=Haaaaah, geez! No matter how much I write, it won't end!
-ゴウシン議長も無理を言いますね。\n明日の朝までに、このぶ厚い予算資料を修正しろだなんて……=Chairman Goshin is asking for the impossible. He wants us to revise this thick budget by tomorrow morning...
+ゴウシン議長も無理を言いますね。\n明日の朝までに、このぶ厚い予算資料を修正しろだなんて……=Chairman Gorschin is asking for the impossible. He wants us to revise this thick budget by tomorrow morning...
 まさかあの、ユルそうなお姫さまに\n経理計算のトリックが見破れるとは思っていませんでしたわ……\n……何者かが、入れ知恵でもしたのかもしれませんわね。=I didn't think that yuru-looking princess would be able to see through the accounting-calculation trick... ...Maybe someone came up with something.
 というか！　そもそも資料作成を民間に丸投げして、\nそのうえ予算を誤魔化すように指示してきたのは──\nあのクソ議長でしょうがぁ～っ……！=Actually, it's that shitty chairman who dumped all the documents on the civilians in the first place, and then ordered them to cover up the budget...!
 クレジッタさま。=Lady Creditta.

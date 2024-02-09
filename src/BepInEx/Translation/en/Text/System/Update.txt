@@ -11,7 +11,7 @@ r:"^\[3C404E\]プレイを進めるにはデータの\nダウンロードが必�
 データダウンロード中=Downloading data
 メンテナンス=Maintenance
 r:"^ダウンロード中　([.0-9]+)％$"=Downloading $1％
-※通信環境の良いところでダウンロードを行ってください。\n通信状態によっては時間がかかる場合があります。=※Ensure you have a good connection. Download times may vary depending on your network speed.
+※通信環境の良いところでダウンロードを行ってください。\n通信状態によっては時間がかかる場合があります。=※Ensure you have a good connection.\nDownload times may vary depending on your network speed.
 
 r:"^\[3C404E\]\[FFBB00,CE4F00\]([0-9:/ ]+) ～ ([0-9:/ ]+)\[-\]に\nメンテナンスを実施いたします。\n詳細はお知らせをご確認ください。\[-\]$"=[3C404E]Maintenance will be held at\n[FFBB00,CE4F00]$1(JST) to $2(JST)[-].\nPlease check the announcement for details. [-]
 メンテナンスのお知らせ=Maintenance Notification

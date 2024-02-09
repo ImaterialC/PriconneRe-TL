@@ -296,7 +296,7 @@ r:"^ホマレが７人目の七冠ではなかったと確信した【レイジ�
 ──クレジッタ・キャッシュ！\nこちらは貴族議会直属、【黄金の手】である！=Creditta Cash! This is the Golden Hand, under the direct command of the nobles' council!
 何事ですかっ？=What's going on?!
 ウォッホン！\n相変わらず汗水垂らしているようだな、女商人。=Ahem! you're still sweating as usual, lady merchant.
-……ゴウシン議長。わざわざご足労くださらなくても、\nお呼びいただければ馳せ参じましたのに。\nそれも、兵士たちまで連れて……=...Chairman Goshin. You didn't have to come all the way here. If you'd called me, I would have come. And you even brought the soldiers with you...
+……ゴウシン議長。わざわざご足労くださらなくても、\nお呼びいただければ馳せ参じましたのに。\nそれも、兵士たちまで連れて……=...Chairman Gorschin. You didn't have to come all the way here. If you'd called me, I would have come. And you even brought the soldiers with you...
 挨拶はもう良い。\nそれよりも、先日貴様に命じておいた\n人集めはどこまで進んでいるか？=Enough with the greetings. But more importantly, how far have you gotten in gathering the people I ordered you to do the other day?
 ええ、ええ。滞りなく。\n腕利きの傭兵や冒険者を、ひとまずは三百人ほど……\nキッチリと用立てておりましてよ。=Yes, yes. Without delay. We have already employed about three hundred skilled mercenaries and adventurers for the time being...
 結構。\nやればできるではないか。\n……その手腕は、少々惜しいが……=Very well. You can do it if you try. ...I'm a little disappointed in your skill, but...
@@ -862,9 +862,9 @@ r:"^で、でも……\n今回の目的は、(.{2,10})くんと\nお友だちに
 じゃーな！\n脳みそゼラチン女に、ボソボソ陰キャ女！\nその辺でアメでもナメてな！=See ya! you're a gelatinous brained woman and a mumbling shadow girl! Go get some candy and lay around there!
 カリザく～んッ！？=Kariza-kun?!
 2部 第6章 第10話=Part 2 Chapter 6 Episode 10
-貴族議長・ゴウシンの策略によってギルドを放逐されたクレジッタ。刺客からの逃亡を続けるがついに追いつかれ命の危機に陥る。これまでの己の悪事を振り返り、クレジッタは覚悟を決めるのだった。=Creditta was removed from the guild by Goshin, chairman of the nobility. She continued to run away from the assassins, only to be caught up in a life-or-death crisis. Looking back on her past misdeeds, she steeled herself.
+貴族議長・ゴウシンの策略によってギルドを放逐されたクレジッタ。刺客からの逃亡を続けるがついに追いつかれ命の危機に陥る。これまでの己の悪事を振り返り、クレジッタは覚悟を決めるのだった。=Creditta was removed from the guild by Gorschin, chairman of the nobility. She continued to run away from the assassins, only to be caught up in a life-or-death crisis. Looking back on her past misdeeds, she steeled herself.
 いやがったぞ！\nあそこだァ！=There it is! Over there!
-【リッチモンド商工会】を放逐されたクレジッタは、\nゴウシンの差し向けた刺客たちから命を狙われていた。=After being removed from the Richmond Merchants Association, Creditta had been threatened by assassins sent by Goshin.
+【リッチモンド商工会】を放逐されたクレジッタは、\nゴウシンの差し向けた刺客たちから命を狙われていた。=After being removed from the Richmond Merchants Association, Creditta had been threatened by assassins sent by Gorschin.
 はぁ、はぁっ……！=*pant pant*...!
 一方、ランドソル──=Meanwhile, Landosol...
 くぅっ……！=Ugh...!
