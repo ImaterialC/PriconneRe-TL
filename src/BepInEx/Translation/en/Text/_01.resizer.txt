@@ -289,3 +289,5 @@ Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParen
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogColosseumBattleResult(Clone)/Main/GUIPanel_Dialog/GUIGroup_Bonus/GUIGroup_TotalBonus/Label=ChangeFontSize(14)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsColosseumQuestDetail(Clone)/GUIGroup_questDetail/PartsColosseumResultScoreDetail/GUIGroup_timeBonus/GUIGroup_Label/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsColosseumQuestDetail(Clone)/GUIGroup_questDetail/UIButton_ChallengeHistory/Label=ChangeFontSize(13)
+
+_Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/quest_high_rarity_equip/Title=ChangeFontSize(28)
