@@ -167,3 +167,5 @@ sr:"^(.+)のアドベンチャーから撤退しました。$"=Retreat from the 
 
 【美食殿】を訪れたカリンは、アストライア大陸の各地で見つ\nかった新たな冒険先の調査をぺコリーヌたちに依頼する。ぺコ\nリーヌたちは新たな冒険に心を躍らせて依頼を快諾し、お宝を\n求めて旅立つのだった。=Karin, who visited the [Gourmet Guild], asks Pecorine and others to investigate new adventure destinations found in various parts of the Astraea continent. Pecorine and the others were excited about the new adventure, readily accepted the request, and departed in search of the treasure.
 アストライア大陸の未踏地=Unexplored Lands of Astraea
+
+チェックされていないアドベンチャーポイントの\n設定はクリアされます。\n\nよろしいですか？=Settings for adventure points that are not checked will be cleared. \n\nAre you sure?

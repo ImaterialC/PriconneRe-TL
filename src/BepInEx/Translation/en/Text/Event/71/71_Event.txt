@@ -1,0 +1,6 @@
+
+赤い霧の精霊=Red Fog Spirit
+顕れる苦衷 アイラ＆シナツ=Revealed Bitterness: Ira & Shinatsu
+r:"^黒き薔薇が咲く場所へ([0-9\-\(\)\w （）]*)$"=To the Place Where Black Roses Bloom $1
+r:"^赤く染まりしランドソル([0-9\-\(\)\w （）]*)$"=Landosol Dyed Red $1
+

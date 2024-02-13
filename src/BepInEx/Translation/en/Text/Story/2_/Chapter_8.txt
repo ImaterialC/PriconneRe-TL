@@ -144,7 +144,7 @@ Neneka-san?
 準備っていえば……\n目的地って、すっごく遠い海の上なんだよね。\nどうやって行くの？=Speaking of preparations... Our destination is on the sea, which is very far away. How are we going to get there?
 うーん……転移魔法の結界を使えば、\n帰ってくるほうはすぐできると思うけど。=Hmm... If I use teleportation magic, I think we’ll be able to get back in no time.
 はい、それはですねっ……=Yes, well, you see...
-それは……？=Is that's...?
+それは……？=That is...?
 ……まだ、決めてませんでした。あはは……=...I haven't decided yet. Ahaha...
 がくっ……=*gulp*...
 ……数時間後……=...A few hours later...
@@ -228,7 +228,7 @@ Neneka-san?
 ああ。\nもし背中を撃たれても、我慢すればいい。=Yeah. Even if I get shot in the back, I'll just have to bear it.
 ガマンできんのはテメーぐれーだっつーの！=You're the only one who can take it!
 う、その……\nみんなを、巻き込まないように……気をつけるから……ね？=Uh, um... I'll be careful... not to get everyone involved... okay?
-ランファさん？=Miss Ranpha?
+ランファさん？=Ranpha?
 ……ンだよ、らしくねーなボソボソ女。\nテメー、戦うのはスキじゃねーだろーが。=...What the hell? That's not like you, you mumbling woman. You don't like fighting, do you?
 ……う、うん……\n今回は、大きい戦いになりそうな気がして……とても怖い、けど……=...Y-Yeah... I feel like this is going to be a big fight... I'm really scared, but...
 もし……残り二人の七冠を、捕らえられたら。\nこのギルドも……目的を、終えることになるわけだから……=If...the remaining two members of the Seven Crowns are captured, this guild...will finish its objective...
@@ -568,7 +568,7 @@ r:"^えへへ……\n前にあなたと戦った時は、あっという間に�
 ──わわっととと！\nありがとシェフィちゃんっ！=Whoa, whoa! Thanks, Sheffy!
 後ろで見てたから、なんとか目で追えたけど……\n速いなんてものじゃないわね……！=I was watching from behind, so I managed to follow it with my eyes, but... He's so fast, It's hard to keep up...!
 それに、一撃がとっても重いです！\nまともに食らっちゃったら、ケガじゃ済まないですよ……！=Besides, a single blow is very heavy! If you take a direct hit, you won't walk away with just an injury...!
-シェフィさまと主さまは、援護をお願いします！\n十分に距離を取り、無理をなさらないでくださいませ！=Miss Sheffy and my Lord, please cover us! Please keep your distance and don't push yourself too hard!
+シェフィさまと主さまは、援護をお願いします！\n十分に距離を取り、無理をなさらないでくださいませ！=Miss Sheffy and My Lord, please cover us! Please keep your distance and don't push yourself too hard!
 わかった！=All right!
 ユイも下がって！\n誰かが負傷したら、すぐに回復を頼む！=Yui, get back, too! In the event that someone gets injured, please heal them immediately!
 う、うん……！\n普通に魔法を撃っても、当たりそうにないし……！=Y-Yeah...! I don’t think I’ll be able to hit him even if I fire my magic normally...!
@@ -644,7 +644,7 @@ r:"^えへへ……\n前にあなたと戦った時は、あっという間に�
 はっ……！\nそれに……もし、この場に残るのが本当に一人きりというなら。\n【レイジ・レギオン】の他の方々は、今どちらに……？　=Hah...! And... if he really is the only person here... Where are the other members of [Rage Legion] now...?　
 ──遅い。=Too slow.
 コッコロちゃん、危ないっ！=Kokkoro, watch out!
-……！\n申し訳ありません、ペコリーヌさまっ……！=...! I'm sorry, Lady Pecorine...!
+……！\n申し訳ありません、ペコリーヌさまっ……！=...! I'm sorry, Miss Pecorine...!
 ゆ、油断しちゃだめですよ！\n押してるっていっても、かなり綱渡りですから！=D-Don't let your guard down! Even if you say you can keep going, you are still walking a tightrope!
 はいっ……！=Yes...!
 そーね！\n魔力や体力が尽きちゃう前に、決めないとね！=That's right! We have to decide before we run out of magic and stamina!
@@ -776,7 +776,7 @@ r:"^(.{2,10})たちが飛空艇に乗り、\n【レイジ・レギオン】の�
 ヒヨリちゃん、無理しないで！\nまだ、回復しきってないはず……！=Hiyori, don't push yourself! You haven't fully recovered yet...!
 だいじょぶユイちゃん、ありがとっ。\nそれに……=Don't worry, Yui-chan. Thanks. And...
 あたし……\nちゃんと、ユイちゃんと話したいことがあるから。\nこんなところで、倒れてなんかいられないもん……！=There's... something I want to talk to Yui-chan about. I can't afford to collapse here...!
-主さま、シェフィさま、あまり離れすぎないでくださいまし！\nばらけたところを、また狙われてしまいます……！=my Lord, Sheffy, please don't get too far away from us! If we disperse, you'll be targeted again...!
+主さま、シェフィさま、あまり離れすぎないでくださいまし！\nばらけたところを、また狙われてしまいます……！=My Lord, Sheffy, please don't get too far away from us! If we disperse, you'll be targeted again...!
 こっからは、援護とか防御とかまだるっこしいの抜きよ！\nちょっと巻き込まれても、我慢しなさい！=From here on out, we can't be sloppy with out support and defense! You may get a little caught up in it, but bear with it!
 根競べか。\nいいだろう。=A contest of wills, huh? Very well.
 小細工無しは、好むところだ。\n──……=I prefer it when you're free from petty tricks....
@@ -974,7 +974,7 @@ r:"^がんばってください、(.{2,10})くんっ……！$"="Good luck, $1..
 だが──なぜ剣を捨てたっ？=But why did you throw away your sword?
 タックルで倒すつもりっ？=Are you going to tackle him?
 ち、違うみたいです！\nたしかに押してますけど……\nあっ！=I-It doesn't look right! He's definitely presing on, but... Ah!
-っ！\n主さま、いけません！\nそちらは断崖絶壁です……！=Ah! my Lord, you mustn't! That's a precipice!
+っ！\n主さま、いけません！\nそちらは断崖絶壁です……！=Ah! My Lord, you mustn't! That's a precipice!
 r:"^海に落ちちゃいますよっ！\n(.{2,10})くんっ！？$"="You're going to fall into the sea! $1-kun!?"
 まさか、相打ち狙いかっ！？=Don't tell me they're trying to hit each other!?
 そんなっ！=No way!

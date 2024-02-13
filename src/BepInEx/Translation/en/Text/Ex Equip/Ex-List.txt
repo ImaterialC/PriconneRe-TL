@@ -140,6 +140,9 @@ sr:"^EX装備（(.+)）$"=Ex Equipment ($1)
 入手可能なアドベンチャークエストがありません。=There is no available Adventure quest.
 以下のアイテムの入手方法を確認できます。=You can check how to get the following items.
 
+装備中のEX装備を外します。\nよろしいですか？=Removes equipped EX Equipment. \nAre you sure?
+EX装備確認=EX Equipment Check
+
 EX装備の選択上限に達しています。=Reached the selection limit for EX equipment.
 EX装備入れ替え確認=EX Equipment replacement confirmation
 EX装備を入れ替えます。\nよろしいですか？=Swap the EX equipment.\nIs it OK?

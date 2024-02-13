@@ -875,3 +875,6 @@
 ヤマト（編入生）=Yamato (Student);TYamato;Student
 フブキ（編入生）=Fubuki (Student);TFubuki;Student
 ワカナ（編入生）=Wakana (Student);TWakana;Student
+ユイ（アストラル）=Yui (Astral);AYui;Astral
+レイ（アストラル）=Rei (Astral);ARei;Astral
+ヒヨリ（アストラル）=Hiyori (Astral);AHiyori;Astral

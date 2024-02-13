@@ -1,15 +1,15 @@
-銀髪のおっとりハーフエルフ=A gentle silver-haired half elf
+銀髪のおっとりハーフエルフ=A gentle silver-haired half-elf
 ---Profile---
-ハーフエルフ=Half elf
-パックの毛繕い、勉強=Hair grooming and Studying
+ハーフエルフ=Half-elf
+パックの毛繕い、勉強=Grooming Puck, studying
 
 ---Skills---
 ---UB---
-約束の花園=Promised Field
-最もＨＰが低い味方１キャラのＨＰを特大回復させ、さらに味方全体の物理防御力と魔法防御力を中アップさせる。=Recovers the HP of the ally with the lowest HP by a massive amount. Moderate boost to the P.DEF and allies' M.DEF.
+約束の花園=The Promised Garden
+最もＨＰが低い味方１キャラのＨＰを特大回復させ、さらに味方全体の物理防御力と魔法防御力を中アップさせる。=Recovers the HP of the ally with the lowest HP by a massive amount. Moderate boost to allies' P.DEF & M.DEF.
 r:"^味方単体のＨＰを(\d+)回復\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=►Recovers an ally's HP by $1.\n►Boosts allies' P.DEF by $2.\n►Boosts allies' M.DEF by $3.
 ---S1---
-目の前の敵１キャラに魔法中ダメージを与え、さらに自分の魔法攻撃力を中アップさせる。=Deals moderate M.DMG to an enemy directly in front. Moderate boost to own M.ATK.
+目の前の敵１キャラに魔法中ダメージを与え、さらに自分の魔法攻撃力を中アップさせる。=Deals moderate M.DMG to an enemy directly in front. Moderate boost to user's M.ATK.
 r:"^敵単体に(\d+)の魔法ダメージ\n自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Boosts own M.ATK by $2.
 ---S2---
 前方範囲内のランダムな敵キャラに、単体魔法小ダメージを計４回与える。=Deals small M.DMG to a random enemy in range 4 times.
@@ -19,7 +19,7 @@ r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメー�
 ---Skills+---
 ---UB---
 ---S1---
-目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を特大アップさせる。=Deals Large M.DMG to one enemy in front of you, and also increase your M.ATK power.
+目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を特大アップさせる。=Deals large M.DMG to an enemy directly in front. Massive boost to user's M.ATK.
 ---S2---
 ---ex---
 大精霊との契約+=Great Spirit Contract+
