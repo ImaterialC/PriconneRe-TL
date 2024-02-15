@@ -11,6 +11,13 @@ Sダッシュ=S:Dash
 プラチナガチャ=Premium Gacha
 ノーマルガチャ=Normal Gacha
 プライズガチャ=Prize gacha
+選べる★3(闇)=3★ Dark
+選べる★3(光)=3★ Light
+選べる★3(水)=3★ Water
+選べる★3(火)=3★ Fire
+選べる★3(風)=3★ Wind
+
+
 限定★3確定=Limited ★3\nGuarantee
 限定★3確定ガチャ=Guarantee ★3\nLim gacha
 r:"^([0-9.]+)Year Anniversaryガチャ$"=$1 Year Anniversary Gacha
