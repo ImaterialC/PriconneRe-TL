@@ -2,7 +2,7 @@
 ク= 
 r:"^スタミナ回復まで残り ([0-9]{2}):([0-9]{2})$"=Stamina refill in $1m$2s
 マップ=Map
-r:"^([0-9]+)枚$"=$1 Tix
+r:"^([0-9,]+)枚$"=$1 Tix
 r:"^([0-9]+)枚 使う$"=Use $1
 
 r:"^あと (\d+)$"=remaining $1
@@ -22,7 +22,8 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 次へ=Next
 勝利数=Win
 編成完了=Done
-
+探索・調査=Search &\nSurvey
+深域クエスト=Talent\nQuest
 消費挑戦回数=Use attempts
 メインクエスト=Main Quest
 開催中=Underway!

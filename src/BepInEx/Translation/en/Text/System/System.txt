@@ -9,6 +9,18 @@
 ストーリー=Story
 マイページ=Home
 
+属性ボーナス有効=Elemental Bonus Affinity
+編成5キャラ=5 Characters
+編成4キャラ=4 Characters
+編成3キャラ=3 Characters
+編成2キャラ=2 Characters
+編成1キャラ=1 Character
+属性ボーナス詳細=Elemental Bonus Details
+有効=Affinity
+弱点=Weakness
+発動属性ボーナス=Activation elemental bonus
+このクエストに有効な属性はありません。=There are no affinity elemental for this quest.
+
 イベント開催のお知らせ=Event Announcement
 予告を見る=Watch trailer
 
