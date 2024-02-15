@@ -1,32 +1,37 @@
----Profile---
-【物理】中衛で、攻撃と補助の両方をこなす海の傭兵。ユニオンバーストの効果で味方全体の物理攻撃力を高め、物理攻撃パーティの能力アップに一役買う。=[Physical] A mid-range mercenary of the sea who excels in both offense and support. With the effect of her Union Burst, she enhances the physical attack power of all allies, contributing to the overall strength of the physical attack-focused party.
+##Profile##
+【物理】中衛で、攻撃と補助の両方をこなす海の傭兵。ユニオンバーストの効果で味方全体の物理攻撃力を高め、物理攻撃パーティの能力アップに一役買う。=[Physical] A seaside mercenary who provides offensive power and support from the midguard. Her Union Burst boosts the physical attack of her allies, strengthening the entire party.
 
 目の前の敵１キャラに物理中ダメージを与え、さらにその周囲の敵すべてに物理大ダメージを与える。=Deals medium P.DMG to the enemy in front and further deals massive P.DMG to all surrounding enemies.
 
----Skillsミフユ（サマー）---
----UB---
+##UB##
 レヴィアタンランス=Leviathan Lance
 目の前の敵１キャラに物理大ダメージを与え、さらに味方全体の物理攻撃力を中アップさせる。=Deals large P.DMG to an enemy directly in front. Moderate boost to allies' P.ATK.
-r:"^敵単体に(\d+)の物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ$"=Deals $1 P.DMG to an enemy.\nBoosts allies' P.ATK by $2.
----S1---
+r:"^敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK by $2.
+
+##S1##
+ハイドロスティング=Hydro Swing
 目の前の敵１キャラに物理中ダメージを与え、さらにその周囲の敵すべてに物理小ダメージを与える。=Deals small P.DMG to an enemy directly in front, and additional small P.DMG to enemies nearby the target.
----S2---
-自分の物理攻撃力を中アップさせ、さらに物理クリティカルを大アップさせる。=Moderate boost to own P.ATK and P.Crit rate.
----ex---
-サマーマーセナリー=Summer Mercenary
----Skills+---
----UB---
----S1---
-ハイドロスティング+=Hydro Swing+
-目の前の敵１キャラに物理中ダメージを与え、さらにその周囲の敵すべてに物理大ダメージを与える。=
-Deals moderate P.DMG to an enemy directly in front, and additional small P.DMG to enemies nearby the target.
-It deals P.DMG to one enemy in front of you, and also does physics -based damage to all the surrounding enemies.
----S2---
----ex---
-ハイドロスティング=Hydro Sting
+
+##S2##
 ハンティングモード=Hunting Mode
-ハイドロスティング+=Hydro Sting+
-ハンティングモード+=Hunting Mode+
+自分の物理攻撃力を中アップさせ、さらに物理クリティカルを大アップさせる。=Moderate boost to own P.ATK and P.CRIT Rate.
+
+##EX##
+サマーマーセナリー=Summer Mercenary
 サマーマーセナリー+=Summer Mercenary+
----UE---
-蒼竜槍ミズチ=Soryu Spear Mizuchi
+
+##S1+##
+ハイドロスティング+=Hydro Swing+
+目の前の敵１キャラに物理中ダメージを与え、さらにその周囲の敵すべてに物理大ダメージを与える。=Deals moderate P.DMG to an enemy directly in front, and additional small P.DMG to enemies nearby the target.
+It deals P.DMG to one enemy in front of you, and also does physics -based damage to all the surrounding enemies.
+
+##S2+##
+ハンティングモード=Hunting Mode+
+自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。さらに短時間物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせる。=Boosts own P.ATK by a massive amount, large boost to own P.CRIT Rate. Additionally, massive boost to own P.CRIT Rate and moderate boost to own P.CRIT DMG for a short period of time.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理攻撃クリティカル時のダメージを24％アップ$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Boosts own P.CRIT Rate by $3.\n►Boosts own P.CRIT DMG by 24%.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理攻撃クリティカル時のダメージを24％アップ$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Boosts own P.CRIT Rate by $3.\n►Boosts own P.CRIT DMG by 24%.
+## Did it twice because 24% can be 2\n4% or \n24%.
+
+##UE##
+蒼竜槍ミズチ=Serpentlance Mizuchi
+蒼竜装ロタン=Serpentarmor Lotan

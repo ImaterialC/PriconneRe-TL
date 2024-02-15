@@ -1,0 +1,49 @@
+##Profile##
+乙女チックなもふもふアニマル=A fluffy animal with the heart of a maiden
+
+毛繕い、お喋り=Grooming, chatting
+【物理】最前衛で味方を守る、恋する乙女。バトル開始後、しばらくしてから最前線まで突進してきて、敵の目の前に立ちはだかる。=[Physical] A pure maiden who protects her friends from the front lines. Charges into the fray shortly after the battle begins to obstruct the enemy's advance.
+
+魔法のリンゴがなくても=Even if there is no magic apple
+特別なぬくもり=Special warmth
+着ぐるみラプソディ=Cats Rhapsody
+愛の逃避行=Escape of love
+
+あなたに会えて良かった=I'm Grateful We Met
+お姫様にはなれなくても=Princess or Not
+魔法の時間=Magic Time
+森の中の不思議な出会い=A Curious Contact
+絵本みたいな奇跡=Like a Fairy Tale
+駱馬(リマ)の王子様=Lima's Knight
+ロマンチックに憧れて=Lover of Romance
+いっけな～い、遅刻遅刻！=I'm Late, I'm Late!
+
+##UB##
+もふもふストライク=Woolly Wallop
+前方範囲内の敵すべてに物理中ダメージを与え、さらに自分の物理防御力を特大アップさせる。=Deals moderate P.DMG to all enemies in range. Massive boost to own P.DEF.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to enemies in 400 range.\n►Knockbacks an enemy by 50 units.\n►Boosts own P.DEF by $2 for 18s.
+
+##S1##
+もふもふアサルト=Fuzzy Fury
+バトル開始後暫くして、最も前の敵まで突進し、その敵に物理中ダメージを与え、自分の物理防御力を中アップさせる。=Charges straight at the foremost enemy shortly after battle begins and deals moderate P.DMG. Small boost to own P.DEF.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2.
+
+##S2##
+もふもふヘッドバット=Hairy Headbutt
+
+##EX##
+プロテクトファー=Downy Defense
+プロテクトファー+=Downy Defense+
+
+##UB+##
+メリーウールストライク=Whopping Woolly Wallop
+前方範囲内の敵すべてに物理大ダメージを与えて小さく吹き飛ばし、さらに自分の物理防御力を特大アップさせ、味方全体に物理無効バリアを展開する。=Deals large P.DMG to all enemies within range and blows them away, Large boost own P.DEF, and deploys a physical barrier to all allies.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=►Deals $1 P.DMG to enemies in 400 range.\n►Knockbacks an enemy by 50 units.\n►Boosts own P.DEF by $2 for 18s.\n►Deploys Barrier over all allies that negates $3 P.DMG for 18s.
+
+##S1+##
+もふもふアサルト+=Fuzzy Fury+
+バトル開始後暫くして、最も前の敵まで突進し、その敵に物理中ダメージを与え、自分の物理防御力を中アップさせる。さらに味方全体に物理無効バリアを展開する。=Charges straight at the foremost enemy shortly after battle begins and deals moderate P.DMG. Large boost to own P.DEF. Deploys a barrier that negates P.DMG around all allies.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=►Appear 1s after the wave begins to 100 in front of nearest enemy.\n►Invulnerability on self for 1s.\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2 for 16s.\n►Deploys Barrier over all allies that negates $3 P.DMG for 16s.
+
+##UE##
+アンビシャスドレス=Dreamer's Dress

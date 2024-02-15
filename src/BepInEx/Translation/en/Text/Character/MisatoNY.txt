@@ -1,23 +1,34 @@
-【魔法】後衛で真心重ねて味方をもてなす仲居姿の先生。全スキルで味方の物理攻撃力とクリティカル能力を上げ、魔防やＴＰ上昇の支援とＨＰ、ＴＰの回復で万福を願う。=[Magic] A teacher in a waitress who treats allies with sincerity in a rearguard. She boosts allies` P.ATK, P.crit, M.DEF and TP Boost, and restores HP and TP to bring blessings to all.
+##Profile##
+【魔法】後衛で真心重ねて味方をもてなす仲居姿の先生。全スキルで味方の物理攻撃力とクリティカル能力を上げ、魔防やＴＰ上昇の支援とＨＰ、ＴＰの回復で万福を願う。=[Magic] A teacher in a waitress attire who treats allies with sincerity in a rearguard. She boosts allies' P.ATK, P.CRIT, M.DEF and TP Boost, and recovers HP and TP to bring blessings to all.
 
 たくさんの笑顔を祈って=Wish You Lots of Smiles
 あたたか～いお正月=Warm New Year
 エルフの森のかるた大会=Elf Forest Karuta Tournament
 正月を温めるおふくろの味=Mother's Taste that Warms the New Year
 
-
+##UB##
 新春・真心三段重ね=New Year: Sincerity Triple Stack
-r:"^味方全体の毎秒ＨＰを(\d+)回復する\n対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の物理クリティカルを80アップ\n対象の味方のＴＰ上昇を10アップ$"=►Recovers allies' HP by $1/s for 10.5s.\n►Boosts all P-type allies' P.ATK by $2 for 18s.\n►Boosts all P-type allies' P.Crit by 80 for 18s.\n►Boosts all P-type allies' TP boost by 10 for 18s.
-r:"^毎秒ＨＰを(\d+)回復する\n対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の物理クリティカルを80アップ\n対象の味方のＴＰ上昇を10アップ$"=►Recovers allies' HP by $1/s for 10.5s.\n►Boosts all P-type allies' P.ATK by $2 for 18s.\n►Boosts all P-type allies' P.Crit by 80 for 18s.\n►Boosts all P-type allies' TP boost by 10 for 18s.
-味方全体に継続ＨＰ回復状態を付与し、物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、物理クリティカルを大アップさせ、さらに、ＴＰ上昇を小アップさせる。=Grant HP regen to all allies, Large boost the P.ATK of all physical allied, Large boost P.crit, and also slightly boost TP Boost.
+味方全体に継続ＨＰ回復状態を付与し、物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、物理クリティカルを大アップさせ、さらに、ＴＰ上昇を小アップさせる。=Grants continuous HP recovery to all allies, greatly boosts all P-type allies' P.ATK and P.CRIT Rate, and also slightly boosts their TP Boost.
+r:"^味方全体の毎秒ＨＰを(\d+)回復する対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリティカルを80アップ対象の味方のＴＰ上昇を10アップ$"=►Recovers all allies' HP by $1/s for 10.5s.\n►Boosts all P-type allies' P.ATK by $2 for 18s.\n►Boosts all P-type allies' P.CRIT Rate by 80 for 18s.\n►Boosts all P-type allies' TP Boost by 10 for 18s.
 
+##S1##
 ハッピーニューテイスト=Happy New Taste
-r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを50アップ\n味方全体のＴＰを100回復$"=Cast time: 0.59s.\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.crit by 50 for 12s.\n►Recovers allies' TP by 100.
-味方全体の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに、ＴＰを小回復する。=Large boost the allies' P.ATK, moderately boost the P.crit, and recovers a small amount of TP.
+味方全体の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに、ＴＰを小回復する。=Greatly boosts all allies' P.ATK, moderately boosts their P.CRIT Rate, and recovers their TP by a small amount.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを50アップ味方全体のＴＰを100回復$"=Cast time: 0.59s.\n►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' P.CRIT Rate by 50 for 12s.\n►Recovers all allies' TP by 100.
 
+##S2##
 ニューイヤーアフェクション=New Year Affection
-r:"^味方単体のＨＰを(\d+)回復\n範囲内の味方の物理攻撃クリティカル時のダメージを16％アップ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.59s.\n►Recovers an ally's HP by $1.\n►Boosts P.Crit dmg of all allies within 200 range by 16% for 12s.\n►Boosts allies' P.ATK within 200 range by $2.\n►Boosts allies' M.DEF within 200 range by $3 for 12s.
-最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに、そのキャラを中心とした範囲内の味方すべての物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、魔法防御力を大アップさせる。=Moderately restores the HP of the lowest's chara HP, Large boost the allies' P.ATK within range centering on that chara, and slightly boost the P.crit dmg, Large boost M.DEF.
+最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに、そのキャラを中心とした範囲内の味方すべての物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、魔法防御力を大アップさせる。=Moderately recovers an ally's HP with lowest HP, greatly boosts allies' P.ATK in range around that ally, slightly boosts their P.CRIT DMG, and greatly boosts their M.DEF.
+r:"^味方単体のＨＰを(\d+)回復範囲内の味方の物理攻撃クリティカル時のダメージを16％アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.59s.\n►Recovers an ally's HP by $1.\n►Boosts allies' P.CRIT DMG in 200 range by 16% for 12s.\n►Boosts allies' P.ATK in 200 range by $2.\n►Boosts allies' M.DEF in 200 range by $3 for 12s.
 
+##EX##
 ニューイヤーズスマイル=New Year's Smile
 ニューイヤーズスマイル+=New Year's Smile+
+
+##S1+##
+ハッピーニューテイスト+=Happy New Taste+
+味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、ＴＰを小回復し、さらに魔法無効バリアを展開する。=Greatly boosts all allies' P.ATK and P.CRIT Rate, recovers their TP by a small amount, and deploys Barrier over them that negates M.DMG.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを(\d+)アップ味方全体のＴＰを(\d+)回復(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.59s.\n►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' P.CRIT Rate by $2 for 12s.\n►Recovers all allies' TP by $3.\n►Deploys Barrier over allies that negates $4 M.DMG for 12s.
+
+##UE##
+湯煙母情若女将装束=Motherly Young Proprietress's Attire

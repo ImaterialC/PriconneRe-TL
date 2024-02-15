@@ -1,4 +1,5 @@
-【物理】前衛から強烈な範囲攻撃を放つ、渚のお姫様。かき氷を食べて物理攻撃力を一気に上昇させ、ユニオンバーストを放つことで前方の敵を殲滅する。=[Physical] The gourmet princess of the beach who dishes out damage to crowds from the vanguard. With the help of a little shaved ice, she can boost her P.ATK dramatically and wipe out the enemy with a powerful Union Burst.
+##Profile##
+【物理】前衛から強烈な範囲攻撃を放つ、渚のお姫様。かき氷を食べて物理攻撃力を一気に上昇させ、ユニオンバーストを放つことで前方の敵を殲滅する。=[Physical] The gourmet princess of the beach who dishes out damage to crowds from the vanguard. With the help of a little shaved ice, she can boost her physical attack dramatically and wipe out the enemy with a powerful Union Burst.
 
 夕日と海とあなたと=Sunset, Sea and You
 花火のあとに告白を=Confession After Fireworks
@@ -10,27 +11,31 @@
 初めてのバカンス=Our First Vacation
 南国ツアーに思いをはせて=Anticipation of the Tour
 
-Skillsペコリーヌ（サマー）
-UB
+##UB##
 プリンセススプラッシュ=Princess Splash
-S1
+
+##S1##
+デザートタイム=Dessert Time
 自分の物理攻撃力を特大アップさせるが、魔法防御力を中ダウンさせる。=Massive boost to own P.ATK. Also lowers own M.DEF by a moderate amount.
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の魔法防御力を初期値の20%ダウン$"=►Boosts own P.ATK by $1.\n►Lowers own M.DEF by 20%.
-S2
+r:"^自分の物理攻撃力を(\d+)アップ自分の魔法防御力を初期値の20%ダウン$"=►Boosts own P.ATK by $1.\n►Lowers own M.DEF by 20%.
+
+##S2##
+パラソルアサルト=Parasol Assault
 前方範囲内の敵すべてに物理小ダメージを与え、さらに目の前の敵１キャラを小さく吹き飛ばす。=Deals small P.DMG to all enemies in range and knocks back slightly an enemy directly in front.
-ex
+
+##EX##
 海の幸パワー=Seafood Power
-Skills+
-UB
+海の幸パワー+=Seafood Power+
+
+##UB+##
 プリンセスマリンインパクト=Princess Marine Impact
 前方範囲内の敵すべてに物理特大ダメージを与え、さらに自分の物理攻撃力を中アップさせる。このスキルで与えたダメージ量に応じて、物理攻撃力の上昇量が最大10倍までアップする。=Deals massive P.DMG to all enemies in the front range, and further boost your physical attack power. Depending on the amount of damage done by this skill, P.ATK will increase up to 10 times.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies in range.\n►Boosts own P.ATK by $2.
 
-r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies in the range\n►Boosts own P.ATK by $2.
-S1
-自分の物理攻撃力を特大アップさせ、物理クリティカルを大アップさせるが、魔法防御力を中ダウンさせる。=Massive boost to own P.ATK and Large boost to own P.Crit Rate, but lowers own M.DEF by a moderate amount.
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを100アップ\n自分の魔法防御力を初期値の20%ダウン$"=Cast time: 0.065s\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.Crit Rate by 100 for 12s.\n►Lowers own M.DEF by 20% for 12s.
-S2
-ex
-海の幸パワー+=Seafood Power+
-UE
-傘剣ビーチプリンセス=Umbrella Sword Beach Princess
+##S1+##
+デザートタイム+=Dessert Time+
+自分の物理攻撃力を特大アップさせ、物理クリティカルを大アップさせるが、魔法防御力を中ダウンさせる。=Massive boost to own P.ATK and Large boost to own P.CRIT Rate, but lowers own M.DEF by a moderate amount.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ自分の魔法防御力を初期値の20%ダウン$"=Cast time: 0.065s\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by 100 for 12s.\n►Lowers own M.DEF by 20% for 12s.
+
+##UE##
+傘剣ビーチプリンセス=Princess Parasword

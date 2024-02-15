@@ -1,0 +1,35 @@
+##Profile##
+【物理】中衛で物理攻撃タイプの味方を強化するシノビ。味方の物理攻撃力アップや行動速度アップのスキル効果で味方全体の攻撃力を底上げし、勝利の笛を吹きならす。=[Physical] A shinobi who strengthens P-type allies in the midlines. With skill effects that boost allies' P.ATK and action speed, she blows the whistle of victory.
+
+霊界で燃ゆる忠誠心=Loyalty Burning in the Spirit Realm
+おいでませブレイコウの宴=Come on, Brykow's feast
+ハロウィンに吹く天狗旋風=Tengu Whirlwind on Halloween
+祓え！　悪霊パフォーマー=Exorcise! Evil spirit performer
+
+##UB##
+妖忍法・ヒャッキ有頂天の宴=Ayakashi Ninpo: Hyakki's Ecstatic Feast
+物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップさせ、物理クリティカルを大アップさせる。=Massively boosts all P-type allies' P.ATK, and greatly boosts their P.CRIT Rate.
+r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の物理クリティカルを(\d+)アップ$"=►Boosts all P-type allies' P.ATK by $1 for 18s.\n►Boosts all P-type allies' P.CRIT Rate by $2 for 18s.
+
+##S1##
+妖忍法・マボロシ影絵の術=Ayakashi Ninpo: Shadow Illusion Clone Art
+物理攻撃を行うすべての味方キャラの物理攻撃力と行動速度を大アップさせる。=Greatly boosts all P-type allies' P.ATK and action speed.
+r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の行動速度アップ$"=Cast time: 0.465s\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n►Boosts all P-type allies' action speed to 155% for 12s.
+
+##S2##
+妖忍法・カボチャ突撃の術=Ayakashi Ninpo: Pumpkin Charge Art
+物理攻撃を行うすべての味方キャラの物理攻撃力を中アップさせ、さらに前方範囲内の敵すべてに物理小ダメージを与える。=Moderately boosts all P-type allies' P.ATK, and deals small P.DMG to enemies in range.
+r:"^対象の味方の物理攻撃力を(\d+)アップ\n範囲内の敵に(\d+)の物理ダメージ$"=Cast time: 0.465s\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n►Deals $2 P.DMG to enemies in 865 range.
+
+##EX##
+妖忍法・夢心地カボチャ音頭=Ayakashi Ninpo: Dreamy Pumpkin Ondo
+妖忍法・夢心地カボチャ音頭+=Ayakashi Ninpo: Dreamy Pumpkin Ondo+
+
+##S1+##
+妖忍法・マボロシ影絵の術+=Ayakashi Ninpo: Shadow Illusion Clone Art+
+物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、行動速度を大アップさせ、物理クリティカルを中アップさせる。=Greatly boosts all P-type allies' P.ATK, action speed, and P.CRIT Rate.
+r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の行動速度アップ\n対象の味方の物理クリティカルを(\d+)アップ$"=Cast time: 0.465s\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n►Boosts all P-type allies' action speed to 155% for 12s.\n►Boosts all P-type allies' P.CRIT Rate by $2 for 12s.
+
+
+##UE##
+南瓜頭響太郎=Pumpkin Head Kyotaro

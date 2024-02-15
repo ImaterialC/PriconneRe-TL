@@ -1,4 +1,4 @@
-マレ=Mare
+##Profile##
 妖しい微笑で全てを見透かす臥竜の頭領=The Dragon's leader who sees through everything with a mysterious smile
 
 【魔法】後衛から無窮の魔力で全てを支配する龍の首領。障壁となる敵を龍眼で捉え、多彩な補助系スキルで敵の魔法攻撃からの耐性を弱め、雷霆の一撃で灰燼に帰す。=[Magic] A dragon leader who controls everything with infinite magic power from the backline. With dragon eyes, he captures enemies who become barriers and weakens their resistance to M.ATKs with various support skills before reducing them to ashes with a thunderous blow.
@@ -14,26 +14,27 @@
 ボスとないしょのおしごと=Jobs with Boss
 臥竜点睛=Point of sleepy dragon
 
-
+##UB##
 ドラゴンズドゥーム=Dragon's Doom
+最も魔法攻撃力が高い敵１キャラが龍眼状態だった場合に魔法特大ダメージを与え、魔法防御力を中ダウンさせる。さらに敵全体に魔法中ダメージを与える。=Deals massive M.DMG and moderately lowers M.DEF of the enemy with the highest M.ATK afflicted by Dragon's Eyes, also deals moderate M.DMG to all enemies.
+r:"^対象が龍眼状態だった場合(\d+)の魔法ダメージ龍眼状態の敵の魔法防御力を(\d+)ダウン敵全体に(\d+)の魔法ダメージ$"=►Deals $3 M.DMG to all enemies.\n\nIf enemies are afflicted by Dragon's Eyes:\n►Deals $1 M.DMG to enemies.\n►Lowers enemies' M.DEF by $2 for 18s.
 
-r:"^対象が龍眼状態だった場合(\d+)の魔法ダメージ\n龍眼状態の敵の魔法防御力を(\d+)ダウン\n敵全体に(\d+)の魔法ダメージ$"=►Deals $3 M.DMG to all enemies.\n\nIf the target has Dragon's Eyes debuff:\n►Deals $1 M.DMG to all enemies.\n►Lowers an enemy’s M.DEF by $2 for 18s.
-
-最も魔法攻撃力が高い敵１キャラが龍眼状態だった場合に魔法特大ダメージを与え、魔法防御力を中ダウンさせる。さらに敵全体に魔法中ダメージを与える。=Deals massive M.DMG and inflict moderate M.DEF debuff to the enemy with the highest current M.ATK with dragon's eyes debuff also deals moderate M.DMG to all enemies.
-
+##S1##
 マインドクラック=Mind crack
-マインドクラック+=Mind crack+
-r:"^龍眼状態の敵の魔法防御力を(\d+)ダウン\n龍眼状態中、その敵が受ける魔法ダメージを12％アップ$"=Cast time: 1.09s\n►Lowers an enemy’s M.DEF with Dragon's Eyes debuff by $1 for 12s.\n►If there are no enemies with dragon's eyes debuff:inflict dragon's eyes to the enemy with the highest current M.ATK.\n\n►Dragon's Eyes: M.DMG taken debuff by 12%
-龍眼状態の敵すべての魔法防御力を中ダウンさせる。龍眼状態の敵がいない場合、最も魔法攻撃力が高い敵１キャラを龍眼状態にし、さらに魔法攻撃を受けた際のダメージを小アップさせる。=Inflict moderate M.DEF debuff to all enemies with dragon's eyes debuff.\nif there are no enemies with dragon's eyes debuff, inflict dragon's eyes to the enemy with the highest current magical attack.
+龍眼状態の敵すべての魔法防御力を中ダウンさせる。龍眼状態の敵がいない場合、最も魔法攻撃力が高い敵１キャラを龍眼状態にし、さらに魔法攻撃を受けた際のダメージを小アップさせる。=Moderately lowers M.DEF of all enemies afflicted by Dragon's Eyes.\nIf there are no enemies afflicted Dragon's Eyes, inflicts Dragon's Eyes to the enemy with the highest M.ATK.
+r:"^龍眼状態の敵の魔法防御力を(\d+)ダウン龍眼状態中、その敵が受ける魔法ダメージを12％アップ$"=Cast time: 1.09s\n►Lowers an enemy's M.DEF afflicted by Dragon's Eyes by $1 for 12s.\n►If there are no enemies afflicted by Dragon's Eyes: inflicts Dragon's Eyes to the enemy with the highest M.ATK.\n\n►Dragon's Eyes: boosts M.DMG taken by 12%.
 
+##S2##
 エクスプロイトフレイム=Exploit Flame
-r:"^龍眼状態の敵に(\d+)の魔法ダメージ\n龍眼状態の敵の魔法防御力を(\d+)ダウン\n龍眼状態の敵がクリティカルを受けた際のダメージを10％アップ\n自分のＴＰを(\d+)回復$"=Cast time: 1.09s\n►Recovers own TP by $3.\n\nIf the target has Dragon's Eyes debuff:\n►Deals $1 M.DMG to all enemies.\n►Lowers an enemy’s M.DEF by $2 for 12s.\n►Reduce 10% M.Crit dmg resistance for 12s.
-龍眼状態の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに自分のＴＰを小回復する。=Deals medium M.DMG to all enemies in Dragon Eye state, slightly decreases magic defense, and slightly boost critical damage. In addition, recover your own TP by small amount.
+龍眼状態の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに自分のＴＰを小回復する。=Deals moderate M.DMG to all enemies afflicted by Dragon's Eyes, slightly lowers M.DEF, and slightly boost M.CRIT DMG. In addition, recovers own TP by small amount.
+r:"^龍眼状態の敵に(\d+)の魔法ダメージ龍眼状態の敵の魔法防御力を(\d+)ダウン龍眼状態の敵がクリティカルを受けた際のダメージを10％アップ自分のＴＰを(\d+)回復$"=Cast time: 1.09s\n►Recovers own TP by $3.\n\nIf enemies are afflicted by Dragon's Eyes:\n►Deals $1 M.DMG to enemies.\n►Lowers enemies M.DEF by $2 for 12s.\n►Boosts enemies' M.CRIT DMG taken by 10% for 12s.
 
+##SP1##
 龍眼=Dragon's Eye
-このスキルのスキルレベルは「ドラゴンズ\nドゥーム」と連動しています=This skill’s level is linked to "Dragon's Doom"
-龍眼状態中、その敵が受ける魔法ダメージを12％アップ=Cast time: 0.93s\n►Mark enemy with Dragon's Eye state for 180s.\n►Dragon's Eyes: M.DMG taken debuff by 12%
-最も魔法攻撃力が高い敵１キャラを龍眼状態にし、さらに魔法攻撃を受けた際のダメージを小アップさせる。=Inflict Dragon's Eyes to the enemy with the highest current Magical Attack.
+このスキルのスキルレベルは「ドラゴンズ\nドゥーム」と連動しています=This skill's level is linked to "Dragon's Doom"
+最も魔法攻撃力が高い敵１キャラを龍眼状態にし、さらに魔法攻撃を受けた際のダメージを小アップさせる。=Inflicts Dragon's Eyes to the enemy with the highest current M.ATK.
+龍眼状態中、その敵が受ける魔法ダメージを12％アップ=Cast time: 0.93s\n►Mark enemy with Dragon's Eye state for 180s.\n►Dragon's Eyes: boosts M.DMG taken by 12%.
 
+##EX##
 クロージングアイズ+=Closing Eyes+
 クロージングアイズ=Closing Eyes

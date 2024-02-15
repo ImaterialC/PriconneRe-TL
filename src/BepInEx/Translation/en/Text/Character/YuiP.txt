@@ -1,29 +1,34 @@
-【魔法】後衛から極大魔法で敵を滅する願いの魔法士。ＴＰを回復しつつ攻撃力を累積アップする補助スキルで自身の力を高め、強力な範囲攻撃を放ち敵を一掃する。=[Magic] A wishful mage who annihilates enemies with maximum magic from the rear guard. Accumulate attack power with support skills that recover TP and enhance attack power while unleashing powerful area attacks to sweep away enemies.
+##Profile##
+【魔法】後衛から極大魔法で敵を滅する願いの魔法士。ＴＰを回復しつつ攻撃力を累積アップする補助スキルで自身の力を高め、強力な範囲攻撃を放ち敵を一掃する。=[Magic] A wishful mage who annihilates enemies with maximum magic from the rearguard. Accumulate attack power with support skills that recover TP and enhance attack power while unleashing powerful area attacks to sweep away enemies.
 
 慣れない騎士のあやしかた=An Unfamiliar Knight's Way of Relieving
 こっそり特訓したくて=I want to Secretly Train
 新たな力、これからの強さ=New Power, Future Strength
 スウィートテイストデート=Sweet Taste Date
 
+##UB##
 ディバインレイン=Divine Rain
-敵全体に魔法大ダメージを与える。=Deals large amount of M.DMG on all enemies.
+敵全体に魔法大ダメージを与える。=Deals large M.DMG on all enemies.
 
+##S1##
 トゥインクルブースト=Twinkle Boost
-トゥインクルブースト+=Twinkle Boost+
-自分のＴＰを中回復し、さらに自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力アップと魔法攻撃クリティカル時のダメージアップの上昇量は、このスキルを使用するたび、最大５回まで増加する。=Moderately recovers own TP, also slightly boost own M.ATK, M.crit, and M.crit dmg. This skill's M.ATK up and M.crit dmg up can be stacks up to 5 times each time this skill is used.
-自分のＴＰを中回復し、さらに自分の魔法攻撃力を中アップ、魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力アップと魔法攻撃クリティカル時のダメージアップの上昇量は、このスキルを使用するたび、最大５回まで増加する。=Moderately recovers own TP and M.ATK, also slightly boost own M.crit, and M.crit dmg. This skill's M.ATK up and M.crit dmg up can be stacks up to 5 times each time this skill is used.
+自分のＴＰを中回復し、さらに自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。
+自分のＴＰを中回復し、さらに自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。=Moderately recovers own TP, and also slightly boosts own M.ATK, M.CRIT, and M.CRIT DMG.
 
-
-r:"^自分のＴＰを(\d+)回復\n自分の魔法攻撃力を(\d+)アップ\n自分の魔法クリティカルを25アップ\n自分の魔法攻撃クリティカル時のダメージを5％アップ$"=Cast time: 0.59s\n►Recovers own TP by $1.\n►Boosts own M.ATK by $2 for 90s.\n►Boosts own M.crit by 25 for 90s.\n►Boosts own M.crit dmg by 5% for 90s.
-
-
+##S2##
 レイディアントショット=Radiant Shot
-前から２番目の敵を中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに魔法攻撃を行うすべての味方キャラの魔法攻撃力を小アップさせる。=Inflicts moderate M.DMG to all enemies within range centering on the 2nd enemy from the front, and also slightly boost the M.ATK of all allied characters that attack with magic.
+前から２番目の敵を中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに魔法攻撃を行うすべての味方キャラの魔法攻撃力を小アップさせる。=Deals moderate M.DMG to enemies in range around 2nd nearest enemy, and also slightly boosts all M-type allies' M.ATK.
+r:"^範囲内の敵に(\d+)の魔法ダメージ対象の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 0.59s\n►Deals $1 M.DMG to enemies in 400 range.\n►Boosts all M-type allies' M.ATK by $2 for 180s.
 
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n対象の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 0.59s\n►Deals $1 M.DMG to enemies within 400 range.\n►Boosts allies' M.ATK by $2 for 90s.
-
-
-
-ディアレストメモリー+=Dearest Memory+
+##EX##
 ディアレストメモリー=Dearest Memory
+ディアレストメモリー+=Dearest Memory+
+
+##S1+##
+トゥインクルブースト+=Twinkle Boost+
+自分のＴＰを中回復し、さらに自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力アップと魔法攻撃クリティカル時のダメージアップの上昇量は、このスキルを使用するたび、最大５回まで増加する。=Help.
+自分のＴＰを中回復し、さらに自分の魔法攻撃力を中アップ、魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力アップと魔法攻撃クリティカル時のダメージアップの上昇量は、このスキルを使用するたび、最大５回まで増加する。=Moderately recovers own TP, and also slightly boosts own M.ATK, M.CRIT, and M.CRIT DMG. The M.ATK boost and M.CRIT DMG boost increase according to number of this skill usage, up to 5 times.
+r:"^自分のＴＰを(\d+)回復自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを25アップ自分の魔法攻撃クリティカル時のダメージを5％アップ$"=Cast time: 0.59s\n►Recovers own TP by $1.\n►Boosts own M.ATK by $2 (+0.25× \n$2×Skill Count) for 180s.\n►Boosts own M.CRIT Rate by 25 for 180s.\n►Boosts own M.CRIT DMG by 5% (+1%×Skill Count) for 180s.
+
+##UE##
 ウィッシュプリンセスローブ=Wish Princess Robe

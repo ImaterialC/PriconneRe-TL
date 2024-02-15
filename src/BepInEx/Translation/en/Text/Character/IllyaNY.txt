@@ -1,0 +1,29 @@
+##Profile##
+【魔法】中衛で自らの血を代償に力を振るう新春吸血鬼。自身のＨＰを消費して放つ強力なスキルと、敵からＴＰを吸収するスキルを自在に操り、目の前の敵を撃滅する。=[Magic] A New Year vampire who wields power at the cost of her own blood. Freely manipulates a powerful skill that consumes own HP and a skill that absorbs TP from the enemy to destroy all enemies.
+
+##UB##
+ヴァーミリオンライジング=Vermilion Rising
+自分の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、目の前の敵１キャラに魔法特大ダメージを与え、さらに自分のＨＰを中回復させる。=Greatly boosts own M.ATK and M.CRIT Rate, deals massive M.DMG to an enemy in front, and moderately recovers own HP.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを100アップ敵単体に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復$"=►Boosts own M.ATK by $1 for 18s.\n►Boosts own M.CRIT Rate by 100 for 18s.\n►Deals $2 P.DMG to an enemy.\n►Recovers own HP by $3.
+
+##S1##
+ニュームーンエクリプス=New Moon Eclipse
+目の前の敵１キャラに魔法大ダメージを与え、自分の魔法攻撃力を中アップさせるが、自分の残りＨＰの40％を消費する。=Deals large M.DMG to an enemy in front and moderately boosts own M.ATK, but consumes 40% of own remaining HP.
+r:"^敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の残りＨＰの40%を消費$"=Cast time: 0.52s\n►Deals $1 P.DMG to an enemy.\n►Boosts own M.ATK by $2 for 12s.\n►Consumes 40% of own remaining HP.
+
+##S2##
+ブラッディサーヴァント=Bloody Servant
+目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、自分のＴＰを小回復させるが、自分の残りＨＰの25%を消費する。=Deals large M.DMG to an enemy in front, slightly lowers its TP, and slightly recovers own TP, but consumes 25% of own remaining HP.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを(\d+)失わせる自分のＴＰを(\d+)回復自分の残りＨＰの25%を消費$"=Cast time: 0.525s\n►Deals $1 P.DMG to an enemy.\n►Reduces an enemy's TP by $2.\n►Recovers own TP by $3.\n►Consumes 25% of own remaining HP.
+
+##EX##
+賀春の誓約=New Year's Pledge
+賀春の誓約+=New Year's Pledge+
+
+##S1+##
+ニュームーンエクリプス+=New Moon Eclipse+
+目の前の敵１キャラに魔法大ダメージを与え、自分の魔法攻撃力を中アップさせるが、自分の残りＨＰの40％を消費する。さらに、物理/魔法吸収バリアを自身に付与し、目の前の敵１キャラのＴＰ上昇を小ダウンさせる。自分の残りＨＰが多いほど、魔法攻撃力の上昇量とバリアの吸収ダメージ量がアップする。=Deals large M.DMG to an enemy in front and moderately boosts own M.ATK, but consumes 40% of own remaining HP. Additionally, deploys Barrier over oneself that absorbs P/M.DMG, and slightly lowers an enemy's TP Boost. The greater own HP% is, the greater M.ATK boost and absorbed P/M.DMG by Barrier are.
+r:"^敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の残りＨＰの40%を消費(\d+)ダメージ分の物理魔法吸収バリアを展開する敵単体のＴＰ上昇を15ダウン$"=Cast time: 0.52s\n►Deals $1 P.DMG to an enemy.\n►Boosts own M.ATK by $2.\n►Consumes 40% of own remaining HP.\n►Deploys Barrier over oneself that absorbs $3 P/M.DMG for 12s.\n►Lowers an enemy's TP Boost by 15.
+
+##UE##
+新春斧ニューイヤーファング=New Year Axe New Year Fang

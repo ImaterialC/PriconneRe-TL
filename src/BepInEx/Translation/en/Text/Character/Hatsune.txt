@@ -1,36 +1,33 @@
----Profile---
+##Profile##
 みんなのために超能力を使う眠り姫=A sleeping beauty who uses her superpowers to help others
-【魔法】後衛の、対物理パーティが得意な超能力ガール。スキルが物理攻撃の敵に対して真価を発揮するため、物理攻撃型の敵パーティを一網打尽にする。= [Magic] A super-powered girl who works best from the rearguard in anti-physical parties. Her skills ensnare entire parties of physical attackers, allowing everyone to punish them to maximum effect.
+【魔法】後衛の、対物理パーティが得意な超能力ガール。スキルが物理攻撃の敵に対して真価を発揮するため、物理攻撃型の敵パーティを一網打尽にする。=[Magic] A supernatural girl in the backlines who is adept at combating Physical enemies. Her skills gain additional effects when used against enemies that deal Physical damage, letting her defeat an entire team of them in one fell swoop.
 
----Skills---
----UB---
+##UB##
 シューティング☆スター=Shooting☆Star
 物理攻撃をする敵すべてに魔法小ダメージを与え、さらに敵全体に魔法中ダメージを与える。=Deals small M.DMG to all enemies that use physical attacks. Deals moderate M.DMG to all enemies.
-r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ\n敵全体に(\d+)の魔法ダメージ$"=Deals $1 extra M.DMG to enemies that use P.ATK.\nDeals $1 M.DMG to all enemies.
+r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ敵全体に(\d+)の魔法ダメージ$"=►Deals $1 extra M.DMG to enemies that use P.ATK.\n►Deals $1 M.DMG to all enemies.
 
----S1---
+##S1##
+サイコ☆ブラスト=Psychic☆Blast
 最も物理攻撃力が高い敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to the enemy with the highest physical attack.
 
----S2---
-最も物理攻撃力が高い敵１キャラに魔法小ダメージを与え、さらにスタンさせる。=Deals small M.DMG to the enemy with the highest physical attack and inflicts Stun.
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を一定時間行動不能にする$"=►Deals $1 M.DMG to an enemy.\n►Stuns the enemy.
+##S2##
+スター☆ライト=Star☆Light
+最も物理攻撃力が高い敵１キャラに魔法小ダメージを与え、さらにスタンさせる。=Deals small M.DMG to the enemy with the highest P.ATK and inflicts Stun for 1.5s.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする$"=►Deals $1 M.DMG to an enemy.\n►Renders an enemy immobile.
 
----ex---
+##EX##
+ハピネス☆エナジー=Happiness☆Energy
+ハピネス☆エナジー+=Happiness☆Energy+
 
----Skills+---
----UB---
+##UB+##
 シューティング☆ミーティア=Shooting☆Meteor
-物理攻撃をする敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ長時間スタンさせる。さらに敵全体に魔法中ダメージを与える。=Deals large M.DMG to all enemies that use physical attacks, slightly reduces their M.DEF and stuns them for a long time. Additionally, deals moderate M.DMG to all enemies.
-r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ\n物理攻撃をする敵の魔法防御力を(\d+)ダウン\n物理攻撃をする敵を一定時間行動不能にする\n敵全体に(\d+)の魔法ダメージ$"=Deals $1 extra M.DMG to all enemies that use P.ATK.\nLowers all enemies M.DEF that use P.ATK by $2 for 6s.\nRenders all enemies immobile that use P.ATK for 6s.\nDeals $3 M.DMG to all enemies.
+物理攻撃をする敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ長時間スタンさせる。さらに敵全体に魔法中ダメージを与える。=Great M.DMG to all enemies that attack physical attacks, reduce M.DEF small and stun for a long time. In addition, it does M.DMG to all enemies.
+r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ物理攻撃をする敵の魔法防御力を(\d+)ダウン物理攻撃をする敵を一定時間行動不能にする敵全体に(\d+)の魔法ダメージ$"=►Deals $1 extra M.DMG to all enemies that use P.ATK.\n►Lowers all enemies M.DEF that use P.ATK by $2 for 6s.\n►Renders all enemies immobile that use P.ATK for 6s.\n►Deals $3 M.DMG to all enemies.
 
----S1---
+##S1+##
+サイコ☆ブラスト+=Psychic☆Blast+
 最も物理攻撃力が高い敵１キャラに魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals moderate M.DMG to the enemy with the highest physical attack and lowers its M.DEF by a small amount.
-enemy's M.DEF by {0}.
 
----S2---
-
----ex---
-ハピネス☆エナジー+=Happy☆Energy+
-
----UE---
+##UE##
 ミーティア☆リボン=Meteor☆Ribbon

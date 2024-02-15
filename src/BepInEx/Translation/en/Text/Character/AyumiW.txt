@@ -1,0 +1,29 @@
+##Profile##
+【物理】中衛で、戦場の動向を自在に操る白兎の乙女。敵の行動速度をダウンさせ、味方の速度をアップさせるスキルと敵の時を止めるスキルで、常に味方を支える。=[Physical] A midliner White Rabbit Maiden who can freely control the movements of the battlefield. She always supports her allies with skills that slowdown the enemy's movements and increase the speed of her allies, as well as skills that stop them from time.
+
+##UB##
+クロック・オブ・ラビット=Clock of Rabbit
+味方全体の行動速度を大アップさせ、さらに物理防御力を小アップさせる。=Boosts all allies' action speed by a large amount, and slightly boosts their P.DEF. 
+r:"^味方全体の行動速度アップ味方全体の物理防御力を(\d+)アップ$"=►Boosts all allies' action speed to 200% for 18s.\n►Boosts all allies' P.DEF by $1 for 18s.
+
+##S1##
+クロックダウン=Clock Down
+敵全体の行動速度を小ダウンさせ、物理攻撃力を中ダウンさせ、命中を小ダウンさせる。=Reduces all enemies' action speed by a small amount, and moderately lowers theirs P.ATK. Additionally, lowers all enemies' Accuracy by a moderate amount.
+r:"^敵全体の行動速度を一定時間低下させる敵全体の物理攻撃力を(\d+)ダウン敵全体の命中を(\d+)ダウン$"=►Reduces all enemies' action speed to 90% for 12s.\n►Lowers all enemies' P.ATK by $1 for 12s.\n►Lowers all enemies' Accuracy by $2 for 12s.
+
+##S2##
+クロックエンド=Clock End
+最も物理攻撃力が高い敵１キャラの行動時間を停止させる。=Inflicts Time Stop to an enemy with highest P.ATK.
+r:"^敵単体を一定時間行動不能にする$"=►Inflicts Time Stop to an enemy for 1.75s.
+
+##EX##
+ラビットソウル=Rabbit Soul
+ラビットソウル+=Rabbit Soul+
+
+##S1+##
+クロックダウン+=Clock Down+
+敵全体の行動速度を大ダウンさせ、物理攻撃力を大ダウンさせる。さらに、命中を中ダウンさせ、物理クリティカルを大ダウンさせる。=Reduces all enemies' action speed by large amount, and greatly lowers theirs P.ATK. Additionally, lowers all enemies' Accuracy by a moderate amount and P.CRIT Rate by a large amount.
+r:"^敵全体の行動速度を一定時間低下させる敵全体の物理攻撃力を(\d+)ダウン敵全体の命中を(\d+)ダウン敵全体の物理クリティカルを(\d+)ダウン$"=►Reduces all enemies' action speed to 60% for 12s.\n►Lowers all enemies' P.ATK by $1 for 12s.\n►Lowers all enemies' Accuracy by $2 for 12s.\n►Lowers all enemies' P.CRIT Rate by $3 for 12s.
+
+##UE##
+ワンダーランドクロック=Wonderland Clock

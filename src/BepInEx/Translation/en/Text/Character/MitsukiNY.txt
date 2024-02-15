@@ -1,26 +1,32 @@
-【物理】中衛で、振袖姿で旅館に手を貸す隻眼の闇医者。朧ろ状態にした敵への攻撃時、スキルのダメージや防御力のダウン値が上昇し、紫煙に捉えた敵を艶然と討ち取る。=[Physics] A one-eyed dark doctor who lends a helping hand to the inn in furisode in MG. When attacking a stunned enemy, the skills damage and the P.DEF debuff increase, and the enemy caught in purple smoke is brilliantly defeated.
-
-風雲初春ノ渦=Spring Whirlwind of Turbulence
-滅封刻印初め=Seal-Breaking First Mark
-滅封刻印初め+=Seal-Breaking First Mark+
-孟春ノ荒灸治=Early Spring Scorching Treatment
-孟春ノ荒灸治+=Early Spring Scorching Treatment+
-新春荒療治=New Year's Disorderly Healing
-新春荒療治+=New Year's Disorderly Healing+
+##Profile##
+【物理】中衛で、振袖姿で旅館に手を貸す隻眼の闇医者。朧ろ状態にした敵への攻撃時、スキルのダメージや防御力のダウン値が上昇し、紫煙に捉えた敵を艶然と討ち取る。=[Physics] A one-eyed dark doctor who lends a helping hand to the inn in furisode attire in midlines. When attacking a stunned enemy, the skills damage and lowered P.DEF increase, and the enemy caught in purple smoke is brilliantly defeated.
 
 闇医者の憂鬱=Back Alley Doctor's Melancholy
 闇医者のヤキモチ=Back Alley Doctor's Jealously
 
+##UB##
+風雲初春ノ渦=Spring Whirlwind of Turbulence
+目の前の敵１キャラに物理特大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。対象が朧ろ状態だった場合、自分の物理攻撃力と物理クリティカルを中アップさせる。=Deals large P.DMG to an enemy in front, and slightly boosts its P.CRIT DMG taken. Moderately boosts own P.ATK and P.CRIT when an enemy has [Daze].
+r:"^敵単体に(\d+)の物理ダメージ敵単体のクリティカルを受けた際のダメージを6％アップ敵が朧ろ状態の時、自分の物理攻撃力を(\d+)アップ敵が朧ろ状態の時、自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG take by 6% for 18s.\n\nIf an enemy has [Daze]:\n►Boosts own P.ATK by $2 for 180s.\n►Boosts own P.CRIT Rate by $3 for 180s.
 
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを6％アップ\n敵が朧ろ状態の時、自分の物理攻撃力を(\d+)アップ\n敵が朧ろ状態の時、自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Reduce 6% P.Crit dmg resistance to an enemy for 18s.\nWhen the enemy in stun state:\n►Boosts own physical attack by $2 for 90s\n►Boosts own P.Crit rate by $3 for 90s.
+##S1##
+滅封刻印初め=Seal-Breaking First Mark
+目の前の敵１キャラに物理中ダメージを与え、朧ろ状態を付与し、クリティカルを受けた際のダメージを小アップさせる。=Deals moderate P.DMG to an enemy in front, grants [Daze] to them, and slightly boosts its P.CRIT DMG taken.
+r:"^敵単体に(\d+)の物理ダメージ敵単体のクリティカルを受けた際のダメージを6％アップ$"=Cast time: 0.59s.\n►Deals $1 P.DMG to an enemy.\n►Grants [Daze] to an enemy for 12s.\n►Boosts an enemy's P.CRIT DMG take by 6% for 12s.
 
-目の前の敵１キャラに物理特大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。対象が朧ろ状態だった場合、自分の物理攻撃力と物理クリティカルを中アップさせる。=Inflicts a large amount of P.DMG to the enemy in front, and slightly boost the damage taken when receiving a critical hit. Moderately boost own P.ATK and P.crit when the target is in a stunned state.
+##S2##
+孟春ノ荒灸治=Early Spring Scorching Treatment
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。対象が朧ろ状態だった場合、ダメージと防御力のダウン値が上昇する。=Deals moderate P.DMG to an enemy in front, and slightly lowers its P.DEF. If an enemy has [Daze], P.DMG dealt and lowered P.DEF increase.
+r:"^敵が朧ろ状態でない時、敵単体に(\d+)の物理ダメージ敵が朧ろ状態でない時、敵単体の物理防御力を(\d+)ダウン敵が朧ろ状態の時、敵単体に(\d+)の物理ダメージ敵が朧ろ状態の時、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.59s\nIf an enemy doesn't [Daze]:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n\nIf an enemy has have [Daze]:\n►Deals $3 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4 for 18s.
 
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体のクリティカルを受けた際のダメージを6％アップ$"=Cast time:0.59s.\n►Deals $1 P.DMG to an enemy.\n►Reduce 6% P.Crit dmg resistance to an enemy for 18s.
+##EX##
+新春荒療治=New Year's Disorderly Healing
+新春荒療治+=New Year's Disorderly Healing+
 
-目の前の敵１キャラに物理中ダメージを与え、朧ろ状態を付与し、クリティカルを受けた際のダメージを小アップさせる。=Inflicts moderate P.DMG to the enemy in front, inflicts a stun, and slightly increases the damage taken when receiving a critical hit.
+##S1+##
+滅封刻印初め+=Seal-Breaking First Mark+
+目の前の敵１キャラに物理中ダメージを与え、朧ろ状態を付与し、物理防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。=Deals moderate P.DMG to an enemy in front, grants [Daze] to them, slightly lowers its P.DEF, and slightly boosts its P.CRIT DMG taken.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体のクリティカルを受けた際のダメージを6％アップ$"=Cast time: 0.59s.\n►Deals $1 P.DMG to an enemy.\n►Grants [Daze] to an enemy for 12s.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Boosts an enemy's P.CRIT DMG take by 6% for 12s.
 
-r:"^敵が朧ろ状態でない時、敵単体に(\d+)の物理ダメージ\n敵が朧ろ状態でない時、敵単体の物理防御力を(\d+)ダウン\n敵が朧ろ状態の時、敵単体に(\d+)の物理ダメージ\n敵が朧ろ状態の時、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.59s.\nIf the enemy is NOT in a stun state:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n\nIf the enemy is in a stun state:\n►Deals $3 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4 for 18s.
-
-目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。対象が朧ろ状態だった場合、ダメージと防御力のダウン値が上昇する。=Inflicts moderate P.DMG to the first enemy in front and slightly decreases P.DEF. If the target is stunned, the damage and defense down values increase.
-
+##UE##
+薔薇女将の湯治煙管=Rose Proprietress's Hot Spring Kiseru

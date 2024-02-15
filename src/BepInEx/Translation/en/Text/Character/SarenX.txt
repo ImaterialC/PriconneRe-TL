@@ -1,22 +1,49 @@
-【物理】前衛で、光を操り味方を守る聖夜のサレンママ。敵の攻撃を防ぎ、ダメージを与えるユニオンバーストや、ダメージを与えつつ回復するスキルで、攻守双方を担う。=[Physical]A front-line fighter who wields the power of light and protects allies, Mama Saren is the saint of the night. She has Union Burst skills that both defend against enemy attacks and deal damage, as well as skills that deal damage while also restoring health, making her a versatile attacker and defender.
+##Profile##
+【物理】前衛で、光を操り味方を守る聖夜のサレンママ。敵の攻撃を防ぎ、ダメージを与えるユニオンバーストや、ダメージを与えつつ回復するスキルで、攻守双方を担う。=[Physical] A frontline fighter who wields the power of light and protects allies, Mama Saren is the saint of the night. With UB that both defends against enemy attacks and deals damage, as well as skills that deal damage while also restoring health, she is a versatile attacker and defender.
 
+絆色のケーキ=Bond-colored Cake
+白く美しい親愛=White Beautiful Affection
+二人のサンタクロース=Two Santa Clauses
+親愛なるクリスマス大作戦=Dear Operation Christmas
+
+##UB##
 シールドオブガーデン=Shield of Garden
-前方のランダムな敵キャラに単体物理大ダメージを計３回与え、味方全体の物理・魔法攻撃力を中アップさせ、自分に光の盾を３つ付与する。光の盾は１回ダメージを受ける毎に代わりに１つ破壊され、同時に敵にダメージを与える。=Deal 3 large P.DMG to random front enemies, boost allies' P.ATK & M.ATK (medium), and give yourself 3 light shields. Each destroyed shield deals P.DMG to an enemy.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n攻撃してきた敵に(\d+)ダメージを与えて消失する光の盾を最大5つまで付与する$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Boosts allies' P.ATK by $4 for 18s.\n►Boosts allies' M.ATK by $5 for 18s.\n►Deploys 3 shields over self that reflects $6 P.DMG of received damage.
+前方のランダムな敵キャラに単体物理大ダメージを計３回与え、味方全体の物理・魔法攻撃力を中アップさせ、自分に光の盾を３つ付与する。光の盾は１回ダメージを受ける毎に代わりに１つ破壊され、同時に敵にダメージを与える。=Deals 3 large P.DMG to random front enemies, boosts allies' P.ATK and M.ATK by a moderate amount, and deploys over herself 3 light shields. Each destroyed shield deals P.DMG to an enemy.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ攻撃してきた敵に(\d+)ダメージを与えて消失する光の盾を最大5つまで付与する$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Boosts allies' P.ATK by $4 for 18s.\n►Boosts allies' M.ATK by $5 for 18s.\n►Deploys 3 shields over oneself that reflect $6 P.DMG of received damage.
 
+##S1##
 アメイジングギフト=Amazing Gift
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の物理防御力を(\d+)アップ\n範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.8s\n►Boosts allies' P.ATK within 300 range by $1 for 12.\n►Boosts allies' M.ATK within 300 range by $2 for 12.\n►Boosts allies' P.DEF within 300 range by $3 for 12.\n►Boosts allies' M.DEF within 300 range by $4 for 12.
+自分を中心とした範囲内の味方すべての物理攻撃力と魔法攻撃力を大アップさせ、さらに物理防御力と魔法防御力を中アップさせる。=Boosts allies' P.ATK and M.ATK in range by a large amount, moderately boosts allies' P.DEF and M.DEF in range.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.8s\n►Boosts allies' P.ATK and M.ATK in 300 range by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF in 300 range by $3 for 12s.
 
-アメイジングギフト+=Amazing Gift+
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の物理防御力を(\d+)アップ\n範囲内の味方の魔法防御力を(\d+)アップ\n範囲内の味方の物理クリティカルを100アップ\n範囲内の味方の魔法クリティカルを100アップ$"=Cast time: 0.8s\n►Boosts allies' P.ATK within 300 range by $1 for 12.\n►Boosts allies' M.ATK within 300 range by $2 for 12.\n►Boosts allies' P.DEF within 300 range by $3 for 12.\n►Boosts allies' M.DEF within 300 range by $4 for 12.\n►Boosts P.Crit of allies within 300 range by 100 for 12.\n►Boosts M.Crit of allies within 300 range by 100 for 12.
-自分を中心とした範囲内の味方すべての物理攻撃力と魔法攻撃力を特大アップ、物理防御力と魔法防御力を中アップさせ、さらに物理クリティカルと魔法クリティカルを大アップさせる。=Boost the P.ATK & allies' M.ATK in a large amount and P.DEF & M.DEF in a medium amount around yourself. Also, greatly increase the P.CRIT & M.CRIT of all allies.
-
-
+##S2##
 ルミナスバレット=Luminous Bullet
-前方のランダムな敵キャラに、単体物理小ダメージを計３回与える。さらに、最もＨＰが低い味方１キャラのＨＰを中回復させる。=Deal 3 consecutive small P.DMG to random enemy characters in front, and also restore the HP of the ally with the lowest HP by a medium amount.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n味方単体のＨＰを(\d+)回復$"=Cast time: 0.8s\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Recovers an ally's HP by $1.
+前方のランダムな敵キャラに、単体物理小ダメージを計３回与える。さらに、最もＨＰが低い味方１キャラのＨＰを中回復させる。=Deals 3 consecutive small P.DMG to a random enemy in front, and recovers an ally's HP with the lowest HP by a moderate amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ味方単体のＨＰを(\d+)回復$"=Cast time: 0.8s\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Recovers an ally's HP by $1.
 
+##EX##
 サイレントブレイズ=Silent Blaze
 サイレントブレイズ+=Silent Blaze+
 
+##S1+##
+アメイジングギフト+=Amazing Gift+
+自分を中心とした範囲内の味方すべての物理攻撃力と魔法攻撃力を特大アップ、物理防御力と魔法防御力を中アップさせ、さらに物理クリティカルと魔法クリティカルを大アップさせる。=Boosts allies' P.ATK and M.ATK in range by a massive amount, moderately boosts allies' P.DEF and M.DEF in range. Also, greatly boosts allies' P.CRIT Rate and M.CRIT Rate in range.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ範囲内の味方の魔法クリティカルを100アップ$"=Cast time: 0.8s\n►Boosts allies' P.ATK and M.ATK in 350 range by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF in 350 range by $3 for 12s.\n►Boosts allies' P.CRIT Rate and M.CRIT Rate in 350 range by 100 for 12s.
+
+##UE##
 サレンディアノエルドレス=Sarendia Noel Dress
+
+##Comments##
+
+お金をかけなくても素敵な\nクリスマスが過ごせるってこと\n見せてあげるわ！=I'll show you that you don't have to spend a fortune to have a wonderful Christmas!
+子どもってクリスマスが好きよね\nまあ、あたしも人のこと\n言えないけど…何だか\n楽しい気分になれるのよね=Kids really love Christmas, don't they? Well, I can't really blame them... it just puts me in a really happy mood, too.
+子どもたちが笑顔で\nクリスマスを\n過ごせること\nそれが一番の幸せよ=The happiest thing for me is when children can spend Christmas with a smile on their faces.
+せっかくのクリスマスなのに\n暇そうね。仕方ない、少しだけ\n付き合ってあげるわ。何か\n温かい物でも飲みに行きましょ？=It looks like you're bored even though it's Christmas. Oh well, I guess I'll keep you company for a little while. Let's go get something warm to drink, shall we?
+え、ドレスが似合ってる？\nそ、そう…ありがと…\nあんたに褒めてもらうのって…\nうれしいわ=Eh? You think this dress suits me? I-Is that so...? Thank you... It makes me happy to be praised by you.
+さあ、熱く楽しいクリスマスを\n始めるわよ！\n寒がってる暇なんて\nないんだからね♪=Now, let's start a hot and fun Christmas! There's no time to be feeling cold♪
+少しエレガントじゃないかも\nしれないけど、許してね？\nあたし、目いっぱいクリスマスを\n楽しんじゃうんだから♪=I may be a little less elegant, but you'll have to forgive me, okay? I'm going to enjoy Christmas to the fullest.
+あんたと一緒のクリスマス…\n結構いい感じね♪\n気の許せる相手と\n過ごせるのって…幸せよね=Spending Christmas with you... feels pretty good♪. Being able to spend time with someone I can trust and feel at ease with... it's just happiness.
+外にいるのに何だか暑いって\n思うのは、もしかして…\nあんたが隣にいるから\nなのかしら…？=Even though I'm outside, I feel like it's hot, is it perhaps because you're next to me...?
+高級レストランで豪華なディナー\nなんてのは柄じゃないし\nあんたがいてくれれば、それが…\nその…さ、最高のクリスマスよ！=I'm not cut out for fancy dinners at high-end restaurants. But if you're here with me, then... Well, it'll be the best Christmas ever!
+ハッピーバースデー！\n子どもたちからあんたに\nプレゼントがあるみたい\nあたしも…一応用意してあるわ=Happy Birthday! Looks like the kids have a present for you. I've prepared one for you, too.
+ええと…誕生日おめでとう\nこれから一緒にプレゼントを\n見に行かない？\nデ、デートじゃないわよ、もう！=Umm... Happy Birthday! Why don't we go see the presents together? It's not a date, geez!

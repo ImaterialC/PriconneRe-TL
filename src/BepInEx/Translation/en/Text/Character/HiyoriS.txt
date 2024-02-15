@@ -1,26 +1,29 @@
-【物理】前衛で皆にエールを送り鼓舞する真夏の元気娘。味方のＨＰを継続回復し行動速度アップの他、味方の数に応じてクリティカル強化と攻撃力を引き上げ勝利に導く。=[Physical] A lively girl of midsummer who sends encouragement and cheers to everyone. She continuously heals the allies' HP, boosts their action speed, and leads them to victory by strengthening their critical hits and increasing their attack power based on the number of allies.
+##Profile##
+【物理】前衛で皆にエールを送り鼓舞する真夏の元気娘。味方のＨＰを継続回復し行動速度アップの他、味方の数に応じてクリティカル強化と攻撃力を引き上げ勝利に導く。=[Physical] A cheerful girl enjoying the peak of summer, who encourages and inspires her allies from the frontlines. She continuously heals the allies' HP, boosts their action speed, and leads them to victory by strengthening their critical hits and increasing their attack power based on the number of allies remaining.
 
+##UB##
 ヒヨリチアーサンシャイン=Hiyori Cheer Sunshine
+自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを中アップし、物理攻撃クリティカル時のダメージを小アップする。範囲内の味方の人数に応じて、物理攻撃力と物理クリティカルの上昇量が増加する。=Moderately boosts allies' P.ATK and P.CRIT Rate in range, and slightly boosts their P.CRIT DMG. The P.ATK and P.CRIT Rate boost increases according to number of allies in range.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを20アップ範囲内の味方の物理攻撃クリティカル時のダメージを3％アップ$"=►Boosts allies' P.ATK in 80 range by $1 (+$1×Ally Count) for 18s.\n►Boosts allies' P.CRIT Rate in 80 range by 20 (+20×Ally Count) for 18s.\n►Boosts allies' P.CRIT DMG in 80 range by 3% for 18s.
 
-ミッドサマーエール=Midsummer Yell
-ミッドサマーエール+=Midsummer Yell+
+##S1##
 肉球スプラッシュ=Paw Splash
+自分を中心とした範囲内の味方すべての物理攻撃力を小アップし、行動速度を大アップする。範囲内の味方の人数に応じて、物理攻撃力の上昇量が増加する。=Slightly boosts allies' P.ATK in range, and greatly boosts their action speed. The P.ATK boost increases according to number of allies in range.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の行動速度アップ$"=Cast time: 0.59s.\n►Boosts allies' P.ATK in 80 range by $1 (+$1×Ally Count) for 12s.\n►Boosts allies' action speed in 80 range to 150% for 12s.
+
+##S2##
+ハートリィハイブイ=Heartly High V
+自分を中心とした範囲内の味方すべてのＨＰを小回復し、継続ＨＰ回復状態を付与する。=Recovers allies' HP in range by a small amount, and grants continuous HP recovery to them.
+r:"^範囲内の味方のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=Cast Time: 0.59s\n►Recovers allies' HP in 80 range by $1.\n►Recovers allies' HP in 80 range by $2/s for 10.5s.
+
+##EX##
+ミッドサマーエール=Midsummer Cheer
+ミッドサマーエール+=Midsummer Cheer+
+
+##S1+##
 肉球スプラッシュ+=Paw Splash+
+自分を中心とした範囲内の味方すべての物理攻撃力を大アップ、物理クリティカルを小アップし、行動速度を大アップする。範囲内の味方の人数に応じて、物理攻撃力と物理クリティカルの上昇量が増加する。=Greatly boosts allies' P.ATK in range, slightly boosts their P.CRIT Rate, and greatly boosts their action speed. The P.ATK and P.CRIT Rate boost increases according to number of allies in range.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを10アップ範囲内の味方の行動速度アップ$"=►Boosts allies' P.ATK in 80 range by $1 (+$1×Ally Count) for 12s.\n►Boosts allies' P.CRIT Rate in 80 range by 10 (+10×Ally Count) for 12s.\n►Boosts allies' action speed in 80 range to 150% for 12s.
+
+##UE##
 トゥインクルサマービキニ=Twinkle Summer Bikini
-ハートリィハイブイ=Hartley Hi-five
-
-自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを中アップし、物理攻撃クリティカル時のダメージを小アップする。範囲内の味方の人数に応じて、物理攻撃力と物理クリティカルの上昇量が増加する。=Moderate boost P.ATK and P.crit of all allies within range, and slightly boost P.crit dmg. The amount of increase in P.ATK and P.crit is increased according to the number of allies within the range.
-
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを20アップ\n範囲内の味方の物理攻撃クリティカル時のダメージを3％アップ$"=►Boosts allies' P.ATK within 80 range by $1 for 18s.\n►Boosts P.crit of all allies within 80 range by 20 for 18s.\n►Boosts P.crit dmg of all allies within 80 range by 3% for 18s.
-
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の行動速度アップ$"=Cast time: 0.59s.\n►Boosts allies' P.ATK within 80 range by $1 for 12s.\n►Boosts allies' action speed within 80 range into 150% for 12s.
-
-自分を中心とした範囲内の味方すべての物理攻撃力を小アップし、行動速度を大アップする。範囲内の味方の人数に応じて、物理攻撃力の上昇量が増加する。=Boosts the P.ATK of all all allies within a range centered on you by a small amount and boosts the Action Speed by a large amount. The amount of increase in P.ATK is increased according to the number of allies within the range.
-
-r:"^範囲内の味方のＨＰを(\d+)回復\n毎秒ＨＰを(\d+)回復する$"=Cast Time: 0.59s\n►Recovers allies' HP within 80 range by $1.\n►Recovers allies' HP within 80 range by $2/s for 10.5s.
-
-自分を中心とした範囲内の味方すべてのＨＰを小回復し、継続ＨＰ回復状態を付与する。=Provides a small HP recovery to all allies within a range centered on the self, and grants a continuous HP recovery state.
-
-自分を中心とした範囲内の味方すべての物理攻撃力を大アップ、物理クリティカルを小アップし、行動速度を大アップする。範囲内の味方の人数に応じて、物理攻撃力と物理クリティカルの上昇量が増加する。=Greatly boosts the allies' P.ATK within her range, slightly enhances P.crit, and greatly increases their action speed. The amount of increase in P.ATK and P.crit depends on the number of allies within the range.
-
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを10アップ\n範囲内の味方の行動速度アップ$"=►Boosts allies' P.ATK within 80 range by $1 for 12s.\n►Boosts P.crit Rate of allies within 80 range by 10 for 12s.\n►Boosts action speed of allies within 80 range into 150% for 12s.

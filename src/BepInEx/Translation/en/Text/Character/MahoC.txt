@@ -1,0 +1,29 @@
+##Profile##
+【魔法】後衛から、優雅に味方を支援するマホ先生。物理攻撃をする味方の攻撃力アップや、最遠の味方のＴＰを回復するスキルで、しゃなりしゃなりと戦況を変える。=[Magic] Maho-sensei gracefully supports her allies from the rearguard. With skills that boost physical attack power of P-type allies and recover TP of an ally farthest away, she dramatically changes the tide of battle.
+
+##UB##
+メルヘンダンスステージ=Fairy-tale Dance Stage
+物理攻撃をする味方全員の物理攻撃力と自分の魔法攻撃力を中アップさせ、さらに魔法攻撃をするすべての敵の物理防御力と魔法攻撃力を中ダウンさせる。自分の魔法攻撃力が高い程、攻撃力の上昇量がアップする。=Moderately boosts all P-type allies' P.ATK and boosts own M.ATK by a moderate amount, and also moderately lowers all M-type enemies' P.DEF and P.ATK. The M.ATK boost increases according to own M.ATK.
+r:"^対象の味方の物理攻撃力を(\d+)アップ自分の魔法攻撃力を(\d+)アップ魔法攻撃をする敵の物理防御力を(\d+)ダウン魔法攻撃をする敵の魔法攻撃力を(\d+)ダウン$"=►Boosts all P-type allies' P.ATK by $1 for 18s.\n►Boosts own M.ATK by $2(+0.27×M.ATK) for 18s.\n►Lowers all M-type enemies' P.DEF by $3 for 18s.\n►Lowers all M-type enemies' M.ATK by $3 for 18s.
+
+##S1##
+マホマホフラワーサークル=Maho-Maho Flower Circle
+最も物理攻撃力が高い味方１キャラの物理攻撃力を中アップさせる。自分の魔法攻撃力が高い程、攻撃力の上昇量がアップする。=Moderately boosts an ally's P.ATK with the highest P.ATK. The P.ATK boost increases according to own M.ATK.
+
+##S2##
+マホマホハピネスタクト=Maho-Maho Happiness Tact
+最も遠くの味方1キャラのＴＰを小回復させる。=Slightly recovers a farthest away ally's TP.
+## 260lvl
+最も遠くの味方1キャラのＴＰを小回復し、物理攻撃力を小アップさせる。=Slightly recovers a farthest away ally's TP and slightly boosts its P.ATK.
+
+##EX##
+メルヘンプリズム=Fairy-tale Prism
+メルヘンプリズム+=Fairy-tale Prism+
+
+##S1+##
+マホマホフラワーサークル+=Maho-Maho Flower Circle+
+最も物理攻撃力が高い味方１キャラの物理攻撃力を大アップさせ、ＴＰ上昇を小アップさせる。自分の魔法攻撃力が高い程、物理攻撃力の上昇量がアップする。=Greatly boosts an ally's P.ATK with the highest P.ATK, and slightly boosts its TP Boost. The P.ATK boost increases according to own M.ATK.
+r:"^味方単体の物理攻撃力を(\d+)アップ味方単体のＴＰ上昇を(\d+)アップ$"=►Boosts an ally's P.ATK by $1(+0.375×M.ATK) for 12s.\n►Boosts an ally's TP Boost by $2 for 12s.
+
+##UE##
+マホマホメルヘンドレス=Maho-Maho Fairy-tale Dress

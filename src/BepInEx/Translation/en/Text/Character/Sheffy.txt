@@ -1,0 +1,47 @@
+##Profile##
+記憶喪失のドラゴン娘=Dragon girl with amnesia
+読書、ストレッチ=Reading, Stretching
+
+【物理】中衛で氷雪を操り敵を凍滅する、氷竜の少女。ユニオンバーストで獲得する【氷竜の印】を消費して、スキルの効果を増幅し、清廉な剣技で敵を切り伏せる。=[Physical] An ice dragon girl, who controls ice and freezes the enemy. She consumes the [Ice Dragon Mark] earned with the UB, amplifies her skills, and cuts the enemy with her innocence.
+
+シェフィの一人旅=Sheffy's Solo Journey
+割れた氷=Broken ice
+シェフィの好きなもの=Sheffy's Favorite
+エンジョイタイム=Enjoy Time
+シェフィのギルド活動=Sheffy's Guild Activity
+薄氷=Thin Ice
+シェフィの決意=Sheffy's Determination
+戸惑う竜少女=Confused Dragon Girl
+シェフィの記憶探し=Looking for Sheffy's memory
+
+##UB##
+舞斬・月下氷竜=Dance: Lunar Ice Dragon
+目の前の敵１キャラに物理特大ダメージを与え、さらに自分に【氷竜の印】を５つ追加する。このバトル中にユニオンバーストを使用する度に、追加する印の数が１つ増える。【氷竜の印】は最大10まで追加される。=Deals small P.DMG to an enemy in front, and gains 5 [Ice Dragon Mark] stacks. After every UB gains 1 [Ice Dragon Mark], up to a maximum of 10.
+
+##S1##
+雪沓=Snow Shoe
+目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。このスキルのダメージは、【氷竜の印】の数に応じて増加する。【氷竜の印】を１つ消費する。=Deals small P.DMG to an enemy in front and lowers its P.DEF by a small amount. This skill's damage increases according to the number of [Ice Dragon Mark] stacks. Consumes 1 [Ice Dragon Mark].
+
+##S2##
+凍る湖=Frozen Lake
+自分の周囲に、物理攻撃力を小アップさせるフィールドを展開する。物理攻撃力の上昇量は、【氷竜の印】の数に応じて増加する。【氷竜の印】を１つ消費する。=Deploys a field around oneself that slightly boosts P.ATK. The P.ATK boost increases according to the number of [Ice Dragon Mark] stacks. Consumes 1 [Ice Dragon Mark].
+r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する$"=Cast time: 0.465s\n►Deploys a field of radius 400 that boosts allies' P.ATK by $1 for 12s.
+
+##EX##
+アクセルロンド=Accel Rondo
+アクセルロンド+=Accel Rondo+
+
+##UB+##
+フロストファング=Frost Fang
+目の前の敵１キャラに物理特大ダメージを与え、さらに自分に【氷竜の印】を７つ追加する。このバトル中にユニオンバーストを使用する度に、追加する印の数が１つ増える。【氷竜の印】は最大20まで追加される。【凍る湖】のフィールド展開中、自分に継続ＴＰ回復状態を付与する。このスキルのＴＰの回復量は【氷竜の印】の数に応じて増加する。=Deals massive P.DMG to an enemy in front and gains 7 [Ice Dragon Mark] stacks. After every UB gains 1 [Ice Dragon Mark], up to a maximum of 20. Grants continuous TP recovery to self while deploying [Frozen Lake] (field). TP recovery amount increases with [Ice Dragon Mark].
+r:"^敵単体に(\d+)の物理ダメージフィールド展開中、毎秒ＴＰを10回復する$"=►Deals $1 P.DMG to an enemy.\n►Deploys a field that recovers own TP by 10/s for 10.5s.
+r:"^敵単体に(\d+)の物理ダメージ毎秒ＴＰを10回復する$"=►Deals $1 P.DMG to an enemy.\n►Deploys a field that recovers own TP by 10/s for 10.5s.
+
+##S1+##
+雪沓+=Snow Shoe+
+目の前の敵１キャラに物理小ダメージを与え、物理防御力を中ダウンさ\nせ、さらに自分の物理攻撃力を小アップさせる。このスキルのダメージと物理攻撃力の上昇量は、【氷竜の印】の数に応じて増加する。【氷竜の印】を１つ消費する。=Deals large P.DMG to an enemy in front, lowers its P.DEF, and boosts own P.ATK both for 12s. This skill's damage and P.ATK buff potency increase according to the number of [Ice Dragon Mark] stacks. Consumes 1 [Ice Dragon Mark].
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.\n►Boosts own P.ATK by $3.
+## Same with SEriko
+
+##UE##
+氷竜剣=Ice Dragon Sword

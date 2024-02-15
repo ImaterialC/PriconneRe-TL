@@ -1,6 +1,5 @@
-Ninon 
+##Profile## 
 【物理】中衛で、強力な範囲攻撃を操る、忍術の使い手。範囲攻撃のスキルで敵を倒す事で、自分のＴＰを回復し、強力なユニオンバーストの発動頻度を上げる。=[Physical] A ninja that uses powerful area attacks from the midguard. Recovers her own TP by felling foes with her area attack skill, allowing her to use her devastating Union Burst more frequently.
-
 
 忍法開発=Developing ninja arts
 Profile
@@ -20,32 +19,31 @@ Profile
 町外れのクニトリ合戦！=Conquering the outskirts!
 炸裂！秘剣チュバメ切り=Secret Strike: Slicey Swallow
 
-
-Skills
-UB
-
+##UB##
 忍法・灼熱地獄=Ninpo: Scorching Hell
-S1
+
+##S1##
 旋風撃=Hurricane Assault
-旋風撃+=Hurricane Assault+
 前方範囲内の敵すべてに物理小ダメージを与え、さらにこのスキルで敵を倒した場合、自分のＴＰを中回復する。とどめを刺した敵の数に応じてＴＰの回復量が増加する。=Deals small P.DMG to all enemies in range. Recovers own TP by a moderate amount if an enemy is defeated by this skill.
-r:"^範囲内の敵に(\d+)の物理ダメージ\nとどめを刺した時、自分のＴＰを150回復$"=Cast time: 1.85s\n►Deals $1 P.DMG to enemies within 750 range.\n►Recovers own TP by 150 for each fallen enemy.
-S2
+r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自分のＴＰを150回復$"=Cast time: 1.85s\n►Deals $1 P.DMG to enemies in 750 range.\n►Recovers own TP by 150 for each fallen enemy.
+
+##S2##
 火炎扇=Blazing Fan
 目の前の敵１キャラに物理中ダメージを与え、さらに小さく吹き飛ばす。=Deals moderate P.DMG to an enemy directly in front and knocks them back slightly.
-ex
+
+##EX##
 ホンノウジブースト=Honnoji Hustle
-Skills+
-UB
+ホンノウジブースト+=Honnoji Hustle+
+
+##UB+##
 忍法・烈火之紅蓮旋風=Ninpo: Crimson Conflagration Gale
 前方範囲内の敵すべてに物理大ダメージを与え、自分の物理攻撃力を大アップさせ、ＴＰを小回復する。とどめを刺した敵の数に応じて物理攻撃力の上昇量とＴＰの回復量が増加する。=Damage all of the enemies within the front range, increase your P.ATK, and recover the TP small. The amount of P.ATK boost and the amount of TP recovery boost according to the number of enemies that stabbed the end.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分のＴＰを100回復$"=►Deals $1 P.DMG to enemies within 815 range.\n►Boosts own P.ATK by $2 for 12s.\n►Recovers own TP by 100.\n►Recovers own TP by 200 for each fallen enemy.
-S1
-前方範囲内の敵すべてに物理中ダメージを与え、さらにこのスキルで敵を倒した場合、自分のＴＰを特大回復する。=Deals moderate P.DMG to all enemies in range. Recovers own TP by a massive amount if an enemy is defeated by this skill.
-r:"^範囲内の敵に(\d+)の物理ダメージ\nとどめを刺した時、自分のＴＰを1000回復$"=Cast time: 1.85s\n►Deals $1 P.DMG to enemies within 750 range.\n►Recovers own TP by 1000 for each fallen enemy.
-S2
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰを100回復$"=►Deals $1 P.DMG to enemies in 815 range.\n►Boosts own P.ATK by $2 for 12s.\n►Recovers own TP by 100.\n►Recovers own TP by 200 for each fallen enemy.
 
-ex
-ホンノウジブースト+=Honnoji Hustle+
-UE
+##S1+##
+旋風撃+=Hurricane Assault+
+前方範囲内の敵すべてに物理中ダメージを与え、さらにこのスキルで敵を倒した場合、自分のＴＰを特大回復する。=Deals moderate P.DMG to all enemies in range. Recovers own TP by a massive amount if an enemy is defeated by this skill.
+r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自分のＴＰを1000回復$"=Cast time: 1.85s\n►Deals $1 P.DMG to enemies in 750 range.\n►Recovers own TP by 1000 for each fallen enemy.
+
+##UE##
 紅蓮爆炎扇=Crimson Blaze

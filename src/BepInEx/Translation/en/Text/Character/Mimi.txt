@@ -1,26 +1,33 @@
----Profileミミ
+##Profile##
 かわいいもの集め=Collection of cute things
 お歌もにんじんも、ウサギさんも大好き♪=Loves singing, carrots, and rabbits
----Skills
----UB
+【物理】中衛で、敵前衛を崩す、うさぎっこ。ユニオンバーストは、最も近い敵に大ダメージを与えた後隣の敵にも攻撃するので、前衛を早期に攻め落とせる。=[Physical] A bunny girl who crushes the enemy vanguard from the midguard. Her Union Burst deals big damage to the closest foe, then attacks the enemy next to it, quickly disposing of their front lines.
+
+##UB##
 うさぎさんスラッシュ=Bunny Blade
 目の前の敵１キャラに物理中ダメージを与え、さらに２番目に近い敵１キャラに物理大ダメージを与える。=Deals moderate P.DMG to an enemy directly in front and large P.DMG to the 2nd closest enemy.
-r:"^目の前の敵単体に(\d+)の物理ダメージ\n２番目に近い敵単体に(\d+)の物理ダメージ$"=Deals $1 P.DMG to closest enemy.\nDeals $1 P.DMG to 2nd closest target.
----S1
----S2
+r:"^目の前の敵単体に(\d+)の物理ダメージ２番目に近い敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to closest enemy.\n►Deals $1 P.DMG to 2nd closest target.
+
+##S1##
+ぴょんぴょんアタック=Hippety Hackety
 味方全体の物理攻撃力を小アップさせる。=Small boost to allies' P.ATK.
-r:"^味方全体の物理攻撃力を(\d+)アップ$"=Boosts allies' P.ATK by $1.
----ex
+r:"^味方全体の物理攻撃力を(\d+)アップ$"=►Boosts allies' P.ATK by $1.
+
+##S2##
+うさぎさんエール=Bunny Boost
+
+##EX##
 うさぎさんパワー=Bunny Power
----Skills+
----UB
+うさぎさんパワー+=Bunny Power+
+
+##UB+##
 うさぎさんレボリューション=Bunny Revolution
 前方範囲内の敵すべてに物理大ダメージを与え、さらに自分から２番目に近い敵を中心とした範囲内の敵すべてに物理特大ダメージを与える。=Deals large P.DMG to all enemies in range and massive P.DMG to the all 2nd closest enemies in range.
-r:"^前方範囲内の敵に(\d+)の物理ダメージ\n２番目に近い敵を中心とした範囲内の敵に(\d+)の物理ダメージ$"=Deals $1 P.DMG to all enemies in range.\nDeals $2 P.DMG to 2nd closest target in range.
----S1
-前方範囲内の敵すべてに物理大ダメージを与える。=Deals large P.DMG to all enemies in range.
----S2
----ex
-うさぎさんパワー+=Bunny Power+
----UE
+r:"^前方範囲内の敵に(\d+)の物理ダメージ２番目に近い敵を中心とした範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies in range.\n►Deals $2 P.DMG to 2nd closest target in range.
+
+##S1+##
+ぴょんぴょんアタック+=Hippety Hackety+
+前方範囲内の敵すべてに物理大ダメージを与える。=Deals large P.DMG to enemies in range.
+
+##UE##
 うさぎさんブレード=Big Bunny Blade

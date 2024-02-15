@@ -1,0 +1,47 @@
+##Profile##
+【物理】中衛でお揃い衣装の、真偽を超えた仲良し姉妹。攻守共に味方を支えるシズルと、クリティカル時に強力なダメージを与えるリノ、姉妹の絆で困難を跳ね除ける！=[Physical] A pair of close bonded sisters wearing matching outfits, that transcend truth or false. Shizuru can attack, defend and support her teammates. While Rino does tremendous damage when she scores a critical hit. With their sisterly bond, they overcome all trials and difficulties.
+
+弟を愛でること＆兄に甘えること=Admiring my brother & pampering my brother
+ヒューマン、ヒューマン=Human, human
+生天目仁美、阿澄佳奈=Hitomi Nabatame, Kana Asumi
+
+##UB##
+セイクリッドレイン=Sacred Rain
+目の前の敵１キャラに物理大ダメージを２回与え、自分のＨＰを中回復する。このスキルがクリティカルした場合のダメージは、２倍ではなく3.5倍になる。さらに、自分の後方に物理攻撃力を特大アップ、物理クリティカルを大アップさせるフィールドを展開する。=Deals massive P.DMG to an enemy in front twice, and moderately recovers own HP. If this skill lands a critical hit, the damage will be x3.5. Also, deploys a field around oneself that massively boosts P.ATK and P.CRIT Rate.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復物理攻撃力を(\d+)アップさせるフィールドを展開する物理クリティカルを(\d+)アップさせるフィールドを展開する$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Recovers own HP by $3.\n►Deploys a 300 field that boosts P.ATK by $4 and P.CRIT Rate by $5 for 12s.
+
+##S1##
+セイントアロー=Saint Arrow
+目の前の敵１キャラに物理中ダメージを２回与える。このスキルがクリティカルした場合のダメージは、２倍ではなく3.5倍になる。【フィールド展開中】味方全体のＴＰを小回復する。=Deals moderate P.DMG to an enemy in front twice. If this skill lands a critical hit, the damage will be x3.5. If field is active, slightly recovers all allies' TP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージフィールド展開中、味方全体のＴＰを75回復$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►If field is active, recovers all allies' TP by 75.
+
+##S2##
+プレシャスコネクション=Precious Connection
+自分に物理無効バリアを展開し、物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを小アップする。【フィールド展開中】バリアの無効ダメージ量がアップし、敵全体の物理防御力を小ダウンさせる。=Deploys Barrier over oneself that negates P.DMG, boosts own P.ATK and P.CRIT Rate massively, and slightly boosts own P.CRIT DMG. If field is active, P.DMG negated by Barrier increases, and also slightly lowers all enemies' P.DEF. All effects last 12s.
+r:"^フィールド展開中、(\d+)ダメージ分の物理無効バリアを展開する(\d+)ダメージ分の物理無効バリアを展開する自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理攻撃クリティカル時のダメージを15％アップフィールド展開中、敵全体の物理防御力を(\d+)ダウン$"=►If field is active, deploys Barrier over self that negates P.DMG by $1.\n►If field isn't active, deploys Barrier over self that negates P.DMG by $2.\n►Boosts own P.ATK by $3.\n►Boosts own P.CRIT Rate by $4.\n►Boosts own P.CRIT DMG by 15%.\n►If field is active, lowers all enemies' P.DEF by $5.
+
+##EX##
+お姉ちゃん＆妹パワー=Big Sis and Lil Sis Power
+お姉ちゃん＆妹パワー+=Big Sis and Lil Sis Power+
+バトル開始時に自分の物理クリティカルを中アップさせる。=At the beginning of the battle, moderately boosts own physical critical rate.
+バトル開始時に自分の物理クリティカルを大アップさせる。=At the beginning of the battle, greatly boosts own physical critical rate.
+r:"^自分の物理クリティカルを(\d+)アップ$"=►Boosts own P.CRIT Rate by $1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

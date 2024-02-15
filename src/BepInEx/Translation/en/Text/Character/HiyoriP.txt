@@ -1,28 +1,32 @@
-【物理】前衛で炎翼を背に敵を粉砕する、陽気な元気娘。戦いが続く程に自身の攻撃能力を強めるスキルを操り、高めた力で放つ超爆の一撃は、あらゆる敵を塵と化す。=[Physical] A cheerful and energetic girl with fiery wings who smashes enemies as a front-line fighter. She uses skills to strengthen her own attack power as the battle continues, and her super explosive strike, unleashed with her heightened power, turns all enemies into dust.
+##Profile##
+【物理】前衛で炎翼を背に敵を粉砕する、陽気な元気娘。戦いが続く程に自身の攻撃能力を強めるスキルを操り、高めた力で放つ超爆の一撃は、あらゆる敵を塵と化す。=[Physical] A cheerful and energetic girl on the frontlines, spreading out her wings of flame to crush her enemies. Her skills increase her offensive prowess as the battle continues, she uses this boost in power to unleash an explosive blow that turns her enemies into dust.
 
-さらなる強さを求めて=In search of further strength
-特訓、心重ねて=Special training, heart
-守りたい想いを力に変えて=Turn the feelings you want to protect into power
-未来に高鳴る胸の音=The sound of my heart throbbing in the future
+さらなる強さを求めて=Seeking Greater Power
+特訓、心重ねて=Fully Motivated Special Training
+守りたい想いを力に変えて=Drawing Strength From The Desire To Protect
+未来に高鳴る胸の音=My Heartbeat for the Future
 
-目の前の敵１キャラに物理特大ダメージを与え、さらに物理防御力を小ダウンさせる。このスキルで与えたダメージ量に応じて、防御力の減少量が最大６倍までアップする。=Inflicts a large amount of P.DMG to the first enemy in front of you, and also decreases their P.DEF by a small amount. Depending on the amount of damage dealt with this skill, the amount of P.DEF reduced will be increased up to 6 times.
-
-トゥインクルブレイブ=Twinkle Brave
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを25アップ\n自分の物理攻撃クリティカル時のダメージを5％アップ$"=Cast Time: 0.6s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.Crit by 25 for 180s.\n►Boosts own P.Crit dmg by 5% for 180s.
-
-自分の物理攻撃力を中アップさせ、さらに物理クリティカルと物理攻撃クリティカル時のダメージを小アップさせる。=Moderately boost own P.ATK, and also slightly boost P.Crit rate and P.Crit dmg.
-
-
-バーニングサンライズ=Burning Sunrise
-自分の物理攻撃力を小アップさせ、さらに目の前の敵１キャラに物理中ダメージを与える。=Boost own P.ATK by a small amount, and Deals medium P.DMG to 1 enemy character in front.
-
-
-トゥインクルブレイブ+=Twinkle Brave+
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを40アップ\n自分の物理攻撃クリティカル時のダメージを10％アップ\n自分のＴＰを100回復$"=Cast Time: 0.6s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.Crit by 40 for 180s.\n►Boosts own P.Crit dmg by 10% for 180s.\n►Recovers own TP by 100.
-自分の物理攻撃力と物理クリティカルを中アップさせ、さらに物理攻撃クリティカル時のダメージを小アップし、ＴＰを小回復させる。=Moderately boost own P.ATK, and also slightly boost P.Crit rate and P.Crit dmg and restores a small amount of TP..
-
-
+##UB##
 ヒヨリブレイジングインパクト=Hiyori Blazing Impact
-バーニングソウル+=Burning soul+
-バーニングソウル=Burning soul
+目の前の敵１キャラに物理特大ダメージを与え、さらに物理防御力を小ダウンさせる。このスキルで与えたダメージ量に応じて、防御力の減少量が最大６倍までアップする。=Deals large P.DMG to an enemy in front, and also slightly lowers its P.DEF. The greater P.DMG dealt by this skill, the greater lowered P.DEF, up to 6 times.\nP.DEF: (+0.0004×P.DMG)
+
+##S1##
+トゥインクルブレイブ=Twinkle Brave
+自分の物理攻撃力を中アップさせ、さらに物理クリティカルと物理攻撃クリティカル時のダメージを小アップさせる。=Moderately boosts own P.ATK, and also slightly boosts own P.CRIT Rate and P.CRIT DMG.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを25アップ自分の物理攻撃クリティカル時のダメージを5％アップ$"=Cast Time: 0.6s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by 25 for 180s.\n►Boosts own P.CRIT DMG by 5% for 180s.
+
+##S2##
+バーニングサンライズ=Burning Sunrise
+自分の物理攻撃力を小アップさせ、さらに目の前の敵１キャラに物理中ダメージを与える。=Slightly boosts own P.ATK, and deals moderate P.DMG to an enemy in front.
+
+##EX##
+バーニングソウル=Burning Soul
+バーニングソウル+=Burning Soul+
+
+##S1+##
+トゥインクルブレイブ+=Twinkle Brave+
+自分の物理攻撃力と物理クリティカルを中アップさせ、さらに物理攻撃クリティカル時のダメージを小アップし、ＴＰを小回復させる。=Moderately boosts own P.ATK, slightly boosts own P.CRIT Rate and P.CRIT DMG, and also slightly recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを40アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分のＴＰを100回復$"=Cast Time: 0.6s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by 40 for 180s.\n►Boosts own P.CRIT DMG by 10% for 180s.\n►Recovers own TP by 100.
+
+##UE##
 ワイルドプリンセスナックル=Wild Princess Knuckle

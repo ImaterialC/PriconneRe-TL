@@ -1,29 +1,29 @@
+##Profile##
+【魔法】後衛で、新たな姿で騎士の冒険を支える妖精。ダメージカットや防御力アップ、無効バリアで味方を護りバリアを起点とする攻撃力とＴＰの支援で攻勢に転ずる。=[Magic] A fairy in the backlines, supporting the knight's adventures in her new form. She protects allies with damage reduction, defense boosts, and barriers, and stimulates their offense with P.ATK, M.ATK and TP Boosts if they have a barrier active.
+
 勇気は朽ちることなく=Courage never fades
 新たな姿で騎士の冒険を支え続ける妖精=A fairy who continues to support the knight's adventures in a new form.
 
-【魔法】後衛で、新たな姿で騎士の冒険を支える妖精。ダメージカットや防御力アップ、無効バリアで味方を護りバリアを起点とする攻撃力とＴＰの支援で攻勢に転ずる。=[Magic] A fairy in the backlines, supporting the knight's adventures in her new form. She protects allies with damage reduction, defense boosts, and barriers, and stimulates their offense with P.ATK, M.ATK and TP boosts if they have a barrier active.
-
-味方全体の物理防御力と魔法防御力を大アップさせ、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。=Large boost to allies' P.DEF & M.DEF, grants HP regen, and deploys a physical/magic nullification barrier.
-
+##UB##
 フィオレ・フェリチータ=Fiore Felicità
-r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する\n(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Boosts allies' P.DEF by $1 for 18s.\n►Boosts allies' M.DEF by $2 for 18s.\n►Recovers allies' HP by $3/s for 10.5s.\n►Deploy a barrier that Nullifies P/M. DMG $4 to All Allies for 90s.
+味方全体の物理防御力と魔法防御力を大アップさせ、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。=Greatly boosts all allies' P.DEF and M.DEF, grants continues HP recovery to them, and deploys Barrier over all allies that negates P/M.DMG.
+r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Boosts all allies' P.DEF by $1 for 18s.\n►Boosts all allies' M.DEF by $2 for 18s.\n►Recovers all allies' HP by $3/s for 10.5s.\n►Deploys Barrier over all allies that negates $4 P/M.DMG for 90s.
 
-
+##S1##
 ルーチェ・クラティーヴァ=Luce Creativa
-ルーチェ・クラティーヴァ+=Luce Creativa+
-最もＨＰが低い味方１キャラのＨＰを中回復し、さらに物理ダメージカット効果と魔法ダメージカット効果を付与する。=Moderately restores the HP of the 1 ally with the lowest HP, and also grants P.DMG cut and M.DMG cut effects.
-r:"^味方単体のＨＰを(\d+)回復\n味方単体が受ける物理ダメージを15％カット\n味方単体が受ける魔法ダメージを15％カット$"=Cast time: 1.04s\n►Recovers an ally's HP by $1.\n►Applies P.DMG cut by 15％ for 12s.\n►Applies M.DMG cut by 15％ for 12s.
+最もＨＰが低い味方１キャラのＨＰを中回復し、さらに物理ダメージカット効果と魔法ダメージカット効果を付与する。=Moderately recovers an ally's HP with the lowest HP, and grants P/M.DMG Cut to them.
+r:"^味方単体のＨＰを(\d+)回復味方単体が受ける物理ダメージを15％カット味方単体が受ける魔法ダメージを15％カット$"=Cast time: 1.04s\n►Recovers an ally's HP by $1.\n►Grants P.DMG Cut to an ally by 15％ for 12s.\n►Grants M.DMG Cut to an ally by 15％ for 12s.
 
-
-
+##S2##
 トーレ・スプレデンテ=Torre Splendente
-バリアが展開されている味方全ての物理攻撃力と魔法攻撃力を極大アップさせ、ＴＰを中回復させる。自分の魔法攻撃力が高い程、物理攻撃力と魔法攻撃力の上昇量が最大５倍までアップする。=Massively boosts the P&M ATK of allies' with barriers deployed, and restores a moderate amount of TP. The higher your M.ATK, the higher P&M ATK buff up to 5 times.
-r:"^バリアが展開されている味方の物理攻撃力を(\d+)アップ\nバリアが展開されている味方の魔法攻撃力を(\d+)アップ\nバリアが展開されている味方のＴＰを200回復$"=Cast time: 0.74s\n►Boosts barriered allies' P.ATK by $1 for 18s.\n►Boosts barriered allies' M.ATK by $2 for 18s.\n►Recovers barriered allies' TP by 200.
+バリアが展開されている味方全ての物理攻撃力と魔法攻撃力を極大アップさせ、ＴＰを中回復させる。自分の魔法攻撃力が高い程、物理攻撃力と魔法攻撃力の上昇量が最大５倍までアップする。=Massively boosts all allies' P/M.ATK with Barrier, and recovers their TP by a moderate amount. The higher own M.ATK, the higher P/M.ATK boost is, up to 5 times.
+r:"^バリアが展開されている味方の物理攻撃力を(\d+)アップバリアが展開されている味方の魔法攻撃力を(\d+)アップバリアが展開されている味方のＴＰを200回復$"=Cast time: 0.74s\n►Boosts all allies' P.ATK with Barrier by $1 for 18s.\n►Boosts all allies' M.ATK with Barrier by $2 for 18s.\n►Recovers all allies' TP with Barrier by 200.
 
+##SP1##
 スクデット=Scudo
-このスキルのスキルレベルは「フィオレ・\nフェリチータ」と連動しています=This skill’s level is linked to "Fiore Felicità"
-味方全体の物理防御力を初期値の15％アップ味方全体の魔法防御力を初期値の15％アップ=Cast time: 2.04s\n►Boosts allies' P.DEF by 15% from initial value for 12s.\n►Boosts allies' M.DEF by 15% from initial value for 12s.
+味方全体の物理防御力を初期値の15％アップ味方全体の魔法防御力を初期値の15％アップ=Cast time: 2.04s\n►Boosts all allies' P.DEF by 15% for 12s.\n►Boosts all allies' M.DEF by 15% for 12s.
+このスキルのスキルレベルは「フィオレ・\nフェリチータ」と連動しています=This skill's level is linked to "Fiore Felicità"
 
-
+##EX##
 リファーレピウマ=Rifare Piuma
 リファーレピウマ+=Rifare Piuma+

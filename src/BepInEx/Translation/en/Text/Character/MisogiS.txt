@@ -1,34 +1,38 @@
-【物理】前衛で敵後方に花火を仕掛ける夜涼みの悪戯娘。敵の最前衛をスタンで足止めしつつ、最後衛を中心としたＵＢで狭範囲の敵を引き寄せ、ＴＰダウンで攻勢を阻む。=[Physical] A mischievous girl who sets off firecrackers behind enemy lines as a front-line attacker. She uses Stun to immobilize the enemy's vanguard and draws in a group of enemies with her UB centered around the rearguard. Additionally, she employs TP reduction to impede enemy offensives.
-
-ビックリ・ファイヤーワーク=Surprised Firecracker
-前方の最も遠い敵を中心に、範囲内の敵すべてに物理大ダメージを与え、自分の目の前まで引き寄せる。=Inflicts heavy P.DMG to all enemies within range, centering on the farthest enemy in front, and pulls them in front of you.
-
-サマースプラッシュボム=Summer Splash Bomb
-サマースプラッシュボム+=Summer Splash Bomb+
-(overlap with AyumiTP)
-前方範囲内の敵すべてに物理中ダメージを与え、ＴＰを中ダウンさせる。=Inflicts moderate P.DMG to all enemies within range and moderately decreases TP.
-
-前方範囲内の敵すべてに物理中ダメージを与え、ＴＰを中ダウンさせ、行動速度を小ダウンさせる。=Deals medium P.DMG to all enemies in the frontal area, inflicts a moderate TP reduction, and slightly decreases their action speed.
-
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d+)失わせる\n範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to enemies within range.\n►Reduces enemies' TP within range by $2.\n►Lowers enemies' action speed within range for 12s.
-(shared with nea)
-
-トロピカルサンシャイン=Tropical Sunshine
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.45s\n►Deals $1 P.DMG to an enemy\n►Inflict Stun to the target for 1.5s.\n►Lowers an enemy's P.DEF by $2. for 12s.
-目の前の敵１キャラに物理中ダメージを与え、スタンさせる。さらに物理防御力を小ダウンさせる。=Inflicts moderate P.DMG to 1 enemy character in front and stuns it. In addition, the physical defense power is decreased by a small amount.
-
-サマートリック=Summer Tricks
-サマートリック+=Summer Tricks+
-浜辺のトリックシューズ=Pranker Beach Shoes
-
+##Profile##
+【物理】前衛で敵後方に花火を仕掛ける夜涼みの悪戯娘。敵の最前衛をスタンで足止めしつつ、最後衛を中心としたＵＢで狭範囲の敵を引き寄せ、ＴＰダウンで攻勢を阻む。=[Physical] A mischievous girl who sets off firecrackers behind enemy lines in frontline. She uses Stun to immobilize the enemy's vanguard and draws in enemies with her UB centered around the rearguard. Also, she employs TP reduction to impede enemy offensives.
 
 逆転のイタズラシュート！=Reversal Prank Shot!
 船の上の鬼ごっこ！=On-board Game of Tag!
 お宝はトロピカル！=Treasure is Tropical!
 線香花火に火をつけて！=Lighting the Sparklers!
 
+##UB##
+ビックリ・ファイヤーワーク=Surprised Firecracker
+前方の最も遠い敵を中心に、範囲内の敵すべてに物理大ダメージを与え、自分の目の前まで引き寄せる。=Deals large P.DMG to enemies in range, and pulls them in front of oneself.
 
+##S1##
+サマースプラッシュボム=Summer Splash Bomb
+前方範囲内の敵すべてに物理中ダメージを与え、ＴＰを中ダウンさせる。=Deals moderate P.DMG to enemies in range and moderately reduces their TP.
 
+##S2##
+トロピカルサンシャイン=Tropical Sunshine
+目の前の敵１キャラに物理中ダメージを与え、スタンさせる。さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy in front and inflicts Stun to them. Additionally, lowers an enemy's P.DEF by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.45s\n►Deals $1 P.DMG to an enemy.\n►Inflicts Stun to an enemy for 1.5s.\n►Lowers an enemy's P.DEF by $2 for 12s.
+
+##EX##
+サマートリック=Summer Tricks
+サマートリック+=Summer Tricks+
+
+##S1+##
+サマースプラッシュボム+=Summer Splash Bomb+
+前方範囲内の敵すべてに物理中ダメージを与え、ＴＰを中ダウンさせ、行動速度を小ダウンさせる。=Deals moderate P.DMG to enemies in range, moderately reduces their TP, and slightly reduces their action speed (95%).
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵のＴＰを(\d+)失わせる範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to enemies in range.\n►Reduces enemies' TP in range by $2.\n►Reduces enemies' action speed in range for 12s.
+## Same as PTAyumi and Nea skill
+
+##UE##
+浜辺のトリックシューズ=Pranker Beach Shoes
+
+##Comments##
 にいちゃん、線香花火しようよ！=Nii-chan, let's light some sparklers!
 やっぱり海水浴場は人がたくさんいるのかな～\nきっとみんな浮かれ気分だよね！\nにいちゃん、ミソギたちも思いっきり楽しんじゃおう！\n=I wonder if the beach will be crowded after all... Surely everyone will be in a festive mood! Nii-chan, let's have a blast with Misogi too!
 にいちゃん泳ぐのあんまり得意じゃないの？\nう～ん、水場を探検することもあるよね～\nよし！　イタズラの特訓と一緒に泳ぐのも特訓しよう！\n=Nii-chan, swimming isn't really your strong suit, is it? Hmm, but exploring the water can be fun too. Alright! Let's practice swimming together as part of our mischief training!

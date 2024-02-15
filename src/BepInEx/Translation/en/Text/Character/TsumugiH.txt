@@ -1,0 +1,30 @@
+##Profile##
+【物理】前衛で敵の物理攻撃を妨害する吸血鬼テーラー。挑発と物理無効バリア、さらに最も物理攻撃力が高い敵を狙った妨害スキルによって、鉄壁の防御を織り上げる。=[Physical] A vampire tailor who disrupts enemy physical attacks. With skills like Taunt, Physical Null Barrier, and interference targeting the enemy with the highest physical attack, she weaves an ironclad defense.
+
+##UB##
+ストリングカーニバル=String Carnival
+最も物理攻撃力が高い敵１キャラに物理大ダメージを与え、さらに物理攻撃力と行動速度を特大ダウンさせる。=Deals massive P.DMG to the enemy with the highest P.ATK and massively decreases their P.ATK and action speed.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 18s.\n►Reduces an enemy's action speed to 20% for 18s.
+
+##S1##
+テーラードハロウィン=Tailor Halloween
+自分に物理無効バリアを展開し、さらに物理防御力を大アップさせる。=Deploys a barrier around oneself that negates P.DMG. Massively boosts own P.DEF.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する自分の物理防御力を(\d+)アップ$"=Cast time: 0.715s\n►Deploys Barrier over oneself that negates $1 P.DMG for 12s.\n►Boosts own P.DEF by $2 for 12s.
+
+##S2##
+フィアーアテンション=Fear Attention
+敵全体を挑発し、自分のＨＰを中回復する。さらに最も物理攻撃力が高い敵１キャラを恐慌状態にする。=Taunts all enemies and recovers own HP by a large amount. Additionally, inflicts Fear to an enemy with highest P.ATK.
+敵全体を挑発し、自分のＨＰを大回復する。さらに最も物理攻撃力が高い敵１キャラを恐慌状態にする。=Taunts all enemies and recovers own HP by a large amount. Additionally, inflicts Fear to an enemy with highest P.ATK.
+r:"^敵全体を挑発する自分のＨＰを(\d+)回復敵単体を恐慌状態にする$"=Cast time: 0.715s\n►Provokes all enemies for 19s.\n►Recovers own HP by $1.\n►Inflicts Fear to an enemy for 8s.
+
+##EX##
+テラーデコレーション=Tailor Decoration
+テラーデコレーション+=Tailor Decoration+
+
+##S1+##
+テーラードハロウィン+=Tailor Halloween+
+自分に物理無効バリアを展開し、さらに物理防御力を大アップさせ、継続ＨＰ回復状態を付与する。=Deploys a barrier around oneself that negates P.DMG. Massively boosts own P.DEF, and grants a continuous HP recovery to self.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する自分の物理防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=Cast time: 0.715s\n►Deploys Barrier over oneself that negates $1 P.DMG for 12s.\n►Boosts own P.DEF by $2 for 12s.\n►Recovers own HP by $3/s for 6s.
+
+##UE##
+ハロウィンナイトドレス=Halloween Night Dress

@@ -1,17 +1,26 @@
-【物理】中衛で敵を引き寄せ陣形を崩す夕凪のテーラー。最も攻撃力の高い敵を、敵陣から自陣に引き寄せつつ束縛や行動速度ダウンを絡めたスキルで敵の自由を縛る。=[Physical]Summer's Tailor  who draws in the enemy and destroys the formation at MG. Draw the enemy with the highest attack power to your near you and bind the enemy with skills that involve binding or slowing down their action speed.
+##Profile##
+【物理】中衛で敵を引き寄せ陣形を崩す夕凪のテーラー。最も攻撃力の高い敵を、敵陣から自陣に引き寄せつつ束縛や行動速度ダウンを絡めたスキルで敵の自由を縛る。=[Physical] A summer's tailor who draws in the enemy and destroys the formation at midlines. Draws the enemy with the highest attack power to near oneself and immobilize the enemy with skills that involve binding or slowing down its action speed.
 
-カルミナサマードーム=Carmina Summerdome
-目の前の敵１キャラに物理特大ダメージを与え、さらに行動速度を大ダウンさせる。=Deals massive P.DMG to the first enemy character in front of you, and Large reduces their action speed.
+##UB##
+カルミナサマードーム=Carmina Summer Dome
+目の前の敵１キャラに物理特大ダメージを与え、さらに行動速度を大ダウンさせる。=Deals massive P.DMG to an enemy in front, and greatly reduces its action speed (50%).
 
-目の前の敵１キャラに物理中ダメージを与え、さらに束縛する。=Inflicts moderate P.DMG to the first enemy character in front and binds them.
+##S1##
+スプラッシュストリング=Splash String
+目の前の敵１キャラに物理中ダメージを与え、さらに束縛する。=Deals moderate P.DMG to an enemy in front and binds it.
 
-前方の敵の中で物理攻撃力、魔法攻撃力いずれかで最も攻撃力が高い敵１キャラに物理小ダメージを与えて束縛し、さらにツムギの目の前まで引き寄せる。=Deals small P.DMG to the enemy with the highest P.ATK or M.ATK among the enemies in front, binds it, and pulls it in front of Tsumugi.
+##S2##
+サマーバインドアクション=Summer Bind Action
+前方の敵の中で物理攻撃力、魔法攻撃力いずれかで最も攻撃力が高い敵１キャラに物理小ダメージを与えて束縛し、さらにツムギの目の前まで引き寄せる。=Deals small P.DMG to an enemy in front with the highest P/M.ATK, binds it, and pulls it in front of oneself.
 
-前方の敵の中で物理攻撃力、魔法攻撃力いずれかで最も攻撃力が高い敵１キャラに物理大ダメージを与えて束縛し、さらにＴＰを中ダウンさせる。=Deals massive P.DMG to the enemy character in front that has the highest P.ATK or M.ATK, binds it, and reduces TP moderately.
-
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n敵単体のＴＰを(\d+)失わせる$"=Deals $1 P.DMG to an enemy.\nInflict Bind to the target for 3.5s.\nReduces an enemy's TP by $2.
-
+##EX##
 テーラーイマジネーション=Tailor Imagination
 テーラーイマジネーション+=Tailor Imagination+
 
-サマーテーラーグローブ=Summer Tailer Globe
+##S1+##
+スプラッシュストリング+=Splash String+
+前方の敵の中で物理攻撃力、魔法攻撃力いずれかで最も攻撃力が高い敵１キャラに物理大ダメージを与えて束縛し、さらにＴＰを中ダウンさせる。=Deals massive P.DMG to an enemy in front with the highest P/M.ATK, binds it, and moderately reduces its TP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする敵単体のＴＰを(\d+)失わせる$"=►Deals $1 P.DMG to an enemy.\n►Inflicts Bind to an enemy for 3.5s.\n►Reduces an enemy's TP by $2.
+
+##UE##
+サマーテーラーグローブ=Summer Tailor Glove

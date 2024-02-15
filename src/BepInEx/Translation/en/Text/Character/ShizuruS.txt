@@ -1,21 +1,29 @@
-【物理】前衛で、堅牢に仲間を守る海辺のお姉ちゃん。物理防御力が高い程、効果が高まる複数のスキルを巧みに操り防御と補助役をしつつ範囲攻撃で攻撃役をもこなす。=[Physics] A vanguard, sturdy seaside Onee-chan who protects her allies. She skillfully uses multiple skills that increase in effectiveness as her physical defense increases to act as a defensive and supportive role while also performing attacks with area-of-effect damage.
+##Profile##
+【物理】前衛で、堅牢に仲間を守る海辺のお姉ちゃん。物理防御力が高い程、効果が高まる複数のスキルを巧みに操り防御と補助役をしつつ範囲攻撃で攻撃役をもこなす。=[Physics] A vanguard, sturdy seaside Big Sis who protects her allies. She skillfully uses multiple skills that increase in effectiveness as her physical defense increases to act as a defensive and supportive role while also performing attacks with area-of-effect damage.
 
-UB
+##UB##
 サマーセイクリッドスプラッシュ=Summer Sacred Splash
-前方範囲内の敵すべてに物理中ダメージを与え、さらに自分に物理吸収バリアを展開する。自分の物理防御力が高い程ダメージとバリアの吸収ダメージ量がアップする。=Deal medium P.DMG to all enemies within a forward range, and additionally deploy a physical absorption barrier on self. The higher the user's P.DEF, the greater the amount of damage and absorption capacity of the barrier.
+前方範囲内の敵すべてに物理中ダメージを与え、さらに自分に物理吸収バリアを展開する。自分の物理防御力が高い程ダメージとバリアの吸収ダメージ量がアップする。=Deals moderate P.DMG to enemies in range, and also deploys Barrier over oneself that absorbs P.DMG. The higher own P.DEF, the greater P.DMG dealt and P.DMG absorbed by Barrier.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージ分の物理吸収バリアを展開する$"=►Deals $1(+50×P.DEF) P.DMG to enemies in 500 range.\n►Deploys Barrier over oneself that absorbs $2(+4×P.DEF) P.DMG for 18s.
 
-r:"^範囲内の敵に(\d+)の物理ダメージ\n(\d+)ダメージ分の物理吸収バリアを展開する$"=►Deals $1(+50×P.DEF) P.DMG to enemies within 500 range.\n►Deploys Barrier over self that absorbs $2(+4×P.DEF) P.DMG for 18s.
+##S1##
+ブルーウェービング=Blue Waving
+前方範囲内の敵すべてに物理小ダメージを与え、自分の物理防御力を大アップさせ、さらに自分のＨＰを小回復する。自分の物理防御力が高い程ダメージとＨＰの回復量がアップする。=Deals small P.DMG to enemies in range, greatly boosts own P.DEF, and also recovers own HP by a small amount. The higher own P.DEF, the greater P.DMG dealt and HP recovery.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ自分のＨＰを(\d+)回復$=►Deals $1(+20×P.DEF) P.DMG to enemies in 500 range.\n►Boosts own P.DEF by $2 for 12s.\n►Recovers own HP by $3(+1.6×P.DEF).
 
-ブルーウェービング=Blue Weaving
-ブルーウェービング+=Blue Weaving+
-前方範囲内の敵すべてに物理中ダメージを与え、自分の物理防御力を大アップさせ、さらに自分のＨＰを小回復し、味方全体の物理攻撃力を中アップする。自分の物理防御力が高い程ダメージとＨＰの回復量と物理攻撃力の上昇量がアップする。=Deal medium P.DMG to all enemies within a forward range, greatly increase the user's P.DEF, and additionally restore a small amount of user's HP and increase the allies' P.ATK. The higher the user's P.DEF, the greater the amount of damage, HP recovery, and P.ATK increase.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理防御力を(\d+)アップ\n自分のＨＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ$"=►Deals $1(+40×P.DEF) P.DMG to enemies whitin 500 range.\n►Boosts own P.DEF by $2 for 12s.\n►Recovers own HP by $3(+3.2×P.DEF).\n►Boosts allies' P.ATK by $4(+1.6×P.DEF) for 12s.
-
+##S2##
 サン・フラワリー=Sun Flowery
-味方全体の物理攻撃力を小アップし、さらにＨＰを小回復する。自分の物理防御力が高い程、物理攻撃力の上昇量とＨＰの回復量がアップする。=Boost the allies' P.ATK and restore a small amount of HP. The higher the user's P.DEF, the greater the amount of P.ATK increase and HP recovery.
-r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体のＨＰを(\d+)回復$"=►Boosts allies' P.ATK by $1(+2.7×P.DEF) for 12s.\n►Recovers allies' HP by $2(+0.9×P.DEF).
+味方全体の物理攻撃力を小アップし、さらにＨＰを小回復する。自分の物理防御力が高い程、物理攻撃力の上昇量とＨＰの回復量がアップする。=Boosts all allies' P.ATK and recovers their HP by a small amount. The higher own P.DEF, the greater P.ATK boost and HP recovery.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Boosts all allies' P.ATK by $1(+2.7×P.DEF) for 12s.\n►Recovers all allies' HP by $2(+0.9×P.DEF).
 
-お姉ちゃんサマーサンライズEX=Onee-chan Summer Sunrise EX
-お姉ちゃんサマーサンライズEX+=Onee-chan Summer Sunrise EX+
+##EX##
+お姉ちゃんサマーサンライズEX=Big Sis's Summer Sunrise EX
+お姉ちゃんサマーサンライズEX+=Big Sis's Summer Sunrise EX+
 
+##S1+##
+ブルーウェービング+=Blue Waving+
+前方範囲内の敵すべてに物理中ダメージを与え、自分の物理防御力を大アップさせ、さらに自分のＨＰを小回復し、味方全体の物理攻撃力を中アップする。自分の物理防御力が高い程ダメージとＨＰの回復量と物理攻撃力の上昇量がアップする。=Deals moderate P.DMG to enemies in range, greatly boosts own P.DEF, recovers own HP by a small amount, and moderately boosts all allies' P.ATK. The higher own P.DEF, the greater P.DMG dealt, HP recovery, and P.ATK boost.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ自分のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ$"=►Deals $1(+40×P.DEF) P.DMG to enemies in 500 range.\n►Boosts own P.DEF by $2 for 12s.\n►Recovers own HP by $3(+3.2×P.DEF).\n►Boosts all allies' P.ATK by $4(+1.6×P.DEF) for 12s.
+
+##UE##
 スプラッシュハート=Splash Heart

@@ -1,6 +1,5 @@
-ニ=Ni
+##Profile##
 書庫に眠れる小さな賢人=A small sage sleeping in the library
-
 
 【魔法】後衛で、味方の支援に特化した象牙の塔の才媛。自身の攻撃力は低いが、物理攻撃力の高い味方を強化し更に味方全体を魔法無効バリアで護りつつ勝利へ導く。=[Magic] The scholar from the Ivory Tower who offers support from the rearguard. Though she deals little damage herself, she leads her allies to victory with powerful buffs to physical attackers and barriers that nullify incoming magical attacks.
 
@@ -13,28 +12,29 @@
 民間伝承の成り立ちと反証=How Folklore Originated and Refuted
 会食の効能とその経過観察=Efficacy of dinner and its follow-up
 
-
+##UB##
 認識と発展性の哲学=Philosophy of Perception and Potential
-
 味方全体の物理攻撃力を特大アップさせ、物理クリティカルを大アップさせる。=Massive boost to physical attack and large boost to physical critical rate of all allies.
-r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを110アップ$"=►Boosts allies' P.ATK by $1 for 18s.\n►Boosts allies' P.Crit Rate by 110 for 18s.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを110アップ$"=►Boosts allies' P.ATK by $1 for 18s.\n►Boosts allies' P.CRIT Rate by 110 for 18s.
 
+##S1##
+豪傑生成概論=Hero Generation Theorem
+最も物理攻撃力が高い味方１キャラの物理攻撃力を大アップ、物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Large boost the highest P.ATK's P.ATK, P.CRIT Rate, and P.CRIT DMG, recovers a small amount of TP, but reduces own P&M DEF of self.
 
-豪傑生成概論+=Hero Generation Theorem+
-r:"^味方単体の物理攻撃力を(\d+)アップ\n味方単体の物理クリティカルを(\d+)アップ\n味方単体の物理攻撃クリティカル時のダメージを25％アップ\n味方単体のＴＰを(\d+)回復\n自分の物理防御力を初期値の15%ダウン\n自分の魔法防御力を初期値の15%ダウン$"=Cast time:0.73s\n►Boosts the highest P.ATK’ P.ATK by $1 for 12s.\n►Boosts the highest P.ATK’ P.crit rate by $2 for 12s.\n►Boosts the highest P.ATK’ P.crit dmg by 25% for 12s.\n►Restore target's TP by $3.\n►Lowers own P/M.DEF by 15% for 12s.
-
-最も物理攻撃力が高い味方１キャラの物理攻撃力を大アップ、物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Large boost the highest P.ATK's P.ATK, P.crit rate, and P.crit dmg, recovers a small amount of TP, but reduces own P&M DEF of self.
-
-最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップ、物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Boosts the P.ATK of the ally with the highest P.ATK by a massive amount, boosts P.crit rate by a massive amount and boosts P.crit dmg by a medium amount. Additionally, slightly restores TP. Reduces the user's P.DEF and M.DEF.
-
-
+##S2##
 緩衝因子探求=A Study in Insulating Factors
-r:"^毎秒ＴＰを5回復する\n(\d+)ダメージ分の魔法無効バリアを展開する\n自分の魔法攻撃力を初期値の70%ダウン$"=Cast time: 0.57s\n►Restore allies' TP by 5/s for 10s.\n►Deploys Barrier to all allies that negates $1 M.DMG for 12s.\n►Lowers own M.ATK by 70% for 12s.
+味方全体に継続ＴＰ回復状態を付与し、魔法無効バリアを展開するが、自分の魔法攻撃力を大ダウンさせる。=Grants TP Regen to all allies and deploys a barrier that negates magical damage around them, but lowers own magical attack by a large amount.
+r:"^毎秒ＴＰを5回復する(\d+)ダメージ分の魔法無効バリアを展開する自分の魔法攻撃力を初期値の70%ダウン$"=Cast time: 0.57s\n►Recovers allies' TP by 5/s for 10s.\n►Deploys Barrier over all allies that negates $1 M.DMG for 12s.\n►Lowers own M.ATK by 70% for 12s.
 
-味方全体に継続ＴＰ回復状態を付与し、魔法無効バリアを展開するが、自分の魔法攻撃力を大ダウンさせる。=Grants TP regen to all allies and deploys a barrier that negates magical damage around them, but lowers own magical attack by a large amount.
-
-碩学の教え+=Scholastic Principle+
+##EX##
 碩学の教え=Scholastic Principle
-ペンシルアックス・レプリカ=Pencil Axe Replica
+碩学の教え+=Scholastic Principle+
 
+##S1+##
+豪傑生成概論+=Hero Generation Theorem+
+最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップ、物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Boosts the P.ATK of the ally with the highest P.ATK by a massive amount, boosts P.CRIT Rate by a massive amount and boosts P.CRIT DMG by a medium amount. Additionally, slightly restores TP. Reduces the user's P.DEF and M.DEF.
+r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを(\d+)アップ味方単体の物理攻撃クリティカル時のダメージを25％アップ味方単体のＴＰを(\d+)回復自分の物理防御力を初期値の15%ダウン自分の魔法防御力を初期値の15%ダウン$"=Cast time: 0.73s\n►Boosts the highest P.ATK' P.ATK by $1 for 12s.\n►Boosts the highest P.ATK' P.CRIT Rate by $2 for 12s.\n►Boosts the highest P.ATK' P.CRIT DMG by 25% for 12s.\n►Recovers target's TP by $3.\n►Lowers own P/M.DEF by 15% for 12s.
+
+##UE##
+ペンシルアックス・レプリカ=Pencil Axe Replica
 高機動万能靴・レプリカ=High Mobility All-Purpose Shoes Replica

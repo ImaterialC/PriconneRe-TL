@@ -4,7 +4,7 @@
 ペコリーヌ=Pecorine
 コッコロ=Kokkoro;KKR;kokoro;mama
 キャル=Karyl;Kyaru
-シェフィ=Sheffy;Sheffi
+シェフィ=Sheffy;Sheffi;Shefi
 アメス=Ameth;Ames
 サレン=Saren;mama
 クルミ=Kurumi
@@ -13,7 +13,7 @@
 シズル=Shizuru
 リノ=Rino
 ラビリスタ=Labyrista;Akira
-キョウカ=Kyoka
+キョウカ=Kyoka;Kyouka
 ミソギ=Misogi
 ミミ=Mimi
 ノゾミ=Nozomi
@@ -55,7 +55,7 @@
 ジュン=Jun
 トモ=Tomo
 マツリ=Matsuri
-クロエ=Chloe
+クロエ=Chloe;Kuroe
 チエル=Chieru
 ユニ=Yuni
 カヤ=Kaya
@@ -66,12 +66,12 @@
 ネア=Nea
 ミソラ=Misora
 カリン=Karin
-ムイミ=Muimi;Noemu
+ムイミ=Muimi;Noemu;Novem
 ジータ=Djeeta
 ビカラ=Vikala;Vikara;Vicky;Vikki;Bikki;Bicky;Bikala;Bikara
 アリサ=Arisa
 ルナ=Luna
-ヴァンピィ=Vampy
+ヴァンピィ=Vampy;Vania
 カイザーインサイト=Kaiser Insight;Mana Senri
 ネネカ=Neneka;NNK
 クリスティーナ=Christina
@@ -79,7 +79,7 @@
 プレシア=Precia
 リリ=Riri;Lili;Lily
 クローチェ=Croce;Croche;Crotch
-ライラエル=Lyrael
+ライラエル=Lyrael;Lailael;Rairael
 クルル=Kururu
 ネビア=Navi
 ヤマト=Yamato
@@ -91,9 +91,9 @@
 シオリ（マジカル）=Shiori (Magical);MShiori;Magical
 モニカ（マジカル）=Monika (Magical);MMonika;MGMonika;Magical
 トモ（マジカル）=Tomo (Magical);MTomo;MGTomo;Magical
-ウヅキ（デレマス）=Uzuki (IM@S CG);colab;IMaS CG;IM@S CG
-リン（デレマス）=Rin (IM@S CG);colab;IMaS CG;IM@S CG
-ミオ（デレマス）=Mio (IM@S CG);colab;IMaS CG;IM@S CG
+ウヅキ（デレマス）=Uzuki (IM@S CG);collab;IMaS CG;IM@S CG
+リン（デレマス）=Rin (IM@S CG);collab;IMaS CG;IM@S CG
+ミオ（デレマス）=Mio (IM@S CG);collab;IMaS CG;IM@S CG
 リン（レンジャー）=Rin (Ranger);RRin;Ranger
 マヒル（レンジャー）=Mahiru (Ranger);RMahiru;Ranger
 リノ（ワンダー）=Rino (Wonderland);WRino;Wonderland
@@ -102,7 +102,7 @@
 ヨリ（エンジェル）=Yori (Angel);AYori;Angel
 コッコロ（儀装束）=Kokkoro (Ceremonial);Kokoro (Ceremonial);KKR (Ceremonial);CKKR;CKokoro;CKokkoro;Ceremonial;mama
 ユイ（儀装束）=Yui (Ceremonial);CYui;Ceremonial
-リマ（シンデレラ）=Lima (Cinderella);CLima;Cinderella
+リマ（シンデレラ）=Lima (Cinderella);CLima;CRima;Cinderella
 マコト（シンデレラ）=Makoto (Cinderella);CMakoto;Cinderella
 マホ（シンデレラ）=Maho (Cinderella);CMaho;Cinderella
 クロエ（聖学祭）=Chloe (School Festival);SFChloe;School Festival
@@ -126,7 +126,7 @@
 シズル（ノワール）=Shizuru (Noir);NShizuru;Noir
 ミミ（リトルリリカル）=Mimi (Little Lyrical);Little Lyrical
 ミソギ（リトルリリカル）=Misogi (Little Lyrical);Little Lyrical
-キョウカ（リトルリリカル）=Kyoka (Little Lyrical);Little Lyrical
+キョウカ（リトルリリカル）=Kyoka (Little Lyrical);Kyouka (Little Lyrical);Little Lyrical
 ペコリーヌ（オーバーロード）=Pecorine (Overload);OPecorine;Overload
 キャル（オーバーロード）=Karyl (Overload);Kyaru;OKyaru;OKaryl;Overload
 ラビリスタ（オーバーロード）=Labyrista (Overload);OLabyrista;Akira;Overload
@@ -178,7 +178,7 @@
 レイ（サマー）=Rei (Summer);SRei;Summer;Swimsuit;Bikini
 ペコリーヌ（サマー）=Pecorine (Summer);SPecorine;Summer;Swimsuit;Bikini
 コッコロ（サマー）=Kokkoro (Summer);KKR (Summer);kokoro (Summer);mama (Summer);SKokkoro;SKKR;Skokoro;Smama;Summer;Swimsuit;Bikini
-キャル（サマー）=Karyl (Summer);Kyaru (Summer);SKaryl;Kyaru;Summer;Swimsuit;Bikini
+キャル（サマー）=Karyl (Summer);Kyaru (Summer);SKaryl;SKyaru;Summer;Swimsuit;Bikini
 シェフィ（サマー）=Sheffy (Summer);Sheffi (Summer);SSheffy;SSheffi;Summer;Swimsuit;Bikini
 アメス（サマー）=Ameth (Summer);Ames (Summer);SAmeth;SAmes;Summer;Swimsuit;Bikini
 サレン（サマー）=Saren (Summer);SSaren;Mama;Summer;Swimsuit;Bikini
@@ -219,7 +219,7 @@
 ミツキ（サマー）=Mitsuki (Summer);SMitsuki;Summer;Swimsuit;Bikini
 ミサト（サマー）=Misato (Summer);SMisato;Summer;Swimsuit;Bikini
 アオイ（サマー）=Aoi (Summer);SAoi;Summer;Swimsuit;Bikini
-ハツネ（サマー）=Hatsune (Summer);SHatsune;Summer;Swimsuit;Bikini
+ハツネ（サマー）=Hatsune (Summer);SHatsune;Natsune;Summer;Swimsuit;Bikini
 イオ（サマー）=Io (Summer);SIo;Summer;Swimsuit;Bikini
 スズナ（サマー）=Suzuna (Summer);SSuzuna;Summer;Swimsuit;Bikini
 ミサキ（サマー）=Misaki (Summer);SMisaki;Summer;Swimsuit;Bikini
@@ -483,7 +483,7 @@
 ミツキ（ニューイヤー）=Mitsuki (New Year);NyMitsuki;New Year;Kimono
 ミサト（ニューイヤー）=Misato (New Year);NyMisato;New Year;Kimono
 アオイ（ニューイヤー）=Aoi (New Year);NyAoi;New Year;Kimono
-ハツネ（ニューイヤー）=Hatsune (New Year);NyHatsune;New Year;Kimono
+ハツネ（ニューイヤー）=Hatsune (New Year);NyHatsune;Nyatsune;New Year;Kimono
 イオ（ニューイヤー）=Io (New Year);NyIo;New Year;Kimono
 スズナ（ニューイヤー）=Suzuna (New Year);NySuzuna;New Year;Kimono
 ミサキ（ニューイヤー）=Misaki (New Year);NyMisaki;New Year;Kimono
@@ -875,6 +875,7 @@
 ヤマト（編入生）=Yamato (Student);TYamato;Student
 フブキ（編入生）=Fubuki (Student);TFubuki;Student
 ワカナ（編入生）=Wakana (Student);TWakana;Student
+
 ユイ（アストラル）=Yui (Astral);AYui;Astral
 レイ（アストラル）=Rei (Astral);ARei;Astral
 ヒヨリ（アストラル）=Hiyori (Astral);AHiyori;Astral

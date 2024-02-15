@@ -1,20 +1,27 @@
+##Profile##
 【物理】前衛で味方のサポートを力に戦う、聖夜の令嬢。ステータスアップ効果を受けると増加する【聖夜の煌き】でスキルを大きく強化し、聖夜を彩る強烈な一撃を放つ。=[Physical] A festive lady fighting in the frontlines with the support of her allies. She can power up her skills using [Christmas Sparkles], which are obtained upon receiving status boosts. With this strength she can deliver a powerful blow that shines light upon this wonderful Christmas Day.
 
+##UB##
 ノーブルイルミネーション=Noble Illumination
-目の前の敵１キャラに物理大ダメージを与える。このスキルのダメージは、【聖夜の煌き】の数に応じて増加する。=Deals massive P.DMG to the enemy character in front. The damage of this skill increases depending on the number of [b]Christmas Sparkle[/b] effects active.
+目の前の敵１キャラに物理大ダメージを与える。このスキルのダメージは、【聖夜の煌き】の数に応じて増加する。=Deals massive P.DMG to an enemy in front. The damage of this skill increases depending on the number of [Christmas Sparkle] stacks.
 
+##S1##
 ホーリープライズ=Holy Prize
-ホーリープライズ+=Holy Prize+
-自分がステータスアップ効果を受ける度に、【聖夜の煌き】が１つ追加される。【聖夜の煌き】は最大50まで追加される。さらに自分の物理攻撃力と物理クリティカルを大アップさせ、味方全体の物理攻撃力と物理クリティカルを大アップさせる。あわせて自分のＴＰ上昇を小アップさせる。=Grants 1 [b]Christmas Sparkle[/b] each time user receives a status boost effect, up to a maximum of 50. Boosts user's P.ATK and P.CRIT by a large amount and boosts allies' P.ATK and P.CRIT by a large amount. Also slightly increases user's TP Boost.
+自分がステータスアップ効果を受ける度に、【聖夜の煌き】が１つ追加される。【聖夜の煌き】は最大25まで追加される。さらに自分の物理攻撃力と物理クリティカルを大アップさせる。あわせてＴＰ上昇を小アップさせる。=Grants 1 [Christmas Sparkle] stack to self each time user receives a status boost effect, up to a maximum of 25. Boosts own P.ATK and P.CRIT Rate by a large amount. Also slightly boosts own TP Boost.
+r:"^ステータスアップ効果を受けるたびに聖夜の煌きを付与する状態になる自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=Cast time: 0.4s\n►Gains 1 [Christmas Sparkle] per status boost.\n►Boosts own P.ATK by $1 and P.CRIT Rate by $2 for 30s.\n►Boosts own TP Boost by $5 for 30s.
 
-r:"^ステータスアップ効果を受けるたびに聖夜の煌きを付与する状態になる\n自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを(\d+)アップ\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを(\d+)アップ\n自分のＴＰ上昇を(\d+)アップ$"=Cast time:0.4s\n►add 1 [b]Christmas Sparkle[/b] per status boost\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.Crit by $2 for 180s.\n►Boosts allies' P.ATK by $3 for 180s.\n►Boosts allies' P.Crit by $4 for 180s.\n►Boosts own TP gain by $5 for 180s.
-
+##S2##
 ブリリアントスラッシュ=Brilliant Slash
-目の前の敵１キャラに物理小ダメージを与える。このスキルのダメージは、【聖夜の煌き】の数に応じて増加する。=Deals small physical damage to the first enemy in front. Damage increases based on the number of [b]Christmas Sparkle[/b].
+目の前の敵１キャラに物理小ダメージを与える。このスキルのダメージは、【聖夜の煌き】の数に応じて増加する。=Deals small P.DMG to an enemy in front. Damage increases based on the number of [Christmas Sparkle] stacks.
 
-
+##EX##
 セイント・オブリージュ=Saint Oblige
 セイント・オブリージュ+=Saint Oblige+
 
+##S1+##
+ホーリープライズ+=Holy Prize+
+自分がステータスアップ効果を受ける度に、【聖夜の煌き】が１つ追加される。【聖夜の煌き】は最大50まで追加される。さらに自分の物理攻撃力と物理クリティカルを大アップさせ、味方全体の物理攻撃力と物理クリティカルを大アップさせる。あわせて自分のＴＰ上昇を小アップさせる。=Grants 1 [Christmas Sparkle] stack to self each time user receives a status boost effect, up to a maximum of 50. Boosts own P.ATK and P.CRIT Rate by a large amount and boosts allies' P.ATK and P.CRIT Rate by a large amount. Also slightly boosts own TP Boost.
+r:"^ステータスアップ効果を受けるたびに聖夜の煌きを付与する状態になる自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=Cast time: 0.4s\n►Gains 1 [Christmas Sparkle] per status boost.\n►Boosts own P.ATK by $1 and P.CRIT Rate by $2 for 180s.\n►Boosts allies' P.ATK by $3 and P.CRIT Rate by $4 for 180s.\n►Boosts own TP Boost by $5 for 180s.
 
+##UE##
 ウィスタリアノエルドレス=Wisteria Noel Dress

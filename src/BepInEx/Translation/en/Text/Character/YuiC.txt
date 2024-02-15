@@ -1,0 +1,31 @@
+##Profile##
+【魔法】中衛で精霊術を操り味方を支える儀装の魔法士。複数の物理攻撃力の強化スキルで味方を攻撃支援しつつ強力な回復スキルで、前線を整えバトルを掌握する。=[Magic] A mage in ceremonial attire who uses spiritual techniques to support allies from midlines. With multiple P.ATK enhancement skills to supports her allies, and powerful recovery skills to prepare the front lines, she takes control of the battle.
+
+##UB##
+スピリットプレシャス=Spirit Precious
+味方全体のＨＰを中回復し、物理攻撃力を大アップさせる。さらに一番前の味方１キャラに継続ＨＰ回復状態を付与する。=Recovers all allies' HP by a moderate amount, and greatly boosts their P.ATK. Additionally, grants a continuous HP recovery to the frontmost ally.
+r:"^味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers all allies' HP by $1.\n►Boosts all allies' P.ATK by $2 for 18s.\n►Recovers an ally's HP by $3/s for 6s.
+
+##S1##
+スピリチュアルブレイブ=Spiritual Brave
+最も物理攻撃力が高い味方１キャラを中心とした範囲内の味方すべての物理攻撃力を大アップさせ、さらに物理クリティカルを中アップさせる。=Greatly boosts allies' P.ATK in 50 range, centering on an ally with the highest P.ATK, also moderately boosts their P.CRIT Rate.
+
+##S2##
+ギフトスピリット=Gift Spirit
+最も物理攻撃力が高い味方１キャラを中心とした範囲内の味方すべてのＴＰを小回復させる。=Slightly recovers allies' TP in range, centering on an ally with the highest P.ATK.
+r:"^範囲内の味方のＴＰを(\d+)回復$"=►Recovers allies' TP in range by $1.
+## 260lvl
+最も物理攻撃力が高い味方１キャラを中心とした範囲内の味方すべてのＴＰを小回復させ、物理攻撃力を小アップさせる。=Slightly recovers allies' TP in range, centering on an ally with the highest P.ATK, also boosts their P.ATK by a small amount.
+r:"^範囲内の味方のＴＰを(\d+)回復範囲内の味方の物理攻撃力を(\d+)アップ$"=►Recovers allies' TP in 50 range by $1.\n►Boosts allies' P.ATK in 50 range by $2 for 12s.
+
+##EX##
+スピリットグレイス=Spirit Grace
+スピリットグレイス+=Spirit Grace+
+
+##S1+##
+スピリチュアルブレイブ+=Spiritual Brave+
+最も物理攻撃力が高い味方１キャラを中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップさせ、さらにＴＰ上昇を小アップさせる。=Massively boosts allies' P.ATK in range, centering on an ally with the highest P.ATK, also greatly boosts their P.CRIT Rate and slightly boosts TP Boost.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方のＴＰ上昇を(\d+)アップ$"=►Boosts allies' P.ATK in 50 range by $1 for 12s.\n►Boosts allies' P.CRIT Rate in 50 range by $2 for 12s.\n►Boosts allies' TP Boost in 50 range by $3 for 12s.
+
+##UE##
+大精霊の儀仗=Great Spirit Guard

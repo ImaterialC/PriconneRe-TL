@@ -1,0 +1,28 @@
+##Profile##
+【物理】中衛で敵を妨害する、作業服姿のぼっちエルフ。友情の絆で結ばれた『マイフレンドくん』と放つＵＢは、敵の動きを阻み、物理防御力を劇的に下げる。=[Physical] A lonely elf in work clothes who obstructs enemies in the midlines. The UB releases "My Friend-kun", who is bonded by friendship, blocks the enemy's movement and dramatically lowers their physical defense.
+
+##UB##
+フレンドリーコンボショット=Friendly Combo Shot
+前方の最も遠い敵を中心に、範囲内の敵すべてを行動する度にダメージを与える毒状態にし、行動速度を小ダウンさせ、さらに物理防御力を特大ダウンさせるフィールドを展開する。=Deploys a field around a farthest enemy that inflicts Poison to enemies in range and deals damage every time they take an action, slightly reduces their action speed, and greatly lowers their P.DEF.
+r:"^行動する度に(\d+)ダメージを与える毒状態にするフィールドを展開する敵の行動速度を低下させるフィールドを展開するフィールド内の敵の物理防御力(\d+)ダウン$"=►Deploys a 250 radius field around a farthest enemy that:\n►Inflicts Poison to enemies in range that deals $1/per enemy action for 18s.\n►Reduces enemies' action speed in range to 80% for 18s.\n►Lowers enemies' P.DEF in range by $2 for 18s.
+
+##S1##
+ポイゾナスバレット=Poisonous Bullet
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理小ダメージを与え、毒状態にし、さらに物理防御力を小ダウンさせる。=Deals small P.DMG to enemies in range, inflicts Poison to them, and also lowers their P.DEF by a small amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える毒状態にする範囲内の敵の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to enemies in 300 range.\n►Inflicts Poison to enemies in 300 range that deals $2/s for 24s.\n►Lowers enemies' P.DEF in 300 range by $3 for 12s.
+
+##S2##
+スタンバレット=Stun Bullet
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理小ダメージを与え、さらに麻痺状態にする。=Deals small P.DMG to enemies in range, and also inflicts Paralysis to them.
+
+##EX##
+ぼっち精神=Lonely Spirit
+ぼっち精神+=Lonely Spirit+
+
+##S1+##
+ポイゾナスバレット+=Poisonous Bullet+
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理小ダメージを与え、毒状態にし、さらに物理防御力を小ダウンさせる。さらに対象が毒状態の場合、物理中ダメージを与える。=Deals small P.DMG to enemies in range, inflicts Poison to them, and also lowers their P.DEF by a small amount. Additionally, if an enemy is poisoned, deals moderate P.DMG.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える毒状態にする範囲内の敵の物理防御力を(\d+)ダウン敵が毒状態の時、範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies in 300 range.\n►Inflicts Poison to enemies in 300 range that deals $2/s for 24s.\n►Lowers enemies' P.DEF in 300 range by $3 for 12s.\n►If enemies in range are poisoned, deals $4 P.DMG to enemies in 300 range.
+
+##UE##
+トイスリングショット=Toy Slingshot

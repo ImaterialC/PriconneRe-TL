@@ -1,0 +1,26 @@
+##Profile##
+【物理】中衛で、敵をまとめてなぎ倒す、真夏の南国娘。吹き飛ばし効果を持つスキルで敵をまとめ、攻撃対象が多い程、威力が増すユニオンバーストで敵をなぎ倒す。=[Physical] A summertime tropical girl who mows down crowds from the midguard. Her ability to cause knockback and a Union Burst that deals more damage the more target there are makes crowd control her forte.
+
+##UB##
+琉球犬アラウンドシュート=Ryukyu-Ken Spiral Shot
+前方範囲内の敵すべてに物理中ダメージを与える。このスキルの攻撃対象の数が多いほどダメージが増加する。=Deals moderate P.DMG to all enemies in range. Damage increases based on the number of targets.
+
+##S1##
+円心裂波=Cyclone Smash
+前方範囲内の敵すべてに物理小ダメージを与え、さらに目の前の敵１キャラを小さく吹き飛ばす。=Deals small P.DMG to all enemies in range and knockbacks slightly an enemy directly in front.
+
+##S2##
+琉球犬唄=Ryukyu Calypso
+自身の物理攻撃力を大アップさせ、さらに自分を中心とした範囲内の味方の行動速度を中アップさせる。=Large boost to own physical attack and moderate boost to the action speed of all allies in range.
+r:"^自分の物理攻撃力を(\d+)アップ範囲内の味方の行動速度アップ$"=►Boosts own P.ATK by $1.\n►Boosts allies' action speed in range to 135% for 12s.
+
+##EX##
+琉球犬式蹴脚術=Ryukyu Kickboxing
+琉球犬式蹴脚術+=Ryukyu Kickboxing+
+
+##S1+##
+円心裂波+=Cyclone Smash+
+前方範囲内の敵すべてに物理中ダメージを与えてスタンさせ、さらに目の前の敵１キャラを大きく吹き飛ばす。=Deals moderate P.DMG to all enemies in range and Stuns them, and knockbacks an enemy directly in front.
+
+##UE##
+琉球犬式・神舞之籠手=Ryukyu-Ken Style: Divine Dance Gauntlet

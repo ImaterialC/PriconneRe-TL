@@ -1,4 +1,5 @@
-【魔法】後衛で、攻防双方で活躍する晴れ着姿の猫娘。与ダメージに応じて魔法攻撃力がアップするユニオンバーストで、高いベースの攻撃力がさらに強大になる。=[Magic] A cat girl in traditional finery who provides both offense and defense from RG. Her UB boost her M.ATK based on the damage it deals, increasing her already formidable offensive power.
+##Profile##
+【魔法】後衛で、攻防双方で活躍する晴れ着姿の猫娘。与ダメージに応じて魔法攻撃力がアップするユニオンバーストで、高いベースの攻撃力がさらに強大になる。=[Magic] A catgirl in traditional finery who provides both offense and defense from the rearguard. Her Union Burst boosts her magic attack based on the damage it deals, increasing her already formidable offensive power.
 
 宛先不明の年賀状=Recipient Unknown
 ネコミミ娘捕物帳=Memoirs of a Cat-Eared Detective
@@ -6,15 +7,26 @@
 やさしさに触れるとき=A Touch of Kindness
 優しさに触れるとき=A Touch of Kindness
 
+##UB##
 ニューイヤーバースト=New Year Burst
-デザイアベール+=Desire Veil+
-デザイアベール=Desire Veil
 目の前の敵１キャラに魔法特大ダメージを与え、さらに魔法攻撃力を中アップさせる。このスキルで与えたダメージ量に応じて、攻撃力の上昇量がアップする。=Deals massive M.DMG to an enemy directly in front and moderately boosts own M.ATK. M.ATK boost increases based on the damage dealt by this skill.
 
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
+##S1##
+シャドウバレット=Shadow Bullet
+目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
 
-r:"^味方全体の魔法攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理無効バリアを展開する$"=Boosts allies' M.ATK by $1 for 12s.\nDeploys Barrier over all allies that negates $2 (+8%M.ATK) P.DMG for 12s.
+##S2##
+ウィッシングフィールド=Wishing Field
+味方全体の魔法攻撃力を中アップさせ、さらに物理無効バリアを展開する。自分の魔法攻撃力が高い程、バリアの無効ダメージ量がアップする。=Moderate boost to allies' M.ATK, and deploys a barrier that negates P.DMG around them. Damage negated by barrier increases based on own M.ATK.
+r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=►Boosts allies' M.ATK by $1 for 12s.\n►Deploys Barrier over all allies that negates $2 (+0.08×M.ATK) P.DMG for 12s.
 
-味方全体の魔法攻撃力を中アップさせ、さらに物理無効バリアを展開する。自分の魔法攻撃力が高い程、バリアの無効ダメージ量がアップする。=Moderate boost to allies' M.ATK, and deploys a barrier that negates P.DMG around them, Damage negated by barrier increases based on own M.ATK
+##EX##
+デザイアベール=Veil of Desire
+デザイアベール+=Veil of Desire+
 
+##S1+##
+シャドウバレット+=Shadow Bullet+
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与える。=Deals massive M.DMG to all enemies in range of enemy directly in front.
+
+##UE##
 賀正猫耳の羽子板=Gasho Cat's Ear Racket

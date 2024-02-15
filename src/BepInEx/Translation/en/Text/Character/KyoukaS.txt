@@ -1,30 +1,34 @@
+##Profile##
 【魔法】後衛で、難しい魔法の練習に励む海辺の優等生。ランダムな敵に当たるスキルの威力は攻撃の際に付与する【バタフライシール】で増幅し、防御力もダウンさせる。=[Magic] A seaside honor student who works hard to practice difficult magic as a RG. The power of skills that hit random enemies is amplified by the [Butterfly Seal] that is given when attacking, and the M.DEF is also reduced.
 
-アクアウィング=Aqua Wing
-アクアクレスト=Aqua Crest
-サマーブースト=Summer Boost
-アクアクレスト+=Aqua Crest+
-サマーメモリーロッド=Summer Memory Rod
+##UB##
 サマーアクアフロック=Summer Aqua Flock
-このスキルのスキルレベルは「サマーアクア\nフロック」と連動しています=This skill’s level is linked to "Summer Aqua Flock"
-ランダムな敵キャラに、単体魔法中ダメージを計３回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Inflicts M.DMG to a random enemy character 3 times. The damage of this skill boost according to the number of [Butterfly Seals] on the target.
+ランダムな敵キャラに、単体魔法中ダメージを計３回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Deals moderate M.DMG to a random enemy 3 times. The M.DMG increases according to number of [Butterfly Seal] on enemy.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n►Deals $3 M.DMG to an enemy.
 
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n►Deals $3 M.DMG to an enemy.
+##S1##
+アクアクレスト=Aqua Crest
+ランダムな敵キャラに、単体魔法小ダメージと魔法防御力小ダウンを計２回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Deals small M.DMG to an enemy and slightly lowers its M.DEF twice. The M.DMG increases according to number of [Butterfly Seal] on enemy.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.59s\n►Deals $1 M.DMG to a random enemy.\n►Deals $2 M.DMG to a random.\n►Lowers a random enemy's M.DEF by $3 for 12s.\n►Lowers a random enemy's M.DEF by $4 for 12s.
 
-ランダムな敵キャラに、単体魔法小ダメージと魔法防御力小ダウンを計２回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Deals a small amount of single-target M.DMG and a small decrease in M.DEF twice on random enemy characters. The damage of this skill boost according to the number of [Butterfly Seals] on the target. Additionally, greatly boosts her own M.ATK.
+##S2##
+アクアウィング=Aqua Wing
+ランダムな敵キャラに、単体魔法小ダメージを計３回与える。このスキルのダメージは対象の【バタフライ\nシール】の数に応じて増加する。=Deals small M.DMG to a random enemy 3 times. The M.DMG increases according to number of [Butterfly Seal] on enemy.
 
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.59s\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n►Lowers an enemy’s M.DEF by $3 for 12s.\n►Lowers an enemy’s M.DEF by $4 for 12s.
+##SP1##
+サマーブースト=Summer Boost
+このスキルのスキルレベルは「サマーアクア\nフロック」と連動しています=This skill's level is linked to "Summer Aqua Flock"
+自分の魔法攻撃力を大アップさせ、【バタフライシール】を敵へ付与できる状態になる。攻撃が敵に当たるたび【バタフライシール】を１つ付与する。【バタフライシール】は最大30まで追加される。=Greatly boosts own M.ATK. Whenever one of Kyouka's attacks hit an enemy, that enemy gains 1 [Butterfly Seal] stack, up to a maximum of 30.
+自分の魔法攻撃力を大アップさせ、敵全体を、キョウカ（サマー）の攻撃が当たるたびに、【バタフライシール】が１つ付与されるようにする。【バタフライシール】は最大30まで追加される。=Greatly boosts own M.ATK. Whenever one of Kyouka's attacks hit an enemy, that enemy gains 1 [Butterfly Seal] stack, up to a maximum of 30.
 
-ランダムな敵キャラに、単体魔法小ダメージと魔法防御力小ダウンを計２回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。さらに自分の魔法攻撃力を大アップさせる。=Deals a single-target M.DMG and a small decrease in M.DEF twice on random enemy characters. The damage of this skill boost according to the number of [Butterfly Seals] on the target. Additionally, greatly boosts her own M.ATK.
-
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン\n自分の魔法攻撃力を(\d+)アップ$"=Cast time: 0.59s\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n►Lowers an enemy’s M.DEF by $3 for 12s.\n►Lowers an enemy’s M.DEF by $4 for 12s.\n►Boosts own M.ATK by $5 for 90s.
-
-ランダムな敵キャラに、単体魔法小ダメージを計３回与える。このスキルのダメージは対象の【バタフライ\nシール】の数に応じて増加する。=Deals small M.DMG to a random enemy character 3 times in total. The damage of this skill boost according to the number of [Butterfly Seals] on the target.
-
+##EX##
 サマーリトルブレイブ=Summer Little Brave
 サマーリトルブレイブ+=Summer Little Brave+
 
-自分の魔法攻撃力を大アップさせ、敵全体を、キョウカ（サマー）の攻撃が当たるたびに、【バタフライシール】が１つ付与されるようにする。【バタフライシール】は最大30まで追加される。=Boosts own M.ATK and gains the ability to bestow "Butterfly Seal" on enemies. Each time her attacks hit an enemy, she bestows 1 "Butterfly Seal." "Butterfly Seal" can be stacked up to a maximum of 30.
+##S1+##
+アクアクレスト+=Aqua Crest+
+ランダムな敵キャラに、単体魔法小ダメージと魔法防御力小ダウンを計２回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。さらに自分の魔法攻撃力を大アップさせる。=Deals small M.DMG to an enemy and slightly lowers its M.DEF twice. The M.DMG increases according to number of [Butterfly Seal] on enemy. Additionally, greatly boosts own M.ATK.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ$"=Cast time: 0.59s\n►Deals $1 M.DMG to a random enemy.\n►Deals $2 M.DMG to a random enemy.\n►Lowers a random enemy's M.DEF by $3 for 12s.\n►Lowers a random enemy's M.DEF by $4 for 12s.\n►Boosts own M.ATK by $5 for 180s.
 
-
-自分の魔法攻撃力を大アップさせ、【バタフライシール】を敵へ付与できる状態になる。攻撃が敵に当たるたび【バタフライシール】を１つ付与する。【バタフライシール】は最大30まで追加される。=Greatly boosts own M.ATK and gains the ability to bestow "Butterfly Seal" on enemies. Each time her attacks hit an enemy, she bestows 1 "Butterfly Seal." "Butterfly Seal" can be stacked up to a maximum of 30.
+##UE##
+サマーメモリーロッド=Summer Memory Rod

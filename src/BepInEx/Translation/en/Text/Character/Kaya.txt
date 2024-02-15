@@ -1,2 +1,34 @@
-
+##Profile##
 拳で語る喧嘩屋ドラゴン少女=A brawler dragon girl who speaks with her fist
+
+【物理】前衛で、敵を殴り倒す喧嘩屋ドラゴン族。スキルで自身の物理攻撃力を高め、全身全霊を懸け放つ初弾のユニオンバーストは、超大な破壊力を誇る。=[Physical] A dragongirl brawler who overpowers enemies with brute force from the vanguard. She boosts her own physical attack power with her skills and packs all the strength she can muster into a single devastating Union Burst.
+
+##UB##
+ドラゴンズエンドフィスト=Dragon's End Fist
+目の前の敵１キャラに物理特大ダメージを与える。バトル開始後、初弾のユニオンバーストはダメージ量が大幅アップ。=Deals massive P.DMG to an enemy directly in front. Damage greatly boosted the first time this Union Burst is used in a battle.
+r:"^敵単体に(\d+)の物理ダメージ初使用時、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n\nFor the 1st UB:\n►Deals $2 P.DMG to an enemy.
+
+##S1##
+ドラゴニックスマッシュ=Draconic Smash
+目の前の敵１キャラに物理中ダメージを与える。=Deals moderate P.DMG to an enemy directly in front.
+
+##S2##
+ドラゴライズスタンス=Dragolyzer Stance
+自分の物理攻撃力と物理クリティカルを大アップさせる。=Large boost to own P.ATK and P.CRIT Rate.
+
+##EX##
+ブレイズアップドラゴン=Blazing Dragon
+ブレイズアップドラゴン+=Blazing Dragon+
+
+##UB+##
+アルティメイタムブラスト=Ultimate Tam Blast
+自分の物理攻撃力を大アップし、目の前の最大２キャラまでの敵に物理特大ダメージを与える。バトル開始後、初弾のユニオンバーストはダメージ量が大幅アップし、物理防御力を一定割合無視する。=Massive boost to own P.ATK, deals massive P.DMG to up to the 2 nearest enemies. When battle begins, 1st UB deals massive P.DMG to up to the 2 nearest enemies, ignoring P.DEF by certain percentage.
+r:"^自分の物理攻撃力を(\d+)アップ１番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体に(\d+)の物理ダメージ初使用時、１番目に近い敵単体に物理防御力を５%無視する(\d+)の物理ダメージ初使用時、２番目に近い敵単体に物理防御力を５%無視する(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1.\n\nFor the 1st UB:\n►Deals $4 P.DMG to the 1st and 2nd nearest enemy, ignoring 5% of enemy's P.DEF.\n\nFor the 2nd UB onwards:\n►Deals $2 P.DMG to the 1st and 2nd nearest enemy.
+
+##S1+##
+ドラゴニックスマッシュ+=Draconic Smash+
+目の前の敵１キャラに物理中ダメージを与える。バトル開始後、初弾のこのスキルはダメージ量が大幅アップし、さらに敵の物理防御力を小ダウン、自分の物理攻撃力を特大アップさせる。=Deals moderate P.DMG to an enemy. When battle begins, 1st skill usage deals large P.DMG to an enemy, slightly lowers an enemy's P.DEF and boosts own P.ATK by a large amount.
+r:"^敵単体に(\d+)の物理ダメージ初使用時、敵単体に(\d+)の物理ダメージ初使用時、敵単体の物理防御力を(\d+)ダウン初使用時、自分の物理攻撃力を(\d+)アップ$"=For the 1st skill usage:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3.\n►Boosts own P.ATK by $4.\n\nFor the 2nd skill usage onwards:\n►Deals $1 P.DMG to an enemy.
+
+##UE##
+ドラゴンズフィスト=Dragon's Fist

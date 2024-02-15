@@ -1,0 +1,23 @@
+##Profile##
+【物理】中衛の、攻撃に特化した、ぐるぐるうさぎっこ。行動頻度は少ないが、高威力の範囲攻撃を放ち、味方全体の物理攻撃力を大きく高めるスキルも効果抜群。=[Physical] A bandagey bunny who fights from the midguard and specializes in offensive output. Though her attacks aren't all that frequent, they hit hard over a wide area, and she can greatly boost the physical attack of all her allies to boot.
+
+##UB##
+ぐるぐるうさぎさんスタンプ=Bunny Mummy Stomp
+
+##S1##
+ぐるぐるアタック=Bandagey Bash
+
+##S2##
+ぐるぐるうさぎさんエール=Bunny Mummy Happy Dance
+味方全体の物理攻撃力を特大アップさせるが、味方全体の物理防御力と魔法防御力を小ダウンさせる。=Massive boost to all allies' P.ATK, in exchange for lowering their P.DEF and M.DEF by a small amount.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理防御力を初期値の(\d+)%ダウン味方全体の魔法防御力を初期値の(\d+)%ダウン$"=►Boosts allies' P.ATK by $1 for 18s.\n►Lowers allies' P.DEF by $2% for 18s.\n►Lowers allies' M.DEF by $3% for 18s.
+
+##EX##
+ぐるぐるうさぎさんパワー=Mummy Bunny Power
+ぐるぐるうさぎさんパワー+=Mummy Bunny Power+
+
+##S1+##
+ぐるぐるアタック+=Bandagey Bash+
+
+##UE##
+ぐるぐるうさぎさんブレード=Mummy Bunny Blade

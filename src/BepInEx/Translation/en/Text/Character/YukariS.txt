@@ -1,22 +1,35 @@
+##Profile##
 【物理】前衛で、夏の麦しゅわを嗜むビーチの元聖騎士。敵単体にダメージを与えながら、周囲の味方への魔法無効バリア付与と魔防アップで守りを固めて勝利の波に乗る。=[Physical] A former paladin drinking sparkling wheat juice in the summer frontlines. She deals single target damage, and protects nearby allies with an anti-magic barrier and buffing their magic defense. With these skills, she rides the wave of victory!
 
---UB--
+##UB##
 サント・ミ・チェラーダ=Saint Michelada
-自分の物理攻撃力を大アップし、目の前の敵１キャラに物理特大ダメージを与える。さらに自分のＨＰを中回復し、自分を中心とした範囲内の味方すべてに魔法無効バリアを展開する。=Greatly boosts her own P.ATK and deals massive P.DMG to the enemy character in front. Additionally, moderately recovers her own HP and deploys magic nullification barriers to all allies within her range, centered around herself.
-r:"^自分の物理攻撃力を(\d+)アップ\n敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)回復\n(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts own P.ATK by $1 for 18s.\n►Deals $2 P.DMG to an enemy.\n►Recovers own HP by $3.\n►Deploys Barrier over all allies that negates $4 M.DMG for 18s.
+自分の物理攻撃力を大アップし、目の前の敵１キャラに物理特大ダメージを与える。さらに自分のＨＰを中回復し、自分を中心とした範囲内の味方すべてに魔法無効バリアを展開する。=Greatly boosts own P.ATK and deals massive P.DMG to an enemy in front. Additionally, moderately recovers own HP and deploys Barrier over allies in range that negates M.DMG.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts own P.ATK by $1 for 18s.\n►Deals $2 P.DMG to an enemy.\n►Recovers own HP by $3.\n►Deploys Barrier over allies in 350 range that negates $4 M.DMG for 18s.
 
---S1--
+##S1##
 サマーディライト=Summer Delight
-サマーディライト+=Summer Delight+
-自分を中心とした範囲内の味方すべての魔法防御力を中アップし、自分のＴＰを小回復する。=Moderately boosts the allies' M.DEF within her range, centered around herself, and slightly recovers her own TP.
-r:"^範囲内の味方の魔法防御力を(\d+)アップ\n自分のＴＰを100回復$"=Cast time: 1.05s.\n►Boosts allies' M.DEF within 350 range by $1 for 12s.\n►Recovers own TP by 100.
+自分を中心とした範囲内の味方すべての魔法防御力を中アップし、自分のＴＰを小回復する。=Moderately boosts allies' M.DEF in range, and slightly recovers own TP.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ自分のＴＰを100回復$"=Cast time: 1.05s.\n►Boosts allies' M.DEF in 350 range by $1 for 12s.\n►Recovers own TP by 100.
 
---S2--
-シャンディガフ=Shandygaff
-目の前の敵１キャラに物理大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせる。=Deals large P.DMG to the enemy character in front and greatly boosts the allies' P.ATK within her range, centered around herself.
-r:"^敵単体に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.795s.\n►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK within 350 range by $2 for 12s.
+##S2##
+シャンディガフ=Shandy Gaff
+目の前の敵１キャラに物理大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせる。=Deals large P.DMG to an enemy in front and greatly boosts allies' P.ATK in range.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.795s.\n►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK in 350 range by $2 for 12s.
 
---EX--
-サマー・パナシェ=Summer Panache
-サマー・パナシェ+=Summer Panache+
+##EX##
+サマー・パナシェ=Summer Panaché
+サマー・パナシェ+=Summer Panaché+
 
+##Comments##
+ふう、暑いわね…\n熱中症には気を付けないと\n喉がかわいたらすぐに言ってね？\n麦しゅわ以外も用意してるわよ♪=*Sigh* It's so hot... If you're thirsty, tell me right away so you don't get heatstroke, okay? I've got everything you need than just barley soda♪
+夏の海辺の仕事なら水着が効率的\nってみんなが言ってたけど\nもしかして…うちのギルドだけの\n常識だったんじゃ…=Everyone said swimsuits are more efficient when it comes to beach work in the summer, but maybe... maybe it was just common sense only in my guild...
+聖騎士っぽい水着、って\n注文したんだけど…\nどの辺がそれっぽいのかしら？\n…もしかして、色？=I ordered a Holy Knight-esque swimsuit... I wonder what part of it looks like that? Could it be the color?
+キミに見られるなら、\nもう少しおとなしいデザインの\n水着がよかったかも…\nう、ううん…なんでもないわ=If you were going to see it, I might have preferred a slightly more subdued design... N-No... It's nothing.
+この水着、どう…かな？\n少しは夏っぽい格好してたほうが\nキミも涼しく感じるかな、なんて\n思ったんだけど…=What do you think of this swimsuit? I thought it'd be cooler if I wore something a little summery, but...
+せっかくの海なんだもの\nタマキさんとミフユさんに\n負けないくらい\n楽しんじゃいましょ♪=Since we're at the beach, let's have so much fun that we won't lose to Tamaki-san and Mifuyu-san♪
+暑いときはすっきりした\nセゾン系もいいけど…\n私はボディがしっかりしてる\nアベイ系が好きだわ♪=When it's hot, the refreshing Saizon drink is nice, but... I also like the Abbay drink with a solid texture♪
+普段忙しければ忙しいほど\n遊べるときにしっかりと遊んで\n日常とメリハリをつけるの\n社会人からのアドバイスよ♪=The busier you are, the more you should play when you can to keep your daily life in balance. That's some advice from a working adult♪
+青い海！　白い泡！\nそして、キミ…！\n必要なものが全部あるんだもの\nふふっ、ここはまるで天国ね=Blue sea! White foam! And you...! I have everything I need! Hehehe, this is like heaven.
+せっかくのバカンスが\nキミと二人きりじゃないのは\nちょっと残念だけど…\nそれはまた今度、ね♪=It's a bit of a shame that my vacation isn't just alone with you, but... I'll save that for another time♪
+お誕生日おめでとう♪\n急いで来ちゃったから\nこんな格好でごめんね？\n少しでも早くお祝いしたかったの=Happy Birthday♪ I came in a hurry, so I'm sorry I dressed like this, okay? I wanted to celebrate as soon as possible.
+ハッピーバースデー、キーミッ♪\nさあ、めでたい日なんだから\n盛大にお祝いしなくちゃ\nはい、カンパーイ♪=Happy Birthday, dear♪ Now, it's a happy day, so we've gotta celebrate it with all our might! Here we go! Cheers!

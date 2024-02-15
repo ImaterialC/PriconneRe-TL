@@ -1,0 +1,26 @@
+##Profile##
+【物理】後衛で、攻撃と支援を担う聖夜のアーチャー。物理攻撃力と物理クリティカルアップスキルで周囲を強化し、クリティカルで威力が増大するＵＢで敵を粉砕する。=[Physical] A Christmas archer who is in charge of offense and support in the rearguard. She uses her physical attack and physical critical boost skills to strengthen her allies, then crushes enemies with her critical and powerful UB.
+
+##UB##
+自分の物理クリティカルを大アップし、前方範囲内の敵すべてに物理大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Greatly boosts own P.CRIT Rate and deals large P.DMG to enemies in range. If this skill hits a critical hit, the damage will be tripled.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 to enemies in range.\n►Boosts own P.CRIT Rate by $2 for 180s.
+
+##S1##
+ブレッシングリース=Blessing Wreath
+自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを中アップする。=Moderately boosts allies' P.ATK and P.CRIT Rate in range around oneself.
+
+##S2##
+ジングルアロー=Jingle Arrow
+前方範囲内の敵すべてに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。範囲内の敵の数に応じて、防御力の減少量が最大４倍までアップする。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals small P.DMG to enemies in range, and also lowers their P.DEF by a small amount. Depending on the number of enemies in range, the amount of lowered P.DEF will increase up to 4 times. If this skill hits a critical hit, the damage will be tripled.
+
+##EX##
+クリスマスアプローチ=Christmas Approach
+クリスマスアプローチ+=Christmas Approach+
+
+##S1+##
+ブレッシングリース+=Blessing Wreath+
+自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開し、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、物理クリティカルを中アップする。=Deploys a field that slightly recovers allies' HP in range of oneself. Greatly boosts allies' P.ATK in range, and boosts their P.CRIT Rate by a moderate amount.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを70アップ毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Boosts allies' P.ATK in 150 range by $1 for 180s.\n►Boosts allies' P.CRIT Rate in 150 range by 70 for 180s.\n►Deploys a 260 radius field that recovers allies' HP by $3/s for 8.5s.
+
+##UE##
+ノエルブレッシングボウ=Noel Blessing Bow

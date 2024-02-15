@@ -1,37 +1,42 @@
-Profileイオ
-オ=Io
-【魔法】後衛で、敵全体を誘惑するセクシー先生。\n敵のＴＰを奪うスキルでユニオンバースト発動を遅らせ、\n誘惑のユニオンバーストを放ち、戦場を大混乱に陥れる。=[Magic] A sexy teacher who entices all enemies from the rearguard. She delays enemy UBs by draining their TP with her skill before unleashing her UB which charms enemies, and causes chaos on the battlefield.
+##Profile##
+【魔法】後衛で、敵全体を誘惑するセクシー先生。\n敵のＴＰを奪うスキルでユニオンバースト発動を遅らせ、\n誘惑のユニオンバーストを放ち、戦場を大混乱に陥れる。=[Magic] A sexy teacher that bewitches enemy parties from the rearguard. Steals foes' TP to delay their Union Bursts while also throwing the enemy into chaos with her own charming Union Burst.
 
 恋愛小説、恋愛舞台、恋愛漫画の鑑賞=Romance novels, romance plays, and romance comics
 多くの男性を魅了する無垢な女教師=A pure-hearted teacher who\ncharms the hearts of men
-Skills
-UB
+
+##UB##
 ハートラブストーム=Lovely Heart Storm
 敵全体に魔法小ダメージを与え、さらに誘惑状態にする。=Deals small M.DMG and inflicts Charm to all enemies.
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体を誘惑する$"=►Deals $1 M.DMG to all enemies.\n►Inflicts charm to all enemies for 4s.
-S1
+r:"^敵全体に(\d+)の魔法ダメージ敵全体を誘惑する$"=►Deals $1 M.DMG to all enemies.\n►Inflicts Charm to all enemies for 4s.
+
+##S1##
 テイルウィップ=Tail Whip
-テイルウィップ+=Tail Whip+
 前から２番目の敵１キャラを中心とした範囲内の敵すべてに魔法小ダメージを与える。=Deals small M.DMG to all enemies in range centered on the second enemy character from the front..
-S2
+
+##S2##
 ソウルドレイン=Soul Drain
 ランダムな敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Reduces the TP of one random enemy by a small amount while also recovering own TP by a small amount.
-r:"^敵単体のＴＰを(\d+)失わせる\n自分のＴＰを(\d+)回復$"=►Reduces an enemy's TP by $1.\n►Recovers own TP by $2.
-ex
+r:"^敵単体のＴＰを(\d+)失わせる自分のＴＰを(\d+)回復$"=►Reduces an enemy's TP by $1.\n►Recovers own TP by $2.
+## 260lvl
+ランダムな敵１キャラのＴＰを小ダ\nウンさせ、物理攻撃力と魔法攻撃力\nを小ダウンさせる。さらに自分のＴ\nＰを小回復する。=Reduces the TP, P.ATK and M.ATK of one random enemy by a small amount while also recovering own TP by a small amount.
+r:"^敵単体のＴＰを(\d+)失わせる敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン自分のＴＰを(\d+)回復$"=Cast time: 1.33s\n►Reduces an enemy's TP by $1.\n►Lowers an enemy's P.ATK by $2.\n►Lowers an enemy's M.ATK by $3.\n►Recovers own TP by $4.
+
+##EX##
 スウィートラブリーハート=Sweet, Loving Heart
-Skills+
-UB
-ハートラブサイクロン=Heart Love Cyclone
-Deals moderate M.DMG and inflicts Charm to all enemies.
-敵全体に魔法中ダメージを与え、ＴＰを小ダウンさせ、ＴＰ上昇を小ダウンさせ、さらに誘惑状態にする。=Deals moderate M.DMG, reduce enemies TP by small amount, reduce enemies TP boost by small amount and inflicts Charm to all enemies.
-
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体のＴＰを(\d+)失わせる\n敵全体のＴＰ上昇を(\d+)ダウン\n敵全体を誘惑する$"=►Deals $1 M.DMG to all enemies.\n►Inflicts charm to all enemies for 5s.\n►Reduces enemies TP by $2.\n►Reduces enemies TP boost by $3 for 18s.
-S1
-前から２番目の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに誘惑状態の敵のＴＰを大ダウンさせ、そうでない敵の物理攻撃力と魔法攻撃力を中ダウンさせる。=Deals moderate M.DMG to all enemies in range. If they are Charmed, reduces their TP by a large amount, and if they are not, lowers their P.ATK by a moderate amount.
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n敵が誘惑状態の時、敵単体のＴＰを(\d+)失わせる\n敵が誘惑状態でない時、範囲内の敵の物理攻撃力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in range.\n►Reduces an enemy's TP by $2 if they are Charmed.\n►Lowers enemies' P.ATK within range by $3 if they are not Charmed.
-S2
-ex
 スウィートラブリーハート+=Sweet, Loving Heart+
-UE
+
+##UB+##
+ハートラブサイクロン=Lovely Heart Cyclone
+Deals moderate M.DMG and inflicts Charm to all enemies.
+敵全体に魔法中ダメージを与え、ＴＰを小ダウンさせ、ＴＰ上昇を小ダウンさせ、さらに誘惑状態にする。=Deals moderate M.DMG, reduces enemies TP by small amount, reduces enemies TP Boost by small amount and inflicts Charm to all enemies.
+r:"^敵全体に(\d+)の魔法ダメージ敵全体のＴＰを(\d+)失わせる敵全体のＴＰ上昇を(\d+)ダウン敵全体を誘惑する$"=►Deals $1 M.DMG to all enemies.\n►Inflicts Charm to all enemies for 5s.\n►Reduces enemies TP by $2.\n►Lowers enemies TP Boost by $3 for 18s.
+
+##S1+##
+テイルウィップ+=Tail Whip+
+前から２番目の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに誘惑状態の敵のＴＰを大ダウンさせ、そうでない敵の物理攻撃力と魔法攻撃力を中ダウンさせる。=Deals moderate M.DMG to all enemies in range. If they are Charmed, reduces their TP by a large amount, and if they are not, lowers their P.ATK and M.ATK by a moderate amount.
+r:"^範囲内の敵に(\d+)の魔法ダメージ敵が誘惑状態の時、敵単体のＴＰを(\d+)失わせる敵が誘惑状態でない時、範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.66s\n►Deals $1 M.DMG to enemies in range.\n\nIf the enemies in range are charmed:\n►Reduces enemies TP by $2.\n►Lowers enemies' P.ATK by $3.
+## 260lvl
+r:"^範囲内の敵に(\d+)の魔法ダメージ敵が誘惑状態の時、敵単体のＴＰを(\d+)失わせる敵が誘惑状態でない時、範囲内の敵の物理攻撃力を(\d+)ダウン敵が誘惑状態でない時、範囲内の敵の魔法攻撃力を(\d+)ダウン$"=Cast time: 1.66s\n►Deals $1 M.DMG to enemies in range.\n\nIf the enemies in range are charmed:\n►Reduces enemies' TP by $2.\n►Lowers enemies' P.ATK by $3.\n►Lowers enemies' M.ATK by $4.
+
+##UE##
 グラマーウィップ=Glamorous Whip

@@ -1,21 +1,28 @@
+##Profile##
 【魔法】後衛で後ろの味方を強化する魔法少女の看板娘。後衛の味方をバリアとＴＰ継続回復で支援し、自分の魔法攻撃力に応じ強化される攻撃力アップスキルで鼓舞する。=[Magic] A magical girl who strengthens the backline allies. She supports her backline allies with barriers and TP recovery, and encourages them with her attack boost skill that is strengthened according to her own magic attack power.
 
+##UB##
 ディライトフェスタ=Delight Festa
-自分を中心とした範囲内の味方すべての魔法攻撃力を中アップし、魔法クリティカルを特大アップさせる。自分の魔法攻撃力が高い程、魔法攻撃力の上昇量が最大10倍までアップする。=Boosts allies' M.ATK in range around the user by a medium amount and greatly increases M.crit rate. M.ATK boost increases up to 10× based on user's own M.ATK power.
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを180アップ$"=►Boosts allies' M.ATK within 100 range by $1(+25%×M.ATK) for 18s.\n►Boosts allies' M.crit rate within 100 range by 180 for 18s.
+自分を中心とした範囲内の味方すべての魔法攻撃力を中アップし、魔法クリティカルを特大アップさせる。自分の魔法攻撃力が高い程、魔法攻撃力の上昇量が最大10倍までアップする。=Boosts allies' M.ATK in range by a moderate amount and greatly boosts their M.CRIT Rate. M.ATK boost increases up to x10 based on own M.ATK power.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを180アップ$"=►Boosts allies' M.ATK in 100 range by $1(+0.25×M.ATK) for 18s.\n►Boosts allies' M.CRIT Rate in 100 range by 180 for 18s.
 
+##S1##
 ブースターアイ=Booster Eye
-自分を中心とした範囲内の味方すべての魔法攻撃力を小アップさせる。自分の魔法攻撃力が高い程、魔法攻撃力の上昇量が最大10倍までアップする。=Boosts allies' M.ATK in range around the user by a small amount. M.ATK boost increases up to 10x based on user's own M.ATK power.
+自分を中心とした範囲内の味方すべての魔法攻撃力を小アップさせる。自分の魔法攻撃力が高い程、魔法攻撃力の上昇量が最大10倍までアップする。=Boosts allies' M.ATK in range by a small amount. M.ATK boost increases up to x10 based on own M.ATK power.
 
-ブースターアイ+=Booster Eye+
-自分を中心とした範囲内の味方すべての魔法攻撃力を小アップさせる。自分の魔法攻撃力が高い程、魔法攻撃力の上昇量が最大10倍までアップする。さらに、自分を中心とした範囲内の味方すべての魔法攻撃クリティカル時のダメージを小アップさせる。=Slightly increases the allies' M.ATK within range around you. Boosts M.ATKs up to 10 times the higher your M.ATK power is. In addition, slightly increases the M.crit dmg for all allies within range around you.
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法攻撃クリティカル時のダメージを6%アップ$"=Cast time: 0.94s\n►Boosts allies' M.ATK within 100 range by $1(+12.5%×M.ATK) for 12s.\n►Boosts allies' M.crit dmg within 100 range by 6% for 12s.
-
-
+##S2##
 カオスドレスアップ=Chaos Dress-up
-自分を中心とした範囲内の味方すべてに継続ＴＰ回復状態を付与し、魔法無効バリアを展開する。=Grants continuous TP recovery to all allies within range centered on oneself and deploys a magic nullification barrier.
-r:"^毎秒ＴＰを10回復する\n(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.94s\n►Recovers TP of all allies 100 within range by 10/s for 12.5s.\n►Deploys Barrier within 100 range that negates $1 M.DMG for 12s.
+自分を中心とした範囲内の味方すべてに継続ＴＰ回復状態を付与し、魔法無効バリアを展開する。=Grants continuous TP recovery to all allies in range and deploys Barrier over allies in range that negates M.DMG.
+r:"^毎秒ＴＰを10回復する(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.94s\n►Recovers allies' TP in 100 range by 10/s for 12.5s.\n►Deploys Barrier over allies in 100 range that negates $1 M.DMG for 12s.
 
+##EX##
 看板娘のプライド=Poster Girl's Pride
 看板娘のプライド+=Poster Girl's Pride+
-魔眼販売所アイ・ワゴン=Mystic Eye Shop Ai Wagon
+
+##S1+##
+ブースターアイ+=Booster Eye+
+自分を中心とした範囲内の味方すべての魔法攻撃力を小アップさせる。自分の魔法攻撃力が高い程、魔法攻撃力の上昇量が最大10倍までアップする。さらに、自分を中心とした範囲内の味方すべての魔法攻撃クリティカル時のダメージを小アップさせる。=Slightly boosts allies' M.ATK in range. M.ATK boost increases up to x10 based on own M.ATK power. Additionally, slightly boosts allies' M.CRIT DMG in range.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法攻撃クリティカル時のダメージを6%アップ$"=Cast time: 0.94s\n►Boosts allies' M.ATK in 100 range by $1(+0.125×M.ATK) for 12s.\n►Boosts allies' M.CRIT DMG in 100 range by 6% for 12s.
+
+##UE##
+魔眼販売所アイ・ワゴン=Mystic Eye's Shop Wagon

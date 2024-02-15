@@ -1,44 +1,42 @@
+##Profile## 
 一人前の商人を目指すパワフルお嬢様=A powerful young lady who aims to become a full-fledged merchant
-紅輝石ウィスタリア=Red Pyroxene Wisteria
-Bio
-【物理】前衛で大暴れして攻める、令嬢剣士。自分の周りに、味方を回復するフィールドを作り出し、自ら前線を支え導く姿も、名家を背負う者のあるべき姿。=[Physical] A young swordswoman who fights wildly in the frontlines. She creates a field that heals allies around her, allowing her to uphold the frontline as befits the heiress of a great house.
 
-Profile
+【物理】前衛で大暴れして攻める、令嬢剣士。自分の周りに、味方を回復するフィールドを作り出し、自ら前線を支え導く姿も、名家を背負う者のあるべき姿。=[Physical] A young fencer who fights wildly in the frontlines. Creates a field that heals allies around her, allowing her to uphold the vanguard as befits the heiress of a noble household.
+
 慈善事業=Charitable Business Ventures
 
-Skills
+##UB##
 ノーブルアサルト=Noble Assault
-ノーブルプロミネンス=Noble Prominence
-フレイムソウル+=Burning Soul+
-フレイムソウル=Burning Soul
-
-UB (6 star)
-目の前の敵１キャラに物理特大ダメージを与え、その敵を中心として物理ダメージフィールドを展開し、自分の物理攻撃力を特大アップさせ、さらに物理/魔法吸収バリアを展開する。=Deals Massive P.DMG to an enemy directly in front and creates a burning field around them that deals P.DMG every second to all enemies in range. Massive boost to own P.ATK and deploys a barrier around oneself that absorbs P.DMG and M.DMG.
-
-r:"^敵単体に(\d+)の物理ダメージ\n毎秒(\d+)の物理ダメージを与えるフィールドを展開する\n自分の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Deploys a 400 radius field that deals $2 P.DMG every second for 15.5s.\n►Boosts own P.ATK by $3 for 12s.\n►Deploys a barrier that absorbs $4 P/M.DMG for 18s.
-
-UB (Need Non-6*)
 目の前の敵１キャラに物理特大ダメージを与える。=Deals massive P.DMG to an enemy directly in front.
 r:"^敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.
 
-Skill 1 (with UE)
+##S1##
 プラウドスラッシュ=Haughty Slash
+目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を小アップさせる。その後笑っている間に攻撃されると、前方範囲内の敵に反撃する。=Deals moderate P.DMG to an enemy directly in front. Small boost to own physical attack. If attacked while laughing, unleashes a counterattack on enemies in range.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=Cast time: 1.3575s\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to enemies in 280 range upon counter for next 2s.\n►Boosts own P.ATK by $1 for 12s.
+
+##S2##
+ヒーリングジュエル=Rejuvenating Jewel
+自分の周囲に、範囲内の味方すべてを小回復するフィールドを展開する。=Deploys a field 150 range that recovers HP of all nearby allies by a small amount.
+r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Deploys a field that recovers allies' HP by $1/s for 8s.
+
+##EX## 
+フレイムソウル=Burning Soul
+フレイムソウル+=Burning Soul+
+バトル開始時に自分の物理攻撃力を中アップさせる。=Moderate boost to own physical attack at start of battle.
+r:"^自分の物理攻撃力を(\d+)アップ$"=►Boosts own P.ATK by $1.
+バトル開始時に自分の物理攻撃力を中アップさせ、さらに自分の物理防御力を小アップさせる。=Moderate boost to own physical attack at start of battle.\nSmall boost to own physical defense at start of battle.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Boosts own P.ATK by $1.\n►Boosts own P.DEF by $2.
+
+##UB+##
+ノーブルプロミネンス=Noble Prominence
+目の前の敵１キャラに物理特大ダメージを与え、その敵を中心として物理ダメージフィールドを展開し、自分の物理攻撃力を特大アップさせ、さらに物理/魔法吸収バリアを展開する。=Deals massive P.DMG to an enemy directly in front and creates a burning field around them that deals P.DMG every second to all enemies in range. Massive boost to own P.ATK and deploys a barrier around oneself that absorbs P.DMG and M.DMG.
+r:"^敵単体に(\d+)の物理ダメージ毎秒(\d+)の物理ダメージを与えるフィールドを展開する自分の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Deploys a 400 radius field that deals $2 P.DMG/s for 15.5s.\n►Boosts own P.ATK by $3 for 12s.\n►Deploys Barrier over oneself that absorbs $4 P/M.DMG for 18s.
+
+##S1+## 
 プラウドスラッシュ+=Haughty Slash+
 目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を中アップ、ＴＰ上昇を小アップさせ挑発する。笑っている間に攻撃されると、前方範囲内の敵に反撃する。=Deals moderate P.DMG to an enemy directly in front. Small boost to own P.ATK and TP Boost. Taunts the enemy. If attacked while laughing, counterattack on enemies in range.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=Cast time: 1.3575s\n►Provokes all enemies for 5s.\n►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to all enemies in 320 range upon counter for next 2s.\n►Boosts own P.ATK by $3 for 12s.\n►Boosts own TP Boost by $4 for 12s.
 
-r:"^敵単体に(\d+)の物理ダメージ\n範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分のＴＰ上昇を(\d+)アップ$"=Cast time:1.3575s\n►Provokes all enemies for 5s\n►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to all enemies within 320 range upon counter for next 2s.\n►Boosts own P.ATK by $3 for 12s.\n►Boosts own TP boost by $4 for 12s.
-Skill 1 (no UE) (Need Non-UE)
-目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を小アップさせる。その後笑っている間に攻撃されると、前方範囲内の敵に反撃する。=Deals moderate P.DMG to an enemy directly in front. Small boost to own physical attack. If attacked while laughing, unleashes a counterattack on enemies in range.
-r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ$"=Cast time:1.3575s\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to enemies within 280 range upon counter for next 2s.\n►Boosts own P.ATK by $1 for 12s.
-Skill 2
-ヒーリングジュエル=Rejuvenating Jewel
-自分の周囲に、範囲内の味方すべてを小回復するフィールドを展開する。=Deploys a Field that recovers HP of all nearby allies by a small amount.
-r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time:1.5575s\n►Deploys a 150 radius field that recovers allies' HP in it by $1 every second for 8s.
-
-EX Skill
-フレイムソウル=Burning Soul
-バトル開始時に自分の物理攻撃力を中アップさせる。=Moderate boost to own physical attack at start of battle.
-r:"^自分の物理攻撃力を(\d+)アップ$"=►Boosts own physical attack by $1.
-EX Skill+
-バトル開始時に自分の物理攻撃力を中アップさせ、さらに自分の物理防御力を小アップさせる。=Moderate boost to own physical attack at start of battle.\nSmall boost to own physical defense at start of battle.
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ$"=►Boosts own P.ATK by $1.\n►Boosts own P.DEF by $2.
+##UE##
+紅輝石ウィスタリア=Brilliance of Wisteria

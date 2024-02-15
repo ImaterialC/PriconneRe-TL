@@ -1,12 +1,10 @@
+##Profile##
 いつも元気な腹ペコ少女=A girl who's always cheerful and hungry
 ユースティアナ・フォン・アストライア=Eustiana von Astraea
 食べ歩き、料理=Eating, cooking
 
-プリンセスソード=Princess Sword
-Intro
-【物理】前衛にて、全力で仲間を護る、腹ペコ剣士。高いＨＰに加えて、自分自身でもＨＰ回復できるためギリギリまで味方の壁役を引き受ける。=[Physical]An always-hungry fighter who protects her friends from the vanguard. Has high HP and self-healing skills, which enable her to shield allies until bitter end.
+【物理】前衛にて、全力で仲間を護る、腹ペコ剣士。高いＨＰに加えて、自分自身でもＨＰ回復できるためギリギリまで味方の壁役を引き受ける。=[Physical] An always-hungry fighter who protects her friends from the vanguard. Has high HP and self-healing skills, which enable her to shield allies until the bitter end.
 
-Story
 未来の騎士への想い=Thoughts on the Future Knight
 グルメな山籠もり=Gourmet Mountain
 王女様の騎士=Princess's Knight
@@ -21,47 +19,53 @@ Story
 おいしい持ち込み大歓迎！=Now Accepting Ingredients!
 再会はごはんの匂い=A Delicious Reunion
 
-Skill name
-プリンセスヴァリアント=Princess Valiant
+##UB##
 プリンセスストライク=Princess Strike
+目の前の敵１キャラに物理大ダメージを与え、さらに物理防御力と魔法防御力を大アップさせる。=Deals large P.DMG to an enemy directly in front. Moderate boost to own P.DEF and M.DEF.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2 for 18s.\n►Boosts own M.DEF by $3 for 18s.
+
+##S1##
+ランチタイム=Lunchtime
+自分の魔法防御力を中アップさせ、さらにＨＰを中回復する。=Boost own M.DEF by a small amount and recovers own HP by a small amount.
+r:"^自分の魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復$"=Cast Time: 0.21s\n►Boosts own M.DEF by $1 for 12s.\n►Recovers own HP by $2.
+
+##S2##
+フォールスラッシュ=Falling Slash
+
+##EX##
 プリンセスフォース=Princess Power
 プリンセスフォース+=Princess Power+
-
-UB *6
-r:"^敵単体に(\d+)の物理ダメージ\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2 for 18s.\n►Boosts own M.DEF by $3 for 18s.\n►Boosts own P.ATK by $4 for 18s.
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力と魔法防御力を特大アップさせ、物理攻撃力を中アップさせる。物理攻撃力アップの効果値は、残りＨＰが高い程増加する。=Deals massive P.DMG to an enemy directly in front. Massive boost to own P.DEF and M.DEF. Moderate boost to own P.ATK (Amount of P.ATK buff increase based on how high Pecorine's current HP.)
-UB
-目の前の敵１キャラに物理大ダメージを与え、さらに物理防御力と魔法防御力を大アップさせる。=Deals large P.DMG to an enemy directly in front. Moderate boost to own P.DEF and M.DEF.
-r:"^敵単体に(\d+)の物理ダメージ\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2 for 18s.\n►Boosts own M.DEF by $3 for 18s.
-
-Skill 1+
-ランチタイム=Lunch Time
-ランチタイム+=Lunch Time+
-r:"^自分の魔法防御力を(\d+)アップ\n自分のＨＰを(\d+)回復\n(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Cast Time: 0.21s\n►Boosts own M.DEF by $1 for 12s.\n►Recovers own HP by $2.\n►Deploy Barrier that absorbs $3 P.DMG and M.DMG for 8s.
-自分の魔法防御力を中アップさせ、さらにＨＰを大回復し、自分に物理/魔法吸収バリアを展開する。=Boost own M.DEF by a small amount. Deploy a barrier around oneself that absorbs P.DMG and M.DMG.
-
-自分の魔法防御力を中アップさせ、さらにＨＰを中回復する。=Boost own M.DEF by a small amount and recovers own HP by a small amount.
-r:"^自分の魔法防御力を(\d+)アップ\n自分のＨＰを(\d+)回復$"=Cast Time: 0.21s\n►Boosts own M.DEF by $1 for 12s.\n►Recovers own HP by $2.
-Skill 2
-フォールスラッシュ=Fall Slash
-Skill EX
 バトル開始時に自分の最大ＨＰを大アップさせる。=Large boost to own max HP at start of battle.
 バトル開始時に自分の最大ＨＰを中アップさせる。=Moderate boost to own max HP at start of battle.
 r:"^自分の最大ＨＰを(\d+)アップさせる$"=►Boosts own max HP by $1.
 r:"^自分の最大ＨＰを(\d+)アップ$"=►Boosts own max HP by $1.
 
-プリンセスティアラ=Princess Tiara
-フォールスラッシュ+=Fall Slash+
-r:"^自分の物理攻撃力を(\d+)アップ\n敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n毎秒ＨＰを(\d+)回復する$"=Cast Time: 1.21s\n►Boosts own P.ATK by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 12s.\n►Recovers HP by $4/s for 12s.
+##UB+##
+プリンセスヴァリアント=Princess Valiant
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力と魔法防御力を特大アップさせ、物理攻撃力を中アップさせる。物理攻撃力アップの効果値は、残りＨＰが高い程増加する。=Deals massive P.DMG to an enemy directly in front. Massive boost to own P.DEF and M.DEF. Moderate boost to own P.ATK (Amount of P.ATK buff increase based on how high Pecorine's current HP.)
+r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2 for 18s.\n►Boosts own M.DEF by $3 for 18s.\n►Boosts own P.ATK by $4 for 18s.
+
+##S1+##
+ランチタイム+=Lunchtime+
+自分の魔法防御力を中アップさせ、さらにＨＰを大回復し、自分に物理/魔法吸収バリアを展開する。=Boost own M.DEF by a small amount. Deploy a barrier around oneself that absorbs P.DMG and M.DMG.
+r:"^自分の魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Cast Time: 0.21s\n►Boosts own M.DEF by $1 for 12s.\n►Recovers own HP by $2.\n►Deploy Barrier that absorbs $3 P.DMG and M.DMG for 8s.
+
+##S2+##
+フォールスラッシュ+=Falling Slash+
 自分の物理攻撃力を特大アップし、目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに自分に継続ＨＰ回復状態を付与する。=Greatly boosts own P.ATK, deals massive P.DMG to the enemy in front, and slightly decreases their P.DEF. Additionally, grants herself a continuous HP recovery status.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン毎秒ＨＰを(\d+)回復する$"=Cast Time: 1.21s\n►Boosts own P.ATK by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 12s.\n►Recovers HP by $4/s for 12s.
 
+##UE##
+プリンセスソード=Princess Sword
+プリンセスティアラ=Princess Tiara
 
+##Comments##
 
 おいっす～☆　わたしの名前は…\nお腹ペコペコのペコリーヌです！=Heiya~!☆ My name is...\nThe always starving Pecorine!
 あなたと再会できるなんて、\nこれはもう運命ですよね、運命！\nこれからもよろしくお願いします、ごはん王子☆=To be reunited with you, this is fate, isn't it? Fate!\nI look forward to working with you from now on,\nFood Prince☆
 わたし、すぐお腹がすいちゃうんですよ\nだから、狩りとか釣りとかで、食材を採取するのは\n大得意になりました！　えへん☆=I get hungry pretty quickly, \nso I've become really good at\nhunting and fishing! Ehem☆
 ランドソルには慣れましたか？\nわからないことがあったら、何でもきいてくださいね\nわたし、この街にくわしいので！=Have you gotten used to Landosol?\nIf there's anything you don't understand,\nfeel free to ask me!\nI'm familiar with this city!
-あなたにも、この街を好きになってもらえたら、\nわたし、とってもうれしいです！=I’d be so happy if you could\nfall in love with this city, too!
+あなたにも、この街を好きになってもらえたら、\nわたし、とってもうれしいです！=I'd be so happy if you could\nfall in love with this city, too!
 あなたがこの街を好きになるように、\nいろんな楽しい所に連れて行きますよ！\n覚悟してくださいね～☆=I'll take you to all sorts of\nfun places so you can like this city!\nPrepare yourself☆
 甘いもの、辛いもの、すっぱいもの、しょっぱいもの\nお肉もお魚もお野菜も、み～んな大好きですよ～\nあなたは好き嫌いってありますか？=Sweets, spicy things, sour things,\nsalty things, meat, fish, vegetables—\nI love them all Are you picky?
 ギルドができたら、きっと楽しいですよ～♪\nわたしと、コッコロちゃんと、キャルちゃんと…\nあなたのギルドですよ☆=I'm sure it'll be fun once the guild's\nestablished♪ Me, Kokkoro-chan, Kyaru-chan...\nand you are in the same guild☆

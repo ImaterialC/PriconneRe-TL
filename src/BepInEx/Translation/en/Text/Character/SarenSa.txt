@@ -1,21 +1,35 @@
-【物理】中衛で、優艶に炎と踊り舞う情熱のサレンママ。物理攻撃から味方を守り、【炎舞の刻印】の数に応じて効果の上がる物攻アップとＴＰ回復で皆を奮い立たせる。=[Physical] Mama Saren, dancing a passionate dance of flames in the midlines. She protects her allies from physical attacks, And has attack buffs and TP boost that scale with the amount of [b]Flame Dance Seal[/b]s she accumulates.
-自分を中心とした範囲内の味方すべての物理攻撃力と物理防御力を大アップさせ、物理無効バリアを展開する。=Greatly boosts the P.ATK and P.DEF of all allies within her range, deploying a physical nullification barrier.
+##Profile##
+【物理】中衛で、優艶に炎と踊り舞う情熱のサレンママ。物理攻撃から味方を守り、【炎舞の刻印】の数に応じて効果の上がる物攻アップとＴＰ回復で皆を奮い立たせる。=[Physical] Mama Saren dances a passionate dance of flames in the midlines. She protects her allies from physical attacks and has attack buffs and TP Boost that scale with the amount of Flame Dance Seals she accumulates.
 
-
-目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の味方すべてのＴＰを小回復させる。【炎舞の刻印】の数に応じて、ダメージとＴＰの回復量が増加する。=Deals massive P.DMG to the enemy character in front and additionally slightly recovers the TP of all allies within her range. The damage and TP recovery amount increase based on the number of [b]Flame Dance Seal[/b]s.
-
-自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、目の前の敵１キャラに物理大ダメージを与え、自分に【炎舞の刻印】を１つ付与する。【炎舞の刻印】は最大３まで追加される。【炎舞の刻印】の数に応じて、物理攻撃力の上昇量とダメージが増加する。=Greatly boosts the P.ATK of all allies within her range, deals massive P.DMG to the enemy character in front, and grants herself one [b]Flame Dance Seal[/b]. Up to a maximum of three [b]Flame Dance Seal[/b]s can be obtained. The increase in P.ATK and damage depends on the number of [b]Flame Dance Seal[/b]s.
-
-r:"^自分に炎舞の刻印を付与する\n範囲内の味方の物理攻撃力を(\d+)アップ\n敵単体に(\d+)の物理ダメージ$"=►Grants self 1 [b]Flame Dance Seal[/b].\n►Boosts allies' P.ATK within 300 range by $1 for 18s.\n►Deals $2 P.DMG to an enemy.
-
-r:"^敵単体に(\d+)の物理ダメージ\n範囲内の味方のＴＰを60回復$"=Cast time: 0.59s\n►Deals $1 P.DMG to an enemy.\n►Recovers TP for allies within 300 range by 60.
-
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理防御力を(\d+)アップ\n(\d+)ダメージ分の物理無効バリアを展開する$"=Cast time: 0.59s\n►Boosts allies' P.ATK within 300 range by $1 for 12s.\n►Boosts allies' P.DEF within 300 range by $2 for 12s.\n►Deploys barrier over all allies within 300 range that negates $3 P.DMG for 12s.
-
+##UB##
 シアリングストーム=Searing Storm
-フレイムオービット=Flame Orbbit
-フレイムオービット+=Flame Orbbit+
+自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、目の前の敵１キャラに物理大ダメージを与え、自分に【炎舞の刻印】を１つ付与する。【炎舞の刻印】は最大３まで追加される。【炎舞の刻印】の数に応じて、物理攻撃力の上昇量とダメージが増加する。=Greatly boosts allies' P.ATK in range, deals massive P.DMG to an enemy in front, and gains 1 [Flame Dance Seal], up to a maximum of 3. The P.ATK boost and P.DMG dealt increase according to number of [Flame Dance Seal].
+r:"^自分に炎舞の刻印を付与する範囲内の味方の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ$"=►Gains 1 [Flame Dance Seal].\n►Boosts allies' P.ATK in 300 range by $1 (+0.33×$1×[Flame Dance Seal]) for 18s.\n►Deals $2 (+1.2×$2× \n[Flame Dance Seal]) P.DMG to an enemy.
+
+##S1##
+フレイムオービット=Flame Orbit
+目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の味方すべてのＴＰを小回復させる。【炎舞の刻印】の数に応じて、ダメージとＴＰの回復量が増加する。=Deals massive P.DMG to an enemy in front and slightly recovers allies' TP in range. The P.DMG and TP recovery increase according to number of [Flame Dance Seal].
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方のＴＰを60回復$"=Cast time: 0.59s\n►Deals $1 (+0.8×$1×[Flame Dance Seal]) P.DMG to an enemy.\n►Recovers allies' TP in 300 range by 60 (+20×[Flame Dance Seal]).
+
+##S2##
 パッショネイト=Passionate
-パッショネイト+=Passionate+
+自分を中心とした範囲内の味方すべての物理攻撃力と物理防御力を大アップさせ、物理無効バリアを展開する。=Greatly boosts allies' P.ATK and P.DEF in range, deploys Barrier over allies in range that negates P.DMG.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=Cast time: 0.59s\n►Boosts allies' P.ATK in 300 range by $1 for 12s.\n►Boosts allies' P.DEF in 300 range by $2 for 12s.\n►Deploys Barrier over allies in 300 range that negates $3 P.DMG for 12s.
+
+##EX##
 デザートベール=Desert Veil
 デザートベール+=Desert Veil+
+
+##Comments##
+この格好、地元の子どもたちが\nきれいだって褒めてくれたわ♪\nあんたの感想も聞かせて？\n…ふふ、ありがと♪　うれしいわ=The local children complimented me on my pretty outfit♪ Can you tell me what you think? Heheh, thanks♪ I'm so happy.
+その土地の匂いってあるわよね\nサラサリアだとスパイスの香りに\nお菓子と果物の甘い匂いも…\nあ～、おなか空いてきちゃった…=There's the smell of that land, isn't there? The smell of spices, sweets, and fruit... Ahhh, I'm hungry...
+砂漠を渡る長旅なんて\n正直、一人だと心細かったのよ\nあんたが居てくれてよかったわ=To be honest, I felt lonely traveling across the desert all by myself. I'm so glad you're here.
+大通りだけあって人が多いわね…\n迷子にならないようにしないと\nたとえば…う、腕を組む、とか？\n…ほら、照れてないで早くする！=There are so many people on the main street... You have to make sure you don't get lost... So for example... l-let's cross our arms...? Come on, stop blushing and hurry!
+いつもあんたが居てくれるから\nどこにいたって頑張れるの\n改まって言うと、変な感じね？\nでも…今言っておきたかったのよ=You're always there for me, so I can do my best wherever I want. It feels weird to say, doesn't it? But... I wanted to tell you now.
+旦那さま、あたしと一曲\n踊っていただけるかしら？\n…なんてね、ふふっ♪\nさぁ、一緒に踊りましょ！=Master, will you dance with me for a song? ...Just kidding, hehe♪ Come on, let's dance together!
+熱砂の国、灼熱の太陽…\n元気と勢いを存分に乗せた\n情熱的なステップで踊るの！\nそうそう、上手いじゃない♪=The land of hot sand, scorching sun... Dancing with passionate steps filled with energy and momentum! That's right! Like this! Aren't you pretty good too?
+音楽に乗せて体を動かすのって\n最高の気分ね！\nまだまだ体力は余裕かしら？\nなら、あたしについてきてよね♪=It's the best feeling in the world to ride music! Do you still have enough stamina? Then come with me! ♪
+だめね、あたしったら\nどうにも浮かれちゃってるみたい\nあんたと二人っきりだと思うと…\nどうしても…熱くなっちゃうのよ=It's no good. I'm so excited. When I think about being alone with you... I can't help but get all worked up.
+あんたがよそ見できないくらい\n華麗な舞を見せてあげる♪\nあんたを想う気持ちなら\n誰にだって負ける気はないもの！=I'll show you a dance so gorgeous that you can't look away♪ I'm not going to lose to anyone when it comes to my feelings for you!
+誕生日おめでとう\nあんたのためにごちそうを作って\n待ってたのよ。ほら早く♪\n熱いうちが美味しいんだから！=Happy Birthday! I made a feast for you and waited for you. Come on, hurry up! It's delicious while it's hot!
+いつもは子どもたちと一緒だけど\n今日はあたしに最初に祝わせて\n誕生日おめでとう。その…ずっと\nそばに居てくれて、ありがとうね=Usually I'm with children, but let me be the first to wish you a happy birthday today. Umm... Thank you for always being by my side.

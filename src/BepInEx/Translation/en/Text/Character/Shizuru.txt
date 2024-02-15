@@ -1,35 +1,38 @@
-Profile
+##Profile##
 家事全般=Household chores
 お姉ちゃんがお世話してあげるからねっ！=Your Onee-chan will take good care of you!
 
-【物理】前衛で、物理攻撃から味方を守る、お姉ちゃん。スキルで物理無効バリアを展開し、味方全員を守るほか、自身はさらに物理吸収バリアを纏い、敵前衛を討つ。=[Physical] A vanguard, Onee-chan type who protects allies from physical attacks. Her skills erect a barrier that negates physical damage for all allies while putting a physical absorption barrier around herself.
-Skills
-UB
+【物理】前衛で、物理攻撃から味方を守る、お姉ちゃん。スキルで物理無効バリアを展開し、味方全員を守るほか、自身はさらに物理吸収バリアを纏い、敵前衛を討つ。=[Physical] A vanguard, big sister type who protects allies from physical attacks. Her skills erect a barrier that negates physical damage for all allies while putting a physical absorption barrier around herself.
+
+##UB##
 セイクリッドパニッシュ=Sacred Punishment
 目の前の敵１キャラに物理大ダメージを与え、さらに自分に物理吸収バリアを展開する。=Deals large P.DMG to an enemy directly in front. Deploys a barrier around oneself that absorbs P.DMG.
-r:"^敵単体に(\d+)の物理ダメージ\n(\d+)ダメージ分の物理吸収バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Deploys Barrier over self that absorbs $2 P.DMG for 18s.
-S1
+r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理吸収バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Deploys Barrier over oneself that absorbs $2 P.DMG for 18s.
+
+##S1##
 セイントヒール=Saintly Succor
-セイントヒール+=Saintly Succor+
 最もＨＰが低い味方１キャラのＨＰを中回復させる。=Recovers the HP of the party member with the lowest HP by a moderate amount.
-S2
+
+##S2##
 プロテクション=Protection
-自分の周りの味方に物理無効バリアを展開する。=Deploys a barrier that negates P.DMG around nearby allies.
-r:"^(\d+)ダメージ分の物理無効バリアを展開する$"=Cast time: 1.375s\n►Deploys Barrier within 150 range that negates $1 P.DMG for 12s.
-ex
-お姉ちゃんパワー=Onee-chan Power
-Skills+
-UB
+自分の周りの味方に物理無効バリアを展開する。=Deploys Barrier over allies in 150 range that negates P.DMG for 12s.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する$"=►Deploys Barrier over all allies that negates $1 P.DMG.
+
+##EX##
+お姉ちゃんパワー=Big Sis Power
+お姉ちゃんパワー+=Big Sis Power+
+
+##UB+##
 セイクリッドビヨンド=Sacred Beyond
-目の前の敵１キャラに物理特大ダメージを与える。自分を中心とした範囲内の味方すべての物理防御力を特大アップさせ、物理吸収バリアを展開し、さらに継続ＨＰ回復状態を付与する。=Deals massive P.DMG to the nearest enemy. Applies massive P.DEF buff to all allies within range. Deploy a P.DMG absorption barrier to all allies within range. Grants HP regen to all allies.
+目の前の敵１キャラに物理特大ダメージを与える。自分を中心とした範囲内の味方すべての物理防御力を特大アップさせ、物理吸収バリアを展開し、さらに継続ＨＰ回復状態を付与する。=Deals massive P.DMG to an enemy in front, massively boosts allies' P.DEF in range, and deploy Barrier over them that absorbs P.DMG. Grants continuous HP recovery to all allies.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理防御力を(\d+)アップ(\d+)ダメージ分の物理吸収バリアを展開する毎秒ＨＰを(\d+)回復する$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.DEF in 200 range by $2 for 18s.\n►Deploys Barrier over all allies in 200 range that absorbs $3 P.DMG for 18s.\n►Recovers all allies' HP by $4/s for 8.5s
 
-r:"^敵単体に(\d+)の物理ダメージ\n範囲内の味方の物理防御力を(\d+)アップ\n(\d+)ダメージ分の物理吸収バリアを展開する\n毎秒ＨＰを(\d+)回復する$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.DEF within 200 range by $2 for 18s.\n►Deploys barrier to all allies within 200 range that absorbs $3 P.DMG for 18s.\n►Grants HP regen by $4/s for 8.5s
+##S1+##
+セイントヒール+=Saintly Succor+
+最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに物理防御力を中アップさせる。=Moderately recovers an ally's HP with the lowest HP, and boosts its P.DEF by a moderate amount.
+最もＨＰの割合が低い味方１キャラのＨＰを中回復させ、さらに物理防御力を中アップさせる。=Moderately recovers an ally's HP with the lowest HP, and boosts its P.DEF by a moderate amount.
+r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)アップ$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2 for 12s.
+## Same with XMahiru S1
 
-S1
-最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに物理防御力を中アップさせる。=Recovers the HP of the party member with the lowest HP by a moderate amount and boosts their P.DEF by a large amount.
-r:"^味方単体のＨＰを(\d+)回復\n味方単体の物理防御力を(\d+)アップ$"=Cast time: 1.375s\n►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2 for 12s.
-S2
-ex
-お姉ちゃんパワー+=Onee-chan Power+
-UE
+##UE##
 セイクリッドブレード=Sacred Blade

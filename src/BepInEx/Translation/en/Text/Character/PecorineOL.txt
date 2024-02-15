@@ -1,24 +1,29 @@
-【物理】前衛で、仲間との絆を力に変え戦う腹ペコ王女。敵のＨＰ状態で永続の物理攻撃力上昇と、短時間の特大攻撃力上昇＆自己ＴＰ回復を使い分け戦況を一変させる。=[Physical]A starving princess who fights with power of bonds. She can use either permanent or durated P.ATK buff depending on the enemy's HP, and self-TP recovery to completely change the battle situation.
+##Profile##
+【物理】前衛で、仲間との絆を力に変え戦う腹ペコ王女。敵のＨＰ状態で永続の物理攻撃力上昇と、短時間の特大攻撃力上昇＆自己ＴＰ回復を使い分け戦況を一変させる。=[Physical] A starving princess who fights with power of bonds. She can use either permanent or temporary P.ATK boost depending on the enemy's HP, and self-TP recovery to completely change the battle situation.
 
+##UB##
 オーバーロードストライク=Overload Strike
-目の前の敵１キャラに物理特大ダメージを与える。対象の残りＨＰが最大ＨＰの50％以上だった場合、味方全体のＴＰ上昇を小アップさせ、対象の残りＨＰが50％未満の場合、与えるダメージがアップする。=Deals massive P.DMG to one enemy character in front. If the target's remaining HP is 50% or more, slightly raise TP boost of all allies, and if the target's remaining HP is less than 50%, the damage dealt is increased.
+目の前の敵１キャラに物理特大ダメージを与える。対象の残りＨＰが最大ＨＰの50％以上だった場合、味方全体のＴＰ上昇を小アップさせ、対象の残りＨＰが50％未満の場合、与えるダメージがアップする。=Deals massive P.DMG to an enemy in front. If the highest enemy's HP ≥ 50%, slightly boosts all allies' TP Boost, otherwise deals large P.DMG to an enemy.
+r:"^対象の残りＨＰが50％以上の場合、味方全体のＴＰ上昇を5アップ対象の残りＨＰが50％未満の場合、敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=►Deals $2 P.DMG to an enemy.\n►If an enemy's HP ≥ 50%, boosts all allies' TP Boost by 5 for 18s.\n►If an enemy's HP < 50%, deals $1 P.DMG to an enemy.
 
-r:"^対象の残りＨＰが50％以上の場合、味方全体のＴＰ上昇を5アップ\n対象の残りＨＰが50％未満の場合、敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n\nIf the remaining target's HP > 50%:\n►Raise allies' TP boost by 5 for 18s.\n\nIf the remaining target's HP < 50%:\n►Deals $2 P.DMG to an enemy.
+##S1##
+リミッターオーバーライト=Limiter Overwrite
+自分に継続ＨＰ回復状態を付与する。残りＨＰが最も高い敵の残りＨＰが最大ＨＰの50％以上だった場合、味方全体の物理攻撃力を大アップ、物理クリティカルを中アップさせ、対象の残りＨＰが50％未満の場合、味方全体の物理攻撃力を特大アップさせる。=Grants HP recovery to self. If the highest enemy's HP ≥ 50%, greatly boosts all allies' P.ATK and moderately boosts their P.CRIT Rate, otherwise massively boosts all allies' P.ATK.
+r:"^毎秒ＨＰを(\d+)回復する対象の残りＨＰが50％以上の場合、味方全体の物理攻撃力を(\d+)アップ対象の残りＨＰが50％以上の場合、味方全体の物理クリティカルを50アップ対象の残りＨＰが50％未満の場合、味方全体の物理攻撃力を(\d+)アップ$"=Cast time: 0.465s\n►Recovers own HP by $1/s for 6s.\n►If an enemy's HP ≥ 50%, boosts all allies' P.ATK by $2 and P.CRIT Rate by 50 for 180s.\n►If an enemy's HP < 50%, boosts all allies' P.ATK by $3 for 12s.
 
-リミッターオーバーライト=Limiter Overlight
-リミッターオーバーライト+=Limiter Overlight+
-自分に継続ＨＰ回復状態を付与する。残りＨＰが最も高い敵の残りＨＰが最大ＨＰの50％以上だった場合、味方全体の物理攻撃力を大アップ、物理クリティカルを中アップさせ、対象の残りＨＰが50％未満の場合、味方全体の物理攻撃力を特大アップさせる。=Grant regenerate HP. If the highest remaining enemy's HP > 50%, Large boost the allies' P.ATK and boost the P.crit rate by a medium amount, other than that boost the allies' P.ATK.
-r:"^毎秒ＨＰを(\d+)回復する\n対象の残りＨＰが50％以上の場合、味方全体の物理攻撃力を(\d+)アップ\n対象の残りＨＰが50％以上の場合、味方全体の物理クリティカルを50アップ\n対象の残りＨＰが50％未満の場合、味方全体の物理攻撃力を(\d+)アップ$"=Cast time: 0.465s\n►Recovers own HP by $1/s for 6s.\n\nIf enemy's HP > 50%:\n►Boosts allies' P.ATK by $2 for 180s.\n►Boosts allies' P.crit rate by 50 for 180s.\n\nIf enemy's HP < 50%:\n►Boosts allies' P.ATK by $3 for 12s.
+##S2##
+イノーマスクリーヴ=Enormous Cleave
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。対象の残りＨＰが最大ＨＰの50％以上だった場合、自分の物理攻撃力を大アップさせ、対象の残りＨＰが50％未満の場合、自分のＴＰを大回復させる。=Deals moderate P.DMG to an enemy in front, and slightly lowers its P.DEF. If the highest enemy's HP ≥ 50%, greatly boosts own P.ATK, otherwise recovers own TP by a large amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン対象の残りＨＰが50％以上の場合、自分の物理攻撃力を(\d+)アップ対象の残りＨＰが50％未満の場合、自分のＴＰを(\d+)回復$"=Cast time: 0.465s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►If an enemy's HP ≥ 50%, boosts own P.ATK by $3 for 180s.\n►If an enemy's HP < 50%, recovers own TP by $4.
 
-自分に継続ＨＰ回復状態を付与し、ＴＰを小回復する。残りＨＰが最も高い敵の残りＨＰが最大ＨＰの50％以上だった場合、味方全体の物理攻撃力を特大アップ、物理クリティカルを中アップさせ、対象の残りＨＰが50％未満の場合、味方全体の物理攻撃力を特大アップさせる。=Grant regenerate HP and small TP recovery. If the highest remaining enemy's HP > 50%, Large boost the allies' P.ATK and boost the P.crit rate by a medium amount, other than that boost the allies' P.ATK.
-r:"^毎秒ＨＰを(\d+)回復する\n自分のＴＰを100回復\n対象の残りＨＰが50％以上の場合、味方全体の物理攻撃力を(\d+)アップ\n対象の残りＨＰが50％以上の場合、味方全体の物理クリティカルを70アップ\n対象の残りＨＰが50％未満の場合、味方全体の物理攻撃力を(\d+)アップ$"=Cast time: 0.465s\n►Recovers own HP by $1/s for 12s.\n►Recovers own TP by 100.\n\nIf enemy's HP > 50%:\n►Boosts allies' P.ATK by $2 for 180s.\n►Boosts allies' P.crit rate by 70 for 180s.\n\nIf enemy's HP < 50%:\n►Boosts allies' P.ATK by $3 for 24s.
-
-
-イノーマスクリーヴ=Innovative Cleve
-目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。対象の残りＨＰが最大ＨＰの50％以上だった場合、自分の物理攻撃力を大アップさせ、対象の残りＨＰが50％未満の場合、自分のＴＰを大回復させる。=Inflicts moderate P.DMG to enemy in front and slightly decreases P.DEF. If the target's remaining HP is 50% or more, Large boost own P.ATK, other than that, recovers a large amount of own TP.
-
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n対象の残りＨＰが50％以上の場合、自分の物理攻撃力を(\d+)アップ\n対象の残りＨＰが50％未満の場合、自分のＴＰを(\d+)回復$"=Cast time: 0.465s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n\nIf enemy's HP > 50%:\n►Boosts own P.ATK by $3 for 180s.\n\nIf enemy's HP < 50%:\n►Recovers own TP by $4.
-
-インビジブルエナジー+=Invisible Energy+
+##EX##
 インビジブルエナジー=Invisible Energy
-超越叛逆のプリンセスソード=Transcendence Rebellion Princess Sword
+インビジブルエナジー+=Invisible Energy+
+
+##S1+##
+リミッターオーバーライト+=Limiter Overwrite+
+自分に継続ＨＰ回復状態を付与し、ＴＰを小回復する。残りＨＰが最も高い敵の残りＨＰが最大ＨＰの50％以上だった場合、味方全体の物理攻撃力を特大アップ、物理クリティカルを中アップさせ、対象の残りＨＰが50％未満の場合、味方全体の物理攻撃力を特大アップさせる。=Grants HP and TP recovery to self. If the highest enemy's HP ≥ 50%, greatly boosts all allies' P.ATK and moderately boosts their P.CRIT Rate, otherwise massively boosts all allies' P.ATK.
+r:"^毎秒ＨＰを(\d+)回復する自分のＴＰを100回復対象の残りＨＰが50％以上の場合、味方全体の物理攻撃力を(\d+)アップ対象の残りＨＰが50％以上の場合、味方全体の物理クリティカルを70アップ対象の残りＨＰが50％未満の場合、味方全体の物理攻撃力を(\d+)アップ$"=Cast time: 0.465s\n►Recovers own HP by $1/s for 12s.\n►Recovers own TP by 100.\n►If an enemy's HP ≥ 50%, boosts all allies' P.ATK by $2 and P.CRIT Rate by 70 for 180s.\n►If an enemy's HP < 50%, boosts all allies' P.ATK by $3 for 24s.
+
+##UE##
+超越叛逆のプリンセスソード=Transcendental Rebellion Princess Sword

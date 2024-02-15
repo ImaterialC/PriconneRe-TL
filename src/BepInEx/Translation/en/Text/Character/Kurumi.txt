@@ -1,31 +1,36 @@
----Profileクルミ
-ルミ=Kurumi 
+##Profile##
 観劇、おままごと=Theater, play house
 泣き虫で臆病な守ってあげたい女の子=A cowardly crybaby you can't help wanting to protect
----Skills
----UB
+【物理】前衛で、味方の守りに特化した、極度の照れ屋。\nスキルで自分の周囲の物理、魔法防御力を上げつつ、\n近くの敵をスタンさせて足止めする。=[Physical] An extremely shy vanguard fighter who excels at protecting allies. Her skills boost the physical and magical attack of allies around her while stunning nearby enemies.
+
+##UB##
 怖がりベルスイング=Fearful Bell Bash
 目の前の敵１キャラに物理大ダメージを与え、さらに長時間スタンさせる。=Deals large P.DMG to an enemy directly in front and inflicts Stun for a long period.
----S1
+
+##S1##
+ブレイブリーベル=Bravery Bell
 味方全体の物理防御力と魔法防御力を小アップさせる。=Small boost to P.DEF and M.DEF of all nearby allies.
-r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=Boosts allies' P.DEF within range by $1.\nBoosts allies' M.DEF within range by $1.
----S2
+r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=►Boosts allies' P.DEF in range by $1.\n►Boosts allies' M.DEF in range by $1.
+
+##S2##
+ベルビブラート=Bell Ringer
 目の前の敵１キャラに物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG to an enemy directly in front and inflicts Stun.
 
----ex
-ブリリアントアクト=Brilliant Resolve
----Skills+
----UB
-デビュースターアクション=Debut star action
-前方範囲内の敵すべてに物理大ダメージを与え、長時間スタンさせる。さらに、味方全体の物理防御力と魔法防御力を大アップし、自分を中心とした範囲内の味方すべてに継続ＨＰ回復状態を付与する。=Damage all of the enemies within the front range and stun for a long time. In addition, the P.DEF and allies' M.DEF are Large improved, and the continuation HP recovery status is granted to all allies within the range centered on themselves.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する$"=Deals $1 P.DMG to an enemy.\nRenders an enemy immobile.\nBoosts allies' P.DEF by $2.\nBoosts allies' M.DEF by $3.\nRecovers allies' HP by $4/s.
----S1
-味方全体の物理防御力と魔法防御力を中アップさせ、さらにＴＰを小回復させる。=Moderate boost to P.DEF and allies' M.DEF, and recovers their TP by a small amount.
-r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n味方全体のＴＰを(\d+)回復$"=Boosts allies' P.DEF by $1.\nBoosts allies' M.DEF by $1.\nRecovers allies' TP by $1.
----S2
----ex
-ブリリアントアクト+=Brilliant Resolve+
+##EX##
+ブリリアントアクト=Bravery Bell
+ブリリアントアクト+=Bravery Bell+
 バトル開始時に自分の最大ＨＰを大アップさせ、さらに自分の魔法防御力を小アップさせる。=Large boost to own max HP and small boost to M.DEF at start of battle.
-r:"^自分の最大ＨＰを(\d+)アップさせる\n自分の魔法防御力を(\d+)アップ$"=Boosts own max HP by $1.\nBoosts own M.DEF by $2.
----UE
+r:"^自分の最大ＨＰを(\d+)アップさせる自分の魔法防御力を(\d+)アップ$"=►Boosts own max HP by $1.\n►Boosts own M.DEF by $2.
+
+##UB+##
+デビュースターアクション=Debut Star Action
+前方範囲内の敵すべてに物理大ダメージを与え、長時間スタンさせる。さらに、味方全体の物理防御力と魔法防御力を大アップし、自分を中心とした範囲内の味方すべてに継続ＨＰ回復状態を付与する。=Damage all of the enemies within the front range and stun for a long time. In addition, the P.DEF and allies' M.DEF are Large improved, and the continuation HP recovery status is granted to all allies within the range centered on themselves.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Deals $1 P.DMG to an enemy.\n►Renders an enemy immobile.\n►Boosts allies' P.DEF by $2.\n►Boosts allies' M.DEF by $3.\n►Recovers allies' HP by $4/s.
+
+##S1+##
+ブレイブリーベル+=Bravery Bell+
+味方全体の物理防御力と魔法防御力を中アップさせ、さらにＴＰを小回復させる。=Moderate boost to P.DEF and allies' M.DEF, and recovers their TP by a small amount.
+r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体のＴＰを(\d+)回復$"=►Boosts allies' P.DEF by $1.\n►Boosts allies' M.DEF by $1.\n►Recovers allies' TP by $1.
+
+##UE##
 ピュアアクトベル=Pure Actress Bell

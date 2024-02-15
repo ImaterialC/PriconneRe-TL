@@ -1,10 +1,9 @@
-ウカ=Kuuka
+##Profile##
 妄想大好き！　ほんとは照れ屋な女の子=A shy girl who loves fantasizing
 小説を読むこと=Reading novel
 
-【物理】前衛で囮となり、攻撃を引き付ける暴走ドＭ娘。ユニオンバーストにより、自身に魔法バリアを張り、敵の魔法攻撃を吸収してＨＰを回復する。=[Physical]A raging masochist who acts as decoy in the vanguard to draw attacks. Her Union Burst erect a barrier that heals her by absorbing M.ATKs.
-プレジャーチョーカー=Choker of Pleasure
----Story---
+【物理】前衛で囮となり、攻撃を引き付ける暴走ドＭ娘。ユニオンバーストにより、自身に魔法バリアを張り、敵の魔法攻撃を吸収してＨＰを回復する。=[Physical] A raging masochist who acts as a decoy in the vanguard to draw attacks. Her Union Burst erects a barrier that heals her by absorbing magical attacks.
+
 空花大回転=Half flower large rotation
 体が刺激を求めています=Body wants stimulation
 クウカ、変態の時=Kuuka's Ultimate Reward
@@ -15,37 +14,37 @@
 まずはおつきあいから=Giration Blues
 遭遇！妄想爆発少女=Fantasies Gone Wild!
 
----Skill Name---
+##UB##
 エクスタシートリップ=Throes of Ecstasy
-エクスタシートランス=Trance of Ecstasy
-妄想プロテクション+=Delusion Protection+
-妄想プロテクション=Delusion Protection
-狙うならクウカを！=If You Aim For Kuuka, She'll...!
-狙うならクウカを！+=If You Aim For Kuuka, She'll...!+
-
----UB *6---
-r:"^(\d+)ダメージ分の魔法吸収バリアを展開する\n自分のＨＰを(\d+)回復\n自分が受ける魔法ダメージを25％カット$"=Deploys barrier that absorbs $1 M.DMG for 18s.\nRecovers own HP by $2.\nApplies M.DMG cut to own by 25％ for 18s.
-
-自分に魔法吸収バリアを展開し、ＨＰを中回復する。さらに自分に魔法ダメージカット効果を付与する。=Set a barrier around oneself that absorb M.DMG, and recovers own HP by a moderate amount, and grant m. damage cut to own.
-
----UB---
-r:"^(\d+)ダメージ分の魔法吸収バリアを展開する\n自分のＨＰを(\d+)回復$"=Deploys barrier that absorbs $1 M.DMG.\nRecovers own HP by $2.
-
 自分に魔法吸収バリアを展開し、さらにＨＰを中回復する。=Deploy a barrier around oneself that absorb M.DMG, and recovers own HP by a moderate amount.
+r:"^(\d+)ダメージ分の魔法吸収バリアを展開する自分のＨＰを(\d+)回復$"=►Deploys Barrier over oneself that absorbs $1 M.DMG.\n►Recovers own HP by $2.
 
----Skill 1+---
-r:"^敵全体を挑発する\n自分の物理防御力を(\d+)アップ\n自分のＨＰを(\d+)回復$"=Provokes all enemies for 16.6-17.1s.\nBoosts own P.DEF by $1.\nRecovers own HP by $2.
-
-【挑発】敵全体を挑発し、自分の物理防御力を大アップさせる。さらに自分のＨＰを中回復させる。=[Taunt] Taunt all enemies.\nLarge boost to own P.DEF, and recovers own HP by moderate amount.
-
+##S1##
+狙うならクウカを！=Play with Me Instead!
 【挑発】敵全体を挑発し、さらに自分の物理防御力を大アップさせる。=[Taunt] Taunts all enemies. Small boost to own physical defense.
-r:"^敵全体を挑発する\n自分の物理防御力を(\d+)アップ$"=Provokes all enemies.\nBoosts own physical defense by $1.
----Skill 2---
-激しいの歓迎ですう！=A Fierce Welcome!
-激しいの歓迎ですう！+=A Fierce Welcome!+
-r:"^自分の魔法防御力を(\d+)アップ$"=►Boost own M.DEF by $1.
+r:"^敵全体を挑発する自分の物理防御力を(\d+)アップ$"=►Provokes all enemies.\n►Boosts own P.DEF by $1.
+
+##S2##
+激しいの歓迎ですう！=I Like It Rough!
 自分の魔法防御力を大アップする。=Moderate boost to own M.DEF.
----EX skill---
+r:"^自分の魔法防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.
+
+##EX##
+妄想プロテクション=Sheltered by Fantasy
+妄想プロテクション+=Sheltered by Fantasy+
 バトル開始時に自分の魔法防御力を大アップさせる。=Large boost to own M.DEF at start of battle.
 バトル開始時に自分の魔法防御力を中アップさせる。=Moderate boost to own M.DEF at start of battle.
 r:"^自分の魔法防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.
+
+##UB+##
+エクスタシートランス=Trance of Ecstasy
+自分に魔法吸収バリアを展開し、ＨＰを中回復する。さらに自分に魔法ダメージカット効果を付与する。=Deploys Barrier over oneself that absorb M.DMG, recovers own HP by a moderate amount, and grants M.DMG Cut to self.
+r:"^(\d+)ダメージ分の魔法吸収バリアを展開する自分のＨＰを(\d+)回復自分が受ける魔法ダメージを25％カット$"=►Deploys Barrier over oneself that absorbs $1 M.DMG for 18s.\n►Recovers own HP by $2.\n►Grants M.DMG Cut to self by 25％ for 18s.
+
+##S1+##
+狙うならクウカを！+=Play with Me Instead!+
+【挑発】敵全体を挑発し、自分の物理防御力を大アップさせる。さらに自分のＨＰを中回復させる。=[Taunt] Taunts all enemies. Greatly boosts own P.DEF, and recovers own HP by moderate amount.
+r:"^敵全体を挑発する自分の物理防御力を(\d+)アップ自分のＨＰを(\d+)回復$"=►Provokes all enemies for 16.6-17.1s.\n►Boosts own P.DEF by $1.\n►Recovers own HP by $2.
+
+##UE##
+プレジャーチョーカー=Choker of Pleasure

@@ -1,0 +1,26 @@
+##Profile##
+【物理】後衛で、希望の力で戦う、不思議の国の救世主。クリティカルすると効果アップのスキルや味方の数が多い程、威力がアップするユニオンバーストで敵を殲滅する。=[Physical] A savior of Wonderland who fights in the rearguard with the power of hope. When critical, she annihilates enemies with Union Burst, which increases in power the more skills and allies she has.
+
+##UB##
+ファンタジックユニゾン=Fantastic Unison
+目の前の敵１キャラに物理中ダメージを与える。味方の人数に応じて、このスキルのダメージがアップする。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals moderate P.DMG to an enemy in front. Increases this skill's DMG based on the number of allies around. If this skill is critical, the DMG will tripled.
+
+##S1##
+ワンダーイリュージョン=Wonder Illusion
+目の前の敵１キャラに物理中ダメージを与え、自分の物理クリティカルを中アップさせ、さらにＴＰを中回復する。=Deals moderate P.DMG to an enemy in front. Boosts own P.CRIT Rate by a moderate amount, and recovers own TP by a moderate amount.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理クリティカルを(\d+)アップ自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.CRIT Rate by $2 for 180s.\n►Recovers own TP by $3.
+
+##S2##
+ワンダーアロー=Wonder Arrow
+目の前の敵１キャラに物理中ダメージを与える。このスキルがクリティカルした場合、さらに物理防御力を中ダウンさせる。=Deals moderate P.DMG to an enemy in front. If this skill is [b]critical[/b], it will further lower an enemy's P.DEF by a moderate amount.
+
+##EX##
+ハートフルフレンズ=Heartful Friends
+ハートフルフレンズ+=Heartful Friends+
+
+##S1+##
+ワンダーイリュージョン+=Wonder Illusion+
+目の前の敵１キャラに物理中ダメージを与え、自分の物理クリティカルを中アップさせ、さらにＴＰを中回復する。味方の人数に応じて、このスキルの効果値が増加する。=Deals moderate P.DMG to an enemy in front. Boosts own P.CRIT Rate by a moderate amount, and recovers own TP by a moderate amount. This skill's effects increase depending amount of allies.
+
+##UE##
+ワンダーランドボウ=Wonderland Bow

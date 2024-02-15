@@ -1,0 +1,29 @@
+##Profile##
+【魔法】後衛でぬいぐるみ達と大冒険に挑むマホ隊員。味方に付与する【ふわふわウール】は被ダメージ時に消費されＴＰを回復し、一気呵成の反撃で活路を切り拓く。=[Magic] A Maho's Squad who challenges a big adventure with stuffed animals in the RG. [Fluffy Wool] granted to allies is consumed when damaged, recovering TP, and opening up a way out with a one-shot counterattack.
+
+##UB##
+メルヘンエクスプロール=Fairy-tale Explorer
+前方範囲内の敵すべてに魔法大ダメージを与え、味方全体の魔法攻撃力を大アップする。=Deals large M.DMG to enemies in range, and greatly boosts all allies' M.ATK.
+r:"^範囲内の敵に(\d+)の魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to enemies in 1000 range.\n►Boosts all allies' M.ATK by $2 for 18s.
+
+##S1##
+マホマホユニコーンスタンプ=Maho-Maho Unicorn Stamp
+味方全体の魔法攻撃力と魔法クリティカルを大アップさせ、前方範囲内の敵すべてに魔法中ダメージを与える。=Greatly boosts all allies' M.ATK and M.CRIT Rate, and deals moderate M.DMG to enemies in range.
+r:"^範囲内の敵に(\d+)の魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ$"=Cast time: 0.72s\n►Deals $1 M.DMG to enemies in 1000 range.\n►Boosts all allies' M.ATK by $2 for 12s.\n►Boosts all allies' M.CRIT Rate by 100 for 12s.
+
+##S2##
+マホマホフェルトエール=Maho-Maho Felt Cheer
+味方全体に【ふわふわウール】を１つ付与し、ＨＰを中回復する。さらに自分のＴＰを中回復する。【ふわふわウール】はダメージを受けるたびに消費され、ＴＰを小回復する。【ふわふわウール】は最大２まで追加される。=Grants 1 [Fluffy Wool] to all allies and recovers their HP by a moderate amount. Additionally, moderately recovers own TP. [Fluffy Wool] is consumed each time an ally receives damage, and slightly recovers their TP. [Fluffy Wool] can be added up to 2.
+r:"^ダメージを受けた時、ＴＰを100回復して消失する【ふわふわウール】を味方全体に１つ付与する味方全体のＨＰを(\d+)回復自分のＴＰを250回復$"=Cast time: 1.00s\n►Grants 1 [Fluffy Wool] to all allies that recovers 100 TP when damaged.\n►Recovers all allies' HP by $1.\n►Recovers own TP by 250.
+
+##EX##
+メルヘンハートビート=Fairy-tale Heartbeat
+メルヘンハートビート+=Fairy-tale Heartbeat+
+
+##S1+##
+マホマホユニコーンスタンプ+=Maho-Maho Unicorn Stamp+
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。さらに、前方範囲内の敵すべてに魔法大ダメージを与える。=Massively boosts all allies' M.ATK, greatly boosts their M.CRIT Rate, and slightly boosts their M.CRIT DMG. Additionally, deals massive M.DMG to enemies in range.
+r:"^範囲内の敵に(\d+)の魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを120アップ味方全体の魔法攻撃クリティカル時のダメージを5％アップ$"=►Deals $1 M.DMG to enemies in 1000 range.\n►Boosts all allies' M.ATK by $2 for 12s.\n►Boosts all allies' M.CRIT Rate by 120 for 12s.\n►Boosts all allies' M.CRIT DMG by 5% for 12s.
+
+##UE##
+マホマホトラベラースーツ=Maho-Maho Traveler Suit

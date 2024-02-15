@@ -1,10 +1,8 @@
-リヤ=Illya
+##Profile##
 世界征服=World Domination
 かつては夜を支配した最強の吸血鬼=A legendary vampire who once ruled over the night
 
 【魔法】中衛で命を削り攻撃する「夜を統べる者」。自身のＨＰと引き換えに放つスキルは高い殲滅力を誇り範囲攻撃における威力では他の追随を許さない。=[Magic] The Ruler of the Night who siphons enemies' life from the midguard. She possesses skills that trade her own HP for massively destructive area attacks that deal peerless damage.
-
-Story
 
 夜を統べる者の最期？=An Inglorious End?
 復活の秘宝を求めて=In search of Rare treasure
@@ -15,33 +13,36 @@ Story
 大人になりたい少女の悩み=The Girl Who Wanted to Grow Up
 夜を統べる者との出会い=Ruler of the Night
 紅き月の女帝=Red Moon Emperor
-UB
+
+##UB##
 ヴァーミリオンバイト=Vermilion Bite
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n自分のＨＰを(\d+)回復$"=►Shift to the nearest enemy target and return to original position after skill ends.\n►Deals $1 M.DMG to enemies in Frontline within 250 Range.\n►Recovers own HP by $2.
 最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージ\nを与え、さらに自分のＨＰを中回復させる。=Deals large M.DMG to all enemies in range and recovers own HP by moderate amount.
+r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復$"=►Shifts to the nearest enemy target and returns to original position after skill ends.\n►Deals $1 M.DMG to enemies in 250 range.\n►Recovers own HP by $2.
 
-ヴァーミリオンエンプレス=Vermilion Empress
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n自分のＨＰを(\d+)回復\n自分がクリティカルを受けた際のダメージを50％ダウン$"=►Shift to the nearest enemy target and return to original position after skill ends.\n►Deals $1 M.DMG to enemies in Frontline within 250 Range.\n►Recovers own HP by $2.\n►Boost to own 50% M.Crit DMG resistance for 18s.\n►Receive Blessing of Twilight.
-最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、自分のＨＰを中回復し、クリティカルを受けた際のダメージを大ダウンさせる。さらに【宵闇の加護】を１つ追加する。【宵闇の加護】を得た状態で使用するスキルのダメージが【宵闇の加護】の個数に応じて増加する。【宵闇の加護】は最大４まで追加される。=Deals M.DMG to all enemies within range centered on the closest enemy, restores own HP moderately, and greatly reduces damage taken from critical hits. Also adds one stack of 【Blessing of Twilight】, which increases damage of skills used with it (up to 4 stacks).
-
-Skill 1+
-自分の魔法攻撃力を中アップさせ、さらに目の前の敵１キャラに魔法大ダメージを与えるが、自分のＨＰを消費する。=Moderate boost to own M.ATK. Deals moderate M.DMG to an enemy directly in front at cost of own HP.
-
-r:"^自分のＨＰを(\d+)消費\n自分の魔法攻撃力を(\d+)アップ\n敵単体に(\d+)の魔法ダメージ$"=►Reduces own HP by $1.\n►Boost own M.ATK by $2.\n►Deals magic $3 damage to an enemy.
-
-自分の魔法攻撃力を中アップさせ、さらに目の前の敵１キャラに魔法中ダメージを与えるが、自分のＨＰを消費する。=Moderate boost to own M.ATK. Deals moderate M.DMG to an enemy directly in front at the cost of own HP.
-Skill 2
-前方範囲内の敵すべてに魔法中ダメージを与えるが、自分のＨＰを消費する。=Deals Moderate M.DMG to all enemies in the Frontline at cost own HP.
-
-r:"^自分のＨＰを(\d+)消費\n範囲内の敵に(\d+)の魔法ダメージ$"=►Reduces own HP by $1.\n►Deals $2 M.DMG to all enemies in the frontline within 600 Range.
-EX skill
-血の契約+=Blood Pact+
-血の契約=Blood Pact
-ブラッディスピア=Bloody Spear
-ブリーディングブラスト+=Bloodthirsty Blast+
+##S1##
 ブリーディングブラスト=Bloodthirsty Blast
-r:"^自分の魔法攻撃力を(\d+)アップ$"=►Boost own M.ATK by $1.
+自分の魔法攻撃力を中アップさせ、さらに目の前の敵１キャラに魔法中ダメージを与えるが、自分のＨＰを消費する。=Moderate boost to own M.ATK. Deals moderate M.DMG to an enemy directly in front at the cost of own HP.
+
+##S2##
+ブラッディスピア=Bloody Spear
+前方範囲内の敵すべてに魔法中ダメージを与えるが、自分のＨＰを消費する。=Deals Moderate M.DMG to all enemies in the frontline at cost own HP.
+r:"^自分のＨＰを(\d+)消費範囲内の敵に(\d+)の魔法ダメージ$"=►Reduces own HP by $1.\n►Deals $2 M.DMG to all enemies in 600 Range.
+
+##EX##
+血の契約=Blood Pact
+血の契約+=Blood Pact+
 バトル開始時に自分の魔法攻撃力を大アップさせる。=Large boost to own M.ATK at start of battle.
-Unique
+r:"^自分の魔法攻撃力を(\d+)アップ$"=►Boosts own M.ATK by $1.
+
+##UB+##
+ヴァーミリオンエンプレス=Vermilion Empress
+最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、自分のＨＰを中回復し、クリティカルを受けた際のダメージを大ダウンさせる。さらに【宵闇の加護】を１つ追加する。【宵闇の加護】を得た状態で使用するスキルのダメージが【宵闇の加護】の個数に応じて増加する。【宵闇の加護】は最大４まで追加される。=Deals M.DMG to all enemies within range centered on the closest enemy, restores own HP moderately, and greatly reduces damage taken from critical hits. Also adds one stack of 【Blessing of Twilight】, which increases damage of skills use with it (up to 4 stacks).
+r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復自分がクリティカルを受けた際のダメージを50％ダウン$"=►Shifts to the nearest enemy target and returns to original position after skill ends.\n►Deals $1 M.DMG to enemies in 250 range.\n►Recovers own HP by $2.\n►Boosts own M.CRIT DMG resistance by 50% for 18s.\n►Receives Blessing of Twilight.
+
+##S1+##
+ブリーディングブラスト+=Bloodthirsty Blast+
+自分の魔法攻撃力を中アップさせ、さらに目の前の敵１キャラに魔法大ダメージを与えるが、自分のＨＰを消費する。=Moderate boost to own M.ATK. Deals moderate M.DMG to an enemy directly in front at the cost of own HP.
+r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ敵単体に(\d+)の魔法ダメージ$"=►Reduces own HP by $1.\n►Boosts own M.ATK by $2.\n►Deals magic $3 damage to an enemy.
+
+##UE##
 闇斧ナハトファング=Dark Axe Nachfang

@@ -1,23 +1,28 @@
-【魔法】中衛で、魔法キャラを補助する夜凪の魔法士。累積する攻撃強化スキルとＴＰ回復、物魔両面の無効バリアや継続ＨＰ回復で攻守共に味方を支え勝利へ導く。=[Magic] A magical sorceress of the tranquil night who supports magic characters in the middle guard. She assists her allies with accumulating attack enhancement skills, TP recovery, dual protection barriers against physical and magical attacks, and continuous HP regeneration, leading them to victory in both offense and defense.
+##Profile##
+【魔法】中衛で、魔法キャラを補助する夜凪の魔法士。累積する攻撃強化スキルとＴＰ回復、物魔両面の無効バリアや継続ＨＰ回復で攻守共に味方を支え勝利へ導く。=[Magic] A magical sorceress of the tranquil night who supports magic allies in midlines. She assists allies with accumulating attack enhancement skills, TP recovery, dual protection barriers against P/M.DMG, and continuous HP recovery, leading to victory in both offense and defense.
 
-魔法攻撃を行うすべての味方キャラの魔法攻撃力を中アップさせ、物理/魔法無効バリアを展開し、さらに継続ＨＰ回復状態を付与する。このスキルの魔法攻撃力の上昇量は自分の残りＨＰに応じて最大２倍までアップする。=Boosts the M.ATK of all magic allied to a moderate degree, deploys P/M immunity barriers, and grants continuous HP regeneration. The boost in M.ATK from this skill can be up to double, based on her remaining HP.
-
-魔法攻撃を行うすべての味方キャラの魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。=Boosts the M.ATK, M.crit, and damage of magic critical hits for all allied characters performing magic attacks.
-
-魔法攻撃を行うすべての味方キャラのＴＰを小回復させ、自分のＨＰを小回復する。=Small restores TP for all allied characters performing magic attacks and small restores her own HP.
-
-r:"^対象の味方の魔法攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法無効バリアを展開する\n毎秒ＨＰを(\d+)回復する$"=►Boosts M.ATK of the target allies by $1 for 90s.\n►Deploy a barrier that Nullifies P/M. DMG $2 to target allies for 18s.\n►Recovers HP of the target allies by $3/s for 18s.
-
-r:"^対象の味方の魔法攻撃力を(\d+)アップ\n対象の味方の魔法クリティカルを(30|60)アップ\n対象の味方の魔法攻撃クリティカル時のダメージを(1|3|３)％アップ$"=Cast time: 0.66s\n►Boosts M.ATK of the target allies by $1 for 90s.\n►Boosts M.crit Rate of the target allies by $2 for 90s.\n►Boosts M.crit DMG of the target allies by $3% for 90s.
-
-r:"^対象の味方のＴＰを100回復\n自分のＨＰを(\d+)回復$"=Cast time: 0.66s\n►Recovers TP of the target allies by 100.\n►Recovers own HP by $1.
-
-魔法攻撃を行うすべての味方キャラの魔法攻撃力と魔法クリティカルを中アップし、魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力の上昇量は自分の残りＨＰに応じて最大２倍までアップする。=Boosts the M.ATK and M.crit of all allied characters who perform magic attacks to a medium extent and slightly increases the M.crit dmg. The increase in M.ATK from this skill can be up to double based on her remaining HP.
-
+##UB##
 スプレッドアフェクション=Spread Affection
+魔法攻撃を行うすべての味方キャラの魔法攻撃力を中アップさせ、物理/魔法無効バリアを展開し、さらに継続ＨＰ回復状態を付与する。このスキルの魔法攻撃力の上昇量は自分の残りＨＰに応じて最大２倍までアップする。=Moderately boosts all M-type allies' M.ATK, deploys Barrier over them that negates P/M.DMG, and grants continuous HP recovery to them. The M.ATK boost increases up to double, based on own remaining HP.
+r:"^対象の味方の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する$"=►Boosts all M-type allies' M.ATK by $1 for 180s.\n►Deploys Barrier over all M-type allies' that negates $2 P/M.DMG for 18s.\n►Recovers all M-type allies' HP by $3/s for 18s.
+
+##S1##
 マリンコンフィデンス=Marine Confidence
-マリンコンフィデンス+=Marine Confidence+
+魔法攻撃を行うすべての味方キャラの魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。=Slightly boosts all M-type allies' M.ATK, M.CRIT Rate, and M.CRIT DMG.
+r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリティカルを(30|60)アップ対象の味方の魔法攻撃クリティカル時のダメージを(1|3|３)％アップ$"=Cast time: 0.66s\n►Boosts all M-type allies' M.ATK by $1 for 180s.\n►Boosts all M-type allies' M.CRIT Rate by $2 for 180s.\n►Boosts all M-type allies' M.CRIT DMG by $3% for 180s.
+
+##S2##
 ヴァイタルウェーブ=Vital Wave
+魔法攻撃を行うすべての味方キャラのＴＰを小回復させ、自分のＨＰを小回復する。=Slightly recovers all M-type allies' TP, and slightly recovers own HP.
+r:"^対象の味方のＴＰを100回復自分のＨＰを(\d+)回復$"=Cast time: 0.66s\n►Recovers all M-type allies' TP by 100.\n►Recovers own HP by $1.
+
+##EX##
 ラバーズオンザビーチ=Lovers on the Beach
 ラバーズオンザビーチ+=Lovers on the Beach+
+
+##S1+##
+マリンコンフィデンス+=Marine Confidence+
+魔法攻撃を行うすべての味方キャラの魔法攻撃力と魔法クリティカルを中アップし、魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力の上昇量は自分の残りＨＰに応じて最大２倍までアップする。=Moderately boosts all M-type allies' M.ATK and M.CRIT Rate, and slightly boosts their M.CRIT DMG. The M.ATK boost increases up to double, based on own remaining HP.
+
+##UE##
 トゥインクルサマーバンド=Twinkle Summer Band

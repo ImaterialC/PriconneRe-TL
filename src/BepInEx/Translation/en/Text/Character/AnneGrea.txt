@@ -1,0 +1,30 @@
+##Profile##
+【魔法】中衛で、魔力共鳴し連撃を放つマナリアの双姫。ステータスアップ効果を受けると増加する【友情の魔印】がスキルを強化し、波長を合わせた炎の魔槍で敵を討つ。=[Magic] The two princesses of Manaria that resonate with one another to fire a barrage of magical attacks from the midline. With [Magic Seal of Friendship] from stat boosts, they can power up their skills and unleash a flaming magic spear to decimate their foes.
+
+一緒にピアノを連弾すること=Playing piano together
+ヒューマン、半人半竜=Human, half-human half-dragon
+
+約束を誓い合うマナリアの双姫=Two princesses of Manaria who have pledged their vows
+人助けの魔法=Magic of Helping People
+再会の魔法=Magic of Reunion
+繋がりあう魔法=Magic to Connect
+素直になる魔法=Magic of Being Honest
+
+##UB##
+レイディアントインフェルノ=Radiant Inferno
+目の前の敵１キャラに魔法大ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。さらに、自分の周囲の味方すべての魔法攻撃力を大アップさせる。=Deals large M.DMG to an enemy in front twice. The M.DMG dealt increases according to number of [Magic Seal of Friendship]. Additionally, greatly boosts allies' M.ATK in range.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 (+0.225×$1× \n[Magic Seal of Friendship]) M.DMG to an enemy.\n►Deals $2 (+0.225×$1× \n[Magic Seal of Friendship]) M.DMG to an enemy.\n►Boosts allies' M.ATK in 200 range by $3 for 18s.
+
+##S1##
+フレンズリンケージ=Friends Linkage
+目の前の敵１キャラに魔法小ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。=Deals small M.DMG to an enemy in front twice. The M.DMG dealt increases according to number of [Magic Seal of Friendship]. 
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=Cast time: 1.59s\n►Deals $1 (+0.075×$1× \n[Magic Seal of Friendship]) M.DMG to an enemy.\n►Deals $2 (+0.075×$1× \n[Magic Seal of Friendship]) M.DMG to an enemy.
+
+##S2##
+フレンズリード=Friends Lead
+自分がステータスアップ効果を受ける度に、【友情の魔印】が１つ追加される。【友情の魔印】は最大40まで追加される。さらに自分の魔法攻撃力と魔法クリティカルを特大アップさせ、ＴＰ上昇を小アップさせる。=Whenever Anne & Grea receives a boost, gains 1 [Magic Seal of Friendship], up to a maximum of 40. Also, greatly boosts own M.ATK and M.CRIT Rate, and slightly boosts own TP Boost.
+r:"^ステータスアップ効果を受けるたびに【友情の魔印】を付与する状態になる自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを200アップ自分のＴＰ上昇を15アップ$"=Cast time: 0.59s\n►When receives a boost, gains 1 [Magic Seal of Friendship].\n►Boosts own M.ATK by $1 for 180s.\n►Boosts own M.CRIT Rate by 200 for 180s.\n►Boosts own TP Boost by 15 for 180s.
+
+##EX##
+マナリアハート=Manaria Heart
+マナリアハート+=Manaria Heart+

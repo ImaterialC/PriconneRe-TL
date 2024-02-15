@@ -1,0 +1,28 @@
+##Profile##
+【魔法】後衛で、膨大な魔力を振るう、真夏のおとぎ姫。高火力で対象がランダムなスキルやユニオンバーストは、攻撃対象が１つの敵に対して絶大なダメージを叩き出す。=[Magic] A midsummer's fairy tale princess who supports the party from the rearguard with her immense magical reserves. Though her powerful skills and Union Burst affect random targets, they become even more devastating when focused onto a single enemy.
+
+##UB##
+メルヘンサマーパレード=Fairy-tale Summer Parade
+ランダムな敵キャラに、単体魔法中ダメージを計４回与える。=Deals moderate M.DMG to a random enemy 4 times.
+
+##S1##
+マホマホサマーフレンズ=Maho-Maho Summer Friends
+自分の魔法攻撃力を中アップさせ、さらにＴＰを中回復させる。=Moderate boost to own M.ATK. Recovers own TP by a moderate amount.
+自分の魔法攻撃力を大アップさせ、さらにＴＰを中回復させる。=Large boost to own M.ATK. Recovers own TP by a moderate amount.
+r:"^自分の魔法攻撃力を(\d+)アップ\n自分のＴＰを(\d+)回復$"=►Boosts own M.ATK by $1\n►Recovers own TP by $2.
+
+##S2##
+マホマホサマーブロッサム=Maho-Maho Summer Blossom
+ランダムな敵１キャラに魔法大ダメージを与える。=Deals large M.DMG to a random enemy.
+
+##EX##
+メルヘンパワー=Fairy-tale Power
+メルヘンパワー+=Fairy-tale Power+
+
+##S1+##
+マホマホサマーフレンズ+=Maho-Maho Summer Friends+
+自分の魔法攻撃力を特大アップさせ、ＴＰを中回復させ、さらにＴＰ上昇を小アップさせる。=Large boost to own M.ATK. Recovers own TP by a moderate amount, and slightly boosts own TP Boost.
+r:"^自分の魔法攻撃力を(\d+)アップ自分のＴＰを(\d+)回復自分のＴＰ上昇を(\d+)アップ$"=►Boosts own M.ATK by $1\n►Recovers own TP by $2.\n►Boosts own TP Boost by $3 for 15s.
+
+##UE##
+夏華杖ファンシーロア=Summer Fancy Roar Staff

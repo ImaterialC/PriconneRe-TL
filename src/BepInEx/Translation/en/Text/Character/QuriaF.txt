@@ -1,0 +1,25 @@
+##Profile##
+【物理】中衛から、我が身を盾に味方を守る隠棘の少女。バトル開始時【飛行】し、最もＨＰの低い味方をかばい、味方のＨＰに応じて強化されるスキルで敵を牽制する。=[Physical] A girl of hidden thorns who becomes a shield to protect her allies at expense of own life. When battle begins, she goes into [Flight] state that dodges the enemy's range attack and protects the lowest HP ally by taking hits in their stead. She then uses skills to restrain the enemy.
+
+忘れ難い罪過を抱える、黒き翼の聖女=Bearing unforgettable sins, the holy maiden with black wings
+お菓子作り、花の世話、バイオリン演奏=Making sweets, tending flowers, playing the violin
+
+##UB##
+シャドウ・スプリット -隠棘-=Shadow Split: Hidden Thorns
+目の前の敵１キャラに物理中ダメージを与え、自分のＨＰを中回復させる。自分を除く味方の残りＨＰに応じて、このスキルのダメージがアップする。=Deals moderate P.DMG to an enemy in front and moderately recovers own HP. he P.DMG dealt increases according to remaining HP of allies, excluding oneself.\nP.DMG: (+1.3×Allies' HP)
+
+##S1##
+ソーンメイデン=Thorn Maiden
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を中ダウンさせる。自分を除く味方の残りＨＰに応じて、このスキルのダメージがアップする。=Deals moderate P.DMG to an enemy in front and moderately lowers its P.DEF. The P.DMG dealt increases according to remaining HP of allies, excluding oneself.\nP.DMG: (+1.2×Allies' HP)
+
+##S2##
+アンビバレントガード=Ambivalent Guard
+自分以外の最もＨＰの低い味方１キャラに継続ＨＰ回復状態と【堕天使の加護】を付与する。【堕天使の加護】が付与されている間、そのキャラへの敵の攻撃を代わりに受け、自分への物理ダメージと魔法ダメージをカットし、自分が敵から受ける行動不能を無効化する。=Grants continuous HP recovery to self and [Fallen Angel's Blessing] to an ally with the lowest HP (excluding oneself) that intercepts enemy attacks directed at that ally, grants moderate P/M.DMG Cut to self, and nullifies immobility effects.
+r:"^毎秒ＨＰを(\d+)回復する自分が受ける物理ダメージを30％カット自分が受ける魔法ダメージを30％カット味方単体に【堕天使の加護】を付与自分が敵から受ける行動不能を無効化する$"=Cast time: 0.44\n►Recovers own HP by $1/s for 8s.\n►Grants P/M.DMG Cut to self by 30% for 8s.\n►Grants [Fallen Angel's Blessing] to an ally.\n►Nullifies immobility effects on self for 8s.
+
+##SP##
+このスキルのスキルレベルは「シャドウ・スプリット -隠棘-」と連動しています=This skill's skill level is linked to "Shadow Split: Hidden Thorns"
+
+##EX##
+フォールンモード（Q）=Fallen Mode (Q)
+フォールンモード（Q）+=Fallen Mode (Q)+

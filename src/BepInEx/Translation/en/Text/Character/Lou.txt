@@ -1,27 +1,30 @@
----Profile---
+##Profile##
 食べること、眠ること=Eating, sleeping
 マナリア魔法学院の新入生=A fresh-faced student of Mysteria Academy
----Skills---
----UB---
+【魔法】後衛で、オメメちゃんと戦う、ノーテンキ少女。スキルで呼び出すオメメちゃんは敵の攻撃を防ぐほか、その数が多いほどユニオンバーストの威力を増加させる。=[Magic] An airheaded young girl who fights from the rearguard together with her companion Mr. Gawker. Each little friend she summons can protect her from attacks, and their number boosts the power of her Union Burst.
+
+##UB##
 オメメチャンアタック！=Mr. Gawker Attack!
 目の前の敵１キャラを中心とした範囲内の敵すべてに、オメメちゃんがいない場合魔法小ダメージを与える。オメメチャンがいる場合、オメメちゃんの数に応じて、ダメージが増加する魔法中ダメージを与える。=Deals moderate M.DMG to all enemies in range. Damage boost for each active Mr. Gawker.
-r:"^範囲内の敵に(\d+)の魔法ダメージを5回与える$"=Deals $1 M.DMG to enemies in range 5 times.
----S1---
+r:"^範囲内の敵に(\d+)の魔法ダメージを5回与える$"=►Deals $1 M.DMG to enemies in range 5 times.
+
+##S1##
+ビギナーズラック=Beginner's Luck
+オメメチャン出番ですぅ！=Come on Out, Mr. Gawker!
 オメメちゃんを１体呼び出す。オメメちゃんはルゥがダメージを受けるたびに１体逃げてしまうが、そのとき敵にダメージを与える。=Summons a Mr. Gawker. Each time Lou takes damage, one Mr. Gawker runs away, dealing damage to an enemy.
-r:"^攻撃してきた敵に(\d+)ダメージを与えて消失するオメメちゃんを最大5体呼び出す$"=Summons a Mr. Gawker that deals $1 damage to an enemy that attacks Lou, then disappears. (Up to 5)
----S2---
+r:"^攻撃してきた敵に(\d+)ダメージを与えて消失するオメメちゃんを最大5体呼び出す$"=►Summons a Mr. Gawker that deals $1 damage to an enemy that attacks Lou, then disappears. (Up to 5)
+
+##S2##
 目の前の敵１キャラに魔法大ダメージを与える。=Deals large M.DMG to an enemy directly in front.
 
----ex---
+##EX##
 ネバーギブアップ=Never Give Up
-
----Skills+---
----UB---
----S1---
-オメメちゃんを２体呼び出し、自分の魔法攻撃力を中アップさせる。オメメちゃんはルゥがダメージを受けるたびに１体逃げてしまうが、そのとき敵にダメージを与える。=Summons 2 Mr. Gawkers and boost to own M.ATK. Each time Lou takes damage, one Mr. Gawker runs away, dealing damage to an enemy.
-r:"^攻撃してきた敵に(\d+)ダメージを与えて消失するオメメちゃんを最大5体呼び出す\n自分の魔法攻撃力を(\d+)アップ$"=Summons a Mr. Gawker that deals $1 damage to an enemy that attacks Lou, then disappears. (Up to 5)\nBoosts own M.ATK by $2.
----S2
----ex
 ネバーギブアップ+=Never Give Up+
----UE
+
+##S1+##
+オメメチャン出番ですぅ！+=Come on Out, Mr. Gawker!+
+オメメちゃんを２体呼び出し、自分の魔法攻撃力を中アップさせる。オメメちゃんはルゥがダメージを受けるたびに１体逃げてしまうが、そのとき敵にダメージを与える。=Summons 2 Mr. Gawkers and boost to own M.ATK. Each time Lou takes damage, one Mr. Gawker runs away, dealing damage to an enemy.
+r:"^攻撃してきた敵に(\d+)ダメージを与えて消失するオメメちゃんを最大5体呼び出す自分の魔法攻撃力を(\d+)アップ$"=►Summons a Mr. Gawker that deals $1 damage to an enemy that attacks Lou, then disappears. (Up to 5)\n►Boosts own M.ATK by $2.
+
+##UE##
 オメメちゃん！=Mr. Gawker!

@@ -1,23 +1,28 @@
-【物理】前衛で母製の鎧を纏い気合い上々の獣人族騎士。自分のＨＰが低いほど与えるダメージと無効バリアの耐久力を高め、防御力ダウンと永続攻撃アップで活路を拓く。=[Physical] A beastkin knight who wears mother-made armor in the vanguard and is in high spirits. The lower her HP is, the higher the damage dealt and the durability of her negate barrier, with P.DEF debuff and perm P.ATK buff, lead to victory.
+##Profile##
+【物理】前衛で母製の鎧を纏い気合い上々の獣人族騎士。自分のＨＰが低いほど与えるダメージと無効バリアの耐久力を高め、防御力ダウンと永続攻撃アップで活路を拓く。=[Physical] A beastkin knight who wears mother-made armor in the vanguard and is in high spirits. The lower her HP is, the higher the damage dealt and the durability of her nullifying barrier, with P.DEF debuff and perm P.ATK buff, lead to victory.
 
+##UB##
 ブレイブタイガースペシャル=Brave Tiger Special
+目の前の敵１キャラに物理特大ダメージと、自分のＨＰが低いほどダメージがアップする物理ダメージを与え、味方全体の物理攻撃力を特大アップさせるが、自分がスタンする。=Deals large P.DMG to an enemy in front, deals P.DMG to an enemy according to amount of lost own HP, and greatly boosts all allies' P.ATK. Inflicts Stun to oneself.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に自分のＨＰが低いほどダメージがアップする物理ダメージ味方全体の物理攻撃力を(\d+)アップ自分を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Deals [15×HP-lost] P.DMG to an enemy.\n►Boosts all allies' P.ATK by $2 for 18s.\n►Inflicts Stun to oneself for 2s.
+
+##S1##
+ジャスティスシールド=Justice Shield
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を中ダウンさせる。自分のＨＰが低いほどダメージがアップする。=Deals moderate P.DMG to an enemy in front and moderately lowers its P.DEF. The lower own HP, the higher P.DMG dealt.
+
+##S2##
+タイガースピリット=Tiger Spirit
+自分の物理攻撃力を大アップ、物理防御力を小アップさせ、物理/魔法無効バリアを展開する。自分のＨＰが低いほどバリアの無効ダメージ量がアップする。=Greatly boosts own P.ATK, slightly boosts own P.DEF, and deploys Barrier over self that negates P/M.DMG. The lower own HP, the higher negated P/M.DMG by Barrier.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ(\d+)ダメージ分の物理魔法無効バリアを展開する$"=Cast time: 0.465s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.DEF by $2 for 180s.\n►Deploys Barrier over oneself that negates $3 P/M.DMG for 18s.
+
+##EX##
 ブレイブパワーMAX！=Brave Power MAX!
 ブレイブパワーMAX！+=Brave Power MAX!+
-タイガースピリット=Tiger Spirit
-ジャスティスシールド=Justice Shield
+
+##S1+##
 ジャスティスシールド+=Justice Shield+
+自分の物理攻撃力と物理クリティカルを大アップさせ、目の前の敵１キャラに物理中ダメージを与え、物理防御力を中ダウンさせる。自分のＨＰが低いほどダメージがアップする。=Greatly boosts own P.ATK and P.CRIT, deals large P.DMG to an enemy in front, and moderately lowers its P.DEF. The lower own HP, the higher P.DMG dealt.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=►Boosts own P.ATK by $1 for 18s.\n►Boosts own P.CRIT Rate by $2 for 18s.\n►Deals $3 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4 for 12s.
+
+##UE##
 ブレイブタイガーメイル=Brave Tiger Mail
-目の前の敵１キャラに物理特大ダメージと、自分のＨＰが低いほどダメージがアップする物理ダメージを与え、味方全体の物理攻撃力を特大アップさせるが、自分がスタンする。=Deals large amount of P.DMG to the first enemy character in front of you, as well as P.DMG that boost as your HP is lower, and Large boost the allies' P.ATK, but you are stunned.
-
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体に自分のＨＰが低いほどダメージがアップする物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n自分を一定時間行動不能にする$"=►Deals $1 P.DMG to enemies.\n►Deals [15xHP-lost] P.DMG to enemies. Damage boost the lower your HP is.\n►Boosts allies' P.ATK by $2 for 18s.\n►Inflict stun on self for 2s.
-
-目の前の敵１キャラに物理中ダメージを与え、物理防御力を中ダウンさせる。自分のＨＰが低いほどダメージがアップする。=Deals moderate P.DMG to the first enemy character in front and moderately decreases P.DEF. The lower your HP, the higher the damage.
-
-
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ\n(\d+)ダメージ分の物理魔法無効バリアを展開する$"=Cast Time: 0.465s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.DEF by $2 for 180s.\n►Deploys a barrier over self that nullifies $3 P/M.DMG for 18s.
-自分の物理攻撃力を大アップ、物理防御力を小アップさせ、物理/魔法無効バリアを展開する。自分のＨＰが低いほどバリアの無効ダメージ量がアップする。=Large boost own P.ATK, slightly boost P.DEF, and deploys a physical/magic immunity barrier. The lower your HP, the more barrier does.
-
-
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを80アップ\n敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン$"=►Boosts own P.ATK by $1 for 18s.\n►Boosts own P.Crit rate by 80 for 18s.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 12s.
-
-自分の物理攻撃力と物理クリティカルを大アップさせ、目の前の敵１キャラに物理中ダメージを与え、物理防御力を中ダウンさせる。自分のＨＰが低いほどダメージがアップする。=Greatly boosts own P.ATK and P.Crit, dealing large P.DMG to the enemy in front, and moderately decreasing their P.DEF. The lower her own HP, the greater the damage.

@@ -1,24 +1,29 @@
-【物理】後衛で、皆のため意を決し奮起する小さな女優。残りＨＰが多いほど物理攻撃力がアップし、物理攻撃無効バリアのスキルやＨＰ・ＴＰ継続回復で味方を支援する。=[Physical]As a backliner, she is a small actress who gathers her courage and rises up for everyone's sake. Her physical attack power increases the more HP she has left, and she supports her allies with skills such as a physical attack nullifying barrier and continuous HP/TP recovery.
+##Profile##
+【物理】後衛で、皆のため意を決し奮起する小さな女優。残りＨＰが多いほど物理攻撃力がアップし、物理攻撃無効バリアのスキルやＨＰ・ＴＰ継続回復で味方を支援する。=[Physical] As a backliner, she is a small actress who gathers her courage and rises up for everyone's sake. Her physical attack power increases the more HP she has left, and she supports her allies with skills such as a physical attack nullifying barrier and continuous HP/TP recovery.
 
+##UB##
 ブルーミングスポットライト=Blooming Spotlight
-物理攻撃を行うすべての味方キャラの物理攻撃力を中アップさせる。自分の残りＨＰが多いほど、物理攻撃力の上昇量がアップする。=Boost the allies' P.ATK who perform physical attacks by a medium amount. The higher the user's remaining HP, the more the allies' P.ATK is increased.
-r:"^対象の味方の物理攻撃力を(\d+)アップ$"=►Boosts P-type allies' P.ATK by $1(+14%×HP) for 18s.
+物理攻撃を行うすべての味方キャラの物理攻撃力を中アップさせる。自分の残りＨＰが多いほど、物理攻撃力の上昇量がアップする。=Boosts all P-type allies' P.ATK by a moderate amount. The higher own remaining %HP, the greater P.ATK\nboost is.
+r:"^対象の味方の物理攻撃力を(\d+)アップ$"=►Boosts all P-type allies' P.ATK by $1 (+0.14×HP) for 18s.
 
+##S1##
+タイニーエール=Tiny Cheer
+自分のＴＰを小回復させ、物理攻撃を行うすべての味方キャラに継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。=Recovers own TP by a small amount, and grants all P-type allies continuous HP and TP recovery.
+r:"^自分のＴＰを(\d+)回復毎秒ＨＰを(\d+)回復する毎秒ＴＰを10回復する$"=Cast time: 1.27s\n►Recovers own TP by $1.\n►Recovers all P-type allies' HP by $2/s for 10.5s.\n►Recovers all P-type allies' TP by 10/s for 10.5s.
 
-タイニーエール=Tiny Yell
-自分のＴＰを小回復させ、物理攻撃を行うすべての味方キャラに継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。=Restore a small amount of your own TP and grant all ally characters who perform a physical attack with continuous HP and TP recovery status.
-r:"^自分のＴＰを(\d+)回復\n毎秒ＨＰを(\d+)回復する\n毎秒ＴＰを10回復する$"=Cast time: 1.27s\n►Recovers own TP by $1.\n►Recovers HP of P-type allies by $2/s for 10.5s.\n►Recovers TP of P-type allies by 10/s for 10.5s.
-
-タイニーエール+=Tiny Yell+
-物理攻撃を行うすべての味方キャラの物理クリティカルを中アップさせ、継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。自分の残りＨＰが多いほど、継続ＨＰ回復量がアップし、継続ＴＰ回復量が最大1.4倍までアップする。さらに、自分のＴＰを中回復する。=Boosts P.crit rate for all physical allies and grants HP and TP regen. The effectiveness of the HP and TP regen is increased based on the user's remaining HP, with the TP regen capped at 1.4x. Additionally, the user recovers a moderate amount of TP
-r:"^自分のＴＰを200回復\n毎秒ＨＰを(\d+)回復する\n毎秒ＴＰを10回復する\n対象の味方の物理クリティカルを50アップ$"=Cast time: 1.27s\n►Recovers own TP by 200.\n►Recovers HP of P-type allies by $1(+0.5%×HP)/s for 10.5s.\n►Recovers TP of P-type allies by 10(+0.06%×HP)/s for 10.5s.\nBoosts P-type allies' P.crit rate by 50 for 12s.
-
-
+##S2##
 プロテクトベル=Protection Bell
-物理攻撃を行うすべての味方キャラに物理無効バリアを展開し、物理攻撃力を小アップさせる。自分の残りＨＰが多いほど、バリアの無効ダメージ量と物理攻撃力の上昇量がアップする。=Deploy a physical nullification barrier to all allies who perform physical attacks and increase their physical attack power by a small amount. The amount of damage nullified by the barrier and the increase in physical attack power are increased based on the user's remaining HP.
+物理攻撃を行うすべての味方キャラに物理無効バリアを展開し、物理攻撃力を小アップさせる。自分の残りＨＰが多いほど、バリアの無効ダメージ量と物理攻撃力の上昇量がアップする。=Deploys Barrier over all P-type allies that negates P.DMG, and slightly boosts their P.ATK. The higher own remaining %HP, the stronger Barrier and greater P.ATK boost are.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する対象の味方の物理攻撃力を(\d+)アップ$"=►Deploys Barrier over all P-type allies that negates $1(+0.14×HP) P.DMG for 12s.\n►Boosts all P-type allies' P.ATK by $2(+14%×HP) for 12s.
 
-r:"^(\d+)ダメージ分の物理無効バリアを展開する\n対象の味方の物理攻撃力を(\d+)アップ$"=►Deploys Barrier over all P-type allies that negates $1(+0.14×HP) P.DMG for 12s.\n►Boosts P-type allies' P.ATK by $2(+14%×HP) for 12s.
-
+##EX##
 ステージの魔法=Magic of the Stage
 ステージの魔法+=Magic of the Stage+
-リトルアクトドレス=Little Act dress
+
+##S1+##
+タイニーエール+=Tiny Cheer+
+物理攻撃を行うすべての味方キャラの物理クリティカルを中アップさせ、継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。自分の残りＨＰが多いほど、継続ＨＰ回復量がアップし、継続ＴＰ回復量が最大1.4倍までアップする。さらに、自分のＴＰを中回復する。=Boosts all P-type allies' P.CRIT Rate, and grants continuous HP and TP to them. The higher own remaining %HP, the greater HP/TP Regen is. Additionally, recovers own TP by a moderate amount.
+r:"^自分のＴＰを200回復毎秒ＨＰを(\d+)回復する毎秒ＴＰを10回復する対象の味方の物理クリティカルを50アップ$"=Cast time: 1.27s\n►Recovers own TP by 200.\n►Recovers all P-type allies' HP by $1(+0.005×HP)/s for 10.5s.\n►Recovers all P-type allies TP' by 10(+0.00006×HP)/s for 10.5s.\n►Boosts all P-type allies' P.CRIT Rate by 50 for 12s.
+
+##UE##
+リトルアクトドレス=Little Act Dress

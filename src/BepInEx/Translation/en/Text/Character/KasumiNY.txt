@@ -1,0 +1,22 @@
+##Profile##
+【魔法】後衛で、絵馬に秘めた願いを祷る新年の名探偵。敵と味方の数で効果量が上昇するダメージと攻撃力支援に加え、２種類の回復スキルを使いこなして勝利を願う。=[Magic] A New Year's detective who prays for hidden wishes on votive tabet in the rearguard. In addition to damage and offensive power support, which increase in effectiveness with number of enemies and allies, she also uses two types of recovery skills to achieve victory.
+
+##UB##
+ニューディスカバリー=New Discovery
+前方範囲内の敵すべてに魔法中ダメージを与え、自分を中心とした範囲内の味方すべてのＨＰを中回復させ、魔法攻撃力を特大アップさせる。味方と敵の数に応じてダメージと魔法攻撃力の上昇量が最大10キャラ分までアップする。=Deals moderate M.DMG to enemies in range, moderately recovers allies' HP in range, and greatly boosts their M.ATK. The M.DMG dealt and M.ATK boost increase according to number of allies and enemies, up to a maximum of 10.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方のＨＰを(\d+)回復$"=►Deals $1 (+0.3×$1× \nAlly+Enemy Count) M.DMG to enemies in 1000 range.\n►Boosts allies' M.ATK in 250 by $2 (+0.8×$2×Ally+Enemy Count) for 18s.\n►Recovers allies' HP in 250 range by $3.
+
+##S1##
+スピニングフォーチュン=Spinning Fortune
+最も魔法攻撃力が高い味方１キャラのＴＰを小回復する。さらにそのキャラを中心とした範囲内の味方すべての魔法攻撃力を中アップさせる。味方と敵の数に応じてこのスキルの効果量が最大10キャラ分までアップする。=Slightly recovers an ally's TP with highest M.ATK. Additionally, moderately boosts allies' M.ATK in range. The M.ATK boost increases according to number of allies and enemies, up to a maximum of 10.
+r:"^味方単体のＴＰを25回復範囲内の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.05s\n►Recovers an ally's TP by 25 (+15× \nAlly+Enemy Count).\n►Boosts allies' M.ATK in 250 range by $1 (+0.8×$1×Ally+Enemy Count) for 12s.
+## Same as OYuki S2 with different TP
+
+##S2##
+テリングサークル=Telling Circle
+自分を中心とした範囲内の味方すべての魔法攻撃力を中アップさせ、前方範囲内の敵すべてに魔法中ダメージを与える。味方と敵の数に応じてこのスキルの効果量が最大10キャラ分までアップする。=Moderately boosts allies' M.ATK in range, and deals moderate M.DMG to enemies in range. The M.DMG dealt and M.ATK boost increase according to number of allies and enemies, up to a maximum of 10.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の敵に(\d+)の魔法ダメージ$"=Cast time: 1.05s\n►Boosts allies' M.ATK in 250 range by $1 (+0.8×$1×Ally+Enemy Count) for 12s.\n►Deals $2 (+0.2×$2× \nAlly+Enemy Count) M.DMG to enemies in 1000 range.
+
+##EX##
+ニューイヤートゥルース=New Year Truth
+ニューイヤートゥルース+=New Year Truth+

@@ -1,0 +1,28 @@
+##Profile##
+【物理】前衛で、氷を創出し味方を護る、クールな少女。目の前の敵を束縛するスキルや挑発で行動を妨害し、自身にもバリアを展開し、鉄壁の防御能力を発揮する。=[Physical] A cool girl who protects her allies by summoning ice on the front lines. While obstructing enemy attacks by binding their movements and taunting them, she protects herself from harm with a barrier to provide a flawless defense.
+
+##UB##
+アイオライト・ブルー=Iolite Blue
+目の前の敵１キャラに物理大ダメージを与え、さらに自分に物理/魔法無効バリアを展開する。=Deals large P.DMG to an enemy directly in front and deploys a barrier that negates P.DMG and M.DMG around herself.
+r:"^敵単体に(\d+)の物理ダメージ\n(\d+)ダメージ分の物理魔法無効バリアを展開\nする$"=►Deploys Barrier over oneself that negates $2 P/M.DMG for 18s.\n►Deals $1 P.DMG to an enemy.
+
+##S1##
+ラズール・レオ=Lazuli Leo
+前方範囲内の敵すべてに物理小ダメージを与え、物理防御力と魔法防御力を小ダウンさせ、さらに敵全体を挑発する。=Deals small P.DMG to all enemies in range, lowers their P.DEF and M.DEF by a small amount, and taunts all enemies.
+
+##S2##
+アウィン・ジャッジメント=Hauyne Judgement
+前方範囲内の敵すべてを束縛する。=Inflicts Bind on all enemies in range.
+r:"^範囲内の敵を一定時間行動不能にする$"=►Inflicts Bind to all enemies in range 400 for 2.5s.
+
+##EX##
+蒼穹の鼓動=Azure Pulse
+蒼穹の鼓動+=Azure Pulse+
+
+##S1+##
+ラズール・レオ+=Lazuli Leo+
+前方範囲内の敵すべてに物理中ダメージを与え、物理防御力と魔法防御力を小ダウンさせ、さらに敵全体を挑発し、自分の物理防御力と魔法防御力を中アップする。=Deals moderate P.DMG to all enemies in range, lowers their P.DEF and M.DEF by a small amount, and taunts all enemies. Also, boosts own P.DEF and M.DEF by a moderate amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン\n敵全体を挑発する\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ$"=►Provokes all enemies for 19s.\n►Deals $1 P.DMG to enemies in 400 range.\n►Lowers enemies' P.DEF in 400 range by $2 for 12s.\n►Lowers enemies' M.DEF in 400 range by $3 for 12s.\n►Boosts own P.DEF by $4 for 12s.\n►Boosts own M.DEF by $4 for 12s.
+
+##UE##
+ステージオブクール=Cool Stage

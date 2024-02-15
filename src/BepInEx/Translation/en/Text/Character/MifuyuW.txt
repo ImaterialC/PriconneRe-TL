@@ -1,0 +1,26 @@
+##Profile##
+【物理】前衛で、皆の盾となり進攻するバイトリーダー。バトル序盤は物理の攻防両方をスキルで強化。ＵＢ発動毎に自分のクリティカルをアップし猛烈な攻撃を繰り出す。=[Physical] A part-timer leader who serves as everyone's shield in the vanguard. At the beginning of the battle, she strengthens both physical offense and defense with her skills. With each used UB, she increases own critical rate and unleashes fierce attacks.
+
+##UB##
+インテグラルスパナ=Integral Spanner
+目の前の敵１キャラに物理特大ダメージを与え、さらに自分の物理クリティカルを大アップさせる。=Deals massive P.DMG to an enemy in front, and also greatly boosts own P.CRIT Rate for 180s.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.CRIT Rate by $2.
+
+##S1##
+ヘビーツール=Heavy Tool
+
+##S2##
+モディフィケーション=Modification
+自分の物理攻撃力を中アップさせ、さらに物理防御力と魔法防御力を小アップさせる。=Boosts own P.ATK by a moderate amount, and also boosts own P.DEF and M.DEF by a small amount.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.DEF by $2 for 180s.\n►Boosts own M.DEF by $3 for 180s.
+
+##EX##
+超速ラインワーク=Superspeed Linework
+超速ラインワーク+=Superspeed Linework+
+
+##S1+
+ヘビーツール+=Heavy Tool+
+目の前の敵１キャラに物理大ダメージを与え、自分の物理攻撃力を大アップし、さらに自分のＴＰを大回復させる。=Deals large P.DMG to an enemy in front, greatly boosts own P.ATK, and also greatly recovers own TP.
+
+##UE##
+機鋼槍ヴァンガードスパナ=Steel Spear Vanguard Spanner

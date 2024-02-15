@@ -1,33 +1,37 @@
-【物理】最前衛で、ひたすら敵の攻撃を避ける幽霊少女。スキルで幽霊に変身することで敵の攻撃を躱し、ユニオンバーストでは敵をプリンにして食べてしまう。=[Physical] A ghostly girl who stands on the front lines and dodges enemy attacks. When she transforms into a ghost with her skill, no attacks can hit her, and her Union Burst let her turn the enemy into pudding and eat them!
-Profile 
+##Profile##
+【物理】最前衛で、ひたすら敵の攻撃を避ける幽霊少女。スキルで幽霊に変身することで敵の攻撃を躱し、ユニオンバーストでは敵をプリンにして食べてしまう。=[Physical] A ghostly girl who stands on the front lines and dodges enemy attacks. When she transforms into a ghost, no attacks can hit her, and her Union Burst lets her turn the enemy into pudding and eat them!
+
 プリンを食べること=Eating pudding
 プリン大好きゴースト娘=A ghost girl who loves pudding
-Skills
-UB
+
+##UB##
 プリンにしてやるの=You're Pudding Now!
 目の前の敵１キャラに物理大ダメージを与え、さらに自分のＨＰを中回復する。=Deals large P.DMG to one enemy directly in front while also healing own HP by a large amount.
-r:"^敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers own HP by $2.
-S1
-う～ら～め～し～や～なの+=I~ Will~ Haunt~ You~+
+r:"^敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers own HP by $2.
+
+##S1##
 う～ら～め～し～や～なの=I~ Will~ Haunt~ You~
 【変身】幽霊に変身し、しばらくの間無敵状態になる。=Cast time: 0s\n[Transform] Transforms into a ghost, becoming invincible for a short time.
 r:"^一定時間無敵状態になる$"=►Becomes immune to all damage for 3+(0.01Lv)s.
-S2
-おやつの時間なの=It's Snack Time
+
+##S2##
+おやつの時間なの=Snack Time!
 自分のＨＰを中回復する。=Recovers own HP by a moderate amount.
 r:"^自分のＨＰを(\d+)回復$"=►Recovers own HP by $1.
-ex
+
+##EX##
 すけすけおばけなの～=Floaty Wispy Ghosty!
-Skills+
-UB
-ぜ～んぶプリンにしてやるの=Everyone's Pudding Now!
-r:"^敵単体に(\d+)の物理ダメージ\n自分のＨＰを(\d+)回復\n自分の回避を(\d+)アップ$"=►Deals $1 physical damage to a single enemy.\n►Recovers own HP by $2.\n►Boosts own dodge by $3 for 180s.
-目の前の敵１キャラに物理特大ダメージを与え、さらに自分のＨＰを中回復し、回避を中アップさせる。=Deal massive P.DMG to the enemy in front, additionally restore a moderate amount of your own HP, and increase dodge by a moderate amount.
-S1
-【変身】幽霊に変身し、しばらくの間無敵状態になる。また、自分の回避を中アップさせ、さらに物理防御力を大アップさせる。=[Transform] Transforms into a ghost, becoming invincible for a short time. Additionally, moderate boost to own Dodge and large boost to own P.DEF.
-r:"^一定時間無敵状態になる\n自分の回避を(\d+)アップ\n自分の物理防御力を(\d+)アップ$"=Cast time: 0s\n►Becomes immune to all damage for 3+(0.01Lv)s.\n►Boosts own dodge by $1 for 12s.\n►Boosts own P.DEF by $2 for 12s.
-S2
-ex
 すけすけおばけなの～+=Floaty Wispy Ghosty!+
-UE
+
+##UB+##
+ぜ～んぶプリンにしてやるの=Everyone's Pudding Now!
+r:"^敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復自分の回避を(\d+)アップ$"=►Deals $1 physical damage to a single enemy.\n►Recovers own HP by $2.\n►Boosts own dodge by $3 for 180s.
+目の前の敵１キャラに物理特大ダメージを与え、さらに自分のＨＰを中回復し、回避を中アップさせる。=Deal massive P.DMG to the enemy in front, additionally restore a moderate amount of your own HP, and increase dodge by a moderate amount.
+
+##S1+##
+う～ら～め～し～や～なの+=I~ Will~ Haunt~ You~+
+【変身】幽霊に変身し、しばらくの間無敵状態になる。また、自分の回避を中アップさせ、さらに物理防御力を大アップさせる。=[Transform] Transforms into a ghost, becoming invincible for a short time. Additionally, moderate boost to own Dodge and large boost to own P.DEF.
+r:"^一定時間無敵状態になる自分の回避を(\d+)アップ自分の物理防御力を(\d+)アップ$"=Cast time: 0s\n►Becomes immune to all damage for 3+(0.01Lv)s.\n►Boosts own dodge by $1 for 12s.\n►Boosts own P.DEF by $2 for 12s.
+
+##UE##
 霊甘ゴーストプリン=Spirit's Delight Pudding

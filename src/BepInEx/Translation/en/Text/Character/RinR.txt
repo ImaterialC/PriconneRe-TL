@@ -1,0 +1,26 @@
+##Profile##
+【物理】中衛から、敵の守りを貫くドングリレンジャー。戦闘開始と共に範囲内の敵の物理防御力を大幅に下げ、序盤から大ダメージを与えられる戦況を作り出す。=[Physical] An Acorn Ranger that pierces the enemy's defenses from the midlines. As the battle begins, greatly reduces physical defenses of opponents within range, creating a battle situation that can deal serious damage from the beginning.
+
+##UB##
+ナッツエグゼキューション=Nut Execution
+前方範囲内の敵に物理中ダメージを与え、物理防御力を小ダウンさせる。=Deals moderate P.DMG to enemies in front range, and lowers their P.DEF by a small amount.
+
+##S1##
+ナッツブレイカー=Nut Breaker
+目の前の最大３キャラまでの敵に魔法小ダメージを与える。このダメージは、遠い敵ほど増加する。=Deals small M.DMG to up to three enemies directly in front. This damage increases the more distant the enemy.
+
+##S2##
+ナッツスラッシュ=Nut Slash
+前方範囲内の敵に物理小ダメージを与え、物理防御力を小ダウンさせる。=Deals small P.DMG to enemies in front range, and lowers their P.DEF by a small amount.
+
+##EX##
+ナッツビルドアップ=Nut Buildup
+ナッツビルドアップ+=Nut Buildup+
+
+##S1+##
+ナッツブレイカー+=Nut Breaker+
+前方範囲内の敵に物理特大ダメージを与え、物理防御力を大ダウンさせるが、自分の行動速度を特大ダウンさせる。=Deals massive P.DMG to enemies in front range, greatly lowers their P.DEF, but reduces own action speed by a large amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン自分の行動速度ダウン$"=►Deals $1 P.DMG to enemies in range.\n►Lowers enemies' P.DEF in range by $2.\n►Reduces own action speed to 33% for 180s.
+
+##UE##
+ドングリレンジャーランス=Acorn Ranger Lance

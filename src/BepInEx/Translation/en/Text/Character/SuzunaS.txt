@@ -1,0 +1,28 @@
+##Profile##
+【物理】後衛で高威力の弓技を放つ夏のカリスマモデル。バトル中に一度だけ放つ「サマーランウェイ♪」でＴＰを全回復し、以降ユニオンバーストがクリティカルになる。=[Physical] A charismatic model whose archery skills shine from the rearguard. Though her Summer Catwalk can only be used once per battle, it restores her TP entirely and causes her Union Burst to always result in a critical hit.
+
+##UB##
+トロピカルスプラッシュ=Tropical Splash
+目の前の敵１キャラに物理特大ダメージを与える。既に「サマーランウェイ♪」を使用していた場合、このスキルは確定でクリティカルする。=Deals massive P.ATK to an enemy directly in front. If Summer Catwalk has already been used, this skill always results in a critical hit.
+
+##S1##
+トロピカルダーツ=Tropical Darts
+目の前の敵１キャラに物理小ダメージを３回与える。=Deals small P.DMG to an enemy directly in front 3 times.
+r:"^敵単体に(\d+)の物理ダメージを３回与える$"=►Deals $1 P.DMG to an enemy 3 times.
+
+##S2##
+サマーランウェイ♪=Summer Catwalk
+自身の物理攻撃力を特大アップさせ、さらにＴＰを特大回復させる。=Massive boost to own physical attack. Recovers own TP by a massive amount.
+r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰを全回復$"=►Boosts own P.ATK by $1 for 180s.\n►Recovers own TP by 1000.
+
+##EX##
+真夏のバイブス=Midsummer Vibes
+真夏のバイブス+=Midsummer Vibes+
+
+##S1+##
+トロピカルダーツ+=Tropical Darts+
+目の前の敵１キャラに物理小ダメージを３回与え、さらに自分の物理攻撃力を中アップさせる。このスキルは確定でクリティカルする。=Deals small P.DMG to an enemy directly in front 3 times. Additionally, boosts own P.ATK by moderate amount. This attack is always a critical hit.
+r:"^敵単体に(\d+)の物理ダメージを３回与える自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy 3 times.\n►Boosts own P.ATK by $1 for 12s.
+
+##UE##
+盛夏弓スプラッシュハート=Midsummer Bow Splash Heart

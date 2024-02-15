@@ -1,8 +1,8 @@
-Nozomi 
+##Profile## 
 歌って踊れる大人気アイドル=A popular idol known for her singing and dancing
 
 舞台鑑賞、ダンス=Watching stage performances, dancing
-【物理】前衛で、皆の壁になって戦うアイドルのぞみん。彼女がステージに立てば、味方の物理攻撃力が大きくアップし、さらに敵の注意を一手に惹き付ける。=[Physical] An idol who fights from the VG, protecting others. Once on stage, she Large boosts the attack power of allies while drawing all enemy attacks to herself.
+【物理】前衛で、皆の壁になって戦うアイドルのぞみん。彼女がステージに立てば、味方の物理攻撃力が大きくアップし、さらに敵の注意を一手に惹き付ける。=[Physical] An idol who fights from the vanguard, protecting others. Once on stage, she greatly boosts the attack power of allies while drawing all enemy attacks to herself.
 
 高みへ続く道へ=To the road leading to high levels
 輝きの原点=The origin of shine
@@ -19,33 +19,35 @@ Nozomi
 ランドソル式ダイエット=The Landosol Diet
 わけあって追われる身=Chasing a Dream
 
-Skills
-UB
+##UB##
 ライブ・オンステージ=Live on Stage
 【挑発】味方全体の物理攻撃力を小アップさせ、自分の物理防御力と魔法防御力を大アップさせる。さらに敵全体を挑発する。=[Taunt] Taunts all enemies. Moderate boost to own P.DEF and M.DEF. Small boost to allies' P.ATK.
-r:"^味方全体の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n敵全体を挑発する$"=Boosts allies' P.ATK by $1 for 18s.\nBoosts own P.DEF by $2 for 18s.\nBoosts own M.DEF by $3 for 18s.\nProvokes all enemies for 10s.
-S1
-クレールスラッシュ=Claire Slash
-クレールスラッシュ+=Claire Slash+
+r:"^味方全体の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ敵全体を挑発する$"=►Boosts allies' P.ATK by $1 for 18s.\n►Boosts own P.DEF by $2 for 18s.\n►Boosts own M.DEF by $3 for 18s.\n►Provokes all enemies for 10s.
+
+##S1##
+クレールスラッシュ=Glamorous Slice
+
 前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせて物理攻撃力を小ダウンさせる。=Deals moderate P.DMG to all enemies in range, inflicts Stun, and lowers their P.ATK by a small amount.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.25s\nDeals $1 P.DMG to enemies in 280 range.\nInflicts Stun to all enemies within 280 range for 2s.\nLowers enemies' P.ATK in 280 range by $2 for 12s.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.25s\n►Deals $1 P.DMG to enemies in 280 range.\n►Inflicts Stun to enemies in 280 range for 2s.\n►Lowers enemies' P.ATK in 280 range by $2 for 12s.
 
-S2
-アイドルエール=Idol Cheer
+##S2##
+アイドルエール=Idol's Encouragement
 自分の周囲の味方すべてのＨＰを中回復させる。=Recovers HP of all nearby allies by a small amount.
-r:"^範囲内の味方のＨＰを(\d+)回復$"=Recovers allies' HP within range by $1.
-ex
+r:"^範囲内の味方のＨＰを(\d+)回復$"=►Recovers allies' HP in range by $1.
+
+##EX##
 ルミナススマイル=Radiant Smile
-Skills+
-UB
-ライブ・オンスペシャルステージ=Live on Special Stage
-【挑発】味方全体の物理攻撃力を大アップさせ、物理/魔法無効バリアを展開し、自分の物理防御力と魔法防御力を特大アップさせる。さらに敵全体を挑発してスタンさせる。=[Taunt] Large boost the allies' P.ATK, deploys a P/M nullification barrier, and Large boost own M/P.DEF. Also provokes and stuns all enemies.
-
-r:"^味方全体の物理攻撃力を(\d+)アップ\n(\d+)ダメージ分の物理魔法無効バリアを展開する\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n敵全体を挑発する\n敵全体を一定時間行動不能にする$"=Boosts allies' P.ATK by $1 for 18s.\nDeploy a barrier that Nullifies P/M. DMG $2 to All Allies for 20s.\nBoosts own P.DEF by $3 for 18s.\nBoosts own M.DEF by $4 for 18s.\nProvokes all enemies for 11s.\nInflicts Stun to all enemies for 1.5s.
-
-ex
 ルミナススマイル+=Radiant Smile+
 バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法防御力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.DEF at start of battle.
-r:"^自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ$"=Boosts own P.DEF by $1.\nBoosts own M.DEF by $2.
-UE
+r:"^自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own M.DEF by $2.
+
+##UB+##
+ライブ・オンスペシャルステージ=Live on Special Stage
+【挑発】味方全体の物理攻撃力を大アップさせ、物理/魔法無効バリアを展開し、自分の物理防御力と魔法防御力を特大アップさせる。さらに敵全体を挑発してスタンさせる。=[Taunt] Large boost the allies' P.ATK, deploys a P/M nullification barrier, and Large boost own M/P.DEF. Also provokes and stuns all enemies.
+r:"^味方全体の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物理魔法無効バリアを展開する自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ敵全体を挑発する敵全体を一定時間行動不能にする$"=►Boosts allies' P.ATK by $1 for 18s.\n►Deploys Barrier over all allies that negates P/M.DMG $2 for 20s.\n►Boosts own P.DEF by $3 for 18s.\n►Boosts own M.DEF by $4 for 18s.\n►Provokes all enemies for 11s.\n►Inflicts Stun to all enemies for 1.5s.
+
+##S1+##
+クレールスラッシュ+=Glamorous Slice+
+
+##UE##
 ブリリアントマイク=Brilliant Microphone

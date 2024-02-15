@@ -1,0 +1,25 @@
+##Profile##
+【物理】前衛の敵を追い詰める程、力を増す幽玄南国娘。敵の体力が少ない程、効果が高まる攻撃力アップスキルとダメージ量アップの攻撃スキルで、敵を逃さず仕留める。=[Physical] A ghostly southern country girl whose power boost to the extent that she hunts down her vanguard enemies. The few the enemy's HP, the more power up skill and boost the damage amount, so you can kill the enemy without missing it.
+
+##UB##
+琉球犬ハロウィンダイヴ=Ryukyu-Ken Halloween Dive
+目の前の敵１キャラに物理大ダメージを与える。対象の最大ＨＰに対する残りＨＰの割合が少ない程ダメージがアップする。=Deals large P.DMG to an enemy in front. The smaller enemy's HP% is, the greater P.DMG dealt.
+
+##S1##
+幽玄足刀=Yugen Kick
+目の前の敵１キャラに物理中ダメージを与え、さらに自分の物理攻撃力を小アップさせる。対象の最大ＨＰに対する残りＨＰの割合が少ない程、ダメージと攻撃力の上昇量がアップする。=Deals moderate P.DMG to an enemy in front, and also slightly boosts own P.ATK. The smaller enemy's HP% is, the greater P.DMG dealt and P.ATK boost is.
+
+##S2##
+サーターアンダギーさ～=Sata Undergi~sa
+自分の物理攻撃力を中アップさせ、物理クリティカルを大アップさせる。最もＨＰの割合が低い敵の、最大ＨＰに対する残りＨＰの割合が少ない程、このスキルの効果値が増加する。=Moderately boosts own P.ATK and greatly boosts own P.CRIT Rate. The smaller enemy's HP% is, the greater P.ATK boost and P.CRIT Rate boost are.
+
+##EX##
+琉球犬式南瓜術=Ryukyu-Ken Style: Pumpkin Technique
+琉球犬式南瓜術+=Ryukyu-Ken Style: Pumpkin Technique+
+
+##S1+##
+幽玄足刀+=Yugen Kick+
+目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を小アップさせる。対象の最大ＨＰに対する残りＨＰの割合が少ない程、ダメージと攻撃力の上昇量がアップする。対象の残りＨＰが50％未満の場合、自分の物理攻撃がクリティカルした時のダメージを中アップする。=Deals large P.DMG to an enemy in front, and also slightly boosts own P.ATK. The smaller enemy's HP% is, the greater P.DMG dealt and P.ATK boost is. If an enemy's remaining HP < 50%, moderately boosts own P.CRIT DMG.
+
+##UE##
+琉球犬式・南瓜道着=Ryukyu-Ken Style: Pumpkin Uniform

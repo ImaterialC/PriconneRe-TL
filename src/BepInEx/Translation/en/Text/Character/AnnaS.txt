@@ -1,0 +1,26 @@
+##Profile##
+【魔法】前衛で皆の力を借り受け力を振るう真夏の冥姫。味方全体の魔法攻撃力を代償に自身の魔法攻撃力を劇的に高め、熾烈な攻撃魔法を繰り出し大ダメージを与える。=[Magic] Midsummer Meihime borrows everyone's power and wields it in the vanguard. At the cost of the magic attack power of all of her allies, she dramatically increases her own magic attack power and unleashes fierce attack magic, inflicting great damage.
+
+##UB##
+冥海竜蒼夏耀破=Summer Dragonics Breaker
+目の前の敵１キャラに魔法特大ダメージを与える。残りの攻撃対象が１つの場合、さらに自分の魔法攻撃力を大アップさせる。=Deals massive M.DMG to an enemy in front. If only one enemy target remains in battle, boosts own M.ATK by a large amount.
+r:"^敵単体に(\d+)の魔法ダメージ残りの攻撃対象が１つの場合、自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n\nIf only one enemy remains in battle:\n►Boosts own M.ATK by $2 for 18s.
+
+##S1##
+羅刹涅槃・海獄泉=Demonic Salvation: Sea Prison
+
+##S2##
+夏極・吸冥姫=Kakyoku: Suimeiki
+自分以外の味方全体の魔法攻撃力を特大ダウンさせるが、自分の魔法攻撃力を特大アップさせ、魔法クリティカルを大アップさせる。=Lowers all other allies' M.ATK by a large amount, but greatly boosts own M.ATK and M.CRIT Rate.
+r:"^自分以外の味方全体の魔法攻撃力を初期値の90%ダウン自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ$"=►Lowers all other allies' M.ATK by 90% for 12s.\n►Boosts own M.ATK by $1 for 12s.\n►Boosts own M.CRIT Rate by $2 for 12s.
+
+##EX##
+海極・冥縛連鎖=Kaikyoku: Meibaku Rensa
+海極・冥縛連鎖+=Kaikyoku: Meibaku Rensa+
+
+##S1+##
+羅刹涅槃・海獄泉+=Demonic Salvation: Sea Prison+
+目の前の敵１キャラに魔法大ダメージを与え、さらに魔法防御力を特大ダウンさせる。=Deals large M.DMG to an enemy in front, and greatly lowers its M.DEF.
+
+##UE##
+海魔獄滅縛鎖錨=Sea Demon Prison Chain Anchor

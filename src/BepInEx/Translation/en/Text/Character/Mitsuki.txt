@@ -1,35 +1,38 @@
-Profile
-【物理】中衛で、敵弱体化フィールドを操る隻眼の悪魔。フィールドの持続時間は短いが、範囲内の敵の物理防御力を大幅に減らす効果を持つ。=[Physical] A devil who controls the enemy weakness field with a middle guard. Although the duration of the field is short, it has the effect of Large reducing the physical defense of the enemy in the range.
+##Profile##
+【物理】中衛で、敵弱体化フィールドを操る隻眼の悪魔。フィールドの持続時間は短いが、範囲内の敵の物理防御力を大幅に減らす効果を持つ。=[Physical] The one-eyed devil that uses dampening fields on foes from the midguard. Her fields don't last long, but enemies within them have greatly reduced physical defense.
 
 研究、実験=Research, experiment
 実験が趣味の危険な科学者=A mad scientist who enjoys\nconducting experiments
-Skills
-UB
+
+##UB##
 ブラッディローズ=Bloody Rose
 前方範囲内の敵すべてに物理中ダメージを与える。このスキルでとどめを刺した敵の数に応じて、自分のＨＰを回復する。=Deals moderate P.DMG to all enemies in range. Recovers own HP for each foe defeated by this skill.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n敵を倒した数×20%のＨＰを回復$"=►Deals $1 P.DMG to enemies in range.\n►Recovers HP based on enemies defeated ×20%.
-S1
-カースブルーム=Curse Bloom
-カースブルーム+=Curse Bloom+
-前方範囲内の敵すべてを呪い状態にする。=Inflicts Curse to all enemies in range.
-r:"^(\d+)ダメージを与える呪い状態にする$"=Cast time: 1.41s\n►Inflicts Curse within 620 range that deals $1 P.DMG/s.
-S2
-ローズフィールド=Rosefield
-自分の前の一定範囲に、物理防御力を大ダウンさせるフィールドを展開する。=Deploys a field that lowers P.DEF of all enemies in range.
-r:"^フィールド内の敵の物理防御力(\d+)ダウン$"=Cast time: 0.28s\n►Deploy a field of radius 250 that reduce P.DEF of target within range by $1 for 8s.
-ex
-隻眼の悪魔=One-Eyed Devil
-Skills+
+r:"^範囲内の敵に(\d+)の物理ダメージ敵を倒した数×20%のＨＰを回復$"=►Deals $1 P.DMG to enemies in range.\n►Recovers HP based on enemies defeated ×20%.
 
-UB
+##S1##
+カースブルーム=Curse Bloom
+
+前方範囲内の敵すべてを呪い状態にする。=Inflicts Curse to all enemies in range.
+r:"^(\d+)ダメージを与える呪い状態にする$"=Cast time: 1.41s\n►Inflicts Curse in 620 range that deals $1 P.DMG/s.
+
+##S2##
+ローズフィールド=Field of Thorns
+自分の前の一定範囲に、物理防御力を大ダウンさせるフィールドを展開する。=Deploys a field that lowers P.DEF of all enemies in range.
+r:"^フィールド内の敵の物理防御力(\d+)ダウン$"=Cast time: 0.28s\n►Deploy a 250 radius field that lowers enemies' P.DEF in range by $1 for 8s.
+
+##EX##
+隻眼の悪魔=One-Eyed Devil
+隻眼の悪魔+=One-Eyed Devil+
+
+##UB+##
 ブルータルローズ=Brutal Rose
 前方の敵すべての物理防御力を大ダウンさせ、物理大ダメージを与える。このスキルでとどめを刺した敵の数に応じて、自分のＨＰを回復する。=Large lowers the P.DEF of all enemies in front and inflicts great P.DMG. Restores HP according to the number of enemies killed by this skill.
-r:"^範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵に(\d+)の物理ダメージ\n敵を倒した数×20%のＨＰを回復$"=►Lowers all enemies’ P.DEF by $1 for 18s.\n►Deals $2 P.DMG to all enemies in range.\n►Recovers HP based on enemies defeated ×20%.
-S1
+r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵に(\d+)の物理ダメージ敵を倒した数×20%のＨＰを回復$"=►Lowers all enemies' P.DEF by $1 for 18s.\n►Deals $2 P.DMG to all enemies in range.\n►Recovers HP based on enemies defeated ×20%.
+
+##S1+##
+カースブルーム+=Curse Bloom+
 前方範囲内の敵すべてを呪い状態にし、さらに行動速度を小ダウンさせる。=Inflicts Curse to all enemies in range and reduces their action speed by a small amount.
-r:"^(\d+)ダメージを与える呪い状態にする\n範囲内の敵の行動速度を一定時間低下させる$"=Cast time: 1.41s\n►Inflicts Curse within 620 range that deals $1 P.DMG/s.\n►Reduces action speed of enemies within 620 range into 95% for 12s.
-S2
-ex
-隻眼の悪魔+=One-Eyed Devil+
-UE
+r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の行動速度を一定時間低下させる$"=Cast time: 1.41s\n►Inflicts Curse in 620 range that deals $1 P.DMG/s.\n►Reduces enemies' action speed in 620 range to 95% for 12s.
+
+##UE##
 ローズオブカース=Rose of Curses

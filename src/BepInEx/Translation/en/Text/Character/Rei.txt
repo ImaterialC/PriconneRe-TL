@@ -1,7 +1,5 @@
-Profile
-レ=Re
-クールで何事にも真っ直ぐな剣士=A cool-headed swordswoman\nwho faces everything head-on
-【物理】前衛で、一点突破で敵を討つ、孤高の剣士。ユニオンバースト、スキル共に眼前の敵を倒す事に優れ、攻撃スキルやカウンターを駆使して前線を押し上げる。=[Physical] An Aloof swordswoman who deals strong, singular blows from VG. Her UB and skills excel at excel at felling enemies directly before her. allowing her to push forward with attacks and counters.
+##Profile##
+【物理】前衛で、一点突破で敵を討つ、孤高の剣士。ユニオンバースト、スキル共に眼前の敵を倒す事に優れ、攻撃スキルやカウンターを駆使して前線を押し上げる。=[Physical] An aloof swordswoman who deals strong, singular blows from the vanguard. Her Union Burst and skills excel at felling enemies directly before her, allowing her to push forward with attacks and counters.
 
 目指せ大海原=Aim for the Vast Sea
 信じるべきものは=What to Believe In
@@ -15,37 +13,38 @@ Profile
 二人だけの約束=Promise Between the Two of Us
 いつか支え合うために=To Support Each Other Someday
 心強い指南役=Reassuring Guide
-
-
 読書、乗馬、お茶=Reading, riding, tea
-Skills
-UB
+
+##UB##
 スラッシュストーム=Hurricane Slash
-S1
+
+##S1##
 ウィンドスラスト=Wind Thrust
-ウィンドスラスト+=Wind Thrust+
-S2
+
+##S2##
 カウンタースラッシュ=Counter Slash
 目の前の敵１キャラに物理中ダメージを与える。攻撃前の構え中にレイが受けたダメージに応じて、与えるダメージがアップする。=Deals moderate P.DMG to an enemy directly in front. boost to damage dealt based on the damage taken while in pre-attack stance.
-ex
+
+##EX##
 ラピッドフェンサー=Rapid Riposte
-Skills+
-UB
-スラッシュテンペスト=Slash Tempest
-目の前の敵１キャラに物理特大ダメージを与え、さらに風の刃を纏う。纏っている間、スキルの効果値が２倍になる。=Deals massive P.DMG to an enemy directly in front, and applies a Wind Blade. While wearing it, the effect value of the skill is doubled.
-r:"^敵単体に(\d+)の物理ダメージ\n一定時間風の刃を纏う$"=►Deals $1 P.DMG to an enemy.\n►Applies a Wind Blade (2x effect of the skills) for 18s.
-S1
-目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy directly in front and lowers its P.DEF by a small amount.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.
-ex
 ラピッドフェンサー+=Rapid Riposte+
 バトル開始時に自分の物理攻撃力を中アップさせ、さらに自分の最大ＨＰを小アップさせる。=Moderate boost to own P.ATK and small boost to max HP at start of battle.
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の最大ＨＰを(\d+)アップさせる$"=►Boosts own P.ATK by $1.\n►Boosts own max HP by $2.
-UE
+r:"^自分の物理攻撃力を(\d+)アップ自分の最大ＨＰを(\d+)アップさせる$"=►Boosts own P.ATK by $1.\n►Boosts own max HP by $2.
+
+##UB+##
+スラッシュテンペスト=Tempest Slash
+目の前の敵１キャラに物理特大ダメージを与え、さらに風の刃を纏う。纏っている間、スキルの効果値が２倍になる。=Deals massive P.DMG to an enemy directly in front, and applies a Wind Blade. While wearing it, the effect value of the skill is doubled.
+r:"^敵単体に(\d+)の物理ダメージ一定時間風の刃を纏う$"=►Deals $1 P.DMG to an enemy.\n►Applies a Wind Blade (x2 effect of the skills) for 18s.
+
+##S1+##
+ウィンドスラスト+=Wind Thrust+
+目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy directly in front and lowers its P.DEF by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.
+
+##UE##
 ゲイルグローブ=Glove of Gales
 
-
-
+##Comments##
 キミとなら、一緒に強くなれそうだ\nこれからよろしく=Looks like I'll be able to get stronger\nwith you. I look forward to\nworking with you from now on.
 私と互角の腕前を目指すなら、今後も修行は\n欠かさないで。たゆまぬ努力を続けていけば\nキミも私も、今よりもっと強くなれるよ=If you're aiming to be on par with me, don't miss out\non your training. If you keep working hard,\nyou and I will both become stronger than we are now.
 キミは日々、着実に成長しているね…\nただし、私を守るといったからには、\nもっと強くなって。大丈夫。キミなら出来るさ=You've been growing steadily day after day...\nBut since you said you'd protect me, you've\ngotten stronger. Don't worry. You can do it.

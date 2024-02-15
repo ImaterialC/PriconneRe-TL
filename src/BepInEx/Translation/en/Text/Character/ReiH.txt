@@ -1,0 +1,27 @@
+##Profile##
+【物理】中衛で、手負いの敵を死に誘う、幽雅の剣士。ＨＰが50％未満の敵に対し放つと、威力が大アップする範囲攻撃を繰り出し負傷した敵の戦意を一気に叩き折る。=[Physical] An elegant swordsman in the midlines that invites wounded enemies to impending death. When unleashed against an enemy with <50% HP, she unleashes an AoE attack greatly increasing own power and shattering the wounded enemy’s will to fight in one fell swoop.
+
+##UB##
+トリニティファントム=Trinity Phantom
+前方範囲内の敵すべてに物理中ダメージを与える。対象の残りＨＰが最大ＨＰの50%未満だった場合、与えるダメージが増加する。=Deals moderate P.DMG to enemies in 700 range. If the target's remaining HP < 50%, the damage dealt will be increased.
+r:"^対象の残りＨＰが50％未満の場合、範囲内の敵に(\d+)の物理ダメージ対象の残りＨＰが50％以上の場合、範囲内の敵に(\d+)の物理ダメージ$"=If enemies' remaining HP < 50%:\n►Deals $1 P.DMG to enemies.\n\nIf enemies' remaining HP ≥ 50%:\n►Deals $2 P.DMG to enemies.
+
+##S1##
+ホロウスラスト=Hollow Thrust
+前方範囲内の敵すべてに物理小ダメージを与える。対象の残りＨＰが最大ＨＰの50%未満だった場合、与えるダメージが増加し、さらに物理防御力を中ダウンさせる。=Deals small P.DMG to enemies in 700 range. If the target's remaining HP < 50%, the damage dealt will be increased and its P.DEF will be moderately lowered.
+
+##S2##
+コールオブゴースト=Call of Ghost
+自分の物理攻撃力を特大アップさせる。=Boosts own P.ATK by a large amount.
+
+##EX##
+ハロウィンフェンサー=Halloween Fencer
+ハロウィンフェンサー+=Halloween Fencer+
+
+##S1+##
+ホロウスラスト+=Hollow Thrust+
+前方範囲内の敵すべてに物理小ダメージを与える。対象の残りＨＰが最大ＨＰの50%未満だった場合、与えるダメージが増加し、さらに物理防御力を大ダウンさせる。=Deals small P.DMG to enemies in 700 range. If the target's remaining HP < 50%, the damage dealt will be increased and its P.DEF will be greatly lowered.
+r:"^対象の残りＨＰが50％未満の場合、範囲内の敵に(\d+)の物理ダメージ対象の残りＨＰが50％以上の場合、範囲内の敵に(\d+)の物理ダメージ対象の残りＨＰが50％未満の場合、範囲内の敵の物理防御力を(\d+)ダウン$"=If enemies' remaining HP < 50%:\n►Deals $1 P.DMG to enemies.\n►Lowers enemies' P.DEF by $3 for 12s.\n\nIf enemies' remaining HP ≥ 50%:\n►Deals $2 P.DMG to enemies.
+
+##UE##
+ビューティーホロウ=Beauty Hollow

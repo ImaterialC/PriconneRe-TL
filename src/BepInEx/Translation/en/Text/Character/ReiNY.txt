@@ -1,29 +1,29 @@
+##Profile##
+【物理】前衛で、魔法攻撃から味方を守る、華麗な剣士。スキルで範囲内の味方に魔法無効バリアを展開し、さらにユニオンバーストで敵をスタンさせ攻撃を断つ。=[Physical] An elegant devotee of the blade who takes the vanguard to defend against magical threats. With her skills, she erects magic-nullifying barriers around her allies, and her Union Burst stuns enemies, cutting off their attacks entirely.
 
-【物理】前衛で、魔法攻撃から味方を守る、華麗な剣士。スキルで範囲内の味方に魔法無効バリアを展開し、さらにユニオンバーストで敵をスタンさせ攻撃を断つ。=[Physical] A brilliant swordswoman in the VG, she protects her allies from M.ATK. She can use skills to deploy a magic barrier to allies within range, and UB to stuns enemies to cut off their attacks.
-
-Skills
-UB
+##UB##
 細氷剣・雪華=Icy Edge: Snowbloom
 敵全体に物理中ダメージを与え、さらにスタンさせる。=Deals moderate P.DMG to all enemies and inflicts Stun.
-r:"^敵全体に(\d+)の物理ダメージ\n敵全体を一定時間行動不能にする$"=Deals $1 P.DMG to all enemies.\nRenders all enemies immobile for a set period of time.
-S1
+r:"^敵全体に(\d+)の物理ダメージ敵全体を一定時間行動不能にする$"=►Deals $1 P.DMG to all enemies.\n►Renders all enemies immobile for a set period of time.
+
+##S1##
+雪崩返し=Avalanche Reversal
 【挑発】敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵すべてに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。=[Taunt] Taunts all enemies and enters a stance. If attacked during this stance, deals small P.DMG to all enemies in range and lowers their P.DEF by a small amount.
-r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン$"=Cast time: 1.7325s.\nProvokes all enemies for 17s.\nIf receive damage within 2s:Deals $1 P.DMG to enemies within 280 range.\nLowers P.DEF of targets by $2 for 12s.
-S2
+r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=Cast time: 1.7325s.\n►Provokes all enemies for 17s.\n\n►If receives damage in 2s:\n►Deals $1 P.DMG to enemies in 280 range.\n►Lowers enemies' P.DEF by $2 for 12s.
+
+##S2##
+白銀冬仕度=Silvery Wintertime
 自分の周囲の味方すべてに魔法無効バリアを展開し、さらに自身の魔法防御力を中アップさせる。=Deploys a barrier that negates M.DMG around all nearby allies. Moderate boost to own M.DEF.
-r:"^(\d+)ダメージ分の魔法無効バリアを展開する\n自分の魔法防御力を(\d+)アップ$"=Cast time: 0.0s.\nDeploys Barrier within 280 range that negates $1 M.DMG for 12s.\nBoosts own M.DEF by $2 for 12s.
-ex
+r:"^(\d+)ダメージ分の魔法無効バリアを展開する自分の魔法防御力を(\d+)アップ$"=Cast time: 0.0s.\n►Deploys Barrier over allies in 280 range that negates $1 M.DMG for 12s.\n►Boosts own M.DEF by $2 for 12s.
+
+##EX##
 氷壁の構え=Glacier Stance
-Skills+
-UB
-
-S1
-【挑発】敵全体を挑発し、自分の魔法防御力を特大アップ。挑発後のモーション中に攻撃された場合、前方範囲内の敵に物理中ダメージを与え、物理防御力を小ダウンさせスタンさせる。=[Taunt] Taunts all enemies, enters a stance and boost M.DEF by an massive amount. If attacked during this stance, deals medium P.DMG to all enemies in range, lowers their P.DEF by a small amount, and stuns them.
-
-r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n自分の魔法防御力を(\d+)アップ\n範囲内の敵を一定時間行動不能にする$"=Cast time: 1.7325s.\nProvokes all enemies for 17s.\nBoosts own M.DEF by $3 for 12s.\nIf receive damage within 2s:Deals $1 P.DMG to enemies within 430 range.\nLowers P.DEF of targets by $2 for 12s.\nLowers P.DEF of targets by $2 for 12s.\nInflict Stun to the targets for 1.5s.
-S2
-
-ex
 氷壁の構え+=Glacier Stance+
-UE
-氷麗刀・初華=Bingli Dao · Chuhua
+
+##S1+##
+雪崩返し+=Avalanche Reversal+
+【挑発】敵全体を挑発し、自分の魔法防御力を特大アップ。挑発後のモーション中に攻撃された場合、前方範囲内の敵に物理中ダメージを与え、物理防御力を小ダウンさせスタンさせる。=[Taunt] Taunts all enemies, enters a stance and boost M.DEF by an massive amount. If attacked during this stance, deals medium P.DMG to all enemies in range, lowers their P.DEF by a small amount, and stuns them.
+r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン自分の魔法防御力を(\d+)アップ範囲内の敵を一定時間行動不能にする$"=Cast time: 1.7325s.\n►Provokes all enemies for 17s.\n►Boosts own M.DEF by $3 for 12s.\n\nIf receives damage in 2s:\n►Deals $1 P.DMG to enemies in 430 range.\n►Lowers enemies' P.DEF by $2 for 12s.\n►Inflicts Stun to enemies in 430 range for 1.5s.
+
+##UE##
+氷麗刀・初華=Frostblade New Bloom

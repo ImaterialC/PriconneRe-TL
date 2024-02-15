@@ -1,33 +1,34 @@
-Profile
+##Profile##
+【物理】前衛の、機敏な動きで敵をかき回す騎士見習い。ユニオンバーストで相手の陣地の真ん中に飛び込み、自分の周囲を攻撃するスキルで相手を攻め立てる。=[Physical] An apprentice knight who fights in the vanguard, disrupting the enemy with her nimble movements. For her Union Burst, she leaps right into the middle of enemy lines, where her skills can assault enemies all around her.
+
 ヒーローごっこ=Hero pretend
 ヒーローに憧れる騎士見習いの少女=A knight-in-training who idolizes heroes
-Skills
-UB
+
+##UB##
 タイガーヒーローボンバー=Tiger Heroic Bomber
 前から３番目の敵の目の前に飛び込み、その敵を中心とした範囲内の敵すべてに物理大ダメージを与える。=Leaps toward the third-closest enemy and deals large P.DMG to all enemies in an area around oneself.
-S1
+
+##S1##
 タイガーショック=Tiger Shock
 自分の前後の範囲内の敵に物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG to all enemies in an area around oneself and inflicts Stun.
-S2
+
+##S2##
 タイガースピン=Tiger Spin
 自分の前後の範囲内の敵に物理小ダメージを与える。=Deals moderate P.DMG to all enemies in an area around oneself.
-ex
+
+##EX##
 ヒーローの心得=Hero's Code
-Skills+
-UB
-S1
-タイガーショック+=Tiger Shock+
-自分の前後の範囲内の敵に物理小ダメージを与え、スタンさせる。さらに、自分の物理防御力と魔法防御力を特大アップさせる。=Deals small P.DMG to all enemies in an area around oneself and inflicts Stun. Massive boost to own P.DEF and M.DEF.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within 200 range.\n►Inflict Stun to the targets for 2s.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.
-S2
-ex
 ヒーローの心得+=Hero's Code+
-UE
-ジャスティスメダル=Justice Medal
 
-【物理】前衛の、機敏な動きで敵をかき回す騎士見習い。ユニオンバーストで相手の陣地の真ん中に飛び込み、自分の周囲を攻撃するスキルで相手を攻め立てる。=[Physical] A front-line knight apprentice who skillfully maneuvers through enemies. With agile movements, she leaps into the middle of the opponent's formation during her Union Burst, using a skill that attacks the area around her, driving the opponents back.
-
-
+##UB+##
 ナイトメアブレイブス=Nightmare Braves
 前から３番目の敵の目の前に飛び込み、その敵を中心とした範囲内の敵すべてに物理大ダメージを与える。さらに、自分に物理/魔法無効バリアを展開する。自分のＨＰが低いほどダメージとバリアの無効ダメージ量がアップする。=Leaps in front of the third enemy and deals massive P.DMG to all enemies within the range centered around that enemy. Additionally, she deploys a physical/magical nullification barrier on herself. The lower her HP, the higher the damage dealt by the skill and the nullification damage of the barrier.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to enemies within 450 range.\n►Deploy a barrier that Nullifies P/M. DMG $2 to herself for 18s.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to enemies in 450 range.\n►Deploys Barrier over oneself that negates P/M.DMG $2 to herself for 18s.
+
+##S1+##
+タイガーショック+=Tiger Shock+
+自分の前後の範囲内の敵に物理小ダメージを与え、スタンさせる。さらに、自分の物理防御力と魔法防御力を特大アップさせる。=Deals small P.DMG to all enemies in an area around oneself and inflicts Stun. Massive boost to own P.DEF and M.DEF.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=Cast time: 0.76s\n►Deals $1 P.DMG to enemies in 200 range.\n►Inflicts Stun to the targets for 2s.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.
+
+##UE##
+ジャスティスメダル=Justice Medal

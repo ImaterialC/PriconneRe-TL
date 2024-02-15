@@ -1,32 +1,34 @@
-【物理】中衛で、味方をプリンで強化する幽霊聖少女。物理攻撃力と物理クリティカルアップのプリンパワーのフィールドで自分のスキルも強化し、猛攻を繰り出す。=[Physical] A midguard, a holy ghost girl who buff her allies with pudding. She also buff P.ATK and P.crit rate her own skills with her pudding power field and unleashes her fierce attack.
+##Profile##
+【物理】中衛で、味方をプリンで強化する幽霊聖少女。物理攻撃力と物理クリティカルアップのプリンパワーのフィールドで自分のスキルも強化し、猛攻を繰り出す。=[Physical] A midliner, a holy ghost girl who buffs her allies with pudding. She also buffs her own P.ATK and P.CRIT Rate with her pudding power field and unleashes her fierce attacks.
 
 聖夜の甘い伝説=Sweet Legend of the Holy Night
 悪のサンタクロース！？=Bad Santa Claus!?
 聖夜に心を響かせて=Let Your Heart Resonate on the Holy Night
 めぐるメリー・メモリー=Meguru Mary Memory
 
+##UB##
 ミヤコとくせいプリンなの=Miyako Special Pudding
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。【フィールド展開中】ダメージがアップする。=Deals large P.DMG to an enemy in front, and slightly lowers its P.DEF. If field is active, boosts P.DMG dealt.
+r:"^敵単体に(\d+)の物理ダメージフィールド展開中、敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=If field is not active:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 18s.\n\nIf field is active:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 18s.
 
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。【フィールド展開中】ダメージがアップする。=Inflicts a large amount of P.DMG to the first enemy in front of you, and slightly lowers their P.DEF. If Field deployed boost the damage.
-
-r:"^敵単体に(\d+)の物理ダメージ\nフィールド展開中、敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン$"=If Field not deployed:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 18s.\n\nIf Field deployed:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 18s.
-
-
+##S1##
 ゆきだるまにしてやるの=I'll Make You a Snowman
-ゆきだるまにしてやるの+=I'll Make You a Snowman+
-目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を大アップさせる。【フィールド展開中】ダメージがアップし、自分の周囲の味方すべての物理攻撃力を大アップさせる。=Inflicts moderate P.DMG to the enemy in front, and Large boost your P.ATK. If Field deployed boost damage and Large boost the P.ATK power of all allies around you.
+目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を大アップさせる。【フィールド展開中】ダメージがアップし、自分の周囲の味方すべての物理攻撃力を大アップさせる。=Deals moderate P.DMG to an enemy in front, and greatly boosts own P.ATK. If field is active, boosts P.DMG dealt and greatly boosts allies' P.ATK in range instead of only oneself.
+r:"^敵単体に(\d+)の物理ダメージフィールド展開中、敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.94s\nIf field not active:\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $3 for 12s.\n\nIf field is active:\n►Deals $2 P.DMG to an enemy.\n►Boosts allies' P.ATK in 150 range by $4 for 12s.
 
-r:"^敵単体に(\d+)の物理ダメージ\nフィールド展開中、敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\nフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.94s\nIf Field not deployed:\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $3 for 12s.\n\nIf Field deployed:\n►Deals $2 P.DMG to an enemy.\n►Boosts allies' P.ATK within 150 range by $4 for 12s.
-
-目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を大アップさせ、さらに自分の周囲の味方すべてのＴＰを小回復する。【フィールド展開中】ダメージがアップし、自分の周囲の味方すべての物理攻撃力を大アップさせ、ＴＰを小回復する。=Inflicts P.DMG(M) to the enemy, and boost own P.ATK(L). If field deployed boost the damage also boost the P.ATK(XL) of all allies and recovers TP(S) of all allies around you.
-
-r:"^敵単体に(\d+)の物理ダメージ\nフィールド展開中、敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\nフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方のＴＰを80回復$"=Cast time: 0.94s\n►Recovers allies' TP within 150 range by 80.\nIf Field not deployed:\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $3 for 12s.\n\nIf Field deployed:\n►Deals $2 P.DMG to an enemy.\n►Boosts allies' P.ATK within 150 range by $4 for 12s.
-
+##S2##
 ひとくちだけなの=Just a Bite
-自分の周囲に物理攻撃力と物理クリティカルを大アップさせるフィールドを展開する。さらに自分の周囲の味方すべての物理攻撃クリティカル時のダメージを小アップさせ、自分のＴＰ上昇を中アップさせる。=Creates a field around you that Large boost P.ATK and Pcrit rate. In addition, slightly boost P.crit dmg of all nearby allies, and moderately boost own TP Boost.
+自分の周囲に物理攻撃力と物理クリティカルを大アップさせるフィールドを展開する。さらに自分の周囲の味方すべての物理攻撃クリティカル時のダメージを小アップさせ、自分のＴＰ上昇を中アップさせる。=Deploys a field that greatly boosts allies' P.ATK and P.CRIT Rate in range. Additionally, slightly boosts allies' P.CRIT DMG in range, and moderately boosts own TP Boost.
+r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する物理クリティカルを(\d+)アップさせるフィールドを展開する範囲内の味方の物理攻撃クリティカル時のダメージを8％アップ自分のＴＰ上昇を30アップ$"=Cast time: 0.6s\n►Deploys a 260 radius field that boosts allies' P.ATK by $1 and P.CRIT Rate by $2 for 12s.\n►Boosts allies' P.CRIT DMG in 150 range by 8% for 12s.\n►Boosts own TP Boost by 30 for 12s.
 
-r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する\n物理クリティカルを(\d+)アップさせるフィールドを展開する\n範囲内の味方の物理攻撃クリティカル時のダメージを8％アップ\n自分のＴＰ上昇を30アップ$"=Cast time: 0.6s\n►Deploy a field of radius 260 center of self that Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.crit rate by $2 for 12s.\n►Boosts allies' P.crit dmg within 150 range by 8% for 12s.\n►Boosts own TP boost by 30 for 1s.
-
-プリンパティシエコート=Pudding Patissier Coat
-プレゼントしてやるの～+=I'll give you a present~+
+##EX##
 プレゼントしてやるの～=I'll give you a present~
+プレゼントしてやるの～+=I'll give you a present~+
+
+##S1+##
+ゆきだるまにしてやるの+=I'll Make You a Snowman+
+目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を大アップさせ、さらに自分の周囲の味方すべてのＴＰを小回復する。【フィールド展開中】ダメージがアップし、自分の周囲の味方すべての物理攻撃力を大アップさせ、ＴＰを小回復する。=Deals moderate P.DMG to an enemy, and greatly boosts own P.ATK. If field is active, boosts P.DMG dealt and massively boosts allies' P.ATK in range. Also slightly recovers allies' TP in range.
+r:"^敵単体に(\d+)の物理ダメージフィールド展開中、敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方のＴＰを80回復$"=Cast time: 0.94s\n►Recovers allies' TP in 150 range by 80.\nIf field is not active:\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $3 for 12s.\n\nIf field is active:\n►Deals $2 P.DMG to an enemy.\n►Boosts allies' P.ATK in 150 range by $4 for 12s.
+
+##UE##
+プリンパティシエコート=Pudding Patisserie Coat

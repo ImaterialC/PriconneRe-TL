@@ -1,0 +1,48 @@
+##Profile##
+【物理】中衛で物理キャラを支援し戦う聖夜の元聖騎士。魔法攻撃力の高い敵単体のＴＰ減少や周囲の味方の魔法防御力アップスキルで、対魔法戦で無類の輝きを放つ。=[Physical] A former holy knight in Christmas attire who fights to support physical allies in midlines. She shines unparalleled in anti-magic battles thanks to the decrease in TP of a single enemy with highest magic attack power and the magic defense-up skills for allies around her.
+
+聖なる夜に、キミと=On the holy night, with You
+ありのままのクリスマス=Christmas as it is
+これが大人のクリスマス？=Is this an adult Christmas?
+見えっ張りのクリスマス=A fancy Christmas
+
+##UB##
+クリスマスフィズ=Christmas Fizz
+最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップさせる。自分の物理攻撃力が高い程、攻撃力の上昇量がアップする。=Reduces an enemy's TP with the highest M.ATK by a moderate amount, and lowers its P.DEF by a small amount.
+
+##S1##
+ペールムーン=Pale Moon
+最も魔法攻撃力が高い敵１キャラのＴＰを中ダウンさせ、物理防御力を小ダウンさせる。=Reduces the TP of the enemy character with the highest magic attack power by a medium amount and the physical defense power by a small amount.
+r:"^敵単体の物理防御力を(\d+)ダウン敵単体のＴＰを(\d+)失わせる$"=►Lowers an enemy's P.DEF by $1 for 12s.\n►Reduces an enemy's TP by $2.
+
+##S2##
+ハッピーホリーデイズ=Happy Holidays
+自分の周囲に味方の魔法防御力を大アップさせるフィールドを展開する。=Deploys a field around herself that greatly boosts allies' M.DEF.
+r:"^魔法防御力を(\d+)アップさせるフィールドを展開する$"=►Deploys a field 400 range that boosts allies' M.DEF by $1 for 12s.
+
+##EX##
+ファーストレディ=First Lady
+ファーストレディ+=First Lady+
+
+##S1+##
+ペールムーン+=Pale Moon+
+最も魔法攻撃力が高い敵１キャラのＴＰを中ダウンさせ、物理防御力を大ダウンさせる。さらに、行動速度を大ダウンさせ、魔法クリティカルを特大ダウンさせる。=Reduces an enemy's TP with the highest M.ATK by a moderate amount, and lowers its P.DEF by a large amount. Additionally, greatly reduces an enemy's action speed, and greatly lowers its M.CRIT Rate.
+r:"^敵単体の物理防御力を(\d+)ダウン敵単体のＴＰを(\d+)失わせる敵単体の行動速度を一定時間低下させる敵単体の魔法クリティカルを(\d+)ダウン$"=►Lowers an enemy's P.DEF by $1 for 12s.\n►Reduces an enemy's TP by $2.\n►Reduces an enemy's action speed to 65% for 12s.\n►Lowers an enemy's M.CRIT Rate by $3 for 12s.
+
+##UE##
+クリスマスロワイヤルグラス=Christmas Royal Glass
+
+##Comments##
+
+お姉さんに任せなさい！\nキミのクリスマスを\n最高のものにしてあげるわよ♪=Leave it to your sister! I'll make your Christmas the best ever! ♪
+キミと二人のクリスマスかぁ…\nき、緊張なんかしてないわよ？\n私がリードしてあげるんだから！=Christmas with you, huh? I-I-I'm not nervous! I'll take the lead!
+ちょっと派手じゃないかしら\nこの格好…ま、まあ、\nキミが気に入ってくれてるなら\nいいんだけどね？=Isn't this outfit a little flashy? W-Well, as long as you like it, I don't mind.
+一人のクリスマスに\n慣れちゃってたから\nキミと過ごすクリスマス…\nちょっとドキドキしちゃうかも=I was used to spending Christmas alone, so Christmas with you... I might get a little excited.
+メリークリスマース！\nえへへ、大丈夫よ～\n酔ってなんかないから～♪=Merry Crismarth! Ehehe, don't worry~ I'm not drunk~♪
+さあ、最っ高の\nクリスマスが始まるわよ♪\nキミも早くおいで～！=Come on, the best part of Christmas is about to begin! Hurry up and come here!~
+キミも飲み物どうかしら？\n一緒に乾杯しましょ♪\nはーい、メリークリスマース！=Would you like a drink, too? Let's have a toast together♪ Yeah, Merry Christmas!
+おかわりはいかが？\n遠慮しなくてもいいわよ\nクリスマスパーティーなんだもの\n思いっきり楽しまなくちゃ♪=Would you like seconds? You don't have to hold back. It's a Christmas party, so you have to enjoy it as much as you can♪
+どう？　楽しんでるかしら？\n…もしよかったらなんだけど\nこの後二人で…\nや、やっぱりなんでもないわ！=What do you think? Are you having fun...? If you don't mind, after this, just two of us... No, it's nothing!
+キミと過ごすクリスマス…\nとっても素敵ね\nこんな幸せな時間が\nずっと続けばいいのに…=Christmas with you... It's so wonderful. I wish this happy time would last forever...
+今日はキミの誕生日だもの\nお祝いしないともったいないわ！\nそれじゃあ、かんぱ～い☆=Today's your birthday, so it'd be a waste if we didn't celebrate! Okay then, cheers☆
+お誕生日、おめでとう！\n後で二人きりでパーティー\nしちゃおっか♪=Happy Birthday! Let's have a party just the two of us afterwards♪

@@ -1,24 +1,29 @@
-【魔法】中衛から全体魔法攻撃を放つ超能力チアガール。ユニオンバーストで敵全体に絶大な一撃を放ち、その後、超能力発動の反動で枕を抱えて夢の中へ。=[Magic] A psychic cheerleader who unleashes powerful magic attacks from the middle position. She delivers a devastating blow to all enemies with her Union Burst, then drifts into a dreamland, clutching her pillow due to the recoil of her psychic powers.
+##Profile##
+【魔法】中衛から全体魔法攻撃を放つ超能力チアガール。ユニオンバーストで敵全体に絶大な一撃を放ち、その後、超能力発動の反動で枕を抱えて夢の中へ。=[Magic] A supernatural cheerleader who unleashes an all-out magic assault from the midlines. She delivers a devastating blow to all enemies with her Union Blast, then drifts into a dreamland while clutching her pillow thanks to the recoil from her psychic powers.
 
-妹と遊ぶこと、二度寝、昼寝、早寝=Playing with my little sister, sleeping twice, napping early
+妹と遊ぶこと、二度寝、昼寝、早寝=Playing with my little sister, heading back to sleep, napping, going to bed early
 
-サマーチアリング☆スター=Summer Cheering Star
+##UB##
+サマーチアリング☆スター=Summer Cheering☆Star
 敵全体に魔法大ダメージを与えるが、自分を睡眠状態にする。このスキルで付与された睡眠は、攻撃を受けたときにのみ解除される。=Deals heavy M.DMG to all enemies, but puts herself into a sleep state. The sleep status inflicted by this skill is only lifted when she is attacked.
+r:"^敵全体に(\d+)の魔法ダメージ自分を行動不能にする$"=►Deals $1 M.DMG to all enemies.\n►Inflicts Disable to self.
 
-ポンポンエール☆シュート+=Pom-Pom-Ale Shoot+
-ポンポンエール☆シュート=Pom-Pom-Ale Shoot
+##S1##
+ポンポンエール☆シュート=Pom-Pom Yell☆Shoot
 敵全体に魔法中ダメージを与え、さらに自分のＴＰを中回復する。敵の数に応じて与えるダメージとＴＰの回復量が増加する。=Deals moderate M.DMG to all enemies and further restores her own TP. The damage dealt and TP recovery amount increase based on the number of enemies.
 
+##S2##
 チアフル☆ハピネス=Cheerful☆Happiness
-自分を中心とした範囲内の味方すべての魔法攻撃力と魔法クリティカルを中アップさせる。=Boosts the M.ATK and allies' M.Crit Rate within the range centered around herself.
-グリッタースターズ☆ポンポン=Gritter Stars ☆ Pom-Pom
+自分を中心とした範囲内の味方すべての魔法攻撃力と魔法クリティカルを中アップさせる。=Boosts the M.ATK and allies' M.CRIT Rate within the range centered around herself.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを50アップ$"=►Boosts allies' M.ATK in range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in range by 50 for 12s.
 
-ハッピー☆チアボイス+=Happy Cheer Voice+
-ハッピー☆チアボイス=Happy Cheer Voice
+##EX##
+ハッピー☆チアボイス=Happy☆Cheer Voice
+ハッピー☆チアボイス+=Happy☆Cheer Voice+
 
-r:"^敵全体に(\d+)の魔法ダメージ\n自分を行動不能にする$"=►Deals $1 M.DMG to all enemies.\n►Inflicts self with Disable.
+##S1+##
+ポンポンエール☆シュート+=Pom-Pom Yell☆Shoot+
+r:"^敵全体に(\d+)の魔法ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 M.DMG to all enemies.\n►Recovers own TP by $2.
 
-r:"^敵全体に(\d+)の魔法ダメージ\n自分のＴＰを(\d+)回復$"=►Deals $1 M.DMG to all enemies.\n►Restores own TP by $2.
-
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方の魔法クリティカルを(\d+)アップ$"=►Boosts allies' M.ATK within range by $1.\n►Boosts M.crit Rate of allies within range by $2.
-
+##UE##
+グリッタースターズ☆ポンポン=Glitter Stars☆Pom-Pom

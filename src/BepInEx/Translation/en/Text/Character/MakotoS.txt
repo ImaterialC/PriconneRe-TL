@@ -1,0 +1,28 @@
+##Profile##
+【物理】前衛で攻撃対象が１つの敵に特化した海の狼娘。攻撃対象が１つの場合、スキルとユニオンバーストともに真価を発揮し他を圧倒する絶大な破壊力で敵をなぎ払う。=[Physical] A wolfgirl on the beach who crushes foes from the vanguard. Her skills and Union Burst achieve their full potential when only a single target remains, allowing her to overwhelm it with a flurry of devastating blows.
+
+##UB##
+サマーウルフェンブリッツ=Summer Wolven Blitz
+目の前の敵１キャラに物理大ダメージを与える。残りの攻撃対象が１つの場合、代わりに物理特大ダメージを与え、さらに物理防御力を大ダウンさせる。=Deals large P.DMG to an enemy directly in front. If only one enemy target remains in battle, instead deals massive P.DMG and lowers their P.DMG by a large amount.
+r:"^残りの攻撃対象が１つの場合、敵単体に(\d+)の物理ダメージ残りの攻撃対象が２つ以上の場合、敵単体に(\d+)の物理ダメージ残りの攻撃対象が１つの場合、敵単体の物理防御力を(\d+)ダウン$"=If only one enemy remains in battle:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3.\n\nIf two or more enemies remain in battle:\n►Deals $2 P.DMG to an enemy.
+
+##S1##
+アクアクロッシング=Aqua Crossing
+目の前の敵１キャラに物理中ダメージを与える。残りの攻撃対象が１つの場合、追加で物理小ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy directly in front. If only one enemy target remains in battle, additionally deals small P.DMG and lowers their P.DEF by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ残りの攻撃対象が１つの場合、敵単体に(\d+)の追加物理ダメージ残りの攻撃対象が１つの場合、敵単体の物理防御力を(\d+)ダウン$"=If only one enemy remains in battle:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3.\n\nIf two or more enemies remain in battle:\n►Deals $1 P.DMG to an enemy.
+
+##S2##
+ブルーハウリング=Blue Howling
+自分の物理攻撃力を中アップさせる。残りの攻撃対象が１つの場合、この攻撃力アップは時間によって解除されなくなる。=Moderate boost to own P.ATK. If only one enemy target remains in battle, this boost remains effective indefinitely.
+
+##EX##
+海狼の闘気=Sea Wolf's Vigor
+海狼の闘気+=Sea Wolf's Vigor+
+
+##S1+##
+アクアクロッシング+=Aqua Crossing+
+目の前の敵１キャラに物理中ダメージを与える。残りの攻撃対象が１つの場合、追加で物理中ダメージを与え、物理防御力を小ダウンさせ、さらに自分の物理攻撃力を小アップさせる。=Deals moderate P.DMG to an enemy directly in front. If only one enemy target remains in battle, additionally deals moderate P.DMG and lowers their P.DEF by a moderate amount. Also, boosts own P.ATK by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ残りの攻撃対象が１つの場合、敵単体に(\d+)の追加物理ダメージ残りの攻撃対象が１つの場合、敵単体の物理防御力を(\d+)ダウン残りの攻撃対象が１つの場合、自分の物理攻撃力を(\d+)アップ$"=If only one enemy remains in battle:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3.\n►Boosts own P.ATK by $4.\n\nIf two or more enemies remain in battle:\n►Deals $1 P.DMG to an enemy.
+
+##UE##
+サマーウルフェンソード=Summer Wolven Sword

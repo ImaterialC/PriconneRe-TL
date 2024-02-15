@@ -1,18 +1,33 @@
+##Profile##
+拳で語る喧嘩屋ドラゴン少女=A brawler dragon girl who speaks with her fist
+
 【物理】前衛で範囲攻撃が得意な口達者のドラゴン娘。ユニオンバーストで範囲内の敵をまとめて吹き飛ばし、陣形を乱したところで、敵を一気に焼き尽くす。=[Physical] A well-spoken dragon girl who specializes in ranged attacks in the vanguard. She blows away enemies in range with her UB, burning all her enemies in one fell swoop once the formation is disturbed.
 
+##UB##
 ドラゴンズロアー=Dragon's Roar
-r:"^範囲内の敵に(\d+)の物理ダメージ\n(\d+)ダメージを与える火傷状態にする$"=►Deals $1 P.DMG to enemies within 400 range.\n►Inflicts Burn that deals $2 P.DMG/s for 12s.\n►Knockback enemies by 300 units.
-前方範囲内の敵すべてに物理大ダメージを与え、さらに火傷状態を付与し、大きく吹き飛ばす。=Deals large physical damage to all enemies within the front area, additionally inflicts burn status, and blows them a far away.
+前方範囲内の敵すべてに物理大ダメージを与え、さらに火傷状態を付与し、大きく吹き飛ばす。=Deals large P.DMG to all enemies within 400 range, burns them to a crisp, and blows them away.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える火傷状態にする$"=►Deals $1 P.DMG to all enemies in range.\n►Inflicts Burn to all enemies in range dealing $2/s for 12s\n►Knockbacks all enemies in range by 300 units.
 
-アウェイキングロアー=Awakening Roar
-r:"^範囲内の敵に(\d+)の物理ダメージ\n(\d+)ダメージを与える火傷状態にする\n自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを100アップ$"=►Deals $1 P.DMG to enemies within 400 range.\n►Inflicts Burn that deals $2 P.DMG/s.\n►Boosts own P.ATK by $3 for 180s.\n►Boosts own P.crit rate by 100 for 180s.\n►Knockback enemies by 300 units.
-前方範囲内の敵すべてに物理大ダメージを与え、火傷状態にし、大きく吹き飛ばす。さらに自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。火傷のダメージは、このキャラの物理攻撃力に応じて増加する。=Deals massive P.DMG to all enemies within the front range, inflicting burn status and blowing them away massively. Additionally, greatly boosts own P.ATK and greatly increases P.crit rate. The burn damage increases based on this character's P.ATK.
-
+##S1##
 ドラゴニックピコハン=Dragonic's Pico Hammer
-ドラゴニックピコハン+=Dragonic's Pico Hammer+
+前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG and inflicts Stun to all enemies in range.
+
+##S2##
 ドラゴンファイア=Dragon Fire
-ドラゴンファイア+=Dragon Fire+
-やってやるですよ=I'll do It+
+前方範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to all enemies in range.
+
+##EX##
+やってやるですよ=I'll do It
 やってやるですよ+=I'll do It+
+
+##UB+##
+アウェイキングロアー=Awakening Roar
+前方範囲内の敵すべてに物理大ダメージを与え、火傷状態にし、大きく吹き飛ばす。さらに自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。火傷のダメージは、このキャラの物理攻撃力に応じて増加する。=Deals large P.DMG to all enemies within 400 range, burns them to a crisp, and blows them away. Additionally, massive boost to own P.ATK and P.CRIT Rate. Burn DMG is based on this character's P.ATK.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える火傷状態にする自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to all enemies in range.\n►Inflicts Burn to all enemies in range dealing $2/s for 12s\n►Knockbacks all enemies in range by 300 units.\n►Boosts own P.ATK by $3.\n►Boosts own P.CRIT Rate by $4.
+
+##S1+##
+ドラゴニックピコハン+=Dragonic's Pico Hammer+
+前方範囲内の敵すべてに物理中ダメージを与え、さらにスタンさせて小さく吹き飛ばす。=Deals moderate P.DMG to all enemies in range, inflicts Stun, and knocks them back slightly.
+
+##UE##
 イノリのピコハン=Inori's Pico Hammer
-A sloppy dragon with a big mouth.

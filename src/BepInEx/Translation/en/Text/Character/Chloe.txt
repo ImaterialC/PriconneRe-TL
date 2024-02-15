@@ -1,19 +1,9 @@
-ロエ=Chloe
+##Profile##
 ダーツ=Throwing Darts
 ダウンタウン育ちのダウナー系エルフ=An apathetic elf who was raised downtown
 
-【物理】前衛で、手数で圧倒する、ダウナー系エルフ。攻撃するたびに相手に【畏縮】ステータスを追加し、スキルのダメージと物理防御力ダウンに磨きをかける。=[Physical] An apathetic elf who deals a rapid barrage of strikes from the frontlines. She inflicts a Cower debuff on enemies with every attack, which improves her ability to inflict damage or reduce their physical defense with her skills.
+【物理】前衛で、手数で圧倒する、ダウナー系エルフ。攻撃するたびに相手に【畏縮】ステータスを追加し、スキルのダメージと物理防御力ダウンに磨きをかける。=[Physical] A low-energy elf who deals a rapid barrage of strikes from the frontlines. She inflicts a Cower status on enemies with every attack, which improves her ability to inflict damage or reduce their physical defense with her skills.
 
----Skill Name---
-闇黒の曙光=Dawn of Darkness
-紫紺の黄昏=Violet Twilight
-白銀の月影=Silver Moonlight
-紫紺の黄昏+=Violet Twilight+
-フロムダスク・ティルドーン=From Dusk Till Dawn
-更け征く夜=Drafted Into the Night
-更け征く夜+=Drafted Into the Night+
-
----Story---
 クロエ純情白書／芽生え編=Chloe's Blank Page: Budding Emotions
 クロエ勤労日報／飲食店編=Chloe's Work Diary: The Restaurant
 クロエ勤労日報／配送業編=Chloe's Work Diary: The Delivery
@@ -23,13 +13,27 @@
 クロエ勤労日報／古物商編=Chloe's Work Diary: The Antique Store
 クロエ勤労日報／居酒屋編=Chloe's Work Diary: The Tavern
 
----Skill 1---
+##UB##
+闇黒の曙光=Dark Daybreak
+
+##S1##
+紫紺の黄昏=Violet Dusk
 敵全体を、クロエの攻撃が当たるたびに【畏縮】ステータスが１つ追加されるようにする。【畏縮】は最大66まで追加される。さらに、自身の物理攻撃力を中アップさせる。=Whenever one of Chloe's attacks hit an enemy, that enemy gains one stack of the "Cower" debuff. Up to 66 stacks can be inflicted at once. Additionally, moderately boosts Chloe's own P.ATK.
+【畏縮】を敵へ付与できる状態になる。攻撃が敵に当たるたび【畏縮】を１つ付与する。【畏縮】は最大66まで追加される。さらに、自身の物理攻撃力を中アップさせる。=Whenever one of Chloe's attacks hit an enemy, that enemy gains one stack of the "Cower" debuff. Up to 66 stacks can be inflicted at once. Additionally, moderately boosts Chloe's own P.ATK.
+r:"^攻撃が当たるたびに畏縮を付与する状態になる自分の物理攻撃力を(\d+)アップ$"=►When an attack connects, inflicts Cower.\n►Boosts own P.ATK by $1.
 
-r:"^攻撃が当たるたびに畏縮を付与する状態になる\n自分の物理攻撃力を(\d+)アップ$"=►When an attack connects, inflicts the "Cower" debuff. \n►Boost own P.ATK by $1.
-
----Skill 2---
+##S2##
+白銀の月影=Silver Moonlight
 目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。ダメージと物理防御力の減少量は、対象の【畏縮】の数に応じて増加する。=Deals moderate P.DMG to the first enemy in front, and slightly lowers their P.DEF. The damage and P.DEF decrease become more powerful depending on how many stacks of "Cower" the enemy has.
 
----Unique Weapon---
+##EX##
+更け征く夜=Deepening Night
+更け征く夜+=Deepening Night+
+
+##S1+##
+紫紺の黄昏+=Violet Dusk+
 敵全体を、クロエの攻撃が当たるたびに【畏縮】ステータスが１つ追加されるようにする。【畏縮】は最大99まで追加される。さらに、自身の物理攻撃力を中アップさせる。=Whenever one of Chloe's attacks hit an enemy, that enemy gains one stack of the "Cower" debuff. Up to 99 stacks can be inflicted at once. Additionally, moderately boosts Chloe's own P.ATK.
+【畏縮】を敵へ付与できる状態になる。攻撃が敵に当たるたび【畏縮】を１つ付与する。【畏縮】は最大99まで追加される。さらに、自身の物理攻撃力を大アップさせる。=Whenever one of Chloe's attacks hit an enemy, that enemy gains one stack of the "Cower" debuff. Up to 99 stacks can be inflicted at once. Additionally, moderately boosts Chloe's own P.ATK.
+
+##UE##
+フロムダスク・ティルドーン=From Dusk Till Dawn

@@ -1,8 +1,5 @@
-Rino 
-リ=Ri
-ノ=No
-Profile
-【物理】後衛から、矢の雨を降らせる妹系アーチャー。クリティカル率を高める重ね掛け可能なスキルを持ち、ダメージ回数の多いユニオンバーストをより強力にする。=[Physical] A imouto-type archer who rain on foes from the rearguard. has stackable skills that boost critical hit rate, enhancing UB that deal multiple hits.
+##Profile##
+【物理】後衛から、矢の雨を降らせる妹系アーチャー。クリティカル率を高める重ね掛け可能なスキルを持ち、ダメージ回数の多いユニオンバーストをより強力にする。=[Physical] A little sister-type archer who rains arrows on foes from the rearguard. Has stackable skills that boost critical hit rate, enhancing Union Bursts that deal multiple hits.
  
 人懐っこくてマシンガントークな妹系少女=A little sister-type who's friendly and talkative
 お裁縫=Sewing
@@ -20,28 +17,29 @@ Profile
 先ずカレーより始めよ=Make Curry While the Sun Shines
 少女、千リノ的を射る！=When It Rain Arrows, It Pours!
 
-Skills
-UB
+##UB##
 アローレイン=Arrow Rain
-S1
-コンセントレーション=Concentration
-コンセントレーション+=Concentration+
-自分の物理攻撃力と物理クリティカルを中アップさせる。=Moderate boost to own P.ATK and P.Crit rate.
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを(\d+)アップ$"=►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.Crit rate by $2.
-S2
-ブレイクアロー=Crushing Shot
-ex
-ペネトレーション=Penetration
-Skills+
-UB
-コロナレイン=Corona Rain
-前方範囲内の敵すべてに物理大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく3.5倍になる。=Deals large P.DMG to all enemies in range. When this skill is a critical hit. its damage is multiplied by 3.5 instead of 2.
-S1
-自分の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに行動速度を大アップさせる。=Large boost to own P.ATK and action speed, and moderate boost to own P.Crit rate.
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを(\d+)アップ\n自分の行動速度アップ$"=►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.Crit rate by $2 for 99s.\n►Boosts own action speed into 180% for 12s.
-S2
 
-ex
+##S1##
+コンセントレーション=Concentration
+自分の物理攻撃力と物理クリティカルを中アップさせる。=Moderately boosts own P.ATK and P.CRIT Rate.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ$"=►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by $2.
+
+##S2##
+ブレイクアロー=Crushing Shot
+
+##EX##
+ペネトレーション=Penetration
 ペネトレーション+=Penetration+
-UE
+
+##UB+##
+コロナレイン=Corona Rain
+前方範囲内の敵すべてに物理大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく3.5倍になる。=Deals large P.DMG to enemies in range. If this skill hits a critical hit, the damage will be x3.5 instead of x2.
+
+##S1+##
+コンセントレーション+=Concentration+
+自分の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに行動速度を大アップさせる。=Greatly boosts own P.ATK and action speed, and moderately boosts own P.CRIT Rate.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の行動速度アップ$"=Cast time: 1.07s\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by $2 for 99s.\n►Boosts own action speed into 180% for 12s.
+
+##UE##
 プロミネンスアロー=Prominence Arrow

@@ -1,0 +1,45 @@
+##Profile##
+【物理】前衛で、相棒と共に明日へと進む大悪党の少女。自己強化や物防ダウンを駆使するムイミと、ＵＢ後に一定時間共闘するオクトーの追撃で、輝く未来を取り戻す。=[Physical] A villainous girl who advances with her partner in vanguard. With the pursuit of Muimi, who makes full use of self-buffing and P.DEF down, and Octo, who fights together for a certain period of time after UB, she regains her bright future.
+
+##UB##
+真輝・天楼双迅撃=True Brilliance: Spires Twin Swift Strike
+【絆の証】を解放してオクトーと共闘状態になる。オクトーとの共闘中はＴＰが最大値に達してもユニオンバーストを発動しない。【絆の証】解放中、自分の物理攻撃クリティカル時のダメージを小アップさせ、行動速度を大アップさせる。（このスキルの効果は他の行動速度変化スキルと重複する）さらに、目の前の敵１キャラに物理特大ダメージを与える。=Unlocks [Proof of Bonds], and Octo joins the battle. Can not perform UB while fighting with Octo. While [Proof of Bonds] is unlocked, slightly boosts own P.ATK and greatly boost own action speed (can overlap). Additionally, deals large P.DMG to an enemy in front.
+r:"^自分の行動速度アップ敵単体に(\d+)の物理ダメージ自分の物理攻撃クリティカル時のダメージを7％アップ$"=►Switches to Attack Pattern 2 for 15s.\n►Boosts own action speed by 80% for 15s.\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.CRIT DMG by 7% for 15s.
+
+##S1##
+天楼月空閃=Spires Moonlight Flash
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。=Deals large P.DMG to an enemy in front, and slightly lowers its P.DEF.
+
+##S2##
+天楼轟破刃=Spires Roaring Blade
+自分の物理攻撃力と物理クリティカルを大アップさせ、目の前の敵１キャラに物理大ダメージを与える。=Deals large P.DMG to an enemy in front, and greatly boosts own P.ATK and P.CRIT Rate.
+
+##SP1##
+天楼月空閃=Spires Moonlight Flash
+共闘中=During together
+このスキルのスキルレベルは「真輝・天楼双迅撃」と連動しています=This skill's level is linked to "True Brilliance: Spires Twin Swift Strike"
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を中ダウンさせる。さらに、追加の物理特大ダメージを与える。=Deals large P.DMG to an enemy in front, and moderately lowers its P.DEF. Also deals additional massive P.DMG to an enemy in front.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ$"=Cast time: 0.59s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Deals $3 P.DMG to an enemy.
+
+##SP2##
+天楼轟破刃=Spires Roaring Blade
+自分の物理攻撃力と物理クリティカルを特大アップさせ、目の前の敵１キャラに物理大ダメージを与える。さらに、追加の物理特大ダメージを与える。=Deals large P.DMG to an enemy in front, massively boosts own P.ATK and P.CRIT Rate. Also deals additional massive P.DMG to an enemy in front.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを200アップ敵単体に(\d+)の物理ダメージ$"=Cast time: 0.59s\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.CRIT Rate by 200 for 12s.\n►Deals $3 P.DMG to an enemy.
+
+##EX##
+フューチャーズフォース=Future's Force
+フューチャーズフォース+=Future's Force+
+
+##S1+##
+天楼月空閃+=Spires Moonlight Flash+
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。=Deals massive P.DMG to an enemy in front, and slightly lowers its P.DEF.
+
+##SP1+##
+天楼月空閃+=Spires Moonlight Flash+
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせる。さらに、追加の物理特大ダメージを与え、物理防御力を小ダウンさせる。=Deals massive P.DMG to an enemy in front, and moderately lowers its P.DEF. Also deals additional massive P.DMG to an enemy in front, and slightly lowers its P.DEF.
+## Preview
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせる。さらに、追加の物理特大ダメージを与え、物理防御力を小ダウンさせる。このスキルのスキルレベルは「真輝・天楼双迅撃」と連動しています=Deals massive P.DMG to an enemy in front, and moderately lowers its P.DEF. Also deals additional massive P.DMG to an enemy in front, and slightly lowers its P.DEF. This skill's level is linked to "True Brilliance: Spires Twin Swift Strike"
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.59s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Deals $3 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4 for 12s.
+
+##UE##
+天楼破断剣【リベレイテッド】=Spiresbane Blade [Liberated]

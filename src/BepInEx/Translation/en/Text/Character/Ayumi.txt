@@ -1,45 +1,9 @@
-ストーキングマント=Stalking Cloak
-Bio
-【物理】中衛で、どたばたと敵をかく乱する、純情少女。敵をスタンさせるスキルのほか、ユニオンバーストでは暗闇と混乱を付与することで敵を邪魔することができる。=[Physical] A purehearted girl who wildly disrupts the enemy from the midlines. Aside from stunning foes with her skills, she can also inflict Blind and Confusion with her UB to prevent their attacks from finding their mark.
-Profile
+##Profile##
+【物理】中衛で、どたばたと敵をかく乱する、純情少女。敵をスタンさせるスキルのほか、ユニオンバーストでは暗闇と混乱を付与することで敵を邪魔することができる。=[Physical] A purehearted girl who wildly disrupts the enemy from the midlines. Aside from stunning foes with her skills, she can also inflict Blind and Confusion with her Union Burst to prevent their attacks from finding their mark.
+
 観察=Observation
 
-Skills
-勇気を出して突撃です～！=Be Brave and Charge!
-湧き出す勇気=Burst of Courage
-湧き出す勇気+=Burst of Courage+
-
-UB (6 star)
-はわわわ、大変です～！？=Hawawa, Isn't this a Disaster~!?
-前方範囲内の敵すべてに物理大ダメージを与え、暗闇・混乱状態にし、さらにＴＰ上昇を大ダウンさせる。このスキルを使用するたび、最大３回までダメージが増加する。=Deals massive P.DMG to all enemies within range, inflicts darkness and confusion, and greatly reduces TP Boost. Each time you use this skill, damage increases up to 3 times.
-
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を暗闇状態にする\n範囲内の敵を混乱させる\n範囲内の敵のＴＰ上昇を(\d+)ダウン$"=►Deals $1 P.DMG to all enemies within 1200 range to enemies\n►Blinds enemies in range for 12s (-70% hit rate).\n►Confuses enemies in range for 8s.\n►Lowers enemies TP boost within range by $2 for 12s.
-UB 
-
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を暗闇状態にする\n範囲内の敵を混乱させる$"=►Deals $1 P.DMG to all enemies within 1200 range to enemies\n►Blinds enemies in range for 6s (-70% hit rate).\n►Confuses enemies in range for 4s.
-前方範囲内の敵すべてに物理中ダメージを与え、さらに暗闇・混乱状態にする。=Deals moderate P.DMG to all enemies in range and inflicts Blind and Confuse.
-
-Skill 1 (UE)
-つ、突き刺します！+=I-I'll stab you!+
-自分を中心とした範囲内の敵すべてに物理中ダメージを与え、さらに物理攻撃力を中ダウンさせる。=Deals moderate P.DMG to all enemies and lowers their P.ATK by a moderate amount.
-
-Skill 1 
-つ、突き刺します！=I-I'll stab you!
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=►Deals $1 P.DMG  to all enemies.\n►Lowers all enemies’ P.ATK by $2 for 12s.
-
-自分を中心とした範囲内の敵すべてに物理小ダメージを与え、さらに物理攻撃力を小ダウンさせる。=Deals small P.DMG to all enemies and lowers their P.ATK by a small amount.
-
-Skill 2
-目を閉じて行けるかな…？=Can I close my eyes...?
-Skill EX
-r:"^自分の物理防御力を(\d+)アップ$"=►Boosts own P.DEF by $1.
-バトル開始時に自分の物理防御力を大アップさせる。=Large boost to own physical defense at start of battle.
-バトル開始時に自分の物理防御力を中アップさせる。=Moderate boost to own physical defense at start of battle.
-
-Story
 どこまでも一途に慕う、純情乙女=An innocent girl who yearns for you with all her heart
-
-
 
 超個性派ヒロイン、誕生？=Birth of an Ultra-Unique Heroine?
 
@@ -51,3 +15,35 @@ Story
 出会った頃とは違う距離=Somehow Closer Than Before
 振り絞る勇気の一歩=A Brave Step Forward
 憧れの始まり=Where It All Began
+
+##UB##
+勇気を出して突撃です～！=I Can Do This If I Try!
+前方範囲内の敵すべてに物理中ダメージを与え、さらに暗闇・混乱状態にする。=Deals moderate P.DMG to all enemies in range and inflicts Blind and Confuse.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を暗闇状態にする範囲内の敵を混乱させる$"=►Deals $1 P.DMG to all enemies in 1200 range to enemies.\n►Inflicts Blind to enemies in range for 6s (-70% hit rate).\n►Confuses enemies in range for 4s.
+
+##S1##
+つ、突き刺します！=I-I'll Stab You!
+自分を中心とした範囲内の敵すべてに物理小ダメージを与え、さらに物理攻撃力を小ダウンさせる。=Deals small P.DMG to all enemies and lowers their P.ATK by a small amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン$"=►Deals $1 P.DMG to all enemies.\n►Lowers all enemies' P.ATK by $2 for 12s.
+
+##S2##
+目を閉じて行けるかな…？=Can I keep my eyes closed...?
+
+##EX##
+湧き出す勇気=Burst of Courage
+湧き出す勇気+=Burst of Courage+
+バトル開始時に自分の物理防御力を大アップさせる。=Large boost to own physical defense at start of battle.
+バトル開始時に自分の物理防御力を中アップさせる。=Moderate boost to own physical defense at start of battle.
+r:"^自分の物理防御力を(\d+)アップ$"=►Boosts own P.DEF by $1.
+
+##UB+##
+はわわわ、大変です～！？=Hawawa, Isn't this a Disaster~!?
+前方範囲内の敵すべてに物理大ダメージを与え、暗闇・混乱状態にし、さらにＴＰ上昇を大ダウンさせる。このスキルを使用するたび、最大３回までダメージが増加する。=Deals massive P.DMG to all enemies within range, inflicts darkness and confusion, and greatly reduces TP Boost. Each time you use this skill, damage increases up to 3 times.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を暗闇状態にする範囲内の敵を混乱させる範囲内の敵のＴＰ上昇を(\d+)ダウン$"=►Deals $1 P.DMG to all enemies in 1200 range to enemies.\n►Inflicts Blind to enemies in range for 12s (-70% hit rate).\n►Confuses enemies in range for 8s.\n►Lowers enemies TP Boost in range by $2 for 12s.
+
+##S1+##
+つ、突き刺します！+=I-I'll Stab You!+
+自分を中心とした範囲内の敵すべてに物理中ダメージを与え、さらに物理攻撃力を中ダウンさせる。=Deals moderate P.DMG to all enemies and lowers their P.ATK by a moderate amount.
+
+##UE##
+ストーキングマント=Stalking Cloak

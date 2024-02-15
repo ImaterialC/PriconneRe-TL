@@ -17,6 +17,12 @@
 中衛=Mid
 前衛=Front
 
+闇=Dark
+光=Light
+水=Water
+火=Fire
+風=Wind
+
 ユニオンバースト=Union Burst
 スキル効果=Skill effect
 スキル=Skills

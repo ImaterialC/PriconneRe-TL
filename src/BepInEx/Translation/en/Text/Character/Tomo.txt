@@ -1,3 +1,4 @@
+##Profile##
 【物理】前衛で、素早い斬撃を仕掛け敵を屠る剣術少女。ユニオンバーストで自分の攻撃力と行動速度を上昇させ、ほか攻撃スキルの殲滅能力を極限まで高め敵を圧倒する。=[Physical] An avid fencer who delivers swift sword strikes to slay enemies from the vanguard. Her Union Burst increases both her attack power and action speed, maximizing the deadliness of her attack skills.
 義理堅くてからかい好きな剣術少女=A swordfighter with a strong sense of duty who loves to tease
 
@@ -14,26 +15,31 @@
 ボーイミーツお喋りガール=Boy meets girl
 剣に賭した願い事=Wish that bet on the sword
 
+##UB##
 ミクマ流奥義・阿修羅=Mikuma Hidden Art: Asura
+目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を特大アップさせ、行動速度を中アップさせる。=Deals moderate P.DMG to an enemy directly in front. Massive boost to own P.ATK and 125% boost to own action speed for 24s.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分の行動速度アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2.\n►Boosts own action speed.
 
+##S1##
 ミクマ流剣術・陣風=Mikuma style: Gale Strike
-ミクマ流剣術・陣風+=Mikuma style: Gale Strike+
-ミクマ流剣術・燕返し=Mikuma style: Returning Swallow
-目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を特大アップさせ、行動速度を中アップさせる。=Deals moderate P.DMG to an enemy directly in front. Massive boost to own P.ATK and moderate boost to own action speed.
-r:"^敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ\n自分の行動速度アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 24s.\n►Boosts own action speed into 125% for 24s.
-
-ミクマ流奥義・烈風迅光=Mikuma Hidden Art: Gale Swift Light
-r:"^敵２体に(\d+)の物理ダメージ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の行動速度アップ$"=►Deals $1 P.DMG to 2 enemy.\n►Boosts allies' P.ATK within 150 range by $2 for 24s.\n►Boosts allies' action speed within 150 range into 160% for 24s.
-目の前の敵２キャラに物理特大ダメージを与え、さらに自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、行動速度を大アップさせる。=Deals massive P.DMG to the 2 enemies in front, and Large boost the physical attack power and action speed of all allies within range.
-
-
 前方範囲内の敵すべてに物理小ダメージを与える。=Deals moderate P.DMG to all enemies in range.
 
+##S2##
+ミクマ流剣術・燕返し=Mikuma style: Returning Swallow
 目の前の敵１キャラに物理中ダメージを与え、さらに自分のＴＰを小回復させる。=Deals moderate P.DMG to an enemy directly in front and recovers own TP by a small amount.
 
-前方範囲内の敵すべてに物理中ダメージを与える。前方範囲内の敵の数に応じて、ダメージが増加する。=Deals moderate P.DMG to all enemies in range. Damage boost based on the number of targets.
-
+##EX##
 気脈呼応・波動の型=Vital Resonance: Sheer Focus
 気脈呼応・波動の型+=Vital Resonance: Sheer Focus+
 
+##UB+##
+ミクマ流奥義・烈風迅光=Mikuma Hidden Art: Gale Swift Light
+目の前の敵２キャラに物理特大ダメージを与え、さらに自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、行動速度を大アップさせる。=Deals massive P.DMG to the 2 enemies in front, and Large boost the physical attack power and action speed of all allies within range.
+r:"^敵２体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の行動速度アップ$"=►Deals $1 P.DMG to 2 enemies.\n►Boosts allies' P.ATK in 150 range by $2 for 24s.\n►Boosts allies' action speed in 150 range to 160% for 24s.
+
+##S1+##
+ミクマ流剣術・陣風+=Mikuma style: Gale Strike+
+前方範囲内の敵すべてに物理中ダメージを与える。前方範囲内の敵の数に応じて、ダメージが増加する。=Deals moderate P.DMG to all enemies in range. Damage boost based on the number of targets.
+
+##UE##
 天剣白嵐=Heavensbrand: White Squall

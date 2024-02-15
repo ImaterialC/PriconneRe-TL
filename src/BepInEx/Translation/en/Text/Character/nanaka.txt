@@ -1,10 +1,8 @@
-Bio
+##Profile##
+【魔法】後衛から多彩な魔法を放つ、オタク魔法少女。体力が一番多い相手を狙うユニオンバーストやスキルは、敵のＨＰ状況により攻撃対象が変わる高威力の魔法攻撃。=[Magic] A nerdy magical girl who unleashes a variety of spells from the rearguard. Her Union Burst and skills feature high-powered magical attacks that strategically target the enemy with the greatest remaining HP.
 
-【魔法】後衛から多彩な魔法を放つ、オタク魔法少女。体力が一番多い相手を狙うユニオンバーストやスキルは、敵のＨＰ状況により攻撃対象が変わる高威力の魔法攻撃。=[Magic] An otaku-mahou-shoujo who unleashes a variety of spells from RG. Her UB and skills feature Hi-M.ATK that strategically target the enemy with greatest remain HP.
 読書、魔法=Reading, magic
 オタク全開な魔法少女=An extrovert otaku mahoushoujo
-UE
-ナナカサイツヨロッド=Nanaka's Kiclass Rod
 
 伝説の魔導書求む！=Seeking:One Legendary Spellbook!
 初めてのバディタッグ=A Magical Duo Is Born
@@ -20,30 +18,34 @@ UE
 オタクの道というものは=Way of Otaku
 望みをもたらすもの=What Brings Hope
 
-
-UB Non-6*
+##UB##
+ナナカ・∞・ブラスト=Nanaka Infinite Blast
 残りＨＰが最も高い敵１キャラに魔法特大ダメージを与える。=Deals massive M.DMG to the enemy with the highest current HP.
 
-UB 6*
-残りＨＰが最も高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive M.DMG to the enemy with the highest remaining HP, and also slightly decreases magic defense.
-
-Rank 2 Skill
+##S1##
+スターダストマジック=Stardust Magic
 目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を小ダウンさせる。=Lowers magic defense of enemies within the radius of the target by a small amount.
 範囲内の敵の魔法防御力を1ダウン=Reduce magical defense of all enemies within 200 range from the nearest enemy.
 
-Rank 2 Skill+
-スターダストマジック+=Stardust Magic+
-目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を中ダウンさせる。=Lowers magic defense of enemies within the radius of the target by a moderate amount.
-r:"^範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 1.4s\nLowers all enemies' M.DEF within 200 range by $1 for 12s. 
+##S2##
+エナジーインパクト=Energy Impact
+残りＨＰが最も高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to the enemy with the highest current HP and inflicts Stun for 1.5s.
+最もＨＰの割合が高い敵１キャラに\n魔法中ダメージを与え、さらにスタ\nンさせる。=Deals moderate M.DMG to the enemy with the highest current HP and inflicts Stun for 1.5s.
 
-Rank 4 Skill
-残りＨＰが最も高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to the enemy with the highest current HP. Inflict stun to the target for 1.5 seconds.
-
-EX Skill
+##EX##
+アウェイクニングモード=Awakening Mode
+アウェイクニングモード+=Awakening Mode+
 バトル開始時に自分の魔法攻撃力を中アップさせる。=Small boost to own magic attack at the start of the battle.
 
-EX Skill+
+##UB+##
+ナナカ・∞・グリッター=Nanaka Infinite Glitter
+最もＨＰの割合が高い敵１キャラに\n魔法特大ダメージを与え、さらに魔\n法防御力を小ダウンさせる。=Deals massive M.DMG to the enemy with the highest remaining HP, and also slightly decreases magic defense.
+残りＨＰが最も高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive M.DMG to the enemy with the highest remaining HP, and also slightly decreases magic defense.
 
+##S1+##
+スターダストマジック+=Stardust Magic+
+目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を中ダウンさせる。=Lowers magic defense of enemies within the radius of the target by a moderate amount.
+r:"^範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 1.4s\n►Lowers enemies' M.DEF in 200 range by $1 for 12s.
 
-
-
+##UE##
+ナナカサイツヨロッド=Nanaka's Kickass Rod

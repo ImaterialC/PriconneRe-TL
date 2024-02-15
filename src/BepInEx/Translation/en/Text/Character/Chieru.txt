@@ -1,1 +1,32 @@
+##Profile##
+ダンス、カラオケ=Dance, Karaoke.
 自由奔放ナチュラル無礼な現代っ子=A free-spirited trendy girl with a sharp tongue.
+
+【物理】前衛でパンチを放つちぇる盛りＭＡＸな女の子。クリティカルを出すたびに【ちぇる】を溜め、自己を強化し続け、後半になるほど敵をちぇるっとじぇのさいする。=[Physical] A chellerific cutie who takes to the vanguard to punch the enemy. Each critical hit she deals serves to increase her Cheru count, boosting her abilities until she can wreak chellish carnage in the late stages of battle.
+
+##UB##
+ちぇるちぇる☆じぇのさい=Cheru-Cheru☆Carnage
+目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力と物理クリティカルを大アップさせる。=Deals large P.DMG to an enemy in front. Large boost to own P.ATK and P.CRIT Rate.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2.\n►Boosts own P.CRIT Rate by $3.
+
+##S1##
+ちぇるうぃ☆だんす？=Chell☆We☆Dance?
+自分の物理攻撃力と物理クリティカルと行動速度を大アップさせ、敵に\nクリティカルでダメージを与えるたびに【ちぇる】ステータスが１つ追加される。【ちぇる】は最大30まで追加される。=Large boost to own P.ATK, P.CRIT Rate and action speed. Grants 1 "Cheru" effect to self for every critical hit landed on an enemy. Up to 30 Cheru effects can be applied at once.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の行動速度アップクリティカルでダメージを与えるたびにちぇるを付与する状態になる$"=►Boosts own P.ATK by $1 for 20s.\n►Boosts own P.CRIT Rate by $2 for 20s.\n►Boosts own action speed into 200% for 20s.
+
+##S2##
+きゃすと☆あ☆ちぇるーん=Mega☆Cheru~n
+目の前の敵１キャラに物理小ダメージを与えて物理攻撃力を大ダウンさせ、さらに自分の物理攻撃力と物理クリティカルを小アップさせる。物理攻撃力と物理クリティカルの上昇量は【ちぇる】の数に応じて増加する。=Deals small P.DMG to an enemy in front and lowers its P.ATK by a large amount. Small boost to own P.ATK and P.CRIT Rate. Stat boosts increase based on the number of Cheru effects on self.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 12s.\n►Boosts own P.ATK by $3 (+148×[Cheru]) for 12s.\n►Boosts own P.CRIT Rate by $4 (+7×[Cheru]) for 12s.
+
+##EX##
+世界で一番☆ちぇるんな子=The Chelliest Girl in the World
+世界で一番☆ちぇるんな子+=The Chelliest Girl in the World+
+
+##S1+##
+ちぇるうぃ☆だんす？+=Chell☆We☆Dance?+
+自分の物理攻撃力と行動速度を特大アップ、物理クリティカルを大アップさせ、敵にクリティカルでダメージを与えるたびに【ちぇる】ステータスが１つ追加される。さらに【ちぇる】を30追加する。【ちぇる】は最大77まで追加される。=Massive boost to own P.ATK, P.CRIT Rate and action speed. Grants 1 "Cheru" effect to self for every critical hit landed on an enemy. Up to 77 Cheru effects can be applied at once. Immediately applies 30 "Cheru".
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の行動速度アップちぇるを30追加クリティカルでダメージを与えるたびにちぇるを付与する状態になる$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by $2 for 180s.\n►Boosts own action speed into 225% for 180s.\n►Grants 30 [Cheru] to self.
+
+##UE##
+ももいろ☆ぺんら☆なっくる=Momoiro☆Penra☆Nakkuru

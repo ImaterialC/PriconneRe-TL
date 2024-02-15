@@ -1,0 +1,26 @@
+##Profile##
+【物理】中衛で、味方を鼓舞して戦う、キュートな少女。味方をＴＰや攻撃力をアップさせるスキルでサポートし、自身も強力な範囲攻撃で敵をなぎ払う。=[Physical] A cute girl who supports and encourages her allies from the midguard. Along with skills that can boost her friends' TP and offensive power, she can also make short work of enemies herself with powerful area attacks.
+
+##UB##
+スマイリング・ブレイブ=Smiling Bravery
+前方範囲内の敵すべてに物理大ダメージを与え、さらに味方全体の物理攻撃力と魔法攻撃力を中アップさせる。=Deals large P.DMG to all enemies in range. Moderate boost to all allies' P.ATK and M.ATK.
+
+##S1##
+レボリューションスマイル=Revolutionary Smile
+味方全体のＴＰを小回復し、さらにＴＰ上昇を小アップさせる。=Recovers all allies' TP by a small amount and boosts their TP Boost by a small amount.
+
+##S2##
+ピンキー・ライブリィ=Pink Lively
+自分を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to all enemies in range.
+
+##EX##
+笑顔の魔法=Magical Smile
+笑顔の魔法+=Magical Smile+
+
+##S1+##
+レボリューションスマイル+=Revolutionary Smile+
+味方全体のＴＰを小回復し、ＴＰ上昇を小アップさせ、さらに物理攻撃力と魔法攻撃力を大アップさせる。=Recovers all allies' TP by a small amount, boosts their TP Boost by a small amount, and boosts their P.ATK and M.ATK by a large amount.
+r:"^味方全体のＴＰを(\d+)回復\n味方全体のＴＰ上昇を(\d+)アップ\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ$"=►Recovers all allies' TP by $1.\n►Boosts all allies' TP Boost by $2.\n►Boosts all allies' P.ATK by $3 for 12s.\n►Boosts all allies M.ATK by $4 for 12s.
+
+##UE##
+ステージオブキュート=Cute Stage

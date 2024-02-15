@@ -1,36 +1,7 @@
-Profile
+##Profile##
 お菓子屋通い=Going to a confectionery store
 見た目も中身もお子ちゃまな異国の軍人=A soldier from a foreign land\nwho looks and acts like a child
 【物理】中衛で、味方の攻撃を鼓舞する、軍人娘。味方全体の物理、魔法攻撃力の大幅アップに加えて、攻撃速度もあげることで、戦闘の早期終結を実現する。=[Physical] A soldier that increases allied offense from the midguard. Ends battles swiftly by greatly boosting the party's physical and magical attack power as well as attack speed.
-
-Skills
-UB
-紫電一閃=Violetshock Flare
-前方範囲内の敵すべてに物理中ダメージを与える。=Deals large P.DMG to all enemies in range.
-S1
-フリューゲルエール+=Flügel Fanfare+
-フリューゲルエール=Flügel Fanfare
-味方全体の物理攻撃力と魔法攻撃力を小アップさせ、さらに行動速度を大アップさせる。=Small boost to P.ATK and action speeds of all allies.
-r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の行動速度アップ$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' M.ATK by $2.\n►Boosts action speed of all allies.
-►same with karin, SarenS
-S2
-マスケットショット=Musket Shot
-ex
-白翼の加護=Blessing of the White Wings
-Skills+
-UB
-旋風雷閃撃鎖斬=Archon Squallchain
-前方範囲内の敵すべてに物理大ダメージを与え、スタンさせる。さらに、味方全体の物理攻撃力と魔法攻撃力を大アップさせ、行動速度を大アップさせる。=Damage and stun on all of the enemies within the front range. In addition, the allies' P.ATK and the M.ATK power are Large increased, and the action speed is increased.
-
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の行動速度アップ$"=►Deals $1 P.DMG to all enemies in the frontline (Range 820).\n►Inflict stun to the Targets for 2.5s.\n►Boost to allies' P.ATK by $2.\n►Boost to allies' M.ATK by $3.\n►Boost action speed to 200% to All Allies for 30s.
-S1
-味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに行動速度を大アップさせる。=Large boost to P.ATK, M.ATK and action speeds of all allies.
-S2
-ex
-白翼の加護+=Blessing of the White Wings+
-UE
-フリューゲルコート=Flügel Coat
-
 
 背中を預ける者の条件=Conditions for Entrusting Your Back
 勝利の風を掴むためには=To Seize the Wind of Victory
@@ -45,3 +16,31 @@ UE
 白き翼で空を舞う=Soaring White Wings
 体は小さく誇りは高く=A Tiny, Tiny, Dignified Commander
 
+##UB##
+紫電一閃=Violetshock Flare
+前方範囲内の敵すべてに物理中ダメージを与える。=Deals large P.DMG to enemies in range.
+
+##S1##
+フリューゲルエール=Flügel Fanfare
+味方全体の物理攻撃力と魔法攻撃力を小アップさせ、さらに行動速度を大アップさせる。=Slightly boosts all allies' P.ATK and action speeds.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の行動速度アップ$"=►Boosts all allies' P.ATK by $1.\n►Boosts all allies' M.ATK by $2.\n►Boosts all allies' action speed.
+# Same with Karin, SSaren
+
+##S2##
+マスケットショット=Musket Shot
+
+##EX##
+白翼の加護=Blessing of the White Wings
+白翼の加護+=Blessing of the White Wings+
+
+##UB+##
+旋風雷閃撃鎖斬=Archon Squallchain
+前方範囲内の敵すべてに物理大ダメージを与え、スタンさせる。さらに、味方全体の物理攻撃力と魔法攻撃力を大アップさせ、行動速度を大アップさせる。=Deals massive P.DMG to enemies in range, and inflicts Stun to them. Additionally, greatly boosts all allies' P.ATK, M.ATK and action speed.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の行動速度アップ$"=►Deals $1 P.DMG to enemies in 820 range.\n►Inflicts Stun to enemies in 820 range for 2.5s.\n►Boosts all allies' P.ATK by $2 for 30s.\n►Boosts all allies' M.ATK by $3 for 30s.\n►Boosts all allies' action speed to 200% for 30s.
+
+##S1+##
+フリューゲルエール+=Flügel Fanfare+
+味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに行動速度を大アップさせる。=Large boost to P.ATK, M.ATK and action speeds of all allies.
+
+##UE##
+フリューゲルコート=Flügel Coat

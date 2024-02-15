@@ -1,21 +1,43 @@
-【物理】中衛で、味方の速攻を支える海辺のサレンママ。バトル開始時に味方全体のＴＰを一気に溜めることで、迅速にユニオンバーストを発動させることを可能にする。=[Physical] The Mama Saren keeps her allies on the offensive from the midguard. Her ability to boost allies' TP at the start of each battle allows for rapid use of powerful Union Bursts.
+##Profile##
+【物理】中衛で、味方の速攻を支える海辺のサレンママ。バトル開始時に味方全体のＴＰを一気に溜めることで、迅速にユニオンバーストを発動させることを可能にする。=[Physical] The motherly Saren keeps her allies on the offensive from the midguard. Her ability to boost allies' TP at the start of each battle allows for rapid use of powerful Union Bursts.
 
+##UB##
 サマーブライトフォース=Summer Bright Force
-味方全体の物理攻撃力と魔法攻撃力と行動速度を大アップさせる。=Large boost to physical attack, magical attack and action speeds of all allies.
+味方全体の物理攻撃力と魔法攻撃力と行動速度を大アップさせる。=Large boost to P.ATK, M.ATK and action speeds of all allies.
 
+##S1##
 スプラッシュトワリング=Twilight Splash
-r:"^味方全体のＴＰを(\d+)回復$"=Cast time: 0.74s\n►Recovers allies' TP by $1.
 味方全体のＴＰを大回復させ。=Recovers allies' TP by a large amount.
+r:"^味方全体のＴＰを(\d+)回復$"=Cast time: 0.74s\n►Recovers allies' TP by $1.
 
-スプラッシュトワリング+=Twilight Splash+
-r:"^味方全体のＴＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ$"=Cast time: 0.74s\n►Recovers allies' TP by $1.\n►Boosts allies' P.ATK by $2 for 20s.\n►Boosts allies' M.ATK by $3 for 20s.
-味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を特大アップさせる。=Recovers allies' TP by a large amount further increases their physical and magical attack power.
-味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を大アップさせる。=Recovers allies' TP by a large amount further increases their physical and magical attack power.
-
+##S2##
 ブライトエール=Sunlight Cheer
-r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ\n味方全体の物理クリティカルを20アップ\n味方全体の魔法クリティカルを20アップ$"=Cast time: 0.74s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' M.ATK by $2 for 12s.\n►Boosts allies' P.Crit rate by 20 for 12s.\n►Boosts allies' M.Crit rate by 20 for 12s.
-味方全体の物理攻撃力と魔法攻撃力と物理クリティカルと魔法クリティ\nカルを小アップさせる。=Small boost to P.ATK, M.ATK, P.Crit rate and allies' M.Crit Rate.
+味方全体の物理攻撃力と魔法攻撃力と物理クリティカルと魔法クリティカルを小アップさせる。=Small boost to P.ATK, M.ATK, P.CRIT Rate and allies' M.CRIT Rate.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の物理クリティカルを20アップ味方全体の魔法クリティカルを20アップ$"=Cast time: 0.74s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' M.ATK by $2 for 12s.\n►Boosts allies' P.CRIT Rate by 20 for 12s.\n►Boosts allies' M.CRIT Rate by 20 for 12s.
 
-繊麗剣サマーブライト=Graceful Sword Summer Bright
+##EX##
 ノーブルバケーション=Noble Vacation
 ノーブルバケーション+=Noble Vacation+
+
+##S1+##
+スプラッシュトワリング+=Twilight Splash+
+味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を大アップさせる。=Recovers allies' TP by a large amount and greatly boosts their P.ATK and M.ATK.
+味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を特大アップさせる。=Recovers allies' TP by a large amount and greatly boosts their P.ATK and M.ATK.
+r:"^味方全体のＴＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ$"=Cast time: 0.74s\n►Recovers allies' TP by $1.\n►Boosts allies' P.ATK by $2 for 20s.\n►Boosts allies' M.ATK by $3 for 20s.
+
+##UE##
+繊麗剣サマーブライト=Graceful Summer Bright Sword
+
+##Comments##
+あははっ\n日が暮れるまで浜辺でゆっくり…\nこんな日があってもいいわよね=Ahaha. Sometimes it's nice to just relax on the beach until the sun sets, isn't it?
+貝殻を集めてアクセサリー作り\nなんてのも悪くないわね\n思い出作りよ？　売ろうなんて\n考えてないわよ？　たぶんね=Collecting seashells and making accessories out of them sounds like a good idea. Not for selling or anything, though. Probably.
+海の砂ってサラサラしてて気持ち\nいいわよね。持ち帰って救護院に\n砂場を作ったりできないかしら？=Sand from the beach feels so smooth and nice. What if we take some back to the orphanage and make a sand pit?
+子どもたちと賑やかに\n過ごすのはもちろん楽しいけど\nあんたと二人きりで過ごすのも\nなかなかいいわね=Don't get me wrong, I love having fun with the children. But sometimes it's nice to spend time alone together with you, too.
+あたしの水着をこんな間近で\n見られるなんて、あんた本当に\n得してるわよ♪=You best count yourself lucky. Not many people get to see me in a swimsuit, let alone up this close. ♪
+エレガントじゃないかもだけど\n今だけは許してね\nあたし今、とびっきり\n舞い上がっちゃってる！=I'm hardly at my most elegant right now, but it'd be nice if you let it slide this time. I'm just so excited!
+夏の日差しって、開放的な\n気分にさせるわよね！\nあたしももう少し\n冒険してみようかしら♪=Summer sunshine really gives you that sense of freedom, doesn't it? I'm feeling up for a little adventure. ♪
+海に来るのなんて久しぶりね～\nせっかくのバカンスなんだから\n楽しまなきゃ損よ！=It's been a while since I last came to the beach. And it'd be a waste to not make the most of this vacation!
+本当にきれいな海よね\nもし誰もいない浜辺であんたと\n二人っきりだったら…って！\nなんであたしそんなことを！=The ocean's so lovely. If we ended up alone on the beach, I'd… Wait, what am I saying?!
+捕まえてみなさ～い♪\nな、なんてことあたしが\nできるわけないじゃない！！=Catch me if you can! ♪ Th-there's no way I'd actually be able to say something like that!
+誕生日おめでとう♪\n救護院のみんなもあんたの\n誕生日を祝いたがってるから\n楽しみにしてなさいね！=Happy Birthday! ♪ Everyone at the orphanage wants to celebrate with you, so look forward to what we've got in store!
+誕生日おめでとう！\n二人きりでバースデーパーティー\nしましょうか♪　なんてね=Happy birthday! How about we have a little birthday party together, just the two of us? Just kidding.

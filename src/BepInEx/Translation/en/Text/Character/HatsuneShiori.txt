@@ -1,0 +1,35 @@
+##Profile##
+【物理】後衛から、真の絆の力を発揮する仲良し姉妹。敵の数が増えるほど威力が高まる攻撃スキルと、周りの味方を強化するスキルを操り、立ち塞がる敵を一掃する。=[Physical] From the rearguard, these sisters are close friends who demonstrate the power of their true bond. Use attack skills that increase in power as the number of enemies increases, and skills that strengthen surrounding allies to wipe out the enemies that stand in their way.
+
+フォレスティエ、牧場=Forestier, Ranch
+エルフ、獣人族=Elves, Beastfolk
+二人でピクニックに行くこと=To go on a picnic together
+大橋彩香、小清水亜美=Ayaka Ohashi, Ami Koshimizu
+絆でつながる信愛の姉妹=Faithful Sisters Connected by Bonds
+
+##UB##
+マイディアスター=My Dear Star
+自分の物理攻撃力を大アップさせ、さらに前方の敵すべてに物理大ダメージを与える。=Boosts own P.ATK and deals large P.DMG to all enemies.
+r:"^自分の物理攻撃力を(\d+)アップ範囲内の敵に(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1 for 180s.\n►Deals $2 P.DMG to all enemies.
+
+##S1##
+スターライトシュート=Starlight Shoot
+前方の敵すべてに物理中ダメージを与え、さらに自分のＴＰを中回復する。範囲内の敵の数に応じて、ダメージとＴＰの回復量が増加する。=Deals moderate damage to all enemies, and slightly recovers own TP. The P.DMG dealt and TP recovery increase according to number of enemies.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 (+0.3×$1×Enemy Count) P.DMG to all enemies.\n►Recovers own TP by $2 (+25×Enemy Count).
+
+##S2##
+シスターズリンク=Sisters' Link
+自分の周囲の味方すべての物理攻撃力と物理クリティカルと物理攻撃クリティカル時のダメージを小アップさせる。自分の物理攻撃力に応じて、それぞれの上昇量が最大４倍までアップする。=Slightly boosts allies' P.ATK, P.CRIT Rate and P.CRIT DMG in range. The P.ATK, P.CRIT Rate and P.CRIT DMG boosts increase according to own P.ATK, up to x4.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを1％アップ$"=►Boosts allies' P.ATK in 200 range by $1 (+0.04×P.ATK) for 180s.\n►Boosts allies' P.CRIT Rate in range by $2 (+0.0005×P.ATK) for 180s.\n►Boosts allies P.CRIT DMG in 200 range by 1% (+0.00005×P.ATK) for 180s.
+
+##EX##
+全開☆絆パワー=Zenkai☆Kizuna Power
+全開☆絆パワー+=Zenkai☆Kizuna Power+
+
+##S1+##
+スターライトシュート+=Starlight Shoot+
+前方の敵すべてに物理中ダメージを２回与え、さらに自分のＴＰを中回復する。範囲内の敵の数に応じて、ダメージとＴＰの回復量が増加する。=Deals moderate P.DMG to all enemies twice, and moderately recovers own TP. The P.DMG dealt and TP recovery increase according to number of enemies.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 (+0.3×$1×Enemy Count) P.DMG to all enemies.\n►Deals $2 (+0.15×$2×Enemy Count) P.DMG to all enemies.\n►Recovers own TP by $3 (+25×Enemy Count).
+
+##UE##
+ハツネとシオリの髪飾り=Hatsune and Shiori Hair Ornaments

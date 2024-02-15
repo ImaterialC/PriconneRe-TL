@@ -1,37 +1,33 @@
-【魔法】後衛の、補助魔法に特化した、晴れ姿の癒し手。自身の攻撃力と引き換えに強力なバリアと継続回復状態を味方全体に付与する。絶大な防御能力は他を圧倒する。=[Magic] A RG user of healing and support magic, decked out in traditional grab, By sacrificing her own M.ATK , she create OP barriers that heal her friends, giving her defensive potential that is second to none.
-
+##Profile##
+【魔法】後衛の、補助魔法に特化した、晴れ姿の癒し手。自身の攻撃力と引き換えに強力なバリアと継続回復状態を味方全体に付与する。絶大な防御能力は他を圧倒する。=[Magic] A rearguard user of healing and support magic, decked out in traditional garb. By sacrificing her own offensive power, she creates powerful barriers that heal her friends, giving her defensive potential that is second to none.
 
 初日の出までのひと時=New Beginnings, Together
 今年初めての共同作業=New Year's Teamwork
 ドキドキのお参り=Heartthrob Hijinks
 変わらぬ優しさ=Always Kind, Always Caring
 
-UB
+##UB##
 サンライズプロテクション=Sunrise Protection
-味方全体に物理/魔法無効バリアと継続ＨＰ回復状態を付与するが、自身の魔法攻撃力を特大ダウンさせる。=Grants HP regen and a barrier that negates P.DMG and M.DMG to all allies, but lowers own M.ATK by a massive amount.
-r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する\n毎秒ＨＰを(\d+)回復する\n自分の魔法攻撃力を初期値の90%ダウン$"=►Deploys Barrier that negates $1 P/M.DMG for 18s.\n►Recovers HP by $2/s for 10s.\n►Lowers own M.ATK by 90% of base value for 18s.
-S1
+味方全体に物理/魔法無効バリアと継続ＨＰ回復状態を付与するが、自身の魔法攻撃力を特大ダウンさせる。=Grants HP Regen and a barrier that negates P.DMG and M.DMG to all allies, but lowers own M.ATK by a massive amount.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する自分の魔法攻撃力を初期値の90%ダウン$"=►Deploys Barrier that negates $1 P/M.DMG for 18s.\n►Recovers HP by $2/s for 10s.\n►Lowers own M.ATK by 90% of base value for 18s.
+
+##S1##
+ウィークネスペタル=Weakening Petals
 前から２番目の敵１キャラの物理攻撃力と魔法攻撃力を中ダウンさせる。=Moderately lowers the P.ATK and M.ATK of the 2nd closest enemy.
-S2
+
+##S2##
+ブルーミングチアーズ=Cheerful Bloom
 魔法攻撃を行う全ての味方キャラの魔法攻撃力を大アップさせる。=Large boost to M-type all allies M.ATKs.
 r:"^対象の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.19s.\n►Boosts target allies' M.ATK by $1 for 12s.
-ex
+
+##EX##
 ブライトネスニューイヤー=Bright New Year
-
-Skills+
-UB
-
-S1
-ブルーミングチアーズ=Blooming Cheers
-ブルーミングチアーズ+=Blooming Cheers+
-ウィークネスペタル=Weekly Spectacular
-ウィークネスペタル+=Weekly Spectacular+
-
-前から２番目の敵１キャラの物理攻撃力と魔法攻撃力と魔法防御力とＴＰ上昇を中ダウンさせる。=Moderately lowers the P.ATK, M.ATK, M.DEF, TP Boost of the 2nd closest enemy.
-r:"^敵単体の物理攻撃力を(\d+)ダウン\n敵単体の魔法攻撃力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン\n敵単体のＴＰ上昇を(\d+)ダウン$"=Cast time: 1.05s.\n►Lowers an enemy's P.ATK by $1 for 12s.\n►Lowers an enemy's M.ATK by $2 for 12s.\n►Lowers an enemy's M.DEF by $3 for 12s.\n►Lowers an enemy's TP Boost by $3 for 12s.
-S2
-
-ex
 ブライトネスニューイヤー+=Bright New Year+
-UE
+
+##S1+##
+ウィークネスペタル+=Weakening Petals+
+前から２番目の敵１キャラの物理攻撃力と魔法攻撃力と魔法防御力とＴＰ上昇を中ダウンさせる。=Moderately lowers the P.ATK, M.ATK, M.DEF, TP Boost of the 2nd closest enemy.
+r:"^敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン敵単体のＴＰ上昇を(\d+)ダウン$"=Cast time: 1.05s.\n►Lowers an enemy's P.ATK by $1 for 12s.\n►Lowers an enemy's M.ATK by $2 for 12s.\n►Lowers an enemy's M.DEF by $3 for 12s.\n►Lowers an enemy's TP Boost by $3 for 12s.
+
+##UE##
 曉の祝杖ブロッサム=Sunrise Blossom

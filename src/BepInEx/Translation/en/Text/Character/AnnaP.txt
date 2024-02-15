@@ -1,31 +1,33 @@
-【魔法】前衛で己を鼓舞し高めた魔力を放つ蒼海の冥姫。発動の度、攻撃力とクリティカル時ダメージが上昇するＵＢと自己犠牲を払う強力な範囲攻撃技で敵を撃滅する。=[Magic] A dark princess of the azure sea who inspires herself to awaken new levels of magical power from the frontlines. Her UB bolsters her M.ATK and M.CRIT damage before unleashing a devastating AoE attack at the cost of her own vitality.
+##Profile##
+【魔法】前衛で己を鼓舞し高めた魔力を放つ蒼海の冥姫。発動の度、攻撃力とクリティカル時ダメージが上昇するＵＢと自己犠牲を払う強力な範囲攻撃技で敵を撃滅する。=[Magic] A dark princess of the Azure Sea who inspires herself to awaken new levels of magical power from the frontlines. Her UB bolsters her M.ATK and M.CRIT damage before unleashing a devastating AoE attack at the cost of her own vitality.
 
-前方範囲内の敵すべてに魔法大ダメージを与え、自分の魔法攻撃力を大アップし、魔法攻撃クリティカル時のダメージを小アップさせる。=Deals large M.DMG to all enemies within the frontal area, greatly boosts her own M.ATK power, and slightly boost her own M.crit dmg.
-
-前方範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。=Deals moderate M.DMG to all enemies within the frontal area and reduces their M.DEF.
-
-前方範囲内の敵すべてに魔法中ダメージを与え、さらに自分のＴＰ上昇を小アップさせるが、残りＨＰの30％を消費する。自分の魔法攻撃力が高いほど、消費するＨＰが最大60％まで増加する。=Deals moderate M.DMG to all enemies within front-range and slightly increases own TP Boost. Consumes 30% of remaining HP. The amount of HP consumed increases up to a maximum of 60% based on own M.ATK.
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n自分の魔法攻撃力を(\d+)アップ\n自分の魔法攻撃クリティカル時のダメージを2％アップ$"=►Deals $1 M.DMG to enemies within 600 range.\n►Boosts own M.ATK by $2 for 180s.\n►Boosts own M.crit dmg by by 2% for 180s.
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n自分のＴＰ上昇を20アップ\n自分の残りＨＰの30％を消費$"=►Deals $1 M.DMG to enemies within 600 range.\n►Boosts own TP Boost by 20 for 12s.\n►Consumes 30% of remaining HP.
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の魔法防御力を(\d+)ダウン\n範囲内の敵の魔法攻撃力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within 600 range.\n►Lowers all enemies’ M.DEF within 600 range by $2 for 18s.\n►Lowers all enemies’ M.ATK within 600 range by $3 for 18s.
-前方範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、魔法攻撃力を特大ダウンさせる。=Deals massive M.DMG to all enemies within the frontal area, reduces their M.DEF, and greatly decreases their M.ATK.
-
-
-
-覇海姫・竜征冥風裂波斬=Supreme Sea Princess: Dragon's Gale-Splitting Wave Slash
-羅刹涅槃・絶海=Raksha Nirvana: Boundless Sea
-羅刹涅槃・絶海+=Raksha Nirvana: Boundless Sea+
-覇海魔封印弾・禍式=Supreme Sea Demon Sealing Bullet: Calamity Style
-深淵冥魔蒼海呪=Abyssal Necromancer: Azure Sea Curse
-深淵冥魔蒼海呪+=Abyssal Necromancer: Azure Sea Curse+
-七界覇王晦冥喝破之装=Supreme Overlord of the Seven Realms: Darkened Roar of Destruction Armor
-
-
-Bond Story titles
 大迷宮のつくりかた=How to Build a Great Labyrinth
 出航！　ヘカーテ船長=Set Sail! Captain Hecate
 鷹になりたい白鳥の子=A Swan's Child Who Wants to Become a Hawk
 賞金首のすすめ=Recommendations for Bounty Hunters
+
+##UB##
+覇海姫・竜征冥風裂波斬=Supreme Sea Princess: Dragon's Gale-Splitting Wave Slash
+前方範囲内の敵すべてに魔法大ダメージを与え、自分の魔法攻撃力を大アップし、魔法攻撃クリティカル時のダメージを小アップさせる。=Deals large M.DMG to enemies in range, greatly boosts own M.ATK, and slightly boosts own M.CRIT DMG.
+r:"^範囲内の敵に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の魔法攻撃クリティカル時のダメージを2％アップ$"=►Deals $1 M.DMG to enemies in 600 range.\n►Boosts own M.ATK by $2 for 180s.\n►Boosts own M.CRIT DMG by by 2% for 180s.
+
+##S1##
+羅刹涅槃・絶海=Demonic Salvation: Boundless Sea
+前方範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。=Deals moderate M.DMG to enemies in range, and lowers their M.DEF.
+
+##S2##
+覇海魔封印弾・禍式=Supreme Sea Demon Sealing Bullet: Calamity Style
+前方範囲内の敵すべてに魔法中ダメージを与え、さらに自分のＴＰ上昇を小アップさせるが、残りＨＰの30％を消費する。自分の魔法攻撃力が高いほど、消費するＨＰが最大60％まで増加する。=Deals moderate M.DMG to all enemies within front-range and slightly increases own TP Boost. Consumes 30% of remaining HP. The amount of HP consumed increases up to a maximum of 60% based on own M.ATK.
+r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＴＰ上昇を20アップ自分の残りＨＰの30％を消費$"=►Deals $1 M.DMG to enemies in 600 range.\n►Boosts own TP Boost by 20 for 12s.\n►Consumes 30% of own remaining HP.
+
+##EX##
+深淵冥魔蒼海呪=Abyssal Necromancer: Azure Sea Curse
+深淵冥魔蒼海呪+=Abyssal Necromancer: Azure Sea Curse+
+
+##S1+##
+羅刹涅槃・絶海+=Demonic Salvation: Boundless Sea+
+前方範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、魔法攻撃力を特大ダウンさせる。=Deals massive M.DMG to enemies in range, lowers their M.DEF, and greatly lowers their M.ATK.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in 600 range.\n►Lowers all enemies' M.DEF in 600 range by $2 for 18s.\n►Lowers all enemies' M.ATK in 600 range by $3 for 18s.
+
+##UE##
+七界覇王晦冥喝破之装=Supreme Overlord of the Seven Realms: Darkened Roar of Destruction Armor

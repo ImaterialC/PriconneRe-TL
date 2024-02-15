@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛で、流麗な太刀捌きを魅せる若夏の姉御。ダメージを与えた回数に応じて攻撃力が高まるスキルと、携えた二刀の幾刃もの斬撃で、眼前の敵を薙ぎ払う。=[Physical] Vanguard youthful older sister in a summer attire, capable of wielding a flowing longsword. Her attack power increases depending on how many times she deals damage, and she mows down the enemies in front of her with the many slashes of her two swords.
+
+##UB##
+終の太刀・青嵐頒つ白糸=Final Strike: Seiran Wakatsu Shiraito
+前方範囲内の敵すべてに物理大ダメージを与える。バトル開始後初めてこのスキルを使用した後、15回ダメージを与えるたびに、自分の物理攻撃力を中アップさせる。=Deals massive P.DMG to all enemies in front. After using UB for the first time, boosts own P.ATK by a moderate amount every 15 hits.
+r:"^範囲内の敵に(\d+)の物理ダメージ15回ダメージを与えるたびに、自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies in 500 range.\n\nFor the 1st UB:\n►Grants to self special status that boosts own P.ATK by $2 for 180s every 15 hits.
+
+##S1##
+始の太刀・暁けの水無月=First Strike: Ake no Minazuki
+前方範囲内の敵すべてに物理中ダメージを与え、さらに自分の物理攻撃力を中アップさせる。=Deals moderate P.DMG to all enemies in range, and moderately boosts own P.ATK.
+
+##S2##
+継の太刀・薫風そよぐ=Second Strike: Kunpuu Soyogu
+最も物理攻撃力が高い敵１キャラの行動時間を停止させる。=Inflicts Time Stop to an enemy with highest P.ATK.
+r:"^敵単体を一定時間行動不能にする$"=►Inflicts Time Stop to an enemy for 1.75s.
+
+##EX##
+若夏の理=Young Summer Law
+若夏の理+=Young Summer Law+
+
+##S1+##
+始の太刀・暁けの水無月+=First Strike: Ake no Minazuki+
+前方範囲内の敵すべてに物理中ダメージを与え、さらに自分の物理攻撃力を大アップさせる。=Deals moderate P.DMG to all enemies in range, and greatly boosts own P.ATK.
+
+##UE##
+絶海・波浪丸 拵違=Zekkai & Haromaru - Fake

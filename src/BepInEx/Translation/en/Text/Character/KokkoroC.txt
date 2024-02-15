@@ -1,0 +1,27 @@
+##Profile##
+【物理】中衛で、尊き儀装束を纏うエルフの里の巫女。自分の攻撃力を強化し、さらにＴＰ回復で攻撃の手数を増やす。クリティカル時の猛攻で仲間を守る剣となる。=[Physical] An elven priestess who wears ceremonial attire in midlines. After strengthening her own attack power and increasing the number of attacks she can make with her TP recovery, she becomes a sword that protects her allies with an onslaught of critical attacks.
+
+##UB##
+緑翠の絆風=Green Bond Wind
+自分の物理攻撃がクリティカルした時のダメージを中アップさせ、さらに目の前の敵１キャラに物理大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく５倍になる。=Moderately boosts own P.CRIT DMG, and also deals large P.DMG to an enemy in front. If this skill hits a critical hit, the damage will be x5 instead of x2.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃クリティカル時のダメージを30％アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.CRIT DMG by 30% for 18s.
+
+##S1##
+春疾風=Strong Spring Wind
+目の前の敵１キャラに物理中ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく５倍になる。=Deals moderate P.DMG to an enemy in front. If this skill hits a critical hit, the damage will be x5 instead of x2.
+
+##S2##
+翔る薫風=Soaring Fragrant Wind
+自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、さらにＴＰを小回復する。=Greatly boosts own P.ATK and P.CRIT Rate, and also recovers own TP by a small amount.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分のＴＰを(\d+)回復$"=►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by $2 for 12s.\n►Recovers own TP by $3.
+
+##EX##
+光風の天啓=Light and Wind
+光風の天啓+=Light and Wind+
+
+##S1+##
+春疾風+=Strong Spring Wind+
+自分の物理攻撃力と物理クリティカルを大アップさせ、目の前の敵１キャラに物理中ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく７倍になる。=Greatly boosts own P.ATK and P.CRIT Rate, and deals moderate P.DMG to an enemy in front. If this skill hits a critical hit, the damage will be x7 instead of x2.
+
+##UE##
+大精霊の儀剣=Great Spirit Sword

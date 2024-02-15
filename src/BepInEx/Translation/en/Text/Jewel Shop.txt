@@ -87,6 +87,7 @@ r:"^ジュエル (\d+)個$"=$1 Jewels
 
 r:"^アイテム装備パック([Ⅰ-Ⅻ])?（(\d+)周年）が購入可能になりました！$"=Equipment Pack $1 ($2th Anniv)\nis now available!
 アイテム装備パックについて=About Item Equipment Packs
+sr:"^(.+)が購入可能になりました！=$1 is now available!
 
 sr:"^アイテム装備パック([Ⅰ-Ⅻ])?(（再販）)?$"=Equipment Pack $1 $2
 r:"^アイテム装備パック(.+)?（([\d]+)周年）$"="Equipment Pack $1 ($2th Anniv)"

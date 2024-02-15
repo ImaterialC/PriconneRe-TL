@@ -1,3 +1,4 @@
+##Profile##
 【物理】前衛で闇に紛れ会心の一撃を放つ怪盗ドラゴン。隠密効果中、ダメージが大アップし必ずクリティカルするＵＢとスキルを駆使し安定したダメージを敵に叩き込む。=[Physical] As a vanguard fighter, the Phantom Dragon blends into the darkness and delivers critical hits. With the effect of stealth, the damage is largely increased and critical hits are guaranteed. Utilizing UB and skills, the Phantom Dragon deals consistent damage to the enemy.
 
 口が達者なヘタレドラゴン=A dragon who talks a lot but is easily frightened
@@ -8,24 +9,29 @@
 大怪盗の時間=Time of the Great Phantom Thief
 ノーリスク・ノーリターン=No Risk, No Return.
 
-
+##UB##
 ドラゴンズファントム=Dragon's Phantom
-目の前の敵１キャラに物理大ダメージを与える。自分が隠密状態の場合、自分の物理攻撃クリティカル時のダメージを中アップさせ、このスキルのダメージがアップし、１ヒットは必ずクリティカルする。さらに、クリティカルした場合のダメージは、２倍ではなく４倍になる。=Deal large P.DMG to the enemy character in front. If the user is in stealth mode, her P.crit dmg is increased to medium, and the damage of this skill is increased, with one hit guaranteed to be critical. Furthermore, the critical damage is 4 times instead of 2 times.
-r:"^敵単体に(\d+)の物理ダメージ\n自分が隠密状態の時、敵単体に(\d+)の物理ダメージ\n自分が隠密状態の時、自分の物理攻撃クリティカル時のダメージを30％アップ$"=►Deals $1 P.DMG to a single enemy.\n►If self is in a stealth state, deals $2 P.DMG to a single enemy.\n►If self is in a stealth state, increases own critical P.DMG by 30% for 18s.
+目の前の敵１キャラに物理大ダメージを与える。自分が隠密状態の場合、自分の物理攻撃クリティカル時のダメージを中アップさせ、このスキルのダメージがアップし、１ヒットは必ずクリティカルする。さらに、クリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals large P.DMG to an enemy in front. If Inori is in Stealth mode, moderately boosts own P.CRIT DMG, and P.DMG dealt increases with one hit guaranteed to be critical. Additionally, critical damage is x4.
+r:"^敵単体に(\d+)の物理ダメージ自分が隠密状態の時、敵単体に(\d+)の物理ダメージ自分が隠密状態の時、自分の物理攻撃クリティカル時のダメージを30％アップ$"=If Inori is not in Stealth mode:\n►Deals $1 P.DMG to an enemy.\n\nIf Inori is in Stealth mode:\n►Deals $2 P.DMG to an enemy.\n►Boosts own P.CRIT DMG by 30% for 18s.
 
+##S1##
 シャドウファング=Shadow Fang
-目の前の敵１キャラに物理中ダメージを与える。自分が隠密状態の場合、自分のＴＰを小回復し、このスキルのダメージがアップし、必ずクリティカルする。さらに、クリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals medium P.DMG to the enemy in the front. If the Inori is in a stealth state, her TP is slightly restored, and the damage of this skill is increased and always critical. Furthermore, the critical damage is 4 times instead of 2 times.
-r:"^敵単体に(\d+)の物理ダメージ\n自分が隠密状態の時、敵単体に(\d+)の物理ダメージ\n自分が隠密状態の時、自分のＴＰを80回復$"=Cast time: 0.465\n►Deals $1 P.DMG to a single enemy.\n►If self is in stealth state, deals $2 P.DMG to a single enemy.\n►If self is in stealth state, recovers own TP by 80.
+目の前の敵１キャラに物理中ダメージを与える。自分が隠密状態の場合、自分のＴＰを小回復し、このスキルのダメージがアップし、必ずクリティカルする。さらに、クリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals moderate P.DMG to an enemy in front. If Inori is in Stealth mode, slightly recovers own TP, and P.DMG dealt increases and is always critical. Additionally, the critical damage is x4.
+r:"^敵単体に(\d+)の物理ダメージ自分が隠密状態の時、敵単体に(\d+)の物理ダメージ自分が隠密状態の時、自分のＴＰを80回復$"=Cast time: 0.465\nIf Inori is not in Stealth mode:\n►Deals $1 P.DMG to an enemy.\n\nIf Inori is in Stealth mode:\n►Deals $2 P.DMG to an enemy.\n►Recovers own TP by 80.
 
-シャドウファング+=Shadow Fang+
-目の前の敵１キャラに物理中ダメージを与える。自分が隠密状態の場合、自分のＴＰを中回復し、このスキルのダメージがアップし、追加で物理小ダメージを与える。さらに、このスキルのダメージが必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals medium P.DMG to the enemy in the front. If the user is in stealth mode, their TP is slightly restored and the damage of this skill is increased, and an additional small P.DMG is dealt. Furthermore, this skill always results in a critical hit, and the critical damage is 4 times instead of 2 times.
-r:"^敵単体に(\d+)の物理ダメージ\n自分が隠密状態の時、敵単体に(\d+)の物理ダメージ\n自分が隠密状態の時、敵単体に(\d+)の物理ダメージ\n自分が隠密状態の時、自分のＴＰを150回復$"=Cast time: 0.465\n►Deals $1 P.DMG to an enemy.\n►If self is in stealth state, deals $2 P.DMG to an enemy.\n►If self is in stealth state, deals $3 P.DMG to a single enemy.\n►If self is in stealth state, recovers own TP by 150.
+##S2##
+ドラゴンズミスト=Dragon's Mist
+【隠密】自分を隠密状態にして、行動速度を大アップさせ、物理攻撃力を特大アップし、さらに自分のＴＰを大回復する。=[Stealth] Enters Stealth mode. Greatly boosts own action speed and P.ATK, and also greatly recovers own TP.
+r:"^自分を隠密状態にする自分の行動速度アップ自分の物理攻撃力を(\d+)アップ自分のＴＰを350回復$"=Cast time: 0.465\n►Enters Stealth mode.\n►Boosts own action speed to 200% for 18s.\n►Boosts own P.ATK by $1 for 18s.\n►Recovers own TP by 350.
 
-
-ドラゴンズミスト=Dragons Mist
-r:"^自分を隠密状態にする\n自分の行動速度アップ\n自分の物理攻撃力を(\d+)アップ\n自分のＴＰを350回復$"=Cast time: 0.465\n►Enters stealth mode.\n►Boosts own action speed into 200% for 18s.\n►Boosts own P.ATK by $1 for 18s.\n►Recovers own TP by 350.
-【隠密】自分を隠密状態にして、行動速度を大アップさせ、物理攻撃力を特大アップし、さらに自分のＴＰを大回復する。=[Stealth] Enter stealth mode. Greatly increase action speed and P.ATK, and further greatly recover own TP.
-
+##EX##
 いただくですよ！=I Will Take It!
 いただくですよ！+=I Will Take It!+
+
+##S1+##
+シャドウファング+=Shadow Fang+
+目の前の敵１キャラに物理中ダメージを与える。自分が隠密状態の場合、自分のＴＰを中回復し、このスキルのダメージがアップし、追加で物理小ダメージを与える。さらに、このスキルのダメージが必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals moderate P.DMG to an enemy in front. If Inori is in Stealth mode, slightly recovers own TP, and P.DMG dealt increases and is always critical, also deals P.DMG to an enemy again. Additionally, the critical damage is x4.
+r:"^敵単体に(\d+)の物理ダメージ自分が隠密状態の時、敵単体に(\d+)の物理ダメージ自分が隠密状態の時、敵単体に(\d+)の物理ダメージ自分が隠密状態の時、自分のＴＰを150回復$"=Cast time: 0.465\nIf Inori is not in Stealth mode:\n►Deals $1 P.DMG to an enemy.\n\nIf Inori is in Stealth mode:\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Recovers own TP by 150.
+
+##UE##
 インビジブルドラゴン=Invisible Dragon

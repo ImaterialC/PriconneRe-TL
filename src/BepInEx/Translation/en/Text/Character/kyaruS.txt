@@ -1,20 +1,27 @@
----Skillsキャル（サマー）
----UB
+##Profile##
+【魔法】後衛から強力な単体攻撃を放つ真夏の猫娘。\nスキルで敵の魔法防御力を下げた上で、\n敵単体への魔法攻撃を繰り出し、大ダメージを与える。=[Magical] A cat-eared sorceress who fires off devastating single-target spells from the rearguard. She generates big damage by lowering a single enemy's magical defense before blasting them with her spells.
+
+##UB##
 レイジングフローター=Rubber Rampage
----S1
----S2
+
+##S1##
+ウォーターバレット=Aqua Bullet
+
+##S2##
+スパイラルウェーブ=Spiral Wave
 目の前の敵１キャラに魔法小ダメージを与え、さらに魔法防御力を中ダウンさせる。=Deals small M.DMG to an enemy directly in front and lowers their M.DEF by a moderate amount.
----ex
+
+##EX##
 ハイドロリンク=Hydro Link
----Skills+
----UB
+ハイドロリンク+=Hydro Link+
+
+##UB+##
 サマーフルフローター=Summer Full Floater
 目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。発動時既にこのスキルの対象が魔法防御力ダウン状態だった場合、さらに魔法大ダメージを与える。=Deals massive M.DMG to an enemy directly in front, and reduces M.DEF by small amount. If the target of this skill is already in the M.DEF down state at the time of activation, it will do more M.DMG.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン対象が魔法防御力ダウン状態の時、敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2.\n\nIf enemy's M.DEF is already lowered:\n►Deals $3 M.DMG to an enemy.
 
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン\n対象が魔法防御力ダウン状態の時、敵単体に(\d+)の魔法ダメージ$"=Deals $1 M.DMG to an enemy\nLowers an enemy’s M.DEF by $2.\nWhen the target at M.DEF down state, Deals $3 M.DMG.
----S1
----S2
----ex
-ハイドロリンク+=Hydro Link+
----UE
-猫輪サマーフロート=Cat Ring Summer Float
+##S1+##
+ウォーターバレット+=Aqua Bullet+
+
+##UE##
+猫輪サマーフロート=Feline Floatring

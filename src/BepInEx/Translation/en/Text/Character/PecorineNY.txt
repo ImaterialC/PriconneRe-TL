@@ -1,29 +1,35 @@
-【物理】前衛で元気いっぱいに新年を祝う腹ペコお姫様。物理攻撃力を高めるスキルで味方を強化し、ＨＰが多いほどダメージが上昇するユニオンバーストで敵を討つ。=[Physical] A hungry princess who celebrates the NY with great energy in the VG. She boosts allies' P.ATK, and defeats enemies with UB, which increases damage the more HP she has.
+##Profile##
+【物理】前衛で元気いっぱいに新年を祝う腹ペコお姫様。物理攻撃力を高めるスキルで味方を強化し、ＨＰが多いほどダメージが上昇するユニオンバーストで敵を討つ。=[Physical] A hungry princess who celebrates New Year with great energy in the vanguard. She boosts allies' P.ATK, and defeats enemies with UB, which increases damage the more HP she has.
 
 すごろくがつなぐ縁=Sugoroku Connects Us to the World
 待ち人はすぐそばに=Waiting Persons are Right Beside You
 おせちが彩る王女との絆=Bond with the Princess Colored by Osechi
 美食の新年を迎えるために=To Celebrate the New Year with Gourmet Food
 
-r:"^自分の残りＨＰが最大ＨＰの80％未満の場合、敵単体に(\d+)の物理ダメージ\n自分の残りＨＰが最大ＨＰの80％以上の場合、敵単体に(\d+)の物理ダメージ\n自分の残りＨＰが最大ＨＰの90％以上の場合、自分の物理攻撃力を(\d+)アップ$"=If HP < 80%, Deals $1 P.DMG to an enemy.\nIf HP > 80%, Deals $2 P.DMG to an enemy.\nIf HP > 90%, Boosts own P.ATK by $3 for 18s.
-
-目の前の敵１キャラに物理中ダメージを与える。自分の残りＨＰが80％以上だった場合、物理大ダメ―ジを与える。自分の残りＨＰに応じて、このスキルのダメージがアップする。自分の残りＨＰが90％以上だった場合、さらに自分の物理攻撃力を特大アップさせる。=Deals moderate P.DMG to one enemy in front. If HP > 80%, Deals a large amount of P.DMG. The damage of this skill increases according to your remaining HP. If HP > 90%, greatly increase own P.ATK.
-
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の残りＨＰが最大ＨＰの80％以上の場合、味方全体の物理攻撃力を(\d+)アップ$"=Cast time: 0.465s.\nBoosts own P.ATK by $1 (+9%HP) for 12s.\nIf HP > 80%, Boosts allies' P.ATK by $2 (+5%HP) for 12s.
-
-自分の物理攻撃力を小アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。=Boosts your P.ATK by a small amount. If HP > 80%, it further increases the allies' P.ATK by a medium amount. The amount of increase in P.ATK is increased according to your remaining HP.
-
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の残りＨＰが最大ＨＰの80％以上の場合、味方全体の物理攻撃力を(\d+)アップ\n自分の残りＨＰが最大ＨＰの90％以上の場合、自分のＴＰを(\d+)回復$"=Cast time:0.465s\nBoosts own P.ATK by $1 (+11%HP) for 12s.\nIf HP > 80%, Boosts allies' P.ATK by $2 (+6%HP) for 12s.\nIf HP > 90%, Recovers own TP by $3.
-
-自分の物理攻撃力を小アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。自分の残りＨＰが90％以上だった場合、さらに自分のＴＰを中回復する。=Boosts your P.ATK by a small amount. If HP > 80%, it further increases the allies' P.ATK by a medium amount. The amount of increase in P.ATK is increased according to your remaining HP. If HP > 90%, your TP will be restored by a medium amount.
-
-r:"^敵単体に(\d+)の物理ダメージ\n自分の残りＨＰが最大ＨＰの80％以上の場合、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.795s.\nDeals $1 P.DMG to an enemy.\nIf HP > 80%, Lowers an enemy's P.DEF by $2 for 12s.
-
-目の前の敵１キャラに物理中ダメージを与える。自分の残りＨＰが80％以上だった場合、さらに物理防御力を小ダウンさせる。自分の残りＨＰに応じて、このスキルのダメージがアップする。=Deals medium P.DMG to one enemy character in front. If your remaining HP is 80% or more, it further reduces P.DEF by a small amount. The damage of this skill is increased according to your remaining HP.
-
-
-迎春美食の晴着=New Year’s Gourmet Cuisine
-
-新春美食パワー+=New Year Gourmet Power+
-新春美食パワー=New Year Gourmet Power
+##UB##
 ニューイヤーストライク=New Year Strike
+目の前の敵１キャラに物理中ダメージを与える。自分の残りＨＰが80％以上だった場合、物理大ダメ―ジを与える。自分の残りＨＰに応じて、このスキルのダメージがアップする。自分の残りＨＰが90％以上だった場合、さらに自分の物理攻撃力を特大アップさせる。=Deals moderate P.DMG to one enemy in front. If HP ≥ 80%, Deals a large amount of P.DMG. The damage of this skill increases according to your remaining HP. If HP > 90%, greatly increase own P.ATK.
+r:"^自分の残りＨＰが最大ＨＰの80％未満の場合、敵単体に(\d+)の物理ダメージ自分の残りＨＰが最大ＨＰの80％以上の場合、敵単体に(\d+)の物理ダメージ自分の残りＨＰが最大ＨＰの90％以上の場合、自分の物理攻撃力を(\d+)アップ$"=►If HP < 80%, deals $1 P.DMG to an enemy.\n►If HP ≥ 80%, deals $2 P.DMG to an enemy.\n►If HP > 90%, boosts own P.ATK by $3 for 18s.
+
+##S1##
+ダイフクタイム=Daifuku Time
+自分の物理攻撃力を小アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。=Boosts your P.ATK by a small amount. If HP > 80%, it further increases the allies' P.ATK by a moderate amount. The amount of increase in P.ATK is increased according to your remaining HP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の残りＨＰが最大ＨＰの80％以上の場合、味方全体の物理攻撃力を(\d+)アップ$"=Cast time: 0.465s.\n►Boosts own P.ATK by $1 (+0.09×HP) for 12s.\n►If HP > 80%, boosts allies' P.ATK by $2 (+0.05×HP) for 12s.
+
+##S2##
+ライジングサン=Rising Sun
+目の前の敵１キャラに物理中ダメージを与える。自分の残りＨＰが80％以上だった場合、さらに物理防御力を小ダウンさせる。自分の残りＨＰに応じて、このスキルのダメージがアップする。=Deals moderate P.DMG to one enemy character in front. If your remaining HP is 80% or more, it further reduces P.DEF by a small amount. The damage of this skill is increased according to your remaining HP.
+r:"^敵単体に(\d+)の物理ダメージ自分の残りＨＰが最大ＨＰの80％以上の場合、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.795s.\n►Deals $1 P.DMG to an enemy.\n►If HP > 80%, lowers an enemy's P.DEF by $2 for 12s.
+
+##EX##
+新春美食パワー=New Year Gourmet Power
+新春美食パワー+=New Year Gourmet Power+
+
+##S1+##
+ダイフクタイム+=Daifuku Time+
+自分の物理攻撃力を小アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。自分の残りＨＰが90％以上だった場合、さらに自分のＴＰを中回復する。=Boosts your P.ATK by a small amount. If HP > 80%, it further increases the allies' P.ATK by a moderate amount. The amount of increase in P.ATK is increased according to your remaining HP. If HP > 90%, recovers own TP by a moderate amount.
+自分の物理攻撃力を中アップさせる。自分の残りＨＰが80％以上だった場合、さらに味方全体の物理攻撃力を中アップさせる。自分の残りＨＰに応じて、物理攻撃力の上昇量がアップする。自分の残りＨＰが90％以上だった場合、さらに自分のＴＰを中回復する。=Boosts your P.ATK by a moderate amount. If HP > 80%, it further increases the allies' P.ATK by a moderate amount. The amount of increase in P.ATK is increased according to your remaining HP. If HP > 90%, recovers own TP by a moderate amount.
+r:"^自分の物理攻撃力を(\d+)アップ自分の残りＨＰが最大ＨＰの80％以上の場合、味方全体の物理攻撃力を(\d+)アップ自分の残りＨＰが最大ＨＰの90％以上の場合、自分のＴＰを(\d+)回復$"=Cast time: 0.465s\n►Boosts own P.ATK by $1 (+0.11×HP) for 12s.\n►If HP > 80%, boosts allies' P.ATK by $2 (+0.06×HP) for 12s.\n►If HP > 90%, recovers own TP by $3.
+
+##UE##
+迎春美食の晴着=New Year's Gourmet Cuisine

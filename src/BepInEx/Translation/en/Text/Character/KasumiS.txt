@@ -1,0 +1,29 @@
+##Profile##
+【魔法】後衛で、敵の防御力を削ぎ取る渚の名探偵。攻撃力が高い敵に目標を定めて防御力を下げつつ、味方を強化するスキルで、どんな難事件も解決へと導く。=[Magic] A great detective on the beach who works in the rearguard and whittles down the enemy's defense. With skills that target enemies with high attack power and lower their defense while strengthening allies, she can help solve any difficult case.
+
+##UB##
+サマー・ディテクティブ=Summer Detective
+物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラに魔法大ダメージを与え、魔法防御力を中ダウンさせる。さらに物理クリティカルと魔法クリティカルを特大ダウンさせる。=Deals large M.DMG to an enemy with the highest P/M.ATK (whichever is higher), and lowers its M.DEF by a moderate amount. Additionally, greatly lowers its P.CRIT Rate and M.CRIT Rate.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の物理クリティカルを(\d+)ダウン敵単体の魔法クリティカルを(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 18s.\n►Lowers an enemy's P.CRIT Rate by $3 for 18s.\n►Lowers an enemy's M.CRIT Rate by $4 for 18s.
+
+##S1##
+アクアキャプチャー=Aqua Capture
+物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラの魔法防御力を中ダウンさせ、さらにクリティカルを受けた際のダメージを小アップさせる。=Moderately lowers an enemy's M.DEF with the highest P/M.ATK (whichever is higher), and slightly boosts its M.CRIT DMG taken.
+r:"^敵単体の魔法防御力を(\d+)ダウンクリティカルを受けた際のダメージを12％アップ$"=►Lowers an enemy's P.DEF or M.DEF by $1 for 12s.\n►Boosts an enemy's P.CRIT DMG taken or M.CRIT DMG taken by 12% for 12s.
+
+##S2##
+ショアインテリジェンス=Shore Intelligence
+自分以外の味方全体の魔法攻撃力と魔法クリティカルを大アップさせる。自分の魔法攻撃力に応じて、魔法攻撃力の上昇量がアップする。=Greatly boosts all other allies' M.ATK and M.CRIT Rate. The M.ATK boost amount increases according to own M.ATK.
+r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリティカルを(\d+)アップ$"=►Boosts all other allies' M.ATK by $1(+0.035×M.ATK) for 12s.\n►Boosts all other allies' M.CRIT Rate by $2 for 12s.
+
+##EX##
+ミスティックサマー=Mystic Summer
+ミスティックサマー+=Mystic Summer+
+
+##S1+##
+アクアキャプチャー+=Aqua Capture+
+物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラの魔法防御力を特大ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに魔法中ダメージを与える。このスキルは必ずクリティカルする。=Greatly lowers an enemy's M.DEF with the highest P/M.ATK (whichever is higher), and slightly boosts its M.CRIT DMG taken. Additionally, deals moderate M.DMG to an enemy which will be always critical.
+r:"^敵単体の魔法防御力を(\d+)ダウンクリティカルを受けた際のダメージを16％アップ敵単体に(\d+)の魔法ダメージ$"=►Lowers an enemy's P.DEF or M.DEF by $1 for 12s.\n►Boosts an enemy's P.CRIT DMG taken or M.CRIT DMG taken by 16% for 12s.\n►Deals $2 M.DMG to an enemy.
+
+##UE##
+サマーディテクティブロッド=Summer Detective Rod

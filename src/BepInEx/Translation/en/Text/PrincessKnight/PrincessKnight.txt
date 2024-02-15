@@ -1,0 +1,25 @@
+プリンセスナイト強化=Princess Knight Strengthening
+
+プリンセスナイト=Princess Knight
+強化詳細=Enhancement Details
+強化Lv=Enhancement Lv
+強化地点へ=To the point of enhancement
+属性レベル=Elemental level
+属性スキル=Elemental Skill
+マスタースキル=Master Skill
+火属性攻撃力=Fire Attribute Power
+水属性攻撃力=Water Attribute Power
+風属性攻撃力=Wind Attribute Power
+光属性攻撃力=Light Attribute Power
+闇属性攻撃力=Dark Attribute Power
+
+
+[3C404E]火属性キャラの物理攻撃力が[-][FFBB00,CE4F00]0.84％[-][3C404E]アップ[-]=[3C404E] Physical attack power of fire elemental characters [--] [FFBB00, CE4F00] 0.84% [-][--3C404E] up [- ]
+未強化=Unenhanced
+物理攻撃力強化=Physical Attack Enhancement
+火属性キャラ=Fire-attribute character
+このノードは強化済みです。=This node has been strengthened.
+所持シャード=Possession Shard
+消費シャード=Consumer shard
+ノード詳細=Node Details
+選択したノードの強化詳細です。\n未強化の前提ノードは自動で強化されます。=This is the details of the selected node's enhancement. The unenhanced node will automatically be strengthened.

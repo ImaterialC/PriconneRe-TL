@@ -1,21 +1,28 @@
+##Profile##
 【魔法】中衛で、守護の賛歌を捧げる夏海の歌姫。\n最序盤に味方の魔法防御を大幅に強化し、吸収バリアや\nＨＰ回復スキルで、如何なる猛攻からも味方を守る。=[Magic] A summer diva who sings a hymn of protection from the midlines. She greatly strengthens the M.DEF of her allies at the very start of the fight, and protects them from incoming attacks with her absorption barrier and HP Recovery skills.
 
+##UB##
 サマーオーシャンシンフォニー=Summer Ocean Symphony
-味方全体の物理防御力と魔法防御力を中アップさせる。さらに、物理/魔法吸収バリアを展開する。=Moderately boost allies' P.DEF and M.DEF. In addition, deploy a physical/magical absorption barrier.
-r:"^味方全体の物理防御力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Boosts allies' P.DEF by $1 for 18s.\n►Boosts allies' M.DEF by $2 for 18s.\n►Deploy Barrier to all allies that absorbs $3 P/M.DMG for 18s.
+味方全体の物理防御力と魔法防御力を中アップさせる。さらに、物理/魔法吸収バリアを展開する。=Moderately boosts all allies' P.DEF and M.DEF. Additionally, deploys Barrier that absorbs P/M.DMG.
+r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Boosts all allies' P.DEF by $1 for 18s.\n►Boosts all allies' M.DEF by $2 for 18s.\n►Deploys Barrier over all allies that absorbs $3 P/M.DMG for 18s.
 
-自分を中心とした範囲内の味方すべての魔法防御力を特大アップさせる。このスキルは３回まで、使用する度にスキル効果がダウンする。=Large boost to allies' M.DEF within a range of 255 around you. This skill's potency will decrease after 3 uses.
-
-自分を中心とした範囲内の味方すべての魔法防御力を特大アップさせ、魔法無効バリアを展開し、さらに自分のＴＰを特大回復させる。このスキルは３回まで、使用する度にスキル効果がダウンする。=Massively boost allies' M.DEF within a range around you, creates a magic-nullifying barrier, and large boost to user's TP. This skill's potency will decrease after 3 uses.
-
-r:"^範囲内の味方の魔法防御力を(\d+)アップ\n自分のＴＰを(\d+)回復\n(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts allies' M.DEF by $1 within 255 range for 12s.\n►Recovers own TP by $2.\n►Deploys a barrier within 255 range that negates $3 M.DMG.
-
-r:"^味方単体のＨＰを(\d+)回復\n毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Recovers an ally's HP by $2/s.
-最もＨＰが低い味方１キャラのＨＰを小回復させ、継続ＨＰ回復状態を付与する。=Slightly restores the HP of the ally character with the lowest HP, and gives HP regen.
-
-オーシャンプロテクション+=Ocean Protection+
+##S1##
 オーシャンプロテクション=Ocean Protection
+自分を中心とした範囲内の味方すべての魔法防御力を特大アップさせる。このスキルは３回まで、使用する度にスキル効果がダウンする。=Greatly boosts allies' M.DEF in range. This skill's potency will decrease after 3 uses.
+
+##S2##
 ドルフィンソング=Dolphin Song
+最もＨＰが低い味方１キャラのＨＰを小回復させ、継続ＨＰ回復状態を付与する。=Slightly recovers an ally's HP with the lowest HP, and grants them continuous HP Recovery by a small amount.
+r:"^味方単体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Recovers an ally's HP by $2/s for 8.5s.
+
+##EX##
 サマーディーヴァ=Summer Diva
 サマーディーヴァ+=Summer Diva+
+
+##S1+##
+オーシャンプロテクション+=Ocean Protection+
+自分を中心とした範囲内の味方すべての魔法防御力を特大アップさせ、魔法無効バリアを展開し、さらに自分のＴＰを特大回復させる。このスキルは３回まで、使用する度にスキル効果がダウンする。=Massively boost allies' M.DEF in range, deploys Barrier that negates M.DMG, and greatly boosts own TP. This skill's potency will decrease after 3 uses.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ自分のＴＰを(\d+)回復(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts allies' M.DEF by $1 in 255 range for 12s.\n►Recovers own TP by $2.\n►Deploys Barrier over allies in 255 range that negates $3 M.DMG for 12s.
+
+##UE##
 翠夏杖オーシャンルーン=Midsummer Cane Ocean Rune

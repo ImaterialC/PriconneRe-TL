@@ -1,64 +1,70 @@
-Profile
-人助け、応援=Helping people, cheering
-人助けが大好き！　前向き格闘娘=An optimistic fighter who loves helping people
-Skills
-UB
+##Profile##
+人助け、応援=Helping people, giving support
+人助けが大好き！　前向き格闘娘=Always happy to help! An optimistic fighter
 
-【物理】前衛で、敵前線を押し返す笑顔の元気娘。前衛に対して大ダメージを与えるユニオンバーストと、自身の攻撃力を強化するスキルを持つ攻撃役。=[Physics] A cheerful girl who fights from the vanguard to push back the enemy's front lines. An offensive fighter with a Union Burst that hits the vanguard hard and skills that enhance her own attack power.
+【物理】前衛で、敵前線を押し返す笑顔の元気娘。前衛に対して大ダメージを与えるユニオンバーストと、自身の攻撃力を強化するスキルを持つ攻撃役。=[Physical] An energetic girl who fights in the frontlines to push back the enemy's guard. She's an attaker with a Union Burst that inflicts heavy damage on the frontlines, which can be bolstered further with skills that boost her P.ATK.
 
-ドキドキがくれるパワー=Power that makes your heart beat
-ストレイキャットメモリー=Stray cat memory
-助けるべき悪人=Villain to help
-ムズムズの秘密=Itchy secret
+ドキドキがくれるパワー=The Power Of A Racing Heartbeat
+ストレイキャットメモリー=Memory of a Stray Cat
+助けるべき悪人=A Villain To Help
+ムズムズの秘密=A Nagging Secret
 
-エールを送りたいのに=Yell for You Yell for Me
-勝利を君に=Something to Fight For
-休みたいのに休めない！=No Rest for the Wicked!
-しっぽは反則？=The Tail's Off-Limits!
+エールを送りたいのに=I Would Call For You
+勝利を君に=A Victory For You
+休みたいのに休めない！=I Can't Help It, I Can't Rest!
+しっぽは反則？=Is The Tail Off-Limits?
 ストレイキャットガール=The Stray Cat Girl
-願いは笑顔のために=An Earnest Desire for Happiness
+願いは笑顔のために=An Earnest Wish for Happiness
 誓いのゆびきり=A Promise Worth Keeping
 困った時はお互いさまさま=I Scratch Your Back, You Scratch Mine
 
+##UB##
 ヒヨリラッシュ=Hiyori Rush
 目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals large P.DMG to an enemy directly in front and deals moderate P.DMG to all enemies in a small radius around it.
-r:"^敵単体に(\d+)の物理ダメージ\n範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to enemies in range.
-S1
-キャットストライク=Cat strike
-キャットストライク+=Cat strike+
-S2
-キャットコンビネーション=Cat Combination
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to enemies in range.
+
+##S1##
+キャットストライク=Kitty Kapow
+目の前の敵１キャラに物理中ダメー\nジを与える。=Deals moderate P.DMG to an enemy directly in front.
+## r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ$"=This value is ignored because it's the same as UB. Cast time can't be include.
+
+##S2##
+キャットコンビネーション=Kitty Combo
 目の前の敵１キャラに物理小ダメージを与え、さらに自分の物理攻撃力を中アップさせる。=Deals small P.DMG to an enemy directly in front. Boosts own P.ATK by a moderate amount.
-ex
-肉球パワー！=Paw Power
-Skills+
-UB
-ヒヨリバーニングラッシュ=Hiyo River Ningy Rush
+## r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=This value is ignored because it's the same as Djeeta UB. Cast time can't be include.
+
+##EX##
+肉球パワー！=Paw Power!
+肉球パワー！+=Paw Power!+
+
+##UB+##
+ヒヨリバーニングラッシュ=Hiyori Burning Rush
 目の前の敵１キャラに物理特大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。=Deals massive P.DMG to an enemy directly in front and deals moderate P.DMG to all enemies in a radius around it.
-S1
+
+##S1+##
+キャットストライク+=Kitty Kapow+
 目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理小ダメージを与える。=Deals large P.DMG to an enemy directly in front and deals small P.DMG to all enemies in a small radius around it.
-S2
-ex
-肉球パワー！+=Paw Power+
-UE
-ニャンピオンベルト=Nyampion's Belt
+## r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ$"=This value is ignored because it's the same as UB. Cast time can't be include.
 
+##UE##
+ニャンピオンベルト=Nyanpion's Belt
 
+##Comments##
 みんなが笑顔でいられるように！\nヒヨリ、頑張りまーっす！　いぇい！=So everyone can smile!\nHiyori'll do her best! Yay!
 この間は助けてくれてありがとう！\nやっぱり困った時はお互いさまさま、だよね！\nこれからも、一緒に助け合っていけたらいいな！=Thank you for saving me the other day! We really are\nin each other's debt when we're in trouble, aren't we?!\nI hope we can keep helping each other out from now on!
-ゆびきりなんて久しぶりだったよー！\n誰かに頼れるって、嬉しいな…\n騎士くんも、どんどんあたしを頼ってね！=It's been a while since I've been able to relax!\nI'm so happy to be able to rely on someone else...\nYou keep relying on me, too, knight-kun!
-なんだったんだろう…あの気持ち\n胸の奥が、きゅって苦しくなって…\nあーもー！　分かんないよぉー！=What was that all about...?\nI can feel the pain deep in my chest...\nAaah, geez! I don't get iiit!
-騎士くんに聞いたら、分かるのかな…？\n…ダメだー！　想像しただけで\nなんかドキドキしちゃうー！=I wonder if I'll be able to tell\nif I ask the knight-kun...? ...Nooo!\nJust imagining it makes my heart race!
+ゆびきりなんて久しぶりだったよー！\n誰かに頼れるって、嬉しいな…\n騎士くんも、どんどんあたしを頼ってね！=It's been a while since I've been able to relax!\nI'm so happy to be able to rely on someone else...\nYou keep relying on me, too, Kishi-kun!
+なんだったんだろう…あの気持ち\n胸の奥が、きゅって苦しくなって…\nあーもー！　分かんないよぉー！=What was that all about...?\nI can feel a pain deep in my chest...\nAaah, geez! I don't get iiit!
+騎士くんに聞いたら、分かるのかな…？\n…ダメだー！　想像しただけで\nなんかドキドキしちゃうー！=I wonder if Kishi-kun would\nbe able to tell me...? ...Nooo!\nJust imagining it makes my heart race!
 お医者さんに行ってみようかな…\nでもなぁー…うーん…\nうーん…！　分かんないよぉー！=Maybe I should go see a doctor...\nbut... hmm... hmmm...! I don't know!
-あの夢、なんだったんだろう…？\n夢の中でも…騎士くんは優しかったな\nあたしも…あんな風になりたい！=What was that dream all about...?\nEven in my dreams... you were so kind, knight-kun...\nI want to be like that too!
-大きな大会の前だからって緊張してたのかも…\n騎士くんが言ってくれた通りに、いつものあたしで！\n武闘会、全力で頑張ってくるね！=Maybe I was just nervous because it's before a big\n tournament... Just like the knight-kun said, I'm the\nusual me! I'll do my best in the tournament!
-胸の奥から、すっごい力が湧いてくるの！\nいつかあたしも…騎士くんがすっごい力を\n出せるような人になりたいな…=A great power wells up from deep within my chest!\nSomeday... I want to be the kind of person\nwho can give you great power...
-やっぱりあたし、騎士くんがいてくれたら\n出来ないかもって思ったことだって、\nやりきれちゃうみたい…=Looks like I'll be able to do it even if\nI don't think I can do it with you around...
-騎士くん。応援に来てくれてありがとう！\n聞こえたよ…騎士くんの声\nちゃんとあたしに届いたよ…！=Mr. knight-kun, thank you for coming to cheer me on!\nI heard you... Your voice reached me!
-もう、しっぽはダメだって言ったのに…\nお詫びに、えーっと…\n甘いものが食べたいなー…なんてね=Geez, I told you not to use your tail...\nAs an apology, umm... I want to eat something sweet...\nJust kidding~.
-騎士くんを見てたら、もっと強くならなきゃって！\n優しい笑顔を、ずっとずーっと守りたいから…\nだから見ててね、騎士くん！　約束だよっ！=When I saw the knight-kun, I thought I had to\nget stronger! I wanted to keep a gentle smile\non my face forever and ever... So just you watch,\nknight-kun! It's a promise!
-誰も困ったりしないような…そんな世界になったらいいな\nそのためにも、あたしもーっと強くなるよ！\n騎士くん、一緒にみんなの笑顔を守っていこうね！=It'd be nice if it turned into a world where no \none would be troubled... I'll get stronger too!\nknight-kun, let's protect everyone's smiles together!
-騎士くんとなら、世界だって変えられそうだよ！\nどんな人助けも一つ一つ積み重ねていけば、きっと…\nほら、特訓と同じかなーって！　そんな気がするんだ！=If I'm with you, I'll be able to change the world!\nIf I help everyone one by one, it'll probably be\nthe same as training! That's what I feel!
-決めたっ！　騎士くんと離れて一人でいるより\n騎士くんのそばでドキドキしてるほうがいいや！\nほらほら行こっ！　…やっぱりドキドキするよー！=I've made up my mind! It's better to be excited by\nthe knight-kun's side than to be alone with him!\nCome on, let's go! ...My heart's beating like crazy!
+あの夢、なんだったんだろう…？\n夢の中でも…騎士くんは優しかったな\nあたしも…あんな風になりたい！=What was that dream all about...?\nEven in my dreams... you were so kind, Kishi-kun...\nI want to be like that too!
+大きな大会の前だからって緊張してたのかも…\n騎士くんが言ってくれた通りに、いつものあたしで！\n武闘会、全力で頑張ってくるね！=Maybe I was just nervous because it's before the big\n tournament... Just like Kishi-kun said, I just\nhave to be the usual me! I'll give it my all in the tournament!
+胸の奥から、すっごい力が湧いてくるの！\nいつかあたしも…騎士くんがすっごい力を\n出せるような人になりたいな…=A great power wells up from deep within my chest!\nSomeday... I want to be the kind of person\nwho can bring out your full power...
+やっぱりあたし、騎士くんがいてくれたら\n出来ないかもって思ったことだって、\nやりきれちゃうみたい…=It's as I thought, being with Kishi-kun\ngives me the strength to do\nthings I thought I couldn't...
+騎士くん。応援に来てくれてありがとう！\n聞こえたよ…騎士くんの声\nちゃんとあたしに届いたよ…！=Kishi-kun, thank you for coming to cheer me on!\nI heard you... Your voice reached me!
+もう、しっぽはダメだって言ったのに…\nお詫びに、えーっと…\n甘いものが食べたいなー…なんてね=Geez, I told you not to touch the tail...\nAs an apology, umm... I want to eat something sweet...\nJust kidding~.
+騎士くんを見てたら、もっと強くならなきゃって！\n優しい笑顔を、ずっとずーっと守りたいから…\nだから見ててね、騎士くん！　約束だよっ！=When I saw you, Kishi-kun, I thought I had to\nget stronger! I wanted to protect that gentle smile\non your face forever and ever... So just you watch,\Kishi-kun! It's a promise!
+誰も困ったりしないような…そんな世界になったらいいな\nそのためにも、あたしもーっと強くなるよ！\n騎士くん、一緒にみんなの笑顔を守っていこうね！=It'd be nice if it turned into a world where no \none would be troubled... I'll get stronger too!\nKishi-kun, let's protect everyone's smiles together!
+騎士くんとなら、世界だって変えられそうだよ！\nどんな人助けも一つ一つ積み重ねていけば、きっと…\nほら、特訓と同じかなーって！　そんな気がするんだ！=I think I'll be able to change the world with you, Kishi-kun!\nIf I help everyone one by one, I'm sure of it!\nSee, it's like a sort of special training!\nThat's how I feel!
+決めたっ！　騎士くんと離れて一人でいるより\n騎士くんのそばでドキドキしてるほうがいいや！\nほらほら行こっ！　…やっぱりドキドキするよー！=I've made up my mind! It's better for my heart to race by\nKishi-kun's side than to be alone without him!\nCome on, let's go! ...I'm still nervous!
 ねえねえ騎士くんも一緒に行く？\nあ…でもそしたらあたし、ドキドキしっぱなしだー！\nうぅー、騎士くんといたいけど、どーしよー…=Hey, hey, wanna come with me? Oh...\nBut then my heart's beating like crazy!\nUgh, I want to be with you, but what should I do...?
 騎士くんのそばにいると\nなんだかドキドキして落ち着かないよー！\nどこかにお出かけして、気分転換しよっと！=My heart's beating so fast when I'm with you,\nI can't calm down!\nI'll go out somewhere for a change of pace!

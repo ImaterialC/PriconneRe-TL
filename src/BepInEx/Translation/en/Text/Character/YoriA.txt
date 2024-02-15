@@ -1,0 +1,29 @@
+##Profile##
+【魔法】中衛で、補助魔法で味方を助ける双子の姉天使。防御力を大幅に高めつつ、対象の味方に敵の注意を引かせるなど、特殊で強力なスキルを駆使し敵を翻弄する。=[Magic] A twin sister angel who helps allies with support magic in midlines. While greatly increasing her defense power, she uses special and powerful skills to toy with the enemy, such as drawing the enemy's attention to the target ally.
+
+##UB##
+ヘブンリーハーツ=Heavenly Hearts
+最もＴＰが多い敵１キャラに魔法大ダメージを与え、ＴＰを中ダウンさせ、さらに魔法防御力を中ダウンさせる。=Deals large M.DMG to an enemy with the most TP, moderately lowers its TP, and also moderately lowers its M.DEF.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを(\d+)失わせる敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's TP by $2.\n►Lowers an enemy's M.DEF by $3 for 18s.
+
+##S1##
+エンジェルアテンション=Angel Attention
+【挑発】ヨリの背後にいないキャラの内、最も残りＨＰの値が多い味方１キャラが、敵全体を挑発する。さらにそのキャラの物理防御力と魔法防御力を大アップさせる。=[Taunt] Grants Taunt to an ally not behind Yori with the highest remaining HP. Additionally, greatly boosts an ally's P.DEF and M.DEF.
+r:"^対象の味方を挑発状態にする対象の味方の物理防御力を(\d+)アップ対象の味方の魔法防御力を(\d+)アップ$"=►Grants Taunt to an ally for 12s.\n►Boosts an ally's P/M.DEF by $1 for 12s.
+
+##S2##
+エンジェルブレッシング=Angel Blessing
+味方全体の物理クリティカルと魔法クリティカルを大アップさせ、さらにＨＰを小回復する。=Greatly boosts P/M.CRIT Rate for all allies, and also slightly recovers HP.
+r:"^味方全体の物理クリティカルを(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Boosts all allies' P/M.CRIT Rate by $1 for 12s.\n►Restores all allies' HP by $3.
+
+##EX##
+不器用なエンジェルハート=Clumsy Angel Heart
+不器用なエンジェルハート+=Clumsy Angel Heart+
+
+##S1+##
+エンジェルアテンション+=Angel Attention+
+【挑発】ヨリの背後にいないキャラの内、最も残りＨＰの値が多い味方１キャラが、敵全体を挑発する。さらにそのキャラの物理防御力と魔法防御力を特大アップ、物理攻撃力と魔法攻撃力を中アップさせ、継続ＨＰ回復状態を付与する。=[Taunt] Among the characters not behind Yori, the ally with the highest remaining HP provokes all enemies. Additionally, it greatly boosts its P.DEF and M.DEF, moderately boosts its P.ATK and M.ATK, and gives it a continuous HP recovery.
+r:"^対象の味方を挑発状態にする対象の味方の物理防御力を(\d+)アップ対象の味方の魔法防御力を(\d+)アップ対象の味方の物理攻撃力を(\d+)アップ対象の味方の魔法攻撃力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Grants Taunt to an ally for 12s.\n►Boosts an ally's P/M.DEF by $1 for 12s.\n►Boosts an ally's P/M.ATK by $3 for 12s.\n►Recovers an ally's HP by $5/s for 12s.
+
+##UE##
+ハッピーエンジェルアロー=Happy Angel Arrow

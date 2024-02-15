@@ -1,0 +1,27 @@
+##Profile##
+【物理】中衛で正義の力を魔法にのせて戦う魔法剣士。自身の物理攻撃力を魔法攻撃力に加える魔法少女の力と、たゆまぬ努力で獲得した剣技で、華麗な魔法攻撃を放つ。=[Physical] A Magical Swordswoman who uses the power of justice in her magic to fight from midlines. With magical girl powers to boost her own M.ATK with her P.ATK and sword skills she has acquired through tireless efforts, she unleashes brilliant magical attacks.
+
+##UB##
+シャイニーアクアストリーム=Shiny Aqua Stream
+目の前の敵１キャラに物理攻撃力と魔法攻撃力を合わせた攻撃力をもとにした魔法特大ダメージを与える。=Deals massive M.DMG to an enemy in front based on the combined P.ATK and M.ATK.
+
+##S1##
+シャイニーブレード=Shiny Blade
+目の前の敵１キャラに物理攻撃力と魔法攻撃力を合わせた攻撃力をもとにした魔法大ダメージを与える。=Deals large M.DMG to an enemy in front based on the combined P.ATK and M.ATK.
+
+##S2##
+シャイニーアクア=Shiny Aqua
+自分の物理攻撃力を中アップさせ、さらに魔法クリティカルと行動速度を大アップさせる。=Moderately boosts own P.ATK, and greatly boosts own M.CRIT Rate and action speed.
+r:"^自分の物理攻撃力を(\d+)アップ自身の行動速度を一定時間上昇させる自分の魔法クリティカルを(\d+)アップ$"=►Boosts own P.ATK by $1 for 12s.\n►Boosts own action speed to 150% for 12s.\n►Boosts own M.CRIT Rate by $2 for 180s.
+
+##EX##
+シャイニーアティチュード=Shiny Attitude
+シャイニーアティチュード+=Shiny Attitude+
+
+##S1+##
+シャイニーブレード+=Shiny Blade+
+自分の物理攻撃力を短時間大アップ、魔法クリティカルを短時間特大アップさせ、目の前の敵１キャラに物理攻撃力と魔法攻撃力を合わせた攻撃力をもとにした魔法特大ダメージを与える。=Boosts own P.ATK and M.ATK by a large amount for a short period of time, and deals massive M.DMG to an enemy in front based on the combined P.ATK and M.ATK.
+r:"^自分の物理攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ敵単体に(\d+)の魔法ダメージ$"=►Boosts own P.ATK by $1 for 9s.\n►Boosts own M.ATK by $2 for 9s.\n►Deals $3 P.DMG to an enemy.
+
+##UE##
+マジカルシャイニーレイピア=Magical Shiny Rapier

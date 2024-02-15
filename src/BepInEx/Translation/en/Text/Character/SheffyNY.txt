@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛で、雪花舞う晴れ空をゆく新春氷竜少女。ＵＢで顕現させる氷竜の牙で味方への強化スキルを高め自身の範囲攻撃技と共に苛烈な攻勢で敵陣を凍滅する。=[Physical] A new year ice dragon girl who walks through a clear sky with falling snowflakes in vanguard. Using her UB to manifest her Ice Dragon Fang, she enhances allies' abilities, and with her own AoE technique she freezes the enemies with a fierce attack.
+
+##UB##
+天舞・初春氷竜=Sky Dance: Early Spring Ice Dragon
+前方範囲内の敵すべてに物理大ダメージを与える。さらに、ＴＰが無くなるまでの間【氷竜の牙】が顕現する。=Deals large P.DMG to enemies in range. Additionally, [Ice Dragon Fang] manifests until the TP runs out.
+
+##S1##
+春沓=Spring Shoes
+自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。【氷竜の牙】が顕現中、このスキルの効果値が増加する。=Moderately boosts allies' P.ATK in range, and slightly boosts their TP Boost. While [Ice Dragon Fang] is manifested, skill effects are boosted.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方のＴＰ上昇を5アップ$"=Cast time: 0.465s\n►Boosts allies' P.ATK in 280 range by $1 for 12s.\n►Boosts allies' TP Boost in 280 range by 5 for 12s.
+
+##S2##
+氷閃=Ice Flash
+前方範囲内の敵すべてに物理中ダメージを与え、物理防御力を小ダウンさせる。【氷竜の牙】が顕現中、敵全体に追加で物理中ダメージを与える。=Deals moderate P.DMG to enemies in range, and slightly lowers their P.DEF. While [Ice Dragon Fang] is manifested, boosts P.DMG dealt.
+
+##EX##
+スパークルジャンプ=Sparkle Jump
+スパークルジャンプ+=Sparkle Jump+
+
+##S1+##
+春沓+=Spring Shoes+
+自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。さらに自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開する。【氷竜の牙】が顕現中、このスキルの効果値が増加する。=Moderately boosts allies' P.ATK in range, and slightly boosts their TP Boost. Additionally, deploys a field that slightly recovers allies' HP in range. While [Ice Dragon Fang] is manifested, skill effects are boosted.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方のＴＰ上昇を10アップ毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 0465s\n►Boosts allies' P.ATK in 280 range by $1 for 12s.\n►Boosts allies' TP Boost in 280 range by 10 for 12s.\n►Recovers allies' HP in 390 range by $2/s for 7.5s.
+
+##UE##
+舞氷竜の神楽振袖=Kagura Furisode of the Ice Dragon

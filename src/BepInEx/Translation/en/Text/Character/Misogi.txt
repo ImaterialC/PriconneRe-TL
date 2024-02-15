@@ -1,31 +1,37 @@
----Profile---
+##Profile##
+【物理】最前衛で、敵の物理攻撃を邪魔するいたずら娘。目の前の敵を暗闇状態にし、命中率を大幅に下げるほか、敵一体の物理攻撃力を下げるスキルを持つ。=[Physical] A little prankster who gets up close and personal to obstruct the enemy's physical attacks. By inflicting Blind, she obliterates the foe's ability to aim effectively, and she can also decrease an enemy's attack stat directly.
 いたずら、探検=Prank, exploration
 探検好きのイタズラっ子=A prankster who loves exploring
----Skills---
----UB---
+
+##UB##
 トリックボマー=Trick Bomber
 自分から２番目に近い敵を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to enemies in a radius around the 2nd closest enemy.
----S1---
+
+##S1##
+インクシューター=Ink Spray
 自分から２番目に近い敵１キャラに物理小ダメージを与え、さらに暗闇状態にする。=Deals small P.DMG to the 2nd closest enemy and inflicts Blind.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を暗闇状態にする$"=Deals $1 P.DMG to an enemy.\nInflicts Blind.
----S2---
+r:"^敵単体に(\d+)の物理ダメージ敵単体を暗闇状態にする$"=►Deals $1 P.DMG to an enemy.\n►Inflicts Blind.
+
+##S2##
+ウォーターバルーン=Water Balloon
 最も物理攻撃力が高い敵１キャラに物理小ダメージを与え、物理攻撃力を小ダウンさせ、さらに自分の物理攻撃力を小アップさせる。=Deals small P.DMG to an enemy with the highest P.ATK and lowers its P.ATK by a small amount. Small boost to own P.ATK.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理攻撃力を(\d+)ダウン\n自分の物理攻撃力を(\d+)アップ$"=Deals $1 P.DMG to an enemy.\nLowers an enemy's P.ATK by $2 for 99s.\nBoosts own P.ATK by $3 for 99s.
----ex---
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=Cast time: 1.18s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 99s.\n►Boosts own P.ATK by $3 for 99s.
+
+##EX##
 トラップエキスパート=Professional Prankster
----Skills+---
----UB---
-トリックハート=Trick heart
-敵全体に物理大ダメージを与え、物理攻撃力と物理クリティカルを特大ダウンさせる。さらに、物理攻撃クリティカル時のダメージを中ダウンさせる。=Deals large P.DMG to all enemies. Inflict massive P.ATK debuff, massive P.Crit Rate debuff and Moderate P.Crit DMG debuff to the targets.
-r:"^敵全体に(\d+)の物理ダメージ\n敵全体の物理攻撃力を(\d+)ダウン\n敵全体の物理クリティカルを(\d+)ダウン\n敵全体の物理攻撃クリティカル時のダメージを25％ダウン$"=Deals $1 M.DMG to all enemies.\nLowers all enemies’ P.ATK by $2 for 18s.\nLowers all enemies’ P.Crit Rate by $3 for 18s.\nLowers all enemies’ P.Crit DMG by 25% for 18s.
----S1---
-インクシューター+=Ink Spray+
-自分から２番目に近い敵１キャラに物理中ダメージを与え、暗闇状態にする。さらに範囲内の敵すべての物理攻撃力を小ダウンさせる。=Deals small P.DMG to the 2nd closest enemy and inflicts Blind. Lowers the P.ATK of all enemies within range by a small amount.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を暗闇状態にする\n範囲内の敵の物理攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nInflicts Blind for 10s.\nLowers enemies' P.ATK within 200 range by $2 for 180s.
----S2---
----ex---
 トラップエキスパート+=Professional Prankster+
 バトル開始時に自分の物理防御力を中アップさせ、さらに自分の物理攻撃力を小アップさせる。=Moderate boost to own P.DEF and small boost to P.ATK at start of battle.
-r:"^自分の物理防御力を(\d+)アップ\n自分の物理攻撃力を(\d+)アップ$"=Boosts own P.DEF by $1.\nBoosts own P.ATK by $2.
----UE---
+r:"^自分の物理防御力を(\d+)アップ自分の物理攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own P.ATK by $2.
+
+##UB+##
+トリックハート=Trick Heart
+敵全体に物理大ダメージを与え、物理攻撃力と物理クリティカルを特大ダウンさせる。さらに、物理攻撃クリティカル時のダメージを中ダウンさせる。=Deals large P.DMG to all enemies. Lowers enemies P.ATK and P.CRIT Rate by a massive amount, and lowers enemies P.CRIT DMG by a moderate amount.
+r:"^敵全体に(\d+)の物理ダメージ敵全体の物理攻撃力を(\d+)ダウン敵全体の物理クリティカルを(\d+)ダウン敵全体の物理攻撃クリティカル時のダメージを25％ダウン$"=►Deals $1 P.DMG to all enemies.\n►Lowers all enemies' P.ATK by $2 for 18s.\n►Lowers all enemies' P.CRIT Rate by $3 for 18s.\n►Lowers all enemies' P.CRIT DMG by 25% for 18s.
+
+##S1+##
+インクシューター+=Ink Spray+
+自分から２番目に近い敵１キャラに物理中ダメージを与え、暗闇状態にする。さらに範囲内の敵すべての物理攻撃力を小ダウンさせる。=Deals small P.DMG to the 2nd closest enemy and inflicts Blind. Lowers the P.ATK of all enemies within range by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体を暗闇状態にする範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.55s\n►Deals $1 P.DMG to an enemy.\n►Inflicts Blind for 10s.\n►Lowers enemies' P.ATK in 200 range by $2 for 180s.
+
+##UE##
 トリックギフト=Trick Gift

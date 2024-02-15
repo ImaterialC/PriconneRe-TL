@@ -1,22 +1,32 @@
-ドラゴンズティアー=Dragon's Tear
-サンライズフォーカス=Sunrise Focus
-サンライズフォーカス+=Sunrise Focus+
-スティッキーバイト=Sticky Part-timer
-スティッキーバイト+=Sticky Part-timer+
-クルーエルブルーム=Cruel Bloom
-【魔法】後衛で、魔力を笑顔に隠す晴れ着姿の龍の首魁。自分の攻撃強化とＴＰ回復をし、ＵＢで放つ曙光の落涙は敵数で威力と防御力の減少量を上げ、全ての災厄を祓う。=[Magic] A dragon chief in a sunny costume that hides its magic power behind a smile. She strengthens her own attacks and recovers TP, and UB that boost the power and defense reduction with the number of enemies, and purges all evil.
+##Profile##
+【魔法】後衛で、魔力を笑顔に隠す晴れ着姿の龍の首魁。自分の攻撃強化とＴＰ回復をし、ＵＢで放つ曙光の落涙は敵数で威力と防御力の減少量を上げ、全ての災厄を祓う。=[Magic] A dragon boss in a sunny costume that hides its magic power behind a smile. She strengthens her own attacks and recovers TP, and uses UB that boosts the power and lowers defense with the number of enemies, and purges all evil.
 
 ボスの極楽もてなし術=The Boss's Art of Extreme Hospitality
 臥竜を揺さぶる同人誌=A doujinshi that shakes the dragon
 優しい願いを憂う臥竜=A dragon who worries about a gentle wish
 臥竜の仁義=The dignity of a reclining dragon
 
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies` M.DEF by $2.
-敵全体に魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。敵の数に応じて、ダメージと防御力の減少量が増加する。=Deals medium M.DMG to all enemies and also reduces their M.DEF by a small amount. The amount of M.DMG and M.DEF reduction increases with the number of enemies.
+##UB##
+ドラゴンズティアー=Dragon's Tear
+敵全体に魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。敵の数に応じて、ダメージと防御力の減少量が増加する。=Deals moderate M.DMG to all enemies and slightly lowers their M.DEF. The M.DMG dealt and lowered M.DEF increase according to number of enemies.\nM.DMG: (+M.DMG × 0.65 × Enemy Count)\nM.DEF: (+M.DEF × Enemy Count)
+r:"^敵全体に(\d+)の魔法ダメージ敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' M.DEF by $2.
 
-r:"^自分の魔法攻撃力を(\d+)アップ\n自分の魔法クリティカルを200アップ\n自分の魔法攻撃クリティカル時のダメージを10％アップ\n自分のＴＰを225回復$"=Cast time:0.59s\n►Boosts own M.ATK by $1.\n►Boosts own M.crit by 200 for 12s\n►Boosts own M.crit dmg by 10% for 12s\n►Recovers own TP by 225.
+##S1##
+スティッキーバイト=Sticky Bite
+自分の魔法攻撃力と魔法クリティカルを特大アップ、魔法攻撃クリティカル時のダメージを小アップし、ＴＰを中回復させる。=Greatly boosts own M.ATK and M.CRIT Rate, slightly boosts own M.CRIT DMG, and moderately recovers own TP.
 
-自分の魔法攻撃力と魔法クリティカルを特大アップ、魔法攻撃クリティカル時のダメージを小アップし、ＴＰを中回復させる。=Boosts your M.ATK and M.crit by a massive amount, increases the M.crit dmg by a small amount, and recovers TP by a medium amount.
+##S2##
+クルーエルブルーム=Cruel Bloom
+敵全体に魔法中ダメージを与え、魔法防御力を中ダウンさせる。=Deals moderate M.DMG to all enemies and moderately lowers their M.DEF.
 
+##EX##
+サンライズフォーカス=Sunrise Focus
+サンライズフォーカス+=Sunrise Focus+
 
-敵全体に魔法中ダメージを与え、魔法防御力を中ダウンさせる。=Deals medium M.DMG to all enemies and lowers their M.DEF to medium.
+##S1+##
+スティッキーバイト+=Sticky Bite+
+自分の魔法攻撃力と魔法クリティカルを特大アップ、魔法攻撃クリティカル時のダメージを小アップし、ＴＰを中回復させる。敵の数に応じて、魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージの上昇量が増加する。=Greatly boosts own M.ATK and M.CRIT Rate, slightly boosts own M.CRIT DMG, and moderately recovers own TP. The M.ATK boost, M.CRIT Rate boost and M.CRIT DMG boost increase according to number of enemies.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ自分の魔法攻撃クリティカル時のダメージを10％アップ自分のＴＰを(\d+)回復$"=Cast time: 0.59s\n►Boosts own M.ATK by $1 (+0.2×$1×Enemy Count) for 12s.\n►Boosts own M.CRIT Rate by $2 (+20×Enemy Count) for 12s.\n►Boosts own M.CRIT DMG by 10% (+1%×Enemy Count) for 12s.\n►Recovers own TP by $3.
+
+##UE##
+竜女将の極道扇子=Dragon Proprietress's Gang Fan

@@ -1,35 +1,36 @@
-Tsumugi 
----Profile---
+##Profile##
 ツムギ=Tsumugi 
 ファッション大好きなキュートガール=A cute girl who loves fashion
 裁縫=Sewing
 
-【物理】前衛で、敵の妨害に特化したテーラーガール。敵を強制的に移動させる事で陣形を崩し、さらに移動速度・行動速度を低下させ相手の反撃を遅らせる。=[Physical] A tailor who specializes in sabotage from the vanguard. She wrecks the enemy's formation by moving them around while also slowing their movement and action speed.
----Skills---
----UB---
+【物理】前衛で、敵の妨害に特化したテーラーガール。敵を強制的に移動させる事で陣形を崩し、さらに移動速度・行動速度を低下させ相手の反撃を遅らせる。=[Physical] A tailor who specializes in sabotage from\nthe vanguard. She wrecks the enemy's formation by\nmoving them around while also slowing their\nmovement and action speed.
+
+##UB##
 フェイタリティバインド=Terminal Tie-Up
 前方範囲内の敵すべてに物理中ダメージを与えて束縛し、さらに前方範囲内の一番遠くの敵を大きく引き寄せ、一番近くの敵を大きく吹き飛ばす。=Deals small P.DMG to all enemies in range and inflicts Bind. Draws the farthest enemy in range slightly closer and knocks the closest enemy back slightly.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=Deals $1 P.DMG to enemies in range.Renders enemies in range immobile for a set period of time.
----S1---
-前から２番目の敵１キャラに物理中ダメージを与え、さらに小さく引き寄せる。=Deals small P.DMG to the enemy in the 2nd position and draws them slightly closer.
----S2---
-前方範囲内の敵すべてに物理小ダメージを与え、さらに移動速度と行動速度を小ダウンさせる。=Deals small P.DMG to all enemies in range and reduces their movement speed and action speed by a small amount.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の移動速度を一定時間低下させる\n範囲内の敵の行動速度を一定時間低下させる$"=Deals $1 P.DMG to enemies in range.\n►Reduces movement speed of enemies in range for a set period of time.\n►Reduces action speed of enemies in range for a set period of time.
----ex---
-テーラーガッツ=Tailor's Grit
----Skills+---
-スパイラルヤーン=Spiral Yarn
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=►Deals $1 P.DMG to enemies in range.\n►Renders enemies in range immobile for a set period of time.
+
+##S1##
 キャプチャーストリング=Capture String
-キャプチャーストリング+=Capture String+
----UB---
+前から２番目の敵１キャラに物理中ダメージを与え、さらに小さく引き寄せる。=Deals small P.DMG to the enemy in the 2nd position and draws them slightly closer.
+
+##S2##
+スパイラルヤーン=Spiral Yarn
+前方範囲内の敵すべてに物理小ダメージを与え、さらに移動速度と行動速度を小ダウンさせる。=Deals small P.DMG to all enemies in range and reduces their movement speed and action speed by a small amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の移動速度を一定時間低下させる範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to enemies in range.\n►Reduces movement speed of enemies in range for a set period of time.\n►Reduces action speed of enemies in range for a set period of time.
+
+##EX##
+テーラーガッツ=Tailor's Grit
+テーラーガッツ+=Tailor's Grit+
+
+##UB+##
 エンドドレステーラー=Endless Dresstailor
 前方範囲内の敵すべてに物理大ダメージを与えて束縛し、さらに前方範囲内の一番遠くの敵を大きく引き寄せ、一番近くの敵を大きく吹き飛ばす。範囲内の敵の数に応じて、与えるダメージ量が増加する。=Deals massive P.DMG to all enemies within the frontal area, binding them, and greatly pulls the farthest enemy closer while launching the nearest enemy far away. The amount of damage increases based on the number of enemies within the area.
----S1---
-前から２番目の敵１キャラに物理中ダメージを与え、小さく引き寄せ、スタンさせる。さらに自分の物理攻撃力を中アップ、物理防御力を小アップさせる。=Deals Small P.DMG to the 2nd Closest Enemy. Slightly Pulls the Target Towards Her and Stun the Target. In addition, Boost own P.ATK by Medium Amount and Boost own P.DEF by Small Amount.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n自分の物理攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Inflict Stun to an enemy for 1.5s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.DEF by $3 for 12s.
----S2---
 
----ex---
-テーラーガッツ+=Tailor's Grit+
----UE---
-ハイクチュリエベルト=Hakutrier Belt
+##S1+##
+キャプチャーストリング+=Capture String+
+前から２番目の敵１キャラに物理中ダメージを与え、小さく引き寄せ、スタンさせる。さらに自分の物理攻撃力を中アップ、物理防御力を小アップさせる。=Deals Small P.DMG to the 2nd Closest Enemy. Slightly Pulls the Target Towards Her and Stun the Target. In addition, Boost own P.ATK by Medium Amount and Boost own P.DEF by Small Amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts Stun to an enemy for 1.5s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.DEF by $3 for 12s.
+
+##UE##
+ハイクチュリエベルト=High Couturier Belt

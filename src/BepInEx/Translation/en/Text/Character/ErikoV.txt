@@ -1,20 +1,32 @@
----Skillsエリコ（バレンタイン）---
----UB---
+##Profile##
+【物理】前衛で、ピンチをチャンスに変える愛の壊し屋。\nスキルはＨＰを消費し、自身の攻撃力を高める。また、\nユニオンバーストはＨＰが低いほど超絶威力を発揮する。=[Physical] The Destroyer takes the vanguard to snatch opportunity from the claws of despair in the name of love. Her skills drain her own HP to boost her attack power, and her Union Burst boasts terrifying force when her HP is low.
+
+##UB##
 ラブパニッシュメント=Love Punishment
-目の前の敵１キャラに物理特大ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。=Deals massive P.DMG to an enemy directly in front. The lower the user's HP, the more damage this does.
----S1---
-目の前の敵１キャラに物理中ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。=Deals moderate P.DMG to an enemy directly in front. The lower the user's HP, the more damage this does.
----S2---
-自分のＨＰを消費し、物理攻撃力を中アップさせる。エリコのＨＰが低いほど、効果がアップする。=Consumes user's HP to boost their P.ATK by a moderate amount, the effect is stronger the lower the user's HP.
-r:"^自分のＨＰを(\d+)消費\n自分の物理攻撃力を(\d+)アップ$"=Reduces own HP by $1.\nBoosts own P.ATK by $2 for 12s.
----ex---
+目の前の敵１キャラに物理特大ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。=Deals massive P.DMG to an enemy directly in front. Damage boosted the lower Eriko's HP.
+
+##S1##
+ヘヴィミキシング=Heavy Mixing
+目の前の敵１キャラに物理中ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。=Deals moderate P.DMG to an enemy directly in front. Damage boosted the lower Eriko's HP.
+
+##S2##
+スウィートサクリファイス=Sweet Sacrifice
+自分のＨＰを消費し、物理攻撃力を中アップさせる。エリコのＨＰが低いほど、効果がアップする。=Boosts own P.ATK by a moderate amount at the cost of HP. Boost increased the lower Eriko's HP.
+r:"^自分のＨＰを(\d+)消費自分の物理攻撃力を(\d+)アップ$"=►Reduces own HP by $1.\n►Boosts own P.ATK by $2 for 12s.
+
+##EX##
 ディープスピリット=Deep Spirit
----Skills+---
----UB---
----S1---
-目の前の敵１キャラに物理大ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals moderate P.DMG to an enemy directly in front. Damage boost the lower Eriko's HP.\nWhen critical occurs deals ４x damage instead ２x.
----S2---
----ex---
 ディープスピリット+=Deep Spirit+
----UE---
-デストロイホイッパー=Destroy Whipper
+
+##S1+##
+ヘヴィミキシング+=Heavy Mixing+
+目の前の敵１キャラに物理大ダメージを与える。エリコのＨＰが低いほど、ダメージがアップする。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals moderate P.DMG to an enemy directly in front. Damage boost the lower Eriko's HP.\nWhen critical occurs deals x4 damage instead x2.
+
+##S2+##
+スウィートサクリファイス+=Sweet Sacrifice+
+自分の残りＨＰの50％を消費し、一定時間無敵状態になり、物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップする。さらに自分のＴＰを大回復する。エリコのＨＰが低いほど、物理攻撃力と物理クリティカルと物理攻撃クリティカル時のダメージアップの効果量が上昇する。=Reduces own HP to 50% of remaining HP, becomes invincible for a certain period of time. Boosts P.ATK and P.CRIT Rate by a massive amount, boosts P.CRIT DMG by a moderate amount. The lower Eriko's HP the greater all aforementioned effects. Additionally, recovers own TP by a massive amount. 
+r:"^自分の残りＨＰの50%を消費一定時間無敵状態になる自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理攻撃クリティカル時のダメージを25％アップ自分のＴＰを(\d+)回復$"=►Consumes 50% of own remaining HP.\n►Becomes immune to all damage for 6s.\n►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Boosts own P.CRIT DMG by 25%.\n►Recovers own TP by $3.
+
+##UE##
+デストロイホイッパー=Whisk of Destruction
+クレイジーラブ=Crazy Love

@@ -1,5 +1,5 @@
-Suzuna 
-【物理】後衛からクリティカル攻撃するカリスマモデル。ダメージ2倍のクリティカルダメージはスキルによる攻撃力アップでさらに破壊力を増す。=[Physical] A charming model that deals Crit DMG from RG, her double Crit DMG are further enhanced by P.ATK boosting skills.
+##Profile##
+【物理】後衛からクリティカル攻撃するカリスマモデル。ダメージ2倍のクリティカルダメージはスキルによる攻撃力アップでさらに破壊力を増す。=[Physical] A charming model that deals critical damage from the rearguard. Her double-damage critical hits are further enhanced by attack power-boosting skills.
 天真爛漫で人気者のカリスマモデル=A charismatic fashion model who's naïve yet popular
 
 ファッション=Fashion
@@ -17,30 +17,37 @@ Suzuna
 カリスマモデル、スズナ！=Fashion Model, Suzuna!
 計算とかオニ苦手だし～=Hella Bad at Math
 
-Skills
-UB
+##UB##
 ハートブレイク=Heart Breaker
 目の前の敵１キャラに物理特大ダメージを与える。このスキルは必ずクリティカルする。=Deals large P.DMG to an enemy directly in front. This always results in a critical hit.
-S1
-目の前の敵１キャラに物理中ダメージを与える。このスキルは必ずクリティカルする。=Deals moderate P.DMG to an enemy directly in front. This always results in a critical hit.
-S2
-自分の物理攻撃力を中アップさせる。=Moderate boost to own P.ATK.
-ex
-もにカワフィーリング=Super Cute Sensation
-Skills+
-UB
-オートクチュール・ハート=Auto Couture Heart
-自分の物理攻撃クリティカル時のダメージを中アップさせる。さらに目の前の敵１キャラに物理特大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Moderately boost your P.ATK Crit DMG. Deals massive P.DMG to one enemy character in front. This skill's 1-hit damage is always a critical hit.
-r:"^自分の物理攻撃クリティカル時のダメージを25％アップ\n敵単体に(\d+)の物理ダメージ$"=Boosts own P.Crit DMG by 25% for 18s.\nDeals $1 P.DMG to an enemy.\nGuaranteed to crit.
-S1
-目の前の敵１キャラに計３回ヒットし、クリティカル時のダメージが２倍ではなく３倍になる物理大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Hits 1 enemy in front of you 3 times in total, dealing large P.DMG that 3x the damage of a critical hit instead of 2x it. This skill's 1-hit damage is always a critical hit.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ$"=Deals $1 P.DMG to an enemy.\nDeals $2 P.DMG to an enemy.\nDeals $3 P.DMG to an enemy.
-S2
-カリスマオーラ♪+=Charisma Aura ♪ +
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを15％アップ\n自分のＴＰを150回復$"=►Increases P.ATK by $1.\n►Increases P.Crit DMG by 15%.\n►Increases own TP by 150.
-自分の物理攻撃力を特大アップ、\n物理攻撃クリティカル時のダメー\nジを小アップし、ＴＰを中回復す\nる。=Increases P.ATK and P.Crit DMG. Recovers own TP.
-ex
-もにカワフィーリング+=Super Cute Sensation+
-UE
-クリティカルキス=Critical kiss
 
+##S1##
+おこぷんダーツ=Meany Missile
+目の前の敵１キャラに物理中ダメージを与える。このスキルは必ずクリティカルする。=Deals moderate P.DMG to an enemy directly in front. This always results in a critical hit.
+
+##S2##
+カリスマオーラ♪=Charming Aura ♪
+自分の物理攻撃力を中アップさせる。=Moderate boost to own P.ATK.
+
+##EX##
+もにカワフィーリング=Super Cute Sensation
+もにカワフィーリング+=Super Cute Sensation+
+
+##UB+##
+オートクチュール・ハート=Haute Couture Heart
+自分の物理攻撃クリティカル時のダメージを中アップさせる。さらに目の前の敵１キャラに物理特大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Moderately boost your P.ATK Crit DMG. Deals massive P.DMG to one enemy character in front. This skill's 1-hit damage is always a critical hit.
+r:"^自分の物理攻撃クリティカル時のダメージを25％アップ敵単体に(\d+)の物理ダメージ$"=►Boosts own P.CRIT DMG by 25% for 18s.\n►Deals $1 P.DMG to an enemy.\nGuaranteed to crit.
+
+##S1+##
+おこぷんダーツ+=Meany Missile+
+目の前の敵１キャラに計３回ヒットし、クリティカル時のダメージが２倍ではなく３倍になる物理大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Hits 1 enemy in front of you 3 times in total, dealing large P.DMG that x3 the damage of a critical hit instead of x2 it. This skill's 1-hit damage is always a critical hit.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.
+
+##S2+##
+カリスマオーラ♪+=Charisma Aura ♪+
+自分の物理攻撃力を特大アップ、\n物理攻撃クリティカル時のダメー\nジを小アップし、ＴＰを中回復す\nる。=Boosts own P.ATK and P.CRIT DMG. Recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを15％アップ自分のＴＰを150回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 15%.\n►Boosts own TP by 150.
+
+##UE##
+クリティカルキス=Critical Kiss
+カリスマオートクチュール=Charisma Haute Couture

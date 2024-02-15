@@ -1,17 +1,19 @@
-【物理】中衛で、駄菓子を振舞い福を蒔く猫カフェ店員。攻撃を３回受けるまで味方全体の物理攻撃力を極大アップさせ、２種の物防ダウンスキルで序盤を一気に加勢する。=[Physics] A cat café employee who spreads happiness by serving snacks as a midguard. Until receiving 3 attacks, greatly boosts the physical attack of all allies and supports the party with 2 types of physical defense down skills to start the battle.
+##Profile##
+【物理】中衛で、駄菓子を振舞い福を蒔く猫カフェ店員。攻撃を３回受けるまで味方全体の物理攻撃力を極大アップさせ、２種の物防ダウンスキルで序盤を一気に加勢する。=[Physics] A cat cafe employee who spreads happiness by serving snacks at midlines. Until receiving 3 attacks, greatly boosts the physical attack of all allies and supports the party with 2 types of physical defense down skills to start the battle.
 
+##UB##
 招福カッツェンレーゲン=Fortune Call Katzenregen
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせる。=Deals massive physical damage to the first enemy character in front, and moderately lowers physical defense.
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせる。=Deals massive P.DMG to an enemy in front, and moderately lowers its P.DEF.
 
+##S1##
 バブルガムポップ=Bubble Gum Pop
-バブルガムポップ+=Bubble Gum Pop+
-目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。=Deals moderate physical damage to the first enemy character in front and slightly decreases physical defense.
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy in front, and slightly lowers its P.DEF.
 
+##S2##
 キャンディシャワー=Candy Shower
-自分に継続ＴＰ回復状態を付与し、味方全体の物理防御力を中アップさせる。さらに３回攻撃を受けるか一定時間経過するまでの間、味方全体の物理攻撃力を極大アップさせる。=Grants TP regen to self and moderately increases ally's P.DEF. Additionally, greatly boosts ally's P.ATK until she got attacked 3 times or a certain period of time elapses.
+自分に継続ＴＰ回復状態を付与し、味方全体の物理防御力を中アップさせる。さらに３回攻撃を受けるか一定時間経過するまでの間、味方全体の物理攻撃力を極大アップさせる。=Grants TP recovery to self and moderately boosts all allies' P.DEF. Additionally, greatly boosts all allies' P.ATK until Monika gets attacked 3 times or a certain period of time elapses.
+r:"^キャンディを振りまいている間、味方全体の物理攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ毎秒ＴＰを15回復する$"=Cast time: 0.59s\n►Boosts all allies' P.ATK by $1 for 24s, but is interrupted upon receiving damage 3 times.\n►Boosts all allies' P.DEF by $2 for 24s.\n►Recovers own TP by 15/s for 24.5s.
 
-
-r:"^キャンディを振りまいている間、味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n毎秒ＴＰを15回復する$"=Cast time: 0.59s\n►Boosts allies' P.ATK by $1 while scattering candy for 24s or 3 times damaged.\n►Boosts allies' P.DEF by $2 for 24s.\n►Recovers TP by 15/s for 24.5s.
-
+##EX##
 コーヒーブレイク=Coffee Break
 コーヒーブレイク+=Coffee Break+

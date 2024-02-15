@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛で威勢よく、まくしたてる口撃系ドラゴン。全体物理攻撃力アップのＵＢは、味方の防御力を下げる代わりにＨＰが多いほど効果を高め、味方を勝利に導く。=[Physical] A vanquishing, mouth-splitting dragon in the vanguard. The UB boosts all allies' physical attack power in the cost of their defense, the more HP they have, the better the effect, leading her allies to victory.
+
+##UB##
+ドラゴンズタクト=Dragon's Tact
+味方全体の物理攻撃力を特大アップさせるが、自分以外の味方の物理防御力と魔法防御力を中ダウンさせる。自分の残りＨＰが多いほど攻撃力の増加量がアップする。=Greatly boosts all allies' P.ATK, but moderately lowers all other allies' P.DEF and M.DEF. The higher own HP, the more P.ATK boost is.
+r:"^味方全体の物理攻撃力を(\d+)アップ自分以外の味方の物理防御力を初期値の20%ダウン自分以外の味方の魔法防御力を初期値の20%ダウン$"=►Boosts all allies' P.ATK by $1(+0.225×HP) for 18s.\n►Lowers all other allies' P.DEF by 20% for 18s.\n►Lowers all other allies' M.DEF by 20% for 18s.
+
+##S1##
+ドラゴニックショット=Dragonic Shot
+目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy in front, and also slightly lowers its P.DEF.
+
+##S2##
+ドラモフレイム=Dramo Flame
+目の前の敵１キャラに物理中ダメージを与える。自分の残りＨＰが多いほどダメージがアップする。=Deals moderate P.DMG to an enemy in front. The higher own HP, the more P.DMG is.
+
+##EX##
+下剋上ですよ！+=It's a Rebellion!
+下剋上ですよ！+=It's a Rebellion!+
+
+##S1+##
+ドラゴニックショット+=Dragonic Shot+
+目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を大ダウンさせる。自分の残りＨＰが多いほどダメージがアップする。さらに味方全体の物理攻撃力を大アップさせる。=Deals moderate P.DMG to an enemy in front, and also greatly lowers its P.DEF. The higher own HP, the more P.DMG is. Additionally, greatly boosts all allies' P.ATK.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ$"=►Deals $1(+4×HP) P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Boosts all allies' P.ATK by $3 for 12s.
+
+##UE##
+ドラちゃんハンマー=Dora-chan Hammer

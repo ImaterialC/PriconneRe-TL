@@ -1,0 +1,29 @@
+##Profile##
+【物理】前衛で、同志と力を合わせ共に戦う夜廻り剣士。自分と物理攻撃力が最も高い味方１キャラの攻撃力を大幅に上昇させ、目にもとまらぬ剣技で不届き者を成敗する。=[Physical] A vanguard swordswoman who joins forces with her comrades to fight together. She greatly boosts the P.ATK of oneself and an ally with the highest P.ATK, and defeats the treacherous villains with her blinding sword skills.
+
+##UB##
+ミクマ流・夜廻連斬=Mikuma Style: Yomawari Rensan
+目の前の敵１キャラに物理大ダメージを与え、自分と自分以外の最も物理攻撃力が高い味方１キャラの物理攻撃力を大アップさせる。このスキルの物理攻撃力の上昇量は自分の物理攻撃力に応じて最大７倍までアップする。=Deals large P.DMG to an enemy in front, greatly boosts own P.ATK, and greatly boosts an other ally's P.ATK with the highest P.ATK. This skill boosts P.ATK up to 7 times depending on own P.ATK.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分以外の最も物理攻撃力が高い味方単体の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 18s.\n►Boosts an other ally's P.ATK with highest P.ATK by $3 for 18s.
+
+##S1##
+ミクマ流剣術・捕狗=Mikuma Style: Dog-Catching
+自分の物理攻撃力を大アップさせ、目の前の敵１キャラに物理大ダメージを与える。さらに自分のＴＰを小回復させる。=Greatly boosts own P.ATK, and deals large P.DMG to an enemy in front. Additionally, slightly recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ自分のＴＰを100回復$"=Cast time: 0.465s.\n►Boosts own P.ATK by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n►Recovers own TP by 100.
+
+##S2##
+ミクマ流・流転=Mikuma Style: Flowing
+自分と自分以外の最も物理攻撃力が高い味方１キャラの物理攻撃力と物理クリティカルを特大アップさせる。=Massively boosts own P.ATK and P.CRIT Rate, and massively boosts an other ally's P.ATK and P.CRIT Rate with the highest P.ATK.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを250アップ自分以外の最も物理攻撃力が高い味方単体の物理攻撃力を(\d+)アップ自分以外の最も物理攻撃力が高い味方単体の物理クリティカルを250アップ$"=Cast time: 0s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by 250 for 180s.\n►Boosts an other ally's P.ATK with highest P.ATK by $2 for 180s.\n►Boosts an other ally's P.CRIT Rate with highest P.ATK by 250 for 180s.
+
+##EX##
+千変万化・警邏の型=Thousand Forms: Patrol
+千変万化・警邏の型+=Thousand Forms: Patrol+
+
+##S1+##
+ミクマ流剣術・捕狗+=Mikuma Style: Dog-Catching+
+自分の物理攻撃力を大アップさせ、目の前の敵１キャラに物理大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。さらに自分のＴＰを中回復させる。=Greatly boosts own P.ATK, deals massive P.DMG to an enemy in front, and slightly boosts an enemy's P.CRIT DMG taken. Additionally, moderately recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体のクリティカルを受けた際のダメージを5％アップ自分のＴＰを200回復$"=Cast time: 0.465s.\n►Boosts own P.ATK by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG taken by 5% for 12s.\n►Recovers own TP by 200.
+
+##UE##
+ハロウィンポリスコス=Halloween Police Costume

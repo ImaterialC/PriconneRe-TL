@@ -1,0 +1,28 @@
+##Profile##
+【物理】前衛で範囲攻撃を放つ、カボチャ衣装の悪戯娘。敵に５カウントで爆発する爆弾を仕掛けたり、カボチャの手榴弾を投げつけたりと、様々な範囲攻撃で敵を弄ぶ。=[Physical] A little prankster in a pumpkin costume who deals AOE damage from the front lines. Whether planting bombs that explode after a count of 5 or just throwing pumpkin grenades, she'll bring the hurt to plenty of enemies at once.
+
+##UB##
+トリックオアトリック！=Trick or Trick!
+【カウントダウン】前方の敵すべてに爆弾を設置し、５カウント後に起爆する。爆弾はそれぞれ、起爆時に敵全体に物理中ダメージを与える。=[Countdown] Places bombs upon all enemies in front. Each bomb explodes after a count of 5, dealing moderate P.DMG to all enemies.
+r:"^敵全体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies.
+
+##S1##
+ペインティングキック=Painting Kick
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to all enemies in range.
+r:"^範囲内の敵すべてに(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies in range.
+
+##S2##
+びっくりパンプキン=Pumpkin Surprise
+前から３番目の敵を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to all enemies in a radius around the third enemy from the front.
+
+##EX##
+トリックエキスパート=Trick Expertise
+トリックエキスパート+=Trick Expertise+
+
+##S1+##
+ペインティングキック+=Painting Kick+
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理攻撃力を中ダウンさせる。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals moderate P.DMG to all enemies in range, and lowers their P.ATK by a moderate amount. When this skill is a critical hit, its damage is tripled instead of doubled.
+r:"^範囲内の敵すべてに(\d+)の物理ダメージ範囲内の敵すべての物理攻撃力を(\d+)ダウン$"=►Deals $1 P.DMG to all enemies in range.\n►Lowers enemies' P.ATK by $2 for 12s.
+
+##UE##
+魔拳トリックオアトリック=Magic Trick or Trick Fist

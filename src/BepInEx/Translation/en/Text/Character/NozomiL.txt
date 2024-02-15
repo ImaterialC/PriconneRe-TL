@@ -1,4 +1,5 @@
-【物理】中衛で、未来を信じ希望を灯すトップアイドル。バトル開始時に物理キャラのＴＰ特大回復と敵の永続物防ダウンで加勢し、物理攻撃強化とＴＰ回復で勝利へ導く。=[Physical] A top idol who believes in the future and lit hope in the midguard. At the start of the battle, she recovers all physical ally TP by a massive amount and a permanent P.DEF debuff of the enemies, leading to victory by strengthening physical attacks and TP recovery.
+##Profile##
+【物理】中衛で、未来を信じ希望を灯すトップアイドル。バトル開始時に物理キャラのＴＰ特大回復と敵の永続物防ダウンで加勢し、物理攻撃強化とＴＰ回復で勝利へ導く。=[Physical] A top idol who believes in the future and lits hope in midlines. When battle begins, she recovers all P-type allies' TP by a massive amount and lowers all enemies' P.DEF permanently, leading to victory by strengthening allies' P.ATK and TP Boost.
 
 ホープフルスマイル=Hopeful Smile
 思い出プレイバック=Memories playback
@@ -6,19 +7,29 @@
 『今』から『いつか』へ=From "now" to "Someday"
 学んで進んで乗りこえて=Learn, proceed and get over
 
+##UB##
 ホープ・オンステージ=Hope on Stage
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n対象の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Boosts all P-type allies' P.ATK by $3 for 18s.
-目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに、物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップさせる。=Deals large P.DMG to an enemy in the front, and lowers its P.DEF by a small amount. In addition, the P.ATK of all physical-type allied by an massive amount.
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに、物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップさせる。=Deals large P.DMG to an enemy in the front, and lowers its P.DEF by a small amount. Additionally, boosts all P-type allies' P.ATK by an massive amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン対象の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Boosts all P-type allies' P.ATK by $3 for 18s.
 
-グロウイレーション=Glow Irradiation
-グロウイレーション+=Glow Irradiation+
-r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方の物理クリティカルを(\d+)アップ\n対象の味方の物理攻撃クリティカル時のダメージを10％アップ$"=Cast time: 1.05s\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n►Boosts all P-type allies' P.Crit by $2 for 12s.\n►Boosts all P-type allies' P.Crit dmg by 10% for 12s.
-物理攻撃を行うすべての味方キャラの物理攻撃力と物理クリティカルを大アップさせ、物理攻撃クリティカル時のダメージを小アップさせる。=Boosts P.ATK of all P-type allies and P.crit by a large amount, and P.crit dmg by a medium amount.
+##S1##
+グロウイレーション=Glow Elation
+物理攻撃を行うすべての味方キャラの物理攻撃力と物理クリティカルを大アップさせ、物理攻撃クリティカル時のダメージを小アップさせる。=Greatly boosts all P-type allies' P.ATK and P.CRIT Rate, and boosts their P.CRIT DMG by a small amount.
+r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリティカルを(\d+)アップ対象の味方の物理攻撃クリティカル時のダメージを10％アップ$"=Cast time: 1.05s\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n►Boosts all P-type allies' P.CRIT Rate by $2 for 12s.\n►Boosts all P-type allies' P.CRIT DMG by 10% for 12s.
 
-エールフォーフューチャー=Cheer for the Future
-r:"^対象の味方の物理攻撃力を(\d+)アップ\n対象の味方のＴＰを(\d+)回復\n初使用時、対象の味方のＴＰを(\d+)回復\n初使用時、敵全体の物理防御力を(\d+)ダウン$"=Cast time: 1.05s\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n►Recovers TP of all P-type allies by $2.\n►At start for once, Recovers TP of all P-type allies by $3.\n►At start for once, Lowers all enemies' P.DEF by $4 for 90s.
-物理攻撃を行うすべての味方キャラの物理攻撃力を大アップさせ、ＴＰを小回復させる。バトル開始後、初弾のこのスキルはＴＰの回復量が大幅アップし、敵全体の物理防御力を小ダウンさせる。=Greatly increases the P.ATK of all P-type allied, and recovers a small amount of TP. After the battle starts, the first skill of this skill massively recover TP and slightly decreases the P.DEF of all enemies.
+##S2##
+エールフォーフューチャー=Cheer for Future
+物理攻撃を行うすべての味方キャラの物理攻撃力を大アップさせ、ＴＰを小回復させる。バトル開始後、初弾のこのスキルはＴＰの回復量が大幅アップし、敵全体の物理防御力を小ダウンさせる。=Greatly boosts all P-type allies' P.ATK, and slightly recovers their TP. When battle begins, 1st skill usage massively recovers all P-type allies' TP and slightly lowers all enemies' P.DEF.
+r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰを(\d+)回復初使用時、対象の味方のＴＰを(\d+)回復初使用時、敵全体の物理防御力を(\d+)ダウン$"=Cast time: 1.05s\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n\nFor the 1st skill usage:\n►Recovers all P-type allies' TP by $3.\n►Lowers all enemies' P.DEF by $4 for 180s\n\nFor the 2nd skill usage onwards:\n►Recovers all P-type allies' TP by $2.
 
-
+##EX##
 ホープフルスマイル=Hopeful Smile
 ホープフルスマイル+=Hopeful Smile+
+
+##S1+##
+グロウイレーション+=Glow Elation+
+物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、物理クリティカルを大アップし、物理攻撃クリティカル時のダメージを小アップさせ、さらにＴＰ上昇を小アップさせる。=Greatly boosts all P-type allies' P.ATK and P.CRIT Rate, and boosts their P.CRIT DMG by a small amount. Additionally, slightly boosts their TP Boost.
+r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリティカルを(\d+)アップ対象の味方の物理攻撃クリティカル時のダメージを12％アップ対象の味方のＴＰ上昇を(\d+)アップ$"=Cast time: 1.05s\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n►Boosts all P-type allies' P.CRIT Rate by $2 for 12s.\n►Boosts all P-type allies' P.CRIT DMG by 12% for 12s.\n►Boosts all P-type allies' TP Boost by $3 for 12s.
+
+##UE##
+ハートリベレイター=Heart Liberator

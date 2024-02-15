@@ -1,39 +1,42 @@
-【物理】前衛で雪月花の舞を納める新春の姉御。攻撃を当てる度に増加する【剣の刻印】でＵＢとスキルの威力を上昇させ、目にも止まらぬ斬撃で敵を圧倒する。=[Physics] A VG New Year's sister who performs the NY's dance. Boosts the power of UB and skills with [Sword Mark] that increases with each attack, and overwhelms the enemy with an unseen slash.
+##Profile##
+【物理】前衛で雪月花の舞を納める新春の姉御。攻撃を当てる度に増加する【剣の刻印】でＵＢとスキルの威力を上昇させ、目にも止まらぬ斬撃で敵を圧倒する。=[Physical] A New Year boss sister who performs the New Year dance. Boosts the power of UB and skills with [Sword Mark] that increases with each attack, and overwhelms the enemy with an unseen slash.
 
 福を呼ぶ小さな手=Little Hands that Bring Good Fortune
 アタシの一番の福=My Best Blessing of All
 新年に舞う熱き羽根=Hot Blades Dancing in the New Year
 迷える刃と頼れる瞳=Lost Blade and Reliable Eyes
 
+##UB##
+雪の太刀・冬帝　細雪=Snow Sword: Emperor Snow Flakes
+自分の物理攻撃力と物理クリティカルを大アップさせ、目の前の敵１キャラに物理大ダメージを与える。このスキルのダメージは【剣の刻印】の数に応じて増加する。=Greatly increases own P.ATK and P.CRIT, and deals massive P.DMG to one enemy in front. The damage of this skill increases with the number of [Mark of Sword].
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ敵単体に(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1 for 18s.\n►Boosts own P.CRIT Rate by 100 for 18s.\n►Deals $2 P.DMG to an enemy.
 
-雪の太刀・冬帝　細雪=Snow Sword: Fuyutei Sasetsu
-自分の物理攻撃力と物理クリティカルを大アップさせ、目の前の敵１キャラに物理大ダメージを与える。このスキルのダメージは【剣の刻印】の数に応じて増加する。=Greatly increases own P.ATK and P.crit, and deals massive P.DMG to one enemy in front. The damage of this skill increases with the number of [Mark of Sword].
+##S1##
+月の太刀・寒月=Moon Sword: Cold Moon
+目の前の敵１キャラに物理中ダメージを与える。【剣の刻印】の数が最大時に使用すると、すべて消費し、目の前の敵１キャラに物理特大ダメージを与え、自分の物理攻撃力を特大アップさせる。=Deals moderate P.DMG to an enemy in front. When used at the max number of [Mark of Sword], it consumes all of them, dealing massive P.DMG to an enemy in front and boosts own P.ATK by a massive amount.
 
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを100アップ\n敵単体に(\d+)の物理ダメージ$"=Boosts own P.ATK by $1 for 18s.\nBoosts own P.Crit Rate by 100 for 18s.\nDeals $2 P.DMG to an enemy.
+##S2##
+花の太刀・冬残花=Flower Sword: Remnants of Winter
+目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を中アップさせる。このスキルのダメージは【剣の刻印】の数に応じて増加する。=Deals moderate P.DMG to an enemy in front and boosts own P.ATK by a moderate amount. The damage of this skill increases with the number of [Mark of Sword].
 
+##SP1##
+初回発動時=At First Activation
+このスキルのスキルレベルは「雪の太刀・冬帝　細雪」と連動しています=This skill's level is linked to "Snow Sword: Fuyutei Sasetsu"
+敵に攻撃が当たるたびに【剣の刻印】が１つ追加されるようにする。【剣の刻印】は最大35まで追加される。自分に【剣の刻印】を10付与し、目の前の敵１キャラに物理中ダメージを与える。さらに、自分の物理攻撃力を特大アップさせる。=Whenever one of Ruka's attacks hit an enemy, gains 1 [Mark of Sword] stack, up to a maximum of 35. Grants 10 [Mark of Sword] to self, deals moderate P.DMG to an enemy in front. Boosts own P.ATK by a massive amount.
 
-このスキルのスキルレベルは「雪の太刀・冬帝　細雪」と連動しています=This skill’s level is linked to "Snow Sword: Fuyutei Sasetsu"
-
-
-目の前の敵１キャラに物理中ダメージを与える。【剣の刻印】の数が最大時に使用すると、すべて消費し、目の前の敵１キャラに物理特大ダメージを与え、自分の物理攻撃力を特大アップさせる。=Deals medium P.DMG to an enemy in front. When used at the max number of [Mark of Sword], it consumes all of them, dealing massive P.DMG to an enemy in front and boosts own P.ATK by a massive amount.
-
-r:"^敵単体に(\d+)の物理ダメージ\n【剣の刻印】が35の時、敵単体に(\d+)の物理ダメージ\n【剣の刻印】が35の時、自分の物理攻撃力を(\d+)アップ$"=Cast time:0.27s\nDeals $2 P.DMG to an enemy.\n\nIf [Mark of the Sword] is 35:\nConsume all of [Mark of the Sword].\nDeals $2 P.DMG to an enemy.\nBoosts own P.ATK by $3 for 12s.
-
-目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を中アップさせる。このスキルのダメージは【剣の刻印】の数に応じて増加する。=Deals medium P.DMG to an enemy in front and boosts own P.ATK to medium. The damage of this skill increases with the number of [Mark of Sword].
-
+##EX##
 極月の到り=Ultimate Reality
 極月の到り+=Ultimate Reality+
 
-初回発動時=At First Activation
-
-敵に攻撃が当たるたびに【剣の刻印】が１つ追加されるようにする。【剣の刻印】は最大35まで追加される。自分に【剣の刻印】を10付与し、目の前の敵１キャラに物理中ダメージを与える。さらに、自分の物理攻撃力を特大アップさせる。=Each time attack an enemy, an additional [Mark of the Sword] will be added up to 35. Grants yourself 10【Mark of Sword】, dealing medium P.DMG to an enemy in front. Boosts own P.ATK by a massive amount.
-
-振袖・碧縮緬寒椿模様=Long-Sleeved Kimono: Blue Crepe Cold Camellia Pattern
-敵に攻撃が当たるたびに【剣の刻印】が１つ追加されるようにする。【剣の刻印】は最大35まで追加される。自分に【剣の刻印】を10付与し、目の前の敵１キャラに物理大ダメージを与える。さらに、自分の物理攻撃力を特大アップさせる。このスキルのスキルレベルは「雪の太刀・冬帝　細雪」と連動しています=Each time attack an enemy, an additional [Mark of the Sword] will be added up to 35. Grants yourself 10【Mark of Sword】, dealing massive P.DMG to an enemy in front. Boosts own P.ATK by a massive amount. The skill level of this skill is linked to "Snow Sword: Fuyutei Sasetsu".
-
-敵に攻撃が当たるたびに【剣の刻印】が１つ追加されるようにする。【剣の刻印】は最大35まで追加される。自分に【剣の刻印】を10付与し、目の前の敵１キャラに物理大ダメージを与える。さらに、自分の物理攻撃力を特大アップさせる。このスキルのスキルレベルは「雪の太刀・冬帝　細雪」と連動しています=Each time attack an enemy, an additional [Mark of the Sword] will be added up to 35. Grants yourself 10【Mark of Sword】, dealing massive P.DMG to an enemy in front. Boosts own P.ATK by a massive amount. The skill level of this skill is linked to "Snow Sword: Fuyutei Sasetsu".
-
+##S1+##
+月の太刀・寒月+=Moon Sword: Cold Moon+
 目の前の敵１キャラに物理大ダメージを与える。【剣の刻印】の数が最大時に使用すると、すべて消費し、目の前の敵１キャラに物理特大ダメージを与え、自分の物理攻撃力を特大アップさせる。=Deals massive P.DMG to an enemy in front. When used at the max number of [Mark of Sword], it consumes all of them, dealing massive P.DMG to an enemy in front and boosts own P.ATK by a massive amount.
+r:"^敵単体に(\d+)の物理ダメージ【剣の刻印】が35の時、敵単体に(\d+)の物理ダメージ【剣の刻印】が35の時、自分の物理攻撃力を(\d+)アップ$"=Cast time: 0.27s\nIf Ruka has <35 [Mark of Sword]:\n►Deals $1 P.DMG to an enemy.\n\nIf Ruka has 35 [Mark of Sword]:\n►Consumes all of [Mark of Sword].\n►Deals $2 P.DMG to an enemy.\n►Boosts own P.ATK by $3 for 12s.
 
-敵に攻撃が当たるたびに【剣の刻印】が１つ追加\nされるようにする。【剣の刻印】は最大35まで追\n加される。自分に【剣の刻印】を10付与し、目の\n前の敵１キャラに物理大ダメージを与える。さら\nに、自分の物理攻撃力を特大アップさせる。\nこのスキルのスキルレベルは「雪の太刀・冬帝　\n細雪」と連動しています=Each time attack an enemy, an additional [Mark of the Sword] will be added up to 35. Grants yourself 10【Mark of Sword】, dealing massive P.DMG to an enemy in front. Boosts own P.ATK by a massive amount. The skill level of this skill is linked to "Snow Sword: Fuyutei Sasetsu".
-敵に攻撃が当たるたびに【剣の刻\n印】が１つ追加されるようにする。\n【剣の刻印】は最大35まで追加さ\nれる。自分に【剣の刻印】を10付\n与し、目の前の敵１キャラに物理大\nダメージを与える。さらに、自分の\n物理攻撃力を特大アップさせる。=Each time attack an enemy, an additional [Mark of the Sword] will be added up to 35. Grants yourself 10【Mark of Sword】, dealing massive P.DMG to an enemy in front. Boosts own P.ATK by a massive amount.
+##SP1+##
+敵に攻撃が当たるたびに【剣の刻印】が１つ追加されるようにする。【剣の刻印】は最大35まで追加される。自分に【剣の刻印】を10付与し、目の前の敵１キャラに物理大ダメージを与える。さらに、自分の物理攻撃力を特大アップさせる。=Whenever one of Ruka's attacks hit an enemy, gains 1 [Mark of Sword] stack, up to a maximum of 35. Grants 10 [Mark of Sword] to self, deals massive P.DMG to an enemy in front. Boosts own P.ATK by a massive amount.
+## Preview
+敵に攻撃が当たるたびに【剣の刻印】が１つ追加されるようにする。【剣の刻印】は最大35まで追加される。自分に【剣の刻印】を10付与し、目の前の敵１キャラに物理大ダメージを与える。さらに、自分の物理攻撃力を特大アップさせる。このスキルのスキルレベルは「雪の太刀・冬帝　細雪」と連動しています=Whenever one of Ruka's attacks hit an enemy, gains 1 [Mark of Sword] stack, up to a maximum of 35. Grants 10 [Mark of Sword] to self, deals massive P.DMG to an enemy in front. Boosts own P.ATK by a massive amount. The skill level of this skill is linked to "Snow Sword: Emperor Snow Flakes".
+
+##UE##
+振袖・碧縮緬寒椿模様=Long-Sleeved Kimono: Blue Crepe Cold Camellia Pattern

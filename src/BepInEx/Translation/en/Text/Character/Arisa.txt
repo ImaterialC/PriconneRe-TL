@@ -1,40 +1,11 @@
-クインティタニアス=Quintitanius
----Bio---
-【物理】後衛の、長期戦に優れた、森の守護者見習い。ＴＰ回復によるユニオンバーストの速攻が可能。さらに使用後はスキル効果が上昇するため高い殲滅力を誇る。=[Physical] An aspiring forest guardian in the backlines who excels in longer battles. Her rapid TP recovery allows her to constantly use her powerful UB that gets stronger the more it's used.
+##Profile##
+【物理】後衛の、長期戦に優れた、森の守護者見習い。ＴＰ回復によるユニオンバーストの速攻が可能。さらに使用後はスキル効果が上昇するため高い殲滅力を誇る。=[Physical] An aspiring forest guardian who excels at drawn-out battles from the backlines. TP recovery allows quick use of her Union Burst, which boosts her skill effects for greater attack power.
 
----Profile---
 キレイな葉っぱを集めること=Collecting beautiful leaves
-
----Skills---
-この矢に未来を乗せて！=I’ll Place The Future On This Arrow!
-エルフの弓術+=Elven Archery
-
----UB (6 star)---
-r:"^敵単体に(\d+)の物理ダメージ\n５回目以降の使用時、敵単体に(\d+)の物理ダメージ$"=For the 1st-4th UB:\nDeals $1 P.DMG to an enemy. \n\nFor the 5th UB onwards:\nDeals $2 P.DMG to an enemy.
-
-目の前の敵１キャラに物理特大ダメージを与える。このスキルを使用\nするたび、最大４回までダメージが増加する。=Deals massive damage to an enemy directly in front. Gain a damage boosting stack for each UB casted, up to 5. 
-
----UB ---
-目の前の敵１キャラに物理特大ダメージを与える。このスキルを既に使用していた場合、ダメージが増加する。=Deals massive P.DMG to an enemy directly in front. boost to damage dealt if this skill has already been used.
-r:"^敵単体に(\d+)の物理ダメージ\nユニオンバースト使用後、敵単体に(\d+)の物理ダメージ$"=Deals $1 P.DMG to an enemy.\nAfter using Union Burst, deals $2 P.DMG to an enemy.
----Skill 1 (UE)---
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる\n敵単体の魔法攻撃力を(\d+)ダウン$"=Deals $1 P.DMG to an enemy.\nReduces an enemy’s action speed to 80% for 12s.\nLowers an enemy’s M.ATK by $2 for 12s.
-
-最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力と行動速度を小ダウンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK. Lowers their M.ATK and reduces their action speed by a small amount.
----Skill 1 ---
-最も魔法攻撃力が高い敵１キャラに物理小ダメージを与え、さらに行動速度を小ダウンさせる。=Deals small P.DMG to the enemy with the highest M.ATK and reduces their action speed by a small amount.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の行動速度を一定時間低下させる$"=Deals $1 P.DMG to an enemy.\nReduces an enemy’s action speed.
-
----Skill 2---
-r:"^自分のＴＰを(\d+)回復\nユニオンバースト使用後、自分のＴＰを(\d+)回復$"=Recovers own TP by $1.\nAfter using UB, recovers own TP by $2.
-自分のＴＰを中回復する。既にユニオンバーストを使用していた場合、回復量が増加する。=Recovers own TP by a moderate amount. This amount boost when a UB has been used.
----EX skill
-バトル開始時に自分の物理攻撃力を大アップさせる。=Large boost to own physical attack at start of battle.
----Story
 
 森番を目指すエルフの少女=A young elf striving to become a forest guardian
 
-自然の導き=Nature’s Guidance
+自然の導き=Nature's Guidance
 深緑の守護者=The Verdant Steward
 収穫祭=Harvest Festival
 妖精のいたずら=Pixie Mischief
@@ -46,3 +17,39 @@ r:"^自分のＴＰを(\d+)回復\nユニオンバースト使用後、自分の
 森の意志=Will of the Forest
 妖精の調べ=Fairy Investigation
 重なり合う決意=Overlapping Resolutions
+
+##UB##
+私の矢があなたを貫く！=I'll Fill You With Arrows!
+目の前の敵１キャラに物理特大ダメージを与える。このスキルを既に使用していた場合、ダメージが増加する。=Deals massive P.DMG to an enemy directly in front. boost to damage dealt if this skill has already been used.
+r:"^敵単体に(\d+)の物理ダメージユニオンバースト使用後、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►After using Union Burst, deals $2 P.DMG to an enemy.
+
+##S1##
+絡みつく蔦=Clinging Vines
+最も魔法攻撃力が高い敵１キャラに物理小ダメージを与え、さらに行動速度を小ダウンさせる。=Deals small P.DMG to the enemy with the highest M.ATK and reduces their action speed by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to an enemy.\n►Reduces an enemy's action speed.
+
+##S2##
+翅の輝き=Shimmering Wings
+自分のＴＰを中回復する。既にユニオンバーストを使用していた場合、回復量が増加する。=Recovers own TP by a moderate amount. This amount boost when a UB has been used.
+r:"^自分のＴＰを(\d+)回復ユニオンバースト使用後、自分のＴＰを(\d+)回復$"=►Recovers own TP by $1.\n►After using UB, recovers own TP by $2.
+## 260lvl
+自分のＴＰを中回復する。既にユニオンバーストを使用していた場合、回復量が増加する。さらに自分の物理攻撃力を小アップさせる。=Recovers own TP by a moderate amount. This amount boost when a UB has been used. Also boosts own P.ATK by a small amount.
+r:"^自分のＴＰを(\d+)回復ユニオンバースト使用後、自分のＴＰを(\d+)回復自分の物理攻撃力を(\d+)アップ$"=►Recovers own TP by $1.\n►After using UB, recovers own TP by $2.\n►Boosts own P.ATK by $3.
+
+##EX##
+エルフの弓術=Elven Archery
+エルフの弓術+=Elven Archery+
+バトル開始時に自分の物理攻撃力を大アップさせる。=Large boost to own physical attack at start of battle.
+
+##UB+##
+この矢に未来を乗せて！=I'll Place The Future On This Arrow!
+目の前の敵１キャラに物理特大ダメージを与える。このスキルを使用\nするたび、最大４回までダメージが増加する。=Deals massive damage to an enemy directly in front. Gain a damage boosting stack for each UB casted, up to 5.
+r:"^敵単体に(\d+)の物理ダメージ５回目以降の使用時、敵単体に(\d+)の物理ダメージ$"=For the 1st-4th UB:\n►Deals $1 P.DMG to an enemy.\n\nFor the 5th UB onwards:\n►Deals $2 P.DMG to an enemy.
+
+##S1+##
+絡みつく蔦+=Clinging Vines+
+最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力と行動速度を小ダウンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK. Lowers their M.ATK and reduces their action speed by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度を一定時間低下させる敵単体の魔法攻撃力を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Reduces an enemy's action speed to 80% for 12s.\n►Lowers an enemy's M.ATK by $2 for 12s.
+
+##UE##
+クインティタニアス=Quintitanius

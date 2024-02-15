@@ -1,36 +1,70 @@
-Saren 
+##Profile##
 救護院を経営する優しい庶民派お嬢様=A kind, humble young lady who runs an orphanage
-【物理】中衛で一発逆転を狙う、みんなのサレンママ。ＨＰが下がるほどダメージが上昇するユニオンバーストと味方のＴＰを回復するスキルで、一気に形勢を逆転する。=[Physical] The Mama Saren reverses the state of battles in one shot from the midguard. Can swiftly turn the tables with a Union Burst that does more damage the lower her HP, and skills that recover party TP.
+【物理】中衛で一発逆転を狙う、みんなのサレンママ。ＨＰが下がるほどダメージが上昇するユニオンバーストと味方のＴＰを回復するスキルで、一気に形勢を逆転する。=[Physical] The motherly Saren reverses the state of battles in one shot from the midguard. Can swiftly turn the tables with a Union Burst that does more damage the lower her HP, and skills that recover party TP.
+
 経営、お茶会=Management, Tea Party
-Skills
-UB
+
+風が招いた出会い=A Breezy Encounter
+飛んで火に入る夏の虫=Moths to the Flame
+ハッピービジネス=Pleasure Doing Business
+夕暮れのデジャヴ=Déjà vu at Dusk
+頑張る娘に愛の手を=What a Diligent Daughter Deserves
+思い出の焼きそばパン=Yakisoba Bun Flashbacks
+古き日の面影=Shadows of Bygone Days
+大切な思い出に導かれて=Led by Precious Memories
+真心込めた取引を=I'll give you a real deal
+子どもたちは見ている=The children are watching
+共に過ごす未来=A future together
+ありのままのあたしで=I'm who I am
+
+##UB##
 ソードオブフェニックス=Phoenix Sword
 前方範囲内の敵すべてに物理中ダメージを与える。サレンのＨＰが低いほど、ダメージがアップする。=Deals moderate P.DMG to all enemies in range. The lower Saren's HP, the greater the damage dealt.
-S1
+
+##S1##
+ファイアスラッシュ=Fiery Slash
 前方範囲内の敵すべてに物理小ダメージを与える。=Deals small P.DMG to all enemies in range.
-S2
+
+##S2##
+エレガンスエール=Elegant Ovation
 最も近くの味方１キャラのＴＰを中回復する。=Recovers the TP of the closest party member by a moderate amount.
 r:"^味方単体のＴＰを(\d+)回復$"=►Recovers an ally's TP by $1.
-ex
+## 260lvl
+# Same with Yukari
+最も近くの味方１キャラのＴＰを中回復し、物理攻撃力と魔法攻撃力を小アップさせる。=Recovers the TP of the closest party member by a moderate amount, and raise P.ATK and M.ATK by small amount.
+r:"^味方単体のＴＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ味方単体の魔法攻撃力を(\d+)アップ$"=►Recovers an ally's TP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.\n►Boosts an ally's M.ATK by $3 for 12s.
+
+##EX##
 ノーブルエレガントソウル=Aristocratic Spirit
-Skills+
-UB
+ノーブルエレガントソウル+=Aristocratic Spirit+
+
+##UB+##
 エンドオブフェニックス=End of Phoenix
-前方範囲内の敵すべてに物理大ダメージを与え、さらに味方全体の物理攻撃力と魔法攻撃力を大アップさせる。サレンのＨＰが低いほど、ダメージと攻撃力の上昇量がアップする。=Inflicts a large amount of P.DMG to all enemies within range, and Large boost the P/allies' M.ATK. The lower Saren's HP, the more damage and attack power Boost.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within 900 range.\n►Additional P.DMG by 2.5x HP lost\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' M.ATK by $3 for 18s.\n►Additional P/M.ATK boosts by 0.2x HP lost
-S1
-ファイアスラッシュ=Fiery Slash
+前方範囲内の敵すべてに物理大ダメージを与え、さらに味方全体の物理攻撃力と魔法攻撃力を大アップさせる。サレンのＨＰが低いほど、ダメージと攻撃力の上昇量がアップする。=Inflicts a large amount of P.DMG to all enemies within range, and large boost to the allies' P/M.ATK. The lower Saren's HP, the more damage and attack power Boost.
+r:"^範囲内の敵に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies in 900 range.\n►Deals additional P.DMG by x2.5 HP lost.\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' M.ATK by $3 for 18s.\n►Boosts additional P/M.ATK by x0.2 HP lost.
+
+##S1+##
 ファイアスラッシュ+=Fiery Slash+
 前方範囲内の敵すべてに物理中ダメージを与える。サレンのＨＰが低いほど、ダメージがアップする。=Deals moderate P.DMG to all enemies in range. The lower Saren's HP, the greater the damage dealt.
-S2
-最も近くの味方１キャラのＴＰを中回復し、物理攻撃力と魔法攻撃力を小アップさせる。=Recovers the TP of the closest party member by a moderate amount, and raise P.ATK and M.ATK by small amount.
 
-Same with yukari
-エレガンスエール=Elegant Ovation
-r:"^味方単体のＴＰを(\d+)回復\n味方単体の物理攻撃力を(\d+)アップ\n味方単体の魔法攻撃力を(\d+)アップ$"=►Recovers an ally's TP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.\n►Boosts an ally's M.ATK by $3 for 12s.
-
-
-ex
-ノーブルエレガントソウル+=Aristocratic Spirit+
-UE
+##UE##
 グロリアスフェザー=Glorious Feather
+
+##Comments##
+クレヨンと絵本と積み木が\nいっぺんに買えて\nしかも安い店を見つけたの！\n選ぶのを手伝ってくれない？=I found a store that sells crayons, coloring books, and blocks for cheap! Help me shop!
+料理をする時は、\n食材の隅から隅まで\n使い切らないとね\nもったいないじゃない！=When cooking, you need to use every last bit of your ingredients. Waste not, want not!
+お金も大事だけど、あたしはただ\nみんなの笑顔が見たいの\nもちろん、その中には\nあんたも入ってるんだからね=Money is important, but I just want to see a smile on everyone's face. Including yours!
+あんたと今度、\nどこかに遊びに行きたいわね\nあ、もちろん、\nお金のかからないところによ？=You and I should go somewhere fun sometime. Just as long as it's free, of course.
+お茶会を開こうと思うの\nもちろん、\nあんたも招待してあげるから\n楽しみにしてなさい！=I want to have a tea party. You'll be invited, of course. It'll be lots of fun!
+限定アイテムの列はこちらが\n最後尾です…あら、奇遇ね\nあんたも寄ってかない？\nあたしたちが主催するバザー！=The line for limited items starts here... Oh, you came too! Welcome to our bazaar!
+あたしがお客さん呼び込むから、\nあんたはこの看板持って\n誘導してくれる？=I'll call out to the customers. Can you twirl this sign to draw them in?
+予想以上にお客さんが来てくれて\nビックリだわ！　せっかくだし\nあんたも寄ってきなさいよ！=I can't believe we got so many customers! You may as well go do your shopping, too!
+整列手伝ってくれてありがと♪\nあんたと一緒だといつもより\n何倍も仕事が楽しいわ♪\nまたお願いね！=Thanks for helping me manage the lines. Work is so much more fun with you around!
+バザーは大盛況よ♪\nこのあとパーッとご飯でも\n行きましょ！　あんたがいれば\n疲れなんか吹っ飛んじゃう♪=The bazaar was a hit! Let's celebrate with a feast. You'll be the ultimate refreshment!
+ハッピーバースデー♪\n救護院のみんながプレゼントを\n選んだわ。もちろんあたしもね\nありがたく受け取りなさい！=Happy birthday! ♪ Here's a present from everyone at the orphanage. Myself included, of course. I hope you'll accept it!
+誕生日だったわね？\nお祝いに遊びに行くわよ\nこんな日くらいはしっかり休んで\nたまには楽しみましょ♪=It's your birthday, right? Then let's take the day off and have some fun. Days like this are meant to be enjoyed! ♪
+みんなが楽しそうに笑ってるのが\n何よりもうれしいの\nそんな場所であんたと過ごせるの\n本当に幸せよ=I'm happier than ever to see everyone laughing and having fun. Being able to spend time with you makes me really happy.
+帰れる場所があるって、本当に\n素敵よね。あんたも疲れたら\nいつでもここに来なさい\n待ってるから=It's so wonderful to have a place to return to. If you ever get tired, come here anytime. I'll be waiting for you.
+見慣れた何気ない光景だけど\nこういう当たり前の日々を\n大切にしていきたいわよね=It's just a familiar, casual sight, but I want to treasure these ordinary days.
+あんたもだいぶここに\nなじんでるわよね\nこのままずっと\n居てくれてもいいのよ？=You're pretty familiar with this place, right? You can stay as long as you want, you know?
+あんたの前でくらい、肩の力を\n抜いてもいいわよね\nママ・サレンはちょっとお休み\n…なんてね♪=I can relax in front of you, can't I? Mama Saren is taking a break... just kidding♪

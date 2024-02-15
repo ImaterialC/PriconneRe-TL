@@ -1,0 +1,31 @@
+##Profile##
+【魔法】後衛の、妨害に特化した能力を持つ魔法探偵。相手のＴＰを大きく減少させるスキルや、遠くの敵を束縛するスキルを操り、相手の連携を大きく乱す。=[Magic] A Magical Detective who specializes in disrupting enemy actions from the back lines. With skills to significantly lower enemy TP and inflict Bind on faraway foes, she gives the enemy very little chance to take control of battle.
+
+##UB##
+ミスティックプリズム=Mystic Prism
+敵全体に魔法中ダメージを与え、さらにＴＰを小ダウンさせる。=Deals moderate magical damage to all enemies and reduces their TP by a small amount.
+r:"^敵全体に(\d+)の魔法ダメージ敵全体のＴＰを(\d+)失わせる$"=►Deals $1 M.DMG to all enemies.\n►Reduces all enemies' TP by $2.
+
+##S1##
+マジカルハレーション=Magical Halation
+最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. (Enemies at maximum TP are excluded.)
+r:"^敵単体のＴＰを(\d+)失わせる$"=Cast time: 1.27s\n►Reduces an enemy's TP by $1.
+
+##S2##
+ミスティラッピング=Misty Wrapping
+一番遠い敵１キャラを中心とした範囲内の敵すべてに魔法小ダメージを与え、さらに束縛する。=Deals small magical damage to all enemies in a radius around the farthest enemy and inflicts Bind.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする$"=►Deals $1 M.DMG to enemies in range.\n►Renders enemies in range immobile for a set period of time.
+## Same as NYSuzume S1+
+
+##EX##
+マジカルディテクティブ=Magical Sleuth
+マジカルディテクティブ+=Magical Sleuth+
+
+##S1+##
+マジカルハレーション+=Magical Halation+
+最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理・魔法攻撃力と物理・魔法クリティカルを短時間大ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. Also lowering their P.ATK, M.ATK, P.CRIT and M.CRIT. (Enemies at maximum TP are excluded.)
+最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理・魔法攻撃力を短時間特大ダウンさせ、物理・魔法クリティカルを短時間大ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. Also lowering their P.ATK, M.ATK, P.CRIT Rate and M.CRIT Rate. (Enemies at maximum TP are excluded.)
+r:"^敵単体のＴＰを(\d+)失わせる敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理クリティカルを(\d+)ダウン敵単体の魔法クリティカルを(\d+)ダウン$"=Cast time: 1.27s\n►Reduces an enemy's TP by $1.\n►Lowers an enemy's P.ATK by $2.\n►Lowers an enemy's M.ATK by $3.\n►Lowers an enemy's P.CRIT Rate by $4.\n►Lowers an enemy's M.CRIT Rate by $5.
+
+##UE##
+マジカルミスティロッド=Magical Misty Rod

@@ -1,27 +1,31 @@
-【魔法】後衛で、極大魔法を操り敵を討つ姫装の猫娘。回復や補助を兼ねた各攻撃スキルを駆使し戦況を整え、極大威力のユニオンバーストを撃ち込み敵を燼滅する。=[Magic] A cat girl in princess form who wields immense magic as a backline fighter to defeat enemies. She skillfully uses various attack skills that also serve as recovery and support to manipulate the battlefield, then unleashes a Union Burst of extreme power to annihilate enemies.
+##Profile##
+【魔法】後衛で、極大魔法を操り敵を討つ姫装の猫娘。回復や補助を兼ねた各攻撃スキルを駆使し戦況を整え、極大威力のユニオンバーストを撃ち込み敵を燼滅する。=[Magic] A catgirl in princess form who wields immense magic as a backline fighter to defeat enemies. She skillfully uses various attack skills that also serve as recovery and support to manipulate the battlefield, then unleashes a Union Burst of extreme power to annihilate enemies.
 
 素直な気持ちと恩返し=Sincerity and Gratitude
 二人で歩んで目指す場所=The place we aim to walk together
 反省と誠意のお節介=Reflection and Sincerity Intercession
 復興と責任のお手伝い=Help with Recovery and Responsibility
 
+##UB##
 アビスエンドバースト=Abyss End Burst
+目の前の敵１キャラに魔法極大ダメージを与える。=Deals massive M.DMG to an enemy in front.
 
-目の前の敵１キャラに魔法極大ダメージを与える。=Deals massive M.DMG to one enemy character in front.
-
-
+##S1##
 カラミティサンダー=Calamity Thunder
-カラミティサンダー+=Calamity Thunder+
-r:"^敵単体に(\d+)の魔法ダメー\n?ジ\n敵単体の魔法防御力を(\d+)ダウ\n?ン\n敵単体のクリティカルを受けた\n?際のダメージを10％アップ\n自分のＴＰを350回復\n自分の魔法攻撃力を(\d+)アッ\n?プ$"=Cast Time: 0.66s\n►Deals $1 M.DMG to an enemy.\n►Lowers an enemy’s M.DEF by $2 for 12s.\n►Reduce 10% M.Crit dmg resistance to an enemy for 12s.\n►Recovers own TP by 350.\n►Boosts own M.ATK by $3 for 18s.
 
-目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を大ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに、自分の魔法攻撃力を小アップさせ、ＴＰを大回復する。このスキルで与えたダメージ量に応じて、攻撃力の上昇量がアップする。=Deal medium M.DMG to a single enemy in front and greatly decrease their M.DEF. Boost damage taken when hit with M.crit. Additionally, slightly increase own M.ATK and greatly recover TP. The amount of M.ATK boost will also rise depending on the damage dealt with this skill.
-
-
+##S2##
 アビスコールエイド=Abyss Call Aid
-目の前の敵１キャラに魔法中ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復させる。このスキルで与えたダメージ量に応じて、ＨＰの回復量が増加する。=Deals moderate M.DMG to the first enemy character in front, and slightly recovers the HP of the ally with the lowest HP. The amount of HP recovered boost according to the amount of damage dealt with this skill.
-r:"^敵単体に(\d+)の魔法ダメージ\n味方単体のＨＰを(\d+)回復$"=Cast Time: 0.66s\n►Deals $1 M.DMG to an enemy.\n►Recovers an ally's HP by $2.
+目の前の敵１キャラに魔法中ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復させる。このスキルで与えたダメージ量に応じて、ＨＰの回復量が増加する。=Deals moderate M.DMG to an enemy in front, and slightly recovers an ally's HP with the lowest HP. The HP recovery increases according to M.DMG dealt by this skill.
+r:"^敵単体に(\d+)の魔法ダメージ味方単体のＨＰを(\d+)回復$"=Cast Time: 0.66s\n►Deals $1 M.DMG to an enemy.\n►Recovers an ally's HP by $2.
 
-
-ダークフルムーン+=Dark Full Moon+
+##EX##
 ダークフルムーン=Dark Full Moon
+ダークフルムーン+=Dark Full Moon+
+
+##S1+##
+カラミティサンダー+=Calamity Thunder+
+目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を大ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに、自分の魔法攻撃力を小アップさせ、ＴＰを大回復する。このスキルで与えたダメージ量に応じて、攻撃力の上昇量がアップする。=Deals moderate M.DMG to an enemy in front, greatly lowers its M.DEF, and slightly boosts its M.CRIT DMG taken. Additionally, slightly boosts own M.ATK and greatly recovers own TP. The M.ATK boost increase according to M.DMG dealt by this skill.
+r:"^敵単体に(\d+)の魔法ダメー?ジ敵単体の魔法防御力を(\d+)ダウ?ン敵単体のクリティカルを受けた?際のダメージを10％アップ自分のＴＰを350回復自分の魔法攻撃力を(\d+)アッ?プ$"=Cast time: 0.66s\n►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 12s.\n►Boosts an enemy's M.CRIT DMG taken by 10% for 12s.\n►Recovers own TP by 350.\n►Boosts own M.ATK by $3 (+0.06×$1) for 18s.
+
+##UE##
 フィアレスプリンセスロッド=Fearless Princess Rod

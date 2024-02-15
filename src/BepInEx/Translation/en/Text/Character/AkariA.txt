@@ -1,0 +1,26 @@
+##Profile##
+【魔法】中衛で、魔法攻撃をお見舞いする双子の妹天使。効果時間が短い分、絶大な効果の強化魔法で自身の攻撃力を大きく高め、威力抜群の単体魔法で敵を一掃する。=[Magic] A twin sister angel who deals magical damage in the midlines. Since her effect time is short, her powerful strengthening magic greatly increases her own attack power, and she wipes out enemies with her extremely powerful single magic.
+
+##UB##
+ヘブンリーキス=Heavenly Kiss
+
+##S1##
+エンジェルチャージ=Angel Charge
+自分の魔法攻撃力と魔法クリティカルを短時間特大アップさせ、さらに魔法攻撃クリティカル時のダメージを短時間中アップさせる。=Greatly boosts own M.ATK and M.CRIT Rate for a short period of time, and boosts own M.CRIT DMG by a moderate amount for a short period of time.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ自分の魔法攻撃クリティカル時のダメージを24％アップ$"=►Boosts own M.ATK by $1 for 6s.\n►Boosts own M.CRIT Rate by $1 for 6s.\n►Boosts own M.CRIT DMG by 24% for 6s.
+
+##S2##
+エンジェルシュート=Angel Shoot
+目の前の敵１キャラに魔法中ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals moderate M.DMG to an enemy in front. If this skill hits a critical hit, the damage will be tripled.
+
+##EX##
+甘々エンジェルハート=Sweet Angel Heart
+甘々エンジェルハート+=Sweet Angel Heart+
+
+##S1+##
+エンジェルチャージ+=Angel Charge+
+自分の魔法攻撃力と魔法クリティカルを短時間特大アップ、魔法攻撃クリティカル時のダメージを短時間中アップさせ、さらに自分のＴＰを中回復させる。=Greatly boosts own M.ATK and M.CRIT Rate for a short period of time, and boosts own M.CRIT DMG by a moderate amount for a short period of time. Also, recovers own TP by a moderate amount.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ自分の魔法攻撃クリティカル時のダメージを24％アップ自分のＴＰを(\d+)回復$"=►Boosts own M.ATK by $1 for 6s.\n►Boosts own M.CRIT Rate by $1 for 6s.\n►Boosts own M.CRIT DMG by 24% for 6s.\n►Recovers own TP by $3.
+
+##UE##
+ハッピーエンジェルボウ=Happy Angel Bow

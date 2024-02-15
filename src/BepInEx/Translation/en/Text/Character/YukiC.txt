@@ -1,20 +1,21 @@
-【魔法】中衛で、闇色の儀装束を纏う「美を統べる者」。ステータスアップ効果を受け【美貌】を増し、魔法攻撃力ダウンや味方の強化、ＴＰ回復の効果を高めて解き放つ。=[Magic] The Ruler of Beauty, who dons a ceremonial dress stained in the colour of darkness! When he is buffed, he receives "beauty" stacks, which in turn Boosts his own buffs/debuffs Which include M.ATK debuff, as well as buffs and TP charging for his ally/allies.
+##Profile##
+【魔法】中衛で、闇色の儀装束を纏う「美を統べる者」。ステータスアップ効果を受け【美貌】を増し、魔法攻撃力ダウンや味方の強化、ＴＰ回復の効果を高めて解き放つ。=[Magic] The Ruler of Beauty, who dons a ceremonial dress stained in the color of darkness! When he is buffed, he receives "Beauty" stacks, which in turn boosts his own buffs/debuffs, which include M.ATK debuff, as well as buffs and TP charging for his allies.
 
-目の前の敵１キャラに魔法中ダメージを与え、魔法攻撃力を大ダウンさせる。さらに、自分を中心とした範囲内の味方すべての魔法攻撃力を大アップさせる。このスキルの効果量は【美貌】の数に応じて上昇する。=Deals medium M.DMG to the enemy character in front and greatly reduces M.ATK. Additionally, greatly boosts the allies' M.ATK within range, centered around herself. The effectiveness of this skill Boosts based on the number of "Beauty" stacks.
-
-自分を中心とした範囲内の味方すべての魔法攻撃力を中アップさせ、ＴＰを小回復する。このスキルの効果量は【美貌】の数に応じて上昇する。=Moderately boosts the allies' M.ATK within range, centered around herself, and slightly recovers TP. The effectiveness of this skill Boosts based on the number of "Beauty" stacks.
-
-自分がステータスアップ効果を受ける度に、【美貌】が１つ追加される。【美貌】は最大60まで追加される。さらに、自分を中心とした範囲内の味方すべての魔法防御力を中アップさせ、魔法無効バリアを展開する。=Each time receives a stat-enhancing effect, "Beauty" is added. "Beauty" can be added up to a maximum of 60. Additionally, moderately boosts the allies' M.DEF within range, centered around herself, and deploys a magic nullification barrier.
-
+##UB##
 ボクの美貌が世界を統べるよ♪=My Beauty Rules the World♪
-ボクに尽くしていいよ♪=You Can Devote to Me♪
+目の前の敵１キャラに魔法中ダメージを与え、魔法攻撃力を大ダウンさせる。さらに、自分を中心とした範囲内の味方すべての魔法攻撃力を大アップさせる。このスキルの効果量は【美貌】の数に応じて上昇する。=Deals moderate M.DMG to an enemy in front and greatly lowers its M.ATK. Additionally, greatly boosts allies' M.ATK in range. All effects increase according to number of [Beauty] stacks.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法攻撃力を(\d+)ダウン範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 (+0.075×$1× \n[Beauty]) M.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2 (+0.025×$2×[Beauty]) for 18s.\n►Boosts allies' M.ATK in 100 range by $3 (+0.04×$3×[Beauty]) for 18s.
+
+##S1##
 花も恥じらう可愛いボク♪=Even Flowers Shy Away from Cute Me♪
-花も恥じらう可愛いボク♪+=Even Flowers Shy Away from Cute Me♪+
+自分を中心とした範囲内の味方すべての魔法攻撃力を中アップさせ、ＴＰを小回復する。このスキルの効果量は【美貌】の数に応じて上昇する。=Moderately boosts allies' M.ATK in range, and slightly recovers their TP. All effects increase according to number of [Beauty] stacks.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方のＴＰを40回復$"=Cast time: 1.05s.\n►Boosts allies' M.ATK in 100 range by $1 (+0.04×$1×[Beauty]) for 12s.\n►Recovers allies' TP in 100 range by 40 (+1×[Beauty]) for 12s.
+
+##S2##
+ボクに尽くしていいよ♪=You Can Devote to Me♪
+自分がステータスアップ効果を受ける度に、【美貌】が１つ追加される。【美貌】は最大60まで追加される。さらに、自分を中心とした範囲内の味方すべての魔法防御力を中アップさせ、魔法無効バリアを展開する。=Whenever Yuki receives a stat boost, gains 1 [Beauty] stack, up to a maximum of 60. Additionally, moderately boosts allies' M.DEF in range, and deploys Barrier over them that negates M.DMG.
+r:"^ステータスアップ効果を受けるたびに【美貌】を付与する状態になる範囲内の味方の魔法防御力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.415s.\n►Whenever stat boost received, gains 1 [Beauty] stack.\n►Boosts allies' M.DEF in 100 range by $1 for 180s.\n►Deploys Barrier over allies in 100 range that negates $2 M.DMG for 180s.
+
+##EX##
 妖艶なボクががんばるよ=Bewitching Me Will Do My Best
 妖艶なボクががんばるよ+=Bewitching Me Will Do My Best+
-
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法攻撃力を(\d+)ダウン\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Lowers M.ATK of an enemy by $2 for 18s.\n►Boosts allies' M.ATK within 100 range by $3 for 18s.
-
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ\n範囲内の味方のＴＰを40回復$"=Cast time: 1.05s.\n►Boosts allies' M.ATK within 100 range by $1 for 12s.\n►Recovers allies' TP within 100 range by 40 for 12s.
-
-r:"^ステータスアップ効果を受けるたびに【美貌】を付与する状態になる\n範囲内の味方の魔法防御力を(\d+)アップ\n(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.415s.\n►Grants [Beauty] state whenever receiving a buff.\n►Boosts allies' M.DEF within 100 range by $1 for 180s.\n►Deploys Barrier over allies within 100 range that negates $2 M.DMG for 180s.

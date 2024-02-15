@@ -1,26 +1,31 @@
-Profile
+##Profile##
 傭兵などのアルバイト=Part-time job as a mercenary
 仕事も私事も効率優先な傭兵少女=A mercenary who prioritizes efficiency\nin both her work and personal affairs
-Skills
-UB
+
+【物理】中衛の、スタンと回復のスキルを持つ傭兵戦士。\n高い防御力と自己回復能力を併せ持つ事で、\n中衛の守りを堅固にし、パーティを底支えする。=[Physical] A mercenary that fights from the midguard with stun and healing skills. Her combo of high defense and self-healing abilities provides a baseline for parties by keeping the middle row strong.
+
+##UB##
 スプラッシュダイブ=Tsunami Dive
-S1
-S2
-ex
+
+##S1##
+ファーストエイド=First Aid
+
+##S2##
+ハイドロスラッシュ=Hydro Slash
+
+##EX##
 マーセナリープライド=Mercenary's Pride
-Skills+
-UB
+マーセナリープライド+=Mercenary's Pride+
+
+##UB+##
 ボルテクスストリーム=Vortex Stream
 目の前の敵１キャラに物理特大ダメージを与え、さらにスタンさせる。そのキャラがユニオンバースト発動時既に行動不能状態だった場合、さらに敵全体に物理特大ダメージを与え、スタンさせる。=Deals massive P.DMG to an enemy directly in front and stuns it further. If target is already disabled when UB is activated, it will deal extra P.DMG to all enemies and stun them.
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体を一定時間行動不能にする\n敵全体に(\d+)の物理ダメージ\n敵全体を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Inflict Stun to an enemy for 4s.\nIf already stunned:\n►Deals $2 P.DMG to all enemies.\n►Inflict Stun to all enemies for 4s.
-S1
-ファーストエイド=First Aid
+r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする敵全体に(\d+)の物理ダメージ敵全体を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Inflicts Stun to an enemy for 4s.\n\nIf already stunned:\n►Deals $2 P.DMG to all enemies.\n►Inflicts Stun to all enemies for 4s.
+
+##S1+##
 ファーストエイド+=First Aid+
 自分のＨＰを大回復し、さらに自分の物理防御力と魔法防御力を大アップし、自分の周りに範囲内の味方すべてを小回復するフィールドを展開する。=Recovers own HP by a large amount. Large boost to own P.DEF and M.DEF. Deploys a field around oneself that recovers allies' HP within range by a small amount.
-r:"^自分のＨＰを(\d+)回復\n自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Recovers own HP by $1.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.\n►Deploys a field (Radius 150) that recovers HP by $4/s for 8.5s.
-S2
-ハイドロスラッシュ=Hydro Slash
-ex
-マーセナリープライド+=Mercenary's Pride+
-UE
+r:"^自分のＨＰを(\d+)回復自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Recovers own HP by $1.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.\n►Deploys a field (Radius 150) that recovers HP by $4/s for 8.5s.
+
+##UE##
 溟竜槍レヴィアタン=Leviathan Fang

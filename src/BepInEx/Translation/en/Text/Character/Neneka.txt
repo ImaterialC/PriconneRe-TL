@@ -1,27 +1,35 @@
-ネ=Ne
-ネカ=Neka
+##Profile##
 研究所に隠れ住む物静かなお姉さん=A researcher of few words who lives a secretive life
 
-
 物真似、芸術鑑賞=Imitation, Appreciating art
-【魔法】後衛で、分身生成し敵を圧倒する『変貌大妃』。\n分身はネネカ自身と同じスキルをくり出し敵を攻撃する。\nその攻撃密度と制圧力の高さは他の追随を許さない。=[Magic] The Metamorph Monarch who creates magical clones of herself to dominate the enemy from RG. Her clones are able to attack using the same skills as the original, providing incomparable levels of offensive pressure.
+【魔法】後衛で、分身生成し敵を圧倒する『変貌大妃』。\n分身はネネカ自身と同じスキルをくり出し敵を攻撃する。\nその攻撃密度と制圧力の高さは他の追随を許さない。=[Magic] The Metamorph Monarch who creates magical clones of herself to dominate the enemy from the rearguard. Her clones are able to attack using the same skills as the original, providing incomparable levels of offensive pressure.
 
 シークレットエンカウント=Secret Encounter
 お姉さんの名は=A Nice Lady's Name
 ラストレッスン=One Final lesson
 仕組まれた再会=An Engineered Reunion
+
+##UB##
 ミラーミラー=Mirror Mirror
-r:"^分身を生成する\n魔法攻撃力を(\d+)アップさせるフィールドを展開する\nＴＰ上昇を15アップさせるフィールドを展開する$"=►Create a clone of oneself.\n►Develop a field within 400 range around herself for 18s\n►Boosts allies' M.ATK within the field by $1.\n►Boosts allies' TP boost within the field by 15.
+【召喚】ユニオンバーストを使用しない、自分の分身を生成する。さらに自分の周囲に魔法攻撃力を特大アップさせ、ＴＰ上昇を小アップさせるフィールドを展開する。=[Summon] Create a duplicate of herself that cannot use UB. Deploys a field around self that grants a massive boost to M.ATK and small boost to TP Boost.
+r:"^分身を生成する魔法攻撃力を(\d+)アップさせるフィールドを展開するＴＰ上昇を15アップさせるフィールドを展開する$"=►Creates a clone of oneself.\n►Deploys a field within 400 range around herself for 18s\n►Boosts allies' M.ATK within field by $1.\n►Boosts allies' TP Boost within field by 15.
 
-【召喚】ユニオンバーストを使用しない、自分の分身を生成する。さらに自分の周囲に魔法攻撃力を特大アップさせ、ＴＰ上昇を小アップさせるフィールドを展開する。=[Summon]Create a duplicate of herself that cannot use UB. Deploys a field around self that grants a massive boost to M.ATK and small boost to TP Boost.
-
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、さらにスタンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy character in front of you, decreases their magic defense by a small amount, and stuns them.
-
-r:"^範囲内の敵すべてに(\d+)の魔法ダメージ\n範囲内の敵すべての魔法防御力を(\d+)ダウン\n範囲内の敵を一定時間行動不能にする$"=►Deals $1 to All Enemies in the front within 250 range.\n►Lowers M.DEF of all enemies within range by $2 for 12s.\n►Inflict Stun to the targets for 1.5s.
-
-ファンタズマゴリア+=Phantasmagoria+
-ファンタズマゴリア=Phantasmagoria
-
-インスタンス・ジェム=Instance Gem
-サテュレイト・レイ+=Saturation Ray+
+##S1##
 サテュレイト・レイ=Saturation Ray
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに短時間スタンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy character in front of you,  and stuns them.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする$"=►Deals $1 M.DMG to all enemies in 250 range.\n►Inflicts Stun to targets for 1.5s.
+
+##S2##
+インスタンス・ジェム=Instance Gem
+
+##EX##
+ファンタズマゴリア=Phantasmagoria
+ファンタズマゴリア+=Phantasmagoria+
+
+##S1##
+サテュレイト・レイ+=Saturation Ray+
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、さらにスタンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy character in front of you, decreases their magic defense by a small amount, and stuns them.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵すべての魔法防御力を(\d+)ダウン範囲内の敵を一定時間行動不能にする$"=►Deals $1 M.DMG to all enemies in 250 range.\n►Lowers enemies' M.DEF in 250 range by $2 for 12s.\n►Inflicts Stun to targets for 1.5s.
+
+##UE##
+ワンドオブミラージュ=Wand of Mirage

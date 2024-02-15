@@ -1,35 +1,38 @@
-【魔法】中衛で仲間との絆を力に変え戦うツンデレ猫娘。敵を妨害するスキルと、ＵＢで敵全体を恐慌状態にし既に恐慌状態の敵のＴＰをダウンさせ、全戦場を掌握する。=[Magic]A tsundere cat girl who transforms her bonds with her friends into power and fights as a midguard. She has a skill that interferes her enemies, and her UB puts all enemies into Fear mode, lowering the TP of already Feared enemies, and takes control of her entire battlefield.
-
-
-オーバーロードバースト=Overload Burst
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体を恐慌状態にする\n敵が恐慌状態の時、対象のＴＰを(\d+)失わせる$"=►Deals $1 M.DMG to all enemies.\n►Inflict Fear to All Enemies for 8s.\n►If the Enemy has Fear Debuff, reduce target's TP by $2.
-
-敵全体に魔法中ダメージを与え、さらに恐慌状態にする。このスキルによるダメージでは敵のＴＰは回復しない。発動時既に恐慌状態の敵がいた場合、その敵のＴＰを小ダウンさせる。=Deals moderate M.DMG to all enemies and Deals Fear. Damage from this skill does not restore the enemy's TP. If there is an enemy already in a Fear state at the time of activation, the TP of that enemy will be slightly decreased.
-
-ダークボルテックス=Dark Vortex
-ダークボルテックス+=Dark Vortex+
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵のＴＰを(\d+)失わせる$"=Cast time: 0.74s\n►Deals $1 M.DMG to all enemies within 300 range Centered at the nearest enemy.\n►Reduce target's TP by $2.
-
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらにＴＰを小ダウンさせる。=Deals moderate M.DMG to all enemies within range, centering on the first enemy character in front, and also slightly decreases TP.
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵のＴＰを180失わせる\n敵が恐慌状態の時、対象のＴＰを180失わせる$"=Cast time: 0.74s\n►Deals $1 M.DMG to all enemies within 300 range Centered at the nearest enemy.\n►Reduce target's TP by 180.\n\nIf enemy in Fear state:\n►Reduce target's TP by 180.
-
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、ＴＰを中ダウンさせる。このスキルの対象が恐慌状態だった場合、さらにＴＰを中ダウンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy in front, and moderately decreases TP. If the target of this skill is in Fear state, further reduces TP by a medium amount.
-
-デッドエンドカース=Deadend Curse
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法小ダメージを与え、さらに麻痺状態にする。=Deals minor M.DMG to all enemies within range centering on the first enemy character in front of you, and also stun them.
-
-ダークアブソリュート=Dark Absolute
-ダークアブソリュート+=Dark Absolute+
-
-超越叛逆のグリモアロッド=Transcendent Rebellion Grimoire Rod
-
+##Profile##
+【魔法】中衛で仲間との絆を力に変え戦うツンデレ猫娘。敵を妨害するスキルと、ＵＢで敵全体を恐慌状態にし既に恐慌状態の敵のＴＰをダウンさせ、全戦場を掌握する。=[Magic] A tsundere catgirl who transforms bonds with her friends into power and fights in midlines. She has a skill that interferes enemies, and her UB puts all enemies into Fear mode, lowering the TP of already inflicted by Fear enemies, and takes control of entire battlefield.
 
 キャルの忙しい一日=Kyaru's busy day
 目覚めるためのおまじない=Magic to wake up
-r:"^眠ったままの(.{2,10})を見守るキャルのもとに続々と見舞\nい客が訪れる。キャルは彼を目覚めさせるためユキと共にアイ\nドルとしてその場でライブを披露する。だが彼が目覚める気配\nはないのだった。$"=Visitors come one after another under Kyaru, who watches ONII -CHAN asleep. Kyaru performs live on the spot as an idol with Yuki to wake him up. But there was no sign of waking up.
-r:"^(.{2,10})を起こす手立てを得るため、クレジッタを頼りに\n王宮を訪ねるキャル。姿を見せないペコリーヌに疑問を感じた\n折、ネネカが現れる。事情を聞いたキャルは改めて二人を救う\n決意を固める。$"=Kyaru visits the royal palace with a crester to get the way to cause ONII -CHAN. When she questions Pecorine, who doesn't show her, she appears. Kyaru who hears the situation decides to save them again.
+r:"^眠ったままの(.{2,10})を見守るキャルのもとに続々と見舞い客が訪れる。キャルは彼を目覚めさせるためユキと共にアイドルとしてその場でライブを披露する。だが彼が目覚める気配はないのだった。$"=Visitors come one after another under Kyaru, who watches ONII -CHAN asleep. Kyaru performs live on the spot as an idol with Yuki to wake him up. But there was no sign of waking up.
+r:"^(.{2,10})を起こす手立てを得るため、クレジッタを頼りに王宮を訪ねるキャル。姿を見せないペコリーヌに疑問を感じた折、ネネカが現れる。事情を聞いたキャルは改めて二人を救う決意を固める。$"=Kyaru visits the royal palace with a crester to get the way to cause ONII -CHAN. When she questions Pecorine, who doesn't show her, she appears. Kyaru who hears the situation decides to save them again.
 これまでも、これからも=Until now,
 コッコロたちとソルの塔を登るキャル。コッコロとシェフィは\nいまだに眠ったままのペコリーヌたちを案じて弱気になってい\nた。キャルはそんな二人を自身の言葉で勇気づけ、絆の力を信\nじて前に進むのだった。=Kyaru climbing the tower of Sol with Kokkoro. Kokkoro and Shefi were still asleep and were bearish. Kyaru encouraged them in their own words, believing in the power of bonds and moving forward.
 想いと未来を共に=Both thoughts and the future
-r:"^遊ぶ約束をしていた希留耶と(.{2,10})。彼の提案で今日は\nアストルムで遊ぶことに。希留耶は先にログインして眠りに落\nちた彼に、これまでの二人の思い出と共に、心からの感謝を告\nげるのだった。$"=Kiriya and ONII -CHAN have promised to play. He decided to play in Atrum today with his proposal. Kibuya loved him and fell asleep, and told him sincerely with his memories of the two.
+r:"^遊ぶ約束をしていた希留耶と(.{2,10})。彼の提案で今日はアストルムで遊ぶことに。希留耶は先にログインして眠りに落ちた彼に、これまでの二人の思い出と共に、心からの感謝を告げるのだった。$"=Kiriya and ONII -CHAN have promised to play. He decided to play in Atrum today with his proposal. Kibuya loved him and fell asleep, and told him sincerely with his memories of the two.
+
+##UB##
+オーバーロードバースト=Overload Burst
+敵全体に魔法中ダメージを与え、さらに恐慌状態にする。このスキルによるダメージでは敵のＴＰは回復しない。発動時既に恐慌状態の敵がいた場合、その敵のＴＰを小ダウンさせる。=Deals moderate M.DMG to all enemies and inflicts Fear to them. Damage from this skill doesn't recover enemies' TP. If enemies are already in Fear state, slightly reduces enemies' TP.
+r:"^敵全体に(\d+)の魔法ダメージ敵全体を恐慌状態にする敵が恐慌状態の時、対象のＴＰを(\d+)失わせる$"=►Deals $1 M.DMG to all enemies.\n►Inflicts Fear to all enemies for 8s.\n►If enemies are in Fear state, reduces enemies' TP in range by $2.
+
+##S1##
+ダークボルテックス=Dark Vortex
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらにＴＰを小ダウンさせる。=Deals moderate M.DMG to enemies in range, and also slightly reduces their TP.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵のＴＰを(\d+)失わせる$"=Cast time: 0.74s\n►Deals $1 M.DMG to enemies in 300 range.\n►Reduces enemies' TP in range by $2.
+
+##S2##
+デッドエンドカース=Deadend Curse
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法小ダメージを与え、さらに麻痺状態にする。=Deals small M.DMG to enemies in range, and also inflicts Stun to them.
+
+##EX##
+ダークアブソリュート=Dark Absolute
+ダークアブソリュート+=Dark Absolute+
+
+##S1+##
+ダークボルテックス+=Dark Vortex+
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵のＴＰを180失わせる敵が恐慌状態の時、対象のＴＰを180失わせる$"=Cast time: 0.74s\n►Deals $1 M.DMG to enemies in 300 range.\n►Reduces enemies' TP in range by 180.\n►If enemies are Fear state, reduces enemies' TP in range by 180.
+
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、ＴＰを中ダウンさせる。このスキルの対象が恐慌状態だった場合、さらにＴＰを中ダウンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy in front, and moderately decreases TP. If the target of this skill is in Fear state, further reduces TP by a medium amount.
+
+##UE##
+超越叛逆のグリモアロッド=Transcendental Rebellion Grimoire Rod

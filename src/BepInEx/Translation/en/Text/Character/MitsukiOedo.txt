@@ -1,0 +1,29 @@
+##Profile##
+【物理】中衛で、戦況のすべてを見据える隻眼の闇医者。ＨＰが低い敵を束縛し防御力ダウンスキルで仕掛けつつ呪詛の毎秒増加する継続ダメージで敵の命を刻々と蝕む。=[Physical] A one-eyed black-market doctor who watches the entire battle to unfold in the midlines. She binds enemies with low HP and uses her skill lowering enemies' P.DEF to continuously increase the damage while dwindling their lives with curses.
+
+##UB##
+ローズデストラクション=Rose Destruction
+前方範囲内の敵すべてに物理大ダメージを与え、呪い状態にする。範囲内の敵がすでに呪い状態だった場合、さらに呪詛状態にする。呪詛による継続ダメージは毎秒ごとに増加する。=Deals large P.DMG to enemies in 900 range and inflicts Curse to them. If enemies in 900 range are already cursed, inflicts Hex. The continuous damage caused by Hex increases every second.
+r:"^範囲内の敵に(\d+)の物理ダメージ敵が呪い状態の時、毎秒ダメージが初期値(\d+)の30％ずつアップするダメージを与える呪詛状態にする敵が呪い状態でない時、(\d+)ダメージを与える呪い状態にする$"=►Deals $1 P.DMG to enemies in range.\n►If enemies in range are cursed, inflicts Hex that deals $2/s and deals 30% more every second for 19s.\n►If enemies in range aren't cursed, inflicts Curse that deals $3/s for 13s.
+
+##S1##
+ローズカルテ=Rose Chart
+すべての敵のうち最もＨＰの割合が低い敵１キャラに物理中ダメージを与え、物理防御力と魔法防御力を小ダウンさせ、さらに束縛する。=Deals moderate P.DMG to an enemy with the lowest HP ratio among all enemies, slightly lowers its P.DEF and M.DEF, and binds them.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン敵単体を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P/M.DEF by $2 for 12s.\n►Inflicts Bind to an enemy for 3.5s.
+
+##S2##
+アポトーシスエンハンサー=Apoptosis Enhancer
+前方範囲内の敵すべてを呪い状態にし、物理防御力と魔法防御力を小ダウンさせる。=Inflicts Curse to enemies in range and lowers their P.DEF and M.DEF by a small amount.
+r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=►Inflicts Curse to enemies in 900 range that deals $1/s for 13s.\n►Lowers enemies' P/M.DEF in 900 range by $2 for 12s.
+
+##EX##
+ブラックメディカルケア=Black Medical Care
+ブラックメディカルケア+=Black Medical Care+
+
+##S1+##
+ローズカルテ+=Rose Chart+
+すべての敵のうち最もＨＰの割合が低い敵１キャラに物理大ダメージを与え、物理防御力と魔法防御力を中ダウン、物理攻撃力と魔法攻撃力を中ダウンさせ、さらに束縛する。=Deals large P.DMG to an enemy with the lowest HP ratio among all enemies, moderately lowers its P.DEF, M.DEF, P.ATK and M.ATK, and binds them.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P/M.DEF by $2 for 12s.\n►Lowers an enemy's P/M.ATK by $4 for 12s.\n►Inflicts Bind to an enemy for 3.5s.
+
+##UE##
+ローゼスシリンジ=Rose's Syringe

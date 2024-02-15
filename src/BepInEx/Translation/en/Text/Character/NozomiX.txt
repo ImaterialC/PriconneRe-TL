@@ -1,0 +1,25 @@
+##Profile##
+【物理】中衛でパーティの守りを支えるサンタアイドル。\nスキルで物理攻撃を無効化し、後方の味方が多いほど\n物理防御力を高めるユニオンバーストで生存力を高める。=[Physical] A Santa idol who supports her allies' defenses from the midguard. Her skills allow her to nullify incoming physical attacks, and her Union Burst provides greater defense boosts the more combatants that are standing behind her.
+
+##UB##
+ライド・オン・クリスマス=Ride On, Santa!
+味方全体の物理防御力を小アップさせる。自分より後方にいる味方の人数に応じて、防御力の上昇量がアップする。=Small boost to P.DEF of all allies. P.DEF boost increases based on the number of allies positioned behind self.
+
+##S1##
+クリスマスエール=Festive Cheer
+味方全体に物理無効バリアを展開する。=Deploys a barrier that negates P.DMG around all allies for 18s.
+
+##S2##
+フロストスラッシュ=Frost Slash
+
+##EX##
+イルミネイトスマイル=Illuminating Smile
+イルミネイトスマイル+=Illuminating Smile+
+
+##S1+##
+クリスマスエール+=Festive Cheer+
+自分のＨＰを小回復する。味方全体に物理無効バリアを展開し、物理防御力を小アップさせ、さらに継続ＨＰ回復状態を付与する。自分より後方にいる味方の人数に応じて、ＨＰ回復量と物理防御力の上昇量と継続ＨＰ回復量がアップする。=Recovers own HP by a small amount. Deploys a barrier over all allies that negates P.DMG. Boosts allies' P.DEF, and grants continuous HP recovery to them. Recovered HP, P.DEF and continuous HP recovery boost increase based on the number of allies positioned behind self.
+r:"^自分のＨＰを(\d+)回復(\d+)ダメージ分の物理無効バリアを展開する味方全体の物理防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers own HP by $1.\n►Deploys Barrier over all allies that negates $2 P.DMG for 27s.\n►Boosts allies' P.DEF by $3 for 27s.\n►Recovers allies' HP by $4/s for 8.5s.
+
+##UE##
+聖霊剣セイントホープ=Holy Saint Hope Sword

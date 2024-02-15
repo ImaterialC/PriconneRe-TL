@@ -1,31 +1,30 @@
-Ram 
----Profile
-ラム=Ram 
+##Profile##
 毒舌系鬼姉メイド=A demonically sharp-tongued elder twin maid
+【魔法】中衛で、特殊能力で味方を補助する、双子の姉。相手の物理攻撃を見切って回避させる「千里眼」や、敵全体を束縛するユニオンバーストの補助は効果絶大。=[Magic] An elder twin who supports her allies with unique abilities from the midguard. Her Clairvoyance allows her to identify a physical attack and nullify it, while her Union Burst has the powerful effect of binding all enemies in place.
 
----Skills
----UB
+##UB##
 ラムの邪魔をしないで=Out of My Way
 敵全体に魔法中ダメージを与え、さらに束縛する。=Deals moderate M.DMG to all enemies and inflicts Bind.
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体を一定時間行動不能にする$"=Deals $1 M.DMG to all enemies.\nRenders all enemies immobile for a set period of time.
----S1
+r:"^敵全体に(\d+)の魔法ダメージ敵全体を一定時間行動不能にする$"=►Deals $1 M.DMG to all enemies.\n►Renders enemies in range immobile for a set period of time.
+
+##S1##
+フーラ=Fura
 目の前の敵１キャラが行動不能状態だった場合魔法大ダメージを与えて大きく吹き飛ばし、そうでない場合魔法中ダメージを与えて小さく吹き飛ばす。=If the enemy directly in front is unable to move, deals large M.DMG and knocks them back a large distance. If not, deals moderate M.DMG and knocks them back a small distance.
-r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ\n敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=Deals $1 M.DMG to an enemy if they are immobile.\nDeals $1 M.DMG to an enemy if they are not immobile.
----S2
+r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy if they are immobile.\n►Deals $1 M.DMG to an enemy if they are not immobile.
+
+##S2##
+千里眼=Clairvoyance
 最も物理攻撃力が高い敵１キャラを、次に使う物理攻撃が必ず回避される状態にする。=Inflicts a special status on the enemy with the highest P.ATK, causing their next P.ATK to miss.
-r:"^敵単体に次の物理攻撃が確定で回避される状態を付与する$"=Inflicts a status on an enemy causing their next P.ATK to miss.
----ex
+r:"^敵単体に次の物理攻撃が確定で回避される状態を付与する$"=►Inflicts a status on an enemy causing their next P.ATK to miss.
+
+##EX##
 傲岸不遜=Pure Arrogance
-
----Skills+
----UB
-
----S1
-目の前の敵１キャラが行動不能状態だった場合魔法特大ダメージを与えて大きく吹き飛ばし、そうでない場合魔法大ダメージを与えて小さく吹き飛ばす。=If the enemy in front of you is inevitable, it will cause magic special damage and blow it off, and if not, it will cause M.DMG and blow it off small.
-r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ\n敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=M.DMG of $1 when it is unable to act on the enemy alone\nM.DMG of $1 when it is not unable to act on the enemy alone
----S2
-
----ex
 傲岸不遜+=Pure Arrogance+
----UE
-ラムの髪飾り=Lamb hair ornaments
+
+##S1+##
+フーラ+=Fura+
+目の前の敵１キャラが行動不能状態だった場合魔法特大ダメージを与えて大きく吹き飛ばし、そうでない場合魔法大ダメージを与えて小さく吹き飛ばす。=If the enemy directly in front is unable to move, deals massive M.DMG and knocks them back a large distance. If not, deals moderate M.DMG and knocks them back a small distance.
+r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy if they are immobile.\n►Deals $1 M.DMG to an enemy if they are not immobile.
+
+##UE##
+ラムの髪飾り=Ram's Hair Ornament

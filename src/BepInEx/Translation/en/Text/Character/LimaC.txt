@@ -1,0 +1,42 @@
+##Profile##
+【物理】前衛の魔法の果実でお姫様姿になった恋乙女。獣の姿からユニオンバーストで一定時間、人の姿に変身し味方全体の攻撃力アップスキルで、火力の底上げをする。=[Physical] A lovely maiden who transformed into a princess with a special fruit in the vanguard. With transformation into her human form for a set period of time using Union Burst, she unleashed power up skills to support her allies and boost her own firepower as a whole.
+
+##UB##
+メタモルプリンセス=Metamorph Princess
+自分を人の姿に変化させ、さらに物理攻撃力を大アップさせる。=Transforms herself into her human form that greatly boosts her P.ATK for 24s.
+
+##S1##
+もふもふスマッシュ=Mofumofu Smash
+
+##S2##
+もふもふタックル=Mofumofu Tackle
+目の前の敵１キャラに物理中ダメージを与え、さらに自分のＴＰを中回復させる。=Deals moderate P.DMG to an enemy in front, and also recovers own TP by a moderate amount.
+
+##SPUB##
+変身中=Metamorphosis
+このスキルのスキルレベルは「メタモルプリ\nンセス」と連動しています=This skill's level is linked to "Metamorph Princess"
+ビヨンドザドリーム=Beyond the Dream
+
+##SP1##
+ビューティーアンドビースト=Beauty and Beast
+自分の物理攻撃力を中アップさせ、さらにＴＰを中回復させる。=Moderately boosts own P.ATK and also moderately recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰを(\d+)回復$"=►Boosts own P.ATK by $1 for 180s.\n►Recovers own TP by $2.
+
+##SP2##
+ダンスウィズミー=Dance with Me
+味方全体の物理攻撃力を大アップさせる。自分の物理攻撃力が高い程、攻撃力の上昇量がアップする。=Greatly boosts all allies' P.ATK. The higher own P.ATK, the more P.ATK boost is.
+
+##EX##
+夢への階段=Stairway to Dreams
+夢への階段+=Stairway to Dreams+
+
+##S1+##
+もふもふスマッシュ+=Mofumofu Smash+
+
+##SP1+##
+ビューティーアンドビースト+=Beauty and Beast+
+自分の物理攻撃力を大アップさせ、さらにＴＰを中回復させる。味方全体の物理攻撃力を中アップさせる。=Greatly boosts own P.ATK and also moderately recovers own TP. Moderately boosts all allies' P.ATK.
+r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ$"=►Boosts own P.ATK by $1 for 180s.\n►Recovers own TP by $2.\n►Boosts all allies' P.ATK by $3 for 180s.
+
+##UE##
+ドリームドシンデレラドレス=Dreamed Cinderella Dress

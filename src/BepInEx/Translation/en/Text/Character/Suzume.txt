@@ -1,39 +1,35 @@
-Suzume 
----Profile---
+##Profile##
 【魔法】後衛で、回復と攻撃をこなすドジっ娘メイド。周りの味方のＨＰを回復しつつ物理攻撃力を高めるスキルは、中衛・後衛の攻撃役と抜群の相性。=[Magic] A clumsy maid that heals and attacks from the rearguard. Her skills that heal those around her and also boost physical attack power pair well with mid- or rearguard offense.
-スズメ=Suzume 
+スズメ=Suzume
 お嬢さまのためにがんばるドジっ娘メイド=A clumsy maid who works hard for her mistress
 
----Skills---
----UB---
+##UB##
 ウィンドストリーム=Whirlwind
 前方範囲内の敵すべてに魔法中ダメージを与え、さらに物理防御力を小～中ダウンさせる。=Deals moderate M.DMG to all enemies in range and lowers their P.DEF by a small to moderate amount.
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n成功時、物理防御力を(\d+)ダウン\n失敗時、物理防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within range\n►If sucess, lowers enemies' P.DEF within range by $2.\n►If failure, lowers enemies' P.DEF by $3.
+r:"^範囲内の敵に(\d+)の魔法ダメージ成功時、物理防御力を(\d+)ダウン失敗時、物理防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in range\n►If success, lowers enemies' P.DEF in range by $2.\n►If failure, lowers enemies' P.DEF by $3.
 
----S1---
+##S1##
+ウィンドブラスト=Wind Blast
 前方範囲内の敵すべてに魔法小ダメージを与える。=Deals small M.DMG to all enemies in range.
----S2---
-自分の周囲の味方すべてのＨＰを小回復させ、さらに物理攻撃力を小アップさせる。=Recovers HP and boosts P.ATK of all nearby allies by a small amount.
-r:"^範囲内の味方のＨＰを(\d+)回復\n範囲内の味方の物理攻撃力を(\d+)アップ$"=►Recovers allies' HP within range by $1.\n►Boosts allies' P.ATK within range by $2.
----ex---
-メイドスピリット=Maid's Dedication
 
----Skills+---
----UB---
+##S2##
+メイドエール=Maid's Comfort
+自分の周囲の味方すべてのＨＰを小回復させ、さらに物理攻撃力を小アップさせる。=Recovers HP and boosts P.ATK of all nearby allies by a small amount.
+r:"^範囲内の味方のＨＰを(\d+)回復範囲内の味方の物理攻撃力を(\d+)アップ$"=►Recovers allies' HP in range by $1.\n►Boosts allies' P.ATK in range by $2.
+
+##EX##
+メイドスピリット=Maid's Dedication
+メイドスピリット+=Maid's Dedication+
+
+##UB+##
 スウィープサイクロン=Sweeping Cyclone
 前方範囲内の敵すべてに魔法大ダメージを与え、さらに物理防御力と魔法防御力を大ダウンさせる。=Great M.DMG to all enemies within the front range, and also lower P.DEF and M.DEF.
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within range.\n►Lowers enemies' P.DEF within range by $2.\n►Lowers enemies' M.DEF within range by $3.
----S1---
-前方範囲内の敵すべてに魔法中ダメージを与える。さらに物理防御力と魔法防御力を小ダウンさせる。=Deals moderate M.DMG to all enemies in range and lowers their P.DEF and M.DEF by a small amount.
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in range.\n►Lowers enemies' P.DEF within range by $2.\n►Lowers enemies' M.DEF within range by $3.
----S2---
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in range.\n►Lowers enemies' P.DEF in range by $2.\n►Lowers enemies' M.DEF in range by $3.
 
----ex---
-メイドスピリット+=Maid's Dedication+
----UE---
-ロイヤルメイドドレス=Royal Maid Dress
-
-ウィンドブラスト=Wind Blast
+##S1+##
 ウィンドブラスト+=Wind Blast+
-メイドエール=Maid's Comfort
-メイドエール+=Maid's Comfort+
+前方範囲内の敵すべてに魔法中ダメージを与える。さらに物理防御力と魔法防御力を小ダウンさせる。=Deals moderate M.DMG to all enemies in range and lowers their P.DEF and M.DEF by a small amount.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in range.\n►Lowers enemies' P.DEF in range by $2.\n►Lowers enemies' M.DEF in range by $3.
+
+##UE##
+ロイヤルメイドドレス=Royal Maid Dress

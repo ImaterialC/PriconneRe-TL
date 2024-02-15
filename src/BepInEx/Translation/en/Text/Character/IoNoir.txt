@@ -1,20 +1,28 @@
-【魔法】後衛で魔法アタッカーを妨害する闇のせんせー。最も魔法攻撃力が高い敵を、誘惑とＴＰダウンで妨害しＴＰ回復スキルで味方を援護することで戦況を支配する。=[Magic] A rear-guard dark sorceress who disrupts magic attackers. She dominates the battlefield by hindering the enemy with seduction and TP reduction, while supporting her allies with TP recovery skills.
+##Profile##
+【魔法】後衛で魔法アタッカーを妨害する闇のせんせー。最も魔法攻撃力が高い敵を、誘惑とＴＰダウンで妨害しＴＰ回復スキルで味方を援護することで戦況を支配する。=[Magic] A dark sorceress who disrupts magic attackers from rearguard. She dominates the battlefield by hindering the enemy with seduction and TP reduction, while supporting her allies with TP recovery skills.
 
-前方範囲内の敵すべてに魔法中ダメージを与え、さらに味方全体のＨＰを小回復する。このスキルで与えたダメージ量に応じてＨＰの回復量がアップする。=Deals medium M.DMG to all enemies in the frontal area and slightly recovers the HP of all allies. The amount of HP recovery is increased based on the damage dealt by this skill.
-
-前方の敵の中で最も魔法攻撃力が高い敵１キャラに魔法小ダメージを与え、さらに誘惑状態にする。=Deals small M.DMG to the enemy character with the highest M.ATK among the front-row enemies and inflicts them with the Charm status.
-
-前方の敵の中で最も魔法攻撃力が高い敵１キャラのＴＰを中ダウンさせ、最も魔法攻撃力が高い味方１キャラのＴＰを中回復し、魔法攻撃力を小アップさせる。=Reduces the TP of the enemy character with the highest M.ATK among the front-row enemies by a moderate amount. Then, moderately recovers the TP of the ally character with the highest M.ATK and slightly boosts their M.ATK.
-
+##UB##
 マジカル・ラブガイダンス=Magical Love Guidance
+前方範囲内の敵すべてに魔法中ダメージを与え、さらに味方全体のＨＰを小回復する。このスキルで与えたダメージ量に応じてＨＰの回復量がアップする。=Deals moderate M.DMG to enemies in 1100 range and slightly recovers all allies' HP. The amount of HP recovery is increased based on the damage dealt by this skill.
+r:"^範囲内の敵に(\d+)の魔法ダメージ味方全体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in 1100 range.\n►Recovers all allies' HP by $2.
+
+##S1##
 ロマンティックハート=Romantic Heart
-ロマンティックハート+=Romantic Heart+
+前方の敵の中で最も魔法攻撃力が高い敵１キャラに魔法小ダメージを与え、さらに誘惑状態にする。=Deals small M.DMG to an enemy with highest M.ATK, and inflicts Charm to them for 5s.
+r:"^敵単体のＴＰを(\d+)失わせる味方単体のＴＰを(\d+)回復$"=Cast time: 1.0s\n►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.
+
+##S2##
 マジックラブビーム=Magic Love Beam
+前方の敵の中で最も魔法攻撃力が高い敵１キャラのＴＰを中ダウンさせ、最も魔法攻撃力が高い味方１キャラのＴＰを中回復し、魔法攻撃力を小アップさせる。=Moderately reduces an enemy's TP with the highest M.ATK. Also, moderately recovers an ally's TP with the highest M.ATK and slightly boosts its M.ATK.
+r:"^敵単体のＴＰを(\d+)失わせる味方単体のＴＰを(\d+)回復味方単体の魔法攻撃力を(\d+)アップ$"=Cast time: 1.0s\n►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.\n►Boosts an ally's M.ATK by $3.
+
+##EX##
 シークレットエトセトララブ=Secret Et Cetera Love
 シークレットエトセトララブ+=Secret Et Cetera Love+
 
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n味方全体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies within 1100 range.\n►Recovers all allies' HP by $2.
+##S1+##
+ロマンティックハート+=Romantic Heart+
+前方の敵の中で最も魔法攻撃力が高い敵１キャラに魔法大ダメージを与え、誘惑状態にし、さらにＴＰを中ダウンさせる。=Deals large M.DMG to an enemy with highest M.ATK, inflicts Charm to them for 8s, and also reduces its TP by a moderate amount.
 
-r:"^敵単体のＴＰを(\d+)失わせる\n味方単体のＴＰを(\d+)回復\n味方単体の魔法攻撃力を(\d+)アップ$"=Cast time: 1.0s\n►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.\n►Boosts an ally's M.ATK by $3.
-
-r:"^敵単体のＴＰを(\d+)失わせる\n味方単体のＴＰを(\d+)回復$"=Cast time: 1.0s\n►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.
+##UE##
+闇のせんせードレス=Miss Darkness Dress

@@ -1,39 +1,40 @@
-【魔法】後衛から、仲間を啓蒙するユニちゃんズの才媛。自分以外の味方全員の物理・魔法両方の攻撃力アップとクリティカル時のダメージアップで皆を勝利へと導く。=[Magic] A genius member of the Yuni-chanzu who enlightens her allies from the rear guard. She leads everyone to victory with her skills that increase both P.ATK & M.ATK for all allies except herself, and also increases damage dealt when landing critical hits.
-
-真理と実存の共同幻想=Joint Illusion of Truth and Existence
-r:"^自分以外の味方の物理攻撃力を(\d+)アップ\n自分以外の味方の魔法攻撃力を(\d+)アップ\n神速くんを学びの時間状態にする\n学びの時間中、自分以外の味方の物理攻撃クリティカル時のダメージを12％アップ\n学びの時間中、自分以外の味方の魔法攻撃クリティカル時のダメージを12％アップ$"=►Boosts P&M ATK of all allies by $1 for 18s.\n►Applies 1 Stack of [Learning Time] to Self for 18s.\n►If Yuni has [Learning Time], Boosts P&M Crit DMG of all allies by 12%.
-
-自分以外の味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに一定時間、神速くんを【学びの時間】状態にする。【学びの時間】中、さらに自分以外の味方全体の物理攻撃と魔法攻撃クリティカル時のダメージを小アップさせる。=Large boost the P&M ATK of all allies other than yourself, and puts God-Speed-kun in the [Learning Time] state for a certain period of time.\n[Learning time]: Moderately boost the P&M Crit DMG of all allies other than yourself by a small amount.
-
-
-魔法力学的解析演習+=Analysis and Exercises in Magical Mechanics+
-魔法力学的解析演習=Analysis and Exercises in Magical Mechanics
-r:"^範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン\n学びの時間中、範囲内の敵のクリティカルを受けた際のダメージを8％アップ$"=Cast time: 0.465s\n►Lowers P.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers M.DEF of all enemies within 1080 range by $2 for 12s.\n►If Yuni has [Learning Time], Lowers P/M.Crit DMG RES of all enemies within range by 8% for 12s
-前方範囲内の敵すべての物理防御力と魔法防御力を小ダウンさせる。【学びの時間】中、さらにクリティカルを受けた際のダメージを小アップさせる。=Slightly decreases the P&M DEF of all enemies within range. [Learning Time] Moderately boost the damage taken when receiving a critical hit.
-
-
-
-形而上学的拡張理論=Metaphysical Extended Theory
-r:"^範囲内の敵の物理防御力を(\d+)ダウン\n範囲内の敵の魔法防御力を(\d+)ダウン\n敵単体の物理防御力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン\n学びの時間中、範囲内の敵のクリティカルを受けた際のダメージを8％アップ$"=Cast time: 0.465s\n►Lowers P/M.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers P/M.DEF of all enemies within 1080 range by $1 for 12s.\n►Lowers an enemy's P/M.DEF by $3 for 12s.\n►If Yuni has [Learning Time], Lowers P/M.Crit DMG RES of all enemies within range by 8% for 12s
-
-前方範囲内の敵すべての物理防御力と魔法防御力を小ダウンさせ、目の前の敵１キャラの物理防御力と魔法防御力を小ダウンさせる。【学びの時間】中、さらにクリティカルを受けた際のダメージを小アップさせる。=Slightly lowers the P/M.DEF of all enemies within the front range, and slightly lowers the P/M.DEF of one enemy in front. During [Learning Time] Moderately increases the damage taken when receiving a critical hit.
-
-
-r:"^自分以外の味方の行動速度アップ\n自分以外の味方のＴＰ上昇を5アップ\n学びの時間中、自分以外の味方のＴＰを(\d+)回復$"=Cast time: 0.625s\n►Boost action speed to 150% to all allies for 12s.\n►Boosts allies'(except self) TP boost by 5 for 12s.\n►If Yuni has [Learning Time],Recovers allies' TP (except self) by $1.
-自分以外の味方全体の行動速度を大アップさせ、ＴＰ上昇を小アップさせる。【学びの時間】中、さらに自分以外の味方全体のＴＰを小回復する。=Boosts the action speed of all allies except the user and slightly increases their TP Boost. During [Learning time], slightly recovers the TP of all allies except the user. allies other than yourself.
-
-
-r:"^自分以外の味方の行動速度アップ\n自分以外の味方のＴＰ上昇を5アップ\n自分以外の味方の物理攻撃力を(\d+)アップ\n自分以外の味方の魔法攻撃力を(\d+)アップ\n学びの時間中、自分以外の味方のＴＰを(\d+)回復$"=Cast time: 0.625s\n►Boost action speed to 150% to all allies for 12s.\n►Boosts allies'(except self) TP boost by 5 for 12s.\n►Boosts allies'(except self) P/M.ATK by $1 for 12s.\n►If Yuni has [Learning Time],Recovers allies' TP (except self) by $3.
-自分以外の味方全体の行動速度を大アップさせ、ＴＰ上昇と物理・魔法攻撃力を小アップさせる。【学びの時間】中、さらに自分以外の味方全体のＴＰを小回復する。=Boosts the action speed of all allies except the user and slightly increases the P.ATK, M.ATK, and TP Boost. During [Learning time], slightly recovers the TP of all allies except the user. allies other than yourself.
-
-聖域の学び=Sanctuary Learning
-聖域の学び+=Sanctuary Learning+
-高機動万能靴・レプリカ=High Mobility All-Purpose Shoes Replica
-
-このスキルのスキルレベルは「真理と実存の共同幻想」と連動しています=This skill’s level is linked to "Joint Illusion of Truth and Existence"
-
-禁忌の断章=Forbidden Chapter
-自分以外の味方の物理攻撃力を初期値の22%アップ\n自分以外の味方の魔法攻撃力を初期値の22%アップ=Cast time: 2.1s\n►Boosts allies' P.ATK by 22% of initial value for 12s.\n►Boosts allies' M.ATK by 22% of initial value for 22s.
-自分以外の味方全体の物理攻撃力と魔法攻撃力を中アップさせる。=Moderately boost the physical and magical attack power of all allies other than yourself.
+##Profile##
+【魔法】後衛から、仲間を啓蒙するユニちゃんズの才媛。自分以外の味方全員の物理・魔法両方の攻撃力アップとクリティカル時のダメージアップで皆を勝利へと導く。=[Magic] A genius member of the Yuni-chanzu who enlightens her allies from the rear guard. She leads everyone to victory with her skills that boost both P.ATK & M.ATK for all allies except herself, and also boost damage dealt when landing critical hits.
 
 陳情書と擬体運用青空教室=Petition and Mimetic Operation Blue Sky Classroom
+
+##UB##
+真理と実存の共同幻想=Joint Illusion of Truth and Existence
+自分以外の味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに一定時間、神速くんを【学びの時間】状態にする。【学びの時間】中、さらに自分以外の味方全体の物理攻撃と魔法攻撃クリティカル時のダメージを小アップさせる。=Greatly boosts all other allies' P/M.ATK, and gains [Learning Time] state for a certain period of time.\n[Learning Time]: Moderately boosts all other allies' P/M.CRIT DMG.
+r:"^自分以外の味方の物理攻撃力を(\d+)アップ自分以外の味方の魔法攻撃力を(\d+)アップ神速くんを学びの時間状態にする学びの時間中、自分以外の味方の物理攻撃クリティカル時のダメージを12％アップ学びの時間中、自分以外の味方の魔法攻撃クリティカル時のダメージを12％アップ$"=►Boosts all other allies' P/M.ATK by $1 for 18s.\n►Grants [Learning Time] to self for 18s.\n►If Yuni has [Learning Time], boosts allies' P/M.CRIT DMG by 12%.
+
+##S1##
+魔法力学的解析演習=Analysis and Exercises in Magical Mechanics
+前方範囲内の敵すべての物理防御力と魔法防御力を小ダウンさせる。【学びの時間】中、さらにクリティカルを受けた際のダメージを小アップさせる。=Slightly lowers enemies' P/M.DEF in range. During [Learning Time] moderately boosts enemies P/M.CRIT DMG taken.
+r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン学びの時間中、範囲内の敵のクリティカルを受けた際のダメージを8％アップ$"=Cast time: 0.465s\n►Lowers enemies' P.DEF in 1080 range by $1 for 12s.\n►Lowers enemies' M.DEF in 1080 range by $2 for 12s.\n►If Yuni has [Learning Time], boosts enemies' P/M.CRIT DMG taken in range by 8% for 12s.
+
+##S2##
+形而上学的拡張理論=Metaphysical Extended Theory
+自分以外の味方全体の行動速度を大アップさせ、ＴＰ上昇を小アップさせる。【学びの時間】中、さらに自分以外の味方全体のＴＰを小回復する。=Boosts all other allies' action speed, and slightly boosts their TP Boost. During [Learning time] slightly recovers all other allies' TP.
+r:"^自分以外の味方の行動速度アップ自分以外の味方のＴＰ上昇を5アップ学びの時間中、自分以外の味方のＴＰを(\d+)回復$"=Cast time: 0.625s\n►Boosts all other allies' action speed to 150% for 12s.\n►Boosts all other allies' TP Boost by 5 for 12s.\n►If Yuni has [Learning Time], recovers all other allies' TP by $1.
+## 260lvl
+自分以外の味方全体の行動速度を大アップさせ、ＴＰ上昇と物理・魔法攻撃力を小アップさせる。【学びの時間】中、さらに自分以外の味方全体のＴＰを小回復する。=Boosts all other allies' action speed, and slightly boosts their P.ATK, M.ATK, and TP Boost. During [Learning time] slightly recovers all other allies' TP.
+r:"^自分以外の味方の行動速度アップ自分以外の味方のＴＰ上昇を5アップ自分以外の味方の物理攻撃力を(\d+)アップ自分以外の味方の魔法攻撃力を(\d+)アップ学びの時間中、自分以外の味方のＴＰを(\d+)回復$"=Cast time: 0.625s\n►Boosts all other allies' action speed to 150% for 12s.\n►Boosts all other allies' TP Boost by 5 for 12s.\n►Boosts all other allies' P/M.ATK by $1 for 12s.\n►If Yuni has [Learning Time], recovers all other allies' TP by $3.
+
+##SP1##
+このスキルのスキルレベルは「真理と実存の共同幻想」と連動しています=This skill's level is linked to "Joint Illusion of Truth and Existence"
+禁忌の断章=Forbidden Chapter
+自分以外の味方全体の物理攻撃力と魔法攻撃力を中アップさせる。=Moderately boosts all other allies' P/M.ATK.
+自分以外の味方の物理攻撃力を初期値の22%アップ\n自分以外の味方の魔法攻撃力を初期値の22%アップ=Cast time: 2.1s\n►Boosts all other allies' P.ATK by 22% for 12s.\n►Boosts all other allies' M.ATK by 22% for 12s.
+
+##EX##
+聖域の学び=Sanctuary Learning
+聖域の学び+=Sanctuary Learning+
+
+##S1+##
+魔法力学的解析演習+=Analysis and Exercises in Magical Mechanics+
+前方範囲内の敵すべての物理防御力と魔法防御力を小ダウンさせ、目の前の敵１キャラの物理防御力と魔法防御力を小ダウンさせる。【学びの時間】中、さらにクリティカルを受けた際のダメージを小アップさせる。=Slightly lowers enemies' P/M.DEF in range, and slightly lowers a frontmost enemy's P/M.DEF. During [Learning Time] moderately boosts enemies P/M.CRIT DMG taken.
+r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン学びの時間中、範囲内の敵のクリティカルを受けた際のダメージを8％アップ$"=Cast time: 0.465s\n►Lowers enemies' P/M.DEF in 1080 range by $1 for 12s.\n►Lowers enemies' P/M.DEF in 1080 range by $1 for 12s.\n►Lowers an enemy's P/M.DEF by $3 for 12s.\n►If Yuni has [Learning Time], boosts enemies' P/M.CRIT DMG taken in range by 8% for 12s.
+
+##UE##
+高機動万能靴・レプリカ=High Mobility All-Purpose Shoes Replica

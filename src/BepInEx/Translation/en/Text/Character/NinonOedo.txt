@@ -1,23 +1,25 @@
-oedo ninon 
+##Profile## 
+【物理】最前衛で、忍法を駆使して敵と戦うクノイチ。ユニオンバーストはクリティカル時のダメージを１．５倍にする特性を持ち、うまくかみ合った時の威力は抜群。=[Physical] A ninja girl who unleashes her special techniques upon the enemy from the vanguard. When her Union Burst is critical, it deals 1.5 times the damage of an ordinary critical hit, making it immensely powerful under the right circumstances.
 
-【物理】最前衛で、忍法を駆使して敵と戦うクノイチ。ユニオンバーストはクリティカル時のダメージを１．５倍にする特性を持ち、うまくかみ合った時の威力は抜群。=A ninja girl who unleashes her special techniques upon the enemy from VG. When her UB is critical hit, it deal 1.5x of ordinary critical hit.
-
-UB
+##UB##
 忍法・フジヤマ手裏剣=Ninpo: Fujiyama Shuriken
 目の前の敵１キャラに物理特大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals massive P.DMG to an enemy directly in front. When this skill is a critical hit, its damage is tripled instead of doubled.
-S1
-目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy directly in front and lowers its P.DEF by a small amount.
-S2
-自分の物理攻撃力を中アップさせ、さらに行動速度を大アップさせる。=Moderate boost to own P.ATK and large boost to own action speed.
-ex
-忍法・剛力ハッスルの極み=Ninpo: Ultra Superstrength
-Skills+
-UB
 
----S1
+##S1##
+忍法・チュバメ返し=Ninpo: Swoopy Swallow
+目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy directly in front and lowers its P.DEF by a small amount.
+
+##S2##
+忍法・影分身の術=Ninpo: Shadow Clone no Jutsu
+自分の物理攻撃力を中アップさせ、さらに行動速度を大アップさせる。=Moderate boost to own P.ATK and large boost to own action speed.
+
+##EX##
+忍法・剛力ハッスルの極み=Ninpo: Ultra Superstrength
+忍法・剛力ハッスルの極み+=Ninpo: Ultra Superstrength+
+
+##S1+##
+忍法・チュバメ返し+=Ninpo: Swoopy Swallow+
 目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=It does P.DMG to one character in front of you, and also reduces P.DEF. The damage when this skill is critical is tripled rather than twice.
 
-ex
-忍法・剛力ハッスルの極み+=Ninpo: Ultra Superstrength+
-UE
+##UE##
 なりきりクノイチセット=Narikiri Kunoichi Set

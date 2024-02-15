@@ -1,0 +1,20 @@
+##Profile##
+【物理】前衛で相手をからかうお調子者の年神ドラゴン。敵全体を挑発し、敵の妨害スキルにカウンターして前方の敵すべてをスタンさせるスキルで戦局を引っ掻き回す。=[Physical] A playful Toshigami dragongirl who takes the vanguard and makes fun of her opponents. She stirs up the battle with skills that provoke all enemies and counter enemy immobility skills, and stuns all enemies in front of herself.
+
+##UB##
+大怪竜イノリ！=The Great Dragon Inori!
+前方の敵すべてに物理大ダメージを与え、自分の物理攻撃力と物理クリティカルを特大アップする。=Deals massive P.DMG to all vanguard enemies, and greatly boosts own P.ATK and P.CRIT Rate.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを160アップ$"=►Deals $1 P.DMG to all vanguard enemies.\n►Boosts own P.ATK by $2 for 18s.\n►Boosts own P.CRIT Rate by 160 for 18s.
+
+##S1##
+ドラゴンズノック=Dragon's Knock
+前方の敵すべてに物理中ダメージを与え、自分の物理攻撃力を大アップする。=Deals moderate P.DMG to all vanguard enemies and greatly boosts own P.ATK.
+【挑発】敵全体を挑発する。挑発モーション中に行動不能、吹き飛ばし、引き寄せを受けた場合、目の前の敵１キャラを大きく吹き飛ばし、前方の敵すべてに物理大ダメージを与え、スタンさせる。このスキルが終了するまで自分が敵から受ける行動不能、吹き飛ばし、引き寄せを無効化する。=[Taunt] Taunts all enemies. If oneself gets afflicted by Stun, knockback or position change during Taunt, deals large P.DMG to all enemies and inflicts Stun to them. Negates Stun, knockback or position change until this skill ends.
+r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=►Provokes all enemies for 3s.\n\nIf oneself gets afflicted by Stun, knockback or position change:\n►Knockbacks an enemy by 300 units.\n►Deals $1 P.DMG to all enemies.\n►Inflicts Stun to all enemies for 1.5s.
+
+##S2##
+かかってきやがれです！=Come At Me!
+
+##EX##
+景気よくいくですよ！=It's Going To Be Great!
+景気よくいくですよ！+=It's Going To Be Great!+

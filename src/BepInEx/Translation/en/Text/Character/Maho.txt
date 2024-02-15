@@ -1,42 +1,8 @@
-Profileマホ
-ホ=Ho 
+##Profile##
 空想、ぬいぐるみ集め=Fancy, collecting stuffed animals
 マホマホ王国のプリンセス=The Princess of the Maho-Maho Kingdom
 
-【魔法】後衛で味方のサポートを担当するメルヘン少女。味方全体を強化してＴＰを回復するユニオンバーストや、ＨＰ回復、敵を暗闇にするスキルで戦況を好転させる。=[Magic] A fairy tale girl who supports her allies from the backline. She turns the tide of battle with her Union Burst that enhances the entire party and restores TP, as well as her skills that heal HP and inflict darkness on enemies.
-
-UB
-メルヘンガーデン=Märchen Garden
-味方全体の魔法攻撃力を小アップ、物理防御力を小アップさせ、さらにＴＰを小回復する。=Small boost to M.ATK and allies' P.DEF and recovers their TP by a small amount.
-r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体のＴＰを(\d+)回復$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.
-Skills
-S1
-ＨＰが１番低い味方１キャラのＨＰを中回復する。=Recovers the HP of the party member with the lowest HP by a moderate amount.
-S2
-前から２番目の敵１キャラを暗闇状態にする。=Inflicts Blind to an enemy in the 2nd position.
-r:"^敵単体を暗闇状態にする$"=►Inflicts Blind.
-ex
-メルヘンチャージ=Märchen Charge
-Skills+
-UB
-メルヘンキングダム=Märchen Kingdom
-味方全体の魔法攻撃力を特大アップ、物理防御力を中アップさせ、さらにＴＰを中回復し、継続ＴＰ回復状態を付与する。=Massive boost to M.ATK and allies' P.DEF, recovers their TP by a moderate amount, and grant a continuous TP recovery state.
-r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の物理防御力を(\d+)アップ\n味方全体のＴＰを(\d+)回復\n毎秒ＴＰを(\d+)回復する$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.\n►Recovers TP by $4/s for 10s.
-S1
-マホマホヒール=Maho Maho Heal
-マホマホヒール+=Maho Maho Heal+
-最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP regen state is given.
-
-最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP regen state is given.
-r:"^味方単体のＨＰを(\d+)回復\n味方単体の物理防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2.\n►Recovers HP by $3 every second.
-S2
-マホマホダークネス=Maho Maho Darkness
-ex
-メルヘンチャージ+=Märchen Charge+
-バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法攻撃力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.ATK at start of battle.
-r:"^自分の物理防御力を(\d+)アップ\n自分の魔法攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own M.ATK by $2.
-UE
-ピュアメルヘンワンド=Pure Märchen Wand
+【魔法】後衛で味方のサポートを担当するメルヘン少女。味方全体を強化してＴＰを回復するユニオンバーストや、ＨＰ回復、敵を暗闇にするスキルで戦況を好転させる。=[Magic] A girl right out of a fairy tale that supports the party from the rearguard. Turns the tide of battle with a Union Burst that buffs all allies and recovers TP as well as skills that recover HP and blind foes.
 
 ジェラシープリンセス=Jealousy Princess
 姫と王子の誓い=Pledge of the Princess and the Prince
@@ -50,7 +16,41 @@ UE
 お迎えの時間=Time for the Princess's Welcome
 姫と王子は馬車に揺られて=The Princess and the Prince Rocked by the Carriage
 
+##UB##
+メルヘンガーデン=Fairy-tale Garden
+味方全体の魔法攻撃力を小アップ、物理防御力を小アップさせ、さらにＴＰを小回復する。=Small boost to M.ATK and allies' P.DEF and recovers their TP by a small amount.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを(\d+)回復$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.
 
+##S1##
+マホマホヒール=Maho-Maho Healing
+ＨＰが１番低い味方１キャラのＨＰを中回復する。=Recovers the HP of the party member with the lowest HP by a moderate amount.
+
+##S2##
+マホマホダークネス=Maho-Maho Darkness
+前から２番目の敵１キャラを暗闇状態にする。=Inflicts Blind to an enemy in the 2nd position.
+r:"^敵単体を暗闇状態にする$"=►Inflicts Blind.
+
+##EX##
+メルヘンチャージ=Fairy-tale Charge
+メルヘンチャージ+=Fairy-tale Charge+
+バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法攻撃力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.ATK at start of battle.
+r:"^自分の物理防御力を(\d+)アップ自分の魔法攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own M.ATK by $2.
+
+##UB+##
+メルヘンキングダム=Fairy-tale Kingdom
+味方全体の魔法攻撃力を特大アップ、物理防御力を中アップさせ、さらにＴＰを中回復し、継続ＴＰ回復状態を付与する。=Massive boost to M.ATK and allies' P.DEF, recovers their TP by a moderate amount, and grant a continuous TP recovery state.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを(\d+)回復毎秒ＴＰを(\d+)回復する$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.\n►Recovers TP by $4/s for 10s.
+
+##S1+##
+マホマホヒール+=Maho-Maho Healing+
+最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP Regen state is given.
+最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP Regen state is given.
+r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2.\n►Recovers HP by $3/s.
+
+##UE##
+ピュアメルヘンワンド=Pure Fairy-tale Wand
+
+##Comments##
 誘拐された時は、どないしよ～思たけど、\n運命の相手かもしれへん王子はんに出会えたんやし\n人生、何があるかわからへんもんどす～\n=When I got kidnapped, I didn't know what to do~ But I met the prince, who might be my destined partner, so in life, you never know what's gonna happen, ya know~
 王子はん、もし寒いんやったら\nうちのしっぽであったまってええんよ？\n敏感な所やから恥ずかしけど、王子はんやったら…\n=Prince, if you're cold, ya can warm up with my tail, ya know? It's embarrassing to mention sensitive parts, but if it's with the prince...
 せやから、もうちょっとそばに寄ってほしいなぁ\n王子はんをもっと感じたいんどす…\nうち、ワガママやろか？\n=That's why I want you to come a little closer, ya know... I want to feel more of you, prince... Am I being selfish?

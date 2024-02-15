@@ -1,25 +1,30 @@
+##Profile##
+【魔法】後衛で、美しい旋律を紡ぎ支援する幽寂の歌姫。味方の強化と敵の弱体化の両方面での補助を行い、さらに召喚した鉱石の飛竜との波状攻撃により敵を鎮圧する。=[Magic] A gloomy diva who spins beautiful melodies and supports allies in rearguard. She assists in both strengthening allies and weakening enemies, and subdues them with wave attacks with her summoned Nephrite Wyvern.
+
 静寂を求め歌う陰気少女=A gloomy girl who sings for silence
+歌、読書、詩を書くこと=Writing songs, reading, and poetry
 
 prelude　～前奏曲～=Prelude ~Intro~
 etude　～練習曲～=Etude ~Practice song~
 
-【魔法】後衛で、美しい旋律を紡ぎ支援する幽寂の歌姫。味方の強化と敵の弱体化の両方面での補助を行い、さらに召喚した鉱石の飛竜との波状攻撃により敵を鎮圧する。=[Magic] A gloomy diva who spins beautiful melodies and supports her as a RG. She assists in both strengthening allies and weakening enemies, and subdues them with wave attacks with her summoned Nephrite Wyvern.
-
-歌、読書、詩を書くこと=Writing songs, reading, and poetry
-
+##UB##
 クリスタルララバイ=Crystal Lullaby
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies’ M.DEF by $2 for 18s.
-前方の敵すべてに魔法中ダメージを与え、さらに魔法防御力を中ダウンさせる。=Deals moderate M.DMG to all enemies in front, and moderately decreases their M.DEF.
+前方の敵すべてに魔法中ダメージを与え、さらに魔法防御力を中ダウンさせる。=Deals moderate M.DMG to all enemies, and moderately lowers their M.DEF.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' M.DEF by $2 for 18s.
 
-r:"^味方全体の魔法攻撃力を(\d+)アップ\nネフライトワイバーンを召喚する$"=Cast time: 0.733s\n►Boosts allies' M.ATK by $1 for 180s.\n►Summons a Nephrite Wyvern at 125 in front of self.
-【召喚】味方全体の魔法攻撃力を大アップさせる。ネフライトワイバーンが味方にいない場合、さらにネフライトワイバーンを召喚する。=[Summon] Moderate boost to allies' M.ATK. If Nephrite Wyvern is not an ally, summon Nephrite Wyvern.
-
-r:"^敵全体の魔法防御力を(\d+)ダウン\n敵全体のクリティカルを受けた際のダメージを2％アップ$"=Cast time: 0.733s\n►Lowers all enemies` M.DEF by $1 for 12s.\n►Inflict M. Crit DMG Debuff to all enemies by 2% for 180s.
-
-敵全体の魔法防御力を小ダウンさせ、さらにクリティカルを受けた際のダメージを小アップさせる。=Lowers M.DEF of all enemies by a small amount, also slightly boost the damage taken when receiving a critical hit.
-
-スケルトンブレス=Skeleton Breath
-ウィスパーボイス+=Whisper Voice+
-ウィスパーボイス=Whisper Voice
+##S1##
 ミスティックハーモニー=Mystic Harmony
+【召喚】味方全体の魔法攻撃力を大アップさせる。ネフライトワイバーンが味方にいない場合、さらにネフライトワイバーンを召喚する。=[Summon] Greatly boosts all allies' M.ATK. If Nephrite Wyvern is not in battle, summons Nephrite Wyvern.
+r:"^味方全体の魔法攻撃力を(\d+)アップネフライトワイバーンを召喚する$"=Cast time: 0.733s\n►Boosts all allies' M.ATK by $1 for 180s.\n►Summons a Nephrite Wyvern at 125 in front of self.
+
+##S2##
 ティアーズソング=Tears Song
+敵全体の魔法防御力を小ダウンさせ、さらにクリティカルを受けた際のダメージを小アップさせる。=Lowers all enemies' M.DEF by a small amount, also slightly boosts their M.CRIT DMG taken.
+r:"^敵全体の魔法防御力を(\d+)ダウン敵全体のクリティカルを受けた際のダメージを2％アップ$"=Cast time: 0.733s\n►Lowers all enemies' M.DEF by $1 for 12s.\n►Boosts all enemies' M.CRIT DMG taken by 2% for 180s.
+
+##SP1##
+スケルトンブレス=Skeleton Breath
+
+##EX##
+ウィスパーボイス=Whisper Voice
+ウィスパーボイス+=Whisper Voice+

@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛で、業火を従え悪を討つ真夏の騎士団長。敵単体にダメージを与えつつ、攻撃力を高めるユニオンバーストや、火傷を与えるスキルを操り敵を焼き尽くす。=[Physical] Captain of the Midsummer Knights who is in the vanguard and defeats evil with hellfire. She uses Union Burst, which deals damage to a single enemy, and increases attack power, and burns the enemy with skills that inflict Burn.
+
+##UB##
+サマーインフェルノ=Summer Inferno
+目の前の敵１キャラに物理特大ダメージを与え、さらに自分の物理攻撃力と行動速度を大アップさせる。=Deals massive P.DMG to an enemy in front, and greatly boosts own P.ATK and action speed (160%) for 18s.
+## Same as Tomo UB
+
+##S1##
+ヒートスパイク=Heat Spike
+目の前の敵１キャラに物理中ダメージを与え、さらに火傷状態にする。火傷のダメージは、このキャラの物理攻撃力に応じて増加する。=Deals moderate P.DMG to an enemy in front, and also inflicts Burn. Burn damage increases according to P.ATK.
+r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージを与える火傷状態にする$"=►Deals $1 P.DMG to an enemy.\n►Inflicts Burn to an enemy that deals $2/s for 7s.
+
+##S2##
+サンライトブレイク=Sunlight Break
+
+##EX##
+サマージャスティス=Summer Justice
+サマージャスティス+=Summer Justice+
+
+##S1+##
+ヒートスパイク+=Heat Spike+
+自分の物理攻撃力を小アップさせ、目の前の敵１キャラに物理大ダメージを与え、さらに火傷状態にする。火傷のダメージは、このキャラの物理攻撃力に応じて増加する。=Slightly boosts own P.ATK, deals large P.DMG to an enemy in front, and also inflicts Burn. Burn damage increases according to P.ATK.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ(\d+)ダメージを与える火傷状態にする$"=►Boosts own P.ATK by $1 for 180s.\n►Deals $2 P.DMG to an enemy.\n►Inflicts Burn to an enemy that deals $3/s for 7s.
+
+##UE##
+サマーシュバリエソード=Summer Chevalier Sword

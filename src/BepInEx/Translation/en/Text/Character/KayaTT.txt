@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛で味方を勝利にナビする喧嘩屋ドラゴン族。ユニオンバーストで自身の攻撃速度を極大アップさせ、物理攻撃力アップスキルのシナジーで拳の雨を降らせる。=[Physical] A dragongirl brawler who guides her allies to victory in the vanguard. Maximizes own attack speed with Union Burst, and uses the synergy of physical attack power up skills to rain down fists.
+
+##UB##
+ドラゴンズエンドバースト=Dragon's End Burst
+目の前の敵１キャラに物理特大ダメージを与え、さらに自分の行動速度を極大アップさせ、ＴＰ上昇を小アップさせる。=Deals massive P.DMG to an enemy in front, massively boosts own action speed, and boosts TP Boosts by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ自分の行動速度アップ自分のＴＰ上昇を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own action speed to 500% for 18s.\n►Boosts own TP Boost for 18s.
+
+##S1##
+ドラゴンズエッジ=Dragon's Edge
+
+##S2##
+アクセルリアクター=Accel Reactor
+自分の物理攻撃力を特大アップさせる。さらに、自分が行動速度アップ状態の場合、ＴＰを中回復し、行動速度アップ状態でない場合、行動速度を特大アップさせる。=Massively boosts own P.ATK. Additionally, if Kaya has action speed boost, she will recover own TP by a moderate amount, and if Kaya has no action speed boost, she will boost own action speed by a large amount.
+r:"^自分の物理攻撃力を(\d+)アップ行動速度アップ状態の場合、自分のＴＰを(\d+)回復行動速度アップ状態でない場合、自分の行動速度アップ$"=►Boosts own P.ATK by $1 for 12s.\n►If own action speed > 100%, recovers own TP by $2.\n►If own action speed ≤ 100%, boosts own action speed to 250% for 12s.
+
+##EX##
+フルバーストドラゴン=Full Burst Dragon
+フルバーストドラゴン+=Full Burst Dragon+
+
+##S1+##
+ドラゴンズエッジ+=Dragon's Edge+
+目の前の敵１キャラに物理中ダメージを与える。さらに、自分が行動速度アップ状態の場合、目の前の敵１キャラに物理大ダメージを与え、自分の物理攻撃力を大アップさせる。=Deals moderate P.DMG to an enemy in front. Additionally, if Kaya has action speed boost, she will deal large P.DMG to an enemy in front and greatly boost own P.ATK.
+r:"^敵単体に(\d+)の物理ダメージ行動速度アップ状態の場合、敵単体に(\d+)の物理ダメージ行動速度アップ状態の場合、自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n\nIf own action speed > 100%:\n►Deals $2 P.DMG to an enemy.\n►Boosts own P.ATK by $3 for 50s.
+
+##UE##
+タイムラーベフィスト=Time Lab Fist

@@ -1,0 +1,42 @@
+##Profile##
+スズメ（サマー）=Summer Suzume 
+お嬢さまのためにがんばるドジっ娘メイド=A clumsy maid who works hard for her mistress
+
+【魔法】後衛の防衛能力に秀でた、夏のドジっ娘メイド。味方全体に防御力アップと継続ＨＰ回復をかけ、さらに壁になるゴーレムを呼んで、戦線を支える。=[Magical] A clumsy maid who offers support from the rearguard. She boosts allies' defenses and provides HP Regen, while also summoning golems to protect them.
+
+##UB##
+トロピカルバケーション=Tropical Vacation
+味方全体の物理防御力と魔法防御力を小アップさせ、さらに継続ＨＰ回復状態を付与する。=Small boost to allies' P.DEF and M.DEF. Grants HP Regen to all allies.
+r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Boosts allies' P.DEF by $1.\n►Boosts allies' M.DEF by $1.\n►Recovers HP by $1/s.
+
+##S1##
+ぷちゴーレムサモン=Summon Mini-Golem
+【召喚】自分の前に、目の前の敵１キャラを攻撃するぷちゴーレムを召喚する。=[Summon] Summons a mini-golem in front of oneself, which attacks an enemy directly in front.
+r:"^ぷちゴーレムを召喚する$"=►Summons Mini-Golem.
+
+##S2##
+ソーダエール=Soda Support
+一番前の味方を中心とした範囲内の味方すべての魔法防御力を中アップさせる。=Moderate boost to allies' M.DEF in a radius around the foremost ally.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ$"=►Boosts allies' M.DEF in range by $1.
+
+##EX##
+トロピカルメイド=Tropical Maid
+バトル開始時に自分の魔法防御力を中アップさせる。=Moderate boost to own M.DEF at start of battle.
+r:"^自分の魔法防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.
+トロピカルメイド+=Tropical Maid+
+バトル開始時に自分の魔法防御力を中アップさせ、さらに物理防御力を小アップさせる。=Moderate boost to own M.DEF and small boost to own P.DEF at start of battle.
+r:"^自分の魔法防御力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.\n►Boosts own P.DEF by $1.
+
+##S1+##
+ぷちゴーレムサモン+=Summon Mini-Golem+
+【召喚】自分の前に、目の前の敵１キャラを攻撃するぷちゴーレムを召喚し、さらに一番前の味方の周囲に物理防御力と魔法防御力を大アップさせるフィールドを展開する。=[Summon] Summons a mini-golem in front of oneself, which attacks an enemy directly in front. Deploys a field around the frontmost ally that grants a large boost to P.DEF and M.DEF.
+r:"^ぷちゴーレムを召喚する物理防御力を(\d+)アップさせるフィールドを展開する魔法防御力を(\d+)アップさせるフィールドを展開する$"=►Summons Mini-Golem.\n►Deploys a field that boosts allies' P.DEF by $1.\n►Deploys a field that boosts allies' M.DEF by $2.
+
+##S2+##
+ソーダエール+=Soda Support+
+一番前の味方を中心とした範囲内の味方すべての魔法防御力と物理攻撃力と魔法攻撃力を特大アップさせ、ＨＰを中回復して魔法吸収バリアを展開する。=Massive boost to M.DEF, P.ATK and M.ATK of allies in a radius around the foremost ally. Restores their HP and grants M.DMG barrier to them.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方のＨＰを(\d+)回復(\d+)ダメージ分の魔法吸収バリアを展開する$"=►Boosts allies' M.DEF in range by $1.\n►Boosts allies' P.ATK in range by $2.\n►Boosts allies' M.ATK in range by $3.\n►Recovers all allies HP by $4.\n►Deploys Barrier over allies in range that absorbs $5 M.DMG.
+
+##UE##
+陽杖シャインサンデー=Shining Sunday
+思い出の麦わら帽子=Straw Hat of Memories

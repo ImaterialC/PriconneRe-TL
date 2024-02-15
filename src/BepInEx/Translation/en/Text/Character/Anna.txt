@@ -1,38 +1,8 @@
+##Profile##
 小説執筆=Writing Novels
 
-Bio
 【魔法】中衛から圧倒的な魔力で攻撃する、疾風の冥姫。ユニオンバーストで敵全体に大ダメージを与えるが、高すぎる魔力の為、自分自身にも相応のリスクが生じる。=[Magic] The Hecate of the Gale attacks from the midlines with overwhelming magical power. Her UB inflicts massive damage to the entire enemy team, but her excessive magical power is a great risk to even herself.
 
-Skills
-羅刹涅槃・極光終天冥壊破=Raksha Nirvana: Apocalypse Dawn
-覇叉冥滅獄炎呪=Hellfire of the Dark Conqueror
-覇叉冥滅獄炎呪+=Hellfire of the Dark Conqueror+
-UB (6 star)
-羅刹涅槃・《覇極》万象無尽冥壊破=Raksha Nirvana: Parallel End-Worlds
-r:"^自分の魔法攻撃力を(\d+)アップ\n敵全体に(\d+)の魔法ダメージ\n自分の物理防御力を初期値の100%ダウン\n自分の魔法防御力を初期値の100%ダウン$"=►Boosts own M.ATK by $1 for 8s.\n►Deals $2 M.DMG to all enemies.\n►Lowers own P.DEF to 0 for 99s. \n►Lowers own M.DEF to 0 for 99s.\n
-
-
-自分の魔法攻撃力を短時間特大アップさせ、敵全体に魔法特大ダメージを与えるが、使用後アンナの物理防御力と魔法防御力が特大ダウンする。=Temporarily greatly increases Anna's M.ATK, dealing massive M.DMG to all enemies, but after use, Anna's P.DEF and M.DEF will greatly decrease.
-
-UB (Non-6*)
-敵全体に魔法中ダメージを与えるが、使用後アンナの物理防御力と魔法防御力が特大ダウンする。=Deals moderate M.DMG to all enemies. Lowers own P.DEF and M.DEF by a massive amount after use.
-and M.DEF by a massive amount after use.
-r:"^敵全体に(\d+)の魔法ダメージ\n自分の物理防御力を0にする\n自分の魔法防御力を0にする$"=►Deals $1 M.DMG to all enemies.\n►Lowers own P.DEF to 0 for 99s. \n►Lowers own M.DEF to 0 for 99s.\n►Stun to self for 2s.
-Skill 1 (with UE) (Need UE)
-目の前の敵１キャラに魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and lowers its M.DEF by small amount.
-Skill 1 (no UE) 
-羅刹涅槃・無式+=Raksha Nirvana: Infinity+
-羅刹涅槃・無式=Raksha Nirvana: Infinity
-
-目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
-
-Skill 2
-冥空天昇=Void Accession
-【自爆】アンナのＨＰが最大ＨＰの１０％以下になった時に発動し、周囲の敵すべてに魔法大ダメージを与えるが、自身は戦闘不能になる。=[Self Destruct] Activates when HP falls to 10% or below. Deals large M.DMG to all enemies in range but knocks herself out.
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies in range.
-
-Story
 前世を信じる中二病患者、「疾風の冥姫」=A delusional girl who believes she was a hero named "Hecate of the Gale" in a previous life
 
 邂逅、閃光のシグルド！=Sigurd! We Meet Again!
@@ -44,5 +14,33 @@ Story
 「組織」との対決=Rise of the Syndicate
 前世での関係=Bygone Relations
 
-UE
-螺旋霊撃疾風飛剣=Vortex Thorn
+##UB##
+羅刹涅槃・極光終天冥壊破=Raksha Nirvana: Apocalypse Dawn
+敵全体に魔法中ダメージを与えるが、使用後アンナの物理防御力と魔法防御力が特大ダウンする。=Deals moderate M.DMG to all enemies. Lowers own P.DEF and M.DEF by a massive amount after use.
+and M.DEF by a massive amount after use.
+r:"^敵全体に(\d+)の魔法ダメージ自分の物理防御力を0にする自分の魔法防御力を0にする$"=►Deals $1 M.DMG to all enemies.\n►Lowers own P.DEF to 0 for 99s.\n►Lowers own M.DEF to 0 for 99s.\n►Stun to self for 2s.
+
+##S1##
+羅刹涅槃・無式=Raksha Nirvana: Infinity
+目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
+
+##S2##
+冥空天昇=Void Accession
+【自爆】アンナのＨＰが最大ＨＰの１０％以下になった時に発動し、周囲の敵すべてに魔法大ダメージを与えるが、自身は戦闘不能になる。=[Self Destruct] Activates when HP falls to 10% or below. Deals large M.DMG to all enemies in range but knocks herself out.
+r:"^範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies in range.
+
+##EX##
+覇叉冥滅獄炎呪=Hellfire of the Dark Conqueror
+覇叉冥滅獄炎呪+=Hellfire of the Dark Conqueror+
+
+##UB+##
+羅刹涅槃・《覇極》万象無尽冥壊破=Raksha Nirvana: Parallel End-Worlds
+自分の魔法攻撃力を短時間特大アップさせ、敵全体に魔法特大ダメージを与えるが、使用後アンナの物理防御力と魔法防御力が特大ダウンする。=Temporarily greatly increases Anna's M.ATK, dealing massive M.DMG to all enemies, but after use, Anna's P.DEF and M.DEF will greatly decrease.
+r:"^自分の魔法攻撃力を(\d+)アップ敵全体に(\d+)の魔法ダメージ自分の物理防御力を初期値の100%ダウン自分の魔法防御力を初期値の100%ダウン$"=►Boosts own M.ATK by $1 for 8s.\n►Deals $2 M.DMG to all enemies.\n►Lowers own P.DEF to 0 for 99s. \n►Lowers own M.DEF to 0 for 99s.\n
+
+##S1+##
+羅刹涅槃・無式+=Raksha Nirvana: Infinity+
+目の前の敵１キャラに魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and lowers its M.DEF by small amount.
+
+##UE##
+螺旋霊撃疾風飛剣=Spiral Gale Soaring Blades

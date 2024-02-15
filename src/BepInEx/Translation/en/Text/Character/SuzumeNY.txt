@@ -1,0 +1,25 @@
+##Profile##
+【魔法】後衛で祈りによるサポートを行うドジっ娘巫女。スキルの魔法無効バリアで耐久力を高め、ユニオンバーストでＨＰ回復と行動速度アップで戦況を整える。=[Magic] A clumsy maid-turned-shrine-maiden who provides support through prayers from the rearguard. Not only can she bestow protection with a barrier that nullifies magic damage, her Union Burst heals HP while boosting her allies' speed.
+
+##UB##
+祝福ノ巫女神楽=Ceremony of Blessings
+味方全体のＨＰを中回復し、さらに行動速度を大アップさせる。=Recovers all allies' HP by a moderate amount and boosts their action speed by a large amount.
+r:"^味方全体のＨＰを(\d+)回復味方全体の行動速度アップ$"=►Recovers all allies' HP by $1.\n►Boosts all allies' action speed to 160% for 18s.
+
+##S1##
+賀春旋風=Fresh New Breeze
+最も遠くの敵に魔法小ダメージを与え、さらに大きく吹き飛ばす。=Deals small M.DMG to the farthest enemy and knocks them back a large distance.
+
+##S2##
+加護ノ破魔矢=Warding Arrow
+
+##EX##
+新年ノ加護=New Year's Blessings
+新年ノ加護+=New Year's Blessings+
+
+##S1+##
+賀春旋風+=Fresh New Breeze+
+最も遠くの敵を中心とした範囲内の敵すべてに魔法小ダメージを与え、さらに大きく吹き飛ばしてスタンさせる。ダメージを与えた敵の数に応じて、スタンの効果時間が増加する。=Deals small M.DMG to the farthest enemy, knocks them back a large distance and inflicts Stun. Duration of Stun increases depending on the number of enemies damaged.
+
+##UE##
+神殿巫女の鈴飾り=Shrine Maiden's Bell Decoration

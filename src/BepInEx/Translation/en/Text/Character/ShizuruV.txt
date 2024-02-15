@@ -1,28 +1,35 @@
-Skillsシズル（バレンタイン）
-【物理】中衛で皆を助けるパティシエールのお姉ちゃん。複数のパラメータが同時に上昇するフィールドを展開し、さらに効果時間中はスキル効果が大幅に強化される。=[Physics] A Onee-chan turned patissier who supports her allies from the midguard. She deploys a field that boosts various stats, and her own skills become far more powerful as long as it remains active.
+##Profile##
+【物理】中衛で皆を助けるパティシエールのお姉ちゃん。複数のパラメータが同時に上昇するフィールドを展開し、さらに効果時間中はスキル効果が大幅に強化される。=[Physical] A big sister turned patissier who supports her allies from the midguard. She deploys a field that boosts various stats, and her own skills become far more powerful as long as it remains active.
 
-UB
+##UB##
 スウィートサンクチュアリ=Sweet Sanctuary
-自分の周囲に、物理攻撃力を中アップ、物理クリティカルを大アップ、ＴＰ上昇を小アップさせるフィールドを展開する。=Deploys a field around oneself that boosts P.ATK, P.Crit rate, and TP Boost.
-r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する\n物理クリティカルを100アップさせるフィールドを展開する\nＴＰ上昇を5アップさせるフィールドを展開する$"=►Deploys a field of radius 400 range for 16s that:\n►boosts P.ATK by $1.\n►boosts P.Crit rate by 100.\nDeploys a field that boosts TP boost by 5.
-S1
+自分の周囲に、物理攻撃力を中アップ、物理クリティカルを大アップ、ＴＰ上昇を小アップさせるフィールドを展開する。=Deploys a field around oneself that boosts P.ATK, P.CRIT Rate, and TP Boost.
+r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する物理クリティカルを100アップさせるフィールドを展開するＴＰ上昇を5アップさせるフィールドを展開する$"=►Deploys a field of 400 range for 16s that:\n►Boosts allies' P.ATK by $1.\n►Boosts allies' P.CRIT Rate by 100.\n►Boosts allies' TP Boost by 5.
+
+##S1##
 キュアネスサイン=Curing Sign
-キュアネスサイン+=Curing Sign+
-自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復、ＴＰを小回復する。【フィールド展開中】味方全体のＨＰを中回復、ＴＰを小回復する。=Recovers the HP and TP of the nearby ally with the lowest HP by a small amount. [With Active Field] Recovers allies' HP and TP by a small amount.
-r:"^対象のＨＰを(\d+)回復\n対象のＴＰを(\d+)回復$"=Cast time: 1.7325s\n►Recovers targets' HP by $1.\n►Recovers targets' TP by $2.
-S2
+自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復、ＴＰを小回復する。【フィールド展開中】味方全体のＨＰを中回復、ＴＰを小回復する。=Recovers the HP and TP of the nearby ally with the lowest HP by a small amount. [With Sweet Sanctuary] Recovers allies' HP and TP by a small amount.
+r:"^対象のＨＰを(\d+)回復対象のＴＰを(\d+)回復$"=Cast time: 1.7325s\nIf [Sweet Sanctuary] is not active:\n►Recovers an ally's HP by $1.\n►Recovers an ally's TP by $2.\n\nIf [Sweet Sanctuary] is active:\n►Recovers allies' HP by $1.\n►Recovers allies' TP by $2.
+
+##S2##
 セグメントハートショット=Heartful Shot
-目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。【フィールド展開中】ダメージと防御力のダウン値が上昇する。=Deals moderate P.DMG to an enemy directly in front and lowers their P.DEF by a small amount. [With Active Field] Damage dealt and defense lowered both increase.
-r:"^敵単体に(\d+)の物理ダメージ\nフィールド展開中、敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\nフィールド展開中、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.72s\nIf field is inactive:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 12s.\n\nIf field is active:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4 for 12s.
-ex
-お姉ちゃんピュアハート=Purehearted Onee-chan
-Skills+
-UB
-S1
-自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復、ＴＰを小回復する。【フィールド展開中】味方全体のＨＰ中回復、ＴＰ小回復、物理攻撃力を大アップする。=Recovers the HP and TP of the nearby ally with the lowest HP by a small amount. [With Active Field] Recovers allies' HP and TP by a small amount and boosts P.ATK by large amount.
-r:"^対象のＨＰを(\d+)回復\n対象のＴＰを(\d+)回復\n対象の味方の物理攻撃力を(\d+)アップ$"=Cast time: 1.7325s\n►Recovers targets' HP by $1.\n►Recovers targets' TP by $2.\n►Boosts P-type allies’ P.ATK by $3.
-S2
-ex
-お姉ちゃんピュアハート+=Purehearted Onee-chan+
-UE
+目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。【フィールド展開中】ダメージと防御力のダウン値が上昇する。=Deals moderate P.DMG to an enemy directly in front and lowers their P.DEF by a small amount. [With Sweet Sanctuary] Deals more P.DMG, lowers more P.DEF.
+r:"^敵単体に(\d+)の物理ダメージフィールド展開中、敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンフィールド展開中、敵単体の物理防御力を(\d+)ダウン$"=Cast time: 0.72s\nIf [Sweet Sanctuary] is not active:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 12s.\n\nIf [Sweet Sanctuary] is active:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4 for 12s.
+
+##EX##
+お姉ちゃんピュアハート=Purehearted Big Sis
+お姉ちゃんピュアハート+=Purehearted Big Sis+
+
+##S1+##
+キュアネスサイン+=Curing Sign+
+自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復、ＴＰを小回復する。【フィールド展開中】味方全体のＨＰ中回復、ＴＰ小回復、物理攻撃力を大アップする。=Recovers the HP and TP of the nearby ally with the lowest HP by a small amount. [With Sweet Sanctuary] Recovers allies' HP and TP by a small amount and boosts P.ATK by large amount.
+r:"^対象のＨＰを(\d+)回復対象のＴＰを(\d+)回復対象の味方の物理攻撃力を(\d+)アップ$"=Cast time: 1.7325s\nIf [Sweet Sanctuary] is not active:\n►Recovers an ally's HP by $1.\n►Recovers an ally's TP by $2.\n\nIf [Sweet Sanctuary] is active:\n►Recovers allies' HP by $1.\n►Recovers allies' TP by $2.\n►Boosts allies' P.ATK by $3.
+
+##S2+##
+セグメントハートショット+=Heartful Shot+
+目の前の敵１キャラに物理大ダメージを与え、さらに物理防御力を小ダウンさせる。【フィールド展開中】ダメージと防御力のダウン値が上昇する。さらに、味方全体の物理攻撃力を特大アップさせ、継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。=Deals moderate P.DMG to an enemy, slightly lowers P.DEF. [With Sweet Sanctuary] Deals large P.DMG, greatly lowers P.DEF. Also, massively boosts allies' P.ATK, grants a small HP and TP Regen to allies. All skills effect duration is 18s.
+r:"^敵単体に(\d+)の物理ダメージフィールド展開中、敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンフィールド展開中、敵単体の物理防御力を(\d+)ダウンフィールド展開中、味方全体の物理攻撃力を(\d+)アップフィールド展開中、毎秒ＨＰを(\d+)回復フィールド展開中、毎秒ＴＰを(\d+)回復$"=If [Sweet Sanctuary] is not active:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3.\n\nIf [Sweet Sanctuary] is active:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4.\n►Boosts allies' P.ATK by $5.\n►Recovers allies' HP by $6/s.\n►Recovers allies' TP by $7/s.
+
+##UE##
 デコレーションハート=Decoration Heart
+愛のおねえちゃんエプロン=Lovely Big Sis's Apron

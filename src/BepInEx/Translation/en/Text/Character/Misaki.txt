@@ -1,4 +1,4 @@
-Profile
+##Profile##
 ちょっとおませな恋に恋する女の子=A mischevious child who longs for adulthood
 【魔法】後衛から、範囲攻撃を行う、レディ・ウィッチ。複数回の範囲攻撃を放つスキルや、目の前の敵全てを攻撃するユニオンバーストを持ち、範囲殲滅に特化する。=[Magic] A witch that launches area attacks from the rearguard. Specializes in mass destruction using multi-hit area effect skills along with a Union Burst that strikes all foes before her.
 
@@ -17,33 +17,33 @@ Profile
 大人なレディ、ミサキ=Adult Lady, Misaki
 
 ファッション誌鑑賞、コスメ集め=Fashion magazine appreciation, collecting cosmetics
-Skills
-UB
+
+##UB##
 デストロイアイ=All-Destroying Eye
-S1
+
+##S1##
 ダークフォトン=Dark Photon
-ダークフォトン+=Dark Photon+
 目の前の敵１キャラに魔法小ダメージを与え、さらに行動速度を小ダウンさせる。=Deals small M.DMG to an enemy directly in front and reduces their action speed by a small amount.
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の行動速度を一定時間低下させる$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's action speed for a set period of time.
-S2
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の行動速度を一定時間低下させる$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's action speed for a set period of time.
+
+##S2##
 スローイングアイ=Eyeball Volley
 範囲内の敵すべてに魔法小ダメージを３回与える。範囲の中心になる敵はミサキの前方から近い順に選ばれる。=Deals small M.DMG to all enemies in a radius around the closest enemy 3 times.
-r:"^範囲内の敵にそれぞれ(\d+)の魔法ダメージ$"=Deals $1 M.DMG per hit to enemies in range.
-ex
-レディのたしなみ=True Lady's Etiquette
+r:"^範囲内の敵にそれぞれ(\d+)の魔法ダメージ$"=►Deals $1 M.DMG per hit to enemies in range.
 
-Skills+
-UB
+##EX##
+レディのたしなみ=True Lady's Etiquette
+レディのたしなみ+=True Lady's Etiquette+
+
+##UB+##
 ヴィーナス・ドゥームアイ=Venus Doom Eye
 敵全体に魔法中ダメージを与え、呪詛状態にする。呪詛状態だった場合は代わりに呪い状態にする。呪いか呪詛状態だった場合、ダメージ量が増加し誘惑状態にする。呪詛による継続ダメージは毎秒ごとに増加する。=Deals moderate M.DMG to all enemies and curse them. If it is in a curse or hexed state, the amount of damage will increase and it will be in a charmed state. The continuous damage caused by the hexed boost every second.
+r:"^呪いまたは呪詛状態ではない敵に(\d+)の魔法ダメージ呪いまたは呪詛状態の敵に(\d+)の魔法ダメージ敵が呪いまたは呪詛状態の場合、誘惑する毎秒ダメージが初期値(\d+)の30％ずつアップするダメージを与える呪詛状態にする(\d+)ダメージを与える呪い状態にする$"=If the enemies are not cursed/hexed:\n►Deals $1 M.DMG to enemies.\n►Inflicts Curse $3 M.DMG/s.\n\nIf the enemies are cursed/hexed:\n►Deals $2 M.DMG to enemies.\n►Inflicts Hex $4+30% M.DMG/s.\n►Inflicts Charm for 5s.
 
-r:"^呪いまたは呪詛状態ではない敵に(\d+)の魔法ダメージ\n呪いまたは呪詛状態の敵に(\d+)の魔法ダメージ\n敵が呪いまたは呪詛状態の場合、誘惑する\n毎秒ダメージが初期値(\d+)の30％ずつアップするダメージを与える呪詛状態にする\n(\d+)ダメージを与える呪い状態にする$"=►Deals $1 M.DMG to enemies.\n►Deals $2 M.DMG instead if enemies in a cursed/hexed state.\n►Inflict curse $3 M.DMG/s.\nIf the Enemy is cursed/hexed, Inflict charm for 5s.\n►If the enemy is cursed/hexed, inflict hex $4+30% M.DMG/s.
-S1
+##S1+##
+ダークフォトン+=Dark Photon+
 最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに行動速度を大ダウンさせる。=Deals moderate M.DMG to all enemies in range and reduces their action speed by a large amount.
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 M.DMG to enemies in range.\n►Reduces action speed of enemies to 65% within 200 range for 10s.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 M.DMG to enemies in range.\n►Reduces enemies' action speed to 65% in 200 range for 10s.
 
-S2
-ex
-レディのたしなみ+=True Lady's Etiquette+
-UE
+##UE##
 魔眼杖デモネス・アイ=Eye of the Demoness

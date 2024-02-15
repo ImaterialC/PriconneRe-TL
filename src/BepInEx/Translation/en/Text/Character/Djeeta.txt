@@ -1,8 +1,8 @@
-Profile
+##Profile##
 冒険、おしゃべり=Adventure, chatting
 空への冒険を夢見る騎空士の少女=A skyfarer who dreams of adventure in the skies
 
-【物理】前衛で、先手必勝の大技を繰り出す騎空士。スキルによるＴＰ回復は、ユニオンバーストの発動を早めバトルの序盤から敵前衛に大ダメージを与える。=[Physical] A skyfarer who can swiftly deal a crucial blow from the frontlines. Her TP recovery skills allow her to activate her Union Burst very quickly, inflicting heavy damage on the enemy frontlines at the start of the battle.
+【物理】前衛で、先手必勝の大技を繰り出す騎空士。スキルによるＴＰ回復は、ユニオンバーストの発動を早めバトルの序盤から敵前衛に大ダメージを与える。=[Physical] A skyfarer who strikes swiftly with big attacks from the vanguard. TP recovery skills allow her to use Union Bursts quickly and hit foes in front for big damage early in combat.
 
 蒼い空と大切な仲間=Blue Sky and Precious Friends
 離れても、通じる心=Even Apart, Our Hearts Are One
@@ -18,36 +18,44 @@ Profile
 黄昏の空に思いを馳せて=Memory of the Twilight Sky
 騎空士見習いの少女=The Fledgling Skyfarer
 
-Skills
-UB
+##UB##
 テンペストブレード=Tempest Blade
-S1
+
+##S1##
 ワイドブレード=Wide Blade
-ワイドブレード+=Wide Blade+
 目の前の敵１キャラに物理中ダメージを与える。=Deals moderate P.DMG to an enemy directly in front.
-S2
+
+##S2##
 ウェポンバースト=Weapon Burst
 自分のＴＰを中回復する。=Recovers own TP by a moderate amount.
 r:"^自分のＴＰを(\d+)回復$"=►Recovers own TP by $1.
-ex
+
+##EX##
 竜巻の攻刃=Tornado Blade
+竜巻の攻刃+=Tornado Blade+
 
-Skills+
-UB
+##S1+##
+ワイドブレード+=Wide Blade+
+目の前の敵１キャラに物理大ダメージを与える。さらに、自分のＴＰを中回復し、自分以外の味方全てのＴＰを小回復させる。=Deals large P.DMG to an enemy directly in front. Recovers own TP by a moderate amount, and all other allies' TP by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを200回復自分以外の味方全員のＴＰを100回復$"=Cast Time: 0.34s\n►Deals $1 P.DMG to an enemy.\n►Recovers own TP by 200.\n►Recovers allies' TP by 100.
+
+##UE##
+アシュケロン=Aschallon
+
+##UB-Kai##
 星河一天=Celestial Torrent
-r:"^敵単体に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2.
-
 目の前の敵１キャラに物理特大ダメージを与え、さらに自分の物理攻撃力を特大アップさせる。=Deals massive P.DMG to an enemy directly in front, and massive boost to own physical attack.
-S1
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2.
+
+##S1-Kai##
 アウレア=Aurea
 目の前の敵１キャラに物理特大ダメージを与える。さらに、自分のＴＰを中回復し、自分以外の味方全てのＴＰを小回復させる。=Deals large P.DMG to an enemy directly in front. Recovers own TP by a moderate amount, and all other allies' TP by a small amount.
-r:"^敵単体に(\d+)の物理ダメージ\n自分のＴＰを200回復\n自分以外の味方全員のＴＰを100回復$"=Cast Time: 0.34s\n►Deals $1 P.DMG to an enemy.\n►Recovers own TP by 200.\n►Recovers allies' TP by 100.
-S2
+r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを200回復自分以外の味方全員のＴＰを100回復$"=Cast Time: 0.34s\n►Deals $1 P.DMG to an enemy.\n►Recovers own TP by 200.\n►Recovers allies' TP by 100.
+
+##S2-Kai##
 トリプルアタック=Triple Attack
 目の前の敵１キャラに物理大ダメージを与え、さらに自分のＴＰを大回復する。=Deals large P.DMG to an enemy directly in front, and recovers own TP by a large amount.
-r:"^敵単体に(\d+)の物理ダメージ\n自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers own TP by $2.
-ex
-竜巻の攻刃+=Tornado Blade+
+r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers own TP by $2.
+
+##EX-Kai##
 剣聖の賦性=Sword Saint
-UE
-アシュケロン=Aschallon

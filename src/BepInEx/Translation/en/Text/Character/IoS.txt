@@ -1,0 +1,29 @@
+##Profile##
+【魔法】後衛で、敵の体力を奪い取る、夏の夜の先生。ダメージを与えつつ味方を回復するスキルを複数持ち、攻守どちらの側でも高い能力を発揮する。=[Magic] A summertime teacher who steals away foes' health from the rearguard. Her posession of multiple skills that both deal damage and heal allies makes her shine on both offensive and defensive fronts.
+
+##UB##
+タイフーン・ラブドリーム=Love Dream Typhoon
+敵全体に魔法中ダメージを与え、さらに味方全体のＨＰを中回復させる。=Deals moderate M.DMG to all enemies and recovers all allies' HP by a moderate amount.
+r:"^敵全体に(\d+)の魔法ダメージ味方全体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to all enemies.\n►Recovers allies' HP by $2.
+
+##S1##
+ラブスティール=Love Bandit
+前方範囲内の敵すべてに魔法小ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復する。範囲内の敵の数に応じて回復量が増加する。=Deals small M.DMG to all enemies in range, and recovers the HP of the ally with the lowest HP by a small amount. HP recovery increases based on the number of enemies in range.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ味方単体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to all enemies.\n►Recovers an ally's HP by $2.
+
+##S2##
+ラブスプラッシュ=Love Splash
+前方範囲内の敵すべてに魔法小ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals small M.DMG to all enemies in range and lowers their M.DEF by a small amount.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵すべての魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies in range.\n►Lowers all enemies' M.DEF in range by $2.
+
+##EX##
+ラブサマーティーチング=Lovely Summer Lesson
+ラブサマーティーチング+=Lovely Summer Lesson+
+
+##S1+##
+ラブスティール+=Love Bandit+
+前方範囲内の敵すべてに魔法中ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復する。範囲内の敵の数に応じて回復量が増加する。=Deals moderate M.DMG to all enemies in range, and recovers the HP of the ally with the lowest HP by a small amount. HP recovery increases based on the number of enemies in range.
+r:"^敵単体に(\d+)の物理ダメージを３回与える自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy 3 times.\n►Boosts own P.ATK by $1 for 12s.
+
+##UE##
+恵愛剣サマーラブファミリア=Lovely Summer Familia Sword

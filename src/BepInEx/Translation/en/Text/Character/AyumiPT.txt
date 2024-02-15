@@ -1,28 +1,33 @@
-【物理】中衛で、闇夜に身を潜める神出鬼没の怪盗少女。敵の目の前から姿を消す隠密スキルや、遠くの敵に対するＴＰダウンスキルを駆使して、敵陣後方から瓦解させる。=[Physical] A Phantom Thief hiding in the darkness within the midlines. She uses her covert abilities to disappear from the enemy's sight and whittles down the enemy backlines with her TP reduction skills.
+##Profile##
+【物理】中衛で、闇夜に身を潜める神出鬼没の怪盗少女。敵の目の前から姿を消す隠密スキルや、遠くの敵に対するＴＰダウンスキルを駆使して、敵陣後方から瓦解させる。=[Physical] A Phantom Thief hiding in the darkness in the midlines. She uses her covert abilities to disappear from the enemy's sight and whittle them down from the backlines with her TP reduction skills.
 
 思い出を盗み返して=Stealing Back Memories
 鍵のかかった恋心=Locked Heart
 案ずるより歩むが易し=Action Speaks Louder Than Words
 二人で一人の怪盗=Two People, One Thief
 
+##UB##
 ファントムワイヤーイリュージョン=Phantom Wire Illusion
-最も遠くの敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、スタンさせる。=Deals P.DMG to all enemies within a range centered around the farthest enemy character and stuns them.
+最も遠くの敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、スタンさせる。=Deals P.DMG to all enemies in range around the farthest enemy and stuns them.
 
+##S1##
 ステルスターン=Stealth Turn
-ステルスターン+=Stealth Turn+
+【隠密】自分を隠密状態にする。最も遠くの敵１キャラの物理攻撃力と魔法攻撃力を大ダウンさせ、自分の物理攻撃力を大アップさせる。さらに、対象の敵に物理中ダメージを与える。=[Stealth] Enters Stealth mode. Greatly lowers the farthest enemy's P/M.ATK, and greatly boosts own P.ATK. Additionally, deals moderate P.DMG to the farthest enemy.
 
-r:"^自分を隠密状態にする\n敵単体の物理攻撃力を(\d+)ダウン\n敵単体の魔法攻撃力を(\d+)ダウン\n自分の物理攻撃力を(\d+)アップ\n敵単体に(\d+)の物理ダメージ$"=Cast time: 1.33s\n►Enters stealth mode.\n►Reduces an enemy's P.ATK by $1 for 12s.\n►Reduces an enemy's M.ATK by $2 for 12s.\n►Boosts own P.ATK by $3 for 12s.\n►Deals $4 P.DMG to an enemy.
-
-【隠密】自分を隠密状態にする。最も遠くの敵１キャラの物理攻撃力と魔法攻撃力を大ダウンさせ、自分の物理攻撃力を大アップさせる。さらに、対象の敵に物理中ダメージを与える。=[Stealth] Enter stealth mode. Greatly decreases the P/M.ATK of the farthest enemy character and greatly increases one's own P.ATK. Additionally, deals medium P.DMG to the target enemy.
-
-
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵のＴＰを(\d+)失わせる$"=►Deals $1 P.DMG to enemies within range.\n►Reduces enemies' TP within range by $2.
-(overlap with misogiS)
-
-最も遠くの敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、ＴＰを小ダウンさせる。=Deal medium P.DMG to all enemies within the range centered around the farthest enemy character, and decrease their TP slightly.
+##S2##
 シーフクラッカー=Thief Cracker
+最も遠くの敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、ＴＰを小ダウンさせる。=Deal moderate P.DMG to all enemies in the range around the farthest enemy, and slightly reduces their TP.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵のＴＰを(\d+)失わせる$"=►Deals $1 P.DMG to enemies in range.\n►Reduces enemies' TP in range by $2.
+## Same with SMisogi skill
+
+##EX##
 こっそりこっそり…=Sneak Secretly…
 こっそりこっそり…+=Sneak Secretly…+
 
+##S1+##
+ステルスターン+=Stealth Turn+
+【隠密】自分を隠密状態にする。最も遠くの敵１キャラの物理攻撃力と魔法攻撃力を大ダウンさせ、自分の物理攻撃力を特大アップさせる。さらに、対象の敵に物理特大ダメージを与える。このスキルによるダメージでは敵のＴＰは回復しない。=[Stealth] Enters Stealth mode. Greatly lowers the farthest enemy's P/M.ATK, and greatly boosts own P.ATK. Additionally, deals large P.DMG to the farthest enemy. Damage from this skill doesn't recover an enemy's TP.
+r:"^自分を隠密状態にする敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ$"=Cast time: 1.33s\n►Enters Stealth mode.\n►Lowers an enemy's P.ATK by $1 for 12s.\n►Lowers an enemy's M.ATK by $2 for 12s.\n►Boosts own P.ATK by $3 for 12s.\n►Deals $4 P.DMG to an enemy.
+
+##UE##
 見えざる乙女の槍=Invisible Maiden's Spear
-【隠密】自分を隠密状態にする。最も遠くの敵１キャラの物理攻撃力と魔法攻撃力を大ダウンさせ、自分の物理攻撃力を特大アップさせる。さらに、対象の敵に物理特大ダメージを与える。このスキルによるダメージでは敵のＴＰは回復しない。=[Stealth] Makes oneself stealthy. Greatly decreases the P/M.ATK of the farthest enemy character and greatly increases one's own P.ATK. Additionally, deal great P.DMG to the target enemy. TP does not recover for the enemy damaged by this skill.

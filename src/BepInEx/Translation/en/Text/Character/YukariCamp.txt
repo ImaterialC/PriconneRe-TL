@@ -1,45 +1,39 @@
-ユ=Yu
-
-【物理】中衛で最高の一杯を自然と共に愉しむ元聖騎士。【至福のひと時】が増えるほどに、味方の物理攻撃力やクリティカル時のダメージを強力に強化し、勝利を掴む。=[Physical] A former paladin who enjoys the best drink with nature in the MG. The more [Bliss Moment], the stronger the allies' P.ATK and P.Crit Rate.
-
-キャンピングライムライト=Camping Limelight
-
-r:"^敵単体に(\d+)の物理ダメージ\n至福のひと時が３以上の場合、味方全体の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、味方全体の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to nearest enemy target within 500 range.\n►if Self have 3 or more stack, buff all friendly target by $2 P.ATK and $2 P.Crit rate for 18s.
-目の前の敵に物理特大ダメージを与える。このスキルがクリティカルした場合のダメージは２倍ではなく３倍になる。【至福のひと時】が３以上の場合、味方全体の物理攻撃力を小アップし物理クリティカルを大アップする。このスキルのクリティカルした場合のダメージと物理攻撃力と物理クリティカルの上昇量は【至福のひと時】に応じて増加する。=Deals Massive P.DMG to nearest enemy target within 500 range. Deals 3x P.DMG if critical. if Self have 3 or more stack [Bliss Moment], buff all friendly target P.ATK and P.Crit rate.
-
-r:"^自分のＴＰを150回復\n対象の味方のＴＰを150回復\n自分の物理攻撃力を(\d+)アップ\n至福のひと時が３以上の場合、対象の味方の物理攻撃力を(\d+)アップ$"=►Recovers own TP by 150.\n►Recovers target ally's TP by 150.\n►Boosts own P.ATK by $1.\n►If Blissful Moment is 3 or more, increases target ally's P.ATK by $2 for 12s.
-
-自分に【至福のひと時】を１つ追加して、ＴＰを中回復し、物理攻撃力を中アップする。【至福のひと時】は最大７まで追加される。さらに【至福のひと時】が３未満の場合、自分以外のＴＰが低い味方２キャラのＴＰを中回復させ、【至福のひと時】が３以上の場合は、自分以外のＴＰが低い味方３キャラのＴＰを中回復させ、物理攻撃力を中アップする。=Adds 1 [Blissful Moment] to self, moderately restores TP and boosts P. ATK(Max:7). If fewer than 3 [Blissful Moments], moderately restores TP of 2 low TP allies (excluding self) and boosts P. ATK. If 3 or more [Blissful Moments], moderately restores TP of 3 low TP allies (excluding self) and boosts P.ATK.
-
-
-r:"^至福のひと時が３以上の場合、敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ$"=►If self have 3 or more stack, deals $1 P.DMG to one of random front enemy within 500 range.\n►If stack less then 3, deals $2 P.DMG to one of random front enemy within 500 range.
-
-前方範囲内のランダムな敵キャラに単体物理小ダメージを与える。【至福のひと時】が３以上の場合、このスキルによるダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になり、【至福のひと時】に応じてクリティカルした場合のダメージが増加する。=If self have 3 or more stack [Bliss Moment], deals Large P.DMG to one of random front enemy within 500 range.\nDeals 3x P.DMG if critical.\nIf stack less then 3, deals medium P.DMG to one of random front enemy within 500 range. Add 1 stack [Bliss Moment].
-
-
-キャンピングペアマグ=Camping Pair Mug
-r:"^至福のひと時が３以上の場合、敵単体に(\d+)の物理ダメージ\n敵単体に(\d+)の物理ダメージ\n至福のひと時が６以上の場合、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to a single enemy if [Blissful Moment] is 3 or higher.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy if [Blissful Moment] is 6 or higher.
-
-前方範囲内のランダムな敵１キャラに物理中ダメージを与える。【至福のひと時】が３以上の場合、ダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になる。さらに【至福のひと時】に応じてこのスキルがクリティカルした場合のダメージが増加する。【至福のひと時】が６以上の場合、前方範囲内のランダムな敵１キャラにクリティカルした場合のダメージが２倍ではなく４倍になる追加の物理大ダメージを与える。=Front-range random enemy: P. DMG. If [Bliss Moment] > 2, damage increases and critical hits deal 3x damage instead of 2x. Additionally, this skill's critical hit damage increases based on [Bliss Moment]. If [Bliss Moment] > 5, extra P. DMG is dealt (4x damage) on critical hits to front-range random enemy.
-
-
-
-
-
-
-ブルームーン+=Blue Moon+
-ブルームーン=Blue Moon
-グリルパラダイス=Grill Paradise
-ラスティネイル=Rust Nail
-ラスティネイル+=Rust Nail+
+##Profile##
+【物理】中衛で最高の一杯を自然と共に愉しむ元聖騎士。【至福のひと時】が増えるほどに、味方の物理攻撃力やクリティカル時のダメージを強力に強化し、勝利を掴む。=[Physical] A former paladin who enjoys the best drink with nature in the midlines. The more [Blissful Moment], the stronger the allies' P.ATK and P.CRIT Rate.
 
 気持ちよくなるジュース=Refreshing Juice
 楽しさを持ち寄って=Bringing Fun Together
 本当の最高の一杯=The Real Best Cup
 キミが追いつく日まで=Until You Catch Up
 
+##UB##
+キャンピングライムライト=Camping Limelight
+目の前の敵に物理特大ダメージを与える。このスキルがクリティカルした場合のダメージは２倍ではなく３倍になる。【至福のひと時】が３以上の場合、味方全体の物理攻撃力を小アップし物理クリティカルを大アップする。このスキルのクリティカルした場合のダメージと物理攻撃力と物理クリティカルの上昇量は【至福のひと時】に応じて増加する。=Deals massive P.DMG to an enemy in front. Deals x3 P.DMG if critical. If Yukari has 3 or more [Blissful Moment], boosts all allies' P.ATK and P.CRIT Rate.
+r:"^敵単体に(\d+)の物理ダメージ至福のひと時が３以上の場合、味方全体の物理攻撃力を(\d+)アップ至福のひと時が３以上の場合、味方全体の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n\nIf [Blissful Moment] ≥ 3:\n►Boosts all allies' P.ATK by $2 (+$2×[Blissful Moment]) for 18s.\n►Boosts all allies' P.CRIT Rate by $3 (+$3×[Blissful Moment]) for 18s.
 
-Bond
+##S1##
+ラスティネイル=Rust Nail
+前方範囲内のランダムな敵キャラに単体物理小ダメージを与える。【至福のひと時】が３以上の場合、このスキルによるダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になり、【至福のひと時】に応じてクリティカルした場合のダメージが増加する。= If [Blissful Moment] ≥ 3, deals large P.DMG to a random enemy in front. Deals x3 P.DMG if critical. If [Blissful Moment] < 3, deals moderate P.DMG to a random enemy in front enemy.
+r:"^至福のひと時が３以上の場合、敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=►If [Blissful Moment] ≥ 3, deals $1 P.DMG to a random enemy.\n►If [Blissful Moment] < 3, deals $2 P.DMG to a random enemy.
+
+##S2##
+グリルパラダイス=Grill Paradise
+自分に【至福のひと時】を１つ追加して、ＴＰを中回復し、物理攻撃力を中アップする。【至福のひと時】は最大７まで追加される。さらに【至福のひと時】が３未満の場合、自分以外のＴＰが低い味方２キャラのＴＰを中回復させ、【至福のひと時】が３以上の場合は、自分以外のＴＰが低い味方３キャラのＴＰを中回復させ、物理攻撃力を中アップする。=Grants 1 [Blissful Moment] to self, up to a maximum of 7. Moderately recovers own TP and boosts own P.ATK. If [Blissful Moment] < 3, moderately recovers 2 other allies' TP with lowest TP. If [Blissful Moment] ≥ 3, moderately recovers 3 other allies' TP with lowest TP and boosts their P.ATK.
+r:"^自分のＴＰを150回復対象の味方のＴＰを150回復自分の物理攻撃力を(\d+)アップ至福のひと時が３以上の場合、対象の味方の物理攻撃力を(\d+)アップ$"=►Recovers own TP by 150.\n►Boosts own P.ATK by $1 for 12s.\n►If [Blissful Moment] < 3, recovers 2 other allies' TP by 150.\n►If [Blissful Moment] ≥ 3, recovers 3 other allies' TP by 150 and boosts their P.ATK by $2 for 12s.
+
+##EX##
+ブルームーン=Blue Moon
+ブルームーン+=Blue Moon+
+
+##S1+##
+ラスティネイル+=Rust Nail+
+前方範囲内のランダムな敵１キャラに物理中ダメージを与える。【至福のひと時】が３以上の場合、ダメージが上昇しクリティカルした場合のダメージは、２倍ではなく３倍になる。さらに【至福のひと時】に応じてこのスキルがクリティカルした場合のダメージが増加する。【至福のひと時】が６以上の場合、前方範囲内のランダムな敵１キャラにクリティカルした場合のダメージが２倍ではなく４倍になる追加の物理大ダメージを与える。=Deals moderate P.DMG to a random enemy in front. If [Blissful Moment] ≥ 3, deals large P.DMG to a random enemy in front, deals x3 P.DMG if critical. If [Blissful Moment] ≥ 6, deals large P.DMG to a random enemy in front, deals x4 P.DMG if critical.
+r:"^至福のひと時が３以上の場合、敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ至福のひと時が６以上の場合、敵単体に(\d+)の物理ダメージ$"=►Deals $2 P.DMG to a random enemy.\n►If [Blissful Moment] ≥ 3, deals\n$1 P.DMG to a random enemy.\n►If [Blissful Moment] ≥ 6, deals\n$3 P.DMG to a random enemy.
+
+##UE##
+キャンピングペアマグ=Camping Pair Mugs
+
+##Comments##
 キャンプの心得その一！　麦しゅわを欠かすべからず！\n本には書いてなかったけど楽しみかたは\n人ぞれぞれでしょ？　さ、飲んじゃうわよ～♪\n=Camp Rule #1: Never be without Barley Soda! It may not be written in the book, but everyone enjoys it in their own way, right? Now, let's have a drink~♪
 キャンプを始めてから、デスクワークで落ちてた\n体力を取り戻せたの！\nオンオフのメリハリもついて、いいことばかりだわ♪\n=Since starting camping, I've regained the energy I lost from desk work. It's been nothing but good things, with a good balance between work and play♪
 しょれにね、万一酔い潰れたってぇ～…\nキミがぜーったい介抱してくれるれしょ？\nだから安心して飲めるの～…えへ、いつもありがとね♪\n=Besides, in the unlikely event that I get too drunk... You'll definitely take care of me, right? That's why I can drink without worries~ Ehe, thank you as always♪
@@ -50,3 +44,5 @@ Bond
 な、なにが言いたいかっていうとね…\nこれからもキャンプに付き合ってほしいってこと！\nキミが一緒じゃなきゃ、私のキャンプじゃないから♪\n=Um, what I'm trying to say is... I want you to keep accompanying me on camping trips! It's not my camp without you♪
 一番の理由は、キミと過ごしてるから…なんだと思う\nきっとソロキャンプだったら\nこんなにもおいしいと感じないはずだわ！\n=The biggest reason is that I'm spending time with you... I'm sure if it were solo camping, it wouldn't feel as delicious as it does now!
 最近、麦しゅわが前よりもっとおいしく感じるの！\n景色のおかげかキャンプ飯のおかげか…\nなにがおいしくしてるのか、考えてみたんだけどね…\n=Lately, Barley Soda tastes even more delicious than before. Whether it's because of the scenery or the camp food... I've been thinking about what makes it so tasty...
+ふふ、ハッピーバースデー！\nキャンプ場でケーキだなんて\n他には体験できないでしょ？\nほらほら、早速食べてみて！=Hehe, Happy Birthday! A cake at a campsite is a unique experience, isn't it? Come on, come on, try it!
+お誕生日おめでと～！\nとっておきのキャンプ飯を\n振る舞ってあげるね？\n特別なキャンプにしてあげる！=Happy Birthday! I'll give you a special camp meal, okay? We'll make it a special camping trip!

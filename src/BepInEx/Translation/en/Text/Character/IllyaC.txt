@@ -1,0 +1,45 @@
+##Profile##
+【魔法】中衛で、眷属と永久の血盟を誓う月下の吸血鬼。ＵＢで眷属を２体喚び、味方への攻撃支援や行動速度上昇で強化し、眷属と共に見舞う猛攻で前途を阻む敵を討つ。=[Magic] A vampire under the moonlight, swearing an eternal blood oath to her thrall. She summons two familiars on her UB and uses attack buffs and speed buffs to support her allies. Together, they visit upon their enemy, slaying them with fierce attacks.
+
+厄日、旅立ち=Unlucky Day, Departure
+夜空に隠した宝石箱=Jewellery Box Hidden in the Night Sky
+水面の月にて待つ=Waiting on the Surface of the Moon
+沈みゆく太陽より速く=Faster Than the Setting Sun
+
+##UB##
+ヴァーミリオンベール=Vermilion Veil
+【召喚】目の前の敵１キャラに魔法大ダメージを与え、自分のＨＰを中回復させる。このスキルのダメージは眷属の数に応じて増加する。さらに、眷属が味方に２体いない場合、最大２体まで眷属を召喚する。=[Summon] Deals large M.DMG to an enemy in front and moderately recovers own HP. The M.DMG dealt increases according to number of familiars. Additionally, if familiar count < 2, summons up to 2 familiars.
+r:"^敵単体に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復範囲内の味方の魔法攻撃力とＴＰ上昇をアップする眷属を召喚する範囲内の味方の魔法攻撃力と魔法攻撃クリティカル時のダメージをアップする眷属を召喚する$"=►Deals $1 (+2.4×$1× \nFamiliar Count) M.DMG to an enemy.\n►Recovers own HP by $2.\n►Summons a minion 1 that boosts allies' M.ATK and TP Boost in range.\n►Summons a minion 2 that boosts allies' M.ATK and M.CRIT DMG in range.
+
+##S1##
+ブラッディグレース=Bloody Grace
+目の前の敵１キャラに魔法中ダメージを与え、自分のＴＰを小回復する。このスキルのダメージとＴＰの回復量は眷属の数に応じて増加する。=Deals moderate M.DMG to an enemy in front and slightly recovers own TP. The M.DMG dealt and TP recovery increase according to number of familiars.
+r:"^敵単体に(\d+)の魔法ダメージ自分のＴＰを100回復$"=Cast time: 1.05s\n►Deals $1 (+1.2×$1× \nFamiliar Count) M.DMG to an enemy.\n►Recovers own TP by 100 (+50× \nFamiliar Count).
+
+##S2##
+エンゲージブルーム=Engage Bloom
+自分を中心とした範囲内の味方の魔法攻撃力と魔法クリティカルを中アップさせ、行動速度を大アップさせる。=Boosts allies' M.ATK and M.CRIT Rate in range and greatly boosts their action speed.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを40アップ範囲内の味方の行動速度アップ$"=Cast time: 1.05s\n►Boosts allies' M.ATK in 150 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 150 range by 40 for 12s.\n►Boosts allies' action speed in 150 range to 155% for 12s.
+
+##SP1##
+ルーラーズエイド=Ruler's Aid
+自分以外の最もＨＰの低い味方１キャラのＨＰを小回復するが、自分の残りＨＰの20%を消費する。=Consumes 20% of own remaining HP and slightly recovers an ally's HP with the lowest HP, excluding oneself.
+このスキルのスキルレベルは「ヴァーミリオ\nンベール」と連動しています=This skill's level is linked to "Vermilion Veil"
+r:"^味方単体のＨＰを(\d+)回復自分の残りＨＰの20%を消費$"=Cast time: 1.05s\n►Recovers an ally's HP by $1.\n►Consumes 20% of own remaining HP.
+
+##EX##
+月下の血盟=Moonlit Blood Pact
+月下の血盟+=Moonlit Blood Pact+
+
+##Comments##
+わらわが特別な装束を纏っているというのに\nお主はいつも通りじゃの…まあ、それがお主らしいか\n…不満ではない、なぜか安心すると言っておるのじゃ♪=Even though I'm wearing a special outfit,\nyou're the same as always... Well, I guess\nthat's just like you... It's not a problem.\nFor some reason, I say it's reassuring♪
+この格好で、お主と街を出歩くと\n皆が祝福の言葉を送ってくれるの…\n悪い気もせんし、もう少し市井を散策するかの♪=When I walk around town with you in this outfit,\neveryone sends me congratulations... It is not bad,\nso I think I'll take a little more stroll around the city♪
+ほれ、誓いのキ、キ…やっぱり違うのじゃ！\nあれじゃ！　お、お姫さま抱っこがちょうどよい！\nさあ眷属よ、わらわをお姫さま抱っこするのじゃ！=Here, I swear, I... I knew it! That's not it!\nA-A princess carry would be perfect!\nNow, Familiar, carry me like a princess!
+この装束じゃし、ならでは…があるじゃろ？\nほれ、儀式といえばのあれじゃ…分からぬのか\nわらわにみなまで言わせようというのか…=Well, it's this outfit, isn't it? So...\nyou're trying to make me say it,\neven though I don't understand it...
+眷属よ、わらわが特別な装いでおるのじゃ\n気の利いた立ち振る舞いの一つや二つ\nこの機会に試してみてもよかろう？=Familiar, I'm wearing a special outfit.\nWhy don't you take this opportunity\nto test my tactful behavior?
+せっかく、晴れ着で着飾っておるのじゃ\n眷属よ、わらわをどこかに連れていってくれ\nお主と一緒なら、どこでもよいぞ♪=You're dressed up in fine clothes, Familiar.\nTake me somewhere.\nAs long as I'm with you, I don't care where♪
+夜を統べる者に、ふさわしい装束じゃろう？\nお主もわらわに合わせて、衣装を揃えてみてはどうじゃ\nたとえば、タ、タキシードなどよいのではないか…？=A fitting attire for a ruler of the night,\nisn't it? Why don't you try matching my outfit\nto suit me, like a tuxedo...?
+とある儀礼には、ファーストバイトというものが\nあるらしいのう…吸血鬼が手を加えるならば\nあれしかあるまい。眷属よ、血を吸わせるのじゃ♪=Apparently, there's a first part-timer in\na certain ritual... That's the only way a vampire\ncan fix it. Familiar, let them suck your blood♪
+ふふ、末長くよろしく頼むぞ、我が眷属よ\nこれからも、わらわを隣で支え続けてほしいのじゃ\nお主と過ごす毎日が、楽しくて仕方がないからの♪=Hehe, I look forward to working with you\nfor a long time, My familiars. I want you to\ncontinue to support me from now on. I can't\nhelp but enjoy every day I spend with you♪
+じゃが、それも少し前までの話じゃ\nそんな杞憂もお主のせいで、吹き飛んでしもうた\nお主とならば、いかなる相違も乗り越えていけそうじゃ=However, from what I've heard not too long ago,\nit seems that my fears are unfounded because of you,\nand that I can overcome any differences with you.
+吸血鬼と人間では、何もかもが異なる\n異種族同士、相容れない関係が道理\nそんなふうに、わらわも心のどこかで思っておった…=Somewhere in my heart, I thought that vampires\nand humans were of different races, and that\nincompatible relationships were logical...

@@ -1,0 +1,28 @@
+##Profile##
+【物理】前衛で聖学祭を盛りアゲる、はぴちぇる系女子。攻撃ヒットのたびに【ちぇる】を貯め、威力が増すスキルと味方全体の物理攻撃力アップ効果のＵＢで勝利に導く。=[Physical] A hapichieru girl who runs in the School Festival in the vanguard. With skills that increase in power and UB that increases the physical attack power of all allies, she accumulates [Cheru] with each attack hit and leads her team to victory.
+
+##UB##
+ちぇるちぇる☆かあにばる=Cheru-Cheru☆Carnival
+自分に【ちぇる】が40貯まっている場合、味方全体の物理攻撃力を特大アップさせ、自分のＴＰ上昇と物理攻撃クリティカル時のダメージを小アップさせる。さらに目の前の敵１キャラに物理大ダメージを与える。=If Chieru has 40 [Cheru] accumulated, greatly boosts all allies' P.ATK, and slightly boosts own TP Boost and P.CRIT DMG. Additionally, deals large P.DMG to an enemy in front.
+r:"^ちぇるが40貯まっている場合、味方全体の物理攻撃力を(\d+)アップちぇるが40貯まっている場合、自分のＴＰ上昇を(\d+)アップちぇるが40貯まっている場合、自分の物理攻撃クリティカル時のダメージを10％アップ敵単体に(\d+)の物理ダメージ$"=►Deals $3 P.DMG to an enemy.\n\nIf Chieru has 40 [Cheru] accumulated:\n►Boosts all allies' P.ATK by $1 for 18s.\n►Boosts own TP Boost by $2 for 18s.\n►Boosts own P.CRIT DMG by 10% for 18s.
+
+##S1##
+ちぇるるん☆らっしゅあわー=Cherurun☆Rush Hour
+目の前の敵１キャラに物理中ダメージを与える。このスキルのダメージは【ちぇる】の数に応じて増加する。=Deals moderate P.DMG to an enemy in front. The damage of this skill increases according to the number of [Cheru].
+
+##S2##
+ちぇるふぇす☆あらも～ど=Cheru Fest☆a la Mode
+相手に攻撃を命中させる度に、自分に【ちぇる】ステータスが１つ追加されるようにする。【ちぇる】は最大40まで追加される。さらに、自分の物理攻撃力と行動速度を大アップさせる。=Whenever one of Chieru's attacks hit an enemy, gains 1 [Cheru] stack, up to a maximum of 40. Additionally, greatly boosts own P.ATK and action speed.
+r:"^チエル（聖学祭）の攻撃が当たるたびにちぇるを１つ得る自分の行動速度アップ自分の物理攻撃力を(\d+)アップ$"=►When an attack connects, gains 1 [Cheru].\n►Boosts own action speed to 175% for 180s.\n►Boosts own P.ATK by $1 for 180s.
+
+##EX##
+24時間☆ちぇるんな子=24 Hours☆Cherun na Ko
+24時間☆ちぇるんな子+=24 Hours☆Cherun na Ko+
+
+##S1+##
+ちぇるるん☆らっしゅあわー+=Cherurun☆Rush Hour+
+目の前の敵１キャラに物理中ダメージを与える。このスキルのダメージは【ちぇる】の数に応じて増加する。自分に【ちぇる】が40貯まっている場合、味方全体の物理攻撃力と物理クリティカルを特大アップさせる。=Deals moderate P.DMG to an enemy in front. The damage of this skill increases according to the number of [Cheru]. If Chieru has 40 [Cheru] accumulated, greatly boosts all allies' P.ATK and P.CRIT Rate.
+r:"^敵単体に(\d+)の物理ダメージちぇるが40貯まっている場合、味方全体の物理攻撃力を(\d+)アップちぇるが40貯まっている場合、味方全体の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n\nIf Chieru has 40 [Cheru] accumulated:\n►Boosts all allies' P.ATK by $2 for 12s.\n►Boosts all allies' P.CRIT Rate by $3 for 12s.
+
+##UE##
+はぴちぇる☆ふぇすうぇあ=Hapicheru☆Fes Wear

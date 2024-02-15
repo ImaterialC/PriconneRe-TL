@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛で、華装に身を包み流麗な剣舞を舞う狼娘。周囲の味方の数に応じて、スキルの威力と物理攻撃力アップのスキル効果が上がり、鼓舞激励の一斬を振るう。=[Physical] A wolf girl who is dressed in fancy clothes performs a graceful sword dance in the vanguard. Depending on the number of allies around her, the skill's power and physical attack power increased, and she swings an encouraging slash.
+
+##UB##
+ウルフェンロンド=Wolven Rondo
+自分を中心とした範囲内の味方の物理攻撃力と行動速度を中アップさせ、目の前の敵１キャラに物理特大ダメージを与える。範囲内の味方の人数に応じて、攻撃力の上昇量がアップする。=Moderately boosts allies' P.ATK and action speed in range, and deals massive P.DMG to an enemy in front. The P.ATK boost increases according to the number of allies in range.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の行動速度アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK in 180 range by $2 for 18s.\n►Boosts allies' action speed in 180 range to 125% for 12s.
+
+##S1##
+シュバルリックオーダー=Chivalric Order
+自分を中心とした範囲内の味方の物理攻撃力を小アップさせる。範囲内の味方の人数に応じて、攻撃力の上昇量がアップする。=Slightly boosts allies' P.ATK in range. The P.ATK boost increases according to the number of allies in range.
+
+##S2##
+クルーエルダンス=Cruel Dance
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。自分を中心とした範囲内の味方の人数に応じて、与えるダメージがアップする。=Deals moderate P.DMG to an enemy in front, and slightly lowers its P.DEF. The P.ATK boost increases according to the number of allies in range.
+
+##EX##
+麗狼の剣舞=Beautiful Wolf's Sword Dance
+麗狼の剣舞+=Beautiful Wolf's Sword Dance+
+
+##S1+##
+シュバルリックオーダー+=Chivalric Order+
+自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、さらに自分の物理攻撃力を中アップさせる。範囲内の味方の人数に応じて、物理攻撃力の上昇量がアップする。=Moderately boosts allies' P.ATK in range, and also moderately boosts own P.ATK. The P.ATK boost increases according to the number of allies in range.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ自分の物理攻撃力を(\d+)アップ$"=►Boosts allies' P.ATK in 180 range by $1 for 12s.\n►Boosts own P.ATK by $2 for 12s.
+
+##UE##
+ウルフェンロンドドレス=Wolven Rondo Dress

@@ -1,29 +1,35 @@
-
+##Profile##
 リン=Rin 
-【物理】中衛で物理パーティを強化するものぐさ少女。味方の物理攻撃力をアップしつつ、味方の魔法防御を高めることで攻守ともにパーティをサポートする。=[Physical] A lazy girl who strengthens the physical party with a middle guard. She supports the party in both offense and defense by boosting her allies' physical attack power and increasing their magic defense.
+【物理】中衛で物理パーティを強化するものぐさ少女。味方の物理攻撃力をアップしつつ、味方の魔法防御を高めることで攻守ともにパーティをサポートする。=[Physical] A lazy girl who enhances physical-based parties from the midguard. Offers all-around support by increasing allies' physical attack and magical defense.
+
 遊びと睡眠が何より大事なぐうたら娘=A lazybones who values play and sleep above all else
 
+##UB##
 お手製あんパンチャージ=Homemade Sweet Bun Boost
 味方全体のＨＰを小回復し、さらに物理攻撃力と魔法防御力を中アップさせる。=Recovers allies' HP by a small amount. Small boost to their P.ATK and M.DEF.
-r:"^味方全体のＨＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ$"=Recovers allies' HP by $1.\nBoosts allies' P.ATK by $2 for 18s.\nBoosts allies' M.DEF by $3 for 18s.
+r:"^味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=►Recovers allies' HP by $1.\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' M.DEF by $3 for 18s.
 
-
+##S1##
+果報は寝て待てモード=Patience Is a Virtue
 自分の周囲の味方すべての魔法防御力を大アップさせる。=Large boost to M.DEF of all nearby allies.
-r:"^範囲内の味方の魔法防御力を(\d+)アップ$"=Cast Time: 0.59s\nBoosts allies' M.DEF within 150 range by $1 for 12s.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ$"=►Boosts allies' M.DEF in 150 range by $1 for 12s.
 
+##S2##
+ドングリスローイング=Acorn Barrage
 
+##EX##
 ドングリチャージ=Amped on Acorns
-
-
-あんパン・バケーション=Anpan Vacation
-味方全体のＨＰを小回復し、物理攻撃力と魔法防御力を特大アップ、物理クリティカルを大アップ、ＴＰ上昇を小アップさせる。さらに次の攻撃のダメージ量に応じて追加でＨＰを回復させる。=Slightly restores the allies' HP, Large boost P.ATK and M.DEF, Large boost P Crit rate, and slightly boost TP Boost. Additionally recovers HP according to the damage amount of the next attack.
-r:"^味方全体のＨＰを(\d+)回復\n味方全体の物理攻撃力を(\d+)アップ\n味方全体の魔法防御力を(\d+)アップ\n味方全体の物理クリティカルを(\d+)アップ\n味方全体のＴＰ上昇を(\d+)アップ$"=Recovers allies' HP by $1.\nApplies HP drain effect to next 1 attack of all allies.\nfor 18s.\nBoosts allies' P.ATK by $2.\nBoosts allies' M.DEF by $3.\nBoosts allies' P.Crit. rate by $4.\nBoosts allies' TP boost by $5.
-
-自分の周囲の味方すべての魔法防御力を大アップさせ、さらに物理攻撃力を大アップ、物理クリティカルを中アップさせる。=Large boost to M.DEF of all nearby allies, moderate boost to their P.ATK, and small boost to their P.Crit rate.
-r:"^範囲内の味方の魔法防御力を(\d+)アップ\n範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを(\d+)アップ$"=Cast Time: 0.59s\nBoosts allies' M.DEF within 250 range by $1 for 12s.\nBoosts allies' P.ATK within 250 range by $1 for 12s.\nBoosts allies' P.Crit Rate within 250 range by $1 for 12s.
-
-
 ドングリチャージ+=Amped on Acorns+
 
+##UB+##
+あんパン・バケーション=Anpan Vacation
+味方全体のＨＰを小回復し、物理攻撃力と魔法防御力を特大アップ、物理クリティカルを大アップ、ＴＰ上昇を小アップさせる。さらに次の攻撃のダメージ量に応じて追加でＨＰを回復させる。=Slightly restores the allies' HP, large boost to P.ATK, M.DEF and P.CRIT Rate, and small boost to TP Boost. Additionally grants HP Drain to all allies accordingly of the damage amount of the next attack.
+r:"^味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体の物理クリティカルを(\d+)アップ味方全体のＴＰ上昇を(\d+)アップ$"=►Recovers allies' HP by $1.\n►Applies HP Drain effect to next 1 attack of all allies.\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' M.DEF by $3 for 18s.\n►Boosts allies' P.CRIT Rate by $4 for 18s.\n►Boosts allies' TP Boost by $5 for 18s.
 
+##S1+##
+果報は寝て待てモード+=Patience Is a Virtue+
+自分の周囲の味方すべての魔法防御力を大アップさせ、さらに物理攻撃力を大アップ、物理クリティカルを中アップさせる。=Large boost to M.DEF of all nearby allies, moderate boost to their P.ATK, and small boost to their P.CRIT Rate.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ$"=Cast Time: 0.59s\n►Boosts allies' M.DEF in 250 range by $1 for 12s.\n►Boosts allies' P.ATK in 250 range by $1 for 12s.\n►Boosts allies' P.CRIT Rate in 250 range by $1 for 12s.
+
+##UE##
 ジュエリズムドングリ=Jewel of the Forest

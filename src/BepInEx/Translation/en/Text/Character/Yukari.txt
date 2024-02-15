@@ -1,12 +1,11 @@
-Yukari 
-Profile
-ユカリ=Yukari 
+##Profile##
+ユカリ=Yukari
 純情でほっとけない大人の女性=A pure-hearted woman with a mysterious charm
 
-終結、禁しゅわ宣言！=End, Prohibited Declaration!
-ゆかり、飲み放題！=Yukari, All-You-Can-Drink!
+終結、禁しゅわ宣言！=The End of Prohibition
+ゆかり、飲み放題！=Drink Up, Yukari!
 ぐらぐら揺らぐ自制心=Wavering Self-Control
-ユカリ、一念発起！=Yukari Makes a Decision!
+ユカリ、一念発起！=Yukari's Resolve
 
 大人の階段、登ろ……？=The Next Step
 ドキドキの連続攻撃=A Heart-Racing Combo
@@ -18,34 +17,58 @@ Profile
 素敵なお姉さんは突然に=Swindled No More
 
 ウインドーショッピング=Window-shopping
-【物理】中衛から、バリアや回復で味方を守る元聖騎士。傷ついた味方のＨＰやＴＰを回復するスキルを操り、打ち合いで消耗した所を、ピンポイントでサポートする。=[Physical] A former paladin that protects allies from the midguard using barriers and healing. Has skills that recover the HP and TP of wounded teammates, allowing pinpoint coverage of areas hit hard in combat.
-Skills
-UB
+【物理】中衛から、バリアや回復で味方を守る元聖騎士。傷ついた味方のＨＰやＴＰを回復するスキルを操り、打ち合いで消耗した所を、ピンポイントでサポートする。=[Physical] A former holy knight that protects allies from the midguard using barriers and healing. Has skills that recover the HP and TP of wounded teammates, allowing pinpoint coverage of areas hit hard in combat.
+
+##UB##
 セブンベールズ=Seven Veils
 味方全体に魔法無効バリアを展開する。=Deploys a barrier that negates M.DMG around all allies.
-r:"^(\d+)ダメージ分の魔法無効バリアを展開する$"=Deploys Barrier that negates $1 M.DMG.
-S1
+r:"^(\d+)ダメージ分の魔法無効バリアを展開する$"=►Deploys Barrier over all allies that negates $1 M.DMG.
+
+##S1##
 アクアヴィット=Aqua Vitae
-アクアヴィット+=Aqua Vitae+
-S2
+
+##S2##
 ムーンライト=Moonlight
 最もＴＰが低い味方１キャラのＴＰを中回復させる。=Recovers the TP of the party member with the lowest TP by a medium amount.
-ex
-プレリュードフィズ=Liquid Courage
-Skills+
-UB
-セブンスヘブン=Seventh Heaven
-味方全体に魔法無効バリアを展開し、魔法防御力を大アップさせ、さらにＨＰを小回復させる。=Develop a magic invalid barrier to all allies, increase the M.DEF power, and recover the HP smaller.
-r:"^(\d+)ダメージ分の魔法無効バリアを展開する\n味方全体の魔法防御力を(\d+)アップ\n味方全体のＨＰを(\d+)回復$"=►Deploys Barrier to all allies that negates $1 M.DMG.\n►Boosts allies' M.DEF by $2 for 18s.\n►Recovers allies' HP by $3.
-S1
-最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount, boosts their M.DEF by a moderate amount, and grants HP regen.
-最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount, boosts their M.DEF by a moderate amount, and grants HP regen.
-r:"^味方単体のＨＰを(\d+)回復\n味方単体の魔法防御力を(\d+)アップ\n毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's M.DEF by $2 for 12s.\n►Recovers HP by $3/s for 8.5s.
-S2
+## 260lvl
 最もＴＰが低い味方１キャラのＴＰを中回復し、物理攻撃力と魔法攻撃力を小アップさせる。=Recovers the TP of the party member with the lowest TP by a medium amount, and raise P.ATK and M.ATK by small amount.
-ex
+
+##EX##
+プレリュードフィズ=Liquid Courage
 プレリュードフィズ+=Liquid Courage+
 バトル開始時に自分の魔法防御力を中アップさせ、さらに自分の物理攻撃力を小アップさせる。=Moderate boost to own M.DEF and small boost to P.ATK at start of battle.
-r:"^自分の魔法防御力を(\d+)アップ\n自分の物理攻撃力を(\d+)アップ$"=►Boosts own M.DEF by $1.\n►Boosts own P.ATK by $2.
-UE
+r:"^自分の魔法防御力を(\d+)アップ自分の物理攻撃力を(\d+)アップ$"=►Boosts own M.DEF by $1.\n►Boosts own P.ATK by $2.
+
+##UB+##
+セブンスヘブン=Seventh Heaven
+味方全体に魔法無効バリアを展開し、魔法防御力を大アップさせ、さらにＨＰを小回復させる。=Develop a magic invalid barrier to all allies, increase the M.DEF power, and recover the HP smaller.
+r:"^(\d+)ダメージ分の魔法無効バリアを展開する味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Deploys Barrier over all allies that negates $1 M.DMG.\n►Boosts allies' M.DEF by $2 for 18s.\n►Recovers allies' HP by $3.
+
+##S1+##
+アクアヴィット+=Aqua Vitae+
+最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount, boosts their M.DEF by a moderate amount, and grants HP Regen.
+最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount, boosts their M.DEF by a moderate amount, and grants HP Regen.
+r:"^味方単体のＨＰを(\d+)回復味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's M.DEF by $2 for 12s.\n►Recovers HP by $3/s for 8.5s.
+
+##UE##
 エターナルジョッキ=Eternal Tankard
+
+##Comments##
+
+何か困ったことがあったら\n相談してね\nいつでも力になるから\nお姉さんとの約束よ？=If you ever need advice, come talk to me, okay? I've always got your back!
+キミ、いま暇だったりしない？\nだったら私と一緒に、\nどこか飲みにいきましょ？\nもちろんキミはジュースで、ね=Hey, are you busy? Wanna go grab a drink with me? Soft drinks for you, of course.
+仕事持って帰ってきたけど\n終わりそうにないよ～！\nうぅ…キミ、\n少し手伝ってくれない？=I brought my work home, but there's just no end in sight! *groan* Can you help me?
+えへへ～…\nキミって暖かいんらね～\nちょっと飲みすぎらから、\nキミで暖を取らせて～=Hic! You're real warm, y'know that? I drank a bit too much, so c'mere and warm me up.
+キミ、ご飯はちゃんと食べてる？\nあ、良かったらお姉さんが、\n作ってあげようか？=Are you eating right? I'd be happy to cook for you if you want.
+はぁ…このベリー、いい香り♪\n飲み物にしたらさぞ美味しい…\nいけないいけない！\n仕事中なのに！=Mmm, these berries smell awesome! They'd go great in a mixer. No! I'm at work!
+だめよユカリ…！\nこのままじゃいつもみたいに\nダメなところを見せちゃうわ！=Stop now, Yukari! You're gonna end up embarrassing yourself again!
+な～んか、ちょっとだけ\nいい気分になってきたかも…\n気のせい…かなぁ？=I feel all warm and fuzzy... Maybe it's just because of you?
+キミが大人になった時のために\n飲み物、一本作っておこうか？\nその日がきたら、二人で一緒に\nお祝いしながら飲みましょう=When you're old enough to drink, we should go out and celebrate with a few cold ones!
+ねぇ…今度、一緒に\nデートしない？\nそれとも、私みたいなのが\n相手じゃ、いやかな…？=What'cha say we go out on a date? Or would you rather not be seen with me?
+誕生日おめでとう！\n今日はいっぱい\nお祝いしてあげるね！=Happy birthday! Today's all about you, so let's celebrate!
+キミの誕生日というわけで\nまずは…かんぱーい！\nねえ、今日はずっと\n一緒にいてもいいかな…？=It's your birthday, so... Cheers! Can I... Can I spend the whole day with you?
+んふふ～気持ちいい～♪\nほら、キミも飲も飲も！\nもちろんキミはジュースだからね！\nはい、かんぱーいっ！=Weheheh! This feelsh good... ♪\nC'mon—you drink up too!\nThough it's just soft drinks for you, of course! Ready... Cheers!
+あぁ～染み渡るわぁ～\n仕事の後はこれに限るわよね～！\nそうだキミ、肩揉んでくれない？\nんっ、あ～っ、上手ね、キミ…=Ahh, that hits the spot! Nothing better after a hard day's work!\nHey—can you rub my shoulders?\nMm... Ooh, you're good at this!
+今日はお姉さんのおごりよぉ\nたくさん食べていいわよぉ～\n本当は手料理とかご馳走して\nあげたいんだけど…今度ね=It's my treat today! Eat as much as you like! ...I'd rather treat you to my home cooking if I could, but... maybe another time.
+私がこんな風にリラックス\nできるのはキミの前だけよ～\n迷惑かけちゃうかもしれないけど\nキミは許してくれるわよね…♪=I never feel quite this relaxed except when I'm with you! I know I'm probably a total nuisance, but you'll forgive me, won't you?
+よぉ～っし言っちゃおうかな～！\n私ねぇ～、キミのことが～…！\nふふ、や～っぱ秘密～！\n…あ、危なかったわ…=Yeah... I'm just gonna say it!\nThe truth is... I'm crazy for...\n...Eheheh, nope, that's a secret!\n(Urgh... That was a close one...)

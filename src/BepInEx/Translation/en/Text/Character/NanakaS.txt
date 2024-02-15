@@ -1,0 +1,27 @@
+##Profile##
+【魔法】中衛の多勢相手の戦いが得意な真夏の魔法少女。敵の数に応じて効果が上昇する防御力ダウンのスキルや、多彩な範囲攻撃を操り、真夏の戦いをサイカワに制する。=[Magic] A midsummer Magical Girl who is good at fighting against large numbers of midliners. Using her skill to lower magical defense, which increases in effect depending on the number of enemies, and with variety of ranged attacks, Saikawa wins the midsummer battle.
+
+##UB##
+ナナカ・サマー・カーニバル=Nanaka Summer Carnival
+前方範囲内の敵すべてに魔法大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive M.DMG to all enemies in front, and slightly lowers theirs M.DEF.
+
+##S1##
+ドルフィンマジック=Dolphin Magic
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに自分を中心とした範囲内の味方すべての魔法攻撃力を大アップさせる。=Deals moderate M.DMG to enemies in range of frontmost enemy, and greatly boosts allies' M.ATK in range around oneself.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals1 $1 M.DMG to enemies in range.\n►Boosts allies' M.ATK in range by $2.
+
+##S2##
+ブレイクスプラッシュ=Break Splash
+敵全体の魔法防御力を小ダウンさせる。敵の数に応じて、このスキルの効果値が増加する。=Lowers all enemies' M.DEF by a small amount. Increases this skill's effectiveness based on the number of enemies.
+r:"^敵全体の魔法防御力を(\d+)ダウン$"=►Lowers all enemies' M.DEF by $1.
+
+##EX##
+サマーホリデー=Summer Holiday
+サマーホリデー+=Summer Holiday+
+
+##S1+##
+ドルフィンマジック+=Dolphin Magic+
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップさせる。対象になる敵が多いほど、ダメージと魔法攻撃力の上昇量がアップする。=Deals moderate M.DMG to enemies in range of frontmost enemy, and greatly boosts allies' M.ATK in range around oneself. The more enemies in battle, the greater M.DMG and M.ATK boost.
+
+##UE##
+ナナカナツカワロッド=Nanaka Natsukawa Rod

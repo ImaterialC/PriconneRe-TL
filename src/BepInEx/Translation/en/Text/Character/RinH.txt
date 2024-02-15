@@ -1,0 +1,29 @@
+##Profile##
+【物理】中衛で敵を悪戯で翻弄する恐怖のキョンシー娘。最も魔法攻撃力が高い敵に急襲を仕掛け、ＴＰ減少や魔法攻撃力ダウン、スタン等の妨害スキルで機先を制する。=[Physical] A terrifying Jiangxi girl who plays tricks on her enemies in midlines. She launches a surprise attack on the enemy with the highest M.ATK, and uses obstructive skills such as TP reduction, M.ATK reduction, and stun to get ahead.
+
+##UB##
+キョンシーヘルラッシュ=Jiangxi Hell Rush
+敵全体に物理大ダメージを与え、魔法攻撃力を大ダウンさせる。=Deals massive P.DMG to all enemies and greatly lowers their M.ATK.
+r:"^敵全体に(\d+)の物理ダメージ敵全体の魔法攻撃力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' M.ATK by $2 for 18s.
+
+##S1##
+恐怖のデカドングリ=Fearful Big Acorn
+最も魔法攻撃力が高い敵１キャラに物理大ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加し、さらに魔法攻撃力を大ダウンさせる。=Deals massive P.DMG to an enemy with the highest M.ATK. If it's an M-type enemy, P.DMG dealt increases and greatly lowers its M.ATK.
+r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ対象が魔法攻撃をする敵だった場合魔法攻撃力を(\d+)ダウン$"=Cast Time: 0.59s\n►Deals $1 P.DMG to an enemy.\n\nIf an enemy with highest M.ATK is M-type:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's M.ATK by $3 for 12s.
+
+##S2##
+ぐうたらになる呪い=Curse of Laziness
+最も魔法攻撃力が高い敵１キャラのＴＰを中ダウンさせ、魔法攻撃力を特大ダウンさせ、さらにスタンさせる。=Moderately lowers an enemy's TP with the highest M.ATK, massively lowers its M.ATK, and inflicts Stun to them.
+r:"^敵単体のＴＰを(\d+)失わせる敵単体の魔法攻撃力を(\d+)ダウン敵単体を一定時間行動不能にする$"=Cast Time: 0.59s\n►Reduces an enemy's TP with highest M.ATK by $1.\n►Reduces an enemy's M.ATK with highest M.ATK by $2 for 12s.\n►Inflicts Stun to an enemy with highest M.ATK for 3s.
+
+##EX##
+キョンシーオカルトパワー=Jiangxi Occult Power
+キョンシーオカルトパワー+=Jiangxi Occult Power+
+
+##S1+##
+恐怖のデカドングリ+=Fearful Big Acorn+
+最も魔法攻撃力が高い敵１キャラに物理大ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加し、魔法攻撃力を大ダウンさせ、さらにスタンさせる。=Deals massive P.DMG to an enemy with the highest M.ATK. If it's an M-type enemy, P.DMG dealt increases, greatly lowers its M.ATK, and inflicts Stun to them.
+r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ対象が魔法攻撃をする敵だった場合魔法攻撃力を(\d+)ダウン対象が魔法攻撃をする敵だった場合一定時間行動不能にする$"=Cast time: 0.59s\nIf an enemy with highest M.ATK is P-type:\n►Deals $1 P.DMG to an enemy.\n\nIf an enemy with highest M.ATK is M-type:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's M.ATK by $3 for 12s.\n►Inflicts Stun to an enemy for 1s.
+
+##UE##
+ぐうたらキョンシーキャップ=Lazy Jiangxi Cap

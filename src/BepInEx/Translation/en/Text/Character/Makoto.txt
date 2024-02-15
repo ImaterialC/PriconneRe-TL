@@ -1,31 +1,34 @@
----Profileマコト---
+##Profile##
 お菓子作り=Making sweets
 男勝りで情に厚いワイルド娘=A wild girl who's strong-minded\nand compassionate
 
 【物理】前衛で、敵の防御力を削り取る、正義の獣人。敵の盾役の防御力を下げ、着実にダメージを与えることで早期に敵の守りを突破する。=[Physical] A beastgirl of justice that tears down enemy defenses from the vanguard. Lowers enemy tank defenses to deal solid damage, quickly destroying their protective measures.
----Skills---
----S1---
-ハードスラッシュ=Hard Slash
-ハードスラッシュ+=Hard Slash+
-目の前の敵１キャラに物理中ダメージを与える。=Deals moderate P.DMG to an enemy directly in front.
-目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を小アップさせる。=Deals large P.DMG to an enemy directly in front. Moderate boost to own P.ATK.
 
----S2---
-ブレイブハウリング=Brave Howling
+##UB##
+ウルフェンバイト=Wolven Bite
+目の前の敵１キャラに物理大ダメージを与え、さらに物理防御力を中ダウンさせる。=Deals P.DMG to an enemy directly in front and lowers its P.DEF by a moderate amount.
+
+##S1##
+ハードスラッシュ=Hard Slash
+目の前の敵１キャラに物理中ダメージを与える。=Deals moderate P.DMG to an enemy directly in front.
+
+##S2##
+ブレイブハウリング=Heroic Howl
 目の前の敵１キャラの物理防御力を中ダウンさせる。=Lowers P.DEF of an enemy directly in front by a moderate amount.
 r:"^敵単体の物理防御力を(\d+)ダウン$"=►Lowers an enemy's P.DEF by $1.
 
----UB---
-ウルフェンバイト=Wolfen Bite
-目の前の敵１キャラに物理大ダメージを与え、さらに物理防御力を中ダウンさせる。=Deals P.DMG to an enemy directly in front and lowers its P.DEF by a moderate amount.
+##EX##
+狼牙の猛撃=Raging Wolf Fang
+狼牙の猛撃+=Raging Wolf Fang+
 
----EX---
-狼牙の猛撃=Savage Wolf Fang Assault
-狼牙の猛撃+=Savage Wolf Fang Assault+
-
----UE---
-ウルフェンブレード=Wolfen Blade
-
-ウルフェンランページ=Wolfen Rampage
+##UB+##
+ウルフェンランページ=Wolven Rampage
 目の前の敵１キャラに物理特大ダメージを与え、物理防御力を特大ダウンさせる。さらに自分に【狼牙の咆哮】を付与する。【狼牙の咆哮】が付与されている間、すべてのスキルの効果値が増加する。=Deals massive P.DMG to the enemy character in front and greatly reduces their P.DEF. Additionally, grants self "Wolf's Howl." While "Wolf's Howl" is active, the effectiveness of all skills is increased.
-r:"^自分に狼牙の咆哮を付与する\n敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン$"=►Grants self Wolf's Howl.\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.
+r:"^自分に狼牙の咆哮を付与する敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=►Grants self Wolf's Howl.\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.
+
+##S1+##
+ハードスラッシュ+=Hard Slash+
+目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を小アップさせる。=Deals large P.DMG to an enemy directly in front. Moderate boost to own P.ATK.
+
+##UE##
+ウルフェンブレード=Wolven Blade

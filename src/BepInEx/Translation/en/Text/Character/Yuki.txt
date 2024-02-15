@@ -1,10 +1,8 @@
-Yuki 
-Profile
+##Profile##
 ボクは誰よりも美しい=Believes himself to be the fairest of them all
 
-【魔法】後衛で物理パーティを補助する、歩く芸術作品。味方のユニオンバースト発動を早めるスキルのほか、暗闇状態にするスキルで敵の物理攻撃を封じる。=[Magic] A living work of art that buffs physical parties from RG. Uses skills that allow allies to use UBs more quickly, and hampers enemy offense with blinding status effect.
+【魔法】後衛で物理パーティを補助する、歩く芸術作品。味方のユニオンバースト発動を早めるスキルのほか、暗闇状態にするスキルで敵の物理攻撃を封じる。=[Magic] A living work of art that buffs physical parties from the rearguard. Uses skills that allow allies to use Union Bursts more quickly, and hampers enemy offense with blinding status effects.
 鏡で自分を見ること=Looking at himself in the mirror
-
 
 ずっとボクを離さないでね=Don't Ever Let Me Go
 ウェディング・オア・ダイ=Marry Me or Else
@@ -15,46 +13,38 @@ Profile
 華麗にワーキング！=Gorgeous on the Job
 美しすぎる邂逅=A Stunning Encounter
 
-Skills
-UB
+##UB##
 ボクの美にひれ伏すがいい！=Bow to My Beauty!
 敵全体に魔法小ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals small M.DMG to all enemies in the front and lowers their P.DEF by a small amount.
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体の物理防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' P.DEF by $2 for 18s.
-S1
+r:"^敵全体に(\d+)の魔法ダメージ敵全体の物理防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' P.DEF by $2 for 18s.
+
+##S1##
+ボクの目が眩む程の美しさ♪=My Beauty Is Blinding ♪
 自分から２番目に近い敵１キャラに魔法中ダメージを与え、さらに暗闇状態にする。=Deals small M.DMG to the 2nd closest enemy and inflicts Blind.
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を暗闇状態にする$"=Cast Time: 1.93s\n►Deals $1 M.DMG to an enemy.\n►Inflicts Blind (60% miss) for 8s.
-S2
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を暗闇状態にする$"=Cast Time: 1.93s\n►Deals $1 M.DMG to an enemy.\n►Inflicts Blind (60% miss) for 8s.
 
+##S2##
+可愛いボクが応援するよ♪=The Cutest Supporter ♪
 最もＴＰが多い味方１キャラのＴＰを中回復する。=Recovers the TP of the party member with the highest TP by a medium amount.
-ex
+
+##EX##
 可愛いボクががんばるよ=The Cutest Hard Worker
-Skills+
-UB
-
-S1
-
-自分から２番目に近い敵１キャラに魔法中ダメージを与え、さらに暗闇状態と誘惑状態にする。=Deals moderate M.DMG to the 2nd closest enemy and inflicts Blind and Charm.
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体を暗闇状態にする\n敵単体を誘惑する$"=Cast Time: 1.93s\n►Deals $1 M.DMG to an enemy.\n►Inflicts Blind (60% miss) for 8s.\n►Inflicts Charm for 8s.
-S2
-
-lv261
-最もＴＰが多い味方１キャラのＴＰを中回復し、物理攻撃力を小アップさせる。=Recovers the TP of the party member with the highest TP by a medium amount and increase physical attack power by a small amount.
-
-r:"^味方単体のＴＰを(\d+)回復\n味方単体の物理攻撃力を(\d+)アップ$"=Cast Time: 1.6s\n►Recovers an ally's TP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.
-最もＴＰが多い味方１キャラのＴＰを中回復し、物理攻撃力を小アップ\nさせる。=Recover the TP of one character with the most TP and increase physical attack power.
-
-ex
 可愛いボクががんばるよ+=The Cutest Hard Worker+
 バトル開始時に自分の魔法攻撃力を中アップさせ、さらに自分の物理防御力を小アップさせる。=Moderate boost to own M.ATK and small boost to P.DEF at start of battle.
-r:"^自分の魔法攻撃力を(\d+)アップ\n自分の物理防御力を(\d+)アップ$"=►Boosts own M.ATK by $1.\n►Boosts own P.DEF by $2.
-UE
-グリッターコンパクト=Glitter Compact
+r:"^自分の魔法攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Boosts own M.ATK by $1.\n►Boosts own P.DEF by $2.
 
-可愛いボクが応援するよ♪=Cute Me Will Support You♪
-ボクの目が眩む程の美しさ♪+=The Dazzling Beauty That Blinds the Eyes♪+
-ボクの目が眩む程の美しさ♪=The Dazzling Beauty That Blinds the Eyes♪
+##UB+##
 美の神の降臨をご覧よ！=Behold the Descent of the Beauty Goddess!
-
-
-r:"^敵全体に(\d+)の低い側の防御力で防御する魔法ダメージ\n敵全体の物理防御力を(\d+)ダウン\n敵全体を誘惑する$"=►Deals $1 M/P.DMG based on the lowest defense between P/M.DEF of all enemies. \n►Lowers all enemies' P.DEF by $2 for 18s.\n►Charms all enemies for 4s.
 敵全体に対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法中ダメージを与え、物理防御力を中ダウンさせ、さらに誘惑状態にする。=If the target's P.DEF is lower than their M.DEF, deals moderate M.DMG as P.DMG to all enemies, reduces their P.DEF, and inflicts Charm status.
+r:"^敵全体に(\d+)の低い側の防御力で防御する魔法ダメージ敵全体の物理防御力を(\d+)ダウン敵全体を誘惑する$"=►Deals $1 M/P.DMG to all enemies based on their lowest defense between P/M.DEF.\n►Lowers all enemies' P.DEF by $2 for 18s.\n►Inflicts Charm to all enemies for 4s.
+
+##S1+##
+ボクの目が眩む程の美しさ♪+=My Beauty Is Blinding ♪+
+自分から２番目に近い敵１キャラに魔法中ダメージを与え、さらに暗闇状態と誘惑状態にする。=Deals moderate M.DMG to the 2nd closest enemy and inflicts Blind and Charm.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を暗闇状態にする敵単体を誘惑する$"=Cast Time: 1.93s\n►Deals $1 M.DMG to an enemy.\n►Inflicts Blind (60% miss) to an enemy for 8s.\n►Inflicts Charm to an enemy for 8s.
+## 260lvl
+最もＴＰが多い味方１キャラのＴＰを中回復し、物理攻撃力を小アップさせる。=Recovers an ally's TP with the most TP by a moderate amount and slightly boosts its P.ATK.
+r:"^味方単体のＴＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ$"=►Recovers an ally's TP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.
+
+##UE##
+グリッターコンパクト=Glitter Compact

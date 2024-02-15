@@ -1,0 +1,20 @@
+##Profile##
+【物理】前衛で猛攻から味方を守護する闇のお姉ちゃん。バトル開始時の行動不能無効スキルで周囲の味方を守り、範囲を束縛するスキルで敵を牽制し、戦況を一変する。=[Physical] A Yami Onee-chan who protects her allies from fierce attacks in the vanguard. With a skill that negates the initial disablement at the start of the battle, she protects the surrounding allies and can change the tide of battle with a skill that binds enemies in range.
+
+##UB##
+ダークネスコンビ姉ーション=Darkness Combination Sister
+前方範囲内の敵すべてに物理大ダメージを与え、味方全体の物理攻撃力を大アップさせ、さらに自分のＨＰを中回復させる。このスキルで与えたダメージに応じて物理攻撃力アップの効果量が最大２倍までアップする。=Deals large P.DMG to enemies in range and greatly boosts all allies' P.ATK, and recovers own HP by a moderate amount. The P.ATK boost increases according to P.DMG dealt by this skill, up to 2 times.
+r:"^範囲内の敵に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to enemies in 600 range.\n►Boosts all allies' P.ATK by $2 for 18s.\n►Recovers own HP by $3.
+
+##S1##
+闇のお姉ちゃんが守るよ♪=Yami Onee-chan Will Protect♪
+自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせ、物理無効バリアを展開する。バトル開始後、初弾のこのスキルは範囲内の味方が敵から受ける行動不能を３回まで無効にする。=Greatly boosts allies' P.ATK in range, and deploys Barrier that negates P.DMG. When battle begins, 1st skill usage grants immobility immunity up to 3 times to allies in range.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する初使用時、範囲内の味方の受ける行動不能を３回まで無効化する$"=Cast time: 0.94s\n►Boosts allies' P.ATK in 300 range by $1 for 12s.\n►Deploys Barrier over allies in 300 range that negates $2 P.DMG for 12s.\n\nFor the 1st skill usage:\n►Nullifies up to 3 instances of allies' incapacitation in 300 range.
+
+##S2##
+ノワールホールド=Noir Hold
+前方範囲内の敵すべてに物理中ダメージを与え、束縛する。=Deals moderate P.DMG to enemies in range and binds them.
+
+##EX##
+闇のお姉ちゃんパワー=Yami Onee-chan Power
+闇のお姉ちゃんパワー+=Yami Onee-chan Power+

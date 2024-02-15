@@ -1,7 +1,8 @@
+##Profile##
+【魔法】中衛で、幼き竜と共に歩むさいきょーの吸血姫。味方全体の強化と、敵のＴＰを吸収するスキルで力を蓄えＵＢ発動後ベスと共闘し防御ダウンと強撃で攻勢に出る。=[Magic] A formidable vampire princess who walks alongside a young dragon in midlines. She strengthens the entire party and absorbs enemy TP. After using her UB, she teams up with "Beth" to launch a relentless assault with defense debuffs and powerful strikes.
+
 釘宮理恵=Kugimiya Rie
 お散歩、お料理=A walk, Cooking
-
-【魔法】中衛で、幼き竜と共に歩むさいきょーの吸血姫。味方全体の強化と、敵のＴＰを吸収するスキルで力を蓄えＵＢ発動後ベスと共闘し防御ダウンと強撃で攻勢に出る。=[Magic] A formidable vampire princess who walks alongside a young dragon as a mid-range fighter. She strengthens the entire party and absorbs enemy TP to accumulate power. After unleashing her UB, she teams up with "Beth" to launch a relentless assault with defense debuffs and powerful strikes.
 
 ヴァンピィちゃん、登場♪=Vampy-chan Makes an Appearance♪
 けんぞくはどっちのもの？=Whose Swordsmanship is Superior?
@@ -12,28 +13,55 @@
 約束の花をあなたに=The Promise Flower for You
 吸血姫とベス人形=Vampire Princess and Beth Doll
 
+r:"^ゴロツキに絡まれていた(.{1,10})を助けてくれたのは、謎の少女ヴァンピィだった。友だちのドラゴン『ベス』を探すヴァンピィのために(.{1,10})は協力することに。$"="It was Vampy, a mysterious girl, who helped $1, who was entwined with Gorotsuki. Finding her friend's dragon "Beth".$1 decides to cooperate for Vampy."
+r:"^ベスを探す(.{1,10})とヴァンピィ。そんな二人の前に、吸血鬼のイリヤが現れる。かくして(.{1,10})を巡り、イリヤとヴァンピィによる眷属の取り合いが始まるのだった。$"=$1 and Vampy looking for Beth. A vampire, Illya, appears in front of them. Thus, over $1, Illya and Vampy began to fight for the genus.
+r:"^元々、ヴァンピィとベスは何者かに誘拐されてランドソルへ来たことを知った(.{1,10})。イリヤのコウモリのおかげでベスの居場所が判明し、ついにベスとヴァンピィは再会を果たした。$"=Originally $1 learned that Vampy and Beth had been kidnapped by someone and came to Landosol. Thanks to Illya's bats, Beth's whereabouts were revealed, and Beth and Vampy finally reunited.
+r:"^夜の学校に少女の霊が現れるという噂が囁かれていた頃。成り行きで(.{1,10})はその少女と出会い、学校案内を頼まれる。そこで(.{1,10})は、少女の本当の正体を知るのだった。$"=Around the time when rumors were whispered that a girl's spirit would appear at night school. $1 meets the girl and is asked for her school information. So $1 knew what she really was about the girl.
+r:"^ヴァンピィとベスが再会した後、ヴァンピィは自分の故郷がどこにあるのか思い出せないことが分かる。そこで(.{1,10})は、ヴァンピィを故郷へ帰すために手助けすることを決める。$"=After Vampy and Beth meet again, Vampy finds that she can't remember where her hometown is. So $1 decides to help Vampy return to his hometown.
+r:"^ヴァンピィたちを誘拐した黒幕が『伯爵』だと判明。単独で『伯爵』の屋敷へ乗り込んだヴァンピィを追って(.{1,10})はベスと一緒に城へ乗り込み、『伯爵』との決着をつけるのだった。$"="The mastermind behind the kidnapping of Vampies turned out to be the "Count". Following Vampy who had boarded the mansion of "Count" alone, $1 boarded the castle with Beth and settled with "Count"."
+r:"^『伯爵』の供述によって、ヴァンピィの故郷がすでにないことを知る。永い眠りの末、大切な記憶を失ったヴァンピィのために、(.{1,10})とベスはひとつの約束をヴァンピィに伝えるのだった。$"="The statement of "Count" tells us that Vampy's hometown is no longer there. $1 and Beth tell Vampy a promise for Vampy, who lost her precious memory after a long sleep."
+r:"^眠る(.{1,10})の前に現れたヴァンピィは、ぬいぐるみのベスを紹介。『レジェンドオブアストルム』にもベスがいると知ったヴァンピィは、(.{1,10})とゲームで会う約束をするのだった。$"="Vampy, who appeared in front of Sleeping $1, introduced Beth, a stuffed animal. Knowing that Beth is also in Legend of Astrum, Vampy promises to meet $1 in the game."
+
+##UB##
 エターナル・フレンドシップ=Eternal Friendship
 目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップさせる。さらにＴＰが無くなるまでの間ベスと共闘状態になる。=Deals massive M.DMG to the enemy in front and greatly increases her own M.ATK. Additionally, she enters a cooperative state with "Beth" until her TP is depleted.
 
+##S1##
 ブラッド・ドレイン=Blood Drain
-ブラッド・ドレイン+=Blood Drain+
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体のＴＰを75失わせる\n自分のＴＰを75回復$"=►Deals $1 M.DMG to a single enemy. \n►Reduces the TP of the target enemy by 75. \n►Recovers own TP by 75.
-目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、さらに自分のＴＰを小回復させる。=Deals high M.DMG to the enemy in front, slightly reduces TP, and also slightly recovers her own TP.
+目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、さらに自分のＴＰを小回復させる。=Deals large M.DMG to an enemy in front, slightly reduces its TP, and slightly recovers own TP.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを75失わせる自分のＴＰを75回復$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's TP by 75.\n►Recovers own TP by 75.
 
+##S2##
 クリムゾンギフト=Crimson Gift
-味方全体の魔法攻撃力を大アップさせる。=Greatly increases the magic attack power of all allies.
+味方全体の魔法攻撃力を大アップさせる。=Greatly boosts all allies' M.ATK.
 
-おしおきしちゃうよっ！+=I'll Punish You!+
-おしおきしちゃうよっ！=I'll Punish You!
-
-このスキルのスキルレベルは「エターナル・フレンドシップ」と連動しています=This skill’s level is linked to "Eternal Friendship"
-
-リトルブレス=Little Breath
+##SP1##
+このスキルのスキルレベルは「エターナル・フレンドシップ」と連動しています=This skill's level is linked to "Eternal Friendship"
 スカーレット・リンク=Scarlet Link
-目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を大アップさせる。=Deals heavy M.DMG to the enemy in front, and further increases own magic attack power.
-目の前の敵１キャラに魔法大ダメージを与え、さらに魔法防御力を大ダウンさせる。=Deals heavy M.DMG to the enemy in front, and greatly decreases their magic defense.
+目の前の敵１キャラに魔法大ダメージを与え、さらに魔法防御力を大ダウンさせる。=Deals large M.DMG to an enemy in front, and greatly lowers its M.DEF.
+## Share with NKuuka UB
 
+##SP2##
+リトルブレス=Little Breath
+目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を大アップさせる。=Deals large M.DMG to an enemy in front, and also boosts own M.ATK.
 
+##EX##
+おしおきしちゃうよっ！=I'll Punish You!
+おしおきしちゃうよっ！+=I'll Punish You!+
+
+##S1+##
+ブラッド・ドレイン+=Blood Drain+
+目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、さらに味方全体の魔法攻撃力を大アップさせ、自分のＴＰを小回復させる。=Deals large M.DMG to an enemy in front, slightly reduces its TP, greatly boosts all allies' M.ATK, and slightly recovers own TP.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを75失わせる味方全体の魔法攻撃力を(\d+)アップ自分のＴＰを75回復$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's TP by 75.\n►Boosts all allies' M.ATK by $2 for 180s.\n►Recovers own TP by 75.
+
+##SP1+##
+スカーレット・リンク+=Scarlet Link+
+目の前の敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を大ダウンさせる。=Deals massive M.DMG to an enemy in front, and greatly lowers its M.DEF.
+
+##UE##
+ベスちゃん=Beth-chan
+
+##Comments##
 ねぇねぇ、けんぞくぅ～♪\n…えへへ！　なんでもなーい！\nちょっと言ってみたかっただけ♪\n=Hey, hey, Kensoku~♪ ...Ehehe! It's nothing, really! I just wanted to say it for fun♪
 もーけんぞくは世話が焼けるんですからー\nご主人様として、けんぞくのことは\nヴァンピィちゃんが見ててあげないと！\n=But Kensoku can be quite a handful, you know. As your master, Vampy-chan needs to look after Kensoku!
 …そーだよ？　ヴァンピィちゃんは\nアンタのことすっごく気に入ってるんだから！\n大切に、大切にするんだからね！\n=...That's right, Vampy-chan really likes you! I'll cherish you, I promise!
@@ -45,23 +73,3 @@ r:"^敵単体に(\d+)の魔法ダメージ\n敵単体のＴＰを75失わせる\
 アンタは、ヴァンピィちゃんのそばにいること！\n…え？　他にはないのか？\nうん！　それだけでいいの！　約束だよ、けんぞくぅ♪\n=You need to stay by Vampy-chan's side! ...Huh? Isn't there anything else? Nope! That's all! It's a promise, Kensoku~♪
 けんぞくを助けたり守るのは、ご主人様のぎむなの！\nだから、困ったときはヴァンピィちゃんに言うのよ？\nそのかわり…\n=It's your duty as a master to help and protect Kensoku! So, when you're in trouble, tell Vampy-chan, okay? In return...
 いーい？\nまだ、ほんとーのけーやくは結んでないけど\nアンタはヴァンピィちゃんのけんぞくなんだからね？\n=Alright? We haven't officially made the true contract yet, but since you're Vampy-chan's Kensoku, right?
-
-
-
-
-
-
-r:"^ゴロツキに絡まれていた(.{1,10})を助けてくれたのは、謎の少女ヴァンピィだった。友だちのドラゴン『ベス』を探すヴァンピィのために(.{1,10})は協力することに。$"="It was Vampy, a mysterious girl, who helped $1, who was entwined with Gorotsuki. Finding her friend's dragon "Beth".$1 decides to cooperate for Vampy."
-r:"^ベスを探す(.{1,10})とヴァンピィ。そんな二人の前に、吸血鬼のイリヤが現れる。かくして(.{1,10})を巡り、イリヤとヴァンピィによる眷属の取り合いが始まるのだった。$"=$1 and Vampy looking for Beth. A vampire, Illya, appears in front of them. Thus, over $1, Illya and Vampy began to fight for the genus.
-r:"^元々、ヴァンピィとベスは何者かに誘拐されてランドソルへ来たことを知った(.{1,10})。イリヤのコウモリのおかげでベスの居場所が判明し、ついにベスとヴァンピィは再会を果たした。$"=Originally $1 learned that Vampy and Beth had been kidnapped by someone and came to Landosol. Thanks to Illya's bats, Beth's whereabouts were revealed, and Beth and Vampy finally reunited.
-
-r:"^夜の学校に少女の霊が現れるという噂が囁かれていた頃。成り行きで(.{1,10})はその少女と出会い、学校案内を頼まれる。そこで(.{1,10})は、少女の本当の正体を知るのだった。$"=Around the time when rumors were whispered that a girl's spirit would appear at night school. $1 meets the girl and is asked for her school information. So $1 knew what she really was about the girl.
-
-r:"^ヴァンピィとベスが再会した後、ヴァンピィは自分の故郷がどこにあるのか思い出せないことが分かる。そこで(.{1,10})は、ヴァンピィを故郷へ帰すために手助けすることを決める。$"=After Vampy and Beth meet again, Vampy finds that she can't remember where her hometown is. So $1 decides to help Vampy return to his hometown.
-
-r:"^ヴァンピィたちを誘拐した黒幕が『伯爵』だと判明。単独で『伯爵』の屋敷へ乗り込んだヴァンピィを追って(.{1,10})はベスと一緒に城へ乗り込み、『伯爵』との決着をつけるのだった。$"="The mastermind behind the kidnapping of Vampies turned out to be the "Count". Following Vampy who had boarded the mansion of "Count" alone, $1 boarded the castle with Beth and settled with "Count"."
-
-r:"^『伯爵』の供述によって、ヴァンピィの故郷がすでにないことを知る。永い眠りの末、大切な記憶を失ったヴァンピィのために、(.{1,10})とベスはひとつの約束をヴァンピィに伝えるのだった。$"="The statement of "Count" tells us that Vampy's hometown is no longer there. $1 and Beth tell Vampy a promise for Vampy, who lost her precious memory after a long sleep."
-
-r:"^眠る(.{1,10})の前に現れたヴァンピィは、ぬいぐるみのベスを紹介。『レジェンドオブアストルム』にもベスがいると知ったヴァンピィは、(.{1,10})とゲームで会う約束をするのだった。$"="Vampy, who appeared in front of Sleeping $1, introduced Beth, a stuffed animal. Knowing that Beth is also in Legend of Astrum, Vampy promises to meet $1 in the game."
-

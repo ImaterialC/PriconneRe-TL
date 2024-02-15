@@ -1,26 +1,27 @@
-Rem 
----Profile
-レム=Rem 
+##Profile##
 鬼がかりの万能妹メイド=A younger twin maid who is fanatical as a demon
+【物理】中衛で、鬼の力で敵を粉砕する、双子の妹。回復スキルの他にも、温度を操るスキルを得意とし、敵を凍結させた上でユニオンバーストで薙ぎ払う。=[Physical] A younger twin who crushes enemies from the midguard with demonic strength. Aside from healing, she can also control temperature, allowing her to freeze enemies in place before obliterating them with her Union Burst.
 
----Skills
----UB
+##UB##
 アル・ヒューマ=Al Huma
 前方範囲内の敵すべてに物理大ダメージを与える。行動不能状態の敵に対してはダメージが上昇する。=Deals large P.DMG to all enemies in range. Damage boost for enemies that are unable to move.
-r:"^範囲内の行動不能の敵すべてに(\d+)の物理ダメージ\n範囲内のその他の敵すべてに(\d+)の物理ダメージ$"=Deals $1 P.DMG to all immobile enemies in range.\nDeals $1 P.DMG to all other enemies in range.
----S1
+r:"^範囲内の行動不能の敵すべてに(\d+)の物理ダメージ範囲内のその他の敵すべてに(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all immobile enemies in range.\n►Deals $1 P.DMG to all other enemies in range.
+
+##S1##
+エル・ヒューマ=El Huma
 目の前の敵１キャラに物理中ダメージを与え、さらに凍結させる。=Deals moderate P.DMG to an enemy directly in front and inflicts Freeze.
 
----S2
----ex
+##S2##
+アクアヒーリング=Aqua Healing
+最もＨＰが低い味方１キャラのＨＰを中回復させる。=Recovers the HP of the ally with the lowest HP by a moderate amount.
+
+##EX##
 鬼がかってます！=Fanatical as a Demon
----Skills+
----UB
----S1
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに凍結させる。=It does P.DMG to all enemies within the range of 1 character in front of you, and further freezes.
-r:"^範囲内の敵すべてに(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする$"=P.DMG of $1 to all enemies within the range\nMake enemies in the range unable to act for a certain period of time
----S2
----ex
 鬼がかってます！+=Fanatical as a Demon+
----UE
-レムの髪飾り=Rem hair ornament
+
+##S1+##
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに凍結させる。=It does P.DMG to all enemies within the range of 1 character in front of you, and further freezes.
+r:"^範囲内の敵すべてに(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=►Deals $1 P.DMG to all enemies in range.\n►Renders enemies in range immobile for a set period of time.
+
+##UE##
+レムの髪飾り=Rem's Hair Ornament

@@ -1,24 +1,24 @@
-【物理】後衛で、相棒と共に山を駆ける新米レンジャー。スキルで自分の攻撃力とクリティカル時のダメージを上げＴＰを回復し、ダメージと防御力ダウンで敵を追い込む。=[Physical] A fresh new Ranger who dashes through the mountains with her partner in the backline. She use skills to increase own P.ATK and P.crit dmg, as well as recover TP. She also use skills to inflict P.DMG and decrease the enemy's P.DEF, pushing them into a corner.
+##Profile##
+【物理】後衛で、相棒と共に山を駆ける新米レンジャー。スキルで自分の攻撃力とクリティカル時のダメージを上げＴＰを回復し、ダメージと防御力ダウンで敵を追い込む。=[Physical] A fresh new Ranger who dashes through the mountains with her partner in backline. She use skills to increase own P.ATK and P.CRIT DMG, as well as recover TP. She also use skills to deal P.DMG and lower an enemy's P.DEF, pushing them into a corner.
 
 魔物襲撃事件を追え=Track Down the Monster Attack Incident
 救えなかった命、救えた命=Lives That Couldn't Be Saved, Lives That Could Be Saved
 明日への希望と小さな約束=Hope for Tomorrow and Small Promises
 シオリの戦い方=Shiori's Way of Fighting
 
+##UB##
 アローアンドクロウ=Arrow and Claw
 
+##S1##
 レンジャーアロー=Ranger Arrow
-レンジャーアロー+=Ranger Arrow+
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n自分のＴＰを150回復$"=Cast time: 0.44s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Recovers own TP by 150.
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに自分のＴＰを中回復させる。=Deals large P.DMG to an enemy in front, and slightly lowers its P.DEF. Additionally, recovers own TP by a moderate amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分のＴＰを150回復$"=Cast time: 0.44s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Recovers own TP by 150.
 
-目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに自分のＴＰを中回復させる。=Deal a large amount of P.DMG to the enemy character in front of you, and decrease their P.DEF by a small amount. Additionally, recover own TP by a moderate amount.
+##S2##
+フォレストブレッシング=Forest Blessing
+自分の物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＴＰを中回復する。=Greatly boosts own P.ATK and slightly boosts own P.CRIT DMG. Additionally, recovers own TP by a moderate amount.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを8％アップ自分のＴＰを150回復$"=Cast time: 0.44s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 8% for 180s.\n►Recovers own TP by 150.
 
-
-
-フォレストブレッシング=Forest Break
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを8％アップ\n自分のＴＰを150回復$"=Cast time: 0.44s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.crit dmg by 8% for 180s.\n►Recovers own TP by 150.
-
-自分の物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＴＰを中回復する。=Boost own P.ATK power by a large amount and slightly increase the P.crit dmg. Also recover TP by a medium amount.
-
+##EX##
 コンビネーションハント=Combination Hunt
 コンビネーションハント+=Combination Hunt+

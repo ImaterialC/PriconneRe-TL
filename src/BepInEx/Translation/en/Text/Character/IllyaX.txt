@@ -1,0 +1,27 @@
+##Profile##
+【魔法】前衛で、血を対価に敵を攻撃する聖夜の吸血鬼。残りＨＰが低い程ダメージが上昇するスキルと、ＨＰを消費するスキルを組み合わせ、絶大な破壊力を発揮する。=[Magic] A festive vampire who pays a price in blood to deal potent strikes from the front lines. By consuming HP with her skills to fuel attacks that grow more powerful when her health is low, she can output terrifying levels of damage.
+
+##UB##
+ヴァーミリオンノエル=Vermilion Nowell
+目の前の敵１キャラに魔法特大ダメージを与え、さらに自分の魔法攻撃力を中アップさせる。イリヤのＨＰが低い程ダメージがアップする。=Deals massive M.DMG to an enemy directly in front and moderately boosts own M.ATK. Deals more damage the lower Illya's HP.
+
+##S1##
+バットカーニバル=Bat Carnival
+目の前の敵１キャラに魔法中ダメージを与える。イリヤのＨＰが低い程ダメージがアップする。=Deals moderate M.DMG to an enemy directly in front. Deals more damage the lower Illya's HP.
+
+##S2##
+ブラッディソーン=Bloody Thorn
+前方範囲内の敵すべてに魔法中ダメージを与え、さらに自分の魔法攻撃力を中アップさせるが、残りＨＰの20%を消費する。イリヤのＨＰが低い程ダメージがアップする。=Deals moderate M.DMG to all enemies in range and moderately boosts own M.ATK, at the cost of 20% of own HP. Deals more damage the lower Illya's HP.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の残りＨＰの20%を消費$"=►Deals $1 M.DMG to all enemies in 615 range.\n►Boosts own M.ATK by $2 for 12s.\n►Consumes 20% of own remaining HP.
+
+##EX##
+聖夜の盟約=Silent Night Pact
+聖夜の盟約+=Silent Night Pact+
+
+##S1+##
+バットカーニバル+=Bat Carnival+
+自分の魔法攻撃力を小アップさせ、さらに目の前の敵１キャラに魔法大ダメージを与える。イリヤのＨＰが低い程、攻撃力の上昇量とダメージがアップする。=Slightly boosts own M.ATK and deals large M.DMG to an enemy directly in front. Boosts more own M.ATK and deals more damage the lower Illya's HP.
+r:"^自分の魔法攻撃力を(\d+)アップ敵単体に(\d+)の魔法ダメージ$"=►Boosts own M.ATK by $1 for 180s.\n►Deals $2 M.DMG to an enemy.
+
+##UE##
+聖夜斧ノエルファング=Holy Night Axe Noelfang

@@ -1,31 +1,28 @@
-【物理】前衛で、味方を庇護し祝福する聖白の騎士団長。スキルで後方の味方の攻撃能力を強化、ＴＰを回復させ、防御力ダウンと自分のＨＰを回復するＵＢで勝機を掴む。=[Physical] The leader of the Holy White Knights who protects and blesses her allies in the VG. She buff the allies behind her, recovers TP, and grabs a chance to win with UB, which lowers defense and recovers her own HP.
+##Profile##
+【物理】前衛で、味方を庇護し祝福する聖白の騎士団長。スキルで後方の味方の攻撃能力を強化、ＴＰを回復させ、防御力ダウンと自分のＨＰを回復するＵＢで勝機を掴む。=[Physical] A leader of the Holy White Knights who protects and blesses her allies in the vanguard. She boosts allies behind her, recovers TP, and grabs a chance to win with UB, which lowers defense and recovers her own HP.
 
+##UB##
 ソードオブノエル=Sword of Noel
-目の前の敵１キャラに物理大ダメージを与え、物理防御力を大ダウンさせる。さらに自分のＨＰを大回復する。=Inflicts a large amount of P.DMG to the first enemy character in front of you, and Large reduces their P.DEF. Also restores a large amount of your HP.
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を大ダウンさせる。さらに自分のＨＰを大回復する。=Deals large P.DMG to an enemy in front, and greatly lowers its P.DEF. Also recovers own HP by a large amount.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Recovers own HP by $3.
 
-r:"^敵単体に(\d+)の物理ダメージ\n敵単体の物理防御力を(\d+)ダウン\n自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Recovers own HP by $3.
+##S1##
+セイントエンハンス=Saint Enhancement
+最も後ろの味方から前方範囲内の味方すべての物理攻撃力を大アップ、物理クリティカルを中アップし、ＴＰを小回復する。=Greatly boosts allies' P.ATK in range around a rearmost ally, moderately boosts their P.CRIT Rate, and slightly recovers their TP.
 
-最も後ろの味方から前方範囲内の味方すべての物理攻撃力を大アップ、物理クリティカルを中アップし、ＴＰを小回復する。=Large boost the allies' P.ATK within range from the rearmost ally, moderately boost P.crit, and recovers a small amount of TP.
+##S2##
+ブレッシングホーン=Blessing Horn
+目の前の敵１キャラに物理中ダメージを与え、自分に物理/魔法吸収バリアを展開する。さらに最も後ろの味方から前方範囲内の味方すべての物理攻撃クリティカル時のダメージを小アップする。=Deals moderate P.DMG to an enemy in front and deploys Barrier over oneself that absorbs P/M.DMG. Additionally, slightly boosts allies' P.CRIT DMG in range around a rearmost ally.
+r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法吸収バリアを展開する範囲内の味方の物理攻撃クリティカル時のダメージを8％アップ$"=Cast time: 1.795s\n►Deals $1 P.DMG to an enemy.\n►Deploy Barrier over oneself that absorbs $2 P/M.DMG for 12s.\n►Boosts allies' P.CRIT DMG in 150 range by 8% for 12s.
 
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを50アップ\n範囲内の味方のＴＰを80回復$"=Cast time: 1.795s\n►Boosts allies' P.ATK within 150 range by $1 for 12s.\n►Boosts allies' P.Crit Rate within 150 range by 50 for 12s.\n►Recovers allies' TP within 150 range by 80.
-
-目の前の敵１キャラに物理中ダメージを与え、自分に物理/魔法吸収バリアを展開する。さらに最も後ろの味方から前方範囲内の味方すべての物理攻撃クリティカル時のダメージを小アップする。=Inflicts moderate P.DMG to enemy in front and creates a P/M absorption barrier on self. In addition, slightly increase P.crit dmg for all allies within range from the rearmost ally to the front.
-
-r:"^敵単体に(\d+)の物理ダメージ\n(\d+)ダメージ分の物理魔法吸収バリアを展開する\n範囲内の味方の物理攻撃クリティカル時のダメージを8％アップ$"=Cast time: 1.795s\n►Deals $1 P.DMG to an enemy.\n►Deploy Barrier that absorbs $2 P.DMG and M.DMG for 12s.\n►Boosts P.Crit dmg of all allies within 150 range by 8% for 12s.
-
+##EX##
 セイントジャスティス=Saint Justice
 セイントジャスティス+=Saint Justice+
-ブレッシングホーン=Blessing Horn
-ブレッシングホーン+=Blessing Horn+
-セイントエンハンス=Saint Enhancement
+
+##S1+##
 セイントエンハンス+=Saint Enhancement+
+最も後ろの味方から前方範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップし、ＴＰを小回復する。=Greatly boosts allies' P.ATK in range around a rearmost ally, massively boosts their P.CRIT Rate, and slightly recovers their TP.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方のＴＰを(\d+)回復$"=Cast time: 1.795s\n►Boosts allies' P.ATK in 150 range by $1 for 12s.\n►Boosts allies' P.CRIT Rate in 150 range by $2 for 12s.\n►Recovers allies' TP in 150 range by $3.
+
+##UE##
 聖女仮面の鎧=Armor of the Holy Maiden Mask
-
-
-最も後ろの味方から前方範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップし、ＴＰを小回復する。=From the rearmost ally to all allies within the front range, greatly boosts the P.ATK, massively boosts P.CRIT, and slightly recovers TP.
-
-
-範囲内の味方の物理攻撃力を8610アップ\n範囲内の味方の物理クリティカルを100\nアップ\n範囲内の味方のＴＰを100回復=Ally within AoE's Physical ATK increased by 8610, ally'sPhysical Critical restored by 100, allied's TP recovered by 100
-
-
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ\n範囲内の味方の物理クリティカルを100アップ\n範囲内の味方のＴＰを100回復$"=Cast time: 1.795s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.Crit Rate within 150 range by 100 for 12s.\n►Recovers allies' TP within 150 range by 100.

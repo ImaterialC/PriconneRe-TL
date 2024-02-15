@@ -1,0 +1,28 @@
+##Profile##
+【物理】中衛で愛と希望の力を胸に指揮を執る魔法提督。ユニオンバーストで敵単体の物理防御力を下げ、範囲内の味方の物理攻撃力アップスキルで、一気に戦況を決める。=[Physical] A Magic Admiral who takes command with the power of love and hope in her heart from midlines. After lowering P.DEF of a single enemy with her Union Burst and boosting P.ATK of allies nearby with her skills, she decides the state of the battle all at once.
+
+##UB##
+スカイラブリーハリケーン=Sky Lovely Hurricane
+目の前の敵１キャラに物理大ダメージを与え、さらに自分の行動速度を大アップさせる。このスキルのダメージと行動速度の上昇量は、ユニオンバーストを使用するたび増加する。（最大４回）=Deals massive P.DMG to an enemy in front and massively boosts own action speed. The damage and action speed increase of this skill accumulate with each Union Burst used. (Up to 4 times)
+r:"^敵単体に(\d+)の物理ダメージ自分の行動速度アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own action speed to 150% for 12s.
+
+##S1##
+ラブリーオーダー=Lovely Order
+自分を中心とした範囲内の味方の物理攻撃力を中アップさせる。自分の物理攻撃力が高い程、攻撃力の上昇量がアップする。=Moderately boosts allies' P.ATK in range around herself. The P.ATK boost increases according to own P.ATK.
+
+##S2##
+ラブリーインパルス=Lovely Impulse
+目の前の敵１キャラに物理中ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復させる。このスキルで与えたダメージ量に応じてＨＰの回復量がアップする。=Deals moderate P.DMG to an enemy in front, and also slightly recovers an ally's HP with the lowest HP. The amount of HP recovered increases according to the amount of damage dealt with this skill.
+r:"^敵単体に(\d+)の物理ダメージ味方単体のＨＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers an ally's HP by $2.
+
+##EX##
+マジカルブレイブ=Magical Brave
+マジカルブレイブ+=Magical Brave+
+
+##S1+##
+ラブリーオーダー+=Lovely Order+
+自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、物理クリティカルを大アップさせる。自分の物理攻撃力と自分を中心とした範囲内の味方の人数に応じて、物理攻撃力の上昇量がアップする。=Moderately boosts allies' P.ATK in 150 range around herself, and greatly boosts their P.CRIT Rate. The P.ATK boost increases according to own P.ATK and number of allies in range around herself.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ$"=►Boosts allies' P.ATK in range by $1.\n►Boosts allies' P.CRIT Rate in range by $2.
+
+##UE##
+マジカルラブリーソード=Magical Lovely Sword

@@ -1,25 +1,32 @@
+##Profile##
 【物理】前衛で、戦場を跳ね回るラビット姿の誓約女君。物理攻撃を全て回避するスキルと攻撃力の強化で敵陣に単身特攻をかけ、ＵＢの範囲攻撃で敵を内から薙ぎ倒す。=[Physical] The Regina Geas in a bunny outfit, hopping around the frontlines. She can use her skills to avoid all P.ATKs while strengthening her own to deal a single devastating blow to the enemy and mowing down the rest with her AoE UB.
 
-ブルートゥスアヴァロン=Brutus Avalon
-グリーディカオス=Greedy Chaos
-グリーディカオス+=Greedy Chaos+
-ラピッドラビット=Rapid Rabbit
-ラピッドラビット+=Rapid Rabbit+
-エレベーション=Elevation
-
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ず命中し、１ヒットは必ずクリティカルする。=Deals large physical damage to all enemies within range centering on the first enemy character in front. This attack cannot miss, and is always a critical hit.
-目の前の敵１キャラに物理中ダメージを与え大きく吹き飛ばす。さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ずクリティカルする。=Deals moderate physical damage to one enemy character in front and knocks them back. Additionally, deals great physical damage to all enemies within an area centered on the user. This attack is always a critical hit.
-
-
-r:"^自分の物理攻撃力を(\d+)アップ\n一定時間全ての物理攻撃を回避する$"=Cast Time: 0.46s\n►Boosts own P.ATK by $1 for 180s.\n►Dodges all P.ATKs for 6s.
-自分を一定時間全ての物理攻撃を回避する状態にする。さらに物理攻撃力を大アップさせる。=Allows you to evade all physical attacks for a set period of time. Also boost physical attack power.
-
-ワイルドバニーアーマー=Wild Bunny Armor
 狂乱の街角インタビュー=Crazy Street Corner Interview
 ほっぷすてっぷ大乱闘☆=Hop Step Brawl☆
 ありのままの獣=The Untamed Beast
 誓約女君にお仕置きを=Punishment for the Regina Geas
 
-目の前の敵１キャラに物理大ダメージを与え大きく吹き飛ばす。さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ず命中し、クリティカルする。さらに自分のＴＰを小回復する。=Deals massive P.DMG to the enemy in front and knocks them back. Additionally, deals massive P.DMG to all enemies within an area centered on the user. This attack is always a critical hit. Furthermore, slightly recovers user's TP.
+##UB##
+ブルートゥスアヴァロン=Brutus Avalon
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ず命中し、１ヒットは必ずクリティカルする。=Deals large P.DMG to enemies in range. This attack always hits, and one hit is always a critical hit.
 
-r:"^敵単体に(\d+)の物理ダメージ\n範囲内の敵に(\d+)の物理ダメージ\n自分のＴＰを60回復$"=Cast time: 0.525s\n►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to enemies within 450 range.\n►Recovers own TP by 60 .
+##S1##
+ラピッドラビット=Rapid Rabbit
+目の前の敵１キャラに物理中ダメージを与え大きく吹き飛ばす。さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ずクリティカルする。=Deals moderate P.DMG to an enemy in front, blowing them away. Deals large P.DMG to enemies in range. This attack is always critical.
+
+##S2##
+エレベーション=Elevation
+自分を一定時間全ての物理攻撃を回避する状態にする。さらに物理攻撃力を大アップさせる。=Dodges all P-type attacks for a set period of time. Also greatly boosts own P.ATK.
+r:"^自分の物理攻撃力を(\d+)アップ一定時間全ての物理攻撃を回避する$"=Cast time: 0.46s\n►Boosts own P.ATK by $1 for 180s.\n►Dodges all P-type attacks for 6s.
+
+##EX##
+グリーディカオス=Greedy Chaos
+グリーディカオス+=Greedy Chaos+
+
+##S1+##
+ラピッドラビット+=Rapid Rabbit+
+目の前の敵１キャラに物理大ダメージを与え大きく吹き飛ばす。さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ず命中し、クリティカルする。さらに自分のＴＰを小回復する。=Deals massive P.DMG to an enemy in front, blowing them away. Additionally, deals massive P.DMG to enemies in range. This attack always hits and is always a critical hit. Also, slightly recovers own TP.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ自分のＴＰを60回復$"=Cast time: 0.525s\n►Deals $1 P.DMG to an enemy.\n►Knockbacks an enemy by 300 units.\n►Deals $2 P.DMG to enemies in 450 range.\n►Recovers own TP by 60.
+
+##UE##
+ワイルドバニーアーマー=Wild Bunny Armor

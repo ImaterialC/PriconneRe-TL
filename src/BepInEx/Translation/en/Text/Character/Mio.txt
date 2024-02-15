@@ -1,1 +1,28 @@
+##Profile##
 スーパースターを目指す元気娘☆☆★=Energetic girl aiming to be a superstar ☆☆★
+
+【魔法】後衛で攻防共に活躍するパッション溢れる少女。\nダメージを受けた味方中心に回復魔法で補助をし、\nさらに魔法攻撃を仕掛けて、敵を一網打尽にする。=[Magic] A passionate girl who contributes to both offense and defense from the rearguard. While supporting damaged allies with targeted healing, she fires off magical attacks to decimate the enemy formation.
+
+##UB##
+スパークル・マジック=Sparkle Magic
+目の前の敵１キャラに魔法特大ダメージを与え、さらに自分の魔法攻撃力を大アップさせる。=Deals massive M.DMG to an enemy directly in front. Large boost to own M.ATK.
+
+##S1##
+トリプル・スター=Triple Star
+目の前の最大３キャラまでの敵に魔法小ダメージを与える。このダメージは、遠い敵ほど増加する。=Deals small M.DMG to up to three enemies directly in front. This damage increases the more distant the enemy.
+
+##S2##
+進め☆ファイトエール=Keep On Fighting! ☆
+最もＨＰが低い味方１キャラを中心とした範囲内の味方すべてのＨＰを小回復する。=Inflicts Bind on all enemies in range.
+
+##EX##
+天性の魅力=Natural Charm
+天性の魅力+=Natural Charm+
+
+##S1+##
+トリプル・スター+=Triple Star+
+目の前の最大３キャラまでの敵に魔法中ダメージを与え、自分のＴＰを小回復し、魔法攻撃力を中アップ。このダメージは、遠い敵ほど増加する。=Deals moderate M.DMG to up to three enemies directly in front, slightly recovers own TP, and boosts own M.ATK by a moderate amount. This damage increases the more distant the enemy.
+r:"^１番目に近い敵単体に(\d+)の魔法ダメージ２番目に近い敵単体に(\d+)の魔法ダメージ３番目に近い敵単体に(\d+)の魔法ダメージ自分のＴＰを(\d+)回復自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to 1st nearest enemy.\n►Deals $2 M.DMG to 2nd nearest enemy.\n►Deals $3 M.DMG to 3rd nearest enemy.\n►Recovers own TP by $4.\n►Boosts own M.ATK by $5 for 180s.
+
+##UE##
+ステージオブパッション=Passion Stage

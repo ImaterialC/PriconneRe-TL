@@ -1,6 +1,7 @@
+##Profile##
 人見知りであまのじゃくな女の子=A timid girl who's scared of strangers
 
-【魔法】中衛から、強力な魔法で攻め立てる、双子の姉。自身のＨＰと引き換えに魔法攻撃力を増幅し、ユニオンバーストやスキルの威力を高めて攻撃する。=[Magic] An elder twin who attacks with powerful magic from the MG. Boosts M.ATK at the cost of her own HP to enhance the destructive ability of her UB and skills.
+【魔法】中衛から、強力な魔法で攻め立てる、双子の姉。自身のＨＰと引き換えに魔法攻撃力を増幅し、ユニオンバーストやスキルの威力を高めて攻撃する。=[Magic] An elder twin who attacks with powerful magic from the midguard. Boosts magic power at the cost of her own HP to enhance the destructive ability of her Union Burst and skills.
 ゲーム全般=All type games
 
 最高のパートナー=The Best Partner
@@ -18,29 +19,31 @@
 わ…私、人見知りで…=A Shy Girl's Struggles
 
 
-Skills
-UB
+##UB##
 ライトニングジャベリン=Lightning Javelin
 前方範囲内の敵すべてに魔法中ダメージを与える。=Deals moderate M.DMG to all enemies in range.
-S1
-ＨＰを消費して、自分の魔法攻撃力を大アップさせる。=Large boost to own M.ATK at the cost of HP.
-r:"^自分のＨＰを(\d+)消費\n自分の魔法攻撃力を(\d+)アップ$"=Cast Time: 1.25s\nReduces own HP by $1.\nBoosts own M.ATK by $2.
-S2
-前方範囲内の敵すべてに魔法小ダメージを与える。=Deals moderate M.DMG to all enemies in range.
-ex
-ライトニングブースト=Lightning Surge
 
-Skills+
-UB
+##S1##
+オーバーチャージ=Overcharge
+ＨＰを消費して、自分の魔法攻撃力を大アップさせる。=Large boost to own M.ATK at the cost of HP.
+r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ$"=Cast Time: 1.25s\n►Reduces own HP by $1.\n►Boosts own M.ATK by $2.
+
+##S2##
+シャドウブラスト=Shadow Blast
+前方範囲内の敵すべてに魔法小ダメージを与える。=Deals moderate M.DMG to all enemies in range.
+
+##EX##
+ライトニングブースト=Lightning Surge
+ライトニングブースト+=Lightning Surge+
+
+##UB+##
 ジャッジメントジャベリン=Judgment Javelin
 前方範囲内の敵すべてに魔法大ダメージを与える。ヨリのＨＰが低いほど、ダメージがアップする。=Great M.DMG to all enemies within the front range. The lower the HP of Yori, the more damage it will increase.
-S1
+
+##S1+##
+オーバーチャージ+=Overcharge+
 ＨＰを消費して、自分の魔法攻撃力を特大アップさせ、さらにＴＰを中回復させる。=Massive boost to own M.ATK at the cost of HP. Recovers own TP by a moderate amount.
-r:"^自分のＨＰを(\d+)消費\n自分の魔法攻撃力を(\d+)アップ\n自分のＴＰを(\d+)回復$"=Cast Time: 1.25s\nReduces own HP by $1.\nBoosts own M.ATK by $2.\nRecovers own TP by $3.
-S2
+r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ自分のＴＰを(\d+)回復$"=Cast Time: 1.25s\n►Reduces own HP by $1.\n►Boosts own M.ATK by $2.\n►Recovers own TP by $3.
 
-
-ex
-ライトニングブースト+=Lightning Surge+
-UE
+##UE##
 デモンズジャベリン=Demon's Javelin

@@ -1,45 +1,7 @@
-Bio
+##Profile##
 【魔法】中衛で、魔法パーティの強化を担う、双子の妹。敵の魔法防御力を大幅に下げるスキルや、魔法攻撃力を上昇させ、回復効果を付与するユニオンバーストを使う。=[Magic] A younger twin who strengthens magic-oriented parties from the midlines. Has skills that drastically reduce enemy magic defense and a Union Burst that boosts magic attack and grants a healing effect.
 
-
-Profile
 サックス=Playing the saxophone
-
-Skills
-スイートデビルエール=Little Devil's Cheer
-メルティデビルチャーム=Melty Devil Charm
-スウィートイグニッション=Sweet Ignition
-スウィートイグニッション+=Sweet Ignition+
-小悪魔のキス=Impish Kiss
-シャドウボルト+=Shadow Bolt+
-シャドウボルト=Shadow Bolt
-
-UB (6 star)
-味方全体の魔法攻撃力を特大アップさせ、魔法クリティカルを大アップさせ、次の攻撃のダメージ量に応じ\nて追加でＨＰを回復させる。さらに敵全体の魔法防御力を小ダウンさせる。=Moderate boost to allies' M.ATK and large boost to allies' M.Crit Rate. Heals all allies based on the damage of their next attack. Lowers M.DEF of all enemies by a small amount.
-
-r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ\n敵全体の魔法防御力を(\d+)ダウン$"=►Grants lifesteal to allies' next attack.\n►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.Crit rate by $2 for 18s.\n►Lowers all enemy’s M.DEF by $3 for 18s.
-UB (Need Non-6*)
-味方全体の魔法攻撃力を小アップさせ、さらに次の攻撃のダメージ量に応じて追加でＨＰを回復させる。=Small boost to allies' M.ATK and recovers their HP based on the damage dealt by their next attack.
-r:"^味方全体の魔法攻撃力を(\d+)アップ$"=►Boosts allies' M.ATK by $1.
-
-Skill 1 (with UE)
-目の前の敵１キャラに魔法大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and lowers M.DEF by a small amount.
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy’s M.DEF by $2.
-
-Skill 1 (no UE) (Need Non-UE)
-目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
-r:"^敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.
-
-Skill 2
-目の前の敵１キャラの魔法防御力を大ダウンさせる。=Lowers M.DEF of an enemy directly in front by a moderate amount.
-r:"^敵単体の魔法防御力を(\d+)ダウン$"=►Lowers an enemy’s M.DEF by $1.
-Unique
-デモンズトライデント=Demon's Trident
-
-EX
-バトル開始時に自分の魔法攻撃力を中アップさせる。=Moderate boost to own M.ATK at start of battle.
-
-Story
 甘え上手なみんなの人気者=The town darling who everyone wants to dote on
 
 等身大の『自分らしさ』=Life-Size "Personality"
@@ -55,3 +17,36 @@ Story
 お願いします、コーチ！=Please Train Me, Coach!
 もう限界ですぅ=I'm at My Limit!
 アカリ、落ちちゃうよぉ！=Catch Me in Your Arms!
+
+##UB##
+スイートデビルエール=Little Devil's Cheer
+味方全体の魔法攻撃力を小アップさせ、さらに次の攻撃のダメージ量に応じて追加でＨＰを回復させる。=Small boost to allies' M.ATK and recovers their HP based on the damage dealt by their next attack.
+r:"^味方全体の魔法攻撃力を(\d+)アップ$"=►Boosts all allies' M.ATK by $1.
+
+##S1##
+シャドウボルト=Shadow Bolt
+目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
+r:"^敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.
+
+##S2##
+小悪魔のキス=Impish Kiss
+目の前の敵１キャラの魔法防御力を大ダウンさせる。=Lowers M.DEF of an enemy directly in front by a moderate amount.
+r:"^敵単体の魔法防御力を(\d+)ダウン$"=►Lowers an enemy's M.DEF by $1.
+
+##EX##
+スウィートイグニッション=Sweet Ignition
+スウィートイグニッション+=Sweet Ignition+
+バトル開始時に自分の魔法攻撃力を中アップさせる。=Moderate boost to own M.ATK at start of battle.
+
+##UB+##
+メルティデビルチャーム=Melty Devil Charm
+味方全体の魔法攻撃力を特大アップさせ、魔法クリティカルを大アップさせ、次の攻撃のダメージ量に応じ\nて追加でＨＰを回復させる。さらに敵全体の魔法防御力を小ダウンさせる。=Moderate boost to allies' M.ATK and large boost to allies' M.CRIT Rate. Heals all allies based on the damage of their next attack. Lowers M.DEF of all enemies by a small amount.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ敵全体の魔法防御力を(\d+)ダウン$"=►Grants lifesteal to allies' next attack.\n►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.CRIT Rate by $2 for 18s.\n►Lowers all enemy's M.DEF by $3 for 18s.
+
+##S1+##
+シャドウボルト+=Shadow Bolt+
+目の前の敵１キャラに魔法大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and lowers M.DEF by a small amount.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2.
+
+##UE##
+デモンズトライデント=Demon's Trident

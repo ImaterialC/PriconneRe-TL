@@ -1,0 +1,51 @@
+##Profile##
+【物理】中衛で、万有を自在に創造する『迷宮女王』。七冠としての権能を解放するユニオンバーストで自身を極大に強化し比類ない攻撃能力で仇なす者を剿滅する。=[Physical] A mid-range attacker, the "Labyrinth Queen" who can create anything at will. With the Union Burst that unlocks her Seven Crowns authority, she strengthens herself to the utmost and eliminates her enemies with unparalleled attacking power.
+
+秘密結社ラビリンスの『迷宮女王』=The “Labyrinth Queen” of the Secret Society Labyrinth
+
+##UB##
+オブジェクトクリエイション=Object Creation
+自分の物理攻撃力と物理クリティカルを特大アップする。さらに七冠の権能を解放し、味方の物理攻撃クリティカル時のダメージを小アップする。=Boosts own physical attack power and physical critical damage to a great extent. Additionally, unlocks the power of the Seven Crowns, increasing the damage dealt by allies' physical critical attacks.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ物理攻撃クリティカル時のダメージを(\d+)％アップさせるフィールドを展開する$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Deploys a field that boosts critical damage by $3%.\n►Switches to Attack Pattern 2.
+
+##S1##
+オプティマイズ=Optimize
+味方全体の物理攻撃力を大アップさせ、物理クリティカルを中アップさせる。=Greatly increases the physical attack power of all allies, and moderately increases the physical critical rate of all allies.
+
+##S2##
+ビルド=Build
+
+##SP1##
+イニシャライズ=Initialization
+このスキルのスキルレベルは「オブジェクトクリエイション」と連動しています=This skill's level is linked to "Object Creation"
+敵全体に物理特大ダメージを与え、七冠の権能を解除する。自分のＴＰを-1000する。=Deals massive physical damage to all enemies and Lock the power of the Seven Crowns. -1000 to own TP.
+r:"^敵全体に(\d+)の物理ダメージ自分のＴＰを1000失わせる七冠の権能を解除する$"=►Deals $1 P.DMG to all enemies.\n►Reduces own TP by 1000.\n►Lock the power of the Seven Crowns (Switches to Attack Pattern 1).
+
+##SP2##
+アクセラレーション=Acceleration
+味方全体の物理攻撃力を特大アップさせ、物理クリティカルを中アップさせ、行動速度を大アップさせる。=Massively increases the physical attack power of all allies, moderately increases the physical critical rate, and greatly increases the action speed of all allies.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを75アップ味方全体の行動速度をアップ$"=Cast time: 0.00s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.CRIT Rate by 75 for 12s.\n►Boosts allies' action speed into 150% for 12s.
+
+##SP3##
+エクスポート=Export
+目の前の敵１キャラに物理大ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals a large amount of P.DMG to the first enemy in front, and also slightly decreases P.DEF.
+
+##EX##
+クイーンズドメイン=Queen's Domain
+クイーンズドメイン+=Queen's Domain+
+
+##S1+##
+オプティマイズ+=Optimize+
+味方全体の物理攻撃力を特大アップさせ、物理クリティカルを中アップさせる。さらに自分のＴＰを中回復する。=Massively increases the physical attack power of all allies, and moderately increases the physical critical rate of all allies. In addition, moderately restore own TP.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを(\d+)アップ自分のＴＰを200回復$"=Cast time: 0.59s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.CRIT Rate by $2 for 12s.\n►Recovers own TP by 200.
+
+##SP2+##
+アクセラレーション+=Acceleration+
+味方全体の物理攻撃力を特大アップさせ、物理クリティカルを大アップさせ、行動速度を大アップさせる。=Greatly increases physical attack power, physical criticality, and action speed of all allies.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の行動速度をアップ$"=Cast time: 0.00s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.CRIT Rate by 100 for 24s.\n►Boosts allies' action speed into 200% for 24s.
+
+味方全体の物理攻撃力を特大アップさせ、物理クリティカルを大アップさせ、行動速度を大アップさせる。このスキルのスキルレベルは「オブジェクトクリエイション」と連動しています=Greatly increases physical attack power, physical criticality, and action speed of all allies. This skill's level is linked to "Object Creation"
+
+##UE##
+クイーンズコンソール=Queen's Console
+権能解放中=Upon Authority Unlock

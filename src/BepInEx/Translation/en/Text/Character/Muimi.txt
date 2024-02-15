@@ -1,40 +1,46 @@
-Profile
+##Profile##
 さまよえる謎の少女=A young wanderer with a mysterious past
-Skills
-UB
-【物理】前衛で、伝説の剣「天楼覇断剣」を振るう少女。\n小技を駆使する通常の戦闘スタイルから一転、ユニオン\nバースト後は「天楼覇断剣」を携え、敵を薙ぎ払う。=[Physical] A headstrong waif who deals out punishment from the vanguard with her legendary sword. When she equips the Spiresbane Blade following her Union Burst. she shifts her fighting style from more technical skills to an all-out offensive rush.
 
+【物理】前衛で、伝説の剣「天楼覇断剣」を振るう少女。\n小技を駆使する通常の戦闘スタイルから一転、ユニオン\nバースト後は「天楼覇断剣」を携え、敵を薙ぎ払う。=[Physical] A headstrong waif who deals out punishment from the vanguard with her legendary sword. When she equips the Spiresbane Blade following her Union Burst, she shifts her fighting style from more technical skills to an all-out offensive rush.
+
+##UB##
 天楼覇断剣=Spiresbane Blade
 目の前の敵１キャラに物理特大ダメージを与える。さらにＴＰが無くなるまでの間天楼覇断剣を装備する。=Deals massive P.DMG to an enemy directly in front. Equips the Spiresbane Blade until TP is fully depleted.\nChanges her Skills' Effects until her TP is Depleted (100 TP/s) and changes her rotation into Loop Rotation (UB).\nChanges her Skills' Effects back after TP reaches 0.\n(UB Does Not Cost Any TP)
-S1
+
+##S1##
 ビビらせてやる！=Feeling Scared Yet?!
-ビビらせてやる！+=Feeling Scared Yet?!+
 前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせて小さく吹き飛ばす。=Deals small P.DMG to all enemies in range, inflicts Stun, and knocks them back slightly.
-r:"^斬撃で範囲内の敵に(\d+)の物理ダメージ\n蹴りで範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を一定時間行動不能にする$"=Cast time: 0.34s\n►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflict stun on targets damaged by act 1 for 1.5s.\n►Knock targets damaged by act 2.
-S2
+r:"^斬撃で範囲内の敵に(\d+)の物理ダメージ蹴りで範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=Cast time: 0.34s\n►Deals $1 P.DMG to enemies in range.\n►Deals $2 P.DMG to enemies in range.\n►Inflicts Stun on targets damaged by act 1 for 1.5s.\n►Knock targets damaged by act 2.
+
+##S2##
 こっちだこっち！=Right This Way!
 前方範囲内の敵すべての物理防御力を小ダウンさせる。=Lowers the P.DEF of all enemies within range by a small amount.
-r:"^範囲内の敵の物理防御力を(\d+)ダウン$"=►Lowers enemies' P.DEF within range by $1.
-ex
-ポテンシャルフォース=Potential Force
-Skills+
-UB
-S1
-前方範囲内の敵すべてに物理中ダメージを与え、さらにスタンさせて小さく吹き飛ばす。=Deals medium P.DMG to all enemies in range, inflicts Stun, and knocks them back slightly.
-S2
-ex
-ポテンシャルフォース+=Potential Force+
-UE
-絆の証=Proof of Bonds
-このスキルのスキルレベルは「天楼覇断剣」と連動しています=This skill’s level is linked to "Spiresbane Blade"
+r:"^範囲内の敵の物理防御力を(\d+)ダウン$"=►Lowers enemies' P.DEF in range by $1.
 
+##SP1##
+装備中=In the equipment
+このスキルのスキルレベルは「天楼覇断剣」と連動しています=This skill's level is linked to "Spiresbane Blade"
+天楼廻刃斬=Spiresplitter Sweep
+
+##SP2##
+天楼閃薙斬=Spirespin Slice
 自分を中心とした範囲内の敵すべてに物理大ダメージを与える。=Inflicts great P.DMG to all enemies within range around you.
 
-装備中=In the equipment
-天楼廻刃斬+=Spiresbane Rotating Slash+
-天楼廻刃斬=Spiresbane Rotating Slash
-天楼閃薙斬=Spiresbane Slash
+##EX##
+ポテンシャルフォース=Potential Force
+ポテンシャルフォース+=Potential Force+
 
+##UB+##
 真破・天楼覇断剣=True Destruction: Spiresbane Blade
 前方の敵すべてに物理特大ダメージを与える。ＴＰが無くなるまでの間、真破・天楼覇断剣を装備し、装備中にスキルを使用する際、追加の物理大ダメージを与える。さらにバトル終了まで自分が敵から受ける行動不能を無効化する。=Deals massive P.DMG to all enemies in front. While TP remains, equip the "True Destruction: Spiresbane Blade" and when using skills while equipped, deal additional massive P.DMG. Additionally, nullify any Crowd Control inflicted on oneself by enemies until the end of the battle.
-r:"^範囲内の敵に(\d+)の物理ダメージ\n自分が敵から受ける行動不能を無効化する$"=►Deals $1 physical damage to enemies within range.\n►Switch to Attack Pattern 2 until 0 TP\n►Nullifies immobility effect on self.\n►Consumes 100 TP per second.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分が敵から受ける行動不能を無効化する$"=►Deals $1 P.DMG to enemies in range.\n►Switch to Attack Pattern 2 until 0 TP.\n►Nullifies immobility effects on self.\n►Consumes 100 TP/s.
+
+##S1+##
+ビビらせてやる！+=Feeling Scared Yet?!+
+前方範囲内の敵すべてに物理中ダメージを与え、さらにスタンさせて小さく吹き飛ばす。=Deals moderate P.DMG to all enemies in range, inflicts Stun, and knocks them back slightly.
+
+##SP1+##
+天楼廻刃斬+=Spiresplitter Sweep+
+
+##UE##
+絆の証=Proof of Bonds

@@ -1,27 +1,30 @@
+##Profile##
+【魔法】後衛で笑顔とともに破壊を振りまく溌溂少女★最大３体に着弾するスキルとＵＢは【PSI★チャージ】状態で魔防ダウン効果を追加し、邪魔者たちを殲滅する。=[Magic] A lively girl who spreads destruction with a smile from the rearguard. Her skill and Union Burst hit a maximum of three targets, and in [PSI★Charge] state, she also lowers enemies' M.DEF to eliminate nuisances.
 
 明朗快活、なれど破滅に流るる溌溂少女=Cheerful girl, but flowing to ruin
-【魔法】後衛で笑顔とともに破壊を振りまく溌溂少女★最大３体に着弾するスキルとＵＢは【PSI★チャージ】状態で魔防ダウン効果を追加し、邪魔者たちを殲滅する。=[Magic] A lively girl who spreads destruction with a smile from the backline. Her skill and Union Burst hit a maximum of three targets, and in [PSI★Charge] state, they add a magical defense down effect to eliminate nuisances.
 特に無し=Nothing especially
 
-ガトリング★シンフォニア=Gatling ★ Symphonia
-目の前の最大３キャラまでの敵に魔法大ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。さらに、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。=Deals large M.DMG to up to 3 enemies in front. Damage increases against farther enemies. Also slightly increases damage taken from critical hits by 1 enemy in front.
-r:"^１番目に近い敵に(\d+)の魔法ダメージ\n２番目に近い敵に(\d+)の魔法ダメージ\n３番目に近い敵に(\d+)の魔法ダメージ\n敵単体のクリティカルを受けた際のダメージを10％アップ\nPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to the nearest enemy.\n►Deals $2 M.DMG to the 2nd-nearest enemy.\n►Deals $3 M.DMG to the 3rd-nearest enemy.\n►Boosts damage taken when hit by a critical attack by 10% for 10s.\n►Reduces the M.DEF of a single enemy while in PSI★Charge state by $4 for 18s.
+##UB##
+ガトリング★シンフォニア=Gatling★Symphonia
+目の前の最大３キャラまでの敵に魔法大ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。さらに、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。=Deals large M.DMG to up to 3 enemies in front. Damage increases against farther enemies. Also slightly boosts P/M.CRIT DMG taken by an enemy in front.
+r:"^１番目に近い敵に(\d+)の魔法ダメージ２番目に近い敵に(\d+)の魔法ダメージ３番目に近い敵に(\d+)の魔法ダメージ敵単体のクリティカルを受けた際のダメージを10％アップPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to the 1st nearest enemy.\n►Deals $2 M.DMG to the 2nd nearest enemy.\n►Deals $3 M.DMG to the 3rd nearest enemy.\n►Boosts an enemy's P.M/CRIT DMG taken by 10% for 10s.\n►If Misora has [PSI★Charge], lowers an enemy's M.DEF by $4 for 18s.
 
-どるるる～ん★=Doruru～n★
-どるるる～ん★+=Doruru～n★+
-目の前の最大３キャラまでの敵に魔法中ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。=Deals M.DMG to up to 3 enemies in front. Damage increases based on the distance of the targets. 
-r:"^１番目に近い敵に(\d+)の魔法ダメージ\n２番目に近い敵に(\d+)の魔法ダメージ\n３番目に近い敵に(\d+)の魔法ダメージ\nPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.0s\n►Deals $1 M.DMG to the nearest enemy.\n►Deals $2 M.DMG to the 2nd nearest enemy.\n►Deals $3 M.DMG to the 3rd nearest enemy.\n►While in PSI★Charge state, lowers the M.DEF of a single enemy by $4 for 12s.
+##S1##
+どるるる～ん★=Dorururu～n★
+目の前の最大３キャラまでの敵に魔法中ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。=Deals moderate M.DMG to up to 3 enemies in front. Damage increases against farther enemies.
+r:"^１番目に近い敵に(\d+)の魔法ダメージ２番目に近い敵に(\d+)の魔法ダメージ３番目に近い敵に(\d+)の魔法ダメージPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.0s\n►Deals $1 M.DMG to the 1st nearest enemy.\n►Deals $2 M.DMG to the 2nd nearest enemy.\n►Deals $3 M.DMG to the 3rd nearest enemy.\n►If Misora has [PSI★Charge], lowers an enemy's M.DEF by $4 for 12s.
 
+##S2##
+えい★えい★おー！=Ei★Ei★Oo!
+味方全体の魔法攻撃力と魔法クリティカルを大アップさせる。=Greatly boosts all allies' M.ATK and M.CRIT Rate.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ$"=Cast time: 0.87s\n►Boosts all allies' M.ATK by $1 for 180s.\n►Boosts all allies' M.CRIT Rate by $2 for 180s.
 
-えい★えい★おー！=Ei★Ei★oh!
-味方全体の魔法攻撃力と魔法クリティカルを大アップさせる。=Greatly increases the magic attack power and magic critical hit rate of all allies.
-r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の魔法クリティカルを(\d+)アップ$"=Cast time: 0.87s\n►Boosts allies' M.ATK by $1 for 180s.\n►Boosts M.crit of all allies by $2 for 180s.
+##SP1##
+バンキッシュ・バレット=Vanquish Bullet
+このスキルのスキルレベルは「ガトリング★シンフォニア」と連動しています=This skill's level is linked to "Gatling★Symphonia"
+自分に【PSI★チャージ】状態を付与する。【PSI★チャージ】状態中はＨＰが毎秒回復し、ダメージスキルを使用する際、目の前の敵１キャラの魔法防御力を小ダウンさせる。=Grants [PSI★Charge] to self. While under the [PSI★Charge] state, grants HP recovery to self and lowers an enemy's M.DEF when using damage skills.
+r:"^自分にPSI★チャージ状態を付与する毎秒ＨＰを(\d+)回復する$"=Cast time: 1.24s\n►Grants [PSI★Charge] to self for 12s.\n►Recovers own HP by $1/s for 12s.
 
-サイキック・サイト=Psychic site
-サイキック・サイト+=Psychic site+
-自分に【PSI★チャージ】状態を付与する。【PSI★チャージ】状態中はＨＰが毎秒回復し、ダメージスキルを使用する際、目の前の敵１キャラの魔法防御力を小ダウンさせる。=Grants the user the [PSI★Charge] state. While under the [PSI★Charge] state, the user recovers HP every second and reduces the magic defense of the nearest enemy character when using damage skills.
-r:"^自分にPSI★チャージ状態を付与する\n毎秒ＨＰを(\d+)回復する$"=Cast time: 1.24s\n►Grants self [PSI★Charge] status.\n►Recovers HP every second by $1 for 12s.
-
-
-このスキルのスキルレベルは「ガトリング★シンフォニア」と連動しています=This skill’s level is linked to "Gatling★Symphonia"
-バンキッシュ・バレット=Banquish Barrett
+##EX##
+サイキック・サイト=Psychic Sight
+サイキック・サイト+=Psychic Sight+

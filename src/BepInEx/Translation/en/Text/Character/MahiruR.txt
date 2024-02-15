@@ -1,18 +1,28 @@
-【物理】中衛で、多勢相手が十八番のまきばの戦士。相手を吹き飛ばすスキルを多用し敵の陣形を押し込む。範囲攻撃と混乱付与スキルを駆使し一気に殲滅する。=[Physical] A warrior specialized in close combat, excelling in battles against multiple foes. They frequently utilize skills that send opponents flying, pushing back the enemy formation. They make strategic use of area attacks and skills that cause confusion to swiftly annihilate their enemies.
+##Profile##
+【物理】中衛で、多勢相手が十八番のまきばの戦士。相手を吹き飛ばすスキルを多用し敵の陣形を押し込む。範囲攻撃と混乱付与スキルを駆使し一気に殲滅する。=[Physical] A warrior specialized in close combat, excelling in battles against multiple foes. Frequently utilizes skills that send opponents flying, pushing back the enemy formation. Makes strategic use of area attacks and skills that cause confusion to swiftly annihilate all enemies.
+
+##UB##
 エリザベスカーニバル=Elizabeth Carnival
+前方範囲内の敵すべてに物理中ダメージを与え、さらに混乱状態にする。=Deals moderate P.DMG to all enemies within the front area and inflicts Confuse.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を混乱させる$"=►Deals $1 P.DMG to enemies in 825 range.\n►Inflicts Confuse to enemies in 825 range for 6s.
+
+##S1##
 ノーミルクノーライフ=No Milk No Life
-ノーミルクノーライフ+=No Milk No Life+
+自分の物理攻撃力を中アップさせ、さらに継続ＴＰ回復状態を付与する。=Boosts own P.ATK and grants continuous TP recovery.
+r:"^自分の物理攻撃力を(\d+)アップ毎秒ＴＰを15回復する$"=Cast time: 0.59s.\n►Boosts own P.ATK by $1 for 12s.\n►Recovers own TP by 15/s for 8s.
+
+##S2##
 ファーマーズラッシュ=Farmer's Rush
-ファーマーズラッシュ+=Farmer's Rush+
+前方範囲内の敵すべてに物理中ダメージを与える。範囲内の敵の数に応じて、ダメージが増加する。さらに、目の前の敵１キャラを大きく吹き飛ばす。=Deals moderate P.DMG to all enemies within the front area. The damage increases based on the number of enemies in the area. Additionally, blows away the enemy character in front.
+
+##EX##
 オールフォーエリザベス=All For Elizabeth
 オールフォーエリザベス+=All For Elizabeth+
+
+##S1+##
+ノーミルクノーライフ+=No Milk No Life+
+自分の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに継続ＴＰ回復状態を付与する。敵の数に応じて攻撃力とクリティカルの上昇量が増加する。=Greatly boosts own P.ATK, moderately boosts P.CRIT Rate, and grants continuous TP recovery. The increase in P.ATK and P.CRIT Rate depends on the number of enemies.
+r:"^自分の物理攻撃力を(\d+)アップ毎秒ＴＰを15回復する自分の物理クリティカルを50アップ$"=Cast time: 0.59s.\n►Boosts own P.ATK by $1 for 12s.\n►Recovers own TP by 15/s for 8s.\n►Boosts own P.CRIT Rate by 50 for 12s.
+
+##UE##
 エリザベスフォーク=Elizabeth Fork
-
-前方範囲内の敵すべてに物理中ダメージを与え、さらに混乱状態にする。=Deals medium P.DMG on all enemies within the front area and induces confusion.
-自分の物理攻撃力を中アップさせ、さらに継続ＴＰ回復状態を付与する。=Boosts own P.ATK and grants continuous TP recovery.
-前方範囲内の敵すべてに物理中ダメージを与える。範囲内の敵の数に応じて、ダメージが増加する。さらに、目の前の敵１キャラを大きく吹き飛ばす。=Deals medium P.DMG to all enemies within the front area. The damage increases based on the number of enemies in the area. Additionally, blows away the enemy character in front.
-自分の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに継続ＴＰ回復状態を付与する。敵の数に応じて攻撃力とクリティカルの上昇量が増加する。=Greatly boosts own P.ATK, moderately boosts P.crit rate, and grants continuous TP recovery. The increase in P.ATK and P.crit rate depends on the number of enemies.
-
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵を混乱させる$"=►Deals $1 P.DMG to enemies within 825 range.\n►Confuses enemies within 825 range for 6s.
-r:"^自分の物理攻撃力を(\d+)アップ\n毎秒ＴＰを15回復する$"=Cast time: 0.59s.\n►Boosts own P.ATK by $1 for 12s.\n►Recovers TP for self by 15/s for 8s.
-r:"^自分の物理攻撃力を(\d+)アップ\n毎秒ＴＰを15回復する\n自分の物理クリティカルを50アップ$"=Cast time: 0.59s.\n►Boosts own P.ATK by $1 for 12s.\n►Recovers TP for self by 15/s for 8s.\n►Boosts own P.Crit rate by 50 for 12s.

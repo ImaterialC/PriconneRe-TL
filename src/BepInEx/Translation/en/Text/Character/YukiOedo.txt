@@ -1,17 +1,29 @@
-【魔法】後衛で、迷える皆を救う白衣を纏いし美の象徴。一番低い味方１キャラのＴＰを回復し、ＨＰ回復スキルで守り、魔法攻撃力アップのスキルで一気に攻め落とす。=[Magic] As a backline support, she wears a white robe that symbolizes beauty and saves everyone who is lost. She can recover the TP of the lowest ally character, protect with an HP recovery skill, and then launch a fierce attack with a skill that increases magic attack power.
+##Profile##
+【魔法】後衛で、迷える皆を救う白衣を纏いし美の象徴。一番低い味方１キャラのＴＰを回復し、ＨＰ回復スキルで守り、魔法攻撃力アップのスキルで一気に攻め落とす。=[Magic] As a backline support, she wears a white robe that symbolizes beauty and saves everyone who is lost. She can recover the TP of ally with lowest TP, protect with HP recovery skill, and then launch a fierce attack with a skill that increases magic attack power.
 
+##UB##
 可愛いボクを緊急投与だよ♪=Emergency Dose for Cute Me♪
+味方全体の魔法攻撃力と行動速度を大アップさせる。さらに敵全体の魔法防御力を小ダウンさせる。=Greatly boosts all allies' M.ATK and action speed, and also slightly lowers all enemies' M.DEF.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の行動速度アップ敵全体の魔法防御力を(\d+)ダウン$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' action speed to 160% for 18s.\n►Lowers all enemies' M.DEF by $2 for 18s.
+
+##S1##
 天使なボクが癒しちゃう♪=Angel-like Me Will Heal You♪
-天使なボクが癒しちゃう♪+=Angel-like Me Will Heal You♪+
-r:"^味方全体の魔法攻撃力を(\d+)アップ\n味方全体の行動速度アップ\n敵全体の魔法防御力を(\d+)ダウン$"=►Boosts the allies' M.ATK by $1.\n►Boosts the speed of allies' actions.\n►Reduces the M.DEF of all enemies by $2
-味方全体の魔法攻撃力と行動速度を大アップさせる。さらに敵全体の魔法防御力を小ダウンさせる。=Greatly increases magic attack power and action speed of all allies. Also, slightly lowers magic defense of all enemies.
+最もＨＰが低い味方１キャラを中心とした範囲内の味方すべてのＨＰを中回復させる。=Moderately recovers allies' HP in range centered on lowest HP ally.
 
-天使なボクが癒しちゃう♪=An angel will heal♪
-最もＨＰが低い味方１キャラを中心とした範囲内の味方すべてのＨＰを中回復させる。=Moderately restores allies' HP in range centered on lowest HP ally.
+##S2##
+ボクの美しさが処方箋さ♪=My Beauty is a Prescription♪
+最もＴＰが低い味方１キャラのＴＰを中回復させる。さらにそのキャラを中心とした範囲内の味方すべての魔法攻撃力を中アップさせる。=Moderately recovers TP of lowest TP ally and moderately boosts allies' M.ATK in its range.
+r:"^味方単体のＴＰを(\d+)回復範囲内の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 0.695s\n►Recovers an ally's TP by $1.\n►Boosts allies' M.ATK in 200 range by $2 for 12s.
+## Same as NYKasumi S1 with different TP
 
-ボクの美しさが処方箋さ♪=My beauty is a prescription♪
-最もＴＰが低い味方１キャラのＴＰを中回復させる。さらにそのキャラを中心とした範囲内の味方すべての魔法攻撃力を中アップさせる。=Moderately restores TP of lowest TP ally and moderately increases magic attack power of allies in range centered on that character.
-r:"^味方単体のＴＰを(\d+)回復\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=Cast Time: 0.66s\n►Recovers an ally's TP by $1.\n►Boosts allies' M.ATK whitin 200 range by $2 for 12s.
-
+##EX##
 天使なボクががんばるよ=Angel-like Me Will Do My Best
 天使なボクががんばるよ+=Angel-like Me Will Do My Best+
+
+##S1+##
+天使なボクが癒しちゃう♪+=Angel-like Me Will Heal You♪+
+最もＨＰが低い味方１キャラを中心とした範囲内の味方すべての魔法攻撃力を大アップさせ、ＨＰを中回復させる。=Greatly boosts allies' M.ATK in range of an ally with the lowest HP, and moderately recovers their HP.
+r:"^範囲内の味方のＨＰを(\d+)回復範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Recovers allies' HP in 120 range by $1.\n►Boosts allies' M.ATK in 120 range by $2 for 12s.
+
+##UE##
+ボクの可愛いナース服♪=My Cute Nurse Outfit♪

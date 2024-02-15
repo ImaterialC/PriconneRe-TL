@@ -1,0 +1,29 @@
+##Profile##
+【物理】前衛で、新風纏う「天楼覇断剣」を振るう少女。皆より一足遅れて突撃し、敵の前衛を吹き飛ばした後、強化した範囲物理攻撃で、ダンゴになった敵を斬り払う。=[Physical] A girl who wields Spiresbane Blade in the vanguard with a new style. She charges one step behind everyone else, blows away the enemy's vanguard, and then uses her enhanced AoE physical attacks to slay any enemies that turn into dango.
+
+冒険、思い出話=Adventure, Reminiscing
+
+##UB##
+新春乾坤天晴剣=Shinshun Kenkon Tenseiken
+最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップさせる。自分の物理攻撃力が高い程、攻撃力の上昇量がアップする。=Reduces an enemy's TP with the highest M.ATK by a moderate amount, and lowers its P.DEF by a small amount.
+
+##S1##
+どけぇー！=Get Out Of The Way!
+バトル開始後暫くして、最も前の敵まで突進し、その敵に物理中ダメージを与え、さらに物理防御力を小ダウンさせて小さく吹き飛ばす。=Charges straight at the foremost enemy shortly after battle begins and deals moderate P.DMG. Lowers its P.DEF by a small amount, and blows it away.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Knockbacks an enemy by 200 units.
+
+##S2##
+もらったぞ！=I Got It!
+前方範囲内の敵すべてに物理小ダメージを与え、さらに自分の物理攻撃力を小アップさせる。=Deals small P.DMG to enemies in range, and also boosts own P.ATK by a small amount.
+
+##EX##
+ニューイヤーテンション=New Year Tension
+ニューイヤーテンション+=New Year Tension+
+
+##S1+##
+どけぇー！+=Get Out Of The Way!+
+バトル開始後暫くして、最も前の敵まで突進し、その敵に物理大ダメージを与え、物理防御力を中ダウンさせて小さく吹き飛ばす。さらに暫くの間無敵状態になる。=Charges straight at the foremost enemy shortly after battle begins and deals large P.DMG. Lowers its P.DEF by a moderate amount, and blows it away. Becomes invincible for a short time.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン一定時間無敵状態になる$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Knockbacks an enemy by 200 units.\n►Becomes immune to all damage for 7s.
+
+##UE##
+大悪党の新春晴れ着=Great Villain's New Year Sunshine

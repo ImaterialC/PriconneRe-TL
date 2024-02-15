@@ -1,11 +1,9 @@
-ャル=Kyaru
+##Profile##
 猫と遊ぶ=Playing with cats
 行き倒れの謎のネコミミ魔法使い=A mysterious cat-eared sorceress\ndiscovered lying unconscious
-ケイオスグリモワール=Chaos Grimoire
-Intro
-【魔法】後衛から、強力な全体攻撃を放つ、強気な猫娘。スキルで敵の物理、魔法両方の防御力を下げるため編成を選ばずにバトルを有利に進められる。=[Magic]A willful catgirl that casts powerful attacks from RG that hit all foes. Her skills lower both M.DEF and P.DEF, making her an easy choice for wining in any lineup.
 
-Story
+【魔法】後衛から、強力な全体攻撃を放つ、強気な猫娘。スキルで敵の物理、魔法両方の防御力を下げるため編成を選ばずにバトルを有利に進められる。=[Magic] A willful catgirl that casts powerful attacks from the rearguard that hit all foes. Her skills lower both magical and physical defense, making her an easy choice for winning in any lineup.
+
 いつかお気楽な冒険を=Someday... a Normal Adventure.
 救いの手とハンバーガー=Helping Hand and Burgers
 儚い夢と宝くじ=Fleeting Dreams and Lottery
@@ -19,51 +17,56 @@ Story
 鳴き声に誘われて=A Cat's Silent Cry
 監視の目を光らせて=Under Her Watchful Eye
 
-Skill Name
-アビスバースト=Abyss Burst
+##UB##
 グリムバースト=Grim Burst
-ダークエクリプス+=Dark Eclipse+
-ダークエクリプス=Dark Eclipse
-
-UB *6
-r:"^敵全体に(\d+)の魔法ダメージ\n敵全体を恐慌状態にする$"=►Deals $1 M.DMG to all enemies.\n►Inflict Fear to All Enemies for 8s.
-敵全体に魔法大ダメージを与え、さ\nらに恐慌状態にする。=Deals large M.DMG and inflict fear to all enemies.
-UB
 敵全体に魔法中ダメージを与える。=Deals moderate M.DMG to all enemies.
 r:"^敵全体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to all enemies.
-Skill 1+
+
+##S1##
 サンダーボール=Lightning Sphere
+
+##S2##
+アーマーダウン=Reduce Armor
+目の前の敵１キャラの物理防御力と魔法防御力を小ダウンさせる。=Lowers P.DEF and M.DEF of enemy directly in front by a small amount.
+r:"^敵単体の物理防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン$"=Cast Time: 0.83s\n►Lowers an enemy's P.DEF by $1 for 12s.\n►Lowers an enemy's M.DEF by $2 for 12s.
+
+##EX##
+ダークエクリプス=Dark Eclipse
+ダークエクリプス+=Dark Eclipse+
+
+##UB+##
+アビスバースト=Abyss Burst
+敵全体に魔法大ダメージを与え、さ\nらに恐慌状態にする。=Deals large M.DMG and inflicts fear to all enemies.
+r:"^敵全体に(\d+)の魔法ダメージ敵全体を恐慌状態にする$"=►Deals $1 M.DMG to all enemies.\n►Inflicts Fear to all enemies for 8s.
+
+##S1+##
 サンダーボール+=Lightning Sphere+
 目の前の敵１キャラに魔法中ダメージを与え、その敵から前方範囲内の敵すべてに魔法小ダメージを与えた上で、それらの魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and small M.DMG to enemies around it. Lowers M.DEF of all targets by a small amount.
-r:"^敵単体に(\d+)の魔法ダメージ\n範囲内の敵すべてに(\d+)の魔法ダメージ\n範囲内の敵すべての魔法防御力を(\d+)ダウン$"=Cast Time: 1.27s\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to all enemy within ranges 200.\n►Lowers M.DEF of all enemies within range by $3 for 12s.
+r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵すべての魔法防御力を(\d+)ダウン$"=Cast Time: 1.27s\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to enemies in 200 range.\n►Lowers enemies' M.DEF in 200 range by $3 for 12s.
 
-Skill 2
-アーマーダウン=Armour Down
-r:"^敵単体の物理防御力を(\d+)ダウン\n敵単体の魔法防御力を(\d+)ダウン$"=Cast Time: 0.83s\n►Lowers an enemy's P.DEF by $1 for 12s.\n►Lowers an enemy's M.DEF by $2 for 12s.
+##S2+##
+アーマーダウン+=Reduce Armor+
+目の前の敵１キャラを中心とした範\n囲内の敵すべてを麻痺させて、クリ\nティカルを受けた際のダメージを中\nアップ、物理防御力と魔法防御力を\n特大ダウンさせる。=Inflicts Paralysis on all enemies within 300 range of the nearest enemy for 3 seconds. Applies another debuff to those enemies which boosts damage taken from critical attacks and lowers P&M DEF.
+r:"^範囲内の敵すべてを一定時間行動不能にする範囲内の敵すべてのクリティカルを受けた際のダメージを20％アップ範囲内の敵すべての物理防御力を(\d+)ダウン範囲内の敵すべての魔法防御力を(\d+)ダウン$"=►Inflicts Paralysis to enemies in range for 3s.\n►Boosts enemies' P/M.CRIT DMG taken in range by 20%.\n►Lowers enemies' M.DEF in range by $1.\n►Lowers enemies' P.DEF in range by $2.
 
-目の前の敵１キャラの物理防御力と魔法防御力を小ダウンさせる。=Lowers P.DEF and M.DEF of enemy directly in front by a small amount.
-
-Skill 2+
+##UE##
+ケイオスグリモワール=Chaos Grimoire
 ケイオススフィア=Chaos Sphere
-アーマーダウン+=Armour Down+
-目の前の敵１キャラを中心とした範\n囲内の敵すべてを麻痺させて、クリ\nティカルを受けた際のダメージを中\nアップ、物理防御力と魔法防御力を\n特大ダウンさせる。= Inflicts a Paralysis debuff on the nearest enemy which lasts 3 seconds and impacts all enemies within a range of 300. Applies another debuff which increases damage taken from critical attacks and lowers P&M DEF.
-r:"^範囲内の敵すべてを一定時間行動不能にする\n範囲内の敵すべてのクリティカルを受けた際のダメージを20％アップ\n範囲内の敵すべての物理防御力を(\d+)ダウン\n範囲内の敵すべての魔法防御力を(\d+)ダウン$"=►Inflicts a Paralysis debuff around an area to the nearest enemy.\n►Inflicts enemies with another debuff causing them to take 20% more damage from critical attacks.\n►Lowers M.DEF by $1.\n►Lowers P.DEF by $2.
 
-
-
+##Comments##
 
 このあたしが一緒に戦ってあげるんだから\n無様な戦いは許さないわよ！=I'll fight alongside you,\nso I won't allow you to fight uncouthly!
 ねぇねぇ、あんたって、いつも何してるの？\n年はいくつなの？　趣味は？　好きな食べ物は？\nあたし、あんたのこと知りたいのよ、色々と！=Hey, what do you usually do? How old are you?\nHobbies? What's your favorite food?\nI want to know more about you!
 なんか、あんたとだんだん仲良くなってる気がする…\nんもう…おっかしいなぁ？\nこんなはずじゃ、なかったんだけどなぁ？=I feel like I'm getting closer\nand closer to you...Geez... That's weird.\nIt wasn't supposed to be like this, was it?
 あんた、優しすぎんのよ\nそういうとこ、嫌いじゃないけど…\nあんまり、あたしを困らせないでよね！=You're too kind. I don't hate that part of you,\nbut... Don't bother me too much!
 仲良くなればなるほど、後で辛くなるんだから…\n何言ってるかわかんないと思うけど、\nとにかく過剰に親切顔すんなってこと！=The closer we get to each other,\nthe more painful it'll be later...\nI don't think you know what I'm talking about,\nbut at any rate, stop being so kind!
-あんたさ、ずいぶん馴れ馴れしくない？\nあたしとあんたは、別に友だちでも恋人でも、\nなんでもないんだからね？=You know, you’re being pretty overly familiar\nwith me, aren’t you? It’s not like\nwe’re friends or lovers or anything, okay?
+あんたさ、ずいぶん馴れ馴れしくない？\nあたしとあんたは、別に友だちでも恋人でも、\nなんでもないんだからね？=You know, you're being pretty overly familiar\nwith me, aren't you? It's not like\nwe're friends or lovers or anything, okay?
 気が付いたら毎日一緒に食卓囲むようになっちゃった\nま、いいわよね。親密になれば情報を引き出せるし\n誰かと一緒に食事をするのは、楽しいしさ=Before I knew it, we were sitting at the table\ntogether every day. It's fine, isn't it?\nI can get information out of you when we're close,\nand it's fun to eat with someone.
 あんたなんか、どうなろうと知ったこっちゃないわよ！\nでも、あんたに何かあると、あたしが困るから…\nトラブルあったらあたしに相談しなさい、いいわね！=I don't give a shit what happens to you!\nBut if something happens to ya, I'll be in trouble...\nIf you run into any trouble,\nyou can talk to me, got it?
 特訓してるおかげで、だんだん『プリンセスナイト』の\n能力を、うまく使えるようになってる！\nふふ～ん、あたしって、やれば出来る子ね♪=Thanks to my training, I'm able to use my\n'Princess Knight' ability better and better!\nHehe, I can do it if I try♪
 だからさ、それまでは、おもしろおかしくやりましょ♪\nご飯食べたり、街を歩いたり、バカ話したり\nあんたと一緒に騒ぐの、あたし嫌いじゃないの！=So until then, let's have some fun♪\nI don't hate eating, walking around town,\n talking stupidly, or making a fuss with you!
 いつかきっと、離れ離れになる時がくるのよ\nあんたとあたしは\nちょっと寂しいけどね…=Someday, I'm sure we'll be separated.\nYou and I will be a little lonely,\nthough...
-あたしの役目は、あんたには言えない\n言ってもしょうがないし、話したら最後、\nもう敵同士になっちゃうしね=There’s no point in telling you what\nmy role is, and if I tell you,\nwe’ll be enemies in the end.
+あたしの役目は、あんたには言えない\n言ってもしょうがないし、話したら最後、\nもう敵同士になっちゃうしね=There's no point in telling you what\nmy role is, and if I tell you,\nwe'll be enemies in the end.
 魔力が上がってく…これってあんたとの絆の力よね…\nでも、あたしにその資格は…え、ずっと一緒だよって…\nへ、変なこと言うなっ！　恥ずかしいやつね！=My magic power is rising...\nThis is the power of our bond, isn't it...?\nBut I'm not qualified to... Huh? I'll\nalways be with you... D-Don't say weird\nthings like that! You're embarrassing me!
 いつでも大魔法を放てるぐらいに強くならないと…\nえ…がんばっているから、すぐできるようになるって？\n…あ、ああ、あんたに褒められても、うれしくないし！=I have to become strong enough to cast powerful\nmagic anytime... Huh? You say I'll be able\nto do it soon if I try hard? ...Ah, well, even\nif you praise me, it doesn't make me happy!
 あ、あのさ…あたしって回復魔法も使えるじゃない？\n今のあたしなら、もっと強力な回復魔法も使えるから…\nその…け、けがとかしたら、あたしを頼りなさいよね！=H-Hey... I can use recovery magic too, right?\nI can also use more powerful recovery magic\nright now, so... umm... if you get hurt,\nyou can rely on me!

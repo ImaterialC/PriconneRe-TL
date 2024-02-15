@@ -1,0 +1,21 @@
+##Profile##
+【物理】後衛でもにカワ制服を着こなすカリスマモデル。クリティカル時に味方を強化するスキルや、追加ダメージが発生するＵＢによって青春の一ページを切り取る。=[Physical] A charismatic model who effortlessly carries off the cute school uniform, even in the rearguard position. She captures moments of youth with skills that enhance her allies when landing critical hits and a UB that deals bonus damage.
+
+##UB##
+アオハルストリーミング=Youth Streaming
+目の前の敵１キャラに物理特大ダメージを与える。さらに、自分の周囲の味方すべての物理攻撃力を大アップさせ、物理攻撃クリティカル時のダメージを小アップさせる。このスキルがクリティカルした場合、追加の物理大ダメージを与える。=Deals massive P.DMG to an enemy in front, greatly boosts allies' P.ATK in range, and slightly boosts their P.CRIT DMG. If this skill lands a critical hit, deals additional massive P.DMG to an enemy.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを10％アップ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=►Boosts allies' P.ATK in 150 range by $1 for 18s.\n►Boosts allies' P.CRIT DMG in 150 range by 10% for 18s.\n►Deals $2 P.DMG to an enemy.\n►If lands a critical hit, deals $3 P.DMG to an enemy.
+
+##S1##
+ユースフルショット=Youthful Shot
+目の前の敵１キャラに物理中ダメージを与え、自分のＴＰを中回復する。このスキルがクリティカルした場合、自分の周囲の味方すべての物理攻撃力を大アップ、物理クリティカルを中アップさせる。=Deals large P.DMG to an enemy in front and moderately recovers own TP. If lands a critical hit, greatly boosts allies' P.ATK in range and moderately boosts their P.CRIT Rate.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを45アップ自分のＴＰを200回復$"=Cast time: 1.05s\n►Deals $1 P.DMG to an enemy.\n►Recovers own TP by 200.\n\nIf lands a critical hit:\n►Boosts allies' P.ATK in 150 range by $2 for 180s.\n►Boosts allies' P.CRIT Rate in 150 range by 45 for 180s.
+
+##S2##
+もにカワユニフォーム♪=Moe Cute Uniform♪
+自分の物理攻撃力と物理クリティカルを中アップさせ、ＴＰ上昇を小アップさせる。さらに自分のＴＰを小回復する。=Moderately boosts own P.ATK and P.CRIT Rate, slightly boosts own TP Boost, and moderately recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを60アップ自分のＴＰ上昇を10アップ自分のＴＰを80回復$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by 60 for 180s.\n►Boosts own TP Boost by 10 for 18s.\n►Recovers own TP by 80.
+
+##EX##
+アオハルアブロード=Youth Abroad
+アオハルアブロード+=Youth Abroad+

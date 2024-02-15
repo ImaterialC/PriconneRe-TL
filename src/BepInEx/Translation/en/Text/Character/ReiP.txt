@@ -1,30 +1,32 @@
-【物理】中衛で風刃を従え激戦を流麗に征く嵐翼の剣士。敵が多い程に効果が高まる自己強化スキルで、自身を奮い立たせ、強力な範囲攻撃スキルで一切の敵を鏖滅する。=[Physical] A storm-winged swordswoman who gracefully wins fierce battles with her wind blade as a middle guard. A self-strengthening skill that becomes more effective as the number of enemies increases, motivating herself and destroying all enemies with a powerful ranged attack skill.
+##Profile##
+【物理】中衛で風刃を従え激戦を流麗に征く嵐翼の剣士。敵が多い程に効果が高まる自己強化スキルで、自身を奮い立たせ、強力な範囲攻撃スキルで一切の敵を鏖滅する。=[Physical] A storm-winged swordswoman who gracefully wins fierce battles with her wind blade in midlines. A self-strengthening skill that becomes more effective as the number of enemies increases, motivating herself and destroying all enemies with a powerful ranged attack skill.
 
 剣を交えて分かること=What can be understood by crossing swords
 活路はまどろみの向こうに=The way out is beyond slumber
 思いの剣風、雪雲を晴らす=The sword wind of my thoughts clears the snow clouds
 偶然の雨宿り=Accidental Rain Shelter
 
+##UB##
 グロリアステンペスト=Glorious Tempest
+前方範囲内の敵すべてに物理大ダメージを与える。対象になる敵が多いほど、クリティカル時に与えるダメージがアップする。=Deals large P.DMG to enemies in 750 range. The P.CRIT DMG dealt increases according to number of enemies in range.\nP.CRIT DMG: (+30%×Enemy Count)
 
-前方範囲内の敵すべてに物理大ダメージを与える。対象になる敵が多いほど、クリティカル時に与えるダメージがアップする。=Inflicts great P.DMG to all enemies within range. The more enemies you target, the more damage you deal when you're critical.
-
-ランペイジスラッシュ=Rampage Slash
-自分の物理攻撃力と物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。敵の数に応じて、このスキルの効果値がアップする。=Large boost own P.ATK and P.crit, and also slightly boost P.crit dmg. The effect value of this skill boost according to the number of enemies.
-
+##S1##
 トゥインクルエッジ=Twinkle Edge
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを50アップ\n自分の物理攻撃クリティカル時のダメージを8％アップ$"=Cast time: 0.41s\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.crit by 50 for 12s.\n►Boosts own P.crit dmg by 8% for 12s.
+自分の物理攻撃力と物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。敵の数に応じて、このスキルの効果値がアップする。=Greatly boosts own P.ATK and P.CRIT Rate, and also slightly boosts own P.CRIT DMG. The effects value increases according to number of enemies in range.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを50アップ自分の物理攻撃クリティカル時のダメージを8％アップ$"=Cast time: 0.415s\n►Boosts own P.ATK by $1 (+$1×Enemy Count) for 12s.\n►Boosts own P.CRIT Rate by 50 (+50×Enemy Count) for 12s.\n►Boosts own P.CRIT DMG by 8% (+8%×Enemy Count) for 12s.
 
-前方範囲内の敵すべてに物理中ダメージを与え、さらに自分の物理攻撃力を中アップさせる。対象になる敵が多いほど、物理攻撃力の上昇量がアップする。=Inflicts moderate P.DMG to all enemies within range, and moderately boost own P.ATK. The more enemies that are targeted, the higher the increase of P.ATK.
+##S2##
+ランペイジスラッシュ=Rampage Slash
+前方範囲内の敵すべてに物理中ダメージを与え、さらに自分の物理攻撃力を中アップさせる。対象になる敵が多いほど、物理攻撃力の上昇量がアップする。=Deals moderate P.DMG to enemies in range, and moderately boost own P.ATK. The P.ATK boost increases according to number of enemies in range.\nP.ATK: (+P.ATK×Enemy Count)
 
-ブロウアップハート+=Blow-Up Heart+
+##EX##
 ブロウアップハート=Blow-Up Heart
+ブロウアップハート+=Blow-Up Heart+
 
-グロリアスプリンセスドレス=Glorious Princess Dress
+##S1+##
 トゥインクルエッジ+=Twinkle Edge+
+自分の物理攻撃力と物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。敵の数に応じて、このスキルの効果値がアップする。さらに自分のＴＰを小回復する。=Greatly boosts own P.ATK and P.CRIT Rate, and also slightly boosts own P.CRIT DMG. The effects value increases according to number of enemies in range. Slightly recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理攻撃クリティカル時のダメージを8％アップ自分のＴＰを70回復$"=►Boosts own P.ATK by $1 (+$1×Enemy Count) for 18s.\n►Boosts own P.CRIT Rate by $2 (+$2×Enemy Count) for 18s.\n►Boosts own P.CRIT DMG by 8% (+8%×Enemy Count) for 18s.\n►Recovers own TP by 70.
 
-自分の物理攻撃力を4842アッ\nプ\n自分の物理クリティカルを80\nアップ\n自分の物理攻撃クリティカル時\nのダメージを8％アップ\n自分のＴＰを70回復=Boost your Physical ATK by 4842 Boost your own Physical Critical 80 Boosts your Physical Attack Critical DMG 8% Restores 70 of your own TP
-
-r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理クリティカルを(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを8％アップ\n自分のＴＰを70回復$"=►Boosts own P.ATK by $1 for 18s.\n►Boosts own P.Crit by $2(×Target) for 18s.\n►Boosts own P.Crit dmg by 8%(×Target) for 18s.\n►Recovers own TP by 70.
-
-自分の物理攻撃力と物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。敵の数に応じて、このスキルの効果値がアップする。さらに自分のＴＰを小回復する。=Boost own P.ATK and P.crit rate, further increasing P crit dmg. The effectiveness of this skill increases based on the number of enemies. Additionally, restore a small amount of your own TP.
+##UE##
+グロリアスプリンセスドレス=Glorious Princess Dress

@@ -1,43 +1,9 @@
-Profile
-【物理】最前衛で、完全防御スキルを操る騎士団長。ユニオンバーストであらゆるダメージを吸収するバリアを展開できる。特に長期戦で圧倒的な防御性能を誇る。=[Physical] Knight commander who is the front line and controls perfect defensive skills. She can deploy a barrier that absorbs all damage with UB. She boasts overwhelming defensive performance, especially in long-term battles.
+##Profile##
+【物理】最前衛で、完全防御スキルを操る騎士団長。ユニオンバーストであらゆるダメージを吸収するバリアを展開できる。特に長期戦で圧倒的な防御性能を誇る。=[Physical] The captain of Nightmare, who strengthens the vanguard with impenetrable defensive skills. Her Union Burst creates a barrier that absorbs all types of damage, allowing her to stand firm in even the lengthiest of battles.
 
 格闘技、湯浴み=Martial arts, bathing
 素顔を見せない冷静沈着な女性騎士=A calm, cool, and collected knight who hides her face
-Skills
-UB
-インフェルノシールド=Inferno Shield
-自分に物理/魔法吸収バリアを展開する。=Deploys a barrier around oneself that absorbs P.DMG and M.DMG.
-r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Deploys Barrier that absorbs $1 P.DMG and M.DMG for 18s.
-S1
-自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復する。=Recovers HP of the nearby ally with the lowest HP by a small amount.
-r:"^味方単体のＨＰを(\d+)回復$"=Recovers an ally's HP by $1.
-S2
-目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals small P.DMG to an enemy directly in front and lowers their P.DEF by a small amount.
-ex
-ジャスティスバリア=Justice Barrier
-Skills+
-UB
-インフェルノランパート=Inferno Rampart
-r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する\n物理攻撃力を(\d+)アップさせるフィールドを展開する\n行動速度をアップさせるフィールドを展開する$"=Deploys Barrier that absorbs $1 P/M.DMG for 18s.\nBoosts allies' P.ATK within 300 range by $2 for 18s\nBoost allies' action speed within 300 range into 155% for 18s.
-自分に物理/魔法吸収バリアを展開し、自分の周囲に範囲内の味方すべての物理攻撃力を特大アップ、行動速度を大アップさせるフィールドを展開する。=Deploys a P/M absorption barrier on herself, and creates a field around self that greatly increases the P.ATK and action speed of all allies within range.
 
-S1
-自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a moderate amount. Large boost to the ally's P.ATK and small boost to their action speed.
-自分の周りの味方のうち、最もＨＰの割合が低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a large amount. Large boost to the ally's P.ATK and small boost to their action speed.
-
-r:"^味方単体のＨＰを(\d+)回復\n味方単体の物理攻撃力を(\d+)アップ\n味方単体の行動速度アップ$"=Cast time:0.475s\nRecovers an ally's HP by $1.\nBoosts an ally's P.ATK by $2 for 12s.\nBoosts an ally's action speed into 120% for 12s.
-S2
-ex
-ジャスティスバリア+=Justice Barrier+
-UE
-シュバリエメイル=Chevalier Mail
-
-
-ブレイブリカバリー=Brave Recovery
-ブレイブリカバリー+=Brave Recovery+
-アーマーブレイク=Armor Break
-
-Episode
 君のことを知りたくて=Wanting to Know About You
 真のヒーロー=True Hero
 仮面に隠れた乙女心=Maiden Heart Hidden Behind the Mask
@@ -51,9 +17,39 @@ Episode
 ヒーローは立ち上がる=Heroes Rise
 複雑なエモーション=Complex Emotions
 
+##UB##
+インフェルノシールド=Inferno Shield
+自分に物理/魔法吸収バリアを展開する。=Deploys a barrier around oneself that absorbs P.DMG and M.DMG.
+r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Deploys Barrier over oneself that absorbs $1 P.DMG and M.DMG for 18s.
 
+##S1##
+ブレイブリカバリー=Inspiring Courage
+自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復する。=Recovers HP of the nearby ally with the lowest HP by a small amount.
+r:"^味方単体のＨＰを(\d+)回復$"=►Recovers an ally's HP by $1.
 
-Affection
+##S2##
+アーマーブレイク=Armor Breaker
+目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals small P.DMG to an enemy directly in front and lowers their P.DEF by a small amount.
+
+##EX##
+ジャスティスバリア=Justice Barrier
+ジャスティスバリア+=Justice Barrier+
+
+##UB+##
+インフェルノランパート=Inferno Rampart
+自分に物理/魔法吸収バリアを展開し、自分の周囲に範囲内の味方すべての物理攻撃力を特大アップ、行動速度を大アップさせるフィールドを展開する。=Deploys a P/M absorption barrier on herself, and creates a field around self that greatly increases the P.ATK and action speed of all allies within range.
+r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する物理攻撃力を(\d+)アップさせるフィールドを展開する行動速度をアップさせるフィールドを展開する$"=►Deploys Barrier over oneself that absorbs $1 P/M.DMG for 18s.\n►Boosts allies' P.ATK in 300 range by $2 for 18s\n►Boosts allies' action speed in 300 range into 155% for 18s.
+
+##S1+##
+ブレイブリカバリー+=Inspiring Courage+
+自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a moderate amount. Large boost to the ally's P.ATK and small boost to their action speed.
+自分の周りの味方のうち、最もＨＰの割合が低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a large amount. Large boost to the ally's P.ATK and small boost to their action speed.
+r:"^味方単体のＨＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ味方単体の行動速度アップ$"=Cast time:0.475s\n►Recovers an ally's HP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.\n►Boosts an ally's action speed into 120% for 12s.
+
+##UE##
+シュバリエメイル=Chevalier Mail
+
+##Comments##
 やぁ、迷子の少年。君とのおしゃべりは楽しかったよ\n私はいつも門の前にいるから、また迷子になったら\n王宮目指して訪ねておいで=Hey, lost boy. I had a fun chat with you. I'm \nalways by the gate, so if you ever get lost \nagain, come visit me on your way to the palace.
 わざわざお礼に来てくれるとは思わなかったよ\nしかも可愛らしい贈り物まで用意してくれて…\n照れくさいけどとても嬉しかった。ありがとう=I didn't expect you to come all this way just\nto thank me. And you even brought such a \nlovely gift... It's embarrassing, \nbut I was really happy. Thank you.
 いや、今までも迷惑などでは決してなかったよ\n君とのお喋りはとても楽しかったし、有意義だった=No, it was never a bother. \nTalking with you was enjoyable and meaningful.

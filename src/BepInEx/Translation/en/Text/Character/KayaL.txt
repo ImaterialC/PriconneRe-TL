@@ -1,22 +1,31 @@
-【物理】前衛で先陣を切り未来を掴む喧嘩屋ドラゴン族。初弾が大幅強化するスキルで自分の攻撃力とＴＰを大きく高め、威力を増したＵＢで先制し群がる敵を薙ぎ払う。=[Physical] A brawler dragonfolk who cuts from VG and seizes the future. With a skill that greatly boost the first bullet, greatly boost her P.ATK and TP, and preemptively mows down the crowd of enemies with a UB that has increased power.
+##Profile##
+【物理】前衛で先陣を切り未来を掴む喧嘩屋ドラゴン族。初弾が大幅強化するスキルで自分の攻撃力とＴＰを大きく高め、威力を増したＵＢで先制し群がる敵を薙ぎ払う。=[Physical] A dragongirl brawler who cuts from vanguard and seizes the future. With a skill that greatly boost the first strike, greatly boost her P.ATK and TP, and preemptively mows down the crowd of enemies with a UB that has increased power.
 
 格闘技=Martial arts
 
+##UB##
 ドラゴンズエンドブレイク=Dragon's End Break
-r:"^範囲内の敵に(\d+)の物理ダメージ\n初使用時、範囲内の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ$"=At the first use:\n►Deals $2 P.DMG to enemies within 600 range.\n\nAfterward:\n►Deals $1 P.DMG to enemies within 600 range.\n►Boosts own P.ATK by $3 for 7.5s.
+前方範囲内の敵すべてに物理大ダメージを与え、大きく吹き飛ばし、自分の物理攻撃力を短時間特大アップさせる。バトル開始後、初弾のユニオンバーストはダメージ量が大幅アップする。=Deals large P.DMG to enemies in range, blows them away, and massively boosts own P.ATK for a short period of time. When battle begins, 1st UB deals massive P.DMG to enemies in range.
+r:"^範囲内の敵に(\d+)の物理ダメージ初使用時、範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=►For the 1st UB, deals $2\nP.DMG to enemies in 600 range.\n►For the 2nd+ UB, deals $1 P.DMG to enemies in 600 range.\n►Boosts own P.ATK by $3 for 7.5s.
 
-前方範囲内の敵すべてに物理大ダメージを与え、大きく吹き飛ばし、自分の物理攻撃力を短時間特大アップさせる。バトル開始後、初弾のユニオンバーストはダメージ量が大幅アップする。=Deals large P.DMG to all enemies within a range, blows them away greatly, and increases your P.ATK by an massive amount for a short period of time. After the battle begins, the first shot of the UB greatly increases the amount of DMG.
-
+##S1##
 レイジングフィスト=Raging Fist
-レイジングフィスト+=Raging Fist+
-r:"^範囲内の敵に(\d+)の物理ダメージ\n自分の物理クリティカルを100アップ\n初使用時、自分の物理クリティカルを250アップ$"=Cast time: 1.875s\n►Deals $1 P.DMG to enemies within 450 range.\nAt the first use:\n►Boosts own P.Crit Rate by 250 for 12s.\n\nAfterward:\n►Boosts own P.Crit Rate by 100 for 12s.
+前方範囲内の敵すべてに物理中ダメージを与え、自分の物理クリティカルを大アップする。バトル開始後、初弾のこのスキルは物理クリティカルの上昇量が大幅アップする。=Deals moderate P.DMG to enemies in range and greatly boosts own P.CRIT Rate. When battle begins, 1st skill usage massively boosts own P.CRIT Rate.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリティカルを(\d+)アップ初使用時、自分の物理クリティカルを(\d+)アップ$"=Cast time: 1.875s\n►Deals $1 P.DMG to enemies in 450 range.\n►For the 1st skill usage, boosts own P.CRIT Rate by $3 for 12s.\n►For the 2nd+ skill usage, boosts own P.CRIT Rate by $2 for 12s.
 
-前方範囲内の敵すべてに物理中ダメージを与え、自分の物理クリティカルを大アップする。バトル開始後、初弾のこのスキルは物理クリティカルの上昇量が大幅アップする。=Deals medium P.DMG to all enemies within a forward range and greatly increases your P.crit. At start for once, will massively increase the amount of P.crit
-
+##S2##
 ドラグニックコール=Dragonic Call
-r:"^自分の物理攻撃力を(\d+)アップ\n初使用時、自分の物理攻撃力を(\d+)アップ\n自分のＴＰを200回復\n初使用時、自分のＴＰを1000回復$"=Cast time: 1.965s\nAt the first use:\n►Boosts own physical attack by $2 for 12s.\n►Recovers own TP by 1000.\n\nAfterward:\n►Boosts own physical attack by $1 for 12s.\n►Recovers own TP by 200.
+自分の物理攻撃力を大アップさせ、ＴＰを中回復させる。バトル開始後、初弾のこのスキルは物理攻撃力の上昇量とＴＰの回復量が大幅アップする。=Greatly boosts own P.ATK and moderately recovers own TP. When battle begins, 1st skill usage boosts own P.ATK and recovers own TP by a massive amount.
+r:"^自分の物理攻撃力を(\d+)アップ初使用時、自分の物理攻撃力を(\d+)アップ自分のＴＰを(\d+)回復初使用時、自分のＴＰを(\d+)回復$"=Cast time: 1.965s\nFor the 1st skill usage:\n►Boosts own physical attack by $2 for 12s.\n►Recovers own TP by $4.\n\nFor the 2nd skill usage onwards:\n►Boosts own physical attack by $1 for 12s.\n►Recovers own TP by $3.
 
-自分の物理攻撃力を大アップさせ、ＴＰを中回復させる。バトル開始後、初弾のこのスキルは物理攻撃力の上昇量とＴＰの回復量が大幅アップする。=Boosts own P.ATK by a large amount and recovers TP by a medium amount. At start for once, Boosts own P.ATK and recovers own TP by a massive amount.
+##EX##
+リベレイトドラゴン=Liberate Dragon
+リベレイトドラゴン+=Liberate Dragon+
 
-リベレイトドラゴン=Rebelite Dragon
-リベレイトドラゴン+=Rebelite Dragon+
+##S1+##
+レイジングフィスト+=Raging Fist+
+前方範囲内の敵すべてに物理大ダメージを与え、自分の物理クリティカルを大アップする。バトル開始後、初弾のこのスキルは物理クリティカルの上昇量が大幅アップし、ＴＰを特大回復させる。=Deals massive P.DMG to enemies in range and greatly boosts own P.CRIT Rate. When battle begins, 1st skill usage massively boosts own P.CRIT Rate and recovers own TP by a large amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリティカルを(\d+)アップ初使用時、自分の物理クリティカルを(\d+)アップ初使用時、自分のＴＰを(\d+)回復$"=Cast time: 1.875s\n►Deals $1 P.DMG to enemies in 450 range.\n►For the 1st skill usage, boosts own P.CRIT Rate by $3 for 12s.\n►For the 2nd+ skill usage, boosts own P.CRIT Rate by $2 for 12s.\n►For the 1st skill usage, recovers own TP by $4.
+
+##UE##
+ソウルリベレイター=Soul Liberator
