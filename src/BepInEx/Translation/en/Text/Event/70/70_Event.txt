@@ -1,6 +1,17 @@
 r:"^大晦日の王都ランドソル([0-9\-\(\)\w （）]*)$"=New Year's Eve at Landosol City $1
 メテオ・イン・ドリーム=Meteor in Dream
-r:"^エルフの森周辺=([0-9\-\(\)\w （）]*)$"=Elven forest Area $1
+r:"^エルフの森周辺=([0-9\-\(\)\w （）]*)$"=Elven Forest Area $1
 r:"^(.{2,10})の初夢$"=$1’s first dream
 [3C404E]プチメテオを30個壊そう[-]=[3C404E]Destroy 30 Petit Meteors[-]
 [FFFFFF]プチメテオを30個壊そう[-]=[FFFFFF]Destroy 30 Petit Meteors[-]
+
+迎春ドリーマーズ！　新年、あけましてお隕石（メテオ）！？=Greetings Dreamers! Happy New-teor!?
+
+新年あけずしてお滅亡！？=The New Years Won't Arrive!?
+隕石迎撃チーム、結成！？=Meteor Interception Team，Formed!?
+お年玉と落とし玉=Otoshidama and "Otoshidama"
+仁義なき正月遊戯=Lawless New Year Game
+予知夢を巡れば未来も巡る=What comes around in a dream, goes around
+最後の予知夢、下した決断=Final Prophetic Dream, Decision Made
+みんな揃って、新年を！=Celebrate New Year All Together!
+夢にまで見たお正月=The New Year I Saw in my Dream
