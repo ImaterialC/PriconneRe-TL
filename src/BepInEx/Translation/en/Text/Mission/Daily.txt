@@ -26,8 +26,15 @@ r:"^あと ([0-9]{2})分([0-9]{2})秒$"=Deadline $1m$2s
 [3C404E]プリンセスアリーナで1回戦おう[-]=[3C404E]Participate in the "Princess Arena" 1 time[-]
 [3C404E]探索を4回クリアしよう[-]=[3C404E]Clear Grotto 4 times[-]
 [3C404E]ダンジョンのバトルを1回クリアしよう[-]=[3C404E]Clear 1 floor of a dungeon[-]
+
 [3C404E]キャラのスキルを1回強化しよう[-]=[3C404E]Enhance a character's skill 1 time[-]
 [3C404E]装備強化で装備の★を1つ増やそう[-]=[3C404E]Refine a character's equipment 1 time[-]
+
+[3C404E]キャラのスキル強化・装備の★を1つ増やす強化・プリンセスナイト強化のどれか1回行おう[-]=[3C404E]Enhance a character's skill, equipment, princess knight enhancements 1 time[-]
+[FFFFFF]キャラのスキル強化・装備の★を1つ増やす強化・プリンセスナイト強化のどれか1回行おう[-]=[FFFFFF]Enhance a character's skill, equipment, princess knight enhancements 1 time[-]
+
+Let's do one of the characters' skill enhancements, equip ★, or princess knight enhancements
+
 [3C404E]マナを1回購入しよう[-]=[3C404E]Buy 1 set of Mana[-]
 [3C404E]クランメンバーに「いいね」しよう[-]=[3C404E]Give a [Like] to another Member of your Clan[-]
 [3C404E]ノーマルガチャを10回引こう[-]=[3C404E]Draw the Normal Gacha "10 times"[-]

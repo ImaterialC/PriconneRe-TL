@@ -298,3 +298,9 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_3/Label=ChangeFontSize(10)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_4/Label=ChangeFontSize(9)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_5/Label=ChangeFontSize(10)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_1/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_2/Label=ChangeFontSize(8)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_3/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_4/Label=ChangeFontSize(9)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_5/Label=ChangeFontSize(10)
