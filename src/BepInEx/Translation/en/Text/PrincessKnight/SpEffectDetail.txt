@@ -1,0 +1,32 @@
+特殊効果詳細=Special Effect Details
+推奨プリンセスナイトRANK=Recommended PK Rank
+
+火属性ボーナス特大アップ=Boosted Fire Element Bonus
+火属性のキャラが４体以上編成されているとき、キャラの属性ボーナスが強化される。火属性以外の属性ボーナスを無効化する。=When four or more Fire characters are in the party, boost to Element Bonus. Negates Ele. Bonus for other elements.
+
+水属性ボーナス特大アップ=Boosted Water Element Bonus
+水属性のキャラが４体以上編成されているとき、キャラの属性ボーナスが強化される。水属性以外の属性ボーナスを無効化する。=When four or more Water characters are in the party, boost to Element Bonus. Negates Ele. Bonus for other elements.
+
+風属性ボーナス特大アップ=Boosted Wind Element Bonus
+風属性のキャラが４体以上編成されているとき、キャラの属性ボーナスが強化される。風属性以外の属性ボーナスを無効化する。=When four or more Wind characters are in the party, boost to Element Bonus. Negates Ele. Bonus for other elements.
+
+光属性ボーナス特大アップ=Boosted Light Element Bonus
+光属性のキャラが４体以上編成されているとき、キャラの属性ボーナスが強化される。光属性以外の属性ボーナスを無効化する。=When four or more Light characters are in the party, boost to Element Bonus. Negates Ele. Bonus for other elements.
+
+闇属性ボーナス特大アップ=Boosted Dark Element Bonus
+闇属性のキャラが４体以上編成されているとき、キャラの属性ボーナスが強化される。闇属性以外の属性ボーナスを無効化する。=When four or more Dark characters are in the party, boost to Element Bonus. Negates Ele. Bonus for other elements.
+
+ＨＰ吸収ダウン=HP Drain DOWN
+バトル開始時、すべてのキャラのＨＰ吸収を大ダウンさせる。=At the start of battle, all characters' HP Drain is greatly decreased.
+
+深域モンスター=Deep Zone Monster
+すべてのモンスターが一度の行動で受けるダメージ値を減衰させる。ダメージ値が上昇するほど減衰率も上昇する。=All enemies take reduced damage from a single hit. The damage reduction increases proportionally to damage dealt.
+
+物理防御力（ダウン不可）アップ=Physical Defense UP (Unremovable)
+バトル開始時、すべてのモンスターの物理防御力を中アップさせる。この効果は物理防御力ダウンの影響を受けない。=At the start of battle, all enemies receive a moderate boost to P.DEF. This boost is not affected by P.DEF reduction effects.
+
+魔法防御力（ダウン不可）アップ=Magical Defense UP (Unremovable)
+バトル開始時、すべてのモンスターの魔法防御力を中アップさせる。この効果は魔法防御力ダウンの影響を受けない。=At the start of battle, all enemies receive a moderate boost to M.DEF. This boost is not affected by M.DEF reduction effects.
+
+ＴＰ上昇上限付与=Maximum TP Boost
+バトル開始時、すべてのキャラのＴＰ上昇の上限値を150にする。=At the start of the battle, the maximum TP Boost for all characters is capped to 150.

@@ -147,7 +147,7 @@ EX装備の選択上限に達しています。=Reached the selection limit for 
 EX装備入れ替え確認=EX Equipment replacement confirmation
 EX装備を入れ替えます。\nよろしいですか？=Swap the EX equipment.\nIs it OK?
 
-r:"^(\d+)Pt使用$"=Use $1pt
+r:"^([0-9,]+)Pt使用$"=Use $1pt
 装備品・強化アイテムは\nクエストで入手することができます。=Equipment and Refinement items can be obtained from quests.
 以下のアイテムを消費して上限解放します。=Consume the following items to Uncap.
 EX装備上限解放確認=Confirm Uncap Ex Equipment

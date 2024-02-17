@@ -75,7 +75,7 @@ TP250アップ=TP250 up
 
 残り挑戦回数：=Attempts:
 r:"^回数回復まであと([0-9:]+)$"=Until Recovery $1
-r:"^残りHP(\d+)$"=HP: $1 Left
+r:"^残りHP([0-9,]+)$"=HP: $1 Left
 最新状況を読み込む=Refresh Status
 最新バーストダウン=Latest Burst Down
 発生!=!!!

@@ -2,8 +2,8 @@
 データのダウンロードの設定を行います。\n※ゲーム開始後でも変更することができます。=Set the data download.\n※You can change it even after the game starts.
 ■ムービー画質設定=■Movie Quality Settings
 フルアニメーションによる演出をお楽しみいただけます。=Image quality of Anime in Game.
-r:"^高画質版（約(\d+)MB）$"=HQ (±$1MB)
-r:"^標準版（約(\d+)MB）$"=Standard (±$1MB)
+r:"^高画質版（約([0-9,]+)MB）$"=HQ (±$1MB)
+r:"^標準版（約([0-9,]+)MB）$"=Standard (±$1MB)
 推奨=Recommen\ndation
 ■ボイスデータダウンロード=■Voice Data Download
 フルボイスによるストーリーをお楽しみいただけます。※ON/OFF設定はゲーム開始後、再設定可能です。=Enjoy a full voice story. ※Can be turned ON/OFF later.

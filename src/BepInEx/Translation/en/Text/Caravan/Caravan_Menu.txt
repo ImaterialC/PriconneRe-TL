@@ -75,7 +75,7 @@ r:"^レベル(\d)$"=Level $1
 到達までにかかったターン数=Turns Needed to Reach Checkpoint
 
 ---Sell Dishes---
-r:"^\[3B3F4D\](.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
+r:"^\[3B3F4D\](.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
 
 ---Lottery---
 福引券=Lottery Ticket
@@ -119,8 +119,8 @@ r:"^\[3B3F4D\](.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]�
 料理を売却してマイルを得ることができます。=You can earn Miles by selling Dishes.
 売却確認=Confirm Sale
 売却完了=Sale Complete
-r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しますか\?\[-\]$"=[3B3F4D]Sell the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles?[-]
-r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles.[-]
+r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]マイルを獲得しますか\?\[-\]$"=[3B3F4D]Sell the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles?[-]
+r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold the following Dish(es) for[-][FFBB00,CE4F00] $1[-][3B3F4D] Miles.[-]
 
 現在マイルショップが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Shop is currently open.\nIt will not be available\nafter using the Dice or a Dish.\nContinue?
 
@@ -153,7 +153,7 @@ r:"^(\d)ターンの間ターン数のカウントをスキップする。$"=For
 料理所持数上限=Maximum Dishes Reached
 料理が所持上限に達しています。\n新たに料理を入手した場合、超過分の売却が必要です。\n\nこのままダイスを振ってもよろしいですか？=Your dish inventory is currently at its limit.\nIf you acquire new dishes, you will need to sell the excess ones.\nRoll the Dice anyway?
 所持数がいっぱいです。売却する料理を選んでください。=Inventory full. Select Dish(es) to sell.
-r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]/8\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/8[-]
+r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\]([0-9,]+)\[-\]\[3C404E\]/8\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/8[-]
 
 現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or eating food.\n\nIs this OK?
 

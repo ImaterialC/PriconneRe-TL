@@ -80,14 +80,14 @@ r:"^(\[3C404E\]\[FFBB00,CE4F00\])(\d+)日(\[-\]\[-\])$"=$1$2 Days $3
 
 
 sr:"^(\d+)年(\d+月)(\d+)日まで$"=Until $2 $3, $1
-r:"^ジュエル (\d+)個$"=$1 Jewels
+r:"^ジュエル ([0-9,]+)個$"=$1 Jewels
 
 毎月更新 ジュエル 7500個=7,500 jewels (Monthly deal)
 3回限定 ジュエル 7500個=7,500 Jewels (Three-time deal)
 
 r:"^アイテム装備パック([Ⅰ-Ⅻ])?（(\d+)周年）が購入可能になりました！$"=Equipment Pack $1 ($2th Anniv)\nis now available!
 アイテム装備パックについて=About Item Equipment Packs
-sr:"^(.+)が購入可能になりました！=$1 is now available!
+sr:"^(.+)が購入可能になりました！$"=$1 is now available!
 
 sr:"^アイテム装備パック([Ⅰ-Ⅻ])?(（再販）)?$"=Equipment Pack $1 $2
 r:"^アイテム装備パック(.+)?（([\d]+)周年）$"="Equipment Pack $1 ($2th Anniv)"

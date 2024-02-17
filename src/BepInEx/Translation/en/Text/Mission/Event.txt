@@ -14,7 +14,7 @@ EXHIBITION＋でボスを5回以内に討伐しよう=Clear the Exhibition＋ wi
 [FFFFFF]EXHIBITION＋でボスを5回以内に討伐しよう[-]=[FFFFFF]Clear the Exhibition＋ within 5 attempts.[-]
 
 sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)を討伐しよう(\[-\])?$"=$1Defeat $3.$4
-sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)のHPを(\d+)まで減らそう(\[-\])?$"="$1Reduce $3's HP to $4.$5"
+sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)のHPを([0-9,]+)まで減らそう(\[-\])?$"="$1Reduce $3's HP to $4.$5"
 r:"^(\[[0-9A-F]{6}\])?討伐証交換の報酬ラインナップを(\d)回リセットしよう(\[-\])?$"=$1Reset the reward lineup of subjugation exchange $2 Time.$3
 r:"^(\[[0-9A-F]{6}\])?スペシャルバトルのMODE(\d)をクリアしよう(\[-\])?$"=$1 Clear Special Battles MODE $2.$3
 sr:"^(\[[0-9A-F]{6}\])?(.+)のMODE(\d)をクリアしよう(\[-\])?$"=$1 Clear $2 Mode$3$4

@@ -20,6 +20,13 @@ EXPギガポーション=Giga EXP Potion
 橙枠の原鉱=Orange Ore
 空枠の原鉱=Sky-blue ore
 
+アストラルシャード=Astral Shard
+（闇）= (Darkness)
+（光）= (Light)
+（風）= (Wind)
+（水）= (Water)
+（火）= (Fire)
+
 スカルプト=Scalput
 ワンドオブミラージュ=Wand of Mirage
 ファストチケット=Fast Ticket
@@ -33,19 +40,21 @@ EXPギガポーション=Giga EXP Potion
 ボスチケット=Boss Tickets
 （前編専用）= (Part 1)
 （後編専用）= (Part 2)
-5th Anniversary カウントダウン=5th Anniversary countdown
+([0-9.A-Za-z ]+)カウントダウン=$1Countdown
+Lv/RANK シンクロ機能実装に伴う配布です。=Implementation of sync functions: Lv/Rank.
+
 正月のひと時=New Year's time
 ------------
 ランダムな装備が獲得できる。=Random equipment can be obtained.
 大天使の泪=Archangel's Tears
 一見ただの飴玉だが実は霊験あらた\nかな聖遺物であり、巷では模造品や\n偽物が出回る超レアアイテム。=At first glance, it's just look like a candy ball, but it's actually a holy relic with a spiritual test, and it's a super rare item with imitations and counterfeits on the streets.
 
-r:"^EXPを (\d+) 獲得できる$"=Gain $1 EXP.
-r:"^キャラのLv強化に使用すると、キャラEXPが(\d+)加算される。$"=Used to upgrade a character's level. Adds $1 character EXP.
-r:"^ギルドハウス内で使用すると、キャラの絆Ptが(\d+)加算される。$"=Used in the Guildhouse. Adds $1 character's bond points.
-r:"^キャラの装備強化に使用すると、装備強化Ptが(\d+)加算される。$"=Used to refine a character's equipment. Adds $1 equipment refinement points.
+r:"^EXPを ([0-9,]+) 獲得できる$"=Gain $1 EXP.
+r:"^キャラのLv強化に使用すると、キャラEXPが([0-9,]+)加算される。$"=Used to upgrade a character's level. Adds $1 character EXP.
+r:"^ギルドハウス内で使用すると、キャラの絆Ptが([0-9,]+)加算される。$"=Used in the Guildhouse. Adds $1 character's bond points.
+r:"^キャラの装備強化に使用すると、装備強化Ptが([0-9,]+)加算される。$"=Used to refine a character's equipment. Adds $1 equipment refinement points.
 
-r:"^ギルドハウスやキャラの強化画面で\n使用すると、キャラの絆Ptが(\d+)\n?加\n?算\n?される。$"=Use it in the Guildhouse or on the Character Enhancement Screen to add $1 Bond Pts to the character.
+r:"^ギルドハウスやキャラの強化画面で\n使用すると、キャラの絆Ptが([0-9,]+)\n?加\n?算\n?される。$"=Use it in the Guildhouse or on the Character Enhancement Screen to add $1 Bond Pts to the character.
 クリアランク★3を獲得したクエス\nトの、プレイ時間をスキップするチケット。=A ticket that can skip quests that have a 3★ clear rank.
 プラチナガチャやピックアップガ\nチャを1回引くことができるガチャチケット。=A gacha ticket that can be used to draw the Premium or Focus Gacha.
 アドベンチャーのクエストにかかる\n時間を短縮することができるチケッ\nト。=A ticket that reduces the time required to complete an adventure quest.

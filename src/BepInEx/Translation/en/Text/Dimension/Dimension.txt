@@ -111,7 +111,7 @@ r:"^(\[[0-9A-F]{6}\])?次元断層のEXTRA PHASEをクリアしよう(\[-\])?$"=
 
 途中でリタイアした場合、この内容はキャンセルされます。=If you retire on the way, this content will be canceled.
 
-sr:"^([べ-ヺー＆]+?)(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?のシャドウに専用装備が追加される。$"。=UE was added to $1$2$3$4$5$6$7$8$9$10$11’s Shadow
+sr:"^([べ-ヺー＆]+?)(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?のシャドウに専用装備が追加される。$"=UE was added to $1$2$3$4$5$6$7$8$9$10$11’s Shadow
 ５つのPHASEからなる期間限定クエスト『次元断層』が登場しました。\nクエストに３回勝利すると次のPHASEに進めますよ。討伐したモンス\nターは強化されて復活するので、気を引き締めて挑みましょう、主さま。=A limited-time quest "Dimension Fault" consisting of 5 PHASE has appeared. If you win the quest three times, you will advance to the next PHASE. Defeated monsters will be strengthened and revived, so brace yourself and take on the challenge, Lord.
 
 クエストに勝利してゲージが最大になると、トレジャークエストが出現し\nます。トレジャークエストに勝利することでジュエルを獲得できますよ。\n出現したらぜひ挑戦してみてくださいまし。=If you win the quest and fill the gauge to the maximum, a treasure quest will appear. You can get jewels by winning treasure quests. Please try it when it appears.

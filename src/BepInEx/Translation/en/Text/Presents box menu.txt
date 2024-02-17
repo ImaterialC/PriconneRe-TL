@@ -22,7 +22,7 @@
 ガチャ更新によりキャラ交換Ptを変換したアイテムです。=Converted from character exchange points due to gacha update.
 sr:"^(.+)を購入して獲得したアイテムです。$"=Item obtained from a $1.
 ---Item Receive---
-sr:"^(\[[0-9A-Fa-f,]{6,13}\])?([\s\S]{2,22}?)(（.+）)?(の\n?(?:ピュア)?メモリーピース|の設計図)? ?(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?(\d+)(\[-\])?(?:\[-\])?$"=$1$2$3$4 × $5$6$7$7
+sr:"^(\[[0-9A-Fa-f,]{6,13}\])?([\s\S]{2,22}?)(（.+）)?(の\n?(?:ピュア)?メモリーピース|の設計図)? ?(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?([0-9,]+)(\[-\])?(?:\[-\])?$"=$1$2$3$4 × $5$6$7$7
 
 以下の交換結果になりました。=The following exchange results are as follows:
 ---sort---
@@ -74,7 +74,7 @@ sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。
 運営からのプレゼントです。=Gift from the management.
 
 ---Premium---
-sr:"^\[3C404E\]([0-9]*[^0-9]+)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]日有効\[-\](?: \[3C404E\](\+\d+)日予約中\[-\])?$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-]$4[3C404E] day(s) remaining.[-]
+sr:"^\[3C404E\]([0-9]*[^0-9]+)([0-9,]+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]日有効\[-\](?: \[3C404E\](\+\d+)日予約中\[-\])?$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-]$4[3C404E] day(s) remaining.[-]
 スタミナ上限に到達しました。\n獲得したスタミナをプレゼントに送ります。=Your Stamina has reached its maximum. Remaining Stamina will be sent to the Present Box.
 
 所持上限に達しているアイテムがあります。\n対象アイテムは受け取れませんでした。=Item limit reached.\nUnable to receive the designated item.

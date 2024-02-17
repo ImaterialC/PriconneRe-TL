@@ -90,11 +90,11 @@
 【料理】次回移動時に1マス分多く進める。=[Cooking] You can move 1 extra Tile next turn.
 
 ---Sub-effects---
-r:"^(\d+)マイルを獲得する。$"=Acquire $1 miles.
+r:"^([0-9,]+)マイルを獲得する。$"=Acquire $1 miles.
 福引券を1枚獲得する。=Acquire 1 lottery ticket.
 r:"^RANK(\d+)のマイルショップを開く。$"=Open a RANK$1 mile shop.
-sr:"^(.+)を(\d+)個獲得する。$"=Obtain $2 x $1.
-sr:"^(.+)を(\d+)個獲得…$"=Obtain $2 x $1.
+sr:"^(.+)を([0-9,]+)個獲得する。$"=Obtain $2 x $1.
+sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
 ---Red---

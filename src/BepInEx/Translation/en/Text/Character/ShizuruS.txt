@@ -9,7 +9,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージ分の物理吸
 ##S1##
 ブルーウェービング=Blue Waving
 前方範囲内の敵すべてに物理小ダメージを与え、自分の物理防御力を大アップさせ、さらに自分のＨＰを小回復する。自分の物理防御力が高い程ダメージとＨＰの回復量がアップする。=Deals small P.DMG to enemies in range, greatly boosts own P.DEF, and also recovers own HP by a small amount. The higher own P.DEF, the greater P.DMG dealt and HP recovery.
-r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ自分のＨＰを(\d+)回復$=►Deals $1(+20×P.DEF) P.DMG to enemies in 500 range.\n►Boosts own P.DEF by $2 for 12s.\n►Recovers own HP by $3(+1.6×P.DEF).
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ自分のＨＰを(\d+)回復"$=►Deals $1(+20×P.DEF) P.DMG to enemies in 500 range.\n►Boosts own P.DEF by $2 for 12s.\n►Recovers own HP by $3(+1.6×P.DEF).
 
 ##S2##
 サン・フラワリー=Sun Flowery

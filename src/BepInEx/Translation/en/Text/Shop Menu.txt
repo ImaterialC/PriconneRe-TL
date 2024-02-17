@@ -26,12 +26,12 @@ r:"^残り(\d+)回$"=$1 Times Left
 r:^"([0-9,]+)でまとめて購入する$"=Buy All with: $1
 まとめて購入する=Buy All
 ---Confirm---
-sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しますか\?\[-\]$"=[3B3F4D]Use $1 × [FFBB00,CE4F00]$2[-]\nto purchase the following items?[-]
+sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しますか\?\[-\]$"=[3B3F4D]Use $1 × [FFBB00,CE4F00]$2[-]\nto purchase the following items?[-]
 
 ---Bough List---
-sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しました。\[-\]$"=[3B3F4D]You used $1 × [FFBB00,CE4F00]$2[-]\n to buy the following items.[-]
+sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しました。\[-\]$"=[3B3F4D]You used $1 × [FFBB00,CE4F00]$2[-]\n to buy the following items.[-]
 
-sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\](\d+)\[-\]を購入しました。\[-\]$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-] to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
+sr:"^\[3C404E\](.+)×\[FFBB00,CE4F00\]([0-9,]+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\]([0-9,]+)\[-\]を購入しました。\[-\]$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-] to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
 
 ---sort order---
 ピュアメモリー\nピースのみ=Pure Memory\nShard only

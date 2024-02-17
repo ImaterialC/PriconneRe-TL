@@ -304,3 +304,6 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_3/Label=ChangeFontSize(10)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_4/Label=ChangeFontSize(9)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_5/Label=ChangeFontSize(10)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsTalentQuestDetail(Clone)/OverUiParent/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsTalentQuestSpEffectDetail(Clone)/ScrollContent/ScrollView/WrapContent/PartsTalentQuestSpEffectScrollItemManager(Clone)/UIGrid/PartsTalentQuestSpEffectScrollItem(Clone)/EffectDescription=ChangeFontSize(15)

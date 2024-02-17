@@ -17,6 +17,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 1枚に戻す=Reset to 1
 1体に戻す=Reset to 1
 スキップチケット枚数リセット確認=Skip Ticket Number Reset
+下記のアイテムを装備します。よろしいですか？=Equip the following items. Is it OK?
 
 ---Menu---
 次へ=Next

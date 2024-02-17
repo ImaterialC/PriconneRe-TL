@@ -26,7 +26,7 @@
 がっつりプレイ=Hardcore
 初心者OK=Beginners Welcome
 わいわいプレイ=Just Having Fun
-r:"^クランバトル(\d+)位以内$"=Top $1
+r:"^クランバトル([0-9,]+)位以内$"=Top $1
 毎日ログイン=Online Every Day
 2日以内ログイン=Online within 2 Days
 朝プレイメイン=Mainly Mornings

@@ -165,7 +165,7 @@ Like日時=Date
 このプレイヤーにはすでにLike済みです。=You have already liked this Player.
 
 ---upgrade notification---
-r:"^プレイヤーLv(\d+)以上 / (\d+)ルピ$"=P. Lv$1 or more & $2 Rupies
+r:"^プレイヤーLv(\d+)以上 / ([0-9,]+)ルピ$"=P. Lv$1 or more & $2 Rupies
 
 ルピ=Rupies
 消費ルピ=Use

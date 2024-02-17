@@ -16,7 +16,17 @@ Sダッシュ=S:Dash
 選べる★3(水)=3★ Water
 選べる★3(火)=3★ Fire
 選べる★3(風)=3★ Wind
+マスターピース残り獲得可能回数=Master Pc. left
 
+残り=Remaining
+対象キャラを仲間にすると=Recruit the target
+選択人数=Select
+
+闇属性 選べる★3確定プラチナガチャ=Guarantee ★3 Dark Platinum Gacha
+光属性 選べる★3確定プラチナガチャ=Guarantee ★3 Light Platinum Gacha
+火属性 選べる★3確定プラチナガチャ=Guarantee ★3 Fire Platinum Gacha
+水属性 選べる★3確定プラチナガチャ=Guarantee ★3 Water Platinum Gacha
+風属性 選べる★3確定プラチナガチャ=Guarantee ★3 Wind Platinum Gacha
 
 限定★3確定=Limited ★3\nGuarantee
 限定★3確定ガチャ=Guarantee ★3\nLim gacha
@@ -121,6 +131,10 @@ r:"^(\[[0-9A-F,]{6,13}\])10キャラ目は(\[[0-9A-F,]{6,13}\])★3キャラ確�
 [FFBB00,CE4F00]プラチナガチャはキャラのみ出現！[-]=[FFBB00,CE4F00]Only characters appear in the Premium Gacha![-].
 キャラ交換Ptの説明=Character exchange Pt description
 
+
+[3C404E]『10回引く』は[FFBB00,CE4F00]★2以上[-]1キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]2★ character[-] is guaranteed with each 10x draw![-]
+
+[3C404E]対象キャラを仲間にする度に[FFBB00,CE4F00]対象メモピ200個[-]GET！[-]=[3C404E]Rate-up characters come with a bonus of [FFBB00,CE4F00]200 Memory Shards[-]![-]
 ---Banner---
 
 無料で10回ガチャは\n毎日5時と12時にリセットされます。=Free 10x Gacha resets daily at\n5:00 and 12:00 (JST).
@@ -215,9 +229,9 @@ sr:"^「([べ-ヺー＆]+)(（.+）)?」\n\nにピックアップ対象を変更
 ・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×100と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットのメモリーピース交換ダイアログ内をご確認ください。=•Each character's Memory Shard exchange ticket can be exchanged for {{C}} character's Memory Shard × {{B}}.\n・ Acquired Memory Shard will be given directly. If you have reached the maximum number of Memory Shards, you will be given to the present box.\n※ For the characters to be exchanged, please check the memory piece exchange dialog for each ticket.
 ・★3確定 ガチャチケット1枚につき特定の★3キャラが1キャラ獲得できるチケットです。\n・出現するキャラにつきましては各チケットの［提供割合］ボタンよりご確認ください。\n・★3確定 ガチャチケットではキャラ交換Ptを獲得できません。\n・すでに仲間になったキャラが出現した場合、「女神の秘石」に変換されます。\n・変換された女神の秘石は、プレゼントボックスに贈られずに、直接所持数に加算されます。\n・女神の秘石の所持数が上限に達している場合、プレゼントボックスに贈られます。\n・ガチャは1回ごとに提供割合にもとづいて抽選を行います。そのため、提供割合が1％のキャラが、100回中1回必ず出現するわけではありません。=・The Guaranteed 3* Gacha Ticket is a ticket that let's you guarantee a 3★ character.\n・Refer to the [Percentage] button on the ticket for the characters that can appear.\n・You will not be able to earn Character Exchange Points with a Guaranteed 3★ Gacha Ticket.\n・When a character who is already recruited appears, it will be converted into "Divine Amulets".\n・The converted Divine Amulets will not be sent to your gift box, but will be directly sent to your inventory.\n・ If the maximum number of Divine Amulets in your possession has been reached, they will be sent to your Gift Box.\n・The gacha will be drawn based on the percentage for each draw. Therefore, a character with a 1% chance of appearing is not guaranteed to appear once every 100 draws.
 
-r:"^([0-9.]+)th Anniv/. スペシャル交換チケットについて$"=About $1th Anniv. special exchange tickets
-r:"^([0-9.]+)th Anniv/. スペシャル交換チケットを所持していません。$"=Insufficient $1th Anniv. Special Exchange Ticket.
-r:"^([0-9.]+)th Anniv/. スペシャル交換チケット$"=$1th Anniv. Special Exchange Ticket
+r:"^([0-9.]+)th Anniv\. スペシャル交換チケットについて$"=About $1th Anniv. special exchange tickets
+r:"^([0-9.]+)th Anniv\. スペシャル交換チケットを所持していません。$"=Insufficient $1th Anniv. Special Exchange Ticket.
+r:"^([0-9.]+)th Anniv\. スペシャル交換チケット$"=$1th Anniv. Special Exchange Ticket
 
 チケットガチャではキャラ交換Ptは獲得できません。=Character exchange Pt cannot be earned\nwith this Gacha Ticket .
 sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?$"=Use $1 to draw Gacha.\nIs this OK?
@@ -229,8 +243,13 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 ジュエルが不足しています。=Insufficient jewels.
 このガチャは有償ジュエルで引くことができます。=This gacha can only be drawn with Paid Jewels.
 [FFBB00,CE4F00]有償ジュエル限定\n限定★3確定ガチャ開催！[-]=[FFBB00,CE4F00]Guarantee ★3 Limited character\nGuaranteed Gacha[-]
+[FFBB00,CE4F00]有償ジュエル限定\n選べる★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Guarantee ★3 Limited character\nGuaranteed Gacha[-]
+
+
 [FFBB00,CE4F00]有償ジュエル限定\n第2弾 限定★3確定ガチャ開催！[-]=[FFBB00,CE4F00]Guarantee ★3 Limited character\nGuaranteed Gacha Part 2[-]
 [3C404E]10キャラ目は[FFBB00,CE4F00]限定★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 character[-] is guaranteed with a 10x draw!
+
+[3C404E]10キャラ目は[FFBB00,CE4F00]選択した★3キャラ確定！[-]\n※選択したキャラはいつでも変更可能です[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 character[-] is guaranteed with a 10x draw!\n※Selected characters can be changed at any time.[-]
 
 [FFBB00,CE4F00]有償ジュエル限定\nクリスマス★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Paid Jewels Limited\nChristmas ★3 Guaranteed Platinum Gacha Now Underway![-]
 [3C404E]10キャラ目は[FFBB00,CE4F00]クリスマス★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Christmas Character[-] is guaranteed with a 10x draw!

@@ -1,4 +1,4 @@
 カムバックログイン=Comeback Login
 カムバック=Comeback
 
-r:"^.+(\d+)日(.+)ぶりにログインしました。([\s\S]+)(\d+)日分(.+)の家具から生成されたスタミナを\nプレゼントボックスから受け取れます(.+)$"=[3C404E]Logged in for the first time in [FFBB00,CE4F00]$1 days[-].\nStamina generated from furniture for [FFBB00,CE4F00]$4 days[-].\nYou can receive it from the present box![-]
+r:"^.+([0-9,]+)日(.+)ぶりにログインしました。([\s\S]+)([0-9,]+)日分(.+)の家具から生成されたスタミナを\nプレゼントボックスから受け取れます(.+)$"=[3C404E]Logged in for the first time in [FFBB00,CE4F00]$1 days[-].\nStamina generated from furniture for [FFBB00,CE4F00]$4 days[-].\nYou can receive it from the present box![-]

@@ -1,0 +1,12 @@
+r:"^紅焔の深域(.{0,5})$"=Deep Depths of Crimson Flames $1
+r:"^翠嵐の深域(.{0,5})$"=Deep Depths of Jade Storms $1
+r:"^紫冥の深域(.{0,5})$"=Deep Depths of Violet Abyss $1
+r:"^蒼波の深域(.{0,5})$"=Deep Depths of Azure Waves $1
+r:"^珀天の深域(.{0,5})$"=Deep Depths of Amber Sky $1
+
+闇属性=Dark
+光属性=Light
+風属性=Wind
+水属性=Water
+火属性=Fire
+sr:"^(.+)をクリアで解放されます。$"=Clear $1 to unlock.

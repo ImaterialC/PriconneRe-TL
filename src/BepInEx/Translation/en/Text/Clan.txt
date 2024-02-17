@@ -376,7 +376,7 @@ sr:"^\[FF9393,E82F71\](\d+月)クラン内ランキング\n(.+) 全段階合計\
 sr:"^\[FF9393,E82F71\](\d+月)クラン内ランキング\n(.+) (\d)段階目\[-\]$"=[FF9393,E82F71]In-Clan Rankings ($1)\nWave $3 Score $2: 
 
  全段階合計[-]= Total Score: 
-r:"^ (\d+)段階目\[-\]$"= Wave $1 Score:
+r:"^ ([0-9,]+)段階目\[-\]$"= Wave $1 Score:
 20001位以降=20,001 and below
 
 総合順位報酬=Overall Rank Reward
@@ -470,8 +470,8 @@ sr:"^\(クラン内ランキング　(\d+位)\)$"=(in-clan Rank $1)
 まだ誰も挑戦していません=No attempts made yet.
 r:"^([^\n、\\\.\,。\?\!]{2,10})が$"="[00ff0099]$1[-] hit"
 sr:"^([べ-ヺー＆]+)に$"=$1 for
-r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-]
-r:"^\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-][FF7C4E,D62146](kill)[-]
+r:"^\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-]
+r:"^\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3C404E\]ダメージ\[-\]\[3C404E\]で撃破\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E] Damage[-][FF7C4E,D62146](kill)[-]
 
 削除=Delete
 トレーニングマイログ削除確認=My Log Training Deletion Confirmation

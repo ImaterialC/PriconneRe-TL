@@ -65,4 +65,4 @@ Let's do one of the characters' skill enhancements, equip ★, or princess knigh
 [FFFFFF]クランバトルに3回参加しよう[-]=[FFFFFF]Attempt a Clan Battle 3 time[-]
 [FFFFFF]ダンジョンに1回挑戦しよう[-]=[FFFFFF]Attempt a Dungeon 1 time[-]
 
-r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]プレイヤー経験値\[-\]$"=[3C404E]Player Experience × [FFBB00,CE4F00]$1[-].[-]
+r:"^\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]プレイヤー経験値\[-\]$"=[3C404E]Player Experience × [FFBB00,CE4F00]$1[-].[-]

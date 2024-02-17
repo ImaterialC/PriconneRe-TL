@@ -2,7 +2,7 @@ EX防具コイン=EX Armor Coin
 EX武器コイン=EX Weapon Coin
 EXアクセサリーコイン=EX Acc coin
 分解するアイテムを選択してください。=Please select the item\nto be dismantled.
-r:"^(\d+)個のアイテムを選択中$"=$1 item(s) selected
+r:"^([0-9,]+)個のアイテムを選択中$"=$1 item(s) selected
 1個のアイテムを選択中=1 item selected
 
 所持上限=Possession limit
