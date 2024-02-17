@@ -3,6 +3,7 @@
 
 ##UB##
 ヘブンリーハーツ=Heavenly Hearts
+最もＴＰが多い敵１キャラに魔法中ダメージを与え、ＴＰを中ダウンさせ、さらに魔法防御力を中ダウンさせる。=Deals moderate M.DMG to an enemy with the most TP, moderately lowers its TP, and also moderately lowers its M.DEF.
 最もＴＰが多い敵１キャラに魔法大ダメージを与え、ＴＰを中ダウンさせ、さらに魔法防御力を中ダウンさせる。=Deals large M.DMG to an enemy with the most TP, moderately lowers its TP, and also moderately lowers its M.DEF.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを(\d+)失わせる敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's TP by $2.\n►Lowers an enemy's M.DEF by $3 for 18s.
 
