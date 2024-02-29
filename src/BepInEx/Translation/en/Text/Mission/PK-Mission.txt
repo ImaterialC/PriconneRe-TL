@@ -1,0 +1,13 @@
+強化ミッション=Strengthening Mission
+r:"^(\[[0-9A-F]{6}\])?火属性の属性レベルを(\d+)まで上げよう(\[-\])?$"="$1Raise the Fire Elemental level to $2. $3"
+r:"^(\[[0-9A-F]{6}\])?水属性の属性レベルを(\d+)まで上げよう(\[-\])?$"="$1Raise the Water Elemental level to $2. $3"
+r:"^(\[[0-9A-F]{6}\])?風属性の属性レベルを(\d+)まで上げよう(\[-\])?$"="$1Raise the Wind Elemental level to $2. $3"
+r:"^(\[[0-9A-F]{6}\])?光属性の属性レベルを(\d+)まで上げよう(\[-\])?$"="$1Raise the Light Elemental level to $2. $3"
+r:"^(\[[0-9A-F]{6}\])?闇属性の属性レベルを(\d+)まで上げよう(\[-\])?$"="$1Raise the Dark Elemental level to $2. $3"
+
+sr:"^(\[[0-9A-F]{6}\])?([-0-9珀天蒼波紫冥翠嵐紅焔の深域]{5,10})をクリアしよう(\[-\])?$"="$1Clear $2.$3
+
+
+r:"^(\[[0-9A-F]{6}\])?プリンセスナイトRANK(\d+)を達成しよう(\[-\])?$"="$1Reach Princess Knight RANK $2. $3"
+
+r:"^(\[[0-9A-F]{6}\])?ノードを(\d+)個強化完了しよう(\[-\])?$"="$1Enhance $2 nodes. $3"

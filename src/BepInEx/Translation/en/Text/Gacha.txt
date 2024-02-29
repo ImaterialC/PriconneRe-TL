@@ -307,3 +307,15 @@ sr:"^\[FFBB00\,CE4F00\]★3キャラ出現率2倍\n限定「([べ-ヺー＆]+)(�
 
 
 sr:"^(.{2,12}ガチャ)「(\d+)回引く」$"="$1 "Draw $2 Times"."
+
+
+
+メモリーピース、マスターピースが獲得できる場合、直接付与されます。ただし、獲得したメモリーピース、マスターピースが所持上限に達している場合、プレゼントボックスに贈られます。=When Memory Pieces and Masterpieces can be acquired, they will be directly granted. However, if the acquired Memory Pieces and Masterpieces reach the possession limit, they will be sent to the present box.
+キャラ交換の有効期間、内容は予告なく変更する場合があります。=The duration and content of the character exchange may be changed without notice.
+「有効期間」内にキャラ交換Ptを200Pt以上保持したまま「有効期間」が終了した場合も、キャラ交換Ptは\n「0Pt」にリセットされてPt数と同枚数の\n「スキップチケット」に変換されるため、キャラを仲間にすることはできません。=Even if you have 200 or more Character Exchange Points (Pt) within the "validity period" and the period ends, the Character Exchange Points will be reset to "0 Pt." They will be converted into an equal number of "Skip Tickets," so it will not be possible to recruit characters at that point.
+キャラ交換Ptを「200Pt」以上所持している場合、\nキャラ交換Ptを使用してキャラを仲間にするか、すでに仲間にしているキャラを選択して「女神の秘石」を獲得するまで、キャラ交換Ptが共通のガチャを利用できません。\n・チュートリアル中に引くガチャでは、キャラ交換Ptを獲得できません。=If you possess "200 Pt" or more in Character Exchange Points, you cannot use the shared gacha for Character Exchange Points until you either recruit a character using the points or select an already recruited character to obtain "Goddess Jewels." \n・During the tutorial, you cannot acquire Character Exchange Points from the gacha.
+アイテム:=Item:
+[FF7C4E,D62146]すでに仲間になったキャラは女神の秘石に変換されます。\n獲得アイテムは直接付与されます。[-]=[FF7C4E,D62146]Duplicate characters\nwill be converted to Divine Amulets.\n The acquired item will be directly obtained. [-]
+マスターピース=Masterpiece
+獲得済み=Acquired
+対象キャラ=Target character

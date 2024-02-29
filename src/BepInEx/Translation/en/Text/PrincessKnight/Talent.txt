@@ -1,12 +1,24 @@
-r:"^紅焔の深域(.{0,5})$"=Deep Depths of Crimson Flames $1
-r:"^翠嵐の深域(.{0,5})$"=Deep Depths of Jade Storms $1
-r:"^紫冥の深域(.{0,5})$"=Deep Depths of Violet Abyss $1
-r:"^蒼波の深域(.{0,5})$"=Deep Depths of Azure Waves $1
-r:"^珀天の深域(.{0,5})$"=Deep Depths of Amber Sky $1
+r:"^紅焔の深域(.{0,5})$"=Crimson Flame Depths $1
+r:"^翠嵐の深域(.{0,5})$"=Jade Storm Depths $1
+r:"^紫冥の深域(.{0,5})$"=Violet Abyss Depths $1
+r:"^蒼波の深域(.{0,5})$"=Azure Wave Depths $1
+r:"^珀天の深域(.{0,5})$"=Amber Sky Depths $1
 
+深域クエストへ=To Talent Quest
 闇属性=Dark
 光属性=Light
 風属性=Wind
 水属性=Water
 火属性=Fire
 sr:"^(.+)をクリアで解放されます。$"=Clear $1 to unlock.
+
+カスタム設定=Custom settings
+属性ボーナスがOFFに設定されています。=Elemental bonus is set to off.
+属性ボーナス=Elemental Bonus
+属性弱点=Elemental Weakness
+
+火属性キャラ=Fire elemental character
+水属性キャラ=Water elemental character
+風属性キャラ=Wind elemental character
+光属性キャラ=Light elemental character
+闇属性キャラ=Dark elemental character

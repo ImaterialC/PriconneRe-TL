@@ -10,6 +10,7 @@
 [FF7C4E,D62146]受け取れるアイテムがありません。[-]=[FF7C4E,D62146]There are no items.[-]
 [FF7C4E,D62146]受け取ったアイテムはありません。[-]=[FF7C4E,D62146]There are no items.[-]
 
+運営からの補てんの品です。=It's a compensation from the management.
 以下のプレゼントをまとめて受け取りますか？=Would you like to accept all of the following presents?
 プレゼント受け取り=Receive Present
 報酬はプレゼントに送られました。=Reward has been sent to the Present Box.
@@ -45,7 +46,8 @@ sr:"^バトルアリーナ(\d+位)のランキング報酬です。$"="Battle Ar
 sr:"^プリンセスアリーナ(\d+位)のランキング報酬です。$"="Princess Arena $1 ranking reward."
 sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan Battle ($1) $2 ranking reward."
 みんなのカレンダー内で獲得したアイテムです。=This item was acquired in everyone's calendar.
-
+マスターショップ=Master Shop
+このアイテムはメインクエスト等では入手できません=This item cannot be obtained on the main quest or other quests
 
 スタミナ\n受取対象外=Exclude\nStamina
 期限を過ぎていたため、一部のプレゼントは受け取れませんでした。=Some gifts were not received because the deadline had passed.

@@ -24,7 +24,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 勝利数=Win
 編成完了=Done
 探索・調査=Search &\nSurvey
-深域クエスト=Talent\nQuest
+深域クエスト=Talent Quest
 消費挑戦回数=Use attempts
 メインクエスト=Main Quest
 開催中=Underway!
