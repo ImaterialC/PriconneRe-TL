@@ -3,14 +3,15 @@
 
 ##UB##
 オーシャンヒール=Ocean's Healing
-最もＨＰが低い味方１キャラのＨＰを特大回復させる。=Recovers the HP of the ally with the lowest HP by a massive amount.
+最もＨＰが低い味方１キャラのＨＰを特大回復させる。=Greatly recovers an ally's HP with the lowest HP.
+最もＨＰの割合が低い味方１キャラのＨＰを特大回復させる。=Greatly recovers an ally's HP with the lowest HP.
 
 ##S1##
 ネレイドスピア=Nereid Spear
 
 ##S2##
 ネーブルサポート=Navel Support
-味方全体の物理攻撃力を中アップさせる。=Small boost to allies' P.ATK.
+味方全体の物理攻撃力を中アップさせる。=Slightly boosts all allies' P.ATK.
 
 ##EX##
 夏の天啓=Summer Oracle
@@ -18,13 +19,13 @@
 
 ##UB+##
 オーシャンサンクチュアリ=Ocean's Sanctuary
-最もＨＰの割合が低い味方１キャラのＨＰを特大回復させる。さらに味方全体のＨＰを中回復し、物理攻撃力を特大アップ、ＴＰ上昇を小アップさせ、物理攻撃クリティカル時のダメージを中アップさせる。さらに敵全体の物理防御力を小ダウンさせる。=Recovers the lowest HP's ally by a massive amount and recovers all allies HP by a moderate amount and boost allies P.ATK by a massive amount, boost allies P.CRIT DMG by a moderate amount and raise allies TP Boost by small amount. Also reduce all enemies P.DEF by small amount.
-最もＨＰが低い味方１キャラのＨＰを特大回復させる。さらに味方全体のＨＰを中回復し、物理攻撃力を特大アップ、ＴＰ上昇を小アップさせ、物理攻撃クリティカル時のダメージを中アップさせる。さらに敵全体の物理防御力を小ダウンさせる。=Recovers the lowest HP's ally by a large amount and recovers all allies HP by a moderate amount and boost allies P.ATK by a massive amount, boost allies P.CRIT DMG by a moderate amount and raise allies TP Boost by small amount. Also reduce all enemies P.DEF by small amount.
-r:"^味方単体のＨＰを(\d+)回復味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰ上昇を10アップ味方全体の物理攻撃クリティカル時のダメージを20％アップ敵全体の物理防御力を(\d+)ダウン$"=►Recovers an ally's HP by $1.\n►Recovers all allies HP by $2.\n►Boosts allies' P.ATK by $3.\n►Raise allies' TP Boost by 10.\n►Boosts allies' P.CRIT DMG by 20%.\n►Lowers all enemies' P.DEF by $4.
+最もＨＰの割合が低い味方１キャラのＨＰを特大回復させる。さらに味方全体のＨＰを中回復し、物理攻撃力を特大アップ、ＴＰ上昇を小アップさせ、物理攻撃クリティカル時のダメージを中アップさせる。さらに敵全体の物理防御力を小ダウンさせる。=Greatly recovers an ally's HP with the lowest HP, and moderately recovers all allies' HP. Massively boosts all allies' P.ATK, moderately boosts their P.CRIT DMG and slightly boosts their TP Boost. Also, slightly lowers all enemies' P.DEF. All effects last 18s.
+最もＨＰが低い味方１キャラのＨＰを特大回復させる。さらに味方全体のＨＰを中回復し、物理攻撃力を特大アップ、ＴＰ上昇を小アップさせ、物理攻撃クリティカル時のダメージを中アップさせる。さらに敵全体の物理防御力を小ダウンさせる。=Greatly recovers an ally's HP with the lowest HP, and moderately recovers all allies' HP. Massively boosts all allies' P.ATK, moderately boosts their P.CRIT DMG and slightly boosts their TP Boost. Also, slightly lowers all enemies' P.DEF. All effects last 18s.
+r:"^味方単体のＨＰを(\d+)回復味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰ上昇を10アップ味方全体の物理攻撃クリティカル時のダメージを20％アップ敵全体の物理防御力を(\d+)ダウン$"=►Recovers an ally's HP by $1.\n►Recovers all allies' HP by $2.\n►Boosts all allies' P.ATK by $3.\n►Boosts all allies' TP Boost by 10.\n►Boosts all allies' P.CRIT DMG by 20%.\n►Lowers all enemies' P.DEF by $4.
 
 ##S1+##
 ネレイドスピア+=Nereid Spear+
-目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を大ダウンさせる。=Deals small P.DMG to an enemy directly in front and lowers their P.DEF by a large amount.
+目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を大ダウンさせる。=Deals small P.DMG to an enemy in front and greatly lowers its P.DEF.
 
 ##UE##
 涼槍アクアスカッシュ=Aqua Breezelance

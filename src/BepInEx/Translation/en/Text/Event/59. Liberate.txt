@@ -9,7 +9,7 @@ r:"^追想のデフラグが\n(\d+)個解放されました。$"=$1 Reminiscent 
 r:"^追想の楽園([0-9\-\(\)\w （）]*)$"=Reminiscence Paradise $1
 久遠の園を象る者=The One who Sculpts the Garden of Eternity
 アスラ=Asla
-オクトー=Okto
+オクトー=Octo
 リベレイト・ジ・エデン　 いつか、また会う未来で【前編】=Liberate the Eden: Someday in the future we will meet again [Part 1]
 リベレイト・ジ・エデン　 いつか、また会う未来で【後編】=Liberate the Eden: Someday in the future we will meet again [Part 2]
 

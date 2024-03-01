@@ -17,8 +17,12 @@ sr:"^(.+)をクリアで解放されます。$"=Clear $1 to unlock.
 属性ボーナス=Elemental Bonus
 属性弱点=Elemental Weakness
 
-火属性キャラ=Fire elemental character
-水属性キャラ=Water elemental character
-風属性キャラ=Wind elemental character
-光属性キャラ=Light elemental character
-闇属性キャラ=Dark elemental character
+火属性キャラ=All Fire Character
+水属性キャラ=All Water Character
+風属性キャラ=All Wind Character
+光属性キャラ=All Light Character
+闇属性キャラ=All Dark Character
+
+チェック引継ぎ確認=Check Handover Confirmation
+
+新しい深域クエストがクリアされたため、\n最新のクリア済みクエストをチェックしました。=Checked the latest completed quests due a new deep quest has been completed.

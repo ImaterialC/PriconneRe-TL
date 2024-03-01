@@ -3,7 +3,6 @@
 プリンセスナイト=Princess Knight
 強化詳細=Enhancement Details
 強化Lv=Enhancement Lv
-強化地点へ=To the point of enhancement
 属性レベル=Elemental level
 属性スキル=Elemental Skill
 マスタースキル=Master Skill
@@ -13,13 +12,55 @@
 光属性攻撃力=Light Attribute Power
 闇属性攻撃力=Dark Attribute Power
 
-
-[3C404E]火属性キャラの物理攻撃力が[-][FFBB00,CE4F00]0.84％[-][3C404E]アップ[-]=[3C404E] Physical attack power of fire elemental characters [--] [FFBB00, CE4F00] 0.84% [-][--3C404E] up [- ]
 未強化=Unenhanced
-物理攻撃力強化=Physical Attack Enhancement
-火属性キャラ=Fire-attribute character
 このノードは強化済みです。=This node has been strengthened.
 所持シャード=Possession Shard
 消費シャード=Consumer shard
 ノード詳細=Node Details
 選択したノードの強化詳細です。\n未強化の前提ノードは自動で強化されます。=This is the details of the selected node's enhancement. The unenhanced node will automatically be strengthened.
+
+
+消費マスターピース=MPs Cost
+所持マスターピース=MPs Held
+sr:"^\[3C404E\](.+)の(.+)が\[-\]\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\]$"=[3C404E]$1's $2 increases by [FFBB00,CE4F00]$3[-].[-]
+
+魔法与ダメージ=Magic Damage
+物理与ダメージ=Physical Damage
+ＴＰ上昇強化=TP Boost Up
+魔法与ダメージ強化=Magic Damage Up
+属性ボーナス強化=Elemental Bonus Up
+物理攻撃力強化=P.ATK Up
+魔法攻撃力強化=M.ATK Up
+
+ＨＰ強化=Max HP Up
+HP吸収強化=HP Drain Up
+HP自動回復強化=HP Regen Up
+TP自動回復強化=TP Regen Up
+TP消費軽減強化=TP Retain Up
+物理防御力強化=P.DEF Up
+物理クリティカル強化=P.CRIT Rate Up
+魔法防御力強化=M.DEF Up
+魔法クリティカル強化=M.CRIT Rate Up
+回復量上昇強化=Heal Bonus Up
+命中強化=Accuracy Up
+回避強化=Dodge Up
+魔法クリティカルダメージ=M.CRIT DMG
+魔法クリダメ強化=M.CRIT DMG Up
+物理クリティカルダメージ=P.CRIT DMG
+物理クリダメ強化=P.CRIT DMG Up
+
+強化地点へ=To Current Node
+
+強化可能なマスタースキル=Enhanceable Master Skill
+以下のノードの強化を実行しますか？=Would you like to perform the following node enhancements?
+
+属性攻撃力=Elemental ATK Power
+火属性の強化詳細=Fire Elemental Enhancement Details
+水属性の強化詳細=Water Elemental Enhancement Details
+風属性の強化詳細=Wind Elemental Enhancement Details
+光属性の強化詳細=Light Elemental Enhancement Details
+闇属性の強化詳細=Dark Elemental Enhancement Details
+
+強化内容がありません。=There are no enhancements.
+
+r:"^\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\]$"=[FFBB00,CE4F00]+$1[-]

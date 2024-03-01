@@ -1,0 +1,35 @@
+##Profile
+【魔法】後衛で、眠りから目覚め美しく咲き誇る黒薔薇。終焉を超えし【回帰の薔薇】と、行動速度アップを始めとした多種の攻防支援で味方を強化し、新たな未来を掴む。=[Magic] A black rose that awakens from her slumber and blooms beautifully in the rearguard. She surpasses the death with her [Rose of Regression] and uses various types of offensive and defensive support skills, including action speed buff, to strengthen her allies and seize a new future.
+
+桑島法子=Kuwashima Houko
+騎士クンの話を聞くこと=Listen to Kishi-kun's story
+
+未練=Regret
+余裕=Composure
+名前=Name
+節介=Nuisance
+
+##UB##
+マクリア・エリュシオン=Macaria Elysium
+味方全体に継続ＨＰ回復状態を付与し、行動速度を大アップさせる。さらに物理/魔法無効バリアを展開する。=Grants continuous HP recovery to all allies, greatly boosts their action speed. Additionally, deploys Barrier over all allies that negates P/M.DMG.
+r:"毎秒ＨＰを(\d+)回復する味方全体の行動速度アップ(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Recovers all allies' HP by $1/s for 18.5s.\n►Boosts all allies' action speed to 200% for 18s.\n►Deploys Barrier over all allies that negates $2 P/M.DMG for 18s.
+
+##S1##
+ネオス・プネウマ=Neos Pneuma
+味方全体の物理防御力と魔法防御力を中アップさせ、ＨＰとＴＰを小回復させる。=Moderately boosts all allies' P/M.DEF, and slightly recovers their HP and TP.
+r:"味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復味方全体のＴＰを50回復$"=Cast time: 1.6s\n►Boosts all allies' P.DEF by $1 for 12s.\n►Boosts all allies' M.DEF by $2 for 12s.\n►Recovers all allies' HP by $3.\n►Recovers all allies' TP by 50.
+
+##S2##
+アンドレイア=Andreia
+味方全体の物理攻撃力と魔法攻撃力を大アップさせ、クリティカル時のダメージを小アップさせる。攻撃力の上昇量は自分の残りＨＰに応じて最大５倍までアップする。=Greatly boosts all allies' P/M.ATK, and slightly boosts their P/M.CRIT DMG. The P/M.ATK boost increases according to own remaining HP, up to 5 times.
+r:"味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の物理攻撃クリティカル時のダメージを5％アップ味方全体の魔法攻撃クリティカル時のダメージを5％アップ$"=Cast time: 1.6s\n►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' M.ATK by $2 for 12s.\n►Boosts all allies' P.CRIT DMG by 5% for 12s.\n►Boosts all allies' M.CRIT DMG by 5% for 12s.
+
+##SP1##
+アタナシア=Athanasia
+このスキルのスキルレベルは「マクリア・エリュシオン」と連動しています=This skill's level is linked to "Macaria Elysium"
+味方全体に回帰の薔薇を付与する。回帰の薔薇付与時にＨＰが０になると、倒れずに回帰の薔薇を消費してＨＰを回復する。=Grants [Rose of Regression] to all allies. If an ally's HP with [Rose of Regression] reaches 0 after receiving fatal blow, consumes [Rose of Regression] and recovers HP without falling down.
+r:"回帰の薔薇付与中にＨＰが0になった場合、戦闘不能になる前に回帰の薔薇を消費してＨＰを(\d+)回復する$"=►If an ally's HP with [Rose of Regression] reaches 0, consumes [Rose of Regression] and recovers $1 HP.
+
+##EX##
+プレネーシス=Prenesis
+プレネーシス+=Prenesis+

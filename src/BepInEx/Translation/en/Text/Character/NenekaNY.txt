@@ -3,12 +3,12 @@
 
 ##UB##
 ニューイヤープリズム=New Year Prism
-魔法攻撃を行う味方全員の魔法攻撃力を大アップさせ、魔法クリティカルを小アップさせる。自分の魔法攻撃力が高い程、それぞれの効果量がアップする。さらに、魔法攻撃クリティカル時のダメージを小アップさせ、ＴＰ上昇を小アップさせる。=Boosts all M-type allies' M.ATK by a large amount, and slightly boosts their M.CRIT Rate. The higher own M.ATK, the more effective each effect will be. Additionally, slightly boosts all allies' M.CRIT DMG, and boosts TP Boost by a small amount.
-r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリティカルを(\d+)アップ対象の味方の魔法攻撃クリティカル時のダメージを10％アップ対象の味方のＴＰ上昇を5アップ$"=►Boosts all M-type allies' M.ATK by $1(+0.08×M.ATK) for 18s.\n►Boosts all M-type allies' M.CRIT Rate by $2 for 18s.\n►Boosts all M-type allies' M.CRIT DMG by 10% for 18s.\n►Boosts all M-type allies' TP Boost by 5 for 18s.
+魔法攻撃を行う味方全員の魔法攻撃力を大アップさせ、魔法クリティカルを小アップさせる。自分の魔法攻撃力が高い程、それぞれの効果量がアップする。さらに、魔法攻撃クリティカル時のダメージを小アップさせ、ＴＰ上昇を小アップさせる。=Greatly boosts all M-type allies' M.ATK, and slightly boosts their M.CRIT Rate. The higher own M.ATK, the more effective each effect will be. Also, slightly boosts all allies' M.CRIT DMG and TP Boost.
+r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリティカルを(\d+)アップ対象の味方の魔法攻撃クリティカル時のダメージを10％アップ対象の味方のＴＰ上昇を5アップ$"=►Boosts all M-type allies' M.ATK by $1 (+0.08×M.ATK) for 18s.\n►Boosts all M-type allies' M.CRIT Rate by $2 (+0.003×M.ATK) for 18s.\n►Boosts all M-type allies' M.CRIT DMG by 10% for 18s.\n►Boosts all M-type allies' TP Boost by 5 for 18s.
 
 ##S1##
 フラワーブレッシング=Flower Blessing
-最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップさせ、魔法クリティカルを大アップさせる。さらに、魔法攻撃クリティカル時のダメージを小アップさせ、ＴＰを小回復させる。=Boosts an ally's M.ATK and M.CRIT Rate with highest M.ATK by a large amount. Also boosts its M.CRIT DMG by a small amount and slightly restores TP.
+最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップさせ、魔法クリティカルを大アップさせる。さらに、魔法攻撃クリティカル時のダメージを小アップさせ、ＴＰを小回復させる。=Boosts an ally's M.ATK and M.CRIT Rate with highest M.ATK by a large amount. Also slightly boosts its M.CRIT DMG and slightly recovers its TP.
 
 ##S2##
 サンライズヒール=Sunrise Heal
@@ -21,8 +21,9 @@ r:"^味方単体のＨＰを(\d+)回復味方単体の魔法攻撃力を(\d+)ア
 
 ##S1+##
 フラワーブレッシング+=Flower Blessing+
-最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。自分の魔法攻撃力が高い程、それぞれの効果量がアップする。さらに、最も魔法攻撃力が高い味方１キャラのＴＰを小回復させる。=Boosts an ally's M.ATK and M.CRIT Rate with highest M.ATK by a large amount, with boosted effect based on own M.ATK. Also boosts its M.CRIT DMG by a small amount and slightly restores TP.
-r:"^味方単体の魔法攻撃力を(\d+)アップ味方単体の魔法クリティカルを(\d+)アップ味方単体の魔法攻撃クリティカル時のダメージを5％アップ味方単体のＴＰを(\d+)回復$"=Cast time: 0.59s\n►Boosts an ally's M.ATK by $1(+0.27×M.ATK) for 12s.\n►Boosts an ally's M.CRIT Rate by $2 for 12s.\n►Boosts an ally's M.CRIT DMG by 5% for 12s.\n►Recovers an ally's TP by $3.
+最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。自分の魔法攻撃力に応じて、魔法攻撃力アップと魔法クリティカルアップの効果量が最大４倍、魔法攻撃クリティカル時のダメージアップの効果量が最大２倍までアップする。さらに、最も魔法攻撃力が高い味方１キャラのＴＰを小回復させる。=Boosts an ally's M.ATK and M.CRIT Rate with highest M.ATK by a large amount, with boosted effect based on own M.ATK. Also slightly boosts its M.CRIT DMG and slightly recovers its TP.
+最も魔法攻撃力が高い味方１キャラの魔法攻撃力を大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージを小アップさせる。自分の魔法攻撃力が高い程、それぞれの効果量がアップする。さらに、最も魔法攻撃力が高い味方１キャラのＴＰを小回復させる。=Boosts an ally's M.ATK and M.CRIT Rate with highest M.ATK by a large amount, with boosted effect based on own M.ATK. Also slightly boosts its M.CRIT DMG and slightly recovers its TP.
+r:"^味方単体の魔法攻撃力を(\d+)アップ味方単体の魔法クリティカルを(\d+)アップ味方単体の魔法攻撃クリティカル時のダメージを5％アップ味方単体のＴＰを(\d+)回復$"=Cast time: 0.59s\n►Boosts an ally's M.ATK by $1 (+0.27×M.ATK) for 12s.\n►Boosts an ally's M.CRIT Rate by $2 (+0.0006×M.ATK) for 12s.\n►Boosts an ally's M.CRIT DMG by 5% (+0.000085×M.ATK) for 12s.\n►Recovers an ally's TP by $3.
 
 ##UE##
 新春幻影和傘=New Year Umbrella of Mirage
