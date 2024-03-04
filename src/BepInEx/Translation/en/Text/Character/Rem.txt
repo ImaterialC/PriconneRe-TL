@@ -4,7 +4,7 @@
 
 ##UB##
 アル・ヒューマ=Al Huma
-前方範囲内の敵すべてに物理大ダメージを与える。行動不能状態の敵に対してはダメージが上昇する。=Deals large P.DMG to all enemies in range. Damage boost for enemies that are unable to move.
+前方範囲内の敵すべてに物理大ダメージを与える。行動不能状態の敵に対してはダメージが上昇する。=Deals large P.DMG to enemies in range. P.DMG dealt increases for enemies that are unable to move.
 r:"^範囲内の行動不能の敵すべてに(\d+)の物理ダメージ範囲内のその他の敵すべてに(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all immobile enemies in range.\n►Deals $1 P.DMG to all other enemies in range.
 
 ##S1##
@@ -20,8 +20,9 @@ r:"^範囲内の行動不能の敵すべてに(\d+)の物理ダメージ範囲�
 鬼がかってます！+=Fanatical as a Demon+
 
 ##S1+##
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに凍結させる。=It does P.DMG to all enemies within the range of 1 character in front of you, and further freezes.
-r:"^範囲内の敵すべてに(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=►Deals $1 P.DMG to all enemies in range.\n►Renders enemies in range immobile for a set period of time.
+エル・ヒューマ+=El Huma+
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、さらに凍結させる。=Deals moderate P.DMG to enemies in range, and inflicts Freeze.
+r:"^範囲内の敵すべてに(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=►Deals $1 P.DMG to enemies in range.\n►Renders enemies in range immobile for a set period of time.
 
 ##UE##
 レムの髪飾り=Rem's Hair Ornament

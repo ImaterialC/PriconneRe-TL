@@ -23,6 +23,8 @@
 消費マスターピース=MPs Cost
 所持マスターピース=MPs Held
 sr:"^\[3C404E\](.+)の(.+)が\[-\]\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\]$"=[3C404E]$1's $2 increases by [FFBB00,CE4F00]$3[-].[-]
+sr:"^\[3C404E\](.+)の(.+)が\[-\]\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\](?:\r)?\n\[3C404E\](.+)?の(.+)が\[-\]\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\]$"=[3C404E]$1's $2 increases by [FFBB00,CE4F00]$3[-].\n$4's $5 increases by [FFBB00,CE4F00]$6[-].[-]
+
 
 魔法与ダメージ=Magic Damage
 物理与ダメージ=Physical Damage
@@ -39,6 +41,9 @@ TP自動回復強化=TP Regen Up
 TP消費軽減強化=TP Retain Up
 物理防御力強化=P.DEF Up
 物理クリティカル強化=P.CRIT Rate Up
+物理与ダメージ強化=Physical Critical Damage Up
+物理クリティカルダメージ強化=Physical Critical Damage Up
+魔法クリティカルダメージ強化=Magic Critical Damage Up
 魔法防御力強化=M.DEF Up
 魔法クリティカル強化=M.CRIT Rate Up
 回復量上昇強化=Heal Bonus Up
@@ -48,6 +53,10 @@ TP消費軽減強化=TP Retain Up
 魔法クリダメ強化=M.CRIT DMG Up
 物理クリティカルダメージ=P.CRIT DMG
 物理クリダメ強化=P.CRIT DMG Up
+物理・魔法クリティカル強化=P.CRIT RATE and M.CRIT RATE Up
+物理・魔法防御力強化=P.DEF and M.DEF Up
+物理・魔法攻撃力強化=P.ATK and M.ATK Up
+物理・魔法クリティカルダメージ強化=P.CRIT DMG and M.CRIT DMG Up
 
 強化地点へ=To Current Node
 
@@ -62,5 +71,7 @@ TP消費軽減強化=TP Retain Up
 闇属性の強化詳細=Dark Elemental Enhancement Details
 
 強化内容がありません。=There are no enhancements.
+ノードをすべて強化すると解放されます。=Enhance all nodes to unlock them.
+前提ノードの強化が必要です。=You need to enhance the prerequisite nodes.
 
 r:"^\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\]$"=[FFBB00,CE4F00]+$1[-]

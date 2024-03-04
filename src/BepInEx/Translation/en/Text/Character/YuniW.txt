@@ -1,0 +1,27 @@
+##Profile##
+【物理】後衛で、退廃的な冬の学びに溺れる水際の才媛。物理攻撃の強化、回復、行動速度アップで味方を支援し、ＵＢで得た【水際の安寧】を死守するため膂力を振るう。=[Physics] A beachside literary woman who sinks into corrupt winter studies in the backline. She supports allies with P.ATK boost, heal, and action speed up boost, and to desperately protect those the [Beachside Tranquility] boost from her UB, she exhibits her physical strength.
+
+##UB##
+実践と観想の黄金律=The Golden Rule of Practice and Contemplation
+味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップし、物理攻撃クリティカル時のダメージを小アップさせ、ＨＰを中回復させる。さらに自分に【水際の安寧】を３つ付与する。【水際の安寧】は１回ダメージを受けると１つ減少する。【水際の安寧】は最大３まで追加される。=Greatly boosts all allies' P.ATK and P.CRIT Rate, slightly boosts their P.CRIT DMG, and recovers their HP by a moderate amount.\nAlso, grants 3 [Beachside Tranquility] to self, up to a maximum of 3. [Beachside Tranquility] reduces by 1 each time Yuni receives DMG.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の物理攻撃クリティカル時のダメージを10％アップ味方全体のＨＰを(\d+)回復自分に水際の安寧を３つ付与する$"=►Boosts all allies' P.ATK by $1 for 18s.\n►Boosts all allies' P.CRIT Rate by 100 for 18s.\n►Boosts all allies' P.CRIT DMG by 8% for 18s.\n►Recovers all allies' HP by $2.\n►Grants 3 [Beachside Tranquility] to self.
+
+##S1##
+功利的認識共有=Utilitarian Cognition Sharing
+味方全体の物理攻撃力を特大アップし、行動速度を大アップさせる。自分に【水際の安寧】が付与されている場合、行動速度の上昇量がアップし、さらに、味方全体の物理攻撃力と物理クリティカルを大アップする。=Massively boosts all allies' P.ATK and action speed.\nIf Yuni has [Beachside Tranquility], action speed boost increases, and greatly boosts its P.ATK and P.CRIT Rate. All effects last 12s.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の行動速度アップ水際の安寧付与中、味方全体の物理攻撃力を(\d+)アップ水際の安寧付与中、味方全体の物理クリティカルを80アップ$"=Cast time: 1.05s\n►Boosts all allies' P.ATK by $1.\n►Boosts all allies' action speed to 150%.\n\nIf Yuni's [Beachside Tranquility] ≥ 1:\n►Boosts all allies' action speed to 200%.\n►Boosts all allies' P.ATK by $2.\n►Boosts all allies' P.CRIT Rate by 80.
+
+##S2##
+生態的究明理論=Ecological Research Theory
+味方全体の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開する。【水際の安寧】が付与されている場合、さらに、味方全体の物理攻撃力を大アップ、ＴＰ上昇を小アップさせる。=Massively boosts all allies' P.ATK, slightly boosts their P.CRIT DMG, and deploys a field that slightly recovers allies' HP. If Yuni has [Beachside Tranquility], greatly boosts all allies' P.ATK and boosts their TP Boost. All effects last 12s.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理攻撃クリティカル時のダメージを8％アップ毎秒ＨＰを(\d+)回復するフィールドを展開する水際の安寧付与中、味方全体の物理攻撃力を(\d+)アップ水際の安寧付与中、味方全体のＴＰ上昇を5アップ$"=Cast time: 1.05s\n►Boosts all allies' P.ATK by $1.\n►Boosts all allies' P.CRIT DMG by 8%.\n►Deploys a 750 radius field that recovers allies' HP by $2/s.\n\nIf Yuni's [Beachside Tranquility] ≥ 1:\n►Boosts all allies' P.ATK by $3.\n►Boosts all allies' TP Boost by 5.
+
+##SP1##
+トルネード物理スプラッシュ=Tornado Physical Splash
+このスキルのスキルレベルは「実践と観想の\n黄金律」と連動しています=This skill's level is linked to "The Golden Rule of Practice and Contemplation"
+味方全体の物理攻撃力を大アップし、自分のＴＰを小回復する。自分に【水際の安寧】が付与されている場合、目の前の敵１キャラに物理極小ダメージを与える。=Greatly boosts all allies' P.ATK and slightly recovers own TP. If Yuni's [Beachside Tranquility] ≥ 1, deals minimal P.DMG to an enemy in front.
+r:"^味方全体の物理攻撃力を(\d+)アップ自分のＴＰを50回復水際の安寧付与中、敵単体に5の物理ダメージ$"=Cast time: 2.04s\n►Boosts all allies' P.ATK by $1.\n►Recovers own TP by 50.\n\nIf Yuni's [Beachside Tranquility] ≥ 1:\n►Deals 5 P.DMG to an enemy.
+
+##EX##
+奈落の悟り=Abyssal Enlightenment
+奈落の悟り+=Abyssal Enlightenment+

@@ -131,8 +131,8 @@ r:"^(\[[0-9A-F,]+\])RANK([0-9,]+)\[-\]\[3C404E\]まで強化したため\n以下
 Attributes to be strengthened at once
 まとめて強化対象属性=Enhancement elemental at once
 以下のアイテムを消費してまとめて強化しますか？=Spend the following items to strengthen them all at once?
-r:"^火属性攻撃力\＋([0-9,]+)$"=Fire Attack Power +$1
-r:"^水属性攻撃力\＋([0-9,]+)$"=Water Attack Power +$1
-r:"^風属性攻撃力\＋([0-9,]+)$"=Wind Attack Power +$1
-r:"^光属性攻撃力\＋([0-9,]+)$"=Light Attack Power +$1
-r:"^闇属性攻撃力\＋([0-9,]+)$"=Darkness Attack Power +$1
+r:"^火属性攻撃力\＋([0-9,]+)$"=Fire Attack +$1
+r:"^水属性攻撃力\＋([0-9,]+)$"=Water Attack +$1
+r:"^風属性攻撃力\＋([0-9,]+)$"=Wind Attack +$1
+r:"^光属性攻撃力\＋([0-9,]+)$"=Light Attack +$1
+r:"^闇属性攻撃力\＋([0-9,]+)$"=Darkness Attack +$1
