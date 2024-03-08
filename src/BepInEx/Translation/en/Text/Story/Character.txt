@@ -4,3 +4,6 @@ sr:"^([べ-・ー＆ ]{2,11})(（.+）)? 第(\d+)話を閲覧$"=$1$2 Episode $3
 r:"^第(\d+)部 第(\d+)章 第(\d+)話を閲覧$"=View Part $1 Ch $2 Ep $3
 r:"^第(\d+)部 第(\d+)章 幕間を閲覧$"=View Part $1 Ch $2 Epilogue
 sr:"^([べ-・ー＆ ]{2,11})(（.+）)?の絆ランクが(\d+)以上$"=$1$2 bond rank $3 or more
+
+
+このキャラクターのストーリーは今後解放予定です。=This character's story will be released in the future.

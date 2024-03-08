@@ -74,4 +74,5 @@ TP消費軽減強化=TP Retain Up
 ノードをすべて強化すると解放されます。=Enhance all nodes to unlock them.
 前提ノードの強化が必要です。=You need to enhance the prerequisite nodes.
 
+強化可能な属性スキル=Enhanceable Elemental Skills
 r:"^\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\]$"=[FFBB00,CE4F00]+$1[-]

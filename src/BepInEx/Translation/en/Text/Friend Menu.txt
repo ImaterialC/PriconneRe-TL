@@ -6,11 +6,13 @@ r:"^フレンド:(\d+)/(\d+)人$"=Friend: $1/$2
 r:"^承認待ち:(\d+)/(\d+)人$"=Waiting: $1/$2
 フレンド:=Friend:
 r:"^プレイヤーLv:([0-9～ ]+)$"=Player Lv: $1
+r:"^プレイヤーID:([0-9 ]+)$"=Player ID: $1
+
 プレイヤーIDを入力してください=Please enter a Player ID
 取り消す=Cancel
 サポートキャラにはLv10以上のキャラを設定できます。=You can set a Lv10 or higher character as a Support Character.
 サポートキャラを設定しておくと、マナを獲得できます。=Add Support Characters to start earning Mana!
-
+フレンド申請しているプレイヤーです。=Already sent a friend request.
 サポート時間=Duration
 獲得マナ=Mana
 
