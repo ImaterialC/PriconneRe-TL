@@ -48,4 +48,5 @@
 強化条件=Enhancement Conditions
 選択したキャラをまとめて強化します。=Enhances all selected characters at once.
 r:"^RANK (\d+)までランクアップ$"=Rank up to RANK $1
+まとめて強化可能なキャラがいません。=No characters can be Multi Enhance anymore.
 まとめて強化を利用すれば、一度に多くのキャラを強化できるようです。\nまとめておまかせ強化を行うか、まとめておまかせランクアップを行うか\n選び、キャラをさらに強くしてみましょう。=By using Multi Enhancement, it seems you can strengthen multiple characters at once. Choose between conducting multiple auto enhances or multiple rank-ups and further empower your characters.

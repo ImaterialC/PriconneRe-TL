@@ -12,7 +12,7 @@ r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御�
 ##S1##
 ルーチェ・クラティーヴァ=Luce Creativa
 最もＨＰが低い味方１キャラのＨＰを中回復し、さらに物理ダメージカット効果と魔法ダメージカット効果を付与する。=Moderately recovers an ally's HP with the lowest HP, and grants P/M.DMG Cut to them.
-r:"^味方単体のＨＰを(\d+)回復味方単体が受ける物理ダメージを15％カット味方単体が受ける魔法ダメージを15％カット$"=Cast time: 1.04s\n►Recovers an ally's HP by $1.\n►Grants P.DMG Cut to an ally by 15％ for 12s.\n►Grants M.DMG Cut to an ally by 15％ for 12s.
+r:"^味方単体のＨＰを(\d+)回復味方単体が受ける物理ダメージを15％カット味方単体が受ける魔法ダメージを15％カット$"=Cast time: 1.04s\n►Recovers an ally's HP by $1.\n►Grants P.DMG Cut to an ally by 15% for 12s.\n►Grants M.DMG Cut to an ally by 15% for 12s.
 
 ##S2##
 トーレ・スプレデンテ=Torre Splendente
@@ -22,7 +22,7 @@ r:"^バリアが展開されている味方の物理攻撃力を(\d+)アップ�
 ##SP1##
 スクデット=Scudo
 味方全体の物理防御力を初期値の15％アップ味方全体の魔法防御力を初期値の15％アップ=Cast time: 2.04s\n►Boosts all allies' P.DEF by 15% for 12s.\n►Boosts all allies' M.DEF by 15% for 12s.
-このスキルのスキルレベルは「フィオレ・\nフェリチータ」と連動しています=This skill's level is linked to "Fiore Felicità"
+このスキルのスキルレベルは「フィオレ・フェリチータ」と連動しています=This skill's level is linked to "Fiore Felicità"
 
 ##EX##
 リファーレピウマ=Rifare Piuma

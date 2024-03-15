@@ -25,7 +25,7 @@ r:"^範囲内の味方の魔法防御力を(\d+)アップ$"=►Boosts allies' M.
 r:"^自分の魔法防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.
 トロピカルメイド+=Tropical Maid+
 バトル開始時に自分の魔法防御力を中アップさせ、さらに物理防御力を小アップさせる。=Moderate boost to own M.DEF and small boost to own P.DEF at start of battle.
-r:"^自分の魔法防御力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.\n►Boosts own P.DEF by $1.
+r:"^自分の魔法防御力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.\n►Boosts own P.DEF by $2.
 
 ##S1+##
 ぷちゴーレムサモン+=Summon Mini-Golem+

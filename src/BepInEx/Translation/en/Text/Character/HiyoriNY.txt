@@ -3,13 +3,13 @@
 
 ##UB##
 ヒヨリハッピースタンプ=Hiyori Happy Stamp
-目の前の敵１キャラに物理特大ダメージを与え、さらに物理防御力とＴＰ上昇を小ダウンさせる。=Deals massive P.DMG to an enemy directly in front and lowers their P.DEF and TP Boost by a small amount.
+目の前の敵１キャラに物理特大ダメージを与え、さらに物理防御力とＴＰ上昇を小ダウンさせる。=Deals massive P.DMG to an enemy in front and slightly lowers its P.DEF and TP Boost.
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体のＴＰ上昇を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Lowers an enemy's TP Boost by $3 for 18s.
 
 ##S1##
 肉球チャージ=Paw-Paw Charge
-自分の物理攻撃力を中アップさせ、さらに物理攻撃を行うすべての味方キャラの物理攻撃力を中アップさせる。=Large boost to own P.ATK, and moderate boost to the allies' P.ATK that use physical.
-r:"^自分の物理攻撃力を(\d+)アップ対象の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.8s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts P-type allies' P.ATK by $2 for 12s.
+自分の物理攻撃力を中アップさせ、さらに物理攻撃を行うすべての味方キャラの物理攻撃力を中アップさせる。=Greatly boosts own P.ATK, and moderately boosts all P-type allies' P.ATK.
+r:"^自分の物理攻撃力を(\d+)アップ対象の味方の物理攻撃力を(\d+)アップ$"=Cast time: 0.8s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts all P-type allies' P.ATK by $2 for 12s.
 
 ##S2##
 グッドラックパンチ=Good Luck Punch
@@ -20,8 +20,13 @@ r:"^自分の物理攻撃力を(\d+)アップ対象の味方の物理攻撃力�
 
 ##S1+##
 肉球チャージ+=Paw-Paw Charge+
-自分の物理攻撃力を特大アップさせ、さらに物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、物理クリティカルを中アップさせる。=Large boost to own P.ATK, moderate boost to the allies' P.ATK and boosts their P.CRIT Rate by a medium amount that use physical.
-r:"^自分の物理攻撃力を(\d+)アップ対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリティカルを(\d+)アップ$"=Cast time: 0.8s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts target allies' P.ATK by $2 for 12s.\n►Boosts own P.CRIT Rate by $3 for 12s.
+自分の物理攻撃力を特大アップさせ、さらに物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、物理クリティカルを中アップさせる。=Greatly boosts own P.ATK, moderately boosts all P-type allies' P.ATK and P.CRIT Rate.
+r:"^自分の物理攻撃力を(\d+)アップ対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリティカルを(\d+)アップ$"=Cast time: 0.8s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts all P-type allies' P.ATK by $2 for 12s.\n►Boosts all P-type P.CRIT Rate by $3 for 12s.
+
+##UB+##
+ヒヨリソーハッピースタンプ=Hiyori So-Happy Stamp
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせ、ＴＰ上昇を小ダウンさせる。さらに、物理攻撃を行うすべての味方キャラの物理防御力を中アップさせる。=Deals massive P.DMG to an enemy in front, and slightly lowers its P.DEF and TP Boost. Also, moderately boosts all P-type allies' P.DEF.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体のＴＰ上昇を(\d+)ダウン対象の味方の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Lowers an enemy's TP Boost by $3 for 18s.\n►Boosts all P-type allies' P.DEF by $4 for 18s.
 
 ##UE##
 猫明神ニャンフィスト=Cat God Nyauntlet

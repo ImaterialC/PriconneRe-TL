@@ -35,7 +35,9 @@ r:"^専用装備(.)グロウスフィア\n? \/ Lv(\d+)$"=Unique Equipment-$1 Gro
 
 
 r:"^すべてのキャラに使用できるグロウスフィア。キャラのステータスをLv(\d+)/RANK(\d+)まで強化できる。$"=Growsphere that can be used for all characters. Raise character's status to LV$1/RANK$2.
-r:"^すべてのキャラに使用できる\n専用装備(.)のグロウスフィ\nア。専用装備１を作成し、Lv\n(\d+)まで強化できる。$"=Unique Equipment-$1 Growsphere that can be used for all characters. Create a Unique Equipment-$1 and Enhance up to Lv$2.
+
+r:"^すべてのキャラに使用できる専用装備(.)のグロウスフィア。専用装備(.)を作成し、Lv(\d+)まで強化できる。$"=UE-$1 Growsphere that can be used for all characters. Create a UE-$1 and Enhance up to Lv$3.
+
 
 現在使用中のスフィアよりも、Lvアップができないアイテムです。=Can only be used if the Lv is below Growsphere's Lv
 sr:"^([べ-ヺー＆]+)(（.{2,10}）)?\n?専用スフィア \/ Lv(\d+)$"=$1$2\nExclusive Sphere / Lv$3

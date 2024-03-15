@@ -20,6 +20,11 @@ r:"^(\d+)ダメージ分の魔法無効バリアを展開する自分の魔法�
 氷壁の構え=Glacier Stance
 氷壁の構え+=Glacier Stance+
 
+##UB+##
+細氷零剣・雪華絢爛=Freezing Edge: Gorgeous Snowbloom
+敵全体の物理防御力を中ダウンさせ、物理大ダメージを与え、スタンさせる。さらに、自分に魔法吸収バリアを展開する。=Moderately lowers all enemies' P.DEF, deals large P.DMG to them, and inflicts Stun. Additionally, deploys Barrier over oneself that absorbs M.DMG.
+r:"^敵全体の物理防御力を(\d+)ダウン敵全体に(\d+)の物理ダメージ敵全体を一定時間行動不能にする(\d+)ダメージ分の魔法吸収バリアを展開する$"=►Lowers all enemies' P.DEF by $1 for 18s.\n►Deals $2 P.DMG to all enemies.\n►Inflicts Stun to all enemies for 4s.\n►Deploys Barrier over oneself that absorbs $3 M.DMG for 18s.
+
 ##S1+##
 雪崩返し+=Avalanche Reversal+
 【挑発】敵全体を挑発し、自分の魔法防御力を特大アップ。挑発後のモーション中に攻撃された場合、前方範囲内の敵に物理中ダメージを与え、物理防御力を小ダウンさせスタンさせる。=[Taunt] Taunts all enemies, enters a stance and boost M.DEF by an massive amount. If attacked during this stance, deals medium P.DMG to all enemies in range, lowers their P.DEF by a small amount, and stuns them.

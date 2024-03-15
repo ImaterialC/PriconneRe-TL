@@ -1,7 +1,7 @@
 マック=Mac
 ブラッド=Brad
 （中年）=(Middle-aged)
-r:"^(.{2,10})とギャングの演劇を観たイノリ。劇中での生き様に感銘を受けたイノリは下克上でボスを倒し、Corneliaと共になりあがることを改めて宣言するのであった。$"="$1 and the gang's play had a deep impact on Inori. In the play, she saw the determination and strength that comes with the gang lifestyle. She decided to defeat the boss and rise to power, reaffirming her commitment to Cornelia."
+r:"^(.{2,10})とギャングの演劇を観たイノリ。劇中での生き様に感銘を受けたイノリは下克上でボスを倒し、(.{2,10})と共になりあがることを改めて宣言するのであった。$"="$1 and the gang's play had a deep impact on Inori. In the play, she saw the determination and strength that comes with the gang lifestyle. She decided to defeat the boss and rise to power, reaffirming her commitment to $1."
 r:"^路地裏をぶらついていた(.{2,10})はイノリに誘われ、\nもらい物のチケットで演劇を見に来ていた。$"="While wandering through a back alley, $1 was invited by Inori to see the play with a complimentary ticket."
 ……ボスを殺るぞ。あるブツを手に入れた。\nこの街……いや、もっとドでかい事ができるすげえ力だ。=I'm going to kill the boss. I've got something that can help. With this power, not just the city, but something much bigger is within reach.
 調和とかなんとか言ってるボスはただの老いぼれ。\n上を目指す俺たちにとって邪魔なだけだ。それに、ボスを殺れば……\nあいつも、おまえのものになる。=The boss, who talks about harmony, is just an old man. He's in the way of us who are aiming higher. Besides, if we kill the boss... then he's yours too.

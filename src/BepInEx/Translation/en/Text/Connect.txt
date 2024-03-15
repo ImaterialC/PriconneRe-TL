@@ -1,0 +1,10 @@
+コネクトコイン=Connect coin
+コネクト=Connect
+主さま、コネクトショップではコネクトコインを使って貴重なアイテムと交換ができるようです。コネクトコインはガチャを引くことで手に入りますよ。=My Lord, it seems that at the Connect Shop, you can exchange valuable items using Connect Coins. Connect Coins can be obtained by drawing from the gacha.
+（未獲得分）= (Unacquired)
+
+r:"^\[3C404E\]\[3B3F4D\]過去に開催されたガチャで、\n未獲得となっているマスターピースです。\n\nあと\[-\]\[FFBB00\,CE4F00\](\d+)回\[-\]\[3B3F4D\]購入できます。\[-\]\[-\]$"=[3C404E][3B3F4D] In the gacha that was held in the past, this is a Masterpiece that has not been obtained yet.[-]\n\n You can purchase it [FFBB00,CE4F00]$1[-] more.[-]
+
+
+コネクトコイン不足=Insufficient Connect Coins
+購入に必要なコネクトコインが不足しています。=You don't have enough Connect Coins to purchase.

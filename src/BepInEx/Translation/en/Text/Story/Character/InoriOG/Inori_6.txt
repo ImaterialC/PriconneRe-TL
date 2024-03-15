@@ -1,7 +1,7 @@
 男の子１=Boy 1
 男の子２=Boy 2
 ごろつき=Thug
-r:"^路地裏で再会したイノリの「シノギ」に付き合う(.{2,10})。見回り活動として子どもたちにお菓子を配ったり路上を清掃したりする姿をCorneliaに褒められ、照れるイノリであった。$"="Accompanying Inori in her "job" in the back alleys, $1 praised her for her patrol work. Inori handed out sweets to children and cleaned the streets, a scene that Cornelia commended, making Inori blush."
+r:"^路地裏で再会したイノリの「シノギ」に付き合う(.{2,10})。見回り活動として子どもたちにお菓子を配ったり路上を清掃したりする姿を(.{2,10})に褒められ、照れるイノリであった。$"="Accompanying Inori in her "job" in the back alleys, $1 praised her for her patrol work. Inori handed out sweets to children and cleaned the streets, a scene that $1 commended, making Inori blush."
 r:"^ランドソルの路地裏を散策していた(.{2,10})は、\n見覚えのある小さな影に声をかけた。$"="$1, strolling through the back alleys of Landosol, spotted a familiar small figure and called out."
 ぴぃっ！？　ななな、なんですか？\nって、お兄さんじゃないですか。驚かさないでほしいですよ……\nそれにしても相変わらずヒマそうですね。=Pi!? What's going on here? Hey, it's not Onii-san. Don't startle me... But you always seem so free.
 あたし？　ふっふっふ、あたしは今お兄さんと違って忙しいんですよ。\nなにを隠そう、大事なシノギの真っ最中ですからね！=Me? Hehehe, I'm actually busy right now. I'll have you know I'm in the middle of an important "job"!

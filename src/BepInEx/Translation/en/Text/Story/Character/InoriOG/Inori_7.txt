@@ -1,5 +1,5 @@
 アストライア大陸最大の活火山であるヴェリオ火山にて───=At the Veleo Volcano, the largest active volcano on the Astraea continent───
-r:"^みなに一目置かれたいというイノリの覚醒の特訓に付き合う(.{2,10})。その最中魔物に襲われるが、Corneliaを守るためにイノリは短い間だけドラゴン族の力に覚醒するのだった。\n$"="$1 accompanies Inori in her special training for awakening. During this training, they are attacked by monsters, and Inori awakens the power of the Dragon clan for a short while to protect Cornelia."
+r:"^みなに一目置かれたいというイノリの覚醒の特訓に付き合う(.{2,10})。その最中魔物に襲われるが、(.{2,10})を守るためにイノリは短い間だけドラゴン族の力に覚醒するのだった。\n$"="$1 accompanies Inori in her special training for awakening. During this training, they are attacked by monsters, and Inori awakens the power of the Dragon clan for a short while to protect $1."
 どうしてこうなったです！=How did this happen!
 雄大に噴煙を巻き上げるその地に、イノリの声がこだまする。\n時は数刻前にさかのぼる───=In the grand eruption of the land, Inori's voice echoes. The story goes back a few moments...
 お兄さん！　ちょうどいいところに来たですよ！\n今ってどうせヒマですよね？=Onii-san! You've arrived at just the right time! You're probably free now, right?

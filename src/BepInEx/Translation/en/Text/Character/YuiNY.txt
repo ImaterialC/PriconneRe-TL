@@ -8,25 +8,31 @@
 
 ##UB##
 サンライズプロテクション=Sunrise Protection
-味方全体に物理/魔法無効バリアと継続ＨＰ回復状態を付与するが、自身の魔法攻撃力を特大ダウンさせる。=Grants HP Regen and a barrier that negates P.DMG and M.DMG to all allies, but lowers own M.ATK by a massive amount.
-r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する自分の魔法攻撃力を初期値の90%ダウン$"=►Deploys Barrier that negates $1 P/M.DMG for 18s.\n►Recovers HP by $2/s for 10s.\n►Lowers own M.ATK by 90% of base value for 18s.
+味方全体に物理/魔法無効バリアと継続ＨＰ回復状態を付与するが、自身の魔法攻撃力を特大ダウンさせる。=Deploys Barrier over all allies that negates P/M.DMG and grants continuous HP recovery to them, but lowers own M.ATK by a massive amount.
+味方全体に物理/魔法無効バリアを展開し、継続ＨＰ回復状態を付与するが、自身の魔法攻撃力を特大ダウンさせる。=Deploys Barrier over all allies that negates P/M.DMG and grants continuous HP recovery to them, but lowers own M.ATK by a massive amount.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する自分の魔法攻撃力を初期値の90%ダウン$"=►Deploys Barrier that negates $1 P/M.DMG for 18s.\n►Recovers all allies' HP by $2/s for 10s.\n►Lowers own M.ATK by 90% for 18s.
 
 ##S1##
 ウィークネスペタル=Weakening Petals
-前から２番目の敵１キャラの物理攻撃力と魔法攻撃力を中ダウンさせる。=Moderately lowers the P.ATK and M.ATK of the 2nd closest enemy.
+前から２番目の敵１キャラの物理攻撃力と魔法攻撃力を中ダウンさせる。=Moderately lowers P.ATK and M.ATK of the 2nd closest enemy.
 
 ##S2##
 ブルーミングチアーズ=Cheerful Bloom
-魔法攻撃を行う全ての味方キャラの魔法攻撃力を大アップさせる。=Large boost to M-type all allies M.ATKs.
-r:"^対象の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.19s.\n►Boosts target allies' M.ATK by $1 for 12s.
+魔法攻撃を行う全ての味方キャラの魔法攻撃力を大アップさせる。=Greatly boosts all M-type allies' M.ATK.
+r:"^対象の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.19s.\n►Boosts all M-type allies' M.ATK by $1 for 12s.
 
 ##EX##
 ブライトネスニューイヤー=Bright New Year
 ブライトネスニューイヤー+=Bright New Year+
 
+##UB+##
+フォーチュンプロテクション=Fortune Protection
+味方全体に物理/魔法吸収バリアを展開し、物理ダメージカット効果と魔法ダメージカット効果、継続ＨＰ回復状態を付与する。さらに、味方全体の行動速度を大アップさせるが、自分の魔法攻撃力を特大ダウンさせる。=Deploys Barrier over all allies that absorbs P/M.DMG and grant continuous HP recovery and P/M.DMG Cut to them. Additionally, greatly boosts all allies' action speed, but lowers own M.ATK by a massive amount.
+r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する毎秒ＨＰを(\d+)回復する自分の魔法攻撃力を初期値の90%ダウン味方全体が受ける物理ダメージを5％カット味方全体が受ける魔法ダメージを5％カット味方全体の行動速度をアップ$"=►Deploys Barrier that absorbs $1 P/M.DMG for 18s.\n►Recovers all allies' HP by $2/s for 10s.\n►Lowers own M.ATK by 90% for 18s.\n►Grants P.DMG Cut to all allies by 5% for 18s.\n►Grants M.DMG Cut to all allies by 5% for 18s.\n►Boosts all allies' action speed to 200% for 18s.
+
 ##S1+##
 ウィークネスペタル+=Weakening Petals+
-前から２番目の敵１キャラの物理攻撃力と魔法攻撃力と魔法防御力とＴＰ上昇を中ダウンさせる。=Moderately lowers the P.ATK, M.ATK, M.DEF, TP Boost of the 2nd closest enemy.
+前から２番目の敵１キャラの物理攻撃力と魔法攻撃力と魔法防御力とＴＰ上昇を中ダウンさせる。=Moderately lowers P.ATK, M.ATK, M.DEF and TP Boost of the 2nd closest enemy.
 r:"^敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン敵単体のＴＰ上昇を(\d+)ダウン$"=Cast time: 1.05s.\n►Lowers an enemy's P.ATK by $1 for 12s.\n►Lowers an enemy's M.ATK by $2 for 12s.\n►Lowers an enemy's M.DEF by $3 for 12s.\n►Lowers an enemy's TP Boost by $3 for 12s.
 
 ##UE##

@@ -113,9 +113,12 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 [90A0BC]次にマイルマスに止まった際の獲得マイルが200%アップする。[-]=[90A0BC]You will get 200% more Miles on the next Mile Tile you stop at.[-]
 ---Green---
 [90A0BC]ランダムなイベントを発生させる。[-]=[90A0BC]You will get a random event next turn.[-]
-
+ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。=Until you roll the dice three times, the probability of getting a 5 or 6 is tripled.
 ---Dish descriptions---
 ---Red---
+アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキ ンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made with spices that Akino procured from Geo Gehenna. The exciting flavor that comes with the ranch's special yogurt sauce is truly a miraculous marriage of two worlds.
+
+
 アオイがお弁当として作ったエルフ伝統の野菜サンド。一緒についてきてくれる最高の友だちの助言により、どんなに深い森の中でも全速力で駆け抜けることができるらしい。（アオイ談）=A traditional Elven vegetable sandwich that Aoi made for lunch. Thanks to the advice of her best friend, she can run as fast as she wants, no matter how deep in the forest it is. (According to Aoi)
 
 数多くのドM妄想をしてきたクウカの中で最近のマイブームである触手をモチーフとした活造り。新鮮な蛸足が、濃厚なうま味と共に物理的に絡み付き身も心も縛りあげられる様な体験ができる。=From yet another one of Kuuka's masochistic fantasies comes this sashimi-like dish with an octopus twist. The wriggling of the fresh tentacles combined with their rich umami flavor makes for an experience that ensnares both body and soul.
