@@ -107,6 +107,8 @@ r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回の防衛に成功！報酬はプレ
 
 sr:"^対戦相手のランキングが(\d+位)に変更されました。\n勝利してもランキングは変わりません。\n対戦しますか？$"=The opponent's ranking has been changed to $1 place. The ranking does not change even if you win.\nDo you want to play?
 
+
+グループシャッフル後、バトルアリーナに移動していないためアリーナコインが受け取れません。=After group shuffle, you will not be able to receive arena coins because you have not moved to the battle arena.
 ---NPC Help---
 対戦相手に勝利すると、対戦相手と順位が入れ替わります。\n対戦相手は、自分と同等の強さか、格上の相手が登場します。\nランキングを上げてアリーナコインやジュエルを獲得しましょう。=Defeat an opponent and you will take their place in the rankings. You will face opponents of similar or higher rank than your own. Work your way up the ranking, and win Arena Coins and Jewels!
 

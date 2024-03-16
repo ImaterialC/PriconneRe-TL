@@ -588,3 +588,7 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 メイルオブヴァーチャー=Mail of Virtue
 ブレイドオブルシフェル=Blade of Lucifer
 パラディゾの揺り籃=Cradle of Paradiso
+
+リングオブメタトロン=Ring of Metatron
+リングオブサンダルフォン=Ring of Sandalphon
+リングオブセフィロト=Ring of Sephiroth

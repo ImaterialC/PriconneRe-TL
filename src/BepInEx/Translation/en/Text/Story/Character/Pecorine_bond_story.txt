@@ -729,7 +729,7 @@ r:"^(.{2,10})クンニハ、\nワタシノ国ノ、騎士ノ称号ヲ授ケタ�
 モシモ次ニ、ワタシヲ助ケテクレルコトガアッタラ……\n騎士ノ叙勲ヲ受ケテモラッテモイイデスカ！？=If we meet and you help me another time again...\nCan I hold a knighting ceremony for you?!
 助ける時しか会えないの？=Can't we meet when you're not in trouble?
 r:"^エッ？　ソ、ソンナコトナイデス！\nワタシ、モット(.{2,10})クント一緒ニイタイデスヨ！$"="Huh? l-I didn't mean like that!\nI want to spend lots of time with you anyway!"
-r:"^ナラ……ワタシガ、他ノ用事デ呼ンデモ、\n(.{2,10})クンハ来テクレマスカ？$"="So, um... If I call when I don't have problems,\nwill you still come to find me?
+r:"^ナラ……ワタシガ、他ノ用事デ呼ンデモ、\n(.{2,10})クンハ来テクレマスカ？$"="So, um... If I call when I don't have problems,\nwill you still come to find me?"
 エ？　マタコウシテゴハンヲ一緒ニ食ベタイ？=Huh? You want to go out for a meal like this again?"
 ペコリーヌさん？=Peco?
 r:"^(.{2,10})くん……\nわたしのこと、本当の友達として接してくれているんですね……！　$"="Oh, $1...\nI can see you think of me like a real friend, don't you?"

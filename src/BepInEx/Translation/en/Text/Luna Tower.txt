@@ -48,7 +48,8 @@ r:"^\[3C404E\]リタイアするとスタミナが\[FFBB00,CE4F00\](\d+)\[-\]消
 
 進行中バトル=Battle in progress
 ルナの塔へ=To Luna Tower
-
+「★1、★2、★6への変更」はできません。="Change to ★1, ★2, ★6" is not possible.
+選択パーティ=Selective party
 パーティ編成使用確認=Confirm Party Selection
 このパーティ編成を使用しますか？=Do you want to use this party setup?
 未所持/制限Lv以下のキャラは編成できません。=Underleveled / not owned characters can't be used.
