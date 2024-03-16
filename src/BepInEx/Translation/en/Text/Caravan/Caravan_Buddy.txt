@@ -51,6 +51,8 @@ r:"^【仲間】出目が(\d)のダイスを同時に振ってどちらか選択
 練習中=During practice
 
 r:"^\[3C404E\]ダイスの目を(\d)回振りなおせる\n\（あと\[D13250\](\d)\[-\]回\）\[-\]$"=[3C404E]Can re-roll dice $1x ([D13250]$2[-] more)
+ダイスの表と裏どちらを適用するか選択できる=You can choose to apply either the front or back of your dice
+【仲間】ダイスの表と裏どちらを適用するか選択できる=[Friend] You can choose to apply the two sides of the dice
 
 
 
