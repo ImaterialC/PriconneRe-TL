@@ -18,7 +18,7 @@
 消費シャード=Consumer shard
 ノード詳細=Node Details
 選択したノードの強化詳細です。\n未強化の前提ノードは自動で強化されます。=This is the details of the selected node's enhancement. The unenhanced node will automatically be strengthened.
-
+強化済みです。=It has been strengthened.
 
 消費マスターピース=MPs Cost
 所持マスターピース=MPs Held

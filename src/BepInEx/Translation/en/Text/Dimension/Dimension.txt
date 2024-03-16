@@ -17,7 +17,6 @@ PHASE\nクリア報酬=Phase\nClear Reward
 バトル開始確認=Battle Start Confirmation
 みんな昂りますよぉ！=Everyone gets excited!
 
-sr:"^([べ-ヺー＆・]+?)(（.+）)?(のシャドウ)?が追加される。$"=Added $1$2's Shadow.
 sr:"^([べ-ヺー＆]+?)(（.+）)?(?:と|、)([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Added $1$2 and $3$4's Shadow.
 sr:"^([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+?)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Added $1$2, $3$4, and $5$6's Shadow.
 
@@ -26,15 +25,28 @@ r:"^モンスター(\d)体追加$"=Add $1 monster
 
 シャドウ★6化=Shadow★6
 シャドウ強化=Shadow Strengthening
-sr:"^([べ-ヺー＆]+?)(（.+）)?のシャドウが★6になる。$"=$1$2's shadow becomes ★6.
+
 sr:"^([べ-ヺー＆]+?)(（.+）)?(?:と|、)([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。$"=$1$2 and $3$4's shadow becomes ★6.
-sr:"^([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。$"=$1$2, $3$4, and $5$6's shadow becomes ★6.
+---
+([べ-ヺー＆]+?)(（.+）)?のシャドウが★6になる。
+$1$2's shadow becomes ★6.
 
+([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。
+$1$2, $3$4, and $5$6's shadow becomes ★6.
+---
 
-sr:"^([べ-ヺー＆]+?)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Unique Equipment was added to $1$2's Shadow.
+sr:"^([べ-ヺー＆]+)(（.+?）)?(、)?([べ-ヺー＆]+)(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?のシャドウが★6になる。$"=$1$2$3$4$5$6$7$8$9$10$11$12$13$14’s Shadow becomes ★6
 
-sr:"^([べ-ヺー＆]+?)(（.+）)?(?:と|、)([べ-ヺー＆]+)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Unique Equipment was added to $1$2 and $3$4's Shadow.
-sr:"^([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。$"=Unique Equipment was added to $1$2, $3$4, $5$6's Shadow.
+---
+([べ-ヺー＆]+?)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。
+Unique Equipment was added to $1$2's Shadow.
+
+([べ-ヺー＆]+?)(（.+）)?(?:と|、)([べ-ヺー＆]+)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る
+Unique Equipment was added to $1$2 and $3$4's Shadow.
+
+([べ-ヺー＆]+?)(（.+）)?、([べ-ヺー＆]+)(（.+）)?、([べ-ヺー＆]+)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。
+Unique Equipment was added to $1$2, $3$4, $5$6's Shadow.
+---
 
 バトル開始時、カーズ・レリックが味方全体を魔法\nダメージ50%カット状態にさせる。=At the start of the battle, Car's Relic will reduce all allies' M.DMG by 50%.
 バトル開始時、カーズ・レリックが味方全体を魔法\nダメージ75%カット状態にさせる。=At the start of the battle, Car's Relic will reduce all allies' M.DMG by 75%.
@@ -76,7 +88,13 @@ r:"^バトル時間が(\d+)秒になる。$"=The battle time is $1 seconds.
 危険度詳細=Danger Details
 ボス魔法ダメージカット=Boss M.DMG cut
 ボス物理ダメージカット=Boss P.DMG cut
-
+ダメージ減衰=Damage Cut
+物理ダメージカット=Physical Damage cut
+魔法ダメージカット=Magic Damage cut
+バトル開始時、すべてのキャラのＨＰ吸収を特大ダウンさせる。=At the start of the battle, all characters' HP absorption will be greatly decreased.
+ＴＰダウン=TP Down
+ＴＰダウンカット=TP Down Cut
+すべてのモンスター=All monsters
 ボスモンスター= Boss Monster
 魔法ダメージ=M.DMG
 物理ダメージ=P.DMG
@@ -111,7 +129,13 @@ r:"^(\[[0-9A-F]{6}\])?次元断層のEXTRA PHASEをクリアしよう(\[-\])?$"=
 
 途中でリタイアした場合、この内容はキャンセルされます。=If you retire on the way, this content will be canceled.
 
-sr:"^([べ-ヺー＆]+?)(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?(、)?([べ-ヺー＆]+?)?(（.+）)?のシャドウに専用装備が追加される。$"=UE was added to $1$2$3$4$5$6$7$8$9$10$11’s Shadow
+sr:"^([べ-ヺー＆]+)(（.+?）)?(、)?([べ-ヺー＆]+)(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?のシャドウに専用装備が追加される。$"=UE was added to $1$2$3$4$5$6$7$8$9$10$11$12$13$14’s Shadow
+
+sr:"^([べ-ヺー＆]+)(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?(、)?([べ-ヺー＆]+)?(（.+?）)?が追加される。$"=$1$2$3$4$5$6$7$8$9$10$11$12$13$14 were added.
+モンスター追加=Monster Added
+
+
+
 ５つのPHASEからなる期間限定クエスト『次元断層』が登場しました。\nクエストに３回勝利すると次のPHASEに進めますよ。討伐したモンス\nターは強化されて復活するので、気を引き締めて挑みましょう、主さま。=A limited-time quest "Dimension Fault" consisting of 5 PHASE has appeared. If you win the quest three times, you will advance to the next PHASE. Defeated monsters will be strengthened and revived, so brace yourself and take on the challenge, Lord.
 
 クエストに勝利してゲージが最大になると、トレジャークエストが出現し\nます。トレジャークエストに勝利することでジュエルを獲得できますよ。\n出現したらぜひ挑戦してみてくださいまし。=If you win the quest and fill the gauge to the maximum, a treasure quest will appear. You can get jewels by winning treasure quests. Please try it when it appears.

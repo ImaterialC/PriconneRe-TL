@@ -11,3 +11,5 @@ sr:"^(\[[0-9A-F]{6}\])?([-0-9珀天蒼波紫冥翠嵐紅焔の深域]{5,10})を�
 r:"^(\[[0-9A-F]{6}\])?プリンセスナイトRANK(\d+)を達成しよう(\[-\])?$"="$1Reach Princess Knight RANK $2. $3"
 
 r:"^(\[[0-9A-F]{6}\])?ノードを(\d+)個強化完了しよう(\[-\])?$"="$1Enhance $2 nodes. $3"
+
+ちょっとあんた、報酬が\n受け取れるじゃない！\n忘れずにチェックなさい。\nアメス様との約束よ？=Hey, you! You can receive your rewards, you know! Don't forget to check. It's our promise with Ames-sama, okay?
