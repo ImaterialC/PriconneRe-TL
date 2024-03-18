@@ -13,7 +13,7 @@ r:"^ほぇ？\nごはん王子じゃなくて、(.{2,10})？\nそんな名前で
 うわぁい、\nこんなところで会えるなんて嬉しいです～！\nもはや、これは運命ですね☆=Yayyy!\nIt's so nice to suddenly see you again like this!\nIt's got to be destiny, don't you think?! ☆
 ちなみに。\nわたし最近、\nこのお店でアルバイトしてるんですよ～♪=Oh, by the way,\nI started working here\nas a part-time waitress just recently!~♪
 わたし事情があって旅行ばっかりしてるので、\nだいたい金欠なんです。=I've spent a long time travelling for various reasons,\nso I'm usually pretty strapped for cash!
-だから定期的にランドソルに帰ってきて、\nこういう飲食店とかで旅行費を稼いでるんですよ。=So occasionally I come back home to Landosol,\nand work at cafes and restaurants to fund my travels!
+だから定期的にランドソルに帰ってきて、\nこういう飲食店とかで旅行費を稼いでるんですよ。=So occasionally I come back home to Landosol,\nand work at cafés and restaurants to fund my travels!
 料理店なら、\nまかないご飯とか食べられますしね……♪='Cause at places like this,\nI get to eat the delicious food they serve to their staff!
 おぉっと。\nつい嬉しくなって、\nやたら話しかけちゃいましたけど。=Oopsie-daisy...\nI was so thrilled to see you,\nI kind of stood around chatting, didn't I?
 r:"^(.{2,10})くん、反応が薄いですね！\n寂しい！\nえっと、わたしのことは覚えてますか？$"="You're not much for reactions, are you, $1?\nSuch a blank face!\nUmm... you do remember me, don't you?"
@@ -333,7 +333,7 @@ r:"^わたし、どうもスキンシップが過剰みたいです。\nでも(.
 r:"^……あっ！\nお肉に心を奪われて忘れてましたけど、\n(.{2,10})くんに相談したいことがあったんでした！$"="...Oh!\nI was so enamored by the meat that I almost forgot—\nthere was a favor I wanted to ask of you!"
 駄目ですね～\nごはん食べてると、\n肝心なことすっぽ抜けちゃって♪=Honestly, I can be such a ditz!\nWhen there's food in front of me,\nI might even forget my own name sometimes! ♪
 r:"^(.{2,10})くん、よりにもよって……\n焼き肉屋さんなどという、\nときめきスポットに案内するんですから。$"="This is all your fault, $1...\nOf all the places we could come,\nyou had to pick out this scrumptious meaty heaven!"
-喫茶店とかで、\nかる～くお喋りするだけのつもりだったのに。=l was originally planning\nto just sit down for a chat at a cafe or something!
+喫茶店とかで、\nかる～くお喋りするだけのつもりだったのに。=l was originally planning\nto just sit down for a chat at a café or something!
 あっ、\nそんなふうに身構えなくても大丈夫ですよ～\n相談といっても、そんな深刻なものでもないので。=Oh, there's no need to get all nervous, you know! When I say a favor, it's not like I mean anything too serious.
 r:"^えへへ。\n(.{2,10})くんは、\n誠実ですね♪$"="Ehehehu.\nYou're a pretty sincere guy, aren't you? ♪"
 んっとですね。\nわたし、\nギルドをつくろうと思ってるんですよ。=Um, so let's see.\nThe thing is,\nI've been thinking about starting a guild of my own!

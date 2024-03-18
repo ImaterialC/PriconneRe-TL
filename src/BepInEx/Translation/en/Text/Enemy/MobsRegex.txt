@@ -1,0 +1,29 @@
+sr:"^【(物理|魔法|回復)】(【(.+)】)?\n?([\s\S]+)(?:\n\n\n・)(.+)(?:(?:\n\n・)(.+))?(?:(?:\n\n・)(.+))?(?:(?:\n\n・)(.+))?$"=[$1]$2\n$4\n$5\n$6\n$7\n$8
+
+物理=Physical
+魔法=Magic
+回復=Healing
+【補助】=Support
+【召喚】=[Summon]
+【防御】=[Tanker]
+【魔法防御】=[Magic Tanker]
+【中距離】=[Mid-range]
+
+中距離攻撃=►Mid-range Attack
+近接攻撃=►Close-range attack
+遠距離攻撃=►Long-range attack
+範囲攻撃=►Area attack
+中衛=►Mid-guard
+
+範囲回復=►Area Healing
+単体回復=►Single-target healing
+全体回復=►Complete recovery
+単体ＴＰ回復=►Single-target TP recovery
+単体継続回復=►Single-target regen
+
+後ろから３番目攻撃=►Attack Third enemy from the back
+
+r:"^与えるダメージによるＴＰ回復量(\d+)％ダウン$"=►$1% reduction in TP recovery amount due to damage dealt.
+
+魔力を秘めた岩から生まれた、魔法耐性のあるゴーレム。=A magic-resistant golem born from a rock with hidden magical power.
+分泌するヌルヌルが美容にいいとウワサの、カタツムリの魔物。=A snail monster whose slimy secretion is rumored to be good for beauty.

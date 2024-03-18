@@ -1,8 +1,8 @@
 ##Profile##
-【物理】後衛から客を癒しもてなす猫カフェ店員の猫娘。物攻の高いキャラの傍で周囲の物攻アップやＨＰとＴＰを回復し、周囲の味方数で強化される攻撃で敵を一掃する。=[Physical] A catgirl who works as a cafe clerk, healing and entertaining customers from the backline. She boosts P.ATK and recovers HP and TP of allies near high P.ATK ally. She also uses attacks that are strengthened based on the number of allies around her to eliminate enemies.
+【物理】後衛から客を癒しもてなす猫カフェ店員の猫娘。物攻の高いキャラの傍で周囲の物攻アップやＨＰとＴＰを回復し、周囲の味方数で強化される攻撃で敵を一掃する。=[Physical] A catgirl who works as a café clerk, healing and entertaining customers from the backline. She boosts P.ATK and recovers HP and TP of allies near high P.ATK ally. She also uses attacks that are strengthened based on the number of allies around her to eliminate enemies.
 
 ##UB##
-ねこねこカフェパーティー=Neko-Neko Cafe Party
+ねこねこカフェパーティー=Neko-Neko Café Party
 敵全体に物理大ダメージを与え、自分の物理攻撃力を中アップし、自分を中心とした範囲内の味方すべてのＨＰを小回復する。範囲内の味方の人数に応じて、ダメージと物理攻撃力の上昇量が増加する。=Deals large P.DMG to all enemies, moderately boosts own P.ATK, and slightly recovers allies' HP in range. The P.DMG dealt and P.ATK boost increase according to number of allies in range.
 r:"^敵全体に(\d+)の物理ダメージ範囲内の味方のＨＰを(\d+)回復自分の物理攻撃力を(\d+)アップ$"=►Deals $1 (+0.48×$1×Ally Count) P.DMG to all enemies.\n►Recovers allies' HP in 150 range by $2.\n►Boosts own P.ATK by $3 (+0.2×$3×Ally Count) for 18s.
 

@@ -30,3 +30,13 @@
 
 ＴＰ上昇上限付与=Maximum TP Boost
 バトル開始時、すべてのキャラのＴＰ上昇の上限値を150にする。=At the start of the battle, the maximum TP Boost for all characters is capped to 150.
+
+
+バトル開始時、すべてのキャラに火傷状態を付与する。=At the start of the battle, all characters will be inflicted with a burn state.
+火傷付与=Burning
+バトル開始時、すべてのキャラのＴＰ上昇を特大ダウンさせる。=At the start of the battle, all characters' TP Boost will be decreased by a massive amount.
+ＴＰ上昇ダウン=TP boost down
+バトル開始時、すべてのキャラの魔法防御力を大ダウンさせる。=At the start of the battle, all characters' M.DEF will be greatly reduced.
+魔法防御力ダウン=Magic Defense Down
+バトル開始時、すべてのキャラのＨＰ回復量を特大ダウンさせる。=At the start of the battle, all characters' HP Recovery will be decreased by a massive amount.
+ＨＰ回復量ダウン=HP Recovery Down
