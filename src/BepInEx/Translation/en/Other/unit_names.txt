@@ -105,7 +105,7 @@
 リマ（シンデレラ）=Lima (Cinderella);CLima;CRima;Cinderella
 マコト（シンデレラ）=Makoto (Cinderella);CMakoto;Cinderella
 マホ（シンデレラ）=Maho (Cinderella);CMaho;Cinderella
-クロエ（聖学祭）=Chloe (School Festival);SFChloe;School Festival
+クロエ（聖学祭）=Chloe (School Festival);SFChloe;Kuroe;SFKuroe;School Festival
 チエル（聖学祭）=Chieru (School Festival);SFChieru;School Festival
 ユニ（聖学祭）=Yuni (School Festival);SFYuni;School Festival
 イノリ（タイムトラベル）=Inori (Time Traveller);TInori;TTInori;Time Traveller
@@ -230,7 +230,7 @@
 ジュン（サマー）=Jun (Summer);SJun;Summer;Swimsuit;Bikini
 トモ（サマー）=Tomo (Summer);STomo;Summer;Swimsuit;Bikini
 マツリ（サマー）=Matsuri (Summer);SMatsuri;Summer;Swimsuit;Bikini
-クロエ（サマー）=Chloe (Summer);SChloe;Summer;Swimsuit;Bikini
+クロエ（サマー）=Chloe (Summer);SChloe;Kuroe;SKuroe;Summer;Swimsuit;Bikini
 チエル（サマー）=Chieru (Summer);SChieru;Summer;Swimsuit;Bikini
 ユニ（サマー）=Yuni (Summer);SYuni;Summer;Swimsuit;Bikini
 カヤ（サマー）=Kaya (Summer);SKaya;Summer;Swimsuit;Bikini
@@ -318,7 +318,7 @@
 ジュン（ハロウィン）=Jun (Halloween);HJun;Halloween
 トモ（ハロウィン）=Tomo (Halloween);HTomo;Halloween
 マツリ（ハロウィン）=Matsuri (Halloween);HMatsuri;Halloween
-クロエ（ハロウィン）=Chloe (Halloween);HChloe;Halloween
+クロエ（ハロウィン）=Chloe (Halloween);HChloe;Kuroe;HKuroe;Halloween
 チエル（ハロウィン）=Chieru (Halloween);HChieru;Halloween
 ユニ（ハロウィン）=Yuni (Halloween);HYuni;Halloween
 カヤ（ハロウィン）=Kaya (Halloween);HKaya;Halloween
@@ -406,7 +406,7 @@
 ジュン（クリスマス）=Jun (Holiday);XJun;Holiday;Christmas;Xmas
 トモ（クリスマス）=Tomo (Holiday);XTomo;Holiday;Christmas;Xmas
 マツリ（クリスマス）=Matsuri (Holiday);XMatsuri;Holiday;Christmas;Xmas
-クロエ（クリスマス）=Chloe (Holiday);XChloe;Holiday;Christmas;Xmas
+クロエ（クリスマス）=Chloe (Holiday);XChloe;Kuroe;XKuroe;Holiday;Christmas;Xmas
 チエル（クリスマス）=Chieru (Holiday);XChieru;Holiday;Christmas;Xmas
 ユニ（クリスマス）=Yuni (Holiday);XYuni;Holiday;Christmas;Xmas
 カヤ（クリスマス）=Kaya (Holiday);XKaya;Holiday;Christmas;Xmas
@@ -494,7 +494,7 @@
 ジュン（ニューイヤー）=Jun (New Year);NyJun;New Year;Kimono
 トモ（ニューイヤー）=Tomo (New Year);NyTomo;New Year;Kimono
 マツリ（ニューイヤー）=Matsuri (New Year);NyMatsuri;New Year;Kimono
-クロエ（ニューイヤー）=Chloe (New Year);NyChloe;New Year;Kimono
+クロエ（ニューイヤー）=Chloe (New Year);NyChloe;Kuroe;NyKuroe;New Year;Kimono
 チエル（ニューイヤー）=Chieru (New Year);NyChieru;New Year;Kimono
 ユニ（ニューイヤー）=Yuni (New Year);NyYuni;New Year;Kimono
 カヤ（ニューイヤー）=Kaya (New Year);NyKaya;New Year;Kimono
@@ -582,7 +582,7 @@
 ジュン（バレンタイン）=Jun (Valentine);VJun;Valentine
 トモ（バレンタイン）=Tomo (Valentine);VTomo;Valentine
 マツリ（バレンタイン）=Matsuri (Valentine);VMatsuri;Valentine
-クロエ（バレンタイン）=Chloe (Valentine);VChloe;Valentine
+クロエ（バレンタイン）=Chloe (Valentine);VChloe;Kuroe;VKuroe;Valentine
 チエル（バレンタイン）=Chieru (Valentine);VChieru;Valentine
 ユニ（バレンタイン）=Yuni (Valentine);VYuni;Valentine
 カヤ（バレンタイン）=Kaya (Valentine);VKaya;Valentine
@@ -670,7 +670,7 @@
 ジュン（オーエド）=Jun (Ooedo);OJun;Ooedo
 トモ（オーエド）=Tomo (Ooedo);OTomo;Ooedo
 マツリ（オーエド）=Matsuri (Ooedo);OMatsuri;Ooedo
-クロエ（オーエド）=Chloe (Ooedo);OChloe;Ooedo
+クロエ（オーエド）=Chloe (Ooedo);OChloe;Kuroe;OKuroe;Ooedo
 チエル（オーエド）=Chieru (Ooedo);OChieru;Ooedo
 ユニ（オーエド）=Yuni (Ooedo);OYuni;Ooedo
 カヤ（オーエド）=Kaya (Ooedo);OKaya;Ooedo
@@ -758,7 +758,7 @@
 ジュン（フォールン）=Jun (Fallen);FJun;Fallen
 トモ（フォールン）=Tomo (Fallen);FTomo;Fallen
 マツリ（フォールン）=Matsuri (Fallen);FMatsuri;Fallen
-クロエ（フォールン）=Chloe (Fallen);FChloe;Fallen
+クロエ（フォールン）=Chloe (Fallen);FChloe;Kuroe;FKuroe;Fallen
 チエル（フォールン）=Chieru (Fallen);FChieru;Fallen
 ユニ（フォールン）=Yuni (Fallen);FYuni;Fallen
 カヤ（フォールン）=Kaya (Fallen);FKaya;Fallen
@@ -845,7 +845,7 @@
 ジュン（編入生）=Jun (Student);TJun;Student
 トモ（編入生）=Tomo (Student);TTomo;Student
 マツリ（編入生）=Matsuri (Student);TMatsuri;Student
-クロエ（編入生）=Chloe (Student);TChloe;Student
+クロエ（編入生）=Chloe (Student);TChloe;Kuroe;TKuroe;Student
 チエル（編入生）=Chieru (Student);TChieru;Student
 ユニ（編入生）=Yuni (Student);TYuni;Student
 カヤ（編入生）=Kaya (Student);TKaya;Student
@@ -880,6 +880,6 @@
 レイ（アストラル）=Rei (Astral);ARei;Astral
 ヒヨリ（アストラル）=Hiyori (Astral);AHiyori;Astral
 
-クロエ（ウィンター）=Chloe (Winter);WChloe
-チエル（ウィンター）=Chieru (Winter);WChieru
-ユニ（ウィンター）=Yuni (Winter);WYuni
+クロエ（ウィンター）=Chloe (Winter);WChloe;Kuroe;WKuroe;Winter;Summer;Swimsuit
+チエル（ウィンター）=Chieru (Winter);WChieru;Winter;Summer;Swimsuit
+ユニ（ウィンター）=Yuni (Winter);WYuni;Winter;Summer;Swimsuit

@@ -3,17 +3,17 @@
 
 ##UB##
 サマーゴッデスコーチング=Summer Goddess Coaching
-物理攻撃を行うすべての味方キャラに魔法無効バリアを展開し、さらに魔法攻撃を行うすべての味方キャラに物理無効バリアを展開する。=Deploys a magic nullification barrier on allies performing P.ATKs and a physical nullification barrier on allies performing M.ATK.
+物理攻撃を行うすべての味方キャラに魔法無効バリアを展開し、さらに魔法攻撃を行うすべての味方キャラに物理無効バリアを展開する。=Deploys Barrier over all allies that negates P.DMG if an ally is P-type or M.DMG if an ally is M-type.
 r:"^(\d+)ダメージ分の魔法無効バリアを展開する(\d+)ダメージ分の物理無効バリアを展開する$"=►Deploys Barrier over all P-type allies that negates $1 M.DMG for 45s.\n►Deploys Barrier over all M-type allies that negates $2 P.DMG for 45s.
 
 ##S1##
 ヒーリングドリンク=Healing Drink
-一番前の味方１キャラの魔法防御力を大アップさせ、さらに継続ＨＰ回復状態を付与する。=Greatly enhances the M.DEF of the frontmost ally character and grants continuous HP recovery.
+一番前の味方１キャラの魔法防御力を大アップさせ、さらに継続ＨＰ回復状態を付与する。=Greatly boosts frontmost ally's M.DEF and grants continuous HP recovery.
 r:"^味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=Cast time: 0.94s\n►Boosts an ally's M.DEF by $1 for 12s.\n►Recovers an ally's HP by $2/s for 7s.
 
 ##S2##
 アドバイスエール=Advise Yell
-味方全体の物理攻撃力と魔法防御力を中アップさせる。=Moderately boosts allies' P.ATK and M.DEF.
+味方全体の物理攻撃力と魔法防御力を中アップさせる。=Moderately boosts all allies' P.ATK and M.DEF.
 r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=Cast time: 0.94s\n►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' M.DEF by $2 for 12s.
 
 ##EX##
@@ -24,8 +24,8 @@ r:"^自分の魔法防御力を(\d+)アップ自分の魔法攻撃力を(\d+)ア
 
 ##S1+##
 ヒーリングドリンク+=Healing Drink+
-一番前の味方１キャラの魔法防御力を大アップさせ、さらに継続ＨＰ回復状態を付与する。対象が物理攻撃をするキャラの場合さらに魔法防御力を大アップさせ、魔法攻撃をする場合物理防御力を大アップさせる。=Greatly enhances M.DEF of the frontmost ally, grants continuous HP recovery. If the target performs P.ATK, further boosts M.DEF; if M.ATK, further boosts P.DEF.
-r:"^味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する対象が物理攻撃をする場合味方単体の魔法防御力を(\d+)アップ対象が魔法攻撃をする場合味方単体の物理防御力を(\d+)アップ$"=Cast time: 0.94s\n►Boosts an ally's M.DEF by $1 for 12s.\n►Recovers an ally's HP by $2/s for 7s.\n►If it's an P-type ally, boosts an ally's M.DEF by $3 for 12s.\n►If it's an M-type ally, boosts an ally's M.DEF by $4 for 12s.
+一番前の味方１キャラの魔法防御力を大アップさせ、さらに継続ＨＰ回復状態を付与する。対象が物理攻撃をするキャラの場合さらに魔法防御力を大アップさせ、魔法攻撃をする場合物理防御力を大アップさせる。=Greatly boosts frontmost ally's M.DEF and grants continuous HP recovery. If an ally is P-type, further boosts M.DEF; if an ally is M-type, further boosts P.DEF.
+r:"^味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する対象が物理攻撃をする場合味方単体の魔法防御力を(\d+)アップ対象が魔法攻撃をする場合味方単体の物理防御力を(\d+)アップ$"=Cast time: 0.94s\n►Boosts an ally's M.DEF by $1 for 12s.\n►Recovers an ally's HP by $2/s for 7s.\n►If an ally is P-type, boosts an ally's M.DEF by $3 for 12s.\n►If an ally is M-type, boosts an ally's P.DEF by $4 for 12s.
 
 ##UE##
 ビーチビーナスメガホン=Beach Venus Megaphone

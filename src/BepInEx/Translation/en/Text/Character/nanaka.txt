@@ -20,31 +20,30 @@
 
 ##UB##
 ナナカ・∞・ブラスト=Nanaka Infinite Blast
-残りＨＰが最も高い敵１キャラに魔法特大ダメージを与える。=Deals massive M.DMG to the enemy with the highest current HP.
+残りＨＰが最も高い敵１キャラに魔法特大ダメージを与える。=Deals massive M.DMG to an enemy with the highest remaining HP.
+最もＨＰの割合が高い敵１キャラに魔法特大ダメージを与える。=Deals massive M.DMG to an enemy with the highest remaining HP.
 
 ##S1##
 スターダストマジック=Stardust Magic
-目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を小ダウンさせる。=Lowers magic defense of enemies within the radius of the target by a small amount.
-範囲内の敵の魔法防御力を1ダウン=Reduce magical defense of all enemies within 200 range from the nearest enemy.
+目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を小ダウンさせる。=Slightly lowers enemies' M.DEF in range.
 
 ##S2##
 エナジーインパクト=Energy Impact
-残りＨＰが最も高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to the enemy with the highest current HP and inflicts Stun for 1.5s.
-最もＨＰの割合が高い敵１キャラに\n魔法中ダメージを与え、さらにスタ\nンさせる。=Deals moderate M.DMG to the enemy with the highest current HP and inflicts Stun for 1.5s.
+残りＨＰが最も高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to an enemy with the highest remaining HP and inflicts Stun for 1.5s.
+最もＨＰの割合が高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to an enemy with the highest remaining HP and inflicts Stun for 1.5s.
 
 ##EX##
 アウェイクニングモード=Awakening Mode
 アウェイクニングモード+=Awakening Mode+
-バトル開始時に自分の魔法攻撃力を中アップさせる。=Small boost to own magic attack at the start of the battle.
 
 ##UB+##
 ナナカ・∞・グリッター=Nanaka Infinite Glitter
-最もＨＰの割合が高い敵１キャラに\n魔法特大ダメージを与え、さらに魔\n法防御力を小ダウンさせる。=Deals massive M.DMG to the enemy with the highest remaining HP, and also slightly decreases magic defense.
-残りＨＰが最も高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive M.DMG to the enemy with the highest remaining HP, and also slightly decreases magic defense.
+最もＨＰの割合が高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive M.DMG to an enemy with the highest remaining HP, and also slightly lowers its M.DEF.
+残りＨＰが最も高い敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals massive M.DMG to an enemy with the highest remaining HP, and also slightly lowers its M.DEF.
 
 ##S1+##
 スターダストマジック+=Stardust Magic+
-目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を中ダウンさせる。=Lowers magic defense of enemies within the radius of the target by a moderate amount.
+目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を中ダウンさせる。=Moderately lowers enemies' M.DEF in range.
 r:"^範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 1.4s\n►Lowers enemies' M.DEF in 200 range by $1 for 12s.
 
 ##UE##

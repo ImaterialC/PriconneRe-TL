@@ -18,7 +18,7 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを(\d+)回復自分の
 
 ##SP1##
 アストラルシール=Astral Seal
-このスキルのスキルレベルは「ソウルリベ\nレーション」と連動しています=This skill’s level is linked to "Soul Liberation"
+このスキルのスキルレベルは「ソウルリベ\nレーション」と連動しています=This skill's level is linked to "Soul Liberation"
 【霊錨の刻印】を敵へ付与できる状態になる。攻撃が敵に当たるたび【霊錨の刻印】を１つ付与する。【霊錨の刻印】は最大15まで追加される。=Whenever one of Shinobu's attacks hit an enemy, that enemy gains one stack of [Spiritual Anchor Mark], up to a maximum of 15.
 
 ##EX##

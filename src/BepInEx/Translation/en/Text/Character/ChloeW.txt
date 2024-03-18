@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛で、水面に映る神速のダウナー系水着女子。\n攻撃を当てる度に敵に付与する【水月】の数に応じて物防\nダウンやダメージの効果が上昇し、必勝の抜き手を切る。=A chill, swimsuit girl whose godly speed is reflected on the water's surface from the frontline. Upon each hit, she inflicts enemies with a "Suigetsu", that provides a large P.DEF debuff and damage increase based on count, all while securing victory with her overarm stroke.
+
+##UB##
+白銀の熱天=Snowy Summer
+目の前の敵１キャラに物理大ダメージを与え、自分の物理攻撃力を特大アップする。対象の【水月】が一定以上の場合、このスキルのダメージが段階的に増加する。対象の【水月】が99の場合、【水月】を33消費し、目の前の敵１キャラに追加の物理特大ダメージを与える。=Deals large P.DMG to an enemy in front and greatly boosts own P.ATK. The P.DMG dealt increases according to number of [Suigetsu] stacks. If enemy has 99 [Suigetsu] stacks, consumes 33 stacks and deals massive P.DMG.
+r:"^水月が99の時、追加の(\d+)の物理ダメージ水月が99の時、水月を33消費する水月が66以上の時(\d+)の物理ダメージ水月が33以上の時(\d+)の物理ダメージ水月が33未満の時(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=►Boosts own P.ATK by $5 for 18s.\n►If an enemy has 0-32 [Suigetsu], deals $4 P.DMG to an enemy.\n►If an enemy has 33-65 [Suigetsu], deals $3 P.DMG to an enemy.\n►If an enemy has 66-98 [Suigetsu], deals $2 P.DMG to an enemy.\n►If an enemy has 99 [Suigetsu],\ndeals $1x2 P.DMG to an enemy and consumes 33 [Suigetsu] stacks.
+
+##S1##
+無風の航路=Windless Passage
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を中ダウンさせる。対象の【水月】が一定以上の場合、このスキルのダメージ、ヒット数、防御力の減少量が段階的に増加する。=Deals large P.DMG to an enemy in front and moderately lowers its P.DEF. The P.DMG dealt and lowered P.DEF increase according to number of [Suigetsu] stacks. All effects last 12s.
+r:"^水月が66以上の時(\d+)の物理ダメージ水月が66以上の時物理防御力を(\d+)ダウン水月が33以上の時(\d+)の物理ダメージ水月が33以上の時物理防御力を(\d+)ダウン水月が33未満の時(\d+)の物理ダメージ水月が33未満の時物理防御力を(\d+)ダウン$"=If an enemy has 0-32 [Suigetsu]:\n►Deals $5 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $6.\n\nIf an enemy has 33-65 [Suigetsu]:\n►Deals $3 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $4.\n\nIf an enemy has 66-99 [Suigetsu]:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.
+
+##S2##
+行潦の飛沫=Rainway Splatter
+目の前の敵１キャラに物理大ダメージを与え、味方全体の物理攻撃力を中アップする。対象の【水月】が一定以上の場合、このスキルのダメージ、ヒット数、物理攻撃力の上昇量が段階的に増加する。=Deals large P.DMG to an enemy and moderately boosts all allies' P.ATK. The P.DMG dealt and P.ATK boost increase according to number of [Suigetsu] stacks. All effects last 12s.
+r:"^水月が66以上の時(\d+)の物理ダメージ水月が66以上の時味方全体の物理攻撃力を(\d+)アップ水月が33以上の時(\d+)の物理ダメージ水月が33以上の時味方全体の物理攻撃力を(\d+)アップ水月が33未満の時(\d+)の物理ダメージ水月が33未満の時味方全体の物理攻撃力を(\d+)アップ$"=If an enemy has 0-32 [Suigetsu]:\n►Deals $5 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $6.\n\nIf an enemy has 33-65 [Suigetsu]:\n►Deals $3 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $4.\n\nIf an enemy has 66-99 [Suigetsu]:\n►Deals $1 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $2.
+
+##SP1##
+水鏡の淡月=Reflecting Water - Pale Moon
+このスキルのスキルレベルは「白銀の熱天」と連動しています=This skill's level is linked to "Snowy Summer"
+敵全体の物理防御力を小ダウンさせる。さらに味方全体が【水月】を敵へ付与できる状態になる。攻撃が敵に当たるたび【水月】を１つ付与する。【水月】は最大99まで追加される。=Whenever one of allies' attacks hit an enemy, that enemy gains one stack of the [Suigetsu]. Up to 99 stacks can be inflicted at once. Additionally, slightly lowers all enemies P.DEF.
+r:"^敵全体の物理防御力を(\d+)ダウン味方全体が、攻撃が当たるたびに水月を付与する状態になる$"=►When an ally's attack connects, inflicts [Suigetsu].\n►Lowers all enemies P.DEF by $1 for 180s.
+
+##EX##
+巻き立つ波=Rolling Waves
+巻き立つ波+=Rolling Waves+
