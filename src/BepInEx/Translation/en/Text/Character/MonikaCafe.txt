@@ -1,5 +1,5 @@
 ##Profile##
-【物理】中衛で、駄菓子を振舞い福を蒔く猫カフェ店員。攻撃を３回受けるまで味方全体の物理攻撃力を極大アップさせ、２種の物防ダウンスキルで序盤を一気に加勢する。=[Physics] A cat café employee who spreads happiness by serving snacks at midlines. Until receiving 3 attacks, greatly boosts the physical attack of all allies and supports the party with 2 types of physical defense down skills to start the battle.
+【物理】中衛で、駄菓子を振舞い福を蒔く猫カフェ店員。攻撃を３回受けるまで味方全体の物理攻撃力を極大アップさせ、２種の物防ダウンスキルで序盤を一気に加勢する。=[Physics] A cat cafe employee who spreads happiness by serving snacks at midlines. Until receiving 3 attacks, greatly boosts the physical attack of all allies and supports the party with 2 types of physical defense down skills to start the battle.
 
 ##UB##
 招福カッツェンレーゲン=Fortune Call Katzenregen
@@ -17,3 +17,10 @@ r:"^キャンディを振りまいている間、味方全体の物理攻撃力�
 ##EX##
 コーヒーブレイク=Coffee Break
 コーヒーブレイク+=Coffee Break+
+
+##S1+##
+バブルガムポップ+=Bubble Gum Pop+
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。バトル開始後、初弾のこのスキルは追加で目の前の敵１キャラの物理防御力を大ダウンさせる。=Deals large P.DMG to an enemy in front, and slightly lowers its P.DEF for 12s. When battle begins, 1st skill usage lowers an enemy's P.DEF by a moderate amount for 30s.
+
+##UE##
+ナッシュカッツェ店長服=Naschkatze Manager Uniform

@@ -1,239 +1,293 @@
 シャドウ=Shadow
 ウキキー=Ukiki
 
+ワッパダヌキ=Wappadanuki
+幼いながらも巧みな変化で攻守を必死にこなす豆狸の魔物。=Tanuki monster that, despite its young age, was doing its best to attack and defend with skillful changes.
+
+サンドワーム=Sandworm
+砂地の地中で獲物を待ち、一気に大顎で仕留めるムカデの魔物=A centipede monster that waits for its prey underground in the sand and kills it all at once with its mandibles.
+
+タビガラス=Tabiglas
+アストルム中の強い魔物を倒して回ったという放浪カラス。=A wandering crow that is said to have defeated strong monsters throughout Astrum.
+
+ビッグル=Biggle
+岩を食べられるほど頑丈な歯をもつ山の精霊。=A mountain spirit with teeth strong enough to eat rocks.
+
+ウパルパ=Upalpa
+ヘドロの沼に棲み、口から強力な毒を吐く山椒魚の魔物。=A pepper fish monster that lives in sludge swamps and spews powerful poison from its mouth.
+
+イクト=Ikuto
+ルインドール=Ruindoll
+ガラディオンに付き従う古代の自動人形。意思を持たず、自身が瓦解するまで戦い続ける。=An ancient automaton that follows Galadion. He has no will and continues to fight until he falls apart.
+
+
+尾先の炎を燃やし続けることで常に躰を温めているトカゲの魔物。=A lizard monster that constantly keeps its body warm by burning the flame at the tip of its tail.
+サンドボア=Sandbore
+砂を固めて鎧のように纏うのは、捨て身を恐れない一族の戦士の証。=Hardening sand and wearing it like armor is proof of the warriors of the clan who are not afraid to sacrifice themselves.
+
+ゴブリンリトル=Goblin Little
+幼くも、勇猛な見習いゴブリン。非力を補う動きで、前線を駆ける。=A young but valiant apprentice goblin. Moving to make up for her incompetence, she runs across the front lines.
+
+スノウゴート=Snow Goat
+高山に住み、分厚い毛皮の下に、強靭な体を持つトナカイの魔物。=A reindeer monster that lives in the mountains and has a strong body beneath its thick fur.
+
+ワイルドボア=Wild Bore
+熱地に生きる、原始の大イノシシ。数多のマグマ岩を突き続けた先に、鎧をも砕く牙の一撃を体得した。=A primitive large boar that lives in a hot region. After continuously punching numerous magma rocks, he experienced a blow from his fangs that could shatter armor.
+
+近接攻撃しなやかな枝を、ムチのように使い攻撃する木の魔物。=A tree monster that uses pliable branches like a whip to attack.
+
+イカリイカ=Ikariika
+イカリ頭のイカ魔物。金属質の錨は高硬度のかわりに重く、バランスを崩しよくひっくり返る。=A squid monster with a squid head. Although metal anchors are hard, they are heavy and often lose their balance and tip over.
+
+アイスモール=Ice Mall
+発達したツメで氷を砕き攻撃する雪モグラの魔物。=A snow mole monster that attacks by breaking ice with its developed claws.
+
 カクタスフラワー=Cactus flower
-【物理】中距離攻撃触ると痺れる針山を無限に飛ばしてくる、動くサボテン。=[Physical] Mid-range attack\nA moving cactus that endlessly shoots needle mountains, causing numbness upon contact.
+触ると痺れる針山を無限に飛ばしてくる、動くサボテン。=A moving cactus that endlessly shoots needle mountains, causing numbness upon contact.
 
 ロックフラワー=Rock Flower
-【物理】中距離攻撃小石を弾丸のように飛ばして攻撃する、岩でできた動く花。=[Physical] Mid-range attack\nA moving flower made of rock that attacks by shooting small stones like bullets.
+小石を弾丸のように飛ばして攻撃する、岩でできた動く花。=A moving flower made of rock that attacks by shooting small stones like bullets.
 
 ブルーゴーレム=Blue Golem
-【物理】【魔法防御】近接攻撃魔力を秘めた岩から生まれた、魔法耐性のあるゴーレム。=[Physical] [Magic Defense] close-range attack\nA magic-resistant golem born from a rock with hidden magical power.
+魔力を秘めた岩から生まれた、魔法耐性のあるゴーレム。=A magic-resistant golem born from a rock with hidden magical power.
 
 ハイオーク=High orc
-【物理】近接攻撃厳しい鍛錬を重ね、強靭な肉体を手に入れたオークの上位種。=[Physical] Close-range attack\nA high-ranking orc that has acquired a tough body through repeated rigorous training.
+厳しい鍛錬を重ね、強靭な肉体を手に入れたオークの上位種。=A high-ranking orc that has acquired a tough body through repeated rigorous training.
 
 ウーピーオーク=Woopy orc
-【物理】近接攻撃大人を真似て、楽器をたたく、悪戯好きなオークのこども。=[Physical] Close-range attack\nChild orc that imitates adults by playing instruments and enjoys pranks.
+大人を真似て、楽器をたたく、悪戯好きなオークのこども。=Child orc that imitates adults by playing instruments and enjoys pranks.
 
 キラービー=Killer bee
-【物理】遠距離攻撃脅威となる敵をいち早く察知し、的確に狙い穿つハチの魔物。=[Physical] Long-range attack\nA bee-like monster that quickly detects threatening enemies and accurately pierces them.
+脅威となる敵をいち早く察知し、的確に狙い穿つハチの魔物。=A bee-like monster that quickly detects threatening enemies and accurately pierces them.
 
 スパイククラブ=Spike club
-【物理】近距離攻撃巨大なハサミと硬い殻が自慢のカニの魔物。砂に潜んで気長に獲物を待つ姿はどこか愛らしい。=[Physical] Short-range attack\nA crab monster with huge pincers and a hard shell. It lurks in the sand and patiently waits for prey, giving it a somewhat endearing appearance.
+巨大なハサミと硬い殻が自慢のカニの魔物。砂に潜んで気長に獲物を待つ姿はどこか愛らしい。=A crab monster with huge pincers and a hard shell. It lurks in the sand and patiently waits for prey, giving it a somewhat endearing appearance.
 
 ゼラチナ=Zerachina
-【魔法】近接攻撃物理攻撃が当たりにくいとってもヌルヌルなゼリーの魔物。=[Magic] Close-range attack\nA jelly-like monster that is very slippery, making physical attacks difficult to land.
+物理攻撃が当たりにくいとってもヌルヌルなゼリーの魔物。=A jelly-like monster that is very slippery, making physical attacks difficult to land.
 
 サラマンダー=Salamander
-【物理】近接攻撃尾先の炎を燃やし続けることで常に躰を温め、二連撃を繰り出すトカゲの魔物。=[Physical] Close-range attack\nA lizard-like monster that constantly burns the tip of its tail to keep itself warm and delivers a double attack.
+尾先の炎を燃やし続けることで常に躰を温め、二連撃を繰り出すトカゲの魔物。=A lizard-like monster that constantly burns the tip of its tail to keep itself warm and delivers a double attack.
 
 マッドフラワー=Mudflower
-【物理】中距離攻撃尾の花はひどい臭いを放つが、慣れると案外癖になるらしい。=[Physical] Medium-range attack\nThe flower on its tail emits a terrible smell, but apparently, one can get used to it and even find it somewhat addictive.
+尾の花はひどい臭いを放つが、慣れると案外癖になるらしい。=The flower on its tail emits a terrible smell, but apparently, one can get used to it and even find it somewhat addictive.
 
 ランドスネーク=Land snake
-【物理】中距離攻撃穴を掘って獲物をじっと待ち、毒牙で確実に仕留めるヘビの魔物。=[Physical] Medium-range attack\nA snake monster that digs holes and patiently waits for prey, then strikes with its venomous fangs to ensure a kill.
+穴を掘って獲物をじっと待ち、毒牙で確実に仕留めるヘビの魔物。=A snake monster that digs holes and patiently waits for prey, then strikes with its venomous fangs to ensure a kill.
 
 ファイヤーメイジ=Fire mage
-【魔法】遠距離攻撃地獄から呼び寄せた炎で魔法を飛ばす上級悪魔。=[Magic] Long-range attack\nA high-level demon that hails from hell and launches magical attacks using summoned flames.
+地獄から呼び寄せた炎で魔法を飛ばす上級悪魔。=A high-level demon that hails from hell and launches magical attacks using summoned flames.
 
 ポイドン=Poydon
-【物理】近接攻撃するどいキバで咬みつき致命的な傷を残す毒トカゲの魔物。=[Physical] Close-range attack\nA poisonous lizard monster that inflicts lethal wounds with its sharp fangs.
+するどいキバで咬みつき致命的な傷を残す毒トカゲの魔物。=A poisonous lizard monster that inflicts lethal wounds with its sharp fangs.
 
 コドモオオトカゲ=Child giant lizard
-【魔法】近接攻撃小さくても強力な炎を吐く、こどものオオトカゲ。=[Magic] Close-range attack\nA child giant lizard that can breathe powerful flames despite its small size.
+小さくても強力な炎を吐く、こどものオオトカゲ。=A child giant lizard that can breathe powerful flames despite its small size.
 
 ワイズワンド=Wise wand
-【魔法】遠距離攻撃浴びれば凍える冷気の魔法で、戦意を奪うオウムガイ型の魔物。=[Magic] Long-range attack\nAn owl-shaped monster that wields a magic wand capable of freezing opponents and robbing them of their fighting spirit.
+浴びれば凍える冷気の魔法で、戦意を奪うオウムガイ型の魔物。=An owl-shaped monster that wields a magic wand capable of freezing opponents and robbing them of their fighting spirit.
 
 クレイジードギー=Crazy doggy
-【物理】近接攻撃主人と共に生み出された、凶暴な改造犬。大きな頭を支えようと、必死な顔が殊更、怖い。=[Physical] Close-range attack\nA ferocious, genetically modified dog created alongside its owner. Its desperate expression while supporting its large head makes it even scarier.
+主人と共に生み出された、凶暴な改造犬。大きな頭を支えようと、必死な顔が殊更、怖い。=A ferocious, genetically modified dog created alongside its owner. Its desperate expression while supporting its large head makes it even scarier.
 
 タツノコナイト=Tatsunoko Knight
-【物理】中距離攻撃海で溺れた騎士の槍を奪い、縄張りを警備するタツノコの戦士。=[Physical]Mid-range Attack\nA warrior of the Tatsunoko clan that guards its territory by wielding a lance stolen from a knight who drowned at sea.
+海で溺れた騎士の槍を奪い、縄張りを警備するタツノコの戦士。=A warrior of the Tatsunoko clan that guards its territory by wielding a lance stolen from a knight who drowned at sea.
 
 ウェアウルフ=Werewolf
-【物理】近接攻撃するどいツメで敵を切り刻む、オオカミの魔物。=[Physical] Close-range attack\nA wolf-like monster that slashes enemies with sharp claws.
+するどいツメで敵を切り刻む、オオカミの魔物。=A wolf-like monster that slashes enemies with sharp claws.
 
 ゲートキーパー=Gatekeeper
-【魔法】範囲攻撃地獄のトビラを開き、火傷を伴う炎を吐きだす魔界の番人。=[Magic] Area attack\nA demon of the underworld that opens the gates of hell and breathes flames accompanied by burning.
+地獄のトビラを開き、火傷を伴う炎を吐きだす魔界の番人。=A demon of the underworld that opens the gates of hell and breathes flames accompanied by burning.
 
 スカルフレイム=Skullflame
-【魔法】中距離攻撃地獄の炎をまとい、生者に襲い掛かる怨念の集合体。=[Magic] Medium-range attack\nA gathering of vengeful spirits enveloped in hell's flames, attacking the living.
+地獄の炎をまとい、生者に襲い掛かる怨念の集合体。=A gathering of vengeful spirits enveloped in hell's flames, attacking the living.
 
 ベニタケ=Benitake
-【物理】近接攻撃煮込むと意外と美味いというウワサの歩くキノコ。=[Physical] Close-range attack\nA walking mushroom that is said to be surprisingly delicious when cooked.
+煮込むと意外と美味いというウワサの歩くキノコ。=A walking mushroom that is said to be surprisingly delicious when cooked.
 
 アルトバード=Altbird
-【回復】範囲回復癒しの歌声が遠くまでよく届くトリ魔物界の有名歌手。=[Healing] Area healing\nA famous bird-like monster in the magical world known for its healing songs that reach far distances.
+癒しの歌声が遠くまでよく届くトリ魔物界の有名歌手。=A famous bird-like monster in the magical world known for its healing songs that reach far distances.
 
 ワイルドホーン=Wildhorn
-【物理】近接攻撃大きな角を攻撃にも防御にも使う、シカの魔物。=[Physical] Close-range attack\nA deer-like monster that uses its large horns for both offense and defense.
+大きな角を攻撃にも防御にも使う、シカの魔物。=A deer-like monster that uses its large horns for both offense and defense.
 
 オーク=Orc
-【物理】近接攻撃倒した冒険者の鎧をまとい斧を振り回す凶暴な森の獣人。=[Physical] Close-range attack\nA ferocious forest-dwelling humanoid creature that wears the armor of defeated adventurers and wields an axe.
+倒した冒険者の鎧をまとい斧を振り回す凶暴な森の獣人。=A ferocious forest-dwelling humanoid creature that wears the armor of defeated adventurers and wields an axe.
 
 バットケイブ=Batcave
-【魔法】近接攻撃洞窟に棲み、獲物の足音を聞いて襲い掛かる、コウモリの魔物。=[Magic] Close-range attack\nA bat-like monster that resides in caves and attacks prey upon hearing their footsteps.
+洞窟に棲み、獲物の足音を聞いて襲い掛かる、コウモリの魔物。=A bat-like monster that resides in caves and attacks prey upon hearing their footsteps.
 
 グラスリザード=Grasslizard
-【物理】近接攻撃葉っぱの襟巻が鮮やかなトカゲ魔物界のオシャレ番長。=[Physical] Close-range attack\nA stylish lizard monster from the magical world, distinguished by its vibrant leafy collar.
+葉っぱの襟巻が鮮やかなトカゲ魔物界のオシャレ番長。=A stylish lizard monster from the magical world, distinguished by its vibrant leafy collar.
 
 ゴブリンガード=Goblinguard
-【物理】近接攻撃身の丈ほどもある、巨大な盾で仲間を護る見習いゴブリン兵。=[Physical] Close-range attack\nAn apprentice goblin soldier that protects its allies with a massive shield.
+身の丈ほどもある、巨大な盾で仲間を護る見習いゴブリン兵。=An apprentice goblin soldier that protects its allies with a massive shield.
 
 インプ=Imp
-【魔法】近接攻撃身の丈に合わない大きなカギ爪でひっかき攻撃する、見習い悪魔。=[Magic] Close-range attack\nApprentice demon scratches and attacks with large claws that don't match her close-range attack height.
+身の丈に合わない大きなカギ爪でひっかき攻撃する、見習い悪魔。=Apprentice demon scratches and attacks with large claws that don't match her close-range attack height.
 
 ホオズキムシ=Hoozukimushi
-【回復】単体回復お尻に溜まった蜜が、魔物の栄養源になる、不思議なホタル。=[Healing] Single-target healing\nA mysterious firefly-like creature with nectar stored in its rear, which serves as a nourishment source for other monsters.
+お尻に溜まった蜜が、魔物の栄養源になる、不思議なホタル。=A mysterious firefly-like creature with nectar stored in its rear, which serves as a nourishment source for other monsters.
 
 ケイブスネイル=Cave Snail
-【回復】範囲回復分泌するヌルヌルが美容にいいとウワサの、カタツムリの魔物。=[Healing] Area\nA snail monster rumored to be good for beauty because of its AoE recovery secretion.
+分泌するヌルヌルが美容にいいとウワサの、カタツムリの魔物。=A snail monster whose slimy secretion is rumored to be good for beauty.
 
 ドリアード=Dryad
-【魔法】【召喚】近接攻撃大地の魔力でキノコの魔物を自在に生やす、森の精霊。=[Magic][Summon] Close-range attack\nA forest spirit capable of using the earth's magic to summon mushroom creatures at will.
+大地の魔力でキノコの魔物を自在に生やす、森の精霊。=A forest spirit capable of using the earth's magic to summon mushroom creatures at will.
 
 ロックリザード=Rocklizard
-【物理】近接攻撃頭の皮膚が固くなり鎧のようになった岩トカゲの魔物。=[Physical] Close-range attack\nA lizard-like monster with hardened skin on its head that resembles armor.
+頭の皮膚が固くなり鎧のようになった岩トカゲの魔物。=A lizard-like monster with hardened skin on its head that resembles armor.
 
 ハーミットナイト=Hermitknight
-【物理】近接攻撃倒した騎士の兜を、貝殻の代わりに被るヤドカリの戦士。=[Physical] Close-range attack\nA warrior hermit crab that wears the helmets of defeated knights in place of shells.
+倒した騎士の兜を、貝殻の代わりに被るヤドカリの戦士。=A warrior hermit crab that wears the helmets of defeated knights in place of shells.
 
 モグリクラゲ=Mogurikurage
-【回復】範囲回復拾った潜水服に水を溜め、陸でも戦えるクラゲの魔物。=[Healing] Area healing\nA jellyfish-like monster that can store water in the diving suit it picked up and fight on land as well.
+拾った潜水服に水を溜め、陸でも戦えるクラゲの魔物。=A jellyfish-like monster that can store water in the diving suit it picked up and fight on land as well.
 
 ウイングロップ=Wingropp
-【魔法】近接攻撃大きな耳をはばたかせて、勢いよく突き上げるウサギの魔物。=[Magic] Close-range attack\nA rabbit-like monster that uses its large ears to flutter and launches attacks with great force.
+大きな耳をはばたかせて、勢いよく突き上げるウサギの魔物。=A rabbit-like monster that uses its large ears to flutter and launches attacks with great force.
 
 ケイブエイプ=Caveape
-【物理】近接攻撃強靭な腕の筋肉で、鍾乳石を掴んで渡る大ザルの魔物。=[Physical] Close-range attack\nA large ape-like monster that traverses caves by gripping stalactites with its strong arm muscles.
+強靭な腕の筋肉で、鍾乳石を掴んで渡る大ザルの魔物。=A large ape-like monster that traverses caves by gripping stalactites with its strong arm muscles.
 
 エルダークラウド=Eldercloud
-【魔法】【補助】範囲攻撃気象を自在に操り、雷を落とす雲の魔物。=[Magic][Support] Area attack\nA cloud-like monster with control over weather, capable of summoning lightning.
+気象を自在に操り、雷を落とす雲の魔物。=A cloud-like monster with control over weather, capable of summoning lightning.
 
 ゴーレム=Golem
-【物理】近接攻撃頑丈な身体で、攻守を備えた岩の魔物。=[Physical] Close-range attack\nA rock monster with a sturdy body, skilled in both offense and defense.
+頑丈な身体で、攻守を備えた岩の魔物。=A rock monster with a sturdy body, skilled in both offense and defense.
 
 バルーンバード=Balloonbird
-【回復】範囲回復ぷっくりお腹に溜めた魔力を、癒しの波動に変えるトリの魔物。=[Healing] Area healing\nA bird-like monster that stores magical power in its puffy belly and converts it into healing waves.
+ぷっくりお腹に溜めた魔力を、癒しの波動に変えるトリの魔物。=A bird-like monster that stores magical power in its puffy belly and converts it into healing waves.
 
 ツキツキ=Tsukitsuki
-【物理】中距離攻撃魔力の流れに敏感なキツツキ。鋭い嘴の攻撃で気力を減衰させる。=[Physical] Mid-range Attack.\nA tight spot sensitive to the flow of magical energy. A sharp beak attack dampens your willpower.
+魔力の流れに敏感なキツツキ。鋭い嘴の攻撃で気力を減衰させる。=A tight spot sensitive to the flow of magical energy. A sharp beak attack dampens your willpower.
 
 ツチノコブラ=Tsuchinocobra
-【物理】中距離攻撃物陰から飛びかかり魔力を吸って腹を満たすという魔物ヘビの変種。魔力が高いほど狙われやすい。=[Physical]\nvariant of a monster snake that jumps from the shadows and absorbs magical energy to fill its stomach. The higher the mana, the easier it is to be targeted.
+物陰から飛びかかり魔力を吸って腹を満たすという魔物ヘビの変種。魔力が高いほど狙われやすい。=variant of a monster snake that jumps from the shadows and absorbs magical energy to fill its stomach. The higher the mana, the easier it is to be targeted.
 
 コボルト=Kobold
-【物理】中距離攻撃ブーメランのように組んだ骨を、投げて攻撃する山犬の魔物。=[Physical] Mid-range Attack.\nA wild dog monster that throws and attacks bones that form a boomerang.
+ブーメランのように組んだ骨を、投げて攻撃する山犬の魔物。=A wild dog monster that throws and attacks bones that form a boomerang.
 
 マジックレイ=Magic Ray
-【魔法】範囲攻撃頭部の石から発する超音波で巧みに狩りをするエイの魔物。=[Magic] Area attack\nThe stingray monsters skillfully hunted with ultrasonic waves emitted from the stone on their head.
+頭部の石から発する超音波で巧みに狩りをするエイの魔物。=The stingray monsters skillfully hunted with ultrasonic waves emitted from the stone on their head.
 
 コボルトアサシン=Kobold Assassin
-【物理】中距離攻撃素早いステップで翻弄し、わずかな隙にナイフを飛ばす、山犬の魔物。=[Physical] Mid-range Attack.\nA wild dog monster that toyed with it with swift steps and used a small opening to send a knife flying.
+素早いステップで翻弄し、わずかな隙にナイフを飛ばす、山犬の魔物。=A wild dog monster that toyed with it with swift steps and used a small opening to send a knife flying.
 
 ポイズンポッド=Poison Pod
-【物理】近接攻撃大きく開いた口に溜めた溶解液で獲物を食らう。=[Physical] Close-range attack\nEats prey with the dissolution built up in its wide-open mouth.
+大きく開いた口に溜めた溶解液で獲物を食らう。=Eats prey with the dissolution built up in its wide-open mouth.
 
 フェアリー=Fairy
-【魔法】中距離攻撃風を自在に操り、冒険者を翻弄する花の精霊。=[Magic] Mid-range Attack.\nA flower spirit that can freely control Mid-range Attack winds and toy with adventurers
+風を自在に操り、冒険者を翻弄する花の精霊。=A flower spirit that can freely control Mid-range Attack winds and toy with adventurers
 
 ポーチカ=Poochka
-【魔法】範囲攻撃花畑に棲み、特殊な光線で獲物を弱らせる、花つぼみの魔物。=[Magic] Area attack\nA flower bud monster that lives in a field of flowers and weakens its prey with a special beam of light
+花畑に棲み、特殊な光線で獲物を弱らせる、花つぼみの魔物。=A flower bud monster that lives in a field of flowers and weakens its prey with a special beam of light
 
 ドリルモール=Drill Mall
-【物理】中距離攻撃地中に手を伸ばし、足元から攻撃するモグラの魔物。=[Physical] The mole monsters reached into the Mid-range Attack ground and attacked from their feet.
+地中に手を伸ばし、足元から攻撃するモグラの魔物。=The mole monsters reached into the ground and attacked from their feet.
 
 スタンプ=Sticker
-【物理】前衛・近接攻撃しなやかな枝を、ムチのように使い攻撃する木の魔物。=[Physical]\ntree monster that uses its vanguard, and supple branches like whips to attack.
+しなやかな枝を、ムチのように使い攻撃する木の魔物。=tree monster that uses its vanguard, and supple branches like whips to attack.
 
 イワアライグマ=Rock raccoons
-【物理】中距離攻撃行き過ぎた綺麗好きのアライグマ。特製のガマ油石鹸を一度浴びると、まともに武器も握れない。=[Physical] Mid-range Attack.\nraccoon that loves cleanliness after going too far with Mid-range Attacks. Once it's bathed in special Gama Oil soap, it can't even hold a weapon properly.
+行き過ぎた綺麗好きのアライグマ。特製のガマ油石鹸を一度浴びると、まともに武器も握れない。=raccoon that loves cleanliness after going too far with Mid-range Attacks. Once it's bathed in special Gama Oil soap, it can't even hold a weapon properly.
 
 ルナポッド=Lunapod
-【回復】単体ＴＰ回復ルナの塔建造と共に造られた、エネルギー増幅器。漂う魔力を濃縮し、供給することで守護者を強化する。=[Healing] Single-target TP recovery\nAn energy amplifier created alongside the construction of the Luna Tower.\nIt concentrates and supplies floating magical energy to enhance guardians.
+ルナの塔建造と共に造られた、エネルギー増幅器。漂う魔力を濃縮し、供給することで守護者を強化する。=An energy amplifier created alongside the construction of the Luna Tower. It concentrates and supplies floating magical energy to enhance guardians.
 
 ギャングオッター=Gang Otter
-【物理】中距離攻撃貝殻をぶつけて不意をつく、意地悪な北海のチンピラっこ。=[Physical] Medium-range attack\nA mischievous hooligan from the northern seas that surprises foes by striking them with shells.
+貝殻をぶつけて不意をつく、意地悪な北海のチンピラっこ。=A mischievous hooligan from the northern seas that surprises foes by striking them with shells.
 
 エンゼルダーツ=Angel Darts
-【物理】近接攻撃熱帯魚のカタチをした魚の魔物。その優雅な姿とは裏腹に、鋭いアゴを獲物めがけて突き立てる。=[Physical] Close-range attack\nA fish-like monster with the shape of a tropical fish.\nContrary to its elegant appearance, it thrusts its sharp jaws towards prey.
+熱帯魚のカタチをした魚の魔物。その優雅な姿とは裏腹に、鋭いアゴを獲物めがけて突き立てる。=Contrary to its elegant appearance, it thrusts its sharp jaws towards prey.
 
 スリーピィオウル=Sleepy Owl
-【魔法】中距離攻撃寝不足で気怠げなフクロウの魔物。敵を睨み術をかけ、動きを奪う。=[Magic] Medium-range attack\nLazy owl monster from lack of sleep. It glares at the enemy and immobilizes them.
+寝不足で気怠げなフクロウの魔物。敵を睨み術をかけ、動きを奪う。=Lazy owl monster from lack of sleep. It glares at the enemy and immobilizes them.
 
 ニンフ=Nymph
-【魔法】中距離攻撃遊び相手を見つけては、見境なしにイタズラをする、森の精霊。=[Magic] Medium-range attack\nA forest spirit who seek a playmate and messes with them indiscriminately.
+遊び相手を見つけては、見境なしにイタズラをする、森の精霊。=A forest spirit who seek a playmate and messes with them indiscriminately.
 
 
 イビルキャノン=Evil Cannon
-【物理】近接攻撃長年使われるうちに悪魔の魂が宿った、命ある砲台。=[Physical] close-range attack\nA living cannon imbued with the soul of a demon over the course of many years.
+長年使われるうちに悪魔の魂が宿った、命ある砲台。=A living cannon imbued with the soul of a demon over the course of many years.
 
-【物理】近接攻撃ウキキーがより成長した姿。幼少より大岩を投げ続けたその太腕は、絶大な打撃を繰り出す。=[Physical] close-range attack\nA more grown-up version of Ukiki. He has been throwing large rocks since he was a child, and his thick arms allow him to deliver tremendous blows.
+ウキキーがより成長した姿。幼少より大岩を投げ続けたその太腕は、絶大な打撃を繰り出す。=A more grown-up version of Ukiki. He has been throwing large rocks since he was a child, and his thick arms allow him to deliver tremendous blows.
 
 マインリザード=Mine Lizard
-【物理】近接攻撃ハイ\n・ガルグのおこぼれにあずかる、岩トカゲ。ルナの魔力でより堅牢な鉱石の表皮に変貌した。=[Physical] close-range attack\nA rock lizard that takes advantage of Garg's spoils. Luna's magical energy transforms it into the outer layer of stronger ore.
+ガルグのおこぼれにあずかる、岩トカゲ。ルナの魔力でより堅牢な鉱石の表皮に変貌した。=A rock lizard that takes advantage of Garg's spoils. Luna's magical energy transforms it into the outer layer of stronger ore.
 
 リーフボア=Leafboa
-【物理】近接攻撃固い葉っぱを鎧のように纏い、痛烈な体当たりをする大イノシシ。だが所詮葉っぱ。魔法は防げない。=[Physical] close-range attack\nThe Great Boar wraps its hard leaves around itself like armor and slams into it painfully. But in the end, it's just a leaf. It can't block magic.
+固い葉っぱを鎧のように纏い、痛烈な体当たりをする大イノシシ。だが所詮葉っぱ。魔法は防げない。=The Great Boar wraps its hard leaves around itself like armor and slams into it painfully. But in the end, it's just a leaf. It can't block magic.
 
 スティンクスカンク=Stinxkank
-【物理】範囲攻撃目にしみる激臭ガス爆弾を、自在に駆使する、スカンクの魔物。=[Magic] Area attack\nStunk monsters can freely use stinking gas bombs that sting AoE attacks.
+目にしみる激臭ガス爆弾を、自在に駆使する、スカンクの魔物。=Stunk monsters can freely use stinking gas bombs that sting AoE attacks.
 
-【物理】遠距離攻撃大きな岩を投げて、遠くから攻撃してくるサルの魔物。=[Physical] long-range attack\nMonkey monsters throw large boulders and attack from afar.
+大きな岩を投げて、遠くから攻撃してくるサルの魔物。=Monkey monsters throw large boulders and attack from afar.
 
 マグマフィッシュ=Magmafish
-【物理】近接攻撃岩石をも噛み砕く強靭なアゴで辺りを喰い荒らすサカナの魔物。=[Physical] close-range attack\nA fish monster that devours the surrounding area with its strong jaws that can crush rocks.
+岩石をも噛み砕く強靭なアゴで辺りを喰い荒らすサカナの魔物。=A fish monster that devours the surrounding area with its strong jaws that can crush rocks.
 
-【物理】近接攻撃翼が小さく、まだ飛べないこどものグリフォン。=[Physical] close-range attack\nA child griffon with small wings and cannot fly yet.
+翼が小さく、まだ飛べないこどものグリフォン。=A child griffon with small wings and cannot fly yet.
 
 ラットン=Ratton
-【物理】近接攻撃威力は軽くても、すばしこく何度も攻撃するネズミの魔物。=[Physical] close-range attack\nAlthough its power is light, it is a rat monster that attacks quickly and repeatedly.
+威力は軽くても、すばしこく何度も攻撃するネズミの魔物。=Although its power is light, it is a rat monster that attacks quickly and repeatedly.
 
 ムックル=Mukkul
-【物理】遠距離攻撃氷の塊を武器にも食料にもする雪山の精霊。=[Physical] Long-range attack\nA snowy mountain spirit that uses blocks of ice as both weapons and food.
+氷の塊を武器にも食料にもする雪山の精霊。=A snowy mountain spirit that uses blocks of ice as both weapons and food.
 
 アイスチック=Icetic
-【魔法】中距離攻撃氷を纏う尾羽根を飛ばして攻撃するトリの魔物。=[Magic] Mid-range attack\nA bird monster that attacks by flying its ice-covered tail feathers.
+氷を纏う尾羽根を飛ばして攻撃するトリの魔物。=A bird monster that attacks by flying its ice-covered tail feathers.
 
 プチデビル=Petit Devil
-【魔法】中距離攻撃覚えたての魔法で手当り次第に攻撃する赤ちゃん悪魔。=[Magic] Mid-range attack\nA baby demon that attacks at random with newly learned magic.
+覚えたての魔法で手当り次第に攻撃する赤ちゃん悪魔。=A baby demon that attacks at random with newly learned magic.
 
 ロックソウル=Rock Soul
-【魔法】中距離攻撃燃えさかる炎を投げつけ、火傷の追加ダメージを与える呪いの石像。=[Magic] Mid-range attack\nA cursed stone statue that throws blazing flames and deals additional burn damage.
+燃えさかる炎を投げつけ、火傷の追加ダメージを与える呪いの石像。=A cursed stone statue that throws blazing flames and deals additional burn damage.
 
 トドドン=Toddon
-【物理】近接攻撃身体も態度も巨漢な北海のドン。纏う厚い脂肪が敵からの物理攻撃を押止める。=[Physical] close-range attack\nA North Sea don with a huge body and attitude. The thick fat it wears blocks physical attacks from enemies.
+身体も態度も巨漢な北海のドン。纏う厚い脂肪が敵からの物理攻撃を押止める。=A North Sea don with a huge body and attitude. The thick fat it wears blocks physical attacks from enemies.
 
 ワタリトビ=Wataritobi
-【物理】範囲攻撃荒野に生き、荒野に死ぬという生き様に憧れ、独り旅をするトビ。=[Physical] Area attack\nTobi dreams of living and dying in the wilderness, and travels alone.
+荒野に生き、荒野に死ぬという生き様に憧れ、独り旅をするトビ。=Tobi dreams of living and dying in the wilderness, and travels alone.
 
 ポイズントード=Poison toad
-【物理】近距離攻撃擬態した宝石に釣られた者を捕食する、毒舌ガマの魔物。=[Physical] close-range attack\nA monster with a poisonous tongue that preys on those lured by gems disguised as attacks.
+擬態した宝石に釣られた者を捕食する、毒舌ガマの魔物。=A monster with a poisonous tongue that preys on those lured by gems disguised as attacks.
 
-【物理】中距離攻撃片っ端から木を削り倒すビーバー。削った木片は家作りだけでなく、家を守るための飛び道具となる。=[Physical] Medium-range attack\nA beaver cuts down a tree from scratch. The carved pieces of wood can be used not only for building houses, but also as projectiles for protecting the house.
+片っ端から木を削り倒すビーバー。削った木片は家作りだけでなく、家を守るための飛び道具となる。=A beaver cuts down a tree from scratch. The carved pieces of wood can be used not only for building houses, but also as projectiles for protecting the house.
+
 ノーティビーバー=Noti Beaver
-【物理】近接攻撃トゲトゲのおなかを勢いよくぶつけ敵を弾き飛ばす、不思議な見た目のカエル。=[Physical] Melee attack\nA mysterious-looking frog that hits enemies with its spiky belly.
+トゲトゲのおなかを勢いよくぶつけ敵を弾き飛ばす、不思議な見た目のカエル。=A mysterious-looking frog that hits enemies with its spiky belly.
+
 ガマボックリ=Gamabokkuri
-【物理】近接攻撃ねじれ集まった枝で、冒険者を森の奥に引き込むマメの木の魔物。=[Physical] Melee attack\nA bean tree monster that draws adventurers deep into the forest with its twisted branches.
+ねじれ集まった枝で、冒険者を森の奥に引き込むマメの木の魔物。=A bean tree monster that draws adventurers deep into the forest with its twisted branches.
+
 ネジレアカシア=Nejirecacia
-【物理】近接攻撃大きな爪と固い殻で、どんな大きな相手にも向かっていく、カニの魔物。=[Physical] Melee attack\nA crab monster that uses its large claws and hard shell to attack any large opponent.
+大きな爪と固い殻で、どんな大きな相手にも向かっていく、カニの魔物。=A crab monster that uses its large claws and hard shell to attack any large opponent.
+
 ハンマーキャンサー=Hammer Cancer
-【回復】単体継続回復お尻の花から鱗粉を振りまき、魔物を癒す、不思議なホタル。=[Recovery] Single regenerating\nA mysterious firefly that heals monsters by scattering scales from the flower on its healing butt.
+お尻の花から鱗粉を振りまき、魔物を癒す、不思議なホタル。=A mysterious firefly that heals monsters by scattering scales from the flower on its healing butt.
+
 スズランムシ=Scythropod
-【物理】近接攻撃顔にも見える大きな盾で敵を威嚇し侵入者を阻む、ジャングルの護り人。=[Physical]Melee attack\nA jungle protector who intimidates enemies and thwarts intruders with a large shield that looks like its face.
+顔にも見える大きな盾で敵を威嚇し侵入者を阻む、ジャングルの護り人。=A jungle protector who intimidates enemies and thwarts intruders with a large shield that looks like its face.
+
 ジャングルガード=Jungle Guard
-【物理】近接攻撃美しい歌声を響かせる妖鳥。獲物の守りを緩め、鋭い爪で狩る。=[Physical]Melee attack\nA fairy bird with a beautiful singing voice. It lowers its prey's defenses and hunts it with its sharp claws.
+美しい歌声を響かせる妖鳥。獲物の守りを緩め、鋭い爪で狩る。=A fairy bird with a beautiful singing voice. It lowers its prey's defenses and hunts it with its sharp claws.
+
 アルトハーピィ=Alto harpy
-【物理】範囲攻撃食べたナッツの殻をぶつけてくる意地悪なリスの魔物。=[Physical]Area attack\nA mean squirrel monster that hits you with the shells of the nuts it eats.
+食べたナッツの殻をぶつけてくる意地悪なリスの魔物。=A mean squirrel monster that hits you with the shells of the nuts it eats.
+
 ナッツシューター=Nutshooter
-【魔法】中距離攻撃魔力の弾を投げつけて、少し後ろを攻撃する朽木の魔物。=[Magic] Medium-range attack\nA Kuchiki monster that attacks from behind by throwing bullets of magic power.
+魔力の弾を投げつけて、少し後ろを攻撃する朽木の魔物。=A Kuchiki monster that attacks from behind by throwing bullets of magic power.
+
 ウッドソウル=Woodsoul
-【物理】中距離攻撃枝を自在に伸ばし、老練な技で痛いところに手が届く朽木の魔物。=[Physical] Medium-range attack\nA monster of Kuchiki who can freely extend his branches and use his skillful skills to reach painful areas.
+枝を自在に伸ばし、老練な技で痛いところに手が届く朽木の魔物。=A monster of Kuchiki who can freely extend his branches and use his skillful skills to reach painful areas.
+
 トレント=Trent
 
 マグマウパルパ=Magma Upalpa
-【物理】遠距離攻撃熔岩の海に潜み、近づくものには灼熱の体液を吐く、山椒魚の魔物。=【Physical】 Long-range attack\nLurking in a sea of molten rock, spewing scorching bodily fluids at anything that approaches.
+熔岩の海に潜み、近づくものには灼熱の体液を吐く、山椒魚の魔物。=Lurking in a sea of molten rock, spewing scorching bodily fluids at anything that approaches.
 
-【物理】中衛で、敵前衛を崩す、うさぎっこ。ユニオンバーストは、最も近い敵に大ダメージを与えた後隣の敵にも攻撃するので、前衛を早期に攻め落とせる。=[Physical] Mid-guard\n a bunny adept at breaking the enemy vanguard. The Union Burst inflicts significant damage to the nearest enemy and then attacks the adjacent enemy, allowing for an early assault on the vanguard.
+で、敵前衛を崩す、うさぎっこ。ユニオンバーストは、最も近い敵に大ダメージを与えた後隣の敵にも攻撃するので、前衛を早期に攻め落とせる。= a bunny adept at breaking the enemy vanguard. The Union Burst inflicts significant damage to the nearest enemy and then attacks the adjacent enemy, allowing for an early assault on the vanguard.
+
+タートルタイラント=Turtle Tyrant
+あらゆる攻撃を甲羅ではじく、巨大ガメの魔物。=A giant turtle monster that deflects all attacks with its shell.

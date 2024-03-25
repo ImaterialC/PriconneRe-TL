@@ -3,8 +3,8 @@
 
 ##UB##
 スパークリングドロップ=Sparkling Drop
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせる。バトル開始後、初弾のユニオンバーストはさらに追加で目の前の敵１キャラの物理防御力を小ダウンさせる。=Deals massive P.DMG to an enemy in front, moderately lowers itsP.DEF. When battle begins, 1st UB additionally slightly lowers an enemy's P.DEF.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン初使用時、敵単体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►For the 1st UB, lowers an enemy's P.DEF by $3 for 180s.
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせる。バトル開始後、初弾のユニオンバーストはさらに追加で目の前の敵１キャラの物理防御力を小ダウンさせる。=Deals massive P.DMG to an enemy in front, moderately lowers its P.DEF for 18s. When battle begins, 1st UB additionally slightly lowers an enemy's P.DEF for 180s.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン初使用時、敵単体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.\n►For the 1st usage, lowers an enemy's P.DEF by $3.
 
 ##S1##
 ゴージャスグリッター=Gorgeous Glitter

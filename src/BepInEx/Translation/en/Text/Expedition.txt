@@ -8,10 +8,10 @@
 残り挑戦回数回復=Restore Attempts
 残り挑戦回数を回復します。よろしいですか？=Would you like to restore your\nremaining attempts?
 
-r:"^聖跡調査クエストLv(\d+)$"=Sanctum Survey Lv$1
-r:"^経験値クエストLv(\d+)$"=EXP Quest Lv$1
+r:"^聖跡調査(?:クエスト)?Lv(\d+)$"=Sanctum Survey Lv$1
+r:"^経験値クエスト?Lv(\d+)$"=EXP Quest Lv$1
 r:"^マナクエストLv(\d+)$"=Mana Quest Lv$1
-r:"^神殿調査クエストLv(\d+)$"=Temple Trek Lv$1
+r:"^神殿調査(?:クエスト)?Lv(\d+)$"=Temple Trek Lv$1
 
 r:"^本日の回復可能回数 (\d+)/(\d+)回$"=Recharges left today: $1/$2
 

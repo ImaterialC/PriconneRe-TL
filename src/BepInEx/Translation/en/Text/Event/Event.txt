@@ -15,6 +15,7 @@ r:"^([0-9/ :]+)まで$"=until $1
 r:"^(\d+)日 (\d+)時間$"=$1d $2h
 r:"^(\d+)体撃破$"=$1 × Defeated
 r:"^スキップチケットとボスチケットを消費して\n(\d+)体ボスを撃破します。よろしいですか？$"=Defeat $1 bosses by consuming\n skip tickets and boss tickets.\nIs this OK??
+討伐証を集めて、豪華報酬をGET!=Gather Victory Medals and claim the Reward!
 
 [FFBB00,CE4F00]30[-][3C404E]枚で挑戦[-]=[FFBB00,CE4F00]30[-][3C404E]Tix[-]
 [FFBB00,CE4F00]20[-][3C404E]枚で挑戦[-]=[FFBB00,CE4F00]20[-][3C404E]Tix[-]

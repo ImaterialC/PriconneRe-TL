@@ -1,15 +1,15 @@
 ##Profile##
-【物理】後衛から客を癒しもてなす猫カフェ店員の猫娘。物攻の高いキャラの傍で周囲の物攻アップやＨＰとＴＰを回復し、周囲の味方数で強化される攻撃で敵を一掃する。=[Physical] A catgirl who works as a café clerk, healing and entertaining customers from the backline. She boosts P.ATK and recovers HP and TP of allies near high P.ATK ally. She also uses attacks that are strengthened based on the number of allies around her to eliminate enemies.
+【物理】後衛から客を癒しもてなす猫カフェ店員の猫娘。物攻の高いキャラの傍で周囲の物攻アップやＨＰとＴＰを回復し、周囲の味方数で強化される攻撃で敵を一掃する。=[Physical] A catgirl who works as a cafe clerk, healing and entertaining customers from the backline. She boosts P.ATK and recovers HP and TP of allies near high P.ATK ally. She also uses attacks that are strengthened based on the number of allies around her to eliminate enemies.
 
 ##UB##
-ねこねこカフェパーティー=Neko-Neko Café Party
+ねこねこカフェパーティー=Neko-Neko Cafe Party
 敵全体に物理大ダメージを与え、自分の物理攻撃力を中アップし、自分を中心とした範囲内の味方すべてのＨＰを小回復する。範囲内の味方の人数に応じて、ダメージと物理攻撃力の上昇量が増加する。=Deals large P.DMG to all enemies, moderately boosts own P.ATK, and slightly recovers allies' HP in range. The P.DMG dealt and P.ATK boost increase according to number of allies in range.
 r:"^敵全体に(\d+)の物理ダメージ範囲内の味方のＨＰを(\d+)回復自分の物理攻撃力を(\d+)アップ$"=►Deals $1 (+0.48×$1×Ally Count) P.DMG to all enemies.\n►Recovers allies' HP in 150 range by $2.\n►Boosts own P.ATK by $3 (+0.2×$3×Ally Count) for 18s.
 
 ##S1##
 ビターエッジ=Bitter Edge
-前方の敵すべてに物理中ダメージを与え、自分を中心とした範囲内の味方すべてのＴＰを小回復させ、自分のＴＰを小回復させる。範囲内の味方の人数に応じて、ダメージと自分のＴＰの回復量が増加する。=Deals moderate P.DMG to all enemies in vanguard, slightly recovers allies' TP in range, and recover own TP by a small amount. The P.DMG dealt and TP recovery increase according to number of allies in range.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の味方のＴＰを75回復自分のＴＰを100回復$"=Cast time: 1.05s\n►Deals $1 (+0.48×$1×Ally Count) P.DMG to all enemies in vanguard.\n►Recovers allies' TP in 150 range by 75.\n►Recovers own TP by 100 (+10×Ally Count).
+前方の敵すべてに物理中ダメージを与え、自分を中心とした範囲内の味方すべてのＴＰを小回復させ、自分のＴＰを小回復させる。範囲内の味方の人数に応じて、ダメージと自分のＴＰの回復量が増加する。=Deals moderate P.DMG to all enemies in front, slightly recovers allies' TP in range, and recover own TP by a small amount. The P.DMG dealt and TP recovery increase according to number of allies in range.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の味方のＴＰを75回復自分のＴＰを100回復$"=Cast time: 1.05s\n►Deals $1 (+0.48×$1×Ally Count) P.DMG to all enemies in front.\n►Recovers allies' TP in 150 range by 75.\n►Recovers own TP by 100 (+10×Ally Count).
 
 ##S2##
 スウィートサービス=Sweet Service
@@ -19,3 +19,11 @@ r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する毎�
 ##EX##
 キャッツチルアウト=Cats Chill-out
 キャッツチルアウト+=Cats Chill-out+
+
+##S1+##
+ビターエッジ+=Bitter Edge+
+前方の敵すべてに物理中ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を大アップし、ＴＰを小回復させ、自分のＴＰを小回復させる。範囲内の味方の人数に応じて、ダメージと物理攻撃力の上昇量と自分のＴＰの回復量が増加する。=Deals moderate P.DMG to all enemies in front, greatly boosts allies' P.ATK in range, slightly recovers their TP, and recover own TP by a small amount. The P.DMG dealt, P.ATK boost and TP recovery increase according to number of allies in range.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の味方のＴＰを75回復自分のＴＰを100回復範囲内の味方の物理攻撃力を(\d+)アップ$"=Cast time: 1.05s\n►Deals $1 (+0.48×$1×Ally Count) P.DMG to all enemies in front.\n►Recovers allies' TP in 150 range by 75.\n►Recovers own TP by 100 (+10×Ally Count).\n►Boosts allies' P.ATK in 150 range by $2 (+0.2×$2×Ally Count) for 12s.
+
+##UE##
+ナッシュカッツェ主任服=Naschkatze Chief Uniform

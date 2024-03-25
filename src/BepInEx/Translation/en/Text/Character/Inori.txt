@@ -5,29 +5,29 @@
 
 ##UB##
 ドラゴンズロアー=Dragon's Roar
-前方範囲内の敵すべてに物理大ダメージを与え、さらに火傷状態を付与し、大きく吹き飛ばす。=Deals large P.DMG to all enemies within 400 range, burns them to a crisp, and blows them away.
-r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える火傷状態にする$"=►Deals $1 P.DMG to all enemies in range.\n►Inflicts Burn to all enemies in range dealing $2/s for 12s\n►Knockbacks all enemies in range by 300 units.
+前方範囲内の敵すべてに物理大ダメージを与え、さらに火傷状態を付与し、大きく吹き飛ばす。=Deals large P.DMG to enemies in range, inflicts Burns to them, and blows them away.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える火傷状態にする$"=►Deals $1 P.DMG to enemies in range.\n►Inflicts Burn to enemies in range that deals $2/s for 12s.\n►Knockbacks enemies in range by 300 units.
 
 ##S1##
-ドラゴニックピコハン=Dragonic's Pico Hammer
-前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG and inflicts Stun to all enemies in range.
+ドラゴニックピコハン=Draconic Pico Hammer
+前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG and inflicts Stun to enemies in range.
 
 ##S2##
 ドラゴンファイア=Dragon Fire
-前方範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to all enemies in range.
+前方範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to enemies in range.
 
 ##EX##
-やってやるですよ=I'll do It
-やってやるですよ+=I'll do It+
+やってやるですよ=I'll Do It
+やってやるですよ+=I'll Do It+
 
 ##UB+##
 アウェイキングロアー=Awakening Roar
-前方範囲内の敵すべてに物理大ダメージを与え、火傷状態にし、大きく吹き飛ばす。さらに自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。火傷のダメージは、このキャラの物理攻撃力に応じて増加する。=Deals large P.DMG to all enemies within 400 range, burns them to a crisp, and blows them away. Additionally, massive boost to own P.ATK and P.CRIT Rate. Burn DMG is based on this character's P.ATK.
-r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える火傷状態にする自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to all enemies in range.\n►Inflicts Burn to all enemies in range dealing $2/s for 12s\n►Knockbacks all enemies in range by 300 units.\n►Boosts own P.ATK by $3.\n►Boosts own P.CRIT Rate by $4.
+前方範囲内の敵すべてに物理大ダメージを与え、火傷状態にし、大きく吹き飛ばす。さらに自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。火傷のダメージは、このキャラの物理攻撃力に応じて増加する。=Deals large P.DMG to enemies in range, inflicts Burns to them, and blows them away. Additionally, massively boosts own P.ATK and P.CRIT Rate. The Burn DMG increases according to own P.ATK.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える火傷状態にする自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to enemies in range.\n►Inflicts Burn to enemies in range that deals $2(+0.04×P.ATK)/s for 12s.\n►Knockbacks enemies in range by 300 units.\n►Boosts own P.ATK by $3 for 180s.\n►Boosts own P.CRIT Rate by $4 for 180s.
 
 ##S1+##
-ドラゴニックピコハン+=Dragonic's Pico Hammer+
-前方範囲内の敵すべてに物理中ダメージを与え、さらにスタンさせて小さく吹き飛ばす。=Deals moderate P.DMG to all enemies in range, inflicts Stun, and knocks them back slightly.
+ドラゴニックピコハン+=Draconic Pico Hammer+
+前方範囲内の敵すべてに物理中ダメージを与え、さらにスタンさせて小さく吹き飛ばす。=Deals moderate P.DMG and inflicts Stun to enemies in range, and knockbacks them slightly.
 
 ##UE##
 イノリのピコハン=Inori's Pico Hammer

@@ -1,29 +1,44 @@
-sr:"^【(物理|魔法|回復)】(【(.+)】)?\n?([\s\S]+)(?:\n\n\n・)(.+)(?:(?:\n\n・)(.+))?(?:(?:\n\n・)(.+))?(?:(?:\n\n・)(.+))?$"=[$1]$2\n$4\n$5\n$6\n$7\n$8
+sr:"^【(物理|魔法|回復|ＭＯＤＥ１|ＭＯＤＥ２|ＭＯＤＥ３)】(【.+?】)?(【.+?】)?(一定時間無敵)?\n?\n?・?(物理|前衛|中距離攻撃|近接攻撃|近接攻撃ハイ|近距離攻撃|遠距離攻撃|範囲攻撃|中衛|範囲回復|単体回復|全体回復|単体ＴＰ回復|単体継続回復|全体継続回復|ＨＰ・ＴＰ回復|攻撃力ダウン|ダメージカット|物理・魔法範囲攻撃|防御力ダウン)?\n?([^・]+)(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?(?:\n?\n?(\n・)([^・]+))?$"=[$1]$2$3 $6$5$4$7$8$9$10$11$12$13$14$15$16$17$18$19$20$21$22$23$24$25$26$27$28$29$30$31$32$33$34
 
 物理=Physical
 魔法=Magic
-回復=Healing
-【補助】=Support
+回復=Healer
+【補助】=[Support]
 【召喚】=[Summon]
 【防御】=[Tanker]
+【範囲】=[Area]
 【魔法防御】=[Magic Tanker]
+【物理防御】=[Physical Tanker]
 【中距離】=[Mid-range]
+【妨害】=[Obstruction]
 
-中距離攻撃=►Mid-range Attack
-近接攻撃=►Close-range attack
-遠距離攻撃=►Long-range attack
-範囲攻撃=►Area attack
-中衛=►Mid-guard
+前衛=\n►Vanguard.
+一定時間無敵=\n►Invincible for a certain time.
+中距離攻撃=\n►Mid-range Attack.
+近接攻撃=\n►Close-range attack.
+近接攻撃ハイ=\n►Close-range attack.
+近距離攻撃=\n►Close-range attack.
+遠距離攻撃=\n►Long-range attack.
+範囲攻撃=\n►Area attack.
 
-範囲回復=►Area Healing
-単体回復=►Single-target healing
-全体回復=►Complete recovery
-単体ＴＰ回復=►Single-target TP recovery
-単体継続回復=►Single-target regen
+範囲回復=\n►Area Healing.
+単体回復=\n►Single-target healing.
+全体回復=\n►Complete recovery.
+単体ＴＰ回復=\n►Single-target TP recovery.
+単体継続回復=\n►Single-target regen.
+全体継続回復=\n►Continuous recovery for all.
+ＨＰ・ＴＰ回復=\n►HP/TP recovery.
+攻撃力ダウン=\n►Attack Power Down.
+ダメージカット=\n►Damage Cutter.
+物理・魔法範囲攻撃=\n►Physical/Magic range attack.
+防御力ダウン=\n►Defense Down
 
-後ろから３番目攻撃=►Attack Third enemy from the back
-
-r:"^与えるダメージによるＴＰ回復量(\d+)％ダウン$"=►$1% reduction in TP recovery amount due to damage dealt.
-
-魔力を秘めた岩から生まれた、魔法耐性のあるゴーレム。=A magic-resistant golem born from a rock with hidden magical power.
-分泌するヌルヌルが美容にいいとウワサの、カタツムリの魔物。=A snail monster whose slimy secretion is rumored to be good for beauty.
+後ろから３番目攻撃=Attack 3rd enemy from the back.
+後ろから３番目中心範囲攻撃=Area attack 3rd enemy from the back.
+近接２体攻撃=Attack 2nd front enemy.
+全体魔攻アップ=Boosts ally's M.ATK.
+全体防御力ダウン=Lowering All Enemies' P.DEF (applies even damage is nullified).
+全体防御力ダウン（ダメージ無効化時も付与）=Lowering All Enemies' P.DEF (applies even damage is nullified).
+近接攻撃、ノックバック（ダメージ無効化時も付与）=Melee attack, knockback (applies even damage is nullified).
+全体防御力ダウン（ダメージ無効化時も付与）
+r:"^与えるダメージによるＴＰ回復量(\d+)％ダウン$"=$1% reduction in TP recovery amount due to damage dealt.

@@ -6,16 +6,18 @@
 
 ##UB##
 セイクリッドパニッシュ=Sacred Punishment
-目の前の敵１キャラに物理大ダメージを与え、さらに自分に物理吸収バリアを展開する。=Deals large P.DMG to an enemy directly in front. Deploys a barrier around oneself that absorbs P.DMG.
+目の前の敵１キャラに物理大ダメージを与え、さらに自分に物理吸収バリアを展開する。=Deals large P.DMG to an enemy directly in front. Deploys Barrier over oneself that absorbs P.DMG.
 r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理吸収バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Deploys Barrier over oneself that absorbs $2 P.DMG for 18s.
 
 ##S1##
 セイントヒール=Saintly Succor
 最もＨＰが低い味方１キャラのＨＰを中回復させる。=Recovers the HP of the party member with the lowest HP by a moderate amount.
+最もＨＰの割合が低い味方１\nキャラのＨＰを中回復させる。=Recovers the HP of the party member with the lowest HP by a moderate amount.
 
 ##S2##
 プロテクション=Protection
 自分の周りの味方に物理無効バリアを展開する。=Deploys Barrier over allies in 150 range that negates P.DMG for 12s.
+自分を中心とした範囲内の味方すべてに物理無効バリアを展開する。=Deploys Barrier over allies in 150 range that negates P.DMG for 12s.
 r:"^(\d+)ダメージ分の物理無効バリアを展開する$"=►Deploys Barrier over all allies that negates $1 P.DMG.
 
 ##EX##
@@ -24,7 +26,7 @@ r:"^(\d+)ダメージ分の物理無効バリアを展開する$"=►Deploys Bar
 
 ##UB+##
 セイクリッドビヨンド=Sacred Beyond
-目の前の敵１キャラに物理特大ダメージを与える。自分を中心とした範囲内の味方すべての物理防御力を特大アップさせ、物理吸収バリアを展開し、さらに継続ＨＰ回復状態を付与する。=Deals massive P.DMG to an enemy in front, massively boosts allies' P.DEF in range, and deploy Barrier over them that absorbs P.DMG. Grants continuous HP recovery to all allies.
+目の前の敵１キャラに物理特大ダメージを与える。自分を中心とした範囲内の味方すべての物理防御力を特大アップさせ、物理吸収バリアを展開し、さらに継続ＨＰ回復状態を付与する。=Deals massive P.DMG to an enemy in front, massively boosts allies' P.DEF in range, and deploys Barrier over them that absorbs P.DMG. Grants continuous HP recovery to all allies.
 r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理防御力を(\d+)アップ(\d+)ダメージ分の物理吸収バリアを展開する毎秒ＨＰを(\d+)回復する$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.DEF in 200 range by $2 for 18s.\n►Deploys Barrier over all allies in 200 range that absorbs $3 P.DMG for 18s.\n►Recovers all allies' HP by $4/s for 8.5s
 
 ##S1+##
@@ -34,5 +36,11 @@ r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理防御力�
 r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)アップ$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2 for 12s.
 ## Same with XMahiru S1
 
+##S2+##
+プロテクション+=Protection+
+自分を中心とした範囲内の味方すべてに物理無効バリアを展開し、物理攻撃力を特大アップ、物理クリティカルを大アップさせる。さらに、自分のＨＰを中回復、ＴＰを大回復させる。=Deploys Barrier over allies in range that negates P.DMG, and greatly boosts allies' P.ATK and P.CRIT Rate in range. Also, recovers own HP by a moderate amount and own TP by a large amount.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ自分のＨＰを(\d+)回復自分のＴＰを350回復$"=►Deploys Barrier over allies in 300 range that negates $1 P.DMG for 12s.\n►Boosts allies' P.ATK in 300 range by $2 for 12s.\n►Boosts allies' P.CRIT Rate in 300 range by 100 for 12s.\n►Recovers own HP by $3.\n►Recovers own TP by 350.
+
 ##UE##
 セイクリッドブレード=Sacred Blade
+セイクリッドシスターベール=Sacred Sister Veil

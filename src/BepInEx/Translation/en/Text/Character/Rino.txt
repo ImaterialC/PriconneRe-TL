@@ -41,5 +41,11 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカル�
 自分の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに行動速度を大アップさせる。=Greatly boosts own P.ATK and action speed, and moderately boosts own P.CRIT Rate.
 r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の行動速度アップ$"=Cast time: 1.07s\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by $2 for 99s.\n►Boosts own action speed into 180% for 12s.
 
+##S2+##
+ブレイクアロー+=Crushing Shot+
+自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップし、前方範囲内の敵すべてに物理大ダメージを与える。さらに、自分のＴＰを特大回復する。=Massively boosts own P.ATK, slightly boosts own P.CRIT DMG, and deals large P.DMG to enemies in range. Additionally, recovers own TP by a massive amount.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃クリティカル時のダメージを15％アップ自分の物理攻撃力を(\d+)アップ自分のＴＰを650回復$"=►Deals $1 P.DMG to enemies in 1300 range.\n►Boosts own P.CRIT DMG by 15% for 18s.\n►Boosts own P.ATK by $2 for 18s.\n►Recovers own TP by 650.
+
 ##UE##
 プロミネンスアロー=Prominence Arrow
+チアフルシスターボウ=Cheerful Sister Bow
