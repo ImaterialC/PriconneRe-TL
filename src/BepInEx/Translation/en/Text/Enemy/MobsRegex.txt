@@ -12,7 +12,6 @@ sr:"^【(物理|魔法|回復|ＭＯＤＥ１|ＭＯＤＥ２|ＭＯＤＥ３)�
 【中距離】=[Mid-range]
 【妨害】=[Obstruction]
 
-前衛=\n►Vanguard.
 一定時間無敵=\n►Invincible for a certain time.
 中距離攻撃=\n►Mid-range Attack.
 近接攻撃=\n►Close-range attack.
