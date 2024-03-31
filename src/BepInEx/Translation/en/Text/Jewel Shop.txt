@@ -67,6 +67,7 @@ Anniversaryパックについて=About the anniversary pack
 30日間探索挑戦回数+3回期間通知=30 days Grotto +3 pack Period Notification
 購入Lv制限あり=Purchase Lv Limit
 
+
 sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of\n[FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1 pts[-]?[-]
 
 r:"^探索挑戦回数+(\d+)回の期間が追加となります。\n(\d+)日間スタミナ応援パックを購入しますか？?$"=Grotto attempts +$1 for the selected period.\nWould you like to purchase \nthe $2-Day Stamina Support Pack?
@@ -103,10 +104,8 @@ r:"^販売期間([0-9: /]+)まで$"=Sales period until$1
 r:"^あと(\d+)日有効$"=$1 Day(s) Left
 r:"^あと(\d+)時間有効$"=$1 Hours Left
 
-r:"^探索挑戦回数+(\d+)回の期間が\n追加されました。$"=Grotto Attempt count +$1\nhas been added for a limited time.
+r:"^探索挑戦回数\+(\d+)回の期間が\n追加されました。$"=Grotto Attempt count +$1\nhas been added for a limited time.
 購入成功=Purchase Successful
-
-
 ---Age registration---
 入力する=input
 年齢確認=Age Confirmation

@@ -9,6 +9,9 @@
 合計消費スタミナ=Total Consumption Stamina
 オート進行設定=Auto Advance Setting
 使用しない=Not use
+回復なしで開始=Start without recovery
+sr:"^(メイン|イベント)クエスト(.+)まで進めるには、スタミナ回復が必要です。$"=To advance to the $1 Quest $2, you need to recover stamina.
+
 sr:"^オート進行で(メイン|イベント)クエスト(.+)まで進めた場合、最大で以下のスタミナを消費します。$"=If you proceed to the $1 Quest $2 on an Auto Advance, you will consume the following stamina at the maximum.
 プレイヤーLvアップ時や特別なコンテンツが解放された際、オート進行が停止する場合があります。=At the time of player LV up or special content is released, the Auto Advance may stop.
 オート進行中にユニオンバーストを使用するか設定します。=Set whether to use the union burst while the Auto Advance.

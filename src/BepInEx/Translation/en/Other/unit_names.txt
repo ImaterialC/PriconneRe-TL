@@ -102,9 +102,9 @@
 ヨリ（エンジェル）=Yori (Angel);AYori;Angel
 コッコロ（儀装束）=Kokkoro (Ceremonial);Kokoro (Ceremonial);KKR (Ceremonial);CKKR;CKokoro;CKokkoro;Ceremonial;mama
 ユイ（儀装束）=Yui (Ceremonial);CYui;Ceremonial
-リマ（シンデレラ）=Lima (Cinderella);CLima;CRima;Cinderella
-マコト（シンデレラ）=Makoto (Cinderella);CMakoto;Cinderella
-マホ（シンデレラ）=Maho (Cinderella);CMaho;Cinderella
+リマ（シンデレラ）=Lima (Cinderella);CLima;CRima;CiRima;CiLima;Cinderella
+マコト（シンデレラ）=Makoto (Cinderella);CMakoto;CiMakoto;Cinderella
+マホ（シンデレラ）=Maho (Cinderella);CMaho;CiMaho;Cinderella
 クロエ（聖学祭）=Chloe (School Festival);SFChloe;Kuroe;SFKuroe;School Festival
 チエル（聖学祭）=Chieru (School Festival);SFChieru;School Festival
 ユニ（聖学祭）=Yuni (School Festival);SFYuni;School Festival
@@ -883,3 +883,6 @@
 クロエ（ウィンター）=Chloe (Winter);WChloe;Kuroe;WKuroe;Winter;Summer;Swimsuit
 チエル（ウィンター）=Chieru (Winter);WChieru;Winter;Summer;Swimsuit
 ユニ（ウィンター）=Yuni (Winter);WYuni;Winter;Summer;Swimsuit
+
+エリコ（コマンダー）=Eriko (Commander);CEriko;CoEriko;Commander
+マコト（コマンダー）=Makoto (Commander);CMakoto;CoMakoto;Commander

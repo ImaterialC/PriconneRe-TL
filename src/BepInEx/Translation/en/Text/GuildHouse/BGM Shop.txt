@@ -12,7 +12,9 @@ BGM変更へ=Change BGM
 ギルドハウス1FのBGMを初期設定に戻します。\nよろしいですか？=Revert the BGM of 1F to default?
 ギルドハウス2FのBGMを初期設定に戻します。\nよろしいですか？=Revert the BGM of 2F to default?
 ギルドハウス3FのBGMを初期設定に戻します。\nよろしいですか？=Revert the BGM of 3F to default?
-
+ギルドハウス1FのBGMを初期設定に戻しました。=Guild House 1F BGM has been returned to its default settings.
+ギルドハウス2FのBGMを初期設定に戻しました。=Guild House 1F BGM has been returned to its default settings.
+ギルドハウス3FのBGMを初期設定に戻しました。=Guild House 1F BGM has been returned to its default settings.
 ------
 r:"^\[3C404E\]ルピ×\[FFBB00,CE4F00\]([\d,]+)\[-\]を消費して\n以下のBGMを購入しますか？\[-\]$"=[3C404E]Use [-][FFBB00,CE4F00]$1[-][3C404E] Rupies to purchase this BGM?[-]
 (tempt)

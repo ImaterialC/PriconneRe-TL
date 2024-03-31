@@ -1,0 +1,8 @@
+/_Game(Clone)/UI Root/ViewsArea/PartsFooter(Clone)/SlideBottom/ButtonHome/Normal/Label=font_nunitoextrabold
+/_Game(Clone)/UI Root/ViewsArea/PartsFooter(Clone)/SlideBottom/ButtonHome/Selected/Label=font_nunitoextrabold
+/_Game(Clone)/UI Root/ViewsArea/PartsFooter(Clone)/SlideBottom/ButtonHome/Disable/Label=font_nunitoextrabold
+/_Game(Clone)/UI Root/ViewsArea/PartsFooter(Clone)/SlideBottom/ButtonUnit/.*/Label=font_nunitoextrabold
+/_Game(Clone)/UI Root/ViewsArea/PartsFooter(Clone)/SlideBottom/.*/Label=font_nunitoextrabold
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/OtherNode/WidgetOff(Clone)/Right/BottomRightAnchor/ButtonCaravan/Label=font_nunitoextrabold
+/_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/OtherNode/WidgetOff(Clone)/Right/BottomRightAnchor/.*/Label=font_nunitoextrabold

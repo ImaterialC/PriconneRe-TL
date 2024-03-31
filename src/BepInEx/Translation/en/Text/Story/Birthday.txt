@@ -1,15 +1,15 @@
-sr:"^1月(\d+日)のストーリー$"=January $1 Story
-sr:"^2月(\d+日)のストーリー$"=February $1 Story
-sr:"^3月(\d+日)のストーリー$"=March $1 Story
-sr:"^4月(\d+日)のストーリー$"=April $1 Story
-sr:"^5月(\d+日)のストーリー$"=May $1 Story
-sr:"^6月(\d+日)のストーリー$"=June $1 Story
-sr:"^7月(\d+日)のストーリー$"=July $1 Story
-sr:"^8月(\d+日)のストーリー$"=August $1 Story
-sr:"^9月(\d+日)のストーリー$"=September $1 Story
-sr:"^10月(\d+日)のストーリー$"=October $1 Story
-sr:"^11月(\d+日)のストーリー$"=November $1 Story
-sr:"^12月(\d+日)のストーリー$"=December $1 Story
+sr:"^1月(\d+日)のストーリー(\d)?$"=January $1 Story $2
+sr:"^2月(\d+日)のストーリー(\d)?$"=February $1 Story $2
+sr:"^3月(\d+日)のストーリー(\d)?$"=March $1 Story $2
+sr:"^4月(\d+日)のストーリー(\d)?$"=April $1 Story $2
+sr:"^5月(\d+日)のストーリー(\d)?$"=May $1 Story $2
+sr:"^6月(\d+日)のストーリー(\d)?$"=June $1 Story $2
+sr:"^7月(\d+日)のストーリー(\d)?$"=July $1 Story $2
+sr:"^8月(\d+日)のストーリー(\d)?$"=August $1 Story $2
+sr:"^9月(\d+日)のストーリー(\d)?$"=September $1 Story $2
+sr:"^10月(\d+日)のストーリー(\d)?$"=October $1 Story $2
+sr:"^11月(\d+日)のストーリー(\d)?$"=November $1 Story $2
+sr:"^12月(\d+日)のストーリー(\d)?$"=December $1 Story $2
 
 
 新たなバースデーストーリーが解放されました。\nマイページまたはバースデーストーリーから閲覧できます。=A new birthday story has been unlocked.\nYou can view it from Home or Birthday Story.

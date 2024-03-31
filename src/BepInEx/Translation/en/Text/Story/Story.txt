@@ -88,6 +88,8 @@ r:"^第(\d+)話$"=Episode $1
 絆ランクアップ=Bond Rank Up
 ステータスアップ対象キャラクター=Target Characters
 該当キャラのストーリー初回閲覧で、\nステータスアップボーナスを獲得できます。=Get stat boost bonuses for characters\nby viewing their story for the first time.
+
+対象のストーリーがありません。=There is no story for her (yet).
 r:"^第(\d+)話ステータスアップボーナス$"=Episode $1 Stats boost Bonus
 ---Chara story---
 

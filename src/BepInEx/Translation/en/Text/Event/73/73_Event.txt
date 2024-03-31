@@ -1,0 +1,18 @@
+r:"^訓練キャンプ([0-9\-\(\)\w （）]*)$"=Training Camp $1
+剛雷獣・ライガホーン=Raigahorn The Great Thunder Beast
+剛雷獣=Gou Raiju
+
+最も近い敵３キャラに物理大ダメージを与える。=Deal P.DMG to the three closest enemy characters.
+ユニオンバーストは、敵全体に自身の物理防御力に応じた物理大ダメージと、自身の魔法防御力に応じた魔法大ダメージを与える。=Union Burst deals massive P.DMG to all enemies according to its own physical defense power, and massive M.DMG according to its own M.DEF.
+最終訓練にて遭遇した剛力無双の一角獣。筋骨隆々の怪腕が大地を割り、稲妻纏う雷角が新兵たちの喉元に突き立てられる。=A unicorn with unparalleled strength encountered during final training. A muscular, mysterious arm splits the earth, and a lightning horn wrapped in lightning is thrust into the throats of the recruits.
+自身のＨＰが30％を切ると、自身の物理防御力と魔法防御力が大アップする。さらに自身の行動速度が大アップする。=When its HP drops below 30%, its P.DEF and M.DEF will greatly increase. Furthermore, its action speed will be greatly increased.
+
+ユニオンバーストは、敵全体に物理特大ダメージと魔法特大ダメージを与える。さらに【滅却の蛮雷】使用までのカウントダウンが進む。【滅却の蛮雷】使用までのカウントダウンが０回になった時、【滅却の蛮雷】を使用する。=Union Burst deals massive Physical and Magic DMG to all opponents. Additionally, the countdown to the use of [Destruction Barrage] progresses. When the count down to the usage of [Disintegration Barrity] reaches zero, use [Decision Barruption].
+最も近い敵１キャラに物理特大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。【滅却の蛮雷】=Deals extra-large physical damage to the nearest enemy character and inflicts stun status effects. This skill's status ailments can be infused even if damage is nullified. [Destruction Lightning]
+飛行状態のキャラを含む敵全体に999999×５ヒットの魔法固定ダメージを与える。このスキルで受けるダメージでは、敵のＴＰが回復しない。=Dealt 999×5 hit magic fixed damage to all opponents, including characters in flight. This skill will not restore TP to opponents.
+ライガホーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=This reduces party members' TP recovery rate from all damage taken by Laiga Horn.
+巨角を蒼く輝かせ、雄々しき肉体は雷を蓄える。臨界点に達せば勝負はそれまで。降り注ぐ蛮雷はあたり一面を塵へと変えるだろう。=Its huge horns glow azure, its masculine body accumulating lightning. Once it reaches its critical point, the battle is over. The barbaric thunder will turn the entire area to dust.
+森の魔物を従属させるは恐れ慕いし教官たちの影。真の『壊し屋』の教え子なれば、紛いものになど屈することは許されない。=The shadows of the instructors who fear and adore subjugating the demons of the forest's edge. A true student of the “broker” wouldn't be allowed to succumb to a falsehood.
+ライガホーンは環境効果によるダメージを受けない。=Raigahorns do not take damage from environmental effects.
+自身のＨＰが50％を切ると、自身の物理防御力と魔法防御力が大アップする。さらに自身の行動速度が大アップする。=When your own HP drops to less than 50%, your own physical and magical defenses increase greatly. Your own movement speed increases even further.
+猛る獣は死力を尽くし雷光を迸らせる。厳しくも実り豊かなブートキャンプの集大成！恐怖に打ち勝ち、一人前の『騎士』と成れ！=The raging beasts do everything in their power to unleash lightning. The culmination of a harsh but fruitful bootcamp! Defeat fear and become full-fledged “knights”!
