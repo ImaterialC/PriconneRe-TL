@@ -1,0 +1,20 @@
+##Profile##
+【物理】前衛で、情と熱意で仲間を束ねる指揮官の狼娘。敵の攻守を削りつつ、自分のＴＰ回復や対象が物防ダウン状態の時に発生する追撃で猛攻を仕掛け前線を突破する。=[Physical] A wolfgirl commander who uses feelings and passion to rally her allies. She chips away at the enemy's attack and defense, boosts her own TP and has special bonus attacks that trigger when enemy's physical defense is lowered, breaking through the enemy lines.
+
+##UB##
+ウルフェンラッシュレイド=Wolven Rush Raid
+目の前の敵１キャラに物理特大ダメージを与え、物理攻撃力を大ダウン、物理防御力を小ダウンさせる。発動時既にこのスキルの対象が物理防御力ダウン状態だった場合、さらに追加の物理大ダメージを与える。=Deals massive P.DMG to an enemy in front, greatly lowers its P.ATK and slightly lowers its P.DEF. If an enemy's P.DEF is already lowered, deals additional large P.DMG.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン対象が物理防御力ダウン状態の時、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 18s.\n►Lowers an enemy's P.DEF by $3 for 18s.\n►If an enemy's P.DEF is lowered, deals $4 P.DMG to an enemy.
+
+##S1##
+スピアヘッド=Spearhead
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。発動時既にこのスキルの対象が物理防御力ダウン状態だった場合、さらに追加の物理中ダメージを与える。=Deals large P.DMG to an enemy in front and slightly lowers its P.DEF. If an enemy's P.DEF is already lowered,  deals additional moderate P.DMG.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン対象が物理防御力ダウン状態の時、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►If an enemy's P.DEF is lowered, deals $3 P.DMG to an enemy.
+
+##S2##
+ウォリアーズコード=Warrior's Code
+自分の物理攻撃力と物理クリティカルを大アップし、ＴＰを特大回復させる。=Greatly boosts own P.ATK and P.CRIT Rate, and massively recovers own TP. All effects last 180s.
+
+##EX##
+騎士狼の教え=Knight Wolf's Teachings
+騎士狼の教え+=Knight Wolf's Teachings+

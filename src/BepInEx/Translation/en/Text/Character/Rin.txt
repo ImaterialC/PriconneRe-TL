@@ -29,7 +29,7 @@ r:"^味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)ア
 ##S1+##
 果報は寝て待てモード+=Patience Is a Virtue+
 自分の周囲の味方すべての魔法防御力を大アップさせ、さらに物理攻撃力を大アップ、物理クリティカルを中アップさせる。=Large boost to M.DEF of all nearby allies, moderate boost to their P.ATK, and small boost to their P.CRIT Rate.
-r:"^範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ$"=Cast Time: 0.59s\n►Boosts allies' M.DEF in 250 range by $1 for 12s.\n►Boosts allies' P.ATK in 250 range by $1 for 12s.\n►Boosts allies' P.CRIT Rate in 250 range by $1 for 12s.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ$"=Cast Time: 0.59s\n►Boosts allies' M.DEF in 250 range by $1 for 12s.\n►Boosts allies' P.ATK in 250 range by $2 for 12s.\n►Boosts allies' P.CRIT Rate in 250 range by $3 for 12s.
 
 ##UE##
 ジュエリズムドングリ=Jewel of the Forest

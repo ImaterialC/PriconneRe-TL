@@ -1,4 +1,4 @@
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogUnitProfile(Clone)/UnitDetal/ProfileDetail/PartsUnitProfileStatus/Label_charaDetail=ChangeFontSize(16)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogUnitRelease(Clone)/ScrollList/ScrollView/WrapContent/PartsUnitStatusPlate(Clone)/UnitStatus/GUIGroup_status/Label_charaDetail=ChangeFontSize(16)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogPopUp(Clone)/Main/Table/BasePop/ChildTable/Decsription/descriptionLabel=ChangeFontSize(17)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogPopUp(Clone)/Main/Table/SubPop/subDescriptionLabel=ChangeFontSize(17)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogPopUp(Clone)/Main/Table/BasePop/ChildTable/Decsription/descriptionLabel=ChangeFontSize(18)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogPopUp(Clone)/Main/Table/SubPop/subDescriptionLabel=ChangeFontSize(18)
