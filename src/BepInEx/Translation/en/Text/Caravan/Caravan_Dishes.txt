@@ -85,10 +85,10 @@
 【料理】ダイスの目が1回目は必ず「2」に、2回目は必ず「7」になる=[Cooking] You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
 【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
 【料理】ダイスの目が「4・5・6」のみになる=[Cooking] You will roll a 4, 5 or 6 next turn.
-【料理】ダイスの目が\n「1・2・3」のみになる=[Cooking] You will roll a 1, 2 or 3 next turn.
+【料理】ダイスの目が「1・2・3」のみになる=[Cooking] You will roll a 1, 2 or 3 next turn.
 【料理】移動時にマイルマスをスキップできる。=[Cooking] Skip Mile Tiles when moving.
 【料理】次回移動時に1マス分多く進める。=[Cooking] You can move 1 extra Tile next turn.
-
+【料理】移動系カテゴリーの料理が食べられなくなる=[Cooking] You can't be able to eat food in the mobile category.
 ---Sub-effects---
 r:"^([0-9,]+)マイルを獲得する。$"=Acquire $1 miles.
 福引券を1枚獲得する。=Acquire 1 lottery ticket.
