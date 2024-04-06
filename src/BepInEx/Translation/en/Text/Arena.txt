@@ -100,7 +100,7 @@ sr:"^(\d+位)～(\d+位)$"=$1 to $2
 r:"^\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回の防衛に成功！報酬はプレゼントに送られました。\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E]×successful defenses! Rewards have been sent.[-]
 
 現在、対戦可能な相手がいません=Currently, there are no opponents available.
-※一定時間経過後、リストが更新されると表示される場合があります=※ After a certain period of time,\nit may be displayed when the list is updated
+※一定時間経過後、リストが更新されると表示される場合があります=※After a certain period of time, it may be displayed when the list is updated
 バトルが行われていないため、閲覧できません。=Cannot be viewed because the battle has not taken place.
 
 [3C404E]リプレイを中断しますか？\nリプレイは対戦履歴から再度見る事ができます。[-]=[3C404E]Do you want to end the replay?\nYou can see the replay again\nfrom the match history.[-]

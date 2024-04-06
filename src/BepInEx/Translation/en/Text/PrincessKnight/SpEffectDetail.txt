@@ -40,3 +40,21 @@
 魔法防御力ダウン=Magic Defense Down
 バトル開始時、すべてのキャラのＨＰ回復量を特大ダウンさせる。=At the start of the battle, all characters' HP Recovery will be decreased by a massive amount.
 ＨＰ回復量ダウン=HP Recovery Down
+
+最大ＨＰダウン=Max HP Down
+バトル開始時、すべてのキャラの最大ＨＰを30％ダウンさせる。=At the start of the battle, all characters' maximum HP will be decreased by 30%.
+バトル開始時、すべてのキャラに毒状態を付与する。=At the start of the battle, all characters will be poisoned.
+毒付与=Poisoning
+バトル開始時、すべてのモンスターの行動速度を特大アップさせる。=At the start of battle, massively boosts the action speed of all monsters. 
+行動速度アップ=Action Speed Up
+バトル開始時、すべてのモンスターのＴＰを特大回復。=When the battle begins, all monsters' TP will be massively restored.
+ＴＰ回復=TP Recovery
+バトル開始時、すべてのキャラの物理攻撃力を大ダウンさせる。=At the start of the battle, all characters' P.ATK will be greatly decreased.
+物理攻撃力ダウン=Physical attack power down
+バトル開始時、すべてのキャラの魔法攻撃力を大ダウンさせる。=At the start of the battle, all characters' M.ATK will be greatly decreased.
+魔法攻撃力ダウン=Magic Attack Power Down
+バトル開始時、すべてのモンスターの行動速度を大アップさせる。=At the start of battle, greatly boosts the action speed of all monsters. 
+バトル開始時、すべてのキャラの行動速度を大ダウンさせる。=At the start of battle, greatly reduces the action speed of all characters.
+行動速度ダウン=Action Speed Down
+バトル開始時、すべてのキャラの物理防御力を大ダウンさせる。=At the start of the battle, all characters' P.DEF will be greatly reduced.
+物理防御力ダウン=Physical Defense down

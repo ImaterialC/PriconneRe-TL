@@ -41,7 +41,7 @@ sr:"^【(物理|魔法|回復|ＭＯＤＥ１|ＭＯＤＥ２|ＭＯＤＥ３)�
 後ろから３番目中心範囲攻撃=Area attack 3rd enemy from the back.
 近接２体攻撃=Attack 2nd front enemy.
 全体魔攻アップ=Boosts ally's M.ATK.
-全体防御力ダウン=Lowering All Enemies' P.DEF (applies even damage is nullified).
+全体防御力ダウン=Lowering All Enemies' P.DEF.
 全体防御力ダウン（ダメージ無効化時も付与）=Lowering All Enemies' P.DEF (applies even damage is nullified).
 近接攻撃、ノックバック（ダメージ無効化時も付与）=Melee attack, knockback (applies even damage is nullified).
 全体防御力ダウン（ダメージ無効化時も付与）

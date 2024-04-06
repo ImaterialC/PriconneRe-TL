@@ -8,7 +8,9 @@ r:"^訓練キャンプ([0-9\-\(\)\w （）]*)$"=Training Camp $1
 自身のＨＰが30％を切ると、自身の物理防御力と魔法防御力が大アップする。さらに自身の行動速度が大アップする。=When its HP drops below 30%, its P.DEF and M.DEF will greatly increase. Furthermore, its action speed will be greatly increased.
 
 ユニオンバーストは、敵全体に物理特大ダメージと魔法特大ダメージを与える。さらに【滅却の蛮雷】使用までのカウントダウンが進む。【滅却の蛮雷】使用までのカウントダウンが０回になった時、【滅却の蛮雷】を使用する。=Union Burst deals massive Physical and Magic DMG to all opponents. Additionally, the countdown to the use of [Destruction Barrage] progresses. When the count down to the usage of [Disintegration Barrity] reaches zero, use [Decision Barruption].
-最も近い敵１キャラに物理特大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。【滅却の蛮雷】=Deals extra-large physical damage to the nearest enemy character and inflicts stun status effects. This skill's status ailments can be infused even if damage is nullified. [Destruction Lightning]
+最も近い敵１キャラに物理特大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。【滅却の蛮雷】=
+最も近い敵１キャラに物理特大ダメージを与え、\n　スタン状態を付与する。このスキルの状態異常\n　はダメージを無効化しても付与される。【滅却の蛮雷】\n=Deals massive P.DMG to the nearest enemy character and inflicts stun status effects. This skill's status ailments can be infused even if damage is nullified.\n\n[Destruction Lightning]
+
 飛行状態のキャラを含む敵全体に999999×５ヒットの魔法固定ダメージを与える。このスキルで受けるダメージでは、敵のＴＰが回復しない。=Dealt 999×5 hit magic fixed damage to all opponents, including characters in flight. This skill will not restore TP to opponents.
 ライガホーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=This reduces party members' TP recovery rate from all damage taken by Laiga Horn.
 巨角を蒼く輝かせ、雄々しき肉体は雷を蓄える。臨界点に達せば勝負はそれまで。降り注ぐ蛮雷はあたり一面を塵へと変えるだろう。=Its huge horns glow azure, its masculine body accumulating lightning. Once it reaches its critical point, the battle is over. The barbaric thunder will turn the entire area to dust.

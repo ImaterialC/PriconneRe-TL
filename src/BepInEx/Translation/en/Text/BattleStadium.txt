@@ -14,7 +14,7 @@
 未挑戦=N/A
 次の報酬まで=Until the next reward
 総合スコア=Score
-バトルスタジアムでは、難易度ごとにそれぞれ３つの編成が登場します。\nバトルには何度も挑戦可能ですので、編成を工夫して挑みましょう。=In the Battle Stadium, three teams will appear for each difficulty level. They can be challenged as many times as you like, so let's try a variety of strategies.
+
 編成選択=Select Formation
 編成最高スコア=Pt Hi-Score
 次回バトルスタジアム開催までお待ちください=Please wait until the next battle stadium is held
@@ -33,3 +33,11 @@
 r:"^(\[.+\])?全難易度合計で(\d+)pt獲得しよう(?:\[-\])?$"=$1Get $2pt in total on all difficulties[-]
 r:"^(\[.+\])?難易度(.+)で1回戦おう(?:\[-\])?$"=$1 Fight once on $2 difficulty[-]
 r:"^(\[.+\])?難易度(.+)で(\d+)pt獲得しよう(?:\[-\])?$"=$1 Get $3pt on $2 difficulty[-]
+
+
+
+
+---KKR tutorial---
+バトルスタジアムでは、難易度ごとにそれぞれ３つの編成が登場します。\nバトルには何度も挑戦可能ですので、編成を工夫して挑みましょう。=In the Battle Stadium, three teams will appear for each difficulty level. They can be challenged as many times as you like, so let's try a variety of strategies.
+バトル終了時に、残りHPや時間に応じたスコアを獲得できますよ。\n３つの編成のうち、最も高いスコアが総合スコアに加算されますので、\nより高いスコアの獲得を目指して編成を工夫しましょう。=At the end of the battle, you will receive a score based on your remaining HP and time. The highest score of all three party members will be added to the total score, so try to organize them to achieve a higher score.
+総合スコアに応じて、ミッションが達成できます。\nミッションを達成し、全ての報酬獲得を目指しましょう、主さま。\n総合スコアランキングもありますので、上位を目指してくださいませ。=Missions will be completed according to your overall score. Let's complete the mission and aim for all rewards, Master. There will be a general score ranking as well, so please aim for the top.

@@ -21,7 +21,7 @@ sr:"^オート進行で(メイン|イベント)クエスト(.+)まで進めた�
 オート進行設定中はサポートキャラを編成できません。=Can't select support character while doing Auto Advance mode
 オート進行を停止しますか？\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Do you want to stop the Auto Advance?\nTotal Stamina Consumption during Auto Adv.\n※Stamina consumption at the time of retirement and lose is not included.
 敗北のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Due to defeat, Auto-Progress has been suspended. The following Stamina consumption has been carried out according to this Auto-progress. ※Stamina consumption at the time of retirement and lose is not included.
-
+スタミナ不足のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=
 
 クエストクリア数=Cleared Quest
 オート進行停止=Auto Advance Suspension
