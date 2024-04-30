@@ -18,6 +18,7 @@ r:"^敵単体に(\d+)の物理ダメージシャドウを(\d+)体生成する$"=
 残花流転=Fleeting Blossom Transformation
 自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせる。=Greatly boosts allies' P.ATK in range.
 
+
 ##S2##
 黒羽胴払い=Black Feather Sweep
 
@@ -30,6 +31,13 @@ r:"^敵単体に(\d+)の物理ダメージシャドウを(\d+)体生成する$"=
 ##EX##
 フォールンモード（R）=Fallen Mode (R)
 フォールンモード（R）+=Fallen Mode (R)+
+
+##S1+##
+残花流転+=Fleeting Blossom Transformation+
+自分を中心とした範囲内の味方すべ\nての物理攻撃力を特大アップさせ\nる。範囲内の味方の人数に応じて、\n最大７キャラ分まで物理攻撃力の上\n昇量が増加する。=Greatly boosts allies' P.ATK in range. The P.ATK boost increase according to number of allies, up to 7 times.
+
+##UE##
+アルゲアの嘆鎌=Algea's Scythe
 
 ##Comments##
 ですが兄様は、広い心で受け入れてくださいました\n兄様の度量を見くびってしまったこと、お詫びさせて\nくださいませ。そして本当に…ありがとうございます=But Nii-sama accepted me with open hearts. I apologize for underestimating your generosity. And... thank you very much

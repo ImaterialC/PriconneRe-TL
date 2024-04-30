@@ -14,13 +14,21 @@
 ##S1##
 わんわんと一緒=With Doggie My Lord
 自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせ、物理攻撃クリティカル時のダメージを小アップさせる。自分の物理攻撃力が高い程、物理攻撃力の上昇量が最大５倍までアップする。=Greatly boosts allies' P.ATK in range, and slightly boosts their P.CRIT DMG. The higher own P.ATK, the greater increase in P.ATK, up to 5 times.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを5％アップ$"=Cast time: 1.05s\n►Boosts allies' P.ATK in 100 range by $1 (+0.145×$1) for 12s.\n►Boosts allies' P.CRIT DMG in 100 range by 5% for 12s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを5％アップ$"=►Boosts allies' P.ATK in 100 range by $1 (+0.145×$1) for 12s.\n►Boosts allies' P.CRIT DMG in 100 range by 5% for 12s.
 
 ##S2##
 深緑の癒風=Deep Green Healing Breeze
 自分を中心とした範囲内の味方すべてに継続ＨＰ回復状態を付与し、物理/魔法吸収バリアを展開する。=Grants continuous HP recovery to allies in range, and deploys Barrier over them that absorbs P/M.DMG.
-r:"^毎秒ＨＰを(\d+)回復する(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Cast Time: 0.59s\n►Recovers allies' HP in 100 range by $1/s for 12.5s.\n►Deploys Barrier over allies in 100 range that absorbs $2 P/M.DMG for 12s.
+r:"^毎秒ＨＰを(\d+)回復する(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Recovers allies' HP in 100 range by $1/s for 12.5s.\n►Deploys Barrier over allies in 100 range that absorbs $2 P/M.DMG for 12s.
 
 ##EX##
 わんわんコンビネーション=Doggie My Lord Combination
 わんわんコンビネーション+=Doggie My Lord Combination+
+
+##S1+##
+わんわんと一緒+=With Doggie My Lord+
+自分を中心とした範囲内の味方すべての物理攻撃力を大アップ、物理攻撃クリティカル時のダメージと物理防御力と魔法防御力を小アップさせる。さらに、自分を中心とした範囲内の味方すべてのＴＰを小回復させる。自分の物理攻撃力が高い程、物理攻撃力の上昇量が最大５倍までアップする。=Greatly boosts allies' P.ATK in range, and slightly boosts their P.CRIT DMG, P.DEF and M.DEF. Additionally, slightly recovers allies' TP in range. The higher own P.ATK, the greater increase in P.ATK, up to 5 times.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを5％アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方のＴＰを80回復$"=►Boosts allies' P.ATK in 100 range by $1 (+0.145×$1) for 12s.\n►Boosts allies' P.CRIT DMG in 100 range by 5% for 12s.\n►Boosts allies' P.DEF in 100 range by $2 for 12s.\n►Boosts allies' M.DEF in 100 range by $3 for 12s.\n►Recovers allies' TP in 100 range by 80.
+
+##UE##
+わんわんの主さま=Doggie My Lord

@@ -1,0 +1,31 @@
+##Profile##
+【物理】中衛で怜悧麗花の陣を張るアルラウネの妖魔人。敵の攻撃力、防御力、与ダメージを下げ、ＴＰを吸収し、ＵＢの継続ダメージで領域を侵す敵を絶えず拒み退ける。=[Physical] The alraune youmajin deploys a clever flower formation in the middle guard. It lowers the enemy's attack power, defense, and Yo-Damage, absorbs TP, and continuously repels enemies that invade its territory with UB damage.
+
+立花日菜=Hina Tachibana
+花の手入れ、トゲぬき=Flower care, thorn removal
+妖魔人=Demonfolk
+
+##UB##
+ヴィヴィッド・ヴィジランス=Vivid Vigilance
+【拒絶の花】を展開する。【拒絶の花】展開中、敵の物理・魔法防御力を中ダウンさせ、物理と魔法攻撃力を合わせた継続物理ダメージを与える。対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる。さらに、味方の物理・魔法防御力を中アップさせ、ＨＰを継続回復する。このＨＰ回復量は、物理と魔法攻撃力に応じて増加する。=Deploys [Flower of Rejection]. [With Flower of Rejection] Moderately lowers enemies' P.DEF and M.DEF, and deals continuous damage based on P.ATK and M.ATK. If an enemy's M.DEF is lower than P.DEF, the damage will be magical. Also moderately boosts allies' P/M.DEF and grants continuous HP recovery. Healing amount is based on P.ATK and M.ATK.
+r:"^対象の敵の物理・魔法防御力を(\d+)ダウン対象の味方の物理・魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する低い側の防御力で防御する毎秒(\d+)の物理ダメージを与えるフィールドを展開する$"=►Deploys a field of 2160 range for 18s that:\n►Lowers enemies' P/M.DEF by $1.\n►Deals $4 DMG/s to enemies.\n►Boosts allies' P/M.DEF by $2.\n►Recovers allies' HP by $3/s.
+
+##S1##
+アイヴィドレイン=Ivy Drain
+目の前の敵１キャラのＴＰを小ダウンさせ、最もＨＰの低い味方１キャラを中心とした範囲内の味方すべてのＨＰとＴＰを小回復する。このスキルのＨＰ回復量は、このキャラの物理と魔法攻撃力に応じて増加する。=Slightly reduces an enemy's TP in front, and slightly recovers allies' HP and TP in range of ally with lowest HP. The amount of HP recovered increases according to own P.ATK and M.ATK.
+r:"^敵単体のＴＰを80失わせる範囲内の味方のＨＰを(\d+)回復範囲内の味方のＴＰを60回復$"=►Reduces an enemy's TP by 80.\n►Recovers allies HP in range by $1.\n►Recovers allies TP in range by 60.
+
+##S2##
+ポイズンフリック=Poison Flick
+敵全体の物理攻撃力と魔法攻撃力を大ダウン、物理防御力、魔法防御力、物理攻撃のダメージ、魔法攻撃のダメージを小ダウンさせる。=Greatly lowers enemies P.ATK and M.ATK, and slightly lowers their P.DEF, M.DEF, P.DMG and M.DMG.
+r:"^敵全体の物理攻撃力を(\d+)ダウン敵全体の魔法攻撃力を(\d+)ダウン敵全体の物理防御力を(\d+)ダウン敵全体の魔法防御力を(\d+)ダウン敵全体が与える物理ダメージを5％ダウン敵全体が与える魔法ダメージを5％ダウン$"=►Lowers enemies' P.ATK by $1 for 12s.\n►Lowers enemies' M.ATK by $2 for 12s.\n►Lowers enemies' P.DEF by $3 for 12s.\n►Lowers enemies' M.DEF by $4 for 12s.\n►Lowers enemies' P.DMG by 5% for 12s.\n►Lowers enemies' M.DMG by 5% for 12s.
+
+##EX##
+ワイルドグロース=Wild Growth
+ワイルドグロース+=Wild Growth+
+
+##SP1##
+フラワートリック=Flower Trick
+このスキルのスキルレベルは「ヴィヴィッ\nド・ヴィジランス」と連動しています=This skill’s level is linked to "Vivid Vigilance"
+自分の行動速度を大アップさせ、空蝉状態になり、ＴＰを小回復する。空蝉状態は受けるダメージを１回無効化し、その後解除される。（このスキルの効果は他の行動速度変化スキルと重複する）=Greatly boosts own action speed, gains [Cicada] status, and slightly recovers own TP. When [Cicada] status is active, the next instance of damage received will be nullified and the status will be removed after. (The action speed boost from this skill stacks with other action speed boosts)
+自分の行動速度アップ自分を空蝉状態にする自分のＴＰを75回復=►Boosts own action speed by 50% for 12s.\n►Gains [Cicada] status.\n►Restores own TP by 75.

@@ -1,0 +1,27 @@
+r:"^フラワーヴィレッジ周辺([0-9\-\(\)\w （）]*)$"=Flower Village $1
+
+魔物植物・モベルベ=Monster Plant - Moberbe
+
+優しさの行方=The Whereabouts of Kindness
+リュウジについて=About Ryuuji
+過ちを糧に、花は咲く=Feeding on mistakes, flowers bloom
+持ち味を活かそう=Let's make use of the flavor
+好きな植物は？=What's your favorite plant?
+
+
+
+
+魔法攻撃力が最も低い敵１キャラに魔法特大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to the enemy character with the lowest M.ATK and inflicts a stun state. This skill's abnormal status is applied even if the damage is nullified.
+自身の魔法攻撃力を大アップさせる。=Greatly increases own M.ATK.
+敵全体に魔法大ダメージを与え、行動速度を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to all enemies and moderately reduces their movement speed. This skill's abnormal status is applied even if the damage is nullified.
+ユニオンバーストは、敵全体に最大ＨＰに応じた魔法割合ダメージを与え、ＴＰを中ダウンさせる。さらに物理防御力と魔法防御力を大ダウンさせる。自身の物理防御力と魔法防御力を特大アップさせる。このスキルの状態異常はダメージを無効化しても付与される。このスキルはダメージを無効化してもＴＰダウンさせる。=Union Burst: deals M.DMG to all enemies based on their maximum HP and lowers their TP. Additionally, it greatly reduces P.DEF and M.DEF. Greatly increases own P.DEF and M.DEF. This skill's abnormal status is applied even if the damage is nullified. This skill lowers TP even if the damage is nullified.
+品種改良を施され、卑劣漢に服従するよう仕立てられた魔物植物。絢爛と咲き誇る巨躯は悪意に操られるがまま花祭りの開催を脅かす。=A monster plant that has been bred to be subservient to a despicable man. The gorgeous blooming giant is manipulated by malicious intent and threatens the holding of the flower festival.
+
+森に潜む脅威が魔物植物に呼応するかのごとく押し寄せる。思わぬドジが命取りとならぬよう、冷静に草木の群れを打ち破れ。=The threats lurking in the forest rush in as if in response to the monster plants. Calmly defeat the clumps of plants so that unexpected mistakes don't turn deadly.
+モベルベから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the amount of TP recovery for party characters that occurs from all damage received from Moberbe.
+
+地面に潜り、敵全体に毒状態を付与し続ける。さらに、敵全体のＨＰ回復量を大ダウンさせる。地面に潜っている最中、自身が一定ダメージを受けると、スキルが中断され、自身のステータスダウン効果を解除し、物理防御力と魔法防御力を特大ダウンさせる。中断されずに毒を撒き終えると、敵全体に長時間のスタン状態を付与する。このスキルにより付与された毒のダメージでは、ＴＰが回復しない。=Dives into the ground and continues to inflict poison on all enemies. Furthermore, it greatly reduces the HP recovery amount of all enemies. If you receive a certain amount of damage while diving into the ground, your skills will be interrupted, your status reduction effects will be canceled, and your P.DEF and M.DEF will be greatly reduced. If you finish spreading the poison without interruption, it will stun all enemies for a long time. Poison damage inflicted by this skill does not recover TP.
+
+主の命を遂行すべく、魔物植物はひたすら愚直に村を目指す。不屈の覚悟で進行を食い止め、笑顔咲く祭典を始めよう！ =In order to carry out its master's mission, the monster plant heads straight for the village. Let's stop the progress with unyielding determination and start a festival filled with smiles!
+敵全体に魔法大ダメージを与え、行動速度を特大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to all enemies and greatly reduces their movement speed. This skill's abnormal status is applied even if the damage is nullified.
+鮮やかな大輪を地表に残し、魔物は土中深くに身を潜める。再びその姿があらわとなるとき、辺りは猛毒の花粉で満たされるだろう。=Leaving a bright large flower on the ground, the monster burrows deep into the soil. When it appears again, the area will be filled with highly poisonous pollen.

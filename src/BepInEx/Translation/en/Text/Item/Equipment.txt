@@ -6,7 +6,7 @@
 sr:"^(.+)（欠片）$"=$1 (Piece)
 sr:"^(.+)の設計図$"=$1 Blueprint
 
-sr:"^必要Lv(\d+)\n「(.+)」([の欠片設計図\n]+)。$"=Required Lv$1\nA$3 of $2.
+sr:"^必要Lv(\d+)\n「(.+)」([の欠片設計図\n]+)。$"=Required Lv $1\nA$3 of $2.
 sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 
 アイアンブレード=Iron Blade

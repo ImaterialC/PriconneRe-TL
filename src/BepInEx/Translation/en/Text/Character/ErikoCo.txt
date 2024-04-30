@@ -1,0 +1,21 @@
+##Profile##
+【物理】前衛で、苛烈な教えで味方を率いる狂恋の教官。ＴＰ回復や防御支援に加え味方の人数で効果アップする攻撃支援と大ダメージで、味方全体を奮い立たせ敵を破る。=[Physical] An instructor of mad love who leads her allies using spartan teachings. She can recover TP, provide defense buff for her allies, has a buff that scales with the number of allies, and can provide large amounts of damage. With these she rouses her allies and destroys the enemy.
+
+##UB##
+命乞いなど聞きませんわ=No Use Pleading For Mercy!
+味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、目の前の敵１キャラに物理特大ダメージを与える。味方の人数に応じてこのスキルの効果量が最大７キャラ分までアップする。=Massively boosts allies' P.ATK, greatly boosts their P.CRIT Rate, and deals massive P.DMG to an enemy. All effects increase according to number of allies, up to 7 times.
+r:"^敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを125アップ$"=►Deals $1 P.DMG (+0.5×$1×Ally Count) to an enemy.\n►Boosts allies' P.ATK by $2 (+0.006×$2×Ally Count) for 18s.\n►Boosts allies' P.CRIT Rate by 125 (+5×Ally Count) for 18s.
+
+##S1##
+サヴェージブラスト=Savage Blast
+味方全体の物理攻撃力を大アップさせ、目の前の敵１キャラに物理大ダメージを与える。味方の人数に応じてこのスキルの効果量が最大７キャラ分までアップする。=Greatly boosts allies' P.ATK and deals large P.DMG to an enemy. All effects increase according to number of allies, up to 7 times.
+r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ$"=►Boosts allies' P.ATK by $1 (+0.06×$1×Ally Count) for 12s.\n►Deals $2 P.DMG (+0.25×$2×Ally Count) to an enemy.
+
+##S2##
+ヘヴィコマンド=Heavy Command
+味方全体の物理攻撃力と物理クリティカルを大アップさせ、物理防御力と魔法防御力を小アップさせる。さらに自分のＴＰを大回復し、自分以外の味方すべてのＴＰを小回復する。味方の人数に応じて物理攻撃力と物理クリティカルの上昇量が最大７キャラ分までアップする。=Greatly boosts allies' P.ATK and P.CRIT Rate, and slightly boosts their P.DEF and M.DEF. Additionally, recovers own TP by a large amount and other allies' TP by a small amount. The P.ATK and P.CRIT Rate boost increase according to number of allies, up to 7 times.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを85アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ自分のＴＰを300回復自分以外の味方全員のＴＰを80回復$"=►Boosts allies' P.ATK by $1 (+0.06×$1×Ally Count) for 12s.\n►Boosts allies' P.CRIT Rate by 85 (+3×Ally Count) for 12s.\n►Boosts allies' P.DEF by $2 for 12s.\n►Boosts allies' M.DEF by $3 for 12s.\n►Recovers own TP by 300.\n►Recovers other allies' TP by 80.
+
+##EX##
+ハードコアオーダー=Hardcore Order
+ハードコアオーダー+=Hardcore Order+

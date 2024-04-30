@@ -21,7 +21,7 @@
 「馬鹿力を振るうばかり」……？\nどっかの誰かみたいだな……=⁇ All you do is wield your stupid power ⁇ ..? You sound like someone from somewhere...
 あ、あはは……何も～っ？\nそんなことより、ほら！　あいつを倒すとしようぜっ！=A-Ahaha... Nothing? Anyway, come on! Let's beat him!
 うおおっ！？　何て力だ……！\n吠え声だけでも全身にビリビリきやがるっ！=Whoa?! What power...! Just howling makes my whole body tingle!
-気をつけろよ、エリコ！　Corneliaも！\nこいつ、次で確実にあたしたちのことを仕留めるつもりだ！=Watch out, Eriko! And Cornelia! She's definitely going to finish us off next time!
+r:"^気をつけろよ、エリコ！　(.{2,10})も！\nこいつ、次で確実にあたしたちのことを仕留めるつもりだ！$"="Watch out, Eriko! And $1! She's definitely going to finish us off next time!"
 ふん、忌々しいですわ。ケダモノめ……\n私たちだけではなく、このおかたにまで\n危害を及ぼすというなら、容赦はできません。=Hmph, what an annoyance. Beast... If you intend to harm not only us, but this mother as well, I will show you no mercy.
 いいでしょう……\n来るというなら、来なさい。\nあなたのプライドを、その立派な角ごとへし折って差し上げますわ──！=Very well... If you're coming, then come. I'll break your pride, along with your magnificent horns!
 邪魔をする者の末路=The fate of those who get in the way

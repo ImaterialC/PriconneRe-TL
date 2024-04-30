@@ -12,10 +12,8 @@ r:"^参加回数 x ([0-9,]+)回 / ([0-9,]+)pt$"=Total x$1/$2pt
 助っ人参加ボーナス=Helper bonus
 討伐スコア=Subjugation Score
 
-
-
-
 エリコ班の最終兵器=Eriko Group's ultimate weapon
 CHALLENGEモードで1度にスコアを50000以上獲得しよう=Acquire 50,000 points or more in CHALLENGE mode at once
 マコトでスコアを累計50000獲得しよう=Acquire 50,000 points from Makoto
 エリコでスコアを累計50000獲得しよう=Acquire 50,000 points from Eriko
+

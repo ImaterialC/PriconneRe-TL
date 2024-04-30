@@ -19,6 +19,9 @@
 ##UB##
 勇気を出して突撃です～！=I Can Do This If I Try!
 前方範囲内の敵すべてに物理中ダメージを与え、さらに暗闇・混乱状態にする。=Deals moderate P.DMG to all enemies in range and inflicts Blind and Confuse.
+前方範囲内の敵すべてに物理中ダメージを与え、さらに暗闇=Deals moderate P.DMG to all enemies in range and inflicts Blind.
+混乱状態にする。=and confusion.
+けんぞくにしてあげる！=I'll kick your ass!
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を暗闇状態にする範囲内の敵を混乱させる$"=►Deals $1 P.DMG to all enemies in 1200 range to enemies.\n►Inflicts Blind to enemies in range for 6s (-70% hit rate).\n►Confuses enemies in range for 4s.
 
 ##S1##

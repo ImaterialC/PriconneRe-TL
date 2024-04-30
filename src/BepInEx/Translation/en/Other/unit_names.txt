@@ -86,6 +86,7 @@
 フブキ=Fubuki
 ワカナ=Wakana
 エリス=Eris;Yui
+アネモネ=Anemone
 アオイ（編入生）=Aoi(Student);TAoi;Student;Student
 カスミ（マジカル）=Kasumi(Magical);MKasumi;Magical
 シオリ（マジカル）=Shiori(Magical);MShiori;Magical
@@ -886,3 +887,7 @@
 
 エリコ（コマンダー）=Eriko(Commander);CEriko;CoEriko;KEriko;IEriko;BDSMEriko;Commander
 マコト（コマンダー）=Makoto(Commander);CMakoto;GomenYui;CoMakoto;KMakoto;IMakoto;BDSMakoto;GomenYui;Commander
+
+
+スズメ（スプリング）=Suzume(Spring);Spring
+キョウカ（スプリング）=Kyoka(Spring);Kyouka(Spring);Spring

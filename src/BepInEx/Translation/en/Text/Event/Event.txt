@@ -75,7 +75,7 @@ r:"^([0-9]+)回目の討伐証交換ラインナップ$"=Victory Medal Gacha Box
 挑戦途中のボスはスキップできません。=Bosses in the middle of the challenge cannot be skipped.
 EXHIBITION討伐数=Exhibition count
 EXHIBITION＋討伐数=Exhibition+ count
-獲得可能=Possible rewards
+獲得可能=In Stock
 スキップチケットとスタミナを消費してクエストを\n実行します。よろしいですか？=Use skip tickets and stamina\nto play this quest?
 消費スタミナ=T. Stamina Cost
 消費チケット=Ticket Cost
@@ -106,8 +106,7 @@ r:"^([1-9])回目の報酬をリセット$"=Reward Reset $1
 魔法提督ラブリー★モニカ レッツゴー！マジカルカルテット！=Magical Admiral Lovely★Monika Let's Go! Magical Quartet!
 ---Login---
 イベントログインボーナス獲得=Event Login Bonus Received
-r:"^(\d+)日目のログインボーナスとして以下のアイテムを獲得しました。$"=Received items as Day $1 login bonus.
-r:"^(\d+)日目のログインボーナスとして以下のアイテムを受け取りました。$"=Received items as Day $1 login bonus.
+r:"^(\d+)日目のログインボーナスとして以下のアイテムを(?:獲得しま|受け取りま)した。$"=Received items as Day $1 login bonus.
 
 ---exhibition---
 バトルログがまだありません。=There is no battle log.

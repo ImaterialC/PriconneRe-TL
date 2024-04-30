@@ -4,8 +4,9 @@ SPECIALのボス=Special Boss
 エキシビジョン+解放=Exhibition+ Unlocked
 ミッションレベルが対象外になった場合、達成することはできません。=If the mission level is not covered, it can not be achieved.
 SPECIALかEXHIBITIONでボスを5回以内に討伐しよう=Clear the Special or Exhibition mode within 5 or less attempts.
+SPECIALかEXHIBITIONのバトルでボスを5回以内に討伐しよう=Clear the Special or Exhibition mode within 5 or less attempts.
 [FFFFFF]SPECIALかEXHIBITIONでボスを5回以内に討伐しよう[-]=[FFFFFF]Clear the Special or Exhibition mode within 5 or less attempts.[-]
-
+[FFFFFF]SPECIALかEXHIBITIONのバトルでボスを5回以内に討伐しよう[-]=[FFFFFF]Clear the Special or Exhibition mode within 5 or less attempts.[-]
 
 [3C404E]MODE2のお供のモンスターを全て倒そう[-]=[3C404E]Defeat all monsters on MODE 2.[-]
 sr:"^(\[[0-9A-F]{6}\])?スペシャルかエキシビションのバトルで(.+)を(\d)回以内に討伐しよう(\[-\])?$"=$1Defeat the $2 within $3 attempts in SP or Exhibition Battles.$4
