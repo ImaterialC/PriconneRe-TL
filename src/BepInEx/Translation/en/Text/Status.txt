@@ -1,8 +1,8 @@
 ---Character List---
 戦力=Power 
-物攻=P.ATK 
+物攻=P.ATK
 魔攻=M.ATK
-物防=P.DEF 
+物防=P.DEF
 魔防=M.DEF
 r:"^\[3C404E\]戦力 ([0-9,]+)\[-\]$"="[3C404E]Power $1[-]"
 r:"^\[3C404E\]物攻 ([0-9,]+)\[-\]$"="[3C404E]P.ATK $1[-]"
