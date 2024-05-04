@@ -1,7 +1,6 @@
 祭りのために集う花々=Flowers Gathered for the Festival
-r:"^すっかり暖かくなったある春の日のこと。\n(.{2,10})はスズメ・アヤネと共に、\nとある村を訪れていた……$"="It was one spring day, when it was completely warm. $1 was visiting a certain village with Sparrow Ayane..."
+r:"^すっかり暖かくなったある春の日のこと。\n(.{2,10})はスズメ・アヤネと共に、\nとある村を訪れていた……$"="It was one spring day, when it was completely warm. $1 was visiting a certain village with Suzume and Ayane..."
 r:"^とある村の花祭りを手伝いに来た(.{2,10})とスズメたち。スズ\nメのドジに不安がよぎりつつも、現地で合流したキョウカたち\nとも協力し、花祭りを成功させようと決意したのだった。$"="$1 and the sparrows had come to help with the flower festival in a certain village. The sparrow’s clumsiness had made them uneasy, but they’d also decided to cooperate with Kyouka and the others who’d met up on-site to make the festival a success."
-
 スズメさんのおかげで、悪い人はやっつけられましたけど……\nこんな大きな魔物植物、どうしたらいいんでしょう！？=Thanks to the sparrows, we got rid of the bad guys, but... What should we do with a monster plant this big?!
 大丈夫です、キョウカちゃん！\nまだお腹の中が泡だらけなせいか、動きが鈍そうですし。=Don't worry, Kyouka! My stomach's still full of bubbles, so it looks like it's slowing down.
 確かに、まだちょっと苦しそうです！\n今のうちにやっつけてしまいましょう！=You're right, it still looks like it's in a bit of pain! Let's finish it off while we still can!
@@ -18,7 +17,6 @@ r:"^とある村の花祭りを手伝いに来た(.{2,10})とスズメたち。�
 ──ギャオオオオオッ！？=⁇ Gyaaaaah!?
 あっ、ちょっと慌ててますよ！\nもしかして、本当にそういうのが苦手なんでしょうか？=Oh, I'm a little flustered! Are you sure you don't like that kind of thing?
 試してみましょう！\nえーい！！=Let's give it a try! Yay!!
-
 ……あの。\n除草剤を使っても、まだ元気みたいなんですけど。=...Um, it looks like she's still doing well even after using the herbicide.
 うぅ、ギャングのボスさんが欲しがった理由が分かります。\nこんなに丈夫な魔物なんて……=Ugh, now I get why the boss of the gang wanted it. I can't believe it's such a tough monster...
 こうなったら、もうヤケです～！\n倉庫にあるもの、なんでもかんでも投げつけてみましょう！=Now that it's come to this, I'm done for! Let's throw everything in the warehouse at them!
@@ -35,7 +33,6 @@ r:"^とある村の花祭りを手伝いに来た(.{2,10})とスズメたち。�
 す、すごい……あんな大きな爆発を起こすなんて！\nありがとうございます、スズメさん！\nやっぱり、本当は頼りになるお姉さんだったんですね！=W-Wow... I can't believe you set off such a huge explosion! Thank you so much, sparrow! You really are a reliable older sister!
 そ、そうなんですっ、キョウカちゃん！\n私だって、やればできるんです！=Th-That's right, Kyouka! I can do it if I try!
 ……本当はキョウカちゃんを守る魔法を使うつもりだったんですけど、\nドジして違う魔法が出ちゃったのは黙っておきましょう。=...I was actually planning on using the magic to protect Kyouka-chan, but I'll keep quiet about how I screwed up and got a different kind of magic out of it.
-
 あれっ！？\n気をつけてくださいキョウカちゃん、\n魔物植物の動きが変わりましたよ！=Huh?! Please be careful, Kyouka! The monster plants are moving differently!
 地面の中にもぐっちゃいました。\nなにか、目的があるんでしょうか？=It got stuck in the ground, too. I wonder if it has some kind of purpose?
 気のせいかもしれないんですけど、\nなんだか力を溜めているような感じがするような～……=Maybe it's just my imagination, but it feels like I'm building up my strength...
@@ -46,7 +43,6 @@ r:"^とある村の花祭りを手伝いに来た(.{2,10})とスズメたち。�
 そんな、袋叩きにされちゃいます～！？\nどど、どの魔物から相手をすればいいんですか～！？=You're going to beat me to a pulp?! Wh-Wh-What monster should I take on first?!
 とにかく近づいてきた相手からやっつけましょう。\n地道に数を減らしていけば、勝ち目はあると思います。\n戦いは数だって、教科書にも書いてありましたし。=Anyway, let's start with whoever's approaching. If we steadily reduce our numbers, we'll have a chance of winning. The textbook said that battles are about numbers.
 ……キョウカちゃんの通ってる学校って、\n一体何を教えているんでしょうか。=...I wonder what Kyouka-chan's school is teaching?
-
 ふぇ～……\nな、なんとかここまで追い詰めましたけど～……=Phew... I-I managed to corner him this far, but...
 相手も、必死になってます。\nもう一息かもしれませんけど、油断は大敵です！=Our opponents are getting desperate, too. It might be just one more breath, but we can't let our guard down!
 はい！\nここまで力を合わせて準備してきた花祭り……\n絶対に、台無しにさせるわけにはいきません！=Yes! The flower festival we've worked so hard to prepare for... We can't let it go to waste!

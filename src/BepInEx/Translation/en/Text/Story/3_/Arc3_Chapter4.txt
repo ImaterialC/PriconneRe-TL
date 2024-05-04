@@ -5,17 +5,17 @@ Episode 1:
 宵の密会=Night's Secret Meeting
 
 Summary:
-r:"^無事グランドリームパークを奪還し、城に帰還した一同。ライラエルは彼女たちに感謝を伝え、クルルに励ましの言葉をかける。そしてその夜、(.{2,10})は一人ライラエルのもとを訪ねるのだった。$"=After safely retaking Grand Dream Park, everyone returns to the castle. Lailael expresses her gratitude to them and offers Kururu words of encouragement. When the night comes, $1 visits Lailael alone.
+r:"^無事グランドリームパークを奪還し、城に帰還した一同。ライラエルは彼女たちに感謝を伝え、クルルに励ましの言葉をかける。そしてその夜、(.{2,10})は一人ライラエルのもとを訪ねるのだった。$"=After safely retaking Grand Dream Park, everyone returns to the castle. Lyrael expresses her gratitude to them and offers Kururu words of encouragement. When the night comes, $1 visits Lyrael alone.
 
 グランドリームパーク=Grand Dream Park
 
 r:"^(.{2,10})たちは、\n謎の魔物に破壊されてしまったジオ・テオゴニアの遊園地、\nグランドリームパークの瓦礫の片付けを手伝っていた。$"=$1 and the others were helping with cleaning up the rubble at Grand Dream Park, the amusement park in Gio Teogonia that had been destroyed by mysterious monsters.
 王家の装備、腹３分目パワーでっ！\nどっこいしょー☆=Royal Equipment, with the power portion of 3 stomach! Let's go☆
 あははっ♪\nわたしも負けずに、よっこらしょーっ！=Ahaha♪ I won't lose either, let's go!
-あれほど大きな破片を、軽々と……\nペコリーヌ様とクローチェ様は、本当に怪力無双ですね。=Effortlessly moving such large pieces debris... Ms. Pecorine and Ms. Croce truly have unrivaled strength.
+あれほど大きな破片を、軽々と……\nペコリーヌ様とクローチェ様は、本当に怪力無双ですね。=Effortlessly moving such large pieces debris... Miss Pecorine and Miss Croce truly have unrivaled strength.
 ぱわふる。=Full of power.
 はいはいあんたたち、ちょっとどいてなさいよー\nそこのブロックも、飛行魔法かけて運んじゃうから。=Alright, alright, you guys, get out of the way for a bit. I'll use flight magic to carry this block over there, too.
-あっ。申し訳ありません、キャル様っ……=Ah. My apology, Ms. Kyaru...
+あっ。申し訳ありません、キャル様っ……=Ah. My apology, Miss Kyaru...
 細かい破片や塵は、風の精霊に集めていただきます。\n……ジオ・テオゴニアの精霊のみなさまは、\nとても素直でございますね。=I'll have the wind spirits gather the small fragments and dust. ... You all are so earnest, spirits of Gio Teogonia.
 ペコリーヌさんだけじゃなくて。コッコロさんもキャルさんも、\nそれにお兄さんも、とっても手際がいいです。\nなんだかすっごく、こういうのに慣れてるような……？=Not just Pecorine. Kokkoro, Kyaru and even Onii-san are all very skillful. Almost like you guys are really experienced with this kind of work...?
 ランドソルは、よく壊れるから……=Landosol breaks a lot...
@@ -26,7 +26,7 @@ r:"^(.{2,10})たちは、\n謎の魔物に破壊されてしまったジオ・�
 そうですね。\n悪いのは、攻め込んでくる方ですよね……=That's right. The ones at fault are the ones attacking...
 そんな悪を退治するだけでなく、\n後片づけにまで精力的に取り組むだなんて。\n流石は兄様です……！=Not only eliminating the threats, you also work tirelessly to clean up the aftermaths afterwards. As expected of Nii-sama...!
 はいはいあんたたち、喋ってないで手ー動かしなさいよー\nこの遊園地、ムダにだだっぴろいんだから。=Okay, okay, you guys, stop talking and move your hands instead. There's no time to idle around with an amusement park this big.
-も、申し訳ありませんキャル様っ……=Terribly sorry, Ms. Kyaru...
+も、申し訳ありませんキャル様っ……=Terribly sorry, Miss Kyaru...
 ギリー\nはこべる？=Giri, with a carrying belt?
 ぴぎゅうっ！=Pigyuu!
 おお～っ！\nオニギリちゃんも、すごい運びっぷりです！\nわたしも負けないですよ～っ♪=Oooh~! Onigiri-chan, you're carrying so much! I won't lose to you~♪
@@ -50,17 +50,17 @@ r:"^(.{2,10})たちは、\n謎の魔物に破壊されてしまったジオ・�
 ごくり。=*gulp*
 ちょっとあんたねー\nバカやってるとほんとに食べられちゃうわよ。\nこいつら遠慮なんかしないんだからマジで。=Calm down for a secー, if you do something foolish like that, you'll really get eaten. \nThese guys don't know how to hold back, and I'm not joking.
 いつも食べられそうになってる\nキャルさんが言うと、説得力がすごいです……=When Kyaru, someone who's always on the verge of being eaten, says that, it sounds really convincing...
-……差し出がましいようですが。\nペコリーヌさまもプレシアさまも、\nもう少し自制心を強く持つようになさるべきかもしれませんね。=...It might be impudent of me to say this, but perhaps both Ms. Pecorine and Ms. Precia should exercise a little more self-control.
+……差し出がましいようですが。\nペコリーヌさまもプレシアさまも、\nもう少し自制心を強く持つようになさるべきかもしれませんね。=...It might be impudent of me to say this, but perhaps both Miss Pecorine and Miss Precia should exercise a little more self-control.
 そうですよっ！\nお二人が食い意地張っているせいで、\nすごいトラブルになったんですから。=She's right! It's because you two are so fixtated on eating that there's been so much trouble.
-で、でもまぁ……みなさんが、パークを取り返してくれて。\nライラエルさまからも、お許しいただけたみたいで……\nよ、よかったですね。=B-But, well... You all took back the park. And it looks like Lailael has already forgiven you, so... I-I'm glad for you.
+で、でもまぁ……みなさんが、パークを取り返してくれて。\nライラエルさまからも、お許しいただけたみたいで……\nよ、よかったですね。=B-But, well... You all took back the park. And it looks like Lyrael has already forgiven you, so... I-I'm glad for you.
 「……チョロ」\n「……チョれぇー」=「...So soft-hearted」「...So easy-goingー」
 うんうん、ほんとに良かったですっ！\nこれでまた、ナイトさんたちと一緒に冒険できるんですねっ♪=Mm~hm, I'm really glad too! Now I can go on another adventure with Naito-san and everyone♪
 はいっ♪\n誤解も解けて、ほんとにほんとに良かったです！\nこっちの世界のおいしいごはん、まだまだ食べ足りないですから！=Yes♪ I'm so glad we cleared up this misunderstanding! We haven't experienced enough delicious food from this world yet!
 というか……ペコリーヌさん、元気ですね。\nうちのお姫さまは、まだグロッキー気味なのに。=Actually... You're full of energy, aren't you, Pecorine? Our princess is still in a bit of a daze.
-ライラエル様は、お加減が優れないままなのですか？\n蜘蛛の魔物と【バンディ・シスターズ】を撃退したあと、\nすぐにお城に戻られていましたが……=Is Lady Lailael still not feeling well? She went straight back to the castle after fighting off the spider monsters and the Bandit Sisters...
+ライラエル様は、お加減が優れないままなのですか？\n蜘蛛の魔物と【バンディ・シスターズ】を撃退したあと、\nすぐにお城に戻られていましたが……=Is Lady Lyrael still not feeling well? She went straight back to the castle after fighting off the spider monsters and the Bandit Sisters...
 おみまい、いく？=We go, visit her?
 ──そんなに深刻な顔をするほどではありませんよ、みなさま。=-There's no need to look so serious, everyone.
-あっ、ライラエルさん！\nオイッス☆=Ah, Lailael! Oissu! ☆
+あっ、ライラエルさん！\nオイッス☆=Ah, Lyrael! Oissu! ☆
 ご無事なようで、安心いたしました。=We're relieved to see that you're safe.
 ご心配をおかけして、申し訳ありません。\nそして……あらためて。\nグランドリームパークの奪還に、感謝を申し上げます。=My sincere apology for making you worry. And...again. I thank you for reclaiming Grand Dream Park.
 つきましては、明日にでも。\nささやかな宴席を設けさせていただければと思っているのですが……=Therefore, tomorrow, I would like to arrange a small banquet for you...
@@ -76,7 +76,7 @@ r:"^(.{2,10})たちは、\n謎の魔物に破壊されてしまったジオ・�
 その……。このあいだ、王家の装備の力を振り絞って以降。\nひどく傲慢な性格の、『もう一人のわたし』とでもいうべき存在が\nふとした弾みで表に出るようになってしまったのです。今のように……=This is... Ever since I utilized the power of the Royal Equipment the other day, the 'other me' with an extremely prideful personality has been coming to surface suddenly more often. Like just now...
 あ～わかります！　わたしもフルパワーで戦った後は\nお腹が空きすぎて、つい周りが見えなくなることが……\nもう慣れちゃいましたけど。=Oh, I get it! It's like when I get so hungry after fighting at full power that I can't even see my surroundings anymore... I've gotten used to it by now though.
 慣れ過ぎたせいで\nはたから見ると平常運転って感じだけどね、あんたの場合。=More like you've gotten so used to it, it's become the normal you everyday now in your case.
-ライラエルさま。\nとにかく今は、どうか安静になさってください。=Lady Lailael, at any rate, please just rest for now.
+ライラエルさま。\nとにかく今は、どうか安静になさってください。=Lady Lyrael, at any rate, please just rest for now.
 これまで何度か、王家の装備の使い過ぎで\n今回みたいになっちゃうことがありましたけど。\n休んでるうちに、傲慢モードにならなくなりましたもんね。=You've used your Royal Equipment a few times in the past, and it also ended up like this. But after resting for a while, you stopped becoming arrogant eventually as well.
 ええ。\nですが……=Yes. But...
 これからは、必要とあらば。\nわたしももっと積極的に、戦いに赴こうと思います。=From now on, if it's necessary, I'll be more proactive and head towards the battlefield.
@@ -90,14 +90,14 @@ r:"^(.{2,10})たちは、\n謎の魔物に破壊されてしまったジオ・�
 あっ、クルルちゃん！\nそういえば、ひとつお願いがありましてっ。=Oh, Kururu! Come to think of it, I have a favor to ask of you.
 ？\n──は、はいっ！\nなんでもかんでもおっしゃってくださいませませっ！=?! Y-Yes! Please feel free to ask anything!
 そして、その日の夜のこと──=And so, at that night─
-キャルさま。\nいかがでしたか？=Ms. Kyaru. How was it?
+キャルさま。\nいかがでしたか？=Miss Kyaru. How was it?
 さっき借りたクルルの魔宝石、調べ終わったけどね。\nランドソルじゃかなりレアだけど……\nでも、似たようなものがないってワケじゃないわ。=I've finished examining the magical gems I borrowed from Kururu earlier. They're pretty rare in Landosol, though... that doesn't mean there aren't similar ones.
 ──人間の魂を封じ込めたり、\nロストした人が結晶化したようなモンじゃないってこと。\n残念ながらね。=─These things are neither something to trap the human souls, nor a form of a crystallized Lost person. How unfortunate.
 では……わたくしたちの目当てとは、\n直接的にはかかわりがなさそう……なのですね。=So... It doesn't seem to have direct connecions to what we're looking for...
 ざんねん。=Unfortunate.
 ぷぅ……=Puu...
 『前のアストルム』だと、条件を満たすとリセットが発生しちゃって。\n決められた地点にまで時間が巻き戻って──=In the "previous Astrum", a reset would occur if certain conditions were fullfilled. \nTime rewinds back to a predetermined point─
-その、『巻き戻りの終点から復帰する地点』のあいだに\n死んじゃったひとも、\n新しいループでは元通りになってた……らしいんですよね。=And those who "died in-between the return point and the end of a loop” would also brought be back to normal in the new loop...or so it seems.
+その、『巻き戻りの終点から復帰する地点』のあいだに\n死んじゃったひとも、\n新しいループでは元通りになってた……らしいんですよね。=And those who "died in-between the return point and the end of a loop” would also brought be back to normal in the new loop...or so it seeMiss
 はい。それが事実ならば、\n『いなくなってしまった人』が元に戻れるよう、\nどこかに保存されていると考えられるのですが……=Yes. If that's true, then I believe the 'people who disappeared' are preserved somewhere so that they can return to normal...
 どこにどんな形で保存されてるのか、さっぱりなのよね。\n少なくとも、アストルム中捜しまくっても\n見つからなかったのは確かだけど。=I have no idea where they are preserved or in what form though. There was no clue when we were searching, at least in Astrum.
 でも。\nここも、けっこうさがした。=But, over here, we've searched as well.
@@ -105,8 +105,8 @@ r:"^(.{2,10})たちは、\n謎の魔物に破壊されてしまったジオ・�
 プレシアちゃん、何か手がかりになりそうな匂いとかは……=Precia-chan, do you smell anything that might be a hint...?
 ……してない。=...Nothing.
 諦めるつもりなんか、さらさらないけど……\nさすがにそろそろ、成果のひとつくらい欲しいわよね。\nちょっとでいいからさ。=I'm not going to give up, but... I'd like to get at least some result by now. Even just a little.
-結果的にはですけど、今回のことでライラエルさんとも\nお友だちになれましたし……もうちょっとこっちの事情を明かして、\n『ジオ・テオゴニア』のことを聞かせてもらえたらいいですね。=As it turns out though, we've made friends with Lailael because of this experience... It would be nice if we could reveal more to her of our circumstances and ask her about 『Gio Teogonia』.
-r:"^はい☆\nきっとライラエルさんのほうも、事情を聞きたいって思ってますよね。\nねっ、(.{2,10})くん──$"=Yes☆ I'm sure Lailael wants to hear what's going on too. Right, $1-kun─
+結果的にはですけど、今回のことでライラエルさんとも\nお友だちになれましたし……もうちょっとこっちの事情を明かして、\n『ジオ・テオゴニア』のことを聞かせてもらえたらいいですね。=As it turns out though, we've made friends with Lyrael because of this experience... It would be nice if we could reveal more to her of our circumstances and ask her about 『Gio Teogonia』.
+r:"^はい☆\nきっとライラエルさんのほうも、事情を聞きたいって思ってますよね。\nねっ、(.{2,10})くん──$"=Yes☆ I'm sure Lyrael wants to hear what's going on too. Right, $1-kun─
 ──あれっ？=Huh?
 あ、主さま？\nいったいどちらに……？=Ah, My Lord? \nWhere in the world are you going...?
 
@@ -215,7 +215,7 @@ Summary:
 逃げるってことは、あなたもニセモノなのかな？\nなら、お姉ちゃんがこらしめてあげないとね。\nいくよ……お姉ちゃんウィング☆=If you're running away, does that mean you're a fake too? In that case, Onee-chan will have to punish you. Come out... Onee-chan Wing☆
 えええぇぇっ！！？\nそれどうやって飛んでるんですか！！？\n待って、こんなのありえな……きゃあああぁぁぁっ！！=Heeeeeh?!! How is that flying?!! Wait, this can't be happening... Hyaaaaah!!
 ……はあぁぁぁ、うぅ……\nどうしてこんなことに……=...*deep sigh*, uuugh... How did this happen...?
-あのキノコには、楽しい夢を見せる作用があったみたいですね。\n……なのでトモさん、そんなに気に病まなくても……=Those mushrooms seem to have the side effect of showing you pleasant dreams. ...So you don't need to worry too much about it Tomo...
+あのキノコには、楽しい夢を見せる作用があったみたいですね。\n……なのでトモさん、そんなに気に病まなくても……=Those mushrooms seem to have the side effect of showing you pleasant dreaMiss ...So you don't need to worry too much about it Tomo...
 あはは、キノコのせいかぁ……\nそういえば前にジュンさんが、\n「野生のキノコには気を付けて」って言ってたっけ……=Ahaha, so it's because of the mushrooms huh... Come to think of it, Jun once told me before to "be careful with wild mushrooms"...
 それなのに、あれだけ大口を叩いておいて……\n幻覚で前後不覚になったあげく、あんな恥ずかしい姿まで──=And yet, after that boastful speech... To have hallucinations and lose track of what's going on, to the point of ending up in such an embarrassing state─
 トモちゃんの恥ずかしいとこ、お姉ちゃんも見たかったな～\nいったいなにがあったの？　弟くんが増えたり、\n魔法少女になったりしたのは覚えてるんだけど……=Onee-chan wanted to see Tomo-chan's embarrassing side, too~ \nWhat in the world just happened though? I only remember having more lil' brother and them becoming Magical Girls...
@@ -249,7 +249,7 @@ Summary:
 わ、わかった、まずは話し合おう！　内容次第では譲歩するから！\n……だ、だから、近づかないでってば～！=A-Alright, let's have a discussion first! I'll allow some leeway depending on what you're wanting to do with me! ...S-so please, stay away from me!
 あはは……\nお二人とも元気そうでなによりです。=Ahaha... I'm glad to see those two are doing well.
 ……楽しい夢を見る以外の副作用は\nなかったみたいですね、あのキノコ。\n一時はどうなることかと思いましたけど……=...It seems that the mushroom has no side effects other than giving a pleasant dream. For a moment, I was wondering what would happen though...
-でも、そんなにおいしくて副作用が夢だけなら……\nひと口、食べてみたかったなぁ……\nわたしならどんなものが見えるのか気になるし……なーんて。=But if it's that delicious and the side effects are just dreams... I wish I could have taken a bite... I'm curious to see what I'd dream of... \nJust kidding!
+でも、そんなにおいしくて副作用が夢だけなら……\nひと口、食べてみたかったなぁ……\nわたしならどんなものが見えるのか気になるし……なーんて。=But if it's that delicious and the side effects are just dreaMiss.. I wish I could have taken a bite... I'm curious to see what I'd dream of... \nJust kidding!
 ──ク、クリアちゃんっ！　シズルさんを止めてっ！\n今の私にはお姉ちゃんパワーを受け止めきれない！\nクリアちゃんのほうでなんとか……！=Q-Quria-chan! Stop Shizuru! I can't handle her Onee-chan Power right now! Please do something Quria-chan...!
 あっ、はい！　今、行きます！\nわたしで受け止めきれるかはわかりませんけど……=Ah, yes! I'm coming! I don't know if I'll be able to handle it though...
 木陰に生えたキノコをちらりと見やりながら……\nクリアはトモを追いかけ回すシズルをなだめ、街へと戻ったのだった。=Glancing at the mushrooms growing in the shade of the trees...Quria managed to calm Shizuru, who was chasing Tomo around, and then they headed back to the city.
@@ -258,7 +258,7 @@ Episode 2:
 宣戦布告=Declaration of War
 
 Summary:
-r:"^ライラエルは(.{2,10})にこの世界に来た本当の目的を尋ね、事情を知った彼女は自身の想いと共に「もう一つの世界」の存在を告げた。そんな折、一同はフレイヤと名乗る人物から宣戦布告を受ける。$"=Lailael asked $1 what his true purpose in coming to this world was, and when she learned about the circumstances, she told him about the existence of 「another world」 along with her own feelings. At that moment, everyone received a declaration of war from someone who called herself "Freiya".
+r:"^ライラエルは(.{2,10})にこの世界に来た本当の目的を尋ね、事情を知った彼女は自身の想いと共に「もう一つの世界」の存在を告げた。そんな折、一同はフレイヤと名乗る人物から宣戦布告を受ける。$"="Lyrael asked $1 what his true purpose in coming to this world was, and when she learned about the circumstances, she told him about the existence of 「another world」 along with her own feelings. At that moment, everyone received a declaration of war from someone who called herself "Freiya"."
 
 ャッスル・オブ・パルフェ～王座の間～=The Royal Throne Room
 遠くの魔物たち=Monsters in the distance
@@ -369,13 +369,13 @@ Cutscene:
 あっ！？\n消えちゃいましたよあのひとっ！=Ah!? That person disappeared!
 映像魔法切っただけよ。\n空中にあんなでっかい魔法陣作ってるなら、\nたぶんその真下とかでふんぞり返ってるでしょうけど──=She just turned off the image projection magic. If she's making such a huge magic circle in the air, she'd probably be chilling right underneath it or somewhere close~
 みなさま！\nご無事ですね……！=Everyone! I hope you're still safe...!
-ライラエルさんっ！=Lailael!
+ライラエルさんっ！=Lyrael!
 たたた大変なんですますお姫さまっ！\nなななんだか黒幕っぽい女のひとがセンセンフコクを～っ！！=I-I-It's terrible Your Highness! F-f-for some reason a woman who seems to be the mastermind behind all this made a Declaration of War!
 状況は、粗方把握しています。\nヴォルガーノ、城の入り口は？=I have a rough grasp of the situation. Volgano, how's the situation at the entrance of the castle?
 しばらくヘーキだ。\n俺の子分たちにゃ、なんかあったらすぐに全部の門を\n閉めるように言ってあっからな。=It'll be fine for a while. I'll tell my henchmen to close all the gates right away if anything happens.
 良いでしょう。\nではリンド、ヴルム。街の皆を城に避難させるように。\nわたしは──=Very well. Now then, Lind, Wyrm. Evacuate everyone in the city to the castle. As for me─
 わたしは城外に打って出て、魔物たちを一掃します。=I'll go out and wipe the monsters outside of the castle.
-お、お待ちくださいライラエルさま！\nそれってまた、『王家の装備』を使うってことですよね……！？=P-Please wait, Lady Lailael! That also means you're going to use 『Royal Equipment』 again?!
+お、お待ちくださいライラエルさま！\nそれってまた、『王家の装備』を使うってことですよね……！？=P-Please wait, Lady Lyrael! That also means you're going to use 『Royal Equipment』 again?!
 ダ、ダメですっ！\nいくら姫さまだって、あんなに敵がたくさんいたんじゃ……！=N-No! Even Her Highness won't be able to handle so many enemies at once...!
 そうですよ！\n魔物さんも黒幕さんも、わたしたちにどーんと任せてくださいっ！=That's right! Leave the monsters and culprits behind all this to us!
 r:"^わたしたちも、もちろん戦いますから！\nねっ、(.{2,10})くん！$"=We'll fight too! Right, $1-kun?!
@@ -388,7 +388,7 @@ r:"^わたしたちも、もちろん戦いますから！\nねっ、(.{2,10})�
 ぴいぃっ！！？\n何もしてないけどごめんなさいですます～っ！！？=Piiii!!? I didn't do anything, but please forgive me~!!?
 ──っ！\nご、ごめんなさいヴォルガーノ。\nそれにクルルやみなさまも、怖がらせてしまって──=*Gasp*! I-I'm sorry, Volgano. Kururu and everyone else too, for frightening you─
 ですが王家の装備を使う際には、このようになってしまいますし。\nそれに……叶うならこれ以上、誰の手を借りることもなく。\nわたしはわたしの愛する国の人々を、守りたいのです……！=But this is what happens when I use my Royal Equipment. And...if I am to fulfill my role, I need to be capable of at least this much. \nI don't want to forever rely on other's help. I want to protect the people of the country I love with my own hands...!
-あっ！\nライラエルさま、待ってくださ～いっ！=Ah! Lady Lailael, please wait!
+あっ！\nライラエルさま、待ってくださ～いっ！=Ah! Lady Lyrael, please wait!
 お二人とも、窓から飛び出してしまわれました……！=They both flew out the window...!
 僕たちも急いで助けに行こう！=Let's hurry up and help them!
 おいおい待て待て！\nいま城門閉まってるぞお前ら～っ！=Hey, hey, wait, wait! The castle gate's closed at the moment guys!
@@ -422,7 +422,7 @@ Summary:
 おう！　さっそく船に乗って海に繰り出すぜ！！\nとりあえず、港に行きゃ借りられるか？=Oh! Let's get on a boat and set sail to the sea at once then! \nCan we just go to a port and rent one right away for the time being?
 えっ？　船？　港？=Eh? "Boat"? "Port"?
 では港に向かってシュッパーツ！！\n……アユミさん、それで合ってマスカ？=Then let's head to a port with haste, ~Fwhoosh!! \n...Ayumi, are you okay with that?
-いやいや合ってないです！\nまずはライラエルさんたちに会って、\n話を通しておかないといけないんですって！=No, no, that's not what we agreed upon! First we must meet with Lailael's group and discuss things with them!
+いやいや合ってないです！\nまずはライラエルさんたちに会って、\n話を通しておかないといけないんですって！=No, no, that's not what we agreed upon! First we must meet with Lyrael's group and discuss things with them!
 漁に限らず、何事も早さが命だ。\nジオ・テオゴニアの魚を鮮度バツグンでいただくために、\n一分一秒も無駄にはできねぇからな……！=Speed is the key to everything, not just fishing. I can waste not a minute nor a second to enjoy the freshest, most wonderful fish from Gio Teogonia...!
 ナルホド、一理ありマース……\nここはワタシたちも、カズマサさんについていきまショウ！=Righto, you've got a point... If so, let us follow Kazumasa and go!
 ニ、ニノンさん！　丸め込まれちゃダメです！\n予定を守らなきゃ、モニカさんに怒られちゃいますよ！=N-Ninon-san! Don't let yourself get swept along with the wind! If we don't keep our schedule, Monika will get mad at us!
@@ -536,12 +536,12 @@ Chapter 3:
 ジオ・テオゴニアの民=People of Gio Teogonia
 
 Summary:
-城外に現れた魔物退治に向かう一同。リンドたちはライラエルから住民の避難誘導を命じられたが、彼女を想い、皆で国を守ることを選ぶ。一同は心を一つにしたジオ・テオゴニアの人々と共に魔物に立ち向かっていく。=Everyone is on their way to slay the monsters that appeared outside the castle. Lind and the others were ordered by  Lailael to evacuate the residents, but they choose to remain and fight alongside her to protect their country together. Together with the people of Gio Teogonia, they stand united and ready for the monsters.
+城外に現れた魔物退治に向かう一同。リンドたちはライラエルから住民の避難誘導を命じられたが、彼女を想い、皆で国を守ることを選ぶ。一同は心を一つにしたジオ・テオゴニアの人々と共に魔物に立ち向かっていく。=Everyone is on their way to slay the monsters that appeared outside the castle. Lind and the others were ordered by  Lyrael to evacuate the residents, but they choose to remain and fight alongside her to protect their country together. Together with the people of Gio Teogonia, they stand united and ready for the monsters.
 
 r:"^ライラエルや(.{2,10})たちは城の外に向かい、\nキャッスル・オブ・パルフェの大広間には\nリンドとヴルムが残されていた。$"=Laiael, $1, and the others headed outside the castle, leaving Lind and Wyrm in the great hall of the Castle of Parfait
-ちょっと、私たちも急ぎましょヴルム……！\nライラエルさまから、\n街の人たちの避難誘導を任されてるんだから……！=Hey, let's hurry too, Wyrm...! Lady Lailael entrusted us with evacuating the people of the city...!
+ちょっと、私たちも急ぎましょヴルム……！\nライラエルさまから、\n街の人たちの避難誘導を任されてるんだから……！=Hey, let's hurry too, Wyrm...! Lady Lyrael entrusted us with evacuating the people of the city...!
 ……だる。=...How bothersome.
-はぁっ！？　こ、こんなときに……！\nだるいとか面倒とか、言ってる場合じゃないでしょう！？\nライラエルさまたちが、戦いに出られているのに……！=Huh?! A-At times like this even...! This isn't the time to say things like "tiring" and "troublesome" is it?! \nEven though Lailael and the others are out fighting...!
+はぁっ！？　こ、こんなときに……！\nだるいとか面倒とか、言ってる場合じゃないでしょう！？\nライラエルさまたちが、戦いに出られているのに……！=Huh?! A-At times like this even...! This isn't the time to say things like "tiring" and "troublesome" is it?! \nEven though Lyrael and the others are out fighting...!
 それは、そうだけど。\n……てか。=That's true, actually... \nHowever...
 王家の装備関係なしで。\nうちのお姫さまは、ペコリーヌさんと違って\n戦いに慣れてるワケじゃないって思う。=Without the Royal Equipment, I don't think Her Highness is as used to fighting as Pecorine.
 そ、そんなこと！\nヴルムに言われなくても、知ってるわよ……！！\n私だって、すっごい心配してるの！=Th-That’s not it! \nYou don’t have to tell me, Wyrm...!! I’m really worried too!
@@ -585,10 +585,10 @@ r:"^ライラエルや(.{2,10})たちは城の外に向かい、\nキャッス�
 姫さまからの、伝言かのう……？=Is this a message from our princess...?
 リンドちゃん！\n通信魔法で呼ばれちゃいましたけど、どうしたんですかっ！？=Lind-chan! I was called by communication magic. What's wrong?!
 そうですよ～っ！\n魔物さんがそこまで来てて、\n姫さまはもう戦ってらっしゃるのにっ！=Yeah~! The monsters have come that far in, and Her Highness has already started fighting!
-えっと、えっと……\nそ、そうですみなさんっ！\nライラエルさまは今、戦っているんです！=Um, umm... \n Everyone, you're right! Lady Lailael is out there fighting right now!
+えっと、えっと……\nそ、そうですみなさんっ！\nライラエルさまは今、戦っているんです！=Um, umm... \n Everyone, you're right! Lady Lyrael is out there fighting right now!
 この国を、私たちを守るためにです！\nそれなのに、私たちには隠れてろって言って……！=To protect this country, to protect us! And yet, she told us to hide...!
 私……これまでいつも、姫さまに言われたこと、\nぜんぶ守ってきました。\nでもっ……=I... I've always followed everything Her Highness told me. But...
-今日初めて、ライラエルさまの言いつけを破ってしまいたいって。\nそう、思っちゃったんです……！=Today, for the first time I want to defy Lailael-sama's orders. That's what I've been thinking...!
+今日初めて、ライラエルさまの言いつけを破ってしまいたいって。\nそう、思っちゃったんです……！=Today, for the first time I want to defy Lyrael-sama's orders. That's what I've been thinking...!
 でも、そうしたらきっと、\n怖い方の姫さまに怒られると思うんですけどっ……=But if I do that, I'm sure the "frightening" Her Highness will get mad at me...
 だっ、だからっ……そのっ！\nヘンなお願いかもしれないですけど！\nみなさんも……！=T-That's why... Um! This might be a strange request, but...! \nEveryone...!
 どうかみなさんも、私と一緒に戦って……怒られてくれませんかっ！？=Will you all fight alongside and ... not get mad at me?!
@@ -614,10 +614,10 @@ r:"^ライラエルや(.{2,10})たちは城の外に向かい、\nキャッス�
 うおおおお～っ！！=Uwoooooh!!
 このジオ・テオゴニアを──\nそして、わたしを守るために。\nこんなにも多くの皆が立ち上がってくれる。……それに、騎士たちも……=To protect Gio Teogonia and me, so many people have stood up and take action. ...Even Sir Knight's group...
 ──クローチェ。どうやらわたしは、\n王家の装備を使わずとも……傲慢だったようです。\n自分だけで、すべてを守ろうなど……=-Croce. It seems I was too full of myself...even without the use of Royal Equipment, to think that I can protect everything with this own lone self...
-ライラエルさまっ！？\nしっかり～っ！=Lady Lailael?! Hang in there!
+ライラエルさまっ！？\nしっかり～っ！=Lady Lyrael?! Hang in there!
 だ、大丈夫……です。\nしかし……後先を考えず、力を使い過ぎたかもしれません……\n先走っておきながら、情けないですが……=I-I'm... alright. But... I might have used too much power without thinking about the consequences... It's pathetic of me to get ahead of myself like this...
 あとはわたしたちに、お任せくださいっ！\nみんなで協力して、魔物さんたちを倒しちゃいますからっ♪=Please leave the rest to us! We'll all work together to defeat the monsters♪
-プリンセス・ライラエルは前線から下がったようね。\n代わりにユースティアナたちが来て……状況は少し変わりそう。\n呼んでもいない闖入者が、手ぐすねを引いているようだし。=It seems that Princess Lailael has withdrawn the front lines. While the Eustiana's group has arrived in her place... \nThe situation also seems to be changing slightly, as if there are invited intruders lurking, waiting to make a move.
+プリンセス・ライラエルは前線から下がったようね。\n代わりにユースティアナたちが来て……状況は少し変わりそう。\n呼んでもいない闖入者が、手ぐすねを引いているようだし。=It seems that Princess Lyrael has withdrawn the front lines. While the Eustiana's group has arrived in her place... \nThe situation also seems to be changing slightly, as if there are invited intruders lurking, waiting to make a move.
 やりすぎず、加減しすぎず──仕掛けを垂らしてやらなくては。\nこちらの狙いを、悟られないように……=I can't overdo it, yet also can't be too easy on her. \nI need to be meticulous while setting things up, so that she doesn't realize what I'm after...
 r:"^ラモリール平原を舞台に、ぶつかりあう魔物の群れと\n『ジオ・テオゴニア』の人々、そして(.{2,10})一行。\nそして──$"=Within the Lamorir Plains, the people of『Gio Teogonia』, along with $1's party, clash against the swarms of invading monsters. And then─
 ──ひひっ♡=Hihii♡
@@ -636,8 +636,8 @@ Summary:
 
 ──裏世界『ジオ・テオゴニア』。\nキャッスル・オブ・パルフェに続く、ラモリール街道付近──=─『Gio Teogonia』Reverse World, near the Lamorir Highway leading to the Castle of Parfait
 空に浮かぶ魔法陣から召喚された\n幾多のランドソルの魔物たちが、\n平和を謳歌していたその世界の草花を踏み荒らす。=Numerous Landosol monsters are being summoned from the magic circle floating in the sky, trampling over the plants and flowers of this peaceful world.
-r:"^(.{2,10})たちに宣戦を布告した謎の女性、『フレイヤ』。\n彼女は魔物たちで埋め尽くされた陣の向こうから、\n見えざる力で指揮を送る。$"=A mysterious woman, calling herself "Freiya", declared war on $1 and the others. From the other side of the magic circle, she command the monsters with an unknown power.
-ジオ・テオゴニア側の重要戦力であるプリンセス・ライラエルは\n力の消耗と強化された魔物たちの攻撃で負傷し、後退。\n戦況は一気に傾くかと思われたが──=Princess Lailael, a powerful and essential individual on the side of Gio Teogonia, was injured due to overexerting her power and the attacks of the strengthened monsters, and has retreated. The tide of battle seemed to tilt all at once, but then─
+r:"^(.{2,10})たちに宣戦を布告した謎の女性、『フレイヤ』。\n彼女は魔物たちで埋め尽くされた陣の向こうから、\n見えざる力で指揮を送る。$"="A mysterious woman, calling herself "Freiya", declared war on $1 and the others. From the other side of the magic circle, she command the monsters with an unknown power."
+ジオ・テオゴニア側の重要戦力であるプリンセス・ライラエルは\n力の消耗と強化された魔物たちの攻撃で負傷し、後退。\n戦況は一気に傾くかと思われたが──=Princess Lyrael, a powerful and essential individual on the side of Gio Teogonia, was injured due to overexerting her power and the attacks of the strengthened monsters, and has retreated. The tide of battle seemed to tilt all at once, but then─
 ──オラオラオラァッ！\nかわいいかわいい猫妖精の力、\n目ン玉かっぴらいて見さらせってんだこの野郎ッ！=─Oraoraoraoraaaa! Witness the power of this cute and adorable cat fairy, you bastards!
 こ、こええけど……\nケンカしちゃダメって、ママに言われてきたけど……\nみんなを守るためなら、俺だってっ……！=I-It's scary... Mama has always told me not to get in fights... But if it's to protect everyone, I'll do it...!
 がんばんな男衆！\nケガしたら、すぐ治したげるからね！=Good luck, men! If you get hurt, I'll heal you right away!
@@ -670,7 +670,7 @@ r:"^(.{2,10})たちに宣戦を布告した謎の女性、『フレイヤ』。\
 あわわっ！\nオ、オニギリさんっ、落ち着いてくださいです！\nだいじょぶですから～っ！=Awawa! Onigiri, please calm down! Everything's all right~!
 ──せーのっ！\nダブルロケットパーンチっ！！=One, two! Double Rocket Punch!!
 よっ、と！=And... hup!
-──ヴォルさ～んっ！\nお空の魔物さん、ぜんぶやっつけましたよっ！\n半分以上はライラエルさまが倒してくださってましたけどっ！=─Vol-saaan! I took out all the monsters in the sky! More than half of them were cleaned up by Lady Lailael though!
+──ヴォルさ～んっ！\nお空の魔物さん、ぜんぶやっつけましたよっ！\n半分以上はライラエルさまが倒してくださってましたけどっ！=─Vol-saaan! I took out all the monsters in the sky! More than half of them were cleaned up by Lady Lyrael though!
 おう、クロ！\n姫さんは無事かよ！？=Hey, Cro! \nIs the princess all right?!
 はいっ、大丈夫ですっ！\nお城に戻られましたので！\nお医者さまにお手当てしてもらってると思いますっ！=Yes, she's fine! \nShe has returned to the castle! I think the doctor is treating her!
 わたしもまだまだ戦えますよっ！\nちょっと遠いですけど、ナイトさんから充填してもらってますし！\nヴォルさんたちのほうはどうですかっ？=I can still fight, too! It's a little far away, but Naito-san is charging me! \nWhat about Vol and the others?
@@ -705,7 +705,7 @@ r:"^(.{2,10})たちに宣戦を布告した謎の女性、『フレイヤ』。\
 きゃゎっ……！！？=Hyaaa...!!?
 ぐぬっ……\nム、ムチャすんなクロ！\n正面から行ったんじゃ、この前の俺の二の舞だぞっ！？=Grrr... D-Don't do anything reckless, Cro! If you go head-on, you'll end up like me the other day!
 だっ、大丈夫です！\nわたし、機械人族なのでっ！\n性能以上のムチャはできませんからっ……！=I-I'm fine! I'm an android! I can't do anything beyond my capabilities...!
-だからだからっ、\nみなさんやライラエルさまに\nこれ以上ムチャをさせないためにもっ……！=That's why, to prevent everyone, including Lady Lailael from doing anything reckless like that any further...!
+だからだからっ、\nみなさんやライラエルさまに\nこれ以上ムチャをさせないためにもっ……！=That's why, to prevent everyone, including Lady Lyrael from doing anything reckless like that any further...!
 わたしっ……フル、パワーッ！=I'm going ... full power!
 ざんねんでした～♡\nこっちもメカだけど、馬力が違います～♡=Too bad~♡ This one's a mech too, but its horsepower is different~♡
 ご、ごめんね\nワッカちゃん、パンクちゃん、スキッドちゃん、カーカスちゃん、\nいっつもムチャさせちゃって……！=I-I'm sorry, Wakka-chan, Punk-chan, Skid-chan, Carcass-chan, I've always been doing these reckless things...!
@@ -763,7 +763,7 @@ Summary:
 君は、いったい何者なの？=Who exactly are you?
 ずいぶんと、質問責めをしてくれますね。=You're asking too many questions.
 はんっ！\n今ここで余裕あるうちに喋るか、牢屋でゴーモンされてゲロるか、\n好きなほう選ばせてやるって言ってんの！=Hah! You can talk now while there's still time, or spit everything out in the rotting jail. \nChoose whichever you want!!
-キャルさま……\nそのような態度では、売り言葉に買い言葉となってしまいますよ。=Ms. Kyaru... if you behave like that you're stooping to her level.
+キャルさま……\nそのような態度では、売り言葉に買い言葉となってしまいますよ。=Miss Kyaru... if you behave like that you're stooping to her level.
 いーのよ先にケンカ売ってきたのはあっちなんだから！=It's fine. She's the one who picked a fight with us first!
 ええ。\n覇瞳皇帝の元プリンセスナイトの言う通り\n宣戦布告をしたのはこちらです。=Yes. Just as the former Princess Knight of Kaiser Insight said, it is I who made the declaration of war.
 そして、嚮導老君の娘の問いかけに答えるならば。\nたしかにこの世界における魔物の跳梁跋扈は、私の手によるもの。\n状況証拠、という言葉もありますし……言い逃れなどしません。=And to answer the question of the Great Guidance's daughter... Indeed, I am also the one responsible for the monsters running rampant in this world. \nThere are also these so-called "circumstantial evidences", that I won't make any excuses.
@@ -860,7 +860,7 @@ r:"^負けてられませんっ！\n(.{2,10})くん、もっともっと強化�
 おなかも。\nからっぽ。=My stomach. Empty.
 もうひとがんばりですよプレシアちゃん、クルルちゃんっ。\nここで負けるわけにはっ……！=Please give it one more push, Precia-chan, Kururu-chan. We can't afford to lose here...!
 ──みなさま。\n後はお任せを。=-Everyone. Leave the rest to me.
-──っ！\nプリンセス・ライラエル……\nへたばって引っ込んだんじゃなかったのかい！=...! \nPrincess Lailael... Didn't you just fall back?!
+──っ！\nプリンセス・ライラエル……\nへたばって引っ込んだんじゃなかったのかい！=...! \nPrincess Lyrael... Didn't you just fall back?!
 皆が力を尽くしているというのに。\nあれしきの負傷で、いつまでも休んでいることができましょうか。\nそれに──=How can I continue to rest knowing that everyone's giving their utmost effort to do their part, with an injury like this? \nFurthermore─
 ──侮るな、奸賊めが。\n貴様ら如き土匪の風情に、\n何条もって逃げ隠れする故などあろうか。=Do not underestimate me, wicked thief. In what possibility do I have a reason to run and hide in the presence of a meager bandit like you?
 ……ッ！\nそっちこそ、ナメんじゃないよ！\n『シャークキャノン』、対空砲火！=...! Don't you dare look down on me! \nShark Cannon, anti-aircraft fire!
@@ -878,13 +878,13 @@ Substory XIV:
 きらめく石と商人魂=Sparkling Stone and a Merchant's Spirit
 
 Summary:
-裏世界の復興を支援するカリンとクレジッタは、嘆願に来たク\nルルを助けて感謝される。お礼の魔宝石を使ってカリンにいた\nずらをするクレジッタだが、同じく魔宝石の力で宝石に閉じ込\nめられてしまうのだった。=Karin and Creditta, who are supporting with the reconstruction work in the Reverse World, help and are thanked by Kururu when she came to plead them for assistance. Despite Creditta using the magic gems received as thanks to play a prank on Karin, she herself ends up trapped in a gemstone by the power of the same magic gems.
+裏世界の復興を支援するカリンとクレジッタは、嘆願に来たク\nルルを助けて感謝される。お礼の魔宝石を使ってカリンにいた\nずらをするクレジッタだが、同じく魔宝石の力で宝石に閉じ込\nめられてしまうのだった。=Karin and Creditta, who are supporting with the reconstruction work in the Reverse World, help and are thanked by Kururu when she came to plead them for assistance. Despite Creditta using the magic gems received as thanks to play a prank on Karin, she herself ends up trapped in a gemstone by the power of the same magic geMiss
 
 かりりんちゃん=Karin-chan
 
 ペコリーヌに溜まった公務を処理させるべく、\nクレジッタとカリンは『ジオ・テオゴニア』にやってきた。\nだが──=Creditta and Karin came to Gio Teogonia to take care of the official duties that had accumulated in Pecorine's absence. However─
 ──なぁ～～～んでわたくしが\nこんなことしなくちゃいけませんの～っ！？=Whhhhhyyyy do I have to do all of this again?!
-なんでもなにも……\nクレジッタさんが二つ返事で引き受けちゃったからでしょう？\n『ジオ・テオゴニア』の復興予算の財務処理。="Why" you say... \nIsn't it because Ms. Creditta readily agreed to take on the task? The financial management of 『Gio Teogonia』's reconstruction budget.
+なんでもなにも……\nクレジッタさんが二つ返事で引き受けちゃったからでしょう？\n『ジオ・テオゴニア』の復興予算の財務処理。="Why" you say... \nIsn't it because Miss Creditta readily agreed to take on the task? The financial management of 『Gio Teogonia』's reconstruction budget.
 復興支援緊急対策本部──と銘打たれた、\nキャッスル・オブ・パルフェの大広間にて。\n二人は復興予算を嘆願する書類の山に包囲されていた。=In A large hall within the Castle of Parfait, dubbed as the Emergency Response Headquarters for Reconstruction, two people are being surrounded by a mountain of document papers, their contents pleading for reconstruction budgets.
 あ、あれは……\nちょっとしたリップサービスで申し上げたまででしてよ！？\nそう、ほんの社交辞令！　ジェネリックプラティチューズですわっ！=Uhh, that was ... just some lip service, okay?! I was just being polite! \nGeneric platitudes, as they say!
 そうなんですか？　私はてっきり、\nペコリーヌさん直々のお願いでしたから断れなかったのかと。=Is that the case? \nI was pretty certain that you couldn't bring yourself to refuse a direct request from Pecorine.
@@ -894,7 +894,7 @@ Summary:
 ええ、ええ、ご覧のありさまでしてよ！\n城の前には長蛇の列！　朝っぱらから書類仕事！=Yes, yes, and now look at the current spectacle! A long line in front of the castle! Paperwork first thing in the morning!
 ふふふ、私にとってはいつも通りですけどね。\nといっても文化圏が違うせいか、書式はちょっと独特ですけど……=Hehehe, it's usual business for me. \nThat said, the format is a bit unique, perhaps because of the cultural differences...
 そこですわそれですわ！\nどうしてこの国、貨幣にコインチョコやクッキーを使ってますの！？\n何度見てもお菓子のレシピにしか見えませんわよ！？=Then there's that too! \nWhy is this country using chocolate coins and cookies for currency?! No matter how many times I look at it, does it not look like a recipe for making sweets?!
-あっ、すみませんクレジッタさん。\n先ほど確認いただいた、こちらの書類なのですが……=Oh, if you excuse me, Ms. Creditta. About the documents you checked earlier...
+あっ、すみませんクレジッタさん。\n先ほど確認いただいた、こちらの書類なのですが……=Oh, if you excuse me, Miss Creditta. About the documents you checked earlier...
 なになに、急になんですの？\n……計算ミスでもありまして？=What about it all of a sudden? ...Did I miscalculate or something?
 ここで言うクッキーは、チョコチップクッキーなので、\nクッキーの10倍の価値で計算し直してください。=These cookies are chocolate chip cookies, so please recalculate them at ten times the value of normal cookies.
 チョコチッ……！？\nはぁ～～～っ？　とんだ引っかけ問題ですわね！？\n屈辱ですわ！　まがりなりにも元商人であるこのわたくしが──=Chocolate chi...!? Haaaaa～～ \nFell to a trick question! Such humiliation! \nAnd to dare call myself a former merchant─
@@ -932,19 +932,19 @@ Summary:
 却下ですわよ、却下！\nまともに書けるようになってから出直しておいでなさい！=No, can, do. \nRejected! Come back when you're able to write properly!
 そんなぁですっ……！\nわたしの遊園地、どこもかしこもボロボロで……\nこれからいったいどうしたら……うううぅ～っ！=Please no...! My amusement park is already in complete tatters... \nWhat should I do from now on...? Uuuu~!
 ぐっ、そんな捨てウサギのような目で見られましても……\n大体、様式も守っていない書類では\nこちらも対処しようがありませんわ！=Ugh, don't look at me like an abandoned rabbit like that... \nBesides, I can't process documents that don't follow the correct standard format!
-まあまあクレジッタさん。そう言わずに。\nクルルさんも、そんな世界の終わりみたいな顔しないでください。=Now, now, Ms. Creditta. Don't say that. \nAnd Ms. Kururu, please don't make a face like it's the end of the world.
-私とクレジッタさんで、書類の作り直しを手伝いますから。\n幸い必要なものはちゃんと書かれているみたいですし。=Ms. Creditta and I will help you remake the paperwork. \nAnd fortunately, it looks like everything you need is written down properly.
+まあまあクレジッタさん。そう言わずに。\nクルルさんも、そんな世界の終わりみたいな顔しないでください。=Now, now, Miss Creditta. Don't say that. \nAnd Miss Kururu, please don't make a face like it's the end of the world.
+私とクレジッタさんで、書類の作り直しを手伝いますから。\n幸い必要なものはちゃんと書かれているみたいですし。=Miss Creditta and I will help you remake the paperwork. \nAnd fortunately, it looks like everything you need is written down properly.
 さり気なくわたくしを含めないでいただけませんこと！？\nそもそもこの仕事自体、手伝うのは今日限りでしてよ！\n秘書１号を呼んだら、一足お先に帰らせて──=Could you please not casually include me in your work?! I can only assist you in this job for today to begin with! \nLet me call Secretary Number One over, and I'll take my leave right n─
 そうですか。では、陛下にもそう申し伝えておきますね。=I see. In that case, I'll report that to Her Majesty as well.
 謹んでお手伝いさせていただきますわ～！\nそちらのお席におかけになってくださいましっ！=Allow me to assist you however I can! Please kindly have a seat over there!
 その後、クレジッタとカリンの協力のもと、\nクルルは小一時間ほどをかけて、どうにか嘆願書を完成させたのだった。=After that, with the help of Creditta and Karin, Kururu has managed to complete her documents in about an hour’s time.
-──はい、確かに受理させていただきました。\nお疲れさまです。クルルさん。=-Yes, we have indeed received and accepted it. Thank you for your hard work, Ms. Kururu.
+──はい、確かに受理させていただきました。\nお疲れさまです。クルルさん。=-Yes, we have indeed received and accepted it. Thank you for your hard work, Miss Kururu.
 あああっ、ありがとうございますですっ！\nなにからなにまでお世話になって、お二人にはもう感謝感謝で！=Aaaah, thank you so much! \nThank you for everything you've done for me, I am so grateful to you both!
 オホホホホ、お安い御用でしてよ。我が親愛なる\nユースティアナ陛下より仰せつかった、復興支援のためですもの。\n……ですがこれきりにしてくださいまし。二度目はなくってよ。=Ohohoho, it's nothing but a trivial task. \nFor it is no one else but my beloved Majesty Eustiana ordered for the reconstruction. \n...However, let this be the end of it. There shall be no second time.
-クレジッタさんはこう言ってますが、\n私たちでよければいつでも相談しにきてくださいね。\nまだまだ大変でしょうから。=Ms. Creditta might say that, but you can always come and talk to us. \nIt's still very diffcult, and going to be plenty of work from now on.
+クレジッタさんはこう言ってますが、\n私たちでよければいつでも相談しにきてくださいね。\nまだまだ大変でしょうから。=Miss Creditta might say that, but you can always come and talk to us. \nIt's still very diffcult, and going to be plenty of work from now on.
 はいですっ！　それでですね、お二人には……\nぜひぜひ、これをもらってほしいです！\n助けてくれたお礼と、お近づきの印で！=Yes! And you two... I want you to have this, here! \nAs thanks for saving me, and as a token of our friendship!
 まっ！？\nな、なんて大きな宝石……って、騙されませんでしてよ。\nこの世界のことですしきっと飴玉か何かでしょうそうに決まってますわ。=Wha?! Wh-What a big jewel... \nWait, don't be fooled. Knowing this world, it must be candy or something, has to be.
-……飴玉、ですよね？\nありがとうございます、クルルさん。\n午後の仕事が終わったらいただきますね。=It's candy, right? \nThank you very much, Ms. Kururu. I'll have some after finishing the afternoon shift.
+……飴玉、ですよね？\nありがとうございます、クルルさん。\n午後の仕事が終わったらいただきますね。=It's candy, right? \nThank you very much, Miss Kururu. I'll have some after finishing the afternoon shift.
 あのあのっ、食べちゃダメです！\nごめんなさい、やっぱり食べられる方がうれしいですよね？=Um, um, you shouldn't eat it! \nI'm sorry, but I guess being able to eat it would make you happier?
 ……食べられる方？\n食べられない方の飴玉なんてものがありますの？\n毒を盛るには向いてないと思うのですけれど……=...Being able to eat it? Are there candies that you can't eat? \nI don't think candies would be suitable for poisoning though...
 ──ちょ、ちょっと待ってください！\nいま鑑定してみたんですけど……\nこれって、本物の宝石じゃないですか……！？=W-Wait a minute! I just tried appraising it, and... Isn't this a real gemstone?!
@@ -959,7 +959,7 @@ Summary:
 す、すごい……どれも見たことない大きさです。\nそれに、一つ一つ魔力が込められているみたいですね。\n量はまちまちですが……=W-Wow... I've never seen any of them before. And each one seems to be imbued with magical energy. The amount varies between, but...
 そうなんですです～っ！\n『グランドリームパーク』の乗り物を動かしたり、\nマスコットのかばばん君に変身できたり！　とっても便利なんですっ♪=That's righty~! They can move the vehicles『Grand Dream Park』, or transform into our mascot Kababan-kun! It's very convenient♪
 オ～ッホッホ！　マスコット？　馬鹿おっしゃいな♪\nそんなもの、着ぐるみと中の人を金で用意すれば済む話ですわ！\nこれをランドソルに持ち帰れば、億万長者でしてよォ～ッホッホ！！=Oh-ho-ho! Mascots? What foolish usage♪ Such things can be arranged with money for costumes and performers! \nIf you take this back to Landosol instead, we'll be a billionaire~ Ho-ho!!
-いえ、クレジッタさん……さすがにこれは受け取れませんよ。\n仮にもこの仕事は公務の一環で、その見返りにこんな高価なものを\n受け取ったら、収賄の疑いは免れません。=No, Ms. Creditta... We can't accept this. \nEven if this job is part of our official duties, to receive something this expensive in return, we won't be able to avoid suspicion of bribery.
+いえ、クレジッタさん……さすがにこれは受け取れませんよ。\n仮にもこの仕事は公務の一環で、その見返りにこんな高価なものを\n受け取ったら、収賄の疑いは免れません。=No, Miss Creditta... We can't accept this. \nEven if this job is part of our official duties, to receive something this expensive in return, we won't be able to avoid suspicion of bribery.
 なにをおっしゃいますの、カリンさんが黙っていれば済む話でしょう！\nわたくしたちは余計な仕事をこなして、ちょっとした対価を\n受け取っただけですわ。ちょっとばかりきれいなだけの石ころをね！=What are you saying? All we need to do is keep quiet Karin! \nAll we did was just some extra work and thus received a small bonus. Under the form of some pretty rocks!
 いいえ。\n特例の業務だからこそ、しっかり報告させていただきます。\nのちのち外交問題に発展する可能性もありますし……=No. This is already an exception in our regulations, so I'll be sure to report it thoroughly. \nThere's also a possibility it could lead to a diplomatic incident later on...
 かーっ、おカタいですわね！　これだからお役人は！\n……そんな減らず口は、こうしてやりますわ！=Gaaah, how rigid! Bureaucrats, I tell ya! \n...for your cheekiness, how about I do this!
@@ -991,7 +991,7 @@ Summary:
 ──えぇっ、これどうなってますの？\nこっ、この……！　かった！　これ宝石？　宝石の中！？\nちょっとカリンさん！　ここから出してくださいまし！=─Waah, What's going on with this? Th-This...! No way! Is this a jewel? I'm inside the jewel?! \nHey, Karin! Please let me out of here!
 いえいえ、ご遠慮なさらず。\n……そんなに宝石がお好きなら、その中でしばらく\nくつろいでいてください。私はお先に失礼しますね。=No, no, there's no need to be so modest. \n...If you like jewels that much, feel free to relax in them for a while. I'll be leaving first.
 お、お待ちになって！　一旦話し合いませんこと！？\nわわわ、わたくしといたしましては、復興事業の一助になればと……\nそう！　よかれと思ってしたことですのよ！？=H-Hold on! Why don't we have a small discussion first?! \nI-I-I only did it to help with the reconstruction project... That's right! I thought it would be for the best!
-それとクルルさん。とても素敵な贈り物ではありますが、\nやはり宝石は全部お返ししますね。\n私は職務を果たしただけなので、お気持ちだけで結構です。=Also, Ms.Kururu. It is a wonderful gift, but I must return all these gemstones. I only did my duty, so your sentiment is more than enough.
+それとクルルさん。とても素敵な贈り物ではありますが、\nやはり宝石は全部お返ししますね。\n私は職務を果たしただけなので、お気持ちだけで結構です。=Also, MissKururu. It is a wonderful gift, but I must return all these gemstones. I only did my duty, so your sentiment is more than enough.
 ふぇっ！？\nま、また全部戻ってきちゃったです……\nほんのちょっとでも、なにかお礼がしたかったですけど……=Fweh?! I-It's all back again... \nI just wanted to thank you in some way, even if it's just a little bit...
 なら、このあたりでおすすめのお店を教えてください。\nよければご一緒にお食事しながら、\n今後の計画についてもお話ししましょう。=In that case, why don't you tell me what restaurants would you recommend in the area? \nIf you'd like, we can discuss our plans for the future while we eat together.
 はっ、はいですっ！　でもでも、あのっ……\nクレジッタさんはあのままで大丈夫です？=Y-Yes! \nBut, but, um... Is it okay for Creditta to stay like that?
@@ -1005,7 +1005,7 @@ Chapter 6:
 もう一つの裏世界へ=To another Reverse World
 
 Summary:
-改めて今回のことを振り返り、一同は一連の事態の黒幕であるフレイヤを追うことに。それぞれの思惑が交錯する中、一同はライラエルたちに別れを惜しまれながら、新たな裏世界『ジオ・ゲヘナ』へと向かう。=Looking back at what has transpired, our protagonist group decides to pursue Freiya, the culprit behind the series of incidents. With their feelings conveyed and laid bare to each other, they reluctantly bid farewell to Lailael and her people, heading towards the new Reverse World 『Gio Gehenna』.
+改めて今回のことを振り返り、一同は一連の事態の黒幕であるフレイヤを追うことに。それぞれの思惑が交錯する中、一同はライラエルたちに別れを惜しまれながら、新たな裏世界『ジオ・ゲヘナ』へと向かう。=Looking back at what has transpired, our protagonist group decides to pursue Freiya, the culprit behind the series of incidents. With their feelings conveyed and laid bare to each other, they reluctantly bid farewell to Lyrael and her people, heading towards the new Reverse World 『Gio Gehenna』.
 
 三姉妹=Three Sisters
 アラクネの巣=Arachne's Nest
@@ -1017,19 +1017,19 @@ r:"^(.{2,10})たちは\n『フレイヤ』と彼女の呼び出した魔物、\n
 奸賊らは、撃ち漏らしたか。\n甚だ業腹ではあるが──=Those criminals managed to get away. \nQuite regrettably so. However ...
 皆、大儀であった。\n一先ず褒めて遣わそう。=Everyone, you all did a great job. I will appraise you for the time being.
 えへへ、ありがとうございまーすっ♪=Ehehe, thank you very much♪
-……ライラエルさん、傲慢モードからなかなか戻らないですね……=...Lailael, she hasn't reverted back from her arrogance mode...
+……ライラエルさん、傲慢モードからなかなか戻らないですね……=...Lyrael, she hasn't reverted back from her arrogance mode...
 王家の装備の反動、ということでしたが。\nひょっとしたら、当面このままなのかも……=It's a side-effect to her Royal Equipment. \nPerhaps, she'll remain like this for the time being...
 あ。\nめいどらおねえさんたち。=Oh, Meidora Onee-san and everyone.
 無事に、終わったみたいですね。\nお疲れさまでした。=Looks like it's over without any incident. Good work.
 リンドちゃんもヴルムちゃんもっ！\n後方支援、ご苦労さまでしたっ！=Lind-chan and Wyrm-chan too! Thank you for your hard work with the logistical supports!
 いえ、みなさんに比べたら全然大したことは……\nあっ──=No, it's nothing much compared to everyone else... \nAh~
-……ライラエルさま。\nその……=...Lady Lailael. Um...
+……ライラエルさま。\nその……=...Lady Lyrael. Um...
 リンド。\nそれにヴルム。=Lind, Wyrm.
-お前たちは、このライラエルの従僕という立場も弁えず。\n民を逃がせという命に背いたな？=You have failed to respect your positions as servants of Princess Lailael, defied my order and let our people escape, didn't you?
+お前たちは、このライラエルの従僕という立場も弁えず。\n民を逃がせという命に背いたな？=You have failed to respect your positions as servants of Princess Lyrael, defied my order and let our people escape, didn't you?
 ……はい。\n大変、申し訳ありません。=...Yes. Please forgive us for our transgressions.
 お叱りは、如何様にも。=Please reprimand us however you see fit.
 では。\n望み通り、裁きを言い渡す。=Then, as you wish, I will pass judgment on you.
-ちょ、ちょっと待ってください！\nリンドちゃんたちは、ライラエルさんのために──=H-Hang on a second! Lind and the others did this all for Lailael's sake─
+ちょ、ちょっと待ってください！\nリンドちゃんたちは、ライラエルさんのために──=H-Hang on a second! Lind and the others did this all for Lyrael's sake─
 ──ペコリーヌ姫。\nそれこそ、不遜というものである。=Princess Pecorine. \nWhat had transpired is unmistakably an insolent act.
 汝も国主であるなら、理解すべきであろう。\nいかに理不尽な命であろうと、それに背くは従者にあるまじきこと。\nひいては命を下した者の顔に、泥を塗ると同義なのだと。=Being a ruler of a country, it is expected of you to understand this. \nThat no matter how unreasonable your order may be, disobeying it is unbecoming of an attendant. \nAnd by extension, it is synonymous with smearing mud on the face of the one who gave you the order.
 おっしゃるとおりです。=It is as you say.
@@ -1038,7 +1038,7 @@ r:"^(.{2,10})たちは\n『フレイヤ』と彼女の呼び出した魔物、\n
 この勝利を祝し。\n国をあげて、盛大な宴の用意をするように。=To celebrate this victory, let's prepare a grand feast for the whole country.
 もうっ。\n次は、本当に怒りますからね。=But I'm really going to get angry next time.
 でも……皆が無事で、良かった。=But... I'm glad everyone's safe.
-……はい。\nライラエルさまも、ご無事で何よりです。=...Yes. I'm glad you're safe, too, Lady Lailael.
+……はい。\nライラエルさまも、ご無事で何よりです。=...Yes. I'm glad you're safe, too, Lady Lyrael.
 ひゅう～……\nお咎めなしみてーで安心したぜ。=Whew... I'm glad there won't be any punishment.
 隠れてたんですかヴォルさん。\nかっこわる。=Were you hiding, Vol? \nThat's not cool.
 普通に手当てしてもらってて遅れただけだから！\n俺さまもほんと頑張って戦ってたのよ必死にさぁ！=I was late just because I was getting patched up! \nAnd I've fought valiantly, too!
@@ -1112,7 +1112,7 @@ r:"^そして、数日後──\n(.{2,10})たちが、\n『ジオ・テオゴニ
 クロさんの代わりに、姉さんが泣いてもいいんですよ？\n「騎士さんたち、行かないでー」って。=Hey sis, you can start crying in place of Cro you know? \nSomething like「Kishi-san, everyone, please don't go!」
 泣きませんっ！\nもうっ。=I'm not going to cry! \nSeriously...
 ……まったく。やっと行ってくれるんですね。\nこの数日、ずーっと送別会のお祭り騒ぎで……\n用意する方の身にもなってほしいです。=...Honestly. Finally you'll be leaving. \nThese past few days have been nothing but farewell parties... I wish you could put yourself in our shoes to understand how exhausting it was to do all the preparations.
-リンドさまもヴルムさまも、大変お世話になりました。\nおふたりの働きぶりは従者として、とても勉強になりました。=Thank you very much, Ms.Lind and Ms.Wyrm, both for taking great care of us. \nAs an attendant, I have learned much from seeing how you two worked.
+リンドさまもヴルムさまも、大変お世話になりました。\nおふたりの働きぶりは従者として、とても勉強になりました。=Thank you very much, MissLind and MissWyrm, both for taking great care of us. \nAs an attendant, I have learned much from seeing how you two worked.
 それほどでも。=I didn't do that much.
 ヴルムはこっそりサボってたでしょ、もうっ！\nそれとっ……=Wyrm was secretly slacking off again? Haiz... \nAlso...
 グルメチェイサー号には、お弁当や保存食は積めるだけ積みましたけど。\nでも、『ジオ・ゲヘナ』でみなさんの口に合う食べ物が\n手に入るかわかりませんし……だ、だから……その……=The Gourmet Chaser was loaded with as many lunchboxes and preserved foods as it could carry. \n But I don't know if you'll be able to get food that suits everyone's tastes in 『Gio Gehenna』... \nS-So...umm...
@@ -1223,7 +1223,7 @@ choice
 なんか敵に、うさんくさいメガネ増えたし。\nてかアレ、あたし的にはダメだわ……\nジョブ的にもアヤシイし。腹ン中じゃなんか抱えてそうだしさ。=Somehow you keep getting more enemies like that suspicious glasses girl. I wouldn't want to be an enemy of a girl like that... \nHer actual role is suspicious too, it's like she's hiding her real intentions.
 君も抱えてそうだけど……=So you had it rough too...
 え～\nティア、なーんのことだかわかんなーい。=Ehh～ Tia has no idea what you're talking about～
-……あたしのことは、別にいーのよ。\nそれよりか……=...You don't have to care about my problems.\nMore importantly...
+……あたしのことは、別にいーのよ。\nそれよりか……=...You don't have to care about my probleMiss\nMore importantly...
 宿題の答え合わせ、しましょっか。\nあんまり引っ張ってても、次の話ができないしね。\nんじゃ──=Let's talk about your homework's answers, shall we? If I don't bring this up then we won't be able to move on.\nWell then──
 『どうして、認識の修正が必要なのか。』\n──……わかった？="Why is it important to correct people's perception of the world?"\n...You follow?
 頼む、頼むよォ！\n俺のmimiを返してくれよぉ～ッ！=Please, I beg of you! Please return my 'mimi'!
@@ -1329,7 +1329,7 @@ r:"^『……あのですね、(.{2,10})くん。\nわたし、ログアウト�
 先回りされてた……！？=He's ahead of us all this time...!?
 さっきは思わず、顔を出しちまったが。\nちょうど上から、GOサインが出たんでな。\n挽回も兼ねて、ここでお前さんたちを拘束させてもらう。=Up until now, I couldn't show my face. \nBut I've gotten the GO sign from my superiors, so I'll be restraining you people right here.
 『そ、そういうわけには……っ！』=「S-so that's why...!」
-さっきも言ったが──ここはゲームの中じゃない。\n腕っぷしで、どうにかなると思うなよ。=As I said earlier, you're not inside a game here. I don't think you'll be able to do anything with those arms.
+さっきも言ったが──ここはゲームの中じゃない。\n腕っぷしで、どうにかなると思うなよ。=As I said earlier, you're not inside a game here. I don't think you'll be able to do anything with those arMiss
 だから、抵抗はしないでくれ。\n昔の先輩からの教えでな。\n子ども相手に手荒なことはしたくないんだ。=So don't resist. \nConsider it a lesson from us adults. \nI don't want to be rough with childrens either.
 『うぅっ……\nでもっ……！』=「Ugh... But...!」
 ──ロランド捜査官！\n命令通り包囲と人払い、完了しました！=──Investigator Roland! As you ordered, we've finished encircling and securing the perimeter!
@@ -1339,7 +1339,7 @@ r:"^『……あのですね、(.{2,10})くん。\nわたし、ログアウト�
 これじゃ、逃げようがない！=We can't escape like this!
 では──ご同行を願う。\nユースティアナ元王女。\nそして、模索路晶の『少年』も。=Now then─ I hope you'll accompany me, Former Princess Eustiana. And Mosakuji Akira's boy.
 『キャルちゃーん！　助けてくださーい！』=「Kyaru-chan! Help me!」
-『キャルさま、どうかお力添えを……！』=「Ms.Kyaru, please lend us your aid...!」
+『キャルさま、どうかお力添えを……！』=「MissKyaru, please lend us your aid...!」
 『キャル……！』=「Kyaru...!」
 ふっふんっ♪\nったく、しょうがないわね～♪=Heheh♪ I guess It can't be helped♪
 あんたたちってば、\nあたしがいないとなーんにもできないんだからっ♪\nいくわよっ──=You guys sure are hopeless without me around♪ \nLet's go──
@@ -1462,7 +1462,7 @@ r:"^行くわよ(.{2,10})、ペコリーヌ！$"=Let's go, $1, Pecorine!
 『えっへへ……☆』=『Eheheh...☆』
 『キャルちゃあ～んっ♪』=『Kyaru-chaaan♪』
 『えへへへ☆\nリアルのキャルちゃんです～♪\nぎゅ～～～～！！』=『Ehehehe☆ It's Kyaru-chan in the flesh～♪ \nSqueeze!!』
-ふがっ！\nちょっ……ひっつくなアホリーヌッ！=Fugah! Hey... Don't cling to me, Ahorine!
+ふがっ！\nちょっ……ひっつくなアホリーヌッ！=Fugah! Hey... Don't cling to me, Dumborine!
 ……って、いいたいとこだけど……=...Or so I'd like to say, but...
 今日は特別に……\nちょっとだけ、ゆるしてあげる。\n助けてもらったぶんくらいは……=Today is special... so I'll forgive you, just a little. \nIn return for what you did for me...
 『うーん……？\nやっぱりこっちじゃ、いつものケモミミはないんですね……』=『Hmm...? I guess you really don’t have the usual furry ears over here...』
@@ -1499,7 +1499,7 @@ Choice:
 『あ～ごめんごめん。\n蛇じゃなくてドラゴンでした～♪』=『Ah~ Sorry, sorry. It's not a snake, but a dragon in this case～♪』 \n(TL note: The literal meaning of the idiom is "it is best to use a snake to fight a snake")
 『だから炎も、吐けちゃうんだな～これが♪』=『Which means it can breathe fire too～♪』
 ……火炎放射器内蔵型ドローンか……！=...A flamethrower drone...!
-ホマレさん、無事だったんだね！=Ms. Homare, you're safe!
+ホマレさん、無事だったんだね！=Miss Homare, you're safe!
 『ふふっ♪\nセルフバックアップのおかげで、ロストだけは避けられた感じかな～\nま、ちょっと厄介な状況にはなっちゃってるけどね～？』=『Hehe♪ Thanks to the self-backup, It seems I was able to avoid being Lost \nBut it's still quite a troublesome situation I'm stuck in, you know?』
 『おかげで気軽に、お外の空気を吸うこともムリなんだ～\nせっかくナマの君をぎゅーってできるチャンスなのに、悲しいよ～』=『Because of that, I can't even take a breath of fresh air outside so casually～ even though it's such a rare chance for me to give you a big hug\nI'm so sad』
 『でも、助かりました！\nありがとうございますホマレさんっ！』=『Still, you saved us! Thank you very much, Miss Homare!』
@@ -1519,7 +1519,7 @@ Choice:
 そのドローンを解析したら──\n本体への、手がかりになるか？=If we analyze that drone, will it be a clue to the main body?
 『さ～ぁ？\nでも悪いけど、あなたには無理だと思うな～\nいろんな意味でね♪』=Who knows? \nBut I’m sorry, I don’t think you’ll be able to do that～ in many ways♪
 ──捕獲する。=Capture it.
-『──っていう感じだったんです！\nホマレさんのことですから、きっとどうにかしてると思うんですが……』=『That’s what happened! \nKnowing Ms.Homare, I’m sure she'll figure something out...』
+『──っていう感じだったんです！\nホマレさんのことですから、きっとどうにかしてると思うんですが……』=『That’s what happened! \nKnowing MissHomare, I’m sure she'll figure something out...』
 なるほどね。\nエリスにやられて、ロストしちゃってたかと思ったけど。\n相変わらず、食えないやつね～=I see. \nI thought she had become Lost after Eris got her, but she's still as shrewd as usual～
 ……でもま。\n生きてるんなら、良かったわ。\n喜ぶやつもいるだろうし。=......but, well, if she's alive, then that's good. \nI'm sure some people will be happy about it.
 『……そうですね。\nホマレさんみたいに、自力でなんとかはならなくても……\nひょっとしたら、ロストした人だって助けられるかもしれません』=『...You’re right. \nEven if I can’t do something on my own like Miss Homare... Together we might still be able to save the Lost people.』
@@ -1533,7 +1533,7 @@ Choice:
 ……ありがと。\nでも……=...Thanks. But...
 今は、それでいいけどさ。\nそのうちまた、食べたいわね。\nあっちでしか食べられないおいしい料理。トゥンヌスとか──=I'll decline for now. \nBut I'd like to eat it again some other time. \nIt's a delicious dish that you can only have there. Like the Tunnus─
 『はい♪\nキャルちゃんの大好きな、魔物料理ですね☆』=Okay♪ \nSo that’s Kyaru-chan's favorite monster dish huh☆
-はあっ！？\nもう、何言ってんのよアホリーヌっ！=Huh?! Geez, what are you even saying Ahorine?!
+はあっ！？\nもう、何言ってんのよアホリーヌっ！=Huh?! Geez, what are you even saying Dumborine?!
 ……でもまあ。\nそれも、いいかもね。\nみんなで一緒なら、さ……！=...But, well. That might be a good idea. As long as we're all together...!
 
 Teaser:

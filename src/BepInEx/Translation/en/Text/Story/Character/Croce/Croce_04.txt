@@ -2,7 +2,7 @@
 野良猫=Stray Cat
 ティア=Tia
 
-r:"^夢の中で、(.{2,10})は千恵と名乗る少女と交流する。目覚めると、(.{2,10})と同じ夢を見ていたクローチェが、はじめて夢を見たことや夢の中での不思議な体験を楽しそうに語るのだった。$"=In the dream, $1 interacted with a girl who calls herself "Chie". When he woke up, Croce who had the same dream as $1, happily talked about the first dream she ever had and the amazing experience she had.
+r:"^夢の中で、(.{2,10})は千恵と名乗る少女と交流する。目覚めると、(.{2,10})と同じ夢を見ていたクローチェが、はじめて夢を見たことや夢の中での不思議な体験を楽しそうに語るのだった。$"="In the dream, $1 interacted with a girl who calls herself "Chie". When he woke up, Croce who had the same dream as $1, happily talked about the first dream she ever had and the amazing experience she had."
 
 行きますよ～っ♪\nダブルロケットぱーんちッ！！=Here I go♪ Double Rocket Punch!!
 ──ギャオオオオッ！=──Gyaoooooo!

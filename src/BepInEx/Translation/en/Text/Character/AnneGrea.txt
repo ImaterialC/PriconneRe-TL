@@ -18,12 +18,12 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ
 ##S1##
 フレンズリンケージ=Friends Linkage
 目の前の敵１キャラに魔法小ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。=Deals small M.DMG to an enemy in front twice. The M.DMG dealt increases according to number of [Magic Seal of Friendship]. 
-r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=Cast time: 1.59s\n►Deals $1 (+0.075×$1× \n[Magic Seal of Friendship]) M.DMG to an enemy.\n►Deals $2 (+0.075×$1× \n[Magic Seal of Friendship]) M.DMG to an enemy.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.
 
 ##S2##
 フレンズリード=Friends Lead
 自分がステータスアップ効果を受ける度に、【友情の魔印】が１つ追加される。【友情の魔印】は最大40まで追加される。さらに自分の魔法攻撃力と魔法クリティカルを特大アップさせ、ＴＰ上昇を小アップさせる。=Whenever Anne & Grea receives a boost, gains 1 [Magic Seal of Friendship], up to a maximum of 40. Also, greatly boosts own M.ATK and M.CRIT Rate, and slightly boosts own TP Boost.
-r:"^ステータスアップ効果を受けるたびに【友情の魔印】を付与する状態になる自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを200アップ自分のＴＰ上昇を15アップ$"=Cast time: 0.59s\n►When receives a boost, gains 1 [Magic Seal of Friendship].\n►Boosts own M.ATK by $1 for 180s.\n►Boosts own M.CRIT Rate by 200 for 180s.\n►Boosts own TP Boost by 15 for 180s.
+r:"^ステータスアップ効果を受けるたびに【友情の魔印】を付与する状態になる自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを200アップ自分のＴＰ上昇を15アップ$"=►When receives a boost, gains 1 [Magic Seal of Friendship].\n►Boosts own M.ATK by $1 for 180s.\n►Boosts own M.CRIT Rate by 200 for 180s.\n►Boosts own TP Boost by 15 for 180s.
 
 ##EX##
 マナリアハート=Manaria Heart

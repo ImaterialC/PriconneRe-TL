@@ -399,7 +399,6 @@ r:"^主さま……ではなく、(.{2,10})さま。\nこの度はわたくし�
 もごもごしゃべってんじゃねぇぞ！\nさっきまでガキ相手に普通にしゃべってただろうが！\n俺はな、相手を見て態度変える奴を見るとむかつくんだよ！=Don't mumble, and speak clearly! Just a moment ago, you were talking normally with that kid! You know, it really pisses me off when I see someone change their attitude depending on who they're talking to!
 ひっ！？\nも、申し訳ありません……！\nあの、これ以上は、邪魔をいたしませんので……=Eeh!?\nI-I'm terribly sorry...!\nUm, I won't disturb you any further...
 やめてください。=Please stop.
-r:"^(.{2,10})さま……$"="Mr. $1..."
 なんだてめぇ……割り込んできてんじゃねぇよ！\nお前も俺のワクワクアニマルアルバムの制作過程に文句あんのか！？=What the hell are you... interrupting me like that?!\nDon't you have any complaints about the process of making my Exciting Animal Album?!
 いけません、お下がりください……！\nもしけんかなどになったら、ケガをしてしまうかもしれません……！=You mustn't, please step back...!\nIf a fight were to break out, you might get injured...!
 ……わたくしの言ったことは、間違いじゃない？\nだからちゃんと伝えて、分かってもらおう……？\nそんなこと、可能なのですか……？=...What I said, it's not wrong, correct? \nSo please convey it properly and make sure it's understood...? Is such a thing even possible...?

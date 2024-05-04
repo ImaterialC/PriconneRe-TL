@@ -15,7 +15,7 @@ EX装備ショップで販売されているアイテムを、所持数の昇順
 
 EX装備選択を閉じる際の確認ダイアログ=Confirmation dialog when closing Ex Equipment selection
 
-EX装備選択で変更を反映せずに閉じる際に、確認ダイアログを表示するか設定します。=Set whether to display a confirmation dialog\nwhen closing without commit changes in Ex Equipment selection.
+EX装備選択で変更を反映せずに閉じる際に、確認ダイアログを表示するか設定します。=Set whether to display a confirmation dialog when closing without commit changes in Ex Equipment selection.
 
 EX装備上限解放の確認ダイアログ=Confirmation dialog for unlocking the upper limit of Ex Equipment
 EX装備を上限解放する際に、消費アイテムを確認するダイアログを開きます。=Open a dialog to confirm consumable items when unlock the limit break of Ex Equipment.
@@ -29,7 +29,7 @@ EX装備を消費する際に、アラート表示をするレアリティ条件
 ★4以上=+★4
 
 EX装備ショップ購入回数設定=EX Equipment Shop Purchase Quantity Settings
-EX装備ショップの購入時に、購入回数を最小回数か最大回数のどちらにするか設定します。=When making a purchase at the EX Equipment Shop, you can choose to set\nthe purchase quantity to either the minimum or maximum value.
+EX装備ショップの購入時に、購入回数を最小回数か最大回数のどちらにするか設定します。=When purchasing at the EX Equipment Shop, you can choose to set\nthe purchase quantity to either the minimum or maximum value.
 
 マスターショップ購入回数設定=Master Shop Purchase Quantity Settings
-マスターショップの購入時に、購入回数を最小回数か最大回数のどちらにするか設定します。=When making a purchase at the Master Shop, you can choose to set\nthe purchase quantity to either the minimum or maximum value.
+マスターショップの購入時に、購入回数を最小回数か最大回数のどちらにするか設定します。\n※マスターピースは対象外です。=When purchasing at the Master Shop, set whether to use the minimum or maximum number of purchases.\n※Masterpieces are not included.

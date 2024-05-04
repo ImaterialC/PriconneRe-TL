@@ -941,7 +941,7 @@ r:"^そして──(.{2,10})は\nどこまでも続く、美しい花畑の中�
 ……七冠……？\nいえ、それだけじゃない。\nまさか……！=...Seven crowns...? \nNo, it's not just that. \nI can't believe it...!
 騎士クーーーン！！=Kish-kun!!
 たあああああっ！！=Taaaaahhh!!
-花畑の中で目を覚ましたGiovanni。エリスは彼に寄り添い、この世界はもうすぐ閉じて二人だけの理想郷になるのだと話す。そしてGiovanniに自身の想いを告げ、最後の選択を促す。=﻿Giovanni woke up in a flower field. Ellis cuddled up to him and spoke about how this world would soon close and become their own utopia. Then, Ellis confessed her feelings to Giovanni and urged him to make the final choice.
+r:"^花畑の中で目を覚ました(.{2,10})。エリスは彼に寄り添い、この世界はもうすぐ閉じて二人だけの理想郷になるのだと話す。そして(?:.{2,10})に自身の想いを告げ、最後の選択を促す。$"="﻿$1 woke up in a flower field. Ellis cuddled up to him and spoke about how this world would soon close and become their own utopia. Then, Ellis confessed her feelings to $1 and urged him to make the final choice."
 うふふっ♪=Ufufu♪
 邪魔してごめんねエリスさま♪=I'm sorry for interrupting, Eris-sama♪
 でも私、たっくさん準備してきちゃったし？=But I've prepared so much, haven't I?

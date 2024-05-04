@@ -28,7 +28,7 @@ r:"^(.{2,10})くん、次はわたしもいいですかっ？\n戦いの前の�
 頑張って！=Do your best!
 行ってきます！=We'll be going then!
 わたしたちに反応しましたよ！\nさぁ、戦闘開始です！=It reacted to us!\nNow, the real fight's begun!
-分かってるわよね？\nGiovanniはその子をしっかりと守りなさいよ！=You know what to do, right?\nMake sure you protect that girl!
+r:"^分かってるわよね？\n(.{2,10})はその子をしっかりと守りなさいよ！$"="You know what to do, right, $1?\nMake sure you protect that girl!"
 みなさま……どうか、ご無理だけはなさいませんよう……！=Everyone...\nPlease, try not to push yourselves...!
 黒い風の精=Black Wind Spirit
 はいっ！\n無理せず全力全開で行きますっ☆=Yes! I'll give it my full power,\nfull throttle, without pushing myself☆

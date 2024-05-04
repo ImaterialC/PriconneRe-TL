@@ -14,7 +14,7 @@
 標準版=Standard
 
 他プレイヤーのキャラ表示切替=Reflect other player's appearance based on star value
-他プレイヤーのキャラ表示切替を反映するか選択できます。\n※「反映しない」を選択すると、他プレイヤーの設定が無効になります。=When "Do not reflect" is selected,\nyou will not see other player's character icon based on star value.
+他プレイヤーのキャラ表示切替を反映するか選択できます。\n※「反映しない」を選択すると、他プレイヤーの設定が無効になります。=When "Do not reflect" is selected, you will not see other player's character icon based on star value.
 反映する=Reflect
 反映しない=Do Not Reflect
 
@@ -25,7 +25,7 @@
 フレンドでないプレイヤーからサポートキャラをレンタルした場合、\nフレンド申請ダイアログを表示するか設定します。=Sets whether or not to display a friend request dialog when you select a support character\nfrom a player who is not your friend.
 
 サポート設定の獲得マナ通知=Notifications for Mana Earned from Support Characters
-サポート設定で獲得しているマナが5,000,000以上の場合に、通知を表示するか設定します。=Set whether or not to show a notification\nif more than 5,000,000 Mana is earned from Support.
+サポート設定で獲得しているマナが5,000,000以上の場合に、通知を表示するか設定します。=Set whether or not to show a notification if more than 5,000,000 Mana is earned from Support.
 
 未読ストーリーの通知=Unread Story Notifications
 未読のストーリーがある場合、通知を表示するか設定します。=Set whether or not to show a notification if there are unread stories.
@@ -43,7 +43,7 @@
 キャラクターのランクアップをまとめて行うとき、ランクアップ実行の確認ダイアログを表示するか設定します。=Sets whether or not to display a confirmation dialog when ranking multiple ranks
 
 アイテム交換セット時ダイアログ表示=Extra Char Exchange
-エクストラキャラのアイテムをセットする場合、交換確認ダイアログを表示するか設定します。=Set whether or not to show the confirmation dialog\nwhen exchanging items for extra characters.
+エクストラキャラのアイテムをセットする場合、交換確認ダイアログを表示するか設定します。=Set whether or not to show the confirmation dialog when exchanging items for extra characters.
 
 家具Lvアップ可能な効果つき家具の通知=Furniture Effect Upgrade Notification
 Lvアップ可能な効果つき家具がある場合、通知を表示するか設定します。=Set whether or not to be notified when there are piece(s) of furniture that can be upgraded
@@ -79,7 +79,7 @@ Lvアップ可能な効果つき家具がある場合、通知を表示するか
 所持上限を超えた獲得アイテムおよびマナが、\nプレゼントボックスに送られたことの確認ダイアログを表示するか設定します。=Set whether or not to display a dialog box to confirm\nwhen items that have exceeded the limit get sent to the gift box
 
 クランバトルモンスター討伐演出設定の確認ダイアログ=Confirmation Prompt for Clan Battle Monster Defeat
-クランバトルを開始する前に、モンスター討伐演出設定を確認するダイアログを開きます。=A prompt that allows you to confirm monster defeat settings\nbefore starting a clan battle.
+クランバトルを開始する前に、モンスター討伐演出設定を確認するダイアログを開きます。=A prompt that allows you to confirm monster defeat settings before starting a clan battle.
 
 クランバトルのモンスター討伐演出設定=Clan Battle Monster Defeat Animation Settings
 クランバトルのモンスター討伐演出を再生するか設定します。=Set whether or not to play the Clan Battle monster defeat animation.
@@ -104,8 +104,6 @@ Lvアップ可能な効果つき家具がある場合、通知を表示するか
 まとめてスキップ完了後の確認ダイアログ表示=Confirmation prompt after finished skipping
 まとめてスキップ完了後に未スキップクエストがある場合、確認ダイアログを表示するか設定します。=Set whether or not to show a confirmation prompt when there are\nunskipped quests after completing a batch of skips.
 
-★設定の保存についての確認=Confirmation prompt for saving ★ level
-マイパーティやアリーナの防衛設定で編成を保存した時と今の★の数の設定が異なる場合、確認ダイアログ\nを表示するか設定します。=Set whether to display a confirmation prompt when the\ncurrent setting for the number of ★ is different from when\nthe party was saved in My Party or Arena defense settings.
 
 キャラ強化画面からの装備作成において原鉱を消費する際に確認ダイアログを表示するか設定します。=Sets whether or not to display the confirmation dialog when consuming\nore for combining equipment from the enhancement screen.
 

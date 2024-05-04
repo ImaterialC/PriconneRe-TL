@@ -380,7 +380,7 @@ r:"^負けてしまったら、世界が終わるっていうなら。\n(.{2,10}
 なんでもないわ=It's nothing.
 必ず、戻りましょう=Let's get back.
 私たちの家に=To our home.
-r:"^アメスの呼びかけを受け、これまで絆をつないできた仲間たちが(.{2,10})のもとに集結する。Giovanniは各ギルドに声をかけ、それぞれ決戦に向けて意気込むのだった。$"="Upon receiving Ameth's call, the companions who had been bonded together gathered under $1's command. Giovanni reached out to each guild, and they all eagerly prepared for a decisive battle."
+r:"^アメスの呼びかけを受け、これまで絆をつないできた仲間たちが(.{2,10})のもとに集結する。(?:.{2,10})は各ギルドに声をかけ、それぞれ決戦に向けて意気込むのだった。$"="Upon receiving Ameth's call, the companions who had been bonded together gathered under $1's command. $1 reached out to each guild, and they all eagerly prepared for a decisive battle."
 ──『レジェンドオブアストルム』。\nそれは、七人の賢者たちが創造した仮初の世界。=──"Legend of Astrum". \nIt is a temporary world created by seven crowns.
 だが過去の事件により、\nその世界は人々の魂を幽閉する牢獄となり──=However, due to past events, \nthat world has become a prison that confines the souls of the people──
 そして神の如き管理者の力を持つ『エリス』は今\nリセットという仕組みごと、世界すべてを焼き尽くそうとしていた。=And 'Eris', who possesses the power of a god-like administrator, was now planning to burn the entire world, including the mechanism known as 'Reset'.

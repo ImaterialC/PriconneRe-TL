@@ -90,6 +90,9 @@
 ネフィ＝ネラ=Nefi Nera
 カズマサ=Kazumasa
 ユウキ=Yuuki
+リンド=Lind
+ヴルム=Wyrm
+ヴォルガーノ=Volgano
 アオイ（編入生）=Aoi (Student);TAoi;Student;Student
 カスミ（マジカル）=Kasumi (Magical);MKasumi;Magical
 シオリ（マジカル）=Shiori (Magical);MShiori;Magical
@@ -892,5 +895,5 @@
 マコト（コマンダー）=Makoto (Commander);CMakoto;GomenYui;CoMakoto;KMakoto;IMakoto;BDSMakoto;GomenYui;Commander
 
 
-スズメ（スプリング）=Suzume (Spring);Spring
-キョウカ（スプリング）=Kyoka (Spring);Kyouka (Spring);Spring
+スズメ（スプリング）=Suzume (Spring);SPSuzume;Spring
+キョウカ（スプリング）=Kyoka (Spring);Kyouka (Spring);SPKyouka;Spring

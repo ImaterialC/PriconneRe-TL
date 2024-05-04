@@ -48,12 +48,13 @@
 クイックスタート機能使用時の確認ダイアログ=Quick Start Confirmation Prompt
 クリアパーティ一覧画面でクイックスタート機能を使用するときに、確認ダイアログを開きます。=Opens a confirmation prompt when using the Quick Start function on the Clear Party List.
 
-バトルのAUTO・SMART・SPEED=AUTO, SMART and SPEED Battle Settings
-バトルのAUTOとSMARTとSPEEDの設定です。\n『引き継ぐ』に設定するとバトル中に変更したAUTO・SMART・SPEEDの設定を引き継ぎます。\n※AUTOとSMARTとSPEEDを個別に引き継ぎ設定はできません。=You can set the AUTO, SMART, and SPEED settings for battles.
+バトルのAUTO・SET・SPEED=AUTO, SET, SPEED Battle Settings
 
 全般=General
-バトルのAUTOとSMARTとSPEEDの設定です。\n「引き継ぐ」に設定するとバトル中に変更したAUTO・SMART・SPEEDの設定を引き継ぎます。\n※AUTOとSMARTとSPEEDを個別に引き継ぎ設定はできません。=You can set the AUTO, SMART, and SPEED settings for battles.
+バトルのAUTOとSETとSPEEDの設定です。\n「引き継ぐ」に設定するとバトル中に変更したAUTO・SET・SPEEDの設定を引き継ぎます。\n※AUTOとSETとSPEEDを個別に引き継ぎ設定はできません。=If set to "Switch", the AUTO, SET, and SPEED settings changed during the battle will be inherited.\n※AUTO, SET, and SPEED cannot be inherited individually.
 
+属性ボーナス演出=Elemental Bonus Stage
+バトルを開始した際の属性ボーナス演出を表示するかどうかの設定です。\n「1日1回見る」を設定すると、毎日初回属性ボーナス時のみ表示されます。=This setting determines whether to display Elemental bonus effects when starting a battle. \nIf you set "Once per day", it will be displayed only when the first Elemental bonus is received every day.
 
 引き継がない=Do not\nSwitch
 引き継ぐ=Switch
@@ -66,3 +67,5 @@
 
 クランバトルの模擬戦・トレーニングバトルにおいて、バトル速度の上限を設定できます。\n設定は次回のバトルから反映されます。=You can set the upper limit of the battle speed in the mock battle of the clan battle.\nThe settings will be reflected from the next battle.
 
+★設定の保存についての確認=Confirmation prompt for saving ★ level
+マイパーティやアリーナの防衛設定で編成を保存した時と今の★の数の設定が異なる場合、確認ダイアログ\nを表示するか設定します。=Set whether to display a confirmation prompt when the current setting for the number of ★\nis different from when the party was saved in My Party or Arena defense settings.

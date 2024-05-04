@@ -1,5 +1,5 @@
 途切れたつながり=The Cut-off Connection
-r:"^(.{2,10})に声が届かず、アメスは自身の無力を嘆く。コッコロのことを忘れたことで『始まりの絆』が失われたからだと語りながら、アメスはGiovanniを信じ、祈り続けるのであった。$"="Her voice failed to reach $1, and Ameth lamented her own powerlessness. She continued to believe in him and pray as she talked about how forgetting about Kokkoro had caused the bonds of beginnings to be lost."
+r:"^(.{2,10})に声が届かず、アメスは自身の無力を嘆く。コッコロのことを忘れたことで『始まりの絆』が失われたからだと語りながら、アメスは(?:.{2,10})を信じ、祈り続けるのであった。$"="Her voice failed to reach $1, and Ameth lamented her own powerlessness. She continued to believe in him and pray as she talked about how forgetting about Kokkoro had caused the bonds of beginnings to be lost."
 ……あんたにとって、コッコロたんとの絆は全ての始まり。=...To you, your connection with Kokkoro-tan was the beginning of everything.
 しかも、プリンセスナイトの力が使えない、って……\nコッコロたんの記憶を失ったから……？=And, he said that he can't use his Princess Knight power...?\nIs it because he lost his memories of Kokkoro-tan...?
 やっぱり、届かない……！\nコッコロたんのこと、何とかして伝えたいのに……\nこういう時、世界に直接干渉できないのが本当に悔しいわ……！=I really can't reach him...!\nBut I need to tell him about Kokkoro-tan somehow...\nIt's times like these that not being able to directly interact with the world's really frustrating...!

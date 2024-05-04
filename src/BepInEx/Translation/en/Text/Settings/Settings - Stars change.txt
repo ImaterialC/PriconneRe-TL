@@ -1,5 +1,5 @@
 パーティ呼び出し時の★変更確認=Confirmation of ★ change when selecting a party
 パーティ呼び出し時の★変更のチェックボックス=Confirmation of ★ change Check Box
-パーティ呼び出し時に★の設定が異なるキャラがいる場合、確認ダイアログを表示するか設定します。=If there is a character with a different ★ setting when use a preset party,\ndisplay the confirmation dialog.
+パーティ呼び出し時に★の設定が異なるキャラがいる場合、確認ダイアログを表示するか設定します。=If there is a character with a different ★ setting when use a preset party, display the confirmation dialog.
 
-パーティ呼び出し時に★の設定が異なるキャラがいる場合に表示される確認ダイアログのチェックボックス\n「選択したパーティの★に変更する」の初期値を設定します。\n※パーティ呼び出し時の★変更確認の設定が「表示しない」の場合もこの設定で呼び出します。=Set the initial value of the checkbox in the confirmation dialog that appears when\nthere is a character with a different ★ setting when calling the party, to\n"Change to the ★ of the selected party".\n※This setting is also used when the confirmation of changing the ★ when calling\nthe party is set to "Do not show".
+パーティ呼び出し時に★の設定が異なるキャラがいる場合に表示される確認ダイアログのチェックボックス\n「選択したパーティの★に変更する」の初期値を設定します。\n※パーティ呼び出し時の★変更確認の設定が「表示しない」の場合もこの設定で呼び出します。=Set the initial value of the checkbox in the confirmation dialog that appears when there is a character\nwith a different ★ setting when calling the party, to "Change to the ★ of the selected party".\n※This setting is also used when the confirmation of changing\nthe ★ when calling the party is set to "Do not show".

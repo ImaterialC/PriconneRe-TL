@@ -10,4 +10,4 @@ EX階=EX floor
 ルナの塔 バトルスキップ完了後のリタイア確認ダイアログ表示=Retire confirmation dialog display after completing Luna Tower Battle Skip
 ルナの塔のバトルスキップ後のダイアログにて、スキップ選択時にリタイアを表示するか設定します。\n※ボスEX階では、ダイアログは表示されません。=Setting to display the "Retire" option when selecting "Skip"\nin the dialog box that appears after skipping battles in Luna Tower.\n※The dialog box will not be displayed on Boss EX floors."
 ルナの塔 バトルスキップ確認ダイアログ表示=Luna Tower Battle Skip Confirmation Dialog display
-ルナの塔にてバトルスキップを押したときに、確認ダイアログを表示するか設定します。=When you press the battle skip in the Luna Tower,\nset the confirmation dialog.
+ルナの塔にてバトルスキップを押したときに、確認ダイアログを表示するか設定します。=When you press the battle skip in the Luna Tower, set the confirmation dialog.

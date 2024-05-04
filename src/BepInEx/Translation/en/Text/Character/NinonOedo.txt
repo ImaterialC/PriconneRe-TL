@@ -21,5 +21,11 @@
 忍法・チュバメ返し+=Ninpo: Swoopy Swallow+
 目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=It does P.DMG to one character in front of you, and also reduces P.DEF. The damage when this skill is critical is tripled rather than twice.
 
+##S2+##
+忍法・影分身の術+=Ninpo: Shadow Clone no Jutsu+
+自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップし、自分の行動速度を大アップさせ、ＴＰを大回復する。=Greatly boosts own P.ATK, slightly boosts own P.CRIT DMG, greatly boosts own action speed, and recovers own TP by a large amount.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分の行動速度アップ自分のＴＰを500回復$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 10% for 180s.\n►Boosts own action speed to 200%.\n►Restores own TP by 500.
+
 ##UE##
 なりきりクノイチセット=Narikiri Kunoichi Set
+スゴウデクノイチセット=Awesome Dekunoichi Set

@@ -592,3 +592,10 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 リングオブメタトロン=Ring of Metatron
 リングオブサンダルフォン=Ring of Sandalphon
 リングオブセフィロト=Ring of Sephiroth
+
+
+妖精鎧甲オーベロン=Fairy Armor Oberon
+妖精輝装クーフーリン=Fairy Radiant Armor Cú Chulainn
+妖精舞沓シルキー=Fairy Dance Boots Silky
+妖精叢盾スプリガン=Fairy Thicket Shield Spriggan
+妖精麗装ティターニア=Fairy Elegant Attire Titania

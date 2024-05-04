@@ -1,0 +1,24 @@
+##Profile
+【魔法】中衛で、お花畑に春を届ける花衣装の優等生。スキル発動回数に応じた効率的な自己強化やクリティカル時の追加効果を持つスキルとＵＢで勝利の風を吹かせる。=[Magic] An honor student wearing a flower costume brings spring to the flower garden. Blow the wind of victory with efficient self-strengthening depending on number of skill activations, and skills with UBs that have additional effects when critical.
+
+##UB##
+バタフライストリーム=Butterfly Stream
+目の前の敵１キャラに魔法極大ダメージを与える。このスキルがクリティカルした場合、追加の魔法特大ダメージを与える。=Deals massive M.DMG to an enemy in front. If this skill hits a critical hit, deals additional M.DMG.
+
+##S1##
+フローラルブレス=Floral Breath
+目の前の敵１キャラに魔法特大ダメージを与える。このスキルがクリティカルした場合、自分の魔法攻撃力を特大アップし、魔法攻撃クリティカル時のダメージを小アップする。=Deals large M.DMG to an enemy in front. If this skill hits a critical hit, greatly boosts own M.ATK and slightly boosts own M.CRIT DMG.
+r:"^敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の魔法攻撃クリティカル時のダメージを10％アップ$"=►Deals $1 M.DMG to an enemy.\n►Boosts own M.ATK by $2 for 12s.\n►Boosts own M.CRIT DMG by 10% for 12s.
+
+##S2##
+スプリングダンス=Spring Dance
+自分の魔法クリティカルを特大アップ、魔法攻撃クリティカル時のダメージを小アップする。このスキルは３回まで、使用する度に魔法クリティカルの効果量がダウンし、魔法攻撃クリティカル時のダメージの効果量がアップする。さらに、自分のＨＰを小回復し、ＴＰ上昇を小アップする。=Greatly boosts own M.CRIT Rate, and slightly boosts own M.CRIT DMG. After 3 uses this skill's M.CRIT Rate potency will decrease and M.CRIT DMG potency will increase. Additionally slightly recovers own HP and boosts own TP Boost.
+r:"^自分の魔法クリティカルを250アップ自分の魔法攻撃クリティカル時のダメージを5％アップ自分のＨＰを(\d+)回復自分のＴＰ上昇を5アップ$"=►Boosts own M.CRIT Rate by 250 (-65×Count) for 180s.\n►Boosts own M.CRIT DMG by 5% (+5%×Count) for 180s.\n►Recovers own HP by $1.\n►Boosts own TP Boost by 5 for 180s.
+
+##EX##
+ブレイブハズカム=Brave Has Come
+ブレイブハズカム+=Brave Has Come+
+バトル開始時に自分の魔法クリティカルを中アップさせる。=Moderately boosts own M.CRIT Rate at the start of battle.
+バトル開始時に自分の魔法クリティカルを大アップさせる。=Greatly boosts own M.CRIT Rate at the start of battle.
+r:"^自分の魔法クリティカルを(\d+)アップ$"=►Boosts own M.CRIT Rate by $1.
+

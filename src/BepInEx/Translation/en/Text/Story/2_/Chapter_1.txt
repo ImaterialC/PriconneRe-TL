@@ -82,7 +82,7 @@ r:"^(.{2,10})くんったら……ダメよ？\n女の子のやわらかいと�
 ヘンタイは、ヘンタイの罪で死刑ッス！\nやっつけてやるッスよ～っ！=Creeps like you deserve to be sentenced to death!\nI'll bring you to justice!
 キミは……？=Who's there...?
 ……世界が、崩れる。\n今のままでは……=This world is... falling apart.\nAt this rate...
-r:"^原因不明のまま眠り続ける(.{2,10})と謎の少女を看病する美食殿とトゥインクルウィッシュの面々。二人は無事に目を覚ますが、Giovanniの精神は赤子同然に立ち返ってしまっていた。$"="The members of the Gourmet Guild and Twinkle Wish continue to care for $1, who continues to sleep without any apparent reason, and the mysterious girl. The two of them wake up safely, but Giovanni's mind has regressed to that of a baby."
+r:"^原因不明のまま眠り続ける(.{2,10})と謎の少女を看病する美食殿とトゥインクルウィッシュの面々。二人は無事に目を覚ますが、(?:.{2,10})の精神は赤子同然に立ち返ってしまっていた。$"="The members of the Gourmet Guild and Twinkle Wish continue to care for $1, who continues to sleep without any apparent reason, and the mysterious girl. The two of them wake up safely, but $1's mind has regressed to that of a baby."
 r:"^突如として空から降ってきた、謎の少女。\n彼女を受け止めた瞬間、激しい頭痛が(.{2,10})を襲い、\nそのまま意識を失ってしまう……$"="The mysterious girl had fallen out of the sky without any warning. As he caught her, a sudden flash of pain rushed through $1's head, and he lost consciousness."
 ……そして、３日が過ぎた。=Since those events, three days have now passed...
 ……そっか、そんなことがあったんだ。\nコッコロちゃんも大変だったね……=...I see. So that's what happened.\nThat must've been tough, Kokkoro...
@@ -107,7 +107,7 @@ r:"^突如として空から降ってきた、謎の少女。\n彼女を受け�
 その方法は？=What is this method?
 ふふっ！\nそれはね……キスよ♪=Hee hee!\nWell, of course... It's a kiss! ♪
 えっ！？　キ、キキ、、キス……！？=Huh?! A-a-a-a kiss...?!
-ええ！　可愛い子にぶちゅっとされたら、\nGiovanniもドキドキしてきっと目が覚めるわ！\nそういうものよ！=Yep! A little smooch from a cute girl\nwill make his heart pound so fast, he'll wake right up!\nThat's how these things work!
+r:"^ええ！　可愛い子にぶちゅっとされたら、\n(.{2,10})もドキドキしてきっと目が覚めるわ！\nそういうものよ！$"="Yep! A little smooch from a cute girl\nwill make his heart pound so fast, $1'll wake right up!\nThat's how these things work!"
 ……またですか。\nネビアさまの好奇心には、ほとほと困ってしまいます……=...This again?\nYour enthusiasm for such things is quite troubling,\nMiss Nebbia...
 なによぉ、やってみなきゃわかんないでしょ！？\nキャルのときみたいにおでこじゃなくて、今度はちゃんと唇にね！=Oh, c'mon. Don't you think it's worth a try?!\nNot on the forehead like Karyl did—\nlet's see you go for the lips this time!
 何をいうかと思えばキスだなんて……\nそ、そんなもので、本当に効果があるとは思えないが……=Of all the suggestions, a kiss, you say?!\nI-I find it hard to believe that it would have any real effect...
@@ -122,7 +122,7 @@ r:"^突如として空から降ってきた、謎の少女。\n彼女を受け�
 ……もしかして、私たちがうるさくしてしまったからだろうか？\nだとしても、目覚めてくれて良かった。=Could it be that we woke you with all our commotion?\nEven if we did, it really is a relief.
 わたくしも、本当に安堵いたしました。\nあのまま意識がお戻りにならなかったら、どうしようかと……=I too am so very relieved, my Lord.\nIf you had remained in that state indefinitely,\nI don't know what I would have...
 よかったね！　コッコロちゃん！\nもしかしたら騎士くん、本当に疲れがたまってただけだったのかも！=Isn't this great, Kokkoro?! I guess maybe Kish-kun really was just super tired after all!
-覇瞳皇帝との激戦から約1か月……Giovanniくんは、\n瓦礫の撤去やボランティアに精を出していたようだし。\nこのあたりでゆっくり休んでおくといい。=In the month since we faced the Kaiser, I hear you've helped a lot with clearing the rubble from the city.
+r:"^覇瞳皇帝との激戦から約1か月……(.{2,10})くんは、\n瓦礫の撤去やボランティアに精を出していたようだし。\nこのあたりでゆっくり休んでおくといい。$"="In the month since we faced the Kaiser, I hear $1've helped a lot with clearing the rubble from the city."
 騎士クン、お腹すいてるよね？\n何か消化のいいもの作るね\n食べたいものはある？=Kish-kun, you must be hungry, right?\nI'll make something easy-to-digest.\nWhat do you want to eat?
 騎士クン？=Kish-kun?
 ちょっとぉー=Come on!
@@ -139,7 +139,7 @@ r:"^突如として空から降ってきた、謎の少女。\n彼女を受け�
 ちょー=Wa...
 ちょぅわぁー！！=Waaahhhh!
 う……？=Uh...?
-うぇぇぇ……！\nヨダレべっとり……！\nもう、なにすんのよGiovanniっ～！=Ueeeghh...!\nI'm covered in drool!\nGeez, what the heck was [i]that[/i] for?!
+r:"^うぇぇぇ……！\nヨダレべっとり……！\nもう、なにすんのよ(.{2,10})っ～！$"="Ueeeghh...!\nI'm covered in drool!\nGeez, what the heck was [i]that[/i] for, $1?!"
 きゃっきゃ！=*giggle*
 ね、ねぇ……！\n騎士クンの様子……\nもしかしてっ、これって……！=U-umm...\nThe way he's acting...\nDoesn't it seem a bit like he's...
 ああ！\n最初にあったときの、記憶喪失で自我の薄かった彼に戻ったみたいだ……\nいや、もっと幼くなっているかもしれない……！=Yes... It's as if he's returned\nto the state he was in just after his memories were lost...\nNo, he may have reverted even further...!
@@ -164,10 +164,10 @@ r:"^突如として空から降ってきた、謎の少女。\n彼女を受け�
 ……ど、=...Wha...
 どうしようーっ！？=What nooooow?!
 ユイたち=Everyone
-r:"^夢で(.{2,10})に語り掛けてくるアメス。Giovanniの精神が赤子同然になってしまったのは、覇瞳皇帝との戦いで元の自分と今の自分にズレが生じてしまったせいだと告げる。$"="In a dream, Ames speaks to $1. Ames tells him that Giovanni's mind has become like that of a baby because of the battle with the Omniscient Kaiser, causing a discrepancy between his former self and his current self."
+r:"^夢で(.{2,10})に語り掛けてくるアメス。(?:.{2,10})の精神が赤子同然になってしまったのは、覇瞳皇帝との戦いで元の自分と今の自分にズレが生じてしまったせいだと告げる。$"="In a dream, Ames speaks to $1. Ames tells him that $1's mind has become like that of a baby because of the battle with the Omniscient Kaiser, causing a discrepancy between his former self and his current self."
 あんた……ちょっと、あんたっ！=Listen... Hey, listen!
-r:"^ちょっと、(.{2,10})！\nGiovanniっ！$"="$1!\nYes, you, Giovanni!"
-しっかりしなさいよGiovanni！\nあたしの声、聞こえてる……！？=Get a hold of yourself!\nCan you hear my voice...?!
+r:"^ちょっと、(.{2,10})！\n(?:.{2,10})っ！$"="Wait... $1!\nHey, $1!"
+r:"^しっかりしなさいよ(.{2,10})！\nあたしの声、聞こえてる……！？$"="Get a hold of yourself, $1!\nCan you hear my voice...?!"
 ……いつもと違って、『繋がってる』手応えがほとんどない……\n参ったわね。\nダメ元で、声を掛け続けるしかないか……=...Unlike normal, it barely feels like we're connected...\nHow awkward. Guess I'll just have to keep talking and hope you hear me...
 r:"^……いい？　(.{2,10})。\n理解出来てるかわからないけど、\nとりあえず、状況だけ伝えてみるわ。$"="...Listen, $1.\nI don't know if you can understand me,\nbut I'll explain your current situation."
 あんたは今、ひどいダメージを負っている。\n身体にじゃなく、魂のほうにね。=Right now, you're suffering serious damage.\nNot in your body, but in your soul.
@@ -203,7 +203,7 @@ r:"^赤子同然の状態で目覚めた(.{2,10})とシェフィを世話する�
 それにしても……シェフィか。\nやっとこの子の名前決まったのね。\nでもなんでシェフィなの？=Still, though... "Sheffy," huh.\nSo you finally settled on a name.\nBut where did that one come from?
 最初に名前をお訊ねしたときに、\n「しぇ……ふ」と、ご自分で言いかけていましたので。\nご本人も、お気に入りのご様子ですし。=I based it upon the response she gave,\n"Shehh... fooh..." when I first inquired as to her name.\nMiss Sheffy herself seems quite fond of the sound.
 しーふー♪\nしーふー♪=Shee foo! ♪\nShee foo! ♪
-あーはいはい、わかったわかった……\nてか結局こいつ、何者なのかしらね？\nなんとなく流れで、Giovanniと一緒に面倒見てるけど……=Yeah, sure, sure, I get it already...\nBut I gotta ask, who is she anyway?\nWe ended up looking after her as a matter of course, but...
+r:"^あーはいはい、わかったわかった……\nてか結局こいつ、何者なのかしらね？\nなんとなく流れで、(.{2,10})と一緒に面倒見てるけど……$"="Yeah, sure, sure, I get it already...\nBut I gotta ask, who is $1 anyway?\nWe ended up looking after his as a matter of course, but..."
 シェフィさまについては……\n残念ながら正直まだ、なにもわかっておりません。=Miss Sheffy's identity...\nWe are, I am sorry to say,\nno closer to solving that mystery.
 ペコリーヌさまが手を回して、街中から情報を集めて下さいましたが……\n彼女のような翼や尻尾を持つ蒼い髪の少女というのは、\n今のところまったく、手がかりになる情報は無いそうです。=Miss Pecorine used her influence to gather information from the citizens, but we have yet to find anyone who recognized the description of a girl with pale blue hair, strange wings, and a tail.
 ふぅん？\nたしかに珍しいもんね、こいつみたいな翼と尻尾のやつって。\nドラゴン族……だっけ。=Oh...?\nThey really are unusual, those wings and tail she's sporting. Would they make her a "dragon girl"?
@@ -719,7 +719,7 @@ r:"^夢の中で語り掛けてくる謎の声。声の正体をつかむ間も�
 ……たぶん……=...Probably...
 言葉づかいが、一段と堪能になられましたね。\n素晴らしいです、主さま……♪=The words you speak are growing more eloquent already.\nHow wonderful, my Lord... ♪
 良かったぁ……！\nえへへ、この分ならまたすぐ、\nかっこいい騎士くんに戻っちゃうね！=That's so great!\nEheheh. At this rate, you'll be back\nto your cool old self in no time!
-ああ、そうだな。\nやはりGiovanniには、\n我々の背中を守ってくれる存在であってもらいたいし……=Yes, that's good news. I always feel more secure\nknowing that you're at our back protecting us.
+r:"^ああ、そうだな。\nやはり(.{2,10})には、\n我々の背中を守ってくれる存在であってもらいたいし……$"="Yes, that's good news. I always feel more secure\nknowing that you're at our back protecting us, $1."
 ……騎士クン、まだ眠いのかな？=...Kish-kun, are you still sleepy?
 ……それとも、見ていた夢を\n思い出そうとなさっているのでしょうか？=Or perhaps... Are you attempting\nto recall something you witnessed in your dream?
 ゆめ……=Dream...
@@ -927,7 +927,7 @@ r:"^いえ！　ユイちゃんにも出来ると思いますっ！\n(.{2,10})�
 よーしっ！\nじゃあ行きますよ！　ユイちゃん！=Great!\nThen let's do this! Yui!
 あむっ！=Amph!
 プリンセスフォームに変身したペコリーヌとユイは、これまでにない圧倒的な力でカリザと魔物を退けたのち、すさまじい空腹に襲われる。新たな力が、冒険の幕開けを慌ただしく告げるかのようだった。=Pecorine and Yui, transformed into princess form, were overcome by an incredible hunger after repelling Kariza and the monsters with an overwhelming power unlike anything they’d ever experienced before. It was as if a new power was hastily announcing the start of an adventure.
-この人からもらった、新しいパワーです！\n詳しいことは後で説明しますね！=This is the new power Giovanni's given us!\nWe can go into the details later, okay?
+この人からもらった、新しいパワーです！\n詳しいことは後で説明しますね！=This is the new power He's given us!\nWe can go into the details later, okay?
 なっ、何なのよふたりとも！\nその格好はっ……！？=Wh-what happened to you two?!\nWhat are you wearing...!?
 わぁ～っ！\nネネカさんが教えてくれたとおりにしたら、\nほんとに変身出来ちゃいました♪　やばいですね☆=Wooow! I tried doing what Neneka told me to,\nand I really managed to transform!♪ How crazy is that?!☆
 ええっ！？　なに、これ……！\n服が、変わっちゃった……！？=Huhhh?! What is this...?!\nMy clothes look all different...?!

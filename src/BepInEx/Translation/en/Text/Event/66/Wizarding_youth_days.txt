@@ -291,7 +291,7 @@ r:"^ある日の休み時間、(.{2,10})たちは、\n修学旅行の話題で�
 ニノンに聞く。=Ask Ninon.
 は～い！　答えはー\n『食べた後すぐに走ったらマジ片腹痛いんですけど！』=Alright! The answer is, "I laughed so hard after eating and then running that it split my sides!"
 いやそれ片腹じゃなくて脇腹ね！\n食べた後すぐは消化に悪いから走っちゃダメよ！=No, it's not your sides, it's your ribs! It's not good to run right after eating because it's bad for digestion!
-r:"^ふふ、簡単です。答えは、\n『私以外のゴミ虫が(.{2,10})様とお近づきになるなど、\n片腹痛いので私の手でギタギタにして差し上げますわ』$"=Hehe, it's easy. The answer is, "Anyone other than me who gets close to $1-sama, I'll make them laugh so hard that I'll destroy them!"
+r:"^ふふ、簡単です。答えは、\n『私以外のゴミ虫が(.{2,10})様とお近づきになるなど、\n片腹痛いので私の手でギタギタにして差し上げますわ』$"="Hehe, it's easy. The answer is, "Anyone other than me who gets close to $1-sama, I'll make them laugh so hard that I'll destroy them!""
 いや意味はあってるけど私情が凄いわね！\n……ってあたし睨まれてる！？=Well, the meaning is right, but it's very personal! ...Wait, why are you glaring at me!?
 ハーイ、ワタシの答えは、\n『ハラキリすると片腹痛いデース！』=Hey, my answer is, "It's painful to laugh so hard that you split your sides!"
 どんな状況！！？=In what situation!?
