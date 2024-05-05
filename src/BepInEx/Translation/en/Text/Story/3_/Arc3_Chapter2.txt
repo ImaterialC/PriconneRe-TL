@@ -11,7 +11,7 @@ Summary:
 
 てええーいっ！=Teiii!
 ……た、たあっ！=...T-Taaah!
-裏世界『ジオ・テオゴニア』と交流を持った(.{2,10})たち。\n一行は仲間たちと力を合わせて、\nアストライア大陸から流入してくる魔物を退治していた。=$1 and the others had come into contact with the Reverse World “Gio Teogonia.” The party had joined forces with their friends to slay the monsters pouring in from the continent of Astraea
+r:"^裏世界『ジオ・テオゴニア』と交流を持った(.{2,10})たち。\n一行は仲間たちと力を合わせて、\nアストライア大陸から流入してくる魔物を退治していた。$"="$1 and the others had come into contact with the Reverse World “Gio Teogonia.” The party had joined forces with their friends to slay the monsters pouring in from the continent of Astraea."
 そんな生活が、しばらく続いたある日のこと──=One day, after a long period of said life
 みなさま。\nご活躍の数々は、リンドやクローチェたちから聞いていますよ。\n本当に感謝いたします。=Everyone. I've heard all about your exploits from Lind, Croce, and the others. Thank you so much.
 えへへ、どういたしましてっ☆=Ehehe, you're welcome☆
@@ -87,7 +87,7 @@ Cutscene:
 …………ん。そーね。=............yeah, of course~.
 ぜんぜん心がこもってません～っ？！=You're not actively denying it~?!
 よそ見してんなよっ！\nうりゃっ！=Don't look away! Uryah!
-よくもっ！\n(.{2,10})、やるわよ！=How dare you! $1, do it!
+r:"^よくもっ！\n(.{2,10})、やるわよ！$"="How dare you! $1, let's do this!"
 くたばれっ！\nグリムバーストッ！！=Go to hell! Grim Burst!!
 わたしもやりますっ！\nロケットぱーんちッ！！=I'll join in too! Rocket Punch!!
 『バンディシャーク』号、ぶーすとだーっしゅ！！\nぽちっ！=Bandit Shark  Bzzt, bzzt!! Plop!
@@ -231,7 +231,7 @@ Summary:
 わたくしは赤でした。\n兄様は……=I'm red. Nii-sama is...
 青だったよ。=I'm blue.
 な、なんということでしょう。\nわたくしのクジは赤……ということは、主さまと離れ離れに……=Could this mean ....? My lottery ticket is red...which means I've been separated from My Lord...
-もーコロ助、(.{2,10})と別行動になるかもってのは\nクジ引く前から分かってたでしょ。\n……そりゃ、あたしだってホントは……=Geez, Korosuke, you knew before you drew the lottery that you might end up seperated from $1. ...Well, even I...
+r:"もーコロ助、(.{2,10})と別行動になるかもってのは\nクジ引く前から分かってたでしょ。\n……そりゃ、あたしだってホントは……$"="Geez, Korosuke, you knew before you drew the lottery that you might end up separated from $1. ...Well, even I..."
 ──あの、すみません。\nわたし、青だったんですが……\nリリちゃんとクジを交換してもいいですか？=Excuse me. I'm blue... Can I trade lots with Riri?
 わたし、結構手先が器用ですし。\n内装とかのお手伝いなら、力になれると思うんです。=I'm pretty confident with my hands. I think I can help with the interior design.
 リアさんっ……？\nよ、よろしいのですか？=Ria-san...? A-Are you sure?
@@ -246,7 +246,7 @@ Summary:
 あぁっ、待ってくださいっ！\nせめて最後に、キャルちゃんをひと吸い～っ！！=Aaah, wait! At the very least, one last sip of Kyaru-chan!!
 わ……\nわたくしも、主さまをもう少し補給させてくださいませ……！=M-Me too, please let me resupply My Lord a little more...!
 だぁぁっ！\nさっさといけーっ！=Daaah! Hurry up and go!
-……そしてペコリーヌ、リリ、プレシア、クローチェ、リンド、\n(.{2,10})は、大きな車を牽引できる動物を探すため\n『ふぁんふぁんファーム』へと足を延ばした。=...And then Pecorine, Riri, Precia, Croce, Lind, and $1 made their way to Fun-Fun Farm in search of animals capable of pulling their large car.
+r:"^……そしてペコリーヌ、リリ、プレシア、クローチェ、リンド、\n(.{2,10})は、大きな車を牽引できる動物を探すため\n『ふぁんふぁんファーム』へと足を延ばした。$"="...And then Pecorine, Riri, Precia, Croce, Lind, and $1 made their way to Fun-Fun Farm in search of animals capable of pulling their large car."
 わぁ～、ちっちゃくてかわいい動物がいっぱいです♪=Wow, they're so small and cute! ♪
 ですよねですよね～っ！\nリンドちゃん、わたしのかわりにいっぱい撫でてあげてくださいねっ！=You're right~! Lind-chan, please pet her a lot in my place!
 私は別に、撫でたくなんかありませんけど。\n……か、かわいいですね……=But I don't really want to pet them. ...Th-They're pretty cute though...
@@ -277,7 +277,7 @@ Summary:
 リリさんっ……！=Riri-san...!
 わかりました……！\nリリちゃんの犠牲は、ぜったいムダにはしませんから……！=Understood...! I won't let Riri-chan's sacrifice go to waste...!
 もっと大きい動物を、探しに行こう。=Let's go find a bigger animal.
-(.{2,10})たちは、より大きく力強い動物を求めて\n『ふぁんふぁんファーム』を隅々まで探し回った。\nしかし……=$1 and the others searched every nook and cranny of the [Fun-Fun Farm] in search of larger, more powerful animals. However...
+r:"^(.{2,10})たちは、より大きく力強い動物を求めて\n『ふぁんふぁんファーム』を隅々まで探し回った。\nしかし……$"="$1 and the others searched every nook and cranny of the [Fun-Fun Farm] in search of larger, more powerful animals. However..."
 おそと、出ちゃった。=We've been, far out.
 これだけ探しているのに、なかなか見つかりませんね。\n……ふぅ。=Even though we've been searching so much, we haven't been able to find it. ...Phew.
 それに朝からず～っと歩き回って、\nすっかり足が棒になっちゃいました～=Besides, I've been walking around since this morning, and my legs have completely stiffen up.
@@ -344,7 +344,7 @@ Cutscene:
 そのようなことは決してございません。\n主さまに快適な乗り物を利用していただくには、\n妥協なく一切を、完璧に整えなくてはなりませんので。=That is not the case at all. In order for My Lord to have a comfortable ride, I must ensure that everything is perfectly organized without compromise.
 よぅ、チビちゃん！\n毛布とソファとカマドはここに置いときゃいいかい？=Hey, shorty! Can I leave the blanket, sofa, and furnace here?
 はい。\nあとはヴォルガーノさまに設置いただこうかと思います。\nすみません、それから調理器具に余りがあれば……=Yes. I think I'll have Mr. Volgano set it up. Excuse me, if you have any leftover cooking utensils...
-……ダメだわ。\n(.{2,10})がいないせいで、\n完全にお世話欲が暴走しちゃってる……=...I can't. Thanks to $1's absence, Korosuke's desire to take care of him has completely gone out of control...
+r:"^……ダメだわ。\n(.{2,10})がいないせいで、\n完全にお世話欲が暴走しちゃってる……$"="...I can't. Thanks to $1's absence, Korosuke's desire to take care of him has completely gone out of control..."
 ……えっと。=...Um.
 ……？\nヴルムちゃん……\n何か、ご用事ですか？=...? Wyrm-chan... Do you need something?
 クリアさん、ですっけ。\nさっきのクジの交換……あなた的には、あれでいいんです？=Quria, was it? The lottery ticket exchange... Are you okay with that?
@@ -367,7 +367,7 @@ Summary:
 ハムおにぎり？=Onigiri ham?
 リリ・リンド=Riri&Lind
 
-ふぁんふぁんファームの外れにて、巨大おにぎりに扮する\nハムスター？　と遭遇した(.{2,10})たち。\nペコリーヌとプレシアは、それを捕食しようと躍起になっていた。=$1 and the others had encountered a hamster disguised as a giant onigiri on the outskirts of Fun-Fun Farm. Pecorine and Precia were eager to prey on it.
+r:"^ふぁんふぁんファームの外れにて、巨大おにぎりに扮する\nハムスター？　と遭遇した(.{2,10})たち。\nペコリーヌとプレシアは、それを捕食しようと躍起になっていた。$"="$1 and the others had encountered a hamster disguised as a giant onigiri on the outskirts of Fun-Fun Farm. Pecorine and Precia were eager to prey on it."
 まてー=Wait--
 待てぇ～！！=Wait!!
 あははっ♪\n待ってくださ～いっ♪=Ahaha♪ Please wait~♪
@@ -441,7 +441,7 @@ Summary:
 ……あの子は、このファームでもチョイと変わり種でねぇ。\nうっかりじゃれつくと、あたしや他の子たちを潰しちまいかねないし？\nペットとして引き取る人も、これまでいなかったのよねぇ。=...That kid is a unique breed on this farm. If it messes around carelessly, the hamster could crush me and the other kids. There's never been anyone to take it in as a pet before.
 それじゃ、ぼっち？=So, the hamster, is a loner?
 ……ま、そういうことになるかねぇ。\n暴れたりするような、悪い子じゃないんだけどねぇ。=...Well, I guess that's true. She's not a bad kid who'd go wild or anything though.
-……あのっ、(.{2,10})くんっ。=...Um, $1.
+r:"^……あのっ、(.{2,10})くんっ。$"="...Um, $1."
 うん。方法が間違っていたかも。=Yeah. We might have used the wrong method.
 そうですね！\n【バンディ・シスターズ】に対抗するだけじゃなくて。\nこれからの冒険のお手伝いをしてもらうかもって考えたら……=That's right! It's not just to fight back against the Bandit Sisters, I was also thinking about how it will help us with our upcoming adventures...
 おとも？\nなかま？=Companion? A friend?
@@ -480,7 +480,7 @@ Summary:
 管理人様、お下がりください！\nあれは、アストライア大陸の魔物です……！=Manager, please step back! Those are monsters from the continent of Astraea...!
 近くにまた、あの「穴」が開いちゃったんですかねっ？=I wonder if that hole opened up again nearby?
 こ、こんなにたくさんっ……！？=Th-There's this many...!?
-(.{2,10})くんっ！ちから～ぉ=$1! Power!
+r:"^(.{2,10})くんっ！\n力を！"="$1-kun! Power!"
 動物さんたちを傷つけるのはダメですよ～っ！=It's not good to hurt the animals!
 ぷ、ぷぎーーっ！？=P-Pugiii?!
 ……！\nだめ……！=...! Don't...!
@@ -541,10 +541,10 @@ Summary:
 一緒に、美味しいものを探しにいこう。=And go look for delicious food together.
 ぴぎゅ！\nぎゅーーーー♪=Pigyu! Gyuuuu♪
 ──こうして、少し変わった仲間（ペット）を迎えた一同。\n彼らは【バンディ・シスターズ】を迎え撃つため、\nコッコロたちの待つキャッスル・オブ・パルフェに戻るのだった。=-And so, everyone greets their slightly unusual companions (pets). They return to the Castle of Parfait, where Kokkoro and the others are waiting, to intercept the Bandit Sisters.
-
+あ……やっぱり引いてる～……=Ah... She's backing down after all...
 
 Episode 4: 
-新しい家=A new house
+新しい家=A New House
 
 Summary:
 城へ帰還したペコリーヌたちは皆に新たな仲間たちを紹介し、コッコロたちは準備した箱をお披露目する。そしてそれぞれ課題を見出した一同は【バンディ・シスターズ】との戦いに向けて準備を進めるのだった。=Upon returning to the castle, Pecorine and the others introduced their new friend to everyone, while Kokkoro and the rest showed off the cabin they had prepared. After completing their appointed task, everyone gets ready for the upcoming battle against the Bandit Sisters.
@@ -595,7 +595,7 @@ Summary:
 え～\nま～た～？=Whaaat? Again?
 そんなカオすんじゃないよ。\nアタシを気持ち良く酔わせてくれるモノは、\nお宝集めと同じくらい大事だっていつも言ってンだろうが。=Don't look at me like that. I always tell you that something that makes you feel good and drunk is as important as collecting treasure.
 ま、見つからなかったら──\n王家の装備と一緒に、連中からせしめるとしようかね。\n盗賊らしくさ。=Well, if we can't find it, I guess I'll start pestering them for our drinks along with the Royal Equipment. Like bandits.
-『ふぁんふぁんファーム』にて新たな仲間を迎えた翌日。\n(.{2,10})たちは、\n仲間たちの待つキャッスル・オブ・パルフェへと無事に帰還していた。=It was the day after they’d welcomed their new comrade in the “Fun-Fun Farm.” $1 and the others had safely returned to the Castle of Parfait, where their friends were waiting.
+r:"^『ふぁんふぁんファーム』にて新たな仲間を迎えた翌日。\n(.{2,10})たちは、\n仲間たちの待つキャッスル・オブ・パルフェへと無事に帰還していた。$"="It was the day after they’d welcomed their new comrade in the “Fun-Fun Farm.” $1 and the others had safely returned to the Castle of Parfait, where their friends were waiting."
 主さまぁ～っ！！！！=My Lord!!!!
 ただいま、コッコロちゃん。=I'm home, Kokkoro-chan.
 キャルちゃぁ～んっ！！！！\n会えなかったぶん、さっそくキャルちゃん吸いをっ──=Kyaru-chaaaan!!!! Since we didn't get to see each other for so long, I'll start sucking on Kyaru-chan right away~
@@ -733,7 +733,7 @@ Summary:
 いつも通り？\nほんとー？　お姫さま、やっさしーいっ！=As we always do? Really? Princess, you're so kind!
 わーい♪　じゃあ今日は、たっくさんおしゃべりしよー！=Yaaay♪ Then let's chat a lot today!
 もう！　二人とも、調子いいんだから。\nその……よろしくおねがいします……プリンセス・ライラエルさま。=Geez! You two are being so carefree. Um... It's a pleasure to meet you... Princess Lyrael.
-ははは。異世界のお姫様を一目でも見てみたいと\n(.{2,10})くんにお願いした甲斐があったね。３人とも。=Hahaha. It was worth asking $1 to get a glimpse of a princess from another world, all three of you.
+r:"^ははは。異世界のお姫様を一目でも見てみたいと\n(.{2,10})くんにお願いした甲斐があったね。３人とも。$"="Hahaha. It was worth asking $1 to get a glimpse of a princess from another world, all three of you."
 まあ。そんなことを？\nふふふ……見るだけでなく、たくさん交流いたしましょう。=Oh, so that's what you're here for? Hehehe... Let's not just talk, but also interact a lot then.
 あぁ、そうです。ミミ、キョウカ、ミソギ。\nみなさまの好きな遊びを教えていただけませんか？\nわたしも異世界の文化に興味があります。=Ah, that's right. Mimi, Kyouka, Misogi. Could you tell me what kind of games you all like to play? I'm interested in otherworldly culture, too.
 あ、遊び……ですか？=G-games they play...?
@@ -818,7 +818,7 @@ Summary:
 
 
 Substory V:
-プリンおばけとお菓子の城=Pudding ghost and candy castles
+プリンおばけとお菓子の城=Pudding Ghost and Candy Castles
 
 Summary:
 『ジオ・テオゴニア』の街中のプリンを食べ尽くそうとするミヤコ。イリヤたちが止めようとするが、うまくいかない。そのまま食べ続けたミヤコは体の重みで飛べなくなり、チョコレートの堀に沈んでいった。=Miyako was trying to eat up all the pudding in the "Gio Teogonia". Iliya and the others tried to stop her, but were unable to. As she continued to eat, the weight of her body rendered her unable to fly, and she sank into the chocolate moat.
@@ -848,7 +848,7 @@ Summary:
 さ、さすがとか言ってる場合じゃないわよ！　イリヤさんっ！？=Th-This isn't the time to be saying stuff like that! Iliya?!
 む？　そうなのか？=Hm? Is that so?
 当たり前でしょっ！\n私たち、街の人を魔物から助けにきたはずなのに\nこれじゃこっちが荒らす側になっちゃうわ！=Of course! We're supposed to be here to protect the people of the city from the monsters, but we're the ones wreaking havoc now!
-ふむ……たしかにそうか。\n他でもない(.{2,10})に頼まれたことじゃしのう……\n仕方があるまい。=Hmm... I suppose you're right. It was none other than $1's request, after all... It can't be helped.
+r:"^ふむ……たしかにそうか。\n他でもない(.{2,10})に頼まれたことじゃしのう……\n仕方があるまい。$"="Hmm... I suppose you're right. It was none other than $1's request, after all... It can't be helped."
 ヨリ、アカリは迂回して後ろから捕まえよ。\nシノブはわらわと、あちら側で見張りじゃ。=Yori, Akari take a detour around and catch her from behind. Shinobu and I will be on lookout over there.
 幽霊を捕まえるのはなかなか難しいですが……\nなんとかミヤコさんを止めましょう。\nお父さんも、協力してね。=Catching ghosts is pretty difficult, but... Let's try to stop Miyako-san. Dad, help me out.
 おうよ！　かわいい娘の頼みだ！\nいくらでも協力してやるぞ、シノブ！=Sure! It's a request from a cute girl! I'll help you however I can, Shinobu!
@@ -929,12 +929,12 @@ Ah…やっぱり引いてる~…=Ah... Of course it's going to be like this...
 
 
 Episode 5:
-探し物と宝物=Looking for hidden treasure
+探し物と宝物=Looking for Hidden Treasure
 
 Summary:
 クローチェから牧場での出来事を聞いたライラエルは今後のことを思案する。一方リリたちは改めてこの世界のことや自分たちの目的について話し合う。そうして足並みを揃えた一同は、戦いに備えて英気を養う。=Hearing what had happened at the ranch from Croce, Lyrael pondered on what to do next. Meanwhile, Riri and the others discussed about this world and their own goals once more. Once they had everything sorted, they ready themselves for the upcoming battle.
 
-(.{2,10})たちが帰還した後。\nクローチェは、主であるプリンセス・ライラエルのもとを訪れていた。=After $1 and the others returned, Croce visited her master, Princess Lyrael.
+r:"^(.{2,10})たちが帰還した後。\nクローチェは、主であるプリンセス・ライラエルのもとを訪れていた。$"="After $1 and the others returned, Croce visited her master, Princess Lyrael."
 ──っていう感じでっ！\n無事に仲間になってくれる動物さんも見つかってっ♪\nナイトさんたちとの冒険、とってもとっても楽しかったんですよ～っ！=That's what happened! We found an animal that is suitable for their needs♪ And I had a lot of fun adventuring with Naito-san~!
 ふふ。\nそれは何よりでしたね。=Heehee. I'm glad to hear that.
 ……ですが。\n『ふぁんふぁんファーム』の方にまで、\n魔物の被害が及んでいるなんて……予想以上ですね。=...However, to think that monster attacks has even reached the 'Fun-Fun Farm'... That's worse than I expected.
@@ -959,7 +959,7 @@ Summary:
 それよりも。\nさ、ケーブルをこちらへ。\n旅で消耗したぶんの、充填をしなくては。=More importantly, let's get the cable over here. You're probably exhausted from the trip, so I need to recharge you.
 やはり、エネルギーがほとんど減っていませんね。\n騎士の『プリンセスナイト』の能力によるものだそうですが、\nどのような力なのでしょうか……=As I thought, the energy hasn't decreased much. It's apparently due to Sir Knight's Princess Knight ability. I wonder what kind of power it is...
 彼らの秘め置く目的が、どうか悪しきものではありませんように。\n……リンドやヴルムたちが、\n何か突き止めてくれていると良いのですが……=I hope their secret objective isn't anything bad. ...I hope that Lind, Wyrm, and the others can figure out something...
-一方──\nドラゴン族のメイド・ヴルムは、\n(.{2,10})たちと『オニギリちゃん』の訓練を見守っていた。=Meanwhile Wyrm, the dragon maid, is watching over $1 and the others with Onigiri-chan's training.
+r:"^一方──\nドラゴン族のメイド・ヴルムは、\n(.{2,10})たちと『オニギリちゃん』の訓練を見守っていた。$"="Meanwhile Wyrm, the dragon maid, is watching over $1 and the others with Onigiri-chan's training."
 ぴぎゅーーーーー！=Pigyuーーー!
 あーもう、まっすぐ走りなさーい！=Aaah, geez, run straight!
 手綱の要領がお馬さんと違って、難しいです～っ！=It's not that easy because it's different from reining in a horse!
@@ -996,7 +996,7 @@ Summary:
 怪しい動きをするまで見張る……っていっても。\n夜は寝たいし。\n城の仕事だっていつまでもサボれるわけじゃないし……=I'll keep an eye on them until they make any suspicious moves... But I want to sleep at night too. It's not like I can skip work at the castle forever...
 もうっ、ヴルム～！\nあなたもごはん運ぶの、手伝いなさ～いっ！=Geez, Wyrm~! You have to help carry the food too~!　
 ……はぁ。\n……めんど……=...Hah... What a pain...
-──それから(.{2,10})たちは、\n夜が更けるまで「オニギリちゃん」の訓練を続けた。=After that, $1 and the others continued their Onigiri-chan training until late at night.
+r:"^──それから(.{2,10})たちは、\n夜が更けるまで「オニギリちゃん」の訓練を続けた。$"="After that, $1 and the others continued their Onigiri-chan training until late at night."
 皆様、ご苦労様です。\nただいま戻りました。=Good work, everyone. I'm back.
 あっ☆\nリリちゃん、クリアちゃん、プレシアちゃん！=Ah☆Riri, Quria, Precia!
 お疲れさま、【アルターメイデン】の皆。=Good work, everyone from Alter Maiden.
@@ -1060,7 +1060,7 @@ Summary:
 
 
 Episode 6:
-衝突、盗賊三姉妹！=Clash, three bandit sisters!
+衝突、盗賊三姉妹！=Clash, Three Bandit Sisters!
 
 Summary: 
 再び城を襲撃しにきた【バンディ・シスターズ】を迎え撃つ一同。次々に繰り出される攻撃に苦戦するも、クリアたちの作戦が功を成し、一同は力を合わせて見事【バンディ・シスターズ】を退けたのだった。=Everyone intercepts the [Bandit Sister] who has come to attack the castle again. Although they struggle to deal with the attacks that were launched one after another, Quria and the others' strategy succeeds, and they all work together to successfully repel the [Bandit Sisters].
@@ -1296,7 +1296,7 @@ Summary:
 待て待て。騒ぎ起こすようなことすんじゃねえよ。\n今日はケンカ売りに来たわけじゃないんだからな？=Wait, wait. Don't do something that can cause trouble. We're not here to pick a fight today, okay?
 えっ！？　そうなんですか？\nカヤぴぃのことだから、新しい世界へケンカしに来たのかと……=Huh?! Really? Knowing Kaya-pii, I thought she'd come to a new world to pick a fight...
 そりゃしたいけど、そうも言ってらんないんだよ。\nボスがいなくなってから人手不足で、\nギルドの運営に追われてばっかでさ……くうう～、ケンカしてえ……='That's what I'm here for', is what I'd like to say. However ever since Boss left, we've been so busy with running the guild while being shorthanded... Ugh, I'm so itching for a fight right now..
-けど、今は人手不足解消が先だ！\n(.{2,10})の話じゃ、\nあの城にドラゴン族がいるらしいからな。=For now, my first priority is to get rid of labor shortage! According to $1, there are dragonfolks in this castle.
+r:"^けど、今は人手不足解消が先だ！\n(.{2,10})の話じゃ、\nあの城にドラゴン族がいるらしいからな。$"="For now, my first priority is to get rid of labor shortage! According to $1, there are dragonfolks in this castle."
 新メンバーを勧誘しにきたってことですか。\nたしかにあたしも、そろそろ子分がほしいところですね。\n「イノリ親分」……いい響きじゃねーですか！=So you're here to recruit new members, huh? Now that you said it, I do want my henchmen soon. 'Boss Inori'... What a nice ring to it!
 よーし！\nじゃあさっそくそのドラゴン族を仲間にしてやるですよー！\n突撃です～っ！！=All right! Then let's go meet our dragon friends! Charge!!
 あ、コラ！　騒ぎ起こすなって言ってんのに、\n正面からツッコむヤツがいるか！　今日は裏口からだ！=Oh, hey! I alreaedy told you not to cause troubles, and isn't going through the front door is the exact opposite of that?! We're coming through the back door today!
@@ -1387,7 +1387,7 @@ Summary:
 
 よーし、次は右手を見てみな！\nあれが城下町名物・チョコレート噴水だっ！=Alright, next, take a look to your right! That's the castle town's point of interest, the chocolate fountain!
 おおお……！=Ohhh...!
-魔物の襲撃に遭った街の復興を援助するため、\n【メルクリウス財団】は(.{2,10})、ヴォルガーノと共に\n『ジオ・テオゴニア』を訪れていた。=Mercurius Foundation was visiting Gio Teogonia along with $1 and Volgano to help rebuild the city after the monster attack.
+r:"^魔物の襲撃に遭った街の復興を援助するため、\n【メルクリウス財団】は(.{2,10})、ヴォルガーノと共に\n『ジオ・テオゴニア』を訪れていた。$"="Mercurius Foundation was visiting Gio Teogonia along with $1 and Volgano to help rebuild the city after the monster attack."
 まあ……！　このチョコレート、すっごくおいしいですわ♪\nどんなパティシエが調合なさっているんでしょう？=Oh my...! This chocolate is really delicious♪ I wonder what kind of pastry they make?
 この技術があったら、\n麦しゅわの噴水も作れそうよね～……ごくり。=With this technology, I should be able to make a fountain of barley broth... *gulp*
 ユ、ユカリさん？　顔が本気よ……？=Y-Yukari-san? Your face looks dead serious...?
@@ -1440,7 +1440,7 @@ Summary:
 ふっふっふ♪\nそれじゃあ売って売って、売りまくるにゃ～～～っ！！=Hehehe♪ Then I can just sell, sell, and sell. This is purr-fect!!
 こうして売り出された【メルクリウス財団】のたい焼きは、\n瞬く間に『ジオ・テオゴニア』で大ブームとなった。=Thus, the Mercurius Foundation's taiyaki invention was instantly a huge boom in Gio Teogonia.
 新しい世界でひと山当てたタマキたちは、\n大忙しでランドソルと『ジオ・テオゴニア』を往復するのだった。=Having hit the jackpot in the new world, Tamaki and the others were so busy that they went back and forth between Landosol and Gio Teogonia.
-ふ～、忙しくて猫の手も借りたいにゃ～！\nあ、(.{2,10})も手伝ってくれるにゃ？\nじゃあ22号店に、このあんこを持っていくにゃ♪=*sigh* I'm so busy that I could use a paw! Oh, and $1 will help too, nya? Help me bring this red bean paste to the 22nd store nya♪
+r:"^ふ～、忙しくて猫の手も借りたいにゃ～！\nあ、(.{2,10})も手伝ってくれるにゃ？\nじゃあ22号店に、このあんこを持っていくにゃ♪$"="*sigh* I'm so busy that I could use a paw! Oh, and $1 will help too, nya? Help me bring this red bean paste to the 22nd store nya♪"
 大盛況だね。=It's a huge success.
 ふふーん♪　そうにゃ！\n次元の壁を越えてこんなにブームになるとは……\nたい焼きはすごい食べ物だにゃ♪=Heheh♪ That's right! I didn't think taiyaki would be such an inter-dimensional boom... Taiyaki is such an amyazing food♪
 これからもっとお店を広げるにゃ！\nこれで猫たちのご飯も、\nもっともっと豪華にしてあげられるにゃ～！=I'm going to expand my store even further! Now I can myake my cats' meal even more extravagant!
@@ -1462,12 +1462,12 @@ Summary:
 や、やめるにゃ！　拷問みが増すだけにゃ！=S-Stop it, meow! You'll just torture me more!
 うう……！\n新しい世界でたい焼きが認められるのはうれしいけど……=Ugh...! I'm hyappy that taiyaki is accepted in this new world, but...
 こんなのたい焼きじゃないにゃ～～～っ！！=This isn't taiyaki-nya~!!
-
+キャッスル・オブ・パルフェ～城前広場～=Castle of Parfait - Castle Plaza -
 
 Interlude II:
 
 Summary:
-キャルたちを捜しに街へ繰り出した(.{2,10})とペコリーヌ。そこで璃乃たちと出会い、現実での再会を喜び合う。その折、ペコリーヌはランドソルの住民だという者に話しかけられ困惑するのだった。=$1 and Pecorine went out into the city in search of Kyaru and the others. They met Rino and the other girls there, and they rejoiced at their reunion in the real world. At that moment, Pecorine was bewildered to be spoken to by someone who claimed she was a citizen of Landosol.
+r:"^キャルたちを捜しに街へ繰り出した(.{2,10})とペコリーヌ。そこで璃乃たちと出会い、現実での再会を喜び合う。その折、ペコリーヌはランドソルの住民だという者に話しかけられ困惑するのだった。$"="$1 and Pecorine went out into the city in search of Kyaru and the others. They met Rino and the other girls there, and they rejoiced at their reunion in the real world. At that moment, Pecorine was bewildered to be spoken to by someone who claimed she was a citizen of Landosol."
 
 璃乃・ミミ・あかり=Rino, Mimi, Akari
 言い争う声=Voices arguing
@@ -1525,7 +1525,7 @@ Summary:
 ま……楽しませてくれたお礼に。\nこれは宿題ってことにしてあげる。=Well... As thanks for entertaining me, consider this your homework.
 ゆっくり考えときなさい？\n次に会う時までにね。=Take your time and think it over. Till we meet again.
 ついでに、フロにも入りなさいよ？\nケモノ臭いヒーロー……♪=And you really should take a bath while you're at it, animal-scent hero...♪
-革命によって国を追われ、\n(.{2,10})の元へ落ち延びたペコリーヌ。\n二人は仲間を求めて、街へと繰り出した。=After fleeing the country due to the recent coup d'état, Pecorine escaped to $1's home. The two of them set out into the city in search of their friends.
+r:"^革命によって国を追われ、\n(.{2,10})の元へ落ち延びたペコリーヌ。\n二人は仲間を求めて、街へと繰り出した。$"="After fleeing the country due to the recent coup d'état, Pecorine escaped to $1's home. The two of them set out into the city in search of their friends."
 どうして僕の背中に隠れるの、ペコさん？=Why are you hiding behind my back, Peco?
 『い、いえその。\nわたし一応、逃亡中というか。\nニュースとかでは、死んじゃってる身なので……』="N-No, it’s just that. I’m technically on the run. According to the news and stuff, I’ve died, so..."
 『だからこうして、あんまり人目につかないようにしながら\nここまで来たんですよね。\n騒ぎになっちゃっても困るので』="That’s why I've managed to come this far trying to not attract too much attention. It’d be a problem if things got out of hand."
@@ -1575,4 +1575,5 @@ Summary:
 気付いたらこの、へんな世界の病院にいて！\nもう、わけわかんなくって……\n知らないひとばっかりで、怖くて！=The next thing I knew, I was in a hospital in this strange world! I didn't know what was going on anymore... I was freaking because there are so many people I don't know!
 一緒に帰りましょ！\nあたしたちの国……ランドソルに！\nユースティアナ王女様！！=Let's go home together! To our country... Landosol! Princess Eustiana!!
 キャッスル・オブ・パルフェ～王座の間～=Castle of Parfait
-r:"^よくもっ！\n(.{2,10})、やるわよ！$"="How dare you! $1, let's do this!"
+キャッスル・オブ・パルフェ～城下町～=Castle of Parfait
+小動物たち=Small animals

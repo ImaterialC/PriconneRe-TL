@@ -6,6 +6,12 @@ Sダッシュ=S:Dash
 プリフェス=PriFES
 プリフェスガチャ=PriFES Gacha
 ★3確定=Guarantee ★3
+★3確定（火）=3★ Fire
+★3確定（水）=3★ Water
+★3確定（風）=3★ Wind
+★3確定（光）=3★ Light
+★3確定（闇）=3★ Dark
+
 プラチナ=Premium
 ピックアップ=Focus
 プラチナガチャ=Premium Gacha
@@ -276,6 +282,11 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 [3C404E]10キャラ目は[FFBB00,CE4F00]★3キャラ確定！[-] マスターピース×１獲得可能！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 character[-] is guaranteed with a 10x draw! Master Piece x1 can be obtained![-]
 
 
+[3C404E]10キャラ目は[FFBB00,CE4F00]火属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Fire Character[-] is guaranteed with a 10x draw!
+[3C404E]10キャラ目は[FFBB00,CE4F00]水属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Water Character[-] is guaranteed with a 10x draw!
+[3C404E]10キャラ目は[FFBB00,CE4F00]風属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Wind Character[-] is guaranteed with a 10x draw!
+[3C404E]10キャラ目は[FFBB00,CE4F00]光属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Light Character[-] is guaranteed with a 10x draw!
+[3C404E]10キャラ目は[FFBB00,CE4F00]闇属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Dark Character[-] is guaranteed with a 10x draw!
 
 
 

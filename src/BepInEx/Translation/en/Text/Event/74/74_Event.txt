@@ -2,15 +2,6 @@ r:"^フラワーヴィレッジ周辺([0-9\-\(\)\w （）]*)$"=Flower Village $1
 
 魔物植物・モベルベ=Monster Plant - Moberbe
 
-優しさの行方=The Whereabouts of Kindness
-リュウジについて=About Ryuuji
-過ちを糧に、花は咲く=Feeding on mistakes, flowers bloom
-持ち味を活かそう=Let's make use of the flavor
-好きな植物は？=What's your favorite plant?
-
-
-
-
 魔法攻撃力が最も低い敵１キャラに魔法特大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to the enemy character with the lowest M.ATK and inflicts a stun state. This skill's abnormal status is applied even if the damage is nullified.
 自身の魔法攻撃力を大アップさせる。=Greatly increases own M.ATK.
 敵全体に魔法大ダメージを与え、行動速度を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to all enemies and moderately reduces their movement speed. This skill's abnormal status is applied even if the damage is nullified.

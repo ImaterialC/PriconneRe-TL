@@ -129,7 +129,7 @@ r:"^屋敷の中では謎の子どもの声が聞こえ、３人はパニック�
 ……待っててね二人とも……すぐに助けるから！=Hang in there, you guys... I'll be back soon!
 r:"^幽霊屋敷に閉じ込められたキョウカと消えたミミを助けるため、\nミソギは(.{2,10})の元へと向かうのだった。$"="Misogi heads to $1 in order to rescue Kyouka, who is trapped in a haunted house, and Mimi, who has disappeared."
 謎の女の子=Mysterious girl
-r:"^(.{2,10})を連れ屋敷に戻るミソギだが、中に入ることはできない。一方、屋敷内を探索していたキョウカは墓場のような場所でミソギの声を聞く。キョウカはその声をつなぎ止めるように呼び掛ける。$"="$1 and I return to the mansion, but we cannot enter. Meanwhile, Kyoka, who was exploring inside the mansion, hears Misogi's voice in a place that resembles a graveyard. Kyoka calls out to that voice, trying to hold onto it."
+r:"^(.{2,10})を連れ屋敷に戻るミソギだが、中に入ることはできない。一方、屋敷内を探索していたキョウカは墓場のような場所でミソギの声を聞く。キョウカはその声をつなぎ止めるように呼び掛ける。$"="$1 and I return to the mansion, but we cannot enter. Meanwhile, Kyouka, who was exploring inside the mansion, hears Misogi's voice in a place that resembles a graveyard. Kyouka calls out to that voice, trying to hold onto it."
 r:"^ハロウィンの当日、(.{2,10})はサレンに頼まれ、\nハロウィンパーティーの準備をしていた。\nそんな中、(.{2,10})を呼ぶ声が響き渡る。$"="This Halloween, $1 has been asked\nto help Saren prepare a big party for the children.\nWhile he's hard at work, he hears a voice calling for him."
 にいちゃーん！　にいちゃーーーーん！=Nii-chan! Nii-chaaan!
 全然ハッピーなんかじゃないんだよー！=There's nothing happy about it!
@@ -477,7 +477,7 @@ r:"^いいわよそんな気を遣わなくて。\n準備なら(.{2,10})がす�
 ミミ、もしかして眠い？=Mimi, are you getting sleepy?
 うーん、だいじょうぶ……ミミ、ちゃんとおねえちゃんできてたかなー？=Umm... I'm still okay... \nDid I... manage to be a big girl today...?
 え？　……うん。今日のミミ、すっごく頼もしかったよ。ね、ミソギ。=Huh? ...Yes. \nI think you were braver than any of us. Right, Misogi?
-もちろん！　キョウカなんてすごく怖がってたのに、\nミミは全然そんなことなかったよね！=Oh yeah! Even when Kyoka was being a scaredy-cat,\nyou didn't seem scared at all, Mimi!
+もちろん！　キョウカなんてすごく怖がってたのに、\nミミは全然そんなことなかったよね！=Oh yeah! Even when Kyouka was being a scaredy-cat,\nyou didn't seem scared at all, Mimi!
 こ、怖がってなんか……ていうか、もとはといえばミソギのせいでしょ！=I-I was not being a... \nActually, wasn't this all your fault, Misogi?!
 うっ！　で、でもその分ミソギも頑張ったもん！=Ugh! W-well, I made up for it, didn't I?!
 ミソギちゃんとキョウカちゃんは、\nミミがいなくなってもわすれたりしない？=If I disappeared someday...\nWould you guys still remember me?

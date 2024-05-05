@@ -538,7 +538,7 @@ Chapter 3:
 Summary:
 城外に現れた魔物退治に向かう一同。リンドたちはライラエルから住民の避難誘導を命じられたが、彼女を想い、皆で国を守ることを選ぶ。一同は心を一つにしたジオ・テオゴニアの人々と共に魔物に立ち向かっていく。=Everyone is on their way to slay the monsters that appeared outside the castle. Lind and the others were ordered by  Lyrael to evacuate the residents, but they choose to remain and fight alongside her to protect their country together. Together with the people of Gio Teogonia, they stand united and ready for the monsters.
 
-r:"^ライラエルや(.{2,10})たちは城の外に向かい、\nキャッスル・オブ・パルフェの大広間には\nリンドとヴルムが残されていた。$"=Laiael, $1, and the others headed outside the castle, leaving Lind and Wyrm in the great hall of the Castle of Parfait
+r:"^ライラエルや(.{2,10})たちは城の外に向かい、\nキャッスル・オブ・パルフェの大広間には\nリンドとヴルムが残されていた。$"=Lyrael, $1, and the others headed outside the castle, leaving Lind and Wyrm in the great hall of the Castle of Parfait
 ちょっと、私たちも急ぎましょヴルム……！\nライラエルさまから、\n街の人たちの避難誘導を任されてるんだから……！=Hey, let's hurry too, Wyrm...! Lady Lyrael entrusted us with evacuating the people of the city...!
 ……だる。=...How bothersome.
 はぁっ！？　こ、こんなときに……！\nだるいとか面倒とか、言ってる場合じゃないでしょう！？\nライラエルさまたちが、戦いに出られているのに……！=Huh?! A-At times like this even...! This isn't the time to say things like "tiring" and "troublesome" is it?! \nEven though Lyrael and the others are out fighting...!

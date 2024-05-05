@@ -25,7 +25,7 @@
 甘くて優しいおすそ分け=Sweet and Gentle Sharing
 
 --------------------
-sr:"^秘境『雲海の山脈』にやってきた(.{2,10})と美食殿。『雲海の山脈』には貴重な食材があると語るペコリーヌ。慣れない山登りでへばるキャルを励ますコッコロ。そして一同は秘境攻略に挑む……$"=$1 and the Gourmet Guild travel to the remote Cloudtop Peak which Pecorine claims is home to rare ingredients. Karyl complains while Kokkoro encourages her. Together, the four aim to conquer this uncharted land!
+sr:"^秘境『雲海の山脈』にやってきた(.{2,10})と美食殿。『雲海の山脈』には貴重な食材があると語るペコリーヌ。慣れない山登りでへばるキャルを励ますコッコロ。そして一同は秘境攻略に挑む……$"=$1 and the Gourmet Guild travel to the remote Cloudtop Peak which Pecorine claims is home to rare ingredients. Kyaru complains while Kokkoro encourages her. Together, the four aim to conquer this uncharted land!
 
 『雲海の山脈』で倒した魔物の肉を全員で美味しく食べる美食殿の面々。『雲海の山脈』以外の各地の秘境にも美味・珍味があると言い、やる気を見せるペコリーヌだった。=The Gourmet Guild defeats the monster on Cloudtop Peak and savors its delicious meat. Pecorine gets excited at the prospect of other uncharted lands hiding strange and wonderful delicacies.
 
@@ -36,7 +36,7 @@ sr:"^新たな秘境『密林の大樹』にやってきた(.{2,10})と美食殿
 
 sr:"^新たな秘境『断崖の遺跡』にやってきた(.{2,10})と美食殿。今回は、遺跡に眠る未知なるレシピを手に入れるのがペコリーヌの目的だろうとコッコロが看破する。そして一同は秘境攻略に挑む……$"=$1 and the Gourmet Guild have made their way to the mysterious Sheercliff Ruins. Kokkoro guesses Pecorine is after a secret recipe hidden deep inside. The four set out to yet another uncharted land...
 
-遺跡で手に入れたレシピをもとに早速料理を作るコッコロ。今回は金銀財宝も手に入れることができてキャルも上機嫌だ。ペコリーヌも、みんなと一緒ならいつでもどこでも何でも美味しいと語るのだった。=Kokkoro whips up a dish based on the recipe found in the ruins. Karyl is thrilled with all the treasure she found. And Pecorine reminds everyone that sharing a meal with friends makes everything taste better.
+遺跡で手に入れたレシピをもとに早速料理を作るコッコロ。今回は金銀財宝も手に入れることができてキャルも上機嫌だ。ペコリーヌも、みんなと一緒ならいつでもどこでも何でも美味しいと語るのだった。=Kokkoro whips up a dish based on the recipe found in the ruins. Kyaru is thrilled with all the treasure she found. And Pecorine reminds everyone that sharing a meal with friends makes everything taste better.
 
 新たな秘境に現地集合のはずが、ペコリーヌの姿がない。少し遅れてずぶ濡れのペコリーヌが現れる。今回の秘境『蒼海の孤塔』に入るための手順を一人で海中で行っていたらしい。そして一同は秘境攻略に挑む！=Pecorine shows up a bit late to the guild's latest remote destination—Tideborne Tower. Apparently, she was underwater undoing all the locks and barriers. Together the four face still another uncharted land!
 
@@ -44,9 +44,9 @@ sr:"^新たな秘境『断崖の遺跡』にやってきた(.{2,10})と美食殿
 
 sr:"^『絶世の卵』を使った卵かけご飯を味わうため、『毒瘴の闇稜』にやってきた美食殿と(.{2,10})。しかし山からは毒の瘴気が吹き出しているため、ペコリーヌたちは苦戦しながら登ることに。$"="Seeking the "Ultimate Egg" for the greatest bowl of egg over rice in history, $1 and the Gourmet Guild venture to Darkblight Crag. A noxious miasma spews from the mountain, making their climb slow and treacherous."
 
-山のヌシを倒し『絶世の卵』を入手した一同。気味の悪いヌシの姿を見て当初は卵を食べることを拒んでいたキャルだったが、ペコリーヌの勧めでようやく食べたその味に感動を覚えるのだった。=The Gourmet Guild vanquishes the Lord of the Mountain and obtains the "Ultimate Egg!" After seeing the beast that laid it, Karyl is hesitant to eat the egg, but after a little convincing from Pecorine, she relents.
+山のヌシを倒し『絶世の卵』を入手した一同。気味の悪いヌシの姿を見て当初は卵を食べることを拒んでいたキャルだったが、ペコリーヌの勧めでようやく食べたその味に感動を覚えるのだった。=The Gourmet Guild vanquishes the Lord of the Mountain and obtains the "Ultimate Egg!" After seeing the beast that laid it, Kyaru is hesitant to eat the egg, but after a little convincing from Pecorine, she relents.
 
-ギルドからの調査依頼を受け『緑竜の骸嶺』にやって来た美食殿一同。荒ぶるドラゴンの調査に及び腰のキャルだったが、ドラゴンの肉に興味津々なペコリーヌに押し切られしぶしぶ奥地へと向かうことに。=The Gourmet Guild accepts a job from the Guild Association to investigate a remote peak known as Jadewyrm's Roost. Karyl balks at the notion of investigating a terrifying dragon, but nothing can stop Pecorine's overwhelming curiosity about the flavor of dragon meat.
+ギルドからの調査依頼を受け『緑竜の骸嶺』にやって来た美食殿一同。荒ぶるドラゴンの調査に及び腰のキャルだったが、ドラゴンの肉に興味津々なペコリーヌに押し切られしぶしぶ奥地へと向かうことに。=The Gourmet Guild accepts a job from the Guild Association to investigate a remote peak known as Jadewyrm's Roost. Kyaru balks at the notion of investigating a terrifying dragon, but nothing can stop Pecorine's overwhelming curiosity about the flavor of dragon meat.
 
 
 ----

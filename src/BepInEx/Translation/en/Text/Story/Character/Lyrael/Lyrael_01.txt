@@ -1,5 +1,7 @@
+リンド=Lind
+ヴルム=Wyrm
+ヴォルガーノ=Volgano
 r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べながら旅についての雑談をしていた。国を離れる考えがあまりなかった彼女が手にしたのは旅を後押しするフォーチュンクッキーの結果だった。$"="Lyrael and $1 were chatting about travelling while eating sweets from Landosol. She had never thought of leaving her country before until a result from a fortune cookie changed her mind."
-
 裏世界『ジオ・テオゴニア』──\nその地を治めるプリンセス・ライラエル。\n彼女は今日も玉座につき、臣下からの報告に目を通していた。=The Reverse World "Geo Teogonia"── Princess Lyrael is managing this land. Today too, she is sitting on her throne and receiving reports from her subjects.
 ……これで書類はすべて目を通せたでしょうか。\n今回は大きなトラブルの報告はありませんでしたね。\nなによりです。=...With that, I've read all of the documents.\nThankfully, there is no major incidents this time.
 さて、と。\nお仕事も終わりましたし……少しだけお昼寝でもしようかしら。\nふわぁ……=Now with my work being over...\nI wonder if I should take a little break. Fwahh...
@@ -7,12 +9,10 @@ r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べなが�
 お休みでした？=Were you going to sleep?
 ああ……\nやはり見られていたのですね。=Ah... so you saw that.
 もしかしたら見られていないかも、と思ったのですが……\nあんなに口を開けているところを……\n恥ずかしい……=I really wished you didn't see that...\nI just had to yawn like that, it's so embarassing...
-
 誰にも言いません。=I won't tell anyone.
 騎士……\nふふ、本当に優しいですね、あなたは。\nではこれも、二人だけの内緒にしておいてくださいね。=Sir Knight... Fufu, you really are a kind person. Then please keep this a secret, for just the two of us.
 かわいかったです。=It's cute.
 かわっ……？\nもう、からかわないでください。\nいじわるなところもあるのですね、あなたには……ふふっ。=Cute...? Please don't go around teasing me, this isn't the place to be teasing someone like me... fufu. 
-
 それで……\n今日はどうされましたか？=So... what are you doing here today?
 お土産を持ってきました。=I brought some souvenirs.
 お土産……？\nああ、そういえば用事を片付けるために\nあなたたちの世界に戻ると言っていましたね。=Souvenirs...? Ah, you did say you went back to your world to take care of something.
@@ -70,7 +70,7 @@ r:"^数日後──\n(.{2,10})は再びライラエルの元を訪れていた�
 メイド長らに不在のあいだの指示を出し、クローチェを護衛とすれば……\nごく短期であれば、問題は無いはず。\n……わかりました。ペコリーヌ姫からの招待、喜んでお受けいたします。=If I inform the head maids that I'll be gone, and bring Croce as my escort... It should be fine to be out for a little while...\nAlright, I'll gladly accept Princess Pecorine's invitation.
 ご案内願えますか、騎士。\nあなた方の世界──アストライア大陸へ。=Please guide me, Sir Knight. To your world──\nContinent of Astraea.
 そして翌日──=The next day──
-そろそろですねっ、そろそろですねっ！\nプレシアちゃんが教えてくれた、\n空に穴があくタイミングっ♪=Anytime now, anytime now～\nPrecia-chan told me when the hole would appear already♪
+そろそろですねっ、そろそろですねっ！\nプレシアちゃんが教えてくれた、\n空に穴があくタイミングっ♪=Anytime now, anytime now～\nPrecia told me when the hole would appear already♪
 クロさん、テンション高。\nどんだけ行きたいんですかランドソル。=Croce, you're too excited. Why are you this excited over going to Landosol?
 だってだってっ！\n前にランドソルに行ったとき、今度はライラエルさまも一緒に！\nって思ってたんですっ！　だからワクワクが止まらなくってっ！=Last time I went to Landosol, I kept thinking how much more fun it'd be alongside Lyrael-sama!\nThat's why I'm so excited this time!
 クローチェさんっ。\n今回はただ観光にいくんじゃないんですよっ？\nしっかりライラエルさまのことをお守りしてくださいね？=Croce, please remember that you're not just going on a sightseeing trip this time.\nPlease protect Lyrael-sama properly, alright?

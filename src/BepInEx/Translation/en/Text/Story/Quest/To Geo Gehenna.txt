@@ -2,12 +2,12 @@
 はぁ……♪\nジオ・テオゴニアのジュースとおかし、とってもおいしい……♪\n空気もおいしくて、勉強がはかどるなぁ。=Haa... ♪ The juice and sweets from Geo Theogonia are so delicious... ♪ The air is delicious too, and it makes studying progress.
 ──へえ、キミなかなかわかってるじゃないか。\nボクの美しさを磨き上げるには、うってつけの環境だよ。\nいっそジオ・テオゴニアに住むというのもありかもしれないね……！=Oh, you seem to understand quite well. To enhance my beauty, this is the perfect environment. Maybe living in Geo Theogonia wouldn't be a bad idea...
 えっ？\nあなたは確か、\nへんたいふしんしゃさんの、お友達の……=Huh? Aren't you a friend of the eccentric enthusiast...
-ユキだよ。そっちはキョウカちゃんだっけ。\nキミもなかなか素質があるね、将来を約束されし美しさの素質が──\n……おや？=I'm Yuki. And you're Kyoka, right? You seem to have some potential. The potential for promised beauty in the future... Oh?
+ユキだよ。そっちはキョウカちゃんだっけ。\nキミもなかなか素質があるね、将来を約束されし美しさの素質が──\n……おや？=I'm Yuki. And you're Kyouka, right? You seem to have some potential. The potential for promised beauty in the future... Oh?
 ──ゥ弟くぅぅうんっ！！\nどこ行っちゃったのぉ～～ッッ！！？=Little brother! Where did you go~!
 きゃあっ！？\nわぁっ！？=Kyaa!? Waah!
 いなぁ～いっ！！　弟くんがいないよぉ！！\nお姉ちゃんレーダーに全然反応がないないないっ！！\nどこいっちゃったの弟く～んっ！！？=He's not here! My little brother is nowhere to be found! The little brother radar isn't reacting at all! Where did he go, my little brother~!
 弟くんって。騎士さんですか？\nあそこのゲートでさっき、『ジオ・ゲヘナ』って世界に行きましたよ。\nもう消えかかってますけど。ゲート。=Little brother? Is he a knight? He went to the world called 'Geo Gehenna' through that gate over there. It's already disappearing. The gate.
-ありがとメイドさんっ！！\nよ～しっ、行くよ！\nほらほらユキちゃんも、キョウカちゃんも！　急いで！=Thanks, maid-san!! Alright, let's go! Come on, Yuki-chan, Kyoka-chan! Hurry!
+ありがとメイドさんっ！！\nよ～しっ、行くよ！\nほらほらユキちゃんも、キョウカちゃんも！　急いで！=Thanks, maid-san!! Alright, let's go! Come on, Yuki-chan, Kyouka-chan! Hurry!
 ええっ！？\nそんなのいきなり言われてもっ……！=Eh!? Even if you suddenly say that...
 ボクも忙しくって。\nこれからジオ・テオゴニア名産はちみつエステフルコースの予約が──=I'm busy too. I have reservations for the Geo Theogonia specialty honey esthe full course...
 ご意見無用っ！\n待っててね弟くんっ、今お姉ちゃんたちが行くからね～～～ッ！！=No opinions needed! Wait for us, little brother! We're coming now~!
@@ -21,7 +21,7 @@ r:"^はぁ、はぁ……なんて強引な……\n(.{2,10})さんのお姉さ�
 ダメダメ！\nみんなで手分けして、弟くんを捜すの！\n弟くーーーんっ！=No, no! Let's split up and search for my little brother together! Little brooo~!
 へっ？\nそこにいるのって……=Huh? Is he right there...?
 む……\nシズル……さま。=Hmm... Shizuru...-sama.
-それに、キョウカちゃんとユキちゃんも？=And Kyoka-chan and Yuki-chan too?
+それに、キョウカちゃんとユキちゃんも？=And Kyouka-chan and Yuki-chan too?
 r:"^王女さま、それに(.{2,10})さんたちも！\n良かったぁ、合流できて……\nきゃっ！？$"="Princess, and $1-san's group too! Thank goodness, we've reunited... Kyaa!?"
 弟くーーーーんっ！！！\nもうっ、お姉ちゃんを置いてったりしちゃダメだぞ？\n離れても、すーぐ追いついちゃうけど♪=Little broooo~! You can't just leave your big sister behind, you know? Even if you run away, I'll catch up right away♪
 そのようなことを言っている場合ではありません。\nみなさま、お力を貸してくださいませ！=This is not the time for such things. Everyone, please lend us your strength!

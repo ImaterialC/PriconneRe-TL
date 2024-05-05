@@ -1031,5 +1031,5 @@ r:"^みんなのおかげさ～！\n(.{2,10})も、よく走ったさ～ね！$"
 r:"^博士の根拠なき研究に振り回された(.{2,10})たちだったが、\n図らずも人知れず世界を救うことに成功した。$"="$1 and his companions were thrown around by the Doctor's unfounded research, but unexpectedly, they succeeded in saving the world in secret."
 そして、ハロウィンセイバーズの面々は、\n賑やかな祭りの喧騒の中に消えてゆくのだった──=And so, the members of Halloween Savers vanished into the hustle and bustle of the lively festival──
 カオリたちは、ハロウィンの精霊・ジャックと出会う。霊界から逃げた危険な妖魔を探しているというが、わたあめちゃんには見向きもしない。その夜、どこからか大厄災を予感させる謎の叫び声が響くのだった。=Kaori and the others meet the Halloween spirit, Jack. He claims to be searching for dangerous spirits who have escaped from the spirit world, but he pays no attention to Cotton Candy-chan. That night, a mysterious scream echoes from somewhere, foreshadowing a great calamity.
-ハロウィンフェスティバルが目前に迫ったランドソルの繁華街。\n祭りの準備も進み、スイーツの匂いが街を包んでいた。=The bustling streets of Landsol, with the Halloween Festival just around the corner. The preparations for the festival are also progressing, and the scent of sweets fills the city.
+ハロウィンフェスティバルが目前に迫ったランドソルの繁華街。\n祭りの準備も進み、スイーツの匂いが街を包んでいた。=The bustling streets of Landosol, with the Halloween Festival just around the corner. The preparations for the festival are also progressing, and the scent of sweets fills the city.
 霊界の王=King of the spirit world
