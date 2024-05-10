@@ -52,7 +52,7 @@
 それにしても、精霊について調べるって言っても、\nどうしたらいいのか分かんないわね。=Still, I know I said we should investigate the spirits,\nbut I'm not really sure what to even do.
 そうですね……精霊魔法は一般的な魔法より\n使える人が少ないので、文献なども少ないですし……=That's true...\nIt's much rarer to find people who can use spirit magic, and there aren't very many books on the subject either...
 知ってる人に聞いてみよう。=Let's ask someone who [i]would[/i] know.
-r:"^そうですよ！\n(.{2,10})くんの言う通り、\n精霊魔法を使える人に聞いてみましょう♪$"="That's right!\nWe should do as $1 says\nand try asking someone who can use spirit magic. ♪"
+そうですよ！\n{playername}くんの言う通り、\n精霊魔法を使える人に聞いてみましょう♪=That's right!\nWe should do as {playername} says\nand try asking someone who can use spirit magic. ♪
 まぁ当てもなく歩き回るよりはいいわね。=Well, it's better than aimlessly walking around.
 そうでございますね。\nええと、精霊魔法を使える方と言えば──=That's true.\nUmm, someone who can use spirit magic would be...
 ごめんくださ～い！\nユイちゃ～ん、いますか～？=Excuse me!\nYui! Are you here?
@@ -85,7 +85,7 @@ r:"^そうですよ！\n(.{2,10})くんの言う通り、\n精霊魔法を使え
 なにやってんのよあんたたち……=What're you guys doing...?
 ほらほら、ヒヨリ。\nこのまま話し込んでいたら日が暮れてしまう、そろそろ行くよ。\n……では、よろしく頼むよ。【美食殿】のみんな。=Come on now, Hiyori.\nThe sun's going to set if we keep talking like this, we should get going.\n...Then, we look forward to working with you, members of the Gourmet Guild.
 はい、お任せくださいませ。=Yes, leave it to us.
-r:"^じゃあ、わたしたちも出発です！\nキャルちゃん、コッコロちゃん、(.{2,10})くん♪$"="Then let's move out!\nKyaru, Kokkoro, $1♪"
+じゃあ、わたしたちも出発です！\nキャルちゃん、コッコロちゃん、{playername}くん♪=Then let's move out!\nKyaru, Kokkoro, {playername}♪
 ええ、さっさと行くわよ。……ごほっ。=Yeah, let's get going.\n*cough*
 ……キャルさま……？=...Miss Kyaru...?
 えっと、ユイちゃんはこの辺りって言ってましたけど～\nどうですかコッコロちゃん、何か感じたりしますか？=Hmm, Yui said it was somewhere around here.\nHow is it, Kokkoro? Do you feel anything?
@@ -98,7 +98,7 @@ r:"^じゃあ、わたしたちも出発です！\nキャルちゃん、コッ�
 あわわ、なんだかとっても怒ってるみたいですね……！=Awawah! It looks like it's really angry...!
 コロ助、あんたは下がってなさい！\n精霊の力、上手く使えないんでしょ？=Korosuke, you stand back!\nYou can't use your spirit's power properly, right?
 ですが、キャルさま……！\n相手は見たことのない魔物なのですよ……！？=But, Miss Kyaru...!\nWe've never seen this type of monster before...!
-r:"^問題ありません！\nコッコロちゃんは(.{2,10})くんを守ってあげてください♪$"="Not a problem!\nKokkoro, you make sure to protect $1. ♪"
+問題ありません！\nコッコロちゃんは{playername}くんを守ってあげてください♪=Not a problem!\nKokkoro, you make sure to protect {playername}. ♪
 ……分かりました。\nペコリーヌさま、キャルさま、お気をつけください……！=...Understood.\nMiss Pecorine, Miss Kyaru, please be careful...!
 いきますよキャルちゃん！\n今日のごはんはこれで決まりですっ♪=Let's go, Kyaru!\nToday's meal is decided! ♪
 はぁ！？　こいつも食べる気！？\nあたし嫌よ、嫌だからね！　ちょっと聞いてんのアホリーヌ！=What!? You're plan on eating it!?\nI not eating it, I'm against that!\nHey, are you listening to me, Dumborine!?

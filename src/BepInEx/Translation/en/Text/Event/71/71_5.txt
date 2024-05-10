@@ -65,7 +65,7 @@
 そんなこと……\n私は分かっていたはずじゃないか！　=That sort of thing... is something I should've been fully aware of!　
 アイラたちはただ……我慢してただけ。\nあたしたちに見せないようにしてただけ……！　=Aira and the others were just... holding it in.\nThey just didn't want us to see...!　
 傷だらけの心の中を……！　=Their hearts covered in wounds...!　
-r:"^……この力は……\n(.{2,10})か……？$"=......This power... $1......?
+……この力は……\n{playername}か……？=......This power... {playername}......?
 あ、あはは……\nそっか、届くんだね……あたしたちにも。\nプリンセスナイトの力は……！=A-Ahaha... I see, so it can reach us too...\nThe power of the Princess Knight...!
 ……ありがとう。\nこれだけ力を貸してもらえれば戦える。\nアイラ！=...Thank you. With this much strength, I can fight. Aira!
 もちろんだよシナツちゃん！\n今のあたしたちは絶好調！\nこんな霧なんてちょちょいのちょいだよ！=Of course, Shinatsu-chan!\nWe're in top form right now!\nFog like this is a piece of cake!

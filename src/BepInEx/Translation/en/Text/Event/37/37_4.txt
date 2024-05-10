@@ -44,8 +44,8 @@
 やれやれ、不正捜査はここまでか。\nランドソルの母に、ぼくらの明日でも占ってほしかったものだ。=Sigh, so the cheating investigation ends here. I wish we had Landosol's mother tell our fortunes for tomorrow too.
 僕も占ってもらいたかった。=I wanted to have my fortune told too.
 無邪気か。\nいや、ぼくらの明日というのはこの場合、\n皮肉めいた諧謔というか、端的に換言すればお先真っ暗という──=So innocent. No, in this case, when we say "our future," it's more like a sarcastic joke or simply put, it's completely uncertain...
-r:"^すみません、(.{2,10})さんもいらしてたんですね。\nお友達の皆さんも、私でよければ占いましょうか？$"="I'm sorry, $1-san is here too. Friends, would you like me to read your fortunes if you're okay with me?"
-r:"^えっ、ちょっ……(.{2,10})先輩！\n誰ですか、この幸薄そうなところが逆にすこれる、しめやか美少女！$"="Wait, hold on... $1-senpai! Who is this solemn, beautiful girl who looks like she'd excel at omen?!"
+すみません、{playername}さんもいらしてたんですね。\nお友達の皆さんも、私でよければ占いましょうか？=I'm sorry, {playername}-san is here too. Friends, would you like me to read your fortunes if you're okay with me?
+えっ、ちょっ……{playername}先輩！\n誰ですか、この幸薄そうなところが逆にすこれる、しめやか美少女！=Wait, hold on... {playername}-senpai! Who is this solemn, beautiful girl who looks like she'd excel at omen?!
 霊媒師のシノブちゃん。=She's a medium named Shinobu-chan.
 ふーん。そうなんだ。\nあんた相変わらず女子トモ多いんだね。いいけど何でも。=Hmm... is that so? You still have a lot of female friends, huh? Well, whatever.
 はーい、シノブ先輩！\n霊媒師ちゃんって何する人でしたっけ！=Sure thing, Shinobu-senpai! What does a medium do?
@@ -53,7 +53,7 @@ r:"^えっ、ちょっ……(.{2,10})先輩！\n誰ですか、この幸薄そ�
 ──そうですね。\n霊にまつわる相談を受けてそれに対処する、といった感じです。\n具体的には祈祷や祓魔、交霊、占術などが多いでしょうか。=──that's right. I receive consultations related to spirits and deal with them. It involves various things like prayers, exorcism, spirit communication, and divination.
 占術……=Divination...
 魔を祓う者ね……ふーん、いいじゃん。=Those who exorcise demons... well, that's interesting.
-r:"^ふむ、シノブ君か、よしなに。\n我々はご覧の通り、この学院の生徒。\n端的に言えば、(.{2,10})君の学友だ。$"="Hmm, Shinobu-kun, I see. We are, as you can see, students of this academy. In simple terms, we're $1-kun's classmates."
+ふむ、シノブ君か、よしなに。\n我々はご覧の通り、この学院の生徒。\n端的に言えば、{playername}君の学友だ。=Hmm, Shinobu-kun, I see. We are, as you can see, students of this academy. In simple terms, we're {playername}-kun's classmates.
 学友……？　ここは女子校ではないのですか？=Classmates...? But isn't this a girls' school?
 や、そうなんですけどね。\nなんか色々あって、この人だけ特別に男子編入生やってるんです。=Well, yeah, but there are some circumstances, and this person here is a special male transfer student.
 なにっ、乙女の園に男が一人だと！？=What, a guy in a maiden's sanctuary!?
@@ -182,7 +182,7 @@ r:"^ふむ、シノブ君か、よしなに。\n我々はご覧の通り、こ�
 ぽーん！　本のページめくりならお任せください！=Pon! Leave turning pages in a book to me!
 というわけで、別の替え玉を用意する。\n敵に倣って、こちらも外部から支援要員を招聘するのだ。=So, we'll prepare a different replacement. Following the enemy's example, we'll also recruit support personnel from the outside.
 なるほど、そんな手が……え、でも誰を？=I see, that's an option... but who?
-r:"^うむ。\nそこでだ同志(.{2,10})、交友の広い君に頼みがある。\nこの急場に駆けつけてくれる強力な人材に心当たりはないか。$"="Yes, indeed. Here's where you come in, comrade $1. As someone with a wide circle of friends, do you have any strong candidates who can come to our aid in this critical situation?"
+うむ。\nそこでだ同志{playername}、交友の広い君に頼みがある。\nこの急場に駆けつけてくれる強力な人材に心当たりはないか。=Yes, indeed. Here's where you come in, comrade {playername}. As someone with a wide circle of friends, do you have any strong candidates who can come to our aid in this critical situation?
 最強の助っ人を呼んできます。=I'll call in the ultimate assistant.
 よしなに。\nクロエ君チエル君、\nその間にぼくらは生徒会室へ殴りこむぞ。=Perfect. Chloe-kun, Chieru-kun, in the meantime, we'll barge into the Student Council room.
 はあ……\nいいすけど、でも証拠不十分だから無駄なんすよね。=Sigh... alright, but the evidence is insufficient, so it might be a waste of time.

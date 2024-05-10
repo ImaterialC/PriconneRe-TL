@@ -106,7 +106,7 @@
 
 
 
-r:"^いやったぁ♪\n(.{2,10})さん、良かったね。\n永遠の美が誕生する瞬間に立ち会えるよ♪$"=Yay♪ Isn't that great, $1-san? You'll be able to witness the moment eternal beauty is born♪
+いやったぁ♪\n{playername}さん、良かったね。\n永遠の美が誕生する瞬間に立ち会えるよ♪=Yay♪ Isn't that great, {playername}-san? You'll be able to witness the moment eternal beauty is born♪
 
 
 
@@ -125,7 +125,7 @@ r:"^いやったぁ♪\n(.{2,10})さん、良かったね。\n永遠の美が誕
 
 
 
-r:"^ん？\nどうかしたか、(.{2,10})よ。\n書物を見ながら目を見開いておるが……$"=Hm? What's wrong, $1? Your eyes are wide open as you look at the book...
+ん？\nどうかしたか、{playername}よ。\n書物を見ながら目を見開いておるが……=Hm? What's wrong, {playername}? Your eyes are wide open as you look at the book...
 
 
 

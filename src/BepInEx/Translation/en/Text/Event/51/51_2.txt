@@ -30,7 +30,7 @@
 じぇんじぇんおいしくな～～～～い！！！！=It's not delicious at all!!
 悲鳴っ！？\n今助けに行くっ！！=Someone screamed!? I'll go help right away!!
 レジャー施設に似つかわしくない悲鳴を聞いたジュンは、\n広大なキャンプ場を駆け抜けていくのだった。=Upon hearing a scream that doesn't suit a leisure facility, Jun rushes through the vast campground.
-r:"^──一方その頃、ユカリの足取りを求める(.{2,10})は、\n【フォレスティエ】を訪ねていた。$"="Meanwhile, $1, who is seeking Yukari's whereabouts, visits the "Forestier" guild."
+──一方その頃、ユカリの足取りを求める{playername}は、\n【フォレスティエ】を訪ねていた。=Meanwhile, {playername}, who is seeking Yukari's whereabouts, visits the "Forestier" guild.
 あらあら～……\nお知り合いが失踪？　大変だわ～……=Oh my... A acquaintance has gone missing? That's troublesome...
 ユカリさん、だったわよね？\n聖騎士の格好をしたエルフさん……ハツネちゃん、どうかしら？=It was Yukari-san, right? The elf dressed as a paladin... Did you know anything, Hatsune-chan?
 う～～ん……私は見てないなぁ。\n同じエルフでも、そんな人は珍しくてきっと目立つからね。=Hmm... I haven't seen her. Even among the elves, someone like that would stand out, so I'm sure I would notice.
@@ -51,7 +51,7 @@ r:"^──一方その頃、ユカリの足取りを求める(.{2,10})は、\n�
 見たところ、キャンプは慣れていないみたいだね。\n放っておくこともできないし……どれ、代わりに設営をしてあげよう。=It seems she's not used to camping. I can't leave her like this... Well, let's set up the tent in her place.
 しかし……この女性、確か前にどこかで……？=But... I feel like I've seen this woman somewhere before...?
 
-r:"^──一方その頃、ランドソル王城の前には、\nアオイとユカリの目撃情報を得ようとする(.{2,10})がいた。$"=──Meanwhile, in front of the Landosol Royal Castle, $1 was trying to gather information about Aoi and Yukari.
+──一方その頃、ランドソル王城の前には、\nアオイとユカリの目撃情報を得ようとする{playername}がいた。=──Meanwhile, in front of the Landosol Royal Castle, {playername} was trying to gather information about Aoi and Yukari.
 
 やあ、今日はどうしたんだい？=Hey, what brings you here today?
 まさか事件ッスか！？=Could it be an incident?
@@ -129,7 +129,7 @@ r:"^──一方その頃、ランドソル王城の前には、\nアオイと�
 しばらく休みを取るって言っていたから、\n自然を感じにリフレッシュしてるんじゃないかな。=She mentioned taking a break for a while, so maybe She's refreshing herself by experiencing nature.
 ほら、最近キャンプが流行っているでしょ？\nうちの作業員たちも、みんな今ハマっているみたいだからね。\nアオイくんも息抜きに行ってると思うよ。=You know, camping has been popular lately, right? Our workers seem to be really into it. I think Aoi-kun is also taking a break and going for some relaxation.
 
-r:"^失踪する直前のアオイの情報を集めた(.{2,10})は、\n次にユカリの情報を集めに向かうのだった。$"=After gathering information about Aoi's recent disappearance, $1 set out to gather information about Yukari.
+失踪する直前のアオイの情報を集めた{playername}は、\n次にユカリの情報を集めに向かうのだった。=After gathering information about Aoi's recent disappearance, {playername} set out to gather information about Yukari.
 
 
 
@@ -243,7 +243,7 @@ r:"^失踪する直前のアオイの情報を集めた(.{2,10})は、\n次に�
 
 
 
-r:"^──一方その頃、アオイの直近の動向を探るため、\n(.{2,10})はおもちゃ工場を訪れていた。$"=Meanwhile, to investigate Aoi's recent whereabouts, $1 visited the toy factory.
+──一方その頃、アオイの直近の動向を探るため、\n{playername}はおもちゃ工場を訪れていた。=Meanwhile, to investigate Aoi's recent whereabouts, {playername} visited the toy factory.
 
 
 

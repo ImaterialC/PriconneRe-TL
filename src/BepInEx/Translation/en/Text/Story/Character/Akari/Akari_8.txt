@@ -1,5 +1,5 @@
-r:"^アメスの力で(.{2,10})とアカリは夢を見る。あかりは遊園地のマーチングバンドに出演し、観客の多さに緊張してしまうが、Onii-chanの姿を見て落ち着きを取り戻し、演奏を成功させた。$"="With the power of Ameth, $1 and Akari have a dream. Akari is performing with a marching band at an amusement park and feels nervous due to the large audience. However, upon seeing Onii-chan, she regains her composure and successfully performs."
-r:"^街の中で偶然に出会ったアカリと(.{2,10})は、\n突如、光に包まれる。$"="One day, $1 happens to run into Akari in town,\nwhen suddenly a strange light envelops them."
+アメスの力で{playername}とアカリは夢を見る。あかりは遊園地のマーチングバンドに出演し、観客の多さに緊張してしまうが、Onii-chanの姿を見て落ち着きを取り戻し、演奏を成功させた。=With the power of Ameth, {playername} and Akari have a dream. Akari is performing with a marching band at an amusement park and feels nervous due to the large audience. However, upon seeing Onii-chan, she regains her composure and successfully performs.
+街の中で偶然に出会ったアカリと{playername}は、\n突如、光に包まれる。=One day, {playername} happens to run into Akari in town,\nwhen suddenly a strange light envelops them.
 ひゃぁ！\nな、なにこれぇ！=Aaahh!\nWh-what's all this?!
 お兄ちゃん、\nアカリ、変な感じで……\nも、もう……だめぇ──！？=Onii-chan...\nThis is... such a strange feeling...\nI-I-I'm floating awaaay!
 全然ダメ……\nこれじゃ私、大変なことになっちゃうよぉ……=It's no use...\nAt this rate, I'm gonna be doomed for sure...
@@ -47,4 +47,4 @@ r:"^街の中で偶然に出会ったアカリと(.{2,10})は、\n突如、光�
 また同じ夢が見られるなんて……\nきっとお兄ちゃんとは何かがつながってるんですね。=I had the most wonderful dream, you know.\nYou were there, and you came to...
 お兄ちゃんと、ひとつになれたみたいで、\nアカリ、とってもうれしいな～=It feels like we've been joined together somehow...\nThat makes me so happy, you know!
 また同じ夢が見られるといいなぁ。\n今度、一緒に寝ましょうね？=I hope we can share another dream sometime...\nWe'll have to try sleeping together again!
-r:"^アカリの発言を聞いて、近くを通った人たちが\n(.{2,10})を不審な目で見るのだった……$"="$1 got some very funny looks\nfrom passers-by who overheard Akari's words that day..."
+アカリの発言を聞いて、近くを通った人たちが\n{playername}を不審な目で見るのだった……={playername} got some very funny looks\nfrom passers-by who overheard Akari's words that day...

@@ -16,7 +16,7 @@
 Summary
 ランドソルにやってきたクローチェは、はじめて見る景色や人々との触れ合いに大喜び。途中で正体がばれそうになる騒動がありつつも、ランドソルを満喫した二人は、きっとまた来ようと約束するのだった。=Croce, who had just came to Landosol, is overjoyed from meeting the people and experiencing sceneries she never has seen before in Landosol. Although she almost revealed where she originally came from, the two enjoyed their trip and promised to visit Landosol again.
 
-r:"^(.{2,10})たちの住む世界に興味を持ったクローチェ。\n彼女はライラエルの許可を得て『ジオ・テオゴニア』を旅立った。$"=Croce took an interest in $1's world and decided to go on a journey together. They departed from Gio Teogonia with Lyrael's permission.
+{playername}たちの住む世界に興味を持ったクローチェ。\n彼女はライラエルの許可を得て『ジオ・テオゴニア』を旅立った。=Croce took an interest in {playername}'s world and decided to go on a journey together. They departed from Gio Teogonia with Lyrael's permission.
 そして現在──\nアストライア大陸にやってきたクローチェは\nはじめての世界の空を飛び回っていた。=Right now Croce, who is in Astraea for the first time, is flying around the other world's sky.
 すっ……ご～～～いっ！！！=Amaziiii～ng!!!
 空も風もぜーんぜん違いますっ！\nスベスベでサラサラな気がしますっ♪\nあははっ、気持ちいい～っ！=The sky and the winds feels completely different!\nIt feels so smooth and fluid♪ Ahh, it feels so good to fly in!
@@ -35,7 +35,7 @@ r:"^(.{2,10})たちの住む世界に興味を持ったクローチェ。\n彼�
 この辺りには誰も住んでないよ。=Nobody lives around here.
 なるほど、そうだったんですねっ！\n道理で静かだな～って思いましたっ。=I see, so that's why! No wonder it's so quiet around here.
 それじゃあナイトさん！\nわたし、ナイトさんたちが住んでるっていう街に行ってみたいですっ！\n連れていってもらえますかっ♪=Then can you lead me to your hometown?\nI want to go there!
-r:"^かくして──\n洞窟の中に設置された転移魔法陣を使い\n(.{2,10})とクローチェはランドソルへと移動したのだった。$"=Thus── $1 and Croce teleported to Landosol using the magic circle set up in the cave.
+かくして──\n洞窟の中に設置された転移魔法陣を使い\n{playername}とクローチェはランドソルへと移動したのだった。=Thus── {playername} and Croce teleported to Landosol using the magic circle set up in the cave.
 わぁっ！\nここがランドソル！\nナイトさんたちの街なんですねっ！=Wooow! So this is Landosol!\nIt's your hometown!
 くんくんくん……\nうん、匂いセンサーにお菓子の反応はほぼなしっ。\nってことは、ほんとに石や木でお家を作ってるんですねっ！=Sniff, sniff... Yep, there's almost no sweet reactions on my sensor. That means these houses really are made from wood and stones!
 不思議ですね～っ。どんなかんじなんでしょう？\n壁とか触ってみてもいいですかねっ？\n感触とかはわからないですけど、今日の記念に！=It's so strange... I wonder if it's okay to touch the walls?\nI don't know how it'd feel, but I might as well since I'm here!

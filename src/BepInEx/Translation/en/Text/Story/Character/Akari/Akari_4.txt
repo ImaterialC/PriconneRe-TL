@@ -1,5 +1,5 @@
-r:"^アメスの力で(.{2,10})とアカリは夢を見る。サックスの練習に苦戦して弱気になっているあかりをOnii-chanが励ますと、演奏は見事に成功。あかりは喜び、自信をもって本番に臨む。$"="With the power of Ameth, $1 and Akari entered a dream. In the dream, Akari was struggling with her sax practice and feeling discouraged. Onii-chan encouraged her, and miraculously, her performance was a success. Akari felt joy and went on to perform with confidence in the actual event."
-r:"^平原にやって来たアカリと(.{2,10})は、\n突如、光に包まれる。$"="Akari and $1 are just heading out\nwhen suddenly, they are surrounded by a mysterious light."
+アメスの力で{playername}とアカリは夢を見る。サックスの練習に苦戦して弱気になっているあかりをOnii-chanが励ますと、演奏は見事に成功。あかりは喜び、自信をもって本番に臨む。=With the power of Ameth, {playername} and Akari entered a dream. In the dream, Akari was struggling with her sax practice and feeling discouraged. Onii-chan encouraged her, and miraculously, her performance was a success. Akari felt joy and went on to perform with confidence in the actual event.
+平原にやって来たアカリと{playername}は、\n突如、光に包まれる。=Akari and {playername} are just heading out\nwhen suddenly, they are surrounded by a mysterious light.
 な、なんですか、この光！？=Wh-what's going on?! It's all shiny!
 お兄ちゃん！\nアカリ怖い……きゃあああっ！？=Onii-chan!\nI'm scared... Aaaaahhhhhh!
 はぁ、はぁ、お兄ちゃん、はげしいよぉ。\nあかり、もう……息、できないっ！=*pant*... *pant*... Onii-chan... You're pushing me too hard!\nThis is... too much... I can't... breathe!

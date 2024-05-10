@@ -236,7 +236,7 @@
 
 ……まずは腕立て伏せからだ。\nふっ……！　ふっ……！　ふっ……！　ふっ……！　ふっ……！=...First, let's start with push-ups. Hup...! Hup...! Hup...! Hup...! Hup...!
 
-r:"^──一方その頃、ランドソルでは、\n(.{2,10})が【メルクリウス財団】に呼び出されていた。$"=Meanwhile, in Landosol, $1 was summoned to the Mercurius Foundation.
+──一方その頃、ランドソルでは、\n{playername}が【メルクリウス財団】に呼び出されていた。=Meanwhile, in Landosol, {playername} was summoned to the Mercurius Foundation.
 
 一体どこに行ったんですの！？=Where on earth did she go!?
 

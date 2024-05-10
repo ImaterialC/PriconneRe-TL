@@ -40,7 +40,7 @@
 また一人で突っ走っちゃって、失敗してしまいました……=Once again, I rushed ahead by myself and failed...
 いつもいつも、こんなことを繰り返してばかり……\n女学院でも工場でも……団長さんに対しても……=I keep repeating the same mistakes... at the academy, at the factory... even with Captain...
 
-r:"^……でも、もうランドソルでの失敗を繰り返したくありません……\nこんなことばかりしていたら、\n(.{2,10})さんに合わせる顔が……！$"=...But I don't want to keep repeating my failures in Landosol... If I keep doing this, I won't be able to face $1-san...!
+……でも、もうランドソルでの失敗を繰り返したくありません……\nこんなことばかりしていたら、\n{playername}さんに合わせる顔が……！=...But I don't want to keep repeating my failures in Landosol... If I keep doing this, I won't be able to face {playername}-san...!
 
 なんとかして、この重い空気を変えてみせます……！=I'll find a way to change this heavy atmosphere...!
 独りよがりなぼっちの私とは、バイバイしてみせるって、\n誓ったばかりですから……！=I vowed to say goodbye to the self-centered loner me...!
@@ -78,7 +78,7 @@ r:"^……でも、もうランドソルでの失敗を繰り返したくあり�
 でも、少しでもそう言ってもらえると、ちょっとうれしいです……！\n恐れ多さのほうが圧倒的に勝ってはいますが！=But it makes me a little happy when you say that...! Although I'm overwhelmingly lacking in many aspects!
 二人には共通の知人がいるのだな。\nこれも巡り合わせの縁だね。=So, you have a mutual acquaintance. It's a small world, isn't it?
 
-r:"^共通の知人といえば……\nみんな、(.{2,10})くんと知り合いなんだよね？$"=Speaking of mutual acquaintances... You all know $1-kun, right?
+共通の知人といえば……\nみんな、{playername}くんと知り合いなんだよね？=Speaking of mutual acquaintances... You all know {playername}-kun, right?
 
 こうして私たちが集まるとは思っていなかったが、\n彼ともキャンプをしてみたかったな。=I didn't expect us to gather like this, but I wanted to go camping with him too.
 おおっ！　それはとっても面白そうですね！=Oh, that sounds really fun!
@@ -112,7 +112,7 @@ r:"^共通の知人といえば……\nみんな、(.{2,10})くんと知り合�
 そ、そう……？\nそう言ってもらえて、すごく安心したわ……！=I-I see...? I'm really relieved to hear you say that...!
 でも、本当はちゃんとした大人にもならないといけないって思ってるの。=But deep down, I think I need to become a proper adult.
 
-r:"^麦しゅわでやらかして、\nいつも(.{2,10})くんには迷惑かけちゃってるし……$"=I've caused trouble for $1-kun because of my love for beer...
+麦しゅわでやらかして、\nいつも{playername}くんには迷惑かけちゃってるし……=I've caused trouble for {playername}-kun because of my love for beer...
 
 羽目を外さず、嗜む程度に抑えられるといいんだけど……\n麦しゅわを飲みに来ておいて、変な話よね。=I hope I can enjoy it responsibly without going overboard... It's strange to come for Barley Soda and talk like this.
 ユカリちゃんも、なりたい自分があったんだね。=Yukari-chan, you also have an ideal version of yourself, right?
@@ -131,7 +131,7 @@ r:"^麦しゅわでやらかして、\nいつも(.{2,10})くんには迷惑か�
 そうだね。\nキャンプが得意なアオイちゃんが作ったんだ。\nきっとおいしいに違いないよ。=That's right. Aoi-chan, who is good at camping, made it. I'm sure it will be delicious without a doubt.
 そうよ！　きっと麦しゅわに合うに違いないわ！\n最高の一杯を目指すわよー！=That's right! I'm sure it'll go great with the wheat! Let's aim for the best!
 
-r:"^(.{2,10})は、\nアオイたちの後を追って、キャンプ場に到着した──$"=$1 followed Aoi and the others and arrived at the campsite──
+{playername}は、\nアオイたちの後を追って、キャンプ場に到着した──={playername} followed Aoi and the others and arrived at the campsite──
 
 にひひ……=Nihihi...
 ふっふっふっふっふっふ……=Fufufufufufufu...
@@ -162,7 +162,7 @@ r:"^(.{2,10})は、\nアオイたちの後を追って、キャンプ場に到�
 ふっふっふっ……\nさあみんな、私についてこい。今日も楽しく働こう♪=Fufufufu... Come on, everyone, follow me. Let's work happily today too♪
 ……あれ？　なんともない……？=...Huh? Not affected...?
 
-r:"^なぜかキノコ料理を食べても平気だった(.{2,10})の前に、\nキャンプ場に隣接する森の奥から、怪しげな音が近づいてくるのだった。$"=For some reason, strange sounds approached $1 from deep within the forest adjacent to the campsite, despite eating mushroom dishes without any issues.
+なぜかキノコ料理を食べても平気だった{playername}の前に、\nキャンプ場に隣接する森の奥から、怪しげな音が近づいてくるのだった。=For some reason, strange sounds approached {playername} from deep within the forest adjacent to the campsite, despite eating mushroom dishes without any issues.
 
 一方のアオイたちは、キノコの毒による幻覚に囚われていた──=Meanwhile, Aoi and the others were caught in hallucinations caused by the poison of the mushrooms.
 アオイ様、ごきげんよう！\n今日もお目にかかれて光栄です！=Have a good day, Aoi-sama! It's an honor to see you today!

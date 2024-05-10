@@ -1,6 +1,6 @@
-r:"^魔物退治の特訓をするためモニカが街の外に出ようとするのを見て、(.{2,10})が子供が魔物と戦うのは危険だと諭す。自分は子供ではないと否定し魔物と戦うモニカを(.{2,10})は助ける。$"=To train in monster extermination, Monika tries to go outside the town. $1 warns that it's dangerous for a child to fight monsters. Monika denies being a child and $1 helps her fight monsters.
+魔物退治の特訓をするためモニカが街の外に出ようとするのを見て、{playername}が子供が魔物と戦うのは危険だと諭す。自分は子供ではないと否定し魔物と戦うモニカを{playername}は助ける。=To train in monster extermination, Monika tries to go outside the town. {playername} warns that it's dangerous for a child to fight monsters. Monika denies being a child and {playername} helps her fight monsters.
 
-r:"^(.{2,10})が散歩をしていると、\n頭を抱えている女の子を目撃した。$"=While taking a walk, $1 witnesses a girl clutching her head.
+{playername}が散歩をしていると、\n頭を抱えている女の子を目撃した。=While taking a walk, {playername} witnesses a girl clutching her head.
 うーむ……\nギルドを結成したのはいいが、\nまさか、まともに魔物退治もできないとは……=Hmmm... It's good that we formed a guild, but I never expected us to be incapable of proper monster extermination...
 全ては、私に司令官としての能力が欠如していたせいだ。\nもっと的確に指示を出せていれば……=It's all because of my lacking abilities as a commander. If only I could give more accurate instructions...
 よしっ！　ならば特訓あるのみだ！\n私が強くなれば、その分ギルドが強くなるだろう！=Alright! We have no choice but to train! If I become stronger, the guild will become stronger as well!
@@ -42,9 +42,9 @@ r:"^(.{2,10})が散歩をしていると、\n頭を抱えている女の子を�
 
 あむっ……！\nうん、なかなかの味だ！=Munch... Mmm, it tastes pretty good!
 
-r:"^貴公、名前は？\n……(.{2,10})か。$"=Your name?... $1, is it?
-r:"^(.{2,10})、このアメに免じて、\nさっきの非礼は許そう。$"=$1, in consideration of this candy, I'll forgive your rudeness earlier.
-r:"^では、今日の特訓はこれくらいにしておこう。\n(.{2,10})、帰るぞ！$"=Well, let's call it a day for today's training. $1, let's go back!
+貴公、名前は？\n……{playername}か。=Your name?... {playername}, is it?
+{playername}、このアメに免じて、\nさっきの非礼は許そう。={playername}, in consideration of this candy, I'll forgive your rudeness earlier.
+では、今日の特訓はこれくらいにしておこう。\n{playername}、帰るぞ！=Well, let's call it a day for today's training. {playername}, let's go back!
 
 アメ一つで、すっかり機嫌を良くするモニカであった。=With just one candy, Monika's mood brightened considerably.
 

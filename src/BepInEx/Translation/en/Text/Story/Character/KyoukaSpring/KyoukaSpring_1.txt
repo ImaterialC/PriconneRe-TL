@@ -1,6 +1,6 @@
 材料のハチミツが入荷できずパンケーキを出せない店のため、\nキョウカは森へハチミツを採りに行く。そこで魔物に遭遇する\nも植物の知識を活かして解決、無事ハチミツを入手しパンケー\nキを頬張るのだった。=Due to the shortage of honey, the pancake shop couldn't serve their pancakes. To help them out, Kyouka went to the forest to gather honey. Although she encountered some monsters, she used her knowledge of plants to resolve the situation and successfully obtained the honey, enjoying the pancakes afterward.
-r:"^その日(.{2,10})は\nキョウカとパンケーキを食べに行くため待ち合わせをしていた。$"="On that day, $1 had arranged to meet with Kyouka for pancakes."
-r:"^こんにちは(.{2,10})さん。\n遅刻せずに来られて立派ですね。$"="Hello, $1. You made it on time, that's commendable."
+その日{playername}は\nキョウカとパンケーキを食べに行くため待ち合わせをしていた。=On that day, {playername} had arranged to meet with Kyouka for pancakes.
+こんにちは{playername}さん。\n遅刻せずに来られて立派ですね。=Hello, {playername}. You made it on time, that's commendable.
 ふふ、気付きましたか。そうです、花祭りの衣装です。\n実はお祭りのあと、村長さんから記念にってもらってたんですよ。=Oh, you've noticed? Yes, it's the Flower Festival outfit. After the festival, the village chief gave it to me as a memento.
 花祭りで色々あったので一度お洗濯に出してたのが、\n昨日戻ってきたのでさっそく着てみてるんです。=Because there was so much happening during the Flower Festival, I sent it for cleaning, and it just came back yesterday, so I decided to wear it today.
 元々伝統衣装とはいえすごくかわいいですからね、\nタンスにしまうのはもったいなくて\nお出かけ用にしようかなって思いまして。=Though it's a traditional outfit, it's incredibly cute, and it's too good to just leave in the closet, so I thought I'd wear it for outings.
@@ -26,7 +26,7 @@ r:"^こんにちは(.{2,10})さん。\n遅刻せずに来られて立派です�
 あ、あの！　もし、私がおいしいハチミツを持ってきたら、\nパンケーキ作ってもらえますか？=Excuse me! If I bring some honey that's just as good, could you make pancakes for us?
 え、お嬢ちゃんが？　まあ、そんな物が本当に手に入るなら\nうちも助かるし、作らないこともないけど……=You're planning to get the honey? Well, if you can find some that's good enough, then sure, we could make pancakes...
 ありがとうございます。\n必ず採ってきますから、そのときはパンケーキよろしくお願いします！=Thank you! I'll definitely get some, so please make the pancakes when I do!
-r:"^そういうわけで(.{2,10})さん、\nすみませんが、ハチミツ採るの手伝ってもらえませんか？$"="$1, I'm sorry, but could you help me collect the honey?"
+そういうわけで{playername}さん、\nすみませんが、ハチミツ採るの手伝ってもらえませんか？={playername}, I'm sorry, but could you help me collect the honey?
 はい。この店のパンケーキが食べられないなんて、\nランドソルにとっても悲劇ですから！=Yes. Not having those pancakes would be a tragedy for Landosol!
 ち、違います！　これは困ってるお店のためです！\n別に私がパンケーキを食べたいからじゃありませんから！=N-no, that's not it! It's for the sake of the struggling shop! It's not because I want to eat the pancakes!
 さて……今さらですが、結構思い切ったこと言っちゃいました。\n花祭りに参加したことでちょっと気が大きくなってるのかな？=So... I've said some pretty bold things, huh? Maybe joining the Flower Festival has made me a bit bolder.
@@ -60,7 +60,7 @@ r:"^そういうわけで(.{2,10})さん、\nすみませんが、ハチミツ�
 魔法を使って追い払う……ダメ、それじゃハチを傷付けちゃうかも。\nでも黙って見てるわけには……=Using magic to drive it away... no, that could hurt the bees. But we can't just sit back and watch...
 何か、何かいい方法は……あれ、このお花って、\nもしかしてイザナイノグサかな？=There must be something we can do... Is this flower... Izanainogusa?
 これにさっき見かけたバドスメールを使えば……\nいけるかもしれません！=If we use this with the Badsmel we saw earlier, it might work!
-r:"^(.{2,10})さん、まずは私を強化してください。\nそしたら魔物の前でこのイザナイノグサを使います。$"="$1, please boost my strength. I'll use this Izanainogusa to lure the monster away."
+{playername}さん、まずは私を強化してください。\nそしたら魔物の前でこのイザナイノグサを使います。={playername}, please boost my strength. I'll use this Izanainogusa to lure the monster away.
 このお花は魔物が好きな匂いを出すので、\nこれで魔物をおびき寄せ、巣から遠ざけます。=This flower releases a scent that attracts monsters, so we can use it to lead them away from the hive.
 え、危ないから自分がやる？　大丈夫です。\n森の中ならあなたより小さくて小回りのきく私の方が向いてます。\nなのであなたは後から追って、援護を頼みます。=What? It's dangerous, and you want to do it yourself? No, it's okay. I'm smaller and more agile in the forest, so I'm better suited for this. So you can follow behind me and provide backup.
 大人なのでそこはわきまえてます。それでは、よろしく頼みましたよ。=I'm an adult, so I know my limits. Thanks for helping, by the way.
@@ -71,8 +71,8 @@ r:"^(.{2,10})さん、まずは私を強化してください。\nそしたら�
 はぁ、はぁ……あった！　あとはこのお花を……\nほしければ取りに行きなさい！　えーい！=Whew, phew... Found it! Now if you want this flower, you'll have to come and get it! Take that!
 ギ、ギヤオグエェエエエエー！？=GYAOOGEEEEEE!
 やりました！　臭いお花を踏ませる作戦、成功です！\nあとはこのままどこかへ行ってくれれば……=We did it! The plan to make the monster step on the stinky flower worked! Now if it just goes away...
-r:"^うそっ！　こ、こっちに来るのは予想外……！\nた、助けて！　(.{2,10})さん！$"="Wait, what!? I didn't expect it to turn back toward me... Help! $1, help me!"
-r:"^……あ、(.{2,10})さん。\nえ、ええ、大丈夫です。魔物の反応も、あなたの援護も想定済みです。$"="Oh, $1! Yes, I'm fine. I anticipated both the monster's reaction and your backup."
+うそっ！　こ、こっちに来るのは予想外……！\nた、助けて！　{playername}さん！=Wait, what!? I didn't expect it to turn back toward me... Help! {playername}, help me!
+……あ、{playername}さん。\nえ、ええ、大丈夫です。魔物の反応も、あなたの援護も想定済みです。=Oh, {playername}! Yes, I'm fine. I anticipated both the monster's reaction and your backup.
 さあ、魔物もいなくなりましたし、\nもう一度ハチミツを採りに行きましょう。\n……あの、ちょっと手を貸してもらえませんか？=Now that the monster's gone, let's go back to collect the honey. Oh, could you lend me a hand?
 ち、違いますよ！　腰が抜けたんじゃなくて、走って疲れただけで……\nだ、抱っことかやめてください、子どもじゃないので、あ、あああ……！=N-no, it's not because I'm scared! It's just because I'm tired from running, that's all... Don't carry me! I'm not a child—oh, ahhh!
 翌日、キョウカたちは採取したハチミツを携え、店を訪れた。=The next day, Kyouka and the group visited the pancake shop with the honey they collected.

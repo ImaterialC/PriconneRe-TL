@@ -7,7 +7,7 @@
 あっ！　ユイちゃんありがとー！\nえへへ……あぶないあぶない……=Ah! Thanks, Yui-chan! Ehehe... That was close...
 まったく……ありがとう、ユイ。\nでもそろそろ落ち着いたほうがいい。=Honestly... Thank you, Yui. \nBut it's time to calm down a bit.
 えっ！？　う、うん！\nでもなんだか落ち着かなくて……=Huh!? Y-Yeah!\nBut I can't seem to calm down...
-r:"^(.{2,10})と一緒の旅行、\nそれも南の島に……楽しみだね。$"=A trip with $1,\nand to a tropical island... I'm looking forward to it.
+{playername}と一緒の旅行、\nそれも南の島に……楽しみだね。=A trip with {playername},\nand to a tropical island... I'm looking forward to it.
 騎士クンも、楽しみにしてくれてるかな……？=I wonder if Knight-kun is also looking forward to it...?
 うー！　早くみんなで遊びたいよー！\nどんなとこなんだろう、南の島のリゾートって！=Ugh! I want to play with everyone soon! I wonder what the resort on the tropical island is like!
 次回、『トゥインクルサマーゲーム　夏海にきらめく三つの想い』=Next time, "Twinkle Summer games: Three Sparkling Thoughts on the Summer Sea."

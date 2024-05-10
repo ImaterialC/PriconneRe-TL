@@ -1,7 +1,7 @@
 女性客１=Female Guest 1
 女性客２=Female Guest 2
-r:"^買い物に来たアカリは勝負パンツ選びの参考に(.{2,10})に質問する。アカリが試着しにいって、一人になった(.{2,10})は周りの女性客に不審者と誤解されてしまうのだった。$"="$1 and Akari entered the cave together to retrieve a magic stone. When they encountered a monster, Akari panicked. $1 picked her up and ran, and Akari trusted $1 to keep her safe."
-r:"^(.{2,10})とアカリは、一緒に買い物にいく約束をしていた。$"="Today, $1 has agreed to go shopping with Akari."
+買い物に来たアカリは勝負パンツ選びの参考に{playername}に質問する。アカリが試着しにいって、一人になった{playername}は周りの女性客に不審者と誤解されてしまうのだった。={playername} and Akari entered the cave together to retrieve a magic stone. When they encountered a monster, Akari panicked. {playername} picked her up and ran, and Akari trusted {playername} to keep her safe.
+{playername}とアカリは、一緒に買い物にいく約束をしていた。=Today, {playername} has agreed to go shopping with Akari.
 お兄ちゃん、早いですね？\n待たせちゃいましたか？=Wow, Onii-chan, you're here early!\nI didn't keep you waiting did I?
 いま来たところ……？\nなら、よかったです。\nそれじゃあ、お買い物に行きましょうか。=You just got here too?\nWell, isn't that perfect!\nRight then, shall we get going?
 何を買うのか、ですか？\nそうですね～……着いてからのお楽しみです。\nお店はこっちですよ。=What are we going to buy, you ask?\nWell, actually... Let's make that a surprise for when we get there!\nThe store is this way.
@@ -28,4 +28,4 @@ r:"^(.{2,10})とアカリは、一緒に買い物にいく約束をしていた�
 女の敵よ！\n誰か！　【自警団（カォン）】を呼んでー！=He must be a predator!\nSomebody! Call Caon for help!
 お兄ちゃん、試着してきましたよ～\nやっぱりお兄ちゃんが選んでくれただけあって……=Hey, Onii-chan! I finished trying them on!\nI knew I could count on you! They were so...
 あ、あれ？　お兄ちゃん……？\nお兄ちゃん、どこ行っちゃったんですか～？=H-huh? Onii-chan...?\nOnii-chan, where did you go?
-r:"^(.{2,10})の姿はすでになく、\n買い物は中止となってしまった。$"="But $1 was nowhere to be seen,\nso that was the end of that shopping trip."
+{playername}の姿はすでになく、\n買い物は中止となってしまった。=But {playername} was nowhere to be seen,\nso that was the end of that shopping trip.

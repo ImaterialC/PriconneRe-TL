@@ -109,12 +109,12 @@
 だから、白状します！　これ！\n自分のドジを直すために作った、「ドジ矯正魔法具」なんです。=So, I confess! This! I made this "blunder correction magic tool" to fix my own blunders.
 でも……これで自分に魔法をかけると、ドジが直るんじゃなくて……\nドジを、ドジと思わなくなってしまうみたいで。\nただの無反省なドジ人間になっちゃうんです私～～！=But... when I use this magic on myself, it doesn't fix my clumsiness... it makes me not think of them as clumsiness. I just become an unrepentant clumsier~~!
 ドジを直す道具を作るのに……ドジってしまった……\n恥ずかしすぎて……つい密廃サービスに……=I made a clumsy while making a tool to fix clumsiness... I was so embarrassed... I just threw it away in the secret disposal service...
-r:"^(.{2,10})さん！\nこれが、本当の私です！$"=$1-san!\n This is the real me!
+{playername}さん！\nこれが、本当の私です！={playername}-san!\n This is the real me!
 その正直さがスズメちゃんらしい。=That honesty is just like you, Suzume-chan.
 ……ほ、ほんとですかぁぁ～～！=...R-really~~~!
 結局自分で暴露してしまわれましたわね……=You ended up exposing yourself in the end...
 これ、波乱含みだわ～……=This is going to be a mess~~...
-r:"^その後も少女たちの\n「(.{2,10})になら知られてもいい。\nけど知られたくない。でもやっぱり知ってほしい」パニックは続いた──$"="The girls' panic in "I don't mind if $1 knows. But I don't want you to know, but at the same time I want you to know""
+その後も少女たちの\n「{playername}になら知られてもいい。\nけど知られたくない。でもやっぱり知ってほしい」パニックは続いた──=The girls' panic in "I don't mind if {playername} knows. But I don't want you to know, but at the same time I want you to know"
 ……主さま。=...My Lord.
 これは見ての通り、カウンターでございます。\n「主さまのお知り合いカウンター」……=This is, as you can see, a counter. A "My Lord's acquaintance counter"...
 主さまにあまりにもお知り合いが多いものですから、\n従者としては……数を把握しておきたく……\nお作りさせていただきました。=You have so many acquaintances, my Lord, that as your servant... I wanted to keep track of the number... and I made this.

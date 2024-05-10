@@ -1,8 +1,8 @@
 男の子１=Boy 1
 男の子２=Boy 2
 ごろつき=Thug
-r:"^路地裏で再会したイノリの「シノギ」に付き合う(.{2,10})。見回り活動として子どもたちにお菓子を配ったり路上を清掃したりする姿を(.{2,10})に褒められ、照れるイノリであった。$"="Accompanying Inori in her "job" in the back alleys, $1 praised her for her patrol work. Inori handed out sweets to children and cleaned the streets, a scene that $1 commended, making Inori blush."
-r:"^ランドソルの路地裏を散策していた(.{2,10})は、\n見覚えのある小さな影に声をかけた。$"="$1, strolling through the back alleys of Landosol, spotted a familiar small figure and called out."
+路地裏で再会したイノリの「シノギ」に付き合う{playername}。見回り活動として子どもたちにお菓子を配ったり路上を清掃したりする姿を{playername}に褒められ、照れるイノリであった。=Accompanying Inori in her "job" in the back alleys, {playername} praised her for her patrol work. Inori handed out sweets to children and cleaned the streets, a scene that {playername} commended, making Inori blush.
+ランドソルの路地裏を散策していた{playername}は、\n見覚えのある小さな影に声をかけた。={playername}, strolling through the back alleys of Landosol, spotted a familiar small figure and called out.
 ぴぃっ！？　ななな、なんですか？\nって、お兄さんじゃないですか。驚かさないでほしいですよ……\nそれにしても相変わらずヒマそうですね。=Pi!? What's going on here? Hey, it's not Onii-san. Don't startle me... But you always seem so free.
 あたし？　ふっふっふ、あたしは今お兄さんと違って忙しいんですよ。\nなにを隠そう、大事なシノギの真っ最中ですからね！=Me? Hehehe, I'm actually busy right now. I'll have you know I'm in the middle of an important "job"!
 そうなんだ、頑張ってね。=I see, well, good luck with that.
@@ -55,7 +55,7 @@ r:"^ランドソルの路地裏を散策していた(.{2,10})は、\n見覚え�
 なんかマルがいっぱいあるのでこうして……\nよし、『ブドウ』ですよ。=Look at all these circles... Alright, it's "grapes."
 お？　お兄さんのそれはゴリラ……じゃなくて『うほうほ』！？\nそうきたですか！　じゃあ、こうやって～『ほねつきにく』です！=Oh? Yours is "gorilla"... I mean, "uhohouho"!? Is that so? Then like this, "bone-crushing meat"!
 さあ、どう返すですか？　お兄さん！？=So, how are you going to respond? Onii-san!
-r:"^イノリと(.{2,10})の戦いは白熱していく。$"="Inori and $1's battle heats up."
+イノリと{playername}の戦いは白熱していく。=Inori and {playername}'s battle heats up.
 『このは』？　……じゃあこれです！　『はんせん』！\nああっ！　んがついちゃったじゃないですか！！　くううぅ～……！="This leaf"? Then this! "Leaf cutting"! Oh no, I slipped up there!! Ughhh...
 ま、まあ今回はお兄さんの顔をたてて手を抜いてやったですからね。\nあまり調子には乗らないほうが……=Well, this time I took it easy to save face for Onii-san. Don't get too cocky...
 って、こんなことやってる場合じゃないですよ！\nまだシノギは終わっちゃいないです！\nまだまだ見回りにいくです！=But we shouldn't be fooling around like this! The job isn't done yet! We still need to patrol!
@@ -74,4 +74,4 @@ r:"^イノリと(.{2,10})の戦いは白熱していく。$"="Inori and $1's bat
 はわわっ！　な、ななな……なにするですかお兄さん！\n幹部の頭を気安くなでるなです！=Wha-what are you doing, Onii-san?! Don't casually pat the head of an executive!
 まったく……せっかくあたしの仕事ぶりをみせてやったっていうのに\nそこから学び取ろうという気概はないんですか！\nほんと、お兄さんには困ったものですね。=Honestly... I just showed you my work, and you're not even trying to learn from it? Geez, you're quite the piece of work, Onii-san.
 まあいいです。おなかも減ったので何か食べに行くですよ。\nなあに、金のことなら心配するなです！　……手下の屋台ですけど！=Oh well. My stomach's empty, so let's go eat something. Don't worry about money!... It's the gang's food stand!
-r:"^勤労の疲れとともに、(.{2,10})とイノリは\n路地裏をあとにするのであった。$"="With the exhaustion of labor, $1 and Inori leave the alley."
+勤労の疲れとともに、{playername}とイノリは\n路地裏をあとにするのであった。=With the exhaustion of labor, {playername} and Inori leave the alley.

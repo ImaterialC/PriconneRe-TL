@@ -1,5 +1,5 @@
 Summary
-r:"^ポポじいさんの新装備、(.{2,10})を背負って飛ぶドッキングシステムを試すことに。強化を受けて全速力で飛ぶクローチェは、途中で現れた魔物もそのまま撃退。新装備のテストは大成功に終わった。$"=Uncle Popo's new Docking System lets $1 be carried while flying. Croce, who is flying at full speed after being powered, repelled the monsters they encountered while flying. Testing of the new equipments ended with a great success.
+ポポじいさんの新装備、{playername}を背負って飛ぶドッキングシステムを試すことに。強化を受けて全速力で飛ぶクローチェは、途中で現れた魔物もそのまま撃退。新装備のテストは大成功に終わった。=Uncle Popo's new Docking System lets {playername} be carried while flying. Croce, who is flying at full speed after being powered, repelled the monsters they encountered while flying. Testing of the new equipments ended with a great success.
 
 クローチェがはじめてアストライア大陸を訪れてから\n数日が経ったある日のこと──=A few day after Croce visited Astraeaー
 それでですね、ポポおじいさんっ！\nランドソルには、とってもおっきなお城があるんですっ！\nしかも、お菓子で作られてるんじゃないんですよっ！=That's right, Uncle Popo! Landosol has really huge castles and they're not made of sweets at all!

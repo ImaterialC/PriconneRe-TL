@@ -25,15 +25,15 @@ r:"^世界と世界の狭間([0-9\-\(\)\w （）]*)$"=Between worlds $1
 オーバーロードフォース=Overload Force
 ペコリーヌ、キャル、コッコロ、シェフィ=Pecorine, Kyaru, Kokkoro, Sheffy
 
-sr:"^(.{2,10})に異変が起き、ラビリスタが姿を現す。彼女に導かれ、キャルはいまだ心の中にあり続けるかつての主、覇瞳皇帝と対峙する。想いを尽くしたキャルに、覇瞳皇帝は向かうべき場所を示す。$"=$1 has an incident, and Labyrista appears. She is guided by her, and Kyaru confronts the former Lord Hitomi, who is still in her heart. The Emperor Hitomi indicates the place to go to Kyaru who has made his thoughts.
+{playername}に異変が起き、ラビリスタが姿を現す。彼女に導かれ、キャルはいまだ心の中にあり続けるかつての主、覇瞳皇帝と対峙する。想いを尽くしたキャルに、覇瞳皇帝は向かうべき場所を示す。={playername} has an incident, and Labyrista appears. She is guided by her, and Kyaru confronts the former Lord Hitomi, who is still in her heart. The Emperor Hitomi indicates the place to go to Kyaru who has made his thoughts.
 あなたのそばにいるから=I'll be right by your side.
-sr:"^悩みを抱える(.{2,10})を気晴らしに誘うペコリーヌ。記憶にある人々と言葉を交わしながら悩みを晴らしてゆく(.{2,10})だったが、そこに聞き覚えのある声が響き、謎の影が姿を現す。$"=Pecorine invites $1 with trouble. $1 cleared her worries while exchanging words with the people in her memory, but a memorable voice resounded there, and a mysterious shadow appears.
+悩みを抱える{playername}を気晴らしに誘うペコリーヌ。記憶にある人々と言葉を交わしながら悩みを晴らしてゆく{playername}だったが、そこに聞き覚えのある声が響き、謎の影が姿を現す。=Pecorine invites {playername} with trouble. {playername} cleared her worries while exchanging words with the people in her memory, but a memorable voice resounded there, and a mysterious shadow appears.
 本心と、偽りと=Sincerity and Deceit
-sr:"^覇瞳皇帝の言葉を信じソルの塔を登るキャルたち、そして自分自身の力と相対する(.{2,10})。ペコリーヌとキャル、お互いに手の届かない二つの世界で、それぞれが窮地に立たされようとしていた。$"=Kyaru climbing the tower of Sol, believing in the words of Emperor Hitomi, and $1 opposite their own power. Pecorine and Kyaru, each of them, were trying to be in trouble in two out of reach of each other.
+覇瞳皇帝の言葉を信じソルの塔を登るキャルたち、そして自分自身の力と相対する{playername}。ペコリーヌとキャル、お互いに手の届かない二つの世界で、それぞれが窮地に立たされようとしていた。=Kyaru climbing the tower of Sol, believing in the words of Emperor Hitomi, and {playername} opposite their own power. Pecorine and Kyaru, each of them, were trying to be in trouble in two out of reach of each other.
 絆はここに=Bond is here
-sr:"^絶体絶命のキャルたちを救ったのは、これまでつないできた仲間との絆だった。その力は手の届かないはずの二つの世界をもつなげ、(.{2,10})は自分自身の力ですべての原因に終止符を打つ。$"=It was a bond with a friend who had been able to save the desperate characters. The power connects the two worlds that should not be reached, and $1 ends all causes with its own power.
+絶体絶命のキャルたちを救ったのは、これまでつないできた仲間との絆だった。その力は手の届かないはずの二つの世界をもつなげ、{playername}は自分自身の力ですべての原因に終止符を打つ。=It was a bond with a friend who had been able to save the desperate characters. The power connects the two worlds that should not be reached, and {playername} ends all causes with its own power.
 幸せを部屋に詰め込んで=Pack happiness in the room
-sr:"^戦いは終わり、大切な記憶たちと一時の別れを告げる(.{2,10})。そしてランドソルで迎える朝、仲間たちの『おはよう』の声に囲まれながら、(.{2,10})は心地良く目を覚ますのであった。$"=The battle is over, and $1 tells the important memories of the important memories. And on the morning of Landosol, $1 woke up comfortably, surrounded by his friends' good morning.
+戦いは終わり、大切な記憶たちと一時の別れを告げる{playername}。そしてランドソルで迎える朝、仲間たちの『おはよう』の声に囲まれながら、{playername}は心地良く目を覚ますのであった。=The battle is over, and {playername} tells the important memories of the important memories. And on the morning of Landosol, {playername} woke up comfortably, surrounded by his friends' good morning.
 
 ペコリーヌたちはランドソルへの帰還。\nキャルたちは大切な人の目覚め。\nそれぞれが、お互いに手の届かない世界で自分に\nできることを探し、答えを求め続けていた。=Pecorine and her friends return to Landosol. Kyaru and the others awakened their loved ones. Each was searching for answers, looking for what they could do in a world that was out of reach for both of them.
 

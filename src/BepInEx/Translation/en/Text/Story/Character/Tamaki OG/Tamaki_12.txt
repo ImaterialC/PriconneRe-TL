@@ -2,11 +2,11 @@
 人々=People
 アクシツ=Croock
 王宮騎士=Royal Knight
-r:"^『アクシツ商会連合』から、一度に全てのお宝を盗む作戦をとる二人。([\s\S]{2,10})を人質にされるなどのピンチもあったが、猫たちの助力もあり、ついに『アクシツ商会連合』を打ち破るのであった。$"="The two of them decided to steal all the treasures from the "Croock'd & Inc." at once. They faced some dangers, such as $1 being taken hostage, but with the help of the cats, they finally defeated the "Croock'd & Inc.""
-r:"^──『悪い奴らはまとめて猫パンチ作戦』決行日。\nランドソル郊外に、\nタマキと(.{2,10})の姿があった。$"="──The day of the "Bad Guys Get a Cat Punch Operation". Tamaki and $1 were in the outskirts of Landosol."
+『アクシツ商会連合』から、一度に全てのお宝を盗む作戦をとる二人。{playername}を人質にされるなどのピンチもあったが、猫たちの助力もあり、ついに『アクシツ商会連合』を打ち破るのであった。=The two of them decided to steal all the treasures from the "Croock'd & Inc." at once. They faced some dangers, such as {playername} being taken hostage, but with the help of the cats, they finally defeated the "Croock'd & Inc.""
+──『悪い奴らはまとめて猫パンチ作戦』決行日。\nランドソル郊外に、\nタマキと{playername}の姿があった。=──The day of the "Bad Guys Get a Cat Punch Operation". Tamaki and {playername} were in the outskirts of Landosol.
 ……それじゃあ、\n改めて『悪い奴らはまとめて猫パンチ作戦』を確認するにゃ。=...Well then, let's review the "Bad Guys Get a Cat Punch Operation" again~nya.
 作戦内容はいたって単純にゃ。\n『今夜中にアクシツ商会連合全てに潜り込んで、\n悪事で稼いだ金を街にばらまく』、これだけにゃ。=The operation is very simple~nya. "Sneak into all the Croock'd & Inc. tonight and scatter the money they earned from evil deeds around the town", that's all~nya.
-r:"^にゃ～に、確かに数は多いかもしれないけど、\nやってることはいつもと同じにゃ！！\nあたしと(.{2,10})がいれば……あっ！$"=Nya~, it may seem like a lot, but it's the same as always~nya!! If I have $1 with me... Ah!
+にゃ～に、確かに数は多いかもしれないけど、\nやってることはいつもと同じにゃ！！\nあたしと{playername}がいれば……あっ！=Nya~, it may seem like a lot, but it's the same as always~nya!! If I have {playername} with me... Ah!
 にゃ、にゃはは……\nた、短剣を落としちゃったにゃ～\nまったく、もっと気を引き締めないといけないにゃ～♪=Ny~nyaha... \nI, I dropped my dagger~nya~ Really,\nI have to be more careful~nya~♪
 ……緊張してるの？=...Are you nervous?
 ……ここで強がっても意味ないかにゃ。\n情けないことに、怖くて手が震えちゃってるのにゃ。=...There's no point in pretending here~nya.\nI'm ashamed to say, but I'm so scared that my hands are shaking~nya.
@@ -14,8 +14,8 @@ r:"^にゃ～に、確かに数は多いかもしれないけど、\nやって�
 義賊が……あたしなんかが、\nそんなやつらをどうにかできるのかなって思ったら、\n手の震えが止まらなくて……にゃにゃっ！？=A righteous thief...\nCan someone like me really do something about them? When I think that, my hands won't stop shaking...~nyanyaa!?
 な、なんでいきなり、\n手を握ってくるのにゃ！？=W, why are you suddenly holding my hand~nya!?
 一緒に頑張ろう。=Let's do our best together.
-r:"^(.{2,10})……うん！\nあたしと.{2,10}なら絶対楽勝にゃ！！$"=$1... Yeah!\nIf it's me and $1, together...\nwe'll definitely win easily~nya!!
-r:"^──そろそろ時間にゃ。\n(.{2,10})はあたしに強化能力をかけつつ、\n付いてくるのにゃ！$"=──It's almost time~nya.\n$1, use your enhancement ability on me and follow me~nya!
+{playername}……うん！\nあたしと{playername}なら絶対楽勝にゃ！！={playername}... Yeah!\nIf it's me and {playername}, together...\nwe'll definitely win easily~nya!!
+──そろそろ時間にゃ。\n{playername}はあたしに強化能力をかけつつ、\n付いてくるのにゃ！=──It's almost time~nya.\n{playername}, use your enhancement ability on me and follow me~nya!
 ……言っておくけど、お宝をいただいて帰ってくるまでが義賊！\n二人で行ったなら、二人とも戻る！\nちゃんと戻ってきて、ただいまって言うのにゃ！=...I'll tell you this, but we'll be thieves only until we get back with the treasure! If we go together, we'll both come back! Make sure you come back and say "I'm home"~nya!
 約束する。=I promise.
 だったらいいにゃ♪\n……さて、義賊ファントムキャッツの、\n華麗なるネコババ劇の始まりにゃ～～！！=Then it's fine~nya♪...\nWell then, let the splendid cat burglary play of the righteous thief Phantom Cat begin~nya～～！！
@@ -46,7 +46,7 @@ r:"^──そろそろ時間にゃ。\n(.{2,10})はあたしに強化能力を�
 ファントムキャッツ！　ファントムキャッツ！！\nファントムキャッツ！　ファントムキャッツ！！=Phantom Cat! Phantom Cat!!\nPhantom Cat! Phantom Cat!!
 いや～上手くいったにゃ～～♪\nみんなも喜んでくれたみたいだしよかったにゃ！=Oh~ It went well~nya♪\nIt seems like everyone is happy, so I'm glad~nya!
 成功してよかった。=I'm glad we succeeded.
-r:"^これも(.{2,10})のおかげにゃ！\n本当にありがとにゃ～♪$"=This is also thanks to you, $1!\nThank you so much~nya♪
+これも{playername}のおかげにゃ！\n本当にありがとにゃ～♪=This is also thanks to you, {playername}!\nThank you so much~nya♪
 それよりそれより～♪\nちょっとこれを見てほしいにゃ～♪=But more importantly, more importantly♪\nI want you to take a look at this~nya♪
 あいつらの不正取引の証文にゃ！\nお宝と一緒にネコババしといたにゃ～♪=It's evidence of their illicit dealings!\nWe've snatched it along with the treasure~nya♪
 これで悪いやつらはみんな捕まって、\nアクシツ商会連合は自然に消滅していくはずにゃ！=With this, all the bad guys will be caught, and the Croock will naturally dissolve~nya!
@@ -56,7 +56,7 @@ r:"^これも(.{2,10})のおかげにゃ！\n本当にありがとにゃ～♪$"
 危ない！！=Watch out!!
 ちっ、男がかばいやがったか！=Tch, that guy protected her!
 あ～その彼だけでいいです。\n人質にするんで捕まえちゃってください。\n私は犬が大好きな平和主義者ですから、暴力は最小限でいきましょう♪=Ah~ It's fine with just him.\nPlease capture him as a hostage.\nI'm a pacifist who loves dogs, so let's keep violence to a minimum, okay?
-r:"^あ、あたしをかばって……(.{2,10})！！\n今助けるにゃ！！$"=Y-You're protecting me... $1!!\nI'll save you now!!
+あ、あたしをかばって……{playername}！！\n今助けるにゃ！！=Y-You're protecting me... {playername}!!\nI'll save you now!!
 は～い、動かない動かない。\n動いたら、私のこわ～い部下が、彼をどうにかしちゃいますよぉ？=Hey, don't move, don't move. If you do, my scary subordinates will do something to him, you know?
 くっ……おまえはいったい誰にゃ！！=Kuh... Who the heck are you~nya!!
 これはこれは！\n自己紹介が遅れてしまいましたねぇ……\n私は『アクシツ商会連合』の代表、名前もそのままアクシツです！=Oh my, my apologies for not introducing myself sooner... I am the representative of the "Croock'd & Inc.," and my name is Croock itself!
@@ -72,7 +72,7 @@ r:"^あ、あたしをかばって……(.{2,10})！！\n今助けるにゃ！�
 くっ……卑怯にゃ！！=Ugh... That's not fair~nya!!
 お褒めに預かり光栄です♪\nではではではぁ……改めて商談を開始しましょうか。\n証文を置いていくか……彼の命か……好きな方を選んでください♪=I'm honored by your praise♪ Well, well, well... Shall we start the business deal again? Will you leave the evidence behind... or his life...? Please choose whichever you like♪
 
-r:"^こいつは……こいつだけは、\n絶対に逃がしちゃいけない悪党にゃ！\nでもこのままじゃ(.{2,10})が……$"=This guy... this guy is the one villain I can't let escape~nya! But... at this rate, $1 will...
+こいつは……こいつだけは、\n絶対に逃がしちゃいけない悪党にゃ！\nでもこのままじゃ{playername}が……=This guy... this guy is the one villain I can't let escape~nya! But... at this rate, {playername} will...
 どうしたら……どうしたらいいのにゃ……！！　=What should I... what should I do~nya...!!
 ──にゃ～♪=──nya~♪
 ……！？\nこ、この声……！？=...!?\nTh, this voice...!?
@@ -81,7 +81,7 @@ r:"^こいつは……こいつだけは、\n絶対に逃がしちゃいけな�
 ファントムキャッツは狙った獲物をのがさない……\nだから、両方いただくにゃ！！=The Phantom Cat never let go of their prey...\nthat's why, we'll take both of them~nya!!
 にゃにゃーん！！=Nya-nyan!!
 な、なんだこの猫の大群は！？\nや、やめろぉ！\n俺は猫アレルギーなんだぁ～～！！=Wh, what is this horde of cats!? St, stop it! I'm allergic to cats~!!
-r:"^(.{2,10})！\n今のうちに逃げるにゃ～～！！！！$"=$1!\nNow's your chance to escape~nya!!
+{playername}！\n今のうちに逃げるにゃ～～！！！！={playername}!\nNow's your chance to escape~nya!!
 くそっ！\n逃がすんじゃねえぞおまえら！\n後を追って……ん？　あれは？=Damn it!\nDon't let them get away!\nFollow them... huh? What's that?
 怪しい集団を見たという通報があったから来てみれば……\nファントムキャッツの周りには、猫の大群が出没するという情報がある！\nファントムキャッツがいるかもしれんから、付近を探索しろ！=We got a report that a suspicious group was seen here... there's information that a horde of cats appears around the Phantom Cat! They might be here, so search the area!
 あ～～王宮騎士さま、\nとてもとてもとてもいいところにぃ～～！！=Ahh~ Royal Knight-sama,\nyou came to a very very very good time~!!
@@ -98,11 +98,11 @@ r:"^(.{2,10})！\n今のうちに逃げるにゃ～～！！！！$"=$1!\nNow's 
 ……だから、\n自分の名前を入れるのは嫌なんだよぉぉ～～～～！！=...Li, like i said, I don't like putting my name on the guild name~!!
 はあ……はあ……\nここまで来れば大丈夫にゃ！！=Haa... haa...\nI should be safe here~nya!!
 なんとかなったにゃ～～！！\nアクシツは今頃捕まってるだろうし、\nこれで一件落着…………あれ？=I made it somehow~nya!! Croock must be caught by now, and this case is closed........huh?
-r:"^……いない……(.{2,10})がいないにゃ！\nど、どうして！？\nだって、ちゃんと後ろを付いてきてたにゃ……！$"=...He's gone...\n$1 is gone~nya! Wh, why!?\nHe was following me behind me~nya...
+……いない……{playername}がいないにゃ！\nど、どうして！？\nだって、ちゃんと後ろを付いてきてたにゃ……！=...He's gone...\n{playername} is gone~nya! Wh, why!?\nHe was following me behind me~nya...
 まさか……\nアクシツたちに捕まって……=Could it be...\nhe was captured by Croock and his men...
 どうして……\nどうして、あたしはいつもこうなのにゃ……？=Why...\nWhy am I always like this...?
 勝手に突っ走って……調子にのって……\nいつも大事なところで失敗して……\nそして、またあいつを…………！=I act on my own... get carried away... always fail at the crucial moment... and then, again lose him........!
-r:"^……(.{2,10})～～～～！！\n返事をしてにゃ～～～～！！！！$"=...$1~~~~~!!\nAnswer me~nya!!
+……{playername}～～～～！！\n返事をしてにゃ～～～～！！！！=...{playername}~~~~~!!\nAnswer me~nya!!
 ………………なんでいるにゃ？=............Why are you here~nya?
 途中で転んじゃって。=I tripped on the way.
 う……うぅ………………=Ow... ow............
@@ -110,8 +110,8 @@ r:"^……(.{2,10})～～～～！！\n返事をしてにゃ～～～～！！�
 い、痛い！=Ow, that hurts!
 そんなの知ったこっちゃないのにゃ！！\n少しは人の気持ちってのを考えろにゃ～！！=I don't care about that~nya!! Think about how other people feel sometimes~nya!!
 泣いてるの？=Are you crying?
-r:"^……心配したにゃ！　心配したのにゃ！\nまたあたしのせいで、\n(.{2,10})になにかあったらと思って……！$"=...I was worried about you, $1~nya!\nI was worried that something might have happened to you because of me...!
-r:"^それなのに(.{2,10})はしれっと帰ってきて……\nでも無事でうれしくて……あ～もう！！\n人を何度も泣かせて、そんなに楽しいかにゃ！？$"=And yet you came back so casually... but I'm glad you're safe, $1... ah~ geez!! Do you enjoy making me cry so many times~nya!?
+……心配したにゃ！　心配したのにゃ！\nまたあたしのせいで、\n{playername}になにかあったらと思って……！=...I was worried about you, {playername}~nya!\nI was worried that something might have happened to you because of me...!
+それなのに{playername}はしれっと帰ってきて……\nでも無事でうれしくて……あ～もう！！\n人を何度も泣かせて、そんなに楽しいかにゃ！？=And yet you came back so casually... but I'm glad you're safe, {playername}... ah~ geez!! Do you enjoy making me cry so many times~nya!?
 ……にゃ！？\n頭をなでてご機嫌をとろうったって……=...Nya!?\nDon't think you can make me happy by patting my head...
 ……ただいま。=...I'm home.
 ……うん。\nお帰りにゃ……=...Yeah.\nWelcome back~nya...

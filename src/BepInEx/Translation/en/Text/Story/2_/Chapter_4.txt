@@ -1,10 +1,10 @@
-r(.{2,10}?)です。$I'm $1.
+{playername}です。=I'm {playername}.
 
 美食殿の面々は日常を取り戻しつつあった。そんな中、ペコリーヌは公務として、市民との交流をすることになったという。彼女の護衛役として、一同はルーセント学院へと期限付きの転入をすることに。=The members of the Gourmet were returning to their daily lives. As part of their official duties, Pecorine had decided to interact with the citizens. As her bodyguard, everyone decided to transfer to Lucent Academy for a limited period of time.
 カリザ、アゾールドらの襲撃を退けてから、しばらく経ったある日……=One day, a while after Kariza, Azold, and the others had repelled the attack...
 ふぅん……\n今のランドソルの議会制度は、こうなっているのね……=Hmm... So this is what The Landosol's parliamentary system looks like right now...
 新しい本、持ってきたよ。=I brought you a new book.
-r:"^……ありがとう、(.{2,10})。\nそこに置いてもらえるかしら。$"="...Thank you, $1. Could you put it there?"
+……ありがとう、{playername}。\nそこに置いてもらえるかしら。=...Thank you, {playername}. Could you put it there?
 ずいぶん熱心だね。=You're pretty enthusiastic about this.
 そうね……\n少し、情報に飢えているのかもしれないわ。=That's right... Maybe he's a little hungry for information.
 ここしばらく、\nまともに字を読むこともままならなかったものだから。\nこうして知識を増やせるのが、うれしいのよ。=I haven't been able to read properly in a while. I'm happy to be able to increase my knowledge like this.
@@ -40,7 +40,7 @@ r:"^……ありがとう、(.{2,10})。\nそこに置いてもらえるかし�
 はい☆\n一緒に、学校に行きましょう！=Yes☆ Let's go to school together!
 が、学校っ！？=A-A school?!
 実はですね。公務の一環で、\n街に暮らす方々ともっと交流を持とうってことになって。\nルーセント学院っていうところなんですけど。知ってます？=Actually, as part of my official duties, I've decided to get to know the people living in the city better. It's called Lucent Academy. Do you know about it?
-r:"^わぉ♪　さすが(.{2,10})くんですね……\n……えっ？　知ってるどころかクラスに席まで持ってるんですか？\n話がはやいですね、やばいですね☆$"="Wow♪ That's $1-kun for you... Huh? Not only do you not know him, but you even have a seat in the class? Talk about quick, this is bad☆"
+わぉ♪　さすが{playername}くんですね……\n……えっ？　知ってるどころかクラスに席まで持ってるんですか？\n話がはやいですね、やばいですね☆=Wow♪ That's {playername}-kun for you... Huh? Not only do you not know him, but you even have a seat in the class? Talk about quick, this is bad☆
 ……街の人たちとの交流ねぇ……\nそういうのも、王族には必要なお仕事なのかもね。\n……まあ、陛下はちっとも興味なさそうだったけど……=...Interacting with the people of the city, huh? Maybe that's a necessary job for royalty. ...Well, His Majesty didn't seem the least bit interested...
 でも……【レイジ・レギオン】への対策は、どうするの？=But...what are we going to do about countermeasures against the Rage Legion?
 まぁ……せっかく復興がひと段落ついてきたってのに、\n【レイジ・レギオン】のやつらが騒ぎを起こすせいで\nなんとなく街中キナ臭い感じになってる気がするしね。=Well... We've finally reached a stopping point in the reconstruction, but thanks to the Rage Legion causing a commotion, I feel like the whole city is starting to stink.
@@ -57,7 +57,7 @@ r:"^わぉ♪　さすが(.{2,10})くんですね……\n……えっ？　知�
 ありがとう。\n正直、そこまで期待しているわけじゃないけど……ね。=Thank you. Honestly, I don't expect much from you, but...
 え、えー……\nじゃ、あたしは……パスってことで。=Wh-What...? Then I'll... pass.
 キャルちゃん？\nお勉強キライですか？=Kyaru? You don't like studying?
-r:"^そ、そうじゃないけどさ。\n(.{2,10})とシェフィがいたら、いいでしょ別に……\nほら、コロ助も調子悪そうだしさ？$"="I-It's not like that. It's fine if $1 and Sheffy are here, isn't it...? Look, Korosuke doesn't seem to be feeling well either, right?"
+そ、そうじゃないけどさ。\n{playername}とシェフィがいたら、いいでしょ別に……\nほら、コロ助も調子悪そうだしさ？=I-It's not like that. It's fine if {playername} and Sheffy are here, isn't it...? Look, Korosuke doesn't seem to be feeling well either, right?
 わたくしは……大丈夫でございます。\n数日は、サレンさまのところにご厄介になろうかと。\nみなさまの足を引っ張ってしまうのは、不本意ですし……=I'm... fine. I'll be staying with The Lady Saren for a few days. I don't want to drag everyone down...
 う……\nでも……=Ugh... But...
 キャールー\nまーたコミュ障なわけー？\nこの内弁慶！　猫っかぶり！=Kyaru, are you a coμ hindrance again? I'm Benkei! You're such a cat!
@@ -68,10 +68,10 @@ r:"^そ、そうじゃないけどさ。\n(.{2,10})とシェフィがいたら�
 う……=Ugh...
 大丈夫ですキャルちゃん。\n怖いコトなんかなんにもないですよ、\nわたしたちがクラスメートですし！=Don't worry, Kyaru. There's nothing to be afraid of. We're classmates!
 …………\nクラスメート……？=.........Classmate......?
-r:"^クラスメート……クラスメート……\n(.{2,10})が、クラスメート……\n…………あたしの……っ？$"="Classmate...classmate...$1 is my classmate... My...?"
+クラスメート……クラスメート……\n{playername}が、クラスメート……\n…………あたしの……っ？=Classmate...classmate...{playername} is my classmate... My...?
 あ？\nなに、うれしいの？=Huh? What, are you happy?
 ──はっ！？=Huh!?
-r:"^いまちょっとうれしそうだったわよね？\n(.{2,10})とクラスメートになったとこ想像して\nうれしそうだったわよね？$"="You looked a little happy just now, didn't you? You looked happy imagining you becoming classmates with $1, right?"
+いまちょっとうれしそうだったわよね？\n{playername}とクラスメートになったとこ想像して\nうれしそうだったわよね？=You looked a little happy just now, didn't you? You looked happy imagining you becoming classmates with {playername}, right?
 そ、そそんなこと……、あるわけないじゃないっ……？=Th-Th-There's no way... that would happen...!
 机をくっつけて勉強！　とか一緒にお弁当！　とか\n美術の時間にお互いをスケッチ！　とか想像しちゃったのぉ！？\nやだ～～キャルったら～～アオハルってやつ～～？=Did you imagine something like, “Studying with your desks together!” or “Bento with them!”? Or “Drawing with each other during art class!”!? Oh nooooooo, Kyaru~ Is that Aoharu~?
 ぶっっっ殺す～っ！\nやっぱあんた佃煮にするしかないわ害虫エロ妖精～っ！！！=I'm going to kill you~! I'm going to have to fry you, you pestering erotic fairy~!
@@ -81,7 +81,7 @@ r:"^いまちょっとうれしそうだったわよね？\n(.{2,10})とクラ�
 ルーセント学院にペコリーヌたちがやってきた。クラスメイトたちは彼女らに興味津々で、さっそく質問を投げかける。しかし人見知りのキャルは、気さくに接してきた生徒に辛辣な言葉を吐いてしまう。=Pecorine and the others arrived at Lucent Academy. Their classmates were so interested in them that they immediately asked the question. However, Kyaru, who was shy, ended up spouting harsh words at the students who had been so friendly with her.
 スズナもミサキも、久しぶり。=Suzuna and Misaki hadn’t seen each other in a while.
 うわーい！\nヒデサイヒデサイヒデサイ♪\nおっひさー！=Yaaaay! Hyde, hyde, Hyde♪ Hey, Hisaaa!
-r:"^数日後──\nペコリーヌたちがルーセント学院の転入手続きをしているあいだ、\n(.{2,10})は先に、自分の教室に訪れていた。$"="A few days later, while Pecorine and the others were preparing to transfer to Lucent Academy, $1 had arrived at his classroom first."
+数日後──\nペコリーヌたちがルーセント学院の転入手続きをしているあいだ、\n{playername}は先に、自分の教室に訪れていた。=A few days later, while Pecorine and the others were preparing to transfer to Lucent Academy, {playername} had arrived at his classroom first.
 ほんっとに久々ね～\nっていっても校舎が半分、覇瞳皇帝ってやつに壊されちゃったから、\n授業が再開したのはわりと最近なんだけど。=It's been a while since I've been here. But half of the school building was destroyed by the Kaiser Insight, so it's only recently that classes resumed.
 ル=Le
 ーセント学院=Saint-Germain Academy
@@ -98,7 +98,7 @@ r:"^数日後──\nペコリーヌたちがルーセント学院の転入手�
 はいは～い♪\nみんな、ホームルームよ～=Okay, okay♪ Homeroom, everyone!
 あっ、イオちゃん来ちゃった。=Oh, Io's here.
 ヒデサイ、すわろすわろ！\n席は、うちとミサきちの間ね☆=Hidesai, let's sit down! The seat is between Misakichi and me! ☆
-r:"^おかえりなさい、(.{2,10})くん。\nまた一緒に、たっくさんお勉強しましょうね♪$"="Welcome back, $1. Let's study together again sometime♪"
+おかえりなさい、{playername}くん。\nまた一緒に、たっくさんお勉強しましょうね♪=Welcome back, {playername}. Let's study together again sometime♪
 ただいま、イオちゃん。=I'm home, Io-chan.
 うふふ♪\n君が帰ってきてくれて、先生とってもうれしいわ。\nそれに……=Hehehe♪ I'm so happy that you're back. And...
 今日はなんと！\n素敵な仲間が、さらに増えちゃいます♪=What a day! I'm going to have even more wonderful friends today♪
@@ -129,7 +129,7 @@ r:"^おかえりなさい、(.{2,10})くん。\nまた一緒に、たっくさ�
 ……キャル。\nま、よろしく頼むわ。=...Kyaru. Well, I'm counting on you.
 シェフィさんと、キャルさんですね★\nそれに……=Sheffy and Kyarue, right? ★ And...
 
-r:"^(.{2,10})くんは、プリンセスナイト……\nじゃなくって、えーっと、ナイト！\nそう、わたしと一緒に戦ってくれる、騎士みたいなひとなんです！$"="$1-kun is a Princess Knight... I mean, um, a Knight! Yes, he’s like a knight fighting alongside me!"
+{playername}くんは、プリンセスナイト……\nじゃなくって、えーっと、ナイト！\nそう、わたしと一緒に戦ってくれる、騎士みたいなひとなんです！={playername}-kun is a Princess Knight... I mean, um, a Knight! Yes, he’s like a knight fighting alongside me!
 えええーっ！？\nヒデサイ、王女さまとマブダチだったの！？=Whaaat?! Hidesai, you were friends with the princess?!
 うっそマジ！？\nアンタどうして言わないのよそういう大事なことーっ！=No way, seriously?! Why didn't you say something so important?!
 言う機会がなくて……=I didn't get the chance to say it...
@@ -142,7 +142,7 @@ r:"^(.{2,10})くんは、プリンセスナイト……\nじゃなくって、�
 話がわかるわねー♪=You get what I'm saying, don't you?
 ねえねえ王女さま！\n王宮ってどんなところですか？\n普段は何たべてるんですか？=Hey, princess! What's the royal palace like? What do you usually eat?
 えっ、王宮ですか？\n最近はちょっとかたっ苦しいですね～\nごはんはふだんからいっぱい食べてます！=Huh? The royal palace? It's been a bit rough lately. I usually eat a lot of food!
-r:"^(.{2,10})くんとは、前からお知り合いなんですか？\n騎士っていってましたけど、どういう関係なんですか？$"="Have you and $1 known each other for a long time? You said you were a knight. What kind of relationship do you have?"
+{playername}くんとは、前からお知り合いなんですか？\n騎士っていってましたけど、どういう関係なんですか？=Have you and {playername} known each other for a long time? You said you were a knight. What kind of relationship do you have?
 ええっ？\n友だちっていうか、えへへ……=Huh? We're more like friends, ehehe...
 生徒たち=Students
 やばい関係、ですね☆=It's a dangerous relationship, isn't it?☆
@@ -192,7 +192,7 @@ r:"^(.{2,10})くんとは、前からお知り合いなんですか？\n騎士�
 わかりませんよ！\nわたし、空気読めないことには自信がありますから！\nそれにキャルちゃんだって、根拠があるわけじゃないんですよね！？=I don't know! I'm confident I can't read the mood! And Kyaru-chan, you have no basis for this, right?!
 う……\nそ、そりゃあ……=Ugh... Th-That's...
 ……お願いです。\nここで逃げちゃったら、\nきっと、ずっと後悔することになると思うんです。=...Please. If you run away now, I'm sure you'll regret it forever.
-r:"^それに。わたしと、(.{2,10})くんと、シェフィちゃんは、\nどんなことがあったって、キャルちゃんの味方です。\n鼻つまみものになんて、絶対しませんから。$"="Besides, no matter what happens, $1, Sheffy, and I will always be on Kyaru's side. We'll never pinch our noses."
+それに。わたしと、{playername}くんと、シェフィちゃんは、\nどんなことがあったって、キャルちゃんの味方です。\n鼻つまみものになんて、絶対しませんから。=Besides, no matter what happens, {playername}, Sheffy, and I will always be on Kyaru's side. We'll never pinch our noses.
 ほんとに？\nほんとに大丈夫？\nいきなりバケツで水ぶっかけられたりしない？=Really? Are you sure you're okay? You're not going to get splashed with buckets all of a sudden?
 大丈夫ですって。\nえい！=It's okay. Ey!
 あっ……！=Ah...!
@@ -246,7 +246,7 @@ r:"^それに。わたしと、(.{2,10})くんと、シェフィちゃんは、\
 はーい、また明日～♪=Okay, see you tomorrow~♪
 ……\n……\n……ふぅ。=............Phew.
 2部 第4章 第4話=Part 2 Chapter 4 Episode 4
-r:"^すっかりクラスに馴染んだペコリーヌたち。そんな折、イオからの提案でプール開きが行われることに。水着でプールを楽しむ一同。そんな中、ミソラは(.{2,10})に対し、誘うような言葉をかけ……$"="Pecorine and the others have gotten used to the class. At that moment, Io proposes the opening of the pool. Everyone enjoys the pool in their swimsuits. Meanwhile, Misora offers an invitation to $1..."
+すっかりクラスに馴染んだペコリーヌたち。そんな折、イオからの提案でプール開きが行われることに。水着でプールを楽しむ一同。そんな中、ミソラは{playername}に対し、誘うような言葉をかけ……=Pecorine and the others have gotten used to the class. At that moment, Io proposes the opening of the pool. Everyone enjoys the pool in their swimsuits. Meanwhile, Misora offers an invitation to {playername}...
 へ？\n似たようなものじゃないの？=Huh? Isn't it similar?
 この前は、召喚された魔物さんやシャドウが街で暴れる事件もあったし。\n戦ったり逃げたりするときにも、相手の特徴を見分けるのが大切よ。\nそうね、たとえば……ドラゴンとワイバーンの違い、わかるかしら？=The st time, there were cases of summoned monsters and Shadows running amok in the city. It’s important to discern the characteristics of your opponent when fighting or running away. Let’s see, for example... Do you know the difference between dragons and wyverns?
 読み書きや計算、魔法の知識なんかも大切だけど。\nこの世界で暮らしていく以上、\n魔物さんたちについても、ちゃんと知っておいたほうがいいわ。=Reading, writing, calculating, and knowledge of magic are all important, too. But as long as you're living in this world, you should also learn more about the monsters.
@@ -375,7 +375,7 @@ r:"^すっかりクラスに馴染んだペコリーヌたち。そんな折、�
 ルーセント学院での、\nペコリーヌたちと生徒たちの交流の日々は\n騒がしくも瞬く間に過ぎ……=The days of interaction between Pecorine and the students at Lucent Academy passed in the blink of an eye...
 そして、最終日の前日。\nその放課後──=And then, the day before the last day. After school
 ……ペコさん？=...Pecorine?
-r:"^(.{2,10})くん。\nどうしたんですか？\nまだ帰らないんですか？$"="$1, what's wrong? You're not going home yet?"
+{playername}くん。\nどうしたんですか？\nまだ帰らないんですか？={playername}, what's wrong? You're not going home yet?
 あはっ☆\nそうでしたね♪=Aha☆ That's right♪
 ペコさんの、護衛だから。=I'm Pecorine's bodyguard.
 ペコさんこそ、どうしたの？=What about you, Pecorine?
@@ -386,7 +386,7 @@ r:"^(.{2,10})くん。\nどうしたんですか？\nまだ帰らないんです
 ……でも。\nみなさんと交流するっていう目的は、\nじゅうぶん果たせたと思いますし……=...But I think I've accomplished my goal of interacting with everyone...
 わたしには、次の務めが……\nプリンセスとしてしなくちゃいけない、\nたくさんの務めが待っていますから。=My next duty... As a princess, I have a lot of duties waiting for me.
 はい。\nとっても、とっても、とっても楽しかったです。=Yes. It was really, really fun.
-r:"^あの……(.{2,10})くん。\nこの前のお話の、続きですけど。$"="Um...$1? Let's continue where we left off."
+あの……{playername}くん。\nこの前のお話の、続きですけど。=Um...{playername}? Let's continue where we left off.
 あなたが、ちょっとだけ思い出したっていう『あっち側』……\n……現実っていう世界にも、\nここと似た、『学校』っていう場所があったんですよね。=The 'other side' you said you remembered a little... ...There was a place called 'school' that was similar to this place in the real world.
 わたしは……ぜんぜん、思い出せないんです。\n……前に、キャルちゃんを助けたときに、\nここじゃない世界の夢を見た気がするくらいで……=I... can't remember at all. ...The Last time I saved Kyaru, I felt like I had a dream about a world that wasn't here...
 そんな気がする……=That's the feeling I get...
@@ -394,7 +394,7 @@ r:"^あの……(.{2,10})くん。\nこの前のお話の、続きですけど�
 僕も、同じようなものだよ。=It's the same for me.
 ……困っちゃいますよね。\n『あっち』が本当の世界だなんて……そんなこと……=...It's a problem, isn't it? To think that 'over there' is the real world... That's...
 確かに、仕組みとかが変だなって思うこともありますけど。\nでもわたしたちは、確かに『こっち』の世界で笑って、泣いて、\nごはんを食べて……生きてるんですから。=It's true that there are times when I think about how it works and stuff. But we're definitely living in this world, laughing, crying, eating...
-r:"^えっと……\n……(.{2,10})くんは、どうしたいですか？$"="Umm... What do you want to do, $1?"
+えっと……\n……{playername}くんは、どうしたいですか？=Umm... What do you want to do, {playername}?
 戻ったほうがいいのかも……=Maybe I should go back...
 まだ、わからない。=I still don't know.
 ……で、でも……\nでも、どうすれば？\n何をすれば、『あっち』に行けるんでしょう？=...B-But... But what should I do? What can I do to get to 'that side'?
@@ -405,7 +405,7 @@ r:"^えっと……\n……(.{2,10})くんは、どうしたいですか？$"="U
 ……ペコさんは、どうしたい？=...What do you want to do, Pecorine?
 もし本当に、キャルちゃんを助けたときの夢が正しいなら。\n……わたしは、『あっち』側でも、お姫さまだったみたいで。\nそして……=If the dream I had when I saved Kyaru-chan was right......then I was a princess on the other side, too. And......
 あなたの記憶、全部が戻ってるわけじゃないみたいですけど。\n『あっち』の学校でも、それ以外でも……\nわたしは……あなたの隣には、いなかったんですね……=It doesn't seem like all of your memories have returned. Even at the 'other' school, and outside of that... I... wasn't next to you...
-r:"^……『あっち』の世界では。\nわたしと(.{2,10})くんは、\nこんなふうに、教室で夕陽を眺めることも……$"="...In the other world, $1 and I don't even get to watch the sunset like this..."
+……『あっち』の世界では。\nわたしと{playername}くんは、\nこんなふうに、教室で夕陽を眺めることも……=...In the other world, {playername} and I don't even get to watch the sunset like this...
 あ……いえいえ！\nなんでもないですよ☆=Ah... No, no! It's nothing☆
 ……えっと……\n隣、座ってもいいですか？=...Umm... Can I sit next to you?
 狭いよ？=It's cramped
@@ -451,7 +451,7 @@ r:"^……『あっち』の世界では。\nわたしと(.{2,10})くんは、\n
 それじゃあみんな、ホームルームを始めるわよ。\nきりーつ！=All right, everyone, homeroom's about to start. Let's go!
 ……あ、あらっ？\nみんな、どうしたのかしら？\nほら、起立よ。立って立って！=...H-Huh? What's wrong, everyone? Come on, stand up. Stand up!
 みなさん、どうしたんですか？\n授業はじまっちゃいますよ？=What's wrong, everyone? Class is about to start
-r:"^何かおかしいわ。\n(.{2,10})、気をつけて……！$"="Something's not right. $1, be careful...!"
+何かおかしいわ。\n{playername}、気をつけて……！=Something's not right. {playername}, be careful...!
 あっ！\nみんなもしかして、ストライキな感じ？\n授業が終わらなければ、ペコっちたちとお別れしなくて済む～とか？=Oh! Does everyone feel like they're on strike? Maybe they won't have to say goodbye to Pecocchi and the others if classes don't end?
 うおおおおーっ！=Whoooooaaa!
 男子生徒たち=Male students
@@ -492,7 +492,7 @@ r:"^何かおかしいわ。\n(.{2,10})、気をつけて……！$"="Something'
 みんな、大丈夫！？=Everyone, are you okay?!
 ええ！\nでもっ……=Yes! But...
 ペコっちへーきっ！？\nうちらをかばって、めっちゃ魔法喰らってなかった！？=Pekocchiheki?! Didn't you eat a ton of magic to protect us?!
-r:"^……っ、はい、ぜんぜんへっちゃらです！\n王家の装備と、(.{2,10})くんの強化があれば\nこのくらいっ……！$"="...Yes, I'm completely fine! With the royal family's equipment and $1's enhancements, this is nothing...!"
+……っ、はい、ぜんぜんへっちゃらです！\n王家の装備と、{playername}くんの強化があれば\nこのくらいっ……！=...Yes, I'm completely fine! With the royal family's equipment and {playername}'s enhancements, this is nothing...!
 そりゃ、あんたなら\nあの程度の魔法、何発喰らっても死にゃしないでしょうけど……=I mean, you wouldn't die no matter how many times you took that level of magic, but...
 ああああーーーーっ！=Aaaaahhh!
 っ！\nまた来るっ！=Ah! I'll come again!
@@ -524,7 +524,7 @@ r:"^……っ、はい、ぜんぜんへっちゃらです！\n王家の装備�
 えーっ！\nそんなの、どうやって探すの？\nワンちゃんでも連れてくる？　くんくん、くんくん……=Whaaat?! How are you going to find that? Do you want to bring a puppy with you? *sniff sniff*...
 で、でも誰よ？\nそんな悪いことしてる犯人って！=B-But who? Who's the culprit doing something so bad?!
 ……もしかしてまた、私たちを狙う連中が？=...Could it be that there are people after us again?
-r:"^【レイジ・レギオン】？\nあり得る話ね、こないだはわざわざ\n(.{2,10})のこと潰そうとしてきたし。$"="[Rage Legion]? That's possible. You went out of your way to crush $1 the other day."
+【レイジ・レギオン】？\nあり得る話ね、こないだはわざわざ\n{playername}のこと潰そうとしてきたし。=[Rage Legion]? That's possible. You went out of your way to crush {playername} the other day.
 えっと……さっきから、気になっているんだけど。\nどうして、私たちは洗脳にかかっていないのかしら？=Umm... I've been wondering for a while. Why aren't we brainwashed?
 ……あるいは……\nわたしを狙って、ってことも考えなくちゃ……いけないんですよね。\n王族としては……=......or......I have to think about......being targeted......by me. As royalty......
 そういえば……\nなにか、条件があるのかしら？=Come to think of it... Why aren't we brainwashed too?
@@ -556,7 +556,7 @@ r:"^【レイジ・レギオン】？\nあり得る話ね、こないだはわ�
 あれ？　前に自己紹介しましたよね。\nわたし、流ミソラっていいます★\n血液型はA型で、かに座で、好きな食べ物はラーメンです♪=Huh? I introduced myself before, didn't I? My blood type is A, I am a Cancer and my favorite food is ramen.♪
 ゼーンさんたちには、もう会ってるんですよね？\nじゃあ、わたしが【レイジ・レギオン】最後の一人ですよ♪\nんー、「最後の一人」ってなんだか強そうですね？　ヤバいですね★=You've already met Zane and the others, haven't you? Then I'll be the last of the [Rage Legion]♪ Hmm... The 'last one' seems pretty strong, doesn't it? This is bad. ★
 ……あなたも、私たちの敵……\n【レイジ・レギオン】のギルドメンバー、ということなのかしら。=...Are you also a member of our enemy... the Rage Legion's guild?
-r:"^そんな……\nミソラちゃんが、\n(.{2,10})くんたちの敵っ……？$"="No way... Misora is an enemy of $1 and the others...?"
+そんな……\nミソラちゃんが、\n{playername}くんたちの敵っ……？=No way... Misora is an enemy of {playername} and the others...?
 あんた、どうしてこんなことしてんの……！？=Why are you doing this...!?
 動機ですか？\nそうですね……\n騎士さんと、仲良くなれたらいいなーって♪=A motive? That's right... I wish I could be friends with the knight♪
 ミソラっちも、ヒデサイ狙いだったーっ！？=Misoracchi was after Hidesai too!?
@@ -617,13 +617,13 @@ r:"^そんな……\nミソラちゃんが、\n(.{2,10})くんたちの敵っ…
 ……っ！\nそ、そうね……\nこうなったら、片っ端から探し回りましょう……！=...! Y-You're right... Now that it's come to this, let's search for them one by one...!
 待って！\n手分けしたとしても、まだ探す範囲が広すぎるわ……！=Wait! Even if we split up, there's still too much to search for...!
 そ、そうよ！\n大人のレディは、焦らないものでしょ！\nスズナはともかく、イオちゃんらしくないっ！=Th-That's right! Adult ladies don't need to rush things! Suzuna aside, this isn't like Io-chan!
-r:"^で、でも、早くしないとみんなが！\n(.{2,10})くんたちだって、戦ってるんだし……！$"="B-But if we don't hurry, everyone will! $1 and the others are fighting, too...!"
+で、でも、早くしないとみんなが！\n{playername}くんたちだって、戦ってるんだし……！=B-But if we don't hurry, everyone will! {playername} and the others are fighting, too...!
 落ち着いて、先生……\n隠し場所、きっともう少し絞り込めるはずだから。=Calm down, Sensei... I'm sure we'll be able to narrow down the hiding place a little more.
 うーん、うーん……=Hmm, hmm...
 えっと、えーっと……=Umm, umm...
 ああ、もうっ……！\n隠し場所なんて、ぜんぜん思いつかないわ！\nこういうとき、もっと頭が良かったらって思っちゃうわね……！=Aaah, geez...! I can't think of a hiding place at all! At times like this, I wish I was smarter...!
 ……ねぇねぇ、ミソラっちって\nどうしてこんなことしたーって言ってたっけ？=...Hey, hey, Misoracchi, why did you do this?
-r:"^たしか、『騎士さん』……つまり、\n(.{2,10})と仲良くなりたかった、って話していたわね。$"="If I remember correctly, she said she wanted to be friends with 'Knight'... in other words, with $1."
+たしか、『騎士さん』……つまり、\n{playername}と仲良くなりたかった、って話していたわね。=If I remember correctly, she said she wanted to be friends with 'Knight'... in other words, with {playername}.
 ったく！\n仲良くなるんだったら、普通に遊んだりすりゃいいじゃない。\nあるいは大人の魅力で色仕掛け、とかさ？=Geez! If we're going to get along, why don't we just play around normally? Or maybe we can use adult charms to seduce each other?
 みりょく……=Miroku...
 色仕掛け……=Sex appeal...
@@ -649,7 +649,7 @@ r:"^たしか、『騎士さん』……つまり、\n(.{2,10})と仲良くな�
 ……うぇっ！？\n矢が刺さんない～っ！=...Ueh!? I can't stab an arrow!
 剣も氷も、弾かれる……！\n王宮の地下牢みたいに、\nかなりの魔法防御が施されているようね……！=Both the sword and the ice are deflected...! It looks like it’s been enchanted with quite a bit of magical defense, like the dungeon in the royal palace...!
 ど、どうすんのよっ！？\nせっかく見つけたのに……！=Wh-What are we going to do?! We finally found her...!
-r:"^時間が惜しいわ！\n(.{2,10})くんに強化してもらってる\n私の魔力……至近距離で、ありったけぶつける！$"="Time is of the essence! I'm having $1 strengthen my magic... I'll hit him with everything I have at point-blank range!"
+時間が惜しいわ！\n{playername}くんに強化してもらってる\n私の魔力……至近距離で、ありったけぶつける！=Time is of the essence! I'm having {playername} strengthen my magic... I'll hit him with everything I have at point-blank range!
 イオちゃん！？=Io?!
 その距離で攻撃魔法を放ったら、\nイオ先生まで余波を受けてしまうわ！=If you fire off attack magic at that distance, even Io-sensei will take the aftermath!
 ええ！\n危ないから３人とも、離れて！\n早く！=Yes! It's dangerous, so get away from me, you three! Hurry!
@@ -669,7 +669,7 @@ r:"^時間が惜しいわ！\n(.{2,10})くんに強化してもらってる\n私
 町人１=Merchant 1
 町人２=Merchant 2
 2部 第4章 第9話=Part 2 Chapter 4 Episode 9
-r:"^窮地に追い込まれた(.{2,10})たちだが、ペコリーヌの秘策によりぺんぽこりんの撃退に成功する。しかし、プリンセスフォームになれないキャルは内心で苛立ちを募らせていた。$"="$1 and the others were driven into a corner, but thanks to Pecorine's secret plan, they successfully repelled Penpokorin. However, Kyaru, who couldn't use Princess Form, was growing more and more irritated on the inside."
+窮地に追い込まれた{playername}たちだが、ペコリーヌの秘策によりぺんぽこりんの撃退に成功する。しかし、プリンセスフォームになれないキャルは内心で苛立ちを募らせていた。={playername} and the others were driven into a corner, but thanks to Pecorine's secret plan, they successfully repelled Penpokorin. However, Kyaru, who couldn't use Princess Form, was growing more and more irritated on the inside.
 どるるるるーんっ♪=Dorururururuuun♪
 わあああぁっ！\nな、なんですかあの武器っ！？=Waaaaah! Wh-What's with that weapon?!
 攻撃魔法の弾を連射する杖、ってところかしらね！\nあんな形の初めて見るけど！=A staff that continuously fires attack magic bullets, I guess! I've never seen one shaped like that before, though!
@@ -694,18 +694,18 @@ r:"^窮地に追い込まれた(.{2,10})たちだが、ペコリーヌの秘策�
 ……ていうか、そのっ……\n「なってください」って言われても……=...Actually, umm... Even if you ask me to become one...
 ……ど、どうすれば、いいのよ……？=...Wh-What should I do...?
 えっ？\nえーっと、確か……=Huh? Umm, if I remember correctly...
-r:"^そうです！\nとりあえず、(.{2,10})くんに\nぎゅーっと抱き付いてください！$"="That's right! For now, please hug $1 tightly!"
+そうです！\nとりあえず、{playername}くんに\nぎゅーっと抱き付いてください！=That's right! For now, please hug {playername} tightly!
 はああっ！？\nそ、そんなことできるわけないじゃない！=Huh?! Th-There's no way I could do that!
-r:"^じゃあ、(.{2,10})くんから\nぎゅーっと？$"="So, you're going to start with $1?"
+じゃあ、{playername}くんから\nぎゅーっと？=So, you're going to start with {playername}?
 ぎゅーっ。=Squeeze.
 ……ほ、ほら……\nこいつも、迷惑そうだしさ……？=...C-Come on... Doesn't she look like she's bothering you, too...?
 もうっ！\nそんなこと言ってる場合じゃないですよ二人とも！=Geez! This isn't the time for that, you two!
 こうなったら、二人まとめて……\nええーいっ☆\nぎゅぎゅぎゅー=Now that it's come to this, let's put the two of us together... Yaaaay☆Squeeze, squeeze, squeeze!
 ぐえぇっ！？\nこの馬鹿力っ……殺す気！？=Gueeeh!? This stupid power...... You're going to kill me!?
-r:"^っていうか近いっ！\n(.{2,10})もペコリーヌも近いわよ～っ！！$"="It's so close! $1 and Pecorine are so close!!"
+っていうか近いっ！\n{playername}もペコリーヌも近いわよ～っ！！=It's so close! {playername} and Pecorine are so close!!
 近いっていうか、密着してますね★=We're so close, or rather, so close together. ★
 ひゃあああっ！？\nいきなりなにすんのよえっちバカ変態ふしんしゃーっ！=Hyaaaah?! What are you doing all of a sudden, you pervert pervert?!
-r:"^さぁ、今ですキャルちゃん！\n(.{2,10})くんと心を繋いで……\n『チェンジ・プリンセスフォーム』ですよ！$"="Now, now, Kyaru! Connect your heart to $1's... Change Princess Form!"
+さぁ、今ですキャルちゃん！\n{playername}くんと心を繋いで……\n『チェンジ・プリンセスフォーム』ですよ！=Now, now, Kyaru! Connect your heart to {playername}'s... Change Princess Form!
 う～っ！！！\nこうなりゃヤケよもうっ！=Uu~!!! If this is how it's going to be, I'm done for!
 わくわく★=Exciting★
 チェンジ・プリンセスフォーーームーーーっ！=Change Princess for Moooooooom!
@@ -740,13 +740,13 @@ r:"^さぁ、今ですキャルちゃん！\n(.{2,10})くんと心を繋いで�
 女子の秘密、ってやつですので★=It's a girl's secret. ★
 わああっ！=Waaaah!
 ……うーん？\nペコリーヌさん、まだ変身が解除されないんですね？\nそろそろ時間切れかな～って思ったんですけど……=...Hmm? You haven't been able to dispel your transformation yet, have you, Pecorine? I thought it was about time you ran out of time...
-r:"^これってもしかして、\n(.{2,10})くんが赤ちゃんじゃなくなったから？\nそれとも……$"="Is this because $1 isn't a baby anymore? Or..."
+これってもしかして、\n{playername}くんが赤ちゃんじゃなくなったから？\nそれとも……=Is this because {playername} isn't a baby anymore? Or...
 ……ううん……時間切れどころか、\nむしろまだまだ戦えそうな気がしています。=...No... Rather than running out of time, I feel like I can still fight.
 えっ？\nそういえば、確かにそうですね……！？=Huh? Come to think of it, you're right...!
 ちょっとぉ！\nボサッとしてんじゃないわよバカ！=Hey! Don't just stand there, idiot!
 あっ……ごめんなさいっ！=Ah... I'm sorry!
 とにかくっ！\nミソラちゃんを止めないことには始まらないですし、\n動けるうちにやるだけやってみるしかありませんね！=Anyway! It won't start until we stop Misora, so we'll have to do what we can while we can!
-r:"^キャルちゃん、それに(.{2,10})くんも！\n援護をお願いします！$"="Kyaru, and $1, too! Please cover me!"
+キャルちゃん、それに{playername}くんも！\n援護をお願いします！=Kyaru, and {playername}, too! Please cover me!
 い、いいけどっ、\nあんたいったいどうする気よ！？\n何か作戦はあるんでしょうね！？=S-Sure, but what are you going to do?! You have a plan, don't you?!
 はい☆\nここはやっぱり、\n一番わたし向きの作戦で行こうかなって！=Yes☆ I figured this would be the best strategy for me!
 それって……！？=Is that...!?
@@ -791,7 +791,7 @@ r:"^キャルちゃん、それに(.{2,10})くんも！\n援護をお願いし�
 か、帰れ帰れ！\n二度と来るんじゃないわよ～っ！=Go home, go home! Don't ever come back!
 ……あの人。\n本気じゃなかったみたいですね……=...It seems she wasn't serious...
 ふぅっ……=Phew...
-r:"^……ちょっと、(.{2,10})。\nそれにペコリーヌも。\n言っとくけど、あいつは敵なのよ。$"="...Hey, $1. And Pecorine, too. Just so you know, she's an enemy."
+……ちょっと、{playername}。\nそれにペコリーヌも。\n言っとくけど、あいつは敵なのよ。=...Hey, {playername}. And Pecorine, too. Just so you know, she's an enemy.
 クラスメートだったのは、ただの演技。\n嘘っぱちだったんだから……\n余計な肩入れとか、すんじゃないわよ？=Our classmate was just an act. She was lying... Don't try to support her, okay?
 ……はい。\nどんな事情があったとしても……\nみんなを傷つけるなら、戦うしか……ないですよね。=...Yes. No matter what the circumstances are... If I want to hurt everyone, I have to... fight.
 って……こんなセリフ……\n元敵で、裏切者で、誰よりも肩入れしてもらってるあたしが……\n言えたもんじゃないけどさ……=Wait... This line... I'm an ex-enemy, a traitor, and someone who supports me more than anyone else... I can't really say that, but...
@@ -907,7 +907,7 @@ r:"^……ちょっと、(.{2,10})。\nそれにペコリーヌも。\n言っと
 ……あ……\nそういえば、シェフィさまは？=...Ah... By the way, where's Sheffy?
 あっ……えっと、シェフィちゃんは\nなんだか忘れ物あるらしくて。学院に引き返しちゃいました。\nすぐ戻るって言ってましたよ。=Oh... Um, Sheffy seems to have forgotten something. She went back to the academy. She said she'd be back soon.
 そうですか……\nお一人にしてしまって、大丈夫でしょうか……？=I see... Will it be okay to leave her alone...?
-r:"^まぁ……平気でしょ。\n今のあいつって、ペコリーヌや(.{2,10})より\nしっかりしてると思うし。$"="Well... I'm sure she'll be fine. I think she's more reliable than Pecorine or $1 to be honest."
+まぁ……平気でしょ。\n今のあいつって、ペコリーヌや{playername}より\nしっかりしてると思うし。=Well... I'm sure she'll be fine. I think she's more reliable than Pecorine or {playername} to be honest.
 ……たしかに、赤子同然だったときよりも\n振る舞いや言葉遣いは、\nしっかりなさっているとは思うのですが……その……=...It's true that she behaves and speaks better than when she was like a baby, but... um...
 その……？=Um...?
 シェフィさま……時折、どこか塞ぎ込んでいるご様子でもありました。\n記憶が戻らないのですから、当然かもしれませんが。\n……それに……=Miss Sheffy... From time to time, she seemed to be hiding something. I suppose it's only natural, since she can't remember. ...And...
@@ -959,7 +959,7 @@ r:"^まぁ……平気でしょ。\n今のあいつって、ペコリーヌや(.
 ……そ、そういえば……\nカリンさまへの申請や報告など、できておりませんでしたね。\nわたくし、うっかりしておりました……=...S-Speaking of which... Well, I haven't been able to apply for or report to Karin-sama. I was inattentive...
 ま、ちょっと前までは\n自分でサインするのも無理だったもんね。=Well, until a little while ago, You couldn't even sign it yourself.
 えっと、えっと……！\nそれじゃ……！=Um, umm...! Well then...!
-r:"^もちろんです、シェフィちゃん☆\nギルド【美食殿】は、あなたを歓迎しますよ♪\nね、(.{2,10})くん！$"="Of course, Sheffy☆ Gourmet Guild welcomes you with open arms♪ Right, $1?!"
+もちろんです、シェフィちゃん☆\nギルド【美食殿】は、あなたを歓迎しますよ♪\nね、{playername}くん！=Of course, Sheffy☆ Gourmet Guild welcomes you with open arms♪ Right, {playername}?!
 これからもよろしくね、シェフィちゃん。=I'm looking forward to working with you from now on, Sheffy.
 ……！\nお……お……=...! Oh... Oh...
 ふふっ……それではさっそく、\nシェフィさまの歓迎会と参りましょうか。=Heehee... Well then, shall we begin the welcome party for Miss Sheffy?
@@ -998,7 +998,7 @@ r:"^もちろんです、シェフィちゃん☆\nギルド【美食殿】は�
 そうですね。わたくしもおいしそうに食べる主さまにつられて、\nたくさん食べてしまいました……\nこれほど実り豊かな森は、とても希少です。=That's right. I've eaten a lot of them, too, following my Lord's example... It's very rare to find such a fruitful forest.
 エルピス島の開拓民も、よく食料調達しにくるって話だものね。\nだからこそ、この森を占拠してしまった魔物を\n撃退しなくちゃいけないんだけど……=I've heard that the settlers of Elpis Island often come here to get food, too. That's why we have to fight off the monsters that occupied this forest, but...
 ふあぁ～あ……=*yawn*...
-r:"^今は少し、休んだほうがよさそうね……\n……あら？　(.{2,10})、どうしたの？\n突然、地面に座り込んで……眠くなっちゃったのかしら？$"="I think we should rest for now... Oh? What's wrong, $1? Did you suddenly sit on the ground...and get sleepy?"
+今は少し、休んだほうがよさそうね……\n……あら？　{playername}、どうしたの？\n突然、地面に座り込んで……眠くなっちゃったのかしら？=I think we should rest for now... Oh? What's wrong, {playername}? Did you suddenly sit on the ground...and get sleepy?
 そのようですね。それに、ここは……\nちょうど木漏れ日が差し込んでいるのですね。\n主さまのお隣、ぽかぽかして心地よいです……=It seems so. And here... the sunlight is shining through the trees. It's warm and comfortable next to you, my Lord...
 本当ですか？　わたしも入れてくださいっ。\nむぎゅ～……☆=Really? Please let me in too. Mugyu~......☆
 へえ……たしかに、ひなたぼっこにはちょうどいいわね……\nうにゃぁ～ん……♪=Wow... It really is perfect for sunbathing... Unyaaaan...♪
@@ -1016,7 +1016,7 @@ r:"^今は少し、休んだほうがよさそうね……\n……あら？　(.
 む？　主さま……\n草木をかきわけてどちらへ？　なにかあるのですか？=Hm? My Lord... Where are you going through the vegetation? Is there something there?
 あ……！　このあたり、草が敷き詰めてあるわよ！\nそれに日当たりも風通しも最高……！\nけ、毛づくろいしたくなっちゃうじゃないっ……=Ah...! There's grass all over the place! And the sun and the air are the best...! I-It makes me want to groom myself...
 わぁ、果物も蓄えてあります！\nさっきの魔物、ここでゴロゴロしてたんですね～=Wow, I've got some fruit in stock! So that monster was lazing around here, huh?
-r:"^つまり、魔物の巣ってわけね。\n……今はすっかり、(.{2,10})が\nゴロゴロしちゃってるけど。$"="In other words, it's a nest of monsters. ...$1's totally lazing around right now, though."
+つまり、魔物の巣ってわけね。\n……今はすっかり、{playername}が\nゴロゴロしちゃってるけど。=In other words, it's a nest of monsters. ...{playername}'s totally lazing around right now, though.
 主さまはここが気に入ったようですね。\nならば主さまの安眠のため……\nしばしの間、わたくしたちがこの森を貸し切りに……♪=It seems my Lord has taken a liking to this place. In that case, for the sake of my Lord's peaceful sleep... For a while, we will reserve this forest for ourselves...♪
 そ、そんなのダメよ。\nはやくギルド管理協会に報告しましょう？=Y-You can't do that. Let's report this to the guild management association right away, okay?
 うーん……少しくらいなら、いいんじゃないですか？\nギルド管理協会も急ぎの依頼って感じじゃなさそうでしたし、\n今は魔物もいませんし。=Hmm... If it's just a little, why not? The Guild Management Association didn't seem like it was an urgent request, and there were no monsters around right now.
@@ -1042,7 +1042,7 @@ r:"^つまり、魔物の巣ってわけね。\n……今はすっかり、(.{2,
 で、今はその対になるほうを\n【トゥインクルウィッシュ】が持ってってるから……\nあいつらからの連絡でしょ。=And right now, the Twinkle Wish have a pair of them, so... It's a call from them, right?
 それでは、『ソルオーブ』が見つかったのでしょうか。=So, did you find the Sol Orb?
 ……ねぇ、応答しなくていいの？\nキャル。=...Hey, don't you have to answer? Kyaru.
-r:"^あ、あたしはパス。\nほら(.{2,10})、出なさいよっ。$"="I-I'll pass. Come on, $1, get out."
+あ、あたしはパス。\nほら{playername}、出なさいよっ。=I-I'll pass. Come on, {playername}, get out.
 ごゆっくり、主さま。=Take your time, my Lord.
 わたしたちは、シェフィちゃん歓迎パーティーの用意を続けてますので♪=We're still preparing for the welcoming party for Sheffy! ♪
 ―数日前―=- A few days ago...
@@ -1066,7 +1066,7 @@ r:"^あ、あたしはパス。\nほら(.{2,10})、出なさいよっ。$"="I-I'
 ……わからない。\nでも……『別の世界』とやらと、\n深くかかわっている気がしてならないんだ……=...I don't know. But... I can't shake the feeling that I'm deeply involved with this other world...
 …………？\nえーっと……=...? Let's see...
 ……うー……でも、レイさん……\nユイちゃんに、隠し事するなんて……=...Ugh... But Rei-san... Hiding something from Yui-chan...
-r:"^ああ……だから、(.{2,10})とも相談して、\n約束しただろう？　黙っておくのは、『現実』というものが\n本当に存在するという証拠を掴めるまで……って。$"="Yeah... That's why I talked to $1 about it and promised, didn't I? I said I'd keep quiet until I found proof that “reality” really existed..."
+ああ……だから、{playername}とも相談して、\n約束しただろう？　黙っておくのは、『現実』というものが\n本当に存在するという証拠を掴めるまで……って。=Yeah... That's why I talked to {playername} about it and promised, didn't I? I said I'd keep quiet until I found proof that “reality” really existed...
 うん……そうだったね。\n『別の世界』……『現実』なんてものが本当にあるのかどうか、\nあたしもレイさんも、騎士くんも……まだ実感、ないもんね……=Yeah... That's right. It still doesn't feel real to me, Rei-san, and the knights...whether there really is a “other world” or not...
 ね、ねぇ……二人とも、どうしたの？\nなんだか最近、様子がおかしいような……=H-Hey... What's wrong with you two? You've been acting strange lately...
 ……ご、ごめんね。\n準備ができたら、ちゃんとお話しするから……=...I-I'm sorry. I'll tell you when I'm ready...
@@ -1075,7 +1075,7 @@ r:"^ああ……だから、(.{2,10})とも相談して、\n約束しただろ�
 とにかく今は、少しでも早く……ソルオーブを集めなくっちゃね。=Anyway, we need to gather Sol Orbs as soon as possible.
 でも……あと６個かぁ。\n時間がかかりそうだね。=But... six more, huh? Looks like it'll take a while.
 ああ。\nこの先で接触する『彼女』に……\nすんなりと、協力してもらえるといいんだが。=Yeah. Hopefully, she'll be able to help us out...
-r:"^──そして、翌日。\n(.{2,10})たちが\nルーセント学院で最後のHRをしていた、ちょうどその頃──$"="The next day, right around the time that $1 and the others were having their last homeroom at Lucent Academy"
+──そして、翌日。\n{playername}たちが\nルーセント学院で最後のHRをしていた、ちょうどその頃──=The next day, right around the time that {playername} and the others were having their last homeroom at Lucent Academy
 ……\n……んん？=............hmm?
 おや？\nおやおやおや？=Oh? Oh my, oh my?
 誰かが待ち伏せしている、と思ったら……\nオマエたちは、たしか【トゥインクルウィッシュ】だったか？\n陛下との戦いのとき以来だな。=I thought someone was lying in wait, but... You guys are Twinkle Wish, aren't you? I haven't seen you since the battle with His Majesty.
@@ -1099,7 +1099,7 @@ r:"^──そして、翌日。\n(.{2,10})たちが\nルーセント学院で最
 そんなわけでだ。\n陛下のいなくなったこの世界に、ワタシを愉しませるものが\nなにかひとつでもないかと思って、旅なんぞしてみたが……=That's how it is. I thought there wasn't anything I could enjoy in this world without Her Majesty, so I went on a journey, but...
 いまのところ、まるでダメだな。\n……あの方のように圧倒的で、傲慢で、いびつで、孤独な人間は……\n世界の果てまで探しても、きっと見つからないのだろうよ。=So far, it's almost as if I can't. ...An overwhelming, arrogant, lonely person like him... Even if I search all the way to the end of the world, I'm sure I won't find him.
 じゃあ……クリスティーナさんは、\n覇瞳皇帝さんを助け出そうとか、考えたりはしないんですか？=So... don't you think about rescuing the Kaiser Insight?
-r:"^……陛下は、ペコリーヌたちに敗れた。\nワタシではなく。\nペコリーヌと、(.{2,10})と、仲間であるオマエたちにな。$"="...Her Majesty was defeated by Pecorine and the others. Not me. Pecorine, $1, and your friends."
+……陛下は、ペコリーヌたちに敗れた。\nワタシではなく。\nペコリーヌと、{playername}と、仲間であるオマエたちにな。=...Her Majesty was defeated by Pecorine and the others. Not me. Pecorine, {playername}, and your friends.
 そして、敗者は勝者に従うものだ。\nそれが世界の絶対法則だ。=And the loser obeys the winner. That's the absolute law of the world.
 ワタシは、その法則を捻じ曲げたくはないんだよ。\n『誓約』しているわけではないがな。=I don't want to bend that law. It's not like I'm making an oath, though.
 ああ、もちろん。陛下の命を、ペコリーヌが奪おうというなら……\nそのときは、また話が変わってくるが。\nあの甘っちょろい小娘に、処刑などできはしないだろうさ。=Yes, of course. If Pecorine wants to take Her Majesty's life...then we'll have to change the subject again. That naive little girl won't be able to execute her.
@@ -1145,7 +1145,7 @@ r:"^……陛下は、ペコリーヌたちに敗れた。\nワタシではな�
 ナイスパス、ヒヨリ。=Nice pass, hiyori.
 さて、クリスティーナ。\nいまキャッチしたあなたのコイン……裏か、表か？=Now then, Christina. The coin you just caught... Is it two sides of the same coin?
 裏だ。=Behind the scenes.
-r:"^まるで過去に、(.{2,10})率いるオマエたちと\n戦ったことがあるみたいじゃないか。\n……退屈しすぎて、ワタシも焼きが回ったか？$"="It's like I've fought you guys in the past, led by $1. ...Did I get too bored to cook?"
+まるで過去に、{playername}率いるオマエたちと\n戦ったことがあるみたいじゃないか。\n……退屈しすぎて、ワタシも焼きが回ったか？=It's like I've fought you guys in the past, led by {playername}. ...Did I get too bored to cook?
 え、えーっと……\nクリスさんと戦ったのって、\nこれが初めてなはずだよね……？=U-Umm... This should be the first time I've fought Chris, right...?
 「ふーむ……？」\n「うーん……？」="Hmm...?」「Hmm?"
 やあああああ！！　とりゃっ！=Yaaaaah!! Toryah!
@@ -1168,7 +1168,7 @@ r:"^まるで過去に、(.{2,10})率いるオマエたちと\n戦ったこと�
 でも……いつかわたし、ちゃんと覇瞳皇帝さんとお話してみたいんだ。\nどうしてわたしを「クサノユイ」って呼んだのか、気になるし。\n……この前は、戦うことしかできなかったから……=But... someday, I want to talk to the Kaiser Insight. I'm curious why she called me 'Kusano yui'. ...But at the same time, all I could do was fight...
 説得材料……クリスティーナさんのお目当ての、覇瞳皇帝さんは……\nもちろん悪いひとで、強いひとだから。\n本当に釈放しちゃうわけにはいかないと思うけど……=Persuasive material... The Kaiser Insight that Christina is looking for... is, of course, a bad person and a strong person. I really can't let her go, but...
 ……っていう感じで……\n大変だったんだ、クリスティーナさんの説得。\nううん、まだ大変な最中かなぁ。=...That's how it felt... It was really hard to convince Christina-san. No, I think she's still in the middle of it.
-r:"^(.{2,10})は、\n通信魔法のネックレスを介してユイからここ数日の顛末を聞いていた。$"="$1 had heard the details of the past few days from Yui through the communication magic necklace"
+{playername}は、\n通信魔法のネックレスを介してユイからここ数日の顛末を聞いていた。={playername} had heard the details of the past few days from Yui through the communication magic necklace
 ……そうだね。=...You're right.
 あっ、クリスティーナさんのことだったよね。\nわたしたちのソルオーブ集めには、\nなんとか協力してもらえそうかなって。=Oh, you're talking about Christina, right? I was wondering if she'd be able to help us gather Sol Orbs.
 本当の目的は、協力してもらうこと自体じゃなくて、\nクリスティーナさんを、ランドソルから遠ざけておくことだけど……=My real goal isn't to get her to help me, but to keep Christina-san away from The Landosol, but...

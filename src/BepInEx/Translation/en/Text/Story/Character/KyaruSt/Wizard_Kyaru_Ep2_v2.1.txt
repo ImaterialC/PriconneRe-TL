@@ -1,7 +1,7 @@
 見てはならない名前…=The Name That Must Not Be Seen...
 事務員=Office Staff
 学園で流行る『消しゴムに好きな人の名前を書くおまじない』に呆れるキャルだが、自分の消しゴムが無くなり大慌て。不良生徒に消しゴムの名前を見られそうになり、キャルは電撃魔法を浴びせたのだった。=Kyaru is dismayed that a charm, where you write the name of the person you love on an eraser, became popular at the academy, however, she goes into a frenzy when her eraser goes missing. When a delinquent student is about to see her bare eraser, Kyaru strikes him with lightning magic.
-r:"^ある日の放課後、\nキャルと(.{2,10})が帰り支度をしていると、\nクラスメイトの女子の声が聞こえてきた。$"="One day after school, Kyaru and $1 are preparing to go home when they overhear a female classmate."
+ある日の放課後、\nキャルと{playername}が帰り支度をしていると、\nクラスメイトの女子の声が聞こえてきた。=One day after school, Kyaru and {playername} are preparing to go home when they overhear a female classmate.
 コックリエンヌさん、コックリエンヌさん。\n大好きなサカモト先生に恋人はいますか……？= Cochrienne, Cochrienne.\nDoes my beloved Mr. Sakomoto, have a girlfriend...?
 きゃっ！　コインが勝手に！\nあんた魔法使ってないわよね！？=*gasp* The coin moved on its own!\nYou didn’t use magic, did you? 
 ちょっと黙って！　…イエス？　ノー？\n…………ノーだ♪\nサカモト先生、恋人いないって！= Be quiet! ... Yes? No..?\n... It’s noo!! ♪\nHe doesn’t have a girlfriend!
@@ -78,7 +78,7 @@ r:"^ある日の放課後、\nキャルと(.{2,10})が帰り支度をしてい�
 途中で見られちゃダメなのに……\nそれをよりにもよってこいつに……=Even though it can’t be seen partway...\nAnd out of everyone it was him...
 ……もうごまかし効かないわよね。\nいくら鈍いあんたでもさすがにこれは……=... Lying and pretending won’t work anymore.\nNo matter how dense you are, this definitely will...
 ……もう、いいや。=... Uuugh, no!
-r:"^……(.{2,10})。\n今まで黙ってたけど……あたし……っ！$"="...$1.\nI haven’t told you until now but... I..."
+……{playername}。\n今まで黙ってたけど……あたし……っ！=...{playername}.\nI haven’t told you until now but... I...
 サカモト先生って書いてある。=It says Mr. Sakamoto.
 な……茶化すんじゃないわよ。\n人が真剣に……=D-Don’t make fun of me!\nTake this seriously...
 サカモト先生？=Mr. Sakamoto?

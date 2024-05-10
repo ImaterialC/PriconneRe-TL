@@ -1,4 +1,4 @@
-r:"^(.{2,10})は、木登りに失敗して落ちたアカリの下敷きになる。風に飛ばされた自分の洗濯物を探していたアカリは、下着を拾っていた(.{2,10})に恥じらいを見せず陽気にからかう。$"="$1 became pinned under Akari after a failed attempt at climbing a tree. Akari, who was searching for her laundry that had been blown away by the wind, playfully teased $1, who was picking up her underwear, without any embarrassment."
+{playername}は、木登りに失敗して落ちたアカリの下敷きになる。風に飛ばされた自分の洗濯物を探していたアカリは、下着を拾っていた{playername}に恥じらいを見せず陽気にからかう。={playername} became pinned under Akari after a failed attempt at climbing a tree. Akari, who was searching for her laundry that had been blown away by the wind, playfully teased {playername}, who was picking up her underwear, without any embarrassment.
 あぅ……もうダメっ！\nこんなに太いのが……ミシミシって……=Aaahhh... It's too much!\nIt's so big and thick... but it's trembling like crazy...!
 ん、んんっ！\nそれ以上は、ダメぇ……落ちる……\nアカリ、落ちちゃうよぉ！=Mm... Ahhh...!\nAny more and... Noooo...! I can't...\nCan't hold on... anymoooore...!
 え、え？　待って待って～！\n枝が折れ……\nきゃっ、きゃああああ！=H-huh? Wait wait wait...!\nThis branch is gonna-\nA-aaaaahhhh!
@@ -20,7 +20,7 @@ r:"^(.{2,10})は、木登りに失敗して落ちたアカリの下敷きにな�
 ……うん、やっぱりどこも痛めてません。\nお兄ちゃんのおかげです。\n本当にありがとうございました。=...There! I really don't seem to be hurt at all...\nAll thanks to you, Onii-chan!\nThank you again for doing that!
 お兄ちゃんは大丈夫ですか？\nケガは……ないみたいですね。よかったです。=How about you? Are you OK?\nLooks like... you're not scratched or anything. Well, that's good!
 私、アカリって言います。\nお兄ちゃんの名前も聞いていいですか？=You can call me Akari!\nIs it okay if I ask your name, too?
-r:"^(.{2,10})……\nじゃあ(.{2,10})お兄ちゃんですね！$"="$1...?\nThen, may I call you $1 onii-chan?"
+{playername}……\nじゃあ{playername}お兄ちゃんですね！={playername}...?\nThen, may I call you {playername} onii-chan?
 なんで木に登っていたのか、ですか？\n実は洗濯物が風に飛ばされちゃって……\nあの木に引っかかったように見えたんですけど……=Why was I up that tree in the first place, you ask?\nActually, my laundry got blown away by the wind...\nI thought I saw it get caught on those branches, but...
 え？　どうかしたんですか？\n……さっき、拾ったものがある？=Huh? Actually that reminds you?\nYou found something lying around?
 あ～！　それです！\nありがとう、お兄ちゃん！=Ohhh! You actually found it!\nYou really are my savior!
@@ -31,4 +31,4 @@ r:"^(.{2,10})……\nじゃあ(.{2,10})お兄ちゃんですね！$"="$1...?\nTh
 もしかして……イケナイ想像しちゃいました？\nもうっ！　お兄ちゃんのエッチ！=You didn't have any... naughty thoughts just now, did you?\nOoh! You really are a pervert.
 うふふ、そんなに慌てなくていいですよ。\n赤くなったお兄ちゃんも、かわいいですね。=Tee hee hee! You don't need to get so flustered!\nBut when you go all red like that, you're even cuter!
 洗濯物も見つかったから、そろそろ帰らなきゃ……\nまた会いましょうね、お兄ちゃん！=Well, now that I've found my missing laundry, I guess I should head back!\nSee you some other time, Onii-chan!
-r:"^年下の女の子にからかわれる(.{2,10})であった。$"="$1 was simply no match for this young minx's teasing."
+年下の女の子にからかわれる{playername}であった。={playername} was simply no match for this young minx's teasing.

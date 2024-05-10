@@ -82,7 +82,7 @@
 しかしクロエ君は事実、接客業も飲食業も慣れている。\n我々の中でもっとも適任だと思うのだが。=But Chloe-kun is actually experienced in customer service and the food industry. I think she's the most suitable among us.
 それはまあ、そーなんだろうけど……\nいや、てか、ぶっちゃけ働くの自体はべつにいんだけどー=Well, I guess that's true, but... well, actually, working is not the issue, but...
 いんだけど、じゃなくて、何なんこの服。\nフリルとかパフスリーブとか、うちのキャラじゃないじゃん。\n恥っず……あーも、やっぱ無理だわ、着替えてくる。=Not "but," it's just that, what's with these clothes? Frills and puff sleeves, they're not my style at all. It's embarrassing... Oh well, I can't do this, I'll go change.
-r:"^ええ～ッ！？\nなんでなんで！　こういうクロエ先輩も全然アリですって！\nね、ほら、(.{2,10})先輩もそう思うでしょ！？$"="Whaaat?! Why, why?! This kind of Chloe-senpai is totally fine too! See, look, $1-senpai also thinks so, right?"
+ええ～ッ！？\nなんでなんで！　こういうクロエ先輩も全然アリですって！\nね、ほら、{playername}先輩もそう思うでしょ！？=Whaaat?! Why, why?! This kind of Chloe-senpai is totally fine too! See, look, {playername}-senpai also thinks so, right?
 似合ってる。=It suits you.
 ないわ。\n殺し屋の目ぇした女にこんなんハマるわけないし、嘘じゃん。=Not a chance. There's no way someone like me, with killer eyes, would look good in something like this. It's a lie.
 え、でもこの先輩、\n嘘とかお世辞とか気の利いたこと言えるようなタマじゃないですよ。=But this senpai can't really tell lies or flatter people with clever words.

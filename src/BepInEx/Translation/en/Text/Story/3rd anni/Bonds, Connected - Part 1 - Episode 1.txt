@@ -1,6 +1,6 @@
 揺れる日常=The Wavering Daily Life
-r:"^朝から体調不良だというキャルを心配するコッコロ。食料を買うため(.{2,10})と街へ出たコッコロは、そこで慣れ親しんだ街の人々から、初めて会ったかのような反応をされてしまうのであった。$"="Kokkoro, who is worried about Kyaru feeling unwell since morning, went out to town with $1 to buy groceries. There, Kokkoro received reactions from the familiar people in town as if they were meeting her for the first time."
-r:"^魔物討伐を終え、ランドソルへと帰ってきた【美食殿】。\n(.{2,10})たちは再び、いつも通りの朝を迎える。$"="After having finished defeating the monsters, the "Gourmet Guild" has returned to Landosol. $1 and the others once again have another typical morning."
+朝から体調不良だというキャルを心配するコッコロ。食料を買うため{playername}と街へ出たコッコロは、そこで慣れ親しんだ街の人々から、初めて会ったかのような反応をされてしまうのであった。=Kokkoro, who is worried about Kyaru feeling unwell since morning, went out to town with {playername} to buy groceries. There, Kokkoro received reactions from the familiar people in town as if they were meeting her for the first time.
+魔物討伐を終え、ランドソルへと帰ってきた【美食殿】。\n{playername}たちは再び、いつも通りの朝を迎える。=After having finished defeating the monsters, the "Gourmet Guild" has returned to Landosol. {playername} and the others once again have another typical morning.
 ふぁ……=*yawn*...
 おや、いつもより日が高い……\n少々寝過ごしてしまいましたか。=Oh, it's later than usual...\nIt seems I've overslept a bit.
 昨日は魔物討伐で張り切り過ぎて、\n疲れが溜まってしまったのでしょうか……=Perhaps I went overboard with defeating those monsters yesterday, and I've built up a bit of fatigue...?
@@ -11,9 +11,9 @@ r:"^魔物討伐を終え、ランドソルへと帰ってきた【美食殿】�
 かわいい寝顔だった。=Your face is cute when you sleep.
 そ、そういう時は眺めるのではなく、\n起こしていただけると、その……ありがたいです……=I-I'd appreciate it if you woke me up,\ninstead of just looking at me...
 寝顔を見ていたのですか……？\nは、恥ずかしいです……！=You were watching me sleep...?\nH-How embarrassing...!
-r:"^コッコロちゃーん！　キャルちゃーん！\n(.{2,10})くーん！\n朝ごはんできましたよー！$"="Kokkoro! Kyaru! $1!\nBreakfast is ready!"
+コッコロちゃーん！　キャルちゃーん！\n{playername}くーん！\n朝ごはんできましたよー！=Kokkoro! Kyaru! {playername}!\nBreakfast is ready!
 ペコリーヌさまはいつも早起きですね。\nでは主さま。参りましょうか。=Up early as usual I see, Miss Pecorine.\nNow then, my Lord. Shall we go?
-r:"^あ、おはようございます♪\nコッコロちゃん、(.{2,10})くん。\n今日のごはんは、昨日の珍味の残りを炒めてみました☆$"="Ah, good morning ♪ Kokkoro, $1.\nFor breakfast,\nI tried frying the leftovers of the delicacy from yesterday☆"
+あ、おはようございます♪\nコッコロちゃん、{playername}くん。\n今日のごはんは、昨日の珍味の残りを炒めてみました☆=Ah, good morning ♪ Kokkoro, {playername}.\nFor breakfast,\nI tried frying the leftovers of the delicacy from yesterday☆
 それは楽しみでございますね。\nペコリーヌさま、朝食の準備を全てお任せしてしまい申し訳ありません。=I look forward to eating it.\nMiss Pecorine, I apologize for leaving all of the preparations for breakfast to you.
 そんなこと気にしないでくださいコッコロちゃん。\nみんなでごはんを食べるのは、わたしの生き甲斐みたいなものですから☆=Don't worry about something like that, Kokkoro.\nBeing able to eat with everyone is basically what I live for ☆
 あれ？　キャルちゃんはまだですか？\nもしかしてまだ寝てるんですかね……？=Huh?\nIs Kyaru still not here?\nMaybe she's still sleeping...?
@@ -110,7 +110,7 @@ r:"^あ、おはようございます♪\nコッコロちゃん、(.{2,10})く�
 あ、お帰りなさい、コッコロちゃん♪\nちょっとおかゆの味見してみてもらえますか？\nこれならキャルちゃんも元気が出ると思うんですけど～=Ah, welcome back, Kokkoro ♪\nCan you try tasting the porridge?\nI think this'll bring Kyaru right back on her feet~
 わわっ！？\nどうしたんですかコッコロちゃん、急に抱きついてきたりして？\nお料理中は危ないですよ～？　まぁ、わたしも抱きついちゃいますけど♪=Wah wah!? What's wrong, hugging me all of a sudden, Kokkoro? This is dangerous while I'm cooking, you know?\nWell, of course I'm going to return the hug though ♪
 よかった……本当に……\nわたくし、怖くて……=Thank goodness...\nI was, so afraid...
-r:"^……何があったのかは分かりませんけど、大丈夫ですよ。\nわたしがついています。キャルちゃんも、(.{2,10})くんも、\nコッコロちゃんには心強い仲間がたくさんいます。$"="...I'm not sure what happened, but it'll be fine.\nI'm here with you. Kyaru and $1 too.\nYou've got plenty of reassuring allies with you."
+……何があったのかは分かりませんけど、大丈夫ですよ。\nわたしがついています。キャルちゃんも、{playername}くんも、\nコッコロちゃんには心強い仲間がたくさんいます。=...I'm not sure what happened, but it'll be fine.\nI'm here with you. Kyaru and {playername} too.\nYou've got plenty of reassuring allies with you.
 だから、そんなに怖がらなくても大丈夫ですよ……☆=So, you don't have to be so afraid...☆
 はい……はい……っ！=Yes...Yes...!
 コッコロは、不安な気持ちを打ち消すように、\nペコリーヌの体を抱きしめ続けるのであった。=As if to wash away that anxiety, Kokkoro continues to cling onto Pecorine's body.\n

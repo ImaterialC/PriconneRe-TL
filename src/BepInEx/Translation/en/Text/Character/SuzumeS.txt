@@ -7,7 +7,7 @@
 ##UB##
 トロピカルバケーション=Tropical Vacation
 味方全体の物理防御力と魔法防御力を小アップさせ、さらに継続ＨＰ回復状態を付与する。=Small boost to allies' P.DEF and M.DEF. Grants HP Regen to all allies.
-r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Boosts allies' P.DEF by $1.\n►Boosts allies' M.DEF by $1.\n►Recovers HP by $1/s.
+r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Boosts allies' P.DEF by $1.\n►Boosts allies' M.DEF by $1.\n►Recovers HP by $2/s.
 
 ##S1##
 ぷちゴーレムサモン=Summon Mini-Golem

@@ -21,7 +21,7 @@
 こやつ、やはりわらわを嘗めておるのでは……！？　=Isn't he making fun of me after all?!　
 ……イリヤは、ボクと同じくらい美しいからさ。\nライバルに敬称なんて不要だって、思っただけだよ。=...You’re just as beautiful as I am. I just thought you didn’t need to honor your rival.
 ……なんと！=...What a surprise!む、今回の学びもいよいよ終演か……\n色々あったが、いざとなれば名残り惜しいものだ。=Hmm, it looks like this year's learning is finally coming to an end... There were many things, but when it comes down to it, it's a pity to part.
-r:"^ちょっと(.{2,10})先輩、聞いてくださいよ！\nセレモニーステージの後アオイちゃん見つけて声かけたら、\n久々再会の第一声が「ひっ」なんですよ！$"="Hey, listen, $1-senpai! After the ceremony stage, when I found Aoi-chan and called out to her, her first response after a long time was "eep"!"
+ちょっと{playername}先輩、聞いてくださいよ！\nセレモニーステージの後アオイちゃん見つけて声かけたら、\n久々再会の第一声が「ひっ」なんですよ！=Hey, listen, {playername}-senpai! After the ceremony stage, when I found Aoi-chan and called out to her, her first response after a long time was "eep"!
 久々再会でチエルの圧は、そりゃあの子にはしんどみでしょ。=Chieru's pressure on her when they met after so long must've been tough for her.
 とはいえ、はるばるよく来てくれたものだ。\n招待状に返信がなかったゆえ、彼女も多忙なのかと思っていたが。=But even so, she came all this way. Since she didn't reply to the invitation, I thought she might be busy.
 あーね。\nギルドの仕事カブってて、行けるかどうか微妙だったみたいよ。\nまあ、結果そっちはハツネが代わってくれたみたいだけど。=Yeah, she was caught up with guild work, and whether she could come or not was uncertain. Well, in the end, it seems Hatzune took her place.
@@ -38,4 +38,4 @@ r:"^ちょっと(.{2,10})先輩、聞いてくださいよ！\nセレモニー�
 諸君、武器を取れ！\n突撃ぃー！　ほあああぁぁぁ……！=Everyone, take up arms! Charge! Ohhh...!
 先生ー！　バナナは武器に含まれますかー！=Teacher! Is a banana considered a weapon?!
 ウケる、とりま現状維持ってカンジ？=Haha, so let's just maintain the status quo for now?
-r:"^(.{2,10})も色々あんがとね。\nま、これからもヨロタノってことで。\n知んないけどさ。$"="$1, thanks for everything. Well, let's just say, take care from now on. I don't really know, though."
+{playername}も色々あんがとね。\nま、これからもヨロタノってことで。\n知んないけどさ。={playername}, thanks for everything. Well, let's just say, take care from now on. I don't really know, though.

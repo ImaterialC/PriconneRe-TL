@@ -60,5 +60,5 @@
 学園のみんながついてる！！\nほら、みんなの声が聞こえるでしょ！？=Everyone at the academy is with us!! See, can't you hear their voices!?
 よしっ！　アルゲースっちはもう、\nうちらのシャドウ出してこれないっぽ！？\nだいぶ弱ってるってことかな！？=Alright! It seems like Arges can't summon our shadows anymore!? It's getting weaker, right!?
 ……力が湧いてくる。\nあんたらの応援の声が……あたしの力に。\n……ったく、悔しいけど染まっちゃったわ。=...Power is welling up. Your voices of encouragement are... giving me strength. Seriously, it's annoying, but I'm getting into it.
-r:"^スズナ！　それに(.{2,10})も力貸しなさい！！\nかますわよ、あたしたちの……$"="Suzuna! $1, lend me your power too! We're going to unleash our..."
+スズナ！　それに{playername}も力貸しなさい！！\nかますわよ、あたしたちの……=Suzuna! {playername}, lend me your power too! We're going to unleash our...
 青春魔法を！！=Youthful Magic!!

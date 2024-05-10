@@ -1,6 +1,6 @@
 常連客=Regular Customer
 『アクシツ商会連合』打倒のため、二人は調査を進めるも突破口が見つからない。だが二人で見た夢の中で、町中のたい焼きを食べて研究する自分を見たタマキは、『アクシツ商会連合』打倒の作戦を思いつく。=To defeat the "Croock'd & Inc.", the two of them continue their investigation, but they can't find a breakthrough. But Tamaki, who saw herself eating and researching taiyaki all over town in a dream, came up with a plan to defeat the "Croock'd & Inc."
-r:"^──『アクシツ商会連合』に戦いを挑む決意をした、\nタマキと(.{2,10})。\n調査を進めながらも、たい焼き屋で働くのであった。$"="──Tamaki and $1, who have decided to challenge the "Croock'd & Inc." to a fight. They continue their investigation while working at a taiyaki shop."
+──『アクシツ商会連合』に戦いを挑む決意をした、\nタマキと{playername}。\n調査を進めながらも、たい焼き屋で働くのであった。=──Tamaki and {playername}, who have decided to challenge the "Croock'd & Inc." to a fight. They continue their investigation while working at a taiyaki shop.
 うーん、\n今日はお客さんがあんまり来ないにゃ……=Hmm, today there aren't many customers coming in~nya...
 あ！　あそこにいつもの常連さんがいるにゃ！\nおーい！　たい焼きいかがかにゃー！=Ah! There's our regular customer over there~nya!\nHey! How about some taiyaki~nya?
 ……すまねえ、タマキちゃん。\n今はちょっと節約中でな。=...Sorry, Tamaki-chan.\nI'm on a budget right now.
@@ -10,7 +10,7 @@ r:"^──『アクシツ商会連合』に戦いを挑む決意をした、\n�
 アクシツ商会連合に所属している商会の調査は済んだにゃ。\nでも、数が多すぎるのにゃあ……=We've finished investigating the companies that belong to the Croock'd & Inc.~nya. But there are too many of them~nya...
 一つ一つ商会を懲らしめて、\n警戒を強められたら、潜り込めなくなるにゃ……=If we punish each company one by one, they'll become more alert and we won't be able to infiltrate them~nya...
 あ～もう！\nどうしたらいいのにゃ～～！！=Ahh, what should we do~nya~~!!
-r:"^あ、なんか光が見えるにゃ……\n頭を使いすぎて、いよいよ幻覚が……って、(.{2,10})！！\nなんか体が光って……にゃああああああっ！？$"=Oh, I see some light~nya... I've been using my brain too much and I'm starting to hallucinate... Wait, $1!! Something's glowing on your body...~nyaaaaaaaah!?
+あ、なんか光が見えるにゃ……\n頭を使いすぎて、いよいよ幻覚が……って、{playername}！！\nなんか体が光って……にゃああああああっ！？=Oh, I see some light~nya... I've been using my brain too much and I'm starting to hallucinate... Wait, {playername}!! Something's glowing on your body...~nyaaaaaaaah!?
 生地の艶……甘い香り……きれいな形……まさにお宝にゃ。\nこんなたい焼きを作るなんて、さすがは超有名店。\nうちの店じゃ、歯が立ちそうにないにゃ……=The gloss of the dough... The sweet smell...\nThe beautiful shape... It's a treasure~nya.\nTo make such taiyaki, you have to be a super famous shop. Our shop can't compete with them~nya...
 でも、大きなミスをしてしまったようだにゃ。\nなんの警戒もせず、このあたしにたい焼きを売るにゃんて……=But they made a big mistake~nya.\nThey sold taiyaki to me without any caution~nya...
 後で驚くがいいにゃ！　町中のたい焼き屋の味を盗む、\n『味の秘密までおいしくいただくにゃ作戦』で、\n自分の味が盗まれてるということに！=They'll be surprised later~nya! With my "Operation Deliciously Steal the Secret of the Taste", they'll find out that their taste has been stolen!
@@ -18,7 +18,7 @@ r:"^あ、なんか光が見えるにゃ……\n頭を使いすぎて、いよ�
 義賊の方がよさそう。=Righteous Thief sounds better.
 怪盗の方がよさそう。=Phantom Thief would be better.
 お、本当かにゃ？\n実はちょっと、貧しい人のために戦う義賊に憧れてたのにゃ～♪=Oh, really~nya?\nActually, I've always admired Righteous thief who fight for the poor~nya♪
-r:"^はい、(.{2,10})！\nあたしが食べさせてあげるから、あ～んするにゃ～♪$"=Here you go, $1!\nI'll feed you, meow~
+はい、{playername}！\nあたしが食べさせてあげるから、あ～んするにゃ～♪=Here you go, {playername}!\nI'll feed you, meow~
 さて、ではさっそく、\n手に入れたお宝を山分けしようかにゃ～♪=Well then,\nlet's split the treasure we got~nya♪
 お、その顔はもしかして照れてるのかにゃ？\nまあ、こんなにきれいなお姉さんに\n食べさせてもらえるんだから、しかたないかもにゃ～♪=Oh, are you blushing~nya? Well, it can't be helped since you're being fed by such a beautiful Onee-san~nya♪
 お姉さん？=Onee-san?
@@ -37,12 +37,12 @@ r:"^はい、(.{2,10})！\nあたしが食べさせてあげるから、あ～�
 ん？\nなんか言いたそうだけど、どうかしたかにゃ？=Hm? You seem like you want to say something, what's the matter~nya?
 協力できてうれしい。=I'm glad I can help.
 ……………………にゃぁっ～～～～！？=...Nyaa~!!
-r:"^だ、だだ、だから(.{2,10})は！\nここぞってタイミングで、\nそういうこと言うのは反則だからやめるにゃ～！！$"=I-I told you, $1! It's unfair to say something like that at a crucial moment, so stop it~nya!!
+だ、だだ、だから{playername}は！\nここぞってタイミングで、\nそういうこと言うのは反則だからやめるにゃ～！！=I-I told you, {playername}! It's unfair to say something like that at a crucial moment, so stop it~nya!!
 ま、まあでも……\nその、あ、ありがとにゃ…………=W-Well, anyway...\nTh-Thank you~nya...
 ……あ、あのにゃ？\nこの後も他のたい焼き屋を回るんだけど、\nたい焼きを食べると喉が渇くにゃ……=...Um, speaking of which... Ah, right!\nAfter this, we'll be visiting other taiyaki shops, and eating taiyaki makes me thirsty~nya...
 だ、だから……その、\nお、おお、お茶ぐらいは出すから、\nうちでたい焼きを食べないかにゃ！？=S-So... Um, I-I'll at least serve you some tea, so why don't you eat some taiyaki at my place?!
 喉乾いたなら、お茶を買ってこようか？=If you're thirsty, shall I buy you some tea?
-r:"^…………ねえ、(.{2,10})。\nちょっとそこに正座するにゃ。$"=...Hey, $1.\nCould you kneel down right there~nya?.
+…………ねえ、{playername}。\nちょっとそこに正座するにゃ。=...Hey, {playername}.\nCould you kneel down right there~nya?.
 なんで？=Why?
 …………いいから、さっさとやれにゃ♪=...Just do it already~nya♪
 ……は、はい。=...Y-Yes.
@@ -57,7 +57,7 @@ r:"^…………ねえ、(.{2,10})。\nちょっとそこに正座するにゃ�
 あ、あれ、確かあたしは……はっ！\n火元は……ふう、\n気を失ってから全然たってないみたいにゃ～=H-Huh? If I remember correctly, I'm...\nAh! The stove...!\nPhew, it looks like it hasn't been that long since we passed out, nya~
 それにしても、客足が悪くて助かったにゃ～\nもしたい焼きを焼いてたら、焦げ焦げのガリガリにゃ。\nそんなものをお客さんに出したら……=Still, I'm glad we didn't get too many customers, nya~, because if I were baking taiyaki, it would have turned out burnt and crunchy~nya. It wouldn't be good to serve such things to customers...
 お客さんに笑ってもらえないね。=They wouldn't be able to smile, right?
-r:"^……な、なな、なんでそのことを知ってるにゃ？\nも、もしかして、\nさっきの夢を(.{2,10})も見てたのかにゃ！？$"=...H-H-how do you know about that~nya?\nD-Did you, by any chance, see the same dream as me, $1?!
+……な、なな、なんでそのことを知ってるにゃ？\nも、もしかして、\nさっきの夢を{playername}も見てたのかにゃ！？=...H-H-how do you know about that~nya?\nD-Did you, by any chance, see the same dream as me, {playername}?!
 い、今すぐ忘れるにゃ～！！\n研究のためとはいえ、町中のたい焼きを食べようとしたり、\n柄にもないこと言ってるあたしを……=I-Immediately forget it~!!\nEven though it was for research purposes, eating taiyaki all over town and saying such uncharacteristic things... I...
 え、『町中』のたい焼きを『食べる』…………？=Eating taiyaki all over town...?
 こ、これにゃ～～～～！！=T-This is it~!!
@@ -65,12 +65,12 @@ r:"^……な、なな、なんでそのことを知ってるにゃ？\nも、�
 名付けて！\n『悪い奴らはまとめて猫パンチ作戦』だにゃ～！=Let's name it! The "Bad Guys Get a Cat Punch Operation"~nya!
 すごい！=Amazing!
 こんな作戦を思い付けたのも、夢のあたしのおかげにゃ！\n夢を通してヒントをくれるなんて……\nいや～夢の中でもあたしは優秀だにゃ～♪=I could come up with such a strategy thanks to my dream self! To receive hints through dreams... Oh, even in my dreams, , I'm excellent~nya♪
-r:"^それにしても、改めて思い出すと面白い夢だったにゃ～\n町中のたい焼きを研究して、\n途中で(.{2,10})を………………$"=By the way, when I think about it again, it was an interesting dream~ Studying taiyaki all over town and in the middle of it, and $1 along the way.........
-r:"^…………ねえ(.{2,10})。\nちょっとそこに正座…………$"=...Hey, $1. Please kneel down right there...
+それにしても、改めて思い出すと面白い夢だったにゃ～\n町中のたい焼きを研究して、\n途中で{playername}を………………=By the way, when I think about it again, it was an interesting dream~ Studying taiyaki all over town and in the middle of it, and {playername} along the way.........
+…………ねえ{playername}。\nちょっとそこに正座…………=...Hey, {playername}. Please kneel down right there...
 用事を思い出した。=I remembered something important.
-r:"^──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\n(.{2,10})に、乙女の怒りをぶつけるのであった。$"=──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon $1.
+──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\n{playername}に、乙女の怒りをぶつけるのであった。=──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon {playername}.
 あ～！\nこら待つにゃ～！\nちょっと引っかかせろにゃ～！=Ah~! Wait~nya! Let me catch you~nya!
-r:"^──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\n(.{2,10})に、乙女の怒りをぶつけるのであった。$"="──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon $1."
+──迫るアクシツ商会連合との決戦。\nタマキは闘志を燃やしつつ、\n{playername}に、乙女の怒りをぶつけるのであった。=──The impending battle against the Croock'd & Inc. Tamaki burns with fighting spirit as she unleashes her maiden's anger upon {playername}.
 
 
 

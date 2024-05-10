@@ -44,7 +44,7 @@
 それは聞いたけど……同じ衣装は着なくても……=I heard all of that... But I shouldn't have to wear the same outfit...
 儀式をお手伝いする人は、\nその身を正した清い状態じゃないとだめなんだってー\n色々と厳しい決まりがあるみたいだよっ？=They said the person helping with a ceremony must be of a proper and pure state.\nIt sounds like there's bunch of strict rules with this.
 ちゃんとした理由があるのは分かったけど……！\nこの衣装、色々と……大胆で……！=I know there was a reason for this all...!\nBut this outfit is... in a lot of ways... bold...!
-r:"^仕方がないね。\nほら(.{2,10})、何か言ってあげたらどうだい？$"="What're we gonna do with you?\nHere, $1, you say something to her."
+仕方がないね。\nほら{playername}、何か言ってあげたらどうだい？=What're we gonna do with you?\nHere, {playername}, you say something to her.
 きれいだよ。=It's beautiful.
 もっとよく見てもいい？=Can I take a closer look?
 きっ！？\nあの、騎士クン……本当に、そう思う？\nそれなら……うれしいけど……=Kh?! Um, Kishi-kun... Do you really think so?\nIf so... I'd be happy...
@@ -119,7 +119,7 @@ r:"^仕方がないね。\nほら(.{2,10})、何か言ってあげたらどう�
 ごはんは毎日三食食べなきゃだめです。\nごはんをモリモリ食べないと元気が出ませんよ♪=You have to eat three times a day, if you don't eat lots, you won't feel better♪
 よく似合ってるよ。=It really suits you.
 おかゆは消化にいいですし、体もポカポカあたたまりますし、\n弱ったお腹にも優しくて、いいことずくめです！=Porridge is easy to digest, it gently warms up your body,\nand it's nice for weak stomachs!\nIt's good for just about everything!
-r:"^しかもそれ、(.{2,10})の手作りよ。$"="And $1's the one who made it."
+しかもそれ、{playername}の手作りよ。=And {playername}'s the one who made it.
 どうしても「僕が作りたい」って言うのよ。まったく、\n水加減間違えてベチョベチョにしたり、火加減間違えて焦がしたり、\n教えるの大変だったんだから。=He said he wanted to make it no matter what.\nGeez, he put too much water in so it got everywhere, he overdid the heating so it burned,\nteaching him was a huge mess.
 教えたのはわたしですよ、キャルちゃん？\nというか、焦がしたのは魔法の火加減を間違えた\nキャルちゃんですよね……？=But I was the one who taught him, Kyaru?\nAnd, you were the one who overdid it with your fire magic, Kyaru...
 主さまが……わたくしのために……=My Lord... made this for me...
@@ -142,6 +142,6 @@ r:"^しかもそれ、(.{2,10})の手作りよ。$"="And $1's the one who made i
 っ♪=♪
 真心のこもったごはんをたくさん食べて……=I'll eat this heart-filled dish...
 明日の儀式、必ず成功させてみせます……！=And show that I will succeed in tomorrow's ceremony,\nno matter what...!
-r:"^胸に希望を抱いたコッコロは、明日に向け、\n(.{2,10})の作ったおかゆを全て平らげるのであった。$"="With hope in her heart, Kokkoro faces towards tomorrow, as she eats all of the porridge $1 made."
+胸に希望を抱いたコッコロは、明日に向け、\n{playername}の作ったおかゆを全て平らげるのであった。=With hope in her heart, Kokkoro faces towards tomorrow, as she eats all of the porridge {playername} made.
 これ、食べて。=Eat this.
 ユイさま……=Miss Yui...

@@ -1,5 +1,5 @@
-r:"^(.{2,10})とアカリは二人で洞窟に入り、魔石を取りにいく。魔物に遭遇して慌てふためくアカリを抱きかかえて逃げる(.{2,10})に、アカリは安心して身を任せる。$"="$1 and Akari entered the cave together to retrieve a magical crystal. When they encountered a monster, Akari panicked, but $1 picked her up and ran. Akari trusted $1 to keep her safe."
-r:"^(.{2,10})はアカリに頼まれて、\n一緒に洞窟の探索に来ていた。$"="Today, $1 has agreed to help Akari\nexplore a remote cave."
+{playername}とアカリは二人で洞窟に入り、魔石を取りにいく。魔物に遭遇して慌てふためくアカリを抱きかかえて逃げる{playername}に、アカリは安心して身を任せる。={playername} and Akari entered the cave together to retrieve a magical crystal. When they encountered a monster, Akari panicked, but {playername} picked her up and ran. Akari trusted {playername} to keep her safe.
+{playername}はアカリに頼まれて、\n一緒に洞窟の探索に来ていた。=Today, {playername} has agreed to help Akari\nexplore a remote cave.
 お兄ちゃん、手伝ってくれてありがとうございます。\nまたギルドマスターから、お使いを頼まれちゃって……=Onii-chan, thanks so much for helping me with this!\nOur guildmaster asked us to go on one of her errands...
 だけど、お姉ちゃんはきょう大事な用事があるらしくて……\n一人だと心細かったから、\nお兄ちゃんが来てくれて、すっごくうれしいです～=But today, Onee-chan had something else important to do...\nI didn't want to come all on my own,\nso it's such a relief to have you here with me!
 お使いの内容ですか？\n洞窟の奥にある、特別な魔石を取ってくるだけですよ。=What's the errand about exactly?\nOh, we just need to fetch\na rare magical crystal from the depths of this cave.

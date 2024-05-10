@@ -1,9 +1,9 @@
 カスミ・ハツネ=Kasumi & Hatsune
 カスミ・エリコ=Kasumi & Eriko
 
-r:"^森神の「願いを叶える力」を取り戻すため、シオリ・ミツキ・エリコにも協力を仰いだ(.{2,10})たち。お正月の遊びを通じて森神に信仰を捧げたことで、ついに彼女は本来の力を取り戻す。$"="$1 asked Shiori, Mitsuki, and Eriko to help Morigami regain her 'Power to Grant Wishes'. By offering their faith through playing New Year games, Morigami regains her powers."
+森神の「願いを叶える力」を取り戻すため、シオリ・ミツキ・エリコにも協力を仰いだ{playername}たち。お正月の遊びを通じて森神に信仰を捧げたことで、ついに彼女は本来の力を取り戻す。={playername} asked Shiori, Mitsuki, and Eriko to help Morigami regain her 'Power to Grant Wishes'. By offering their faith through playing New Year games, Morigami regains her powers.
 
-r:"^森神から隕石の真実を知った(.{2,10})たち。\n隕石の落下を回避するため、残る二つの願い事を使って、\n隕石を破壊するという対策を導き出した。$"="$1 learned the truth about the meteor from Morigami. To avoid the meteor from falling to the city, they came to the conclusion of using the remaining 2 wishes to destroy the meteor."
+森神から隕石の真実を知った{playername}たち。\n隕石の落下を回避するため、残る二つの願い事を使って、\n隕石を破壊するという対策を導き出した。={playername} learned the truth about the meteor from Morigami. To avoid the meteor from falling to the city, they came to the conclusion of using the remaining 2 wishes to destroy the meteor.
 
 お願い事を使って隕石を壊すって……\n隕石を壊してくださいってお願いするってこと？=Use the wishes to destroy the meteor... You mean to wish for the meteor to be destroyed?
 それで大丈夫なら話は早いんだけど。\n今まで提案をしてこなかったってことは、\nストレートにお願いしても効果はないんだろう。違うかい？=If we could wish for that, then the discussion would be over by now. But the fact that it hasn't been suggested until now, would mean that asking for it directly wouldn't work, right?

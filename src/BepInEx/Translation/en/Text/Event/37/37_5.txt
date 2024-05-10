@@ -47,7 +47,7 @@
 会長、体操着へのお着替えを手伝わせていただきますわ！=President, allow me to assist you in changing into your gym clothes!
 そんなものは必用ありません。\n純白の制服は、穢れなき正義を司る生徒会長の証。\nこれこそが私の戦装束です。=That won't be necessary. The pure white uniform represents the unblemished justice upheld by the Student Council President. This is my battle attire.
 滅ぶべし、名前を呼んではいけない例の方々。=Must Perish, Those Whose Name Must Not Be Mentioned.
-r:"^おっそーい！\nもうっ、(.{2,10})先輩は何やってんですかね！\n早く戻ってきてくれないと総合リレー始まっちゃいますよ！$"="So slooow! Seriously, what's $1-senpai doing?! If he doesn't come back soon, the all-member relay will start!"
+おっそーい！\nもうっ、{playername}先輩は何やってんですかね！\n早く戻ってきてくれないと総合リレー始まっちゃいますよ！=So slooow! Seriously, what's {playername}-senpai doing?! If he doesn't come back soon, the all-member relay will start!
 最強の助っ人とかいうの捕まえンのに苦労してんじゃないの。\n知んないけど。=They're struggling to catch that so-called strongest reinforcement. Not that I know much about it.
 ううむ、間に合ってくれれば良いのだが……\n総合リレーは逆転が見込める最後の機会、\nその後にはもはや閉会式を残すのみだ。=Hmm, I hope he makes it in time... The all-member relay is the last chance for a comeback; after that, only the closing ceremony remains.
 ま、逆に言ったら？\nここさえ獲れば優勝確定っつー次第。=Well, on the flip side? If we win this, it's a guaranteed victory.

@@ -5,7 +5,7 @@
 
 大丈夫！=It's fine!
 
-r:"^隕石の破片対策を検討する(.{2,10})とハツネ。他の仲間たちもそれぞれの役目を果たす中、ハツネも破片への対処法を予知夢から導き出す。それは彼女自身が、破片を超能力で粉砕することだった。$"="$1 and Hatsune are discussing about how to stop the meteor fragments. While the others have their own role, Hatsune is also using her prophetic dream to figure out how to stop the meteor fragments. And she came up with using her own super ability to stop the meteor fragments."
+隕石の破片対策を検討する{playername}とハツネ。他の仲間たちもそれぞれの役目を果たす中、ハツネも破片への対処法を予知夢から導き出す。それは彼女自身が、破片を超能力で粉砕することだった。={playername} and Hatsune are discussing about how to stop the meteor fragments. While the others have their own role, Hatsune is also using her prophetic dream to figure out how to stop the meteor fragments. And she came up with using her own super ability to stop the meteor fragments.
 
 予知夢の続きで、実は隕石の被害を防げていないと知ったハツネ。\n仲間たちに状況を伝えるべく、超能力で待ち合わせ場所に\n急いで向かうのだった……=Hatsune learned that she hasn't prevented the meteor from damaging the city with the follow-up prophetic dream. To let her friends know immediately, she used her super abilitiy to quickly show up at their meeting place.
 

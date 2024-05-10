@@ -1,6 +1,6 @@
 伝説を超える輝き=Radiance that Surpasses Legend
 
-r:"^イリヤを救出したユキたちの前に、魔物と化したブラドが立ちふさがる。強敵に臆せず、自分を貫き通すユキ。そして、(.{2,10})との絆で真の力を発揮したイリヤは、最後の戦いに挑む。$"=After rescuing Illya, Brad, who had turned into a familiar, stood in front of Yuki and the others. Yuki didn't hesitate to pierce herself against a formidable enemy. And since she had unleashed her true power through her bond with $1, she challenged the final battle.
+イリヤを救出したユキたちの前に、魔物と化したブラドが立ちふさがる。強敵に臆せず、自分を貫き通すユキ。そして、{playername}との絆で真の力を発揮したイリヤは、最後の戦いに挑む。=After rescuing Illya, Brad, who had turned into a familiar, stood in front of Yuki and the others. Yuki didn't hesitate to pierce herself against a formidable enemy. And since she had unleashed her true power through her bond with {playername}, she challenged the final battle.
 
 なにがあっても僕はイリヤの味方だよ。=No matter what happens, I’ll be on Illya’s side.
 危うく──お主の敵に、なるところじゃった。=I almost became your enemy.
@@ -94,7 +94,7 @@ r:"^イリヤを救出したユキたちの前に、魔物と化したブラド�
 貴様は……わらわではない。=You're... not me.
 キ、キサマ……！\nイリヤサマニ、ナントイウコトヲ……！\nキサマ、キサマ、キサマァァァァァァァァ──！=Y-You bastard...! Illya, what are you doing...!? You bastaaaaard!
 
-r:"^儀式の最中、イリヤの救出に成功する(.{2,10})とユキ。$"=$1 and Yuki succeeded in rescuing Illya during the ceremony. 
+儀式の最中、イリヤの救出に成功する{playername}とユキ。={playername} and Yuki succeeded in rescuing Illya during the ceremony. 
 
 
 
@@ -169,7 +169,7 @@ r:"^儀式の最中、イリヤの救出に成功する(.{2,10})とユキ。$"=$
 
 
 
-r:"^(.{2,10})よ。\nいつものやつを……いいや、いつも以上にわらわの力を引き出すぞ。\n協力、してくれるか。$"=$1. The usual one... No, I'll draw out more of my power than usual. Will you help me?
+{playername}よ。\nいつものやつを……いいや、いつも以上にわらわの力を引き出すぞ。\n協力、してくれるか。={playername}. The usual one... No, I'll draw out more of my power than usual. Will you help me?
 
 
 

@@ -9,7 +9,7 @@
 うむ、聖学祭を制覇した今、もはや我々に懸案なし。\nあとはただ悠然と最終結果が発表されるのを待つのみだ。\n諸君、今宵は勝利の美ポーションに酔いしれよう。=Indeed, now that we have conquered the School Festival, we have no more concerns. We only need to wait for the final results to be announced in a leisurely manner. My fellow students, let us revel in the beauty potion of victory tonight.
 ぷぁー……\nこれが勝者の余裕ってやつかぁ……=Puah... So this is the feeling of victorious ease...
 うち今までさぁ、\n金持ち喧嘩せずとかいう概念、マジ意味わかんなかったけど、\nたぶんこういう感覚なんだろうな……なんか何でも許せる気ぃするわ。=Until now, I never really understood the concept of not fighting with rich people, but I think this is probably what it feels like... I feel like I could forgive anything.
-r:"^(.{2,10})後輩、君も今日は一日ご苦労だったな。\n申し訳程度とはいえ多少は勝利に貢献したのだ、\nもっと我々のように、超然たる勝者顔でドヤ散らかすといい。$"="$1-kouhai, you've had a busy day today too. Although it's just a little bit, you've contributed to the victory. It would be great if you could strut around like a true winner, just like us."
+{playername}後輩、君も今日は一日ご苦労だったな。\n申し訳程度とはいえ多少は勝利に貢献したのだ、\nもっと我々のように、超然たる勝者顔でドヤ散らかすといい。={playername}-kouhai, you've had a busy day today too. Although it's just a little bit, you've contributed to the victory. It would be great if you could strut around like a true winner, just like us.
 まだ聖学祭は終わってないよ。=The School Festival isn't over yet.
 や、そーだけど、あと得票が入ンのはセレモニーステージだけだし。\nあれはもう、閉会式のおまけっていうか、エキシビジョンっていうか。\nぶっちゃけ祭りのあとのチルアウトタイム的なやつだから。=Yeah, that's true, but the only votes left are for the Ceremony Stage. It's already like an extra to the closing ceremony, an exhibition kind of thing. To be honest, it's like the chill-out time after the festival.
 どういうことです？=What do you mean?
@@ -60,9 +60,9 @@ r:"^(.{2,10})後輩、君も今日は一日ご苦労だったな。\n申し訳�
 どうぞ、こちらが出演者待機所になっておりますわ。=Certainly, this is the waiting area for the performers.
 このあとステージで「きよらか」の演目が始まりますので、\nそちらが終了次第、チエルさんの出番になります。=After this, the performance by Pure team will begin on the stage, so once that's finished, it will be Chieru-san's turn.
 はぁ〜い！　かしこまでぇ〜っす！\nじゃあ時間までパフォーマンスの復習しとこーっと！\n通称カルミナごっこ──=Alright! Understood! Then I'll review the performance until the time comes! The so-called Carmina play—
-r:"^あれっ！？\nえっ、なになに？\nどうしたの(.{2,10})君、こんなところで！$"="Oh? Huh, what's going on, $1-kun? Why are you here?"
+あれっ！？\nえっ、なになに？\nどうしたの{playername}君、こんなところで！=Oh? Huh, what's going on, {playername}-kun? Why are you here?
 ──え。=...Eh.
-r:"^うん？　誰だ、あの娘は。\nまた例によって(.{2,10})君の関係者か？$"="Huh? Who's that girl? Is she one of $1-kun's associates, as usual?"
+うん？　誰だ、あの娘は。\nまた例によって{playername}君の関係者か？=Huh? Who's that girl? Is she one of {playername}-kun's associates, as usual?
 そーみたいだけど……\nいや、てゆか……嘘でしょ、アレって……=Seems like it... No, wait... Are you kidding me? Is that really...?
 ノゾミちゃんこそどうしたの？=Why, Nozomi-chan? What's wrong?
 私はお仕事だけど……\nあっ、もしかしてキミ、私のステージを観るために？\nなーんてね。これサプライズライブだからそんなわけないよね。=I'm here for work... Oh, I hope you're not here to watch my stage? Just kidding. This is a surprise live, so that can't be it, right?
@@ -137,7 +137,7 @@ r:"^うん？　誰だ、あの娘は。\nまた例によって(.{2,10})君の�
 いやパイセン、冗談にしてもソレは。\nノゾミンだって突然そんなん言われても「えー」だし。\nねえ？　困っちゃうでしょ？　断り辛いしねえ？=Well, Paisen, even if it's a joke, that's too much. Nozomin would also say "Eh?" if told something like that out of the blue, right? Right? It's difficult to refuse, isn't it?
 ごめん。それはできない。=Sorry. I can't do that.
 あ、とくに断り辛くはないんだ。ちぇー=Oh, it's not particularly difficult to refuse. Chieー
-r:"^話を聞いてキミたち──なかよし部の関係はいいなって思ったし、\n(.{2,10})君の友達なら絶対悪い人たちではないはずだし、\n私たちをいつも応援してくれるカルミナすこすこ侍ちゃんもいる。$"="After listening to your talk, you guys... Friendship Club's relationships seem nice, and if you're friends with $1, you can't be bad people, and Carmina's Incredible Samurai-chan, who always supports us, is here."
+話を聞いてキミたち──なかよし部の関係はいいなって思ったし、\n{playername}君の友達なら絶対悪い人たちではないはずだし、\n私たちをいつも応援してくれるカルミナすこすこ侍ちゃんもいる。=After listening to your talk, you guys... Friendship Club's relationships seem nice, and if you're friends with {playername}, you can't be bad people, and Carmina's Incredible Samurai-chan, who always supports us, is here.
 だから、できるかぎり力にはなりたいって思う。=That's why, I want to help as much as I can.
 でも私はアイドルだから、アイドルであることに嘘はつけない。\n経緯はどうあれオファーを受けた以上、一切の手抜きはしない。=But I'm an idol, so I can't lie about being an idol. Regardless of the circumstances, since I received the offer, I won't cut any corners.
 それが私の、アイドルとしての矜持だから。=Because that's my pride as an idol.

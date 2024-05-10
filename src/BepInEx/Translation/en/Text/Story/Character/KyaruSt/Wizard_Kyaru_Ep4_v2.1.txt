@@ -1,11 +1,11 @@
 未来へ続く日=Days That Last into the Future
-r:"^(.{2,10})に誘われ高校のオープンスクールに来た希留耶。進学など考えていなかったが、学生服を着た自分の姿に思わず見惚れる。こんなことでと思いつつ、進学に少し前向きになった希留耶だった。$"="Kiruya came to the high school open day she was invited to by $1. Kiruya was not considering going to high school, but is captivated despite herself by the sight of herself in school uniform. Because of this, despite her previous thoughts, she felt a little more positive about going to high school."
-r:"^ついに卒業式が明日に迫り、\n(.{2,10})は、キャルの荷造りの手伝いにやって来ていた。$"="At long last,\nThe graduation ceremony is coming up tomorrow,\n$1 has come to help Kyaru pack."
+{playername}に誘われ高校のオープンスクールに来た希留耶。進学など考えていなかったが、学生服を着た自分の姿に思わず見惚れる。こんなことでと思いつつ、進学に少し前向きになった希留耶だった。=Kiruya came to the high school open day she was invited to by {playername}. Kiruya was not considering going to high school, but is captivated despite herself by the sight of herself in school uniform. Because of this, despite her previous thoughts, she felt a little more positive about going to high school.
+ついに卒業式が明日に迫り、\n{playername}は、キャルの荷造りの手伝いにやって来ていた。=At long last,\nThe graduation ceremony is coming up tomorrow,\n{playername} has come to help Kyaru pack.
 ふう……荷造りはこんなもんかしら。\nありがと、助かったわ。=Phew... maybe that’s it for packing.\nThanks, you really helped me.
 あっという間に卒業か……ってかあんたさ。\n結局一つの魔法も覚えらんなかったんじゃない？=Graduation came on so quickly... You know...\nYou didn’t manage to learn even a single bit of magic\nIn the end, did you?
 って、めっちゃ光ってる！！？\nこんな魔法習った～～～！？=Huh, it’s so bright!!?\nYou actually learned this kind of magic...!?
 中学生のみなさ～ん！\n椿ヶ丘高校のオープンスクールへようこそ！\nじっくり見学して進路の参考にしてくださいね～！=Middle-schoolers!\nWelcome to Tsubakigaoka High School’s open day!\nPlease take your time visiting our school\nAnd consider it in your plans for the future!
-r:"^あれ、(.{2,10})、どうした？\nお前、オープンスクールの実行委員じゃないよな？$"="Oh, $1, what are you doing here?\nI didn’t think you were part of the open day committee."
+あれ、{playername}、どうした？\nお前、オープンスクールの実行委員じゃないよな？=Oh, {playername}, what are you doing here?\nI didn’t think you were part of the open day committee.
 え？　知り合いの中学生を誘ってる？\n……あ、もしかしてあの電柱に隠れてチラチラこっち見てる子？=Eh? You invited a middle-schooler you know?\n... Ah, it wouldn’t happen to be the girl that’s hiding behind that electrical pole, and keeps glancing over here, would it?
 ……ひっ！=... *gasp*!
 声かけてくれればいいのに。=You could have just called out to me.
@@ -14,7 +14,7 @@ r:"^あれ、(.{2,10})、どうした？\nお前、オープンスクールの�
 ほ……ほら、さっさと校内の見学に行くわよ。\nちゃんと案内してよね？=C.. Come on, let’s go look inside the school now.\nYou better show me around properly, ok?
 ……こ、ここがあんたが通ってる高校なのね。\nなんか中学校と変わらないのに……全然違うわ。=... S-so this is the high school you go to...\nIt’s kinda like middle school...\nBut also totally different...
 ……へ、緊張してるって？\nし……してないわよ。=... Huh? Am I nervous?\nI... I’m not nervous at all!
-r:"^お、かわいい中学生連れてるじゃん？\n(.{2,10})君って妹いたっけ？$"="Oh, you brought a cute middle-schooler?\n$1, so you had a little sister? "
+お、かわいい中学生連れてるじゃん？\n{playername}君って妹いたっけ？=Oh, you brought a cute middle-schooler?\n{playername}, so you had a little sister? 
 え、妹じゃない？\nじゃあもしかして年下の彼女だったり～？=Eh, she’s not your little sister?\nWell, is this maybe your girlfriend...?
 はわ……っ。=Hawa...
 アハハ、ごめんごめん冗談だから♪=Ahaha, sorry, sorry, I was joking ♪
@@ -45,7 +45,7 @@ r:"^お、かわいい中学生連れてるじゃん？\n(.{2,10})君って妹�
 お～めっちゃいい感じじゃん♪\n超似合ってるよ！=Ohhh! You look so good ♪\nIt really suits you!
 そ……そんなことないです。\n普段こんな色着ないし……=No... No way, it does.\nI don’t normally wear colours like this...
 いやほんとに似合ってるって！\n私服のクールな感じも素敵だけどこっちもイケてるよ！=No way, it really suits you well!\nYour normal clothes have a cool look that’s great,\nBut this totally looks good on you too!
-r:"^ほら、私の言ってることが嘘かどうか、\n(.{2,10})君にも見てもらおうよ！$"="Come on, you can find out whether or not I’m lying.\nLet’s show $1!"
+ほら、私の言ってることが嘘かどうか、\n{playername}君にも見てもらおうよ！=Come on, you can find out whether or not I’m lying.\nLet’s show {playername}!
 い、いいです大丈夫です遠慮しときます～～！！=I-I’m good! I’m fine! We don’t need to...!!
 はい、オープン♪=And, tadaa ♪
 ひぃやっ！？=Eek!?
@@ -91,4 +91,4 @@ r:"^ほら、私の言ってることが嘘かどうか、\n(.{2,10})君にも�
 じゃあ明日は寝坊すんじゃないわよ！\nおやすみ！=Well, don’t sleep in tomorrow!\nGoodnight!
 ……=....
 ……明日の卒業式で、ちゃんと伝えるわ。=... At graduation tomorrow, I’ll say it properly.
-r:"^去りゆく学園生活の思い出を胸に床に就くキャル。\n明日はキャルと(.{2,10})の卒業式である──$"="The memories of the school life she will leave behind take root in Kyaru’s heart.\nTomorrow will be her and $1’s graduation ceremony."
+去りゆく学園生活の思い出を胸に床に就くキャル。\n明日はキャルと{playername}の卒業式である──=The memories of the school life she will leave behind take root in Kyaru’s heart.\nTomorrow will be her and {playername}’s graduation ceremony.

@@ -1,6 +1,6 @@
 ハツネの予知夢とカスミの推理により、隕石は大晦日の夜、街がにぎわっている時に落下してくると判明する。一同は唯一の手掛かりである「予知夢に出てきた少女」を探して森の祠を目指すのだった。=With Hatsune's prophetic dream and Kasumi's deduction, it's established that at the night of New Year's Eve, a meteor will fall at the city when it's crowded. They all agreed that the "Girl in the Prophetic Dream" is a big clue, so they headed for the shrine in the forest in order to find her.
 
-r:"^(.{2,10})とイノリが枝を集めて戻る頃。\n依頼を出していたマホとカスミはそれを受け取るために、\n彼らを出迎える準備をしていた。$"="It's almost time for $1 and Inori to return. Maho and Kasumi, who sent both of them to gather branches, are preparing themself to greet them."
+{playername}とイノリが枝を集めて戻る頃。\n依頼を出していたマホとカスミはそれを受け取るために、\n彼らを出迎える準備をしていた。=It's almost time for {playername} and Inori to return. Maho and Kasumi, who sent both of them to gather branches, are preparing themself to greet them.
 そろそろ、約束の時間を過ぎそうどすけど……\n王子はん、いつも時間は守らはるお人やから\n大丈夫だと思うんやけど……=It's almost the promised time now... Prince always keeps his promises, so I'm sure it'll be fine...
 助手くんならきっと、心配ないと思うよ。\nなにかトラブルがあっても、きっと教えてくれるはずさ。=It's Assistant-kun we're talking about so you don't need to worry about him. If there's trouble, I'm sure he'll tell you.
 ほら、噂をすれば……って、あれ？\n隣にいるのは……=Oh, speak of the devil... Oh? You're with...
@@ -56,7 +56,7 @@ after
 前にもあった似たようなこと、っていうのはいったい……？=And what did you mean by "something similar has happened before"...?
 いやぁ、そのー……『魔法』！\n私、実はそういう魔法が使えるんだよね！\n……ってことでどうかな？=No, that was... "Magic"! I actually can use magic!\n...Does that answer your questions?
 目が泳いでて怪しいです……=Your eyes are moving around restlessly, suspicious...
-r:"^助けて、(.{2,10})くん。$"="Help me, $1-kun."
+助けて、{playername}くん。=Help me, {playername}-kun.
 ハツネちゃんは、嘘はついてないよ。=Hatsune-chan is telling the truth.
 まぁ、助手くんがそう言うならいったんは信じよう。\nここで押し問答をしていても始まらないしね。=Well, if Assistant-kun says so then I'll believe it. If I keep pushing for an answer, we won't get anywhere. 
 それに、仮に予知夢が見られるとして。\nセオリーとして、見たい未来が見られるとは限らない……って\nところじゃないかな？=And when you have a prophetic dream. My theory is that what you see there... is not necessarily what you want to see?

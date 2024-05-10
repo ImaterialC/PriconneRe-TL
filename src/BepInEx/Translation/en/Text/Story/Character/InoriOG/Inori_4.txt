@@ -1,5 +1,5 @@
-r:"^落ち込んだ様子のイノリと再会した(.{2,10})は光に包まれる。アメスの夢の中で出会ったイノリは、気弱そうながらアストルムのことになると急に強気になる、毒舌気味で内弁慶な少女だった。$"="Depressed Inori and $1 met, and Inori was enveloped in light. Inori, whom she met in Amess's dream, was a timid girl who became assertive when it came to Astrum, somewhat sarcastic, and an introverted child."
-r:"^ランドソルの路地裏で、とぼとぼと歩く見覚えのある背中を見かけた\n(.{2,10})は声をかけた。$"="In the alleys of Landosol, $1 saw the familiar back walking aimlessly and called out."
+落ち込んだ様子のイノリと再会した{playername}は光に包まれる。アメスの夢の中で出会ったイノリは、気弱そうながらアストルムのことになると急に強気になる、毒舌気味で内弁慶な少女だった。=Depressed Inori and {playername} met, and Inori was enveloped in light. Inori, whom she met in Amess's dream, was a timid girl who became assertive when it came to Astrum, somewhat sarcastic, and an introverted child.
+ランドソルの路地裏で、とぼとぼと歩く見覚えのある背中を見かけた\n{playername}は声をかけた。=In the alleys of Landosol, {playername} saw the familiar back walking aimlessly and called out.
 ん……あれ？　お兄さん？　なにしてるですかこんなところで……=Huh... there? Onii-san? What are you doing in a place like this?
 は？　あたしを探しに来た？　はぁ、随分とヒマですねぇ……\nあたしですか？　あたしはまあ……ぶらぶらと、じゃなくて見回りです。\nシマの見回りを自主的にやってるですよ。=Huh? You came to look for me? Well, you seem pretty free. As for me, I'm just stro... no, I'm patrolling. I'm voluntarily patrolling the island.
 くうぅ……あまりにひどい仕打ち……\n反省文だけじゃなくてお小遣い停止ってどういうことです！\n経済基盤を奪うなんてあまりに非人道的行為ですよ！=Ugh... this is too much! Besides writing a reflection, they're even stopping my allowance! Stealing my economic foundation is an inhumane act!
@@ -8,7 +8,7 @@ r:"^ランドソルの路地裏で、とぼとぼと歩く見覚えのある背�
 ……お兄さんは、信じてくれるですよね？=...Do you believe me, Onii-san?
 信じ……なんか光ってない？=Believe... Is it just me, or is it glowing?
 あたしは真面目に……って！　光ってるのはお兄さんのほうですよ！\nえ？　え……？　な、なんですか、これ……？\nま、まぶし……っ！=I'm being serious... Hey! The one glowing is you, Onii-san! Huh? What is this? It's so bright!
-r:"^本屋からの帰り道、夕暮れの繁華街を歩いていた(.{2,10})は\n泣いている少女を見かける。$"="On her way back from the bookstore, $1 walked through the bustling city at dusk and saw a crying girl."
+本屋からの帰り道、夕暮れの繁華街を歩いていた{playername}は\n泣いている少女を見かける。=On her way back from the bookstore, {playername} walked through the bustling city at dusk and saw a crying girl.
 うっ……うぅ……\nもうあんな低レベルのオフ会なんかいかないです……=Ugh... I'm never going to such a low-level meet-up again...
 なんなんですかあいつら……うぅ……\n嘘なんてついてないのに……=What's wrong with them? They lied... 
 どうして、あたしだけこんな目にあわなくちゃ……\nうっ……うぅ～……=Why am I the only one going through this... Ugh...

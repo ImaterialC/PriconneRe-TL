@@ -9,7 +9,7 @@
 ニャットちゃん？　急にどうしたの──=Nyatt? What's wrong all of a sudden──
 荷物の配達に来たよ。=I came to deliver a package.
 
-r:"^あ、(.{2,10})さん。\nこんにちは。$"=Oh, $1.\nGood afternoon.
+あ、{playername}さん。\nこんにちは。=Oh, {playername}.\nGood afternoon.
 ほら、ニャットちゃん。\nお仕事の邪魔しちゃダメですよ。=Come on, Nyatt. Don't get in the way of our work.
 ゴロゴロゴロ……♪=Purrs...♪
 ふふっ、うれしそう……♪\n何度も来てくれるから、すっかり懐いちゃいましたね。=Fufu, he looks happy... Because you've come so many times, he's become very friendly with you.
@@ -85,9 +85,9 @@ I cannot continue to burden ourselves with this.
 それで、応募要項を確認したところ、\nニャットちゃんも大丈夫そうだったので。\nこれを機に、レンジャーアニマル認定めざして頑張ってみようかと。=So, when I checked the application requirements, it seemed that Nyatt would be fine too. I'm going to do my best to become a certified Ranger Animal with this opportunity.
 現状を変えたいなら、私が変わらないといけないですから。=Besides, if I want to change the current situation, I have to change myself.
 その合宿、僕も行っていい？=Can I go to that training camp too?
-r:"^(.{2,10})さんも？\nええ、申込自体はまだ間に合いますけど……$"=$1 wants to go too? Yes, there's still time to apply, but...
+{playername}さんも？\nええ、申込自体はまだ間に合いますけど……={playername} wants to go too? Yes, there's still time to apply, but...
 合宿の案内を見てたら、興味が湧いてきたんですか？\n私も、あなたが一緒なら心強いです。=Did you become interested in the training camp brochure? It'll be reassuring if you're with me.
-r:"^私が受けるのはレンジャー育成コースですけど、\n(.{2,10})さんも同じコースで大丈夫ですか？$"=I'll be taking the Ranger Training Course, but is it okay if $1 takes the same course?
+私が受けるのはレンジャー育成コースですけど、\n{playername}さんも同じコースで大丈夫ですか？=I'll be taking the Ranger Training Course, but is it okay if {playername} takes the same course?
 もちろん！=Of course!
 わかりました。\nそれじゃあ、私の方で申し込みをしておきますね。=Alright, I understand. Then, I'll apply for both of us.
 そして、後日──=And then, later on──
@@ -104,7 +104,7 @@ r:"^私が受けるのはレンジャー育成コースですけど、\n(.{2,10}
 ええ、今日のために備えましたから。\n……それじゃ、マヒルさん。行ってきますね。=Yes, I've prepared for today. Well then, Mahiru, I'm off.  
 ああ、いってらっしゃい。=Yeah, take care.
 しっかり頑張るべ、シオシオ。=Please do your best, Shio-shio.
-r:"^それから、シオリと(.{2,10})は馬車に揺られ、\nランドソルから離れたハンターズギルドの合宿所へ向かった。$"=And then, Shiori and $1 rode a carriage and headed to the Hunter's Guild training camp, away from Landosol.
+それから、シオリと{playername}は馬車に揺られ、\nランドソルから離れたハンターズギルドの合宿所へ向かった。=And then, Shiori and {playername} rode a carriage and headed to the Hunter's Guild training camp, away from Landosol.
 そこに待っていたのは──=Waiting for them there was──
 お待ちしておりました。\n主さま、シオリさま。それにニャットさまも。=I've been waiting for you, my Lord and Miss Shiori, and also Nyatt.
 コッコロちゃん？　どうしてここに……=Kokkoro?\nWhat are you doing here...?
@@ -142,7 +142,7 @@ r:"^それから、シオリと(.{2,10})は馬車に揺られ、\nランドソ�
 わたくしも、より実践的な勉強をしたかったので。\nおや、主さま。少し顔色がすぐれませんね……？=I also wanted to study more practical things. Oh my, my Lord. Your complexion doesn't look good...
 長旅で疲れちゃいましたか？\nそれなら明日に備えて、早めに休むことにしましょうか。=Have you become tired from the long journey? Then, let's rest early to prepare for tomorrow.
 とんでもないところに来てしまった……=I ended up coming to such a terrible place...
-r:"^こうして、シオリとコッコロ、そして(.{2,10})の\nレンジャー資格を取得するためのカリキュラムがスタートするのだった。$"=And so, the curriculum for Shiori, Kokkoro, and $1 to obtain their ranger qualifications began like this.
+こうして、シオリとコッコロ、そして{playername}の\nレンジャー資格を取得するためのカリキュラムがスタートするのだった。=And so, the curriculum for Shiori, Kokkoro, and {playername} to obtain their ranger qualifications began like this.
 
 合宿初日、レンジャーになるための厳しい訓練が行われる中、順調な成果を残すシオリとコッコロ。夜には集まって勉強会を開いたりと積極的に活動するも、無理がたたってかシオリは寝込んでしまう。=On the first day of the training camp, rigorous training to become a ranger is conducted, and Shiori and Kokoro are making good progress. They gather at night to hold study sessions and actively engage in activities, but Shiori falls ill due to pushing herself too hard.
 
@@ -235,7 +235,7 @@ Y-....Yes.私……ですか？=Y-....Yes. Me...?
 教官さま、どうかされましたか？=Instructor, are you okay?
 いや、なんでもない。\nさあ、合宿所の訓練場まで戻るぞ。=No, it's nothing. Alright, let's head back to the training ground at the camp.
 みんなお疲れさま……と言いたいところだが。\nレンジャーアニマルの訓練コースを\n受講しているみんなは、もうひと頑張りだ。=I would like to say "Good job, everyone" but for those who are taking the Ranger Animal Training Course, there is still one more effort to go.
-r:"^そこの(.{2,10})くんは見学かな。\nみんなの邪魔にならないなら、自由にしてくれていい。$"=That $1-kun there, are you just here to observe? If you're not bothering anyone, feel free to watch.
+そこの{playername}くんは見学かな。\nみんなの邪魔にならないなら、自由にしてくれていい。=That {playername}-kun there, are you just here to observe? If you're not bothering anyone, feel free to watch.
 今日はそれぞれの習熟度を知るために、\n簡単な実技をしてもらおう。シオリくんからどうぞ。=Today, we'll have a simple practical exercise to assess everyone's level of proficiency. Shiori-kun, go ahead.
 はっ、はい。では、いきます……=Yes, here I go...
 ──ニャットちゃん、おすわり。=──Nyatt, sit. 
@@ -264,16 +264,16 @@ r:"^そこの(.{2,10})くんは見学かな。\nみんなの邪魔にならな�
 少し部屋の換気をいたしましょう。\nその間にわたくし、喉にいいハーブティーを淹れてまいります。=Let's ventilate the room a bit. In the meantime, I'll make some herbal tea for your throat. 
 ありがとうございます、コッコロちゃん。=Thank you, Kokkoro.
 今日はもう休む？=Are you going to rest for the day?
-r:"^いえ、大丈夫です。\nこの合宿に(.{2,10})さんを誘ったのは私ですし。$"=No, I'm okay. I'm the one who invited $1 to this camp,
+いえ、大丈夫です。\nこの合宿に{playername}さんを誘ったのは私ですし。=No, I'm okay. I'm the one who invited {playername} to this camp,
 それに私……みんなで一緒に合格したいです。\nそのために頑張ってサポートしますから。=And I want us all to pass together. 
 だから、そんなに心配しないでください。\nこれでも、私、ちょっとは丈夫になってきたんですよ。=That's why I'll do my best to support everyone. And don't worry, I'm starting to get a bit stronger.
 無理はしないでね。=Just don't push yourself too hard.
 お茶を淹れてまいりました。\nついでにお茶菓子なども少々。=I've made some tea and a few snacks. 
-r:"^それじゃあ(.{2,10})さん、次のページに進みましょうか。\n今度は狩りの基本的な手法について……$"=Shall we continue on to the next page, $1 This time, we'll learn about basic hunting techniques...
+それじゃあ{playername}さん、次のページに進みましょうか。\n今度は狩りの基本的な手法について……=Shall we continue on to the next page, {playername} This time, we'll learn about basic hunting techniques...
 ………………こほっ。=………………*cough*.
 翌朝──=The next morning──
 では、本日の講義を始める。=Alright, let's begin today's lecture.
-……む、昨日そこに座っていた生徒は？=Wait, where's the student who was sitting there yesterday?"
+……む、昨日そこに座っていた生徒は？=Wait, where's the student who was sitting there yesterday?
 それは、シオリさまのことでしょうか？=Are you referring to Miss Shiori, sir?
 シオリ……ああ、確かそんな名前だったか。\n昨日出した問題をすんなり解いた奴だ。=Shiori... Ah, yes, that was her name. She solved yesterday's problem easily. 
 何かあったの？=Did something happen?
@@ -324,7 +324,7 @@ r:"^それじゃあ(.{2,10})さん、次のページに進みましょうか。\
 【牧場（エリザベスパーク）】に移ってからも、\nマヒルさんやリマさん、リンちゃん……みんな優しくしてくれた。=Since I moved to Elizabeth Park, Mahiru, Rima, and Rin have all been so kind to me.
 お姉ちゃん、何してるかな。\nマヒルさんたち、元気にしてるかな。=I wonder what Onee-chan is doing now. Are Mahiru and the others doing well?
 コッコロちゃんにも心配かけちゃったから、\n少しでも寝て……早く元気にならないと……=I'm worried that I'm causing trouble for Kokkoro, so I should at least get some sleep... I need to get better soon...
-r:"^(.{2,10})さん……今ごろ……何、して……$"=$1...... What are you..... doing now....?
+{playername}さん……今ごろ……何、して……={playername}...... What are you..... doing now....?
 ……なんだろう、あたたかい……=...Huh, it's warm...
 背中を撫でる、優しい手……\nすごく、安心する……=A gentle hand stroking my back... It's so comforting...
 ん……お姉、ちゃん……？=Hmm... Onee...chan?
@@ -335,7 +335,7 @@ r:"^(.{2,10})さん……今ごろ……何、して……$"=$1...... What are y
 こうすると、主さまはすやすやぐっすりと\n朝までよくお眠りになられましたから。=By doing this, my Lord was able to sleep soundly until morning.
 ありがとうございます、コッコロちゃん。\nその……とてもよく眠れた、と思います。=Thank you, Kokkoro.\nI think.... I slept really well. 
 それより、ご迷惑をおかけしてすみません。\nニャットちゃんのお世話までお願いしてしまって。=More importantly, I'm sorry for causing trouble and asking you to take care of Nyatt. 
-r:"^コッコロちゃんも(.{2,10})さんも、\n自分の勉強をする時間が必要なのに……$"=Even though Both Kokkoro and $1 need time to study for themselves...
+コッコロちゃんも{playername}さんも、\n自分の勉強をする時間が必要なのに……=Even though Both Kokkoro and {playername} need time to study for themselves...
 お気になさらないでください。\nシオリさまには合宿の授業や課題でも\n頼りにさせていただいておりますし。=Please don't worry about it. We also rely on Miss Shiori for the camp lessons and assignments. 
 
 それに、こうしてシオリさまのお役に立てること……\nとてもうれしく思っておりますよ。=Besides, I am very happy to be able to help Miss Shiori like this.
@@ -364,7 +364,7 @@ r:"^コッコロちゃんも(.{2,10})さんも、\n自分の勉強をする時�
 主さまのお召し物は、シャツから靴下まで\nサイズは全て暗記しておりますから。\nさあ、どうぞこちらにお着替えを──=I have memorized the size of everything my Lord wears, from your shirt to your socks. Please change into them here──
 気持ちはありがたいけど……=I appreciate your thoughtfulness, but...
 むっ、どこかきゅうくつな所がありましたか？\nすぐに調整いたしますので、お教えくださいまし。=Hmm, is there something uncomfortable about the clothes? Please let me know, and I will adjust them immediately.
-r:"^はい、コッコロくんと(.{2,10})くん。\n後で教官からお話がありまーす。$"=Yes, Kokoro-kun and $1-kun, we will have a talk with the instructor later.
+はい、コッコロくんと{playername}くん。\n後で教官からお話がありまーす。=Yes, Kokoro-kun and {playername}-kun, we will have a talk with the instructor later.
 ……このように、良かれと思った行動が\n全て主さまのご迷惑になってしまいまして。=...This is how my well-intentioned actions end up causing trouble for my Lord.
 いつ何時、どのような状況でもお助けできるよう\nすでに配布されたレンジャーマニュアルも読破しております。=I have already read the Ranger Manual, which has been distributed so that I can assist you in any situation, at any time.
 えっ、あのマニュアルって確か、\nちょっとした辞典くらいの厚さがあったような……？　=Wait, isn't that manual quite thick, like a small dictionary...?
@@ -386,8 +386,8 @@ r:"^はい、コッコロくんと(.{2,10})くん。\n後で教官からお話�
 それで、今の自分を変えたくて……\nこの合宿に申し込んだのは、そういう理由もあったんです。=So, one of the reasons why I applied for this training camp is because I want to change myself now.
 そのような事情があったのですね……=I see, there were some circumstances that led you to make that decision.
 コッコロちゃんがあの人を助けてあげたい気持ち……\n昔のお姉ちゃんも、そんな目で私を見てたと思うんです。=I feel a like when Kokkoro wants to help that person. I wonder Onee-chan also look at me with that same expression in her eyes.
-r:"^でも、この合宿でレンジャーとしての知識や技術を身に付けるには\n(.{2,10})さん自身に頑張ってもらわなくちゃいけません。$"=But in order for $1 to acquire knowledge and skills as a ranger during this training camp, he needs to work hard himself.
-r:"^だからこそ、この合宿の間は(.{2,10})さんのことを\n見守っていてあげてくれませんか？$"=That's why, during this training camp, would you please watch over $1 for me?
+でも、この合宿でレンジャーとしての知識や技術を身に付けるには\n{playername}さん自身に頑張ってもらわなくちゃいけません。=But in order for {playername} to acquire knowledge and skills as a ranger during this training camp, he needs to work hard himself.
+だからこそ、この合宿の間は{playername}さんのことを\n見守っていてあげてくれませんか？=That's why, during this training camp, would you please watch over {playername} for me?
 きっと、じれったくて、もどかしい気持ちになると思います。\n見てるだけでハラハラすることもあるかもしれません。=You'll probably feel impatient and frustrated at times, and there might even be moments when you're on the edge of your seat.
 でも、困難やトラブルに立ち向かっていく力は\n自分で壁を超えることでしか身に付けられませんから。=However, the only way to gain the strength to face difficulties and troubles is by overcoming your own barriers.
 だから、コッコロちゃん。\nあの人のこと、見守っていてあげてください。=So, Kokkoro, please watch over that person for me. Just like how someone who watches over you can make it easier for you to do your best.
@@ -413,7 +413,7 @@ r:"^だからこそ、この合宿の間は(.{2,10})さんのことを\n見守�
 任せて！=Leave it to me!
 では、失礼いたします。=Well then, if you'll excuse me.
 誰だー、合宿の建物内にパートナーを連れ込んでるやつは。\n自分の室内か、専用の宿舎に泊まらせる規則のはずだぞー？=Who is it, bringing a partner into the training building during camp? The rule is to stay in your own room or in the designated dormitory, isn't it?
-r:"^なんだ、キミか。\nえーっと……(.{2,10})くん。なるほど。$"=Oh, it's you.\nLet's see... $1-kun, right? I see.
+なんだ、キミか。\nえーっと……{playername}くん。なるほど。=Oh, it's you.\nLet's see... {playername}-kun, right? I see.
 グルルッ♪=Grrr...♪
 あっはっはっ！　元気がいいなぁ。=Ahahaha! You're so lively. 
 まぁ、遅くならないうちにこの子たちを宿舎に戻しときなよ。\n他の教官に見つかるとうるさいからさ。=Well, you should take these guys back to the dormitory before it gets too late. It'll be troublesome if other instructors find out.
@@ -425,13 +425,13 @@ r:"^なんだ、キミか。\nえーっと……(.{2,10})くん。なるほど�
 それではシオリさま。\nおやすみなさいませ。=Well then, Miss Shiori.\nGood night.  
 おやすみなさい、コッコロちゃん。=Good night, Kokkoro.  
 コッコロちゃんに色々助けられちゃってるなぁ……\n私の方がお姉さんなんだから、\n本当は引っ張ってあげなきゃいけないのに。=I'm always being helped by Kokkoro...\neven though I'm the older sister and should be pulling her along.
-r:"^コッコロちゃんだけじゃない。\n牧場のみんなにも、(.{2,10})さんにも。\n私は……いつも誰かに助けられてる。$"=It's not just Kokkoro. It's everyone on the ranch, and $1 too. I'm... always being helped by someone.
+コッコロちゃんだけじゃない。\n牧場のみんなにも、{playername}さんにも。\n私は……いつも誰かに助けられてる。=It's not just Kokkoro. It's everyone on the ranch, and {playername} too. I'm... always being helped by someone.
 助けられてるばっかりで……\n何かをお返しできたことなんてほとんどない。=I've been helped so much... I haven't been able to do much to return the favor.
 ずっと、この体と生きてきた。\nすぐふら～ってなっちゃうこの体で。=I've been living with this body for a long time. This body that easily gets weak and dizzy.
 だから、これくらいでいい、って思ってきた。\n私に抱えられるだけの、\nほんの少しの尊いものを大事にしよう、って……=So I thought it was enough. I'll just cherish the little precious things I can hold onto................
 それ以上は望んじゃいけないって……\n今以上の幸せを望んでも叶わないって、\n心のどこかで思ってたのかもしれない。=being held by someone... and not hope for anything more than that. Maybe I thought I wouldn't be able to have any more happiness than that, deep down in my heart.
 でも、もうちょっと……\nもうちょっとだけ、私も欲張りになっていいのかな？　=But, can I be a little more greedy... just a little bit more?　
-r:"^お姉ちゃんやマヒルさん……\nリンちゃんやリマさん……\nコッコロちゃんに(.{2,10})さん。$"=Onee-chan, Mahiru... Rin, Lima... Kokkoro and $1... 
+お姉ちゃんやマヒルさん……\nリンちゃんやリマさん……\nコッコロちゃんに{playername}さん。=Onee-chan, Mahiru... Rin, Lima... Kokkoro and {playername}... 
 他にも、たくさんの……本当にたくさんの。\nこれまで出会った、数えきれない人たちにもらった、\n両手じゃ抱えきれないくらいの、このあたたかさ……=and many other countless people I've met, who gave me so much warmth that I couldn't hold in my two hands...
 私の頼りない灯火を支えてくれた、たくさんの光……=So many lights that supported my unreliable fire...  
 私だけじゃ抱えきれないくらいの、\n尊くて大切な、胸いっぱいの幸せを……=The precious and important happiness that is too much for me to hold alone... 
@@ -440,7 +440,7 @@ r:"^お姉ちゃんやマヒルさん……\nリンちゃんやリマさん…�
 ……ありがとうございます、コッコロちゃん。=......Thank you, Kokkoro. 
 私、一人だったら心細かったと思います。\nでも、コッコロちゃんが居てくれたから、大丈夫になりました。=I think I would have felt very lonely if I were alone. But with you here, I feel okay.
 わたくしこそ……\nシオリさまとご一緒できて大変うれしいです。=I feel the same way... I'm very happy to be with Miss Shiori.
-r:"^絶対、合格しましょうね。\n私と、コッコロちゃんと(.{2,10})さんと……$"=Let's definitely pass the test. Together with me, Kokkoro, and $1... 
+絶対、合格しましょうね。\n私と、コッコロちゃんと{playername}さんと……=Let's definitely pass the test. Together with me, Kokkoro, and {playername}... 
 はい。ニャットさまと、わんわんの主さま。\nみんなで。=Yes,\ntogether with Nyatt and my Doggie Lord. With everyone.  
 さ、明日も早いですからそろそろお休みにならないと。=Well, it's getting late, so we should probably go to bed soon.
 私は、みんなに……お世話になってるみんなに、\n少しでも恩返しできるようになりたい。=I want to be able to repay everyone...... who has taken care of me even a little bit.
@@ -448,12 +448,12 @@ r:"^絶対、合格しましょうね。\n私と、コッコロちゃんと(.{2,
 そして、そこには……ニャットちゃんも居てほしい。=And I want Nyatt to be there with me in that future where we can live together...  
 ニャットちゃんと、一緒に生きていける未来を作るために……\n私が……頑張って……=So I will do my best... to create a future where Nyatt and I can live together...
 翌朝、合宿所──=The next morning at the training camp──
-r:"^コッコロちゃん、それに(.{2,10})さんにも。\n色々とお騒がせしました。$"=Kokkoro, and $1 as well. We caused you a lot of trouble yesterday.
+コッコロちゃん、それに{playername}さんにも。\n色々とお騒がせしました。=Kokkoro, and {playername} as well. We caused you a lot of trouble yesterday.
 お元気になられてよかったです。シオリさま。=I'm glad to see you're feeling better, Miss Shiori.  
 わんわんっ！=Woof woof!
 元気そうでよかった。=You look energetic.
-r:"^はい、(.{2,10})さんにも心配をかけちゃいましたね。\nその分、私もいっぱい頑張りますから。どうぞ頼ってください。$"=Yes, we worried you too, $1. So I'll work even harder from now on. Please rely on me.
-r:"^全員揃ってるな。\n(.{2,10})くんも連絡ありがとうね。$"=Everyone is here. Thank you for getting in touch, $1-kun.
+はい、{playername}さんにも心配をかけちゃいましたね。\nその分、私もいっぱい頑張りますから。どうぞ頼ってください。=Yes, we worried you too, {playername}. So I'll work even harder from now on. Please rely on me.
+全員揃ってるな。\n{playername}くんも連絡ありがとうね。=Everyone is here. Thank you for getting in touch, {playername}-kun.
 えっと、私たちに何か用事があるって話でしたけど……=Um, we were told that you had something to discuss with us...
 二人はレンジャーアニマルの訓練コースも受講してたよね？\nそこのニャットちゃんとわんちゃんとでさ。=You both also took the Ranger Animal training course, right? With Nyatt and Doggie Lord there.
 もし興味があれば、でいいんだけど。\n競技会に出てみる気はない？=If you're interested, would you like to try entering a competition?
@@ -704,7 +704,7 @@ r:"^全員揃ってるな。\n(.{2,10})くんも連絡ありがとうね。$"=Ev
 ……ここの動物たちも傷ついてますね。\nやっぱり、さっき見たあの魔物が原因なのかな。=...These animals here are also injured. Is it because of that monster we saw earlier?
 コッコロちゃんたちのことも心配です。\n私の判断は、本当に正しかったのかな……=I'm worried about Kokkoro and the others. Was my judgment really correct...? 
 私はあの時、弓を構えようとして……止まってしまった。=When I was about to draw my bow...\nI stopped.  
-r:"^コッコロちゃんや(.{2,10})さん、\nみんなを危険に晒してしまうのに、どうして……$"=Even though I was putting Kokkoro and $1 in danger, why did I...
+コッコロちゃんや{playername}さん、\nみんなを危険に晒してしまうのに、どうして……=Even though I was putting Kokkoro and {playername} in danger, why did I...
 あの時、私は……=At that time, I ...
 あ…………=a.........
 ……いけない。しっかりしなくちゃ。=....No, I can't let myself falter.
@@ -785,7 +785,7 @@ r:"^コッコロちゃんや(.{2,10})さん、\nみんなを危険に晒して�
 なんとなく、そんな感じがして。=Somehow, I have that feeling.
 ……どういたしましょう、シオリさま。\n主さまはあの魔物に付いていかれましたが。=...What can I do for you, Miss Shiori? my Lord followed that monster, but... 
 ……付いていってみましょう。\nあの魔物が暴れていた原因が掴めるかもしれません。=Let's follow them. We might be able to find out the cause of the monster's rampage.
-r:"^ただし、警戒は解かないでください。\n危険だとわかれば(.{2,10})さんを連れて、\nいつでも退却できる準備を。$"=However, don't let your guard down. If it becomes dangerous, we can retreat with $1 at any time.
+ただし、警戒は解かないでください。\n危険だとわかれば{playername}さんを連れて、\nいつでも退却できる準備を。=However, don't let your guard down. If it becomes dangerous, we can retreat with {playername} at any time.
 ここは……果樹林？\n木の実がたくさんなっていますね……\n密林にこんなところがあるなんて……=This is... an orchard? There are lots of fruits growing here... I can't believe there's a place like this in the jungle...
 ウホ。=Uho. 
 大猿さまが果実を採ってくださったのですか。\nくんくん……ふむ、毒などはない種類のようですが。\nこれを、わたくしたちに？=Did the Great Ape gather these fruits? Sniff... Hmm, it seems to be a non-toxic variety. \nThis is for us? 
@@ -842,7 +842,7 @@ this is……大猿さまの体中の葉が逆立って……！=This is... The 
 シオリさま？=Miss Shiori? 
 でも、ひとまず合宿所に戻りましょう。\n私たちも体力を使い切っていますし……\n色々と確認したいこともありますから。=But for now, let's return to the training camp. We've exhausted ourselves and there are things we need to confirm.  
 そうして、合宿所に戻った一行だったが──=And so, the group returned to the training camp──
-r:"^(.{2,10})さんが拾ってきてくれたあの欠片。\nあれは大猿さんの「歯」の一部だそうです。$"="That fragment that $1 picked up for us. It seems to be a part of Great Ape's 'tooth.'"
+{playername}さんが拾ってきてくれたあの欠片。\nあれは大猿さんの「歯」の一部だそうです。=That fragment that {playername} picked up for us. It seems to be a part of Great Ape's 'tooth.'
 おそらく食いしばった際に欠けたものと思われますが、\n注意すべきはその断面──=It is believed that it was chipped when he gritted his teeth, but what we should be careful
 ──この虫歯に侵されている部分です。=─ This part here, he must have a cavity. 
 つまり大猿さまは虫歯の痛みに耐えかねて、\n暴れ回っていたものと結論付けたわけでございます。=In other words, the reason behind the Great Ape's rampage is due to the pain from a cavity.
@@ -851,7 +851,7 @@ r:"^(.{2,10})さんが拾ってきてくれたあの欠片。\nあれは大猿�
 そこで、わたくしたちは考えました。\n虫歯であるなら、治してしまえばよいのではと。=Therefore, we thought that if it was a cavity, we could just treat it.  
 それで……この状況は？=So... what is the situation now?
 大猿さんみたいに、私たち人間と近い猿の魔物は\n基本的に歯の数が一致します。=Monsters like Great Ape, who are close to humans, generally have the same number of teeth as humans.
-r:"^なので、(.{2,10})さんに協力してもらって\n治療する前のシミュレーションをさせてもらえればな、って。$"=So, if we could get $1's help and simulate it before treatment, that would be great.
+なので、{playername}さんに協力してもらって\n治療する前のシミュレーションをさせてもらえればな、って。=So, if we could get {playername}'s help and simulate it before treatment, that would be great.
 虫歯を治して、痛みで暴れ回ることがなくなれば……\n一番平和に物事が解決しますから。=Treating the cavities and eliminating the pain will lead to the most peaceful solution. 
 あ、コッコロちゃん。そっちのガーゼを取ってください。\n万が一ということがあるので。=Oh, Kokkoro, please grab that gauze over there just in case.
 はい、シオリさま。\nこちらの器具は不要でしょうか？=Yes, Miss Shiori. Do you need this tool here?
@@ -859,7 +859,7 @@ r:"^なので、(.{2,10})さんに協力してもらって\n治療する前の�
 心配しかない……=I have nothing but worry...
 主さま、恐れることはございません。\nただ少し、お口の中を診させていただければと……=My Lord, there's no need to fear. I just need to check your mouth for a moment...
 ふむ……とてもおきれいですね。\n歯の表面も真っ白で、つやつやぴかぴかしております。=Hmm... Your teeth are very clean. The surface is white and shiny.  
-r:"^あっ、ほんとですね。\n虫歯一つもなくって、健康的で……\n(.{2,10})さんの中って、こうなってるんですね……わぁ……$"=Oh, you're right. There isn't a single cavity, and they're so healthy... This is how $1's teeth look... Wow...
+あっ、ほんとですね。\n虫歯一つもなくって、健康的で……\n{playername}さんの中って、こうなってるんですね……わぁ……=Oh, you're right. There isn't a single cavity, and they're so healthy... This is how {playername}'s teeth look... Wow...
 わたくしも、かつては主さまの歯磨きをさせていただいた身。\nこのように成長なされてとてもうれしく思います。=I myself used to take care of my Lord's teeth. I'm so happy to see them grow so beautifully.
 ですが、これはシミュレーションでございますから。\nとはいえ、実際に歯を削ったりするわけにはいきません。=But this is just a simulation. However, I cannot actually drill or shave your teeth.
 そこで、この場を借りて、\nいま一度、主さまのお世話をさせていただければと。=Therefore, I would like to take care of you again here and now.  
@@ -959,7 +959,7 @@ r:"^あっ、ほんとですね。\n虫歯一つもなくって、健康的で�
 到着しました。\nここから先がハンターズギルド管轄の魔物保護区です。=We've arrived. Beyond this point is the Hunter's Guild's monster protection zone.
 何が起きるかわかりません。\n十分に注意して進みましょう。=We don't know what will happen. Let's proceed with caution.  
 作戦内容ですが、大猿さんに接近したのち、\n麻酔矢や眠り薬などで対象を眠らせます。=As for the plan, we'll approach the Great Ape and put it to sleep using tranquilizer darts and sleeping drugs.
-r:"^私と(.{2,10})さんは周囲を警戒しつつ、\nドクターの治療が終わるまで待機……\nコッコロちゃんは治療のお手伝い、という感じですね。$"=$1 and I will be on alert while the doctor treats it. Kokkoro will assist in the treatment.  
+私と{playername}さんは周囲を警戒しつつ、\nドクターの治療が終わるまで待機……\nコッコロちゃんは治療のお手伝い、という感じですね。={playername} and I will be on alert while the doctor treats it. Kokkoro will assist in the treatment.  
 ところでドクターさま。\n麻酔薬などに余裕はあるでしょうか？\n大猿さまが暴れた場合に備えて鎮静させるためにも……=By the way, Doctor, do you have enough anesthetic? Just in case the Great Ape goes berserk...  
 いや、麻酔薬や鎮痛剤の用意はしているが……\n余裕があるとはとても言えないな。=Well, I have prepared anesthetics and painkillers, but I can't say I have much extra. 
 それならば、わたくしに考えがあります。=In that case, I have an idea. 
@@ -975,7 +975,7 @@ r:"^私と(.{2,10})さんは周囲を警戒しつつ、\nドクターの治療�
 ウゥゥゥ……=Woooooo...
 あれは……わたくしたちが最初に見た姿ですね。\nどうやら大猿さまは昂られると、あのお姿になるご様子。=That's the same appearance we saw before. Apparently, when the Great Ape gets agitated, it takes that form.  
 大人しい姿の時であればよかったのですが……\nあの様子では、話を聞いてくださるのは難しいかと。=It would have been better if it was in its calm state, but it might be difficult to get it to listen in this state. 
-r:"^……作戦の位置に着きましょう。\nドクターはこちらで待機、私とコッコロちゃん、\nそして(.{2,10})さんで大猿さんに対応します。$"=...Let's go to the planned location. The doctor will wait here while Kokkoro, $1, and I handle the Great Ape.
+……作戦の位置に着きましょう。\nドクターはこちらで待機、私とコッコロちゃん、\nそして{playername}さんで大猿さんに対応します。=...Let's go to the planned location. The doctor will wait here while Kokkoro, {playername}, and I handle the Great Ape.
 わんわんの主さまはこちらで待機を。\nいい子にしていてくださいね。=My Doggie Lord, please wait here and behave yourself, okay?
 はっはっはっはっ……！=Hah hah hah hah hah...!
 承知した。だが、決して無理をしないと約束してくれよ。\n君たちの治療をしなければならないなんて御免だからな。=Understood. But promise me you won't overdo it. I don't want to have to treat you guys.
@@ -1011,7 +1011,7 @@ Yes, it was a good practical lesson.
 そうだ、授業といえば……\n君たちの出席日数は足りているのか？=Oh, speaking of lessons... have you all attended enough classes?
 出席……日数？=Attendance...?
 そういえば、わたくしたち……\nこの森の調査任務を受けていたとはいえ、\n遭難した日の講義もすっぽかしておりますね。=Come to think of it, we missed lectures on the day we got lost, even though we were on a mission to investigate this forest.
-r:"^私はさらに一日休んじゃってますし、\n(.{2,10})さんはいくつか再試験がありましたよね。$"=I took an extra day off, and $1 had a few make-up exams, didn't he?  
+私はさらに一日休んじゃってますし、\n{playername}さんはいくつか再試験がありましたよね。=I took an extra day off, and {playername} had a few make-up exams, didn't he?  
 もしかして……？=Could it be...?
 ……えっと、どう計算しても、\nレンジャー資格を取るための最終試験に\n必要な単位が足りない……ですね。=Um, no matter how you calculate it, we don't have enough credits to take the final exam to become Rangers. 
 つまり、わたくしたちは……\nその、最終試験を受けるまでもなく、不合格、だと。=In other words, we're unqualified without even taking the final exam.
@@ -1028,7 +1028,7 @@ r:"^私はさらに一日休んじゃってますし、\n(.{2,10})さんはい�
 でも、いいんですか？=But, Is that okay?
 形式ばった規則にのっとって、\n君たちを落第させる損失の方が大きいと、そう判断した。=Isn't it just following formal rules? I judged that it would be a greater loss to fail you based on that.
 しかし、私が手助けできるのはここまでだ。\n最終試験は君たちの実力で乗り越えてもらう。=But my assistance can only go this far. You'll have to overcome the final exam with your own abilities. 
-r:"^大丈夫です。\nコッコロちゃんと(.{2,10})さんと……\nみんながいれば、きっと合格できます。$"=It's okay. If we have Kokkoro and $1, we can definitely pass.
+大丈夫です。\nコッコロちゃんと{playername}さんと……\nみんながいれば、きっと合格できます。=It's okay. If we have Kokkoro and {playername}, we can definitely pass.
 ええ、みんなご一緒に。=Yes, we're all in this together.
 それじゃあ帰ろう！=Then let's go home!
 ええ。……帰ったらまずは、予習と復習ですね。\n最終試験の日まで、あまり時間もありませんから。=Yes... When we get back, we'll need to review and prepare. There's not much time left until the final exam.
@@ -1037,7 +1037,7 @@ r:"^大丈夫です。\nコッコロちゃんと(.{2,10})さんと……\nみん
 ダメでございます。\n主さまは再試験の科目も多いのですから。=No, we can't. my Lord has a lot of subjects to take make-up exams for.
 主さまのためなら、わたくしは鬼にもなります。\nさあ、戻って一休みしたらお勉強の時間でございますよ。=For my Lord's sake, If necessary I'll become a monster. Now, once we return and take a break, it will be study time.
 絶対にみんなで合格するって約束しましたから。\n頑張って、私もサポートしますからね。=We promised to pass together, so let's do our best. I'll support you too.  
-r:"^そして、数日後──\n最終試験を終えた(.{2,10})たちは\nそれぞれの結末と共に、ランドソルへ帰還した。$"=And a few days later, $1 and the others returned to Randsel with their respective outcomes after the final exam.
+そして、数日後──\n最終試験を終えた{playername}たちは\nそれぞれの結末と共に、ランドソルへ帰還した。=And a few days later, {playername} and the others returned to Randsel with their respective outcomes after the final exam.
 
 合宿を終えて牧場に戻ったシオリは、自分の居場所と大切なものを再認識する。そこにハンターズギルドからの依頼を携えて来訪するコッコロ。一行はマヒルの見送りを受けながら新たな冒険へ駆け出すのだった。=After finishing the training camp and returning to the ranch, Shiori reaffirms her place and what is important to her. Then Kokkoro arrives, bringing a request from the Hunter's Guild. The group sets out on a new adventure, with Mahiru seeing them off.
 合宿から帰宅して数日後──=A few days after returning from the training camp──
@@ -1062,7 +1062,7 @@ r:"^そして、数日後──\n最終試験を終えた(.{2,10})たちは\nそ
 ええ、主さまもよく頑張られました。=Yes, my Lord did very well too.
 シオリさま、ありがとうございます。=Thank you, Miss Shiori.
 主さまを信じて見守る……そういう強さもあるのだと、\nこの合宿で、わたくし学ばせていただきました。=To believe in my Lord and watch over him...I learned that kind of strength during this training camp.
-r:"^そんな、私の方こそコッコロちゃんや\n(.{2,10})さんにたくさん助けてもらいましたし……$"=No, I was helped a lot by Kokkoro and $1...
+そんな、私の方こそコッコロちゃんや\n{playername}さんにたくさん助けてもらいましたし……=No, I was helped a lot by Kokkoro and {playername}...
 シオリさま、コッコロさまはレンジャーアニマル登録証の\n記載に不備がないか、ご確認をお願いします。=Miss Shiori, please check if there are any mistakes in Miss Kokkoro's Ranger Animal registration certificate.
 あ、すみません。\nえっと、私の名前と所属しているギルドを書けば──=Oh, sorry. Um, if I write my name and the guild I belong to...
 やあ、合格おめでとう。\nまだ帰ってなくてよかった。=Hey, congratulations on passing. I'm glad you haven't left yet.
@@ -1127,7 +1127,7 @@ r:"^そんな、私の方こそコッコロちゃんや\n(.{2,10})さんにた�
 そんなら、ジャムでも作るべか。\nふっかふかのパンケーキも一緒に焼いて。=In that case, let's make some jam. And let's bake some fluffy pancakes too.
 あっ、それなら私もお手伝いを──=Ah, in that case, I'll help too──── 
 お～～い！=He～～y!
-r:"^この声は……(.{2,10})さん？$"=This voice is... $1? 
+この声は……{playername}さん？=This voice is... {playername}? 
 シオリさま、こちらに居られたのですね。\nご無沙汰しております。=Miss Shiori, I came to visit. It's been a while. 
 コッコロちゃん、その格好は……=Kokkoro, that outfit...... 
 はい。実は先ほどわたくしたちも連絡を受けたのですが……\nハンターズギルドから早速、仕事の依頼がありまして。=Yes. Actually, we just received a job request from the Hunters Guild a little while ago.
@@ -1147,7 +1147,7 @@ r:"^この声は……(.{2,10})さん？$"=This voice is... $1?
 そんじゃ、あんちゃんたちの分も\nたーんとご馳走作っておくべ。=Well then, we'll make plenty of treats for An-chan and the others.  
 シオシオ、いってらっしゃい！=Take care, Shio-shio!
 いってきます、マヒルさんっ。=I'm off, Mahiru. 
-r:"^シオリとコッコロ、そして(.{2,10})は\nレンジャーとして新たな地平へと駆け出していくのだった。$"=And so, Shiori, Kokkoro, and $1 set out as Rangers towards a new horizon.
+シオリとコッコロ、そして{playername}は\nレンジャーとして新たな地平へと駆け出していくのだった。=And so, Shiori, Kokkoro, and {playername} set out as Rangers towards a new horizon.
 合宿生徒１=Camp Student 1
 合宿生徒１=Camp Student 1
 ……コッコロちゃん。コッコロちゃん？=...Kokkoro... Kokkoro?

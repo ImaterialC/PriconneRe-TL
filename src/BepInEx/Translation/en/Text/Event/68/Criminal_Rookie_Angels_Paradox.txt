@@ -177,7 +177,7 @@
 大丈夫ですよ、プレシアさん。\n兄様と一緒であれば、いかなる事態も怖くなどありません。\n臆せず、共に参りましょう……！=Don't worry, Precia-san. As long as I'm with Nii-sama, there is nothing to be afraid of in any situation. Let's go together without hesitation...!
 ……はいっ！\n……んっ。=...Yes! \n...Hmm.
 お手伝いに訪れたのは【牧場（エリザベスパーク）】。しかし非力なリリたちに肉体労働はハードルが高く、ほとんど役に立てない。落ち込みながらも、マヒルやリンの励ましに勇気づけられるリリたちであった。=They came to help at the Elizabeth Park Ranch. However, physical labor is a high hurdle for weak Riri and they are hardly useful. Despite feeling down, Riri was encouraged by Mahiru and Rin's words.
-r:"^お手伝いをさせてもらうべく、\n(.{2,10})が【アルターメイデン】を連れて\nまずやってきたのは、【牧場（エリザベスパーク）】。$"="To lend a hand, $1 brought Alter Maiden and arrived at the Elizabeth Park Ranch."
+お手伝いをさせてもらうべく、\n{playername}が【アルターメイデン】を連れて\nまずやってきたのは、【牧場（エリザベスパーク）】。=To lend a hand, {playername} brought Alter Maiden and arrived at the Elizabeth Park Ranch.
 いや～お手伝いがしてぇとは。\n願ってもねぇ申し出だ、あんちゃん！=Oh, I never expected you to come offering help.\nThat's a hell of an offer, An-chan!
 見ての通り、牧場はいつだって人手不足だからな。\nさっそくほら。ミルク運びをお願いしたべ！=As you can see, the farm is always short-handed. \nNow, let's get to it.\nI'm counting on you to carry the milk!
 お役に立てそうでよかった！=I'm glad I could be of help!
@@ -495,7 +495,7 @@ r:"^お手伝いをさせてもらうべく、\n(.{2,10})が【アルターメ�
 とっても、素敵ですよね。=It's really lovely, isn't it?
 ……ん♪=...Mm♪
 そして翌日。\nランドソル滞在、最終日。=And the next day.\nThe final day of their stay in Landosol.
-r:"^学ぶことも冒険者の仕事ならば、と、\n(.{2,10})から勧められた【アルターメイデン】は、\nルーセント学院に体験入学をし、更なる学びを得ようとしていた。$"=""If learning is also part of an adventurer's job", said Alter Maiden, $1 recommended they enroll in Lucent Academy for a trial experience and to gain further knowledge. \n"
+学ぶことも冒険者の仕事ならば、と、\n{playername}から勧められた【アルターメイデン】は、\nルーセント学院に体験入学をし、更なる学びを得ようとしていた。="If learning is also part of an adventurer's job", said Alter Maiden, {playername} recommended they enroll in Lucent Academy for a trial experience and to gain further knowledge. \n
 ……こう。で、こうなる、というわけ。\nここまで、分かったかしら？=...Like this. And that's how it ends up. \nHave you understood so far?
 たんまたんま～！\n二ケタのかけ算とかさ、いきなりゴン難だって。\nわかりみ浅すぎだよ～！=Just kidding! Doing double-digit multiplication out of nowhere is super difficult, you know. \nYou're way too inexperienced to understand~!
 ほんとほんと！\nアタシたちがわかんないんじゃ、\n体験入学のコたちにわかるはずないでしょ。ねぇリリさん？=Really, really! If we don't understand, \nthere's no way the transfer students for the trial enrollment will understand, right? Right, Riri?
@@ -969,7 +969,7 @@ r:"^学ぶことも冒険者の仕事ならば、と、\n(.{2,10})から勧め�
 やられ……ちゃい、まし……=I'm... done for... It's a bit... embarrassing...
 すごいですみなさん！=That was amazing, everyone!
 街を守りきりましたね☆=You've successfully protected the city, haven't you☆
-r:"^街を守ったリリたちは、住民やギルドメンバーから感謝の気持ちを受け取り、感激のあまり涙する。一方敗走したミソラは、(.{2,10})だけにそっと、今回の騒動の本当の目的を明かすのであった。$"="Riri and the others who had protected the city received gratitude from the residents and guild members, and they wept with emotion. Meanwhile, Misora, who had been routed, quietly revealed the true purpose of the current commotion to only $1."
+街を守ったリリたちは、住民やギルドメンバーから感謝の気持ちを受け取り、感激のあまり涙する。一方敗走したミソラは、{playername}だけにそっと、今回の騒動の本当の目的を明かすのであった。=Riri and the others who had protected the city received gratitude from the residents and guild members, and they wept with emotion. Meanwhile, Misora, who had been routed, quietly revealed the true purpose of the current commotion to only {playername}.
 ミソラを撃退した、数時間後──=Several hours after fighting off Misora...
 【アルターメイデン】の３人は、\nジオ・テオゴニアへの帰途へとついていた。=The three members of Alter Maiden were on their way back to Geo Teogonia.
 あ、あの……！=Ah, um...!
@@ -1062,7 +1062,7 @@ r:"^街を守ったリリたちは、住民やギルドメンバーから感謝�
 えっ……\nあ、いや……あの……！=Huh...?\nAh, no... Um...!
 …………はい…………=...Yes...
 多くのことを学び、得、\nそして己の更なる未熟さを知って\nほんの少しだけ成長した冒険者【アルターメイデン】は──=The adventurers Alter maiden, who has learned many things, gained experience, and discovered their own further immaturity has grown just a little bit──
-r:"^(.{2,10})らと共に再び、\nジオ・テオゴニアへの冒険へと、歩みを進めるのであった。$"="Together with $1 and the others, once again, they continued their journey to Geo Teogonia Adventure."
+{playername}らと共に再び、\nジオ・テオゴニアへの冒険へと、歩みを進めるのであった。=Together with {playername} and the others, once again, they continued their journey to Geo Teogonia Adventure.
 ──遡ること、数時間前。\n【アルターメイデン】がミソラを撃退した、直後のこと。=──Going back a few hours ago. \nImmediately after Alter Maiden repelled Misora.
 ランドソルの城壁に腰掛け、ミソラは一人鼻歌を歌っていた。=Sitting on the walls of Landosol Castle, Misora was humming to herself.
 ここの夕陽は、相変わらずキレイですねー……=The sunset here is still so beautiful...

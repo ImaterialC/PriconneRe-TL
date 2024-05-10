@@ -1,13 +1,13 @@
-r:"^「夢」でたい焼きを焼くたまきは、([\s\S]{2,10})に新開発の試作品を食べさせるために、公園の子供を手懐ける。作戦が成功して上機嫌のたまき。夢から覚めた後も、同じことをたくらむのだった。$"=Tamaki, who bakes taiyaki in her dreams, tries to feed $1 her new prototype by befriending the children in the park. Tamaki is in a good mood as her plan succeeds. Even after waking up from her dream, she plots the same thing.
-r:"^ある日。(.{2,10})は、\nタマキと一緒に猫にエサをあげていた。$"=One day. $1 was feeding the cats with Tamaki.
+「夢」でたい焼きを焼くたまきは、{playername}に新開発の試作品を食べさせるために、公園の子供を手懐ける。作戦が成功して上機嫌のたまき。夢から覚めた後も、同じことをたくらむのだった。=Tamaki, who bakes taiyaki in her dreams, tries to feed {playername} her new prototype by befriending the children in the park. Tamaki is in a good mood as her plan succeeds. Even after waking up from her dream, she plots the same thing.
+ある日。{playername}は、\nタマキと一緒に猫にエサをあげていた。=One day. {playername} was feeding the cats with Tamaki.
 ほ～れ、今日もエサを持ってきたにゃ。\nみんな、たっぷりと食べるのにゃ。=Here you go, I brought some food for you today~nya. Everyone, eat up~nya.
 ……？\nあ、もうエサがなくなってるのにゃ。=...? Oh, the food is already gone~nya.
 ここは新しい缶詰を開けて──=I'm going to open a new can──
 にゃっ！？\nなんにゃ、缶詰から光が……にゃああああああっ！？=Nya!? What's this, light from the can... nyaaaaaaa!?
 たい焼きは～、いらんかにゃ～？=Taiyaki, anyone want some~nya?
 美味しい美味しいたい焼きにゃ～\nよってらっしゃい、みてらっしゃい、にゃ！=Delicious delicious taiyaki~nya. Come and see, come and see~nya!
-r:"^おっ、(.{2,10})！\nちょうどいいところにきたにゃ。ほら、ちょっと寄っていくにゃ。$"=Oh, $1!\nYou came at the right time~nya.\nCome here, come here~nya.
-r:"^実はにゃ……(.{2,10})に頼みたいことがあるのにゃ。$"=Actually...\nI have a favor to ask of you, $1~meow.
+おっ、{playername}！\nちょうどいいところにきたにゃ。ほら、ちょっと寄っていくにゃ。=Oh, {playername}!\nYou came at the right time~nya.\nCome here, come here~nya.
+実はにゃ……{playername}に頼みたいことがあるのにゃ。=Actually...\nI have a favor to ask of you, {playername}~meow.
 あたしが新開発した試作品のたい焼きを食べて、\n実験台になってほしいにゃ！=I want you to eat my new prototype taiyaki and be my test subject~nya!
 一個100円のところ、特別に一個70円でいいのにゃ。\nだから頼むにゃ！=It's usually 100 yen per piece, but I'll give you a special price of 70 yen per piece~nya. So please~nya!
 ……それって、食べられるものなの？=...Is that edible?
@@ -34,7 +34,7 @@ r:"^実はにゃ……(.{2,10})に頼みたいことがあるのにゃ。$"=Actu
 うん、もちろん！=Yeah of course!
 よしよし、それじゃあ、行くにゃ！=Alright then let's go!
 お兄ちゃん！\nわたしたちが作ったたい焼き、買ってくださーい！=Onii-chan! Please buy the taiyaki we made!
-r:"^(.{2,10})！\nこの中に、あたしの試作品と子供たちが\n一生懸命作ったたい焼きが混じってるにゃ。$"=$1! Among these are my prototype and the taiyaki that the kids worked hard to make.
+{playername}！\nこの中に、あたしの試作品と子供たちが\n一生懸命作ったたい焼きが混じってるにゃ。={playername}! Among these are my prototype and the taiyaki that the kids worked hard to make.
 
 これを特別セール価格で販売するにゃ。\n子供たちが作ったたい焼きだったら、\n目の前で食べないわけにはいかないにゃ～？=I'll sell this at a special discount~nya. If it's taiyaki made by children, how could you not eat it right in front of their eyes?
 ふっふっふ……大人しくあたしの実験台になるにゃ！=Fufufu... Just obediently become my test subject~nya!
@@ -46,11 +46,11 @@ r:"^(.{2,10})！\nこの中に、あたしの試作品と子供たちが\n一生
 食べ過ぎてお腹を壊さないようににゃ。=Be careful not to upset your stomach from overeating~nya.
 うん！\nほんとうにありがとう！\nおねえちゃん、またね！=Yeah! Thank you so much! Onee-chan, see you later!
 素直ないい子たちだったにゃ。\nバイトをさせた甲斐があるのにゃ。=They were honest and good kids~nya. \nIt was worth letting them work part-time~nya.
-r:"^それで、(.{2,10})。\n調子の方はどうにゃ？$"=So, $1. How are you feeling~nya?
+それで、{playername}。\n調子の方はどうにゃ？=So, {playername}. How are you feeling~nya?
 30倍激辛たい焼きとか、しびれたい焼きとか、\n意欲的な実験作もいっぱいあったんだけどにゃ？=There were a lot of ambitious experimental products, like 30 times spicy taiyaki or numbing taiyaki~nya?
 正直、もう思い出したくもない……=Honestly, I don't even want to remember...
 うーん、実験は失敗に終わったようにゃ。\nまあ、新商品開発には犠牲がつきものにゃ。=Hmm, it seems the experiment was a failure~nya. Well, sacrifices are inevitable for new product development~nya.
-r:"^でも、今日は付き合ってくれてありがとにゃ、(.{2,10})♪$"=But thank you for joining me today~nya, $1♪
+でも、今日は付き合ってくれてありがとにゃ、{playername}♪=But thank you for joining me today~nya, {playername}♪
 はい、お疲れさま。=Well, good work.
 あんたが今、見てたのは夢みたいなものよ。\n目覚めたらすぐに忘れちゃうと思うし、\n今はあんまり気にしなくてもいいわ。=What you saw just now was something like a dream. I think you'll forget it as soon as you wake up, so don't worry too much about it right now.
 というか、あのたい焼き10個以上はあったと思うんだけど、\nあんた、よく食べきれたわね。=Or rather, I think there were more than 10 of those taiyaki, but you ate them all well.
@@ -60,12 +60,12 @@ r:"^でも、今日は付き合ってくれてありがとにゃ、(.{2,10})♪$
 あんたも、いつの間にか大変なことを\n引き受けさせられていないように、気を付けるのよ？=You should be careful not to be tricked into doing something terrible by her, okay?
 じゃあ、今日はここまで。もっと『記憶の欠片』を集めたら、\nまた『夢』を見せてあげるから。=Well then, that's it for today. When I collect more "fragments of memory", I'll show you another "dream".
 うぅ……なんだか、変な夢を見てたにゃ。=Uu... I had a weird dream~nya.
-r:"^(.{2,10})と猫にエサをあげてて、\n変な光に包まれて、何だったのかにゃ？$"=I was feeding $1 and the cats, and I was wrapped in a strange light. What was that~nya?
+{playername}と猫にエサをあげてて、\n変な光に包まれて、何だったのかにゃ？=I was feeding {playername} and the cats, and I was wrapped in a strange light. What was that~nya?
 でも……なるほど、新商品のたい焼きを食べさせるには、\nそういう手段もあるのにゃ……いいことを知ったにゃ！=But... I see. To make them eat the new taiyaki products, there's also that method~nya... I learned something good~nya!
 ……え？\n子供たちを利用するのはやめてくれ？=...Huh? "Stop using the kids"?
 なんで、あたしが見てた夢の内容を知っているにゃ！=How do you know what I saw in my dream~nya!
-r:"^……にゃるほど。\n(.{2,10})も同じ夢を見てた、と。$"=...Nyai see. $1 also saw the same dream.
-r:"^でも関係ないにゃ！　(.{2,10})には今度いっぱい、\nたい焼きを食べてもらうのにゃ！$"=But it doesn't matter~nya! I'll make $1 eat a lot of taiyaki next time~nya!
+……にゃるほど。\n{playername}も同じ夢を見てた、と。=...Nyai see. {playername} also saw the same dream.
+でも関係ないにゃ！　{playername}には今度いっぱい、\nたい焼きを食べてもらうのにゃ！=But it doesn't matter~nya! I'll make {playername} eat a lot of taiyaki next time~nya!
 ふっふっふ……楽しみにしてるのにゃ！=Fufufu... I'm looking forward to it~nya!
 タマキはそう言って、嬉しそうに笑うのだった。=Tamaki said that and smiled happily.
 
@@ -126,4 +126,4 @@ r:"^でも関係ないにゃ！　(.{2,10})には今度いっぱい、\nたい�
 
 
 
-r:"^うぐっ……確かに、(.{2,10})の気持ちもわかるにゃ。\nでも……$"=Ugh... I do understand how you feel~nya. But...
+うぐっ……確かに、{playername}の気持ちもわかるにゃ。\nでも……=Ugh... I do understand how you feel~nya. But...

@@ -1,7 +1,7 @@
 あっ。=Ah.
-r:"^無事に新年を迎え、森神に別れの挨拶をする(.{2,10})たち。カスミは森神の正体について推理するが、真相は分からない。それでも街に平和は訪れたので、みんなで初詣を満喫するのだった。$"="$1 and the others welcomed new year safely and said their goodbyes to Morigami. Kasumi deduced Morigami's true identity but the truth remains unclear. Despite that, peace has returned to the city and $1 enjoyed their first shrine visit of the year with everyone."
+無事に新年を迎え、森神に別れの挨拶をする{playername}たち。カスミは森神の正体について推理するが、真相は分からない。それでも街に平和は訪れたので、みんなで初詣を満喫するのだった。={playername} and the others welcomed new year safely and said their goodbyes to Morigami. Kasumi deduced Morigami's true identity but the truth remains unclear. Despite that, peace has returned to the city and {playername} enjoyed their first shrine visit of the year with everyone.
 
-r:"^隕石騒動の翌日である元旦……\n(.{2,10})たちは森神の祠へやってきていた。$"="The morning of the new year, a day after the meteor incident... $1 and the others came to Morigami's shrine."
+隕石騒動の翌日である元旦……\n{playername}たちは森神の祠へやってきていた。=The morning of the new year, a day after the meteor incident... {playername} and the others came to Morigami's shrine.
 
 お主らには感謝してもしきれんのじゃ。\nわしの勘違いで、危うくとんでもない事態に\nなるところじゃったよ……=I can't thank you enough. Because of my misunderstanding, the situation could've ended up as a disaster...
 うんうん。\n次から誰かのお願いを叶える時は、\nちゃんと本人に確認してからにしよう！=Yes, reflect on it. Next time when granting a wish, confirm it first from them!
@@ -80,4 +80,4 @@ r:"^隕石騒動の翌日である元旦……\n(.{2,10})たちは森神の祠�
 うちも、二人のお話に興味ありますわぁ♪=Me too, I'm also interested in what you two talked about♪
 ひぇ～！？\nこんな初詣になるはずじゃなかったのに～！？=Heeeh～!? \nHow did this shrine visit ended up like this～!?
 
-r:"^こうして無事（？）、(.{2,10})たちは隕石を迎撃し、\n楽しいお正月を過ごすことができたのだった。$"="Thus, $1 and the others stopped the meteor and could enjoy the New Year safely(?)."
+こうして無事（？）、{playername}たちは隕石を迎撃し、\n楽しいお正月を過ごすことができたのだった。=Thus, {playername} and the others stopped the meteor and could enjoy the New Year safely(?).

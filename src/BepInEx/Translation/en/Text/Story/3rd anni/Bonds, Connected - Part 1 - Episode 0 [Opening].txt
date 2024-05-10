@@ -8,7 +8,7 @@
 ありがとうございます、コッコロちゃん♪\nじゃあ、ソース作りをお任せしてもいいですか？\nそこに材料はそろえてあるので、全部まぜちゃってください☆=Thank you very much, Kokkoro! ♪\nThen, can I leave making the sauce up to you?\nThe ingredients are all over there, so just mix them all together! ☆
 分かりました、お任せくださいまし。=I understand, please leave it to me.
 僕も手伝う。=I'll help too.
-r:"^わぁっ、(.{2,10})くんも手伝ってくれるんですか？\nありがとうございます……☆\nえっと、でも他の準備は大体終わっちゃってるんですよね……$"="Wow, $1's helping out too? Thank you very much!\nUm, the other preparations are mostly done though..."
+わぁっ、{playername}くんも手伝ってくれるんですか？\nありがとうございます……☆\nえっと、でも他の準備は大体終わっちゃってるんですよね……=Wow, {playername}'s helping out too? Thank you very much!\nUm, the other preparations are mostly done though...
 では主さま、わたくしと一緒にソース作りをいたしましょう。\n器に入れた材料をかきまぜていただけますか？=Then, my Lord, let us make the sauce together.\nCould you mix the ingredients in the bowl?
 えへへ、朝から一緒にお料理なんて、\n楽しい一日になりそうですね☆=Ehehe, cooking food together in the morning like this, makes me think today's going to be lots of fun! ☆
 はい。みんなで作った朝食はきっと、\n格別の味に違いありません。=Yes.\nI'm sure that food we've made together will taste exceptional.
@@ -47,7 +47,7 @@ r:"^わぁっ、(.{2,10})くんも手伝ってくれるんですか？\nあり�
 ほらほらキャルちゃん！\nコッコロちゃんもこんなに乗り気ですよ☆=See, Kyaru?\nSee how enthusiastic Kokkoro is about this!
 分かったわよ！\n行けばいいんでしょ行けば！　どうせいつものことよね！=I get it! I'll go if I have to!\nIt'll probably go like usual anyway!
 ふふ。では、報酬の方をご用意してお待ちしていますね。\n皆さん、お気をつけて。=Hehe.\nThen we'll prepare the reward, and be waiting for you.\nBe careful, everyone.
-r:"^任せてください！\nそれじゃあキャルちゃん、コッコロちゃん、(.{2,10})くん！\n珍味を求めて出発ですよっ、おー☆$"="Leave it to us!\nOkay then, Kyaru, Kokkoro, $1!\nLet's depart, in search of a delicacy! Yeeeah!☆"
+任せてください！\nそれじゃあキャルちゃん、コッコロちゃん、{playername}くん！\n珍味を求めて出発ですよっ、おー☆=Leave it to us!\nOkay then, Kyaru, Kokkoro, {playername}!\nLet's depart, in search of a delicacy! Yeeeah!☆
 おー、でございます。=Yeeeah!
 ……おー=...Yeeeah...ー
 珍味、珍味～♪=Delicacy, delicacy!
@@ -72,7 +72,7 @@ r:"^任せてください！\nそれじゃあキャルちゃん、コッコロ�
 カリンさんに依頼された大変な珍味の魔物、発見です！\n今度はわたしも役に立ちますよっ☆\nとりゃあああっ！=We've found it!\nThe delicious monster Karin requested us to defeat!\nI'll be able to pull my weight this time! ☆Toryaaah!
 そっちに行きましたよ、キャルちゃんっ！=It running towards you, Kyaru!
 分かってるっての！\nほら、大人しく丸焼きになっちゃいなさい！=I know, you know!\nCome on, just let yourself get roasted!
-r:"^ってこら！　逃げ回るんじゃないわよ！\nあっ……しまった、(.{2,10})の方に……！$"="Wait, hey! Don't keep running around like that!\nAh... Shoot, it's going towards $1...!"
+ってこら！　逃げ回るんじゃないわよ！\nあっ……しまった、{playername}の方に……！=Wait, hey! Don't keep running around like that!\nAh... Shoot, it's going towards {playername}...!
 受け止める。=Stop the blow.
 あっ、だめです！\nその魔物、かなり力が強くて……！=Ah, you can't! That monster's really strong...!
 主さまっ！？\nお待ちください、今お助けします！=My Lord!?\nPlease wait, I'll save you!
@@ -98,7 +98,7 @@ r:"^ってこら！　逃げ回るんじゃないわよ！\nあっ……しま�
 あ、コッコロちゃんたちは座っててくださいね♪\nわたし、あまり戦いで役に立てなかったので、\n料理の方で挽回させてください♪=Ah, all of you just sit and wait!\nI didn't get to help out too much during the fight,\nso I'll make up for it with the cooking ♪
 ……ふふっ。\nでは主さま、出来上がりを一緒に待つといたしましょう。=...Hehe.\nThen my Lord, let us wait together.
 よ～しっ、できました～♪\nあとはお皿に盛って、と……☆=Alright, it's done~♪\nJust have to put them on plates and...☆
-r:"^どうぞ、これは(.{2,10})くんの分です♪\nお肉のとっても柔らかい部分ですよ～♪$"="Here you go, this is $1's share ♪\nThis part of the meat's really soft~♪"
+どうぞ、これは{playername}くんの分です♪\nお肉のとっても柔らかい部分ですよ～♪=Here you go, this is {playername}'s share ♪\nThis part of the meat's really soft~♪
 はい、キャルちゃん♪\n何かよく分からないですけど、とにかくおいしそうな部位です！=Here you go, Kyaru ♪\nI'm not sure what part it is, but it looks good!
 なんでよく分からない部位を渡すのよ！？=Why're you giving the the part you don't know!?
 そしてこれはわたしの分～♪\nそれでは皆さん、おいしくいただきましょう☆=And this is my share!\nAlright everyone, let's eat ☆

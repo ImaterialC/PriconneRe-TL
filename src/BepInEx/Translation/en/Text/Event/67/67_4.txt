@@ -5,7 +5,7 @@
 
 maybe change magic to spell? prob not
 
-r:"^オアシスを占拠した盗賊の討伐中、異国の子どもの魔法で窮地を助けられた(.{2,10})たち。その後サラサリアに戻った一行が問うと、異国の子どもは伝説のランプの魔神当人であると認めるのだった。$"="While trying to recapture the oasis overtaken by the bandits, $1 and others were saved by the foreign child's magic. When they returned to Salasaria and asked about it, the child revealed that he's the legendary genie of the lamp."
+オアシスを占拠した盗賊の討伐中、異国の子どもの魔法で窮地を助けられた{playername}たち。その後サラサリアに戻った一行が問うと、異国の子どもは伝説のランプの魔神当人であると認めるのだった。=While trying to recapture the oasis overtaken by the bandits, {playername} and others were saved by the foreign child's magic. When they returned to Salasaria and asked about it, the child revealed that he's the legendary genie of the lamp.
 
 ファリーダとサイードの婚姻が決まってから数日後──\nサレンたちは、再び国王に呼び出された。=A few days after Farida and Saeed's marriage has been decided── Saren and the group is summoned by the king.
 そなたらが後押しをしてくれた、\nあの二人の披露宴を執り行うことになった。=Thanks to your support, we'll be holding a celebration for both of them.
@@ -83,7 +83,7 @@ choice
 はぁ、はぁ……？\nあそこの盗賊たち、何をしてるの……？=Haah, haah...? What are those bandits doing over there...?
 サレンおねえちゃん！　ど、どど、毒です！\n盗賊がオアシスに毒を！！=Saren-neechan! I-It's poison! They're poisoning the oasis!
 あなた、なんでここにいるの！\n──それより、毒ですって！？=Why are you here!? ──And what do you mean by poison!?
-r:"^(.{2,10})！　それを入れさせないで！！$"="$1! Don't let them put that in!!"
+{playername}！　それを入れさせないで！！={playername}! Don't let them put that in!!
 間に合え……っ！=Please make it in time...!
 はん、気づいたか。だが遅え。\nこれで仕舞いだ──=Ha, did you notice? But you're too late, this is the end──
 くっ、これ以上近づけないわ……！\n動けそうなのはあいつだけだけど……ここからじゃ遠すぎて、\n間に合わない……！　=Ughh, I can't get close...! He's the only one who can catch it... But he's too far from there, he won't make it in time...!　
@@ -91,7 +91,7 @@ r:"^(.{2,10})！　それを入れさせないで！！$"="$1! Don't let them pu
 ──えいっ！！=──Hyahh!!
 なっ……毒薬が、宙に浮いてやがる！？=Wha── The poison is floating in the air!?
 毒薬をキャッチする。=Catch the poison.
-r:"^(.{2,10})！　それをこっちに！\n……やったわ！！$"="$1! You did it! Quick, come this way!"
+{playername}！　それをこっちに！\n……やったわ！！={playername}! You did it! Quick, come this way!
 くそっ、何がどうなってやがる！！\nおかしな魔法でも掛けられてんのか？=Shit, what the hell just happened!!\nWas it some kind of strange magic?
 年貢の納め時ってやつだよ。\nアンタらの悪事もこれでおしまいさ！=It's time to pay the price. This is the end of your evil deeds!
 くそっ、諦めねぇぞ！　俺たちはまだ！\nこんな所で終わるわけには……っ！！=Kuhh, I'm not going to give up!\nThere's no way we'll go down in a place like this!!
@@ -113,7 +113,7 @@ r:"^(.{2,10})！　それをこっちに！\n……やったわ！！$"="$1! You
 いきなり言われても……\nそりゃまた、にわかには信じがたい話だね。=That's surprising... I find it quite hard to believe.
 あはは、唐突な話ですよね。\nすぐには信じられないかもですけど、本当なんですよ。=Ahaha, it's an abrupt story I'm sure. You might not be able to believe me right away, but it's really true.
 サレンおねえちゃんが、ボクに願ってくれたから……\nこのランプから出られたんです。\nでも、ちょっと長く魔法をかけすぎちゃったみたいですね。=Because Saren-neechan wished to me... I was able to get out of the lamp.\nBut it looks like I've kept the magic running for too long.
-r:"^魔法って……もしかして……\n(.{2,10})と会ったのも……全部あなたが？$"="Magic... Was that... Why I met $1 so suddenly...\nAll of this was because of you?"
+魔法って……もしかして……\n{playername}と会ったのも……全部あなたが？=Magic... Was that... Why I met {playername} so suddenly...\nAll of this was because of you?
 はいっ。トラブルもいっぱいでしたけど……\n楽しい旅行になるようにがんばりましたっ。=Yes. There was a lot of trouble during the way, but I did my best to make it a fun trip.
 サレンおねえちゃん……\nこのサラサリアへの旅行、楽しんでもらえましたか？=Saren-neechan...\nDid you have fun during this trip to Salasaria?
 え、ええ……色々あったけど。\nそうね、退屈することはなかったかも。=Y-Yes... Lots of things happened, but I think overall I wasn't bored at all.
@@ -124,4 +124,4 @@ r:"^魔法って……もしかして……\n(.{2,10})と会ったのも……�
 なんと、不思議なこともあるもんじゃ。\nまさかランプの伝承が本当じゃったとは……=That sure was strange.\nI didn't think the legend of the lamp was actually real...
 目の前で見ても、まだ信じられないわ……\nあたしたち、ずっと伝説の魔神と一緒だったってこと？=I can't believe it even after seeing it with my own eyes...\nSo we were with a legendary genie all this time?
 狐につままれたみたいな話だね……\n……さて、一体どうしたもんか。=It's like I got pinched by a fox spirit...\nNow what?
-r:"^笑顔を残して、ランプの中に消えた魔神。\n残された静けさの中、(.{2,10})たちは\n熱を持っていた頭の芯がスッと冷えていくのを感じていた。$"="The genie disappeared into the the lamp with a smile. In the remaining silence, the faces of $1 and others start to turn red as they start realizing what has happened."
+笑顔を残して、ランプの中に消えた魔神。\n残された静けさの中、{playername}たちは\n熱を持っていた頭の芯がスッと冷えていくのを感じていた。=The genie disappeared into the the lamp with a smile. In the remaining silence, the faces of {playername} and others start to turn red as they start realizing what has happened.

@@ -23,12 +23,12 @@
 ……確かにそうかもしれませんけど！\nでも、みんなは付き人じゃなくて……その……=...Okay, so maybe they're kinda suspicious.\nBut these people aren't my 'attendants'! They're...
 付き人じゃ入れない……なら、\nそれ以外で一緒に旅行するような間柄……はっ！　=If not as my attendants...\nThen another relationship where we can travel together... Ah!　
 えぇと……そう！\nあたしたちは……その、家族なんです！　そうよね！？=Umm... that's right!\nAll of us are... a family! Right!?
-r:"^(.{2,10})とは家族みたいなもんだし、\nルカさんもこの子も、親戚としてなら……！　$"="$1 and me should look fine as a family, then Ruka and this child can pass as our relatives...!"
+{playername}とは家族みたいなもんだし、\nルカさんもこの子も、親戚としてなら……！　={playername} and me should look fine as a family, then Ruka and this child can pass as our relatives...!
 それが、サレンおねえちゃんのお願いですか？=Saren-neechan, is that your wish?
 ええ、そうよ、そういうフリをしてちょうだい！=Yes, just like that! Pretend we are a family like that!
 そ……そうですっ！\nそうだよね、お父さん、お母さんたち！！=I see...!\nSo you're my father and mothers!
 たち！？=Mothers!?
-r:"^あっ、えぇっと……\nじ、実は……あたしたち、夫婦なんです。\nあたしと、(.{2,10})と、ルカさん。３人の。$"="Umm... Actually... The three of us are actually married.\nMe, Ruka-san, and $1!"
+あっ、えぇっと……\nじ、実は……あたしたち、夫婦なんです。\nあたしと、{playername}と、ルカさん。３人の。=Umm... Actually... The three of us are actually married.\nMe, Ruka-san, and {playername}!
 サレン！？　アンタ何を──=Saren!?\nWhat are you──
 しっ！　ルカさん、とりあえずここは話を合わせて！=Shh! Ruka-san, just go along for now!
 お願いします、門番さん。\nボクたち、家族みんなでここを通りたいんです。=Please, Mr. Gatekeeper.\nI want to pass through here with my family.
@@ -57,8 +57,8 @@ r:"^あっ、えぇっと……\nじ、実は……あたしたち、夫婦な�
 ごくごく……=*swallows*...
 えぇっ？　またなんか買ったの？\n今の一瞬で！？=Eh? Did you buy another one already!?
 こっちはシードレイクも凍える激烈ソルティミントアイス～\n一個300ルピ～=This one is a violent salty mint ice cream that'll freeze even sea drakes～ It's 300 rupies a piece～
-r:"^ちょっと(.{2,10})、財布を出しなさい！\nこれ以上、無駄遣いできないよう\n紐を固～～～く結んどいてあげるから！！$"="$1, hand over your wallet! I'll tie it so tight that you don't waste more money on this!"
-r:"^夫婦漫才は結構だけど、\nちょっとこの場を離れた方がいいんじゃないかい？\nこのままじゃ(.{2,10})が破産しちまうよ。$"="I don't mind the husband-wife skit, but shouldn't we leave this place first?\nAt this rate, $1 will go bankrupt."
+ちょっと{playername}、財布を出しなさい！\nこれ以上、無駄遣いできないよう\n紐を固～～～く結んどいてあげるから！！={playername}, hand over your wallet! I'll tie it so tight that you don't waste more money on this!
+夫婦漫才は結構だけど、\nちょっとこの場を離れた方がいいんじゃないかい？\nこのままじゃ{playername}が破産しちまうよ。=I don't mind the husband-wife skit, but shouldn't we leave this place first?\nAt this rate, {playername} will go bankrupt.
 はぁ……どっっっと疲れたわ。\n入国してまだたいして時間も経ってないわよ……\n先が思いやられるわね。=Haah... I'm this tired already and it hasn't even been that long since we first entered the country...\nI'm worried about what I'll have to deal with next.
 お疲れさん。しっかし……人だかりもだけど\nこの暑さはかなり堪えるよ。=Good job... But I'm surprised that people can bear the heat with these much people around.
 お二人の格好だとこの国では目立ちますし、暑いですから\n着替えた方がいいですね。\nほら、こっちに服屋もありますよ。=Then you two should change your clothes, it'll make you stand out less and it'll feel cooler.\nLook, there is a clothing store over here.
@@ -91,7 +91,7 @@ movie dialogue
 僕たちも行こうか=Then let us go too.
 
 
-r:"^宮殿へたどり着いた(.{2,10})たちは、\n事情を話すと、すぐに謁見の間へと通された。$"="$1 and the others arrived at the palace, explained their situation, and was immediately brought to an audience with the king"
+宮殿へたどり着いた{playername}たちは、\n事情を話すと、すぐに謁見の間へと通された。={playername} and the others arrived at the palace, explained their situation, and was immediately brought to an audience with the king
 おお、このランプに刻まれたるは我が国の紋章！\nかつて失われた、国宝が戻ってこようとは。=Ohh, our country's emblem is engraved on this lamp!\nThis is a once lost national treasure and now it has finally returned.
 サレンおねえちゃん。\nあの人がサラサリアの国王さまですか？=Saren-neechan.\nIs that person the king of Salasaria?
 ええ、とっても偉ーい人なの。\nお願いだからいい子にしててね。=Yeah, he's a very important person.\nSo please be a good child, okay?
@@ -117,7 +117,7 @@ r:"^宮殿へたどり着いた(.{2,10})たちは、\n事情を話すと、す�
 まあ、おとぎ話はおとぎ話だったわけじゃな。\n大昔の伝承など、大げさに脚色されるが常ゆえ。=Well, I guess fairy tales are just fairy tales.\nLegends from ancient times are usually exaggerated.
 残念、魔法の宴ってのがどんなのか、\n一度拝んでみたかったね。=Too bad, I wanted to see what a magical banquet would look like.
 なに、人の宴も捨てたものではないぞ。\n我が国の宝を持ち帰ってくれたのじゃ。\n是非、そなたらをもてなさせてくれ。=Well, we still can throw a normal banquet.\nYou've brought back our country's treasure so please let me treat you.
-r:"^それからしばらく後──\n(.{2,10})たちは国王の使者に連れられ、\n歓待の宴が開かれる屋敷へやってきた。$"="After a while, $1 and the others were taken by the king's messenger and is led to the mansion where a welcome banquet are going to be held."
+それからしばらく後──\n{playername}たちは国王の使者に連れられ、\n歓待の宴が開かれる屋敷へやってきた。=After a while, {playername} and the others were taken by the king's messenger and is led to the mansion where a welcome banquet are going to be held.
 おお、そなたら。\n宴の準備はできておるぞ。=Oh, there you guys are.\nThe banquet is ready.
 国王さま、ここは……？=King, this place is...?
 客人用の屋敷じゃ。\nそなたらがサラサリアに滞在する間は、\nこの屋敷を自由に使うがよい。=This is a mansion for guests of ours.\nYou can use this mansion freely during your stay in Salasaria.
@@ -129,11 +129,11 @@ r:"^それからしばらく後──\n(.{2,10})たちは国王の使者に連�
 ふ、夫婦！？　って、それは……！=N-newlyweds!? T-that's...!
 うむ、やっぱりのう。わしの見立て通りじゃ。\n付き人にしては妙に距離感が近いと思っておった。=Humu, I did think you were a bit too close to be attendants.
 い、いやですわ、国王さまったら。\nこれには事情がありまして──=N-No there's a misunderstanding.\nThere's a good reason for all of this──
-r:"^何を言う、今も(.{2,10})殿に腕を絡めて\nぴったり寄り添っておるではないか。$"="What are you saying, you even have your arms wrapped around $1-dono right now."
+何を言う、今も{playername}殿に腕を絡めて\nぴったり寄り添っておるではないか。=What are you saying, you even have your arms wrapped around {playername}-dono right now.
 えっ？　……はっ、いつの間に！？=Eh? ...Since when!?
 サレン、アンタ……\n夫婦ってのは方便だったはずじゃ……=Saren... You're really taking advantage of this...
 ルカさん待って。誤解よ！　そんな白い目で見ないで！\nあたしにも、なにがなんだか……=Wait a minute, Ruka! It's a misunderstanding!\nDon't look at me with such judging eyes!\nI don't know what happened to myself...
-r:"^そういうルカ殿も、サレン殿の反対側で\n(.{2,10})殿の手を握っておるな。\n離すまいと情熱的に指を絡め合っておる。$"="That said, Ruka-dono is also grasping $1-dono's other hand. Those hands are locked so passionately as if you won't let it go for anything."
+そういうルカ殿も、サレン殿の反対側で\n{playername}殿の手を握っておるな。\n離すまいと情熱的に指を絡め合っておる。=That said, Ruka-dono is also grasping {playername}-dono's other hand. Those hands are locked so passionately as if you won't let it go for anything.
 なっ？　……ええ！？　いつの間に！？=Huh? ...Ehh, since when!?
 ルカさん……\n人に言っておいて、自分だって……=Ruka-san...\nAdmonishing others even though you're doing it yourself...
 ちょっと待っとくれ！\n何が、どうなって……？=Wait a minute! Why did I...?

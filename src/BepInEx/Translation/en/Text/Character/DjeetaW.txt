@@ -13,8 +13,8 @@ r:"^自分の魔法攻撃力を(\d+)アップ敵単体に(\d+)の魔法ダメー
 
 ##S1##
 ブラックヘイズ=Black Haze
-目の前の敵１キャラを中心に魔法ダメージフィールドと、魔法攻撃力と魔法防御力を中ダウンさせるフィールドを展開する。=Deploys a field around an enemy in front that deals M.DMG every second, and moderately lowers enemies' M.ATK and M.DEF in range.
-r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開するフィールド内の敵の魔法攻撃力(\d+)ダウンフィールド内の敵の魔法防御力(\d+)ダウン$"=►Deploys a 400 radius field around an enemy in front that deals $1 M.DMG/s for 12s.\n►Lowers enemies' M.ATK in 400 range by $2 for 12s.\n►Lowers enemies' M.DEF in 400 range by $3 for 12s.
+目の前の敵１キャラを中心に魔法ダメージフィールドと、魔法攻撃力と魔法防御力を中ダウンさせるフィールドを展開する。=Deploys a 400 radius field around an enemy in front that deals M.DMG every second, and moderately lowers enemies' M.ATK and M.DEF in 400 range.
+r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開するフィールド内の敵の魔法攻撃力(\d+)ダウンフィールド内の敵の魔法防御力(\d+)ダウン$"=►Deploys a field around an enemy in front that deals $1 M.DMG/s for 12s.\n►Lowers enemies' M.ATK in range by $2 for 12s.\n►Lowers enemies' M.DEF in range by $3 for 12s.
 
 ##S2##
 チェイサー=Chaser
@@ -24,3 +24,10 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリ�
 #EX#
 魔導の達士=Master of Magic
 魔導の達士+=Master of Magic+
+
+##UE##
+デモンズシャフト=Demon's Shaft
+
+##S1+##
+ブラックヘイズ+=Black Haze+
+目の前の敵１キャラを中心に魔法ダメージフィールドと、魔法攻撃力と魔法防御力を中ダウンさせるフィールドを展開する。自分に【万象の刻印】が付与されている場合、このスキルの効果量が上昇する。=Deploys a field around an enemy in front that deals M.DMG every second, and moderately lowers enemies' M.ATK and M.DEF in range. If Djeeta has [Crest of All Creation], boosts all skill effects by x1.22.

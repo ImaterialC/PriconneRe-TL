@@ -2,14 +2,14 @@
 園児２=Kindergarten Children 2
 先生=Sensei
 園児たち=Kindergarten Childrens
-r:"^(.{2,10})とフラワーフェスに出かけた鏡華は、そこで出会った\n子どもたちに植物の知識を披露し好評を得る。帰り際、お土産\nにもらった花の種の花言葉に一人ドキドキして空回るのだっ\nた。$"="Kyouka went to the Flower Fest with $1, where she impressed the children she met with her knowledge of plants and received high praise. On her way back, she was filled with excitement about the language of the flower seeds she received as a souvenir and ended up feeling a bit overwhelmed."
+{playername}とフラワーフェスに出かけた鏡華は、そこで出会った\n子どもたちに植物の知識を披露し好評を得る。帰り際、お土産\nにもらった花の種の花言葉に一人ドキドキして空回るのだっ\nた。=Kyouka went to the Flower Fest with {playername}, where she impressed the children she met with her knowledge of plants and received high praise. On her way back, she was filled with excitement about the language of the flower seeds she received as a souvenir and ended up feeling a bit overwhelmed.
 おはなクンとの旅を断念し、ランドソルに残ることを決めたキョウカ。=Kyouka decided to give up her trip with Ohana-kun and stay in Landosol.
 迷いが晴れ、より精力的に地域の緑化活動に取り組んでいた。=With her doubts cleared, she became more energetic in her local greenery activities.
 ふふふ♪=Hehehe!
 当然ですよ。おはなクンのお誘いを断ったんです、\nちゃんと成長しなきゃガッカリされちゃいますから。=Of course. I turned down Ohana-kun's invitation because I need to grow up properly; otherwise, he'd be disappointed.
 さあ、たっぷりのお水とお日さまですくすく育ってくださいね。\n……って、なんだか日差し強くないですか？=Alright, let's give you plenty of water and sunlight to grow nice and strong... Wait, isn't the sun too bright today?
 いくらなんでもまぶしすぎ、キャー！=No matter how you look at it, it's too bright, kyaa!
-r:"^その日(.{2,10})は鏡華に誘われ\n自然庭園を訪れていた。$"="On that day, $1 was invited by Kyouka to visit the natural garden."
+その日{playername}は鏡華に誘われ\n自然庭園を訪れていた。=On that day, {playername} was invited by Kyouka to visit the natural garden.
 ……着きましたよ。まずは落ち着いて深呼吸です。\nスー、ハー……よし、さあ行きましょう！=...We've arrived. First, take a deep breath to calm down. Inhale... Exhale... Alright, let's get going!
 はい、年に一度のフラワーフェスですから。\n今が見ごろの季節のお花や、珍しい植物まで見れるんですよ！=Yes, this is the annual Flower Fest. You can see the flowers that are in full bloom this season, along with some rare plants!
 展示されるお花の予習はバッチリですし、\n効率的に回れるルートも考えてきました！\nそれから……はっ！=I've thoroughly studied the flowers that will be on display, and I've planned out the most efficient route! And also... huh!
@@ -67,7 +67,7 @@ r:"^その日(.{2,10})は鏡華に誘われ\n自然庭園を訪れていた。$"
 勢いで引き受けてしまいましたが私もお勉強したてで、\nちゃんとできていたかどうか心配で……=I kind of jumped into it without much preparation, and I'm a bit worried about whether I did it right or not...
 ……だとしたら、ちょっとは自信もっていいかもですね。\nふふ、私ちゃんとお姉さんできましたよ。=... If that's the case, maybe I can feel a bit more confident. Hehe, I think I did a good job as the older sister.
 それでは、今度は私たちが楽しむ番です。\n早く行きましょう。お花たちが待ってますよ！=Now, it's our turn to have fun. Let's hurry and go. The flowers are waiting for us!
-r:"^そうして鏡華と(.{2,10})は\nイベントを存分に楽しんだ。$"="And so, Kyouka and $1 thoroughly enjoyed the event."
+そうして鏡華と{playername}は\nイベントを存分に楽しんだ。=And so, Kyouka and {playername} thoroughly enjoyed the event.
 ご来場ありがとうございました。\nこちらお土産のお花です。=Thank you for coming. Here's a flower as a souvenir.
 わあ、とてもきれいです。ありがとうございます！=Wow, it's beautiful! Thank you!
 それとこれはお二人にだけ、こっそりサービスです。=And this is a special service just for the two of you.

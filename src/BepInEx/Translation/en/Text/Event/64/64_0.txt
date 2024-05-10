@@ -1,4 +1,4 @@
-r:"^グルメバカンスを過ごすべくオーマを訪れたネネカ、アキノ、ユカリと(.{2,10})。しかし目当てのトゥンヌスは、期待とは程遠い微妙な味。どうやらオーマの海にただ事ではない異変が起きている。$"=Neneka, Akino, Yukari and $1 visited Ohma to enjoy a gourmet vacation. But their target, the Tunnus fish, had a mediocre taste that was far from their expectations. It seemed that something unusual was happening in the sea of Ohma.
+グルメバカンスを過ごすべくオーマを訪れたネネカ、アキノ、ユカリと{playername}。しかし目当てのトゥンヌスは、期待とは程遠い微妙な味。どうやらオーマの海にただ事ではない異変が起きている。=Neneka, Akino, Yukari and {playername} visited Ohma to enjoy a gourmet vacation. But their target, the Tunnus fish, had a mediocre taste that was far from their expectations. It seemed that something unusual was happening in the sea of Ohma.
 嘘と本当。\n勝利と敗北。=Lies and truth. Victory and defeat.
 ……水と空気。=...Water and air.
 白と黒。\n好きと、好きじゃない──=White and black. Love and hate.
@@ -57,7 +57,7 @@ r:"^グルメバカンスを過ごすべくオーマを訪れたネネカ、ア�
 チイッスお待たせしましたー！\nトゥンヌスの薄造りアーンドゥ煮つけでございまーッス。=Here you go, sorry for the wait! Thin slices of Tunnus and stewed Tunnus!
 ウェイター=Waiter
 あっ、じゃ、と、とりあえず、とりあえず食べましょ！\n空気が凍った時は食べる！　そして飲む！　ね、それがいいわ。=Ah, then, f-for now, let's eat! When the situation freezes, we eat! And drink! Right, that's good.
-r:"^で、ですわね！\nどうぞ、ネネカさん。\nほら、(.{2,10})さまも、従者様も……！$"=Y-yes! Here you go, Neneka-san. Look, $1-sama and the attendant too...!
+で、ですわね！\nどうぞ、ネネカさん。\nほら、{playername}さまも、従者様も……！=Y-yes! Here you go, Neneka-san. Look, {playername}-sama and the attendant too...!
 せーの！=Ready!
 いただきます。=Bon Appétit.
 一同=Everyone

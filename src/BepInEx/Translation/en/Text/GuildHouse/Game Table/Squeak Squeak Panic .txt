@@ -112,7 +112,7 @@ r:"^([^\d]+)をクリアすると解放されます。$"=Clear $1 to unlock.
 木槌選択=Hammer Selection
 装備するアイテムを選んでください=Select weapon to use.
 
-r:"^\[FFBB00,CE4F00\]累計(.{2,10})pt\n\[-\]\[3C404E\]で解放されます\[-\]$"=[3C404E]Unlocked at [FFBB00,CE4F00]$1\n      total points.[-]
+\[FFBB00,CE4F00\]累計{playername}pt\n\[-\]\[3C404E\]で解放されます\[-\]=[3C404E]Unlocked at [FFBB00,CE4F00]{playername}\n      total points.[-]
 
 [3C404E]装備すると\\nほんき上昇率が\\n[FFBB00,CE4F00]1.2倍[-]になる。[-]=[3C404E]Increases the Effort Gauge gain\nby[FFBB00,CE4F00]1.2 times.[-]
 [3C404E]装備すると\\n攻撃が届く範囲が\\n[FFBB00,CE4F00]1.2倍[-]になる。[-]=[3C404E]Increases the attack range gain\nby[FFBB00,CE4F00]1.2 times.[-]

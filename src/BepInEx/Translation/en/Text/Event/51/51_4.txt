@@ -73,7 +73,7 @@
 それじゃあ、明日の朝に迎えにくるよ。\n夜も遅いから、今からの移動は大変だろうからね。=Then I'll come pick you up tomorrow morning. It's late at night, so it would be tough to travel now.
 はい！　首を長くして、お待ちしております！\nそれでは、また明日！　おやすみなさい！=Yes! I'll eagerly await your arrival! Well then, see you tomorrow! Good night!
 
-r:"^(.{2,10})は、\nアオイたちがいると思われるキャンプ場を目指していた。$"=$1 was heading towards a campsite where Aoi and the others were believed to be.
+{playername}は、\nアオイたちがいると思われるキャンプ場を目指していた。={playername} was heading towards a campsite where Aoi and the others were believed to be.
 
 おや、こんにちは。\nこの先にあるキャンプ場に行かれるんですか？=Oh, hello. Are you heading to the campsite ahead?
 キャンパー=Camper

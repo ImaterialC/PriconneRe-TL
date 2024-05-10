@@ -1,9 +1,9 @@
 森神=Morigami
 イノリ・森神=Inori & Morigami
 
-r:"^森の祠で、森神を名乗る少女と出会った(.{2,10})たち。隕石はイノリの願いを誤解した森神が呼び寄せたものだった。カスミは森神の「願いを叶える力」で隕石を迎撃することを提案する。$"="In the forest shrine, the girl introduces herself as Morigami to $1 and his group. The meteor was summoned by Morigami because she misunderstood Inori's wish. Kasumi suggests to use Morigami's 'Wish Granting Power' to intercept the meteor."
+森の祠で、森神を名乗る少女と出会った{playername}たち。隕石はイノリの願いを誤解した森神が呼び寄せたものだった。カスミは森神の「願いを叶える力」で隕石を迎撃することを提案する。=In the forest shrine, the girl introduces herself as Morigami to {playername} and his group. The meteor was summoned by Morigami because she misunderstood Inori's wish. Kasumi suggests to use Morigami's 'Wish Granting Power' to intercept the meteor.
 
-r:"^予知夢で見た隕石落下を阻止すべく\n動き始めた(.{2,10})たち。\n手がかりを求めて、森にある祠を目指していた……$"="$1 and the others began moving to prevent the prophetic dream where the meteor crashes on the city. They headed for the forest shrine for a clue..."
+予知夢で見た隕石落下を阻止すべく\n動き始めた{playername}たち。\n手がかりを求めて、森にある祠を目指していた……={playername} and the others began moving to prevent the prophetic dream where the meteor crashes on the city. They headed for the forest shrine for a clue...
 はぁ、はぁ……森の奥って聞いてはいたけど……\n本当に奥地なんだね。\nハツネさん、足元は大丈夫かい？=Haah... Haah... I heard that it was deep in the forest... But it really is deeper than I thought. Hatsune-san, is your feet fine walking this far?
 うーん、ちょっと大変かも～……\nキミと初詣に行くときは、何か工夫した方がいいかな？=Hmm, it's a bit tiring... But when I go with him on my first shrine visit later, I can probably make do somehow?
 えっ、ハツネさん、助手くんと初詣に行くのか……！？\n完全に出遅れてしまったじゃないか……！　=Ehh!? Hatsune-san was planning on taking Assistant-kun on her first shrine visit...!? Am I being left behind...!

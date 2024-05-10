@@ -1,6 +1,6 @@
 交錯する境界線=Intersecting Boundaries
-r:"^(.{2,10})たちを助けた二人組、シナツとアイラ。彼女たちは別のレジェンドオブアストルムからやってきた、もう一人のレイとヒヨリだと言う。戸惑う面々に、シナツたちは状況を説明していく。$"=Shinatsu and Aira, the pair who saved $1 and the others, claim to be a copy of Rei and Hiyori from another Legend of Astrum. Shinatsu explains the situation to the bewildered trio.
-r:"^(.{2,10})たちの前に現れた二人の人物。\n正体不明の彼女たちに対し\n霧の精霊は敵対心を露にして襲いかかっていた……$"=As the two mysterious women appeared before $1 and the others, the Red Fog Spirit turned their hostility towards them and began it's assault...
+{playername}たちを助けた二人組、シナツとアイラ。彼女たちは別のレジェンドオブアストルムからやってきた、もう一人のレイとヒヨリだと言う。戸惑う面々に、シナツたちは状況を説明していく。=Shinatsu and Aira, the pair who saved {playername} and the others, claim to be a copy of Rei and Hiyori from another Legend of Astrum. Shinatsu explains the situation to the bewildered trio.
+{playername}たちの前に現れた二人の人物。\n正体不明の彼女たちに対し\n霧の精霊は敵対心を露にして襲いかかっていた……=As the two mysterious women appeared before {playername} and the others, the Red Fog Spirit turned their hostility towards them and began it's assault...
 よっと！\n今のはいい動きだったね～！\nま、お姉さんを捕まえるにはちょ～っと足りないけどね♪=Woah! That was a nice try!\nWell, you're still just a li~ttle too slow to catch your big sis♪
 す、すごい……！\n二人だけで、あんなに押してる……！=W-Wow...! It's just the two of them, but they're pushing the spirit back so much..!
 あの動き、あの剣さばき……\n相当な実力の持ち主だ。\n明らかにただ者ではない。=That movement, that swordsmanship...\nShe's extremely skilled. It's clear she's no ordinary fighter.

@@ -6,9 +6,9 @@
 ごろつき２=Punk 2
 ディーラー=Dealer
 
-r:"^突如現れたミソラに、半ば強引にデートへ連れ出された(.*)\n(.*)。テレポーテーションで様々なデートスポットを回った後、\nミソラはその真意を語り、「騎士さんラブになりたい」と宣言\nする。$"=Misora suddenly appeared and took $1$2 on a date.\nAfter teleporting through various dating spots, she revealed her true intention and declared 'I want to\nlove Kishi-san'.
+突如現れたミソラに、半ば強引にデートへ連れ出された{playername}。テレポーテーションで様々なデートスポットを回った後、ミソラはその真意を語り、「騎士さんラブになりたい」と宣言する。=Misora suddenly appeared and took {playername} on a date.\nAfter teleporting through various dating spots, she revealed her true intention and declared 'I want to\nlove Kishi-san'.
 
-r:"^ある日。\n(.{2,10})が、バイトから帰る途中──$"=One day, $1 is going home from a part-time job.
+ある日。\n{playername}が、バイトから帰る途中──=One day, {playername} is going home from a part-time job.
 
 ふふっ★\nだ～～れだっ？=Hehe★ Whooo am I?
 
@@ -242,4 +242,4 @@ r:"^ある日。\n(.{2,10})が、バイトから帰る途中──$"=One day, $1
 
 でもでも？\nさっきも言ったとおり、わたし諦めないですから♪\n騎士さんラブになれるように、これからがんばりまーす★=But...! I’m not going to give up♪\nI’ll do my best starting from now so I can get to love Kishi-san★
 
-r:"^──かつて敵として出会い、\n(.{2,10})たちと何度も争った少女・ミソラ。\n果たして彼女は、(.{2,10})ラブになれるのだろうか……？$"=──they first met as enemies, the girl who fought with $1 many times previously, Misora.\nCan she really get to love $3...?
+──かつて敵として出会い、\n{playername}たちと何度も争った少女・ミソラ。\n果たして彼女は、{playername}ラブになれるのだろうか……？=──they first met as enemies, the girl who fought with {playername} many times previously, Misora.\nCan she really get to love {playername}...?

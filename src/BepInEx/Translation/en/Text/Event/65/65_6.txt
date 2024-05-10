@@ -1,7 +1,7 @@
 悪霊=Wraith
 悪霊のすすり泣き=Wraith's Grief
-r:"^色々あったものの、無事二人が復活したことを喜ぶ(.{2,10})たち。そこに霊障の元凶である悪霊が出現。散々クウカたちに邪魔をされて怒り心頭の悪霊だったが、あっさり除霊されてしまう。$"="After all the events, $1 and the others rejoice over the safe revival of the two. Just then, the evil spirit, the root cause of the haunting, appears. Despite being furious and causing trouble for Kuuka and the others, it is easily exorcised."
-r:"^幽体離脱から復活までの経緯を語り終えたクウカとドクロ親父。\n二人はほっと一息つき、(.{2,10})たちの\n様子をうかがっていた。$"="Kuuka and Skull Father finish recounting their experiences from astral projection to revival. The two take a moment to catch their breath and observe $1 and the others."
+色々あったものの、無事二人が復活したことを喜ぶ{playername}たち。そこに霊障の元凶である悪霊が出現。散々クウカたちに邪魔をされて怒り心頭の悪霊だったが、あっさり除霊されてしまう。=After all the events, {playername} and the others rejoice over the safe revival of the two. Just then, the evil spirit, the root cause of the haunting, appears. Despite being furious and causing trouble for Kuuka and the others, it is easily exorcised.
+幽体離脱から復活までの経緯を語り終えたクウカとドクロ親父。\n二人はほっと一息つき、{playername}たちの\n様子をうかがっていた。=Kuuka and Skull Father finish recounting their experiences from astral projection to revival. The two take a moment to catch their breath and observe {playername} and the others.
 ご、ご理解いただけましたかぁ……？\nクウカたちの長い戦いを～……！=Did you, um, understand...? The long battle that Kuuka and the others fought...!
 ふっふっふー。感動して言葉も出んだろう。\n成仏しかかってたのに煩悩全開で戻ってくるところなんか、\n涙なしじゃ聞いてらんねえよな～！=Fufufu~. You must be moved to the point where words won't come out. Returning from the brink of passing on and coming back full of desires, hearing that with dry eyes is impossible~!
 あ、あの……シノブ、ちゃん。\nこれって、つまり……？=Uh, um... Shinobu-chan. So, you mean...?
@@ -67,7 +67,7 @@ r:"^幽体離脱から復活までの経緯を語り終えたクウカとドク�
 じゃ、じゃあ……\nこれで本当の本当に、依頼は完了……？=S-So, does this really, really complete the request...?
 わたし、シノブちゃんや、オーナーさんや……\n街のひとの……役に、立てたの……？=Did I... help Shinobu-chan, the owner, and the people in the city...?
 ええ。もちろんですよ、ランファさん。\n除霊は完了……一件落着です！=Yes, of course, Ranpha-san.\nThe exorcism is complete... the mission is accomplished!
-r:"^忘れかけていた元凶の悪霊を退治した(.{2,10})たち。\nようやく全員揃った一行は、晴れやかな面持ちで\n夏の夜に浮かぶ月を見つめるのであった。$"="Having vanquished the forgotten root of evil spirits, $1 and her team finally assembled with a bright expression, gazing at the moon in the summer night."
+忘れかけていた元凶の悪霊を退治した{playername}たち。\nようやく全員揃った一行は、晴れやかな面持ちで\n夏の夜に浮かぶ月を見つめるのであった。=Having vanquished the forgotten root of evil spirits, {playername} and her team finally assembled with a bright expression, gazing at the moon in the summer night.
 ホ～ワ～……\nキレイナ花畑～……=How... wonderful... the beautiful flower field...
 クウカもおかえり。=Kuuka, welcome back.
 成仏シヨ……=Rest in peace...

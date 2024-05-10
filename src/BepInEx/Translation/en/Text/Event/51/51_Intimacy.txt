@@ -67,7 +67,7 @@ eh?今、団長さんの声が聞こえたような……？\n……げ、幻聴
 ふふ、そう言ってくれるわよね。優しい彼だったら。\n……さて！　いつまでも疲れてないで切り替えましょ！\n次に来るときまでに勉強しておけばいいんだし？　今は結果オーライよ！=He would say that if he's a kind person. ...Well then! Let's not stay tired forever and switch gears! I should study before the next time he comes. The result will be fine for now!
 目のホヨー=Focus on the target.
 そっ……そんなことないわよぉ？\nお姉さんが不器用だなんて、あるわけないじゃな～い！\n……はっ！？　私、誰もいないのに言い訳しすぎ……？=Tha-... That's not true at all! There's no way I, as your older sister, would be clumsy. ...Huh!? I'm making excuses even though no one is here to hear them...?
-r:"^最高の一杯を求めて！　やってきたわよ、キャンプ場！\n知り合いの姿も見えないし一安心ね。なにせ目的が目的だもの……\n特に(.{2,10})くんに見られたら、なんて言われるか……$"=In search of the ultimate cup! I've arrived at the campsite! It's a relief not seeing any familiar faces. After all, my purpose is my purpose... Especially if $1-kun were to see me, what would he say...
+最高の一杯を求めて！　やってきたわよ、キャンプ場！\n知り合いの姿も見えないし一安心ね。なにせ目的が目的だもの……\n特に{playername}くんに見られたら、なんて言われるか……=In search of the ultimate cup! I've arrived at the campsite! It's a relief not seeing any familiar faces. After all, my purpose is my purpose... Especially if {playername}-kun were to see me, what would he say...
 僕も飲みたい！=I want to drink it too!
 趣味を楽しんでていいと思う。=It's okay to enjoy your hobbies.
 おかわりしてもいいよ！=You can have seconds too!

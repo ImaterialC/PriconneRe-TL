@@ -8,7 +8,7 @@
 サレンの声=Saren's Voice
 ルカの声=Ruka's Voice
 
-r:"^魔法のランプの力で脱獄を果たした盗賊たちは砂漠に眠る対魔星獣兵器を呼び起こす。事態を収拾したいというランプの魔神の願いを聞き遂げた(.{2,10})たちは砂漠での決戦に挑み、勝利を収める。$"="With the power of the lamp, the bandits escaped the prison and woke up an anti-magic weapon that lies dormant in the desert. After hearing the lamp genie's wish to resolve the situation, $1 and the others took a decisive battle in the desert and emerge victorious."
+魔法のランプの力で脱獄を果たした盗賊たちは砂漠に眠る対魔星獣兵器を呼び起こす。事態を収拾したいというランプの魔神の願いを聞き遂げた{playername}たちは砂漠での決戦に挑み、勝利を収める。=With the power of the lamp, the bandits escaped the prison and woke up an anti-magic weapon that lies dormant in the desert. After hearing the lamp genie's wish to resolve the situation, {playername} and the others took a decisive battle in the desert and emerge victorious.
 
 魔法のランプへ我先にと押し寄せる民たち。\n群衆の大きなうねりは衛兵を押し流し、国は大混乱に陥っていた。=People are scrambling for the magic lamp. A huge crowd swept away the guards as the country fell into chaos.
 熱気が高まり過ぎて暴動寸前って雰囲気ね……\n叶った願いのせいで、あちこちでパニックが起きてるし……=Everyone's getting so excited, it feels like we're right on the brink of a riot...\nPeople are panicking because of the wishes being granted...
@@ -190,4 +190,4 @@ cutscene
 ついでに、この国の近辺にある遺跡のガイドもお願いします。\nあなたが知っている古代の歴史に関する解説も聞きたいですね。=Also, please give me a guide to the ruins around this country. I would also like to hear your explanations about the ancient histories you know of.
 我々の修行に向いていそうな過酷な土地も教えてもらえぬか。\nあと我が主とロイド殿へ献上するにふさわしい土産物を。=Can you tell me of harsh lands that would be suitable for us to train in? Also presents that would be worthy for our master and Lloyd-dono.
 ……はいっ！\nボクでよければ喜んでっ。=...Yes! I'll be happy to grant those.
-r:"^こうして(.{2,10})たちは\n砂漠の国への帰路で話に花を咲かせながら、\n思い思いの小さな願い事をランプの魔神に頼むのだった。$"="Like this, $1 and the others enjoyed chatting on their way back to the desert country while asking the genie of the lamp for small wishes."
+こうして{playername}たちは\n砂漠の国への帰路で話に花を咲かせながら、\n思い思いの小さな願い事をランプの魔神に頼むのだった。=Like this, {playername} and the others enjoyed chatting on their way back to the desert country while asking the genie of the lamp for small wishes.

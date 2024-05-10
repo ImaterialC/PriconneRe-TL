@@ -1,5 +1,5 @@
 おはなクン=Ohana-kun
-r:"^憧れの植物学者おはなクンの旅に誘われたキョウカ。うれしい\n反面何年も街を離れることに迷う。ある夜、(.{2,10})に夜の散\n歩に誘われたキョウカは彼の優しさに触れ、街に残ることを決\nめる。$"="Kyouka was invited to join her idol, Ohana-kun, on a journey, but she hesitated about leaving the town for several years. One night, during a walk with $1, Kyouka felt his kindness and decided to stay in town."
+憧れの植物学者おはなクンの旅に誘われたキョウカ。うれしい\n反面何年も街を離れることに迷う。ある夜、{playername}に夜の散\n歩に誘われたキョウカは彼の優しさに触れ、街に残ることを決\nめる。=Kyouka was invited to join her idol, Ohana-kun, on a journey, but she hesitated about leaving the town for several years. One night, during a walk with {playername}, Kyouka felt his kindness and decided to stay in town.
 キョウカソウの一件の後も、キョウカはボランティア仲間と共に\n精力的に地域の緑化活動に取り組んでいた。=After the Kyoukasou incident, Kyouka continued her active participation in local greening efforts with her fellow volunteers.
 えへへ、今日もきれいに咲いてますね。\nたっぷりお水あげますからね。=Hehe, the flowers are blooming beautifully today. I'll make sure they get plenty of water.
 なあなあキョウカっち、この後うちらと茶ぁしね？=Hey, Kyouka-chi! Wanna grab some tea after this?
@@ -40,16 +40,16 @@ r:"^憧れの植物学者おはなクンの旅に誘われたキョウカ。う�
 もしも私が旅に出たいって言ったら、みんななんて言うかな……=If I tell everyone that I want to go on a journey, what would they say?
 お父さんとお母さんは応援してくれると思うけど、\nミソギは絶対怒るし、ミミは泣いちゃうよね……=I think my mom and dad would support me, but Misogi would definitely get mad, and Mimi would probably cry...
 ううん、人のこと言えませんね。\n何年も離れてたら私だって寂しくなっちゃうから……=I guess I can't really blame them. If I were away for years, I'd feel lonely too...
-r:"^そういえばもう何日も(.{2,10})さんに会ってませんね。\n今回のこと、それとなく相談したかったんだけど……$"="I haven't seen $1-san in days. I wanted to talk to him about this, but he hasn't shown up..."
+そういえばもう何日も{playername}さんに会ってませんね。\n今回のこと、それとなく相談したかったんだけど……=I haven't seen {playername}-san in days. I wanted to talk to him about this, but he hasn't shown up...
 いつもなら呼んでもいないのに突然現れるくせに、\n肝心なときに来てくれないんだから……=Usually, he'd pop up out of nowhere even if I didn't call for him, but now when I really need him, he's nowhere to be found...
 って、これじゃあ私があの人のこと気になってるみたいじゃないですか！\nもう大人なんだから、これくらい一人で解決してみせますからね！=It's like I'm obsessed with him or something! But I'm a grown-up, I can handle this on my own!
 ちょ、キョウカっちの植え方、マジぜんえー！=Hey, Kyouka-chi, you did a GJ planting these flowers!
 お花マスターパネェ！　うちらもがんばんべ！=You're the best, flower master Kyouka! We'll do our best too!
 結局その日も誰にも相談できぬまま夜を迎えたキョウカは、\n寝付くこともできず夜風に当たっていた。=Despite spending the whole day without talking to anyone about it, Kyouka found herself unable to sleep, so she went out to catch some night air.
-r:"^うぅ……今日も誰にも話せなかった……\nそれもこれも(.{2,10})さんが全然会いに来ないから……\nううん、それは言い訳ですね。$"="*Sigh*... I couldn't talk to anyone about it today either... And it's all because $1-san hasn't been around... But no, that's just an excuse."
+うぅ……今日も誰にも話せなかった……\nそれもこれも{playername}さんが全然会いに来ないから……\nううん、それは言い訳ですね。=*Sigh*... I couldn't talk to anyone about it today either... And it's all because {playername}-san hasn't been around... But no, that's just an excuse.
 単純にあと一歩が踏み出せないだけなんです。=The truth is, I'm just afraid to take that last step.
 私、思ってたより全然大人じゃなかったんだ。\nいつもあの人の前では大きなこと言ってるのに、情けないです……=I thought I was more mature than I am. I always talk big in front of him, but when it comes down to it, I can't seem to move forward...
-r:"^でも、いつまでも悩んでばかりじゃダメですよね。\n明日私の方から(.{2,10})さんに会いに──$"="But I can't just keep worrying about it forever. Tomorrow, I'll go see $1-san myself—"
+でも、いつまでも悩んでばかりじゃダメですよね。\n明日私の方から{playername}さんに会いに──=But I can't just keep worrying about it forever. Tomorrow, I'll go see {playername}-san myself—
 ひゃわああっ！　び、びっくりした……\nな、なんでこんな時間にいるんですか！=Eep! What—You scared me! What are you doing here at this hour?
 ……あ、聞いたんですね、おはなクンのこと。\nそう、ですか。でも、あなたには関係のないことですよね？=Oh, you heard about Ohana-kun? Well, it's none of your business, is it?
 話があるならもう少し時間を選んで来てください。\n私が寝てたらどうするつもりだったんですか。=If you have something to talk about, couldn't you choose a better time? What if I was asleep?
@@ -89,7 +89,7 @@ r:"^でも、いつまでも悩んでばかりじゃダメですよね。\n明�
 本当に大人になりたいなら、守られるばかりじゃなくて\nおはなクンについて行くべきです。でも……=If I really wanted to be grown-up, I should go with Ohana-kun. But...
 旅に出たら、私のことなんか忘れちゃうかもしれない。\nこのぬくもりとお別れすることになっちゃうんだ……=If I go on that journey, he might forget about me. I'd have to say goodbye to this warmth...
 ……決めた。明日、おはなクンに会いに行こう。\nでも今は、今だけはこのぬくもりをもう少しだけ……=...I made up my mind. Tomorrow, I'll go see Ohana-kun. But for now, just for now, let me hold onto this warmth for a little longer...
-r:"^そして翌日、キョウカは(.{2,10})と共に\nおはなクンの元を訪れた。$"="The next day, Kyouka and $1 went to see Ohana-kun."
+そして翌日、キョウカは{playername}と共に\nおはなクンの元を訪れた。=The next day, Kyouka and {playername} went to see Ohana-kun.
 ──すみません、せっかく誘ってもらったのに申し訳ないですが、\nやっぱり私、旅には行けません。=──I'm sorry, even though you invited me, I can't go on the journey.
 ……カカッ、そっか。キミはここで咲くことを選んだんだね。\nふーん、なるほど。どうやらボクの出る幕はなさそうだ。=Ha-ha-ha, I see. So you've decided to stay. Hmm, I guess there's no need for me now.
 キミ、キョウカちゃんのこと頼んだよ。\nそれじゃあね、キョウカちゃん。カカカッ！=Hey, you. Take care of Kyouka, alright? Well, goodbye, Kyouka-chan. Ha-ha-ha!

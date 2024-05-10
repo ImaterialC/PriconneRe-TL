@@ -1,6 +1,6 @@
 奇妙な魔物たち=Mysterious Creatures
 ジオ・テオゴニアの地に突如現れた、奇妙な声で鳴く魔物の群れ。どうやら彼らは5.5周年を祝いに来たらしい。ライラエルの頼みを受けた【美食殿】の面々は、他のギルドとも協力し魔物捕獲のため動き出す。=A group of strange monsters suddenly appeared in the land of Geo Theogonia, making peculiar noises. It seems they came to celebrate the 5.5 anniversary. The members of the "Gourmet Guild," at the request of Lyrael, teamed up with other guilds to start capturing the monsters.
-r:"^ある日、(.{2,10})たちはライラエルからの連絡を受け、\nキャッスル・オブ・パルフェに赴いた。$"=One day, $1 and the others received a message from Lyrael and went to the Castle of Parfait.
+ある日、{playername}たちはライラエルからの連絡を受け、\nキャッスル・オブ・パルフェに赴いた。=One day, {playername} and the others received a message from Lyrael and went to the Castle of Parfait.
 まずはみなさまに、日ごろの働きへの感謝を。\nおかげで『ジオ・テオゴニア』での魔物の被害は減りつつあります。=First of all, I'd like to express my gratitude for your hard work. Thanks to all of you, the damage caused by monsters in Geo Theogonia is gradually decreasing.
 それはよかったです！\nクローチェちゃんたちも、\nたくさん頑張ってますからね☆=That's great! Croce-chan and I have been working hard too, so it's nice to see results.
 いえいえ、わたしだけだったら大変でしたよ～っ！\nみなさんに手伝ってもらえて、とっても助かりましたっ。=Oh no, it would have been tough if I were alone! I'm really grateful that you all helped me out.

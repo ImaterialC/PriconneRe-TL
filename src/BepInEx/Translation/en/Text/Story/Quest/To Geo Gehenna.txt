@@ -15,14 +15,14 @@
 人さらい～っ！！=Kidnapper~!
 ──行ってらっしゃいませ。=Goodbye~. Have a safe journey.
 とうちゃ～くっ♪\nここがジオ・ゲヘナなんだねっ！=Off we go♪ So, this is Geo Gehenna!
-r:"^はぁ、はぁ……なんて強引な……\n(.{2,10})さんのお姉さんなだけあって、\nシズルさんもへんたいふしんしゃさんなんじゃ……？$"="Haa, haa... Such a forceful approach... As expected of $1-san's older sister, and she's also an eccentric enthusiast, Shizuru-san..."
+はぁ、はぁ……なんて強引な……\n{playername}さんのお姉さんなだけあって、\nシズルさんもへんたいふしんしゃさんなんじゃ……？=Haa, haa... Such a forceful approach... As expected of {playername}-san's older sister, and she's also an eccentric enthusiast, Shizuru-san...
 まったくもう。\nボクの美しい髪型が崩れちゃうところだったよ。\nそれにしても……=Good grief. My beautiful hairstyle was almost ruined. Anyway...
 獣や魔物はいっぱいいそうだし。\n何より暑くて汗かいちゃうし。\nどう考えてもボク向きの世界じゃないよね。もう帰っていいかな？=There seem to be many beasts and monsters. Moreover, it's hot, and I'm sweating. Clearly not a world suited for me. Can I go back already?
 ダメダメ！\nみんなで手分けして、弟くんを捜すの！\n弟くーーーんっ！=No, no! Let's split up and search for my little brother together! Little brooo~!
 へっ？\nそこにいるのって……=Huh? Is he right there...?
 む……\nシズル……さま。=Hmm... Shizuru...-sama.
 それに、キョウカちゃんとユキちゃんも？=And Kyouka-chan and Yuki-chan too?
-r:"^王女さま、それに(.{2,10})さんたちも！\n良かったぁ、合流できて……\nきゃっ！？$"="Princess, and $1-san's group too! Thank goodness, we've reunited... Kyaa!?"
+王女さま、それに{playername}さんたちも！\n良かったぁ、合流できて……\nきゃっ！？=Princess, and {playername}-san's group too! Thank goodness, we've reunited... Kyaa!?
 弟くーーーーんっ！！！\nもうっ、お姉ちゃんを置いてったりしちゃダメだぞ？\n離れても、すーぐ追いついちゃうけど♪=Little broooo~! You can't just leave your big sister behind, you know? Even if you run away, I'll catch up right away♪
 そのようなことを言っている場合ではありません。\nみなさま、お力を貸してくださいませ！=This is not the time for such things. Everyone, please lend us your strength!
 ひゃあぁっ！？\nすっごく大きな魔物ですっ……！=Hyaa!?! It's a really huge monster...!

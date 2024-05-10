@@ -4,9 +4,9 @@
 ポポじいさん=Uncle Popo
 
 Summary
-r:"^魔物退治の傍らで(.{2,10})の話を聞いたクローチェは、向こうの世界に興味を持つ。二人はライラエルの許可を得て、ジオ・テオゴニアの人々にも盛大に見送られながら、はじめての旅へと出発する。$"=Croce became interested in the other world after hearing $1's story while suppressing monsters. After obtaining Lyrael's permission, they departed on their first journey while being sent off grandly by the people of Gio Teogonia.
+魔物退治の傍らで{playername}の話を聞いたクローチェは、向こうの世界に興味を持つ。二人はライラエルの許可を得て、ジオ・テオゴニアの人々にも盛大に見送られながら、はじめての旅へと出発する。=Croce became interested in the other world after hearing {playername}'s story while suppressing monsters. After obtaining Lyrael's permission, they departed on their first journey while being sent off grandly by the people of Gio Teogonia.
 
-r:"^裏世界『ジオ・テオゴニア』──\n魔物が現れるようになったこの世界を守るため\n今日も(.{2,10})とクローチェは力を合わせて戦っていた。$"=In order to protect the reverse world of Gio Teogonia, a world where monsters are now appearing, $1 and Croce are fighting together again to protect this world.
+裏世界『ジオ・テオゴニア』──\n魔物が現れるようになったこの世界を守るため\n今日も{playername}とクローチェは力を合わせて戦っていた。=In order to protect the reverse world of Gio Teogonia, a world where monsters are now appearing, {playername} and Croce are fighting together again to protect this world.
 ロケットぱーんちっ！！=Rocket Punch!
 ふぅっ！\nこれでこっちは大丈夫ですねっ。\n魔物さんたち、悪いことしちゃだめですよ～っ！=Phew! With that, I'm all done over here.\nPlease don't do bad things again～
 こっちもやっつけたよ。=I'm done too.
@@ -74,7 +74,7 @@ Choices
 んん？\nなんだか賑わってるねぇ。\n何かあったのかい？=Hmm? Why is it so crowded?\nDid something happen?
 あっ、こんにちはーっ！\n実はですね実はですねーっ？=Ah, hello there! You see...
 ええっ！？　別の世界に行くのかい？\nそれは大ニュースじゃないか！　もっと周りに知らせないと！\nお～い、みんな～！　ちょっと聞いてくれ～っ！！=Ehh!? You're going to the other world?\nThat's a huge news! I need to spread the word!\nEveryone, listen to this!
-r:"^クローチェが(.{2,10})の世界へ行くというウワサは\nあっという間に広がり、彼女たちの周りには多くの人々が\n激励とせんべつを送るために集まっていた。$"=Word spread quickly that Croce was going to visit $1's world, and many people gathered around them to send encouragement and send-off gifts.
+クローチェが{playername}の世界へ行くというウワサは\nあっという間に広がり、彼女たちの周りには多くの人々が\n激励とせんべつを送るために集まっていた。=Word spread quickly that Croce was going to visit {playername}'s world, and many people gathered around them to send encouragement and send-off gifts.
 わわわっ？\nいつの間にか、こんなにいっぱい人が……！=Wahh? I didn't realize there's so many people now!
 みんな、応援しにきてくれたんだね。=They all came here to support us.
 クロォ～～チェ～～～～っ！！！=Croo～～ceee ～～～!
@@ -107,7 +107,7 @@ r:"^クローチェが(.{2,10})の世界へ行くというウワサは\nあっ�
 えーとっ、魔物さんの姿は……ありませんねっ！\n突っ込んじゃって大丈夫そうですっ！\n捕まってくださいっ、全速力でいきますよーっ！！=Let's see... I don't see any monsters around so it should be fine to rush inside!\nPlease hold onto me, I'll be going at full speed!
 えええ～いっ！=Goooooo～！
 
-r:"^クローチェは(.{2,10})を抱きかかえると\n脚部のジェットを最大出力にして、次元の穴へと飛び込んでいった。$"=Croce held $1 in her arms as she turned the jets\non her legs to max power and dived right into the dimensional hole.
+クローチェは{playername}を抱きかかえると\n脚部のジェットを最大出力にして、次元の穴へと飛び込んでいった。=Croce held {playername} in her arms as she turned the jets\non her legs to max power and dived right into the dimensional hole.
 そして──=After that...
 ぴ・ぴーーーー=Pip. Piiiiiiiip.
 はっ！？=Hah!
@@ -118,6 +118,6 @@ r:"^クローチェは(.{2,10})を抱きかかえると\n脚部のジェット�
 わかりましたっ！=Got it!
 ふむふむっ！\nこれがナイトさんたちの世界なんですねーっ！\n確かに『ジオ・テオゴニア』とは全然違いますっ！=Hmm, so this is Naito-san's world!\nIt really is completely different from Gio Teogonia!
 ナイトさんナイトさんっ！\nこの先に、なんだか眩しいところがありますよっ！\nわあっ、なんでしょうなんなんでしょうっ♪=Naito-san! There's something bright up ahead!\nI wonder what that is♪
-r:"^クローチェは好奇心のままに、\n洞窟の出入り口へと向かって駆けだしていった。\nその直後、(.{2,10})の耳に聞こえてきたのは──$"=Out of curiosity, Croce rushed towards the entrance of the cave. Right after that, what I heard is...
+クローチェは好奇心のままに、\n洞窟の出入り口へと向かって駆けだしていった。\nその直後、{playername}の耳に聞こえてきたのは──=Out of curiosity, Croce rushed towards the entrance of the cave. Right after that, what I heard is...
 わぁ～～～っ！！！\nすごいすごいすっご～いっ！！=Wow～～!!\nIt's so amazing!
 はじめての世界に喜ぶクローチェの声だった。=...The sound of an overjoyed Croce finally getting to see the other world for the first time.

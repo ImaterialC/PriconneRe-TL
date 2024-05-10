@@ -1,6 +1,6 @@
-r:"^クローチェに内緒で宿泊先を抜け出したライラエルは(.{2,10})と二人きりでランドソルの街を散歩したいと告げる。姫としてだけではなく個人的な思い出まで作った彼女は、笑顔で帰国するのだった。$"="Lyrael sneaked out of her accomodation without telling Croce, and told $1 that she would like to take a walk around the town of Landosol. She wanted to make memories not just as a princess but also for herself, and returned to her country with a smile."
+クローチェに内緒で宿泊先を抜け出したライラエルは{playername}と二人きりでランドソルの街を散歩したいと告げる。姫としてだけではなく個人的な思い出まで作った彼女は、笑顔で帰国するのだった。=Lyrael sneaked out of her accomodation without telling Croce, and told {playername} that she would like to take a walk around the town of Landosol. She wanted to make memories not just as a princess but also for herself, and returned to her country with a smile.
 
-r:"^ペコリーヌの招待を受け、ランドソルを訪れているライラエル。\n(.{2,10})やクローチェと共に街を散策し\n夕食を済ませた後、彼女たちは滞在先の館に戻ってきていた。$"="Lyrael arrived in Landosol after receiving an invite from Pecorine. After walking around the city with $1 and Croce, they had dinner and returned to the mansion."
+ペコリーヌの招待を受け、ランドソルを訪れているライラエル。\n{playername}やクローチェと共に街を散策し\n夕食を済ませた後、彼女たちは滞在先の館に戻ってきていた。=Lyrael arrived in Landosol after receiving an invite from Pecorine. After walking around the city with {playername} and Croce, they had dinner and returned to the mansion.
 クローチェ、騎士。\n今日はお疲れさまでした。\n二人のおかげで、とても楽しい時間を過ごせました。感謝します。=Croce, Sir Knight, I had a lot of fun with the two of you today. I really appreciate it. 
 えへへっ♪\nライラエルさまが楽しかったのなら、なによりです！\nあっ！　もちろんわたしも楽しかったですよっ！=Ehehe♪ If Lyrael-sama enjoyed it, then nothing else matters! Oh and of course, I really enjoyed it too!
 思い出はたくさんできました？=Did you make lots of memories?
@@ -35,7 +35,7 @@ r:"^ペコリーヌの招待を受け、ランドソルを訪れているライ�
 ええ、ありがとう。\n……ごめんなさい。=Yes, thank you... sorry about this.
 はーいっ！\n……あれっ？\n今のライラエルさま、ちょっとおかしかったような？=Yep! ...Eh? Did Lyrael-sama said something?
 う～～～ん……\nうんっ、気のせいですねっ！=Uuu～～～... It must've been my imagination!
-r:"^一方その頃──\nライラエルたちの滞在先を後にした(.{2,10})は\n一人のんびりと家路についていた。$"="Meanwhile── After leaving the place where Lyrael is staying, $1 is currently leisurely walking back home."
+一方その頃──\nライラエルたちの滞在先を後にした{playername}は\n一人のんびりと家路についていた。=Meanwhile── After leaving the place where Lyrael is staying, {playername} is currently leisurely walking back home.
 ──こんばんは。=──Good evening.
 
 choice
@@ -56,7 +56,7 @@ choice
 思い出？=Memories?
 ええ。\nわたしと……夜のお散歩をしませんか？=Yeah. Would you like to take a night walk... with me?
 少しの時間でいいのです。\nほんの少しの間だけ……\nごくありふれた何気ないひと時を、わたしと過ごしてくださいませんか。=It's fine even if it's only for a short while. \nWould you like to spend just a little bit of your time... with me? 
-r:"^誰もわたしを知らない街で。\n故郷のそれとは異なる夜に。\n(.{2,10})と……二人だけで。$"="In a town where no one knows of me, on a night that's different from the one in my hometown.\nWith just the two of us."
+誰もわたしを知らない街で。\n故郷のそれとは異なる夜に。\n{playername}と……二人だけで。=In a town where no one knows of me, on a night that's different from the one in my hometown.\nWith just the two of us.
 いいですよ。=Alright.
 …………\nあなたなら、きっとそう言ってくれると思っていました。=...I knew you would agree to it.
 それでは、参りましょうか。\n時間は限られています。\n後悔のないよう……急ぎましょう。=Then let us go, we don't have much time.\nSo we won't have any regrets left... let's go right away.
@@ -123,5 +123,5 @@ r:"^誰もわたしを知らない街で。\n故郷のそれとは異なる夜�
 ええ。\nわたしのランドソルでの思い出……\nお土産話です♪=Yes. About my memories in Landosol... it's my gift for you all♪
 ランドソル土産もたっぷりありますよ！\nほらっ！=Look, we also have plenty of food from Landosol too!
 はっはっ！\nそりゃ楽しみだ！\nどれ、じっくり聞かせてもらうとすっか！=Haha! Sounds fun, now which one should we listen to first?
-r:"^こうして、キャッスル・オブ・パルフェの玉座へと移動する一同。\nそんな中、ライラエルは周りに気づかれないような小さな声で\n(.{2,10})にそっとささやいた。$"="Thus everyone moved to the Castle of Parfait's throne.\nIn the middle of that, while making sure no one else hears it, Lyrael whispered to $1."
+こうして、キャッスル・オブ・パルフェの玉座へと移動する一同。\nそんな中、ライラエルは周りに気づかれないような小さな声で\n{playername}にそっとささやいた。=Thus everyone moved to the Castle of Parfait's throne.\nIn the middle of that, while making sure no one else hears it, Lyrael whispered to {playername}.
 夜のお散歩のことは内緒にしておきましょうね。\nわたしとあなたの二人占めです。\nふふっ♪=I'll be keeping the night walk a secret.\nFufu, it's a secret just between you and me♪

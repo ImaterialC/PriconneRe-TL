@@ -1,8 +1,8 @@
 クウカの声=Kuuka’s voice
 悪霊の祟り=The Curse of Malevolent Spirits
-r:"^依頼開始初日、ドクロ親父とクウカの魂を奪われてしまった\n(.{2,10})たち。果たして悪霊を見つけ、\n二人を助けることはできるのだろうか……？$"="On the first day of the request, $1 and her friends had their souls taken by malevolent spirits, Skull Father and Kuuka. Can they find the malevolent spirits and save the two...?"
-r:"^悪霊を除霊すべく調査を開始するが、相手は見つからない。その夜、休んでいたシノブ、ランファ、(.{2,10})は霊障に遭う。クウカとドクロ親父に合流しようとするが、２人は仮死状態になっていた。$"="They start investigating to exorcise the malevolent spirits but couldn't find the entities. That night, while resting, Shinobu, Ranfa, and $1 encounter spiritual disturbances. Kuuka and Skull Father were in a state of temporary death."
-r:"^ビーチリゾート施設に憑いた霊を\n除霊することになった(.{2,10})たちは、\n施設の中を調査していた。$"="$1 and her friends were tasked with exorcising the spirits that possessed the beach resort facility and began investigating inside."
+依頼開始初日、ドクロ親父とクウカの魂を奪われてしまった\n{playername}たち。果たして悪霊を見つけ、\n二人を助けることはできるのだろうか……？=On the first day of the request, {playername} and her friends had their souls taken by malevolent spirits, Skull Father and Kuuka. Can they find the malevolent spirits and save the two...?
+悪霊を除霊すべく調査を開始するが、相手は見つからない。その夜、休んでいたシノブ、ランファ、{playername}は霊障に遭う。クウカとドクロ親父に合流しようとするが、２人は仮死状態になっていた。=They start investigating to exorcise the malevolent spirits but couldn't find the entities. That night, while resting, Shinobu, Ranfa, and {playername} encounter spiritual disturbances. Kuuka and Skull Father were in a state of temporary death.
+ビーチリゾート施設に憑いた霊を\n除霊することになった{playername}たちは、\n施設の中を調査していた。={playername} and her friends were tasked with exorcising the spirits that possessed the beach resort facility and began investigating inside.
 ……ふぅ。\nこれで施設内の見回りは終えましたね。\n霊の気配はありませんでしたが……=...Phew. We've completed our rounds inside the facility. There doesn't seem to be any trace of spirits, though...
 手がかりなしですかぁ……\nどうすればいいんでしょう？=No clues, huh? What should we do?
 そりゃあ出てくるのを待つしかねえだろうな～\nおもに美女がいるビーチとか、美女がいるビーチとか、\n美女がいるビーチとかで！=Well, we could just wait for them to show up, right? Mainly at the beaches where beautiful women are or, you know, beaches where beautiful women are, and... beaches where beautiful women are!
@@ -16,7 +16,7 @@ r:"^ビーチリゾート施設に憑いた霊を\n除霊することになっ�
 ク、クウカを驚かせて様子を楽しむとは……\nさすが人格破綻者ですぅ……！　うっかり弄ばれて、\nおかしな声をあげてしまいましたぁ……ぐふふぅ♪=K-Kuuka, don't go making strange delusions... as expected of someone with a personality disorder...! I accidentally played along and made a weird sound... gufufu~♪
 「おいおい、どうしてこんなになってるんだ？」\n……とでも言いたげですね！？\nぐふふふ……なおさら手汗かいちゃいますぅ……♪="Hey, why is it like this?" ...Seems like you want to say that!? Gufufufu... it's making my hands even sweatier...♪
 ク、クウカさん、おかしな妄想をしていると\n意識を合わせられませんよ。\nむしろ私のほうに邪念が流れ込んで──=K-Kuuka-san, don't have weird delusions. We can't synchronize like this... and I'm getting impure thoughts from you...
-r:"^なっ……！？　ク、クウカさん……\nさすがに(.{2,10})さんは\nそんなことしないのでは……？$"="What...?! Kuuka-san, there's no way $1-san would do something like that, right...?"
+なっ……！？　ク、クウカさん……\nさすがに{playername}さんは\nそんなことしないのでは……？=What...?! Kuuka-san, there's no way {playername}-san would do something like that, right...?
 いえ、でも……なぜでしょう……\nクウカさんの意識が流れ込んで……\nあの人にひどくしてもらいたい自分が……=No, but... I don't know why... Kuuka-san's thoughts are flowing into me... the part of me that wants to be treated harshly by that person...
 シノブちゃん、赤くなってる？=Shinobu, are you blushing?
 はっ！　き、気のせいです！\nそれよりもみなさん、意識を合わせましょう……！\n協力して霊を呼ぶのです！=Huh! N-No, it's just my imagination! More importantly, let's focus and try to communicate...! Let's call out to the spirits together!
@@ -96,7 +96,7 @@ r:"^なっ……！？　ク、クウカさん……\nさすがに(.{2,10})さ�
 相当強い悪霊の仕業です。\n父無しで除霊できるか、分かりません……=It must be the work of a considerably strong malevolent spirit. I'm not sure if I can exorcise them without Dad's help...
 シノブ、ちゃん……=Shinobu-chan...
 ……それでもやるしかない。=...But still, we have no choice.
-r:"^(.{2,10})さん……\nで、ですが……本当に倒せるのか……$"="$1-san... but... can we really defeat them...?"
+{playername}さん……\nで、ですが……本当に倒せるのか……={playername}-san... but... can we really defeat them...?
 あ、あの……シノブちゃん。\nわたしも、協力……するわ……？=Uh... Umm... Shinobu-chan. I'll help... you know?
 さっき……諦めそうになっていたの……\nでも、シノブちゃんが励ましてくれたから……\nわたしもがんばろうって、思えた……だから……=Earlier... I almost gave up, but because you encouraged me... I felt like I should try my best too... That's why...
 わ、わたし……全力でがんばります……\nこの施設の悪霊を、除霊してみせる……\nシノブちゃんと一緒に……！=I-I'll give it my all... I'll exorcise the malevolent spirits in this facility... I'll do it with Shinobu-chan...!
@@ -106,4 +106,4 @@ r:"^(.{2,10})さん……\nで、ですが……本当に倒せるのか……$"
 そうはさせない。=We won't let that happen.
 ええ、もちろんです……！\n悪霊の思い通りにはさせません。=Yes, of course... We won't let the malevolent spirits have their way.
 この施設のどこかにいる悪霊を除霊して、\n父とクウカさんの魂を取り戻しましょう！=We'll exorcise the spirits somewhere in this facility and reclaim Dad and Kuuka-san's souls!
-r:"^ええ……\n一緒にがんばりましょう、ね……\nシノブちゃん……(.{2,10})くんも……！$"="Yes... Let's do our best together, Shinobu-chan... and $1-kun too!"
+ええ……\n一緒にがんばりましょう、ね……\nシノブちゃん……{playername}くんも……！=Yes... Let's do our best together, Shinobu-chan... and {playername}-kun too!

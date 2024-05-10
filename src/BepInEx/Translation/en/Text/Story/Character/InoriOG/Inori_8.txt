@@ -1,6 +1,6 @@
 アニメ店員=Anime Clerk
-r:"^アメスの夢の中でイノリと再会した(.{2,10})はイノリの憧れの作家の同人誌を見せられる。その同人誌で描かれる少女に嫉妬するイノリだが、アメスはそれを自分に嫉妬していると面白がるのだった。$"="In $1's dream, she reunites with Inori, who shows her a doujinshi by her admired author. Inori becomes jealous of the girl depicted in the doujinshi, but Amess finds it amusing that Inori might be jealous of her."
-r:"^ランドソルの路地裏を歩いていた(.{2,10})を\n元気な声が呼び止める。$"="As $1 walks through the back alleys of Landosol, she's stopped by a cheerful voice."
+アメスの夢の中でイノリと再会した{playername}はイノリの憧れの作家の同人誌を見せられる。その同人誌で描かれる少女に嫉妬するイノリだが、アメスはそれを自分に嫉妬していると面白がるのだった。=In {playername}'s dream, she reunites with Inori, who shows her a doujinshi by her admired author. Inori becomes jealous of the girl depicted in the doujinshi, but Amess finds it amusing that Inori might be jealous of her.
+ランドソルの路地裏を歩いていた{playername}を\n元気な声が呼び止める。=As {playername} walks through the back alleys of Landosol, she's stopped by a cheerful voice.
 お兄さん！　探したですよ！\nまったく、どうせヒマしてるんでしょうし、\nせっかくならもっと分かりやすいところをぶらぶらするです！=Onii-san! I've found you! Honestly, I bet you're just lazing around, so let's go somewhere more fun!
 おっとっと、そうだった。\nふっふっふ……尻尾を振って喜びやがれですよ、お兄さん！\n今日はなんと……あたしがおごってやるです！=Oops, right. Hehe... wag your tail in happiness, Onii-san! Today, for a change, I'm treating you!
 こないだ火山で覚醒したあたしが\nお兄さんを守るために魔物をちぎっては投げちぎっては投げしたのは\n当然おぼえてるですよね？=Remember the other day when I awakened in the volcano to protect you? I tore apart and hurled those monsters, of course you remember, right?
@@ -14,7 +14,7 @@ r:"^ランドソルの路地裏を歩いていた(.{2,10})を\n元気な声が�
 まあこれもお兄さんのおかげってのもほんのちょっとだけはあるので\n今日はあたしのおごりってわけです！=Well, it's thanks to you just a little bit, so today, I'm treating you!
 ギャングたるもの、宵越しの金をもつなんてダサい真似はできないです！\nさあ、パーッといくですよ！\nこれがあたしのギャングロードの第一歩です！=Real gangsters can't keep money overnight; it's a cheesy trick! Now, let's go all out! This is the first step of my gang lord journey!
 お兄さん、うれしいのは分かるですけどそこまで光らなくても……\n光？　お、お兄さん！\nまたなんか、光ってる……です……=Onii-san, I understand that you're happy, but there's no need to shine so brightly... Shine? Onii-san! It's glowing again...
-r:"^アニメショップにきた(.{2,10})は、\n見覚えのある姿を見かける。$"="In the anime shop, $1 sees a familiar figure."
+アニメショップにきた{playername}は、\n見覚えのある姿を見かける。=In the anime shop, {playername} sees a familiar figure.
 あ、あの……なんなんですかさっきから……\nこっちをじろじろと見て……\nあんまりしつこいと人を呼ぶです……あれ？=Um, what is it with you staring at me like that... If you keep it up, I'll call someone... Huh?
 祈梨ちゃんだよね？=Are you Inori-chan?
 やっぱり祈梨ちゃんだ。=You're definitely Inori-chan.
@@ -86,4 +86,4 @@ r:"^アニメショップにきた(.{2,10})は、\n見覚えのある姿を見�
 ま、まあ……そこまでいうなら……\nお兄さんの顔を立てて、ありがたく受け取ってあげるです。=Well, if you put it that way... I'll gladly accept it, for your sake.
 おっと、こんなことしてる場合じゃないですよ！\n売り切れる前に確保するです！\nそのあとにたっぷりおごってやるですから、走るですよ！=Oops, we shouldn't be standing around like this! We need to secure it before it's sold out! After that, I'll treat you, so let's run!
 いくですよ……全力ダッシュです！=Let's go... full-speed dash!
-r:"^夕焼けの中、イノリと二人で全力で走っていく\n(.{2,10})であった。$"="Under the setting sun, $1 and Inori ran with all their might."
+夕焼けの中、イノリと二人で全力で走っていく\n{playername}であった。=Under the setting sun, {playername} and Inori ran with all their might.

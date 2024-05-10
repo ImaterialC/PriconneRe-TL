@@ -1,6 +1,6 @@
 祭りのために集う花々=Flowers Gathered for the Festival
-r:"^とある村の花祭りを手伝いに来た(.{2,10})とスズメたち。スズメのドジに不安がよぎりつつも、現地で合流したキョウカたちとも協力し、花祭りを成功させようと決意したのだった。$"="$1 and friends come to help with the Flower Festival in a certain village. Despite feeling uneasy about Suzume's clumsiness, they join Kyouka and others determined to make the festival a success."
-r:"^すっかり暖かくなったある春の日のこと。\n(.{2,10})はスズメ・アヤネと共に、\nとある村を訪れていた……$"="One spring day, when the weather had become very warm,\n$1 comes with to a certain village with Ayane and Suzume."
+とある村の花祭りを手伝いに来た{playername}とスズメたち。スズメのドジに不安がよぎりつつも、現地で合流したキョウカたちとも協力し、花祭りを成功させようと決意したのだった。={playername} and friends come to help with the Flower Festival in a certain village. Despite feeling uneasy about Suzume's clumsiness, they join Kyouka and others determined to make the festival a success.
+すっかり暖かくなったある春の日のこと。\n{playername}はスズメ・アヤネと共に、\nとある村を訪れていた……=One spring day, when the weather had become very warm,\n{playername} comes with to a certain village with Ayane and Suzume.
 
 ママ・サレンが結構遠くにある村だって言ってたけど……\nこんなに遠いなんて思わなかったよ～！\n前回の冒険で鍛えられてなかったら、途中でへばってたかも。=Mama Saren said that the village is quite far away...\nI didn't think it was this far away～!\nIf I hadn't been able to train with my last adventure,\nI might have given up halfway.
 お疲れさまです、アヤネちゃん。\n村長さんにご挨拶したら、一休みできると思いますから。=Well done, Ayane-chan.\nOnce you've greeted the village chief,\nI think you'll be able to take a break.

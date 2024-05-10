@@ -10,7 +10,7 @@
 うちは、だから、家族来てたから？\n合流してわちゃわちゃベントー食べたりとか、そんな。\nうん、まあ、全然フツーっすよ。=We had family over, so we had a lively family lunch. We ate bento together and stuff like that. Yeah, well, it was pretty normal.
 普通っていうわり、随分と言い淀みましたね。=You mean, it was normal for you to hesitate that much before calling it normal.
 妙だな……本当に普通だったのだろうか。=That's strange... was it really normal?
-r:"^あー、そーだ、思い出した。\nそーいや、なんか(.{2,10})も一緒だったかも。$"="Oh, right, I remember now. Come to think of it, $1 might have been there too."
+あー、そーだ、思い出した。\nそーいや、なんか{playername}も一緒だったかも。=Oh, right, I remember now. Come to think of it, {playername} might have been there too.
 え、和やかな一家団欒の日常に、\nそんな突発ゲストが飛び入り参加したこと忘れます？=Huh? You forget that an unexpected guest joined your peaceful family gathering?
 それを普通と呼ぶのか……大概だぞクロエ君……=And you call that normal... you're quite something, Chloe-kun...
 テレフェスには模擬店もいっぱい出てましたね。=There were plenty of food stalls at St. Theresa's Fes.

@@ -6,8 +6,8 @@
 担任=Homeroom teacher
 貴族=Aristocrat
 セイシュンを求めて…！=Seeking the Youth...!
-r:"^放課後の学生に密かに憧れるキャルの元へ、とある魔法学園から編入の案内状が届く。共に編入が許可された(.{2,10})と、かわいい制服着たさにやってきたスズナと共に、キャルの学園生活が始まった。$"="To Kyaru, who secretly admires students after school, an invitation to transfer from a certain magic academy arrives. Alongside $1, who also received permission to transfer, and Suzuna, who arrived wearing a cute uniform, Kyaru's school life begins."
-r:"^夕刻のランドソル。\n依頼を終えたキャルと(.{2,10})が帰り道を歩いていた。$"="Evening in Landosol. Kyaru and $1, who have finished a request, are walking on their way back."
+放課後の学生に密かに憧れるキャルの元へ、とある魔法学園から編入の案内状が届く。共に編入が許可された{playername}と、かわいい制服着たさにやってきたスズナと共に、キャルの学園生活が始まった。=To Kyaru, who secretly admires students after school, an invitation to transfer from a certain magic academy arrives. Alongside {playername}, who also received permission to transfer, and Suzuna, who arrived wearing a cute uniform, Kyaru's school life begins.
+夕刻のランドソル。\n依頼を終えたキャルと{playername}が帰り道を歩いていた。=Evening in Landosol. Kyaru and {playername}, who have finished a request, are walking on their way back.
 はー、今日もクッタクタねー\n帰ったらそっこーでシャワー浴びて爆睡してやるわ。=Sigh, today was so tiring again... I'll take a shower and crash as soon as I get home.
 はー……人が疲れてる時に見せつけてくれるわ。\nこれだから夕方って嫌いなのよね。=Sigh... Evening shows you how tired people are.\nThat's why I dislike evenings so much.
 ……なにがって？\nほらあれよ。=..."What do you mean?"\nYou know, that thing.
@@ -42,7 +42,7 @@ r:"^夕刻のランドソル。\n依頼を終えたキャルと(.{2,10})が帰�
 ……ふん、そんな隙なかったでしょ？\nそこのおっさんが、間髪入れずまくしたててたんだから。=...Hmph, there was no gap, was there? That old man over there was chattering non-stop without hesitation.
 ……ったく好き放題言ってくれんじゃない。=...They just say whatever they want, don't they?
 ……ふん。本当のことだろう？\nあなたが学業を修めていないことは事実だ。\n違うかね、キャルさん？=...Hmph. Isn't it all true? It's a fact that you haven't pursued your studies. Isn't that right, Kyaru-san?
-r:"^(.{2,10})くんの言う通りです！\n……キャルちゃん気にしないでくださいね？$"="$1-kun is right!...\nKyaru-chan, don't let it bother you, okay?"
+{playername}くんの言う通りです！\n……キャルちゃん気にしないでくださいね？={playername}-kun is right!...\nKyaru-chan, don't let it bother you, okay?
 別に気にしてないわ。確かにおっさんの言う通りだし。\nあたしは学校に通ってない、それは事実よ……=I'm not bothered. It's true that the old man is right. I haven't been going to school, that's a fact...
 ……今んトコはね。=...For now.
 今んトコ？\n……とはどういうことですか？=For now?... What do you mean by that?
@@ -67,7 +67,7 @@ r:"^(.{2,10})くんの言う通りです！\n……キャルちゃん気にし�
 ………………ふんふんふん。\n………………………………=......................
 編入のご案内！？！？！？！？！？=Invitation to transfer!?!!?
 ようこそキャルさん。\nアンブローズ魔法学園へ！\n私はこの学園の学園長です。=Welcome, Kyaru-san.\nWelcome to Ambrose Magic Academy!\nI am the headmistress of this academy.
-r:"^キャルさんがうちに編入してくれてとってもうれしいわ♪\n……もちろん、(.{2,10})君もね。\n陛下からキャルさんに同行する旨の書簡は受け取ってるわ。$"="We're delighted to have you transfer to our school, Kyaru-chan♪...\nOf course, $1-kun as well. We've received a letter from Her Majesty stating that you'll be accompanying Kyaru-san."
+キャルさんがうちに編入してくれてとってもうれしいわ♪\n……もちろん、{playername}君もね。\n陛下からキャルさんに同行する旨の書簡は受け取ってるわ。=We're delighted to have you transfer to our school, Kyaru-chan♪...\nOf course, {playername}-kun as well. We've received a letter from Her Majesty stating that you'll be accompanying Kyaru-san.
 よろしくお願いします！=Nice to meet you!
 ……あの学園長さん。なんであたしに編入の案内を？=...Headmistress, why did you send me an invitation to transfer?
 ふふ、誤解を恐れずに言うと……話題性です。\n優秀で影響力の強い人材に編入していただき、\n広くこの学園をアピールしていただければと。=Fufu, to put it bluntly... it's for publicity. If we could have a talented and influential person transfer to our school, it would be a great advertisement for our academy.

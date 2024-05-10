@@ -4,9 +4,9 @@
 伝説の吸血鬼が語り継がれる地にて、主として祭り上げられたイリヤ。\n玉座に座る彼女の元には、魔物たちがひっきりなしに訪れていた。=In the land where legends of the legendary vampire has been passed down, Illya is now worshipped as their ruler. As she sits on her throne, many monsters starts arriving.
 
 
-r:"^伝説の吸血鬼復活の報せを受けて、謁見を求める魔物たちがイリヤのもとに集う。地位と名声を高めるため、イリヤはユキ、(.{2,10})と共に、謁見とは名ばかりのニンニク地獄を乗り越えていく。$"="As the news of the legendary vampire's return spreads, monsters began to seek an audience. Illya, Yuki, and $1 will have to overcome "Garlic Hell" in order to increase their status and reputation."
+伝説の吸血鬼復活の報せを受けて、謁見を求める魔物たちがイリヤのもとに集う。地位と名声を高めるため、イリヤはユキ、{playername}と共に、謁見とは名ばかりのニンニク地獄を乗り越えていく。=As the news of the legendary vampire's return spreads, monsters began to seek an audience. Illya, Yuki, and {playername} will have to overcome "Garlic Hell" in order to increase their status and reputation.
 
-r:"^ハッハッハ！　見ておるか(.{2,10})よ。\nこれまではちゃんと伝わっておらんかったかもしれんが、\nわらわは本来、こうして魔の者たちに崇められる存在だったのじゃ。$"=Hahaha! Are you watching, $1? You might not have known this before, but demons originally worshipped me.
+ハッハッハ！　見ておるか{playername}よ。\nこれまではちゃんと伝わっておらんかったかもしれんが、\nわらわは本来、こうして魔の者たちに崇められる存在だったのじゃ。=Hahaha! Are you watching, {playername}? You might not have known this before, but demons originally worshipped me.
 
 どうじゃ、わらわの偉大さが改めて分かったか？=What do you think? Do you understand how great I am now?
 
@@ -177,7 +177,7 @@ r:"^ハッハッハ！　見ておるか(.{2,10})よ。\nこれまではちゃ�
 ああっ、なんということを……！=Aaah, what are you saying...!
 
 
-r:"^(.{2,10})よ……お主、わらわのために……！　$"=$1... Did you do that for me...?　
+{playername}よ……お主、わらわのために……！　={playername}... Did you do that for me...?　
 
 すごく美味しそうだったから。=It looked really tasty.
 
@@ -292,7 +292,7 @@ r:"^(.{2,10})よ……お主、わらわのために……！　$"=$1... Did you
 えっ？　この街で売ってた\n『よく分かる伝説の吸血鬼』って本に書いてあったが？\n……ああ、これだ。=Huh? Well it was written in a book called “Understanding the Legendary Vampire” that I bought in this city... \nYeah, it's this book.
 
 
-ちょっと見せてみよ！　なになに？\n『伝説の吸血鬼はおよそあらゆる弱点を克服していて、\n白木の杭で家を建て、日差しの下でタップダンスを踊る……』=Let me take a look! Now what does it say?\n “The Legendary Vampire has overcame all of her weakness, she built a house out of wooden stakes, and tap dances under the sunlight..."
+ちょっと見せてみよ！　なになに？\n『伝説の吸血鬼はおよそあらゆる弱点を克服していて、\n白木の杭で家を建て、日差しの下でタップダンスを踊る……』=Let me take a look! Now what does it say?\n "The Legendary Vampire has overcame all of her weakness, she built a house out of wooden stakes, and tap dances under the sunlight..."
 
 
 なんじゃこりゃあっ！？\n誰がこんなもの書いて……=What is this?!\nWho the hell wrote this book...?

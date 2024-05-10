@@ -8,7 +8,7 @@
 人さらいたち=Kidnappers
 兵士=Knights
 
-r:"^ミソラと再びデートする条件として、(.{2,10})は一緒に人助けを\nしていくが、人さらいと遭遇したミソラは相手を撃ち殺そうと\nする。それを止められたミソラは気持ちが冷めたと言い、去っ\nていった。$"=To get $1 to date her again, Misora had to do 'Good Deeds' together with him. In the middle of that, they encountered a group of kidnappers and she tried to gun down all of them. $1 stopped her but also ended up making Misora leave, leaving $1 with mixed feelings.
+ミソラと再びデートする条件として、{playername}は一緒に人助けをしていくが、人さらいと遭遇したミソラは相手を撃ち殺そうとする。それを止められたミソラは気持ちが冷めたと言い、去っていった。=To get {playername} to date her again, Misora had to do 'Good Deeds' together with him. In the middle of that, they encountered a group of kidnappers and she tried to gun down all of them. {playername} stopped her but also ended up making Misora leave, leaving {playername} with mixed feelings.
 
 ──どるるるる～んっ★=──Dorururu～n ★
 
@@ -27,7 +27,7 @@ r:"^ミソラと再びデートする条件として、(.{2,10})は一緒に人�
 
 ──しばらく前のこと。=──A while ago.
 
-r:"^(.{2,10})が、街を歩いていると……$"=$1 is walking around the streets...
+{playername}が、街を歩いていると……={playername} is walking around the streets...
 
 だ～～れだっ？=Whooo do you think I am?
 
@@ -256,4 +256,4 @@ r:"^(.{2,10})が、街を歩いていると……$"=$1 is walking around the str
 
 ……ミソラちゃん……=Misora-chan...
 
-r:"^ケンカ別れのような形で去っていったミソラ。\n(.{2,10})は、複雑な思いで\n彼女のことを考えるのだった……$"=Misora fought with $1 and split up in the end.\n$1 is left thinking about her with mixed feeling...
+ケンカ別れのような形で去っていったミソラ。\n{playername}は、複雑な思いで\n彼女のことを考えるのだった……=Misora fought with {playername} and split up in the end.\n{playername} is left thinking about her with mixed feeling...

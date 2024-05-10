@@ -4,9 +4,9 @@
 野球部員たち=Baseball Club Members
 マネージャー=Manager
 
-r:"^部員ギリギリの野球部に助っ人を頼まれた(.{2,10})。キャルもマネージャーとして彼らの練習に付き合い、最後には河川敷を走る部員たちにほうきに乗って追走し、笑顔で檄を飛ばした。$"="$1 is asked by the baseball team to fill-in due to a shortage of players. Kyaru goes along with them as their manager, and in the end, as they run along the riverbank, she chases after the team on her broom, smiling and hurling encouragement at them."
+部員ギリギリの野球部に助っ人を頼まれた{playername}。キャルもマネージャーとして彼らの練習に付き合い、最後には河川敷を走る部員たちにほうきに乗って追走し、笑顔で檄を飛ばした。={playername} is asked by the baseball team to fill-in due to a shortage of players. Kyaru goes along with them as their manager, and in the end, as they run along the riverbank, she chases after the team on her broom, smiling and hurling encouragement at them.
 
-r:"^学業を修めるため、アンブローズ魔法学園へと編入した、\nキャルと(.{2,10})。$"="Kyaru and $1 have transferred to Ambrose Magical Academy in order to complete their studies."
+学業を修めるため、アンブローズ魔法学園へと編入した、\nキャルと{playername}。=Kyaru and {playername} have transferred to Ambrose Magical Academy in order to complete their studies.
 束の間の青春を謳歌していたキャルだが、\nその優秀さから、前代未聞の飛び級で卒業が決まったのだった──=Kyaru has been enjoying this brief moment of youth, however, because of her excellence, it was decided that she will graduate with an unprecedented grade skip.
 はあ、卒業か……まったく急すぎんのよ。\nけっこー楽しくなってきたのにな……学園生活。=Haa, graduation, huh? ... Seriously, it’s so sudden.\nMy school life...\nJust when it was getting pretty fun.
 卒業取り消してもらう？=Will you have them cancel your graduation?
@@ -42,7 +42,7 @@ r:"^学業を修めるため、アンブローズ魔法学園へと編入した�
 元々うちは弱小だから、勝てる見込みは薄いんだけど、\n３年生にとっては明日が引退試合でさ……=Honestly, our team’s always been pretty bad, we didn’t really have any hope of winning, but tomorrow is the retirement game for the seniors...
 うう……っ！=Uuuh....!
 ちょ、ちょっとあんたら泣いてんじゃないわよ……！\nそりゃあ気の毒だけどしょうがないじゃない。\n今からじゃ助っ人も見つからないだろうし……=Wa-wait a second, you’re all crying now...!\nWell, that’s miserable, but you can’t do anything, right?\nIt doesn’t look like you’ll be able to find a replacement now...
-r:"^……あ。そういや(.{2,10})、\nビーチベースボールの経験あるんだっけ？$"="... Ah! Come to think, $1,\nYou’ve played beach baseball before, right?"
+……あ。そういや{playername}、\nビーチベースボールの経験あるんだっけ？=... Ah! Come to think, {playername},\nYou’ve played beach baseball before, right?
 え！　本当か！？　……た、頼む！！\n明日の試合、助っ人に来てくれないか！？=Eh! Really!? ... P-Please!!\nWill you help us out in the game tomorrow!?
 ん～詳しくないけど、\n野球とビーチベースボールって違うんじゃない？\n……どうあんた、やれんの？=Hmm... I don’t really know, but\nAren’t baseball and beach baseball different?\n... Well, can you do it?
 下手だけど頑張ります！=I might not be good, but I’ll try!
@@ -117,5 +117,5 @@ r:"^……あ。そういや(.{2,10})、\nビーチベースボールの経験�
 勝ちたいッス！！！=We want to win!!
 そう！！　この世は気合よ！！\n分かったわね！！=See!! It’s all about spirit!!\nYou got that!!?
 明日は絶対に勝つわよー！！\nア魔学ーーーーー！！=Tomorrow, you will definitely win!!\nAmb Academyyy!!
-r:"^気合の入るキャルたちだが翌日、土砂降りの天気で試合は中止となり、\n(.{2,10})の助っ人は幻に終わったのだった。$"="Kyaru and the team were full of spirit, but the next day, due to a massive downpour the game was cancelled, and $1’s assistance ended like a fleeting dream."
+気合の入るキャルたちだが翌日、土砂降りの天気で試合は中止となり、\n{playername}の助っ人は幻に終わったのだった。=Kyaru and the team were full of spirit, but the next day, due to a massive downpour the game was cancelled, and {playername}’s assistance ended like a fleeting dream.
 

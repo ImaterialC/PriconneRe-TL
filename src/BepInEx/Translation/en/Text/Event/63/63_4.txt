@@ -112,7 +112,7 @@
 
 
 
-r:"^街へ行くぞ(.{2,10})、それと来なくてもいいがユキも！$"=Let's go to the city, $1, and you don't have to come, Yuki!
+街へ行くぞ{playername}、それと来なくてもいいがユキも！=Let's go to the city, {playername}, and you don't have to come, Yuki!
 
 
 
@@ -152,7 +152,7 @@ r:"^街へ行くぞ(.{2,10})、それと来なくてもいいがユキも！$"=L
 
 
 
-r:"^特別な儀式かぁ……\nそうだ(.{2,10})さん、ちょっとこっちにおいでよ。$"=A special ceremony, huh... Oh, right, $1-san, come here for a bit.
+特別な儀式かぁ……\nそうだ{playername}さん、ちょっとこっちにおいでよ。=A special ceremony, huh... Oh, right, {playername}-san, come here for a bit.
 
 
 
@@ -165,7 +165,7 @@ r:"^特別な儀式かぁ……\nそうだ(.{2,10})さん、ちょっとこっ�
 
 
 
-r:"^(.{2,10})よ。\nわらわの前にひざまずくがいい。$"=$1, kneel before me.
+{playername}よ。\nわらわの前にひざまずくがいい。={playername}, kneel before me.
 イリヤの前にひざまずく。=I kneel in front of Illya.
 
 

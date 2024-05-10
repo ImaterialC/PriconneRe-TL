@@ -1,6 +1,6 @@
-r:"^身長が足りず参加できなかった大会へのリベンジを考えるモニカ。身長を伸ばすため、([\s\S]{2,10})と共に様々な特訓を開始する。特訓の成果を確信したモニカは、出場に向け努力し続けるのだった。$"=Monika contemplates revenge on the tournament she couldn't participate in due to her height. To increase her height, she begins various special training sessions with $1. Confident in the results of her training, Monika continues to strive for participation.
+身長が足りず参加できなかった大会へのリベンジを考えるモニカ。身長を伸ばすため、{playername}と共に様々な特訓を開始する。特訓の成果を確信したモニカは、出場に向け努力し続けるのだった。=Monika contemplates revenge on the tournament she couldn't participate in due to her height. To increase her height, she begins various special training sessions with {playername}. Confident in the results of her training, Monika continues to strive for participation.
 
-r:"^(.{2,10})は\n鼻歌交じりでスキップする、小柄な軍人の後ろ姿に気づいた。$"=$1 notices a petite soldier skipping and humming a tune.
+{playername}は\n鼻歌交じりでスキップする、小柄な軍人の後ろ姿に気づいた。={playername} notices a petite soldier skipping and humming a tune.
 
 ふんふんふーん♪=Hmm hmm hmm~
 声をかける。=Call her out.
@@ -29,7 +29,7 @@ r:"^(.{2,10})は\n鼻歌交じりでスキップする、小柄な軍人の後�
 いや。『大きく』というのは体のことではなく、\n年齢のことを言ったのだがな……=No. When I said "get bigger," I was referring to age, not the body...
 しかし、うらやましい限りだ。\n豆粒米粒だなんて言わず、もっと背が伸びていればリベンジできたが……=But I'm quite envious. If only I had grown taller than just bean-sized or rice grain-sized, I could have had my revenge...
 リベンジ？=Revenge?
-r:"^……そうだな。(.{2,10})に関係のない話ではない。\n覚えているか？　以前、開催された決闘大会のことを。$"=...That's right. It's not unrelated to $1. Do you remember? The duel tournament that was held before.
+……そうだな。{playername}に関係のない話ではない。\n覚えているか？　以前、開催された決闘大会のことを。=...That's right. It's not unrelated to {playername}. Do you remember? The duel tournament that was held before.
 私も参加するために貴公と訓練を重ねたが、\n140cm以下は参加できないと言われ、出場すら叶わなかった……=I trained with you to participate, but they said I couldn't participate if I was below 140cm, so I couldn't even enter...
 少し先の話だが……またその大会が開催されるらしくてな。\n今回こそはと思ったが、私は未だに138cmの壁を突破できていない。\n……出場など、夢のまた夢というわけだ。=It's a story a bit ahead, but... it seems that the tournament will be held again. I thought this time I would be able to participate, but I still haven't surpassed the 138cm wall. ...Participation and such, it's just a dream within a dream.
 出場してたらモニカが優勝だったのに。=If you participate, you will definitely become a champion.
@@ -43,7 +43,7 @@ r:"^……そうだな。(.{2,10})に関係のない話ではない。\n覚え�
 そうだな。これは気合根性の話ではないと思うが、\n最善を尽くさず諦めるのは性に合わん。=That's right. I don't think this is just about determination and willpower, but it's not in my nature to give up without giving it our best.
 どんな噂や説だろうとも、最後までやり抜いてみせよう！\n貴公、すまないが手伝ってくれ！！=No matter what rumors or theories there may be, let's see it through to the end! Sorry, but can you help me with this, please!
 
-r:"^子供たちからメモを受け取った\nモニカと(.{2,10})は、特訓のために森へ移動した。$"=After receiving the notes from the children, Monica and $1 moved to the forest for special training.
+子供たちからメモを受け取った\nモニカと{playername}は、特訓のために森へ移動した。=After receiving the notes from the children, Monica and {playername} moved to the forest for special training.
 さっそく特訓を始めよう！\nメモの一番上から下まで、順番に実行していくぞ！=Let's start the special training right away! We'll execute it in order from the top to the bottom of the notes!
 まずは『身長を強制的に伸ばすストレッチ』……\nストレッチは基本中の基本だな！=First is the "stretch that forcibly extends height"... Stretching is the basics of basics!
 やり方は……\n『木の枝にぶら下がって、両足を引っ張ってもらう』……=The method is... "hang from a tree branch and have both legs pulled"...
@@ -75,7 +75,7 @@ r:"^子供たちからメモを受け取った\nモニカと(.{2,10})は、特�
 ………………や。=............Damn.
 やはり、薬に頼るのはよくないなっ！\nここは実直に、健全なルートでいこうっ！！=As expected, relying on drugs is not a good idea! Let's take a healthy route!!
 
-r:"^こうしてモニカと(.{2,10})は、\n数日間に渡って、『背が伸びる方法』を試していった……$"=In this way, Monika and $1 spent several days trying various methods to increase their height...
+こうしてモニカと{playername}は、\n数日間に渡って、『背が伸びる方法』を試していった……=In this way, Monika and {playername} spent several days trying various methods to increase their height...
 
 『エリザベスパークの牛乳100本飲み』！？\n……いや、弱気になってはいかんな。やってやるぞ！！="Drink 100 bottles of Elizabeth Park's milk"!?... No, I can't be weak. I'll do it!!
 『今話題の栄養素満点の肉を食べる』……\nおい。この毛の生えたミミズのような魔物、本当に食べられるのか！？="Eat the nutrient-rich meat that's the talk of the town"... Hey. Can this hairy-worm-like creature really edible!?
@@ -91,7 +91,7 @@ r:"^こうしてモニカと(.{2,10})は、\n数日間に渡って、『背が�
 なにっ！？=What?!
 どれぐらい伸びている！？\n……139cmだと！？　1cmも伸びたのは初めてだ……！！=How much I grew?!...\nIt's 139cm you say!? It's the first time I've grown 1cm...!!
 つまり私は……まだ成長できるということか！？=So, that means... I can still grow?!
-r:"^(.{2,10}?)……っ！！$"=$1...!!
+{playername}……っ！！={playername}...!!
 ……お、おいっ！　人の頭をぐりぐりするのはよせっ！\n小さな子供ではないのだぞ！　縮んだらどうしてくれるのだ！=H-Hey! Stop poking people's heads! I'm not a little child! What will you do if I shrink!
 ははっ！　こんなにうれしいのは、軍に入隊して以来だなっ！\n貴公には、なんと感謝すればいいのか……=Haha! This is the happiest I've been since joining the army! How can I thank you enough... Comrade.
 いや、喜ぶのは早いな。私はまだ、出場の条件を満たしていない。\n私は引き続き、背を伸ばす努力をしていくぞ。\nそして……=Well, it's too early to celebrate. I still haven't met the requirements for participation. I will continue my efforts to increase my height. And...
@@ -99,7 +99,7 @@ r:"^(.{2,10}?)……っ！！$"=$1...!!
 そうと決まれば、さっそく特訓を再開しよう。\n貴公、付き合ってくれるか？=Now that it's decided, let's resume the special training right away. Will you join me, my lord?
 
 
-r:"^子供のようにうれしそうに笑いかけるモニカに\nうなずく(.{2,10})。\n大会受付まで数か月……二人は再び秘密の特訓を続けるのだった。$"=$1 nodded to Monika, who smiled happily like a child. The tournament registration was still months away... The two of them continued their special training once again.
+子供のようにうれしそうに笑いかけるモニカに\nうなずく{playername}。\n大会受付まで数か月……二人は再び秘密の特訓を続けるのだった。={playername} nodded to Monika, who smiled happily like a child. The tournament registration was still months away... The two of them continued their special training once again.
 
 
 

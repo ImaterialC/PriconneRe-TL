@@ -5,11 +5,11 @@ Episode 1:
 宵の密会=Night's Secret Meeting
 
 Summary:
-r:"^無事グランドリームパークを奪還し、城に帰還した一同。ライラエルは彼女たちに感謝を伝え、クルルに励ましの言葉をかける。そしてその夜、(.{2,10})は一人ライラエルのもとを訪ねるのだった。$"=After safely retaking Grand Dream Park, everyone returns to the castle. Lyrael expresses her gratitude to them and offers Kururu words of encouragement. When the night comes, $1 visits Lyrael alone.
+無事グランドリームパークを奪還し、城に帰還した一同。ライラエルは彼女たちに感謝を伝え、クルルに励ましの言葉をかける。そしてその夜、{playername}は一人ライラエルのもとを訪ねるのだった。=After safely retaking Grand Dream Park, everyone returns to the castle. Lyrael expresses her gratitude to them and offers Kururu words of encouragement. When the night comes, {playername} visits Lyrael alone.
 
 グランドリームパーク=Grand Dream Park
 
-r:"^(.{2,10})たちは、\n謎の魔物に破壊されてしまったジオ・テオゴニアの遊園地、\nグランドリームパークの瓦礫の片付けを手伝っていた。$"=$1 and the others were helping with cleaning up the rubble at Grand Dream Park, the amusement park in Gio Teogonia that had been destroyed by mysterious monsters.
+{playername}たちは、\n謎の魔物に破壊されてしまったジオ・テオゴニアの遊園地、\nグランドリームパークの瓦礫の片付けを手伝っていた。={playername} and the others were helping with cleaning up the rubble at Grand Dream Park, the amusement park in Gio Teogonia that had been destroyed by mysterious monsters.
 王家の装備、腹３分目パワーでっ！\nどっこいしょー☆=Royal Equipment, with the power portion of 3 stomach! Let's go☆
 あははっ♪\nわたしも負けずに、よっこらしょーっ！=Ahaha♪ I won't lose either, let's go!
 あれほど大きな破片を、軽々と……\nペコリーヌ様とクローチェ様は、本当に怪力無双ですね。=Effortlessly moving such large pieces debris... Miss Pecorine and Miss Croce truly have unrivaled strength.
@@ -106,7 +106,7 @@ r:"^(.{2,10})たちは、\n謎の魔物に破壊されてしまったジオ・�
 ……してない。=...Nothing.
 諦めるつもりなんか、さらさらないけど……\nさすがにそろそろ、成果のひとつくらい欲しいわよね。\nちょっとでいいからさ。=I'm not going to give up, but... I'd like to get at least some result by now. Even just a little.
 結果的にはですけど、今回のことでライラエルさんとも\nお友だちになれましたし……もうちょっとこっちの事情を明かして、\n『ジオ・テオゴニア』のことを聞かせてもらえたらいいですね。=As it turns out though, we've made friends with Lyrael because of this experience... It would be nice if we could reveal more to her of our circumstances and ask her about 『Gio Teogonia』.
-r:"^はい☆\nきっとライラエルさんのほうも、事情を聞きたいって思ってますよね。\nねっ、(.{2,10})くん──$"=Yes☆ I'm sure Lyrael wants to hear what's going on too. Right, $1-kun─
+はい☆\nきっとライラエルさんのほうも、事情を聞きたいって思ってますよね。\nねっ、{playername}くん──=Yes☆ I'm sure Lyrael wants to hear what's going on too. Right, {playername}-kun─
 ──あれっ？=Huh?
 あ、主さま？\nいったいどちらに……？=Ah, My Lord? \nWhere in the world are you going...?
 
@@ -258,7 +258,7 @@ Episode 2:
 宣戦布告=Declaration of War
 
 Summary:
-r:"^ライラエルは(.{2,10})にこの世界に来た本当の目的を尋ね、事情を知った彼女は自身の想いと共に「もう一つの世界」の存在を告げた。そんな折、一同はフレイヤと名乗る人物から宣戦布告を受ける。$"="Lyrael asked $1 what his true purpose in coming to this world was, and when she learned about the circumstances, she told him about the existence of 「another world」 along with her own feelings. At that moment, everyone received a declaration of war from someone who called herself "Freiya"."
+ライラエルは{playername}にこの世界に来た本当の目的を尋ね、事情を知った彼女は自身の想いと共に「もう一つの世界」の存在を告げた。そんな折、一同はフレイヤと名乗る人物から宣戦布告を受ける。=Lyrael asked {playername} what his true purpose in coming to this world was, and when she learned about the circumstances, she told him about the existence of 「another world」 along with her own feelings. At that moment, everyone received a declaration of war from someone who called herself "Freiya".
 
 ャッスル・オブ・パルフェ～王座の間～=The Royal Throne Room
 遠くの魔物たち=Monsters in the distance
@@ -378,7 +378,7 @@ Cutscene:
 お、お待ちくださいライラエルさま！\nそれってまた、『王家の装備』を使うってことですよね……！？=P-Please wait, Lady Lyrael! That also means you're going to use 『Royal Equipment』 again?!
 ダ、ダメですっ！\nいくら姫さまだって、あんなに敵がたくさんいたんじゃ……！=N-No! Even Her Highness won't be able to handle so many enemies at once...!
 そうですよ！\n魔物さんも黒幕さんも、わたしたちにどーんと任せてくださいっ！=That's right! Leave the monsters and culprits behind all this to us!
-r:"^わたしたちも、もちろん戦いますから！\nねっ、(.{2,10})くん！$"=We'll fight too! Right, $1-kun?!
+わたしたちも、もちろん戦いますから！\nねっ、{playername}くん！=We'll fight too! Right, {playername}-kun?!
 ってワケだぜ、姫さん。\nこの場は俺らの出番ってこった。=And that's how it is Your Highness. Now it's our turn.
 昨日も言ったとおりによ、\n姫さんは玉座にふんぞり返ってくれてりゃいいんだよ──=As I've said yesterday, Your Highness: all you have to do is sit on your throne─
 ──……不遜。=...Insolent.
@@ -538,7 +538,7 @@ Chapter 3:
 Summary:
 城外に現れた魔物退治に向かう一同。リンドたちはライラエルから住民の避難誘導を命じられたが、彼女を想い、皆で国を守ることを選ぶ。一同は心を一つにしたジオ・テオゴニアの人々と共に魔物に立ち向かっていく。=Everyone is on their way to slay the monsters that appeared outside the castle. Lind and the others were ordered by  Lyrael to evacuate the residents, but they choose to remain and fight alongside her to protect their country together. Together with the people of Gio Teogonia, they stand united and ready for the monsters.
 
-r:"^ライラエルや(.{2,10})たちは城の外に向かい、\nキャッスル・オブ・パルフェの大広間には\nリンドとヴルムが残されていた。$"=Lyrael, $1, and the others headed outside the castle, leaving Lind and Wyrm in the great hall of the Castle of Parfait
+ライラエルや{playername}たちは城の外に向かい、\nキャッスル・オブ・パルフェの大広間には\nリンドとヴルムが残されていた。=Lyrael, {playername}, and the others headed outside the castle, leaving Lind and Wyrm in the great hall of the Castle of Parfait
 ちょっと、私たちも急ぎましょヴルム……！\nライラエルさまから、\n街の人たちの避難誘導を任されてるんだから……！=Hey, let's hurry too, Wyrm...! Lady Lyrael entrusted us with evacuating the people of the city...!
 ……だる。=...How bothersome.
 はぁっ！？　こ、こんなときに……！\nだるいとか面倒とか、言ってる場合じゃないでしょう！？\nライラエルさまたちが、戦いに出られているのに……！=Huh?! A-At times like this even...! This isn't the time to say things like "tiring" and "troublesome" is it?! \nEven though Lyrael and the others are out fighting...!
@@ -619,7 +619,7 @@ r:"^ライラエルや(.{2,10})たちは城の外に向かい、\nキャッス�
 あとはわたしたちに、お任せくださいっ！\nみんなで協力して、魔物さんたちを倒しちゃいますからっ♪=Please leave the rest to us! We'll all work together to defeat the monsters♪
 プリンセス・ライラエルは前線から下がったようね。\n代わりにユースティアナたちが来て……状況は少し変わりそう。\n呼んでもいない闖入者が、手ぐすねを引いているようだし。=It seems that Princess Lyrael has withdrawn the front lines. While the Eustiana's group has arrived in her place... \nThe situation also seems to be changing slightly, as if there are invited intruders lurking, waiting to make a move.
 やりすぎず、加減しすぎず──仕掛けを垂らしてやらなくては。\nこちらの狙いを、悟られないように……=I can't overdo it, yet also can't be too easy on her. \nI need to be meticulous while setting things up, so that she doesn't realize what I'm after...
-r:"^ラモリール平原を舞台に、ぶつかりあう魔物の群れと\n『ジオ・テオゴニア』の人々、そして(.{2,10})一行。\nそして──$"=Within the Lamorir Plains, the people of『Gio Teogonia』, along with $1's party, clash against the swarms of invading monsters. And then─
+ラモリール平原を舞台に、ぶつかりあう魔物の群れと\n『ジオ・テオゴニア』の人々、そして{playername}一行。\nそして──=Within the Lamorir Plains, the people of『Gio Teogonia』, along with {playername}'s party, clash against the swarms of invading monsters. And then─
 ──ひひっ♡=Hihii♡
 騒ぎに紛れ、宝を奪わんとする盗賊たちの姿があった。=And in the midst of the commotion, there were bandits lurking, waiting to steal the treasure.
 
@@ -636,7 +636,7 @@ Summary:
 
 ──裏世界『ジオ・テオゴニア』。\nキャッスル・オブ・パルフェに続く、ラモリール街道付近──=─『Gio Teogonia』Reverse World, near the Lamorir Highway leading to the Castle of Parfait
 空に浮かぶ魔法陣から召喚された\n幾多のランドソルの魔物たちが、\n平和を謳歌していたその世界の草花を踏み荒らす。=Numerous Landosol monsters are being summoned from the magic circle floating in the sky, trampling over the plants and flowers of this peaceful world.
-r:"^(.{2,10})たちに宣戦を布告した謎の女性、『フレイヤ』。\n彼女は魔物たちで埋め尽くされた陣の向こうから、\n見えざる力で指揮を送る。$"="A mysterious woman, calling herself "Freiya", declared war on $1 and the others. From the other side of the magic circle, she command the monsters with an unknown power."
+{playername}たちに宣戦を布告した謎の女性、『フレイヤ』。\n彼女は魔物たちで埋め尽くされた陣の向こうから、\n見えざる力で指揮を送る。=A mysterious woman, calling herself "Freiya", declared war on {playername} and the others. From the other side of the magic circle, she command the monsters with an unknown power.
 ジオ・テオゴニア側の重要戦力であるプリンセス・ライラエルは\n力の消耗と強化された魔物たちの攻撃で負傷し、後退。\n戦況は一気に傾くかと思われたが──=Princess Lyrael, a powerful and essential individual on the side of Gio Teogonia, was injured due to overexerting her power and the attacks of the strengthened monsters, and has retreated. The tide of battle seemed to tilt all at once, but then─
 ──オラオラオラァッ！\nかわいいかわいい猫妖精の力、\n目ン玉かっぴらいて見さらせってんだこの野郎ッ！=─Oraoraoraoraaaa! Witness the power of this cute and adorable cat fairy, you bastards!
 こ、こええけど……\nケンカしちゃダメって、ママに言われてきたけど……\nみんなを守るためなら、俺だってっ……！=I-It's scary... Mama has always told me not to get in fights... But if it's to protect everyone, I'll do it...!
@@ -814,7 +814,7 @@ Summary:
 ……いいでしょう。\nまとめて、スクラップにして差し上げます──=...Very well. I'll turn you into scrapheaps.
 わっ！？\n魔物さんたち、急に元気になっちゃいましたよっ！？=Wah?! The monsters suddenly become more energetic?!
 これは……！=This is...!
-r:"^負けてられませんっ！\n(.{2,10})くん、もっともっと強化をお願いしますっ！$"=We can't afford to lose here! $1, please give me more strength!
+負けてられませんっ！\n{playername}くん、もっともっと強化をお願いしますっ！=We can't afford to lose here! {playername}, please give me more strength!
 全力超全開！\nプリンセスヴァリアントーッ！！=Full power, full throttle! Princess Valiant!!
 まだまだ。=I'm not done yet.
 ああもう、しつこいっての！\nアビスバーストッ！=Geez, you're so persistent! Abyss Burst!
@@ -1013,7 +1013,7 @@ Summary:
 ヴルム・ヴォルガーノ=Wyrm Volgano
 
 「「「──ぎゃおおおお～っ！！」」」=「「「Gyaaaaa～h!!」」
-r:"^(.{2,10})たちは\n『フレイヤ』と彼女の呼び出した魔物、\nそして【バンディ・シスターズ】を退けることに成功した。$"=$1 and the others succeeded in repelling Freiya, the monsters she summoned, as well as the Bandit Sisters.
+{playername}たちは\n『フレイヤ』と彼女の呼び出した魔物、\nそして【バンディ・シスターズ】を退けることに成功した。={playername} and the others succeeded in repelling Freiya, the monsters she summoned, as well as the Bandit Sisters.
 奸賊らは、撃ち漏らしたか。\n甚だ業腹ではあるが──=Those criminals managed to get away. \nQuite regrettably so. However ...
 皆、大儀であった。\n一先ず褒めて遣わそう。=Everyone, you all did a great job. I will appraise you for the time being.
 えへへ、ありがとうございまーすっ♪=Ehehe, thank you very much♪
@@ -1097,7 +1097,7 @@ r:"^(.{2,10})たちは\n『フレイヤ』と彼女の呼び出した魔物、\n
 甘ったるいジュースにゃ、もう飽き飽きだ。=I'm getting a bit sick of the sweet juice already though.
 え～っ？\nおいし～のに～=What? But it's so yummy!
 お子様にゃ、それでいいかもしれないけどね。\nもっと刺激的で、アタシの喉を潤してくれるような──\nそーいう飲み物のある場所に、行ってみるとしようかね。=That might be fine for kids.\nAs for me personally however, I need something more stimulating, something that can quench my thirst. \nLet's find a place with just that.
-r:"^そして、数日後──\n(.{2,10})たちが、\n『ジオ・テオゴニア』を旅立つ日がやってきた。$"=And thus, a few days later─\nThe day $1 and his friends departed from『Gio Teogonia』finally arrived.
+そして、数日後──\n{playername}たちが、\n『ジオ・テオゴニア』を旅立つ日がやってきた。=And thus, a few days later─\nThe day {playername} and his friends departed from『Gio Teogonia』finally arrived.
 まほーじん。\nかんせい。=Magic circle. Done.
 ふー。思ったより大変だったわねー\nオニギリのやつとグルメチェイサー号を通せるようにしたかったから、\n空間の穴も結構大きくしなきゃだったし。=Phew. That was tougher than I thought. \nI wanted to make sure that Onigiri and the Gourmet Chaser could pass through, so the hole we're creating has to be big enough.
 あらためて……\nオニギリ様も、ハッピー様も、よろしいのでしょうか？\n生まれ故郷を離れることになってしまいますが……=Just to make sure... \nAre you alright with all of this, Onigiri-sama, Happy-sama? You'll be leaving your birthplace...
@@ -1243,7 +1243,7 @@ choice
 からかう相手がいなくなったら、つまんないもんねー♪=I mean, it'd be really boring without someone to make fun of♪
 ……ほんと。\n身体には気をつけなさいよ？\n無理したくなる気持ちは、わからないでもないけど……ね。=...Seriously, I might not understand your reasons for pushing yourself this far... but take care of yourself out there. 
 『ミネルヴァの懲役』が終わって、少しの時間が経ち。\n世界は平和を取り戻した──かのように見えた。=Some time has passed since "Minerva's Imprisonment" ended. It seems like the world has returned to peace.
-r:"^(.{2,10})とペコリーヌは、\nレジェンドオブアストルムでの仲間と再会するため\n情報を集めまわっていたのだが……$"="$1 and Pecorine is gathering information to reunite with their friends from Legend of Astrum."
+{playername}とペコリーヌは、\nレジェンドオブアストルムでの仲間と再会するため\n情報を集めまわっていたのだが……={playername} and Pecorine is gathering information to reunite with their friends from Legend of Astrum.
 『キャルちゃんの通ってたっていう予備校。\n潰れちゃってるみたいですね……』=「Looks like the prep school Kyaru-chan was attending has been demolished by now...」
 『アニメショップや、ハンバーガー屋さんとか。\nキャルちゃんとあなたが現実で会った場所は、全部巡ってみましたけど。\nこれでもう、手掛かりになりそうな場所は……』=「Anime shops, hamburger shops, we've checked all the places we visited together with Kyaru-chan in that real world.\nThere should be a clue around this place...」
 ……住所を聞いておくべきだった。=...I should've asked for her address.
@@ -1282,7 +1282,7 @@ mimiのメッセージも、既読にならないし…=My 'mimi' messages isn't
 いや、いらない。\n市民を護るのは、義務ってやつで……=No, it's fine. Protecting citizens is my duty after all...
 ……？\nこの人……=...? \nThis person is...
 っと──電話だ。\nじゃあお前さんたち。\n物騒だから、あまりフラフラしてるんじゃないぞ。=Oh, phone call. \nIt's dangerous around here, so don't loiter around too much. 
-r:"^『……(.{2,10})くん。\nこっちへ……！』$"="「...$1, over here...」"
+『……{playername}くん。\nこっちへ……！』=「...{playername}, over here...」
 『……ウス、グルーヌイ上級捜査官』=「...Yes, Senior Investigator Grenouille」
 『やぁロランド。\nなかなか愉快な事態みたいじゃないか』=「Hey Roland. Quite an amusing situation you had there, did you?」
 『モニタリングしてたと思いますが、スンマセン。\n打ち所が悪かったら、ターゲットが死ぬとこだったんで。つい』=「I was planning on just monitoring them, sorry. \nIf he had hit the wrong spot, the target would've died at the spot.」
@@ -1313,8 +1313,8 @@ r:"^『……(.{2,10})くん。\nこっちへ……！』$"="「...$1, over here
 『えっ……』=「Eh...?」
 ペコさんが僕を頼ってくれて、うれしい。=I'm glad that Peco-san is relying on me.
 『……！\nえ、えへへへ……\nやですねもうっ☆』=「...! Ehehe... It's really not like that☆」
-r:"^『……「こっち」でも、「あっち」でも。\n他の誰よりも、頼りにしてるに決まってるじゃないですか。\nだって、(.{2,10})くんなんですから……☆』$"="「...Whether it's 'here' or 'there', I can always count on you! After all, you're $1-kun.」"
-r:"^『……あのですね、(.{2,10})くん。\nわたし、ログアウトしてからずっと考えてることがあって』$"="「...You see, $1-kun. Ever since I logged out, I've been thinking」"
+『……「こっち」でも、「あっち」でも。\n他の誰よりも、頼りにしてるに決まってるじゃないですか。\nだって、{playername}くんなんですから……☆』=「...Whether it's 'here' or 'there', I can always count on you! After all, you're {playername}-kun.」
+『……あのですね、{playername}くん。\nわたし、ログアウトしてからずっと考えてることがあって』=「...You see, {playername}-kun. Ever since I logged out, I've been thinking」
 『レジェンドオブアストルムに出資した国の、王女として。\nランドソルの、プリンセスとして。\nいいえ、ただの１プレイヤーとしても……』=「As the princess of the country that invested in Legend of Astrum. As the Princess of Landosol... No, even as a normal player...」
 『カスミちゃんの言っていた、「カテゴリー・黒」──\nあの世界から、まだ帰ってこれていない人たちを助けたいんです』=「About the "Category Black" Kasumi-chan mentioned── \nI want to save those people who haven't returned from that world.」
 『もちろん方法なんて、まだ全然わからないですけど。\nどれだけ大変でも……\nたとえもう一度、あの世界にダイブすることになっても』=「Obviously I haven't figured out how to exactly do it yet... \nBut no matter how hard it is, even if I have to dive into that world again...」
@@ -1360,7 +1360,7 @@ r:"^『……あのですね、(.{2,10})くん。\nわたし、ログアウト�
 そうだ……\nこれが、あたしの現実……\nこのひとが、本当のあたしの家族……=That's right... \nThis is my reality... And this person is my real family...
 ……あいつらは。\n夢だったのかな……\nあたしが現実逃避で妄想した、都合の良い夢だったのかな……=...Those guys, are just a dream... \nIt was a convenient dream that I fantasized to escape reality...
 ペコリーヌ……\nコロ助……\nシェフィ……=Pecorine... Korosuke... Sheffy...
-r:"^それに……\n(.{2,10})……$"="And... $1..."
+それに……\n{playername}……=And... {playername}...
 ……あぁ。\n良い夢、だったな。=...Ahh. It sure was a good dream.
 どうせ……醒めちゃうんなら。\n見たく、なかったな。\nあんな……しあわせなゆめ……=If I were going to wake up... I shouldn't have seen...\nSuch a happy dream...
 
@@ -1373,7 +1373,7 @@ Summary:
 希留耶・希留耶の母=Kiruya&her mother
 
 『ミネルヴァの懲役』が終わって、少しの時間が経ち。\n世界は平和を取り戻した──かのように見えた。=Some time has passed since "Minerva's Imprisonment" ended. It seems like the world has returned to peace.
-r:"^仲間を捜していた(.{2,10})とペコリーヌは\n国際警察の捜査官・ロランドに遭遇し、追い詰められてしまう。$"=While searching for their friends, $1 and Pecorine ran into Roland,  an investigator of Interpol, and were cornered.
+仲間を捜していた{playername}とペコリーヌは\n国際警察の捜査官・ロランドに遭遇し、追い詰められてしまう。=While searching for their friends, {playername} and Pecorine ran into Roland,  an investigator of Interpol, and were cornered.
 ほら、祈るのよ希留耶。\nこうやって。\nね？=Come on, pray, Kiruya. \nLike this. Alright?
 もっと心をこめて。\nできるでしょう？\nお母さんのやり方を、ちゃんと覚えるの……！=Put your heart into it. You can do it, right? \nYou have to learn your mother's way of doing things properly...!
 ああっ……\nなんなの、その目つき……？=Aaah... Why are you looking at me like that...?
@@ -1433,7 +1433,7 @@ mimiが……ない？\nあたしの、すっごい大事な……大事なも�
 「へっ！？」\n「はっ！？？」=「Huh?!」\n「Huh!??」
 ぺ……\nペコリーヌッ！！？\nそれに──=Pe-Pecorine?! \nAnd─
 キャルちゃんっ！！=Kyaru-chan!!
-r:"^(.{2,10})もっ……！\nでも、どうしてっ……$"=$1 too...! But why...?
+{playername}もっ……！\nでも、どうしてっ……={playername} too...! But why...?
 『細かい話は後です！\n一緒に来てください、キャルちゃん！』=『I’ll tell you the details later! Come with me, Kyaru-chan!』
 はあ！？\nそんな、いきなり──=Huh?! Suddenly saying something like that─
 いきなり何言ってるの！？\nダメに決まってるでしょう！\nあたしの娘を、誘拐するつもりなのっ……！？=What are you saying all of a sudden!? Of course I won't allow that! \nAre you trying to kidnap my daughter...!?
@@ -1448,7 +1448,7 @@ r:"^(.{2,10})もっ……！\nでも、どうしてっ……$"=$1 too...! But wh
 ……でも。\nあたしの手は、お祈りなんかするためについてるんじゃない。=...But, my hand isn't there to only pray.
 こいつらは、あたしが苦しいときに。\n助けてほしいときに……諦めそうになっちゃうときに。\n必ずあたしの手を取ってくれる……=These people have always been there for me when I'm in pain. \nThey always reach out their hands and take mine, whenever I need help... whenever I feel like giving up...
 だからあたしは……この手を離さない。\n諦めてなんかやらない！\nそのために、あたしの手はついてるの！=That's why... I will not let go of those hands. I will not give up! \nThat's what my hands are for!
-r:"^行くわよ(.{2,10})、ペコリーヌ！$"=Let's go, $1, Pecorine!
+行くわよ{playername}、ペコリーヌ！=Let's go, {playername}, Pecorine!
 『はいっ！』=『Yes!』
 希留耶！\nダメ！　なんでお母さんの言うこと聞けないの！？\n希留耶ぁーーーっ！！=Kiruya! Stop! \nWhy can't you listen to your mother?! \nKiiruyaaaa!!
 ……そうだ。\n前に、決めたんだ、あたし──=...That's right. I've made up my mind already

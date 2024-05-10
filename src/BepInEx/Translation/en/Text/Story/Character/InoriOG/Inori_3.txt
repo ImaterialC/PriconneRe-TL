@@ -1,8 +1,8 @@
 雑貨屋=General Store
 散歩。=Strolling
 迷子。=I am lost.
-r:"^汚名返上のためギルドの仕事で買い物に来たものの、つい自分の趣味の買い物でお金を使い込んでしまったイノリ。下克上を試みようとするが、結局(.{2,10})に付き添われ謝りに帰るのであった。$"="To clear her name, Inori came shopping for guild work, but she ended up spending money on her own hobby. Attempting a power move, she ultimately apologizes and returns with $1."
-r:"^ランドソルの路地裏をぶらついていた(.{2,10})は、\n聞き覚えのある声に呼び止められた。$"="Wandering through the back alleys of Landosol, $1 was hailed by a familiar voice."
+汚名返上のためギルドの仕事で買い物に来たものの、つい自分の趣味の買い物でお金を使い込んでしまったイノリ。下克上を試みようとするが、結局{playername}に付き添われ謝りに帰るのであった。=To clear her name, Inori came shopping for guild work, but she ended up spending money on her own hobby. Attempting a power move, she ultimately apologizes and returns with {playername}.
+ランドソルの路地裏をぶらついていた{playername}は、\n聞き覚えのある声に呼び止められた。=Wandering through the back alleys of Landosol, {playername} was hailed by a familiar voice.
 おい、そこのおまえ！\n手を頭の上にのせてゆっくりとこっちを向くです！\nうかつなことをしたら分かってるですね……？=Hey, you there! Put your hands over your head and slowly turn this way! You understand the risk you're taking, right...?
 やっぱりお兄さんだったですか。\nっていうか、こんなところでなにやってるです？=So, it was you, Onii-san. I mean, what are you doing in a place like this?
 散歩ぉ？　危機感皆無ですね……\nここはギャングの縄張りですよ？\n見つけたのがあたしでよかったですね。=Taking a stroll? Utterly oblivious to danger... This is gang territory, you know? Lucky for you, it was me you found.

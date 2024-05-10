@@ -1,4 +1,4 @@
-r:"^サックスの演奏上達を目指すアカリに、(.{2,10})は体力づくりを提案する。一生懸命に走って競走する二人。疲れ切ってしまったアカリを、(.{2,10})はおんぶして家まで送る。$"="In an effort to improve her saxophone skills, $1 suggested physical conditioning to Akari. The two of them raced each other vigorously. Exhausted and worn out, Akari was given a piggyback ride by $1 all the way back home."
+サックスの演奏上達を目指すアカリに、{playername}は体力づくりを提案する。一生懸命に走って競走する二人。疲れ切ってしまったアカリを、{playername}はおんぶして家まで送る。=In an effort to improve her saxophone skills, {playername} suggested physical conditioning to Akari. The two of them raced each other vigorously. Exhausted and worn out, Akari was given a piggyback ride by {playername} all the way back home.
 はぁ……はぁ……\nお兄ちゃん……もうダメぇ！\nこんなに続けたら……アカリ、おかしくなっちゃうよ～=*pant*... *pant*...\nOnii-chan... This is too much!\nIf we keep this up... It's gonna... it's gonna drive me crazy...!
 ま、まだ、するんですか？\nそんな……=Y-you still want to keep going?\nNo way...
 たしかに、お願いしたのは私だけど……\nアカリの体、壊れちゃうよぉ……=I know I was the one who asked for this, but...\nMy poor little body... can't take much more...!

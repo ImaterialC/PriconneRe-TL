@@ -1,8 +1,8 @@
 マック=Mac
 ブラッド=Brad
 （中年）=(Middle-aged)
-r:"^(.{2,10})とギャングの演劇を観たイノリ。劇中での生き様に感銘を受けたイノリは下克上でボスを倒し、(.{2,10})と共になりあがることを改めて宣言するのであった。$"="$1 and the gang's play had a deep impact on Inori. In the play, she saw the determination and strength that comes with the gang lifestyle. She decided to defeat the boss and rise to power, reaffirming her commitment to $1."
-r:"^路地裏をぶらついていた(.{2,10})はイノリに誘われ、\nもらい物のチケットで演劇を見に来ていた。$"="While wandering through a back alley, $1 was invited by Inori to see the play with a complimentary ticket."
+{playername}とギャングの演劇を観たイノリ。劇中での生き様に感銘を受けたイノリは下克上でボスを倒し、{playername}と共になりあがることを改めて宣言するのであった。={playername} and the gang's play had a deep impact on Inori. In the play, she saw the determination and strength that comes with the gang lifestyle. She decided to defeat the boss and rise to power, reaffirming her commitment to {playername}.
+路地裏をぶらついていた{playername}はイノリに誘われ、\nもらい物のチケットで演劇を見に来ていた。=While wandering through a back alley, {playername} was invited by Inori to see the play with a complimentary ticket.
 ……ボスを殺るぞ。あるブツを手に入れた。\nこの街……いや、もっとドでかい事ができるすげえ力だ。=I'm going to kill the boss. I've got something that can help. With this power, not just the city, but something much bigger is within reach.
 調和とかなんとか言ってるボスはただの老いぼれ。\n上を目指す俺たちにとって邪魔なだけだ。それに、ボスを殺れば……\nあいつも、おまえのものになる。=The boss, who talks about harmony, is just an old man. He's in the way of us who are aiming higher. Besides, if we kill the boss... then he's yours too.
 幼なじみである親友、マックからの裏切りの誘惑……！\nブラッドにとってはボスの愛人となってしまった想い人を\n取り戻すチャンスでもあるです……ブラッド、どうするです……？　=Confronted by the temptation of betrayal from his childhood friend, Mac...! It's also a chance for Brad to reclaim his beloved who has become the boss's mistress... What will Brad do...?
@@ -19,7 +19,7 @@ r:"^路地裏をぶらついていた(.{2,10})はイノリに誘われ、\nも�
 くうう！　あの間はそういうことだったんですね……\nやはり忠義より友情ですよね、ブラッド……！　=Ugh! So, that's what happened in there... In the end, it's friendship over loyalty, Brad...!
 ……すまない、ブラッド……すまない……=I'm sorry, Brad... I'm so sorry...
 あああああー！　ブ、ブラッド……マックぅう～～～！　=Ahhh! Brad... Mac!
-r:"^演劇を見終わったイノリと(.{2,10})は、\nいつものランドソルの裏路地を歩いていた。$"="After watching the play, Inori and $1 walked through the familiar back alleys of Landosole."
+演劇を見終わったイノリと{playername}は、\nいつものランドソルの裏路地を歩いていた。=After watching the play, Inori and {playername} walked through the familiar back alleys of Landosole.
 くううう〜っ！　やっぱりかっこよかったです！\nこれですよ、これ！=Ughhh! It was so cool! This is it, this!
 まさにギャングの生き様ってヤツですよ！\nあたしもあんな風にかっこよく生きたいです！=That's the gangster way of life! I want to live as cool as they do!
 手下どもからチケットをもらった時はこんなもの見て喜ぶのは\nおっさんくらいだと思ったですけど想像以上だったですよ！=When I got those tickets from the henchmen, I thought only old guys would enjoy this, but it was even better than I imagined!
@@ -68,4 +68,4 @@ r:"^演劇を見終わったイノリと(.{2,10})は、\nいつものランド�
 ただでさえボスは手ごわいですからね……\n野望のためには準備はおろそかにしないのが一流のギャングです！=The boss is tough enough as it is... You can't neglect your preparations for your ambitions; that's what a top-notch gangster does!
 あたしがファミリーを完全掌握するために……\nこの借金をチャラにするためにも……！\nお兄さんにもしっかり協力してもらうです！！=To completely take control of the family... To clear this debt...! You're going to help me with all of that, Onii-san!
 よーし、じゃあまずは……\nギャングっぽくてかっこいい歩き方の練習です！\nお兄さんが慣れてきたら、原っぱをひたすらに走る練習ですからね！=Alright, first... it's practicing a gangster-like, cool way of walking! And once you get used to that, we'll move on to running endlessly across the field!
-r:"^ギャング演劇をみて気が大きくなったイノリは\n(.{2,10})を従え、肩で風を切って歩きだすのであった。$"="Influenced by the gangster play, Inori, with $1 in tow, walks with the wind at her shoulders."
+ギャング演劇をみて気が大きくなったイノリは\n{playername}を従え、肩で風を切って歩きだすのであった。=Influenced by the gangster play, Inori, with {playername} in tow, walks with the wind at her shoulders.

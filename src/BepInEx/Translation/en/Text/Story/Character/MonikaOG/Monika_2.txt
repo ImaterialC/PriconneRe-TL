@@ -1,7 +1,7 @@
 
-r:"^モニカは決闘大会のための練習相手として(.{2,10})を指名する。モニカはリーチの短さを補うために上空からの攻撃法を修得しようとする。二人はとりあえず足腰の強化としてランニングに励む。$"=Monika nominates $1 as her practice partner for the duel tournament. Monika tries to learn aerial attack techniques to compensate for her short reach. For now, they focus on strengthening their legs by running.
+モニカは決闘大会のための練習相手として{playername}を指名する。モニカはリーチの短さを補うために上空からの攻撃法を修得しようとする。二人はとりあえず足腰の強化としてランニングに励む。=Monika nominates {playername} as her practice partner for the duel tournament. Monika tries to learn aerial attack techniques to compensate for her short reach. For now, they focus on strengthening their legs by running.
 
-r:"^(.{2,10})はモニカに呼ばれて、\n待ち合わせ場所へとやって来た。$"=$1 arrives at the meeting place when called by Monika.
+{playername}はモニカに呼ばれて、\n待ち合わせ場所へとやって来た。={playername} arrives at the meeting place when called by Monika.
 
 来たか。\n今日は貴公に相談がある。=You're here.\nI have something to discuss with you comrade.
 一週間後にある決闘大会を知っているか？\n最近やたらと宣伝されている、あのイベントだ。=Do you know about the duel tournament that will take place in a week? It's the event that has been heavily promoted recently.
@@ -31,17 +31,17 @@ r:"^(.{2,10})はモニカに呼ばれて、\n待ち合わせ場所へとやっ�
 確かに、それなら相手にとっても予想外の攻撃だ。\nそう簡単に対処はできないな。=Indeed, that would be an unexpected attack for the opponent. It won't be easy for them to deal with it.
 しかも、空を舞う戦法は、\n白翼という意味を持つヴァイスフリューゲルの名に\n相応しい戦法でもある……うむ、さすが貴公だ。=Moreover, an aerial technique suits the name Weissflügel, meaning White Wings... Yes, you're truly remarkable.
 しかし、上から攻めるというのは、難しいぞ。\nかなりの訓練が必要になるな……=However, attacking from above is challenging. It will require a significant amount of training...
-r:"^(.{2,10})……貴公も訓練に付き合ってくれるか？$"=$1... Will you join me in the training as well?
+{playername}……貴公も訓練に付き合ってくれるか？={playername}... Will you join me in the training as well?
 もちろん。=Of course.
 そ、そうか！　よかった……\nでは、二人でがんばるぞ！=I-I see! That's great... Well then, let's do our best together!
 
 
-r:"^こら(.{2,10})、なにを休んでいる！\nまだメニューの半分しか、こなしていないぞ！\n訓練の本番はここからだ！$"=Hey, $1, why are you resting? We've only completed half of the training menu! The real training starts now!
+こら{playername}、なにを休んでいる！\nまだメニューの半分しか、こなしていないぞ！\n訓練の本番はここからだ！=Hey, {playername}, why are you resting? We've only completed half of the training menu! The real training starts now!
 
 
 まずは足腰を鍛えなくては……！\nさぁ、追加でランニング１０キロだ！=First, we need to strengthen our legs...! Now, let's add a 10-kilometer run!
 
-r:"^モニカの訓練は数時間に及び、\nヘロヘロに疲れ果てる(.{2,10})であった。$"=Monika's training continues for several hours, leaving $1 exhausted.
+モニカの訓練は数時間に及び、\nヘロヘロに疲れ果てる{playername}であった。=Monika's training continues for several hours, leaving {playername} exhausted.
 
 
 強化Lv上限  {0}=Max Level Enhancement {0}

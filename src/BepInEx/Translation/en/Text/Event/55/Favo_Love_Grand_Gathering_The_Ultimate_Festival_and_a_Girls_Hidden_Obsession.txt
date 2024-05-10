@@ -987,7 +987,7 @@
 ランフェスはこれから！=The Landosol Festival Begins!
 トモたちの活躍によりフェスは平穏を取り戻した。再び会場を訪れた一同は、みんなでフェスを見て回ることに。たっぷりと祭りを満喫した帰りに、トモは、これからも自分の好きを貫くことを心に誓う。=Thanks to the efforts of Tomo and the others, the festival was able to regain its peace. Once again, everyone who visited the venue decided to take a tour of the festival together. After fully enjoying the festivities and on their way back, Tomo made a vow in their heart to continue pursuing what they love.
 や～いろいろとあったけども！\nこうして平和になったフェスを見て回れるなんて幸せですぞ～！=Yo~ There have been various things happening, but! \nIt is such a joy to be able to witness and enjoy this peaceful festival!
-r:"^ナナカとリンはランフェスを楽しむべく、\n(.{2,10})と共に、再び会場を訪れたのだった。$"="Nanaka and Rin, along with $1, visited the venue once again to enjoy the festival. \n"
+ナナカとリンはランフェスを楽しむべく、\n{playername}と共に、再び会場を訪れたのだった。=Nanaka and Rin, along with {playername}, visited the venue once again to enjoy the festival. \n
 ──それから二日後。ランフェス最終日。\nランドソルはある程度落ち着きを取り戻していた。=──Two days later. The final day of Lanfest.\nLandosol had regained some composure.
 トモたちとの激闘の末、\nカガミが自らの正体を明かし逮捕されたことにより、\nランドソルは一時、騒然となった。=After a fierce battle with Tomo and the others, \nKagami revealed his true identity and was arrested, \ncausing a temporary uproar in Landosol.
 ま、そだね。とはいえ……\n配信界隈の方はまだ結構ごたついてるっぽいけど。=Well, yeah. But... \nIt seems like the streaming community is still pretty chaotic.

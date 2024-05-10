@@ -1,5 +1,5 @@
 もう一度、笑顔の食卓へ=Once again, To the Dining Table of Smiles.
-r:"^激しい戦いの後、ペコリーヌ、キャル、(.{2,10})はいつものようにコッコロの名前を呼ぶ。絆の強さ、あたたかさを改めて知ったコッコロは、最大級の笑顔を大切な仲間たちに向けるのであった。$"="After a fierce battle, Pecorine, Kyaru, and $1 call out Kokkoro's name as they always do. Having once again realized the strength and warmth of their bond, Kokkoro directs her biggest smile towards her beloved comrades."
+激しい戦いの後、ペコリーヌ、キャル、{playername}はいつものようにコッコロの名前を呼ぶ。絆の強さ、あたたかさを改めて知ったコッコロは、最大級の笑顔を大切な仲間たちに向けるのであった。=After a fierce battle, Pecorine, Kyaru, and {playername} call out Kokkoro's name as they always do. Having once again realized the strength and warmth of their bond, Kokkoro directs her biggest smile towards her beloved comrades.
 あっ！　いたいた！\nおーい、【美食殿】のみんなー！=Ah! There they are!\nHey, everyone from the Gourmet Guild!
 エルフの里に入り込んだ魔物は無事討伐したし、\n『黒い風の精』も消えて、終わったのかと駆けつけてみれば……=We've safely eliminated all the monsters that made it into the village, the "Dark Spirit of the Wind" has disappeared, and when we came running to see if it were over...
 ふふっ、ごはんの準備してる。\nペコリーヌちゃんたちらしいな。=Hehe, and now they're making food.\nThat's just like them to do that.

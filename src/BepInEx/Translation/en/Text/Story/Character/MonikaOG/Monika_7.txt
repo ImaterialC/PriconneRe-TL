@@ -3,23 +3,23 @@
 男性客２=Male Customer 2
 ギャラリーたち=Everyone in the Gallery
 
-r:"^モニカは街の女性たちから子供扱いを受けて憤り、「自分は([\s\S]{2,10})の恋人だ」と出任せを言う。証明のためにキスしようとするが、注目を受けて恥ずかしくなり(.{2,10})を殴り飛ばす。$"="Monika, angered by being treated like a child by the women in the town, impulsively declares, "I am $1's lover." In an attempt to prove it, she tries to kiss $1 but gets embarrassed by the attention and ends up slapping him instead."
+モニカは街の女性たちから子供扱いを受けて憤り、「自分は{playername}の恋人だ」と出任せを言う。証明のためにキスしようとするが、注目を受けて恥ずかしくなり{playername}を殴り飛ばす。=Monika, angered by being treated like a child by the women in the town, impulsively declares, "I am {playername}'s lover." In an attempt to prove it, she tries to kiss {playername} but gets embarrassed by the attention and ends up slapping him instead.
 
-r:"^モニカと食事に来た(.{2,10})。$"=$1 had come to eat with Monika.
+モニカと食事に来た{playername}。={playername} had come to eat with Monika.
 
-r:"^(.{2,10})、どこだ？\n席を確保しておくように頼んだが……\nこう人が多いと、探しようがないな。$"=$1, where are you? I asked her to secure a seat, but... With this many people around, there's no way to find you.
+{playername}、どこだ？\n席を確保しておくように頼んだが……\nこう人が多いと、探しようがないな。={playername}, where are you? I asked her to secure a seat, but... With this many people around, there's no way to find you.
 
 ねぇ、いいでしょ？\n私たちといいコトしましょ～=Hey, isn't it nice?\nLet's have some fun together.
 ん？　なんだ……？\nやけに騒がしいな。=Huh? What's going on...?\nIt's unusually noisy.
 照れちゃってかわいい～\nね？　あたしたちと遊びましょうよ～=You're so cute when you're embarrassed. Let's play together, okay?
 なんだ、あの女たちは？\nこんな所でナンパとは……=Who are those women? Trying to pick up someone in a place like this...
-r:"^って、声をかけられてるのは(.{2,10})か！？$"=Wait, they're pick up on $1! 
+って、声をかけられてるのは{playername}か！？=Wait, they're pick up on {playername}! 
 そこの女たち、待て！\nそいつは、私と食事をしに来たのだ。\n連れていかれては困る！=Hold on, you girls! She came here to have a meal with me. I can't let you take her away!
 ええ～、なにこの子？=Oh, come on, what's with this kid?
 子供は引っ込んでてくれる？\nこれは大人の話なのよ。=Could you step back, children? This is a conversation for adults.
 な！？\n私は子供ではない！=What!? I'm not a kid!
 
-r:"^(.{2,10})、こいつらのことは無視しろ！\n見た目だけ大人で、中身が子供の連中など\n相手にする必要はないぞ！$"=$1, ignore these people!\nThere's no need to bother with those who may look like adults but act like children!
+{playername}、こいつらのことは無視しろ！\n見た目だけ大人で、中身が子供の連中など\n相手にする必要はないぞ！={playername}, ignore these people!\nThere's no need to bother with those who may look like adults but act like children!
 
 あら？\nそれ、どういうこと？=Oh? What do you mean by that?
 あたしたちのことバカにしてるの？\n子供だからって、許さないわよ？=Are you making fun of us?\nI won’t forgive you just because you’re a kid
@@ -27,13 +27,13 @@ r:"^(.{2,10})、こいつらのことは無視しろ！\n見た目だけ大人�
 だから、子供ではないと言っている！=That's why I'm saying I'm not a little girl!
 そんな見た目で言われてもね～\n子供にしか見えないわよ？=Even if you say that with your appearance...\nyou still look like a child to us.
 
-r:"^ぐ、ぐぬぬ……\n私は立派な大人だ！\n(.{2,10})とだって……こ、恋人同士だからなっ！$"=Grr... I am a respectable adult!\nAnd $1 and I... we're... we're lovers, you know!
+ぐ、ぐぬぬ……\n私は立派な大人だ！\n{playername}とだって……こ、恋人同士だからなっ！=Grr... I am a respectable adult!\nAnd {playername} and I... we're... we're lovers, you know!
 ええ！？=Eh!?
 素直に謝ったら？=Why don't you just sincerely apologize?
 しーっ！\n貴公は黙っていろ。=Shh! You, stay quiet.
 ふぅ～ん、恋人ねぇ？\n本当かしら？\nちょっとウソっぽいわ。=Hmm, lovers, huh? It sounds a bit suspicious to me.
 
-r:"^ウ、ウソではないぞ！\n私と(.{2,10})は、付き合っている！$"=I-I'm not lying!\n$1 and I are dating!
+ウ、ウソではないぞ！\n私と{playername}は、付き合っている！=I-I'm not lying!\n{playername} and I are dating!
 へぇ～\nじゃあ、キスしてみなさいよ？=Oh really? Then why don't you prove it with a kiss?
 キ、キ、キ、キス……だと！？=K-K-K-Kiss... you say!?
 そうよ。\n本当に恋人なら、簡単でしょ？=That's right. If you're truly lovers, it should be easy, right?
@@ -43,9 +43,9 @@ r:"^ウ、ウソではないぞ！\n私と(.{2,10})は、付き合っている�
 よし、キスしよう。=Alright, let's kiss.
 なぜ乗り気になっている！？\nそんなことできるわけが……！\nし、しかし……ここで引くわけにはっ！=Why are you so eager!? There's no way I can do something like that...! B-but... I can't back down here!
 
-r:"^子供扱いをされたままでは、\n私の名誉が保てない！\n(.{2,10})……キ、キ、キスッ、するぞ！$"=With everyone treating me like a child, I can't maintain my honor! $1... I-I'm going to kiss you!
+子供扱いをされたままでは、\n私の名誉が保てない！\n{playername}……キ、キ、キスッ、するぞ！=With everyone treating me like a child, I can't maintain my honor! {playername}... I-I'm going to kiss you!
 
-r:"^(.{2,10})、目をつぶれ……\nいいか、絶対に開けるなよ？$"=$1, close your eyes...\nListen, don't you dare open them!
+{playername}、目をつぶれ……\nいいか、絶対に開けるなよ？={playername}, close your eyes...\nListen, don't you dare open them!
 お、落ちつけ……\nこれは本心からのキスではない！\n名誉を守るため……軍人の使命としてのキスだ！=C-Calm down... This isn't a kiss from the bottom of my heart! To protect my honor... This is a kiss as a soldier's mission!
 ん？　なんだなんだ？\n何かやってるのか？=Hey, what's going on over there? Are they doing something?
 あそこのカップルがキスするんだと。=That couple over there is about to kiss.
@@ -54,7 +54,7 @@ r:"^(.{2,10})、目をつぶれ……\nいいか、絶対に開けるなよ？$"
 それっ、キース！\nキース！　キース！=Hey, Kissing!\nKissing! Kissing!
 あ、う……うぅ……！=Ah, uh... Ugh...!
 うわぁあああ！！\n見るな～～～～！！！=Waaaaah!!\nDon't look at meeeee!!
-r:"^照れたモニカに殴り飛ばされ、\n星になる(.{2,10})であった……$"=It was $1, blown away by the blushing Monika and turned into a star...
+照れたモニカに殴り飛ばされ、\n星になる{playername}であった……=It was {playername}, blown away by the blushing Monika and turned into a star...
 
 
 

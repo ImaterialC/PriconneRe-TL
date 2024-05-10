@@ -2,7 +2,7 @@
 砂漠の中にこんなのが埋もれてたなんて……\nあいつが暴れたら、街が滅茶苦茶になっちゃうわ！=Buried in the desert like this... If that thing goes berserk, the town will be in chaos!
 前に似たような相手と戦ったことがある。\nあのオンボロな見た目に騙されると、痛い目に遭うよ。=I've fought a similar opponent before. You'll regret it if you're deceived by that rundown appearance.
 だけど、どんな相手であれ……\nアタシの前に立ち塞がるならぶった切ってみせるさ。\nサレン、準備はいいかい？=But no matter the opponent... if they stand in my way, I'll cut them down. Saren, are you ready?
-r:"^ええ。頼りにしてるわよ、ルカさん！\nもちろん(.{2,10})もね！　それじゃあ、いくわよ！$"="Yes. I'm counting on you, Ruka! Of course, $1 too! Let's go!"
+ええ。頼りにしてるわよ、ルカさん！\nもちろん{playername}もね！　それじゃあ、いくわよ！=Yes. I'm counting on you, Ruka! Of course, {playername} too! Let's go!
 よし、倒したわ！\n──って、あいつ！　まだ動くの！？=Alright, we defeated it! ...Wait, it! Is it still moving!?
 これで一件落着、とはいかなそうだね。\n相手さん、ぶっ壊れるまで止まる様子はなさそうだ。=It seems this won't be easily resolved. The opponent doesn't show any signs of stopping until it breaks down.
 あいつ、逃げた先からまたあの光線を撃ってくる気？\nこのだだっ広い砂漠で追いかけっこなんて、\n勘弁してほしいわよ……=Is it going to shoot that beam again from where it escaped to? I don't want to play chase in this vast desert...

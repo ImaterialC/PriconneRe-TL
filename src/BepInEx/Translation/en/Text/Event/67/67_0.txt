@@ -3,7 +3,7 @@
 サレンの父親=Saren's Father
 魚屋の店主=Fish Shop Owner
 
-r:"^父親の頼みで、不思議なランプを遠い異国へ届けに行くサレン。救護院にいた異国の子どもや偶然出会った(.{2,10})、同じく配達の仕事を受けたルカと共に、サレンは砂漠の国・サラサリアへ旅立つ。$"="Saren, at her father's request, sets out on a journey to deliver a mysterious lamp to a distant land. Alongside $1 that she met by chance, a child in the orphanage that came from a foreign country, and Ruka who got a delivery job to the same place, Saren embarks on a journey with them to the desert country of Salasaria."
+父親の頼みで、不思議なランプを遠い異国へ届けに行くサレン。救護院にいた異国の子どもや偶然出会った{playername}、同じく配達の仕事を受けたルカと共に、サレンは砂漠の国・サラサリアへ旅立つ。=Saren, at her father's request, sets out on a journey to deliver a mysterious lamp to a distant land. Alongside {playername} that she met by chance, a child in the orphanage that came from a foreign country, and Ruka who got a delivery job to the same place, Saren embarks on a journey with them to the desert country of Salasaria.
 ある日、父からの呼び出しを受けたサレンは\n屋敷の庭で紅茶を飲みながら、\n近況報告や他愛ない雑談をしていた。=One day, Saren who was summoned by her father is drinking tea in the mansion's garden while catching up with each other and having small talks.
 それで、最近彼氏とはどうだ？=So how is your boyfriend doing lately?
 ……っ！？　げほっ、ごほっ！\nお、お父さま？　急に何をおっしゃるの？=Cough, cough...!? F-Father?\nWhat are you asking out of nowhere!?
@@ -32,7 +32,7 @@ r:"^父親の頼みで、不思議なランプを遠い異国へ届けに行く�
 どうだ、結婚までいかずとも婚約くらいは考えているのか？\n私がおまえの母さんを好きになった時なんかは──=What do you think? Even if marriage is too far, what do you think about being engaged?\nWhen I first fell in love with your mother...
 べっ、別にあいつとは何でもないから！\n──もう、分かった！　分かったわよ！=N-No, I'm not like that with him!\n...Fine! Fine, I understand!
 お父さまの頼み事、引き受けてもいいわ。\nその代わり！　成功報酬に諸々の条件、忘れないでよね。=I'm willing to take on Father's request. In return!\nDon't forget about the compensation and various benefits we've talked about.
-r:"^……あと(.{2,10})は、まだ彼氏でも何でもないから！\nお茶ごちそうさまっ！$"="...And $1 is not my boyfriend yet or anything!\nThank you for the tea!"
+……あと{playername}は、まだ彼氏でも何でもないから！\nお茶ごちそうさまっ！=...And {playername} is not my boyfriend yet or anything!\nThank you for the tea!
 ふむ……「まだ」、か。=Hmm... "Not yet", is it?
 はぁ……なんだかんだ、自分の要求は\nきっちり通してくるところがお父さまよね。=Haah... One way or the other, Father got me to do what he asks as always. 
 普通、国王への届け物をおつかいさせる？\nまあ、それだけ信頼されてるってのはいいんだけど。=Don't you normally send these with a messenger instead?\nWell it's nice that he trusts me this much, but...
@@ -45,7 +45,7 @@ r:"^……あと(.{2,10})は、まだ彼氏でも何でもないから！\nお�
 当面は無理だろうけど……\nそれでも、いつかあいつと……なんて。=It might be impossible for now...\nBut I believe one day...
 よしっ、完璧ね。\nきれいになったじゃない。=Alright, I've finished it.\nIsn't it so clean now?
 やだ、もうこんな時間……\n明日は商会ギルドの会合があるのに。\n早く寝ないと……=Oh no, it's already this late...\nI have a guild meeting tomorrow.\nI need to sleep quickly...
-r:"^(.{2,10})おにいさんとの旅行……\nそれがお望みなんですね。\nえへへ……久しぶりのお願い、ボク、うれしいです。$"="A trip with $1-niisan... that's your wish, right?\nHehe... I'm so happy, it's been a while since anyone asked for a wish."
+{playername}おにいさんとの旅行……\nそれがお望みなんですね。\nえへへ……久しぶりのお願い、ボク、うれしいです。=A trip with {playername}-niisan... that's your wish, right?\nHehe... I'm so happy, it's been a while since anyone asked for a wish.
 その願い、叶えましょう！=I shall grant that wish!
 そして、砂漠の国へ出立する日──=And on the day of departure, to the desert country...
 いーい？　みんな、ちゃんと良い子にしてるのよ。=Behave yourself while I'm gone, okay?
@@ -131,7 +131,7 @@ r:"^(.{2,10})おにいさんとの旅行……\nそれがお望みなんです�
 えへへへ、みなさんよかったですねっ。=Hehehe, everyone looks happy.
 あれ？　おにいさん。\nボクの顔に何かついてますか？=Huh? Onii-san, is there something on my face?
 何か気になった、ような……？=I'm curious about something... I think?
-r:"^ちょっと、(.{2,10})。\n馬車を待たせちゃってるわ！$"="Hey, $1. The carriage is waiting for you!"
+ちょっと、{playername}。\n馬車を待たせちゃってるわ！=Hey, {playername}. The carriage is waiting for you!
 はい！　おにいさん、ボクの手をどうぞ。=Here! Onii-san, please take my hand.
 ありがとう……？=Thank you...?
-r:"^かすかに違和感を覚えつつも、\n異国の身なりをした子どもの手を取って、\n馬車に乗り込む(.{2,10})だった。$"="With a faint sense of discomfort, $1 took the hand of the child dressed in foreign clothing and boarded the carriage leaving Landosol behind."
+かすかに違和感を覚えつつも、\n異国の身なりをした子どもの手を取って、\n馬車に乗り込む{playername}だった。=With a faint sense of discomfort, {playername} took the hand of the child dressed in foreign clothing and boarded the carriage leaving Landosol behind.

@@ -1,5 +1,5 @@
-r:"^アメスの力で(.{2,10})とモニカは夢を見る。二人は水泳の授業でバディを組む。モニカは自分の潜水の腕前を見せつけようとするが、(.{2,10})はモニカが溺れていると勘違いしてしまう。$"=With the power of Ameth, $1 and Monika have a dream. The two of them become swimming buddies in Monika's swimming class. Monika tries to show off her diving skills, but $1 misunderstands and thinks that Monika is drowning.
-r:"^(.{2,10})が街を歩いていると、\nモニカと出会った。$"=While $1 is walking in the city, she meets Monika.
+アメスの力で{playername}とモニカは夢を見る。二人は水泳の授業でバディを組む。モニカは自分の潜水の腕前を見せつけようとするが、{playername}はモニカが溺れていると勘違いしてしまう。=With the power of Ameth, {playername} and Monika have a dream. The two of them become swimming buddies in Monika's swimming class. Monika tries to show off her diving skills, but {playername} misunderstands and thinks that Monika is drowning.
+{playername}が街を歩いていると、\nモニカと出会った。=While {playername} is walking in the city, she meets Monika.
 
 ん？　貴公か。\nこれから買い出しに……？\n暑いのに感心だな。=Huh? Is it you?\nAre you going shopping...?\nIt's impressive even though it's hot.
 最近は、本当に暑くなってきて、外を歩くのもつらい……\n水浴びでもしたい気分だ。=Lately, it has become really hot, and it's tough to walk outside... I feel like taking a swim.
@@ -8,7 +8,7 @@ r:"^(.{2,10})が街を歩いていると、\nモニカと出会った。$"=While
 特殊部隊でも水中訓練はあったが、\n学校での水泳授業ははじめてだ。=Although the special forces had underwater training, this is their first time having a swimming class at school.
 このスクール水着というものも、はじめて着たが、\nなかなか動きやすくていいな。=This school swimsuit is also something they're wearing for the first time, but it's quite easy to move in.
 
-r:"^ほら(.{2,10})、何をしている？\n危険がないようにバディを組むように言われていただろう？$"=Come on, $1, what are you doing? I told you to form a buddy so there's no danger, didn't I?
+ほら{playername}、何をしている？\n危険がないようにバディを組むように言われていただろう？=Come on, {playername}, what are you doing? I told you to form a buddy so there's no danger, didn't I?
 
 貴公は、私のバディなのだから、\nぼーっとしていないで、しっかりついてくるように！=Since you're my buddy, don't just stand there and stick close to me!
 しかし、バディと言うと……\nそれこそ特殊部隊の訓練を思い出すな。\n危険な訓練ではバディは必須だった。=But when it comes to being buddies... it reminds me of the special forces training. Buddies were essential during dangerous training.
@@ -20,8 +20,8 @@ r:"^ほら(.{2,10})、何をしている？\n危険がないようにバディ�
 
 ふむ……久々だが、感覚は鈍っていないようだ。\nこれならば、自己ベストも出せるかもしれないな。=Hmm... it's been a while, but it seems like I haven't lost my sense. With this, I might even achieve a personal best.
 
-r:"^ふふふ。それほど長く潜っていれば、\n(.{2,10})もビックリするだろうな。\n私のすごさを、しっかりわからせてやる！$"=Hehehe. If I stay underwater for a long time, $1 will be surprised. I'll make her fully aware of my greatness!
-r:"^……ん？　なんだ？\n(.{2,10})も潜ってきた？$"=...Hm? What? Did $1 dive in too?
+ふふふ。それほど長く潜っていれば、\n{playername}もビックリするだろうな。\n私のすごさを、しっかりわからせてやる！=Hehehe. If I stay underwater for a long time, {playername} will be surprised. I'll make her fully aware of my greatness!
+……ん？　なんだ？\n{playername}も潜ってきた？=...Hm? What? Did {playername} dive in too?
 
 
 な、なにをする！？\nどうして私を抱えて……！？\nなぜ引き上げようとする！？=Wh-What are you doing!? Why are you holding me...!?Why are you trying to pull me up!?
@@ -39,7 +39,7 @@ r:"^……ん？　なんだ？\n(.{2,10})も潜ってきた？$"=...Hm? What? D
 たくさんの女の子との『夢』を見ること……\nそれが世界の真実にたどり着くことになるの。\nがんばってね♪=To see "dreams" with many girls... that will lead you to the truth of the world. Good luck♪
 それじゃあ、またね～♪=Well then, see you later~♪
 
-r:"^ん……？　ここは？\n私は一体なにを……？\n(.{2,10})、何が起きたんだ？$"=Hm...? Where am I? What on earth happened, $1?
+ん……？　ここは？\n私は一体なにを……？\n{playername}、何が起きたんだ？=Hm...? Where am I? What on earth happened, {playername}?
 
 寝ていた……？　私が？\n……貴公も、ついさっきまで寝ていた、と？\n二人して道で寝てしまうとは……=I was sleeping...? Me?... You were also sleeping until just now? Both of us fell asleep on the road...
 しかし、面白い夢を見たぞ。\nプールで貴公と、水泳の授業というものを受けていた。=But, I had an interesting dream. I was taking a swimming class with you in a pool.

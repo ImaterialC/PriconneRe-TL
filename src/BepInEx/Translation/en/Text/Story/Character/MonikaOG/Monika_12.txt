@@ -2,9 +2,9 @@
 観客たち=Spectators
 観客の男=Male spectator
 戦士１・戦士２=Warrior 1 & 2
-r:"^破竹の勢いで勝ち進む二人は、決勝で強敵相手に苦戦を強いられてしまう。([\s\S]{2,10})は逆転を狙い、前線で奮闘する。そんな彼を信じたモニカは新奥義を発動させ、絆の力で勝利をもぎ取る。$"=The two of them advanced with an unstoppable momentum, but they faced a tough opponent in the final. $1 aimed for a comeback and fought hard on the front line. Monika, who believed in him, activated her new secret technique and snatched victory with the power of their bond.
+破竹の勢いで勝ち進む二人は、決勝で強敵相手に苦戦を強いられてしまう。{playername}は逆転を狙い、前線で奮闘する。そんな彼を信じたモニカは新奥義を発動させ、絆の力で勝利をもぎ取る。=The two of them advanced with an unstoppable momentum, but they faced a tough opponent in the final. {playername} aimed for a comeback and fought hard on the front line. Monika, who believed in him, activated her new secret technique and snatched victory with the power of their bond.
 
-r:"^大会当日──\nモニカと(.{2,10})は会場にて、開会式に参加していた。$"=On the day of the tournament, Monika and $3 were at the venue, participating in the opening ceremony.
+大会当日──\nモニカと{playername}は会場にて、開会式に参加していた。=On the day of the tournament, Monika and {playername} were at the venue, participating in the opening ceremony.
 これより、開会式を始めたいと思います！\nまずはご覧ください！　この大観衆を！=We will now begin the opening ceremony!\nPlease take a look at this crowd!
 おおおおっ！=Ohhhh!
 ランドソル一の最強コンビを見届けようと、\n会場は満員となっています！=They are here to witness the strongest duo in Landosol!
@@ -12,13 +12,13 @@ r:"^大会当日──\nモニカと(.{2,10})は会場にて、開会式に参�
 がんばってねー！！=Good luck!!
 あいつら、応援に来てくれたのか。\nそれにしても、すごい熱気だな……=Are they here to cheer for us? Anyway, it's amazing how enthusiastic they are...
 緊張してる？=Are you nervous?
-r:"^そ、それは(.{2,10})の方だろう！\n……と言ってやるつもりだったが、普段と変わらん様子だな……$"=T-that's you, $3... meant to say that, but it looks like we're the same.
+そ、それは{playername}の方だろう！\n……と言ってやるつもりだったが、普段と変わらん様子だな……=T-that's you, {playername}... meant to say that, but it looks like we're the same.
 私はこの人数に臆したわけではない。\nそれでも貴公の調子を見ていたら、少し肩の力が抜けた。=I'm not intimidated by this number of people.\nBut seeing your condition, I feel a little more relaxed.
 ……そうだとも。\n状況が変わろうとも、いつも通り力を尽くすのみだ！=...That's right. No matter what the situation is, we just have to do our best as always!
 そして戦いの舞台はこちら！\n相手を戦闘不能にするか。降参させるか。\nそれともこのフィールドの場外へ追い込むのか……戦略はさまざま！=And the stage of the battle is here! You can either make your opponent incapacitated or surrender. Or you can push them out of this field... There are various strategies!
 さぁさぁ！\nここからは手に汗握る真剣勝負を、刮目せよっ！！=Come on!\nFrom here on, watch carefully the serious battle that will make you sweat!
 それでは第一試合！　選手入場です！\n両チーム、どうぞ中央へ！=Let's begin the first match! Players are entering! Both teams, please head to the center!
-r:"^よし！　私たちの出番だ。\n(.{2,10})、行くぞ！$"=All right! It's our turn.\n$1, let's go!
+よし！　私たちの出番だ。\n{playername}、行くぞ！=All right! It's our turn.\n{playername}, let's go!
 げっ！？　あの時の……\n言っておくが、子供が相手でも手加減はしないぞ。=Geh?! That guy from that time... I'll tell you, I won't go easy on you even if you're a kid.
 奇遇だね！　それとも運命なのかな！？\nでも敵同士だなんて、僕は悲しいよ……！=What a coincidence! Or is it fate!? But I'm sad that we're enemies...
 なんだ、おまえたちか。因縁があるな。\nお互い、いい戦いをしよう。=I see, it's you guys. We have some history. Let's have a good fight.
@@ -26,7 +26,7 @@ r:"^よし！　私たちの出番だ。\n(.{2,10})、行くぞ！$"=All right! 
 先にあの小僧を片付けるぞ！=I'll take care of that brat first!
 おっけー　それじゃ、僕が先行でいくよっ！=Okay, then I'll go ahead!
 
-r:"^貴公の予想した通りで来たな。私が迎え撃つ。\n援護は頼んだぞ！　(.{2,10})！$"=It's just as my predicted. I'll intercept them. Cover me! $5!
+貴公の予想した通りで来たな。私が迎え撃つ。\n援護は頼んだぞ！　{playername}！=It's just as my predicted. I'll intercept them. Cover me! {playername}!
 受けてみよっ……せりゃあっ！！=Let's try it......Take this!!
 羽のように軽そうな子だし、\n空中斬りなんてすぐ振り払えると思ったけど、ちょっとこれは……！　=She looked as light as a feather, and I thought she could easily shake off an aerial slash, but this is...!　
 よし！　体勢が崩れた！\nこのまま宙返りで着地！　背後からトドメの──=Yes! He lost his balance! I'll land with a somersault and finish him off from behind with──
@@ -47,7 +47,7 @@ r:"^貴公の予想した通りで来たな。私が迎え撃つ。\n援護は�
 モニカがすごいって言ってるよ。=Monika, they say it's amazing.
 本当か？　だとすれば、我が参謀殿のおかげだな。\n貴公の助けなくして、私の活躍はなかった。=Is that true? If so, it's thanks to comrade.\nWithout your help, I wouldn't have been able to shine.
 私は前線で攻撃と守りを。貴公はそんな私に支援と指示を。\n私たちの戦い方を貫いていけば、どんな相手にも負けはしない！！=I attack and defend on the front line. You support and instruct me. If we stick to our way of fighting, we won't lose to anyone!!
-r:"^こうしてモニカと(.{2,10})は順調に順位を上げ、\nついに準決勝を勝ち抜き、決勝戦出場が決まったのだった……$"=And so, Monika and $2 steadily climbed the ranks, and finally won the semi-finals, securing their spot in the final match...
+こうしてモニカと{playername}は順調に順位を上げ、\nついに準決勝を勝ち抜き、決勝戦出場が決まったのだった……=And so, Monika and {playername} steadily climbed the ranks, and finally won the semi-finals, securing their spot in the final match...
 みなさま！　お待たせしました！\nいよいよ最終決戦が始まります！！\n勝ち上がったのは……この２チームです！！=Ladies and gentlemen! Thank you for waiting! The final showdown is about to begin!! The two teams that made it are... these two!!
 貴公、やはりこうなったぞ。\n我らの最後の相手は……あの兄弟だ。=You, both of you came to this after all.\nOur last opponent is... those brothers.
 通称『クラッシャー兄弟』！\n数々の大会で優勝を果たしてきたこの二人！\n覇者たちが見せる豪快な戦いをとくとご覧あれ～！=Known as the "Crusher Brothers"! These two have won many tournaments with their spectacular fights! Watch and marvel at the champions' mighty battle!
@@ -82,7 +82,7 @@ r:"^こうしてモニカと(.{2,10})は順調に順位を上げ、\nついに�
 ん？　モニカ選手……剣を構えて集中しています！\nどうやらまだ奥の手があるようですね！=Hm? Monika... is concentrating with her sword ready! It seems she still has a trump card!
 私が新奥義を放ち、形勢逆転を狙う。\nその準備を終えるまで、あいつが時間を稼いでくれる。=I'll unleash a new secret technique and turn the tide. Until I finish preparing, he'll buy me some time.
 しかし……=But...
-r:"^しかし、それを黙って見ているわけがありません！\nクラッシャー兄弟の総攻撃に……ああっ！\n$1選手ダウン！$"=But they won't let that happen quietly! The Crusher Brothers' all-out attack on... oh no! $1 is down!
+しかし、それを黙って見ているわけがありません！\nクラッシャー兄弟の総攻撃に……ああっ！\n{playername}選手ダウン！=But they won't let that happen quietly! The Crusher Brothers' all-out attack on... oh no! {playername} is down!
 やはり失敗か……！　奥義が成功するとも限らん……\n私も前線へ戻って、あいつと一緒に戦った方が……！　=So it was a failure after all...! There's no guarantee my ultimate technique will succeed... I should go back to the front lines and fight alongside him...!　
 おおっ！？　立ち上がりました……！！\nそして兄の方に……しがみついた！？　弟は引きはがそうとしますが……\nうまい！　見事な避けっぷりです！！=Oooh!? He got up...!! And he clung to The Brothers...! The Brothers tries to shake him off, but... nice! He dodges skillfully!!
 死に物狂いです！　ある種の執念すら感じます！\n一体なにが彼をここまで突き動かすのでしょうか！？=He's desperate! I can feel a kind of tenacity from him! What drives him to this extent!?
@@ -101,14 +101,14 @@ r:"^しかし、それを黙って見ているわけがありません！\nク�
 勝利を、友のために……！　=Victory, for my friend...!
 旋風雷閃撃鎖斬っ！！=Archon Squallchain!!
 みなさま、お待たせいたしました！\nこれより、表彰式を始めます！\nチャンピオンチーム、表彰台へどうぞ！！=Ladies and gentlemen, thank you for your patience! We will now begin the award ceremony! Champion team, please come to the podium!!
-r:"^(.{2,10})、歩けるか？\n……だいぶあいつらに痛めつけられたからな。\n体も顔もひどいことになっている……$"=Can you walk, $1? ...You were badly hurt by them. Your body and face are in a terrible state...
+{playername}、歩けるか？\n……だいぶあいつらに痛めつけられたからな。\n体も顔もひどいことになっている……=Can you walk, {playername}? ...You were badly hurt by them. Your body and face are in a terrible state...
 
 男前だって褒められた。=I want to show the manly side.
 そうなのか？\n私から言わせれば、貴公は出会った時から変わらないがな……=Is that so?\nIf you ask me, you haven't changed since we met...
 見ず知らずの私を心配して危険な場所までついてきて、\n困っている私のために、見返りもなく力を貸してくれた。=You worried about me, a stranger, and followed me to a dangerous place. You helped me without asking for anything in return when I was in trouble.
 私を子供のようにからかうこともあるが、\n私を私以上に信頼してくれて、迷っている時は道を一緒に探してくれた。=You sometimes tease me like a child, but you trust me more than I trust myself. When I'm lost, you help me find the way.
 背を預けあえる仲間は多くいるが、\n貴公が隣にいると……どんな状況でも、不思議と負ける気がしない。\n……貴公が、私をそうさせるのだ。=I have many comrades who can rely on each other, but when you're next to me... No matter what situation, I don't feel like losing. ...You make me feel that way.
-r:"^(.{2,10})は最初から『男前』だったぞ。$"="$1, you were "manly" from the start."
+{playername}は最初から『男前』だったぞ。={playername}, you were "manly" from the start.
 い、今のは友人としての意見だ！\nにしても、ずいぶんと歩きにくそうだな……よし！=T-that was just my opinion as a friend! Anyway, you look very hard to walk... Here!
 私の肩に掴まれ。\n腕を回すのは無理でも、支えぐらいにはなるはずだ。=Hold on to my shoulder. Even if you can't wrap your arm around me, I should be able to support you.
 よし、これなら……わっとっと！？=OK, this should do it... Whoa!
@@ -116,7 +116,7 @@ r:"^(.{2,10})は最初から『男前』だったぞ。$"="$1, you were "manly" 
 しかし、そうやって私たちはここまで来たのだ。\n支えあっていこうではないか！　これからも、ずっとずっとな！=But that's how we got here. Let's support each other! From now on, forever and ever!
 我が友よ、準備はいいか！？\nではあの表彰台に向かって……さぁ行くぞっ！！=My friend, are you ready!? Then let's head to that podium... Let's go!!
 
-r:"^支え支えられ、モニカと(.{2,10})は表彰台へと上がった。\n次の日、新聞に掲載された小さな軍人のインタビューには、\n祖国やランドソルのこと……友への感謝の言葉が綴られていたという。$"=Supporting and supported by each other, Monika and $1 climbed up to the podium. The next day, a small interview with a soldier was published in the newspaper. It contained words of gratitude to their country, Landosol... and their friend.
+支え支えられ、モニカと{playername}は表彰台へと上がった。\n次の日、新聞に掲載された小さな軍人のインタビューには、\n祖国やランドソルのこと……友への感謝の言葉が綴られていたという。=Supporting and supported by each other, Monika and {playername} climbed up to the podium. The next day, a small interview with a soldier was published in the newspaper. It contained words of gratitude to their country, Landosol... and their friend.
 
 
 

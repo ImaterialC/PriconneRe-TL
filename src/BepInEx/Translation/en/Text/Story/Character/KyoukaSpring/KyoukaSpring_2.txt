@@ -18,7 +18,7 @@
 そうですね。ボランティアは助け合いなんだから、\n怒るんじゃなくて協力し合った方が絶対にいいと思います。=Yeah, volunteering is about helping each other, so he should cooperate instead of getting angry.
 やれやれ、あんたの方がよっぽど大人だね。\nとにかく、じいさんにはなるべく近寄らないようにね。\n悪人じゃないけど怒鳴られたりするのはイヤだろう？=Sheesh, you're more mature than he is. Just try to avoid him if you can. He's not a bad guy, but no one likes getting yelled at, right?
 でも、付き合いがよくないのに、どうして参加してるんだろう？\nボランティアなんだから好きにしていいはずなのに……=But why does he volunteer if he's not into it? You'd think he'd just quit if he didn't like it...
-r:"^それから数日後、キョウカと(.{2,10})は\nボランティアで作業した辺りを通りかかった。$"="A few days later, Kyouka and $1 were walking near where they had worked as volunteers."
+それから数日後、キョウカと{playername}は\nボランティアで作業した辺りを通りかかった。=A few days later, Kyouka and {playername} were walking near where they had worked as volunteers.
 えへへ、お花すごくきれい……がんばったかいがありました。\n……あの、どうかしたんですか？　同じところじっと見つめて。=Wow, the flowers look beautiful... all that hard work paid off. ...Um, is something wrong? You're staring at the same spot.
 はい、あのおじいさんが口出ししてたところですけど……\nここだけ他のお花よりずっと育ちがいいですね。=Yeah, that's where the old man was yelling at us. But the flowers here are growing better than anywhere else.
 態度はよくないかもだけど、お花については本当にすごい人かも……\nって、あそこにいるの、例のおじいさんですよね？=His attitude may not be the best, but he really knows his flowers... Oh, isn't that the old man over there?
@@ -36,7 +36,7 @@ r:"^それから数日後、キョウカと(.{2,10})は\nボランティアで�
 それに、病身の奥さんに希少なお花を咲かせて見せるって\n約束してたのに、叶えられなかったなんて……=What's more, he promised his sick wife that he would grow a rare flower for her, but he couldn't keep that promise...
 おばさんの話どおりなら、おそらく『キョウカソウ』だと思います。\n手に入れるのはもちろん、咲かせるのもかなり難しいという\n幻のお花です。私も図鑑でしか見たことありませんが。=If the stories are true, it was probably 'Kyoukasou.' Not only is it hard to obtain, but it's also extremely difficult to grow—a legendary flower. I've only seen it in books myself.
 もしお花が咲いていれば、\nおじいさんももう少し違ってたかもしれませんね……=If he'd managed to grow that flower, maybe the old man would've been a bit different...
-r:"^あの(.{2,10})さん、\n私おじいさんのことを聞いて、どうすればいいか考えました。$"="$1, after hearing about the old man, I know what I want to do."
+あの{playername}さん、\n私おじいさんのことを聞いて、どうすればいいか考えました。={playername}, after hearing about the old man, I know what I want to do.
 私は、おじいさんと一緒にキョウカソウを咲かせてみたいです。=I want to help the old man grow Kyoukasou.
 おじいさん、きっとお花を咲かせられなかったことが心残りで、\nいろんなことがどうでもよくなっているのかもしれません。=Perhaps the old man's regret over not being able to make the flower bloom made everything else seem unimportant to him.
 でも、お花のことは今でも大好きなんだと思います。\nだからキョウカソウを咲かせられれば、\n少しは変わるんじゃないかなって……=But he still loves flowers, I'm sure. If we can help him grow Kyoukasou, maybe it will change him a bit...
@@ -46,7 +46,7 @@ r:"^あの(.{2,10})さん、\n私おじいさんのことを聞いて、どう�
 自分から言い出しておいて、\n最初からあなたの手を借りるのは恥ずかしいんですが……=It's kind of embarrassing to ask for your help after coming up with this idea on my own...
 いろんな人と知り合いのあなたなら、お花を手に入れられませんか？\nお代はすぐには無理ですが、必ず払いますから……=But with your connections, could you find the flower? I can't pay you right away, but I promise I'll pay you back...
 あ、ありがとうございます！\nこういうときあなたの顔の広さは頼りになりますね。\nそれでは、どうかお願いします！=Thank you so much! Your network is really helpful in times like these. Please, help me with this!
-r:"^それから数日後、(.{2,10})から\nキョウカソウが手に入ったと連絡を受けた。$"="A few days later, $1 contacted Kyouka to tell her he'd obtained the Kyoukasou."
+それから数日後、{playername}から\nキョウカソウが手に入ったと連絡を受けた。=A few days later, {playername} contacted Kyouka to tell her he'd obtained the Kyoukasou.
 これが、キョウカソウ……本当に手に入れてくれたんですね。\nありがとうござ……あの、なんだか少々お疲れみたいですが。=This is Kyoukasou... You really got it for me. Thank you so much... Um, you look a bit worn out. What happened?
 な、何があったのかは聞きませんが、本当に助かりました……\nあなたの苦労、無駄にはしません。=I won't ask what you went through, but you've really helped me. I won't let your efforts go to waste.
 善は急げ、さっそくおじいさんに会いに行きましょう！=Time to move quickly! Let's go meet the old man!

@@ -1,5 +1,5 @@
-r:"^大怪盗の技術を磨く特訓を続けるイノリと(.{2,10})は、アユミに協力を仰ぐ。気配を感じることの大切さを学んだイノリは、街中ではぐれたアユミですら見つけられるようになったのだった。$"="The continued training to sharpen their skills as great thieves led Inori and $1 to seek Ayumi's assistance. Inori, who had learned the importance of sensing one's presence, had become adept at even locating a hidden Ayumi in the town."
-r:"^怪盗として情報を盗む技術を磨くため、\n今日もイノリと(.{2,10})は、\n特訓を重ねていた。しかし──$"="To enhance their skills as thieves and steal information, Inori and $1 continued their training. However..."
+大怪盗の技術を磨く特訓を続けるイノリと{playername}は、アユミに協力を仰ぐ。気配を感じることの大切さを学んだイノリは、街中ではぐれたアユミですら見つけられるようになったのだった。=The continued training to sharpen their skills as great thieves led Inori and {playername} to seek Ayumi's assistance. Inori, who had learned the importance of sensing one's presence, had become adept at even locating a hidden Ayumi in the town.
+怪盗として情報を盗む技術を磨くため、\n今日もイノリと{playername}は、\n特訓を重ねていた。しかし──=To enhance their skills as thieves and steal information, Inori and {playername} continued their training. However...
 くううう……\nおかしい！　おかしすぎですよ！\nな～んで、こんなにうまくいかないですか！？=Ugh, this is strange! It's way too strange! Why isn't this going well?
 さっきなんて、ウチの下っ端たちにすら見抜かれたですし……\nきぃ～っ！！=Just earlier, even our lower-ranked members noticed what we were up to... Argh!
 もしかしたら目立ってるのかも。=Maybe you're drawing too much attention?
@@ -16,7 +16,7 @@ r:"^怪盗として情報を盗む技術を磨くため、\n今日もイノリ�
 はあ……\nこんなとき、相談できる友達がいれば話は違うんですけどねぇ。=Sigh... at times like these, it would be a different story if we had a friend we could turn to for advice.
 ん？　友達……？=A friend...?
 あっ……\nあああああ！　そうか、そうでした！\nあたしには頼りになる友達がいるじゃないですか！=Oh, right... Ahhh! That's it, I remember! I have a reliable friend I can turn to, right?
-r:"^翌日──\n(.{2,10})はイノリに呼び出されて、\n森へとやってきた。$"="The next day, $1 arrived after Inori called her to the forest."
+翌日──\n{playername}はイノリに呼び出されて、\n森へとやってきた。=The next day, {playername} arrived after Inori called her to the forest.
 と、いうわけで！　あたしの友達にして、隠れる技術の第一人者！\nそして我らが怪盗団の一員！　アユアユに来てもらったです！\nはい、拍手！　ぱちぱちぱち～っ♪=So there you have it! My friend and the foremost expert in concealment techniques! A valued member of our thief gang! We've invited Ayu-Ayu here! Applause, please! *Clap, clap, clap!*
 えっ……\nええっ？\nえっと、その、ありがとうございます……？=Eh... Ehhh? Um, well, thank you very much...?
 って、そうじゃなくてっ……\nイノリちゃん、いったんね？\nいったん、どういう状況か教えてもらってもいい……？=Wait, that's not what I meant... Inori-chan, can you tell me what's going on...?
@@ -64,7 +64,7 @@ r:"^翌日──\n(.{2,10})はイノリに呼び出されて、\n森へとやっ
 そ、そう？\nえへへ……\nまた気がついたことがあったら言ってもいい？=R-Really? Hehe... If I notice something else, can I tell you?
 もっちろんですよ！\nこれは想像以上の特訓になりそうな気が……\nいや、気配がするです！=Of course! I have a feeling that this is turning into some intense training... I mean, sensing.
 アユアユ、お兄さん！\n張りきって特訓を続けるですよー！=Ayu-ayu, Onii-san, let's get back to training!
-r:"^かくれんぼ特訓を終えた(.{2,10})たちは、\n夕食時で賑わう街の中へ戻ってきていた。$"="After their hide-and-seek training, $1 and the others returned to the bustling city during dinnertime."
+かくれんぼ特訓を終えた{playername}たちは、\n夕食時で賑わう街の中へ戻ってきていた。=After their hide-and-seek training, {playername} and the others returned to the bustling city during dinnertime.
 いやぁ……\n激しい特訓でしたね。\nおかげでへとへとの、お腹ぺこぺこですよ。=Wow, that was an intense training, wasn't it? I'm exhausted and starving!
 ふふ、私も。\nでも楽しかったね♪=Hehe, me too. But it was fun, right?
 僕も楽しかった。=I had fun too.
@@ -98,4 +98,4 @@ r:"^かくれんぼ特訓を終えた(.{2,10})たちは、\n夕食時で賑わ�
 アユアユ……=Ayu-Ayu...
 どういたしましてですよ！\nそれに、これくらい当然のことです！=You're welcome! It's just the natural thing to do!
 だって……\n大事な友達ですから！\nへへっ♪=After all, you're an important friend to me! Hehe.♪
-r:"^イノリとアユミのうれしそうな笑顔を見て、\n(.{2,10})も同じように微笑むのだった。$"="Seeing Inori and Ayumi's happy smiles, $1 smiled in the same way."
+イノリとアユミのうれしそうな笑顔を見て、\n{playername}も同じように微笑むのだった。=Seeing Inori and Ayumi's happy smiles, {playername} smiled in the same way.

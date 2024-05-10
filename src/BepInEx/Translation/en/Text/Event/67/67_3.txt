@@ -42,7 +42,7 @@
 ですが、わたくしは……\n彼のこと、周りの皆が言うように憎むことができなくて。\n話してみたくなったのです。そして、何度も会ううちに、彼のことを……=But even though everyone around me says to... I couldn't get to hate him. He wanted to talk, and after meeting him again and again...
 それで度々、偶然を装って相手さんと会ってたわけだね。\nあの一瞬言葉を交わすためだけに……健気だねえ。=So that's why you keep meeting him while pretending it's a coincidence. Just to exchange words in that short moment... That takes courage.
 もっと話したい……ゆっくり会いたいと思うこともあります。\nでも……二人の立場を考えたら、そう簡単にはいかないのです。\nですが、いつかきっと……=I want to talk more with him... and talk things more deeply. But... it's not easy with the situation we're both in.\nBut I'm sure one day...
-r:"^その後、屋敷に戻った(.{2,10})たちは\nファリーダに詳しい話を聞いていた。$"="After that, $1 and others returned to their mansion and listened to Farida for more details."
+その後、屋敷に戻った{playername}たちは\nファリーダに詳しい話を聞いていた。=After that, {playername} and others returned to their mansion and listened to Farida for more details.
 現国王派の赤紋章一族と、傍系の白紋章一族、ねぇ……\nそれで、アンタらは何が原因で揉めてんだい。\n国を割るほどの事情っていったら、相当なもんだろう？=The current king's Red Crest Faction and the White Crest Faction... So what caused all of this?\nIsn't this a serious situation that can divide the country?
 すみません、わたくしも詳しくは……\nなにせ現国王が即位するより何代も前の、\nずっと昔の話ですから。=Sorry, but I don't know the details either... After all, this was from a long time ago, many generations before the current king took the throne.
 ただ、遥か昔のサラサリア王の時代……\nある魔道具を巡っての騒動が、\n両派を分かつきっかけだったと聞いています。=However, a long time ago in Salasaria... I heard that there was a dispute over a certain magic tool that caused the two factions to separate.
@@ -83,11 +83,11 @@ r:"^その後、屋敷に戻った(.{2,10})たちは\nファリーダに詳し�
 二人の愛のためって言うと、聞こえはいいけど……\nこれ、絶対後で問題になるわよね。\n今から言い訳を考えておかないと。=I know it's because we're trying to help their love life... but this is definitely going to be a problem later.\nI'll have to think of an excuse for later.
 なら、一緒に来るのはやめとくかい？=Then, you want to stop at this point?
 冗談言わないで。\nあたしが同じ立場だったら、絶対退かないもの。=Don't joke about that. I wouldn't back down either if I were in the same position as her.
-r:"^たとえ誰を敵に回したって……\n(.{2,10})の手を掴みに行くわ。$"="No matter who my enemy is... I'll fight to be with $1."
+たとえ誰を敵に回したって……\n{playername}の手を掴みに行くわ。=No matter who my enemy is... I'll fight to be with {playername}.
 だってさ。そんな女がここに二人いるんだ。\nお前さんは幸せもんだね。=Well said, you must be really happy that there's 2 girls here willing to go that far for you.
 わたくしも──覚悟はできました。=I'm ready now.
 それじゃ、行くわよ！=Then, let's go!
-r:"^そうだ、(.{2,10})おにいさん。\nこの指輪を渡しておきますね。$"="Wait, $1-niisan. I'll give you this ring."
+そうだ、{playername}おにいさん。\nこの指輪を渡しておきますね。=Wait, {playername}-niisan. I'll give you this ring.
 この指輪は……？=What is this ring...?
 困った時には、この指輪に強く念じてください。\nきっとおにいさんの助けになるはずです。=If you're in trouble, please strongly wish to this ring.\nI'm sure it'll help you.
 失礼、サイードさまにお目通り願いたいのだけど……\nお話ししたいことがあるの。大切な話よ。=Excuse me, I want to meet with Saeed-sama... There's something I need to talk with him, it's important.
@@ -170,7 +170,7 @@ r:"^そうだ、(.{2,10})おにいさん。\nこの指輪を渡しておきま�
 あの二人、うまくいったみたいね。=Looks like things worked out for those two.
 ここまで骨を折ったんだ、そうじゃなきゃ困るさ。=I've put a lot of efforts for them, it would've been troubling if it didn't work out.
 街の方も、なんだかお祭りでも始まりそうな雰囲気ね。\nあちこちから楽しそうな声が聞こえるわ。=Looks like a festival is gonna start in the town too.\nI can hear people enjoying themself coming from all places.
-r:"^ねぇ、この絨毯って(.{2,10})が動かしてるの？\nよかったらこのまま、この街を巡ってみたいわ。$"="Hey, $1 is the one moving this carpet, right?\nIf it's fine with you, I'd like to keep going around the town like this."
+ねぇ、この絨毯って{playername}が動かしてるの？\nよかったらこのまま、この街を巡ってみたいわ。=Hey, {playername} is the one moving this carpet, right?\nIf it's fine with you, I'd like to keep going around the town like this.
 お願いしたら飛んでくれる。=It'll fly if you wish for it.
 へえ、じゃあ……\n国中を見渡せるくらい、高くまで頼むよ。=Heeh, then...\nCan I wish for it to go high enough to see the entire country?
 あははっ♪　こりゃ便利だね。\n夜の遊覧飛行としゃれこもうじゃないか。=Ahaha♪ This is pretty convenient, then let's have a fun night seeing the sceneries!
@@ -182,4 +182,4 @@ r:"^ねぇ、この絨毯って(.{2,10})が動かしてるの？\nよかった�
 そうだね、たまにはお前さんの口からも\n「愛の言葉」ってやつを聞かせてもらわないと。=That's right, we need to hear your 'affection' straight from you every now and then.
 そうよ、ちゃんと言葉にしてくれないと。\nねえ？　あたしたちの──=Yeah, you have to do it properly. After all, you're our──
 旦那さま♪\n旦那様♪=Husband♪\nHusband♪
-r:"^夜空に咲く花火に照らされた二人に向けて、\nしどろもどろになりながら、もう一度同じ言葉を伝える\n(.{2,10})なのだった。$"="As the fireworks in the night of the sky shined on both of them, $1 said those words again while still being a bit confused."
+夜空に咲く花火に照らされた二人に向けて、\nしどろもどろになりながら、もう一度同じ言葉を伝える\n{playername}なのだった。=As the fireworks in the night of the sky shined on both of them, {playername} said those words again while still being a bit confused.

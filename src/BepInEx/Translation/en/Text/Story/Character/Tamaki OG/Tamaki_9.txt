@@ -3,18 +3,18 @@
 猫１=Cat 1
 猫２=Cat 2
 猫３=Cat 3
-r:"^価格操作により多額の利益を得る悪党の存在を知ったタマキたち。調査の準備をするタマキに([\s\S]{2,10})も手伝うと申し出るが、彼を心配したタマキは無理難題なテストを出して諦めさせようとする。$"=Tamaki and her friends learned of the existence of villains who made huge profits by manipulating prices. $1 offered to help Tamaki prepare for the investigation, but Tamaki, who was worried about him, tried to make him give up by giving him an impossible test.
-r:"^──たい焼き屋で働くタマキ。\n臨時バイトとして入った(.{2,10})と共に、\n次々とたい焼きを焼いていくのであった。$"=──Tamaki, who works at a taiyaki shop. She and $1, who joined as a temporary part-timer, were baking taiyaki one after another.
+価格操作により多額の利益を得る悪党の存在を知ったタマキたち。調査の準備をするタマキに{playername}も手伝うと申し出るが、彼を心配したタマキは無理難題なテストを出して諦めさせようとする。=Tamaki and her friends learned of the existence of villains who made huge profits by manipulating prices. {playername} offered to help Tamaki prepare for the investigation, but Tamaki, who was worried about him, tried to make him give up by giving him an impossible test.
+──たい焼き屋で働くタマキ。\n臨時バイトとして入った{playername}と共に、\n次々とたい焼きを焼いていくのであった。=──Tamaki, who works at a taiyaki shop. She and {playername}, who joined as a temporary part-timer, were baking taiyaki one after another.
 タマキちゃん！\nいつものあずきを一つくれ！=Tamaki-chan!\nGive me one of your usual red bean paste!
 こっちは白あんで頼むよ！=I order this with white bean paste, please!
-r:"^毎度ありにゃ！\nあずき一つに白あん一つ……(.{2,10})、\nこっちのあんこが切れそうだから、準備しといてにゃ！$"=Thank you for your patronage! One red bean paste and one white bean paste... $1, this bean paste is running out, so get ready for it!
+毎度ありにゃ！\nあずき一つに白あん一つ……{playername}、\nこっちのあんこが切れそうだから、準備しといてにゃ！=Thank you for your patronage! One red bean paste and one white bean paste... {playername}, this bean paste is running out, so get ready for it!
 もう用意してある。=I have it ready.
-r:"^おお、仕事が早いにゃ！\n(.{2,10})がバイトに入ってくれて、\n本当に助かってるにゃ～♪$"=Oh, you're quick! I'm really grateful that you joined as a part-timer, $1~nya♪
+おお、仕事が早いにゃ！\n{playername}がバイトに入ってくれて、\n本当に助かってるにゃ～♪=Oh, you're quick! I'm really grateful that you joined as a part-timer, {playername}~nya♪
 へえ……=I see...
 ん、どうかしたかにゃ？=Hm, what's wrong~nya?
 いやいや、\nなんだか夫婦でたい焼き屋をやってるみたいに、\n二人の息がぴったりだったから、見てて感動しちゃってね。=No, no, it's just that you two looked like a married couple running a taiyaki shop, and I was moved by how well you worked together.
 そ、そうかにゃ？\nにゃはは～、なんだか照れるにゃ～♪=Is that so?~nya ha ha~, that makes me blush~nya♪
-r:"^ねえねえ、(.{2,10})。\nなんだったら、本当に結婚しちゃうかにゃ？$"=Hey, hey, $1.\nWhy don't we get married for real~nya?
+ねえねえ、{playername}。\nなんだったら、本当に結婚しちゃうかにゃ？=Hey, hey, {playername}.\nWhy don't we get married for real~nya?
 うん、分かった。=Okay, Let's do it.
 え！？\nちょっ、ちょっと待つにゃ！\nいくらなんでもその……ほ、本気なのかにゃ？=Eh!?\nWait a minute! It's so sudden...\nA-are you serious~nya?
 ははっ！\n最近、物価が上がって大変だから、\nこういう楽しげな話が聞けてうれしいよ。=Ha ha! Lately, prices have been rising and it's been tough, so I'm glad to hear such a cheerful story.
@@ -37,11 +37,11 @@ r:"^ねえねえ、(.{2,10})。\nなんだったら、本当に結婚しちゃ�
 は、早すぎるにゃ！\nまだ30秒もたってないにゃ！=~nya? That's too fast~nya!\nIt hasn't even been 30 seconds~nya!
 もしかして、\nあたしの……義賊ファントムキャッツに協力するつもりなのかにゃ？=Are you...\nplanning to join me... as a righteous thief Phantom Cat~nya?
 そ、そんなのダメに決まってるにゃ！！=O-Of course you can't~nya!!
-r:"^……あ、き、きつく言ってごめんにゃ？\nでも、(.{2,10})は一般人なんだから、\nもう首を突っ込むのはやめた方がいいにゃ。$"=...Ah, s-sorry for being harsh~nya?\nBut $1're a civilian,\nso you should stop sticking your nose in this~nya.
+……あ、き、きつく言ってごめんにゃ？\nでも、{playername}は一般人なんだから、\nもう首を突っ込むのはやめた方がいいにゃ。=...Ah, s-sorry for being harsh~nya?\nBut {playername}'re a civilian,\nso you should stop sticking your nose in this~nya.
 こういうことはあたしに任せるのにゃ！\nファントムキャッツであるあたしに、\n不可能はないにゃ！=Leave this to me~nya!\nThere's nothing impossible for me as a Phantom Cat~nya!
 タマキの力になりたい。=I want to help Tamaki.
 あ、あたしの力にって……ほ、本当かにゃ？\nえっと、だったら……はっ！=A-are you sure~nya?\nE-erm... then... ah!
-r:"^あ、あたしはなにを考えているにゃ！\nこれ以上、(.{2,10})を危険な目にあわせたくないにゃ！\nここは断らないと……ん！　$"=W-what am I thinking~nya!\nI don't want to put $1 in any more danger~nya!\nI have to refuse... Mm!　
+あ、あたしはなにを考えているにゃ！\nこれ以上、{playername}を危険な目にあわせたくないにゃ！\nここは断らないと……ん！　=W-what am I thinking~nya!\nI don't want to put {playername} in any more danger~nya!\nI have to refuse... Mm!　
 うぅ……なんかすっごい寂しそうな目で見てるにゃ……\nそんな、捨て猫みたいな目で見ないでほしいにゃぁ……=I have to refuse him... hm!\nUgh... he's looking at me with such sad eyes...\ndon't look at me like that, like an abandoned cat...
 ……でも、ここは心を鬼にして、きっぱりと断るべきにゃ！\nよーし、びしっと言ってやるにゃ～！　=...But now, I need to hardened my heart and flatly refuse~nya!\nAlright, I'll say it clearly~nya!
 ……迷惑かな？=...Will it bother you?
@@ -51,8 +51,8 @@ r:"^あ、あたしはなにを考えているにゃ！\nこれ以上、(.{2,10}
 でも、義賊というのは、とっても大変なのにゃ。\nだから、テストさせてもらうにゃ！\n名付けて、『ファントムキャッツの相棒テスト』にゃ！=But being a righteous thief is very hard~nya. That's why I'll test you~nya! I call it, "Phantom Cat's Partner Test"~nya!
 言っておくけど、このテストは厳しいにゃよ？\n一緒に行動するからには、それは相棒にゃ！\n互いを支え合うぐらいの能力がなければならないのにゃ！=I'll tell you, this test is tough~nya.\nSince we'll act together, you're my partner~nya! You have to have the ability to support each other~nya!
 
-r:"^だから、いくら(.{2,10})に不思議な力があっても、\nこんなひょろひょろの腕じゃ、テストを受けることすら……$"=So, even if $1 has a mysterious power~nya, with such a weak arm~nya, you can't even take the test~nya...
-r:"^あ、あれ？\n(.{2,10})ってこんなに鍛えてたのかにゃ？$"=H-Huh? Was $1 this trained~nya?
+だから、いくら{playername}に不思議な力があっても、\nこんなひょろひょろの腕じゃ、テストを受けることすら……=So, even if {playername} has a mysterious power~nya, with such a weak arm~nya, you can't even take the test~nya...
+あ、あれ？\n{playername}ってこんなに鍛えてたのかにゃ？=H-Huh? Was {playername} this trained~nya?
 あ、改めて見ると、結構がっちりしてるにゃ。\n年下だし、弟みたいって色々とからかってたけど、\nなんだかずいぶんと頼れる感じになったにゃ……=Ah, now that I look at him again~nya, he's pretty firm~nya. He's younger than me, and I teases him about how he looks like a little brother, but he seems pretty reliable~nya...
 な、なんか見てるだけでも照れてきたにゃ……\n早くテストを終わらせて、失格にするにゃ！　=S-somehow I feel embarrassed just looking at him~nya...\nLet's finish the test quickly and disqualify him~nya!
 ではまず、\n身体能力テストを……にゃぁぁあああ～～！！=First of all,\nthe physical ability test...~nyaaaaaa~!!
@@ -62,7 +62,7 @@ r:"^あ、あれ？\n(.{2,10})ってこんなに鍛えてたのかにゃ？$"=H-
 い、いや、そんなふうに答えられても、\nこっちはどうしてこうなっているか、\nまったく訳が分からないのにゃ！=N-no, even if you answer me like that,\nI don't understand why you did this~nya!
 あ、もしかして、\n互いを『支える』ってのを勘違いしているのかにゃ！？=Oh, maybe you misunderstood what it means to "support" each other~nya!?
 互いを支えるってのは、\n物理的に『支える』って意味じゃないにゃ！\nと、とにかく！　恥ずかしいから降ろすにゃ～～！！=Supporting each other doesn't mean physically "supporting" them~nya!\nA-anyway! It's embarrassing so put me down~nya!!
-r:"^I see...はあ……(.{2,10})。\nいくら記憶喪失だからって、\n女の子にこんなことばっかしてたらそのうち捕まるにゃ……$"=Haa... haa... $1. Even if you have amnesia, if you keep doing this to girls, you'll get caught someday~nya...
+I see...はあ……{playername}。\nいくら記憶喪失だからって、\n女の子にこんなことばっかしてたらそのうち捕まるにゃ……=Haa... haa... {playername}. Even if you have amnesia, if you keep doing this to girls, you'll get caught someday~nya...
 え……次のテストはなにかって……=Huh... "what's the next test?"
 き、鍛えてるのは分かったから、\nもう身体能力テストはやめて、最後のテストを始めるにゃ！=S-since I know you're trained,\nlet's stop the physical ability test and start the final test~nya!
 もう最後なの？=Already the last one?
@@ -73,7 +73,7 @@ r:"^I see...はあ……(.{2,10})。\nいくら記憶喪失だからって、\n�
 ……にゃあ？=...Nya?
 ふっふっふっ、ファントムキャッツの相棒ならば、\n猫に好かれてしかるべきなのにゃ！\nさあ、この猫たちに懐かれてみるにゃ！=Fufufu, if you're a Phantom Cat's partner, you should be liked by cats~nya! Now, let's see if these cats can get attached to you~nya!
 ふっふっふっ、\nこの子たちはあたし以外に懐かない……これで失格確定にゃ！　=Fufufu, these kids won't get attached to anyone but me... this is a sure disqualification~nya!
-r:"^悪く思わないでほしいにゃ……\nこれも、(.{2,10})のためなのにゃ！　$"=Don't take it personally~nya...\nthis is for $1's sake too~nya!
+悪く思わないでほしいにゃ……\nこれも、{playername}のためなのにゃ！　=Don't take it personally~nya...\nthis is for {playername}'s sake too~nya!
 さ～て、\n猫たちに懐かれることはできたかにゃ？\nダメだったら諦めても……=Now then,\nhave you been able to get attached to the cats~nya?\nIf you can't, you can give up...
 にゃあ～♪=Nya~♪
 にゃにゃにゃーん！=Nya-nya-nyan!
@@ -85,10 +85,10 @@ r:"^悪く思わないでほしいにゃ……\nこれも、(.{2,10})のため�
 それで、テスト結果は？=So what's the test result?
 えっと、それはその……=Um that's...
 失格と言うのにゃ、タマキ！\nもうこうなったら、理由なんて後でどうとでもするにゃ！\nとにかく失格と言えば終わるはずなのにゃ！　=Say he's disqualified already Tamaki! Now that it's come to this just make up any reason later! Just say he's disqualified and it should be over!
-r:"^あ、あんな子どもみたいに目を輝かせていようが関係ないのにゃ！\nこれも、(.{2,10})のためなのにゃ！　$"=I-I don't care if he looks at me with such childish sparkling eyes! This is for $1's sake too!
+あ、あんな子どもみたいに目を輝かせていようが関係ないのにゃ！\nこれも、{playername}のためなのにゃ！　=I-I don't care if he looks at me with such childish sparkling eyes! This is for {playername}'s sake too!
 ──さあ、思いっきり失格って言ってやるにゃ～～！！！！　=──Come on say he's disqualified with all your might!! 
 ………………サ、サポートだけなら、付いてきてもいいにゃ。=................Y-you can come along if it's just support.
-r:"^──こうしてタマキは、\n(.{2,10})と共に、\n新たなる敵に立ち向かうのであった。$"=──And so, Tamaki, along with $1, faced a new enemy.
+──こうしてタマキは、\n{playername}と共に、\n新たなる敵に立ち向かうのであった。=──And so, Tamaki, along with {playername}, faced a new enemy.
 
 
 

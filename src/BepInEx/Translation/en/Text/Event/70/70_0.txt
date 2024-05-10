@@ -1,7 +1,7 @@
 屋台のおじさん=Old Man at the Food Stall
 
-r:"^森の奥にある寂れた祠で、お年玉がもらえるよう願う(.{2,10})とイノリ。時を同じくして、ハツネは巨大な隕石によって街が破壊される予知夢を見てしまい、(.{2,10})の元へ急ぐ。$"="In an isolated shrine in the middle of the forest, $1 and Inori wishes for an Otoshidama. At the same time, Hatsune rushes to $1 after she saw a prophetic dream in which a giant meteor destroys the city."
-r:"^大晦日が近づいてきたランドソル。\n(.{2,10})とその仲間たちは、\nそれぞれ年末年始に向けて準備を進めていた……$"="New Year's Eve is drawing near for Landosol. $1 and his friends are preparing for the new year."
+森の奥にある寂れた祠で、お年玉がもらえるよう願う{playername}とイノリ。時を同じくして、ハツネは巨大な隕石によって街が破壊される予知夢を見てしまい、{playername}の元へ急ぐ。=In an isolated shrine in the middle of the forest, {playername} and Inori wishes for an Otoshidama. At the same time, Hatsune rushes to {playername} after she saw a prophetic dream in which a giant meteor destroys the city.
+大晦日が近づいてきたランドソル。\n{playername}とその仲間たちは、\nそれぞれ年末年始に向けて準備を進めていた……=New Year's Eve is drawing near for Landosol. {playername} and his friends are preparing for the new year.
 
 カスミはん？　カスミは～ん？\nお仕立て頼んではった晴れ着、届きましたえ。=Kasumi-han? Kasumi-haaaan? The kimono you ordered just arrived.
 ありがとう……\nこの本が読み終わったら食べるよ……\nふむふむ……ここはこうなってるのか……=Thank you... I'll eat it after I finish reading these...\nHmm... So it works like that...

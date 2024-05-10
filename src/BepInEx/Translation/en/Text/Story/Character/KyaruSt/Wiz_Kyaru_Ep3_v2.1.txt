@@ -4,9 +4,9 @@
 母親=Mother
 両親=Parents
 魔物=Monster
-r:"^たまたま出会った家出少女を放っておけず、家出に付き添うことになったキャルと(.{2,10})。反抗期で親に不満を持つ家出少女だが、キャルの不器用な優しさのおかげで、親と仲直りできたのだった。$"="By chance, Kyaru and $1 encounter a runaway girl, and since they can’t just leave her be, they decide to accompany her. Because she is going through a rebellious phase, the girl is dissatisfied with her life; but thanks to Kyaru’s awkward kindness, she is able to reconcile with her parents."
+たまたま出会った家出少女を放っておけず、家出に付き添うことになったキャルと{playername}。反抗期で親に不満を持つ家出少女だが、キャルの不器用な優しさのおかげで、親と仲直りできたのだった。=By chance, Kyaru and {playername} encounter a runaway girl, and since they can’t just leave her be, they decide to accompany her. Because she is going through a rebellious phase, the girl is dissatisfied with her life; but thanks to Kyaru’s awkward kindness, she is able to reconcile with her parents.
 
-r:"^ある日の放課後、キャルと(.{2,10})は\nお菓子でも買おうと食品店にやってきた。$"="After school one day, Kyaru and $1, go to the store to buy snacks."
+ある日の放課後、キャルと{playername}は\nお菓子でも買おうと食品店にやってきた。=After school one day, Kyaru and {playername}, go to the store to buy snacks.
 味が変わる魔法のチョコだか何だか知らないけどさ。\nたった50ｇで300kcalってなめてんの？　太るわ！=I’ve no idea if it’s magical chocolate that changes the taste,\nBut 300kcal per 50g, what the hell?\nI’ll get fat!
 でも【美食殿】の時は、あんなに食べても太らないのよね～\nなんやかんや魔物退治とかで、結構動いてたもんね。=But, when I was with the Gourmet Guild,\nDespite eating things like that, I never gained any weight.\nI guess it’s because we were always doing all kinds of things, exterminating monsters, and moving around a lot.
 ……うう、学園生活でなまっちゃったまま、\n【美食殿】に帰ったらまずい気がしてきたわ……\nちょっとは体動かさないとね～=... Ugh, I’m starting to feel that if I go back to the Gourmet Guild, with how soft I’ve gotten at school; it’ll be a bad.\nI’ve got to get some exercise!
@@ -52,7 +52,7 @@ r:"^ある日の放課後、キャルと(.{2,10})は\nお菓子でも買おう�
 あはは！　口悪っ！\nでもそっちの方が付き合いやすいわ！=Ahaha! You’ve got a foul mouth! \nBut, you are actually easy to get on with!
 家出少女と不良少女、気が合うね。=The delinquent and the runaway are hitting it off.
 うるさいわよ！！=Shut up!!
-r:"^こうして家出少女に付き添うことになった、\nキャルと(.{2,10})。\nそして二日が経ち──$"="In this way, Kyaru and $1 spent time with the runaway girl.\nAnd then, two days later..."
+こうして家出少女に付き添うことになった、\nキャルと{playername}。\nそして二日が経ち──=In this way, Kyaru and {playername} spent time with the runaway girl.\nAnd then, two days later...
 毎食カレーだとさすがに飽きてきたわねー\nキリもいいし、これ食べ終わったらそろそろ帰りましょっか？=I’m getting sick of curry every meal...\nThis seems like a good time to call it.\nShall we go home after we finish eating?
 か、帰らないわよ！\nキャンプしに来たんじゃなくって家出なのよ！？=No, I’m not going back! \nI didn’t come to camp; I ran away from home!
 ……それに、今更家には帰れないわ。=... And, it’s too late, I can’t go home now.

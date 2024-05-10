@@ -1,5 +1,5 @@
-r:"^待ち合わせに遅れた(.{2,10})に対して、アカリは苛立ちを覚えて走り去ってしまう。そこで魔物に遭遇してしまいピンチになるが、(.{2,10})がかばって難を逃れ、仲直りする。$"="$1 was late for their meeting, which annoyed Akari, causing her to run off in frustration. However, they encountered monsters, putting them in a dangerous situation. $1 protected Akari, and they reconciled."
-r:"^(.{2,10})と遊ぶ約束をしたアカリは、\n早々に待ち合わせ場所に来ていた。$"="Today, Akari and $1 have arranged to hang out together,\nbut Akari has arrived at the meeting point a little early."
+待ち合わせに遅れた{playername}に対して、アカリは苛立ちを覚えて走り去ってしまう。そこで魔物に遭遇してしまいピンチになるが、{playername}がかばって難を逃れ、仲直りする。={playername} was late for their meeting, which annoyed Akari, causing her to run off in frustration. However, they encountered monsters, putting them in a dangerous situation. {playername} protected Akari, and they reconciled.
+{playername}と遊ぶ約束をしたアカリは、\n早々に待ち合わせ場所に来ていた。=Today, Akari and {playername} have arranged to hang out together,\nbut Akari has arrived at the meeting point a little early.
 お兄ちゃんと二人っきりで遊べるなんて、楽しみ～\nいろいろと期待しちゃうな～=I can't wait to spend some quality time with Onii-chan!\nWho knows what might happen...
 この前、下着屋さんに行った時は失敗しちゃったけど、\nああいうお店に行かなければ、大丈夫だよね。=I messed up last time, with the whole lingerie incident...\nBut as long as I don't take him to a place like that,\nit should be fine this time, right?
 お兄ちゃんと一緒に出かけることは、たくさんあったけど、\n二人で遊ぶのは初めてだよね。\nお兄ちゃんとの初めて……楽しみだな～=It's not like we haven't gone out to do stuff together before,\nbut this is the first time we've met up just to hang out.\nMy first time with Onii-chan... I can't wait!

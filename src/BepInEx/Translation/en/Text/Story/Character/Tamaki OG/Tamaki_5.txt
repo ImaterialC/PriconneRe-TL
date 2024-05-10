@@ -1,12 +1,12 @@
 王宮騎士団=Royal Knights
 老人=Old man
-r:"^評判に浮かれ調子に乗ったファントムキャッツは、何者かの罠で善良な人の家に泥棒に入り捕らえられてしまう。ファントムキャッツがタマキだと知った([\s\S]{2,10})は事件の真相を追い始める。$"=The Phantom Cat, who got carried away by their reputation and became overconfident, fell into someone's trap and broke into a good person's house and were caught. $1, who found out that the Phantom Cat were Tamaki, began to pursue the truth of the incident.
-r:"^ランドソルの繁華街で、(.{2,10})は、\n妙にご機嫌なタマキの姿を見つけた。$"=In the downtown area of Landosol, $1 saw Tamaki, who was strangely in a good mood.
+評判に浮かれ調子に乗ったファントムキャッツは、何者かの罠で善良な人の家に泥棒に入り捕らえられてしまう。ファントムキャッツがタマキだと知った{playername}は事件の真相を追い始める。=The Phantom Cat, who got carried away by their reputation and became overconfident, fell into someone's trap and broke into a good person's house and were caught. {playername}, who found out that the Phantom Cat were Tamaki, began to pursue the truth of the incident.
+ランドソルの繁華街で、{playername}は、\n妙にご機嫌なタマキの姿を見つけた。=In the downtown area of Landosol, {playername} saw Tamaki, who was strangely in a good mood.
 にゃん、にゃにゃにゃ～ん♪=Nyan, nyanya nya~n♪
-r:"^あ、(.{2,10})！\nこんなところで会うなんて、奇遇だにゃ！$"=Ah, $1! What a coincidence to meet you here, nya!
+あ、{playername}！\nこんなところで会うなんて、奇遇だにゃ！=Ah, {playername}! What a coincidence to meet you here, nya!
 妙に機嫌がいいけど、どうしたの？=You're in a good mood, but what's up?
 ふふん、よく聞いてくれたにゃ！=Fufun, you asked me well, nya!
-r:"^(.{2,10})には前に、\n美少女義賊・ファントムキャッツについて話したけど、\n覚えてるにゃ？$"=I told you before about the beautiful girl vigilante Phantom Cat, do you remember, nya?
+{playername}には前に、\n美少女義賊・ファントムキャッツについて話したけど、\n覚えてるにゃ？=I told you before about the beautiful girl vigilante Phantom Cat, do you remember, nya?
 うむうむ。ちゃんと覚えているとは感心にゃ。=Umuumu. I'm impressed that you remember well, nya.
 実はにゃ、このランドソルには、\nファントムキャッツへの目安箱のようなものが\n設置されているのにゃ。=Actually, nya, there is something like a suggestion box for the Phantom Cat in this Landosol, nya.
 噂によると、今日、その目安箱に依頼があったらしいのにゃ。=According to rumors, there was a request in that suggestion box today, nya.
@@ -14,7 +14,7 @@ r:"^(.{2,10})には前に、\n美少女義賊・ファントムキャッツに�
 だから今宵も悪人を懲らしめる──じゃなくて、\nファントムキャッツが悪人を懲らしめてくれるのにゃ！=That's why I'm going to punish the bad guys tonight──no,\nThe Phantom Cat will punish the bad guys!
 
 連日のファントムキャッツの活躍……\n胸が躍って仕方がないにゃ！=The Phantom Cat have been working so hard every day...\nI can't help but feel excited!
-r:"^つい先日も……(.{2,10})が\n見張りを引き受けてくれた日のことにゃ。$"=Just the other day...\nThe day when $1 took over the lookout for me, nya.
+つい先日も……{playername}が\n見張りを引き受けてくれた日のことにゃ。=Just the other day...\nThe day when {playername} took over the lookout for me, nya.
 あの日もファントムキャッツは悪を懲らしめたにゃ。\n高利貸しのアクドーイ商会、手強い相手だったにゃ……\nだったと聞いたにゃ。=That day too, the Phantom Cat punished the evil ones, nya. The usurer Krook'd & Co., they were a tough opponent, nya... I heard they were, nya.
 ファントムキャッツ、最近出すぎじゃない？=Phantom Cat, aren't he going out too much lately?
 むっ……確かに、ファントムキャッツは連日活動しているにゃ。\nそれが……？=Muu... It's true that the Phantom Cat are active every night, nya. So what...?
@@ -22,12 +22,12 @@ r:"^つい先日も……(.{2,10})が\n見張りを引き受けてくれた日�
 心配しなくとも、\nファントムキャッツはそう簡単には負けないにゃ！=Don't worry, the Phantom Cat won't lose so easily, nya!
 目安箱の話だってそうにゃ！\nみんながファントムキャッツに期待しているのにゃ！\nみんなに期待されたら動くのが義賊にゃ！=The suggestion box story is the same thing, nya! Everyone is expecting the Phantom Cat to do something for them, nya! If everyone expects them to do something for them, they have to do it as vigilantes, nya!
 みんなのために頑張る、\nファントムキャッツは何も間違ったことはしてないのにゃ！\n正しいことなら毎日でもするべきなのにゃ！=She did her best for everyone's sake. The Phantom Cat aren't doing anything wrong at all. If it's the right thing to do, She should do it every day!
-r:"^(.{2,10})もたまには弱きを助け強きを挫くにゃ！$"=$1 should also help the weak and crush the bully sometimes!
+{playername}もたまには弱きを助け強きを挫くにゃ！={playername} should also help the weak and crush the bully sometimes!
 義賊みたいな違法行為がいやなら、そこの掲示板に\n正式な用心棒の依頼なりがたくさん貼ってあるにゃ！=If you don't like illegal acts like vigilantes, there are plenty of official bodyguard requests posted on that bulletin board over there!
 さてと、あたしはこれから少し忙しいから、\nこれで失礼するにゃ。=Well then, I'm a little busy now, so I'll excuse myself.
 じゃあ、またにゃ！=See you later, nya!
 
-r:"^タマキの言葉に従い、(.{2,10})は掲示板で\n募集していた依頼を引き受け、依頼人のもとにやってきた。$"=Following Tamaki's words, $1 accepted one of the requests posted on the bulletin board and went to the requester's place.
+タマキの言葉に従い、{playername}は掲示板で\n募集していた依頼を引き受け、依頼人のもとにやってきた。=Following Tamaki's words, {playername} accepted one of the requests posted on the bulletin board and went to the requester's place.
 あなたが私の出した\n用心棒の依頼を引き受けてくれた方、ですね。=You're the one who accepted my bodyguard request, right?
 あの、私たちなんかの出した依頼を引き受けていただいて、\nどうもすみません……\n大したお礼もお出しできないのに……=Um... I'm sorry for asking you to accept a request from someone like us... \nWe can't offer much of a reward...
 今晩、お前の家に盗みに入るぞっていう泥棒の\n犯行予告が何者からかありまして……\n今回、用心棒を依頼した次第です。=We received a threat from someone saying they would break into our house tonight... That's why we requested a bodyguard this time.
@@ -43,8 +43,8 @@ r:"^タマキの言葉に従い、(.{2,10})は掲示板で\n募集していた�
 あ、ちょっと、尻尾を掴まれると力が……\nこ、このままじゃ捕まるにゃ……！=Ah! Wait! When my tail is grabbed. I lose my strength... I-I'll be caught at this rate...!
 だけど、あたしはこんなことじゃ諦めないにゃー！=But I won't give up on this, nya~!
 うぅ……ま、まさかこのあたしが捕まることになるなんて……\nまるであたしの動き方をよく知っているかのような\n用心棒だったにゃ……=Uu... N-no way, I can't believe I got caught... The guard was so careful, as if he knew my every move, nya...
-r:"^にゃっ、あたしの仮面が……！\nって、(.{2,10})……？$"=Nya, my mask...! Wait, $1...?
-r:"^ど、どうしてにゃ！？\nどうして(.{2,10})が……$"=W-why, nya!? Why is $1 here...
+にゃっ、あたしの仮面が……！\nって、{playername}……？=Nya, my mask...! Wait, {playername}...?
+ど、どうしてにゃ！？\nどうして{playername}が……=W-why, nya!? Why is {playername} here...
 なんじゃ、この騒ぎは……？=What's going on here...?
 あの姿って、今有名な義賊のファントムキャッツ……？=That figure, is it the famous phantom thief Phantom Cat...?
 え？\nじゃあファントムキャッツがあの家に盗みに入ったの？=Eh? Then Phantom Cat broke into that house to steal?
@@ -52,7 +52,7 @@ r:"^ど、どうしてにゃ！？\nどうして(.{2,10})が……$"=W-why, nya!
 にゃっ！？\nそれはおかしいにゃ！=Nya!?\nThat's not right, nya!
 ここの家は、あくどいやり方で金を儲けてるうちじゃないにゃ？\nここから盗んでくれって依頼があったのにゃ！=This house is one of those that make money by shady means, nya! I got a request to steal from here, nya!
 依頼では確かに……\nこ、これは何かの間違いにゃ！=The request did say... N-no, this must be a mistake, nya!
-r:"^……(.{2,10})にも、バレてしまったのにゃ。\nそうにゃ。ファントムキャッツの正体は、あたしだったにゃ。\n……キミには、知られたくなかったにゃ。$"=...$1 found out too, nya. That's right, nya. I was the one behind Phantom Cat, nya. ...I didn't want you to know, nya.
+……{playername}にも、バレてしまったのにゃ。\nそうにゃ。ファントムキャッツの正体は、あたしだったにゃ。\n……キミには、知られたくなかったにゃ。=...{playername} found out too, nya. That's right, nya. I was the one behind Phantom Cat, nya. ...I didn't want you to know, nya.
 でも、信じてほしいにゃ！\nあたし、いい人を狙おうだなんて決して思ってなかったにゃ……=But please believe me, nya! I never thought of targeting good people, nya...
 ファントムキャッツを捕まえたそうだな。\nここからは私が連行しよう。\nご苦労だった。=So you caught Phantom Cat. I'll take her from here. Good job.
 え？　あ、ああ、はい。\nよろしくお願いします。=Eh? Ah, yes. Thank you.
@@ -61,7 +61,7 @@ r:"^……(.{2,10})にも、バレてしまったのにゃ。\nそうにゃ。�
 も、もがっ……にゃー…………=M-mph... Nya...
 ふう。泥棒が無事捕まってよかったわ……\nそういえばあなた、さっき王宮騎士団の方がもみ合っていた時に\nこの白い紙を落としていったのだけど……どうしましょう？=Phew. I'm glad the thief was caught safely... By the way, you dropped this white paper from your royal knight armor when you were scuffling earlier... What should we do?
 なになに……『アクドーイ商会』？\nなんだって、この名刺が王宮騎士団の鎧から……\n用心棒さん……これ、どういうことだと思いますか？=What's this... "Krook'd & Co."? Why is this business card from the royal knight's armor... Guard-san... What do you think this means?
-r:"^タマキの身を案じながらも、\n一連の出来事で残った謎を少し調べてみることを\n決意した(.{2,10})だった。$"=While worrying about Tamaki's fate, $1 decided to investigate a little bit the mysteries left by the series of events.
+タマキの身を案じながらも、\n一連の出来事で残った謎を少し調べてみることを\n決意した{playername}だった。=While worrying about Tamaki's fate, {playername} decided to investigate a little bit the mysteries left by the series of events.
 
 
 

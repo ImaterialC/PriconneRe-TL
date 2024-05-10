@@ -32,7 +32,7 @@
 ……ボクから国王さまにお話ししたんです。\nサレンおねえちゃんの願いを叶えるために、魔法の力を使ったことを。=...I've talked to the king. That I used a magic spell to make Saren-neechan's wish come true.
 つまり……ここのみんなには、\n事情はまるっとバレちまってるってことかい？=In other words... everyone knows about the situation here?
 ええ、私たちは先に呼ばれてたから。\nサレンさんたちが来る前に、今の話を聞かされてたの。=Yes, we were called first earlier. Before Saren-san and the other came, we were listening to his story.
-r:"^(.{2,10})さんとお二人が夫婦というのは、\n魔神さんの魔法が原因の勘違いだったんですね。$"="That the idea that you and $1 were married was caused by the genie's magic."
+{playername}さんとお二人が夫婦というのは、\n魔神さんの魔法が原因の勘違いだったんですね。=That the idea that you and {playername} were married was caused by the genie's magic.
 私ったら、てっきり本当の新婚旅行だと……\nでも夫婦のフリだったんですね……ほっ。=In my case, I really thought they were on a honeymoon...\nBut it turns out they were just pretending to be married... Phew.
 ……あれ？　今、私ほっとしました？　=...Eh? Did I just felt relieved from that?
 その説明で合点がいきましたよ。\nあなたがたの様子が変だったのは、\nその魔神による認識阻害魔法が原因でしたか。=I understand your point with that explanation. I thought your situation were strange, was the genie's magic the source of that perception blocking magic?

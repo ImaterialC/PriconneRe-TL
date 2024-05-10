@@ -29,7 +29,7 @@
 ラ=La
 ンドソル～飲食店～=ndosol ~Food and Beverage Establishment~
 ちょっとぉ！\nいい加減教えなさいよ！=Hey, you!\nLess eating, more explaining!
-r:"^あっ、あれですね！　(.{2,10})くんの\nプリンセスナイトの力がグレードアップした、\n『プリンセスフォーム』！　……らしいですよ☆$"=Oh—yes, of course! It's a new, upgraded stage\nof $1's Princess Knight powers\ncalled a Princess Form! ...Or so I'm told! ☆
+あっ、あれですね！　{playername}くんの\nプリンセスナイトの力がグレードアップした、\n『プリンセスフォーム』！　……らしいですよ☆=Oh—yes, of course! It's a new, upgraded stage\nof {playername}'s Princess Knight powers\ncalled a Princess Form! ...Or so I'm told! ☆
 『プリンセスフォーム』……\nやはり、あれは主さまのお力によるものだったのですね。=A "Princess Form"...\nSo it was indeed My Lord who granted you that strength.
 でも、らしいってどういうこと？=But what do you mean, "so you're told"?
 名前はネネカさんが付けてくれたんです。\n「呼び名がないと面倒でしょう」って。=It was Neneka who came up with the name.\n"Since we'll need a way to refer to it," she said.
@@ -40,9 +40,9 @@ r:"^あっ、あれですね！　(.{2,10})くんの\nプリンセスナイト�
 肉まん、ごちそうさまでした！　とっても美味しかったです！=Thank you for the meat bun! It was the yummiest!
 えっと……それで、御用件はなんですか？\nわざわざ警備の目をごまかして来たってことは、\nわたしになにか、大事な話があるってことですよね？=So, um... What exactly are you here about?\nIf you snuck past all the palace security,\nI'm guessing you've got something important to tell me?
 そうですね。\nまずは単刀直入に、こうお伝えしましょう。=Well, yes.\nI suppose I should begin by getting directly to the point.
-r:"^──世界の危機です、陛下。\nおそらく太刀打ちできるのは、\n(.{2,10})だけ……$"=The world is in peril, Your Majesty.\nAnd $1 may be the only one who can save it.
+──世界の危機です、陛下。\nおそらく太刀打ちできるのは、\n{playername}だけ……=The world is in peril, Your Majesty.\nAnd {playername} may be the only one who can save it.
 えええっ！？\n世界の危機……ですかっ！？=Huhhhh?!\nThe whole world's in peril?!
-r:"^それに、太刀打ちできるのが(.{2,10})くんだけって！\nあの人はいま、それどころじゃないっていうか……剣よりも\nおしゃぶりが似合っちゃいそうな感じ、なんですけどっ！？$"=And... did you say only $1 can save it?\nI'm not sure if he can do much saving right now...\nHe's more likely to wield a pacifier than a sword, to be honest!
+それに、太刀打ちできるのが{playername}くんだけって！\nあの人はいま、それどころじゃないっていうか……剣よりも\nおしゃぶりが似合っちゃいそうな感じ、なんですけどっ！？=And... did you say only {playername} can save it?\nI'm not sure if he can do much saving right now...\nHe's more likely to wield a pacifier than a sword, to be honest!
 そうですね。\n知っています。=True enough.\nI'm quite aware.
 ……そもそも。\nいま、彼が生きていること……それすらもが、奇跡に等しい。\nあなたも良くご存知でしょう、陛下？=In the first place...\nThe fact that he is still alive is nothing short of a miracle.\nShouldn't you know that very well, Your Majesty?
 ……そう、ですね……\n覇瞳皇帝との、戦いで……あの人は、わたしを庇ってくれて。\nあのときは本当に、死んじゃったのかって思ったんですけど……=Yes... you're right. In the battle with the Kaiser...\nHe shielded me with his own body...\nFor a little while, I really thought we'd lost him forever...
@@ -51,15 +51,15 @@ r:"^それに、太刀打ちできるのが(.{2,10})くんだけって！\nあ�
 ええっ……？\nた、魂ですか？=Whaaa...?\nI-it's his soul that's hurt?
 そう。魂。\n魔力の根源にして精神の核。\nシャドウを構築する、元となるもの……=Yes, his soul.\nThe source of magical energy and core of the mind.\nThe central element that gives rise to Shadows...
 私も少し、調べてみましたが……\n効果的な治療法は、特にないようです。\nそもそも、魂にダメージを負うこと自体がレアケースですし……=I did a little of my own research...\nbut it seems that no effective treatment exists.\nTo begin with, suffering damage to the soul is extremely rare...
-r:"^そんな……\nそれじゃあ、どうすれば(.{2,10})くんは\n元に戻るんですか？$"=No way...\nBut then what can we do to bring him back to normal?
+そんな……\nそれじゃあ、どうすれば{playername}くんは\n元に戻るんですか？=No way...\nBut then what can we do to bring him back to normal?
 表面的な言語能力や、判断能力については……再学習によって、\nあるいは何かのきっかけで修復する可能性もあるかと思います。\n私が教えてあげても構いません……=For his linguistic abilities and mental capacity... They can be relearned, or some manner of trigger could cause them to repair themselves. I wouldn't even mind teaching him myself.
 しかし……完全に元通りということは、ないでしょうね。=However... He'll never be completely the same as before.
 ……ぅぅ……=...Ahhh...
 ……悪い意味ばかりではありません。\n彼のプリンセスナイトの力は、より強いものに変化した……\nあなたもその身に受けたはずでしょう、陛下。=...I don't only mean that in a bad way.\nHis Princess Knight ability has become more powerful...\nI believe you've experienced that firsthand, Your Majesty.
-r:"^……はい。\n(.{2,10})くんがいつも以上に力をくれたおかげで、\n覇瞳皇帝の全力の魔法からみんなを守ることが出来ました……$"=...Yes. It's thanks to the increased power he gave me\nthat l was able to protect everyone\nfrom the Kaiser's all-out attack.
+……はい。\n{playername}くんがいつも以上に力をくれたおかげで、\n覇瞳皇帝の全力の魔法からみんなを守ることが出来ました……=...Yes. It's thanks to the increased power he gave me\nthat l was able to protect everyone\nfrom the Kaiser's all-out attack.
 パワーアップした、彼の新しい力。\n……そうですね。\n『プリンセスフォーム』とでも呼びましょうか。=This upgraded form of the power he bestows...\nYes, let's see.\nWhy don't we call it "Princess Form"?
 『プリンセスフォーム』……=Princess Form...
-r:"^これから(.{2,10})は、そしてあなたたちは……\nその力を使いこなせるようにならなくてはいけません。$"=In the days to come, $1 and all of you\nwill need to draw out the full potential of that new power.
+これから{playername}は、そしてあなたたちは……\nその力を使いこなせるようにならなくてはいけません。=In the days to come, {playername} and all of you\nwill need to draw out the full potential of that new power.
 世界を救うためにも、ね……=If you hope to save this world, that is.
 
 ネネカは裏社会を制圧したギルド【レイジ・レギオン】がいずれランドソルを襲撃すると予見する。敵の動静、プリンセスフォーム使用の反動と不安が尽きぬ中、突如ラビリスタが現れる。=Neneka foresees that the guild "Rage Legion," which has dominated the underworld, will eventually attack Landosol. Amidst the endless anxiety about the enemy's movements and the recoil from using the Princess Form, Labyrista suddenly appears.
@@ -92,7 +92,7 @@ r:"^これから(.{2,10})は、そしてあなたたちは……\nその力を�
 【レイジ・レギオン】……\n彼らは、真那の恐れた『元凶』につながるものだと。=The "Rage Legion"...\nThis guild may be connected to the true villain Mana feared.
 そんな人たちが、この街を襲う……\nただでさえ、復興が軌道に乗ったばかりのところなのにっ！=And they're going to attack this city...\nRight when we're still working so hard to restore it!
 私も、まだこの街になくなられても困りますし。\nサポートくらいならしてあげますが……あまり期待しないで下さい。\n真那に痛めつけられた後遺症が、まだ残っているので。=I too would find this city's demise inconvenient,\nso I'm willing to offer support. But don't expect too much.\nMy body is still damaged from its treatment at Mana's hands.
-r:"^先にも言いましたが、\n鍵を握るのは(.{2,10})の新たな力……\nそれが使いこなせなくては、勝ち目はないでしょう──$"="As I mentioned before,\nthe key to victory is young $1's new power.\nUnless you harness its full strength, defeat is inevitable."
+先にも言いましたが、\n鍵を握るのは{playername}の新たな力……\nそれが使いこなせなくては、勝ち目はないでしょう──=As I mentioned before,\nthe key to victory is young {playername}'s new power.\nUnless you harness its full strength, defeat is inevitable.
 お待たせしましたー♪\nあんみつセット追加、10人前ですー！=Sorry for the wait! ♪\nHere are your ten additional anmitsu desserts!
 あいがとー！=Thankoo!
 あっ、デザートのおかわり来ましたね♪\nいただきまーす☆=Oh—that'll be my second dessert! ♪\nDon't mind if I do! ☆
@@ -104,8 +104,8 @@ r:"^先にも言いましたが、\n鍵を握るのは(.{2,10})の新たな力�
 はい……\nネネカさまの予想されたとおり、\n主さまのお力がなければ、我々は今度こそ敗北していたでしょう。=Yes... Just as Miss Neneka predicted,\nwithout My Lord's new power,\nI fear we would surely have been defeated.
 まあ、そうかもしんないけどさ。\nあのクソガキにも、手下の魔物にもまんまと逃げられたわけだし……=Well, I guess you're not wrong.\nBut that little brat got away scot-free in the end,\nmonsters and all!
 やっぱりまた、戦わなくちゃいけないのかな。\nあたしたちを……それに、この街を襲ってくるんだとしたら。=I guess... we'll have to fight him again, won't we?\nHe's still planning to attack us and try to harm the city, after all...
-r:"^そのときは、\nやはり彼の力を借りたいところだけれど……$"=When that time comes,\nwe'll need all the aid $1 can provide...
-r:"^うーんっ♪\n黒蜜とあんことアイスのハーモニーが最っ高においしいです！\nねっ、(.{2,10})くん☆$"="Mmm~! ♪\nThis harmony of syrup, sweet beans and ice cream\nis tastier than anything! Right, $1? ☆"
+そのときは、\nやはり彼の力を借りたいところだけれど……=When that time comes,\nwe'll need all the aid {playername} can provide...
+うーんっ♪\n黒蜜とあんことアイスのハーモニーが最っ高においしいです！\nねっ、{playername}くん☆=Mmm~! ♪\nThis harmony of syrup, sweet beans and ice cream\nis tastier than anything! Right, {playername}? ☆
 おいちー♪=Dewishus! ♪
 うぅっ……ほんとに、美味しいね。\nあれだけ食べたのに、まだ食べられちゃうよぉ……=Ahhh... It really is delicious.\nI had so much already, but I still can't resist...
 ……はぁ。\nどうみてもまだ、ただの赤ちゃんよね。\nいざって時にコレじゃ、どうなるのかしら……=*sigh*\nHe's still no better than a little baby.\nHow are we gonna keep relying on him in battle?
@@ -121,18 +121,18 @@ r:"^うーんっ♪\n黒蜜とあんことアイスのハーモニーが最っ�
 うーん。\n残念ながら、それはないと思うなぁ。\nそちらのお姫さまは、どうやらすごく太りにくい体質みたいだしね？=Hmm...\nI'm afraid I wouldn't get your hopes up.\nI think that princess is just naturally resistant to weight gain.
 そっかぁ……\nってわああぁっ！？=Oh no...\nWait—whaaa?!
 
-r:"^ラビリスタは覇瞳皇帝を倒した礼と、プリンセスフォームについての私見を述べる。みんなで一致団結し危機に立ち向かおうと決意を新たにしたその時、(.{2,10})が一人で外へ出ていってしまう。$"="Labyrista expresses gratitude for defeating the Supreme Eye Emperor and shares her thoughts on the Princess Form. Just as everyone is determined to unite and face the crisis together, $1 goes outside alone."
+ラビリスタは覇瞳皇帝を倒した礼と、プリンセスフォームについての私見を述べる。みんなで一致団結し危機に立ち向かおうと決意を新たにしたその時、{playername}が一人で外へ出ていってしまう。=Labyrista expresses gratitude for defeating the Supreme Eye Emperor and shares her thoughts on the Princess Form. Just as everyone is determined to unite and face the crisis together, {playername} goes outside alone.
 やっ。\nひさしぶりー=Hey!\nLong time no see!
 晶さま……！\nいえ、ラビリスタさま、とお呼びするべきですね……\nお戻りになられていたのですか。=Miss Akira...!\nNo—"Miss Labyrista" is more appropriate, I suppose.\nI did not realize you had returned.
 まぁね♪\n『あっち』の騒ぎは、小康状態ってところまでもっていったし。\n『こっち』ですべきこともあるし。それに、何より……=Well, yep! ♪\nI've managed to calm things down on the other side a little,\nand I have things to take care of here. Besides, above all...
 何よりも、キミにお礼を言いたくてね。=Above all... I want to thank you properly.
-r:"^……ありがとう、少年。\nよく、真那を止めてくれた。$"=Thank you, young $1.\nFor stopping Mana as I asked.
+……ありがとう、少年。\nよく、真那を止めてくれた。=Thank you, young {playername}.\nFor stopping Mana as I asked.
 そして、真那を殺さないでくれた。\n本当に、感謝してもしきれない。=And... for not taking Mana's life.\nI really can't thank you enough.
 その優しさゆえに、\nキミが魂に深い傷を負ってしまったことを思うと……\n本当に、いたたまれなくなる。=When I think that your kindness\nhas left you with such a terrible wound upon your soul...\nIt pains me more than I can say.
 もっと悪い事態になる可能性があったとはいえ……\nキミに力を与えたのは、ほかならぬアタシだから。\n……でも……=Though things could have turned out a lot worse...\nI'm still the one who chose to give you that power.\nAnd yet...
 こうして再会して、直に触れ合ってみて。\nアタシはいまのキミの姿に、とても喜びを感じている……\nこのまま踊りだして、祝杯をあげたいくらいの気分だよ。=When I see you now and feel your warmth...\nThe sight of you like this fills me with nothing butjoy.\nI almost feel like dancing and declaring a toast.'
 いまの騎士クンの姿に、って……\n……ど、どういう意味ですか？=The sight of Kish-kun "like this"...?\n...Wh-what do you mean by that?
-r:"^あっ！　もしかして、\n『赤ちゃんみたいな性格の(.{2,10})くんが好き！』\nってことです？$"="Oh! Do you mean you love $1 best\nwhen he's a baby? Is that it?"
+あっ！　もしかして、\n『赤ちゃんみたいな性格の{playername}くんが好き！』\nってことです？=Oh! Do you mean you love {playername} best\nwhen he's a baby? Is that it?
 ええっ！？\nす、すす好すすっっ……！？=Whaaaa?!\nShe L-l-l-l-lov...?!
 ん？　いやいや、違う違う。\nアタシが嬉しいのはね、彼の『成長』だよ。=Hm? No, no, not like that.\nWhat makes me so happy is how much he's grown!
 主さまの、成長……？=My Lord's... growth...?
@@ -168,7 +168,7 @@ r:"^あっ！　もしかして、\n『赤ちゃんみたいな性格の(.{2,10}
 ……と、いうわけなのです。=...So, that is what happened.
 なるほどねー\nソルの塔から落ちてきた、記憶喪失の少女か。\nいや、とても興味深いな！=I see, I see...\nA girl with amnesia who fell from the Tower of Sol...\nWell, that really is intriguing!
 ぅうぅ～……=Urhhhh...
-r:"^あらためて……こいつ、何なのかしらね。\n(.{2,10})の記憶を取り戻す手がかりになるかもって、\n【美食殿】で保護しちゃったけど……$"="I do wonder... What is she, in the end?\nWe ended up looking after her at the Gourmet Guild\nin case she was related to $1's memories..."
+あらためて……こいつ、何なのかしらね。\n{playername}の記憶を取り戻す手がかりになるかもって、\n【美食殿】で保護しちゃったけど……=I do wonder... What is she, in the end?\nWe ended up looking after her at the Gourmet Guild\nin case she was related to {playername}'s memories...
 あらかた手は尽くしてみたが、結局、身元は不明だからな……=We searched for her identity but didn't find any leads...
 それどころか今日、あたしたちがあのクソ貴族にしょっぴかれたのって\n結局コイツが原因だったのよね。\nしかも、陛下……覇瞳皇帝を狙った、『王族暗殺未遂』で……=Worse still, today, the whole mess where that noble arrested us\nturned out to be her fault somehow! And on charges\nof trying to assassinate Her Majes—the Omniscient Kaiser, too.
 ……ねぇ、あんた。\nいったい何が狙いで、陛下を殺そうとしたわけ？=...Hey, you, girl.\nWhy the heck did you try to kill Her Majesty?
@@ -202,10 +202,10 @@ r:"^あらためて……こいつ、何なのかしらね。\n(.{2,10})の記�
 ……おや？\n主さまは……？=...Oh?\nWhere is My Lord...?
 むっ？\nそういえば、いつの間にやら彼の姿が無いが……=Hm?\nActually, I don't see him anywhere either...
 お腹がいっぱいになって、寝ちゃったのかな？\nじゃあテーブルの下とかに…………いないよーっ！？=Did he fill up his stomach and fall asleep?\nLet's check under the table... He's not there?!
-r:"^……ん？\nああ、少年ならさっき、そこの勝手口から外に出ていったよ。\n話に飽きちゃったのかな？$"=...Hm? Oh, if you want young $1,\nhe walked out through that door.\nWere we boring him, I wonder?
+……ん？\nああ、少年ならさっき、そこの勝手口から外に出ていったよ。\n話に飽きちゃったのかな？=...Hm? Oh, if you want young {playername},\nhe walked out through that door.\nWere we boring him, I wonder?
 い、いけません……！\n主さまはきっと、迷子になってしまいます……！=Th-this is terrible!\nMy Lord will become lost upon the streets!
 
-r:"^r:"^謎の女性ランファは、迷子の(.{2,10})に泣きつかれ困惑する。捜索中のコッコロはランファと共にいる(.{2,10})を発見し安堵する。だがランファは去り際に不穏な言葉を残すのだった。$"$"=""The mysterious woman, Ranpha, was bewildered by the lost $1 crying at her. Kokkoro, who was searching for her, was relieved to find $1 with Ranpha. But as he left, he left her with some disturbing words.""
+謎の女性ランファは、迷子の{playername}に泣きつかれ困惑する。捜索中のコッコロはランファと共にいる{playername}を発見し安堵する。だがランファは去り際に不穏な言葉を残すのだった。=The mysterious woman, Ranpha, was bewildered by the lost {playername} crying at her. Kokkoro, who was searching for her, was relieved to find {playername} with Ranpha. But as he left, he left her with some disturbing words.
 …………はぁ……=...*sigh*...
 ……ここが…………ランドソル……=...So this is... Landosol...
 ……こんな、夜なのに……\n……人が、まだ……たくさん……=Even... this late at night...\nthere are so many... people...
@@ -273,7 +273,7 @@ r:"^r:"^謎の女性ランファは、迷子の(.{2,10})に泣きつかれ困惑
 どーして？=Why?
 ……死んで、しまうから。=Because... you'll die.
 
-r:"^ランドソルを守る戦いに参加することで、(.{2,10})が危険な目に遭うことを不安視するコッコロ。ラビリスタに助言をもらうが迷いは消えない。そして数日後、ランファが再びランドソルに現れる。$"="Kokkoro, who worries about $1 getting into danger by participating in the battle to protect Landosol, seeks advice from Labyrista, but her doubts do not disappear. And a few days later, Ranpha appears in Landosol once again."
+ランドソルを守る戦いに参加することで、{playername}が危険な目に遭うことを不安視するコッコロ。ラビリスタに助言をもらうが迷いは消えない。そして数日後、ランファが再びランドソルに現れる。=Kokkoro, who worries about {playername} getting into danger by participating in the battle to protect Landosol, seeks advice from Labyrista, but her doubts do not disappear. And a few days later, Ranpha appears in Landosol once again.
 ……消えて、しまいました。\nいまの女性は、いったいどなただったのでしょう……=She has... vanished.\nWho in the world was that young lady just now...?
 やはり例によって、主さまのお知り合いなのですか？=Is she another of your many friends, my Lord?
 しらないひと。=I dunno her.
@@ -285,7 +285,7 @@ r:"^ランドソルを守る戦いに参加することで、(.{2,10})が危険�
 この街を守りたいというペコリーヌさまのお気持ちは、\nとてもよくわかりますし……\nわたくしも出来るだけ、お力添えをしたいと思います。=I can certainly understand Miss Pecorine's desire\nto defend this city from danger.\nAnd I would like to offer her all the assistance I can.
 ですが……そのために、\n主さまがまた、危険な目に遭われてしまうと考えると。\nわたくしは、本当に恐ろしいのです。=However... when I think that this might mean\nputting you in harm's way again, my Lord...\nIt brings a deep dread to my heart.
 ……もう、わたくしは……\nあのときのような思いは、二度とは……=I... do not ever want to relive the pain I felt that day...
-r:"^あのときみたいに、致命傷を負ってしまったら……\nもう少年は助からない。\n奇跡は二度も三度も起こらない……そう思ってほしいな。$"=If young $1 suffers another fatal wound...\nthis time, he won't survive. You can't expect miracles\nto repeat themselves. I hope you understand that.
+あのときみたいに、致命傷を負ってしまったら……\nもう少年は助からない。\n奇跡は二度も三度も起こらない……そう思ってほしいな。=If young {playername} suffers another fatal wound...\nthis time, he won't survive. You can't expect miracles\nto repeat themselves. I hope you understand that.
 ……ラビリスタさま。=...Miss Labyrista.
 やっ。\n今度の再会はずいぶん早かったねぇ。=Hey.\nThis time it didn't take long for us to meet again.
 奇跡は、二度も三度も……その通りですね。\nわたくしも、主さまを二度も三度もあのような目に\n遭わせてしまうようなことは、まっぴらでございます。=Miracles are not easily repeated... Quite right, I am sure.\nNor do I have any intention of ever allowing my Lord\nto fall into such a state for a second time.
@@ -298,7 +298,7 @@ r:"^あのときみたいに、致命傷を負ってしまったら……\nも�
 ……わたくしは、今度こそ守り切れるのでしょうか。\n他のなにより大事な、主さまのことを……=Will I be able to fulfill my task this time?\nTo protect the one life I treasure most...?
 ふふ。\nキミは、本当に優しい子だね。\n少年の影響か、あるいは『彼』の子への教育が正しかったのか……=Haha. You really are such a kind girl.\nMaybe it's the boy's influence,\nor maybe that man was better at raising a child than I realized...
 それじゃあ。\nキミにだけこっそり、イイコトを教えてあげよう。=All right, then.\nI guess I'll let you in on a little secret.
-r:"^アタシの推測だとね。\n少年の新しい力……『プリンセスフォーム』の力を身に纏うには、\nキミたちの側にも、大事な条件が２つある。$"=If my suspicions are right, then young $1's power...\nthis new Princess Form power he wields...\ncomes with two key conditions to fulfill on the receiving side.
+アタシの推測だとね。\n少年の新しい力……『プリンセスフォーム』の力を身に纏うには、\nキミたちの側にも、大事な条件が２つある。=If my suspicions are right, then young {playername}'s power...\nthis new Princess Form power he wields...\ncomes with two key conditions to fulfill on the receiving side.
 ……条件、でございますか？="Conditions"... you say?
 ひとつは……『七冠級の敵を打倒していること』。\nほら。\n強い敵を倒すとレベルアップするのは、世の習わしだろう？=The first is to have defeated a Seven Crowns-level enemy.\nYou know—if you want to level up,\nyou have to beat strong enemies first, right?
 では……あとひとつは？=And... the other condition?
@@ -336,7 +336,7 @@ r:"^アタシの推測だとね。\n少年の新しい力……『プリンセ�
 
 ペコリーヌの糾弾を口八丁でかわすゴウシンは、クレジッタと互いに腹の探り合いをしながら邪な企みを進める。一方ゴウシンからの依頼で荒くれ者の斡旋に向かうクレジッタは、結晶化した荒くれ者を発見する。=Pecorine's condemnation is skillfully avoided by Goushin, who proceeds with his evil plan while both he and Creditta probe each other's intentions. Meanwhile, Creditta heads towards the mediation of roughnecks at the request of Goushin and discovers a crystallized roughneck.
 ムム？\n……その件ですか。\nいやはや、悲しい行き違いがあったとしか申せませんな。=Hmm?\n...Ah, that incident. Yes indeed,\nit was a regrettable misunderstanding to say the least.
-r:"^それより先に、ゴウシンさん！\nいったいどういうことなんですか、\n(.{2,10})くんたちを捕まえちゃってたなんて……！$"="Before we get to that, Mr. Gorschin!\nWhat's the meaning of all this?\nI heard you held $1 and the others prisoner?!"
+それより先に、ゴウシンさん！\nいったいどういうことなんですか、\n{playername}くんたちを捕まえちゃってたなんて……！=Before we get to that, Mr. Gorschin!\nWhat's the meaning of all this?\nI heard you held {playername} and the others prisoner?!
 ユースティアナ陛下、ご機嫌麗しゅう。\nさて、本日の議題ですが……=Princess Eustiana. As always, it is a pleasure.\nNow, first on today's agenda is...
 ──【レイジ・レギオン】の襲撃があった翌日。\nペコリーヌは王女として、\n貴族議会の長・ゴウシン侯爵を謁見の間に呼び出していた。=The next day after the Rage Legion attack...\nAs Princess of Landosol, Pecorine has summoned Marquis Gorschin,\nChairman of the Council of Nobles, to her audience chamber.
 行き違いって……！\nそれで地下牢送りだなんて、ひどすぎますっ。\nあんまりです！=Misunderstanding...?!\nYou threw them all into the palace dungeons!\nIt's outrageous!
@@ -495,7 +495,7 @@ r:"^それより先に、ゴウシンさん！\nいったいどういうこと�
 光医者ですな！\nうぉっまぶしっ！=A doctor of shining justice!\nOoh, so blinding!
 せっかくだけど……遠慮しておくわ。\n私の本分はやっぱり、実験と研究だもの。=It's a tempting thought... but I'll pass.\nMy real calling will always be experiments and research.
 今回の人助けは、\n集めた知識と薬が本番でどれだけ使えるか、試したかっただけ。\nあとは……=This medical aid is just my way of testing\nhow effective my knowledge and medicines can be in the field.\nAnd also...
-r:"^あとは……そうね。(.{2,10})くんの\nお人よしぶりが伝染ったからかも、なんて言ったら……\nエリコちゃんはどんな顔するかしら。うふふふふ……$"="Also... well, yes.\nYoung $1's good nature can be infectious.\nBut if I said that... what would Eriko think,\nI wonder? Hee hee hee..."
+あとは……そうね。{playername}くんの\nお人よしぶりが伝染ったからかも、なんて言ったら……\nエリコちゃんはどんな顔するかしら。うふふふふ……=Also... well, yes.\nYoung {playername}'s good nature can be infectious.\nBut if I said that... what would Eriko think,\nI wonder? Hee hee hee...
 それにしても、だ……\n我が宿敵たる『組織』の活動も途絶えたうえ\n『黄昏の都』の情報も、虚偽であったとはな……=Still, I have to say...\nMy arch nemesis the Institute has fallen silent,\nand even our lead on the Twilight City proved to be a deception...!
 こうも平穏だと、我が魔瞳も倦怠の波に呑まれて\n曇ってしまうぞ！\nいずこかに小説のネタ……否、心震わせる事象は無いものか……=With all this peace, my Evil Eye will be obscured by the mists of disuse!\nWhere will I find new inspiration for my writi—\nI mean, world-shaking exploits to thrill my soul?!
 要約すると、ヒマすぎワロタいや笑えないんだけど……\nなんか面白いコトないかにゃー？=In other words: lol, we're so bored!\nThough it's no laughing matter...\nAw, there's gotta be something fun to do!
@@ -630,11 +630,11 @@ r:"^あとは……そうね。(.{2,10})くんの\nお人よしぶりが伝染�
 ……じゃあ……\n…………さようなら…………=Well then...\n...Goodbye...
 くっ！\nシャドウはともかく……この骨のワイバーン、強い！=Ngh!\nThe Shadows are one thing...\nbut these skeletal Wyverns are strong!
 それに、すっごく硬いよ～っ！\nパンチした手がじんじんする～っ！=And they're super tough, too!\nWhen I punch them, it makes my hands hurt!
-r:"^生半可な魔法も通じないみたいね……\n(.{2,10})！\n強化よ！　できる！？$"="Normal magic can't get through, either...\n$1!\nPower me up! Can you do that?!"
+生半可な魔法も通じないみたいね……\n{playername}！\n強化よ！　できる！？=Normal magic can't get through, either...\n{playername}!\nPower me up! Can you do that?!
 あっ……！\n『プリンセスナイト』のお力が、キャルさまに対して発動いたしました！\n以前と同じように……！=Ah...!\nHis Princess Knight energy is flowing through Miss Kyaru!\nJust like before!
 よぉしっ！\nこれならちょっとはマシに戦えるわ！\nでえ～いっ！=Great!\nNow I might stand a better chance!\nYahhh!
 えらいよ騎士くんっ！\nまた、強化が使えるようになったんだね！=Nice going, Kishi-kun!\nLooks like you can use your power again!
-r:"^すまないが、(.{2,10})！\nその調子で我々にも、強化を頼むっ！$"=As much as I hate to trouble you,\ncan you extend that power to us as well?!
+すまないが、{playername}！\nその調子で我々にも、強化を頼むっ！=As much as I hate to trouble you,\ncan you extend that power to us as well?!
 あ、あれっ？\n騎士クン、目を閉じちゃった……！？=H... huh...?\nKishi-kun closed his eyes...!
 あ、主さまっ？\nいけません、今お眠りになってしまうと、\n魔物と交戦中のキャルさまが……！=M-my Lord?\nOh, how awful. If you fall asleep at this time,\nMiss Kyaru's battle with the monsters will be...!
 あっはっは！\n特大の魔法、お見舞いしてやるわっ──\n……へっ？=Ahahah!\nLet's see how you like an extra-huge blast!\n...Huh?
@@ -704,7 +704,7 @@ r:"^すまないが、(.{2,10})！\nその調子で我々にも、強化を頼�
 主さま……！？=My Lord...!?
 こっちへ……！=Come here...!
 ペコリーヌちゃん、騎士クンのあの表情……！=Pecorine... That look on Kishi-kun's face...!
-r:"^はい！\nかわいい赤ちゃんじゃなくて、\nかっこいいときの(.{2,10})くんですっ☆$"="Yes!\nThat's not our little baby boy...\nIts the cool $1 who protects us! ☆"
+はい！\nかわいい赤ちゃんじゃなくて、\nかっこいいときの{playername}くんですっ☆=Yes!\nThat's not our little baby boy...\nIts the cool {playername} who protects us! ☆
 主さま！\nわたくしに……どうか力を！=My Lord!\nI beg you... Grant me your strength!
 わたくしは、誓います！\nかならずやみなさまと、\nこの世界から『あちら』へと戻り……=I swear to my heart!\nThat I will guide you all\nfrom this world to our true home...\n
 そして、あちらの世界でも！\n必ずや、主さまのかたわらで尽くすことをっ……！=And then, even in that world,\nI will serve forever faithfully by your side...!
@@ -716,8 +716,8 @@ r:"^はい！\nかわいい赤ちゃんじゃなくて、\nかっこいいとき
 『心を、繋いで──』=『When one heart... touches another──』
 主さまとの、心の繋がりを！=The bond that joins my heart with his!
 
-r:"^コッコロの力で結晶化が解け、反撃に転じる仲間たち。ランファは自分の胸で眠る(.{2,10})を気遣い、静かに撤退する。そしてコッコロもまたプリンセスフォームの反動で、お腹を空かせるのだった。$"="Kokkoro's power dissolves the crystallization, and the allies turn the tide and counterattack. Ranpha worries about $1, who is sleeping on her chest, and quietly retreats. And Kokkoro, too, becomes hungry due to the after effects of her Princess form."
-r:"^…………\n『プリンセスフォーム』……\n……これが、(.{2,10})くんの力……？　$"="...\n"Princess Form"...\nSo this... is $1's power...?"
+コッコロの力で結晶化が解け、反撃に転じる仲間たち。ランファは自分の胸で眠る{playername}を気遣い、静かに撤退する。そしてコッコロもまたプリンセスフォームの反動で、お腹を空かせるのだった。=Kokkoro's power dissolves the crystallization, and the allies turn the tide and counterattack. Ranpha worries about {playername}, who is sleeping on her chest, and quietly retreats. And Kokkoro, too, becomes hungry due to the after effects of her Princess form.
+…………\n『プリンセスフォーム』……\n……これが、{playername}くんの力……？　=...\n"Princess Form"...\nSo this... is {playername}'s power...?
 ……すごく……キレイな力……\nとても、まぶしい……=Such pure... and lovely radiance...\nIt's almost... blinding...
 あぶないっ！\n３匹同時に来てる！=Look out!\nThree of them are coming at once!
 大丈夫です！\nみなさまは、必ずわたくしがお助けいたします……！=Worry not.\nI swear I will protect all of you without fail!
@@ -728,7 +728,7 @@ r:"^…………\n『プリンセスフォーム』……\n……これが、(.{
 今度は、わたくしの方からお願いいたします。\nどうぞこのまま、お引き取りを。=This time, it is my turn to request this of you.\nPlease see sense and retreat peacefully.
 主さまはもとより。\nここにいるみなさまも、このランドソルも──\nわたくしが、これ以上は決して傷つけさせません……！=You will not harm my Lord,\nour friends, or the city of Landosol.\nI will not allow you to do further harm to any of them!
 わたし……できることなら。\n……あまり、戦いたくないの……=If I... could have the choice...\nI'd rather not do any fighting...
-r:"^……特に、あなたや\n(.{2,10})くんのように……やさしい子とは……\n…………でも…………$"="Especially with people like you and $1...\nwho are always so kind...\n...But..."
+……特に、あなたや\n{playername}くんのように……やさしい子とは……\n…………でも…………=Especially with people like you and {playername}...\nwho are always so kind...\n...But...
 わたしは……この、残響する声に……\n軋む音に……耐えられない。=I'm afraid... these unending voices...\nThis awful noise... won't let me rest...
 …………だから…………！=...So I...!
 わわっ！\nまたなんか、やばそうなかんじ……！=Waahhh!\nThis looks really dangerous again!
@@ -743,8 +743,8 @@ r:"^……特に、あなたや\n(.{2,10})くんのように……やさしい�
 って、あれっ？\nコロ助あんた、プリンセスフォームじゃなくなっちゃってる！=Wait, huh?\nKorosuke, you're not in your Princess Form anymore!
 ……！\n本当です……もしや、主さまの身に何か……！=...!\nIt's true... Could something have happened to my Lord...?!
 お～い、騎士くーんっ！\nどこいっちゃったの～！=Heeey! Kishi-kun!\nWhere did you go?!
-r:"^(.{2,10})、返事をしてくれっ……！\n……ん……？$"="$1, please answer us!\n...Hmm...?"
-r:"^(.{2,10})くん、どこですかーっ！$"="Where are you, $1?!"
+{playername}、返事をしてくれっ……！\n……ん……？={playername}, please answer us!\n...Hmm...?
+{playername}くん、どこですかーっ！=Where are you, {playername}?!
 ああもう……！\nこんな土煙、魔法で吹き飛ばしてやるわっ！=Oh, geez...!\nI'll just blast this dust away with my magic!
 ………………あら……？=...Oh...?
 ……ええと……\nあなた……=Ummm...\nHave you...
@@ -759,7 +759,7 @@ r:"^(.{2,10})くん、どこですかーっ！$"="Where are you, $1?!"
 ……ああ……また、来たのね……\nうるさいひとたち……=...Ahh... You're all back again...\nThe very noisy people...
 ランファさま……！\n主さまから、離れてください……！=Miss Ranpha!\nPlease step away from my Lord!
 ……\n…………\n…………はい……=...All right...
-r:"^あ、あれっ？\n案外、素直に聞いてくれちゃいましたね……\n(.{2,10})くんを人質に取られちゃうかもって思ったのに。$"=H-huh?\nThat was a lot easier than I expected...\nI thought she might try to take him as a hostage.
+あ、あれっ？\n案外、素直に聞いてくれちゃいましたね……\n{playername}くんを人質に取られちゃうかもって思ったのに。=H-huh?\nThat was a lot easier than I expected...\nI thought she might try to take him as a hostage.
 ……あなたたちも……\n静かに、して……ください……=Can you all... please try to be... quiet...?
 だって、この子……\n……せっかく……静かに、寝ているのだから…………=After all, this boy...\nHe's sleeping so very peacefully right now...
 ……あ、ほんとだ！\n騎士くん、寝ちゃってる～！=...Oh, she's right!\nKishi-kun's fast asleep!
@@ -809,9 +809,9 @@ r:"^あ、あれっ？\n案外、素直に聞いてくれちゃいましたね�
 ……申し訳ありません。\nあと一杯だけ、おかわりを……=...I am terribly sorry.\nMay I ask for just... one more bowl?
 んぐんぐ、はぐはぐ……=*snarf snarf*... *nom nom*...
 ペコリーヌがドカ食いするのは、見飽きてるけど……\nその横でコロ助が同じくらい食べてるのを見ると、\nちょっと不安になるわね……=Watching Pecorine stuff her face just bores me now,\nbut Korosuke eating just as much right next to her\nis a little bit scary...
-r:"^『プリンセスフォーム』の反動、か。\nラビリスタが言うには、\n(.{2,10})がまだ力を使いこなせてないかららしいけど……$"="The aftereffects of the Princess Form, huh...?\nAccording to Labyrista, it's just because $1\nisn't used to this power yet, but..."
+『プリンセスフォーム』の反動、か。\nラビリスタが言うには、\n{playername}がまだ力を使いこなせてないかららしいけど……=The aftereffects of the Princess Form, huh...?\nAccording to Labyrista, it's just because {playername}\nisn't used to this power yet, but...
 ユイちゃんたちのパワーアップがすぐ解けちゃったのも、\nそのせいなのかなぁ？=D'you think Yui and Peco transforming back so fast\nwas because of that, too...?
-r:"^そのへん、ちゃんと知りたいわね。\n(.{2,10})の力を使いこなせなきゃ\nこの先やばいのは、間違いなさそうだし……$"="We could use an answer to that.\nIf we don't get used to using $1's power,\nthe battles ahead will be tough for sure..."
+そのへん、ちゃんと知りたいわね。\n{playername}の力を使いこなせなきゃ\nこの先やばいのは、間違いなさそうだし……=We could use an answer to that.\nIf we don't get used to using {playername}'s power,\nthe battles ahead will be tough for sure...
 しばらく見てないうちに、私の『実験台』が\nそんなことになっちゃってたとはね……=I hadn't seen my "test subject" for a little while,\nbut to think he'd ended up like this...
 あぁ、不覚でしたわ……\n幼い精神状態へと戻ったあの方に、\n私のことを刷り込み出来たかもしれませんでしたのに。=Ah, what a crying shame!\nAfter my love returned to an infant state,\nI may have had the chance to make him imprint upon me...!
 ……いえ、今からでも遅くはありません。\nこの愛らしい寝顔の横で、ずっと私の名前を繰り返せば……=...No, it's still not too late to try.\nIf I whisper my name over and over\nright next to his sweet sleeping face...!
@@ -826,7 +826,7 @@ r:"^そのへん、ちゃんと知りたいわね。\n(.{2,10})の力を使い�
 ……ねぇ、【美食殿】のお姫さま？\nちょっとだけ提案があるんだけど……聞いてもらえるかしら。=...Say, princess of the Gourmet Guild.\nI have a small proposition for you. Would you care to listen?
 んっ？　なんでしょう？\nあっ、ここのお勘定なら心配しなくて大丈夫ですよ♪\n割り勘じゃなく、ちゃんと王宮に領収書を回すので！=Hmm? What's this now?\nOh—if it's about the bill, you don't need to worry♪\nWe're not splitting it—I'm gonna charge my share to the palace!
 割り勘だったら、誰もあんたと一緒に\n定食屋に入ろうなんて思わないわ……=If we were splitting bills, nobody in their right mind\nwould come anywhere near a diner with you...
-r:"^えっとね。\n(.{2,10})くんのコトだけど……\n私たちにも、彼を元に戻すお手伝いをさせてもらいたいの。$"="So listen. About our friend $1...\nWould you be willing to let us assist with restoring him to normal?"
+えっとね。\n{playername}くんのコトだけど……\n私たちにも、彼を元に戻すお手伝いをさせてもらいたいの。=So listen. About our friend {playername}...\nWould you be willing to let us assist with restoring him to normal?
 私……闇医者として、イロイロ研究してるし。\n正規ルートにない治療法の中に、役に立つ方法があるかも知れないわ。\n彼のカラダは、何度も調べさせてもらって良く知ってるしね……♪=You know, as an unlicensed doctor, I do a lot of research.\nI may be able to find hints in areas that don't usually see the light of day.\nAnd after all our experiments, I'm extremely familiar with his body...♪
 ……！\nそんなやりがいのありそうな研究、ミツキさんだけに任せられませんわ。\n私も、断固として協力させていただきます。=Ahh...!\nI couldn't possibly let Mitsuki handle such important research alone!\nI insist that you allow me to assist as well.
 私の魔導書コレクションの中にも、ヒントあるかも☆\nこの謎……必ずや解き明かしてみせよう、じっちゃんの名にかけて！=There could be a hint or three in my tome collection, too☆\nI swear... I won't rest till this mystery is solved!\nThe game is afoot!
@@ -838,7 +838,7 @@ r:"^えっとね。\n(.{2,10})くんのコトだけど……\n私たちにも、
 よっしゃあ☆　じゃあさっそく～……？=Aw yeah☆ Then for starters...!
 オッス！\nオラナナカ！\nいっちょ変身してみっかー！=Here comes Lovely Nanaka!\nLet's try a transformation, shall we?!
 ……ナナカさん？\nいったい何を……=...Nanaka?\nWhat's this now...?
-r:"^いやマジ、魔法ヲタとしては変身チャンスとか黙ってらんないっしょ！\n起きて起きて(.{2,10})君！\n寝てる場合じゃねぇ！　であります！$"="Like, for reals, as a magic nerd,\nI can't miss a chance to nab a new form!\nWake up! Wake up, $1!\nThis ain't no time for sleeping! Believe it!"
+いやマジ、魔法ヲタとしては変身チャンスとか黙ってらんないっしょ！\n起きて起きて{playername}君！\n寝てる場合じゃねぇ！　であります！=Like, for reals, as a magic nerd,\nI can't miss a chance to nab a new form!\nWake up! Wake up, {playername}!\nThis ain't no time for sleeping! Believe it!
 ちょっとあんたっ？\nまだわかってないコトの方が多い能力なんだし、\n無理やりやらせるとか、どうなるかわかんないわよ！？=Um, are you mad?\nWe still hardly know a thing about this ability!\nIf you force him into it, who knows what'll happen?!
 ご意見無用！\nあとは勇気で補えばいい☆=No objections!\nI'll show you the power of courage☆
 話を聞きなさいよーっ！？=Can you try listening to me?!
@@ -880,9 +880,9 @@ r:"^いやマジ、魔法ヲタとしては変身チャンスとか黙ってら�
 …………\n……あ、あのね、ミソラちゃん……\n聞いて、もらえるかしら……=...\n...U-um, hey, Misora...\nCould I tell you something...?
 うんっ？\nなんですかぁ、ランファさんー=Mm~?\nWhat is it, Ranpha?
 ……わ、わたし……わたしね。\nこれまで、男の子と……\n……ちゃんと話したこと、ぜんぜんないんだけれど……=...W-well, I... Y-you know...\nI've never... talked to a boy... much at all, really,\nup until now, but...
-r:"^……でもね。\nなんだか、いま……\n(.{2,10})くんのことが、すごく気になるの……$"="...But, you know...\nRight now, when I think about $1...\nit gives me a strange feeling..."
+……でもね。\nなんだか、いま……\n{playername}くんのことが、すごく気になるの……=...But, you know...\nRight now, when I think about {playername}...\nit gives me a strange feeling...
 ……！！\nランファさん、それって……！？=...Ahh!\nRanpha, do you mean...?!
-r:"^じ、自分でも……自分の気持ちが……よくわからないの。\n……(.{2,10})くんの声を、もっと聴いて……\nもっと、触れてみたいって……思ってしまって……$"=E-even I... don't really understand what this means...\n...But I want to hear his voice...\nAnd to hold him closer... for some reason...
+じ、自分でも……自分の気持ちが……よくわからないの。\n……{playername}くんの声を、もっと聴いて……\nもっと、触れてみたいって……思ってしまって……=E-even I... don't really understand what this means...\n...But I want to hear his voice...\nAnd to hold him closer... for some reason...
 うんうん♪\nそれからそれからっ？=Yep, yep♪\nWhat else do you feel?!
 わ、わたし……思ったのだけど。\n……も、もしかしたら……=W-well, I... I was wondering...\nC... could this feeling...
 ……もしかしたら、この気持ち。\n……これが……\nこれが、ウワサに聞く……=This strange new feeling...\nCould it be...\nCould it really be...?

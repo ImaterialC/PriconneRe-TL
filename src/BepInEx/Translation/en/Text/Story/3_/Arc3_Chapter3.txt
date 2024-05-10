@@ -6,13 +6,13 @@ Episode 1:
 宝石兎との出会い=Meeting the Jeweled Rabbit
 
 Summary:
-r:"^疲れを癒した一同は各々夕飯まで自由時間を過ごすことに。その折、オニギリちゃんにごはんを与える(.{2,10})の前に見知らぬ少女が現れる。彼はお腹を空かせた少女に弁当を分けてあげるのだった。$"="After recovering from their fatigue, everyone decided to spend their free time until dinner. At that moment, an unfamiliar girl appeared in front of $1, who was feeding Onigiri-chan. He shared his lunch with the hungry girl."
+疲れを癒した一同は各々夕飯まで自由時間を過ごすことに。その折、オニギリちゃんにごはんを与える{playername}の前に見知らぬ少女が現れる。彼はお腹を空かせた少女に弁当を分けてあげるのだった。=After recovering from their fatigue, everyone decided to spend their free time until dinner. At that moment, an unfamiliar girl appeared in front of {playername}, who was feeding Onigiri-chan. He shared his lunch with the hungry girl.
 
 ャッスル・オブ・パルフェ～大広間～=The Great Hall of Parfait
 クローチェ・リンド=Croce&Lind
 近づいてくる誰か=Someone's approaching
 
-r:"^──裏世界『ジオ・テオゴニア』にて。\n(.{2,10})は今日も\n仲間たちと一緒に冒険を繰り広げていた。$"="In the Reverse World 'Gio Teogonia', $1 is adventuring with his friends again today."
+──裏世界『ジオ・テオゴニア』にて。\n{playername}は今日も\n仲間たちと一緒に冒険を繰り広げていた。=In the Reverse World 'Gio Teogonia', {playername} is adventuring with his friends again today.
 兄様っ！\n『ワクワク森のビックリビッグキノコ』は\n見つかりましたでしょうか……！？=Nii-sama! Have you found the 'Extremely Big Mushroom of the Exciting Forest'?!
 まだ見つからない！=I still can't find it!
 普通のキノコが、どんどん増えちゃって！=There's more and more normal mushrooms growing!
@@ -23,13 +23,13 @@ r:"^──裏世界『ジオ・テオゴニア』にて。\n(.{2,10})は今日�
 皆様の食欲もすごいですが、キノコも負けじと繁殖をしています……！=Everyone's appetites are amazing, but the mushrooms are still growing fast...!
 クリアさま！\nわたくしたちで、可能な限りキノコの調理を……！=Miss Quria! We'll have to do everything we can to cook as much mushrooms as possible...!
 はい！\nプレシアちゃんたちが味に飽きちゃわないように、ですね！=Yes! So that Precia and the others won't get tired of the taste!
-r:"^ちょっと(.{2,10})！\nあたしらが防いでるあいだに、\nキノコのボスを見つけなさいよっ！？$"="Hey, $1! Go find the mushroom boss while we're being busy here!"
+ちょっと{playername}！\nあたしらが防いでるあいだに、\nキノコのボスを見つけなさいよっ！？=Hey, {playername}! Go find the mushroom boss while we're being busy here!
 主さま、この森を抜けるには\nキノコのボスの菌糸が必要とのことでございます……！=You need to get the mycelium of the mushroom boss for us to get through this forest My Lord...!
 「あ」っ？=Ah ?
 プレシアちゃん、どうしたのっ？=Precia, what's wrong?
 ……たべちゃった。\nぼすきのこ。=...I ate it. The mushroom boss.
 あ～～っ！！！？？？=Aaaah~!!!???
-r:"^──裏世界『ジオ・テオゴニア』にやってきてから数週間。\n(.{2,10})たちは\n未知の世界で、魔物退治や調査に明け暮れていた。$"="It's been a few weeks since they arrived in the Reverse World, 'Gio Teogonia'. $1 and the others have been spending their time going out slaying and investigating monsters in this place."
+──裏世界『ジオ・テオゴニア』にやってきてから数週間。\n{playername}たちは\n未知の世界で、魔物退治や調査に明け暮れていた。=It's been a few weeks since they arrived in the Reverse World, 'Gio Teogonia'. {playername} and the others have been spending their time going out slaying and investigating monsters in this place.
 そしてある日。西部の森の冒険から戻った一同は、\n『キャッスル・オブ・パルフェ』の浴場を借りて\n旅の汗を流したのだった。=One day, when everyone returned from their adventure in the western forest, they borrowed the bathhouse at the Castle of Parfait to wash off their sweat.
 は～\nさっぱりさっぱり☆\n大きなおフロ、気持ち良かったですね～♪=*sigh* How refreshing! ☆ The bath felt so good! ♪
 みなさん、ちゃんと髪とか拭いてくださいね？\n廊下をびしょびしょにしたら、怒りますよっ？=Make sure you dry your hair and stuff, everyone. I'll get mad if you leave the hallway soaking wet
@@ -89,7 +89,7 @@ r:"^──裏世界『ジオ・テオゴニア』にやってきてから数週�
 ちょっとヴルムっ？\nあなたはちゃんと手伝ってよね！=Hey, Wyrm? You should help out!
 ……その前に。=...Before that.
 ちょっと、玉座の間に行きますか。\n姉さん。=Let's go to the throne room for a bit, Sister.
-r:"^ペコリーヌたちといったん別れた(.{2,10})は、\n城の外に待たせていた\n『オニギリちゃん』にごはんを与えていた。$"="After parting ways with Pecorine and the others, $1 comes to feed Onigiri-chan, who had been waiting outside of the castle."
+ペコリーヌたちといったん別れた{playername}は、\n城の外に待たせていた\n『オニギリちゃん』にごはんを与えていた。=After parting ways with Pecorine and the others, {playername} comes to feed Onigiri-chan, who had been waiting outside of the castle.
 ぴぎゅ♪\nぴぎゅ♪=Pigyu♪ Pigyuu♪
 おいしい？=Tasty?
 ぎゅ！\nぴぎゅーぎゅ♪=Gyu! Pigyu-gyu♪
@@ -120,13 +120,13 @@ Episode 2:
 お菓子の城、倒壊！？=The candy castle collapsed?!
 
 Summary:
-r:"^とある住民の案内で城の地下にある特別なお菓子のもとに向かうプレシアたち。一方、(.{2,10})はクルルと名乗った少女と共に城へ赴く。するとそこには正座で反省させられるプレシアたちの姿が。$"="Precia and Pecorine follow a certain resident's guide to a special snack in the basement of the castle. Meanwhile, $1 heads to the castle with a rabbit girl who called herself Kururu. There they sees Precia and Pecorine, sitting on their knees, and the others, whom are forcing them to reflect on their actions."
+とある住民の案内で城の地下にある特別なお菓子のもとに向かうプレシアたち。一方、{playername}はクルルと名乗った少女と共に城へ赴く。するとそこには正座で反省させられるプレシアたちの姿が。=Precia and Pecorine follow a certain resident's guide to a special snack in the basement of the castle. Meanwhile, {playername} heads to the castle with a rabbit girl who called herself Kururu. There they sees Precia and Pecorine, sitting on their knees, and the others, whom are forcing them to reflect on their actions.
 
 リンド・ヴルム=Lind & Wyrm
 クローチェ・リンド=Croce & Lind
 ハーフリングの女性？=Halfling woman?
 
-r:"^(.{2,10})たちといったん別れた\nペコリーヌとプレシアは、\nおやつを求めて城の入り口へとやってきた。$"="After parting ways with $1 and the others, Pecorine and Precia arrived at the castle entrance in search of a snack."
+{playername}たちといったん別れた\nペコリーヌとプレシアは、\nおやつを求めて城の入り口へとやってきた。=After parting ways with {playername} and the others, Pecorine and Precia arrived at the castle entrance in search of a snack.
 うーんと……ヴォルガーノさんは、お留守みたいですね。=Hmm... It looks like Volgano isn't here.
 ねこさん。\nいない？=The cat guy. Not here?
 きっと、他の門番さんと交代でお休みしてるんですよ。\n猫って「寝子」っていうくらい\nよく寝る生き物ですからね☆=I'm sure he's taking turns resting with the other guards at the gate. Cats are creatures that sleep so well that they're called 'neko'.☆
@@ -207,7 +207,7 @@ r:"^(.{2,10})たちといったん別れた\nペコリーヌとプレシアは�
 わぁっ、床が傾いちゃってますねっ？=Look, the floor's tilted!
 これって、城の基礎に何かあったとしか……=That means something has happened to the foundation of the castle...
 ……っ！\nリンド、ヴルム、クローチェ！\nすぐに地下を見てきてください……！！=...! Lind, Wyrm, Croce! Go check the basement asap...!!
-r:"^『キャッスル・オブ・パルフェ』を突然の揺れが襲う、少し前。\n(.{2,10})は空腹で行き倒れた少女に\n弁当を分け与えたのだが……$"="A short while before the sudden tremors hit the Castle of Parfait, $1 was sharing his lunchbox with a girl who had collapsed from hunger..."
+『キャッスル・オブ・パルフェ』を突然の揺れが襲う、少し前。\n{playername}は空腹で行き倒れた少女に\n弁当を分け与えたのだが……=A short while before the sudden tremors hit the Castle of Parfait, {playername} was sharing his lunchbox with a girl who had collapsed from hunger...
 あぁっ、生き返りました～！\n見ず知らずのわたしにこんなに親切にしてくれるなんて……\nひょっとしてもしかして、あなたは神様なんですかっ！？=Aaah, I'm back to life! To think you'd be so kind to a stranger like me... Could it be that you're a god?!
 違うよ。=No.
 ええっ！？\n違うんですかっ！？=What?! You're not?!
@@ -216,8 +216,8 @@ r:"^『キャッスル・オブ・パルフェ』を突然の揺れが襲う、�
 えええっ！？\nじゃあじゃあ、あなたは……？=Whaaat?! Then, what are you...?
 わぁ♪\nすっごくステキなお名前ですです！=Wow♪ That's a wonderful name!
 ふむふむ！\nへーっ、わたしたちとは違う世界から来たんですかっ！？\nほんとですかっ！？　びっくりですよ～っ！=Hmm, hmm! Heh, you came from a different world than us?! Really?! What a surprise~!
-r:"^見ず知らずどころか、違う世界のわたしを助けてくれるなんて……\nやっぱり(.{2,10})さんは、ヒーローみたいです♪$"="Not only are you a stranger, but you're helping me in a different world... You really are like a hero, $1-san♪"
-あっ、そうですそうです♪=Oh, that's right! ♪"
+見ず知らずどころか、違う世界のわたしを助けてくれるなんて……\nやっぱり{playername}さんは、ヒーローみたいです♪=Not only are you a stranger, but you're helping me in a different world... You really are like a hero, {playername}-san♪
+あっ、そうですそうです♪=Oh, that's right! ♪
 
 Cutscene:
 そうだ！=Oh, right...!
@@ -246,7 +246,7 @@ Cutscene:
 お弁当、ごちそうさまでした～！！=Thank you for the lunchbox!!
 待って～！！=Wait!!
 ぴぎゅーーーっ！！？=Pigyuuuu!!?
-r:"^それからしばらく、(.{2,10})は\nカーバンクルの少女・クルルと\n追いかけっこをすることになるのだった。$"="For a while after that, $1 ended up having a chase with the Carbuncle girl, Kururu."
+それからしばらく、{playername}は\nカーバンクルの少女・クルルと\n追いかけっこをすることになるのだった。=For a while after that, {playername} ended up having a chase with the Carbuncle girl, Kururu.
 ……はぁ、はぁ……\nお渡しした宝石、ぜんぶ返されちゃいましたぁ……\nヒーローさんで聖人さんなのに、強引さんですぅ……=...*pant pant*... The jewels I gave you were all returned... Even though you're a hero and a saint, you're so pushy...
 ……ご恩返しは、また後で隙を見てさせていただくとして……=...I'll return the favor later, but I'll have to wait for an opening...
 ヒーローさんも、『キャッスル・オブ・パルフェ』に\n戻るところだったんですね。\nとっても奇遇ですです！=So the hero was on his way back to the Castle of Parfait too. What a coincidence!
@@ -258,7 +258,7 @@ r:"^それからしばらく、(.{2,10})は\nカーバンクルの少女・ク�
 や～、さっきまで大変だったんだよ。\nいきなり城が、傾いちゃってねぇ。=Man, something happened until just a little while ago. The castle suddenly tilted.
 ええっ！？\nお姫さまたちは、大丈夫なんでしょうかっ！？=What?! Is the princess okay?!
 はいですっ！=Yes, sir!
-r:"^──あっ☆\n(.{2,10})くん！$"="Ah☆ $1-kun!"
+──あっ☆\n{playername}くん！=Ah☆ {playername}-kun!
 ……あれが。\nユースティアナ・フォン・アストライア……ね。=...That person is...Eustiana von Astraea.
 ……本当に。\n心の底から、愚か者……=...Really. From the bottom of your heart, a fool...
 ……あ、あら？\nここは……=...O-Oh? Where am I...
@@ -273,9 +273,9 @@ Summary:
 
 蜘蛛型の魔物=Spider-type monsters
 
-r:"^『キャッスル・オブ・パルフェ』に異変が起きたと聞き、\n慌てて玉座の間へと向かった(.{2,10})とクルル。\n彼らがそこで目にしたのは──$"="Hearing that some incident had happened at the [Castle of Parfait], $1 and Kururu hurried to the throne room. What they saw there was..."
+『キャッスル・オブ・パルフェ』に異変が起きたと聞き、\n慌てて玉座の間へと向かった{playername}とクルル。\n彼らがそこで目にしたのは──=Hearing that some incident had happened at the [Castle of Parfait], {playername} and Kururu hurried to the throne room. What they saw there was...
 ……騎士さん。\nこれは……=...Kishi-san. This is...
-r:"^あっ☆\n(.{2,10})くん！$"="Ah ☆$1-kun!"
+あっ☆\n{playername}くん！=Ah ☆{playername}-kun!
 リンド。\nわたしから説明いたします。=Lind, allow me to explain.
 その……騎士。\nこのような辱めを他国の客人──それも貴人に強いることは、\nわたしたちも、気が咎めるのですが……=Umm... Sir Knight. It would be reproachful of us to force such humiliation on a guest from another country, a ruler no less, but..
 今回ペコリーヌ姫とプレシアが許可なく口を付けてしまったのは\nこの城を支える主柱──『砂糖細工の中心柱』。\nこれを傷つけてしまったものを無罪放免とするわけには、いきません。=This time, Princess Pecorine and Precia attempted to eat the main pillar supporting this castle--[Pièce Montée Pillar]. We can't allow such crimes to go unpunished.
@@ -410,13 +410,13 @@ r:"^あっ☆\n(.{2,10})くん！$"="Ah ☆$1-kun!"
 ……誰かを疑ったり、裁きにかけたり。\n足を掬われぬよう、手を回したり……=...Suspecting someone, Making judgements for their crimes. I had to muster everything I can to keep myself standing ...
 ……それが、こんなにも気が咎めるなんて。=...I didn't think the guilt of condemning your friends would be this overwhelming.
 やはり、プリンセスには……相応しくないのかもしれませんね。\nこの『わたし』は……=As I thought, I'm ... not cut out to be a princess. This 'me' ...
-r:"^(.{2,10})たちは、\nカーバンクルの少女・クルルとともに\n魔物に占拠されたという『グランドリームパーク』へ向かっていた。$"="$1 and the others, together with a Carbuncle girl named Kururu, are heading to [Grand Dream Park] , which is said to have been overtaken by monsters."
+{playername}たちは、\nカーバンクルの少女・クルルとともに\n魔物に占拠されたという『グランドリームパーク』へ向かっていた。={playername} and the others, together with a Carbuncle girl named Kururu, are heading to [Grand Dream Park] , which is said to have been overtaken by monsters.
 ──ぴぎゅっ！\nぴぎゅっ、ぴぎゅっ、ぴぎゅっ～！=Pigyuu! Pigyuu, pigyuuu, pigyuu !
 ひゃああっ、はやいですっ！\nオニギリさん、すごいですです～っ！=Hyaaah, so fast! Onigiri-san, you're amazing!
 ふふっ、そうなんですよ♪\nオニギリちゃんは速くて力持ちで、とってもすごい子なんです♪=Hehe, that's right♪ Onigiri-chan is really fast and strong, it's such an amazing fellow♪
 ですねですね！\nこんなすごい子が仲間だなんて、\nヒーローさんはとってもとってもすごいんですね！=Right right! To think such an amazing pet would be your companion, Hero-san must be really, really amazing!
-r:"^ヒーローさん、って……\nひょっとして、(.{2,10})のこと？"="Hero-san...? You mean $1?"
-ですです♪\n見ず知らずのわたしを助けてくれたうえに、無欲で遠慮深いなんて！\nまさにヒーローさんですよ～！$"="That's right♪ He saved me even when we're complete strangers, and he's so selfless and humble! He's a hero without any doubt~!"
+ヒーローさん、って……\nひょっとして、{playername}のこと？=Hero-san...? You mean {playername}?
+ですです♪\n見ず知らずのわたしを助けてくれたうえに、無欲で遠慮深いなんて！\nまさにヒーローさんですよ～！=That's right♪ He saved me even when we're complete strangers, and he's so selfless and humble! He's a hero without any doubt~!
 いや、そんな大したもんじゃないでしょこいつ……=Nah, he's not that big of a deal...	
 そんなことはありませんよ？=Isn't that true though?
 兄様は、まさしく英雄と呼ばれるに相応しい人物です。=Nii-sama is truly worthy of being called a hero.
@@ -493,7 +493,7 @@ Substory VIII:
 Summary:
 建物の解体中に予期せぬトラブルにあってしまったクローチェ。技術屋のポポじいさんによって無事にメンテナンスをされたかと思いきや、いつの間にか彼女のアームには新装備が装着されていたのだった。=Croce ran into some unexpected problem while helping with dismantling a building. She thought she had been safely repaired by the engineer, Grandpa Popo. But before she knew it, she already had her arm equipped with new modifications from him.
 
-ある日のこと。\n(.{2,10)はひとり、『ジオ・テオゴニア』の\n城下町を歩いていた。すると──=One day, $1 was walking alone in the castle town of 'Gio Teogonia'. When─
+ある日のこと。\n{playername}はひとり、『ジオ・テオゴニア』の\n城下町を歩いていた。すると──=One day, {playername} was walking alone in the castle town of 'Gio Teogonia'. When─
 あぶな～いっ！=Watch out!
 ──どぉおん！=Dooon!
 おーい！\n大丈夫か～？\n怪我はないか～？=Hey! You alright? Are you hurt?
@@ -525,7 +525,7 @@ Summary:
 ナイトさんはとっても頼りになるんですっ！\nきっとここのお片付けもあっという間ですよっ♪=Naito-san is very reliable! I'm sure cleaning up here won't take long with his help♪
 がんばります！=I'll do my best!
 はははは、それは頼もしいな。\nよし、じゃあありがたく力を貸してもらうよ。=Hahahaha, that's reassuring. Alright, then I'll be grateful for your help.
-クローチェの代わりに解体を手伝うことにした(.{2,10)。\n彼の頑張りもあり、作業は順調に進んでいった──=$1 decided to help with the dismantling in place of Croce. Thanks to his efforts, the work went smoothly
+クローチェの代わりに解体を手伝うことにした{playername}。\n彼の頑張りもあり、作業は順調に進んでいった──={playername} decided to help with the dismantling in place of Croce. Thanks to his efforts, the work went smoothly
 わーっ！\nナイトさん、すっごく手際がいいですねっ！\n食材も混じってないですしっ！=Wow! You're really good at this, Naito-san! There aren't any ingredients mixed in either!
 大したもんだ。\nもしかして、向こうの世界で似たようなことをしてたのかい？=Impressive. Were you doing something similar in the other world?
 バイトの経験談を話す。=Tell them about your experience with part-time jobs.
@@ -613,7 +613,7 @@ Summary:
 管理人のおばあさん=Old Caretaker
 ファームの動物=Farm animals
 
-r:"^(.{2,10})の頼みを受け、『ジオ・テオゴニア』の\n魔物退治にやってきた【サレンディア救護院】。$"="At $1’s request, the [Sarendia Orphanage] had come to help with monsters extermination in [Gio Teogonia]."
+{playername}の頼みを受け、『ジオ・テオゴニア』の\n魔物退治にやってきた【サレンディア救護院】。=At {playername}’s request, the [Sarendia Orphanage] had come to help with monsters extermination in [Gio Teogonia].
 順調に魔物を追い返した彼女たちは、ランドソルへ帰還する前に\n『ふぁんふぁんファーム』へと向かっていた。=Having successfully driven the monsters back, the girls had made their way to [Fun-Fun Farm] before returning to Landosol.
 ふぁんふぁんファームっ♪\nふぁんふぁんファーム～っ♪=Fun-Fun Farm♪ Fun-Fun Farm ♪
 二人とも～\n急ぎたいのは分かるけど、あんまり離れちゃダメよ～？=Both of you~ I know you two want to hurry, but don't go too far ahead, okay?
@@ -624,7 +624,7 @@ r:"^(.{2,10})の頼みを受け、『ジオ・テオゴニア』の\n魔物退�
 確かに、想像もできないわね～\nこっちの世界は、アストライア大陸と違うことばかりだし。=Same goes for me, I can't even imagine it~ This world is nothing like the continent of Astraea.
 『ジオ・テオゴニア』……\n実際に来てみて驚いたわ。\n本当に言葉通りの別世界ね。=[Gio Teogonia]... I was surprised when I actually came here. It really is a different world, just like the word says.
 まるで絵本の中みたいですよね～\nさっきの街もぜ～んぶお菓子でできてましたしっ♪\n今だって、とってもおいしそうな香りがしてますよ～=It's like we're in a picture book~ The city is made of all kinds of sweets~♪ Even now, it smells really delicious~
-r:"^(.{2,10})に話を聞いたときは正直半信半疑だったけど……\nふふっ、来てみてよかったわ。\nここまで楽しくてのどかな場所、なかなかないもの。$"="I honestly wasn't entirely convinced when I asked $1 about it, but... Hehe, I'm glad I came. It's rare to find such a fun and peaceful place like this."
+{playername}に話を聞いたときは正直半信半疑だったけど……\nふふっ、来てみてよかったわ。\nここまで楽しくてのどかな場所、なかなかないもの。=I honestly wasn't entirely convinced when I asked {playername} about it, but... Hehe, I'm glad I came. It's rare to find such a fun and peaceful place like this.
 魔物は出るようになっちゃったけどね。=Monsters have started appearing, though.
 そうだったわね。\nそれじゃあ、こののどかさを守れるようにがんばりましょ！=That's right. Therefore, we'll have to do our best to protect this tranquility!
 ついたーっ！=We're here!
@@ -656,7 +656,7 @@ r:"^(.{2,10})に話を聞いたときは正直半信半疑だったけど……\
 動物さ～ん！\n次は転びませんから、ちょっとだけ……ちょっとだけナデナデさせ──\nひゃあああんっ！？=Everyone! I won't trip next time, so let me just pet you a little─ Hyaaaahn!?
 言ったそばから転んでる！？=She just fell right after she said that!?
 どこに行っても、スズメお姉ちゃんはスズメお姉ちゃんだね……=No matter where she goes, Suzume Onee-chan will always be Suzume Onee-chan huh...
-r:"^その後──\n少し離れた場所で様子を眺めていた(.{2,10})のところに\nサレンがひとりやってきた。$"="After that, Saren came alone to $1, who was watching from a short distance away."
+その後──\n少し離れた場所で様子を眺めていた{playername}のところに\nサレンがひとりやってきた。=After that, Saren came alone to {playername}, who was watching from a short distance away.
 いいところを教えてもらっちゃったわね。\nみんな楽しんでるわ。ありがとう！\nおまけに無料だもの、文句なしよ♪=Good thing that you told me about this after our work. Everyone's having fun. Thank you! Plus, it's free, so I've got no complaints♪
 それにしても……\nここの動物たちは、本当に警戒心が少ないわね。\nさっきだって、スズメのドジがなければ逃げられなかっただろうし。=Still...the animals here aren't very cautious. If it weren't for Suzume's clumsiness earlier, they probably wouldn't have been able to escape.
 ……ううん、警戒心が少ないっていうよりも人懐っこいって感じ？\nこれも、こっちの世界の環境が関係してるのかしら。=...No, it's more like 'too friendly' than 'less cautious'? I wonder if this has something to do with the environment of this world.
@@ -795,7 +795,7 @@ Summary:
 それに。今までにも魔物退治をお願いしているのですから\nわたしが騎士たちを、生命の危険に晒しているのは\n何も今回、さして特別というわけでは……ありません……=Besides, I've asked them to slay monsters before, so there's nothing special regarding me putting them in danger again this time... 
 ですが……\nそう心得ていて尚、\nこのような後ろめたい気持ちになってしまうのは……=But... even knowing that, I still feel guilty...
 ……そう。\n『わたし』が、国主としては甘すぎるから。\n騎士たちを心の底では、疑っていないから……ですね……=...That's right. Because 'I' am too naive to be a ruler of this country. Because deep down, I don't doubt Sir Knight...
-r:"^一方。\n『グランドリームパーク』を臨むラモリール平原から、\n(.{2,10})たちの戦いを眺める三対の眼があった。$"="On the other hand, there were three pairs of eyes watching $1 and the others fighting from the Lamorir Plains facing the 『Grand Dream Park』."
+一方。\n『グランドリームパーク』を臨むラモリール平原から、\n{playername}たちの戦いを眺める三対の眼があった。=On the other hand, there were three pairs of eyes watching {playername} and the others fighting from the Lamorir Plains facing the 『Grand Dream Park』.
 やってるやってる。\nヨソサマの世界で、ずいぶん騒がしいことだねぇ。=Look what we have here. Seems like the outsiders from another world are causing quite a ruckus.
 ね、姉さん。\nわたしたちが、騒がしいとか言えないと思うけど……=N-Nee-san. I don't think we're in any position to be able to say that...
 で、でも。\nランドソルの王女さまなのに、\nどうしてこっちの世界で戦ってるんだろう……？=B-But. She's the princess of Landosol, so why is she fighting in this world...?
@@ -1017,7 +1017,7 @@ Summary:
 うふふ、リノさんってば。\nこれからは妹だけじゃなく、お姉ちゃんも兼任ですね♪=Ufufu, Rino. From now on, you won't just be a little sister anymore, but also a big sister♪
 わわ、ついに私もお姉ちゃんデビューですか！？\n世界一かわいい妹に続いて、世界一かわいいお姉ちゃんの称号も\n手にしてしまうとは……自分の才能が恐ろしいです～！=Wow, I'm finally making my big sister's debut?! To think that after holding the title of the cutest little sister in the world I would also become the cutest big sister in the world! My own genius, it's almost terrifying!
 妹？　というと……\nリノ様には、ご兄妹がいらっしゃるのですか？="Little sister"? Does that mean... Miss Rino has older siblings?
-r:"^はいっ！　なにを隠そう……\nリノは皆さんご存じの、(.{2,10})お兄ちゃんの妹なのです！\nえっへんっ！$"="Yes! What I didn't reveal is that ... As everyone already knows, Rino is $1 Onii-chan's little sister! Ehem!"
+はいっ！　なにを隠そう……\nリノは皆さんご存じの、{playername}お兄ちゃんの妹なのです！\nえっへんっ！=Yes! What I didn't reveal is that ... As everyone already knows, Rino is {playername} Onii-chan's little sister! Ehem!
 え、えぇっ！？　それはつまり、兄様の……？\nまことに失礼いたしました。あの方のご兄妹と存じていれば、\n先んじてご挨拶をさせていただいたのですが……=Wh-What?! In other words, Nii-sama's...? My apologies. If I had known you two were siblings, I would have greeted you in advance...
 いや、これはリノさんが勝手に言ってるだけなんです。\n勝手にお姉ちゃん名乗ってる人もいるし……ってかアカリもそうだし。=No, Rino's just saying whatever she wants. There are people who call themselves Onee-chan on their own... Actually, Akari's the same.
 そうそう♪\nお兄ちゃんはみーんなのお兄ちゃんなんですよ♪=That's right♪ Onii-chan's everyone's big brother♪
@@ -1222,11 +1222,11 @@ Episode 6:
 網を張る者たち=Those who set up the net
 
 Summary:
-r:"^戦いの後、ヤマトたちから奇襲を受けた一同。(.{2,10})はペコリーヌとライラエルを強化し、力を合わせて彼女たちを退ける。そして疑惑が晴れた一同は改めてライラエルと『友人』になるのだった。$"="Everyone was ambushed by a surprise attack from Yamato and co after the battle. $1 strengthened Pecorine, Lyrael and they worked together to defeat the Bandit Sisters. Once their suspicions were cleared up, they became 『friends』 with Lyrael once again."
+戦いの後、ヤマトたちから奇襲を受けた一同。{playername}はペコリーヌとライラエルを強化し、力を合わせて彼女たちを退ける。そして疑惑が晴れた一同は改めてライラエルと『友人』になるのだった。=Everyone was ambushed by a surprise attack from Yamato and co after the battle. {playername} strengthened Pecorine, Lyrael and they worked together to defeat the Bandit Sisters. Once their suspicions were cleared up, they became 『friends』 with Lyrael once again.
 
 フレイヤ=Freiya
 
-r:"^『グランドリームパーク』を支配した蜘蛛型の魔物を倒し、\nプリンセス・ライラエルと和解した(.{2,10})たち。\nだがそこに、【バンディ・シスターズ】からの奇襲を受けてしまう。$"="$1 and the others had defeated the spider monsters that took over 『Grand Dream Park』 and reconciled with Princess Lyrael. However, they were ambushed by the 【Bandit Sisters】 right after."
+『グランドリームパーク』を支配した蜘蛛型の魔物を倒し、\nプリンセス・ライラエルと和解した{playername}たち。\nだがそこに、【バンディ・シスターズ】からの奇襲を受けてしまう。={playername} and the others had defeated the spider monsters that took over 『Grand Dream Park』 and reconciled with Princess Lyrael. However, they were ambushed by the 【Bandit Sisters】 right after.
 きゃはははっ♪\n死んだ？\n死んじゃった～？♡=Kyahahaha♪ Dead? Are they dead yet~? ♡
 け、煙であんまり見えないけど……=I-I can't see much from the smoke...
 おいフブキ。\n王家の装備にゃァ当てなかったんだろうね？\nお宝を砲撃で壊しちまってたら、バカもいいところだよ。=Hey, Fubuki. You didn't hit the Royal Equipment, did you? It would be foolish if you accidentally destroyed the treasure with your bombardment.
@@ -1263,7 +1263,7 @@ r:"^『グランドリームパーク』を支配した蜘蛛型の魔物を倒�
 ハッ！　ナメてんじゃないよ！\n「国家に友人はいない」ってコトバも知らないのかい！=Hah! Don't take it lightly! You don't even know the saying "A nation has no true friend"!
 そんなヘロヘロの身体で、アタシの相手が務まると思ってンなら──\nそいつが見込み違いだってコト、教えてやろうじゃないか！\n王家の装備を置いて、くたばりなッ！=If you think you can take me on in such a weakened state, then I'll show you that you're dead wrong! Surrender your Royal Equipment and go to hell!
 ……来ます、ペコリーヌ姫……！=...They're coming, Princess Pecorine...!
-r:"^(.{2,10})くん！\nライラエルさんにも、強化を！$"="$1-kun! I need you to strengthen Lyrael as well!"
+{playername}くん！\nライラエルさんにも、強化を！={playername}-kun! I need you to strengthen Lyrael as well!
 
 Cutscene:
 くたばりなっ、プリンセスどもっ！=Die, Princesses!
@@ -1308,7 +1308,7 @@ Cutscene:
 ──誰ぞ知らねど。\n我が領土を、斯様な虫けら如きで穢すとは──不届きな。\n必ずや見つけ出し、一族郎党余さず滅却してくれようぞ。=I don't know who you are, but to dare defiling my territory with the likes of insects like this. How insolent. I'll find them and destroy them, as well as everyone related.
 ぴゃいぃっ！？=Pyaaii!?
 ライラエルさん、また傲慢モードになっちゃってますよ～っ！？\n落ち着いてくださ～いっ！！=Lyrael, you're in prideful mode again! Calm down, please!!
-r:"^こうして、トラブルは多数あったものの──\n(.{2,10})たちは、\nプリンセス・ライラエルとさらに親睦を深めることができたのだった。$"="And so, even though there had been a lot of trouble $1 and the others were able to deepen their friendship with the Princess Lyrael."
+こうして、トラブルは多数あったものの──\n{playername}たちは、\nプリンセス・ライラエルとさらに親睦を深めることができたのだった。=And so, even though there had been a lot of trouble {playername} and the others were able to deepen their friendship with the Princess Lyrael.
 
 Cutscene:
 ……ああ、憎らしや。口惜しや=...Aah, how detestable. How annoying.
@@ -1397,8 +1397,8 @@ Summary:
 これだけの質量が、\nどうやってこの細い身体に収まってるんでしょう……\nまるで密室トリックみたいで、なんだか興味深いですね。=With this much food, how does it all fit into that slender body... It's like a locked-room trick. How intriguing.
 ……あと、ちょっと胸焼けしてしまいますね……=...Also, it's giving me a little heartburn...
 『あははっ☆\nランドソルのときほどじゃないですよ？\nそれに日本のお料理は、とーってもおいしいので♪』="Ahaha☆ It’s not as much as it was in Landosol, you know? Besides, Japanese food is just so delicious♪"
-r:"^──少し前。\n(.{2,10})とペコリーヌは騒ぎになりつつある公園を離れ、\nそして璃乃たちと別れた。しかしその後……"="A little while back, $1 and Pecorine left the park, which was attracting a commotion, and parted ways with Rino and the others. But then..."
-r:"^『わたし、キャルちゃんたちを捜したいって思ってたんですけど。\n(.{2,10})くんも、住所がわからないらしくって。\nどうしようかなってところだったんですよ～っ』$"=""I thought of trying to look for where Kyaru-chan and the others are, but $1-kun doesn’t seem to know her address. I was just wondering what to do~""
+──少し前。\n{playername}とペコリーヌは騒ぎになりつつある公園を離れ、\nそして璃乃たちと別れた。しかしその後……=A little while back, {playername} and Pecorine left the park, which was attracting a commotion, and parted ways with Rino and the others. But then...
+『わたし、キャルちゃんたちを捜したいって思ってたんですけど。\n{playername}くんも、住所がわからないらしくって。\nどうしようかなってところだったんですよ～っ』="I thought of trying to look for where Kyaru-chan and the others are, but {playername}-kun doesn’t seem to know her address. I was just wondering what to do~"
 それでコソコソしてるところに、\nあたしらとばったり出くわしたってわけか。\nすげー偶然だったな。=And then while you were sneaking around, you somehow came across us. What a coincidence that was.
 偶然でも、幸運でも。\n先輩たちとこうして、またお会いできて……私はとてもうれしいですよ。=It doesn't matter if it's a coincidence or a stroke of luck. I'm very happy to be able to see my senpais again like this.
 ふふっ……♪=Hehe...♪
@@ -1433,7 +1433,7 @@ r:"^『わたし、キャルちゃんたちを捜したいって思ってたん�
 その２。『カテゴリー・黄』。\n現実が自分の本来の世界であると認識しながらも、\nレジェンドオブアストルムに帰りたいと願う者。=Number two: 『Category Yellow』. Those who recognized that Reality is their original world, but wants to return to Legend of Astrum.
 そこがわからねぇんだって。\nやっと現実に帰れたってのに、なんでレジェンドオブアストルムの中に\n入りたいって思うやつがいるんだよ？　こんなにさ。=That's the part I don't get. You're finally back to Reality, so why would there be someone who wants to go back to Legend of Astrum? After so much effort too.
 簡単な話ですよ。\nたとえば、そうだな……=It's pretty simple. For example, let's see...
-r:"^もし仮に。\n真琴先輩は(.{2,10})先輩と\nレジェンドオブアストルムの中でしか会えないとしたら、どうしますか？$"="Let's just say, what if Makoto-senpai could only meet $1-senpai inside Legend of Astrum, what would you do then?"
+もし仮に。\n真琴先輩は{playername}先輩と\nレジェンドオブアストルムの中でしか会えないとしたら、どうしますか？=Let's just say, what if Makoto-senpai could only meet {playername}-senpai inside Legend of Astrum, what would you do then?
 は？\nそりゃ、またダイブするに決まっ──=Huh? Of course I'm going to dive again─
 ってオイ！\n何言わすんだカスミこらッ！！？=Hey! What are you trying to me say, Kasumi?!
 あはは……すみません。でも、同じ話です。\n「あちら側」でしか会えない大事な人がいたりとか、\n何か大きな心残りがあるプレイヤーは、可能なら戻りたがるでしょう。=Ahaha... Sorry. But it's the same story. Someone precious whom they can only meet on "that side", or those Players with lingering attachments, would want to return as soon as possible.
@@ -1446,7 +1446,7 @@ r:"^もし仮に。\n真琴先輩は(.{2,10})先輩と\nレジェンドオブア
 『全員が、そうではなかった……ってことなんですね』="But not everyone was like that.... is what had happened then"
 傾向から推測すると、私たちみたいに\nあらかじめ「あの世界」が架空のものだって情報を得ていた場合は、\n『認識の修正』が解けやすくなるようだね。=Judging by the trend, if you had the information of 『that world』 being a fantasy in advance, the 'cognition correction' would come off more easily. 
 うーん……じゃ、あたしらがたまに見てた\n「思い出しにくい変な夢」も、\n認識の修正を解く助けになってたかもってコトか。=Hmm... So, the 「strange dreams with only vague collection」we occasionally had, they might have assisted us in resolving the 'Cognition Correction'.
-r:"^『きっとそうですよ。あの夢を見せてくれていたのは\n(.{2,10})くんのお友だちの妖精さんだったそうですから。\nでも世界中の人に夢を見せるには、手が足りなかったんでしょうね』$"="I'm sure that's it. It was $1-kun’s fairy friend who was showing us those dreaMiss But she probably didn’t have enough helping hands to show it to everyone across the world."
+『きっとそうですよ。あの夢を見せてくれていたのは\n{playername}くんのお友だちの妖精さんだったそうですから。\nでも世界中の人に夢を見せるには、手が足りなかったんでしょうね』=I'm sure that's it. It was {playername}-kun’s fairy friend who was showing us those dreaMiss But she probably didn’t have enough helping hands to show it to everyone across the world.
 ……もしかして……=...Could it be...
 先輩？=Senpai?
 ラビリスタさんが頼んでた、あれって……=What Labyrista asked for, perhaps that...

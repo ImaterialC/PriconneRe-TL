@@ -41,32 +41,32 @@
 ---Story---
 カオリと海辺で大特訓！=Kaori's special beach training!
 
-r:"^海辺で一人、空手の特訓をしているカオリ。自分の頭の中で思\nい浮かべたマジムンを大量に倒すというイメージトレーニング\nをしていた彼女は、(.{2,10})に応援を頼みながら、特訓に励\nむのであった。$"=Kaori is doing karate training by herself on the beach. She's doing mental training to defeat the Majimun she made up in her mind. With $1 cheering her on, she diligently loses herself in her training.
+海辺で一人、空手の特訓をしているカオリ。自分の頭の中で思\nい浮かべたマジムンを大量に倒すというイメージトレーニング\nをしていた彼女は、{playername}に応援を頼みながら、特訓に励\nむのであった。=Kaori is doing karate training by herself on the beach. She's doing mental training to defeat the Majimun she made up in her mind. With {playername} cheering her on, she diligently loses herself in her training.
 
 せい、はっ！\nえーい、さーっ！=Sei~! Ha~! Eei~! Saa~!
 何してるの？=What are you doing?
-r:"^あ、(.{2,10})！　ハイターイ♪\nこれー？　イメージトレーニングさー！$"=Ah, $1! Hai-tai!♪\nThis..? It's mental training!
+あ、{playername}！　ハイターイ♪\nこれー？　イメージトレーニングさー！=Ah, {playername}! Hai-tai!♪\nThis..? It's mental training!
 相手はマジムンだからねー\n故郷の血が騒ぐんだよ～！=You know, because the opponents are Majimun,\nit makes the blood of my homeland boil in me!
-r:"^(.{2,10})もやってみるー？\n大丈夫、私の真似をしたらいいだけよー！$"=You wanna try it too, $1?\nDon't worry, just copy me!
+{playername}もやってみるー？\n大丈夫、私の真似をしたらいいだけよー！=You wanna try it too, {playername}?\nDon't worry, just copy me!
 まずは集中してイメージするさー……=Let's focus on imagining them first...
 ほら、目の前にマジムンがいっぱい出てくるでしょー？\nそれをなぎ倒すんさー！=Come on, there's a lot of Majimun in front of you, right?\nLet's mow them down!
 ……え？=...Huh?
 え、出てこない～？\n集中力が足りないさ～、もっと強くイメージするさ～！=Huh? You're not seeing them?\nYou seem to be lacking concentration.\nYou need to try harder!
 難しい？　う～ん、仕方ないさ～！\nじゃあ、そこで応援しててほしいさ～！=Too difficult? Hmm, it can't be helped then!\nCheer me on while I show you!
-r:"^(.{2,10})の応援だけは、\nイメージじゃ満足できないからね～♪$"=It seems $1 can't be satisfied with just imagination~♪
+{playername}の応援だけは、\nイメージじゃ満足できないからね～♪=It seems {playername} can't be satisfied with just imagination~♪
 じゃあ、いっくさ～！=Okay, let's do this!
 
 礼に始まり礼に終わる=It begins and ends with gratitude!
 
-r:"^イメージトレーニングを終えたカオリは、(.{2,10})と礼を交\nわす。その際に頭をぶつけてしまったカオリは、頭を冷やすた\nめに海へ行こうと誘う。体が冷えたらまた特訓だと、張り切る\nカオリだった。$"=Having finished her mental training, Kaori exchanges bows with $1. She bumps her head into $1 and takes him to the beach to cool his head off. She's excited to do some more special training once they cooled down a bit.
+イメージトレーニングを終えたカオリは、{playername}と礼を交\nわす。その際に頭をぶつけてしまったカオリは、頭を冷やすた\nめに海へ行こうと誘う。体が冷えたらまた特訓だと、張り切る\nカオリだった。=Having finished her mental training, Kaori exchanges bows with {playername}. She bumps her head into $1 and takes him to the beach to cool his head off. She's excited to do some more special training once they cooled down a bit.
 
 はいやぁっ！\n……ふぅ、こんなところだね～♪=Hai-yaah! ...Phew, that should do it~♪
 本当にマジムンがいるみたいだった。=It really felt like the Majimun were here
-r:"^(.{2,10})にも見えた～？\nよかったさ～！$"=Did you see them too, $1?\nThank goodness!
+{playername}にも見えた～？\nよかったさ～！=Did you see them too, {playername}?\nThank goodness!
 でもこれでイメージトレーニングはバッチリよ～\n応援してくれてありがとうね～=But with this, my mental training is complete~\nThanks for cheering me on~
 そうだ、最後はちゃんと礼をしないと～\n空手は礼に始まり礼に終わるのが基本だからね～！=Right... I have to show my thanks!\nKarate starts and ends with properly expressing gratitude!
-r:"^(.{2,10})もするの～？\nじゃあ、私と向かい合って～、礼っ！$"=You're going to do it too, $1?\nThen, look at me and bow!
-r:"^いたた～！\nあは～、顔がぶつかっちゃったねぇ♪\n(.{2,10})、勢いよく頭を下げ過ぎだよ～♪$"=Ow ow ow! Aha... our heads bumped into each other♪\n$1, you bowed too deep♪
+{playername}もするの～？\nじゃあ、私と向かい合って～、礼っ！=You're going to do it too, {playername}?\nThen, look at me and bow!
+いたた～！\nあは～、顔がぶつかっちゃったねぇ♪\n{playername}、勢いよく頭を下げ過ぎだよ～♪=Ow ow ow! Aha... our heads bumped into each other♪\n{playername}, you bowed too deep♪
 大丈夫～？　顔、痛いところはない～？\nちょっとよく見せるさ～=Are you alright~? Does your face hurt anywhere~?\nLemme take a look~
 ん？　近い？　近づかないと見えないでしょ～？\nほらほら、逃げちゃダメさ～♪=Hm...? Close...? I can't see it unless I get close, right?\nCome on, don't run away♪
 おでこがちょっと赤くなってるだけだね～\nこれくらいなら、冷やしておけば大丈夫だね～=Your forehead is just a little red~\nIt should be fine if it's cooled down a bit~
@@ -91,5 +91,5 @@ r:"^より強くイメージしたマジムンを打ち破ったカオリ。ま�
 自分でイメージしたものだけど、\nなかなかの強敵だったさ～！=Although I imagined it myself, it was a pretty formidable enemy~!
 さすがに疲れたねぇ～\nでも、まだまだ上を目指せるはずさ～！=Aaah.. I'm exhausted~\nBut I can still aim higher~!
 とりあえず今は、砂浜に寝転んで休憩さ～\n気持ちのいい枕でもあったらいいんだけど、\nそれもイメージで我慢さ～=For now, I just want to lie down on the beach and take a break. It'd be nice if I had a nice pillow, but I'll just have to bear with it~
-r:"^ん？　なんか本当に柔らかいさ～？\n……(.{2,10})？\n私、(.{2,10})の膝を枕にしてるさ～？$"=Hm? Something feels.. really soft~ ...$1?\nAm I using $2's lap as a pillow~?
+ん？　なんか本当に柔らかいさ～？\n……{playername}？\n私、{playername}の膝を枕にしてるさ～？=Hm? Something feels.. really soft~ ...{playername}?\nAm I using {playername}'s lap as a pillow~?
 これ、イメージ、じゃないよね？\nあは～、気持ちいいさ～、やっぱり本物が一番だね～♪=I'm not imagining this, am I..?\nAha~, it feels good~, the real thing really is the best~♪

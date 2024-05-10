@@ -1,5 +1,5 @@
-r:"^路地裏でごろつきたちに追われる少女をかくまった(.{2,10})。しかし少女はごろつきと共に【王宮騎士団（NIGHTMARE）】に追われるギャングの構成員、イノリだった。$"="In the back alleys, $1 shelters a girl being chased by thugs. However, the girl, Inori, is a gang member being pursued by the Nightmare the Royal Knights."
-r:"^ランドソルの路地裏に迷い込んでしまった(.{2,10})は、\n背後からの声に気付き振り返った。$"="Lost in the back alleys of Landosol, $1 hears a voice behind her and turns around."
+路地裏でごろつきたちに追われる少女をかくまった{playername}。しかし少女はごろつきと共に【王宮騎士団（NIGHTMARE）】に追われるギャングの構成員、イノリだった。=In the back alleys, {playername} shelters a girl being chased by thugs. However, the girl, Inori, is a gang member being pursued by the Nightmare the Royal Knights.
+ランドソルの路地裏に迷い込んでしまった{playername}は、\n背後からの声に気付き振り返った。=Lost in the back alleys of Landosol, {playername} hears a voice behind her and turns around.
 待てー！=Wait up!
 へーん！　待てといわれて待つバカがいるかです！=Hey! Who's the idiot waiting after being told to wait!
 ぶげっ！？　こら！　おまえ！\nなに道の真ん中でぼーっと突っ立ってやがるです！=Huh!? Hey, you! Why are you standing in the middle of the road like an idiot!
@@ -11,7 +11,7 @@ r:"^ランドソルの路地裏に迷い込んでしまった(.{2,10})は、\n�
 ああもう！　こんなことしてる時間ないですよ！\nどどど、どうすれば……=Oh no! We don't have time for this! W-what should we do...
 少女をかくまう。=Shelters the girl.
 ひゃっ！　な、なにするで……っ！？=Hyah! W-what are you...!
-r:"^(.{2,10})が少女をマントの影に隠すと同時に\nあきらかに身なりの怪しい男たちが現れる。$"="As $1 hides the girl in the shadow of her cape, suspicious-looking men appear."
+{playername}が少女をマントの影に隠すと同時に\nあきらかに身なりの怪しい男たちが現れる。=As {playername} hides the girl in the shadow of her cape, suspicious-looking men appear.
 あ、あれ？　いねえぞ？\nさっきここの角まがってったよな？=Huh? Ain't she here? Didn't she turn at this corner earlier?
 まさか見失ったのか？\nおいおいおい、どーすんだよ……=Could they have lost her? Hey, hey, hey, what do we do...
 むー！？　むー！　むー！=Muu!? Muu! Muu!
@@ -62,4 +62,4 @@ r:"^(.{2,10})が少女をマントの影に隠すと同時に\nあきらかに�
 あばよ！=See you!
 この礼は必ずしてやるですよ～！=I'll definitely repay this favor!
 いたぞ！　追えー！=There they are! Chase them!
-r:"^足をばたつかせながらギャングに小脇に抱えられ逃げていくイノリを\nただただ見送る(.{2,10})であった……$"="$1, flapping her legs, could only watch and sigh as Inori was carried away by the gang..."
+足をばたつかせながらギャングに小脇に抱えられ逃げていくイノリを\nただただ見送る{playername}であった……={playername}, flapping her legs, could only watch and sigh as Inori was carried away by the gang...

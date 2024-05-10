@@ -19,7 +19,7 @@
 あ、わたしたちの名前、覚えてくれたんですね！\nうれしいですっ♪=Ah, you remembered our names!\nThat makes me happy!♪
 この傷は……\n今朝ちょっと、大きな精霊さんに挑んできまして～=These wounds are... from this morning,\nwhen we tried fighting with that big spirit...!
 あの、精霊に……！？=With that spirit...!?
-r:"^ま、コテンパンにやられちゃったけどね。\nやっぱ(.{2,10})の強化なしじゃつらいわねー$"="Well, we got completely beat though.\nIt's really is pretty tough without $1's strengthening."
+ま、コテンパンにやられちゃったけどね。\nやっぱ{playername}の強化なしじゃつらいわねー=Well, we got completely beat though.\nIt's really is pretty tough without {playername}'s strengthening.
 ？　主さま、どこか調子でも崩されているのでしょうか……=Is my Lord perhaps not feeling well...?
 でも、里からちょっとだけ遠ざけることはできましたよ！\nこれで少しは安心して眠れますよね♪=But, we were able to drive it away from the village a little!\nSo you should be able to sleep a bit better now. ♪
 なんという無茶を……！\n……もしや、わたくしのために……？=How reckless of you...!\n...Could that have been, for my sake...?
@@ -61,7 +61,7 @@ r:"^ま、コテンパンにやられちゃったけどね。\nやっぱ(.{2,10}
 そっ、そうよね～っ！\n「なんとかなりますよ☆」とか言いながら突っ込んでいって、\n案の定コテンパンにされるバカなんていないわよね～？=T-That's right! There wouldn't be an idiot here going,\n"It'll work out!☆" as they charge straight at it,\nonly to obviously get beat down by it, would there?
 ……キャルちゃんも「あたしに任せなさいよ！」って言ってたのに～……=...But, Kyaru, you were the one who said, "Leave it to me!"
 役に立てなくてごめん……=I'm sorry I couldn't be of help...
-r:"^いえ、(.{2,10})くんも一緒に戦ってくれましたし！\n強化の力が使えなくったって、\n一緒にいてくれるだけでパワーアップですよ☆$"="Oh no, you helped fight with us, $1!\nEven if you can't use your strengthening power, just being with us is a power up for us☆"
+いえ、{playername}くんも一緒に戦ってくれましたし！\n強化の力が使えなくったって、\n一緒にいてくれるだけでパワーアップですよ☆=Oh no, you helped fight with us, {playername}!\nEven if you can't use your strengthening power, just being with us is a power up for us☆
 え？\n騎士クン……力が使えなくなっちゃったの？=Huh? Kishi-kun...\nYou can't use your power anymore?
 それは困ったね……\nあの力は私たち全員にとって重要なもの。\nあの巨大な精霊を相手取るとすると……=That's troublesome...\nThat power's important to all of us.\nIf we're going to take on that enormous spirit...
 ねぇねぇ、やっぱりランドソル近郊の精霊たちが騒いでる理由って、\nあのでっかい精霊が原因なのかな～？=Hey, hey, is that huge spirit really the reason why the spirits at Landosol's outskirts are acting so flustered?
@@ -72,7 +72,7 @@ r:"^いえ、(.{2,10})くんも一緒に戦ってくれましたし！\n強化�
 幸いにもここは精霊たちと共に生きるというエルフの里。\n里の中をくまなく探せば、\nあの巨大な精霊について記してある文献があるかもしれない。=Fortunately, the Elven Village is known for living together with the spirits. If we search every nook and cranny of the village, we may find literature written about the enormous spirit.
 そうだねっ、里の人にもちゃんと話を聞いてみなきゃ！\nみんなで情報収集しよ～っ！=Right! And we've gotta try asking all the villagers!\nLet's all gather information!
 えぇ～、そういうチマチマしたの苦手なのよね～=Whaaat? I'm no good with incremental tasks like that...
-r:"^あなたはここで、(.{2,10})くんと体を休めててくださいね♪\n調べるのはわたしたちに任せてください☆$"="You and $1 can stay here and rest♪\nLeave investigating to the rest of us☆"
+あなたはここで、{playername}くんと体を休めててくださいね♪\n調べるのはわたしたちに任せてください☆=You and {playername} can stay here and rest♪\nLeave investigating to the rest of us☆
 はい……分かりました。\nすみません、お手伝いできず……=Yes... I understand.\nI'm sorry that I can't be of any help...
 気にしないでくださいっ♪\n困った時は──=Don't worry about it♪\nWe should help each other out-
 お互いさまさま！　だからねっ！=when we're in trouble! After all!

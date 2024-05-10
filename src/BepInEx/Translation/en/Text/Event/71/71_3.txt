@@ -1,6 +1,6 @@
 『警告』が意味するもの=The Meaning Behind the "Warning"
-r:"^合流したアメスから、シナツとアイラに迫る危険を知らされた(.{2,10})たち。二人の無事のために迅速な帰還を促す一行だが、彼女たちは目的をまだ果たしていないと言い、それを拒むのだった。$"=After Ameth met up with $1 and the others, she warned Aira and Shinatsu about the danger that loomed over them. The group urged them to return quickly for the sake of their safety, but they refused, saying they haven't achieved their goal yet.
-r:"^『複製の世界』からやってきたというシナツとアイラ。\n彼女たちの存在に驚く(.{2,10})たちの頭上に、\n突然アメスことフィオが姿を現したのだった。$"=Shinatsu and Aira claimed to have come from a copy of the world. Fio, aka Ameth, suddenly appeared beside $1 and the others, who were surprised by her entrance.
+合流したアメスから、シナツとアイラに迫る危険を知らされた{playername}たち。二人の無事のために迅速な帰還を促す一行だが、彼女たちは目的をまだ果たしていないと言い、それを拒むのだった。=After Ameth met up with {playername} and the others, she warned Aira and Shinatsu about the danger that loomed over them. The group urged them to return quickly for the sake of their safety, but they refused, saying they haven't achieved their goal yet.
+『複製の世界』からやってきたというシナツとアイラ。\n彼女たちの存在に驚く{playername}たちの頭上に、\n突然アメスことフィオが姿を現したのだった。=Shinatsu and Aira claimed to have come from a copy of the world. Fio, aka Ameth, suddenly appeared beside {playername} and the others, who were surprised by her entrance.
 つっかれたぁ～～～\nようやくみんなに追いつけたわよ～=I'm so tired~! I finally caught up to everyone!
 お仕事お疲れさま。=Thanks for your hard work.
 ありがと。\n実際ほんと大変だったんだから……=Thank you. It was honestly really tough...

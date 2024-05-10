@@ -1,7 +1,7 @@
 リンド=Lind
 ヴルム=Wyrm
 ヴォルガーノ=Volgano
-r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べながら旅についての雑談をしていた。国を離れる考えがあまりなかった彼女が手にしたのは旅を後押しするフォーチュンクッキーの結果だった。$"="Lyrael and $1 were chatting about travelling while eating sweets from Landosol. She had never thought of leaving her country before until a result from a fortune cookie changed her mind."
+ライラエルと{playername}は、ランドソルのお菓子を食べながら旅についての雑談をしていた。国を離れる考えがあまりなかった彼女が手にしたのは旅を後押しするフォーチュンクッキーの結果だった。=Lyrael and {playername} were chatting about travelling while eating sweets from Landosol. She had never thought of leaving her country before until a result from a fortune cookie changed her mind.
 裏世界『ジオ・テオゴニア』──\nその地を治めるプリンセス・ライラエル。\n彼女は今日も玉座につき、臣下からの報告に目を通していた。=The Reverse World "Geo Teogonia"── Princess Lyrael is managing this land. Today too, she is sitting on her throne and receiving reports from her subjects.
 ……これで書類はすべて目を通せたでしょうか。\n今回は大きなトラブルの報告はありませんでしたね。\nなによりです。=...With that, I've read all of the documents.\nThankfully, there is no major incidents this time.
 さて、と。\nお仕事も終わりましたし……少しだけお昼寝でもしようかしら。\nふわぁ……=Now with my work being over...\nI wonder if I should take a little break. Fwahh...
@@ -50,7 +50,7 @@ r:"^ライラエルと(.{2,10})は、ランドソルのお菓子を食べなが�
 よいこと……\n何が起きるのでしょう……=Something good... I wonder what that'd be...
 ……はっ。\nわたしとしたことが、つい余計なことを考えてしまいましたね。=...Haah. I'm overthinking this.
 さあ、次はどのお菓子を食べましょう。\n騎士。あなたのおすすめはどちらです？=Now, which sweets are we going to eat next?\nSir Knight, which one do you recommend?
-r:"^数日後──\n(.{2,10})は再びライラエルの元を訪れていた。$"="A few days later, $1 was again visiting Lyrael."
+数日後──\n{playername}は再びライラエルの元を訪れていた。=A few days later, {playername} was again visiting Lyrael.
 騎士。\n今日はどうされましたか。\nまたランドソルのお土産を……？=Sir Knight. What brings you here today?\nIs it more souvenirs from Landosol?
 お手紙を持ってきました。=I've brought a letter.
 ありがとうございます。\nこれは……招待状、でしょうか。\nまあ、珍しいですね。どなたからでしょう……？=Much appreciated, this is... an invitation?\nThat's pretty unusual, who is this from?

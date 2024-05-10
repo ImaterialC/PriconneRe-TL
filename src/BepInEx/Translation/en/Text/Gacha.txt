@@ -33,6 +33,11 @@ Sダッシュ=S:Dash
 火属性 選べる★3確定プラチナガチャ=Guarantee ★3 Fire Platinum Gacha
 水属性 選べる★3確定プラチナガチャ=Guarantee ★3 Water Platinum Gacha
 風属性 選べる★3確定プラチナガチャ=Guarantee ★3 Wind Platinum Gacha
+火属性 ★3確定プラチナガチャ=Guarantee ★3 Fire Platinum Gacha
+水属性 ★3確定プラチナガチャ=Guarantee ★3 Water Platinum Gacha
+風属性 ★3確定プラチナガチャ=Guarantee ★3 Wind Platinum Gacha
+光属性 ★3確定プラチナガチャ=Guarantee ★3 Light Platinum Gacha
+闇属性 ★3確定プラチナガチャ=Guarantee ★3 Dark Platinum Gacha
 
 限定★3確定=Limited ★3\nGuarantee
 限定★3確定ガチャ=Guarantee ★3\nLim gacha
@@ -298,6 +303,7 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 有償ジュエルを消費してガチャを 1 回引きます。\nよろしいですか？=Consume Paid Jewels and draw 1 times.\nIs this OK?
 ---Special Tickets use---
 スペシャル キャラ交換ガチャセット=Special Character Exchange
+GW SPキャラ交換ガチャセット=Golden Week SP Character Exchange Gacha Set
 r:"^([0-9.]+)th Anniv. SPキャラ交換ガチャセット$"=$1th Anniv. Special Character Exchange
 年末年始 SPキャラ交換ガチャセット=New Year's holiday SP Special Character Exchange
 限定＋=Limited+

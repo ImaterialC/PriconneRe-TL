@@ -1,5 +1,5 @@
 祈りの旅路=A Journey of Praying
-r:"^大切な仲間と慣れ親しんだ街に背を向け、一人歩くコッコロ。楽しかった日々のことを振り返りながら、もう戻れない日々に思いを馳せ、(.{2,10})たちの幸せを祈り続けるのであった。$"="Leaving behind the cherished companions and the familiar town, Kokkoro walks alone. Reflecting on the days of joy, she recalls the days she can no longer return to and continues to pray for $1 and the others' happiness."
+大切な仲間と慣れ親しんだ街に背を向け、一人歩くコッコロ。楽しかった日々のことを振り返りながら、もう戻れない日々に思いを馳せ、{playername}たちの幸せを祈り続けるのであった。=Leaving behind the cherished companions and the familiar town, Kokkoro walks alone. Reflecting on the days of joy, she recalls the days she can no longer return to and continues to pray for {playername} and the others' happiness.
 ランドソルから、遠く離れた場所。\n険しい道のりを、少女は一人きりで歩いていた。=At a place, located far, far away from Landosol, a single girl walks along a difficult, uneven path.
 一人でこんなに歩くのは久しぶりです。\n主さまと出会ってからは、ほとんどつかず離れず、\n一緒にいましたから……=It's been a while since I've walked this much alone.\nSince meeting my Lord, I'd spent most of my time with him...
 ランドソルから、随分離れてしまいましたね。=It seems I've come quite far from Landosol.

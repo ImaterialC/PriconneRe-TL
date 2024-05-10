@@ -58,7 +58,7 @@
 この街を……出ようと思います。=I've decided... to leave the city.
 ……その意味が分かってる？\nさっき言ったと思うけど、今、コッコロたんの存在は消えかかってる。=...Do you understand what that means?\nI know I've said it before, but right now,\nyour existence has begun to disappear.
 周りの人たちがコッコロたんのことを忘れていってるのは、そのせい。\nでも、近くにさえいれば。\n……記憶を、思い出を、なんとか繋ぎ止めておくことはできる。=That's the reason why the people around you have begun to forget you. But, if you stay closeby.\n...The recollections, the memories of you can be held back somehow.
-r:"^今、コッコロたんが街を出たら……\n(.{2,10})たちの元を離れてしまったら……$"="If you leave city now...\nIf you leave $1 and the others..."
+今、コッコロたんが街を出たら……\n{playername}たちの元を離れてしまったら……=If you leave city now...\nIf you leave {playername} and the others...
 ギリギリ繋ぎ止めていたあなたとの記憶や思い出は、\n本当になくなってしまうかもしれない。\nなによりも大切な人たちに、忘れられちゃうかもしれないのよ？=The recollections and memories barely being held back,\nwill likely completely disappear.\nYou'd be forgotten by the people most precious to you.
 ……よいのです、アメスさま。=...It's fine, Lady Ameth.
 この力が暴走してしまえば、\n今度こそペコリーヌさまやキャルさま、\n主さまに……大けがをさせてしまうかもしれません。=If this power goes out of control,\nthis time, Miss Pecorine, Miss Kyaru... and my Lord...\nCould be seriously injured.

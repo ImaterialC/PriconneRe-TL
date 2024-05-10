@@ -7,8 +7,8 @@
 おばさん=Aunt
 母親=Mother
 
-r:"^夢の中で、(.{2,10})が出会ったのはどこか人間離れした気配を持つ女性──えるだった。夢の作り主であるティアの力さえも翻弄し、えるは束の間のおままごとを無邪気に楽しむのだった。$"="Inside a dream, $1 met a woman with an unworldly air around her. Even Tia, the dream's creator, was at her mercy while she enjoyed playing house with $1."
-r:"^ある日。\n(.{2,10})は、\nライラエルからお茶に誘われていた。$"="One day, $1 was invited by Lyrael for tea."
+夢の中で、{playername}が出会ったのはどこか人間離れした気配を持つ女性──えるだった。夢の作り主であるティアの力さえも翻弄し、えるは束の間のおままごとを無邪気に楽しむのだった。=Inside a dream, {playername} met a woman with an unworldly air around her. Even Tia, the dream's creator, was at her mercy while she enjoyed playing house with {playername}.
+ある日。\n{playername}は、\nライラエルからお茶に誘われていた。=One day, {playername} was invited by Lyrael for tea.
 ──まぁ、そんなことが……？\nヴォルガーノが花束を渡したという女性と、そのお仲間……\nぜひ一度ご挨拶させていただきたいですね。=Is that so...? The woman who gave a bouquet of flowers to Volgano... I would like to greet them at least once.
 自慢の仲間たちですよ。=She's a proud friend of mine.
 ふふっ……ええ。\n楽しみです。=Fufu... I'm looking forward to it.
@@ -154,4 +154,4 @@ choice
 もちろん、いいですよ。=Of course, I'm fine with that.
 ふふっ、ありがとうございます。=Fufu, I'm glad to hear that.
 『ここ』では、『あなた』と呼ぶわけにもいきませんが……\n共に、夢の続きと参りましょう。\n騎士。=In here, I can't call you "Darling"...\nBut let's continue our dreams together one day, Sir Knight.
-r:"^それぞれの立場を超え、仲を深める(.{2,10})とライラエル。\nやがて訪れる別れの時を予感しながらも、\n今は穏やかな時間を心に刻み込むのだった。$"="$1 and Lyrael deepened their relationships.\nShe can feel that they'd soon be separated, but she cherishes the peaceful time she has together right now."
+それぞれの立場を超え、仲を深める{playername}とライラエル。\nやがて訪れる別れの時を予感しながらも、\n今は穏やかな時間を心に刻み込むのだった。={playername} and Lyrael deepened their relationships.\nShe can feel that they'd soon be separated, but she cherishes the peaceful time she has together right now.

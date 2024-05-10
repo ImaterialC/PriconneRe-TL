@@ -1,6 +1,6 @@
 赤い夜空が告げる異変=The Anomaly Signaled By The Crimson Sky
-r:"^異変の調査へと乗り出した【トゥインクルウィッシュ】と(.{2,10})は、世界を守る赤い霧の精霊の存在を知る。理由も分からないまま精霊に襲われる一行を助けたのは、謎の二人組の女性たちだった。$"=Twinkle Wish and $1, who had set out to investigate the anomaly, learned of the existence of the Spirit of Red Fog that protects the world. The group is attacked by the spirit without knowing why, but are rescued by a mysterious duo of women.
-r:"^ランドソルの夜空が赤く染まった日の翌日。\n(.{2,10})たちはギルド管理協会へと向かっていた……$"=The day after the night sky of Landosol turned red, $1 and the others were heading to the Guild Management Association...
+異変の調査へと乗り出した【トゥインクルウィッシュ】と{playername}は、世界を守る赤い霧の精霊の存在を知る。理由も分からないまま精霊に襲われる一行を助けたのは、謎の二人組の女性たちだった。=Twinkle Wish and {playername}, who had set out to investigate the anomaly, learned of the existence of the Spirit of Red Fog that protects the world. The group is attacked by the spirit without knowing why, but are rescued by a mysterious duo of women.
+ランドソルの夜空が赤く染まった日の翌日。\n{playername}たちはギルド管理協会へと向かっていた……=The day after the night sky of Landosol turned red, {playername} and the others were heading to the Guild Management Association...
 みんな、不安そうだね……=Everyone looks so worried...
 戸惑うのも無理はないよ。\n夜空が赤くなったと思えば、今度はいつも通りの朝が来たんだから。=I can't blame them for being anxious. Just when we saw the night sky had turned red, the color returned to normal the very next morning.
 確実に異変が起きているにも関わらず\n表立った変化といえば、赤い夜空と奇妙な音だけ。\n心の置きどころにも困るはずだよ。=Despite the fact that something is obviously wrong, the only noticeable changes were the red night sky and strange noises. It must be difficult to find peace in this situation.
@@ -18,7 +18,7 @@ r:"^ランドソルの夜空が赤く染まった日の翌日。\n(.{2,10})た�
 おにぎり？\nえっと、お腹は空いてないけど……=Onigiri? Um, I'm not hungry, but...
 あっ……！\nもしかして、そんな顔してたの？\nううぅ、どんな顔してたんだろう、わたし……！=Ah...! Did I look like I was?\nUuu, what kind of face was I making...!?
 ……まだ、みんなには言わないようにしよう。\nわたしの勘違いかもしれないし……=...I shouldn't bring this up with the others.\nI might just be mistaken...
-r:"^(.{2,10})たちがギルド管理協会を訪れると\n建物の中には冒険者と職員たちが忙しなく動き回っていた……$"=When $1 and the others visited the Guild Management Association, adventurers and staff alike were hurriedly moving around inside the building...
+{playername}たちがギルド管理協会を訪れると\n建物の中には冒険者と職員たちが忙しなく動き回っていた……=When {playername} and the others visited the Guild Management Association, adventurers and staff alike were hurriedly moving around inside the building...
 あっ、みなさん！\nお疲れさまです。\nすみません、急にお呼びだてしてしまって……=Ah, everyone! Thank you for your hard work.\nI'm sorry for calling you out so suddenly...
 大丈夫ですよ！\n困った時は、お互いさまさまですから！=Don't worry! I scratch your back, you scratch mine!
 依頼の内容は、赤い夜空に関する情報収集や調査の協力ですよね。=I understand that the request is to help gather information and conduct research on the red night sky.
@@ -29,7 +29,7 @@ r:"^(.{2,10})たちがギルド管理協会を訪れると\n建物の中には�
 助かります！\n現時点での情報は……こちらの資料にまとめてあります。\nどうぞ。=That'd be a great help!\nA summary of the information we have can be found... in these documents. Here you go.
 ありがとうございます。\n確認します。=Thank you very much. I'll review them throughly.
 とにかく少しでも情報が欲しい状況ですので\n内容は多岐に……というか雑多になってしまっていると思います。\n読みにくいかもしれませんが、ご容赦くださいね。=Anyway, we needed a lot of information quickly, so the documents cover a diverse range of topics... Though, it might be better to say the info we have is scattered. Please forgive us if you have issues making sense of it.
-r:"^ギルド管理協会をあとにした(.{2,10})たちは\nギルドハウスに向かいながら、受け取った資料を確認していた。$"=Leaving the Guild Management Association behind, $1 and the others were checking the documents they'd received while making their way to the guildhouse.
+ギルド管理協会をあとにした{playername}たちは\nギルドハウスに向かいながら、受け取った資料を確認していた。=Leaving the Guild Management Association behind, {playername} and the others were checking the documents they'd received while making their way to the guildhouse.
 えっと……\n魔物が興奮した様子で暴れていたので追い返した……\n混乱に乗じて現れた強盗が捕まった……=Let's see here... The monster seemed to be rampaging in excitement, so I chased it away... A robber tried to take advantage of the chaos and was swiftly apprehended...
 寝つきが悪くなって寝不足になった……\n別に空が赤くても目をつぶってれば気にならない……\nえ、こういう情報も入ってるの？=I'm having trouble falling asleep... I don't really care if the sky is red as long as I can get some shut-eye... Huh? There's information like this in here too?
 確かに雑多だ……=It's certainly scattered...
@@ -66,7 +66,7 @@ r:"^ギルド管理協会をあとにした(.{2,10})たちは\nギルドハウ�
 とりあえず、このことはフィオにも伝えておくわ。\nみんなが帰ってくる場所は、私が守ってあげるから。\nがんばってきなさいよ。=In the meantime, I'll let Fio know about this. I'm going to protect the place you all call home. Good luck.
 よろしく。\nそういえば、フィオから何か連絡はあった？=I appreciate that.\nBy the way, have you heard anything from Fio recently?
 連絡っていうか……ほとんど愚痴よ。\n赤い空のせいで、仕事が一気に増えたみたい。\nホント、塔の責任者代行も大変よね～。権限たいして増えてないのに。=Not really anything as much as... complaining. Thanks to that red sky, her workload has shot up all of a sudden. Honestly, it's tough work being in charge of the tower, y'know. And her authority hasn't changed much either.
-r:"^かくしてランドソルを旅立った(.{2,10})たち。\n数日後、カリンから得た資料に記載のあった村に到着した彼らは\n村の人々に聞き込みをすることにした。$"=And so, $1 and the others departed from Landosol. A few days later, they arrived at the village described in Karin's documents and started questioning the villagers.
+かくしてランドソルを旅立った{playername}たち。\n数日後、カリンから得た資料に記載のあった村に到着した彼らは\n村の人々に聞き込みをすることにした。=And so, {playername} and the others departed from Landosol. A few days later, they arrived at the village described in Karin's documents and started questioning the villagers.
 ああ、確かに見たよ！\nありゃあ空が赤かったからじゃねぇ……\n霧そのものが赤かったんだ！=Yeah, I saw it! It wasn't the sky that was red...\nThe fog itself was red!
 ほら、普通の霧ってのはこう、もや～……っと広がるだろ？\nでも、あの霧はそうじゃねぇんだ！=See, normal fog spreads like... thiiis doesn't it?\nBut this fog ain't like that!
 こうな、木の間をするするする～っと！\n動いてるように見えたんだよ！\nまるで、でっかいヘビかなんかみてぇによぉ……！=It was like this, slithering through the trees! It looked like it was moving! It was like a big snake or something...!
@@ -92,7 +92,7 @@ r:"^かくしてランドソルを旅立った(.{2,10})たち。\n数日後、�
 レイちゃん！\nヒヨリちゃん！=Rei! Hiyori!
 だ、大丈夫！\nなんとかガードは間に合ったから……！=I-I'm fine! I managed to guard it in time...!
 しかし、どういうことだ？\n世界を守るはずの精霊が攻撃をしかけてくるなんて……！=But what does it mean?\nWhy is a spirit responsible for protecting the world attacking us...!?
-r:"^迷っているヒマはなさそうだな……\n今はここを切り抜けることが先決だ！\n(.{2,10})、強化を頼む！$"=Looks like we don't have time to hesitate...\nRight now, our priority is getting through this! $1, strengthen us!
+迷っているヒマはなさそうだな……\n今はここを切り抜けることが先決だ！\n{playername}、強化を頼む！=Looks like we don't have time to hesitate...\nRight now, our priority is getting through this! {playername}, strengthen us!
 ありがとう、騎士くん！\nよーしっ！\nうにゃにゃにゃにゃにゃー！！=Thank you, Kishi-kun!\nAlright! Nya nya nya nya nyaaa!!
 くぅ～！\n手ごたえが全然ないよーっ！=Ugh!\nI can't land a single hit!
 きゃっ！？\nな、何も見えない……！！=Kya!?\nI-I can't see anything...!!
@@ -101,7 +101,7 @@ r:"^迷っているヒマはなさそうだな……\n今はここを切り抜�
 大丈夫、しのいだ！\n霧に紛れて攻撃してくる！=Don't worry, I drove it off!\nIt attacks under the cover of the fog!
 やっぱり、そう来るよ──\nねっ！=I knew it! That's how it works... right!
 この声……！\n今度はヒヨリちゃんが攻撃されたの？\nどうして二人ばっかり……！？=This voice...! Hiyori was targeted this time?\nWhy is it just those two...!?
-r:"^(.{2,10})たちが赤い霧に包まれ、\n見えない敵に苦戦している頃……\nその様子を眺める二人の人物がいた。$"=While $1 and the others were engulfed in the red fog, struggling against an invisible enemy... there were two people watching them.
+{playername}たちが赤い霧に包まれ、\n見えない敵に苦戦している頃……\nその様子を眺める二人の人物がいた。=While {playername} and the others were engulfed in the red fog, struggling against an invisible enemy... there were two people watching them.
 あははははは！\nいやー、あれはちょ～っとやりづらいねぇ？=Ahahaha! Man, that's a bit tough, isn't it?
 パーンチ！　スカッ！\nキーック！　ミスッ！\nって感じだし？=Punch, slide! Kick, miss! Is that what it's like?
 しっかし、あの霧ちゃんもマジメだかなんだか分かんないよね～？\n狙う相手を徹底的に排除！　排除！！　排除！！！\nってするのは百歩譲っていいんだけどさー……=Still, I can't tell if Fog-chan's serious or not, can you~? You'd expect it to be going straight for the target going all: Exterminate! Exterminate!! Exterminate!!! I don't really care if it gets that hostile, but even if it did...

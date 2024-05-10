@@ -1,9 +1,9 @@
 女性=Woman
 アクドーイ=Krook
 猫たち=Cats
-^ねえ(.{2,10})！$"Hey, $1!
-r:"^捕らわれていたタマキを脱出させた([\s\S]{2,10})。実はファントムキャッツが捕らえられた一連の事件は、悪徳商人アクドーイの陰謀だった。タマキたちはアクドーイを倒し、その金を町中にばらまく。$"=$1, who had escaped with Tamaki, who had been captured. In fact, the series of incidents in which the Phantom Cat were captured was a conspiracy of the Krook'd & Co. Tamaki and her friends defeated Krook and scattered his money all over the town.
-r:"^悪党「アクドーイ商会」を倒したタマキに促され、\n泥棒の犯行予告があった家の\n用心棒になった(.{2,10})。$"="$1, who was urged by Tamaki, who had defeated the villain "Krook'd & Co", became a guard at the house where there was a notice of a thief's crime."
+ねえ{playername}！=Hey, {playername}!
+捕らわれていたタマキを脱出させた{playername}。実はファントムキャッツが捕らえられた一連の事件は、悪徳商人アクドーイの陰謀だった。タマキたちはアクドーイを倒し、その金を町中にばらまく。={playername}, who had escaped with Tamaki, who had been captured. In fact, the series of incidents in which the Phantom Cat were captured was a conspiracy of the Krook'd & Co. Tamaki and her friends defeated Krook and scattered his money all over the town.
+悪党「アクドーイ商会」を倒したタマキに促され、\n泥棒の犯行予告があった家の\n用心棒になった{playername}。={playername}, who was urged by Tamaki, who had defeated the villain "Krook'd & Co", became a guard at the house where there was a notice of a thief's crime.
 実際に泥棒を捕まえてみたところ、それはタマキだった。\nタマキは何かの間違いだと言うが、美少女義賊・\nファントムキャッツの正体は衆目に晒されてしまう。=When he actually caught the thief, it was Tamaki. Tamaki said it was a mistake, but the identity of the beautiful girl thief Phantom Cat was exposed to everyone.
 タマキはそのまま王宮騎士団に連行されていったが、\n王宮騎士団の去った後にはなぜか、\n「アクドーイ商会」の名刺が落ちていたのだった。=Tamaki was taken away by the Royal Knights, but after the Royal Knights left, there was a business card of "Krook'd & Co" lying on the ground.
 おい、聞いたか、ファントムキャッツのこと。\n善良な人の家に泥棒に入って\n王宮騎士団に捕まったって噂が……=Hey, did you hear about the Phantom Cat? They broke into a good person's house and were caught by the Royal Knights...
@@ -13,29 +13,29 @@ r:"^悪党「アクドーイ商会」を倒したタマキに促され、\n泥�
 街全体に、堕ちた義賊・ファントムキャッツの話題が\n広まり始めたその夜──=The whole town started to talk about the fallen righteous thief Phantom Cat that night──
 ……タマキ。=...Tamaki.
 ……にゃ？　独房の外から声が聞こえてくるにゃ……=...nya? I hear a voice from outside the cell...
-r:"^この声は……(.{2,10})！？\nどうしてここに……$"=This voice is...$1!?\nHow did you get here...
+この声は……{playername}！？\nどうしてここに……=This voice is...{playername}!?\nHow did you get here...
 あたしと話に来た……？\nそっか……わざわざあたしと話すために、\n留置所まで来てくれたにゃんて……=You came to talk to me...? I see...you came all the way to the detention center to talk to me...
-r:"^もう、あたしは(.{2,10})と話せないかもしれないから……\n今までのこと、全部謝っておくにゃ。$"=Maybe I won't be able to talk to $1 anymore...\nso I'll apologize for everything I've done so far.
+もう、あたしは{playername}と話せないかもしれないから……\n今までのこと、全部謝っておくにゃ。=Maybe I won't be able to talk to {playername} anymore...\nso I'll apologize for everything I've done so far.
 ……義賊のこと、今まで色々黙っててごめんにゃ。\nそれから結果的にキミに片棒を担がせてたことも……=...I'm sorry for keeping quiet about the righteous thief thing.\nAnd for making you take part in it...
 あたし、最近うまくいきすぎて、\n調子に乗ってたのかもしれないにゃ……=I think I might have gotten carried away lately...
 そのせいで、よく調べもせずに、\n無実の人の家に泥棒に入ってしまったにゃ……=Because of that, I broke into an innocent person's house without checking it out...
-r:"^今思えば、あの時(.{2,10})が止めてくれて\n本当によかったのにゃ。ていうか、キミの言うことを聞いて、\n慎重に活動してれば、もっとよかったのにゃ……$"=Now that I think about it~nya, it was really good that $1 stopped me then~nya. Or rather, if I had listened to you and acted carefully~nya, it would have been better~nya...
+今思えば、あの時{playername}が止めてくれて\n本当によかったのにゃ。ていうか、キミの言うことを聞いて、\n慎重に活動してれば、もっとよかったのにゃ……=Now that I think about it~nya, it was really good that {playername} stopped me then~nya. Or rather, if I had listened to you and acted carefully~nya, it would have been better~nya...
 本当にごめんにゃ……\nもしかしたら、以前のことも遡って、\nキミにも責任が追及されるかもしれないにゃ。=I'm really sorry...maybe they'll go back and hold you responsible too.
-r:"^でも、安心してほしいのにゃ。\nなんとかして、(.{2,10})はこの先、\n罪に問われることのないよう努力するのにゃ。$"=But don't worry~nya.\nI'll do my best to make sure you don't get in trouble for this, $1~nya.
+でも、安心してほしいのにゃ。\nなんとかして、{playername}はこの先、\n罪に問われることのないよう努力するのにゃ。=But don't worry~nya.\nI'll do my best to make sure you don't get in trouble for this, {playername}~nya.
 ぜんぶ、ぜーんぶあたしが悪いって……\n裁判でも、そう証言するのにゃ。\nだから──=I'll testify in court that I work alone~nya. So──
-r:"^だから、この会話の後から、(.{2,10})は……\nあたしと、無関係の人間になるにゃ。$"=So from after this conversation~nya, $1...you'll be unrelated to me~nya.
+だから、この会話の後から、{playername}は……\nあたしと、無関係の人間になるにゃ。=So from after this conversation~nya, {playername}...you'll be unrelated to me~nya.
 今までいろいろ、お世話になったにゃ。=Thank you for everything you've done for me~nya.
 思い返せば、キミには助けられてばっかりだったにゃ。\n初めて会った時も……子猫がいなくなった時も……\nあたしが義賊をしてたときも……=When I think back, you've always helped me~nya. The first time we met~nya...when the kitten disappeared~nya...when I was a righteous thief~nya...
-r:"^ねえ、(.{2,10})。\n今まで、(.{2,10})と過ごした時間、楽しかったにゃ。$"=Hey, $1. I had fun spending time with you~nya.
+ねえ、{playername}。\n今まで、{playername}と過ごした時間、楽しかったにゃ。=Hey, {playername}. I had fun spending time with you~nya.
 ……ありがとうにゃ……=...Thank you~nya...
-r:"^それじゃあ、あと３秒で\n(.{2,10})はあたしと無関係になるにゃ。３、２、１……$"=Well then, in 3 seconds $1 and I will become stranger~nya. 3, 2, 1...
+それじゃあ、あと３秒で\n{playername}はあたしと無関係になるにゃ。３、２、１……=Well then, in 3 seconds {playername} and I will become stranger~nya. 3, 2, 1...
 手に握っている物を壁に投げつける。=Throw something at the wall.
 にゃふっ？\nにゃーーーっ！？=Nya-fu?\nNya-ah!
 けほっ、にゃふっ！\nな、なにが起きたのにゃ……！？=Cough~nya-fu! What happened~nya...!?
 これは……留置所の壁が……=This is...the wall of the detention center...
-r:"^(.{2,10})っ……！\nもしかして、助けてくれたにゃ……？$"=$1...!\nDid you save me~nya...?
+{playername}っ……！\nもしかして、助けてくれたにゃ……？={playername}...!\nDid you save me~nya...?
 すんすん……この匂いは、火薬……？\nもしかして爆弾で、牢を爆破したのにゃ……？=Sniff sniff...this smell is gunpowder...?\nDid you blow up the cell with a bomb~nya...?
-r:"^(.{2,10})のばかばかっ！\n壁を壊してまで留置場からあたしを脱走させて……$"=You idiot $1! You broke the wall and made me escape from the detention center...
+{playername}のばかばかっ！\n壁を壊してまで留置場からあたしを脱走させて……=You idiot {playername}! You broke the wall and made me escape from the detention center...
 場合によっては、キミもお尋ね者になるかもしれないにゃ。\nそれでも……よかったのにゃ！？=Depending on the situation, you might become a wanted person too~nya. Even so...was it okay~nya!?
 ……え？\n後ろを見ろって……あーっ！　ここは！=...Huh? Look behind...ah! This is!
 この前、あたしが盗みに入った屋敷……\nアクドーイ商会の屋敷にゃ！=The mansion I broke into before...the mansion of Krook'd & Co.~nya!
@@ -53,9 +53,9 @@ r:"^(.{2,10})のばかばかっ！\n壁を壊してまで留置場からあた�
 ……確かに、こないだのあたしは、\nうっかり間違えてしまったかもしれないにゃ。=...It's true, maybe I made a mistake the other day~nya.
 ……でも、これからのあたしには\n今までと違うことがあるのにゃ。=...But, there's something different about me now~nya.
 ……今までと違うこと、ですか……？\nなんですか、それは！=...Something different, you say...? What is it!
-r:"^それは、あたしのそばには(.{2,10})が\nいてくれるってことにゃ！　確かに、あたしは気まぐれだし、\nよく考えないで突っ走っちゃうこともあるかもしれないにゃ。$"=It's that $1 is by my side~nya! It's true, I'm whimsical and I often rush without thinking~nya.
+それは、あたしのそばには{playername}が\nいてくれるってことにゃ！　確かに、あたしは気まぐれだし、\nよく考えないで突っ走っちゃうこともあるかもしれないにゃ。=It's that {playername} is by my side~nya! It's true, I'm whimsical and I often rush without thinking~nya.
 あたし一人なら間違いもあるかもしれないけど……でも……！=I might make mistakes if I'm alone, but... but...!
-r:"^でも、(.{2,10})がそばにいてくれるなら……！\n二人なら違うにゃ！$"=But as long as $1 is by my side...! It's different if we're together~nya!
+でも、{playername}がそばにいてくれるなら……！\n二人なら違うにゃ！=But as long as {playername} is by my side...! It's different if we're together~nya!
 それに、もし二人とも間違ってても、\n一緒に地獄に落ちる覚悟はできてるにゃ！=And even if we're both wrong, we're ready to fall into hell together~nya!
 くそ……こわっぱがああっ！\n死になさいっ！！=Damn... you brat! Die!!
 タマキ、危ない！=Tamaki, watch out!
@@ -63,16 +63,16 @@ r:"^でも、(.{2,10})がそばにいてくれるなら……！\n二人なら�
 大丈夫にゃ！\nよっ、と！=It's okay~nya!\nHere we go!
 にゃ、にゃ、にゃっ！\nこれで……どうにゃ！=Nya~nya~nya! How about this...~nya!
 ぐっ……！？　は、離しなさい！=Guhh...!? L-let go of me!
-r:"^(.{2,10}?)、今にゃ！$"=$1, now~nya!
+{playername}、今にゃ！={playername}, now~nya!
 っがはっ……！　こん、な……バカな……=Gahh...! Th-this... can't be...
-r:"^ナイスにゃ、$1。\nアクドーイは気絶したようだにゃ。\nいまのうちにずらかるにゃ！$"=Nice one, $1. Krook seems to have fainted~nya. Let's get out of here while we can~nya!
-r:"^あっ……そうだ、どうせなら……！\nちょっと待っててほしいにゃ、(.{2,10})！$"=Ah... That's right, if you're going to do it...! Please wait a moment, $1, meow!
+ナイスにゃ、{playername}。\nアクドーイは気絶したようだにゃ。\nいまのうちにずらかるにゃ！=Nice one, {playername}. Krook seems to have fainted~nya. Let's get out of here while we can~nya!
+あっ……そうだ、どうせなら……！\nちょっと待っててほしいにゃ、{playername}！=Ah... That's right, if you're going to do it...! Please wait a moment, {playername}, meow!
 …………うんしょっと。ふう。=............there we go.Phew.
 この風呂敷を見るにゃ。\nにゃはは、たっぷり盗んできたにゃ。\nアクドーイ商会の、あくどく貯めたお金にゃ。=Look at this cloth bag~nya.~nyaha, we stole a lot of money from Krook'd & Co. The money they accumulated by shady means.
 これをばらまけば、アクドーイも痛い目を見て、\n街のみんなも喜ぶにゃ！　だから、ばらま……あっ！=If we scatter this around, Krook will suffer and everyone in town will be happy! So let's scatter it... ah!
-r:"^これをばらまいても……いいかにゃ？　(.{2,10})？$"=Is it okay to scatter this around...~nya? $1?
+これをばらまいても……いいかにゃ？　{playername}？=Is it okay to scatter this around...~nya? {playername}?
 派手に行こう！=Let's go wild!
-r:"^……ありがとにゃ、(.{2,10})。\nそれじゃあ、行くにゃ！$"=...Thank you, $1.\nell then, let's go!
+……ありがとにゃ、{playername}。\nそれじゃあ、行くにゃ！=...Thank you, {playername}.\nell then, let's go!
 さあ、みんな！\nこのお金を、好きなだけばらまくにゃ！=Come on, everyone!\nLet's spread this money as much as we want!
 にゃー！=Nya!
 よしよし！\nそれじゃあみんな、行くにゃ！=Alright! Then let's go everyone!
@@ -83,7 +83,7 @@ r:"^……ありがとにゃ、(.{2,10})。\nそれじゃあ、行くにゃ！$"
 何かと気まぐれで、早とちりで……\n間違いを起こすあたしだけど……=I'm whimsical and hasty and make mistakes sometimes...
 ……これからもよろしく頼むにゃ！=...But please take care of me from now on too!
 
-r:"^笑顔で言うタマキとともに、\n(.{2,10})は残りの金をばらまくために、\n夜の街を駆けるのだった。$"=With Tamaki smiling at his side, $1 ran through the night town to scatter the rest of the money.
+笑顔で言うタマキとともに、\n{playername}は残りの金をばらまくために、\n夜の街を駆けるのだった。=With Tamaki smiling at his side, {playername} ran through the night town to scatter the rest of the money.
 
 
 

@@ -2,7 +2,7 @@
 参加者１=Contestant 1
 参加者２=Contestant 2
 
-r:"^決闘大会当日、モニカは身長制限に引っかかり出場が認められない。モニカは怒って暴れてしまい、警備員につまみ出されてしまう。しゅんとするモニカだが(.{2,10})と話して本来の目標を思い出す。$"=On the day of the duel tournament, Monika is disqualified due to a height restriction. She gets angry and causes a scene, getting escorted out by security. Feeling down, Monika talks with $1 and remembers her true goal.
+決闘大会当日、モニカは身長制限に引っかかり出場が認められない。モニカは怒って暴れてしまい、警備員につまみ出されてしまう。しゅんとするモニカだが{playername}と話して本来の目標を思い出す。=On the day of the duel tournament, Monika is disqualified due to a height restriction. She gets angry and causes a scene, getting escorted out by security. Feeling down, Monika talks with {playername} and remembers her true goal.
 
 モニカが出場することにした決闘大会、当日。=The day of the duel tournament where Monika decided to participate.
 ……さ、さぁ、ついにこの日がきたな！=...Well, the day has finally come!
@@ -45,7 +45,7 @@ r:"^決闘大会当日、モニカは身長制限に引っかかり出場が認�
 う……うぐ、ぐぬぬ……！\nだから、私は子供ではない！\n子供、子供、といい加減にしろぉおおお！！=Uh... Ugh, grr... I'm not a child, I said! Stop with this child, child nonsense!!
 う、うわぁ！\n暴れ出したぞ！？\n誰か、止めろー！！=Uh, uh-oh! She's causing a scene! Someone, stop her!!
 止めに入る。=Intervening.
-r:"^(.{2,10})……見ていたのか！？\n止めてくれるな！\n私はこいつらに引導を渡さねばならないっ！$"=$1... Did you hear that?\nDon't stop me!\nI must teach them a lesson!
+{playername}……見ていたのか！？\n止めてくれるな！\n私はこいつらに引導を渡さねばならないっ！={playername}... Did you hear that?\nDon't stop me!\nI must teach them a lesson!
 し、失格！　しっかーく！！\n警備を呼んでくれ！\n強制退場させるんだー！=D-Disqualified! Quiet down!! Call security and make them leave!!
 す、すまない……\nせっかく貴公が特訓に付き合ってくれたのに、\nこんな結果になってしまった……=I-I'm sorry... Despite you accompanying me in training, it ended up like this...
 謝らなくてもいい。=You don't have to apologize.
@@ -55,11 +55,11 @@ r:"^(.{2,10})……見ていたのか！？\n止めてくれるな！\n私はこ
 ……言われてみれば、私の目標はそうではないな。=...Now that you mention it, that wasn't my goal.
 誇り高きヴァイスフリューゲルの一員として、\n立派な軍人になる！\nそれこそが、私の目標だ！=My goal is to become a proud member of Weissflügel and a splendid soldier! That's my true goal!
 
-r:"^一番の目標を失念するところだった。\n(.{2,10})、感謝するぞ。$"=I almost forgot my main objective.\nThank you, $1.
+一番の目標を失念するところだった。\n{playername}、感謝するぞ。=I almost forgot my main objective.\nThank you, {playername}.
 
-r:"^では、真の目標のために、\nこれからも二人でがんばるぞ！\nさあ、帰ろう、(.{2,10})！$"=So, for the sake of our true goal, let's keep doing our best together from now on!\nNow, let's go back, $1!
+では、真の目標のために、\nこれからも二人でがんばるぞ！\nさあ、帰ろう、{playername}！=So, for the sake of our true goal, let's keep doing our best together from now on!\nNow, let's go back, {playername}!
 
-r:"^(.{2,10})の言葉に、気持ちを新たにするモニカであった。$"=With $1's words, Monika's spirit is revitalized.
+{playername}の言葉に、気持ちを新たにするモニカであった。=With {playername}'s words, Monika's spirit is revitalized.
 
 
 

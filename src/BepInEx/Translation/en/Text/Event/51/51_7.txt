@@ -1,5 +1,5 @@
 
-r:"^採取したキノコはアストライア茸ではなく、魔物の菌糸だったことが分かる。アオイは、自分たちを心配してキャンプ場まで来た(.{2,10})に感謝し、勇気を出してグループキャンプに誘うのだった。$"=They realized that the mushrooms they collected were not Astraea mushrooms, but fungal filaments of monsters. Aoi thanked $1, who came to the campsite to worry about them, and gathered her courage to invite her to the group camp.
+採取したキノコはアストライア茸ではなく、魔物の菌糸だったことが分かる。アオイは、自分たちを心配してキャンプ場まで来た{playername}に感謝し、勇気を出してグループキャンプに誘うのだった。=They realized that the mushrooms they collected were not Astraea mushrooms, but fungal filaments of monsters. Aoi thanked {playername}, who came to the campsite to worry about them, and gathered her courage to invite her to the group camp.
 
 ううっ……\n私たちがキノコを食べている間に、たき火が消えちゃってました……=Ugh... The fire went out while we were eating mushrooms...
 
@@ -23,11 +23,11 @@ r:"^採取したキノコはアストライア茸ではなく、魔物の菌糸�
 ……私がずっとやっていたひとりぼっちのキャンプには、\nぼっちキャンプでしか味わえない楽しさが……=...My solo camping had its own fun that only solo camping could offer...
 ユカリさんとジュンさんとする３人のグループキャンプには、\nそれでしか味わえない楽しさが……=The group camping with Yukari-san and Jun-san had its own fun that only it could offer...
 
-r:"^ということは……\n(.{2,10})さんが加わった４人のグループキャンプにも、\n今まで味わったことのない楽しさがあるんじゃないかって思うんです！$"=That means... Maybe there's a new kind of fun in group camping with $1-san joining us!
+ということは……\n{playername}さんが加わった４人のグループキャンプにも、\n今まで味わったことのない楽しさがあるんじゃないかって思うんです！=That means... Maybe there's a new kind of fun in group camping with {playername}-san joining us!
 
 きっと、日常生活では感じられない気持ちよさや、\n普段だったら恥ずかしくて話せないことだって、\n語り合えたりするんじゃないかって……！=I’m sure we’ll be able to talk about how good it feels in our daily lives, and how embarrassing it would be to talk to each other under normal circumstances...!
 
-r:"^だから、(.{2,10})さん、どうでしょうか？\n……わ、私たちと一緒にキャンプ……しましょう？$"=So, $1-san, what do you think?  ...W-Would you like to camp with us?
+だから、{playername}さん、どうでしょうか？\n……わ、私たちと一緒にキャンプ……しましょう？=So, {playername}-san, what do you think?  ...W-Would you like to camp with us?
 
 よろこんで！=Gladly!
 ……っ！　ありがとうございます！\nあなたも一緒なら、きっと……いえ、絶対に楽しいキャンプになります！=...! Thank you! If you're with us, I'm sure... no, it will definitely be a fun camp!
@@ -56,7 +56,7 @@ r:"^だから、(.{2,10})さん、どうでしょうか？\n……わ、私た�
 もちろん、私だけがこうしてのんびりとしていては意味がない。\n慰安を兼ねて、団員たちともキャンプを催してみたいな。=Of course, it doesn't make sense if I'm the only one relaxing like this. As a morale booster, I also want to have a camp with my group members.
 みんな、いい過ごし方をしてるね。=Everyone's having a good time.
 
-r:"^(.{2,10})さんも、\nあなただけの楽しいキャンプの過ごし方を見つけてくださいね？$"=$1-san, please find your own enjoyable way of camping too?
+{playername}さんも、\nあなただけの楽しいキャンプの過ごし方を見つけてくださいね？={playername}-san, please find your own enjoyable way of camping too?
 
 たき火にあたって自分を見つめ直すのもよし、\n普段話せないようなことを打ち明けるのもよし、\nなんでも自由に過ごしちゃってください！=It's fine to reflect on yourself by the fire, or to confide in things you can't normally talk about, or to do whatever you want!
 そのためにお手伝いできることなら、\n私は全力でがんばっちゃいますから！=If there's anything I can do to help you with that, I'll do my best!
@@ -65,13 +65,13 @@ r:"^(.{2,10})さんも、\nあなただけの楽しいキャンプの過ごし�
 ユカリさんとジュンさんは、恐れ多くて友達とは呼べませんが、\nキャ、キャンプ仲間だと思っています。=I can't call Yukari-san and Jun-san friends because they're too awesome, but they're my... my camp buddies.
 私ひとりぼっちじゃ大したことはできないかもしれません……=I might not be able to do much by myself...
 
-r:"^でも、キャンプ仲間が一緒なら、\n(.{2,10})さんも楽しんでもらえるんじゃないかって。$"=But if I have camp buddies with me, maybe $1-san will enjoy it too.
+でも、キャンプ仲間が一緒なら、\n{playername}さんも楽しんでもらえるんじゃないかって。=But if I have camp buddies with me, maybe {playername}-san will enjoy it too.
 
 キャンプ仲間……いい響きね。\n飲み仲間とはまた違う居心地のいい関係だわ。=Camp buddies... it sounds nice. It's a different kind of cozy relationship from drinking buddies.
 ああ、そうだね。\nお互いに肩肘張らずに向き合える仲だ。=Yeah, that's right. We can face each other without being stiff.
 えへへ、そう言ってもらえて安心しました。\n私も……キャンプ仲間ができてうれしいですっ！=Ehehe, I'm glad you said that. I'm also... happy to have camp buddies!
 
-r:"^(.{2,10})さんとは、ＢＢ団の同志であり、\nキャンプ仲間にもなりたいですっ！$"=I want to be comrades with $1-san in the BB group and camp buddies too!
+{playername}さんとは、ＢＢ団の同志であり、\nキャンプ仲間にもなりたいですっ！=I want to be comrades with {playername}-san in the BB group and camp buddies too!
 
 うん、よろしく！=Yeah, nice to meet you!
 …………ねえ、いい話の最中に悪いんだけど……\nそろそろご飯の準備しない？=...Hey, sorry to interrupt a good conversation... but isn't it time to prepare dinner?
@@ -84,7 +84,7 @@ r:"^(.{2,10})さんとは、ＢＢ団の同志であり、\nキャンプ仲間�
 それもそうだね。少年も合流したことだし、改めて食事にしようか。\n今度はキノコ無しでね。=That makes sense. Now that the boy has joined us, let's have a meal again. This time without mushrooms.
 それじゃあキャンプ飯にしましょう！\nみなさんのために、腕を振るいますよ！=Then let's have camp food! I'll show you my skills for everyone!
 
-r:"^楽しい食事を済ませた(.{2,10})たちは、\n食後の歓談をしていた──$"=After enjoying a delicious meal, $1 and her friends were chatting after dinner...
+楽しい食事を済ませた{playername}たちは、\n食後の歓談をしていた──=After enjoying a delicious meal, {playername} and her friends were chatting after dinner...
 まずはこのおつまみを食べて=First of all, eat this snack
 それから、この麦しゅわを～=And then drink this Barley Soda~
 おおー！　なんとー！=Ohhh! What a....!

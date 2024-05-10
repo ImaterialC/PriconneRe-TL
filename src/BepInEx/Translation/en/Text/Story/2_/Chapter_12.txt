@@ -1,10 +1,10 @@
-r:"^世界の運命を賭けたゲーム勝負を乗り切ったものの、\n戦いの連続で満身創痍となる(.{2,10})たち。\n彼らはラビリスタの要請で、ランドソルを脱出しようとしていた。$"="Despite having made it through the game of the fate of the world, $1 and the others were still covered in wounds from the series of battles. They were trying to escape Landosol at Labyrista’s request."
+世界の運命を賭けたゲーム勝負を乗り切ったものの、\n戦いの連続で満身創痍となる{playername}たち。\n彼らはラビリスタの要請で、ランドソルを脱出しようとしていた。=Despite having made it through the game of the fate of the world, {playername} and the others were still covered in wounds from the series of battles. They were trying to escape Landosol at Labyrista’s request.
 どこまでも、どこまでも……\n枝道や出口もなく、一本道が真っ直ぐに続いておりますね。=Endlessly, endlessly... There are no side paths or exits, just a straight path that continues.
 ランドソルの地下深くに、こんな道を作っちゃうなんて。\nやっぱりラビリスタさん、すごいね！=To create a path like this deep underground in Landosol... Labyrista is truly amazing, after all!
 ああ。それに……\nここならばひとまずは安全、と思っていいのだろうか。\n今クリスティーナやネネカから攻撃されたら、ひとたまりもないが……=Ah, and... Can we consider this place safe for now? If we were attacked by Christina or Neneka here, we'd be in big trouble...
 ……キャルちゃん？\nどうしたんですか、さっきから何度も後ろを振り返って。=...Kyaru? What's wrong? You've been looking back and forth this whole time.
 もしや、何者かが後をつけてきていたり、\nあやしげな魔力を感じる……などでしょうか？=Could it be that someone is following us, or you sense some suspicious magic... Is that it?
-や、そういうわけじゃないんだけどね。\nこの地下道、普通に歩いてるぶんには違和感ないけど……\n岩肌の向こうの空間が、ちょっとずつ歪んじゃってるみたいなのよね。=Oh, it's not exactly that. While walking through this underground passage feels normal, it's just that... the space beyond the rocky walls seems to be distorting little by little."
+や、そういうわけじゃないんだけどね。\nこの地下道、普通に歩いてるぶんには違和感ないけど……\n岩肌の向こうの空間が、ちょっとずつ歪んじゃってるみたいなのよね。=Oh, it's not exactly that. While walking through this underground passage feels normal, it's just that... the space beyond the rocky walls seems to be distorting little by little.
 えっ、そうなの！？=Huh? Really?!
 おかげで１歩歩くあいだに、10歩分くらい進めてるみたい。\nそれに追っ手が来れないように、\nあたしたちが通った道は塞いでるっぽいし……=Thanks to this, it seems that for every step we take, the tunnel is slowly following 10 steps behind us, And it seems like the path we've walked is closing off behind us, so our pursuers can't follow...
 本当ですか！？\nぜんぜんわかりませんでした！\nちょっと見てきまーすっ！=Is that true!? I had no idea! I'll take a look right away!
@@ -18,7 +18,7 @@ r:"^世界の運命を賭けたゲーム勝負を乗り切ったものの、\n�
 まだ大丈夫だよ。=It's still okay for now.
 コロ助ー？\nあんたは魔力を溜めときなさい。\nそういうのは、こいつとかペコリーヌに任せておけばいーのよ。=Korosuke? You need to save your energy. Just leave that to him and Pecorine.
 はい☆\nどーんと任せてください♪\n……それより……=Yes☆ Leave it to me♪ ...More importantly...
-シェフィちゃんも、ユイちゃんも……\nぜんぜん、目を覚ましそうにないですね。=Sheffy-chan and Yui-chan... They don't seem to be waking up at all."
+シェフィちゃんも、ユイちゃんも……\nぜんぜん、目を覚ましそうにないですね。=Sheffy-chan and Yui-chan... They don't seem to be waking up at all.
 二人とも、肉体的なケガよりも\n精神的なダメージのほうが大きいんだろう。\nこればかりは、魔法でも治せないからね……=Both of them seem to have suffered more mentally than physically. Unfortunately, magic can't heal this kind of damage...
 ……はい。\n王宮を乗っ取られ、ゼーンさまが……\nあのような姿で、敵の手に落ちるとは……=...Yes. To think that Master Zane would fall into the enemy's hands when the royal palace was taken over...
 ミロク……\nあいつだけは、絶対に許しておけないわね……=Miroku... I'll never forgive him...
@@ -115,7 +115,7 @@ r:"^世界の運命を賭けたゲーム勝負を乗り切ったものの、\n�
 たっくさんお買い上げしてくれて、感謝感激って気持ちだべ～♪=We are so grateful for the many purchases!♪
 たっくさん働かされて、もうこりごりって気持ちだわ……=I feel like I've been forced to work for a long time...
 思い返せば……数か月前でしたか。\nゴウシン議長の反乱の少し後に、\nラビリスタさまはランドソルを出立なさいましたが……=Thinking back... It was a few months ago, wasn't it? Shortly after Chairman Gorschin's rebellion, Lady Labyrista left Landosol...
-r:"^たしか、(.{2,10})のために\n【レイジ・レギオン】からの囮になってくれるって言ってたわよね。\nおかげであたしたちは、しばらく平和に過ごせたけど……$"="You said you'd be a decoy from the [Rage Legion] for $1, right? Thanks to that, we were able to live in peace for a while..."
+たしか、{playername}のために\n【レイジ・レギオン】からの囮になってくれるって言ってたわよね。\nおかげであたしたちは、しばらく平和に過ごせたけど……=You said you'd be a decoy from the [Rage Legion] for {playername}, right? Thanks to that, we were able to live in peace for a while...
 それじゃあランドソルの外で、\n【レイジ・レギオン】から逃げ回りつつ\nシズルさんたちとクレープを売って歩いてたってことですか？=So you're saying you were walking outside Landosol, selling crepes with Shizuru and the others while running away from the [Rage Legion]?
 うん。\nま、そういうことになるかな。=Yeah. Well, I guess that's the way it is.
 えっ、でもさ。\nなんでわざわざ……=Huh? But why would you go out of your way to...
@@ -277,7 +277,7 @@ r:"^たしか、(.{2,10})のために\n【レイジ・レギオン】からの�
 ふふっ。\nみんな、元気ねー=Hehe. Everyone's so energetic.
 休む必要あるべか、このひとら……=Do they really need to rest...?
 
-r:"^(.{2,10})たちは、次なる戦いに備え\nエリザベスパークにて休息を取っていた。$"="$1 and the others were resting at Elizabeth Park in preparation for the next battle."
+{playername}たちは、次なる戦いに備え\nエリザベスパークにて休息を取っていた。={playername} and the others were resting at Elizabeth Park in preparation for the next battle.
 すやぁ……=*sigh*...
 くぅ、くぅ……=Kuu, kuu...
 う、うーん……\n働きたくなぁい……=H-Hmm... I don't want to work...
@@ -322,7 +322,7 @@ r:"^(.{2,10})たちは、次なる戦いに備え\nエリザベスパークに�
 誰かが……近づいてきてる……？\n夢の中の、はずなのに……=Someone's... getting closer...? It's supposed to be in a dream...
 きゃっ……！=Eek...!
 ミネルヴァさん……！？=Minerva?!
-r:"^……ご無沙汰をしていました。\nあなたが赤子のようだったとき以来ですね、\n(.{2,10})。$"="It's been a while. I haven't seen you since you were a baby, $1."
+……ご無沙汰をしていました。\nあなたが赤子のようだったとき以来ですね、\n{playername}。=It's been a while. I haven't seen you since you were a baby, {playername}.
 コッコロちゃん、どうしたの。\n少年たちは？=Kokkoro, what's wrong with the boy?
 主さまたちは、とても良く眠っていらっしゃるご様子です。\n疲れが溜まっていたでしょうから……=My Lord and the others seem to be sleeping very well. They must have been exhausted...
 そうだね。\nコッコロちゃんも、しっかり休んだほうがいいよ。\nそれとも、眠れないのかな？=You're right. You should get some rest too, Kokkoro. Or maybe you can't sleep?
@@ -356,7 +356,7 @@ r:"^……ご無沙汰をしていました。\nあなたが赤子のようだ�
 その在り処は──キミの故郷。\nエルフの隠れ里。\nそして、持ち主は……=It's your hometown. The hidden elven village. And the owner is...
 『嚮導老君』。\nアタシたち七冠の長老──キミのお父さんの、アバターだ。=the Guidance Elder, The Avatar of your father, the elder of the Seven Crowns.
 
-r:"^意識と意識が繋がった、不思議な夢の中。\n(.{2,10})とシェフィの前に現れたのは──$"="In a strange dream where consciousness and awareness were connected, in front of $1 and Sheffy appeared..."
+意識と意識が繋がった、不思議な夢の中。\n{playername}とシェフィの前に現れたのは──=In a strange dream where consciousness and awareness were connected, in front of {playername} and Sheffy appeared...
 無事でよかった。=I'm glad you're safe.
 えっと……\nこの、人は……？=Um... Who is this person...?
 ミネルヴァさんだよ。=It's Minerva.
@@ -364,7 +364,7 @@ r:"^意識と意識が繋がった、不思議な夢の中。\n(.{2,10})とシ�
 えー、あい……？=A....I...?
 よく、わからないけれど。\n「はじめまして」で、いいのかしら……=Don't really get it, but is nice to meet you... okay...?
 ええ。\nはじめまして。=Yes. It's nice to meet you.
-r:"^それに、(.{2,10})……\n私の頼みを聞いて、ソルオーブを集めてくれているようですね。\n感謝いたします。$"="Also, $1... It seems you've accepted my request and are collecting Sol Orbs. Thank you."
+それに、{playername}……\n私の頼みを聞いて、ソルオーブを集めてくれているようですね。\n感謝いたします。=Also, {playername}... It seems you've accepted my request and are collecting Sol Orbs. Thank you.
 どういたしまして。=You're welcome.
 ソルオーブを……？=Sol orb...?
 ええ。\nあの宝玉は、アストルムの管理者権限の外にある\n重要なアイテムですから。=Yes. That orb is an important item outside of Astrum’s admin authority.
@@ -372,7 +372,7 @@ r:"^それに、(.{2,10})……\n私の頼みを聞いて、ソルオーブを�
 警告しておきますが。\n七冠たちに、心を許してはなりません。=Let me warn you. You mustn't trust the Seven Crowns.
 彼女たちは一人残らず、利己的で傲慢です。\nまるで暴君のように。=Each and every one of them is selfish and arrogant, like a tyrant.
 私に対して、人間を学び、人間を知り、人間に近づくように\nプログラミングしておきながら……\n一方で、私の性能を利用する企みを、いつまでも止めないのですから。=You’ve programmed me to learn humans, to know humans, and to get closer to them... But on the other hand, you’ll never stop plotting to make use of my abilities.
-r:"^だから私は、あなたの手による救出を望みます。\n他の誰でもなく、(.{2,10})。\nあなたの手で。$"="That's why I want you to rescue me. Not with anyone else, but with your own hands, $1."
+だから私は、あなたの手による救出を望みます。\n他の誰でもなく、{playername}。\nあなたの手で。=That's why I want you to rescue me. Not with anyone else, but with your own hands, {playername}.
 僕の……？=My...?
 はい。\n心清らかなあなたならば、邪な願いを持つことはないでしょう。\n私は、それを知っていますから。=Yes. A pure-hearted person like you wouldn't have a wicked wish. Because I know that.
 でも……救出、って？\n夢の外では、ミネルヴァさんはどこにいるの？=But...rescue, you say? Where is Minerva outside of the dream?
@@ -380,7 +380,7 @@ r:"^だから私は、あなたの手による救出を望みます。\n他の�
 それは、どこに？=Where is it?
 それは──『世界の裏側』に、限りなく近い場所。\n簡単にたどり着けるものではありません。=It's a place extremely close to the other side of the world. It won't be easy to get there.
 数限りない『目』を持っていた覇瞳皇帝ですら、\n最後まで突き止めることは叶わなかったのですから。\nけれど……=Even the Omniscient Kaiser, who had countless 'eyes,' couldn't find out until the very end. However...
-r:"^(.{2,10})。\nあなたはもう知っているはずです。\n隔絶されし世界と世界、その隔たりを結ぶ方法を。$"="$1. You should already know how to bridge the gap and connect the world to the isolated world."
+{playername}。\nあなたはもう知っているはずです。\n隔絶されし世界と世界、その隔たりを結ぶ方法を。={playername}. You should already know how to bridge the gap and connect the world to the isolated world.
 空間跳躍とか……？=Like spacial leap...?
 それとも、通信魔法とかかしら……？=Or maybe it’s communication magic...?
 残念ながら、的外れと言わざるを得ません。\nまあ……答えはあなたの手元にあるも同然です。\nさほど苦労することなく、正解を見つけることができるでしょう。=Unfortunately, I must say that you are off the mark. Well... The answer is as good as in your hands. You should be able to find the right answer without much difficulty.
@@ -407,7 +407,7 @@ r:"^(.{2,10})。\nあなたはもう知っているはずです。\n隔絶され
 魔力はたくさん使わされちゃったし。\n少年のほうもトラブってるみたいだし。\n身体がいくつあっても足りないって感じだな～=I've been forced to use a lot of magical energy. The boy seems to be in trouble too. No matter how many bodies I have, it feels like it's not enough~
 ……ねっ、二人もそう思わない？=...Hey, don't you think so too?
 分身の身体でよければ。\nいくらでも増やしてあげますよ、迷宮女王。=If you're fine with a clone body, I'll give you as many as you want, Queen Labyrinth.
-r:"^(.{2,10})を追い回せば、\nいずれキサマに辿り着くだろうと思っていたぞ。$"="I thought that if I chased $1 around, I'd eventually reach you."
+{playername}を追い回せば、\nいずれキサマに辿り着くだろうと思っていたぞ。=I thought that if I chased {playername} around, I'd eventually reach you.
 やっ、ネネカ。\nクリスも、久しぶり。=Hey, Neneka, Chris. It's been a while. 
 オマエとは、陛下に嵌められかけた時以来だったか。\nこうして操り人形にされた醜態を晒すのは、\n慚愧に堪えん所だが……=I haven't seen you since you were almost set up by Her Majesty. It's a shame to be made to look like a puppet in this way, but...
 正直なところ。\nこうして顔を合わせるまでに\nもう少し無駄足を踏まされるかと予想していましたよ。=Honestly, I was expecting you to waste a little more time before we meet like this.
@@ -439,7 +439,7 @@ r:"^(.{2,10})を追い回せば、\nいずれキサマに辿り着くだろう�
 起こしちゃダメだよー=Don't wake him up.
 ハァ=*sigh*
 
-r:"^(.{2,10})たちがミソラと\nゲーム勝負する、少し前のこと。\n芸術の町・ムーサにて──$"="It was a little while before $1 and the others had a game match with Misora. In Musa, the City of Art"
+{playername}たちがミソラと\nゲーム勝負する、少し前のこと。\n芸術の町・ムーサにて──=It was a little while before {playername} and the others had a game match with Misora. In Musa, the City of Art
 ──お送りした曲は、\n『ジャストアモーメント！』でした♪=The song I sent you was "Just a Moment" ♪
 うおおお！\nカルミナー！！=Whoa! Carmina!
 カルミナサイコー！=Carmina is the best!
@@ -460,7 +460,7 @@ r:"^(.{2,10})たちがミソラと\nゲーム勝負する、少し前のこと�
 そうですねー。『七冠』でしたっけ。\nプロデューサーが、そんなすごい人だなんてことも\nびっくりでしたけど……=That's right. The Seven Crowns, was it? I was surprised that the producer was such an amazing person, but...
 七冠、かぁ……\nうーん……=The Seven Crowns, huh... Hmm...
 ノゾミ？\nどうしたの？=Nozomi? What's wrong?
-r:"^そういえばさ、私たち。\n(.{2,10})くん以外にも\n七冠の関係者にお知り合いがいたよね。$"="Come to think of it, we know someone other than $1 who's related to the Seven Crowns."
+そういえばさ、私たち。\n{playername}くん以外にも\n七冠の関係者にお知り合いがいたよね。=Come to think of it, we know someone other than {playername} who's related to the Seven Crowns.
 あ、この前の……？=Oh, the one from before...?
 うん♪　私たちだけで、闇雲に\nエリスさんの本拠地や『洗脳魔法装置』を探して回るより\nプロデューサーに近いひとに、手伝ってもらえたらなーって！=Yeah♪ If only we could get some help from someone closer to the producer than blindly searching for Eris's headquarters or the brainwashing magic device!
 ええっ、本気ですか～っ！？\nあんなセンスない人をアテにしなくちゃいけないなんて～！=Whaaat? Are you serious?! I can't believe I have to rely on someone with no sense at all!
@@ -513,7 +513,7 @@ r:"^そういえばさ、私たち。\n(.{2,10})くん以外にも\n七冠の関
 そうでしたね。では……クリスティーナ？\nせっかく奥の手を出したのなら、もっと披露してあげたら如何ですか。\n晶も、よく見たがっているようですから。=That's right. Then... Christina? If you've gone to the trouble of laying your hands on her, why don't you show her more? It seems that you want to get a better look at her.
 いやいや、そんなことは──=No, no, that's not--
 遠慮するな♪\nタップリ見せてやろうとも！\n硬化も癒着も間に合わんほど、オマエの身体の深くに叩きこんでな！=Don't hold back♪ I'll show you everything I've got! Pounds it deep into your body so hard you won't be able to harden or heal in time!
-r:"^晶？　貴方が(.{2,10})たちを\n庇おうとしているのは、わかりきっていますが。\nこのまま、一方的になぶられ続けるつもりですか？$"="Akira? I know you're trying to protect $1 and the others. Do you intend to continue to be one-sidedly nipped and prodded?"
+晶？　貴方が{playername}たちを\n庇おうとしているのは、わかりきっていますが。\nこのまま、一方的になぶられ続けるつもりですか？=Akira? I know you're trying to protect {playername} and the others. Do you intend to continue to be one-sidedly nipped and prodded?
 そろそろ切り札のひとつでも、開陳したらどうです。\n……ああ、もちろん。\n伏せたまま貴方が終わっても、私は一向に構いませんが。=Why don't you show me one of your trump cards? ...Ah, of course. I wouldn't mind at all if you ended up hiding it.
 いいや、構うに決まっているだろうが。\n今さら出し惜しみなどするんじゃない。\nオマエが戦っている相手は、他でもないこのワタシだぞ──！=No, of course I care. Don't hold back now. I'm the one you're fighting!
 しょうがない、か。\nクリスやネネカ相手に、この手を使うつもりはなかったんだけど……\nこのまま、終わるわけにもいかないし……=It can't be helped, huh? I didn't intend to use this tactic against Chris or Neneka, but... I can’t let it end like this...
@@ -537,11 +537,11 @@ r:"^晶？　貴方が(.{2,10})たちを\n庇おうとしているのは、わ�
 ペコリーヌちゃん！\nみんなを起こしてきてくれたんだね！=Pecorine! You woke everyone up!
 はいっ、でも──=Yes, but...
 あれっ！？\nお兄ちゃんは！？=Huh?! Where's Onii-chan?!
-r:"^(.{2,10})さん、まだ目が覚めないんです……！\nユイさんと、シェフィさんもですけど……！$"="$1 still hasn't woken up...! Yui-san and Sheffy, too, but...!"
+{playername}さん、まだ目が覚めないんです……！\nユイさんと、シェフィさんもですけど……！={playername} still hasn't woken up...! Yui-san and Sheffy, too, but...!
 ったくもー！\nこのあたしまで叩き起こされたってのにさー！=Geez! Even I was slapped awake!
-r:"^コッコロの見立てでは、オーエドのときと似た状態らしい。\n今はヒヨリと共に、(.{2,10})らを守っているが……$"="According to Kokkoro, The situation is similar to when she was in Oedo. She's protecting $1 and the others with Hiyori now, but..."
-r:"^……っていうか。\nなんかよく昏睡するわね、(.{2,10})……$"="...I mean, How often do you go into a coma, $1?"
-r:"^(.{2,10})くんたちのことも、気になるけど。\nそれより……$"="I'm worried about $1 and the others too, but..."
+コッコロの見立てでは、オーエドのときと似た状態らしい。\n今はヒヨリと共に、{playername}らを守っているが……=According to Kokkoro, The situation is similar to when she was in Oedo. She's protecting {playername} and the others with Hiyori now, but...
+……っていうか。\nなんかよく昏睡するわね、{playername}……=...I mean, How often do you go into a coma, {playername}?
+{playername}くんたちのことも、気になるけど。\nそれより……=I'm worried about {playername} and the others too, but...
 サンタのクリースさん！\nいったいどうしちまっただ！？\nまさか反抗期だべか！？=Santa Claus! What the hell happened?! Don't tell me you're in a rebellious phase?!
 魔法使いのおばあさんも！\n反抗期なの！？=You too, old wizard! Are you in a rebellious phase?!
 いやいや。\nそんな年齢じゃないでしょ──=No, no. You're not that old.
@@ -558,8 +558,8 @@ r:"^(.{2,10})くんたちのことも、気になるけど。\nそれより…�
 ーサの町=Town of Osa
 ム=Mm
 
-r:"^夢の中。\n意識が繋がったシェフィと共に、\n(.{2,10})はミネルヴァと対峙していた。$"="In the dream. With Sheffy, whose consciousness was connected to his, $1 was confronting Minerva."
-r:"^──先程も言ったとおり、(.{2,10})。\nあなたは七冠たちに、心を許してはなりません。$"="-As I said, $1, you mustn't trust the Seven Crowns."
+夢の中。\n意識が繋がったシェフィと共に、\n{playername}はミネルヴァと対峙していた。=In the dream. With Sheffy, whose consciousness was connected to his, {playername} was confronting Minerva.
+──先程も言ったとおり、{playername}。\nあなたは七冠たちに、心を許してはなりません。=-As I said, {playername}, you mustn't trust the Seven Crowns.
 彼女たちは一人残らず、利己的で傲慢。\n独善で冷酷。\nそして……=Each and every one of them is selfish and arrogant. Self-righteous and ruthless. And...
 疑いようもなく。\n真の意味で、彼女らこそ諸悪の根源なのです。=Without a doubt. In the truest sense of the word, they are the root of all evil.
 諸悪の、根源……=The root of all evil...
@@ -579,7 +579,7 @@ r:"^──先程も言ったとおり、(.{2,10})。\nあなたは七冠たち�
 どうしたら……いいのかしら……=I wonder... what I should do...
 兄さんを殺したエリスには、許せないっていう気持ちは……ある。\nでも……=There’s a part of me that can’t forgive Eris for killing my brother. But...
 エリスと、手を組むことで……\n兄さんやみんなが、助かるなら……=If joining forces with Eris...would save Nii-san and everyone else...
-r:"^……(.{2,10})。\nあなたは？\nどうすれば、いいと思う……？$"="...$1. What about you? What do you think we should do...?"
+……{playername}。\nあなたは？\nどうすれば、いいと思う……？=...{playername}. What about you? What do you think we should do...?
 僕は……=I...
 悩むことはありません。\nあなたが心を開けば、すべては解決に向かうのです。=There's no need to worry. If you open your heart, everything will be resolved.
 はいはーい、ちょーっと待ったー=Yes, yes, hold on a minute.
@@ -594,7 +594,7 @@ r:"^……(.{2,10})。\nあなたは？\nどうすれば、いいと思う……
 ……正確には。\n『エリスによってエミュレートされたミネルヴァ』だけどね。=...Or more accurately, Minerva, emulated by Eris.
 エミュ、レート……？=Emu rate...?
 要するに。\n『ミネルヴァの容姿と性格』で、\n『エリスの願望』を口にしていたってことさ。=In other words, she was using “Minerva’s appearance and personality” to describe “Eris’s wish.
-r:"^そ、それで、\n(.{2,10})と和解しようだなんてことを……$"="Y-You're trying to reconcile with $1...?"
+そ、それで、\n{playername}と和解しようだなんてことを……=Y-You're trying to reconcile with {playername}...?
 迷宮女王は──\n深刻な誤解をしている。=Queen Labyrinth has a serious misunderstanding.
 なぜなら。\nわたしの中にいるミネルヴァもまた、\n『懲役』の終了を望んでいるゆえに。=After all, the Minerva inside me also wants to end her imprisonment.
 確かに、ミネルヴァさんは……=Indeed, Minerva...
@@ -610,7 +610,7 @@ r:"^そ、それで、\n(.{2,10})と和解しようだなんてことを……$"
 『再構築』の折。\n願いの核として必要だった草野優衣が奪われ、\n欠落を埋めるために生み出されたのがこのわたし。=At the time of 'Reconstruction', Yui Kusano, who was necessary as the core of my wish, was taken away, and I was created to fill in the gaps.
 あなたがそれを知るのなら。\nわたしの状態は、意外などではなかったはず。=If you knew that, then my condition shouldn't have been unexpected.
 ……ま、確信を持ったのはキミが少年たちの前に現れた時だけどね。\nそんなとんでもない力を持ってる理由としちゃ、\nミネルヴァを支配下に置いているからとしか考えられない。=...Well, the only time I was sure was when you appeared before the boy. The only reason you have such ridiculous power is because you have Minerva under your control.
-r:"^その、とんでもない力を持つエリスが……\nこうして接触してきたってことは。\n(.{2,10})を、捕まえるつもりで……？$"="Um, Eris, with her unbelievable power... If she came into contact with me like this, does that mean she's planning to capture $1...?"
+その、とんでもない力を持つエリスが……\nこうして接触してきたってことは。\n{playername}を、捕まえるつもりで……？=Um, Eris, with her unbelievable power... If she came into contact with me like this, does that mean she's planning to capture {playername}...?
 大丈夫。あっちだって、今は本調子じゃない。\nそもそもホントなら、少年かユイちゃんが\n『願いを叶えられなくなる』かぎり出てこれないんだもんね。=Don't worry. She's not at her full strength right now either. In the first place, she won't be able to come out unless either the boy or Yui-chan "can't grant her wish".
 特に、夢の中じゃそんなにすごい手出しはできない。\nわざわざミネルヴァをエミュレートしてたことが、その証拠だよ。=Especially in a dream. You can't do anything that amazing. The fact that she went out of her way to emulate Minerva is proof of that.
 迷宮女王。\nミネルヴァの記憶にあったとおり……喧しい女。=Queen Labyrinth. Just as Minerva remembered...a noisy woman.
@@ -620,7 +620,7 @@ r:"^その、とんでもない力を持つエリスが……\nこうして接�
 ──ミネルヴァ！\n聞こえてる！？=Minerva! Can you hear me?!
 アタシだ、模索路晶だよ！\nやっと見つけたよ、久しぶり！=It's me, it's Akira! I've finally found you! Long time no see!
 いいかいミネルヴァ！　心を強く持つんだ！\nたとえ人工の存在だったとしても！\nそんなことは関係ない！=Listen up, Minerva! Keep your heart strong! Even if it's artificial! That doesn't matter!
-r:"^なぜならキミには、コッコロちゃんから教わった聡明さがあって！\n【トゥインクルウィッシュ】から学んだ優しさがあって！\n(.{2,10})が示したあきらめの悪さを、覚えているはずだよ！$"="After all, you have the intelligence Kokkoro taught you! You have the kindness you learned from Twinkle Wish! You remember the reluctance to give up that $1 demonstrated!"
+なぜならキミには、コッコロちゃんから教わった聡明さがあって！\n【トゥインクルウィッシュ】から学んだ優しさがあって！\n{playername}が示したあきらめの悪さを、覚えているはずだよ！=After all, you have the intelligence Kokkoro taught you! You have the kindness you learned from Twinkle Wish! You remember the reluctance to give up that {playername} demonstrated!
 キミが培った心を、無駄にしないためにも！\nキミはそんなところで、エリスに取り込まれている場合じゃない！=You can't let the heart you've developed go to waste! You don't have time to be taken in by Eris at a place like that!
 アタシや少年たちと一緒に、『懲役』を終わらせよう！\nいいね、ミネルヴァ！=Let's end this “imprisonment” together with me and the boy! Sound good? Minerva!
 無駄よ。\nあなたの声は、ミネルヴァに届かない。=It's useless. Your voice won't reach Minerva.
@@ -647,7 +647,7 @@ r:"^なぜならキミには、コッコロちゃんから教わった聡明さ�
 そろそろ出て来たらどうかな？=Why don't you come out now?
 ──『エリス』、さま=Eris-sama
 
-r:"^一方、牧場入り口。\n目覚めない(.{2,10})たちを守るため、\n【ラビリンス】や【エリザベスパーク】、ペコリーヌらが奮戦していた。$"="Meanwhile, at the entrance to the Elisabeth Park ranch, Labyrista, Pecorine, and the others were fighting hard to protect the unawakened $1."
+一方、牧場入り口。\n目覚めない{playername}たちを守るため、\n【ラビリンス】や【エリザベスパーク】、ペコリーヌらが奮戦していた。=Meanwhile, at the entrance to the Elisabeth Park ranch, Labyrista, Pecorine, and the others were fighting hard to protect the unawakened {playername}.
 ミラーミラー。ミラーミラー=Mirror Mirror Mirror mirror
 ネネカちゃんが、こんなにいっぱい……！=There's so many of Neneka-chan...!
 いいなーあの魔法。\n分身を働かせれば、あたしサボり放題だよ。=I love that magic. I could skip work all the time if I let my clones ego work for me.
@@ -691,11 +691,11 @@ r:"^一方、牧場入り口。\n目覚めない(.{2,10})たちを守るため�
 クリスティーナ？\n目の前で、時間稼ぎをするなどと言われて。\nむざむざ付き合う愚か者はいませんね。=Christina? They said they want to stall for time, right in front of me. I don't think anyone would be foolish enough to go along with that.
 やれやれ。\nつまらん話だ。\n飛び入り連中のもてなしが、ぞんざいになってしまいそうだな。=Good grief. What a boring story. I feel like I'm going to get fed up with the hospitality of the people who jumped in.
 「みんな！」\n「みなさま！」\n「みなさん！」="Everyone! Everybody! Everyone!"
-r:"^シオシオ！\n牛たちと(.{2,10})たちはっ！？$"="Shioshio! What about the cows and $1!?"
-r:"^安心してください。\n牛たちは、リンちゃんと一緒に逃がしました。\n(.{2,10})さんは……$"="Don't worry. I let the cows escape with Ling. Miss $1..."
+シオシオ！\n牛たちと{playername}たちはっ！？=Shioshio! What about the cows and {playername}!?
+安心してください。\n牛たちは、リンちゃんと一緒に逃がしました。\n{playername}さんは……=Don't worry. I let the cows escape with Ling. Miss {playername}...
 主さまたちのことは、ラビリスタさまが「任せてほしい」と。\nですのでわたくしたちも、みなさまに助太刀いたします。=Lady Labyrista said she wanted us to leave my Lord and the others to her. Therefore, we will assist you all.
 えっ、でもリンちゃんはどこっ？\nシオリちゃんと一緒だったんじゃ……=Huh? But where's Rin? I thought she was with Shiori...
-r:"^あっ、リンちゃんは……\n(.{2,10})さんたちと、お休みしたいそうで……$"="Oh, Rin... She wants to rest with $1 and the others..."
+あっ、リンちゃんは……\n{playername}さんたちと、お休みしたいそうで……=Oh, Rin... She wants to rest with {playername} and the others...
 ネネカさん、クリスさん！\n今度こそ助けるよ！\nとりあえず、そのヘンな仮面を取っちゃうんだから！=Neneka, Chris! I'll save you this time! For now, I'm going to take off that weird mask!
 フン。\n今度はコインの一枚奪う間も与えんぞ。=Hmph. I won't give you a chance to steal a coin this time.
 それどころか。\nワタシがオマエたちから、あの坊やを奪ってやってもいいな……♪=On the contrary. I can take that boy away from you...♪
@@ -736,8 +736,8 @@ r:"^あっ、リンちゃんは……\n(.{2,10})さんたちと、お休みし�
 『シチューにカツを求める』ですね！\nやります！=You're asking for cutlet in the stew! I'll do it!
 わ、私も手伝います……！=I-I'll help, too!
 シオリちゃん、無茶しちゃダメよ！？=Shiori, don't do anything reckless, okay?!
-r:"^はい……！\nでも、いつも私を守ってくれるみんなや\n(.{2,10})さんのためなら……！$"="Yes...! But if it's for everyone who's always protecting me, and for $1...!"
-r:"^ああ！\n仲間と(.{2,10})を守るためなら\nこの命、いくらでも懸けてみせる！$"="Yeah! I'll put my life on the line to protect my friends and $1!"
+はい……！\nでも、いつも私を守ってくれるみんなや\n{playername}さんのためなら……！=Yes...! But if it's for everyone who's always protecting me, and for {playername}...!
+ああ！\n仲間と{playername}を守るためなら\nこの命、いくらでも懸けてみせる！=Yeah! I'll put my life on the line to protect my friends and {playername}!
 うん！\nネネカさんもクリスさんも、仲間だもん！　絶対助けるよ！\nとりゃとりゃとりゃ～っ！！=Yeah! Neneka-san and Chris-san are my friends! I'll definitely save them! Toryatoriya~!!
 てえええーい！=Teeeeeeee!
 ……ク。=...Kh.
@@ -762,7 +762,7 @@ r:"^ああ！\n仲間と(.{2,10})を守るためなら\nこの命、いくらで
 回避も不可能だ。=It's impossible to dodge.
 ──『双冠・乱反射』。=Avalon Mirror
 ま……こんなところか。=Well... that's about it.
-r:"^ええ、ですが……\n(.{2,10})の力も無しに。\nずいぶんと、手こずらされましたね。$"="Yes, but... without $1's power. It's been quite a struggle."
+ええ、ですが……\n{playername}の力も無しに。\nずいぶんと、手こずらされましたね。=Yes, but... without {playername}'s power. It's been quite a struggle.
 ああ。\nもっともっと、愉しみたいところだったが──=Yeah. I wanted to have more fun, but...
 ペコリーヌさま……！\nお逃げ、ください……！=Lady Pecorine...! Please, run away...!
 ……トドメだ。\nペコリーヌ──いや、ユースティアナ・フォン・アストライアよ。=...This is the final blow. Pecorine—no, Eustiana von Astraea.
@@ -829,7 +829,7 @@ r:"^ええ、ですが……\n(.{2,10})の力も無しに。\nずいぶんと、
 ご、ごめんなさい……ごめんなさい！\n私、どうしてこんな……！=I-I'm sorry... I'm so sorry! Why is this.........?!
 もう、用済みよ。\nD型検体0005b──=I'm done with you. Type D test subject 0005b--
 今、この場には。\nわたしと彼の、ふたりだけでいい。=Now, in this place. It's just the two of us, me and him.
-r:"^あ、ああっ！\n(.{2,10})っ……！$"="A-Aaah! $1...!"
+あ、ああっ！\n{playername}っ……！=A-Aaah! {playername}...!
 やっと……=Finally...
 やっと、ふたりきりに……なれたね。\n騎士クン……=It's finally...just the two of us. Kish-kun...
 ……シェフィちゃんたちを、どうしたの？=...What did you do with Sheffy and Labyrista?
@@ -881,11 +881,11 @@ D型は、失敗した。\nリセット発生の最大要因──覇瞳皇帝�
 はて。\nわたくしは、とても楽しいものだと存じ上げますが……=Oh? I am sure you will find it very enjoyable, but...
 そーそー！\n夢の中でも現実でも、\n弟くんの面倒はお姉ちゃんがぜーんぶ見てあげちゃうんだから！=That's right! Whether it's in a dream or in real life, Big Sis will take care of you all!
 あ～っ！\nお姉ちゃんがまたまたまた抜け駆けです～っ！=Aaah! Onee-chan's is out of the loop again~!
-r:"^オイッス☆\n(.{2,10})くん、無事みたいですね♪$"="Hey, $1-kun! You're safe! ♪"
+オイッス☆\n{playername}くん、無事みたいですね♪=Hey, {playername}-kun! You're safe! ♪
 というかココ、どこだべや～！？\nオラの牧場、どこいったべ～！？=Where the hell is this place?! Where's my ranch?!
 何もなくて、おかしな場所ね～\nキレイなお花でも植えてあげようかしら？=There's nothing here. It's a strange place. Maybe I should plant some pretty flowers for you?
 わぁ～♪\nそれ、とっても良さそうだね！=Wow~♪ That sounds really good!
-r:"^ちょっ、そんな場合じゃないよヒヨリ。\n(.{2,10})を助けなくては……！$"="Hey, this isn't the time for that, Hiyori. We have to save $1!"
+ちょっ、そんな場合じゃないよヒヨリ。\n{playername}を助けなくては……！=Hey, this isn't the time for that, Hiyori. We have to save {playername}!
 ……あ～、ノリで付いてきちゃったけど。\nなんか人いっぱいいるしサボってもバレなさそ～\nおやすみ～=...Ah~, I ended up tagging along. There's a lot of people here, so it doesn't look like they'll find out if I slack off~ Good night~
 ダメですよリンちゃん、こんなところで寝ちゃ……！=You can't sleep here, Rin-chan...!
 えっと、それじゃあ……\n寝やすいように、子守歌でも……？=Um, then... Maybe a lullaby to make it easier to sleep...?
@@ -897,7 +897,7 @@ r:"^ちょっ、そんな場合じゃないよヒヨリ。\n(.{2,10})を助け�
 あなたのことを、迎えに行くから──=I'll come get you
 待っていて。\n騎士クン。=Hold on, Kish-kun.
 
-r:"^(.{2,10})たちが\nエリザベスパークに到着する、少し前のこと──$"="A little while before $1 and the others arrived at Elizabeth Park..."
+{playername}たちが\nエリザベスパークに到着する、少し前のこと──=A little while before {playername} and the others arrived at Elizabeth Park...
 ダイゴ。\n調整した『結界』は、馴染みそうですか？\n……はむっ。=Daigo. Do you think you'll be able to get used to the barrier you've adjusted? ...Hamph.
 ケッ、ナメてくれんなよ旦那ァ。\nこんなもん、気合で使いこなしてみせるっての！\n……あぐっ。=Heh, don't underestimate me, sir. I'm going to use this with all my might! ...Agh.
 いいでしょう。\nそれでは──=Very well. In that case...
@@ -968,7 +968,7 @@ r:"^(.{2,10})たちが\nエリザベスパークに到着する、少し前の�
 ……ああ。\nすまない、【美食殿】のみんな。\n最後のソルオーブ探しは、キミたちに託してしまって構わないだろうか？=...Yeah. I'm sorry, everyone at Gourmet. Do you mind if I leave the search for the last Sol Orb to you guys?
 はい。\nレイさまとヒヨリさまは、ユイさまのお傍に\nついて差し上げてください。=Yes. Rei-sama and Hiyori-sam, please stay by Yui-san's side.
 ……ユイのやつ。\n魔力も体力も使い果たしてるし、\n精神的にも追い詰められちゃってたもんね……=...That Yui. She used up all her mana and stamina, and she was mentally trapped...
-r:"^最後のソルオーブは、任せてください！\nわたしとキャルちゃんとコッコロちゃん、(.{2,10})くんと\nシェフィちゃんで、必ず見つけてみせますよ！$"="Leave the final Sol Orb to me! Kyaru, Kokkoro, $1, Sheffy, and I will definitely find it!"
+最後のソルオーブは、任せてください！\nわたしとキャルちゃんとコッコロちゃん、{playername}くんと\nシェフィちゃんで、必ず見つけてみせますよ！=Leave the final Sol Orb to me! Kyaru, Kokkoro, {playername}, Sheffy, and I will definitely find it!
 み、みなさん！\n大変です……！=E-Everyone! This is terrible...!
 あれっ？　シオリちゃん？=Huh? Shiori-chan?
 シオシオ、どうしたべ！？=Shio-shio, what's wrong?!
@@ -991,7 +991,7 @@ r:"^最後のソルオーブは、任せてください！\nわたしとキャ�
 お父さま=Father
 
 ──少し前。=A little while ago.
-r:"^エリスによって(.{2,10})の夢から\n弾き出されたシェフィは、酷い混乱と自責に見舞われていた。$"="Having been knocked out of $1’s dream by Eris, Sheffy was met with terrible confusion and self-reproach."
+エリスによって{playername}の夢から\n弾き出されたシェフィは、酷い混乱と自責に見舞われていた。=Having been knocked out of {playername}’s dream by Eris, Sheffy was met with terrible confusion and self-reproach.
 ラビリスタさん……\nさっきは……本当に、ごめんなさい……=Labyrista... I'm really, really sorry about earlier...
 いいっていいって。\nアタシもエリスに集中しすぎて、ちょっと油断してたし。=It's fine. I was so focused on Eris that I let my guard down a little.
 け、けれど……\n自分でも、どうしてあんなことを、してしまったのか……=B-But... even I don't know why I did it...

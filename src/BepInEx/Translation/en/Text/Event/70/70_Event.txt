@@ -1,7 +1,7 @@
 r:"^大晦日の王都ランドソル([0-9\-\(\)\w （）]*)$"=New Year's Eve at Landosol City $1
 メテオ・イン・ドリーム=Meteor in Dream
 r:"^エルフの森周辺([0-9\-\(\)\w （）]*)$"=Elven Forest Area $1
-r:"^(.{2,10})の初夢$"=$1’s first dream
+{playername}の初夢={playername}’s first dream
 [3C404E]プチメテオを30個壊そう[-]=[3C404E]Destroy 30 Petit Meteors[-]
 [FFFFFF]プチメテオを30個壊そう[-]=[FFFFFF]Destroy 30 Petit Meteors[-]
 

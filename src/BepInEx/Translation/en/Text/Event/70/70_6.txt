@@ -1,6 +1,6 @@
-r:"^ハツネの想いと裏腹に、もうすぐ隕石が落ちてくる街についてきた(.{2,10})とシオリ。カスミの説得もあり、「全員で」迎撃する決意を固めたハツネは、イノリたちと共に隕石を破壊するのだった。$"="Contrary to what Hatsune thought, $1 and Shiori went to the city that's about to be destroyed by the meteor. With Kasumi's persuasion and Hatsune finally making up her mind to stop the meteor with "everyone", Hatsune destroyed the meteor alongside Inori and the others."
+ハツネの想いと裏腹に、もうすぐ隕石が落ちてくる街についてきた{playername}とシオリ。カスミの説得もあり、「全員で」迎撃する決意を固めたハツネは、イノリたちと共に隕石を破壊するのだった。=Contrary to what Hatsune thought, {playername} and Shiori went to the city that's about to be destroyed by the meteor. With Kasumi's persuasion and Hatsune finally making up her mind to stop the meteor with "everyone", Hatsune destroyed the meteor alongside Inori and the others.
 
-r:"^隕石の被害阻止のために動いていた(.{2,10})たち。\nそれぞれの決意を固める中、最後の作戦会議を開こうとしていた。$"="$1 and the others are working on preventing the meteor from causing damage. As they each strengthen their resolve, their final strategy meeting is about to be held."
+隕石の被害阻止のために動いていた{playername}たち。\nそれぞれの決意を固める中、最後の作戦会議を開こうとしていた。={playername} and the others are working on preventing the meteor from causing damage. As they each strengthen their resolve, their final strategy meeting is about to be held.
 すまない、待たせたね。\nこちら側の結果を報告させてもらうよ。=Sorry for making you guys wait.\nI'll be sharing the informations I got.
 ……というわけで、住民の避難は難しそうだ。\nでも、落下地点についてはだいたいの予測ができたよ。=...So in short, evacuating the townspeople will be difficult. But we've roughly estimated where the meteor will crash.
 案内があったとはいえ、\nあちこち走り回るのはなかなか骨が折れたけど……\nおかげで、年末の運動不足は解消されたわね。=Despite having a guide, running around here and there is rough on your bones... But thanks to that, I can check off lack of exercise from my new year resolutions.

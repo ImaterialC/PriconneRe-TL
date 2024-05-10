@@ -1,8 +1,8 @@
 参加者３=Contestant 3
 戦士２=Warrior 2
 戦士１=Warrior 1
-r:"^大会がペア制になった事を知ったモニカは、相手を探すも、外見で断られ続けてしまう。そんな時、([\s\S]{2,10})からのペアの申し出を受け、ためらいつつもうれしく思ったモニカは共に戦うことを誓う。$"=When Monika learned that the tournament had become a pair system, she tried to find a partner, but was rejected by everyone because of her appearance. At that time, she received an offer from $1 to be her pair, and she felt happy and hesitant at the same time. Monika vowed to fight together with him.
-r:"^背伸ばしの特訓から数か月後──\nついに大会受付当日……\n(.{2,10})はモニカと最後の身体測定を行っていた。$"=A few months after the special training to grow taller, the day of the tournament registration finally arrived. $1 was doing the final measurement with Monika.
+大会がペア制になった事を知ったモニカは、相手を探すも、外見で断られ続けてしまう。そんな時、{playername}からのペアの申し出を受け、ためらいつつもうれしく思ったモニカは共に戦うことを誓う。=When Monika learned that the tournament had become a pair system, she tried to find a partner, but was rejected by everyone because of her appearance. At that time, she received an offer from {playername} to be her pair, and she felt happy and hesitant at the same time. Monika vowed to fight together with him.
+背伸ばしの特訓から数か月後──\nついに大会受付当日……\n{playername}はモニカと最後の身体測定を行っていた。=A few months after the special training to grow taller, the day of the tournament registration finally arrived. {playername} was doing the final measurement with Monika.
 貴公、どうだ……？=How, Comrade...?
 140cmと……1mm！=140cm and... 1mm!
 くぅうう……！　100回測って同じならば、夢でも気のせいでもない！\n私はこれでようやく大会に……！=Ugh...! If it's the same after measuring 100 times, it's not a dream or an illusion! I can finally enter the tournament...!
@@ -29,7 +29,7 @@ r:"^背伸ばしの特訓から数か月後──\nついに大会受付当日�
 その時、ルールも変わったんです。\n単独で勝ち抜く力も大切ですが、\n今は他者と協力しあえる能力が広く求められている……ということで。=That's when the rules changed. It's important to have the power to win alone, but now people are looking for the ability to cooperate with others...
 そ、そうか……規則ならば、私も従おう。\nしかし……=I see... If it's a rule, I'll follow it too. But...
 
-r:"^ペアか……(.{2,10})になら背中を預けられるのだがな。\nとはいえ、これ以上私のワガママに付き合わせるわけにもいかん……$"=Pairs, huh...? I can trust $1 with my back. But I can't make him go along with my selfishness any more...
+ペアか……{playername}になら背中を預けられるのだがな。\nとはいえ、これ以上私のワガママに付き合わせるわけにもいかん……=Pairs, huh...? I can trust {playername} with my back. But I can't make him go along with my selfishness any more...
 
 決まった相手がいないようでしたら、奥のスペースをのぞいてください。\nペアをお探しの方が大勢いらっしゃると思います。=If you don't have a partner yet, please check out the space in the back. There should be a lot of people looking for pairs.
 分かった！　情報提供、感謝する。\n……貴公、すまないがここで待っていてくれ。\n終わったら共に食事でもしよう。=I got it! Thank you for the information. ...Sorry, but wait here for me. When I'm done, let's have a meal together.
@@ -55,7 +55,7 @@ r:"^ペアか……(.{2,10})になら背中を預けられるのだがな。\n�
 一緒に乗り越える道もあるよ。=There's also a way to overcome it together.
 一緒に？　それは一体──=Together? What do you mean by that──
 うわぁあっ！！=Uwaaah!!
-r:"^今の悲鳴はなんだ！？\n(.{2,10})、行くぞ！$"=What was that scream just now?! $1, let's go!
+今の悲鳴はなんだ！？\n{playername}、行くぞ！=What was that scream just now?! {playername}, let's go!
 か、壁がボコボコじゃん……！？\n俺に当たったら、どうしてくれたんだよ……！？=Th, the wall is all dented...!? If it hit me, what would you have done...!?
 言っておくが、最初にケンカを吹っ掛けたのは貴様の方だぞ。\n……にしても兄者、こいつ弱いな。=Just so you know, you were the first one to start a fight. ...Still, brother, you're weak.
 強者を定める大会に、お前のような半端者がいては興が醒める。\nここで退場させてやるのが情けだろう。弟よ、トドメを。=Having a half-wit like you in a tournament to determine the strong is fun. It would be a pity to let you leave the stage here. Finish him off, little brother.
@@ -81,18 +81,18 @@ r:"^今の悲鳴はなんだ！？\n(.{2,10})、行くぞ！$"=What was that scr
 おいこら！　見た目で判断するな！\nこの者を愚弄することは、この私が許さんぞっ！=Hey! Don't judge by appearance! I won't let you make fun of my comrade!
 いいか、よく聞けよ！\n我々は優勝する！　おまえたちを倒してな！=Listen up, and listen well! We're going to win! We'll beat you guys!
 では、期待せずに待っているとしよう。=Then we'll wait without expecting anything.
-r:"^……言ってしまった～……！！\n結局、(.{2,10})を巻き込んでしまうとは……！！$"=...I said it~~...!! In the end, I dragged $1 into this...!!
+……言ってしまった～……！！\n結局、{playername}を巻き込んでしまうとは……！！=...I said it~~...!! In the end, I dragged {playername} into this...!!
 ……ん？　な、なんだ？　そんなにこにこして……\nモニカのペアになれてうれしい……？=...Hm? Wh, what? Why are you smiling so much... Are you happy to be Monica's partner...?
 えっ！？　いや、それは私だって……\n…………わ、私だって正直、うれしいぞ！？\n最初からずっと、貴公がペアならと考えていた！！=Huh!? N-no, that's not what I meant... I mean, I'm also............ h-honestly, I'm happy too!? I've always thought that if you were my partner...
 ……だが貴公は人がいいから、私が誘えば断らないだろう？\nそれでなんとなく……誘うのをためらっていたのだが……=But you're a nice person, so I thought you wouldn't refuse if I asked you. That's why I hesitated to ask you...
-r:"^しかし(.{2,10})は\n『ペアになれてうれしい』と言ってくれた。\n……誰にも選ばれなかった、この私に。$"=But $1 said he was happy to be paired up with me. ...As someone who hadn't been chosen by anyone.
+しかし{playername}は\n『ペアになれてうれしい』と言ってくれた。\n……誰にも選ばれなかった、この私に。=But {playername} said he was happy to be paired up with me. ...As someone who hadn't been chosen by anyone.
 おかげで腹が据わった！\n貴公が私のために戦ってくれたように、\n私も最後まで諦めず、全力で戦うと誓おう！=Thanks to that, I've got guts! Just like you fought for me, I swear I won't give up until the very end and will fight with all my might!
 そんなモニカを信じてる。=I believe Monika can do it.
 ああ！　その信頼、しかと受け止めたぞ！\nまずは大会エントリーだ。\nそのあとは……本番までの数日間、猛特訓しよう。=Yeah! I accept your trust! Let's enter the tournament first. After that... let's train hard for a few days until the main event.
 一番警戒すべきはあの兄弟たちだ。\n相手は、あいさつ代わりの一撃で壁を破壊できる。\n本気の攻撃が来た時、防げるかどうか……=Those siblings are the ones I should be most wary of. They can destroy the wall with a single strike that serves as a greeting. I don't know if I'll be able to block a serious attack...
 だから私は、新しい技を会得しようと思う。\n祖国に伝わる奥義を。=That’s why I think I’ll learn a new technique—the secret technique passed down in my homeland.
 すまないが貴公のアドバイスをまた聞かせてほしい。\n付き合ってくれるか？=I'm sorry, but I need your advice again. Will you help me?
-r:"^モニカからの頼みに快く応じる(.{2,10})。\n優勝に向け、新たな特訓が始まろうとしていた。$"=$1 gladly agreed to Monika's request. A new training session was about to begin for the championship.
+モニカからの頼みに快く応じる{playername}。\n優勝に向け、新たな特訓が始まろうとしていた。={playername} gladly agreed to Monika's request. A new training session was about to begin for the championship.
 
 
 

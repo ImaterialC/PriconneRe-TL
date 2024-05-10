@@ -4,13 +4,13 @@
 商店街の店員=Shop Employees
 通行人の男=Male Passerby
 
-r:"^落ちていく最中、黒服に追われる少女を連れ逃げる光景を見た\n(.{2,10})。地面に落ちる直前ミソラをかばう。それを受けて思わ\nず超能力で危機回避したミソラは、ラブに少し近づけたと笑う\nのだった。$"=$1 saw a girl being chased by the black-clad men as they were falling. He protected Misora just before he hit the ground which made Misora unintentionally saves both of them with her supernatural powers. She laughed as she realizes she's a little closer to falling in love.
+落ちていく最中、黒服に追われる少女を連れ逃げる光景を見た\n{playername}。地面に落ちる直前ミソラをかばう。それを受けて思わ\nず超能力で危機回避したミソラは、ラブに少し近づけたと笑う\nのだった。={playername} saw a girl being chased by the black-clad men as they were falling. He protected Misora just before he hit the ground which made Misora unintentionally saves both of them with her supernatural powers. She laughed as she realizes she's a little closer to falling in love.
 
-r:"^「超能力を使わない」と宣言したミソラは\n(.{2,10})の腕を掴んだまま\n城壁の上から飛び降りた。$"=Misora declared 'I won't use my powers ever again' and jumped off from the top of the walls while still holding $1's arm.
+「超能力を使わない」と宣言したミソラは\n{playername}の腕を掴んだまま\n城壁の上から飛び降りた。=Misora declared 'I won't use my powers ever again' and jumped off from the top of the walls while still holding {playername}'s arm.
 
 それは数秒後、彼らの命を奪うのに十分な高さで──……=It was high enough to take their lives in just seconds...
 
-r:"^そのとき。\nまるで走馬灯のように、\n(.{2,10})の脳裏に不思議な光景がよぎった。$"=In that moment, a strange scene plays in $1's mind.
+そのとき。\nまるで走馬灯のように、\n{playername}の脳裏に不思議な光景がよぎった。=In that moment, a strange scene plays in {playername}'s mind.
 
 えっと……=Uhh...
 僕は、何をしてたんだっけ……=What was I...
@@ -157,9 +157,9 @@ r:"^そのとき。\nまるで走馬灯のように、\n(.{2,10})の脳裏に不
 
 落ちる──！！=I'm fallingー!!
 
-r:"^城壁の上から、\n即死確実の速度で落下する\nミソラと(.{2,10})。$"=Misora and $1 is falling from the top of the town walls with a speed that's certain to be fatal.
+城壁の上から、\n即死確実の速度で落下する\nミソラと{playername}。=Misora and {playername} is falling from the top of the town walls with a speed that's certain to be fatal.
 
-r:"^地面にたたきつけられる直前、\n(.{2,10})は──$"=Just before they hit the ground, $1...
+地面にたたきつけられる直前、\n{playername}は──=Just before they hit the ground, {playername}...
 
 ミソラを抱きしめる。=Hold Misora tightly.
 
@@ -235,6 +235,6 @@ r:"^地面にたたきつけられる直前、\n(.{2,10})は──$"=Just before
 
 わたしこれからも、騎士さんとラブラブになれるように。\nまだまだいっぱいがんばっちゃいまーす★=So I can be in love with Kishi-san.\nFrom now on, I'll do my best～★
 
-r:"^──かつて敵として出会い、\n(.{2,10})たちと何度も争った少女・ミソラ。$"=──They once met as enemies.\nThe girl who fought with $1 many times, Misora.
+──かつて敵として出会い、\n{playername}たちと何度も争った少女・ミソラ。=──They once met as enemies.\nThe girl who fought with {playername} many times, Misora.
 
 敵ではなくなった現在も、\nミソラは他の少女たちと違う\nあやうさを抱えたままなのだった。=Even though they're no longer enemies, Misora still carries a danger unlike any other girl.

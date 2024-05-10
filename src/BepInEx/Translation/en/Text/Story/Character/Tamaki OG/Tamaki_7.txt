@@ -1,21 +1,21 @@
 ナレーター=Narrator
 ゴンザレス=Gonzalez
 集まった猫たち=The Gathered Cats
-r:"^タマキは「伝説の猫」を探すために探検隊を結成！　([\s\S]{2,10})や猫たちとともに高山へ向かった……と言うのはタマキの建前で、二人が出会った場所で、改まったお礼の言葉を言うのが目的だった。$"="Tamaki formed an expedition team to search for the "legendary cat"! She headed to the mountains with $1 and the cats... That was Tamaki’s pretense, and her goal was to thank them properly at the place where they’d met."
+タマキは「伝説の猫」を探すために探検隊を結成！　{playername}や猫たちとともに高山へ向かった……と言うのはタマキの建前で、二人が出会った場所で、改まったお礼の言葉を言うのが目的だった。=Tamaki formed an expedition team to search for the "legendary cat"! She headed to the mountains with {playername} and the cats... That was Tamaki’s pretense, and her goal was to thank them properly at the place where they’d met.
 伝説の猫、発見なるか！？=Will they find the legendary cat!?
 まだ見ぬ秘境に未確認猫、\n「ビッグキャット」の目撃情報を聞いたタマキ探検隊は、\n一路ジャングルの奥地へと飛んだ！=Unseen wilderness, unidentified cats, "Bigcats" sightings... Tamaki's expedition team flew to the depths of the jungle!
 待ち受ける岩！　崖！　そして猫よけビン！\n果たして、一行は無事に帰ってこられるのか！=Rocks! Cliffs! And cat repellent bottles! Will they be able to return safely!
-r:"^んー、(.{2,10})、なんなのにゃ？\n今のナレーションに無限にツッコミたいみたいな顔してるにゃ。$"=Nn~, $1, what's wrong~nya? You look like you want to endlessly retort to that narration~nya.
+んー、{playername}、なんなのにゃ？\n今のナレーションに無限にツッコミたいみたいな顔してるにゃ。=Nn~, {playername}, what's wrong~nya? You look like you want to endlessly retort to that narration~nya.
 そもそも来てるのはジャングルじゃない。=First of all, this is not a jungle.
 いつの間に探検隊なんて結成されたの？=When did the exploration team get formed?
-r:"^むむっ、(.{2,10})は、細かいことを気にするにゃあ。\nこういうのは、楽しんだ人が勝ちなのにゃ。$"=Mumu, $1, you're too nitpicky~nya. This kind of thing, the person who enjoys it wins~nya.
+むむっ、{playername}は、細かいことを気にするにゃあ。\nこういうのは、楽しんだ人が勝ちなのにゃ。=Mumu, {playername}, you're too nitpicky~nya. This kind of thing, the person who enjoys it wins~nya.
 
 凝り固まった考えは、いけないにゃ。=You shouldn't think too hard about it~nya.
 それより「ビッグキャット」は身長２メートル、\n体重500キロ、二足歩行で歩くと言われているにゃ。\n何があるかわからないからしっかりついてくるにゃ！=Besides, the "Bigcat" is said to be 2 meters tall, 500 kilograms, and walks on two legs~nya. You never know what might happen, so follow me closely~nya!
 みんな、何か不審なものを見つけたら、\nすぐに教える──=Everyone, if you find anything suspicious, let me know right away──
 ってあれは……！=Wait, what's that...!
 大変にゃ、目の前に大岩が転がってくるにゃ！=Oh no~nya, a big rock is rolling towards us~nya!
-r:"^きゃー！\n(.{2,10})、危ないにゃー！　ひしっ！$"=Kyaa! $1, watch out~nya! Hish!
+きゃー！\n{playername}、危ないにゃー！　ひしっ！=Kyaa! {playername}, watch out~nya! Hish!
 ふう……危ないところだったにゃ。=Phew... that was close~nya.
 今の岩……発泡スチロールじゃ……=That rock... It's styrofoam...
 な、なんのことかにゃ？\nあたし、知らないにゃ。=W-what are you talking about~nya? I don't know anything~nya.
@@ -39,7 +39,7 @@ r:"^きゃー！\n(.{2,10})、危ないにゃー！　ひしっ！$"=Kyaa! $1, w
 真剣に上がる気がなさそうって……何を言ってるにゃ！\nこのゴンザレスの必死な目を見るにゃ！=You don't seem to have any intention of climbing up... What are you saying! Look at my desperate eyes!
 ぼく、もう限界……バイバイ、タマキちゃん……にゃって！？\nゴンザレス、諦めたらダメにゃ！="I'm at my limit... \nBye bye, Tamaki..."\nNya!? Gonzalez, don't give up!
 ああーーーっ！\nゴンザレスーーーーーーーー！！=Aaaaah!\nGonzalez!!
-r:"^かくして、ゴンザレスは崖の下へと消えていった……\nタマキ探検隊は涙をこらえて、さらに先へと進む！$"=And so, Gonzalez disappeared into the abyss... The $1 exploration team held back their tears and moved on!
+かくして、ゴンザレスは崖の下へと消えていった……\nタマキ探検隊は涙をこらえて、さらに先へと進む！=And so, Gonzalez disappeared into the abyss... The {playername} exploration team held back their tears and moved on!
 崖、30センチぐらいしかなかった……=The cliff was only about 30 centimeters...
 ゴンザレス……！\nお前の犠牲は無駄にはしないにゃーー！=Gonzalez...!\nWe won't waste your sacrifice!
 すぐそこで死んだふりしてる……=He's playing dead right there...
@@ -50,20 +50,20 @@ r:"^かくして、ゴンザレスは崖の下へと消えていった……\n�
 猫が集まって布を被っただけだ……=It's just a bunch of cats wearing a cloth...
 …………ふぅ。=........Phew.
 はい、バイト終了にゃ。=Okay, that's it for today.
-r:"^探検隊のみんなも、整列して(.{2,10})に\n挨拶するにゃ。$"=Everyone in the exploration team, line up and say goodbye to $1.
+探検隊のみんなも、整列して{playername}に\n挨拶するにゃ。=Everyone in the exploration team, line up and say goodbye to {playername}.
 にゃーん。ということで、\nドッキリだったにゃ。\nびっくりしたかにゃ？=Nyaan. That was a prank. Did you get surprised?
 にゃはは、やっぱりびっくりはさせられなかったかにゃ。\n残念にゃ。=Nyahahaha, I guess I couldn't surprise you after all. Too bad.
 にゃ？\nなんでこんなことをしたかって？=Nya? Why did I do this?
-r:"^……(.{2,10})を、ここに連れてくるためにゃ。$"=...To bring you here, $1.
+……{playername}を、ここに連れてくるためにゃ。=...To bring you here, {playername}.
 ……ここ、あたしたちが初めて出会った場所なのにゃ。\n覚えてるかにゃ？=...This is where we first met. Do you remember?
-r:"^なんだかんだで、ここから色々始まったんだなあって思ったら、\nどうしても(.{2,10})をここに連れてきたくなったのにゃ。$"=I thought about how everything started from here, and I just wanted to bring you here,$1~nya.
+なんだかんだで、ここから色々始まったんだなあって思ったら、\nどうしても{playername}をここに連れてきたくなったのにゃ。=I thought about how everything started from here, and I just wanted to bring you here,{playername}~nya.
 ……その、普段あんまり素直になることはないから……=...I'm not very good at being honest...
-r:"^(.{2,10})……いつもありがとうにゃ。$"=$1... Thank you as always.
+{playername}……いつもありがとうにゃ。={playername}... Thank you as always.
 にゃはは、改まっていうのは、やっぱり恥ずかしいにゃ。\n今日のところはもう戻って──=Nyahahaha, it's embarrassing to say it formally.\nLet's go back for today──
 ……あっ！　あそこにビッグキャットが見えたにゃ！\n今から、追いかけにいくにゃ！=...Ah! I saw the Bigcat over there! I'm going to chase it!
 実在したのかって、当然にゃ！\nこんな大切なことを伝えるのに、嘘なんてつかないにゃ！=Of course it exists!\nI wouldn't lie about something so important!
-r:"^さあ(.{2,10})！\nビッグキャットを捕まえに行くにゃ！$"=Come on $1!\nLet's catch the Bigcat!
-r:"^気まぐれなタマキに、\n今日も(.{2,10})は振り回されるのだった。$"=$1 was swept away by Tamaki's whimsy again today.
+さあ{playername}！\nビッグキャットを捕まえに行くにゃ！=Come on {playername}!\nLet's catch the Bigcat!
+気まぐれなタマキに、\n今日も{playername}は振り回されるのだった。={playername} was swept away by Tamaki's whimsy again today.
 
 
 
@@ -109,4 +109,4 @@ r:"^気まぐれなタマキに、\n今日も(.{2,10})は振り回されるの�
 
 
 
-r:"^そもそも(.{2,10})は、\n探検隊に勧誘するために声をかけたのにゃ！$"=In the first place, $1 was called upon to be invited to join the expedition.
+そもそも{playername}は、\n探検隊に勧誘するために声をかけたのにゃ！=In the first place, {playername} was called upon to be invited to join the expedition.

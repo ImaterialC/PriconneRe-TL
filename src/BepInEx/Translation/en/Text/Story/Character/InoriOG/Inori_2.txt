@@ -1,8 +1,8 @@
 通行人女性=Passerby woman
 通行人男性=Passerby Man
 店長=Store Manager
-r:"^イノリがギャングの「シノギ」で借金の取り立てに向かった相手は行きつけの屋台だった。イノリと(.{2,10})のおかげで屋台は救われるが、店を手に入れるというギャングとしての目論見は失敗する。$"="Inori's target for debt collection through the gang's 'business' was a regular food stall. Thanks to Inori and $1, the stall was saved, but the gang's plan to take over the business failed."
-r:"^イノリと出会った日から数日後、\n再びランドソルの路地裏に迷い込んでしまった\n(.{2,10})は、聞き覚えのある声に振り返った。$"="A few days after meeting Inori, $1 found herself lost again in the alleys of Landosol. She turned around at a familiar voice."
+イノリがギャングの「シノギ」で借金の取り立てに向かった相手は行きつけの屋台だった。イノリと{playername}のおかげで屋台は救われるが、店を手に入れるというギャングとしての目論見は失敗する。=Inori's target for debt collection through the gang's 'business' was a regular food stall. Thanks to Inori and {playername}, the stall was saved, but the gang's plan to take over the business failed.
+イノリと出会った日から数日後、\n再びランドソルの路地裏に迷い込んでしまった\n{playername}は、聞き覚えのある声に振り返った。=A few days after meeting Inori, {playername} found herself lost again in the alleys of Landosol. She turned around at a familiar voice.
 ふふふんふーん♪\n今日のシノギでボスとカヤぴぃをあっと驚かせてやるですよ！=Hehehe, today's "business" will surprise Boss and Kaya-pii!
 いったぁ……！　おいこら！\nなに道の真ん中でぼーっと……=Ouch...! Hey you! What are you spacing out for?
 って、ああー！\nおまえはこの前の！\nこんなところでなにしてやがるです！=Wait, ahh! You're the one from the other day! What are you doing in a place like this?

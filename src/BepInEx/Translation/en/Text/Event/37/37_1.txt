@@ -45,7 +45,7 @@
 マザー、校庭はあちらでよろしかったかしら？=Mother, is it alright if we head over to the school grounds?
 あ、はい。=Ah, yes.
 あー、かったる……軽く本気出しすぎたわ。=Ugh... I went a little too all-out...
-r:"^どうですか(.{2,10})先輩！\n「しとやか」組が誇る噂の二大巨頭チエル＆クロエの大活躍、\nそのぽけーっとした眼球にじりじり焼きつけましたか？$"="How about it, $1-senpai? Did you fix your gaze upon the brilliant achievements of the two giants of the "Refined" team, Chieru and Chloe? Let their relaxed gazes burn into your mind?"
+どうですか{playername}先輩！\n「しとやか」組が誇る噂の二大巨頭チエル＆クロエの大活躍、\nそのぽけーっとした眼球にじりじり焼きつけましたか？=How about it, {playername}-senpai? Did you fix your gaze upon the brilliant achievements of the two giants of the "Refined" team, Chieru and Chloe? Let their relaxed gazes burn into your mind?
 かっこよかった。=You were cool.
 ぶはははは！\nちぇる程でもありませんよ！　楽勝、楽勝！=Bwahaha! It's not as much for Chieru! A piece of cake, a piece of cake!
 やあ諸君、待たせたね。\nギルドマスターのユニだよ。=Hey there, everyone. Sorry for keeping you waiting. It's Guildmaster Yuni.
@@ -153,9 +153,9 @@ r:"^どうですか(.{2,10})先輩！\n「しとやか」組が誇る噂の二�
 なん……だと……=What... did you say?
 おい同志、どういうことだ。君から聞いていた話と違うぞ。\nクロエ君も少年向け週刊絵巻のような顔になってしまったじゃないか。\nアキノ君といえば、経済感覚のちぇるった天然バラまき富豪娘のはず。=Hey, comrade, what's going on? This is different from what you told me. Chloe, you've got a face like it's from a boys' weekly pictorial story now. And Akino-kun, you're supposed to be the cheerful, scatterbrained heiress who spreads wealth around.
 そうですよ！\n野球で勝つために審判団を買収しようとした豪快すぎる武勇伝は、\nチエルの脳内球界、通称チェ・リーグでも今なお語り草ですよ？=That's right! The audacious tale of attempting to bribe the umpire panel to win in baseball is still a legend in Chloe's brain's baseball world, nicknamed the Chie-League, you know?
-r:"^え、じゃあ何、アレとか全部フィクションだったワケ。\nタマキさんのたい焼きが美味かったから店ごと買おうとした話とか。\n(.{2,10})のこと騎士にしたくて金積もうとした話とか。$"="Wait, then everything, like trying to buy out a whole shop because Tama-chan's taiyaki was delicious, or trying to give $1 knighthood by piling money, were all fiction? "
+え、じゃあ何、アレとか全部フィクションだったワケ。\nタマキさんのたい焼きが美味かったから店ごと買おうとした話とか。\n{playername}のこと騎士にしたくて金積もうとした話とか。=Wait, then everything, like trying to buy out a whole shop because Tama-chan's taiyaki was delicious, or trying to give {playername} knighthood by piling money, were all fiction? 
 本当にあった怖い話。=That was a real scary story.
-r:"^ええ、そうです。\nそして、そういったことはよろしくないと、\n(.{2,10})さまが折に触れ教えてくださったのですわ。$"="Yes, that's right. And, $1-sama has occasionally reminded us that such things are not appropriate."
+ええ、そうです。\nそして、そういったことはよろしくないと、\n{playername}さまが折に触れ教えてくださったのですわ。=Yes, that's right. And, {playername}-sama has occasionally reminded us that such things are not appropriate.
 おまえか。=You, huh.
 君ね、金のガチョウに余計な知恵を付けるんじゃあないよ。=You, don't go adding unnecessary cleverness to the golden goose.
 ですがご安心ください。今日は一日このアキノ・ウィスタリアが、\nみなさまのご活躍を魂こめて精いっぱい応援いたします。\nこれこそ何ものにも代えられぬ、値千金の友情エールですわ！=But please rest assured. Today, Akino Wistaria will wholeheartedly cheer for everyone's efforts throughout the day. This is an invaluable, priceless cheer of friendship that cannot be replaced!

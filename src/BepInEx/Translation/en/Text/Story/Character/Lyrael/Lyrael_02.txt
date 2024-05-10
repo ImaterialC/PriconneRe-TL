@@ -1,6 +1,6 @@
-r:"^ペコリーヌからの招待を受けランドソルへとやってきたライラエルとクローチェ。(.{2,10})の案内で観光を楽しみながら、ライラエルの心の中では一つの想いが人知れず大きくなりはじめていた。$"="Lyrael and Croce went to Landosol after receiving an invitation from Pecorine. While sightseeing with $1 guiding them, Lyrael feelings begins to grow."
+ペコリーヌからの招待を受けランドソルへとやってきたライラエルとクローチェ。{playername}の案内で観光を楽しみながら、ライラエルの心の中では一つの想いが人知れず大きくなりはじめていた。=Lyrael and Croce went to Landosol after receiving an invitation from Pecorine. While sightseeing with {playername} guiding them, Lyrael feelings begins to grow.
 
-r:"^ペコリーヌからの招待を受け、(.{2,10})と共に\nランドソルへとやってきたライラエルとクローチェ。$"="After receiving an invitation from Pecorine, Lyrael and Croce arrived in Landosol alongside $1."
+ペコリーヌからの招待を受け、{playername}と共に\nランドソルへとやってきたライラエルとクローチェ。=After receiving an invitation from Pecorine, Lyrael and Croce arrived in Landosol alongside {playername}.
 ライラエルははじめて訪れた異国の都市の光景に\nただただ目を奪われていた──=Lyrael is captivated by the view of the city──
 本当に……\nこのような場所があるなんて……！=So a place like this... really does exist...!
 建物も地面も石造り……\n道行く人々も『ジオ・テオゴニア』では見かけない種族ばかり……=The buildings and roads are built from stones...\nEven the people walking the streets are all races you don't see in Geo Teogonia...
@@ -53,7 +53,7 @@ r:"^ペコリーヌからの招待を受け、(.{2,10})と共に\nランドソ�
 僕も見習うよ。=I'll follow your example too.
 あなたはわたし以上に変わらないですよっ！？\n見習うなんてそんな……\nいやいや、きょとんとしないでください～っ！=But you're no different from me!? To follow my example...\nNo, no! Please don't do that!
 
-r:"^ペコリーヌと(.{2,10})のやり取りを見て、\nライラエルとクローチェはおかしそうに笑うのだった。$"="Lyrael and Croce had fun looking at how Pecorine and $1 interacts with one another."
+ペコリーヌと{playername}のやり取りを見て、\nライラエルとクローチェはおかしそうに笑うのだった。=Lyrael and Croce had fun looking at how Pecorine and {playername} interacts with one another.
 その後──\n政務に戻ったぺコリーヌと別れたライラエルたちは\n一息ついた後にランドソルの観光をはじめるのだった。=After that, Pecorine went back to deal with her paperworks. Lyrael parted ways with her and took a short break before continuing their sightseeing trip again. 
 ……それでは、改めて散策をはじめましょうか。=...Let's start walking again, shall we?
 クローチェ、騎士。\nあまり遠くへは行かないようにしてくださいね。\nわたしの通信魔法があるとはいえ、異国には変わりありません。=Croce, Sir Knight, please don't go too far. Even with my communication magic, we are still in a foreign country.

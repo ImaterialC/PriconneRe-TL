@@ -1,8 +1,8 @@
 小学生=Grade Schooler
 小学生たち=Grade Schoolers
 
-r:"^アメスの力で、モニカたちは夢を見る。子供たちと仲良くしているモニカを見て、([\s\S]{2,10})はモニカの優しさを感じる。([\s\S]{2,10})は普段のお礼として、モニカに駄菓子をおごるのだった。$"=With the power of Ameth, Monika and $1 have a dream. Seeing Monica getting along with the children, $1 feels Monica's kindness. As a usual gratitude, $1 treats Monica to some sweets.
-r:"^モニカと(.{2,10})は\n二人きりで買い出しに向かっていた。$"=Monika and $1 headed out for shopping alone.
+アメスの力で、モニカたちは夢を見る。子供たちと仲良くしているモニカを見て、{playername}はモニカの優しさを感じる。{playername}は普段のお礼として、モニカに駄菓子をおごるのだった。=With the power of Ameth, Monika and {playername} have a dream. Seeing Monica getting along with the children, {playername} feels Monica's kindness. As a usual gratitude, {playername} treats Monica to some sweets.
+モニカと{playername}は\n二人きりで買い出しに向かっていた。=Monika and {playername} headed out for shopping alone.
 いいか、寄り道はなしだ。\n無駄なものを買っている余裕などないからな。=Listen, no detours. We can't afford to buy unnecessary things.
 そう……そんな余裕はない、のだが……\nま、まさか道中に菓子屋があるとは……！=That's right... We don't have time for that, but... I-I didn't think there'd be a confectionery shop along the way...!
 いや！　菓子に目がくらんでいるわけではないぞ！\nしかし、せっかく菓子屋を見つけたのだし、\nちょっとくらいなら……=No! It's not like I'm obsessed with sweets! But since we found a sweets store, a little indulgence wouldn't hurt...
@@ -37,12 +37,12 @@ r:"^モニカと(.{2,10})は\n二人きりで買い出しに向かっていた�
 以前のあんたとモニカの記憶を元に作った『夢』なんだけど、\nお菓子をもらってあんなに喜ぶモニカってやっぱり……\nどう見ても……=It was a "dream" based on your and Monika's previous memories, but Monika's joy when receiving the candy... it's quite evident...
 ま、いいか。\n人生いろいろ、みんなちがってみんないい、ってことで。\nそれじゃあ、また会いましょ♪=Well, whatever. Life is different for everyone, but it's all good. Well then, let's meet again♪
 
-r:"^(.{2,10})、起きたか？\n私もついさっき目が覚めた。\nどうやら、道で眠ってしまっていたようだな。$"=$1, are you awake?\nI just woke up a little while ago. It seems like I fell asleep on the road.
+{playername}、起きたか？\n私もついさっき目が覚めた。\nどうやら、道で眠ってしまっていたようだな。={playername}, are you awake?\nI just woke up a little while ago. It seems like I fell asleep on the road.
 
 前にも、こんなことがあったが……\nもしや駄菓子屋の夢を見たのではないか？=This has happened before... Could it be that we dreamed about the confectionery store again?
 そうか……またしても同じ夢を見ていたようだ。\n今回も、懐かしい感覚を覚えた……貴公もか？\nあの夢はいったい……？=I see... It seems like we had the same dream once again. This time, I felt a nostalgic sensation... Did you feel it too? What on earth is that dream...?
 原因はまだわからないな。\nこれからも調査を続けるしかなさそうだ。=We still don't know the cause. It seems we'll have to continue the investigation.
-r:"^しかし、何度も同じ夢を見るとは……\nもしかすると私と(.{2,10})の気持ちが\nつながってきているのかも……$"=Still, having the same dream over and over again...\nMaybe my feelings for $1 and I are connected...
+しかし、何度も同じ夢を見るとは……\nもしかすると私と{playername}の気持ちが\nつながってきているのかも……=Still, having the same dream over and over again...\nMaybe my feelings for {playername} and I are connected...
 って、なにを考えているんだ、私は！？\n口に出さなくてよかった……\nこんなこと、本人には言えん。=Wait, what am I thinking?! I shouldn't have said that... I can't say such things to the person directly.
 ま、まぁ、なんだ……\n夢で言った気持ちは嘘ではないぞ。\n貴公には感謝している……=W-Well... Anyway, the feelings I expressed in the dream were not a lie. I'm grateful to you...
 ひとまず、これからもよろしく頼むぞ。=For now, I'll be relying on you. Please take care of me.

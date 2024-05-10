@@ -1,4 +1,4 @@
-r:"^誰かを好きになる大変さを思い黄昏るミソラのもとに、(.{2,10})\nがやってくる。ミソラは「恋してフラれて傷つきたい」と本心\nを吐露。そして突如、予想もしない行動に出るのだった。$"=Misora is thinking about how hard it is to love someone underneath the sunset, when $1 came to her.\nMisora told him what she truly wanted and suddenly,\nshe ndoes something no one would've expected.
+誰かを好きになる大変さを思い黄昏るミソラのもとに、{playername}\nがやってくる。ミソラは「恋してフラれて傷つきたい」と本心\nを吐露。そして突如、予想もしない行動に出るのだった。=Misora is thinking about how hard it is to love someone underneath the sunset, when {playername} came to her.\nMisora told him what she truly wanted and suddenly,\nshe ndoes something no one would've expected.
 
 ──数日後。=──A couple of days later.
 
@@ -164,6 +164,6 @@ r:"^誰かを好きになる大変さを思い黄昏るミソラのもとに、(
 
 えっ──=Whaー
 
-r:"^(.{2,10})の腕を抱えたミソラは、?\n問答無用で城壁の上から身を躍らせた。$"=While still holding $1's arm, Misora leapt from\nthe top of the walls.
+{playername}の腕を抱えたミソラは、?\n問答無用で城壁の上から身を躍らせた。=While still holding {playername}'s arm, Misora leapt from\nthe top of the walls.
 
 ──必然。\n支えのなくなった二人は重力に引かれ、\n地面へと真っ逆さまに落ちていく、落ちていく、落ちていく──=──Inevitably with nothing holding them up, the two are pulled by gravity and starts falling headfirst to the ground.

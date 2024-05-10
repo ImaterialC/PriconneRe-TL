@@ -7,8 +7,8 @@
 ブラドの案内で赴いた街で、住人の魔族に歓迎されるイリヤたち。力の完全復活に必要な「伝説の吸血鬼としての記憶」を思い出す傍ら、イリヤは王として数多の魔族が住むその地を治めることになる。=Brad guided Illya and the others towards the city, where they are welcomed by its residents of demons. To restore her powers, Illya will need to remember her "Memories of Being the Legendary Vampire”. And to do that, Illya will need to reign over the city as their ruler.
 かつて伝説の吸血鬼が支配していた地。\nそこを目指してイリヤたちは険しい道を進んでいた。=The Land Once Ruled by the Legendary Vampire. Illya and the others are heading there through a rugged path.
 イリヤ様、この先でございます。=Illya-sama, it's just ahead.
-r:"^うむ。\n足場が悪いのう……(.{2,10})よ、気をつけるのじゃぞ。$"=Hmm. The road is quite bad...$1, be careful.
-r:"^はぁ～、随分遠いとこにあるんだね、その場所ってさ。\nボク、疲れてきちゃったよ。ねぇ(.{2,10})さん、\nボクをお姫さまみたいに抱っこさせてあげるよ。$"=*sigh*, that place is pretty far away, isn't it? I'm starting to get tired. Hey, $1-san, could you carry me like a princess?
+うむ。\n足場が悪いのう……{playername}よ、気をつけるのじゃぞ。=Hmm. The road is quite bad...{playername}, be careful.
+はぁ～、随分遠いとこにあるんだね、その場所ってさ。\nボク、疲れてきちゃったよ。ねぇ{playername}さん、\nボクをお姫さまみたいに抱っこさせてあげるよ。=*sigh*, that place is pretty far away, isn't it? I'm starting to get tired. Hey, {playername}-san, could you carry me like a princess?
 やめぬか！　こやつはわらわの眷属じゃ！　勝手にイチャつくでないわ！\nそもそも！　我が眷属はともかく。\nユキ、なぜお主がついてきておるのじゃ？=Stop that! Don't just flirt in front of me, he's still my familiar! And why are you still following me in the first place?
 だってボク、まだ吸血鬼になってないんでしょ？\nもらった魔力だって、ボクの肌ツヤをよくした程度だしね。=I mean, I haven’t become a vampire yet, right? The magical power I got only made my skin smoother.
 確かに、お主自身が吸血鬼になったという気配はないが……\nお主……人の身に余るほどの魔力を手にしておきながら、\n出てくる感想がそれか……？=It’s true that you don’t seem to be a vampire yet but...\nYou have more magical energy than what a human could handle, and that’s all you have to say about it?
@@ -47,7 +47,7 @@ r:"^はぁ～、随分遠いとこにあるんだね、その場所ってさ。\
 ニンゲン、弱そうなニンゲンがいるぞー！=A human! There's a weak-looking human!
 追い出せー！=Let's throw him out!
 ここは魔の者のすみかだぞー！=This is the demon's home!
-r:"^ふふっ、(.{2,10})さんも大人気だね。\nそんなに魔物たちに囲まれるなんて。$"=Heehee. You're so popular, $1-san. I didn't think you'd be surrounded by so many monsters.
+ふふっ、{playername}さんも大人気だね。\nそんなに魔物たちに囲まれるなんて。=Heehee. You're so popular, {playername}-san. I didn't think you'd be surrounded by so many monsters.
 r:"^そうじゃった！\n.{2,10}は魔力も何もないんじゃったな！？$"=Oh right! You don't have any magical energy!
 やめよ！=Stop it!
 こやつはわらわの大切な眷属じゃ！\n手を出すことは許さぬ。=He's my precious familiar! I won't allow you to lay a finger on him.

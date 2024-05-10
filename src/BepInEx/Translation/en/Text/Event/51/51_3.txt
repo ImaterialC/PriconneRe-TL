@@ -1,4 +1,4 @@
-r:"^ユカリは、ジュンが休暇でキャンプ場へ来ていると知って麦しゅわを勧める。一方ランドソルでは、(.{2,10})が所属ギルドなどから行方不明扱いされているアオイとユカリの行方を追っていた。$"="Yukari, upon learning that Jun is on vacation and at the campsite, suggests having some "Barley Soda". Meanwhile, in Landosol, $1 is investigating the whereabouts of Aoi and Yukari, who have been reported missing by their guilds."
+ユカリは、ジュンが休暇でキャンプ場へ来ていると知って麦しゅわを勧める。一方ランドソルでは、{playername}が所属ギルドなどから行方不明扱いされているアオイとユカリの行方を追っていた。=Yukari, upon learning that Jun is on vacation and at the campsite, suggests having some "Barley Soda". Meanwhile, in Landosol, {playername} is investigating the whereabouts of Aoi and Yukari, who have been reported missing by their guilds.
 
 キャンプ場で最高の一杯を求めるユカリは、\nジュンと共に薪割りを行っていた──=In search of the perfect drink at the campsite, Yukari and Jun were splitting firewood together──
 ……うん。これくらい用意すれば、薪は持つだろう。\nそれじゃあ、食事まで少し休もうか。=...Yeah, if we prepare this much, we should have enough firewood. Well then, let's take a little break until mealtime.
@@ -85,7 +85,7 @@ r:"^ユカリは、ジュンが休暇でキャンプ場へ来ていると知っ�
 ああ。楽しくなってきたな！\nんくっ……んくっ……んくっ……！=Ahh. This is getting fun! Ngh... ngh... ngh!
 ぷっは〜〜〜〜〜っ！！\n気ン持ちいい〜〜〜〜っ！！=Pwaaaaah!! Feels great!!
 
-r:"^──一方その頃、ユカリの直近の動向を探るため、\n(.{2,10})はユカリ行きつけの飲食店を訪れていた。$"=──Meanwhile, $1 visited a restaurant that Yukari frequents in order to gather information about Yukari's recent activities.
+──一方その頃、ユカリの直近の動向を探るため、\n{playername}はユカリ行きつけの飲食店を訪れていた。=──Meanwhile, {playername} visited a restaurant that Yukari frequents in order to gather information about Yukari's recent activities.
 
 最近ユカリさんに会った？=Have you seen Yukari-san lately?
 ん？　ユカリちゃんかい？\nこの前一緒に飲んだばっかりだぞ。=Huh? Yukari-chan? We just had a drink together not too long ago.
@@ -96,7 +96,7 @@ r:"^──一方その頃、ユカリの直近の動向を探るため、\n(.{2,
 いいキャンプ場を教えたから、そこに飲みに行ってるんじゃないかな。\nなんと言ってもキャンプ飲みは、人生観が変わる体験だからね……=I told her about a great campsite, so maybe she went there for a drink. After all, camp drinking is an experience that can change your perspective on life...
 ……キャンプ場に向かおう！=...Let's head to the campsite!
 
-r:"^失踪したアオイとユカリはキャンプ場に向かったと推測し、\n(.{2,10})は自らもそこへ向かうことに決める。$"=Assuming that Aoi and Yukari had gone to the campsite, $1 decided to go there himself.
+失踪したアオイとユカリはキャンプ場に向かったと推測し、\n{playername}は自らもそこへ向かうことに決める。=Assuming that Aoi and Yukari had gone to the campsite, {playername} decided to go there himself.
 
 ほうほう……？=Oh-ho...?
 ズモモモ……=Zumomomomo...

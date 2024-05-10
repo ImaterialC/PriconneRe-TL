@@ -26,9 +26,9 @@
 
 ……どうしたの？=...What's wrong?
 
-r:"^おお！　(.{2,10})よ、いいところに来おったな！\nこやつをここから摘まみだしてくれぬか！$"=Oh! $1, you've come at the right time! Can you help me kick him\n out of here?!
+おお！　{playername}よ、いいところに来おったな！\nこやつをここから摘まみだしてくれぬか！=Oh! {playername}, you've come at the right time! Can you help me kick him\n out of here?!
 
-r:"^ふふっ。\n(.{2,10})さんもボクの美に惹かれて来たんだね。\nだったらキミからもお願いしてよ、この吸血鬼さんにさ。$"=Hehe. You're attracted to my beauty too, aren't you, $1-san? Now why don't you help me get a favor from this\n vampire?
+ふふっ。\n{playername}さんもボクの美に惹かれて来たんだね。\nだったらキミからもお願いしてよ、この吸血鬼さんにさ。=Hehe. You're attracted to my beauty too, aren't you, {playername}-san? Now why don't you help me get a favor from this\n vampire?
 
 このボクを──=I want──
 
@@ -59,7 +59,7 @@ r:"^ふふっ。\n(.{2,10})さんもボクの美に惹かれて来たんだね�
 背負われた美も困惑しておろうな。=I'm sure that "beauty" would be baffled as well.
 
 
-r:"^……のう(.{2,10})よ、なんなのじゃこやつは。\nこんなにも訳の分からぬやつは初めて見るぞ。$"=...Hey, $1, what's with this guy? I've never seen anyone so\nincomprehensible before.
+……のう{playername}よ、なんなのじゃこやつは。\nこんなにも訳の分からぬやつは初めて見るぞ。=...Hey, {playername}, what's with this guy? I've never seen anyone so\nincomprehensible before.
 
 ふふん、イリヤも誇らしいでしょ？\nこのボクの美しさを永遠のものにできるんだよ♪=Heheh. Aren't you proud too, Illya? You'll be the one to make my beauty eternal after all♪
 

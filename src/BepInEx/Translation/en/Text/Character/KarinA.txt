@@ -9,13 +9,21 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の�
 ##S1##
 ミゼラブルミスト=Miserable Mist
 前方の敵すべての物理攻撃力と魔法攻撃力を大ダウンさせ、物理防御力と魔法防御力を小ダウンさせる。=Greatly lowers all vanguard enemies' P.ATK and M.ATK and slightly lowers their P.DEF and M.DEF.
-r:"^範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 0.795s\n►Lowers all vanguard enemies' P.ATK by $1 for 12s.\n►Lowers all vanguard enemies' M.ATK by $2 for 12s.\n►Lowers all vanguard enemies' P.DEF by $3 for 12s.\n►Lowers all vanguard enemies' M.DEF by $4 for 12s.
+r:"^範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=►Lowers all vanguard enemies' P.ATK by $1 for 12s.\n►Lowers all vanguard enemies' M.ATK by $2 for 12s.\n►Lowers all vanguard enemies' P.DEF by $3 for 12s.\n►Lowers all vanguard enemies' M.DEF by $4 for 12s.
 
 ##S2##
 メディク=Medic
 前方の味方すべてのＨＰを中回復させ、物理防御力と魔法防御力を中アップさせる。=Moderately recovery all vanguard allies' (including self) HP and boosts their P.DEF and M.DEF.
-r:"^範囲内の味方のＨＰを(\d+)回復範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.435s\n►Recovers all vanguard allies' HP by $1.\n►Boosts all vanguard allies' P.DEF by $2 for 12s.\n►Boosts all vanguard allies' M.DEF by $3 for 12s.
+r:"^範囲内の味方のＨＰを(\d+)回復範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ$"=►Recovers all vanguard allies' HP by $1.\n►Boosts all vanguard allies' P.DEF by $2 for 12s.\n►Boosts all vanguard allies' M.DEF by $3 for 12s.
 
 ##EX##
 アルケミックハーモニー=Alchemic Harmony
 アルケミックハーモニー+=Alchemic Harmony+
+
+##UE##
+ポーションボトル=Potion Bottle
+
+##S1+##
+ミゼラブルミスト+=Miserable Mist+
+前方の敵すべての物理攻撃力と魔法攻撃力を大ダウンさせ、物理防御力と魔法防御力と行動速度を小ダウンさせる。=Greatly lowers all vanguard enemies' P.ATK and M.ATK and slightly lowers their P.DEF, M.DEF, and action speed.
+r:"^範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の行動速度を一定時間低下させる$"=►Lowers all vanguard enemies' P.ATK by $1 for 12s.\n►Lowers all vanguard enemies' M.ATK by $2 for 12s.\n►Lowers all vanguard enemies' P.DEF by $3 for 12s.\n►Lowers all vanguard enemies' M.DEF by $4 for 12s.\n►Reduce all vanguard enemies' action speed to 90% for 12s.

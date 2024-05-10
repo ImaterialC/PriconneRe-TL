@@ -53,7 +53,7 @@
 イベントいいですね☆\nだったらわたし、旅行とか行きたいです！=An event sounds great!☆\nThen I wanna go on a trip!
 ああ、前に福引き当てて海に行ったわね～\nな～にが『魅惑の南国ツアー』よ。近場の海だったじゃない。=Aah, we went to the beach off that lucky pull that one time, didn't we?\nWhat was with that, "vacation at a tropical resort" thing? We just ended up going to some nearby beach!
 でも、と～っても楽しかったですよ♪\n４人で海を満喫できましたし！=But, it was [i]really[/i] fun. ♪\nThe four of us got to have our fill of the beach!
-r:"^……あれ？\nあの時海に行ったのって……\nわたしと、キャルちゃんと、(.{2,10})くん……でしたよね？$"="...Huh?\nWhen we went to that beach, it was...\nMe, Kyaru, and $1... right?"
+……あれ？\nあの時海に行ったのって……\nわたしと、キャルちゃんと、{playername}くん……でしたよね？=...Huh?\nWhen we went to that beach, it was...\nMe, Kyaru, and {playername}... right?
 そりゃそうでしょ？\n【美食殿】のメンバーで行ったんだから。\n寝ボケてんの？=Well, yeah, course. We went as members of the Gourmet Guild. You still half asleep?
 で、ですよねっ？\n……あ、そうだ！\n旅行じゃなくて、また【美食殿】で催しものに参加するってどうです？=O-Of course. ...Ah, right! Instead of a trip, how about we could take part in a festival as the Gourmet Guild!
 催し……大晦日にやったギルドレースみたいな？\nああいうのもまぁ悪くはないわね。\nみんなで一緒に走って……=A festival...\nYou mean like that guild race we did on New Year's Eve?\nThat doesn't sound like a bad idea either. We could all run together...
@@ -100,7 +100,7 @@ r:"^……あれ？\nあの時海に行ったのって……\nわたしと、キ
 そのはずで──っ！？=We should be-
 キャルちゃん、何か聞こえませんか……？=Kyaru, do you hear something...?
 なっ、なによあたしを驚かす気！？\nおあいにく様、あたしはそんなの全然平気よ、平気！=Wh-What, trying to scare me!?\nWell sorry but, I'm perfectly fine! I'm fine!
-r:"^はぁ！？　なに言ってんのよ、そんなわけないでしょ！\n……それより(.{2,10})、ちょっと手を出しなさい。\nあんたが迷子にならないように、手を握っててあげるわ！$"="Huh?! What are you talking about?\nThat's impossible! ...Anyway, $1, keep your hands to yourself for a moment. I'll hold your hand so you don't get lost!"
+はぁ！？　なに言ってんのよ、そんなわけないでしょ！\n……それより{playername}、ちょっと手を出しなさい。\nあんたが迷子にならないように、手を握っててあげるわ！=Huh?! What are you talking about?\nThat's impossible! ...Anyway, {playername}, keep your hands to yourself for a moment. I'll hold your hand so you don't get lost!
 キャルちゃん、怖いの？=Kyaru, are you afraid?
 キャルちゃんの手を握る。=Hold Kyaru's hand.
 へっ！？　な、なによ、急に……\nまさか、あたしが怖がってるとでも思ったわけ？\nそれなら余計なお世話よ！　……まぁ、握っててあげるけど。=Heeuh!? What's with you...?\nYou didn't [i]really[/i] think I was afraid, did you?\nIf you did, then I don't need your concern!\n...Well, I'll hold your hand though.

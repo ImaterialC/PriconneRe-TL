@@ -1,7 +1,7 @@
 夜を変える儀式=Ritual to Change the Night
 
 
-r:"^ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼の記憶を呼び起す儀式で、イリヤの意識を塗りつぶそうと企むブラド。(.{2,10})とユキは儀式を阻止するため、イリヤのもとへ駆けつける。$"=Illya is restrained by Brad's ploy. Brad is plotting to blot out her consciousness with the ritual to summon the memories of the legendary vampire. $1 and Yuki rush to Illya's side to stop the ceremony.
+ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼の記憶を呼び起す儀式で、イリヤの意識を塗りつぶそうと企むブラド。{playername}とユキは儀式を阻止するため、イリヤのもとへ駆けつける。=Illya is restrained by Brad's ploy. Brad is plotting to blot out her consciousness with the ritual to summon the memories of the legendary vampire. {playername} and Yuki rush to Illya's side to stop the ceremony.
 
 ……イリヤ様に付き従うことこそ、私の役目。=...It’s my duty to follow Lady Illya.
 ずっと見てたの？=Were you watching the whole time?
@@ -101,7 +101,7 @@ r:"^ブラドの策略により、拘束されるイリヤ。伝説の吸血鬼�
 
 
 
-r:"^キミさ……\nボクや(.{2,10})さんに目を留めたこと、ないでしょ？$"=You... You've never caught my eye or $1-san's, have you?
+キミさ……\nボクや{playername}さんに目を留めたこと、ないでしょ？=You... You've never caught my eye or {playername}-san's, have you?
 
 
 
@@ -127,7 +127,7 @@ r:"^キミさ……\nボクや(.{2,10})さんに目を留めたこと、ない�
 
 
 
-r:"^小癪な……わらわと(.{2,10})を分断するとは。\n……人質のつもりか？　$"=How irritating... To think you'd split $1 and me apart... Are you trying to take me hostage?　
+小癪な……わらわと{playername}を分断するとは。\n……人質のつもりか？　=How irritating... To think you'd split {playername} and me apart... Are you trying to take me hostage?　
 
 
 

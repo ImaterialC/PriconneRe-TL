@@ -1,17 +1,17 @@
 
-r:"^アストライア茸が見せる幻覚の中で、アオイたちは理想の自分になっていた。だが、そこには(.{2,10})がいないと絶望する。一同は理想の自分を捨て、(.{2,10})を求めて幻覚を振り切る。$"=In the hallucinations caused by the Astraea mushrooms, Aoi and the others had become their ideal selves. But they despair when they realize that $1 is not there. They abandon their ideal selves and shake off the hallucinations in search of $2.
+アストライア茸が見せる幻覚の中で、アオイたちは理想の自分になっていた。だが、そこには{playername}がいないと絶望する。一同は理想の自分を捨て、{playername}を求めて幻覚を振り切る。=In the hallucinations caused by the Astraea mushrooms, Aoi and the others had become their ideal selves. But they despair when they realize that {playername} is not there. They abandon their ideal selves and shake off the hallucinations in search of {playername}.
 
 キノコの毒による幻覚に囚われているアオイたちは、\n理想の自分になれたと勘違いし、舞い上がっていた──=Aoi and the others, who were trapped in hallucinations caused by the mushroom poison, mistakenly thought they had become their ideal selves and were overjoyed──
 
 おおっ、すごいです！　なんだか体の奥底から湧いてきますよ！\nこれがずっと憧れていたリア充パワーなんですねっ！=Wow, this is amazing! I feel something bubbling up from the depths of my body! This is the real-life power I've always longed for!
 
-r:"^(.{2,10})さんもあのキノコを食べましたよね？\nどうですか？　友達100人できた気分は？$"=$1-san also ate that mushroom, right? How do you feel? Do you feel like you've made 100 friends?
+{playername}さんもあのキノコを食べましたよね？\nどうですか？　友達100人できた気分は？={playername}-san also ate that mushroom, right? How do you feel? Do you feel like you've made 100 friends?
 
 ついにＢＢ団の悲願、達成ですよ！　盛大にお祝いしましょ～！\nもちろん100人の友達にも参加してもらってパーティーするんです！=Finally, BB-Brigade's long-cherished wish has been fulfilled! Let's celebrate in a big way! Of course, we'll have a party with 100 friends!
 ──────アオイ、起きて！=──────Aoi, wake up!
 寝てもないのに……？\n何を言ってるんでしょうか……？=I'm not sleeping...? What are you talking about...?
 
-r:"^あははっ、(.{2,10})さんってば、面白いこと言いますね。\n目を覚ますも何も、ずっと憧れてた夢が叶ったばかりじゃないですか〜$"=Ahaha, $1-san, you say funny things. Wake up or not, I just realized my dream that I've always longed for~
+あははっ、{playername}さんってば、面白いこと言いますね。\n目を覚ますも何も、ずっと憧れてた夢が叶ったばかりじゃないですか〜=Ahaha, {playername}-san, you say funny things. Wake up or not, I just realized my dream that I've always longed for~
 
 ふふっ……みんなから仕事も飲み方も、\n私の全てを憧れられて、とってもいい気分……♪=Fufu... I'm admired by everyone for my work and drinking style, and everything about me... I feel so good...♪
 どう？　キミ、お姉さんと過ごす時間は楽しいかしら？=How about you? Do you enjoy spending time with your big sister?
@@ -31,23 +31,23 @@ r:"^あははっ、(.{2,10})さんってば、面白いこと言いますね。\
 ──────みんな、しっかりして！=──────Everyone, get a grip!
 も〜、しっかりしてほしいのは、キミのほうよ。\nさっきから変なことばっかり言って………………あれ？=Geez... You're the one who needs to get a grip. You've been saying weird things since earlier... Huh?
 
-r:"^(.{2,10})くん……？\nさっきから声は聞こえるけど……そういえば、姿はどこにも……？$"=$1-kun...? I can hear his voice since earlier... But come to think of it, his figure is nowhere to be seen...?
+{playername}くん……？\nさっきから声は聞こえるけど……そういえば、姿はどこにも……？={playername}-kun...? I can hear his voice since earlier... But come to think of it, his figure is nowhere to be seen...?
 
 はっはーん！　きっとかくれんぼしてるんですよ！\n私の100人の友達の中にいるはずです！　ちょっと探してきますね！=Ha-han! He must be playing hide-and-seek! He must be among my 100 friends! I'll go look for him!
 はあっ……はあっ……！\n友達100人の中を探し回ったのに……どこにもいませんでした……！=Haa... Haa...! I searched through my 100 friends, but... He's nowhere to be found...!
 
 ──────早く起きて！=──────Wake up already!
 
-r:"^また、(.{2,10})くんの声だけが……\nここにいないのに……一体どうなってるの……？$"=Again, $1-kun's voice...\nBut he's not here... What's going on...?
+また、{playername}くんの声だけが……\nここにいないのに……一体どうなってるの……？=Again, {playername}-kun's voice...\nBut he's not here... What's going on...?
 
-r:"^キャンプ場に来た(.{2,10})さんに、\nアストライア茸の料理を食べてもらったはずですが……$"=We came to the campsite with $1-san and had him eat Astraea mushroom dishes...
+キャンプ場に来た{playername}さんに、\nアストライア茸の料理を食べてもらったはずですが……=We came to the campsite with {playername}-san and had him eat Astraea mushroom dishes...
 
 
 まさか……\nアオイちゃん……アストライア茸に、幻覚作用はあるかい……？=Don't tell me... Aoi-chan... Does Astraea mushroom have hallucinogenic effects...?
 えっ？　いえ、そんなことは……\nどうしてそんなことを？=Huh? No, no way... Why do you say that?
 いや、みんなでおかしなことになるなんて、普通はありえないからね……\n可能性があるとすれば、あのキノコくらいじゃないかと……=Well, it's not normal for us to be acting weird like this... The only possibility is that mushroom...
 
-r:"^そういえば……料理を食べてたら、突然友達が100人できていて……\nそしたら(.{2,10})さんの姿がいつの間にか……$"=Come to think of it... When we ate the dishes, I suddenly made a hundred friends... And then I saw $1-san...
+そういえば……料理を食べてたら、突然友達が100人できていて……\nそしたら{playername}さんの姿がいつの間にか……=Come to think of it... When we ate the dishes, I suddenly made a hundred friends... And then I saw {playername}-san...
 
 で、でも……アストライア茸にそんな毒があるなんて話……\n私でも聞いたことがありませんよ……！=But... I've never heard of such a poison in Astraea mushrooms...
 もしくは……アストライア茸ではなかったのかもしれないね……=Or maybe...it wasn't an Astraea Mushroom...
@@ -56,7 +56,7 @@ r:"^そういえば……料理を食べてたら、突然友達が100人でき�
 ──────正気に戻って！=──────Come back to your senses!
 そうです！　正気に戻ることです！\n……あぁ、やっぱり今正気じゃなかったんですね……=That's right! Come back to your senses! ...Ah, I guess we weren't sane until now...
 
-r:"^でも……(.{2,10})さんの声を聞くたびに……\nだんだん頭もスッキリしてきましたよ……！$"=But... Every time I hear $1-san's voice... My head clears up a little bit...!
+でも……{playername}さんの声を聞くたびに……\nだんだん頭もスッキリしてきましたよ……！=But... Every time I hear {playername}-san's voice... My head clears up a little bit...!
 
 ああ……\n少年と再び会えるように、この幻覚から抜け出そう！=Yeah... I'll get out of this hallucination so I can see the boy again!
 そ、そんなぁ……！\n今の私は、ずっと憧れてた私なのに……！=N-No way...! I’ve always admired myself right now...!
@@ -77,7 +77,7 @@ r:"^でも……(.{2,10})さんの声を聞くたびに……\nだんだん頭�
 私は……何があっても君を守り続けたい！=I want... To keep protecting you no matter what!
 私は……！　あなたと二人でたくさんの友達を作りたいですっ！=I want...! To make a lot of friends with you!
 
-r:"^………………はっ！？\n(.{2,10})さん！！？？$"=............Huh!? \n$1-san!!??
+………………はっ！？\n{playername}さん！！？？=............Huh!? \n{playername}-san!!??
 よかった！　目が覚めたんだね！=Thank goodness! You woke up!
 
 ……ありがとう、少年。不甲斐ないところを見せてしまったね……\n君の声は、確かに私の耳に届いていたよ。=...Thank you, boy. I'm sorry for showing you such a pathetic sight... Your voice was definitely reaching my ears.
@@ -127,7 +127,7 @@ r:"^………………はっ！？\n(.{2,10})さん！！？？$"=............Hu
 はあ、はあ……\nなんとか、倒せたわね……=Haa, haa... We somehow managed to defeat it...
 ああ……ずっとキノコの幻覚にやられていたせいで、\n体の動きは本調子ではなかったがね……=Yeah... My body wasn't in top shape because I was under the influence of the mushroom hallucination for so long...
 
-r:"^(.{2,10})さん、ありがとうございます……！\n私たちのこと、ずっと守っててくれていたんですよね……？$"=$1-san, thank you...! You've been protecting us all this time, haven't you...?
+{playername}さん、ありがとうございます……！\n私たちのこと、ずっと守っててくれていたんですよね……？={playername}-san, thank you...! You've been protecting us all this time, haven't you...?
 
 あなたがいなかったら、\nきっとずっと幻覚を見たまま、あの魔物にも今頃……=If you weren't here, we'd probably still be seeing hallucinations, and by now... That monster would have...
 ねえ……\nでも、そもそもどうしてキミがここに来たの……？=Hey... But why did you come here in the first place...?
@@ -151,14 +151,14 @@ r:"^(.{2,10})さん、ありがとうございます……！\n私たちのこ�
 少年が聞いたという、毒キノコの噂がそれだとすれば、\nこのキャンプ場の安全面は高まるというわけだ。=If that's what the rumor of the poisonous mushrooms that the boy heard was about, then this campsite will be safer.
 元々、森の中に入って行きさえしなければ問題なかったとはいえ、\n危険な魔物が潜んでいるよりはマシだからね。=It wasn't a problem as long as we didn't go into the forest in the first place, but it's better than having a dangerous monster lurking around.
 
-r:"^そういえば、(.{2,10})さんもキノコを食べましたよね？$"=By the way, $1-kun also ate the mushrooms, right?
+そういえば、{playername}さんもキノコを食べましたよね？=By the way, {playername}-kun also ate the mushrooms, right?
 
 というか、私たちが無理やり……\nううっ……なにからなにまですみません……=Or rather, we forced him to... ugh... I'm sorry for everything...
 
 確かに気になるね。魔物の胞子も効かなかったようだし……\nどうして少年だけ平気だったんだろうか……？=I'm curious about that too. He didn't seem to be affected by the monster's spores either... why was he the only one who was fine...?
 
 
-r:"^……(.{2,10})くんって、\n理想の自分の姿って、思い浮かべたことある？$"=...$1-kun, do you have an image of your ideal self?
+……{playername}くんって、\n理想の自分の姿って、思い浮かべたことある？=...{playername}-kun, do you have an image of your ideal self?
 
 それが何か関係あるのかい？=What does that have to do with anything?
 ほら……私たち、幻覚の中ではなりたい自分になっていたわよね。\nそれが幸せで幸せでたまらなくて……=Well... we were all becoming who we wanted to be in our hallucinations. And we were so happy and ecstatic...
@@ -175,7 +175,7 @@ r:"^……(.{2,10})くんって、\n理想の自分の姿って、思い浮か�
 独りよがりになって、あなたにも心配をかけてしまいました……\nそんなんじゃいつまで経っても友達なんかできるわけありませんよね。=I became self-centered and worried you too... I can't make any friends like this.
 いつも自分をしっかりと持ってるあなたは、私の憧れです！\nさすが、ＢＢ団の団長さんです！=You're always confident and true to yourself. You're my admiration! You're amazing, the leader of the BB-Brigade!
 
-r:"^いつも飾らない(.{2,10})のおかげで、\nアオイたち３人は、正気を取り戻すのだった。$"=Thanks to $1's honesty, Aoi and the others regained their sanity.
+いつも飾らない{playername}のおかげで、\nアオイたち３人は、正気を取り戻すのだった。=Thanks to {playername}'s honesty, Aoi and the others regained their sanity.
 
 
 

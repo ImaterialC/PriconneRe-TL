@@ -2,6 +2,6 @@
 さらなる闘いを求めて=Seeking Greater Battles
 ミネルβ=Minerβ
 
-sr:"^街を散策していた(.{2,10})たちは奇妙な空間に迷い込む。そこは『バトルアリーナ』、人々が時空を超えて争う闘技場だった。管理人のミネルβに促され、一同は闘技大会への参加を決意する。$"=As $1 and his friends stroll around town, they wander into a mysterious location known as the Battle Arena. After some encouragement from the arena's administrator—Minerß—the group decides to join the fray.
+街を散策していた{playername}たちは奇妙な空間に迷い込む。そこは『バトルアリーナ』、人々が時空を超えて争う闘技場だった。管理人のミネルβに促され、一同は闘技大会への参加を決意する。=As {playername} and his friends stroll around town, they wander into a mysterious location known as the Battle Arena. After some encouragement from the arena's administrator—Minerß—the group decides to join the fray.
 
-sr:"^(.{2,10})たちが闘技大会に慣れてきた頃、ミネルβに闘技大会の目的を問いただすと、ミネルβは質問には答えずに『バトルアリーナ』をさらに発展させた『プリンセスアリーナ』を紹介する。$"=$1 and the gang have gotten accustomed to Arena Battles, so they question Minerß on their true purpose. But Minerß dodges their questions and, instead, introduces a powered-up version of the Battle Arena—the Princess Arena!
+{playername}たちが闘技大会に慣れてきた頃、ミネルβに闘技大会の目的を問いただすと、ミネルβは質問には答えずに『バトルアリーナ』をさらに発展させた『プリンセスアリーナ』を紹介する。={playername} and the gang have gotten accustomed to Arena Battles, so they question Minerß on their true purpose. But Minerß dodges their questions and, instead, introduces a powered-up version of the Battle Arena—the Princess Arena!

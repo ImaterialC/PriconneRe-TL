@@ -41,7 +41,7 @@
 そいつは無茶だろう。\nオアシスが見つからないどころか、遭難だってありえる。\nみんな揃って干物になっちまうなんて御免だよ。=That's a bit unreasonable. Let alone finding the oasis, we might just get lost instead. I don't want us to turn into dried fish in the middle of the desert.
 伝承の記述にも、どこにあるかは曖昧にしか……\nもしかしたら、長い年月をかけて枯れてしまったり、\n砂漠に埋もれてしまったのかもしれません。=Even in the description of the legends, the location isn't stated clearly either... It might have withered over the years or even buried down in the sands by now.
 分かりやすく地上にあるんだったら、\nこの国の人がもう見つけてるだろうし。\nとっくに全部、砂の中って可能性は高そうね……=If the location were that easy to figure out, the people here would've found it by now. It's much more likely that it's all buried by the sands now...
-r:"^あら、(.{2,10})くんたちじゃない。\nまさかこんなところで会うなんてね！$"="Oh, isn't that $1-kun\n Can't believe we'd meet in this place."
+あら、{playername}くんたちじゃない。\nまさかこんなところで会うなんてね！=Oh, isn't that {playername}-kun\n Can't believe we'd meet in this place.
 やっほー、みんな元気そうで何よりね！=Yahoo, looks like everyone's doing fine!
 ミフユさん？　どうしてここに？=Mifuyu-san? Why are you here?
 なんだ、アンタもこの国に来てたのか。\n奇妙な縁もあったもんだ。=Oh, so you're in this country? That's a pretty strange fate to meet here.
@@ -86,7 +86,7 @@ r:"^あら、(.{2,10})くんたちじゃない。\nまさかこんなところ�
 魔物に食べられちまうか、砂に埋もれてミイラになるか……\nどっちみち愉快な結末にはならないだろうね。=To be eaten by monsters or to be buried by the sands and turning into a mummy... Neither one sounds like a good way to meet your end.
 サレンさん？　松明を見て、どうしたんですか？=Saren-san? Why are you looking at your sword?
 見て。炎が揺らいでる……\nどこかから空気が流れ込んできてるのよ。\nチカさん、風の流れを辿ることってできる？=Look, the flames are swaying... There must be air flowing in from somewhere.\nChika, can you follow the air flow?
-r:"^なるほど、その方向にきっと出口が……\nやってみます……！\n(.{2,10})さん、強化を！$"="I see, that means the exit will be in the same direction...! $1-san, buff me!"
+なるほど、その方向にきっと出口が……\nやってみます……！\n{playername}さん、強化を！=I see, that means the exit will be in the same direction...! {playername}-san, buff me!
 分かった！=Understood!
 風の精霊よ……\n大いなる流れの元に、我らを導き給え……こちらです！=Wind spirit... Guide us to the source of this air flow... This way!
 風が強くなってきてる……この先に出口がありそうね！\nよし、いくわよ──=The wind is getting stronger here... the exit must be right ahead! Let's go──
@@ -159,12 +159,12 @@ r:"^なるほど、その方向にきっと出口が……\nやってみます�
 ちょっとはしゃぎすぎちまったね。\n服が張り付いて、動きにくいったら……=I was a bit too excited. It'd be hard to move around if your clothes stick to you like that...
 そうです、ね……？　あ、あの……=I agree...? U-Umm...
 どうかした？　チカさん？=What's wrong, Chika-san?
-r:"^あの、さっきから(.{2,10})さんが\nこっちを見ている……ような……？$"="$1-san has been looking over here for awhile..."
-r:"^ちょ、ちょっと(.{2,10})！\nなんでそんな真っ直ぐな目でこっちを見てるわけ！？$"="Hey, $1! Why are you looking at us like that!?"
+あの、さっきから{playername}さんが\nこっちを見ている……ような……？={playername}-san has been looking over here for awhile...
+ちょ、ちょっと{playername}！\nなんでそんな真っ直ぐな目でこっちを見てるわけ！？=Hey, {playername}! Why are you looking at us like that!?
 そこは普通、お前さんが照れたりして\n視線を外したりするもんじゃないのかい？=Don't you usually get embarassed and look away?
 わ、私は水着だからいいけど……=I-I'm wearing a swimsuit, but still...
 あぅ……その、わ、私は……！\nい、いけませんっ……！=P-Please... Don't look at me...
-r:"^……って、なんか変じゃない？\n(.{2,10})？\nねえ、あたしたちの声、聞こえてる？　おーい……？$"="Doesn't he look a bit weird? $1, can you hear us? Heeey...?"
+……って、なんか変じゃない？\n{playername}？\nねえ、あたしたちの声、聞こえてる？　おーい……？=Doesn't he look a bit weird? {playername}, can you hear us? Heeey...?
 ……いいですか？　このオアシスの植物は\n他の砂漠地域とは明らかに植生が異なっています。\nたとえばそこの樹木。これが何を意味するか──=...May I continue? The plants in this oasis is clearly different from other desert areas. For example, this tree over here. I wonder what implication this has──
 そう、このオアシスは何らかの不思議な力により\n土地ごと運ばれてきた可能性があります。\nこれは先ほどの遺跡にあった壁画にも関連が見られ──=Yes, this oasis must've been transported alongside its land by some mysterious power. This must be related to the murals in the ruins earlier.
 あっ、あいつ！！　なんであたしたちじゃなくて、\n草なんか見てるのよ！？=Y-You! Why are you looking at plants instead of us!?
@@ -176,5 +176,5 @@ r:"^……って、なんか変じゃない？\n(.{2,10})？\nねえ、あたし
 ──おっと。本日の講義はここまでにしておきましょう。ではまた。=──Oops. Then that'll be the end of today's lecture, see you.
 わぁ……おにいさんが大変なことに……=Wahh... Onii-san is in big trouble.
 やれやれ、乙女心というものは複雑ですね。=A girl's heart sure is complicated.
-r:"^照り付ける太陽の下、冷たい水を思いっきり浴びながら\nなぜ怒られているのかがわからず、\n戸惑う(.{2,10})なのだった。$"="Under the blazing sun, $1 is confused at why they're so angry as he is being splashed by cold water."
+照り付ける太陽の下、冷たい水を思いっきり浴びながら\nなぜ怒られているのかがわからず、\n戸惑う{playername}なのだった。=Under the blazing sun, {playername} is confused at why they're so angry as he is being splashed by cold water.
 

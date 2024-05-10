@@ -1,6 +1,6 @@
-r:"^隕石の迎撃方法を検討し、巨大化させたイノリに破壊してもらうことにした(.{2,10})たち。これで一安心と解散するが、その晩ハツネは「隕石は壊せたが、破片で街が壊滅する」予知夢を見てしまう。$"="After discussing methods of intercepting the meteor, $1 and the others decided in a giant Inori destroying the meteor. The group split-up after feeling relieved and that night, Hatsune saw a prophetic dream where 'the meteor are destroyed, but the meteor fragments still destroyed the city'."
+隕石の迎撃方法を検討し、巨大化させたイノリに破壊してもらうことにした{playername}たち。これで一安心と解散するが、その晩ハツネは「隕石は壊せたが、破片で街が壊滅する」予知夢を見てしまう。=After discussing methods of intercepting the meteor, {playername} and the others decided in a giant Inori destroying the meteor. The group split-up after feeling relieved and that night, Hatsune saw a prophetic dream where 'the meteor are destroyed, but the meteor fragments still destroyed the city'.
 
-r:"^儀式を経て、ついに復活を果たした森神。\n(.{2,10})たちは、\nその真の姿を目の当たりにすることになる。$"="After the ritual, Morigami's power is finally restored. $1 and the others are finally able to see her true form."
+儀式を経て、ついに復活を果たした森神。\n{playername}たちは、\nその真の姿を目の当たりにすることになる。=After the ritual, Morigami's power is finally restored. {playername} and the others are finally able to see her true form.
 ふっかーつ！！\n森神復活！　森神復活！　森神復活なのじゃ～！！\n刮目せよ、これこそわしの真の姿ぞ～！！=It's back!! My power has been restored! Morigami is fully powered again!! Pay close attention, this is my true form!!
 これが、森神さまの真の姿……！\n……ところでどこが変わったの？　前髪？=So this is Morigami-sama's true form...!\n...What actually changed? Your bangs?
 ふっ、素人には分からんようじゃな。\nまぁ、外見はどこも変わっとらんのじゃけど。=Heh, it's only normal that an ordinary person wouldn't see a difference. But I suppose my appearance didn't really change much.

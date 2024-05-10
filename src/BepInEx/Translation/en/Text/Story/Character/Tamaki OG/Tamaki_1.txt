@@ -1,5 +1,5 @@
-r:"^山道を歩いていた([\s\S]{2,10})は、魔物と戦う少女に協力する。そ\nの後、崖から落ちた([\s\S]{2,10})は先程の少女タマキに救われる。\nタマキは([\s\S]{2,10})の傷をそっと舐めて立ち去る。$"=$1 was walking along a mountain path when she decided to assist a girl fighting against monsters. Later, $1 fell off a cliff but was saved by the girl, Tamaki, who gently licked his wounds before departing.
-r:"^(.{2,10})が山道を歩いていると、\n誰かが激しく戦っているような声が聞こえてきた。$"=As $1 walked down the mountain road, she heard a voice that sounded like someone was fighting fiercely.
+山道を歩いていた{playername}は、魔物と戦う少女に協力する。その後、崖から落ちた{playername}は先程の少女タマキに救われる。タマキは{playername}の傷をそっと舐めて立ち去る。={playername} was walking along a mountain path when she decided to assist a girl fighting against monsters. Later, {playername} fell off a cliff but was saved by the girl, Tamaki, who gently licked his wounds before departing.
+{playername}が山道を歩いていると、\n誰かが激しく戦っているような声が聞こえてきた。=As {playername} walked down the mountain road, she heard a voice that sounded like someone was fighting fiercely.
 にゃっ！　にゃっ、にゃっ！=Meow! Meow~nya!
 やった、倒したにゃ！\nあたしの実力、思い知ったかにゃ……=Nyay, I defeated it! Did you learn your lesson about my abilitiesnya──
 ……って、わあああああ！\nこの魔物、倒したと思ったら分裂するにゃあああ！=...Wait, aahhh! These monsters split into more when I thought I defeated them ~nya!
@@ -16,7 +16,7 @@ r:"^(.{2,10})が山道を歩いていると、\n誰かが激しく戦ってい�
 それじゃあ、あたしはこれで失礼するにゃ。\n本当に、ありがとにゃ！=Well then, I'll take my leave now. Thank you so much~nya!
 
 
-r:"^猫耳の少女と別れた後、足場が不安定な\n山道を歩いていた(.{2,10})。$"=After parting ways with the cat-eared girl,$1 was walking down a mountain road with unstable footing.
+猫耳の少女と別れた後、足場が不安定な\n山道を歩いていた{playername}。=After parting ways with the cat-eared girl,{playername} was walking down a mountain road with unstable footing.
 
 わっ……！=Whoa...!
 にゃっ？　今、誰かが崖に落ちたような気がしたにゃ？=Meow? Did someone just fall off the cliff?
@@ -33,7 +33,7 @@ r:"^猫耳の少女と別れた後、足場が不安定な\n山道を歩いて�
 うん、決めたにゃ。\n今日はお試しってことであげるにゃ。=Alright, I've decided~nya. Consider it a trial, and I'll give it to you today.
 ありがとうって……これはあたしのお礼だから、\nキミがお礼をいう必要はないにゃ。=Thank you... This is my way of showing gratitude, so you don't need to thank me~nya.
 ……って、そういえば、\nお礼をするって言っておきながら、\nさっきは名前を聞くのを忘れてたのにゃ。=Oh, by the way, I forgot to ask your name while talking about gratitude earlier.
-r:"^ふうん……キミは(.{2,10})って言うんにゃ。$"=Hmm... Your name is $1, right?
+ふうん……キミは{playername}って言うんにゃ。=Hmm... Your name is {playername}, right?
 あたしはタマキにゃ！\nたい焼き屋でバイトしてたり、なにかとあちこちを\n駆け回ってるから、きっとまた会うこともあると思うにゃ。=I'm Tamaki! I work part-time at a taiyaki shop and run around here and there, so I think we might meet again.
 これからもご贔屓よろしくにゃ！=Please continue to favor me~nya!
 じゃああたしはこれで……って、にゃにゃ？\nまだほっぺたに傷が残ってるにゃ。=Well then, I'll... Wait~nya? There's still a scratch on your cheek.
@@ -43,7 +43,7 @@ r:"^ふうん……キミは(.{2,10})って言うんにゃ。$"=Hmm... Your name
 何って、まだ傷があったから、\n舐めて消毒しただけにゃ。=What? There were still wounds, so I just licked and disinfected them~nya.
 にゃはは、ずいぶんと驚いてるみたいにゃ。=Nyahaha, you seem quite surprised~nya.
 まあ、これはサービスってことで！\nまったにゃー♪=Well, consider it a service! Meow, see you later♪
-r:"^戸惑う(.{2,10})を残し、\nタマキは風のように去っていった……$"=Leaving a bewildered $1 behind, Tamaki disappeared like the wind...
+戸惑う{playername}を残し、\nタマキは風のように去っていった……=Leaving a bewildered {playername} behind, Tamaki disappeared like the wind...
 
 
 

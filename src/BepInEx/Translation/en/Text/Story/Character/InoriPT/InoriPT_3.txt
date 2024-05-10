@@ -3,8 +3,8 @@
 ならず者２=Rogue 2
 ならず者３=Rogue 3
 ならず者のリーダー=Rogues Leader
-r:"^ドラゴン族に深い関りを持つと言われる『龍の卵』。それらしき情報を得たイノリは(.{2,10})とともにならず者のアジトからそれを盗み出したのだが、実際は『龍の卵』とは別のお宝なのだった。$"="The "Dragon's Egg," said to have a deep connection with the dragon race. After obtaining information that seemed to be related to it, Inori and $1 stole it from the hideout of a group of rogues. However, in reality, it turned out to be a different treasure."
-r:"^ある日の午後──\n街をぶらついていた(.{2,10})は、\nおつかいをしている途中のイノリと出会った。$"="One afternoon, as $1 was wandering through the town, she encountered Inori, who was running errands."
+ドラゴン族に深い関りを持つと言われる『龍の卵』。それらしき情報を得たイノリは{playername}とともにならず者のアジトからそれを盗み出したのだが、実際は『龍の卵』とは別のお宝なのだった。=The "Dragon's Egg," said to have a deep connection with the dragon race. After obtaining information that seemed to be related to it, Inori and {playername} stole it from the hideout of a group of rogues. However, in reality, it turned out to be a different treasure.
+ある日の午後──\n街をぶらついていた{playername}は、\nおつかいをしている途中のイノリと出会った。=One afternoon, as {playername} was wandering through the town, she encountered Inori, who was running errands.
 あいかわらず、お兄さんは暇してますねぇ。\n人のおつかいについていきたいなんて。\nどれだけ時間を持て余してるですか。ほんと、いいご身分ですよ。=You're still quite the idle fellow, huh? Tagging along with people doing errands. How much free time do you have? Well, today, your idleness actually comes in handy. It's just for a tiny bit.
 ……まあ、でも？\n今日ばっかりは、お兄さんが暇人でよかったです。\nほんのちょ～っとですけど。=......well, but......I'm glad you're free today.Just a little bit.
 買うものが多いの？=Is it because you have a lot to buy?
@@ -47,7 +47,7 @@ r:"^ある日の午後──\n街をぶらついていた(.{2,10})は、\nおつ
 じゃあ僕も一緒に行く。=Then I'm going too.
 えっ……\nあ、そ、そうですか。\n……まあ？　あたしは別にいいですけど？=Huh... I, I see. Well, it's not like I mind?
 とりあえず、そうと決めたなら腹をくくるですっ。\n追跡開始ですよ！=Alright, if you've made up your mind, be prepared for anything. Let's start tracking!
-r:"^ならず者のアジトをつきとめ、中断していたおつかいを再開し、\n時間がかかったことをホマレから不審に思われつつ──\nイノリと(.{2,10})は改めて合流したのだった。$"="They tracked down the rogues' hideout, resumed their interrupted errands, which raised some questions from Holm, and finally, Inori and $1 regrouped."
+ならず者のアジトをつきとめ、中断していたおつかいを再開し、\n時間がかかったことをホマレから不審に思われつつ──\nイノリと{playername}は改めて合流したのだった。=They tracked down the rogues' hideout, resumed their interrupted errands, which raised some questions from Holm, and finally, Inori and {playername} regrouped.
 ……アジトの位置、ヨシ。\n右、ヨシ。左、ヨシ。周囲に人影も……ナシ。\n安全確認、完了です。=... Hideout location confirmed, check. Right, check. Left, check. No sign of people in the vicinity. Safety check, complete.
 でも、気をつけるですよ。\nこの辺りはウチのシマじゃないですし……\n例のカジノ王の使いっぱしりもたくさんいるらしいです。=But, stay alert. This isn't our turf, and apparently, there are a lot of spies working for the Casino King around here.
 たぶん、あたしたちの相手がズバリそれですよ。\nお得意先がいなくなって、肩身も狭くなってきたから、\nお金を作って田舎にとんずら……珍しいことじゃないです。=Most likely, that's who we're up against. Losing their clients, they're feeling the pinch and trying to make money to retire to the countryside. Nothing unusual about it.
@@ -105,7 +105,7 @@ r:"^ならず者のアジトをつきとめ、中断していたおつかいを�
 あわわ……\nバランスが崩れ……！\nとっとっとっ……とぉおおお～っ！？=Oops... My balance...! Wobbly wobbly wobbly... Aaaah!
 ぴぇええええ！！！\nな～んで、こうなるですかぁ～！？=Aaaahhhh! Why does this have to happen!?
 お、お兄さ～ん！\n受け止めてくださいです～っ！！=Onii-san, please catch me!
-r:"^ならず者たちのアジトから無事に脱出した\nイノリと(.{2,10})は、\nロンクーファミリーのシマへと戻ってきた。$"="Inori and $1, after successfully escaping from the rogues' hideout, returned to the Loncoof Family's hideout."
+ならず者たちのアジトから無事に脱出した\nイノリと{playername}は、\nロンクーファミリーのシマへと戻ってきた。=Inori and {playername}, after successfully escaping from the rogues' hideout, returned to the Loncoof Family's hideout.
 ぜえ、ぜえ……\nな、なんとか振り切ったですかね……？=Phew, phew... Did we somehow manage to shake them off?
 ふ、ふっふっふっふ……\nあーっはっはっはっは！\n勝った、勝ったですよ！　あたしたちの完全勝利ー！！=Haha, haha... Ahaahaha! We won, we won! It's a total victory for us!
 まあ、このイノリさまにかかれば？\nこれくらいは、ちょちょいのちょいの朝飯前ですよ！\nあっ、お兄さんもお兄さんなりによくやってたですね。うんうん。=Well, with Inori-sama leading, something like this is a piece of cake! Oh, Onii-san, you did quite well too, in your own way. Mm-hmm.
