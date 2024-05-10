@@ -1,11 +1,11 @@
 ギルドハウス 第1話=Guildhouse Episode 1
-ギルドハウスを与えられた{playername}と美食殿の面々。しばらく常駐してくれるらしい【ギルド管理協会】のカリンに説明や注意事項を聞く。二階と三階はまだ『調査中』で封鎖されているらしい。=The Gourmet Guild is welcomed to their very own guildhouse by Karin of the Guild Association, who informs them that she will remain on site. They learn that the upper floors are \"under investigation\" and thus off-limits.
+ギルドハウスを与えられた{playername}と美食殿の面々。しばらく常駐してくれるらしい【ギルド管理協会】のカリンに説明や注意事項を聞く。二階と三階はまだ『調査中』で封鎖されているらしい。=The Gourmet Guild is welcomed to their very own guildhouse by Karin of the Guild Association, who informs them that she will remain on site. They learn that the upper floors are "under investigation" and thus off-limits.
 ようこそギルドハウスへ=Welcome to Your New Guildhouse
 到着～☆=We're here! ☆
 ここが！\n我ら【美食殿】のギルドハウスですよ～！\nやばいですね☆=[i]This[/i] is the Gourmet Guild's guildhouse!\nHow crazy is that?!
 ちょっ、ちょっと待って！\nいろいろ説明とかすっ飛ばして行動すんな！=H-hold on a second!\nQuit dragging us around and explain things properly!
 あんたはいつもそうよっ、\nもうもうもう！=You're always like this!\nGeez!
-あはは～\n「いつも」とか言えるぐらい、\n親しい間柄になれたんですね……わたしたち♪=Ahaha. ♪\nI love that we're close enough\nto use endearing terms like \"always.\" ♪
+あはは～\n「いつも」とか言えるぐらい、\n親しい間柄になれたんですね……わたしたち♪=Ahaha. ♪\nI love that we're close enough\nto use endearing terms like "always." ♪
 嬉しいですっ、\nキャルちゃああ～ん☆=It makes me so happy,\nKaryl! ☆
 やめんかコラッ、抱きつくな！\nあたしの尻尾を無意味に引っぱるなぁああ！？=Hey, cut it out! Let go of me!\nAnd quit grabbing my tail for no reason!
 何なのよマジで意味わかんないっ、\nぶっ殺すぞ……！？=Seriously, what the heck is wrong with you?\nWant me to kill you?!
@@ -25,7 +25,7 @@
 だから、尻尾を引っぱるな！\nちからが抜けちゃうんだってば……！=I told you to quit grabbing my tail!\nYou're making me weak in the knees!
 ふふ。\n微笑ましい。=Hehe.\nHow heartwarming.
 わたくしたちも、ランドソルには縁故もありませんし。\nギルドという居場所が与えられるなら、\n願ってもないことです。=My lord, you and I have no connections here in Landosol,\nso belonging to a guild is more than we could hope for.
-ギルド【美食殿】の目的は食べ歩き、\nということですしね。=Besides, the Gourmet Guild's objective\nis \"food tasting.\"
+ギルド【美食殿】の目的は食べ歩き、\nということですしね。=Besides, the Gourmet Guild's objective\nis "food tasting."
 日頃……\nこの面子で毎晩、食卓を囲んでいますけれど。\nそれが、そのままギルドの活動になるのでしょう？=These days, we spend every evening eating together as a group.\nThat is our sole guild activity is it not?
 はい！\n難しいことは一切なし！=Exactly!\nNothing complicated!
 皆さんは各々これまでどおり、\n好き勝手に振る舞ってくれたらＯＫですので！=Everyone can go on doing\nwhatever it is they want to do!
@@ -50,7 +50,7 @@
 えっと。\nもしかして、\nギルドハウスの「管理人」さんですか？=Umm.\nMight you be the caretaker of this guildhouse?
 はい。\n【ギルド管理協会】の職員、カリンと申します。=That's right.\nI'm Karin from the Guild Association.
 ギルド【美食殿】の皆さんの担当をすることになりましたので、\n以後よろしくお願いします♪=I've been assigned as caretaker of the Gourmet Guild.\nI look forward to working with all of you. ♪
-これはご丁寧に。\nえぇっと、【ギルド管理協会】とは？=The pleasure is ours.\nBut might I ask... What is this \"Guild Association?\"
+これはご丁寧に。\nえぇっと、【ギルド管理協会】とは？=The pleasure is ours.\nBut might I ask... What is this "Guild Association?"
 あぁ、ご説明しますね。\nランドソルではほぼ全住民が、\nギルドに所属することを義務づけられています。=Oh, allow me to explain.\nIn Landosol, most residents are required\nto register themselves with a guild.
 もちろん他の国からいらっしゃった、\n旅行者などは例外ですけど。=Of course, there are some exceptions,\nsuch as travelers from other countries.
 ギルドに所属することで、\n戸籍を登録したのと同様の立場となって……=By joining a guild, you are technically added to our census.
@@ -70,7 +70,7 @@
 そういう規定なんですよ、\nご了承いただければ助かります。=That's the rule, you see.\nI hope it won't be a problem.
 ギルドハウスが設立されてから、\nしばらくの間は担当の職員が常駐する決まりなんです。=After a guildhouse is established,\nthe assigned caretaker must temporarily remain on site.
 目障りかもしれませんけど、\nご寛恕いただければ幸いです。=My presence might get annoying,\nbut please try to understand.
-いやいや、目障りってことはないですけど。\nしばらくの間……ってことは、\nそのうち出て行っちゃうんですか？=No, it won't annoy us at all.\nBut you said \"temporarily\"...\nSo does that mean you'll eventually leave?
+いやいや、目障りってことはないですけど。\nしばらくの間……ってことは、\nそのうち出て行っちゃうんですか？=No, it won't annoy us at all.\nBut you said "temporarily"...\nSo does that mean you'll eventually leave?
 ふふ。\n規定上、皆さんが信頼に足るギルドである、\nと私のほうで判断して……=Hehe.\nAs per the rules, once I deem you\na trustworthy guild—
 【ギルド管理協会】の承認が得られれば、\n常駐する義務はなくなりますね。=—and the Guild Association approves my decision,\nI'll no longer need to stay here.
 もちろんたまに、\n建物の管理のために出入りはしますけどね。\nそれが、私の仕事ですので。=Of course, I'll still drop by occasionally\nto manage the building.\nThat's my job, after all.

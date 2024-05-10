@@ -2,13 +2,13 @@
 配達のバイトに採用されたクロエ。現場で待っていた班長は{playername}だった。道中、魔物に襲われていた同級生たちを救いだすが、クロエの戦いぶりは彼女らを余計に怯えさせてしまう。=When Chloe is hired for a delivery job, she is surprised to find herself assigned to a team led by {playername}. On the way to their destination, they rescue some of Chloe's classmates from a monster attack, but Chloe's fighting prowess just scares them even more.
 クロエ勤労日報／配送業編=Chloe's Part-Time Pursuits: The Delivery
 日曜の朝。\n予定のないクロエは、\n日払いの単発バイトを探していた。=One Sunday morning, with no particular plans for the day,\nChloe decides to look for a one-off job to earn a quick buck.
-『配送業務の補助、日給応談、男女年齢問わず』か……=\"Delivery of goods, wage on request, all ages/genders accepted,\" huh...
+『配送業務の補助、日給応談、男女年齢問わず』か……="Delivery of goods, wage on request, all ages/genders accepted," huh...
 んー……\nよく分かんないけどコレでいっか。\nえーと、連絡先は……=Hmm...\nMight as well give this one a shot.\nLessee... contact details...
 というわけで、\n手紙や荷物を牧場まで運んでもらうだけの簡単な仕事だ。\n詳しいことは現場の者に直接聞いてほしい。=So you see, all we need you to do\nis transport some letters and packages to the farm.\nYour team leader will fill you in on the specifics.
 かしこまりでーす。=Roger that, chief.
 君の配置はF班だ。\n班長を街道で待たせておくから、さっそく向かってくれ。=You're assigned to Team F.\nThe leader will meet you at the start of the route,\nso you can head straight there.
 ちなみに君、戦闘経験はあるかね？=By the way, do you have any battle experience?
-ハ？\nいや、何にちなんだのか謎っすけど、まあ。\nほんのり物騒な環境で育ってきたんで、それなりには。=Eh?\nI dunno what kinda \"way\" that's \"by,\" but sure.\nI grew up in a kinda rowdy neighborhood, so I can handle myself.
+ハ？\nいや、何にちなんだのか謎っすけど、まあ。\nほんのり物騒な環境で育ってきたんで、それなりには。=Eh?\nI dunno what kinda \"way\" that's "by," but sure.\nI grew up in a kinda rowdy neighborhood, so I can handle myself.
 そうか、だったら万一のときも大丈夫だな。\nいや、実は道中──地図でいうとこの辺りなんだが、\n魔物の目撃報告があってね。=Oh, good! Then I'm sure you'll be just fine.\nYou see, on the route—right about here on the map—\nthere have been some monster sightings.
 へー、初知り。\nそんなん出るんだ、あそこ。=Huh... News to me.\nThere's monsters 'round those parts?
 前にピクニックとかゆって\n弟たち連れてったことあるけど、\nのどかな森って印象しかなかったなー=Took my kid brothers there for a picnic not that long ago,\nand it seemed like a quiet enough forest to me.
@@ -25,7 +25,7 @@
 どうも班長の{playername}です。=I'm your team leader, {playername}!
 あー、そゆことかー班長コレかー=Ohhh... This guy... It all makes sense now...
 てか、またかよ。\nまたあんたかよ。\nもはや運命かよ。=But, uh, again?\nYou're here [i]again?[/i] \nWhat is this, fate?
-しかも「班」とか言って、構成員一名じゃん。\nうちが入ってギリ二名じゃん。\nただの毎度おなじみ迷子＆店員ズじゃん。=And some \"team\" this is. It's just one guy.\nEven with me that's like, two.\nJust the good ol' Lost Boy and Part-Timer duo.
+しかも「班」とか言って、構成員一名じゃん。\nうちが入ってギリ二名じゃん。\nただの毎度おなじみ迷子＆店員ズじゃん。=And some "team" this is. It's just one guy.\nEven with me that's like, two.\nJust the good ol' Lost Boy and Part-Timer duo.
 今日は迷わないよ。=I'm not going to get lost today!
 当たり前。迷い癖あるやつに配達員させてたら、\n我が国の郵便システム問題あるわ。\nランドソル全土に震撼が走るわ。=I'd hope not. If their delivery guys couldn't find addresses,\nsome postal service that'd be. All of Landosol'd be in trouble.
 え、いや……ちょ待って……\nまさか、いつもあんたが迷ってるのって、配送業務中じゃ……=Hang on... Wait a minute.\nDon't tell me all those times you got lost, you were on delivery jobs...?
@@ -37,7 +37,7 @@
 無邪気か。=What are you, five?
 まァ、べつに……いいけど。=Well, I guess... that's fine.
 あァ？=...What?
-おーっと、ごめ。\n今イラッと来て無意識に短剣抜いちゃった。\nなんなら背後に回りこんで喉元突きつけそうになっちゃった。=Oops, silly me.\nLooks like I \"accidentally\" drew my dagger.\nAlmost slipped 'round your back and pressed it to your neck.
+おーっと、ごめ。\n今イラッと来て無意識に短剣抜いちゃった。\nなんなら背後に回りこんで喉元突きつけそうになっちゃった。=Oops, silly me.\nLooks like I "accidentally" drew my dagger.\nAlmost slipped 'round your back and pressed it to your neck.
 え？　そうじゃなくて？　魔物に遇うかもしれないから？\nああ、うちの身が心配ってこと？\n言葉ハショり過ぎでしょ……まあ、いいけど。=Huh? I've got it wrong? It's 'cause of the monster warning?\nOh... you were worried about me?\nThen say so, why don'tcha... Well, whatever.
 そんじゃ、とりま行こかー\nえっと、牧場に運ぶ荷物ってコレだよね？\n──っしょっと。=Anyway, let's get moving.\nUh, this is the stuff to deliver, right?\n...Heave-ho.
 僕が持つよ。=I'll carry it.

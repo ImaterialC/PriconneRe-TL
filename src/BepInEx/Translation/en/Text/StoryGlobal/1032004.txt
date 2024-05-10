@@ -16,14 +16,14 @@
 なんなら混ぜてもらおうか？=Want to see if they'll let us play, too?
 それはいい考えです！\n庶民の遊戯を覚えるのも、きっといいことですわ。\nもし、そこの子たちー！=What a splendid idea!\nLearning about working-class pastimes certainly won't hurt.\nExcuse me, you boys over there!
 おー？　ねえちゃんたち、何の用？=Huh? Waddya want, lady?
-よろしければ、その野球という遊戯に、\n私たちを混ぜていただけませんこと？=If you don't mind, can my friend and I join you\nin playing this \"baseball\" game?
+よろしければ、その野球という遊戯に、\n私たちを混ぜていただけませんこと？=If you don't mind, can my friend and I join you\nin playing this "baseball" game?
 野球？　別にいいけど。\nねえちゃん、野球やるの初めてなの？\nちょっと試しにボール投げてみてよ。=Baseball? Sure.\nBut lady, is this your first time playing?\nLet's see if you can throw the ball first.
 これが、野球のボールですわね……\nこう……ですの？　ふんっ！=So this is the ball they use...\nAnd do I go... like this? Hyah!
 ストラーーーイク！=Strike!
 すげー！　ねえちゃん、意外とすげー球投げるじゃん！=Whoa! Gee, lady, you got a killer arm!
 ふふん。何も考えずに\n力いっぱい投げ込むのは得意ですわ！=Heheh. As it happens, hurling things as hard as I can\nwith little thought is a specialty of mine!
 じゃあ、ちょっと打つ方もやってみてよ！=Okay, let's see ya swing a bat now!
-よろしいですわ。私、野球は得意みたいですもの。\n今度は華麗に打ち返してみせますわ！\nこの金属の棒を構えて……と。=Very well. Hm, it appears I might be quite good at \"baseball.\"\nNow I'll show you I'm just as skilled at swatting things away!\nSo I hold the metal club like... this.
+よろしいですわ。私、野球は得意みたいですもの。\n今度は華麗に打ち返してみせますわ！\nこの金属の棒を構えて……と。=Very well. Hm, it appears I might be quite good at "baseball."\nNow I'll show you I'm just as skilled at swatting things away!\nSo I hold the metal club like... this.
 さあ、お願いいたしますわ！=Right, whenever you're ready!
 …………ふんっ！=...Hah!
 ねえちゃん……バットとボールが\n全然合ってないよー=Um, lady... That bat wasn't even close\nto hitting the ball!
@@ -44,7 +44,7 @@
 バッターアウト！　スリーアウトチェンジ！=Out! That's three!
 やりましたわー！=I did it!
 ナイスピッチ！=Nice pitching!
-ありがとうございます！　{playername}さまと喜びを\nハイタッチ……というもので分かち合いましょう。\nふふふ！=Thank you!\n{playername}, let us share in our joy using \nwhat they call a \"high five.\" Heheheh!
+ありがとうございます！　{playername}さまと喜びを\nハイタッチ……というもので分かち合いましょう。\nふふふ！=Thank you!\n{playername}, let us share in our joy using \nwhat they call a "high five." Heheheh!
 さあ、私の打席ですわよ！=All right, I'm up to bat!
 ふふふ、俺の球が打てるかな？=Heheheh, think ya can get a hit off me?
 あいつは俺たちのエース！\n七色の変化球と剛速球を操る小川くんだ！\nねえちゃん、打てるもんなら打ってみろー！=That's Ogawa, the best on our team!\nHe's a power pitcher and throws a mean curveball!\nYou don't stand a chance, lady!
@@ -81,7 +81,7 @@
 ホームランにはなってなかったから\nプレーは続いてたんだよー=It wasn't a home run, so play kept going.
 そんな……\n私が負けてしまうなんて……=Oh no...\nBut that means [i]I[/i] lost.
 ですが悔いはありません！\n全力を尽くして戦いましたもの！=But I haven't a single regret!\nI played with everything I had in me!
-野球は……野球とは素晴らしいものですわ！\nまたいつか一緒にやりましょうね！　{playername}さま！=And this \"baseball\"... It's nothing short of fantastic!\nLet's play again together sometime! Please, {playername}!
+野球は……野球とは素晴らしいものですわ！\nまたいつか一緒にやりましょうね！　{playername}さま！=And this "baseball"... It's nothing short of fantastic!\nLet's play again together sometime! Please, {playername}!
 はい、お疲れさま。=Okay, and that's a wrap.
 それにしても野球ねえ。結構楽しそうだったわね。=Wow, baseball, huh? Looked like you all had a great time.
 喜びと悲しみ、人生そのものが詰まったスポーツ……\nいいわねぇ～あたしもやってみようかしら……なんてね。=All the joy and sadness of life bottled up in a single sport.\nHow dreamy! Maybe I'll give it a go, too... Heheh.
@@ -90,6 +90,6 @@
 それじゃ、またね～♪=Anyways, catch you later! ♪
 あれ……ここは、ランドソル……？=Huh... Is this... Landosol?
 えっ、{playername}さまも同じ夢を\nご覧になっていたと……？=Oh, did you see the same dream as I, Sir {playername}?
-不思議なことがあるのですね……\nそれにしてもあの野球という遊戯、\n本当に面白いものでした……=How very puzzling...\nStill, I have to admit that \"baseball\"\nwas a truly amusing diversion.
-そうですわ！\nこのランドソルにも野球を布教いたしましょう！\nそして、明日はホームランですわよ！=That's it!\nWe shall bring \"baseball\" to the people of Landosol!\nAnd once we do, the future will be a home run!
+不思議なことがあるのですね……\nそれにしてもあの野球という遊戯、\n本当に面白いものでした……=How very puzzling...\nStill, I have to admit that "baseball"\nwas a truly amusing diversion.
+そうですわ！\nこのランドソルにも野球を布教いたしましょう！\nそして、明日はホームランですわよ！=That's it!\nWe shall bring "baseball" to the people of Landosol!\nAnd once we do, the future will be a home run!
 楽しそうに笑うアキノを見て良かったと思う{playername}。\nその後、実際にランドソルに野球チームが\n結成されるのは、また別の話だった……={playername} looked on at an exuberant Akino, a smile on \nhis face. As for whether Landosol actually got its \nown baseball league, that's a story for another day.

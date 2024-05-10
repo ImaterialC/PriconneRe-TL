@@ -1,5 +1,5 @@
 ヨリ 第2話=Yori Episode 2
-ヨリが崖から下りる手助けをした{playername}は、彼女には頼る相手がいないと知る。誰とでも仲良くなれる妹を羨むヨリ。{playername}が頼れる相手になっても、強がってお礼を言えなかった。=When {playername} helps Yori down from a cliff, she confesses that she went up there alone because she had nobody to turn to, and she wishes she could be more like her socialite sister. {playername} offers to help, but Yori is too embarrassed to say \"thank you.\"
+ヨリが崖から下りる手助けをした{playername}は、彼女には頼る相手がいないと知る。誰とでも仲良くなれる妹を羨むヨリ。{playername}が頼れる相手になっても、強がってお礼を言えなかった。=When {playername} helps Yori down from a cliff, she confesses that she went up there alone because she had nobody to turn to, and she wishes she could be more like her socialite sister. {playername} offers to help, but Yori is too embarrassed to say "thank you."
 ありがとうが言えなくて=Thank You Is the Hardest Word
 素材を採取しようと、\n{playername}は渓谷へやって来ていた。=Today, {playername} is doing some canyon hiking\nin search of rare materials.
 たすけて～=Heeeeeelp!
@@ -36,4 +36,4 @@
 もちろん。=Sure, I'll help.
 ほんと！\nあの……あ、ありが……=Really?!\nWell, um... Th... Thank y...
 ──ふ、ふん！\nそこまで言うなら、手伝わせてあげる！=...H-hmph!\nIf you really insist, I guess I'll let you help out!
-強がって、お礼が言えなかったヨリだった。=Yori got so embarrassed, she couldn't bring herself to say \"thank you.\"
+強がって、お礼が言えなかったヨリだった。=Yori got so embarrassed, she couldn't bring herself to say "thank you."

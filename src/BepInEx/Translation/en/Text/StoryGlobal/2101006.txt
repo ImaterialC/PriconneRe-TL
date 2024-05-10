@@ -9,7 +9,7 @@
 ん♪=Mm!
 うんっ！=Uh-huh!
 ふふっ。\nコッコロちゃん、ママみたい。=Hee hee.\nKokkoro, you're just like their mama.
-ママ？\nそうでしょうか……=Their \"mama\"?\nDo you think so...?
+ママ？\nそうでしょうか……=Their "mama"?\nDo you think so...?
 ままー！=Mama!
 ままー！=Mama!
 はい、ママですよ。\nふふっ……常にとは申しませんが、\nたまにはこうして母子の気分で歩くのも、楽しいものですね……♪=Yes, Mama is here. Hee hee... It may not be ideal forever,\nbut I do enjoy strolling through the town in a motherly role like this. ♪
@@ -42,7 +42,7 @@
 ふふっ。\n今日もお元気そうでなによりです、ペコリーヌさま。=Eheh.\nYou certainly seem as lively as ever, Miss Pecorine.
 はい、コッコロちゃんも☆\nちょっと用事もありましたから、本当はわたしから\nみなさんのところに行くつもりだったんですけど……=Yep, you too, Kokkoro!\nI've got a bit of business with you guys, so my actual plan\nwas to head over and find you all first...
 行く途中、ほんの少しだけ露店でつまみ食いするつもりが、\nついつい手が止まらなくなっちゃって。\nでもみなさんのほうから見つけてもらえたので、結果オーライですね☆=But on the way, I thought I'd drop by for just a teensy bite at these stalls,\nand before I knew it, I couldn't stop!\nBut you guys found me here in the end, so it's all good, huh?! ☆
-ったく、立場は元に戻っても食い意地は相変わらずね～\nで、用事ってなんなのよ？=Sheesh. Even when you're a princess, no one can stop that appetite!\nSo, what's this \"business\" you've got?
+ったく、立場は元に戻っても食い意地は相変わらずね～\nで、用事ってなんなのよ？=Sheesh. Even when you're a princess, no one can stop that appetite!\nSo, what's this "business" you've got?
 実は、{playername}くんたちを\n赤ちゃん状態から元に戻すために……わたしの権限で、\n使えそうなマジックアイテムを持ってきたんです♪=Well, I was looking for a way to fix {playername}\nand Sheffy's baby problem, and using my royal status,\nI found some magic items that might be able to help! ♪
 へーっ、すごいねペコさんっ！=Wow... You're amazing, Peco!
 えへへ……わたしとしては、甘えん坊さんに戻っちゃった\n{playername}くんも可愛くていいなって思うんですけど……\nやっぱり、ちゃんと普通におしゃべりしたいですから♪=Eheheh. I mean, personally, I think our new baby {playername}\nis super sweet too, in his own way...\nBut I do want to be able to talk to him normally again! ♪
@@ -53,7 +53,7 @@
 すごーく頭がすっきりする魔法の氷嚢！=A magic ice pack that refreshes the mind as well as the body!
 へえ～！=Ahhh...!
 忘れた過去を思い出せる（かもしれない）水晶玉！\nの３つですっ！=A crystal ball that taps into (probably) past memories!\nThose are the three I found!
-おー……\nって、えっ……「かも」なの？　最後のやつ。=Whoa...\nWait, huh?\nDid you say \"probably\"? About that last one, I mean.
+おー……\nって、えっ……「かも」なの？　最後のやつ。=Whoa...\nWait, huh?\nDid you say "probably"? About that last one, I mean.
 わたしも、自分で使ったわけじゃないですからねー\nこういうアイテムって、回数制だったりする場合もありますし……=Well, you know, I haven't actually tried it out yet!\nItems like this are often only good for a few uses, so...
 ふむ……にしても王家の宝物庫とは、すごいのですね。=Hmm... I must say, the palace vault certainly holds many treasures.
 実を言うと、わたしにも中身が把握しきれてるわけじゃないんですよね。\nうちの家が代々、長い時間をかけて集めてたものですし、\n覇瞳皇帝が勝手に置いて行ったぶんもあるみたいで。=Actually, even I barely know half the stuff that's stashed in there.\nThe items inside were collected by my family over generations,\nand it looks like the Kaiser left a few new ones, too.
@@ -103,9 +103,9 @@
 へへっ、任せてくだせぇ！=Heheh. Leave it to us!
 おらこっちこいや、ガキが！\n遊んでやるからよ！=Yeah, get over here, brat!\nWe'll play with ya!
 汚しちゃったのはよくないことだけど、\n小っちゃい子のしたことは、許してあげて！　お願い！=It wasn't nice to mess up her clothes,\nbut he's only a little kid! Let him off the hook, please!
-はあ？　小っちゃいですって？\nすくなくとも、こいつはあんたより大きいでしょ！\n獣人のお嬢さん！=Excuse me? A \"little kid,\" you say?\nAt the very least, he looks a great deal larger than you,\nLittle Miss Beastgirl!
+はあ？　小っちゃいですって？\nすくなくとも、こいつはあんたより大きいでしょ！\n獣人のお嬢さん！=Excuse me? A "little kid," you say?\nAt the very least, he looks a great deal larger than you,\nLittle Miss Beastgirl!
 おっきくてもちっちゃくても……\n{playername}くんをいじめるのは、見過ごせません！\nだって、わたしの仲間ですから！=Whether he's big or little,\nnobody gets to bully {playername} on my watch!\nAfter all, he's a precious friend of mine!
-お姫さま……ああ、なんと愚かなお姫さま！\nそんな知性のかけらもなさそうなクソガキを仲間と呼んで、\nそこまで贔屓するなんて……！=Princess... Oh, you foolish, foolish princess!\nDeclaring this lowly and uncouth brat your \"friend,\"\nand giving him such special treatment!
+お姫さま……ああ、なんと愚かなお姫さま！\nそんな知性のかけらもなさそうなクソガキを仲間と呼んで、\nそこまで贔屓するなんて……！=Princess... Oh, you foolish, foolish princess!\nDeclaring this lowly and uncouth brat your "friend,"\nand giving him such special treatment!
 なんとでも言って下さい！\nわたしを馬鹿にするのは構いませんが……彼のことは譲りませんから！=I don't care what you say!\nYou can make fun of me all you like... but I won't let you hurt him!
 ぬぬぬ……！=Nghhhh...!
 むむむーっ！=Mrgrgr...!

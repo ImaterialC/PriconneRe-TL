@@ -54,7 +54,7 @@
 {playername}さん？\n何をしてるんスか、ごそごそと……？={playername}?\nWhat're you doing over there?
 ひゃあん！？\nな、何で急に服を脱いだんスか？\n駄目ッス、エッチなのは良くないと思うッス！=Wahhh?!\nWh-why're you taking off your clothes?\nS-stop! That's totally indecent and stuff!
 えっ、服が濡れたから……\n焚き火をおこして、乾かそうと思ったんスか？=Huh? Your clothes are soaked,\nso you thought you'd start a fire and hang them up to dry?
-ふむふむ。{playername}さんがお世話になってる、\n【サレンディア救護院】のひとが……\n魔力のこめられた護符を、持たせてくれたんスね。=Oh... The guys in the guild you're staying with,\nthe \"Sarendia Orphanage\", packed some magical seals\nfor you to use in emergencies.
+ふむふむ。{playername}さんがお世話になってる、\n【サレンディア救護院】のひとが……\n魔力のこめられた護符を、持たせてくれたんスね。=Oh... The guys in the guild you're staying with,\nthe "Sarendia Orphanage", packed some magical seals\nfor you to use in emergencies.
 そのなかに、火をおこせるやつがあるんスか。\nへぇ～、護符ってけっこう高級品ッスよ。=And one of them is good for starting fires?\nWow... Magical seals don't come cheap, you know!
 自分は初めて見たッス。\n{playername}さんは、\nいろいろ便利なものを持ってるんスね。=I've never actually seen one before.\nYou sure do have some generous friends, {playername}.
 ふふ。\nこんな洞窟のなかで火を焚いたら、\n酸欠になっちゃいそうッスけど。=Heheh.\nStarting a fire in a cave like this\nmakes me worry about using up the oxygen...

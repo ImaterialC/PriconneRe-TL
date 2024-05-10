@@ -1,5 +1,5 @@
 ミフユ 第5話=Mifuyu Episode 5
-今日は商店街の「カップル限定特売セール」の日。カップルを装い訪れた二人は、カップル限定ゲームへ参加する。本物のカップルでなければクリアの難しい最終関門を見事突破し、二人は優勝を勝ち取る。=Today is a \"couples-only sale\" in the marketplace, where couples can take part in a special contest. Mifuyu and {playername} breeze through even the toughest parts for couples and win it all.
+今日は商店街の「カップル限定特売セール」の日。カップルを装い訪れた二人は、カップル限定ゲームへ参加する。本物のカップルでなければクリアの難しい最終関門を見事突破し、二人は優勝を勝ち取る。=Today is a "couples-only sale" in the marketplace, where couples can take part in a special contest. Mifuyu and {playername} breeze through even the toughest parts for couples and win it all.
 宝を阻む三つの試練=A Trio of Trials
 今日も、ミフユに呼び出された{playername}。\nだが、呼び出された場所はいつも鍛錬で使う平原ではなく、\nランドソルの郊外だった。=Mifuyu asks {playername} to meet up with her again.\nBut rather than meeting at their normal training field,\nthis time they rendezvous on the outskirts of Landosol.
 よく来てくれたわね、{playername}くん。\n今日は戦場に行くわよ。\nもちろん、キミも一緒に来てくれるわよね？=Thanks for coming, {playername}.\nI'm going to the battleground today.\nI assume you're up for joining me?
@@ -18,11 +18,11 @@
 よしきた！　はーい、私たちも参加します！=That's the spirit! Hey there, we'd like to participate!
 受け付けました！　それでは、始めます！\nカップル限定企画！\n二人の絆が試される、カップル☆　アチアチ度チェーーーック！=And that's our last entry! Let's get this party started!\nRemember, couples only, folks! Your relationship will be\nput to the test as we see just how lovey-dovey you are!
 本日、参加者のみなさんには、\n全部で３つの試練に耐えていただきます！\nまずは最初の試練！=Today, we have a total of three challenges\nlined up for our contestants!\nLet's kick off with the first challenge!
-この日のために従業員の反対を押し切って、\n店長が店を改造して作った、\n○×どろんこクイーーーーズ！=Despite heated opposition from the entire staff,\nthe owner has remodeled the store to host\na \"Test Your Luck and Fall in Muck\" Quiz!
+この日のために従業員の反対を押し切って、\n店長が店を改造して作った、\n○×どろんこクイーーーーズ！=Despite heated opposition from the entire staff,\nthe owner has remodeled the store to host\na "Test Your Luck and Fall in Muck" Quiz!
 クイズを聞いて、正解だと思う方の扉へ走っていってください！\n正解なら次の試練へ！\n間違っていたら、泥まみれになります！=Listen to the question, then run to one of the doors.\nGet it right, and you're off to the next challenge!\nGet it wrong and, well, you're in for a sloppy surprise.
-問題！　この商店で売っているバトルアックスの定価は、\n１０００ルピである。○か×か！=Question! The battle axes sold in this store are priced at\n1,000 rupies. \"Yes\" or \"No\"?
-ええと……○？=Uh... \"Yes?\"
-たぶん……×？=Maybe... \"No?\"
+問題！　この商店で売っているバトルアックスの定価は、\n１０００ルピである。○か×か！=Question! The battle axes sold in this store are priced at\n1,000 rupies. \"Yes\" or "No"?
+ええと……○？=Uh... "Yes?"
+たぶん……×？=Maybe... "No?"
 そうよ！　ダッシュ！=That's right! Now run!
 いいえ！　いいから、ついてきて！=No! Just follow me!
 ○×クイズだってー\nどうしよっかー、みっちゃーーーん？=Oh geez, a yes-no quiz...\nWhat're we gonna do, Michi?
@@ -31,7 +31,7 @@
 やーん！　よしくんの、エッチーーー！=Oh my gosh! Yoshi, you are [i]such[/i] a perv!
 どいたどいたーーーーーっ！=Comin' through!
 うぎゃあああああっ！=Aaaaghhh!
-おおっと、青い髪の女性カップル、\nバカップルを跳ね飛ばして、凄い勢いで駆け込んだ！\nそう、正解は……○！=Uh-oh! Looks like that blue-haired lass and her beau\njust knocked down a pair of annoying lovebirds!\nAnd sure enough, the answer is... \"Yes\"!
+おおっと、青い髪の女性カップル、\nバカップルを跳ね飛ばして、凄い勢いで駆け込んだ！\nそう、正解は……○！=Uh-oh! Looks like that blue-haired lass and her beau\njust knocked down a pair of annoying lovebirds!\nAnd sure enough, the answer is... "Yes"!
 ふふん！　商品の売値なら、私の一番の\n得意分野だもの！　毎日チェックを欠かしたことはないわ！=Hahah! Memorizing product prices is my favorite pastime! \nI watch them like a hawk every day!
 さあ、今のクイズで参加者も半分になったぞー！\n次は、第２の試練！　ぐるぐる迷路だ！=Now, we're down to half our contestants after that question.\nNext up is our second challenge! The Twisty-Wisty Maze!
 これまた店長が無理を通して店を改造して作った大迷路！\n最初にゴールした１組が、最後の試練の挑戦権ゲットだ！\nそれじゃあ、よーい……スタートお！=The owner forced another remodel for us—this time a giant maze!\nThe first couple to reach the end goes to the final challenge!\nNow then, let the race... begin!
@@ -73,6 +73,6 @@
 こ、こんな……=I-I...
 こんなもののために、参加料を……=I paid that stupid entry fee... for this?
 あれ、お客さん、どうしました？=Um, miss, is something wrong?
-こおらーーーーー！　こんな賞品にするなら\n参加料返せーーーーーっ！\n責任者、出てこーーーーーーーい！=Something is very wrong! If this is your \"prize,\"\nthen gimme back my money!\nI want to see whoever set this farce up.
+こおらーーーーー！　こんな賞品にするなら\n参加料返せーーーーーっ！\n責任者、出てこーーーーーーーい！=Something is very wrong! If this is your "prize,"\nthen gimme back my money!\nI want to see whoever set this farce up.
 ひいいーーーーっ！　責任者は、外出中ですーーーっ！=Eeep! I-I'm afraid the owner isn't here right now!
 怒って店員を追いかけまわすミフユ。\nだが、{playername}の手には\nミフユが握ってくれた手のぬくもりがまだ暖かく残っていた……=And so {playername} watched Mifuyu chase the poor \nemployee around in a fury, the warmth of her touch lingering\nin his hand...

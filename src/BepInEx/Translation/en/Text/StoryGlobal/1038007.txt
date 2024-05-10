@@ -4,7 +4,7 @@
 こんにちは、{playername}さん。=Hello, {playername}.
 今日も、【牧場（エリザベスパーク）】まで、\n郵便配達にいらっしゃったんですね。\nお仕事、お疲れさまです。=So you've come to deliver the mail\nto Elizabeth Park today as well.\nThank you for your hard work.
 毎週、このぐらいの時間に{playername}さんがくるので……\n今日もそうなんじゃないかと思って、\n【牧場（エリザベスパーク）】の入り口で待ってたんですよ。=Every week, you usually come around this time...\nSo I thought you might show up today.\nI've been waiting for you here at the entrance.
-ニャットちゃん、{playername}さんにご挨拶しましょう。\nこんにちは{playername}さん。\nお会いできて嬉しいですにゃん……って♪=Nyatt, say hello to {playername}.\nSay, \"Hi, {playername}.\nIt's so nyice to see you...\" Yep! ♪
+ニャットちゃん、{playername}さんにご挨拶しましょう。\nこんにちは{playername}さん。\nお会いできて嬉しいですにゃん……って♪=Nyatt, say hello to {playername}.\nSay, "Hi, {playername}.\nIt's so nyice to see you..." Yep! ♪
 ともあれ。\n{playername}さん、ちょっと頼みたいことがあるんです。\nだから、待ってたんですけど。=Anyway.\nThere's something I'd like to ask you.\nThat's why I was waiting here.
 もうじきランドソルで、\n私の好きな小説家さんのサイン会があるんです。=One of my favorite novelists\nwill soon be visiting Landosol for a book signing.
 私、どうしても行きたいんです。=I really want to go.
@@ -19,7 +19,7 @@
 えっと風邪は流行性感冒、つまり病気です。\nそういうときは無理して動いたらいけません。\nさいあく死にますから。=Well, colds are infectious diseases. It means you're sick.\nYou shouldn't force yourself to move around when you have one.\nIt could potentially lead to your death.
 そんな体調で、山の上にある、\n【牧場（エリザベスパーク）】までくるなんて自殺行為ですよ。\nお身体、大事にしてください。=It's suicide to climb the mountain\nto Elizabeth Park in your current condition.\nYou need to take better care of yourself.
 ごめんね。=Sorry.
-これが噂の風邪というやつか。=So this is the \"cold\" everyone's talking about.
+これが噂の風邪というやつか。=So this is the "cold" everyone's talking about.
 謝られても困ります。\n{playername}さんは、何も悪くないんですから。=Please don't apologize.\nIt isn't your fault, {playername}.
 届けにきてくれたお手紙や荷物、ここからは私が運びますよ。\n{playername}さんは早く帰って、安静にしてください。\nどうか、ご自愛くださいね。=I'll take care of delivering the letters and packages\nyou brought. You should hurry home and get some rest.\nPlease, look after your health.
 はい。\nな、何でちょっと嬉しそうなんですか。=Yes.\nWait, why are you smiling a little?
