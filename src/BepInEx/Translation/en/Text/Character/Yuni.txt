@@ -19,12 +19,13 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリ�
 
 ##S1##
 豪傑生成概論=Hero Generation Theorem
-最も物理攻撃力が高い味方１キャラの物理攻撃力を大アップ、物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Large boost the highest P.ATK's P.ATK, P.CRIT Rate, and P.CRIT DMG, recovers a small amount of TP, but reduces own P&M DEF of self.
+最も物理攻撃力が高い味方１キャラの物理攻撃力と物理クリティカルを大アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Greatly boosts the highest P.ATK ally's P.ATK and P.CRIT Rate. Additionally, slightly restores its TP. Lowers own P.DEF and M.DEF.
+r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを(\d+)アップ味方単体のＴＰを(\d+)回復自分の物理防御力を初期値の15%ダウン自分の魔法防御力を初期値の15%ダウン$"=►Boosts the highest P.ATK' P.ATK by $1 for 12s.\n►Boosts the highest P.ATK' P.CRIT Rate by $2 for 12s.\n►Recovers target's TP by $3.\n►Lowers own P/M.DEF by 15% for 12s.
 
 ##S2##
 緩衝因子探求=A Study in Insulating Factors
 味方全体に継続ＴＰ回復状態を付与し、魔法無効バリアを展開するが、自分の魔法攻撃力を大ダウンさせる。=Grants TP Regen to all allies and deploys a barrier that negates magical damage around them, but lowers own magical attack by a large amount.
-r:"^毎秒ＴＰを5回復する(\d+)ダメージ分の魔法無効バリアを展開する自分の魔法攻撃力を初期値の70%ダウン$"=Cast time: 0.57s\n►Recovers allies' TP by 5/s for 10s.\n►Deploys Barrier over all allies that negates $1 M.DMG for 12s.\n►Lowers own M.ATK by 70% for 12s.
+r:"^毎秒ＴＰを5回復する(\d+)ダメージ分の魔法無効バリアを展開する自分の魔法攻撃力を初期値の70%ダウン$"=►Recovers allies' TP by 5/s for 10s.\n►Deploys Barrier over all allies that negates $1 M.DMG for 12s.\n►Lowers own M.ATK by 70% for 12s.
 
 ##EX##
 碩学の教え=Scholastic Principle
@@ -32,8 +33,9 @@ r:"^毎秒ＴＰを5回復する(\d+)ダメージ分の魔法無効バリアを�
 
 ##S1+##
 豪傑生成概論+=Hero Generation Theorem+
-最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップ、物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Boosts the P.ATK of the ally with the highest P.ATK by a massive amount, boosts P.CRIT Rate by a massive amount and boosts P.CRIT DMG by a medium amount. Additionally, slightly restores TP. Reduces the user's P.DEF and M.DEF.
-r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを(\d+)アップ味方単体の物理攻撃クリティカル時のダメージを25％アップ味方単体のＴＰを(\d+)回復自分の物理防御力を初期値の15%ダウン自分の魔法防御力を初期値の15%ダウン$"=Cast time: 0.73s\n►Boosts the highest P.ATK' P.ATK by $1 for 12s.\n►Boosts the highest P.ATK' P.CRIT Rate by $2 for 12s.\n►Boosts the highest P.ATK' P.CRIT DMG by 25% for 12s.\n►Recovers target's TP by $3.\n►Lowers own P/M.DEF by 15% for 12s.
+最も物理攻撃力が高い味方１キャラの物理攻撃力を大アップ、物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Massively boosts the highest P.ATK ally's P.ATK and P.CRIT Rate, and moderately boosts its P.CRIT DMG. Additionally, slightly restores its TP. Lowers own P.DEF and M.DEF.
+最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップ、物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせ、さらにＴＰを小回復させるが、自分の物理防御力と魔法防御力を小ダウンさせる。=Massively boosts the highest P.ATK ally's P.ATK and P.CRIT Rate, and moderately boosts its P.CRIT DMG. Additionally, slightly restores its TP. Lowers own P.DEF and M.DEF.
+r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを(\d+)アップ味方単体の物理攻撃クリティカル時のダメージを25％アップ味方単体のＴＰを(\d+)回復自分の物理防御力を初期値の15%ダウン自分の魔法防御力を初期値の15%ダウン$"=►Boosts the highest P.ATK' P.ATK by $1 for 12s.\n►Boosts the highest P.ATK' P.CRIT Rate by $2 for 12s.\n►Boosts the highest P.ATK' P.CRIT DMG by 25% for 12s.\n►Recovers target's TP by $3.\n►Lowers own P/M.DEF by 15% for 12s.
 
 ##UE##
 ペンシルアックス・レプリカ=Pencil Axe Replica
