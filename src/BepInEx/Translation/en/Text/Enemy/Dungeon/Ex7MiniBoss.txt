@@ -1,0 +1,43 @@
+
+自身の物理攻撃力と物理防御力と魔法防御力を特大アップさせ、ＴＰを中回復する。=Boosts own P.ATK, P.DEF, and M.DEF massively, and moderately recovers TP.
+通常攻撃は、最も近い敵１キャラを中心にした小範囲内の敵最大２キャラに物理特大ダメージを与える。=Normal attack deals massive P.DMG to up to 2 enemies in a small area centered on the nearest enemy character.
+ユニオンバーストは、最も近い敵１キャラを中心にした小範囲に物理特大ダメージを与える。その後、敵全体にこのスキルで与えたダメージ量に応じた物理ダメージを与える。このスキルによる全体ダメージでは、ＴＰが回復しない。=Union Burst deals massive P.DMG to enemies in a small area centered on the nearest enemy character. Afterward, deals P.DMG to all enemies based on the damage dealt by this skill. This overall damage does not recover TP.
+フラワーシュバリエから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery rate of party characters moderately from all damage taken by Flower Chevalier.
+バトル開始時、敵全体にＴＰ上昇上限効果を付与する。=At the start of the battle, applies a TP gain limit effect to all enemies.
+環境効果【百花繚乱】を発動する。このスキルの効果は敵、味方すべてに適用される。一定時間が経過するごとに、敵、味方全体のＴＰを中回復させる。=Environmental Effect: [Myriad of Full Bloom], which applies to all enemies and allies. At regular intervals, moderately recovers TP for all enemies and allies.
+
+
+百花繚乱=Myriad of Full Bloom
+一定時間が経過するごとに、敵、味方全体のＴＰを中回復させる。=At regular intervals, moderately recovers TP for all enemies and allies.
+
+
+環境効果【炎天烈日】を発動する。このスキルの効果は敵、味方すべてに適用される。一定時間が経過するごとに、敵、味方全体に最大ＨＰに応じた最大20万の割合ダメージを与える。さらに、付与される継続ダメージが上昇する。=Environmental Effect: [Scorching Sun] At regular intervals, deals percentage-based damage up to 200,000 based on max HP to all enemies and allies. Additionally, increases inflicted continuous damage.
+
+
+炎天烈日=Scorching Sun
+一定時間が経過するごとに、敵、味方全体に最大ＨＰに応じた最大20万の割合ダメージを与える。さらに、付与される継続ダメージが上昇する。=At regular intervals, deals percentage-based damage up to 200,000 based on max HP to all enemies and allies. Additionally, increases inflicted continuous damage.
+バロン・ファンガス=Baron Fungus
+環境効果【秋高馬肥】を発動する。このスキルの効果は敵、味方すべてに適用される。一定時間が経過するごとに、敵、味方全体の物理攻撃力、魔法攻撃力、物理防御力、魔法防御力をアップさせる。この効果の効果量は敵、味方を合わせた数に応じて増加する。=Environmental Effect: [Autumn Harvest], which applies to all enemies and allies. At regular intervals, increases the P.ATK, M.ATK, P.DEF, and M.DEF of all enemies and allies. The increase is based on the total number of enemies and allies.
+バロン=Baron
+ファンガスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery rate of party characters moderately from all damage taken by Fungus.
+ユニオンバーストは、敵全体に自身の物理攻撃力に応じた物理割合ダメージを与える。さらに、キャラのＨＰが40％未満のキャラを混乱状態にする。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Deals percentage-based P.DMG to all enemies based on own P.ATK. Additionally, confuses characters with HP below 40%. This skill's damage does not recover TP. The status effect is applied even if the damage is nullified.
+前方範囲内の敵に混乱状態を付与し、味方全体の物理防御力と魔法防御力をバトル終了まで大アップさせる。=Inflicts confusion on enemies within the front range and greatly boosts the P.DEF and M.DEF of all allies until the end of the battle.
+子分を４体召喚し、敵全体をノックバックさせる。子分は前から１番目の敵キャラに物理中ダメージを与える。=Summons 4 minions and knocks back all enemies. The minions deal moderate P.DMG to the foremost enemy character.
+化け茸を統べる気高きキノコの貴族。幻覚性の胞子をまき散らし、敵の精神を侵食する。=A noble mushroom ruling over the Bewitched Mushrooms, spreading hallucinogenic spores to erode the enemies' minds.
+
+
+秋高馬肥=Autumn Harvest
+一定時間が経過するごとに、敵、味方全体の物理攻撃力、魔法攻撃力、物理防御力、魔法防御力をアップさせる。この効果の効果量は敵、味方を合わせた数に応じて増加する。=At regular intervals, increases the P.ATK, M.ATK, P.DEF, and M.DEF of all enemies and allies. The effect increases based on the total number of enemies and allies.
+
+トウミングマ=Hibearnating
+生涯冬眠すると決め、氷穴に篭る巨大熊。日々を夢の中で暮し、獲物を狩る一瞬、覚醒する。=A giant bear that decides to hibernate for life, staying in an ice cave. It lives its days in dreams, awakening for a moment to hunt its prey.
+環境効果【寒気凛冽】を発動する。このスキルの効果は敵、味方すべてに適用される。敵、味方全体の行動速度を小ダウンさせる。このスキルの効果は他の行動速度変化スキルと重複する。さらに一定時間が経過するごとに、初期値より行動速度が低い状態のキャラに凍結状態を付与する。=Environmental Effect: [Harsh Cold], Applies to all enemies and allies, slightly reducing their action speed. This effect stacks with other action speed changes. Additionally, at regular intervals, inflicts freeze on characters whose action speed is lower than the initial value.
+トウミングマから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery rate of party characters moderately from all damage taken by Hibearnating.
+ユニオンバーストは、敵全体に魔法大ダメージを与える。さらに、敵全体の物理攻撃力、魔法攻撃力、行動速度を大ダウンさせる。このスキルによるダメージでは、敵のＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst Deals massive M.DMG to all enemies. Additionally, greatly reduces the P.ATK, M.ATK, and action speed of all enemies. This skill's damage does not recover enemy TP. The status effect is applied even if the damage is nullified.
+前方３キャラに物理小ダメージを与える。さらに、前方１キャラをノックバックし、凍結状態にして移動速度を下げる。このスキルの状態異常はダメージを無効化しても付与される。=Deals small P.DMG to the nearest 3 characters. Additionally, knocks back the nearest character, inflicts freeze, and reduces their movement speed. This skill's status effect is applied even if the damage is nullified.
+
+
+寒気凛冽=Harsh Cold
+敵、味方全体の行動速度を小ダウンさせる。このスキルの効果は他の行動速度変化スキルと重複する。さらに一定時間が経過するごとに、初期値より行動速度が低い状態のキャラに凍結状態を付与する。=Slightly reduces the action speed of all enemies and allies. This effect stacks with other action speed changes. Additionally, at regular intervals, inflicts freeze on characters whose action speed is lower than the initial value.
+
+

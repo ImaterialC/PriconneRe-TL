@@ -1,6 +1,6 @@
 I Wish　握りしめるこの手を=I Wish: This Hand I Hold
 あなたは\n忍者ですか？=Are you a ninja?
-r:"^ランドソル近郊の平原で、(.{2,10})とレイは\nシナツに剣の稽古をつけてもらっていた。"=On the plains near Landosol, $1 and Rei had Shinatsu train their proficiency with the sword.
+ランドソル近郊の平原で、{playername}とレイは\nシナツに剣の稽古をつけてもらっていた。=On the plains near Landosol, {playername} and Rei had Shinatsu train their proficiency with the sword.
 ……余計な力はいらない。\nより鋭く正確に芯を捉え、断つ……それだけだ。=......Do not exert unneccesary strength. Enough to pinpoint and strike at the core of your enemy with finesse and precision...... That's all you need.
 ……言葉で説明するより、試す方が早いだろう。\n風の力で、木の葉を舞い上げる。全て斬ってみろ。\n……行くぞ。=...It'll be faster to try it out than to explain it with words.\nI'll use the power of the wind to blow some leaves up.\nCut them down. ...Get ready.
 ふっ、はぁっ！\nせいっ……=Fuh, haah! Sei...

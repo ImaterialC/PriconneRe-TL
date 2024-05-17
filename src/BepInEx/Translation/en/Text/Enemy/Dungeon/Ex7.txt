@@ -1,0 +1,23 @@
+
+妖狐カムラヲ・春臨=Youko Kamurao: Spring Arrival
+妖狐カムラヲ・寒威=Youko Kamurao: Winter Fury
+妖狐カムラヲ・爽秋=Youko Kamurao: Serene Autumn
+妖狐カムラヲ・炎夏=Youko Kamurao: Fiery Summer
+
+[FFBB00,CE4F00]妖狐カムラヲ・春臨[-]=[FFBB00,CE4F00]Youko Kamurao: Spring Arrival[-]
+[FFBB00,CE4F00]妖狐カムラヲ・寒威[-]=[FFBB00,CE4F00]Youko Kamurao: Winter Fury[-]
+[FFBB00,CE4F00]妖狐カムラヲ・爽秋[-]=[FFBB00,CE4F00]Youko Kamurao: Serene Autumn[-]
+[FFBB00,CE4F00]妖狐カムラヲ・炎夏[-]=[FFBB00,CE4F00]Youko Kamurao: Fiery Summer[-]
+
+四季入り乱れる霊山を棲み処とする妖狐。不可思議な妖術で四季を操り、百花咲き誇る春へと季節を巡らせ、生命の力を芽吹かせる。=A mystical fox spirit residing in a spiritual mountain where the four seasons intermingle. With mysterious sorcery, it manipulates the seasons, turning them to a blooming spring and awakening the power of life.
+妖狐カムラヲから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery rate of party characters moderately from all damage taken by Kamurao.
+ユニオンバーストは、敵全体に自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。さらに、味方全体の行動速度をアップさせる。この効果の効果量は式神の数に応じて増加する。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: Deals percentage-based P.DMG based on own P.ATK and percentage-based M.DMG based on own M.ATK to all enemies. Additionally, increases the action speed of all allies. The effect amount increases based on the number of Shikigami. This skill's damage does not recover TP.
+敵全体の物理防御力と魔法防御力を中ダウンさせる。さらに、キャラのＨＰが70％未満の場合、物理攻撃力と魔法攻撃力を中ダウンさせる。=Reduces the P.DEF and M.DEF of all enemies moderately. Additionally, if the character's HP is below 70%, reduces their P.ATK and M.ATK moderately.
+自身の後方に式神を３体召喚する。左から１番目の式神は、前から２番目の敵キャラに物理小ダメージと魔法小ダメージを与える。左から２番目の式神は、前から３番目の敵キャラに物理小ダメージと魔法小ダメージを与える。左から３番目の式神は、前から４番目の敵キャラに物理小ダメージと魔法小ダメージを与える。=Summons three Shikigami behind oneself. The first Shikigami from the left deals small physical and M.DMG to the second enemy from the front. The second Shikigami from the left deals small physical and M.DMG to the third enemy from the front. The third Shikigami from the left deals small physical and M.DMG to the fourth enemy from the front.
+味方全体の物理攻撃力と魔法攻撃力を特大アップさせ、物理防御力と魔法防御力を大アップさせる。=Greatly increases the P.ATK and M.ATK of all allies. Additionally, greatly increases their P.DEF and M.DEF.
+四季入り乱れる霊山を棲み処とする妖狐。不可思議な妖術で四季を操り、その力で顕現させる炎天の夏は彼我の区別なく万物を焼き焦がす。=A mystical fox spirit residing in a spiritual mountain where the four seasons intermingle. With mysterious sorcery, it manipulates the seasons, bringing forth a scorching summer that burns all things without distinction.
+ユニオンバーストは、敵全体に自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。さらに、敵全体のＨＰ回復量をダウンさせる。この効果の効果量は式神の数に応じて増加する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals percentage-based P.DMG based on own P.ATK and percentage-based M.DMG based on own M.ATK to all enemies. Additionally, reduces the HP recovery rate of all enemies. The effect amount increases based on the number of Shikigami. This skill's damage does not recover TP. The status effect is applied even if the damage is nullified.
+敵全体のＨＰ吸収を特大ダウンさせる。さらに、敵全体に火傷効果を付与する。キャラのＨＰが80％未満の場合、火傷のダメージが上昇する。このスキルにより付与された火傷のダメージでは、ＴＰが回復しない。=Greatly reduces the HP absorption of all enemies. Additionally, inflicts burn effect on all enemies. If the character's HP is below 80%, increases the burn damage. This skill's burn damage does not recover TP.
+四季入り乱れる霊山を棲み処とする妖狐。不可思議な妖術で四季を操り、落葉散る秋に実りをもたらすことで艱難辛苦に耐え忍ぶ力を与える。=A mystical fox spirit residing in a spiritual mountain where the four seasons intermingle. With mysterious sorcery, it manipulates the seasons, bringing forth a fruitful autumn that provides the strength to endure hardships.
+ユニオンバーストは、敵全体に自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。さらに、味方全体の物理防御力と魔法防御力をアップさせる。この効果の効果量は式神の数に応じて増加する。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: Deals percentage-based P.DMG based on own P.ATK and percentage-based M.DMG based on own M.ATK to all enemies. Additionally, increases the P.DEF and M.DEF of all allies. The effect amount increases based on the number of Shikigami. This skill's damage does not recover TP.
+敵全体に自身の物理防御力に応じた物理固定ダメージと自身の魔法防御力に応じた魔法固定ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Deals fixed P.DMG based on own P.DEF and fixed M.DMG based on own M.DEF to all enemies. This skill's damage does not recover TP.

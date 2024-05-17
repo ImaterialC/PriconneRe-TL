@@ -1,0 +1,22 @@
+##Profile##
+【魔法】中衛で、春に彩られた花衣装のドジっ娘メイド。範囲内の敵にダメージを与えながら、多数の弱体化効果を持つスキルやＵＢを駆使して、穏やかに吹く勝利を掴む。=[Magic] A clumsy maid in a spring flower costume at the middle guard. While dealing damage to enemies within range, she makes full use of skills and UBs that have numerous weakening effects, and seizes her victory with a gentle breeze.
+ご奉仕=Service
+
+##UB##
+ブルーミングサイクロン=Blooming Cyclone
+目の前の敵１キャラに魔法特大ダメージを与える。さらにそのキャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を中ダウン、クリティカルを受けた際のダメージを小アップさせる。=Deals massive M.DMG to an enemy in front. Additionally, deals large M.DMG to enemies in range, moderately lowers their M.DEF, and slightly boosts their M.CRIT DMG taken.
+r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵のクリティカルを受けた際のダメージを5％アップ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to enemies in range.\n►Lowers enemies' M.DEF in range by $3 for 18s.\n►Boosts enemies' M.CRIT DMG taken in range by 5% for 18s.
+
+##S1##
+スウィンギングペタル=Swinging Petal
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせる。=Deals large M.DMG to enemies in range, and slightly lowers their M.DEF.
+## Same as Ranpha
+
+##S2##
+スプリングリース=Spring Wreath
+目の前の敵１キャラを中心とした範囲内の敵すべての物理攻撃力を中ダウン、物理クリティカルを特大ダウン、物理攻撃クリティカル時のダメージを小ダウンさせる。さらに魔法防御力を小ダウン、ＴＰを中ダウンさせる。=Moderately lowers enemies P.ATK in range, greatly lowers their P.CRIT Rate, and slightly lowers their P.CRIT DMG. Additionally, lowers enemies M.DEF in range by a small amount and TP by a moderate amount.
+r:"^範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の物理クリティカルを500ダウン範囲内の敵の物理攻撃クリティカル時のダメージを10％ダウン範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵のＴＰを120失わせる$"=►Lowers enemies P.ATK in range by $1 for 18s.\n►Lowers enemies P.CRIT Rate in range by 500 for 18s.\n►Lowers enemies P.CRIT DMG in range by 10% for 18s.\n►Lowers enemies M.DEF in range by $2 for 18s.\n►Reduces enemies TP in range by 120.
+
+##EX##
+ブルームメイデン=Bloom Maiden
+ブルームメイデン+=Bloom Maiden+

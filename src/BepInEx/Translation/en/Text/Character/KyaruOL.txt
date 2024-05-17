@@ -3,12 +3,12 @@
 
 キャルの忙しい一日=Kyaru's busy day
 目覚めるためのおまじない=Magic to wake up
-r:"^眠ったままの(.{2,10})を見守るキャルのもとに続々と見舞い客が訪れる。キャルは彼を目覚めさせるためユキと共にアイドルとしてその場でライブを披露する。だが彼が目覚める気配はないのだった。$"=Visitors come one after another under Kyaru, who watches ONII -CHAN asleep. Kyaru performs live on the spot as an idol with Yuki to wake him up. But there was no sign of waking up.
-r:"^(.{2,10})を起こす手立てを得るため、クレジッタを頼りに王宮を訪ねるキャル。姿を見せないペコリーヌに疑問を感じた折、ネネカが現れる。事情を聞いたキャルは改めて二人を救う決意を固める。$"=Kyaru visits the royal palace with a crester to get the way to cause ONII -CHAN. When she questions Pecorine, who doesn't show her, she appears. Kyaru who hears the situation decides to save them again.
+眠ったままの{playername}を見守るキャルのもとに続々と見舞い客が訪れる。キャルは彼を目覚めさせるためユキと共にアイドルとしてその場でライブを披露する。だが彼が目覚める気配はないのだった。=Visitors come one after another under Kyaru, who watches ONII -CHAN asleep. Kyaru performs live on the spot as an idol with Yuki to wake him up. But there was no sign of waking up.
+{playername}を起こす手立てを得るため、クレジッタを頼りに王宮を訪ねるキャル。姿を見せないペコリーヌに疑問を感じた折、ネネカが現れる。事情を聞いたキャルは改めて二人を救う決意を固める。=Kyaru visits the royal palace with a crester to get the way to cause ONII -CHAN. When she questions Pecorine, who doesn't show her, she appears. Kyaru who hears the situation decides to save them again.
 これまでも、これからも=Until now,
 コッコロたちとソルの塔を登るキャル。コッコロとシェフィは\nいまだに眠ったままのペコリーヌたちを案じて弱気になってい\nた。キャルはそんな二人を自身の言葉で勇気づけ、絆の力を信\nじて前に進むのだった。=Kyaru climbing the tower of Sol with Kokkoro. Kokkoro and Shefi were still asleep and were bearish. Kyaru encouraged them in their own words, believing in the power of bonds and moving forward.
 想いと未来を共に=Both thoughts and the future
-r:"^遊ぶ約束をしていた希留耶と(.{2,10})。彼の提案で今日はアストルムで遊ぶことに。希留耶は先にログインして眠りに落ちた彼に、これまでの二人の思い出と共に、心からの感謝を告げるのだった。$"=Kiriya and ONII -CHAN have promised to play. He decided to play in Atrum today with his proposal. Kibuya loved him and fell asleep, and told him sincerely with his memories of the two.
+遊ぶ約束をしていた希留耶と{playername}。彼の提案で今日はアストルムで遊ぶことに。希留耶は先にログインして眠りに落ちた彼に、これまでの二人の思い出と共に、心からの感謝を告げるのだった。=Kiriya and ONII -CHAN have promised to play. He decided to play in Atrum today with his proposal. Kibuya loved him and fell asleep, and told him sincerely with his memories of the two.
 
 ##UB##
 オーバーロードバースト=Overload Burst

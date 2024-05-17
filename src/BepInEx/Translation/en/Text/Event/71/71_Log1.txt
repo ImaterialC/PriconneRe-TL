@@ -9,7 +9,7 @@
 ……そうだな。よく似ている。\n詳しく見てみないと断言はできないが。=...She's right.\nThey're quite alike.\nI can't say for sure until I take a closer look.
 それなら二人を案内するよ！\nまだしばらくは動けそうにないもんね。=Then I'll show you two around!\nIt doesn't look like you'll be able to leave for a while.
 だねー\n……ついさっき行って確定しちゃったけど\nあたしとシナツちゃんはソルの塔に入れないみたいだし。=That's true.\n...We just went there to double check, but it seems like Shinatsu and I won't be able to enter the Sol Tower.
-r:"^ソルの塔の調査については、フィオとネビアに任せよう。\nそれと……\nエリスの行方については、ユイと(.{2,10})に。"=I'll leave the investigation of Sol Tower to Fio and Nebbia.\nAnd...\nYui and $1 will tackle Eris's whereabouts.
+ソルの塔の調査については、フィオとネビアに任せよう。\nそれと……\nエリスの行方については、ユイと{playername}に。=I'll leave the investigation of Sol Tower to Fio and Nebbia.\nAnd...\nYui and {playername} will tackle Eris's whereabouts.
 ……よし。\nではどうするか。=...Okay. Then what should we do?
 あっ！\nそれなんだけどね？\n二つのチームに分かれてみない？=Oh! About that... Why don't we split into two teams?
 …………\n私を仲間外れにするつもりか……=...So you're trying to leave me out...

@@ -80,7 +80,7 @@
 アアアァ！！！=Aaaaah!!!
 な、なんて威力なの……！？\nもうすっかり本調子なんじゃない？=Wh-What power...!?\nThey're already going full throttle, aren't they?
 騎士くんっ！\nお願い、あたしたちを強化して！\n二人を早く助けたいの！=Kishi-kun!\nPlease, strengthen us!\nI want to help those two as soon as possible!
-r:"^(.{2,10})、ありがとう！\nこれで対等に戦える……！"=$1, thank you!\nNow we can fight on equal footing...!
+{playername}、ありがとう！\nこれで対等に戦える……！={playername}, thank you!\nNow we can fight on equal footing...!
 こいつの補助とガードはあたしに任せて！\n思いっきりやっちゃいなさい！=Let me handle the support and protection of him!\nJust hit it as hard as you can!
 うん！\nああ！=[Yeah!]\n[Alright!]
 ウグゥッ！=Ughhh!

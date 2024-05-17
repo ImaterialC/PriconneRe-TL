@@ -284,7 +284,7 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 
 [3C404E]10キャラ目は[FFBB00,CE4F00]選択した★3キャラ確定！[-]\n※選択したキャラはいつでも変更可能です[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 character[-] is guaranteed with a 10x draw!\n    ►Selected characters can be changed at any time.[-]
 
-[3C404E]10キャラ目は[FFBB00,CE4F00]★3キャラ確定！[-] マスターピース×１獲得可能！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 character[-] is guaranteed with a 10x draw! Master Piece x1 can be obtained![-]
+[3C404E]10キャラ目は[FFBB00,CE4F00]★3キャラ確定！[-] マスターピース×１獲得可能！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 character[-] is guaranteed with a 10x draw!\nMasterpiece x1 can be obtained!\n[-]
 
 
 [3C404E]10キャラ目は[FFBB00,CE4F00]火属性の★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Fire Character[-] is guaranteed with a 10x draw!
@@ -298,7 +298,7 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 [FFBB00,CE4F00]有償ジュエル限定\nクリスマス★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Paid Jewels Limited\nChristmas ★3 Guaranteed Platinum Gacha Now Underway![-]
 [3C404E]10キャラ目は[FFBB00,CE4F00]クリスマス★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Christmas Character[-] is guaranteed with a 10x draw!
 
-[FFBB00,CE4F00]有償ジュエル限定\n★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Limited Guarantee ★3\nPaid Jewel Premium Gacha! [-]
+[FFBB00,CE4F00]有償ジュエル限定\n★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Limited Guarantee ★3 Paid Jewel Premium Gacha! [-]
 有償ジュエルを消費してガチャを 10 回引きます。\nよろしいですか？=Consume Paid Jewels and draw 10 times.\nIs this OK?
 有償ジュエルを消費してガチャを 1 回引きます。\nよろしいですか？=Consume Paid Jewels and draw 1 times.\nIs this OK?
 ---Special Tickets use---

@@ -65,6 +65,9 @@
 
 ゼラチナ=Zerachina
 物理攻撃が当たりにくいとってもヌルヌルなゼリーの魔物。=A jelly-like monster that is very slippery, making physical attacks difficult to land.
+とってもヌルヌルなゼリーの魔物。=A jelly-like monster that is very slippery.
+
+ＨＰ高いキャラ攻撃、束縛　（ダメージ無効化時も付与）=High HP character attack, binding\n (also given when damage is nullified)
 
 サラマンダー=Salamander
 尾先の炎を燃やし続けることで常に躰を温め、二連撃を繰り出すトカゲの魔物。=A lizard-like monster that constantly burns the tip of its tail to keep itself warm and delivers a double attack.
@@ -246,6 +249,8 @@
 
 トドドン=Toddon
 身体も態度も巨漢な北海のドン。纏う厚い脂肪が敵からの物理攻撃を押止める。=A North Sea don with a huge body and attitude. The thick fat it wears blocks physical attacks from enemies.
+身体も態度も巨漢な北海のドン。纏う厚い脂肪が敵からの攻撃を押止める。=A North Sea don with a huge body and attitude. The thick fat he wears blocks attacks from enemies.
+
 
 ワタリトビ=Wataritobi
 荒野に生き、荒野に死ぬという生き様に憧れ、独り旅をするトビ。=Tobi dreams of living and dying in the wilderness, and travels alone.
@@ -294,3 +299,6 @@
 
 動く戦士像=Living Warrior Statue
 あらゆる攻撃を防ぐ盾をもった、命ある石像。=A living statue with a shield that blocked all attacks.
+
+動く剣士像=ALiving Swordsman Statue
+あらゆる攻撃を剣ではじき返す、命ある石像。=A living statue that repels all attacks with its sword.

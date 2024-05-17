@@ -1,0 +1,25 @@
+r:"^叡智の森周辺([0-9\-\(\)\w （）]*)$"=Flea Market Venue $1
+
+叡智の錬金術師・モーヴ=Mauve The Alchemist of Wisdom
+モーヴ=Mauve
+ビカラ・カリン=Vikara & Karin
+
+自身の物理攻撃力を中アップさせる。=Boosts own physical attack power moderately.
+
+最も近い敵３キャラに自身の物理攻撃力に応じた物理割合ダメージを与える。=Deals physical damage based on own physical attack power to the nearest 3 enemies.
+ユニオンバーストは、敵全体に自身の物理攻撃力に応じた物理割合ダメージを与え、短時間麻痺状態にする。キャラのＨＰが50％未満の場合は長時間麻痺状態にする。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals physical damage to all enemies based on own physical attack power and inflicts a short paralysis. If the character's HP is below 50%, the paralysis duration is extended. This skill's status effect is applied even if the damage is nullified.
+知識こそが力と信じ、叡智の研鑽を重ねる錬金術師。あらゆる学問の粋を集めたグレートアームを身に纏い、冒険者たちの行く手を阻む。=An alchemist who believes that knowledge is power and continuously hones their wisdom. Clad in the Great Arm, which embodies the pinnacle of various fields of study, they stand in the way of adventurers.
+
+自身のＨＰが50％を切ると、物理攻撃力を大アップさせる。=When own HP falls below 50%, greatly boosts physical attack power.
+錬金術師は、研究の結晶たる鋼の剛腕に力を溜め渾身の一撃を繰り出す。巨岩をも打ち砕くその衝撃が、容赦なく冒険者たちを襲う。=The alchemist gathers power in the steel arm, a culmination of their research, and delivers a powerful blow. The impact, capable of shattering boulders, relentlessly assails adventurers.
+バトル開始直後、自身の物理防御力と魔法防御力を小アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=Immediately after the battle starts, slightly boosts own physical defense and magical defense. The defense boost from this effect is not affected by defense-lowering skills received during battle.
+
+ＣＴが最大まで溜まると、最も近い敵１キャラに9999999の物理ダメージを与える。=When CT is fully charged, deals 9999999 physical damage to the nearest enemy character.
+
+叡智の錬金術師=The Sage of Wisdom:
+モーヴから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery rate of party characters moderately from all damage taken by Mauve.
+敵全体に物理大ダメージを与える。さらに最も遠い敵２キャラを大きく引き寄せ、スタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive physical damage to all enemies. Additionally, pulls the 2 farthest enemies significantly closer and stuns them. This skill's status effect is applied even if the damage is nullified.
+自身を中心とした範囲内の敵に物理大ダメージを与え、物理攻撃力と魔法攻撃力を中ダウンさせる。さらにノックバックさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive physical damage to enemies within a range centered on oneself and reduces their physical and magical attack power moderately. Additionally, knocks them back. This skill's status effect is applied even if the damage is nullified.
+縦横無尽に動き回る両の腕は、対敵がどこにいようとも捕らえ逃がさない。執拗に追駆するその手腕から、思考を巡らせ切り抜けろ。=The freely moving arms capture enemies no matter where they are. Use your wits to escape from their relentless pursuit.
+失敗の経験さえも己の知恵とし、さらなる進化を遂げた錬金術師。独りよがりな野望を叶えんとする傲慢な賢者を、力を合わせて打ち破れ。=An alchemist who has evolved further, turning even the experience of failure into wisdom. Unite to defeat the arrogant sage who seeks to fulfill their self-centered ambitions.
+バトル開始直後、自身の物理防御力と魔法防御力を中アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=Immediately after the battle starts, moderately boosts own physical defense and magical defense. The defense boost from this effect is not affected by defense-lowering skills received during battle.

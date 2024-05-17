@@ -4,6 +4,7 @@
 ##UB##
 緑翠の絆風=Green Bond Wind
 自分の物理攻撃がクリティカルした時のダメージを中アップさせ、さらに目の前の敵１キャラに物理大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく５倍になる。=Moderately boosts own P.CRIT DMG, and also deals large P.DMG to an enemy in front. If this skill hits a critical hit, the damage will be x5 instead of x2.
+
 r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃クリティカル時のダメージを30％アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.CRIT DMG by 30% for 18s.
 
 ##S1##
@@ -13,6 +14,8 @@ r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃クリティカ�
 ##S2##
 翔る薫風=Soaring Fragrant Wind
 自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、さらにＴＰを小回復する。=Greatly boosts own P.ATK and P.CRIT Rate, and also recovers own TP by a small amount. All effects last 12s.
+自分の物理攻撃力と物理クリティカルを大アップさせ、さらにＴＰを小回復する。=Greatly boosts own P.ATK and P.CRIT Rate, and also recovers own TP by a small amount. All effects last 12s.
+
 r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分のＴＰを(\d+)回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Recovers own TP by $3.
 
 ##EX##

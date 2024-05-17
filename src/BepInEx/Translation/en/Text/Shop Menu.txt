@@ -21,7 +21,7 @@ r:"^残り(\d+)回$"=$1 Times Left
 これ以上、\n購入できません=Cannot purchase\nany more.
 これ以上、\\n購入できません=Cannot purchase\nany more.
 所持コイン=Coins Held:
-
+これ以上購入回数を減らせません。=The number of purchases cannot be reduced any further.
 ポーション=EXP Potion
 r:^"([0-9,]+)でまとめて購入する$"=Buy All with: $1
 まとめて購入する=Buy All

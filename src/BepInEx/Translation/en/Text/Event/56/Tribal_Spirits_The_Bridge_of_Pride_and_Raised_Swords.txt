@@ -246,7 +246,7 @@
 それが言えたら苦労はしないッス！\n……あっ、ここが自分の家ッス。=If I could say that, I wouldn't have any troubles!\n...Ah, this is my own home.
 じゃあ、準備してくるッスから、\n絶対！　何があっても！　ここに居てくださいッスよ！？=Well, I'll go get ready, so definitely!\nNo matter what happens! Please stay here, okay?!
 それは覗いてくれという前フリか？=Is that a preface asking me to take a peek?
-r:"^違うッス！　本当の、本気の、マジのやつッスよ！\n(.{2,10})さんも、おばさんが\n何かしようとしたら止めてほしいッス。頼んだッスからね！？$"="No way! The real, serious, genuine deal!\nI want you to stop Auntie if she tries to do something.\nI'm begging you!"
+違うッス！　本当の、本気の、マジのやつッスよ！\n{playername}さんも、おばさんが\n何かしようとしたら止めてほしいッス。頼んだッスからね！？=No way! The real, serious, genuine deal!\nI want you to stop Auntie if she tries to do something.\nI'm begging you!
 フン。随分と信用されてないな、ワタシは。\nまあ、誰にでも触れられたくない話題はある。=Hmph. I see that I'm not trusted very much.\nWell, everyone has topics they don't want to talk about\nor they would rather not be touched upon.
 それがマツリちゃんの場合は家族なんだろうよ。\nいや、本人の出自……と言うべきかな？=If it's Matsuri, then it must be her family.\nWell, should I say it's her own background...?
 知ってたんですか？=Did you know that?

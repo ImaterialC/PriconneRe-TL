@@ -16,10 +16,15 @@
 お迎えの時間=Time for the Princess's Welcome
 姫と王子は馬車に揺られて=The Princess and the Prince Rocked by the Carriage
 
-##UB##
+##Legacy UB##
 メルヘンガーデン=Fairy-tale Garden
 味方全体の魔法攻撃力を小アップ、物理防御力を小アップさせ、さらにＴＰを小回復する。=Small boost to M.ATK and allies' P.DEF and recovers their TP by a small amount.
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを(\d+)回復$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.
+
+##UB##
+メルヘンガーデン=Fairy-tale Garden
+味方全体の魔法攻撃力を大アップ、物理防御力を中アップさせ、さらにＴＰを固定量で小回復する。=Greatly boosts all allies' M.ATK, moderately boosts their P.DEF, and slightly recovers their TP by a fixed amount.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを固定量で(\d+)回復$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' P.DEF by $2 for 18s.\n►Recovers all allies' TP by fixed $3.
 
 ##S1##
 マホマホヒール=Maho-Maho Healing
@@ -36,10 +41,15 @@ r:"^敵単体を暗闇状態にする$"=►Inflicts Blind.
 バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法攻撃力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.ATK at start of battle.
 r:"^自分の物理防御力を(\d+)アップ自分の魔法攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own M.ATK by $2.
 
-##UB+##
+##Legacy UB+##
 メルヘンキングダム=Fairy-tale Kingdom
 味方全体の魔法攻撃力を特大アップ、物理防御力を中アップさせ、さらにＴＰを中回復し、継続ＴＰ回復状態を付与する。=Massive boost to M.ATK and allies' P.DEF, recovers their TP by a moderate amount, and grant a continuous TP recovery state.
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを(\d+)回復毎秒ＴＰを(\d+)回復する$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.\n►Recovers TP by $4/s for 10s.
+
+##UB+##
+メルヘンキングダム=Fairy-tale Kingdom
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップ、物理防御力を大アップさせ、さらにＴＰを固定量で中回復し、継続ＴＰ回復状態を付与する。=Massively boosts all allies' M.ATK, greatly boosts their M.CRIT Rate and P.DEF, and slightly boosts their M.CRIT DMG. Additionally moderately recovers all allies' TP by a fixed amount and grants them continuous TP recovery.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法攻撃クリティカル時のダメージを5％アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを固定量で120回復毎秒ＴＰを10回復する$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' M.CRIT Rate by 100 for 18s.\n►Boosts all allies' M.CRIT DMG by 5% for 18s.\n►Boosts all allies' P.DEF by $2 for 18s.\n►Recovers all allies' TP by fixed 120.\n►Recovers all allies' TP by 10/s for 10s.
 
 ##S1+##
 マホマホヒール+=Maho-Maho Healing+

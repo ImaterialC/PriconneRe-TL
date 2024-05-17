@@ -593,9 +593,18 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 リングオブサンダルフォン=Ring of Sandalphon
 リングオブセフィロト=Ring of Sephiroth
 
-
 妖精鎧甲オーベロン=Fairy Armor Oberon
 妖精輝装クーフーリン=Fairy Radiant Armor Cú Chulainn
 妖精舞沓シルキー=Fairy Dance Boots Silky
 妖精叢盾スプリガン=Fairy Thicket Shield Spriggan
 妖精麗装ティターニア=Fairy Elegant Attire Titania
+
+妖精揚斧モンテズマ=Fairy Lifting Axe Montezuma
+妖精崩杖キプリス=Fairy Crushing Staff Kypris
+妖精翅槍メネラウス=Fairy Winged Spear Menelaus
+妖精煌剣アキレアナ=Fairy Shining Sword Achilleana
+妖精舞刀パトロクルス=Fairy Dancing Sword Patroclus
+妖精梓弓タミュリス=Fairy Catalpa Bow Thamyris
+妖精幻手カシカモ=Fairy Phantom Hand Caccomo
+妖精回杖アナクシビア=Fairy Spinning Staff Anaxibia
+妖精夢刃ダイダミア=Fairy Dream Blade Deidamia

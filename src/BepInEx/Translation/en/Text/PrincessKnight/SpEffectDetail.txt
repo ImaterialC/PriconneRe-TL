@@ -28,6 +28,11 @@
 魔法防御力（ダウン不可）アップ=Magical Defense UP (Unremovable)
 バトル開始時、すべてのモンスターの魔法防御力を中アップさせる。この効果は魔法防御力ダウンの影響を受けない。=At the start of battle, all enemies receive a moderate boost to M.DEF. This boost is not affected by M.DEF reduction effects.
 
+バトル開始時、すべてのモンスターの魔法防御力を大アップさせる。この効果は魔法防御力ダウンの影響を受けない。=At the start of battle, all enemies receive a large boost to M.DEF. This boost is not affected by M.DEF reduction effects.
+バトル開始時、すべてのモンスターの物理防御力を大アップさせる。この効果は物理防御力ダウンの影響を受けない。=At the start of battle, all enemies receive a large boost to P.DEF. This boost is not affected by P.DEF reduction effects.
+バトル開始時、すべてのモンスターの魔法防御力を特大アップさせる。この効果は魔法防御力ダウンの影響を受けない。=At the start of battle, all enemies receive a massive boost to M.DEF. This boost is not affected by M.DEF reduction effects.
+バトル開始時、すべてのモンスターの物理防御力を特大アップさせる。この効果は物理防御力ダウンの影響を受けない。=At the start of battle, all enemies receive a massive boost to P.DEF. This boost is not affected by P.DEF reduction effects.
+
 ＴＰ上昇上限付与=Maximum TP Boost
 バトル開始時、すべてのキャラのＴＰ上昇の上限値を150にする。=At the start of the battle, the maximum TP Boost for all characters is capped to 150.
 

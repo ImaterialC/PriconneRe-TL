@@ -176,7 +176,7 @@
 行ったことがある。=I've seen this before.
 騎士さんが言ういろいろって本当にいろいろすぎて、\n不思議と納得しちゃうんですよね……\n何言ってるかはさっぱり分からないんですけど。=Kishi-san says so many things that it's truly too many things, and yet, strangely enough, I find myself understanding and accepting them...Even though I have absolutely no idea what he's talking about.
 そ、そうだね。\nでも彼がそう言うならこの子たちは本当に……お化け？=Um, yeah. But if he says so, are these kids really... ghosts?
-r:"^霊界にッスか！？\n(.{2,10})さん、本当にいろんなところに行ってるッスね。$"="Are you in the spirit world, pal?! You've really been to a lot of places, haven't you?"
+霊界にッスか！？\n{playername}さん、本当にいろんなところに行ってるッスね。=Are you in the spirit world, pal?! You've really been to a lot of places, haven't you?
 そんな衝撃的なことをサラッと言わないでください！\nえ？　っていうことはこの子たち本当にお化けなんですか？=Please don't casually say such shocking things! \nHuh? So, does that mean these kids are really ghosts?
 そんなのありえない、って言いたいところですけど……\nそう言われると納得いくところもありますね。=That's just impossible, is what I want to say...\nbut when you put it that way, there is some truth to it.
 マシューさんの衣装、作り物って感じじゃありませんし。\nちょっといいですか。=Matthew's outfit doesn't feel like a costume. \nMay I ask you something?

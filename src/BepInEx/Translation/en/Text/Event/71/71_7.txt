@@ -32,7 +32,7 @@
 ……うん。\nお願い。=...Yeah. Please.
 何かあったら、すぐに戻ってきなさいよ。\n気をつけてね。=If anything happens, come back right away. Be careful.
 ユイちゃん！\n無理はしないでね。=Yui-chan! Don't push yourself too hard.
-r:"^(.{2,10})。\nユイのことを頼んだよ。"=$1. Take care of Yui.
+{playername}。\nユイのことを頼んだよ。={playername}. Take care of Yui.
 みんな、ありがとう。\n……いってきます。=Thank you, everyone.\n...I'll be going now.
 青い……イバラ？=Blue... thorns?
 ……誰かいる。=...Someone's in there.
@@ -99,7 +99,7 @@ r:"^(.{2,10})。\nユイのことを頼んだよ。"=$1. Take care of Yui.
 エリスさん……\nごめんなさい。=Eris-san... I'm sorry.
 まだ……言うのね。=You're... still saying that.
 ああああああ！！！=Aaaaahhh!!!
-r:"^一人残された(.{2,10})は\n気を失ったユイを抱え、彼女とエリスの意識が戻るのを待っていた。"=Left alone, $1 held the unconscious Yui in her arms, waiting for her and Eris to regain consciousness.
+一人残された{playername}は\n気を失ったユイを抱え、彼女とエリスの意識が戻るのを待っていた。=Left alone, {playername} held the unconscious Yui in her arms, waiting for her and Eris to regain consciousness.
 ユイ、エリスさん……=Yui, Eris-san...
 ふーっ……ふーっ……\nううぅ……=Haah... Haah. Ugh...
 ……それが。\nわたしの見てきたものよ。=...And so: Those are the things I've seen.
@@ -129,7 +129,7 @@ r:"^一人残された(.{2,10})は\n気を失ったユイを抱え、彼女と�
 ごめんね、ユイちゃん！\nエリスさんとお話ししてたのに……！=Sorry, Yui-chan! You were talking to Eris-san...!
 エリスとはどうだった？\n……悔いなく話せた？=How was it with Eris?\n...Were you able to speak without regret?
 ま、それはおいおいってことで！\n今はこの霧ちゃんを倒しちゃおう！=Well, let's just leave it at that!\nLet's defeat Kiri-chan for now!
-r:"^(.{2,10})。\nユイの強化も頼む。"=$1. I'm counting on you to strengthen Yui, too.
+{playername}。\nユイの強化も頼む。={playername}. I'm counting on you to strengthen Yui, too.
 騎士クンっ？\nしっかりして、騎士クン！=Kishi-kun? Hang in there, Kishi-kun!
 気を失ってるわね。\n……さっきのユイみたいに。=He's unconscious, isn't he? Just like Yui.
 変身がっ……！=My transformation...!

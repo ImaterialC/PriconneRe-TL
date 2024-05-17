@@ -4,6 +4,7 @@ r:"^紫冥の深域(.{0,5})$"=Violet Abyss Depths $1
 r:"^蒼波の深域(.{0,5})$"=Azure Wave Depths $1
 r:"^珀天の深域(.{0,5})$"=Amber Sky Depths $1
 
+Talent Questへ=To Talent Quest
 深域クエストへ=To Talent Quest
 闇属性=Dark
 光属性=Light

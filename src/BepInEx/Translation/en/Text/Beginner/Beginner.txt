@@ -20,7 +20,8 @@ r:"^メインクエスト([\s\S]*)クリアで$"=Main Quest $1 has been cleared.
 あなたの誕生日を下記で登録します。=Registering your birthday as below.\n Is this OK?
 
 誕生日を登録しました。=Birthday has registered at:
-r:"^(.{1,10}) さん$"=$1-san
+{playername} さん=$1-san
+{playername}さん=$1-san
 
 ---Profile---
 ‐年‐月合計スコア=No participation yet.

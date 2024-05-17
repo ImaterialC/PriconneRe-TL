@@ -1,5 +1,5 @@
 同じ星空の下=Under that Same Starry Sky
-r:"^裏世界へ向かった【トゥインクルウィッシュ】の３人と\n(.{2,10})。"=The three members of Twinkle Wish and $1 are headed to the Reverse World.
+裏世界へ向かった【トゥインクルウィッシュ】の３人と\n{playername}。=The three members of Twinkle Wish and {playername} are headed to the Reverse World.
 星がきれいだね……=The stars are so pretty...
 うん。\nこうしてゆっくり夜空を見上げるのも久しぶりだ……=Yeah. It's been a while since I've been able to look up at the night sky like this...
 冒険の醍醐味だね！\n魔法陣を使って一気に移動しなくて正解だったよ。=This is the best part of adventuring!\nWe were right not to use a magic circle to get there instantly.
