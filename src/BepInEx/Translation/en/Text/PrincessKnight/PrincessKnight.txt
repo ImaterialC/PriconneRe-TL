@@ -14,13 +14,13 @@
 
 未強化=Unenhanced
 このノードは強化済みです。=This node has been strengthened.
-所持シャード=Possession Shard
-消費シャード=Consumer shard
+所持シャード=Shards Held
+消費シャード=Shard Cost
 ノード詳細=Node Details
 選択したノードの強化詳細です。\n未強化の前提ノードは自動で強化されます。=This is the details of the selected node's enhancement. The unenhanced node will automatically be strengthened.
 強化済みです。=It has been strengthened.
 
-消費マスターピース=MPs Cost
+消費マスターピース=MP Cost
 所持マスターピース=MPs Held
 sr:"^\[3C404E\](.+)の(.+)が\[-\]\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\]$"=[3C404E]$1's $2 increases by [FFBB00,CE4F00]$3[-].[-]
 sr:"^\[3C404E\](.+)の(.+)が\[-\]\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\](?:\r)?\n\[3C404E\](.+)?の(.+)が\[-\]\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ\[-\]$"=[3C404E]$1's $2 increases by [FFBB00,CE4F00]$3[-].\n$4's $5 increases by [FFBB00,CE4F00]$6[-].[-]
