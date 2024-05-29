@@ -7,6 +7,14 @@
 r:"^神殿への参道([0-9\-\(\)\w （）]*)$"=Road to the Temple $1
 r:"^ランドソル郊外([0-9\-\(\)\w （）]*)$"=Landosol Outskirts $1
 r:"^光の裂け目([0-9\-\(\)\w （）]*)$"=Fissure of Light $1
+r:"^エリザベスパーク([0-9\-\(\)\w （）]*)$"=Elizabeth Park $1
+r:"^エルピス島 開拓キャンプ一帯([0-9\-\(\)\w （）]*)$"=Elpis Island: Reclamation Camp Area $1
+r:"^ゴーストグレイヴ([0-9\-\(\)\w （）]*)$"=Ghost Glaive $1
+r:"^マホマホ王国避暑地？([0-9\-\(\)\w （）]*)$"=Mahomaho Kingdom summer resort? $1
+r:"^キッチンスタジアム([0-9\-\(\)\w （）]*)$"=Kitchen Stadium $1
+r:"^イルシオンの孤島([0-9\-\(\)\w （）]*)$"=Illusion Island $1
+r:"^マシーナ地方([0-9\-\(\)\w （）]*)$"=Masina Region $1
+r:"^タルグム地方([0-9\-\(\)\w （）]*)$"=Targum Region $1
 
 r:"^開催期間 : ([0-9/]+)～([0-9/]+)$"=Event: $1 to $2
 r:"^([0-9/ :]+) ～ ([0-9/ :]+)まで$"=$1 to $2

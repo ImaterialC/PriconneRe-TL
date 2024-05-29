@@ -10,7 +10,7 @@ etude　～練習曲～=Etude ~Practice song~
 ##UB##
 クリスタルララバイ=Crystal Lullaby
 前方の敵すべてに魔法中ダメージを与え、さらに魔法防御力を中ダウンさせる。=Deals moderate M.DMG to all enemies, and moderately lowers their M.DEF.
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' M.DEF by $2 for 18s.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' M.DEF by $2.
 
 ##S1##
 ミスティックハーモニー=Mystic Harmony

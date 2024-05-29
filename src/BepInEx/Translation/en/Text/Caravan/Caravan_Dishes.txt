@@ -48,8 +48,14 @@
 次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
 次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 next turn.\nThe turn counter will not increase.
 マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You can move by skipping the Mile Tiles. Effect lasts for 2 turns.
-次にダイスを振った際、1マス多く進…=You can move 1 extra Tile next turn.
 次にダイスを振った際、1マス多く進める。=You can move 1 extra Tile next turn.
+次にダイスを振った際、2マス多く進める。=You can move 2 extra Tile next turn.
+次にダイスを振った際、3マス多く進める。=You can move 3 extra Tile next turn.
+次にダイスを振った際、4マス多く進める。=You can move 4 extra Tile next turn.
+次にダイスを振った際、5マス多く進める。=You can move 5 extra Tile next turn.
+次にダイスを振った際、6マス多く進める。=You can move 6 extra Tile next turn.
+次にダイスを振った際、7マス多く進める。=You can move 7 extra Tile next turn.
+次にダイスを振った際、8マス多く進める。=You can move 8 extra Tile next turn.
 ---Yellow---
 マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
 次にマイルマスに止まった際の獲得マイルが200%アップする。=You will get 200% more Miles on the next Mile Tile you stop at.
@@ -175,12 +181,19 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 ---Yellow---
 アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special picnic basket together. Their excitement for this trip with their friends is packed into every single delicious dish. Eating them fills you with joy and ensures that the next event will be just that bit more special.
 
-カヤとイノリが弁当代わりに持ってきたケバブ。\nイノリ行きつけの店の硬派な味わいで、ギャング\nとしてのやる気が一人3倍、コンビで6倍となり\n下剋上を成し遂げるパワーが湧く……らしい。=Instead of typical lunches, Kaya and Inori brought this Kebab from Inori's favorite restaurant. They claim that the robust savory flavor gives them three times the motivation (six times as a duo) to power on through and achieve their goals as the underdog... apparently.
+カヤとイノリが弁当代わりに持ってきたケバブ。イノリ行きつけの店の硬派な味わいで、ギャングとしてのやる気が一人3倍、コンビで6倍となり下剋上を成し遂げるパワーが湧く……らしい。=Instead of typical lunches, Kaya and Inori brought this Kebab from Inori's favorite restaurant. They claim that the robust savory flavor gives them three times the motivation (six times as a duo) to power on through and achieve their goals as the underdog... apparently.
 
-タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=After Tamaki and her friends introduced Gio Teogonia to taiyaki, the locals took the concept and adapted it into this magical sweet treat. This iridescent dessert is said to be several times sweeter than Landosol's taiyaki.
+タマキたちが『ジオ・テオゴニア』に持ち込んだたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実にランドソルのたい焼きの数倍と言われている。=After Tamaki and her friends introduced Gio Teogonia to taiyaki, the locals took the concept and adapted it into this magical sweet treat. This iridescent dessert is said to be several times sweeter than Landosol's taiyaki.
 
 ---Green---
 クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria woke up very early to prepare this lunch box for the adventure. There is a variety of dishes, all of them exquisite, but it's true contents are kept secret until lunch time, making everyone tremble in anticipation when it's time to open the lid.
 
 
 コッコロの指導により料理の腕を上げたランファが手作りした肉じゃが。まだ改 善の余地はあるものの、不器用なランファが誰かのために積み重ねた努力を思うととてもおいしく味わえる。= After receiving plenty of guidance from Kokkoro in the ways of cooking, Ranpha made this homestyle meat and potato stew. There is room for improvement, but knowing how much effort the typically clumsy Ranpha put in for someone else's sake fills your stomach with glee.
+
+アユミの隠密ガトーインビジブル=Ayumi's Stealth Gateau Invisible
+気が付くとリリの手元にあった不思議なお菓子。一見普通のケーキだが、内部に様々な具材が隠れるように入っている。複雑で重層的な味わいを見せる様は、まるで誰かさんのよう。=When you notice it, there's a mysterious sweet in Lili's hand. At first glance, it looks like an ordinary cake, but various ingredients are hidden inside. The complex and layered flavors are reminiscent of a certain someone.
+アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made using spices that Akino procured from Geo Gehenna. The stimulating flavor, harmonized with ranch-specialty yogurt sauce, is truly a miraculous marriage of two worlds.
+
+「マイルマス」「トレジャーマス」をスキップして移動できる。効果は1ターンの間継続する。=You can skip "mile tiles" and "treasure tiles" when moving. The effect lasts for 1 turn.
+アネモネが世話する秘密の菜園の野菜を使ったサラダ。栄養を重視するアネモネは草食獣の肉を野菜と解釈、当初は野菜の上に肉を置いただけであったが、ネラの指導で盛り付け直された。=A salad made with vegetables from Anemone's secret garden. Anemone, who prioritizes nutrition, interpreted herbivore meat as vegetables, initially placing meat on top of vegetables. However, it was rearranged under Nera's guidance.
