@@ -608,3 +608,4 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 妖精幻手カシカモ=Fairy Phantom Hand Caccomo
 妖精回杖アナクシビア=Fairy Spinning Staff Anaxibia
 妖精夢刃ダイダミア=Fairy Dream Blade Deidamia
+妖精舞装アヌーン=Fairy Dance Attire Annwn

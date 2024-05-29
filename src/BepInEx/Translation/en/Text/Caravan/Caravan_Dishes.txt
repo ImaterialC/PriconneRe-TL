@@ -1,3 +1,4 @@
+ジオ・ゲヘナの植物採取=Gio Gehenna plant harvesting
 ---Dish names---
 ---Red---
 ペコリーヌの満腹ツインおにぎり=Pecorine's Satisfying Twin Onigiri
@@ -37,6 +38,7 @@
 次に振るダイスの目が必ず「7」になる。=You will roll a guaranteed 8 next turn.
 次に振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 next turn.
 ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=You will roll a guaranteed 4 for the next 3 turns.
+アネモネの花爛漫ステーキサラダ=Anemone's Flower Steak Salad
 
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
 次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
@@ -131,8 +133,8 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 【イベント】次のターン数のカウントをスキップする=[Event] Skip the next turn count
 【料理】移動時にトレジャーマスをスキップできる=[Cooking] Skip treasure trout when moving
 ---Red---
-ミミが、ジオ・ゲヘナで助けてくれたお姉さん達のことを思い作ったおにぎり。それぞれ異なる味付けがされているが、ミミの願い通りお互いにケンカをせず仲良くハーモニーを奏でている。=Mimi made rice balls while thinking of the older sisters who helped her in Geo Gehenna. Each one is seasoned differently, but as Mimi wished, they all get along harmoniously without fighting, playing in harmony.
-アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキ ンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made with spices that Akino procured from Geo Gehenna. The exciting flavor that comes with the ranch's special yogurt sauce is truly a miraculous marriage of two worlds.
+ミミが、ジオ・ゲヘナで助けてくれたお姉さん達のことを思い作ったおにぎり。それぞれ異なる味付けがされているが、ミミの願い通りお互いにケンカをせず仲良くハーモニーを奏でている。=Mimi made rice balls while thinking of the older sisters who helped her in Gio Gehenna. Each one is seasoned differently, but as Mimi wished, they all get along harmoniously without fighting, playing in harmony.
+アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキ ンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made with spices that Akino procured from Gio Gehenna. The exciting flavor that comes with the ranch's special yogurt sauce is truly a miraculous marriage of two worlds.
 ナーナ=Nana
 出たダイスの目が奇数だった場合、\nライバルを1ターン休みにできる=If the die has an odd number of eyes, you can take a turn off your rival
 【仲間】出たダイスの目が奇数だった場合、ライバルを1ターン休みにできる=[Friend] If the dice roll is an odd number, you can give your rival one turn off.
@@ -157,9 +159,9 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 リマがネネカにもらったリンゴで作った秘密の\nスイーツ。爽やかな酸味と濃厚な甘さがまるで\n魔法のようなバランスでお互いを引きたてており\n食べた者をたちまち虜にしてしまうという。=A hidden dessert made from an apple that Rima had received from Neneka. The refreshing sourness and rich sweetness complement each other to form a truly magical balance, instantly captivating anyone who takes a bite.
 
-クレジッタが考案した、ジオ・テオゴニアで流通\nしているチョコの貨幣の盛り合わせ。一見すると\n金貨を口に入れるおバカさんではあるが、通貨を\n食べるという背徳感が隠し味となっている。=An assortment of chocolate coins in circulation within Geo Teogonia, invented by Creditta. At first, it might seem stupid to eat your own money, but the feeling of immorality that comes with consuming currency makes for an acquired taste.
+クレジッタが考案した、ジオ・テオゴニアで流通\nしているチョコの貨幣の盛り合わせ。一見すると\n金貨を口に入れるおバカさんではあるが、通貨を\n食べるという背徳感が隠し味となっている。=An assortment of chocolate coins in circulation within Gio Teogonia, invented by Creditta. At first, it might seem stupid to eat your own money, but the feeling of immorality that comes with consuming currency makes for an acquired taste.
 
-ニノンがジオ・テオゴニアに持ち込んだ特別な\n寿司。厳選された新鮮な魚介を使った逸品だが、\n一部のネタは、寿司のセオリーを逸脱したニノン\n我流のものに仕上がっている。=A special sushi that Ninon brought to Geo Teogonia, only the freshest seafood was used in it's creation. Ultimately though, it's her unconventional usage of alternative ingredients that elevates this dish into a masterpiece.
+ニノンがジオ・テオゴニアに持ち込んだ特別な\n寿司。厳選された新鮮な魚介を使った逸品だが、\n一部のネタは、寿司のセオリーを逸脱したニノン\n我流のものに仕上がっている。=A special sushi that Ninon brought to Gio Teogonia, only the freshest seafood was used in it's creation. Ultimately though, it's her unconventional usage of alternative ingredients that elevates this dish into a masterpiece.
 
 可愛い妹がお兄ちゃんのために心を込めて作った\nスペシャルなかき氷。一口食べるとたちどころに\nクールな甘さが精神を研ぎ澄まし、いかなる\nお得をも見逃さない要塞賢母と化すという。=A special serving of shaved ice made with fiery passion, from an adorable little sister to her dearest brother. Just one bite and the cold, heart-melting sweetness will hone your senses, turning you into a veritable fountain of wisdom that never misses a bargain.
 
@@ -175,7 +177,7 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 カヤとイノリが弁当代わりに持ってきたケバブ。\nイノリ行きつけの店の硬派な味わいで、ギャング\nとしてのやる気が一人3倍、コンビで6倍となり\n下剋上を成し遂げるパワーが湧く……らしい。=Instead of typical lunches, Kaya and Inori brought this Kebab from Inori's favorite restaurant. They claim that the robust savory flavor gives them three times the motivation (six times as a duo) to power on through and achieve their goals as the underdog... apparently.
 
-タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=After Tamaki and her friends introduced Geo Teogonia to taiyaki, the locals took the concept and adapted it into this magical sweet treat. This iridescent dessert is said to be several times sweeter than Landosol's taiyaki.
+タマキたちが『ジオ・テオゴニア』に持ち込んだ\nたい焼きの概念が現地の文化と溶け合い生まれた\n魔改造スイーツ。虹色に輝くその甘さは、実に\nランドソルのたい焼きの数倍と言われている。=After Tamaki and her friends introduced Gio Teogonia to taiyaki, the locals took the concept and adapted it into this magical sweet treat. This iridescent dessert is said to be several times sweeter than Landosol's taiyaki.
 
 ---Green---
 クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria woke up very early to prepare this lunch box for the adventure. There is a variety of dishes, all of them exquisite, but it's true contents are kept secret until lunch time, making everyone tremble in anticipation when it's time to open the lid.

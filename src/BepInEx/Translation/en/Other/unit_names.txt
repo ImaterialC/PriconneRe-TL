@@ -80,7 +80,6 @@
 リリ=Riri;Lili;Lily
 クローチェ=Croce;Croche;Crotch
 ライラエル=Lyrael;Lailael;Rairael
-クルル=Kururu
 ネビア=Navi;Nebbia
 ヤマト=Yamato
 フブキ=Fubuki
@@ -895,6 +894,9 @@
 エリコ（コマンダー）=Eriko (Commander);CEriko;CoEriko;KEriko;IEriko;BDSMEriko;Commander
 マコト（コマンダー）=Makoto (Commander);CMakoto;GomenYui;CoMakoto;KMakoto;IMakoto;BDSMakoto;GomenYui;Commander
 
-
 スズメ（スプリング）=Suzume (Spring);SPSuzume;Spring
 キョウカ（スプリング）=Kyoka (Spring);Kyouka (Spring);SPKyouka;Spring
+
+クルル=Kururu;Bunny
+クルル（バニー）=Kururu (Bunny);Bunny
+マホ（バニー）=Maho (Bunny);Kururinpa;Bunny

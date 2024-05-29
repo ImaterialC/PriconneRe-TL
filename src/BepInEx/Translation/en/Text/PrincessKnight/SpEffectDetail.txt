@@ -63,3 +63,11 @@
 行動速度ダウン=Action Speed Down
 バトル開始時、すべてのキャラの物理防御力を大ダウンさせる。=At the start of the battle, all characters' P.DEF will be greatly reduced.
 物理防御力ダウン=Physical Defense down
+
+
+バトル開始時、すべてのモンスターに継続ＴＰ中回復状態を付与する。=At the start of the battle, grants continuous TP medium recovery to all monsters.
+継続ＴＰ回復=Continuous TP recovery
+バトル開始45秒後、すべてのキャラの物理防御力を大ダウンさせる。=45 seconds after the start of the battle, greatly reduces the physical defense of all characters.
+バトル中物理防御力ダウン=Physical defense down during the battle
+バトル開始45秒後、すべてのキャラの魔法防御力を大ダウンさせる。=45 seconds after the start of the battle, greatly reduces the magic defense of all characters.
+バトル中魔法防御力ダウン=Magic defense down during the battle
