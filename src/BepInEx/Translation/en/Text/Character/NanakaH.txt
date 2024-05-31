@@ -12,8 +12,8 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ(\d+)ダメージを与える火
 
 ##S2##
 ナナカちゃんトリック=Nanaka-chan Trick
-残りＨＰが最も高い敵を中心とした範囲内の敵すべてのＨＰ回復量を特大ダウンさせ、魔法防御力を小ダウンさせる。=Greatly lowers enemies' HP Recovery in range around an enemy with highest remaining HP, and slightly lowers their M.DEF.
-r:"^範囲内の敵のＨＰ回復量を80％ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 0.94s\n►Lowers enemies' HP Recovery in 300 range around an enemy with highest remaining HP by 80% for 12s.\n►Lowers enemies' M.DEF in 300 range around an enemy with highest remaining HP by $1 for 12s. 
+残りＨＰが最も高い敵を中心とした範囲内の敵すべてのＨＰ回復量を特大ダウンさせ、魔法防御力を小ダウンさせる。=Greatly reduces enemies' HP Recovery Rate in range around an enemy with highest remaining HP, and slightly lowers their M.DEF.
+r:"^範囲内の敵のＨＰ回復量を80％ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=►Reduces enemies' HP Recovery Rate in 300 range around an enemy with highest remaining HP to 20% for 12s.\n►Lowers enemies' M.DEF in 300 range around an enemy with highest remaining HP by $1 for 12s. 
 
 ##EX##
 コスプレマジック=Cosplay Magic
@@ -22,7 +22,7 @@ r:"^範囲内の敵のＨＰ回復量を80％ダウン範囲内の敵の魔法�
 ##S1+##
 ジャックオーサークル+=Jack-o'-Circle+
 残りＨＰが最も高い敵を中心として、魔法ダメージフィールドを展開する。さらに、残りＨＰが最も高い敵を中心とした範囲内の敵すべてのＴＰ上昇を中ダウンさせる。=Deploys a M.DMG field around an enemy with highest remaining HP. Additionally, moderately lowers their TP Boost.
-r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する範囲内の敵のＴＰ上昇を(\d+)ダウン$"=Cast time: 1.24s\n►Deploys a 410 radius field around an enemy with highest remaining HP that deals $1/s M.DMG for 12s.\n►Lowers enemies' TP Boost in 300 range by $2.
+r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する範囲内の敵のＴＰ上昇を(\d+)ダウン$"=►Deploys a 410 radius field around an enemy with highest remaining HP that deals $1/s M.DMG for 12s.\n►Lowers enemies' TP Boost in 300 range by $2 for 12s.
 
 ##UE##
 ナナカちゃんウィッチコス=Nanaka-chan Witch Cosplay

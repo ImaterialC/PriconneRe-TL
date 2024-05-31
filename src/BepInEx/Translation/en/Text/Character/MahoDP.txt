@@ -1,0 +1,20 @@
+##Profile##
+【魔法】後衛で、サーカスの舞台に輝くメルヘン少女。味方の攻防支援や敵の攻防弱体化の他【カーテンコール】付与時の追加ダメージスキルで、勝利のライトを照らす。=[Magic] A fairy-tale girl who shines on the circus stage in the rear guard. In addition to supporting allies in offense and defense and weakening enemies in offense and defense, she shines the light of victory with her additional damage skill when granted [Curtain Call].
+
+##UB##
+メルヘンカーテンコール=Fairy-tale Curtain Call
+前方範囲内の敵すべての魔法防御力を小ダウンさせる。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、自分の魔法攻撃クリティカル時のダメージを小アップさせて、【カーテンコール】を付与する。=Slightly lowers enemies' M.DEF in range. Additionally, greatly boosts all allies' M.ATK and M.CRIT Rate, and slightly boosts their M.CRIT DMG. Grants [Curtain Call] to self.
+r:"^範囲内の敵の魔法防御力を(\d+)ダウン味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを150アップ自分の魔法攻撃クリティカル時のダメージを15％アップ自分にカーテンコールを付与する$"=►Lowers enemies' M.DEF in 1400 range by $1 for 18s.\n►Boosts all allies' M.ATK by $2 for 18s.\n►Boosts all allies' M.CRIT Rate by 60 for 18s.\n►Boosts all allies' M.CRIT DMG by 15% for 18s.\n►Grants [Curtain Call] to self.
+
+##S1##
+マホマホファンシーボール=Maho-Maho Fancy Ball
+前方範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、物理防御力と魔法防御力を小アップさせる。【カーテンコール】が付与されている場合、前方範囲内の敵すべてに追加の魔法大ダメージを与える。=Deals moderate M.DMG to enemies in range and slightly lowers their M.DEF. Additionally, greatly boosts all allies M.ATK, P.DEF and M.DEF. If [Curtain Call] is active, deals additional M.DMG to enemies in range.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=►Deals $1 M.DMG to enemies in 1400 range.\n►Lowers enemies' M.DEF in 1400 range by $2 for 12s.\n►If [Curtain Call] is active, deals $3 M.DMG to enemies' in 1400 range.\n►Boosts all allies' M.ATK by $4 for 12s.\n►Boosts all allies' P.DEF by $5 for 12s.\n►Boosts all allies' M.DEF by $5 for 12s.
+
+##S2##
+マホマホワンダーフープ=Maho-Maho Wonder Hoop
+前方範囲内の敵すべてに魔法中ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。さらに味方全体のＴＰ上昇を小アップさせ、ＴＰを小回復する。【カーテンコール】が付与されている場合、前方範囲内の敵すべてに追加の魔法大ダメージを与える。=Deals moderate M.DMG to enemies in range and greatly lowers their P.ATK and M.ATK. Also slightly boosts all allies' TP Boost and recovers their TP by a small amount. If [Curtain Call] is active, deals additional large M.DMG to all enemies in range.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体のＴＰ上昇を5アップ味方全体のＴＰを80回復$"=►Deals $1 M.DMG to enemies in 1400 range.\n►Lower enemies' P.ATK in 1400 range by $2 for 12s.\n►Lower enemies' M.ATK in 1400 range by $3 for 12s.\n►If [Curtain Call] is active, deals $4 M.DMG to enemies' in 1400 range.\n►Boosts all allies' TP Boost by 5 for 12s.\n►Recovers all allies' TP by 80.
+
+##EX##
+メルヘンサーカス=Fairy-tale Circus

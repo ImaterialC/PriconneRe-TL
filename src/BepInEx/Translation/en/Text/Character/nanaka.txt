@@ -30,7 +30,7 @@
 ##S2##
 エナジーインパクト=Energy Impact
 残りＨＰが最も高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to an enemy with the highest remaining HP and inflicts Stun for 1.5s.
-最もＨＰの割合が高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to an enemy with the highest remaining HP and inflicts Stun for 1.5s.
+最もＨＰの割合が高い敵１キャラに魔法中ダメージを与え、さらにスタンさせる。=Deals moderate M.DMG to an enemy with the highest %HP and inflicts Stun for 1.5s.
 
 ##EX##
 アウェイクニングモード=Awakening Mode
@@ -44,7 +44,13 @@
 ##S1+##
 スターダストマジック+=Stardust Magic+
 目の前の敵１キャラを中心とした範囲内の敵すべての魔法防御力を中ダウンさせる。=Moderately lowers enemies' M.DEF in range.
-r:"^範囲内の敵の魔法防御力を(\d+)ダウン$"=Cast time: 1.4s\n►Lowers enemies' M.DEF in 200 range by $1 for 12s.
+r:"^範囲内の敵の魔法防御力を(\d+)ダウン$"=►Lowers enemies' M.DEF in 200 range by $1 for 12s.
+
+##S2+##
+エナジーインパクト+=Energy Impact+
+最もＨＰの割合が高い敵１キャラに魔法特大ダメージを与えてスタンさせ、さらにＨＰ回復量を特大ダウンさせる。=Deals massive M.DMG to an enemy with the highest %HP, inflicts Stun and also massively reduces its HP Recovery Rate.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする敵単体のＨＰ回復量を90％ダウン$"=►Deals $1 M.DMG to an enemy.\n►Inflicts Stun to an enemy for 4.5s.\n►Reduces an enemy's HP Recovery Rate to 10% for 18s.
 
 ##UE##
 ナナカサイツヨロッド=Nanaka's Kickass Rod
+ナナカマジカルマスカレード=Nanaka's Magical Masquerade
