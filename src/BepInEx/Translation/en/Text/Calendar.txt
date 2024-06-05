@@ -19,4 +19,17 @@
 3月=Mar
 2月=Feb
 1月=Jan
+
+sr:"^1月(\d+日)のストーリー(\d)?$"=January $1 Story $2
+sr:"^2月(\d+日)のストーリー(\d)?$"=February $1 Story $2
+sr:"^3月(\d+日)のストーリー(\d)?$"=March $1 Story $2
+sr:"^4月(\d+日)のストーリー(\d)?$"=April $1 Story $2
+sr:"^5月(\d+日)のストーリー(\d)?$"=May $1 Story $2
+sr:"^6月(\d+日)のストーリー(\d)?$"=June $1 Story $2
+sr:"^7月(\d+日)のストーリー(\d)?$"=July $1 Story $2
+sr:"^8月(\d+日)のストーリー(\d)?$"=August $1 Story $2
+sr:"^9月(\d+日)のストーリー(\d)?$"=September $1 Story $2
+sr:"^10月(\d+日)のストーリー(\d)?$"=October $1 Story $2
+sr:"^11月(\d+日)のストーリー(\d)?$"=November $1 Story $2
+sr:"^12月(\d+日)のストーリー(\d)?$"=December $1 Story $2
 sr:"^(\d+月)(\d+日)$"=$1 $2

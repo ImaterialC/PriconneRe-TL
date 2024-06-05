@@ -36,9 +36,6 @@ r:"^(\[.+\])?全難易度合計で(\d+)pt獲得しよう(?:\[-\])?$"=$1Get $2pt 
 r:"^(\[.+\])?難易度(.+)で1回戦おう(?:\[-\])?$"=$1 Fight once on $2 difficulty[-]
 r:"^(\[.+\])?難易度(.+)で(\d+)pt獲得しよう(?:\[-\])?$"=$1 Get $3pt on $2 difficulty[-]
 
-
-
-
 ---KKR tutorial---
 バトルスタジアムでは、難易度ごとにそれぞれ３つの編成が登場します。\nバトルには何度も挑戦可能ですので、編成を工夫して挑みましょう。=In the Battle Stadium, three teams will appear for each difficulty level. They can be challenged as many times as you like, so let's try a variety of strategies.
 バトル終了時に、残りHPや時間に応じたスコアを獲得できますよ。\n３つの編成のうち、最も高いスコアが総合スコアに加算されますので、\nより高いスコアの獲得を目指して編成を工夫しましょう。=At the end of the battle, you will receive a score based on your remaining HP and time. The highest score of all three party members will be added to the total score, so try to organize them to achieve a higher score.

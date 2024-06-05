@@ -39,6 +39,7 @@ r:"^\[3C404E\]\[3C404E\]クランメンバーに\[FFBB00,CE4F00\](\d+)\[-\]回�
 
 月間=Month
 [FF7C4E,D62146]いいねされたクランメンバーにはマナがおくられます。[-]=[FF7C4E,D62146]Liked clan members will receive Mana.[-]
+クランを脱退しました。=Left the clan.
 いいね完了=Like Complete
 除名=kick
 r:"^(.{1,10})がクランに加入しました。$"=$1 has joined the clan.
@@ -77,7 +78,7 @@ r:"^以下の装備をx(\d+)獲得しました。\n寄付上限に達したた�
 [FF7C4E,D62146]サポート以外のキャラのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]rent char and their EX equipment will be restricted.[-]
 [FF7C4E,D62146]バトルを開始した時点で上記のキャラと、[-]=[FF7C4E,D62146]Attempt will be used and the use of charas except[-]
 
-[3C404E][3C404E]クランを[-][FF7C4E,D62146]脱退[-][3C404E]します。\nよろしいですか？[-][-]=[3C404E]You will [FF7C4E,D62146]withdraw[-][ from the clan.\nIs that okay?
+[3C404E][3C404E]クランを[-][FF7C4E,D62146]脱退[-][3C404E]します。\nよろしいですか？[-][-]=[3C404E]You will [FF7C4E,D62146]withdraw[-] from the clan.\nIs that okay?
 [FF7C4E,D62146]脱退後24時間はクランに所属・結成ができません。[-]=[FF7C4E,D62146]You will not be able to join or\nform a clan for 24 hours after leaving.[-]
 
 残り挑戦回数が0回です。=The remaining attempt is 0.

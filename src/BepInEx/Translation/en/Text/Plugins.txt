@@ -1,0 +1,2 @@
+# Plugin-specific translations
+r:"^\[3C404E\]強化済み：\[-\]\[([A-F0-9,]+)\](\d+)\[-\]$"=[3C404E]Enhanced: [$1]$2[-]

@@ -55,7 +55,7 @@ r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
 周回数上限です。=The maximum number of trips.
 
 撤退=Retreat
-結果確認=Result confirmation
+結果確認=Results
 パーティ確認=Confirmed Party
 
 このパーティは帰還していません。=This party hasn't returned yet.

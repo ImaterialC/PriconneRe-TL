@@ -1,0 +1,52 @@
+ラウンド=Round
+進行度=Stage
+未達成ラウンド=Unfulfilled Rounds
+未達成のラウンドがありません。=There are no unfulfilled rounds.
+バトル効果=Battle Effect
+挑戦目標=Challenge Goal
+
+バトル効果詳細=Battle Effect Details
+r:"^味方のTotal HPが(\d+)%以上で勝利$"=Win when allies' Total HP is over $1%
+r:"^バトルの残り時間が([0-9:]+)以上で勝利$"=Win with $1 or more remaining time
+ダウン=Down
+アップ=Boost
+sr:"^(戦力|物攻|魔攻|物防|魔防|HP吸収|HP自動回復|TP上昇|ＴＰ上昇|TP自動回復|TP消費軽減|物理攻撃力|物理防御力|物理クリティカル|魔法攻撃力|魔法防御力|魔法クリティカル|回復量上昇|命中|回避)(アップ|ダウン)$"=$1 $2
+sr:"^バトル中、(.+)が(極大|絶大|特大|大|中|小|大幅)に(アップ|ダウン)する。$"=$2 $3 $1 during battle.
+r:"^戦闘不能になったキャラが(\d)人以下で勝利$"=Win with 2 or fewer fallen characters.
+
+
+バトル開始時ＴＰ特大回復=Greatly TP recovery at the start of battle
+バトル開始時、ＴＰが特大回復する。=At the start of battle, Greatly TP recovered.
+
+火傷ダメージアップ=Burn damage increased
+火傷効果時間増加=Burnduration increased
+バトル中、「火傷」のダメージが大幅にアップする。=During battle, damage dealt by "Burn" is greatly increased.
+
+スタン効果時間増加=Stun duration increased
+バトル中、「スタン」の効果時間が増加する。=During battle, the duration of "Stun" is increased.
+
+誘惑効果時間増加=Charm duration increased
+バトル中、「誘惑」の効果時間が増加する。=During battle, the duration of "Charm" is increased.
+
+毒/猛毒ダメージアップ=Poison/Venom damage increased
+毒/猛毒効果時間増加=Poison/Venom duration increased
+バトル中、「毒」「猛毒」の効果時間が増加する。=During battle, the duration of "Poison" and "Venom" is increased.
+バトル中、「毒」「猛毒」のダメージが大幅にアップする。=During battle, damage dealt by "Poison" and "Venom" is greatly increased.
+
+
+呪い/呪詛効果時間増加=Curse/Hex duration increased
+呪い/呪詛ダメージアップ=Curse/Hex damage increased
+バトル中、「呪い」「呪詛」の効果時間が増加する。=During battle, the duration of "Curse" and "Hex" is increased.
+バトル中、「呪い」「呪詛」のダメージが大幅にアップする。=During battle, damage dealt by "Curse" and "Hex" is greatly increased.
+
+---Mission---
+r:"^(\[[0-9A-F]{6}\])?★を累計(\d+)個獲得しよう(\[-\])?$"="$1Collect stars $2☆$3"
+★獲得ミッション=Collect stars ★ mission
+
+r:"^([0-9/]+)\n([0-9:]+) 解放$"=Unlock on\n$1 $2 (JST).
+r:"^([0-9/ :]+)に解放されます。$"=Unlock on $1 (JST).
+
+---Kokkoro Tutorial---
+バトルスタジアムでは、ラウンドごとに特定のスキルやステータスが\n強化されるバトル効果が発生するようです。\nバトルには何度も挑戦可能ですので、編成を工夫して挑みましょう。=In the Battle Stadium, it seems that battle effects occur that strengthen certain skills and stats every round. You can challenge the battle multiple times, so try to devise your team formation and challenge it.
+挑戦目標を達成することで★を獲得できますよ。\nより多くの★を集めてミッション報酬の獲得を目指しましょう。=You can earn stars★ by achieving the challenge goals. Collect more stars to earn mission rewards.
+★3クリアしていないラウンドを確認できます。=★3You can check the rounds you have not cleared.

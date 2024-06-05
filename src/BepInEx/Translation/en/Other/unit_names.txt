@@ -194,7 +194,7 @@
 シズル（サマー）=Shizuru (Summer);SShizuru;Summer;Swimsuit;Bikini
 リノ（サマー）=Rino (Summer);SRino;Summer;Swimsuit;Bikini
 ラビリスタ（サマー）=Labyrista (Summer);SLabyrista;Akira;Summer;Swimsuit;Bikini
-キョウカ（サマー）=Kyoka (Summer);SKyouka;Summer;Swimsuit;Bikini:Kyouka:SKyoka
+キョウカ（サマー）=Kyoka (Summer);Kyouka (Summer);SKyoka;SKyouka;Summer;Swimsuit;Bikini;Kyouka;SKyoka
 ミソギ（サマー）=Misogi (Summer);SMisogi;Summer;Swimsuit;Bikini
 ミミ（サマー）=Mimi (Summer);SMimi;Summer;Swimsuit;Bikini
 ノゾミ（サマー）=Nozomi (Summer);SNozomi;Summer;Swimsuit;Bikini
@@ -282,7 +282,7 @@
 シズル（ハロウィン）=Shizuru (Halloween);HShizuru;Halloween
 リノ（ハロウィン）=Rino (Halloween);HRino;Halloween
 ラビリスタ（ハロウィン）=Labyrista (Halloween);HLabyrista;Akira;Halloween
-キョウカ（ハロウィン）=Kyoka (Halloween);HKyoka;Halloween
+キョウカ（ハロウィン）=Kyoka (Halloween);Kyouka (Halloween);HKyoka;HwKyoka;HKyouka;HwKyouka;Halloween
 ミソギ（ハロウィン）=Misogi (Halloween);HMisogi;Halloween
 ミミ（ハロウィン）=Mimi (Halloween);HMimi;Halloween
 ノゾミ（ハロウィン）=Nozomi (Halloween);HNozomi;Halloween

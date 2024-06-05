@@ -6,6 +6,7 @@
 大=Large
 中=Medium
 小=Small
+大幅=Great
 
 全キャラ　アドバンス効果詳細=All Characters Advanced Effect Details
 r:"^効果(\d)$"=Effect $1

@@ -83,6 +83,8 @@ r:"^([0-9]+)回目の討伐証交換ラインナップ$"=Victory Medal Gacha Box
 挑戦途中のボスはスキップできません。=Bosses in the middle of the challenge cannot be skipped.
 EXHIBITION討伐数=Exhibition count
 EXHIBITION＋討伐数=Exhibition+ count
+EXHIBITION＋ バトルログ=EXHIBITION+Battle Log
+
 獲得可能=In Stock
 スキップチケットとスタミナを消費してクエストを\n実行します。よろしいですか？=Use skip tickets and stamina\nto play this quest?
 消費スタミナ=T. Stamina Cost
