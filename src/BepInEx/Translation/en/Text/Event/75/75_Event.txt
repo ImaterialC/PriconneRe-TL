@@ -1,18 +1,15 @@
-r:"^グランドリームパーク([0-9\-\(\)\w （）]*)$"=Grand Dream Park $1
-
-捲土重来・ジーノ=Gino: Return in Triumph
-おいでよドリームパーク♪=Come here, dream park!
-
-清掃員に扮して虎視眈々と『グランドリームパーク』の乗っ取りを謀っていた元=Formerly plotting to take over 'Grand Dream Park' while disguised as a cleaner.
-自身のＨＰが50％以下になるとさらに攻撃が激しく強力になる。=Becomes more aggressive and powerful when HP falls below 50%.
-敵全体の物理防御力を大ダウンさせ、キャラのＨＰが70％未満の場合、毒状態を付与する。=Greatly reduces the P.DEF of all enemies and inflicts Poison if their HP is below 70%.
-敵全体に物理中ダメージを与える。毒状態の場合、残りＨＰに応じた物理割合ダメージを与える。さらに敵全体のステータスアップ効果とバリアを解除する。=Deals moderate P.DMG to all enemies. If they are Poisoned, deals percentage P.DMG based on their remaining HP. Additionally, removes all status boosts and barriers from all enemies.
-ユニオンバーストは、最も近い敵１キャラに自身の物理攻撃力とキャラの最大ＨＰに応じた物理割合ダメージを与える。=Union Burst deals percentage P.DMG based on own P.ATK and the character's max HP to the nearest enemy.
-カジノ王。これまでの働きぶりはどこへやら、屈辱を晴らすべくパレード間近の園内で反旗を翻す。=Casino King. Disregarding his previous deeds, he rebels within the park on the verge of the parade to restore his honor.
-
-ジーノから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage taken from Gino moderately reduces TP recovery for party characters.
-捲土重来=Return in Triumph
-ジーノは環境効果によるダメージを受けない。=Gino does not take damage from environmental effects.
-サイコロを振り、自身の物理攻撃力をアップさせる。出目によって物理攻撃力アップの効果が変化する。出目が１の場合、物理攻撃力を中アップ。出目が２～５の場合、物理攻撃力を特大アップ。出目が６の場合、物理攻撃力を極大アップ。=Rolls a die to increase own P.ATK. The effect varies based on the result. If 1, moderately increases P.ATK. If 2-5, greatly increases P.ATK. If 6, immensely increases P.ATK.
-敵全体の物理防御力を大ダウンさせ、キャラのＨＰが70％未満の場合、毒状態を付与する。さらに敵全体のＨＰ吸収を特大ダウンさせ、ＨＰ回復量を大ダウンさせる。このスキルにより付与された毒のダメージでは、ＴＰが回復しない。=Greatly reduces the P.DEF of all enemies and inflicts Poison if their HP is below 70%. Additionally, greatly reduces their HP absorption and HP recovery. TP is not recovered from the Poison damage inflicted by this skill.
-敵全体に物理中ダメージを与える。毒状態の場合、残りＨＰに応じた物理割合ダメージを与える。さらに敵全体のステータスアップ効果とバリアを解除する。このスキルによるダメージでは、ＴＰ回復量が大ダウンする。=Deals moderate P.DMG to all enemies. If they are Poisoned, deals percentage P.DMG based on their remaining HP. Additionally, removes all status boosts and barriers from all enemies. This skill's damage greatly reduces TP recovery.
+r:"^グランドリームパーク([0-9\-\(\)\w （）]*)$"=Grand Dream Park
+捲土重来・ジーノ=Regroup and come back again, Gino
+おいでよドリームパーク♪=Come to Dream Park♪
+清掃員に扮して虎視眈々と『グランドリームパーク』の乗っ取りを謀っていた元=Disguised as a janitor, the former was plotting to take over "Grand Dream Park" vigilantly.
+自身のＨＰが50％以下になるとさらに攻撃が激しく強力になる。=When your HP drops below 50%, your attacks become even more intense and powerful.
+敵全体の物理防御力を大ダウンさせ、キャラのＨＰが70％未満の場合、毒状態を付与する。=Reduce the physical DEF of all enemies significantly, and if a character's HP is below 70%, inflict poison status.
+敵全体に物理中ダメージを与える。毒状態の場合、残りＨＰに応じた物理割合ダメージを与える。さらに敵全体のステータスアップ効果とバリアを解除する。=Deal physical mid damage to all enemies. If the target is poisoned, inflict physical damage based on remaining HP. Additionally, remove status buffs and barriers from all enemies.
+ユニオンバーストは、最も近い敵１キャラに自身の物理攻撃力とキャラの最大ＨＰに応じた物理割合ダメージを与える。=Union Burst deals physical damage to the nearest enemy character based on the user's physical ATK and the character's MaxHP.
+カジノ王。これまでの働きぶりはどこへやら、屈辱を晴らすべくパレード間近の園内で反旗を翻す。=Casino king. Despite his previous performance, he raises the flag of rebellion in the park, close to the parade, in order to clear his humiliation.
+ジーノから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=When you receive any damage from Gino, it reduces the amount of TP recovery for party characters by a medium amount.
+捲土重来=Make a comeback
+ジーノは環境効果によるダメージを受けない。=Jino does not take damage from environmental effects.
+サイコロを振り、自身の物理攻撃力をアップさせる。出目によって物理攻撃力アップの効果が変化する。出目が１の場合、物理攻撃力を中アップ。出目が２～５の場合、物理攻撃力を特大アップ。出目が６の場合、物理攻撃力を極大アップ。=Roll the dice to increase your physical ATK. The effect of increasing physical ATK varies depending on the outcome. If the outcome is 1, increase physical ATK to medium. If the outcome is 2-5, increase physical ATK to extra-large. If the outcome is 6, increase physical ATK to maximum.
+敵全体の物理防御力を大ダウンさせ、キャラのＨＰが70％未満の場合、毒状態を付与する。さらに敵全体のＨＰ吸収を特大ダウンさせ、ＨＰ回復量を大ダウンさせる。このスキルにより付与された毒のダメージでは、ＴＰが回復しない。=Reduce the physical DEF of all enemies significantly, and if the character's HP is below 70%, inflict them with poison. Also, greatly reduce the HP absorption of all enemies, and significantly decrease the amount of HP recovery. Damage from poison inflicted by this skill does not restore TP.
+敵全体に物理中ダメージを与える。毒状態の場合、残りＨＰに応じた物理割合ダメージを与える。さらに敵全体のステータスアップ効果とバリアを解除する。このスキルによるダメージでは、ＴＰ回復量が大ダウンする。=Deal physical damage to all enemies. If the enemy is poisoned, deal physical damage based on their remaining HP. Additionally, remove all status buffs and barriers from all enemies. TP recovery amount is greatly reduced by this skill's damage.

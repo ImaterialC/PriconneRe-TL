@@ -174,7 +174,7 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitDetail(Clone)/Right/UnitRarityUp(Clone)/Right/RarityUpButton/Label=ChangeFontSize(25)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogTrialBattleResult(Clone)/Main/Bottom/BottomParts/UIButton_Parts/ButtonAnimator/Button/NextButton/Label=ChangeFontSize(22)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(12)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewGrandArenaTop(Clone)/WidgetOff(Clone)/SlideLeft/GUIGroup_RankInfo_new/UIButton_DefenceSetting/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewGrandArenaTop(Clone)/WidgetOff(Clone)/SlideLeft/GUIGroup_RankInfo_new/UIButton_DefenceSetting/Label
 /_Game(Clone)/UI Root/ViewsArea/View/ViewStoryCharacterTop(Clone)/WidgetOff(Clone)/Right/AnchorRight/ScrollContentParent/ScrollContent/ScrollView/WrapContent/PartsStoryCharacterPlate(Clone)/selectObject/GUIGroup_Text/catchCopyLabel=ChangeFontSize(10)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewHome(Clone)/PartsDailyTask(Clone)/Main/ScrollContent/ScrollView/WrapContent/PartsDailyTaskPlate(Clone)/Node/GUIGroup_Button/UIButton_Move/Label=ChangeFontSize(17)
 /_Game(Clone)/UI Root/FrontArea/BlurLayer/SubtitleArea/Subtitle/Text=ChangeFontSize(30)
@@ -309,11 +309,11 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_4/Label=ChangeFontSize(9)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_5/Label=ChangeFontSize(10)
 
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_1/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_2/Label=ChangeFontSize(8)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_3/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_4/Label=ChangeFontSize(9)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_5/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_1/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_2/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_3/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_4/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_5/Label=ChangeFontSize(16)
 
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsTalentQuestDetail(Clone)/OverUiParent/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(15)
 /PartsTalentQuestDetail(Clone)/OverUiParent/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(13)
@@ -351,3 +351,6 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 /_Game(Clone)/UI Root/ViewsArea/View/ViewEmblem(Clone)/WidgetOff(Clone)/Main/Contents/EmblemSetInfo/ChangeButton/change_button_label=ChangeFontSize(20)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsTdfQuestDetail(Clone)/BossInfoObj/BossInfo/GUIGroup_Weak/GUIGroup_Difficulty_Normal/Label=ChangeFontSize(7)
 
+/_Game(Clone)/UI Root/ViewsArea/View/ViewDomeTop(Clone)/WidgetOff(Clone)/SlideObjectRight/RightTopObject/PartsDomeProgressHeader/Round/Status=ChangeFontSize(9)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewDomeTop(Clone)/WidgetOff(Clone)/SlideObjectRight/RightTopObject/PartsDomeProgressHeader/Challenge/Status=ChangeFontSize(9)

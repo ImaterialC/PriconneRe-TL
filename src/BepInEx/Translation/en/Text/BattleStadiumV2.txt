@@ -19,9 +19,9 @@ r:"^戦闘不能になったキャラが(\d)人以下で勝利$"=Win with 2 or f
 バトル開始時、ＴＰが特大回復する。=At the start of battle, Greatly TP recovered.
 
 火傷ダメージアップ=Burn damage increased
-火傷効果時間増加=Burnduration increased
+火傷効果時間増加=Burn duration increased
 バトル中、「火傷」のダメージが大幅にアップする。=During battle, damage dealt by "Burn" is greatly increased.
-
+バトル中、「火傷」の効果時間が増加する。=During battle, the duration of "Burn" is increased.
 スタン効果時間増加=Stun duration increased
 バトル中、「スタン」の効果時間が増加する。=During battle, the duration of "Stun" is increased.
 
@@ -39,8 +39,15 @@ r:"^戦闘不能になったキャラが(\d)人以下で勝利$"=Win with 2 or f
 バトル中、「呪い」「呪詛」の効果時間が増加する。=During battle, the duration of "Curse" and "Hex" is increased.
 バトル中、「呪い」「呪詛」のダメージが大幅にアップする。=During battle, damage dealt by "Curse" and "Hex" is greatly increased.
 
+束縛効果時間増加=Binding duration increased
+バトル中、「束縛」の効果時間が増加する。=During battle, damage dealt by "Bind" is greatly increased.
+
+混乱効果時間増加=Confusion duration increased
+バトル中、「混乱」の効果時間が増加する。=During battle, damage dealt by "Confusion" is greatly increased.
+
+
 ---Mission---
-r:"^(\[[0-9A-F]{6}\])?★を累計(\d+)個獲得しよう(\[-\])?$"="$1Collect stars $2☆$3"
+r:"^(\[[0-9A-F]{6}\])?★を累計(\d+)個獲得しよう(\[-\])?$"="$1Collect stars $2★$3"
 ★獲得ミッション=Collect stars ★ mission
 
 r:"^([0-9/]+)\n([0-9:]+) 解放$"=Unlock on\n$1 $2 (JST).
@@ -49,4 +56,4 @@ r:"^([0-9/ :]+)に解放されます。$"=Unlock on $1 (JST).
 ---Kokkoro Tutorial---
 バトルスタジアムでは、ラウンドごとに特定のスキルやステータスが\n強化されるバトル効果が発生するようです。\nバトルには何度も挑戦可能ですので、編成を工夫して挑みましょう。=In the Battle Stadium, it seems that battle effects occur that strengthen certain skills and stats every round. You can challenge the battle multiple times, so try to devise your team formation and challenge it.
 挑戦目標を達成することで★を獲得できますよ。\nより多くの★を集めてミッション報酬の獲得を目指しましょう。=You can earn stars★ by achieving the challenge goals. Collect more stars to earn mission rewards.
-★3クリアしていないラウンドを確認できます。=★3You can check the rounds you have not cleared.
+★3クリアしていないラウンドを確認できます。=You can check the rounds you have not cleared ★3.
