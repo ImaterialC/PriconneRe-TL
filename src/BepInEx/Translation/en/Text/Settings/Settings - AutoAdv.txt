@@ -12,7 +12,7 @@
 回復なしで開始=Start without recovery
 sr:"^(メイン|イベント)クエスト(.+)まで進めるには、スタミナ回復が必要です。$"=To advance to the $1 Quest $2, you need to recover stamina.
 
-sr:"^オート進行で(メイン|イベント)クエスト(.+)まで進めた場合、最大で以下のスタミナを消費します。$"=If you proceed to the $1 Quest $2 on an Auto Advance, you will consume the following stamina at the maximum.
+sr:"^オート進行で(メイン|イベント)クエスト(.+)まで進めた場合、最大で以下のスタミナを消費します。$"=If you proceed to the $1 Quest $2 on an Auto Advance,\nyou will consume the following stamina at the maximum.
 プレイヤーLvアップ時や特別なコンテンツが解放された際、オート進行が停止する場合があります。=At the time of player LV up or special content is released, the Auto Advance may stop.
 オート進行中にユニオンバーストを使用するか設定します。=Set whether to use the union burst while the Auto Advance.
 オート進行中のユニオンバースト使用設定=Union Burst Usage Settings in advance
@@ -64,7 +64,7 @@ sr:"^([べ-ヺー＆]+)の\n絆ランクが(\d+)になりました。$"=$1\nThe 
 r:"^プレイヤーLv(\d+)以下は実際に消費するマナが上記より少ない場合があります。$"=Players Lv$1 or lower may actually consume less mana than the above.
 マナが不足した場合、オート進行が停止します。=If mana is insufficient, the Auto Advance will stop.
 オート進行停止条件設定=Auto Advance stop condition setting
-オート進行が停止する条件を設定します。\n選択した停止条件に該当しない難易度の場合は、エリアの最終クエストクリアでオート進行が停止します。=Set the conditions for stopping the Auto Advance. In the case of difficulty levels that do not fall under the selected stop conditions, the Auto Advance will stop by clearing the final quest in the area.
+オート進行が停止する条件を設定します。\n選択した停止条件に該当しない難易度の場合は、エリアの最終クエストクリアでオート進行が停止します。=Set the conditions for stopping the Auto Advance.\nIn the case of difficulty levels that do not fall under the selected stop conditions,\nthe Auto Advance will stop by clearing the final quest in the area.
 
 スタミナが不足するまで=Until run out of stamina
 BOSS出現クエスト直前=Before the BOSS

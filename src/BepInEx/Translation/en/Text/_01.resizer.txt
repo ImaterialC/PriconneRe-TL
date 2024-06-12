@@ -303,17 +303,44 @@ Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParen
 _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/quest_high_rarity_equip/Title=ChangeFontSize(28)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsQuestDetail(Clone)/contents/GUIGroup_DialogTitle/ButtonGrid/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(14)
 
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_1/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_2/Label=ChangeFontSize(8)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_3/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_4/Label=ChangeFontSize(9)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_5/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_1/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_2/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_3/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_4/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ContentNode/PartsFilterlingButton(Clone)/PartsPartyTabPlate/TabButton_Talent_5/Label=ChangeFontSize(16)
 
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_1/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_2/Label=ChangeFontSize(8)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_3/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_4/Label=ChangeFontSize(9)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_5/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_1/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_2/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_3/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_4/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/WidgetOff(Clone)/contents/FilterTab/TabButton_Talent_5/Label=ChangeFontSize(16)
+
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_0/State_Active/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_1/State_Active/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_2/State_Active/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_3/State_Active/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_4/State_Active/Label=ChangeFontSize(16)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_0/State_Normal/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_1/State_Normal/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_2/State_Normal/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_3/State_Normal/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_4/State_Normal/Label=ChangeFontSize(16)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_0/State_Active/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_1/State_Active/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_2/State_Active/Label =ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_3/State_Active/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_4/State_Active/Label=ChangeFontSize(16)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_0/State_Normal/Label =ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_1/State_Normal/Label =ChangeFontSize(14)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_2/State_Normal/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_3/State_Normal/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_4/State_Normal/Label=ChangeFontSize(16)
+
+
 
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsTalentQuestDetail(Clone)/OverUiParent/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(15)
 /PartsTalentQuestDetail(Clone)/OverUiParent/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(13)
@@ -325,29 +352,6 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsTdfQuestDetail(Clone)/QuestSetting/Grid/GUIGroup_texticon_ElementBonus/Label=ChangeFontSize(15)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/WidgetOff(Clone)/quest_high_rarity_equip/Title=ChangeFontSize(20)
 
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_0/State_Active/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_1/State_Active/Label=ChangeFontSize(8)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_2/State_Active/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_3/State_Active/Label=ChangeFontSize(9)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_4/State_Active/Label=ChangeFontSize(10)
-
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_0/State_Normal/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_1/State_Normal/Label=ChangeFontSize(8)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_2/State_Normal/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_3/State_Normal/Label=ChangeFontSize(9)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogKnightEnhanceHowToGetItem(Clone)/GUIGroup_5Tab/GUIButton_4/State_Normal/Label=ChangeFontSize(10)
-
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_0/State_Active/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_1/State_Active/Label=ChangeFontSize(8)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_2/State_Active/Label =ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_3/State_Active/Label=ChangeFontSize(9)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_4/State_Active/Label=ChangeFontSize(10)
-
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_0/State_Normal/Label =ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_1/State_Normal/Label =ChangeFontSize(8)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_2/State_Normal/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_3/State_Normal/Label=ChangeFontSize(9)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogKnightEnhanceDetail(Clone)/GUIGroup_5Tab/GUIButton_4/State_Normal/Label=ChangeFontSize(10)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewEmblem(Clone)/WidgetOff(Clone)/Main/Contents/EmblemSetInfo/ChangeButton/change_button_label=ChangeFontSize(20)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsTdfQuestDetail(Clone)/BossInfoObj/BossInfo/GUIGroup_Weak/GUIGroup_Difficulty_Normal/Label=ChangeFontSize(7)
 

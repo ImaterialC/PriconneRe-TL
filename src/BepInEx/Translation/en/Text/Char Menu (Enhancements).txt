@@ -298,7 +298,9 @@ RANKボーナス詳細のステータス=Status Details
 まとめておまかせランクアップ完了=Auto Enhance: Rank-up Complete
 以下のアイテムを消費してランクアップしますか？=Spend the following items to rank up?
 ランクアップ対象キャラ=Rank-up target character(s)
-
+無料ランクアップ対象キャラ=Free Rank-Up Eligible Characters
+まとめておまかせランクアップキャラ詳細=Detailed Information on Characters for Bulk Rank-Up
+無料強化可能なキャラが選択されています。=Characters that can be upgraded for free have been selected.
 
 消費する強化素材=Refine materials consumed
 以下のアイテムを消費して専用装備を強化します。\nよろしいですか？=Consumes the following items to refine the Unique Equipment.\nIs it OK?

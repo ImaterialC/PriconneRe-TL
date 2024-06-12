@@ -11,4 +11,8 @@
 エンディングを見ると確認できます。=You can see it by looking at the ending.
 sr:"^ストーリーイベント「(.+)」の\nミッション「(.+)を1体倒そう（HARD限定）」を達成すると確認できます。$"="You can select once finished the story event of \n"$1"\nand defeat $2 (Hard or above) at least once."
 
+ストーリーイベント「コネクト・ウィズ・ブルー　少女が空に至るまで」の\nミニコンテンツ「ランドソル一期一会」の「人気者は遅れてやってくる」を閲覧すると確認できます。=You can view the mini-content\n"The Popular One Comes Late"\nfrom the story event\n"Connect with Blue ~ Until she reaches the sky"\nin "Landosol Bucket List."
+
+
+
 既に設定されています。=It has already been set.

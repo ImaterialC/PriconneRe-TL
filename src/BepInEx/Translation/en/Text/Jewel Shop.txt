@@ -147,6 +147,8 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 無償マナから先に消費され、=Free Mana will be used first.
 有償マナ内訳詳細=Paid Mana Breakdown Details
 有償マナを所持していません。=You do not have any Paid Mana.
+[FF7C4E,D62146]有償マナは購入順に消費されます。[-]=[FFF7C4E,D621466] The paid mana will be consumed in order of purchase. [-]
+
 ---NPC---
 ジュエルはよく考えて\n使うことね\n無駄遣い厳禁！=Think carefully\nwhen spending Jewels.\nDon't waste them!
 マナ購入で、「マナ」と「スキップチケット」が手に入ります。\nさらにオマケで「メモリーピース」「女神の秘石」「探索挑戦回数増加」\nが手に入るかもしれませんよ。=Buying Mana will give you both Mana and Skip Tickets.\nYou may also receive bonuses such as Memory Shards,\nDivine Amulets and additional Grotto attempts.

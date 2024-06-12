@@ -18,8 +18,6 @@ r:"^本日の回復可能回数 (\d+)/(\d+)回$"=Recharges left today: $1/$2
 所持ジュエル=Jewels Held
 挑戦回数=Attempts
 
-本日の回復可能回数上限に達しているため回復できません。=You have already reached the limit for stamina recharges today.
-
 ---npc dialogue---
 ---hearts---
 ここで手に入れたアイテムで\n専用装備を作成できるみたいね\nアイテムが集まったら\nさっそく作ってみましょ！=Looks like the items found here can be used to craft Unique Equipment. Once we get enough of them, let's try making some ourselves!

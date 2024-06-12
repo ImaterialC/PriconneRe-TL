@@ -364,3 +364,9 @@ sr:"^(.{2,12}ガチャ)「(\d+)回引く」$"="$1 "Draw $2 Times"."
 マスターピース=Masterpiece
 獲得済み=Get
 対象キャラ=Character
+
+
+ピース交換チケットについて=Regarding Shard Exchange Tickets
+
+
+■メモリーピース交換チケットについて\n・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×100と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。\n\n■GWメモリーピース交換チケットについて\n・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×50と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。\n\n■ピュアメモリーピース交換チケットについて\n・交換対象のキャラのピュアメモリーピース交換チケット1枚につき1キャラのピュアメモリーピース×50と交換できるチケットです。\n・獲得したピュアメモリーピースは直接付与されます。ピュアメモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。=►Memory Shard Exchange Tickets\n    ►Each Memory Shard Exchange Ticket can be exchanged for 100 Memory Shards of a specified character.\n    ►The acquired Memory Shards are granted directly. If the maximum number of Memory Shards is reached, they will be sent to your Present Box.\n※Please check the exchange dialog of each ticket to see which characters are eligible.\n\n►GW Memory Shard Exchange Tickets\n    ►Each GW Memory Shard Exchange Ticket can be exchanged for 50 Memory Shards of a specified character.\n    ►The acquired Memory Shards are granted directly. If the maximum number of Memory Shards is reached, they will be sent to your Present Box.\n※Please check the exchange dialog of each ticket to see which characters are eligible.\n\n►Pure Memory Shard Exchange Tickets\n    ►Each Pure Memory Shard Exchange Ticket can be exchanged for 50 Pure Memory Shards of a specified character.\n    ►The acquired Pure Memory Shards are granted directly. If the maximum number of Pure Memory Shards is reached, they will be sent to your Present Box.\n※Please check the exchange dialog of each ticket to see which characters are eligible.

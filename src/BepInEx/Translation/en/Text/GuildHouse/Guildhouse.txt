@@ -198,3 +198,6 @@ r:"^(\d+)時間$"=$1h
 
 好きな家具をレイアウトしてギルドハウスを充実させましょう。家具の中には、冒険に役立つアイテムを獲得できるものもありますよ。=Fill your Guildhouse with arrangements of your favorite furnishings.\nSome furniture may give you items that come handy on your adventures.
 ギルドハウスにいる女の子に、お菓子をプレゼントしてみましょう。たくさんプレゼントすると、絆ランクが上がりますよ。=Try giving sweets to girls in your Guildhouse.\n offer them lots to raise their bond level.
+
+
+

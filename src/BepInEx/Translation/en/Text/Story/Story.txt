@@ -52,6 +52,7 @@ r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Stor
 エクストラ=Extra
 エクストラストーリー=Extra Story
 ちょっと特別な\n物語を見ることが\nできます=View stories that are just a wee-bit special.
+ルナの塔 次元断層=Luna's Tower: Dimensional Fault
 
 ギルド=Guild
 女の子たちの日常を\n見ることができます=See snippets of daily life for the girls.
