@@ -4,17 +4,25 @@
 ##UB##
 ボクの美貌が世界を統べるよ♪=My Beauty Rules the World♪
 目の前の敵１キャラに魔法中ダメージを与え、魔法攻撃力を大ダウンさせる。さらに、自分を中心とした範囲内の味方すべての魔法攻撃力を大アップさせる。このスキルの効果量は【美貌】の数に応じて上昇する。=Deals moderate M.DMG to an enemy in front and greatly lowers its M.ATK. Additionally, greatly boosts allies' M.ATK in range. All effects increase according to number of [Beauty] stacks.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法攻撃力を(\d+)ダウン範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 (+0.075×$1× \n[Beauty]) M.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2 (+0.025×$2×[Beauty]) for 18s.\n►Boosts allies' M.ATK in 100 range by $3 (+0.04×$3×[Beauty]) for 18s.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法攻撃力を(\d+)ダウン範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 (+0.075×$1×[Beauty]) M.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2 (+0.025×$2×[Beauty]) for 18s.\n►Boosts allies' M.ATK in 100 range by $3 (+0.04×$3×[Beauty]) for 18s.
 
 ##S1##
 花も恥じらう可愛いボク♪=Even Flowers Shy Away from Cute Me♪
 自分を中心とした範囲内の味方すべての魔法攻撃力を中アップさせ、ＴＰを小回復する。このスキルの効果量は【美貌】の数に応じて上昇する。=Moderately boosts allies' M.ATK in range, and slightly recovers their TP. All effects increase according to number of [Beauty] stacks.
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方のＴＰを40回復$"=Cast time: 1.05s.\n►Boosts allies' M.ATK in 100 range by $1 (+0.04×$1×[Beauty]) for 12s.\n►Recovers allies' TP in 100 range by 40 (+1×[Beauty]) for 12s.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方のＴＰを40回復$"=►Boosts allies' M.ATK in 100 range by $1 (+0.04×$1×[Beauty]) for 12s.\n►Recovers allies' TP in 100 range by 40 (+1×[Beauty]) for 12s.
 
 ##S2##
 ボクに尽くしていいよ♪=You Can Devote to Me♪
 自分がステータスアップ効果を受ける度に、【美貌】が１つ追加される。【美貌】は最大60まで追加される。さらに、自分を中心とした範囲内の味方すべての魔法防御力を中アップさせ、魔法無効バリアを展開する。=Whenever Yuki receives a stat boost, gains 1 [Beauty] stack, up to a maximum of 60. Additionally, moderately boosts allies' M.DEF in range, and deploys Barrier over them that negates M.DMG.
-r:"^ステータスアップ効果を受けるたびに【美貌】を付与する状態になる範囲内の味方の魔法防御力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.415s.\n►Whenever stat boost received, gains 1 [Beauty] stack.\n►Boosts allies' M.DEF in 100 range by $1 for 180s.\n►Deploys Barrier over allies in 100 range that negates $2 M.DMG for 180s.
+r:"^ステータスアップ効果を受けるたびに【美貌】を付与する状態になる範囲内の味方の魔法防御力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=►Whenever stat boost received, gains 1 [Beauty] stack.\n►Boosts allies' M.DEF in 100 range by $1 for 180s.\n►Deploys Barrier over allies in 100 range that negates $2 M.DMG for 180s.
+
+##S1+##
+花も恥じらう可愛いボク♪+=Even Flowers Shy Away from Cute Me♪+
+自分を中心とした範囲内の味方すべての魔法攻撃力を中アップ、魔法クリティカルを小アップさせ、ＴＰを小回復する。このスキルの効果量は【美貌】の数に応じて上昇する。=Moderately boosts allies' M.ATK in range, slightly boosts their M.CRIT Rate, and slightly recovers their TP. All effects increase according to number of [Beauty] stacks.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを20アップ範囲内の味方のＴＰを40回復$"=►Boosts allies' M.ATK in 100 range by $1 (+0.05×$1×[Beauty]) for 12s.\n►Boosts allies' M.CRIT Rate in 100 range by 20 (+1×[Beauty]) for 12s.\n►Recovers allies' TP in 100 range by 40 (+1×[Beauty]) for 12s.
+
+##UE##
+美を統べる者の装束=Ruler Of The Beauty's Attire
 
 ##EX##
 妖艶なボクががんばるよ=Bewitching Me Will Do My Best

@@ -14,12 +14,12 @@ r:"^敵単体に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復範囲内
 ##S1##
 ブラッディグレース=Bloody Grace
 目の前の敵１キャラに魔法中ダメージを与え、自分のＴＰを小回復する。このスキルのダメージとＴＰの回復量は眷属の数に応じて増加する。=Deals moderate M.DMG to an enemy in front and slightly recovers own TP. The M.DMG dealt and TP recovery increase according to number of familiars.
-r:"^敵単体に(\d+)の魔法ダメージ自分のＴＰを100回復$"=Cast time: 1.05s\n►Deals $1 (+1.2×$1× \nFamiliar Count) M.DMG to an enemy.\n►Recovers own TP by 100 (+50× \nFamiliar Count).
+r:"^敵単体に(\d+)の魔法ダメージ自分のＴＰを100回復$"=►Deals $1 (+1.2×$1×Familiar Count) M.DMG to an enemy.\n►Recovers own TP by 100 (+50×Familiar Count).
 
 ##S2##
 エンゲージブルーム=Engage Bloom
 自分を中心とした範囲内の味方の魔法攻撃力と魔法クリティカルを中アップさせ、行動速度を大アップさせる。=Boosts allies' M.ATK and M.CRIT Rate in range and greatly boosts their action speed.
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを40アップ範囲内の味方の行動速度アップ$"=Cast time: 1.05s\n►Boosts allies' M.ATK in 150 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 150 range by 40 for 12s.\n►Boosts allies' action speed in 150 range to 155% for 12s.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを40アップ範囲内の味方の行動速度アップ$"=►Boosts allies' M.ATK in 150 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 150 range by 40 for 12s.\n►Boosts allies' action speed in 150 range to 155% for 12s.
 
 ##SP1##
 ルーラーズエイド=Ruler's Aid
@@ -30,6 +30,14 @@ r:"^味方単体のＨＰを(\d+)回復自分の残りＨＰの20%を消費$"=Ca
 ##EX##
 月下の血盟=Moonlit Blood Pact
 月下の血盟+=Moonlit Blood Pact+
+
+##S1+##
+ブラッディグレース+=Bloody Grace+
+目の前の敵１キャラに魔法大ダメージを与え、自分の魔法攻撃クリティカル時のダメージを小アップさせ、ＴＰを小回復する。このスキルのダメージとＴＰの回復量は眷属の数に応じて増加する。=Deals large M.DMG to an enemy in front, slightly boosts own M.CRIT DMG, and slightly recovers own TP. The M.DMG dealt and TP recovery increase according to number of familiars.
+r:"^敵単体に(\d+)の魔法ダメージ自分のＴＰを100回復自分の魔法攻撃クリティカル時のダメージを10％アップ$"=►Deals $1 (+1.5×$1×Familiar Count) M.DMG to an enemy.\n►Boosts own M.CRIT DMG by 10% for 12s.\n►Recovers own TP by 100 (+50×Familiar Count).
+
+##UE##
+夜を統べる者の装束=Ruler Of The Night's Attire
 
 ##Comments##
 わらわが特別な装束を纏っているというのに\nお主はいつも通りじゃの…まあ、それがお主らしいか\n…不満ではない、なぜか安心すると言っておるのじゃ♪=Even though I'm wearing a special outfit,\nyou're the same as always... Well, I guess\nthat's just like you... It's not a problem.\nFor some reason, I say it's reassuring♪

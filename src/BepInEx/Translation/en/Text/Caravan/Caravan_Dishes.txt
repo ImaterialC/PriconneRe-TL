@@ -1,5 +1,14 @@
 ジオ・ゲヘナの植物採取=Gio Gehenna plant harvesting
+次のターン、\nカテゴリーの料理をそれぞれ1品ずつ\n食べることができる。=During the next turn, you can eat one dish in each category.
+「移動系」= 
+「補助系」= 
+「特殊系」= 
+
+
 ---Dish names---
+
+
+
 ---Red---
 ペコリーヌの満腹ツインおにぎり=Pecorine's Satisfying Twin Onigiri
 コッコロのゆるりと休憩サラダ=Kokkoro's Laid-back Relaxing Salad
@@ -17,6 +26,7 @@
 クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
 
 アキノのゲヘニアンチキンプレート=Akino's Gehenian Chicken Plate
+
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
 カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Appetite-Doubling Kebab Sandwich
@@ -24,9 +34,9 @@
 ランファの世話焼き三昧肉じゃが=Ranpha's Grilled Meat and Potato
 ---Green---
 クリアの彩り華やかバラエティ弁当=Quria's Colorful Variety Lunch Box
-
-
 ワカナの節約腹八分目カレー=Wakana's Properly Portioned Curry
+アンナの煉獄蕃茄煮混沌卵=Anna's Infernal Tomato Stew with Chaotic Eggs
+
 ---Dish effects---
 ---Red---
 次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice next turn and move as many tiles as their sum.
@@ -63,43 +73,40 @@
 ランダムなイベントを発生させる。=You will get a random event next turn.
 
 現在、移動系カテゴリの料理は食べられません。=Can't eat a Movement dish right now.
-
 ---Effects---
+【料理】=[Cooking] 
+【イベント】=[Event] 
+【仲間】=[Friend] 
+
 発動中の効果一覧=List of Active Effects
 ダイス 残り3回=3 More Rolls
 ダイス 残り2回=2 More Rolls
 ダイス 残り1回=1 More Roll
 次に開いたマイルショップで全商品が20%以上割引される。=The next time the Mile Shop opens, all items will be discounted by at least 20%.
-【イベント】ミニゲームの獲得マイルが100%アップする=[Event] Boost Minigame Miles acquisition by 100%.
-【イベント】マイルマスの獲得マイルが100%アップする=[Event] Boost Miles gained from Mile Tiles by 100%.
-【イベント】マイルショップの全商品が20%以上割引される=[Event] All items in the Mile Shop will be discounted by at least 20%.
-【料理】ミニゲームの獲得マイルが100%アップする=[Cooking] Boost Minigame Miles acquisition by 100%.
-【料理】マイルマスの獲得マイルが200%アップする=[Cooking] Boost Miles gained from Mile Tiles by 200%.
-【料理】マイルマスの獲得マイルが100%アップする=[Cooking] Boost Miles gained from Mile Tiles by 100%.
-【料理】マイルショップの全商品が20%以上割引される=[Cooking] All items in the Mile Shop will be discounted by at least 20%.
-【料理】ダイスが2個に増える=[Cooking] Rolls 2 dice on the next roll.
+sr:"^(【料理】|【イベント】|【仲間】|)ミニゲームの獲得マイルが(\d+)%アップする。?$"=$1Boost Minigame Miles acquisition by $2%.
+sr:"^(【料理】|【イベント】|【仲間】|)マイルマスの獲得マイルが(\d+)%アップする。?$"=$1Boost Miles gained from Mile Tiles by $2%.
+sr:"^(【料理】|【イベント】|【仲間】|)マイルショップの全商品が(\d+)%以上割引される。?$"=$1All items in the Mile Shop will be discounted by at least $2%.
+sr:"^(【料理】|【イベント】|【仲間】|)ダイスが(\d)個に増える。?$"=$1Rolls $2 dice on the next roll.
+sr:"^(【料理】|【イベント】|【仲間】|)ダイスの目が必ず「(\d)」になる。?$"=$1You will roll a guaranteed $2 next turn.
+sr:"^(【料理】|【イベント】|【仲間】|)ダイスの目が1回目は必ず「(\d)」に、2回目は必ず「(\d)」になる。?$"=$1You will roll a guaranteed $2 next turn. Then, a guaranteed $3 the turn after.
+sr:"^(【料理】|【イベント】|【仲間】|)ダイスの目が「(\d)・(\d)・(\d)」のみになる。?$"=$1You will roll a $2, $3 or $4 next turn.
+sr:"^(【料理】|【イベント】|【仲間】|)次回移動時に(\d)マス分多く進める。?$"=$1You can move $2 extra Tile next turn.
+sr:"^(【料理】|【イベント】|【仲間】|)福引券を(\d)枚入手する。?$"=$1Acquire $2 lottery ticket
+福引券を1枚獲得する。=Acquire 1 lottery ticket.
+福引券を2枚獲得する。=Acquire 2 lottery ticket.
+2ターンの間ターン数のカウントを\nスキッ\rプする。=Skips turn count for 2 turns.
+r:"^(\d)/(\d)食事済$"=$1/$2 Meals
+これ以上料理を食べられません。=Can't eat any more food.
+
 【料理】次のターン数のカウントをスキップする=[Cooking] The turn counter will not increase.
 【料理】「マイルマス」「トレジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile RANK increased by 1.
-
-【料理】ダイスの目が必ず「1」になる=[Cooking] You will roll a guaranteed 1 next turn.
-【料理】ダイスの目が必ず「2」になる=[Cooking] You will roll a guaranteed 2 next turn.
-【料理】ダイスの目が必ず「3」になる=[Cooking] You will roll a guaranteed 3 next turn.
-【料理】ダイスの目が必ず「4」になる=[Cooking] You will roll a guaranteed 4 next turn.
-【料理】ダイスの目が必ず「5」になる=[Cooking] You will roll a guaranteed 5 next turn.
-【料理】ダイスの目が必ず「6」になる=[Cooking] You will roll a guaranteed 6 next turn.
-【料理】ダイスの目が必ず「7」になる=[Cooking] You will roll a guaranteed 7 next turn.
-【料理】ダイスの目が必ず「8」になる=[Cooking] You will roll a guaranteed 8 next turn.
-【料理】ダイスの目が1回目は必ず「8」に、2回目は必ず「1」になる=[Cooking] You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.
-【料理】ダイスの目が1回目は必ず「2」に、2回目は必ず「7」になる=[Cooking] You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
-【料理】ダイスの目が1回目は必ず「3」に、2回目は必ず「6」になる=[Cooking] You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
-【料理】ダイスの目が「4・5・6」のみになる=[Cooking] You will roll a 4, 5 or 6 next turn.
-【料理】ダイスの目が「1・2・3」のみになる=[Cooking] You will roll a 1, 2 or 3 next turn.
-【料理】移動時にマイルマスをスキップできる。=[Cooking] Skip Mile Tiles when moving.
-【料理】次回移動時に1マス分多く進める。=[Cooking] You can move 1 extra Tile next turn.
+【料理】移動時にマイルマスをスキップできる=[Cooking] Skip Mile Tiles when moving.
 【料理】移動系カテゴリーの料理が食べられなくなる=[Cooking] You can't be able to eat food in the mobile category.
+【料理】移動時に「マイルマス」「トレジャーマス」をスキップできる=[Cooking] Skip "Mile Tiles" and "Treasure Tiles" when moving.
+【料理】移動時にトレジャーマスをスキップできる=[Cooking] Skip Treasure Tiles when moving
+
 ---Sub-effects---
-r:"^([0-9,]+)マイルを獲得する。$"=Acquire $1 miles.
-福引券を1枚獲得する。=Acquire 1 lottery ticket.
+r:"^([0-9,]+)マイルを獲得する。?$"=Acquire $1 miles.
 r:"^RANK(\d+)のマイルショップを開く。$"=Open a RANK$1 mile shop.
 sr:"^(.+)を([0-9,]+)個獲得する。$"=Obtain $2 x $1.
 sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
@@ -127,7 +134,7 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 [90A0BC]ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。[-]=[90A0BC]The odds of the dice getting a 5 and 6 are tripled[-]
 
 一定の経過ターン以内にチェックポイントを通過すると\n豪華なアイテムが手に入ります!=Pass a checkpoint within a certain turn to obtain an extravagant item!
-【料理】次回移動時に1マス分多く進める=[Cooking] Proceed 1 space more next time you move
+
 ---Dish descriptions---
 マイルを消費してガチャを引くことができます。=You can use miles to pull the gacha.
 ガチャマス=Gachamas
@@ -137,15 +144,10 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 2ターンの間ターン数のカウントをスキップする。=Skips turn count for 2 turns.
 【イベント】次のターン数のカウントをスキップする=[Event] Skip the next turn count
-【料理】移動時にトレジャーマスをスキップできる=[Cooking] Skip treasure trout when moving
+
 ---Red---
 ミミが、ジオ・ゲヘナで助けてくれたお姉さん達のことを思い作ったおにぎり。それぞれ異なる味付けがされているが、ミミの願い通りお互いにケンカをせず仲良くハーモニーを奏でている。=Mimi made rice balls while thinking of the older sisters who helped her in Gio Gehenna. Each one is seasoned differently, but as Mimi wished, they all get along harmoniously without fighting, playing in harmony.
 アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキ ンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made with spices that Akino procured from Gio Gehenna. The exciting flavor that comes with the ranch's special yogurt sauce is truly a miraculous marriage of two worlds.
-ナーナ=Nana
-出たダイスの目が奇数だった場合、\nライバルを1ターン休みにできる=If the die has an odd number of eyes, you can take a turn off your rival
-【仲間】出たダイスの目が奇数だった場合、ライバルを1ターン休みにできる=[Friend] If the dice roll is an odd number, you can give your rival one turn off.
-【料理】ダイスの目が1回目は必ず「6」に、2回目は必ず「3」になる=【Cooking】 The first roll of the die will always be 6 and the second roll will always be 3.
-
 
 アオイがお弁当として作ったエルフ伝統の野菜サンド。一緒についてきてくれる最高の友だちの助言により、どんなに深い森の中でも全速力で駆け抜けることができるらしい。（アオイ談）=A traditional Elven vegetable sandwich that Aoi made for lunch. Thanks to the advice of her best friend, she can run as fast as she wants, no matter how deep in the forest it is. (According to Aoi)
 
@@ -189,11 +191,24 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 クリアが朝早くから用意した冒険用のお弁当。おかずは様々でどれも絶品だが、どんなものが入っているかはみんなにも秘密にされているため蓋を開けるまでのお楽しみとなっている。=Quria woke up very early to prepare this lunch box for the adventure. There is a variety of dishes, all of them exquisite, but it's true contents are kept secret until lunch time, making everyone tremble in anticipation when it's time to open the lid.
 
 
-コッコロの指導により料理の腕を上げたランファが手作りした肉じゃが。まだ改 善の余地はあるものの、不器用なランファが誰かのために積み重ねた努力を思うととてもおいしく味わえる。= After receiving plenty of guidance from Kokkoro in the ways of cooking, Ranpha made this homestyle meat and potato stew. There is room for improvement, but knowing how much effort the typically clumsy Ranpha put in for someone else's sake fills your stomach with glee.
+コッコロの指導により料理の腕を上げたランファ\nが手作りした肉じゃが。まだ改善の余地はある\nものの、不器用なランファが誰かのために積み\n重ねた努力を思うととてもおいしく味わえる。= After receiving plenty of guidance from Kokkoro in the ways of cooking, Ranpha made this homestyle meat and potato stew. There is room for improvement, but knowing how much effort the typically clumsy Ranpha put in for someone else's sake fills your stomach with glee.
 
 アユミの隠密ガトーインビジブル=Ayumi's Stealth Gateau Invisible
 気が付くとリリの手元にあった不思議なお菓子。一見普通のケーキだが、内部に様々な具材が隠れるように入っている。複雑で重層的な味わいを見せる様は、まるで誰かさんのよう。=When you notice it, there's a mysterious sweet in Lili's hand. At first glance, it looks like an ordinary cake, but various ingredients are hidden inside. The complex and layered flavors are reminiscent of a certain someone.
-アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made using spices that Akino procured from Geo Gehenna. The stimulating flavor, harmonized with ranch-specialty yogurt sauce, is truly a miraculous marriage of two worlds.
+アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made using spices that Akino procured from Gio Gehenna. The stimulating flavor, harmonized with ranch-specialty yogurt sauce, is truly a miraculous marriage of two worlds.
 
 「マイルマス」「トレジャーマス」をスキップして移動できる。効果は1ターンの間継続する。=You can skip "mile tiles" and "treasure tiles" when moving. The effect lasts for 1 turn.
 アネモネが世話する秘密の菜園の野菜を使ったサラダ。栄養を重視するアネモネは草食獣の肉を野菜と解釈、当初は野菜の上に肉を置いただけであったが、ネラの指導で盛り付け直された。=A salad made with vegetables from Anemone's secret garden. Anemone, who prioritizes nutrition, interpreted herbivore meat as vegetables, initially placing meat on top of vegetables. However, it was rearranged under Nera's guidance.
+
+
+ジオ・ゲヘナを探索中の冥姫たちが現地で採取したスパイスで味付けした一皿。赤く煮え滾るソースは刺激的かつ非常に奥深い味わいで未知の大地の如く冒険者たちをその深奥へと誘う。=A dish seasoned with spices collected on site by the Dark Princesses exploring Gio Gehenna. The red, simmering sauce invites adventurers deep into its stimulating and profoundly complex flavors, much like an unknown land.
+
+
+
+ナーナ=Nana
+出たダイスの目が奇数だった場合、\nライバルを1ターン休みにできる=If the die has an odd number of eyes, you can take a turn off your rival
+【仲間】出たダイスの目が奇数だった場合、ライバルを1ターン休みにできる=[Friend] If the dice roll is an odd number, you can give your rival one turn off.
+
+出たダイスの目が偶数だった場合、\n+1進める=If the dice roll is an even number, move forward +1.
+【仲間】出たダイスの目が偶数だった場合、1マス分多く進める=[Friend] If the dice roll is an even number, move forward one tile.
+\n「まとめて３個」モードでダイスを振ると、\n出現中の仲間効果は消失します。\nダイスを振ってもよろしいですか？=\nIf you roll the dice in "Three at once" mode,\nany active companion effects will disappear. \nAre you sure you want to roll the dice?

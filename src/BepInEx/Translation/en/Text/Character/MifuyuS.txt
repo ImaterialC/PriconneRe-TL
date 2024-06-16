@@ -26,11 +26,9 @@ r:"^敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)
 It deals P.DMG to one enemy in front of you, and also does physics -based damage to all the surrounding enemies.
 
 ##S2+##
-ハンティングモード=Hunting Mode+
+ハンティングモード+=Hunting Mode+
 自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。さらに短時間物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップさせる。=Boosts own P.ATK by a massive amount, large boost to own P.CRIT Rate. Additionally, massive boost to own P.CRIT Rate and moderate boost to own P.CRIT DMG for a short period of time.
 r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理攻撃クリティカル時のダメージを24％アップ$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Boosts own P.CRIT Rate by $3.\n►Boosts own P.CRIT DMG by 24%.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理攻撃クリティカル時のダメージを24％アップ$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Boosts own P.CRIT Rate by $3.\n►Boosts own P.CRIT DMG by 24%.
-## Did it twice because 24% can be 2\n4% or \n24%.
 
 ##UE##
 蒼竜槍ミズチ=Serpentlance Mizuchi

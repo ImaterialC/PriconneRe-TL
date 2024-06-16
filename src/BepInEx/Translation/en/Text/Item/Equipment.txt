@@ -609,3 +609,7 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 妖精回杖アナクシビア=Fairy Spinning Staff Anaxibia
 妖精夢刃ダイダミア=Fairy Dream Blade Deidamia
 妖精舞装アヌーン=Fairy Dance Attire Annwn
+
+妖精環翅モーリアン=Fairy Ring Wings Morrian
+妖精晶翅ヴァハ=Fairy Crystal Wings Vaha
+妖精踊翅ネヴァン=Fairy Dancing Wings Nevan

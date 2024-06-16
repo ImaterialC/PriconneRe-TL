@@ -21,13 +21,7 @@ sr:"^オート進行で(メイン|イベント)クエスト(.+)まで進めた�
 オート進行設定中はサポートキャラを編成できません。=Can't select support character while doing Auto Advance mode
 オート進行を停止しますか？\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Do you want to stop the Auto Advance?\nTotal Stamina Consumption during Auto Adv.\n※Stamina consumption at the time of retirement and lose is not included.
 敗北のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Due to defeat, Auto-Progress has been suspended. The following Stamina consumption has been carried out according to this Auto-progress. ※Stamina consumption at the time of retirement and lose is not included.
-スタミナ不足のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to insufficient stamina.\nThe following stamina was consumed during this auto progression.\n※Note: Stamina consumed upon retreat or defeat is not included.
-
-☆3クリア未達成のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to not achieving a 3☆ clear.\nThe following stamina was consumed during this auto progression.\n※Note: Stamina consumed upon retreat or defeat is not included.he amount of stamina consumed during defeat.
-
-
-
-
+スタミナ不足のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=
 
 クエストクリア数=Cleared Quest
 オート進行停止=Auto Advance Suspension
@@ -70,7 +64,7 @@ sr:"^([べ-ヺー＆]+)の\n絆ランクが(\d+)になりました。$"=$1\nThe 
 r:"^プレイヤーLv(\d+)以下は実際に消費するマナが上記より少ない場合があります。$"=Players Lv$1 or lower may actually consume less mana than the above.
 マナが不足した場合、オート進行が停止します。=If mana is insufficient, the Auto Advance will stop.
 オート進行停止条件設定=Auto Advance stop condition setting
-オート進行が停止する条件を設定します。\n選択した停止条件に該当しない難易度の場合は、エリアの最終クエストクリアでオート進行が停止します。=Set the conditions for stopping the Auto Advance. In the case of difficulty levels that do not fall\nunder the selected stop conditions,the Auto Advance will stop by clearing the final quest in the area.
+オート進行が停止する条件を設定します。\n選択した停止条件に該当しない難易度の場合は、エリアの最終クエストクリアでオート進行が停止します。=Set the conditions for stopping the Auto Advance.\nIn the case of difficulty levels that do not fall under the selected stop conditions,\nthe Auto Advance will stop by clearing the final quest in the area.
 
 スタミナが不足するまで=Until run out of stamina
 BOSS出現クエスト直前=Before the BOSS

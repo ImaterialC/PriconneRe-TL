@@ -18,6 +18,7 @@ r:"^(\d+)ターン休み$"=$1 Turn(s) Break
 ライバル勝利ボーナス=Rival victory bonus
 
 r:"^ダイスを(\d+)個入手した。$"=Obtained $1 dice.
+\nマイルを支払って\n「ちかみち」を開通させます。\nよろしいですか？=\nPay Miles to open the Shortcut.\nIs that all right?
 
 [FF7C4E,D62146]1[-][3C404E]ターン[-]=[FF7C4E,D62146]1[-][3C404E] Turn[-]
 r:"^\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]ターン\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Turns[-]
@@ -160,7 +161,11 @@ r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\]([0-9,]+)\[-\]\[3C404E\]/8\[
 ---New Season---
 
 r:"^\[FF7C4E,D62146\]このコインの使用期限は([0-9/ :]+)までです。\[-\]$"=[FF7C4E,D62146]This coin can be used until $1.[-]
-r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(700)$"=Caravan Coin (Season $1)ｘ$2
+r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(\d+)$"=Caravan Coin (Season $1)ｘ$2
+
+
+まとめて３個=Three at once
+
 シーズン切り替わり=New Caravan Season
 新シーズンが始まったため、\n所持していたトレジャーをコインに変換しました。=Since the new season has begun,\nall your treasure has been converted into coins.
 
@@ -174,3 +179,8 @@ r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(700)$"=Caravan Coin (
 
 1～14マス差で勝利=Win by one to fourteen tiles
 15マス差以上で勝利=Win by more than 15 tiles
+
+
+「ちかみちマス」でマイルを支払うと、チェックポイントまでの短縮\nルートが開かれるようです。「パーティマス」に止まった翌ターンは最大\n３品まで料理を召し上がれますよ。組み合わせが重要でございますね。=If you pay miles at the "Shortcut Tiles," a shortcut route to the checkpoint will be opened. After stopping at a "Party Tiles," you can enjoy up to three dishes on the next turn. The combination is important.
+ダイスを一度に３個振ることができる「まとめて３個」モードが\n新たに追加されました。お手持ちのダイスを用いて、効率的に冒険を\n進めることができるようでございます。ぜひご活用くださいまし。=A new mode, "Roll Three at Once," has been added, allowing you to roll three dice simultaneously. This will help you progress through your adventure more efficiently using your dice. Please make use of it.
+「まとめて３個」モードの使用中は、マス効果の発動頻度や出現する\nお仲間の制限など、ダイスを1個ずつ振って遊ぶときとは異なる点が\nあるようです。詳細は「ヘルプ」をご覧ください、主さま。=While using the "Roll Three at Once" mode, the frequency of Tiles effects and the appearance of companions may differ from when you roll one die at a time. For details, please check the "Help," my lord.

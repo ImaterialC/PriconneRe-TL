@@ -57,6 +57,9 @@ r:"^\[3C404E\]リタイアするとスタミナが\[FFBB00,CE4F00\](\d+)\[-\]消
 
 クエストリタイア=Leave Quest
 [3C404E]リタイアするとクエスト報酬を\n獲得することができません。\n\nよろしいですか？[-]=[3C404E]You will not receive any rewards if you quit.\n\nAre you sure?[-]
+リタイアすると報酬を\n獲得することができません。\n挑戦回数は消費されません。\n\nよろしいですか？\n=You will not receive any rewards if you quit.\n\nAre you sure?
+
+
 r:"^ルナの塔(\d+)階 EXクエスト$"=Luna Tower $1 Floor EX Quest
 r:"^ルナの塔(\d+)階$"=Luna Tower $1F
 r:"^(\d+)階 クリアパーティ一覧$"=$1 Floor Clear Party List

@@ -45,6 +45,8 @@ r:"^【仲間】出目が(\d)のダイスを同時に振ってどちらか選択
 
 最大1000マイルを入手する=Acquire up to 1,000 miles
 【仲間】最大1000マイルを入手する=[Friend] Acquire up to 1,000 miles
+最大2000マイルを入手する=Acquire up to 2,000 miles
+【仲間】最大2000マイルを入手する=[Friend] Acquire up to 2,000 miles
 
 画面の左右をクリックか左右の矢印キー移動できますよ！\nおジャマに当たると、少しの間、動けなくなるので要注意です！\n上手に避けて、フルーツをたくさん集めましょう！=You can either click on the left or right arrow keys on the screen! If you get hit by a jammer, you won't be able to move for a while, so be careful! Dodge it well and gather lots of fruit!
 練習する=Practice

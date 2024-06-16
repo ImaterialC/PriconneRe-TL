@@ -65,6 +65,7 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitDetail(Clone)/Right/PartsViewUnitDetailTab/EvolutionTab/EvolutionTabInactiveNode/tab_text_rarity=ChangeFontSize(16)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitDetail(Clone)/Right/PartsViewUnitDetailTab/EvolutionTab/EvolutionTabActiveNode/tab_text_rarity_selected=ChangeFontSize(16)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/Contents/ScrollNode/ScrollContent/ScrollView/WrapContent/ShopLists(Clone)/Grid/ShopList(Clone)/Label_item_name=ChangeFontSize(11)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewCaravanShop(Clone)/Main/SlideRight/AnchorRight/Contents/ScrollNodeBulk/ScrollContent/ScrollView/WrapContent/PartsCaravanCoinShopRow(Clone)/Grid/ShopList(Clone)/Label_item_name=ChangeFontSize(14)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogTutorial(Clone)/Main/Root/GUIGroup_Balloon/Label=ChangeFontSize(19)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewEmblem(Clone)/WidgetOff(Clone)/Main/Header/Achievement/achievement_label=ChangeFontSize(12)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewEmblem(Clone)/WidgetOff(Clone)/Main/Contents/EmblemSetInfo/SelectedEmblem/SelecedEmblemDetail/HowToEmblem/how_to_label=ChangeFontSize(13)

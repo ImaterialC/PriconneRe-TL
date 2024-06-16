@@ -146,6 +146,8 @@ r:"^(\[[0-9A-F,]{6,13}\])10キャラ目は(\[[0-9A-F,]{6,13}\])★3キャラ確�
 [3C404E]『10回引く』は[FFBB00,CE4F00]★2以上[-]1キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]2★ character[-] is guaranteed with each 10x draw![-]
 
 [3C404E]対象キャラを仲間にする度に[FFBB00,CE4F00]対象メモピ200個[-]GET！[-]=[3C404E]Rate-up characters come with a bonus of [FFBB00,CE4F00]200 Memory Shards[-]![-]
+[3C404E]対象キャラが加入する度に[FFBB00,CE4F00]対象メモピ200個[-]GET！[-]=[3C404E]Rate-up characters come with a bonus of [FFBB00,CE4F00]200 Memory Shards[-]![-]
+
 ---Banner---
 
 無料で10回ガチャは\n毎日5時と12時にリセットされます。=Free 10x Gacha resets daily at\n5:00 and 12:00 (JST).
