@@ -7,6 +7,8 @@
 ##UB##
 フィオレ・フェリチータ=Fiore Felicità
 味方全体の物理防御力と魔法防御力を大アップさせ、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。=Greatly boosts all allies' P.DEF and M.DEF, grants continues HP recovery to them, and deploys Barrier over all allies that negates P/M.DMG.
+特殊スキルは、味方全体の物理防\n御力と魔法\n防　御力を小アップさせる。=Special Skills increase the physical and magical defenses of all allies by a small amount.
+
 r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Boosts all allies' P.DEF by $1 for 18s.\n►Boosts all allies' M.DEF by $2 for 18s.\n►Recovers all allies' HP by $3/s for 10.5s.\n►Deploys Barrier over all allies that negates $4 P/M.DMG for 90s.
 
 ##S1##
