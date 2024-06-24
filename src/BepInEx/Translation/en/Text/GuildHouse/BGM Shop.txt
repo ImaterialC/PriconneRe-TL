@@ -28,7 +28,7 @@ sr:"^(.{3,20})\nを購入しました。$"=Purchased\n$1
 
 こちらでは、ＢＧＭの変更が\nできますよ\nどんな曲に変更しますか？\nふふふ、私も楽しみです♪=This is where you can change BGM setting! What kind of track are you after?\nHaha, I can't wait to hear it!
 
-ギルドハウスの\nＢＧＭを変更できますよ\nあなたの好きな曲、\n私にも聴かせてくださいね=You can chose all sorts of tracks to play on your screen or in the guildhouse! Why do'nt you show me some of your favorites?
+ギルドハウスの\nＢＧＭを変更できますよ\nあなたの好きな曲、\n私にも聴かせてくださいね=You can choose all sorts of tracks to play on your screen or in the guildhouse! Why don't you show me some of your favorites?
 
 ＢＧＭの変更や購入は、こちらから\nできますよ\n素敵な音楽を、たくさんご用意\nいたしました！=If you're looking to change the BGM or buy new tracks, you've come to the right place! We have a wide selection available!
 

@@ -11,8 +11,8 @@
 r:"^敵単体に(\d+)の物理ダメージを３回与える$"=►Deals $1 P.DMG to an enemy 3 times.
 
 ##S2##
-サマーランウェイ♪=Summer Catwalk
-自身の物理攻撃力を特大アップさせ、さらにＴＰを特大回復させる。=Massive boost to own physical attack. Recovers own TP by a massive amount.
+サマーランウェイ♪=Summer Runway♪
+自身の物理攻撃力を特大アップさせ、さらにＴＰを特大回復させる。=Massively boosts own P.ATK. Recovers own TP by a massive amount.
 r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰを全回復$"=►Boosts own P.ATK by $1 for 180s.\n►Recovers own TP by 1000.
 
 ##EX##
@@ -22,7 +22,13 @@ r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰを全回復$"=►Bo
 ##S1+##
 トロピカルダーツ+=Tropical Darts+
 目の前の敵１キャラに物理小ダメージを３回与え、さらに自分の物理攻撃力を中アップさせる。このスキルは確定でクリティカルする。=Deals small P.DMG to an enemy directly in front 3 times. Additionally, boosts own P.ATK by moderate amount. This attack is always a critical hit.
-r:"^敵単体に(\d+)の物理ダメージを３回与える自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy 3 times.\n►Boosts own P.ATK by $1 for 12s.
+r:"^敵単体に(\d+)の物理ダメージを３回与える自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy 3 times.\n►Boosts own P.ATK by $2 for 12s.
+
+##S2+##
+サマーランウェイ♪+=Summer Runway♪+
+自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを中アップし、ＴＰを特大回復させる。このスキルの初回使用後、行動パターンが変化する。=Massively boosts own P.ATK, moderately boosts own P.CRIT DMG, and recovers TP by a massive amount. After 1st skill usage, changes attack pattern.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを28％アップ自分のＴＰを全回復$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 28% for 180s.\n►Recovers own TP by 1000.\n\nFor the 1st skill usage:\n►Switches to Attack Pattern 2 for 180s.
 
 ##UE##
 盛夏弓スプラッシュハート=Midsummer Bow Splash Heart
+ヤバ盛りフルーツパフェ=Dope Fruit Parfait

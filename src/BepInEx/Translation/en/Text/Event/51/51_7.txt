@@ -1,10 +1,7 @@
 
 採取したキノコはアストライア茸ではなく、魔物の菌糸だったことが分かる。アオイは、自分たちを心配してキャンプ場まで来た{playername}に感謝し、勇気を出してグループキャンプに誘うのだった。=They realized that the mushrooms they collected were not Astraea mushrooms, but fungal filaments of monsters. Aoi thanked {playername}, who came to the campsite to worry about them, and gathered her courage to invite her to the group camp.
-
 ううっ……\n私たちがキノコを食べている間に、たき火が消えちゃってました……=Ugh... The fire went out while we were eating mushrooms...
-
 正気を取り戻したアオイたちは、\nグループキャンプを再開しようと準備をしていた──=The Aoi who regained their sanity were preparing to resume their group camp
-
 大丈夫。薪なら私とジュンさんがたくさん準備してるから。\n気を取り直して、準備をしましょう。=It's okay. Jun-san and I have prepared a lot of firewood. Let's cheer up and get ready.
 ああ、その通りだ。休暇はまだまだある。\nまずはたき火からキャンプを再開して、心を落ち着かせようじゃないか。=Yeah, that's right. We still have a lot of vacation time. Let's start with the fire and calm down.
 それじゃあ、僕はこれで。=Well then, I'll be going.
@@ -22,13 +19,9 @@
 でも！　３人でやるキャンプは、とっても楽しかったんです！\nこんなこと、ひとりぼっちでやっていた時には、\n想像すらしていませんでした！=But! Camping with the three of us was so much fun! I never imagined such a thing when I was alone!
 ……私がずっとやっていたひとりぼっちのキャンプには、\nぼっちキャンプでしか味わえない楽しさが……=...My solo camping had its own fun that only solo camping could offer...
 ユカリさんとジュンさんとする３人のグループキャンプには、\nそれでしか味わえない楽しさが……=The group camping with Yukari-san and Jun-san had its own fun that only it could offer...
-
 ということは……\n{playername}さんが加わった４人のグループキャンプにも、\n今まで味わったことのない楽しさがあるんじゃないかって思うんです！=That means... Maybe there's a new kind of fun in group camping with {playername}-san joining us!
-
 きっと、日常生活では感じられない気持ちよさや、\n普段だったら恥ずかしくて話せないことだって、\n語り合えたりするんじゃないかって……！=I’m sure we’ll be able to talk about how good it feels in our daily lives, and how embarrassing it would be to talk to each other under normal circumstances...!
-
 だから、{playername}さん、どうでしょうか？\n……わ、私たちと一緒にキャンプ……しましょう？=So, {playername}-san, what do you think?  ...W-Would you like to camp with us?
-
 よろこんで！=Gladly!
 ……っ！　ありがとうございます！\nあなたも一緒なら、きっと……いえ、絶対に楽しいキャンプになります！=...! Thank you! If you're with us, I'm sure... no, it will definitely be a fun camp!
 では、設営を手伝いますね！\nユカリさんたちもお願いします！=Then, I'll help you set up! Yukari-san and Jun-san too, please!
@@ -55,24 +48,18 @@
 今回のキャンプを教訓に、\n今後も無理のない範囲で休暇を取ることに決めたよ。=I decided to take a vacation within reasonable limits from now on, based on this camping experience.
 もちろん、私だけがこうしてのんびりとしていては意味がない。\n慰安を兼ねて、団員たちともキャンプを催してみたいな。=Of course, it doesn't make sense if I'm the only one relaxing like this. As a morale booster, I also want to have a camp with my group members.
 みんな、いい過ごし方をしてるね。=Everyone's having a good time.
-
 {playername}さんも、\nあなただけの楽しいキャンプの過ごし方を見つけてくださいね？={playername}-san, please find your own enjoyable way of camping too?
-
 たき火にあたって自分を見つめ直すのもよし、\n普段話せないようなことを打ち明けるのもよし、\nなんでも自由に過ごしちゃってください！=It's fine to reflect on yourself by the fire, or to confide in things you can't normally talk about, or to do whatever you want!
 そのためにお手伝いできることなら、\n私は全力でがんばっちゃいますから！=If there's anything I can do to help you with that, I'll do my best!
 それにこの前はランドソルで、失礼な態度をとってしまいました……\nＢＢ団にあるまじき言動でした……=And last time at Landosol, I was rude to you... It was an unforgivable behavior for a BB Brigade...
 だから、そのお詫びも兼ねて、キャンプでおもてなしをしたいんです。=So, as an apology, I want to entertain you at this camp.
 ユカリさんとジュンさんは、恐れ多くて友達とは呼べませんが、\nキャ、キャンプ仲間だと思っています。=I can't call Yukari-san and Jun-san friends because they're too awesome, but they're my... my camp buddies.
 私ひとりぼっちじゃ大したことはできないかもしれません……=I might not be able to do much by myself...
-
 でも、キャンプ仲間が一緒なら、\n{playername}さんも楽しんでもらえるんじゃないかって。=But if I have camp buddies with me, maybe {playername}-san will enjoy it too.
-
 キャンプ仲間……いい響きね。\n飲み仲間とはまた違う居心地のいい関係だわ。=Camp buddies... it sounds nice. It's a different kind of cozy relationship from drinking buddies.
 ああ、そうだね。\nお互いに肩肘張らずに向き合える仲だ。=Yeah, that's right. We can face each other without being stiff.
 えへへ、そう言ってもらえて安心しました。\n私も……キャンプ仲間ができてうれしいですっ！=Ehehe, I'm glad you said that. I'm also... happy to have camp buddies!
-
 {playername}さんとは、ＢＢ団の同志であり、\nキャンプ仲間にもなりたいですっ！=I want to be comrades with {playername}-san in the BB group and camp buddies too!
-
 うん、よろしく！=Yeah, nice to meet you!
 …………ねえ、いい話の最中に悪いんだけど……\nそろそろご飯の準備しない？=...Hey, sorry to interrupt a good conversation... but isn't it time to prepare dinner?
 魔物と戦ったり、設営しなおしたりでお腹空いてきちゃった……\nそれに……コーヒーもいいけど、やっぱり麦しゅわも捨てがたいの……=I'm getting hungry from fighting monsters and setting up camp again... And... coffee is good, but I can't resist Barley Soda either...
@@ -83,7 +70,6 @@
 そういうわけだから……ね？　ご飯にしましょ？\nみんなもお腹空いたでしょ？=That's why... okay? Let's have dinner? You're all hungry too, right?
 それもそうだね。少年も合流したことだし、改めて食事にしようか。\n今度はキノコ無しでね。=That makes sense. Now that the boy has joined us, let's have a meal again. This time without mushrooms.
 それじゃあキャンプ飯にしましょう！\nみなさんのために、腕を振るいますよ！=Then let's have camp food! I'll show you my skills for everyone!
-
 楽しい食事を済ませた{playername}たちは、\n食後の歓談をしていた──=After enjoying a delicious meal, {playername} and her friends were chatting after dinner...
 まずはこのおつまみを食べて=First of all, eat this snack
 それから、この麦しゅわを～=And then drink this Barley Soda~
@@ -123,72 +109,7 @@
 乾杯っ！=Cheers!
 さあ、夜はこれからっ！=Now, the night is just beginning!
 まだまだ飲むわよ～～！！=We'll keep drinking~!!
-
-
-
-
-
-
-
-
-
-
-…………ま、待ってください！=...W-Wait a minute!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+正気を取り戻したアオイたちは、\nグループキャンプを再開しようと準備をしていた──=Now that they've regained their senses, Aoi and the others are preparing to resume their group camp
+I see...持ってきた野営道具は、私たちの捜索が長引いた時のため……？=Maybe... You brought the camping equipment for in case search took longer than expected...?
+...Ngh!ありがとうございます！\nあなたも一緒なら、きっと……いえ、絶対に楽しいキャンプになります！=...! Thank you! If you're with us, I'm sure... no, it will definitely be a fun camp!
+...Ngh!\n普段よく仕事中に飲んでる物とは、別物だわ！=...!\nThis is different from what I usually drink at work!

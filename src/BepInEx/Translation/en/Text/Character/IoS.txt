@@ -8,13 +8,13 @@ r:"^敵全体に(\d+)の魔法ダメージ味方全体のＨＰを(\d+)回復$"=
 
 ##S1##
 ラブスティール=Love Bandit
-前方範囲内の敵すべてに魔法小ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復する。範囲内の敵の数に応じて回復量が増加する。=Deals small M.DMG to all enemies in range, and recovers the HP of the ally with the lowest HP by a small amount. HP recovery increases based on the number of enemies in range.
-r:"^範囲内の敵すべてに(\d+)の魔法ダメージ味方単体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to all enemies.\n►Recovers an ally's HP by $2.
+前方範囲内の敵すべてに魔法小ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復する。範囲内の敵の数に応じて回復量が増加する。=Deals small M.DMG to enemies in range, and slightly recovers HP of the ally with the lowest HP. HP recovery increases according to number of enemies in range.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ味方単体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in range.\n►Recovers an ally's HP by $2.
 
 ##S2##
 ラブスプラッシュ=Love Splash
-前方範囲内の敵すべてに魔法小ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals small M.DMG to all enemies in range and lowers their M.DEF by a small amount.
-r:"^範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵すべての魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies in range.\n►Lowers all enemies' M.DEF in range by $2.
+前方範囲内の敵すべてに魔法小ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals small M.DMG to enemies in range and slightly lowers their M.DEF.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵すべての魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in range.\n►Lowers enemies' M.DEF in range by $2.
 
 ##EX##
 ラブサマーティーチング=Lovely Summer Lesson
@@ -22,8 +22,13 @@ r:"^範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵すべ�
 
 ##S1+##
 ラブスティール+=Love Bandit+
-前方範囲内の敵すべてに魔法中ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復する。範囲内の敵の数に応じて回復量が増加する。=Deals moderate M.DMG to all enemies in range, and recovers the HP of the ally with the lowest HP by a small amount. HP recovery increases based on the number of enemies in range.
-r:"^敵単体に(\d+)の物理ダメージを３回与える自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy 3 times.\n►Boosts own P.ATK by $1 for 12s.
+前方範囲内の敵すべてに魔法中ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復する。範囲内の敵の数に応じて回復量が増加する。=Deals moderate M.DMG to enemies in range, and slightly recovers HP of the ally with the lowest HP. HP recovery increases according to number of enemies in range.
+
+##S2+##
+ラブスプラッシュ+=Love Splash+
+自分の魔法攻撃力を大アップ、魔法クリティカルを大アップする。さらに前方範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。範囲内の敵の数に応じてダメージと魔法防御力のダウン量がアップする。=Deals moderate M.DMG to enemies in range and slightly lowers their M.DEF. Also greatly boosts own M.ATK and M.CRIT Rate. The M.DMG dealt and lowered M.DEF increase according to number of enemies in range.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを150アップ$"=►Deals $1 (+0.18×$1×Enemy Count) M.DMG to enemies in 1100 range.\n►Lowers enemies' M.DEF in 1100 range by $2 (+0.1×$2×Enemy Count) for 18s.\n►Boosts own M.ATK by $3 for 180s.\n►Boosts own M.CRIT Rate by 150 for 180s.
 
 ##UE##
 恵愛剣サマーラブファミリア=Lovely Summer Familia Sword
+サマーオブラブ=Summer of Love

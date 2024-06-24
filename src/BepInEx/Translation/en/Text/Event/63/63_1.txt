@@ -4,6 +4,7 @@
 魔物３=Monster 3
 魔物４=Monster 4
 魔物５=Monster 5
+
 ブラドの案内で赴いた街で、住人の魔族に歓迎されるイリヤたち。力の完全復活に必要な「伝説の吸血鬼としての記憶」を思い出す傍ら、イリヤは王として数多の魔族が住むその地を治めることになる。=Brad guided Illya and the others towards the city, where they are welcomed by its residents of demons. To restore her powers, Illya will need to remember her "Memories of Being the Legendary Vampire”. And to do that, Illya will need to reign over the city as their ruler.
 かつて伝説の吸血鬼が支配していた地。\nそこを目指してイリヤたちは険しい道を進んでいた。=The Land Once Ruled by the Legendary Vampire. Illya and the others are heading there through a rugged path.
 イリヤ様、この先でございます。=Illya-sama, it's just ahead.
@@ -12,6 +13,7 @@
 やめぬか！　こやつはわらわの眷属じゃ！　勝手にイチャつくでないわ！\nそもそも！　我が眷属はともかく。\nユキ、なぜお主がついてきておるのじゃ？=Stop that! Don't just flirt in front of me, he's still my familiar! And why are you still following me in the first place?
 だってボク、まだ吸血鬼になってないんでしょ？\nもらった魔力だって、ボクの肌ツヤをよくした程度だしね。=I mean, I haven’t become a vampire yet, right? The magical power I got only made my skin smoother.
 確かに、お主自身が吸血鬼になったという気配はないが……\nお主……人の身に余るほどの魔力を手にしておきながら、\n出てくる感想がそれか……？=It’s true that you don’t seem to be a vampire yet but...\nYou have more magical energy than what a human could handle, and that’s all you have to say about it?
+確かに、お主自身が吸血鬼になったという気配はないが……\nお主……人の身に余るほどの魔力を手にしておきながら、\n出てくる感想がそれか……？=It’s true that you don’t seem to be a vampire yet but... You have more magical energy than what a human could handle, and that’s all you have to say about it?
 ユキらしいね。=That's just like you, Yuki.
 そうなのじゃな……\nわらわも長年生きていろいろなものを見てきたが、\nまだまだ新しい発見があるものじゃなぁ……=Is that so...? I've lived for many years and seen many things, but it seems that I can still discover something new...
 長い時の中で出会った、\n最高の美として記憶しておくといいよ♪=You should remember me as the greatest beauty you've met in a long time♪
@@ -19,13 +21,18 @@
 ……むっ。\n面白いね……このボクと美を競おうっていうの？=...Hmm. Interesting... Are you trying to compete with me in beauty?
 ふっ、結果は分かりきっておるがな。\n幸い、ここには素直さに定評のある我が眷属がおる。\nこやつに聞いてみるのはどうじゃ？=Heh, I already know how that'd end. Fortunately, there is a familiar here who's renowned for being honest. Why don't we ask him?
 いいんじゃないかな。まぁこの人はすでにボクの虜なんだけどね？\nいやぁ、申し訳ないよ。\n伝説に泥を塗ることになってしまって。=That's fine with me. It's just that he's already a captive of my beauty, you know? Oh, I'm really sorry, I wouldn't want to paint a bad name on the legend herself.
+{playername}！\n{playername}さん！={playername}!\n{playername}-san!
 どっちが美しい！？=Which of us is more beautiful?!
 イリヤ。=Illya.
 それ見たことか！\nやはりお主は最も優秀な眷属じゃな！\n褒めて遣わす！　ほれ、近うよれ、愛いやつ愛いやつ……♪=Is that so! You really are an exceptional familiar! Come closer, I shall praise you!
+それ見たことか！\nやはりお主は最も優秀な眷属じゃな！\n褒めて遣わす！　ほれ、近うよれ、愛いやつ愛いやつ……♪=See! He really is an exceptional familiar! Come closer, I shall praise you!
 なるほど、そういうことか……あえてボクを選ばないことで、\n悔しがるボクを見たかったんだね？\nこんな意地悪な駆け引きができたんだね、キミってば。=I see how it is... You just wanted to see me frustrated, right? You're such a bully♪
 無敵かこやつ。=He's tougher than I thought.
 ユキ。=Yuki.
+ま、そうだろうね。当たり前の結果に言うべきことなんてないよ。\nもしボクを選ばなかったら、ボクの美しさを耳元で囁き続けて\nあげようかと思ってたけど、その必要はなかったみたいだね♪=Well, that's to be expected. I've nothing to say about such an obvious outcome. In the off chance you hadn't chosen me then I would've spelled my beauty to your ears over and over, but it seems you really don't need it♪
+...I see.\nお主、選ばなかったら面倒なことになるのが分かっとったんじゃな。\n酷な選択をさせてすまなかった。危機回避は大事じゃな、賢い眷属じゃ。=...I see. If you didn't choose him, it would've been very troublesome for you. I'm realy sorry for putting you on the spot. You're a smart familiar for putting your safety first.
 二人とも美しい。=You're both beautiful.
+ちゃんと選ばんかい！\nちゃんと選びなよ！=Don't avoid the question!\nDon't avoid the question!
 ご歓談の最中、申し訳ありません。\n間もなく──到着にございます。=I apologize for interrupting your pleasantries. We will be arriving shortly.
 ここがかつて、伝説の吸血鬼……わらわがおった地……？=So this is where the legendary vampire once ruled... where I once ruled...?
 へぇ、ちゃんとした街だね。\n今のボクのファッションにぴったりな雰囲気じゃないか♪=Wow, what a proper city. And it's just perfect mood for my current fashion. ♪
@@ -48,7 +55,7 @@
 追い出せー！=Let's throw him out!
 ここは魔の者のすみかだぞー！=This is the demon's home!
 ふふっ、{playername}さんも大人気だね。\nそんなに魔物たちに囲まれるなんて。=Heehee. You're so popular, {playername}-san. I didn't think you'd be surrounded by so many monsters.
-r:"^そうじゃった！\n.{2,10}は魔力も何もないんじゃったな！？$"=Oh right! You don't have any magical energy!
+そうじゃった！\n.{2,10}は魔力も何もないんじゃったな！？=Oh right! You don't have any magical energy!
 やめよ！=Stop it!
 こやつはわらわの大切な眷属じゃ！\n手を出すことは許さぬ。=He's my precious familiar! I won't allow you to lay a finger on him.
 ケンゾク……！\n伝説の吸血鬼様の……！？=Familiar...! The legendary vampire's...!?
@@ -111,3 +118,4 @@ r:"^そうじゃった！\n.{2,10}は魔力も何もないんじゃったな！�
 伝説の吸血鬼の記憶を取り戻す、か。\nそれでわらわの力が戻るか、半信半疑ではあるが……=Regaining my memories of being the legendary vampire, huh? I'm not sure if that will restore my power, but...
 ……やってみるとするか。=...I guess I'll give it a try.
 かつての伝説が残る地に君臨するイリヤ。\n同時に何故か同じくらいの存在感を放つユキ。\n二人を称える魔物たちの喝采が、古城に響き渡るのであった。=Illya now reigns over the city where traces of the legendary vampire remains. At the same time, Yuki is giving off the same presence as the legend for some reason. The sound of the two being celebrated by the monsters echoes through the old castle. 
+かつての伝説が残る地に君臨するイリヤ。\n同時に何故か同じくらいの存在感を放つユキ。\n二人を称える魔物たちの喝采が、古城に響き渡るのであった。=Illya now reigns over the city where traces of the legendary vampire remains. At the same time, Yuki is giving off the same presence as the legend for some reason. The sound of the two being celebrated by the demons and monsters echoes throughout the old castle. 

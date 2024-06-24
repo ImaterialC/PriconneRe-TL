@@ -72,7 +72,7 @@ r:"^([0-9/]+)階( EX)?$"=$1F$2
 この機能はまだ解放されていません。=This feature has not been released yet.
 ---Special Dungeon---
 階層一覧=Layer List
-スペシャルダンジョン=Secret Dungeon
+スペシャルダンジョン=Special Dungeon
 まだ挑戦できません。=Can't challenge it yet.
 全体マップ=All-Map
 登頂回数=Progress

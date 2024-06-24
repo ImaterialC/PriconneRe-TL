@@ -149,12 +149,14 @@ r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 このマスに移動しますか？=Move to this tile?
 
 r:"^(\d)ターンの間ターン数のカウントをスキップする。$"=For $1 turn(s), turns do not count.
-料理が所持上限を超えています。\n所持数が8個以下になるように料理を売却してください。=You have exceeded the maximum amount of dishes you can possess.\nPlease sell dish(es) until there are 8 or less left.
+r:"^料理が所持上限を超えています。\n所持数が(\d+)個以下になるように料理を売却してください。$"=You have exceeded the maximum amount of dishes you can possess.\nPlease sell dish(es) until there are $1 or less left.
 
 料理所持数上限=Maximum Dishes Reached
 料理が所持上限に達しています。\n新たに料理を入手した場合、超過分の売却が必要です。\n\nこのままダイスを振ってもよろしいですか？=Your dish inventory is currently at its limit.\nIf you acquire new dishes, you will need to sell the excess ones.\nRoll the Dice anyway?
+購入に必要なマイルが不足しています。=Don't have enough miles to buy it.
+食べられる料理を所持していません。=Don't have any edible food.
 所持数がいっぱいです。売却する料理を選んでください。=Inventory full. Select Dish(es) to sell.
-r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\]([0-9,]+)\[-\]\[3C404E\]/8\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/8[-]
+r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\]([0-9,]+)\[-\]\[3C404E\]/([0-9,]+)\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/$2[-]
 
 現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or eating food.\n\nIs this OK?
 

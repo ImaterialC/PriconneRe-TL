@@ -1,4 +1,4 @@
-r:"^自分の秘密ブツを無事回収したネネカ。それはかつて記録した([\s\S]{2,10})の教育日誌。だが([\s\S]{2,10})への淡い想いが吹き込まれたそれを、ネネカは明かすことなく葬ってしまうのであった。$"=Neneka had safely recovered her own secret item. It was $1's educational logbook, which she had recorded in the past. However, she buried it without revealing her faint feelings for him.
+自分の秘密ブツを無事回収したネネカ。それはかつて記録した{playername}の教育日誌。だが{playername}への淡い想いが吹き込まれたそれを、ネネカは明かすことなく葬ってしまうのであった。=Neneka had safely recovered her own secret item. It was {playername}'s educational logbook, which she had recorded in the past. However, she buried it without revealing her faint feelings for him.
 美しい海水を取り戻したオーマの海──=The sea of Ohma, which regained its beautiful seawater──
 ユカリさんマサキさん！\nカズマサさんが、面白い漁法を披露してくださるって！=Yukari-san Masaki-san! Kazumasa-san is going to show us an interesting fishing method!
 へっへーん。これがシークラッカーよ。\n見てろよ？　こいつでトゥンヌスを誘導して──おっと！=Hehehe. This is the Sea Cracker. Watch this? I'll lure the Tunnus with this- oops!
@@ -80,73 +80,26 @@ r:"^自分の秘密ブツを無事回収したネネカ。それはかつて記�
 …………自由だといいですね、海の中は。=........I hope you're free in the sea.
 海中で自由を謳歌する小さな貝を想像し、\nそっとほほ笑む、ネネカであった。=She imagined a small shell enjoying its freedom in the sea and smiled softly. She was Neneka.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+美しい海水を取り戻したオーマの海──=The sea of Ohma regained its beautiful seawater──
+バッチャーン！=Ba-chan!
+…………あ、うん。ソウダヨ？=...Ah, yeah... That's... right?
+お、おまえさんたち……\n色々あった反動で、バカンス脳が弾けちゃってんだな……\n悪ぃことは言わねえ。そのアイデアはいったん持ち帰れ。=Oh, you guys... Your vacation brain is having a blast after all that happened... Don't take offense on this but take that idea home for now.
+細かいことはいい！　とにかく捌こうじゃないか！\n曖昧模糊味には、もうウンザリだ！\nバキッと目も覚めるようなトゥンヌスをいただこう！=Don't sweat the small stuff! Anyway, let's do this! I'm sick of the vague imitation flavor! Give me some tunnus that will wake me up with a bang!
+No.\nアキノさんたちの、執念とも言える根気のおかげです。=No. It's thanks to Akino-san and everyone's perseverance and patience.
+人と人は、どこまでいっても一人ずつ。=Humans are human, no matter how far they go.
+...Yes.\n驚くべきことに。=...Yes. Surprisingly.
+……！\nなぜ貴方がそれを。=...!\nWhy do you know that?
+...I see.\nふふ、マサキもずいぶん焦っていましたから。\n貴方なら詮索せず一緒に捜してくれる、そう思ったのでしょう。=...I see. Hehe, Masaki was quite impatient too. He thought you would help him look for it without prying.
+この情報記録装置が、私の秘密です。\nとても小さいでしょう？=This information recording device is my secret.\nIt's very small, isn't it?
+……不思議ですね。\n分かるような気がしてしまう。=...It's strange.\nI feel like I understand.
+貴方になら話せる。知ってほしいと、\n心のタガを外してしまいそうになる、少女たちの気持ちが……=I can talk to you. I want you to know... I want to know... how all those girls felt about removing the lock from their hearts
+ふふ……かつては記憶と知能を失った貴方を、\n私が教育する立場だったのに……\nまるで今は逆のようですね。=Hehe... once, you were the one who lost your memory and intelligence, I was the one who educated you back then... but now it seems like the opposite.
+──でも。=──But....
+いいえ、擬態ではありません。\n存在そのものを貝に変えました。\nほら、ふふ、ちゃんと水管があるでしょう？=No, it's not a mimicry. I changed the recorder itself into a shell. Look, it has a proper siphon, right?
+『──知能及び生活能力を失った彼の、教育係をすることになった』="──I became his educator, he who lost his intelligence and life skills."
+『まだ未知の部分が多い彼の生態を正確に記録するため、\nこれより音声にて”教育日誌”を記録する』="There are still many unknowns about his biology. I will record the 'education diary' by voice from now on."
+『──今日は、繰り上がりの足し算を練習する。が、不出来。\n思わず厳しく指導してしまうが、言われるがまま必死で解いている。\n幼児退行しているとはいえ、素直過ぎて張り合いがない』="──Today, we practice addition with carry-over. But he is incompetent. I unintentionally instruct him harshly but he tries to solve it as he is told. Even though he has regressed to a childlike state, he is too obedient and there is no challenge."
+『記録……？\n私はいったい、何を記録したいというのだろう……』="Record...?\nWhat exactly do I want to record...?"
+『ましてや、「心配」を理由にこの先も彼を自分の管理下に置こうなど、\n………没論理も甚だしい思い付きである』="Let alone trying to keep him under my control for the future because of 'worry', ......that's an absurd idea."
+あんなにも、\n貴方に心をかき乱されている少女が、大勢いるというのに。=There are so many girls who are disturbed by you.
+海中で自由を謳歌する小さな貝を想像し、\nそっとほほ笑む、ネネカであった。=She imagined a small shell enjoying its freedom in the sea. Neneka smiled softly.

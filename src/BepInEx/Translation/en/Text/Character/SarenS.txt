@@ -7,13 +7,14 @@
 
 ##S1##
 スプラッシュトワリング=Twilight Splash
-味方全体のＴＰを大回復させ。=Recovers allies' TP by a large amount.
-r:"^味方全体のＴＰを(\d+)回復$"=Cast time: 0.74s\n►Recovers allies' TP by $1.
+味方全体のＴＰを大回復させ。=Recovers all allies' TP by a large amount.
+味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を小アップさせる。=Recovers all allies' TP by a large amount and slightly boosts their P.ATK and M.ATK.
+r:"^味方全体のＴＰを(\d+)回復$"=►Recovers all allies' TP by $1.
 
 ##S2##
 ブライトエール=Sunlight Cheer
-味方全体の物理攻撃力と魔法攻撃力と物理クリティカルと魔法クリティカルを小アップさせる。=Small boost to P.ATK, M.ATK, P.CRIT Rate and allies' M.CRIT Rate.
-r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の物理クリティカルを20アップ味方全体の魔法クリティカルを20アップ$"=Cast time: 0.74s\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' M.ATK by $2 for 12s.\n►Boosts allies' P.CRIT Rate by 20 for 12s.\n►Boosts allies' M.CRIT Rate by 20 for 12s.
+味方全体の物理攻撃力と魔法攻撃力と物理クリティカルと魔法クリティカルを小アップさせる。=Slightly boosts all allies' P.ATK, M.ATK, P.CRIT Rate and M.CRIT Rate.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の物理クリティカルを20アップ味方全体の魔法クリティカルを20アップ$"=►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' M.ATK by $2 for 12s.\n►Boosts all allies' P.CRIT Rate by 20 for 12s.\n►Boosts all allies' M.CRIT Rate by 20 for 12s.
 
 ##EX##
 ノーブルバケーション=Noble Vacation
@@ -21,12 +22,18 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃�
 
 ##S1+##
 スプラッシュトワリング+=Twilight Splash+
-味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を大アップさせる。=Recovers allies' TP by a large amount and greatly boosts their P.ATK and M.ATK.
-味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を特大アップさせる。=Recovers allies' TP by a large amount and greatly boosts their P.ATK and M.ATK.
-r:"^味方全体のＴＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ$"=Cast time: 0.74s\n►Recovers allies' TP by $1.\n►Boosts allies' P.ATK by $2 for 20s.\n►Boosts allies' M.ATK by $3 for 20s.
+味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を大アップさせる。=Recovers all allies' TP by a large amount and greatly boosts their P.ATK and M.ATK.
+味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を特大アップさせる。=Recovers all allies' TP by a large amount and greatly boosts their P.ATK and M.ATK.
+r:"^味方全体のＴＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ$"=►Recovers all allies' TP by $1.\n►Boosts all allies' P.ATK by $2 for 20s.\n►Boosts all allies' M.ATK by $3 for 20s.
+
+##S2+##
+ブライトエール+=Sunlight Cheer+
+味方全体の物理攻撃力と魔法攻撃力を特大アップ、物理クリティカルと魔法クリティカルを大アップさせる。さらに味方全体の物理防御力と魔法防御力を中アップさせる。=Greatly boosts all allies' P.ATK, M.ATK, P.CRIT Rate and M.CRIT Rate. Also moderately boosts all allies' P.DEF and M.DEF.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の魔法クリティカルを100アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' M.ATK by $2 for 12s.\n►Boosts all allies' P.CRIT Rate by 100 for 12s.\n►Boosts all allies' M.CRIT Rate by 100 for 12s.\n►Boosts all allies' P.DEF by $3 for 12s.\n►Boosts all allies' M.DEF by $4 for 12s.
 
 ##UE##
 繊麗剣サマーブライト=Graceful Summer Bright Sword
+ブライトサマーメモリー=Summer Bright Memory
 
 ##Comments##
 あははっ\n日が暮れるまで浜辺でゆっくり…\nこんな日があってもいいわよね=Ahaha. Sometimes it's nice to just relax on the beach until the sun sets, isn't it?

@@ -1,17 +1,22 @@
-クルル 加入で=Upon Kururu's Recruitment
+##Profile##
+【魔法】中衛で、皆を夢の世界に誘う宝石兎族の支配人。ステータスアップ効果を受けるたびに【かばばん君】を増やし、反射的に味方へ攻撃支援の恩返しをしてしまう。=[Magic] A Carbuncle manager who invites people to the World of Dreams from midlines! Every time she receives a buff, she is compelled to produces more and more [Kababan-kun] to support her friends as repayment.
+田中美海=Tanaka Minami
 
-で、皆を夢の世界に誘う宝石兎族の支配人。ステータスアップ効果を受けるたびに【かばばん君】を増やし、反射的に味方へ攻撃支援の恩返しをしてしまう。=A Carbuncle manager who invites people to the World of Dreams! Everytime she receives a buff, she is compelled to produces more and more Carbunbun-kun to support her friends as repayment
-前方の敵すべてに魔法大ダメージを与え、自分のＨＰを中回復し、無敵状態になる。このスキルのダメージは【かばばん君】の数に応じて増加し、クリティカル時のダメージが３倍になる。【かばばん君】が20以上の場合、このスキルは必ずクリティカルし、40の場合、さらに、味方全体の魔法攻撃クリティカル時のダメージを小アップする。=Deals large M.DMG to all enemies in front, moderately recovers own HP, and becomes invincible. The damage of this skill increases based on the number of [Carbunbun-kun], and critical damage is tripled. If [Carbunbun-kun] is 20 or more, this skill always crits, and at 40, further increases the magic attack critical damage of all allies.
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、自分のＨＰを小回復させ、さらに物理/魔法吸収バリアを展開する。このスキルのダメージは【かばばん君】の数に応じて増加する。=Deals moderate M.DMG to all enemies within range centered on the nearest enemy, slightly recovers own HP, and deploys a physical/magical absorption barrier. The damage of this skill increases based on the number of [Carbunbun-kun].
-自分の物理防御力と魔法防御力を中アップさせる。さらに、自分がステータスアップ効果を受ける度に、【かばばん君】を１体追加し、自分以外の味方すべての魔法攻撃力を小アップさせる。この効果は【かばばん君】が40より少ない場合に発動し、このスキルによって他のスキルの効果は発動しない。=Moderately increases own physical and magical defense. Additionally, each time a status boost is received, adds 1 [Carbunbun-kun] and slightly increases the magic attack of all allies except self. This effect activates if [Carbunbun-kun] is less than 40, and other skill effects do not activate from this skill.
-
+##UB##
 グランドリームパレード=Grand Dream Parade
-かばばん君警備員モード=Carbunbun-kun Security Mode
-恩返しですっ！=It's a Repayment!
+前方の敵すべてに魔法大ダメージを与え、自分のＨＰを中回復し、無敵状態になる。このスキルのダメージは【かばばん君】の数に応じて増加し、クリティカル時のダメージが３倍になる。【かばばん君】が20以上の場合、このスキルは必ずクリティカルし、40の場合、さらに、味方全体の魔法攻撃クリティカル時のダメージを小アップする。=Deals large M.DMG to all enemies in front, moderately recovers own HP, and becomes immune to all damage for a set period of time. The M.DMG increases according to number of [Kababan-kun] stacks, and deals x3 M.DMG if critical. If there are 20+ [Kababan-kun] stacks, the UB always critical. If there are 40 [Kababan-kun] stacks, slightly boosts all allies' M.CRIT DMG.
+r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復一定時間無敵状態になるかばばん君が40の場合、味方全体の魔法攻撃クリティカル時のダメージを15％アップ$"=►Deals $1 M.DMG to all enemies.\n►Recovers own HP by $2.\n►Becomes immune to all damage for 4s.\n►If there are 40 [Kababan-kun] stacks, boosts allies' M.CRIT DMG by 15% for 18s.
+
+##S1##
+かばばん君警備員モード=Kababan-kun Guard Mode
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、自分のＨＰを小回復させ、さらに物理/魔法吸収バリアを展開する。このスキルのダメージは【かばばん君】の数に応じて増加する。=Deals moderate M.DMG to enemies in range, slightly recovers own HP, and deploys Barrier that absorbs P/M.DMG. The M.DMG increases according to number of [Kababan-kun] stacks.
+r:"^範囲内の敵に(\d+)の魔法ダメージ(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in range.\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.\n►Recovers own HP by $3.
+
+##S2##
+恩返しですっ！=It's My Repayment!
+自分の物理防御力と魔法防御力を中アップさせる。さらに、自分がステータスアップ効果を受ける度に、【かばばん君】を１体追加し、自分以外の味方すべての魔法攻撃力を小アップさせる。この効果は【かばばん君】が40より少ない場合に発動し、このスキルによって他のスキルの効果は発動しない。=Moderately boosts own P.DEF and M.DEF. Additionally, each time a buff is applied to oneself, gains one [Kababan-kun] stack and slightly boosts all other allies' M.ATK. This additional effect only occurs when the [Kababan-kun] stack < 40, and will not trigger the effects of other skills.
+r:"^自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップステータスアップ効果を受けるたびに自分にかばばん君を追加する状態になるステータスアップ効果を受けるたびに自分以外の味方の魔法攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1 for 180s.\n►Boosts own M.DEF by $2 for 180s.\n►Each time a buff is applied to oneself, gains one [Kababan-kun] stack and boosts all other allies' M.ATK by $3 for 180s.
+
+##EX##
 オープニングジュエル=Opening Jewel
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n自分のＨＰを(\d+)回復\n一定時間無敵状態になる\nかばばん君が(\d+)の場合、味方全体の魔法攻\n撃クリティカル時のダメージを15％アップ$"=►Deals $1 M.DMG to enemies within range.\n►Recovers own HP by $2.\n►Becomes invincible for a certain period.\n►If Carbunbun-kun is $3, boosts allies' M.CRIT DMG by 15%.
-
-r:"^範囲内の敵に(\d+)の魔法ダメージ\n(\d+)ダメージ分の物理魔法吸収バリアを展開\nする\n自分のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies within range.\n►Deploys a barrier absorbing $2 P/M.DMG.\n►Recovers own HP by $3.
-
-r:"^自分の物理防御力を(\d+)アップ\n自分の魔法防御力を(\d+)アップ\nステータスアップ効果を受けるたびに自分にか\nばばん君を追加する状態になる\nステータスアップ効果を受けるたびに自分以外\nの味方の魔法攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own M.DEF by $2.\n►Each time a status boost is received, gains [Carbunbun-kun].\n►Each time a status boost is received, boosts allies' M.ATK by $3.
+オープニングジュエル+=Opening Jewel+

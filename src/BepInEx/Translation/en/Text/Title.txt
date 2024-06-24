@@ -68,11 +68,20 @@ sr:"^([^NVHS]+?)(NORMAL|VERY HARD|SPECIAL|HARD)討伐！$"=Defeat $1 ($2)
 クランバトル（クランモード）で3000位以内に入ろう=Get into the top 3,000th place in Clan Battle (Clan Mode)
 クランバトル（クランモード）で1000位以内に入ろう=Get into the top 1000 in Clan Battle (Clan Mode)
 クランバトル（クランモード）で100位以内に入ろう=Get into the top 100 in Clan Battle (Clan Mode)
-スペシャルダンジョンを1回登頂しよう=Climb a Secret Dungeon 1 Time
-スペシャルダンジョンを2回登頂しよう=Climb a Secret Dungeon 2 Times
-スペシャルダンジョンを3回登頂しよう=Climb a Secret Dungeon 3 Times
-スペシャルダンジョンを4回登頂しよう=Climb a Secret Dungeon 4 Times
-スペシャルダンジョンを5回登頂しよう=Climb a Secret Dungeon 5 Times
+スペシャルダンジョンを1回登頂しよう=Climb a Special Dungeon 1 Time
+スペシャルダンジョンを2回登頂しよう=Climb a Special Dungeon 2 Times
+スペシャルダンジョンを3回登頂しよう=Climb a Special Dungeon 3 Times
+スペシャルダンジョンを4回登頂しよう=Climb a Special Dungeon 4 Times
+スペシャルダンジョンを5回登頂しよう=Climb a Special Dungeon 5 Times
+
+
+スペシャルダンジョンに1回挑戦しよう=Climb a Special Dungeon 1 Time
+スペシャルダンジョンに2回挑戦しよう=Climb a Special Dungeon 2 Time
+スペシャルダンジョンに3回挑戦しよう=Climb a Special Dungeon 3 Time
+スペシャルダンジョンに4回挑戦しよう=Climb a Special Dungeon 4 Time
+スペシャルダンジョンに5回挑戦しよう=Climb a Special Dungeon 5 Time
+
+
 クランバトルに1回参加しよう=Participate in Clan Battle Once
 クランバトルに3回参加しよう=Participate in Clan Battle 3 Times
 クランバトルに6回参加しよう=Participate in Clan Battle 6 Times
