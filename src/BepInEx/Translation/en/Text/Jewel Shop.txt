@@ -39,6 +39,7 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 Anniversary グロウスフィアパック　=Anniversary Growsphere Pack
 Anniversary 専用装備グロウスフィアパック=Anniversary UE Growsphere Pack
 r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
+パックについて=About the Pack
 Anniversaryパックについて=About the anniversary pack
 探索挑戦回数 +3回=Grotto +3
 探索挑戦回数 +3回購入=Buy Grotto +3
