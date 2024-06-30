@@ -23,4 +23,5 @@ EXPポーションを大量獲得=Find lots of EXP Potions
 
 枚=tickets
 
-r:"^リセットまであと(\d+)時間$"=Resets in $1h
+r:"^リセットまであと(\d+)時間$"=Resets in $1 hours
+r:"^リセットまであと(\d+)分$"=Resets in $1 minutes

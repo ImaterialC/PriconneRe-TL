@@ -1,5 +1,5 @@
 Sneak Peek Rank Up Detail
-sr:"^必要Lv(\d+)([\s\S]{30,})$"=Required Lv $1$2
+sr:"^必要Lv(\d+)([\s\S]{30,})$"=Required Lv $1\n$2
 
 Selling
 sr:"^\[3C404E\](.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]を売却しますか？\[-\]$"=[3C404E]Would you like to sell the$1$2 × [FFBB00,CE4F00]$3[-]？[-]
@@ -463,3 +463,35 @@ sr:"^\[3C404E\](.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[
 天界より遣わされた戦士たちが身にまとっていた靴。神々の祝福が付与されており、装備者は自らの重さを感じずに飛ぶように舞い踊る。=The shoes worn by the warriors sent from the heavens. They are blessed by the gods, and the armaments dance as if they fly without feeling their own weight.
 ランドソルの文化に触れたトーゴクの職人が作成した扇子。懐より取り出し扇ぐことで紅に染まる秋の風が吹き、落葉は胡蝶の如く舞い踊る。=A fan made by a craftsman of Togoku who came into contact with Landsol culture. The autumn wind, dyed crimson by taking it out of his pocket and fanning it, blows, and the deciduous leaves dance like a butterfly.
 現世とは異なる次元にある妖精界の従者のために作られた衣。鮮やかな見た目だが主を守るため強力な魔力で装備者の能力を底上げしている。=A robe made for the servants of the fairy realm in a different dimension from the real world. It has a vivid appearance, but it uses powerful magical energy to boost the abilities of the wearer in order to protect its master.
+金属や革を鱗状に貼り付けた鎧。普通の鎧よりも動きやすく、斬撃や刺突に強い反面、鈍器などの打撃には弱い。=Armor with metal and leather stuck to it in the shape of scales. It was easier to move around in than normal armor, and while it was resistant to slashes and stabs, it was also weak to blunt weapons and other blows.
+古代の戦士たちが使用していた兜。とても頑丈に作られており、現代でも十分に使うことができる。=A helmet used by ancient warriors. It is very sturdy and can still be used in modern times.
+名誉ある騎士に贈られる斧槍。その刃は、折れることなく、国と民の為に戦う騎士の誇りを体現している。=An axe-spear given to an honorable knight. Its blade is the embodiment of the pride of a knight who fights for his country and his people without breaking.
+薄板で作られた鎧。確かな防御力と、軽さ故の動きやすさが特徴。=Armor made of thin plates. It is characterized by its definite defensive power and ease of movement due to its lightness.
+身の丈ほどの金属の大盾。圧倒的な防御力を持つ反面、その重量故に、移動が困難となる。=A large metal shield about the length of his body. It had overwhelming defense, but its weight made it difficult to move.
+一突一殺の槍。その殺傷能力は、強固な鎧をいとも簡単に貫き、一突きで敵の息の根を止める。=A spear that kills each and every one of them. Its killing ability easily pierces through solid armor and kills the enemy with a single thrust.
+青き天体をあしらった戦斧。世界そのものを象徴する天体は、大地のエネルギーを吸収し、装備者に力を与える。=A battle-axe adorned with a blue celestial body. It symbolizes the world itself, absorbing the energy of the earth and granting power to its wearer.
+強くてオシャレな騎士をテーマに作られた鎧。ただし、どんなにオシャレをしても、実力が伴っていなければ魅力は半減してしまう。=Armor made under the theme of strong, stylish knights. However, no matter how stylish they are, their charms will be halved if they aren't accompanied by actual skill.
+履くと足音が消える特殊なブーツ。東国のスパイが履いていたらしいが彼らにまつわる情報はそのほとんどが謎のままだ。=A special pair of boots that make footsteps disappear when worn. Apparently, spies from the East wore them, but most of the information related to them remains a mystery.
+高度な武器の製造を研究する、ある工房で制作された一挺。斧の内部に雷を貯蓄し、攻撃に際して放出することが可能。=It was created by a factory that researches advanced weapons production. It can store lightning inside an axe and release it when attacked.
+屈強な男たちを次々と倒し、闘技場の女王となった女戦士の鎧。対戦相手は彼女の獣のような眼光を見ただけで戦意を喪失したという。=The armor of a female warrior who defeated brawny men one after another and became the queen of the arena. It is said that her opponent lost the will to fight just from seeing her beastly eyes.
+かつて存在した黒龍を信仰する騎士団が使用していた兜。彼らは龍に捧げる生贄のために、罪もない人々の命を奪い続けた。=A helmet once used by the Knights of Favonius, who worshiped the Black Dragon. They continued to take innocent people's lives as sacrifices to the dragon.
+魔力の籠ったエメラルドのイヤリング。装備者は不屈の精神を得て、防御力がアップする。=An emerald earring filled with magic. The wearer gains an indomitable spirit, increasing their defense.
+火山に生息する竜の背に、突き刺さっていた槍。穂先は長年竜の体内にあったことで炎の力を宿すこととなった。=A spear lodged in the back of a volcano-dwelling dragon. The tip was imbued with the power of fire after being inside the dragon's body for so many years.
+厚めの鉄板を組み合わせた鎧。軽快さを捨てて、防御力に特化させており、斧や大剣を使う戦士たちが好んで使用している。=Armor made of thick iron plates. It has lost its lightness and is specialized for defense, and is favored by warriors who use axes and greatswords.
+レイピアなどの細剣を使用する剣士のために作られたブーツ。とても軽く、力よりも機動性を重視する細剣士には最適の装備。=Boots made for swordsmen who use thin swords such as rapiers. They are very light, and are the perfect equipment for thin swordmen who value mobility over power.
+伝説の槍騎士が所有していた名槍。一振りすれば真空の刃が旋風となり刃に直接触れることなく周囲の敵を一網打尽にする。=A famous lance owned by the legendary Spear Knight. One swing and the vacuum blade would become a whirlwind, taking out all nearby enemies without directly touching the blade.
+地獄の業火が封じられた両刃斧。その身は血のように赤く、ひと振りすれば紅蓮の炎が敵に襲いかかり、骨まで焼き尽くすといわれている。=A double-edged axe sealed from the fires of hell. Its body was as red as blood, and it was said that with a single swing, crimson flames would assault the enemy and burn them to the bone.
+神話に姿を現す聖なる脚具。あらゆる攻撃を寄せ付けず、炎の中すら涼しげに歩くことができる。=A holy weapon that appears in myths. It can walk coolly through the flames, keeping all attacks at bay.
+空の踊り手と呼ばれた半神半人の騎士が使用していた兜。彼は空を縦横無尽に舞い、敵を翻弄したと言われている。=A helmet used by a half-god, half-human knight known as the Dancer of the Sky. It is said that he danced in every direction through the sky, toying with his enemies.
+長きに渡り君臨した皇帝が作らせたという伝説の魔道具。装備者に降りかかる厄災を肩代わりするという。=A legendary magic tool said to have been made by an emperor who had reigned for a long time. It is said to shoulder the calamity that befalls the wearer.
+大地母神の加護を受けた槍。決して折れず欠けず砕けない。その強靭さを所持者に宿し、膂力を飛躍的に向上させる。=A spear under the protection of the Earth Mother. It will never break, nor will it break. Its tenacity resides in its wielder, making it much stronger.
+戦の最前線に立ち続けた女王の斧。想像を絶する重量だが、斧が認めた所有者には軽々と扱える。その刃は堅牢な城門すら一撃で打ち破る。=The queen's axe stands on the front lines of battle. It's unimaginably heavy, but it can easily be wielded by an owner acknowledged by the ax. Its blade can even break through a sturdy castle gate in a single blow.
+乱世の小国において、生涯をかけて王女の命を守り通した騎士の盾。のちに王女は女王として近隣を統べその騎士を救国の英雄と讃えた。=A shield of knights who had protected the princess's life for the rest of their lives in a small country during the turbulent times. Later, the princess ruled her neighbors as queen and praised her knight as a hero of salvation.
+水の精霊が精霊力を注いだ斧。軽量だが、切れ味は鋭く、触れるだけで鉱物を寸断することも可能。=An axe made of water spirits pouring their spiritual energy into it. It is lightweight, but sharp, and capable of shredding minerals with a single touch.
+竜殺しの英雄が愛用した重鎧。竜の意匠が施された分厚い装甲は、鉄をも引き裂く爪や、灼熱のブレスをも防いだという。=Heavy armor favored by the dragon-slaying hero. It was thick with a dragon design, and it was said to block claws and scorching breath that could tear through even iron.
+太古の妖精が加護を与えた脚甲。巨大な霊力に加え魔除けのミスリルを随所に細工することで、破魔の力を増大させている。=A leg armor granted by an ancient fairy with divine protection. By manipulating mithril to ward off evil in addition to enormous spiritual energy everywhere, it increases the power of exorcism.
+天界より遣わされた戦士たちが手にしていた聖槍。装備者に生命の樹の如き頑健さと不撓不屈の精神を与え倒れ伏すことを決して許さない。=The Lance of Longinus was in the hands of the warriors sent from the heavens. It gave the wearer the strength and indomitable spirit of a tree of life, and would never allow them to fall to their knees.
+ランドソルの文化に触れたトーゴクの職人が作成した扇。銀杏を食む鹿は緑黄に染まる秋山の恵みを表し、扇ぎ出る爽風は生命力をもたらす。=A fan made by Togoku craftsmen who have come into contact with the culture of Landsol. The deer that eat gingko represent the blessings of Akiyama, dyed green and yellow, and the refreshing breeze that fanned it brings vitality.
+現世とは異なる次元にある妖精界の学者が発案した槍。妖精幾何学に則り設計された穂先から鱗粉を振り撒く攻防一体の防衛兵装である。=A spear devised by a scholar from the fairy world who lives in a different dimension from the real world. It is a defensive armament designed according to fairy geometry that scatters scales from the tips.
+現世とは異なる次元にある妖精界の騎士のために作られた鎧。鍛冶妖精の妙技により、まるで身体の一部のように装備者の能力を拡張させる。=Armor made for the Knights of the Fairy Realm in a different dimension from the real world. Thanks to the Blacksmithing Fairy's skill, it expands the abilities of the wearer as if it were a part of their body.
+

@@ -1,12 +1,12 @@
 のメモリーピース='s Memory Shard
 のピュアメモリーピース='s Pure Memory Shard
-sr:"^([べ-ヺー＆]+?)(（.+）)?\n?の\n?メ\n?モ\n?リ\n?ー\n?ピ\n?ー\n?ス ?$"="$1$2's Memory Shard"
-sr:"^([べ-ヺー＆]+?)(（.+）)?\n?の\n?ピ\n?ュ\n?ア\n?メ\n?モ\n?リ\n?ー\n?ピ\n?ー\n?ス$ ?"="$1$2's Pure Memory Shard"
+sr:"^([べ-ヺー＆＝]+?)(（.+）)?\n?の\n?メ\n?モ\n?リ\n?ー\n?ピ\n?ー\n?ス ?$"="$1$2's Memory Shard"
+sr:"^([べ-ヺー＆＝]+?)(（.+）)?\n?の\n?ピ\n?ュ\n?ア\n?メ\n?モ\n?リ\n?ー\n?ピ\n?ー\n?ス$ ?"="$1$2's Pure Memory Shard"
 
-sr:"^([べ-ヺー＆]+)(（.+）)?の記憶の欠片が封印されたアイテム。一定数集めると、キャラの秘められた力を解き放つ。$"="A Shard of $1$2's Sealed memories. Collect these items to unleash your characters' hidden power."
+sr:"^([べ-ヺー＆＝]+)(（.+）)?の記憶の欠片が封印されたアイテム。一定数集めると、キャラの秘められた力を解き放つ。$"="A Shard of $1$2's Sealed memories. Collect these items to unleash your characters' hidden power."
 カヤの記憶の欠片が封印されたアイテム。一定数集めると、キャラの秘められた力を解き放つ。
    記憶の欠片が封印されたアイテム。一定数集めると、キャラの秘められた力を解き放つ。
-sr:"^([べ-ヺー＆]+)(（.+）)?の純真なる記憶の断片が封印されたアイテム。一定数集めると、キャラの最奥に秘められた真の力を解き放つ。$"="A Shard of $1$2's Sealed pure memories. Collect these items to unleash your characters' hidden true power."
+sr:"^([べ-ヺー＆＝]+)(（.+）)?の純真なる記憶の断片が封印されたアイテム。一定数集めると、キャラの最奥に秘められた真の力を解き放つ。$"="A Shard of $1$2's Sealed pure memories. Collect these items to unleash your characters' hidden true power."
 
 女神の秘石=Divine Amulet
 神秘の力を宿した不思議な石。女神\nの秘石ショップで任意のメモリー\nピースを購入することができる。=A mysterious stone that contains mystical powers; any memory piece can be purchased at the Divine Amulet Shop.

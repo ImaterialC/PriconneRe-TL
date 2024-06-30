@@ -127,12 +127,12 @@ r:"^([0-9,]+)で購入$"=Purchase at $1
 以下のアイテムを購入しますか?=Do you buy the following items?
 メモリーピース購入数に応じて、1個あたりの女神の秘石の\n必要数が異なります。詳細は下記をご覧ください。=The required number of Divine Amulets per Shard\ndepends on the number of Memory Shards purchased.\nSee below for details.
 メモリーピース単価一覧=Memory Shard unit Price List
-sr:"^([べ-ヺー＆]+)(（.+）)?のメモリーピースの購入数が(\d)になりました。$"=The number of purchases of $1$2 now $4.
+sr:"^([べ-ヺー＆＝]+)(（.+）)?のメモリーピースの購入数が(\d)になりました。$"=The number of purchases of $1$2 now $4.
 
 r:"^(\d)個になります。$"=$1 per Shard
 
 対象アイテム1個あたりの単価が=The unit price per target item is
-sr:"^([べ-ヺー＆]+)(（.+）)?の\nメモリーピースの購入数が(\d+)になりました。$"=The Total number of purchases of\n$1$2's Memory Shard is $3.
+sr:"^([べ-ヺー＆＝]+)(（.+）)?の\nメモリーピースの購入数が(\d+)になりました。$"=The Total number of purchases of\n$1$2's Memory Shard is $3.
 ---Reset---
 一部毎日5:00更新=Reset some Daily at 5:00(JST)
 

@@ -1,0 +1,28 @@
+##Profile##
+【物理】中衛で万魔の頂点に君臨するジオ・ゲヘナの媛。環境効果【妨魔塵】で魔法攻撃を阻害し、行動速度アップ等の支援や苛烈な攻撃で無謀な不届き者を平伏させる。=[Physical] The Princess of Gio Gehenna who rules its innumerable monsters and stands as the apex predator. With the initial activation of [Magic Disturbance Dust], she deploys anti-magic dust to disrupt magic attacks, buffs attack speed, and uses intense heavy attacks to force any fools that dare defy her to bow before her might.
+大久保瑠美=Rumi Okubo
+おままごと、人間観察=Playing house, observing humans
+
+##UB##
+滅裂万化・輪廻転掌=Destruction Morph: Palm of Reincarnation
+最も物理防御力の低い敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。【妨魔塵】中、このスキルの効果がアップする。=Deals massive P.DMG to an enemy with the lowest P.DEF, slightly lowers its P.DEF, and slightly boosts its P.CRIT DMG taken. If [Magic Disturbance Dust] is active, doubles all effects.
+r:"^敵単体に(\d+)の物理ダメージ妨魔塵中、敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン妨魔塵中、敵単体の物理防御力を(\d+)ダウン敵単体のクリティカルを受けた際のダメージを4％アップ妨魔塵中、敵単体のクリティカルを受けた際のダメージを8％アップ$"=If [Magic Disturbance Dust] is not active:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy P.DEF by $3 for 18s.\n►Boosts an enemy's P.CRIT DMG taken by 4% for 18s.\n\nIf [Magic Disturbance Dust] is active:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy P.DEF by $4 for 18s.\n►Boosts an enemy's P.CRIT DMG taken by 8% for 18s.
+
+##S1##
+万化・硬拳=Morph: Hard Fist
+最も物理防御力の低い敵１キャラに物理中ダメージを与え、味方全体の物理攻撃力を大アップ、物理クリティカルを中アップ、物理攻撃クリティカル時のダメージを小アップさせる。【妨魔塵】中、このスキルの効果がアップする。=Deals moderate P.DMG, greatly boosts all allies' P.ATK, P.CRIT Rate, and P.CRIT DMG. If [Magic Disturbance Dust] is active, doubles all effects.
+r:"^敵単体に(\d+)の物理ダメージ妨魔塵中、敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ妨魔塵中、味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを75アップ妨魔塵中、味方全体の物理クリティカルを150アップ味方全体の物理クリダメを3％アップ妨魔塵中、味方全体の物理クリダメを6％アップ$"=If [Magic Disturbance Dust] is not active:\n►Deals $1 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $3 for 12s.\n►Boosts all allies' P.CRIT Rate by 75 for 12s.\n►Boosts all allies' P.CRIT DMG by 3% for 12s.\n\nIf [Magic Disturbance Dust] is active:\n►Deals $2 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $4 for 12s.\n►Boosts all allies' P.CRIT Rate by 150 for 12s.\n►Boosts all allies' P.CRIT DMG by 6% for 12s.
+
+##S2##
+万化・蛇盾=Morph: Snake Shield
+味方全体の行動速度を大アップ、ＨＰを中回復する。バトル開始後、初弾のこのスキルは自分に【鉄気ノ護リ】を20追加し、付与されている間、味方全員が敵から受けるダメージを10％軽減する。味方が敵からダメージを受ける度、【鉄気ノ護リ】を１つ消費し、その敵の最大ＨＰに応じて最大99999の割合ダメージを与え、味方全体の物理攻撃力を中アップする。【妨魔塵】中、行動速度の上昇量がアップする。=Greatly boosts all allies' action speed, moderately recovers their HP. When battle begins, 1st skill usage gains 20 [Iron Will Guard], which lowers all allies' P/M.DMG taken by 10%. When an ally receives damage, 1 [Iron Will Guard] is consumed, deals HP% based damage to an enemy capped at 99999, and moderately boosts all allies' P.ATK. If [Magic Disturbance Dust] is active, speed boost effect is increased.
+r:"^味方全体の行動速度アップ初使用時、自分に鉄気ノ護リを20追加する敵単体に最大99999の割合ダメージを与える味方全体の物理攻撃力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Boosts all allies' action speed to 150% for 12s.\n►For 1st skill usage, gains 20 [Iron Will Guard] stacks.\n►Recovers all allies' HP by $2.\n►If [Magic Disturbance Dust] is active, boosts all allies' action speed to 200% for 12s.
+
+##SP1##
+欺魔・鉄霞=Magic Dust: Iron Mist
+このスキルのスキルレベルは「滅裂万化・輪廻転掌」と連動しています=This skill's level is linked to "Destruction Morph: Palm of Reincarnation"
+環境効果【妨魔塵】を発動する。このスキルの効果は敵、味方すべてに適用される。魔法攻撃で与えるダメージが小ダウンする。=Activates the environmental effect [Magic Disturbance Dust]. This skill's effect applies to all enemies and allies. Slightly lowers everyone M.DMG taken.
+環境を妨魔塵にする敵味方が与える魔法ダメージを5％ダウン=►Lowers everyone's M.DMG taken by 5% for 180s.
+
+##EX##
+万化・尖鋭=Morph: Sharpness

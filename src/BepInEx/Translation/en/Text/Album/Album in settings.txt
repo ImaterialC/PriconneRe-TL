@@ -5,4 +5,4 @@
 キャラクター図鑑=Character Info
 思い出アルバム=Memory Album
 イテム図鑑=Item Info
-sr:"^([べ-ヺー＆]+)(（.+）)? 第(\d+)話を見ると確認できます。$"=Viewable after watching $1$2 Episode $3.
+sr:"^([べ-ヺー＆＝]+)(（.+）)? 第(\d+)話を見ると確認できます。$"=Viewable after watching $1$2 Episode $3.

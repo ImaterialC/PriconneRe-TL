@@ -29,7 +29,7 @@ r:"^最小単位は([0-9,]+)です。$"=Minimum unit is $1.
 このアイテムはこれ以上セットできません。=This item cannot be set anymore.
 合計消費数=Total consumption number
 
-sr:"^セットする([べ-ヺー＆]+) ?(（.+）)?のメモリーピースの\n数を変更しますか？$"=Set $1$2's Memory Shards?
+sr:"^セットする([べ-ヺー＆＝]+) ?(（.+）)?のメモリーピースの\n数を変更しますか？$"=Set $1$2's Memory Shards?
 sr:"^([べ-・ー＆]{2,16})(（.+）)?解放 $"=$1$2 Unlocked
 交換数確認=Check Number Confirmation
 

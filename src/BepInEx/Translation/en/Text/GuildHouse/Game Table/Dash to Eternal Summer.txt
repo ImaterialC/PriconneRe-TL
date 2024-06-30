@@ -39,7 +39,7 @@
 r:"^([0-9.]+)秒$"=$1s
 タイムボーナス=Time bonus
 着順ボーナス=Arrival order bonus
-sr:"^ラウンド(\d+) ([べ-ヺー＆]+)のスコア詳細$"=Round $1 $2 score details
+sr:"^ラウンド(\d+) ([べ-ヺー＆＝]+)のスコア詳細$"=Round $1 $2 score details
 難易度ボーナス=Difficulty bonus
 r:"^([0-9.]+)倍$"=$1 times
 回避ボーナス=Dodge Bonus

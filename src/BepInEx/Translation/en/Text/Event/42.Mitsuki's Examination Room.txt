@@ -3,4 +3,4 @@
 r:"^オーエド町([0-9\-\(\)\w （）]*)$"=Oedo Town $1
 ドクターギグル=Doctor Gigle
 
-sr:"^([べ-ヺー＆]+)のカルテ　その([１２３])$"=$1's Medical Record Part $2
+sr:"^([べ-ヺー＆＝]+)のカルテ　その([１２３])$"=$1's Medical Record Part $2

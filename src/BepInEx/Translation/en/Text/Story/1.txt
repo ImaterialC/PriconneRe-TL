@@ -1,4 +1,4 @@
-sr:"^([べ-ヺー＆]+)(（.{2,10}）)?のステータスアップボーナス$"=$1$2's status up bonus
+sr:"^([べ-ヺー＆＝]+)(（.{2,10}）)?のステータスアップボーナス$"=$1$2's status up bonus
 初回閲覧報酬=First-time Viewing Reward
 ストーリー閲覧報酬として下記を受け取りました。=Received the following as a story viewing reward.
 ストーリー閲覧報酬として下記を受け取りました=Received the following as a story viewing reward.

@@ -21,6 +21,7 @@ r:"^【残り挑戦回数 ([0-9/]+)】$"=[Attempt Left: $1]
 
 バトル開始後90秒間継続ＨＰ回復状態付与=Continuous HP recovery status added for 90 seconds after the start of battle
 
+ボスのフィールド効果無効=Boss's field effect nullified
 
 ボスの毒無効=Boss Poison Immunity
 
