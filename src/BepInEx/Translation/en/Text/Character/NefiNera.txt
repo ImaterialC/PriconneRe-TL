@@ -26,3 +26,7 @@ r:"^味方全体の行動速度アップ初使用時、自分に鉄気ノ護リ�
 
 ##EX##
 万化・尖鋭=Morph: Sharpness
+万化・尖鋭+=Morph: Sharpness+
+
+妨魔塵=Magic Disturbance Dust
+魔法攻撃のダメージが小ダウンする。=The damage from the magic attack decreases slightly.

@@ -71,3 +71,9 @@
 バトル中物理防御力ダウン=Physical defense down during the battle
 バトル開始45秒後、すべてのキャラの魔法防御力を大ダウンさせる。=45 seconds after the start of the battle, greatly reduces the magic defense of all characters.
 バトル中魔法防御力ダウン=Magic defense down during the battle
+
+バトル中、「全状態異常無効・ステータスアップ効果解除無効・行動速度ダウン無効」、「魔法攻撃力ダウン」効果が発動する。=During battle, the effects of “All Status Ailments Invalid, Stat Boost Effect Dispel Invalid and Action Speed Down Invalid” and “Magic Attack Power Down” will be triggered.
+危険領域=Danger zone
+すべてのモンスターが全状態異常無効・ステータスアップ効果解除無効・行動速度ダウン無効になる。=All monsters will be ineffective against all status ailments, status-up effects, nullification, and action speed down.
+状態異常・アップ効果解除・速度ダウン無効=Status Ailments, Up Effect Dispel, Speed Down Invalid
+バトル開始時、すべてのキャラの魔法攻撃力を絶大ダウンさせる。=At the start of the battle, all characters' magic attack power will be greatly decreased.
