@@ -1321,3 +1321,4 @@
 カルキノスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Reduces party members' TP Boost massively from all damage taken from Karkinos.
 ユニオンバーストは、敵全体に自身の魔法攻撃力に応じた魔法固定ダメージを与える。その後、自身の魔法攻撃力をバトル終了まで中アップさせる。このスキルによるダメージでは、敵のＴＰが回復しない。=Union Burst: Deals fixed M.DMG based on own M.ATK to all enemies. Afterward, increases own M.ATK moderately until the end of the battle. This skill's damage does not restore TP for enemies.
 敵全体に物理小ダメージを与え、行動速度を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals minor P.DMG to all enemies and moderately reduces their action speed. This skill's status effects are applied even if the damage is nullified.
+ユニオンバーストは、最も近い敵１キャラを中心にした小範囲に自身の物理防御力に応じた物理ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: deals P.DMG to a small area around the closest enemy based on the user's P.DEF. Damage from this skill does not restore TP.

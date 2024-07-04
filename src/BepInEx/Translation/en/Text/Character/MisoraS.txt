@@ -1,0 +1,27 @@
+##Profile##
+【魔法】後衛で夏の盛りにイイコトをする溌剌水着少女★【PSI★ストーム】をチャージし、連続攻撃で敵を殲滅して、継続ＴＰ回復やバリアで抜け目なく味方を支援する。=[Magic] An energetic swimsuit girl who'll show you nice things from the backline in the peak of summer. She'll charge her [PSI★Storm] and perform consecutive attacks to annihilate the enemy, while providing flawless team support like continuous TP heals and barriers.
+
+##UB##
+ジェット★バケーション=Jet★Vacation
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。さらに自分の魔法攻撃力を中アップし、【PSI★ストーム】を４つチャージして、行動パターンが変化する。【PSI★ストーム】は最大４までチャージされる。=Deals massive M.DMG to an enemy in front, and slightly lowers its M.DEF. Also moderately boosts own M.ATK, and charges up 4 [PSI★Storm], up to a max of 4. Resets own attack pattern.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップPSI★ストームを４つチャージする$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy M.DEF by $2 for 18s.\n►Boosts own M.ATK by $3 for 18s.\n►Charges up 4 [PSI★Storm].\n►Switches to Attack Pattern 2.
+
+##S1##
+大玉水鉄砲★=Giant Super Soaker★
+目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。さらに、【PSI★ストーム】を１つ消費する。=Deals large M.DMG to an enemy in front, and slightly lowers its M.DEF. Consumes 1 [PSI★Storm] charge.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウンPSI★ストームを１つ消費する$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy M.DEF by $2 for 12s.\n►Consumes 1 [PSI★Storm] charge.
+
+##S2##
+いただきます★=Let's Dig In!★
+自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップさせ、継続ＴＰ回復状態を付与し、物理/魔法無効バリアを展開する。=Massively boosts allies' M.ATK in range, grants continuous TP recovery to them, and deploys Barrier over them that negates P/M.DMG.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ毎秒ＴＰを10回復する(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Boosts allies' M.ATK in 250 range by $1 for 12s.\n►Recovers allies' TP in 250 range by 10/s for 8s.\n►Deploys Barrier over allies in 250 range that negates $2 P/M.DMG for 12s
+
+##SP1##
+ジェット・バレット=Jet Bullet
+このスキルのスキルレベルは「ジェット★バ\nケーション」と連動しています=This skill's level is linked to Jet★Vacation
+自分に【PSI★ストーム】を４つチャージし、行動パターンが変化する。【PSI★ストーム】は最大４ま\nでチャージされる。=Charges up 4 [PSI★Storm], up to a max of 4. Resets own attack pattern.
+PSI★ストームを４つチャージする=►Charges up 4 [PSI★Storm].\n►Switches to Attack Pattern 2.
+
+##EX##
+ディストート・サイト=Distort Sight
+ディストート・サイト+=Distort Sight+

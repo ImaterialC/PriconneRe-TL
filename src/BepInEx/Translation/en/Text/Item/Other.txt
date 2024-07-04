@@ -12,6 +12,13 @@
 みんなでお花見=Everyone cherry blossom viewing
 みんなの好きなもの=Everyone's favorite
 
+
+討伐依頼証=Subjugation Request Form
+深淵討伐戦期間中に入手できる証。\n消費してボスバトルに挑戦できる。=Proof that can be obtained during the Abyss Battle period. \n Use it to challenge the boss battle.
+ランダムなアストラルスフィアが獲得できる。=Random Astral Spheres can be obtained.
+ランダムアストラルスフィアBOX=Random Astral Sphere Box
+アストラルの顕在化により発生したマスターピースの欠片。互いに引きあう性質を持ち複数を集めることで合体し、マスターピースとなる。=Fragments of Masterpieces created by the manifestation of Astral. They attract each other, so by collecting multiple pieces, they combine to become a Masterpiece.
+
 ハロウィンパーティ=Halloween party
 
 イベント期間中にモンスターを討伐した証。集めて討伐証交換ができる。=Proof of defeating monsters during the event period. You can collect them and exchange them for subjugation certificates.
@@ -48,8 +55,10 @@ EX装備(武器)を分解することで獲得\nできる特別な通貨。EX装
 ランダムEXPポーションBOX=Random EXP Potion BOX
 
 EX装備の強化に使用すると、強化Ptが1加算される。=When used to enhance the EX equipment, 1 enhanced PT is added.
-
-
+オーマ地域振興ポスター『新春トゥンヌス釣上図柄』=Oma Regional Promotion Poster
+王宮騎士団×ランフェス求人ポスター=Royal Knights of Favonius Recruiting Poster
+ストーリー閲覧で獲得したアイテムです。=It's an item obtained from reading the story.
+『ナッシュカッツェ』の招き猫=Nashkatze's Maneki Neko
 カスタムマイページのフレーム=Custom Home's frame
 マイページに設定できるフレーム画像。=Frame drawing that can be set on Home.
 オーマ地域振興ポスター『新春トゥンヌス釣上図柄』=New Year Tuna Fishing Poster for Ohma Regional Development

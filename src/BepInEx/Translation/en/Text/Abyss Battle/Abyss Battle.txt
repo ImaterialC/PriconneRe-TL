@@ -1,0 +1,78 @@
+深淵討伐戦=Abyss Subjugation Battle
+前哨クエスト=Outpost Quests
+前哨クエストで討伐依頼証を獲得しよう！=Earn subjugation tickets in Outpost Quests!
+朱火の深淵=Crimson Abyss
+
+スコア報酬=Score Reward
+r:"^スコアを([0-9,]+)pt獲得しよう$"=Get a score of $1pt
+r:"^\[3C404E\]初回クリアでスコア\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]獲得！\[-\]$"=[3C404E] Earn a score of [FFBB00,CE4F00]$1pt[-]on your first clear![-]
+スコアレート=Score rate
+ボスリザルト=Boss Result
+初回クリアボーナス=First Clear Bonus
+模擬戦のためスコア、報酬は獲得できません。=Scores and rewards will not be obtained for mock battles.
+[FFBB00,CE4F00]マスターピース（欠片）[-]=[FFBB00,SE4F00] Masterpiece (Shard)[-]
+サポートキャラが編成されているため再戦できません。=Rematch is not possible because a support character is included in the team.
+
+
+難易度HARD=Hard
+難易度NORMAL=Normal
+スキップ可能な前哨クエストがありません。=There are no skipping Outpost Quests.
+r:"^\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]枚で挑戦\[-\]$"=[3C404E]Challenge with [FFBB00,CE4F00]$1[-] Form(s)[-]
+
+ボス難易度選択=Boss difficulty selection
+模擬戦のため報酬は獲得できません。=Rewards will not be obtained for the mock battles.
+モンスターＨＰを本戦状態\nにする=Set monster HP to main battle state
+討伐依頼証枚数=Number of Hunting Requests
+スキップダメージ=Skip Damage
+
+[FFFFFF]深淵討伐戦の前哨クエストを1回クリアしよう[-]=[FFFFFF]Clear 1 time Abyss Subjugation Outpost Quest[-]
+深淵討伐戦の前哨クエストを1回クリアしよう=Clear 1 time Abyss Subjugation Outpost Quest
+
+---NPC Tutorial Kokkoro---
+深淵討伐戦では特定の属性ボーナスが強化されるようです。\n前哨クエストで討伐依頼証を集めることで\nボスに挑戦できるようです。=It seems certain elemental bonuses will be strengthened during the Abyss Subjugation Battle. You can challenge the boss by collecting Subjugation Request Certificate for the Subjugation in the Outpost Quests.
+ボス戦では、与えたダメージに応じてスコアが加算されます。ボスの\n初回クリアや到達スコアの報酬として、マスターピースのかけらが手に\n入りますよ。万全の準備を整えて挑戦いたしましょう。=In boss battles, your score will be increased based on the damage you inflict. As a reward for completing the boss's first round and completing the final score, you will obtain a Masterpiece Fragment. Make sure you are fully prepared for the challenge.
+
+
+
+
+
+
+---Tutorial First Time---
+き、き、緊急事態です！　『深域』の最奥地帯である『深淵』から、\nとてつもなく強力な魔物が現れたようです！=Emergency! There's a tremendously powerful monster emerging from the deepest region of the 'Abyss'!
+カリンさん！？　ここまで走ってきたんですか！？\nそれに強力な魔物って……？=Karin!? Did you run all the way here? And a powerful monster, you say...?
+
+はいはい、いつもの「もっと強い敵が現れた！」ね。\nまっかせなさい！　そんなのソッコーでぶっ倒してきてやるわ！=Yeah, yeah, the usual "There's a stronger enemy now!" Leave it to me! I'll knock it out in no time!
+
+キャルさま！？\n一人で行ってしまわれました……！\n大丈夫でしょうか？=Kyaru-sama!? She went alone...! Will she be okay?
+
+あ！　でも、引き返してきましたよ～？=Ah! But she's already coming back!
+
+無理無理無理無理ぃ！\nちょっとシャレになってないわよアレ！=No way, no way, no way! That thing's no joke!
+
+はい。洒落にならないのも当然です。\n言ってしまえばあの魔物は、\n『深域』の魔物たちの親玉ですから……！=Of course it's no joke. To put it simply, that monster is the boss of the 'Abyss' monsters...
+
+親玉ですか～！　それは強そうですし……\n食べ応えもありそうですね☆　じゅるり♪=The boss, huh? That sounds tough... and delicious☆ Yum!
+
+い、言っておくけど、アレは今度こそ食べられないと思うわよ！？\nていうかそもそも、あんなのどうやって倒せってのよ～！？=I-I'll just say this: I don't think you can eat this one! And seriously, how are we supposed to defeat something like that!?
+
+そうですね……肝心なのは『属性』です。\n『深淵』での戦闘は、これまでの『深域』クエストと同様に\n『属性の力』を活用すれば有利に進められるはずですよ。=The key lies in 'attributes.' Just like previous 'Abyss' quests, using the power of 'attributes' will give us an advantage in this fight.
+
+なるほど。\nでは主さま、引き続き『属性』を揃えることを意識して\n戦ってまいりましょう。=I see. So, Aruji-sama, let's continue focusing on gathering the right 'attributes' as we battle.
+
+ま、戦い方はそれでいいとして……報酬は弾むんでしょうね？\nしょっぱいアイテムしかなかったら承知しないわよ？=Alright, the strategy is fine and all, but... the rewards better be worth it! I won't settle for any lame items!
+
+ふふふ♪　報酬に関しては、お任せください！\n現地で取得した『アストラルスフィア』や『アストラルシャード』は\nこれまで通り自由に持ち帰っていただいて構いません。さらに──=Hehe♪ Leave the rewards to me! You can still freely take home any 'Astral Spheres' or 'Astral Shards' you obtain on-site. Additionally──
+
+今回は特別報酬として、\n『マスターピースの欠片』もご用意します！=For this special occasion, we're offering 'Masterpiece Fragments' as well!
+
+大変豪華な報酬ですね。\nそれがあれば、主さまのお力もさらに強くなられるかと。=What splendid rewards. With those, Master's power will surely increase further.
+
+あのさ……手際が良すぎて怖いんだけど……\n走ってきたのも実はわざとだったりしない？=You know... the way you're so prepared is kind of scary... Did you plan running here on purpose too?
+
+そんなことはありませんよ？\nそういうわけで、この『深淵討伐戦』──\nお願いしますみなさん！　力を貸してください！=Of course not. So, with that, please take on this 'Abyss Conquest'! We need your strength!
+
+主さまのためとあっては、いてもたってもいられません……\n早速編成を組み、挑戦してみましょう！=If it's for Master, I can't just sit around... Let's assemble the team and give it a try!
+
+……あーもうしょうがないわね！　とっとと片付けてきてやるから、\n報酬いーっぱい用意しときなさいよね！=...Oh, fine! I'll take care of this quickly, so make sure you have plenty of rewards ready!
+【美食殿】、レッツゴーです☆=[Gourmet Guild], let's go☆
+
