@@ -1,6 +1,6 @@
 深淵討伐戦=Abyss Subjugation Battle
 前哨クエスト=Outpost Quests
-前哨クエストで討伐依頼証を獲得しよう！=Earn subjugation tickets in Outpost Quests!
+前哨クエストで討伐依頼証を獲得しよう！=Get Hunting Tickets in Outpost Quests!
 朱火の深淵=Crimson Abyss
 
 スコア報酬=Score Reward
@@ -10,24 +10,28 @@ r:"^\[3C404E\]初回クリアでスコア\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\
 ボスリザルト=Boss Result
 初回クリアボーナス=First Clear Bonus
 模擬戦のためスコア、報酬は獲得できません。=Scores and rewards will not be obtained for mock battles.
-[FFBB00,CE4F00]マスターピース（欠片）[-]=[FFBB00,SE4F00] Masterpiece (Shard)[-]
 サポートキャラが編成されているため再戦できません。=Rematch is not possible because a support character is included in the team.
-
+リタイアすると報酬を\n獲得することができません。\n討伐依頼証は消費されません。\n\nよろしいですか？\n=If you quit, you will not receive any rewards. The Subjugation Request Form will not be consumed.\n\nAre you sure?
 
 難易度HARD=Hard
 難易度NORMAL=Normal
 スキップ可能な前哨クエストがありません。=There are no skipping Outpost Quests.
 r:"^\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]枚で挑戦\[-\]$"=[3C404E]Challenge with [FFBB00,CE4F00]$1[-] Form(s)[-]
 
+撃破回数=Defeat count
+消費討伐依頼証=Use Hunting Tickets
+r:"^スキップチケットと討伐依頼証を消費して\n([0-9]+)回バトルをスキップします。$"=Spend Skip Ticket and Hunting Tickets to skip $1 battles.
+
 ボス難易度選択=Boss difficulty selection
 模擬戦のため報酬は獲得できません。=Rewards will not be obtained for the mock battles.
 モンスターＨＰを本戦状態\nにする=Set monster HP to main battle state
-討伐依頼証枚数=Number of Hunting Requests
+討伐依頼証枚数=Number of Hunting Tickets
 スキップダメージ=Skip Damage
 
 [FFFFFF]深淵討伐戦の前哨クエストを1回クリアしよう[-]=[FFFFFF]Clear 1 time Abyss Subjugation Outpost Quest[-]
 深淵討伐戦の前哨クエストを1回クリアしよう=Clear 1 time Abyss Subjugation Outpost Quest
-
+[FFFFFF]深淵討伐戦で全ボスのVERY HARDをクリアしよう[-]=[FFFFFF]Clear all bosses in the Abyss Battle on VERY HARD.[-]
+深淵討伐戦で全ボスのVERY HARDをクリアしよう=Clear all bosses in the Abyss Battle on VERY HARD.
 ---NPC Tutorial Kokkoro---
 深淵討伐戦では特定の属性ボーナスが強化されるようです。\n前哨クエストで討伐依頼証を集めることで\nボスに挑戦できるようです。=It seems certain elemental bonuses will be strengthened during the Abyss Subjugation Battle. You can challenge the boss by collecting Subjugation Request Certificate for the Subjugation in the Outpost Quests.
 ボス戦では、与えたダメージに応じてスコアが加算されます。ボスの\n初回クリアや到達スコアの報酬として、マスターピースのかけらが手に\n入りますよ。万全の準備を整えて挑戦いたしましょう。=In boss battles, your score will be increased based on the damage you inflict. As a reward for completing the boss's first round and completing the final score, you will obtain a Masterpiece Fragment. Make sure you are fully prepared for the challenge.

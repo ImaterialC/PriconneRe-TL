@@ -118,8 +118,6 @@ r:"^(\[[0-9A-F,]{6,13}\])『10回引く』は(\[[0-9A-F,]{6,13}\])★2以上\[-\
 [FFBB00,CE4F00]限定スタートダッシュガチャ開催！[-]=[FFBB00,CE4F00]Limited Start Dash Gacha![-]
 [3C404E]10キャラ目は[-][FFBB00,CE4F00]限定★3キャラ確定！\n[-][3C404E]※すでに仲間にしているキャラは女神の秘石に変換されます。[-]=[3C404E]A [FFBB00,CE4F00]★3 character[-] is guaranteed with a 10x draw!\n    ►Already recruited characters will be converted to Divine Amulets[-]
 
-sr:"^(\[[0-9A-F,]{6,13}\])★3(?:キャラ)?出現率2倍！限定「([べ-ヺー＆＝]+)(（.+）)?」、新キャラ「ネア（サマー）」登場！\n対象キャラ(?:を仲間に|が加入)する度に対象メモピ200個GET！[-]=[FFBB00,CE4F00]★3 twice the rate of appearance! Limited edition Nephy-Nella, new character Nea (Summer) has appeared! Every time a target character joins, you get 200 target notepads! [-]
-
 、新キャラ= New Chara 
 sr:"^(\[[0-9A-F,]{6,13}\])★3(?:キャラ)?出現率2倍！限定「([べ-ヺー＆＝]+)(（.+）)?」(、新キャラ)?「([べ-ヺー＆＝]+)(（.+）)?」(?:登場|出現率UP)！\n対象キャラ(?:を仲間に|が加入)する度に対象メモピ(\d+)個GET！\[-\]$"="$1Boosted rates for the Limited ★3\n$2$3 & $4$5$6!\nRate-up characters come with a bonus of $7 Memory Shards![-]"
 

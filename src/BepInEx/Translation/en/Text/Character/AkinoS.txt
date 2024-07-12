@@ -8,7 +8,7 @@ r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ�
 
 ##S1##
 ミッドサマーエッジ=Midsummer Edge
-前方範囲内の敵すべてに物理小ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに自分のＴＰ上昇を小アップする。=Deals small P.DMG to enemies in range. If all enemies are M-type, P.DMG dealt increase, and also slightly boosts own TP Boost.
+前方範囲内の敵すべてに物理小ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに自分のＴＰ上昇を小アップする。=Deals small P.DMG to enemies in range. If all enemies are M-type, P.DMG dealt increases, and also slightly boosts own TP Boost.
 r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ魔法攻撃をする敵がいる場合、自分のＴＰ上昇を(\d+)アップ$"=If any enemy is P-type:\n►Deals $1 P.DMG to enemies 700 range.\n\nIf all enemies are M-type:\n►Deals $2 P.DMG to enemies in 700 range.\n►Boosts own TP Boost by $3 for 12s.
 
 ##S2##
@@ -19,3 +19,11 @@ r:"^魔法攻撃をする敵がいない場合、味方全体の物理攻撃力�
 ##EX##
 ノーブルサマースタイル=Noble Summer Style
 ノーブルサマースタイル+=Noble Summer Style+
+
+##S1+##
+ミッドサマーエッジ+=Midsummer Edge+
+前方範囲内の敵すべてに物理中ダメージを与える。対象が魔法攻撃をする敵だった場合、ダメージが増加する。魔法攻撃をする敵がいる場合、さらに自分の物理攻撃力を特大アップし、ＴＰ上昇を小アップする。=Deals moderate P.DMG to enemies in range. If all enemies are M-type, P.DMG dealt increases, and also slightly boosts own TP Boost and massively boosts own P.ATK.
+r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ対象が魔法攻撃をする敵だった場合(\d+)の物理ダメージ魔法攻撃をする敵がいる場合、自分の物理攻撃力を(\d+)アップ魔法攻撃をする敵がいる場合、自分のＴＰ上昇を(\d+)アップ$"=If any enemy is P-type:\n►Deals $1 P.DMG to enemies 700 range.\n\nIf all enemies are M-type:\n►Deals $2 P.DMG to enemies in 700 range.\n►Boosts own P.ATK by $3 for 12s.\n►Boosts own TP Boost by $4 for 12s.
+
+##UE##
+ブリリアントサマーメモリー=Brilliant Summer Memory

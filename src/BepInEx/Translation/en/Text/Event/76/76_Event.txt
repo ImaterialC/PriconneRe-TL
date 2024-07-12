@@ -1,5 +1,5 @@
 レッツゴー、イイコトクラブ！=Let's go, Good Things Club!
-r:"^レッツゴー、イイコトクラブ！([0-9\-\(\)\w （）]*)$"=Let's go, Good Things Club!
+r:"^レッツゴー、イイコトクラブ！([0-9\-\(\)\w （）]*)$"=Let's go, Good Things Club! $1
 
 
 真夏のバーサークスライム=Berserk Slime in the Midsummer

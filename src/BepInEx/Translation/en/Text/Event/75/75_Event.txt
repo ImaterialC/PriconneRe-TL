@@ -1,4 +1,4 @@
-r:"^グランドリームパーク([0-9\-\(\)\w （）]*)$"=Grand Dream Park
+r:"^グランドリームパーク([0-9\-\(\)\w （）]*)$"=Grand Dream Park $1
 捲土重来・ジーノ=Gino: Return in Triumph
 おいでよドリームパーク♪=Come to Dream Park♪
 清掃員に扮して虎視眈々と『グランドリームパーク』の乗っ取りを謀っていた元=Disguised as a janitor, the former was plotting to take over "Grand Dream Park" vigilantly.

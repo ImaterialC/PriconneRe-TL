@@ -46,7 +46,9 @@ r:"^あと(\d+)時間(\d+)分は挑戦できません。$"=Can't challenge for $
 エリア選択確認=Area Selection
 sr:"^エリア「(.+)」に挑戦しますか？$"="Do you want to challenge the area\n"$1"?"
 ---Dungeon names---
-sr:"^\[2874AE,12304D\](.+)\[-\]$"="[2874AE,12304D]$1[-]"
+sr:"^(\[[0-9A-F,]{6,13}\])(.+)\[-\]$"=$1$2[-]
+全報酬獲得済み=All rewards received
+マスターピース（欠片）=Masterpiece (Shard)
 
 雲をつらぬく山脈=A mountain that\npierces the clouds.
 深い森の奥に存在する1本の大樹=A massive tree\ndeep within the forest.

@@ -14,7 +14,7 @@ r:"^バトル開始後(\d+)秒間自分に(\d+)％の物理ダメージ\nカッ�
 r:"^バトル開始後(\d+)秒間自分に(\d+)％の魔法ダメージ\nカット効果を付与する。$"=Applies magical damage cut to own by $2% for $1s after the start of battle.
 
 開始時継続ＨＰ回復付与=Starting HP Regen
-r:"^バトル開始後(\d+)秒間自分に残りＨＰ([0-9.]+)％の継続\nＨＰ回復状態を付与する。$"=Apply Continuation HP recovery state of $2% for $1s after the start of battle.
+r:"^バトル開始後(\d+)秒間自分に残りＨＰ([0-9.\.]+)％の継続\nＨＰ回復状態を付与する。$"=Apply Continuation HP recovery state of $2% for $1s after the start of battle.
 
 バトル中盤攻撃力大アップ=Attack Up (L) In Mid-Battle
 バトル開始後45秒経過時に自分の物理攻撃力を20％アップさせる。=If the remaining time is less than 45s: Boost own physical attack by 20%.

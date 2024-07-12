@@ -12,7 +12,7 @@ r:"^バトルの残り時間が([0-9:]+)以上で勝利$"=Win with $1 or more re
 アップ=Boost
 sr:"^(戦力|物攻|魔攻|物防|魔防|HP吸収|HP自動回復|TP上昇|ＴＰ上昇|TP自動回復|TP消費軽減|物理攻撃力|物理防御力|物理クリティカル|魔法攻撃力|魔法防御力|魔法クリティカル|回復量上昇|命中|回避)(アップ|ダウン)$"=$1 $2
 sr:"^バトル中、(.+)が(極大|絶大|特大|大|中|小|大幅)に(アップ|ダウン)する。$"=$2 $3 $1 during battle.
-r:"^戦闘不能になったキャラが(\d)人以下で勝利$"=Win with 2 or fewer fallen characters.
+r:"^戦闘不能になったキャラが(\d)人以下で勝利$"=Win with $1 or fewer fallen characters.
 
 
 バトル開始時ＴＰ特大回復=Greatly TP recovery at the start of battle

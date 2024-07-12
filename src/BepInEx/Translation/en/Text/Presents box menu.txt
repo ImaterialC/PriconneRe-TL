@@ -26,6 +26,8 @@ sr:"^(.+)を購入して獲得したアイテムです。$"=Item obtained from a
 sr:"^(\[[0-9A-Fa-f,]{6,13}\])?([\s\S]{2,25}?)(（.+）)?(の\n?(?:ピュア)?メモリーピース|の設計図)? ?(?:×|x)(?:\[-\])?(\[[0-9A-Fa-f,]{6,13}\])?([0-9,]+)(\[-\])?(?:\[-\])?$"=$1$2$3$4 × $5$6$7$7
 
 以下の交換結果になりました。=The following exchange results are as follows:
+
+[3C404E]討伐依頼証を[FFBB00,CE4F00]1[-]枚消費して、同じパーティでもう一度クエストをプレイします。[-]=[3C404E]Use[FFBB00,CE4F00]1[-] Subjugation Request Form to play another quest with the same party. [-]
 ---sort---
 フィルタ=Filter
 期限あり=Limited Time
