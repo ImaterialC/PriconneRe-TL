@@ -1,6 +1,6 @@
 量産型フブキちゃんレンチ=Consumer Model Fubuki-chan Wrench
 バトル中敵防御中ダウン=Enemy DEF down during battle
-バトル開始後90秒間敵全体の物理防御力を５％ダ\nウンさせる。=For 90s after the battle begins, all opponents' P.DEF is decreased by 5%.
+バトル開始後90秒間敵全体の物理防御力を５％ダウンさせる。=For 90s after the battle begins, all opponents' P.DEF is decreased by 5%.
 
 量産型ワカナのフライパン=Mass-produced Wakana's Frying Pan
 バトル中盤攻撃力中アップ=Mid-battle P.ATK Bonus
@@ -32,6 +32,26 @@ The apron
 雷鳴剣ユニコーンヴォルト=Thunder Sword Unicorn Vault
 ヘブンリーナックル=Heavenly Knuckle
 イモータルティアーズ=Immortal Tears
+
+
+討伐された魔物の怨嗟が宿る鮮赤の肉片を象ったイヤリング。血の滴るような鮮やかな赤色が食欲を掻きたて、危険な魔物を惹きつける。=An earring shaped like a piece of fresh red flesh imbued with the grudge of a subjugated monster. The vivid red dripping with blood stirs up one's appetite, attracting dangerous monsters.
+グラッジチャンクの耳飾り=Gradge chank earring
+不死者の涙を繋いで作ったとされる首飾り。身に着けた者は死の運命さえ変えられるほどの力を宿すことができるという。=A necklace that is said to have been made by connecting the tears of the undead. It is said that those who wear it have enough power to change the fate of death.
+憤激の破壊神との戦いの果てに生み出された、此岸の全てを焼き尽くす神威の劫火を放つ杖。紅蓮の焔は世界を深紅に塗り替える。=A staff created at the end of the battle against the indignant God of Destruction. It emits an inferno of divine power that burns away everything on this shore. Crimson flames paint the world a deep crimson.
+ニーラカンタ=Neelakanta
+異国で見つかる非常に希少な金属、ヒヒイロカネで作られた盾。その希少さに見合っただけの強度を誇り如何なる攻撃も受け止める。=A shield made from hihiirokane, an extremely rare metal found in a foreign country. It prides itself on its strength to match its rarity and can block any attack.
+保護を解除できないEX装備です。=It is EX equipment that cannot be removed from protection.
+創世樹から一人の騎空士に託された弓。射抜いた獲物を喰らい糧とし、その花は異なる空の下であっても静寂の元に咲き誇る。=A bow entrusted to a knight by the Genesis Tree. It devours the prey it pierces, and its flowers bloom in silence even under different skies.
+究極の拳打を追求した鉄拳。伝説の職人と魔法使いが持てる技の全てを費やし、あらゆる魔物を一撃で昇天させる威力を実現した。=An iron fist in pursuit of the ultimate fist strike. It took all the skills of a legendary craftsman and magician to achieve the power to ascend all monsters in a single blow.
+厳しい修行を乗り越えた者だけが手にすることを許された籠手。ひと度身に着ければ精霊の力が漲り、黄金に輝く拳は如何なる岩盤をも穿つ。=These gauntlets were only allowed to be held by those who had undergone rigorous training. Once worn, they were filled with the power of the spirits, and their golden fists bore down on any bedrock.
+ワカナ愛用フライパン…の複製品。フブキに無理矢理改造されており凶悪な見た目になっているが何故か作る料理まで美味しくなっている。=A replica of Wakana's favorite frying pan. It's been forcibly remodeled into a Fubuki, making it look vicious, but for some reason, even the food it makes is delicious.
+ヤマト御用達のスネークソード…の複製品。折れた剣を直すついでにフブキが伸縮機構を追加。鞭の如く扱えるが、自傷には注意が必要。=It's a replica of Yamato's Snake Sword. While fixing the broken sword, Fubuki adds an extension mechanism. It can be wielded like a whip, but it needs to be careful not to hurt itself.
+ただ一人で戦を勝利に導いた、ある戦士の大剣。一振りで数百人は薙ぎ払えたとされ、敵対国が次の夜明けを迎えることはなかったという。=It was the greatsword of a warrior who led the war to victory alone. It was said to have been able to mow down hundreds with a single swing, and the enemy nation never reached the next dawn.
+フブキ特製万能レンチ…の複製品。本来の変形機構を削除し、剣モードに固定されているが、動くギザ刃は切れ味が良く工作などにも使える。=A replica of Fubuki's special almighty wrench. Its original transformation mechanism has been erased and fixed to sword mode, but the moving jagged blade is sharp and can be used for crafting and the like.
+苦しみ嘆く人々のため悪を斬る心と呼応し真なる姿を解放した剣。絶望に沈みゆく人々の心を掬い、邪悪の心を持つ存在を滅し、安寧を齎す。=A sword that released its true form in response to the heart that slew evil for the sake of the suffering and lamenting. It scooped up the hearts of those who sank into despair, destroyed those who possessed evil hearts, and brought peace.
+
+
+
 
 インファーナルオーブ=Infernal Orb
 冥府から現世に運び込まれたとされる宝玉。玉の中では邪悪な竜の魂がのたうち回っており、もし解放すれば破壊の限りを尽くすという。=An orb believed to have been transported from the underworld to the mortal realm. Inside the gem, the malevolent soul of a dragon writhes, and it is said that if released, it would unleash utter destruction.
@@ -230,7 +250,7 @@ The apron
 氷のように冷たい鋼材を用いた剣。寒冷地を守護する騎士が用いたとされ、氷点下で打ち合っても刃こぼれひとつしないという。=A sword using cold steel material like ice. It is said that the knight protected by the cold region was used, and it would not spill out even if you hit it under freezing.
 
 暗殺者の装飾剣=Assassin's Decorative Sword
-遺跡から発掘された、美しい装飾の曲剣。伝承では、暗殺者がこれを王に献上するふりをして近づき、一刀\nで命を絶ったという。=A beautiful decorated curved sword excavated from the ruins. Legend has it that an assassin pretended to present this to the king and approached, killing him with a single cut.
+遺跡から発掘された、美しい装飾の曲剣。伝承では、暗殺者がこれを王に献上するふりをして近づき、一刀で命を絶ったという。=A beautiful decorated curved sword excavated from the ruins. Legend has it that an assassin pretended to present this to the king and approached, killing him with a single cut.
 
 ノーブルフラッシュ=Noble Flash
 ある貴族のために制作された長剣。その絢爛ながらも上品な装飾には、強さと優雅さを備えた貴族たれ、という願いが込められている。=A long sword made for a nobleman. The splendid yet elegant decoration is filled with the desire to be a powerful and elegant aristocrat.

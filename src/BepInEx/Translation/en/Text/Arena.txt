@@ -58,9 +58,9 @@ r:"^パーティ(\d)にキャラが選択されていません。$"=No character
 フレンド以外のプレイヤーのキャラは、ステータスが\\n下方補正されている場合があります。=Characters from players not on your friend list\\nmay have their stats scaled down.
 別のパーティに編成中のキャラは選択できません。=Characters being used in another party cannot be selected.
 
-[3B3F4D]本日の挑戦回数の上限に達しています。\nジュエル×[-][FFBB00,CE4F00]50[-][3B3F4D]を使用して挑戦回数をリセットしますか？[-]=[3C404E]You have reached the maximum number of attempts for today.Do you want to reset the number of attempts using Jewels × [FFBB00,CE4F00]50[-]?[-]
+
 [3C404E]対戦相手のランキングが更新されました。[-]=[3C404E] The ranking of the opponent has been updated. [-]
-sr:"^\[3C404E\]対戦相手のランキングが(\d+位)に変更されました。\n対戦しますか？\[-\]$"=[3C404E]The opponent's ranking has been changed to $1 place. Do you want to play?[-]
+sr:"^(?:\[3C404E\])?対戦相手のランキングが(\d+位)に変更されました。\n対戦しますか？(?:\[-\])?$"=[3C404E]The opponent's ranking has been changed to $1 place. Do you want to play?[-]
 相手の編成確認=Opponent's Party
 リスト更新まで=Resets in
 

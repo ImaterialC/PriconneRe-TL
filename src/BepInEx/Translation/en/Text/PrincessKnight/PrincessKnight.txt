@@ -19,7 +19,7 @@
 ノード詳細=Node Details
 選択したノードの強化詳細です。\n未強化の前提ノードは自動で強化されます。=This is the details of the selected node's enhancement. The unenhanced node will automatically be strengthened.
 強化済みです。=It has been strengthened.
-
+強化可能なノードがありません。=There are no nodes that can be strengthened.
 消費マスターピース=MP Cost
 所持マスターピース=MPs Held
 所持マスターピース(欠片)=MP Held (Shard)

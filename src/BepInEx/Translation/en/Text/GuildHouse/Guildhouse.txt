@@ -145,7 +145,7 @@ r:"^マイセット(\d+)$"=My set $1
 家具の配置を保存し手軽に呼び出すことができます。=You can save your furniture setup.
 r:"^\[3C404E\]現在の配置をマイセット(\d+)に保存しました。\[-\]$"=[3C404E]Save the current placement to My Sets $1.[-]
 
-sr:"^\[3C404E\]\[D13250\](.+)\[-\]\[3C404E\]を\n収納します。よろしいですか？\[-\]\[-\]$"=[3C404E]Put [D13250]$1[-]\nin storage. Is this OK?[-]
+sr:"^(?:\[3C404E\])?\[D13250\](.+)\[-\]\[3C404E\]を\n収納します。よろしいですか？\[-\](?:\[-\])?$"=[3C404E]Put [D13250]$1[-]\nin storage. Is this OK?[-]
 [FF7C4E,D62146]設定よりダウンロードした動画の端末保存選択ができます。[-]=[FF7C4E,D62146]You can select to save the downloaded\nvideo to the device from the settings.[-]
 [FF7C4E,D62146]未保存のミニゲームプレイ動画をダウンロードします。[-]=[FF7C4E,D62146]Download unsaved mini gameplay videos.[-]
 ---Like a Room---

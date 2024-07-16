@@ -4,8 +4,8 @@
 r:"^床([1-9×]{3})$"=$1
 必要面積=Size
 売却価格=Sale price
-sr:"^\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[FFBB00,CE4F00\](\d+)\[-\]生産、\[FFBB00,CE4F00\](\d+)\[-\]まで保管可能\[-\]$"=[3C404E]Produce $3 × [FFBB00,CE4F00]$4[-] every [FFBB00,CE4F00]$1$2[-]. Can store up to [FFBB00,CE4F00]$5[-].[-]
-sr:"^\[3C404E\]\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[FFBB00,CE4F00\](\d+)\[-\]生産、\[FFBB00,CE4F00\](\d+)\[-\]まで保管可能\[-\]\[-\]$"=[3C404E]Produce $3 × [FFBB00,CE4F00]$4[-] every [FFBB00,CE4F00]$1$2[-]. Can store up to [FFBB00,CE4F00]$5[-].[-]
+sr:"^(?:\[3C404E\])?\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[FFBB00,CE4F00\](\d+)\[-\]生産、\[FFBB00,CE4F00\](\d+)\[-\]まで保管可能(?:\[-\])?$"=[3C404E]Produce $3 × [FFBB00,CE4F00]$4[-] every [FFBB00,CE4F00]$1$2[-]. Can store up to [FFBB00,CE4F00]$5[-].[-]
+sr:"^(?:\[3C404E\])?\[3C404E\]\[FFBB00,CE4F00\](\d+時間)?(\d+分)?\[-\]で(.+)×\[FFBB00,CE4F00\](\d+)\[-\]生産、\[FFBB00,CE4F00\](\d+)\[-\]まで保管可能\[-\](?:\[-\])?$"=[3C404E]Produce $3 × [FFBB00,CE4F00]$4[-] every [FFBB00,CE4F00]$1$2[-]. Can store up to [FFBB00,CE4F00]$5[-].[-]
 
 1Fに設置中のため売却できません。=Cannot be sold because it is installed on 1F.
 2Fに設置中のため売却できません。=Cannot be sold because it is installed on 2F.
@@ -34,7 +34,7 @@ r:"^おやつテーブルLv.(\d+)$"=Snack Table lv.$1
 誰もが一度は夢見たはずの、食べても食べても時間がたつと元に戻っているお菓子の山。おなかいっぱい食べて、幸せ＆元気いっぱいに！=An endless mountain of sweets that is something out of a dream. Eat to your heart's content and be happy!
 
 イベント限定ギルドハウス家具獲得=Event-Limited Guildhouse Furniture Acquired
-sr:"^\[3C404E\]\[3C404E\]イベント限定ギルドハウス家具\n「\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]」を\nプレゼントしました！\n\nプレゼントは直接収納BOXに贈られます。\[-\]\[-\]$"=[3C404E]Event-Limited Guildhouse Furniture [FFBB00,SE4F00]$1[-] has been given as a present!\n\nPresents will be sent directly to the storage box.[-]
+sr:"^(?:\[3C404E\])?\[3C404E\]イベント限定ギルドハウス家具\n「\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]」を\nプレゼントしました！\n\nプレゼントは直接収納BOXに贈られます。\[-\](?:\[-\])?$"=[3C404E]Event-Limited Guildhouse Furniture [FFBB00,SE4F00]$1[-] has been given as a present!\n\nPresents will be sent directly to the storage box.[-]
 
 ---Furniture---
 教室の黒板=Classroom Blackboard

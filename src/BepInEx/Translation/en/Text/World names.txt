@@ -81,6 +81,7 @@ r:"^(68\.)?思索樹海(.*)$"=$1 Sea of Thoughts $2
 r:"^(69\.)?鬼ノ膝元(.*)$"=$1 Demon's Knees $2
 
 r:"^(70\.)?炎縄河(.*)$"=$1 Flame Rope River $2
+r:"^(71\.)?崩豹峠(.*)$"=$1 Collapsing Leopard Mountain Pass $2
 ---*6 Quest---
 sr:"^([べ-ヺー＆＝]+)(（.+）)?の解放クエスト$"=$1$2 Ascension Quest
 sr:"^(.+)（(.+)）$"=$1 ($2)

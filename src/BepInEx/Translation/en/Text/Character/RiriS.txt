@@ -1,0 +1,21 @@
+##Profile##
+【物理】中衛で、夏の陽光のもと研鑽する妹系大和撫子。防御力アップに加えバリアやＨＰ回復で味方の守りを固めＴＰ回復や攻撃力ダウンをも巧みに操り、場を支配する。=[Physical] A sister-type yamato nadeshiko that studies under the summer sunlight in the midline. She controls the area by strengthening the team's defenses with P/M.DEF buffs, shields, and HP recovery, while also skillfully providing TP recovery and P/M.ATK debuffs.
+
+##UB##
+秘剣手習い・西瓜断ち=Secret Sword Practice: Watermelon Slash
+自分を中心とした範囲内の味方すべての物理攻撃力を特大アップして、ＨＰを小回復するフィールドを展開する。さらに目の前の敵１キャラに物理特大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。=Massively boosts allies' P.ATK in range, and deploys HP recovery field. Additionally deals massive P.DMG to an enemy in front and greatly lowers its P.ATK and M.ATK.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン$"=►Boosts allies' P.ATK in 250 range by $1 for 18s.\n►Deploys a 360 radius field that recovers allies' HP by $2/s for 18s.\n►Deals $3 P.DMG to an enemy.\n►Lowers an enemy's P.ATK by $4 for 18s.\n►Lowers an enemy's M.ATK by $5 for 18s.
+
+##S1##
+砂上戯城=Sandcastle Building
+自分を中心とした範囲内の味方すべての物理防御力と魔法防御力を中アップする。【フィールド展開中】このスキルの効果量が上昇し、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップする。=Moderately boosts allies' P.DEF and M.DEF in 250 range. If field is active, P.DEF and M.DEF effects increase, massively boosts allies' P.ATK in 250 range and slightly boosts their P.CRIT DMG.
+r:"^フィールド展開中、範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップフィールド展開中、範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップフィールド展開中、範囲内の味方の物理攻撃クリティカル時のダメージを5％アップ$"=If field is not active:\n►Boosts allies' P/M.DEF in range by $2 for 12s.\n\nIf field is active:\n►Boosts allies' P/M.DEF in range by $1 for 12s.\n►Boosts allies' P.ATK in range by $5 for 12s.\n►Boosts allies' P.CRIT DMG in range by 5% for 12s.
+
+##S2##
+潮騒虹橋=Sound of Waves: Rainbow Bridge
+自分を中心とした範囲内の味方すべてに物理/魔法無効バリアを展開し、ＨＰとＴＰを小回復する。【フィールド展開中】バリアの無効ダメージ量が上昇し、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップする。=Deploys Barrier over allies in 250 range that negates P/M.DMG, and slightly recovers allies' HP and TP in 250 range. If field is active, P/M.DMG negated by Barrier increases, massively boosts allies' PATK in 250 range and slightly boosts their P.CRIT DMG.
+r:"^フィールド展開中、(\d+)ダメージ分の物理魔法無効バリアを展開する(\d+)ダメージ分の物理魔法無効バリアを展開する範囲内の味方のＨＰを(\d+)回復範囲内の味方のＴＰを100回復フィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップフィールド展開中、範囲内の味方の物理攻撃クリティカル時のダメージを5％アップ$"=►Recovers allies' TP in range by 100.\n►Recovers allies' HP in range by $3.\nIf field is not active:\n►Deploys Barrier over allies in range that negates $2 P/M.DMG for 12s.\nIf field is active:\n►Deploys Barrier over allies in range that negates $1 P/M.DMG for 12s.\n►Boosts allies' P.ATK in range by $4 for 12s.\n►Boosts allies' P.CRIT DMG in range by 5% for 12s.
+
+##EX##
+波打ち際の令嬢=Lady of the Beach
+波打ち際の令嬢+=Lady of the Beach+

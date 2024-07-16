@@ -9,8 +9,9 @@
 魔法狩人ピュアリー★シオリ=Magic Hunter Purely★Shiori
 サマー☆チアリーダー=Summer Cheerleader
 sr:"^([べ-ヺー＆]{2,9})(\（.{3,10}\）)?(\s|)の絆$"=Bond with $1$2
+sr:"^(.+?)(EASY|NORMAL|HARD|VERY HARD|SPECIAL|EXHIBITION＋)討伐！$"=Defeat a $1 in $2!
 
-sr:"^([^NVHS]+?)(NORMAL|VERY HARD|SPECIAL|HARD)討伐！$"=Defeat $1 ($2)
+
 
 父思いのフォーチュンテラー=Father-loving Fortune Teller
 異次元からの帰還者=Returnee from Another Dimension

@@ -78,7 +78,7 @@ r:"^(\d+)ターン以内に到着$"=Arrive in $1 turns
 マイルを消費して\nプレミアムガチャを引きます。\nよろしいですか？=Spend Miles to draw the Premium Gacha?
 ノーマルガチャを無料で引きます。\n\nよろしいですか？=Draw the Normal Gacha for free?
 
-sr:"^\[3C404E\](.+)を \[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]個獲得しました。\[-\]$"=[3C404E]Obtained\n[FFBB00,CE4F00]$2 × [-]$1![-]
+sr:"^(?:\[3C404E\])?(.+)を \[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]個獲得しました。(?:\[-\])?$"=[3C404E]Obtained\n[FFBB00,CE4F00]$2 × [-]$1![-]
 
 再開=Resume
 ミニゲームを中断しました。=The minigame has been suspended.

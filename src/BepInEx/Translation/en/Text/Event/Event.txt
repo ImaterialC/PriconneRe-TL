@@ -179,7 +179,7 @@ sr:"^\[3C404E\]([^\[]+)\[-\]$"=[3C404E]$1[-]
 イベントを進めて、ボスに挑戦！\nボスNORMALを討伐すると、\n限定キャラ解放！！=Advance the event and challenge the boss! If you defeat the boss NORMAL, the limited character will be Unlock! !!
 アイテムが不足しています=Not enough items
 未読EPISODE=Unread Episode
-sr:"^\[3C404E\](.+?)との信頼度エピソード\n「\[FFBB00,CE4F00\](.+?)\[-\]」が\n解放されました。\[-\]$"="[3C404E]$1's Intimacy  Episode\n"[FFBB00,CE4F00]$2[-]"\nHas been unlocked.[-]"
+sr:"^(?:\[3C404E\])?(.+?)との信頼度エピソード\n「\[FFBB00,CE4F00\](.+?)\[-\]」が\n解放されました。(?:\[-\])?$"="[3C404E]$1's Intimacy  Episode\n"[FFBB00,CE4F00]$2[-]"\nHas been unlocked.[-]"
 sr:"^イベント「エピソード・オブ・パイレーツ　([\s\S]+)」のスペシャルエピソードが解放されました。$"="The special episode of the event "Episode of \n$1" has been unlocked."
 sr:"^(.+)(（.{2,10}）)?が(\n)?解放されました。$"=$1$2$3 has been Unlocked.
 

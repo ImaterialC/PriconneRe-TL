@@ -109,7 +109,6 @@ r:"^(.{1,10})からの\nフレンド申請を拒否しますか？$"=Do you want
 r:"^(.{1,10})からの\nフレンド申請を拒否しました。$"=Rejected friend request from\n$1.
 フレンド拒否完了=Friend Request Rejected
 
-
 ---NPC---
 こちらがフレンドの\n皆さんです\n素敵な関係を\n築いてくださいね！=Here you can find your friends, I hope you have a wonderful time together!
 主さま、フレンドを作りましょう。フレンドからはクエストにてサポートキャラをレンタルすることができますよ。=My Lord, now is a perfect time to make some friends. \nOnce you befriend someone, you will be able to hire their characters for support in various quests.

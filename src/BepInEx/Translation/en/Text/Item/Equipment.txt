@@ -613,3 +613,10 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 妖精環翅モーリアン=Fairy Ring Wings Morrian
 妖精晶翅ヴァハ=Fairy Crystal Wings Vaha
 妖精踊翅ネヴァン=Fairy Dancing Wings Nevan
+
+鳳梨の重殻鎧=Pineapple Heavy Shell Armor
+白蓮閣の鱗鎧=White Lotus Pavilion Scale Armor
+葡萄柚の霊装=Grapefruit Spirit Attire
+麝香猫果の薫盾=Musk Melon Scented Shield
+翠華西瓜の海水駄=Emerald Watermelon Sea Sandals
+紅玉苺の短靴=Ruby Strawberry Short Boots

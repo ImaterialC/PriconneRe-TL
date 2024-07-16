@@ -65,6 +65,8 @@ r:"^あと ([0-9:]{8})$"=$1 Left
 ------
 交換ラインナップ=Exchange Lineup
 所持キャラ交換Pt=Char. Exchange Pts
+所持キャラ交換Pt1=Char. Exchange Pts1
+所持キャラ交換Pt2=Char. Exchange Pts2
 所持数=Held
 有償=Paid
 限定Sダッシュ=Limited S Dash

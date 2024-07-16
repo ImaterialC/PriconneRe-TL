@@ -1,8 +1,8 @@
 Sneak Peek Rank Up Detail
-sr:"^必要Lv(\d+)([\s\S]{30,})$"=Required Lv $1\n$2
+sr:"^必要Lv(\d+)([\s\S]{20,})$"=Required Lv $1\n$2
 
 Selling
-sr:"^\[3C404E\](.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]を売却しますか？\[-\]$"=[3C404E]Would you like to sell the$1$2 × [FFBB00,CE4F00]$3[-]？[-]
+sr:"^(?:\[3C404E\])?(.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]を売却しますか？(?:\[-\])?$"=[3C404E]Would you like to sell the$1$2 × [FFBB00,CE4F00]$3[-]？[-]
 
 魔力を帯びたブレスレット。つけると気合いが漲り、装備者の魔法攻撃力を上げる効果がある。=A bracelet tinged with magical energy. When worn, it overflows with energy and increases the wearer's magical attack power.
 四つ葉のクローバーをあしらった御守り。幸運を呼び込み、持つ者の身を守ってくれると言われている。=A four-leaf clover charm. It is said to bring good luck and protect those who bear it.
@@ -495,3 +495,59 @@ sr:"^\[3C404E\](.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[
 現世とは異なる次元にある妖精界の学者が発案した槍。妖精幾何学に則り設計された穂先から鱗粉を振り撒く攻防一体の防衛兵装である。=A spear devised by a scholar from the fairy world who lives in a different dimension from the real world. It is a defensive armament designed according to fairy geometry that scatters scales from the tips.
 現世とは異なる次元にある妖精界の騎士のために作られた鎧。鍛冶妖精の妙技により、まるで身体の一部のように装備者の能力を拡張させる。=Armor made for the Knights of the Fairy Realm in a different dimension from the real world. Thanks to the Blacksmithing Fairy's skill, it expands the abilities of the wearer as if it were a part of their body.
 
+隕石の欠片を使用した片刃の曲刀。刀身は光を浴びることで星屑のように煌めく。=A single-edged curved sword made from meteorite shards. The blade glitters like stardust when bathed in light.
+東国に存在するある剣術流派の免許皆伝者に与えられる刀剣。月光の力が宿っており、装備者の五感と霊感を研ぎ澄ませる。=A sword granted to a licensed master of a certain school of swordplay in the East. It is imbued with the power of moonlight, sharpening the five senses and spiritual senses of the wearer.
+ある凄腕の侍が、雷獣を退治したとされている刀。雷獣を斬った刀身には、稲妻の力が宿っている。=A very skilled samurai is said to have slain the Thunder Beast. The blade that cut the Thunderbeast is imbued with the power of lightning.
+深き森の遺跡に眠るという刀剣。この剣に選ばれし者は、蝶に誘われることで、その場所に辿り着くことができるという。=A sword said to rest in the ruins of the deep forest. It is said that those chosen by this sword can reach that place by being invited by butterflies.
+姿を消す魔法がかかった特殊な鎧。ある国の姫が許されざる恋をし、駆け落ちの際に使用したと言われている。=A special armor enchanted with disappearing magic. It is said that the princess of a certain country fell in unforgivable love and used it to elope.
+かつて獅子王と呼ばれた王の品。生涯の大半を戦の中で過ごした彼は、その勇猛さから多くの民衆に畏れ敬われた。=This was the work of a king once known as the Lion King. He had spent most of his life at war, and his bravery earned him the respect of many people.
+勇猛果敢な将軍の盾。彼は前線に立つと、自ら敵陣に切り込み、軍を勝利に導いた。=The brave general's shield. Standing on the front lines, he cut into the enemy lines himself, guiding his troops to victory.
+天空を支配する気高き鷹神の剣。振れば獲物を狙う鷹のごとく、魔力で加速した切っ先が的確に敵の急所をとらえる。=The noble falcon god's sword dominates the heavens. It swings like a hawk aiming for its prey, its magically accelerated tip accurately catching the enemy's vitals.
+一騎駆けにその身を捧げた狂戦士の魂が宿る鎧。これを身に着けた者は戦鬼の力を得る。=An armor imbued with the soul of a mad warrior who devoted his life to one battle. Those who wear it gain the power of a war demon.
+女王が絶対の信頼を置く近衛兵にのみ与えられる盾。絶対的な守護の力を宿しており、魔法や呪いすらも跳ね返す。=A shield granted only to the royal guards, whom the queen placed absolute trust in. It was imbued with the power of an absolute guardian, and it even repelled magic and curses.
+日出処に現れる鳳凰神の力を宿した刀。意志の強さで纏う炎が変化し、強靭な意志を持つ者であれば鉄をも溶かす烈火となる。=A katana imbued with the power of the Phoenix God that appears in the Land of the Rising Sun. The flames enveloping it change with the strength of will, turning it into a raging fire that melts even iron for those with strong wills.
+闇の女帝から、国を守る為に戦った騎士姫の紅き鎧。その神々しい輝きは敵を恐怖させ、民には勇気を与えた。=The crimson armor of the Knight Princess, who fought to protect her country from the Dark Empress. Its divine brilliance terrified the enemy and gave the people courage.
+天界より遣わされた戦士たちが身にまとっていた額冠。羽に込められた上級天使の加護が装備者を一時的に半霊的存在と化し、厄災から護る。=A crown worn by warriors sent from the heavens. The protection of the high-ranking angel in its wings temporarily transforms the wearer into a half-spiritual being, protecting them from calamity.
+ジオ・テオゴニアに自生する巨大なフルーツから作られたサンダル。抜群の履き心地が装備者に攻守共に隙のない安定した重心を与える。=Sandals made from a giant fruit that grows naturally in Geo Teogonia. Their exceptional comfort gives the wearer a stable center of gravity that leaves no openings for both offense and defense.
+ジオ・テオゴニアに自生する巨大なフルーツから作られた靴。瑞々しい香がインスピレーションをもたらし戦況を先読みする力を与える。=A pair of shoes made from a giant fruit that grows naturally in Geo Teogonia. The fresh scent brings inspiration and gives it the power to predict the battle ahead.
+現世とは異なる次元にある妖精界の踊子のために作られた靴。ステップを踏むことで出現する妖精の輪が異界から強大な魔力を引き出す。=A pair of shoes made for a dancer from the fairy world in a different dimension from the real world. The fairy rings that appear by taking steps draw immense magical power from the other world.
+ランドソルの文化に触れたトーゴクの職人が作成した団扇。秋の夜長の静謐な空気に研ぎ澄まされた魔力が一転、猛猪の突進の如く敵を襲う。=A fan made by Togoku craftsmen who have come into contact with the culture of Landsol. Sharpened by the tranquil autumn night air, its magical power completely changes, attacking the enemy like a wild boar's charge.
+ある帝国の神話に魅入られた職人が神器を再現すべく作成した破滅の魔杖。宝玉内で咲き誇る薔薇は精密に刻み込まれた立体魔法陣である。=A destructive magic wand created by a craftsman enchanted with the myths of a certain empire to reproduce the Sacred Treasures. The roses blooming within the orb are three-dimensional magic circles engraved with precision.
+神樹の森に住まうという、偉大なる賢者が身につけたローブ。神霊の力を宿しており、あらゆる魔の力から装備者を守る。=A robe worn by the Great Sage, said to dwell in the forest of sacred trees. It is imbued with the power of divine spirits, protecting the equipped from all demonic forces.
+数多の戦を勝利に導いた大賢者が、持てる全ての魔力を注ぎ込んだ水晶玉。所持する者に、栄光へ導く才智を授けてくれるという。=The Great Sage, who led countless wars to victory, poured all his magical energy into this crystal ball. It is said to grant the wielder the wisdom to guide them to glory.
+高位な悪魔の魂を宿した杖。敵対者には容赦がなく、敵を倒す魔法を使用することで真価を発揮する。=A staff imbued with the soul of a high-ranking demon. It showed no mercy to its enemies, and its true value was to use magic to defeat them.
+黄泉を司る者として恐れられた稀代のネクロマンサー愛用の靴。その靴音を聞いた者は精気を奪われ装備者に隷属するという。=A rare pair of Necromancer's favorite shoes, feared as the ruler of Yomi. It is said that those who hear those shoes lose their energy and become slaves to their armaments.
+月の魔力を閉じ込めたクリスタルをあしらったブレスレット。放ち続ける霊妙な光は加護となり、いかなる呪詛をも振り払う。=A bracelet adorned with crystals containing the magical energy of the moon. The mysterious light that continues to emanate becomes divine protection, shaking off any curse.
+正義と平和、そして真実を司った神が持っていたとされる錫杖。これを手にした者は、神の託宣を授かるという。=A staff said to have been wielded by the god of justice, peace, and truth. It is said that those who wield it receive an oracle from the gods.
+歴代の法王が外征時に身につけた頭具。破魔の効果が付与されており、幻術を造作もなく見破る。=This was a noggin worn by successive popes during expeditions. It had the effect of exorcism, and it could easily see through genjutsu.
+王族に認められた魔法使いにのみ贈られる特別な品。その道百年のエルフの職人にしか、この靴を作ることができない。=A special item given only to magic users recognized by royalty. Only a hundred-year-old elf craftsman could make these shoes.
+太古の賢人たちが太陽の欠片をより集めて作ったとされる神秘的な杖。その杖に選ばれた者は全知全能の力を身に宿すといわれている。=A mysterious wand said to have been made by the wise men of ancient times by collecting shards of the sun. It is said that those chosen by it possess the power of omniscience and omnipotence.
+妻を殺され、復讐の鬼と化した魔法使いが所持していた杖。彼は自身の怒りをこの杖に籠め、妻の死に関わった全員を抹殺した。=The staff possessed by the witcher who had turned into a demon of revenge after his wife was killed. He put his own anger into this staff and eliminated everyone involved in his wife's death.
+精霊ダフネは自らの姿を月桂樹に変えた。彼女を愛したアポロンはその葉を永遠の愛の印として、身に着け続けたと言う。=The spirit Daphne transformed herself into a laurel tree. It is said that Apollo, who loved her, continued to wear those leaves as a symbol of eternal love.
+賢人が龍脈の探索に使用する。大地に流れる気を研究し、大陸の環境や状態の調査に使う。=Wise people use it to explore the Dragon Vein. They study the energy flowing through the land and investigate the environment and conditions of the continent.
+幼くして皇帝の座についた少年を、生涯支え続けた哲学者の服。彼は皇帝に正しき道と教えを説き、国をより良い未来へと導いた。=The clothes of a philosopher who had supported the boy who had taken the throne at a young age for the rest of his life. He preached the correct path and teachings to the emperor, guiding the country to a better future.
+ある魔法使いが、悪魔との取引で手に入れたとされる曰く付きの品。倒した敵の魂は、この杖を通して悪魔に献上されるという。=An item said to have been obtained by a certain wizard through a deal with a demon. It is said that the souls of defeated enemies will be presented to the devil through this staff.
+伝統的な魔法使いの帽子を、魔力を補助するアクセサリーで飾ったもの。=It was a traditional magic user’s hat decorated with accessories that assisted in magical power.
+逸話に登場する愛の神の衣装をかたどって作られたローブ。背面の羽は、魔法で浮いており、本物と見間違えるほどの出来栄え。=A robe made in the shape of the God of Love's costume from the anecdote. The wings on the back of the robe floated with magic, and it was so well-made you could mistake it for the real thing.
+人を救いたいという想いがこの蕾を花開かせ、その清浄なエネルギーは、治癒の力となる。=The desire to save people blooms in this bud, and its pure energy becomes the power of healing.
+魔力の籠ったターコイズのイヤリング。装備者は叡智を得て、魔法攻撃力がアップする。=A turquoise earring filled with mana. The wearer gains wisdom and increases their magic attack power.
+魔法使いの一家が、修行のために家を出る娘に贈るカチューシャ。母親が自身の魔力を練り込み、愛をこめて作り上げる。=A headband given by a family of wizards to a daughter who left home for training. A mother kneaded her own magical energy and made it with love.
+占星術を生業とする、ある魔法使い一族が使用していた杖。彼らは星を観測し、未来を予知したという。=A staff used by a family of wizards who made a living in astrology. It was said that they observed the stars and predicted the future.
+高貴な魔法使いが使用する片眼鏡。金属部分にはルーン文字が刻まれており、装備者の魔力を上げる力がある。=A monocular used by noble wizards. The metal part has runes carved into it, and it has the power to boost the wearer’s magic.
+ある残忍な魔法使いの一団が使用していた杖。この杖は、彼らの犠牲となった者たちの血で紅く染め上げられた。=A staff used by a group of brutal wizards. This staff was stained crimson with the blood of those who had sacrificed themselves.
+寒い北の国で愛用されていた。羊の毛から紡がれた糸は暖かくそれで織ったケープは肩や腕を厳しい風土から守ってくれる。=It was favored in the cold northlands. The thread woven from sheep wool was warm, and the cape weaved from it protected the shoulders and arms from the harsh climate.
+修道女が使用するフード。彼女たちは、傷ついた人々の身も心も癒したという。=The hood used by the nuns. It is said that they healed the bodies and minds of the wounded.
+春を連想させる可愛らしいローブ。丈夫な作りで旅路にも向いており、そのデザインと実用性から愛用者は多い。=A cute robe that reminds me of spring. It's sturdy and well-suited for travel, and its design and practicality make it a favorite of many.
+派手好きの騎士が、デザイナーに頼んで作らせた鎧。派手さ故に戦場で目立った彼は、敵にとっては恰好の的となった。=An armor made by a flashy knight who asked a designer to make it. He stood out on the battlefield because of his flashiness, making him the perfect target for the enemy.
+竜の息吹が描かれた剣。幅広の刃は、突くことよりも斬ることに優れており、振るう姿は天を舞う竜のように見えるだろう。=A sword with a dragon's breath drawn on it. Its broad blade is better at cutting than prodding, and its swing makes it look like a dragon dancing in the heavens.
+ある魔法使いが近接戦のために使用した剣。非力だった彼は、大きな鳥の羽に魔法をかけて、この極めて軽量な剣を作り出した。=A sword used by a certain wizard in close combat. He was powerless, so he cast a spell on the wings of a large bird to create this extremely lightweight sword.
+大天使が使っていたとされる白銀の剣。邪悪な存在を消し去る退魔の力を持っている。=The silver sword supposedly used by the archangel. It has the power to exorcise evil beings.
+太陽神・アポロンの加護を受けたとされる剣。その剣を手にした人物は太陽王と呼ばれ、歴史に名を刻むと共に永きに渡る繁栄をもたらした。=A sword said to have been blessed by Apollo the Sun God. The man who wielded it was known as the Sun King, and he carved his name into history and brought prosperity to the land for a long time.
+斬撃と同時に氷の魔法が発動し敵を討つ魔法剣。氷の妖精の魔力を用いているため、常に冷気を帯びている。=A magic sword where ice magic activates at the same time as a slash to slay an enemy. Since it uses the magical energy of an ice fairy, it is always tinged with cold air.
+幾万人の生き血を吸い続けた妖剣。呪われれば血を求める傀儡と化すが、制御できれば鋼のごとき力を得るといわれる。=An enchanted sword that has sucked tens of thousands of people's lifeblood. Cursed, it turns into a puppet seeking blood, but it is said to gain the power of steel if it is controlled.
+戦場の死神と恐れられた大将軍が身につけた美麗な鎧。敵兵はこの菫色の甲冑を見ただけで浮足立ち、混乱したという。=A beautiful suit of armor worn by the Grand Shogun, feared as the Grim Reaper of the battlefield. It is said that the enemy soldiers were elated and confused at the mere sight of this violet armor.
+銀の輝きと鋼をしのぐ強さをあわせ持つ希少な金属と、当代随一の名工との出会いが生んだ美と強靭さを兼ね備えた至高の鎧。=It was a rare metal with a silver sheen and the strength to stave off steel, as well as supreme armor that was both beautiful and tough created by the encounter with the greatest craftsman of the day
+聖霊に認められた者だけが所持を許される首飾り。聖霊の限りない慈愛により所持者は脅威から護られる。=A necklace that only those recognized by the Holy Spirit are allowed to own. The infinite affection of the Holy Ghost protects the wielder from threats.
+ある帝国の神話に魅入られた職人が神器を再現すべく作成した護国の剣。柄に咲く紫紺と守護者の戦意は決して散ることなく敵を討つ。=A sword of protection created by a craftsman enchanted by the myths of an empire to reproduce the sacred relic. The violet navy blue on its hilt and the guardian bearer's will to fight never disperse.
+ランドソルの文化に触れたトーゴクの職人が作成した巨大な剣。壁の如き幅を誇り一度構えれば根を張る大樹の生命力を宿すことができる。=A giant sword created by Togoku craftsmen who have come into contact with Landsol culture. It boasts a width as wide as a wall, and once it is ready, it can house the life force of a large tree that has its roots.
+ジオ・テオゴニアに自生する巨大なフルーツから作られた重鎧。分厚い果皮外殻が装備者を優しく包み込み完全無欠な守護領域を展開する。=Heavy armor made from a giant fruit that grows naturally in Geo Teogonia. Its thick pericarp shell gently envelops its wearer, deploying a perfect area of protection.

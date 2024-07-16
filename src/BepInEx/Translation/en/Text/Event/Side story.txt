@@ -1,5 +1,5 @@
 サイドストーリー=Side Story
-sr:"^\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]が解放されました。\[-\]$"=[3C404E]The [FFBB00,CE4F00]$1[-] has been unlocked.[-]
+sr:"^(?:\[3C404E\])?\[FFBB00\,CE4F00\](.+)\[-\]が解放されました。(?:\[-\])?$"=[3C404E]The [FFBB00,CE4F00]$1[-] has been unlocked.[-]
 r:"^メインクエスト([0-9\-\(\)（）\w ]*)クリアで$"=Cleared Main Quest $1
 sr:"^(.+) エンディングを閲覧$"=Unlock by View ending of $1
 コンテンツ解放=Unlock Content

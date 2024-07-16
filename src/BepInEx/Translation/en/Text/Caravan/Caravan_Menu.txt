@@ -76,7 +76,7 @@ r:"^レベル(\d)$"=Level $1
 到達までにかかったターン数=Turns Needed to Reach Checkpoint
 
 ---Sell Dishes---
-sr:"^\[3B3F4D\](.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]マイルを獲得しました。\[-\]$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
+sr:"^(?:\[3B3F4D\])?(.+)を売却して\n?\[-\]\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3B3F4D\]マイルを獲得しました。(?:\[-\])?$"=[3B3F4D]Sold $1\nand earned [FFBB00,CE4F00]$2[-] Miles[-]
 
 ---Lottery---
 福引券=Lottery Ticket

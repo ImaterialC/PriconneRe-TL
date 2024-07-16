@@ -73,7 +73,7 @@ sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-
 
 r:"^探索挑戦回数+(\d+)回の期間が追加となります。\n(\d+)日間スタミナ応援パックを購入しますか？?$"=Grotto attempts +$1 for the selected period.\nWould you like to purchase \nthe $2-Day Stamina Support Pack?
 
-sr:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase \n[FFBB00,CE4F00]$3[-] for [FFBB00,CE4F00]$2 pts[-]?[-]
+sr:"^(?:\[3C404E\])?探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？(?:\[-\])?$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase \n[FFBB00,CE4F00]$3[-] for [FFBB00,CE4F00]$2 pts[-]?[-]
 
 r:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\](\d+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](\d+)日間スタミナ応援パック\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase the\n $3-Day Stamina Support Pack for [FFBB00,CE4F00]$2 pts[-]?[-]
 
@@ -155,7 +155,7 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 マナ購入で、「マナ」と「スキップチケット」が手に入ります。\nさらにオマケで「メモリーピース」「女神の秘石」「探索挑戦回数増加」\nが手に入るかもしれませんよ。=Buying Mana will give you both Mana and Skip Tickets.\nYou may also receive bonuses such as Memory Shards,\nDivine Amulets and additional Grotto attempts.
 
 決済手続=Payment Procedure
-r:"^\[3C404E\]\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\]\[-\]$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The Jewels and Mana purchased here\ncan only be used on the DMM version[-].[-]
+r:"^(?:\[3C404E\])?\[3C404E\]DMMポイントを消費して、\n購入手続きを完了しますか？\n所持DMMポイント:(\d+)\n\[-\]\[FFBB00,CE4F00\]ここで購入したジュエルやマナは\nDMM版でご利用いただけます。\[-\](?:\[-\])?$"=[3C404E]Do you want to use your DMM points to complete the purchase?\nYou currently have $1 DMM points.\n[FFBB00,CE4F00]The Jewels and Mana purchased here\ncan only be used on the DMM version[-].[-]
 
 sr:"^\[3C404E\](.+)の\n期間があと\[-\]\[FF7C4E,D62146\](\d+)日\[-\]\[3C404E\]で終了します。\n購入ページへ移動しますか\?\[-\]$"=[3C404E]The period of the $1\nwill end in [-][FF7C4E,D62146]$2 day(s)[-].\nWould you like to go to the Purchase Page?[-]
 
