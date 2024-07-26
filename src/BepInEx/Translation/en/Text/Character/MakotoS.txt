@@ -24,5 +24,11 @@ r:"^敵単体に(\d+)の物理ダメージ残りの攻撃対象が１つの場�
 目の前の敵１キャラに物理中ダメージを与える。残りの攻撃対象が１つの場合、追加で物理中ダメージを与え、物理防御力を小ダウンさせ、さらに自分の物理攻撃力を小アップさせる。=Deals moderate P.DMG to an enemy directly in front. If only one enemy target remains in battle, additionally deals moderate P.DMG and lowers its P.DEF by a moderate amount. Also, boosts own P.ATK by a small amount.
 r:"^敵単体に(\d+)の物理ダメージ残りの攻撃対象が１つの場合、敵単体に(\d+)の追加物理ダメージ残りの攻撃対象が１つの場合、敵単体の物理防御力を(\d+)ダウン残りの攻撃対象が１つの場合、自分の物理攻撃力を(\d+)アップ$"=If only one enemy remains in battle:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3.\n►Boosts own P.ATK by $4.\n\nIf two or more enemies remain in battle:\n►Deals $1 P.DMG to an enemy.
 
+##S2+##
+ブルーハウリング+=Blue Howling+
+自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップし、ＴＰを中回復する。残りの攻撃対象が１つの場合、この物理攻撃力アップと物理攻撃クリティカル時のダメージアップは時間によって解除されなくなる。=Massively boosts own P.ATK, slightly boosts own P.CRIT DMG and moderately recovers own TP. If only one enemy target remains in battle, this boost remains effective indefinitely.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを9％アップ自分のＴＰを150回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 9%.\n►Recovers own TP by 150.
+
 ##UE##
 サマーウルフェンソード=Summer Wolven Sword
+ウルフェンサマービキニ=Summer Wolven Bikini

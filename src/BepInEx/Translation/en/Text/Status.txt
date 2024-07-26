@@ -28,6 +28,11 @@ TP消費軽減=TP Retain
 強化スキル=Enhance Skill
 戦力=Power
 
+ＴＰ回復量=TP Recovery Amount
+ＨＰ回復量=HP Recovery Amount
+TP回復量=TP Recovery Amount
+HP回復量=HP Recovery Amount
+
 現在のHP=Boss HP
 あなたのターンです。=Your turn.
 

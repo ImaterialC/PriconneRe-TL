@@ -10,7 +10,7 @@
 
 全キャラ　アドバンス効果詳細=All Characters Advanced Effect Details
 r:"^効果(\d)$"=Effect $1
-sr:"^バトル開始後(\d+)秒間(.{2,12}?)(極大|絶大|特大|大|中|小)\n?アップ$"=$3 boost to own $2 for $1s at start of battle.
+sr:"^バトル開始後(\d+)秒間(.{2,12}?)(極(?:\n　)?大|絶(?:\n　)?大|特(?:\n　)?大|大|中|小|大(?:\n　)?幅)\n?アップ$"=$3 boost to own $2 for $1s at start of battle.
 バトル開始後90秒間物理防御力と魔法防御力極大アップ=Maximum boost to own P.DEF and M.DEF for 90s at start of battle.
 バトル開始後90秒間ＨＰが０になると倒れずにHP回復（１回のみ）=For 90s after the battle begins, When your HP reaches 0, recover own HP (only once) without falling.
 バトル開始後90秒間魔法防御力極大アップ、行動不能無効=For 90s after the battle begins, magic defense maxed out, and immune to immobility state.

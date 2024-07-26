@@ -226,11 +226,11 @@ sr:"^(?:\[3C404E\])?\[3C404E\]イベント限定ギルドハウス家具\n「\[-
 １stアニバーサリーフラワーポール=1st Anniversary Flower Pole
 １stアニバーサリーモニュメント=1st Anniversary Monument
 sr:"^プリぐるみ（([べ-・ー]{2,11})）$"=Pri-gurumi ($1)
-ネビアのくつろぎツリーハウス=Navi Relax Tree House
-ギルドハウス内にネビアが出現=Navi appears in the Guildhouse
+ネビアのくつろぎツリーハウス=Nebbia Relax Tree House
+ギルドハウス内にネビアが出現=Nebbia appears in the Guildhouse
 ピップルのおうち=Pipple house
 今日は何しようかな=What shall we do today?
-ネビアのやすらぎビオトープ=Yasuragi Biotope in Navi
+ネビアのやすらぎビオトープ=Yasuragi Biotope in Nebbia
 ぐるぐるうさぎさん=Circling rabbit
 ハロウィントリックボックス=Halloween Trick Box
 アイちゃんクッション=Ai Cushion

@@ -22,5 +22,11 @@ r:"^自分の物理攻撃力を(\d+)アップ範囲内の味方の行動速度�
 円心裂波+=Cyclone Smash+
 前方範囲内の敵すべてに物理中ダメージを与えてスタンさせ、さらに目の前の敵１キャラを大きく吹き飛ばす。=Deals moderate P.DMG to all enemies in range and Stuns them, and knockbacks an enemy directly in front.
 
+##S2+##
+琉球犬唄+=Ryukyu Calypso+
+自分を中心とした範囲内の味方の行動速度を大アップさせる。さらに、自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップ、ＴＰを中回復する。=Massively boosts own P.ATK, slightly boosts own P.CRIT DMG and moderately recovers own TP. Also greatly boosts allies' action speed in range.
+r:"^範囲内の味方の行動速度アップ自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを6％アップ自分のＴＰを150回復$"=►Boosts allies' action speed in 300 range to 155% for 12s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 6% for 180s.\n►Recovers own TP by 150.
+
 ##UE##
 琉球犬式・神舞之籠手=Ryukyu-Ken Style: Divine Dance Gauntlet
+琉球犬式・踊三線=Ryukyu Dog Style: Dance Sanshin

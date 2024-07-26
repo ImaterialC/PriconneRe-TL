@@ -17,18 +17,20 @@
 フラワーマドンナ=Flower Madonna
 
 ドロゲーター=Drogator
+
 【物理】盗賊ギルド、バンディ=[Physical] Bandit, a member of the Thief Guild.
 シスターズ次女。戦闘中後方でおびえているワカナを助けるために、スパイク=The second of the Sisters. She aids the frightened Wakana in the rear during battles, while the Spike Brothers block the path of adventurers.
 
 獲物を求め水辺を猛毒で満たす、サンショウウオの魔物。漏れるほどに溜め込んだ猛毒は、近づくだけで意識を奪う危険物。=A salamander monster that fills waterside with deadly poison in search of prey. The deadly poison that has accumulated to the point of leaking out is a dangerous substance that deprives you of consciousness just by approaching it.
-最もＨＰの割合が低い味方１キャラのＨＰを中回復させる。=Moderately restores the HP of the ally with the lowest HP percentage.
-敵全体に魔法中ダメージを与え、毒状態にする。さらに猛毒状態にする。=Inflicts M.DMG to all enemies and poisons them. Make it even more poisonous.
-前方範囲内の敵に魔法小ダメージを与え、猛毒状態にする。=Deals small M.DMG to enemies within range and inflicts poisonous state.
+
+
+敵全体に物理中ダメージを与え、自分の行動速度を上げる。=Inflicts moderate P.DMG to all enemies and boost own action speed.
+
 荒れ山の捕食者として君臨する、凶悪な怪鳥獣。狩りを続けることでつくりあげた膂力と剛爪が、侵入者をつけ狙う。=A ferocious monster bird that reigns as a predator in the deserted mountains. The physical strength and stiff claws built up by continuing to hunt will stalk intruders.
 敵全体に物理大ダメージを与え、ＴＰ上昇をダウンさせる。発動するたびにダメージがアップする。この効果は最大３回まで累積する。=Deals large P.DMG to all enemies and reduces TP increase. Damage boost with each activation. This effect stacks up to 3 times.
 後ろから２番目の敵を中心にした小範囲に物理小ダメージを与え、麻痺状態にする。=Deals small P.DMG in a small area centering on the second enemy from the back and paralyzes them.
 強靭な脚と鋭利なツメで獲物を一瞬で狩る、獰猛な恐竜。滅びた大地でマグマを喰らい、生存の道を見つけた孤高の存在。=A ferocious dinosaur that instantly hunts prey with its strong legs and sharp claws. A solitary existence that found a way to survive by eating magma in the ruined land.
-敵全体に物理中ダメージを与え、自分の行動速度を上げる。=Inflicts moderate P.DMG to all enemies and boost own action speed.
+
 前方3キャラに物理中ダメージを与え、行動速度を下げる。=Inflicts moderate P.DMG to 3 characters in front and slows down their action speed.
 頭から放つ毒攻撃とツタによる範囲物理攻撃で近づく冒険者の体力を一気に奪う悪魔の花。=A demonic flower that uses a poisonous attack from its head and a ranged P.ATK with vines to drain away the physical strength of adventurers who approach it.
 前方2キャラに物理中ダメージを与える。=Inflicts moderate P.DMG to 2 characters in front.
@@ -38,8 +40,6 @@
 ランダムな敵を中心にした小範囲に、物理小ダメージを与え、暗闇状態にする。=Deals small P.DMG to a small area centered on random enemies and causes darkness.
 王家の装備を狙う、天才発明家の三女。浮遊兵器から銃撃の嵐や特大爆弾をお見舞いし、敵が慌てふためく姿を上空から嘲笑う。=The third daughter of a genius inventor who aims for royal equipment. She showers enemies with storms of gunfire and massive bombs from her floating weaponry, mocking their panicked reactions from high above.
 バトル開始時、自身の物理防御力と魔法防御力を極大アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=At the beginning of battle, greatly increases her own P.DEF and M.DEF. The boosted defense from this effect is not affected by skills that reduce defense during battle.
-バトル開始時、自身にＴＰダウン100％カット効果を付与する。=At the beginning of battle, grants itself a 100% reduction in TP consumption effect.
-フブキから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Fubuki reduces the TP recovery amount of party members to a moderate extent.
 フブキのＨＰが一定値以下になると、浮遊兵器が墜落し行動不能になる。行動不能の間、自身の物理防御力と魔法防御力が０になる。=When Fubuki's HP falls below a certain threshold, her floating weaponry crashes and becomes unable to act. During this inability to act, her P.DEF and M.DEF become 0.
 ユニオンバーストは、敵全体のバリアを解除し、物理特大ダメージを与え、さらにスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Removes barriers from all enemies, deals massive P.DMG, and inflicts stun. The status effects from this skill are still applied even if damage is negated.
 通常攻撃は最も近い敵１キャラに物理大ダメージを与え、さらにスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Normal attacks deal massive P.DMG and inflict stun to the nearest enemy character. The status effects from this skill are still applied even if damage is negated.
@@ -60,7 +60,6 @@
 バトル開始時、自身にダメージ上限スキルを使用し、一度の行動で受けるダメージの値が一定を超えた場合、ダメージ量を減少させる。=At the start of the battle, applies a damage cap skill to oneself. If the value of damage received in a single action exceeds a certain amount, reduces the damage.
 バトル開始時、自身の物理防御力と魔法防御力を小アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of the battle, slightly boosts own P.DEF and M.DEF. The boost in defense from this effect is not affected by defense reduction skills received during battle.
 バトル開始時、自身にＴＰダウン50%カット効果を付与する。=At the start of the battle, grants oneself a 50% reduction in TP decrease effect.
-ルナティックベアから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を小ダウンさせる。=Reduces the TP recovery amount of party characters from damage taken from Lunatic Bear.
 ユニオンバーストは、最も近い敵１キャラを中心にした小範囲に物理特大ダメージを与え、さらにスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: deals massive P.DMG in a small area centered around the nearest enemy and inflicts stun. The status effects of this skill are applied even if the damage is nullified.
 最も近い敵１キャラを中心にした小範囲に物理大ダメージを与え、物理防御力を特大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG in a small area centered around the nearest enemy and massively reduces P.DEF. The status effects of this skill are applied even if the damage is nullified.
 大輪の蓮花を模した魔物。絢爛なる装いから放たれる花吹雪は美しくも烈々と獲物に襲い掛かる。=A magical creature resembling a large lotus flower. The splendidly adorned creature releases a shower of flowers that is both beautiful and fiercely attacks its prey.
@@ -73,13 +72,11 @@
 敵全体に物理中ダメージを与える。=Deals medium P.DMG to all enemies.
 前方範囲内の敵に物理大ダメージを与える。=Deals massive P.DMG to enemies in the front area.
 大河に棲む大ワニの魔物。マヌケな顔で、不思議な槍で大地を融解させ敵の動きを封じる。=A magical creature, a giant crocodile residing in the great river. With a comical face, it melts the earth with a mysterious spear, restraining the movements of its enemies.
-ドロゲーターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Causes a moderate reduction in TP recovery for party characters every time it takes damage from the Drogator.
 ユニオンバーストは、挑発を無視して前から３番目の敵を中心にした小範囲に物理大ダメージを与える。さらに敵全体の行動速度を大ダウンさせ、このスキルでダメージを与えた敵の数に応じてＴＰをダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Ignores provocation and deals massive P.DMG in a small area centered on the third enemy from the front. Additionally, greatly reduces the action speed of all enemies and reduces TP based on the number of enemies damaged by this skill. The status effects from this skill are applied even if the damage is nullified.
 挑発を無視して前から３番目の敵を中心にした小範囲に物理小ダメージを与え、束縛状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Ignores provocation and deals minor P.DMG in a small area centered on the third enemy from the front, inflicting a binding state. The status effects from this skill are applied even if the damage is nullified.
 
 塔の魔力に導かれた無邪気な奇術師。披露する手品は楽しめたものではなく凶悪な兵器。=An innocent magician guided by the tower's magic power. The tricks displayed are not mere entertainment but rather deadly weapons.
 バトル開始時、自身の物理防御力と魔法防御力を中アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of the battle, Boosts own P.DEF and M.DEF to medium. The increased defense is not affected by P.DEF reduction skills during the battle.
-イノセントマジシャンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces party TP recovery by medium for all damage received from the Innocent Magician.
 ユニオンバーストは、異次元より取り出したアイテムで攻撃を仕掛ける。アイテムによって効果が変化する。ハンマーの場合、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、物理攻撃力を大幅にダウンさせる。シンバルの場合、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、魔法攻撃力を大幅にダウンさせる。ボムの場合、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、スタン状態にする。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Attacks with items extracted from another dimension. The effect varies depending on the item used. With a Hammer, deals a percentage of character's max HP as P.DMG to all enemies and greatly reduces P.ATK. With Cymbals, deals a percentage of character's max HP as P.DMG to all enemies and greatly reduces M.ATK. With a Bomb, deals a percentage of character's max HP as P.DMG to all enemies and inflicts Stun. The abnormal status of this skill persists even if damage is nullified.
 一番前の敵を中心に、範囲内の敵すべてに物理中ダメージを与え、さらにノックバックさせる。=Deals medium P.DMG to all enemies within the range, centered on the frontmost enemy, and knocks them back.
 一定範囲内の敵すべてに物理中ダメージを与える。=Deals medium P.DMG to all enemies within a certain range.
@@ -275,7 +272,6 @@
 
 ルナの魔力を帯び変異した巨大トカゲ。硬い棘状のうろこが、敵の体力と鎧を削り落とす。=A giant lizard mutated by Luna's magic. Its hard spike-like scales chip away at the enemy's health and armor.
 敵全体に物理大ダメージを与え、さらにＴＰを下げる。=Deals large P.DMG to all enemies and further decreases their TP.
-前方2キャラに物理中ダメージを与え、毒状態にする。=Deals P.DMG to the first two characters from the front and inflicts poison status.
 前方3キャラに物理中ダメージを与える。さらに前方1キャラに物理大ダメージを与え、物理防御力と魔法防御力を中ダウンさせる。=Deals P.DMG to the first three characters from the front, deals large P.DMG to the frontmost character, and decreases their P.DEF and M.DEF.
 
 
@@ -313,26 +309,22 @@
 
 イクト・ガラディオン=Icto Galadion
 紅き邪剣を尾に宿す、凶暴な大毒蛇。獲物を毒息で弱らせ、一撃必殺の剣で葬り去る。=A ferocious giant serpent harboring a crimson evil sword on its tail. It weakens its prey with toxic breath and finishes them off with a deadly strike.
-ソードコブラから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters with every damage received from Sword Cobra.
 ユニオンバーストは、物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラに物理固定ダメージを与える。毒状態の場合は追加の物理固定ダメージを与え、猛毒状態の場合はさらに追加の物理固定ダメージを与える。その後、敵全体のＨＰ吸収を特大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals fixed P.DMG to the enemy character with the highest attack, whether it's or magical. If the target is poisoned, additional fixed P.DMG is dealt, and if it's severely poisoned, even more additional fixed P.DMG is dealt. Then, massively decreases the enemy's HP absorption. The status effects of this skill are applied even if the P.DMG is nullified.
 敵全体に魔法中ダメージを与える。さらに毒状態ではない場合は毒状態を付与し、毒状態の場合は猛毒状態を付与する。=Deals medium M.DMG to all enemies. Additionally, inflicts poison if not already poisoned, and inflicts severe poison if already poisoned.
 通常攻撃は最も近い敵１キャラに物理大ダメージを与え、毒状態を付与する。=Normal attacks deal massive P.DMG to the nearest enemy character and inflict poison.
 ソードコブラの付与する毒のダメージでは、ＴＰが回復しない。=The damage caused by Sword Cobra's poison does not recover TP.
 
 怪力が自慢の、凶暴な一つ目巨人。瞳に魔力をみなぎらせ、強力な怪光線を放つ。=A ferocious one-eyed giant boasting immense strength. It charges its eyes with magic power, unleashing powerful beams of light.
-サイクロプスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters with every damage received from Cyclops.
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、物理攻撃力を大ダウン、魔法攻撃力を中ダウン、ＴＰを大ダウンさせ、ステータスアップ効果を解除する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals M.DMG to all enemies based on the character's maximum HP, massively reduces P.ATK, moderately reduces magical attack, greatly reduces TP, and removes status enhancement effects. The status effects of this skill are applied even if the damage is nullified.
 挑発を無視して、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラを中心とした小範囲に物理大ダメージを与え、スタン状態を付与し、行動速度を中ダウンさせる。このスキルによるダメージでは、キャラのＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Ignores provocation and inflicts massive P.DMG, stun, and moderate reduction in movement speed on a small area centered around the enemy character with the highest or magical attack. TP does not recover from the damage caused by this skill, and the status effects of this skill are applied even if the P.DMG is nullified.
 
 
 暴食の君主に仕える、近衛の黒鉄像。冥府を彷徨いし魂を巧みに操り、主に捧げる。=A black iron statue guarding the gluttonous ruler, serving adeptly by manipulating souls wandering in the underworld as offerings to its master.
-ダークガーゴイルから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters with every damage received from Dark Gargoyle.
 ユニオンバーストは、物理攻撃をする敵全体に自身の物理防御力に応じたダメージを与える火傷状態を付与し、魔法攻撃をする敵全体に自身の魔法防御力に応じたダメージを与える火傷状態を付与する。さらに、敵全体のＨＰ吸収を特大ダウンさせる。このスキルにより付与された火傷のダメージでは、ＴＰが回復しない。=Union Burst: Inflicts damage based on its own P.DEF to all enemies performing P.ATKs, applying a burn status, and inflicts damage based on its own M.DEF to all enemies performing magical attacks, also applying a burn status. Additionally, greatly reduces the HP absorption of all enemies. TP does not recover from the burn damage caused by this skill.
 敵全体に物理小ダメージを与え、ノックバックさせる。さらに、最も近い敵１キャラに追加の魔法固定ダメージを与える。このスキルによるダメージでは、敵のＴＰが回復しない。=Deals small P.DMG to all enemies, knocking them back. Additionally, deals additional fixed M.DMG to the nearest enemy character. TP does not recover from the damage caused by this skill.
 
 強靭な脚と鋭利なツメを操る獰猛な恐竜。滅びた大地でマグマを喰らい生きる孤高の存在。=A fierce dinosaur wielding powerful legs and sharp claws. It thrives in the desolate land, consuming magma and existing as a solitary being.
 バトル開始時、敵全体のＴＰ上昇を小ダウンさせるフィールドを展開する。=At the start of battle, it deploys a field that reduces the TP Boost of all enemies to small amount.
-バーンサウルスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を大ダウンさせる。=All damage received from Burn Saurus causes a large reduction in the TP recovery amount for party characters.
 敵から受けるすべてのダメージで発生する、バーンサウルスのＴＰ回復量が大ダウンする。=All damage received from enemies causes a large reduction in Burn Saurus's TP recovery amount.
 ユニオンバーストは、最も近い敵１キャラを中心とした範囲に物理特大ダメージを与え、敵全体の行動速度を大ダウンさせ、さらに自身の行動速度を特大アップさせる。範囲内の敵の数に応じて、このスキルのダメージがダウンする。このスキルによるダメージでは、敵のＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG to the enemy character closest to it and the surrounding area, greatly reducing the action speed of all enemies and greatly increasing its own action speed. The damage of this skill decreases based on the number of enemies within the area. The skill's damage does not recover enemy TP. The skill's status effect is applied even if damage is negated.
 最も近い敵１キャラを中心とした範囲に物理中ダメージを与え、さらに物理防御力を特大ダウンさせる。範囲内の敵の数に応じて、防御力の減少量がダウンする。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium P.DMG to the enemy character closest to it and the surrounding area, and greatly reduces their P.DEF. The amount of defense reduction decreases based on the number of enemies within the area. The skill's status effect is applied even if damage is negated.
@@ -340,9 +332,6 @@
 ユニオンバーストは、最も近い敵１キャラを中心とした範囲に物理特大ダメージを与え、敵全体の行動速度を中ダウンさせ、さらに自身の行動速度を特大アップさせる。範囲内の敵の数に応じて、このスキルのダメージがダウンする。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG to the enemy character closest to it and the surrounding area, greatly reducing the action speed of all enemies to a medium amount and greatly increasing its own action speed. The damage of this skill decreases based on the number of enemies within the area. The skill's status effect is applied even if damage is negated.
 
 サイクロプス=Cyclops
-バトル開始時、自身にＴＰダウン25％カット効果を付与する。=At the start of the battle, bestows a 25% reduction in TP consumption effect on itself.
-
-
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、物理攻撃力を大ダウン、魔法攻撃力を中ダウン、ＴＰを小ダウンさせ、ステータスアップ効果を解除する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals M.DMG proportionate to the character's maximum HP to all enemies, greatly reduces P.ATK, moderately reduces M.ATK, reduces TP to a small extent, and removes status enhancement effects. The status ailments caused by this skill are applied even if the damage is nullified.
 挑発を無視して、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラを中心とした小範囲に物理大ダメージを与え、スタン状態を付与し、行動速度を小ダウンさせる。このスキルによるダメージでは、キャラのＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Ignores provocation and deals massive P.DMG to a small area centered around the enemy character with the highest P.ATK or M.ATK, inflicting Stun and reducing action speed to a small extent. TP does not recover from the damage inflicted by this skill. The status ailments caused by this skill are applied even if the damage is nullified.
 
@@ -350,12 +339,9 @@
 敵から受けるすべてのダメージで発生する、ダークガーゴイルのＴＰ回復量が大ダウンする。=Damage inflicted upon Dark Gargoyle by enemies greatly reduces its TP recovery amount.
 
 ユニオンバーストは、物理攻撃をする敵全体に自身の物理防御力に応じたダメージを与える火傷状態を付与し、魔法攻撃をする敵全体に自身の魔法防御力に応じたダメージを与える火傷状態を付与する。さらに、敵全体のＨＰ吸収を大ダウンさせる。このスキルにより付与された火傷のダメージでは、ＴＰが回復しない。=Union Burst: Deals small P.DMG to all enemies, knocking them back. Damage from this skill does not restore TP to the enemy.
-敵全体に物理小ダメージを与え、ノックバックさせる。このスキルによるダメージでは、敵のＴＰが回復しない。=
 
 フロストハウンド=Frosthound
 氷河地帯を支配する厳霜の魔狼。冷酷な仔らが標的を貫き、氷爪が獲物を引き裂く。=A frosty magical wolf that rules the glacial region. Its cruel offspring pierce their targets, and its icy claws tear prey apart.
-バトル開始時、自身にＴＰダウン50％カット効果を付与する。=At the start of battle, grants itself a 50% reduction in TP consumption effect.
-フロストハウンドから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Frost Hound reduces the TP recovery amount of party members to a moderate extent.
 敵から受けるすべてのダメージで発生する、フロストハウンドのＴＰ回復量が大ダウンする。=The TP recovery amount of Frost Hound is greatly reduced for all damage received.
 ユニオンバーストは、最も近い敵を中心にした中範囲の最大３キャラに魔法特大ダメージを与え、凍結状態を付与し、自身の魔法防御力を小アップさせる。さらにこのスキルで敵を倒した場合、自身の魔法防御力を特大アップさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive M.DMG to a maximum of three characters in a medium area centered on the nearest enemy, inflicts the freeze state, and slightly boosts its own defense. Additionally, if this skill defeats an enemy, greatly boosts its own M.DEF. The status effects of this skill are applied even if the M.DMG is nullified.
 最も近い敵を中心にした中範囲の最大３キャラに魔法中ダメージを与え、魔法防御力を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium M.DMG to a maximum of three characters in a medium area centered on the nearest enemy, and moderately reduces their defense. The status effects of this skill are applied even if the M.DMG is nullified.
@@ -364,7 +350,6 @@
 
 ゴブリングレート=Goblin Great
 豪快に戦斧を振るう熟練のゴブリン戦士。幼き戦士を脇に抱え、魂の技を見せ付ける。=A skilled goblin warrior wielding a battle axe with great gusto. Carrying a young warrior by its side, it demonstrates the techniques of the soul.
-ゴブリングレートから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Goblin Great inflicts a moderate reduction in TP recovery amount for party members.
 ユニオンバーストは、自身の物理攻撃力と物理防御力を小アップさせ、最も近い敵１キャラに物理特大ダメージを与え、さらにスタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Slightly boosts its own P.ATK and P.DEF, deal massive P.DMG to the nearest enemy character and additionally inflicts the Stun status. The status ailments caused by this skill are applied even if the damage is nullified.
 最も近い敵１キャラに物理特大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG to the nearest enemy character and inflicts the Stun status. The status ailments caused by this skill are applied even if the damage is nullified.
 
@@ -375,7 +360,6 @@
 敵から受けるすべてのダメージで発生する、ゴブリングレートのＴＰ回復量が大ダウンする。=When taking damage from enemies, Goblin Great's TP recovery is greatly reduced.
 最も近い敵１キャラに物理大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG to the nearest enemy, inflicting the Stun status. The status effects from this skill are applied even if the damage is nullified.
 人竜一体となって戦うゴブリン騎手。敏速に空を駆け巡り、地上の敵に襲いかかる。=A goblin rider who combines with a dragon to fight as one. They swiftly fly through the air and attack enemies on the ground.
-ゴブリンライダーから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を大ダウンさせる。=All damage received from Goblin Rider causes a large reduction in the TP recovery amount for party characters.
 敵から受けるすべてのダメージで発生する、ゴブリンライダーのＴＰ回復量が大ダウンする。=All damage received from enemies causes a large reduction in Goblin Rider's TP recovery amount.
 ユニオンバーストは、最も遠い敵３キャラに物理大ダメージを与え、さらにスタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals large P.DMG to the three farthest enemy characters and inflicts Stun status. The skill's status effect is applied even if damage is negated.
 最も遠い敵２キャラに物理小ダメージを与え、物理防御力を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals small P.DMG to the two farthest enemy characters and greatly reduces their P.DEF. The skill's status effect is applied even if damage is negated.
@@ -385,7 +369,6 @@
 
 あらゆる魂を貪る、天秤座の魔星獣。その天秤は、厳正とは程遠く暴食獣の食欲に傾く。=The celestial beast of the Libra constellation that devours all souls. Its balance leans far from justice, swayed by the Grattonous beast's appetite.
 物理攻撃力ダウンと魔法攻撃力ダウン効果の影響を受けやすい。=Susceptible to the effects of P.ATK Down and M.ATK Down.
-グラットンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Gratton reduces the TP recovery amount of party members to a moderate extent.
 ユニオンバーストは、敵全体に自身の物理攻撃力に応じた物理割合ダメージを与え、自身の魔法攻撃力に応じて物理攻撃力と魔法攻撃力をダウンさせる。さらに、自身の物理攻撃力と魔法攻撃力を特大アップさせる。このスキルによるダメージでは、敵のＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals percentage P.DMG to all enemies based on its own P.ATK, reduces their P.ATK and M.ATK by massive amount, and greatly increases its own P.ATK and M.ATK. Damage from this skill does not restore the enemy's TP. The status effects of this skill persist even if the P.DMG is nullified.
 最も遠い敵２キャラに物理特大ダメージ。=Deals massive P.DMG to the two farthest enemies. Damage from this skill does not restore the enemy's TP.
 敵全体に魔法小ダメージを与え、自身の魔法攻撃力に応じてＴＰをダウンさせる。さらに、自身のＴＰを中アップさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals small M.DMG to all enemies, reduces their TP based on its own M.ATK, and moderately increases its own TP. This skill reduces TP even if the damage is nullified.
@@ -395,7 +378,6 @@
 向かって右側のターゲットのブレイク時、自身の魔法攻撃力が特大ダウン。=Upon the break of the right target, decreases its own M.ATK by a massive amount.
 
 闇に紛れ、人里で盗みを働く魔物の頭目。くすねたエモノを器用に使って戦う、ならず者。=A creature of darkness, the leader of thieves who pilfer in human settlements. Skillful in using stolen goods to fight, this rogue operates on the fringes.
-ジャッカルシーフから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Jackal Thief reduces the TP recovery amount of party members to a moderate extent.
 敵から受けるすべてのダメージで発生する、ジャッカルシーフのＴＰ回復量が大ダウンする。=Damage inflicted upon Jackal Thief by enemies massively reduces its TP recovery amount.
 ユニオンバーストは、敵全体に物理大ダメージを与え、短時間麻痺状態にする。毒状態の場合は長時間麻痺状態にする。このスキルの状態異常はダメージを無効化しても付与される。このスキルによるダメージでは、敵のＴＰが回復しない。=Union Burst: Deals massive P.DMG to all enemies, inducing a brief paralysis. If in a poisoned state, it causes a prolonged paralysis. The status effects of this skill persist even if the damage is nullified. Damage inflicted by this skill does not restore the enemy's TP.
 敵全体に物理中ダメージを与え、ＨＰ吸収を特大ダウンさせ、毒状態を付与する。このスキルによるダメージと付与された毒のダメージでは、ＴＰが回復しない。=Deals moderate P.DMG to all enemies, greatly reducing HP absorption, and inflicts a poison state. Damage from this skill and the resulting poison does not restore TP.
@@ -405,7 +387,6 @@
 
 カルキノス=Karkinos
 幾多の船を沈めた蟹座の魔星獣。大海の覇者は万物を断裁し、圧潰し、殲滅する。=A Cancer monster that has sunk many ships. The ruler of the vast sea that severs, crushes, and annihilates all things.
-カルキノスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Inflicts a moderate reduction in TP recovery for party members whenever damage is taken from Karkinos.
 ユニオンバーストは、敵全体に自身の魔法攻撃力に応じた魔法固定ダメージを与える。その後、自身の魔法攻撃力を中アップさせる。このスキルによるダメージでは、敵のＴＰが回復しない。=Union Burst: Deals fixed M.DMG to all enemies based on its own M.ATK. Then, increases its own M.ATK to a moderate extent. The damage from this skill does not restore enemy TP.
 前から１番目のキャラを中心とした小範囲に物理特大ダメージを与え、さらにスタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG in a small area centered around the first character from the front and inflicts stun. The status ailment from this skill is still applied even if the damage is nullified.
 敵全体に物理小ダメージを与え、ノックバックさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals small P.DMG to all enemies and knocks them back. The status ailment from this skill is still applied even if the damage is nullified.
@@ -417,7 +398,6 @@
 
 ランドスロース=Land Sloth
 夢うつつの狭間で惰眠を貪るナマケモノ。眠りを妨げると怒り狂い、超能力で暴れまわる。=A sloth that indulges in idle sleep in the realm between dreams and reality. If its sleep is disturbed, it goes into a rage and rampages with psychic powers.
-ランドスロースから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Generates a moderate TP reduction in the TP recovery amount of party members with all damage received from Land Sloth.
 敵から受けるすべてのダメージで発生する、ランドスロースのＴＰ回復量が大ダウンする。=Causes a massive TP reduction in Land Sloth's TP recovery amount with all damage received from enemies.
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、物理攻撃力を特大ダウン、魔法攻撃力を中ダウンさせ、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals percentage M.DMG to all enemies based on the character's maximum HP, massively decreases their P.ATK, moderately decreases their M.ATK, and inflicts stun. The status ailment from this skill is applied even if the damage is nullified.
 敵全体に魔法小ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。= Deals small M.DMG to all enemies and inflicts stun. The status ailment from this skill is applied even if the damage is nullified.
@@ -428,7 +408,6 @@
 敵全体に魔法中ダメージを与える。=Deals medium M.DMG to all enemies.
 
 信仰を失った神殿に遺る、蠍座の魔星獣。過去に受けた敬虔な祈りも忘れ、破滅をもたらす。=A celestial beast of the Scorpio constellation that lingers in a temple bereft of faith. It has forgotten the devout prayers it once received and now ushers in destruction.
-レサトパルトから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=When taking damage from Lesathapult, it decreases the TP recovery amount of party members.
 ユニオンバーストは、敵全体に物理大ダメージを与える。このスキルを使用した後、敵を攻撃するたび、以降その敵にレサトパルトが与えるダメージがアップする。この効果は最大３回まで累積する。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: Deals massive P.DMG to all enemies. After using this skill, Lesathapult will deal more damage with each subsequent attack on the same enemy, stacking up to three times. This effect does not recover TP when dealing damage.
 最も近い敵１キャラを中心にした小範囲に物理中ダメージを与え、毒状態を付与する。このスキルにより付与された毒のダメージでは、ＴＰが回復しない。=Deals moderate P.DMG in a small area centered around the nearest enemy and inflicts the Poison status. The TP does not recover from the damage and poison effects caused by this skill.
 自身の物理防御力、魔法防御力を中アップさせる。レサトガードが存在する場合、さらに自身の物理攻撃力を大アップさせる。存在するレサトガードの数に応じて、物理防御力、魔法防御力、物理攻撃力の上昇量がアップする。=Boosts its own P.DEF and M.DEF to a moderate amount. If Lesat Guards are present, it further greatly boosts its P.ATK. The amount of boost in P.DEF, M.DEF, and P.ATK depends on the number of Lesat Guards present.
@@ -439,7 +418,6 @@
 
 
 魔力を蓄え雷撃として放電する怪鳥。雷雲と共に顕現し、天災の如き雷で敵を葬り去る。=A mysterious bird that stores magic power and releases it as thunderbolts. It appears with thunderclouds and annihilates enemies with calamitous lightning.
-マダムエレクトラから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Madame Electra causes a medium reduction in the TP recovery amount for party characters.
 敵から受けるすべてのダメージで発生する、マダムエレクトラのＴＰ回復量が大ダウンする。=All damage received from enemies causes a large reduction in Madame Electra's TP recovery amount.
 ユニオンバーストは、自身の魔法攻撃力と魔法防御力を小アップさせ、最も近い敵１キャラに魔法特大ダメージを与え、麻痺状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Increases its own ATK and M.DEF to a small amount, then deals massive M.DMG to the enemy character closest to it and inflicts Paralysis status. The skill's status effect is applied even if M.DMG is negated.
 最も近い敵１キャラに魔法特大ダメージを与え、麻痺状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to the enemy character closest to it and inflicts Paralysis status. The skill's status effect is applied even if damage is negated.
@@ -447,7 +425,6 @@
 ユニオンバーストは、自身の魔法攻撃力と魔法防御力を小アップさせ、最も近い敵１キャラに魔法特大ダメージを与える。=Union Burst: Increases its own magic ATK and M.DEF to a small amount, then deals massive M.DMG to the enemy character closest to it.
 
 果てのない愛憎に狂う乙女座の魔星獣。凄まじい嫉妬と拒絶が見るもの全てを石化させる。=A celestial beast of the Virgo sign driven by boundless love and hatred. Its intense jealousy and rejection turn all that it gazes upon into stone.
-メデューサから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を小ダウンさせる。=All damage received from Medusa reduces the TP recovery amount of party members to a small extent.
 ユニオンバーストは、敵全体に魔法大ダメージを与え、短時間石化状態にする。猛毒状態の場合、長時間石化状態にする。このスキルによるダメージでは、キャラのＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals large M.DMG to all enemies and petrifies them for a short duration. If under Poison status, petrifies them for a longer duration. TP does not recover from the damage dealt by this skill. The status effect from this skill is applied even if damage is nullified.
 敵全体に物理中ダメージを与え、ＨＰ回復量を大ダウンさせ、ＨＰ吸収を特大ダウンさせる。猛毒状態の場合、さらにＴＰを中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium P.DMG to all enemies, greatly decreases their HP recovery amount, and greatly decreases HP absorption. If under Poison status, additionally reduces TP. The status effect from this skill is applied even if damage is nullified.
 後ろから２番目の敵を中心にした小範囲に魔法小ダメージを与え、毒状態を付与する。キャラのＨＰが60％未満の場合、猛毒状態を付与する。このスキルにより付与された毒と猛毒のダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Deals small M.DMG to a small area centered around the second enemy from the back and inflicts Poison. If character HP is below 60%, inflicts Deadly Poison. TP does not recover from the damage dealt by Poison and Deadly Poison inflicted by this skill. The status effect from this skill is applied even if damage is nullified.
@@ -457,7 +434,6 @@
 
 
 巨体を駆使して暴れ回る大ウサギの魔物。繰り出す一撃は消耗が大きく、持てあまし気味。=A monstrous rabbit creature that rampages using its huge body. Its powerful strikes take a toll on its stamina.
-メガラパーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=When taking damage from Mega Laphan, it moderately decreases the TP recovery amount of party members.
 敵から受けるすべてのダメージで発生する、メガラパーンのＴＰ回復量が大ダウンする。=When taking damage from enemies, Mega Laphan's TP recovery is greatly reduced.
 ユニオンバーストは、敵全体に物理中ダメージを与え、ノックバックさせる。さらにキャラのＨＰが95％未満の場合、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: Deals medium P.DMG to all enemies, knocking them back. Additionally, if a character's HP is below 95%, inflicts the Stun status. The status effects from this skill are applied even if the damage is nullified. TP is not recovered from the damage caused by this skill.
 敵全体に物理小ダメージを与えて吹き飛ばす。その後、自身のＴＰを中回復。このスキルによるダメージでは、ＴＰが回復しない。=Deals small P.DMG to all enemies, knocking them away. Afterwards, moderately recovers self TP. TP is not recovered from the damage caused by this skill.
@@ -469,7 +445,6 @@
 
 ネプテリオン=Nepturion
 海神の使者で、不思議な軟体の魔物。身体のほとんどは魔力を帯びた海水だとか。=A mysterious soft-bodied magical creature, the messenger of the sea god. Most of its body is said to be composed of magical seawater.
-ネプテリオンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を小ダウンさせる。=All damage received from Nepturion reduces the TP recovery amount of party members to a small extent.
 ユニオンバーストは、敵全体に魔法大ダメージを与え、さらに物理攻撃力と魔法攻撃力を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。このスキルによるダメージでは、敵のＴＰが回復しない。=Union Burst: Deals massive M.DMG to all enemies and greatly reduces their P.ATK and M.ATK. The status ailment from this skill is still applied even if the damage is nullified. The damage from this skill does not restore enemy TP.
 敵の挑発を無視して、前から４番目のキャラを中心とした小範囲に継続魔法小ダメージを与える。このスキルによるダメージでは、敵のＴＰが回復しない。=Ignores enemy provocation and deals continuous small M.DMG in a small area centered around the fourth character from the front. The damage from this skill does not restore enemy TP.
 通常攻撃は敵の挑発を無視して、前から４番目のキャラに魔法特大ダメージを与え、そのキャラを中心とした小範囲に行動速度を特大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Normal attacks ignore enemy provocation and deal massive M.DMG to the fourth character from the front, causing a massive decrease in their action speed in a small area centered around that character. The status ailment from this skill is still applied even if the damage is nullified.
@@ -479,7 +454,6 @@
 
 特異な力で変質したオークリーダー。巨大な盾で、攻防一体の一撃を繰り出す。=A transformed Orc Leader with unique powers. It delivers a single strike that combines offense and defense, using its massive shield.
 物理攻撃力ダウン効果の影響を受けやすい。=More susceptible to the effects of P.ATK reduction.
-オークチーフから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Orc Chief reduces the TP recovery amount of party members to a moderate extent.
 敵から受けるすべてのダメージで発生する、オークチーフのＴＰ回復量が大ダウンする。=Decreases the TP recovery amount of the Orc Chief by a large amount from all damage received.
 ユニオンバーストは、前から３キャラにオークチーフの物理攻撃力に応じた物理固定ダメージを与え、スタン状態を付与する。さらにこのスキルで敵を倒した場合、自身のＴＰを特大回復する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals fixed P.DMG to the three characters in front based on the Orc Chief's P.ATK and inflicts Stun. Additionally, if this skill defeats an enemy, greatly recovers its own TP. The status effect from this skill is applied even if damage is nullified.
 前から２キャラのＴＰを小ダウンさせ、ＨＰ吸収を特大ダウンさせる。さらに自身のＴＰを小回復し、物理防御力を小アップさせ、行動速度を大アップさせる。=Reduces TP of the two characters in front and greatly decreases HP absorption. Furthermore, slightly recovers its own TP, slightly boosts P.DEF, and greatly increases action speed.
@@ -492,7 +466,6 @@
 
 荒涼たる原野に君臨する獅子座の魔星獣。鋭爪で大気を切裂き、業火の咆哮が大地を焦がす。=The empowered magical celestial beast of Leo constellation reigning over the desolate wasteland. Its sharp claws tear through the atmosphere, and its roar of inferno scorches the earth.
 バトル開始時、敵全体のＴＰ上昇を中ダウンさせるフィールドを展開する。=At the start of battle, it deploys a field that reduces the TP Boost of all enemies to medium amount.
-オルレオンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を小ダウンさせる。=All damage received from Orleon causes a small reduction in the TP recovery amount for party characters.
 敵から受けるすべてのダメージで発生する、オルレオンのＴＰ回復量が大ダウンする。=All damage received from enemies causes a large reduction in Orleon's TP recovery amount.
 ユニオンバーストは、敵全体に物理中ダメージを与え、短時間火傷状態を付与する。キャラのＨＰが70％未満の場合、長時間火傷状態を付与する。このスキルによるダメージでは、キャラのＴＰが回復しない。このスキルにより付与された火傷状態のダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals medium P.DMG to all enemies and inflicts a short-term Burn status. If the character's HP is below 70%, it inflicts a long-term Burn status. TP does not recover from the damage caused by this skill. TP does not recover from the damage caused by the Burn status inflicted by this skill. The skill's status effect is applied even if damage is negated.
 前方１キャラに物理特大ダメージを与え、火傷状態の場合はさらに追加の物理固定ダメージを与える。このスキルによる追加ダメージでは、キャラのＴＰが回復しない。=Deals large P.DMG to the first character in front and inflicts additional fixed P.DMG if Burn status is present. TP does not recover from the additional damage caused by this skill.
@@ -502,13 +475,11 @@
 
 
 熟練の戦闘術で翻弄するクワガタの魔物。豪雷を纏う技のキレに、シビれる者が続出。=A skilled combatant resembling a stag beetle, leaving onlookers mesmerized by its lightning-wreathed techniques.
-ライデンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party members when taking damage from Raiden.
 ユニオンバーストは、最も近い敵１キャラに物理特大ダメージを与える。さらに敵全体に麻痺状態を付与し、物理攻撃力と魔法攻撃力を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG to the nearest enemy. Additionally, it inflicts the Paralysis status on all enemies, while moderately lowering their P.ATK and M.ATK. These status effects persist even if damage is nullified.
 丸太状態になっている間、自身の物理防御力と魔法防御力を特大アップさせる。さらに丸太状態が解除された後、自身の物理防御力と魔法防御力を短時間大ダウンさせる。=While in log form, massively boosts its own P.DEF and M.DEF. After the log state is removed, its P.DEF and M.DEF are greatly decreased for a short duration.
 
 ライライ=Rai-Rai
 雷雲を従え、無邪気に暴れるカミナリ娘。油断すると、加減知らずの雷撃を見舞われる。=A thunderous girl who commands thunderclouds and wreaks havoc innocently. Beware, as she unleashes unbridled lightning strikes without restraint.
-ライライから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を小ダウンさせる。=All damage received from Lyrail reduces the TP recovery amount of party members to a small extent.
 ユニオンバーストは、敵全体に魔法中ダメージを与え、さらにスタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals moderate M.DMG to all enemies and inflicts a Stun status. The status ailment from this skill is still applied even if the damage is nullified.
 後方２キャラに魔法中ダメージを与え、さらにＴＰを小ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals moderate M.DMG to the back two characters and slightly reduces their TP. This skill reduces TP even if the damage is nullified.
 後方２キャラに魔法中ダメージを与え、さらに物理攻撃力と魔法攻撃力を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals moderate M.DMG to the back two characters and greatly reduces their P.ATK and M.ATK. The status ailment from this skill is still applied even if the damage is nullified.
@@ -518,7 +489,6 @@
 
 
 
-ライライから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Deals medium M.DMG to the rear two characters and slightly reduces their TP. This skill still reduces TP even if the damage is nullified.
 敵から受けるすべてのダメージで発生する、ライライのＴＰ回復量が大ダウンする。=Deals medium M.DMG to the rear two characters and greatly reduces their P.ATK and M.ATK. The status effects from this skill are applied even if the damage is nullified.
 ユニオンバーストは、敵全体に魔法大ダメージを与え、さらにスタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=
 最も遠い敵２キャラに魔法中ダメージを与え、ＴＰを小ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=
@@ -528,7 +498,6 @@
 最も遠い敵２キャラに魔法中ダメージを与える。=Deals medium M.DMG to the two farthest enemies.
 
 星穹の神殿を守護する射手座の魔星獣。万象を射抜く一閃は、紫電煌めく神域の絶技。=A Sagittarius demon star beast that protects the Starry Temple. A single flash that shoots through all the creatures is a divine technique that sparkles with purple electricity.
-サジタリウスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the amount of TP recovery for party characters that occurs from all damage received from Sagittarius.
 敵から受けるすべてのダメージで発生する、サジタリウスのＴＰ回復量が大ダウンする。=Sagittarius's TP recovery amount, which occurs from all damage received from enemies, is greatly reduced.
 ユニオンバーストは、敵全体に魔法中ダメージを与え、さらに【黒星】の数に応じて、追加の魔法割合ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: deals medium M.DMG to all enemies, and also deals additional M.DMG based on the number of [Black Stars]. TP does not recover from damage caused by this skill.
 敵全体に魔法小ダメージを与え、自身の矢に【黒星】を１追加する。さらに前方広範囲内の敵に魔法大ダメージを与え、範囲内に敵が存在する場合、自身の矢に【黒星】を２追加する。このスキルによるダメージでは、ＴＰが回復しない。=Deals small M.DMG to all enemies and adds 1 [Black Star] to your arrows. In addition, deals massive M.DMG to enemies within a wide range in front of you, and adds 2 [Black Stars] to your arrows if there are enemies within range. TP does not recover from damage caused by this skill.
@@ -545,15 +514,12 @@
 
 シードレイク=Sea Drake
 強力な氷のブレスで前衛を一瞬で氷漬けにし、咬みついて身体を砕く獰猛な深海竜。=A ferocious deep-sea dragon that freezes the vanguard in an instant with a powerful icy breath and shatters their bodies by biting.
-シードレイクから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Sea Drake reduces the TP recovery amount of party members to a moderate extent.
 ユニオンバーストは、前方３キャラに物理特大ダメージを与え、さらに物理防御力と魔法防御力を特大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG to the front three characters and greatly reduces their P.DEF and M.DEF. The status ailment from this skill is still applied even if the damage is nullified.
 前方２キャラに魔法大ダメージを与え、短時間凍結状態を付与する。キャラのＨＰが80％未満の場合、長時間凍結状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to the front two characters and inflicts a short-duration frozen state. If a character's HP is below 80%, inflicts a long-duration frozen state. The status ailment from this skill is still applied even if the damage is nullified.
 
 
 
 戦空を駆け舞う、天上の戦乙女。目にも留まらぬ連射で、敵の進行を射止める。=A celestial Valkyrie that dances through the heavens, soaring across the battlefield. With rapid-fire shots that the eye can barely follow, she halts the advance of her enemies.
-バトル開始時、自身にＴＰダウン75％カット効果を付与する。=At the beginning of battle, grants oneself a TP reduction effect of 75%.
-スカイワルキューレから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Generates a moderate TP reduction in the TP recovery amount of party members with all damage received from Sky Valkyrie.
 敵から受けるすべてのダメージで発生する、スカイワルキューレのＴＰ回復量が大ダウンする。=Causes a massive TP reduction in Sky Valkyrie's TP recovery amount with all damage received from enemies.
 ユニオンバーストは、前方範囲内の敵最大４キャラに物理特大ダメージを与え、ＴＰを大ダウンさせ、ＴＰ上昇と行動速度を特大ダウンさせる。さらにこのスキルで敵を倒した場合、自身の物理攻撃力を特大アップさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG to the front area's maximum four enemies, massively reduces their TP, and drastically reduces their TP gain and action speed. If this skill defeats an enemy, massively boosts own P.ATK. The status ailment from this skill is applied even if the damage is nullified.
 最も近い敵４キャラに物理中ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。さらに、自身の行動速度を特大アップさせる。このスキルの状態異常はダメージを無効化しても付与される。= Deals moderate P.DMG to the nearest four enemies, massively decreases their P.ATK and M.ATK, and massively Boosts own action speed. The status ailment from this skill is applied even if the damage is nullified.
@@ -562,7 +528,6 @@
 最も近い敵４キャラに物理中ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。さらに、自身の行動速度を特大アップさせる。= Deals moderate P.DMG to the nearest four enemies, massively decreases their P.ATK and M.ATK, and massively Boosts own action speed.
 
 特異な力で変質したエルダーホーン。角に魔力を込め、打撃より強力な一撃を放つ。=The Elderhorn, transformed by its unique power. It imbues its horns with magic, delivering strikes more potent than mere physical blows.
-スピリットホーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を小ダウンさせる。=All damage received from Spirit Horn causes a small reduction in the TP recovery amount for party characters.
 敵から受けるすべてのダメージで発生する、スピリットホーンのＴＰ回復量が大ダウンする。=All damage received from enemies causes a large reduction in Spirit Horn's TP recovery amount.
 ユニオンバーストは、敵の挑発を無視して、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラに魔法大ダメージを与え、麻痺状態を付与する。さらに物理攻撃力を特大ダウンさせ、魔法攻撃力を中ダウンさせ、ＴＰを毎秒小ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Ignores enemy taunts and deals massive M.DMG to the enemy character with the highest P.ATK or M.ATK, inflicting Paralysis status. Additionally, it greatly decreases the target's P.ATK, moderately decreases their M.ATK, and reduces their TP every second to small amount. The skill's status effect is applied even if damage is negated.
 敵全体に魔法小ダメージを与え、物理攻撃力を大ダウンさせ、魔法攻撃力を小ダウンさせ、さらに自身のＴＰを中アップする。このスキルによるダメージでは、敵のＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Deals small M.DMG to all enemies, greatly decreases their P.ATK, moderately decreases their M.ATK, and increases its own TP to medium amount. The skill's damage does not recover enemy TP. The skill's status effect is applied even if damage is negated.
@@ -576,18 +541,15 @@
 ユニオンバーストは、物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラに物理固定ダメージを与える。毒状態の場合はさらに追加の物理固定ダメージを与える。その後、敵全体のＨＰ吸収を特大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: : Deals fixed P.DMG to the enemy with the highest P.ATK or M.ATK. If the target is poisoned, it deals additional fixed P.DMG. Afterward, greatly reduces enemy HP absorption. The status effects from this skill are applied even if the damage is nullified. After using this skill, Sword Cobra's damage to the enemy it targets will increase with each subsequent attack, stacking up to one time.
 
 甲羅に大樹が根ざすほどの老大な陸ガメ。敵の攻撃を耐え続け、憤怒の反撃を見舞う。=A massive land tortoise with ancient trees rooted in its shell. It withstands enemy attacks and retaliates with furious strikes.
-ティタノタートルから受けるすべてのダメージでは、パーティキャラのＴＰが回復しない。=All damage received from Titan Turtle prevents the TP recovery of party members.
 敵から受けるすべてのダメージで発生する、ティタノタートルのＴＰ回復量が大ダウンする。=Decreases the TP recovery amount of the Titan Turtle by a large amount from all damage received.
 ユニオンバーストは、敵全体に物理大ダメージを与え、行動速度を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals large P.DMG to all enemies, greatly reducing their action speed. The status effect from this skill is applied even if damage is nullified.
 甲羅にこもっている間に自身の物理防御力と魔法防御力を特大アップする。さらに、甲羅にこもっている間に受けたダメージ量に応じて、物理ダメージを飛行状態のキャラを含む敵全体に与える。=While in its shell, greatly boosts its own P.DEF and M.DEF. Additionally, based on the damage taken while in the shell, deals P.DMG to all enemies including flying characters.
 全ターゲットがブレイクされると、一定時間行動不能になる。行動不能の間、自身の物理防御力と魔法防御力を大ダウンさせ、ブレイクされなくなる。=When all targets are break, becomes unable to act for a certain period. During this incapacitation, greatly decreases its own P.DEF and M.DEF, and stops being breakable.
 
-ティタノタートルから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を小ダウンさせる。=All damage received from Titan Turtle reduces the TP recovery amount of party members to a small extent.
 ユニオンバーストは、敵全体に物理大ダメージを与える。このスキルによるダメージでは、キャラのＴＰが回復しない。=Union Burst: Deals large P.DMG to all enemies. TP does not recover from the damage dealt by this skill.
 甲羅にこもっている間に自身の物理防御力と魔法防御力を特大アップする。さらに、甲羅にこもっている間に受けたダメージ量に応じて、物理ダメージを飛行状態のキャラを含む敵全体に与える。このスキルによるダメージでは、キャラのＴＰが回復しない。=While in its shell, greatly boosts its own P.DEF and M.DEF. Additionally, based on the damage taken while in the shell, deals P.DMG to all enemies, including flying characters. TP does not recover from the damage dealt by this skill.
 
 かつて人々に祀られていた三戦士の石像。それぞれが能力を高め合い、必殺の一撃を放つ。=Stone statues of three warriors once worshipped by the people. Each one enhances its abilities, unleashing a deadly blow.
-トライロッカーから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Generates a moderate TP reduction in the TP recovery amount of party members with all damage received from Tryrocker.
 敵から受けるすべてのダメージで発生する、トライロッカーのＴＰ回復量が大ダウンする。=Causes a massive TP reduction in Tryrocker's TP recovery amount with all damage received from enemies.
 ユニオンバーストは、敵全体に自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与え、自身の物理攻撃力と魔法攻撃力を大アップさせる。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: Deals percentage P.DMG to all enemies based on own P.ATK and percentage M.DMG based on own M.ATK. Additionally, massively boosts own P.ATK and M.ATK. TP does not recover with the damage from this skill.
 敵全体に物理大ダメージを与え、さらに自身の物理攻撃力に応じて物理攻撃をする敵全体の物理攻撃力をダウンさせ、自身の魔法攻撃力に応じて魔法攻撃をする敵全体の魔法攻撃力をダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG to all enemies, and further decreases the P.ATK of all enemies based on own P.ATK and decreases the M.ATK of all enemies based on own M.ATK. TP does not recover with the damage from this skill. The status ailment from this skill is applied even if the damage is nullified.
@@ -597,7 +559,6 @@
 
 ツインピッグス=Twin Pigs
 さらなる力を得た双子座の魔星獣。前衛で防御しつつ、熟達した技で攻撃を行う。=The empowered magical celestial beast of Gemini. It defends from the front line while executing skilled attacks.
-ツインピッグスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Twin Pigs reduces the TP recovery amount of party members to a moderate extent.
 敵から受けるすべてのダメージで発生する、ツインビッグスのＴＰ回復量を大ダウンさせる。=All damage received from enemies greatly reduces the TP recovery amount of Twin Pigs.
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。このスキルによるダメージでは、キャラのＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals P.DMG proportionate to the character's maximum HP to all enemies, greatly reduces P.ATK and M.ATK. The damage inflicted by this skill does not recover TP. The status ailments caused by this skill are applied even if the damage is nullified.
 後方範囲内の最大３キャラに物理中ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium P.DMG and inflicts Stun to a maximum of three characters within the rear range. The status ailments caused by this skill are applied even if the damage is nullified.
@@ -611,7 +572,6 @@
 
 
 過酷な環境で進化したプチグリフォン。竜巻で獲物を巻き上げ、空で狩りをする。=An evolved Petit Gryphon that has adapted to harsh environments. It sweeps up its prey with tornadoes and hunts in the sky.
-ワイルドグリフォンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を小ダウンさせる。=All damage received from Wild Gryphon reduces the TP recovery amount of party members to a small extent.
 敵から受けるすべてのダメージで発生する、ワイルドグリフォンのＴＰ回復量が大ダウンする。=Decreases the TP recovery amount of the Wild Gryphon by a large amount from all damage received.
 ユニオンバーストは、前から３キャラに魔法中ダメージを与え、さらにノックバックさせる。キャラのＨＰが70％未満の場合、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals medium M.DMG to the three characters in front, and additionally knocks them back. If character HP is below 70%, inflicts Stun. The status effect from this skill is applied even if damage is nullified.
 前から３キャラに魔法中ダメージを与え、魔法防御力を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium M.DMG to the three characters in front and reduces their M.DEF by a moderate amount. The status effect from this skill is applied even if damage is nullified.
@@ -622,7 +582,6 @@
 レイスロード=Wraith Lord
 強者の魂を幽鬼とし従える、冥府の高官。亡者の念が刃に絡みつき、動きを鈍らせる。=A high-ranking official of the underworld who commands the souls of powerful beings as ghosts. The thoughts of the deceased entwine with its blade, slowing down movements.
 魔法攻撃力ダウン効果の影響を受けやすい。=Susceptible to M.ATK reduction effects.
-レイスロードから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Wraith Lord reduces the TP recovery amount of party members to a moderate extent.
 ユニオンバーストは、最も近い敵１キャラを中心にした中範囲にレイスロードの魔法攻撃力に応じた魔法割合ダメージを与える。その後、与えた総ダメージに応じて最大ＨＰをダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals M.DMG proportionate to Wraith Lord's M.ATK to a medium area centered around the nearest enemy character. Afterwards, reduces maximum HP based on the total damage dealt. The status ailments caused by this skill are applied even if the damage is nullified.
 最も近い敵１キャラを中心にした中範囲にレイスロードの魔法攻撃力に応じてダメージを与える呪い状態を付与し、ＨＰ回復量とＨＰ吸収を特大ダウンさせる。このスキルにより付与された呪いのダメージでは、ＴＰが回復しない。=Inflicts a curse status on a medium area centered around the nearest enemy character, based on Wraith Lord's M.ATK, causing damage and greatly reducing HP recovery amount and HP absorption. TP does not recover from the curse damage inflicted by this skill.
 通常攻撃は最も近い敵１キャラにレイスロードの魔法攻撃力に応じた魔法割合ダメージを与える。=Normal attacks deal M.DMG proportionate to Wraith Lord's M.ATK to the nearest enemy character.
@@ -631,7 +590,6 @@
 
 ワイバーン=Wyvern
 大きな皮翼を使い、空を駆ける翼竜。巨大な火球を吐き、侵入者の行く手を阻む。=A winged dragon that soars through the sky with massive wings. It breathes out giant fireballs to block the path of intruders.
-ワイバーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Generates a moderate TP reduction in the TP recovery amount of party members with all damage received from Wyvern.
 敵から受けるすべてのダメージで発生する、ワイバーンのＴＰ回復量が大ダウンする。=Causes a massive TP reduction in Wyvern's TP recovery amount with all damage received from enemies.
 ユニオンバーストは、最も近い敵を中心にした広範囲の最大３キャラに物理大ダメージを与え、物理防御力を中ダウンさせる。さらに自身の物理防御力を小アップさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals large P.DMG to a wide area centered around the nearest enemy, moderately decreases their P.DEF, and slightly boosts own P.DEF. The status ailment from this skill is applied even if the damage is nullified.
 最も近い敵３キャラをノックバックさせ、行動速度を中ダウンさせる。= Knocks back the three nearest enemies and moderately decreases their movement speed.
@@ -643,7 +601,7 @@
 
 砂瀑一帯を根城にするゴブリン族の首魁。居城までたどり着いた手練れの冒険者を子分を引き連れ、一斉攻撃で迎え撃つ。▼ＭＯＤＥ１突破条件ダメージを与え、ゴブリンロード＆ゴブミニオンのＨＰを8880万以下にすること。=The leader of the goblin tribe that has its stronghold in the Sandfall region. When skilled adventurers reach its lair, it rallies its minions and launches a coordinated attack.▼ MODE 1 Clear Condition:Deal damage to Goblin Lord & Goblin Minions, reducing their HP to 88,800,000 or below.
 バトル開始時、ダメージ上限スキルを使用して、一度の行動で与えるダメージの値が一定を超えた場合、与えるダメージの値に応じてダメージ量を減少させる。=At the start of the battle, if the damage dealt in a single action exceeds a certain threshold using a damage cap skill, the damage is reduced based on the value that exceeded the threshold.
-ゴブリンロード＆ゴブミニオンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=It moderately reduces TP Boost of party members with all damage received from the Goblin Lord & Goblin Minions.
+
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、大きく吹き飛ばす。このスキルの状態異常はダメージを無効化しても付与される。=Its Union Burst deals P.DMG proportional to the character's maximum HP to all enemies and launches them backward. The inflicted status ailments remain even if damage is nullified.
 敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与える。=It deals P.DMG proportional to the character's maximum HP to all enemies.
 装甲車に乗っているゴブミニオンのターゲットは、ブレイクすると消滅し、ゴブリンロード＆ゴブミニオンの物理防御力と魔法防御力が小ダウンする。=When the target Goblin Minion riding in an armored vehicle is broken, it disappears, and the P.DEF and M.DEF of the Goblin Lord & Goblin Minions are slightly reduced.
@@ -656,7 +614,7 @@
 前方１キャラにキャラの最大ＨＰに応じた物理割合ダメージを与える。=It inflicts P.DMG proportional to the target's max HP to one front-row character.
 
 ロードの右腕にしてゴブリンの大魔導士。禁忌の魔術を撃ち放ち、抗う全ての敵を滅却する。=The goblin's formidable sorcerer, the right-hand of the Lord, unleashes forbidden magic to obliterate all who oppose.
-ゴブリンメイスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=It decreases TP Boost of party members with all damage received from the Goblin Meister.
+
 ダメージを受けるたびに【小鬼の紋章】を１追加する。【小鬼の紋章】が10の時、【小鬼の紋章】を10消費し、魔法の壷を爆破しゴブリングレートとゴブリンメイスターに魔法特大ダメージを与え、物理防御力と魔法防御力を特大ダウンさせる。=Each time it takes damage, it gains 1 "Imp Emblem." When it accumulates 10 "Imp Emblems," it consumes them to detonate a magic jar, dealing massive M.DMG to the Goblin Great and Goblin Meister, while greatly reducing their P.DEF and M.DEF.
 ユニオンバーストは、敵全体に魔法大ダメージを与え、全ての召喚体を破壊する。=Its Union Burst inflicts massive M.DMG to all enemies, destroying all summoned entities.
 前方１キャラにキャラの最大ＨＰに応じた魔法割合ダメージを与える。=It deals M.DMG proportional to the target's max HP to one front-row character.
@@ -664,7 +622,7 @@
 前から２番目のキャラを中心とした範囲内の敵に魔法中ダメージを与えて、麻痺状態と猛毒状態にする。=It Deals medium M.DMG to enemies within a range centered around the second character from the front, inflicting paralysis and severe poison status.
 装甲車を木端に破壊され怒る首魁。ゴブリン族のつわものを配し、冒険者の次なる壁とし、容易く突破を許さない。▼ＭＯＤＥ２突破条件ダメージを与え、ゴブリングレートとゴブリンメイスターのＨＰを０にすること。=The enraged leader, whose armored vehicle has been destroyed, deploys the toughest goblin warriors as the next line of defense for adventurers, preventing easy breakthroughs.▼ MODE2 Clear Condition: Deal damage to reduce the HP of the Goblin Great and Goblin Meister to 0.
 バトル開始時、自身を無敵状態にして攻撃を受け付けなくする。=At battle start, it enters an invincible state, rendering it impervious to attacks.
-ゴブリンロードから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=It decreases TP Boost of party members with all damage received from the Goblin Lord.
+
 ユニオンバーストは、敵全体にキャラの残りＨＰに応じた物理割合ダメージを与える。=Its Union Burst inflicts P.DMG proportional to the character's remaining HP to all enemies.
 
 砂瀑に君臨するゴブリン族の首魁。配下を屠られた怒りを武器にのせ、圧倒的な力で眼前の全てを塵に変える。▼ＭＯＤＥ３突破条件ダメージを与え、ゴブリンロードのＨＰを０にすること。=Clear Condition:Deal damage to reduce the Goblin Lord's HP to 0.
@@ -674,7 +632,7 @@
 残りＨＰが1872万を下回ると、物理攻撃力と行動速度が特大アップし、さらに攻撃が激しく凶暴になる。=When remaining HP is below 18.72 million, greatly increase P.ATK and action speed, and become even more aggressive and ferocious in attacks.
 
 深き大海の底にて挑戦者を待ち受ける雄々しき海の化身。その腕が振るう大剣の一閃を前に、立ちはだかる者は海の藻屑へと成り果てる。=A majestic embodiment of the deep sea awaits challengers at the abyss. With a swift strike of its mighty sword, opposing forces are reduced to sea debris.
-ポセイドンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=It moderately reduces TP Boost of party members with all damage received from Poseidon.
+
 ユニオンバーストは、最も近い敵１キャラに物理特大ダメージを与え、さらに敵全体に物理攻撃力中ダウンと魔法攻撃力中ダウンを付与する。このスキルの状態異常はダメージを無効化しても付与される。=Its Union Burst deals massive P.DMG to the nearest enemy character, additionally applying a moderate P.ATK debuff and M.ATK debuff to all enemies. The inflicted status ailments remain even if damage is nullified.
 最も近い敵１キャラに物理中ダメージを与え、さらに物理防御力中ダウンを付与する。このスキルの状態異常はダメージを無効化しても付与される。=It inflicts moderate P.DMG and a moderate P.DEF debuff to the nearest enemy character. The inflicted status ailments remain even if damage is nullified.
 最も近い敵１キャラに物理特大ダメージを与える。=It deals massive P.DMG to the nearest enemy character.
@@ -764,11 +722,11 @@
 前から１番目のキャラに物理大ダメージ。=Deals massive P.DMG to the character in the front position.
 
 林林総総たるしもべ共を従え、化け茸は攻勢を層一層強める。捕食者となった異類異形たちの反撃が今、幕を開ける。=With numerous devoted followers, the transformed mushroom intensifies its offensive. The counterattack of the transformed and monstrous creatures, now turned predators, begins.
-子分から受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Decreases the TP recovery amount of party characters from all sources of damage received from minions.
+
 バトル開始時に、子分を４体召喚し敵全体をノックバックさせる。子分は前から１番目のキャラに物理中ダメージを与える。子分を１体倒すたびに、のこり子分数が１減少する。その後、子分が再度召喚され、敵全体をノックバックさせる。=At the start of the battle, summons 4 minions and knocks back all enemies. The first minion deals moderate P.DMG to the character in the front position. Each time a minion is defeated, the remaining number of minions decreases by 1. Subsequently, the minions are summoned again, knocking back all enemies.
 
 大自然の猛威は幻覚のみに留まらず、しもべは強烈な麻痺攻撃を繰り出す。その威力に、獲物は指先一つ動かすことすら許されない。=The wrath of nature extends beyond illusions as the servants unleash powerful paralysis attacks. Under their might, prey cannot even move a finger.
-アストライアタケモドキから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Decreases the TP recovery amount of party characters from all sources of damage received from Astraea Pseudo Mushroom.
+
 ユニオンバーストは、敵全体にアストライアタケモドキの物理攻撃力とキャラの最大ＨＰに応じた物理割合ダメージを与える。=Union Burst: Deals P.DMG to all enemies based on Astraea Pseudo Mushroom's P.ATK and a percentage of the character's maximum HP.
 子分が胞子を集めている間、アストライアタケモドキの物理防御力と魔法防御力が特大ダウンする。その後、子分が胞子を放ち前方３キャラを麻痺状態にする。子分が胞子を集めている間にアストライアタケモドキが700000以上のダメージを受けると、アストライアタケモドキと子分が気絶し、物理防御力と魔法防御力が特大ダウンする。=While minions gather spores, Astraea Pseudo Mushroom's P/M.DEF is greatly reduced. Subsequently, the minions release the spores, inflicting paralysis status on the front 3 characters. If Astraea Pseudo Mushroom receives 700,000 or more damage while minions gather spores, Astraea Pseudo Mushroom and the minions faint, and their P/M.DEF is greatly reduced.
 
@@ -789,12 +747,12 @@
 
 
 門を通して滲み伝わる、彼方の世界の魔力で強化された海の魔物。圧倒的な魔力の奔流が、少女たちにさらなる試練を与える。=A sea creature strengthened by the magic of a distant world that seeps through the gate. The overwhelming surge of magical power bestows further trials upon the girls.
-このバトルのモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount from all damage received from monsters in this battle to a moderate degree.
+
 ムーンレイゲート以外の味方の物理攻撃力、魔法攻撃力を中アップさせる。=Moderately boosts the P.ATK and M.ATK of allies other than the Moonlight Gate.
 ムーンレイゲートがダメージを受けると、ムーンレイゲート以外の味方の物理防御力、魔法防御力を極大ダウンさせる。=When the Moonlight Gate takes damage, greatly reduces the P.DEF and M.DEF of allies other than the Moonlight Gate.
 
 二つの世界を繋ぐ最後のゲート。かけがえのないひと夏の思い出を胸に、小さき友を煌めく月光の彼方へと導こう！=The final gate that connects the two worlds. Guide your little friend beyond the sparkling moonlight with irreplaceable summer memories in your heart!
-ムーンレイゲートから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the amount of TP recovery for party characters that occurs from all damage received from Moon Ray Gate.
+
 敵全体をノックバックさせ行動速度を中ダウンさせる。さらに、敵全体にムーンレイゲートの【月の光印】の数に応じた魔法割合ダメージを与える。その後ムーンレイゲートに【月の光印】を15個付与する。このスキルの状態異常はダメージを無効化しても付与される。=Knocks back all enemies and reduces their movement speed by a moderate amount. Additionally, inflicts M.DMG to all enemies based on the number of Moon Ray Gate's [Lunar Light Seals]. After that, give 15 [Moonlight Seals] to Moon Ray Gate. This skill's status ailments are applied even if the damage is nullified.
 敵全体にムーンレイゲートの【月の光印】の数に応じた魔法中ダメージを与える。さらにムーンレイゲートを中心とした範囲内の敵全てにムーンレイゲートの【月の光印】の数に応じた魔法大ダメージを与える。=Deals medium M.DMG to all enemies according to the number of Moon Ray Gate's [Lunar Light Seals]. In addition, all enemies within the area around the Moon Ray Gate will receive massive M.DMG based on the number of [Moon Light Seals] on the Moon Ray Gate.
 残り体力が40％を切るとムーンレイゲートの物理防御力、魔法防御力を中アップさせる。さらにムーンレイゲートに【月の光印】を40個付与し、行動パターンが変化する。=When the remaining health drops below 40%, Moon Ray Gate's P.DEF and M.DEF will be moderately increased. Furthermore, 40 [Moonlight Seals] are given to Moon Ray Gate, and its behavior pattern changes.
@@ -812,13 +770,13 @@
 
 孤独と猜疑と言う名の被毛に閉じ籠った獣を守るが如く、森の魔物たちが冒険者の前に立ち塞がる。魔物を制し道を切り開け。=Like creatures protecting a beast enclosed in fur named loneliness and suspicion, the forest creatures stand in the way of adventurers. Overcome the creatures and clear the path.
 バトル開始時、哀執のバロメッツの物理防御力と魔法防御力を小アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, slightly boosts the physical and M.DEF of Sorrowful Baromets. The boosted defense from this effect is not affected by skills that reduce defense during battle.
-哀執のバロメッツとお供のモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Sorrowful Baromets and its accompanying monsters reduces the TP recovery amount of party members to a moderate extent.
+
 哀執のバロメッツは環境効果によるダメージを受けない。=Sorrowful Baromets does not take damage from environmental effects.
 残りＨＰ割合が少ない敵３キャラに物理割合ダメージを与える。=Deals percentage P.DMG to the three enemies with the lowest remaining HP.
 
 哀しき羊は被毛の鎧を硬化させあらゆるものを拒絶する。刃も拳も魔法も差し伸べられた手でさえも。=The sorrowful sheep hardens its fur armor, rejecting everything, even the outstretched hands holding blades, fists, or magic.
 バトル開始時、哀執のバロメッツの物理防御力を中アップさせ、魔法防御力を小アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, moderately boosts the P.DEF of Sorrowful Baromets and slightly boosts its M.DEF. The boosted defense from this effect is not affected by skills that reduce defense during battle.
-哀執のバロメッツから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Sorrowful Baromets reduces the TP recovery amount of party members to a moderate extent.
+
 ユニオンバーストは、敵全体のバリアを解除し物理割合ダメージを与える。哀執のバロメッツが毒、猛毒、呪い、火傷、呪詛の効果を受けていると、与えるダメージがダウンする。=Union Burst: Removes the barriers of all enemies and deals percentage P.DMG. If Sorrowful Baromets is affected by poison, venom, curse, burn, or malediction, the damage dealt is reduced.
 残りＨＰ割合が少ない敵３キャラに物理大ダメージを与える。哀執のバロメッツが毒、猛毒、呪い、火傷、呪詛の効果を受けていると、与えるダメージがダウンする。=Deals massive P.DMG to the three enemies with the lowest remaining HP. If Sorrowful Baromets is affected by poison, venom, curse, burn, or malediction, the P.DMG dealt is reduced.
 哀執のバロメッツが毒、猛毒、呪い、火傷、呪詛の効果を受けると、哀執のバロメッツの物理魔法防御力が特大ダウンする。=When Sorrowful Baromets is affected by poison, venom, curse, burn, or malediction, its physical and M.DEF greatly decrease.
@@ -829,7 +787,7 @@
 
 苛烈な演出により、敵は人ならざる者すらも味方につける。迫る脅威を退け、狂気の舞台を終わらせる為――急げ、配信者の元へ！=Through intense direction, the enemy is compelled to ally with even non-human entities. Hurry to the streamer's side to repel the approaching threat and bring an end to the stage of madness!
 狂乱の配信者=Mad Streamer
-カガミから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from the Mad Streamer Kagami reduces the TP recovery amount of party members to a moderate extent.
+
 カガミは環境効果によるダメージを受けない。=Mad Streamer Kagami does not take damage from environmental effects.
 トモ、リン、ナナカのシャドウを召喚する。=Summons the shadows of Tomo, Rin, and Nanaka.
 前方２キャラに物理大ダメージを与える。=Deals massive P.DMG to the two characters in front.
@@ -840,14 +798,14 @@
 
 第二の試練は、如何なる剣戟も阻む最強の鎧。然し、正攻法だけが総てではない。大義を成すため、持てる術を尽くし敵を打ち崩せ。=The second trial is the strongest armor that blocks any swordplay. However, conventional methods are not everything. To achieve justice, use every means at your disposal to break down the enemy.
 バトル開始時、自身の物理防御力を大アップ、魔法防御力を中アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, greatly boosts own P.DEF and moderately boosts M.DEF. The boostd defense from this effect is not affected by skills that lower defense during battle.
-オブシダンゴーレムから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party members when taking damage from the Obsidian Golem.
+
 ユニオンバーストは、敵全体の最大ＨＰを15％減少させ、物理小ダメージを与える。減少したＨＰは、バトル終了まで解除できない。このスキルによるダメージではＴＰが回復せず、このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Reduces the max HP of all enemies by 15% and deals small P.DMG. The reduced HP cannot be restored until the end of the battle. TP is not recovered from the damage caused by this skill, and the status effects from this skill are applied even if the damage is nullified.
 敵全体に物理中ダメージを与え、さらにバトル終了まで物理防御力を小ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium P.DMG to all enemies and further decreases their P.DEF until the end of the battle. The status effects from this skill are applied even if the damage is nullified.
 バトル中、オブシダンゴーレム自身に付与されている状態異常効果およびステータスダウン効果の数に応じて、与えられるダメージの量が大きく上昇する。=The amount of damage inflicted boosts massively based on the number of abnormal status effects and stat debuffs applied to the Obsidian Golem during battle.
 
 第三の試練、幕引きの時。追い込まれた魔物は死力を尽くし、万物を圧し潰さんとする。和平の使者よ、その手で未来を切り開け。=The third trial, the closing act. The cornered monster exerts its utmost effort to crush everything. Messenger of peace, carve out the future with your own hands.
 バトル開始時、自身の物理防御力と魔法防御力を中アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。　=At the start of battle, moderately boosts own P.DEF and M.DEF. The boostd defense from this effect is not affected by skills that lower defense during battle.
-オブシダンゴーレムから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を大ダウンさせる。=Reduces the TP recovery amount of party members when taking damage from the Obsidian Golem.
+
 自身のＴＰを中回復する。=Moderately restores own TP.
 残りＨＰが11％以下になると自身の物理攻撃力を中アップさせ、さらに攻撃が激しく凶暴になる。=When own remaining HP is 11% or less, moderately boosts own P.ATK and becomes more aggressive and ferocious.
 
@@ -866,13 +824,13 @@
 敵全体に物理中ダメージを与え、ＴＰを中ダウンさせる。=Deals medium P.DMG to all enemies and decreases their TP by a moderate amount.
 
 その身が纏う悲憤のオーラが、不幸と共に魔物を雪崩の如く呼び寄せる。人々の幸せと願いを守るために、戦え双子天使！=The aura of sorrow and resentment surrounding its body summons monsters like an avalanche of misfortune. Fight, twin angels, to protect the happiness and wishes of the people!
-アンハッピートレントとお供のモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters by a moderate amount for all damage received from Unhappy Trent and its accompanying monsters.
+
 アンハッピートレントは環境効果によるダメージを受けない。=Unhappy Trent does not take damage from environmental effects.
 魔物を召喚し、敵全体をノックバックさせる。=Summons monsters, knocking back all enemies.
 召喚された魔物を１体倒すたびに、残りターゲット数が１減少する。その後、魔物が再度召喚され、敵全体をノックバックさせる。=For each defeated summoned monster, the remaining target count decreases by 1. Subsequently, the defeated monster is summoned again, knocking back all enemies.
 
 姉妹の不和が生んだ怪物が、聖夜の幸せを願う人々の前に立ち塞がる。今こそ姉妹の絆で取り戻せ、ウルトラハッピークリスマス！=The monster born from the discord between sisters stands in the way of people wishing for happiness on Christmas. Now is the time to reclaim it with the bond between sisters, an Ultra Happy Christmas!
-アンハッピートレントから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters by a moderate amount for all damage received from Unhappy Trent.
+
 残り時間が45秒を切るとアンハッピートレントの行動速度が中アップし、行動パターンが変化する。=When there are less than 45 seconds remaining, Unhappy Trent's movement speed increases moderately, and its behavior pattern changes.
 リゾートに訪れた人々を襲う悪霊。幾度も呪殺を阻まれ、蔑ろにされた怒りと怨念で海岸を恐怖に染める。=An evil spirit that attacks people visiting the resort. Its coast is dyed in terror with accumulated anger and grudges from repeated curses and neglect.
 ユニオンバーストは、敵全体に魔法特大ダメージを与える。さらに、物理攻撃力と魔法攻撃力を小ダウンさせ、一定時間ＨＰ回復量を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive M.DMG to all enemies and further reduces their physical and ATK to a small amount. It also greatly decreases their HP recovery for a certain duration. The skill's status effects are applied even if M.DMG is negated.
@@ -884,8 +842,6 @@
 
 悲憤の声に引き寄せられし、シャドウたち。災禍の根源たる悪霊を守護せんと、邪悪な気を放ち、祓い手の前に立ち塞がる。=Drawn by the voices of grief and indignation, the shadows gather. They emit wicked energy to protect the evil spirits that serve as the root of calamity and obstruct the exorcist.
 バトル開始時、敵全体のＨＰ吸収を特大ダウンさせる。=At the start of battle, it greatly reduces the HP absorption of all enemies.
-グラッジレイスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Grudge Wraith causes a medium reduction in the TP recovery amount for party characters.
-
 
 怨憎の力により引き起こされるポルターガイスト。飛来する数多の呪いを撃ち落とし、呪詛返しで敵を穿て！=Poltergeist evoked by the power of resentment and hatred. Shoot down the numerous curses that come flying and pierce through the enemies with curse retaliation!
 敵全体をノックバックさせ、呪怨の墓石、呪火の蝋燭、呪毒の包丁を召喚する。=Knocks back all enemies and summons the Tombstone of Grudge, the Cursed Candle of Grudge Fire, and the Cursed Knife of Grudge Poison.
@@ -904,7 +860,7 @@
 
 猛悪の四つ手から繰り出される多彩な魔法球の嵐。その熾烈な攻撃を一度受ければ、何人たりとも立ち上がることはできない。=A storm of versatile magic spheres unleashed from the ferocious four hands. Once subjected to its fierce assault, no one can rise again.
 放たれし暴魔=Unleashed Rampage
-アルゲースから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Argus reduces the TP recovery amount of party members to a moderate extent.
+
 ユニオンバーストは、最も近い敵１キャラのバリアを解除し、魔法固定ダメージを与える。さらに自身の魔法攻撃力を特大アップさせる。このスキルで与えたダメージ量に応じて、攻撃力の上昇量がアップする。このスキルで敵を倒した場合、自身の魔法攻撃力を特大アップさせる。=Union Burst: Removes barriers from the nearest enemy character and deals fixed M.DMG. Additionally, greatly increases its own M.ATK. The increase in attack power depends on the amount of damage dealt with this skill. If this skill defeats an enemy, greatly increases its own M.ATK.
 敵全体に魔法中ダメージを与え、最も近い敵１キャラに凍結状態と火傷状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium M.DMG to all enemies and inflicts Freeze and Burn status on the nearest enemy character. The status effects from this skill are applied even if damage is nullified.
 敵全体に魔法中ダメージを与え、ノックバックさせると同時にスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium M.DMG to all enemies, knocks them back, and inflicts Stun. The status effect from this skill is applied even if damage is nullified.
@@ -921,7 +877,7 @@
 
 
 古の叡智を結集し作られた兵器は秘めし力を解放する。巨大な体躯より出でし紅蓮の光芒は、いかなるものも砂漠の灰燼に変える。=A weapon crafted by gathering the ancient wisdom, unlocking its hidden power. The radiant crimson light emanating from its colossal frame turns everything into the ashes of a desert.
-カリドから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage received from Kalid reduces the TP recovery amount of party members to a moderate extent.
+
 エネルギーをチャージし、最も近い３キャラに999999の魔法固定ダメージを与え、飛行状態のキャラを含む敵全体に魔法特大ダメージを与える。その後自身の物理防御力、魔法防御力、ステータスアップ効果を特大ダウンさせ、火傷状態を付与する。=Charges energy and deals 999999 fixed M.DMG to the nearest three characters, including characters in flight, and deals massive M.DMG to all enemies. Subsequently, massively decreases its own P.DEF, M.DEF, and stat-boosting effects, and inflicts a massive burn state.
 
 邪心を抱きし愚者の命により、古の兵器は、砂漠の民に恐怖をもたらす。甚大なるその脅威を打ち砕き、皆の笑顔を取り戻せ。=Fueled by the life of a fool harboring malicious intent, this ancient weapon instills fear among the people of the desert. Crush this immense threat and bring back everyone's smiles.
@@ -932,7 +888,7 @@
 
 
 戦いを止められるのは黒い天使のみ。大切なものを守るため、冒険者として踏み出すため…その迷いなき翼で巨悪を薙ぎ払え！=The only one who can stop the fight is the black angel. To protect what is dear and to step out as an adventurer... With unwavering wings, cut down the great evil!
-ミソラから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=When taking damage from Misora, it moderately decreases the TP recovery amount of party members.
+
 前から１番目、２番目、３番目の敵に魔法小ダメージを与える。=Deals light M.DMG to the first, second, and third enemies from the front.
 敵全体の魔法防御力を中ダウンさせ、火傷状態を付与する。敵のＨＰが50％未満の場合、混乱状態を付与する。このスキルにより付与された火傷のダメージでは、ＴＰが回復しない。=Moderately reduces the M.DEF of all enemies, inflicting the Burn status. If the enemy's HP is below 50%, inflicts the Confuse status. TP is not recovered from the damage caused by this skill's Burn status.
 
@@ -967,7 +923,7 @@
 
 
 獰猛なバジリスクは心を鎮め、かつてない強敵に力の全てを傾ける。雪山での狩りもいよいよ大詰め。ローストチキンは目の前だ！=The ferocious basilisk calms its heart and dedicates all its power to face an unprecedented formidable foe. The hunt in the snowy mountains is reaching its climax. The roast chicken is within reach!
-アロスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters by a small amount for all damage received from Allos.
+
 
 幻想的な宇宙空間。煌びやかな星の上。そして目の前には……迫りくる巨大隕石！？混乱の最中で脳裏をよぎるのは、心地良い枕の感触。=In a fantastical cosmic space, atop dazzling stars, and before you... giant asteroids approaching!? Amidst the chaos, what crosses your mind is the pleasant sensation of a pillow.
 ユニオンバーストは、敵全体のバリアを解除し、残りＨＰに応じた物理割合ダメージを与える。さらにスタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Removes barriers from all enemies and deals percentage P.DMG based on the remaining HP. Additionally, inflicts Stun. The abnormal status from this skill persists even if the damage is nullified.
@@ -979,7 +935,7 @@
 通常攻撃は、最も近い敵１キャラにレイスロードの魔法攻撃力に応じた魔法割合ダメージを与える。=Normal attacks deals percentage M.DMG based on Wraith Lord's M.ATK to the nearest enemy.
 最も近い敵３キャラの物理防御力を大ダウンさせ、毒状態を付与する。このスキルにより付与された毒のダメージでは、ＴＰが回復しない。=Reduces the defense of the three nearest enemies and inflicts poison status. The P.DMG caused by this skill's poison does not restore TP.
 ユニオンバーストは、最も近い敵２キャラに物理大ダメージを与え、拘束状態を付与し、ＴＰを大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG to the two nearest enemies, applies restraint status, and greatly decreases TP. The status ailments caused by this skill are applied even if the P.DMG is nullified.
-ニードルクリーパーから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Decreases TP recovery amount of party characters with every damage received from Needle Creeper.
+
 特異な力で変質したクリーパー。無数のトゲを持つ蔓を巻き付け、動きを奪う。=A creeper transformed by unique power. It entwines enemies with countless thorny vines, depriving them of movement.
 ユニオンバーストは、敵全体に魔法大ダメージを与え、さらにスタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive M.DMG to all enemies and applies stun status. The status ailments caused by this skill are applied even if the damage is nullified.
 最も遠い敵２キャラに魔法中ダメージを与え、ＴＰを小ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=Inflicts medium damage and minor TP decrease to the two farthest enemies. This skill decreases TP even if the M.DMG is nullified.
@@ -988,21 +944,18 @@
 召喚体、分身を除いた最も近い敵３キャラに魔法大ダメージを与え、魔法防御力を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to the three nearest enemies, excluding summons and duplicates, and decreases their defense. The status ailments caused by this skill are applied even if the M.DMG is nullified.
 ユニオンバーストは、最も近い敵１キャラに魔法特大ダメージを与え、さらに麻痺状態を付与する。その後自身の魔法攻撃力と魔法防御力をバトル終了まで小アップさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Inflicts massive M.DMG and paralysis status to the nearest enemy, then Boosts own attack and M.DEF until the end of battle. The status ailments caused by this skill are applied even if the M.DMG is nullified.
 吸い続けた他者の魔力で妖術を得た魔物。敵に付けた傷から魔力を奪いさらなる力を求める。=A creature imbued with sorcery through the absorption of others' magical power. It seeks greater power by draining magic from its enemies.
-ムシュフシュから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Decreases TP recovery amount of party characters with every damage received from Mushufushu.
+
 ユニオンバーストは、最も近い敵１キャラを中心にした小範囲に毒状態を付与し、さらに敵全体の物理攻撃力と魔法攻撃力とＨＰ吸収を特大ダウンさせる。このスキルにより付与された毒のダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Applies poison status to a small area centered on the nearest enemy, and greatly decreases the and attack as well as HP absorption of all enemies. TP does not recover from the poison P.DMG caused by this skill. The status ailments caused by this skill are applied even if the M.DMG is nullified.
 最も近い敵１キャラを中心にした小範囲に物理大ダメージを与える。=Deals massive P.DMG to a small area centered on the nearest enemy.
-ゴブリンライダーから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Greatly decreases TP recovery amount of party characters with every damage received from Goblin Rider.
 ユニオンバーストは、召喚体、分身を除いた最も遠い敵３キャラに物理大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG and applies stun status to the three farthest enemies, excluding summons and duplicates. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 召喚体、分身を除いた最も遠い敵２キャラに物理小ダメージを与え、物理防御力を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Inflicts minor damage and greatly reduces P.DEF to the two farthest enemies, excluding summons and duplicates. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 通常攻撃は、挑発を無視して最も遠い敵１キャラに物理中ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Normal attacks ignore provocation and deal moderate damage to the farthest enemy. TP does not recover from the P.DMG caused by this skill.
-ワイルドグリフォンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Decreases TP recovery amount of party characters with every damage received from Wild Griffin.
 ユニオンバーストは、召喚体、分身を除いた最も近い敵３キャラに魔法中ダメージを与え、ノックバックさせる。さらに、キャラのＨＰが70％未満の場合、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals medium damage and knocks back to the three nearest enemies, excluding summons and duplicates. Additionally, if the HP of the character is below 70%, applies stun status. The status ailments caused by this skill are applied even if the M.DMG is nullified.
 召喚体、分身を除いた最も近い敵３キャラに魔法中ダメージを与え、魔法防御力を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium damage and decreases M.DEF to the three nearest enemies, excluding summons and duplicates. The status ailments caused by this skill are applied even if the M.DMG is nullified.
 ユニオンバーストは、敵全体に物理中ダメージを与え、行動速度を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals moderate damage to all enemies and massively reduces their movement speed. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 甲羅にこもっている間に自身の物理防御力と魔法防御力を特大アップする。その後、飛行状態のキャラを含む敵全体に物理特大ダメージを与える。=While in shell form, greatly Boosts own P.DEF and M.DEF. Afterwards, deals massive P.DMG to all enemies, including flying characters.
 ユニオンバーストは、召喚体、分身を除いた最も近い敵３キャラに物理特大ダメージを与え、さらに物理防御力と魔法防御力を特大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG to the three nearest enemies, excluding summons and duplicates, and further massively decreases their P.DEF and M.DEF. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 召喚体、分身を除いた最も近い敵２キャラに魔法大ダメージを与え、短時間凍結状態を付与する。敵キャラのＨＰが70％未満の場合、長時間凍結状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG to the two nearest enemies, excluding summons and duplicates, and applies short-term freeze status. If the HP of the enemy character is below 70%, applies long-term freeze status. The status ailments caused by this skill are applied even if the M.DMG is nullified.
-ウキキーから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Decreases TP recovery amount of party characters with every damage received from Ukikey.
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、スタン状態を付与する。このスキルは火傷状態の敵に対して、ダメージが1.5倍になる。このスキルによるダメージでは、敵のＴＰが回復しない。=Union Burst: Deals percentage P.DMG based on character's maximum HP to all enemies and applies stun status. Against enemies with burn status, damage is increased by 1.5 times. The P.DMG caused by this skill does not recover enemy TP.
 最も近い敵３キャラに物理中ダメージを与える。=Deals moderate P.DMG to the three nearest enemies.
 最も近い敵２キャラに魔法中ダメージを与え、火傷状態を付与する。このスキルにより付与された火傷のダメージでは、ＴＰが回復しない。=Deals medium damage to the two nearest enemies and applies burn status. TP does not recover from the burn M.DMG caused by this skill.
@@ -1012,7 +965,6 @@
 自分の周りの味方のうち、最もＨＰの割合が低い味方１キャラのＨＰを中回復する。=Moderately restores the HP of the ally with the lowest HP percentage among those around oneself.
 砂を固めて鎧のように纏うのは、捨て身を恐れない一族の戦士の証。だが所詮は砂。魔法は防げない。=The fact that he hardened the sand and wrapped it around himself like armor was proof that he was a warrior of the clan who wasn't afraid of abandonment. But in the end, it was sand. He couldn't block magic.
 豪放磊落、バンディシスターズの長女。序盤は強力な斬撃と弱体化で猛攻を仕掛けるが、追い詰められると博打に出て戦況を一変させる。=Banditsisters' eldest daughter, who fearlessly wears armor made of compacted sand, a testament to the warrior spirit of her clan. But it's still just sand. Magic can't be blocked.
-ヤマトから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Receives damage from Yamato causes a moderate decrease in TP recovery for party characters.
 ヤマトのＨＰが一定値以下になると自身のＴＰを小ダウン後、一定時間無敵になり、敵全体に沈黙状態を付与する。その後、爆弾を投げ、博打を打つ。ヤマトが博打に勝った場合、前方２キャラにキャラの最大ＨＰに応じた物理割合ダメージを与える。ヤマトが博打に負けた場合、自身の物理防御力と魔法防御力を極大ダウンし行動不能になる。=When Yamato's HP falls below a certain threshold, Yamato's TP is slightly decreased, then becomes invincible for a while, applies silence to all enemies, throws a bomb, and takes a gamble. If Yamato wins the gamble, deals percentage P.DMG based on character's maximum HP to the two characters in front. If Yamato loses the gamble, greatly decreases own P.DEF and M.DEF, becoming unable to act.
 ユニオンバーストは、最も近い敵１キャラの物理防御力を特大ダウンさせる。その後、物理極大ダメージを与える。=Union Burst: massively reduces the defense of the nearest enemy character, then deals massive physical P.DMG.
 最も遠い敵１キャラに物理特大ダメージを与え大きく引き寄せ、さらにスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG to the farthest enemy character, pulls them closer, and additionally inflicts stun. The status ailments caused by this skill are applied even if the P.DMG is nullified.
@@ -1023,9 +975,7 @@
 ユニオンバーストは、前から３キャラに物理中ダメージを与え、物理防御力を特大ダウンさせる。さらに自身の物理防御力を小アップさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals percentage P.DMG based on Crestrex's P.ATK to all enemies. - Deals moderate P.DMG and knocks back the two characters from the front simultaneously inflicting stun. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 前から１キャラをノックバックさせ、行動速度を中ダウンさせる。=Knocks back the character from the front and moderately decreases their movement speed.
 特異な力で変質したサベージベア。怒りを込めた剛腕は、敵ごと地面を引き裂く。=Savage Bear transformed by peculiar powers. Its enraged arms tear through enemies and the ground alike.
-マッドベアから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を大ダウンさせる。=Damage received from Mad Bear causes a massive decrease in TP recovery for party characters.
 最も近い敵１キャラを中心にした小範囲に物理大ダメージを与え、物理防御力を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG to a small area centered on the nearest enemy character and greatly reduces their P.DEF. The status ailments caused by this skill are applied even if the P.DMG is nullified.
-ワイルドクロウから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Damage received from Wildclaw causes a moderate decrease in TP recovery for party characters.
 ユニオンバーストは、敵全体に物理中ダメージを与え、ＴＰ上昇を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals moderate damage to all enemies and massively decreases TP increase. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 後ろから２番目の敵を中心にした小範囲に物理大ダメージを与え、麻痺状態にする。=Deals massive P.DMG in a small area centered around the second enemy from the back and inflicts paralysis.
 特殊スキルは、【飛行】自分を飛行状態にする。=Special Skill: [Flight] Allows self to enter flight mode.
@@ -1167,10 +1117,8 @@
 召喚体、分身を除いた最も近い敵２キャラに魔法大ダメージを与え、短時間凍結状態を付与する。敵キャラのＨＰが80％未満の場合、長時間凍結状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to the two nearest enemies, excluding summoned entities and clones, and applies a brief freeze status. If the enemy's HP is below 80%, applies a long freeze status. The abnormal status caused by this skill is applied even if damage is nullified.
 遠吠えで獲物をひるませツメで引き裂く。自身の欲望のまま、残虐の限りを尽くす魔狼。=Terrifies prey with a howl and tears them apart with claws. A demon wolf that indulges in cruelty to its heart's content.
 挑発効果の影響を受けやすい。 =Susceptible to the effects of provocation.
-ウールヴヘジンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters from all damage taken from Woolfhejin.
 ユニオンバーストは、ランダムな敵最大３キャラのステータスアップ効果を解除した後、物理特大ダメージを与える。=After dispelling status enhancement effects from a random maximum of three enemy characters, Union Burst deals massive P.DMG.
 敵全体の物理攻撃力と魔法攻撃力を大ダウンさせ、自身の行動速度を特大アップさせる。=Greatly reduces the physical and M.ATK of all enemies and greatly increases its own action speed.
-トルペドンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters from all damage taken from Torpedon.
 ユニオンバーストは、敵全体のバリアを解除し、物理大ダメージを与え、さらに自身の行動速度と物理攻撃力を特大アップさせる。このスキルによるダメージでは、敵のＴＰが回復しない。=Union Burst: dispels barriers from all enemies, deals massive P.DMG, and further greatly increases its own action speed and P.ATK. P.DMG from this skill does not recover enemy TP.
 敵全体に物理小ダメージを与える。旗持ち子分が存在する場合、さらに追加物理ダメージを与える。このスキルの追加ダメージは、旗持ち子分の数に応じて、与えられるダメージ量が大きく上昇する。このスキルによるダメージでは、敵のＴＰが回復しない。=Deals minor damage to all enemies. If there are flag-bearing minions present, additional P.DMG is dealt. The additional damage from this skill increases massively based on the number of flag-bearing minions, and enemy TP does not recover from P.DMG caused by this skill.
 旗持ち子分を３体召喚し、自身の物理防御力と魔法防御力を中ダウンさせる。=Summons 3 flag-bearing minions and moderately decreases its own physical and M.DEF.
@@ -1184,7 +1132,6 @@
 敵全体に魔法中ダメージを与える。挑発を無視して、最も近い敵１キャラを自身の目の前まで引き寄せ、２番目以降に近い敵を小さく引き寄せる。=Deals moderate M.DMG to all enemies. Ignores provocation, pulling the nearest enemy character to directly in front of itself and slightly pulling closer the second nearest and onward enemies.
 ユニオンバーストは、最も近い敵１キャラを中心にした小範囲に魔法大ダメージを与え、スタン状態にし、さらにＴＰを中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: deals moderate M.DMG in a small area centered around the nearest enemy character, inflicting a stun status and further moderately lowering TP. The abnormal status caused by this skill is applied even if damage is nullified.
 自らの使命に執着し、呪物となり果てた招き猫。行き過ぎたその願いは、幸福だけでなく災いをも引き寄せる。=Clings to its own mission, the beckoning cat that has turned into a cursed object. Its excessive desires attract not only happiness but also disaster.
-願福寄災の招き猫とお供のモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters from all damage taken from the beckoning cat of fortune and disaster and its accompanying monster.
 お供を召喚し、敵全体をノックバックさせる。=Summons an accompanying monster and knocks back all enemies.
 召喚されたお供を１体倒すたびに、残りターゲット数が１減少する。その後、お供が再度召喚され、敵全体をノックバックさせる。=Each time the summoned accompanying monster is defeated, the remaining target count decreases by 1. Afterwards, the accompanying monster is summoned again and knocks back all enemies.
 白まねきは、物理防御力が高く、最も近い敵１キャラに物理小ダメージを与える。=White Beckoning Cat deals minor P.DMG to the nearest enemy character, having high P.DEF.
@@ -1195,7 +1142,6 @@
 敵全体のバリアを解除し、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与える。さらに物理攻撃力を中ダウン、魔法攻撃力を大ダウンさせ、ＨＰ吸収とＨＰ回復量を特大ダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Removes barriers from all enemies, inflicts percentage M.DMG based on character's maximum HP, and additionally decreases P.ATK and greatly decreases magical attack, HP absorption, and HP recovery amount. TP does not recover from the damage caused by this skill. The status abnormalities caused by this skill are applied even if damage is nullified.
 前方範囲内の敵にキャラの最大ＨＰに応じた魔法割合ダメージを与える。=Inflicts percentage M.DMG based on character's maximum HP on enemies within a frontal range.
 ユニオンバーストは、敵全体のバリアを解除し、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与える。行動不能状態のキャラには追加の魔法大ダメージを与え、さらにＴＰを中ダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: removes barriers from all enemies and inflicts percentage M.DMG based on character's maximum HP on all enemies. Deals additional magical major damage to characters in a disabled state and further decreases TP. TP does not recover from the damage caused by this skill.
-メサルティムから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces the TP recovery amount of party characters with every damage received from Mesaltim.
 飛行状態の敵を攻撃対象にできる。=Can target flying enemies.
 さらなる力を得た牡羊座の魔星獣。鬱々たる眠りの牢獄で冒険者の魂を貪り尽くす。=The Capricorn magical beast, now imbued with even greater power. It devours the souls of adventurers within the oppressive prison of slumber.
 ユニオンバーストは、敵全体のバリアを解除し、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与える。行動不能状態のキャラには追加の魔法大ダメージを与え、さらにＴＰを中ダウンさせる。このスキルによる追加ダメージでは、ＴＰが回復しない。=Union Burst: removes barriers from all enemies and inflicts percentage M.DMG based on character's maximum HP on all enemies. Deals additional magical major damage to characters in a disabled state and further decreases TP with the additional damage caused by this skill.
@@ -1203,7 +1149,6 @@
 敵全体のバリアを解除し、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、短時間束縛状態を付与する。敵キャラのＨＰが60％未満の場合、長時間束縛状態を付与する。=Removes barriers from all enemies, inflicts percentage M.DMG based on character's maximum HP, and applies a short-term binding status. If an enemy's HP is below 60%, applies a long-term binding status.
 夢幻より生まれ、闇を彷徨う魔獣。悪夢の牢に獲物を縛り、旨そうに生気を喰う。=Born from illusions, wandering in darkness, this demon binds its prey in the prison of nightmares and greedily consumes their vitality.
 バトル開始時、自身の物理防御力を大アップさせ、魔法防御力を中アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, greatly Boosts own P.DEF and moderately increases M.DEF. The defense increase from this effect is not affected by defense reduction skills during battle.
-ムーバから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Decreases TP recovery amount of party characters with every damage received from Mover.
 ユニオンバーストは、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラのステータスアップ効果を解除した後、魔法特大ダメージを与え、ＴＰを特大ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=Union Burst: After removing status enhancements from the enemy with the highest physical or attack, inflicts massive M.DMG and greatly reduces TP. This skill reduces TP even if the M.DMG is nullified.
 敵の挑発を無視して、最も遠い敵１キャラを中心にした小範囲内の敵すべてのＴＰを小ダウンさせ、呪い状態を付与する。このスキルにより付与された呪いのダメージでは、ＴＰが回復しない。=Ignores enemy provocation and reduces TP of all enemies within a small area centered around the furthest enemy, applying curse status. TP does not recover from damage caused by the curse inflicted by this skill.
 ユニオンバーストは、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラに魔法特大ダメージを与え、ＴＰを特大ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=Union Burst: Inflicts massive M.DMG and greatly reduces TP on the enemy with the highest physical or attack. This skill reduces TP even if the M.DMG is nullified.
@@ -1213,7 +1158,6 @@
 通常攻撃は最も近い敵１キャラに物理中ダメージを与え、毒状態を付与し、行動速度を小ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。バトル開始後、初弾の通常攻撃はダメージ量が大幅アップする。=Normal attacks inflict moderate damage, apply poison status, and slightly decrease action speed on the nearest enemy. The status ailments caused by this skill are applied even if damage is nullified. After battle starts, the P.DMG from the first normal attack massively increases.
 ジャッカルシーフの付与する毒のダメージでは、キャラのＴＰが回復しない。=The poison damage inflicted by Jackal Thief does not recover TP for the character.
 バトル開始時、自身の物理防御力と魔法防御力を特大アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, greatly Boosts own P.DEF and M.DEF. The defense increase from this effect is not affected by defense reduction skills during battle.
-タフガイストから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Decreases TP recovery amount of party characters with every damage received from Tough Geist.
 ユニオンバーストは、飛行状態のキャラを含む敵全体に自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: Deals P.DMG based on own P.ATK and M.DMG based on own attack to all enemies, including flying characters. TP does not recover from the M.DMG caused by this skill.
 自身の物理攻撃力、魔法攻撃力、物理防御力、魔法防御力をバトル終了まで小アップさせ、ＴＰを大回復する。=Boosts own P.ATK, M.ATK, P.DEF, and M.DEF until the end of battle, and greatly recovers TP.
 通常攻撃は、最も近い敵１キャラに物理大ダメージと魔法大ダメージを与える。=Normal attacks deal massive physical and M.DMG to the nearest enemy.
@@ -1228,13 +1172,11 @@
 ユニオンバーストは、最も近い敵１キャラを中心にした広範囲内の敵最大３キャラに物理大ダメージを与える。=Union Burst: Deals massive P.DMG to up to three enemies within a wide range centered on the nearest enemy.
 前から２キャラに物理中ダメージを与え、ノックバックさせると同時にスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals P.DMG to two characters from the front, knock them back, and stun them at the same time. This skill's status ailments can be inflicted even if damage is nullified.
 ユニオンバーストは、敵全体にエリマキレックスの物理攻撃力に応じた物理割合ダメージを与える。=Union Burst:  percentage P.DMG to all opponents according to the P.ATK power of the Erimachirex.
-エリマキレックスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=It mid-recovers the party character's TP recovery rate, which is generated by all damage taken from the Erimachirex.
 ジオ・ゲヘナに棲む恐竜魔物。頭のエリマキは威嚇だけでなく刃のように変形し獲物を両断する。=Dinosaur monsters that live in Gio Gehenna. The Erimachi on its head transforms into blades as well as intimidation, slicing its prey in half.
 
 レイザークロウ=Razor Claw
 最も近い敵１キャラを中心にした小範囲に物理大ダメージを与え、麻痺状態を付与する。さらに自身の物理防御力をバトル終了まで小アップさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG to a small area centered on the nearest enemy character, and inflicts paralysis. Additionally, increases own P.DEF power by a small amount until the end of the battle. This skill's abnormal status is applied even if the damage is nullified.
 ユニオンバーストは、敵全体に自身の物理防御力に応じた物理ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals P.DMG to all enemies according to your P.DEF power. TP does not recover from damage caused by this skill.
-レイザークロウから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the amount of TP recovery for party characters that occurs from all damage received from Razor Claw.
 自身が一度の行動で受けるダメージ値を減衰させる。ダメージ値が上昇するほど減衰率も上昇する。=Attenuates the damage you receive from a single action. As the damage value increases, the attenuation rate also increases.
 塔の魔力で強化された凶悪な怪鳥獣。捕食者の爪先は一度狙った獲物を決して逃さない。=A ferocious monster beast strengthened by the magical power of the tower. A predator's claws never let go of the prey they have targeted.
 
@@ -1252,7 +1194,6 @@
 後方小範囲内の敵最大３キャラに物理中ダメージを与え、ＴＰを中ダウンさせる。その後、前にいるツインピッグスは前方へ移動する。このスキルによるダメージでは、ＴＰが回復しない。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals moderate P.DMG to up to 3 enemies in a small rear area, moderately reduces their TP, and then the Twin Pigs move forward. TP does not recover from damage dealt by this skill. This skill reduces TP even if the damage is nullified.
 後方小範囲内の敵最大３キャラに物理中ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals moderate P.DMG to up to 3 enemies in a small rear area and inflicts Stun. The status ailment from this skill is inflicted even if the damage is nullified.
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals percentage P.DMG to all enemies based on the character's max HP, greatly reduces their P.ATK and M.ATK. TP does not recover from damage dealt by this skill. The status ailment from this skill is inflicted even if the damage is nullified.
-ツインピッグスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Greatly reduces TP recovery of party characters from all damage taken from the Twin Pigs.
 バトル開始時、敵全体のＨＰ吸収を特大ダウンさせ、ＴＰ上昇を小ダウンさせる。=At the start of battle, greatly reduces HP absorption and slightly reduces TP gain of all enemies.
 魔力の雨が集まり形を成した冷酷な水霊。吹き荒れる暴雨は、無慈悲に冒険者を飲み込む。=A merciless water spirit formed from gathered magical rain. The raging storm mercilessly engulfs adventurers.
 ユニオンバーストは、敵全体に魔法大ダメージを与え、キャラのＨＰが70％未満の場合スタン状態を付与する。さらに、前方中範囲内のＨＰが70％未満の敵全てをノックバックさせ、最も遠い敵１体を中心にした中範囲内のＨＰが70％未満の敵全てを引き寄せる。このスキルの状態異常はダメージを無効化しても付与される。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals large M.DMG to all enemies and inflicts Stun if their HP is below 70%. Additionally, knocks back all enemies with HP below 70% in a medium front area and pulls all enemies with HP below 70% within a medium area centered on the farthest enemy. The status ailment from this skill is inflicted even if the damage is nullified. TP does not recover from damage dealt by this skill.
@@ -1263,7 +1204,6 @@
 
 敵全体に魔法小ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせ、さらに自身のＴＰを中回復する。このスキルによるダメージでは、敵のＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Deals small M.DMG to all enemies, greatly reduces their P.ATK and M.ATK, and moderately recovers own TP. Enemy TP does not recover from damage dealt by this skill. The status ailment from this skill is inflicted even if the damage is nullified.
 ユニオンバーストは、敵の挑発を無視して、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラに魔法大ダメージを与え、麻痺状態を付与する。さらに物理攻撃力と魔法攻撃力を特大ダウンさせ、ＴＰを毎秒小ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。このスキルはダメージを無効化してもＴＰをダウンさせる。=Union Burst ignores enemy provocation, deals large M.DMG to the enemy with the highest physical or magical attack, and inflicts Paralysis. Additionally, greatly reduces their P.ATK and M.ATK, and slightly reduces their TP per second. The status ailment from this skill is inflicted even if the damage is nullified. This skill reduces TP even if the damage is nullified.
-スピリットホーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces TP recovery of party characters from all damage taken from the Spirit Horn.
 ユニオンバーストは、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラのステータスアップ効果を解除した後、魔法特大ダメージを与え、ＴＰを特大ダウンさせる。=Union Burst removes status boosts from the enemy with the highest physical or magical attack, deals massive M.DMG, and greatly reduces their TP.
 通常攻撃は、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラに物理大ダメージを与える。=Normal attack deals large P.DMG to the enemy with the highest physical or magical attack.
 ユニオンバーストは、バトル終了まで自身の魔法攻撃力を小アップ、魔法防御力を中アップさせる。その後、最も近い敵１キャラに魔法特大ダメージを与え、麻痺状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst slightly increases own magical attack and moderately increases M.DEF until the end of the battle, then deals massive M.DMG to the nearest enemy and inflicts Paralysis. The status ailment from this skill is inflicted even if the damage is nullified.
@@ -1292,7 +1232,6 @@
 自身のＨＰが50％を切ると、自身の物理攻撃力を大アップさせ、行動速度を特大アップさせる。=When own HP falls below 50%, greatly increases own P.ATK and massively increases action speed.
 膨大な魔力をその身に宿し、強大な魔物となった敬虔な従者。その力は刻一刻と増幅し続け、触れるもの全てを闇へ葬る。=A devout servant turned into a powerful monster by immense magical power. Its strength continues to grow every moment, engulfing everything he touches in darkness.
 変貌せし従者=Transformed Servant
-ブラドから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=All damage taken from Brad moderately reduces TP Boost of party members.
 敵全体の物理攻撃力を特大ダウンさせ、魔法攻撃力を小ダウンさせる。さらに自身の物理攻撃力を大アップさせ、ＴＰを中回復する。このスキルの効果は発動するたびにアップする。=Massively reduces P.ATK and slightly reduces M.ATK of all enemies. Additionally, greatly increases own P.ATK and moderately recovers TP. This skill's effect increases with each use.
 わらわの魔力と共鳴しておるな。あやつめ、力を引き出しすぎじゃ。このままでは街ごと滅んでしまうぞ。=He resonates with my magic. He is drawing too much power. At this rate, the entire city will be destroyed.
 魔物たちの憧憬の思いが堰を切った。多大なる恩恵を我先に得ようと狂暴化した魔物たちが、大群となって押し寄せる。=The monsters' longing has burst forth. The frenzied monsters, eager to claim the great blessings, swarm in hordes.
@@ -1302,7 +1241,6 @@
 敵全体の物理攻撃力と魔法攻撃力を大ダウンさせる。さらに自身の物理攻撃力を大アップさせる。=Greatly reduces P.ATK and M.ATK of all enemies. Additionally, greatly increases own P.ATK.
 敵の挑発を無視して、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラに魔法小ダメージを与え、誘惑状態を付与する。さらにステータスアップ効果を解除する。このスキルの効果はダメージを無効化しても付与される。=Ignores enemy taunts and deals minor M.DMG to the enemy with the highest P.ATK or M.ATK, inflicting Charm. Additionally, removes status boosts. This skill's effects are applied even if the damage is nullified.
 
-ワイバーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Reduces party members' TP Boost massively from all damage taken from Wyvern.
 ユニオンバーストは、召喚体、分身を除いた最も近い敵３キャラに魔法大ダメージを与え、ノックバックさせる。さらに、キャラのＨＰが70％未満の場合、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals major M.DMG to the nearest 3 enemies, excluding summons and clones, and knocks them back. If the target's HP is below 70%, inflicts Stun. This skill's status effects are applied even if the damage is nullified.
 ユニオンバーストは、召喚体、分身を除いた最も近い敵３キャラに魔法大ダメージを与える。=Union Burst: Deals major M.DMG to the nearest 3 enemies, excluding summons and clones.
 敵の挑発を無視して、前から３番目の敵を中心にした小範囲内の敵すべてに物理小ダメージを与え、束縛状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Ignores Provoke and deals minor P.DMG to all enemies in a small area centered on the third enemy from the front, inflicting Bind. This skill's status effects are applied even if the damage is nullified.
@@ -1311,14 +1249,12 @@
 各ターゲットのブレイク時、自身のクリティカルを受けた際のダメージが特大アップする。=Each time a target is broken, receives massively boost CRT DMG received.
 甲羅にこもっている間に自身の物理防御力と魔法防御力を特大アップする。その後、飛行状態のキャラを含む敵全体に自身の物理攻撃力に応じた物理固定ダメージを与える。=Increases own P.DEF and M.DEF massively while retreating into the shell. Afterward, deals fixed P.DMG based on own P.ATK to all enemies, including flying ones.
 ユニオンバーストは、敵全体に物理大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals major P.DMG to all enemies, and massively reduces their P.ATK and M.ATK. This skill's status effects are applied even if the damage is nullified.
-ティタノタートルから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Reduces party members' TP Boost moderately from all damage taken from Titan Turtle.
 甲羅にこもっている間に自身の物理防御力と魔法防御力を特大アップする。その後、敵全体に自身の物理攻撃力に応じた物理ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Increases own P.DEF and M.DEF massively while retreating into the shell. Afterward, deals P.DMG based on own P.ATK to all enemies. This skill's damage does not restore TP.
 全ターゲットがブレイクされると、一定時間行動不能になる。行動不能の間、自身の物理防御力と魔法防御力を中ダウンさせ、ブレイクされなくなる。=Becomes immobilized for a certain period when all targets are broken. During this period, reduces own P.DEF and M.DEF moderately and becomes unbreakable.
 ユニオンバーストは、敵全体のバリア効果を解除し、自身の魔法攻撃力に応じた魔法固定ダメージを与える。その後、自身の魔法攻撃力をバトル終了まで中アップさせる。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: Removes barrier effects from all enemies and deals fixed M.DMG based on own M.ATK. Afterward, increases own M.ATK moderately until the end of the battle. This skill's damage does not restore TP.
 最も近い敵１キャラを中心とした小範囲内の敵すべてに物理特大ダメージを与える。=Deals massive P.DMG to all enemies in a small area centered on the nearest enemy.
 敵全体に物理小ダメージを与え、行動速度を中ダウンさせる。このスキルの効果は他の行動速度変化スキルと重複する。このスキルの状態異常はダメージを無効化しても付与される。=Deals minor P.DMG to all enemies and moderately reduces their action speed. This skill's effects stack with other action speed changes. The status effects are applied even if the damage is nullified.
 バトル終了まで姿を変える。姿を変える際、自身の魔法攻撃力と行動速度を特大アップさせ、すべてのスキルを魔法攻撃に変化させる。=Transforms until the end of the battle. During transformation, massively increases own M.ATK and action speed, and converts all skills to magical attacks.
-カルキノスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Reduces party members' TP Boost massively from all damage taken from Karkinos.
 ユニオンバーストは、敵全体に自身の魔法攻撃力に応じた魔法固定ダメージを与える。その後、自身の魔法攻撃力をバトル終了まで中アップさせる。このスキルによるダメージでは、敵のＴＰが回復しない。=Union Burst: Deals fixed M.DMG based on own M.ATK to all enemies. Afterward, increases own M.ATK moderately until the end of the battle. This skill's damage does not restore TP for enemies.
 敵全体に物理小ダメージを与え、行動速度を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals minor P.DMG to all enemies and moderately reduces their action speed. This skill's status effects are applied even if the damage is nullified.
 ユニオンバーストは、最も近い敵１キャラを中心にした小範囲に自身の物理防御力に応じた物理ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst: deals P.DMG to a small area around the closest enemy based on the user's P.DEF. Damage from this skill does not restore TP.
@@ -1326,3 +1262,25 @@
 最も近い敵１キャラに物理特大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。【滅却の蛮雷】=Deals large physical damage to the nearest enemy character and stuns them. The abnormal status caused by this skill will be applied even if the damage is nullified.\n\n[Destruction Lightning]
 稲妻を角に纏う剛力無双の一角獣。筋骨隆々の怪腕が大地を割り、雷角が天空を貫く。=A powerful unicorn with lightning bolts on its horns. Its muscular arms split the earth and its thunder horns pierce the sky.
 巨大に変異したバジリスクの亜種。異相の巨体を羽ばたかせ、獲物を絶望に突き落とす。=A subspecies of the basilisk that has mutated into a gigantic form. It flaps its enormous, alien body and drives its prey into despair.
+
+
+前方広範囲内の敵すべてに物理大ダメージを与え、火傷状態の場合はさらに追加の物理固定ダメージを与える。このスキルによる追加ダメージでは、ＴＰが回復しない。=Deals massive physical damage to all opponents within a wide area in front of you, and in the case of burns, additional physical fixed damage. Additional damage from this skill will not restore TP.
+最も近い敵１キャラに物理特大ダメージを与え、火傷状態の場合はさらに追加の物理固定ダメージを与える。このスキルによる追加ダメージでは、ＴＰが回復しない。=Deals extra-large Physical DMG to the nearest enemy character, and inflicts additional Physical Fixed DMG when burned. Additional DMG from this skill cannot restore TP.
+ユニオンバーストは、敵全体に物理中ダメージを与え、短時間火傷状態を付与する。キャラのＨＰが60％未満の場合、長時間火傷状態を付与する。このスキルによるダメージと付与された火傷状態のダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals Physical DMG to all opponents and inflicts a brief burn state. When the character's HP is less than 60%, it inflames a long burn state for a long time. DMG dealt by this skill and the damage dealt by the burn state cannot restore TP. This skill's status ailments can be infused even if the damage is nullified.
+ユニオンバーストは、敵全体に魔法特大ダメージを与え、さらに麻痺状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals extra-large damage to all opponents and inflicts even greater paralysis. Damage from this skill cannot restore TP. This skill's status ailments can be infused even if damage is nullified.
+召喚体、分身を除いた最も近い敵２キャラに魔法小ダメージを与え、ノックバックさせる。=I dealt minor magical damage to the two closest enemy characters aside from the summoned body and clones, knocking them back.
+通常攻撃は、召喚体、分身を除いた最も近い敵２キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Normal Attacks deal a lot of magic damage to the two closest enemy characters aside from the summoned body and clones, reducing their magic defense by a small amount. The effects of this skill can be applied even if the damage is nullified.
+大輪の蓮花を模した魔物。その絢爛なる花吹雪は美しくも烈々と獲物に襲い掛かる。=A monster shaped like a large lotus flower. Its gorgeous blizzard of flowers assaults its prey with both beauty and intensity.
+ユニオンバーストは、最も近い敵１キャラを中心にした中範囲内の敵すべてに物理中ダメージを与え、敵全体の行動速度を中ダウンさせ、さらに自身の行動速度を大アップさせる。範囲内の敵の数に応じて、このスキルのダメージがダウンする。このスキルによるダメージではＴＰが回復しない。このスキルの効果はダメージを無効化しても付与される。=Union Burst deals Physical Intermediate DMG to all opponents in a medium AoE, with the closest enemy character at the center. It reduces the overall speed of the opponent's movements and greatly increases their own. This skill's DMG will decrease depending on the number of enemies in a range. DMG from this skill will not restore TP. The effects of this skill can be inflicted even if the damage is nullified.
+最も近い敵１キャラを中心にした中範囲内の敵すべてに物理小ダメージを与え、物理防御力を特大ダウンさせる。範囲内の敵の数に応じて、防御力の減少量がダウンする。このスキルの効果はダメージを無効化しても付与される。=Physical small DMG dealt to all opponents within the medium AoE, with the closest enemy character at the center. Physical defense is greatly decreased based on the number of enemies within the AoI. This skill's effects can be inflicted even if damage is nullified.
+ユニオンバーストは、最も近い敵１キャラに物理特大ダメージを与え、自身の物理攻撃力と物理防御力をバトル終了まで小アップさせる。=Union Burst deals extra-large physical damage to the nearest enemy character, increasing their own physical attack power and physical defense by a small amount until the battle ends.
+バトル開始時、自身の物理防御力と魔法防御力を大アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。=When the battle begins, your own Physical and Magic Defenses will be greatly increased. This Defense Boost effect will not affect the Defense Down skill you receive during the battle.
+バトル開始時、敵全体のＨＰ吸収を特大ダウンさせ、ＴＰ上昇を中ダウンさせる。=At the start of battle, greatly reduces the HP absorption of all enemies and moderately reduces TP Boost.
+前方広範囲内の敵すべてに物理大ダメージを与え、火傷状態の場合はさらに追加の物理固定ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Deals massive physical damage to all opponents within a wide area in front of you, and in the case of burns, additional physical fixed damage. DMG from this skill cannot restore TP.
+敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、短時間スタン状態を付与する。キャラのＨＰが60％未満の場合、長時間スタン状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Deals a percentage of damage to all opponents according to the maximum HP of the character and grants them a short stun state. If the character's HP is less than 60%, the character will inflict a stun status for a long time. DMG from this skill will not restore TP. This skill's status ailments will be infused even if the damage is nullified.
+敵の挑発を無視して、前から３番目のキャラを中心にした中範囲内の敵すべてに継続魔法ダメージを与えるフィールドを展開する。このスキルによるダメージでは、ＴＰが回復しない。=Ignoring the enemy's provocations, I deploy a field that deals continuous magic damage to all enemies in the midrange, with the third character at the center. DMG from this skill will not restore TP.
+水属性のキャラが４体以上編成されているとき、キャラの属性ボーナスが強化される。=When four or more water-based characters are organized, the character’s attribute bonus will be strengthened.
+召喚体、分身を除いた最も近い敵２キャラに魔法小ダメージを与え、ノックバックさせ、さらに魔法大ダメージを与える。=Deals small magic damage to the two nearest enemies (excluding summoned creatures and clones), knocks them back, and deals large magic damage.
+ユニオンバーストは、最も近い敵１キャラを中心にした中範囲内の敵すべてに物理中ダメージを与え、敵全体の行動速度を大ダウンさせ、さらに自身の行動速度を大アップさせる。範囲内の敵の数に応じて、このスキルのダメージがダウンする。このスキルによるダメージではＴＰが回復しない。このスキルの効果はダメージを無効化しても付与される。=Union Burst deals medium physical damage to all enemies within a medium range centered on the closest enemy character, greatly reduces the action speed of all enemies, and also greatly increases the user's action speed. The damage dealt by this skill decreases according to the number of enemies within range. TP is not restored by damage dealt by this skill. The effect of this skill is applied even if damage is nullified.
+最も遠い敵２キャラに魔法中ダメージを与え、ＴＰ上昇を大ダウンさせ、ＴＰを小ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals magic damage to the two farthest enemies, greatly reduces TP gain, and slightly reduces TP. The abnormal status caused by this skill will be inflicted even if damage is nullified. This skill will reduce TP even if damage is nullified.
+最も遠い敵２キャラに魔法中ダメージを与え、さらに物理攻撃力と魔法攻撃力を特大ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals medium damage to the two farthest enemies and also greatly reduces their physical and magical attack power. The effect of this skill is applied even if damage is nullified.

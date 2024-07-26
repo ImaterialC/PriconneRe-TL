@@ -262,7 +262,7 @@
 クローチェ（サマー）=Croce (Summer);Croche (Summer);Crotch (Summer);SCroce;SCroche;SCrotch;Summer;Swimsuit;Bikini
 ライラエル（サマー）=Lyrael (Summer);SLyrael;Summer;Swimsuit;Bikini
 クルル（サマー）=Kururu (Summer);SKururu;Summer;Swimsuit;Bikini
-ネビア（サマー）=Navi (Summer);SNavi;Summer;Swimsuit;Bikini
+ネビア（サマー）=Navi (Summer);Nebbia (Summer);SNavi;SNebbia;Summer;Swimsuit;Bikini
 ヤマト（サマー）=Yamato (Summer);SYamato;Summer;Swimsuit;Bikini
 フブキ（サマー）=Fubuki (Summer);SFubuki;Summer;Swimsuit;Bikini
 ワカナ（サマー）=Wakana (Summer);SWakana;Summer;Swimsuit;Bikini
@@ -350,7 +350,7 @@
 クローチェ（ハロウィン）=Croce (Halloween);Croche (Halloween);Crotch (Halloween);HCroce;HCroche;HCrotch;Halloween
 ライラエル（ハロウィン）=Lyrael (Halloween);HLyrael;Halloween
 クルル（ハロウィン）=Kururu (Halloween);HKururu;Halloween
-ネビア（ハロウィン）=Navi (Halloween);HNavi;Halloween
+ネビア（ハロウィン）=Navi (Halloween);Nebbia (Halloween);HNavi;HNebbia;Halloween
 ヤマト（ハロウィン）=Yamato (Halloween);HYamato;Halloween
 フブキ（ハロウィン）=Fubuki (Halloween);HFubuki;Halloween
 ワカナ（ハロウィン）=Navi (Halloween);HWakana;Halloween
@@ -438,7 +438,7 @@
 クローチェ（クリスマス）=Croce (Holiday);Croche (Holiday);Crotch (Holiday);XCroce;XCroche;XCrotch;Holiday;Christmas;Xmas
 ライラエル（クリスマス）=Lyrael (Holiday);XLyrael;Holiday;Christmas;Xmas
 クルル（クリスマス）=Kururu (Holiday);XKururu;Holiday;Christmas;Xmas
-ネビア（クリスマス）=Navi (Holiday);XNavi;Holiday;Christmas;Xmas
+ネビア（クリスマス）=Navi (Holiday);Nebbia (Holiday);XNavi;XNebbia;Holiday;Christmas;Xmas
 ヤマト（クリスマス）=Yamato (Holiday);XYamato;Holiday;Christmas;Xmas
 フブキ（クリスマス）=Fubuki (Holiday);XFubuki;Holiday;Christmas;Xmas
 ワカナ（クリスマス）=Wakana (Holiday);XWakana;Holiday;Christmas;Xmas
@@ -526,7 +526,7 @@
 クローチェ（ニューイヤー）=Croce (New Year);Croche (New Year);Crotch (New Year);NyCroce;NyCroche;NyCrotch;New Year;Kimono
 ライラエル（ニューイヤー）=Lyrael (New Year);NyLyrael;New Year;Kimono
 クルル（ニューイヤー）=Kururu (New Year);NyKururu;New Year;Kimono
-ネビア（ニューイヤー）=Navi (New Year);NyNavi;New Year;Kimono
+ネビア（ニューイヤー）=Navi (New Year);Nebbia (New Year);NyNavi;NyNebbia;New Year;Kimono
 ヤマト（ニューイヤー）=Yamato (New Year);NyYamato;New Year;Kimono
 フブキ（ニューイヤー）=Fubuki (New Year);NyFubuki;New Year;Kimono
 ワカナ（ニューイヤー）=Wakana (New Year);NyWakana;New Year;Kimono
@@ -611,10 +611,10 @@
 クリア（バレンタイン）=Quria (Valentine);VQuria;Clear (Valentine);VClear;Valentine
 プレシア（バレンタイン）=Precia (Valentine);VPrecia;Valentine
 リリ（バレンタイン）=Riri (Valentine);VRiri;Lili (Valentine);VLili;Lily (Valentine);VLily;Valentine
-クローチェ（バレンタイン）=Croce;Croche;Crotch (Valentine);VCrotch;Valentine
+クローチェ（バレンタイン）=Croce (Valentine);Croche (Valentine);Crotch (Valentine);VCrotch;Valentine
 ライラエル（バレンタイン）=Lyrael (Valentine);VLyrael;Valentine
 クルル（バレンタイン）=Kururu (Valentine);VKururu;Valentine
-ネビア（バレンタイン）=Navi (Valentine);VNavi;Valentine
+ネビア（バレンタイン）=;Navi (Valentine);Nebbia (Valentine);VNavi;VNebbia;Valentine
 ヤマト（バレンタイン）=Yamato (Valentine);VYamato;Valentine
 フブキ（バレンタイン）=Fubuki (Valentine);VFubuki;Valentine
 ワカナ（バレンタイン）=Wakana (Valentine);VWakana;Valentine

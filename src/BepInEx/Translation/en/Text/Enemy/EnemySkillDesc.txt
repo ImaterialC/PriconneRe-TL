@@ -1,0 +1,82 @@
+毒=Poison
+猛毒=Venom
+
+呪い=Curse
+呪詛=Hex
+火傷=Burn
+
+誘惑=Charm
+スタン=Stun
+束縛=Bind
+混乱=Confusion
+
+ユニオンバーストは=Union Burst: 
+敵全体=all enemies
+前方範囲内の敵=area of front enemies
+前方範囲内=front area
+前方範囲内のキャラ=front area of character
+
+前方小範囲の敵=small area of enemies
+前方中範囲の敵=medium area of enemies
+
+５
+最も近い敵１キャラ=nearest 1 character
+最も近い敵２キャラ=nearest 2 characters
+最も近い敵３キャラ=nearest 3 characters
+最も近い敵４キャラ=nearest 4 characters
+最も近い敵５キャラ=nearest 5 characters
+最も遠い敵１キャラ=farthest 1 characters
+最も遠い敵２キャラ=farthest 2 characters
+最も遠い敵３キャラ=farthest 3 characters
+最も遠い敵４キャラ=farthest 4 characters
+最も遠い敵５キャラ=farthest 4 characters
+前方１キャラ=front most character
+前方２キャラ=2 characters in the front
+前方３キャラ=3 characters in the front
+前方４キャラ=4 characters in the front
+前方５キャラ=5 characters in the front
+前から２キャラ=2nd character from the front
+前から３キャラ=3rd character from the front
+前から４キャラ=4th character from the front
+前から５キャラ=5th character from the front
+ランダムな１キャラ=1 random character
+ランダムな２キャラ=2 random characters
+ランダムな３キャラ=3 random characters
+ランダムな４キャラ=4 random characters
+ランダムな５キャラ=4 random characters
+最も近い敵1キャラ=nearest 1 character
+最も近い敵2キャラ=nearest 2 characters
+最も近い敵3キャラ=nearest 3 characters
+最も近い敵4キャラ=nearest 4 characters
+最も近い敵5キャラ=nearest 5 characters
+最も遠い敵1キャラ=farthest 1 characters
+最も遠い敵2キャラ=farthest 2 characters
+最も遠い敵3キャラ=farthest 3 characters
+最も遠い敵4キャラ=farthest 4 characters
+最も遠い敵5キャラ=farthest 5 characters
+前方1キャラ=front most character
+前方2キャラ=2 characters in the front
+前方3キャラ=3 characters in the front
+前方4キャラ=4 characters in the front
+前方5キャラ=5 characters in the front
+前から2キャラ=2nd character from the front
+前から3キャラ=3rd character from the front
+前から4キャラ=4th character from the front
+前から5キャラ=4th character from the front
+ランダムな1キャラ=1 random character
+ランダムな2キャラ=2 random characters
+ランダムな3キャラ=3 random characters
+ランダムな4キャラ=4 random characters
+ランダムな5キャラ=4 random characters
+
+このスキルの効果はダメージを無効化しても付与される。=This skill's effects are applied even if the damage is nullified.
+
+sr:"^(.{2,20})から受けるすべてのダメー\n?　?ジ\n?　?で\n?　?は\n?　?、\n?　?パーティキャラのＴＰが回復しない。\n?$"=All damage received from $1 prevents the TP recovery of party members.
+sr:"^(.{2,20})から受け(?:\n　)?る(?:\n　)?す(?:\n　)?べ(?:\n　)?て(?:\n　)?の(?:\n　)?ダ(?:\n　)?メ(?:\n　)?ー(?:\n　)?ジ(?:\n　)?で(?:\n　)?発(?:\n　)?生(?:\n　)?す(?:\n　)?る(?:\n　)?、(?:\n　)?パ(?:\n　)?ー(?:\n　)?テ(?:\n　)?ィ(?:\n　)?キ(?:\n　)?ャラ(?:\n　)?の(.{2,8})を(?:\n　)?(極(?:\n　)?大|絶(?:\n　)?大|特(?:\n　)?大|大|中|小|大(?:\n　)?幅)(?:\n　)?ダウンさせる。\n?$"=$3 decreases $2 of party characters with every damage received from $1.
+
+sr:"^(ユニオンバーストは、?)?(敵全体|前方(?:小|中|大|)範囲内(?:の敵|のキャラ|)|(?:最も(?:近|遠)い敵.|前方.|前から.|ランダムな.)キャラ)に(物理|魔法)(極大|絶大|特大|大|中|小|大幅)ダメージを与え、(猛毒|毒|呪い|呪詛|火傷|誘惑|スタン|束縛|混乱)状態にする。\n?$"=$1Deals $4 $3 DMG to the $2 and inflicts $5 state.
+
+r:"^バトル開始時、自身にＴＰダウン(\d+)％カット効果を付与する。\n?$"=At the beginning of battle, grants itself a $1% cut of TP Down effect.
+
+
+最もＨＰの割合が低い味方１キャラのＨＰを中回復させる。=Moderately recovers HP for one ally with the lowest HP percentage.
