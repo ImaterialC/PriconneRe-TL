@@ -60,8 +60,8 @@ sr:"^(.+?)のスキルが強化される。$"=$1's skill is strengthened.
 バトル開始時、ヒール・レリックが味方全体を物理ダメージ50%カット状態にさせる。=At the start of the battle, Heal Relic will reduce all allies' P.DMG by 50%.
 バトル開始時、ヒール・レリックが味方全体を物理ダメージ50%カット状態にさせる。=At the start of the battle, Heal Relic will reduce all allies' P.DMG by 75%.
 
-バトル開始時、ボスモンスターがＴＰダウン100％カット状態になる。=At the start of the battle, the boss monster will have 100% TP cut.
-バトル開始時、ボスモンスターがＴＰダウン50％カット状態になる。=At the start of the battle, the boss monster will have 50% TP cut.
+バトル開始時、ボスモンスターがＴＰダウン100％カット状態になる。=At the start of the battle, TP Down debuff will be cut on the boss monster for 100%.
+バトル開始時、ボスモンスターがＴＰダウン50％カット状態になる。=At the start of the battle, TP Down debuff will be cut on the boss monster for 50%.
 ボスＴＰダウンカット=Boss TP Down Cut
 バトル開始時、シールド・レリックのが味方全体に\n継続ＴＰ回復状態を付与する。=At the start of the battle, Shield Relic's will inflict continuous TP recovery on all allies.
 開始時ＴＰ継続回復付与=Continuous TP recovery bonus at the start
