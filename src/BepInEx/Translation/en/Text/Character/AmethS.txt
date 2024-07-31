@@ -1,0 +1,20 @@
+##Profile##
+【魔法】後衛で、黄昏の水面に舞い降りる水着姿の妖精。行動速度アップやＴＰ支援をはじめとした多数のサポートを施しつつ、ＵＢの攻防弱体化で清爽に勝利へと導く。=A swimsuit fairy who dances atop the golden surface of the sea.\nShe has many support skills, including speed buffs and TP,\nAnd her UB decreases the attack and defense of the enemy.\nWith these, she guides us to a refreshing victory.
+
+##UB##
+フィオレ・オセアーノ=Fiore Oceano
+目の前の敵１キャラに魔法特大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウン、魔法防御力を小ダウンさせる。=Deals massive M.DMG to an enemy in front, greatly lowers its P.ATK and M.ATK, and slightly lowers its M.DEF.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 18s.\n►Lowers an enemy's M.ATK by $3 for 18s.\n►Lowers an enemy's M.DEF by $4 for 18s.
+
+##S1##
+アクア・メンブラーナ=Aqua Membrana
+味方全体に物理/魔法無効バリアを展開する。さらに、最もＴＰが低い味方１キャラのＴＰを小回復させ、そのキャラを中心とした範囲内の味方すべてに継続ＴＰ回復状態を付与する。=Deploys Barrier over all allies that negates P/M.DMG. Also slightly recovers TP of lowest TP ally, and continuously recovers allies' TP in range of that ally.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する味方単体のＴＰを50回復毎秒ＴＰを10回復する$"=►Deploys Barrier over all allies that negates $1 P/M.DMG for 18s.\n►Recovers an ally's TP by 50.\n►Recovers allies' TP in 300 range by 10/s for 10s.
+
+##S2##
+ヴィータ・オペラーレ=Vita Operare
+味方全体の行動速度を大アップさせる。さらに、最もＨＰが低い味方１キャラのＨＰを中回復させ、そのキャラを中心とした範囲内の味方すべてに継続ＨＰ回復状態を付与する。=Greatly boosts all allies' action speed. Also moderately recovers HP of lowest HP ally, and continuously recovers allies' HP in range of that ally.
+r:"^味方全体の行動速度アップ味方単体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=►Boosts all allies' action speed to 200% for 12s.\n►Recovers an ally's HP by $1.\n►Recovers allies' HP in 300 range by $2/s for 10s.
+
+##EX##
+ファータスプルッツォ=Fata Spruzzo

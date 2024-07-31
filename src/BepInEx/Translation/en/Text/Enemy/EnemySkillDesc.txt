@@ -11,6 +11,7 @@
 混乱=Confusion
 
 ユニオンバーストは=Union Burst: 
+ユニオンバーストは、=Union Burst: 
 敵全体=all enemies
 前方範囲内の敵=area of front enemies
 前方範囲内=front area
@@ -69,7 +70,16 @@
 ランダムな4キャラ=4 random characters
 ランダムな5キャラ=4 random characters
 
+向かって右側=right side
+中央=center
+中央右部=center right
+中央左部=center left
+向かって左側=left side
+と= and 
+
 このスキルの効果はダメージを無効化しても付与される。=This skill's effects are applied even if the damage is nullified.
+
+sr:"^(向かって右側|中央右部|中央左部|中央|向かって左側)のターゲットのブレイク時、(?:\n　)?自身の(.{2,5})(と)?(.{2,5})?が(極大|絶大|特大|大|中|小|大幅)ダウン(?:する)?。\n?$"=Upon the break of the $1 target, decreases its own $2$3$4 by a $5 amount.
 
 sr:"^(.{2,20})から受けるすべてのダメー\n?　?ジ\n?　?で\n?　?は\n?　?、\n?　?パーティキャラのＴＰが回復しない。\n?$"=All damage received from $1 prevents the TP recovery of party members.
 sr:"^(.{2,20})から受け(?:\n　)?る(?:\n　)?す(?:\n　)?べ(?:\n　)?て(?:\n　)?の(?:\n　)?ダ(?:\n　)?メ(?:\n　)?ー(?:\n　)?ジ(?:\n　)?で(?:\n　)?発(?:\n　)?生(?:\n　)?す(?:\n　)?る(?:\n　)?、(?:\n　)?パ(?:\n　)?ー(?:\n　)?テ(?:\n　)?ィ(?:\n　)?キ(?:\n　)?ャラ(?:\n　)?の(.{2,8})を(?:\n　)?(極(?:\n　)?大|絶(?:\n　)?大|特(?:\n　)?大|大|中|小|大(?:\n　)?幅)(?:\n　)?ダウンさせる。\n?$"=$3 decreases $2 of party characters with every damage received from $1.

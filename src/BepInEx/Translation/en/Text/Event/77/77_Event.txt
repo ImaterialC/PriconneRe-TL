@@ -1,0 +1,6 @@
+r:"^水都ランドソル([0-9\-\(\)\w （）]*)$"=Città dell'Acqua $1
+カオス・ジェネレーター=Chaos Generator
+
+一定時間が経過するごとに、敵全体をノックバックさせる。=After a certain amount of time has passed, all enemies will be knocked back.
+
+

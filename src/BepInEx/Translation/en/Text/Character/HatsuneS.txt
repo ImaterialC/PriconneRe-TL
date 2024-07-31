@@ -10,7 +10,7 @@ r:"^敵全体に(\d+)の魔法ダメージ自分を行動不能にする$"=►De
 
 ##S1##
 ポンポンエール☆シュート=Pom-Pom Yell☆Shoot
-敵全体に魔法中ダメージを与え、さらに自分のＴＰを中回復する。敵の数に応じて与えるダメージとＴＰの回復量が増加する。=Deals moderate M.DMG to all enemies and further restores her own TP. The damage dealt and TP recovery amount increase based on the number of enemies.
+敵全体に魔法中ダメージを与え、さらに自分のＴＰを中回復する。敵の数に応じてＴＰの回復量が増加する。=Deals moderate M.DMG to all enemies and further restores her own TP. The TP recovery amount increases based on the number of enemies.
 
 ##S2##
 チアフル☆ハピネス=Cheerful☆Happiness
@@ -23,6 +23,7 @@ r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の�
 
 ##S1+##
 ポンポンエール☆シュート+=Pom-Pom Yell☆Shoot+
+敵全体に魔法中ダメージを与え、さらに自分のＴＰを中回復する。敵の数に応じて与えるダメージとＴＰの回復量が増加する。=Deals moderate M.DMG to all enemies and further restores her own TP. The damage dealt and TP recovery amount increase based on the number of enemies.
 r:"^敵全体に(\d+)の魔法ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 M.DMG to all enemies.\n►Recovers own TP by $2.
 
 ##UE##

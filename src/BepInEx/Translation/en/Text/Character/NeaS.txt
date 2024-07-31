@@ -3,8 +3,8 @@
 
 ##UB##
 スライミィサービス=Slimy Service
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせ、【ネバネバ】を２つ付与する。【ネバネバ】は最大６まで追加される。【ネバネバ】の数に応じて敵の攻撃力はダウンする。さらに、自分のＨＰを中回復する。対象の【ネバネバ】の数が４以上の場合、自分に物理/魔法無効バリアを展開する。=Deals massive P.DMG to an enemy, moderately lowers its P.DEF, and inflicts 2 [Sticky], up to a maximum of 6. Updates an enemy's lowered P/M.ATK based on the number of [Sticky] stacks. Also moderately recovers own HP. If an enemy has 4+ [Sticky] stacks, also deploys Barrier over oneself that negates P/M.DMG.
-r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を(\d+)ダウン敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン自分のＨＰを(\d+)回復ネバネバが４以上の場合、(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Inflicts 2 [Sticky] to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Updates an enemy's lowered P/M.ATK by $3×[Sticky].\n►Recovers own HP by $5.\n►If an enemy has 4+ [Sticky], deploys Barrier over oneself that negates $6 P/M.DMG for 18s.
+目の前の敵１キャラに物理特大ダメージ、物理防御力を中ダウン、【ネバネバ】を２つ付与する（最大６まで）。【ネバネバ】の数に応じて敵の攻撃力はダウンする。自分のＨＰを中回復する。【ネバネバ】の数が４以上の場合、自分に物理/魔法無効バリアを展開する。=Deals massive P.DMG to an enemy, moderately lowers its P.DEF, and inflicts 2 [Sticky], up to a maximum of 6. Updates an enemy's lowered P/M.ATK based on the number of [Sticky] stacks. Also moderately recovers own HP. If an enemy has 4+ [Sticky] stacks, also deploys Barrier over oneself that negates P/M.DMG.
+r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を(\d+)ダウン敵単体の物理・魔法攻撃力を(\d+)ダウン自分のＨＰを(\d+)回復ネバネバが４以上の場合、(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Inflicts 2 [Sticky] to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Updates an enemy's lowered P/M.ATK by $3×[Sticky].\n►Recovers own HP by $4.\n►If an enemy has 4+ [Sticky], deploys Barrier over oneself that negates $5 P/M.DMG for 18s.
 
 ##S1##
 ホットヒップドロップ=Hot Hip Drop

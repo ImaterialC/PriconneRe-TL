@@ -373,9 +373,6 @@
 最も遠い敵２キャラに物理特大ダメージ。=Deals massive P.DMG to the two farthest enemies. Damage from this skill does not restore the enemy's TP.
 敵全体に魔法小ダメージを与え、自身の魔法攻撃力に応じてＴＰをダウンさせる。さらに、自身のＴＰを中アップさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals small M.DMG to all enemies, reduces their TP based on its own M.ATK, and moderately increases its own TP. This skill reduces TP even if the damage is nullified.
 最もＴＰの高い敵３キャラに束縛状態を付与し、自身の魔法攻撃力に応じて行動速度をダウンさせる。ＴＰが最大値に達しているキャラを除く。=Imposes a bind state on the three enemies with the highest TP, and reduces their movement speed based on its own M.ATK. Excludes characters with maximum TP.
-向かって左側のターゲットのブレイク時、自身の物理攻撃力が特大ダウン。=Upon the break of the left target, decreases its own P.ATK by a massive amount.
-中央のターゲットのブレイク時、自身の物理防御力と魔法防御力が大ダウン。=Upon the break of the central target, decreases its own P.DEF and M.DEF by a massive amount.
-向かって右側のターゲットのブレイク時、自身の魔法攻撃力が特大ダウン。=Upon the break of the right target, decreases its own M.ATK by a massive amount.
 
 闇に紛れ、人里で盗みを働く魔物の頭目。くすねたエモノを器用に使って戦う、ならず者。=A creature of darkness, the leader of thieves who pilfer in human settlements. Skillful in using stolen goods to fight, this rogue operates on the fringes.
 敵から受けるすべてのダメージで発生する、ジャッカルシーフのＴＰ回復量が大ダウンする。=Damage inflicted upon Jackal Thief by enemies massively reduces its TP recovery amount.
@@ -649,9 +646,6 @@
 最も近い敵１キャラに物理大ダメージを与え、ノックバックさせる。このスキルの状態異常はダメージを無効化しても付与される。=It deals massive P.DMG and knocks back the nearest enemy character. The inflicted status ailments remain even if damage is nullified.
 前から３番目の敵１キャラを中心にした小範囲に魔法特大ダメージを与える。=It deals massive M.DMG to a small area centered around the third enemy character from the front.
 残り時間が45秒を切ると、攻撃が激しく凶暴になり、さらに防御力が上がり頑強になる。=When there are less than 45 seconds remaining, its attacks become ferocious and it further increases its defense, becoming more resilient.When the left target is broken, it receives a moderate P.DEF debuff and M.DEF debuff.
-向かって左側のターゲットのブレイク時、自身の物理防御力と魔法防御力が中ダウン。=When the left target is broken, it receives a moderate P.DEF debuff and M.DEF debuff.
-中央のターゲットのブレイク時、自身の物理防御力と魔法防御力が中ダウン。=When the center target is broken, it receives a moderate P.DEF debuff and M.DEF debuff.
-向かって右側のターゲットのブレイク時、自身の物理防御力と魔法防御力が中ダウン。=When the right target is broken, it receives a moderate P.DEF debuff and M.DEF debuff.
 深き大海の底にて挑戦者を待ち受ける雄々しき海の化身。その拳が放つ一撃は、広大無辺たる海原すらも二つに分かつ必殺の神技。=A majestic embodiment of the deep sea awaits challengers at the abyss. Its fist delivers a devastating technique that can split even the vast and boundless ocean in two.
 敵全体に物理小ダメージを与え、ＴＰを小ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。このスキルによるダメージでは、敵のＴＰが回復しない。=It deals small P.DMG to all enemies, and slightly reduces their TP. This skill reduces TP even if the damage is nullified. Damage from this skill prevents the enemy's TP from recovering.
 最も近い敵１キャラに物理小ダメージを与える。=It deals small P.DMG to the nearest enemy character.
@@ -1284,3 +1278,28 @@
 ユニオンバーストは、最も近い敵１キャラを中心にした中範囲内の敵すべてに物理中ダメージを与え、敵全体の行動速度を大ダウンさせ、さらに自身の行動速度を大アップさせる。範囲内の敵の数に応じて、このスキルのダメージがダウンする。このスキルによるダメージではＴＰが回復しない。このスキルの効果はダメージを無効化しても付与される。=Union Burst deals medium physical damage to all enemies within a medium range centered on the closest enemy character, greatly reduces the action speed of all enemies, and also greatly increases the user's action speed. The damage dealt by this skill decreases according to the number of enemies within range. TP is not restored by damage dealt by this skill. The effect of this skill is applied even if damage is nullified.
 最も遠い敵２キャラに魔法中ダメージを与え、ＴＰ上昇を大ダウンさせ、ＴＰを小ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals magic damage to the two farthest enemies, greatly reduces TP gain, and slightly reduces TP. The abnormal status caused by this skill will be inflicted even if damage is nullified. This skill will reduce TP even if damage is nullified.
 最も遠い敵２キャラに魔法中ダメージを与え、さらに物理攻撃力と魔法攻撃力を特大ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals medium damage to the two farthest enemies and also greatly reduces their physical and magical attack power. The effect of this skill is applied even if damage is nullified.
+
+ランダムな敵１キャラを中心にした小範囲に、物理大ダメージを与える。=Deals large physical damage in a small area centered on one random enemy.
+ランダムな敵１キャラを中心にした小範囲に、物理中ダメージを与える。=Deals moderate physical damage in a small area centered on one random enemy.
+ランダムな敵１キャラを中心にした小範囲に、物理大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals large physical damage and stuns a small area around a random enemy. The abnormal status caused by this skill will be applied even if damage is nullified.
+ユニオンバーストは、飛行状態のキャラを含む敵全体に物理大ダメージを与え、混乱状態、麻痺状態、物理防御力中ダウンのいずれかを付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large physical damage to all enemies, including flying characters, and inflicts one of the following status abnormalities: confusion, paralysis, or moderate physical defense reduction. The abnormal status caused by this skill will be inflicted even if the damage is nullified.
+環境効果【雷雲】を発動する。このスキルの効果は敵すべてに適用される。一定時間が経過するごとに、敵全体に最大ＨＰに応じた魔法割合ダメージを与える。この効果によるダメージでは、ＴＰが回復しない。=Activates the environmental effect [Thundercloud]. The effect of this skill applies to all enemies. After a certain amount of time has passed, all enemies will receive magic damage based on their maximum HP. Damage from this effect does not restore TP.
+
+環境効果【雷雲】を発動する。このスキルの効果は敵すべてに適用される。一定時間が経過するごとに、敵全体に最大ＨＰに応じた魔法割合ダメージを与える。さらに、キャラのＨＰが50％未満の場合、麻痺状態を付与する。この効果によるダメージでは、ＴＰが回復しない。この効果の状態異常はダメージを無効化しても付与される。=Activates the environmental effect [Thundercloud]. The effect of this skill applies to all enemies. After a certain amount of time has passed, all enemies will receive magic damage based on their maximum HP. In addition, if the character's HP is below 50%, they will be paralyzed. Damage from this effect does not restore TP. The abnormal status from this effect will be inflicted even if the damage is nullified.
+
+環境効果【暴風】を発動する。このスキルの効果は敵すべてに適用される。一定時間が経過するごとに、敵全体をノックバックさせる。=Activates the environmental effect [Storm]. The effect of this skill applies to all enemies. After a certain period of time, all enemies are knocked back.
+バトル開始時、カオス=Chaos at the start of the battle
+ジェネレーターはブレイクされなくなる。=The generator won't break.
+カオス=Chaos
+ジェネレーターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=It mid-recoverys the party character's TP recovery rate, generated by all damage taken from the generator.
+
+
+一定時間が経過するごとに、敵全体に最大ＨＰに応じた魔法割合ダメージを与える。さらに、キャラのＨＰが50％未満の場合、麻痺状態を付与する。この効果によるダメージでは、ＴＰが回復しない。この効果の状態異常はダメージを無効化しても付与される。=Every time a certain amount of time passes, it deals magic damage to all enemies according to their maximum HP. In addition, if the character's HP is below 50%, it inflicts paralysis. Damage from this effect does not recover TP. The abnormal status from this effect will be inflicted even if the damage is nullified.
+豪雨=Rainstorm
+一定時間が経過するごとに、敵全体の行動速度をバトル終了まで小ダウンさせる。さらに、物理攻撃力と魔法攻撃力をバトル終了まで小ダウンさせる。=After a certain amount of time passes, the enemy's overall speed will decrease until the end of the battle. Furthermore, their physical and magical attack power will decrease slightly until the battle ends.
+
+雷雲=Thundercloud
+環境効果【豪雨】を発動する。このスキルの効果は敵すべてに適用される。一定時間が経過するごとに、敵全体の行動速度をバトル終了まで小ダウンさせる。さらに、物理攻撃力と魔法攻撃力をバトル終了まで小ダウンさせる。=Activating environmental effect [Rainstorm]. This skill's effect applies to all opponents. After a certain amount of time passes, the enemy's overall movement speed will decrease until the battle ends. Additionally, physical and magical attack power will decrease slightly until the end of the battle.
+
+
+環境システムの暴走により誕生した嵐の化身。非情な暴風は周囲一帯を遍く飲み込み、万物を無に帰すことで世界に混沌をもたらす。=A storm incarnate born from the rampage of the environmental system. A heartless gale swallows up the entire area, bringing chaos to the world by reducing all things to nothingness.

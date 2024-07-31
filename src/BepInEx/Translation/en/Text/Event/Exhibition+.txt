@@ -1,3 +1,6 @@
+現在挑戦しているEXHIBITIONを\nリタイアして、ボスの状態と挑戦回数を\n【MODE1】挑戦前に戻しますか？\n=Would you like to retire from the current EXHIBITION challenge and return the boss's condition and number of attempts to the state before you challenged [MODE 1]?
+
+
 アドバンス効果対象キャラ=Characters Eligible for Advanced Effects
 アドバンス効果詳細=Advanced Effect Details
 極大=Maximum
@@ -22,8 +25,17 @@ r:"^【残り挑戦回数 ([0-9/]+)】$"=[Attempt Left: $1]
 バトル開始後90秒間継続ＨＰ回復状態付与=Continuous HP recovery status added for 90 seconds after the start of battle
 
 ボスのフィールド効果無効=Boss's field effect nullified
+ボスの環境効果無効=Boss's environmental effect nullified
 
-ボスの毒無効=Boss Poison Immunity
+ボスの毒無効=Boss poison immunity
+ボスの猛毒無効=Boss venom immunity
+ボスの呪い無効=Boss curse immunity
+ボスの呪詛無効=Boss hex immunity
+ボスの火傷無効=Boss burn immunity
+ボスの誘惑無効=Boss charm immunity
+ボスのスタン無効=Boss stun immunity
+ボスの束縛無効=Boss bind immunity
+ボスの混乱無効=Boss confusion immunity
 
 こちらから、より強大な力を得た魔物に挑戦することができます。\nあなたとみなさんの総力を合わせ、全身全霊で挑みましょう！=From here, you can challenge monsters that have gained greater power. Together, you and everyone else, let's give it our all!
 EXHIBITION＋は、SPECIALがさらに強力になったボスバトルです。\nボスチケットは消費されませんが、討伐までの挑戦回数に制限がござい\nます。アドバンス効果で強化されたキャラと共に強敵に挑みましょう。=EXHIBITION+ is a boss battle that has become even more powerful. Boss tickets will not be consumed, but there is a limit to how many challenges you can take before subjugating them. Challenge strong opponents with characters enhanced by the Advanced Effect.
