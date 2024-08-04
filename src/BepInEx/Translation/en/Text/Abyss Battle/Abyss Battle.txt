@@ -1,11 +1,12 @@
-深淵討伐戦=Abyss Subjugation Battle
+深淵討伐戦=Abyss Battle
 前哨クエスト=Outpost Quests
 前哨クエストで討伐依頼証を獲得しよう！=Get Hunting Tickets in Outpost Quests!
 朱火の深淵=Crimson Abyss
-
+轟流の深淵=Turbulent Abyss
+スタミナ不足のため実行しません。=Not executed due to lack of stamina.
 スコア報酬=Score Reward
 r:"^スコアを([0-9,]+)pt獲得しよう$"=Get a score of $1pt
-r:"^\[3C404E\]初回クリアでスコア\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]獲得！\[-\]$"=[3C404E] Earn a score of [FFBB00,CE4F00]$1pt[-]on your first clear![-]
+r:"^\[3C404E\]初回クリアでスコア\[-\]\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]獲得！\[-\]$"=[3C404E] Earn a score of [FFBB00,CE4F00]$1pt[-] on your first clear![-]
 スコアレート=Score rate
 ボスリザルト=Boss Result
 初回クリアボーナス=First Clear Bonus
@@ -25,8 +26,10 @@ r:"^スキップチケットと討伐依頼証を消費して\n([0-9]+)回バト
 ボス難易度選択=Boss difficulty selection
 模擬戦のため報酬は獲得できません。=Rewards will not be obtained for the mock battles.
 モンスターＨＰを本戦状態\nにする=Set monster HP to main battle state
+モンスターＨＰを本戦状態\にする=Set monster HP to battle status
 討伐依頼証枚数=Number of Hunting Tickets
 スキップダメージ=Skip Damage
+
 
 [FFFFFF]深淵討伐戦の前哨クエストを1回クリアしよう[-]=[FFFFFF]Clear 1 time Abyss Subjugation Outpost Quest[-]
 深淵討伐戦の前哨クエストを1回クリアしよう=Clear 1 time Abyss Subjugation Outpost Quest

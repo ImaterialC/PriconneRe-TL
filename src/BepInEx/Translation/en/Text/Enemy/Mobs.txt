@@ -68,6 +68,9 @@
 とってもヌルヌルなゼリーの魔物。=A jelly-like monster that is very slippery.
 
 ＨＰ高いキャラ攻撃、束縛　（ダメージ無効化時も付与）=High HP character attack, binding\n (also given when damage is nullified)
+ＨＰ高いキャラ攻撃、束縛\n　（ダメージ無効化時も付与）\n=High HP character attack, binding\n (also given when damage is nullified)
+
+ＴＰ高いキャラ攻撃、ＨＰ50％以下麻痺\n=Attacks characters with highest TP, paralysis when HP is below 50%
 
 サラマンダー=Salamander
 尾先の炎を燃やし続けることで常に躰を温め、二連撃を繰り出すトカゲの魔物。=A lizard-like monster that constantly burns the tip of its tail to keep itself warm and delivers a double attack.

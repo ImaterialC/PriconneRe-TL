@@ -29,3 +29,8 @@ r:"^敵単体のＴＰを(\d+)失わせる敵単体の物理攻撃力を(\d+)ダ
 
 ##UE##
 マジカルミスティロッド=Magical Misty Rod
+
+
+魔法クリティカルを短時間大ダウンさせる。ＴＰが最大値に達しているキャラを除く。=P.CRIT and M.CRIT. (Enemies at maximum TP are excluded.)
+魔法攻撃力と物理=Also lowering their P.ATK, M.ATK
+最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理=Reduces the TP of the enemy with the highest TP by a moderate amount.
