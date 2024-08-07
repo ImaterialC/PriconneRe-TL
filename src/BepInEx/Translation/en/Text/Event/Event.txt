@@ -47,7 +47,7 @@ r:"^([0-9/: ]{11})に$"=$1
 r:"^開催日時:([0-9/: ]+)～([0-9/: ]+)$"=Period: $1 to $2
 r:"^期間限定([0-9/: ]+)～([0-9/: ]+)$"=Period$1 to $2
 
-現在挑戦しているエキシビション\nバトルをリタイアして、\n【MODE1】挑戦前の状態にしますか？\n=Currently challenging Exhibition Battle.\nDo you want to retire and return to the state before the challenge in MODE1?
+
 リタイア確認=Retire Confirmation
 イベント=Event
 討伐証=Medal
