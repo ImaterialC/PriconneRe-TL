@@ -3,19 +3,27 @@
 
 ##UB##
 エレクトリカルサマープレイ=Electrical Summer Play
-前方範囲内の敵すべてに物理中ダメージを与える。自分のＨＰが低いほど、このスキルで与えるダメージがアップする。さらに自分のＨＰを小回復させる。=Deals moderate P.DMG to enemies in range. The lower own HP, the higher P.DMG dealt. Additionally, slightly recovers own HP.
+前方範囲内の敵すべてに物理中ダメージを与える。自分のＨＰが低いほど、このスキルで与えるダメージがアップする。さらに自分のＨＰを小回復させる。=Deals moderate P.DMG to enemies in range. The P.DMG dealt increases according to own lost HP. Additionally, slightly recovers own HP.
 r:"^範囲内の敵に(\d+)の物理ダメージ自分のＨＰを(\d+)回復$"=►Deals $1 (+0.0001×HP-Lost) P.DMG to enemies in 750 range.\n►Recovers own HP by $2.
 
 ##S1##
 アクアダンシング=Aqua Dancing
 前方範囲内の敵すべてに物理中ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。=Deals moderate P.DMG to enemies in range and greatly lowers their P/M.ATK.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン$"=Cast time: 1.05s\n►Deals $1 P.DMG to enemies in 750 range.\n►Lowers enemies' P.ATK in 750 range by $2 for 12s.\n►Lowers enemies' M.ATK in 750 range by $3 for 12s.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン$"=►Deals $1 P.DMG to enemies in 750 range.\n►Lowers enemies' P.ATK in 750 range by $2 for 12s.\n►Lowers enemies' M.ATK in 750 range by $3 for 12s.
 
 ##S2##
 夏は体が熱くなります～！=Summer Makes Your Body Hot~!
 自分の物理攻撃力と物理防御力と魔法防御力を小アップさせ、ＴＰを中回復する。自分のＨＰが低いほど、物理攻撃力の上昇量がアップする。=Slightly boosts her P.ATK, P.DEF and M.DEF, and moderately recovers own TP. The lower own HP, the higher P.ATK boost.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ自分のＴＰを150回復$"=Cast time: 1.05s\n►Boosts own P.ATK by $1 (+0.25×HP-Lost) for 12s.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.\n►Recovers own TP by 150.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ自分のＴＰを150回復$"=►Boosts own P.ATK by $1 (+0.25×HP-Lost) for 12s.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.\n►Recovers own TP by 150.
 
 ##EX##
 サマーエクスタシー=Summer Ecstasy
 サマーエクスタシー+=Summer Ecstasy+
+
+##S1+##
+アクアダンシング+=Aqua Dancing+
+前方範囲内の敵すべてに物理中ダメージを与えてスタンさせ、物理攻撃力と魔法攻撃力を大ダウンさせる。自分のＨＰが低いほど、このスキルで与えるダメージがアップする。=Deals moderate P.DMG to enemies in range, inflicts Stun to them, and greatly lowers their P/M.ATK. The P.DMG dealt increases according to own lost HP. 
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン$"=►Deals $1 (+0.00005×HP-Lost) P.DMG to enemies in 750 range.\n►Lowers enemies' P.ATK in 750 range by $2 for 12s.\n►Lowers enemies' M.ATK in 750 range by $3 for 12s.\n►Inflicts Stun to enemies in 750 range for 1.5s.
+
+##UE##
+クウカメイクドミネーション=Kuuka Makeup Domination

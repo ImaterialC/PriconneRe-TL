@@ -10,13 +10,20 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の味方の魔法攻�
 ##S1##
 セイレーンブレス=Siren's Breath
 自分を中心とした範囲内の味方すべての魔法攻撃力を大アップ、魔法クリティカルを極大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。=Greatly boosts allies' M.ATK and M.CRIT Rate in range, and slightly boosts their M.CRIT DMG.
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを700アップ範囲内の味方の魔法攻撃クリティカル時のダメージを10％アップ$"=Cast time: 1.05s\n►Boosts allies' M.ATK in 150 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 150 range by 700 for 12s.\n►Boosts allies' M.CRIT DMG in 150 range by 10% for 12s.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを700アップ範囲内の味方の魔法攻撃クリティカル時のダメージを10％アップ$"=►Boosts allies' M.ATK in 150 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 150 range by 700 for 12s.\n►Boosts allies' M.CRIT DMG in 150 range by 10% for 12s.
 
 ##S2##
 サンシェイドバリア=Sunshade Barrier
 自分を中心とした範囲内の味方すべてに物理/魔法無効バリアを展開し、継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。=Deploys Barrier over allies in range that negates P/M.DMG, and grants continuous HP and TP recovery to them.
-r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する毎秒ＴＰを10回復する$"=Cast time: 1.05s\n►Deploys Barrier over allies in 150 range that negates P/M.DMG by $1 for 12s.\n►Recovers allies' HP in 150 range by $2/s for 10.5s.\n►Recovers allies' TP in 150 range by 10/s for 10.5s.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する毎秒ＴＰを10回復する$"=►Deploys Barrier over allies in 150 range that negates P/M.DMG by $1 for 12s.\n►Recovers allies' HP in 150 range by $2/s for 10.5s.\n►Recovers allies' TP in 150 range by 10/s for 10.5s.
 
 ##EX##
 マリンボイス=Marine Voice
 マリンボイス+=Marine Voice+
+
+##S1+##
+セイレーンブレス+=Siren's Breath+
+自分を中心とした範囲内の味方すべての魔法攻撃力を大アップ、魔法クリティカルを極大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。範囲内の味方の人数に応じて、魔法攻撃クリティカル時のダメージの上昇量が最大７キャラ分まで増加する。=Greatly boosts allies' M.ATK and M.CRIT Rate in range, and slightly boosts their M.CRIT DMG. The M.CRIT DMG increases according to number of allies in range, up to a maximum of 7.\nM.CRIT DMG: (+2%×Ally Count)
+
+##UE##
+歌姫の翳傘=Songstress' Umbrella

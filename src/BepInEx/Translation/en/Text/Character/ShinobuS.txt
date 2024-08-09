@@ -12,8 +12,16 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカル�
 ##S2##
 ノイジーバカンス=Noisy Vacation
 【召喚】自分の物理攻撃力と物理クリティカルを中アップする。さらにシノブ（サマー）が召喚したドクロ親父が味方にいる場合、ドクロ親父のＨＰを大回復し、そうでない場合ドクロ親父を召喚する。=[Summon] Boosts own P.ATK and P.CRIT Rate. Additionally, if "Shinobu (Summer)" has summoned the Skull Father, recovers Skull Father's HP; if not, summons Skull Father.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを40アップドクロ親父を召喚するドクロ親父のＨＰを(\d+)回復$"=Cast time: 1.05s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by 40 for 180s.\n►Summons Skull Father.\n►Recovers Skull Father's HP by $2.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを40アップドクロ親父を召喚するドクロ親父のＨＰを(\d+)回復$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by 40 for 180s.\n►Summons Skull Father.\n►Recovers Skull Father's HP by $2.
 
 ##EX##
 深淵の狂騒歌=Chaos Song of the Abyss
 深淵の狂騒歌+=Chaos Song of the Abyss+
+
+##S1+##
+スペクターズエッジ+=Specter's Edge+
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらにシノブ（サマー）が召喚したドクロ親父が味方にいる場合、ドクロ親父に物理ダメージカット効果と魔法ダメージカット効果を付与する。=Deals large P.DMG to an enemy in front and slightly lowers its P.DEF. If Skull Father summoned by SShinobu is on the field, grants P/M.DMG Cut to Skull Father.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンドクロ親父が受ける物理ダメージを10％カットドクロ親父が受ける魔法ダメージを10％カット$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Grants P.DMG Cut to Skull Father by 10% for 12s.\n►Grants M.DMG Cut to Skull Father by 10% for 12s.
+
+##UE##
+怪奇！真夏のドクロ親父=Mysterious! Midsummer Skull Father

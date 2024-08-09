@@ -24,6 +24,14 @@ sr:"^(.+)をクリアで解放されます。$"=Clear $1 to unlock.
 光属性キャラ=All Light Character
 闇属性キャラ=All Dark Character
 
+
+All [FF7C4E]Fire[-] Character
+All [DAA520]Water[-] Character
+All [006400]Wind[-] Character
+All [cc9900]Light[-] Character
+All [800080]Dark[-] Character
+
+
 チェック引継ぎ確認=Check Handover Confirmation
 
 新しい深域クエストがクリアされたため、\n最新のクリア済みクエストをチェックしました。=Checked the latest completed quests due a new deep quest has been completed.
