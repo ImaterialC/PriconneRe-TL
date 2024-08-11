@@ -40,11 +40,16 @@ r:"^戦闘不能になったキャラが(\d)人以下で勝利$"=Win with $1 or 
 バトル中、「呪い」「呪詛」のダメージが大幅にアップする。=During battle, damage dealt by "Curse" and "Hex" is greatly increased.
 
 束縛効果時間増加=Binding duration increased
-バトル中、「束縛」の効果時間が増加する。=During battle, damage dealt by "Bind" is greatly increased.
+バトル中、「束縛」の効果時間が増加する。=During battle, the duration of "Bind" is increased.
 
 混乱効果時間増加=Confusion duration increased
-バトル中、「混乱」の効果時間が増加する。=During battle, damage dealt by "Confusion" is greatly increased.
+バトル中、「混乱」の効果時間が増加する。=During battle, the duration of "Confusion" is increased.
 
+麻痺効果時間増加=Paralysis time increased
+バトル中、「麻痺」の効果時間が増加する。=During battle, the duration of "paralysis" is increased.
+
+凍結効果時間増加=Frozen effect duration increased
+バトル中、「凍結」の効果時間が増加する。=During battle, the duration of "Frozen" is increased.
 
 ---Mission---
 r:"^(\[[0-9A-F]{6}\])?★を累計(\d+)個獲得しよう(\[-\])?$"="$1Collect stars $2★$3"

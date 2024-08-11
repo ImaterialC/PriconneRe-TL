@@ -1,0 +1,26 @@
+##Profile##
+【魔法】後衛を飛び出し悪戯の限りを尽くす幻惑の妖精。敵陣を勝手気ままに飛び回り、敵の攻撃を空振りさせて、ＵＢで４種の妨害効果をランダムに与え大混乱に陥れる。=[Magic] A mischievous fairy who rushes out from the rear and plays all sorts of pranks. She flies around the enemy formation at will, making their attacks miss and throwing them into chaos by randomly applying four types of disruptive effects with her UB.
+悪戯をすること=Playing a prank
+
+##UB##
+ネビア・インフェリチータ=Nebbia Infelicità
+敵全体を混乱状態、恐慌状態、暗闇状態、スタン状態のいずれかにし、自分を一定時間無敵状態にする。=Inflicts one of Confusion, Fear, Blind, or Stun to all enemies, and becomes immune to all damage for a set period of time.
+敵全体を混乱させる敵全体を恐慌状態にする敵全体を暗闇状態にする敵全体を一定時間行動不能にする一定時間無敵状態になる=►Becomes immune to all damage for 6s.\n\nActivates one of the 4 following effects at random:\n►Inflicts Confusion to all enemies for 6s.\n►Inflicts Fear to all enemies for 6s.\n►Inflicts Blind to all enemies for 6s.\n►Inflicts Stun to all enemies for 6s.
+
+##S1##
+スケルツォ=Scherzo
+最も物理攻撃力が高い敵１キャラを執着状態にし、自分のＨＰを小回復し、一定時間全ての物理攻撃を回避する。さらに、ランダムな敵の傍に移動する。=Inflicts Attachment to an enemy with the highest P.ATK, slightly recovers own HP, and gains P.ATK evasion for a period of time. Also randomly moves to an enemy character.
+r:"^敵単体を執着状態にする自分のＨＰを(\d+)回復一定時間全ての物理攻撃を回避する$"=►Shifts to an enemy with the highest P.ATK.\n►Inflicts Attachment to an enemy for 4s.\n►Recovers own HP by $1.\n►Shifts to a random enemy.
+
+##S2##
+カプリッチョ=Capriccio
+最も魔法攻撃力が高い敵１キャラを執着状態にし、自分のＨＰを小回復し、一定時間全ての魔法攻撃を回避する。さらに、ランダムな敵の傍に移動する。=Inflicts Attachment to an enemy with the highest M.ATK, slightly recovers own HP, and gains M.ATK evasion for a period of time. Also randomly moves to an enemy character.
+r:"^敵単体を執着状態にする自分のＨＰを(\d+)回復一定時間全ての魔法攻撃を回避する$"=►Shifts to an enemy with the highest M.ATK.\n►Inflicts Attachment to an enemy for 4s.\n►Recovers own HP by $1.\n►Shifts to a random enemy.
+
+##SP1##
+ネルシエロ=Nel Cielo
+このスキルのスキルレベルは「ネビア・イン\nフェリチータ」と連動しています=This skill's level is linked to the "Nebbia Infelicità"
+
+##EX##
+ディスペットピウマ=Dispetto Piuma
+ディスペットピウマ+=Dispetto Piuma+
