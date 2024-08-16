@@ -38,7 +38,6 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 コラボ記念 専用装備２グロウスフィアパック=Collab-Event UE 2 Growsphere Pack
 Anniversary グロウスフィアパック　=Anniversary Growsphere Pack
 Anniversary 専用装備グロウスフィアパック=Anniversary UE Growsphere Pack
-r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
 パックについて=About the Pack
 Anniversaryパックについて=About the anniversary pack
 探索挑戦回数 +3回=Grotto +3
@@ -67,7 +66,17 @@ Anniversaryパックについて=About the anniversary pack
 30日間探索挑戦回数+3回について=About 30 days Grotto +3 pack
 30日間探索挑戦回数+3回期間通知=30 days Grotto +3 pack Period Notification
 購入Lv制限あり=Purchase Lv Limit
+--- Anniv---
 
+r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
+r:"^([0-9.]+)周年 SPキャラ交換ガチャセット$"=$1th Anniversary SP Character Exchange Gacha Set
+r:"^([0-9.]+)周年 ★6キャラ育成パック$"=$1th Anniversary★6 Character Raising Package
+r:"^([0-9.]+)周年 専用装備１グロウスフィアパック$"=$1th Anniversary Unique Equipment 1 Growsphere Package
+r:"^([0-9.]+)周年 ピュアメモリーピースパック$"=$1th Anniversary Pure Memory Shard Package
+r:"^([0-9.]+)周年 属性強化パック$"=$1th Anniversary Elemental Enhancement Package
+sr:"^([0-9.]+)周年 EX★4装備パック\((片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)・(片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)\)$"=$1th Anniversary EX★4 Equipment Package ($2 and $3)
+
+(片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)
 
 sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of\n[FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1 pts[-]?[-]
 

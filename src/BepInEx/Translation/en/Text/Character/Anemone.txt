@@ -10,6 +10,7 @@
 【拒絶の花】を展開する。【拒絶の花】展開中、敵の物理・魔法防御力を中ダウンさせ、物理と魔法攻撃力を合わせた継続物理ダメージを与える。対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる。さらに、味方の物理・魔法防御力を中アップさせ、ＨＰを継続回復する。このＨＰ回復量は、物理と魔法攻撃力に応じて増加する。=Deploys [Flower of Rejection]. [With Flower of Rejection] Moderately lowers enemies' P.DEF and M.DEF, and deals continuous damage based on P.ATK and M.ATK. If an enemy's M.DEF is lower than P.DEF, the damage will be magical. Also moderately boosts allies' P/M.DEF and grants continuous HP recovery. Healing amount is based on P.ATK and M.ATK.
 r:"^対象の敵の物理・魔法防御力を(\d+)ダウン対象の味方の物理・魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する低い側の防御力で防御する毎秒(\d+)の物理ダメージを与えるフィールドを展開する$"=►Deploys a field of 2160 range for 18s that:\n►Lowers enemies' P/M.DEF by $1.\n►Deals $4 DMG/s to enemies.\n►Boosts allies' P/M.DEF by $2.\n►Recovers allies' HP by $3/s.
 
+
 ##S1##
 アイヴィドレイン=Ivy Drain
 目の前の敵１キャラのＴＰを小ダウンさせ、最もＨＰの低い味方１キャラを中心とした範囲内の味方すべてのＨＰとＴＰを小回復する。このスキルのＨＰ回復量は、このキャラの物理と魔法攻撃力に応じて増加する。=Slightly reduces an enemy's TP in front, and slightly recovers allies' HP and TP in range of ally with lowest HP. The amount of HP recovered increases according to own P.ATK and M.ATK.
@@ -29,3 +30,5 @@ r:"^敵全体の物理攻撃力を(\d+)ダウン敵全体の魔法攻撃力を(\
 このスキルのスキルレベルは「ヴィヴィッ\nド・ヴィジランス」と連動しています=This skill’s level is linked to "Vivid Vigilance"
 自分の行動速度を大アップさせ、空蝉状態になり、ＴＰを小回復する。空蝉状態は受けるダメージを１回無効化し、その後解除される。（このスキルの効果は他の行動速度変化スキルと重複する）=Greatly boosts own action speed, gains [Cicada] status, and slightly recovers own TP. When [Cicada] status is active, the next instance of damage received will be nullified and the status will be removed after. (The action speed boost from this skill stacks with other action speed boosts)
 自分の行動速度アップ自分を空蝉状態にする自分のＴＰを75回復=►Boosts own action speed by 50% for 12s.\n►Gains [Cicada] status.\n►Restores own TP by 75.
+
+【拒絶の花】を展開する。【拒絶の花】展開中、敵の物理\n\n・魔法防御力を中ダウンさせ、物理と魔法攻撃力を合わせた継続物理ダメージを与える。対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる。さらに、味方の物理\n\n・魔法防御力を中アップさせ、ＨＰを継続回復する。このＨＰ回復量は、物理と魔法攻撃力に応じて増加する。=Deploys [Flower of Rejection]. [With Flower of Rejection] Moderately lowers enemies' P.DEF and M.DEF, and deals continuous damage based on P.ATK and M.ATK. If an enemy's M.DEF is lower than P.DEF, the damage will be magical. Also moderately boosts allies' P/M.DEF and grants continuous HP recovery. Healing amount is based on P.ATK and M.ATK.

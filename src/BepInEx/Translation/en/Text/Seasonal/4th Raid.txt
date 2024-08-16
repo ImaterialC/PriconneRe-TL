@@ -1,0 +1,58 @@
+宝石蜘蛛=Jewel Spider
+【物理】群れなすレディ\n\n・アラクネの手先。\n際限なく地の底から湧き、糸で獲物を束縛する。\n\n\n・最も近い敵１キャラに物理大ダメージを与える。\n\n・ランダムな敵１キャラに束縛状態を付与する。\n\n・宝石蜘蛛を１体倒すたびに、魔蜘の金糸獲得ま\n　でのカウントが１減少する。その後、倒された\n　宝石蜘蛛は再度出現する。さらに、先頭の宝石\n　蜘蛛は敵全体をノックバックさせる。=[Physical] The swarming minions of Lady Arachne. They endlessly emerge from the depths of the earth, binding their prey with silk.\n\n► Deals heavy physical damage to the closest enemy character.\n\n► Inflicts a binding status on a random enemy character.\n\n► Each time a Jewel Spider is defeated, the count towards obtaining "Golden Spider Silk" decreases by one. After being defeated, the Jewel Spider will reappear. Additionally, the leading Jewel Spider will knock back all enemies.
+【物理】鬱憤に酔うバンディ\n\n・シスターズ長女。\n妹たちに背中を預けつつ敵先陣の装甲を裂き、苛\n烈無比な斬撃を絶え間なく浴びせる。\n\n\n・バトル開始時、自身の物理防御力と魔法防御力\n　を中アップさせる。この防御力アップ効果で上\n　昇した防御力は、バトル中に受ける防御力ダウ\n　ンスキルの影響を受けない。\n\n・バトル開始時、ダメージ上限スキルを使用して、\n　一度の行動で受けるダメージの値が一定を超え\n　た場合、受けるダメージの値に応じてダメージ\n　量を減少させる。\n\n・ヤマトから受けるすべてのダメージで発生する、\n　パーティキャラのＴＰ回復量を中ダウンさせる。\n\n・ユニオンバーストは、最も近い敵１キャラに物\n　理特大ダメージを与え、物理防御力を中ダウン\n　させる。このスキルの効果はダメージを無効化\n　しても付与される。\n\n・最も遠い敵１キャラに物理特大ダメージを与え\n　大きく引き寄せ、さらに物理防御力を中ダウン\n　させる。このスキルの効果はダメージを無効化\n　しても付与される。\n\n・自身のＨＰが30％以下になると、味方全体の\n　行動速度を大アップさせる。=[Physical] The eldest daughter of the Bandy Sisters, intoxicated by resentment. She relies on her younger sisters while tearing through the enemy’s armor and relentlessly delivering fierce and unrelenting slashes.\n\n►At the start of battle, increases her physical and magical defense by a moderate amount. This increased defense from the defense up effect is not affected by defense down skills received during the battle.\n\n►At the start of battle, uses a damage cap skill to reduce the amount of damage received in a single action if it exceeds a certain threshold. The damage amount is reduced according to the damage value received.\n\n►Reduces the TP recovery amount of party characters by a moderate amount from all damage received from Yamato.\n\n►The Union Burst deals tremendous physical damage to the nearest enemy and moderately reduces their physical defense. This skill’s effect is applied even if the damage is nullified.\n\n►Deals tremendous physical damage to the farthest enemy, significantly draws them in, and further moderately reduces their physical defense. This skill’s effect is applied even if the damage is nullified.\n\n►When her own HP falls below 30%, greatly increases the action speed of all allies.
+【物理】虚ろに揺らぐバンディ\n\n・シスターズ次女。\n彼女自身は戦闘能力を有さず攻撃に及ぶこともな\nいが、姉妹に授ける補助効果は決して侮れない。\n\n\n・バトル開始時、自身の物理防御力と魔法防御力\n　を中アップさせる。この防御力アップ効果で上\n　昇した防御力は、バトル中に受ける防御力ダウ\n　ンスキルの影響を受けない。\n\n・バトル開始時、ダメージ上限スキルを使用して、\n　一度の行動で受けるダメージの値が一定を超え\n　た場合、受けるダメージの値に応じてダメージ\n　量を減少させる。\n\n・自身以外の味方全体の物理防御力と魔法防御力\n　を特大アップさせ、ＴＰを小回復する。=[Physical] The second daughter of the Bandy Sisters, swaying in a vacant manner. Although she herself lacks combat abilities and does not engage in attacks, the support effects she provides to her sisters should not be underestimated.\n\n►At the start of battle, increases her physical and magical defense by a moderate amount. This increased defense from the defense up effect is not affected by defense down skills received during the battle.\n\n►At the start of battle, uses a damage cap skill to reduce the amount of damage received in a single action if it exceeds a certain threshold. The damage amount is reduced according to the damage value received.\n\n►Greatly increases the physical and magical defense of all allies other than herself and slightly restores their TP.
+【物理】理性の飛んだバンディ\n\n・シスターズ三女。\n上空から高みの見物をしつつ妨害を撒き散らし、\nトドメを刺すこともせず慌てふためく敵を嘲笑う。\n\n\n・バトル開始時、自身の物理防御力と魔法防御力\n　を中アップさせる。この防御力アップ効果で上\n　昇した防御力は、バトル中に受ける防御力ダウ\n　ンスキルの影響を受けない。\n\n・バトル開始時、ダメージ上限スキルを使用して、\n　一度の行動で受けるダメージの値が一定を超え\n　た場合、受けるダメージの値に応じてダメージ\n　量を減少させる。\n\n・フブキから受けるすべてのダメージで発生する、\n　パーティキャラのＴＰ回復量を中ダウンさせる。\n\n・ユニオンバーストは、敵全体のバリア効果を解\n　除し、キャラの現在ＨＰに応じた物理割合ダ\n　メージを与え、さらにスタン状態を付与する。\n　このスキルによるダメージでは、ＴＰが回復し\n　ない。このスキルの状態異常はダメージを無効\n　化しても付与される。\n\n・最も近い敵１キャラにキャラの現在ＨＰに応じ\n　た物理割合ダメージを与え、さらにスタン状態\n　を付与する。=[Physical] The third daughter of the Bandy Sisters, who has lost all sense of reason. While observing from above, she spreads disruption and mocks the panicking enemies without delivering the final blow.\n\n►At the start of battle, increases her physical and magical defense by a moderate amount. This increased defense from the defense up effect is not affected by defense down skills received during the battle.\n\n►At the start of battle, uses a damage cap skill to reduce the amount of damage received in a single action if it exceeds a certain threshold. The damage amount is reduced according to the damage value received.\n\n►Reduces the TP recovery amount of party characters by a moderate amount from all damage received from Fubuki.\n\n►The Union Burst removes barrier effects from all enemies, deals physical percentage-based damage according to the character's current HP, and inflicts a stun status. TP is not recovered from damage caused by this skill. The status condition from this skill is applied even if the damage is nullified.\n\n►Deals physical percentage-based damage to the closest enemy according to the character's current HP and inflicts a stun status.
+
+
+
+魔蜘の金糸=Golden Spider Silk
+獲得数=Number of acquisitions
+全体ミッションクリアで解放=Unlocked by clearing all missions
+魔蜘の金糸を獲得で解放=Unlocked by acquiring the Golden Spider Silk
+宝石蜘蛛の群れ討伐で魔蜘の金糸獲得!=Get "Golden Spider Silk" by defeating\nthe swarm of Jewel Spiders!
+撃退数=Repelling number
+r:"^残り魔蜘の金糸 : (\d+)$"=Golden Spider Silk: $1
+r:"^([0-9,]+)体\((\d+)%\)$"=$1 Times ($2%)
+全プレイヤーでバンディ・シスターズを合計1,000,000回倒そう=Defeat Bundy Sisters 1,000,000 times with all players
+で挑戦=is used\nto challenge
+残り体数=Remaining total
+宝石蜘蛛の群れ=Jewel Spider Swarm
+
+r:"^魔蜘の金糸獲得まで　[0-9/]+ \(本日の残り獲得可能数：(\d+)\)$"=$1 until Golden Spider Silk is obtained. (Remaining obtainable amount for today: $2)
+挑戦報酬=Challenge Reward
+「バンディ・シスターズ」解放！="Bundy Sisters" Unlocked!
+
+魔蜘の金糸獲得まで=Until you get a Golden Spider Silk
+本日の魔蜘の金糸の獲得上限に達しています。=You have reached the maximum amount of  Golden Spider Silk you can obtain today.
+
+
+リタイアすると報酬を\n獲得することができません。\nスタミナは消費されません。\n\nよろしいですか？=If you quit, you will not receive any rewards.\nStamina will not be consumed. \nAre you sure?
+
+魔蜘レディ・アラクネがジオ・ゲヘナに襲来しました。\n立ちはだかる【バンディ・シスターズ】やフレイヤを倒し、\nレディ・アラクネの手から、必ずやシェフィさまをお助けいたしましょう。=Lady Arachne, the Demon Spider, has invaded Gio Gehenna. We must defeat the [Bandy Sisters] and Freyja, and rescue Lady Sheffy from Lady Arachne's clutches.
+まずは、立ちふさがる宝石蜘蛛の群れを討伐しましょう。\n宝石蜘蛛を一定数討伐することで『魔蜘の金糸』を獲得できます。\n『魔蜘の金糸』を使い、ボスに挑戦いたしましょう。=First, let's exterminate the swarm of Jewel Spiders blocking our path. By defeating a certain number of Jewel Spiders, you can obtain "Golden Spider Silk." Use the Golden Spider Silk to challenge the boss.
+皆様で協力し、タイムリミットまでに撃退ミッションを達成しましょう。\nミッションを達成することで次のボスが解放されます。\n順にボスを撃退し、シェフィさま奪還のため最奥を目指しましょう。=Work together with everyone to complete the Repulsion Mission within the time limit. Completing the mission will unlock the next boss. Defeat the bosses one by one, and aim for the deepest part of the area to rescue Lady Sheffy.
+立ちはだかるボスを退けると、いよいよアラクネとの戦いです。\n強大な敵ですので、油断することなく何度も挑戦することが必要です。\n着実に挑戦を重ね、シェフィさま奪還の機会を窺いましょう。=Once you defeat the bosses blocking your way, the final battle against Arachne begins. She is a powerful enemy, so you will need to challenge her multiple times without letting your guard down. Keep steadily challenging her, and look for an opportunity to rescue Lady Sheffy.
+
+
+
+
+期間限定ミッション：2024/08/16 12:00～2024/08/21 11:59=Limited-Time Mission: 2024/08/16 12:00 ～ 2024/08/21 11:59
+受け取り期限：2024/08/26 14:59=Reward Claim Deadline: 2024/08/26 14:59
+全プレイヤーでフレイヤを合計500,000回倒そう=Defeat Freya a total of 500,000 times across all players.
+全プレイヤーでバンディ・シスターズを合計750,000回倒そう=Defeat the Bandy Sisters a total of 750,000 times across all players.
+全プレイヤーでバンディ・シスターズを合計500,000回倒そう=Defeat the Bandy Sisters a total of 500,000 times across all players.
+期間限定=Limited-Time
+全プレイヤーでフレイヤを合計750,000回倒そう=Defeat Freya a total of 750,000 times across all players.
+全プレイヤーでフレイヤを合計1,000,000回倒そう=Defeat Freya a total of 1,000,000 times across all players.
+全プレイヤーでアラクネを合計1,000,000回倒そう=Defeat Arachne a total of 1,000,000 times across all players.
+全プレイヤーでアラクネを合計1,500,000回倒そう=Defeat Arachne a total of 1,500,000 times across all players.
+バンディ・シスターズを1回倒そう=Defeat the Bandy Sisters once.
+宝石蜘蛛の群れに1回挑戦しよう=Challenge the swarm of Jewel Spiders once.
+全プレイヤーでアラクネを合計2,000,000回倒そう=Defeat Arachne a total of 2,000,000 times across all players.
+フレイヤを1回倒そう=Defeat Freya once.
+アラクネを1回倒そう=Defeat Arachne once.
+
+
+
+リリ・クリア=Riri & Quria

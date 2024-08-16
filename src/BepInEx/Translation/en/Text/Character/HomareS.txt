@@ -1,0 +1,27 @@
+##Profile##
+【魔法】後衛で夏の清涼に翼を休める水着姿の龍の首領。攻防弱体化に加え、ステータスダウン付与のたび増加する【日食】の数に応じたダメージで、抗う全てを灰に帰す。=[Magic] A dragon leader in swimsuits resting her wings in the coolness of summer in the rearguard. In addition to weakening offense and defense, the damage increases with the number of [Solar Eclipse] that increases with each debuff, reducing all resistance to ashes.
+
+##UB##
+ドラゴンズコール=Dragon's Call
+最も魔法防御力の低い敵１キャラに魔法大ダメージを与え、魔法防御力を中ダウン、クリティカルを受けた際のダメージを小アップさせる。対象の【日食】の数が25以上の場合、その敵を中心とした範囲内の敵すべてに魔法大ダメージを与える。最も魔法防御力の低い敵１キャラの【日食】の数に応じてこのスキルのダメージがアップする。=Deals large M.DMG to the lowest M.DEF enemy, moderately lowers its M.DEF, and slightly boosts its M.CRIT DMG taken. If an enemy has 25 [Solar Eclipse] stacks or more, deals additional large M.DMG to enemies in range. The M.DMG dealt increases according to number of [Solar Eclipse] stacks.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の被クリダメを6％アップ対象の日食が25以上の時、範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 (+0.036×$1×[Solar Eclipse]) M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 18s.\n\nIf an enemy has 25+ [Solar Eclipse] stacks:\n►Deals $3 (+0.036×$3×[Solar Eclipse]) M.DMG to enemies in 400 range.
+
+##S1##
+アクアスプラッシュ=Aqua Splash
+最も魔法防御力の低い敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。対象の【日食】の数が25以上の場合、その敵を中心とした範囲内の敵すべてに魔法中ダメージを与え、自分の魔法攻撃力を大アップ、ＴＰを小回復する。最も魔法防御力の低い敵１キャラの【日食】の数に応じてこのスキルのダメージがアップする。=Deals large M.DMG to the lowest M.DEF enemy, and slightly lowers its M.DEF. If an enemy has 25 [Solar Eclipse] stacks or more, deals additional moderate M.DMG to enemies in range, greatly boosts own M.ATK and slightly recovers own TP. The M.DMG dealt increases according to number of [Solar Eclipse] stacks.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン対象の日食が25以上の時、範囲内の敵に(\d+)の魔法ダメージ対象の日食が25以上の時、自分の魔法攻撃力を(\d+)アップ対象の日食が25以上の時、自分のＴＰを100回復$"=►Deals $1 (+0.018×$1×[Solar Eclipse]) M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 12s.\n\nIf an enemy has 25+ [Solar Eclipse] stacks:\n►Deals $3 (+0.018×$3×[Solar Eclipse]) M.DMG to enemies in 400 range.\n►Boosts own M.ATK by $4 for 12s.\n►Recovers own TP by 100.
+
+##S2##
+サマーサンダーボルト=Summer Thunderbolt
+敵全体の魔法攻撃力を大ダウン、魔法防御力を小ダウンさせる。さらに自分のＴＰを中回復する。最も魔法防御力の低い敵１キャラの【日食】の数が25以上の場合、敵全体のクリティカルを受けた際のダメージを小アップさせる。=Greatly lowers all enemies M.ATK, slightly lowers their M.DEF, and moderately recovers own TP. If an enemy has 25 [Solar Eclipse] stacks or more, slightly boosts all enemies M.CRIT DMG taken.
+r:"^敵全体の魔法攻撃力を(\d+)ダウン敵全体の魔法防御力を(\d+)ダウン自分のＴＰを200回復対象の日食が25以上の時、敵全体の被クリダメを4％アップ$"=►Lowers all enemies' M.ATK by $1 for 12s.\n►Lowers all enemies' M.DEF by $2 for 12s.\n►Recovers own TP by 200.\n\nIf an enemy has 25+ [Solar Eclipse] stacks:\n►Boosts all enemies' M.CRIT DMG taken by 4% for 12s.
+
+##SP1##
+ダウンバースト=Downburst
+このスキルのスキルレベルは「ドラゴンズコール」と連動しています=This skill's level is linked to "Dragon's Call"
+敵全体をステータスダウンを受ける度に、【日食】が１つ追加される状態にする。【日食】は最大50まで追加される。さらに敵全体の魔法防御力を小ダウンさせる。=Slightly lowers all enemies M.DEF, and adds [Solar Eclipse] stack to an enemy when they receive debuff, up to a maximum of 50.
+r:"^敵全体をステータスダウン効果を受けるたびに日食が付与される状態にする敵全体の魔法防御力を(\d+)ダウン$"=►When an ally applies debuff to an enemy, inflicts [Solar Eclipse].\n►Lowers all enemies' M.DEF by $1 for 180s.
+
+##EX##
+ホットサマーゲイズ=Hot Summer Gaze
+ホットサマーゲイズ+=Hot Summer Gaze+

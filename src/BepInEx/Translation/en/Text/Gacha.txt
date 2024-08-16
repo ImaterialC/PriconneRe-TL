@@ -147,7 +147,7 @@ r:"^(\[[0-9A-F,]{6,13}\])10キャラ目は(\[[0-9A-F,]{6,13}\])★3キャラ確�
 
 [3C404E]対象キャラを仲間にする度に[FFBB00,CE4F00]対象メモピ200個[-]GET！[-]=[3C404E]Rate-up characters come with a bonus of [FFBB00,CE4F00]200 Memory Shards[-]![-]
 [3C404E]対象キャラが加入する度に[FFBB00,CE4F00]対象メモピ200個[-]GET！[-]=[3C404E]Rate-up characters come with a bonus of [FFBB00,CE4F00]200 Memory Shards[-]![-]
-
+対象キャラが加入にする度に[FFBB00,CE4F00]対象メモピ200個[-]GET！=[3C404E]Rate-up characters come with a bonus of [FFBB00,CE4F00]200 Memory Shards[-]![-]
 ---Banner---
 
 無料で10回ガチャは\n毎日5時と12時にリセットされます。=Free 10x Gacha resets daily at\n5:00 and 12:00 (JST).
@@ -297,12 +297,15 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 
 
 
-[FFBB00,CE4F00]有償ジュエル限定\nクリスマス★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Paid Jewels Limited\nChristmas ★3 Guaranteed Platinum Gacha Now Underway![-]
+[FFBB00,CE4F00]有償ジュエル限定\nクリスマス★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Paid Jewels Only\nLimited Christmas ★3 Guaranteed Platinum Gacha Now Underway![-]
 [3C404E]10キャラ目は[FFBB00,CE4F00]クリスマス★3キャラ確定！[-]=[3C404E]A [FFBB00,CE4F00]Limited ★3 Christmas Character[-] is guaranteed with a 10x draw!
 
-[FFBB00,CE4F00]有償ジュエル限定\n★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Limited Guarantee ★3 Paid Jewel Premium Gacha! [-]
+[FFBB00,CE4F00]有償ジュエル限定\n★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Paid Jewels Only\nGuarantee ★3 Paid Jewel Premium Gacha! [-]
+[FFBB00,CE4F00]有償ジュエル限定\n10キャラ目は選択した★3キャラ確定！[-]=[FFBB00,CE4F00]Paid Jewels Only\nLimited ★3 character is guaranteed with a 10x draw![-]
 有償ジュエルを消費してガチャを 10 回引きます。\nよろしいですか？=Consume Paid Jewels and draw 10 times.\nIs this OK?
 有償ジュエルを消費してガチャを 1 回引きます。\nよろしいですか？=Consume Paid Jewels and draw 1 times.\nIs this OK?
+※選択したキャラはいつでも変更可能です=※Selected characters can be changed at any time
+
 ---Special Tickets use---
 スペシャル キャラ交換ガチャセット=Special Character Exchange
 GW SPキャラ交換ガチャセット=Golden Week SP Character Exchange Gacha Set

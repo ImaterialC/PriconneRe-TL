@@ -965,14 +965,12 @@
 前から３番目の敵を中心に、範囲内の敵の魔法防御力を特大ダウン、ＴＰ上昇を小ダウンさせるフィールドを展開し、さらに行動速度を小ダウンさせる。=Deploys a field centered on the third enemy from the front, greatly reducing the M.DEF and slightly lowering TP recovery of enemies in range, and further reducing their movement speed.
 山火事に巻き込まれて火が着き、ひときわ凶暴になったゼラチナ。=Zelachina, who became particularly ferocious after being caught in a wildfire.
 フレアゼラチナ=Flare Gelatina
-特殊スキルは、味方全体の物理攻撃力と魔法攻撃力と物理防御力と魔法防御力を中アップさせる。=Special skill increases the P.ATK, M.ATK, P.DEF, and M.DEF of all allies by a moderate amount.
 ユニオンバーストは、前から３キャラに物理中ダメージを与え、物理防御力を特大ダウンさせる。さらに自身の物理防御力を小アップさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals percentage P.DMG based on Crestrex's P.ATK to all enemies. - Deals moderate P.DMG and knocks back the two characters from the front simultaneously inflicting stun. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 前から１キャラをノックバックさせ、行動速度を中ダウンさせる。=Knocks back the character from the front and moderately decreases their movement speed.
 特異な力で変質したサベージベア。怒りを込めた剛腕は、敵ごと地面を引き裂く。=Savage Bear transformed by peculiar powers. Its enraged arms tear through enemies and the ground alike.
 最も近い敵１キャラを中心にした小範囲に物理大ダメージを与え、物理防御力を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive P.DMG to a small area centered on the nearest enemy character and greatly reduces their P.DEF. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 ユニオンバーストは、敵全体に物理中ダメージを与え、ＴＰ上昇を大ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals moderate damage to all enemies and massively decreases TP increase. The status ailments caused by this skill are applied even if the P.DMG is nullified.
 後ろから２番目の敵を中心にした小範囲に物理大ダメージを与え、麻痺状態にする。=Deals massive P.DMG in a small area centered around the second enemy from the back and inflicts paralysis.
-特殊スキルは、【飛行】自分を飛行状態にする。=Special Skill: [Flight] Allows self to enter flight mode.
 ユニオンバーストは、前方２キャラに魔法大ダメージを与え、さらに敵全体に麻痺を与える。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive M.DMG to the two characters in front and further inflicts paralysis on all enemies. The status ailments caused by this skill are applied even if the damage is nullified.
 前方２キャラに魔法中ダメージを与え、ノックバックさせる。=Deals moderate M.DMG and knocks back the two characters in front.
 前方２キャラに魔法中ダメージを与え、魔法防御力を中ダウンさせる。=Deals moderate M.DMG to the two characters in front and moderately reduces their M.DEF.
@@ -1312,3 +1310,7 @@
 マダムプリズムから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the amount of TP recovery for party characters caused by all damage received from Madame Prism.
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与える。敵にバリアが展開されていない場合、誘惑状態を付与する。さらに、敵全体の物理攻撃力と魔法攻撃力を大アップさせる。このスキルによるダメージでは、敵のＴＰが回復しない。=Union Burst deals magic damage to all enemies based on the character's maximum HP. If the enemy does not have a barrier, it will be put into the Tempted state. In addition, it will greatly increase the physical and magic attack power of all enemies. The damage from this skill will not restore enemy TP.
 前方範囲内の敵すべてに魔法大ダメージを与え、誘惑状態を付与する。さらに、物理攻撃のダメージ、魔法攻撃のダメージを中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals large magical damage to all enemies in the forward range and applies the Charm status. In addition, moderately reduces physical and magical damage. The abnormal status caused by this skill will be applied even if damage is nullified.
+
+ユニオンバーストは、最も近い敵１キャラに魔法大ダメージを与える。さらに敵全体に魔法中ダメージを与え、石化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals a great deal of magical damage to the nearest enemy character. Additionally, it deals DMG to all opponents and inflicts petrification status effects. This skill's status ailments can be applied even if damage is nullified.
+バトル開始時、自身の物理防御力と魔法防御力を小アップさせる。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=Increases your own Physical and Magic Defenses by a small amount at the start of a battle. This Defense Boost effect does not affect the Defense Down skill you receive during battle.
+ジオ・ゲヘナを飛び回る巨大な怪鳥。石化の魔剣を振り翳し、無力な獲物を一方的に殲滅する。=A giant monstrous bird flying around GioGehenna. It swings its petrifying magic sword, one-sidedly annihilating its helpless prey.
