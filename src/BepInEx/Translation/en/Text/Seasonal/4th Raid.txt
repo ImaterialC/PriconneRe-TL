@@ -19,21 +19,76 @@ r:"^([0-9,]+)体\((\d+)%\)$"=$1 Times ($2%)
 残り体数=Remaining total
 宝石蜘蛛の群れ=Jewel Spider Swarm
 
-r:"^魔蜘の金糸獲得まで　[0-9/]+ \(本日の残り獲得可能数：(\d+)\)$"=$1 until Golden Spider Silk is obtained. (Remaining obtainable amount for today: $2)
+r:"^魔蜘の金糸獲得まで　([0-9/])+ \(本日の残り獲得可能数：(\d+)\)$"=$1 until Golden Spider Silk is obtained. (Remaining obtainable amount for today: $2)
 挑戦報酬=Challenge Reward
 「バンディ・シスターズ」解放！="Bundy Sisters" Unlocked!
+廻舞・姫銀氷竜=Maiden Dance: Silver Ice Dragon
 
 魔蜘の金糸獲得まで=Until you get a Golden Spider Silk
 本日の魔蜘の金糸の獲得上限に達しています。=You have reached the maximum amount of  Golden Spider Silk you can obtain today.
 
 
 リタイアすると報酬を\n獲得することができません。\nスタミナは消費されません。\n\nよろしいですか？=If you quit, you will not receive any rewards.\nStamina will not be consumed. \nAre you sure?
+このバトルからは　逃げられない！=You can’t escape this battle!
 
-魔蜘レディ・アラクネがジオ・ゲヘナに襲来しました。\n立ちはだかる【バンディ・シスターズ】やフレイヤを倒し、\nレディ・アラクネの手から、必ずやシェフィさまをお助けいたしましょう。=Lady Arachne, the Demon Spider, has invaded Gio Gehenna. We must defeat the [Bandy Sisters] and Freyja, and rescue Lady Sheffy from Lady Arachne's clutches.
-まずは、立ちふさがる宝石蜘蛛の群れを討伐しましょう。\n宝石蜘蛛を一定数討伐することで『魔蜘の金糸』を獲得できます。\n『魔蜘の金糸』を使い、ボスに挑戦いたしましょう。=First, let's exterminate the swarm of Jewel Spiders blocking our path. By defeating a certain number of Jewel Spiders, you can obtain "Golden Spider Silk." Use the Golden Spider Silk to challenge the boss.
-皆様で協力し、タイムリミットまでに撃退ミッションを達成しましょう。\nミッションを達成することで次のボスが解放されます。\n順にボスを撃退し、シェフィさま奪還のため最奥を目指しましょう。=Work together with everyone to complete the Repulsion Mission within the time limit. Completing the mission will unlock the next boss. Defeat the bosses one by one, and aim for the deepest part of the area to rescue Lady Sheffy.
-立ちはだかるボスを退けると、いよいよアラクネとの戦いです。\n強大な敵ですので、油断することなく何度も挑戦することが必要です。\n着実に挑戦を重ね、シェフィさま奪還の機会を窺いましょう。=Once you defeat the bosses blocking your way, the final battle against Arachne begins. She is a powerful enemy, so you will need to challenge her multiple times without letting your guard down. Keep steadily challenging her, and look for an opportunity to rescue Lady Sheffy.
-
+みな、さま……！=Everyone...!
+身体が……言うことを、聞かない……！=My body... won't listen to me...!
+こんな同士討ち、させられるなんて……！=I can't believe we're being forced to kill each other like this!
+──まだ死んではおらぬな？\n身の程知らずの虫けらどもよ。\n最後には無論、互いの刃で喉を斬り合ってもらうが──その前に。=-You're not dead yet, are you? You worms don't know your place. In the end, of course, I'll have you cut each other's throats with your blades, but before that...
+シェフィ、ちゃんっ……！=Sheffy...!
+今の我ならば、エリスとやらの防御魔法も紙切れ同然。\nとなれば……貴様らが死ぬ前に、ようやっと。\n拝ませてやるでな──=As I am now, Eris's defensive magic is as good as a scrap of paper. Which means...before you die, I'll finally be able to worship you
+この娘の魂が砕け散り、無へと帰す様を！\nカカッ！\nクカカカッ──！=The sight of this girl's soul shattering and returning to nothingness! Kaka! Kukakaka~!
+このっ……！\nやめろって、言ってるでしょうがっ……！=You...! I told you to stop...!
+──お兄。=⁇ Onii.
+いと。ほどいた。\nなんとか。お兄だけ。=My cousin. I untied it. Somehow. Just my brother.
+Corneliaくん！？\n危険です、一人じゃっ……=Cornelia?! It's dangerous to be alone...
+……！\nあれはっ──=...! That's...!
+『晶さまから託された、大切なプログラム……\n必ずや、主さまにお届けいたします。』=A precious program entrusted to me by Akira-sama... I will deliver it to you, Master
+『……お父さまといい、晶さまといい。\nわたくしはどうも、大事なものを預かることが多いように思いますね。』=...Father and Akira-sama. I think I tend to take care of things that are important to me
+『──そう。\nキミにとって、そしてアタシたちにとって、\nと～っても大事なものさ。』=『 ⁇ That's right. For you, and for us, it's extremely important.』
+『ロストした人の魂を、元の身体に戻す蘇生魔法。\nコンプレッションデータをアバター状態にするプログラム。\nまあ要するに──』=Resurrection magic that returns lost souls back to their original bodies. A program that puts compressed data into an avatar state. Well, basically ⁇
+『“解凍ソフトの、超すごい版”みたいな感じかな。』=It’s like a super-amazing version of thawing software
+よ、良かった……\n……ですが……=Th-Thank goodness... But...
+──傀儡の糸を切ったところで、状況は何も変わらぬわ！\nその程度の冷気など、忽ちのうちに燃やし尽くしてくれる……！=-Severing the puppet strings won't change anything! That level of cold air will burn you to ash in an instant...!
+いくらプリンセスフォームだからって、\nあいつ一人じゃ、ムチャもイイトコだわ……！\n助けに、行かないと……！=Just because she's in her princess form doesn't mean she'll be able to do it alone...! I have to go save her...!
+ですが……わたくしたちも、満身創痍の有様です……！=But... we're covered in wounds, too...!
+『う～ん？\nそれならたぶん大丈夫かも～』=Hmm? In that case, I think I’ll probably be fine~
+えっ、ホマレさん！？\nそれに、大丈夫って──=Huh? Homare-san?! And you said you'd be fine!
+『ふふっ。\nみんなの仲間が、今そっちに向かってるから～』=Hehe. Everyone’s friends are on their way there right now~
+仲間、って……！？=Friends...?!
+──ぴいぃぃぃ～～～～っ！！！=⁇ Piiiiiiiiii!!!
+──ナーナさんっ？=-Nana-san?
+はぁはぁっ……やっと着いた～\nって！！！\nなにあのおっきいクモ～～～ッ！？！=*pant pant*... We're finally here!!! What's with that huge spider?!
+ナーナさま、危険です！\nどうかお下がりください……！=Lady Nana, it's dangerous! Please step back...!
+てかあんた、なにしにきたのよ……！？=Wait, what did you come here for...!?
+えっと……えっと。\nナーナ、よわっぴいウサギさんだけど……\nでもでも……お友だちを、運ぶくらいはできるからっ──=Umm... Umm. Nahna, it's a fluffy rabbit... But, but... I can at least carry my friends~
+おねがい！\nほーちゃーーーんっ！=Please! Hoo-chaaan!
+……はぁ、はぁ……\nあ、暑かったぁ～……\n運んでくれとは言いましたけど、あんなところに収納されるなんて……=...*pant pant*... Th-That was so hot... I told them to carry it, but to be stored in a place like that...
+ほ、ほーちゃん様まで……？=Even Ho-chan-sama...?
+……こほんっ！\nほんの少し、ドタバタしてしまいましたが……どうかご安心を。=...Ahem! I was just a little flustered, but... Please don't worry.
+【アルターメイデン】の皆さんに、以前お約束したように──\n偉大にして優雅な鳳凰が、癒しの加護を差し上げましょう！\nそ～れっ！=To everyone in Alter Maiden, as you promised before, the great and elegant Phoenix shall grant you the blessing of healing! Take this!
+きず。\nなおった。=Kizu. It's fixed.
+助かりました、ホウオウさま！=Thank you, Master Hoo!
+おのれっ……！\n権能を失くした鶏肋風情がっ……！=Curse you...! You chicken ribs that have lost their power...!
+あ、あなたが持ってっちゃった私の権能！\n必ず返してもらいますから！\nやっちゃってください、騎士さんたち～っ！=Oh, you're the one who took my power! I'll be sure to get it back! Do it, knights!
+ありがとうございます、ほーちゃん！　ナーナちゃん！\nおかげでまた、全力全開で戦えますっ！\nいいえ──=Thank you so much, Ho-chan! Nana! Thanks to you, I'll be able to fight at full strength again! No~
+シェフィちゃんが、戻ってきてくれたんですから！\nさっきまでのわたしたちとは、一味も二味も違いますよっ！！=Shepherd, you're back! You're completely different from the rest of us!
+私が眠っているあいだに、頼もしい仲間がたくさん増えたみたいね。\nぜひ紹介してもらいたいけど、まずは──=While I was asleep, it looks like you've made a lot of reliable friends. I'd like you to introduce me to them, but first ⁇
+必ず、この戦いに勝利しましょう！=Let us win this battle, no matter what!
+プレシアちゃんっ……？=Precia...?
+──シェフィちゃんっ！！=⁇ Sheffy!!
+はっはっはっ……！=Ha ha ha...!
+シェフィちゃんっ……！！=Sheffy...!!
+……ただいま、おに──いっ！？=...I'm home, onii?!
+……よくも、みんなを！=...How dare you do that to everyone!
+クカカ……=Kakakaka...
+どのような手妻か知らぬが──=I don't know what kind of wife you are, but...
+今更そんな小娘一人助けたところで！=It's too late to save a little girl like that!
+やってみなくちゃわからないわ！=I won't know until I try!
+貴様も、我が傀儡となるが良い！=You, too, shall become my puppet!
+──はあああっ！=⁇ Haaaaah!
+行って！=Go! Go!
+クリア・アネモネ=Quria & Anemone
 
 
 

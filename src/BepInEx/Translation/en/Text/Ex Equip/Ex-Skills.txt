@@ -34,3 +34,8 @@ r:"^バトル開始後(\d+)秒間自分の魔法クリティカルを\n(\d+)％�
 開始時防御力中アップ=Starting Defense Up
 r:"^バトル開始後(\d+)秒間自分の物理防御力を(\d+)％アッ\nプさせる。$"=Boost own physical defense by $2% for $1s after the start of battle.
 r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプさせる。$"=Boost own magic defense by $2% for $1s after the start of battle.
+
+
+バトル中盤クリティカル強化=Critical Boost In Mid-Battle
+魔蜘ノ凶槍=Magic Spider's Violent Spear
+バトルの残り時間が45秒を切ると味方全体の物理\nクリティカルと物理攻撃クリティカル時のダメー\nジを３％アップさせる。=When there are less than 45 seconds left in battle, boosts P.CRIT RATE and P.CRIT DMG for all allies by 3%.

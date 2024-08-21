@@ -1,5 +1,5 @@
 Sneak Peek Rank Up Detail
-sr:"^必要Lv(\d+)([\s\S]{20,})$"=Required Lv $1\n$2
+sr:"^必要Lv(\d+)([^「」]{20,})$"=Required Lv $1\n$2
 
 Selling
 sr:"^(?:\[3C404E\])?(.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]を売却しますか？(?:\[-\])?$"=[3C404E]Would you like to sell the$1$2 × [FFBB00,CE4F00]$3[-]？[-]

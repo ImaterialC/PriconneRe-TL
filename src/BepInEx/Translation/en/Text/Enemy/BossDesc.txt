@@ -1314,3 +1314,12 @@
 ユニオンバーストは、最も近い敵１キャラに魔法大ダメージを与える。さらに敵全体に魔法中ダメージを与え、石化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals a great deal of magical damage to the nearest enemy character. Additionally, it deals DMG to all opponents and inflicts petrification status effects. This skill's status ailments can be applied even if damage is nullified.
 バトル開始時、自身の物理防御力と魔法防御力を小アップさせる。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=Increases your own Physical and Magic Defenses by a small amount at the start of a battle. This Defense Boost effect does not affect the Defense Down skill you receive during battle.
 ジオ・ゲヘナを飛び回る巨大な怪鳥。石化の魔剣を振り翳し、無力な獲物を一方的に殲滅する。=A giant monstrous bird flying around GioGehenna. It swings its petrifying magic sword, one-sidedly annihilating its helpless prey.
+
+
+
+挑発を無視して召喚体、分身を除いた最も近い\n　敵１キャラに無効化されない束縛状態を付与し、\n　しばらく後に操糸状態を付与する。操糸状態の\n　キャラは、本来敵に対して行う攻撃やスキルを、\n　味方に対して行う。この際、ユニオンバースト\n　は使用しない。また、ＨＰが０にならない。こ\n　のスキルは操糸状態のキャラを対象にしない。\n=Ignoring the provocations, the summoner grants a Binding status that cannot be nullified by the closest enemy character except for the clones, and grants them a Thread Control status after a while. Characters with Thread Control will perform attacks and skills normally used against enemies against their allies. In this case, Union Burst will not be used. Additionally, their HP will not reach 0. This skill will not target characters with Thread Manipulation.\n
+ユニオンバーストは、敵全体にキャラの現在\n　ＨＰに応じた物理割合ダメージを与え、行動速\n　度を大ダウンさせ、最大ＨＰを小ダウンさせる。\n　このスキルの状態異常はダメージを無効化して\n　も付与される。\n=Union Burst deals physical percentage damage to all opponents according to the character's current HP, greatly reduces their movement speed, and lowers their maximum HP by a small amount. This skill's status ailments can be inflicted even if damage is nullified.\n
+アラクネから受けるすべてのダメージで発生す\n　る、パーティキャラのＴＰ回復量を特大ダウン\n　させる。\n=It lowers the party character’s TP recovery rate by an extra-large amount, generated from all the damage taken by the arachne.\n
+バリアを張り、敵の攻撃を受け付けなくなる。\n　バリアはダメージ量に関係なく、攻撃を命中\n　させるたびに徐々に耐久性を失っていき、\n　200回攻撃を命中させるとバリアは破壊され\n　る。\n=It creates a barrier that prevents enemies from attacking. The barrier gradually loses its durability with every hit, regardless of how much damage it takes. Hitting it 200 times will destroy the barrier.\n
+地の底に蟄居する巨大な魔蜘蛛。\n織り成す障壁であらゆる攻撃を無力化しながら、\n傀儡の糸を用いて他者の意志を我がものとする。\n\n=A giant magic spider confined to the depths of the earth. While incapacitating all attacks with the barriers it weaves, it uses puppet strings to make the will of others mine.\n\n
+バリア耐久度=Barrier Durability
