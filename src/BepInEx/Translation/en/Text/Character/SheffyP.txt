@@ -1,0 +1,27 @@
+##Profile##
+【物理】中衛で新たな力と共に再廻する姫装の氷竜少女。環境効果【絶氷】でクリティカルダメージを高め、火力と手数を併せ持つ剣技で、再び共に歩むため道を切り開く。=[Physical] An ice dragon girl who spins again with newfound powers and princess clothing. She accumulates stacks of [Absolute Ice] to raise her critical damage and attack power, and uses her sword skills and overwhelming number of swords, to cut a path to reunion, so that she can walk along us once more. 
+
+##UB##
+廻舞・姫銀氷竜=Maiden Dance: Silver Princess Ice Dragon
+目の前の敵１キャラに物理特大ダメージを２回与える。【絶氷】中、このスキルのダメージがアップし、物理防御力を一定値無視する。=Deals two massive P.DMG hits to an enemy in front. When [Absolute Ice] is active, increases P.DMG dealt, ignoring a certain amount of enemy P.DEF.
+r:"^絶氷中、敵単体に物理防御力を50無視する(\d+)の物理ダメージ絶氷中、敵単体に物理防御力を50無視する(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=If [Absolute Ice] is active:\n►Deals $1 P.DMG to an enemy, ignoring 50 of their P.DEF.\n►Deals $2 P.DMG to an enemy, ignoring 50 of their P.DEF.\n\nIf [Absolute Ice] isn't active:\n►Deals $3 P.DMG to an enemy.\n►Deals $4 P.DMG to an enemy.
+
+##S1##
+剣踏=Sword Stepping
+目の前の敵１キャラに物理中ダメージを２回与え、物理防御力を小ダウンさせる。【絶氷】中、このスキルの効果量が上昇し、さらにクリティカルを受けた際のダメージを小アップさせる。=Deals two moderate P.DMG hits to an enemy in front and slightly lowers its P.DEF. When [Absolute Ice] is active, increases P.DMG dealt and lowered P.DEF, and boosts an enemy's P.CRIT DMG taken.
+r:"^絶氷中、敵単体に(\d+)の物理ダメージ絶氷中、敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ絶氷中、敵単体の物理防御力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン絶氷中、敵単体の被クリダメを8％アップ$"=If [Absolute Ice] is active:\n►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $5 for 12s.\n►Boosts an enemy's P.CRIT DMG taken by 8% for 12s.\n\nIf [Absolute Ice] isn't active:\n►Deals $3 P.DMG to an enemy.\n►Deals $4 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $6 for 12s.
+
+##S2##
+銀雪の舞=Sliver Snow Dance
+味方全体の物理攻撃力と物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。【絶氷】中、このスキルの効果量が上昇し、さらに自分のＨＰを小回復、ＴＰを特大回復させる。=Greatly boosts all allies' P.ATK, P.CRIT Rate, and slightly boosts P.CRIT DMG. When [Absolute Ice] is active, increases P.ATK, P.CRIT Rate and P.CRIT DMG boosts, slightly recovers own HP, and greatly recovers own TP. 
+r:"^絶氷中、味方全体の物理攻撃力を(\d+)アップ絶氷中、味方全体の物理クリティカルを180アップ絶氷中、味方全体の物理攻撃クリティカル時のダメージを9％アップ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを120アップ味方全体の物理攻撃クリティカル時のダメージを6％アップ絶氷中、自分のＨＰを(\d+)回復絶氷中、自分のＴＰを600回復$"=If [Absolute Ice] is active:\n►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' P.CRIT Rate by 180 for 12s.\n►Boosts all allies' P.CRIT DMG by 9% for 12s.\n►Recovers own HP by $3.\n►Recovers own TP by 600.\n\nIf [Absolute Ice] isn't active:\n►Boosts all allies' P.ATK by $2 for 12s.\n►Boosts all allies' P.CRIT Rate by 120 for 12s.\n►Boosts all allies' P.CRIT DMG by 6% for 12s.
+
+##SP1##
+絶氷世界=Absolute Ice World
+このスキルのスキルレベルは「廻舞・姫銀氷竜」と連動しています=The skill's level is linked to "Maiden Dance: Silver Princess Ice Dragon"
+自分のＴＰ上昇を中アップさせ、環境効果【絶氷】を発動する。環境効果【絶氷】の効果は敵、味方すべてに適用される。物理攻撃クリティカル時のダメージが小アップする。=Moderately boosts own TP Boost. Activates the environmental effect [Absolute Ice]. This skill's effect applies to all enemies and allies. Slightly boosts everyone P.CRIT DMG.
+自分のＴＰ上昇を30アップ環境を絶氷にする敵味方の物理攻撃クリティカル時のダメージを10％アップ=►Boosts own TP Boost by 30 for 180s.\n►Boosts everyone P.CRIT DMG by 10% for 180s.
+
+##EX##
+ラディアントルッツ=Radiant Lutz
+ラディアントルッツ+=Radiant Lutz+

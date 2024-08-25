@@ -161,6 +161,9 @@ sr:"^(\d{4})年(\d+月)$"=$2 $1
 
 ---NPC---
 ジュエルはよく考えて\n使うことね\n無駄遣い厳禁！=Think carefully\nwhen spending Jewels.\nDon't waste them!
+ジュエルを食べ物…\nいえ、貴重品と交換できます！=Here you can exchange jewels for fo- I mean for valuables!
+主さまのジュエルで\n貴重な品々を購入できます\nですが、無駄遣いは\n『めっ』でございますよ=My Lord, you can purchase valuable items with your jewels here. However, please be sure to not waste them.
+ジュエルがあれば\n貴重品と交換できるみたい\n大事に使いましょうね=It seems you can exchange jewels for valuable items here. Let's use them wisely.
 マナ購入で、「マナ」と「スキップチケット」が手に入ります。\nさらにオマケで「メモリーピース」「女神の秘石」「探索挑戦回数増加」\nが手に入るかもしれませんよ。=Buying Mana will give you both Mana and Skip Tickets.\nYou may also receive bonuses such as Memory Shards,\nDivine Amulets and additional Grotto attempts.
 
 決済手続=Payment Procedure

@@ -90,3 +90,9 @@ r:"^バトル開始時、自身にＴＰダウン(\d+)％カット効果を付�
 
 
 最もＨＰの割合が低い味方１キャラのＨＰを中回復させる。=Moderately recovers HP for one ally with the lowest HP percentage.
+
+ワイバーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。
+sr:"^(.*)から受けるすべてのダメージで(?:\n　)?発(?:\n　)?生(?:\n　)?す(?:\n　)?る(?:\n　)?、(?:\n　)?パ(?:\n　)?ー(?:\n　)?テ(?:\n　)?ィ(?:\n　)?キ(?:\n　)?ャ(?:\n　)?ラ(?:\n　)?の(?:\n　)?Ｔ(?:\n　)?Ｐ(?:\n　)?回(?:\n　)?復(?:\n　)?量(?:\n　)?(?:が|を)(?:\n　)?(極大|絶大|特大|大|中|小|大幅)(?:\n　)?ダ(?:\n　)?ウ(?:\n　)?ン(?:\n　)?(?:する|させる)?。$"=Reduces the TP recovery rate of party characters by $2 amount from all damage taken by $1.
+
+敵から受けるすべてのダメージで発生する、オルレオンのＴＰ回復量が大ダウンする。
+sr:"^敵から受けるすべてのダメージで発生する、(?:\n　)?(.*)のＴＰ回復量(?:が|を)(極大|絶大|特大|大|中|小|大幅)ダウン(?:する|させる)?。$"=Decreases the TP recovery amount of the $1 by a $2 from all damage received.

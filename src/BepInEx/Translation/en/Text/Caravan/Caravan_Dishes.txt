@@ -27,6 +27,9 @@
 
 アキノのゲヘニアンチキンプレート=Akino's Gehenian Chicken Plate
 ユイの栄養満点まごころ弁当=Yui's Nutritious Heartfelt Bento
+リンのナッツ入りぐうたらあんパン=Rin's Lazy Anpan with Nuts
+
+次に振るダイスの目が「1・2」のみになる\n代わりに、その場で福引券を3枚獲得する。=Instead of only having 1 and 2 eyes on the die you swing next, you get 3 lottery tickets on the spot.
 
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
@@ -50,7 +53,7 @@
 次に振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 next turn.
 ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=You will roll a guaranteed 4 for the next 3 turns.
 アネモネの花爛漫ステーキサラダ=Anemone's Flower Steak Salad
-
+次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=If the next dice roll shows only "1" or "2", you will instantly receive three lottery tickets.
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
 次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.[-]
@@ -178,7 +181,7 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 バンディ・シスターズの昨夜の夕食カレー。作り\n過ぎて食べきれずにいたものをワカナがお裾分け\nしてくれた。寝かされていたためしっかりと味の\n染みた、極上の二日目カレーとなっている。=The curry the Bandy Sisters' had for dinner last night. Wakana made too much, so she gave us the leftovers that they couldn't eat. Due to it sitting overnight, the depth of flavor has flourished, making this a true first-class second-day curry.
  
-
+リンからもらった非常食のあんパン。ナッツが練り込まれクランキーな食感で食べ飽きない。ゲームのため部屋に引きこもる際のお供であり、必要な栄養素が全て賄える完全栄養食、らしい。=Anpan (sweet bean bun) is an emergency food given to me by Rin. It has nuts kneaded into it, giving it a crunchy texture that you never tire of. It's a great snack to have when you're holed up in your room playing games, and it's said to be a complete nutritional food that provides all the nutrients you need.
 
 
 ---Yellow---
