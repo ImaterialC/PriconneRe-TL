@@ -359,6 +359,12 @@ sr:"^\[FFBB00\,CE4F00\]★3キャラ出現率2倍\n限定「([べ-ヺー＆＝]+
 sr:"^(.{2,12}ガチャ)「(\d+)回引く」$"="$1 "Draw $2 Times"."
 
 
+選択キャラ確認=Confirm Selected Character
+
+解放済みのキャラを選択していますがよろしいですか。=You have selected a chara that has already been unlocked.
+
+選択した内容で確定しますか？\n※選択したキャラはいつでも変更可能です。=Would you like to confirm your selection?\n※You can change the character you select at any time.
+
 
 メモリーピース、マスターピースが獲得できる場合、直接付与されます。ただし、獲得したメモリーピース、マスターピースが所持上限に達している場合、プレゼントボックスに贈られます。=When Memory Pieces and Masterpieces can be acquired, they will be directly granted. However, if the acquired Memory Pieces and Masterpieces reach the possession limit, they will be sent to the present box.
 キャラ交換の有効期間、内容は予告なく変更する場合があります。=The duration and content of the character exchange may be changed without notice.
