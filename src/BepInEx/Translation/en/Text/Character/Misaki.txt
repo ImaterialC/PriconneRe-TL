@@ -43,7 +43,7 @@ r:"^呪いまたは呪詛状態ではない敵に(\d+)の魔法ダメージ呪�
 ##S1+##
 ダークフォトン+=Dark Photon+
 最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに行動速度を大ダウンさせる。=Deals moderate M.DMG to all enemies in range and reduces their action speed by a large amount.
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 M.DMG to enemies in range.\n►Reduces enemies' action speed to 65% in 200 range for 10s.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 M.DMG to enemies in range.\n►Reduces enemies' action speed in range.
 
 ##UE##
 魔眼杖デモネス・アイ=Eye of the Demoness

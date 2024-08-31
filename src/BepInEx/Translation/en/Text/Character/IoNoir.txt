@@ -4,7 +4,7 @@
 ##UB##
 マジカル・ラブガイダンス=Magical Love Guidance
 前方範囲内の敵すべてに魔法中ダメージを与え、さらに味方全体のＨＰを小回復する。このスキルで与えたダメージ量に応じてＨＰの回復量がアップする。=Deals moderate M.DMG to enemies in 1100 range and slightly recovers all allies' HP. The amount of HP recovery is increased based on the damage dealt by this skill.
-r:"^範囲内の敵に(\d+)の魔法ダメージ味方全体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in 1100 range.\n►Recovers all allies' HP by $2.
+r:"^範囲内の敵に(\d+)の魔法ダメージ味方全体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in range.\n►Recovers all allies' HP by $2.
 
 ##S1##
 ロマンティックハート=Romantic Heart

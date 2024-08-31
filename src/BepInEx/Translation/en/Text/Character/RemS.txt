@@ -1,0 +1,33 @@
+##Profile##
+【物理】前衛で夏の日差しの中、余暇を楽しむ双子の妹。ＵＢで鬼族の力を解放すると攻防両面に加えＨＰ吸収が上昇し、目に映る全てを【狂騒】のままに叩き伏せる。=[Physical] A younger twin who enjoys her leisure time in the summer sun in frontlines. When she unleashes Oni powers through UB, her HP absorption increases in addition to her offensive and defensive abilities, and she smashes down everything she sees in her [Mania].
+鬼化中=Oni Mode
+
+##UB##
+納涼 アル・ヒューマ=Summer Al Huma
+目の前の敵１キャラに物理特大ダメージを与え、自分に【狂騒】を１つ付与する。【狂騒】は最大５まで追加される。さらに鬼化していない時、自分の物理攻撃力、物理防御力、魔法防御力を特大アップ、ＨＰ吸収を大アップして鬼化する。=Deals massive P.DMG to an enemy in front, and gains 1 [Mania] stack, to a maximum of 5. While not in [Oni Mode], massively boosts own P.ATK, P.DEF, M.DEF, and HP Drain, and enters [Oni Mode].
+r:"^自分に狂騒を付与する敵単体に(\d+)の物理ダメージ鬼化状態でない場合、鬼化状態になり以下の効果が発動する自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ自分のＨＰ吸収を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Gains 1 [Mania] stack.\n\nIf not in [Oni Mode]:\n►Boosts own P.ATK by $2 for 180s.\n►Boosts own P.DEF by $3 for 180s.\n►Boosts own M.DEF by $4 for 180s.\n►Boosts own HP Drain by $5 for 180s.\n►Enters [Oni Mode] for 180s.
+
+##S1##
+ビーチサイドスター=Beachside Star
+目の前の敵１キャラに物理大ダメージを与え、自分の物理攻撃力を大アップする。=Deals large P.DMG to an enemy in front and greatly boosts own P.ATK.
+
+##S2##
+水際の癒し=Waterside Healing
+
+##SPUB##
+目の前の敵１キャラに物理特大ダメージを与え、自分に【狂騒】を１つ付与する。【狂騒】は最大５まで追加される。=Deals massive P.DMG to an enemy in front, and gains 1 [Mania] stack, to a maximum of 5.
+r:"^自分に狂騒を付与する敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Gains 1 [Mania] stack.
+
+##SP1##
+逆巻く鉄球=Raging Morningstar
+目の前の敵１キャラに物理特大ダメージを与え、自分のＴＰを中回復する。さらに、自分以外の味方全員に最大ＨＰに応じた物理割合ダメージを与える。このスキルのダメージは、【狂騒】の数に応じて増加する。このスキルによる味方へのダメージでは味方のＴＰは回復しない。=Deals massive P.DMG to an enemy in front and moderately recovers own TP. Also deals damage to all allies based on their maximum HP. The P.DMG dealt increases according to number of [Mania] stacks. Allies do not gain TP from damage inflicted by this skill.
+r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを200回復自分以外の味方全体に最大ＨＰの１％の物理割合ダメージ$"=►Deals $1 (+0.4×$1×[Mania]) P.DMG to an enemy.\n►Recovers own TP by 200.\n►Deals DMG equal to 1% (+0.8%×[Mania]) HP to all allies.
+
+##SP2##
+ブレイジングフリーズ=Blazing Freeze
+目の前の敵１キャラに物理特大ダメージを与え、自分のＨＰを中回復する。さらに、自分以外の味方全員に最大ＨＰに応じた物理割合ダメージを与える。このスキルのダメージは、【狂騒】の数に応じて増加する。このスキルによる味方へのダメージでは味方のＴＰは回復しない。=Deals massive P.DMG to an enemy in front and moderately recovers own HP. Also deals damage to all allies based on their maximum HP. The P.DMG dealt increases according to number of [Mania] stacks. Allies do not gain TP from damage inflicted by this skill.
+r:"^敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復自分以外の味方全体に最大ＨＰの１％の物理割合ダメージ$"=►Deals $1 (+0.4×$1×[Mania]) P.DMG to an enemy.\n►Recovers own HP by $2.\n►Deals DMG equal to 1% (+0.8%×[Mania]) HP to all allies.
+
+##EX##
+夏まっ盛りです！=Summer in Full Swing!
+夏まっ盛りです！+=Summer in Full Swing!+
