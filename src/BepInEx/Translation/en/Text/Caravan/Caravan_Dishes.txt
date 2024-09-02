@@ -25,7 +25,7 @@
 クウカの緊縛触手活け造り=Kuuka's Binding Live Octopus
 クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
 
-アキノのゲヘニアンチキンプレート=Akino's Gehenian Chicken Plate
+アキノのゲヘニアンチキンプレート=Akino's Gehennian Chicken Platter
 ユイの栄養満点まごころ弁当=Yui's Nutritious Heartfelt Bento
 リンのナッツ入りぐうたらあんパン=Rin's Lazy Anpan with Nuts
 
@@ -35,7 +35,7 @@
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
 カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Appetite-Doubling Kebab Sandwich
 タマキの金運招くレインボーたい焼き=Tamaki's Rainbow Wealth Fortune Taiyaki
-ランファの世話焼き三昧肉じゃが=Ranpha's Grilled Meat and Potato
+ランファの世話焼き三昧肉じゃが=Ranpha's Meat and Potato Stew
 ---Green---
 クリアの彩り華やかバラエティ弁当=Quria's Colorful Variety Lunch Box
 ワカナの節約腹八分目カレー=Wakana's Properly Portioned Curry
@@ -51,7 +51,9 @@
 次に振るダイスの目が必ず「6」になる。=You will roll a guaranteed 6 next turn.
 次に振るダイスの目が必ず「7」になる。=You will roll a guaranteed 8 next turn.
 次に振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 next turn.
-ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。=You will roll a guaranteed 4 for the next 3 turns.
+r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」になる。$"=You will roll a guaranteed $2 for the next $1 turns.
+
+
 アネモネの花爛漫ステーキサラダ=Anemone's Flower Steak Salad
 次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=If the next dice roll shows only "1" or "2", you will instantly receive three lottery tickets.
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
@@ -143,15 +145,17 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 マイルを消費してガチャを引くことができます。=You can use miles to pull the gacha.
 ガチャマス=Gachamas
 トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。=You can move by skipping Treasure Square. The effect lasts for 3 turns.
-綺麗な装飾箱に納められたボンボン・ショコラ。そのほろ苦さを秘めた濃密な甘さが灰色の脳細胞に働きかける時、名探偵の鋭い推理が隠された謎を全て白日の下へと晒し、事件を解決へ導く。=Bonbon Chocola was placed in a neatly decorated box. When the dense sweetness that hid its bittersweetness worked on the gray brain cells, all the mysteries hidden by the detective's sharp deductions were exposed to the light of day, leading to the resolution of the case.
+
+綺麗な装飾箱に納められたボンボン・ショコラ。そのほろ苦さを秘めた濃密な甘さが灰色の脳細胞に働きかける時、名探偵の鋭い推理が隠された謎を全て白日の下へと晒し、事件を解決へ導く。=A set of Bonbon chocolates, placed in a beautifully decorated box. As their decadent flavor with a bittersweet finish stimulates the grey matter of the brain, the great detective's sharp reasoning brings all unknowns to light, leading to the resolution of the case.
 
 
 2ターンの間ターン数のカウントをスキップする。=Skips turn count for 2 turns.
 【イベント】次のターン数のカウントをスキップする=[Event] Skip the next turn count
 
 ---Red---
-ミミが、ジオ・ゲヘナで助けてくれたお姉さん達のことを思い作ったおにぎり。それぞれ異なる味付けがされているが、ミミの願い通りお互いにケンカをせず仲良くハーモニーを奏でている。=Mimi made rice balls while thinking of the older sisters who helped her in Gio Gehenna. Each one is seasoned differently, but as Mimi wished, they all get along harmoniously without fighting, playing in harmony.
-アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキ ンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made with spices that Akino procured from Gio Gehenna. The exciting flavor that comes with the ranch's special yogurt sauce is truly a miraculous marriage of two worlds.
+ミミが、ジオ・ゲヘナで助けてくれたお姉さん達のことを思い作ったおにぎり。それぞれ異なる味付けがされているが、ミミの願い通りお互いにケンカをせず仲良くハーモニーを奏でている。=Mimi made these rice balls in memory of the big sisters who helped her in Gio Gehenna. Each one has a unique flavor, but just as Mimi wished, no one rice ball overpowers the other, forming a wonderful harmony together.
+
+アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキ ンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken platter made with spices that Akino procured in Gio Gehenna. The stimulating flavor of the chicken combined with the ranch's special yogurt sauce makes for a miraculous union of two worlds.
 
 アオイがお弁当として作ったエルフ伝統の野菜サンド。一緒についてきてくれる最高の友だちの助言により、どんなに深い森の中でも全速力で駆け抜けることができるらしい。（アオイ談）=A traditional Elven vegetable sandwich that Aoi made for lunch. Thanks to the advice of her best friend, she can run as fast as she wants, no matter how deep in the forest it is. (According to Aoi)
 
@@ -181,7 +185,7 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 バンディ・シスターズの昨夜の夕食カレー。作り\n過ぎて食べきれずにいたものをワカナがお裾分け\nしてくれた。寝かされていたためしっかりと味の\n染みた、極上の二日目カレーとなっている。=The curry the Bandy Sisters' had for dinner last night. Wakana made too much, so she gave us the leftovers that they couldn't eat. Due to it sitting overnight, the depth of flavor has flourished, making this a true first-class second-day curry.
  
-リンからもらった非常食のあんパン。ナッツが練り込まれクランキーな食感で食べ飽きない。ゲームのため部屋に引きこもる際のお供であり、必要な栄養素が全て賄える完全栄養食、らしい。=Anpan (sweet bean bun) is an emergency food given to me by Rin. It has nuts kneaded into it, giving it a crunchy texture that you never tire of. It's a great snack to have when you're holed up in your room playing games, and it's said to be a complete nutritional food that provides all the nutrients you need.
+リンからもらった非常食のあんパン。ナッツが練り込まれクランキーな食感で食べ飽きない。ゲームのため部屋に引きこもる際のお供であり、必要な栄養素が全て賄える完全栄養食、らしい。=Rin gave us her emergency ration of choice: Anpan. The mixed-in nuts give it a crunchy texture that you'll never get tired of. The perfect companion when holing yourself up in a room and playing games, she says that it provides all the nutrients one could possibly need.
 
 
 ---Yellow---
@@ -197,17 +201,17 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 コッコロの指導により料理の腕を上げたランファ\nが手作りした肉じゃが。まだ改善の余地はある\nものの、不器用なランファが誰かのために積み\n重ねた努力を思うととてもおいしく味わえる。= After receiving plenty of guidance from Kokkoro in the ways of cooking, Ranpha made this homestyle meat and potato stew. There is room for improvement, but knowing how much effort the typically clumsy Ranpha put in for someone else's sake fills your stomach with glee.
 
-アユミの隠密ガトーインビジブル=Ayumi's Stealth Gateau Invisible
-気が付くとリリの手元にあった不思議なお菓子。一見普通のケーキだが、内部に様々な具材が隠れるように入っている。複雑で重層的な味わいを見せる様は、まるで誰かさんのよう。=When you notice it, there's a mysterious sweet in Lili's hand. At first glance, it looks like an ordinary cake, but various ingredients are hidden inside. The complex and layered flavors are reminiscent of a certain someone.
-アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken plate made using spices that Akino procured from Gio Gehenna. The stimulating flavor, harmonized with ranch-specialty yogurt sauce, is truly a miraculous marriage of two worlds.
+アユミの隠密ガトーインビジブル=Ayumi's Covert Gâteau Invisible
+気が付くとリリの手元にあった不思議なお菓子。一見普通のケーキだが、内部に様々な具材が隠れるように入っている。複雑で重層的な味わいを見せる様は、まるで誰かさんのよう。=Before she knew it, Riri found a peculiar pastry in her hands. At first glance, it looks like a normal cake, but there are a variety of ingredients hidden within. It's complex and multi-layered flavor reminds you of someone.
 
 「マイルマス」「トレジャーマス」をスキップして移動できる。効果は1ターンの間継続する。=You can skip "mile tiles" and "treasure tiles" when moving. The effect lasts for 1 turn.
-アネモネが世話する秘密の菜園の野菜を使ったサラダ。栄養を重視するアネモネは草食獣の肉を野菜と解釈、当初は野菜の上に肉を置いただけであったが、ネラの指導で盛り付け直された。=A salad made with vegetables from Anemone's secret garden. Anemone, who prioritizes nutrition, interpreted herbivore meat as vegetables, initially placing meat on top of vegetables. However, it was rearranged under Nera's guidance.
+
+アネモネが世話する秘密の菜園の野菜を使ったサラダ。栄養を重視するアネモネは草食獣の肉を野菜と解釈、当初は野菜の上に肉を置いただけであったが、ネラの指導で盛り付け直された。=A salad made with vegetables from Anemone's secret garden. Anemone, who prioritizes nutrition, interpreted the meat of herbivorous animals as a vegetable, initially placing the meat directly on top of the salad. However, with Nera's guidance, she re-plated the meat.
 
 
-ジオ・ゲヘナを探索中の冥姫たちが現地で採取したスパイスで味付けした一皿。赤く煮え滾るソースは刺激的かつ非常に奥深い味わいで未知の大地の如く冒険者たちをその深奥へと誘う。=A dish seasoned with spices collected on site by the Dark Princesses exploring Gio Gehenna. The red, simmering sauce invites adventurers deep into its stimulating and profoundly complex flavors, much like an unknown land.
+ジオ・ゲヘナを探索中の冥姫たちが現地で採取したスパイスで味付けした一皿。赤く煮え滾るソースは刺激的かつ非常に奥深い味わいで未知の大地の如く冒険者たちをその深奥へと誘う。=A dish seasoned with spices collected on site by the Hecate of the Gale as she was exploring Gio Gehenna. The red, simmering sauce has a stimulating and extremely deep flavor that invites adventurers into the depths of the unknown.
 
-
+ユイが食べる人のことを考え、心を込めて作ったお弁当。程よいサイズのお弁当箱に愛情と手間暇をたっぷりとかけた極上の料理が詰まっており、食べた者の心と胃袋を優しく満たしてくれる。=Yui makes these bento boxes with care and with the person who will eat them in mind. The perfect sized bento box is filled with exquisite food, made with love and care, to gently fill the heart and stomach of anyone who eats it.
 
 ナーナ=Nana
 出たダイスの目が奇数だった場合、\nライバルを1ターン休みにできる=If the die has an odd number of eyes, you can take a turn off your rival
