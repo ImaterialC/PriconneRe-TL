@@ -80,7 +80,7 @@
 確か参加人数枠にはまだ空きがあったわよね？\n今からアキノさんに頼んでねじ込んでもらって……\n行くしかないわ！=I'm pretty sure there's still room in the participation slot, right? I'll ask Akino to screw it in right now... We have to go!
 極上の屋台飯と、麦しゅわが私を待っている！\nこうしちゃいられないわ！　準備しないと！=I'm waiting for the finest stall food and wheat! I can't stay like this! I have to get ready!
 最高の麦しゅわのために、できる限りの準備をしないと……\n麦しゅわに申し訳が立たないもの！！=I have to make as much preparations as I can for the best wheat crumbs... I can't apologize to them!!
-ツアーの集合場所にたどり着いたものの、誰もおらず\n一人たたずむCornelia。\nそう、これはいうなれば祭りの前の静けさなのであった。=We arrive at the gathering point for the tour, but there's no one here, and Cornelia stands alone. That's right, this is the silence before the festival.
+ツアーの集合場所にたどり着いたものの、誰もおらず\n一人たたずむ{playername}。\nそう、これはいうなれば祭りの前の静けさなのであった。=We arrive at the gathering point for the tour, but there's no one here, and {playername} stands alone. That's right, this is the silence before the festival.
 オーエド夏祭り体験ツアーに参加するユイは、分かりやすいようにと浴衣\nに着替える。一方同じくツアー参加者のミサトは一足先に現地へ向かい、\nそしてユカリは癒しを求めて飛び入りでツアーに参加する。=Yui, participating in the Oed Summer Festival experience tour, changed into her yukata to make it easier to understand. On the other hand, Misato, who was also a tour participant, went to the site one step ahead of her, and Yukari, seeking healing, jumped in and took part in the tour.
 妖精たちの夏休み=The Fairies' Summer Vacation
 ネビア。\n言うべきことがあるわよね？=Nevia. You have something to say, don't you?
@@ -149,3 +149,37 @@
 こうして異世界を巻き込んだ『6.5周年記念夏祭り』は、\nプリンセスたちの協力もあって大成功を収めたのだった。=Thus, the “6.5th Anniversary Summer Festival,” which involved other worlds, was a great success thanks to the cooperation of the princesses.
 はい♪　とっても。\nだから、来年は。絶対、絶対絶対──シェフィちゃんも一緒に、\n花火を楽しみましょうね！=Yes♪ Very much so. So, next year. Definitely, definitely── Let’s enjoy the fireworks with Shephy-chan too!
 えっへへ～！　約束ですよ！=Heehee~! It’s a promise!
+
+
+ユカリさんが飲んでるのは……=What Yukari-san is drinking is...
+だったら……=In that case...
+
+オーエド横丁の夏祭りへ向かった{playername}、\nユイ、ユカリ、ミサトの４名は、香ばしい匂いと鉄板の熱気に包まれた\n屋台の前で足を止める。=The four of them—{playername}, Yui, Yukari, and Misato—headed for the summer festival in Oed Yokocho, stopping in front of a stall surrounded by a fragrant smell and the heat of iron plates.
+ここがこの会場で一番アツい屋台……\n【シルバーオクトパス商会】さんよ！\nオーマ直送の新鮮素材でどの料理も最強のおつまみになるわ。=This is the hottest stall here... The Silver Octopus Company! It's made with fresh ingredients directly from Oma, and every dish is the strongest snack.
+も、もちろん麦しゅわなしでも楽しめるわよ！\nほら、お姉さんのおごりよ、飲んで飲んで！=O-Of course, you can enjoy it without the wheat crumbs! Here, it's your treat! Drink it, drink it!
+わあ……ベリーのジュースなんて珍しいですね！\nんっ……=Wow... Berry juice is rare! Mm...
+クランベリージュースにミックスベリーが入ってて\nなんだかとってもゴージャスな感じがします！=Cranberry juice has mixed berries in it, and it feels really gorgeous!
+あら～、素敵ね～\n私はどうしようかしら？\n今は麦しゅわって気分じゃないんだけど……=Oh, how wonderful! What should I do? I'm not in the mood for wheat right now...
+ふむふむ……まあそういう日もあるわよね。\nそうねえ、今日はちょっと蒸し暑いし……\nミサトさんにはこれなんてどうかしら？=Hmm... Well, there are days like that. Let's see, it's a little humid today... How about this for Misato?
+これは……『森のヒーリングレモンサワー』？\nいい色合いね～本当に森の中にいるみたい。\nじゃあ失礼して……んんっ！=This is... 'Healing Lemon Sour of the Forest'? That's a nice color~ It really looks like we're in the forest. Well then, excuse me... Mmm!
+んん～～～っ！　ものすごいしゅわしゅわだわ！\nそこにミントとレモンの爽やかさが合わさって、\n森の中の泉に足をつけたみたい……=Mmmm! It's so squishy! The refreshing combination of mint and lemon makes me feel like I've stepped into a spring in the middle of the forest...
+これは大人の味だから、ユイさんとキミにはちょっと早いわね。\n大人になるまで我慢してちょうだい。=This tastes like an adult, so it’s a little early for Yui-san and you. Please bear with it until you’re an adult.
+それはもちろん！　『夏の麦しゅわ ユカリスペシャル』よ！！\nこの『麦しゅわの聖騎士』が【シルバーオクトパス商会】と共同開発した\nたこ焼に最高に合うカスタム麦しゅわよ！=Of course! It's the 'Summer Mugishuwa Yukari Special'!! It'll be custom-made to match the takoyaki developed jointly by the Silver Octopus Company by this Holy Knight of Mugi!
+ごめんなさいね、これも大人しか楽しめないのよ……\nでも！　料理は別だから安心して！\n【シルバーオクトパス商会】の看板メニュー、たこ焼よ！=I'm sorry, but only adults can enjoy this... But! Cooking is a different story, so don't worry! It's takoyaki, the signature dish of the Silver Octopus Company!
+これが、たこ焼……丸くてかわいい♪\nでも、どこらへんがたこなんです？=This is takoyaki... It's cute and round♪ But what part of it is octopus?
+ふっふっふ、食べてみれば分かるわ。\nはい、キミもミサトさんもどうぞ。\nあ、熱いから気を付けてね。=Hehehe, you'll understand once you try it. Here you go, Misato. Oh, it's hot, so be careful.
+ふう、ふぅ……んっ……はふ……\n中に入ってるのはたこさん？\nそれでたこ焼なのね……=Phew, phew... Mm... Hafh... Is that octopus inside? So that's why it's takoyaki...
+た、たしかにおいしいですけど……\nとっても熱いですぅっ！=I-It does taste good, but... it's really hot!
+それを、ドリンクで流し込むのよ！\nはふっ、はふっ……んっ、んっ、んっ……ぷはー！！！=I'm going to pour it down with a drink! Hah, hah... nn, nnn, nn... pwah!!!
+ん～～～！\nチェダーチーズとペッパーが効いてて……たっまんないわ～！\n『麦しゅわ進むユカリのおつまみたこ焼』と呼んであげるわ！=Mmm! The cheddar cheese and peppers are so effective... It's so boring! I'll call it 'Mugishuwa Shinko Yukari's Pleasant Koyaki'!
+もぐもぐ……麦しゅわじゃなくてもおいしいですね。\nこうなると、たこ焼以外もメニュー気になってきちゃった。=*munch munch*... It's delicious, even if it's not barley. Now I'm curious about the menu other than takoyaki.
+あの焼そばいいかも……\n具もたくさんでタコさんウィンナーがかわいいな～♪=That yakisoba might be nice... There's so much toppings, and octopus sausages are so cute~♪
+え。ええ？　「あれは『ユイの愛情たっぷり鉄板焼そば』だね」\nって……そんな、愛情だなんて恥ずかしいよぉ。=Eh? Ehhh? 'That's 'Yui's Love-filled Iron Plate Yakisoba'... That's embarrassing. It's love.
+あ、でもおいしい……\nうぅ、プリンセスフォームになった後でもないのに食べ過ぎちゃうよ～=Ah, but it's delicious... Ugh, I'm going to eat too much, even though I haven't had a princess form yet~
+ふふっ、いいじゃない。\nおいしいものは楽しく食べなくちゃ♪\n……そういう食べ方できるのは若いうちだけだもの……=Hehe, it's fine, isn't it? We have to have fun eating delicious food♪ ...Only young people can eat things like that...
+ユカリさんもまだまだ若いでしょ？\nはい、あーん。=You're still young, aren't you, Yukari-san? Yes, ahhh.
+うう、ミサトさーん……あむ。クリームチーズの爽やかさに、\n黒蜜と抹茶パウダーがラスクの食感を引き立たせてるわ……\nこれはまさに、『ミサト先生のごほうびおやつラスク』……=Ugh, Misato-saaan... Amph. The refreshing cream cheese and the black nectar and matcha powder accentuate the texture of the rusk... This is exactly what Misat-sensei's gift snack rusks...
+おいしいものがいっぱいで、まるで遊園地に来たみたい♪\nふふっ、これも案内をしてくれたユカリさんのおかげね。=There's so much delicious food, it's like we've come to an amusement park♪ Hehe, this is all thanks to you, Yukari-san.
+はい♪　それに、まだまだおいしいものがありそうで……\nあうぅ、我慢できなさそうです～……=Yes♪ And it looks like there's still a lot more delicious food out there... Aww, I don't think I can take it anymore...
+我慢は体に毒よ！\nよーし、今日はユカリお姉さんがおごったげるから、\nキミもじゃんじゃん食べちゃいなさーい！=Patience is bad for your health! Alright, Yukari-onee-san's treating you today, so don't eat too much!
+オーエド横丁の夏祭りの夜は更けていくが\n【シルバーオクトパス商会】の屋台の前は、\nいつまでも笑顔が絶えないのであった。=The night of the Oedo Yokocho Summer Festival wore on, but in front of the Silver Octopus Company’s stall, the smiles never ceased.

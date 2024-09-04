@@ -1319,3 +1319,9 @@
 ユニオンバーストは、飛行状態のキャラを含む敵全体に自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与え、ステータスアップ効果を解除する。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals a percentage of damage to all opponents, including flying characters, based on their physical attack power and their own magic attack power, and dispels the status-up effect. DMG from this skill cannot restore TP.
 自身の物理攻撃力、魔法攻撃力をバトル終了まで小アップさせ、ＴＰを大回復する。タフガイスト自身に継続ダメージが付与されていない場合、さらに物理防御力、魔法防御力をバトル終了まで特大アップさせる。=Increases your own physical and magical attack power by a small amount until the end of the battle, and greatly recovers TP. If there is no continuous damage inflicted on the tough geist, it will increase your physical and magic defenses even further until the battle is over.
 ターゲットブレイク時、自身の物理攻撃力と魔法攻撃力が小ダウンする。=When a target breaks, its own physical attack power and magic attack power will decrease slightly.
+バトル開始時、すべてのキャラのＨＰ吸収を中ダウンさせる。=At the start of the battle, all characters' HP absorption will be decreased.
+
+
+
+ユニオンバーストは、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラのステータスアップ効果を解除した後、魔法特大ダメージを与え、ＴＰを特大ダウンさせ、呪詛を付与する。さらに飛行状態のキャラを含む呪詛状態が付与された敵全体のステータスアップ効果を解除した後、魔法特大ダメージを与える。このスキルの状態異常はダメージを無効化しても付与される。このスキルにより付与された呪詛のダメージでは、ＴＰが回復しない。=Union Burst removes the status-boosting effect of the enemy character with the highest physical or magical attack power, deals large magical damage, greatly reduces TP, and inflicts Curse. It also removes the status-boosting effect of all enemies with the Curse effect, including flying characters, and deals large magical damage. The abnormal status caused by this skill remains even if the damage is nullified. Curse damage inflicted by this skill does not restore TP.
+ユニオンバーストは、最も近い敵２キャラに物理大ダメージを与え、拘束状態を付与し、ＴＰを中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large physical damage to the two closest enemies, confines them, and moderately reduces their TP. The abnormal status caused by this skill will be applied even if the damage is nullified.
