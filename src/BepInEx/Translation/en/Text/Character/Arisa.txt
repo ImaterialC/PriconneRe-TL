@@ -43,7 +43,7 @@ r:"^自分のＴＰを(\d+)回復ユニオンバースト使用後、自分の�
 
 ##UB+##
 この矢に未来を乗せて！=I'll Place The Future On This Arrow!
-目の前の敵１キャラに物理特大ダメージを与える。このスキルを使用\nするたび、最大４回までダメージが増加する。=Deals massive damage to an enemy directly in front. Gain a damage boosting stack for each UB casted, up to 5.
+目の前の敵１キャラに物理特大ダメージを与える。このスキルを使用するたび、最大４回までダメージが増加する。=Deals massive damage to an enemy directly in front. Gain a damage boosting stack for each UB casted, up to 5.
 r:"^敵単体に(\d+)の物理ダメージ５回目以降の使用時、敵単体に(\d+)の物理ダメージ$"=For the 1st-4th UB:\n►Deals $1 P.DMG to an enemy.\n\nFor the 5th UB onwards:\n►Deals $2 P.DMG to an enemy.
 
 ##S1+##

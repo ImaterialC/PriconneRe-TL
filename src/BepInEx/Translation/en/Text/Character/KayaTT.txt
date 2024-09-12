@@ -11,6 +11,7 @@ r:"^敵単体に(\d+)の物理ダメージ自分の行動速度アップ自分�
 
 ##S2##
 アクセルリアクター=Accel Reactor
+自分の物理攻撃力を大アップさせる。さらに、自分が行動速度アップ状態の場合、ＴＰを中回復し、行動速度アップ状態でない場合、行動速度を特大アップさせる。=Greatly boosts own P.ATK. Additionally, if Kaya has action speed boost, she will recover own TP by a moderate amount, and if Kaya has no action speed boost, she will boost own action speed by a large amount.
 自分の物理攻撃力を特大アップさせる。さらに、自分が行動速度アップ状態の場合、ＴＰを中回復し、行動速度アップ状態でない場合、行動速度を特大アップさせる。=Massively boosts own P.ATK. Additionally, if Kaya has action speed boost, she will recover own TP by a moderate amount, and if Kaya has no action speed boost, she will boost own action speed by a large amount.
 r:"^自分の物理攻撃力を(\d+)アップ行動速度アップ状態の場合、自分のＴＰを(\d+)回復行動速度アップ状態でない場合、自分の行動速度アップ$"=►Boosts own P.ATK by $1 for 12s.\n►If own action speed > 100%, recovers own TP by $2.\n►If own action speed ≤ 100%, boosts own action speed to 250% for 12s.
 

@@ -6,7 +6,7 @@
 
 ##UB##
 クリミナルプリズン=Criminal Prison
-前から3番目の敵を中心に、範囲内の敵の魔法防御力を特大ダウン、ＴＰ上昇を小ダウンさせるフィールドを展開し、さらに行動速度を小ダウンさせる。=Massively lowers M.DEF of all enemies in a radius around the third enemy from the front, deploys a field that lowers TP Boost by a moderate amount, and reduces their action speed by a small amount.
+前から３番目の敵を中心に、範囲内の敵の魔法防御力を特大ダウン、ＴＰ上昇を小ダウンさせるフィールドを展開し、さらに行動速度を小ダウンさせる。=Massively lowers M.DEF of all enemies in a radius around the third enemy from the front, deploys a field that lowers TP Boost by a moderate amount, and reduces their action speed by a small amount.
 r:"^フィールド内の敵の魔法防御力(\d+)ダウンフィールド内の敵のＴＰ上昇(\d+)ダウン範囲内の敵の行動速度を一定時間低下させる$"=►Creates a Field (Radius 300) Around the 3rd nearest enemy for 16s.\n►Lowers enemies' M.DEF within field by $1.\n►Lowers TP Boost of enemies within field by $2.\n►Reduces action speed of enemies in range into 90% for 16s.
 
 ##S1##
@@ -17,7 +17,7 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間�
 ##S2##
 ミスリードバレット=Misdirection Bullet
 目の前の敵１キャラに魔法小ダメージを与え、さらに混乱させる。=Deals small M.DMG to an enemy directly in front and inflicts Confusion.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体を混乱させる$"=Cast time: 1.4s\n►Deals $1 M.DMG to an enemy.\n►Confuses an enemy for 7.5s.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を混乱させる$"=►Deals $1 M.DMG to an enemy.\n►Confuses an enemy for 7.5s.
 
 ##EX##
 ディテクティブマインド=Detective Mind

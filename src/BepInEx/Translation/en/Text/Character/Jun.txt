@@ -25,6 +25,7 @@ r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Deplo
 ##S1##
 ブレイブリカバリー=Inspiring Courage
 自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復する。=Recovers HP of the nearby ally with the lowest HP by a small amount.
+自分の周りの味方のうち、最もＨＰの割合が低い味方１キャラのＨＰを中回復する。=Recovers HP of the nearby ally with the lowest HP% by a small amount.
 r:"^味方単体のＨＰを(\d+)回復$"=►Recovers an ally's HP by $1.
 
 ##S2##
@@ -44,7 +45,7 @@ r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する物理攻�
 ブレイブリカバリー+=Inspiring Courage+
 自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a moderate amount. Large boost to the ally's P.ATK and small boost to their action speed.
 自分の周りの味方のうち、最もＨＰの割合が低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a large amount. Large boost to the ally's P.ATK and small boost to their action speed.
-r:"^味方単体のＨＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ味方単体の行動速度アップ$"=Cast time:0.475s\n►Recovers an ally's HP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.\n►Boosts an ally's action speed into 120% for 12s.
+r:"^味方単体のＨＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ味方単体の行動速度アップ$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.\n►Boosts an ally's action speed into 120% for 12s.
 
 ##UE##
 シュバリエメイル=Chevalier Mail

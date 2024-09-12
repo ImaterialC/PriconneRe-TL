@@ -26,6 +26,10 @@ r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰを(\d+)回復$"=►
 ダンスウィズミー=Dance with Me
 味方全体の物理攻撃力を大アップさせる。自分の物理攻撃力が高い程、攻撃力の上昇量がアップする。=Greatly boosts all allies' P.ATK. The higher own P.ATK, the more P.ATK boost is.
 
+##SP3##
+メタモルフォーゼ=Metamorphosis
+自分を変身させる。=Transforms herself.
+
 ##EX##
 夢への階段=Stairway to Dreams
 夢への階段+=Stairway to Dreams+

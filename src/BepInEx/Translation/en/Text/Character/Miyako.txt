@@ -11,8 +11,11 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復$"=►Dea
 
 ##S1##
 う～ら～め～し～や～なの=I~ Will~ Haunt~ You~
-【変身】幽霊に変身し、しばらくの間無敵状態になる。=Cast time: 0s\n[Transform] Transforms into a ghost, becoming invincible for a short time.
+【変身】幽霊に変身し、しばらくの間無敵状態になる。=[Transform] Transforms into a ghost, becoming invincible for a short time.
 r:"^一定時間無敵状態になる$"=►Becomes immune to all damage for 3+(0.01Lv)s.
+## 260lvl
+【変身】幽霊に変身し、しばらくの間無敵状態になり、自分の物理防御力を小アップさせる。=[Transform] Transforms into a ghost, becoming invincible for a short time. Also slight boost to own P.DEF.
+r:"^一定時間無敵状態になる自分の物理防御力を(\d+)アップ$"=►Becomes immune to all damage for 3+(0.01Lv)s.\n►Boosts own P.DEF by $1 for 12s.
 
 ##S2##
 おやつの時間なの=Snack Time!
@@ -31,7 +34,7 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復自分の
 ##S1+##
 う～ら～め～し～や～なの+=I~ Will~ Haunt~ You~+
 【変身】幽霊に変身し、しばらくの間無敵状態になる。また、自分の回避を中アップさせ、さらに物理防御力を大アップさせる。=[Transform] Transforms into a ghost, becoming invincible for a short time. Additionally, moderate boost to own Dodge and large boost to own P.DEF.
-r:"^一定時間無敵状態になる自分の回避を(\d+)アップ自分の物理防御力を(\d+)アップ$"=Cast time: 0s\n►Becomes immune to all damage for 3+(0.01Lv)s.\n►Boosts own dodge by $1 for 12s.\n►Boosts own P.DEF by $2 for 12s.
+r:"^一定時間無敵状態になる自分の回避を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Becomes immune to all damage for 3+(0.01Lv)s.\n►Boosts own dodge by $1 for 12s.\n►Boosts own P.DEF by $2 for 12s.
 
 ##UE##
 霊甘ゴーストプリン=Spirit's Delight Pudding

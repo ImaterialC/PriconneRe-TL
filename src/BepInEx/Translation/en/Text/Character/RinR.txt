@@ -7,7 +7,7 @@
 
 ##S1##
 ナッツブレイカー=Nut Breaker
-目の前の最大３キャラまでの敵に魔法小ダメージを与える。このダメージは、遠い敵ほど増加する。=Deals small M.DMG to up to three enemies directly in front. This damage increases the more distant the enemy.
+前方範囲内の敵に物理中ダメージを与え、物理防御力を中ダウンさせるが、自分の行動速度を特大ダウンさせる。=Deals moderate P.DMG to enemies in front range, moderately lowers their P.DEF, but reduces own action speed by a large amount.
 
 ##S2##
 ナッツスラッシュ=Nut Slash

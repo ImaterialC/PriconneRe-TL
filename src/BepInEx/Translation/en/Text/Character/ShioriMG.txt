@@ -7,7 +7,7 @@
 
 ##S1##
 ピュアリーエイミング=Purely Aiming
-自分を中心とした範囲内の味方の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。=Moderate boost to P.ATK and P.CRIT Rate of all nearby allies.
+自分を中心とした範囲内の味方の物理攻撃力と物理クリティカルを中アップさせる。=Moderate boost to P.ATK and P.CRIT Rate of all nearby allies.
 
 ##S2##
 ピュアリースナイプ=Purely Snipe
@@ -20,7 +20,7 @@
 ##S1+##
 ピュアリーエイミング+=Purely Aiming+
 自分を中心とした範囲内の味方の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。=Massive boost to P.ATK and moderate boost to P.CRIT Rate of all nearby allies. Also, slightly boosts allies' P.CRIT DMG.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを(\d+)％アップ$"=►Boosts allies' P.ATK by $1 for 18s.\n►Boosts allies' P.CRIT Rate by $2 for 18s.\n►Boosts allies' P.CRIT DMG by $3 for 18s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを(\d+)％アップ$"=►Boosts allies' P.ATK by $1 for 18s.\n►Boosts allies' P.CRIT Rate by $2 for 18s.\n►Boosts allies' P.CRIT DMG by $3% for 18s.
 
 ##UE##
 マジカルピュアリーボウ=Magical Purely Bow

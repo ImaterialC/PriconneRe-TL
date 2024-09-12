@@ -8,6 +8,7 @@ r:"^敵単体に(\d+)の魔法ダメージ残りの攻撃対象が１つの場�
 
 ##S1##
 羅刹涅槃・海獄泉=Demonic Salvation: Sea Prison
+目の前の敵１キャラに魔法中ダメージを与え、さらに魔法防御力を中ダウンさせる。=Deals moderate M.DMG to an enemy in front and moderately lowers its M.DEF.
 
 ##S2##
 夏極・吸冥姫=Kakyoku: Suimeiki

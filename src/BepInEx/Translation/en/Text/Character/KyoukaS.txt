@@ -9,11 +9,11 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ
 ##S1##
 アクアクレスト=Aqua Crest
 ランダムな敵キャラに、単体魔法小ダメージと魔法防御力小ダウンを計２回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Deals small M.DMG to an enemy and slightly lowers its M.DEF twice. The M.DMG increases according to number of [Butterfly Seal] on enemy.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.59s\n►Deals $1 M.DMG to a random enemy.\n►Deals $2 M.DMG to a random.\n►Lowers a random enemy's M.DEF by $3 for 12s.\n►Lowers a random enemy's M.DEF by $4 for 12s.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to a random enemy.\n►Deals $2 M.DMG to a random.\n►Lowers a random enemy's M.DEF by $3 for 12s.\n►Lowers a random enemy's M.DEF by $4 for 12s.
 
 ##S2##
 アクアウィング=Aqua Wing
-ランダムな敵キャラに、単体魔法小ダメージを計３回与える。このスキルのダメージは対象の【バタフライ\nシール】の数に応じて増加する。=Deals small M.DMG to a random enemy 3 times. The M.DMG increases according to number of [Butterfly Seal] on enemy.
+ランダムな敵キャラに、単体魔法小ダメージを計３回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Deals small M.DMG to a random enemy 3 times. The M.DMG increases according to number of [Butterfly Seal] on enemy.
 
 ##SP1##
 サマーブースト=Summer Boost
@@ -28,7 +28,7 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ
 ##S1+##
 アクアクレスト+=Aqua Crest+
 ランダムな敵キャラに、単体魔法小ダメージと魔法防御力小ダウンを計２回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。さらに自分の魔法攻撃力を大アップさせる。=Deals small M.DMG to an enemy and slightly lowers its M.DEF twice. The M.DMG increases according to number of [Butterfly Seal] on enemy. Additionally, greatly boosts own M.ATK.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ$"=Cast time: 0.59s\n►Deals $1 M.DMG to a random enemy.\n►Deals $2 M.DMG to a random enemy.\n►Lowers a random enemy's M.DEF by $3 for 12s.\n►Lowers a random enemy's M.DEF by $4 for 12s.\n►Boosts own M.ATK by $5 for 180s.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to a random enemy.\n►Deals $2 M.DMG to a random enemy.\n►Lowers a random enemy's M.DEF by $3 for 12s.\n►Lowers a random enemy's M.DEF by $4 for 12s.\n►Boosts own M.ATK by $5 for 180s.
 
 ##UE##
 サマーメモリーロッド=Summer Memory Rod

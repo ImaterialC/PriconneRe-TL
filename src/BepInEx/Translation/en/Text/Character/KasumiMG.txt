@@ -9,7 +9,9 @@ r:"^敵全体に(\d+)の魔法ダメージ敵全体のＴＰを(\d+)失わせる
 ##S1##
 マジカルハレーション=Magical Halation
 最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. (Enemies at maximum TP are excluded.)
-r:"^敵単体のＴＰを(\d+)失わせる$"=Cast time: 1.27s\n►Reduces an enemy's TP by $1.
+r:"^敵単体のＴＰを(\d+)失わせる$"=►Reduces an enemy's TP by $1.
+## 260lvl
+最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理・魔法攻撃力を短時間小ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. Also lowers its P.ATK and M.ATK. (Enemies at maximum TP are excluded.)
 
 ##S2##
 ミスティラッピング=Misty Wrapping
@@ -23,14 +25,9 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間�
 
 ##S1+##
 マジカルハレーション+=Magical Halation+
-最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理・魔法攻撃力と物理・魔法クリティカルを短時間大ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. Also lowering their P.ATK, M.ATK, P.CRIT and M.CRIT. (Enemies at maximum TP are excluded.)
-最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理・魔法攻撃力を短時間特大ダウンさせ、物理・魔法クリティカルを短時間大ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. Also lowering their P.ATK, M.ATK, P.CRIT Rate and M.CRIT Rate. (Enemies at maximum TP are excluded.)
-r:"^敵単体のＴＰを(\d+)失わせる敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理クリティカルを(\d+)ダウン敵単体の魔法クリティカルを(\d+)ダウン$"=Cast time: 1.27s\n►Reduces an enemy's TP by $1.\n►Lowers an enemy's P.ATK by $2.\n►Lowers an enemy's M.ATK by $3.\n►Lowers an enemy's P.CRIT Rate by $4.\n►Lowers an enemy's M.CRIT Rate by $5.
+最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理・魔法攻撃力と物理・魔法クリティカルを短時間大ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. Also lowers its P.ATK, M.ATK, P.CRIT and M.CRIT. (Enemies at maximum TP are excluded.)
+最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理・魔法攻撃力を短時間特大ダウンさせ、物理・魔法クリティカルを短時間大ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Reduces the TP of the enemy with the highest TP by a moderate amount. Also lowers its P.ATK, M.ATK, P.CRIT Rate and M.CRIT Rate. (Enemies at maximum TP are excluded.)
+r:"^敵単体のＴＰを(\d+)失わせる敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理クリティカルを(\d+)ダウン敵単体の魔法クリティカルを(\d+)ダウン$"=►Reduces an enemy's TP by $1.\n►Lowers an enemy's P.ATK by $2.\n►Lowers an enemy's M.ATK by $3.\n►Lowers an enemy's P.CRIT Rate by $4.\n►Lowers an enemy's M.CRIT Rate by $5.
 
 ##UE##
 マジカルミスティロッド=Magical Misty Rod
-
-
-魔法クリティカルを短時間大ダウンさせる。ＴＰが最大値に達しているキャラを除く。=P.CRIT and M.CRIT. (Enemies at maximum TP are excluded.)
-魔法攻撃力と物理=Also lowering their P.ATK, M.ATK
-最もＴＰが多い敵１キャラのＴＰを中ダウンさせる。さらに物理=Reduces the TP of the enemy with the highest TP by a moderate amount.

@@ -18,7 +18,7 @@ r:"^敵全体に(\d+)の魔法ダメージ敵全体を誘惑する$"=►Deals $1
 ランダムな敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Reduces the TP of one random enemy by a small amount while also recovering own TP by a small amount.
 r:"^敵単体のＴＰを(\d+)失わせる自分のＴＰを(\d+)回復$"=►Reduces an enemy's TP by $1.\n►Recovers own TP by $2.
 ## 260lvl
-ランダムな敵１キャラのＴＰを小ダ\nウンさせ、物理攻撃力と魔法攻撃力\nを小ダウンさせる。さらに自分のＴ\nＰを小回復する。=Reduces the TP, P.ATK and M.ATK of one random enemy by a small amount while also recovering own TP by a small amount.
+ランダムな敵１キャラのＴＰを小ダウンさせ、物理攻撃力と魔法攻撃力を小ダウンさせる。さらに自分のＴＰを小回復する。=Reduces the TP, P.ATK and M.ATK of one random enemy by a small amount while also recovering own TP by a small amount.
 r:"^敵単体のＴＰを(\d+)失わせる敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン自分のＴＰを(\d+)回復$"=Cast time: 1.33s\n►Reduces an enemy's TP by $1.\n►Lowers an enemy's P.ATK by $2.\n►Lowers an enemy's M.ATK by $3.\n►Recovers own TP by $4.
 
 ##EX##

@@ -160,6 +160,7 @@ r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\]([0-9,]+)\[-\]\[3C404E\]/([0
 
 現在マイルガチャが開いています。\nダイスまたは料理を使用した後は利用できません。\n\nよろしいですか？=The Mile Gacha is currently open.\nYou cannot use it after using your dice or eating food.\n\nIs this OK?
 
+バンディ・シスターズに差をつけて先に\nチェックポイントへ到達するとボーナスが獲得できます!=Get ahead of the Bandy Sisters\nand reach the checkpoint first to receive a bonus!
 ---New Season---
 
 r:"^\[FF7C4E,D62146\]このコインの使用期限は([0-9/ :]+)までです。\[-\]$"=[FF7C4E,D62146]This coin can be used until $1.[-]

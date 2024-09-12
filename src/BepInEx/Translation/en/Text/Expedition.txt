@@ -27,7 +27,9 @@ r:"^本日の回復可能回数 (\d+)/(\d+)回$"=Recharges left today: $1/$2
 専用装備の作成に必要な\nアイテムを獲得できますよ\nたくさん集めてどんどん\n強くなりましょう！=If we collect enough items here, we might be able to make some Unique Equipment! This is our chance to get even stronger!
 
 専用装備が欲しいなら\nこのクエストに挑戦するといいわ\n集めた素材でもっともっと\n強くなりましょう=If you want some Unique Equipments, try to take on this quest. The collected materials will allow us to become even stronger.
-こちらでは「プリンセスハート（欠片）」を手に入れられます。\nたくさん集めると、キャラ専用装備を作るのに必要な\n「プリンセスハート」を作成することができますよ。=Princess Heart Pieces can be obtained here. \nCollect enough of them and they will form a Princess Heart, which can be used to craft our Unique Equipment.
+こちらでは「プリンセスハート（欠片）」を手に入れられます。\nたくさん集めると、専用装備1を作るのに必要な\n「プリンセスハート」を作成することができますよ。=Princess Heart Pieces can be obtained here. \nCollect enough of them and they will form a Princess Heart, which can be used to craft our Unique Equipment-1.
+
+
 ---orbs---
 ここにさらなる力を得るための\nアイテムが眠っているみたい\nです！　どこから挑戦するか\n迷っちゃいますね！=It seems that the items lying here can grant us extra power! I don't even know where to start!
 

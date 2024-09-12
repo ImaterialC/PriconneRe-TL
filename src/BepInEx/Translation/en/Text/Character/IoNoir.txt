@@ -9,12 +9,15 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ味方全体のＨＰを(\d+)回
 ##S1##
 ロマンティックハート=Romantic Heart
 前方の敵の中で最も魔法攻撃力が高い敵１キャラに魔法小ダメージを与え、さらに誘惑状態にする。=Deals small M.DMG to an enemy with highest M.ATK, and inflicts Charm to them for 5s.
-r:"^敵単体のＴＰを(\d+)失わせる味方単体のＴＰを(\d+)回復$"=Cast time: 1.0s\n►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.
+r:"^敵単体のＴＰを(\d+)失わせる味方単体のＴＰを(\d+)回復$"=►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.
 
 ##S2##
 マジックラブビーム=Magic Love Beam
+前方の敵の中で最も魔法攻撃力が高い敵１キャラのＴＰを中ダウンさせ、最も魔法攻撃力が高い味方１キャラのＴＰを中回復する。=Moderately reduces an enemy's TP with the highest M.ATK. Also, moderately recovers an ally's TP with the highest M.ATK.
+r:"^敵単体のＴＰを(\d+)失わせる味方単体のＴＰを(\d+)回復$"=►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.
+## 260lvl
 前方の敵の中で最も魔法攻撃力が高い敵１キャラのＴＰを中ダウンさせ、最も魔法攻撃力が高い味方１キャラのＴＰを中回復し、魔法攻撃力を小アップさせる。=Moderately reduces an enemy's TP with the highest M.ATK. Also, moderately recovers an ally's TP with the highest M.ATK and slightly boosts its M.ATK.
-r:"^敵単体のＴＰを(\d+)失わせる味方単体のＴＰを(\d+)回復味方単体の魔法攻撃力を(\d+)アップ$"=Cast time: 1.0s\n►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.\n►Boosts an ally's M.ATK by $3.
+r:"^敵単体のＴＰを(\d+)失わせる味方単体のＴＰを(\d+)回復味方単体の魔法攻撃力を(\d+)アップ$"=►Reduces an enemy's TP by $1.\n►Recovers an ally's TP by $2.\n►Boosts an ally's M.ATK by $3.
 
 ##EX##
 シークレットエトセトララブ=Secret Et Cetera Love

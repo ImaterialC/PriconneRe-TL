@@ -26,6 +26,7 @@ r:"^(\d+)ダメージ分の魔法無効バリアを展開する$"=►Deploys Bar
 
 ##S1##
 アクアヴィット=Aqua Vitae
+最もＨＰの割合が低い味方１キャラのＨＰを中回復させる。=Recovers the HP of the party member with the lowest HP% by a moderate amount.
 
 ##S2##
 ムーンライト=Moonlight
@@ -46,7 +47,7 @@ r:"^(\d+)ダメージ分の魔法無効バリアを展開する味方全体の�
 
 ##S1+##
 アクアヴィット+=Aqua Vitae+
-最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount, boosts their M.DEF by a moderate amount, and grants HP Regen.
+最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP% by a large amount, boosts their M.DEF by a moderate amount, and grants HP Regen.
 最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount, boosts their M.DEF by a moderate amount, and grants HP Regen.
 r:"^味方単体のＨＰを(\d+)回復味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's M.DEF by $2 for 12s.\n►Recovers HP by $3/s for 8.5s.
 

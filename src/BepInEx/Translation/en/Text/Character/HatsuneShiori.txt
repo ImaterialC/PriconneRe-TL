@@ -28,6 +28,7 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の�
 
 ##S1+##
 スターライトシュート+=Starlight Shoot+
+前方の敵すべてに物理中ダメージと物理小ダメージを与え、さらに自分のＴＰを中回復する。範囲内の敵の数に応じて、ダメージとＴＰの回復量が増加する。=Deals moderate P.DMG to all enemies twice, and moderately recovers own TP. The P.DMG dealt and TP recovery increase according to number of enemies.
 前方の敵すべてに物理中ダメージを２回与え、さらに自分のＴＰを中回復する。範囲内の敵の数に応じて、ダメージとＴＰの回復量が増加する。=Deals moderate P.DMG to all enemies twice, and moderately recovers own TP. The P.DMG dealt and TP recovery increase according to number of enemies.
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 (+0.3×$1×Enemy Count) P.DMG to all enemies.\n►Deals $2 (+0.15×$2×Enemy Count) P.DMG to all enemies.\n►Recovers own TP by $3 (+25×Enemy Count).
 

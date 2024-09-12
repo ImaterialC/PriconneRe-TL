@@ -21,6 +21,7 @@
 ##UB##
 スイートデビルエール=Little Devil's Cheer
 味方全体の魔法攻撃力を小アップさせ、さらに次の攻撃のダメージ量に応じて追加でＨＰを回復させる。=Small boost to allies' M.ATK and recovers their HP based on the damage dealt by their next attack.
+味方全体の魔法攻撃力を中アップさせ、さらに次の攻撃のダメージ量に応じて追加でＨＰを回復させる。=Moderate boost to allies' M.ATK and recovers their HP based on the damage dealt by their next attack.
 r:"^味方全体の魔法攻撃力を(\d+)アップ$"=►Boosts all allies' M.ATK by $1.
 
 ##S1##
@@ -40,7 +41,7 @@ r:"^敵単体の魔法防御力を(\d+)ダウン$"=►Lowers an enemy's M.DEF by
 
 ##UB+##
 メルティデビルチャーム=Melty Devil Charm
-味方全体の魔法攻撃力を特大アップさせ、魔法クリティカルを大アップさせ、次の攻撃のダメージ量に応じ\nて追加でＨＰを回復させる。さらに敵全体の魔法防御力を小ダウンさせる。=Moderate boost to allies' M.ATK and large boost to allies' M.CRIT Rate. Heals all allies based on the damage of their next attack. Lowers M.DEF of all enemies by a small amount.
+味方全体の魔法攻撃力を特大アップさせ、魔法クリティカルを大アップさせ、次の攻撃のダメージ量に応じて追加でＨＰを回復させる。さらに敵全体の魔法防御力を小ダウンさせる。=Moderate boost to allies' M.ATK and large boost to allies' M.CRIT Rate. Heals all allies based on the damage of their next attack. Lowers M.DEF of all enemies by a small amount.
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ敵全体の魔法防御力を(\d+)ダウン$"=►Grants lifesteal to allies' next attack.\n►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.CRIT Rate by $2 for 18s.\n►Lowers all enemy's M.DEF by $3 for 18s.
 
 ##S1+##

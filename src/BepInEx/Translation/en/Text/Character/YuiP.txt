@@ -12,13 +12,13 @@
 
 ##S1##
 トゥインクルブースト=Twinkle Boost
-自分のＴＰを中回復し、さらに自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。
-自分のＴＰを中回復し、さらに自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。=Moderately recovers own TP, and also slightly boosts own M.ATK, M.CRIT, and M.CRIT DMG.
+自分のＴＰを中回復し、さらに自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。=Moderately recovers own TP, and also slightly boosts own M.ATK, M.CRIT Rate, and M.CRIT DMG.
+自分のＴＰを中回復し、さらに自分の魔法攻撃力を中アップ、魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。=Moderately recovers own TP, moderately boosts own M.ATK, and also slightly boosts own M.CRIT Rate and M.CRIT DMG.
 
 ##S2##
 レイディアントショット=Radiant Shot
 前から２番目の敵を中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに魔法攻撃を行うすべての味方キャラの魔法攻撃力を小アップさせる。=Deals moderate M.DMG to enemies in range around 2nd nearest enemy, and also slightly boosts all M-type allies' M.ATK.
-r:"^範囲内の敵に(\d+)の魔法ダメージ対象の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 0.59s\n►Deals $1 M.DMG to enemies in 400 range.\n►Boosts all M-type allies' M.ATK by $2 for 180s.
+r:"^範囲内の敵に(\d+)の魔法ダメージ対象の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to enemies in 400 range.\n►Boosts all M-type allies' M.ATK by $2 for 180s.
 
 ##EX##
 ディアレストメモリー=Dearest Memory
@@ -28,7 +28,7 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ対象の味方の魔法攻撃�
 トゥインクルブースト+=Twinkle Boost+
 自分のＴＰを中回復し、さらに自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力アップと魔法攻撃クリティカル時のダメージアップの上昇量は、このスキルを使用するたび、最大５回まで増加する。=Help.
 自分のＴＰを中回復し、さらに自分の魔法攻撃力を中アップ、魔法クリティカルと魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力アップと魔法攻撃クリティカル時のダメージアップの上昇量は、このスキルを使用するたび、最大５回まで増加する。=Moderately recovers own TP, and also slightly boosts own M.ATK, M.CRIT, and M.CRIT DMG. The M.ATK boost and M.CRIT DMG boost increase according to number of this skill usage, up to 5 times.
-r:"^自分のＴＰを(\d+)回復自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを25アップ自分の魔法攻撃クリティカル時のダメージを5％アップ$"=Cast time: 0.59s\n►Recovers own TP by $1.\n►Boosts own M.ATK by $2 (+0.25× \n$2×Skill Count) for 180s.\n►Boosts own M.CRIT Rate by 25 for 180s.\n►Boosts own M.CRIT DMG by 5% (+1%×Skill Count) for 180s.
+r:"^自分のＴＰを(\d+)回復自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを25アップ自分の魔法攻撃クリティカル時のダメージを5％アップ$"=►Recovers own TP by $1.\n►Boosts own M.ATK by $2 (+0.25× \n$2×Skill Count) for 180s.\n►Boosts own M.CRIT Rate by 25 for 180s.\n►Boosts own M.CRIT DMG by 5% (+1%×Skill Count) for 180s.
 
 ##UE##
 ウィッシュプリンセスローブ=Wish Princess Robe

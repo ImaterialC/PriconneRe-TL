@@ -45,7 +45,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ
 
 ##S2+##
 カリスマオーラ♪+=Charisma Aura ♪+
-自分の物理攻撃力を特大アップ、\n物理攻撃クリティカル時のダメー\nジを小アップし、ＴＰを中回復す\nる。=Boosts own P.ATK and P.CRIT DMG. Recovers own TP.
+自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップし、ＴＰを中回復する。=Boosts own P.ATK and P.CRIT DMG. Recovers own TP.
 r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを15％アップ自分のＴＰを150回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 15%.\n►Boosts own TP by 150.
 
 ##UE##

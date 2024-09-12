@@ -29,6 +29,7 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御�
 ##S1##
 マホマホヒール=Maho-Maho Healing
 ＨＰが１番低い味方１キャラのＨＰを中回復する。=Recovers the HP of the party member with the lowest HP by a moderate amount.
+最もＨＰの割合が低い味方１キャラのＨＰを中回復する。=Recovers the HP of the party member with the lowest HP% by a moderate amount.
 
 ##S2##
 マホマホダークネス=Maho-Maho Darkness
@@ -53,7 +54,7 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリ�
 
 ##S1+##
 マホマホヒール+=Maho-Maho Healing+
-最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP Regen state is given.
+最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP% by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP Regen state is given.
 最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP Regen state is given.
 r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2.\n►Recovers HP by $3/s.
 

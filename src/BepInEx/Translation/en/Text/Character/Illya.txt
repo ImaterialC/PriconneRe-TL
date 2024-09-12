@@ -16,7 +16,7 @@
 
 ##UB##
 ヴァーミリオンバイト=Vermilion Bite
-最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージ\nを与え、さらに自分のＨＰを中回復させる。=Deals large M.DMG to all enemies in range and recovers own HP by moderate amount.
+最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、さらに自分のＨＰを中回復させる。=Deals large M.DMG to all enemies in range and recovers own HP by moderate amount.
 r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復$"=►Shifts to the nearest enemy target and returns to original position after skill ends.\n►Deals $1 M.DMG to enemies in 250 range.\n►Recovers own HP by $2.
 
 ##S1##

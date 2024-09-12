@@ -23,12 +23,13 @@ r:"^範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Boosts allies' M.
 ##S1+##
 レディマジック+=Lady's Charm+
 目の前の敵１キャラに魔法中ダメージを与え、ＴＰを小ダウンさせ、さらに誘惑状態にする。=Deals medium M.DMG to the enemy character in front and slightly reduces their TP. Additionally, inflicts them with the Charm status.
+目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、さらに誘惑状態にする。=Deals large M.DMG to the enemy character in front and slightly reduces their TP. Additionally, inflicts them with the Charm status.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体を誘惑する敵単体のＴＰを(\d+)失わせる$"=►Deals $1 M.DMG to an enemy.\n►Inflicts Charm to an enemy.\n►Reduces an enemy's TP by $2.
 
 ##S2+##
 ハロウィンブースト+=Halloween Hype+
 自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップ、魔法防御力を大アップさせ、魔法無効バリアを展開する。=Greatly increases the magic attack of all allies within the area centered around herself, greatly boosts their magic defense, and deploys a magic null barrier.
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 1.19s\n►Boosts allies' M.ATK in 400 range by $1 for 12s.\n►Boosts allies' M.DEF in 400 range by $2 for 12s.\n►Deploys Barrier over friends in 400 range that negates $3 M.DMG for 12s.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts allies' M.ATK in 400 range by $1 for 12s.\n►Boosts allies' M.DEF in 400 range by $2 for 12s.\n►Deploys Barrier over friends in 400 range that negates $3 M.DMG for 12s.
 
 ##UE##
 魔箒ハロウィン・アイ=Eye of the Hallows' Eve

@@ -15,6 +15,8 @@ r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える火
 ##S2##
 ドラゴンファイア=Dragon Fire
 前方範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to enemies in range.
+## Blame Cygames for invisible space symbol
+前方範囲内の敵すべてに物理中ダメージを与える。 =Deals moderate P.DMG to enemies in range.
 
 ##EX##
 やってやるですよ=I'll Do It

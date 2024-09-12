@@ -27,7 +27,7 @@ r:"^敵全体の物理攻撃力を(\d+)ダウン敵全体の魔法攻撃力を(\
 
 ##SP1##
 フラワートリック=Flower Trick
-このスキルのスキルレベルは「ヴィヴィッ\nド・ヴィジランス」と連動しています=This skill’s level is linked to "Vivid Vigilance"
+このスキルのスキルレベルは「ヴィヴィッド・ヴィジランス」と連動しています=This skill’s level is linked to "Vivid Vigilance"
 自分の行動速度を大アップさせ、空蝉状態になり、ＴＰを小回復する。空蝉状態は受けるダメージを１回無効化し、その後解除される。（このスキルの効果は他の行動速度変化スキルと重複する）=Greatly boosts own action speed, gains [Cicada] status, and slightly recovers own TP. When [Cicada] status is active, the next instance of damage received will be nullified and the status will be removed after. (The action speed boost from this skill stacks with other action speed boosts)
 自分の行動速度アップ自分を空蝉状態にする自分のＴＰを75回復=►Boosts own action speed by 50% for 12s.\n►Gains [Cicada] status.\n►Restores own TP by 75.
 

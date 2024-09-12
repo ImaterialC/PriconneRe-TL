@@ -18,8 +18,8 @@ r:"^範囲内の味方の魔法攻撃力を(\d+)アップ毎秒ＴＰを10回復
 
 ##SP1##
 ジェット・バレット=Jet Bullet
-このスキルのスキルレベルは「ジェット★バ\nケーション」と連動しています=This skill's level is linked to Jet★Vacation
-自分に【PSI★ストーム】を４つチャージし、行動パターンが変化する。【PSI★ストーム】は最大４ま\nでチャージされる。=Charges up 4 [PSI★Storm], up to a max of 4. Resets own attack pattern.
+このスキルのスキルレベルは「ジェット★バケーション」と連動しています=This skill's level is linked to Jet★Vacation
+自分に【PSI★ストーム】を４つチャージし、行動パターンが変化する。【PSI★ストーム】は最大４までチャージされる。=Charges up 4 [PSI★Storm], up to a max of 4. Resets own attack pattern.
 PSI★ストームを４つチャージする=►Charges up 4 [PSI★Storm].\n►Switches to Attack Pattern 2.
 
 ##EX##

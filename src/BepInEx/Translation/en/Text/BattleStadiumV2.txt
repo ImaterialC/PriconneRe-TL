@@ -57,7 +57,25 @@ r:"^(\[[0-9A-F]{6}\])?★を累計(\d+)個獲得しよう(\[-\])?$"="$1Collect s
 
 r:"^([0-9/]+)\n([0-9:]+) 解放$"=Unlock on\n$1 $2 (JST).
 r:"^([0-9/ :]+)に解放されます。$"=Unlock on $1 (JST).
-
+バトルスタジアムではオートのみになります。=In the Battle Stadium, only auto is available.
+火傷確定付与=Guaranteed Burn Inflict
+毒/猛毒確定付与=Guaranteed Poison/Venom Inflict
+呪い/呪詛確定付与=Guaranteed Curse/Hex Inflict
+スタン確定付与=Guaranteed Stun Inflict
+束縛確定付与=Guaranteed Binding Inflict
+麻痺確定付与=Guaranteed Paralysis Inflict
+混乱確定付与=Guaranteed Confusion Inflict
+誘惑確定付与=Guaranteed Charm Inflict
+凍結確定付与=Guaranteed Freeze Inflict
+バトル中、「スタン」を必ず付与できる状態になる。=During battle, you will be able to inflict the "Stun" effect.
+バトル中、「束縛」を必ず付与できる状態になる。=During battle, you will be able to inflict the "Bind" effect.
+バトル中、「麻痺」を必ず付与できる状態になる。=During battle, you will be able to inflict the "Paralysis" effect.
+バトル中、「混乱」を必ず付与できる状態になる。=During battle, you will be able to inflict the "Confusion" effect.
+バトル中、「誘惑」を必ず付与できる状態になる。=During battle, you will be able to inflict the "Charm" effect.
+バトル中、「火傷」を必ず付与できる状態になる。=During battle, you will be able to inflict the "Burn" effect.
+バトル中、「毒」「猛毒」を必ず付与できる状態になる。=During battle, you will be able to inflict the "Poison/Venom" effect.
+バトル中、「呪い」「呪詛」を必ず付与できる状態になる。=During battle, you will be able to inflict the "Curse/Hex" effect.
+バトル中、「凍結」を必ず付与できる状態になる。=During battle, you will be able to inflict the "凍結" effect.
 ---Kokkoro Tutorial---
 バトルスタジアムでは、ラウンドごとに特定のスキルやステータスが\n強化されるバトル効果が発生するようです。\nバトルには何度も挑戦可能ですので、編成を工夫して挑みましょう。=In the Battle Stadium, it seems that battle effects occur that strengthen certain skills and stats every round. You can challenge the battle multiple times, so try to devise your team formation and challenge it.
 挑戦目標を達成することで★を獲得できますよ。\nより多くの★を集めてミッション報酬の獲得を目指しましょう。=You can earn stars★ by achieving the challenge goals. Collect more stars to earn mission rewards.

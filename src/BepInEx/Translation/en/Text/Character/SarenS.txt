@@ -8,6 +8,7 @@
 ##S1##
 スプラッシュトワリング=Twilight Splash
 味方全体のＴＰを大回復させ。=Recovers all allies' TP by a large amount.
+味方全体のＴＰを大回復させる。=Recovers all allies' TP by a large amount.
 味方全体のＴＰを大回復させ、さらに物理攻撃力と魔法攻撃力を小アップさせる。=Recovers all allies' TP by a large amount and slightly boosts their P.ATK and M.ATK.
 r:"^味方全体のＴＰを(\d+)回復$"=►Recovers all allies' TP by $1.
 

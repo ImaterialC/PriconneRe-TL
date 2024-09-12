@@ -18,11 +18,14 @@
 ナンバーズアヴァロン=Numbers Avalon
 目の前の敵１キャラに物理大ダメージを与え、さらに自分は一定時間全ての物理攻撃を回避する。この攻撃は必ず命中し、クリティカルする。=Deals large P.DMG to an enemy in front and dodges all P.ATKs for set period of time. This attack cannot miss, and is always a critical hit.
 r:"^敵単体に(\d+)の物理ダメージ一定時間全ての物理攻撃を回避する$"=►Deals unavoidable $1 P.DMG to an enemy.\n►Dodges all P.ATKs for 3(+0.01×Lv)s.
+## 260lvl
+目の前の敵１キャラに物理大ダメージを与え、自分の物理攻撃力を小アップする。さらに自分は一定時間全ての物理攻撃を回避する。この攻撃は必ず命中し、クリティカルする。=Deals large P.DMG to an enemy in front and dodges all P.ATKs for set period of time. This attack cannot miss, and is always a critical hit. Also slightly boosts own P.ATK.
+r:"^敵単体に(\d+)の物理ダメージ一定時間全ての物理攻撃を回避する自分の物理攻撃力を{0}アップ$"=►Deals unavoidable $1 P.DMG to an enemy.\n►Dodges all P.ATKs for 3(+0.01×Lv)s.\n►Boosts own P.ATK by $2 for 18s.
 
 ##S1##
 オーバーレイ=Overlay
 自分の物理攻撃力を中アップさせ、さらにＴＰ上昇を小アップさせる。=Moderate boost to own physical attack and small boost to own TP Boost.
-r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=Cast time: 0.75s\n►Boosts own P.ATK by $1.\n►Boosts own TP Boost by $2.
+r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=►Boosts own P.ATK by $1.\n►Boosts own TP Boost by $2.
 
 ##S2##
 インジェクション=Injection
@@ -39,12 +42,12 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダ
 r:"^敵単体に物理防御力を(\d+)無視する(\d+)の物理ダメージ敵単体に物理防御力を(\d+)無視する(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン一定時間全ての物理攻撃を回避する$"=►Deals unavoidable $2 P.DMG to an enemy, ignoring $1 of their P.DEF.\n►Deals unavoidable $4 P.DMG to an enemy, ignoring $3 of their P.DEF.\n►Lowers an enemy's P.DEF by $5 for 18s.\n►Dodges all P.ATKs for 3(+0.01×Lv)s.
 ## 260lvl
 目の前の敵１キャラに物理防御力を一定値無視する物理大ダメージを２回与え、物理防御力を小ダウンさせる。さらに自分の物理攻撃力を小アップし、一定時間全ての物理攻撃を回避する。この攻撃は必ず命中し、クリティカルする。=Deals two massive P.DMG hits to the enemy in front, ignoring a certain amount of their P.DEF and slightly lowering their P.DEF. Boosts own P.ATK by small amount. The user also gains P.ATK evasion for a period of time. This attack cannot miss, and is always a critical hit.
-r:"^敵単体に物理防御力を(\d+)無視する(\d+)の物理ダメージ敵単体に物理防御力を(\d+)無視する(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン一定時間全ての物理攻撃を回避する自分の物理攻撃力を(\d+)アップ$"=►Deals unavoidable $2 P.DMG to an enemy, ignoring $1 of their P.DEF.\n►Deals unavoidable $4 P.DMG to an enemy, ignoring $3 of their P.DEF.\n►Lowers an enemy's P.DEF by $5 for 18s.\n►Dodges all P.ATKs for 3(+0.01×Lv)s.\n►Boosts own P.ATK by $6.
+r:"^絶氷中、敵単体に(\d+)の物理ダメージ絶氷中、敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ絶氷中、敵単体の物理防御力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン絶氷中、敵単体の被クリダメを8％アップ$"=►Deals unavoidable $2 P.DMG to an enemy, ignoring $1 of their P.DEF.\n►Deals unavoidable $4 P.DMG to an enemy, ignoring $3 of their P.DEF.\n►Lowers an enemy's P.DEF by $5 for 18s.\n►Dodges all P.ATKs for 3(+0.01×Lv)s.\n►Boosts own P.ATK by $6.
 
 ##S1+##
 オーバーレイ+=Overlay+
 自分の物理攻撃力を特大アップさせ、ＴＰ上昇を中アップさせ、ＴＰを中回復し、さらに物理攻撃クリティカル時のダメージを小アップさせる。=Large boost to own P.ATK. Moderate boost to own TP Boost. Recover own TP by a large amount and small boost to own physical critical damage.
-r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ自分のＴＰを(\d+)回復自分の物理攻撃クリティカル時のダメージを10％アップ$"=Cast time: 0.75s\n►Boosts own P.ATK by $1.\n►Boosts own TP Boost by $2 for 15s.\n►Recover own TP by $3.\n►Boosts own P.CRIT DMG by 10% for 180s.
+r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ自分のＴＰを(\d+)回復自分の物理攻撃クリティカル時のダメージを10％アップ$"=►Boosts own P.ATK by $1.\n►Boosts own TP Boost by $2 for 15s.\n►Recover own TP by $3.\n►Boosts own P.CRIT DMG by 10% for 180s.
 
 ##UE##
 聖域剣アヴァロン=Sanctum Blade Avalon

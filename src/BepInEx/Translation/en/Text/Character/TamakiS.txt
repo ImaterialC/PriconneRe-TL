@@ -11,6 +11,8 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ
 目の前の敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Lowers the enemy's TP directly in front by a small amount and recovers own TP by a small amount.
 ## r:"^敵単体のＴＰを(\d+)失わせる自分のＴＰを(\d+)回復自分の物理攻撃力を(\d+)アップ$"=►Reduces an enemy's TP by $1.\n►Recovers own TP by $2.\n►Boosts own P.ATK by $3.
 ## Same as Tamaki S2
+## 260lvl
+目の前の敵１キャラのＴＰを小ダウンさせ、自分のＴＰを小回復する。さらに、自分の物理攻撃力を小アップさせる。=Lowers the enemy's TP directly in front by a small amount and recovers own TP by a small amount. Also slightly boosts own P.ATK.
 
 ##S2##
 アイスブレイク=Ice Breaker

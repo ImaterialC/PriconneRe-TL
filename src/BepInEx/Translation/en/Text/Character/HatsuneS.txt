@@ -10,6 +10,7 @@ r:"^敵全体に(\d+)の魔法ダメージ自分を行動不能にする$"=►De
 
 ##S1##
 ポンポンエール☆シュート=Pom-Pom Yell☆Shoot
+敵全体に魔法小ダメージを与え、さらに自分のＴＰを中回復する。敵の数に応じてＴＰの回復量が増加する。=Deals small M.DMG to all enemies and further restores her own TP. The TP recovery amount increases based on the number of enemies.
 敵全体に魔法中ダメージを与え、さらに自分のＴＰを中回復する。敵の数に応じてＴＰの回復量が増加する。=Deals moderate M.DMG to all enemies and further restores her own TP. The TP recovery amount increases based on the number of enemies.
 
 ##S2##

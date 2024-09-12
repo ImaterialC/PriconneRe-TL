@@ -20,14 +20,17 @@ r:"^敵単体に(\d+)の魔法ダメージおともだちを最大５人減ら�
 
 ##S1##
 ソウルコンバージョン=Soul Conversion
-最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復しルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the Highest %HP ally and recovers their TP by moderate amount, restores their TP to medium. Luna gains 1 extra Friend.
-
-r:"^味方単体に(\d+)の魔法ダメージ味方単体のＴＰを(\d+)回復おともだちを追加で１人増やす$"=Cast time: 0.74s\n►Deals $1 M.DMG to Highest %HP ally.\n►Recovers an ally's TP by $2.\n►Adds 1 additional Friend.
+最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復しルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the highest HP% ally and recovers its TP by moderate amount. Luna gains 1 extra Friend.
+最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、さらにそのキャラのＴＰを中回復する。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the highest HP% ally and recovers its TP by moderate amount. Luna gains 1 extra Friend.
+r:"^味方単体に(\d+)の魔法ダメージ味方単体のＴＰを(\d+)回復おともだちを追加で１人増やす$"=►Deals $1 M.DMG to highest HP% ally.\n►Recovers an ally's TP by $2.\n►Adds 1 additional Friend.
+## 260lvl
+最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、さらにそのキャラのＴＰを中回復し、魔法攻撃力を小アップさせる。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the highest HP% ally and recovers its TP by moderate amount, boosts its M.ATK. Luna gains 1 extra Friend.
+r:"^味方単体に(\d+)の魔法ダメージ味方単体のＴＰを(\d+)回復おともだちを追加で１人増やす味方単体の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to highest HP% ally.\n►Recovers an ally's TP by $2.\n►Adds 1 additional Friend.\n►Boosts an ally's M.ATK by $2 for 12s.
 
 ##S2##
 消えぬ怨恨=Undying Resentment
 目の前の敵１キャラに魔法中ダメージを与える。おともだちが２人以上いる場合、代わりにおともだちを２人消費して魔法大ダメージを与える。=Deals moderate M.DMG to an enemy directly in front, If Luna has 2 or more Friends, consumes 2 Friends and deals large M.DMG instead.
-r:"^おともだちが２人以上いない時敵単体に(\d+)の魔法ダメージおともだちが２人以上いる時敵単体に(\d+)の魔法ダメージおともだちが２人以上いる時おともだちを２人減らす$"=Cast time: 0.74s\nIf Friends < 2:\n►Deals $1 M.DMG to an enemy.\n\nIf Friends ≥ 2:\n►Deals $2 M.DMG to an enemy.\n►Loses 2 Friends.
+r:"^おともだちが２人以上いない時敵単体に(\d+)の魔法ダメージおともだちが２人以上いる時敵単体に(\d+)の魔法ダメージおともだちが２人以上いる時おともだちを２人減らす$"=If Friends < 2:\n►Deals $1 M.DMG to an enemy.\n\nIf Friends ≥ 2:\n►Deals $2 M.DMG to an enemy.\n►Loses 2 Friends.
 
 ##SP1##
 ルナのおともだちになってくれる？=Come On My Adventure
@@ -39,9 +42,9 @@ r:"^おともだちが２人以上いない時敵単体に(\d+)の魔法ダメ�
 
 ##S1+##
 ソウルコンバージョン+=Soul Conversion+
-最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復し魔法攻撃力を小アップ、魔法クリティカルを大アップさせる。さらに、自分のＴＰを小回復する。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the Highest %HP ally and recovers their TP by moderate amount, boost their M.ATK and M.CRIT Rate. Restore a small amount of own TP. Luna gains 1 extra Friend.
-最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復し魔法攻撃力を中アップ、魔法クリティカルを大アップさせる。さらに、自分のＴＰを小回復する。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the Highest %HP ally and recovers their TP by moderate amount, boost their M.ATK and M.CRIT Rate. Restore a small amount of own TP. Luna gains 1 extra Friend.
-r:"^味方単体に(\d+)の魔法ダメージ味方単体のＴＰを(\d+)回復おともだちを追加で１人増やす味方単体の魔法攻撃力を(\d+)アップ味方単体の魔法クリティカルを(\d+)アップ自分のＴＰを(\d+)回復$"=Cast time: 0.74s\n►Deals $1 M.DMG to Highest %HP ally.\n►Recovers an ally's TP by $2.\n►Adds 1 additional Friend.\n►Boosts an ally's M.ATK by $3 for 12s.\n►Boosts M.CRIT Rate by $4 for 12s.\n►Recovers own TP by $5.
+最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復し魔法攻撃力を小アップ、魔法クリティカルを大アップさせる。さらに、自分のＴＰを小回復する。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the highest HP% ally and recovers its TP by moderate amount, boosts its M.ATK and M.CRIT Rate. Restore a small amount of own TP. Luna gains 1 extra Friend.
+最も残りＨＰが高い味方１キャラに魔法中ダメージを与え、そのキャラのＴＰを中回復し魔法攻撃力を中アップ、魔法クリティカルを大アップさせる。さらに、自分のＴＰを小回復する。ルナのおともだちが１人追加で増える。=Deals moderate M.DMG to the highest HP% ally and recovers its TP by moderate amount, boosts its M.ATK and M.CRIT Rate. Restore a small amount of own TP. Luna gains 1 extra Friend.
+r:"^味方単体に(\d+)の魔法ダメージ味方単体のＴＰを(\d+)回復おともだちを追加で１人増やす味方単体の魔法攻撃力を(\d+)アップ味方単体の魔法クリティカルを(\d+)アップ自分のＴＰを(\d+)回復$"=►Deals $1 M.DMG to highest HP% ally.\n►Recovers an ally's TP by $2.\n►Adds 1 additional Friend.\n►Boosts an ally's M.ATK by $3 for 12s.\n►Boosts M.CRIT Rate by $4 for 12s.\n►Recovers own TP by $5.
 
 ##UE##
 ルナのおともだち=Luna's Friend

@@ -24,12 +24,12 @@ r:"^敵単体に(\d+)の物理ダメージ\$"=►Deals Large $1 P.DMG to the ene
 ##S1##
 ねこねこスローイング=Feline Fling
 魔法攻撃力が最も高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力を小ダウンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK and lowers its M.ATK by a small amount.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン$"=Cast Time: 1.325s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2 for 12s.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2 for 12s.
 
 ##S2##
 猫の気まぐれ=Finicky Feline
 魔法攻撃力が最も高い敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Reduces the TP of the enemy with the highest M.ATK power by a small amount while also recovering own TP by a small amount.
-魔法攻撃力が最も高い敵１キャラの\nＴＰを小ダウンさせ、さらに自分の\nＴＰを小回復し、物理攻撃力を小\nアップさせる。=Reduces the TP of the enemy with the highest M.ATK power by a small amount. Recovers own TP by a small amount. Boosts own P.ATK by a small amount.
+魔法攻撃力が最も高い敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復し、物理攻撃力を小アップさせる。=Reduces the TP of the enemy with the highest M.ATK power by a small amount. Recovers own TP by a small amount. Boosts own P.ATK by a small amount.
 r:"^敵単体のＴＰを(\d+)失わせる自分のＴＰを(\d+)回復自分の物理攻撃力を(\d+)アップ$"=►Reduces an enemy's TP by $1.\n►Recovers own TP by $2.\n►Boosts own P.ATK by $3.
 ## Same as STamaki S1
 
@@ -45,7 +45,7 @@ r:"^対象が物理攻撃をする敵だった場合(\d+)の物理ダメージ�
 ##S1+##
 ねこねこスローイング+=Feline Fling+
 魔法攻撃力が最も高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力を中ダウンさせスタンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK, lowers its M.ATK by a moderate amount, and inflicts Stun.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体を一定時間行動不能にする$"=Cast Time: 1.325s\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2.\n►Inflicts Stun on damaged target for 1.5s.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's M.ATK by $2.\n►Inflicts Stun on damaged target for 1.5s.
 
 ##UE##
 ファンタズムタイヤキ=Phantom Taiyaki

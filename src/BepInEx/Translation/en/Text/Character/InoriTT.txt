@@ -15,7 +15,7 @@ r:"^味方全体の物理攻撃力を(\d+)アップ自分以外の味方の物�
 目の前の敵１キャラに物理中ダメージを与える。自分の残りＨＰが多いほどダメージがアップする。=Deals moderate P.DMG to an enemy in front. The higher own HP, the more P.DMG is.
 
 ##EX##
-下剋上ですよ！+=It's a Rebellion!
+下剋上ですよ！=It's a Rebellion!
 下剋上ですよ！+=It's a Rebellion!+
 
 ##S1+##

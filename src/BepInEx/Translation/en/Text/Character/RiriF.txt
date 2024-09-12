@@ -34,7 +34,7 @@ r:"^敵単体に(\d+)の物理ダメージシャドウを(\d+)体生成する$"=
 
 ##S1+##
 残花流転+=Fleeting Blossom Transformation+
-自分を中心とした範囲内の味方すべ\nての物理攻撃力を特大アップさせ\nる。範囲内の味方の人数に応じて、\n最大７キャラ分まで物理攻撃力の上\n昇量が増加する。=Greatly boosts allies' P.ATK in range. The P.ATK boost increase according to number of allies, up to 7 times.
+自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせる。範囲内の味方の人数に応じて、最大７キャラ分まで物理攻撃力の上昇量が増加する。=Greatly boosts allies' P.ATK in range. The P.ATK boost increase according to number of allies, up to 7 times.
 
 ##UE##
 アルゲアの嘆鎌=Algea's Scythe

@@ -19,7 +19,7 @@
 ##S1##
 一の太刀・雫薙ぎ=First Strike: Reticence
 敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵すべてに物理中ダメージを与え、さらに小さく吹き飛ばす。=Taunts all enemies and enters a stance. If attacked during this stance, deals moderate P.DMG to all enemies in range and knocks them back slightly.
-r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ$"=Cast time: 1.125s\n►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range\n►Knockbacks all enemies by 200 units.
+r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ$"=►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range\n►Knockbacks all enemies by 200 units.
 
 ##S2##
 海内無双の型=Peerless Stance
@@ -34,13 +34,13 @@ r:"^自分の魔法防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.
 
 ##UB+##
 極の太刀・止水龍吟の哮り=Ultimate Strike: Water Dragon Roar
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力を特大ダウンさせる。さらに自分に【絶海の型】を１つ付与する。【絶海の型】が付与されている間に１回ダメージを受けると【絶海の型】を１つ消費してダメージを無効化し、同時に敵に物理特大ダメージを与える。このスキルによるダメージは必ずクリ\nティカルする。=Deals massive P.DMG to an enemy in front and massively lowers its P.DEF. Also gains [Distant Sea Form] status. When taking damage with [Distant Sea Form] status active, consumes the status, nullifies incoming damage once, and deals massive P.DMG to the attacking enemy. This attack is always a critical hit.
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を特大ダウンさせる。さらに自分に【絶海の型】を１つ付与する。【絶海の型】が付与されている間に１回ダメージを受けると【絶海の型】を１つ消費してダメージを無効化し、同時に敵に物理特大ダメージを与える。このスキルによるダメージは必ずクリティカルする。=Deals massive P.DMG to an enemy in front and massively lowers its P.DEF. Also gains [Distant Sea Form] status. When taking damage with [Distant Sea Form] status active, consumes the status, nullifies incoming damage once, and deals massive P.DMG to the attacking enemy. This attack is always a critical hit.
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン攻撃してきた敵に(\d+)の物理ダメージを与えて消失する絶海の型を最大１つまで付与する$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 24s.\n►Gains [Distant Sea Form] status, which nullifies incoming DMG and deals $3 P.DMG to an attacking enemy once.
 
 ##S1+##
 一の太刀・雫薙ぎ+=First Strike: Reticence+
 敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵すべてに物理大ダメージを与え、物理防御力を小ダウンさせ、さらに小さく吹き飛ばす。=Taunts all enemies. If attacked during the provoke action, deals large P.DMG to enemies in range, lowers their P.DMG by a small amount, and blows them up into small pieces.
-r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=Cast time: 1.125s\n►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range.\n►Knockbacks all enemies by 200 units.\n►Lowers enemies' P.DEF in 200 range by $2 for 12s.
+r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range.\n►Knockbacks all enemies by 200 units.\n►Lowers enemies' P.DEF in 200 range by $2 for 12s.
 
 ##UE##
 真打 絶海・波浪丸=Zekkai & Haromaru - Origin

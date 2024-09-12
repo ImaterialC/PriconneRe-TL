@@ -9,6 +9,7 @@ r:"^敵単体に(\d+)の物理ダメージ\n(\d+)ダメージ分の物理魔法�
 ##S1##
 ラズール・レオ=Lazuli Leo
 前方範囲内の敵すべてに物理小ダメージを与え、物理防御力と魔法防御力を小ダウンさせ、さらに敵全体を挑発する。=Deals small P.DMG to all enemies in range, lowers their P.DEF and M.DEF by a small amount, and taunts all enemies.
+前方範囲内の敵すべてに物理中ダメージを与え、物理防御力と魔法防御力を小ダウンさせ、さらに敵全体を挑発する。=Deals moderate P.DMG to all enemies in range, lowers their P.DEF and M.DEF by a small amount, and taunts all enemies.
 
 ##S2##
 アウィン・ジャッジメント=Hauyne Judgement
