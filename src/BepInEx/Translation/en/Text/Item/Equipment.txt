@@ -630,3 +630,7 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 未完刃・雲愁=Unfinished Blade: Cloud Sorrow  
 林檎杖・北斗=Apple Staff: Big Dipper  
 葡萄杖・竜眼=Grape Staff: Dragon's Eye  
+
+紅玉の徽章=Ruby Emblem
+鬼木天蓼の徽章=Demonwood Matatabi Emblem
+巨峰の徽章=Grape Emblem
