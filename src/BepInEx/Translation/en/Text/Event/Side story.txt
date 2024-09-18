@@ -127,11 +127,11 @@ r:"^(\d+)回完了$"=Done × $1
 スペシャルバトルはバトルモードが３段階変化するバトルです。\nより豪華な報酬やミッション報酬をゲットしましょう。期間中１回しかクリアできないので編成を工夫して挑戦しましょう。=The special battle is a battle mode that changes in three steps. Get more luxurious rewards and mission rewards. You can clear it only once during the period, so let's try the formation by devising it.
 主さまが宿題に励んでおられるようです。\n宿題が終わるまでモンスターの攻撃を耐え抜けば勝利となりますよ。\n宿題がどこまで進んでいるかは画面のゲージを確認しましょう。	=It seems that the Lord is working hard on homework. If you endure the monster attack until the homework is over, you will win. Check the gauge on the screen to see how far homework is going.	
 エキシビションモードは、SPECIALのバトルに何度も挑戦できます。\nまた、バトルのログを保存して振り返ることができるので、\n独自の攻略法を見つけたり、様々な編成を試してみましょう。=Exhibition mode can challenge the Special battle many times. Also, you can save the battle log and look back, so let's find a unique strategy and try various formation.
-夏休み最後まで残りし宿題=Remaining to the end of summer vacation and homework
-得意な宿題を1回終わらせよう=Finish the homework that is a strong
-ちょっと苦手な宿題を1回終わらせよう=Finish the homework that is a little weak
-すごく苦手な宿題を1回終わらせよう=Finish the homework that is very weak once
-夏休み最後まで残りし宿題を1回終わらせよう=Leave the homework once until the end of the summer vacation
+夏休み最後まで残りし宿題=Remaining Summer Vacation Homework
+得意な宿題を1回終わらせよう=Complete a Favorite Homework Assignment Once
+ちょっと苦手な宿題を1回終わらせよう=Complete a Slightly Difficult Homework Assignment Once
+すごく苦手な宿題を1回終わらせよう=Complete a Very Difficult Homework Assignment Once
+夏休み最後まで残りし宿題を1回終わらせよう=Complete the Remaining Summer Vacation Homework Once
 --------------------------
 
 r:"^カルミナサマーライブ会場([0-9\-\(\)\w （）]*)$"=Carmina Summer Live Venue $1

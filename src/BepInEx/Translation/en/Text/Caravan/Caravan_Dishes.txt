@@ -45,12 +45,15 @@
 ---Red---
 次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice next turn and move as many tiles as their sum.
 次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 next turn. The turn counter will not increase.
+次に振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 2 next turn. The turn counter will not increase.
+次に振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 3 next turn. The turn counter will not increase.
 次に振るダイスの目が必ず「2」になる。=You will roll a guaranteed 2 next turn.
 次に振るダイスの目が必ず「3」になる。=You will roll a guaranteed 3 next turn.
 次に振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 next turn.
 次に振るダイスの目が必ず「6」になる。=You will roll a guaranteed 6 next turn.
 次に振るダイスの目が必ず「7」になる。=You will roll a guaranteed 8 next turn.
 次に振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 next turn.
+次に振るダイスの目が必ず「9」になる。=You will roll a guaranteed 9 next turn.
 r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」になる。$"=You will roll a guaranteed $2 for the next $1 turns.
 
 
@@ -155,7 +158,7 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 ---Red---
 ミミが、ジオ・ゲヘナで助けてくれたお姉さん達のことを思い作ったおにぎり。それぞれ異なる味付けがされているが、ミミの願い通りお互いにケンカをせず仲良くハーモニーを奏でている。=Mimi made these rice balls in memory of the big sisters who helped her in Gio Gehenna. Each one has a unique flavor, but just as Mimi wished, no one rice ball overpowers the other, forming a wonderful harmony together.
 
-アキノがジオ・ゲヘナで仕入れてきたスパイスを使用した、お洒落で豪華なチキ ンプレート。牧場特製ヨーグルトソースと奏でる刺激的な味わいはまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken platter made with spices that Akino procured in Gio Gehenna. The stimulating flavor of the chicken combined with the ranch's special yogurt sauce makes for a miraculous union of two worlds.
+アキノがジオ・ゲヘナで仕入れてきたスパイスを\n使用した、お洒落で豪華なチキンプレート。牧場\n特製ヨーグルトソースと奏でる刺激的な味わいは\nまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken platter made with spices that Akino procured in Gio Gehenna. The stimulating flavor of the chicken combined with the ranch's special yogurt sauce makes for a miraculous union of two worlds.
 
 アオイがお弁当として作ったエルフ伝統の野菜サンド。一緒についてきてくれる最高の友だちの助言により、どんなに深い森の中でも全速力で駆け抜けることができるらしい。（アオイ談）=A traditional Elven vegetable sandwich that Aoi made for lunch. Thanks to the advice of her best friend, she can run as fast as she wants, no matter how deep in the forest it is. (According to Aoi)
 
@@ -185,8 +188,9 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 バンディ・シスターズの昨夜の夕食カレー。作り\n過ぎて食べきれずにいたものをワカナがお裾分け\nしてくれた。寝かされていたためしっかりと味の\n染みた、極上の二日目カレーとなっている。=The curry the Bandy Sisters' had for dinner last night. Wakana made too much, so she gave us the leftovers that they couldn't eat. Due to it sitting overnight, the depth of flavor has flourished, making this a true first-class second-day curry.
  
-リンからもらった非常食のあんパン。ナッツが練り込まれクランキーな食感で食べ飽きない。ゲームのため部屋に引きこもる際のお供であり、必要な栄養素が全て賄える完全栄養食、らしい。=Rin gave us her emergency ration of choice: Anpan. The mixed-in nuts give it a crunchy texture that you'll never get tired of. The perfect companion when holing yourself up in a room and playing games, she says that it provides all the nutrients one could possibly need.
+リンからもらった非常食のあんパン。ナッツが\n練り込まれクランチな食感で食べ飽きない。\nゲームのため部屋に引きこもる際のお供であり、\n必要な栄養素が全て賄える完全栄養食、らしい。=Rin gave us her emergency ration of choice: Anpan. The mixed-in nuts give it a crunchy texture that you'll never get tired of. The perfect companion when holing yourself up in a room and playing games, she says that it provides all the nutrients one could possibly need.
 
+シェフィが自身の魔力の氷を使い作ったアイス。\nペコリーヌにねだられて作ったものだがキャル達\nにも好評である。コッコロ曰くひんやりしている\nのに食べると心が温かくなってきます、との事。=An ice cream made by Sheffy using her magical ice. She made it at Pecorine's request, but it has also been well-received by Karyl and the others. According to Kokkoro, "Even though it's chilly, eating it makes your heart feel warm."
 
 ---Yellow---
 アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special picnic basket together. Their excitement for this trip with their friends is packed into every single delicious dish. Eating them fills you with joy and ensures that the next event will be just that bit more special.
