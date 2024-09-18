@@ -1,0 +1,30 @@
+##Profile##
+【魔法】後衛で未知の世界との邂逅に胸躍る強欲の魔女。鮮烈な攻撃魔法をはじめ、味方への攻撃支援、敵の弱体化から自己蘇生まで、あらゆる魔法を振るい、欲を満たす。=[Magic] A Witch of Greed whose heart is filled with a thirst for knowledge about the unknown and uncharted worlds in the rearguard. Specializing in powerful magical attacks, she strengthens her allies' attacks while weakening enemies, resurrecting herself when defeated, and unleashing magic to fulfill her desires.
+
+知識欲を満たすこと=To satisfy thirst for knowledge
+坂本真綾=Sakamoto Masaya
+
+##UB##
+未知なる夏の果実=Fruit of an Unknown Summer
+目の前の敵１キャラに魔法防御力を一定値無視する魔法特大ダメージを２回与える。=Deals two massive M.DMG hits to the enemy in front, ignoring a certain amount of their M.DEF.
+r:"^敵単体に魔法防御力を(\d+)無視する(\d+)の魔法ダメージ敵単体に魔法防御力を(\d+)無視する(\d+)の魔法ダメージ$"=►Deals $2 M.DMG to an enemy, ignoring $1 of their M.DEF.\n►Deals $4 M.DMG to an enemy, ignoring $3 of their M.DEF.
+
+##S1##
+君たちの可能性を見せてほしい=Show Me Your Potential!
+自分を中心とした範囲内の味方すべての魔法攻撃力と魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップし、さらにＴＰを小回復する。=Greatly boosts allies' M.ATK and M.CRIT in range, slightly boosts their M.CRIT DMG, and slightly recovers their TP.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを120アップ範囲内の味方の魔法攻撃クリティカル時のダメージを12％アップ範囲内の味方のＴＰを60回復$"=►Boosts allies' M.ATK in 300 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 300 range by 120 for 12s.\n►Boosts allies' M.CRIT DMG in 300 range by 12% for 12s.\n►Recovers allies' TP in 300 range by 60.
+
+##S2##
+悪巧みだよ=It's a Dirty Trick~
+目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせ、さらに、クリティカルを受けた際のダメージを小アップさせる。=Deals large M.DMG to an enemy in front, slightly lowers its M.DEF, and slightly boosts its M.CRIT DMG taken.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の被クリダメを6％アップ$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 12s.\n►Boosts an enemy's M.CRIT DMG taken by 6% for 12s. 
+
+##SP1##
+魔女を安く見られては困るな=Don't Take This Witch Too Lightly
+このスキルのスキルレベルは「未知なる夏の果実」と連動しています=This skill's level is linked to "Fruit of an Unknown Summer"
+ＨＰが０になった時に発動し、倒れずに自分のＨＰを大回復させ、幻化状態にする。幻化状態の間は自分が受けるダメージを50％軽減する。自分より前に味方がいない場合、幻化状態は解除される。このスキルはバトル中一度しか発動しない。=When SEchidna's HP drops to 0, greatly recovers own HP and enters [Phantom Mode]. In [Phantom Mode], all damage received is reduced by 50% for herself. [Phantom Mode] is removed when there are no units in front of SEchidna. This skill only activates once per battle.
+r:"^自分のＨＰを(\d+)回復自分を幻化状態にする$"=►Recovers own HP by $1.\n►Enters [Phantom Mode] for 180s.
+
+##EX##
+知識欲の権化=The Embodiment Of Thirst For Knowledge
+知識欲の権化+=The Embodiment Of Thirst For Knowledge+

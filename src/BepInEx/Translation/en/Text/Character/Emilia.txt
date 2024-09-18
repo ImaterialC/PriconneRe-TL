@@ -23,6 +23,11 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ
 大精霊との契約=Great Spirit Contract
 大精霊との契約+=Great Spirit Contract+
 
+##UB+##
+祝福の花園=Blessed Field
+最もＨＰが低い味方１キャラのＨＰを特大回復させ、味方全体の魔法攻撃力を特大アップ、物理・魔法防御力を大アップし、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。このＵＢの初回使用後、自分に【情熱の花束】を付与、行動パターンが変化し、通常攻撃が強化通常攻撃になる。=Massively recovers HP of the lowest HP ally. Massively boosts all allies' P.DEF, M.DEF, and MATK, grants HP regen to them and deploys Barrier over them that negates P/M.DMG. After this UB is used, grants [Passionate Bouquet] effect to self, changes own attacks pattern, and enhances own normal attacks.
+r:"^味方単体のＨＰを(\d+)回復味方全体の物理・魔法防御力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ毎秒ＨＰを(\d+)回復する(\d+)ダメージ分の物魔無効バリアを展開する自分に情熱の花束を付与する$"=►Recovers an ally's HP by $1.\n►Boosts all allies' P/M.DEF by $2 for 18s.\n►Boosts all allies' M.ATK by $3 for 18s.\n►Recovers all allies' HP by $4/s for 18s.\n►Deploys Barrier over all allies that negates $5 P/M.DMG for 18s.\n►Switches to Attack Pattern 2 once.
+
 ##S1+##
 お願い、パック！+=Help Me Out, Puck!+
 目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を特大アップさせる。=Deals large M.DMG to one enemy in front of you, and also boosts own M.ATK by massive amount.

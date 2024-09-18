@@ -4,7 +4,7 @@
 
 ##UB##
 ラムの邪魔をしないで=Out of My Way
-敵全体に魔法中ダメージを与え、さらに束縛する。=Deals moderate M.DMG to all enemies and inflicts Bind.
+敵全体に魔法中ダメージを与え、さらに束縛する。=Deals moderate M.DMG to all enemies and inflicts Bind (4s).
 r:"^敵全体に(\d+)の魔法ダメージ敵全体を一定時間行動不能にする$"=►Deals $1 M.DMG to all enemies.\n►Renders enemies in range immobile for a set period of time.
 
 ##S1##
@@ -20,6 +20,10 @@ r:"^敵単体に次の物理攻撃が確定で回避される状態を付与す�
 ##EX##
 傲岸不遜=Pure Arrogance
 傲岸不遜+=Pure Arrogance+
+
+##UB+##
+死にたくなりなさい=Please Die Already
+敵全体に魔法中ダメージを与え、大きく吹き飛ばし、さらに長時間束縛する。=Deals moderate M.DMG to all enemies, inflicts a long Bind (5s) to them, and greatly blows them away.
 
 ##S1+##
 フーラ+=Fura+

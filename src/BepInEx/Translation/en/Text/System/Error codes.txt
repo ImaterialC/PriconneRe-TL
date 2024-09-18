@@ -29,3 +29,4 @@ r:"^\[3C404E\]\[FFBB00\,CE4F00\]([0-9/ :]+)～ 翌([0-9/ :]+)\[-\]に\nメンテ
 ダウンロードエラー=Download Error
 
 通信がタイムアウトしました\n通信環境を確認し、再度お試しください=The connection timed out.\nPlease check your connection and try again.
+通信中にエラーが発生しました\n通信環境を確認し、再度お試しください=An error occurred during connecting Please check your internet environment and try again.
