@@ -31,5 +31,11 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理防御�
 前方範囲内の敵すべてに魔法中ダメージを与える。さらに物理防御力と魔法防御力を小ダウンさせる。=Deals moderate M.DMG to all enemies in range and lowers their P.DEF and M.DEF by a small amount.
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies in range.\n►Lowers enemies' P.DEF in range by $2.\n►Lowers enemies' M.DEF in range by $3.
 
+##S2+##
+メイドエール+=Maid's Comfort+
+自分の周囲の味方すべてのＨＰを小回復させ、物理攻撃力と物理クリティカルを特大アップさせる。さらに自分に【ティーポット】を付与し、魔法攻撃力を特大アップさせ、ＴＰを大回復する。【ティーポット】が付与されている間、スウィープサイクロンとウィンドブラスト+で与えるダメージと物理防御力、魔法防御力ダウンの効果量が上昇する。=Slightly recovers allies' HP in range and massively boosts their P.ATK and P.CRIT Rate. Also gains [Teapot], massively boosts own M.ATK and greatly recovers own TP. When [Teapot] is present, boosts M.DMG dealt and lowered P/M.DEF for UB and S1. 
+r:"^範囲内の味方のＨＰを(\d+)回復範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを200アップ自分にティーポットを付与する自分の魔法攻撃力を(\d+)アップ自分のＴＰを300回復$"=►Recovers allies' HP in 500 range by $1.\n►Boosts allies' P.ATK in 500 range by $2 for 18s.\n►Boosts allies' P.CRIT Rate in 500 range by 200 for 18s.\n►Gains [Teapot].\n►Boosts own M.ATK by $3 for 18s.\n►Recovers own TP by 300.
+
 ##UE##
 ロイヤルメイドドレス=Royal Maid Dress
+ロイヤルメイドドロップ=Royal Maid Drop

@@ -67,9 +67,9 @@
 ミソラ=Misora;Doruru
 カリン=Karin
 ムイミ=Muimi;Noemu;Novem
-ジータ=Djeeta
-ビカラ=Vikala;Vikara;Vicky;Vikki;Bikki;Bicky;Bikala;Bikara
-アリサ=Arisa
+ジータ=Djeeta;Collab;Granblue
+ビカラ=Vikala;Vikara;Vicky;Vikki;Bikki;Bicky;Bikala;Bikara;Collab;Granblue
+アリサ=Arisa;Collab;Shadowverse
 ルナ=Luna
 ヴァンピィ=Vampy;Vania
 カイザーインサイト=Kaiser Insight;Mana Senri
@@ -127,13 +127,13 @@
 ミフユ（作業服）=Mifuyu (Work);WMifuyu;Work
 ハツネ（ハツネ&シオリ）=Hatsune (Hatsune & Shiori)
 シオリ（ハツネ&シオリ）=Shiori (Hatsune & Shiori)
-アン=Anne;collab
-ルゥ=Lou;collab
-グレア=Grea;collab
-レム=Rem;collab
-ラム=Ram;collab
-エミリア=Emilia;collab
-エキドナ=Echidna;collab
+アン=Anne;Manaria;collab
+ルゥ=Lou;Manaria;collab
+グレア=Grea;Manaria;collab
+レム=Rem;collab;Rezero;Re0;Zero
+ラム=Ram;collab;Rezero;Re0;Zero
+エミリア=Emilia;collab;Rezero;Re0;Zero
+エキドナ=Echidna;collab;Rezero;Re0;Zero
 イオ（ノワール）=Io (Noir);NIo;Noir
 クウカ（ノワール）=Kuuka (Noir);Kuka (Noir);NKuuka;NKuka;Noir
 シズル（ノワール）=Shizuru (Noir);NShizuru;Noir
@@ -158,8 +158,8 @@
 ジュン（キャンプ）=Jun (Camp);CJun;Camp
 クリスティーナ（ワイルド）=Christina (Wild);WChristina;Wild
 マツリ（ワイルド）=Matsuri (Wild);WMatsuri;Wild
-アン（アン＆グレア）=Anne (Anne & Grea)
-グレア（アン＆グレア）=Grea (Anne & Grea)
+アン（アン＆グレア）=Anne (Anne & Grea);Collab;Manaria
+グレア（アン＆グレア）=Grea (Anne & Grea);Collab;Manaria
 ノゾミ（リベレイター）=Nozomi (Liberator);LNozomi;Liberator
 カヤ（リベレイター）=Kaya (Liberator);LKaya;Liberator
 ムイミ（リベレイター）=Muimi (Liberator);LMuimi;Noemu;Liberator
@@ -167,7 +167,7 @@
 モニカ（カフェ）=Monika (Cafe);CMonika;Cafe
 コッコロ（レンジャー）=Kokkoro (Ranger);Kokoro;KKR;RKKR;Ranger;RKokoro;Rkokkoro;mama
 シオリ（レンジャー）=Shiori (Ranger);RShiori;Ranger
-ジータ（ウォーロック）=Djeeta (Warlock);WDjeeta;zeta;zeeta;Wzeta;wzeeta
+ジータ（ウォーロック）=Djeeta (Warlock);WDjeeta;zeta;zeeta;Wzeta;wzeeta;Collab;Granblue
 カリン（アルケミスト）=Karin (Alchemist);AKarin;Alchemist
 イリヤ（儀装束）=Illya (Ceremonial);Ilya;CIlya;CIllya;Ceremonial
 ユキ（儀装束）=Yuki (Ceremonial);CYuki;Ceremonial
@@ -184,7 +184,7 @@
 ハツネ＆シオリ=Hatsune & Shiori;HatsuShio;Shiori & Hatsune;&
 ミソギ＆ミミ＆キョウカ=Misogi & Mimi & Kyoka;Mimi;Kyoka;Kyouka;&
 アキノ＆サレン=Akino & Saren;AkiSaren;AkinoSaren;Saren;Mama;&
-アン＆グレア=Anne & Grea;AnneGrea;GreAnne;Grea;&
+アン＆グレア=Anne & Grea;AnneGrea;GreAnne;Grea;Collab;Manaria;&
 シズル＆リノ=Shizuru & Rino;ShizuruRino;Rino;ShiRi;&
 シズル（シズル＆リノ）=Shizuru & Rino;ShizuruRino;Rino;ShiRi;&
 リノ（シズル＆リノ）=Shizuru & Rino;ShizuruRino;Rino;ShiRi;&
@@ -275,10 +275,10 @@
 ヤマト（サマー）=Yamato (Summer);SYamato;Summer;Swimsuit;Bikini
 フブキ（サマー）=Fubuki (Summer);SFubuki;Summer;Swimsuit;Bikini
 ワカナ（サマー）=Wakana (Summer);SWakana;Summer;Swimsuit;Bikini
-レム（サマー）=Rem (Summer);SRem;collab;Summer;Swimsuit;Bikini
-ラム（サマー）=Ram (Summer);SRam;collab;Summer;Swimsuit;Bikini
-エミリア（サマー）=Emilia (Summer);SEmilia;collab;Summer;Swimsuit;Bikini
-エキドナ（サマー）=Echidna (Summer);SEchidna;SEchidona;collab;Summer;Swimsuit;Bikini
+レム（サマー）=Rem (Summer);SRem;collab;Rezero;Re0;Zero;Summer;Swimsuit;Bikini
+ラム（サマー）=Ram (Summer);SRam;collab;Rezero;Re0;Zero;Summer;Swimsuit;Bikini
+エミリア（サマー）=Emilia (Summer);SEmilia;Rezero;Re0;Zero;collab;Summer;Swimsuit;Bikini
+エキドナ（サマー）=Echidna (Summer);SEchidna;SEchidona;Rezero;Re0;Zero;collab;Summer;Swimsuit;Bikini
 
 ヒヨリ（ハロウィン）=Hiyori (Halloween);HHiyori;Halloween
 ユイ（ハロウィン）=Yui (Halloween);HYui;Halloween
