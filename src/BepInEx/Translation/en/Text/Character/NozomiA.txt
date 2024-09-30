@@ -1,0 +1,21 @@
+##Profile##
+【魔法】後衛で、希望を錬成するアルケミストアイドル。【錬金素材】から【パフューム】を創り、ダメージに加えＴＰ回復や攻撃支援能力を向上させて勝利の香りを運ぶ。=[Magic] A rearguard alchemist idol who forges hope. She creates [Perfume] from [Alchemy Materials], which not only deals damage but also increases TP recovery and attack support abilities, spreading the scent of victory.
+
+##UB##
+アルケミー・オンステージ=Alchemy on Stage
+味方全体の魔法攻撃力と魔法クリティカルを特大アップし、目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンする。【錬金素材】を３つ以上所持している場合、３つ消費して自分の魔法攻撃力を特大アップし、【パフューム】を１つ獲得する。【パフューム】は最大４まで獲得できる。=Massively boosts all allies' M.ATK and M.CRIT Rate, deals massive M.DMG to an enemy in front, and slightly lowers its M.DEF. If ANozomi has 3+ [Alchemy Material] stacks, additionally consumes 3 stacks, massively boosts M.ATK, and gains 1 [Perfume] stack, up to a maximum of 4.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを180アップ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ錬金素材を３つ消費してパフュームを１つ錬成$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' M.CRIT Rate by 180 for 18s.\n►Deals $2 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $3 for 18s.\nIf ANozomi has 3+ [Alchemy Materials]:\n►Consumes 3 [Alchemy Material] stacks.\n►Boosts own M.ATK by $4 for 180s.\n►Gains 1 [Perfume] stack.
+
+##S1##
+エレメントエール=Elemental Cheer
+味方全体の魔法攻撃力を大アップさせ、ＴＰを小回復する。さらに、自分の魔法攻撃力を中アップ、ＴＰを小回復させ、【錬金素材】を１つ獲得する。【錬金素材】は最大５まで獲得できる。このスキルの効果量は【パフューム】の数に応じて上昇する。=Greatly boosts all allies' M.ATK and slightly recovers their TP. Also moderately boosts own M.ATK, slightly recovers own TP, and gains 1 [Alchemy Material] stack, up to a maximum of 5. Skill effects increase according to number of [Perfume] stacks.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体のＴＰを30回復自分の魔法攻撃力を(\d+)アップ自分のＴＰを40回復錬金素材を１つ獲得$"=►Boosts all allies' M.ATK by $1 (+$1×[Perfume]) for 12s.\n►Recovers all allies' TP by 30 (+10×[Perfume]).\n►Boosts own M.ATK by $2 (+$2×[Perfume]) for 12s.\n►Recovers own TP by 40 (+20×[Perfume]).\n►Gains 1 [Alchemy Material] stack.
+
+##S2##
+ミスティーマテリアル=Misty Material
+目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせ、【錬金素材】を１つ獲得する。【錬金素材】は最大５まで獲得できる。このスキルの効果量は【パフューム】の数に応じて上昇する。=Deals large M.DMG to an enemy in front, slightly lowers its M.DEF, boosts its M.CRIT DMG taken, and gains 1 [Alchemy Material] stack, up to a maximum of 5. Skill effects increase according to number of [Perfume] stacks.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の被クリダメを5％アップ錬金素材を１つ獲得$"=►Deals $1 (+0.5×$1×[Perfume]) M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 (+0.2×$2×\n[Perfume]) for 12s.\n►Boosts an enemy's M.CRIT DMG taken by 5% (+1%\n×[Perfume]) for 12s.\n►Gains 1 [Alchemy Material] stack.
+
+##EX##
+フレグランススマイル=Fragrance Smile
+フレグランススマイル+=Fragrance Smile+
