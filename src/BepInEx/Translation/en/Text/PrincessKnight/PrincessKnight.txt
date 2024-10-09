@@ -20,9 +20,9 @@
 選択したノードの強化詳細です。\n未強化の前提ノードは自動で強化されます。=This is the details of the selected node's enhancement. The unenhanced node will automatically be strengthened.
 強化済みです。=It has been strengthened.
 強化可能なノードがありません。=There are no nodes that can be strengthened.
-消費マスターピース=MP Cost
+消費マスターピース=MPs Cost
 所持マスターピース=MPs Held
-所持マスターピース(欠片)=MP Held (Shard)
+所持マスターピース(欠片)=MPs Held (Shard)
 消費マスターピース(欠片)=MPs Cost (Shard)
 
 sr:"^(?:\[3C404E\])?(.+)の(.+)が\[-\]\[FFBB00\,CE4F00\]([0-9.％%]+)\[-\]\[3C404E\]アップ(?:\[-\])?$"=[3C404E]$1's $2 increases by [FFBB00,CE4F00]$3[-].[-]

@@ -72,7 +72,8 @@ r:"^次の装備リクエストは(\d+)分後に可能です。$"=You can make y
 寄付完了=Donation completion
 
 8時間経過したため、装備リクエストが終了しました。=You received the following equipment.\n8 hours have passed and the equipment request has ended.
-r:"^以下の装備をx(\d+)獲得しました。\n寄付上限に達したため、装備リクエストが終了しました。$"=Acquired the following equipment x$1.\nYou have reached the donation limit, equipment requests have ended.
+r:"^以下の装備をx(\d+)獲得しました。\n8時間経過したため、装備リクエストが終了しました。$"=Acquired the following equipment x$1.\nYou have reached the donation limit, equipment requests have ended.
+
 [FF7C4E,D62146]バトルを開始した時点で挑戦回数が消費され、\n編成キャラとそのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]Attempts are consumed when the battle starts,\nusage restrictions apply to characters\nand their EX equipment in the formation.[-]
 
 [FF7C4E,D62146]サポート以外のキャラのEX装備に使用制限がかかります。[-]=[FF7C4E,D62146]rent char and their EX equipment will be restricted.[-]

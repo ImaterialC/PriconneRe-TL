@@ -159,6 +159,8 @@ EXスキルスロット=EX skill slot
 ランクアップ詳細=Rank Up Detail
 装備強化MAXのステータス=MAX Refinement Stats
 上限に達したアイテムは\\nプレゼントに送られます。=Items that reach the limit\\nwill be sent as gifts.
+所持上限を超えたアイテムは、プレゼントに送られます。=Items that exceed the limit of your possession will be sent to your present.
+
 以下のアイテムが返還されました。=The following items were returned.
 装備強化アイテム返還=Equipment Refine item Return
 消費装備一覧=Equipment Consumed

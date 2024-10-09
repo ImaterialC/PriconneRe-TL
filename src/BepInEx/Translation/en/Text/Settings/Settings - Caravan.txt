@@ -8,6 +8,6 @@
 記念品贈呈=Commemorative gift presentation
 表示されている編成は、すべてAUTO・SET設定で挑戦した編成です。=All of the formations shown are formations attempted with AUTO and SET settings.
 「まとめて３個」使用中の確認ダイアログ表示=Confirmation dialog displayed when "3 items in a set" is in use
-効果発動前の仲間が出現している場合、「まとめて３個」モードでダイスを振る前に確認ダイアログを表示するか設定します。=When an ally appears before the effect is activated, set whether to display a confirmation dialog before rolling the dice in "3 All" mode.
+効果発動前の仲間が出現している場合、「まとめて３個」モードでダイスを振る前に確認ダイアログを表示するか設定します。=When an ally appears before the effect is activated, set whether to\ndisplay a confirmation dialog before rolling the dice in "3 All" mode.
 キャラバンショップ購入回数設定=Set the number of caravan shops purchased
 キャラバンショップの購入時に、購入回数を最小回数か最大回数のどちらにするか設定します。=When purchasing from the Caravan Shop, set whether the number of purchases is the minimum or maximum.
