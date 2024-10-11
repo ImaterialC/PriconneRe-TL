@@ -8,8 +8,8 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の�
 
 ##S1##
 ユースフルショット=Youthful Shot
-目の前の敵１キャラに物理中ダメージを与え、自分のＴＰを中回復する。このスキルがクリティカルした場合、自分の周囲の味方すべての物理攻撃力を大アップ、物理クリティカルを中アップさせる。=Deals large P.DMG to an enemy in front and moderately recovers own TP. If lands a critical hit, greatly boosts allies' P.ATK in range and moderately boosts their P.CRIT Rate.
-r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを45アップ自分のＴＰを200回復$"=Cast time: 1.05s\n►Deals $1 P.DMG to an enemy.\n►Recovers own TP by 200.\n\nIf lands a critical hit:\n►Boosts allies' P.ATK in 150 range by $2 for 180s.\n►Boosts allies' P.CRIT Rate in 150 range by 45 for 180s.
+目の前の敵１キャラに物理中ダメージを与え、自分のＴＰを中回復する。このスキルがクリティカルした場合、自分の周囲の味方すべての物理攻撃力を大アップ、物理クリティカルを中アップさせる。=Deals moderate P.DMG to an enemy in front and moderately recovers own TP. If lands a critical hit, greatly boosts allies' P.ATK in range and moderately boosts their P.CRIT Rate.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを45アップ自分のＴＰを200回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers own TP by 200.\n\nIf lands a critical hit:\n►Boosts allies' P.ATK in 150 range by $2 for 180s.\n►Boosts allies' P.CRIT Rate in 150 range by 45 for 180s.
 
 ##S2##
 もにカワユニフォーム♪=Moe Cute Uniform♪
@@ -19,3 +19,11 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカル�
 ##EX##
 アオハルアブロード=Youth Abroad
 アオハルアブロード+=Youth Abroad+
+
+##S1+##
+ユースフルショット+=Youthful Shot+
+目の前の敵１キャラに物理大ダメージを与え、自分のＴＰを中回復する。このスキルがクリティカルした場合、自分の周囲の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップさせる。=Deals large P.DMG to an enemy in front and moderately recovers own TP. If lands a critical hit, greatly boosts allies' P.ATK in range and moderately boosts their P.CRIT Rate.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを90アップ自分のＴＰを200回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers own TP by 200.\n\nIf lands a critical hit:\n►Boosts allies' P.ATK in 150 range by $2 for 180s.\n►Boosts allies' P.CRIT Rate in 150 range by 90 for 180s.
+
+##UE##
+アオハルスクールバッグ=Youthful School Bag

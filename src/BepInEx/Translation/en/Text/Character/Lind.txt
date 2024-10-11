@@ -1,0 +1,23 @@
+##Profile##
+【魔法】後衛で、メイド業に奔走する双子ドラゴンの姉。ＵＢのフィールド展開中は攻撃、防御、ＴＰ回復と多彩な支援スキルの効果が再発動し味方を手厚くサポートする。=[Magic] The eldest sister of the dragon maid twins, who devotes herself to her maid duties in the backline. Her UB deploys a field which buffs attack and defense and gives TP, and reactivates the effects of her support skills. With these, she gives a refined and polite support.
+
+豊田萌絵=Toyoda Moe
+妹と過ごす休日=Days off with my sister
+
+##UB##
+シンシアリーサービス=Sincere Service
+自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。さらに、ＨＰを中回復し、範囲内の味方すべてのＨＰを小回復するフィールドを展開する。=Massively boosts allies' M.ATK in range, greatly boosts their M.CRIT Rate, slightly boosts their M.CRIT DMG, and moderately recovers their HP. Also deploys a field around oneself that continuously recovers allies' HP in range.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを100アップ範囲内の味方の魔法攻撃クリティカル時のダメージを10％アップ範囲内の味方のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Boosts allies' M.ATK in 300 range by $1 for 18s.\n►Boosts allies' M.CRIT Rate in 300 range by 100 for 18s.\n►Boosts allies' M.CRIT DMG in 300 range by 10% for 18s.\n►Recovers allies' HP in 300 range by $2.\n►Deploys a 410 radius field that recovers allies' HP by $3/s for 18s.
+
+##S1##
+お掃除します！=I'll Clean Up!
+自分を中心とした範囲内の味方すべての魔法攻撃力と魔法クリティカルを中アップ、魔法攻撃クリティカル時のダメージを小アップさせる。【フィールド展開中】このスキルの効果がもう一度発動する。=Moderately boosts allies' M.ATK and M.CRIT Rate in range, and slightly boosts their M.CRIT DMG. The skill activates twice if her field is in effect.
+r:"^フィールド展開中、以下の効果がもう一度発動する範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを50アップ範囲内の味方の魔法攻撃クリティカル時のダメージを4％アップ$"=►Boosts allies' M.ATK in 300 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 300 range by 50 for 12s.\n►Boosts allies' M.CRIT DMG in 300 range by 4% for 12s.
+
+##S2##
+差し入れですよ♪=A Treat For You ♪
+自分を中心とした範囲内の味方すべての魔法攻撃力と魔法防御力を中アップし、魔法無効バリアを展開する。さらに、ＴＰを小回復する。【フィールド展開中】このスキルの効果がもう一度発動する。=Moderately boosts allies' M.ATK and M.DEF in range, deploys Barrier over allies in range that negates M.DMG, and slightly recovers their TP. The skill activates twice if her field is in effect.
+r:"^フィールド展開中、以下の効果がもう一度発動する範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する範囲内の味方のＴＰを60回復$"=►Boosts allies' M.ATK in 300 range by $1 for 12s.\n►Boosts allies' M.DEF in 300 range by $2 for 12s.\n►Deploys Barrier over allies in 300 range that negates $3 M.DMG for 12s.\n►Recovers allies' TP in range by 60.
+
+##EX##
+お洗濯マイスター=Laundry Meister

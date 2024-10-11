@@ -9,13 +9,21 @@ r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法�
 ##S1##
 ブックオブエンハンス=Book of Enhancement
 魔法攻撃を行うすべての味方キャラの魔法攻撃力を特大アップさせ、行動速度を大アップさせる。=Greatly boosts all M-type allies' M.ATK and greatly boosts their action speed.
-r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の行動速度アップ$"=Cast time: 0.59s\n►Boosts all M-type allies' M.ATK by $1 for 12s.\n►Boosts all M-type allies' action speed to 160% for 12s.
+r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の行動速度アップ$"=►Boosts all M-type allies' M.ATK by $1 for 12s.\n►Boosts all M-type allies' action speed to 160% for 12s.
 
 ##S2##
 ライトオブユース=Light of Youth
 最も遠くの味方１キャラを中心とした範囲内の味方すべての物理防御力と魔法防御力を中アップさせ、ＴＰを小回復させる。=Moderately boosts allies' P.DEF and M.DEF in range around a farthest ally and slightly recovers their TP.
-r:"^範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方のＴＰを70回復$"=Cast time: 0.59s\n►Boosts allies' P.DEF in 250 range by $1 for 12s.\n►Boosts allies' M.DEF in range by $2 for 12s.\n►Recovers allies' TP in 250 range by 70.
+r:"^範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方のＴＰを70回復$"=►Boosts allies' P.DEF in 250 range by $1 for 12s.\n►Boosts allies' M.DEF in range by $2 for 12s.\n►Recovers allies' TP in 250 range by 70.
 
 ##EX##
 スクールデイズシャイネス=School Days Shyness
 スクールデイズシャイネス+=School Days Shyness+
+
+##S1+##
+ブックオブエンハンス+=Book of Enhancements+
+魔法攻撃を行うすべての味方キャラの魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、行動速度を大アップさせる。=Massively boosts all M-type allies' M.ATK and greatly boosts their M.CRIT Rate and action speed.
+r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリティカルを120アップ対象の味方の行動速度アップ$"=►Boosts all M-type allies' M.ATK by $1 for 12s.\n►Boosts all M-type allies' M.CRIT Rate by 120 for 12s.\n►Boosts all M-type allies' action speed to 160% for 12s.
+
+##UE##
+セイシュンスクエアハット=Youthful Square Hat
