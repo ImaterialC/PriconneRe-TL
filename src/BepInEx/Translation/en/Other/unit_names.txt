@@ -561,7 +561,7 @@
 リリ（フォールン）=Riri (Fallen);Lili (Fallen);Lily (Fallen);FRiri;FLili;FLily;Fallen
 
 アオイ（編入生）=Aoi (Student);Aoi (Transfer Student);TsAoi;StAoi;Student
-キャル（編入生）=Karyl (Student);Karyl (Transfer Student);Kyaru (Student);TsKaryl;TsKaryl;Kyaru (Student);StKaryl;StKaryl;Student
+キャル（編入生）=Karyl (Student);Karyl (Transfer Student);Kyaru (Student);TsKaryl;TsKyaru;StKaryl;StKyaru;Student
 スズナ（編入生）=Suzuna (Student);Suzuna (Transfer Student);TsSuzuna;TsSuzuna;StSuzuna;StSuzuna;Student
 
 ユイ（アストラル）=Yui (Astral);AYui;Astral

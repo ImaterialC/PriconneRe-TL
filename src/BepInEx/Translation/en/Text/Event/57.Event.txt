@@ -2,12 +2,7 @@ everyone came, there was a girl walking with a sad face.
 r:"^ランドソル 繁華街([0-9\-\(\)\w （）]*)$"=Landosol Downtown $1
 r:"^ランドソル　繁華街([0-9\-\(\)\w （）]*)$"=Landosol Downtown $1
 アンハッピートレント=Unhappy Trent
-ヨリ・アカリ=Yori&Akari
-ラフィ・エミィ=Rafi & Emi
-ラフィ=Rafi
-エミィ=Emi
-女性１=Women 1
-女性１=Women 1
+
 
 混ぜるな危険=Don't mix
 ターゲット=Target

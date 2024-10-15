@@ -242,11 +242,9 @@
 さあ、美味しそうな餌がありますよ。\n来なさい──！=Come on, we've got some tasty food for you. Come on!
 さすがのレムちゃんでもこれは無理だ！=Even LEM -chan can't do this!
 招き寄せんなぁぁぁぁ！！！！=Don't lure meeeeeee!!!!
-レム・漁師１=Rem Fisherman 1
 レムちゃん、手を繋いで！=LEM -chan, hold my hand!
 ダメだ間に合わない……！=No, I won't make it...!
 レムちゃんーーーーーー！！！！=LEM -chan!!!!
-漁師１・漁師２=Fisherman 1 and Fisher 2
 アタリました！=Attagirl!
 んなぁぁぁぁ！？=Whaaaaat?!
 基本に忠実に、竿を合わせて……巻き上げます！=I'll stick to the basics, match the rod... and roll it up!
@@ -373,7 +371,6 @@
 レムの本気を目の当りにし、\nスバルたちはきっとこのイベントを楽しんでくれる。\nそう確信した{playername}なのであった。=Witnessing Rem’s seriousness, Subaru and the others would surely enjoy this event. That was what {playername} was convinced of.
 
 今日は下見をしよう。=Let's do a preliminary inspection today.
-主催者=Host
 手伝わせてください。=Please let me help you.
 何か思いついた？=Did you think of something?
 大盛り上がりだね！=It's going to be a blast!
@@ -525,7 +522,6 @@
 でも、スバルも乗りたそう。=But apparently, Subaru wanted to ride it, too.
 それはダメだよ。=You can't do that.
 ううん、スバルに乗ってほしい。=No, I want Subaru to ride it.
-レム・スバル=Rem Subaru
 ビーチフラッグ対決は？=What about the beach flag showdown?
 勝負だ！=Let's fight!
 ん？　あれ、旗だ。=Hm? That's the flag.

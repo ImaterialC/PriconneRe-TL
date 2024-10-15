@@ -323,12 +323,10 @@
 記憶を失った{playername}のお世話を引き受けたエミリアたち。\n彼女たちは立派なママへの第一歩を踏み出すのであった。=Emilia and the others took on the responsibility of looking after {playername}, who had lost their memories.\nThey took the first step toward becoming great moms.
 あい！=Yes!
 もふもふ！=Fluffy!
-コッコロ・エミリア=Kokkoro - Emilia
 すばる……？=Subaru...?
 もふもふー！=Fluffy!
 パックの尻尾を掴む。=Grabs Puck's tail.
 ……ママ……=...Mom...
-ラム・エミリア・レム=Ram, Emilia, Rem
 記憶を失った{playername}を預かり、お世話をする決意をしたエミリアたち。思った以上の難しさに悪戦苦闘しているところに『熟練者たち』が現れ、お世話のコツを学ぶエミリアたちだった。=Emilia and the others decided to take in and care for {playername}, who lost their memory. While struggling more than they expected, 'experienced individuals' appeared, and Emilia and the others learned the tricks of taking care of someone.
 記憶を失った{playername}を預かったエミリアたち。\n立派なママになることを決意した彼女たちだったが……=Emilia and the others took in {playername}, who lost their memory. They decided to become proper mothers, but...
 待ってくださいっ。\nそんなに走ると転んでしまいます！=Wait. You'll fall if you run like that!
@@ -459,7 +457,6 @@
 あそぶー！=Let's play!
 はーい……=Okaaay...
 たのしかったー！=That was fun!
-ラム・ネネカ=Ram・Neneka
 まま！　まま！=Mama! Mama!
 ……ねーか……？=……Nee ka……?
 ね、ね、か……=Ne, Ne, ka……
@@ -578,7 +575,6 @@
 ……ばぶ？=...Babu?
 ……うえぇ……=...Uee...
 ばぶー♪=Babu♪
-ランファ・エキドナ=Ranpha Echidna
 ……や！=...Yah!
 どな！=Dona!
 エミリアたちはシロクジラと遭遇しそれを撃破する。喜ぶ彼女たちだったが、合流した【美食殿】も同時期に倒したという。直後、困惑する彼女たちの前に姿を現したのは、空を駆け分裂したシロクジラであった。=Emilia and her companions encountered and defeated the White Whale. While they were celebrating, they heard that the Gourmet Guild had also defeated it at the same time. Immediately afterward, the White Whale, now flying and split into multiple parts, appeared before their bewildered eyes.
@@ -798,8 +794,6 @@
 海水浴客３=Beachgoer 3
 仲間も増えたことだし、\nみんなで盛大に盛り上がっとこうぜ！=We've got more friends now,\nso let's all have a great time together!
 スバルと{playername}は拳を軽く合わせ、\n駆けつけてくる少女たちの輪に加わるのであった。=Subaru and {playername} lightly bump fists,\njoining the circle of girls running towards them.
-海水浴客たち=Beachgoers
-ペコリーヌ・エミリア=Pecorine & Emilia
 スバ、ル……？=Suba, ru...?
 戻ってきた。=I'm back.
 やろう、スバル。=Let's do this, Subaru.
@@ -918,7 +912,6 @@
 スバルと話したくて。=I wanted to talk to Subaru.
 スバルもすぐ慣れるよ。=Subaru will get used to it soon.
 スバルにも絆があるでしょ。=Subaru also has bonds, right?
-エミリア・スバル=Emilia & Subaru
 真夏のビーチにて、皆さまとラジーオタイソーに励みましょう。\n日替わりで当番を務められる方々が、ご自身で考案されたタイソーを\n披露してくださるとか。どんなタイソーがあるのか、楽しみですね。=At the midsummer beach, let's all work hard on radio calisthenics together.\nIt seems that those on daily duty will be showcasing their own devised calisthenics.\nI'm looking forward to seeing what kinds of calisthenics there are.
 ラジーオタイソーに参加するごとに、スタンプカードにハンコが\n押されていきますよ。タイソーは全部で6日ぶん用意されるようです。\n積極的に参加して、スタンプカードの完成を目指しましょう。=Each time you participate in radio calisthenics, a stamp will be\nadded to your stamp card. It seems that a total of six days of calisthenics\nare being prepared. Let's actively participate and aim to complete the stamp card.
 体操した後に食べるごはん…これはもう絶対おいしいですよ☆=The meal you eat after doing calisthenics... It's absolutely delicious☆

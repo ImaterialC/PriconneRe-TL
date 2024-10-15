@@ -1,5 +1,4 @@
 
-カヤ・ノゾミ=Kaya Nozomi
 r:"^追想のデフラグが\n(\d+)個解放されました。$"=$1 Reminiscent defrag\nhas been unlocked.
 追想のデフラグ エピソード解放=Reminiscence Defrag Episode has been Unlocked.
 楽園の守護者=Paradise Guardian
