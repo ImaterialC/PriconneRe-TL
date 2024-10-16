@@ -1,0 +1,18 @@
+３rdアニバーサリーフォトブック=3rd Anniversary Photobook
+フォト\nブック=Photobook
+追憶の戦域=Battlefield of Reminiscence
+追憶戦=Reminiscence
+追憶戦・覇=Reminiscence and Conquest
+
+宝箱詳細=Chest Details
+受け取り=Receipt
+次の報酬まで\n--:--=Until the next reward:
+
+ゼーンの領域=Zane's Domain
+r:"^ゼーンの領域(\d+)層$"=Zane Level $1
+覇瞳皇帝の領域=Omniscient Kaiser's\nDomain
+r:"^覇瞳皇帝の領域(\d+)層$"=Omniscient Kaiser Level $1
+
+r:"^記憶領域(\d+)層$"=Memory Level $1
+
+サーヴァント・ブレド=Servant Blade

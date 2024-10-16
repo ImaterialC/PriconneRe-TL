@@ -1,4 +1,3 @@
-コネクトコイン=Connect coin
 コネクトショップ=Connect Shop
 コネクト=Connect
 主さま、コネクトショップではコネクトコインを使って貴重なアイテムと交換ができるようです。コネクトコインはガチャを引くことで手に入りますよ。=My Lord, it seems that at the Connect Shop, you can exchange valuable items using Connect Coins. Connect Coins can be obtained by drawing from the gacha.
@@ -9,5 +8,3 @@ r:"^\[3C404E\]\[3B3F4D\]過去に開催されたガチャで、\n未獲得とな
 r:"^\[3C404E\]\[3B3F4D\]毎月1回購入できるマスターピースです。\n購入しなかったマスターピースは\n次月以降も購入可能となります。\n\nあと\[-\]\[FFBB00\,CE4F00\](\d+)回\[-\]\[3B3F4D\]購入できます。\[-\]\[-\]$"=[3C404E][3B3F4D]This is a Masterpiece that can be purchased once every month. Masterpieces not purchased will remain available for purchase in the following months.[-]\n\n You can purchase it [FFBB00,CE4F00]$1[-] more time.[-]
 （マスターショップ）= (Master Shop)
 
-コネクトコイン不足=Insufficient Connect Coins
-購入に必要なコネクトコインが不足しています。=You don't have enough Connect Coins to purchase.

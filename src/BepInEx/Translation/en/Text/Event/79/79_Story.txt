@@ -1,7 +1,7 @@
 ------1------
-錬金術のお店アルケス錬金堂の一日店長を引き受けたノゾミは、{playername}と共に店へ向かう。人影のない工房で『禁断の秘薬』と書かれた小瓶を見つけたノゾミは、不手際でそれを飲んでしまう。=Nozomi, who has accepted to be the store manager for a day at the Alchemist's Workshop, heads to the store with {playername}. In the deserted workshop, Nozomi finds a small bottle labeled 'Forbidden Elixir' and accidentally drinks it due to a mishap.
+錬金術のお店アルケス錬金堂の一日店長を引き受けたノゾミは、{playername}と共に店へ向かう。人影のない工房で『禁断の秘薬』と書かれた小瓶を見つけたノゾミは、不手際でそれを飲んでしまう。=Nozomi, who has accepted to be the store manager for a day at the Atelier Alces, heads to the store with {playername}. In the deserted workshop, Nozomi finds a small bottle labeled 'Forbidden Elixir' and accidentally drinks it due to a mishap.
 おコゲ=Charcoal
-ここはアルケス錬金堂──\nランドソルの路地裏にひっそりと佇む奇妙な部屋で、\n鹿の角を生やした少女がため息をついていた。=This is Arcés Alchemy Hall──\nin a strange room quietly standing in the back alleys of Landosol,\na girl with deer antlers was sighing.
+ここはアルケス錬金堂──\nランドソルの路地裏にひっそりと佇む奇妙な部屋で、\n鹿の角を生やした少女がため息をついていた。=This is Atelier Alces──\nin a strange room quietly standing in the back alleys of Landosol,\na girl with deer antlers was sighing.
 ……はあ。運命の王子さま……\nあなたは今どこで、なにをしているの？=……Sigh. My destined prince……\nWhere are you now and what are you doing?
 あなたのことを考えるだけで、\n私の胸は今にもドキドキ破裂しそう……\nなぜなら、そう──=Just thinking about you\nmakes my heart race and feel like it's about to explode...\nBecause, well──
 ビコーズ、アイラビュー……=Because I love you...
@@ -25,7 +25,7 @@
 自分から聞いといてスルーしないでくれる！？=Can you not ignore me after asking!?
 ……ったく、できてるわよ。\nそこに掛けてる衣装がそうよ。=...Geez, it's ready.\nThe outfit hanging over there is it.
 おお、錬金術の力でこんなに素敵な衣装が作れちゃうなんて。\nさすがルイちゃんだね。=Oh, to think such a wonderful outfit can be made with alchemy.\nAs expected of Rui-chan.
-ふん。当然でしょ。\n偉大な錬金術師のおばあさまを超える才能。\nこの私！　天才錬金術師・ルイズマリーさまの手に掛かればね！=Hmph. Of course.\nI have a talent that surpasses my great alchemist grandmother.\nIn my hands, I, the genius alchemist Luizmary-sama, can do it!
+ふん。当然でしょ。\n偉大な錬金術師のおばあさまを超える才能。\nこの私！　天才錬金術師・ルイズマリーさまの手に掛かればね！=Hmph. Of course.\nI have a talent that surpasses my great alchemist grandmother.\nIn my hands, I, the genius alchemist Louise Marie-sama, can do it!
 自分をさま付けで呼ぶのって、\n大体悪者ってソウバは決まってるんだよ？=Calling oneself with -sama is typically reserved for villains, you know.
 だ、誰が悪者よ！=W-Who's a villain!
 それよりそのお洋服ってなーに？=By the way, what's that outfit?
@@ -61,10 +61,10 @@
 ……って私、何言ってるんだろ！？=...Wait, what am I saying!?
 やば……キミと二人っきりだから油断しちゃったかも。\nい……今のなしっ！　聞かなかったことにしてね……！？=Oh no... Maybe I let my guard down because it's just the two of us.\nI... forget what I just said! Pretend you didn't hear it, okay...?
 さ、さーてと……それよりもお店はどこかな？\n地図だとこの辺りのはずなんだけど……=S-So then... more importantly, where's the shop?\nAccording to the map, it should be around here...
-えっとね、お店の名前は、アルケス錬金堂。\n『無いものは無いお店』……だってさ。=Um, the name of the shop is Arcés Alchemy House.\nThey say it's a 'shop that has everything'...
+えっとね、お店の名前は、アルケス錬金堂。\n『無いものは無いお店』……だってさ。=Um, the name of the shop is Atelier Alces.\nThey say it's a 'shop that has everything'...
 ……『無いものは無いお店』か。それがほんとならすごいよね！\n何でも置いてある宮殿みたいに大きいお店なのかな？\nだけどこの近所にはそんな建物はないし……=...A 'shop that has everything,' huh. If that's true, it's amazing!\nIs it a big shop like a palace that has everything in it?\nBut there's no such building in this area...
 ……小さい。=...It's small.
-……あ、看板。\nアルケス錬金堂……うん、ここだね。\n……小さいとか言ってごめんなさいっ！=...Ah, a signboard.\nArcés Alchemy House... yep, this is the place.\n...Sorry for saying it's small!
+……あ、看板。\nアルケス錬金堂……うん、ここだね。\n……小さいとか言ってごめんなさいっ！=...Ah, a signboard.\nAtelier Alces... yep, this is the place.\n...Sorry for saying it's small!
 じゃ、早速入ってみよっか！\nごめんくださーい！=Well then, let's go in right away!\nExcuse me!
 ……あれ、鍵が閉まってる。\n約束の時間は合ってるよね……？=...Huh, it's locked.\nWe have the right appointment time, don't we...?
 ……あのー、すみませーん！\n本日お世話になる【カルミナ】のノゾミでーす！\nどなたかいらっしゃいませんかー！=...Um, excuse me!\nI'm Nozomi from Carmina, here for today's appointment!\nIs anyone here?
@@ -116,7 +116,7 @@
 ええ～～～っ！？=Ehhh~~~!?
 ------2------
 ノゾミの隠しごと=Nozomi's Secret
-{playername}の匂いに興奮するノゾミ。押し倒し匂いを嗅いでいる所を【アルケス錬金堂】の面々に見られてしまい、大騒ぎになる。彼女は秘薬の効果で、極度の匂いフェチとなってしまっていた。=Nozomi gets excited by {playername}'s scent. She is seen by the members of 【Arcés Alchemy Shop】 as she pushes {playername} down and smells their scent, causing a big commotion. Due to the effect of the secret potion, she has become extremely obsessed with scents.
+{playername}の匂いに興奮するノゾミ。押し倒し匂いを嗅いでいる所を【アルケス錬金堂】の面々に見られてしまい、大騒ぎになる。彼女は秘薬の効果で、極度の匂いフェチとなってしまっていた。=Nozomi gets excited by {playername}'s scent. She is seen by the members of 【Atelier Alces】 as she pushes {playername} down and smells their scent, causing a big commotion. Due to the effect of the secret potion, she has become extremely obsessed with scents.
 たっだいまー！！=I'm baaack!!
 イロハー\nくつろぐ前に手洗いとうがいしなさいよー=Iroha-\nWash your hands and gargle before you relax!
 はあ……まったくソノさん勘弁してよ……\n朝っぱらから食品店に駆り出さないでくれる？=Haa... Seriously, Sono, give me a break...\nDon't drag me to the grocery store first thing in the morning, will you?
@@ -174,7 +174,7 @@
 乱数聖域ッ！！！=Sanctuary of Randomness!!!
 きゃああ～～っ！？=Kyaa～～!?
 クリスティーナの乱入によってあっという間に制圧された一同。\n何とか落ち着きを取り戻し──=The group was quickly overpowered by Christina's intervention.\nSomehow, they managed to calm down──
-……じゃあ改めて。\nあなた、一日店長で来てくれたノゾミちゃんだよね。\n私はアルケス錬金堂の店主、ソノです。=…Then, once again.\nYou're Nozomi-chan, who came as the one-day manager, right?\nI'm Sono, the owner of the Arcés Alchemic Shop.
+……じゃあ改めて。\nあなた、一日店長で来てくれたノゾミちゃんだよね。\n私はアルケス錬金堂の店主、ソノです。=…Then, once again.\nYou're Nozomi-chan, who came as the one-day manager, right?\nI'm Sono, the owner of the Atelier Alces.
 とにかくまずは謝らないと。うちの錬金術師が急にごめんなさいね。\nほら、ルイちゃんも頭下げて。=Anyway, first of all, I have to apologize. Sorry for our alchemist's sudden behavior.\nCome on, Rui-chan, apologize too.
 あ、あの……こちらこそ、\n無断であなたの工房に入ってごめんなさい。=Ah, um... I'm sorry too\nfor entering your workshop without permission.
 これに関しては、今日のことを忘れて買い物に出ちゃった\nうちらが全面的に悪いから、気にしないで。=Regarding this, we're the ones at fault for forgetting about today's event\nand going out shopping, so don't worry about it.
@@ -208,7 +208,7 @@
 このことはアイドルになってから、ずっと隠してて……\nチカとツムギ以外の人には誰にも言ってない。\nプロデューサーにも……キミにも、ね。=I've been hiding this ever since I became an idol... I've only told Chika and Tsumugi. Not even the Producer... or you.
 ……実は私、小さい頃から匂いに敏感というか……\n大好きというか、たまらないというか、至高というか……\nもう好きな匂いを嗅いだまま動きたくないというか……=...Actually, I've been sensitive to smells since I was little... or rather, I love them, or they're irresistible to me, or they're supreme, or... I just don't want to move from a nice smell...
 …………………………………………\n…………………………………………\n……………………………………うん。=........................................\n........................................\n..........................Yeah.
-自分は匂いフェチだと告白したノゾミ。\nこのことが、ノゾミと【アルケス錬金堂】の運命を\n大きく変えていく──=Nozomi confessed that she's a scent fetishist.\nThis has greatly changed the fate of Nozomi and\n{Arcés Alchemy Shop}──
+自分は匂いフェチだと告白したノゾミ。\nこのことが、ノゾミと【アルケス錬金堂】の運命を\n大きく変えていく──=Nozomi confessed that she's a scent fetishist.\nThis has greatly changed the fate of Nozomi and\n[Atelier Alces]──
 えへへ～、イロハ強い人好き～♪\nねーもう一回戦いごっこしよ！\nいいでしょ、クリスおねーちゃん！=Ehehe~ Iroha likes strong people~♪\nLet's play fight again!\nC'mon, Chris onee-chan!
 ええいっ！　抱きつくな暑苦しいっ！\n……それより、クリスおねーちゃんだと？\nオマエ、ワタシと同い年くらいだろう？=Hey! Don't hug me, it's too hot!\n...And what's with the Chris onee-chan?\nAren't you about the same age as me?
 ま、まあその話は後日、おいおい、ね。=W-Well, let's talk about that another day, okay?
@@ -250,12 +250,12 @@
 ノゾミンがこんなところに来てくれるなんて！\nしかも一日店長って何やるんだろう？　楽しみだな～！=Nozomin is coming to a place like this! But what does a one-day store manager do anyway? I'm excited!
 早く開店してくれないかな～\nチラシを見た時から待ちきれなくってさ！=I wish they'd open soon. I couldn't wait ever since I saw the flyer!
 ルイちゃん、ソノちゃん。\n開店準備、いいかな？　それじゃあお店、開けるね！=Rui-chan, Sono-chan. Is everything ready to open? Then I'll open the store!
-みんな～♪\nアルケス錬金堂一日店長のノゾミだよ～！\n今日は来てくれてありがと～♪=Everyone~♪ It's Nozomi, the one-day manager of Alches Alchemy! Thank you for coming today~♪
+みんな～♪\nアルケス錬金堂一日店長のノゾミだよ～！\n今日は来てくれてありがと～♪=Everyone~♪ It's Nozomi, the one-day manager of Atelier Alces! Thank you for coming today~♪
 うおおおお～～～っ！！\nノゾミーーーン！！！=Wooooo~~~!! Nozomiiiin!!!
 なっすごい人の数と熱気……っ！！=Wow, look at the number of people and the excitement...!!
 今日はノゾミンから商品を渡してもらえるの！？\nうれしい、じゃあたくさん買っちゃおーっと！=Is Nozomin handing out products today!?\nI'm so happy, I'll buy a lot!
 ……あれ？　でも棚に商品ないけど……\nここって何屋さん？=…Huh? But there's nothing on the shelves...\nWhat kind of store is this?
-ふふ。うちはアルケス錬金堂。\nルイちゃんの錬金術で、\nどんな商品でも作っちゃうお店です。=Fufu. This is Alces Alchemy Hall.\nWith Rui-chan's alchemy,\nwe can create any kind of product.
+ふふ。うちはアルケス錬金堂。\nルイちゃんの錬金術で、\nどんな商品でも作っちゃうお店です。=Fufu. This is Atelier Alces.\nWith Rui-chan's alchemy,\nwe can create any kind of product.
 ……なるほど！\n無いものは無いお店ってそういう事なんだ！=…I see!\nSo that's what they mean by a store that has nothing!
 え、なんでも……？\nじゃ、じゃあ誰も持ってないノゾミングッズとか\n買えちゃったり！？=Anything...?\nThen, does that mean I could buy Nozomin goods that no one else has!?
 え……！？\nさ、さすがにそれは……=Eh...!?\nW-Well, that's a bit...
@@ -268,7 +268,7 @@
 あるよ。=I do.
 じゃ、じゃあオレはノゾミン太もも枕！\nきっとあるよな！？=Th-Then I'll take a Nozomin thigh pillow!\nYou've got that, right!?
 無いです！！=We don't have that!!
-こうして大盛況のアルケス錬金堂。\n客の列は途切れることなく、そして３時間後。=And so, Arcés Alchemy Shop is booming.\nThe line of customers never ends, and three hours later.
+こうして大盛況のアルケス錬金堂。\n客の列は途切れることなく、そして３時間後。=And so, Atelier Alces is booming.\nThe line of customers never ends, and three hours later.
 ふう……ちょっと忙しすぎなんだけど。\nどうなってんのよあの人の人気……\nもはやアイドルショップよこれじゃ。=Phew... It's a bit too busy.\nWhat's with that person's popularity...\nAt this rate, this is practically an idol shop.
 それはともかくあの人にも休憩取らせなくちゃ。\nべっ、別に心配とかじゃないけど……\n一日とはいえうちの店長がぶっ倒れたら困るから。=But anyway, I have to make sure that person takes a break.\nI-It's not because I'm worried or anything...\nEven if it's just for a day, it'd be troubling if our manager collapsed.
 ふふ、どういう方向のツンデレよ。\n{playername}君。私たちも行こう。=Hehe, what kind of tsundere is that.\n{playername}. Let's go too.
@@ -322,7 +322,7 @@
 ノゾミちゃんいてくれるの！？\nクリスおねーちゃんのお友だちだからノゾミちゃんも好き～♪\nねね、一緒にお風呂入ろ～♪=Nozomi-chan, you'll stay with us!?\nSince you're Chris big sister's friend, I like you too, Nozomi-chan~♪\nHey, hey, let's take a bath together~♪
 ちょ、勝手に進めないでよ！\n私は了承なんて……=Hey, don't just decide it on your own!\nI haven't agreed to anything...
 しょ、しょうがないわね……=I-I guess I have no choice...
-こうして薬で変わってしまった体質を治すため、\nノゾミはアルケス錬金堂で働くことになったのだった。=In order to cure the constitution that changed due to the medicine, Nozomi decided to work at Arcés Alchemy Hall.
+こうして薬で変わってしまった体質を治すため、\nノゾミはアルケス錬金堂で働くことになったのだった。=In order to cure the constitution that changed due to the medicine, Nozomi decided to work at Atelier Alces.
 一旦ノゾミを休ませよう……！=Let's let Nozomi rest for a while...!
 わわっ！？　落ち着いて！=Whoa!? Calm down!
 ノゾミ！　落ち着い──=Nozomi! Calm dow──
@@ -331,8 +331,8 @@
 ------4------
 アイドルと錬金術=Idol and Alchemy
 錬金術を試してみるが、上手くいかず失敗ばかりで悩むノゾミ。だが{playername}の言葉に、錬金術もアイドルも人のためになる時に力を発揮できると気づき、見事錬金術を成功させたのだった。=Nozomi tried alchemy but was troubled by repeated failures. However, thanks to {playername}'s words, she realized that whether it's alchemy or being an idol, they can be powerful when they are for people, and she was able to successfully perform alchemy.
-ノゾミと{playername}がアルケス錬金堂で働き始めてから\n数日たったある日。今日もノゾミはファンのお客さんに対し、\n笑顔で接客をしていた。=A few days after Nozomi and {playername} started working at Arcés Alchemy Hall. Today again, Nozomi greeted her fan customers with a smile.
-お買い上げありがとうございました～！\n今後ともアルケス錬金堂をご贔屓に♪=Thank you for your purchase! Please continue to favor Arcés Alchemy Hall in the future♪
+ノゾミと{playername}がアルケス錬金堂で働き始めてから\n数日たったある日。今日もノゾミはファンのお客さんに対し、\n笑顔で接客をしていた。=A few days after Nozomi and {playername} started working at Atelier Alces. Today again, Nozomi greeted her fan customers with a smile.
+お買い上げありがとうございました～！\n今後ともアルケス錬金堂をご贔屓に♪=Thank you for your purchase! Please continue to favor Atelier Alces in the future♪
 うん、また来るよノゾミン！\n今度はノゾミンに作ってもらいたいな。錬金アイテム！=Yeah, I'll come again, Nozomin!\nNext time, I want you to make something for me. An alchemy item!
 あはは、機会があれば！=Haha, if there's a chance!
 その日のお昼休憩。=That day's lunch break.
@@ -445,7 +445,6 @@
 うん、いい友達に見えた。=Yeah, they looked like good friends.
 うん。まるで魔法みたいだね！=Yeah. It's like magic!
 ……抱きしめ……？=...Hug...? 
-アルケス錬金堂=Arcés Alchemy Shop
 歌とダンスは初めからできたの？=Could you sing and dance from the start?
 ……なら、方法は一つしかないよ。=...Then, there's only one way.
 ノゾミ、素材を見つけてきたよ！=Nozomi, I found the materials!
@@ -454,8 +453,8 @@
 ルイちゃん、その解毒薬は？=Rui-chan, what about that antidote?
 ------5------
 二人の秘密=The Secret Between the Two
-リンドとヴルムの依頼を受け、入れ替わりの薬の素材探しにジオ・テオゴニアを訪れたノゾミと【アルケス錬金堂】。そこで{playername}は、イロハとソノが入れ替わり状態である事を打ち明けられる。=Accepting the request from Lind and Wyrm, Nozomi and Arcés Alchemy Hall visited Geo Theogonia to search for ingredients for the body swapping potion. There, {playername} is informed that Iroha and Sono have swapped bodies.
-いつものアルケス錬金堂、店内。\nイロハがソノにじゃれついていた。=At the usual Arcés Alchemy Hall, inside the shop.\nIroha was playfully clinging to Sono.
+リンドとヴルムの依頼を受け、入れ替わりの薬の素材探しにジオ・テオゴニアを訪れたノゾミと【アルケス錬金堂】。そこで{playername}は、イロハとソノが入れ替わり状態である事を打ち明けられる。=Accepting the request from Lind and Wyrm, Nozomi and Atelier Alces visited Gio Teogonia to search for ingredients for the body swapping potion. There, {playername} is informed that Iroha and Sono have swapped bodies.
+いつものアルケス錬金堂、店内。\nイロハがソノにじゃれついていた。=At the usual Atelier Alces, inside the shop.\nIroha was playfully clinging to Sono.
 ねーねーソノちゃん。\n明日お店お休みだから一緒にお出かけしよ！\nイロハね、遊園地行きたい！=Hey, hey Sono-chan.\nThe shop is closed tomorrow, so let's go out together!\nI want to go to the amusement park!
 んー、めんどい。\nたまの休みぐらいゴロゴロさせて。\nあんたみたいな元気印と違って、一日休まないと回復しないんだわ……=Hmm, it's a hassle.\nI want to laze around on my day off.\nUnlike someone energetic like you, I need a whole day to recover…
 えー、いっつもゴロゴロダラダラしてんじゃんっ！\nねえ、ソノちゃんお願～いっ。おーでーかーけーしーよー！=Eh, you're always lazing around anyway!\nPlease, Sono-chan, let's go out!
@@ -507,7 +506,7 @@
 はあ……\nったくあの健康優良児が。=Haah...\nThat super healthy girl, seriously.
 ……あっと、油断した。\nま、君には伝えとくか──=...Oh, I let my guard down.\nWell, I guess I'll let you know──
 グランドリームパークへとやってきた\nイロハとソノ、{playername}は\n遊園地を満喫していた。そして──=Iroha, Sono, and {playername} arrived at Grand Dream Park\nand were enjoying the amusement park. And then──
-一方のルイズマリーとノゾミはリンドとヴルムに案内され\nジオ・テオゴニアに素材探しにやってきたのだが──=Meanwhile, Louise Mary and Nozomi, guided by Lind and Wyrm,\ncame to Geo Theogonia to gather materials, but──
+一方のルイズマリーとノゾミはリンドとヴルムに案内され\nジオ・テオゴニアに素材探しにやってきたのだが──=Meanwhile, Louise Mary and Nozomi, guided by Lind and Wyrm,\ncame to Geo Teogonia to gather materials, but──
 はぁぁ♪　甘い香りに満たされて、幸せ……♪=Haaa♪ Surrounded by a sweet scent, it's happiness...♪
 植物がたくさんある場所、というとこの辺りですね。\n素材に使えそうなもの、ありそうですか？=If we're talking about places with lots of plants, I guess around here.\nDo you think there are any materials we could use?
 私たちの世界の植物とはずいぶん違うのね……\nふわふわしてて……どれもお菓子みたい。\n……きっと……ここで見つけられるはずよ！=The plants here are quite different from those in our world...\nThey're fluffy...like sweets.\n...Surely... I should be able to find it here!
@@ -606,7 +605,7 @@
 はっくしょんっ！！=Achoo!!
 ……っ！！　クンクン、はふぅ……♪\nいい匂～～～い♪=...!! Sniff sniff, haa...♪\nWhat a nice smell～～～♪
 は、破廉恥やめなさ～いっ！！=S-stop doing indecent things!!
-こうしてアルケス錬金堂の、\nカオスな夜は更けていったのだった──=And so, at Arcés Alchemy,\nchaos filled the night──
+こうしてアルケス錬金堂の、\nカオスな夜は更けていったのだった──=And so, at Atelier Alces,\nchaos filled the night──
 うん、僕も思ってた。=Yeah, I thought so too.
 リンドちゃん！　どうしてここに？=Lindou-chan! Why are you here?
 マスクしてっ！！=Wear a mask!!
@@ -627,7 +626,7 @@
 ------6------
 ここにいるべきじゃない人=A person who shouldn't be here
 ノゾミは元気を失った客のためステージの装飾を錬成し、アイドルパフォーマンスで元気を取り戻させる。しかしそれを見たルイズマリーは、ノゾミはアイドルに戻るべきだと痛感し、彼女にクビを言い渡す。=Nozomi creates stage decorations for the dispirited guests, using idol performances to cheer them up. However, seeing this, Louise Marie feels strongly that Nozomi should return to being an idol and decides to dismiss her.
-ノゾミと{playername}が\nアルケス錬金堂で働き出してから、約10日が過ぎた。=About ten days have passed since Nozomi and {playername} started working at the Arcés Alchemy Lab.
+ノゾミと{playername}が\nアルケス錬金堂で働き出してから、約10日が過ぎた。=About ten days have passed since Nozomi and {playername} started working at the Atelier Alces.
 ……はいっ、ポーション完成っ！！\nルイちゃんっ、これでどうかな？=…Alright, the potion is complete!!\nRui-chan, how's this?
 ……ふーん。\n……ま、合格点あげてもいいわ。\n超ギリギリのおまけだけど。=…Hmmm.\n…Well, I guess I'll give it a passing score.\nBut just barely, as a bonus.
 やったー、師匠からのお墨付きだー♪\n……クンクンクン！　はぁぁ……幸せ……\nここまで頑張れたのはルイちゃんの優しい匂いのおかげかも！=Yay, a stamp of approval from Master♪\n…Sniff sniff! Ahhh… bliss…\nIt's thanks to Rui-chan's gentle scent that I was able to get this far!
@@ -699,7 +698,7 @@
 すごい……めっちゃ元気になった。\nノゾミちゃん、あんたすごいよ……！=Wow... I feel so energized now.\nNozomi-chan, you're amazing...!
 うんっ！！\nノゾミちゃんの歌とダンスもすっごくかっこよかった！\nアイドルってすごいんだね！！=Yeah!!\nNozomi-chan's singing and dancing were really cool!\nIdols are amazing!!
 えへへ、ありがとう♪=Ehehe, thank you♪
-……ルイちゃんも私に任せてくれてありがとう。\n【アルケス錬金堂】のメンバーとして、\nちょっとは貢献できたかな？=…Thank you for trusting me too, Rui-chan.\nAs a member of the Arcés Alchemy Guild,\nwas I able to contribute a bit?
+……ルイちゃんも私に任せてくれてありがとう。\n【アルケス錬金堂】のメンバーとして、\nちょっとは貢献できたかな？=…Thank you for trusting me too, Rui-chan.\nAs a member of the Atelier Alces Guild,\nwas I able to contribute a bit?
 ……ノゾミ。=...Nozomi.
 なに、ルイちゃん♪=What is it, Rui-chan♪
 あなた、明日でクビよ。=You're fired as of tomorrow.
@@ -742,8 +741,8 @@
 顔が赤いけど……熱？=Your face is red... Fever?
 ------7------
 最後の錬金術=The Last Alchemy
-お世話になった【アルケス錬金堂】へ、自作の香水を贈りたいノゾミ。助言にきたルイズマリーとイロハ、ソノと共に、素材集めの冒険に旅立つ。見事素材を手に入れたノゾミは、最高の香水を完成させた。=Nozomi wants to send a homemade perfume to Alches Alchemy Shop, which has taken care of her. Together with Louise Marie, Iroha, and Sono, who came to give advice, they set off on an adventure to gather materials. Nozomi, having successfully obtained the materials, completed the perfect perfume.
-今日はノゾミがアルケス錬金堂で働く最後の日。\n{playername}は早朝の工房で、\n錬金釜に向かうノゾミを見つけ声をかけた。=Today is Nozomi's last day working at Alches Alchemy Shop.\n{playername} found Nozomi facing the alchemy pot in the workshop early in the morning and called out.
+お世話になった【アルケス錬金堂】へ、自作の香水を贈りたいノゾミ。助言にきたルイズマリーとイロハ、ソノと共に、素材集めの冒険に旅立つ。見事素材を手に入れたノゾミは、最高の香水を完成させた。=Nozomi wants to send a homemade perfume to Atelier Alces Shop, which has taken care of her. Together with Louise Marie, Iroha, and Sono, who came to give advice, they set off on an adventure to gather materials. Nozomi, having successfully obtained the materials, completed the perfect perfume.
+今日はノゾミがアルケス錬金堂で働く最後の日。\n{playername}は早朝の工房で、\n錬金釜に向かうノゾミを見つけ声をかけた。=Today is Nozomi's last day working at Atelier Alces Shop.\n{playername} found Nozomi facing the alchemy pot in the workshop early in the morning and called out.
 あ、おはよー\n……っと、ストップ！\nマスクするまで近づかないでっ！=Ah, good morning\n...Wait, stop!\nDon't come closer until I put on a mask!
 うん……でもまだ飲んでないの。\n匂いに敏感なうちにやりたいことがあったから。=Yes... But I haven't drunk it yet.\nThere was something I wanted to do while I'm still sensitive to smells.
 私ね……みんなへの恩返しに、香水を作りたいの！\n匂いフェチの匂いフェチによる、みんなのための最高の香水を！=You know... I want to make a perfume to repay everyone! A perfect perfume, by and for fragrance maniacs!
@@ -799,7 +798,7 @@
 こんな大型の魔物の自由を一瞬で奪うなんて……\nこれが今まで冒険者たちを返り討ちにした毒ガスか……！=To take away the freedom of such a large monster in an instant... Is this the poison gas that defeated adventurers so far...!
 ……みんな、ここは私に任せて逃げて！=...Everyone, leave this to me and run away!
 ……みんなに手出しはさせない……！\n私が命に替えてもみんなを守る……！=...I won't let anyone lay a finger on you all...! Even if it costs my life, I'll protect everyone...!
-大好きな【アルケス錬金堂】のみんなを！！=My beloved members of 【Arcés Alchemy Hall】!!
+大好きな【アルケス錬金堂】のみんなを！！=My beloved members of 【Atelier Alces】!!
 ……ノゾミにだけかっこつけさせないわ！\nあなたは私が守る……だってあなたは私の……！=...I won't let Nozomi be the only cool one! I'll protect you... because you are my...!
 私の大切な一番弟子だから！！=My precious first disciple!!
 ルイちゃんっ！=Rui-chan!
@@ -854,7 +853,7 @@
 早速出したな、フンの部分。=There you go, that's the dung part.
 ……ったく、今日でノゾミちゃんとお別れなのに、\n締まらない子たちだね～\nふふ……ま、それがうちららしいか。=Geez, even though today is our last day with Nozomi-chan, you guys just can't get it together~ Hehe... well, that's just like us.
 うん！　では改めて！=Yeah! So, once again!
-【アルケス錬金堂】のみなさん！\n今日までお世話になりました！=Everyone at the 【Arcés Alchemy】! Thank you for taking care of me until today!
+【アルケス錬金堂】のみなさん！\n今日までお世話になりました！=Everyone at the 【Atelier Alces】! Thank you for taking care of me until today!
 こうしてノゾミの錬金術師としての生活は、\n終わりを迎えたのであった──=And so, Nozomi's life as an alchemist came to an end──
 特効薬を貰ったんじゃなかった？=Didn't you get the special medicine?
 納得いく出来じゃない？=Isn't it satisfactory?
@@ -863,8 +862,8 @@
 ノゾミ、大丈夫？=Nozomi, are you okay?
 ルイちゃんは素敵な女の子だ！=Rui-chan is a wonderful girl!
 ------8------
-ノゾミのソロライブに招待された【アルケス錬金堂】は、大盛り上がりでノゾミのステージを見つめる。一方ノゾミは、３人への感謝の言葉を述べ、錬金堂での楽しかった日々を綴った新曲を披露したのだった。=Nozomi invited Arcés Alchemy Shop to her solo live show, and they watched Nozomi's stage with great enthusiasm. Meanwhile, Nozomi expressed her gratitude to the three and performed a new song about the fun days at the Alchemy Shop.
-ノゾミがアルケス錬金堂を去り、早一月。\nアルケス錬金堂の工房では、\nいつものように錬金釜の前に立つルイズマリーの姿があった。=It’s been a month since Nozomi left Arcés Alchemy Shop.\nIn the workshop of Arcés Alchemy Shop,\nLuizmary stood in front of the alchemy cauldron as usual.
+ノゾミのソロライブに招待された【アルケス錬金堂】は、大盛り上がりでノゾミのステージを見つめる。一方ノゾミは、３人への感謝の言葉を述べ、錬金堂での楽しかった日々を綴った新曲を披露したのだった。=Nozomi invited Atelier Alces to her solo live show, and they watched Nozomi's stage with great enthusiasm. Meanwhile, Nozomi expressed her gratitude to the three and performed a new song about the fun days at the Alchemy Shop.
+ノゾミがアルケス錬金堂を去り、早一月。\nアルケス錬金堂の工房では、\nいつものように錬金釜の前に立つルイズマリーの姿があった。=It’s been a month since Nozomi left Atelier Alces.\nIn the workshop of Atelier Alces,\nLouise Marie stood in front of the alchemy cauldron as usual.
 ルイちゃん、できてるー？=Rui-chan, is it ready?
 うん、そっちに10個。\nイロハちゃんがラベル貼り付けてくれてるから。=Yeah, there are 10 over there.\nIroha-chan is labeling them for you.
 いや10個じゃ足りないよ。\nこの勢いじゃ、今日中にあと50個は売れるね……=No, 10 isn't enough.\nAt this rate, we'll sell 50 more by the end of today...
@@ -885,19 +884,19 @@
 『でも……アイドルになってからはずっと隠してたんです。\nこんな事バレたら、引かれちゃうって。誰も応援してくれなくなるって。\nだから、絶対絶対絶対の、秘密にしてました』="But... ever since I became an idol, I've kept it a secret.\nI feared that if it got out, people would be turned off. That nobody would support me anymore.\nSo, I kept it an absolute, absolute, absolute secret."
 『そうなんですか……？　でもなぜそれを今？\nカミングアウトできるきっかけでもあったのでしょうか？』="Really...? But why reveal it now?\nWas there something that prompted you to come out about it?"
 『はい。それは……\nとっても素敵な出会いがあったからです。』="Yes. That's because...\nI had a wonderful encounter."
-『【アルケス錬金堂】という素敵な３人との出会いが。』="A meeting with three wonderful people from 【Arcés Alchemy Shop】."
+『【アルケス錬金堂】という素敵な３人との出会いが。』="A meeting with three wonderful people from 【Atelier Alces】."
 いやあんたが言うんかーいっ！！=No way, you're the one to say that!!
 別にいいでしょ。いつもあんたらばっかボケ倒してんだから。\nたまにはボケさせてよ。=It's fine, right? You guys are always just fooling around.\nLet me fool around once in a while.
 ……え、ソノさん？\n私ボケてる意識ないんだけど。=......Eh, Sono-san?\nI don't think I'm fooling around though.
 ルイちゃんは天然だから。=Rui-chan is naturally airheaded.
 とにかく。この雑誌が出てから、店は連日の大賑わい。\nこの香水を求めてね。=Anyway, since this magazine came out, the store has been bustling every day.\nAll looking for this perfume.
 えへへ。商品名かっこいいよね！\nノゾミちゃんが付けてくれた名前。=Hehe. The product name is cool, isn't it?\nNozomi-chan gave it that name.
-ふふ、うれしいこと言ってくれるわよね。\nルイちゃん、イロハ、私、{playername}君。\nそして、自分が【アルケス錬金堂】の５番目のメンバーだって。=Fufu, you say such nice things.\nRui-chan, Iroha, me, {playername}-kun.\nAnd, he said that he is the 5th member of Alches Alchemy Shop.
+ふふ、うれしいこと言ってくれるわよね。\nルイちゃん、イロハ、私、{playername}君。\nそして、自分が【アルケス錬金堂】の５番目のメンバーだって。=Fufu, you say such nice things.\nRui-chan, Iroha, me, {playername}-kun.\nAnd, he said that he is the 5th member of Atelier Alces Shop.
 ……ふん、悔しいけどちょっとかっこいいじゃない。\n香水名は──=......Hmph, it's frustrating but it's kinda cool, isn't it?\nThe perfume name is──
 『アルケスNo.５』！='Alches No.5'!
 おっと……！\nほら、お客さん待たせてるよ！=Oops......!\nLook, the customers are waiting for you!
-おお、ここがアルケス錬金堂！\nノゾミンの聖地！=Oh, here is Alches Alchemy Shop!\nNozomin's sacred place!
-すみませーん！\n『アルケスNo.５』くださーい！=Excuse me!\nCan I get an 'Arcés No.5' please!
+おお、ここがアルケス錬金堂！\nノゾミンの聖地！=Oh, here is Atelier Alces Shop!\nNozomin's sacred place!
+すみませーん！\n『アルケスNo.５』くださーい！=Excuse me!\nCan I get an 'Alces No.5' please!
 こっちは二つください！\nノゾミンの大好きな香りの香水！=Two of these please!\nNozomin's favorite scent of perfume!
 あれ、あなたってノゾミン推しだっけ？=Wait, are you a Nozomin fan?
 いや、正直ノゾミン好きになりきれなかったんだよねー\n完璧なんだけど、逆に推し甲斐がないっつーか？\nでも匂いフェチって聞いて、オレの胸が騒ぎだしてよ……！=No, honestly, I couldn't fully become a Nozomin fan.\nShe's perfect, but that's why it's like there's nothing to root for?\nBut when I heard she was into scents, my heart started racing...!
@@ -905,12 +904,12 @@
 えへへ、ノゾミちゃん。\nもっともっと人気者になっちゃった。=Ehehe, Nozomi-chan.\nYou're becoming more and more popular.
 ……自分の欠点やコンプレックスも武器にできちゃったらさ。\nそれはもう、勝てる人いないね。=If you can turn your flaws and insecurities into strengths...\nthen there's no one who can beat you.
 ……知ーらない。=I don't know...
-すみませーん。\n『アルケスNo.５』くださーい。=Excuse me.\nCould I please get an 'Arcés No.5'.
+すみませーん。\n『アルケスNo.５』くださーい。=Excuse me.\nCould I please get an 'Alces No.5'.
 ああ、ごめんなさい。\n今日の分はさっきので最後なんです。=Ah, I'm sorry.\nThe last of today's stock just went out.
 ええっ！？\nじゃ、じゃあ明日なら買えます……？=Eh!?\nT-then, can I buy it tomorrow...?
 ごめんなさい。明日は臨時休業なんです。\nどうしても行かなきゃならない所があるから。=I'm sorry. We are temporarily closed tomorrow.\nI have somewhere I absolutely must go.
 おじちゃん元気だった！？\n……あ！　クリスおねーちゃん！！\n久しぶり……ッ！！=Uncle, have you been well!?\n...Ah! Chris big sis!!\nIt's been a long time...!!
-いい顔だが決闘はまた後でな、イロハ☆\nしかし【アルケス錬金堂】の諸君。\nその節はノゾミが世話になったな。=Nice face, but let's duel later, Iroha☆\nHowever, everyone at the AlcheS Alchemy Shop.\nThank you for taking care of Nozomi at that time.
+いい顔だが決闘はまた後でな、イロハ☆\nしかし【アルケス錬金堂】の諸君。\nその節はノゾミが世話になったな。=Nice face, but let's duel later, Iroha☆\nHowever, everyone at the Atelier Alces Shop.\nThank you for taking care of Nozomi at that time.
 オマエたちのおかげでノゾミはアイドルとして、\nさらにレベルアップすることができた。\nプロデューサーとして礼を言おう☆=Thanks to you all, Nozomi has leveled up as an idol.\nI express my gratitude as her producer☆
 今日はノゾミのソロライブだ。\n存分に愉しんでいってくれたまえ☆=Today is Nozomi's solo concert.\nEnjoy it to the fullest☆
 みんなー！\n今日は私のソロライブに来てくれてありがとうー！=Everyone!\nThank you for coming to my solo concert today!

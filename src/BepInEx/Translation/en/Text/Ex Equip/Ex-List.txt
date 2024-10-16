@@ -3,7 +3,7 @@
 アクセサリー=Accessories
 防具=Armor
 EX装備コイン=EX Equip Coin
-EX装備=Ex Equip
+EX装備=EX Equip
 毎日9:00ラインナップ更新=Lineup update at 9:00 every day
 EX装備分解=Dismantle EX Equipment
 強化Pt=Refine PT
@@ -35,7 +35,7 @@ EX装備分解=Dismantle EX Equipment
 アイテム一覧へ移動しますか?=Do you want to go to the Item List?
 購入に必要なEX武器コインが不足しています。=Insufficient EX Equip Coins.
 アイテム一覧へ=Item List
-EX武器コイン不足=Insufficient Ex Equip Coin
+EX武器コイン不足=Insufficient EX Equip Coin
 おまかせ分解設定=Auto Dismantle Settings
 まとめて\n分解する=Batch\nDismantle
 おまかせ\n分解する=Auto\nDismantle
@@ -56,13 +56,13 @@ EX武器コイン不足=Insufficient Ex Equip Coin
 EX装備が変更されていません。=EX Equip has not been changed.
 装備確定=Equip Confirmation
 おまかせ装備=Auto Equip
-EX装備設定=Ex Equip Settings
+EX装備設定=EX Equip Settings
 全て外す=Remove All
 装備なし=No equipment
-選択可能なEX装備を所持していません。=You do not have selected Ex Equip.
+選択可能なEX装備を所持していません。=You do not have selected EX Equip.
 EX装備入れ替え詳細=Replace details
 装備選択=Equipment selection
-装備可能なEX装備がありません。=There is no Ex Equip that can be equipped.
+装備可能なEX装備がありません。=There is no EX Equip that can be equipped.
 入れ替えるEX装備が選択されていません。=The Ex Equip to be replaced is not selected.
 上限解放回数=Limit Breaks
 スキルあり=Skills
@@ -72,24 +72,24 @@ EX装備絞り込み=Filter EX Equipment
 
 絞り込みをリセット=Reset Filter
 アクセサリー全て=All Accessories
-EX防具アクセサリー交換対象=Ex Accessories replacement target
+EX防具アクセサリー交換対象=EX Accessories replacement target
 防具全て=All Armor
-EX防具コイン交換対象=Ex Armor coin replacement target
+EX防具コイン交換対象=EX Armor coin replacement target
 武器全て=All Weapons
 EX武器コイン交換対象=Ex Weapon coin replacement target
-EX装備種別=Ex Equip type
+EX装備種別=EX Equip type
 優先消費設定=Priority consumption setting
 アドベンチャーで獲得した際に自動で分解するEX装備を設定します。=Set EX Equip that will be auto dismantled\nwhen acquired in an adventure.
 
 おまかせ強化設定=Auto Refine Setting
 EX装備強化=EX Equip Refine
 所持強化Pt=Possession Pt
-EX装備強化Ptを使用します。=Use Ex Equip Refine PT.
+EX装備強化Ptを使用します。=Use EX Equip Refine PT.
 EX装備強化Pt使用=EX Equip Refine Pt use
 
-装備中のEX装備は選択できません。=Ex Equip in equipment cannot be selected.
-保護状態のEX装備は選択できません。=Ex Equipment in protected state cannot be selected.
-未装備のEX装備です。=Unequipped Ex Equipment.
+装備中のEX装備は選択できません。=EX Equip in equipment cannot be selected.
+保護状態のEX装備は選択できません。=EX Equipment in protected state cannot be selected.
+未装備のEX装備です。=Unequipped EX Equipment.
 装備可能なキャラがいません。=There is no character that can be equipped.
 装備するキャラを選択してください。=Please select the character to be equipped.
 装備するキャラを選択できます。=You can select the character to be equipped.
@@ -103,9 +103,9 @@ EX装備上限解放=Ex Equipment Uncap
 EX装備は\nアドベンチャーで入手することができます。=Ex Equipment can be obtained by Adventure.
 
 EX装備一覧にフィルタを適用します。=Apply the filter to the Ex Equipment list.
-EX装備強化素材絞り込み=Filter Ex Equipment refine material
+EX装備強化素材絞り込み=Filter EX Equipment refine material
 おまかせ強化実行時の消費対象を設定します。=Set the consumption target when performing Auto Refine.
-おまかせEX装備強化設定=Auto Ex Equipment Refine Setting
+おまかせEX装備強化設定=Auto EX Equipment Refine Setting
 EX装備強化Pt=Ex Equip\nRefine Pt
 
 以下のアイテムを消費して強化します。=Consume the following items to refine it.
@@ -114,11 +114,11 @@ EX装備強化確認=EX Equipment Refine Confirmation
 返還アイテム=Returned item
 
 
-EX装備(武器)を装備していません。=Not equipped with\nEx Equipment (weapons).
-EX装備(防具)を装備していません。=Not equipped with\nEx Equipment (armor).
-EX装備(アクセサリー)を装備していません。=Not equipped with\nEx Equipment (accessories).
+EX装備(武器)を装備していません。=Not equipped with\nEX Equipment (weapons).
+EX装備(防具)を装備していません。=Not equipped with\nEX Equipment (armor).
+EX装備(アクセサリー)を装備していません。=Not equipped with\nEX Equipment (accessories).
 装備変更=Change
-EX装備一覧=Ex Equipment list
+EX装備一覧=Item List
 変更せずにダイアログを閉じます。\nよろしいですか？=Close windows without changing.\nIs it OK?
 差分確認=Check Changes
 

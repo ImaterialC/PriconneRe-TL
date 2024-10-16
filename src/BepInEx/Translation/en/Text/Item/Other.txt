@@ -3,6 +3,9 @@
 ダンジョンコイン=Dungeon Coin
 マスターコイン=Master Coin
 クランコイン=Clan Coin
+アルケスコイン=Alces coin
+コネクトコイン=Connect coin
+
 スタミナ=Stamina
 マナ=Mana
 ルピ=Rupies
@@ -11,6 +14,9 @@
 ランダム装備BOX=Random Equipment BOX
 みんなでお花見=Everyone cherry blossom viewing
 みんなの好きなもの=Everyone's favorite
+
+
+
 
 
 討伐依頼証=Hunting Ticket
@@ -45,6 +51,10 @@ EX装備(武器)を分解することで獲得\nできる特別な通貨。EX装
 空枠（RANK27～32）のRANK装備作成時に必要な欠片・設計図の代用として使える、貴重な資材。=A valuable material that can be used as a substitute for the pieces and blueprints required when creating RANK equipment for Sky-blue frames (RANK27-32).
 桃枠（RANK31～36）のRANK装備作成時に必要な欠片・設計図の代用として使える、貴重な資材。=A valuable material that can be used as a substitute for the pieces and blueprints required when creating RANK equipment for pink frames (RANK31-36).
 
+EX★5装備を分解することで獲得できる特別な通貨。EX装備ショップでEX★5装備と交換ができる。=A special currency that can be acquired by dismantling EX★5 equipment. It can be exchanged for EX★5 equipment at the EX Equipment Shop.
+EX装備の錬成に使用することができる。=Can be used to Synthesis EX equipment.
+ランダムなEX★5装備が獲得できる。=Random EX★5 equipment can be obtained.
+ランダムEX★5装備BOX=ランダムEX★5装備BOX
 
 虹色に輝く不思議な力をまとった宝石。=A jewel with a mysterious rainbow-colored power.
 

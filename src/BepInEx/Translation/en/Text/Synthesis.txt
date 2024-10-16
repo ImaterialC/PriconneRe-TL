@@ -1,0 +1,59 @@
+究極錬成=Ultimate\nSynthesis
+サブステータス=Sub-Status
+錬成されていません。=Not synthesized.
+錬成=Synthesis
+変換=Conversion
+EX装備錬成Pt=EX Equip Synthesis Pt
+パラメータを最大値にするスロット=Slots to max out parameters
+錬成スフィア=Alchemist Sphere
+錬成スフィア使用確認=Alchemist Sphere Use Confirmed
+錬成スフィアが不足しています。=Insufficient Alchemist Sphere.
+EX装備錬成確認=EX Equip Synthesis Confirmed
+以下のアイテムを消費して錬成します。=The following items are consumed to transmute it.
+
+錬成結果を反映し、終了します。=Review the synthesis result and confirm.
+結果確定=Confirm
+破棄=Discard
+終了後のステータス=Statuses after completion
+錬成結果反映確認=Confirm Synthesis Result
+
+錬成結果を破棄し、終了します。=Review the synthesis result before discard it.
+錬成結果破棄確認=Discard Synthesis Result
+
+
+
+橙=Orange
+緑=Green
+紫=Purple
+金=Gold
+銀=Silver
+銅以下=Copper or lower
+空=Sky-blue
+桃以上=Pink or higher
+銅=Copper
+
+表示可能な素材が存在しません。=There is no material available to display.
+おまかせ変換設定=Auto conversion setting
+おまかせ変換する=Auto convert
+EX装備錬成Pt変換=EX Equip Synthesis Pt Conversion
+変換する素材を選択済みです。=Select materials to convert.
+変換する素材を選択してください。=Select the material to convert.
+以下の素材を変換します。=Convert the following materials.
+変換する=Convert it
+EX装備錬成Pt変換確認=EX Equip Synthesis Pt Conversion Confirmed
+
+最大値=Maximum value
+最小値=Minimum value
+抽選するサブステータス=Sub-Status to draw
+選択中の装備に付与される\nサブステータス一覧を確認できます。=You can check the list of sub-status granted to the selected equipment.
+サブステータス確認=Check Sub-Status
+
+
+まとめて変換する=Mass Convert
+アイテム個数選択=Select number of items
+sr:"^変換する(.+)の\n個数を選択する。$"=Select the number of $1 to convert.
+変換結果=Conversion results
+変換したアイテムは元に戻せません。=Converted items cannot be restored.
+
+
+まだ見ていないストーリーです。=It's a story you haven't seen yet.

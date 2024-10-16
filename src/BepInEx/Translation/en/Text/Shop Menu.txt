@@ -83,14 +83,11 @@ r:"^([0-9,]+)で一部更新$"=$1: Reset Some.
 一部ラインナップは毎日5:00更新=Some lineup Reset Daily at 5:00(JST)
 r:"^([0-9/]+) 枚$"=$1 Coin
 
-ダンジョンコイン不足=Insufficient Dungeon Coins 
-プリンセスアリーナコイン不足=Insufficient Princess Arena Coins
-アリーナコイン不足=Insufficient Battle Arena Coins
+
+sr:"^(.{4,20})不足$"=Insufficient $1
+sr:"^購入に必要な(.{4,20})が不足しています。$"=Insufficient $1 to purchase.
 バトルアリーナへ=To the Battle Arena
 プリンセスアリーナへ=To the Princess Arena
-購入に必要なダンジョンコインが不足しています。=Not enough Dungeon Coins to complete purchase.
-購入に必要なプリンセスアリーナコインが不足しています。=Not enough Princess Arena Coins to complete purchase.
-購入に必要なアリーナコインが不足しています。=Not enough Battle Arena Coins to complete purchase.
 ダンジョンへ移動しますか?=Move to the Dungeon?
 プリンセスアリーナへ移動しますか?=Move to the Princess Arena?
 バトルアリーナへ移動しますか?=Move to the Battle Arena?
