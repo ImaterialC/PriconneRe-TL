@@ -1368,3 +1368,42 @@
 ブレド（物理）から受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the amount of TP recovery for party characters caused by all damage received from Blade (physical).\n
 最も近い敵１キャラを中心にした小範囲内の敵すべてに物理中ダメージを与える。=Deals medium physical damage to all enemies within a small radius centered on the closest enemy character.\n
 自身のＨＰが40％を切ると、さらに攻撃が激しく凶暴になる。=When its own HP falls below 40%, its attacks become even more intense and ferocious.\n
+
+
+
+マジムンと分身体がクリティカルダメージを受けるたびに、マジムンが保持する【吸魂】が１つ減少する。=Every time Majimun and her clone take critical damage, Majimuun loses one of the [Sucking Souls] she holds.
+残り時間が40秒を切ると、さらに攻撃が激しく狂暴になり、【吸魂】を20追加する。=When the remaining time was less than forty seconds, the attack became even more violent and violent, adding twenty more [Sucking Souls]
+攻撃を行うたびにマジムンに【吸魂】を１つ追加する分身体を３体召喚し、さらに敵全体を小さくノックバックする。=Each time I attack, I summon three bodies to add one more [Sucking Soul] to the Majimun, then knock back the entire enemy a little.
+敵全体に魔法小ダメージを与え、ＴＰをダウンさせ、さらにＴＰ上昇ダウンフィールドを展開する。ＴＰのダウン量とフィールドの効果値は、マジムンが保持している【吸魂】の数が多い程強化される。このスキルによるダメージでは、ＴＰが回復しない。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals minor damage to an entire enemy, lowers TP, and deploys a TP-increasing downfield. The amount of TP down and the field's effects increase the number of [Sucking Souls] Majimun holds. Damage from this skill will not restore TP. This skill will decrease TP even if it nullifies damage.
+ユニオンバーストは、敵全体にマジムンが保持している【吸魂】の数とキャラの最大ＨＰに応じた魔法割合ダメージを与える。さらに【吸魂】を10追加する。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals a percentage of magic damage based on the maximum HP of the character and the number of Absorption Souls held by the Majimun throughout the opponent. Adds 10 additional Inspirators. DMG from this skill will not restore TP.
+通常攻撃を行うたびに【吸魂】を６つ追加する。=Each normal attack adds another six [Sucking Souls].
+マジムンが保持している【吸魂】ステータスの数に応じて、通常攻撃と各スキルの効果が強化される。=Depending on the number of [Sucking Soul] statuses Majimun holds, the effects of normal attacks and each skill will be strengthened.
+マジムンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=This reduces party members' TP recovery rate from all damage taken by Majimun.
+善良なる魂を餌食とする、凶々しき悪霊。より良き贄を求め、体躯を幾多にも分かち蠢く。=A ferocious evil spirit that preys on good souls. Seeking better sacrifices, it splits and wriggles its body in many ways.
+
+
+
+
+
+ユニオンバーストは、前方広範囲内の敵すべてに自身の物理攻撃力とキャラの最大ＨＰに応じた物理割合ダメージを与え、さらに自身の物理攻撃力をバトル終了まで小アップさせる。=Union Burst deals Physical percentage damage to all opponents within a wide area in front of you based on your own physical attack power and your character's maximum HP, and further increases your physical attack strength by a small amount until the battle ends.
+自身の物理攻撃力をバトル終了まで小アップさせる。=Increases your own physical attack power by a small amount until the battle ends.
+魔物を意のままに操り、強化する辣鞭の少年。赤青黄のスライムを従え、機敏なる猛攻を行う。=The young man with the sharp whip, who manipulated and strengthened monsters as he pleased. He carried out a nimble onslaught, accompanied by a red, blue, and yellow slime.
+前方中範囲内の敵すべてに物理中ダメージを与え、物理防御力を中ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals Physical Intermediate DMG to all opponents within the forward-middle range and lowers Physical Defense. This skill's effects can be inflicted even if damage is nullified.
+敵全体をノックバックさせる。その後一定時間、雷を身にまとい、自身の物理防御力と魔法防御力を特大アップさせる。鮫吉が毒、猛毒、呪い、呪詛、火傷の効果を受けている場合、自身の物理防御力と魔法防御力がアップする時間が短くなる。=Knock back all enemies. After that, wear lightning for a certain amount of time to increase your own physical and magical defenses. If Samekichi is affected by poison, poison, curse, or burns, your own Physical and Magic Defenses will increase by a short time.
+自身のＨＰが10％を切ると、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、一定時間、ユニオンバーストのみ使用できない状態にし、魔法攻撃力をバトル終了まで特大ダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。さらに攻撃が激しく凶暴になる。=When your own HP is less than 10%, the opponent will deal Physical Ratio DMG corresponding to the character's maximum HP, leaving them unable to use Union Burst for a set period of time, and their magic attack power will be greatly decreased until the battle ends. DMG from this skill will not restore TP. This skill's status ailments will be inflicted even if the character nullifies the damage. The attack will become even more violent.
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、物理防御力を中ダウンさせ、さらに自身の物理攻撃力を中アップさせる。このスキルによるダメージでは、ＴＰが回復しない。このスキルの効果はダメージを無効化しても付与される。=Union Burst deals Physical Percentage DMG to all opponents according to your character's maximum HP, lowers your Physical Defense stat, and further increases your own Physical Attack stat. DMG from this skill cannot restore TP. This skill's effects can be inflicted even if you nullify damage.
+鮫吉=Samekichi
+渚の暴君=Nagisa's Tyrant
+ビーチ一帯の近海をシメる海洋族の暴君。売られた喧嘩には、ただの一度も背を向けず、シマを荒らすヤツは絶対に許さない。=A tyrant of the seafolk who sailed the entire beach. He would never turn his back on a fight that had been picked on, and he would never forgive anyone who ruined his turf.
+天稟の才と過敏な感覚に懊悩する、幽寂の歌姫。争いは好まないが、願いと仲間のため奮戦する。=The songstress of ecstasy agonizes over her natural talent and oversensitive senses. She doesn't like conflict, but she fights hard for her wishes and friends.
+ランファから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Increases party members' TP recovery rate from all DMG taken from Ranfa.
+ユニオンバーストは、前方中範囲内の敵すべてにキャラの最大ＨＰに応じた魔法割合ダメージを与え、結晶化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。結晶化状態では行動不能になり、継続ダメージを受ける。結晶化状態はＨＰが全回復するか、一定時間経過すると解除される。結晶化によるダメージでは、ＴＰが回復しない。=Union Burst deals a percentage of damage to all opponents within the forward-middle range according to the character's maximum HP, and inflicts Crystallization status effects. This skill's status ailments can be inflamed even if the damage is nullified. Crystallized state incapacitates and sustains continuous damage. Crystalline status can be fully restored to HP or removed after a certain amount of time has passed. Crystallicted damage cannot restore TP.
+前方広範囲内の敵すべてに猛毒状態を付与し、ＨＰ回復量を中ダウンさせ、ＨＰ吸収を特大ダウンさせる。さらに、結晶化状態の敵には追加の魔法特大ダメージを与える。このスキルの状態異常はダメージを無効化しても付与される。このスキルにより付与された猛毒のダメージでは、ＴＰが回復しない。=It inflicts a deadly poison status on all opponents within a wide area in front of it, reducing their HP recovery rate by an extra-large amount of HP absorption. Additionally, it deals additional magic extra-high damage to opponents in Crystallized state. This skill's status ailments can be infused even if damage is nullified. The deadly poison damage dealt by this skill cannot restore TP.
+最も近い敵１キャラに魔法大ダメージを与え、さらにキャラのＨＰが70％未満の場合、結晶化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals great magical damage to the nearest enemy character, and when the character's HP is less than 70 percent, it inflicts a crystallized state. This skill's status ailments can be infused even if the damage is nullified.
+利己心にまみれた、非道なる大慾暴君。『龍の卵』による蛮力で対敵を排除せんとする。=An inhuman giant tyrant covered in self-interest. It tries to eliminate its enemies with the barbaric power of the Dragon Egg.
+大慾暴君=Daiyoku Tyrant
+ユニオンバーストは、最も近い敵１キャラに大慾暴君=Union Burst is one of the closest enemies to you, and you're a tyrant
+カジノ王の物理攻撃力とキャラの最大ＨＰに応じた物理割合ダメージを与える。=Dealts physical percentage damage corresponding to the casino king’s physical attack power and character’s maximum HP.
+バリアを張り、自身の物理防御力と魔法防御力を特大アップさせる。=I put up a barrier to increase my own physical and magical defenses by an extra-large amount.
+自身のＨＰが40％を切ると、さらに攻撃が激しく強力になる。=When your own HP drops below 40 percent, your attacks become even more intense and powerful.
+サイコロを振り、自身の物理攻撃力をアップさせる。出目によって物理攻撃力アップの効果が変化する。出目が１の場合、物理攻撃力を小アップ。出目が２及び３の場合、物理攻撃力を中アップ。出目が４及び５の場合、物理攻撃力を大アップ。出目が６の場合、物理攻撃力を特大アップ。=Roll the dice to increase your own physical attack power. The effects of Physical Attack Boost change depending on the turnout. If the turnoff is 1, Physical Attack power increases by a small amount. If your turnout is 2 or 3, Physical ATK goes up. If you turn out to be 4 or 5, Physical Attack stat increases greatly. If 6 comes up, Physical attack power increases extra large.

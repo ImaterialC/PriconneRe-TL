@@ -634,3 +634,11 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 紅玉の徽章=Ruby Emblem
 鬼木天蓼の徽章=Demonwood Matatabi Emblem
 巨峰の徽章=Grape Emblem
+
+錬成工房=Alchemy Workshop
+オートマトンエグゾシェル=Automaton Exoshell
+オートマトンエグゾスカル=Automaton Exoskull
+オートマトンエグゾスーツ=Automaton Exosuit
+オートマトンバイザー=Automaton Visor
+オートマトンジャケット=Automaton Jacket
+オートマトンフルフェイス=Automaton Full Face

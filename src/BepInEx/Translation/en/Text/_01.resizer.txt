@@ -373,5 +373,3 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogBulkRecommendedEnhance(Clone)/Main/SettingPanel/common_unit_bg_lightgray/BulkEnhance/Description=ChangeFontSize(14)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogBulkRecommendedEnhance(Clone)/Main/SettingPanel/common_unit_bg_lightgray/BulkRankup/Description=ChangeFontSize(14)
-
-/_Game(Clone)/UI Root/ViewsArea/View/ViewMirageTop(Clone)/RightNode/NemesisQuestButton/Label=ChangeFontSize(21)
