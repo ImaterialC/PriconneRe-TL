@@ -1,0 +1,23 @@
+##Profile##
+【魔法】後衛で、文句を言いつつ働く双子ドラゴンの妹。ダメージと魔法防御力ダウンを両立するスキルを持つが、目を離すと【サボりの誘惑】に負け、手を抜いてしまう。=[Magic] The younger of the dragon maid twins, who complains in the backline but still gets the job done. She has powerful skills that do shred and damage simultaneously. However, when you take eyes off of her, [Lure of Loafing] takes over her, and she starts taking things easy.
+関根明良=Sekine Akira
+
+##UB##
+支援要請：コード266=Support Request: Code 266
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を大ダウンさせ、さらにクリティカルを受けた際のダメージを小アップさせる。=Deals massive M.DMG to the frontmost enemy, greatly lowers its M.DEF, and slightly boosts its M.CRIT DMG taken.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の被クリダメを12％アップ$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 18s.\n►Boosts an enemy's M.CRIT DMG taken.
+
+##S1##
+めんどくさ…=What A Pain...
+【サボりの誘惑】が39以下の場合、目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせるが、自分に【サボりの誘惑】を20付与する。【サボりの誘惑】が40以上の場合、目の前の敵１キャラに魔法中ダメージを与え、【サボりの誘惑】を10消費する。【サボりの誘惑】は最大60まで追加され、ステータスアップ効果を受ける度に１つ解除される。=If [Lure of Loafing] ≤ 39, deals large M.DMG to the frontmost enemy, slightly lowers its M.DEF, and adds 20 to her own [Lure of Loafing]. If [Lure of Loafing] ≥ 40, deals moderate M.DMG to the frontmost enemy and consumes 10 [Lure of Loafing]. [Lure of Loafing] caps at 60, and each buff she receives reduces stack by 1.
+r:"^サボりの誘惑が39以下の場合敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分にサボりの誘惑を20付与するサボりの誘惑が40以上の場合敵単体に(\d+)の魔法ダメージサボりの誘惑を10消費する$"=If [Lure of Loafing] ≤ 39:\n►Deals $1 M.DMG to an enemy.\n►Lowers an enemy M.DEF by $2 for 12s.\nIf [Lure of Loafing] ≥ 40:\n►Deals $3 M.DMG to an enemy.
+
+##S2##
+休憩入りまーす=I'm taking a break!
+自分の【サボりの誘惑】を５つ消費し、ＴＰを中回復する。さらに、味方全体に物理無効バリアを展開する。=Consumes 5 [Lure of Loafing] stacks, moderately recovers own TP, and deploys Barrier over all allies that negates P.DMG.
+r:"^サボりの誘惑を５つ消費する自分のＴＰを250回復(\d+)ダメージ分の物理無効バリアを展開する$"=►Deploys Barrier over all allies that negates $1 P.DMG for 12s.\n►Recovers own TP by 250.\n►Consumes 5 [Lure of Loafing] stacks.
+
+##EX##
+つまみ食いマイスター=Snack-Rating Meister
+つまみ食いマイスター+=Snack-Rating Meister+
+
