@@ -18,6 +18,5 @@ r:"^サボりの誘惑が39以下の場合敵単体に(\d+)の魔法ダメージ
 r:"^サボりの誘惑を５つ消費する自分のＴＰを250回復(\d+)ダメージ分の物理無効バリアを展開する$"=►Deploys Barrier over all allies that negates $1 P.DMG for 12s.\n►Recovers own TP by 250.\n►Consumes 5 [Lure of Loafing] stacks.
 
 ##EX##
-つまみ食いマイスター=Snack-Rating Meister
-つまみ食いマイスター+=Snack-Rating Meister+
-
+つまみ食いマイスター=Snack Meister
+つまみ食いマイスター+=Snack Meister+

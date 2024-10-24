@@ -3,17 +3,17 @@
 
 ##UB##
 トリックオアトリック！=Trick or Trick!
-【カウントダウン】前方の敵すべてに爆弾を設置し、５カウント後に起爆する。爆弾はそれぞれ、起爆時に敵全体に物理中ダメージを与える。=[Countdown] Places bombs upon all enemies in front. Each bomb explodes after a count of 5, dealing moderate P.DMG to all enemies.
+【カウントダウン】前方の敵すべてに爆弾を設置し、５カウント後に起爆する。爆弾はそれぞれ、起爆時に敵全体に物理中ダメージを与える。=[Countdown] Places bombs upon enemies in front. Each bomb explodes after a count of 5, dealing moderate P.DMG to all enemies.
 r:"^敵全体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies.
 
 ##S1##
 ペインティングキック=Painting Kick
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to all enemies in range.
-r:"^範囲内の敵すべてに(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies in range.
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to enemies in range.
+r:"^範囲内の敵すべてに(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies in range.
 
 ##S2##
 びっくりパンプキン=Pumpkin Surprise
-前から３番目の敵を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to all enemies in a radius around the third enemy from the front.
+前から３番目の敵を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to enemies in a radius around the third enemy from the front.
 
 ##EX##
 トリックエキスパート=Trick Expertise
@@ -21,8 +21,14 @@ r:"^範囲内の敵すべてに(\d+)の物理ダメージ$"=►Deals $1 P.DMG to
 
 ##S1+##
 ペインティングキック+=Painting Kick+
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理攻撃力を中ダウンさせる。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals moderate P.DMG to all enemies in range, and lowers their P.ATK by a moderate amount. When this skill is a critical hit, its damage is tripled instead of doubled.
-r:"^範囲内の敵すべてに(\d+)の物理ダメージ範囲内の敵すべての物理攻撃力を(\d+)ダウン$"=►Deals $1 P.DMG to all enemies in range.\n►Lowers enemies' P.ATK by $2 for 12s.
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理攻撃力を中ダウンさせる。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals moderate P.DMG to enemies in range, and lowers their P.ATK by a moderate amount. When this skill is a critical hit, its damage is tripled instead of doubled.
+r:"^範囲内の敵すべてに(\d+)の物理ダメージ範囲内の敵すべての物理攻撃力を(\d+)ダウン$"=►Deals $1 P.DMG to enemies in range.\n►Lowers enemies' P.ATK by $2 for 12s.
+
+##S2##
+びっくりパンプキン+=Pumpkin Surprise+
+自分の物理攻撃力を大アップさせる。さらに、前から３番目の敵を中心とした範囲内の敵すべてを長時間スタンさせ、物理大ダメージを与える。=Greatly boosts own P.ATK. Also deals moderate P.DMG and inflicts a long Stun to enemies in range of 3rd enemy.
+r:"^自分の物理攻撃力を(\d+)アップ範囲内の敵を一定時間行動不能にする範囲内の敵すべてに(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1 for 18s.\n►Inflicts Stun to enemies in 300 range of 3rd enemy for 5s.\n►Deals $2 P.DMG to enemies in 300 range of 3rd enemy.
 
 ##UE##
 魔拳トリックオアトリック=Magic Trick or Trick Fist
+ハロウィンお菓子ポーチ=Halloween Candy Pouch

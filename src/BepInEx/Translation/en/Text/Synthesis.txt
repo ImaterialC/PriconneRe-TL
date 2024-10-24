@@ -57,3 +57,11 @@ sr:"^変換する(.+)の\n個数を選択する。$"=Select the number of $1 to 
 
 
 まだ見ていないストーリーです。=It's a story you haven't seen yet.
+
+
+錬成結果を破棄する場合に、確認ダイアログを表示するか設定します。=Sets whether to display a confirmation dialog when discarding the synthesis results.
+EX装備錬成結果破棄の確認ダイアログ=Confirmation dialog for discarding EX Equipment Synthesis
+EX装備錬成結果反映の確認ダイアログ=EX Equipment Synthesis Results Confirmation Dialog
+錬成結果を反映する場合に、確認ダイアログを表示するか設定します。=Set whether to display a confirmation dialog when review the synthesis results.
+錬成スフィアの使用確認ダイアログ=Confirmation dialog for using the Synthesis Sphere
+錬成スフィアを使用する場合に、確認ダイアログを開きます。=Opens a confirmation dialog when using a Synthesis Sphere.

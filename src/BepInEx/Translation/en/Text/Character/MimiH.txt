@@ -19,5 +19,11 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理防御�
 ##S1+##
 ぐるぐるアタック+=Bandagey Bash+
 
+##S2+##
+ぐるぐるうさぎさんエール+=Bunny Mummy Happy Dance+
+味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。この効果は自分に対してのみ時間によって解除されない。さらに自分のＴＰを中回復、自分以外の味方全員のＴＰを小回復するが、味方全体の物理防御力と魔法防御力を小ダウンさせる。=Massively boosts all allies' P.ATK, P.CRIT Rate, and P.CRIT DMG. These effects do not expire for herself only. Also moderately recovers own TP and recovers all other allies' TP but also lowers all allies' P.DEF and M.DEF.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の物理攻撃クリティカル時のダメージを6％アップ自分のＴＰを150回復自分以外の味方全体のＴＰを50回復味方全体の物理防御力を初期値の10％ダウン味方全体の魔法防御力を初期値の10％ダウン$"=►Boosts all allies' P.ATK by $1 for 18s (180s for self).\n►Boosts all allies' P.CRIT Rate by 100 for 18s (180s for self).\n►Lowers all allies' P.DEF by 10% for 18s (180s for self).\n►Recovers own TP by 150.\n►Recovers all other allies' TP by 50.\n►Lowers all allies' P.DEF by 10% for 18s.\n►Lowers all allies' M.DEF by 10% for 18s.
+
 ##UE##
 ぐるぐるうさぎさんブレード=Mummy Bunny Blade
+ぐるぐるうさぎさんぼうし=Mummy Bunny Hat
