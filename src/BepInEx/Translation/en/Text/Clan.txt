@@ -170,7 +170,7 @@ r:"^\[3C404E\]オーバーキルが発生したため\nモンスターの実際�
 ---Windows popup---
 sr:"^(\d+月)クランバトル開始！！$"=CB-$1 has Started!
 r:"^期間 ([0-9/ :]+)～([0-9/ :]+)$"=Start $1\nEnd $2
-クランメンバーと協力して\n強力なモンスターを討伐しよう！=Become a slave of metas lest you be struck down by those you called allies.\nAll the banners you sparked on (lmfao) were for this very moment.\nGo forth Whales! Go forth Dolphins! Aim for the top and show us how quickly you can tap the screen!\nThe real battle has just begun!
+クランメンバーと協力して\n強力なモンスターを討伐しよう！=Work together with your clan members to take down powerful monsters!
 
 [FFBB00,CE4F00]解放期間:[-]=[FFBB00,CE4F00]Period:[-]
 sr:"^\[FF7C4E,D62146\]ボスの強さは、(\d+月)クランバトル（クランモード）と同じです。\[-\]$"=[FF7C4E,D62146]The boss's strength was same as the CB ($1).[-]

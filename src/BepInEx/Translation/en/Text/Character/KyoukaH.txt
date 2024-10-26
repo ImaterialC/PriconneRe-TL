@@ -31,7 +31,7 @@ r:"^味方単体の魔法攻撃力を(\d+)アップ$"=►Boosts an ally's M.ATK 
 ##S2+##
 マジカルトリート+=Magical Treat+
 味方全体の魔法攻撃力を大アップ、魔法クリティカルを中アップ、魔法攻撃クリティカル時のダメージを小アップさせる。さらに味方全体の行動速度を大アップさせる。=Greatly boosts all allies' M.ATK, moderately boosts their M.CRIT Rate and slightly boosts their M.CRIT DMG. Also greatly boost all allies' action speed.
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを60アップ味方全体の魔法攻撃クリティカル時のダメージを4％アップ味方全体の行動速度アップ$"=►Boosts all allies' M.ATK by $1 for 180s.\n►Boosts all allies' M.CRIT Rate by 60 for 180s.\n►Boosts all allies' M.CRIT DMG by 4% for 180s.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを60アップ味方全体の魔法攻撃クリティカル時のダメージを4％アップ味方全体の行動速度アップ$"=►Boosts all allies' M.ATK by $1 for 180s.\n►Boosts all allies' M.CRIT Rate by 60 for 180s.\n►Boosts all allies' M.CRIT DMG by 4% for 180s.\n►Boosts all allies' action speed to 150% for 18s.
 
 ##UE##
 ハロウィン猫さんブルーム=Halloween Cat Broom
