@@ -41,7 +41,7 @@ r:"^魔蜘の金糸獲得まで　([0-9/])+ \(本日の残り獲得可能数：(
 このっ……！\nやめろって、言ってるでしょうがっ……！=You...! I told you to stop...!
 ──お兄。=⁇ Onii.
 いと。ほどいた。\nなんとか。お兄だけ。=My cousin. I untied it. Somehow. Just my brother.
-Corneliaくん！？\n危険です、一人じゃっ……=Cornelia?! It's dangerous to be alone...
+{playername}くん！？\n危険です、一人じゃっ……={playername}?! It's dangerous to be alone...
 ……！\nあれはっ──=...! That's...!
 『晶さまから託された、大切なプログラム……\n必ずや、主さまにお届けいたします。』=A precious program entrusted to me by Akira-sama... I will deliver it to you, Master
 『……お父さまといい、晶さまといい。\nわたくしはどうも、大事なものを預かることが多いように思いますね。』=...Father and Akira-sama. I think I tend to take care of things that are important to me

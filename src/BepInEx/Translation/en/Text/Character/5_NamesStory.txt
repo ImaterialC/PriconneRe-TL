@@ -304,6 +304,7 @@ In Real World Name
 マサキ=Masaki
 
 
+布武機=Fubuki
 Story Nick Name
 
 エリス=Eris
@@ -417,7 +418,7 @@ TYPE-P・シャドウP=Type-P Shadow P
 プチデビルマジシャン=Petit de burma magician
 燃える猪の魔物=Burning boar monsters
 イビルカルバリン=Evil Calvalin
-マナバーンサウルス=Mana's Burn Saurus
+マナバーンサウルス=Mana's Smoldersaurus
 ワイルドワルクロウ=Wild Warcrow
 妖魔人の子供たち=Youmajin children
 獣人の少女=Beastfolk girl
@@ -450,6 +451,8 @@ TYPE-P・シャドウP=Type-P Shadow P
 ファームの動物１=Farm Animal 1
 ファームの動物２=Farm Animal 2
 ファームの動物？=Farm animals?
+先に並んでいた客=Customers who Lined up First
+後から来た客=Customer From Behind
 
 チカ・ノゾミ・ツムギ=Chika & Nozomi & Tsumugi
 アヤネ・ミミ・ミソギ=Ayane & Mimi & Misogi

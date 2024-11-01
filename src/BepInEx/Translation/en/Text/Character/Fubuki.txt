@@ -1,0 +1,23 @@
+##Profile##
+【物理】中衛の、ナマイキで超天才な盗賊ギルドの三女。【味方バリアー♡】で自分へのダメージを味方に押し付けＨＰ最大でダメージアップする範囲攻撃で敵を蹂躙する。=[Physical] The third sister of the Bundy Sister guild, a midline player who is cheeky and a super genius. With [Ally Barrier♡], she pushes damage to her allies and crushes enemies with area attacks that increase damage at maximum HP.
+ワカナをいぢめること=To tease Wakana
+花井美春=Hanai Miharu
+
+##UB##
+しんじゃえ♡フルバースト=Die♡ Full Burst
+自分の物理攻撃力を特大アップさせる。さらに目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、物理防御力を中ダウンさせ、スタンさせる。ＨＰが最大の場合、このスキルのダメージがアップし、追加で最も物理防御力の低い敵１キャラに物理特大ダメージを与える。=Massively boosts own P.ATK, and deals large P.DMG to enemies in range, lowers their P.DEF, and stuns them. If Fubuki's HP is at 100%, the damage of this skill increases, and deals an additional instance of massive P.DMG to an enemy with the lowest P.DEF.
+r:"^自分の物理攻撃力を(\d+)アップ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵を一定時間行動不能にするＨＰが最大の場合、敵単体に(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1 for 18s.\n►Deals $2 P.DMG to enemies in 1000 range.\n►Inflicts Stun to enemies in 1000 range for 2.5s.\n►Lowers enemies' P.DEF in 1000 range by $3 for 18s.\n\nIf own HP is 100%:\n►Deals $4 P.DMG to an enemy.
+
+##S1##
+かばって♡味方シールド=Protect Me♡ Ally Shield
+前方の自分以外の一番前の味方１キャラに【味方バリアー♡】を付与する。【味方バリアー♡】が付与されている間、自分への攻撃を【味方バリアー♡】が付与されている味方１キャラが代わりに受ける。さらに自分の物理攻撃力と物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップして、ＨＰを中回復、ＴＰを小回復する。=Applies the [Ally Barrier♡] status to the frontmost other ally. While [Ally Barrier♡] is in effect, all attacks directed towards oneself will be received by the ally inflicted with the [Ally Barrier♡] effect. Also greatly boosts own P.ATK and P.CRIT Rate, slightly boosts own P.CRIT DMG, moderately recovers own HP and slightly recovers own TP.
+r:"^味方単体に【味方バリアー♡】を付与自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを150アップ自分の物理攻撃クリティカル時のダメージを7％アップ自分のＨＰを(\d+)回復自分のＴＰを80回復$"=►Applies [Ally Barrier♡] to an ally.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by 150 for 12s.\n►Boosts own P.CRIT DMG by 7% for 12s.\n►Recovers own HP by $2.\n►Recovers own TP by 80.
+
+##S2##
+きゅっ♡イズナランチャー=Kyuu♡ Izuna Launcher
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理防御力を小ダウンさせる。ＨＰが最大の場合、このスキルのダメージがアップする。=Deals moderate P.DMG to enemies in range, and lowers their P.DEF. If Fubuki's HP is at 100%, the damage of this skill increases.
+
+##EX##
+ナマイキ♡ジーニアス=Cheeky♡Genius
+ナマイキ♡ジーニアス+=Cheeky♡Genius+
+

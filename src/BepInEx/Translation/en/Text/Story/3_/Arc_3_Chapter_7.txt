@@ -4,7 +4,7 @@
 
 一同からフレイヤの目的を聞いたネフィ＝ネラは、共にフレイヤを打倒することを提案する。一方、ネフィ＝ネラに与えられた処罰に業を煮やしていたカノンは、ある目的のため大精霊の眠る火聚山を訪れる。=Upon hearing Freyja’s objective from the group, Nephy-Nella proposed that they defeat Freyya together. Meanwhile, Kanon, who had been stewing over the punishment given to her, visited Mt. Hiju, where the Great Spirit slept, for a certain purpose.
 ──第二の裏世界、『ジオ・ゲヘナ』にて。=⁇  ⁇ In the second underworld, ⁇ Geo Gehenna ⁇
-転生の際に失われたというホウオウの力を探すため、\nそして『ジオ・ゲヘナ』を詳しく知るために\n炎のくすぶる密林地帯へと向かったCorneliaと【美食殿】。=Cornelia and Gourmet-dono headed to the smoldering forest area of flames to search for the power of Hoou, who was said to have been lost when he was reincarnated, and to learn more about Geo Gehenna.
+転生の際に失われたというホウオウの力を探すため、\nそして『ジオ・ゲヘナ』を詳しく知るために\n炎のくすぶる密林地帯へと向かった{playername}と【美食殿】。={playername} and Gourmet-dono headed to the smoldering forest area of flames to search for the power of Hoou, who was said to have been lost when he was reincarnated, and to learn more about Geo Gehenna.
 アルミラージの少女・ナーナが偶然、目当ての品を手にするものの、\n『ジオ・テオゴニア』でも暗躍していた謎の少女・フレイヤが介入する。\nそして──=The girl from Armorage, Nana, happened to have the item she was looking for, but Freyja, the mysterious girl who had been working behind the scenes in Geo Teogonia, intervened. And then ⁇
 ──フム。\nそれで、鳳凰の権能が残されし羽根は\n誰ぞに奪われてしまった……と。=⁇ Hmm. And with that, the feathers left behind by the phoenix's power were stolen by someone...or so I thought.
 ──申し訳ありません。\n媛。=-My apologies, Hime.
@@ -78,7 +78,7 @@
 ──じゃ、ホウオウさん。\n案内してあげてください。=-Okay, Mr. Hoou. Please show him the way.
 えっ？\n仕方がありませんね、皆さん私についてくるのです！\n私も力を取り戻すために、もう一度沐浴したいですしっ。=Huh? Oh well, come with me! I'd like to bathe once more to regain my power.
 ちょっと！？\nあんたは別の湯船だかんね～っ！=Hey!? You're in a different bath!
-Corneliaたちが鬼岩城塞の温泉に向かった、\nちょうどその頃──=Just as Cornelia and the others were heading to the hot springs in the Oniiwa Citadel...
+{playername}たちが鬼岩城塞の温泉に向かった、\nちょうどその頃──=Just as {playername} and the others were heading to the hot springs in the Oniiwa Citadel...
 カノンちゃ～んっ、まってまってまって～！=Kamila, wait up!
 はぁ～、やっと見つけたぁ～\nナーナ城中のおトイレさがしちゃったよ～=*sigh* I finally found it! I searched all the restrooms in Nana Castle!
 でもどーしたの？\nおトイレこっちにはないよ？\nちゃ～んとおトイレそーじしないと、ネラちゃんに怒られちゃうよ？=But what's wrong? The toilet isn't over here. If you don't clean the toilet, Nella will get mad at you
@@ -136,7 +136,7 @@ Corneliaたちが鬼岩城塞の温泉に向かった、\nちょうどその頃�
 ---2---
 二番ダシ=Nibandashi
 
-アネモネは温泉にやってきたCorneliaを監視しつつ、旅の目的を訪ねる。一方リリたちはネフィ＝ネラに修行をつけてもらえるよう頼み込んでいた。その折、慌てた様子のナーナの声が聞こえてくる。=Anemone kept an eye on Cornelia as she came to the hot springs, visiting the purpose of her journey. Meanwhile, Lili and the others had asked Nephy-Nella to train with them. Just then, she heard Nana’s panicked voice.
+アネモネは温泉にやってきた{playername}を監視しつつ、旅の目的を訪ねる。一方リリたちはネフィ＝ネラに修行をつけてもらえるよう頼み込んでいた。その折、慌てた様子のナーナの声が聞こえてくる。=Anemone kept an eye on {playername} as she came to the hot springs, visiting the purpose of her journey. Meanwhile, Lili and the others had asked Nephy-Nella to train with them. Just then, she heard Nana’s panicked voice.
 
 裏世界『ジオ・ゲヘナ』、鬼岩城塞の裏手側──=The underworld 'Geo Gehenna', behind the Oniiwa Citadel ⁇
 ざっぱーーーーん♪♪=Roughly~~~♪
@@ -435,10 +435,10 @@ Corneliaたちが鬼岩城塞の温泉に向かった、\nちょうどその頃�
 
 ---4---
 霧に閉ざされて=I was trapped in the fog
-戦闘中、散り散りになった一同。ぺコリーヌはリリたちと合流するが、強化の力が消えていることに気付く。一方アネモネはそばで倒れるCorneliaに声をかける。だが彼は猛毒が回り死に瀕していた。=Everyone dispersed during the battle. Pecoline met up with Lili and the others, but she noticed that her strengthening power had disappeared. Anemone, on the other hand, called out to Cornelia, who was collapsed beside her. But he was on the verge of death due to the deadly poison.
+戦闘中、散り散りになった一同。ぺコリーヌはリリたちと合流するが、強化の力が消えていることに気付く。一方アネモネはそばで倒れる{playername}に声をかける。だが彼は猛毒が回り死に瀕していた。=Everyone dispersed during the battle. Pecoline met up with Lili and the others, but she noticed that her strengthening power had disappeared. Anemone, on the other hand, called out to {playername}, who was collapsed beside her. But he was on the verge of death due to the deadly poison.
 
 プリンセス・ネフィ＝ネラからの扱いに不満を溜め続け、\nついに反旗を翻したマンティコアの妖魔人・カノン。=Kanon, the demon from the Manticore who had continued to grow dissatisfied with the treatment from Princess Nephy-Nella and had finally rebelled.
-Corneliaたちはカノンを止めるため、\nナーナの先導でジオ・ゲヘナの『火聚山』へと向かう。\nしかし、説得は失敗してしまい──=In order to stop Kamila, Cornelia and the others followed Nana to Geo Gehenna's 'Mount Hiju'. However, they failed to persuade her ⁇
+{playername}たちはカノンを止めるため、\nナーナの先導でジオ・ゲヘナの『火聚山』へと向かう。\nしかし、説得は失敗してしまい──=In order to stop Kamila, {playername} and the others followed Nana to Geo Gehenna's 'Mount Hiju'. However, they failed to persuade her ⁇
 ああもうっ、マジなんも見えないんだけどっ！？=Oh geez, seriously, I can't see anything!?
 氷と炎のブレスがぶつかって\n水蒸気爆発でも起きたってワケ！？\n他の連中はっ……=So the ice and flame breath collided, and there was a steam explosion?! The others...
 ンぎゃああっぶなあっ！\nちょっとペコリーヌ！　どこ！？\n魔法使い独りにすんじゃないわよ身体張って守りなさいよ～っ！？=Ngyaaaaah! Don't be so careless! Hey, Pecoline! Where are you?! You can't leave a magician alone! Put your body on the line to protect him!
@@ -491,7 +491,7 @@ Corneliaたちはカノンを止めるため、\nナーナの先導でジオ・�
 
 ---5---
 涙=Tears
-アネモネは瀕死のCorneliaを見つめながら自身の過去を思い出す。そして彼女は涙の力で彼を癒し、命を救う。その後、二人はぺコリーヌたちのもとへ駆けつけ、カノンの説得に成功するが……=Anemone gazed at the dying Cornelia as she recalled her past. Then she used the power of tears to heal him and save his life. After that, the two of them rushed to Pecoline and the others, successfully persuading Kanon, but...
+アネモネは瀕死の{playername}を見つめながら自身の過去を思い出す。そして彼女は涙の力で彼を癒し、命を救う。その後、二人はぺコリーヌたちのもとへ駆けつけ、カノンの説得に成功するが……=Anemone gazed at the dying {playername} as she recalled her past. Then she used the power of tears to heal him and save his life. After that, the two of them rushed to Pecoline and the others, successfully persuading Kanon, but...
 
 ぴぃいいい～っ！！=Piiiiiii!!
 ──ヲ～ッホッホッホ♪\nど～ちらにいらっしゃるのかしら～？　異世界ご一行のみなさま～♪=⁇ Ohohoho♪ Where are you? Everyone from the other world's party~♪
@@ -550,7 +550,7 @@ Corneliaたちはカノンを止めるため、\nナーナの先導でジオ・�
 ま、またっ……！？\n倒しても倒しても、すぐ再生しちゃいます～っ！=A-Again...!? No matter how much I defeat it, it'll regenerate in no time!
 キリがないですっ！\nただでさえ一本一本が、とっても強いのにっ……！=There's no end to it! Each and every one of them is so strong...!
 まるで神話における、八岐大蛇さながらですね……！=It's just like the Yagi Orochi in mythology...!
-てゆーかっ！\nCorneliaの強化ナシで全力全開しっぱなしじゃ、\nあっちゅーまに魔力切れになっちゃうわ！=Wait! If I keep going at full power without Cornelia's enhancements, I'll run out of magic power!
+てゆーかっ！\n{playername}の強化ナシで全力全開しっぱなしじゃ、\nあっちゅーまに魔力切れになっちゃうわ！=Wait! If I keep going at full power without {playername}'s enhancements, I'll run out of magic power!
 早く主さまを、お捜しせねばならないのに！\n邪魔をしないでください……！=I need to find my master as soon as possible! Please don’t get in my way...!
 ヲ～ッホッホッホ！\nお邪魔虫はアナタがたの方でしてよ異世界の英雄さんたち？\nあたくしの本命はネフィ＝ネラなのですからして……ヴッ、……つぅぅ=Oh ho ho ho! You're the ones who're in the way, you otherworldly heroes? My main objective is Nephy-Nella, after all... Wh-Wh-Whoa...
 もぉやめよ～よカノンちゃあんっ！\nケガもいっぱいしちゃってるみたいだしっ……！=Stop it, Kamila! You're hurting so much!
@@ -588,7 +588,7 @@ Corneliaたちはカノンを止めるため、\nナーナの先導でジオ・�
 プレシアさんっ！？=Precia?!
 この、におい──=This smell ⁇
 「お兄さんっ！」「主さま！」\n「あんた！」「兄様っ！」="⁇ Onii-san ⁇  ⁇ Master ⁇  ⁇ You ⁇  ⁇ Nii-sama ⁇"
-ありがとうございます、Corneliaくんっ！\nよーしっ！=Thank you very much, Cornelia-kun! Alright!
+ありがとうございます、{playername}くんっ！\nよーしっ！=Thank you very much, {playername}-kun! Alright!
 ひっ！？\nまたこのパターンっ──=Eek?! This pattern again?!
 これで決まりです！\nプリンセスストラーーーーイクッ！！=That settles it! Princess strahhhh! Cumming!!
 ──ンやああぁぁんっ！=⁇ Nyaaaaahn!
@@ -685,7 +685,7 @@ Corneliaたちはカノンを止めるため、\nナーナの先導でジオ・�
 ネフィ＝ネラ様、今はそれどころではっ……！=Lady Nephy-Nella, now’s not the time...!
 カノンちゃん、しんじゃやだぁっ！\nナーナのドーナツ、ぜんぶあげるから！\nだからおきてよぉっ、カノンちゃあ～んっ！！=Kamila, don't die! I'll give you all of Nana's donuts! So wake up, Kamilaaaa!!
 やれ全く、御不洒落ざんすな。\nこの騒ぎでは、話の本意に移ることも出来ませぬ由──\nちと待ちたもれ、お前さまらや。=Don't be so unfashionable. With this commotion, you won't even be able to move on to the true meaning of the story. Just you wait.
-──アースハイドラの脅威が砕け散ると、\nCorneliaたちは\nネフィ＝ネラの居城へと急ぎ帰還するのだった。=⁇ When the threat of Earth Hydra shattered, Cornelia and the others hurried back to Nephy-Nella's castle.
+──アースハイドラの脅威が砕け散ると、\n{playername}たちは\nネフィ＝ネラの居城へと急ぎ帰還するのだった。=⁇ When the threat of Earth Hydra shattered, {playername} and the others hurried back to Nephy-Nella's castle.
 あらためて──報告します、媛。\nペコリーヌさんたちは現在、施療所で手当てを受けています。=Allow me to give my report again, Hime. Pecoline and the others are currently being treated at the treatment center.
 ──媛が手を下したおかげで。\n鳳凰戦のときよりは、ケガも軽いみたいです。\n……ふぅ。=-Thanks to Hime, my injuries are lighter than they were during the Phoenix Battle. ...Phew.
 それは重畳。\n然りながら……モネや。\n汝は如何だえ？=It's a superimposed tatami mat. And yet... Mone. How about you?
@@ -999,7 +999,7 @@ Corneliaたちはカノンを止めるため、\nナーナの先導でジオ・�
 わあっ……！\nすごい！=Wow...! Amazing!
 やばばば！？　なに、今の魔法！\n猪っぽい魔物が吹っ飛んでったけど！？\n魔法のパワーすごすぎじゃん！=Crap, crap! What was that magic?! The boar-like monsters were blown away!? The power of magic is too great!
 あ、でもでも、キャルっちなら\nあれくらいできちゃったりする？　マジモードなら♪=Oh, but can Calcchi do that much? If he's in serious mode♪
-ムチャ言うなっての！\nCorneliaの強化ナシじゃ、\nさすがにあんな威力のものぶっ放せないわよ。=Don't be so reckless! I can't unleash something that powerful without Cornelia's enhancements.
+ムチャ言うなっての！\n{playername}の強化ナシじゃ、\nさすがにあんな威力のものぶっ放せないわよ。=Don't be so reckless! I can't unleash something that powerful without {playername}'s enhancements.
 こんな威力の攻撃魔法、そうそうお目にかかれるもんじゃないぞ。\nお前たち、今見せてもらった魔法をよく覚えておくように！=This kind of powerful attack magic isn't something you get to see that often. You guys better remember the magic you just showed me!
 拝啓、ママ・サレン。今、私たちはアンブローズ魔法学園の先生や\nキャルさんたちと一緒に、『ジオ・ゲヘナ』にいますぅ。\nどうしてこうなったかというと……=Dear Mama Saren, we are currently in Geo Gehenna with the Ambrose Academy of Magic's teachers and Calvin. As for how this happened...
 ねぇねぇ、キャルっち！　ア魔学、超なつくない！？\nバイブスブチ上がるんですけど！\n教室全然変わってないし～！=Hey, hey, Calcchi! Aren't you super familiar with magicology?! It's making me go crazy! The classroom hasn't changed at all!
@@ -1012,7 +1012,7 @@ Corneliaたちはカノンを止めるため、\nナーナの先導でジオ・�
 へぇ～、そーなんだ♪\nじゃあ、うちらの後輩ってことじゃん！\nやったね、キャルっち♪　うちら先輩になっちゃったよ～！=Wow, I see♪ Then that means you're our junior! You did it, Calcchi♪ We've become seniors!
 先輩かぁ、悪くない響きね。\nちょっと憧れてたのよ。後輩ができたら、\n購買の焼きそばパンを買ってきてもらったりとか……じゃなくて！=Senpai, huh? That doesn't sound bad. I've been admiring her for a while now. If I had a junior, I'd have her buy some yakisoba bread from the school store... I mean!
 どうして、わざわざあたしたちを呼んだのよ？\nあたしもスズナも、期間限定の編入生だったから、\nもうここの生徒じゃないのよ。=Why did you call us here? Suzuna and I were only transfer students for a limited time, so we’re not students here anymore.
-いや、なに。せっかくの体験入学だ。この子らには普段できない経験を\nしてもらいたくてな。Corneliaから聞いた\n『ジオ・ゲヘナ』へ課外活動に行く予定なのさ。=No, it's nothing. It's just a temporary entrance exam. I wanted these kids to go through something they can't normally do. I'm planning to go to Geo Gehenna, which I heard from Cornelia, for extracurricular activities.
+いや、なに。せっかくの体験入学だ。この子らには普段できない経験を\nしてもらいたくてな。{playername}から聞いた\n『ジオ・ゲヘナ』へ課外活動に行く予定なのさ。=No, it's nothing. It's just a temporary entrance exam. I wanted these kids to go through something they can't normally do. I'm planning to go to Geo Gehenna, which I heard from {playername}, for extracurricular activities.
 物騒な世界だとも聞くが、ランドソルとは異なる魔法が\n使われているそうじゃないか。\n貴重なものを見る機会になるだろう。それで……=I've heard it's a dangerous world, but it uses a different kind of magic than Landsol. It'll give you a chance to see something valuable. So...
 そのついでに、と言ってはなんだが\nお前らが学園で経験できなかったことを、\n一緒に経験させてやりたいと思ったのさ。興味あるだろう？=And while I'm at it, I wanted to let you two experience things you couldn't at school together. Interesting, right?
 なにそれ！　センセー、マジ神じゃん！\n課外活動？　とか、よくわかんないけど……修学旅行的なヤツっしょ！？=What's that supposed to mean?! Sensei, you're seriously a god! Extracurricular activities? I don't really get it, but... it's like a school trip, isn't it?!

@@ -15,7 +15,7 @@
 全キャラ　アドバンス効果詳細=All Characters Advanced Effect Details
 r:"^効果(\d)$"=Effect $1
 sr:"^バトル開始後(\d+)秒間(.{2,12}?)(極(?:\n　)?大|絶(?:\n　)?大|特(?:\n　)?大|大|中|小|大(?:\n　)?幅)\n?アップ$"=$3 boost to own $2 for $1s at start of battle.
-バトル開始後90秒間物理防御力と魔法防御力極大アップ=Maximum boost to own P.DEF and M.DEF for 90s at start of battle.
+バトル開始後90秒間物理防御力と魔法防御力極大アップ=For 90s at start of battle, maximum boost to own P.DEF and M.DEF.
 バトル開始後90秒間ＨＰが０になると倒れずにHP回復（１回のみ）=For 90s after the battle begins, When your HP reaches 0, recover own HP (only once) without falling.
 バトル開始後90秒間魔法防御力極大アップ、行動不能無効=For 90s after the battle begins, magic defense maxed out, and immune to immobility state.
 r:"^【(.+)】付与$"=[b][$1][/b] applied\nTN:see character's skill for further info.
@@ -45,10 +45,19 @@ EXHIBITION＋は、SPECIALがさらに強力になったボスバトルです。
 キャラアイコンをタップすることで効果の詳細を確認できます。=Tap the character icon to view details of the effect.
 
 
+
+
 SPECIALはバトルモードが３段階変化するバトルです。\nより豪華な報酬やミッション報酬をゲットしましょう。期間中１体しか討伐できないので編成を工夫して挑戦しましょう。=Special Battle Mode is a battle that changes three levels of battle mode. You will receive more rewards and mission rewards. You can only subjugate once of them during the event, so try to organize them.
 EXHIBITIONでは、SPECIALのボスと何度も戦えます。\nまた、バトルのログを保存して振り返ることができるので、\n独自の攻略法を見つけたり、様々な編成を試してみましょう。=In EXHIBITION, you can fight the boss of SPEACIAL over and over again. You can also save your battle logs and look back at them, so try to find your own unique strategy and organize them in various ways.
 
 ボスの麻痺無効=Boss paralysis nullification
 バトル開始後90秒間物理攻撃力絶大\nアップ、味方全体の物理攻撃力と\n魔法攻撃力極大アップ=For 90 seconds after the start of battle, physical attack power is maximum increased, and the physical attack power and magical attack power of all allies are huge increased.
 バトル開始後90秒間魔法攻撃力絶大\nアップ、味方全体の物理攻撃力と\n魔法攻撃力極大アップ=For 90 seconds after the start of battle, magical attack power is maximum increased, and the physical attack power and magical attack power of all allies are huge increased.
+
+
+バトル開始後90秒間味方全体の魔法\n防御力特大アップ=For 90s at start of battle, maximum boost to all allies M.DEF.
+バトル開始後90秒間味方全体の物理\n防御力特大アップ=For 90s at start of battle, maximum boost to all allies P.DEF.
+バトル開始後味方全体のＴＰ大回復=After the start of battle, all allies recover a large amount of TP.
+バトル開始後90秒間味方全体の物理\n攻撃力特大アップ=For 90s at start of battle, maximum boost to all allies P.ATK.
+バトル開始後90秒間味方全体の魔法\n攻撃力特大アップ=For 90s at start of battle, maximum boost to all allies M.ATK.
 

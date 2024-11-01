@@ -1,7 +1,7 @@
 ---1---
 ジオ・テオゴニアの代表者=Representatives of Geo Teogonia
 
-プリンセス会議に向け、ジオ・ニヴルヘルについて話を聞くCorneliaたち。まだ見ぬ第四の世界やロストしたシェフィへの思案を巡らせつつも、ひとまずライラエルたちとの合流を果たすのだった。=In preparation for the princess meeting, Cornelia and the others asked about Geo Niflhel. They pondered the fourth world they had yet to see and the lost Shepherd, but for the time being, they were able to meet up with Rilael and the rest.
+プリンセス会議に向け、ジオ・ニヴルヘルについて話を聞く{playername}たち。まだ見ぬ第四の世界やロストしたシェフィへの思案を巡らせつつも、ひとまずライラエルたちとの合流を果たすのだった。=In preparation for the princess meeting, {playername} and the others asked about Geo Niflhel. They pondered the fourth world they had yet to see and the lost Shepherd, but for the time being, they were able to meet up with Rilael and the rest.
 
 
 （……シェフィちゃん……）=(Sheffy...)
@@ -45,12 +45,12 @@
 ……そう、ですよね。\nわたくしだけでなく……ペコリーヌさまや、プレシアさまたちも。\n表には出さなくても、心細い想いは変わらないはず……=...That's...right. Not just me...but Lady Pecoline, Precia, and the others as well. Even if I don't let it show, my heartless feelings won't change...
 ……ありがとうございます、主さま。\nわたくし、決して希望は捨てません。=...Thank you, Master. I will never give up hope.
 いつの日か……必ずや。\nシェフィさまのことを、お助けする日まで。=Someday... I will. Until the day I save Shepherd.
-──それから数日間。\nCorneliaたちは\nジオ・ゲヘナの探索や人々との交流を続けていた。=For the next few days, Cornelia and the others continued their search for Geo Gehenna and interacted with the people.
+──それから数日間。\n{playername}たちは\nジオ・ゲヘナの探索や人々との交流を続けていた。=For the next few days, {playername} and the others continued their search for Geo Gehenna and interacted with the people.
 おおっ、ナイスだぜお前さんたち！\n今日の朝メシはこの魔物で決まりだなっ！=Oooh, nice job, guys! Today's breakfast is decided by these monsters!
 ……はぁ。\n朝も早よから魔物の叫び声に起こされて、バカ強いのと戦わされて。\nほんとジオ・ゲヘナって感じね～……ふぁぁ。=*sigh* I was woken up by monsters screaming so early in the morning, and forced to fight something stupidly strong. It really does feel like Geo Gehenna... *yawn*.
 まぁまぁキャルちゃん☆\n目も覚めるし、\n朝ごはんのおかずが一品増えてお得じゃないですか♪=Now, now, Cal-chan☆ You'll wake up, so it'll be a good deal if you add one more side dish for breakfast♪
 クリアさまたちが、グルメチェイサー号のほうで\n朝食の準備をしてくださっております。\n今手に入れたお肉を、さっそくお届けいたしましょう。=Clear-sama and the others are preparing breakfast on the Gourmet Chaser. Let's deliver the meat we just obtained.
-Corneliaくん？\nどうしたんですか？=Cornelia? What's wrong?
+{playername}くん？\nどうしたんですか？={playername}? What's wrong?
 誰かに呼ばれたような……=It's like someone called me here...
 気のせいじゃないの～？=Aren't you just imagining things?
 

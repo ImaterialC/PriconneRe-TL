@@ -1,8 +1,8 @@
 キャラクターストーリー=Character story
 sr:"^([べ-・ー＆ ]{2,11})(（.+）)? 第(\d+)話を閲覧$"=$1$2 Episode $3
 メインストーリー=Main Story
-r:"^第(\d+)部 第(\d+)章 第(\d+)話を閲覧$"=View Part $1 Ch $2 Ep $3
-r:"^第(\d+)部 第(\d+)章 幕間を閲覧$"=View Part $1 Ch $2 Epilogue
+r:"^第(\d+)部 第(\d+)章 第(\d+)話を閲覧$"=Watch Main Story: Part $1 Chapter $2 Episode $3
+r:"^第(\d+)部 第(\d+)章 幕間を閲覧$"=Watch Main Story: Part $1 Chapter $2 Epilogue
 sr:"^([べ-・ー＆ ]{2,11})(（.+）)?の絆ランクが(\d+)以上$"=$1$2 bond rank $3 or more
 
 
