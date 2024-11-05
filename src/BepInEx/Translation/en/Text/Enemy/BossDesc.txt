@@ -1382,3 +1382,7 @@
 イビルキャノンズ=Evil Cannons
 どこからか確保した髑髏を被りし砲台。より洒落た骸を求めて彷徨う。=A cannon with a skull secured from somewhere. I wander around in search of a more stylish corpse.
 ボーンキャノン=Bourne Cannon
+モンスターＨＰを本戦状態\にする=Set monster HP to battle mode
+通常攻撃は、召喚体、分身を除いた最も近い敵２キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=The normal attack deals medium magic damage to the two closest enemies (excluding summons and clones) and reduces their magic defense by a small amount. The effect of this skill is applied even if damage is nullified.\n
+召喚体、分身を除いた最も近い敵２キャラに魔法小ダメージを与え、ノックバックさせ、さらに魔法中ダメージを与える。=Deals small magic damage to the two nearest enemies (excluding summoned creatures and clones), knocks them back, and also deals medium magic damage.\n
+ユニオンバーストは、飛行状態のキャラを含む敵全体に魔法大ダメージを与え、さらに麻痺状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large magical damage to all enemies, including flying characters, and also inflicts paralysis. Damage from this skill does not restore TP. The abnormal status caused by this skill will be inflicted even if the damage is nullified.\n

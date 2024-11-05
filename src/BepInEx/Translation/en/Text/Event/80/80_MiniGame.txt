@@ -24,7 +24,7 @@
 バランス=Balance
 耐久型=Endurance type
 ヤマトｐ=Yamatop
-総戦力こそすべて=Total Power is Everything
+総戦力こそすべて=Total BP is Everything
 とにかく突っ込め=Just charge in
 マシンを大切に=Take care of your machine
 攻撃あるのみ=Only attack
@@ -49,6 +49,32 @@
 カスタム画面へ=To Custom screen
 TOPへ戻る=Return to the top
 バトルポイント=Battle Points
+恋はいつでも=Love is always
+ブースター=Booster
+タイヤ（大）に=Tires (Large)
+タイヤ（中）に=Tires (Medium)
+タイヤ（特大）に=Tires (Massive)
+ケバブ=Kebab
+スライサー=Slycer
+時間経過か、パーツ分解で回数が回復します。=The number of times will recover over time or by disassembling parts.
+アビス・パンツァーMk－１=Abyss Panzer Mk-1
+匂い補給中=Smells resupplied
+コスト上限を超えるため装着できません。=Cannot be equipped as it exceeds the cost limit.
+マシンの変更を保存するかリセットしてください。=Save the changes or reset the machine.
+第一コッコロ丸=First Kokkoromaru
+ライバルバトル=Rival Battle
+対戦可能な相手がいません。=There is no opponent you can play against.
+プレイヤー=Player
+累計バトルポイント=Total Battle Points
+小柄でエルフで緑=She was petite, elf, and green
+下松CLEAR’S=Shimomatsu CLEAR'S
+イチ=Ichi
+プリンアラモード=Pudding ala mode
+タコヤキ=Takoyaki
+ギョーザ=Gyoza
+フルサービス=Full service
+
+
 r:"^\[FFBB00\,CE4F00\](.+)\[-\]\[3C404E\]が\nメンバーに加わりました。\[-\]$"=[FFBB00,CE4F00]$1[-][3C404E]\nhas joined the party.[-]
 クエストのステージ3クリアで解放されます。=Unlocked by clearing stage 3 of the quest.
 クエストのステージ1クリアで解放されます。=Unlocked by clearing stage 1 of the quest.
@@ -61,6 +87,7 @@ r:"^\[FFBB00\,CE4F00\](.+)\[-\]\[3C404E\]が\nメンバーに加わりました�
 コスト\\nオーバー=Cost \\nOver
 次の目標=Next target
 回復まで=Until he recovers
+r:"^(\d+)pt獲得$"=Acquire $1pt
 r:"^ステージ([0-9 /]+)$"=Stage$1
 r:"^パーツを(\d+)個獲得しよう$"=Obtain $1 parts
 ライバルバトル」で９９９回\r\n勝利しよう１２３=Win 999 "Rival Battles"
@@ -96,4 +123,4 @@ r:"^バトルポイントを累計(\d+)pt獲得しよう$"=Earn a total of $1 ba
 r:"^クリア回数(\d+)回$"=Clear $1 times
 r:"^ステージ(\d+)をクリアしよう$"=Clear stage $1
 r:"^フブキから(\d+)個パーツを獲得しよう$"=Obtain $1 parts from Fubuki
-r:"^総戦力を(\d+)以上にしよう$"=Raise the total Power to $1 or more
+r:"^総戦力を(\d+)以上にしよう$"=Raise the total BP to $1 or more
