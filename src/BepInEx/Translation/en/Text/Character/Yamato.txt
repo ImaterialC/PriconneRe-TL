@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛で、豪胆にスリルを嗜む盗賊ギルドの長女。最前線で命を張りながら、獲得した【バンディダイス】の消費によって自らを大幅強化し、有象無象を地に伏せる。=[Physical] The older sister of the Bandy Sister guild, she is bold and thrill-loving. While risking her life on the frontlines, she uses the [Bandy Dice] to greatly strengthen herself and bring down the incompetent to the ground.
+ファイルーズあい=Fairouz Ai
+
+##UB##
+ティース・ワインディング=Teeth Winding
+敵全体の物理防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせ、前方範囲内の敵すべてに物理大ダメージを与える。さらに、自分のＨＰを中回復する。このスキルのダメージは、１ヒットは必ずクリティカルする。=Moderately lowers all enemies' P.DEF and boosts their P.CRIT DMG taken, and deals large P.DMG to enemies in range. Also moderately recovers own HP. At least one hit of the UB will always be a critical hit.
+r:"^敵全体の物理防御力を(\d+)ダウン敵全体の被クリダメを5％アップ範囲内の敵に(\d+)の物理ダメージ自分のＨＰを(\d+)回復$"=►Lowers all enemies' P.DEF by $1 for 18s.\n►Boosts all enemies' P.CRIT DMG taken by 5% for 18s.\n►Deals $2 P.DMG to enemies in 500 range.\n►Recovers own HP by $3. 
+
+##S1##
+チェーンエッジ=Chain Edge
+前方範囲内の敵すべてに物理中ダメージを２回与え、物理防御力を小ダウンさせる。さらに、自分のＨＰを中回復する。=Deals two instances of moderate P.DMG enemies in front and slightly lowers their P.DEF. Also moderately recovers own HP.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to enemies in 500 range.\n►Deals $2 P.DMG to enemies in 500 range.\n►Lowers enemies' P.DEF in 500 range by $3 for 12s.\n►Recovers own HP by $4.
+
+##S2##
+バンディットダイス=Bandy Dice
+自分の物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせる。さらに、【バンディダイス】をすべて消費するが、消費した【バンディダイス】の数に応じて効果量がアップする。【バンディダイス】を８つ消費した場合、効果量の上昇量と効果時間が増加する。=Greatly boosts own P.ATK and slightly boosts own P.CRIT DMG. Also consumes all [Bandy Dice] stacks, but increases the effects of the skill based on the number of [Bandy Dice] stacks consumed. If 8 [Bandy Dice] stacks are consumed, both the effects and the duration increase.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを1％アップバンディダイスを全て消費する$"=►Boosts own P.ATK by $1 (+0.25×$1×\n[Bandy Dice]) for 12s.\n►Boosts own P.CRIT DMG by 1% (+1%×[Bandy Dice]) for 12s.\n►Consumes all {Bandy Dice].
+
+##SP1##
+水分補給だよ=Rehydration
+自分の物理防御力と魔法防御力を大アップする。さらに、自分を敵にクリティカルでダメージを与えるたびに【バンディダイス】が１つ追加される状態にし、自分に【バンディダイス】を３つ付与する。【バンディダイス】は最大８つまで追加される。=Greatly boosts own P.DEF and M.DEF, gains 3 [Bandy Dice] stacks, and adds one [Bandy Dice] stack for each time she lands a critical hit, up to a maximum of 8.
+r:"^クリティカルでダメージを与えるたびにバンディダイスを付与する状態になる自分にバンディダイスを３つ付与する自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=►Boosts own P.DEF by $1 for 180s.\n►Boosts own M.DEF by $2 for 180s.\n►When landing a critical hit, gains 1 [Bandy Dice] stack.\n►Gains 3 [Bandy Dice] stacks.
+
+##EX##
+品定めの時間=Time to check the goods
+品定めの時間+=Time to check the goods+

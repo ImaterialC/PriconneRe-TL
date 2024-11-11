@@ -9,16 +9,24 @@ r:"^自分に炎舞の刻印を付与する範囲内の味方の物理攻撃力�
 ##S1##
 フレイムオービット=Flame Orbit
 目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の味方すべてのＴＰを小回復させる。【炎舞の刻印】の数に応じて、ダメージとＴＰの回復量が増加する。=Deals massive P.DMG to an enemy in front and slightly recovers allies' TP in range. The P.DMG and TP recovery increase according to number of [Flame Dance Seal].
-r:"^敵単体に(\d+)の物理ダメージ範囲内の味方のＴＰを60回復$"=Cast time: 0.59s\n►Deals $1 (+0.8×$1×[Flame Dance Seal]) P.DMG to an enemy.\n►Recovers allies' TP in 300 range by 60 (+20×[Flame Dance Seal]).
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方のＴＰを60回復$"=►Deals $1 (+0.8×$1×[Flame Dance Seal]) P.DMG to an enemy.\n►Recovers allies' TP in 300 range by 60 (+20×[Flame Dance Seal]).
 
 ##S2##
 パッショネイト=Passionate
 自分を中心とした範囲内の味方すべての物理攻撃力と物理防御力を大アップさせ、物理無効バリアを展開する。=Greatly boosts allies' P.ATK and P.DEF in range, deploys Barrier over allies in range that negates P.DMG.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=Cast time: 0.59s\n►Boosts allies' P.ATK in 300 range by $1 for 12s.\n►Boosts allies' P.DEF in 300 range by $2 for 12s.\n►Deploys Barrier over allies in 300 range that negates $3 P.DMG for 12s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=►Boosts allies' P.ATK in 300 range by $1 for 12s.\n►Boosts allies' P.DEF in 300 range by $2 for 12s.\n►Deploys Barrier over allies in 300 range that negates $3 P.DMG for 12s.
 
 ##EX##
 デザートベール=Desert Veil
 デザートベール+=Desert Veil+
+
+##S1+##
+フレイムオービット+=Flame Orbit+
+自分を中心とした範囲内の味方すべての物理攻撃力を中アップさせ、目の前の敵１キャラに物理大ダメージを与える。さらに自分を中心とした範囲内の味方すべてのＴＰを小回復させる。このスキルの効果量は【炎舞の刻印】の数に応じて上昇する。=Moderately boosts allies' P.ATK in range, deals massive P.DMG to an enemy in front and slightly recovers allies' TP in range. The skill effects increase according to number of [Flame Dance Seal].
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方のＴＰを60回復範囲内の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 (+0.9×$1×[Flame Dance Seal]) P.DMG to an enemy.\n►Recovers allies' TP in 300 range by 60 (+20×[Flame Dance Seal]).\n►Boosts allies' P.ATK in 300 range by $2 (+0.33×$2×[Flame Dance Seal]) for 12s.
+
+##UE##
+熱き砂漠のサラサリアン=Salasaria of the Hot Desert
 
 ##Comments##
 この格好、地元の子どもたちが\nきれいだって褒めてくれたわ♪\nあんたの感想も聞かせて？\n…ふふ、ありがと♪　うれしいわ=The local children complimented me on my pretty outfit♪ Can you tell me what you think? Heheh, thanks♪ I'm so happy.

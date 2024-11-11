@@ -113,7 +113,8 @@ r:"^([0-9,]+)で購入$"=Purchase at $1
 [FF7C4E,D62146]専用装備２作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-2.[-]
 [FF7C4E,D62146]専用装備２作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-2.[-]
 
-sr:"^\[FF7C4E,D62146\]([べ-・ー＆]{2,11}|)(\（.{2,10}\）)?の専用装備２を\n(.)段階強化するのに必要な数を所持しています。\[-]$"=[FFF7C4E,D621446]You have the necessary quantity required to upgrade\n$1$2's Unique Equipment 2 by $3 level(s).[-]
+使用可能なスロットがありません。=No usable slots.
+sr:"^\[FF7C4E,D62146\]([べ-・ー＆]{2,11})(\（.{2,10}\）)?の専用装備２を\n(.)段階強化するのに必要な数を超えています。\[-\]=[FFF7C4E,D621446]You have the necessary quantity required to upgrade\n$1$2's Unique Equipment 2 by $3 level(s).[-]
 
 
 キャラLv限界突破に必要な数が含まれています。\n専用装備１の上限解放に必要な数を購入できます。=Contains the number required to Limit Break the character\nYou can purchase the number required to uncap Unique Equipment 1.
