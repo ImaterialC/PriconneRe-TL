@@ -57,7 +57,10 @@ r:"^キャラのLv強化に使用すると、キャラEXPが([0-9,]+)加算さ�
 r:"^ギルドハウス内で使用すると、キャラの絆Ptが([0-9,]+)加算される。$"=Used in the Guildhouse. Adds $1 character's bond points.
 r:"^キャラの装備強化に使用すると、装備強化Ptが([0-9,]+)加算される。$"=Used to refine a character's equipment. Adds $1 equipment refinement points.
 
-r:"^ギルドハウスやキャラの強化画面で\n使用すると、キャラの絆Ptが([0-9,]+)\n?加\n?算\n?される。$"=Use it in the Guildhouse or on the Character Enhancement Screen to add $1 Bond Pts to the character.
+r:"^ギルドハウスやキャラの強化画面で使用すると、\nキャラの絆Ptが([0-9,]+)加算される。$"=When used in the guild house or character strengthening screen, the character's bond points will be increased by $1.
+
+アルケス錬金堂の最高の秘術である究極錬成において使用される宝玉。装備の効果自体を物質化したもので特殊な武具に付与することが可能。=A jewel used in the Ultimate Synthesis, the most powerful technique of the Atelier Alces. It is a materialized version of the effects of the equipment itself and can be applied to special weapons.
+
 クリアランク★3を獲得したクエス\nトの、プレイ時間をスキップするチケット。=A ticket that can skip quests that have a 3★ clear rank.
 プラチナガチャやピックアップガ\nチャを1回引くことができるガチャチケット。=A gacha ticket that can be used to draw the Premium or Focus Gacha.
 アドベンチャーのクエストにかかる\n時間を短縮することができるチケッ\nト。=A ticket that reduces the time required to complete an adventure quest.

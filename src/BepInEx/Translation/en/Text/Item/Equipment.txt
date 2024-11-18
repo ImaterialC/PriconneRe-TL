@@ -642,3 +642,13 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 オートマトンバイザー=Automaton Visor
 オートマトンジャケット=Automaton Jacket
 オートマトンフルフェイス=Automaton Full Face
+
+オートマトンエクスプレス=Automaton Ex Press  
+オートマトンエクスランス=Automaton Ex Lance  
+オートマトンエクスソード=Automaton Ex Sword  
+オートマトンエクスロッド=Automaton Ex Rod  
+オートマトンエクスバトン=Automaton Ex Baton  
+オートマトンエクスエッジ=Automaton Ex Edge  
+オートマトンエクスダガー=Automaton Ex Dagger  
+オートマトンエクスカタナ=Automaton Ex Katana  
+オートマトンエクスボウ=Automaton Ex Bow  

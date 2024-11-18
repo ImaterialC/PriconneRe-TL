@@ -56,6 +56,8 @@
 
 まとめてスキップ確認=Skip Confirmation
 スキップチケットとスタミナを消費して、以下のクエストを実行します。よろしいですか？=Spending Skip Tickets and Stamina to do the following quests. Is it OK?
+スキップチケットを消費して、以下のクエストを実行します。よろしいですか？=Spending Skip Tickets to do the following quests. Is it OK?
+
 
 スキップ済み確認=Skip Confirmation
 前回まとめてスキップ時にスキップできなかった\nクエストが次回まとめてスキップの対象となります。=Quest that could not be skipped will be skipped next time.
