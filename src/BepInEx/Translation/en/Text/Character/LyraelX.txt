@@ -1,0 +1,21 @@
+##Profile##
+【魔法】後衛で、雪白の肌を黒衣に包んだ甘美なる姫君。味方のＨＰを代償に強力なバリアを展開しつつ、バリアを起点とした高出力の二連撃で、聖夜の大樹に灯を点す。=[Magic] A sweet beautiful princess who, in contrast to her snow white skin, wears clothes steeped in black. In exchange for the HP of her allies, she deploys a powerful barrier, and has powerful double attacks revolving around said barrier. With these, she lights up the great tree of the Holy Night.
+
+##UB##
+寵雷夜天=Affectionate Thunder Night Sky
+目の前の敵１キャラに魔法特大ダメージを与える。自分にバリアが展開されている場合、このスキルのダメージがアップし、追加の魔法特大ダメージを与え、さらに味方全体の魔法攻撃力を特大アップさせる。=Deals massive M.DMG to an enemy in front. If XLyrael has a barrier active, boosts M.DMG dealt, deals an additional instance of massive M.DMG, and boosts all allies' M.ATK.
+r:"^バリアが展開されていない時、敵単体に(\d+)の魔法ダメージバリアが展開されている時、敵単体に(\d+)の魔法ダメージバリアが展開されている時、敵単体に(\d+)の魔法ダメージバリアが展開されている時、味方全体の魔法攻撃力を(\d+)アップ$"=If Barrier is active:\n►Deals $2 M.DMG to an enemy.\n►Deals $3 M.DMG to an enemy.\n►Boosts all allies' M.ATK by $4 for 18s.\n\nIf Barrier is not active:\n►Deals $1 M.DMG to an enemy.
+
+##S1##
+衝雷の投吻=Thunderbolt Blown Kiss
+目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。自分にバリアが展開されている場合、このスキルのダメージがアップし、さらに追加の魔法大ダメージを与える。=Deals moderate M.DMG to an enemy in front and slightly lowers its M.DEF. If XLyrael has a barrier active, boosts M.DMG dealt, and deals an additional instance of large M.DMG.
+r:"^バリアが展開されていない時、敵単体に(\d+)の魔法ダメージバリアが展開されている時、敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウンバリアが展開されている時、敵単体に(\d+)の魔法ダメージ$"=If Barrier is active:\n►Deals $2 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $3 for 12s.\n►Deals $4 M.DMG to an enemy.\n\nIf Barrier is not active:\n►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $3 for 12s.
+
+##S2##
+纏雷の障壁=Thunderclad Barrier
+自分と召喚体以外の味方全体の残りＨＰを25％消費するが、味方全体の魔法攻撃力を中アップさせ、味方全体に物理/魔法無効バリアを展開する。さらに自分の魔法攻撃力を大アップさせ、ＴＰを小回復する。自分と召喚体以外の味方全体の残りＨＰが多いほど、このスキルの効果量が最大５倍までアップする。このスキルによる味方へのダメージでは味方のＴＰは回復しない。=Consumes 25% HP of all other allies, and moderately boosts all allies' M.ATK and deploys Barrier over them that negates P/M.DMG. Also greatly boosts own M.ATK and slightly recovers own TP. The skill effects increase according to all other allies HP, up to 5 times. Allies do not gain TP from damage inflicted by this skill.
+r:"^自分と召喚体以外の残りＨＰの25％を消費味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理魔法無効バリアを展開する自分の魔法攻撃力を(\d+)アップ自分のＴＰを100回復$"=►Consumes 25% HP of all other allies.\n►Boosts all allies' M.ATK by $1 for 12s.\n►Deploys Barrier over all allies that negates $2 P/M.DMG for 180s.\n►Boosts own M.ATK by $3 for 12s.\n►Recovers own TP by 100.
+
+##EX##
+ラブ＆パニッシュメント=Love & Punishment
+ラブ＆パニッシュメント+=Love & Punishment+

@@ -72,6 +72,8 @@ r:"^\[3C404E\]スタミナを\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパ
 
 
 r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]枚消費して、同じパーティで\nもう一度クエストをプレイします。\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Boss Tickets to play the quest\none more time with the same party.[-]
+r:"^\[3C404E\]ボスチケットを\[FFBB00,CE4F00\](\d+)\[-\]消費して、同じパーティで\nもう一度クエストをプレイします。よろしいですか？\[-\]$"=[3C404E]Using [FFBB00,CE4F00]$1[-] Boss Tickets to play the quest\none more time with the same party.\nIs this OK?[-]
+
 よろしいですか？=Is this OK?
 [3C404E]よろしいですか？[-]=[3C404E]Is this OK?[-]
 本日の回復可能回数上限に達しているため回復できません。=You have reached the limit on refreshes for today.
