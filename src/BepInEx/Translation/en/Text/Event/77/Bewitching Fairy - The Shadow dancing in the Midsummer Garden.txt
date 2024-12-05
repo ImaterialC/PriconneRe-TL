@@ -949,7 +949,7 @@ The ultimate system crafted by the Seven Crowns.
 ふふっ、私を頼ってくれるんだ。\nうれしいな～=Hehe, you're relying on me.\nI'm glad~
 あんたは要注意人物だけど実力は確かだからね。\n頼るというより、利用させてもらうわ。=You're a dangerous person, but your skills are real, so.\nMore than relying, I'll use you.
 さすが、クレバーだね～\nでも利用ってことなら、見返りを求めちゃおっかな？=Clever, as usual~\nBut if it's about using, should I expect something in return?
-……あたし秘蔵の、Corneliaの恥ずかしい記憶でどう？=…How about my secret stash of Cornelia's embarrassing memories?
+……あたし秘蔵の、{playername}の恥ずかしい記憶でどう？=…How about my secret stash of {playername}'s embarrassing memories?
 ご利用ありがとうございま～す♪=Thank you for your patronage~♪
 裏取引してないで私を助けなさいよ！？=Stop making backdoor deals and help me!
 あーもうっ！\nこんなんどうしようもないわよフィオ！=Ugh, come on!\nIt's completely hopeless, Fio!

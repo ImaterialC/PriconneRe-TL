@@ -1,5 +1,6 @@
 r:"^愛を失ったランドソル([0-9\-\(\)\w （）]*)$"=Loveless Landosol $1
 ゴーストキッド・ベロリー=Ghost Kid Bellory
-ゴーストキッド・ベロリーを5体倒そう(EX・EX＋を除く)=Defeat 5 Ghost Kid Berries (excluding EX and EX+)
+ゴーストキッド・ベロリーを5体倒そう(EX・EX＋を除く)=Defeat 5 Ghost Kid Berries (excluding EX and EX
+ゴーストキッド・ベロリーを10体倒そう(EX・EX＋を除く)=Defeat 10 Ghost Kid Berries (excluding EX and EX+)
 スペシャルエピソード=Special Episode
 エピソード一覧=List of episodes

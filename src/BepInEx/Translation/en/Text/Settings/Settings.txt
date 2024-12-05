@@ -26,6 +26,11 @@ SDカード保存設定=Transfer data to SD
 バースデーストーリーの通知=Birthday Story Notification
 バースデーストーリーが追加された際、通知を表示するか設定します。=When the birthday story is added, display the notification.
 
+選択肢の自動選択設定=Automatic selection of options
+オート再生中または早送り再生中に複数の選択肢が表示された際、選択肢を自動で選ぶか設定します。\n「自動選択する」は一番上の選択肢が自動で選ばれます。\n「自動選択しない」は複数の選択肢が表示された際、ストーリー再生が一時停止します。\n※表示される選択肢が１つだけの場合、設定によらず自動選択されます。=When multiple choices are displayed during auto-play or fast-forward playback,\nset whether to select choices automatically.\n"Auto Select" will automatically select the top choice.\n"Do Not Auto Select" will pause story playback when multiple choices are displayed.\n※If only one choice is displayed, it will be automatically selected regardless of the setting.
+
+テキスト表示速度設定=Text display speed setting
+
 無効なシリアルコードです。\n再度入力してください。=Invalid Serial Code.\nPlease try again.
 [3C404E]無効なシリアルコードです。\n連続で無効なシリアルコードが入力されたため一時的に[-][FF7C4E,D62146]機能を制限[-][3C404E]しました。[-]=[3C404E] Invalid serial code.\nTemporarily [FF7C4E,D62146]restricted functionality[-] due to consecutive invalid serial codes entered[-]
 [3C404E]連続で無効なシリアルコードが入力されたため\n一時的に[-][FF7C4E,D62146]機能を制限[-][3C404E]しています。\n制限が解除されるまでしばらくお待ちください。[-]=[3c404e]The function is temporarily [FF7C4E,D62146]restricted[-] because invalid serial codes were entered consecutively.\nPlease wait for a while until the restrictions are lifted.
