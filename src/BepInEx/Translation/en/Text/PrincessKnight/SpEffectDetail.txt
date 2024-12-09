@@ -89,3 +89,7 @@
 バトル開始時、すべてのシャドウに物理無効バリアを展開する。=Deploy Physical Invalidity Barrier to all Shadows at the start of the battle.
 物理無効バリア=Physical nullification barrier
 バトル開始時、すべてのシャドウに魔法無効バリアを展開する。=Deploying a magic nullification barrier on all Shadows at the start of the battle.
+
+
+
+バトル中、「反撃バリア」効果が発動する。=During the battle, the 'Counter Barrier' effect is activated.

@@ -1,0 +1,25 @@
+##Profile##
+【魔法】後衛で、心地良い眠りの中に訪れる聖夜の悪魔。最も魔法攻撃力が高い味方に【悪魔の口づけ】を付与し、攻撃支援とＴＰ回復による付きっきりの手ほどきをする。=A demon in the Holy Night who will lure you into comfortable dreams. She imbues the highest M.ATK ally with [Devil's Kiss], and grants attack buffs and boosts TP, offering a service by their side.
+
+##UB##
+ラブリーデビルダイブ=Lovely Devil Dive
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を中ダウンさせる。さらに、自分を中心とした範囲内の味方すべてのＨＰを中回復させ、物理/魔法吸収バリアを展開し、魔法防御力を大アップさせる。=Deals massive M.DMG to an enemy in front and moderately lowers its M.DEF. Also moderately recovers allies' HP in range, deploys Barrier over them that absorbs P/M.DMG, and boosts their M.DEF.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン範囲内の味方のＨＰを(\d+)回復(\d+)ダメージ分の物理魔法吸収バリアを展開する範囲内の味方の魔法防御力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 18s.\n►Recovers allies' HP in 250 range by $3.\n►Deploys Barrier over allies in 250 range that absorbs $4 P/M.DMG for 18s.\n►Boosts allies' M.DEF in 250 range by $5.
+
+##S1##
+スウィートハートプレゼント=Sweetheart Present
+目の前の敵１キャラの魔法防御力を小ダウン、魔法攻撃力を大ダウンさせる。さらに【悪魔の口づけ】が付与されている味方の魔法攻撃力を特大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、そのキャラを中心とした範囲内の味方すべての魔法攻撃力を大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。=Slightly lowers an enemy's M.DEF and greatly lowers its M.ATK. Also massively boosts an ally's M.ATK with [Devil's Kiss] status and slightly boosts its M.CRIT DMG, and greatly boosts allies' M.ATK in range of that ally and slightly boosts their M.CRIT DMG.
+r:"^敵単体の魔法防御力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法攻撃クリティカル時のダメージを8％アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法攻撃クリティカル時のダメージを4％アップ$"=►Lowers an enemy's M.DEF by $1 for 12s.\n►Boosts an ally's M.ATK by $2 for 12s.\n►Boosts an ally's M.CRIT DMG by 8% for 12s.\n►Boosts allies' M.ATK in range by $3 for 12s.\n►Boosts allies' M.CRIT DMG in range by 4%.
+
+##S2##
+ハートフルキス=Heartful Kiss
+【悪魔の口づけ】が付与されている味方のＨＰとＴＰを小回復させる。さらにそのキャラを中心とした範囲内の味方すべてのＨＰとＴＰを小回復させる。=Slightly recovers an ally's HP and TP with [Devil's Kiss] status, and slightly recovers allies' HP and TP in range of that ally.
+r:"^対象の味方のＨＰを(\d+)回復対象の味方のＴＰを100回復範囲内の味方のＨＰを(\d+)回復範囲内の味方のＴＰを50回復$"=►Recovers an ally's HP by $1.\n►Recovers an ally's TP by 100.\n►Recovers allies' HP in range by $2.\n►Recovers allies' TP in range by 50.
+
+##SP1##
+自分以外の最も魔法攻撃力が高い味方１キャラに【悪魔の口づけ】を付与し、ＨＰとＴＰを小回復させる。さらにそのキャラを中心とした範囲内の味方すべてのＨＰとＴＰを小回復させる。=Grants [Devil's Kiss] status on the other ally with the highest M.ATK, slightly recovers its HP and TP, and slightly recovers allies' HP and TP in range of that ally.
+r:"^自分以外の最も魔法攻撃力が高い味方１キャラに悪魔の口づけを付与する対象の味方のＨＰを(\d+)回復対象の味方のＴＰを100回復範囲内の味方のＨＰを(\d+)回復範囲内の味方のＴＰを50回復$"=►Grants [Devil's Kiss] status to the other ally with the highest M.ATK.\n►Recovers an ally's HP by $1.\n►Recovers an ally's TP by 100.\n►Recovers allies' HP in range by $2.\n►Recovers allies' TP in range by 50.
+
+##EX##
+シークレットレッスン=Secret Lessons
+シークレットレッスン+=Secret Lessons+
