@@ -12,7 +12,15 @@ sr:"^([べ-ヺー＆]{2,9})(\（.{3,10}\）)?(\s|)の絆$"=Bond with $1$2
 sr:"^(.+?)(EASY|NORMAL|HARD|VERY HARD|SPECIAL|EXHIBITION＋)討伐！$"=Defeat a $1 in $2!
 
 
-
+ちぇるりぞ☆えくそだす=Chierurizo☆Exodus  
+春夏秋冬☆ちぇるんな子=Spring, Summer, Autumn, Winter☆Chieru Girl  
+鬼の目にも渚=Even an Oni's Eye Sees the Shore  
+ハロウィンサイキック=Halloween Psychic  
+星纏う万象の主=Master of All Draped in Stars  
+強欲の魔女=Greedy Witch  
+無法姉妹のナマイキ三女=Reckless Sisters' Sassy Youngest Daughter  
+無法姉妹の薄幸次女=Reckless Sisters' Ill-Fated Second Daughter  
+天使で悪魔なプリンセス=Angel and Devil Princess  
 常夏のカリスマモデル=Charismatic Summer Model  
 常夏の冥姫=Summer Dark Princess  
 サマーガイド妖精=Summer Guide Fairy  

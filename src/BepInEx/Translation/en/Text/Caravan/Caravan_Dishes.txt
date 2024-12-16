@@ -5,6 +5,16 @@
 「特殊系」= 
 
 
+ミソラの\n気まぐれ味噌ラーメン★=Misora's Whimsical Miso Ramen★
+ミソラが作ったラーメン。適当に言った好きな物をランファが憶えていたために、材料を用意され仕方なく作ったものだが味はイイコト級の一品。美味しそうに食べられるのは嫌いではない様子。=A bowl of ramen made by Misora. Lanfa remembered something Misora mentioned liking offhandedly and prepared the ingredients, leaving Misora with no choice but to cook it. Despite that, the dish turned out to be top-notch. She doesn’t seem to mind when people enjoy eating it so enthusiastically.  
+【料理】移動時に料理マスをスキップできる=[Dish] Allows skipping food tiles while moving.
+
+3ターンの間、すべての「マイルマス」をランク\n3の「トレジャーマス」に変化させる。=For 3 turns, all "Mile Tiles" are transformed into rank 3 "Treasure Tiles."
+
+【仲間】出たダイスの目が奇数だった場合、1マス分多く進める=[Ally] If the rolled dice shows an odd number, you can move 1 extra tile.
+
+
+\nミニゲームをスキップしますか？\nプレイ報酬の代わりにマイルが獲得できます。=Would you like to skip the mini-game?\nInstead of play rewards, you will receive miles.
 ---Dish names---
 
 
@@ -193,6 +203,11 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 シェフィが自身の魔力の氷を使い作ったアイス。\nペコリーヌにねだられて作ったものだがキャル達\nにも好評である。コッコロ曰くひんやりしている\nのに食べると心が温かくなってきます、との事。=An ice cream made by Sheffy using her magical ice. She made it at Pecorine's request, but it has also been well-received by Karyl and the others. According to Kokkoro, "Even though it's chilly, eating it makes your heart feel warm."
 
 ---Yellow---
+イロハの最強クワガタゼリー（人間用）=Iroha's Ultimate Stag Beetle Jelly (For Humans)
+次に振るダイスの目が「1・6・6・6・8・8」になる。=The next dice roll will have the faces: "1, 6, 6, 6, 8, 8."
+イロハがいつも持ち歩いているカラフルなゼリー…なのだがアルケス錬金堂で作られたクワガタ用餌ゼリーとそっくりな見た目をしている。甘くて美味しいが、人間用か尋ねると目を逸らされる。=This is the colorful jelly Iroha always carries around... but it looks strikingly similar to the jelly made as stag beetle feed by Alkes Alchemy. It's sweet and tasty, but if you ask whether it's truly for humans, Iroha avoids eye contact.
+料理マスをスキップして移動できる。効果は2\nターンの間継続する。=Allows you to skip food tiles and move forward.\nThe effect lasts for 2 turns.
+グレイスお手製のカップケーキ。ショッキングな見た目に全振り…と思わせて目玉も食べることが可能で大変美味…と思わせて一部だけ魂消るほど甘い部分がある。原材料は頑なに秘されている。=Grace's Homemade Cupcake. At first glance, its shocking appearance seems to be the entire focus... But in reality, even the eyeball decorations are edible and surprisingly delicious. That said, some parts are shockingly sweet to the point of being overwhelming. The ingredients remain a closely guarded secret.
 アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special picnic basket together. Their excitement for this trip with their friends is packed into every single delicious dish. Eating them fills you with joy and ensures that the next event will be just that bit more special.
 
 カヤとイノリが弁当代わりに持ってきたケバブ。イノリ行きつけの店の硬派な味わいで、ギャングとしてのやる気が一人3倍、コンビで6倍となり下剋上を成し遂げるパワーが湧く……らしい。=Instead of typical lunches, Kaya and Inori brought this Kebab from Inori's favorite restaurant. They claim that the robust savory flavor gives them three times the motivation (six times as a duo) to power on through and achieve their goals as the underdog... apparently.

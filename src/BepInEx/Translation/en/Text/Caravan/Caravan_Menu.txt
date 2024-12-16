@@ -2,6 +2,8 @@
 ボーナス一覧=Bonus List
 経過ターン=Elapsed Turns
 
+シーズン最速到達ターン=Fastest season's turn
+シーズン最速到達記録=Fastest season record
 
 グルメチェイサー号=Gourmet Chaser
 バンディシャーク号=Bandyshark
@@ -11,15 +13,18 @@
 目標到着ボーナス=Target arrival bonus
 到着までにかかったターン数=Total Turns
 ライバルに勝利=Won
+r:"^(\d+)ターン経過$"=$1 Turn(s) passed
 r:"^(\d+)ターン休み$"=$1 Turn(s) Break
 練習する=Practice
 練習中=During practice
 ライバル=Rival
 ライバル勝利ボーナス=Rival victory bonus
+区間スキップ=Section Skip
+シーズン中、チェックポイント到達までにかかった\n最速ターン数に応じてボーナスが獲得できます！=During the season, you can earn bonuses based on the\nfastest number of turns it took you to reach a checkpoint!
 
 r:"^ダイスを(\d+)個入手した。$"=Obtained $1 dice.
 \nマイルを支払って\n「ちかみち」を開通させます。\nよろしいですか？=\nPay Miles to open the Shortcut.\nIs that all right?
-
+15ターン以内にチェックポイントに到達すると解放されます。=It will be unlocked if you reach the checkpoint within 15 turns.
 [FF7C4E,D62146]1[-][3C404E]ターン[-]=[FF7C4E,D62146]1[-][3C404E] Turn[-]
 r:"^\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]ターン\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Turns[-]
 チェックポイント=Checkpoint
@@ -174,7 +179,13 @@ r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(\d+)$"=Caravan Coin (
 
 シーズン切り替わり=New Caravan Season
 新シーズンが始まったため、\n所持していたトレジャーをコインに変換しました。=Since the new season has begun,\nall your treasure has been converted into coins.
-
+------
+所持ダイス=Dice
+r:"^ボーナスレベル(\d+)$"=Bonus level $1
+区間スキップを実行した場合、出現中の仲間効果、\nおよび発動中の料理効果、マス効果は消失します。\nまた、ライバル出現時は勝敗が無効となります。=If you perform a section skip, any active ally effects,\ndish effects, and tile effects will disappear. \nAdditionally, when a rival appears,\nthe outcome of the match will be nullified.  
+r:"^(?:\[3C404E\])?ダイスを\[FFBB00\,CE4F00\](\d+)個\[-\]使って区間スキップを実行しますか？(?:\[3C404E\])?(?:\[-\])?$"=[3C404E]Use [FFBB00,CE4F00]$1 dice[-] to perform a section skip?
+シーズン最速到達ターン数=Fastest Season Completion Turns
+区間スキップの実行にはダイスが15個必要です。=15 dice are required to execute section skip.
 ---Tutorial Kokkoro---
 皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Everyone, let's set off on an adventure aboard the Gourmet Chaser with Onigiri-sama. Roll the dice and move forward on the map, our goal is the Guild Management Association office, where Lady Karin is waiting for us.
 ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach it, the bigger the bonus you will receive. Let's collect coins and trade them for items at the shop.

@@ -19,3 +19,11 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ毎秒ＴＰを10回復
 ##EX##
 聖夜のデラックスコース=Christmas Deluxe Course
 聖夜のデラックスコース+=Christmas Deluxe Course+
+
+##S1+##
+ゴージャスグリッター+=Gorgeous Gritter+
+目の前の敵１キャラに物理大ダメージを与え、物理攻撃力と物理防御力を中ダウンさせ、最も遠くの味方１キャラの物理攻撃力を特大アップ、物理クリティカルを大アップさせる。バトル開始後、初弾のこのスキルは自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせ、物理防御力を中アップさせる。=Deals large P.DMG to an enemy in front, moderately lowers its P.ATK and P.DEF, and massively boosts a farthest away ally's P.ATK and greatly boosts its P.CRIT Rate. When battle begins, 1st skill usage also boosts allies' P.ATK and P.DEF in range.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを150アップ初使用時、範囲内の味方の物理攻撃力を(\d+)アップ初使用時、範囲内の味方の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 12s.\n►Lowers an enemy's P.DEF by $3 for 12s.\n►Boosts an ally's P.ATK by $4 for 12s.\n►Boosts an ally's P.CRIT Rate by 150 for 12s.\n\nFor 1st skill usage:\n►Boosts allies' P.ATK in 150 range by $5 for 180s.\n►Boosts allies' P.DEF in 150 range by $6 for 180s.
+
+##UE##
+ノエル・リッチモンド=Noel Richmond

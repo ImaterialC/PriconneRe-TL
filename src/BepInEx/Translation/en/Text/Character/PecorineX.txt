@@ -9,13 +9,21 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダ
 ##S1##
 ロイヤルアフェクション=Royal Affection
 最もＨＰが低い味方１キャラのＨＰを中回復させる。さらに、そのキャラを中心とした範囲内の味方すべての物理防御力と魔法防御力を中アップさせる。=Moderately recovers an ally's HP with the lowest HP. Additionally, moderately boosts allies' P.DEF and M.DEF in range.
-r:"^味方単体のＨＰを(\d+)回復範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 1.05s\n►Recovers an ally's HP by $1.\n►Boosts allies' P.DEF in 300 range by $2 for 12s.\n►Boosts allies' M.DEF in 300 range by $3 for 12s.
+r:"^味方単体のＨＰを(\d+)回復範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ$"=►Recovers an ally's HP by $1.\n►Boosts allies' P.DEF in 300 range by $2 for 12s.\n►Boosts allies' M.DEF in 300 range by $3 for 12s.
 
 ##S2##
 フローズンスラッシュ=Frozen Slash
 目の前の敵１キャラに魔法大ダメージを与える。さらに自分を中心とした範囲内の味方すべてに物理/魔法無効バリアを展開し、ＴＰを小回復させる。=Deals massive M.DMG to an enemy in front. Additionally, deploys Barrier over allies in range that negates P/M.DMG, and slightly recovers their TP.
-r:"^敵単体に(\d+)の魔法ダメージ(\d+)ダメージ分の物理魔法無効バリアを展開する範囲内の味方のＴＰを50回復$"=Cast time: 0.59s\n►Deals $1 M.DMG to an enemy.\n►Deploys Barrier over allies in 300 range that negates P/M.DMG by $2 for 12s.\n►Recovers allies' TP in 300 range by 50.
+r:"^敵単体に(\d+)の魔法ダメージ(\d+)ダメージ分の物理魔法無効バリアを展開する範囲内の味方のＴＰを50回復$"=►Deals $1 M.DMG to an enemy.\n►Deploys Barrier over allies in 300 range that negates P/M.DMG by $2 for 12s.\n►Recovers allies' TP in 300 range by 50.
 
 ##EX##
 聖夜の晩餐パワー=Holy Night Supper Power
 聖夜の晩餐パワー+=Holy Night Supper Power+
+
+##S1+##
+ロイヤルアフェクション+=Royal Affection+
+最もＨＰが低い味方１キャラのＨＰを中回復させる。さらに、そのキャラを中心とした範囲内の味方すべての物理防御力と魔法防御力を大アップさせ、自分のＴＰを中回復する。=Moderately recovers an ally's HP with the lowest HP, moderately boosts allies' P.DEF and M.DEF in range of that ally, and moderately recovers own TP.
+r:"^味方単体のＨＰを(\d+)回復範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ自分のＴＰを220回復$"=►Recovers an ally's HP by $1.\n►Boosts allies' P.DEF in 300 range by $2 for 12s.\n►Boosts allies' M.DEF in 300 range by $3 for 12s.\n►Recovers own TP by 220.
+
+##UE##
+クリスマスプリンセス=Christmas Princess

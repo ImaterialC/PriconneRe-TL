@@ -14,6 +14,8 @@ sr:"^(\[[0-9A-F]{6}\])?スペシャルかエキシビションのバトルで(.+
 EXHIBITION＋でボスを5回以内に討伐しよう=Clear the Exhibition＋ within 5 attempts.
 [FFFFFF]EXHIBITION＋でボスを5回以内に討伐しよう[-]=[FFFFFF]Clear the Exhibition＋ within 5 attempts.[-]
 
+sr:"^(\[[0-9A-F]{6}\])?(.+)を(\d+)体倒そう ?(?:（|\()EX(?:・EX\＋)?を除く(?:）|\)) ?(\[-\])?$"="$1Defeat $2 $3 times (Excluding EX and EX+).$4"
+
 sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)を討伐しよう(\[-\])?$"=$1Defeat $3.$4
 sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)のHPを([0-9,]+)まで減らそう(\[-\])?$"="$1Reduce $3's HP to $4.$5"
 r:"^(\[[0-9A-F]{6}\])?討伐証交換の報酬ラインナップを(\d)回リセットしよう(\[-\])?$"=$1Reset the reward lineup of subjugation exchange $2 Time.$3
@@ -24,7 +26,6 @@ r:"^(\[[0-9A-F]{6}\])?スペシャルバトルのボスのHPを(\d+)まで減ら
 sr:"^(\[[0-9A-F]{6}\])?(.+)に1回挑戦しよう（全難易度共通） (\[-\])?$"="$1Battle $2 once (Any Difficulty).$3"
 sr:"^(\[[0-9A-F]{6}\])?(.+)に1回挑戦しよう（EX(?:・EX＋)?を除く） ?(\[-\])?$"="$1Battle $2 once (Excluding EX and EX+).$3"
 sr:"^(\[[0-9A-F]{6}\])?(.+)を(\d+)体倒そう（全難易度共通）(\[-\])?$"="$1Defeat $2 $3 times (Any Difficulty).$4"
-sr:"^(\[[0-9A-F]{6}\])?(.+)を(\d+)体倒そう ?（EX(?:・EX＋)?を除く） ?(\[-\])?$"="$1Defeat $2 $3 times (Excluding EX and EX+).$4"
 sr:"^(\[[0-9A-F]{6}\])?(.+)を(\d+)体倒そう \(全難易度共通\)(\[-\])?$"="$1Defeat $2 $3 times (Any Difficulty).$4"
 sr:"^(\[[0-9A-F]{6}\])?(.+)を1体倒そう ?\((.+)?限定\)(\[-\])?$"="$1Clear $2 ($3 Limited) once.$4"
 sr:"^(\[[0-9A-F]{6}\])?(.+)を1体倒そう ?（(.+)?限定）(\[-\])?$"="$1Clear $2 ($3 Limited) once.$4"

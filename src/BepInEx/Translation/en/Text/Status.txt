@@ -45,6 +45,8 @@ HP回復量=HP Recovery Amount
 
 スキル切り替え！=Skills Change!
 
+r:"^魔法防御貫通\＋([0-9,]+)$"=M.DEF PEN
+r:"^物理防御貫通\＋([0-9,]+)$"=P.DEF PEN
 r:"^魔法攻撃力アップ\+([0-9,]+)$"="Magic Attack up +$1"
 r:"^魔法攻撃力ダウン\+([0-9,]+)$"="Magic Attack Down +$1"
 r:"^魔法防御力ダウン\+([0-9,]+)$"="Magic Defense Down +$1"

@@ -1,5 +1,5 @@
 フローエ・ヴァイナハテン=Floe Weihnachten
-クリスマス当日。街の様子を見守った{playername}たちは『クリスマスプレゼントと愛ある罰』で悪霊ベロリーを更生へと導く。事件を解決に導いた一同は、共に愛に溢れるクリスマスを謳歌することに。=On Christmas Day, {playername} and the others watched over the town and guided the evil spirit Beroly to reform with 'Christmas Present and Punishment with Love.' Having resolved the incident, the group celebrates a Christmas overflowing with love.
+クリスマス当日。街の様子を見守った{playername}たちは『クリスマスプレゼントと愛ある罰』で悪霊ベロリーを更生へと導く。事件を解決に導いた一同は、共に愛に溢れるクリスマスを謳歌することに。=On Christmas Day, {playername} and the others watched over the town and guided the evil spirit Berori to reform with 'Christmas Present and Punishment with Love.' Having resolved the incident, the group celebrates a Christmas overflowing with love.
 騒動から数日後。\n地道に愛を呼び戻す活動を続けていた\n{playername}たちは、無事にクリスマス当日を迎えた。=A few days after the commotion. {playername} and the others, who had been diligently calling back love, safely reached Christmas Day.
 この様子であれば、\nもう心配は必要ないかもしれませんね。=If things continue like this, we may no longer need to worry.
 ええ。\nすっかりいつものクリスマスです♪=Yes. It's completely back to the usual Christmas♪
@@ -7,14 +7,14 @@
 ホーッホッホ。\nじゃあ、君にはこのプレゼントをあげよう。=Ho ho ho. Here, you can have this present.
 いいの！？\nサンタさん、ありがとう！=Really!? Thank you, Santa!
 ホーッホッホ！\n君はいい子じゃのう。=Ho ho ho! You're a good child.
-見てみてミサキちゃん！\nサンタさんに、プレゼントもらっちゃった。=Look, Misaki-chan! I got a present from Santa.
+見てみてミサキちゃん！\nサンタさんに、プレゼントもらっちゃった。=Look, look! Misaki-chan! I got a present from Santa.
 よかったわね。\nそれじゃあ、いきましょっか。=That's great. Well then, shall we go?
 あれ？\nミサキちゃんはプレゼントいらないの？=Huh? Misaki-chan, don't you want a present?
 お、大人のレディはサンタさんに会えたからって\nはしゃいだりしないものなのよ……！=A-a sophisticated lady doesn't get all excited just because she met Santa...
 待ちなさい。\n大人のレディにも、クリスマスはあるんじゃよ。\nほれ、プレゼントじゃ。=Wait. Christmas is for sophisticated ladies too. Here, a present.
 えっ……\nこ、これブランド物のハンドクリームじゃない！=Eh... This is a branded hand cream!
-ホーッホッホ、乾燥は大人のレディの敵のはずじゃ。\n受け取ってくれるかな？=Ho ho ho, dryness is the enemy of a sophisticated lady. Will you accept it?
-サンタさん、ありがとう……！\nこれで、大人のレディに近づける！\nアタシ、しっかり保湿するわ！=Thank you, Santa...! I'm getting closer to being a sophisticated lady! I'll make sure to moisturize!
+ホーッホッホ、乾燥は大人のレディの敵のはずじゃ。\n受け取ってくれるかな？=Ho ho ho, dryness is the enemy of a sophisticated lady.\nWill you accept it?
+サンタさん、ありがとう……！\nこれで、大人のレディに近づける！\nアタシ、しっかり保湿するわ！=Thank you, Santa...! I'm getting closer to being a sophisticated lady!\nI'll make sure to moisturize!
 対面での受け渡しにしたのね。\nこれなら、サンタさんに感謝も伝わりやすいはずだわ。=You opted for handing over in person. This way, it's easier to convey gratitude to Santa.
 あ……でも、トラブルもあるみたい。=Ah... but it seems there's some trouble too.
 え……？\nこれはいったいなんじゃ……？=Huh...? What on earth is this...?
@@ -37,12 +37,12 @@
 え……はい……=Uh... okay...
 こちらの方に、ご案内いただいたおかげで、\n大変貴重な体験ができたのですよ。=Thanks to them guiding us, we had a very valuable experience.
 へー\nそんなことがあったんですね。=I see, so that happened.
-い、いえ。こちらこそ、大変お世話になりました。\n諸々と申し訳ありませんでした……！=N-no, we were the ones who received a lot of help. We apologize for everything...!
+い、いえ。こちらこそ、大変お世話になりました。\n諸々と申し訳ありませんでした……！=N-no, we were the ones who received a lot of help.\nWe apologize for everything...!
 では、陛下。\nそろそろお城に戻りましょう、お仕事も溜まっておりますので！=Then, Your Majesty, it's about time we return to the castle, as work is piling up!
 え！？\nわたしのクリスマス、これで終わりですか！？=Eh!? Is my Christmas ending here?
 はい、終わりです！=Yes, it is!
 そんなぁ～～～！\nチキンもまだ食べてないのに～～～っ！=No way~~! I haven’t even eaten chicken yet~~!
-……あの【王宮騎士団（NIGHTMARE）】、\n逃げるように行っちゃったわね。よかったの……？=...The 【Royal Guard (NIGHTMARE)】 seemed to run off in a hurry. Was that okay...?
+……あの【王宮騎士団（NIGHTMARE）】、\n逃げるように行っちゃったわね。よかったの……？=...The Nightmare Royal Guard seemed to run off in a hurry.\nWas that okay...?
 ええ。\nあの人たちだって、愛を破壊されてしまった被害者ですもの。=Yes. They are also victims whose love was destroyed.
 幸いにも、夢の騒動で逮捕はうやむやになったのです。\n穏便に済ませましょう。=Fortunately, the arrests from the dream commotion were left ambiguous. Let’s handle it peacefully.
 二人がそう言うなら、\nあたしもそういうことにしとくわね。=If you two say so, I'll go with that.
@@ -50,7 +50,7 @@
 ありがとうございます。\nでは、そろそろ向かいましょうか。=Thank you. Then, shall we head along?
 この辺りかしら？\n隠れてないで、出ておいで～♪=Is it around here? Come out, no need to hide~♪
 …………何しにきたの？=……What are you here for?
-ベロリー、今日はクリスマスですよ。\nプレゼントを届けにきました。=Beroly, it's Christmas today. We've come to deliver a present.
+ベロリー、今日はクリスマスですよ。\nプレゼントを届けにきました。=Berori, it's Christmas today. We've come to deliver a present.
 え……？\nもしかして、また雷？=Huh...? Is it another lightning strike?
 いいえ、違います。\nちゃんとした、クリスマスプレゼントです。=No, it's not. It's an actual Christmas present.
 この間は、その……すみませんでした。\n結局は、実力行使のような形になってしまい……=About the other day, well... I'm sorry. In the end, it turned into something akin to brute force...
@@ -63,7 +63,7 @@
 クリスマスプレゼントって、\nいい子には届くけど、『悪い子』には届かないものね……=Christmas presents reach good kids, but 'bad kids' don't get them...
 悪霊として生まれたから、クリスマスプレゼントをもらえないなんて、\nそんなの寂しいし、私たちも間違ってると思うの。=Being unable to receive Christmas presents just because you were born a spirit is so lonely, and we think that's wrong.
 だから、あなたへのクリスマスプレゼントを\nわたしたちで用意しました。=So, we prepared a Christmas present for you.
-ベロリーちゃんは、寂しかったのよね？\n分かってあげられなくて、ごめんね。=Beroly-chan, you were lonely, weren't you? Sorry for not understanding.
+ベロリーちゃんは、寂しかったのよね？\n分かってあげられなくて、ごめんね。=Berori-chan, you were lonely, weren't you? Sorry for not understanding.
 ……いや、別に……=...No, not really...
 （ぐぅぅ～……）=(Growwllll~...)
 ふふ。\n今はチョコバーは持ち合わせていないのですが、\nもっといいものがありますよ。=Hehe. I don't have any chocolate bars right now, but I have something better.
@@ -72,7 +72,7 @@
 安くて美味しいと、\nランドソルで人気のケーキなのですよ。=It’s a popular cake in Landosol that is cheap and delicious.
 そうなんだ……？\nいや、というか別にボクは……=Really…? Well, not that I actually...
 今日はクリスマスです。\nどうか、互いに許し合い、手を取り合えないでしょうか？=Today is Christmas. Can’t we forgive each other and join hands?
-ええ、仲直りしましょ？\n私たち、拳で語り合った仲じゃない♪=Yes, let's make up, shall we? We’re comrades who communicated with our fists♪
+ええ、仲直りしましょ？\n私たち、拳で語り合った仲じゃない♪=Yes, let's make up, shall we? We’re friends who communicated with our fists♪
 イオちゃん、間違ってないけど、\nそのセリフはどうなのかしら……？=Io-chan, you’re not wrong, but how is that line...
 まあ、とにかく。\n食べないと、この後体力切れしちゃうわよ？=Well, anyhow. If you don't eat, you'll run out of energy later.
 え？\nどういうこと？=Eh? What do you mean?
@@ -83,7 +83,7 @@
 ふふ、どういたしまして♪=Hehe, don't mention it♪
 それじゃあ、いただきましょうか♪\nみんな、準備はいいかしら？=Well then, shall we dig in? Everyone, ready?
 「いただきます。」\n「いただきま～す♪」\n「いただき、ます」='Let's eat.' 'Let's eat~♪' 'Let’s eat'
-ベロリーも前向きでしたね。\nフローエの罰の内容も素敵でした。=Beroly was positive about it. Floe’s idea of punishment was wonderful too.
+ベロリーも前向きでしたね。\nフローエの罰の内容も素敵でした。=Berori was positive about it. Floe’s idea of punishment was wonderful too.
 ありがとう。\nでも、あれもみんなのおかげなのよ。=Thank you. But that was thanks to everyone.
 今だと、わかる気がするわ……\nどうして、あたしたちクランプスが\nクリスマスへの悪感情を抑えきれなかったのか。=Now, I think I can understand... why we Krampus couldn't suppress our bad feelings towards Christmas.
 きっと、罰を与えるばかりで\n愛情をもって寄り添えていなかったからよね……=Surely, it's because we only gave punishments and didn't stand by with love...
