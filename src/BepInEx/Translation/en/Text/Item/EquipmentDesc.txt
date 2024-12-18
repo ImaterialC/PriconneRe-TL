@@ -3,7 +3,10 @@ sr:"^必要Lv(\d+)([^「」]{20,})$"=Required Lv $1\n$2
 
 Selling
 sr:"^(?:\[3C404E\])?(.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]を売却しますか？(?:\[-\])?$"=[3C404E]Would you like to sell the$1$2 × [FFBB00,CE4F00]$3[-]？[-]
-
+覇瞳皇帝の残響を撃ち破りし勇者に与えられる弓。獄に繋がれし神狐は唯々瞑想を続けやがて肥大化した自我と世界の境界を認知していく。=A bow given to the brave who defeats the echoes of the Overpowered Emperor. The fox god, chained in prison, continues to meditate and eventually becomes aware of the boundaries between his enlarged self and the world.
+覇瞳皇帝の残響を撃ち破りし勇者に与えられる槍。運命に抗いし神狐は天楼の果てに眠る可能性を求め塔を上り世界の秘密を知ることになる。=A spear given to the brave who defeats the reverberation of the Overpowered Emperor. The Divine Fox who resists fate climbs the tower in search of the possibility that lies at the end of the Sky Tower and learns the secrets of the world.
+覇瞳皇帝の残響を撃ち破りし勇者に与えられる短刀。地を統べた神狐は天命に抗い王を僭するも勇者たちに下され暗い地の底へと幽閉される。=A short sword given to the hero who defeats the echo of the Over-Eyed Emperor. The Divine Fox who ruled the land rebelled against the will of heaven and usurped the throne, but was defeated by the heroes and imprisoned in the dark depths of the earth.
+気高き竜戦士の残火を越えた勇者に託された剣。消えることなき誇りは邪気を払う翼となり、蒼き魂を受け継ぐ真なる勇者の礎となるだろう。=A sword entrusted to a hero who has surpassed the embers of the noble dragon warrior. His unfading pride will become wings that ward off evil, and will become the foundation of a true hero who inherits the blue soul.
 魔力を帯びたブレスレット。つけると気合いが漲り、装備者の魔法攻撃力を上げる効果がある。=A bracelet tinged with magical energy. When worn, it overflows with energy and increases the wearer's magical attack power.
 四つ葉のクローバーをあしらった御守り。幸運を呼び込み、持つ者の身を守ってくれると言われている。=A four-leaf clover charm. It is said to bring good luck and protect those who bear it.
 装備すると、どこからかやる気が漲ってくる不思議なブレスレット。攻撃力を上げる効果がある。=A strange bracelet that makes you feel motivated from somewhere when you equip it. It increases your attack power.

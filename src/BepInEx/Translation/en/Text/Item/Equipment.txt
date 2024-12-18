@@ -652,3 +652,7 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 オートマトンエクスダガー=Automaton Ex Dagger  
 オートマトンエクスカタナ=Automaton Ex Katana  
 オートマトンエクスボウ=Automaton Ex Bow  
+
+アズールサーキュラー=Azure Circular
+クリムゾンデルタ=Crimson Delta
+ヴェルデスクエア=Verde Square
