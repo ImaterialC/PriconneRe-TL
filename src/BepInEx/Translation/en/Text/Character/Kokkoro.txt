@@ -27,7 +27,7 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃�
 ##S2##
 スピードアップ=Speed Boost
 味方全体の行動速度を小アップさせ、さらに物理攻撃力を小アップさせる。=Small boost to action speed and allies' P.ATK.
-r:"^味方全体の行動速度アップ味方全体の物理攻撃力を(\d+)アップ$"=Cast Time: 1.4s\n►Boosts all allies' action speed to 120% for 12s.\n►Boosts allies' P.ATK by $1 for 12s.
+r:"^味方全体の行動速度アップ味方全体の物理攻撃力を(\d+)アップ$"=►Boosts all allies' action speed to 120% for 12s.\n►Boosts allies' P.ATK by $1 for 12s.
 
 ##EX##
 精霊の啓示=Spiritual Epiphany
@@ -41,10 +41,16 @@ r:"^自分のＨＰを(\d+)回復味方全体のＨＰを(\d+)回復味方全体
 ##S1+##
 トライスラッシュ+=Tri-Slash+
 目の前の敵１キャラに物理中ダメージを与え、さらに自分の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。=Deals moderate P.DMG to an enemy directly in front. Moderate boost to own P.ATK and small boost to own TP Boost.
-r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=Cast Time: 0.66s\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own TP Boost by $3 for 12s.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own TP Boost by $3 for 12s.
+
+##S2+##
+スピードアップ+=Speed Boost+
+味方全体の行動速度を大アップさせ、さらに物理攻撃力を特大アップ、物理クリティカルを大アップさせる。さらに最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップ、物理クリティカルを大アップさせ、味方全体のＴＰを小回復させる。=Greatly boosts all allies' action speed, massively boosts their P.ATK and greatly boosts their P.CRIT Rate. Also massively boosts highest P.ATK ally's P.ATK and greatly boosts its P.CRIT  Rate, and slightly recovers all allies' TP. 
+r:"^味方全体の行動速度アップ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ味方全体のＴＰを50回復$"=►Boosts all allies' action speed into 160% for 18s.\n►Boosts all allies' P.ATK by $1 for 18s.\n►Boosts all allies' P.CRIT Rate by 100 for 18s.\n►Boosts highest P.ATK ally's P.ATK by $2 for 18s.\n►Boosts highest P.ATK ally's P.CRIT Rate by 100 for 18s.\n►Recovers all allies' TP by 50.
 
 ##UE##
 アメスアミュレット=Ameth Amulet
+コッコロの精霊=Kokkoro Spirit
 
 ##Comments##
 
