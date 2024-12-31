@@ -89,7 +89,7 @@
 ジュン=Jun
 グレア=Grea
 ミサキ=Misaki
-マヒル=Mafuyu
+マヒル=Mahiru
 ツムギ=Tsumugi
 ミソギ=Misogi
 クルミ=Kurumi
@@ -160,6 +160,9 @@ Ameth alias
 フィオ=Fio
 べ-ヺー＆
 
+メドゥーサ=Medusa
+
+
 sr:"^・([べ-ヺー＆＝]+)(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?(\n・)?([べ-ヺー＆＝]+)?(（.+）)?$"=\n►$1$2$3$4$5$6$7$8$9$10$11$12$13$14$15$16$17$18$19$20$21$22$23$24$25$26$27$28$29$30$31$32
 
 "^・([^（）・]+)\n・([^（）・]+)\n・([^（）・]+)\n・([^（）・]+)(\n・([^（）・]+))?(\n・([^（）・]+))?$"=・$1\n・$2\n・$3\n・$4$5$6
@@ -168,3 +171,7 @@ sr:"^([べ-ヺー＆＝]+)(（.+）)? が仲間になりました。$"=$1$2 has 
 sr:"^([べ-ヺー＝]{2,7})(（.{2,8}）)$"=$1$2
 
 sr:"^([べ-ヺー＆＝]+)(（.+）)? ?加入で$"=$1$2 Join, get
+
+
+
+pada tanggal 16 desember saya menarik uang 2525.30USD ke rekening lokal saya Bank mandiri (9188) atas nama anthony tri putra dengan transaksi ID 773426381 dan transfer ID 4366184774240873, disana dikatakan bahwa saya harus memasukan 2 verifikasi penarikan, saya telah memasukan 2 transfer verifikasi tersebut tersebut sesuai dengan buku tabungan dan aplikasi bank saya, transfer tersebut tertuliskan "Transfer dari PT.BANK DBS INDONESIA Payoneer HK id:234234234 name:Payoneer Inc" tertanggal 16 desember 2024 14:36:14 WIB. tapi dalam situs payoneer tidak diterima dan selalu ditolak, entah memasukan dengan sen (.00) atau polosan, saya coba juga memasukan jumlah dari 2 transfer tapi tetap tidak bisa. dan sekarang saya tidak tahu apakah payoneer akan mengirimkan uang atau rekeningku diblokir?

@@ -1,0 +1,21 @@
+r:"^迎春ジオ・ゲヘナ([0-9\-\(\)\w （）]*)$"=New Year Gio Gehenna $1
+r:"^迎春ランドソル([0-9\-\(\)\w （）]*)$"=New Year Landosol $1
+
+呪縛の大蛇・メドゥシアナ=Medusiana the Cursed Serpent
+最も近い敵１キャラを中心にした小範囲内の敵\n　すべてに物理特大ダメージを与える。=Deals extra-large physical damage to all opponents within a small AoE centered on the nearest enemy character.
+敵全体に魔法中ダメージを与える。さらに、敵\n　キャラの行動速度が初期値以下の場合、石化状\n　態を付与し、敵キャラの行動速度が初期値以下\n　ではない場合、行動速度を中ダウンさせる。こ\n　のスキルの効果はダメージを無効化しても付与\n　される。\n=Dealts DMG during magic. Additionally, when an enemy character's movement speed is lower than their initial value, they will inflict Petrification status, and when the enemy character’s movement rate is less than their original value, their movement speed will decrease. This skill's effect will be infused even if the damage is nullified.\n
+前方広範囲内の敵すべてに物理大ダメージを与\n　え、毒状態を付与し、ＨＰ吸収を特大ダウンさ\n　せる。さらに、敵キャラが行動不能状態の場合、\n　ＨＰ回復量を大ダウンさせる。このスキルの効\n　果はダメージを無効化しても付与される。\n=Deals great physical damage to all opponents within a wide area in front of you, inflicting a poisoned state on them and causing them to greatly decrease HP absorption. Additionally, if an enemy character is incapacitated, their HP recovery will greatly decrease. This skill's effects can be applied even if damage is nullified.\n
+ユニオンバーストは、敵全体に物理大ダメージ\n　を与え、猛毒状態を付与する。さらに、敵キャ\n　ラが行動不能状態の場合、魔法固定ダメージを\n　与え、敵キャラが行動不能状態ではない場合、\n　石化状態を付与し、行動速度を小ダウンさせる。\n　このスキルの効果は他の行動速度変化スキルと\n　重複する。このスキルの効果はダメージを無効\n　化しても付与される。\n=Union Burst deals massive physical damage to all opponents and inflicts deadly poison upon them. Additionally, when an enemy character is incapacitated, it deals fixed magic damage, and when the enemy character isn't incapable of action, it infuses petrification and reduces their movement speed. This skill's effects overlap with other movement speed-altering skills. The effect of this skill can be infused even if the damage is nullified.\n
+面妖奇警な笛の音に操られし魔蛇。石化\nをもたらす眼光を放ち、その圧倒的な巨躯を以て\n矮小な獲物たちを蹂躙する。\n\n=A demonic snake controlled by the strange sound of a whistle. It glowed with a petrifying glint in its eyes, and used its overwhelmingly large frame to overrun its diminutive prey.\n\n
+ヲ～ッホッホッホ！\n新たなる一年のお幕開けと同時に、ランドソルの新たな王女！　\nプリンセスカノン様の大・爆・誕！　ですわ～！=Oh ho ho ho! At the start of a new year, the new princess of Landsor! Princess Kanon's Great Explosion!
+さあさ、お下々のみなさま方♪\n存分に頭を垂れ、崇め、称え、跪きなさい！\nこのあたくし様のお足元のその下に～～～っ！！=Come on, you lowlifes♪ Bow, worship, praise, and kneel to your heart's content! Beneath my feet ⁇ !!
+
+大蛇=Orochi
+メドゥシアナから受けるすべての\n　ダメージで発生する、パーティキャラのＴＰ回\n　復量を特大ダウンさせる。\n=It reduces party members' TP recovery rates by an extra-large amount due to all the damage they receive from Medusana.\n
+呪縛の大蛇\n=Cursed serpent\n
+メドゥシアナ=Medusiana
+
+バトル開始時、コドモオオトカゲ２体とツチノ\n　コブラ２体を召喚する。\n=At the start of the battle, I summon two Codmo Lizards and two Tsuchino Cobras.\n
+サレン・モニカ=Saren Monica
+メドゥシアナの付与する毒および\n　猛毒のダメージでは、ＴＰが回復しない。\n=The poison and deadly poison damage Medusiana inflicted wouldn’t restore TP\n
+敵全体に魔法中ダメージを与える。さらに、敵\n　キャラの行動速度が初期値以下の場合、石化状\n　態を付与し、敵キャラの行動速度が初期値以下\n　ではない場合、行動速度を特大ダウンさせる。\n　このスキルの効果はダメージを無効化しても付\n　与される。\n=Dealts DMG during magic. Additionally, when an enemy character's movement speed is lower than their initial value, they will inflict Petrification status, and when their movement speed isn't lower than that of an opponent character, they'll be greatly reduced. The effects of this skill will be infused even if the damage is nullified.\n

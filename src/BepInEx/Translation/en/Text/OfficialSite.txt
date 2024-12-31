@@ -1,4 +1,8 @@
 公式サイト=Official site
+ミニゲームへ=To the Minigame
+
+sr:"^「(.+)」で挑戦してみてね！$"=Try $1
+
 アカウント連携設定のお願い=Please set up account coordination
 アカウント連携します。よろしいですか？=I'll coordinate the accounts. May I?
 アカウント連携することで、端末を紛失した場合や、\n新しい端末に変更した際に、\nプリンセスコネクト！Re:Diveのゲームデータを\n復旧してプレイすることができます。\n=By linking accounts, you can restore and play Re:Dive's game data in case you lose your terminal or change it to a new one, Princess Connect!\n
@@ -23,5 +27,3 @@ Cygames IDの利用規約およびプライバシーポリシーに\n同意の�
 利用規約およびプライバシーポリシーへの同意が必要です。=You must agree to the terms of service and privacy policy.
 ブラウザからサインインを完了してください。\nサインインを確認でき次第、次に進みます。=Please sign in through the browser. Once you've confirmed your signature, move on.
 サインイン中=Signing in
-「激突！破壊！イリーガルタンクウォー」で挑戦してみてね！=Try using Clash! Destroy! Illegal Tank War!
-ミニゲームへ=To the minigame

@@ -104,9 +104,9 @@ sr:"^購入に必要な(.{4,20})が不足しています。$"=Insufficient $1 to
 ピュアメモリーピース単価一覧=Pure Memory Shard price list
 ピュアメモリーピース購入時の、1個あたりの女神の秘石の\n必要数の詳細は下記をご覧ください。=See below for details on the number of Divine Amulet required per Shard when purchasing a Pure Memory Shard.
 
-メモリーピース購入数=Number of Memory Shards purchased
-そのまま購入=Purchase as it is
-r:"^([0-9,]+)で購入$"=Purchase at $1
+メモリーピース購入数=Purchase amount
+そのまま購入=Just buy that
+r:"^([0-9,]+)で購入$"=buy $1
 ★6才能開花に必要な数を超えています。=Exceeds the number required for *6 Ascension.
 [FF7C4E,D62146]専用装備１作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-1.[-]
 [FF7C4E,D62146]専用装備１作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-1.[-]
