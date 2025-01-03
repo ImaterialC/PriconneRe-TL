@@ -3,16 +3,16 @@
 
 sr:"^「(.+)」で挑戦してみてね！$"=Try $1
 
-アカウント連携設定のお願い=Please set up account coordination
-アカウント連携します。よろしいですか？=I'll coordinate the accounts. May I?
-アカウント連携することで、端末を紛失した場合や、\n新しい端末に変更した際に、\nプリンセスコネクト！Re:Diveのゲームデータを\n復旧してプレイすることができます。\n=By linking accounts, you can restore and play Re:Dive's game data in case you lose your terminal or change it to a new one, Princess Connect!\n
-ゲームデータを連携する方法を選択してください。=Select a way to coordinate the game data.
+アカウント連携設定のお願い=Account Link Request
+アカウント連携します。よろしいですか？=Your account will be linked. Is this OK?
+アカウント連携することで、端末を紛失した場合や、\n新しい端末に変更した際に、\nプリンセスコネクト！Re:Diveのゲームデータを\n復旧してプレイすることができます。\n=By linking your account, you can recover your Princess Connect! Re:Dive data in case your device is lost or replaced.\n
+ゲームデータを連携する方法を選択してください。=Select a way to link your data.
 外部サービス認証を使う=Use External Service Authorization
 連携方法選択=Coordinated method selection
-[3C404E]Google Playアカウント\nで連携する[-]  [-]=[3C404E] Coordinate with Google Play account [--]
-[3C404E]Game Centerで\n連携する[-] [-]=[3C404E] Coordinate with the Game Center [--]
+[3C404E]Google Playアカウント\nで連携する[-]  [-]=[3C404E] Link with a Google Play account [--]
+[3C404E]Game Centerで\n連携する[-] [-]=[3C404E] Link with Game Center [--]
 [3C404E]Facebookで\n連携する[-] [-]=Link to Facebook
-[3C404E]Facebookアカウント\nで連携する[-]  =[3C404E] Coordinate with a Facebook account [-]  
+[3C404E]Facebookアカウント\nで連携する[-]  =[3C404E] Link with a Facebook account [-]  
 [FF7C4E,D62146]Cygames IDに連携できる\nゲームデータは1つのみです。[-]=[FFF7C4E, D62146)Cygames There is only one game data that can be linked to your ID. [-]
 Cygames ID連携を行うと\nCygames ID連携を行った端末同士で\nプリンセスコネクト！Re:Diveのゲームデータを\n共有することが出来ます。=When linked with a Cygames ID, you can share the game data of Re:Dive with the terminals that have linked with each other.
 Cygames IDで引き継ぎます。よろしいですか？=I'll take over with my Cygames ID. Is that all right?

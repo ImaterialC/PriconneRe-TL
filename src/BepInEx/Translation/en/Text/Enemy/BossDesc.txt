@@ -1373,7 +1373,7 @@
 自身のＨＰが40％を切ると、さらに攻撃が激しく強力になる。=When your own HP drops below 40 percent, your attacks become even more intense and powerful.
 サイコロを振り、自身の物理攻撃力をアップさせる。出目によって物理攻撃力アップの効果が変化する。出目が１の場合、物理攻撃力を小アップ。出目が２及び３の場合、物理攻撃力を中アップ。出目が４及び５の場合、物理攻撃力を大アップ。出目が６の場合、物理攻撃力を特大アップ。=Roll the dice to increase your own physical attack power. The effects of Physical Attack Boost change depending on the turnout. If the turnoff is 1, Physical Attack power increases by a small amount. If your turnout is 2 or 3, Physical ATK goes up. If you turn out to be 4 or 5, Physical Attack stat increases greatly. If 6 comes up, Physical attack power increases extra large.
 
-ジオ=Geo
+ジオ=Gio
 ゲヘナに名を轟かせる大盗賊『グロゴ団』の頭領。最新型の戦闘車輛と融合し、脅威的な機動力を以って裏切り者へと天誅を下す。=The leader of the great bandits known throughout Gehenna, the Glogo Brigade. They fused with the latest models of combat vehicles and used their menacing mobility to deliver divine punishment to traitors.\n
 ダッシュジョーとお供のモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Increases party members' TP recovery rate by an extra-large amount due to all damage taken from dashing Joes and accompanying monsters.\n
 ハイパー=Hyper

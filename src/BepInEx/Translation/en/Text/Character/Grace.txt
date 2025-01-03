@@ -1,0 +1,23 @@
+##Profile##
+【物理】前衛で、宙を舞うように戦う幽霊の守護騎士。\nＵＢで味方の攻撃と速度支援を行い、【レイスボディ】で\n敵の目を逃れ、不意を突く一撃で永遠の眠りにつかせる。=[Physical] A ghostly knight who fights in the frontlines as if she were dancing in mid-air. Her UB buffs the attack and speed of her allies, and she uses her ability, [Wraith Body] to escape the eyes of the enemy, and attack where they least expect, sending them to an eternal sleep.
+富田美憂=Tomita Miyuu
+水墨画=Ink painting
+
+##UB##
+グレイテスト・スラスト=Greatest Thrust
+目の前の敵１キャラに物理特大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、行動速度を大アップさせる。さらに、自分に【レイスボディ】を３つ付与する。【レイスボディ】が付与されている間は敵からの攻撃の対象にならない。【レイスボディ】は最大３つまで追加される。=Deals massive P.DMG to an enemy in front, and massively boosts allies' P.ATK in range and greatly boosts their action speed. Additionally grants 3 [Wraith Body] stacks to self, up to a maximum of 3. While Grace has [Wraith Body] stacks in effect, she cannot be targeted by enemies.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の行動速度アップ自分にレイスボディを３つ付与する$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK in range by $2 for 18s.\n►Boosts allies' action speed in range into 200% for 18s.\n►Gains 3 [Wraith Body] stacks.
+
+##S1##
+レイスドロップ=Wraith Drop
+目の前の敵１キャラに物理大ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップさせる。自分に【レイスボディ】が付与されている場合、【レイスボディ】を１つ消費し、追加で目の前の敵１キャラに物理防御力を一定値無視する物理大ダメージを与える。=Deals large P.DMG to an enemy in front, and massively boosts allies' P.ATK and P.CRIT Rate in range. If Grace has [Wraith Body] stacks in effect, consumes 1 [Wraith Body] stack and deals an additional instance of large P.DMG to an enemy in front ignoring a certain amount of their P.DEF.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを150アップレイスボディを１つ消費する敵単体に物理防御力を50無視する(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.ATK in range by $2 for 12s.\n►Boosts allies' P.CRIT Rate in range by 150 for 12s.\n\nIf Grace has 1+ [Wraith Body] stacks:\n►Deals $3 P.DMG to an enemy, ignoring 50 of their P.DEF.\n►Consumes 1 [Wraith Body] stack.
+
+##S2##
+ファントム大車輪=Phantom Wheel
+自分の物理攻撃力を大アップ、ＴＰを特大回復し、自分以外の味方全体のＴＰを中回復させる。自分に【レイスボディ】が付与されている場合、【レイスボディ】をすべて消費し、消費した【レイスボディ】の数に応じて物理攻撃力の上昇量がアップする。=Greatly boosts own P.ATK and massively recovers own TP, and moderately recovers all other allies' TP. If Grace has [Wraith Body] stacks in effect, consumes all [Wraith Body] stacks and increases the P.ATK boost according to number of [Wraith Body] stacks consumed.
+r:"^自分のＴＰを725回復自分以外の味方全体のＴＰを150回復レイスボディを全て消費する自分の物理攻撃力を(\d+)アップ$"=►Recovers own TP by 725.\n►Recovers all other allies' TP by 150.\n►Boosts own P.ATK by $1 for 12s.\n►Consumes all [Wraith Body] stacks.
+
+##EX##
+丑三つ時オーラ=Midnight Aura
+丑三つ時オーラ+=Midnight Aura+

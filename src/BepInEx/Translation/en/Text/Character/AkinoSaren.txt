@@ -33,3 +33,11 @@ r:"^毎秒ＴＰを10回復するフィールドを展開する毎秒ＨＰを(\
 ##EX##
 ノーブルグリッター=Noble Glitter
 ノーブルグリッター+=Noble Glitter+
+
+##S1+##
+ファイアエンハンスメント+=Fire Enhancement+
+味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、物理攻撃クリティカル時のダメージを小アップさせる。さらに、自分の物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを中アップし、ＨＰを小回復、ＴＰを大回復する。=Massively boosts all allies' P.ATK, and slightly boosts their P.CRIT Rate and P.CRIT DMG. Also massively boosts own P.ATK and P.CRIT Rate, moderately boosts own P.CRIT DMG, slightly recovers own HP and moderately recovers own TP. 
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の物理攻撃クリティカル時のダメージを12％アップ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを200アップ自分の物理攻撃クリティカル時のダメージを24％アップ自分のＴＰを280回復自分のＨＰを(\d+)回復$"=►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' P.CRIT Rate by 100 for 12s\n►Boosts all allies' P.CRIT DMG by 12% for 12s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.CRIT Rate by 200 for 12s\n►Boosts own P.CRIT DMG by 24% for 12s.\n►Recovers own TP by 280.\n►Recovers own HP by $3.
+
+##UE##
+好敵手たちの輝き=The Radiance Of Rivals
