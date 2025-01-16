@@ -28,12 +28,12 @@
 黙っててヴルムッ！=Be quiet, Wyrm!
 ありがとうございますライラエルさま、クローチェさま、リンドさま。\n主さまをお褒めいただき、従者としても光栄でございます。=Thank you very much, Lady Lyrael, Miss Croce, and Miss Lind. It's an honor to receive your praise for my Lord.
 ですが……魔物がこちらの世界に来てしまった理由などは\nまだ何もわかっておりません。\n引き続き、わたくしたちに調査をさせていただければと……=But...we still don't know why the monsters came to this world. We'd like to continue our investigation...
-ええ、もちろん構いません。\n……コッコロは小さいのに、とてもしっかりしていますね。\n騎士も頼もしいことでしょう。=Yes, of course I don't mind. ...Kokkoro is small, but you're very reliable. I'm sure Sir Knight is a reliable person as well.
+ええ、もちろん構いません。\n……コッコロは小さいのに、とてもしっかりしていますね。\n騎士も頼もしいことでしょう。=Yes, of course I don't mind. ...Kokkoro is small, but you're very reliable. I'm sure Knight is a reliable person as well.
 自慢の従者です。=I'm proud of my guide.
 主さま…♪=My Lord...♪
 ……ところで、ライラエルさま。\nそろそろ、今日来てもらった理由をお伝えしては？=...By the way, Lady Lyrael. Why don't you tell me why you came today?
 まぁ、そうでした。\nありがとう、ヴルム。=Well, that's right. Thank you, Wyrm.
-……騎士。それにみなさま。\n魔物討伐の報酬として、何か欲しいものはありませんか？=...Sir Knight. And everyone. Is there anything you want as a reward for subjugating the monsters?
+……騎士。それにみなさま。\n魔物討伐の報酬として、何か欲しいものはありませんか？=...Knight. And everyone. Is there anything you want as a reward for subjugating the monsters?
 ごほうび？=A reward?
 みなさまはわたしの領民というわけではありませんので、\n褒美と言うと少し違うかもしれませんが。\nみなさまの献身に報いたいという気持ちに、嘘偽りはありません。=Everyone here isn't native citizens of my domain, so it might be a little different to call it a reward. There is no lie in my desire to repay you for your contribution however.
 ですので、遠慮なさらず。\nどのようなものでも、おっしゃってください♪=Therefore, please don't hold back. Please tell me anything♪
@@ -184,6 +184,8 @@ Episode 2:
 Summary: 
 一同は【バンディ・シスターズ】に対抗するため、乗り物を用意することに。ペコリーヌたちは乗り物を牽引する動物を探すため『ふぁんふぁんファーム』を訪ね、そこでおにぎりのような大きな動物と出会う。=Everyone decided to prepare a vehicle to counter the Bandit Sisters. Pecorine and the others visited Fun-Fun Farm in search of animals towing the vehicle, where they met a large animal that looks like a riceball.
 
+リンド・クローチェ=Lind&Croce
+子豚=Piglet
 
 とーちゃく？=Here?
 わぁー！\nここが……=Wow! This is...
@@ -274,7 +276,7 @@ Summary:
 もっと大きい動物を、探しに行こう。=Let's go find a bigger animal.
 {playername}たちは、より大きく力強い動物を求めて\n『ふぁんふぁんファーム』を隅々まで探し回った。\nしかし……={playername} and the others searched every nook and cranny of the [Fun-Fun Farm] in search of larger, more powerful animals. However...
 おそと、出ちゃった。=We've been, far out.
-これだけ探しているのに、なかなか見つかりませんね。\n……ふぅ。=Even though we've been searching so much, we haven't been able to find it. ...Phew.
+これだけ探しているのに、なかなか見つかりませんね。\n……ふぅ。=Even though we've been searching so much, we haven't been able to find it. ...*sigh*.
 それに朝からず～っと歩き回って、\nすっかり足が棒になっちゃいました～=Besides, I've been walking around since this morning, and my legs have completely stiffen up.
 そうなんですかっ？\n足の硬さなら負けませんよっ！\nほらほらナイトさん、触ってみてくださいっ♪=Really? I won't lose to you when it comes to leg hardness! Come on, Naito-san, try touching it♪
 硬い！=So hard!
@@ -298,8 +300,8 @@ Summary:
 おいしそうなおにぎりが、地面からなってます！=A delicious-looking riceball is growing from the ground!
 おおきい。\nおいしそう。=Big. Yummy.
 だ、ダメですよ！\n地面に落ちているものを拾い食いなんてっ！=Y-you mustn't! You can't just pick up and eat something that's on the ground!
-そうなんですか？\nライラエルさまやヴルムちゃんも、たまにしてますけど。=Really? Lyrael-sama and Wyrm-chan also do that occasionally as well.
-ええぇっ！？\nヴルムはともかく、ライラエルさままでっ……！？=Eeeeh?! Wyrm aside, even Lyrael-sama...?!
+そうなんですか？\nライラエルさまやヴルムちゃんも、たまにしてますけど。=Really? Miss Lyrael and Wyrm-chan also do that occasionally as well.
+ええぇっ！？\nヴルムはともかく、ライラエルさままでっ……！？=Eeeeh?! Wyrm aside, even Miss Lyrael...?!
 砂とかは、払って落とせば大丈夫です！\nそれより、早く食べちゃいましょう☆=As for the sand, we could just brush it off so it's fine! Anyway, let's hurry up and eat it already☆
 ま、待ってください！\nおにぎりが地面から生えるなんて、さすがに──=P-please wait a minute! Eating riceballs growing from the ground, that's just too──
 
@@ -360,6 +362,7 @@ Summary:
 
 ハムスター？=Hamster?
 ハムおにぎり？=Onigiri ham?
+リリ・リンド=Riri&Lind
 
 ふぁんふぁんファームの外れにて、巨大おにぎりに扮する\nハムスター？　と遭遇した{playername}たち。\nペコリーヌとプレシアは、それを捕食しようと躍起になっていた。={playername} and the others had encountered a hamster disguised as a giant onigiri on the outskirts of Fun-Fun Farm. Pecorine and Precia were eager to prey on it.
 まてー=Wait--
@@ -713,9 +716,9 @@ Summary:
 ジュン＆キョウカ=Jun＆Kyouka
 
 『ジオ・テオゴニア』の『キャッスル・オブ・パルフェ』。\nプリンセスであるライラエルのもとへ、謁見に来たのは──=Within the [Castle of Parfait] of [Gio Teogonia], the ones who came to have an audience with Princess Lyrael this time are ...
-ようこそ、『ジオ・テオゴニア』へ。\n頭を上げてください──異邦の騎士たちよ。=Welcome to [Gio Teogonia]. Please raise your heads, Sir Knight and his companions.
+ようこそ、『ジオ・テオゴニア』へ。\n頭を上げてください──異邦の騎士たちよ。=Welcome to [Gio Teogonia]. Please raise your heads, Knight and his companions.
 このたびは謁見の機を賜り、光栄に存じます。プリンセス・ライラエル。\n両世界の親交を深めんと、ご挨拶に参じました。ジュンと申します。=It is an honor to have an audience with you, Princess Lyrael. I have come to greet you in hopes of deepening the friendship between both worlds. My name is Jun.
-あなたがランドソルの王宮騎士団長、ジュン……\nこちらこそお会いできて光栄です。\n騎士もご仲介、ありがとうございます。=You're the captain of the Royal Knights of Landosol, Jun... It's an honor to meet you as well. Thank you for coming here with Sir Knight.
+あなたがランドソルの王宮騎士団長、ジュン……\nこちらこそお会いできて光栄です。\n騎士もご仲介、ありがとうございます。=You're the captain of the Royal Knights of Landosol, Jun... It's an honor to meet you as well. Thank you for coming here with Knight.
 ライラエルさんも、時間をくれてありがとう。=Thank you for your time, Lyrael.
 いいえ。それに……ふふっ。\nこんなに小さなお客さまも来てくださりうれしいです。こんにちは。=It's nothing. Besides... Hehe. I'm happy to have such small guests today. Hello.
 あ！　えとっ……！\nほんじつは、えっけんにどうせきさせていただきまして、まことに……=Ah! Umm......! Actually, I would like to express my sincere gratitude to you for......
@@ -723,7 +726,7 @@ Summary:
 ちょ、ちょっと二人とも……！？\nお姫さま相手なんだから、失礼のないようにごあいさつしないと……！=H-Hey, you two...?! We're dealing with a princess here, so we have to give her a formal greeting to not be rude...!
 えー？　「こんにちは」って、失礼なごあいさつなのー？=Eh? Is 'hello' a rude greeting then?
 え？　それはちょっと……\nわからないけど……=Huh? That's not what I meant...
-ふふふっ……♪　事前に騎士から聞いていた通り、\nかわいらしいお客さまたちですね。\n子どもは元気が一番。いつも通りにお話ししてかまいませんよ？=Hehehe...♪ Just like I heard from Sir Knight beforehand, these are such cute guests. Children sure are energetic and lively. You can talk to me as you always do, you know?
+ふふふっ……♪　事前に騎士から聞いていた通り、\nかわいらしいお客さまたちですね。\n子どもは元気が一番。いつも通りにお話ししてかまいませんよ？=Hehehe...♪ Just like I heard from Knight beforehand, these are such cute guests. Children sure are energetic and lively. You can talk to me as you always do, you know?
 いつも通り？\nほんとー？　お姫さま、やっさしーいっ！=As we always do? Really? Princess, you're so kind!
 わーい♪　じゃあ今日は、たっくさんおしゃべりしよー！=Yaaay♪ Then let's chat a lot today!
 もう！　二人とも、調子いいんだから。\nその……よろしくおねがいします……プリンセス・ライラエルさま。=Geez! You two are being so carefree. Um... It's a pleasure to meet you... Princess Lyrael.
@@ -737,7 +740,7 @@ Summary:
 えーとね、みんなでわっかのなかにはいってー\nうでをくんでー、背中でおしあうのっ！\nわっかのそとにでて、地面に足がついたひとが、まけなんだよ♪=Let's see, we all going to stand in a circle, and then we lock arms with our backs against each other! If you get shoved and step outside of the circle you lose♪
 まあ……背中で押し合うのですか？\nそれはこちらの世界にない遊びです。\nぜひ試してみましょう。=Oh... We're going to push each other's backs? That's a game that doesn't exist in this world. Let's give it a try.
 ラ、ライラエル様……！？\nしかしですね……=L-Lyrael?! But...
-もちろん、騎士とジュンも参加していただけますね？\n遊びというものは、人数が多いほうが楽しいというものです。=Of course, Sir Knight and Jun will participate as well, won’t they? When it comes to games, 'The more the merrier' as they say.
+もちろん、騎士とジュンも参加していただけますね？\n遊びというものは、人数が多いほうが楽しいというものです。=Of course, Knight and Jun will participate as well, won’t they? When it comes to games, 'The more the merrier' as they say.
 一緒に遊ぼう！=Let's play together!
 ありがとうございます。\nでは、始めるといたしましょう。=Thank you very much. Let us begin.
 えへへっ！　じゃあこのロープのわっかから飛び出したら負けだよー！=Eheheh! Then if you jump out of this rope, you lose!
@@ -764,7 +767,7 @@ Summary:
 えいっ……！　んっ……！\nおしくらまんじゅう、です……！=Ei...! Nn...! Oshikura Manju...!
 ふわぁっ！？=Fwah?!
 押し出されちゃいましたぁ～！？=She pushed me out too?!
-次は、騎士も……！\nいきますよ……っ！　えいっ！=Next, Sir Knight...! I'm coming...! Eigh!
+次は、騎士も……！\nいきますよ……っ！　えいっ！=Next, Knight...! I'm coming...! Eigh!
 あっ！　ライラエルねえちゃん、強～い！\nにいちゃんまで押し出しちゃったよー！=Ah! Lyrael Onee-chan is so strong! You even pushed Nii-chan out!
 負けちゃった。=I lost.
 す、すごい……！\nあと残っているのは……=W-Wow...! All that's left is...
@@ -772,29 +775,29 @@ Summary:
 一騎打ちになりましたね……ジュンっ！=It's a one-on-one fight... Jun!
 え、ええ……そうですね……！　けど……=Y-Yeah... You're right...! However...
 ……どうしよう。\n正直、鎧の重さのおかげで\n背中で押される程度じゃどうということもないんだよね……=...What should I do? Honestly, thanks to the weight of my armor, she can't do much with just pushing at my back...
-かといってライラエル様も浮いているから、\n負かすことはできないし……\nうーん……この勝負、もしかして……=On the other hand, Lyrael-sama is floating, so I can't  beat her... Hmm... Maybe this battle...
+かといってライラエル様も浮いているから、\n負かすことはできないし……\nうーん……この勝負、もしかして……=On the other hand, Miss Lyrael is floating, so I can't  beat her... Hmm... Maybe this battle...
 いつまで経っても……決着がつかない……？　=No matter how much time passes... we can't settle this...?　
 くっ……！\nお上手ですね……ジュン！\n手加減はなしですよ。真剣勝負です……！=Ugh...! You're good at this... Jun! Don't hold back. This is a serious fight...!
 うぅ……わざと負けるのも失礼そうだな……\nでも本当に、どうしよう……=Ugh... It would be rude to lose on purpose... But seriously, what should I do...?
 えいっ……！　やっ……！　んっ……！=Ei...! Ya...! Hng...!
 ふっ……！　くっ……！　はっ……！=Hng...! Geh! Ha...!
 んんんんんんっ──！！=Mmmmmmmm~!!
-はぁ……はぁ……\nすばらしい攻めです、ライラエル様……=Hah... hah... What a wonderful performance, Lyrael-sama...
+はぁ……はぁ……\nすばらしい攻めです、ライラエル様……=Hah... hah... What a wonderful performance, Miss Lyrael...
 はぁ……はぁ……\nジュンも、なんという鉄壁の守り……！\nでも、もう……これ以上は……！！=Hah... hah... Jun, what an impenetrable defense...! But... any more than this...!!
 はうぅ～……=Haaah~...
 あれれ？　二人ともへたりこんじゃった～=Huh? They both slumped to the ground~
 つかれちゃったみたいだね。じゃあ引き分けってことで！=Looks like they're tired. Then let's call it a draw!
 はぁ、はぁ……いい勝負でしたね。ジュン。=Hah, hah... That was a good match, Jun.
-はい。ライラエル様の真剣な戦いぶり、お見事でした。=Yes. Your serious fighting style was admirable, Lyrael-sama.
+はい。ライラエル様の真剣な戦いぶり、お見事でした。=Yes. Your serious fighting style was admirable, Miss Lyrael.
 くすっ……\nふふ、ふふふっ……♪=Teehee... Hehe, hehehe...♪
-ライラエル様？=Lyrael-sama?
+ライラエル様？=Miss Lyrael?
 ああ、失礼しました。\n姫という立場上、遊ぶ機会もそうないもので。\nこうして真剣に遊ぶのは久しぶりで、とても楽しくて……=Ah, excuse me. As a princess, I don't get many opportunities to play. It's been a long time since I've had a serious game like this, and it was really fun...
 ふふっ……\nみなさま、ありがとうございました。\nぜひまた遊びましょうね。=Hehe... Thank you, everyone. Let's play again sometime.
 うんっ♪　またおしくらまんじゅう、しようね♪=Okay♪ Let's play Oshikura Manju again next time♪
 はい、もちろん♪=Yes, of course♪
 あ……でもライラエルねえちゃん、浮いてるからな～\n地面に足ついてないと、おしくらまんじゅう、勝負にならないよ。\n今度は違う遊びにしよー？=Oh... But Lyrael's floating. If she's not on the ground, we won't be able to compete in Oshikura Manju. Let's play a different game next time, okay?
 えっ……！？\n勝負に、ならない……？=Huh...!? That victory wasn't fair...?
-はい……遊んでいる時は言い出せなかったんですけど、\nわっかの外の地面に足がついたら負けですから。\nライラエルさまの場合、負けがないんです……=Yes... I couldn't bring myself to say it when I was playing, but if your feet hit the ground outside, you'll lose. In Lyrael-sama's case however, you will never lose then...
+はい……遊んでいる時は言い出せなかったんですけど、\nわっかの外の地面に足がついたら負けですから。\nライラエルさまの場合、負けがないんです……=Yes... I couldn't bring myself to say it when I was playing, but if your feet hit the ground outside, you'll lose. In Miss Lyrael's case however, you will never lose then...
 そ、そんなっ……！\nわたしはずっと反則をしていたということですか？\nそれはなんという無礼を……！=Th-That's...! You mean I've been cheating this whole time? How unsportsmanship I was...!
 大変申し訳ありませんでした。\nそういうことでしたら……次は足をつけます。\n今からもう一度いたしましょう！　公正なる、おしくらまんじゅうを！=I'm terribly sorry. If that's the case... I'll put my feet on the ground next. Let's do it again now! A fair Oshikura Manju match!
 ラ、ライラエル様……！？\n再戦するおつもりでいらっしゃるのですか！？=L-Lyrael...?! Are you planning on having a rematch?!
@@ -863,7 +866,7 @@ Summary:
 ふむ……ミヤコめはちょうど、わらわたちに背を向けておる。\n後ろから気づかれぬように捕らえよう……！\n国主にはその後、事情を説明すればよかろうて。=Hmm... Miyako is turning her back against us, so we can capture her from behind without her noticing...! We can explain the situation to the princess over there afterwards.
 分かりました。じゃあお父さんも手伝ってね……\n……あれ？　お父さ──=Understood. You should help too, Father... Huh? Father~
 どうもごきげんようっ！　お美しいお嬢さん！\n本日はお日柄もよく、まさに出会い日和！\nこのような日にお会いできるとは、もはや運命……ってヤツですね！=Good day to you, beautiful young lady! The weather is so nice, it must be fated for us to be able to meet on a day like this!
-まぁ、ごきげんよう。\n騎士のご友人でしょうか？\nとても個性的なお姿ですが……=Well, good day to you too. Are you a friend of Sir Knight? You have quite a unique appearance...
+まぁ、ごきげんよう。\n騎士のご友人でしょうか？\nとても個性的なお姿ですが……=Well, good day to you too. Are you a friend of Knight? You have quite a unique appearance...
 お、お父さん……\nこんな時に……=F-Father... At a time like this...
 あてにならぬ奴じゃの～……！\nじゃがまずいぞ。これでは──=You're hopeless...! But this is bad. At this rate...
 あれ？　シノブのパパさんなの～\nもしかして～……=Huh? Thats's Shinobu's dad. If so...
@@ -934,9 +937,9 @@ Summary:
 ……ですが。\n『ふぁんふぁんファーム』の方にまで、\n魔物の被害が及んでいるなんて……予想以上ですね。=...However, to think that monster attacks has even reached the 'Fun-Fun Farm'... That's worse than I expected.
 近郊の住民たちには、この『キャッスル・オブ・パルフェ』の\n城下に避難していただきましたが。\nもっと、範囲を広げる必要があるかもしれません。=We already had the residents of the outskirts evacuate to the Castle of Parfait. We may need to expand our scope further.
 そうですねっ！\nみなさん避難っていうより、ピクニック感覚ですけどっ♪=Yup! It's more like a picnic than an evacuation, though♪
-今はまだ、騎士やクローチェたちの活躍のおかげで\n民も平静を保てていますが。\nこのまま魔物たちが、延々流入し続けたとしたら……=Right now, thanks to the efforts of Sir Knight and Croce, the people are still able to maintain their composure. But if the monsters continue to flow in endlessly...
-大丈夫ですってっ！\nこれからもナイトさんやみなさんと一緒に、\n悪いことする魔物さんはどかーん！　ってやっつけちゃいますからっ！=Don't worry! From now on, I'll take care of all the monsters who do bad things along with Sir Knight and everyone else!
-……ですが、クローチェ。\n騎士や彼の仲間たちはこの世界の住民というわけではないのですよ。\n今後もずっと力を貸してくださるなどと、甘えてはいけません。=...But, Croce, Sir Knight and his friends aren't citizens of this world. We can't rely on them to lend us their strength forever.
+今はまだ、騎士やクローチェたちの活躍のおかげで\n民も平静を保てていますが。\nこのまま魔物たちが、延々流入し続けたとしたら……=Right now, thanks to the efforts of Knight and Croce, the people are still able to maintain their composure. But if the monsters continue to flow in endlessly...
+大丈夫ですってっ！\nこれからもナイトさんやみなさんと一緒に、\n悪いことする魔物さんはどかーん！　ってやっつけちゃいますからっ！=Don't worry! From now on, I'll take care of all the monsters who do bad things along with Knight and everyone else!
+……ですが、クローチェ。\n騎士や彼の仲間たちはこの世界の住民というわけではないのですよ。\n今後もずっと力を貸してくださるなどと、甘えてはいけません。=...But, Croce, Knight and his friends aren't citizens of this world. We can't rely on them to lend us their strength forever.
 えーっ、そうなんですかっ？=Whaaat? Really?
 それに、わたし個人としては\n騎士たちのことを信頼したいと考えていますが。=Besides, personally, I would like to trust the knights.
 この国のプリンセス──民の安全を守る者としては。\n客分としての域を超えて、心を許すわけにも……=But as the princess of this country, I can't afford to let my guard down beyond my capacity against them as outsiders...
@@ -951,7 +954,7 @@ Summary:
 わぁ～っ！\nそれじゃあライラエルさま、あの『お願い』を……=Wow! Then, Lady Lyrael, let's do 'that' again...
 もう……\nその件はわたし向きではないと、前に言ったでしょう？=Didn't I tell you before that I'm not cut out for it?
 それよりも。\nさ、ケーブルをこちらへ。\n旅で消耗したぶんの、充填をしなくては。=More importantly, let's get the cable over here. You're probably exhausted from the trip, so I need to recharge you.
-やはり、エネルギーがほとんど減っていませんね。\n騎士の『プリンセスナイト』の能力によるものだそうですが、\nどのような力なのでしょうか……=As I thought, the energy hasn't decreased much. It's apparently due to Sir Knight's Princess Knight ability. I wonder what kind of power it is...
+やはり、エネルギーがほとんど減っていませんね。\n騎士の『プリンセスナイト』の能力によるものだそうですが、\nどのような力なのでしょうか……=As I thought, the energy hasn't decreased much. It's apparently due to Knight's Princess Knight ability. I wonder what kind of power it is...
 彼らの秘め置く目的が、どうか悪しきものではありませんように。\n……リンドやヴルムたちが、\n何か突き止めてくれていると良いのですが……=I hope their secret objective isn't anything bad. ...I hope that Lind, Wyrm, and the others can figure out something...
 一方──\nドラゴン族のメイド・ヴルムは、\n{playername}たちと『オニギリちゃん』の訓練を見守っていた。=Meanwhile Wyrm, the dragon maid, is watching over {playername} and the others with Onigiri-chan's training.
 ぴぎゅーーーーー！=Pigyuーーー!
@@ -1106,7 +1109,7 @@ Summary:
 それじゃ、【バンディ・シスターズ】の行った方角と速度を\nみなさんに連絡しますね。\nえっと、通信魔法っと……=Well then, I'll contact everyone about the direction and speed of the [Bandit Sister]. Umm, communication magic...
 がんば、姉貴。=Good luck, Aneki.
 ヴルムも手伝ってよ、もうっ！=Wyrm, you help too, geez!
-──ふぅ。\nあとは頼んだぜ、坊主たち。=Phew. I'll leave the rest to you, boys.
+──ふぅ。\nあとは頼んだぜ、坊主たち。=*sigh*. I'll leave the rest to you, boys.
 きゃはははっ♪\n飛・ば・せ♡\n飛・ば・せー♡=Kyahahaha♪ Faster ♡ Faster ♡
 わわわっ……！？\nフブキちゃん、そんなにアクセル踏んじゃっ……！=Wawawa...!? Fubuki-chan, don't step on the accelerator like that...!
 ぜんぜんダイジョブです～！\nバカナ姉と違って、ぼくは運転ミスりませんし～！=I'm totally fine! Unlike you, stupid sister, I don't make mistakes while driving!
@@ -1142,7 +1145,7 @@ Cutscene:
 ぴぎゅぴぎゅぴぎゅぴぎゅ=Pigyupigyupigyupigyu
 ぴぎゅーっ！=Pigyuu!
 ぴぎゅ～っ！！=Pigyuuu!!
-速いっ！？=He's fast!?
+速いっ！？=So fast!?
 あれっ？=Huh?!
 ちょっと！　追い抜いてどうすんのよバカッ！=Hey! What are you doing running ahead of them like that, you idiot?!
 ハッ！=Hah!
@@ -1357,7 +1360,7 @@ Summary:
 いえ。ライラエルさまがお許しになったことなので。\nですが……ドラゴン族の仲間、ですか。\n探すのは大変そうですね……=It's fine. It's something that Lady Lyrael has forgiven. But...looking for dragonfolks, huh? Sounds like it'll be hard to find them...
 たしかに。\nあたしらも、あなたたち以外のドラゴン族に会ったことありません。=Indeed. We, too, have never met any other dragonfolk besides you guys.
 へえ……こっちでもドラゴン族は珍しいんだな。\n分かった、ありがとう。\nま、地道に探すことにするよ。=Wow... Dragons are rare here, too. Got it. Thanks. Well, I'll keep searching then.
-ふぅ、結局骨折り損でしたね。\n世話になったです、じゃああたしたちは帰るですよ。=Phew, that was a waste of time. Thank you for your time, we'll be going home, then.
+ふぅ、結局骨折り損でしたね。\n世話になったです、じゃああたしたちは帰るですよ。=*sigh*, that was a waste of time. Thank you for your time, we'll be going home, then.
 あ、いえ。待ってください。\nライラエルさまから言づてが。\nあなたたちに一つ、お願いがありまして……=Ah, no. Please wait. I heard from Lady Lyrael, she has a favor to ask of you.
 お願い？=A favor??
 な、な、なっ……=Wh-Wh-What...?

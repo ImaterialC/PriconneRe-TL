@@ -86,8 +86,7 @@ r:"^(70\.)?炎縄河(.*)$"=$1 Flame Rope River $2
 r:"^(71\.)?崩豹峠(.*)$"=$1 Collapsing Leopard Mountain Pass $2
 r:"^(72\.)?怒錐ヶ岳(.*)$"=$1 Mount Dokusui $2
 r:"^(73\.)?久遠氷河・南端(.*)$"=$1 Everlasting Glacier (Southern) $2
-r:"^(74\.)?久遠氷河・北端(.*)$"=$1 Everlasting Glacier (Northern) $2
-
+r:"^(74\.)?幽魂湿原(.*)$"=$1 Ghost Swamp $2
 
 ---*6 Quest---
 sr:"^([べ-ヺー＆＝]+)(（.+）)?の解放クエスト$"=$1$2 Ascension Quest

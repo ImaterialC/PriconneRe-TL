@@ -656,3 +656,11 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 アズールサーキュラー=Azure Circular
 クリムゾンデルタ=Crimson Delta
 ヴェルデスクエア=Verde Square
+
+
+撃滅鱗装ギガント=Annihilation Scale Armor Gigant  
+絶滅骸装タイラント=Extinction Bone Armor Tyrant  
+激突重盾トライセラ=Collision Heavy Shield Tricera  
+幻蝦霊装アノーマリー=Illusory Shrimp Spirit Armor Anomaly  
+翼竜額冠ロンギケプス=Pterosaur Forehead Crown Longiceps  
+餓竜疾靴デュアルラプター=Hunger Dragon Swift Boots Dual Raptor  

@@ -70,7 +70,7 @@ Anniversaryパックについて=About the anniversary pack
 30日間探索挑戦回数+3回期間通知=30 days Grotto +3 pack Period Notification
 購入Lv制限あり=Purchase Lv Limit
 --- Anniv---
-
+EX★4装備パック=EX★4 Equipment Package
 r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
 r:"^([0-9.]+)周年 SPキャラ交換ガチャセット$"=$1th Anniversary SP Character Exchange Gacha Set
 r:"^([0-9.]+)周年 ★6キャラ育成パック$"=$1th Anniversary★6 Character Raising Package
