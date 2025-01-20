@@ -11,6 +11,17 @@ r:"^対象が魔法攻撃をする敵だった場合、味方全体の魔法攻�
 目の前の敵１キャラに魔法中ダメージを与える。対象が物理攻撃をする敵だった場合、ダメージがアップし、さらに物理攻撃力を大ダウン、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。=Deals moderate M.DMG to an enemy in front. If an enemy is P-type, the M.DMG dealt increases, and also massively lowers an enemy's P.ATK, slightly lowers its M.DEF, and slightly boosts its M.CRIT DMG taken.
 r:"^対象の敵単体に(\d+)の魔法ダメージ対象の敵単体に(\d+)の魔法ダメージ対象が物理攻撃をする敵だった場合、物理攻撃力を(\d+)ダウン対象が物理攻撃をする敵だった場合、魔法防御力を(\d+)ダウン対象が物理攻撃をする敵だった場合、クリティカルを受けた際のダメージを5％アップ$"=If an enemy is M-type:\n►Deals $1 M.DMG to an enemy.\n\nIf an enemy is P-type:\n►Deals $2 M.DMG to an enemy.\n►Lowers an enemy's P.ATK by $3 for 12s.\n►Lowers an enemy's M.DEF by by $4 for 12s.\n►Boosts an enemy's M.CRIT DMG taken by 5% for 12s.
 
+##S1+##
+ドリーム☆シュート+=Dream☆Shoot+
+r:"^対象の敵単体に(\d+)の魔法ダメージ\n対象の敵単体に(\d+)の魔法ダメージ\n対象が物理攻撃をする敵だった場合、物理攻撃力を([0-9\n]+)(?:\n)?ダ(?:\n)?ウ(?:\n)?ン\n対象が物理攻撃をする敵だった場合、魔法防御力を(\d+)(?:\n)?ダ(?:\n)?ウ(?:\n)?ン\n対象が物理攻撃をする敵だった場合、被クリダメを5％(?:\n)?(?:\n)?ア(?:\n)?ッ(?:\n)?プ\n対象の敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n\nIf the target is a physical attacker:\n►Lowers P.ATK by $3.\n►Lowers M.DEF by $4.\n►Boosts P.CRIT DMG taken by $5%.\n►Deals $6 M.DMG to a single enemy.
+
+
+
+目の前の敵１キャラに魔法大ダメージを与える。対象が物理攻撃をする敵だった場合、ダメージがアップし、さらに物理攻撃力を大ダウン、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせ、追加の魔法中ダメージを与える。=Deals large magic damage to the frontmost enemy. If the target uses physical attacks, increases the damage , greatly reduces their P.ATK, slightly reduces their M.DEF, slightly increases their damage taken by critical hits, and adds an additional instance of moderate M.DMG.
+
+
+
+
 ##S2##
 ミラクル☆スパークル=Miracle☆Sparkle
 目の前の敵１キャラに魔法中ダメージを与え、味方全体の魔法攻撃力を大アップさせる。対象が物理攻撃をする敵だった場合、ダメージと攻撃力の上昇量がアップし、味方全体に物理無効バリアを展開する。=Deals moderate M.DMG to an enemy in front and greatly boosts all allies' M.ATK. If an enemy is P-type, the M.DMG dealt and M.ATK boost increase, and also deploys Barrier over all allies that negates P.DMG.
@@ -19,3 +30,5 @@ r:"^対象が魔法攻撃をする敵だった場合、味方全体の魔法攻�
 ##EX##
 ニューイヤー☆ドリーム=New Year☆Dream
 ニューイヤー☆ドリーム+=New Year☆Dream+
+
+ニューイヤー☆ミーティア=New Year's☆Meteor

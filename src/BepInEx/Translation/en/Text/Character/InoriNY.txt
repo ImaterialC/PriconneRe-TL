@@ -12,6 +12,14 @@ r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)
 【挑発】敵全体を挑発する。挑発モーション中に行動不能、吹き飛ばし、引き寄せを受けた場合、目の前の敵１キャラを大きく吹き飛ばし、前方の敵すべてに物理大ダメージを与え、スタンさせる。このスキルが終了するまで自分が敵から受ける行動不能、吹き飛ばし、引き寄せを無効化する。=[Taunt] Taunts all enemies. If oneself gets afflicted by Stun, knockback or position change during Taunt, deals large P.DMG to all enemies and inflicts Stun to them. Negates Stun, knockback or position change until this skill ends.
 r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=►Provokes all enemies for 3s.\n\nIf oneself gets afflicted by Stun, knockback or position change:\n►Knockbacks an enemy by 300 units.\n►Deals $1 P.DMG to all enemies.\n►Inflicts Stun to all enemies for 1.5s.
 
+##S1+##
+ドラゴンズノック+=Dragon's Knock+
+前方の敵すべてに物理大ダメージを与え、大きく吹き飛ばし、自分の物理攻撃力を大アップする。行動不能状態の敵に対してはダメージが上昇する。=Deals massive P.DMG to all enemies in front, greatly knocks them back, and boosts the user’s P.ATK by massive amount. Damage is further increased against enemies that are incapacitated.
+
+r:"^範囲内の行動不能でない敵に(\d+)の物理ダメージ\n範囲内の行動不能の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within range who are not incapacitated.\n►Deals $2 P.DMG to incapacitated enemies within range.\n►Boosts own P.ATK by $3.
+
+辰年神之大槌=Year of the Dragon God's Great Hammer
+
 ##S2##
 かかってきやがれです！=Come At Me!
 

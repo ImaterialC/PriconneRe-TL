@@ -1,4 +1,4 @@
-アネモネを観察し、彼女の感情と花の関係性について仮説を立てるミツキ\nとエリコ。クリアの協力も得て実験を行い、アネモネの笑顔を引き出す。\nだが怒った彼女に追いかけ回され、結局実験は失敗するのだった。=Mitsuki and Eriko hypothesize about the relationship between Anemone's emotions and flowers through observation. With Quria's help, they conduct an experiment and bring out Anemone's smile. However, they are chased around by an angry Anemone, ultimately resulting in a failed experiment.
+アネモネを観察し、彼女の感情と花の関係性について仮説を立てるミツキとエリコ。クリアの協力も得て実験を行い、アネモネの笑顔を引き出す。だが怒った彼女に追いかけ回され、結局実験は失敗するのだった。=Mitsuki and Eriko hypothesize about the relationship between Anemone's emotions and flowers through observation. With Quria's help, they conduct an experiment and bring out Anemone's smile. However, they are chased around by an angry Anemone, ultimately resulting in a failed experiment.
 朝方のジオ・ゲヘナ居住区。\nミツキとエリコによる実験が、\n意外な人物に対して行われようとしていた。=Early morning in the Gio Gehenna residential area. An experiment by Mitsuki and Eriko was about to be conducted on an unexpected person.
 約束は約束。\nたっぷり調べさせてもらうわよ♪=A promise is a promise. I'll thoroughly investigate you♪
 覚悟はよろしいでしょうか……クスクス。=Are you prepared... hehe.
@@ -8,7 +8,7 @@
 ──このひとは、媛お気に入りの機織り職人。\n簡単に失うわけにはいかない。\nでも、残った方法は……=──This person is a favorite weaver of the Princess. I can't lose them easily. But the remaining method...
 お困りのようですね。\n助けて差し上げましょうか？=You seem troubled.\nShall I help you?
 ──っ、\n誰……？=──W-Who are you?
-はじめまして、アネモネちゃん。\nあなたのことは、Giovanniくんから聞いてるわ。\n私は闇医者のミツキ。こっちはエリコちゃんよ。=Nice to meet you, Anemone-chan. I've heard about you from Giovanni-kun. I'm Mitsuki, a dark doctor. And this is Eriko-chan.
+はじめまして、アネモネちゃん。\nあなたのことは、{playername}くんから聞いてるわ。\n私は闇医者のミツキ。こっちはエリコちゃんよ。=Nice to meet you, Anemone-chan. I've heard about you from {playername}-kun. I'm Mitsuki, a dark doctor. And this is Eriko-chan.
 先ほど、何か判断を迷われていたようでしたが。\n何か秘密の治療法でもあるのですか？　クスクス……=Earlier, you seemed indecisive about a decision.\nDo you have any secret treatment methods? Hehe...
 いえ……\nその──=No…\nIt's just—
 ────毒で。\n介錯しようと思いました。=──By poison.\nI planned to give mercy killing.
