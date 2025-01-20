@@ -16,6 +16,6 @@ r:"^迎春ランドソル([0-9\-\(\)\w （）]*)$"=New Year Landosol $1
 メドゥシアナ=Medusiana
 
 バトル開始時、コドモオオトカゲ２体とツチノ\n　コブラ２体を召喚する。\n=At the start of the battle, I summon two Codmo Lizards and two Tsuchino Cobras.\n
-サレン・モニカ=Saren Monica
+サレン・モニカ=Saren Monika
 メドゥシアナの付与する毒および\n　猛毒のダメージでは、ＴＰが回復しない。\n=The poison and deadly poison damage Medusiana inflicted wouldn’t restore TP\n
 敵全体に魔法中ダメージを与える。さらに、敵\n　キャラの行動速度が初期値以下の場合、石化状\n　態を付与し、敵キャラの行動速度が初期値以下\n　ではない場合、行動速度を特大ダウンさせる。\n　このスキルの効果はダメージを無効化しても付\n　与される。\n=Dealts DMG during magic. Additionally, when an enemy character's movement speed is lower than their initial value, they will inflict Petrification status, and when their movement speed isn't lower than that of an opponent character, they'll be greatly reduced. The effects of this skill will be infused even if the damage is nullified.\n

@@ -2,7 +2,7 @@
 メドゥシアナと空を飛ぶこと=Flying with Medussiana
 
 ##Profile##
-で眷属と力を合わせて戦う誇り高き蛇乙女。【魔眼】の数に応じて効果量が上がるスキルのダメージと弱体化で範囲内の敵を追い詰め、鋭い瞳で石へと変える。=A proud snake maiden who combines strength with her servants. Her skills increase based on the number of [Evil Eye] stacks she has, and using debuffs to make surrounding enemies weaker, she uses her sharp eyes to turn her foes into stone.
+【物理】中衛で眷属と力を合わせて戦う誇り高き蛇乙女。【魔眼】の数に応じて効果量が上がるスキルのダメージと弱体化で範囲内の敵を追い詰め、鋭い瞳で石へと変える。=[Physical] A proud snake maiden who combines strength with her servants. Her skills increase based on the number of [Evil Eye] stacks she has, and using debuffs to make surrounding enemies weaker, she uses her sharp eyes to turn her foes into stone.
 
 ##UB##
 リーサル・メドゥシアナ=Riezal Medusiana
@@ -19,7 +19,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理攻撃
 
 ##S2##
 マイティー・アイ=Mighty Eye
-r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを120アップ\n味方全体の物理攻撃クリティカル時のダメージを12％\nアップ\n自分のＴＰを120回復$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' P.CRIT RATE by 120.\n►Boosts allies' P.CRIT DMG by 12％.\n►Recovers own TP by 120.
+r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを120アップ\n味方全体の物理攻撃クリティカル時のダメージを12％(?:\n)?アップ\n自分のＴＰを120回復$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' P.CRIT RATE by 120.\n►Boosts allies' P.CRIT DMG by 12％.\n►Recovers own TP by 120.
 
 味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。さらに、自分のＴＰを小回復する。このスキルの効果量は【魔眼】の数に応じて上昇する。=Massively boosts P.ATK, greatly boosts P.CRIT RATE, and slightly boosts P.CRIT DMG for all allies. Additionally slightly recovers TP for self. The effects of this skill increases based on the number of [Evil Eye] stacks. 
 

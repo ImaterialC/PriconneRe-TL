@@ -1,0 +1,26 @@
+##Profile##
+【物理】前衛で、元日も元気にはしゃぎまわる軍人少女。与ダメージに応じて追加効果が強化されるＵＢと、発動ごとに成長する自己強化スキルで秩序を乱す者の目を回す。=[Physical] A military girl who runs about the frontlines with excitement even on New Year Day. She has a UB that has bonus effects applied when it does high damage, and she was a self buff skill that increases everytime it activates. With these these she knocks dizzy all those who would disrupt order. 
+
+##UB##
+絢爛廻天麗舞！=Magnificent Circling Heavenly Dance!
+r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within range.\n►Lowers P.DEF of enemies within range by $2.\n►Boosts own P.ATK by $3.
+
+
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに、自分の物理攻撃力を大アップする。このスキルで与えたダメージ量に応じて、防御力ダウンと攻撃力アップの効果量が最大５倍までアップする。=Deals large P.DMG to all enemies within the range centered on the closest enemy and slightly decreases their P.DEF. Additionally, greatly boosts own P.ATK. The effect amount of the P.DEF reduction and P.ATK boost increases up to 5 times based on the damage dealt by this skill.
+
+##S1##
+飛空蛮衝！=Skyward Reckless Charge!
+飛空蛮衝！+=Skyward Reckless Charge!+
+
+##S2##
+世界巡礼玉！=World Pilgrimage Gem!
+r:"^自分の物理攻撃力を(\d+)アップ\n自分の物理攻撃クリティカル時のダメージを3％アップ\n自分のＴＰを75回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 3%.\n►Recovers own TP by 75.
+
+
+自分の物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップし、ＴＰを小回復する。このスキルを使用するたび、最大４回まで効果量がアップする。=Greatly boosts own P.ATK, slightly boosts own P.CRIT DMG, and restores a small amount of TP. Each time this skill is used, the effect amount increases up to a maximum of four times.
+
+
+
+##EX##
+迎春の戯れ=New Year's Play
+迎春の戯れ+=New Year's Play+
