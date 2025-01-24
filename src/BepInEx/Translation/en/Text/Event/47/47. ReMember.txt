@@ -14,11 +14,11 @@ sr:"^(\[[0-9A-F]{6}\])?(.+)と(.+)を倒そう(\[-\])?$"=$1Defeat the $2 and $3.
 
 過去と今を伝える覚悟=Prepared to Communicate Past and Present
 心刺す託宣=Piercing Oracle
-歪み、歪んで=Twisted and Distorted.
-絆を手放さないように=Don't let go of the bond
-当たり前のはずの景色=The scenery that should be natural
-兆しなき眠り=Sleeping without any signs
-『こっち』の世界=The World of "Over Here"
+歪み、歪んで=The Distortion Distorts
+絆を手放さないように=Trying to Keep Hold of Bonds
+当たり前のはずの景色=The Scenery that Should be Normal
+兆しなき眠り=A Slumber with No Symptoms
+『こっち』の世界="This" World
 
 r:"^世界と世界の狭間([0-9\-\(\)\w （）]*)$"=Between worlds $1
 オーバーロードフォース=Overload Force
