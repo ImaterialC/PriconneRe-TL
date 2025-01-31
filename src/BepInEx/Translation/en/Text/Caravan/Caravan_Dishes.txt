@@ -4,17 +4,16 @@
 「補助系」= 
 「特殊系」= 
 
+【料理】移動時に料理マスをスキップできる=[Dish] You will skip Food Tiles when moving.
 
-ミソラの\n気まぐれ味噌ラーメン★=Misora's Whimsical Miso Ramen★
-ミソラが作ったラーメン。適当に言った好きな物をランファが憶えていたために、材料を用意され仕方なく作ったものだが味はイイコト級の一品。美味しそうに食べられるのは嫌いではない様子。=A bowl of ramen made by Misora. Lanfa remembered something Misora mentioned liking offhandedly and prepared the ingredients, leaving Misora with no choice but to cook it. Despite that, the dish turned out to be top-notch. She doesn’t seem to mind when people enjoy eating it so enthusiastically.  
-【料理】移動時に料理マスをスキップできる=[Dish] Allows skipping food tiles while moving.
+3ターンの間、すべての「マイルマス」をランク\n3の「トレジャーマス」に変化させる。=For 3 turns, all Mile Tiles are transformed into Rank 3 Treasure Tiles.
 
-3ターンの間、すべての「マイルマス」をランク\n3の「トレジャーマス」に変化させる。=For 3 turns, all "Mile Tiles" are transformed into rank 3 "Treasure Tiles."
+【仲間】出たダイスの目が奇数だった場合、1マス分多く進める=[Ally] If the dice rolls an odd number, you can move 1 extra tile.
 
-【仲間】出たダイスの目が奇数だった場合、1マス分多く進める=[Ally] If the rolled dice shows an odd number, you can move 1 extra tile.
+このターンに振るダイスの目が必ず「5」にな\nる。=Roll a guaranteed 5 this turn.
 
+\nミニゲームをスキップしますか？\nプレイ報酬の代わりにマイルが獲得できます。=Would you like to skip the minigame?\nInstead of rewards, you will receive miles.
 
-\nミニゲームをスキップしますか？\nプレイ報酬の代わりにマイルが獲得できます。=Would you like to skip the mini-game?\nInstead of play rewards, you will receive miles.
 ---Dish names---
 
 
@@ -50,41 +49,42 @@
 クリアの彩り華やかバラエティ弁当=Quria's Colorful Variety Lunch Box
 ワカナの節約腹八分目カレー=Wakana's Properly Portioned Curry
 アンナの煉獄蕃茄煮混沌卵=Anna's Infernal Tomato Stew with Chaotic Eggs
+ミソラの\n気まぐれ味噌ラーメン★=Misora's Whimsical Miso Ramen★
 
 ---Dish effects---
 ---Red---
-次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice next turn and move as many tiles as their sum.
-次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 next turn. The turn counter will not increase.
-次に振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 2 next turn. The turn counter will not increase.
-次に振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 3 next turn. The turn counter will not increase.
-次に振るダイスの目が必ず「2」になる。=You will roll a guaranteed 2 next turn.
-次に振るダイスの目が必ず「3」になる。=You will roll a guaranteed 3 next turn.
-次に振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 next turn.
-次に振るダイスの目が必ず「6」になる。=You will roll a guaranteed 6 next turn.
-次に振るダイスの目が必ず「7」になる。=You will roll a guaranteed 8 next turn.
-次に振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 next turn.
-次に振るダイスの目が必ず「9」になる。=You will roll a guaranteed 9 next turn.
+次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice this turn and move as many tiles as their sum.
+次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 this turn. The turn counter will not increase.
+次に振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 2 this turn. The turn counter will not increase.
+次に振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 3 this turn. The turn counter will not increase.
+次に振るダイスの目が必ず「2」になる。=You will roll a guaranteed 2 this turn.
+次に振るダイスの目が必ず「3」になる。=You will roll a guaranteed 3 this turn.
+次に振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 this turn.
+次に振るダイスの目が必ず「6」になる。=You will roll a guaranteed 6 this turn.
+次に振るダイスの目が必ず「7」になる。=You will roll a guaranteed 7 this turn.
+次に振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 this turn.
+次に振るダイスの目が必ず「9」になる。=You will roll a guaranteed 9 this turn.
 r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」になる。$"=You will roll a guaranteed $2 for the next $1 turns.
 
 
 アネモネの花爛漫ステーキサラダ=Anemone's Flower Steak Salad
-次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=If the next dice roll shows only "1" or "2", you will instantly receive three lottery tickets.
+次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=If the next Dice roll is a "1" or "2", you will instantly receive three lottery tickets.
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
-次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.
-[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 next turn. Then, a guaranteed 1 the turn after.[-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Mobile Type Food] next turn, earn 2,000 miles on the spot. [-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「6」に、その次に振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwrite】[-]The next roll of the dice must be a "6", and the roll after that must be a "3".
-次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.
-次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 next turn.\nThe turn counter will not increase.
-マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You can move by skipping the Mile Tiles. Effect lasts for 2 turns.
+次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Movement] category food next turn, earn 2,000 miles on the spot.[-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「6」に、その次に振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 3 the turn after.[-]
+次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.
+次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 this turn.\nThe turn count will be skipped.
+マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You will skip Mile Tiles when moving. This effect lasts for 2 turns.
 次にダイスを振った際、1マス多く進める。=You can move 1 extra Tile next turn.
-次にダイスを振った際、2マス多く進める。=You can move 2 extra Tile next turn.
-次にダイスを振った際、3マス多く進める。=You can move 3 extra Tile next turn.
-次にダイスを振った際、4マス多く進める。=You can move 4 extra Tile next turn.
-次にダイスを振った際、5マス多く進める。=You can move 5 extra Tile next turn.
-次にダイスを振った際、6マス多く進める。=You can move 6 extra Tile next turn.
-次にダイスを振った際、7マス多く進める。=You can move 7 extra Tile next turn.
-次にダイスを振った際、8マス多く進める。=You can move 8 extra Tile next turn.
+次にダイスを振った際、2マス多く進める。=You can move 2 extra Tiles next turn.
+次にダイスを振った際、3マス多く進める。=You can move 3 extra Tiles next turn.
+次にダイスを振った際、4マス多く進める。=You can move 4 extra Tiles next turn.
+次にダイスを振った際、5マス多く進める。=You can move 5 extra Tiles next turn.
+次にダイスを振った際、6マス多く進める。=You can move 6 extra Tiles next turn.
+次にダイスを振った際、7マス多く進める。=You can move 7 extra Tiles next turn.
+次にダイスを振った際、8マス多く進める。=You can move 8 extra Tiles next turn.
 ---Yellow---
 マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
 次にマイルマスに止まった際の獲得マイルが200%アップする。=You will get 200% more Miles on the next Mile Tile you stop at.
@@ -112,16 +112,16 @@ sr:"^(【料理】|【イベント】|【仲間】|)ダイスの目が「(\d)・
 sr:"^(【料理】|【イベント】|【仲間】|)次回移動時に(\d)マス分多く進める。?$"=$1You can move $2 extra Tile next turn.
 sr:"^(【料理】|【イベント】|【仲間】|)福引券を(\d)枚入手する。?$"=$1Acquire $2 lottery ticket
 福引券を1枚獲得する。=Acquire 1 lottery ticket.
-福引券を2枚獲得する。=Acquire 2 lottery ticket.
+福引券を2枚獲得する。=Acquire 2 lottery tickets.
 2ターンの間ターン数のカウントを\nスキッ\rプする。=Skips turn count for 2 turns.
 r:"^(\d)/(\d)食事済$"=$1/$2 Meals
 これ以上料理を食べられません。=Can't eat any more food.
 
-【料理】次のターン数のカウントをスキップする=[Cooking] The turn counter will not increase.
+【料理】次のターン数のカウントをスキップする=[Cooking] The turn count will be skipped.
 【料理】「マイルマス」「トレジャーマス」「ショップマス」のRANKが1つ上がる=[Cooking] Mile Tile, Treasure Tile, and Shop Tile RANK increased by 1.
 【料理】移動時にマイルマスをスキップできる=[Cooking] Skip Mile Tiles when moving.
-【料理】移動系カテゴリーの料理が食べられなくなる=[Cooking] You can't be able to eat food in the mobile category.
-【料理】移動時に「マイルマス」「トレジャーマス」をスキップできる=[Cooking] Skip "Mile Tiles" and "Treasure Tiles" when moving.
+【料理】移動系カテゴリーの料理が食べられなくなる=[Cooking] You won't be able to eat food in the Movement category.
+【料理】移動時に「マイルマス」「トレジャーマス」をスキップできる=[Cooking] Skip Mile Tiles and Treasure Tiles when moving.
 【料理】移動時にトレジャーマスをスキップできる=[Cooking] Skip Treasure Tiles when moving
 
 ---Sub-effects---
@@ -132,32 +132,32 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
 ---Red---
-[90A0BC]マイルマスをスキップして移動できる。効果は2ターンの間継続する。[-]=[90A0BC]You can move by skipping the Mile Tiles. Effect lasts for 2 turns.[-]
-[90A0BC]次に振るダイスが2個に増える。出目の合計の数だけ進める。[-]=[90A0BC]You will roll 2 dice next turn and move as many tiles as their sum.[-]
-[90A0BC]次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a guaranteed 1 next turn. The turn counter will not increase.[-]
+[90A0BC]マイルマスをスキップして移動できる。効果は2ターンの間継続する。[-]=[90A0BC]You will skip Mile Tiles when moving. This effect lasts for 2 turns.[-]
+[90A0BC]次に振るダイスが2個に増える。出目の合計の数だけ進める。[-]=[90A0BC]Roll two Dice this turn and move equal to the sum of the two rolls.[-]
+[90A0BC]次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a guaranteed 1 this turn. The turn count will be skipped.[-]
 [90A0BC]次に振るダイスの目が必ず「5」になる。[-]=[90A0BC]You will roll a guaranteed 5 next turn.[-]
 [90A0BC]ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。[-]=[90A0BC]You will roll a guaranteed 4 for the next 3 turns.[-]
 [90A0BC]次に振るダイスの目が「4・5・6」のみになる。[-]=[90A0BC]You will roll a 4, 5 or 6 next turn.[-]
-[90A0BC]次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。[-]=[90A0BC]You will roll a guaranteed 3 next turn. Then, a guaranteed 6 the turn after.[-]
-[90A0BC]次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。[-]=[90A0BC]You will roll a guaranteed 2 next turn. Then, a guaranteed 7 the turn after.[-]
-[90A0BC]次に振るダイスの目が「1・2・3」のみになる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a 1, 2 or 3 next turn.The turn counter will not increase.[-]
+[90A0BC]次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。[-]=[90A0BC]You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.[-]
+[90A0BC]次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。[-]=[90A0BC]You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.[-]
+[90A0BC]次に振るダイスの目が「1・2・3」のみになる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a 1, 2 or 3 this turn. The turn count will be skipped.[-]
 出目が固定されているため振りなおせません。=I can't roll again because the starting point is fixed.
-[90A0BC]トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。[-]=[90A0BC]You can move by skipping Treasure Square. The effect lasts for 3 turns.[-]
+[90A0BC]トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。[-]=[90A0BC]You will skip Treasure Tiles when moving. This effect lasts for 3 turns.[-]
 ---Yellow---
-[90A0BC]マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。[-]=[90A0BC]The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. [-]
+[90A0BC]マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。[-]=[90A0BC]The RANK of all Mile Tiles, Treasure Tiles and Shop Tiles will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. [-]
 [90A0BC]次にマイルマスに止まった際の獲得マイルが200%アップする。[-]=[90A0BC]You will get 200% more Miles on the next Mile Tile you stop at.[-]
 ---Green---
-[90A0BC]ランダムなイベントを発生させる。[-]=[90A0BC]You will get a random event next turn.[-]
-ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。=Until you roll the dice three times, the probability of getting a 5 or 6 is tripled.
-【料理】ダイスの「5と6」の目が出る確率が3倍になる=【Cooking】 The odds of the dice getting a 5 and 6 are tripled
-[90A0BC]ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。[-]=[90A0BC]The odds of the dice getting a 5 and 6 are tripled[-]
+[90A0BC]ランダムなイベントを発生させる。[-]=[90A0BC]You will get a random Event next turn.[-]
+ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。=For the next three rolls, the probability of getting a 5 or 6 is tripled.
+【料理】ダイスの「5と6」の目が出る確率が3倍になる=【Cooking】 The odds of rolling a 5 or 6 are tripled
+[90A0BC]ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。[-]=[90A0BC]The odds of rolling a 5 or 6 are tripled[-]
 
-一定の経過ターン以内にチェックポイントを通過すると\n豪華なアイテムが手に入ります!=Pass a checkpoint within a certain turn to obtain an extravagant item!
+一定の経過ターン以内にチェックポイントを通過すると\n豪華なアイテムが手に入ります!=Pass a checkpoint within a certain amount of turns to obtain extravagant items!
 
 ---Dish descriptions---
 マイルを消費してガチャを引くことができます。=You can use miles to pull the gacha.
 ガチャマス=Gachamas
-トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。=You can move by skipping Treasure Square. The effect lasts for 3 turns.
+トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。=You will skip Treasure Tiles when moving. This effect lasts for 3 turns.
 
 綺麗な装飾箱に納められたボンボン・ショコラ。そのほろ苦さを秘めた濃密な甘さが灰色の脳細胞に働きかける時、名探偵の鋭い推理が隠された謎を全て白日の下へと晒し、事件を解決へ導く。=A set of Bonbon chocolates, placed in a beautifully decorated box. As their decadent flavor with a bittersweet finish stimulates the grey matter of the brain, the great detective's sharp reasoning brings all unknowns to light, leading to the resolution of the case.
 
@@ -182,7 +182,7 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 リリが作った柏餅……の中でも、上手く作れた選りすぐりの品。最高の素材を使用した上、失敗した分はリリが自分で食べてしまったため単価でみるとかなりの高級品となっている。=Riri's finest kashiwa-mochi... among the ones she made. In addition to the usage of top-class ingredients, Riri eats any failed attempts herself, making it a very costly dish per unit. 
 
-プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=A steamed pork bun filled with ingredients chosen by Precia. At her request, it is several times larger than a normal pork bun. According to Quria, the chef in charge; the taste and volume are incredible, satisfaction is all but guaranteed♪experience without a doubt.
+プレシアが選び抜いた具を詰め込んだ肉まん。\n彼女の希望で、通常の肉まんの数倍のサイズに\nなっている。味もボリュームも満点でハッピー\n間違いなしですよ♪とは調理担当クリアの談。=A steamed pork bun filled with ingredients chosen by Precia. At her request, it is several times larger than a normal pork bun. According to Quria, the chef in charge; the taste and volume are incredible, satisfaction is all but guaranteed♪
 
 クローチェがフルパワーで作ったポテトサラダ。本来はガレットを作ろうとしたが、うっかり握り潰してしまったため、軌道修正して仕上げた一品。経緯はともかく味は非常に美味である。=This potato salad was made by Croce at full power. Her intention was to make a potato galette, but she accidentally crushed it, so she pivoted and made this instead. Regardless of what happened, it's still very tasty.
 
@@ -200,12 +200,12 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
  
 リンからもらった非常食のあんパン。ナッツが\n練り込まれクランチな食感で食べ飽きない。\nゲームのため部屋に引きこもる際のお供であり、\n必要な栄養素が全て賄える完全栄養食、らしい。=Rin gave us her emergency ration of choice: Anpan. The mixed-in nuts give it a crunchy texture that you'll never get tired of. The perfect companion when holing yourself up in a room and playing games, she says that it provides all the nutrients one could possibly need.
 
-シェフィが自身の魔力の氷を使い作ったアイス。\nペコリーヌにねだられて作ったものだがキャル達\nにも好評である。コッコロ曰くひんやりしている\nのに食べると心が温かくなってきます、との事。=An ice cream made by Sheffy using her magical ice. She made it at Pecorine's request, but it has also been well-received by Kyaru and the others. According to Kokkoro, "Even though it's chilly, eating it makes your heart feel warm."
+シェフィが自身の魔力の氷を使い作ったアイス。\nペコリーヌにねだられて作ったものだがキャル達\nにも好評である。コッコロ曰くひんやりしている\nのに食べると心が温かくなってきます、との事。=Some ice cream made by Sheffy using her ice magic. She made it at Pecorine's request, but it was also well-received by Kyaru and the others. According to Kokkoro, "Even though it's so cold, eating it only warms my heart."
 
 ---Yellow---
 イロハの最強クワガタゼリー（人間用）=Iroha's Ultimate Stag Beetle Jelly (For Humans)
-次に振るダイスの目が「1・6・6・6・8・8」になる。=The next dice roll will have the faces: "1, 6, 6, 6, 8, 8."
-イロハがいつも持ち歩いているカラフルなゼリー…なのだがアルケス錬金堂で作られたクワガタ用餌ゼリーとそっくりな見た目をしている。甘くて美味しいが、人間用か尋ねると目を逸らされる。=This is the colorful jelly Iroha always carries around... but it looks strikingly similar to the jelly made as stag beetle feed by Alkes Alchemy. It's sweet and tasty, but if you ask whether it's truly for humans, Iroha avoids eye contact.
+次に振るダイスの目が「1・6・6・6・8・8」になる。=The next dice roll will have these faces: "1, 6, 6, 6, 8, 8."
+イロハがいつも持ち歩いているカラフルなゼリー…なのだがアルケス錬金堂で作られたクワガタ用餌ゼリーとそっくりな見た目をしている。甘くて美味しいが、人間用か尋ねると目を逸らされる。=A colorful jelly Iroha always carries around... but it looks suspiciously similar to the stag beetle feed made at the Alces Alchemy Hall. It's sweet and tastes good, but when asked if it's truly made for human consumption, Iroha looked away.
 料理マスをスキップして移動できる。効果は2\nターンの間継続する。=Allows you to skip food tiles and move forward.\nThe effect lasts for 2 turns.
 グレイスお手製のカップケーキ。ショッキングな見た目に全振り…と思わせて目玉も食べることが可能で大変美味…と思わせて一部だけ魂消るほど甘い部分がある。原材料は頑なに秘されている。=Grace's Homemade Cupcake. At first glance, its shocking appearance seems to be the entire focus... But in reality, even the eyeball decorations are edible and surprisingly delicious. That said, some parts are shockingly sweet to the point of being overwhelming. The ingredients remain a closely guarded secret.
 アヤネとクルミが二人で用意した特別なランチバスケット。仲間との冒険への希望が詰まったご機嫌な料理の数々で、道中の様々な出来事が１ランク上のイベントに感じられるようになる。=Ayane and Kurumi have prepared a special picnic basket together. Their excitement for this trip with their friends is packed into every single delicious dish. Eating them fills you with joy and ensures that the next event will be just that bit more special.
@@ -223,14 +223,16 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 アユミの隠密ガトーインビジブル=Ayumi's Covert Gâteau Invisible
 気が付くとリリの手元にあった不思議なお菓子。一見普通のケーキだが、内部に様々な具材が隠れるように入っている。複雑で重層的な味わいを見せる様は、まるで誰かさんのよう。=Before she knew it, Riri found a peculiar pastry in her hands. At first glance, it looks like a normal cake, but there are a variety of ingredients hidden within. It's complex and multi-layered flavor reminds you of someone.
 
-「マイルマス」「トレジャーマス」をスキップして移動できる。効果は1ターンの間継続する。=You can skip "mile tiles" and "treasure tiles" when moving. The effect lasts for 1 turn.
+「マイルマス」「トレジャーマス」をスキップして移動できる。効果は1ターンの間継続する。=You will skip Mile Tiles and Treasure Tiles when moving. The effect lasts for 1 turn.
 
 アネモネが世話する秘密の菜園の野菜を使ったサラダ。栄養を重視するアネモネは草食獣の肉を野菜と解釈、当初は野菜の上に肉を置いただけであったが、ネラの指導で盛り付け直された。=A salad made with vegetables from Anemone's secret garden. Anemone, who prioritizes nutrition, interpreted the meat of herbivorous animals as a vegetable, initially placing the meat directly on top of the salad. However, with Nera's guidance, she re-plated the meat.
 
 
 ジオ・ゲヘナを探索中の冥姫たちが現地で採取したスパイスで味付けした一皿。赤く煮え滾るソースは刺激的かつ非常に奥深い味わいで未知の大地の如く冒険者たちをその深奥へと誘う。=A dish seasoned with spices collected on site by the Hecate of the Gale as she was exploring Gio Gehenna. The red, simmering sauce has a stimulating and extremely deep flavor that invites adventurers into the depths of the unknown.
 
-ユイが食べる人のことを考え、心を込めて作ったお弁当。程よいサイズのお弁当箱に愛情と手間暇をたっぷりとかけた極上の料理が詰まっており、食べた者の心と胃袋を優しく満たしてくれる。=Yui makes these bento boxes with care and with the person who will eat them in mind. The perfect sized bento box is filled with exquisite food, made with love and care, to gently fill the heart and stomach of anyone who eats it.
+ユイが食べる人のことを考え、心を込めて作ったお弁当。程よいサイズのお弁当箱に愛情と手間暇をたっぷりとかけた極上の料理が詰まっており、食べた者の心と胃袋を優しく満たしてくれる。=Yui makes these bento boxes with care and with the person who will eat them in mind. The perfectly sized bento box is filled with exquisite food, made with love and care, in order to gently fill the heart and stomach of anyone who eats it.
+
+ミソラが作ったラーメン。適当に言った好きな物をランファが憶えていたために、材料を用意され仕方なく作ったものだが味はイイコト級の一品。美味しそうに食べられるのは嫌いではない様子。=A bowl of ramen made by Misora. Ranpha remembered an offhand comment Misora made about her favorite food and procured the ingredients, leaving Misora with no choice but to make it. Against all odds, the dish turned out to be delicious. She doesn’t seem to mind seeing others eating it so enthusiastically.  
 
 ナーナ=Nana
 出たダイスの目が奇数だった場合、\nライバルを1ターン休みにできる=If the die has an odd number of eyes, you can take a turn off your rival

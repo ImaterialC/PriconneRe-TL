@@ -3,7 +3,7 @@
 経過ターン=Elapsed Turns
 
 シーズン最速到達ターン=Fastest season's turn
-シーズン最速到達記録=Fastest season record
+シーズン最速到達記録=Fastest Season Record
 
 グルメチェイサー号=Gourmet Chaser
 バンディシャーク号=Bandyshark
@@ -23,7 +23,7 @@ r:"^(\d+)ターン休み$"=$1 Turn(s) Break
 シーズン中、チェックポイント到達までにかかった\n最速ターン数に応じてボーナスが獲得できます！=During the season, you can earn bonuses based on the\nfastest number of turns it took you to reach a checkpoint!
 
 r:"^ダイスを(\d+)個入手した。$"=Obtained $1 dice.
-\nマイルを支払って\n「ちかみち」を開通させます。\nよろしいですか？=\nPay Miles to open the Shortcut.\nIs that all right?
+\nマイルを支払って\n「ちかみち」を開通させます。\nよろしいですか？=\nPay Miles to open the Shortcut.\nAre you sure?
 15ターン以内にチェックポイントに到達すると解放されます。=It will be unlocked if you reach the checkpoint within 15 turns.
 [FF7C4E,D62146]1[-][3C404E]ターン[-]=[FF7C4E,D62146]1[-][3C404E] Turn[-]
 r:"^\[FF7C4E,D62146\](\d+)\[-\]\[3C404E\]ターン\[-\]$"=[FF7C4E,D62146]$1[-][3C404E] Turns[-]
@@ -72,8 +72,8 @@ r:"^レベル(\d)$"=Level $1
 
 ---Event bonus---
 次にミニゲームに挑戦した際の\n獲\r得マイルが100%アップする。=Next time you challenge a Minigame, your bonus Miles will increase by 100%.
-次にマイルマスに止まった際の\n獲得マイルが100%アップする。=The next time you stop on a Mile Tile, you will gain a 100% more Miles.
-次のターン数のカウントを\nスキッ\rプする。=Skipping the count for the next turn.
+次にマイルマスに止まった際の\n獲得マイルが100%アップする。=The next time you stop on a Mile Tile, you will gain 100% more Miles.
+次のターン数のカウントを\nスキッ\rプする。=Skip the next turn count.
 
 ---GMA/Checkpoint---
 以下のアイテムを獲得しました。=Obtained the following items:
@@ -136,7 +136,7 @@ r:"^\[3B3F4D\]以下の料理を売却して\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]
 移動系=Movement
 サブ=Sub
 サブ効果=Sub-effect
-メイン効果=Main effect
+メイン効果=Main Effect
 料理詳細=Dish Details
 獲得料理=Acquired Dish
 以下の料理を獲得しました。=Obtained the following Dishes:
@@ -147,13 +147,13 @@ r:"^料理所持数 ([0-9/]+)$"=Number of Dishes Owned: $1
 食事確認=Meal Confirmation
 食事済=Eaten
 以下の料理を食べます。よろしいですか？=Eat the following Dish?
-ワカナの施し=Wakana alms
+ワカナの施し=Wakana's Charity
 敗北=Defeat
 
 移動確認=Move confirmed
 このマスに移動しますか？=Move to this tile?
 立ち去る=Leaving
-「ちかみち」を開通させずに立ち去ります。\nよろしいですか？\n\n=You will leave without opening "Shortcut".\nAre you sure?
+「ちかみち」を開通させずに立ち去ります。\nよろしいですか？\n\n=You will leave without opening the shortcut.\nAre you sure?
 
 立ち去るを選ぶとイベントが終了します。\n終了後に選択し直すことはできません。=If you choose to leave, the event will end.\nYou will not be able to choose again after the event ends.
 r:"^(\d)ターンの間ターン数のカウントをスキップする。$"=For $1 turn(s), turns do not count.
@@ -161,8 +161,8 @@ r:"^料理が所持上限を超えています。\n所持数が(\d+)個以下に
 
 料理所持数上限=Maximum Dishes Reached
 料理が所持上限に達しています。\n新たに料理を入手した場合、超過分の売却が必要です。\n\nこのままダイスを振ってもよろしいですか？=Your dish inventory is currently at its limit.\nIf you acquire new dishes, you will need to sell the excess ones.\nRoll the Dice anyway?
-購入に必要なマイルが不足しています。=Don't have enough miles to buy it.
-食べられる料理を所持していません。=Don't have any edible food.
+購入に必要なマイルが不足しています。=You don't have enough miles.
+食べられる料理を所持していません。=You don't have any food to eat.
 所持数がいっぱいです。売却する料理を選んでください。=Inventory full. Select Dish(es) to sell.
 r:"^\[3C404E\]料理所持数 \[-\]\[FF7C4E,D62146\]([0-9,]+)\[-\]\[3C404E\]/([0-9,]+)\[-\]$"=[3C404E]Dishes Held:[-][FF7C4E,D62146] $1[-][3C404E]/$2[-]
 
@@ -175,29 +175,30 @@ r:"^\[FF7C4E,D62146\]このコインの使用期限は([0-9/ :]+)までです。
 r:"^キャラバンコイン(?:（シーズン(\d)）)?ｘ(\d+)$"=Caravan Coin (Season $1)ｘ$2
 
 
-まとめて３個=Three at once
+まとめて３個=Triple Throw
 
 シーズン切り替わり=New Caravan Season
 新シーズンが始まったため、\n所持していたトレジャーをコインに変換しました。=Since the new season has begun,\nall your treasure has been converted into coins.
 ------
 所持ダイス=Dice
 r:"^ボーナスレベル(\d+)$"=Bonus level $1
-区間スキップを実行した場合、出現中の仲間効果、\nおよび発動中の料理効果、マス効果は消失します。\nまた、ライバル出現時は勝敗が無効となります。=If you perform a section skip, any active ally effects,\ndish effects, and tile effects will disappear. \nAdditionally, when a rival appears,\nthe outcome of the match will be nullified.  
-r:"^(?:\[3C404E\])?ダイスを\[FFBB00\,CE4F00\](\d+)個\[-\]使って区間スキップを実行しますか？(?:\[3C404E\])?(?:\[-\])?$"=[3C404E]Use [FFBB00,CE4F00]$1 dice[-] to perform a section skip?
-シーズン最速到達ターン数=Fastest Season Completion Turns
-区間スキップの実行にはダイスが15個必要です。=15 dice are required to execute section skip.
+区間スキップを実行した場合、出現中の仲間効果、\nおよび発動中の料理効果、マス効果は消失します。\nまた、ライバル出現時は勝敗が無効となります。=If you skip traversal, any active ally effects,\ndish effects, and tile effects will disappear. \nAdditionally, if a rival appears,\nthe outcome of the match will be nullified.  
+r:"^(?:\[3C404E\])?ダイスを\[FFBB00\,CE4F00\](\d+)個\[-\]使って区間スキップを実行しますか？(?:\[3C404E\])?(?:\[-\])?$"=[3C404E]Use [FFBB00,CE4F00]$1 dice[-] to skip traversal?
+シーズン最速到達ターン数=Fastest Turn Count in Season
+区間スキップの実行にはダイスが15個必要です。=15 dice are required to skip traversal.
 ---Tutorial Kokkoro---
 皆さま、オニギリさまと共にグルメチェイサー号で冒険に出発\nいたしましょう。ダイスを振って出た目の数だけマップを進み、\nカリンさまの待つギルド管理協会出張所を目指してくださいまし。=Everyone, let's set off on an adventure aboard the Gourmet Chaser with Onigiri-sama. Roll the dice and move forward on the map, our goal is the Guild Management Association office, where Lady Karin is waiting for us.
-ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures you collected for Caravan Coins. Also, the fewer turns it takes you to reach it, the bigger the bonus you will receive. Let's collect coins and trade them for items at the shop.
-料理からは、冒険を有利に進める効果が得られますよ。1ターンに1品\nまで召し上がることができ、同じカテゴリーの効果は重複いたしません。\n…あぁっペコリーヌさま、おかわりは次のターンまで我慢でございます。=You can eat up to one dish per turn to gain beneficial effects, however, effects from dishes in the same category will not stack. ...Ahh, Lady Pecorine, please wait until the next turn for seconds.
-道中には様々なマスがございます。「マイルマス」で集めたマイルは料理\nやトレジャーの購入にお使いいただけますよ。「トレジャーマス」や\n「料理マス」ではスロットを回して出たアイテムを獲得できるとか。=There are various tiles that you can land on. You can use the Miles obtained from a "Mile Tile" to buy Dishes and Treasures. At the "Treasure Tile" and "Dish Tile", you can spin a wheel and receive items.
-「ショップマス」ではマイルを用いたアイテムの購入が可能です。\n「イベントマス」では嬉しい効果を得られるイベントが起きるようです。\n「移動マス」に止まると、そこからさらに先へ進めるのでございますね。=You can buy items with Miles at a "Shop Tile". At an "Event Tile", a variety of things can happen that impart useful effects. If you stop on a "Move Tile", you can continue moving.
-「ミニゲームマス」に止まったら、ミニゲームに挑戦いたしましょう。\n結果に応じた報酬が獲得できるのですね。「福引券マス」は福引券を入手\nでき、「ガチャマス」ではマイルガチャが回せるようですよ、主さま。=You will be able to play a Minigame when you stop on a "Minigame Tile", and you will receive rewards based on your performance. The "Lottery Ticket Tile" allows you to obtain a Lottery Ticket, and the "Gacha Tile" allows you to spin the Mile Gacha, my Lord.
+ギルド管理協会出張所では集めたトレジャーをキャラバンコインに換金し\nてくださいます。また、到達までのターン数が少ないほどボーナスを獲得\nできるようです。コインはショップでアイテムと交換いたしましょう。=At the Guild Management Association branch office, you can exchange the Treasures we collected for Caravan Coins. Also, the fewer turns it takes us to reach it, the bigger the bonus we will receive. Let's collect coins and trade them for items at the shop.
+料理からは、冒険を有利に進める効果が得られますよ。1ターンに1品\nまで召し上がることができ、同じカテゴリーの効果は重複いたしません。\n…あぁっペコリーヌさま、おかわりは次のターンまで我慢でございます。=You can eat up to one Dish per turn to gain beneficial effects, however, effects from dishes in the same category will not stack. ...Ahh, Lady Pecorine, please wait until the next turn for seconds.
+道中には様々なマスがございます。「マイルマス」で集めたマイルは料理\nやトレジャーの購入にお使いいただけますよ。「トレジャーマス」や\n「料理マス」ではスロットを回して出たアイテムを獲得できるとか。=There are various tiles that you can land on. You can use the Miles obtained from a Mile Tile to buy Dishes and Treasures. At the Treasure Tile and Dish Tile, you can spin a wheel to receive items.
+「ショップマス」ではマイルを用いたアイテムの購入が可能です。\n「イベントマス」では嬉しい効果を得られるイベントが起きるようです。\n「移動マス」に止まると、そこからさらに先へ進めるのでございますね。=You can buy items with Miles at a Shop Tile. At an Event Tile, a variety of things can happen that impart useful effects. If you stop on a Move Tile, you will continue your movement.
+「ミニゲームマス」に止まったら、ミニゲームに挑戦いたしましょう。\n結果に応じた報酬が獲得できるのですね。「福引券マス」は福引券を入手\nでき、「ガチャマス」ではマイルガチャが回せるようですよ、主さま。=You will be able to play a Minigame when you stop on a Minigame Tile, and you will receive rewards based on your performance. The Lottery Ticket Tile allows you to obtain a Lottery Ticket, and the Gacha Tile allows you to spin the Mile Gacha, my Lord.
 
 1～14マス差で勝利=Win by one to fourteen tiles
 15マス差以上で勝利=Win by more than 15 tiles
 
 
-「ちかみちマス」でマイルを支払うと、チェックポイントまでの短縮\nルートが開かれるようです。「パーティマス」に止まった翌ターンは最大\n３品まで料理を召し上がれますよ。組み合わせが重要でございますね。=If you pay miles at the "Shortcut Tiles," a shortcut route to the checkpoint will be opened. After stopping at a "Party Tiles," you can enjoy up to three dishes on the next turn. The combination is important.
-ダイスを一度に３個振ることができる「まとめて３個」モードが\n新たに追加されました。お手持ちのダイスを用いて、効率的に冒険を\n進めることができるようでございます。ぜひご活用くださいまし。=A new mode, "Roll Three at Once," has been added, allowing you to roll three dice simultaneously. This will help you progress through your adventure more efficiently using your dice. Please make use of it.
-「まとめて３個」モードの使用中は、マス効果の発動頻度や出現する\nお仲間の制限など、ダイスを1個ずつ振って遊ぶときとは異なる点が\nあるようです。詳細は「ヘルプ」をご覧ください、主さま。=While using the "Roll Three at Once" mode, the frequency of Tiles effects and the appearance of companions may differ from when you roll one die at a time. For details, please check the "Help," my lord.
+「ちかみちマス」でマイルを支払うと、チェックポイントまでの短縮\nルートが開かれるようです。「パーティマス」に止まった翌ターンは最大\n３品まで料理を召し上がれますよ。組み合わせが重要でございますね。=If you pay miles at the Shortcut Tile, a faster route to the checkpoint will be opened. After stopping at a Party Tile, you can enjoy up to three dishes on the next turn. It is important that we take advantage of these two.
+ダイスを一度に３個振ることができる「まとめて３個」モードが\n新たに追加されました。お手持ちのダイスを用いて、効率的に冒険を\n進めることができるようでございます。ぜひご活用くださいまし。=A new mode: Triple Throw, has been added, allowing you to roll three dice simultaneously. This will help us progress through our adventure more efficiently using your dice. Please make use of it.
+「まとめて３個」モードの使用中は、マス効果の発動頻度や出現する\nお仲間の制限など、ダイスを1個ずつ振って遊ぶときとは異なる点が\nあるようです。詳細は「ヘルプ」をご覧ください、主さま。=While using the Triple Throw mode, the frequency of Tile effects and the appearance of companions may differ from when you roll one die at a time. For details, please check the Help section, my lord.
+シーズン中、一度でも規定ターン以内にチェックポイントへ到達すると\n「区間スキップ」が解放されますよ。スキップを実行すると、\nそのシーズン中の最速ターン数に応じて報酬がもらえるようですね。=Reaching a checkpoint within a specified turn during the season will unlock Traversal Skip. If you perform Traversal Skip, you will be rewarded based on your turn record in the current season.

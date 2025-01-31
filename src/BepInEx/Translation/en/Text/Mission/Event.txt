@@ -34,6 +34,19 @@ sr:"^(\[[0-9A-F]{6}\])?(.+)を(\d+)体倒そう(\[-\])?$"="$1Defeat $3 $2.$4"
 sr:"^(\[[0-9A-F]{6}\])?(.+)のシャドウを倒そう(\[-\])?$"=$1Defeat the shadow of the $2.$3
 
 sr:"^(.+)を(\d)体倒そう　（(.+)限定）$"="Clear $1 ($3 Limited) $2 time."
+
+
+
+r:"^(\[[0-9A-F]{6}\])?イベント前編クエスト([ A-Za-z\-0-9]+)をクリアしよう(\[-\])?$"=Clear Event Part 1 Quest$1
+r:"^(\[[0-9A-F]{6}\])?イベント後編クエスト([ A-Za-z\-0-9]+)をクリアしよう(\[-\])?$"=Clear Event Part 2 Quest$1
+
+イベントストーリー オープニングを閲覧しよう=View the Event Story Opening
+イベントストーリー 第1話（誓約女君）を閲覧しよう=View the Event Story Episode 1 (Oath Girl)
+r:"^イベントストーリー 第(\d)話を閲覧しよう$"=Event Story: viewing Episode $1
+r:"^第(\d)話を閲覧で解放$"=Unlock by viewing Episode $1
+
+イベントクエストを1回クリアしよう=Let's complete one event quest
+
 ---Tittle---
 
 sr:"^(\[[0-9A-F]{6}\])?(.+)を()体倒そう（([\w ]+)限定）(\[-\])?$"="$1Defeat $2 once ($3)."

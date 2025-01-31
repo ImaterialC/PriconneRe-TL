@@ -13,7 +13,7 @@ r:"^対象の敵単体に(\d+)の魔法ダメージ対象の敵単体に(\d+)の
 
 ##S1+##
 ドリーム☆シュート+=Dream☆Shoot+
-r:"^対象の敵単体に(\d+)の魔法ダメージ\n対象の敵単体に(\d+)の魔法ダメージ\n対象が物理攻撃をする敵だった場合、物理攻撃力を([0-9\n]+)(?:\n)?ダ(?:\n)?ウ(?:\n)?ン\n対象が物理攻撃をする敵だった場合、魔法防御力を(\d+)(?:\n)?ダ(?:\n)?ウ(?:\n)?ン\n対象が物理攻撃をする敵だった場合、被クリダメを5％(?:\n)?(?:\n)?ア(?:\n)?ッ(?:\n)?プ\n対象の敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n\nIf the target is a physical attacker:\n►Lowers P.ATK by $3.\n►Lowers M.DEF by $4.\n►Boosts P.CRIT DMG taken by 5％.\n►Deals $5 M.DMG to a single enemy.
+r:"^対象の敵単体に(\d+)の魔法ダメージ対象の敵単体に(\d+)の魔法ダメージ対象が物理攻撃をする敵だった場合、物理攻撃力を([0-9]+)ダウン対象が物理攻撃をする敵だった場合、魔法防御力を(\d+)ダウン対象が物理攻撃をする敵だった場合、被クリダメを5％アップ対象の敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n\nIf the target is a physical attacker:\n►Lowers P.ATK by $3.\n►Lowers M.DEF by $4.\n►Boosts P.CRIT DMG taken by 5％.\n►Deals $5 M.DMG to a single enemy.
 
 
 

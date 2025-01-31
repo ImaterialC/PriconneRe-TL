@@ -3,20 +3,20 @@
 
 ##UB##
 ライジングフェニックス=Rising Phoenix
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体に(\d+)の魔法ダメージ\n自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Boosts own M.ATK by $3.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Boosts own M.ATK by $3.
 
 目の前の敵１キャラに魔法特大ダメージを２回与え、自分の魔法攻撃力を特大アップする。このスキルのダメージは【火の鳥】の数に応じて増加する。=Deals 2 instances of massive M.DMG to the frontmost enemy and massively increases own M.ATK. The damage of this skill increases proportionally with the amount of [Phoenix] stacks. [+9% per stack]
 
 ##S1##
 コーリングフェザー=Calling Feather
 コーリングフェザー+=Calling Feather+
-r:"^敵単体に(\d+)の魔法ダメージ\n敵単体の魔法防御力を(\d+)ダウン\n自分のＴＰを250回復\n自分の火の鳥が10以上の時、敵単体に(\d+)(?:\n)?の(?:\n)?魔(?:\n)?法(?:\n)?ダ(?:\n)?メ(?:\n)?ー(?:\n)?ジ\n自分の火の鳥が10以上の時、敵単体の被クリダメを5％(?:\n)?アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Recovers own TP by 250.\n\nIf [Phoenix] is 10 or higher:\n►Deals $3 M.DMG to a single enemy.\n►Boosts an enemy's M.CRIT DMG taken by 5%.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分のＴＰを250回復自分の火の鳥が10以上の時、敵単体に(\d+)の魔法ダメージ自分の火の鳥が10以上の時、敵単体の被クリダメを5％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Recovers own TP by 250.\n\nIf [Phoenix] is 10 or higher:\n►Deals $3 M.DMG to a single enemy.\n►Boosts an enemy's M.CRIT DMG taken by 5%.
 
 目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。さらに自分のＴＰを中回復する。【火の鳥】の数が10以上の場合、目の前の敵１キャラに追加の魔法大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。このスキルのダメージは【火の鳥】の数に応じて増加する。=Deals large M.DMG to an enemy in front, and greatly lowers its M.DEF, and further restores her own TP. If the number of [Phoenix] is 10 or more, deals additional large M.DMG to the same enemy and slightly boosts its P.CRIT DMG taken. The damage of this skill increases according to the number of [Phoenix].
 
 ##S2##
 メディテーションダンス=Meditation Dance
-r:"^自分の魔法攻撃力を(\d+)アップ\n自分以外の味方全体の魔法攻撃力を(\d+)アップ\n自分の魔法クリティカルを100アップ\n自分以外の味方全体の魔法クリティカルを60アップ\n自分のＴＰを250回復\n自分以外の味方全体のＴＰを150回復\n初使用時、味方がＵＢを使用するたびに自分に火の鳥が１(?:\n)?つ付与される状態にする$"=►Boosts own M.ATK by $1.\n►Boosts allies' M.ATK (excluding self) by $2.\n►Boosts own M.crit rate by 100.\n►Boosts allies' M.crit rate (excluding self) by 60.\n►Recovers own TP by 250.\n►Recovers TP for all allies (excluding self) by 150.\n►Upon first use, each time an ally uses their UB, add 1 [Phoenix] to self.
+r:"^自分の魔法攻撃力を(\d+)アップ自分以外の味方全体の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを100アップ自分以外の味方全体の魔法クリティカルを60アップ自分のＴＰを250回復自分以外の味方全体のＴＰを150回復初使用時、味方がＵＢを使用するたびに自分に火の鳥が１つ付与される状態にする$"=►Boosts own M.ATK by $1.\n►Boosts allies' M.ATK (excluding self) by $2.\n►Boosts own M.crit rate by 100.\n►Boosts allies' M.crit rate (excluding self) by 60.\n►Recovers own TP by 250.\n►Recovers TP for all allies (excluding self) by 150.\n►Upon first use, each time an ally uses their UB, add 1 [Phoenix] to self.
 
 
 バトル開始後、初弾のこのスキルは味方がＵＢを使用するたびに自分に【火の鳥】が１つ追加される状態にする。【火の鳥】は最大20まで追加される。味方全体の魔法攻撃力を特大アップ、魔法クリティカルを中アップさせ、ＴＰを中回復させる。この効果は自分に対してのみ効果量がアップする。=After the first use of this skill, UBs performed by allies will add one [Phoenix] stack to herself. [Phoenix] stacks caps at 20. Massively increases M.ATK, moderately increases M.CRIT and moderately recovers TP for all allies. The effects of this skill are increased for herself only.

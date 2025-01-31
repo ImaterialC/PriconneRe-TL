@@ -12,19 +12,21 @@
 回復なしで開始=Start without recovery
 sr:"^(メイン|イベント)クエスト(.+)まで進めるには、スタミナ回復が必要です。$"=To advance to the $1 Quest $2, you need to recover stamina.
 
-sr:"^オート進行で(メイン|イベント)クエスト(.+)まで進めた場合、最大で以下のスタミナを消費します。$"=If you proceed to the $1 Quest $2 on an Auto Advance,\nyou will consume the following stamina at the maximum.
+sr:"^オート進行で(メイン|イベント)(前編|後編)?クエスト(.+)まで進めた場合、最大で以下のスタミナを消費します。$"=If you proceed to the $2$1 Quest $2 on an Auto Advance,\nyou will consume the following stamina at the maximum.
 プレイヤーLvアップ時や特別なコンテンツが解放された際、オート進行が停止する場合があります。=At the time of player LV up or special content is released, the Auto Advance may stop.
 オート進行中にユニオンバーストを使用するか設定します。=Set whether to use the union burst while the Auto Advance.
 オート進行中のユニオンバースト使用設定=Union Burst Usage Settings in advance
 イベントストーリー解放時にオート進行を停止するか設定します。=Set whether to stop the Auto Advance when the event story is released.
 イベントストーリー解放時のオート進行停止設定=Auto Advance Suspension Setting When the Event Story is Released
 オート進行設定中はサポートキャラを編成できません。=Can't select support character while doing Auto Advance mode
-オート進行を停止しますか？\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Do you want to stop the Auto Advance?\nTotal Stamina Consumption during Auto Adv.\n※Stamina consumption at the time of retirement and lose is not included.
-敗北のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Due to defeat, Auto-Progress has been suspended. The following Stamina consumption has been carried out according to this Auto-progress. ※Stamina consumption at the time of retirement and lose is not included.
+オート進行を停止しますか？\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Do you want to stop the Auto Advance?\nThe following Stamina consumption has already been processed by this Auto Advance.\n※Does not include Stamina consumed upon Retire or defeat.
+敗北のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Due to defeat, Auto-Advance has been suspended. The following Stamina consumption has been carried out according to this Auto-Advance. ※Stamina consumption at the time of retirement and lose is not included.
 スタミナ不足のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to insufficient stamina.\nThe following stamina was consumed during this auto progression.\n※Note: Stamina consumed upon retreat or defeat is not included.
 
 ☆3クリア未達成のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to not achieving a 3☆ clear.\nThe following stamina was consumed during this auto progression.\n※Note: Stamina consumed upon retreat or defeat is not included.he amount of stamina consumed during defeat.
 
+イベントストーリー解放時に自動進行を停止するかの設定です。=Set to stop Auto-Advance when the event story is unlocked.
+イベントストーリー解放時オート進行停止=Auto-Advance stops when event story unlocks
 
 
 

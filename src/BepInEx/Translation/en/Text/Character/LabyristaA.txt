@@ -1,0 +1,24 @@
+##Profile##
+【魔法】後衛で、始原の冠装を使いこなす『迷宮女王』。水属性の味方のＴＰ上昇を増加する領域を作り、連射攻撃で敵の防御を撃ち抜くことで七冠の力を敵に知らしめる。=[Magic] A "Labyrinth Queen" in the rear lines who wields primordial crown attire. Creates a field that enhances TP Boost for water-element allies, while piercing through enemy defenses with rapid-fire attacks to demonstrate the Seven Crowns' power.  
+
+
+##UB##
+バレット・ワールド=Bullet World  
+目の前の敵１キャラに魔法大ダメージを３回与える。１回ごとにダメージがアップする。さらに、自分を中心に、魔法攻撃力を大アップさせるフィールドを展開する。フィールド上にいるキャラが水属性だった場合、追加で魔法攻撃力を大アップさせ、ＴＰ上昇を小アップさせる。=Deals M.DMG 3 times to an enemy in front, with each hit increasing in power. Deploys a field centered on self that greatly boosts M.ATK. If water-element characters are in field, additionally greatly boosts their M.ATK and slightly increases TP Boost.  
+
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ魔法攻撃力を(\d+)アップさせるフィールドを展開する水属性の味方の魔法攻撃力を(\d+)アップ、ＴＰ上昇を15アップさせるフィールドを展開する$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Deals $3 M.DMG to a single enemy.\n►Creates a field that boosts M.ATK by $4.\n►Creates a field that boosts Water allies' M.ATK by $5 and TP Boost by 15.
+
+##S1##
+デコーデッドスナイプ=Decoded Snipe  
+目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。これを３回行い、１回ごとにダメージと魔法防御力ダウンの効果量がアップする。=Deals medium M.DMG to an enemy in front and slightly lowers their M.DEF. Repeats 3 times, with each iteration increasing both damage and M.DEF reduction effects.  
+
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Deals $3 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $4.\n►Deals $5 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $6.
+
+##S2##
+リロードスクリプト=Reload Script  
+自分の魔法攻撃力を大アップ、魔法攻撃クリティカル時のダメージを小アップし、ＴＰを小回復する。【フィールド展開中】このスキルの効果量がアップする。=Greatly boosts own M.ATK, slightly boosts M.CRIT DMG, and slightly recovers TP. [Field Active] Enhances all effect magnitudes of this skill.  
+
+r:"^フィールド展開中、自分の魔法攻撃力を(\d+)アップフィールド展開中、自分の魔法攻撃クリティカル時のダメージを18％アップフィールド展開中、自分のＴＰを250回復自分の魔法攻撃力を(\d+)アップ自分の魔法攻撃クリティカル時のダメージを9％アップ自分のＴＰを125回復$"=►While [Field is Active]:\n►Boosts own M.ATK by $1.\n►Boosts own M.CRIT DMG by 18％.\n►Recovers own TP by 250.\n\n►If not:\n►Boosts own M.ATK by $2.\n►Boosts own M.CRIT DMG by 9％.\n►Recovers own TP by 125.
+
+アームズクリエイション=Arms Creation
+アームズクリエイション+=Arms Creation+

@@ -8,18 +8,18 @@
 リーサル・メドゥシアナ=Riezal Medusiana
 目の前の敵１キャラを中心とした範囲内の敵すべてに物理特大ダメージを与え、物理防御力を中ダウンさせ、猛毒状態と石化状態にする。さらに、自分に【魔眼】を１つ付与する。【魔眼】は最大３つまで追加される。=Deals massive P.DMG, moderately reduces P.DEF, and inflicts Fierce Poison and Petrify in an AOE centered around the frontmost enemy. Also adds 1 [Evil Eye] stack to self. [Evil Eye] stacks caps at 3.
 
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理防御力を(\d+)ダウン\n(\d+)ダメージを与える猛毒状態にする\n範囲内の敵を一定時間行動不能にする\n自分に魔眼を１つ付与する$"=►Deals $1 P.DMG to enemies within range.\n►Lowers P.DEF of enemies within range by $2.\n►Poisons enemies within range, dealing $3 P.DMG.\n►Inflicts Petrify to enemies in range.\n►Grants １ [Evil Eye] to self.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン(\d+)ダメージを与える猛毒状態にする範囲内の敵を一定時間行動不能にする自分に魔眼を１つ付与する$"=►Deals $1 P.DMG to enemies within range.\n►Lowers P.DEF of enemies within range by $2.\n►Poisons enemies within range, dealing $3 P.DMG.\n►Inflicts Petrify to enemies in range.\n►Grants １ [Evil Eye] to self.
 
 
 ##S1##
 イリュージョンウィップ=Illusion Whip
 目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウン、物理防御力を小ダウンさせる。このスキルの効果量は【魔眼】の数に応じて上昇する。=Deals large P.DMG, greatly reduces P.ATK and M.ATK, and slightly reduces P.DEF in an AOE centered around the frontmost enemy. The effects of this skill increase based on the number of [Evil Eye] stacks. 
 
-r:"^範囲内の敵に(\d+)の物理ダメージ\n範囲内の敵の物理攻撃力を(\d+)ダウン\n範囲内の敵の魔法攻撃力を(\d+)ダウン\n範囲内の敵の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to enemies within range.\n►Lowers enemies' P.ATK within range by $2.\n►Lowers enemies' M.ATK within range by $3.\n►Lowers enemies' P.DEF within range by $4.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to enemies within range.\n►Lowers enemies' P.ATK within range by $2.\n►Lowers enemies' M.ATK within range by $3.\n►Lowers enemies' P.DEF within range by $4.
 
 ##S2##
 マイティー・アイ=Mighty Eye
-r:"^味方全体の物理攻撃力を(\d+)アップ\n味方全体の物理クリティカルを120アップ\n味方全体の物理攻撃クリティカル時のダメージを12％(?:\n)?アップ\n自分のＴＰを120回復$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' P.CRIT RATE by 120.\n►Boosts allies' P.CRIT DMG by 12％.\n►Recovers own TP by 120.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを120アップ味方全体の物理攻撃クリティカル時のダメージを12％アップ自分のＴＰを120回復$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' P.CRIT RATE by 120.\n►Boosts allies' P.CRIT DMG by 12％.\n►Recovers own TP by 120.
 
 味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。さらに、自分のＴＰを小回復する。このスキルの効果量は【魔眼】の数に応じて上昇する。=Massively boosts P.ATK, greatly boosts P.CRIT RATE, and slightly boosts P.CRIT DMG for all allies. Additionally slightly recovers TP for self. The effects of this skill increases based on the number of [Evil Eye] stacks. 
 

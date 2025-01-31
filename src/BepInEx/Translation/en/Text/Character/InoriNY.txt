@@ -16,7 +16,7 @@ r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲�
 ドラゴンズノック+=Dragon's Knock+
 前方の敵すべてに物理大ダメージを与え、大きく吹き飛ばし、自分の物理攻撃力を大アップする。行動不能状態の敵に対してはダメージが上昇する。=Deals massive P.DMG to all enemies in front, greatly knocks them back, and boosts the user’s P.ATK by massive amount. Damage is further increased against enemies that are incapacitated.
 
-r:"^範囲内の行動不能でない敵に(\d+)の物理ダメージ\n範囲内の行動不能の敵に(\d+)の物理ダメージ\n自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within range who are not incapacitated.\n►Deals $2 P.DMG to incapacitated enemies within range.\n►Boosts own P.ATK by $3.
+r:"^範囲内の行動不能でない敵に(\d+)の物理ダメージ範囲内の行動不能の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies within range who are not incapacitated.\n►Deals $2 P.DMG to incapacitated enemies within range.\n►Boosts own P.ATK by $3.
 
 辰年神之大槌=Year of the Dragon God's Great Hammer
 

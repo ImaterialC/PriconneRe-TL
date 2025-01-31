@@ -12,8 +12,8 @@ sr:"^(\[[0-9A-F]{6}\])?(.+)と(.+)を倒そう(\[-\])?$"=$1Defeat the $2 and $3.
 
 【美食殿】のギルドハウスには多くの人々が押し寄せていた。交わしたお願いや約束を自分たちが果たそうと決意するシェフィたち。しかし想像を超える過密スケジュールに驚愕するのであった。=Many people crowded into the guildhouse of the Gourmet Guild. Sheffy and her friends were determined to fulfill the requests and promises they had made. However, they were astonished by the overcrowded schedule beyond their imagination.
 
-過去と今を伝える覚悟=Prepared to Communicate Past and Present
-心刺す託宣=Piercing Oracle
+過去と今を伝える覚悟=The Resolve to Convey The Past and Present
+心刺す託宣=The Heart Piercing Oracle
 歪み、歪んで=The Distortion Distorts
 絆を手放さないように=Trying to Keep Hold of Bonds
 当たり前のはずの景色=The Scenery that Should be Normal
@@ -25,13 +25,13 @@ r:"^世界と世界の狭間([0-9\-\(\)\w （）]*)$"=Between worlds $1
 ペコリーヌ、キャル、コッコロ、シェフィ=Pecorine, Kyaru, Kokkoro, Sheffy
 
 {playername}に異変が起き、ラビリスタが姿を現す。彼女に導かれ、キャルはいまだ心の中にあり続けるかつての主、覇瞳皇帝と対峙する。想いを尽くしたキャルに、覇瞳皇帝は向かうべき場所を示す。={playername} has an incident, and Labyrista appears. She is guided by her, and Kyaru confronts the former Lord Hitomi, who is still in her heart. The Emperor Hitomi indicates the place to go to Kyaru who has made his thoughts.
-あなたのそばにいるから=I'll be right by your side.
+あなたのそばにいるから=Because You're By My Side
 悩みを抱える{playername}を気晴らしに誘うペコリーヌ。記憶にある人々と言葉を交わしながら悩みを晴らしてゆく{playername}だったが、そこに聞き覚えのある声が響き、謎の影が姿を現す。=Pecorine invites {playername} with trouble. {playername} cleared her worries while exchanging words with the people in her memory, but a memorable voice resounded there, and a mysterious shadow appears.
-本心と、偽りと=Sincerity and Deceit
+本心と、偽りと=Real Feelings and Lies
 覇瞳皇帝の言葉を信じソルの塔を登るキャルたち、そして自分自身の力と相対する{playername}。ペコリーヌとキャル、お互いに手の届かない二つの世界で、それぞれが窮地に立たされようとしていた。=Kyaru climbing the tower of Sol, believing in the words of Emperor Hitomi, and {playername} opposite their own power. Pecorine and Kyaru, each of them, were trying to be in trouble in two out of reach of each other.
-絆はここに=Bond is here
+絆はここに=The Bonds are Here
 絶体絶命のキャルたちを救ったのは、これまでつないできた仲間との絆だった。その力は手の届かないはずの二つの世界をもつなげ、{playername}は自分自身の力ですべての原因に終止符を打つ。=It was a bond with a friend who had been able to save the desperate characters. The power connects the two worlds that should not be reached, and {playername} ends all causes with its own power.
-幸せを部屋に詰め込んで=Pack happiness in the room
+幸せを部屋に詰め込んで=A Room filled with Happiness
 戦いは終わり、大切な記憶たちと一時の別れを告げる{playername}。そしてランドソルで迎える朝、仲間たちの『おはよう』の声に囲まれながら、{playername}は心地良く目を覚ますのであった。=The battle is over, and {playername} tells the important memories of the important memories. And on the morning of Landosol, {playername} woke up comfortably, surrounded by his friends' good morning.
 
 ペコリーヌたちはランドソルへの帰還。\nキャルたちは大切な人の目覚め。\nそれぞれが、お互いに手の届かない世界で自分に\nできることを探し、答えを求め続けていた。=Pecorine and her friends return to Landosol. Kyaru and the others awakened their loved ones. Each was searching for answers, looking for what they could do in a world that was out of reach for both of them.

@@ -15,7 +15,7 @@ r:"^味方単体のＴＰを25回復範囲内の味方の魔法攻撃力を(\d+)
 ##S1+##
 スピニングフォーチュン+=Spinning Fortune+
 
-r:"^味方単体のＴＰを25回復\n味方単体の魔法攻撃力を(\d+)アップ\n味方単体の魔法攻撃クリティカル時のダメージを5％(?:\n)?アッ(?:\n)?プ\n範囲内の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.05s\n►Recovers an ally's TP by 25 (+15× \nAlly+Enemy Count).\n►Boosts an ally's M.ATK by $1 for 12s.\n►Boosts an ally's M.CRIT DMG by 5％ for 12s.\n►Boosts allies' M.ATK in 250 range by $2 (+0.8×$1×Ally+Enemy Count) for 12s.
+r:"^味方単体のＴＰを25回復味方単体の魔法攻撃力を(\d+)アップ味方単体の魔法攻撃クリティカル時のダメージを5％アップ範囲内の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.05s\n►Recovers an ally's TP by 25 (+15× \nAlly+Enemy Count).\n►Boosts an ally's M.ATK by $1 for 12s.\n►Boosts an ally's M.CRIT DMG by 5％ for 12s.\n►Boosts allies' M.ATK in 250 range by $2 (+0.8×$1×Ally+Enemy Count) for 12s.
 
 最も魔法攻撃力が高い味方１キャラのＴＰを小回復させ、魔法攻撃力を中アップ、魔法攻撃クリティカル時のダメージを小アップさせる。さらに最も魔法攻撃力が高い味方１キャラを中心とした範囲内の味方すべての魔法攻撃力を中アップさせる。味方と敵の数に応じてこのスキルの効果量が最大10キャラ分までアップする。=Slightly recovers TP, moderately boosts M.ATK and M.CRIT DMG for an ally with the highest M.ATK, and moderately boosts M.ATK a for allies in an AOE around the target. The effects of the skill increases up based on the amount of allies and enemies on the field, up to 10.
 
