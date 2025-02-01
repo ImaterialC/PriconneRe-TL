@@ -233,7 +233,7 @@ sr:"^「([べ-ヺー＆＝]+)(（.+）)?」\n\nにピックアップ対象を変
 日付が変わるまで表示しない=Don't show until the date changes
 
 無料でガチャを10回引きます。\nよろしいですか？=Draw 10 times for free.\nIs this OK?
-残り回数=Remaining number
+残り回数=Left: 
 ---Special Tickets---
 スペシャル交換チケットについて=About Special Exchange Tickets
 

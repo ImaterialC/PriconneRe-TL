@@ -136,8 +136,8 @@ r:"^挑戦(\d+)回目$"=Party $1
 交換=Roll
 r:"^(\d+)枚消費$"=Exchange $1
 全ラインナップの確認=Full Lineup
-リセット対象報酬=Reset Rewards
-通常報酬=Normal Rewards
+リセット対象報酬=Main Rewards
+通常報酬=Common Rewards
 設定可能!=Configurable!
 まとめて交換=All at Once
 すべて交換=Exchange
@@ -155,6 +155,10 @@ r:"^(\d+)回目の報酬ラインナップをすべて獲得しました。$"=Yo
 
 討伐証交換で、リセット対象アイテムを入手すると、即時ラインナップのリセットが行えます。\n\nリセット対象アイテムを入手した後も、リセットせずに引き続き同じラインナップ内から交換することも可能です。\n\n6回目以降のラインナップリセットは、討伐証交換報酬のラインナップを交換しきった場合に限り、リセットを行えます。=Once you have obtained the lineup reset rewards from the Victory Medal Gacha, you can reset the lineup immediately.\n\nYou also have the option to continue using the same lineup without resetting.\n\nFrom lineup 6 onward, you can reset only after obtaining the entire Victory Medal lineup.
 討伐証交換で、リセット対象アイテムを入手すると、即時ラインナップのリセットが行えます。\n\nリセット対象アイテムを入手した後も、リセットせずに引き続き同じラインナップ内から交換することも可能です。\n\n5回目以降のラインナップリセットは、討伐証交換報酬のラインナップを交換しきった場合に限り、リセットを行えます。=Once you have obtained the lineup reset rewards from the Victory Medal Gacha, you can reset the lineup immediately.\n\nYou also have the option to continue using the same lineup without resetting.\n\nFrom lineup 5 onward, you can reset only after obtaining the entire Victory Medal lineup.
+
+イベント報酬券の交換で、リセット対象報酬を入手すると、即時ラインナップのリセットが行えます。\n\nリセット対象報酬を入手した後も、リセットせずに引き続き同じラインナップ内から交換することも可能です。\n\n6回目以降は報酬のラインナップを交換しきった場合に限り、リセットを行えます。=Exchanging Event Reward Tickets for the Main Reward(s) allows you to immediately reset the lineup.\n\nEven after claiming the Main Reward(s), you may continue exchanging from the same lineup without resetting.\n\nStarting from the 6th exchange, you can only reset after exhausting all rewards in the lineup.
+
+r:"^(\d+)回目の報酬交換ラインナップ$"=Reward Exchange Lineup: Lap $1
 
 まとめて交換確認=Exchange at Once Confirmation 
 交換後のBOX状況=BOX Status

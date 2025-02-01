@@ -19,4 +19,11 @@
 まとめて交換時の確認ダイアログ表示=Display dialog after draw
 
 50回以上交換の場合スキップ設定をOFFにしていても演出は再生されません。=The cutscene will not play after 50 tries even if Skip is set to OFF.
+
+イベント報酬券を集めて、豪華報酬をGET!=Collect Event Reward Tickets and Get Luxurious Rewards!  
+報酬交換の演出スキップの設定です。=This setting skips reward exchange animations cutscene.  
+すべて\nスキップする=Skip All
+リセットアイテム\n以外スキップする=Skip except for\nMain Reward(s)
+報酬交換の回数の設定です。「まとめて交換」選択時は、所持している報酬券すべてを消費して交換を行います。=Sets the number of reward exchanges. "All at Once" will consume all tickets in your possession.  
+交換設定を「100回」「まとめて交換」にした場合、演出設定にかかわらず一部の演出が再生されなくなります。=When set to "100x" or "All at Once", some cutscene will be disabled regardless of effect settings.  
 ---Item line up list---

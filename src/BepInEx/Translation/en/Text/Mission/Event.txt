@@ -37,15 +37,14 @@ sr:"^(.+)を(\d)体倒そう　（(.+)限定）$"="Clear $1 ($3 Limited) $2 time
 
 
 
-r:"^(\[[0-9A-F]{6}\])?イベント前編クエスト([ A-Za-z\-0-9]+)をクリアしよう(\[-\])?$"=Clear Event Part 1 Quest$1
-r:"^(\[[0-9A-F]{6}\])?イベント後編クエスト([ A-Za-z\-0-9]+)をクリアしよう(\[-\])?$"=Clear Event Part 2 Quest$1
+r:"^(\[[0-9A-F]{6}\])?イベント前編クエスト([ A-Za-z\-0-9]+)をクリアしよう(\[-\])?$"=$1Clear Event Part 1 Quest$2$3
+r:"^(\[[0-9A-F]{6}\])?イベント後編クエスト([ A-Za-z\-0-9]+)をクリアしよう(\[-\])?$"=$1Clear Event Part 2 Quest$2$3
 
 イベントストーリー オープニングを閲覧しよう=View the Event Story Opening
-イベントストーリー 第1話（誓約女君）を閲覧しよう=View the Event Story Episode 1 (Oath Girl)
 r:"^イベントストーリー 第(\d)話を閲覧しよう$"=Event Story: viewing Episode $1
 r:"^第(\d)話を閲覧で解放$"=Unlock by viewing Episode $1
 
-イベントクエストを1回クリアしよう=Let's complete one event quest
+イベントクエストを1回クリアしよう=Clear 1 time Event Quest
 
 ---Tittle---
 
