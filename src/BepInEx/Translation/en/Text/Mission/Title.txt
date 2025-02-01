@@ -1,6 +1,12 @@
 sr:"^(\[[0-9A-F]{6}\])?([べ-ヺー＆＝]+)(（.+）)?を★([1-6])にしよう(\[-\])?$"="$1Ascend $2$3 to $4★[-]"
 sr:"^(\[[0-9A-F]{6}\])?(.+)の合計絆ランクを([0-9]+)にしよう(\[-\])?$"="$1Reach a total bond level of $3 $2[-]"
+
+聖テレサ女学院（なかよし部）の合計絆ランクを10にしよう=Reach a total bond level of 10 Friendship Club
+エリザベスパークの合計絆ランクを10にしよう=Reach a total bond level of 10 Elizabeth Park
 sr:"^(\[[0-9A-F]{6}\])?([べ-ヺー＆＝]+) ?(（.+）)?を仲間にしよう(\[-\])?$"="$1Recruit $2$3$4"
 r:"^(\[[0-9A-F]{6}\])?メインストーリー第([0-9]+)章第([0-9]+)話を読もう(\[-\])?$"="$1Read main story episode $2 chapter $3[-]"
 
 r:"^(\[[0-9A-F]{6}\])?([0-9]+)人とフレンドになろう(\[-\])?$"="$1Be a friend with $2 people [-]"
+
+回勝利しよう=Win the round
+r:"^(\[[0-9A-F]{6}\])?プリンセスナイトRANKを(\d+)まで上げよう(\[-\])?$"=$1Raise the Princess Knight RANK to $2$3
