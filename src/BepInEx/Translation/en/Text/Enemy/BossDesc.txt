@@ -541,8 +541,8 @@
 砂瀑一帯を根城にするゴブリン族の首魁。居城までたどり着いた手練れの冒険者を子分を引き連れ、一斉攻撃で迎え撃つ。▼ＭＯＤＥ１突破条件ダメージを与え、ゴブリンロード＆ゴブミニオンのＨＰを8880万以下にすること。=The leader of the goblin tribe that has its stronghold in the Sandfall region. When skilled adventurers reach its lair, it rallies its minions and launches a coordinated attack.▼ MODE 1 Clear Condition:Deal damage to Goblin Lord & Goblin Minions, reducing their HP to 88,800,000 or below.\n
 バトル開始時、ダメージ上限スキルを使用して、一度の行動で与えるダメージの値が一定を超えた場合、与えるダメージの値に応じてダメージ量を減少させる。=At the start of the battle, if the damage dealt in a single action exceeds a certain threshold using a damage cap skill, the damage is reduced based on the value that exceeded the threshold.\n
 
-ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、大きく吹き飛ばす。このスキルの状態異常はダメージを無効化しても付与される。=Its Union Burst deals P.DMG proportional to the character's maximum HP to all enemies and launches them backward. The inflicted status ailments remain even if damage is nullified.\n
-敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与える。=It deals P.DMG proportional to the character's maximum HP to all enemies.\n
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、大きく吹き飛ばす。このスキルの状態異常はダメージを無効化しても付与される。=Its Union Burst deals percentage P.DMG to the character's maximum HP to all enemies and launches them backward. The inflicted status ailments remain even if damage is nullified.\n
+敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与える。=It deals percentage P.DMG to the character's maximum HP to all enemies.\n
 装甲車に乗っているゴブミニオンのターゲットは、ブレイクすると消滅し、ゴブリンロード＆ゴブミニオンの物理防御力と魔法防御力が小ダウンする。=When the target Goblin Minion riding in an armored vehicle is broken, it disappears, and the P.DEF and M.DEF of the Goblin Lord & Goblin Minions are slightly reduced.\n
 装甲車のコアのターゲットは、ブレイクすると、ゴブリンロード＆ゴブミニオンの物理防御力と魔法防御力が小ダウンする。=When the target of the armored vehicle's core is broken, the P.DEF and M.DEF of the Goblin Lord & Goblin Minions are slightly reduced.\n
 ゴブリンロード＆ゴブミニオンのターゲットが全てブレイクした時、物理防御力と魔法防御力が特大ダウンし、攻撃行動を変更する。=When all targets of the Goblin Lord & Goblin Minions are broken, their P.DEF and M.DEF are greatly reduced, and their attack behavior changes.\n
@@ -550,19 +550,19 @@
 バトルがタイムアップすると、敵全体を戦闘不能にする。=When the battle reaches its time limit, it renders all enemies unable to battle.\n
 ロードの左腕にしてゴブリンの大戦士。巨大な戦斧を豪快に振るい、眼前の敵を打ち砕く。=The goblin's formidable warrior, wielding a colossal battle axe, swings it with grandeur to shatter foes before it.\n
 ユニオンバーストは、前方１キャラに物理特大ダメージを与え、自身の物理攻撃力と物理防御力を小アップさせる。=Its Union Burst deals massive P.DMG to one front-row character and slightly increases its P.ATK and P.DEF.\n
-前方１キャラにキャラの最大ＨＰに応じた物理割合ダメージを与える。=It inflicts P.DMG proportional to the target's max HP to one front-row character.\n
+前方１キャラにキャラの最大ＨＰに応じた物理割合ダメージを与える。=It inflicts percentage P.DMG to the target's max HP to one front-row character.\n
 
 ロードの右腕にしてゴブリンの大魔導士。禁忌の魔術を撃ち放ち、抗う全ての敵を滅却する。=The goblin's formidable sorcerer, the right-hand of the Lord, unleashes forbidden magic to obliterate all who oppose.\n
 
 ダメージを受けるたびに【小鬼の紋章】を１追加する。【小鬼の紋章】が10の時、【小鬼の紋章】を10消費し、魔法の壷を爆破しゴブリングレートとゴブリンメイスターに魔法特大ダメージを与え、物理防御力と魔法防御力を特大ダウンさせる。=Each time it takes damage, it gains 1 "Imp Emblem." When it accumulates 10 "Imp Emblems," it consumes them to detonate a magic jar, dealing massive M.DMG to the Goblin Great and Goblin Meister, while greatly reducing their P.DEF and M.DEF.\n
 ユニオンバーストは、敵全体に魔法大ダメージを与え、全ての召喚体を破壊する。=Its Union Burst inflicts massive M.DMG to all enemies, destroying all summoned entities.\n
-前方１キャラにキャラの最大ＨＰに応じた魔法割合ダメージを与える。=It deals M.DMG proportional to the target's max HP to one front-row character.\n
+前方１キャラにキャラの最大ＨＰに応じた魔法割合ダメージを与える。=It deals percentage M.DMG to the target's max HP to one front-row character.\n
 残りＨＰが2400万を下回ると魔法攻撃力と行動速度が特大アップし、攻撃行動を変更する。=When its remaining HP drops below 24 million, its M.ATK and action speed greatly increase, and it changes its attack pattern.\n
 前から２番目のキャラを中心とした範囲内の敵に魔法中ダメージを与えて、麻痺状態と猛毒状態にする。=It Deals medium M.DMG to enemies within a range centered around the second character from the front, inflicting paralysis and severe poison status.\n
 装甲車を木端に破壊され怒る首魁。ゴブリン族のつわものを配し、冒険者の次なる壁とし、容易く突破を許さない。▼ＭＯＤＥ２突破条件ダメージを与え、ゴブリングレートとゴブリンメイスターのＨＰを０にすること。=The enraged leader, whose armored vehicle has been destroyed, deploys the toughest goblin warriors as the next line of defense for adventurers, preventing easy breakthroughs.▼ MODE2 Clear Condition: Deal damage to reduce the HP of the Goblin Great and Goblin Meister to 0.\n
 バトル開始時、自身を無敵状態にして攻撃を受け付けなくする。=At battle start, it enters an invincible state, rendering it impervious to attacks.\n
 
-ユニオンバーストは、敵全体にキャラの残りＨＰに応じた物理割合ダメージを与える。=Its Union Burst inflicts P.DMG proportional to the character's remaining HP to all enemies.\n
+ユニオンバーストは、敵全体にキャラの残りＨＰに応じた物理割合ダメージを与える。=Its Union Burst inflicts percentage P.DMG to the character's remaining HP to all enemies.\n
 
 砂瀑に君臨するゴブリン族の首魁。配下を屠られた怒りを武器にのせ、圧倒的な力で眼前の全てを塵に変える。▼ＭＯＤＥ３突破条件ダメージを与え、ゴブリンロードのＨＰを０にすること。=Clear Condition:Deal damage to reduce the Goblin Lord's HP to 0.\n
 ユニオンバーストは、敵全体にキャラの残りＨＰに応じた物理割合ダメージを与え、自身の物理攻撃力を大アップさせる。自身の物理攻撃力に応じて与えるダメージの割合が増加する。=Union Burst: deals damage to all enemies based on the character's remaining HP and Boosts own P.ATK. The P.DMG inflicted by this skill increases proportionally based on own P.ATK.\n
@@ -781,9 +781,9 @@
 
 怨憎の力により引き起こされるポルターガイスト。飛来する数多の呪いを撃ち落とし、呪詛返しで敵を穿て！=Poltergeist evoked by the power of resentment and hatred. Shoot down the numerous curses that come flying and pierce through the enemies with curse retaliation!
 敵全体をノックバックさせ、呪怨の墓石、呪火の蝋燭、呪毒の包丁を召喚する。=Knocks back all enemies and summons the Tombstone of Grudge, the Cursed Candle of Grudge Fire, and the Cursed Knife of Grudge Poison.\n
-呪怨の墓石は、一定時間経過するとランダムな敵１キャラに物理大ダメージを与え、さらに呪い状態を付与したあと、消滅する。ただし呪怨の墓石のＨＰが一定値以下になった場合は、グラッジレイスに物理割合ダメージを与え、呪い状態を付与したあと、消滅する。=The Tombstone of Grudge will deal large P.DMG to a random enemy character after a certain amount of time has passed. It will then apply a curse status and disappear. However, if the HP of the Tombstone of Grudge falls below a certain value, it will deal P.DMG proportional to its remaining HP to Grudge Wraith, apply a curse status, and then disappear.\n
-呪火の蝋燭は、一定時間経過するとランダムな敵１キャラに物理大ダメージを与え、さらに火傷状態を付与したあと、消滅する。ただし呪火の蝋燭のＨＰが一定値以下になった場合は、グラッジレイスに物理割合ダメージを与え、火傷状態を付与したあと、消滅する。=The Cursed Candle of Grudge Fire will deal large P.DMG to a random enemy character after a certain amount of time has passed. It will then apply a burn status and disappear. However, if the HP of the Cursed Candle of Grudge Fire falls below a certain value, it will deal P.DMG proportional to its remaining HP to Grudge Wraith, apply a burn status, and then disappear.\n
-呪毒の包丁は、一定時間経過するとランダムな敵１キャラに物理大ダメージを与え、さらに毒状態を付与したあと、消滅する。ただし呪毒の包丁のＨＰが一定値以下になった場合は、グラッジレイスに物理割合ダメージを与え、毒状態を付与したあと、消滅する。=The Cursed Knife of Grudge Poison will deal large P.DMG to a random enemy character after a certain amount of time has passed. It will then apply a poison status and disappear. However, if the HP of the Cursed Knife of Grudge Poison falls below a certain value, it will deal P.DMG proportional to its remaining HP to Grudge Wraith, apply a poison status, and then disappear.\n
+呪怨の墓石は、一定時間経過するとランダムな敵１キャラに物理大ダメージを与え、さらに呪い状態を付与したあと、消滅する。ただし呪怨の墓石のＨＰが一定値以下になった場合は、グラッジレイスに物理割合ダメージを与え、呪い状態を付与したあと、消滅する。=The Tombstone of Grudge will deal large P.DMG to a random enemy character after a certain amount of time has passed. It will then apply a curse status and disappear. However, if the HP of the Tombstone of Grudge falls below a certain value, it will deal percentage P.DMG to its remaining HP to Grudge Wraith, apply a curse status, and then disappear.\n
+呪火の蝋燭は、一定時間経過するとランダムな敵１キャラに物理大ダメージを与え、さらに火傷状態を付与したあと、消滅する。ただし呪火の蝋燭のＨＰが一定値以下になった場合は、グラッジレイスに物理割合ダメージを与え、火傷状態を付与したあと、消滅する。=The Cursed Candle of Grudge Fire will deal large P.DMG to a random enemy character after a certain amount of time has passed. It will then apply a burn status and disappear. However, if the HP of the Cursed Candle of Grudge Fire falls below a certain value, it will deal percentage P.DMG to its remaining HP to Grudge Wraith, apply a burn status, and then disappear.\n
+呪毒の包丁は、一定時間経過するとランダムな敵１キャラに物理大ダメージを与え、さらに毒状態を付与したあと、消滅する。ただし呪毒の包丁のＨＰが一定値以下になった場合は、グラッジレイスに物理割合ダメージを与え、毒状態を付与したあと、消滅する。=The Cursed Knife of Grudge Poison will deal large P.DMG to a random enemy character after a certain amount of time has passed. It will then apply a poison status and disappear. However, if the HP of the Cursed Knife of Grudge Poison falls below a certain value, it will deal percentage P.DMG to its remaining HP to Grudge Wraith, apply a poison status, and then disappear.\n
 呪怨の墓石、呪火の蝋燭、呪毒の包丁がキャラに与える状態異常のダメージでは、ＴＰが回復しない。=The status effect damage caused by the Tombstone of Grudge, the Cursed Candle of Grudge Fire, and the Cursed Knife of Grudge Poison will not recover TP.\n
 激しい憎悪と憤怒の叫びをあげる悪霊。苛烈な呪いを打ち破り、全身全霊、最後の除霊で怨気衝天の悪霊を祓え！=An evil spirit that raises a fierce scream of intense hatred and anger. Shatter the cruel curse, purify the vengeful evil spirit with all your might and the final exorcism!
 ユニオンバーストは、敵全体に魔法特大ダメージを与える。さらに、物理攻撃力と魔法攻撃力を大ダウンさせ、一定時間ＨＰ回復量を特大ダウンさせる。このスキルによるダメージでは、キャラのＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive M.DMG to all enemies. Additionally, greatly reduces their and ATK and further reduces their HP recovery for a certain duration. The P.DMG from this skill does not recover characters' TP. The skill's status effects are applied even if M.DMG is negated.\n
@@ -1378,11 +1378,16 @@
 ダッシュジョーとお供のモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Increases party members' TP recovery rate by an extra-large amount due to all damage taken from dashing Joes and accompanying monsters.\n
 ハイパー=Hyper
 ダッシュジョー=Death Jaw
-対をなして行動する魂の宿った砲台。二門なだけあり砲撃頻度も通常の倍。=The cannons are filled with souls that act as a pair. There are only two of them, and they fire twice as often as normal.
+対をなして行動する魂の宿った砲台。二門なだけあり砲撃頻度も通常の倍。=The cannons are filled with souls that act as a pair. There are only two of them, and they fire twice as often as normal.\n
 イビルキャノンズ=Evil Cannons
-どこからか確保した髑髏を被りし砲台。より洒落た骸を求めて彷徨う。=A cannon with a skull secured from somewhere. I wander around in search of a more stylish corpse.
+どこからか確保した髑髏を被りし砲台。より洒落た骸を求めて彷徨う。=A cannon with a skull secured from somewhere. I wander around in search of a more stylish corpse.\n
 ボーンキャノン=Bourne Cannon
 モンスターＨＰを本戦状態\にする=Set monster HP to battle mode
 通常攻撃は、召喚体、分身を除いた最も近い敵２キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=The normal attack deals medium magic damage to the two closest enemies (excluding summons and clones) and reduces their magic defense by a small amount. The effect of this skill is applied even if damage is nullified.\n
 召喚体、分身を除いた最も近い敵２キャラに魔法小ダメージを与え、ノックバックさせ、さらに魔法中ダメージを与える。=Deals small magic damage to the two nearest enemies (excluding summoned creatures and clones), knocks them back, and also deals medium magic damage.\n
 ユニオンバーストは、飛行状態のキャラを含む敵全体に魔法大ダメージを与え、さらに麻痺状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large magical damage to all enemies, including flying characters, and also inflicts paralysis. Damage from this skill does not restore TP. The abnormal status caused by this skill will be inflicted even if the damage is nullified.\n
+
+ユニオンバーストは、飛行状態のキャラを含む敵全体のステータスアップ効果を解除し、自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst removes status buffs from all enemies (including flying units), dealing proportional P.DMG based on own P.ATK and proportional M.DMG based on own M.ATK. Damage from this skill does not restore TP.\n
+
+ユニオンバーストは、飛行状態のキャラを含む敵全体のステータスアップ効果を解除し、自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。
+自身の物理攻撃力、魔法攻撃力をバトル終了まで小アップさせ、自身のＴＰを中回復させる。タフガイスト自身に継続ダメージが付与されていない場合、さらに物理防御力、魔法防御力をバトル終了まで小アップさせる。=Slightly boosts own P.ATK and M.ATK until battle ends, while moderately restoring own TP. If no continuous damage is applied to Tough Geist, additionally slightly boosts own P.DEF and M.DEF until battle ends.\n

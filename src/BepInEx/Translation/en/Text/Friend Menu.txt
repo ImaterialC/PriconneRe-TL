@@ -19,6 +19,8 @@ r:"^プレイヤーID:([0-9 ]+)$"=Player ID: $1
 サポート終了=End
 フレンド=Friends
 フレンド一覧=Friend List
+フレンド上限に達しています。=Friend limit reached.
+フレンド承認=Friend approved
 承認=Approve
 拒否=Reject
 

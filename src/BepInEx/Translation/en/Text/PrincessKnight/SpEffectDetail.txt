@@ -36,6 +36,11 @@
 ＴＰ上昇上限付与=Maximum TP Boost
 バトル開始時、すべてのキャラのＴＰ上昇の上限値を150にする。=At the start of the battle, the maximum TP Boost for all characters is capped to 150.
 
+バトル中、「ダメージカット」、「毒・猛毒継続ダメージアップ」効果が発動する。=During battle, the effects of "Damage Cut" and "Poison/Venom" Damage Over Time Boost activate.
+毒・猛毒継続ダメージアップ=Poison/Venom Damage Over Time Boost
+バトル開始時、すべてのモンスターが受ける毒、猛毒状態の継続ダメージをアップさせる。=At the start of battle, increases the Damage Over Time dealt by Poison and Venom status effects to all monsters.
+
+
 
 バトル開始時、すべてのキャラに火傷状態を付与する。=At the start of the battle, all characters will be inflicted with a burn state.
 火傷付与=Burning
@@ -90,6 +95,6 @@
 物理無効バリア=Physical nullification barrier
 バトル開始時、すべてのシャドウに魔法無効バリアを展開する。=Deploying a magic nullification barrier on all Shadows at the start of the battle.
 
-
+バトル中、「ダメージカット」、「呪い・呪詛継続ダメージアップ」効果が発動する。=During battle, activates the following effects: "DMG Cut", "Curse/Cursed Continuous DMG Up".
 
 バトル中、「反撃バリア」効果が発動する。=During the battle, the 'Counter Barrier' effect is activated.
