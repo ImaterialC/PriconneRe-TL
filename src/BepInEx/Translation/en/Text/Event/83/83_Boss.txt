@@ -1,0 +1,14 @@
+
+最も近い敵１キャラに物理特大ダメージと魔法特大ダメージを与える。=Dealt physical and magical extra-large damage to the nearest enemy character.\n
+敵全体の物理防御力と魔法防御力を中ダウンさせる。さらに、敵キャラのＨＰが70％未満の場合、物理攻撃力と魔法攻撃力を中ダウンさせる。=It reduces the physical and magical defenses of the entire enemy. Furthermore, if the enemy character's HP is less than 70 percent, the physical attack power and magical attack power will be neutralized.
+七冠が一人、覇瞳皇帝の虚影によって創り出された妖狐。その姿は過去のものなれど、創世主に賜りし理外の力は遍く被造物を凌駕する。\n=One of the Seven Crowns is a vixen created by the shadow of the Hegemon. Its appearance may have been a thing of the past, but the power granted to its creator far surpasses that of creation.\n\n
+アルファ・レガリアス=Alpha Regalias
+敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、ＨＰ吸収を特大ダウンさせる。=Deals percentage P.DMG to all enemies based on the character's maximum HP, and massively reduces HP absorption.\n
+一定時間すべての物理攻撃を回避する。=Evades all physical attacks for a set duration.\n
+一定時間すべての魔法攻撃を回避する。=Evades all magical attacks for a set duration.\n
+最も近い敵１キャラのステータスアップ効果とバリアを解除した後、物理固定ダメージと物理特大ダメージを与える。=Removes all buffs and barriers from the nearest enemy, then deals fixed P.DMG and massive P.DMG.\n
+ユニオンバーストは、敵全体に物理大ダメージと魔法大ダメージを与え、【弱体化パッチ】を１つ追加する。【弱体化パッチ】状態中、物理攻撃力と魔法攻撃力が大ダウンする。このスキルの物理攻撃力と魔法攻撃力の減少量は【弱体化パッチ】の数に応じて増加する。=Union Burst: Deals heavy P.DMG and heavy M.DMG to all enemies, and applies one [Weakening Patch]. While affected by [Weakening Patch], both P.ATK and M.ATK are significantly reduced. The reduction in P.ATK and M.ATK from this skill increases with the number of [Weakening Patch] stacks.\n
+レガリアスから受けるすべての状態異常とステータスダウン効果は、ダメージを無効化しても付与される。=All status ailments and stat reduction effects inflicted by Regalias are applied even if the damage is negated.\n
+アルファ=Alpha\n
+レガリアスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively reduces the TP recovery of party characters from all damage received from Regalias.\n
+新世界を創造せし七冠の残響が融合した始原の厄災。七冠が有する絶大な権能を『実行』し、未来へと歩み続ける世界を過去で塗り潰す。=A primordial calamity born from the fusion of the echoes of the Seven Crowns that created a new world. It “executes” the overwhelming authority of the Seven Crowns, obliterating the future-bound world with the past.\n

@@ -2,7 +2,9 @@ Sneak Peek Rank Up Detail
 sr:"^必要Lv(\d+)([^「」]{20,})$"=Required Lv $1\n$2
 
 Selling
-sr:"^(?:\[3C404E\])?(.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]を売却しますか？(?:\[-\])?$"=[3C404E]Would you like to sell the$1$2 × [FFBB00,CE4F00]$3[-]？[-]
+sr:"^(?:\[3C404E\])?(.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]を(?:\n)?売却しますか？(?:\[-\])?$"=[3C404E]Would you like to sell the$1$2 × [FFBB00,CE4F00]$3[-]？[-]
+覇瞳皇帝の残響を撃ち破りし勇者に与えられる書物。敗北し、失われた覇道の先に何を見据えるのか。その瞳に映る未来は未だ見通せぬまま。=A book given to the hero who defeats the echo of the Overlord Emperor. What lies beyond the path of defeat and loss? The future reflected in those eyes remains unclear.
+
 覇瞳皇帝の残響を撃ち破りし勇者に与えられる弓。獄に繋がれし神狐は唯々瞑想を続けやがて肥大化した自我と世界の境界を認知していく。=A bow given to the brave who defeats the echoes of the Overpowered Emperor. The fox god, chained in prison, continues to meditate and eventually becomes aware of the boundaries between his enlarged self and the world.
 覇瞳皇帝の残響を撃ち破りし勇者に与えられる槍。運命に抗いし神狐は天楼の果てに眠る可能性を求め塔を上り世界の秘密を知ることになる。=A spear given to the brave who defeats the reverberation of the Overpowered Emperor. The Divine Fox who resists fate climbs the tower in search of the possibility that lies at the end of the Sky Tower and learns the secrets of the world.
 覇瞳皇帝の残響を撃ち破りし勇者に与えられる短刀。地を統べた神狐は天命に抗い王を僭するも勇者たちに下され暗い地の底へと幽閉される。=A short sword given to the hero who defeats the echo of the Over-Eyed Emperor. The Divine Fox who ruled the land rebelled against the will of heaven and usurped the throne, but was defeated by the heroes and imprisoned in the dark depths of the earth.

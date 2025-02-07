@@ -8,12 +8,19 @@ r:"^イベント後編クエスト([ A-Za-z\-0-9]+)$"=Event Part 2 Quest$1
 イベントストーリー 第1話（誓約女君）を閲覧しよう=View the Event Story Episode 1 (Regina Geas)
 イベントストーリー 第1話（迷宮女王）を閲覧しよう=View the Event Story Episode 1 (Queen Labyrinth)
 イベントストーリー 第1話（跳躍王）を閲覧しよう=View the Event Story Episode 1 (Leap King)
+イベントストーリー 第4話（変貌大妃）を閲覧しよう=View the Event Story Episode 4 (Metamorph Monarch)
+イベントストーリー 第4話（覇瞳皇帝）を閲覧しよう=View the Event Story Episode 4 (Omniscient Kaiser)
+イベントストーリー 第4話（嚮導老君）を閲覧しよう=View the Event Story Episode 4 (Great Guidance)
+イベントストーリー エンディングを閲覧しよう=View the Event Story Snding
+
+
 
 ボスに関わるイベントストーリーの閲覧後、ボスバトル\nは自動で解放されます。本イベントのストーリーを先に\n読むことをおすすめします。=After viewing the boss-related event story,\nthe Boss Battle will be automatically unlocked.\nWe recommend experiencing this event's story first.
 
-本イベントで挑戦できるボスの姿は、\nイベントストーリーのネタバレを含む場合があります。\n\nボスバトルを解放しますか？=The boss appearance in this event's challenges\nmay contain spoilers for the event story.\n\nProceed to unlock Boss Battle?
+本イベントで挑戦できるボスの姿は、\nイベントストーリーのネタバレを含む場合があります。\n\nボスバトルを解放しますか？=The boss that can be fought in this event\nmay spoil elements of the event storyline.\n\nProceed with unlocking this Boss Battle?
 
 ボスバトル解放確認=Boss Battle Unlock Confirmation
+
 
 前編ボスバトル（SPECIAL）クリアで解放=Unlocked by clearing Part 1 Boss Battle (SPECIAL)
 前編ボスバトル（SCENARIO）クリアで解放=Unlocked by clearing Part 1 Boss Battle (SCENARIO)
@@ -24,15 +31,20 @@ sr:"^(.+) 第(.)話を閲覧で解放$"=Unlocked by viewing $1 Episode $2
 
 イベント報券を集めて、豪華報酬をGET!=Collect Event Tickets to claim magnificent rewards!
 
+イベントコンテンツ解放=Event content unlocked
+【アストルム開発録】でコンテンツが解放されました。=Contents have been unlocked in Astrum Development Logs
+sr:"^【(.+)】でコンテンツが解放されました。$"=Contents have been unlocked in [$1].
 
-
+七冠=Seven Crowns
 前編ボスバトル=Part One Boss Battle
+後編ボスバトル=Part Two Boss Battle
 ボスバトル解放=Boss Battle Release
 アストルム開発録=Astrum Development Logs
-PC画面へ=To the computer screen
-カメレオンのぬいぐるみ=Chameleon stuffed animal
-晶の端末=Shou’s terminal
+PC画面へ=To the Computer Screen
+カメレオンのぬいぐるみ=Chameleon Stuffed Animal
+晶の端末=Akira's Smartphone
 ようこそ我ら七冠の開発室へ。ここにはアタシたちがレジェンドオブ\nアストルムを開発していた時の記録が残されているらしい。当時の\n極秘データも見れちゃったりするけど、口外禁止で頼むよ、少年。=Welcome to the Seven Crowns' development room. Apparently this is where the records from when we were developing Legend of Astrum are kept. You can even see some top-secret data from back then, but please don't tell anyone, boy.
+
 
 
 
@@ -43,26 +55,58 @@ PC画面へ=To the computer screen
 
 ギルド管理協会です！\nイベント報酬券をお持ちでしたら、様々なアイテムと交換できますよ=Guild Management Association here! If you have event reward tickets, you can exchange them for various items!
 
-今度の敵は、アタシにとっても\n放ってはおけない存在だ\n少年、アタシも全力で行くからさ\n一緒に守ろう、この世界を=This foe's not something I can ignore either, kid. I'm goin' all out too, so let's protect this world together!
+今度の敵は、アタシにとっても\n放ってはおけない存在だ\n少年、アタシも全力で行くからさ\n一緒に守ろう、この世界を=This foe's not something I can ignore either, boy. I'm goin' all out too, so let's protect this world together!
 
 お疲れさまです！\nこちらでイベント報酬券とアイテムを交換することができますよ=Great work out there! You can exchange event reward tickets for items right here!
 
-退屈の吹き飛ぶような\n戦いの気配がするなぁ坊や\nさっさとワタシをそこへ連れてゆけ\n世界も守ってやるさ、ついでにな=I smell a battle brewing that'll blast this boredom away, brat. Drag me there quick, and I'll save the world as a bonus.
+退屈の吹き飛ぶような\n戦いの気配がするなぁ坊や\nさっさとワタシをそこへ連れてゆけ\n世界も守ってやるさ、ついでにな=I smell a battle brewing that'll blast this boredom away, boy. Take me there quick, and I'll save this world as a bonus.
 
 ギルド管理協会によって発行された\n報酬交換用のチケット。ストーリー\nイベントを遊ぶことで獲得できる。=A reward exchange ticket issued by the Guild Management Association. Obtained by playing through story events.
 
 
-表示できるミッションがありません=You don't have a mission to display
+
+表示できるミッションがありません=There are no missions left to display.
 前編ボスバトル（SCENARIO）をクリアしよう=Clear the first boss battle (SCENARIO)
 イベントボス（SPECIAL）を解放すると確認できます。=Unlock the Event Boss (SPECAL) to Select.
 
+物語の続きが、解放されたよ。\n少年……あの子の記憶の続きを、どうか見届けてほしい。=The rest of the story has been released. \n Boy... I want you to see the rest of that boy's memories.
+かつてのアタシたちの記憶をめぐる物語。\n元の姿に戻ったフィオと、現在と異なる姿のアメス。\n彼女たちが導くのは──？=A story about our memories of the past. Fio has returned to her original form, while Ames appears differently than she does now. Where will they lead...?
+イベントストーリーの追加と合わせて、\n更なるクエストと、新たなボスが出現しました！\n現れたボスにはこちらから挑戦することができますよ！=Along with the addition of the event story,\n more quests and a new boss have appeared!\n You can challenge the boss that appears here!
 
 
-ボスバトルには３種の難易度がございます。\n各難易度ごとにボスの強さやバトルの特徴が異なりますので、\n準備をしっかりして、気を引き締めて挑みましょう。=There are three types of difficulty in boss battles. Each difficulty has a different strength and battle characteristics, so make sure you're prepared and keep your guard up.
+ボスバトルには３種の難易度がございます。\n各難易度ごとにボスの強さやバトルの特徴が異なりますので、\n準備をしっかりして、気を引き締めて挑みましょう。=There are three types of difficulty in boss battles. The strength of the boss and the characteristics of the fight vary with each, so make sure you're prepared and keep your guard up.
 妖狐カムラヲ・始原=The Mystic Fox Camrao Origin
 妖狐カムラヲ\n=The Mystic Fox Camrao\n
 始原=Shihara
-最も近い敵１キャラに物理特大ダメージと魔法\n　特大ダメージを与える。\n=Dealt physical and magical extra-large damage to the nearest enemy character.\n
-敵全体の物理防御力と魔法防御力を中ダウンさ\n　せる。さらに、敵キャラのＨＰが70％未満の\n　場合、物理攻撃力と魔法攻撃力を中ダウンさせ\n　る。=It reduces the physical and magical defenses of the entire enemy. Furthermore, if the enemy character's HP is less than 70 percent, the physical attack power and magical attack power will be neutralized.
-七冠が一人、覇瞳皇帝の虚影によって創\nり出された妖狐。その姿は過去のものなれど、創\n世主に賜りし理外の力は遍く被造物を凌駕する。\n\n=One of the Seven Crowns is a vixen created by the shadow of the Hegemon. Its appearance may have been a thing of the past, but the power granted to its creator far surpasses that of creation.\n\n
+
+
+
+
+
+
+
+
 ボスバトル（SCENARIO）ではサポートキャラを最大\n５人まで編成できます。また、マナも消費されません。=You can organize up to five support characters in a boss battle (SCENARIO). Also, it does not consume mana.
+ストーリー閲覧確認=View Story
+
+続きのストーリーが閲覧できます。=You can view the rest of the story.
+資料に埋もれた写真=Photo Buried in Documents  
+PC画面=Computer Screen
+種族設定資料=Race_Data
+アバター衣装設定資料=Avatar_Costume_Data
+インタビュー記事_校閲用=Interview_Article_(Proofread)  
+企画資料=Planning_Data
+モンスター設定資料=Monster_Data
+オンライン会議_ログ=Online_Meeting_Log  
+七冠会議・リモート編=Seven Crowns Meeting: Zoom
+見出しタイトル=Headline Title  
+仮=Draft  
+以下のコンテンツを閲覧できます。=You Can View the Following Content.  
+コンテンツ一覧=Content List  
+ビューティフルデザイン=Beautiful Design  
+会議は踊る、されど進まず=The Conference Dances, Yet Does Not Progress  
+華やかなる記事=Glamorous Article  
+嚮導老君の憂慮=The Concerns of the Guiding Elder  
+なぜなに獣人族=Why and What: Beastman Race  
+ストーリーへ進む=Proceed to Story  
+一般的感性=General Sensibility

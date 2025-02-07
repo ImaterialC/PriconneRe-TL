@@ -98,3 +98,7 @@
 バトル中、「ダメージカット」、「呪い・呪詛継続ダメージアップ」効果が発動する。=During battle, activates the following effects: "DMG Cut", "Curse/Cursed Continuous DMG Up".
 
 バトル中、「反撃バリア」効果が発動する。=During the battle, the 'Counter Barrier' effect is activated.
+
+バトル開始時、すべてのキャラのＨＰ回復量を大ダウンさせる。=At the start of battle, greatly reduces the HP recovery rate of all characters.
+バトル中防御力小アップ=Small Defense Boost during battle
+バトル中、「物理攻撃力アップ」効果が発動する。=During battle, the "Physical attack power up" effect is activated.
