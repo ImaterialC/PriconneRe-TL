@@ -1,4 +1,5 @@
 ---Event Banner---
+r:"^◆([0-9//: ]+)を迎える$"=◆Stay tuned in $1
 終了まであと=Event end in:
 日=Day
 時間=h
@@ -146,6 +147,7 @@ r:"^(\d+)枚消費$"=Exchange $1
 獲得一覧へ=To List
 リセット確認=Reset Confirmation
 リセットすると元に戻すことはできません。\nリセットすることにより、\n新しい報酬ラインナップに切り替わります。\n\nよろしいですか？=Resetting cannot be undone; resetting will switch you to the new reward lineup.\n\nAre you sure?
+リセットすると元に戻すことはできません。リセットすることにより、新しい報酬ラインナップに切り替わります。よろしいですか？=Resetting cannot be undone; resetting will switch you to the new reward lineup.\n\nAre you sure?
 リセット完了=Reset Complete
 報酬ラインナップをリセットしました。=The reward lineup has been reset.
 r:"^合計 (\d+)$"=Total $1

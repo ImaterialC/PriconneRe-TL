@@ -9,10 +9,15 @@ r:"^イベント後編クエスト([ A-Za-z\-0-9]+)$"=Event Part 2 Quest$1
 イベントストーリー 第1話（迷宮女王）を閲覧しよう=View the Event Story Episode 1 (Queen Labyrinth)
 イベントストーリー 第1話（跳躍王）を閲覧しよう=View the Event Story Episode 1 (Leap King)
 イベントストーリー 第4話（変貌大妃）を閲覧しよう=View the Event Story Episode 4 (Metamorph Monarch)
-イベントストーリー 第4話（覇瞳皇帝）を閲覧しよう=View the Event Story Episode 4 (Omniscient Kaiser)
+イベントストーリー 第4話（覇瞳皇帝）を閲覧しよう=View the Event Story Episode 4 (Kaiser Insight)
 イベントストーリー 第4話（嚮導老君）を閲覧しよう=View the Event Story Episode 4 (Great Guidance)
 イベントストーリー エンディングを閲覧しよう=View the Event Story Snding
-
+前編ボスバトル（SPECIAL）をクリアしよう=Clear Part 1 boss battle (SPECAL)
+前編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECAL) within less than 5 challenges
+前編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECAL+) within less than 5 challenges
+後編ボスバトル（SPECIAL）をクリアしよう=Clear Part 2 boss battle (SPECAL)
+後編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECAL) within less than 5 challenges
+後編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECAL+) within less than 5 challenges
 
 
 ボスに関わるイベントストーリーの閲覧後、ボスバトル\nは自動で解放されます。本イベントのストーリーを先に\n読むことをおすすめします。=After viewing the boss-related event story,\nthe Boss Battle will be automatically unlocked.\nWe recommend experiencing this event's story first.

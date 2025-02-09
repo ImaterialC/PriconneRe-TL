@@ -5,7 +5,7 @@
 コッコロ=Kokkoro;KKR;kokoro;mama
 キャル=Karyl;Kyaru
 シェフィ=Sheffy;Sheffi;Shefi
-アメス=Ameth;Ames
+アメス=Ameth;Ames;Fio
 サレン=Saren;mama
 クルミ=Kurumi
 アヤネ=Ayane
@@ -100,6 +100,7 @@
 フレイヤ=Freya
 アラクネ=Arachne
 メドゥーサ=Medusa;Collab;Granblue
+フィオ=Ameth;Ames;Fio
 
 カスミ（マジカル）=Kasumi (Magical);MKasumi;MGKasumi;Magical
 シオリ（マジカル）=Shiori (Magical);MShiori;MGShiori;Magical
@@ -116,6 +117,8 @@
 ヨリ（エンジェル）=Yori (Angel);AYori;Angel
 コッコロ（儀装束）=Kokkoro (Ceremonial);Kokoro (Ceremonial);KKR (Ceremonial);CKKR;CKokoro;CKokkoro;Ceremonial;mama
 ユイ（儀装束）=Yui (Ceremonial);CYui;Ceremonial
+チカ（儀装束）=Chika (Ceremonial);CChika;Ceremonial
+ランファ（儀装束）=Ranpha (Ceremonial);Ranfa (Ceremonial);CRanpha;CRanfa;Ceremonial
 リマ（シンデレラ）=Lima (Cinderella);CLima;CRima;CiRima;CiLima;Cinderella
 マコト（シンデレラ）=Makoto (Cinderella);CMakoto;CiMakoto;Gomen Yui;Cinderella
 マホ（シンデレラ）=Maho (Cinderella);CMaho;Kururinpa;CiMaho;Cinderella
@@ -197,7 +200,7 @@
 コッコロ（サマー）=Kokkoro (Summer);KKR (Summer);kokoro (Summer);mama (Summer);SKokkoro;SKKR;Skokoro;Smama;Summer;Swimsuit;Bikini
 キャル（サマー）=Karyl (Summer);Kyaru (Summer);SKaryl;SKyaru;Summer;Swimsuit;Bikini
 シェフィ（サマー）=Sheffy (Summer);Sheffi (Summer);SSheffy;SSheffi;Summer;Swimsuit;Bikini
-アメス（サマー）=Ameth (Summer);Ames (Summer);SAmeth;SAmes;Summer;Swimsuit;Bikini
+アメス（サマー）=Ameth (Summer);Ames (Summer);SAmeth;Fio;SAmes;Summer;Swimsuit;Bikini
 サレン（サマー）=Saren (Summer);SSaren;Mama;Summer;Swimsuit;Bikini
 クルミ（サマー）=Kurumi (Summer);SKurumi;Summer;Swimsuit;Bikini
 アヤネ（サマー）=Ayane (Summer);SAyane;Summer;Swimsuit;Bikini
@@ -289,7 +292,7 @@
 コッコロ（ハロウィン）=Kokkoro (Halloween);KKR (Halloween);kokoro (Halloween);mama (Halloween);HKokkoro;HKKR;Hkokoro;Hmama;Halloween
 キャル（ハロウィン）=Karyl (Halloween);Kyaru (Halloween);HKaryl;HKyaru;Halloween
 シェフィ（ハロウィン）=Sheffy (Halloween);Sheffi (Halloween);HSheffy;HSheffi;Halloween
-アメス（ハロウィン）=Ameth (Halloween);Ames (Halloween);HAmeth;HAmes;Halloween
+アメス（ハロウィン）=Ameth (Halloween);Ames (Halloween);HAmeth;Fio;HAmes;Halloween
 サレン（ハロウィン）=Saren (Halloween);HSaren;Mama;Halloween
 クルミ（ハロウィン）=Kurumi (Halloween);HKurumi;Halloween
 アヤネ（ハロウィン）=Ayane (Halloween);HAyane;Halloween
@@ -377,7 +380,7 @@
 コッコロ（クリスマス）=Kokkoro (Holiday);KKR (Holiday);kokoro (Holiday);mama (Holiday);XKokkoro;XKKR;Xkokoro;Xmama;Holiday;Christmas;Xmas
 キャル（クリスマス）=Karyl (Holiday);Kyaru (Holiday);XKaryl;XKyaru;Holiday;Christmas;Xmas
 シェフィ（クリスマス）=Sheffy (Holiday);Sheffi (Holiday);XSheffy;XSheffi;Holiday;Christmas;Xmas
-アメス（クリスマス）=Ameth (Holiday);Ames (Holiday);XAmeth;XAmes;Holiday;Christmas;Xmas
+アメス（クリスマス）=Ameth (Holiday);Ames (Holiday);XAmeth;XAmes;Fio;Holiday;Christmas;Xmas
 サレン（クリスマス）=Saren (Holiday);XSaren;Mama;Holiday;Christmas;Xmas
 クルミ（クリスマス）=Kurumi (Holiday);XKurumi;Holiday;Christmas;Xmas
 アヤネ（クリスマス）=Ayane (Holiday);XAyane;Holiday;Christmas;Xmas
@@ -465,7 +468,7 @@
 コッコロ（ニューイヤー）=Kokkoro (New Year);KKR (New Year);kokoro (New Year);mama (New Year);NyKokkoro;NyKKR;Nykokoro;Nymama;New Year;Kimono
 キャル（ニューイヤー）=Karyl (New Year);Kyaru (New Year);NyKaryl;NyKyaru;New Year;Kimono;Nyaru
 シェフィ（ニューイヤー）=Sheffy (New Year);Sheffi (New Year);NySheffy;NySheffi;New Year;Kimono
-アメス（ニューイヤー）=Ameth (New Year);Ames (New Year);NyAmeth;NyAmes;New Year;Kimono
+アメス（ニューイヤー）=Ameth (New Year);Ames (New Year);NyAmeth;Fio;NyAmes;New Year;Kimono
 サレン（ニューイヤー）=Saren (New Year);NySaren;Nyaren;Mama;New Year;Kimono
 クルミ（ニューイヤー）=Kurumi (New Year);NyKurumi;New Year;Kimono
 アヤネ（ニューイヤー）=Ayane (New Year);NyAyane;New Year;Kimono

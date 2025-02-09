@@ -8,7 +8,7 @@
 ##S1##
 レイジングフラッド=Raging Flood
 自分の周囲の味方すべての物理攻撃力を特大アップさせ、目の前の敵１キャラに物理小ダメージを与える。このスキルの物理攻撃力の上昇量とダメージは、【水刃の加護】の数に応じて増加する。【水刃の加護】を１つ消費する。=Greatly boosts allies' P.ATK and P.CRIT Rate in range and deals small P.DMG to an enemy in front. The P.ATK boost and P.DMG dealt based on number of [Water Blade's Blessing]. Consumes 1 [Water Blade's Blessing].
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ$"=►Boosts allies' P.ATK in range by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n►Consumes 1 [Water Blade's Blessing].
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ$"=►Boosts allies' P.ATK in range by $1 for 12s.\n►Deals $2 P.DMG to an enemy.
 
 ##S2##
 アズールショット=Azure Shot

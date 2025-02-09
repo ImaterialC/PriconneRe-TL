@@ -2,6 +2,9 @@
 現在挑戦しているEXHIBITION＋を\nリタイアして、ボスの状態と挑戦回数を\n【MODE1】挑戦前に戻しますか？\n=Currently challenging Exhibition+ Battle.\nDo you want to retire and return to the state before the challenge in MODE1?
 現在挑戦しているエキシビション\nバトルをリタイアして、\n【MODE1】挑戦前の状態にしますか？\n=Currently challenging Exhibition Battle.\nDo you want to retire and return to the state before the challenge in MODE1?
 
+現在挑戦しているSPECIALを\nリタイアして、ボスの状態と挑戦回数を\n【MODE1】挑戦前に戻しますか？\n=Currently challenging SPECIAL Battle.\nDo you want to retire and return to the state before the challenge in MODE1?
+現在挑戦しているSPECIAL＋を\nリタイアして、ボスの状態と挑戦回数を\n【MODE1】挑戦前に戻しますか？\n=Currently challenging SPECIAL+ Battle.\nDo you want to retire and return to the state before the challenge in MODE1?
+
 アドバンス効果対象キャラ=Characters Eligible for Advanced Effects
 アドバンス効果詳細=Advanced Effect Details
 極大=Maximum
@@ -20,6 +23,12 @@ sr:"^バトル開始後(\d+)秒間(.{2,12}?)(極(?:\n　)?大|絶(?:\n　)?大|�
 バトル開始後90秒間魔法防御力極大アップ、行動不能無効=For 90s after the battle begins, magic defense maxed out, and immune to immobility state.
 r:"^【(.+)】付与$"=[b][$1][/b] applied\nTN:see character's skill for further info.
 r:"^【残り挑戦回数 ([0-9/]+)】$"=[Attempt Left: $1]
+
+バトル開始後90秒間敵全体の魔法防御力特大ダウン=For 90s at start of battle, maximum lower to all enemies' M.DEF
+バトル開始後90秒間敵全体の物理防御力特大ダウン=For 90s at start of battle, maximum lower to all enemies' P.DEF
+r:"^バトル開始後味方全体の行動不能(\d)回無効$"=After the start of the battle, disable all allies' incapacitation $1 times
+バトル開始後90秒間味方全体に継続ＨＰ回復状態付与=Grants continuous HP recovery to all allies for 90 seconds after the start of battle.
+
 
 バトル開始後90秒間継続ＴＰ回復状態付与=Continuous TP recovery status added for 90 seconds after the start of battle
 
