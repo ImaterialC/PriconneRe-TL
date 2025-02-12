@@ -11,7 +11,9 @@ r:"^イベント後編クエスト([ A-Za-z\-0-9]+)$"=Event Part 2 Quest$1
 イベントストーリー 第4話（変貌大妃）を閲覧しよう=View the Event Story Episode 4 (Metamorph Monarch)
 イベントストーリー 第4話（覇瞳皇帝）を閲覧しよう=View the Event Story Episode 4 (Kaiser Insight)
 イベントストーリー 第4話（嚮導老君）を閲覧しよう=View the Event Story Episode 4 (Great Guidance)
-イベントストーリー エンディングを閲覧しよう=View the Event Story Snding
+イベントストーリー エンディングを閲覧しよう=View the Event Story Ending
+イベントストーリー エピローグを閲覧しよう=View the Event Story Epilogue
+
 前編ボスバトル（SPECIAL）をクリアしよう=Clear Part 1 boss battle (SPECAL)
 前編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECAL) within less than 5 challenges
 前編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECAL+) within less than 5 challenges

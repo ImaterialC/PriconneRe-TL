@@ -1349,45 +1349,26 @@
 
 
 
+ユニオンバーストは、最も近い敵１キャラを中心にした小範囲内の敵すべてに物理特大ダメージを与え、さらに最も近い敵１キャラに物理特大ダメージを与える。=Union Burst: Deals massive P.DMG to all enemies within a small range centered on the nearest enemy, and then deals massive P.DMG to the nearest enemy.  
+ロクス（複部位）の残りＨＰが40％以下になると、さらに防御力が上がり頑強になる。=When Rox (Multi-part)'s remaining HP falls to 40% or less, its defense increases further, making it even more resilient.  
+ロクス（複部位）から受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively reduces the TP recovery of party characters from all damage taken from Rox (Multi-part).  
+覇瞳皇帝が生み出した動く力の貯蔵庫。双肩の権能を司り、広闊たる領域で全てを屠る。=A moving repository of power created by the Dominant-Eyed Emperor. It commands the power of its twin shoulders, slaughtering everything within its vast domain.  
+このバトルのモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively reduces the TP recovery of party characters from all damage taken from the monsters in this battle.  
+バトル開始時、ぺんぽこりんを召喚する。召喚時、前方中範囲内の敵すべてをノックバックさせる。ぺんぽこりんは最も近い敵１キャラに物理大ダメージを与える。=At the start of battle, summons Penpokorin. Upon summoning, knocks back all enemies within a medium range in front. Penpokorin deals heavy P.DMG to the nearest enemy.  
+ユニオンバーストは、ランダムな敵キャラに、単体物理中ダメージを計７回与える。さらに、ぺんぽこりんの物理攻撃力を特大アップさせ、行動速度を大アップさせる。=Union Burst: Deals moderate P.DMG to a random enemy a total of 7 times. Additionally, massively boosts Penpokorin's P.ATK and greatly increases its action speed.  
+ランダムな敵キャラに、単体物理小ダメージを計３回与える。=Deals slight P.DMG to a random enemy a total of 3 times.  
+常に明朗快活、誰とでも友達になれる溌溂少女。回転式銃を愛用し、単独で飽和攻撃を仕掛ける。=A perpetually cheerful and vivacious girl who can befriend anyone. She favors a revolver and launches overwhelming solo attacks.  
+残りＨＰ割合が最も少ない敵３キャラに哀執のバロメッツの【憂いの棘】の数に応じた物理割合ダメージを与える。=Deals percentage P.DMG to the 3 enemies with the lowest remaining HP, based on the number of [Spikes of Melancholy] on Aiseki's Baromettes.  
+最も近い敵３キャラに哀執のバロメッツの【憂いの棘】の数に応じた物理割合ダメージを与える。=Deals percentage P.DMG to the 3 nearest enemies, based on the number of [Spikes of Melancholy] on Aiseki's Baromettes.  
+哀執のバロメッツの残りＨＰが25％以下になると、哀執のバロメッツに【憂いの棘】を20個追加する。=When Aiseki's Baromettes' remaining HP falls to 25% or below, adds 20 [Spikes of Melancholy] to them.  
+カガミの【いいね】が５個減少する。=Reduces Kagami's [Likes] by 5.  
+カガミが毒、猛毒、呪い、火傷、呪詛の効果を受けると、狂乱の配信者=When Kagami is afflicted with the effects of poison, venom, curse, burn, or hex, Frenzied Streamer  
+カガミに【いいね】を５個付与する。=grants Kagami 5 [Likes].  
+前方２キャラに物理大ダメージを与え、狂乱の配信者=Deals heavy P.DMG to 2 enemies in front, Frenzied Streamer  
+カガミに【いいね】を10個付与する。さらに、【いいね】の数に応じて自身の物理攻撃力とＴＰをアップする。=grants Kagami 10 [Likes]. Additionally, increases its own P.ATK and TP based on the number of [Likes].  
+カガミの物理防御力と魔法防御力を特大ダウンし、狂乱の配信者=Massively reduces Kagami's P.DEF and M.DEF, Frenzied Streamer  
+カガミの【いいね】の数に応じてダメージ量がアップする。さらに【いいね】を15個付与する。=increases damage based on Kagami's [Likes]. Additionally, grants 15 [Likes].  
+ユニオンバーストは、目の前の敵１キャラに物理特大ダメージを与える。狂乱の配信者=Union Burst: Deals massive P.DMG to the enemy in front, Frenzied Streamer  
+バトル開始時、狂乱の配信者=At the start of battle, Frenzied Streamer  
+自身の存在を絶対的なものにするべく、狂気を重ねる配信者。欲望にとり憑かれ、純粋な想いを持つ者たちに刃を向ける。=A streamer who accumulates madness to render its existence absolute. Possessed by desire, it turns its blade on those with pure hearts.
 
-ユニオンバーストは、前方広範囲内の敵すべてに自身の物理攻撃力とキャラの最大ＨＰに応じた物理割合ダメージを与え、さらに自身の物理攻撃力をバトル終了まで小アップさせる。=Union Burst deals Physical percentage damage to all opponents within a wide area in front of you based on your own physical attack power and your character's maximum HP, and further increases your physical attack strength by a small amount until the battle ends.
-自身の物理攻撃力をバトル終了まで小アップさせる。=Increases your own physical attack power by a small amount until the battle ends.
-魔物を意のままに操り、強化する辣鞭の少年。赤青黄のスライムを従え、機敏なる猛攻を行う。=The young man with the sharp whip, who manipulated and strengthened monsters as he pleased. He carried out a nimble onslaught, accompanied by a red, blue, and yellow slime.
-前方中範囲内の敵すべてに物理中ダメージを与え、物理防御力を中ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals Physical Intermediate DMG to all opponents within the forward-middle range and lowers Physical Defense. This skill's effects can be inflicted even if damage is nullified.
-敵全体をノックバックさせる。その後一定時間、雷を身にまとい、自身の物理防御力と魔法防御力を特大アップさせる。鮫吉が毒、猛毒、呪い、呪詛、火傷の効果を受けている場合、自身の物理防御力と魔法防御力がアップする時間が短くなる。=Knock back all enemies. After that, wear lightning for a certain amount of time to increase your own physical and magical defenses. If Samekichi is affected by poison, poison, curse, or burns, your own Physical and Magic Defenses will increase by a short time.
-自身のＨＰが10％を切ると、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、一定時間、ユニオンバーストのみ使用できない状態にし、魔法攻撃力をバトル終了まで特大ダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。さらに攻撃が激しく凶暴になる。=When your own HP is less than 10%, the opponent will deal Physical Ratio DMG corresponding to the character's maximum HP, leaving them unable to use Union Burst for a set period of time, and their magic attack power will be greatly decreased until the battle ends. DMG from this skill will not restore TP. This skill's status ailments will be inflicted even if the character nullifies the damage. The attack will become even more violent.
-ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、物理防御力を中ダウンさせ、さらに自身の物理攻撃力を中アップさせる。このスキルによるダメージでは、ＴＰが回復しない。このスキルの効果はダメージを無効化しても付与される。=Union Burst deals Physical Percentage DMG to all opponents according to your character's maximum HP, lowers your Physical Defense stat, and further increases your own Physical Attack stat. DMG from this skill cannot restore TP. This skill's effects can be inflicted even if you nullify damage.
-鮫吉=Samekichi
-渚の暴君=Nagisa's Tyrant
-ビーチ一帯の近海をシメる海洋族の暴君。売られた喧嘩には、ただの一度も背を向けず、シマを荒らすヤツは絶対に許さない。=A tyrant of the seafolk who sailed the entire beach. He would never turn his back on a fight that had been picked on, and he would never forgive anyone who ruined his turf.
-天稟の才と過敏な感覚に懊悩する、幽寂の歌姫。争いは好まないが、願いと仲間のため奮戦する。=The songstress of ecstasy agonizes over her natural talent and oversensitive senses. She doesn't like conflict, but she fights hard for her wishes and friends.
-ランファから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Increases party members' TP recovery rate from all DMG taken from Ranfa.
-ユニオンバーストは、前方中範囲内の敵すべてにキャラの最大ＨＰに応じた魔法割合ダメージを与え、結晶化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。結晶化状態では行動不能になり、継続ダメージを受ける。結晶化状態はＨＰが全回復するか、一定時間経過すると解除される。結晶化によるダメージでは、ＴＰが回復しない。=Union Burst deals a percentage of damage to all opponents within the forward-middle range according to the character's maximum HP, and inflicts Crystallization status effects. This skill's status ailments can be inflamed even if the damage is nullified. Crystallized state incapacitates and sustains continuous damage. Crystalline status can be fully restored to HP or removed after a certain amount of time has passed. Crystallicted damage cannot restore TP.
-前方広範囲内の敵すべてに猛毒状態を付与し、ＨＰ回復量を中ダウンさせ、ＨＰ吸収を特大ダウンさせる。さらに、結晶化状態の敵には追加の魔法特大ダメージを与える。このスキルの状態異常はダメージを無効化しても付与される。このスキルにより付与された猛毒のダメージでは、ＴＰが回復しない。=It inflicts a deadly poison status on all opponents within a wide area in front of it, reducing their HP recovery rate by an extra-large amount of HP absorption. Additionally, it deals additional magic extra-high damage to opponents in Crystallized state. This skill's status ailments can be infused even if damage is nullified. The deadly poison damage dealt by this skill cannot restore TP.
-最も近い敵１キャラに魔法大ダメージを与え、さらにキャラのＨＰが70％未満の場合、結晶化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals great magical damage to the nearest enemy character, and when the character's HP is less than 70 percent, it inflicts a crystallized state. This skill's status ailments can be infused even if the damage is nullified.
-利己心にまみれた、非道なる大慾暴君。『龍の卵』による蛮力で対敵を排除せんとする。=An inhuman giant tyrant covered in self-interest. It tries to eliminate its enemies with the barbaric power of the Dragon Egg.
-大慾暴君=Daiyoku Tyrant
-ユニオンバーストは、最も近い敵１キャラに大慾暴君=Union Burst is one of the closest enemies to you, and you're a tyrant
-カジノ王の物理攻撃力とキャラの最大ＨＰに応じた物理割合ダメージを与える。=Dealts physical percentage damage corresponding to the casino king’s physical attack power and character’s maximum HP.
-バリアを張り、自身の物理防御力と魔法防御力を特大アップさせる。=I put up a barrier to increase my own physical and magical defenses by an extra-large amount.
-自身のＨＰが40％を切ると、さらに攻撃が激しく強力になる。=When your own HP drops below 40 percent, your attacks become even more intense and powerful.
-サイコロを振り、自身の物理攻撃力をアップさせる。出目によって物理攻撃力アップの効果が変化する。出目が１の場合、物理攻撃力を小アップ。出目が２及び３の場合、物理攻撃力を中アップ。出目が４及び５の場合、物理攻撃力を大アップ。出目が６の場合、物理攻撃力を特大アップ。=Roll the dice to increase your own physical attack power. The effects of Physical Attack Boost change depending on the turnout. If the turnoff is 1, Physical Attack power increases by a small amount. If your turnout is 2 or 3, Physical ATK goes up. If you turn out to be 4 or 5, Physical Attack stat increases greatly. If 6 comes up, Physical attack power increases extra large.
-
-ジオ=Gio
-ゲヘナに名を轟かせる大盗賊『グロゴ団』の頭領。最新型の戦闘車輛と融合し、脅威的な機動力を以って裏切り者へと天誅を下す。=The leader of the great bandits known throughout Gehenna, the Glogo Brigade. They fused with the latest models of combat vehicles and used their menacing mobility to deliver divine punishment to traitors.\n
-ダッシュジョーとお供のモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Increases party members' TP recovery rate by an extra-large amount due to all damage taken from dashing Joes and accompanying monsters.\n
-ハイパー=Hyper
-ダッシュジョー=Death Jaw
-対をなして行動する魂の宿った砲台。二門なだけあり砲撃頻度も通常の倍。=The cannons are filled with souls that act as a pair. There are only two of them, and they fire twice as often as normal.\n
-イビルキャノンズ=Evil Cannons
-どこからか確保した髑髏を被りし砲台。より洒落た骸を求めて彷徨う。=A cannon with a skull secured from somewhere. I wander around in search of a more stylish corpse.\n
-ボーンキャノン=Bourne Cannon
-モンスターＨＰを本戦状態\にする=Set monster HP to battle mode
-通常攻撃は、召喚体、分身を除いた最も近い敵２キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=The normal attack deals medium magic damage to the two closest enemies (excluding summons and clones) and reduces their magic defense by a small amount. The effect of this skill is applied even if damage is nullified.\n
-召喚体、分身を除いた最も近い敵２キャラに魔法小ダメージを与え、ノックバックさせ、さらに魔法中ダメージを与える。=Deals small magic damage to the two nearest enemies (excluding summoned creatures and clones), knocks them back, and also deals medium magic damage.\n
-ユニオンバーストは、飛行状態のキャラを含む敵全体に魔法大ダメージを与え、さらに麻痺状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large magical damage to all enemies, including flying characters, and also inflicts paralysis. Damage from this skill does not restore TP. The abnormal status caused by this skill will be inflicted even if the damage is nullified.\n
-
-ユニオンバーストは、飛行状態のキャラを含む敵全体のステータスアップ効果を解除し、自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst removes status buffs from all enemies (including flying units), dealing proportional P.DMG based on own P.ATK and proportional M.DMG based on own M.ATK. Damage from this skill does not restore TP.\n
-
-ユニオンバーストは、飛行状態のキャラを含む敵全体のステータスアップ効果を解除し、自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。
-自身の物理攻撃力、魔法攻撃力をバトル終了まで小アップさせ、自身のＴＰを中回復させる。タフガイスト自身に継続ダメージが付与されていない場合、さらに物理防御力、魔法防御力をバトル終了まで小アップさせる。=Slightly boosts own P.ATK and M.ATK until battle ends, while moderately restoring own TP. If no continuous damage is applied to Tough Geist, additionally slightly boosts own P.DEF and M.DEF until battle ends.\n
