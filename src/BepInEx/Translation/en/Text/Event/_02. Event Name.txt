@@ -1,4 +1,5 @@
 sr:"^(.+) エンディングを閲覧で解放$"=Unlocked by Viewing the Ending of \n$1
+sr:"^(.+) ?次回予告$"=""$1" Next Episode Preview"
 1
 ハツネのプレゼント大作戦=Hatsune's Perfect Present
 

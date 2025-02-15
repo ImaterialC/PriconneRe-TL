@@ -14,12 +14,12 @@ r:"^イベント後編クエスト([ A-Za-z\-0-9]+)$"=Event Part 2 Quest$1
 イベントストーリー エンディングを閲覧しよう=View the Event Story Ending
 イベントストーリー エピローグを閲覧しよう=View the Event Story Epilogue
 
-前編ボスバトル（SPECIAL）をクリアしよう=Clear Part 1 boss battle (SPECAL)
-前編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECAL) within less than 5 challenges
-前編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECAL+) within less than 5 challenges
-後編ボスバトル（SPECIAL）をクリアしよう=Clear Part 2 boss battle (SPECAL)
-後編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECAL) within less than 5 challenges
-後編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECAL+) within less than 5 challenges
+前編ボスバトル（SPECIAL）をクリアしよう=Clear Part 1 boss battle (SPECIAL)
+前編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECIAL) within 5 challenges
+前編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECIAL+) within 5 challenges
+後編ボスバトル（SPECIAL）をクリアしよう=Clear Part 2 boss battle (SPECIAL)
+後編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECIAL) within 5 challenges
+後編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECIAL+) within 5 challenges
 
 
 ボスに関わるイベントストーリーの閲覧後、ボスバトル\nは自動で解放されます。本イベントのストーリーを先に\n読むことをおすすめします。=After viewing the boss-related event story,\nthe Boss Battle will be automatically unlocked.\nWe recommend experiencing this event's story first.
@@ -74,7 +74,7 @@ PC画面へ=To the Computer Screen
 
 表示できるミッションがありません=There are no missions left to display.
 前編ボスバトル（SCENARIO）をクリアしよう=Clear the first boss battle (SCENARIO)
-イベントボス（SPECIAL）を解放すると確認できます。=Unlock the Event Boss (SPECAL) to Select.
+イベントボス（SPECIAL）を解放すると確認できます。=Unlock the Event Boss (SPECIAL) to Select.
 
 物語の続きが、解放されたよ。\n少年……あの子の記憶の続きを、どうか見届けてほしい。=The rest of the story has been released. \n Boy... I want you to see the rest of that boy's memories.
 かつてのアタシたちの記憶をめぐる物語。\n元の姿に戻ったフィオと、現在と異なる姿のアメス。\n彼女たちが導くのは──？=A story about our memories of the past. Fio has returned to her original form, while Ames appears differently than she does now. Where will they lead...?

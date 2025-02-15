@@ -1,23 +1,23 @@
 ##Profile##  
-【物理】前衛で、始原の冠装の力を振るう『誓約女君』。\n10行動目に攻撃力を大幅アップし、スキルに追撃を発生\nさせる【虚数】を得て隔絶した力で楯突く敵を抹消する。=[Physical] An "Regina Geas" wielding primordial crown attire's power. Gains massive P.ATK boost on 10th action and obtains [Imaginary] status to trigger follow-up attacks, erasing defiant enemies with transcendent force.
+【物理】前衛で、始原の冠装の力を振るう『誓約女君』。\n10行動目に攻撃力を大幅アップし、スキルに追撃を発生\nさせる【虚数】を得て隔絶した力で楯突く敵を抹消する。=[Physical] An "Regina Geas" wielding primordial crown attire's power. Gains massive P.ATK boost on 10th action and obtains [Imaginary Numbers] status to trigger follow-up attacks, erasing defiant enemies with transcendent force.
 
 ##UB##  
 虚数魔境=Imaginary Hellscape
-自分の物理攻撃力を大アップし、敵全体に物理大ダメージを与え、物理防御力を小ダウンさせる。自分に【虚数】が付与されている場合、さらに最も物理防御力の低い敵１キャラに物理特大ダメージを与える。=Greatly boosts own P.ATK, deals major P.DMG to all enemies and slightly lowers their P.DEF. When [Imaginary] is active, additionally deals massive P.DMG to enemy with lowest P.DEF.
+自分の物理攻撃力を大アップし、敵全体に物理大ダメージを与え、物理防御力を小ダウンさせる。自分に【虚数】が付与されている場合、さらに最も物理防御力の低い敵１キャラに物理特大ダメージを与える。=Greatly boosts own P.ATK, deals major P.DMG to all enemies and slightly lowers their P.DEF. When [Imaginary Numbers] is active, additionally deals massive P.DMG to enemy with lowest P.DEF.
 
-r:"^自分の物理攻撃力を(\d+)アップ敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン虚数付与中、敵単体に(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to all enemies.\n►Lowers all enemies' P.DEF by $3.\n\nWhile [Imaginary] is active:\n►Deals $4 P.DMG to a single enemy.
+r:"^自分の物理攻撃力を(\d+)アップ敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン虚数付与中、敵単体に(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to all enemies.\n►Lowers all enemies' P.DEF by $3.\n\nWhile [Imaginary Numbers] is active:\n►Deals $4 P.DMG to a single enemy.
 
 ##S1##  
 デモニックスラスト=Demonic Thrust
 デモニックスラスト+=Demonic Thrust+
-前方の敵すべてに物理中ダメージを与える。自分に【虚数】が付与されている場合、さらに前方の敵の中で最も物理防御力の低い敵１キャラに物理大ダメージを与え、自分のＴＰを中回復する。=Deals medium P.DMG to all front enemies. When [Imaginary] is active, additionally deals major P.DMG to front enemy with lowest P.DEF and moderately recovers own TP.
+前方の敵すべてに物理中ダメージを与える。自分に【虚数】が付与されている場合、さらに前方の敵の中で最も物理防御力の低い敵１キャラに物理大ダメージを与え、自分のＴＰを中回復する。=Deals medium P.DMG to all front enemies. When [Imaginary Numbers] is active, additionally deals major P.DMG to front enemy with lowest P.DEF and moderately recovers own TP.
 
-r:"^範囲内の敵に(\d+)の物理ダメージ虚数付与中、敵単体に(\d+)の物理ダメージ虚数付与中、自分のＴＰを150回復$"=►Deals $1 P.DMG to enemies within range.\n\nWhile [Imaginary] is active:\n►Deals $2 P.DMG to a single enemy.\n►Recovers own TP by 150.
+r:"^範囲内の敵に(\d+)の物理ダメージ虚数付与中、敵単体に(\d+)の物理ダメージ虚数付与中、自分のＴＰを150回復$"=►Deals $1 P.DMG to enemies within range.\n\nWhile [Imaginary Numbers] is active:\n►Deals $2 P.DMG to a single enemy.\n►Recovers own TP by 150.
 
 ##S2##  
 アブソリュート・ワン=Absolute One
-自分に【虚数】を付与し、物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージとＴＰ上昇を小アップし、全ての物理攻撃を回避する。闇属性の味方の数に応じて物理攻撃力と物理攻撃クリティカル時のダメージの上昇量が最大４倍までアップする。【虚数】が付与されている間、このキャラのユニオンバーストとスキルのダメージは必ず命中し、クリティカルする。=Grants [Imaginary], massively boosts P.ATK, slightly increases P.CRIT DMG and TP Boost, while evading all physical attacks. Dark-element allies increase P.ATK/P.CRIT DMG boosts up to 4x. During [Imaginary], all UBs/skills guarantee hits and critical strikes.
-r:"^自分に虚数を付与する自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分のＴＰ上昇を15アップ全ての物理攻撃を回避する$"=►Grants [Imaginary] to self.\n►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 10％.\n►Boosts own TP Boost by 15.\n►Dodges all physical attacks.
+自分に【虚数】を付与し、物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージとＴＰ上昇を小アップし、全ての物理攻撃を回避する。闇属性の味方の数に応じて物理攻撃力と物理攻撃クリティカル時のダメージの上昇量が最大４倍までアップする。【虚数】が付与されている間、このキャラのユニオンバーストとスキルのダメージは必ず命中し、クリティカルする。=Grants [Imaginary Numbers], massively boosts P.ATK, slightly increases P.CRIT DMG and TP Boost, while evading all physical attacks. Dark-element allies increase P.ATK/P.CRIT DMG boosts up to 4x. During [Imaginary Numbers], all UBs/skills guarantee hits and critical strikes.
+r:"^自分に虚数を付与する自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分のＴＰ上昇を15アップ全ての物理攻撃を回避する$"=►Grants [Imaginary Numbers] to self.\n►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 10％.\n►Boosts own TP Boost by 15.\n►Dodges all physical attacks.
 
 ##EX##  
 イニシャライズディアブロ=Initialize Diablo
