@@ -1,0 +1,16 @@
+マスタリーガチャレベル=Mastery Gacha Level
+マスタリーチケットを集めて、マスタリーをGET！=Collect Mastery Tickets and Get Masteries!
+マスタリーガチャ=Mastery Level
+次のレベルまで=To the next level
+はい、お疲れ様。\nここではマスタリーチケットを\n使って、マスタリー強化素材を\n手に入れることができるわよ。=Yes, good work. Here, you can use the Mastery Ticket to obtain Mastery Enhancement Materials.
+マスタリーチケットが付与されました。=Mastery tickets have been awarded.
+ガチャ演出のスキップの設定です。=Setting to skip the gacha cut-scenes.
+演出スキップ設定=Cut-scenes Skip setting
+「まとめて引く」で引くガチャの回数の設定です。=This sets the number of gacha draws you can make by selecting "Multi draw."
+まとめてガチャ回数設定=Set the number of gachas at once
+スキップ設定をONにすると全ての演出が再生されなくなります。=If you turn on the Skip setting, all of the scenes will no longer be played.
+所持マスタリーチケット=My mastery ticket
+マスタリーガチャLvアップまで=Until Mastery Gacha Lv Up
+
+
+r:"^([0-9\,]+)回$"=$1 times

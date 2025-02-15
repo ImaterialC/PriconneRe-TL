@@ -1372,3 +1372,8 @@
 バトル開始時、狂乱の配信者=At the start of battle, Frenzied Streamer  
 自身の存在を絶対的なものにするべく、狂気を重ねる配信者。欲望にとり憑かれ、純粋な想いを持つ者たちに刃を向ける。=A streamer who accumulates madness to render its existence absolute. Possessed by desire, it turns its blade on those with pure hearts.
 
+ジオ・ニヴルヘルを徘徊する亡霊の集合体。生ある者をつけ狙い、深い闇の底に引きずり込む。=A wandering collective of spirits in Geo Niflhel. They prey on the living, dragging them into the depths of darkness.
+バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, slightly boosts all allies' P.DEF and M.DEF. The DEF boosted by this effect is unaffected by DEF-down skills during battle.
+ユニオンバーストは、敵全体にキャラの現在ＨＰに応じた魔法割合ダメージ。キャラのＨＰが50％未満の場合、混乱状態を付与。=Union Burst deals percentage M.DMG to all enemies based on their current HP. If an enemy's HP is below 50%, inflicts Confusion.
+敵全体に呪い状態を付与する。キャラのＨＰが50％未満の場合、長時間呪い状態を付与する。=Inflicts Curse on all enemies. If an enemy's HP is below 50%, inflicts a long-duration Curse.
+最も近い敵１キャラに魔法特大ダメージを与え、ＴＰを小ダウンさせる。さらに自身のＴＰを小回復する。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals massive M.DMG to the nearest enemy and slightly decreases their TP. Additionally, slightly recovers own TP. This skill decreases TP even if DMG is nullified.

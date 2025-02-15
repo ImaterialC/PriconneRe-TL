@@ -59,7 +59,7 @@ Anniversaryパックについて=About the anniversary pack
 30日間スタミナ応援パック購入=Buy 30-Days Stamina Pack
 30日間スタミナ応援パックについて=About 30 Days Stamina Pack
 30日間スタミナ応援パッ期間通知=30 Days Stamina Pack Period Notification
-  pack
+pack
 7日間探索挑戦回数+3回=7 days Grotto +3 pack
 7日間探索挑戦回数+3回購入=Buy 7 days Grotto +3 pack
 7日間探索挑戦回数+3回について=About 7 days Grotto +3 pack
@@ -70,6 +70,25 @@ Anniversaryパックについて=About the anniversary pack
 30日間探索挑戦回数+3回期間通知=30 days Grotto +3 pack Period Notification
 購入Lv制限あり=Purchase Lv Limit
 --- Anniv---
+7th Anniv. プリンセスフェスSPキャラ交換ガチャセット=7th Anniv. Princess Fes SP Character Exchange Gacha Set
+7th Anniv. スペシャルキャラ交換ガチャセット=7th Anniv. Special Character Exchange Gacha Set
+7th Anniversary 専用装備１グロウスフィアパック=7th Anniversary UE-1 Growsphere Pack
+毎月更新 ロールマスタリーパック=Monthly Updated Role Mastery Pack
+7th Anniversary プリンセスナイト強化パック=7th Anniversary Princess Knight Enhancement Pack
+7th Anniversary ★6キャラ育成パック=7th Anniversary ★6 Character Materials Pack
+7th Anniversary ピュアメモリーピースパック=7th Anniversary Pure Memory Shard Pack
+毎月更新 アストライアリングパック=Monthly Updated Astraea Ring Pack
+7th Anniv. EX★4装備パック 服・鎧=7th Anniv. EX★4 Equipment Pack: Clothes & Armor
+7th Anniv. EX★4装備パック 白ローブ・黒ローブ=7th Anniv. EX★4 Equipment Pack: White Robe & Black Robe
+7th Anniv. EX★4装備パック 両手剣・斧=7th Anniv. EX★4 Equipment Pack: Claymore & Axes
+7th Anniv. EX★4装備パック アクセサリー=7th Anniv. EX★4 Equipment Pack: Accessories
+7th Anniv. EX★4装備パック 短剣・拳=7th Anniv. EX★4 Equipment Pack: Daggers & Fists
+7th Anniv. EX★4装備パック 弓・本=7th Anniv. EX★4 Equipment Pack: Bows & Books
+7th Anniv. EX★4装備パック 盾・杖=7th Anniv. EX★4 Equipment Pack: Shields & Wand
+7th Anniv. EX★4装備パック 片手剣・槍=7th Anniv. EX★4 Equipment Pack: Swords & Spears
+2024 年末年始 属性強化パック=2024 New Year's Attribute Enhancement Pack
+
+
 EX★4装備パック=EX★4 Equipment Package
 r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
 r:"^([0-9.]+)周年 SPキャラ交換ガチャセット$"=$1th Anniversary SP Character Exchange Gacha Set
