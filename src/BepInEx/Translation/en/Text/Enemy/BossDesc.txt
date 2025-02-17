@@ -1103,7 +1103,7 @@
 ユニオンバーストは、最も近い敵１キャラを中心にした広範囲内の敵最大３キャラに物理大ダメージを与え、物理防御力を中ダウンさせる。さらに自身の物理防御力をバトル終了まで小アップさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Deals massive P.DMG to up to three enemies within a wide range centered on the nearest enemy and decreases their P.DEF. Additionally, Boosts own P.DEF until the end of battle. The status ailments caused by this skill are applied even if P.DMG is nullified.\n
 ユニオンバーストは、最も近い敵１キャラを中心にした広範囲内の敵最大３キャラに物理大ダメージを与える。=Union Burst: Deals massive P.DMG to up to three enemies within a wide range centered on the nearest enemy.\n
 前から２キャラに物理中ダメージを与え、ノックバックさせると同時にスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals P.DMG to two characters from the front, knock them back, and stun them at the same time. This skill's status ailments can be inflicted even if damage is nullified.\n
-ユニオンバーストは、敵全体にエリマキレックスの物理攻撃力に応じた物理割合ダメージを与える。=Union Burst:  percentage P.DMG to all opponents according to the P.ATK power of the Erimachirex.\n
+ユニオンバーストは、敵全体にエリマキレックスの物理攻撃力に応じた物理割合ダメージを与える。=Union Burst:\npercentage P.DMG to all opponents according to the P.ATK power of the Erimachirex.\n
 ジオ・ゲヘナに棲む恐竜魔物。頭のエリマキは威嚇だけでなく刃のように変形し獲物を両断する。=Dinosaur monsters that live in Gio Gehenna. The Erimachi on its head transforms into blades as well as intimidation, slicing its prey in half.\n
 
 レイザークロウ=Razor Claw
@@ -1336,44 +1336,127 @@
 
 
 
-マジムンと分身体がクリティカルダメージを受けるたびに、マジムンが保持する【吸魂】が１つ減少する。=Every time Majimun and her clone take critical damage, Majimuun loses one of the [Sucking Souls] she holds.
-残り時間が40秒を切ると、さらに攻撃が激しく狂暴になり、【吸魂】を20追加する。=When the remaining time was less than forty seconds, the attack became even more violent and violent, adding twenty more [Sucking Souls]
-攻撃を行うたびにマジムンに【吸魂】を１つ追加する分身体を３体召喚し、さらに敵全体を小さくノックバックする。=Each time I attack, I summon three bodies to add one more [Sucking Soul] to the Majimun, then knock back the entire enemy a little.
-敵全体に魔法小ダメージを与え、ＴＰをダウンさせ、さらにＴＰ上昇ダウンフィールドを展開する。ＴＰのダウン量とフィールドの効果値は、マジムンが保持している【吸魂】の数が多い程強化される。このスキルによるダメージでは、ＴＰが回復しない。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals minor damage to an entire enemy, lowers TP, and deploys a TP-increasing downfield. The amount of TP down and the field's effects increase the number of [Sucking Souls] Majimun holds. Damage from this skill will not restore TP. This skill will decrease TP even if it nullifies damage.
-ユニオンバーストは、敵全体にマジムンが保持している【吸魂】の数とキャラの最大ＨＰに応じた魔法割合ダメージを与える。さらに【吸魂】を10追加する。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals a percentage of magic damage based on the maximum HP of the character and the number of Absorption Souls held by the Majimun throughout the opponent. Adds 10 additional Inspirators. DMG from this skill will not restore TP.
+マジムンと分身体がクリティカルダメージを受けるたびに、マジムンが保持する【吸魂】が１つ減少する。=Every time Majimun and her clone take critical damage, Majimuun loses one of the [Sucking Souls] she holds.\n
+残り時間が40秒を切ると、さらに攻撃が激しく狂暴になり、【吸魂】を20追加する。=When the remaining time was less than forty seconds, the attack became even more violent and violent, adding twenty more [Sucking Souls]\n
+攻撃を行うたびにマジムンに【吸魂】を１つ追加する分身体を３体召喚し、さらに敵全体を小さくノックバックする。=Each time I attack, I summon three bodies to add one more [Sucking Soul] to the Majimun, then knock back the entire enemy a little.\n
+敵全体に魔法小ダメージを与え、ＴＰをダウンさせ、さらにＴＰ上昇ダウンフィールドを展開する。ＴＰのダウン量とフィールドの効果値は、マジムンが保持している【吸魂】の数が多い程強化される。このスキルによるダメージでは、ＴＰが回復しない。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals minor damage to an entire enemy, lowers TP, and deploys a TP-increasing downfield. The amount of TP down and the field's effects increase the number of [Sucking Souls] Majimun holds. Damage from this skill will not restore TP. This skill will decrease TP even if it nullifies damage.\n
+ユニオンバーストは、敵全体にマジムンが保持している【吸魂】の数とキャラの最大ＨＰに応じた魔法割合ダメージを与える。さらに【吸魂】を10追加する。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals a percentage of magic damage based on the maximum HP of the character and the number of Absorption Souls held by the Majimun throughout the opponent. Adds 10 additional Inspirators. DMG from this skill will not restore TP.\n
 通常攻撃を行うたびに【吸魂】を６つ追加する。=Each normal attack adds another six [Sucking Souls].
-マジムンが保持している【吸魂】ステータスの数に応じて、通常攻撃と各スキルの効果が強化される。=Depending on the number of [Sucking Soul] statuses Majimun holds, the effects of normal attacks and each skill will be strengthened.
-マジムンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=This reduces party members' TP recovery rate from all damage taken by Majimun.
-善良なる魂を餌食とする、凶々しき悪霊。より良き贄を求め、体躯を幾多にも分かち蠢く。=A ferocious evil spirit that preys on good souls. Seeking better sacrifices, it splits and wriggles its body in many ways.
+マジムンが保持している【吸魂】ステータスの数に応じて、通常攻撃と各スキルの効果が強化される。=Depending on the number of [Sucking Soul] statuses Majimun holds, the effects of normal attacks and each skill will be strengthened.\n
+マジムンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=This reduces party members' TP recovery rate from all damage taken by Majimun.\n
+善良なる魂を餌食とする、凶々しき悪霊。より良き贄を求め、体躯を幾多にも分かち蠢く。=A ferocious evil spirit that preys on good souls. Seeking better sacrifices, it splits and wriggles its body in many ways.\n
 
 
 
 
-ユニオンバーストは、最も近い敵１キャラを中心にした小範囲内の敵すべてに物理特大ダメージを与え、さらに最も近い敵１キャラに物理特大ダメージを与える。=Union Burst: Deals massive P.DMG to all enemies within a small range centered on the nearest enemy, and then deals massive P.DMG to the nearest enemy.  
-ロクス（複部位）の残りＨＰが40％以下になると、さらに防御力が上がり頑強になる。=When Rox (Multi-part)'s remaining HP falls to 40% or less, its defense increases further, making it even more resilient.  
-ロクス（複部位）から受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively reduces the TP recovery of party characters from all damage taken from Rox (Multi-part).  
-覇瞳皇帝が生み出した動く力の貯蔵庫。双肩の権能を司り、広闊たる領域で全てを屠る。=A moving repository of power created by the Dominant-Eyed Emperor. It commands the power of its twin shoulders, slaughtering everything within its vast domain.  
-このバトルのモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively reduces the TP recovery of party characters from all damage taken from the monsters in this battle.  
-バトル開始時、ぺんぽこりんを召喚する。召喚時、前方中範囲内の敵すべてをノックバックさせる。ぺんぽこりんは最も近い敵１キャラに物理大ダメージを与える。=At the start of battle, summons Penpokorin. Upon summoning, knocks back all enemies within a medium range in front. Penpokorin deals heavy P.DMG to the nearest enemy.  
-ユニオンバーストは、ランダムな敵キャラに、単体物理中ダメージを計７回与える。さらに、ぺんぽこりんの物理攻撃力を特大アップさせ、行動速度を大アップさせる。=Union Burst: Deals moderate P.DMG to a random enemy a total of 7 times. Additionally, massively boosts Penpokorin's P.ATK and greatly increases its action speed.  
-ランダムな敵キャラに、単体物理小ダメージを計３回与える。=Deals slight P.DMG to a random enemy a total of 3 times.  
-常に明朗快活、誰とでも友達になれる溌溂少女。回転式銃を愛用し、単独で飽和攻撃を仕掛ける。=A perpetually cheerful and vivacious girl who can befriend anyone. She favors a revolver and launches overwhelming solo attacks.  
-残りＨＰ割合が最も少ない敵３キャラに哀執のバロメッツの【憂いの棘】の数に応じた物理割合ダメージを与える。=Deals percentage P.DMG to the 3 enemies with the lowest remaining HP, based on the number of [Spikes of Melancholy] on Aiseki's Baromettes.  
-最も近い敵３キャラに哀執のバロメッツの【憂いの棘】の数に応じた物理割合ダメージを与える。=Deals percentage P.DMG to the 3 nearest enemies, based on the number of [Spikes of Melancholy] on Aiseki's Baromettes.  
-哀執のバロメッツの残りＨＰが25％以下になると、哀執のバロメッツに【憂いの棘】を20個追加する。=When Aiseki's Baromettes' remaining HP falls to 25% or below, adds 20 [Spikes of Melancholy] to them.  
-カガミの【いいね】が５個減少する。=Reduces Kagami's [Likes] by 5.  
-カガミが毒、猛毒、呪い、火傷、呪詛の効果を受けると、狂乱の配信者=When Kagami is afflicted with the effects of poison, venom, curse, burn, or hex, Frenzied Streamer  
-カガミに【いいね】を５個付与する。=grants Kagami 5 [Likes].  
-前方２キャラに物理大ダメージを与え、狂乱の配信者=Deals heavy P.DMG to 2 enemies in front, Frenzied Streamer  
-カガミに【いいね】を10個付与する。さらに、【いいね】の数に応じて自身の物理攻撃力とＴＰをアップする。=grants Kagami 10 [Likes]. Additionally, increases its own P.ATK and TP based on the number of [Likes].  
-カガミの物理防御力と魔法防御力を特大ダウンし、狂乱の配信者=Massively reduces Kagami's P.DEF and M.DEF, Frenzied Streamer  
-カガミの【いいね】の数に応じてダメージ量がアップする。さらに【いいね】を15個付与する。=increases damage based on Kagami's [Likes]. Additionally, grants 15 [Likes].  
-ユニオンバーストは、目の前の敵１キャラに物理特大ダメージを与える。狂乱の配信者=Union Burst: Deals massive P.DMG to the enemy in front, Frenzied Streamer  
-バトル開始時、狂乱の配信者=At the start of battle, Frenzied Streamer  
-自身の存在を絶対的なものにするべく、狂気を重ねる配信者。欲望にとり憑かれ、純粋な想いを持つ者たちに刃を向ける。=A streamer who accumulates madness to render its existence absolute. Possessed by desire, it turns its blade on those with pure hearts.
+ユニオンバーストは、最も近い敵１キャラを中心にした小範囲内の敵すべてに物理特大ダメージを与え、さらに最も近い敵１キャラに物理特大ダメージを与える。=Union Burst: Deals massive P.DMG to all enemies within a small range centered on the nearest enemy, and then deals massive P.DMG to the nearest enemy.\n
+ロクス（複部位）の残りＨＰが40％以下になると、さらに防御力が上がり頑強になる。=When Rox (Multi-part)'s remaining HP falls to 40% or less, its defense increases further, making it even more resilient.\n
+ロクス（複部位）から受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively reduces the TP recovery of party characters from all damage taken from Rox (Multi-part).\n
+覇瞳皇帝が生み出した動く力の貯蔵庫。双肩の権能を司り、広闊たる領域で全てを屠る。=A moving repository of power created by the Dominant-Eyed Emperor. It commands the power of its twin shoulders, slaughtering everything within its vast domain.\n
+このバトルのモンスターから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively reduces the TP recovery of party characters from all damage taken from the monsters in this battle.\n
+バトル開始時、ぺんぽこりんを召喚する。召喚時、前方中範囲内の敵すべてをノックバックさせる。ぺんぽこりんは最も近い敵１キャラに物理大ダメージを与える。=At the start of battle, summons Penpokorin. Upon summoning, knocks back all enemies within a medium range in front. Penpokorin deals heavy P.DMG to the nearest enemy.\n
+ユニオンバーストは、ランダムな敵キャラに、単体物理中ダメージを計７回与える。さらに、ぺんぽこりんの物理攻撃力を特大アップさせ、行動速度を大アップさせる。=Union Burst: Deals moderate P.DMG to a random enemy a total of 7 times. Additionally, massively boosts Penpokorin's P.ATK and greatly increases its action speed.\n
+ランダムな敵キャラに、単体物理小ダメージを計３回与える。=Deals slight P.DMG to a random enemy a total of 3 times.\n
+常に明朗快活、誰とでも友達になれる溌溂少女。回転式銃を愛用し、単独で飽和攻撃を仕掛ける。=A perpetually cheerful and vivacious girl who can befriend anyone. She favors a revolver and launches overwhelming solo attacks.\n
+残りＨＰ割合が最も少ない敵３キャラに哀執のバロメッツの【憂いの棘】の数に応じた物理割合ダメージを与える。=Deals percentage P.DMG to the 3 enemies with the lowest remaining HP, based on the number of [Spikes of Melancholy] on Aiseki's Baromettes.\n
+最も近い敵３キャラに哀執のバロメッツの【憂いの棘】の数に応じた物理割合ダメージを与える。=Deals percentage P.DMG to the 3 nearest enemies, based on the number of [Spikes of Melancholy] on Aiseki's Baromettes.\n
+哀執のバロメッツの残りＨＰが25％以下になると、哀執のバロメッツに【憂いの棘】を20個追加する。=When Aiseki's Baromettes' remaining HP falls to 25% or below, adds 20 [Spikes of Melancholy] to them.\n
+カガミの【いいね】が５個減少する。=Reduces Kagami's [Likes] by 5.\n
+カガミが毒、猛毒、呪い、火傷、呪詛の効果を受けると、狂乱の配信者=When Kagami is afflicted with the effects of poison, venom, curse, burn, or hex, Frenzied Streamer\n
+カガミに【いいね】を５個付与する。=grants Kagami 5 [Likes].\n
+前方２キャラに物理大ダメージを与え、狂乱の配信者=Deals heavy P.DMG to 2 enemies in front, Frenzied Streamer\n
+カガミに【いいね】を10個付与する。さらに、【いいね】の数に応じて自身の物理攻撃力とＴＰをアップする。=grants Kagami 10 [Likes]. Additionally, increases its own P.ATK and TP based on the number of [Likes].\n
+カガミの物理防御力と魔法防御力を特大ダウンし、狂乱の配信者=Massively reduces Kagami's P.DEF and M.DEF, Frenzied Streamer\n
+カガミの【いいね】の数に応じてダメージ量がアップする。さらに【いいね】を15個付与する。=increases damage based on Kagami's [Likes]. Additionally, grants 15 [Likes].\n
+ユニオンバーストは、目の前の敵１キャラに物理特大ダメージを与える。狂乱の配信者=Union Burst: Deals massive P.DMG to the enemy in front, Frenzied Streamer\n
+バトル開始時、狂乱の配信者=At the start of battle, Frenzied Streamer\n
+自身の存在を絶対的なものにするべく、狂気を重ねる配信者。欲望にとり憑かれ、純粋な想いを持つ者たちに刃を向ける。=A streamer who accumulates madness to render its existence absolute. Possessed by desire, it turns its blade on those with pure hearts.\n
 
-ジオ・ニヴルヘルを徘徊する亡霊の集合体。生ある者をつけ狙い、深い闇の底に引きずり込む。=A wandering collective of spirits in Geo Niflhel. They prey on the living, dragging them into the depths of darkness.
-バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, slightly boosts all allies' P.DEF and M.DEF. The DEF boosted by this effect is unaffected by DEF-down skills during battle.
-ユニオンバーストは、敵全体にキャラの現在ＨＰに応じた魔法割合ダメージ。キャラのＨＰが50％未満の場合、混乱状態を付与。=Union Burst deals percentage M.DMG to all enemies based on their current HP. If an enemy's HP is below 50%, inflicts Confusion.
-敵全体に呪い状態を付与する。キャラのＨＰが50％未満の場合、長時間呪い状態を付与する。=Inflicts Curse on all enemies. If an enemy's HP is below 50%, inflicts a long-duration Curse.
-最も近い敵１キャラに魔法特大ダメージを与え、ＴＰを小ダウンさせる。さらに自身のＴＰを小回復する。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals massive M.DMG to the nearest enemy and slightly decreases their TP. Additionally, slightly recovers own TP. This skill decreases TP even if DMG is nullified.
+ジオ・ニヴルヘルを徘徊する亡霊の集合体。生ある者をつけ狙い、深い闇の底に引きずり込む。=A wandering collective of spirits in Geo Niflhel. They prey on the living, dragging them into the depths of darkness.\n
+バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, slightly boosts all allies' P.DEF and M.DEF. The DEF boosted by this effect is unaffected by DEF-down skills during battle.\n
+ユニオンバーストは、敵全体にキャラの現在ＨＰに応じた魔法割合ダメージ。キャラのＨＰが50％未満の場合、混乱状態を付与。=Union Burst deals percentage M.DMG to all enemies based on their current HP. If an enemy's HP is below 50%, inflicts Confusion.\n
+敵全体に呪い状態を付与する。キャラのＨＰが50％未満の場合、長時間呪い状態を付与する。=Inflicts Curse on all enemies. If an enemy's HP is below 50%, inflicts a long-duration Curse.\n
+最も近い敵１キャラに魔法特大ダメージを与え、ＴＰを小ダウンさせる。さらに自身のＴＰを小回復する。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals massive M.DMG to the nearest enemy and slightly decreases their TP. Additionally, slightly recovers own TP. This skill decreases TP even if DMG is nullified.\n
+
+
+通常攻撃は最も近い敵１キャラに物理中ダメージを与え、毒状態を付与し、行動速度を小ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Normal Attack deals moderate P.DMG to the nearest enemy, inflicts Poison, and slightly lowers Action Speed. This skill's status ailments are applied even if DMG is nullified.\n
+
+最も近い敵１キャラに物理大ダメージを与え、物理防御力を大ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals massive P.DMG to the nearest enemy and greatly lowers their P.DEF. This skill's effects are applied even if DMG is nullified.\n
+
+ユニオンバーストは、召喚体、分身を除いた最も近い敵１キャラに物理特大ダメージを与える。その後、召喚体、分身を除いた敵全体にこのスキルで与えたダメージ量に応じた物理ダメージを与える。=Union Burst deals extreme P.DMG to the nearest enemy (excluding summons/clones). Then deals P.DMG to all enemies (excluding summons/clones) based on the DMG dealt by this skill.\n
+
+回避の影響を受けやすい。=Highly susceptible to evasion effects.\n
+
+深域の魔力で狂化した、海洋族の狂戦士。獰猛な雄叫びとともに、猛々しく拳撃を繰り出す。=A berserker of the marine tribe, driven mad by abyssal magic. With ferocious roars, he unleashes fierce punches.\n
+
+オブシダンワイバーンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively decreases party members' TP recovery from all DMG taken from Obsidian Wyvern.\n
+
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、さらにＴＰを中ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals percentage M.DMG to all enemies based on their max HP and moderately decreases TP. TP decrease occurs even if DMG is nullified. Damage from this skill does not recover TP.\n
+
+敵全体のＨＰ吸収を特大ダウンさせ、さらに物理防御力を大ダウンさせる。=Massively decreases all enemies' HP absorption and greatly lowers their P.DEF.\n
+
+物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い１キャラに物理大ダメージを与える。さらにそのキャラを中心にした小範囲内の敵すべてに物理中ダメージを与え、ＴＰを小ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals massive P.DMG to the enemy with highest ATK (P.ATK/M.ATK). Deals moderate P.DMG and slightly decreases TP to all enemies in a small area around target. TP decrease occurs even if DMG is nullified.\n
+
+魔力を宿せし黒曜の結晶竜。美しい体躯の輝きは冥府を彷徨いし魂の嘆きといわれている。=An obsidian crystalline dragon imbued with magic. Its radiant form is said to embody the lamentations of souls wandering the underworld.\n
+
+ユニオンバーストは、飛行状態のキャラを含む敵全体のステータスアップ効果を解除し、自身の物理攻撃力に応じた物理割合ダメージと自身の魔法攻撃力に応じた魔法割合ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst removes status-up effects from all enemies (including flying units), dealing percentage P.DMG based on own P.ATK and percentage M.DMG based on own M.ATK. Damage from this skill does not recover TP.\n
+
+自身の物理攻撃力、魔法攻撃力をバトル終了まで小アップさせ、自身のＴＰを中回復させる。タフガイスト自身に継続ダメージが付与されていない場合、さらに物理防御力、魔法防御力をバトル終了まで小アップさせる。=Slightly boosts own P.ATK and M.ATK until battle ends, and moderately recovers own TP. If Tough Guy is not under continuous DMG, also slightly boosts own P.DEF and M.DEF until battle ends.\n
+
+ユニオンバーストは、最も近い敵１キャラを中心にした小範囲内の敵すべてに物理特大ダメージを与え、スタン状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals extreme P.DMG and inflicts Stun to all enemies in a small area around the nearest target. Stun is applied even if DMG is nullified.\n
+
+最も近い敵１キャラを中心にした小範囲内の敵すべてに物理小ダメージを与え、物理防御力を特大ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals minor P.DMG and massively lowers P.DEF to all enemies in a small area around the nearest target. Effects are applied even if DMG is nullified.\n
+
+ユニオンバーストは、飛行状態のキャラを含む敵全体に魔法大ダメージを与え、さらに麻痺状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large M.DMG and inflicts Paralysis to all enemies (including flying units). Damage from this skill does not recover TP. Paralysis is applied even if DMG is nullified.\n
+
+召喚体、分身を除いた最も近い敵２キャラに魔法小ダメージを与え、ノックバックさせ、さらに魔法中ダメージを与える。=Deals minor M.DMG and knocks back the two nearest enemies (excluding summons/clones), followed by moderate M.DMG.\n
+
+通常攻撃は、召喚体、分身を除いた最も近い敵２キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Normal Attack deals moderate M.DMG and slightly lowers M.DEF to two nearest enemies (excluding summons/clones). Effects are applied even if DMG is nullified.\n
+
+敵全体の物理攻撃力と魔法攻撃力を大ダウンさせ、自身の行動速度を大アップさせる。=Greatly lowers all enemies' P.ATK and M.ATK while massively boosting own Action Speed.\n
+
+ベノムサラマンドラから受けるすべての状態異常とステータスダウン効果は、ダメージを無効化しても付与される。=All status ailments and debuffs from Venom Salamander are applied even if DMG is nullified.\n
+
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、猛毒状態を付与する。さらに、キャラのＨＰが70％未満の場合、最大ＨＰをバトル終了まで20％ダウンさせる。キャラのＨＰが70％以上の場合、最大ＨＰをバトル終了まで10％ダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals percentage M.DMG based on max HP and inflicts Deadly Poison to all enemies. Enemies below 70% HP get -20% max HP until battle ends; others get -10%. Damage from this skill does not recover TP.\n
+
+最も近い敵３キャラにキャラの最大ＨＰに応じた魔法割合ダメージを与え、物理攻撃力と魔法攻撃力を中ダウン、ＨＰ吸収を特大ダウンさせ、毒状態を付与する。さらに自身のＴＰを中回復する。=Deals percentage M.DMG based on max HP to three nearest enemies, moderately lowers P.ATK/M.ATK, massively decreases HP absorption, and inflicts Poison. Moderately recovers own TP.\n
+
+ユニオンバーストは、飛行状態のキャラを含む、物理攻撃をする敵全体に自身の物理防御力に応じたダメージを与える火傷状態を付与し、魔法攻撃をする敵全体に自身の魔法防御力に応じたダメージを与える火傷状態を付与する。さらに、敵全体のＨＰ吸収を特大ダウンさせる。このスキルにより付与された火傷のダメージではＴＰが回復しない。=Union Burst inflicts Burn to all physical attackers (including flying units) dealing DMG based on own P.DEF, and Burn to all magic attackers dealing DMG based on own M.DEF. Massively decreases all enemies' HP absorption. Burn DMG from this skill does not recover TP.\n
+
+敵全体に物理小ダメージを与え、ノックバックさせる。さらに、最も近い敵１キャラに追加の魔法固定ダメージを与える。このスキルによるダメージでは、敵のＴＰが回復しない。このスキルはダメージを無効化してもノックバックされる。=Deals minor P.DMG and knocks back all enemies. Deals additional fixed M.DMG to nearest enemy. DMG from this skill does not recover enemies' TP. Knockback occurs even if DMG is nullified.\n
+
+陽卵の付与する呪いおよび呪詛のダメージでは、キャラのＴＰが回復しない。=DMG from Yang-Egg's Curse and Cursed effects does not recover characters' TP.\n
+
+穢れし湯ノ神=Defiled Hot Spring Deity\n
+
+自身に近い敵３キャラに物理中ダメージを与える。=Deals moderate P.DMG to three enemies near self.\n
+
+自身に近い敵３キャラに物理中ダメージを与える。敵のＨＰが30％未満の場合、混乱状態にする。=Deals moderate P.DMG to three enemies near self. Enemies below 30% HP are inflicted with Confusion.\n
+
+敵全体に魔法小ダメージを与え、呪い状態を付与する。=Deals minor M.DMG and inflicts Curse on all enemies.\n
+
+ユニオンバーストは、敵全体に魔法特大ダメージを与え、呪い状態を付与する。既に呪い状態の敵には代わりに呪詛状態を付与する。呪詛による継続ダメージは毎秒ごとに増加する。=Union Burst deals extreme M.DMG and inflicts Curse on all enemies. Enemies already Cursed receive Cursed instead. Cursed DMG increases every second.\n
+
+『神酔』の力でタガが外れた温泉の神。その身に溜め込んだ罪と穢れを解き放ち、忘年会会場を大混乱の渦に陥れる。=A hot spring deity unhinged by divine intoxication. Unleashing centuries of accumulated sins and corruption, it plunges the year-end party into chaos.\n
+
+ユニオンバーストは、敵全体に魔法大ダメージを与え、さらに行動速度を中ダウン、魔法防御力を小ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large M.DMG to all enemies, moderately lowers Action Speed, and slightly lowers M.DEF. Debuffs are applied even if DMG is nullified.\n
+
+自身の魔法攻撃力を小アップ、行動速度を大アップさせる。=Slightly boosts own M.ATK and massively boosts Action Speed.\n
+
+前から１番目のキャラに魔法中ダメージ。=Deals moderate M.DMG to the frontmost character.\n
+
+向かって左側のターゲットのブレイク時、物理/魔法防御力が中ダウン。=When left-side target is broken: Moderately lowers P.DEF/M.DEF.\n
+
+中央下部のターゲットのブレイク時、物理/魔法防御力が大ダウン。=When lower-center target is broken: Greatly lowers P.DEF/M.DEF.\n
+
+中央上部のターゲットのブレイク時、物理/魔法防御力が大ダウン。=When upper-center target is broken: Greatly lowers P.DEF/M.DEF.\n
+
+向かって右側のターゲットのブレイク時、物理/魔法防御力が特大ダウン。=When right-side target is broken: Massively lowers P.DEF/M.DEF.\n
+
+思い出の中へ囚われゆくランドソルに突如として現れた異質な魔物。楽園を護らんと冷たく硬い両槍で解放者たちを拒絶する。=An aberrant fiend that manifested in Landsol as memories collapse. Wielding frigid twin lances, it repels liberators to preserve its twisted paradise.\n
+
+永遠の幸福に満ちた楽園の創造主。未来を拒み、己が姿を変え、明日を望む者たちの行く手を阻む。=Architect of an eternal utopia. Rejecting progress, it reshapes its form to block those seeking tomorrow.\n
+
+ユニオンバーストは、敵全体のバリアを解除し、敵全体に自身の魔法攻撃力とキャラの最大ＨＰに応じた魔法割合ダメージを与える。敵のＨＰが50％未満の場合、束縛状態にする。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst removes all enemy barriers, deals percentage M.DMG based on own M.ATK and enemies' max HP. Enemies below 50% HP are Bound. Bind applies even if DMG is nullified.\n
+
+敵全体のステータスアップ効果を解除した後、敵全体に魔法小ダメージを与え、沈黙状態を付与する。さらに、自身の物理防御力と魔法防御力を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Removes all enemy buffs, deals minor M.DMG and inflicts Silence to all enemies. Moderately lowers own P.DEF/M.DEF. Silence applies even if DMG is nullified.\n

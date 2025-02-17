@@ -11,6 +11,10 @@
 スキップ設定をONにすると全ての演出が再生されなくなります。=If you turn on the Skip setting, all of the scenes will no longer be played.
 所持マスタリーチケット=My mastery ticket
 マスタリーガチャLvアップまで=Until Mastery Gacha Lv Up
-
+ガチャ結果へ=To the gacha results
+入手マスタリー 一覧=Obtained Mastery List
+オールマスタリー=All Mastery
+ガチャ結果詳細=Gacha Results Details
+マスタリーチケットが不足しています。=Running out of mastery tickets.
 
 r:"^([0-9\,]+)回$"=$1 times

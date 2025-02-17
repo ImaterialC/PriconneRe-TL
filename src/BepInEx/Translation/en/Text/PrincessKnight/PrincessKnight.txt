@@ -12,6 +12,7 @@
 光属性攻撃力=Light Attribute Power
 闇属性攻撃力=Dark Attribute Power
 
+属性=Element
 未強化=Unenhanced
 このノードは強化済みです。=This node has been strengthened.
 所持シャード=Shards Held

@@ -39,6 +39,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 キャンペーン中=Campaign
 
 ★3クリアで使用できます。=Available after clearing with 3★.
+スキップ可能なクエストがありません。=There are no Skipable Quests.
 スキップ=Skip
 同キャラ\n編成中=Already\nAssigned
 バトル開始=Begin Battle

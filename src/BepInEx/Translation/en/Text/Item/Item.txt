@@ -58,14 +58,20 @@ r:"^キャラのLv強化に使用すると、キャラEXPが([0-9,]+)加算さ�
 r:"^ギルドハウス内で使用すると、キャラの絆Ptが([0-9,]+)加算される。$"=Used in the Guildhouse. Adds $1 character's bond points.
 r:"^キャラの装備強化に使用すると、装備強化Ptが([0-9,]+)加算される。$"=Used to refine a character's equipment. Adds $1 equipment refinement points.
 
-r:"^ギルドハウスやキャラの強化画面で使用すると、\nキャラの絆Ptが([0-9,]+)加算される。$"=When used in the guild house or character strengthening screen, the character's bond points will be increased by $1.
+r:"^ギルドハウスやキャラの強化画面で使用すると、キャラの絆Ptが([0-9,]+)加算される。$"=When used in the guild house or character strengthening screen, the character's bond points will be increased by $1.
+
+sr:"^(.+?)ロールのマスタリー強化用素材。(.+?)(?:アップ)?の強化に使用できる。$"=A material used for $1 role mastery enhancement. Can be used to enhance their $2.
+マスタリー強化用素材。全てのロールの強化に使用できる。=A material used for mastery enhancement. Can be used to enhance all roles.
+
 
 アルケス錬金堂の最高の秘術である究極錬成において使用される宝玉。装備の効果自体を物質化したもので特殊な武具に付与することが可能。=A jewel used in the Ultimate Synthesis, the most powerful technique of the Atelier Alces. It is a materialized version of the effects of the equipment itself and can be applied to special weapons.
 
-クリアランク★3を獲得したクエス\nトの、プレイ時間をスキップするチケット。=A ticket that can skip quests that have a 3★ clear rank.
-プラチナガチャやピックアップガ\nチャを1回引くことができるガチャチケット。=A gacha ticket that can be used to draw the Premium or Focus Gacha.
-アドベンチャーのクエストにかかる\n時間を短縮することができるチケッ\nト。=A ticket that reduces the time required to complete an adventure quest.
+クリアランク★3を獲得したクエストの、プレイ時間をスキップするチケット。=A ticket that can skip quests that have a 3★ clear rank.
+プラチナガチャやピックアップガチャを1回引くことができるガチャチケット。=A gacha ticket that can be used to draw the Premium or Focus Gacha.
+アドベンチャーのクエストにかかる時間を短縮することができるチケット。=A ticket that reduces the time required to complete an adventure quest.
+特定のキャラのピュアメモリーピースを交換できるチケット。=A ticket that can be exchanged for Pure Memory Shards of specific characters.
 
+特定のEX★5武器と交換できるチケット。=A ticket that can be exchanged for specific EX 5★ weapons.
 キャラ専用装備の作成に必要なアイ\nテム。=An item necessary for creating character-exclusive equipment.
 古より伝わる、装備者の力の極限を\n超えて引き上げるとされる指輪。装\n備するとプレイヤーLvを超えてキャ\nラLv限界突破が可能。=A ring handed down since ancient times, said to raise the limit of the wearer's power beyond the maximum. When equipped, it allows the character to break through their level cap beyond the player's level.
 

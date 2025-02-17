@@ -8,10 +8,10 @@ sr:"^【(物理|魔法|回復|ＭＯＤＥ１|ＭＯＤＥ２|ＭＯＤＥ３)�
 回復=Healer
 【補助】=[Support]
 【召喚】=[Summon]
-【防御】=[Tanker]
+【防御】=[Tank]
 【範囲】=[Area]
-【魔法防御】=[Magic Tanker]
-【物理防御】=[Physical Tanker]
+【魔法防御】=[Magic Tank]
+【物理防御】=[Physical Tank]
 【中距離】=[Mid-range]
 【妨害】=[Obstruction]
 【遠距離】=[Long-range]

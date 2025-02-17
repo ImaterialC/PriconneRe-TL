@@ -5,9 +5,6 @@
 ロールマスタリー=Role Mastery
 今後のアップデートで解放予定です。=It will be released in a future update.
 
-キャラ全員に、バトル中の特徴を表すロールが解放されましたよ。\nロールはアタッカー・ブレイカー・バッファー・デバッファー・\nブースター・ヒーラー・タンク・ジャマーの８つがございます。=All characters now have access to roles that represent their characteristics in battle. The roles are: Attacker, Breaker, Buffer, Debuffer, Booster, Healer, Tank, and Jammer.
-各ロールにはステータス上昇に繋がる「マスタリー」が備わっておりま\nす。ロールマスタリーでは専用アイテムを用いてマスタリーの強化が行\nえますよ。低レベルアイテムは集めて高レベルに変換できるのだとか。=Each role has a "Mastery" that enhances stats. Role Mastery can be strengthened using exclusive items. Low-level items can be collected and converted into higher-level ones.
-マスタリー強化アイテムは、様々なコンテンツから獲得できるマスタリー\nチケットを消費して、マスタリーガチャから入手できます。全てのマスタ\nリーの強化に使える「オールマスタリー」もこちらから入手できますよ。=Mastery strengthening items can be obtained from the Mastery Gacha by spending Mastery Tickets, which are earned from various content. "All Mastery," which can be used to strengthen all masteries, is also available here.
 必要なアイテムを所持していません。=You do not have the required items.
 オールマスタリーを使用する=Use All Mastery
 強化の条件を設定します。=Set the enhancement conditions.
@@ -24,9 +21,31 @@
 デバッファー=Debuffer
 ブースター=Booster
 ヒーラー=Healer
-タンク=Tanker
+タンク=Tank
 ジャマー=Jammer
 
-sr:"^【(.+)】(.{2,10})アップLv(\d+)$"=[$1] $2 Boost Lv $3
+マスタリー=Mastery 
+クリダメ=Critical Damage
+クリティカル=Critical Rate
+通常攻撃強化=Normal Attack
+与ダメージ=Damage Dealt
+与ダメ=Damage Dealt
+バフ強化=Buff
+デバフ強化=Debuff
+ＴＰチャージ=TP Charge
+回復強化=Recovery
+状態異常抵抗=Status Ailment Resistance
+状態異常命中=Status Ailment Accuracy
+
+
+
+r:"^オールマスタリーLv(\d+)$"=All-Mastery Lv $1
+sr:"^【(.+)】(.+?)(?:アップ)?(マスタリー)?Lv(\d+)$"=[$1] $2 Up $3 Lv $4
+
+
+以下のアイテムを消費して強化しますか？=Would you like to use the following items to strengthen it?
 
 Kokkoro Tutorial
+キャラ全員に、バトル中の特徴を表すロールが解放されましたよ。\nロールはアタッカー・ブレイカー・バッファー・デバッファー・\nブースター・ヒーラー・タンク・ジャマーの８つがございます。=All characters now have access to roles that represent their characteristics in battle. The roles are: Attacker, Breaker, Buffer, Debuffer, Booster, Healer, Tank, and Jammer.
+各ロールにはステータス上昇に繋がる「マスタリー」が備わっておりま\nす。ロールマスタリーでは専用アイテムを用いてマスタリーの強化が行\nえますよ。低レベルアイテムは集めて高レベルに変換できるのだとか。=Each role has a "Mastery" that enhances stats. Role Mastery can be strengthened using exclusive items. Low-level items can be collected and converted into higher-level ones.
+マスタリー強化アイテムは、様々なコンテンツから獲得できるマスタリー\nチケットを消費して、マスタリーガチャから入手できます。全てのマスタ\nリーの強化に使える「オールマスタリー」もこちらから入手できますよ。=Mastery strengthening items can be obtained from the Mastery Gacha by spending Mastery Tickets, which are earned from various content. "All Mastery," which can be used to strengthen all masteries, is also available here.
