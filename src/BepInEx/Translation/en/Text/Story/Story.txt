@@ -38,7 +38,6 @@ sr:"^(.+)が\n?解放可能になりました。$"=$1\nhas been unlocked.
 メインクエスト2-1\n（NORMAL）クリア\nまたは期間限定\nイベント参加で解放=Unlock by clearing\nMain Quest\n2-1 (NORMAL)\nor participating in\na limited time event
 メインクエスト2-1\n（NORMAL）クリア\nまたは特別な\nイベント視聴で解放=Unlock by clearing\nMain Quest\n2-1 (NORMAL)\nor participating in\na limited time event
 
-エリア最終クエストのためオート進行を終了しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Reach the end area and Auto Advance has concluded. The total stamina used by this Auto Advance. ※Stamina used for retreats and loses is not included.
 r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Story\nhas been unlocked.
 エクストラストーリーから閲覧できます。=You can browse from the Extra Story.
 このストーリーは閲覧済みの場合のみスキップ可能です。=This story can be skipped only if you have watch.

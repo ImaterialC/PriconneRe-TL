@@ -33,6 +33,8 @@
 バフ強化=Buff
 デバフ強化=Debuff
 ＴＰチャージ=TP Charge
+TPチャージ=TP Charge
+HPチャージ=HP Charge
 回復強化=Recovery
 状態異常抵抗=Status Ailment Resistance
 状態異常命中=Status Ailment Accuracy

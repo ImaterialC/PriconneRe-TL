@@ -19,11 +19,21 @@ sr:"^オート進行で(メイン|イベント)(前編|後編)?クエスト(.+)�
 イベントストーリー解放時にオート進行を停止するか設定します。=Set whether to stop the Auto Advance when the event story is released.
 イベントストーリー解放時のオート進行停止設定=Auto Advance Suspension Setting When the Event Story is Released
 オート進行設定中はサポートキャラを編成できません。=Can't select support character while doing Auto Advance mode
-オート進行を停止しますか？\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Do you want to stop the Auto Advance?\nThe following Stamina consumption has already been processed by this Auto Advance.\n※Does not include Stamina consumed upon Retire or defeat.
-敗北のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Due to defeat, Auto-Advance has been suspended. The following Stamina consumption has been carried out according to this Auto-Advance. ※Stamina consumption at the time of retirement and lose is not included.
-スタミナ不足のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to insufficient stamina.\nThe following stamina was consumed during this auto progression.\n※Note: Stamina consumed upon retreat or defeat is not included.
+オート進行を停止しますか？\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Do you want to stop the Auto Advance?\nThe following Stamina consumption has already been processed by this Auto Advance.\n※This does not include stamina consumed from retreats or defeats.
 
-☆3クリア未達成のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to not achieving a 3☆ clear.\nThe following stamina was consumed during this auto progression.\n※Note: Stamina consumed upon retreat or defeat is not included.he amount of stamina consumed during defeat.
+敗北のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Due to defeat, Auto-Advance has been suspended. The following Stamina consumption has been carried out according to this Auto-Advance. \n※This does not include stamina consumed from retreats or defeats.
+
+スタミナ不足のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to insufficient stamina.\nThe following stamina was consumed during this auto progression.\n※This does not include stamina consumed from retreats or defeats.
+
+☆3クリア未達成のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to not achieving a 3☆ clear.\nThe following stamina was consumed during this Auto Advance.\n※This does not include stamina consumed from retreats or defeats.
+
+
+最終クエストのためオート進行を終了しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has ended due to reaching the final quest.\nThe following stamina has already been consumed during this auto-progress session.\nThis does not include stamina consumed from retreats or defeats.
+
+プレイヤーLvアップのためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has been paused due to Player Level up.\nThe following stamina has already been consumed during this Auto Advance session.\n※This does not include stamina consumed from retreats or defeats.
+
+エリア最終クエストのためオート進行を終了しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has ended due to reaching the final quest of the area.\nThe following stamina has already been consumed during this Auto Advance session.\n※This does not include stamina consumed from retreats or defeats.
+
 
 イベントストーリー解放時に自動進行を停止するかの設定です。=Set to stop Auto-Advance when the event story is unlocked.
 イベントストーリー解放時オート進行停止=Auto-Advance stops when event story unlocks
@@ -33,7 +43,6 @@ sr:"^オート進行で(メイン|イベント)(前編|後編)?クエスト(.+)�
 
 クエストクリア数=Cleared Quest
 オート進行停止=Auto Advance Suspension
-最終クエストのためオート進行を終了しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=The Auto Advance has ended for the final quest.\nTotal Stamina Consumption during Auto Adv.\n※Stamina consumption at the time of retirement and lose is not included.
 オート進行終了=End of Auto Advance
 オート進行報酬一覧=List of Auto Advance Rewards
 [FF7C4E,D62146]所持上限を超えたアイテムはプレゼントに送られました。[-]=[FF7C4E,D62146]Items that exceed the upper limit of the possession\nhave been sent to the present. [-]
@@ -54,6 +63,7 @@ r:"^信頼度エピソードが\n(\d+)[つ個]解放されました。$"=$1 Inti
 sr:"^([べ-ヺー＆＝]+)の\n絆ランクが(\d+)になりました。$"=$1\nThe bond rank is $2.
 
 特別なコンテンツの解放のため、オート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=For unlocking special content, auto-progress has been stopped.\nThe following stamina consumption has been executed by this auto-progress.\n※ Stamina consumption during retreat or defeat is not included.
+
 
 最小=Min
 最大=Max

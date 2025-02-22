@@ -67,7 +67,7 @@ Summary:
 えん、せき？=A, 'banquet'?
 いわゆる、パーティーですね。\n兄様、いかがなさいますか？=It's a party, isn't it? Nii-sama, what do you think?
 もちろん、喜んで。=Of course I'd be happy to.
-ふふっ、良かった。\nではリンド、ヴルム。メイド長らとともに、準備をはじめるように。=Hehe, I'm glad. Well then, Lind, Wyrm. Please begin the preparation with the head maids and everyone.
+ふふっ、良かった。\nではリンド、ヴルム。メイド長らとともに、準備をはじめるように。=Hehe, I'm glad. Well then, Lind, Wurm. Please begin the preparation with the head maids and everyone.
 「かしこまりました」\n「……かしこまりました」=「Understood.」「...Certainly.」
 ああ、それと──=Oh, and─
 騎士。\n────=Knight──
@@ -372,7 +372,7 @@ Cutscene:
 たたた大変なんですますお姫さまっ！\nなななんだか黒幕っぽい女のひとがセンセンフコクを～っ！！=I-I-It's terrible Your Highness! F-f-for some reason a woman who seems to be the mastermind behind all this made a Declaration of War!
 状況は、粗方把握しています。\nヴォルガーノ、城の入り口は？=I have a rough grasp of the situation. Volgano, how's the situation at the entrance of the castle?
 しばらくヘーキだ。\n俺の子分たちにゃ、なんかあったらすぐに全部の門を\n閉めるように言ってあっからな。=It'll be fine for a while. I'll tell my henchmen to close all the gates right away if anything happens.
-良いでしょう。\nではリンド、ヴルム。街の皆を城に避難させるように。\nわたしは──=Very well. Now then, Lind, Wyrm. Evacuate everyone in the city to the castle. As for me─
+良いでしょう。\nではリンド、ヴルム。街の皆を城に避難させるように。\nわたしは──=Very well. Now then, Lind, Wurm. Evacuate everyone in the city to the castle. As for me─
 わたしは城外に打って出て、魔物たちを一掃します。=I'll go out and wipe the monsters outside of the castle.
 お、お待ちくださいライラエルさま！\nそれってまた、『王家の装備』を使うってことですよね……！？=P-Please wait, Lady Lyrael! That also means you're going to use 『Royal Equipment』 again?!
 ダ、ダメですっ！\nいくら姫さまだって、あんなに敵がたくさんいたんじゃ……！=N-No! Even Her Highness won't be able to handle so many enemies at once...!
@@ -537,13 +537,13 @@ Chapter 3:
 Summary:
 城外に現れた魔物退治に向かう一同。リンドたちはライラエルから住民の避難誘導を命じられたが、彼女を想い、皆で国を守ることを選ぶ。一同は心を一つにしたジオ・テオゴニアの人々と共に魔物に立ち向かっていく。=Everyone is on their way to slay the monsters that appeared outside the castle. Lind and the others were ordered by  Lyrael to evacuate the residents, but they choose to remain and fight alongside her to protect their country together. Together with the people of Gio Teogonia, they stand united and ready for the monsters.
 
-ライラエルや{playername}たちは城の外に向かい、\nキャッスル・オブ・パルフェの大広間には\nリンドとヴルムが残されていた。=Laiael, {playername}, and the others headed outside the castle, leaving Lind and Wyrm in the great hall of the Castle of Parfait
-ちょっと、私たちも急ぎましょヴルム……！\nライラエルさまから、\n街の人たちの避難誘導を任されてるんだから……！=Hey, let's hurry too, Wyrm...!\nLady Lyrael entrusted us with evacuating the people of the city...!
+ライラエルや{playername}たちは城の外に向かい、\nキャッスル・オブ・パルフェの大広間には\nリンドとヴルムが残されていた。=Laiael, {playername}, and the others headed outside the castle, leaving Lind and Wurm in the great hall of the Castle of Parfait
+ちょっと、私たちも急ぎましょヴルム……！\nライラエルさまから、\n街の人たちの避難誘導を任されてるんだから……！=Hey, let's hurry too, Wurm...!\nLady Lyrael entrusted us with evacuating the people of the city...!
 ……だる。=...How bothersome.
 はぁっ！？　こ、こんなときに……！\nだるいとか面倒とか、言ってる場合じゃないでしょう！？\nライラエルさまたちが、戦いに出られているのに……！=Huh?! A-At times like this even...! This isn't the time to say things like "tiring" and "troublesome" is it?!\nEven though Lyrael and the others are out fighting...!
 それは、そうだけど。\n……てか。=That's true, actually...\nHowever...
 王家の装備関係なしで。\nうちのお姫さまは、ペコリーヌさんと違って\n戦いに慣れてるワケじゃないって思う。=Without the Royal Equipment, I don't think Her Highness is as used to fighting as Pecorine.
-そ、そんなこと！\nヴルムに言われなくても、知ってるわよ……！！\n私だって、すっごい心配してるの！=Th-That’s not it!\nYou don’t have to tell me, Wyrm...!! I’m really worried too!
+そ、そんなこと！\nヴルムに言われなくても、知ってるわよ……！！\n私だって、すっごい心配してるの！=Th-That’s not it!\nYou don’t have to tell me, Wurm...!! I’m really worried too!
 姫さまが、争いごとを好まれないのも知ってる！\nクローチェさんたちみたいに戦えるなら、とっくに行ってるわよ！\nでも……でも……！=I know Her Highness doesn't like fighting!\nIf I could fight like Croce and the others, I would have done so long ago! But... But...!
 じゃあ、私になにができるっていうの……！=Then what can I do...?!
 ……姉貴もさ。\nたまにはサボったらいいんじゃん。=...You too, sis. You should slack off every once in a while
@@ -649,9 +649,9 @@ Summary:
 そ、それだけ無理してるってこと……？=D-Does that mean they're pushing themselves too hard...?
 ……たぶんね。=...Probably.
 ……\n私たちも、もっと戦えたらいいのに……=...I wish we were more capable of fighting...
-──リンドちゃん、ヴルムちゃん！\n鳥人族の子が羽をケガしちゃったわ、手当てをお願い！=─Lind-chan, Wyrm-chan!\nThe birdfolk kid's injured her wings! Please treat her!
+──リンドちゃん、ヴルムちゃん！\n鳥人族の子が羽をケガしちゃったわ、手当てをお願い！=─Lind-chan, Wurm-chan!\nThe birdfolk kid's injured her wings! Please treat her!
 そうよね、戦う以外にもやれることはたくさんあるしっ……=That's right, there's more things we can do other than fighting...
-もうっ、ヴルム！\nあなたも手伝って！=Come, Wyrm!\nYou help too!
+もうっ、ヴルム！\nあなたも手伝って！=Come, Wurm!\nYou help too!
 ……はい、姉さん。=...Yes, sis.
 ジオ・テオゴニアの人々の戦列に加わる【アルターメイデン】。\nその後方──=Alter Maiden joined the ranks of the people of Gio Teogonia.\nMeanwhile, behind them─
 ほんとはわたしたち、護衛役なのに……！\nみなさんが倒し損ねた魔物たちを\n城の前でお掃除するだけなんて……！=We're supposed to be guards...!\nAll we need to do is clean up the remaining stragglers slipped through the front of the castle, but...!
@@ -1017,10 +1017,10 @@ Summary:
 王家の装備の反動、ということでしたが。\nひょっとしたら、当面このままなのかも……=It's a side-effect to her Royal Equipment.\nPerhaps, she'll remain like this for the time being...
 あ。\nめいどらおねえさんたち。=Oh, Meidora Onee-san and everyone.
 無事に、終わったみたいですね。\nお疲れさまでした。=Looks like it's over without any incident.\nGood work.
-リンドちゃんもヴルムちゃんもっ！\n後方支援、ご苦労さまでしたっ！=Lind-chan and Wyrm-chan too!\nThank you for your hard work with the logistical supports!
+リンドちゃんもヴルムちゃんもっ！\n後方支援、ご苦労さまでしたっ！=Lind-chan and Wurm-chan too!\nThank you for your hard work with the logistical supports!
 いえ、みなさんに比べたら全然大したことは……\nあっ──=No, it's nothing much compared to everyone else...\nAh~
 ……ライラエルさま。\nその……=...Lady Lyrael. Um...
-リンド。\nそれにヴルム。=Lind, Wyrm.
+リンド。\nそれにヴルム。=Lind, Wurm.
 お前たちは、このライラエルの従僕という立場も弁えず。\n民を逃がせという命に背いたな？=You have failed to respect your positions as servants of Princess Lyrael, defied my order and let our people escape, didn't you?
 ……はい。\n大変、申し訳ありません。=...Yes.\nPlease forgive us for our transgressions.
 お叱りは、如何様にも。=Please reprimand us however you see fit.
@@ -1030,7 +1030,7 @@ Summary:
 汝も国主であるなら、理解すべきであろう。\nいかに理不尽な命であろうと、それに背くは従者にあるまじきこと。\nひいては命を下した者の顔に、泥を塗ると同義なのだと。=Being a ruler of a country, it is expected of you to understand this.\nThat no matter how unreasonable your order may be, disobeying it is unbecoming of an attendant.\nAnd by extension, it is synonymous with smearing mud on the face of the one who gave you the order.
 おっしゃるとおりです。=It is as you say.
 か……覚悟はできてます！=I-I'm ready for your punishment!
-宜しい。\nでは──\nリンド。ヴルム。=Very well.\nNow─\nLind. Wyrm.
+宜しい。\nでは──\nリンド。ヴルム。=Very well.\nNow─\nLind. Wurm.
 この勝利を祝し。\n国をあげて、盛大な宴の用意をするように。=To celebrate this victory,\nlet's prepare a grand feast for the whole country.
 もうっ。\n次は、本当に怒りますからね。=But,\nI'm really going to get angry next time.
 でも……皆が無事で、良かった。=But...\nI'm glad everyone's safe.
@@ -1062,7 +1062,7 @@ Summary:
 ええっ！？\nナイトさんたち、『ジオ・ゲヘナ』に行っちゃうんですか～っ！？\nそんなぁ～っ！=What?!\nNaito-san and everyone will be leaving for 『Gio Gehenna』?!\nNo waaay～
 ……クローチェ。\n気持ちはよくわかりますが……引き留めてはなりませんよ。\n騎士たちには、大事な目的があるのですから。=...Croce.\nI understand how you feel, but you mustn't hold them back...\nKnight's group have important goals.
 うぅ～んっ……！\nでもでも～っ！=Uuuu...!\nBut, but...!
-ま、坊主たちも今すぐ出てくってワケじゃねぇみてえだしよ。\nゆっくり名残りを惜しむ時間くらいはあるだろうさ。\nリンドやヴルムたちが、また宴会の用意をしてくれるらしいしな？=Well, it's not like the youngsters here are leaving right away,\nso we'll have some days to savor before their departure.\nAnd it seems like Lind, Wyrm and everyone will be preparing another banquet, isn't it?
+ま、坊主たちも今すぐ出てくってワケじゃねぇみてえだしよ。\nゆっくり名残りを惜しむ時間くらいはあるだろうさ。\nリンドやヴルムたちが、また宴会の用意をしてくれるらしいしな？=Well, it's not like the youngsters here are leaving right away,\nso we'll have some days to savor before their departure.\nAnd it seems like Lind, Wurm and everyone will be preparing another banquet, isn't it?
 ……ヴォルさんも、手伝ってくださいね。\nさもなきゃ城の入り口で玄関マットやってもらいますから。=...Vol, you help out too.\nEither that, or I'll have you as the entrance mat at the castle entrance.
 猫使い荒ェなオイ！？=Oy! Don't treat us cats so rough like that!
 後ろ髪を引かれる想いは、尽きませんが……\n残り少ない時間を、大切に過ごしましょう。\nどうかお付き合いくださいね、騎士。=The reluctance we all share for this farewell might never fade,\nbut... let's at least cherish what remaining times we have left.\nUntil the time comes; please bear with me, Knight.
@@ -1108,9 +1108,9 @@ Summary:
 クロさんの代わりに、姉さんが泣いてもいいんですよ？\n「騎士さんたち、行かないでー」って。=Hey sis, you can start crying in place of Cro you know?\nSomething like「Knight-san, everyone, please don't go!」
 泣きませんっ！\nもうっ。=I'm not going to cry!\nSeriously...
 ……まったく。やっと行ってくれるんですね。\nこの数日、ずーっと送別会のお祭り騒ぎで……\n用意する方の身にもなってほしいです。=...Honestly. Finally you'll be leaving.\nThese past few days have been nothing but farewell parties... I wish you could put yourself in our shoes to understand how exhausting it was to do all the preparations.
-リンドさまもヴルムさまも、大変お世話になりました。\nおふたりの働きぶりは従者として、とても勉強になりました。=Thank you very much, Miss Lind and Miss Wyrm,\nboth for taking great care of us.\nAs an attendant, I have learned much from seeing how you two worked.
+リンドさまもヴルムさまも、大変お世話になりました。\nおふたりの働きぶりは従者として、とても勉強になりました。=Thank you very much, Miss Lind and Miss Wurm,\nboth for taking great care of us.\nAs an attendant, I have learned much from seeing how you two worked.
 それほどでも。=I didn't do that much.
-ヴルムはこっそりサボってたでしょ、もうっ！\nそれとっ……=Wyrm was secretly slacking off again? Haiz...\nAlso...
+ヴルムはこっそりサボってたでしょ、もうっ！\nそれとっ……=Wurm was secretly slacking off again? Haiz...\nAlso...
 グルメチェイサー号には、お弁当や保存食は積めるだけ積みましたけど。\nでも、『ジオ・ゲヘナ』でみなさんの口に合う食べ物が\n手に入るかわかりませんし……だ、だから……その……=The Gourmet Chaser was loaded with as many lunchboxes\nand preserved foods as it could carry. But I don't know if\nyou'll be able to get food that suits everyone's tastes in Gio Gehenna...\nS-So...umm...
 みなさんお腹が空いたら、\nいつでも帰ってきてくれていいんですからねっ！=You can come back whenever you're hungry, everyone!
 「……チョロ」\n「……チョれぇー」=「...So soft」\n「...So tsun.」
@@ -1544,7 +1544,7 @@ Teaser:
 
 
 プリンセス・バスタイム=Princess Bathtime
-マホとカオリは、リンドとヴルムから依頼を受け\n『ジオ・テオゴニア』の平原にて魔物退治にいそしんでいた。=Maho and Kaori received a request from Lind and Wyrm, and were engaged in subjugating monsters on the plains of 'Gio Teogonia.'
+マホとカオリは、リンドとヴルムから依頼を受け\n『ジオ・テオゴニア』の平原にて魔物退治にいそしんでいた。=Maho and Kaori received a request from Lind and Wurm, and were engaged in subjugating monsters on the plains of 'Gio Teogonia.'
 ──てやああぁぁっ！！=──Teyaahhhh!!
 みらくるまほりん、くるりんぱ～☆=Miracle Mahorin, Kururinpa~☆
 よ～し、川辺に集まってた魔物は\n一通り退治できたね～！=Alright!\nWe've managed to take care of the monsters gathering by the river!
@@ -1601,9 +1601,9 @@ Teaser:
 遠慮なんていらないさ～！\n材料とかはいろいろ持ってきてるし、キッチン借りるね～！=No need to be modest~! \nI’ve brought various ingredients, so may I borrow the kitchen~?
 颯爽と行ってしまいました……\nカオリは、とてもおおらかで朗らかな方ですね。\nまるで太陽のように。=She went off quickly... \nKaori seems so cheerful and spirited, almost like the sun.
 ふふふっ、そうやろ～♪\nいつもうちに元気をくれる、大切な仲間なんよ～=Hehe, isn't she~♪ \nShe's a precious friend who always brings me energy~
-もうっ……！　ヴルムってば、また掃除をサボろうとして！\nライラエルさまの従者として、しっかりその自覚を持って……！=Honestly... Wyrm, trying to slack off on cleaning again! \nAs Miss Lyrael's servant, you must be diligent...!
+もうっ……！　ヴルムってば、また掃除をサボろうとして！\nライラエルさまの従者として、しっかりその自覚を持って……！=Honestly... Wurm, trying to slack off on cleaning again! \nAs Miss Lyrael's servant, you must be diligent...!
 ……はぁ。\nったく、姉貴はうるさいんだから……\n……？=…Sigh. \nSeriously, big sis is such a nag... ...?
-あーっ！　リンド、ヴルム～！\nちょうど良かったさ～！　キッチンってどこね～？=Ah! Lind, Wyrm~! \nGreat timing~! Where's the kitchen~?
+あーっ！　リンド、ヴルム～！\nちょうど良かったさ～！　キッチンってどこね～？=Ah! Lind, Wurm~! \nGreat timing~! Where's the kitchen~?
 キッチンなら向こうですけど……\n何かご用ですか？=The kitchen is over there... \nDo you need something?
 お姫様に私の故郷の料理を食べてほしいと思って！\nチャンプルーっていう炒め料理さ～っ！=I want the princess to try my hometown's cuisine! \nIt's a stir-fry dish called champuru~!
 チャンプルー？\n聞いたこともない料理ですけど……=Champuru? \nI've never heard of that dish...
@@ -1611,7 +1611,7 @@ Teaser:
 ……ふ～ん……=…Hmm…
 ──カオリさん、でしたっけ。\nよければ料理してるとこ、見せてもらっていいですか。=──Was it Kaori-san? \nWould it be alright if I watched you cook?
 もちろん、いいに決まってるさ～！\n気になるなら、作り方とかも教えてあげるよ～=Of course, that's totally okay~! \nIf you're interested, I can show you how it's made too~
-ちょっとヴルム？\nそんなこといきなり頼んでも、迷惑でしょっ。=Hold on, Wyrm? \nIt's sudden to ask such a thing, isn’t it a bother?
+ちょっとヴルム？\nそんなこといきなり頼んでも、迷惑でしょっ。=Hold on, Wurm? \nIt's sudden to ask such a thing, isn’t it a bother?
 いやいや、これも勉強ですって。\n異世界の料理を見る機会なんてなかなかないし。\nメイドのお仕事にも役立つんじゃない？　姉さん。=No, no, it's an opportunity for learning. \nIt's rare to see food from another world. \nIt might be useful for maid duties, don't you think? Sis.
 そうだよ～\n初めて立つキッチンだし、見ててくれたら私も安心さ～\nリンドも、興味あったら見てってね～=That's right~ Since it's my first time in this kitchen,\nI'll feel more at ease with you watching~\nLind, you're welcome to join too~
 た、確かにそうですね……\nわかりました、ぜひお手伝いさせてください！=Indeed, it makes sense… \nThen, please allow me to help!
@@ -1639,7 +1639,7 @@ Teaser:
 あっ、二人ともお風呂上がった？\nちょうど今、料理ができたところさ～！=Ah, are you two out of the bath? \nJust now, the food is ready~!
 まあ、それがあなたの故郷の……\n見たこともない素材が使われていますが……=Wow, that's the cuisine of your hometown... \nUsing ingredients I've never seen...
 ゴーヤーっぽいものとか、豆腐とかを炒めて作ったよ～\nこれがチャンプルーさ～！=I made it by stir-frying what looks like goya and tofu~ \nThis is champuru!
-カオリさんに教わりながら、\n野菜などの下ごしらえを手伝わせていただきました。\n……ヴルムはなにもしてないけど……=I helped prepare the vegetables and other ingredients under Kaori's guidance. \n...Wyrm didn't do anything though...
+カオリさんに教わりながら、\n野菜などの下ごしらえを手伝わせていただきました。\n……ヴルムはなにもしてないけど……=I helped prepare the vegetables and other ingredients under Kaori's guidance. \n...Wurm didn't do anything though...
 や、ちゃんとしたし。\nお皿出したりとか。=I did too! \nI set the plates and stuff.
 ふふっ、わたしの従者がお世話になったようですね。\nそれでは、早速いただきます♪　あむっ……=Hehe, seems my servants have been of some assistance. \nThen, let's dig in♪ Om...
 ──んんんんっ！？=──Nnnn...!?
@@ -1649,7 +1649,7 @@ Teaser:
 あ、分かった？　実は、ちょっぴり隠し味もいれたさ～！\n故郷のピリ辛調味料、食欲が出るよ～♪=Ah, did you notice? Actually, I added a little secret ingredient~ \nSpicy seasoning from my hometown, it increases your appetite~♪
 その料理、私もいただきます！\n……んんっ、少し苦いですけど……=I'll have some too! ...Mm, a bit bitter, but...
 ピリ辛ってかんじですね。\nこっちでは、あんまり味わえない刺激かもです。=It has a kind of spicy tang.\nA unique flavor you don't often find here.
-……こ、これほどまでに辛い料理だというのに……\nマホ姫も、ヴルムたちも平然と……？=...To think it's such a spicy dish... \nMaho and Wyrm handle it so calmly...?
+……こ、これほどまでに辛い料理だというのに……\nマホ姫も、ヴルムたちも平然と……？=...To think it's such a spicy dish... \nMaho and Wurm handle it so calmly...?
 あれっ！？　もしかしてねーねー、辛いのダメな人？\nごめんね、作り直してくるさ～！=Oh!? Do you have trouble with spicy food, Ne-ne? \nI'm sorry, I'll go redo it~!
 い、いえ！　大切な客人が作ってくれた料理を、\n国主たるわたしが残すなどという無礼を働くわけには……！=No! How could I, the master of this country, \ncommit the rudeness of leaving a dish made by a precious guest unfinished...?
 ライラエルはん、無理はせん方が……=Lyrael, you don't have to push yourself...
@@ -1986,7 +1986,7 @@ Teaser:
 
 
 双子ドラゴンご奉仕デート=Twin Dragon Service Date
-晴れわたる『ジオ・テオゴニア』の青い空。\nその空の下でリンドとヴルムは\nポポじいさんからある依頼を受けていた。=The blue sky of 'Gio Teogonia' is clear.\nUnder that sky, Lind and Wyrm had received a certain request from Grandpa Popo.
+晴れわたる『ジオ・テオゴニア』の青い空。\nその空の下でリンドとヴルムは\nポポじいさんからある依頼を受けていた。=The blue sky of 'Gio Teogonia' is clear.\nUnder that sky, Lind and Wurm had received a certain request from Grandpa Popo.
 ──この通りじゃっ、頼むっ！！\n新型マシーンの実験に付き合ってはくれんか！=──I'm begging you!!\nWill you help me with an experiment on the new machine!
 あたしら、腕を取ったり付けたりできないんで。\nドリルとかロケットパンチとかの実験なら、他をあたってもらえません？=We can't just take off and put on arms.\nIf it's an experiment with drills or rocket punches,\nwhy not try someone else?
 いやいやいや、今日は違うんじゃっ！\n今回ワシが作ったのはマリンスポーツ用のマシーン！=No, no, no, today's different!\nThis time, what I made is a machine for marine sports!
@@ -2001,7 +2001,7 @@ Teaser:
 はいはい……\nけど、こんなことに付き合ってくれる物好きな人、いるかな。\n……ん？　あの人は……=Yeah, yeah...\nBut I wonder if there's anyone crazy enough to go along with this...\n...Huh? That person is...
 報告に来てくれたんですね、いつもお疲れさまです。\nどうかゆっくり、城でお休みに……=You've come to report, haven't you?\nThank you for your hard work.\nPlease rest at the castle...
 いや。ちょうどよかったです。\nこの後ヒマなら、ちょっと付き合ってもらえません？=No. It was just right.\nIf you're free after this, could you tag along for a bit?
-ちょ、ちょっとヴルムっ！？\n一仕事してくれたばかりのひとに頼み事なんて、迷惑でしょっ！=Hold on, Wyrm!?\nYou can't ask a favor from someone who just finished a task!
+ちょ、ちょっとヴルムっ！？\n一仕事してくれたばかりのひとに頼み事なんて、迷惑でしょっ！=Hold on, Wurm!?\nYou can't ask a favor from someone who just finished a task!
 えっ……いいんですか？\nその……あ、ありがとうございます。騎士さん……=Eh... Is it okay?\nWell... Ah, thank you. Knight...
 優しいっていうか、チョロいっていうか。\nなんか姉貴みたい。=Whether it's your kindness, or how easy you are to handle. \nYou're kinda like my Sis.
 ヴールームー！！=Wyyyrm!!
@@ -2013,7 +2013,7 @@ Teaser:
 はいっ♪　こんな楽しい乗り物、初めてですっ！\n……けど、ちょっとバランスが心配ですね。=Yes!♪ I've never been on such a fun ride before!\n...But I'm a bit worried about the balance.
 騎士さんって確か、泳げないんでしたよね。\n落ちないよう気をつけてくださいね？=If I recall, you're not a great swimmer, right, Knight?\nBe careful not to fall over board, okay?
 いや、気合だけでなんとかなりゃわけないですよ。\nちゃんとつかまっといてください。\n姉貴に。=No, there's no way sheer willpower will help you survive.\nHold on tight.\nTo my sis.
-ちょっとヴルムっ！？\nわ、私も結構恥ずかしいんだからねっ……！？\n水着なんて、久しぶりだし……=Hey, Wyrm!?\nI-I'm quite embarrassed too, you know...!?\nIt's been a while since I wore a swimsuit...
+ちょっとヴルムっ！？\nわ、私も結構恥ずかしいんだからねっ……！？\n水着なんて、久しぶりだし……=Hey, Wurm!?\nI-I'm quite embarrassed too, you know...!?\nIt's been a while since I wore a swimsuit...
 ま、騎士さんが落ちたらめんどくさがらずに助けますよ。\n一応は大事な客人ですし？=Well, if you fall, I'll help you without any fuss.\nYou are an important guest, after all?
 ……ん。\n礼なんていらないですよ。\n仕事の一環なんで。=......\nNo need for thanks.\nIt's part of the job.
 それにしても……遠隔操縦できるボートなんて、すごいですね。\n遊ぶ以外に、物を運んだりするのにも使えそうですし。=Still... a remotely controlled boat is amazing.\nIt seems like it could be used for more than just playing around.
@@ -2026,7 +2026,7 @@ Teaser:
 それで、ただ好奇心のままに作ってみただけじゃよ。\n技術屋として作れるものは作る。\n改良できる部分は改良する。それだけのことじゃ。=So, driven by curiosity, I just went and made it.\nAs a craftsman, I make what I can.\nI improve what can be improved. That's all it is.
 技術はすごいですけど、\nただのレジャー用のボートでしかないような気が……\n超文明って、いったい……？=The technology is amazing, but...\nIt seems to be just a leisure boat...\nWhat kind of supercivilization...?
 …………\nそりゃ、戦いの道具だけが文明じゃないってことでしょ。\n当たり前だけど。=......\nWell, civilization is not just about tools for war.\nThat's obvious.
-そうかもしれないけど……\nヴルムは気にならないの？\nこの世界の遥か昔に、よくわからない文明があったなんて……=That might be true...\nBut Wyrm, doesn't it bother you?\nThat there was an unknown civilization long ago in this world...
+そうかもしれないけど……\nヴルムは気にならないの？\nこの世界の遥か昔に、よくわからない文明があったなんて……=That might be true...\nBut Wurm, doesn't it bother you?\nThat there was an unknown civilization long ago in this world...
 別にー\nそんなの考えたって、ほんとのことがわかるわけじゃないし。\nめんどいし。それよりか、水がきれいだなーって。=Not really.\nThinking about it won't reveal the truth, anyway.\nIt's a hassle. More importantly, the water is so clear.
 ……まぁ、確かに……\n涼しい風と水しぶきを、肌で感じながら……♪\n気持ちいいですね、騎士さんっ。=…Well, yeah...\nWhile feeling the cool breeze and the spray of water on your skin...♪\nIt feels nice, doesn't it, Knight?
 ……はしゃいじゃって。\nそんなに水着デートが楽しいですか、お姉さま。=.... You're so excited.\nDo you enjoy swimsuit dates that much, Ehrm...?
@@ -2049,26 +2049,26 @@ Teaser:
 『騎士に実験を手伝ってもらっているのです。\n快適な時間を過ごしてもらえるよう、\n今はわたしの代わりに騎士を主だと思って仕えなさい』……じゃと。=[The knight is helping with the experiments.\nMake sure to serve and ensure they have a pleasant time,\nconsider him your master in my stead]... Is what she said.
 魔物退治、終わったよ！=Finished eliminating the monsters!
 つまり、騎士さんの面倒を見ろと？\n……はぁ。なんでそんなことに。=So, we're supposed to take care of the Knight?\n...Geez, why is it always like this.
-ちょっと、ヴルム？\nライラエルさまの命なんだから、面倒くさがっちゃダメっ！=Hey, Wyrm?\nThis is an order from Miss Lyrael, so you can't complain!
+ちょっと、ヴルム？\nライラエルさまの命なんだから、面倒くさがっちゃダメっ！=Hey, Wurm?\nThis is an order from Miss Lyrael, so you can't complain!
 ……そりゃ、私だって。\n騎士さんをご主人様と思うだなんて、いきなりそんなこと……=Well, I understand.\nThinking of the Knight as my master all of a sudden is...
 全然オッケー！=Completely fine!
 はいはい、わかってるって……=Yeah, yeah, I get it...
-リンドとヴルムは{playername}の世話のため、\n一度、ボートから降りて準備をし、そして──=Lind and Wyrm prepare off the boat to take care of {playername}, and then──
+リンドとヴルムは{playername}の世話のため、\n一度、ボートから降りて準備をし、そして──=Lind and Wurm prepare off the boat to take care of {playername}, and then──
 ……どうぞ。召し上がれ。=...Here you go. Please enjoy.
 えーっと……\nお口にあったようで、なによりです。\nご主人様……=Um...\nI'm glad it suits your taste.\nMaster...
 うちわのお加減はどうですか？\nもっと強めに扇いだ方がよければ、遠慮なさらず仰ってください。=How is the fan? If you'd prefer a stronger breeze,\nplease don't hesitate to let me know.
 そりゃ、よかったですね。\nご主人サマ。=That's great to hear.\nMaster.
 ……ご主人サマっていうか。\n子どもの世話をしているような気になってきたかも……=...I feel more like I'm taking care of a child than calling you Master...
-もう、ヴルムっ。ぶつくさ言わないの。=Oh Wyrm. Stop grumbling.
+もう、ヴルムっ。ぶつくさ言わないの。=Oh Wurm. Stop grumbling.
 それに……たまにはこんな日があってもいいでしょ？\nこうして、穏やかでゆっくりとした日があっても。=Besides... it's nice to have days like this sometimes, isn't it?\nTo have peaceful, calm days like this.
 頑張るね！=I'll do my best!
 ……ま、確かに。\n最近、魔物騒動だとかで慌ただしかったし。=...Indeed.\nBecause there was a lot of commotion with the monster crises recently.
 でしょ？\nだからこそ、こうしてのんびりできる時間は大事にしないと。ね？=Right?\nThat's why we have to cherish the peaceful times like this. Okay?
-ありがとう、ヴルムちゃん！=Thank you, Wyrm-chan!
+ありがとう、ヴルムちゃん！=Thank you, Wurm-chan!
 自分の時間を、のんびりと、ね……\nあたしは常にそうありたいけど。\n騎士さん的にはどうです？=Leisurely enjoying your own time, huh...\nI always want that to be.\nWhat about you, Knight?
 そうですね……私もそう思います。\n争いのない、平和で幸せな時間がずっと続いてほしいと……=Yes... I feel the same.\nI hope that peaceful, happy times without conflict will last forever...
 えっ。ずっとって……\n姉貴まさか、ライラエルさまから騎士さんに\nご主人サマの鞍替えする気？=Eh? Forever...\nSis, are you planning to switch your allegiance\nfrom Miss Lyrael to the Knight?
-な、ななななっ……ちょっとヴルム何言ってるの！？\nそんなことするわけないでしょう！？\n私のご主人様は、ずーっとライラエルさまですからっ！=N-n-n-no way... Wyrm, what are you saying!?\nThere's no way I'd do that!\nMy master will always be Miss Lyrael!
+な、ななななっ……ちょっとヴルム何言ってるの！？\nそんなことするわけないでしょう！？\n私のご主人様は、ずーっとライラエルさまですからっ！=N-n-n-no way... Wurm, what are you saying!?\nThere's no way I'd do that!\nMy master will always be Miss Lyrael!
 き、騎士さんまで何言ってるんですかっ！？\n騎士さんにはコッコロさんっていう\n立派な従者さんがいるじゃないですか！=Even the Knight is saying weird things!?\nYou have Kokkoro-san, a wonderful attendant, don't you!
 何人でもって……！\nふ、不潔です、不潔っ！\n見損ないましたよ騎士さん！=Multiple people...?\nThat's... unsightly, unsightly!\nI'm disappointed in you, Knight!
 や。\n騎士さんのその表情からして……\nどう見てもからかわれてるだけですよ。姉さん。=Ya.\nBased on the Knight's expression...\nIt seems like you're just being teased, sis.
@@ -2076,22 +2076,22 @@ Teaser:
 ～～～っ！！\nもっ……もうっ、ばかっ！　ばかぁっ！\n騎士さんのことなんてもう知りませんっ！！=～～～! Idiot! Idiot!\nI don't care about you anymore, Knight!!
 なんだか楽しそうだね。=Everyone seems to be having fun.
 ──ちょっとリンド？\nご主人様にそんな態度、取っちゃダメなんですからね？=──Hey Lind?\nDon't take such an attitude towards Master, okay?
-もぉぉおヴルムっ！？！\nそれっていつも私があなたに言っていることでしょうがぁっ！=Oh Wyrm!?\nIsn't that what I always say to you!?
+もぉぉおヴルムっ！？！\nそれっていつも私があなたに言っていることでしょうがぁっ！=Oh Wurm!?\nIsn't that what I always say to you!?
 わかりましたわかりましたっ！\nこのボートにいる間は騎士さんがご主人様ですっ！\n風で吹き飛んじゃうくらいまで、扇ぎ倒してあげますからぁっ！=Okay, okay! While on this boat, the Knight is Master!\nI'll fan you till you blow away, alright!
 ……\nあー\n……おもしろ。=... Yeah.\n...This is fun.
-そうしてリンドとヴルムにご奉仕されながら、\nのんびりとしたひとときは過ぎていくのだった。=And so, while being served by Lind and Wyrm,\nthe leisurely time passed by.
+そうしてリンドとヴルムにご奉仕されながら、\nのんびりとしたひとときは過ぎていくのだった。=And so, while being served by Lind and Wurm,\nthe leisurely time passed by.
 ……えっと。\n……今日はありがとうございました、騎士さん。\nポポおじいさんも、とっても喜んでましたよ。=... Umm.\n...Thank you for today, Knight.\nGrandpa Popo was very happy too.
 ええ、ぜひ！=Oh, absolutely!
 ふぅん。また水着デートがしたい……と。\n大胆ですね姉さん。=Hmm. You want to have another swimsuit date...?\nBold of you, sis.
 ち、違っ……！？\nそういう意味じゃないからっ！！=N-no...?!\nThat's not what I meant!
 なら、そういうことにしておくか……=Then, let's say it is...
 これ、おいしいね！=This is delicious!
-まったく……ヴルムってば！\nいっつもこうなんだからっ！=Honestly... Wyrm!\nYou're always like this!
+まったく……ヴルムってば！\nいっつもこうなんだからっ！=Honestly... Wurm!\nYou're always like this!
 ……実際。\n今日は……楽しかった、かも。=...In reality.\nToday... was fun, maybe.
 いい匂いがするし気持ちいい！=It smells nice and feels good!
 姉さんたちが言ってたみたいに。\nこんな日がずっと続いたらいいのに。=Like sis said.\nI wish days like this would continue.
 まあ現実は……そうもいかないけれど。=Well, reality...\nIsn't always like that.
-ヴルムの内心のつぶやきは誰にも伝わらず。\n一同は帰路へとつくのだった。=Wyrm's inner thoughts remained unheard.\nEveryone set off on their journey home.
+ヴルムの内心のつぶやきは誰にも伝わらず。\n一同は帰路へとつくのだった。=Wurm's inner thoughts remained unheard.\nEveryone set off on their journey home.
 ずっとこういう時間が続いてほしい。=I wish moments like this would last forever.
 そうなの？　残念……=Is that so? What a pity...
 メイドや従者は何人いても大丈夫だよ！=Having as many maids and attendants is not a problem!
