@@ -19,3 +19,9 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰを50回
 ##EX##
 アストラルブレイズ=Astral Blaze
 アストラルブレイズ+=Astral Blaze+
+
+##UE##
+レゾナンスファイア+=Resonance Fire+
+火焔のアストラ=Astrea of Blaze
+味方全体の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＴＰ上昇を小アップさせる。さらに、敵全体の物理攻撃力を特大ダウン、物理攻撃クリティカル時のダメージを小ダウンさせ、ＴＰ上昇を小ダウンさせる。=Massively boosts allies' P.ATK/P.CRIT DMG/TP Boost. Severely lowers enemies' P.ATK/P.CRIT DMG/TP Boost.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理攻撃クリティカル時のダメージを12％アップ味方全体のＴＰ上昇を5アップ敵全体の物理攻撃力を(\d+)ダウン敵全体の物理攻撃クリティカル時のダメージを12％ダウン敵全体のＴＰ上昇を5ダウン$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' P.CRIT DMG by 12%.\n►Boosts allies' TP Boost by 5.\n►Lowers all enemies' P.ATK by $2.\n►Lowers all enemies' P.CRIT DMG by 12%.\n►Lowers all enemies' TP Boost by 5.

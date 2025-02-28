@@ -1460,3 +1460,45 @@
 ユニオンバーストは、敵全体のバリアを解除し、敵全体に自身の魔法攻撃力とキャラの最大ＨＰに応じた魔法割合ダメージを与える。敵のＨＰが50％未満の場合、束縛状態にする。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst removes all enemy barriers, deals percentage M.DMG based on own M.ATK and enemies' max HP. Enemies below 50% HP are Bound. Bind applies even if DMG is nullified.\n
 
 敵全体のステータスアップ効果を解除した後、敵全体に魔法小ダメージを与え、沈黙状態を付与する。さらに、自身の物理防御力と魔法防御力を中ダウンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Removes all enemy buffs, deals minor M.DMG and inflicts Silence to all enemies. Moderately lowers own P.DEF/M.DEF. Silence applies even if DMG is nullified.\n
+
+ユニオンバーストは、最も近い敵１キャラを中心にした広範囲内の敵最大３キャラに物理大ダメージを与え、物理防御力を中ダウンさせる。さらに自身の物理防御力をバトル終了まで小アップさせる。このスキルの効果はダメージを無効化しても付与される。=Union Burst deals large P.DMG to up to 3 enemies in a wide area around nearest target, moderately lowers P.DEF. Slightly boosts own P.DEF until battle ends. Effects apply even if DMG is nullified.\n
+
+はるか古に作られし防衛兵器。全身から放たれる光の束で侵入者を灼き尽くす。=An ancient defense weapon. Incinerates intruders with beams of light emitted from its body.\n
+
+デミ=Demi\n
+
+ユニオンバーストは、飛行状態のキャラを含む敵全体に魔法中ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals moderate M.DMG to all enemies (including flying units). DMG from this skill does not recover TP.\n
+
+最も近い敵１キャラを中心にした小範囲内の敵すべてに魔法特大ダメージを与え、魔法防御力を中ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals extreme M.DMG and moderately lowers M.DEF to all enemies in small area around nearest target. Effects apply even if DMG is nullified.\n
+
+通常攻撃は、最も近い敵１キャラを中心にした小範囲内の敵すべてに魔法特大ダメージを与える。=Normal Attack deals extreme M.DMG to all enemies in small area around nearest target.\n
+
+ユニオンバーストは、前方中範囲内の敵すべてに物理特大ダメージを与える。その後、このスキルで与えたダメージ量に応じて自身の魔法攻撃力をバトル終了までアップさせる。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst deals extreme P.DMG to all enemies in forward medium range. Boosts own M.ATK until battle ends based on DMG dealt. DMG from this skill does not recover TP.\n
+
+召喚体、分身を除いた最も近い敵３キャラに魔法大ダメージを与え、シードレイクの魔法攻撃力に応じた持続時間の凍結状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals large M.DMG to 3 nearest enemies (excluding summons/clones), inflicting Freeze with duration based on Seedrake's M.ATK. Freeze applies even if DMG is nullified.\n
+
+ソードコブラから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。ソードコブラの付与する毒および猛毒のダメージでは、ＴＰが回復しない。=Moderately decreases party's TP recovery from all DMG taken from Sword Cobra. DMG from Poison/Deadly Poison inflicted by Sword Cobra does not recover TP.\n
+
+ユニオンバーストは、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラに物理固定ダメージを与える。キャラが毒状態の場合は追加の物理固定ダメージを与え、猛毒状態の場合はさらに追加の物理固定ダメージを与える。その後、敵全体のＨＰ吸収を特大ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Union Burst deals fixed P.DMG to enemy with highest ATK (P.ATK/M.ATK). Deals bonus fixed P.DMG if target is Poisoned, and extra bonus if Deadly Poisoned. Massively decreases all enemies' HP absorption. Effects apply even if DMG is nullified.\n
+
+敵全体に魔法小ダメージを与える。さらにキャラが毒状態ではない場合は毒状態を付与し、毒状態の場合は猛毒状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。=Deals minor M.DMG to all enemies. Inflicts Poison on non-Poisoned enemies, upgrades to Deadly Poison if already Poisoned. DMG from this skill does not recover TP.\n
+
+通常攻撃は、最も近い敵１キャラに物理特大ダメージを与え、毒状態を付与する。=Normal Attack deals extreme P.DMG to nearest enemy and inflicts Poison.\n
+
+挑発効果の影響を受けやすく、すべての攻撃の命中率が高い。=Highly vulnerable to Provoke effects. All attacks have high accuracy.\n
+
+ユニオンバーストは、物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラに物理固定ダメージを与え、物理攻撃力と魔法攻撃力をバトル終了まで特大ダウンさせる。キャラが毒状態の場合は追加の物理固定ダメージを与え、猛毒状態の場合はさらに追加の物理固定ダメージを与える。その後、敵全体のＨＰ吸収を特大ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Union Burst deals fixed P.DMG to enemy with highest ATK (P.ATK/M.ATK), massively lowers their P.ATK/M.ATK until battle ends. Deals bonus fixed P.DMG if Poisoned, extra bonus if Deadly Poisoned. Massively decreases all enemies' HP absorption. Effects apply even if DMG is nullified.\n
+
+ユニオンバーストは、敵全体のバリアを解除し、物理小ダメージを与え、さらに自身の行動速度と物理攻撃力を特大アップさせる。このスキルによるダメージでは、ＴＰが回復しない。=Union Burst removes all enemy barriers, deals minor P.DMG, massively boosts own Action Speed and P.ATK. DMG from this skill does not recover TP.\n
+
+敵全体に物理固定ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Deals fixed P.DMG to all enemies. DMG from this skill does not recover TP.\n
+
+最も近い敵２キャラに物理小ダメージを与え、物理防御力を小ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals minor P.DMG and slightly lowers P.DEF to two nearest enemies. Effects apply even if DMG is nullified.\n
+
+敵全体に物理固定ダメージを与える。さらに、旗持ち子分の数に応じて追加の物理固定ダメージを与える。このスキルによるダメージでは、ＴＰが回復しない。=Deals fixed P.DMG to all enemies + bonus fixed P.DMG per Flag-Bearing Underling. DMG from this skill does not recover TP.\n
+
+最も近い敵２キャラに物理小ダメージを与え、物理防御力を中ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals minor P.DMG and moderately lowers P.DEF to two nearest enemies. Effects apply even if DMG is nullified.\n
+
+旗持ち子分を２体召喚し、自身の物理防御力ダウンと魔法防御力ダウン効果を解除する。=Summons 2 Flag-Bearing Underlings and removes own P.DEF/M.DEF debuffs.\n
+
+旗持ち子分のＨＰが一定値以下になった時、敵全体の物理攻撃力と魔法攻撃力を小アップ、トルペドンの物理防御力と魔法防御力をバトル終了まで小ダウンさせ、消滅する。=When Underling's HP drops below threshold: Slightly boosts all enemies' P.ATK/M.ATK, slightly lowers Torpedon's P.DEF/M.DEF until battle ends, then disappears.\n

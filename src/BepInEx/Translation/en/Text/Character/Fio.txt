@@ -1,0 +1,25 @@
+##Profile##
+【魔法】後衛で、アストルムの冒険へと導くガイド妖精。バフとバリアで味方を護りバリアを起点とする攻撃支援、風属性の味方への行動速度とＴＰの支援で仲間を支える。=[Magic] A rear-line Guide Fairy leading Astorum adventures. Protects allies with buffs/barriers, provides barrier-triggered offensive support, and boosts action speed/TP for wind-element allies.
+
+##S1##
+ルーチェ・プロデューレ=Luce Produrre
+バリアが展開されている味方すべてに物理ダメージカット効果と魔法ダメージカット効果を付与する。さらに、風属性の味方すべてのＨＰを中回復させ、行動速度を大アップさせる。=Grants P.DMG Cut & M.DMG Cut to barrier-protected allies. Medium HP recovery + greatly increased action speed for all wind-element allies.
+r:"^バリアが展開されている味方が受ける物理ダメージを15％カットバリアが展開されている味方が受ける魔法ダメージを15％カット風属性の味方のＨＰを(\d+)回復風属性の味方の行動速度アップ$"=►Reduces P.DMG taken by allies with [Barrier] by 15％.\n►Reduces M.DMG taken by allies with [Barrier] by 15％.\n►Restores Wind allies' HP by $1.\n►Boosts Wind allies' Action Speed.
+
+##S2##
+ファータ・パルピト=Fata Palpito
+味方全体の物理攻撃力と魔法攻撃力を大アップ、物理攻撃クリティカル時のダメージと魔法攻撃クリティカル時のダメージを小アップさせる。この効果はバリアが展開されている味方に対して効果量がアップする。さらに、風属性の味方すべてのＴＰを中回復させる。=Greatly boosts all allies' P.ATK/M.ATK + slightly increases P.CRIT DMG/M.CRIT DMG. Effects enhanced for barrier-protected allies. Medium TP recovery for wind-element allies.
+r:"^バリアが展開されている味方の物理攻撃力と魔法攻撃力を(\d+)アップバリアが展開されている味方の物理クリダメと魔法クリダメを16％アップバリアが展開されていない味方の物理攻撃力と魔法攻撃力を(\d+)アップバリアが展開されていない味方の物理クリダメと魔法クリダメを8％アップ風属性の味方のＴＰを200回復$"=►Boosts P.ATK & M.ATK of allies with [Barrier] by $1.\n►Boosts P.CRIT DMG & M.CRIT DMG of allies with [Barrier] by 16％.\n►Boosts P.ATK & M.ATK of allies without [Barrier] by $2.\n►Boosts P.CRIT DMG & M.CRIT DMG of allies without [Barrier] by 8％.\n►Recovers Wind allies' TP by 200.
+##EX##
+リトルノピウマ=Little Piuma
+リトルノピウマ+=Little Piuma+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+##Profile##
+【魔法】後衛から、始原の姿で戦況を操る『変貌大妃』。召喚したグレゴールから攻撃支援とＴＰ回復を受け、互いの魔力を合わせた連携攻撃で、幽玄なる玉座に君臨する。=[Magic] A "Metamorph Regnant" controlling battles from rear lines in primordial form. Receives attack support and TP recovery from summoned Gregor, reigning over mystic throne through coordinated magic assaults.
+
+##UB##
+ティル・ナ・ノーグ=Tír na nÓg
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせる。ネネカ（アルファ）が召喚したグレゴールが味方にいる場合、グレゴールの魔法攻撃力に応じて与えるダメージがアップし、追加で敵全体の魔法防御力を小ダウンさせる。=Deals major M.DMG to enemies around target. Slightly lowers M.DEF and increases critical damage taken. With Gregor summoned, damage scales with Gregor's M.ATK and additionally lowers all enemies' M.DEF.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを7％アップグレゴールがいる場合、敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within range.\n►Lowers M.DEF of enemies within range by $2.\n►Boosts enemies' CRIT DMG taken within range by 7%.\n\nIf Gregor is present:\n►Lowers all enemies' M.DEF by $3.
+
+##S1##
+ティターニアブライト=Titania Bright
+ティターニアブライト+=Titania Bright+
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウン、物理攻撃力と魔法攻撃力を大ダウンさせる。ネネカ（アルファ）が召喚したグレゴールが味方にいる場合、グレゴールの魔法攻撃力に応じて与えるダメージがアップし、追加で敵全体の魔法防御力を小ダウンさせる。=Deals medium M.DMG to enemies in area, reducing M.DEF while greatly lowering P.ATK/M.ATK. With Gregor summoned, damage scales with his M.ATK and adds group M.DEF reduction.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウングレゴールがいる場合、敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within range.\n►Lowers M.DEF of enemies within range by $2.\n►Lowers P.ATK of enemies within range by $3.\n►Lowers M.ATK of enemies within range by $4.\n\nIf Gregor is present:\n►Lowers all enemies' M.DEF by $5.
+
+召喚体スキル=Summon Skills
+##S2##
+フォスフォレセント=Phosphorescent
+【召喚】自分を中心とした範囲内の味方すべての魔法攻撃力、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。闇属性のキャラに対してはこの効果が２回発動する。さらに、ネネカ（アルファ）が召喚したグレゴールが味方にいる場合、グレゴールのＴＰを小回復させ、そうでない場合グレゴールを召喚する。=[Summon] Greatly boosts allies' M.ATK/M.CRIT Rate, slightly increases M.CRIT DMG in area. Dark-element allies receive double boosts. Recovers Gregor's TP if present, otherwise summons him.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを80アップ範囲内の味方の魔法攻撃クリティカル時のダメージを10％アップグレゴールを召喚するグレゴールのＴＰを75回復$"=►Boosts M.ATK of allies within range by $1.\n►Boosts M.CRIT RATE of allies within range by 80.\n►Boosts M.CRIT DMG of allies within range by 10%.\n►Summons Gregor.\n►Recovers Gregor's TP by 75.
+##EX##
+フェアリーサークル=Fairy Circle
+フェアリーサークル+=Fairy Circle+
+
+##SP1##
+グレゴリアライト=Gregorian Light
+グレゴール以外の味方すべてのＴＰ上昇を小アップさせ、ＴＰを小回復させる。さらにグレゴールのＴＰを全て消費し、消費した量に応じてグレゴール以外の闇属性の味方すべてのＴＰを回復する。=Slightly boosts TP Boost and recovers TP for non-Gregor allies. Consumes all Gregor's TP to recover dark allies' TP proportionally.
+r:"^対象の味方のＴＰ上昇を5アップ対象の味方のＴＰを50回復グレゴールのＴＰを全て消費消費したＴＰに応じて、対象の味方のＴＰを回復$"=►Boosts the target's TP Boost by 5.\n►Recovers the target's TP by 50.\n►Consumes all of Gregor's TP.\n►Recovers the target's TP based on the consumed TP.
+##SP2##
+妖精の羽ばたき=Faerie Flutter
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、ＴＰを小ダウンさせ、グレゴールのＨＰとＴＰを小回復する。また、グレゴール以外の味方すべての魔法攻撃力と魔法クリティカルを大アップさせる。グレゴール以外の闇属性のキャラに対してはこの効果が２回発動する。=Deals major M.DMG while reducing TP. Heals Gregor's HP/TP. Greatly boosts M.ATK/M.CRIT Rate for non-Gregor allies, with dark allies receiving two activations.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵のＴＰを100失わせるグレゴールのＨＰを(\d+)回復グレゴールのＴＰを100回復対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリティカルを80アップ$"=►Deals $1 M.DMG to enemies within range.\n►Drains 100 TP from enemies within range.\n►Recovers Gregor's HP by $2.\n►Recovers Gregor's TP by 100.\n►Boosts the target's M.ATK by $3.\n►Boosts the target's M.CRIT RATE by 80.

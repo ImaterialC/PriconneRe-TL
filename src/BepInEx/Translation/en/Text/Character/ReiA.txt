@@ -18,3 +18,10 @@ r:"^範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の�
 ##EX##
 アストラルウィンド=Astral Wind
 アストラルウィンド+=Astral Wind+
+
+
+##UE##
+疾風のアストラ=Astrea of Gale
+エリアルエッジ+=Aerial Edge+
+目の前の敵１キャラに物理大ダメージを与え、スタンさせて大きく吹き飛ばし、移動速度を中ダウンさせる。さらに、自分のＴＰを中回復する。=Deals major P.DMG to front enemy, inflicting stun/knockback while moderately reducing movement speed. Moderately recovers own TP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする敵単体の移動速度を一定時間低下させる自分のＴＰを250回復$"=►Deals $1 P.DMG to a single enemy.\n►Stuns a single enemy for a certain time.\n►Slows a single enemy for a certain time.\n►Recovers own TP by 250.

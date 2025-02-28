@@ -19,3 +19,9 @@ r:"^バリアが展開されている味方の魔法攻撃力を(\d+)アップ�
 ##EX##
 アストラルルミナス=Astral Luminous
 アストラルルミナス+=Astral Luminous+
+
+##UE##
+ラスターシャワー+=Luster Shower+
+光輝のアストラ=Astrea of Radiance
+バリアが展開されている味方全ての行動速度を大アップさせる。さらに自分の魔法攻撃力を大アップ、魔法攻撃クリティカル時のダメージを小アップ、ＴＰ上昇を小アップし、目の前の敵１キャラに魔法大ダメージを与え、自分のＴＰを中回復する。魔法攻撃力と魔法攻撃クリティカル時のダメージの上昇量は味方全員の残りＨＰに応じて最大２倍までアップする。=Greatly increases action speed for barrier-protected allies. Boosts own M.ATK/M.CRIT DMG/TP Boost while dealing major M.DMG + moderate TP recovery. Buffs scale up to 2x based on allies' remaining HP.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法攻撃クリティカル時のダメージを5％アップ自分のＴＰ上昇を5アップ敵単体に(\d+)の魔法ダメージ自分のＴＰを200回復バリアが展開されている味方の行動速度アップ$"=►Boosts own M.ATK by $1.\n►Boosts own M.CRIT DMG by 5%.\n►Boosts own TP Boost by 5.\n►Deals $2 M.DMG to a single enemy.\n►Recovers own TP by 200.\n►Increases action speed of allies with a barrier deployed.
