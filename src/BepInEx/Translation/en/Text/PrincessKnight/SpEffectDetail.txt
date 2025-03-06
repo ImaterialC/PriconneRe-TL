@@ -42,11 +42,11 @@
 
 
 
-バトル開始時、すべてのキャラに火傷状態を付与する。=At the start of the battle, all characters will be inflicted with a burn state.
+バトル開始時、すべてのキャラに火傷状態を付与する。=At the start of the battle, all characters will be inflicted with Burn.
 火傷付与=Burning
 バトル開始時、すべてのキャラのＴＰ上昇を特大ダウンさせる。=At the start of the battle, all characters' TP Boost will be decreased by a massive amount.
 ＴＰ上昇ダウン=TP boost down
-バトル開始時、すべてのキャラの魔法防御力を大ダウンさせる。=At the start of the battle, all characters' M.DEF will be greatly reduced.
+バトル開始時、すべてのキャラの魔法防御力を大ダウンさせる。=At the start of the battle, all characters' M.DEF will be greatly decreased.
 魔法防御力ダウン=Magic Defense Down
 バトル開始時、すべてのキャラのＨＰ回復量を特大ダウンさせる。=At the start of the battle, all characters' HP Recovery will be decreased by a massive amount.
 ＨＰ回復量ダウン=HP Recovery Down
@@ -60,21 +60,21 @@
 バトル開始時、すべてのモンスターのＴＰを特大回復。=When the battle begins, all monsters' TP will be massively restored.
 ＴＰ回復=TP Recovery
 バトル開始時、すべてのキャラの物理攻撃力を大ダウンさせる。=At the start of the battle, all characters' P.ATK will be greatly decreased.
-物理攻撃力ダウン=Physical attack power down
+物理攻撃力ダウン=Physical Attack Down
 バトル開始時、すべてのキャラの魔法攻撃力を大ダウンさせる。=At the start of the battle, all characters' M.ATK will be greatly decreased.
-魔法攻撃力ダウン=Magic Attack Power Down
+魔法攻撃力ダウン=Magic Attack Down
 バトル開始時、すべてのモンスターの行動速度を大アップさせる。=At the start of battle, greatly boosts the action speed of all monsters. 
 バトル開始時、すべてのキャラの行動速度を大ダウンさせる。=At the start of battle, greatly reduces the action speed of all characters.
 行動速度ダウン=Action Speed Down
-バトル開始時、すべてのキャラの物理防御力を大ダウンさせる。=At the start of the battle, all characters' P.DEF will be greatly reduced.
-物理防御力ダウン=Physical Defense down
+バトル開始時、すべてのキャラの物理防御力を大ダウンさせる。=At the start of the battle, all characters' P.DEF will be greatly decreased.
+物理防御力ダウン=Physical Defense Down
 
 
 バトル開始時、すべてのモンスターに継続ＴＰ中回復状態を付与する。=At the start of the battle, grants continuous TP medium recovery to all monsters.
 継続ＴＰ回復=Continuous TP recovery
-バトル開始45秒後、すべてのキャラの物理防御力を大ダウンさせる。=45 seconds after the start of the battle, greatly reduces the physical defense of all characters.
+バトル開始45秒後、すべてのキャラの物理防御力を大ダウンさせる。=45 seconds after the start of battle, greatly reduces the P.DEF of all characters.
 バトル中物理防御力ダウン=Physical defense down during the battle
-バトル開始45秒後、すべてのキャラの魔法防御力を大ダウンさせる。=45 seconds after the start of the battle, greatly reduces the magic defense of all characters.
+バトル開始45秒後、すべてのキャラの魔法防御力を大ダウンさせる。=45 seconds after the start of battle, greatly reduces the M.DEF of all characters.
 バトル中魔法防御力ダウン=Magic defense down during the battle
 
 バトル中、「全状態異常無効・ステータスアップ効果解除無効・行動速度ダウン無効」、「魔法攻撃力ダウン」効果が発動する。=During battle, the effects of “All Status Ailments Invalid, Stat Boost Effect Dispel Invalid and Action Speed Down Invalid” and “Magic Attack Power Down” will be triggered.
