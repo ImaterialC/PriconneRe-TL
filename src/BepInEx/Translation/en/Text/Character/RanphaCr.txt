@@ -1,0 +1,20 @@
+##Profile##
+【魔法】後衛で儀装束を纏い精霊と心を通わせる唱喚士。敵の数に応じてダメージ量が変化する範囲攻撃や、魔法無効バリアなどの支援スキルで想いを詩に乗せ響かせる。=[Magic] A rear-guard summoner clad in ceremonial robes, resonating with spirits through her heart. She unleashes area attacks with damage that varies based on the number of enemies, and supports allies with skills like magic-nullifying barriers, weaving her emotions into poetic echoes.
+
+##UB##
+ルベライトシンフォニー=Rubellite Symphony
+最も魔法防御力の低い敵１キャラを中心とした範囲内の敵すべてに魔法特大ダメージを与え、魔法防御力を中ダウンさせる。さらに追加の魔法特大ダメージを与える。このスキルのダメージは範囲内の敵の数に応じて減少する。=Deals massive M.DMG to all enemies within range centered on the enemy with the lowest M.DEF, and moderately lowers their M.DEF. Additionally, deals extra massive M.DMG. The damage of this skill decreases based on the number of enemies in range.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies within 400 range.\n►Lowers M.DEF of enemies within 400 range by $2 for 18s.\n►Deals $3 M.DMG to enemies within 400 range.
+
+##S1##
+メロディックブリーズ=Melodic Breeze
+最も魔法防御力の低い敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法攻撃力を中ダウン、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに追加の魔法大ダメージを与える。このスキルのダメージは範囲内の敵の数に応じて減少する。=Deals large M.DMG to all enemies within range centered on the enemy with the lowest M.DEF, moderately lowers their M.ATK, slightly lowers their M.DEF, and slightly increases damage taken from critical hits. Additionally, deals extra large M.DMG. The damage of this skill decreases based on the number of enemies in range.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法攻撃力を(\d+)ダウン範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを6％アップ範囲内の敵に(\d+)の魔法ダメージ$"=Cast time: 1.05s\n►Deals $1 M.DMG to enemies within 400 range.\n►Lowers enemies' M.ATK within 400 range by $2 for 12s.\n►Lowers enemies' M.DEF within 400 range by $3 for 12s.\n►Boosts enemies' CRIT M.DMG within 400 range taken by 6％ for 12s.\n►Deals $4 M.DMG to enemies within 400 range.
+
+##S2##
+ハーモニックサークル=Harmonic Circle
+味方全体の魔法防御力を大アップさせる。さらに、自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップさせ、魔法無効バリアを展開する。自分以外の最も近くの味方１キャラの魔法攻撃力に応じて魔法攻撃力アップの上昇量、バリアの無効ダメージ量が最大２倍までアップする。=Greatly boosts all allies' M.DEF. Additionally, massively boosts the M.ATK of all allies within range centered on herself and deploys a magic-nullifying barrier. The M.ATK boost amount and the barrier's nullified damage increase up to a maximum of 2x based on the M.ATK of the nearest ally (excluding herself).
+r:"^味方全体の魔法防御力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 1.05s\n►Boosts all allies' M.DEF by $1 for 12s.\n►Boosts M.ATK of allies within range by $2 for 12s.\n►Deploys a Magic Nullification Barrier within 400 range absorbing $3 M.DMG for 12s.
+##EX##
+リチュアルボイス=Ritual Voice
+リチュアルボイス+=Ritual Voice+
