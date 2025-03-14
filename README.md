@@ -1,19 +1,4 @@
 <h2 align="center">
-⚠️Urgent: Discord Server Under Raid – Please Read
-Hey everyone,
-
-I woke up this morning to find out that PriconneRe:TL Discord server is under raid. Unfortunately, my account under name Cornelia, has had their account compromised. As a result, all posts have been deleted, and there are malicious links being shared in the server.
-
-⚠️ DO NOT click on any links sent by Cornelia.
-⚠️ DO NOT install any software from those links.
-
-I’m deeply sorry for this situation and am working as fast as I can to restore the server and secure everything. 🙇🙇
-
-I’ll update you once things are back to normal.
-
-Thank you for your patience and support. Stay safe!
-
-
 
 <img src=".github/assets/logo.png" style="vertical-align: bottom">
 
