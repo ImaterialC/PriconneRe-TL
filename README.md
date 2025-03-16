@@ -1,23 +1,7 @@
 <h2 align="center">
-⚠️Urgent: Discord Server Under Raid – Please Read
-Hey everyone,
-
-I woke up this morning to find out that PriconneRe:TL Discord server is under raid. Unfortunately, my account under name Cornelia, has had their account compromised. As a result, all posts have been deleted, and there are malicious links being shared in the server.
-
-⚠️ DO NOT click on any links sent by Cornelia.
-⚠️ DO NOT install any software from those links.
-
-I’m deeply sorry for this situation and am working as fast as I can to restore the server and secure everything. 🙇🙇
-
-I’ll update you once things are back to normal.
-
-Thank you for your patience and support. Stay safe!
-
-
-
 <img src=".github/assets/logo.png" style="vertical-align: bottom">
 
-[![Download](https://img.shields.io/github/downloads/ImaterialC/PriconneRe-TL/total.svg?color=brightgreen&label=download&style=flat)](https://github.com/ImaterialC/PriconneRe-TL/releases/latest "Download") [![Discord](https://img.shields.io/discord/967648014497890325?color=blue&labelColor=555555&label=discord&logo=discord&style=flat)](https://discord.gg/vZjAy67KpB "Discord") [![BepInEx](https://img.shields.io/badge/-BepInEx-yellow.svg?logo=unity&labelColor=555555&style=flat)](https://github.com/BepInEx/BepInEx "BepInEx") [![AutoTranslator](https://img.shields.io/badge/-AutoTranslator-orange.svg?logo=unity&labelColor=555555&style=flat)](https://github.com/bbepis/XUnity.AutoTranslator "AutoTranslator") [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Donate](https://img.shields.io/badge/_-donate-red.svg?logo=githubsponsors&labelColor=555555&style=flat)](#-donation "Donate")
+[![Download](https://img.shields.io/github/downloads/ImaterialC/PriconneRe-TL/total.svg?color=brightgreen&label=download&style=flat)](https://github.com/ImaterialC/PriconneRe-TL/releases/latest "Download") [![Discord](https://img.shields.io/discord/1348976841876045845?color=blue&labelColor=555555&label=discord&logo=discord&style=flat)](https://discord.gg/fNVaf44vuE "Discord") [![BepInEx](https://img.shields.io/badge/-BepInEx-yellow.svg?logo=unity&labelColor=555555&style=flat)](https://github.com/BepInEx/BepInEx "BepInEx") [![AutoTranslator](https://img.shields.io/badge/-AutoTranslator-orange.svg?logo=unity&labelColor=555555&style=flat)](https://github.com/bbepis/XUnity.AutoTranslator "AutoTranslator") [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Donate](https://img.shields.io/badge/_-donate-red.svg?logo=githubsponsors&labelColor=555555&style=flat)](#-donation "Donate")
 
 <i>An English patch for Princess Connect! ReDive JP server</i>
 </h2>
