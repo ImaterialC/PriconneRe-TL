@@ -5,12 +5,13 @@
 [![Download](https://img.shields.io/github/downloads/ImaterialC/PriconneRe-TL/total.svg?color=brightgreen&label=download&style=flat)](https://github.com/ImaterialC/PriconneRe-TL/releases/latest "Download") [![Discord](https://img.shields.io/discord/1348976841876045845?color=blue&labelColor=555555&label=discord&logo=discord&style=flat)](https://discord.gg/fNVaf44vuE "Discord") [![BepInEx](https://img.shields.io/badge/-BepInEx-yellow.svg?logo=unity&labelColor=555555&style=flat)](https://github.com/BepInEx/BepInEx "BepInEx") [![AutoTranslator](https://img.shields.io/badge/-AutoTranslator-orange.svg?logo=unity&labelColor=555555&style=flat)](https://github.com/bbepis/XUnity.AutoTranslator "AutoTranslator") [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Donate](https://img.shields.io/badge/_-donate-red.svg?logo=githubsponsors&labelColor=555555&style=flat)](#-donation "Donate")<br>
 <i>An English patch for Princess Connect! ReDive JP server</i><br>
 <br>
+</h2><h4 align="center">
+
 We've also created a new server—join to get the latest patch updates, announcements, support tools (like an auto-updater), Priconne tips & tricks, patch issue reporting, and customization patch!<br>
 [![Discord Banner 2](https://discord.com/api/guilds/1348976841876045845/widget.png?style=banner2)](https://discord.gg/fNVaf44vuE)<br>
 
-</h2>
-
 ---
+</h4>
 
 ⚠️ **Warning:** _Please use it at your own risk!!  We are not responsible for any actions taken toward your account if you use this translation tool_
 
