@@ -621,15 +621,15 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 翠華西瓜の海水駄=Emerald Watermelon Sea Sandals
 紅玉苺の短靴=Ruby Strawberry Short Boots
 
-甘蕉の秘剣=Secret Sword of Banana  
-麝香猫果の剛槌=Mighty Hammer of Civet Fruit  
-覆盆子の晶槍=Crystal Spear of Raspberry  
-天下一甜瓜刀=Supreme Melon Blade  
-桜桃の枝弓=Cherry Blossom Branch Bow  
-菴羅の手甲=Gauntlets of Indian Gooseberry  
-未完刃・雲愁=Unfinished Blade: Cloud Sorrow  
-林檎杖・北斗=Apple Staff: Big Dipper  
-葡萄杖・竜眼=Grape Staff: Dragon's Eye  
+甘蕉の秘剣=Secret Sword of Banana
+麝香猫果の剛槌=Mighty Hammer of Civet Fruit
+覆盆子の晶槍=Crystal Spear of Raspberry
+天下一甜瓜刀=Supreme Melon Blade
+桜桃の枝弓=Cherry Blossom Branch Bow
+菴羅の手甲=Gauntlets of Indian Gooseberry
+未完刃・雲愁=Unfinished Blade: Cloud Sorrow
+林檎杖・北斗=Apple Staff: Big Dipper
+葡萄杖・竜眼=Grape Staff: Dragon's Eye
 
 紅玉の徽章=Ruby Emblem
 鬼木天蓼の徽章=Demonwood Matatabi Emblem
@@ -643,27 +643,27 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 オートマトンジャケット=Automaton Jacket
 オートマトンフルフェイス=Automaton Full Face
 
-オートマトンエクスプレス=Automaton Ex Press  
-オートマトンエクスランス=Automaton Ex Lance  
-オートマトンエクスソード=Automaton Ex Sword  
-オートマトンエクスロッド=Automaton Ex Rod  
-オートマトンエクスバトン=Automaton Ex Baton  
-オートマトンエクスエッジ=Automaton Ex Edge  
-オートマトンエクスダガー=Automaton Ex Dagger  
-オートマトンエクスカタナ=Automaton Ex Katana  
-オートマトンエクスボウ=Automaton Ex Bow  
+オートマトンエクスプレス=Automaton Ex Press
+オートマトンエクスランス=Automaton Ex Lance
+オートマトンエクスソード=Automaton Ex Sword
+オートマトンエクスロッド=Automaton Ex Rod
+オートマトンエクスバトン=Automaton Ex Baton
+オートマトンエクスエッジ=Automaton Ex Edge
+オートマトンエクスダガー=Automaton Ex Dagger
+オートマトンエクスカタナ=Automaton Ex Katana
+オートマトンエクスボウ=Automaton Ex Bow
 
 アズールサーキュラー=Azure Circular
 クリムゾンデルタ=Crimson Delta
 ヴェルデスクエア=Verde Square
 
 
-撃滅鱗装ギガント=Annihilation Scale Armor Gigant  
-絶滅骸装タイラント=Extinction Bone Armor Tyrant  
-激突重盾トライセラ=Collision Heavy Shield Tricera  
-幻蝦霊装アノーマリー=Illusory Shrimp Spirit Armor Anomaly  
-翼竜額冠ロンギケプス=Pterosaur Forehead Crown Longiceps  
-餓竜疾靴デュアルラプター=Hunger Dragon Swift Boots Dual Raptor  
+撃滅鱗装ギガント=Annihilation Scale Armor Gigant
+絶滅骸装タイラント=Extinction Bone Armor Tyrant
+激突重盾トライセラ=Collision Heavy Shield Tricera
+幻蝦霊装アノーマリー=Illusory Shrimp Spirit Armor Anomaly
+翼竜額冠ロンギケプス=Pterosaur Forehead Crown Longiceps
+餓竜疾靴デュアルラプター=Hunger Dragon Swift Boots Dual Raptor
 
 蛮骨剣ケントロ=Barbaric Bone Sword Kentro
 竜杖ゲオステルンベルギア=Dragon Staff Geosternbergia
@@ -674,3 +674,8 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 滑空葬弓プテロダ=Gliding Burial Bow Pteroda
 渦殻斧アンモクラッシャー=Whirlshell Axe Ammoncrusher
 穿角槍モノクロニウス=Piercing Horn Spear Monoclonius
+
+
+紅飾ラディオドンタ=Crimson Adornment Radiodonta
+碧飾ケロニオイデア=Jade Adornment Cheloniodea
+蒼飾フィロセラス=Azure Adornment Philoceras

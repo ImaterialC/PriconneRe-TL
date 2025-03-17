@@ -1,0 +1,8 @@
+コンサートポスター=Concert poster
+前後編のEXを除く=Excluding the first and second parts of EX
+
+【前編】ボスに1回挑戦しよう=[Part 1] Challenge the boss once
+【後編】ボスに1回挑戦しよう=[Part 1] Challenge the boss once
+
+r:"^イベントクエスト ([ A-Za-z\-0-9]+)$"=Event Quest 1 Quest$1
+r:"^イベントクエスト ([ A-Za-z\-0-9]+)$"=Event Part 2 Quest$1
