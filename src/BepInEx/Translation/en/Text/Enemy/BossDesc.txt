@@ -1502,3 +1502,12 @@
 旗持ち子分を２体召喚し、自身の物理防御力ダウンと魔法防御力ダウン効果を解除する。=Summons 2 Flag-Bearing Underlings and removes own P.DEF/M.DEF debuffs.\n
 
 旗持ち子分のＨＰが一定値以下になった時、敵全体の物理攻撃力と魔法攻撃力を小アップ、トルペドンの物理防御力と魔法防御力をバトル終了まで小ダウンさせ、消滅する。=When Underling's HP drops below threshold: Slightly boosts all enemies' P.ATK/M.ATK, slightly lowers Torpedon's P.DEF/M.DEF until battle ends, then disappears.\n
+
+ユニオンバーストは、最も近い敵１キャラを中心にした中範囲内の敵すべてに物理大ダメージを与える。その後、飛行状態のキャラを含む敵全体にこのスキルで与えたダメージ量に応じた魔法ダメージを与える。このスキルによる全体ダメージでは、ＴＰが回復しない。=Union Burst deals large P.DMG to all enemies in a medium area around the nearest target. Then deals M.DMG to all enemies (including flying units) based on DMG dealt by this skill. DMG from this skill does not recover TP.\n
+
+自身の物理攻撃力と物理防御力と魔法防御力を特大アップさせ、ＴＰを大回復する。=Massively boosts own P.ATK, P.DEF, and M.DEF. Greatly recovers own TP.\n
+
+通常攻撃は、最も近い敵１キャラを中心にした中範囲内の敵最大２キャラに物理特大ダメージを与える。=Normal Attack deals extreme P.DMG to up to 2 enemies in a medium area around nearest target.\n
+
+前から３番目攻撃=Third attack from the front
+ＨＰの高いキャラを攻撃、攻撃力ダウン=Attacks characters with high HP and decreases attack power
