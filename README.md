@@ -81,6 +81,4 @@ The Vanilla state of the priconner folder was like the below picture:
 
 Any donation is a huge encouragement for having more motivation to maintain text and texture translation. Many thanks, You guys! ![KokkoroThumpUp](https://cdn.discordapp.com/emojis/974959962814021683.webp?size=32)
 
-Your name will appear on monthly video on [my channel](https://www.youtube.com/playlist?list=PL7rvyKiF8qfl4WgOAcSOuYnkg4fEbL66c)
-
 [![ko-fi](https://img.shields.io/badge/_-kofi-red.svg?logo=kofi&labelColor=555555&style=for-the-badge)](https://ko-fi.com/E1E5HG8RP  "ko-fi: PayPal or Stripe direct or subscribe plan") [![saweria](https://img.shields.io/badge/_-Saweria.co-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge)](https://saweria.co/imaterial "Local IDR currency support") [![patreon](https://img.shields.io/badge/_-Patreon-red.svg?logo=patreon&labelColor=555555&style=for-the-badge)](https://patreon.com/imaterial "patreon")[![PayPal](https://img.shields.io/badge/_-PayPal-red.svg?logo=PayPal&labelColor=555555&style=for-the-badge)](https://payPal.me/CorneliaCrimson "no deductions, messages go to my smartphone's notifications")
