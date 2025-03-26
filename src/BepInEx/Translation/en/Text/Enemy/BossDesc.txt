@@ -139,6 +139,12 @@
 
 サンドガーゴイル=Sandgargoyle
 塔の魔力を蓄え雷撃として放電する怪鳥。雷雲と共に顕現し、天災の如き雷で敵を葬り去る。=A mysterious bird that harnesses the tower's magic to accumulate and discharge lightning strikes. It manifests alongside thunderclouds, obliterating enemies with catastrophic lightning.\n
+
+魔力を蓄え雷撃として放電する怪鳥。雷雲と共に顕現し、天災の如き雷で敵を葬り去る。【特殊効果】=A mysterious bird that stores magic power and releases it as thunderbolts. It appears with thunderclouds and annihilates enemies with calamitous lightning. [Special Effect]\n
+
+魔力を蓄え雷撃として放電する怪鳥。雷雲と共に顕現し、天災の如き雷で敵を葬り去る。=A mysterious bird that stores magic power and releases it as thunderbolts. It appears with thunderclouds and annihilates enemies with calamitous lightning.\n
+
+
 敵全体に魔法大ダメージを与え、自分の魔法攻撃力と、行動速度を小アップさせる。物理攻撃をする敵にはさらに追加ダメージ。=Deals large M.DMG to all enemies and slightly increases its own M.ATK and action speed. It deals additional damage to enemies performing P.ATKs.\n
 前方範囲内の敵すべてに魔法中ダメージを与え物理防御力と魔法防御力を中ダウンさせる。=Deals medium M.DMG to all enemies in the frontal area and moderately decreases their P.DEF and M.DEF.\n
 物理攻撃力が最も高い敵１キャラに魔法大ダメージを与え、長時間麻痺状態にする。自分のＨＰが85％を切ると、魔法攻撃力が最も高い敵にもこの攻撃を行う。=Deals large M.DMG to the enemy character with the highest P.ATK and inflicts paralysis status for a long time. If its own HP falls below 85%, it also performs this attack on the enemy with the highest M.ATK.\n
@@ -382,7 +388,6 @@
 自身の物理攻撃力、物理防御力、魔法防御力を中アップさせる。=Boosts its own P.ATK, P.DEF, and M.DEF to a moderate amount.\n
 
 
-魔力を蓄え雷撃として放電する怪鳥。雷雲と共に顕現し、天災の如き雷で敵を葬り去る。=A mysterious bird that stores magic power and releases it as thunderbolts. It appears with thunderclouds and annihilates enemies with calamitous lightning.\n
 ユニオンバーストは、自身の魔法攻撃力と魔法防御力を小アップさせ、最も近い敵１キャラに魔法特大ダメージを与え、麻痺状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: Increases its own ATK and M.DEF to a small amount, then deals massive M.DMG to the enemy character closest to it and inflicts Paralysis status. The skill's status effect is applied even if M.DMG is negated.\n
 最も近い敵１キャラに魔法特大ダメージを与え、麻痺状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals massive M.DMG to the enemy character closest to it and inflicts Paralysis status. The skill's status effect is applied even if damage is negated.\n
 
@@ -1511,3 +1516,59 @@
 
 前から３番目攻撃=Third attack from the front
 ＨＰの高いキャラを攻撃、攻撃力ダウン=Attacks characters with high HP and decreases attack power
+
+
+ホーネットクイーン=Hornet Queen
+熟練の戦闘術で翻弄するクワガタの魔物。豪雷を纏う技のキレに、シビれる者が続出。=A stag beetle monster that toys with its enemies using proficient combat skills. Many are left electrified by the keenness of its thunder-clad techniques.
+蜂の頂点に君臨する麗しき姿の支配者。\nその采配ひとつで、兵隊の奔流が獲物をのみ込む。=A beautiful ruler who reigns supreme over the bees. With a single command, the torrent of her soldiers swallows the prey.
+自身にＴＰダウン無効=Grants self immunity to TP reduction effects.
+敵全体にＴＰ上昇ダウン=Reduces TP gain rate for all enemies.
+敵全体にＨＰ吸収ダウン=Reduces HP drain effects for all enemies.
+自身に魔法攻撃力アップ=Increases own M.ATK.
+自身に魔法防御力アップ=Increases own M.DEF.
+前から敵１体に魔法ダメージ=Deals M.DMG to one enemy in front.
+前から敵１体に麻痺=Paralyzes one enemy in front.
+自身に物理／魔法防御力アップ=Boosts own P.DEF and M.DEF.
+後ろから敵３体に物理ダメージ=Deals P.DMG to the three backmost enemies.
+後ろから敵３体にスタン=Stuns the three backmost enemies.
+後ろから敵２体に物理ダメージ=Deals P.DMG to the two backmost enemies.
+後ろから敵２体に物理防御力ダウン=Reduces P.DEF of the two backmost enemies.
+後ろから敵１体に物理ダメージ=Deals P.DMG to the backmost enemy.
+挑発無視=Ignores taunt.
+自身にＴＰダウンカット=Reduces the effect of TP reduction on self.
+後ろから敵２体にＴＰダウン=Reduces TP of the two backmost enemies.
+前から敵１体に物理ダメージ=Deals P.DMG to one enemy in front.
+敵全体に麻痺=Paralyzes all enemies.
+敵全体に物理／魔法攻撃力ダウン=Reduces P.ATK and M.ATK of all enemies.
+丸太状態：自身に物理／魔法防御力アップ=While in Log State: Boosts own P.DEF and M.DEF.
+丸太状態解除：自身に物理／魔法防御力ダウン=Upon exiting Log State: Reduces own P.DEF and M.DEF.
+自身の物理攻撃力に応じて召喚体に物理攻撃力\n　アップ=Boosts the P.ATK of summoned units based on own P.ATK.
+自身以外の味方全体に行動速度アップ=Increases the action speed of all allies except self.
+自身にＴＰ回復=Recovers own TP.
+挑発／召喚体無視=Ignores taunt and summoned units.
+自身に全ダメージカット=Grants self immunity to all damage.
+自身が受ける行動不能時間延長=Extends the duration of incapacitation effects received by self.
+前から２／３番目の敵に物理ダメージ=Deals P.DMG to the 2nd and 3rd enemies from the front.
+前から２／３番目の敵にＴＰダウン=Reduces TP of the 2nd and 3rd enemies from the front.
+ホーネットクイーンにＴＰ回復=Recovers TP for Hornet Queen.
+ホーネットクイーンに物理攻撃力アップ=Increases P.ATK for Hornet Queen.
+バズナイト２体召喚=Summons 2 Buzz Knights.
+自身の物理攻撃力が高いほど：ダメージアップ=The higher own P.ATK, the higher the damage.
+敵全体に物理固定ダメージ=Deals fixed P.DMG to all enemies.
+飛行効果無視=Ignores flight effects.
+敵全体に重複可能の行動速度ダウン=Applies a stackable action speed debuff to all enemies.
+バズナイト３体召喚=Summons 3 Buzz Knights.
+前から２／３／４番目の敵に物理ダメージ=Deals P.DMG to the 2nd, 3rd, and 4th enemies from the front.
+前から２／３／４番目の敵にＴＰダウン=Reduces TP of the 2nd, 3rd, and 4th enemies from the front.
+敵全体にバリア解除=Removes barriers from all enemies.
+敵全体に魔法割合ダメージ=Deals percentage M.DMG to all enemies.
+対象が行動不能：追加魔法ダメージ=If the target is incapacitated: deals additional M.DMG.
+対象が行動不能：ＴＰダウン=If the target is incapacitated: reduces TP.
+前方範囲に魔法割合ダメージ=Deals percentage M.DMG to enemies in front range.
+残りＨＰ割合が最も低い敵１体に束縛\n　（挑発無視）=Inflicts bind on the enemy with the lowest HP percentage, ignoring taunt.
+敵全体に束縛=Binds all enemies.
+対象のＨＰ60％未満：対象周囲に束縛=If the target's HP is below 60%: binds enemies around the target.
+対象のＨＰ60％未満：束縛時間アップ=If the target's HP is below 60%: increases bind duration.
+対象のＨＰ70％未満：対象周囲に束縛=If the target's HP is below 70%: binds enemies around the target.
+対象のＨＰ70％未満：束縛時間アップ=If the target's HP is below 70%: increases bind duration.
+敵全体にＨＰ回復量ダウン=Reduces HP recovery amount for all enemies.
