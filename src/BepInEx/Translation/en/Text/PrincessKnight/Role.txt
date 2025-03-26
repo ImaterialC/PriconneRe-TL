@@ -24,6 +24,15 @@
 タンク=Tank
 ジャマー=Jammer
 
+【アタッカー】=[Attacker]
+【ブレイカー】=[Breaker]
+【バッファー】=[Buffer]
+【デバッファー】=[Debuffer]
+【ブースター】=[Booster]
+【ヒーラー】=[Healer]
+【タンク】=[Tank]
+【ジャマー】=[Jammer]
+
 マスタリー=Mastery 
 クリダメ=Critical Damage
 クリティカル=Critical Rate
@@ -39,11 +48,8 @@ HPチャージ=HP Charge
 状態異常抵抗=Status Ailment Resistance
 状態異常命中=Status Ailment Accuracy
 
-
-
 r:"^オールマスタリーLv(\d+)$"=All-Mastery Lv $1
-sr:"^【(.+)】(.+?)(?:アップ)?(マスタリー)?Lv(\d+)$"=【$1】 $2 Up $3 Lv $4
-
+sr:"^【(.+)】(.+?)(?:アップ)?(マスタリー)?Lv(\d+)$"=[$1] $2 Up $3 Lv $4
 
 以下のアイテムを消費して強化しますか？=Would you like to use the following items to strengthen it?
 
