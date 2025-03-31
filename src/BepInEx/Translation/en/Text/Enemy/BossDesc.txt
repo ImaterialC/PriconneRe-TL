@@ -1572,3 +1572,14 @@
 対象のＨＰ70％未満：対象周囲に束縛=If the target's HP is below 70%: binds enemies around the target.
 対象のＨＰ70％未満：束縛時間アップ=If the target's HP is below 70%: increases bind duration.
 敵全体にＨＰ回復量ダウン=Reduces HP recovery amount for all enemies.
+
+
+敵全体に物理ダメージ=Deals P.DMG to all enemies.
+敵全体に魔法ダメージ=Deals M.DMG to all enemies.
+対象のＨＰ90％未満：スタン=If target's HP is below 90%, applies Stun.
+自身のＨＰ50％未満：強化状態に変更=If own HP is below 50%, changes to Enhanced State.
+対象のＨＰ70％未満：スタン=If target's HP is below 70%, applies Stun.
+自身のＨＰ50％未満：ダメージと効果量アップ=If own HP is below 50%, increases damage and effect potency.
+敵全体に行動速度ダウン=Reduces action speed for all enemies.
+敵全体にＴＰダウン=Reduces TP for all enemies.
+並行世界より連れ込まれた半機半生の怪\n獣。身に纏う鋼鉄の装甲はあらゆる攻撃を遮断し、放たれる灼熱の光線は万物を灰燼に帰す。=A half-machine, half-living monstrosity brought from a parallel world. Its steel armor blocks all attacks, and its searing beam reduces everything to ashes.

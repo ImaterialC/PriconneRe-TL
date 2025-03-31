@@ -64,6 +64,9 @@ r:"^プレイヤーID:([0-9 ]+)$"=Player ID: $1
 サポートキャラ=Support Character
 自分とバトル=Battle Yourself
 バトル編成=Battle Formation
+固定サポートキャラ=Fixed Support Character
+
+
 設定後30分間はサポートを終了できません。=Support cannot be ended for 30 minutes after set-up.
 「編成」ボタンからフレンドバトル用のパーティを設定できます。=Click the "Edit" button to set up a party for Friend Battles.
 [3C404E]リタイアします。\n\nよろしいですか？[-]=[3C404E]Are you sure you want to forfeit?[-]

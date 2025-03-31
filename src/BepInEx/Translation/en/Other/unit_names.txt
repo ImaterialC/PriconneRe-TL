@@ -128,7 +128,7 @@
 ユニ（聖学祭）=Yuni (School Festival);SFYuni;School Festival
 イノリ（タイムトラベル）=Inori (Time Traveller);TInori;TTInori;Time Traveller
 カヤ（タイムトラベル）=Kaya (Time Traveller);TKaya;TTKaya;Time Traveller
-アオイ（作業服）=Aoi (Work);WAoi;Work
+アオイ（作業服）=Aoi (Work);WAoi;BBB;Bochi;Work
 タマキ（作業服）=Tamaki (Work);WTamaki;Work
 ミフユ（作業服）=Mifuyu (Work);WMifuyu;Work
 ハツネ（ハツネ&シオリ）=Hatsune (Hatsune & Shiori)
@@ -157,7 +157,7 @@
 サレン（アキノ＆サレン）=Saren (Akino & Saren)
 アンナ（パイレーツ）=Anna (Pirate);PAnna;Pirate
 シノブ（パイレーツ）=Shinobu (Pirate);PShinobu;Pirate
-アオイ（キャンプ）=Aoi (Camp);CAoi;Camp
+アオイ（キャンプ）=Aoi (Camp);CAoi;BBB;Bochi;Camp
 ユカリ（キャンプ）=Yukari (Camp);CYukari;Camp
 マホ（エクスプローラー）=Maho (Explorer);EMaho;Kururinpa;Explorer
 アヤネ（エクスプローラー）=Ayane (Explorer);EAyane;Explorer
@@ -239,7 +239,7 @@
 エリコ（サマー）=Eriko (Summer);SEriko;Summer;Swimsuit;Bikini
 ミツキ（サマー）=Mitsuki (Summer);SMitsuki;Summer;Swimsuit;Bikini
 ミサト（サマー）=Misato (Summer);SMisato;Summer;Swimsuit;Bikini
-アオイ（サマー）=Aoi (Summer);SAoi;Summer;Swimsuit;Bikini
+アオイ（サマー）=Aoi (Summer);SAoi;BBB;Bochi;Summer;Swimsuit;Bikini
 ハツネ（サマー）=Hatsune (Summer);SHatsune;Natsune;Summer;Swimsuit;Bikini
 イオ（サマー）=Io (Summer);SIo;Summer;Swimsuit;Bikini
 スズナ（サマー）=Suzuna (Summer);SSuzuna;Summer;Swimsuit;Bikini
@@ -331,7 +331,7 @@
 エリコ（ハロウィン）=Eriko (Halloween);HEriko;Halloween
 ミツキ（ハロウィン）=Mitsuki (Halloween);HMitsuki;Halloween
 ミサト（ハロウィン）=Misato (Halloween);HMisato;Halloween
-アオイ（ハロウィン）=Aoi (Halloween);HAoi;Halloween
+アオイ（ハロウィン）=Aoi (Halloween);HAoi;BBB;Bochi;Halloween
 ハツネ（ハロウィン）=Hatsune (Halloween);HHatsune;Halloween
 イオ（ハロウィン）=Io (Halloween);HIo;Halloween
 スズナ（ハロウィン）=Suzuna (Halloween);HSuzuna;Halloween
@@ -419,7 +419,7 @@
 エリコ（クリスマス）=Eriko (Holiday);XEriko;Holiday;Christmas;Xmas
 ミツキ（クリスマス）=Mitsuki (Holiday);XMitsuki;Holiday;Christmas;Xmas
 ミサト（クリスマス）=Misato (Holiday);XMisato;Holiday;Christmas;Xmas
-アオイ（クリスマス）=Aoi (Holiday);XAoi;Holiday;Christmas;Xmas
+アオイ（クリスマス）=Aoi (Holiday);XAoi;BBB;Bochi;Holiday;Christmas;Xmas
 ハツネ（クリスマス）=Hatsune (Holiday);XHatsune;Holiday;Christmas;Xmas
 イオ（クリスマス）=Io (Holiday);XIo;Holiday;Christmas;Xmas
 スズナ（クリスマス）=Suzuna (Holiday);XSuzuna;Holiday;Christmas;Xmas
@@ -507,7 +507,7 @@
 エリコ（ニューイヤー）=Eriko (New Year);NyEriko;New Year;Kimono
 ミツキ（ニューイヤー）=Mitsuki (New Year);NyMitsuki;New Year;Kimono
 ミサト（ニューイヤー）=Misato (New Year);NyMisato;New Year;Kimono
-アオイ（ニューイヤー）=Aoi (New Year);NyAoi;New Year;Kimono
+アオイ（ニューイヤー）=Aoi (New Year);NyAoi;BBB;Bochi;New Year;Kimono
 ハツネ（ニューイヤー）=Hatsune (New Year);NyHatsune;Nyatsune;New Year;Kimono
 イオ（ニューイヤー）=Io (New Year);NyIo;New Year;Kimono
 スズナ（ニューイヤー）=Suzuna (New Year);NySuzuna;New Year;Kimono
@@ -566,7 +566,7 @@
 プレシア（フォールン）=Precia (Fallen);FPrecia;Fallen
 リリ（フォールン）=Riri (Fallen);Lili (Fallen);Lily (Fallen);FRiri;FLili;FLily;Fallen
 
-アオイ（編入生）=Aoi (Student);Aoi (Transfer Student);TsAoi;StAoi;Student
+アオイ（編入生）=Aoi (Student);Aoi (Transfer Student);TsAoi;BBB;Bochi;StAoi;BBB;Bochi;Student
 キャル（編入生）=Karyl (Student);Karyl (Transfer Student);Kyaru (Student);TsKaryl;TsKyaru;StKaryl;StKyaru;Student
 スズナ（編入生）=Suzuna (Student);Suzuna (Transfer Student);TsSuzuna;TsSuzuna;StSuzuna;StSuzuna;Student
 
@@ -595,3 +595,5 @@
 ラビリスタ（アルファ）=Labyrista (Alpha);ALabyrista;Alpha
 ネネカ（アルファ）=Neneka (Alpha);NNK (Alpha);ANeneka;ANNK;Alpha
 カイザーインサイト（アルファ）=Kaiser Insight (Alpha);AKaiser Insight;AMana Senri;Alpha
+
+アオイ（パイロット）=Aoi (Pilot);PAoi;BBB;Bochi;Pilot
