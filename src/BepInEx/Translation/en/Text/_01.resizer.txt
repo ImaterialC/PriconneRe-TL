@@ -379,3 +379,5 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 /_Game(Clone)/UI Root/ViewsArea/View/ViewKnightEnhance(Clone)/WidgetOff(Clone)/Left/LeftButtonGroup/UnitRoleGroupParent/MasteryEnhanceSettingButton/Label=ChangeFontSize(16)
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewKnightEnhance(Clone)/WidgetOff(Clone)/Left/LeftButtonGroup/UnitRoleGroupParent/MasteryBulkEnhanceButton/Label=ChangeFontSize(18)
+
+_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ButtonShort/ButtonExEquip/ExEquipLabel=ChangeFontSize(15)

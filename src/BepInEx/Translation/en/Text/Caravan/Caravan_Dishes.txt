@@ -70,8 +70,13 @@ r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」�
 
 アネモネの花爛漫ステーキサラダ=Anemone's Flower Steak Salad
 次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=If the next Dice roll is a "1" or "2", you will instantly receive three lottery tickets.
+このターンに振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=If the Dice roll is a "1" or "2", you will instantly receive three lottery tickets.
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
+このターンに振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 this turn.
+
 次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
+このターンに振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
+
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Movement] category food next turn, earn 2,000 miles on the spot.[-]
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「6」に、その次に振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 3 the turn after.[-]
