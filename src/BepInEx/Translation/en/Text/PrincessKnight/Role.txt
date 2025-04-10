@@ -47,7 +47,8 @@ HPチャージ=HP Charge
 回復強化=Recovery
 状態異常抵抗=Status Ailment Resistance
 状態異常命中=Status Ailment Accuracy
-
+与ダメアップ=Damage Up
+クリダメアップ=Critical Damage Up
 r:"^オールマスタリーLv(\d+)$"=All-Mastery Lv $1
 sr:"^【(.+)】(.+?)(?:アップ)?(マスタリー)?Lv(\d+)$"=[$1] $2 Up $3 Lv $4
 
@@ -57,3 +58,5 @@ Kokkoro Tutorial
 キャラ全員に、バトル中の特徴を表すロールが解放されましたよ。\nロールはアタッカー・ブレイカー・バッファー・デバッファー・\nブースター・ヒーラー・タンク・ジャマーの８つがございます。=All characters now have access to roles that represent their characteristics in battle. The roles are: Attacker, Breaker, Buffer, Debuffer, Booster, Healer, Tank, and Jammer.
 各ロールにはステータス上昇に繋がる「マスタリー」が備わっておりま\nす。ロールマスタリーでは専用アイテムを用いてマスタリーの強化が行\nえますよ。低レベルアイテムは集めて高レベルに変換できるのだとか。=Each role has a "Mastery" that enhances stats. Role Mastery can be strengthened using exclusive items. Low-level items can be collected and converted into higher-level ones.
 マスタリー強化アイテムは、様々なコンテンツから獲得できるマスタリー\nチケットを消費して、マスタリーガチャから入手できます。全てのマスタ\nリーの強化に使える「オールマスタリー」もこちらから入手できますよ。=Mastery strengthening items can be obtained from the Mastery Gacha by spending Mastery Tickets, which are earned from various content. "All Mastery," which can be used to strengthen all masteries, is also available here.
+
+はい、お疲れさま。\nここではマスタリーチケットを\n使って、マスタリー強化素材を\n手に入れることができるわよ。=Well done.\nYou can use your Mastery Tickets here to get Mastery enhancement materials.
