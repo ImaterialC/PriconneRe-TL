@@ -1,0 +1,18 @@
+##UB##
+エアリアルブラストーム = Aerial Blast Storm
+
+味方全体の魔法攻撃力と魔法クリ\nティカルを特大アップさせ、目の前\nの敵１キャラに魔法特大ダメージを\n与え、魔法防御力を小ダウンさせ\nる。このスキルは１ヒットは必ずク\nリティカルし、クリティカルした場\n合のダメージは、２倍ではなく３倍\nになる。=Massively increases all allies' M.ATK and M.CRIT, deals massive M.DMG to the frontmost enemy, and slightly lowers their M.DEF. One hit will always be a critical, and critical damage is tripled instead of doubled.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' M.CRIT by $2.\n►Deals $3 M.DMG to the frontmost enemy.\n►Lowers enemy’s M.DEF by $4.\n►One hit of this UB is guaranteed to crit.\n►Critical damage is 3x instead of 2x.
+
+##S1##
+クロスピンボルト = Cross Pin Bolt
+敵全体の物理攻撃力と魔法攻撃力を\n大ダウン、魔法防御力を小ダウン、\nクリティカルを受けた際のダメージ\nを小アップさせ、行動速度を大ダウ\nンさせる。さらに、自分のＴＰを小\n回復する。自分にバリアが展開され\nている場合、自分のバリアを全て解\n除し、ＨＰとＴＰを小回復する。=Greatly reduces all enemies' P.ATK and M.ATK, slightly reduces their M.DEF, slightly increases crit damage taken, and greatly reduces their action speed. Also slightly recovers own TP. If self has a barrier, it is removed and HP/TP are slightly recovered.
+r:"^敵全体の物理・魔法攻撃力を(\d+)ダウン敵全体の魔法防御力を(\d+)ダウン敵全体の被クリダメを(\d+％)アップ敵全体の行動速度を一定時間低下させる自分のＴＰを(\d+)回復バリアが展開されている時、自分のバリアを解除して、自分のＨＰを(\d+)回復、ＴＰを(\d+)回復$"=►Lowers all enemies' P/M.ATK by $1.\n►Lowers all enemies' M.DEF by $2.\n►Increases crit damage taken by enemies by $3.\n►Reduces enemies' action speed by 50%.\n►Recovers own TP by $4.\n►If self has Barrier:\n　►Removes own Barrier.\n　►Recovers own HP by $5.\n　►Recovers own TP by $6.
+
+##S2##
+エアリアルバリア = Aerial Barrier
+味方全体の魔法攻撃力を特大アッ\nプ、物理防御力と魔法防御力を大\nアップ、魔法攻撃クリティカル時の\nダメージを小アップさせ、行動速度\nを大アップさせる。さらに、自分の\nＴＰを小回復する。自分にバリアが\n展開されている場合、自分のバリア\nを全て解除し、ＨＰとＴＰを小回復\nする。=Massively boosts all allies' M.ATK, greatly boosts their P.DEF and M.DEF, slightly increases M.Crit damage, and greatly increases action speed. Also slightly recovers own TP. If self has a barrier, it is removed and HP/TP are slightly recovered.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理・魔法防御力を(\d+)アップ味方全体の魔法クリダメを(\d+％)アップ味方全体の行動速度アップ自分のＴＰを(\d+)回復バリアが展開されている時、自分のバリアを解除して、自分のＨＰを(\d+)回復、ＴＰを(\d+)回復$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' P/M.DEF by $2.\n►Increases M.Crit DMG of all allies by $3.\n►Boosts all allies' action speed by 100%.\n►Recovers own TP by $4.\n►If self has Barrier:\n　►Removes own Barrier.\n　►Recovers own HP by $5.\n　►Recovers own TP by $6.
+
+フルバースト+ = Full Burst+
+スラスターＯＮ！ = Thrusters ON!

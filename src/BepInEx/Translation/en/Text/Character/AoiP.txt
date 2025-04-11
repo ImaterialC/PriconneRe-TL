@@ -1,0 +1,20 @@
+##UB##
+ギガンティックキャノン発射！=Gigantic Cannon, fire!
+
+自分の物理攻撃力を特大アップし、\n目の前の敵１キャラに物理特大ダ\nメージを与える。さらに目の前の敵\n１キャラを中心に、物理ダメージ\nフィールドと、物理攻撃力を大ダウ\nン、物理防御力を特大ダウンさせる\nフィールドを展開する。=Massively increases own P.ATK, deals massive P.DMG to the frontmost enemy. Also deploys a field centered on that enemy that deals P.DMG over time, greatly reduces their P.ATK, and massively reduces their P.DEF.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージフィールド内の敵の物理攻撃力(\d+)ダウンフィールド内の敵の物理防御力(\d+)ダウン毎秒(\d+)の物理ダメージを与えるフィールドを展開する$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to the frontmost enemy.\n►Lowers P.ATK of enemies in the field by $3.\n►Lowers P.DEF of enemies in the field by $4.\n►Field deals $5 P.DMG/s.
+
+##S1##
+クロースぼっちコンバット=Close Bocchi Combat
+
+目の前の敵１キャラに物理大ダメー\nジを与える。さらにそのキャラを中\n心とした範囲内の敵すべてに物理中\nダメージを与え、物理攻撃力を中ダ\nウン、物理防御力を小ダウンさせ\nる。【フィールド展開中】このスキ\nルのダメージがアップし、目の前の\n敵１キャラを中心とした範囲内の敵\nすべてのクリティカルを受けた際の\nダメージを小アップさせる。=Deals large P.DMG to the frontmost enemy. Also deals moderate P.DMG to enemies in an area centered on that target, moderately lowers their P.ATK, and slightly lowers their P.DEF. [While field is active] Damage increases, and enemies in range take slightly more critical damage.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウンフィールド展開中、範囲内の敵の被クリダメを(\d+％)アップ$"=►Deals $1 P.DMG to the frontmost enemy.\n►Deals $2 P.DMG to enemies in range.\n►Lowers P.ATK of enemies in range by $3.\n►Lowers P.DEF of enemies in range by $4.\n►Increases crit DMG taken by enemies in range by $5 while field is active.
+
+##S2##
+ピンポイントぼっちバリア=Pinpoint Bocchi Barrier
+
+自分に物理無効バリアを展開し、さ\nらに自分の物理攻撃力を特大アッ\nプ、ＴＰ上昇を小アップし、ＴＰを\n中回復する。【フィールド展開中】\n味方全体に物理/魔法吸収バリアを\n展開し、さらに味方全体の物理攻撃\n力を特大アップ、ＴＰを小回復させ\nる。=Deploys a physical-nullifying barrier for self, massively increases own P.ATK, slightly boosts TP Boost, and moderately recovers TP. [While field is active] Deploys a physical/magical absorption barrier to all allies, greatly increases their P.ATK, and slightly recovers their TP.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ自分のＴＰを(\d+)回復フィールド展開中、以下の効果が発動する(\d+)ダメージ分の物理魔法吸収バリアを展開する味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰを(\d+)回復$"=►Deploys phys-nullifying Barrier on self that negates $1 P.DMG.\n►Boosts own P.ATK by $2.\n►Boosts own TP Boost by $3.\n►Recovers own TP by $4.\n►[If field is active]:\n　►Deploys phys/magic absorb Barrier to all allies that absorbs $5 damage.\n　►Boosts all allies' P.ATK by $6.\n　►Recovers all allies' TP by $7.
+
+##EX##
+ぼっちの出撃+=Bocchi's sortie +
