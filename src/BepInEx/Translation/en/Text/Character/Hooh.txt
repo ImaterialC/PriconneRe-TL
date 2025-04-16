@@ -4,20 +4,21 @@
 【物理】中衛で、華麗に舞い踊る五色絢爛な煉華の鳳凰。攻撃力バフやバリア展開などの攻防支援と、多彩で豊富なＨＰ・ＴＰ供給を両立し、浄化の力で皆に安寧を授ける。=[Physical] A phoenix of refined splendor in the midline, dancing gracefully in five radiant colors. She balances offensive and defensive support with attack buffs and barrier deployment, along with a diverse and abundant supply of HP and TP, granting peace to all with her purifying power.
 
 ##UB##
-五色絢爛の浄炎=Purifying Flame of Five Radiant Colors
-物理攻撃を行う味方の物防、魔防中アップ、物魔吸収バリア展開、物理・魔法ダメージカット付与、物攻大アップ、物理クリダメ小アップ。目の前の敵１キャラに物理中ダメージを与える。物攻の上昇量とダメージ倍率は、自分を除く味方の残りＨＰに応じて最大５倍までアップ。=Boosts physical allies' P.DEF and M.DEF, deploys a barrier that absorbs P/M.DMG, grants P&M.DMG CUT, greatly boosts P.ATK, and slightly boosts P.CRIT DMG. Deals moderate P.DMG to the enemy in front. The P.ATK boost and damage multiplier increase up to 5 times based on the remaining HP of allies excluding herself.
+五色絢爛の浄炎=Prismatic Inferno of Purification
+物理攻撃を行う味方の物防、魔防中\nアップ、物魔吸収バリア展開、物\n理・魔法ダメージカット付与、物攻\n大アップ、物理クリダメ小アップ。\n目の前の敵１キャラに物理中ダメー\nジを与える。物攻の上昇量とダメー\nジ倍率は、自分を除く味方の残りＨ\nＰに応じて最大５倍までアップ。=Boosts P.DEF and M.DEF, grants P/M.DMG Cut, deploys a P/M absorb barrier, greatly boosts P.ATK, and slightly increases P.Crit DMG for allies using physical attacks. Deals moderate P.DMG to the frontmost enemy. P.ATK boost and damage scale up to 5x based on remaining HP of allies (excluding self).
+r:"^対象の味方の物理・魔法防御力を(\d+)アップ(\d+)ダメージ分の物魔吸収バリアを展開する対象の味方が受ける物理・魔法ダメージを(\d+％)カット対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリダメを(\d+％)アップ敵単体に(\d+)の物理ダメージ$"=►Boosts P/M.DEF of allies with physical attacks by $1.\n►Deploys a Barrier that absorbs $2 P/M.DMG.\n►Grants $3 P/M.DMG Cut to those allies.\n►Boosts their P.ATK by $4.\n►Increases their P.Crit DMG by $5.\n►Deals $6 P.DMG to the frontmost enemy.\n►P.ATK boost and damage scale up to 5x based on remaining HP of allies (excluding self).
 
 ##S1##
-リカバリーオブフェニクス=Recovery of Phoenix
-物理攻撃を行うすべての味方キャラの物理攻撃力を中アップ、ＨＰ吸収を小アップさせる。自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開する。さらに、火属性の味方すべてのＨＰを小回復させ、継続ＨＰ回復状態を付与する。物理攻撃力の上昇量は、自分を除く味方の残りＨＰに応じて最大５倍までアップする。=Moderately boosts the physical allies' P.ATK and slightly boosts the HP absorption. Deploys a field around herself that slightly recovers the HP of all allies within range. Additionally, slightly recovers the HP of all fire-element allies and grants them HP regeneration. The P.ATK boost increases up to 5 times based on the remaining HP of allies excluding herself.
+リカバリーオブフェニクス=Phoenix's Recovery
+物理攻撃を行うすべての味方キャラ\nの物理攻撃力を中アップ、ＨＰ吸収\nを小アップさせる。自分を中心とし\nた範囲内の味方すべてのＨＰを小回\n復するフィールドを展開する。さら\nに、火属性の味方すべてのＨＰを小\n回復させ、継続ＨＰ回復状態を付与\nする。物理攻撃力の上昇量は、自分\nを除く味方の残りＨＰに応じて最大\n５倍までアップする。=Boosts P.ATK and HP Steal for allies using physical attacks. Deploys a field around self that heals nearby allies. Also heals and grants HP Regen to all Fire allies. P.ATK boost scales up to 5x based on remaining HP of other allies (excluding self).
+r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＨＰ吸収を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する火属性の味方のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=►Boosts P.ATK of allies with physical attacks by $1.\n►Increases their HP Steal by $2.\n►Deploys a field that recovers $3 HP/s for allies in range.\n►Recovers HP of Fire-element allies by $4.\n►Grants HP Regen to Fire-element allies for $5 HP/s.\n►P.ATK boost scales up to 5x based on remaining HP of allies (excluding self).
+
 
 ##S2##
 鳳凰の庭炎=Phoenix's Garden Flame
-物理攻撃を行うすべての味方キャラの物理攻撃力を中アップ、ＴＰ上昇を小アップさせる。自分を中心とした範囲内の味方すべてのＴＰを小回復するフィールドを展開する。さらに、火属性の味方すべてのＴＰを小回復させ、継続ＴＰ回復状態を付与する。物理攻撃力の上昇量は、自分を除く味方の残りＨＰに応じて最大５倍までアップする。=Moderately boosts the physical allies' P.ATK and slightly boosts the TP Boost. Deploys a field around herself that slightly recovers the TP of all allies within range. Additionally, slightly recovers the TP of all fire-element allies and grants them continuous TP regeneration. The P.ATK boost increases up to 5 times based on the remaining HP of allies excluding herself.
+物理攻撃を行うすべての味方キャラ\nの物理攻撃力を中アップ、ＴＰ上昇\nを小アップさせる。自分を中心とし\nた範囲内の味方すべてのＴＰを小回\n復するフィールドを展開する。さら\nに、火属性の味方すべてのＴＰを小\n回復させ、継続ＴＰ回復状態を付与\nする。物理攻撃力の上昇量は、自分\nを除く味方の残りＨＰに応じて最大\n５倍までアップする。=Boosts P.ATK and TP Boost for allies using physical attacks. Deploys a field around self that restores TP to nearby allies. Also restores TP and grants TP Regen to all Fire allies. P.ATK boost scales up to 5x based on remaining HP of other allies.
+r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰ上昇を(\d+)アップ毎秒ＴＰを(\d+)回復するフィールドを展開する火属性の味方のＴＰを(\d+)回復毎秒ＴＰを(\d+)回復する$"=►Boosts P.ATK of allies with physical attacks by $1.\n►Increases their TP Boost by $2.\n►Deploys a field that restores $3 TP/s to nearby allies.\n►Restores $4 TP to Fire-element allies.\n►Grants TP Regen of $5 TP/s to Fire-element allies.\n►P.ATK boost scales up to 5x based on remaining HP of allies (excluding self).
 
-
-r:"^対象の味方の物理・魔法防御力を(\d+)アップ(\d+)ダメージ分の物魔吸収バリアを展開する対象の味方が受ける物理・魔法ダメージを15％カット対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリダメを9％アップ敵単体に(\d+)の物理ダメージ$"=►Boosts target ally's P.DEF & M.DEF by $1.\n►Deploys a Absorption Barrier that absorbing $2 P/M.DMG.\n►Reduces P/M.DMG taken by target ally by 15％.\n►Boosts target ally's P.ATK by $3.\n►Boosts target ally's P.CRIT DMG by 9％.\n►Deals $4 P.DMG to a single enemy.  
-
-r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＨＰ吸収を1アップ毎秒ＨＰを(\d+)回復するフィールドを展開する火属性の味方のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=►Boosts target ally's P.ATK by $1.\n►Boosts target ally's HP Absorption by 1.\n►Deploys an HP Recovery Field healing $2 HP per second.\n►Restores Fire allies' HP by $3.\n►Continuous HP recovery: $4 per second.  
-
-r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰ上昇を8アップ毎秒ＴＰを10回復するフィールドを展開する火属性の味方のＴＰを50回復毎秒ＴＰを10回復する$"=►Boosts target ally's P.ATK by $1.\n►Boosts target ally's TP Boost by 8.\n►Deploys a TP Recovery Field restoring 10 TP per second.\n►Recovers Fire allies' TP by 50.\n►Continuous TP recovery: 10 per second.
+##EX##
+讃える権利をあげましょう= You May Praise Me
+讃える権利をあげましょう+=You May Praise Me+

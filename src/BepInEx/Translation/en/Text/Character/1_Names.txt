@@ -178,7 +178,3 @@ sr:"^([べ-ヺー＆＝]+)(（.+）)? が仲間になりました。$"=$1$2 has 
 sr:"^([べ-ヺー＝]{2,7})(（.{2,8}）)$"=$1$2
 
 sr:"^([べ-ヺー＆＝]+)(（.+）)? ?加入で$"=$1$2 Join, get
-
-
-
-pada tanggal 16 desember saya menarik uang 2525.30USD ke rekening lokal saya Bank mandiri (9188) atas nama anthony tri putra dengan transaksi ID 773426381 dan transfer ID 4366184774240873, disana dikatakan bahwa saya harus memasukan 2 verifikasi penarikan, saya telah memasukan 2 transfer verifikasi tersebut tersebut sesuai dengan buku tabungan dan aplikasi bank saya, transfer tersebut tertuliskan "Transfer dari PT.BANK DBS INDONESIA Payoneer HK id:234234234 name:Payoneer Inc" tertanggal 16 desember 2024 14:36:14 WIB. tapi dalam situs payoneer tidak diterima dan selalu ditolak, entah memasukan dengan sen (.00) atau polosan, saya coba juga memasukan jumlah dari 2 transfer tapi tetap tidak bisa. dan sekarang saya tidak tahu apakah payoneer akan mengirimkan uang atau rekeningku diblokir?
