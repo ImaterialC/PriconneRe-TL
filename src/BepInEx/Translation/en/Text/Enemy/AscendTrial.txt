@@ -3,8 +3,11 @@
 ボム・レリック=Bomb Relic
 
 ヒール・レリック=Heal Relic
-シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=A guardian of memories who protects the sanctuary alongside the shadows. It presents suitable trials to those who seek true power.
+シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=Guardian of memories who protects the sanctuary alongside the shadows. It presents suitable trials to those who seek true power.
 自身以外の味方全体にＨＰとＴＰ継続回復状態を付与し、物理防御力と魔法防御力をアップさせる。=Grants HP and TP regeneration status to all allies except itself and increases their P.DEF and M.DEF.
+
+魔法範囲攻撃シャドウと共に聖域を守護する、記憶の番人。真なる力を欲するものに、相応の試練を与える。=Guardian of Memory who protects the sanctuary alongside the Shadow of Magic AoE Attacks. Imposes trials worthy of those who seek true power.
+
 
 カーズ・レリック=Cars Relic
 敵全体に毒状態を付与し、ＨＰ吸収とＨＰ回復　量をダウンさせる。=Inflicts poison status on all enemies, reducing HP absorption and HP recovery amount.

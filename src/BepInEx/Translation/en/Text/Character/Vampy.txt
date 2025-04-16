@@ -26,6 +26,8 @@ r:"^眠る(.{1,10})の前に現れたヴァンピィは、ぬいぐるみのベ�
 エターナル・フレンドシップ=Eternal Friendship
 目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップさせる。さらにＴＰが無くなるまでの間ベスと共闘状態になる。=Deals massive M.DMG to the enemy in front and greatly increases her own M.ATK. Additionally, she enters a cooperative state with "Beth" until her TP is depleted.
 
+目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップし、与ダメージに応じて味方全体のＨＰを回復させる。さらに【竜の実】を初回発動時は５つ、２回目以降は２つ獲得し（最大５つまで）、バトル終了時までベスと共闘状態になる。共闘中のスキル発動時に【竜の実】を１つ消費し、目の前の敵１キャラのＴＰを小ダウンさせ、自分のＴＰを小回復する。=Deals massive magic damage to a single foe, greatly boosts the user’s Magic Attack, and restores all allies’ HP based on damage dealt. Grants 5 [Dragon’s Fruits] on first use and 2 thereafter (max 5), entering Co-op Mode with Beth until battle ends. When you activate a skill while fighting together, one [Dragon Fruit] will be consumed, slightly reducing the TP of one enemy in front of you and slightly recovering your own TP.
+
 ##S1##
 ブラッド・ドレイン=Blood Drain
 目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、さらに自分のＴＰを小回復させる。=Deals large M.DMG to an enemy in front, slightly reduces its TP, and slightly recovers own TP.

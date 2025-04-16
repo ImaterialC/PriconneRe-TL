@@ -1,0 +1,23 @@
+篠田みなみ=Shinoda Minami
+偉大にして優雅、時々ぴよぴよ=Great and graceful, sometimes piyopiyo
+##Profile##
+【物理】中衛で、華麗に舞い踊る五色絢爛な煉華の鳳凰。攻撃力バフやバリア展開などの攻防支援と、多彩で豊富なＨＰ・ＴＰ供給を両立し、浄化の力で皆に安寧を授ける。=[Physical] A phoenix of refined splendor in the midline, dancing gracefully in five radiant colors. She balances offensive and defensive support with attack buffs and barrier deployment, along with a diverse and abundant supply of HP and TP, granting peace to all with her purifying power.
+
+##UB##
+五色絢爛の浄炎=Purifying Flame of Five Radiant Colors
+物理攻撃を行う味方の物防、魔防中アップ、物魔吸収バリア展開、物理・魔法ダメージカット付与、物攻大アップ、物理クリダメ小アップ。目の前の敵１キャラに物理中ダメージを与える。物攻の上昇量とダメージ倍率は、自分を除く味方の残りＨＰに応じて最大５倍までアップ。=Boosts physical allies' P.DEF and M.DEF, deploys a barrier that absorbs P/M.DMG, grants P&M.DMG CUT, greatly boosts P.ATK, and slightly boosts P.CRIT DMG. Deals moderate P.DMG to the enemy in front. The P.ATK boost and damage multiplier increase up to 5 times based on the remaining HP of allies excluding herself.
+
+##S1##
+リカバリーオブフェニクス=Recovery of Phoenix
+物理攻撃を行うすべての味方キャラの物理攻撃力を中アップ、ＨＰ吸収を小アップさせる。自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開する。さらに、火属性の味方すべてのＨＰを小回復させ、継続ＨＰ回復状態を付与する。物理攻撃力の上昇量は、自分を除く味方の残りＨＰに応じて最大５倍までアップする。=Moderately boosts the physical allies' P.ATK and slightly boosts the HP absorption. Deploys a field around herself that slightly recovers the HP of all allies within range. Additionally, slightly recovers the HP of all fire-element allies and grants them HP regeneration. The P.ATK boost increases up to 5 times based on the remaining HP of allies excluding herself.
+
+##S2##
+鳳凰の庭炎=Phoenix's Garden Flame
+物理攻撃を行うすべての味方キャラの物理攻撃力を中アップ、ＴＰ上昇を小アップさせる。自分を中心とした範囲内の味方すべてのＴＰを小回復するフィールドを展開する。さらに、火属性の味方すべてのＴＰを小回復させ、継続ＴＰ回復状態を付与する。物理攻撃力の上昇量は、自分を除く味方の残りＨＰに応じて最大５倍までアップする。=Moderately boosts the physical allies' P.ATK and slightly boosts the TP Boost. Deploys a field around herself that slightly recovers the TP of all allies within range. Additionally, slightly recovers the TP of all fire-element allies and grants them continuous TP regeneration. The P.ATK boost increases up to 5 times based on the remaining HP of allies excluding herself.
+
+
+r:"^対象の味方の物理・魔法防御力を(\d+)アップ(\d+)ダメージ分の物魔吸収バリアを展開する対象の味方が受ける物理・魔法ダメージを15％カット対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリダメを9％アップ敵単体に(\d+)の物理ダメージ$"=►Boosts target ally's P.DEF & M.DEF by $1.\n►Deploys a Absorption Barrier that absorbing $2 P/M.DMG.\n►Reduces P/M.DMG taken by target ally by 15％.\n►Boosts target ally's P.ATK by $3.\n►Boosts target ally's P.CRIT DMG by 9％.\n►Deals $4 P.DMG to a single enemy.  
+
+r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＨＰ吸収を1アップ毎秒ＨＰを(\d+)回復するフィールドを展開する火属性の味方のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=►Boosts target ally's P.ATK by $1.\n►Boosts target ally's HP Absorption by 1.\n►Deploys an HP Recovery Field healing $2 HP per second.\n►Restores Fire allies' HP by $3.\n►Continuous HP recovery: $4 per second.  
+
+r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰ上昇を8アップ毎秒ＴＰを10回復するフィールドを展開する火属性の味方のＴＰを50回復毎秒ＴＰを10回復する$"=►Boosts target ally's P.ATK by $1.\n►Boosts target ally's TP Boost by 8.\n►Deploys a TP Recovery Field restoring 10 TP per second.\n►Recovers Fire allies' TP by 50.\n►Continuous TP recovery: 10 per second.

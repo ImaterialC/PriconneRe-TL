@@ -679,3 +679,11 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 紅飾ラディオドンタ=Crimson Adornment Radiodonta
 碧飾ケロニオイデア=Jade Adornment Cheloniodea
 蒼飾フィロセラス=Azure Adornment Philoceras
+
+バイオレットアーマーＲ=Violet Armor R  
+クルセイダープレートＲ=Crusader Plate R  
+聖者のローブＲ=Saint's Robe R  
+ガーディアンシールドＲ=Guardian Shield R  
+ネクロマンサーブーツＲ=Necromancer Boots R  
+蒼天のローブＲ=Azure Sky Robe R  
+ミントチョココロネ=Mint Choco Cornet
