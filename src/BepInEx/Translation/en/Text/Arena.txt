@@ -54,7 +54,8 @@ r:"^プリセット(\d+)$"=Preset $1
 [FF7C4E,D62146]スキップ設定になっています。[-]=[FF7C4E,D62146]It's set to skip.[-]
 [3C404E]パーティ編成が時間切れになりました。\n対戦相手を選択し直してください。[-]=[3C404E]The party formation has expired.\nPlease reselect your opponent.[-]
 現在クールタイムです。\nしばらくお待ちください。=It's currently on cooldown,\nplease wait a moment.
-r:"^パーティ(\d)にキャラが選択されていません。$"=No character is selected for Party $1.
+r:"^パーティ(.)にキャラが選択されていません。$"=No characters have been selected for Party $1.
+r:"^パーティ(.)、パーティ(.)にキャラが選択されていません。$"=No characters have been selected for Party $1 and Party $1.
 フレンド以外のプレイヤーのキャラは、ステータスが\\n下方補正されている場合があります。=Characters from players not on your friend list\\nmay have their stats scaled down.
 別のパーティに編成中のキャラは選択できません。=Characters being used in another party cannot be selected.
 
