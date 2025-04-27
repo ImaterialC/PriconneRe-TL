@@ -1583,3 +1583,32 @@
 敵全体に行動速度ダウン=Reduces action speed for all enemies.
 敵全体にＴＰダウン=Reduces TP for all enemies.
 並行世界より連れ込まれた半機半生の怪\n獣。身に纏う鋼鉄の装甲はあらゆる攻撃を遮断し、放たれる灼熱の光線は万物を灰燼に帰す。=A half-machine, half-living monstrosity brought from a parallel world. Its steel armor blocks all attacks, and its searing beam reduces everything to ashes.
+
+
+自身に物理防御力アップ=Boosts own P.DEF.  
+自身に物理攻撃力アップ=Boosts own P.ATK.  
+前方範囲に魔法ダメージ=Deals M.DMG to enemies in front range.  
+前方範囲に誘惑=Inflicts charm on enemies in front range.  
+敵全体に物理／魔法攻撃力アップ=Boosts all enemies' P.ATK and M.ATK.  
+対象がバリア状態でない：誘惑=If the target is not in a barrier state: inflicts charm.  
+後ろから１番目の敵を中心に魔法ダメージフィールド=Deploys a M.DMG field centered on the backmost enemy.  
+後ろから１番目の敵に魔法ダメージ=Deals M.DMG to the backmost enemy.  
+後ろから１番目の敵と周囲に行動速度ダウン（必中）=Inflicts action speed reduction on the backmost enemy and enemies in range (cannot miss).  
+前から敵１体をノックバック=Knocks back one enemy in front.  
+前から敵１体にスタン=Stuns one enemy in front.  
+対象ＨＰ60％未満：自身に物理攻撃力アップ=If the target's HP is below 60%: boosts own P.ATK.  
+敵全体に物理／魔法クリティカルダメージダウン（必中）=Reduces all enemies' P.CRIT DMG and M.CRIT DMG (cannot miss).  
+敵全体に火傷=Inflicts burn on all enemies.  
+敵全体に物理割合ダメージ=Deals percentage P.DMG to all enemies.  
+さらなる力を得た牡牛座の魔星獣。\n力の限界を超えた戦斧の一撃が全てを破砕する。=A Taurus magical beast that has acquired further power. Its battle axe, wielded with strength beyond limits, shatters all.  
+前から敵２体に物理ダメージ=Deals P.DMG to the two enemies in front.  
+前から敵２体にスタン=Stuns the two enemies in front.  
+対象ＨＰ80%未満：自身に物理攻撃力アップ=If the target's HP is below 80%: boosts own P.ATK.  
+敵味方全体に物理／魔法攻撃力アップ=Boosts P.ATK and M.ATK of all units.  
+敵味方全体に物理／魔法防御力ダウン=Reduces P.DEF and M.DEF of all units.  
+敵味方全体に行動速度アップ=Increases action speed of all units.  
+自身にＴＰ継続回復=Continuously recovers own TP.  
+対象ＨＰ80％未満：自身に物理攻撃力アップ=If the target's HP is below 80%: boosts own P.ATK.  
+前方範囲に物理／魔法与ダメージダウン=Reduces P.DMG and M.DMG dealt by enemies in front range.  
+ユニオンバーストは、召喚体、分身を除いた最も近い敵１キャラに物理特大ダメージを与える。その後、召喚体、分身を除いた敵全体にこのスキルで与えたダメージ量に応じた物理ダメージを与える。このスキルによる追加ダメージでは、ＴＰが回復しない。=The Union Burst deals massive P.DMG to the closest enemy character, excluding summoned units and clones. Then, deals P.DMG to all enemies, excluding summoned units and clones, based on the damage dealt by this skill. The additional damage does not recover TP.  
+ライデンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the TP recovery amount for party characters from all damage taken from Raiden.
