@@ -11,6 +11,11 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダ
 目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。発動時既にこのスキルの対象が物理防御力ダウン状態だった場合、さらに追加の物理中ダメージを与える。=Deals large P.DMG to an enemy in front and slightly lowers its P.DEF. If an enemy's P.DEF is already lowered,  deals additional moderate P.DMG.
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン対象が物理防御力ダウン状態の時、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►If an enemy's P.DEF is lowered, deals $3 P.DMG to an enemy.
 
+##SP2##
+スピアヘッド+ = Spearhead+
+目の前の敵１キャラに物理大ダメー\nジを与え、物理防御力を小ダウンさ\nせ、クリティカルを受けた際のダ\nメージを小アップさせる。発動時既\nにこのスキルの対象が物理防御力ダ\nウン状態だった場合、さらに追加の\n物理大ダメージを与える。=Deals large P.DMG to the frontmost enemy, slightly reduces their P.DEF, and slightly increases P.Crit DMG taken. If the target already has a P.DEF debuff, deals extra P.DMG.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン対象が物理防御力ダウン状態の時、敵単体に(\d+)の物理ダメージ敵単体の被クリダメを(\d+％)アップ$"=►Deals $1 P.DMG to the frontmost enemy.\n►Lowers target's P.DEF by $2.\n►If target has P.DEF debuff, deals additional $3 P.DMG.\n►Increases target's P.Crit DMG taken by $4.
+
 ##S2##
 ウォリアーズコード=Warrior's Code
 自分の物理攻撃力と物理クリティカルを大アップし、ＴＰを特大回復させる。=Greatly boosts own P.ATK and P.CRIT Rate, and massively recovers own TP. All effects last 180s.
@@ -18,3 +23,6 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダ
 ##EX##
 騎士狼の教え=Knight Wolf's Teachings
 騎士狼の教え+=Knight Wolf's Teachings+
+
+##UE##
+ウルフェンブレンドコーヒー = Wolfen Blend Coffee

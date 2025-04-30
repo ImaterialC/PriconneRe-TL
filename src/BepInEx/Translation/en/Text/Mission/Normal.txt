@@ -1,6 +1,8 @@
 チュートリアル=Tutorial
 クリアランク=Clear rank
 連携=Link
+
+Cygames IDと連携しよう=link with the Cygames IDs
 r:"^(\[[0-9A-F]{6}\])?プレイヤーLvを(\d+)にしよう(\[-\])?$"="$1Reach Player Level $2[-]"
 
 sr:"^(\[[0-9A-F]{6}\])?(メイン|イベント)クエスト(.+)をクリアしよう(\[-\])?$"="$1Clear $2 Quest $3$4"

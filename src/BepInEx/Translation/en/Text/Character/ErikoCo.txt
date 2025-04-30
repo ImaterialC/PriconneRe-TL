@@ -11,6 +11,11 @@ r:"^敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)
 味方全体の物理攻撃力を大アップさせ、目の前の敵１キャラに物理大ダメージを与える。味方の人数に応じてこのスキルの効果量が最大７キャラ分までアップする。=Greatly boosts allies' P.ATK and deals large P.DMG to an enemy. All effects increase according to number of allies, up to 7 times.
 r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ$"=►Boosts allies' P.ATK by $1 (+0.06×$1×Ally Count) for 12s.\n►Deals $2 P.DMG (+0.25×$2×Ally Count) to an enemy.
 
+##SP1##
+サヴェージブラスト+=Savage Blast+
+味方全体の物理攻撃力を大アップ、\n物理攻撃クリティカル時のダメージ\nを小アップさせ、目の前の敵１キャ\nラに物理大ダメージを与える。味方\nの人数に応じてこのスキルの効果値\nが最大７キャラ分までアップする。=Greatly increases PATK and slightly increases P.Crit DMG for all allies, then deals large P.DMG to the frontmost enemy. Effects and damage scale with number of allies, up to 7.
+r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ味方全体の物理攻撃クリティカル時のダメージを(\d+％)アップ$"=►Boosts all allies' P.ATK by $1.\n►Deals $2 P.DMG to the frontmost enemy.\n►Increases all allies' P.Crit DMG by $3.\n►Effect and damage scale based on number of allies (max 7).
+
 ##S2##
 ヘヴィコマンド=Heavy Command
 味方全体の物理攻撃力と物理クリティカルを大アップさせ、物理防御力と魔法防御力を小アップさせる。さらに自分のＴＰを大回復し、自分以外の味方すべてのＴＰを小回復する。味方の人数に応じて物理攻撃力と物理クリティカルの上昇量が最大７キャラ分までアップする。=Greatly boosts allies' P.ATK and P.CRIT Rate, and slightly boosts their P.DEF and M.DEF. Additionally, recovers own TP by a large amount and other allies' TP by a small amount. The P.ATK and P.CRIT Rate boost increase according to number of allies, up to 7 times.
@@ -19,3 +24,6 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリ�
 ##EX##
 ハードコアオーダー=Hardcore Order
 ハードコアオーダー+=Hardcore Order+
+
+##UE##
+イエスマイディア=Yes, My Dear

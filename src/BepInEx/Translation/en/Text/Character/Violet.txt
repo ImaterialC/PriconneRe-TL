@@ -1,0 +1,47 @@
+長縄まりあ=Maria Naganawa
+香水集め、物語を読むこと=Collecting perfume, reading stories
+冥府に咲くアンデッド系プリンセス=An undead princess blooming in the netherworld
+
+##Profile##
+【物理】前衛で、儚くも凛と咲くジオ・ニヴルヘルの姫。継続ダメージ効果を鈍化させる環境効果【忌火】で盾に、絶怠霊度の継続割合攻撃で矛となり、静寂の冥府を護る。=[Physical] A frontline princess of Gio Nivlhel, blooming fleetingly yet resolutely. She serves as a shield with the environmental effect [Abhorrent Flame], which mitigates continuous damage effects, and as a spear with the continuous percentage-based attacks of Lethargic Spirit, protecting the silent underworld.
+
+##UB##
+アブソルト・アケディア=Absolute Acedia
+目の前の敵１キャラの物理防御力と魔法防御力を小ダウンさせる。【忌火】中、物理防御力と魔法防御力のダウン量がアップし、目の前の敵１キャラを絶怠霊度状態にして、さらに自分のＨＰを中回復する。絶怠霊度状態は、そのキャラの最大ＨＰに応じて最大444444の割合ダメージを継続して発生させる。=Slightly reduces the P.DEF and M.DEF of the front enemy. During [Abhorrent Flame], increases the debuff amounts, inflicts Lethargic Spirit on the front enemy, moderately restores own HP, and deals continuous percentage-based damage up to 444,444 based on the target's max HP.
+
+##S1##
+ソウルストリーム=Soul Stream
+味方全体に物理/魔法無効バリアを展開し、物理防御力と魔法防御力を大アップさせる。さらに、目の前の敵１キャラの物理攻撃力と魔法攻撃力を大ダウンさせる。【忌火】中、味方全体のＨＰを中回復、ＴＰを小回復させ、目の前の敵１キャラにそのキャラの最大ＨＰに応じて最大444444の物理割合ダメージを与える。=Deploys a physical/magic-nullifying barrier for all allies and greatly boosts their P.DEF and M.DEF. Additionally, greatly lowers the P.ATK and M.ATK of the enemy in front. During [Cursed Flame], moderately recovers all allies' HP, slightly recovers their TP, and deals physical percentage-based damage to the enemy in front up to a maximum of 444,444 based on their max HP.
+
+##S2##
+イモータル・ステップ=Immortal Step
+自分に【穢レ】を付与し、物理防御力と魔法防御力を小アップする。【穢レ】が付与されている間は敵から受ける特定のダメージの30％を継続ダメージに変換する。【忌火】中でない場合、このスキルの効果は発動しない。【穢レ】によって変換される継続ダメージでは味方のＴＰは回復しない。=Applies [Defilement] to self and slightly boosts P.DEF and M.DEF. While [Defilement] is active, converts 30% of certain damage received from enemies into continuous damage. This skill's effects do not activate outside of [Abhorrent Flame]. Continuous damage converted by [Defilement] does not recover allies' TP.
+
+##SP1##
+忌火の境界
+環境効果【忌火】を発動する。このスキルの効果は敵、味方すべてに適用される。継続ダメージを与える状態異常のダメージの発生間隔と効果時間が延長される。=Activates [Abhorrent Flame] environmental effect affecting all allies/enemies. Extends activation interval and duration of continuous damage status ailments.
+環境を忌火にする継続ダメージを与える状態異常のダメージの発生間隔と効果時間が２倍になる=Cast time: 1.05s\n►Doubles the interval and duration of continuous damage status ailments that inflict [Abhorrent Flame].
+
+##EX##
+死なずの玉体=Immortal Frame
+死なずの玉体+=Immortal Frame+
+
+
+
+New Debuff
+絶怠霊度=Lethargic Spirit
+
+
+
+
+
+
+
+10% HP damage to nearby enemies
+
+r:"^敵単体の物理・魔法防御力を(\d+)ダウン忌火中、最大444444の割合ダメージを与える絶怠零度状態にする忌火中、自分のＨＰを(\d+)回復忌火中、敵単体の物理・魔法防御力を(\d+)ダウン$"=►Lowers an enemy's P.DEF and M.DEF by $1 for 18s.\nWhile [Abhorrent Flame] is active:\n►Inflicts [Lethargic Spirit] on the enemy for 10s. dealing percentage-based up to 444444 P.DMG.\n►Recovers own HP by $2.\n►Lowers an enemy's P.DEF by $3 for 18s.\n►Lowers an enemy's M.DEF by $3 for 18s.
+
+
+r:"^(\d+)ダメージ分の物魔無効バリアを展開する味方全体の物理・魔法防御力を(\d+)アップ忌火中、味方全体のＨＰを(\d+)回復忌火中、味方全体のＴＰを90回復敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン忌火中、敵単体に最大444444の物理割合ダメージを与える$"=►Deploys barrier negating $1 P/M.DMG for 12s.\n►Boosts all allies' P.DEF and M.DEF by $2 for 12s.\n►Lowers an enemy's P.ATK by $3 for 18s.\n►Lowers an enemy's M.ATK by $4 for 12s.\nWhile [Abhorrent Flame] is active:\n►Recovers all allies' HP by $5.\n►Recovers all allies' TP by 90.\n►Deals damage equal to 10% of the Max HP (Up to 444444) to the nearest enemy target.
+
+r:"^忌火中、自分に穢レを付与する忌火中、自分の物理防御力を(\d+)アップ忌火中、自分の魔法防御力を(\d+)アップ$"=Cast time: 1.05s\nWhile [Abhorrent Flame] is active:\n►Applies [Defilement] to self for 90s.\n►Boosts own P.DEF by $1 for 90s.\n►Boosts own M.DEF by $2 for 90s.
