@@ -35,7 +35,7 @@ BGM購入ページへ移動=Move to BGM Shop
 曲名順=Song Title
 
 ---Sort---
-あ行=A,I,U,E,O
+あ行=A,I,U,E,O,V,W
 か行=K,G,C
 さ行=S,Z,J
 な行=N
@@ -43,6 +43,6 @@ BGM購入ページへ移動=Move to BGM Shop
 ま行=M
 や行=Y
 ら行=L,R
-わ行=W
+わ行=Wa
 た行=T,D,C
 表示絞り込み=Filter
