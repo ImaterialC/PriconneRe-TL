@@ -46,6 +46,19 @@ r:"^第(\d)話を閲覧で解放$"=Unlock by viewing Episode $1
 
 イベントクエストを1回クリアしよう=Clear 1 time Event Quest
 
+ボスバトル（SPECIAL）をクリアしよう=Clear boss battle (SPECIAL)
+前編ボスバトル（SPECIAL）をクリアしよう=Clear Part 1 boss battle (SPECIAL)
+前編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECIAL) within 5 challenges
+前編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECIAL+) within 5 challenges
+後編ボスバトル（SPECIAL）をクリアしよう=Clear Part 2 boss battle (SPECIAL)
+後編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECIAL) within 5 challenges
+後編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECIAL+) within 5 challenges
+ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear boss battle (SPECIAL) within 5 challenges
+ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear boss battle (SPECIAL+) within 5 challenges
+
+
+
+
 ---Tittle---
 
 sr:"^(\[[0-9A-F]{6}\])?(.+)を()体倒そう（([\w ]+)限定）(\[-\])?$"="$1Defeat $2 once ($3)."

@@ -5,7 +5,7 @@
 
 前の日誌を閲覧すると解放されます。=Read the previous logbook and you will be released.
 ルイちゃんからの試練？=A Trial from Lou-chan?
-ある日。{playername}が、郵便配達のバイトで\nアルケス錬金堂に手紙を届けに行くと──=One day, {playername} was part-time working as a mailman and visited Alces Alchemy Hall for a delivery.
+ある日。{playername}が、郵便配達のバイトで\nアルケス錬金堂に手紙を届けに行くと──=One day, {playername} was part-time working as a mailman and visited Alces Atelier for a delivery.
 いらっしゃいませ～\n……なんですけど、ごめんなさい。\nお店は今日は臨時休業で……！=Welcome! ...Or that's what I'd like to say, but sorry, we're closed for the day!
 って{playername}くん！？=Wait, {playername}-kun?!
 うん、あのね。\nルイちゃんたちが急用で故郷に帰省することになっちゃって。\nそれで、お店の留守を預かってくれないかって頼まれたの。=Yeah, as you can see, Lou-chan and the others had to go back to their hometown for some urgent business. So, they asked me if I could look after the store while they were away.
@@ -90,7 +90,7 @@
 ルイちゃんの手紙、まだ一枚残ってるよ。=There's still a letter left from Lou-chan
 ……ノゾミどこ行くの？=...Where are you going, Nozomi?
 アルケス錬金堂の留守を預かるノゾミは、{playername}が持ってきたルイズマ\nリーの手紙を見て、『究極錬成』の試練だと張り切る。難解な呪文に苦戦\nしつつも、ついにノゾミは錬成に成功したのだった。=Nozomi, who was in charge of the Alchemy Hall’s absence, looked at Ruizmarie’s letter that {playername} had brought and was excited to call it the “ultimate transmutation” trial. She struggled with the difficult spell, but finally succeeded in transmuting it.
-アルケス錬金堂の不在を預かるノゾミに付き合って、\n今日も{playername}は\nアルケス錬金堂の工房を訪れていた。={playername} accompanied Nozomi, who was in charge of the Alces Alchemy Hall shop in the guild's absence, to the lab that was found in the back of the shop today.
+アルケス錬金堂の不在を預かるノゾミに付き合って、\n今日も{playername}は\nアルケス錬金堂の工房を訪れていた。={playername} accompanied Nozomi, who was in charge of the Alces Atelier shop in the guild's absence, to the lab that was found in the back of the shop today.
 よし、ここで不死鳥の羽根を投入だね。\n……あ、{playername}くん。そこの棚から持ってきてくれる？=Okay, now we'll put in the phoenix feather. ...Hey, {playername}, can you grab one from the shelf over there?
 ごめんね、ありがと……\n………スン。=Sorry, thanks... *sniff*
 クンクン……はぁ♪=*sniff sniff*... Hah♪
@@ -273,7 +273,7 @@
 ノゾミのことが大好きなのは……=The way that I love Nozomi is...
 僕は──=I am in...
 {playername}に贈り物をしたいノゾミは、『飲むと思わず本音をしゃべっちゃう\n薬』を錬成し、本音を探ることに。試しに自分で飲んだノゾミは、{playername}\nに対する本音が溢れてしまうのだった。=Nozomi, who wanted to give a gift to {playername}, transmuted a “medicine that makes you tell your true feelings without thinking when you drink it,” and tried to figure out what she really felt. After taking it herself as a test, she ended up overflowing with her true feelings toward him.
-アルケス錬金堂の留守を預かる最後の夜。\n片付けを終えた{playername}は、\n帰宅の準備を整えノゾミに声をかけた。=It was the last night the members of Alces Alchemy Hall would be absent. Having finished cleaning up, {playername} called out to Nozomi as both prepared to go home.
+アルケス錬金堂の留守を預かる最後の夜。\n片付けを終えた{playername}は、\n帰宅の準備を整えノゾミに声をかけた。=It was the last night the members of Alces Atelier would be absent. Having finished cleaning up, {playername} called out to Nozomi as both prepared to go home.
 {playername}くん、お疲れさま。\nお店の片付けありがとう。=Good work, {playername}-kun. Thanks for cleaning up the shop.
 改めて、アルケス錬金堂の留守を\n一緒に預かってくれてありがとう。=Once again, thank you for helping me look after the Alces Alchemist Hall shop while those girls were away.
 今から、最後の錬金をしようと思ってて。\n一緒に留守番してくれたお礼を、キミに渡したくて。\nちょっと時間がかかりそうなんだけど──=I was just about to start my final alchemy recipe for this small adventure of ours. I wanted to give you my thanks for watching over the shop with me. This might take a while, however...

@@ -1,14 +1,14 @@
 
 キミの香り=Your Fragrance
-アルケス錬金堂　業務日誌=Atelier Alces: Work Diary
+アルケス錬金堂　業務日誌=Alces Atelier: Work Diary
 一覧へ=To the List
 前の日誌を閲覧かつ、10/02 12:00に解放されます。=Unlocked after viewing the previous diary and on 10/02 at 12:00.
 前の日誌を閲覧かつ、10/03 12:00に解放されます。=Unlocked after viewing the previous diary and on 10/03 at 12:00.
 
 ------0------
-出張！　アルケス錬金堂=Business Trip! Atelier Alces
-新たな錬金サービスを考案中の【アルケス錬金堂】は、ギルドハウスの扉が開かなくなり困るキャルに出会う。錬金術の力で解決したルイズマリーを見たソノは、『出張錬金サービス』のアイデアを思いつく。=While devising a new alchemy service, the Atelier Alces encounters Kyaru, who is troubled by a jammed Guild House door. Seeing Louise Marie solve it using alchemy, Sono comes up with the idea of a 'Mobile Alchemy Service'.
-ノゾミのソロライブから数週間たったある日。\n冒険の合間を縫い、{playername}が久しぶりに\nアルケス錬金堂を訪れた。=Several weeks after Nozomi's solo live.\nIn between adventures, {playername} visits\nAtelier Alces for the first time in a while.
+出張！　アルケス錬金堂=Business Trip! Alces Atelier
+新たな錬金サービスを考案中の【アルケス錬金堂】は、ギルドハウスの扉が開かなくなり困るキャルに出会う。錬金術の力で解決したルイズマリーを見たソノは、『出張錬金サービス』のアイデアを思いつく。=While devising a new alchemy service, the Alces Atelier encounters Kyaru, who is troubled by a jammed Guild House door. Seeing Louise Marie solve it using alchemy, Sono comes up with the idea of a 'Mobile Alchemy Service'.
+ノゾミのソロライブから数週間たったある日。\n冒険の合間を縫い、{playername}が久しぶりに\nアルケス錬金堂を訪れた。=Several weeks after Nozomi's solo live.\nIn between adventures, {playername} visits\nAlces Atelier for the first time in a while.
 お、{playername}君、久しぶり。\n君が来るって連絡貰ってから、\nルイちゃん楽しみで眠れなかったみたいよ。=Oh, {playername}, long time no see.\nEver since we got the message that you'd come,\nRui couldn't sleep in excitement.
 えへへ、イロハも10時間くらいしか眠れなかった！\nおじちゃん！　久しぶりーっ♪=Hehe, Iroha could only sleep for about 10 hours!\nUncle! Long time no see♪
 こらイロハー！\n体は激重の私のなんだから、子ども感覚で抱きつくなっての。=Hey, Iroha! I'm super heavy, so don't hug me like a kid.
@@ -28,7 +28,7 @@
 ルイちゃん、いい？　フリンは蜜の味っていうけどさ、\nそれはゴジセイ的にアウトだよ。\nおじちゃんはソノちゃんのいい人なんだからさ♪=Rui-chan, okay? They say affairs are sweet as honey,\nbut that's a no-go morally.\nUncle is Sono-chan's good person, you know♪
 はああ～～～っ！？\nととと突然なに言いだすのよっ！？\n私は清く正しい品行方正な恋しかしてないわよっ！=Whaaaaat!\nW-What are you suddenly saying!?\nI only have pure and righteous relationships!
 ……街中で盛り上がってるわね。\nあんた、ヤバい連中と付き合ってんじゃない。=…They're really getting fired up in the middle of the city.\nYou're not hanging out with dangerous people, are you?
-……ああ、なるほど。\nそうかあんたらが【アルケス錬金堂】ね。\n話は聞いてるわ。こいつが世話になったみたいね。=…Ah, I see.\nSo you guys are the Atelier Alces.\nI've heard about you. Seems like this one owes you.
+……ああ、なるほど。\nそうかあんたらが【アルケス錬金堂】ね。\n話は聞いてるわ。こいつが世話になったみたいね。=…Ah, I see.\nSo you guys are the Alces Atelier.\nI've heard about you. Seems like this one owes you.
 えーと確か。\n店主は、ちょっとめんどくさがり屋だけどしっかり者のお姉さん。\nソノさんだっけ？=Um, if I remember correctly.\nThe shopkeeper is a responsible but slightly lazy older sister.\nWas it Sono-san?
 あ、ども。\nソノです。=Uh, hi.\nI'm Sono.
 ガキじゃないっ！！！=I'm not a kid!!!
@@ -71,8 +71,8 @@
 ……なにしてんのよ。=...What are you all doing?
 ま、扉は開いたから大成功か。\nどうよこれ『出張錬金サービス』\nこれできっとうちの店は……きゃあっ！！=Well, the door opened, so it was a great success.\nSo how about it, 'Mobile Alchemy Service'?\nWith this, our shop will be... kyaah!!
 『出張錬金サービス』……いい考えね！\nじゃあ早速お願いするわ！\nいますぐ滑らないアイテムを作りなさ～～～いっ！！！='Mobile Alchemy Service'... that's a great idea!\nThen please do it right away!\nMake an anti-slip item right this instant~~~!!!
-こうして『出張錬金サービス』を開始した【アルケス錬金堂】──=And so, the 'On-site Alchemy Service' was launched by Atelier Alces──
-{playername}の人脈にも助けられ、\n【アルケス錬金堂】はいくつかの依頼を成功させたのだった。\n……そして数日後。=Thanks to {playername}'s connections,\nAtelier Alces successfully completed several requests.\n...And then, a few days later.
+こうして『出張錬金サービス』を開始した【アルケス錬金堂】──=And so, the 'On-site Alchemy Service' was launched by Alces Atelier──
+{playername}の人脈にも助けられ、\n【アルケス錬金堂】はいくつかの依頼を成功させたのだった。\n……そして数日後。=Thanks to {playername}'s connections,\nAlces Atelier successfully completed several requests.\n...And then, a few days later.
 すみませーん、ストレス発散のアイテムってありますか？=Excuse me, do you have any items for stress relief?
 ……あるよ。\nはい。『無限サンドバッグ』=...Yes, I do.\nHere you go. 'Endless Punching Bag'
 自分に自信が持てなくて……\n気が大きくなるアイテムってありますか？=I'm lacking self-confidence...\nDo you have any items that can make me feel more confident?
@@ -109,15 +109,15 @@
 ふふ、残念だねぇ。=Hehe, that's a shame.
 ……なあに？=…What is it?
 これって新しい街に引っ越してきた新婚夫婦！？　=Is this a newlywed couple moving to a new city!? 
-こうして【アルケス錬金堂】は、\nもう少しだけランドソルで暮らすことになったのである。=And so, Atelier Alces ended up living in Landosol for a little while longer.
+こうして【アルケス錬金堂】は、\nもう少しだけランドソルで暮らすことになったのである。=And so, Alces Atelier ended up living in Landosol for a little while longer.
 すみませーん。\nここが無いものは無いお店の？=Excuse me.\nIs this "A store that has everything?"
-はい！\nこちらアルケス錬金堂です！=Yes!\nThis is Atelier Alces!
+はい！\nこちらアルケス錬金堂です！=Yes!\nThis is Alces Atelier!
 みんな、久しぶ……っ！！=Everyone, long time no see...!!
 ルイちゃん、前髪かわいいよ。=Rui-chan, your bangs are cute.
 おかげさまで。そっちは？=Thanks to you. How about you?
 じゃあ気分転換に街に出ようか？=Shall we go out to the town for a change of pace?
 なにかあったの？=Did something happen?
-【アルケス錬金堂】のみんなだよ。=It's everyone from [Atelier Alces].
+【アルケス錬金堂】のみんなだよ。=It's everyone from [Alces Atelier].
 僕が助け……うわっ！？=I'll help... Whoa!?
 でもルイちゃん、目的の方は大丈夫？=But Rui-chan, are you okay with your objective?
 すごい……入れ替わり成功だ！=Amazing... the switch was a success!

@@ -100,6 +100,26 @@ sr:"^([0-9.]+)周年 EX★4装備パック\((片手剣|槍|弓|本|両手剣|斧
 
 (片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)
 
+GW スペシャルキャラ交換ガチャセット=GW Special Character Exchange Gacha Set
+2025 GW ビギナー&カムバック強化パック=2025 GW Beginner & Comeback Enhancement Pack
+GW 錬成スフィアパック=GW Refining Sphere Pack
+GW 専用装備１グロウスフィアパック=GW Unique Equipment 1 Growth Sphere Pack
+2025 GW 属性強化パック=2025 GW Element Enhancement Pack
+GW ★6キャラ育成パック=GW ★6 Character Training Pack
+GW ピュアメモリーピースパック=GW Pure Memory Piece Pack
+GW EX★4装備パック (服・鎧)=GW EX★4 Equipment Pack (Clothes & Armor)
+GW EX★4装備パック (白ローブ・黒ローブ)=GW EX★4 Equipment Pack (White Robe & Black Robe)
+GW EX★4装備パック (アクセサリー)=GW EX★4 Equipment Pack (Accessories)
+GW EX★4装備パック (片手剣・槍)=GW EX★4 Equipment Pack (One-Handed Sword & Spear)
+GW EX★4装備パック (弓・本)=GW EX★4 Equipment Pack (Bow & Book)
+GW EX★4装備パック (短剣・拳)=GW EX★4 Equipment Pack (Dagger & Fist)
+GW EX★4装備パック (盾・杖)=GW EX★4 Equipment Pack (Shield & Staff)
+GW EX★4装備パック (両手剣・斧)=GW EX★4 Equipment Pack (Two-Handed Sword & Axe)
+
+
+
+
+
 sr:"^\[FFBB00,CE4F00\]([0-9,]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of\n[FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1 pts[-]?[-]
 
 r:"^探索挑戦回数+(\d+)回の期間が追加となります。\n(\d+)日間スタミナ応援パックを購入しますか？?$"=Grotto attempts +$1 for the selected period.\nWould you like to purchase \nthe $2-Day Stamina Support Pack?

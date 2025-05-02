@@ -1612,3 +1612,45 @@
 前方範囲に物理／魔法与ダメージダウン=Reduces P.DMG and M.DMG dealt by enemies in front range.  
 ユニオンバーストは、召喚体、分身を除いた最も近い敵１キャラに物理特大ダメージを与える。その後、召喚体、分身を除いた敵全体にこのスキルで与えたダメージ量に応じた物理ダメージを与える。このスキルによる追加ダメージでは、ＴＰが回復しない。=The Union Burst deals massive P.DMG to the closest enemy character, excluding summoned units and clones. Then, deals P.DMG to all enemies, excluding summoned units and clones, based on the damage dealt by this skill. The additional damage does not recover TP.  
 ライデンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the TP recovery amount for party characters from all damage taken from Raiden.
+
+
+
+恋する錬僕・ホムンホムン=Love-Struck Homunculus: Homun-Homun 
+マリステラが生み出したムキムキマッチョな錬成生物。ほの字の主を脅かす不届者を、おったまげーな腕力でねじ伏せる。=A muscular, macho alchemical creature created by Maristella. It uses its astonishing strength to overpower anyone who dares to threaten its beloved master.  
+自身への継続ダメージアップ=Increases continuous damage to self.  
+敵全体にスタン=Stuns all enemies.  
+敵全体に物理防御力ダウン=Reduces P.DEF of all enemies.  
+自身が毒=Self is poisoned.  
+絶怠霊度状態：ＴＰ回復量減少=In a state of extreme laziness: reduces TP recovery amount.  
+自身に物理ダメージカット=Reduces P.DMG taken by self.  
+自身に魔法ダメージカット=Reduces M.DMG taken by self.  
+自身に行動速度アップ=Increases own action speed.  
+自身に継続ダメージ=Inflicts continuous damage on self.  
+
+ジオ・ニヴルヘルを縄張りとし、闇に潜み獲物を待ち伏せる。彷徨う者たちを夢幻に誘う。=A creature that claims Geo Niflheim as its territory, lurking in the darkness to ambush its prey. It lures wanderers into a dreamlike illusion.  
+
+バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。（ダウン不可）=At the start of the battle, slightly increases P.DEF and M.DEF of all allies. (Cannot be reduced)  
+ユニオンバーストは、物理もしくは魔法攻撃力が最も高い敵１キャラのステータスアップ効果を解除後、魔法特大ダメージを与え、ＴＰを特大ダウン。ダメージを無効化してもＴＰダウン。=The Union Burst removes stat buffs from the enemy with the highest P.ATK or M.ATK, then deals massive M.DMG and greatly reduces their TP. Even if the damage is negated, the TP reduction still applies.  
+敵の挑発を無視し、最も遠い敵１キャラを中心にした中範囲内の敵にＴＰ小ダウンと呪い状態を付与。このスキルの呪いではＴＰが回復しない。=Ignores enemy taunts and inflicts a small TP reduction and curse on enemies within a medium range centered on the farthest enemy. The curse prevents TP recovery.  
+通常攻撃は、物理もしくは魔法攻撃力が最も高い敵１キャラに物理特大ダメージを与える。=The normal attack deals massive P.DMG to the enemy with the highest P.ATK or M.ATK.  
+
+バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of the battle, slightly increases P.DEF and M.DEF of all allies. The increased defense from this effect is not affected by defense reduction skills during the battle.  
+ユニオンバーストは、敵全体にキャラの現在ＨＰに応じた魔法割合ダメージ。キャラのＨＰが50％未満の場合、混乱状態を付与。=The Union Burst deals percentage M.DMG to all enemies based on the character's current HP. If the character's HP is below 50%, it also inflicts confusion.  
+敵全体に呪い状態を付与する。キャラのＨＰが50％未満の場合、長時間呪い状態を付与する。=Inflicts a curse on all enemies. If the character's HP is below 50%, the curse lasts longer.  
+最も近い敵１キャラに魔法特大ダメージを与え、ＴＰを小ダウンさせる。さらに自身のＴＰを小回復する。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals massive M.DMG to the closest enemy and slightly reduces their TP. Also slightly recovers own TP. Even if the damage is negated, the TP reduction still applies.  
+
+バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of the battle, slightly increases P.DEF and M.DEF of all allies. The increased defense from this effect is not affected by defense reduction skills during the battle.  
+ユニオンバーストは、最も近い敵１キャラに魔法大ダメージを与える。さらに敵全体に魔法中ダメージを与え、石化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=The Union Burst deals large M.DMG to the closest enemy. Then, deals medium M.DMG to all enemies and inflicts petrification. The status effect is applied even if the damage is negated.  
+敵全体に魔法中ダメージを与え、石化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium M.DMG to all enemies and inflicts petrification. The status effect is applied even if the damage is negated.  
+最も近い敵１キャラに魔法特大ダメージを与える。=Deals massive M.DMG to the closest enemy.  
+ 
+バトル開始時、味方全体の物理防御力と魔法防御力を中アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。また味方全体にＴＰダウン90％カット効果を付与する。=At the start of the battle, moderately increases P.DEF and M.DEF of all allies. The increased defense from this effect is not affected by defense reduction skills during the battle. Also, grants all allies a 90% reduction in TP reduction effects.  
+ユニオンバーストは、敵全体のバリアを解除後、魔法割合ダメージを与え、さらに物理防御力とＨＰ吸収をダウンさせる。=The Union Burst removes barriers from all enemies, then deals percentage M.DMG, and reduces their P.DEF and HP drain.  
+敵全体に物理大ダメージを与え、キャラのＨＰが90％未満の場合スタンさせる。=Deals large P.DMG to all enemies and stuns them if the character's HP is below 90%.  
+敵全体に物理特大ダメージ。=Deals massive P.DMG to all enemies.  
+強獣ゲドンのＨＰが一定値以下になると、パワーアップする。=When Strong Beast Geddon's HP falls below a certain value, it powers up.  
+
+バトル開始時、自身にＴＰダウン50％カット効果を付与する。=At the start of the battle, grants self a 50% reduction in TP reduction effects.  
+エリマキレックスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the TP recovery amount for party characters from all damage taken from Erimaki Rex.  
+ユニオンバーストは、敵全体にエリマキレックスの物理攻撃力に応じた物理割合ダメージを与える。=The Union Burst deals percentage P.DMG to all enemies based on Erimaki Rex's P.ATK.  
+前から２キャラに物理中ダメージを与え、ノックバックさせると同時にスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium P.DMG to the two enemies in front, knocks them back, and stuns them. The status effect is applied even if the damage is negated.  

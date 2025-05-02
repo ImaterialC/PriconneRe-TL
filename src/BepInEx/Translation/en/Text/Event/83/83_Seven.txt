@@ -14,14 +14,6 @@ r:"^イベント後編クエスト([ A-Za-z\-0-9]+)$"=Event Part 2 Quest$1
 イベントストーリー エンディングを閲覧しよう=View the Event Story Ending
 イベントストーリー エピローグを閲覧しよう=View the Event Story Epilogue
 
-前編ボスバトル（SPECIAL）をクリアしよう=Clear Part 1 boss battle (SPECIAL)
-前編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECIAL) within 5 challenges
-前編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECIAL+) within 5 challenges
-後編ボスバトル（SPECIAL）をクリアしよう=Clear Part 2 boss battle (SPECIAL)
-後編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECIAL) within 5 challenges
-後編ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear Part 2 boss battle (SPECIAL+) within 5 challenges
-ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear boss battle (SPECIAL) within 5 challenges
-ボスバトル（SPECIAL＋）を挑戦回数5回以内でクリアしよう=Clear boss battle (SPECIAL+) within 5 challenges
 
 
 

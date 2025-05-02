@@ -22,6 +22,12 @@
 環境効果【忌火】を発動する。このスキルの効果は敵、味方すべてに適用される。継続ダメージを与える状態異常のダメージの発生間隔と効果時間が延長される。=Activates [Abhorrent Flame] environmental effect affecting all allies/enemies. Extends activation interval and duration of continuous damage status ailments.
 環境を忌火にする継続ダメージを与える状態異常のダメージの発生間隔と効果時間が２倍になる=Cast time: 1.05s\n►Doubles the interval and duration of continuous damage status ailments that inflict [Abhorrent Flame].
 
+忌火の境界=Abhorrent Flame Boundary
+継続ダメージを与える状態異常のダメージの発生間隔と効果時間が延長される。=Doubles the interval and duration of continuous damage status ailments
+忌火=Abhorrent Flame
+
+
+
 ##EX##
 死なずの玉体=Immortal Frame
 死なずの玉体+=Immortal Frame+
