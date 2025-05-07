@@ -1,17 +1,21 @@
+
+鈴代紗弓=Suzuyo Sayumi
+【魔法】後衛で、底知れぬ叡智を秘めた天才錬金術師。高い方の防御力でダメージを受ける調和状態を付与し、２回まで性能が上昇していくＵＢで、妄想を爆発させる。=[Magic] A rear-line genius alchemist harboring boundless wisdom. Grants allies a Harmony state using their higher DEF stat (P.DEF/M.DEF) for damage calculation, while her UB escalates up to two tiers to unleash explosive delusional power.  
 ##UB##
 究極錬成‐氷炎融合=Magnum Opus – Flamma Glacies Unita
 r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを5％アップ$"=►Deals $1 M.DMG to a single enemy (uses lower DEF value).\n►Boosts all allies' M.ATK by $2.\n►Boosts all allies' M.CRIT RATE by 100.\n►Boosts all allies' M.CRIT DMG by 5%.
-r:"^目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法特大ダメージを与え、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法クリダメを小アップさせる。このスキルを使用するたび、最大２回までダメージが増加し、３回目以降はステータスアップの効果時間が増加する。$"=Deals massive M.DMG to one enemy in front (counts as P.DMG if target's P.DEF < M.DEF), greatly boosts all allies' M.ATK, largely boosts M.CRIT RATE, and slightly boosts M.CRIT DMG. Each use increases DMG (max 2 stacks), and after 3rd use extends buff durations.
+目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法特大ダメージを与え、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法クリダメを小アップさせる。このスキルを使用するたび、最大２回までダメージが増加し、３回目以降はステータスアップの効果時間が増加する。=Deals massive M.DMG to one enemy in front (counts as P.DMG if target's P.DEF < M.DEF), greatly boosts all allies' M.ATK, largely boosts M.CRIT RATE, and slightly boosts M.CRIT DMG. Each use increases DMG (max 2 stacks), and after 3rd use extends buff durations.
 
 ##S1##
 インフラマエ=Inflamare
+インフラマエ+=Inflamare+
 味方全体の魔法攻撃力を特大アップ、Ｔ\nＰ上昇を小アップさせる。さらに、目の\n前の敵１キャラに対象の物理防御力が魔\n法防御力より低い場合、物理ダメージ扱\nいになる魔法大ダメージを与え、魔法防\n御力を小ダウンさせる。=Massively boosts all allies' M.ATK and slightly boosts their TP boost. Additionally, deals large magic damage to the frontmost enemy based on their lower defense, and slightly reduces their M.DEF.
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体のＴＰ上昇を(\d+)アップ敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' TP boost by $2.\n►Deals $3 magic damage to one enemy, calculated against the lower of their P.DEF or M.DEF.\n►Lowers one enemy's M.DEF by $4.
 
 ##S2##
 アクシリウム=Auxilium
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体に調和状態を付与する味方全体のＨＰを(\d+)回復味方全体のＴＰを80回復$"=►Boosts allies' M.ATK by $1.\n►Boosts allies' M.DEF by $2.\n►Grants [Harmony] to all allies.\n►Recovers allies' HP by $3.\n►Recovers allies' TP by 80.
-r:"^味方全体の魔法攻撃力を特大アップ、魔法防御力を大アップ、調和状態を付与し、ＨＰとＴＰを小回復させる。調和状態の間は物理防御力と魔法防御力のうち高い方によって計算されたダメージを受ける。$"=Greatly boosts allies' M.ATK, significantly boosts M.DEF, grants [Harmony], and slightly recovers HP/TP.\nWhile in [Harmony], damage is calculated using the higher value between P.DEF or M.DEF.
+味方全体の魔法攻撃力を特大アップ、魔法防御力を大アップ、調和状態を付与し、ＨＰとＴＰを小回復させる。調和状態の間は物理防御力と魔法防御力のうち高い方によって計算されたダメージを受ける。=Greatly boosts allies' M.ATK, significantly boosts M.DEF, grants [Harmony], and slightly recovers HP/TP.\nWhile in [Harmony], damage is calculated using the higher value between P.DEF or M.DEF.
 
 ##EX##
 基創錬成+=Genesis Refinement +

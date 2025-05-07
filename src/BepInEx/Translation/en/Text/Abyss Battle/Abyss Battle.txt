@@ -29,6 +29,7 @@ r:"^スキップチケットと討伐依頼証を消費して\n([0-9]+)回バト
 
 ボス難易度選択=Boss difficulty selection
 模擬戦のため報酬は獲得できません。=Rewards will not be obtained for the mock battles.
+モンスターＨＰを本戦状態\\nにする=Set monster HP to main battle state
 モンスターＨＰを本戦状態\nにする=Set monster HP to main battle state
 モンスターＨＰを本戦状態\にする=Set monster HP to battle status
 討伐依頼証枚数=Number of Hunting Tickets
