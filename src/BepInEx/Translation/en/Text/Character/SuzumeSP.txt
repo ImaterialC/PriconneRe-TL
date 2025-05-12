@@ -11,6 +11,11 @@ r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメ
 スウィンギングペタル=Swinging Petal
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせる。=Deals large M.DMG to enemies in range, and slightly lowers their M.DEF.
 ## Same as Ranpha
+##s1+##
+スウィンギングペタル+=Swinging Petal+
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを3％アップ$"=►Deals $1 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $2.\n►Boosts enemies' CRIT DMG taken by 3%.
+r:"^目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。$"=Deals large M.DMG to all enemies in range (centered on front enemy), slightly lowers M.DEF, and slightly increases CRIT DMG taken.
+サンライトフローラ=Sunlight Flora
 
 ##S2##
 スプリングリース=Spring Wreath

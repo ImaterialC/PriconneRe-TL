@@ -10,6 +10,12 @@
 目の前の敵１キャラに魔法特大ダメージを与える。このスキルがクリティカルした場合、自分の魔法攻撃力を特大アップし、魔法攻撃クリティカル時のダメージを小アップする。=Deals large M.DMG to an enemy in front. If this skill hits a critical hit, greatly boosts own M.ATK and slightly boosts own M.CRIT DMG.
 r:"^敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の魔法攻撃クリティカル時のダメージを10％アップ$"=►Deals $1 M.DMG to an enemy.\n►Boosts own M.ATK by $2 for 12s.\n►Boosts own M.CRIT DMG by 10% for 12s.
 
+##S1+##
+ファーマメントフローラ=Firmament Flora
+フローラルブレス+=Floral Breath+
+r:"^目の前の敵１キャラに魔法特大ダメージを与え、自分のＴＰを小回復する。このスキルがクリティカルした場合、自分の魔法攻撃力を特大アップ、魔法攻撃クリティカル時のダメージを小アップする。$"=Deals massive M.DMG to one enemy in front and slightly recovers own TP. If this skill crits, greatly boosts own M.ATK and slightly boosts M.CRIT DMG.
+r:"^敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の魔法攻撃クリティカル時のダメージを10％アップ自分のＴＰを40回復$"=►Deals $1 M.DMG to a single enemy.\n►Boosts own M.ATK by $2.\n►Boosts own M.CRIT DMG by 10%.\n►Recovers own TP by 40.
+
 ##S2##
 スプリングダンス=Spring Dance
 自分の魔法クリティカルを特大アップ、魔法攻撃クリティカル時のダメージを小アップする。このスキルは３回まで、使用する度に魔法クリティカルの効果量がダウンし、魔法攻撃クリティカル時のダメージの効果量がアップする。さらに、自分のＨＰを小回復し、ＴＰ上昇を小アップする。=Greatly boosts own M.CRIT Rate, and slightly boosts own M.CRIT DMG. After 3 uses this skill's M.CRIT Rate potency will decrease and M.CRIT DMG potency will increase. Additionally slightly recovers own HP and boosts own TP Boost.
