@@ -46,8 +46,11 @@ New Debuff
 10% HP damage to nearby enemies
 
 r:"^敵単体の物理・魔法防御力を(\d+)ダウン忌火中、最大444444の割合ダメージを与える絶怠零度状態にする忌火中、自分のＨＰを(\d+)回復忌火中、敵単体の物理・魔法防御力を(\d+)ダウン$"=►Lowers an enemy's P.DEF and M.DEF by $1 for 18s.\nWhile [Abhorrent Flame] is active:\n►Inflicts [Lethargic Spirit] on the enemy for 10s. dealing percentage-based up to 444444 P.DMG.\n►Recovers own HP by $2.\n►Lowers an enemy's P.DEF by $3 for 18s.\n►Lowers an enemy's M.DEF by $3 for 18s.
-
+r:"^敵単体の物理・魔法防御力を(\d+)ダウン忌火中、最大444444の割合ダメージを与える絶怠霊度状態にする忌火中、自分のＨＰを(\d+)回復忌火中、敵単体の物理・魔法防御力を(\d+)ダウン$"=►Lowers an enemy's P.DEF and M.DEF by $1 for 18s.\nWhile [Abhorrent Flame] is active:\n►Inflicts [Lethargic Spirit] on the enemy for 10s. dealing percentage-based up to 444444 P.DMG.\n►Recovers own HP by $2.\n►Lowers an enemy's P.DEF by $3 for 18s.\n►Lowers an enemy's M.DEF by $3 for 18s.
 
 r:"^(\d+)ダメージ分の物魔無効バリアを展開する味方全体の物理・魔法防御力を(\d+)アップ忌火中、味方全体のＨＰを(\d+)回復忌火中、味方全体のＴＰを90回復敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン忌火中、敵単体に最大444444の物理割合ダメージを与える$"=►Deploys barrier negating $1 P/M.DMG for 12s.\n►Boosts all allies' P.DEF and M.DEF by $2 for 12s.\n►Lowers an enemy's P.ATK by $3 for 18s.\n►Lowers an enemy's M.ATK by $4 for 12s.\nWhile [Abhorrent Flame] is active:\n►Recovers all allies' HP by $5.\n►Recovers all allies' TP by 90.\n►Deals damage equal to 10% of the Max HP (Up to 444444) to the nearest enemy target.
+
+r:"^(\d+)ダメージ分の物魔無効バリアを展開する味方全体の物理・魔法防御力を(\d+)アップ忌火中、味方全体のＨＰを(\d+)回復忌火中、味方全体のＴＰを90回復敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン忌火中、敵単体に最大444444の物理割合ダメー$"=►Deploys barrier negating $1 P/M.DMG for 12s.\n►Boosts all allies' P.DEF and M.DEF by $2 for 12s.\n►Lowers an enemy's P.ATK by $3 for 18s.\n►Lowers an enemy's M.ATK by $4 for 12s.\nWhile [Abhorrent Flame] is active:\n►Recovers all allies' HP by $5.\n►Recovers all allies' TP by 90.\n►Deals damage equal to 10% of the Max HP (Up to 444444) to the nearest enemy target.
+
 
 r:"^忌火中、自分に穢レを付与する忌火中、自分の物理防御力を(\d+)アップ忌火中、自分の魔法防御力を(\d+)アップ$"=Cast time: 1.05s\nWhile [Abhorrent Flame] is active:\n►Applies [Defilement] to self for 90s.\n►Boosts own P.DEF by $1 for 90s.\n►Boosts own M.DEF by $2 for 90s.

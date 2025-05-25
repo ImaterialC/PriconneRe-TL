@@ -687,3 +687,13 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 ネクロマンサーブーツＲ=Necromancer Boots R  
 蒼天のローブＲ=Azure Sky Robe R  
 ミントチョココロネ=Mint Choco Cornet
+
+ダークマターエッジＲ=Dark Matter Edge R
+戦女王の烈斧Ｒ=Battle Queen’s Blazing Axe R
+ブリザードクローＲ=Blizzard Claw R
+ストームブリンガーＲ=Storm Bringer R
+フェニックスロッドＲ=Phoenix Rod R
+アルテミスボウＲ=Artemis Bow R
+アイスクレイモアＲ=Ice Claymore R
+鷹神の煌剣Ｒ=Radiant Sword of the Hawk God R
+司法神の錫杖Ｒ=Scepter of the God of Justice R
