@@ -30,6 +30,7 @@
 チェックしたクエストがありません。=There are no quests selected.
 以下クエストは次回まとめてスキップの対象外です=These quests are not eligible for batch skip.
 スタミナ、挑戦回数不足のため\n実行できないクエストがあります。=Some quests cannot be skipped\ndue to lack of Stamina or Attempts.
+以下クエストの残り挑戦回数をまとめて回復しますか？=Would you like to recover your remaining attempts for the following quests all at once?
 チェック済みのクエストがあります。=There are quests that have already been checked.
 同時に検索できるアイテムは３個までです。=Only up to three items that can be searched at the same time.
 サイドストーリー HARD=Side Story(HARD)

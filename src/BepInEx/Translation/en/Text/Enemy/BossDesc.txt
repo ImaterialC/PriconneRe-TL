@@ -1679,3 +1679,22 @@
 前から敵３体に凍結（召喚体無視=Inflicts Freeze to 3 front enemies (ignores Summons)  
 召喚体無視=Ignores Summons  
 前から敵３体に魔法防御力ダウン（召喚体無視必中）=Lowers M.DEF of 3 front enemies (ignores Summons/unavoidable)  
+
+元剣奴として歴戦を誇るゴブリン族のレディ。恩人にして最愛のマスターを煉獄の覇者とすべく、灼熱の竜を駆りて自慢の鋭槍を揮わせる。=A proud goblin lady, once a sword slave, who boasts a storied battle history. Wielding her prized sharp spear while riding a blazing dragon, she aims to make her beloved master the ruler of purgatory.
+残り時間が30秒になった時：覚醒状態に移行=When 30 seconds remain: transitions to Awakened State.
+自身の行動パターン変更=Changes own action pattern.
+【覚醒状態：スキル３】=[Awakened State: Skill 3]
+前から敵２体に火傷（ＴＰ回復不可=Inflicts burn on the two enemies in front (TP recovery disabled).
+前から敵２体に魔法ダメージ=Deals M.DMG to the two enemies in front.
+敵全体に火傷（ＴＰ回復不可=Inflicts burn on all enemies (TP recovery disabled).
+敵全体に火傷（ＴＰ回復不可必中）=Inflicts burn on all enemies (TP recovery disabled, cannot miss).
+前から２番目攻撃、火傷=Attacks the second enemy from the front and inflicts burn.
+火傷ダメージによるＴＰ回復なし=Burn damage does not recover TP.
+物理か魔法攻撃力が３／４／５番目に高い敵に9999999の物理固定ダメージ（挑発／召喚体無視）=Deals 9,999,999 fixed P.DMG to the enemy with the 3rd, 4th, or 5th highest P.ATK or M.ATK (ignores taunt and summoned units).
+物理か魔法攻撃力が３／４／５番目に高い敵に9999999の魔法固定ダメージ（挑発／召喚体無視）=Deals 9,999,999 fixed M.DMG to the enemy with the 3rd, 4th, or 5th highest P.ATK or M.ATK (ignores taunt and summoned units).
+このスキルの発動時２キャラ以下の場合、物理か魔法攻撃力が最も低い敵を対象にする=If there are 2 or fewer enemies when this skill is activated, targets the enemy with the lowest P.ATK or M.ATK.
+自身にＵＢ封印=Seals own Union Burst.
+バトル開始時：覚醒状態に移行=At the start of the battle: transitions to Awakened State.
+自身に物理／魔法攻撃力アップ=Boosts own P.ATK and M.ATK.
+物理か魔法攻撃力が最も高い敵２体に物理／魔法攻撃力アップ=Boosts P.ATK and M.ATK of the two enemies with the highest P.ATK or M.ATK.
+物理か魔法攻撃力が最も高い敵２体に行動速度アップ=Increases action speed of the two enemies with the highest P.ATK or M.ATK.

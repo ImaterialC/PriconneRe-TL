@@ -221,6 +221,7 @@ EXスキルスロット=EX skill slot
 ★6才能開花に必要なアイテムをセットするには\n専用装備が必要です。\n\n専用装備を作成しますか？=To set the items needed for 6★ ascension, Unique Equipment is required. Would you like to make Unique Equipment?
 ★6才能開花に必要なアイテムをセットするには\n専用装備１が必要です。\n\n専用装備１を作成しますか？=To set the items needed for 6★ ascension, Unique Equipment 1 is required. Would you like to make Unique Equipment 1?
 専用装備作成確認=Craft Unique Equipment Confirmation
+専用装備１作成確認=Craft Unique Equipment 1 Confirmation
 専用装備へ=To Unique Equipment Gear
 ---Recommended Enhancement---
 おすすめ強化メニュー=Recommended Refinement
@@ -243,6 +244,7 @@ EXスキルスロット=EX skill slot
 編成固定キャラ=Required
 
 編成固定=Fixed
+編成済=Organized
 UB予約を有効にする=Enable UB reservation
 [3C404E]リタイアすると報酬は獲得できませんが、\nクリアするまで何度でも再挑戦できます。[-]=[3C404E]If you retire, you won't get any rewards,\nYou can try again until you clear it.[-]
 r:"^(\d+)文字以上(\d+)文字以下で入力してください。$"=Please enter between $1-$2 character.
@@ -297,6 +299,8 @@ RANKボーナス詳細のステータス=Status Details
 バトルアリーナショップ=Battle Arena shop
 プリンセスアリーナショップ=Princess Arena shop
 まとめて強化へ=Auto\nEnhance
+キャラ名から検索=Search Characters
+アイテム名を入力してください=Please enter the item name
 
 まとめておまかせランクアップ確認=Auto Enhance: Rank-up Confirmation
 まとめておまかせランクアップ完了=Auto Enhance: Rank-up Complete

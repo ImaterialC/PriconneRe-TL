@@ -95,7 +95,7 @@
 ヴァイオレット=Violet
 グレイス=Grace
 イロハ=Iroha;Alces
-ルイズマリー=Louise Marie;Atelier;Alces
+ルイズマリー=Louise Marie;Marie;Atelier;Alces
 ソノ=Sono;Atelier;Alces
 フレイヤ=Freya
 アラクネ=Arachne
@@ -103,6 +103,7 @@
 フィオ=Ameth;Ames;Fio
 ルルィ=Lului
 ホウオウ=Ho-oh;Hoou;Hooh;Houou
+カノン=Kanon
 
 
 
@@ -604,3 +605,5 @@
 
 アオイ（パイロット）=Aoi (Pilot);PAoi;BBB;Bochi;Pilot
 クローチェ（エアリアル）=Croce (Aerial);ACroche;ACrotch;Aerial
+
+ツムギ（ジオ・ゲヘナ）=Tsumugi (Gio Gehenna);GTsumugi;Gehennna;Gehenna;Geo Gehenna

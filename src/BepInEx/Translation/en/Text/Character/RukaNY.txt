@@ -39,4 +39,4 @@ r:"^敵単体に(\d+)の物理ダメージ【剣の刻印】が35の時、敵単
 敵に攻撃が当たるたびに【剣の刻印】が１つ追加されるようにする。【剣の刻印】は最大35まで追加される。自分に【剣の刻印】を10付与し、目の前の敵１キャラに物理大ダメージを与える。さらに、自分の物理攻撃力を特大アップさせる。このスキルのスキルレベルは「雪の太刀・冬帝　細雪」と連動しています=Whenever one of Ruka's attacks hit an enemy, gains 1 [Mark of Sword] stack, up to a maximum of 35. Grants 10 [Mark of Sword] to self, deals massive P.DMG to an enemy in front. Boosts own P.ATK by a massive amount. The skill level of this skill is linked to "Snow Sword: Emperor Snow Flakes".
 
 ##UE##
-振袖・碧縮緬寒椿模様=Long-Sleeved Kimono: Blue Crepe Cold Camellia Pattern
+振袖・碧縮緬寒椿模様=Furisode: Cold Camellia Pattern on Jade Chirimen

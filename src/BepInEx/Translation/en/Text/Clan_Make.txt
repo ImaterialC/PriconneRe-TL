@@ -62,7 +62,17 @@ r:"^\[3C404E\]\[3C404E\]\[FFBB00\,CE4F00\](.+)\[-\]への\n申請を取り消し
 
 [FF7C4E,D62146]検索結果に一致するクランが見つかりませんでした。[-]=[FF7C4E,D62146]Unable to find any clans that match your search.[-]
 
-
+交代=Switch
+サブリーダー=Subleader
+任命=Appoint
+勧誘や、加入申請の管理=Recruiting, managing applications
+クラン名やクラン説明の編集\nクランメンバーの管理\n勧誘や、加入申請の管理=Edit the clan name, clan description, recruit members and manage join applications
+以下のメンバーの役職変更・管理を行います。=The following member's role will be changed.
+[3C404E][3C404E]<Player name regex here>を\nクランから除名しますか？[-][-]=[3C404E]Should we remove <Regex capture here> from the clan?[-]
+[3C404E][3C404E]<Player name regex here>を\nクランから除名しました。[-][-]=[3C404E]<Regex capture here> has been removed from the clan.[-]
+除名を取り消すことはできません。=Removing this player cannot be undone.
+除名確認=Confirm Removal
+除名完了=Removal Complete
 クラン説明=Clan Description
 クラン名=Clan name
 クランの情報を設定します。=Sets clan information.

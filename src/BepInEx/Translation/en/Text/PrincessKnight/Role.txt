@@ -51,6 +51,9 @@ HPチャージ=HP Charge
 クリダメアップ=Critical Damage Up
 r:"^オールマスタリーLv(\d+)$"=All-Mastery Lv $1
 sr:"^【(.+)】(.+?)(?:アップ)?(マスタリー)?Lv(\d+)$"=[$1] $2 Up $3 Lv $4
+r:"^(\d+)\(\+変換可能数 (\d+)\)$"=$1 (+Convertible $2)
+累計強化=Total Enhancement
+
 
 以下のアイテムを消費して強化しますか？=Would you like to use the following items to strengthen it?
 
