@@ -28,15 +28,3 @@ r:"^自分にお堪忍袋を２つ付与する攻撃を受けた時にお堪忍�
 ##EX##
 マンティコア流生存術=Manticore-Style Survival Art
 マンティコア流生存術+=Manticore-Style Survival Art+
-
-
-
-
-
-
-
-
-
-
-r:"^敵単体に(\d+)の物理ダメージお堪忍袋がない場合、敵単体に(\d+)の物理ダメージお堪忍袋がない場合、自分の物理攻撃力を(\d+)アップお堪忍袋がない場合、自分のＨＰを(\d+)回復お堪忍袋がない場合、自分のＴＰを1000回復$"=►Deals $1 P.DMG to a single enemy.\n\nIf [Patience Pouch] =0:\n►Deals $2 P.DMG to a single enemy.\n►Boosts own P.ATK by $3.\n►Recovers own HP by $4.\n►Recovers own TP by 1000.
-

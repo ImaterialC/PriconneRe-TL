@@ -1687,7 +1687,9 @@
 前から敵２体に火傷（ＴＰ回復不可=Inflicts burn on the two enemies in front (TP recovery disabled).
 前から敵２体に魔法ダメージ=Deals M.DMG to the two enemies in front.
 敵全体に火傷（ＴＰ回復不可=Inflicts burn on all enemies (TP recovery disabled).
+必中）=hitting the target.
 敵全体に火傷（ＴＰ回復不可必中）=Inflicts burn on all enemies (TP recovery disabled, cannot miss).
+
 前から２番目攻撃、火傷=Attacks the second enemy from the front and inflicts burn.
 火傷ダメージによるＴＰ回復なし=Burn damage does not recover TP.
 物理か魔法攻撃力が３／４／５番目に高い敵に9999999の物理固定ダメージ（挑発／召喚体無視）=Deals 9,999,999 fixed P.DMG to the enemy with the 3rd, 4th, or 5th highest P.ATK or M.ATK (ignores taunt and summoned units).
@@ -1698,3 +1700,7 @@
 自身に物理／魔法攻撃力アップ=Boosts own P.ATK and M.ATK.
 物理か魔法攻撃力が最も高い敵２体に物理／魔法攻撃力アップ=Boosts P.ATK and M.ATK of the two enemies with the highest P.ATK or M.ATK.
 物理か魔法攻撃力が最も高い敵２体に行動速度アップ=Increases action speed of the two enemies with the highest P.ATK or M.ATK.
+
+子分を４体召喚し、敵全体をノックバックさせる。子分は最も近い敵１キャラに物理中ダメージを与え、キャラのＨＰが50％未満の場合キャラをノックバックさせる。このスキルの状態異常はダメージを無効化しても付与される。=Summons 4 minions and knocks back all enemies. The minions deal medium P.DMG to the closest enemy and knock them back if their HP is below 50%. The status effect is applied even if the damage is negated.
+最も近い敵３キャラに物理小ダメージを与え、味方全体の物理攻撃力を特大アップ、行動速度を中アップさせる。味方の数に応じて、物理攻撃力の上昇量がダウンする。=Deals small P.DMG to the three closest enemies, massively boosts all allies' P.ATK, and moderately increases their action speed. The P.ATK boost decreases based on the number of allies.
+ユニオンバーストは、敵全体に物理中ダメージを与え、さらにキャラのＨＰが70％未満のキャラに混乱状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=The Union Burst deals medium P.DMG to all enemies and inflicts confusion on those with HP below 70%. This damage does not recover TP, and the status effect is applied even if the damage is negated.
