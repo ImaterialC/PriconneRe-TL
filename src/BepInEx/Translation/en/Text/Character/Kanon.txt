@@ -1,0 +1,42 @@
+##Profile##
+【物理】前衛で、おエレガントな高笑いを轟かすド令嬢。ＵＢや敵からの攻撃で【お堪忍袋】が尽きると逆上し、強化されたスキルと行動パターンで華麗におリベンジする。=[Physical] A refined young lady on the frontlines whose elegant, hearty laughter resounds. When her [Patience Pouch] is depleted by using her UB or by enemy attacks, she flies into a rage and, with enhanced skills and altered behavior patterns, delivers a spectacular revenge.
+
+##UB##
+マンティコア流操霊術・ハイドラカノン=Manticore-Style Spirit Manipulation: Hydra Cannon
+目の前の敵１キャラに物理極大ダメージを与え、魔法攻撃力を大ダウン、物理防御力を中ダウンさせる。さらに、自分の物理攻撃力と物理クリティカルを特大アップするが、自分の最大ＨＰの10％を消費する。このスキルによる自分へのダメージでは自分のＴＰは回復しない。自分に【お堪忍袋】が付与されている場合、【お堪忍袋】を１つ消費して自分の物理攻撃力を特大アップする。=Deals extremely large P.DMG to an enemy in front, greatly lowers their M.ATK, and moderately lowers their P.DEF. Additionally, massively boosts own P.ATK and P.CRIT RATE at the cost of 10% of own max HP; this self-damage does not restore own TP. If own [Patience Pouch] is present, consumes one Patience Pouch to further massively boost own P.ATK.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを200アップ自分の最大ＨＰの10％を消費お堪忍袋が１つ以上の場合、以下の効果が発動するお堪忍袋を１つ消費する自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's M.ATK by $2 for 18s.\n►Lowers a single enemy's P.DEF by $3 for 18s.\n►Boosts own P.ATK by $4 for 18s.\n►Boosts own P.CRIT RATE by 200 for 18s.\n►Consumes 10% of max HP.\n\nIf [Patience Pouch] ≥1:\n►Consumes 1 [Patience Pouch].\n►Boosts own P.ATK by $5 for 90s.
+
+##S1##
+毒殺剣術・お滅多突き=Poisonous Swordsmanship: Deadly O-Thrust
+目の前の敵１キャラに物理大ダメージを与え、魔法攻撃力を中ダウン、物理防御力を小ダウンさせる。さらに、自分に【お堪忍袋】が付与されていない場合、追加の物理大ダメージを与え、自分のＨＰを小回復する。=Deals large P.DMG to an enemy in front, moderately lowers their M.ATK, and slightly lowers their P.DEF. Additionally, if own [Patience Pouch] is not present, deals an additional large P.DMG and slightly recovers own HP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウンお堪忍袋がない場合、敵単体に(\d+)の物理ダメージお堪忍袋がない場合、自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's M.ATK by $2 for 12s.\n►Lowers a single enemy's P.DEF by $3 for 12s.\n\nIf [Patience Pouch] \=0:\n►Deals $4 P.DMG to a single enemy.\n►Recovers own HP by $5.
+
+
+##S2##
+ぶっ飛ばしおスラッシュ=Knock-Away O-Slash
+目の前の敵１キャラに物理大ダメージを与える。さらに、自分に【お堪忍袋】が付与されていない場合、目の前の敵１キャラに追加の物理大ダメージを与え、行動パターンが変化し、自分の物理攻撃力を特大アップ、ＨＰを小回復、ＴＰを特大回復する。=Deals large P.DMG to an enemy in front. Additionally, if own [Patience Pouch] is not present, deals an additional large P.DMG to an enemy in front, changes own behavior pattern, massively boosts own P.ATK, slightly recovers own HP, and greatly recovers own TP.
+
+
+r:"^敵単体に(\d+)の物理ダメージお堪忍袋がない場合、敵単体に(\d+)の物理ダメージお堪忍袋がない場合、自分の物理攻撃力を(\d+)アップお堪忍袋がない場合、自分のＨＰを(\d+)回復お堪忍袋がない場合、自分のＴＰを1000回復$"=►Deals $1 P.DMG to a single enemy.\n\nIf [Patience Pouch] \=0:\n►Deals $2 P.DMG to a single enemy.\n►Boosts own P.ATK by $3 for 90s.\n►Recovers own HP by $4.\n►Recovers own TP by 1000.
+
+##SP##
+ヲ～ッホッホッ♪=O~hohoho♪
+自分に【お堪忍袋】を２つ付与する。【お堪忍袋】は敵から攻撃を受けると１つ減少し、自分の物理攻撃力を特大アップする。【お堪忍袋】は最大２つまで追加される。=Grants oneself two [Patience Pouch]. Each time the bearer is attacked by an enemy, one Patience Pouch is consumed and massively boosts own P.ATK. Patience Pouch can be stacked up to a maximum of two.
+
+r:"^自分にお堪忍袋を２つ付与する攻撃を受けた時にお堪忍袋が１つ以上の場合、以下の効果が発動するお堪忍袋を１つ消費する自分の物理攻撃力を(\d+)アップ$"=►Grants self 2 [Patience Pouch].\nWhen attacked, if at least 1 [Patience Pouch] is present:\n►Consumes 1 [Patience Pouch].\n►Boosts own P.ATK by $1.
+
+##EX##
+マンティコア流生存術=Manticore-Style Survival Art
+マンティコア流生存術+=Manticore-Style Survival Art+
+
+
+
+
+
+
+
+
+
+
+r:"^敵単体に(\d+)の物理ダメージお堪忍袋がない場合、敵単体に(\d+)の物理ダメージお堪忍袋がない場合、自分の物理攻撃力を(\d+)アップお堪忍袋がない場合、自分のＨＰを(\d+)回復お堪忍袋がない場合、自分のＴＰを1000回復$"=►Deals $1 P.DMG to a single enemy.\n\nIf [Patience Pouch] =0:\n►Deals $2 P.DMG to a single enemy.\n►Boosts own P.ATK by $3.\n►Recovers own HP by $4.\n►Recovers own TP by 1000.
+

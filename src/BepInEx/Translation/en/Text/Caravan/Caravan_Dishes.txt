@@ -13,10 +13,7 @@
 このターンに振るダイスの目が必ず「5」にな\nる。=Roll a guaranteed 5 this turn.
 
 \nミニゲームをスキップしますか？\nプレイ報酬の代わりにマイルが獲得できます。=Would you like to skip the minigame?\nInstead of rewards, you will receive miles.
-スキップ報酬=Skip Reward
-ミニゲームをスキップして、\n以下のアイテムを獲得しました。=Skip the minigame to obtain the following items:
-参加報酬を入手しました。=Obtained participation fee.
-獲得マイルアップ効果を適用しました。=Obtained miles-up effect applied.
+
 ---Dish names---
 
 
@@ -42,6 +39,7 @@
 ユイの栄養満点まごころ弁当=Yui's Nutritious Heartfelt Bento
 リンのナッツ入りぐうたらあんパン=Rin's Lazy Anpan with Nuts
 シェフィの氷晶煌めく手作りアイス=Sheffy's Handmade Glittering Ice Crystal Ice Cream
+次に振るダイスの目が「1・2」のみになる\n代わりに、その場で福引券を3枚獲得する。=You will roll a 1 or 2 this turn.\nIn return, instantly receive 3 lottery tickets.
 
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
@@ -71,12 +69,20 @@ r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」�
 
 
 アネモネの花爛漫ステーキサラダ=Anemone's Flower Steak Salad
-次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=In exchange for rolling only 1s or 2s on the dice this turn, you will instantly receive 3 lottery tickets.
+次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=You will roll a 1 or 2 this turn.\nIn return, instantly receive 3 lottery tickets.
+このターンに振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=You will roll a 1 or 2 this turn.\nIn return, instantly receive 3 lottery tickets.
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
+このターンに振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 this turn.
+
+次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
+このターンに振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
+
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Movement] category food next turn, earn 2,000 miles on the spot.[-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「6」に、その次に振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 3 the turn after.[-]
 次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.
 次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 this turn.\nThe turn count will be skipped.
 マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You will skip Mile Tiles when moving. This effect lasts for 2 turns.
-次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
 次にダイスを振った際、1マス多く進める。=You can move 1 extra Tile next turn.
 次にダイスを振った際、2マス多く進める。=You can move 2 extra Tiles next turn.
 次にダイスを振った際、3マス多く進める。=You can move 3 extra Tiles next turn.
@@ -85,50 +91,6 @@ r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」�
 次にダイスを振った際、6マス多く進める。=You can move 6 extra Tiles next turn.
 次にダイスを振った際、7マス多く進める。=You can move 7 extra Tiles next turn.
 次にダイスを振った際、8マス多く進める。=You can move 8 extra Tiles next turn.
-
-
-このターンに振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=In exchange for rolling only 1s or 2s on the dice this turn, you will instantly receive 3 lottery tickets.
-このターンに振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 this turn.
-このターンに振るダイスの目が必ず「1」になる。=You will roll a guaranteed 1 this turn.
-このターンに振るダイスの目が必ず「2」になる。=You will roll a guaranteed 2 this turn.
-このターンに振るダイスの目が必ず「3」になる。=You will roll a guaranteed 3 this turn.
-このターンに振るダイスの目が必ず「4」になる。=You will roll a guaranteed 4 this turn.
-このターンに振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 this turn.
-このターンに振るダイスの目が必ず「6」になる。=You will roll a guaranteed 6 this turn.
-このターンに振るダイスの目が必ず「7」になる。=You will roll a guaranteed 7 this turn.
-このターンに振るダイスの目が必ず「8」になる。=You will roll a guaranteed 8 this turn.
-このターンに振るダイスの目が「1・6・6・6・8・8」になる。=The eyes of the die you swing on this turn become "1, 6, 6, 6, 8"
-
-このターンに振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 this turn. The turn counter will not increase.
-このターンに振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 2 this turn. The turn counter will not increase.
-このターンに振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 3 this turn. The turn counter will not increase.
-このターンに振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
-このターンに振るダイスの目を必ず「3」に、次のターンに振るダイスの目を必ず「6」にする。=In this turn, the die will always have a 3, and in the next turn, a 6 will always be a 6
-このターンに振るダイスの目を必ず「2」に、次のターンに振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.
-[3C404E]このターンに振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。[-]=[3C404E]You will roll a guaranteed 2 this turn. The turn counter will not increase.[-]
-
-スキップの実行、またはダイスか料理を\n使用する前であれば画面右上より再度開けます。=If you are skipping, or before using dice or cooking, open it again from the top right of the screen.
-[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「8」に、次のターンに振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「12」に、次とさらにその次のターンに振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after twice.[-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「6」に、次のターンに振るダイスの目を必ず「1」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 1 the turn after.[-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「6」に、次のターンに振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 3 the turn after.[-]
-
-[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Movement] category food next turn, earn 2,000 miles on the spot.[-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「6」に、その次に振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 3 the turn after.[-]
-マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計1回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 1 times. 
-[3C404E]このターンに振るダイスの目が「1・2・3」のみになる。ささらに、次のターン数のカウントをスキップする。[-]=You will roll a 1, 2 or 3 this turn. The turn count will be skipped.
-
-
-ガイド役=Guide role
-魔法少女ナナカちゃんウエハース=Magical Girl Nanakachan Wafers
-[3C404E]マップ上の「マイルマス」「トレジャーマス」「ショップマス」のRANKが1つ上がる。効果は対象のマスに計1回止まるまで継続する。[-]=[3C404E]The rank of "Mile Square", "Treasure Square" and "Shop Square" on the map will increase by 1. The effect will continue until you stop on the target square once in total.[-]
-
-ナナカ考案＆監修のウエハース。おまけシールのコレクション性を高くした結果ランドソル中で大ブーム…だが肝心の菓子が棄てられる事態に。解決のため、王女が自ら口を開いたのだった。=Wafers invented and supervised by Nanaka. The bonus stickers were highly collectible, and as a result, they became a big hit throughout Landsol... but the sweets themselves were being thrown away. To solve the problem, the princess spoke up herself.
-マップ上の「マイルマス」「トレジャーマス」 \n「ショップマス」のRANKが1つ上がる。効果は対\n象のマスに計1回止まるまで継続する。=The rank of "Mile Square", "Treasure Square" and "Shop Square" on the map will increase by 1. The effect will continue until you stop on the target square once in total.
-【料理】ダイスの目が1ターン目は必ず「8」に、2ターン目は必ず「1」になる=【Cooking】You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.
-
-
 ---Yellow---
 マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
 次にマイルマスに止まった際の獲得マイルが200%アップする。=You will get 200% more Miles on the next Mile Tile you stop at.
@@ -208,10 +170,8 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 2ターンの間ターン数のカウントをスキップする。=Skips turn count for 2 turns.
 【イベント】次のターン数のカウントをスキップする=[Event] Skip the next turn count
-イロハの最強クワガタゼリー=Iroha's Strongest Stag Beetle Jelly
----Red---
-ジオ・ゲヘナの空の覇者にして煉華のホウオウが己への信仰心を集めるべく作らせたお菓子。中の餡はしっとり甘く、上品な味わい。ジオ・ゲヘナ銘菓の名を恣にする日も近い、かもしれない。=This is a sweet that Houou of Renka, the ruler of the skies of Geo Gehenna, had made to gather faith in herself. The bean paste inside is moist and sweet, with a refined taste. The day when it will be known as Geo Gehenna's famous sweets may be approaching.
 
+---Red---
 ミミが、ジオ・ゲヘナで助けてくれたお姉さん達のことを思い作ったおにぎり。それぞれ異なる味付けがされているが、ミミの願い通りお互いにケンカをせず仲良くハーモニーを奏でている。=Mimi made these rice balls in memory of the big sisters who helped her in Gio Gehenna. Each one has a unique flavor, but just as Mimi wished, no one rice ball overpowers the other, forming a wonderful harmony together.
 
 アキノがジオ・ゲヘナで仕入れてきたスパイスを\n使用した、お洒落で豪華なチキンプレート。牧場\n特製ヨーグルトソースと奏でる刺激的な味わいは\nまさに二つの世界の奇跡のマリアージュである。=A stylish and luxurious chicken platter made with spices that Akino procured in Gio Gehenna. The stimulating flavor of the chicken combined with the ranch's special yogurt sauce makes for a miraculous union of two worlds.
