@@ -11,6 +11,12 @@
 
 ##S2##
 フロストスラッシュ=Frost Slash
+フロストスラッシュ+=Frost Slash+
+
+味方全体に物理/魔法無効バリアを展開する。さらに目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、長時間凍結させて大きく吹き飛ばす。=Deploys a physical/magic-nullification barrier to all allies. Additionally, deals large P.DMG to all enemies in an area centered on an enemy in front, freezes them for a long duration, and knocks them back significantly.
+
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする$"=►Deploys Barrier over all allies that absorbs $1 P/M.DMG for 12s.\n►Deals $2 P.DMG to enemies within 400 range.\n►Inflicts Frozen to enemies in 400 range for 6s.\n►Knocks enemy targets within 400 range back by 600.
+
 
 ##EX##
 イルミネイトスマイル=Illuminating Smile
@@ -23,3 +29,4 @@ r:"^自分のＨＰを(\d+)回復(\d+)ダメージ分の物理無効バリアを
 
 ##UE##
 聖霊剣セイントホープ=Holy Saint Hope Sword
+ノゾミ担サイリウム=Nozomi's Fan Glow Stick

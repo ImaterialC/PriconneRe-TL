@@ -11,8 +11,13 @@
 
 ##S2##
 ブラッディソーン=Bloody Thorn
+ブラッディソーン+=Bloody Thorn+
 前方範囲内の敵すべてに魔法中ダメージを与え、さらに自分の魔法攻撃力を中アップさせるが、残りＨＰの20%を消費する。イリヤのＨＰが低い程ダメージがアップする。=Deals moderate M.DMG to all enemies in range and moderately boosts own M.ATK, at the cost of 20% of own HP. Deals more damage the lower Illya's HP.
 r:"^範囲内の敵すべてに(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の残りＨＰの20%を消費$"=►Deals $1 M.DMG to all enemies in 615 range.\n►Boosts own M.ATK by $2 for 12s.\n►Consumes 20% of own remaining HP.
+
+##S2+##
+自分の残りＨＰの20％を消費して、自分を一定時間無敵状態にする。さらに自分の魔法攻撃力を特大アップし、前方範囲内の敵すべてに魔法特大ダメージを与え、自分のＴＰを特大回復する。イリヤのＨＰが低い程ダメージがアップする。=Consumes 20% of own remaining HP to become invincible for a certain time. Additionally, massively boosts own M.ATK, deals massive M.DMG to all enemies in a forward area, and greatly recovers own TP. Damage increases the lower Illya’s HP is.
+r:"^自分の残りＨＰの20%を消費一定時間無敵状態になる自分の魔法攻撃力を(\d+)アップ範囲内の敵すべてに(\d+)の魔法ダメージ自分のＴＰを(\d+)回復$"=►Consumes 20% of current HP.\n►Grants Invincibility for 6s.\n►Boosts own M.ATK by $1 for 12s.\n►Deals $2 M.DMG to all enemies whitin 615 range.\n►Recovers own TP by $3.
 
 ##EX##
 聖夜の盟約=Silent Night Pact
@@ -25,3 +30,4 @@ r:"^自分の魔法攻撃力を(\d+)アップ敵単体に(\d+)の魔法ダメー
 
 ##UE##
 聖夜斧ノエルファング=Holy Night Axe Noelfang
+聖夜を統べるマント=Cloak That Rules the Holy Night

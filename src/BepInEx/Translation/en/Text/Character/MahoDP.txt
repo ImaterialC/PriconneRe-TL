@@ -8,8 +8,14 @@ r:"^範囲内の敵の魔法防御力を(\d+)ダウン味方全体の魔法攻�
 
 ##S1##
 マホマホファンシーボール=Maho-Maho Fancy Ball
+マホマホファンシーボール+=Maho-Maho Fancy Ball+
 前方範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、物理防御力と魔法防御力を小アップさせる。【カーテンコール】が付与されている場合、前方範囲内の敵すべてに追加の魔法大ダメージを与える。=Deals moderate M.DMG to enemies in range and slightly lowers their M.DEF. Additionally, greatly boosts all allies M.ATK, P.DEF and M.DEF. If [Curtain Call] is active, deals additional M.DMG to enemies in range.
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=►Deals $1 M.DMG to enemies in 1400 range.\n►Lowers enemies' M.DEF in 1400 range by $2 for 12s.\n►If [Curtain Call] is active, deals $3 M.DMG to enemies' in 1400 range.\n►Boosts all allies' M.ATK by $4 for 12s.\n►Boosts all allies' P.DEF by $5 for 12s.\n►Boosts all allies' M.DEF by $5 for 12s.
+
+##Skill+##
+前方範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせる。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージ、物理防御力、魔法防御力を小アップさせる。【カーテンコール】が付与されている場合、前方範囲内の敵すべてに追加の魔法大ダメージを与える。=Deals large M.DMG to all enemies in a forward area and slightly lowers their M.DEF. Additionally, massively boosts all allies’ M.ATK, greatly boosts their M.CRIT RATE, and slightly boosts their M.CRIT DMG, P.DEF, and M.DEF. If Curtain Call is active, deals additional large M.DMG to all enemies in the forward area.
+
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを10％アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=►Deals $1 M.DMG to enemies within 1400 range.\n►Lowers enemies' M.DEF within 1400 range by $2 for 12s.\n►During [Curtain Call]: Deals additional $3 M.DMG.\n►Boosts all allies' M.ATK by $4 for 12s.\n►Boosts all allies' M.CRIT RATE by 100 for 12s.\n►Boosts all allies' M.CRIT DMG by 10％ for 12s.\n►Boosts all allies' P.DEF by $5 for 12s.\n►Boosts all allies' M.DEF by $6 for 12s.
 
 ##S2##
 マホマホワンダーフープ=Maho-Maho Wonder Hoop
@@ -19,3 +25,6 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理攻撃�
 ##EX##
 メルヘンサーカス=Fairy-tale Circus
 メルヘンサーカス+=Fairy-tale Circus+
+
+##Unique Equipment##
+マホマホドリームスーツ=Maho-Maho Dream Suit

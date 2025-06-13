@@ -18,8 +18,13 @@ r:"^コインを持っていない場合、対象の味方の物理攻撃力を(
 
 ##S2##
 デストラクション=Destruction
+デストラクション+=Destruction+
 コインを持っていない場合、目の前の敵１キャラに物理中ダメージを与える。コインを持っている場合、目の前の敵１キャラに物理中ダメージを与え、さらに味方全体のＴＰ上昇を小アップする。=If Christina doesn't have a Coin, deals moderate P.DMG to an enemy directly in front. If Christina does have a Coin, deals moderate P.DMG to an enemy directly in front and boosts the TP Boost of all allies by a small amount.
 r:"^コインを持っていない場合、敵単体に(\d+)の物理ダメージコインを持っている場合、敵単体に(\d+)の物理ダメージコインを持っている場合、味方全体のＴＰ上昇を10アップ$"=Cast Time: 0.58s\nIf Christina doesn't have a Coin:\n►Deals $1 P.DMG to an enemy.\n\nIf Christina has a Coin:\n►Deals $2 P.DMG to an enemy.\n►Boosts allies' TP Boost by 10 for 12s.
+
+##S2+##
+短時間全ての物理攻撃を回避する状態になり、コインを持っていない場合、目の前の敵１キャラに物理大ダメージを与える。コインを持っている場合、目の前の敵１キャラに物理大ダメージを与え、味方全体のＴＰ上昇を小アップさせる。さらにコインの有無にかかわらず、バトル終了時まで全てのスキルでコインを持っていない場合とコインを持っている場合の効果が両方発動する状態になる。この状態の間、デストラクション+に自分を中心とした範囲内の味方の行動速度を大アップさせる効果が追加される。=Enters a state that evades all P.ATK for a short time. If no coin is held, deals large P.DMG to an enemy in front. If a coin is held, deals large P.DMG to an enemy in front and slightly increases TP Boost for all allies. Additionally, regardless of coin possession, until the end of battle both the no-coin and coin-held effects activate for all skills. During this state, Destruction+ gains an added effect that greatly boosts the action speed of allies within a range centered on self.
+r:"^一定時間全ての物理攻撃を回避するコインを持っていない場合、敵単体に(\d+)の物理ダメージコインを持っている場合、敵単体に(\d+)の物理ダメージコインを持っている場合、味方全体のＴＰ上昇を10アップコインを持っていない場合とコインを持っている場合の効果が両方発動する状態の間、範囲内の味方の行動速度アップコインを持っている状態と持っていない状態の両方の効果が発動するようになる$"=►Dodges all physical attacks for 3s.\n►Without [Coin]: Deals $1 P.DMG to single enemy.\n►With [Coin]: Deals $2 P.DMG to single enemy.\n►With [Coin]: Boosts all allies' TP Boost by 10 for 12s.\n►While both coin states active: Boosts Action Speed of allies whitin 200 range to 200% for 12s.\n►Activates effects for both coin states.
 
 ##EX##
 バーンスクリプト=Burning Script
@@ -32,3 +37,4 @@ r:"^コインを持っていない場合、対象の味方の物理攻撃力を(
 
 ##UE##
 聖刻剣アヴァロン=Holy Sword Avalon
+誓約女君の祝杯=Regina Geas's Toast

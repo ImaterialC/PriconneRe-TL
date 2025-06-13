@@ -26,7 +26,7 @@
 目の前の敵１キャラに物理中ダメージを与える。攻撃前の構え中にレイが受けたダメージに応じて、与えるダメージがアップする。=Deals moderate P.DMG to an enemy directly in front. boost to damage dealt based on the damage taken while in pre-attack stance.
 
 ##S2+##
-カウンタースラッシュ+=Counter Slash +
+カウンタースラッシュ+=Counter Slash+
 目の前の敵１キャラに物理大ダメー\nジを２回与え、自分が敵から受ける\n行動不能を１回まで無効にする。さ\nらに、行動パターンが変化する。=Deals 2 instances of large P.DMG to the frontmost enemy, and nullifies one immobilizing effect. Also changes skill loop.
 r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ自分の受ける行動不能を１回まで無効化する$"=►Deals $1 P.DMG to the frontmost enemy.\n►Deals an additional $2 P.DMG to the same enemy.\n►Nullifies one instance of immobilizing status on self.
 
@@ -49,6 +49,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダ
 
 ##UE##
 ゲイルグローブ=Glove of Gales
+ソードオブゲイル=Sword of Gale
 
 ##Comments##
 キミとなら、一緒に強くなれそうだ\nこれからよろしく=Looks like I'll be able to get stronger\nwith you. I look forward to\nworking with you from now on.

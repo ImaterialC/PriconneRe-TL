@@ -11,7 +11,11 @@
 
 ##S2##
 ピュアリースナイプ=Purely Snipe
+ピュアリースナイプ+=Purely Snipe+
 自分を中心とした範囲内の味方の物理攻撃力を大アップさせ、さらに目の前の敵１キャラに物理特大ダメージを与える。=Large boost to P.ATK of all allies in 300 range. Deals massive P.DMG to an enemy directly in front.
+
+自分を中心とした範囲内の味方の物理攻撃力を特大アップさせ、自分に物理/魔法無効バリアを展開し、目の前の敵１キャラに物理特大ダメージを与えて物理防御力を大ダウンさせる。攻撃時、自分にバリアが展開されている場合、自分の物理攻撃力を特大アップし、このスキルのダメージは前方の敵すべてが対象になり、物理防御力を一定値無視し、スタンさせる。=Massively boosts P.ATK of allies within a range centered on self, deploys a physical/magic-nullification barrier on self, and deals massive P.DMG to an enemy in front while greatly lowering their P.DEF. When attacking, if a barrier is active on self, massively boosts own P.ATK; this skill’s damage then targets all enemies in front, ignores a fixed amount of P.DEF, and stuns them.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物魔無効バリアを展開する自分の物理攻撃力を(\d+)アップ対象の敵に(\d+)の物理ダメージ\(バリア展開中、物理防御力を50無視する\)対象の敵の物理防御力を(\d+)ダウン対象の敵を一定時間行動不能にする$"=►Boosts P.ATK of allies in range by $1.\n►Deploys Barrier over self that absorbs $2 P/M.DMG for 12s.\n►Boosts own P.ATK by $3 for 12s.\n►Deals $4 P.DMG to target enemy (ignores 50 P.DEF during barrier).\n►Lowers target enemy's P.DEF by $5 for 12s.\n►Inflicts Stun to target enemy for 3s.
 
 ##EX##
 ピュアリーブレイブ=Purely Courage
@@ -24,3 +28,4 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の�
 
 ##UE##
 マジカルピュアリーボウ=Magical Purely Bow
+マジカルピュアリーリボン=Magical Purely Ribbon

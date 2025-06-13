@@ -2,6 +2,9 @@
 【魔法】中衛で、皆を夢の世界に誘う宝石兎族の支配人。ステータスアップ効果を受けるたびに【かばばん君】を増やし、反射的に味方へ攻撃支援の恩返しをしてしまう。=[Magic] A Carbuncle manager who invites people to the World of Dreams from midlines! Every time she receives a buff, she is compelled to produces more and more [Kababan-kun] to support her friends as repayment.
 田中美海=Tanaka Minami
 
+掃除、宝石や遊園地の手入れ=Cleaning, taking care of jewels and amusement parks
+宝石兎族=Carbuncle
+
 ##UB##
 グランドリームパレード=Grand Dream Parade
 前方の敵すべてに魔法大ダメージを与え、自分のＨＰを中回復し、無敵状態になる。このスキルのダメージは【かばばん君】の数に応じて増加し、クリティカル時のダメージが３倍になる。【かばばん君】が20以上の場合、このスキルは必ずクリティカルし、40の場合、さらに、味方全体の魔法攻撃クリティカル時のダメージを小アップする。=Deals large M.DMG to all enemies in front, moderately recovers own HP, and becomes immune to all damage for a set period of time. The M.DMG increases according to number of [Kababan-kun] stacks, and deals x3 M.DMG if critical. If there are 20+ [Kababan-kun] stacks, the UB always critical. If there are 40 [Kababan-kun] stacks, slightly boosts all allies' M.CRIT DMG.
@@ -11,6 +14,11 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復一
 かばばん君警備員モード=Kababan-kun Guard Mode
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、自分のＨＰを小回復させ、さらに物理/魔法吸収バリアを展開する。このスキルのダメージは【かばばん君】の数に応じて増加する。=Deals moderate M.DMG to enemies in range, slightly recovers own HP, and deploys Barrier that absorbs P/M.DMG. The M.DMG increases according to number of [Kababan-kun] stacks.
 r:"^範囲内の敵に(\d+)の魔法ダメージ(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in range.\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.\n►Recovers own HP by $3.
+
+##Skill Desc##
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、自分のＨＰを小回復し、物理/魔法吸収バリアを展開する。このスキルのダメージは【かばばん君】の数に応じて増加し、クリティカル時のダメージが３倍になる。【かばばん君】が20以上の場合、このスキルは必ずクリティカルし、40の場合、さらにダメージを与えた敵を束縛する。=Deals moderate M.DMG to all enemies in an area centered on an enemy in front, slightly recovers own HP, and deploys a physical/magic-absorption barrier. The damage of this skill increases based on the number of Kababan-kun. Critical damage is tripled. If Kababan-kun count is 20 or more, this skill always critically hits; if 40, it additionally binds the enemies damaged.
+r:"^範囲内の敵に(\d+)の魔法ダメージかばばん君が40の場合、範囲内の敵を一定時間行動不能にする(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies within 300 range.\n►If [Kababan-kun] is 40: Inflicts Bind to enemies in range.\n►Deploys Barrier over self that absorbs $2 P/M.DMG for 12s.\n►Recovers own HP by $3.
+
 
 ##S2##
 恩返しですっ！=It's My Repayment!

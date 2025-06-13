@@ -15,7 +15,7 @@ r:"^味方全体のＨＰを(\d+)回復味方全体の行動速度アップ$"=�
 
 
 ##S2+##
-加護ノ破魔矢+=Blessed Purifying Arrow +
+加護ノ破魔矢+=Blessed Purifying Arrow+
 味方全体の物理攻撃力と魔法攻撃力\nを大アップさせ、物理無効バリアと\n魔法無効バリアを展開する。=Greatly increases all allies' P.ATK and M.ATK, and deploys both a phys-nullification barrier and a magic-nullification barrier to all allies.
 r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts all allies' P.ATK by $1.\n►Boosts all allies' M.ATK by $2.\n►Deploys phys-nullifying Barrier to all allies that nullifies $3 P.DMG.\n►Deploys magic-nullifying Barrier to all allies that nullifies $4 M.DMG.
 
@@ -29,3 +29,4 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃�
 
 ##UE##
 神殿巫女の鈴飾り=Shrine Maiden's Bell Decoration
+神殿巫女の装束=Shrine Maiden's Costume

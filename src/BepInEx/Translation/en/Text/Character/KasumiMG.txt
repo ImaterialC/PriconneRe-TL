@@ -15,8 +15,15 @@ r:"^敵単体のＴＰを(\d+)失わせる$"=►Reduces an enemy's TP by $1.
 
 ##S2##
 ミスティラッピング=Misty Wrapping
+ミスティラッピング+=Misty Wrapping+
 一番遠い敵１キャラを中心とした範囲内の敵すべてに魔法小ダメージを与え、さらに束縛する。=Deals small magical damage to all enemies in a radius around the farthest enemy and inflicts Bind.
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする$"=►Deals $1 M.DMG to enemies in range.\n►Renders enemies in range immobile for a set period of time.
+
+
+一番遠い敵１キャラを中心とした範囲内の敵すべての魔法防御力を小ダウンさせ、魔法中ダメージを与え、束縛する。さらに自分を中心とした範囲内の味方すべてのＴＰを小回復させる。ダメージを与えた敵の数に応じて、ＴＰの回復量が最大５倍までアップする。=Slightly lowers M.DEF of all enemies in an area centered on the furthest enemy, deals moderate M.DMG, and binds them. Additionally, slightly recovers TP of all allies within a range centered on self. The TP recovery amount increases up to 5× depending on the number of enemies damaged.
+r:"^範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする範囲内の味方のＴＰを60回復$"=►Lowers M.DEF of enemies within 400 range by $1 for 12s.\n►Deals $2 M.DMG to enemies within 400 range.\n►Inflicts Bind to enemies within 400 range for 2.5s.\n►Recovers TP for allies within 100 range by 60.
+
+
 ## Same as NYSuzume S1+
 
 ##EX##
@@ -31,3 +38,4 @@ r:"^敵単体のＴＰを(\d+)失わせる敵単体の物理攻撃力を(\d+)ダ
 
 ##UE##
 マジカルミスティロッド=Magical Misty Rod
+マジカルミスティリボン=Magical Misty Ribbon
