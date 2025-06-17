@@ -1,0 +1,47 @@
+挑戦開始時、アルファルピを[-][FFBB00,CE4F00]1000[-][3C404E]多く所持して出発できる=At the start of your Labyrinth attempt, start with [-][FFBB00,CE4F00]1000[-][3C404E] more Alpha Rupies in your possession.
+挑戦開始時のアルファルピ増加=Increases Alpha Rupies at the Start.
+
+挑戦中、ショップに並ぶアイテムの価格が[-][FFBB00,CE4F00]25％OFF[-][3C404E]になる=During your Labyrinth attempt, the price of items\nlined up in the shop will be [-][FFBB00,CE4F00]25％OFF[-][3C404E].
+「アルファルピ」を使用して購入するショップのみ有効=Only effective on shops that accepts\nAlpha Rupies.
+アルファルピショップ割引=Alpha Rupies Shop Discount
+
+挑戦開始時、選択したギルドに応じた[-][FFBB00,CE4F00]迷宮遺物[-][3C404E]を追加獲得できる=At the start of your Labyrinth attempt, obtain an additional [-][FFBB00,CE4F00]Labyrinth Relics[-][3C404E].
+挑戦開始時の迷宮遺物追加=Additional Labyrinth Relic at the Start.
+
+バトル勝利時のアルファルピ獲得量が[-][FFBB00,CE4F00]50％[-][3C404E]増加する=During your Labyrinth attempt, increases Alpha Rupies obtained from winning battles by [-][FFBB00,CE4F00]50％[-][3C404E].
+バトル勝利時報酬増加=Battle Victory Rewards Increased
+
+全キャラ 物理攻撃力強化=All Characters Physical Attack Enhancement
+全キャラ 物理クリダメ強化=All Characters Physical Crit DMG Enhancement
+回復強化ステータス=Recovery Enhancement Status
+全キャラ 回復強化=All Characters Recovery Enhancement
+通常攻撃強化ステータス=Normal Attack Enhancement Status
+全キャラ 通常攻撃強化=All Characters Normal Attack Enhancement
+全キャラ 魔法攻撃力強化=All Characters Magic Attack Enhancement
+全キャラ 魔法防御力強化=All Characters Magic Defense Enhancement
+全キャラ 物理防御力強化=All Characters Physical Defense Enhancement
+全キャラ 物理クリティカル強化=All Characters Physical Critical Enhancement
+全キャラ ＨＰ強化=All Characters HP Enhancement
+
+状態異常命中ステータス=Status Effect Accuracy Status
+全キャラ 状態異常命中強化=All Characters Status Effect Accuracy Enhancement
+全キャラ 魔法クリティカル強化=All Characters Magic Critical Enhancement
+
+全キャラ バフ強化=All Characters Buff Enhancement
+全キャラのバフ強化ステータスを[-][FFBB00,CE4F00]10[-][3C404E]アップ=Increases all characters' buff enhancement status by [-][FFBB00,CE4F00]10[-][3C404E].
+全キャラのバフ強化ステータスが[-][FFBB00,CE4F00]15[-][3C404E]アップ=Increases all characters' buff enhancement status by [-][FFBB00,CE4F00]15[-][3C404E].
+※対象となる強化効果はロールマスタリーと共通=※The target's Enhancement effect is similar to Role Mastery's
+
+
+全キャラ 魔法クリダメ強化=All Characters Magic Crit DMG Enhancement
+全キャラのデバフ強化ステータスを[-][FFBB00,CE4F00]10[-][3C404E]アップ=Increases all characters' debuff enhancement status by [-][FFBB00,CE4F00]10[-][3C404E].
+全キャラのデバフ強化ステータスが[-][FFBB00,CE4F00]15[-][3C404E]アップ=Increases all characters' debuff enhancement status by [-][FFBB00,CE4F00]15[-][3C404E].
+※対象となる弱体化効果はロールマスタリーと共通=*The weakening effect of the target is similar to the role mastery
+
+全キャラ デバフ強化=All Characters Debuff Enhancement
+全キャラ 物理与ダメージ強化=All Characters Physical DMG Enhancement
+全キャラ 魔法与ダメージ強化=All Characters Magic DMG Enhancement
+
+解放されるノードの効果=Unlocked Nodes Effect Preview
+以下のノードの解放を行いますか？=Unlock the following nodes?
+解放確認=Unlock Confirmation
