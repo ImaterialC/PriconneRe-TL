@@ -39,3 +39,10 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカル�
 
 ##UE##
 傘剣ビーチプリンセス=Princess Parasword
+
+##UE2##
+
+r:"^パラソルアサルト\+$"="Parasol Assault+"
+r:"^渚のプリンセスサマー$"="Beachside Princess Summer"
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリダメを12％アップ自分におかわり券を１枚付与し、ＴＰを1000回復ＵＢを使用した時におかわり券が１枚以上の場合、おかわり券を１枚消費し、ＴＰを1000回復$"="►Deals $1 P.DMG to enemies within range.\n►Boosts own P.CRIT DMG by 12%.\n►Grants 1 [Second Helping Ticket] and recovers 1000 TP.\n\nWhen using UB with at least 1 [Second Helping Ticket]:\n►Consumes 1 [Second Helping Ticket] to recover 1000 TP."
+r:"^前方範囲内の敵すべてに物理大ダメージを与え、目の前の敵１キャラを小さく吹き飛ばす。さらに自分の物理攻撃クリティカル時のダメージを小アップ、【おかわり券】を１枚付与し、ＴＰを特大回復する。【おかわり券】が付与されている状態でＵＢを使用した場合、【おかわり券】を１枚消費し、自分のＴＰを特大回復する。【おかわり券】は最大２枚まで追加される。$"="Deals large P.DMG to all enemies in front and knocks back the nearest enemy. Slightly boosts P.CRIT DMG, grants 1 [Second Helping Ticket], and greatly recovers TP. When using UB with [Second Helping Ticket], consumes 1 to greatly recover TP. Max 2 [Second Helping Tickets] can be stacked."
