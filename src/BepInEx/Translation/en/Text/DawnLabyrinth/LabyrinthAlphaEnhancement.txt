@@ -12,7 +12,8 @@
 挑戦開始時、選択したギルドに応じた[-][FFBB00,CE4F00]迷宮遺物[-][3C404E]を追加獲得できる=At the start of your Labyrinth attempt, obtain an additional [-][FFBB00,CE4F00]Labyrinth Relics[-][3C404E].
 挑戦開始時の迷宮遺物追加=Additional Labyrinth Relic at the Start.
 
-バトル勝利時のアルファルピ獲得量が[-][FFBB00,CE4F00]50％[-][3C404E]増加する=During your Labyrinth attempt, increases Alpha Rupies obtained from winning battles by [-][FFBB00,CE4F00]50％[-][3C404E].
+バトル勝利時のアルファルピ獲得量が[-][FFBB00,CE4F00]50％[-][3C404E]増加する=During your Labyrinth attempt, increases Alpha Rupees obtained from winning battles by [-][FFBB00,CE4F00]50％[-][3C404E].
+
 バトル勝利時報酬増加=Battle Victory Rewards Increased
 
 全キャラ 物理攻撃力強化=All Characters Physical Attack Enhancement
