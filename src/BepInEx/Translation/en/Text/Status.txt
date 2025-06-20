@@ -107,10 +107,10 @@ r:"^毒の1秒当たりのダメージ量\+([0-9,]+)$"="Poison Damage per Second
 r:"^猛毒の1秒当たりのダメージ量\+([0-9,]+)$"="Venom Damage per Second +$1"
 r:"^確定成功Ｌｖ\+([0-9,]+)$"="Inflict Success Lv +$1"
 ------
-r:"^装備必要キャラLv：([0-9,]+)$"="LV Requirement: $1"
+r:"^装備必要キャラLv：([0-9,]+)$"="[3C404E]LV Requirement: $1[-]"
 r:"^上限解放必要キャラLv:([0-9,]+)$"="Character Lv required to unlock the Level Cap: $1"
 上限解放に必要なキャラLvを満たしていません。=Insufficient character Lv to unlock the cap.
-r:"^\[FF7C4E,D62146\]装備必要キャラLv：([0-9,]+)\[-\]$"="[FF7C4E,D62146]LV Requirement: $1[-]"
+r:"^\[FF7C4E,D62146\]装備必要キャラLv：([0-9,]+)\[-\]$"=[FF7C4E,D62146]LV Requirement: $1[-]
 r:"^強化Lv上限  ([0-9,]+)$"="Max Lv $1"
 r:"^上限Lv([0-9,]+)$"="Lv. $1"
 ---Status UP Equip---

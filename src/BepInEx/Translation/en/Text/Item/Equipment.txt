@@ -697,3 +697,6 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 アイスクレイモアＲ=Ice Claymore R
 鷹神の煌剣Ｒ=Radiant Sword of the Hawk God R
 司法神の錫杖Ｒ=Scepter of the God of Justice R
+月のブレスレットＲ=Moon Bracelet R
+猫神のペンダントＲ=Cat God's pendant R
+竜の涙Ｒ=Dragon's Tear R
