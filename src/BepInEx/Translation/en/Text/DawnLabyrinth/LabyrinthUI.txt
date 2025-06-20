@@ -1,0 +1,325 @@
+黎明界ラビリンス=Dawn Realm Labyrinth
+黎明界ラビリンスβに挑戦しよう=Let's challenge Dawn Realm Labyrinth β
+
+所持パスポート=Passport
+挑戦中=In Progress
+出発=Depart
+アルファ強化=Alpha Enhancement
+遺物図鑑=Relic Guide
+
+Menu Shizuru&Rino
+呼ばれて飛び出てお姉ちゃんだよ♪\nたとえ火の中、水の中、迷宮の中っ\nこのダンジョンを踏破できるよう\n弟くんを応援してあげるからねっ♪=Big Sis' will always answer your call♪ Even through fire, water, or a dungeon deep in a labyrinth, I'll always support my little brother♪
+ほんとーに不思議な場所ですね～\nお兄ちゃんが冒険を頑張れるよう\nおまじないをかけてあげますねっ\nフレーフレー、お・兄・ちゃんっ♪=This really is a strange place～ I'll cast a good luck charm so you can do your best on your adventures. Go for it, Onii-chan～
+
+tutorial laby
+やぁ少年、まさか今になって、こーんな懐かしいエリアが見つかっちゃう\nなんてね？　ま、いい機会だし挑戦していってよ。キミとキミの仲間たち\nなら、きっとこの迷宮も攻略できるはずだから、さ。=Hey, kid. Didn't think you'd find such a nostalgic area, but it's a good opportunity for you to try it out. I'm sure you and your allies will be able to clear this labyrinth.
+迷宮の中はルートを選択して進んでいくことになるよ。止まりたいマスを\n選択して進路を決定しよう！　止まったマスに応じた出来事が\n発生するから、くれぐれも先を見据えて行動するよーに！=In the labyrinth, you'll have to decide a route to progress. Choose the tile you want to stop on to decide your route! Make sure to plan out your routes, because the event you'll get will depend on the tiles you land on!
+最終エリアで待つボスを倒すか、帰還を選ぶことで挑戦を終了できる。\n成果に応じたスコアや報酬が得られるから、好成績目指して頑張ろう！\nうまくいかなかったら撤退を選ぶこともできる、安心設計だよ！=You'll finish after defeating the boss in the final area or by choosing to return at anytime. Based on your results, you'll earn scores and rewards so try to get a good one! If things doesn't go well, you can always choose to retreat. It's a stress-free design!
+やっぱりさー、ダンジョン攻略の醍醐味といえば報酬の獲得、だよね！\n安心してよ、この迷宮──黎明界にもちゃんとお宝を仕込んであるから。\nそれこそ、ここでしか手に入らない高レア装備なんてものも……ね♪=As I thought, the fun of challenging dungeons is the rewards you obtain! But don't worry, this labyrinth── Dawn Realm also has treasures prepared in it. That's right... there are high rarity equipments you can only find here♪
+あーそうそう、黎明界ラビリンスに挑戦するためには特別なアイテムが\n必要なんだ。いや、持ってなくても中に入ることはできるんだけど……\nその代わり報酬は持ち帰れなくなっちゃうから、忘れずに覚えておいて。=Oh, right. You'll need a special item to challenge the Dawn Labyrinth. You can still enter even if you don't have it, but... you won't be able to take the rewards back with you, keep that in mind.
+マップにはいろんなマスが用意されているよ。「バトルマス」は文字通り\n魔物と戦うマスだ。見事勝利すれば報酬獲得♪　「ボスバトルマス」では\n３パーティで強敵に挑戦しよう！　戦力を整えて挑むよ～に！=There are a variety of tiles on the map. "Battle Tile" as the name says is a tile for fighting monsters. If you win, you'll get a reward♪ In "Boss Battle Tile", use 3 party and take on a strong opponents! Prepare your strength in order to beat it!
+もちろん、バトル以外のマスも配置してるよ。止まった先で選択を\n迫られる……なんてこともあるから、状況に応じて選ぶといい！\nまさかテキトーに進めちゃうなんてことは……しないよね？=Of course, there's also tiles arranged other than battles. You might be forced to make a choice after stopping in a tile... so decide based on your situation! You wouldn't just lazily keep moving forward... right? 
+迷宮内で手に入る遺物たちは、ラビリンス攻略における助けとなるはずだ\nよ。それぞれが便利な効果を持つ上に、複数集めたら追加される効果なん\nてのもあるからね。見事揃えられたら七冠の力も凌駕しちゃったりして♪=The relics you get in the labyrinth should help you conquer the labyrinth. Not only do they each have useful effects, but their effects becomes stronger when you collect multiple of them together. If you can complete the series, it might even surpass the power of the 7C♪
+
+報酬は多ければ多いほどやる気が出るってー？　うんうん、それはごもっ\nともだ。ってなわけで、お題の達成や特定のアイテムを持ち帰ってきたら\n追加のご褒美もあげちゃおう！　専用のショップもオープンしてるよ。=The more rewards, the more you're motivated? Yeah, that makes sense. Anyway, I'll give you an additional reward when you complete a task or bring back a specific item! Our own personal shop is now also open.
+
+報酬・ミッション=Reward Mission
+全て受け取る=Take it all
+シリーズ効果=Series
+迷宮遺物効果=Relic Effect
+詳細表示する迷宮遺物を\n選択してください。=Select a Labyrinth Relic to display the details.
+迷宮遺物を獲得すると、各詳細を確認できます。=Obtain a Labyrinth Relic to view the details.
+ラビリンス内で拾った迷宮遺物は、専用の図鑑に登録されていくからね。\n未発見の遺物を入手した際はご褒美をあげちゃうよ！　あ、でも、図鑑を\n埋めるのに執心しすぎて攻略がお留守にならないよう注意、だけどね！=Any labyrinth relic you pick up in Labyrinth will be registered in your own personal guide. You'll get a reward for every unobtained relic you get! Oh, but don't get too focused on them and ends up neglecting your quests!
+
+
+難易度ボーナス ×1.2=Diff Bonus x1.2
+難易度2=Diff 2
+難易度ボーナス ×1.0=Diff Bonus x1.0
+難易度1=Diff 1
+特殊効果なし=No effect
+難易度3=Diff 3
+難易度ボーナス ×1.4=Diff Bonus x1.4
+難易度4=Diff 4
+難易度ボーナス ×1.7=Diff Bonus x1.7
+難易度5=Diff 5
+難易度ボーナス ×2.0=Diff Bonus x2.0
+まだ解放されていない難易度です。=This difficulty has yet to be unlocked.
+累計=Total
+同行するギルドを選択してください。=Select a guild to accompany you.
+
+アルファルピ=Alpha Rupies
+アストラルブースト=Astral Boost
+
+挑戦終了時報酬=Challenge Complete Reward
+挑戦時アイテム=Challenge Item
+ギルド詳細=Guild Details
+
+獲得可能な報酬=Obtainable Reward
+出発ボーナス=Departure Bonus
+挑戦終了時に確率で以下のアイテムが獲得できます。=At the end of the challenge, you can obtain the following items:
+宝箱からは以下を含む報酬が抽選されます。=Rewards including the following will be drawn from the chest.
+挑戦開始時に以下のアイテムが獲得できます。=The following items can be obtained at the start of the challenge:
+
+【トゥインクルウィッシュ】のセレクト\nサイン=Twinkle Wish Select Sign
+【美食殿】のセレクトサイン=Gourmet Guild Select Sign 
+【王宮騎士団（NIGHTMARE）】のセ\nレクトサイン=NIGHTMARE Select Sign
+【ラビリンス】のセレクトサイン=Labyrinth Select Sign
+
+黎明光環アルファドミナント=Dawn Light Ring Alpha Dominant
+黎明風環アルファドミナント=Dawn Wind Ring Alpha Dominant
+黎明水環アルファドミナント=Dawn Water Ring Alpha Dominant
+黎明火環アルファドミナント=Dawn Fire Ring Alpha Dominant
+黎明闇環アルファドミナント=Dawn Dark Ring Alpha Dominant
+黎明闇輪アルファプレイズ=Dawn Dark Ring Alpha Praise
+黎明光輪アルファプレイズ=Dawn Light Ring Alpha Praise
+黎明風輪アルファプレイズ=Dawn Wind Ring Alpha Praise
+黎明水輪アルファプレイズ=Dawn Water Ring Alpha Praise
+黎明火輪アルファプレイズ=Dawn Fire Ring Alpha Praise
+黎明闇装アルファハイネス=Dawn Dark Royal Attire Alpha 
+黎明光装アルファハイネス=Dawn Light Royal Attire Alpha
+黎明風装アルファハイネス=Dawn Wind Royal Attire Alpha
+黎明水装アルファハイネス=Dawn Water Royal Attire Alpha
+黎明火装アルファハイネス=Dawn Fire Royal Attire Alpha
+黎明闇玉アルファプレシャス=Dawn Dark Alpha Precious Orb
+黎明光玉アルファプレシャス=Dawn Light Alpha Precious Orb
+黎明風玉アルファプレシャス=Dawn Wind  Alpha Precious Orb
+黎明水玉アルファプレシャス=Dawn Water Alpha Precious Orb
+黎明火玉アルファプレシャス=Dawn Fire Alpha Precious Orb
+黎明闇飾アルファグローリー=Dawn Dark Alpha Glory Decoration
+黎明光飾アルファグローリー=Dawn Light Alpha Glory Decoration
+黎明風飾アルファグローリー=Dawn Wind Alpha Glory Decoration
+黎明水飾アルファグローリー=Dawn Water Alpha Glory Decoration
+黎明火飾アルファグローリー=Dawn Fire Alpha Glory Decoration
+
+サレンディアエンゲージ=Sarendia Engage
+【サレンディア救護院】のセレクトサイ\nン=Sarendia Orphanage Select Sign
+
+ナイツオブフェイス=Nights of Face
+
+ラビリンスオーソリティ=Labyrinth Authority
+
+【加速+1】=【Acceleration +1】
+ショップの販売価格－10％=Shop Price -10%
+[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【サレンディア救護院】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFFBB00, SE4F00] [Sarendia Orphanage]? [-]
+所持ラビリンスパスポート=Labyrinth Pass Held
+ラビリンスパスポートを所持していないため報酬は獲得できません。=You cannot claim a reward without a Labyrinth Pass.
+ギルド選択確認=Guild Selection Confirmation
+開始時に獲得できる迷宮遺物=Labyrinth Relics obtained at the start
+【会心+1】=【Critical +1】
+物理/魔法クリダメ＋50％\n物理/魔法クリティカル－2\n5％=Physical/Magic Crit DMG +50%\nPhysical/Magic Critical -25%
+[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【王宮騎士団（NIGHTMARE）】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFBB00, CE4F00][Nightmare]? [-]
+【弱体+1】=[Debuff +1]
+挑戦開始時にラビリスタが加\n入=Labyrista joins at the start of the challenge
+[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【ラビリンス】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFFBB00, CE4F00] [Labyrinth]? [-]
+【守備+1】=【Defense +1】
+ＨＰ＋15％\n物理/魔法与ダメ＋15％=HP +15%\nPhysical/Magic DMG Dealt +15%
+[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【美食殿】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFBB00, C4F00] [Gourmet Guild]? [-]
+【強化+1】=【Buffs +1】
+属性ボーナス＋50％=Elemental Bonus +50%
+[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【トゥインクルウィッシュ】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFFBB00, SE4F00] [Twinkle Wish]? [-]
+
+シリーズ効果詳細=Series Effect Details
+【加速】=[Acceleration]
+【加速】9以上：\nユニオンバースト発動時に【烈風】＋１（最大99）\n20秒ごとに物理/魔法与ダメアップフィールド展開\n（【烈風】数×1％）\n=[Acceleration] 9 or higher: When Union Burst is activated, [Gale] stack is increased by 1 (Caps at 99).\nEvery 20s, deploy a Physical/Magic DMG UP Field\n(DMG +% is [Gale] x 1%).
+【加速】4以上：\nＴＰ上昇＋30\n重複可能の行動速度＋100％\n=[Acceleration] 4 or higher: TP Boost +30. Stackable +100% SPD Buff.
+【加速】15以上：\n9秒ごとにＴＰ1000回復\n=[Acceleration] 15+: Recover 1000 TP every 9s.
+ＴＰ回復や行動速度アップにより、キャラのスキルやユニ\nオンバーストの発動数が増加する\n=Increases UB and Skill usage with TP Recovery and Speed Buffs.
+
+
+【会心】=[Critical]
+【会心】9以上：\n物理/魔法クリティカル＋2000\n=[Critical] 9 or higher: Physical/Magic Crit Stat +2000.
+【会心】4以上：\n物理/魔法クリダメ＋100％\n=[Critical] 4 or higher: Physical/Magic Crit DMG +100%.
+【会心】15以上：\nクリティカルヒット時【看破】＋１（最大99）\n20秒ごとにランダムな敵１体に固定ダメージ×５回\n（毎回5万＋対象の【看破】数×5万ダメージ）\n=[Critical] 15 or higher: When you deal a critical hit, increase [Penetration] stack by +1 (caps at 99). Every 20s, deal damage 5 times to 1 random enemy.\n(Deals 50k + [Penetration] stack x 50k as dmg every hit).
+クリティカルや通常攻撃強化により、攻撃性能を強化する\n=Strengthen offensive power through Critical and Normal Attack Buffs.
+
+【弱体】=[Debuff]
+【弱体】9以上：\n敵への継続ダメージ＋1000％（最大50万ダメージ）\n=[Debuff] 9 or higher: Continuous DMG dealt to enemies +1000% (Caps at 500k dmg)
+【弱体】4以上：\n敵全体に黒炎付与（毎秒1万ダメージ、毎回5％ずつダ\nメージ上昇）\n=[Debuff] 4 or higher: Gives the "Black Flame" debuff to all enemies (10k DMG/s, increases by 5% each tick).
+【弱体】15以上：\n弱体効果数に応じて敵の被ダメアップ（対象の弱体効果数\n×50％、最大＋500％）\nさらに敵への継続ダメージ＋1000％（最大50万ダメージ）\n=[Debuff] 15 or higher: Increases DMG dealt to enemies based on the number of debuffs on them (+50% for each debuff, caps at +500%), additionally continuous DMG dealt to enemies +1000% (Caps at 500k dmg)
+敵に継続ダメージ系状態異常や弱体効果を付与し、敵を弱\n体化させる\n=Weakens the enemy by inflicting debuffs and continuous DMG.
+
+【強化】=[Enhancement]
+【強化】9以上：\nさらにバトル開始40秒後、物理/魔法攻撃力アップフィー\nルド展開（現在値＋50％）\nさらに敵へのダメージ減衰量緩和\n=[Enhancement] 9 or higher: Additionally, 40s after the battle start, deploy a Physical/Magic ATK Bonus Field (current value + 50%). Lowers enemy DMG Attenuation amount.
+【強化】4以上：\nバトル開始20秒後、物理/魔法攻撃力アップフィールド展\n開（現在値＋30％）\n敵へのダメージ減衰量緩和\n=[Enhancement] 4 or higher: 20s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 30%). Lowers enemy DMG Attenuation amount.
+【強化】15以上：\nさらにバトル開始60秒後、物理/魔法攻撃力アップフィールド展開（現在値＋70％）\nさらに敵へのダメージ減衰量緩和\n=[Enhancement] 15 or higher: 60s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 70%). Lowers enemy DMG Attenuation amount.
+攻撃力や防御力アップのバフ効果を用いて、キャラを強化\nする\n=Strengthen your characters with ATK and DEF buffs.
+
+【守備】=[Defense]
+【守備】9以上：\n15秒ごとに前から敵１体に物理と魔法固定ダメージ\n（味方全体の現在ＨＰ合計×200ダメージ）\n=[Defense] 9 or higher: Every 15s, deals Fixed Physical and Magic DMG to an enemy.\n(Current HP Total of All Allies x 200 as dmg).
+【守備】4以上：\n全ダメージ33％カット\n=[Defense] 4 or higher: Reduce all damage you receive by 33%
+【守備】15以上：\n15秒ごとに物理/魔法与ダメアップフィールド展開\n（味方全体の現在ＨＰ合計×0.0001％、最大200％）\n=[Defense] 15 or higher: Every 15s, deploy a Physical/Magic DMG Bonus Field (Current HP Total of All Allies x 0.0001%, caps at 200%).
+ＨＰアップやバリア展開により、耐久性能を強化する\n=Strengthen your team's durability with HP Buffs and Barriers.
+
+迷宮遺物詳細=Labyrinth Relic Details
+【美⾷殿】と共に迷宮を冒険する\nための遺物。王家の装備を精巧に\n模しており、味方の⾝体能⼒を⼤\nきく向上させてくれる。=A relic for exploring the labyrinth with Gourmet Guild. It imitates the royal family's equipment in great detail, greatly improving the physical abilities of your allies.
+【トゥインクルウィッシュ】と共\nに迷宮を冒険するための遺物。\n３人のアストラルに呼応して、属\n性の力を増幅させてくれる。=A relic for exploring the labyrinth with Twinkle Wish. It responds to the wishes of the 3 Astrals, greatly increasing your elemental power.
+【サレンディア救護院】と共に迷\n宮を冒険するための遺物。主人が\n築いた信頼関係のおかげで、商品\nの価格を値引きしてもらえる。=A relic for exploring the labyrinth with Sarendia Orphanage. Thanks to the trust you've built with them, prices of items in the store gets a discount.
+【王宮騎士団】と共に迷宮を冒険\nするための遺物。団長の愛⽤品を\n模し会⼼率と引き換えに、会⼼時\nの威⼒を⾼めてくれる。=A relic for exploring the labyrinth with NIGHTMARE. It imitates the boss's favorite item, enhances the DMG you deal with Crit Hits in exchange for Crit Rate.
+【ラビリンス】と共に迷宮を冒険\nするための遺物。迷宮女王はその\n権能でナイトがどこに居ようとも\n即座に参戦してくれる。=A relic for exploring the labyrinth with Labyrinth. With the authority of the Labyrinth Queen, she'll join her Knight no matter where he is.
+
+
+仲間=Allies
+インベントリ=Inventory
+迷宮遺物=Labyrinth Relic
+
+Difficulty Details
+難易度詳細=Diff Details
+防御力（ダウン不可）アップ=Defense Up (Can't Be Reduced) 
+すべてのモンスターの物理/魔法防御力をアップさせ\nる。この効果は物理/魔法防御力ダウンの影響を受け\nない。=Increases all monsters' Physical/Magic Defense. This effect is unaffected by Physical/Magic Defense Down.
+全ダメージカット=All DMG Cut
+すべてのモンスターが受けるダメージを一定値カッ\nトさせる。=Reduces all DMG received by all monsters.
+与ダメージアップ=DMG Dealt Bonus
+すべてのモンスターの与えるダメージをアップさせ\nる。=Increases damage dealt by all monsters.
+防御力アップ=Defense Up
+すべてのモンスターの物理/魔法防御力をアップさせ\nる。=Increases all monster's Physical/Magic Defense.
+クリティカルダウン=Critical Down
+すべてのキャラの物理/魔法クリティカルをダウンさ\nせる。=Lowers all allies' Physical/Magic Critical Stat.
+すべてのキャラのＨＰ吸収をダウンさせる。=Lowers all allies' HP Drain.
+
+すべてのモンスターの物理/魔法防御力をアップさせ\nる。=Increases all monster's Physical/Magic Defense.
+与ダメージアップ=DMG Dealt Bonus
+すべてのモンスターの与えるダメージをアップさせ\nる。=Increases damage dealt by all monsters.
+全ダメージカット=All DMG Cut
+すべてのモンスターが受けるダメージを一定値カッ\nトさせる。=Reduces all DMG received by all monsters.
+防御力（ダウン不可）アップ=Defense Up (Can't Be Reduced) 
+すべてのモンスターの物理/魔法防御力をアップさせ\nる。この効果は物理/魔法防御力ダウンの影響を受け\nない。=Increases all monsters' Physical/Magic Defense. This effect is unaffected by Physical/Magic Defense Down.
+クリティカルダウン=Critical Down
+すべてのキャラの物理/魔法クリティカルをダウンさ\nせる。=Lowers all allies' Physical/Magic Critical Stat.
+
+エリア=Area
+　 撤退する\n （報酬なし）=　 Retreat (w/o rewards)
+　 帰還する\n （報酬あり）=　 Return (w/ rewards)
+勧誘する=Recruit
+選択したキャラを仲間に勧誘します。=Recruit the selected character into your party.
+以下のキャラが仲間に加わりました。=The following characters have joined your party.
+キャラ加入=Character Joined
+このマスには移動できません。=You can't move to this tile.
+バトルマス（NORMAL）に移動します。\nよろしいですか？=Move to Battle Tile (NORMAL)?
+移動先確認=Destination Confirmation
+バトルマス=Battle Tile
+マップを見る=Check Map
+物理・魔法防御下限=Physical/Magic Defense Limit
+
+コネクトサインマスに移動します。\nよろしいですか？=Move to Connect Sign Tile?
+イベントマスに移動します。\nよろしいですか？=Move to Event Tile?
+迷宮遺物マスに移動します。\nよろしいですか？=Move to Labyrinth Relic Tile?
+火属性のランダムサイン\n=Fire Element Random Sign
+光属性のランダムサイン\n=Light Element Random Sign
+闇属性のランダムサイン\n=Dark Element Random Sign
+風属性のランダムサイン\n=Wind Element Random Sign
+水属性のランダムサイン\n=Water Element Random Sign
+
+獲得するコネクトサインを選択してください。=Select a Connect Sign to obtain.
+獲得可能なキャラがいません。=No characters are available.
+勧誘可能キャラ一覧=List of Recruitable Characters
+このコネクトサインでは以下のキャラが勧誘できます。=You can recruit the following characters:
+
+獲得する迷宮遺物を選択してください。=Select a Labyrinth Relic to obtain.
+
+50％で★2迷宮遺物×1\n50％で★3迷宮遺物=50% for ★2 Labyrinth Relic x1.\n50% for ★3 Labyrinth Relic.
+用心して近づきましょう=Approach carefully
+2,000消費=Consume 2,000
+50％でランダムなロールの\nセレクトサイン×1\n50％でオールセレクトサイン=50% Random Role Select Sign x1.\n50% All Select Sign.
+
+触っても\n大丈夫かな……？=I wonder if it's okay to touch it...?
+不思議な石板を発見！どうする？=We found a strange stone slate! What should we do?
+
+勧誘できるキャラがいません。=There is no character I can recruit.
+秘宝を所持していません。=You don't have any treasure in your possession.
+加入しているキャラがいません。=There are no characters in this party.
+
+現在の状況=Current Situation
+バトルマス（EXTREME）に移動します。\nよろしいですか？=Move to Battle Tile (EXTREME)?
+
+ラビリンスパスポートは返却されます。=Labyrinth Passport will be returned.
+ラビリンスパスポート=Labyrinth Passport
+報酬を獲得せず挑戦を終了します。\n\nよろしいですか？=Complete the challenge without a reward?
+終了確認=End Confirmation
+
+現在の挑戦を終了し、獲得済みの報酬を持ち帰ります。\n\nよろしいですか？=Finish your current challenge and return with the current rewards you have earned?
+
+
+ショップマスに移動します。\nよろしいですか？=Move to Shop Tile?
+300で更新=300 to Reroll
+
+ブレイカーロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Breaker Role.
+ブレイカーロールのランダムサイン=Breaker Role Random Sign
+バッファーロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Buffer Role.
+バッファーロールのランダムサイン=Buffer Role Random Sign
+タンクロールのキャラからラ\nンダムに1人仲間にできる。=You can get 1 random person from the characters in the Tank Role.
+タンクロールのランダムサイン=Tank Role Random Sign
+ヒーラーロールのキャラから\nランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Healer Role.
+ヒーラーロールのランダムサイン=Healer Role Random Sign
+デバッファーロールのキャラ\nからランダムに1人仲間にで\nきる。=You can get 1 random person from the characters in the Debuffer Role.
+デバッファーロールのランダムサイン=Debuffer Role Random Sign
+ジャマーロールのキャラから\nランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Jammer Role.
+ジャマーロールのランダムサイン=Jammer Role Random Sign
+ブースターロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Booster Role.
+ブースターロールのランダムサイン=Booster Role Random Sign
+
+ショップから退出します。\n\nよろしいですか？=Leave the shop?
+一度退出すると入り直すことはできません。=Cannot reenter after leaving.
+ショップ確認=Shop Confirmation
+ボスバトルマスに移動します。\nよろしいですか？=Move to Boss Battle Tile?
+ボスバトルマス=Boss Battle Tile
+守備=Defense
+加速=Acceleration
+会心=Critical
+
+アルファルピでアイテムを購入することができます。=You can purchase items using Alpha Rupies.
+所持アルファルピ=Alpha Rupies Held
+
+必要アルファルピ=Alpha Rupies Needed
+アルファルピを消費してラインナップを更新しますか？=Would you like to use Alpha Rupies to Reroll?
+更新確認=Reroll Confirmation
+600で更新=Reroll with 600
+
+
+シリーズ効果が発動していません。=Series effect has not been activated.
+シリーズ効果一覧=List of Series Effects
+未編成のパーティがあっても挑戦できます。=Even if you have an unorganized party, you can still challenge them.
+リタイアするとバトル前の状態に戻ります。\n\nよろしいですか？=Retire and return to the pre-battle state?
+
+クリアスコア=Clear Score
+迷宮遺物獲得スコア=Labyrinth Relic Acquired Score
+キャラ加入スコア=Character Join Score
+踏破スコア=Traversal Score
+獲得した迷宮遺物=Obtained Labyrinth Relics
+加入したキャラ=Characters Recruited
+獲得上限に達しました。=You've reached the limit.
+獲得ラビリンスコイン=Acquired Labyrinth Coin
+獲得アルファシャード=Acquired Alpha Shard
+獲得ラビリンストークン=Acquired Labyrinth Token
+宝箱開封結果=Chest Opening Results
+迷宮から持ち帰った宝箱を開封しました。=You opened the chest you've brought back from the labyrinth.
+
+ラビリンスコイン=Labyrinth Coin
+難易度解放=Difficulty Unlocked
+
+貴方と冒険すること=An adventure with you.
+
+解放可能地点へ=To the release point
+まとめて解放=Unlock
+
+時には、迷宮攻略に詰まってしまう……なーんてこともあるかも。\nそんなときは、アルファ強化を試してみようか。解放したノードに応じて\nラビリンス内での恩恵が得られるよ～？　どーんどん解放しちゃおう！=Sometimes... you'll be stuck while trying to clear the labyrinth. If that's the case, why not try the Alpha Enhancement? The nodes you unlocked will give benefits inside the labyrinth, you know? So let's keep unlocking nodes!
+所持アルファシャード=Alpha Shard Held
+消費アルファシャード=Alpha Shard Consumed
+選択したノードの詳細です。\n未解放の前提ノードは自動で解放されます。=Details of the selected nodes. Unlocked nodes will automatically be unlocked.
+
+挑戦中は難易度を変更できません。=Cannot change difficulty during the challenge.
+
+ブースターロールのキャラか\nら1人選んで仲間にできる。=You can choose 1 character from the Booster Role as your ally.
+ブースターロールのセレクトサイン=Booster Role Select Sign
+バッファーロールのキャラか\nら1人選んで仲間にできる。=You can choose 1 character from the Buffer Role as your ally.
+バッファーロールのセレクトサイン=Buffer Role Select Sign
+ヒーラーロールのキャラから\n1人選んで仲間にできる。=You can choose 1 character from the Healer Role as your ally.
+ヒーラーロールのセレクトサイン=Healer Role Select Sign
+
+ラビリンストークンが不足しています。=Not enough Labyrinth Token.
+この報酬は受け取り済みです。=You've already received this reward.
+
+全ギルド=All Guilds
+対象のギルドがありません。=There is no guild for the target.
+パスポート=Passport
+スキップ可能ギルド一覧=List of Skipable Guilds
+1ギルドあたりの\n使用パスポート数=Passports per Guild
