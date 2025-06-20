@@ -32,17 +32,17 @@ tutorial laby
 ラビリンス内で拾った迷宮遺物は、専用の図鑑に登録されていくからね。\n未発見の遺物を入手した際はご褒美をあげちゃうよ！　あ、でも、図鑑を\n埋めるのに執心しすぎて攻略がお留守にならないよう注意、だけどね！=Any labyrinth relic you pick up in Labyrinth will be registered in your own personal guide. You'll get a reward for every unobtained relic you get! Oh, but don't get too focused on them and ends up neglecting your quests!
 
 
-難易度ボーナス ×1.2=Diff Bonus x1.2
-難易度2=Diff 2
 難易度ボーナス ×1.0=Diff Bonus x1.0
-難易度1=Diff 1
-特殊効果なし=No effect
-難易度3=Diff 3
+難易度ボーナス ×1.2=Diff Bonus x1.2
 難易度ボーナス ×1.4=Diff Bonus x1.4
-難易度4=Diff 4
 難易度ボーナス ×1.7=Diff Bonus x1.7
-難易度5=Diff 5
 難易度ボーナス ×2.0=Diff Bonus x2.0
+特殊効果なし=No effect
+難易度1=Diff 1
+難易度2=Diff 2
+難易度3=Diff 3
+難易度4=Diff 4
+難易度5=Diff 5
 まだ解放されていない難易度です。=This difficulty has yet to be unlocked.
 累計=Total
 同行するギルドを選択してください。=Select a guild to accompany you.
@@ -240,7 +240,12 @@ Difficulty Details
 
 
 ショップマスに移動します。\nよろしいですか？=Move to Shop Tile?
-300で更新=300 to Reroll
+r:"^(\d+)で更新$"=$1 to Reroll
+
+
+必要アルファルピ=Alpha Rupies Needed
+アルファルピを消費してラインナップを更新しますか？=Would you like to use Alpha Rupies to Reroll?
+更新確認=Reroll Confirmation
 
 ブレイカーロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Breaker Role.
 ブレイカーロールのランダムサイン=Breaker Role Random Sign
@@ -269,10 +274,6 @@ Difficulty Details
 アルファルピでアイテムを購入することができます。=You can purchase items using Alpha Rupies.
 所持アルファルピ=Alpha Rupies Held
 
-必要アルファルピ=Alpha Rupies Needed
-アルファルピを消費してラインナップを更新しますか？=Would you like to use Alpha Rupies to Reroll?
-更新確認=Reroll Confirmation
-600で更新=Reroll with 600
 
 
 シリーズ効果が発動していません。=Series effect has not been activated.

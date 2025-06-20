@@ -34,6 +34,8 @@
 クウカの緊縛触手活け造り=Kuuka's Binding Live Octopus
 クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
 ジータのグリルド・グラッジチャンク=Djeeta's Grilled Grudge Chunk
+グレイスの目ん玉飛び出るカップケーキ=Grace's Eye-Popping Cupcake
+ホウオウの食べる権利をあげます！饅頭="I'll Allow You To Eat Ho-oh!" Manjuu  
 
 アキノのゲヘニアンチキンプレート=Akino's Gehennian Chicken Platter
 ユイの栄養満点まごころ弁当=Yui's Nutritious Heartfelt Bento
@@ -51,11 +53,13 @@
 ワカナの節約腹八分目カレー=Wakana's Properly Portioned Curry
 アンナの煉獄蕃茄煮混沌卵=Anna's Infernal Tomato Stew with Chaotic Eggs
 ミソラの\n気まぐれ味噌ラーメン★=Misora's Whimsical Miso Ramen★
+ソノの今日は特別ご褒美オムライス=Sono's Special Treat Omurice
 
 ---Dish effects---
 ---Red---
 次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice this turn and move as many tiles as their sum.
 次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 this turn. The turn counter will not increase.
+このターンに振るダイスの目が必ず「1」にな\nる。さらに、次のターン数のカウントをスキップ\nする。=You will roll a guaranteed 1 this turn. The turn counter will not increase.
 次に振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 2 this turn. The turn counter will not increase.
 次に振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 3 this turn. The turn counter will not increase.
 次に振るダイスの目が必ず「2」になる。=You will roll a guaranteed 2 this turn.
@@ -80,6 +84,9 @@ r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」�
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Movement] category food next turn, earn 2,000 miles on the spot.[-]
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「6」に、その次に振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 3 the turn after.[-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「12」に、次とさらに\nその次のターンに振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] You will roll a guaranteed 12 this turn. Then, a guaranteed 1 for the next 2 turns. [-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「8」に、次のターン\nに振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
+
 次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.
 次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 this turn.\nThe turn count will be skipped.
 マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You will skip Mile Tiles when moving. This effect lasts for 2 turns.
@@ -240,7 +247,12 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 
 ミソラが作ったラーメン。適当に言った好きな物をランファが憶えていたために、材料を用意され仕方なく作ったものだが味はイイコト級の一品。美味しそうに食べられるのは嫌いではない様子。=A bowl of ramen made by Misora. Ranpha remembered an offhand comment Misora made about her favorite food and procured the ingredients, leaving Misora with no choice but to make it. Against all odds, the dish turned out to be delicious. She doesn’t seem to mind seeing others eating it so enthusiastically.  
 
-ナーナ=Nana
+ソノが作ったオムライス。イロハの大好物であり\n家庭の味。普段は面倒くさがりやらないがイロハ\nが良い子の時はケチャップでクワガタを描いて\nあげている。その時は普段より美味しいらしい。=Some Omurice made by Sono, a homey dish that Iroha adores. It's a pain to do, so she normally skips it, but if Iroha has been a very good girl: she will draw a stag beetle on it using ketchup. Apparently, it becomes even tastier when she does this.
+
+ジオ・ゲヘナの空の覇者にして煉華のホウオウが\n己への信仰心を集めるべく作らせたお菓子。中の\n餡はしっとり甘く、上品な味わい。ジオ・ゲヘナ\n銘菓の名を恣にする日も近い、かもしれない。=A confection created by Geo Gehenna's ruler of the skies: The Kaleido Phoenix, Ho-oh!.. in an attempt to inspire others' faith in her. The bean paste inside is moist, sweet, and has a refined flavor. The day when Geo Gehenna's greatest dessert is known to all may soon be upon us.
+
+
+ナーナ=Naana
 出たダイスの目が奇数だった場合、\nライバルを1ターン休みにできる=If the die has an odd number of eyes, you can take a turn off your rival
 【仲間】出たダイスの目が奇数だった場合、ライバルを1ターン休みにできる=[Friend] If the dice roll is an odd number, you can give your rival one turn off.
 
