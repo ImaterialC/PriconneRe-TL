@@ -6,7 +6,8 @@
 挑戦中、ショップに並ぶアイテムの価格が[-][FFBB00,CE4F00]25％OFF[-][3C404E]になる=During your Labyrinth attempt, the price of items\nlined up in the shop will be [-][FFBB00,CE4F00]25％OFF[-][3C404E].
 「アルファルピ」を使用して購入するショップのみ有効=Only effective on shops that accepts\nAlpha Rupees.
 
-アルファルピショップ割引=Alpha Rupies Shop Discount
+アルファルピショップ割引=Alpha Rupees Shop Discount
+
 
 挑戦開始時、選択したギルドに応じた[-][FFBB00,CE4F00]迷宮遺物[-][3C404E]を追加獲得できる=At the start of your Labyrinth attempt, obtain an additional [-][FFBB00,CE4F00]Labyrinth Relics[-][3C404E].
 挑戦開始時の迷宮遺物追加=Additional Labyrinth Relic at the Start.
