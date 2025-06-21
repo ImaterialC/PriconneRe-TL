@@ -8,21 +8,31 @@ chris & matsuri encounter
 
 GMA encounter
 ギルド管理協会です！どんなお仲間をお探しですか？=It's the GMA, what kind of ally are you looking for?
-バッファーロールの\nランダムサイン×2\n＋アルファルピ=Random Buffer Role Sign x2 + Alpha Rupies
+バッファーロールの\nランダムサイン×2\n＋アルファルピ=Random Buffer\nRole Charas x2\n+Alpha Rupies
 バッファーを\n仲間にしたい！=I want a Buffer ally!
-ブースターロールの\nランダムサイン×2\n＋アルファルピ=Random Booster Role Sign x2 + Alpha Rupies
+ブースターロールの\nランダムサイン×2\n＋アルファルピ=Random Booster\nRole Charas x2\n+Alpha Rupies
 ブースターを\n仲間にしたい！=I want a Booster ally!
-ブレイカーロールの\nランダムサイン×2\n＋アルファルピ=Random Breaker Role Sign x2 + Alpha Rupies
+ブレイカーロールの\nランダムサイン×2\n＋アルファルピ=Random Breaker\nRole Charas x2\n+Alpha Rupies
 ブレイカーを\n仲間にしたい！=I want a Breaker ally!
-アタッカーロールの\nランダムサイン×2\n＋アルファルピ=Random Attacker Role Sign x2 + Alpha Rupees
+アタッカーロールの\nランダムサイン×2\n＋アルファルピ=Random Attacker\nRole Charas x2\n+Alpha Rupees
+アタッカーを\n仲間にしたい！=I want an\nAttacker ally!
 
-アタッカーを\n仲間にしたい！=I want an Attacker ally!
+タンクロールの\nランダムサイン×2\n＋アルファルピ=Random Tank\nRole Charas x2\n+Alpha Rupees
+タンクを\n仲間にしたい！=I want a\nTank ally!
+ヒーラーロールの\nランダムサイン×2\n＋アルファルピ=Random Healer\nRole Charas x2\n+Alpha Rupees
+ヒーラーを\n仲間にしたい！=I want a\nHealer ally!
+
+ジャマーロールの\nランダムサイン×2\n＋アルファルピ=Random Jammer\nRole Charas x2\n+Alpha Rupees
+ジャマーを\n仲間にしたい！=I want a\nJammer ally!
+デバッファーロールの\nランダムサイン×2\n＋アルファルピ=Random Debuffer\nRole Charas x2\n+Alpha Rupees
+デバッファーを\n仲間にしたい！=I want a\nDebuffer ally!
+
 
 jun tomo
 イベント会場に魔物=Monsters in the event hall
-ジュンが仲間になる\n＋オールランダムサイン×2～4=Jun joins as an ally + All Random Sign x2~4
-ここは私たちに\n任せて！=Leave it to us!
-ミクマ流の\n剣技にかけて！=I swear by the Mikuma-style!
+ジュンが仲間になる\n＋オールランダムサイン×2～4=Jun joins as an ally\n+All Random Chara x2~4
+ここは私たちに\n任せて！=Leave it\nto us!
+ミクマ流の\n剣技にかけて！=I swear by\nthe Mikuma-style!
 
 ruka fishing
 釣りスポットを発見！=Found a fishing spot!
@@ -36,10 +46,10 @@ ruka fishing
 peco picnic
 絶好のピクニック日和だ！=Perfect weather for a picnic!
 50％で次のイベントへ=50% to enter the next event.
-みんなで\n料理を作りましょう☆=Let's all cook together☆
-まだまだ\n食べ足りません☆=I still haven't eaten enough☆
-ランダムなロールの\nランダムサイン=Random Role Sign
-それくらいで\nいいんじゃない？=Isn't that much food enough?
+みんなで\n料理を作りましょう☆=Let's all\ncook together☆
+まだまだ\n食べ足りません☆=I still haven't\neaten enough☆
+ランダムなロールの\nランダムサイン=Random Role\nCharater
+それくらいで\nいいんじゃない？=Isn't that\nmuch food enough?
 料理ができた！でも、まだ材料はあるぞ！=The food's done, but I still have the ingredients left!
 
 Akisaren

@@ -1,4 +1,5 @@
 黎明界ラビリンス=Dawn Realm Labyrinth
+黎明界ラビリンスβ=Dawn Realm Labyrinth β
 黎明界ラビリンスβに挑戦しよう=Let's challenge Dawn Realm Labyrinth β
 
 所持パスポート=Passport
@@ -60,10 +61,10 @@ tutorial laby
 宝箱からは以下を含む報酬が抽選されます。=Rewards including the following will be drawn from the chest.
 挑戦開始時に以下のアイテムが獲得できます。=The following items can be obtained at the start of the challenge:
 
-【トゥインクルウィッシュ】のセレクト\nサイン=Twinkle Wish Select Sign
-【美食殿】のセレクトサイン=Gourmet Guild Select Sign 
-【王宮騎士団（NIGHTMARE）】のセ\nレクトサイン=NIGHTMARE Select Sign
-【ラビリンス】のセレクトサイン=Labyrinth Select Sign
+【トゥインクルウィッシュ】のセレクト\nサイン=Twinkle Wish Charas Select
+【美食殿】のセレクトサイン=Gourmet Charas Select
+【王宮騎士団（NIGHTMARE）】のセ\nレクトサイン=Nightmare Charas Select
+【ラビリンス】のセレクトサイン=Labyrinth Charas Select
 
 黎明光環アルファドミナント=Dawn Light Ring Alpha Dominant
 黎明風環アルファドミナント=Dawn Wind Ring Alpha Dominant
@@ -92,7 +93,7 @@ tutorial laby
 黎明火飾アルファグローリー=Dawn Fire Alpha Glory Decoration
 
 サレンディアエンゲージ=Sarendia Engage
-【サレンディア救護院】のセレクトサイ\nン=Sarendia Orphanage Select Sign
+【サレンディア救護院】のセレクトサイ\nン=Sarendia Orphanage Charas Select
 
 ナイツオブフェイス=Nights of Face
 
@@ -203,11 +204,11 @@ Difficulty Details
 コネクトサインマスに移動します。\nよろしいですか？=Move to Connect Sign Tile?
 イベントマスに移動します。\nよろしいですか？=Move to Event Tile?
 迷宮遺物マスに移動します。\nよろしいですか？=Move to Labyrinth Relic Tile?
-火属性のランダムサイン\n=Fire Element Random Sign
-光属性のランダムサイン\n=Light Element Random Sign
-闇属性のランダムサイン\n=Dark Element Random Sign
-風属性のランダムサイン\n=Wind Element Random Sign
-水属性のランダムサイン\n=Water Element Random Sign
+火属性のランダムサイン\n=Fire Element Random Chara
+光属性のランダムサイン\n=Light Element Random Chara
+闇属性のランダムサイン\n=Dark Element Random Chara
+風属性のランダムサイン\n=Wind Element Random Chara
+水属性のランダムサイン\n=Water Element Random Chara
 
 獲得するコネクトサインを選択してください。=Select a Connect Sign to obtain.
 獲得可能なキャラがいません。=No characters are available.
@@ -218,8 +219,7 @@ Difficulty Details
 
 50％で★2迷宮遺物×1\n50％で★3迷宮遺物=50% for ★2 Labyrinth Relic x1.\n50% for ★3 Labyrinth Relic.
 用心して近づきましょう=Approach carefully
-2,000消費=Consume 2,000
-50％でランダムなロールの\nセレクトサイン×1\n50％でオールセレクトサイン=50% Random Role Select Sign x1.\n50% All Select Sign.
+50％でランダムなロールの\nセレクトサイン×1\n50％でオールセレクトサイン=50% Random Role Chara Select x1.\n50% All Chara Select.
 
 触っても\n大丈夫かな……？=I wonder if it's okay to touch it...?
 不思議な石板を発見！どうする？=We found a strange stone slate! What should we do?
@@ -247,20 +247,22 @@ r:"^(\d+)で更新$"=$1 to Reroll
 アルファルピを消費してラインナップを更新しますか？=Would you like to use Alpha Rupies to Reroll?
 更新確認=Reroll Confirmation
 
+アタッカーロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Attacker Role.
+アタッカーロールのランダムサイン=Attacker Role Random Chara
 ブレイカーロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Breaker Role.
-ブレイカーロールのランダムサイン=Breaker Role Random Sign
+ブレイカーロールのランダムサイン=Breaker Role Random Chara
 バッファーロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Buffer Role.
-バッファーロールのランダムサイン=Buffer Role Random Sign
+バッファーロールのランダムサイン=Buffer Role Random Chara
 タンクロールのキャラからラ\nンダムに1人仲間にできる。=You can get 1 random person from the characters in the Tank Role.
-タンクロールのランダムサイン=Tank Role Random Sign
+タンクロールのランダムサイン=Tank Role Random Chara
 ヒーラーロールのキャラから\nランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Healer Role.
-ヒーラーロールのランダムサイン=Healer Role Random Sign
+ヒーラーロールのランダムサイン=Healer Role Random Chara
 デバッファーロールのキャラ\nからランダムに1人仲間にで\nきる。=You can get 1 random person from the characters in the Debuffer Role.
-デバッファーロールのランダムサイン=Debuffer Role Random Sign
+デバッファーロールのランダムサイン=Debuffer Role Random Chara
 ジャマーロールのキャラから\nランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Jammer Role.
-ジャマーロールのランダムサイン=Jammer Role Random Sign
+ジャマーロールのランダムサイン=Jammer Role Random Chara
 ブースターロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Booster Role.
-ブースターロールのランダムサイン=Booster Role Random Sign
+ブースターロールのランダムサイン=Booster Role Random Chara
 
 ショップから退出します。\n\nよろしいですか？=Leave the shop?
 一度退出すると入り直すことはできません。=Cannot reenter after leaving.
@@ -304,17 +306,28 @@ r:"^(\d+)で更新$"=$1 to Reroll
 
 時には、迷宮攻略に詰まってしまう……なーんてこともあるかも。\nそんなときは、アルファ強化を試してみようか。解放したノードに応じて\nラビリンス内での恩恵が得られるよ～？　どーんどん解放しちゃおう！=Sometimes... you'll be stuck while trying to clear the labyrinth. If that's the case, why not try the Alpha Enhancement? The nodes you unlocked will give benefits inside the labyrinth, you know? So let's keep unlocking nodes!
 所持アルファシャード=Alpha Shard Held
-消費アルファシャード=Alpha Shard Consumed
+消費アルファシャード=Alpha Shard Cost
 選択したノードの詳細です。\n未解放の前提ノードは自動で解放されます。=Details of the selected nodes. Unlocked nodes will automatically be unlocked.
 
 挑戦中は難易度を変更できません。=Cannot change difficulty during the challenge.
 
-ブースターロールのキャラか\nら1人選んで仲間にできる。=You can choose 1 character from the Booster Role as your ally.
-ブースターロールのセレクトサイン=Booster Role Select Sign
+アタッカーロールのキャラから\n1人選んで仲間にできる。=You can choose 1 character from the Attacker Role as your ally.
+アタッカーロールのセレクトサイン=Attacker Role Chara Select
+ブレイカーロールのキャラから\n1人選んで仲間にできる。=You can choose 1 character from the Breaker Role as your ally.
+ブレイカーロールのセレクトサイン=Breaker Role Chara Select
 バッファーロールのキャラか\nら1人選んで仲間にできる。=You can choose 1 character from the Buffer Role as your ally.
-バッファーロールのセレクトサイン=Buffer Role Select Sign
+バッファーロールのセレクトサイン=Buffer Role Chara Select
+タンクロールのキャラから\n1人選んで仲間にできる。=You can choose 1 character from the Tank Role as your ally.
+タンクロールのセレクトサイン=Tank Role Chara Select
 ヒーラーロールのキャラから\n1人選んで仲間にできる。=You can choose 1 character from the Healer Role as your ally.
-ヒーラーロールのセレクトサイン=Healer Role Select Sign
+ヒーラーロールのセレクトサイン=Healer Role Chara Select
+デバッファーロールのキャラから\n1人選んで仲間にできる。=You can choose 1 character from the Debuffer Role as your ally.
+デバッファーロールのセレクトサイン=Debuffer Role Chara Select
+ジャマーロールのキャラから\n1人選んで仲間にできる。=You can choose 1 character from the Jammer Role as your ally.
+ジャマーロールのセレクトサイン=Jammer Role Chara Select
+ブースターロールのキャラか\nら1人選んで仲間にできる。=You can choose 1 character from the Booster Role as your ally.
+ブースターロールのセレクトサイン=Booster Role Chara Select
+
 
 ラビリンストークンが不足しています。=Not enough Labyrinth Token.
 この報酬は受け取り済みです。=You've already received this reward.
@@ -324,3 +337,28 @@ r:"^(\d+)で更新$"=$1 to Reroll
 パスポート=Passport
 スキップ可能ギルド一覧=List of Skipable Guilds
 1ギルドあたりの\n使用パスポート数=Passports per Guild
+
+
+
+50％でアルファルピ×1500\n50％でアルファルピ=50%: Alpha Rupies×1500\n50%: Alpha Rupies
+ぷうきち\nフルスイ～ング☆=Pukichi\nFull Swing☆
+箱の中から声が聞こえる……=I can hear voices coming from inside the box...
+お兄ちゃん\nこっちですよ♪=Onii-chan\nover here♪
+弟くん\nこっちこっち♪=Lil brother\nover here♪
+★1～3迷宮遺物×１=★1~3 Labyrinth Relic x1
+r:"^現在：(\d+)$"=Current: $1
+ラビリンス内\n未加入=Inside\nLabyrinth\nNot Joined
+
+代償=Cost
+r:"^([0-9\,]+)消費$"=Consume $1
+r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベントへ$"=50%: Alpha Rupies×$1\nand to the next event.
+やってやるですよ！=I'll do it!
+スロットマシンだ！挑戦する？=It's a slot machine! Want to try it?
+今日はツイてるです！=I'm lucky today!
+挑戦終了=Challenge complete
+もうこの辺で……=Around here already...
+もう一勝負だ！=One more go!
+50％でアルファルピ=50%: Alpha Rupies
+今日のあたしは\n負け知らずです！=I'm not going\nto lose today!
+そろそろやめた方が……=Let's stop already...
+ラスト一発！=Last shot!

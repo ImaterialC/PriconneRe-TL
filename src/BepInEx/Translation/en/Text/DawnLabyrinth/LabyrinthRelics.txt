@@ -1,0 +1,243 @@
+## Relic Type Level ##
+【会心+1】=【Crit +1】
+【会心+2】=【Crit +2】
+【会心+3】=【Crit +3】
+【会心+5】=【Crit +5】
+
+【加速+1】=【Haste +1】
+【加速+2】=【Haste +2】
+【加速+3】=【Haste +3】
+【加速+5】=【Haste +5】
+
+【守備+1】=【Guard +1】
+【守備+2】=【Guard +2】
+【守備+3】=【Guard +3】
+【守備+5】=【Guard +5】
+
+【弱体+1】=【Debuff +1】
+【弱体+2】=【Debuff +2】
+【弱体+3】=【Debuff +3】
+【弱体+5】=【Debuff +5】
+
+【強化+1】=【Buff +1】
+【強化+2】=【Buff +2】
+【強化+3】=【Buff +3】
+【強化+5】=【Buff +5】
+
+## Effect ## 
+
+r:"^ダメージを受けるたびＴＰ(\d+)回復（最大(.)回）$"=►Recovers $1 TP when taking damage\n(Max $2 time(s))
+r:"^バトル開始時、物理/魔法攻撃力アップフィールド展開（現在値＋(\d+)％）$"=►At battle start, deploys P.ATK/M.ATK Boost Field\n(Current value +$1%)
+r:"^バトル開始時ＴＰ(\d+)回復$"=►Recovers $1 TP at battle start
+r:"^バフ強化＋(\d+)$"=►Buff Enhancement +$1
+r:"^回復強化＋(\d+)$"=►Recovery Enhancement +$1
+r:"^属性ボーナス＋(\d+)％$"=►Elemental Bonus +$1%
+r:"^敵の物理/魔法与ダメ－(\d+)％敵の物理/魔法被ダメ＋(\d+)％$"=►Enemy P.DMG/M.DMG dealt -$1%\n►Enemy P.DMG/M.DMG taken +$2%
+r:"^敵の物理/魔法攻撃力－(\d+)％$"=►Lowers enemies' P.ATK/M.ATK by $1%
+r:"^敵の物理/魔法被クリダメ＋(\d+)％$"=►Increases enemies' P.CRIT/M.CRIT DMG taken by $1%
+r:"^敵の物理/魔法防御力－(\d+)％$"=►Lowers enemies' P.DEF/M.DEF by $1%
+r:"^物理/魔法クリダメ＋(\d+)％$"=►P.CRIT/M.CRIT DMG +$1%
+
+r:"^物理/魔法攻撃力アップ（先頭キャラの物理防御力×(\d+)）$"=►Boosts P.ATK/M.ATK (Vanguard character's P.DEF ×$1)
+r:"^物理/魔法攻撃力アップ（先頭キャラの魔法防御力×(\d+)）$"=►Boosts P.ATK/M.ATK (Vanguard character's M.DEF ×$1)
+r:"^物理/魔法攻撃力＋(\d+)％$"=►P.ATK/M.ATK +$1%
+r:"^物理/魔法防御力＋(\d+)％$"=►P.DEF/M.DEF +$1%
+r:"^物理/魔法クリティカル＋(\d+)％$"=►Physical/Magic Critical +$1%
+r:"^状態異常命中＋(\d+)$"=►Status Ailment Accuracy +$1
+r:"^通常攻撃強化＋(\d+)$"=►Normal Attack Boost +$1
+r:"^通常攻撃強化＋(\d+)\nＨＰ吸収＋(\d+)$"=►Normal Attack Boost +$1\n►HP Absorption +$2
+r:"^重複可能の行動速度＋(\d+)％$"=►Stackable Action Speed +$1%
+r:"^ＨＰ吸収＋(\d+)$"=►HP Absorption +$1
+r:"^ＴＰ上昇＋(\d+)$"=►TP Boost +$1
+r:"^ＴＰ消費軽減＋(\d+)$"=►TP Cost Reduction +$1
+
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=►Continuous HP Recovery ([Guard] count ×1000 per second)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=►Continuous HP Recovery ([Guard] count ×$1 per second) (Current: $2)
+
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=►Continuous HP Recovery ([Guard] count ×$1 per second)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=►Continuous HP Recovery ([Guard] count ×$1 per second) (Current: $2)
+
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=►Continuous HP Recovery ([Guard] count ×$1 per second)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=►Continuous HP Recovery ([Guard] count ×$1 per second) (Current: $2)
+
+r:"^敵全体に毒付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）$"=►Poisons all enemies\n(Deals [Debuff] count ×$1 DMG per second)
+r:"^敵全体に毒付与（毎秒【\n?弱\n?体\n?】\n?数×(\d+)ダメージ）（\n?現\n?在\n?(\d+)個）$"=►Poisons all enemies ([Debuff] count ×$1 DMG per second) (Current: 0)
+
+r:"^敵全体に呪い付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）$"=►Curses all enemies\n(Deals [Debuff] count ×$1 DMG per second)
+r:"^敵全体に呪い付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）（\n?現\n?在\n?(\d+)個）$"=►Curses all enemies ([Debuff] count ×$1 DMG per second) (Current: $2)
+
+
+
+r:"^(\d+)秒ごとに物理無効バリア展開（【守備】数×(\d+)無効）（現在(\d+)個）$"=►Deploys Physical Null Barrier every $1s ([Guard] count ×$2 null) (Current: $3)
+r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効）（現在(\d+)個）$"=►Deploys Magic Null Barrier every $1s ([Guard] count ×$2 null) (Current: $3)
+
+r:"^(\d+)秒ごとに物理無効バリア展開（【守備】数×(\d+)無効）$"=►Deploys Physical Null Barrier every $1s\n(Nullifies [Guard] count ×$2)
+r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効）$"=►Deploys Magic Null Barrier every $1s\n(Nullifies [Guard] count ×$2)
+
+## Purchase ##
+r:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n以下のアイテムを購入しますか？\[-\]$"=[3C404E]Would you like to use [FFBB00,CE4F00]$1[-] Alpha Rupees to purchase these items?[-]
+sr:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)を購入しました。\[-\]$"=[3C404E]Spent [FFBB00,CE4F00]$1[-] Alpha Rupees to purchase [FFBB00,CE4F00]$2[-].
+アルファルピが不足しています。=Insufficient Alpha Rupees
+
+## Relic Name ##
+アブゾーブハチェット=Absorb Hatchet
+インヘイルアックス=Inhale Ax
+エレメントサージオーブ=Element Surge Orb
+オオトリノカタナ=Otorinokatana
+キラースピア=Killer Spear
+クリティカルアーク=Critical Arc
+クリーヴフィスト=Cleve Fist
+クレナイノタチ=Kurenainotachi
+シリーズなし=No series
+スカイストライク=Sky Strike
+ハナミノカタナ=Flower Viewing Katana
+フェイタリティ=Fatality
+ラプチャーガントレット=Rapture Gauntlet
+リーサルハルバード=Liesal Halberd
+再生ノ腕輪=Regenerative Bracelet
+冷玉の杖=Cold Ball Staff
+創世緑杖=Genesis Green Staff
+加速の玉飾り=Acceleration Ballade
+回生杖=Kaiseijou
+天戴冠のゼニスブレード=Zenith Blade
+崩刀ヤマツキ=Kuzuretou Yamatsuki
+幻獣飾テンタシオン=Phantom Beast Decoration Tentasion
+幽玄煌装・絶魔=Yugen Kouzou: Zema
+強化のジェム=Strengthening Gem
+影刃剣プラール=Shadowblade Sword Prar
+抗鉄のプレート=Anti-Iron Plate
+抗魔のドレス=Anti-Demon Dress
+斬赤刃ディバイド=Slash Red Blade Divide
+断刃拒絶のアルギュロス=Argyros the Decapitation Rejection
+断壁鎖刃フラグメント=Cut-off Chainblade Fragment
+星明りの儀杖=Starlit Ritual Staff
+星涙の輝盾=Star Teardrop Shining Shield
+暗剣ポワゾン=Dark Sword Poisson
+桜堅牢のコート=Sakura Robust Coat
+極醒のアミュレット=The Ultimate Amulet
+水蓮の盾=Suiren's Shield
+永天鏡の王笏=Eitenkyo no Oshaku
+泉湧命環・豊穣=Izumi-no-mikoto-kan: Bountiful Harvest
+流烈の耳飾り=Flowing Earring
+海宝華の煌盾=Sea Hokke no Shining Shield
+深淵蝕杖マリディクト=Abyssal Corrosion Staff Maridict
+滅刻凶刃ヴェノマス=Venomas the Destructive Blade
+炎王のグレートソード=The Great Sword of the Flame King
+熾天使の翔靴=Angel's Shoe
+燦然御纏アノラ・ベイラ=Sanzen Mimaro Anola Baila
+疾風の翼靴=Gale Wing Shoes
+白光輝鎧・断壁=White Radiance Armor: Severing Wall
+瞬閃蝶の月飾り=Flickering Butterfly Moon Ornament
+破守帽ディスペル=Barrier Breaker Hat Dispel
+碧貴石の聖輪=Azure Gem Holy Ring
+空命護珠=Sky Life Protection Jewel
+紅反鋼のアーマー=Crimson Rebuke Steel Armor
+紫晶ビザリオ=Amethyst Vizario
+緋華栄華のグラナート=Scarlet Splendor Granate
+緑護ノ盾輪=Emerald Protector Shield Ring
+聖減術のテラドレス=Sacred Reduction Terra Dress
+華舞玲瓏のハルナデシコ=Flower Dance Exquisite Pink
+蒼珠の腕輪=Azure Pearl Bracelet
+薔薇飾帽イレース=Rose-Adorned Hat Irace
+蛇紋のツルギ=Serpent-Patterned Sword
+覇光帝龍のグローリア=Tyrant Light Dragon's Gloria
+豊命輪=Abundant Life Ring
+輪廻ノ翡翠珠輪=Samsara Emerald Jewel Ring
+鉄防甲=Iron Defense Armor
+闇至宝アノマリーラ=Dark Treasure Anomalyra
+防守のメイル=Defender's Mail
+霜影虚装アビスモナーク=Frostshadow Voidgear Abyssmonarch
+青輝の環=Azure Radiance Ring
+風渡りの靴=Windstrider Boots
+風神の護風恩寵=Wind God's Favor
+魔封衣=Magic Seal Robe
+魔杖メジナエ=Magic Staff Mejinae
+魔護霊装=Demon Ward Garb
+進化のイヤリング=Earring of Evolution
+邪眼杖ドゥーム=Evil Eye Staff Doom
+妖精霊杖・癒光=Fairy Staff: Healing Light
+天命授環・伊邪那=Heaven's Blessing Ring: Izana
+セレスティアルエイジ=Celestial Age
+アースデストラクション=Earth Destruction
+
+## Relic Desc ##
+効果詳細=Effect Details
+迷宮内で見つかった槍。鋭い一撃で敵に深い傷を負わせる。=A spear found within the labyrinth. Its sharp strikes inflict deep wounds upon foes.
+迷宮内で見つかった刀。致命の攻撃を与えたときの威力を高める。=A blade unearthed from the labyrinth's depths. Amplifies the damage dealt by critical hits.
+迷宮内で見つかった籠手。強化された一撃を放つことができる。=Gauntlets discovered in the labyrinth. Empower the wearer's attacks with increased strength.
+迷宮内で⾒つかった⼸。装備すると致命の一射を与えやすくなる。=A bow found within the labyrinth. Enhances the likelihood of critical strikes when shooting.
+迷宮内で⾒つかったドレス。装備者の抗魔の才を攻撃⼒に換える。=A dress found within the labyrinth. Converts the wearer's magic resistance into attack power.
+迷宮内で見つかった大剣。装備者の攻撃力を強化する。=A greatsword found within the labyrinth. Enhances the wearer's attack power.
+迷宮内で⾒つかった杖。癒しの⼒を高めてくれる。=A staff found within the labyrinth. Boosts the potency of healing magic.
+迷宮内で見つかった指輪。装備者の生命力を強化する。=A ring found within the labyrinth. Increases the wearer's maximum health.
+迷宮内で見つかったローブ。装備者を魔法攻撃から守る。=A robe found within the labyrinth. Protects the wearer from magical attacks.
+迷宮内で見つかった腕輪。装備者に再生の力を与える。=A bracelet found within the labyrinth. Grants the wearer regenerative abilities.
+迷宮内部で発見された円盾の形をした遺物。装備者に星の癒しを与え攻撃をエネルギーに変換する。=A round shield-shaped relic discovered inside the labyrinth. Provides healing and converts damage taken into energy for the wearer.
+迷宮内部で発⾒された杖の遺物。封じられた星々の神秘が、力の消耗を肩代わりしてくれる。=A staff relic discovered inside the labyrinth. Reduces the mana consumption of the wearer's abilities, drawing upon the power of sealed stars.
+迷宮内部で発見された、翼の生えた靴形の遺物。装備した者に疾風の力を施し、行動を速める。=A relic in the form of winged shoes, found within the labyrinth. Grants the wearer swiftness, enhancing their speed in battle.
+迷宮内部で発⾒された、⾸飾りの遺物。宝⽯の輝きで敵を虜にし、怪異をもたらすという。=A necklace relic discovered inside the labyrinth. Enchants enemies with its dazzling gem, inflicting them with mysterious ailments.
+迷宮内部で発見された、杖の形をした遺物。杖先のコアから流れる邪気が敵に呪いを付与する。=A staff-shaped relic found within the labyrinth. Curses foes with the malevolent energy emanating from its core.
+迷宮内部で発見された、短剣の形をした遺物。刃に仕込まれた毒が気化し、接敵と共に毒を与える。=A dagger-shaped relic discovered inside the labyrinth. Releases toxic vapors from its blade, envenoming foes with each strike.
+迷宮内部で発見された、帽子の形をした遺物。絡みつく茨の様に、敵の攻撃力を阻害する。=A hat-shaped relic found within the labyrinth. Weakens adversaries' offensive capabilities, as if bound by thorny vines.
+迷宮内部で発見された、刀の形をした遺物。秋の紅を映す美しき刃は致命の攻撃をさらに強化する。=A sword-shaped relic discovered inside the labyrinth. Enhances the potency of critical hits, its blade as striking as autumn's crimson leaves.
+迷宮内部で発⾒された籠⼿の遺物。装備者は研ぎ澄まされた強力な一撃を放つことができる。=A gauntlet relic discovered inside the labyrinth. Empowers the wearer's strikes with refined, devastating force.
+迷宮内部で発⾒された斧の遺物。繰り出される⼀撃は、掠めるだけで獲物の魂を吸い取る。=An axe relic discovered inside the labyrinth. Drains the life essence of enemies with every hit, no matter how slight.
+迷宮内部で発⾒された、ドレスの遺物。精霊の加護が、防魔結界から力を集めてくれる。=A dress relic discovered inside the labyrinth. Harnesses the wearer's magic resistance to enhance their abilities.
+迷宮内部で発見された、大剣の形をした遺物。湧き出る炎の力が、攻撃の能力を大きく高める。=A greatsword-shaped relic found within the labyrinth. Imbues the wielder with fiery might, tremendously increasing their offensive strength.
+迷宮内部で発⾒された鎧の遺物。千年咲く桜の如く、盤石な堅牢さを装備者に与える。=An armor relic discovered inside the labyrinth. Bestows upon the wearer the resilience of an ancient cherry tree, greatly enhancing their defensive capabilities.
+迷宮内部で発⾒された杖の遺物。装備者に⼤樹の恵みを施し、治癒術の才覚を授けてくれる。=A staff relic discovered inside the labyrinth. Enhances the wearer's healing magic with the nurturing power of the great tree.
+迷宮内部で発見された、指輪の形をした遺物。装備者を天空の護りで包み込み生命力を増幅させる。=A ring-shaped relic found within the labyrinth. Shrouds the wearer in celestial guardianship, boosting their health and resilience.
+迷宮内部で発⾒された、ローブの遺物。神樹の蔦が織り込まれ、装備者を魔法から護る。=A robe relic discovered inside the labyrinth. Provides formidable magic defense, its fabric interlaced with sacred vines.
+迷宮内部で発⾒された、腕輪の遺物。溢れ出す⾃然の⼒は装備者に生命の息吹をもたらす。=A bracelet relic discovered inside the labyrinth. Infuses the wearer with vital energy, promoting rapid recovery and vigor.
+迷宮の奥深くに眠る宝石を飾った円盾。海のような青き魔力は装備者に庇護を与え、迫り来る脅威すらエネルギーへと昇華させる。=A gem-adorned round shield slumbering deep within the labyrinth. Shields the bearer with oceanic magic, turning harm into a source of power.
+迷宮の奥深くに眠る聖なる腕輪。失われた技術で装飾された宝石が装備者に加護を齎し、危機が迫ると膨大な力を分け与える。=A sacred bracelet slumbering deep within the labyrinth. Empowers the wearer with ancient might, especially when peril looms near.
+迷宮の奥深くに眠る、かつて天界に伝えられし杖。天にかざすと鏡⽟に篭められた祈りが溢れ出して尽きることなき力を授ける。=A staff slumbering deep within the labyrinth, once handed down from the celestial realms. Channels divine energy when lifted skyward, unleashing boundless magical prowess.
+迷宮の奥深くに眠る、幻獣を象る首飾り。この宝石の神秘に魅せられた者は、一切の異変や脅威に抗うことができなくなってしまう。=A necklace shaped like a mythical beast, slumbering deep within the labyrinth. Bewitches foes with its arcane allure, stripping them of their resistances.
+迷宮の奥深くに眠る、⽩⾦の鎧。⽩⻯の鱗を繋ぎ合わせた外装が盟友の力を集結させる効果を持ち強力無比な一撃を可能にする。=Platinum armor slumbering deep within the labyrinth. Harnesses the collective might of companions, unleashing devastating blows.
+迷宮の奥深くに眠る、栄華の象徴として仕立てられたドレス。深紅に咲き乱れる花の加護は、装備者の絶魔の⼒を攻撃⼒へ変換する。=A dress tailored as a symbol of glory, slumbering deep within the labyrinth. Transforms the wearer's magical resilience into offensive might, adorned with crimson floral motifs.
+迷宮の奥深くに眠る、光⿓の⼒を授かりし⼤剣。その⼀振りはかつての栄光の羽ばたきを想起させ、極限の覇気を世界に放つ。=A greatsword bestowed with the power of the light dragon, slumbering deep within the labyrinth. Wields the might of the light dragon, each swing a testament to bygone triumphs and overwhelming power.
+迷宮の奥深くに眠る、妖精の輝きを封じた杖。宝⽟から無限の⽣命⼒が溢れ出し、増幅された快癒の⼒であらゆる苦しみを取り除く。=A staff sealing the radiance of fairies, slumbering deep within the labyrinth. Channels fairy magic to provide boundless healing, curing even the gravest of wounds.
+迷宮の奥深くに眠る、翠緑に彩られた指輪。装備者に、かつて豊穣に溢れた楽園の光景を想起させ、際限なき⽣命⼒を与える。=A ring adorned with emerald green, slumbering deep within the labyrinth. Imbues the wearer with the endless vitality of a lost Eden, greatly enhancing their health.
+迷宮の奥深くに眠る、白金の輝きを放つ鎧。顕現する翅は、意思を持つかのよう、装備者に呼応して物理攻撃を断つ障壁を展開する。=Armor radiating platinum brilliance, slumbering deep within the labyrinth. Summons ethereal wings that shield the wearer from physical harm, as if guided by sentience.
+迷宮の奥深くに眠る、翠宝玉をあしらった腕輪。常に滾々とマナが湧き出し、生命力を湛え続ける。=A bracelet adorned with emerald gems, slumbering deep within the labyrinth. Bestows endless mana and vitality, its gems a wellspring of life and magic.
+迷宮の奥深くに眠っていた月を象る耳飾り。内部から発する魔力は装備者に蝶のような瞬麗さを授け活力加速を大きく上昇させる。=An earring shaped like the moon, slumbering deep within the labyrinth. Enhances the wearer's speed and grace, as if endowed with the fleetness of a butterfly.
+迷宮の奥深くに眠る、⼑⾝に鎖を這わせた妖⼑。主の意思に逆らい暴れる鎖が怨敵の守りを打ち崩し紫黒の凶刃が悉くを断ち斬る。=A cursed sword with chains crawling on its blade, slumbering deep within the labyrinth. A malevolent blade whose chains disrupt enemy guards, allowing its dark edge to cleave through any opposition.
+迷宮の奥深くに眠る、伝説に語られる極みの一振り。鳳凰の力を宿した真紅の刃は、焔の如き赫く激烈な一撃を与える。=The ultimate sword spoken of in legends, slumbering deep within the labyrinth. Wields the fiery might of the phoenix, each swing a blaze of legendary destruction.
+迷宮の奥深くに眠る、幽庵の煌きを宿す鎧。顕現する翅は、意思を持つかのよう、装備者に呼応して魔法攻撃を絶つ障壁を展開する。=Armor harboring the brilliance of seclusion, slumbering deep within the labyrinth. Conjures spectral wings that shield against magical assaults, attuned to the wearer's needs.
+迷宮の奥深くに眠る、月を蝕む杖存在するだけで、絶えず呪力の奔流を溢れさせ、近づく全ての敵を呪いで浸食していく。=A staff that eclipses the moon, slumbering deep within the labyrinth. Radiates an aura of malediction, cursing any adversary that draws near.
+迷宮の奥深くに眠る、東の国に伝わりし聖鎧。玉の様に透き通る輝きを放つ鎧は、装備者に華の加護を授け、守護の力を高める。=Sacred armor passed down in the eastern lands, slumbering deep within the labyrinth. Bestows the wearer with the protective grace of blooming flowers, its luster reminiscent of polished jade.
+迷宮の奥深くに眠る、炎天の魔力を封じた耳飾り。潜在能力を究極まで呼び覚まし、強化の力を大幅に上昇させる。=An earring sealing the magic of the blazing sky, slumbering deep within the labyrinth. Unleashes the wearer's hidden strengths, magnifying the impact of all augmentations.
+迷宮の奥深くに眠る、黒刃の刺剣刃に埋め込まれた宝玉が、絶え間なく邪毒を撒き散らし、破滅へと刻々と時を数える。=A black-bladed rapier slumbering deep within the labyrinth. Inflicts a creeping toxin upon foes, its blade a harbinger of inevitable doom.
+迷宮中枢部に隠された黎明の秘宝データ保管のため属性の⼒の断⽚が封じられており、内なるアストラルを著しく上昇させる。=A treasure of the dawn, hidden in the labyrinth's core. Augments the wearer's elemental affinities, drawing upon stored power from the dawn of time.
+迷宮内で⾒つかった鎧。同朋の強靭を、自身の攻撃に変換する。=Armor found within the labyrinth. Harnesses the durability of allies to bolster the wearer's offensive capabilities.
+迷宮内で⾒つかった靴。装備した者は迅速に動くことができる。=Shoes found within the labyrinth. Grant the wearer enhanced agility and quickness.
+迷宮内で見つかったイヤリング。装備者に活力加速を与える。=An earring found within the labyrinth. Boosts the wearer's energy, allowing for faster actions in battle.
+迷宮内で見つかった斧。攻撃と共に敵の体力を吸い取る力を宿す。=An axe found within the labyrinth. Steals life from foes with every blow, replenishing the wielder's own vitality.
+迷宮内で見つかった耳飾り。装備者の強化効果を高める。=An ear accessory found within the labyrinth. Intensifies the benefits of all buffs applied to the wearer.
+迷宮内で見つかった鎧。装備者を物理攻撃から守る。=Armor found within the labyrinth. Shields the wearer against physical harm.
+迷宮内で見つかった鎧。装備者の守りの力を高めることができる。=Armor found within the labyrinth. Bolsters the wearer's defenses.
+迷宮内部で発⾒された、⼑の遺物血で⾚く染まった⼑⾝で、敵の装甲をたやすく断ち割る。=A sword relic discovered inside the labyrinth. Rends through defenses with its crimson edge, as if armor were mere cloth.
+迷宮内部で発⾒された、⼸の遺物装備者は烈⾵の⼒を授かり、獲物の急所を貫きやすくなる。=A bow relic discovered inside the labyrinth. Enhances accuracy and critical strike probability, guided by tempestuous winds.
+迷宮内部で発⾒された、鎧の遺物紅き鋼の加護は、守備力を攻撃力へと変換する力を持つ。=An armor relic discovered inside the labyrinth. Transforms the wearer's defensive stats into additional attack power.
+迷宮内部で発⾒された腕輪の遺物あしらわれた蒼珠が、敵を感知し力を授ける。=A bracelet relic discovered inside the labyrinth. Alerts the wearer to nearby foes and empowers them accordingly.
+迷宮内部で発見された、槍の遺物特殊な形の穂先が、敵により深い傷を刻み込む。=A spear relic discovered inside the labyrinth. Deals grievous injuries with its distinctive design, ensuring each thrust is more lethal.
+迷宮内部で発見された、耳飾りの形をした遺物。魔石に込められた魔力が強化の力を増幅させる。=An earring-shaped relic discovered inside the labyrinth. Enhances the potency of all buffs, drawing from its enchanted gem.
+迷宮内部で発見された、鎧の形をした遺物。高度な技術で精錬された鋼は、物理攻撃から身を護る。=An armor-shaped relic discovered inside the labyrinth. Offers superior defense against physical blows, crafted with lost smithing arts.
+迷宮内部で発見された耳飾りの形をした遺物。流水の激しさのように、活力加速を増幅させる。=An earring-shaped relic discovered inside the labyrinth. Increases the wearer's speed, as swift and relentless as a raging river.
+迷宮深層部に静眠せし虚影の装衣深淵から出でし蝕影は、存在全てを霜雪の如く凍てつかせ、抗う敵の剣盾両翼を虚壊させる。=A garment of illusory shadows, slumbering quietly in the deep layers of the labyrinth. Cloaks the wearer in chilling shadows that immobilize and disarm foes with icy dread.
+迷宮深淵部に佇む歴戦無敗の⼤剣台座から剣を⼿にした者は天そのものを冠すかの如き全能感を得て千軍を容易く退ける剛⼒を得る。=The undefeated greatsword of many battles, standing in the abyssal depths of the labyrinth. Confers upon its wielder godlike power, making them invincible against any foe.
+迷宮最深部に残された久遠の遺物神代の大戦より聖騎士に脈々と受け継がれ、装備者へ戦いの記憶とともに不滅の力を分け与える。=An eternal relic left in the innermost part of the labyrinth. Imbues the wearer with the wisdom and might of legendary warriors, ensuring their legacy endures.
+迷宮最奥部に鎮祀されし神業の遺物。風を司る神々の恩寵が宿されており、装備者は無尽蔵の活力が疾風の如き速さで体を駆け巡る。=A divine relic enshrined in the deepest part of the labyrinth. Grants the wearer tireless energy and lightning-fast reflexes, as if blessed by the wind itself.
+迷宮最下層に供奉された伝承の環選ばれし者がひとたび⼿にすれば創造神話の如く、千万無量の⽣命⼒を齎すと云われる。=A ring of legend offered on the lowest level of the labyrinth. Confers upon the chosen wearer godlike vitality, as if they were a deity of life itself.
+迷宮内で見つかった円盾。受けた攻撃をエネルギーに変換できる。=A round shield found within the labyrinth. Transforms incoming blows into a source of power for the wielder.
+迷宮内で見つかった腕輪。戦いの始まりとともに、装備者にエネルギーを与える。=A bracelet found within the labyrinth. Energizes the wearer as battle commences, ensuring they are ready for the fray.
+迷宮内で⾒つかった杖。装備者に力を温存させる効果をもたらす。=A staff found within the labyrinth. Helps the wielder preserve their magical reserves, making spells more efficient.
+迷宮内で見つかった刀。敵の守りを断ち崩す力がある。=A sword found within the labyrinth. Cuts through defenses with ease, leaving foes vulnerable.
+迷宮内で見つかった帽子。装備すると敵の攻撃を弱体させる。=A hat found within the labyrinth. Dampens the force of adversarial strikes, protecting the wearer.
+迷宮内で見つかった短剣。持つだけで敵を毒にすることができる。=A dagger found within the labyrinth. Envenoms foes with each strike, its toxin seeping from the blade.
+迷宮内で見つかった杖。所持するだけで敵を呪うことができる。=A staff found within the labyrinth. Curses adversaries with its mere presence, afflicting them with dark magic.
+迷宮内で見つかった首飾り。敵に異常を与えやすくなる。=A necklace found within the labyrinth. Enhances the wearer's ability to debuff enemies, making them more susceptible to ailments.
+迷宮の奥深くに眠る、天使の加護を宿した戦靴。装備するだけで神性を授かり、天使のような自在さで空を翔ることができる。=Combat boots imbued with an angel's blessing, slumbering deep within the labyrinth. Grants divinity upon equipping, allowing the wearer to soar through the skies with angelic freedom.
+迷宮の奥深くに眠る、宝飾をあしらったベール。蔽布の下から滲み出るオーラが、相手の敵意を解きほぐし、無力化させてしまう。=A jeweled veil slumbering deep within the labyrinth. The aura seeping from beneath its fabric disarms hostility, rendering foes powerless.
+迷宮の奥深くに眠る、地神の力を宿した烈槍。大地の力を糧に放つ無比の一閃は、地に立つすべての敵に甚大なダメージを与える。=A fierce spear imbued with the power of the earth god, slumbering deep within the labyrinth. Fueled by the earth's might, its unrivaled slash deals massive damage to all grounded enemies.
+迷宮の奥深くに眠る、地核のエネルギーを封じた籠手。振るう一撃は、世界を破壊するかの如く、通常攻撃を大きく強化する。=Gauntlets sealing the energy of the earth's core, slumbering deep within the labyrinth. Each swing, as if capable of shattering the world, greatly enhances normal attacks.

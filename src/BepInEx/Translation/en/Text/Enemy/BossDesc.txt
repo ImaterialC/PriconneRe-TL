@@ -1704,3 +1704,9 @@
 子分を４体召喚し、敵全体をノックバックさせる。子分は最も近い敵１キャラに物理中ダメージを与え、キャラのＨＰが50％未満の場合キャラをノックバックさせる。このスキルの状態異常はダメージを無効化しても付与される。=Summons 4 minions and knocks back all enemies. The minions deal medium P.DMG to the closest enemy and knock them back if their HP is below 50%. The status effect is applied even if the damage is negated.
 最も近い敵３キャラに物理小ダメージを与え、味方全体の物理攻撃力を特大アップ、行動速度を中アップさせる。味方の数に応じて、物理攻撃力の上昇量がダウンする。=Deals small P.DMG to the three closest enemies, massively boosts all allies' P.ATK, and moderately increases their action speed. The P.ATK boost decreases based on the number of allies.
 ユニオンバーストは、敵全体に物理中ダメージを与え、さらにキャラのＨＰが70％未満のキャラに混乱状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=The Union Burst deals medium P.DMG to all enemies and inflicts confusion on those with HP below 70%. This damage does not recover TP, and the status effect is applied even if the damage is negated.
+
+HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
+このスキルで物理ダメージを受けた敵に物理攻撃力ダウン=This skill lowers physical attack power against opponents that take physical damage
+このスキルで魔法ダメージを受けた敵に魔法攻撃力ダウン=With this skill, magic attack power is lowered against enemies that take magical damage
+敵全体に魔法固定ダメージ=Fixed M.DMG to the entire enemy
+敵全体にHP吸収100％ダウン=Reduces HP absorption by 100% for all enemies
