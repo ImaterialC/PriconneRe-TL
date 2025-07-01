@@ -1710,3 +1710,28 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 このスキルで魔法ダメージを受けた敵に魔法攻撃力ダウン=With this skill, magic attack power is lowered against enemies that take magical damage
 敵全体に魔法固定ダメージ=Fixed M.DMG to the entire enemy
 敵全体にHP吸収100％ダウン=Reduces HP absorption by 100% for all enemies
+
+精密さＵＰ！=Accuracy Up!  
+前から１番目の敵に魔法ダメージ=Deals M.DMG to frontmost enemy  
+物理か魔法攻撃力が最も高い敵１体に挑発=Provokes enemy with highest P.ATK or M.ATK  
+物理か魔法攻撃力が最も高い敵１体にＴＰダウン=Decreases TP of enemy with highest P.ATK or M.ATK  
+物理か魔法攻撃力が最も高い敵１体に束縛=Binds enemy with highest P.ATK or M.ATK  
+自身に魔法無効バリア展開=Grants self Magic Nullification Barrier  
+自身に物理無効バリア展開=Grants self Physical Nullification Barrier  
+自身がバリア状態：ダメージアップ=When under barrier: DMG dealt increases  
+かつて追い求めた理想郷への未練から生まれた夢の残影。褪せし黒薔薇は夢境で咲乱れる。今度こそ、二人だけの永遠を築くために。=A dream remnant born from longing for a forsaken utopia. Faded black roses bloom wildly in the dreamscape. Now, to build an eternity for just the two.  
+
+味方全体に物理無効バリア展開=Grants Physical Nullification Barrier to all allies  
+味方全体に魔法無効バリア展開=Grants Magic Nullification Barrier to all allies  
+味方全体に物理／魔法攻撃力アップ=Boosts all allies' P.ATK/M.ATK  
+味方全体に物理／魔法防御力アップ=Boosts all allies' P.DEF/M.DEF  
+味方全体にＴＰ回復=Recovers all allies' TP  
+味方全体に行動速度アップ=Boosts all allies' Action Speed  
+
+対象のＨＰ51％以上：自身以外の味方全体に【回帰の薔薇】=If target's HP ≥51%: Grants 【Regression Rose】 to all allies except self  
+【回帰の薔薇】=【Regression Rose】  
+対象のＨＰが０になった時：【回帰の薔薇】を消費してＨＰ回復=When target's HP reaches 0: Consumes 【Regression Rose】 to recover HP  
+マルチターゲット=Multi-target  
+全スキルダメージＴＰ回復不可=TP not recovered from any skill DMG  
+前から敵３体に凍結=Inflicts Freeze on 3 front enemies  
+前から敵３体に魔法防御力ダウン=Lowers M.DEF of 3 front enemies  

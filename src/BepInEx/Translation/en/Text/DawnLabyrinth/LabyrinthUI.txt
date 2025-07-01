@@ -106,7 +106,7 @@ tutorial laby
 ラビリンスパスポートを所持していないため報酬は獲得できません。=You cannot claim a reward without a Labyrinth Pass.
 ギルド選択確認=Guild Selection Confirmation
 開始時に獲得できる迷宮遺物=Labyrinth Relics obtained at the start
-【会心+1】=【Critical +1】
+【会心+1】=【Focus +1】
 物理/魔法クリダメ＋50％\n物理/魔法クリティカル－2\n5％=Physical/Magic Crit DMG +50%\nPhysical/Magic Critical -25%
 [3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【王宮騎士団（NIGHTMARE）】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFBB00, CE4F00][Nightmare]? [-]
 【弱体+1】=[Debuff +1]
@@ -127,10 +127,10 @@ tutorial laby
 ＴＰ回復や行動速度アップにより、キャラのスキルやユニ\nオンバーストの発動数が増加する\n=Increases UB and Skill usage with TP Recovery and Speed Buffs.
 
 
-【会心】=[Critical]
-【会心】9以上：\n物理/魔法クリティカル＋2000\n=[Critical] 9 or higher: Physical/Magic Crit Stat +2000.
-【会心】4以上：\n物理/魔法クリダメ＋100％\n=[Critical] 4 or higher: Physical/Magic Crit DMG +100%.
-【会心】15以上：\nクリティカルヒット時【看破】＋１（最大99）\n20秒ごとにランダムな敵１体に固定ダメージ×５回\n（毎回5万＋対象の【看破】数×5万ダメージ）\n=[Critical] 15 or higher: When you deal a critical hit, increase [Penetration] stack by +1 (caps at 99). Every 20s, deal damage 5 times to 1 random enemy.\n(Deals 50k + [Penetration] stack x 50k as dmg every hit).
+【会心】=[Focus]
+【会心】9以上：\n物理/魔法クリティカル＋2000\n=[Focus] 9 or higher: Physical/Magic Crit Stat +2000.
+【会心】4以上：\n物理/魔法クリダメ＋100％\n=[Focus] 4 or higher: Physical/Magic Crit DMG +100%.
+【会心】15以上：\nクリティカルヒット時【看破】＋１（最大99）\n20秒ごとにランダムな敵１体に固定ダメージ×５回\n（毎回5万＋対象の【看破】数×5万ダメージ）\n=[Focus] 15 or higher: When you deal a critical hit, increase [Penetration] stack by +1 (caps at 99). Every 20s, deal damage 5 times to 1 random enemy.\n(Deals 50k + [Penetration] stack x 50k as dmg every hit).
 クリティカルや通常攻撃強化により、攻撃性能を強化する\n=Strengthen offensive power through Critical and Normal Attack Buffs.
 
 【弱体】=[Debuff]
@@ -145,10 +145,10 @@ tutorial laby
 【強化】15以上：\nさらにバトル開始60秒後、物理/魔法攻撃力アップフィールド展開（現在値＋70％）\nさらに敵へのダメージ減衰量緩和\n=[Enhancement] 15 or higher: 60s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 70%). Lowers enemy DMG Attenuation amount.
 攻撃力や防御力アップのバフ効果を用いて、キャラを強化\nする\n=Strengthen your characters with ATK and DEF buffs.
 
-【守備】=[Defense]
-【守備】9以上：\n15秒ごとに前から敵１体に物理と魔法固定ダメージ\n（味方全体の現在ＨＰ合計×200ダメージ）\n=[Defense] 9 or higher: Every 15s, deals Fixed Physical and Magic DMG to an enemy.\n(Current HP Total of All Allies x 200 as dmg).
-【守備】4以上：\n全ダメージ33％カット\n=[Defense] 4 or higher: Reduce all damage you receive by 33%
-【守備】15以上：\n15秒ごとに物理/魔法与ダメアップフィールド展開\n（味方全体の現在ＨＰ合計×0.0001％、最大200％）\n=[Defense] 15 or higher: Every 15s, deploy a Physical/Magic DMG Bonus Field (Current HP Total of All Allies x 0.0001%, caps at 200%).
+【守備】=[Guard]
+【守備】9以上：\n15秒ごとに前から敵１体に物理と魔法固定ダメージ\n（味方全体の現在ＨＰ合計×200ダメージ）\n=[Guard] 9 or higher: Every 15s, deals Fixed Physical and Magic DMG to an enemy.\n(Current HP Total of All Allies x 200 as dmg).
+【守備】4以上：\n全ダメージ33％カット\n=[Guard] 4 or higher: Reduce all damage you receive by 33%
+【守備】15以上：\n15秒ごとに物理/魔法与ダメアップフィールド展開\n（味方全体の現在ＨＰ合計×0.0001％、最大200％）\n=[Guard] 15 or higher: Every 15s, deploy a Physical/Magic DMG Bonus Field (Current HP Total of All Allies x 0.0001%, caps at 200%).
 ＨＰアップやバリア展開により、耐久性能を強化する\n=Strengthen your team's durability with HP Buffs and Barriers.
 
 迷宮遺物詳細=Labyrinth Relic Details
@@ -351,7 +351,7 @@ r:"^現在：(\d+)$"=Current: $1
 
 代償=Cost
 r:"^([0-9\,]+)消費$"=Consume $1
-r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベントへ$"=50%: Alpha Rupies×$1\nand to the next event.
+r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベントへ$"=$1%: Alpha Rupies×$2\nand to the next event.
 やってやるですよ！=I'll do it!
 スロットマシンだ！挑戦する？=It's a slot machine! Want to try it?
 今日はツイてるです！=I'm lucky today!
@@ -362,3 +362,9 @@ r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベント�
 今日のあたしは\n負け知らずです！=I'm not going\nto lose today!
 そろそろやめた方が……=Let's stop already...
 ラスト一発！=Last shot!
+
+
+
+加入済みのキャラがいません。=There are no characters currently joined.
+
+ラビリンスショップ=Labyrinth Shop

@@ -1,8 +1,8 @@
 ## Relic Type Level ##
-【会心+1】=【Crit +1】
-【会心+2】=【Crit +2】
-【会心+3】=【Crit +3】
-【会心+5】=【Crit +5】
+【会心+1】=【Focus +1】
+【会心+2】=【Focus +2】
+【会心+3】=【Focus +3】
+【会心+5】=【Focus +5】
 
 【加速+1】=【Haste +1】
 【加速+2】=【Haste +2】
@@ -19,10 +19,10 @@
 【弱体+3】=【Debuff +3】
 【弱体+5】=【Debuff +5】
 
-【強化+1】=【Buff +1】
-【強化+2】=【Buff +2】
-【強化+3】=【Buff +3】
-【強化+5】=【Buff +5】
+【強化+1】=【Enhancement +1】
+【強化+2】=【Enhancement +2】
+【強化+3】=【Enhancement +3】
+【強化+5】=【Enhancement +5】
 
 ## Effect ## 
 

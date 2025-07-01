@@ -72,3 +72,31 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 バトル開始後90秒間自分の魔法攻撃力と魔法防御力を３％アップさせる。=Boost own M.ATK and M.DEF by 3% for 90s after the start of battle.
 
 バトル開始後90秒間自分の物理攻撃力と物理クリティカルを３％アップさせる。=Boost own P.ATK and P.CRIT RATE by 3% for 90s after the start of battle.
+
+
+魔法攻撃力=Magic ATK
+
+火属性攻撃力アップ=Increases Fire attribute attack power
+装備者が火属性の場合、バトル開始後90秒間自分の物理攻撃力を40％アップさせる。=If the wearer is Fire-element, increases the wearer's physical attack power by 40% for 90 seconds after the start of battle.
+装備者が火属性の場合、バトル開始後90秒間自分の魔法攻撃力を40％アップさせる。=If the wearer is Fire-element, increases the wearer's magic attack power by 40% for 90 seconds after the start of battle.
+
+水属性攻撃力アップ=Increases water attribute attack power
+装備者が水属性の場合、バトル開始後90秒間自分の物理攻撃力を40％アップさせる。=If the wearer is water-element, increases the wearer's physical attack power by 40% for 90 seconds after the start of battle.
+装備者が水属性の場合、バトル開始後90秒間自分の魔法攻撃力を40％アップさせる。=If the wearer is water-element, increases the wearer's magic attack power by 40% for 90 seconds after the start of battle.
+
+風属性攻撃力アップ=Increases Wind attribute attack power
+装備者が風属性の場合、バトル開始後90秒間自分の物理攻撃力を40％アップさせる。=If the wearer is Wind-element, increases the wearer's physical attack power by 40% for 90 seconds after the start of battle.
+装備者が風属性の場合、バトル開始後90秒間自分の魔法攻撃力を40％アップさせる。=If the wearer is Wind-element, increases the wearer's magic attack power by 40% for 90 seconds after the start of battle.
+
+光属性攻撃力アップ=Increases Light attribute attack power
+装備者が光属性の場合、バトル開始後90秒間自分の物理攻撃力を40％アップさせる。=If the wearer is Light-element, increases the wearer's physical attack power by 40% for 90 seconds after the start of battle.
+装備者が光属性の場合、バトル開始後90秒間自分の魔法攻撃力を40％アップさせる。=If the wearer is Light-element, increases the wearer's magic attack power by 40% for 90 seconds after the start of battle.
+
+闇属性攻撃力アップ=Increases Dark attribute attack power
+装備者が闇属性の場合、バトル開始後90秒間自分の物理攻撃力を40％アップさせる。=If the wearer is Dark-element, increases the wearer's physical attack power by 40% for 90 seconds after the start of battle.
+装備者が闇属性の場合、バトル開始後90秒間自分の魔法攻撃力を40％アップさせる。=If the wearer is Dark-element, increases the wearer's magic attack power by 40% for 90 seconds after the start of battle.
+
+
+
+
+

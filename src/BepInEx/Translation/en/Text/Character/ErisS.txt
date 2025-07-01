@@ -1,0 +1,33 @@
+your return format should be like this.
+please remember and pay close attention!
+##Profile##
+【魔法】後衛で、永く夢見た本物の夏に咲き綻ぶ黒薔薇。【いばらの冠】の呪縛は再臨により解き放たれ、調和状態や攻防支援、回復効果を施し、月下の浜辺に静かに佇む。=[Magic] A black rose blooming in the long-dreamed true summer, positioned in the backline. The curse of [Thorn Crown] is released upon reappearance, granting harmony state, offensive and defensive support, and healing effects, standing quietly on the moonlit beach.
+
+##Union Burst##
+アンサス・エリュシオン=Anthos Elysion
+目の前の敵１キャラに魔法大ダメージを２回与え、味方全体に魔法無効バリアを展開する。【いばらの冠】が付与されている場合、このスキルの効果量が大幅にダウンし、自分のスキル発動時の最大ＨＰの10％を消費する。このスキルで自分のＨＰを消費する量は、特殊スキルを除くスキルを使用するたびに増加する。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Deals large M.DMG twice to the enemy in front and deploys a magic-nullifying barrier for all allies. If [Thorn Crown] is applied, the effect of this skill is significantly reduced, and it consumes 10% of own max HP when activating the skill. The amount of HP consumed by this skill increases each time a skill (excluding special skills) is used. Damage to self from this skill does not recover own TP.
+r:"^(\d+)ダメージ分の魔法無効バリアを展開する敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージいばらの冠付与中、自分のスキル発動時の最大ＨＰの10％を消費$"=►Deploys Magic Null Barrier absorbing $1 DMG.\n►Deals $2 M.DMG to single enemy.\n►Deals $3 M.DMG to single enemy.\n►During [Thorn Crown]: Consumes 10% max HP at skill activation.
+
+##Skill 1 (S1)##
+ペタラ・カリス=Petala Charis
+味方全体の魔法攻撃力を特大アップさせ、ＨＰを中回復、ＴＰを小回復させる。【いばらの冠】が付与されている場合、このスキルの効果量が大幅にダウンし、自分のスキル発動時の最大ＨＰの10％を消費する。このスキルで自分のＨＰを消費する量は、特殊スキルを除くスキルを使用するたびに増加する。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Massively boosts all allies' M.ATK, moderately recovers their HP, and slightly recovers their TP. If [Thorn Crown] is applied, the effect of this skill is significantly reduced, and it consumes 10% of own max HP when activating the skill. The amount of HP consumed by this skill increases each time a skill (excluding special skills) is used. Damage to self from this skill does not recover own TP.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体のＨＰを(\d+)回復味方全体のＴＰを50回復いばらの冠付与中、自分のスキル発動時の最大ＨＰの10％を消費$"=►Boosts all allies' M.ATK by $1.\n►Restores all allies' HP by $2.\n►Recovers all allies' TP by 50.\n►During [Thorn Crown]: Consumes 10% max HP at skill activation.
+
+##Skill 2 (S2)##
+プレーステール=Placetail
+目の前の敵１キャラに魔法大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。【いばらの冠】が付与されている場合、このスキルの効果量が大幅にダウンし、自分のスキル発動時の最大ＨＰの10％を消費する。このスキルで自分のＨＰを消費する量は、特殊スキルを除くスキルを使用するたびに増加する。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Deals large M.DMG to the enemy in front and greatly lowers their P.ATK and M.ATK. If [Thorn Crown] is applied, the effect of this skill is significantly reduced, and it consumes 10% of own max HP when activating the skill. The amount of HP consumed by this skill increases each time a skill (excluding special skills) is used. Damage to self from this skill does not recover own TP.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウンいばらの冠付与中、自分のスキル発動時の最大ＨＰの10％を消費$"=►Deals $1 M.DMG to single enemy.\n►Lowers enemy's P.ATK by $2.\n►Lowers enemy's M.ATK by $3.\n►During [Thorn Crown]: Consumes 10% max HP at skill activation.
+
+##EX Skill: ##
+メタノイア=Metanoia
+メタノイア+=Metanoia+
+
+##Special Skills 1##
+アナスタシス=Anastasis
+ＨＰが０になった時に発動し、倒れずに自分の【いばらの冠】とステータスダウン効果を全て解除してＨＰを大回復させる。さらに、バトル終了時まで味方全体の魔法攻撃力を極大アップ、魔法防御力を大アップ、魔法クリティカルを特大アップ、魔法攻撃クリティカル時のダメージを中アップ、魔法攻撃のダメージを小アップさせ、調和状態を付与する。調和状態の間は物理防御力と魔法防御力のうち高い方によって計算されたダメージを受ける。このスキルはバトル中一度しか発動しない。=Activates when HP reaches 0, preventing defeat, removing all [Thorn Crown] and status debuffs from self, and greatly recovering HP. Additionally, until the end of the battle, massively boosts all allies' M.ATK, greatly boosts their M.DEF, massively boosts their M.CRIT RATE, moderately boosts their M.CRIT DMG, slightly boosts their M.DMG, and grants them the Harmony state. While in Harmony state, damage received is calculated based on the higher of P.DEF or M.DEF. This skill can only be activated once per battle.
+r:"^自分のＨＰを(\d+)回復自分のいばらの冠を解除する自分のステータスダウン効果を解除する味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体の魔法クリティカルを300アップ味方全体の魔法クリダメを30％アップ味方全体が与える魔法ダメージを10％アップ味方全体に調和状態を付与する$"=►Recovers own HP by $1.\n►Removes own [Thorn Crown].\n►Clears own status debuffs.\n►Boosts all allies' M.ATK by $2.\n►Boosts all allies' M.DEF by $3.\n►Boosts all allies' M.CRIT RATE by 300.\n►Boosts all allies' M.CRIT DMG by 30％.\n►Boosts all allies' M.DMG dealt by 10％.\n►Grants [Harmony] to all allies.
+
+##Special Skills 2##
+シネスティマ=Synesthesia
+バトル終了時まで自分に【いばらの冠】を付与し、物理防御力と魔法防御力とＴＰ上昇を極大ダウンする。=Applies [Thorn Crown] to self until the end of the battle, and massively lowers P.DEF, M.DEF, and TP Boost.
+r:"^自分にいばらの冠を付与する自分の物理防御力を(\d+)ダウン自分の魔法防御力を(\d+)ダウン自分のＴＰ上昇を(\d+)ダウン$"=►Grants [Thorn Crown] to self.\n►Lowers own P.DEF by $1.\n►Lowers own M.DEF by $2.\n►Lowers own TP Boost by $3.

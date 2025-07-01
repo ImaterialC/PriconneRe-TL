@@ -75,9 +75,9 @@
 カイザーインサイト=Kaiser Insight;Mana Senri
 ネネカ=Neneka;NNK
 クリスティーナ=Christina
-クリア=Quria;Clear
-プレシア=Precia
-リリ=Riri;Lili;Lily
+クリア=Quria;Clear;Alter Maiden;Maiden
+プレシア=Precia;Alter Maiden;Maiden
+リリ=Riri;Lili;Lily;Alter Maiden;Maiden
 クローチェ=Croce;Croche;Crotch
 ライラエル=Lyrael;Lailael;Rairael
 ネビア=Navi;Nebbia
@@ -278,9 +278,9 @@
 カイザーインサイト（サマー）=Kaiser Insight (Summer);SKaiser;SMana;Summer;Swimsuit;Bikini
 ネネカ（サマー）=Neneka (Summer);NNK (Summer);SNeneka;SNNK;Summer;Swimsuit;Bikini
 クリスティーナ（サマー）=Christina (Summer);SChristina;Summer;Swimsuit;Bikini
-クリア（サマー）=Quria (Summer);Clear (Summer);SQuria;SClear;Summer;Swimsuit;Bikini
+クリア（サマー）=Quria (Summer);Clear (Summer);SQuria;SClear;Summer;Swimsuit;Bikini;Alter Maiden;Maiden
 プレシア（サマー）=Precia (Summer);SPrecia;Summer;Swimsuit;Bikini
-リリ（サマー）=Riri (Summer);Lili (Summer);Lily (Summer);SRiri;SLili;SLily;Summer;Swimsuit;Bikini
+リリ（サマー）=Riri (Summer);Lili (Summer);Lily (Summer);SRiri;SLili;SLily;Summer;Swimsuit;Bikini;Alter Maiden;Maiden
 クローチェ（サマー）=Croce (Summer);Croche (Summer);Crotch (Summer);SCroce;SCroche;SCrotch;Summer;Swimsuit;Bikini
 ライラエル（サマー）=Lyrael (Summer);SLyrael;Summer;Swimsuit;Bikini
 クルル（サマー）=Kururu (Summer);SKururu;Summer;Swimsuit;Bikini
@@ -370,7 +370,7 @@
 カイザーインサイト（ハロウィン）=Kaiser Insight (Halloween);Mana Senri (Halloween);HKaiser Insight;HMana Senri;Halloween
 ネネカ（ハロウィン）=Neneka (Halloween);NNK (Halloween);HNeneka;HNNK;Halloween
 クリスティーナ（ハロウィン）=Christina (Halloween);HChristina;Halloween
-クリア（ハロウィン）=Quria (Halloween);Clear (Halloween);HQuria;HClear;Halloween
+クリア（ハロウィン）=Quria (Halloween);Clear (Halloween);HQuria;HClear;Halloween;Alter Maiden;Maiden
 プレシア（ハロウィン）=Precia (Halloween);HPrecia;Halloween
 リリ（ハロウィン）=Riri (Halloween);Lili (Halloween);Lily (Halloween);HRiri;HLili;HLily;Halloween
 クローチェ（ハロウィン）=Croce (Halloween);Croche (Halloween);Crotch (Halloween);HCroce;HCroche;HCrotch;Halloween
@@ -566,12 +566,12 @@
 クウカ（オーエド）=Kuuka (Ooedo);Kuka (Ooedo);OKuuka;OKuka;Ooedo
 ミツキ（オーエド）=Mitsuki (Ooedo);OMitsuki;Ooedo
 
-クリア=Quria;Clear
-プレシア=Precia
-リリ=Riri;Lili;Lily
+クリア=Quria;Clear;Alter Maiden;Maiden
+プレシア=Precia;Alter Maiden;Maiden
+リリ=Riri;Lili;Lily;Alter Maiden;Maiden
 クリア（フォールン）=Quria (Fallen);Clear (Fallen);FQuria;FClear;Fallen
-プレシア（フォールン）=Precia (Fallen);FPrecia;Fallen
-リリ（フォールン）=Riri (Fallen);Lili (Fallen);Lily (Fallen);FRiri;FLili;FLily;Fallen
+プレシア（フォールン）=Precia (Fallen);FPrecia;Fallen;Alter Maiden;Maiden
+リリ（フォールン）=Riri (Fallen);Lili (Fallen);Lily (Fallen);FRiri;FLili;FLily;Fallen;Alter Maiden;Maiden
 
 アオイ（編入生）=Aoi (Student);Aoi (Transfer Student);TsAoi;BBB;Bochi;StAoi;BBB;Bochi;Student
 キャル（編入生）=Karyl (Student);Karyl (Transfer Student);Kyaru (Student);TsKaryl;TsKyaru;StKaryl;StKyaru;Student
@@ -607,3 +607,6 @@
 クローチェ（エアリアル）=Croce (Aerial);ACroche;ACrotch;Aerial
 
 ツムギ（ジオ・ゲヘナ）=Tsumugi (Gio Gehenna);GTsumugi;Gehennna;Gehenna;Geo Gehenna
+
+
+エリス（サマー）=Eris(Summer);Yui(Summer);SEris;Summer;Swimsuit;Bikini
