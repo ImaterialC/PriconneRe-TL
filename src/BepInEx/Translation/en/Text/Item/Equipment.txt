@@ -700,3 +700,11 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 月のブレスレットＲ=Moon Bracelet R
 猫神のペンダントＲ=Cat God's pendant R
 竜の涙Ｒ=Dragon's Tear R
+
+
+スカーレットメイルＲ=Scarlet Mail R
+ドラゴニックアーマーＲ=Dragonic Armor R
+翠緑の霊衣Ｒ=Verdant Spirit Robe R
+アクエリアスブーツＲ=Aquarius Boots R
+ドラゴンヘッドＲ=Dragon Head R
+ダークテラードレスＲ=Dark Terror Dress R

@@ -1,0 +1,21 @@
+【物理】中衛で友情の芽を育む、真夏の『普通』の少女。【プルメリアのお守り】で強力な一撃から先頭を守り、味方の数で効果量が変化するスキルを鮮やかに命中させる。=[Physical] A "normal" girl in the middle of summer, building up the buds of friendship. She protects the frontmost unit with "Plumeria Protection" And shoots true with skills that scale off of the number of allies.
+
+
+##Union Burst##
+プルメリア☆スプラッシュ=Plumeria☆Splash
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。さらに追加の物理特大ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、味方全体に魔法無効バリアを展開する。このスキルの効果量は味方の数に応じて変化する。=Deals massive P.DMG to the enemy in front and slightly lowers their P.DEF. Additionally, deals extra massive P.DMG, slightly increases damage taken from critical hits, and deploys a magic-nullifying barrier for all allies. The effect of this skill varies based on the number of allies.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ敵単体の被クリダメを6％アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Deals $3 P.DMG to a single enemy.\n►Boosts a single enemy's CRIT DMG taken by 6%.\n►Deploys a barrier that nullifies $4 magic damage.
+
+##Skill 1 (S1)##
+水やりショット=Watering Shot
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに追加の物理中ダメージを与え、味方全体の魔法防御力を小アップさせる。このスキルの効果量は味方の数に応じて変化する。=Deals large P.DMG to the enemy in front and slightly lowers their P.DEF. Additionally, deals extra moderate P.DMG and slightly boosts all allies' M.DEF. The effect of this skill varies based on the number of allies.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ味方全体の魔法防御力を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Deals $3 P.DMG to a single enemy.\n►Boosts all allies' M.DEF by $4.
+
+##Skill 2 (S2)##
+夏バテ防止です=Summer Fatigue Prevention
+味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、一番前の味方１キャラに【プルメリアのお守り】を２つ付与する。さらに、自分のＴＰを中回復する。【プルメリアのお守り】が付与されている間に１回ダメージを受けると【プルメリアのお守り】を１つ消費してダメージを無効化し、同時に敵に物理中ダメージを与える。このスキルの物理攻撃力アップ、物理クリティカルアップの効果量とダメージとＴＰの回復量は味方の数に応じて変化する。=Massively boosts all allies' P.ATK, greatly boosts their P.CRIT RATE, and grants two [Plumeria Protection] to the ally in the frontmost position. Additionally, moderately recovers own TP. When an ally with [Plumeria Protection] takes damage, one amulet is consumed to nullify the damage and simultaneously deal moderate P.DMG to the enemy. The P.ATK boost, P.CRIT RATE boost, damage, and TP recovery of this skill vary based on the number of allies.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方単体に攻撃してきた敵に(\d+)の物理ダメージを与えて消失するプルメリアのお守りを最大２つまで付与する自分のＴＰを250回復$"=►Boosts all allies' P.ATK by $1.\n►Boosts all allies' P.CRIT RATE by 100.\n►Grants a single ally up to 2 [PPlumeria Protection] that deal $2 P.DMG to attacking enemies and then disappear.\n►Recovers own TP by 250.
+
+##EX##
+水浴びしませんか？+=Would you like to take a bath?+
+水浴びしませんか？=Would you like to take a bath?

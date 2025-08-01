@@ -25,3 +25,10 @@ PSI★ストームを４つチャージする=►Charges up 4 [PSI★Storm].\n�
 ##EX##
 ディストート・サイト=Distort Sight
 ディストート・サイト+=Distort Sight+
+
+##S1+##
+大玉水鉄砲★+=Giant Super Soaker★+
+ミソラのウォーターガン=Misora's Water Gun
+
+自分の魔法攻撃力を大アップ、魔法攻撃クリティカル時のダメージを小アップし、目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。さらに、【PSI★ストーム】を１つ消費する。=Greatly boosts own M.ATK, slightly boosts M.CRIT DMG, deals large M.DMG to the enemy in front, and slightly lowers their M.DEF. Additionally, consumes one [PSI★Storm].
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリダメを2％アップ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウンPSI★ストームを１つ消費する$"=►Boosts own M.ATK by $1.\n►Boosts own M.CRIT DMG by 2%.\n►Deals $2 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $3.\n►Consumes 1 [PSI★Storm].

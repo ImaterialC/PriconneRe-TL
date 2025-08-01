@@ -25,3 +25,11 @@ r:"^敵全体の魔法防御力を(\d+)ダウン$"=►Lowers all enemies' M.DEF 
 
 ##UE##
 ナナカナツカワロッド=Nanaka Natsukawa Rod
+
+
+
+##S2##
+ブレイクスプラッシュ+=Break Splash+
+ナナカエモナツメモリー=Nanaka's Emotional Summer Memory
+敵全体の物理攻撃力と魔法攻撃力を大ダウン、魔法防御力を中ダウンさせ、そのキャラの最大ＨＰに応じて最大200万の魔法割合ダメージを与える。敵の数に応じて、このスキルの効果量が増加する。=Greatly lowers all enemies' P.ATK and M.ATK, moderately lowers their M.DEF, and deals magical percentage-based damage up to a maximum of 2,000,000 based on each enemy's max HP. The effect of this skill increases based on the number of enemies.
+r:"^敵全体の物理攻撃力を(\d+)ダウン敵全体の魔法攻撃力を(\d+)ダウン敵全体の魔法防御力を(\d+)ダウン敵全体に最大(\d+)の魔法割合ダメージを与える$"=►Lowers all enemies' P.ATK by $1.\n►Lowers all enemies' M.ATK by $2.\n►Lowers all enemies' M.DEF by $3.\n►Deals up to $4 proportional M.DMG to all enemies.

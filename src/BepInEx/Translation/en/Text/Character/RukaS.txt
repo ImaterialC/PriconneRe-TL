@@ -25,3 +25,11 @@ r:"^敵単体を一定時間行動不能にする$"=►Inflicts Time Stop to an 
 
 ##UE##
 絶海・波浪丸 拵違=Zekkai & Haromaru - Fake
+
+
+
+##S2##
+継の太刀・薫風そよぐ+=Second Strike: Kunpuu Soyogu+
+パレオ・純白人絹小笹原=Pareo・Pure White Silk Osasahara
+前方範囲内の敵すべてに物理大ダメージを２回与え、物理防御力を中ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。さらに、バトル開始後初めてこのスキルを発動した後、15回ダメージを与えるたびに、自分の物理攻撃クリティカル時のダメージを小アップする。=Deals large P.DMG twice to all enemies within the frontal range, moderately lowers their P.DEF, and slightly increases damage taken from critical hits. Additionally, after activating this skill for the first time in battle, every 15 instances of dealing damage slightly boosts own P.CRIT DMG.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の被クリダメを5％アップ15回ダメージを与えるたびに、自分の物理クリダメを2％アップ$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Lowers P.DEF of enemies within range by $3.\n►Boosts CRIT DMG taken by enemies within range by 5%.\nEvery 15 times damage is dealt:\n►Boosts own P.CRIT DMG by 2%.

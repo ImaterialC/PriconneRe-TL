@@ -19,3 +19,12 @@ r:"^フィールド展開中、(\d+)ダメージ分の物理魔法無効バリ�
 ##EX##
 波打ち際の令嬢=Lady of the Beach
 波打ち際の令嬢+=Lady of the Beach+
+
+
+
+##S1+##
+砂上戯城+=Sandcastle Building+
+木刀・西瓜割=Wooden Sword・Watermelon Split
+自分を中心とした範囲内の味方すべての物理防御力と魔法防御力を中アップさせる。【フィールド展開中】このスキルの効果量が上昇し、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせる。=Moderately boosts the P.DEF and M.DEF of all allies within range centered on self. During [Field Active], the effect of this skill increases, massively boosting the P.ATK and slightly boosting the P.CRIT DMG of all allies within range centered on self.
+
+r:"^フィールド展開中、範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップフィールド展開中、範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップフィールド展開中、範囲内の味方の物理クリダメを12％アップ$"=►Boosts P.DEF of allies within range by $2.\n►Boosts M.DEF of allies within range by $4.\nWhile the field is active:\n►Boosts P.DEF of allies within range by $1.\n►Boosts M.DEF of allies within range by $3.\n►Boosts P.ATK of allies within range by $5.\n►Boosts P.CRIT DMG of allies within range by 12%.

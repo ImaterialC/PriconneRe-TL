@@ -150,3 +150,7 @@ r:"^毎日5:00更新　出現数(\d)/5$"=Reset Daily at 5:00(JST) Up:$1/5
 
 r:"^本日の出現数　([0-9/]+)回$"=Appearance Today: $1
 メインクエストのクリア時に\n出現することがあります。=Occasionally appears after\nclearing Main Quests.
+
+獲得したアイテムは直接付与されます。=Items obtained will be added directly.
+交換しました。=Exchanged.
+ピース交換完了=Shard exchange complete
