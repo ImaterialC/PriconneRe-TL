@@ -368,3 +368,24 @@ r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベント�
 加入済みのキャラがいません。=There are no characters currently joined.
 
 ラビリンスショップ=Labyrinth Shop
+
+
+
+
+レジーナガーラ=Regina Gear
+敵の物理/魔法被ダメ＋25％\n味方の物理/魔法被ダメ＋2\n5％=Enemy Physical/Magic Attack DMG +25% Ally Physical/Mage Attack DMH +20%
+
+
+プリンセスエンチャント=Princess Enchant
+物理/魔法攻撃力アップ（加\n入キャラ数×4％、最大10\n0％）=Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)
+
+トゥインクルブレス=Twinkle Breath
+ボスバトルを除いて一度だけ\nバトル敗北を免除=Exempt from defeat in battle once, excluding boss battles
+
+
+サレンディアノーブル=Sarendia Noble
+通常攻撃強化アップ（アル\nファルピ所持数×0.01、最大\n100）=Normal Attack Enhancement Up (Alpha Rupees Possession x0.01, Max 100)
+
+マスターオブラビリンス=Master of Labyrinth
+挑戦開始時にランダムな★1\nの迷宮遺物を１個獲得=Obtain a random ★1 Labyrinth artifact at the start of the challenge
+
