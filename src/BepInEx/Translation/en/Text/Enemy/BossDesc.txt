@@ -1735,3 +1735,28 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 全スキルダメージＴＰ回復不可=TP not recovered from any skill DMG  
 前から敵３体に凍結=Inflicts Freeze on 3 front enemies  
 前から敵３体に魔法防御力ダウン=Lowers M.DEF of 3 front enemies  
+
+
+ＴＰ回復不可=TP cannot be recovered
+対象が凍結：ダメージアップ=Target Freeze: DMG Bonus
+敵全体に凍結=Freeze Entire Enemy
+自身の魔法攻撃力が高いほど：凍結時間アップ=The higher your own magic attack power is: Frozen Time Boost
+【ＨＰ50％以下時発動】=[Activate when HP is below 50%]
+
+あはっ★今度こそ、倒せたみたいですね♪=Aha★ Looks like we finally beat it this time♪  
+マジせんきゅーガチポロリしちったら、謎のチカラでストップかかってたカモだしーセーフセーフ～=Seriously, if I'd actually stripped, some mysterious force would've stopped me~ Phew, safe safe~  
+わたしはそれでも面白かったですけど……でもま、かなりギリでしたねーリリちゃん、もうダイジョーブですか？=I still had fun though... but wow, that was close! Lili, you okay now?  
+は、はい……先ほど、着替え終わりました。念のために、替えの水着を用意していてよかったです……=Y-yes... I finished changing. Good thing I brought a spare swimsuit just in case......  
+あちゃ～見逃したわ～リリちゃん、ワンモア着替えヨロー騎士きゅんも見たがってるんじゃね～？♡=Aww~ missed it~ Lili-chan, wanna change again? Knight-kun wants to see too~♡  
+ええっ……！？そ、それは……っ……積極さの足りぬわたくしをお許しください、兄様っ～……！=Eh...!? Th-that's...... please forgive my lack of initiative, brother~...!  
+
+冥府の魔鎧自身のＨＰが40％を切ると、さらに攻撃が激しく凶暴になる。=When Netherworld Armor's HP drops below 40%, its attacks become fiercer and more violent.  
+残りＨＰの割合が多い敵３キャラのＴＰを小ダウンさせ、ノックバックさせる。さらに、自身の物理攻撃力を大アップ。=Slightly decreases TP and knocks back 3 enemies with highest HP%. Greatly boosts own P.ATK.  
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、物理攻撃力と物理防御力を大ダウン。=Union Burst deals percentage P.DMG to all enemies based on max HP, greatly lowering P.ATK and P.DEF.  
+ジオ・ニヴルヘルに流れ着いた騎士の成れの果て。彷徨う魂を屠り、生き永らえる。=A fallen knight washed ashore in Geo Niflhel. Sustains itself by slaughtering wandering souls.  
+
+ひと夏の冒険のはじまりです！アネモネさんも楽しんでくれたら…できれば、もう少し仲良くなれたらうれしいな…=Our summer adventure begins! If Anemone enjoys it too... I'd be happy if we could become closer...  
+
+冷気を振り撒き巷を騒がす寒帯育ちの魔物。そのプライドはテミス銀嶺より高く、癇に障りし他種族へ怜悧狡猾な立ち回りで襲いかかる。=An arctic-born monster spreading icy havoc. With pride towering above Themis Silverpeaks, it cunningly assaults races that vex it.  
+
+─幻の花…本当にあるのか謎─ですけど探すくらいは、付き合ってもいいです="Whether the phantom flower exists... remains a mystery─" but I'll help you search for it.  
