@@ -14,7 +14,6 @@ sr:"^(.+)をRANK(\d+)にしよう$"=Raise $1 to Rank $2.
 sr:"^(.+)の絆ランクを(\d)にしよう$"=Raise $1's Bond Rank $2
 sr:"^(.+)の専用装備(.)を装備しよう$"=Equip $1's Unique Equipment $2
 
-
 r:"^メインストーリー第(\d+)章をすべて閲覧しよう$"=View all of Chapter $1 of the main story
 r:"^キャラのスキルLvを合計で(\d+)回上げよう$"=Raise a character's skill level a total of $1 times
 プリンセスナイト強化を1回行おう=Do Princess Knight Enhancement once
