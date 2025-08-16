@@ -1,0 +1,35 @@
+選択人数の上限に達していません。=You have not reached the maximum number of people you can choose.
+これ以上キャラを選択できません。=Cannot select any more characters.
+7.5th Limited Select ガチャ=7.5th Limited Select Gacha
+選択されているキャラが変更されていません。=The selected character has not been changed.
+限定ミッション=Limited Mission
+チケット\n使用=Ticket use
+r:"^あと(\d+)時(\d+)分$"=$1h $2m left
+初心者=Beginner
+Sダッシュミッション=S-Dash Mission
+r:"^ステップ(.)$"=Step $1
+スタートダッシュ=Start dash
+sr:"^(.+)をLv(\d+)にしよう$"=Raise $1 to Lv $2.
+sr:"^(.+)をRANK(\d+)にしよう$"=Raise $1 to Rank $2.
+sr:"^(.+)の絆ランクを(\d)にしよう$"=Raise $1's Bond Rank $2
+sr:"^(.+)の専用装備(.)を装備しよう$"=Equip $1's Unique Equipment $2
+
+
+r:"^メインストーリー第(\d+)章をすべて閲覧しよう$"=View all of Chapter $1 of the main story
+r:"^キャラのスキルLvを合計で(\d+)回上げよう$"=Raise a character's skill level a total of $1 times
+プリンセスナイト強化を1回行おう=Do Princess Knight Enhancement once
+経験値クエストを1回クリアしよう=Complete EXP quest once
+マナクエストを1回クリアしよう=Complete mana quest once
+聖跡調査クエストを1回クリアしよう=Complete Sanctum Survey once
+神殿調査クエストを1回クリアしよう=Complete Temple Trek once
+r:"^メインストーリー第(\d+)部ステップ(\d+)のミッションをすべて達成しよう$"=Complete all missions in Main Story Part $1, Step $2
+r:"^メインストーリー第(\d+)部のミッション報酬を全て受け取ると解放。$"=Unlocked after receiving all mission rewards from Part $1 of the main story
+
+sr:"^(.+)を限界突破しよう$"=Limit Break $1
+r:"^メインストーリー第(\d+)部第(\d+)章をすべて閲覧しよう$"=View the entire Main Story Part $1 Chapter $2
+
+メインストーリー第2部第2章をすべて閲覧しよう
+王都終末決戦をクリアしよう=Clear Final Battle of Landosol
+終炎のエリュシオンをクリアしよう=Clear Last Flame of Elysion
+レギオンウォーをクリアしよう=Clear Legion War
+スタートダッシュプリンセスキャラ交換チケット=Start Dash Princess Character Exchange Ticket
