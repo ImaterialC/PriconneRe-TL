@@ -11,6 +11,11 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダ
 最も魔法防御力の低い敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。対象の【日食】の数が25以上の場合、その敵を中心とした範囲内の敵すべてに魔法中ダメージを与え、自分の魔法攻撃力を大アップ、ＴＰを小回復する。最も魔法防御力の低い敵１キャラの【日食】の数に応じてこのスキルのダメージがアップする。=Deals large M.DMG to the lowest M.DEF enemy, and slightly lowers its M.DEF. If an enemy has 25 [Solar Eclipse] stacks or more, deals additional moderate M.DMG to enemies in range, greatly boosts own M.ATK and slightly recovers own TP. The M.DMG dealt increases according to number of [Solar Eclipse] stacks.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン対象の日食が25以上の時、範囲内の敵に(\d+)の魔法ダメージ対象の日食が25以上の時、自分の魔法攻撃力を(\d+)アップ対象の日食が25以上の時、自分のＴＰを100回復$"=►Deals $1 (+0.018×$1×[Solar Eclipse]) M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2 for 12s.\n\nIf an enemy has 25+ [Solar Eclipse] stacks:\n►Deals $3 (+0.018×$3×[Solar Eclipse]) M.DMG to enemies in 400 range.\n►Boosts own M.ATK by $4 for 12s.\n►Recovers own TP by 100.
 
+##S1+##
+アクアスプラッシュ+=Aqua Splash+
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン対象の日食が25以上の時、範囲内の敵に(\d+)の魔法ダメージ対象の日食が25以上の時、自分の魔法攻撃力を(\d+)アップ対象の日食が25以上の時、自分のＴＰを(\d+)回復$"="►Deals $1 M.DMG to enemy with lowest M.DEF\n►Lowers their M.DEF by $2\n\nIf target has ≥25 [Solar Eclipse]:\n►Deals $3 M.DMG to enemies around target\n►Boosts own M.ATK by $4\n►Recovers own TP by $5"
+r:"^最も魔法防御力の低い敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。対象の【日食】の数が25以上の場合、その敵を中心とした範囲内の敵すべてに魔法大ダメージを与え、自分の魔法攻撃力を大アップ、ＴＰを小回復する。最も魔法防御力の低い敵１キャラの【日食】の数に応じてこのスキルのダメージがアップする。$"="Deals large M.DMG to enemy with lowest M.DEF while slightly lowering their M.DEF. With ≥25 [Solar Eclipse] on target, deals additional large M.DMG to surrounding enemies while greatly boosting own M.ATK and slightly recovering TP. Damage scales with target's [Solar Eclipse] count."
+
 ##S2##
 サマーサンダーボルト=Summer Thunderbolt
 敵全体の魔法攻撃力を大ダウン、魔法防御力を小ダウンさせる。さらに自分のＴＰを中回復する。最も魔法防御力の低い敵１キャラの【日食】の数が25以上の場合、敵全体のクリティカルを受けた際のダメージを小アップさせる。=Greatly lowers all enemies M.ATK, slightly lowers their M.DEF, and moderately recovers own TP. If an enemy has 25 [Solar Eclipse] stacks or more, slightly boosts all enemies M.CRIT DMG taken.
@@ -25,3 +30,6 @@ r:"^敵全体をステータスダウン効果を受けるたびに日食が付�
 ##EX##
 ホットサマーゲイズ=Hot Summer Gaze
 ホットサマーゲイズ+=Hot Summer Gaze+
+
+##UE##
+ドラゴンズバカンス=Dragon’s Vacation

@@ -1,0 +1,21 @@
+r:"^で盛夏の白波を華麗に乗りこなす氷竜少女。敵全体を挑発し、被弾で溜まる【ぐずぐず】をＵＢで発散することで周囲に攻撃支援と天真爛漫な笑顔を振りまく。$"=A frost dragon maiden gracefully riding summer's white waves. Taunts all enemies, converting [Whimpering] stacks from being hit into UB-powered attack support and scattering innocent smiles to allies.
+
+##UB##
+夏舞・騎遊氷竜 = Natsumai - The Ice Dragon Riding Play
+r:"^目の前の敵１キャラの物理防御力を小ダウンさせ、物理大ダメージを与える。さらに、自分のＨＰを中回復する。【ぐずぐず】が４つ以上付与されている場合、【ぐずぐず】を４つ消費して自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、このスキルのダメージがアップし、目の前の敵１キャラに追加の物理特大ダメージを与える。【ぐずぐず】を４つ消費した場合、このスキルのダメージは物理防御力を一定値無視し、必ずクリティカルする。$"="Slightly lowers P.DEF and deals large P.DMG to one enemy in front, while moderately recovering own HP. With 4+ [Whimpering], consumes 4 to greatly boost P.ATK of nearby allies, enhance this skill's damage, and deal additional massive P.DMG that ignores P.DEF and always crits."
+r:"^敵単体の物理防御力を(\d+)ダウンぐずぐずが４つ未満の場合、敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復ぐずぐずが４つ以上の場合、ぐずぐずを４つ消費するぐずぐずが４つ以上の場合、範囲内の味方の物理攻撃力を(\d+)アップぐずぐずが４つ以上の場合、敵単体に物理防御力を50無視する(\d+)の物理ダメージぐずぐずが４つ以上の場合、敵単体に物理防御力を50無視する(\d+)の物理ダメージ$"="►Lowers a single enemy's P.DEF by $1\nIf [Whimpering] < 4:\n►Deals $2 P.DMG to a single enemy\n►Recovers own HP by $3\nIf [Whimpering] ≥ 4:\n►Consumes 4 [Whimpering]\n►Boosts P.ATK of allies in range by $4\n►Deals $5 P.DMG (ignores 50 P.DEF) to a single enemy\n►Deals $6 P.DMG (ignores 50 P.DEF) to a single enemy"
+##S1##
+氷菓 =Ice Sweets
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン範囲内の味方の物理攻撃力を(\d+)アップ$"="►Deals $1 P.DMG to a single enemy\n►Lowers a single enemy's P.ATK by $2\n►Lowers a single enemy's M.ATK by $3\n►Lowers a single enemy's P.DEF by $4\n►Boosts P.ATK of allies in range by $5"
+r:"^目の前の敵１キャラに物理大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウン、物理防御力を小ダウンさせる。さらに、自分を中心とした範囲内の味方すべての物理攻撃力を大アップさせる。$"="Deals large P.DMG to one enemy in front while greatly lowering P.ATK/M.ATK and slightly lowering P.DEF. Also greatly boosts P.ATK of nearby allies."
+##S2##
+汐沓 = Shiohama
+r:"^敵全体を挑発する自分が受ける物理ダメージを15％カット自分が受ける魔法ダメージを15％カット物理攻撃力を(\d+)アップさせるフィールドを展開する物理防御力を(\d+)アップさせるフィールドを展開する魔法防御力を(\d+)アップさせるフィールドを展開する毎秒ＨＰを(\d+)回復するフィールドを展開する毎秒ＴＰを10回復するフィールドを展開する$"="►Taunts all enemies\n►Reduces P.DMG taken by 15%\n►Reduces M.DMG taken by 15%\n►Deploys P.ATK Boost Field (+$1)\n►Deploys P.DEF Boost Field (+$2)\n►Deploys M.DEF Boost Field (+$3)\n►Deploys HP Recovery Field ($4 per second)\n►Deploys TP Recovery Field (10 per second)"
+r:"^【挑発】敵全体を挑発し、自分に物理ダメージカット効果と魔法ダメージカット効果を付与する。さらに、自分を中心とした範囲内の味方すべての物理攻撃力を大アップ、物理防御力と魔法防御力を中アップ、ＨＰとＴＰを小回復させるフィールドを展開する。$"="[Taunt] Taunts all enemies while gaining P.DMG/M.DMG reduction. Also deploys fields that greatly boost P.ATK, moderately boost P.DEF/M.DEF, and slightly recover HP/TP for nearby allies."
+##EX##
+アイスクリームぐずり味+ =Ice Cream - Tantrum Flavor+
+
+##Special Skill##
+絶対に赤ちゃん化しない！ = I'll absolutely never turn into a baby!
+r:"^攻撃を受けた時、自分にぐずぐずを１つ付与する$"="Gains 1 [Whimpering] when attacked"
+r:"^敵から攻撃を受けた時に発動し、自分に【ぐずぐず】を１つ付与する。【ぐずぐず】は最大８つまで追加される。$"="Activates when attacked and grants 1 [Whimpering] to self\n[Whimpering] can stack up to 8 times"

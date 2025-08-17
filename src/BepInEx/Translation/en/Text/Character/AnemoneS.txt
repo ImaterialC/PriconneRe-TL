@@ -1,0 +1,21 @@
+##UB##
+フルートフル・ブルーム=Fruitful Bloom
+r:"^目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法特大ダメージを与え、魔法防御力を小ダウンさせる。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、継続ＨＰ回復状態を付与する。$"="Deals massive M.DMG (counts as P.DMG if target's P.DEF < M.DEF) to one enemy in front, slightly lowers M.DEF, greatly boosts all allies' M.ATK, largely boosts M.CRIT RATE, slightly boosts M.CRIT DMG, and grants continuous HP recovery."
+r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ敵単体の魔法防御力を(\d+)ダウン味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを3％アップ毎秒ＨＰを(\d+)回復する$"="►Deals $1 M.DMG to a single enemy (uses lower DEF value)\n►Lowers a single enemy's M.DEF by $2\n►Boosts all allies' M.ATK by $3\n►Boosts all allies' M.CRIT RATE by 100\n►Boosts all allies' M.CRIT DMG by 3%\n►Recovers HP by $4 every second"
+
+##S1##
+バルーンクラップ=Balloon Clap
+r:"^目の前の敵１キャラの物理攻撃力と魔法攻撃力を大ダウン、魔法防御力を小ダウンさせる。バトル開始後、初弾のこのスキルは、追加で目の前の敵１キャラの物理攻撃のダメージと魔法攻撃のダメージを小ダウンさせる。$"="Greatly lowers P.ATK/M.ATK and slightly lowers M.DEF of one enemy in front. When first used in battle, additionally slightly reduces the enemy's P.DMG/M.DMG dealt."
+r:"^敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン初使用時、敵単体が与える物理ダメージを5％ダウン初使用時、敵単体が与える魔法ダメージを5％ダウン$"="►Lowers a single enemy's P.ATK by $1\n►Lowers a single enemy's M.ATK by $2\n►Lowers a single enemy's M.DEF by $3\n\nOn first use:\n►Reduces enemy's P.DMG dealt by 5%\n►Reduces enemy's M.DMG dealt by 5%"
+
+##S2##
+サマーネクター=Summer Nectar
+r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体の行動速度アップ光属性の味方のＨＰを(\d+)回復光属性の味方のＴＰを100回復$"="►Boosts all allies' P.DEF by $1\n►Boosts all allies' M.DEF by $2\n►Increases all allies' action speed\n►Recovers [Light] allies' HP by $3\n►Recovers [Light] allies' TP by 100"
+r:"^味方全体の物理防御力と魔法防御力を小アップさせ、行動速度を大アップさせる。さらに、光属性の味方すべてのＨＰとＴＰを小回復させる。バトル開始後、初弾のこのスキルは、光属性の味方の数に応じてＴＰの回復量が最大５倍までアップする。$"="Slightly boosts all allies' P.DEF/M.DEF and greatly increases action speed. Also slightly recovers HP/TP of all [Light] allies. When first used in battle, TP recovery increases up to 5x based on number of [Light] allies."
+
+#EX##
+トロピカルリーフ=Tropical Leaf
+トロピカルリーフ+=Tropical Leaf+
+
+##Misc##
+で砂浜の木陰に微睡むアルラウネの妖魔人。行動速度アップや初回使用時に回復量が増加するＴＰ回復を起点に支援し、穏やかな木漏れ日と共にゆらゆら憩う。=An Alraune dozes in the beach's shade, bolstering allies with TP recovery that quickens actions and boosts initial healing—all while swaying lazily in the filtered sunbeams.
