@@ -1,0 +1,28 @@
+##UB##
+天楼覇断剣・焔=Heavenly Castle Supreme Severing Sword: Blaze
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ攻撃する度にダメージ1500増加$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Deals $3 P.DMG to a single enemy.\n►DMG increases by 1500 with each attack.
+
+最も物理防御力の低い敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを２回与え、最も物理防御力の低い敵１キャラに物理極大ダメージを与える。このＵＢの初回使用後、アイラが敵を攻撃するたびに、以降その敵にアイラが与えるダメージがアップする。この効果は最大100回まで累積する。さらに、行動パターンが変化し、通常攻撃が強化通常攻撃になる。強化通常攻撃は目の前の敵１キャラに物理中ダメージを与え、前方の敵すべてに物理小ダメージを２回与える。=Deals 2 medium P.DMG hits in an AOE centered around the enemy with the lowest PDEF, and deals massive P.DMG to the enemy with the lowest P.DEF. After first UB use, each attack that Aira lands on an enemy increases the damage dealt (+1500 damage per stack). This effect stack caps at 100. Also changes her skill loop permanently and turns her AAs into enhanced AAs. Enhanced AAs deals moderate physical damage to the frontmost enemy, and two instances of slight physical damage to all frontmost enemies.
+
+##S1## 
+バァーニィーーングッ！！=It's Buuuurniiing!!
+
+最も物理防御力の低い敵１キャラに物理大ダメージを２回与え、物理防御力を小ダウンさせる。=Deals 2 large P.DMG hits to the enemy with the lowest P.DEF and slightly lowers P.DEF.
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $3.
+
+##S2##
+リンクスコンビネーション=Lynx Combination
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分の物理クリダメを4％アップ$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Boosts own P.ATK by $3.\n►Boosts own P.CRIT DMG by 4%.
+
+前方の敵すべてに物理中ダメージを２回与え、自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップする。=Deals 2 medium P.DMG hits to all enemies in front, massively boosts own P.ATK, and slightly boosts own P.CRIT DMG.
+
+##EX##
+バーニング肉球パワー！=Burning Paw Power!
+バーニング肉球パワー！+=Burning Paw Power!+
+
+
+
+
+
+

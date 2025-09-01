@@ -2,19 +2,25 @@
 【物理】前衛でハグの機会を窺う水着のスライムギャル。攻撃してきた敵に【ネバネバ】を自動で付着させ、攻撃力ダウンやダメージ、束縛など複数の効果を引き起こす。=[Physical] A slime gyaru in swimsuit who prawls the frontlines for a chance to hug. Any enemy that attacks her will suffer from a [Sticky] effect, which lowers their attack, damages them, restricts their movement, and more.
 
 ##UB##
-スライミィサービス=Slimy Service
-目の前の敵１キャラに物理特大ダメージ、物理防御力を中ダウン、【ネバネバ】を２つ付与する（最大６まで）。【ネバネバ】の数に応じて敵の攻撃力はダウンする。自分のＨＰを中回復する。【ネバネバ】の数が４以上の場合、自分に物理/魔法無効バリアを展開する。=Deals massive P.DMG to an enemy, moderately lowers its P.DEF, and inflicts 2 [Sticky], up to a maximum of 6. Updates an enemy's lowered P/M.ATK based on the number of [Sticky] stacks. Also moderately recovers own HP. If an enemy has 4+ [Sticky] stacks, also deploys Barrier over oneself that negates P/M.DMG.
-r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を(\d+)ダウン敵単体の物理・魔法攻撃力を(\d+)ダウン自分のＨＰを(\d+)回復ネバネバが４以上の場合、(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Inflicts 2 [Sticky] to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Updates an enemy's lowered P/M.ATK by $3×[Sticky].\n►Recovers own HP by $4.\n►If an enemy has 4+ [Sticky], deploys Barrier over oneself that negates $5 P/M.DMG for 18s.
+スライミィサービス=Slime-y Service
+r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を255ダウン敵単体の物理・魔法攻撃力を1452ダウン自分のＨＰを20885回復ネバネバが４つ以上の場合、16335ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts 2 [Sticky] on a single enemy.\n►Lowers a single enemy's P.DEF by 255.\n►Lowers a single enemy's P.ATK & M.ATK by 1452.\n►Recovers own HP by 20885.\n\nIf [Sticky] is 4 or more:\n►Creates a P.DMG/M.DMG Null Barrier (16335 HP) for self.
+
+r:"^目の前の敵１キャラに物理特大ダメージ、物理防御力を中ダウン、【ネバネバ】を２つ付与する（最大６つまで）。【ネバネバ】の数に応じて敵の攻撃力はダウンする。自分のＨＰを中回復する。【ネバネバ】の数が４つ以上の場合、自分に物理/魔法無効バリアを展開する。$"=Deals massive P.DMG to 1 enemy directly ahead, moderately lowers their P.DEF, and inflicts 2 [Sticky] (max: 6). Enemy ATK decreases based on [Sticky] count. Recovers own HP by a moderate amount. If [Sticky] count is 4 or more, creates a P.DMG/M.DMG Null Barrier for self.
 
 ##S1##
-ホットヒップドロップ=Hot Hip Drop
-目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。さらに、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。対象の【ネバネバ】の数が４以上の場合、さらに味方全体のＴＰを小回復する。=Deals moderate P.DMG to an enemy in front, and slightly lowers its P.DEF. Also massively boosts all allies' P.ATK and greatly boosts their P.CRIT. If an enemy has 4+ [Sticky] stacks, also slightly recovers all allies' TP.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを80アップネバネバが４以上の場合、味方全体のＴＰを30回復$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Boosts all allies' P.ATK by $3 for 12s.\n►Boosts all allies' P.CRIT Rate by 80 for 12s.\n►If an enemy has 4+ [Sticky], recovers all allies' TP by 30.
+ホットヒップドロップ+=Hot hip drop+
+ホットヒップドロップ=Hot hip drop
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを80アップネバネバが２つ以上の場合、味方全体の物理クリダメを8％アップネバネバが４つ以上の場合、味方全体のＴＰを30回復$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Boosts all allies' P.ATK by $3.\n►Boosts all allies' P.CRIT RATE by 80.\nIf [Sticky] is 2 or more:\n►Boosts all allies' P.CRIT DMG by 8％.\nIf [Sticky] is 4 or more:\n►Recovers all allies' TP by 30.
+
+r:"^目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。さらに、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。対象の【ネバネバ】の数が２つ以上の場合、味方全体の物理攻撃クリティカル時のダメージを小アップ、４つ以上の場合、さらに味方全体のＴＰを小回復させる。$"=Deals moderate P.DMG to 1 enemy ahead and slightly lowers their P.DEF. Also greatly boosts all allies' P.ATK and significantly raises their P.CRIT RATE. If target has 2+ [Sticky], slightly boosts all allies' P.CRIT DMG. If 4+ [Sticky], additionally recovers all allies' TP by a small amount.
 
 ##S2##
 ハグハグスライム=Hug-Hug Slime
-敵から攻撃を受けるたび、その敵に【ネバネバ】を１つ付与する状態になる。【ネバネバ】は最大６まで追加される。【ネバネバ】の数に応じて敵の攻撃力はダウンする。【ネバネバ】が６の敵から攻撃を受けた場合、その敵の【ネバネバ】を２つ消費し、物理中ダメージを与え、束縛し、さらに自分のＨＰを中回復する。=Inflicts [Sticky] onto an enemy when receiving an attack, up to a maximum of 6. Updates an enemy's lowered P/M.ATK based on the number of [Sticky] stacks. If an enemy has 6 [Sticky] stacks, consumes 2 of their stacks, deals moderate P.DMG, inflicts Bind, and moderately recovers own HP.
-r:"^自分を攻撃した敵にネバネバを１つ付与する敵単体の物理・魔法攻撃力を(\d+)ダウン自分を攻撃した敵のネバネバが６の場合、以下の効果が発動するその敵のネバネバを２つ消費するその敵に(\d+)の物理ダメージその敵を一定時間行動不能にする自分のＨＰを(\d+)回復$"=When receiving an attack:\n►Inflicts [Sticky] onto an enemy.\n►Updates an enemy's lowered P/M.ATK by $1×[Sticky].\n\nWhen receiving an attack, if an enemy has 6 [Sticky]:\n►Deals $2 P.DMG to an enemy.\n►Recovers own HP by $3.\n►Consumes 2 [Sticky] of an enemy.
+
+r:"^自分を攻撃した敵にネバネバを１つ付与する敵単体の物理・魔法攻撃力を(\d+)ダウン自分を攻撃した敵のネバネバが６つの場合、以下の効果が発動するその敵のネバネバを２つ消費するその敵に(\d+)の物理ダメージその敵を一定時間行動不能にする自分のＨＰを(\d+)回復$"=►Inflicts 1 [Sticky] on attacking enemy.\n►Lowers attacking enemy's P.ATK & M.ATK by $1.\n\nIf attacking enemy has 6 [Sticky]:\n►Consumes 2 [Sticky] from that enemy.\n►Deals $2 P.DMG to that enemy.\n►Binds that enemy.\n►Recovers own HP by $3.
+
+r:"^敵から攻撃を受けるたび、その敵に【ネバネバ】を１つ付与する状態になる。【ネバネバ】は最大６つまで追加される。【ネバネバ】の数に応じて敵の攻撃力はダウンする。【ネバネバ】が６つの敵から攻撃を受けた場合、その敵の【ネバネバ】を２つ消費し、物理中ダメージを与え、束縛し、さらに自分のＨＰを中回復する。$"=When attacked, inflicts 1 [Sticky] on the attacking enemy (max: 6). Enemy ATK decreases based on [Sticky] count. If attacked by an enemy with 6 [Sticky], consumes 2 [Sticky] from them, deals moderate P.DMG, binds them, and moderately recovers own HP.
 
 ##EX##
 ぷるぷるサンスクリーン=Puru-Puru Sunscreen

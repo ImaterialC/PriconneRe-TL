@@ -22,5 +22,13 @@ r:"^敵単体の物理防御力を(\d+)ダウン自分のＴＰを(\d+)回復$"=
 ミッドサマーブラスト+=Midsummer Blast+
 目の前の敵１キャラに物理大ダメージを与え、物理防御力を中ダウンさせ、さらに自分の物理攻撃力を大アップする。=Deals large P.DMG to an enemy in front, moderately lowers their P.DEF, and greatly boosts own P.ATK both for 18s.
 
+##S2+##
+アルケミックサマー+=Alchemic Summer+
+r:"^目の前の敵１キャラのクリティカルを受けた際のダメージを小アップ、毒状態と猛毒状態にし、物理防御力を大ダウンさせる。さらに、自分のＴＰを中回復する。対象の敵が毒状態だった場合、毒のダメージがアップ、猛毒状態だった場合、猛毒のダメージがアップする。$"=Slightly increases critical damage taken, inflicts Poison and Venom, and greatly lowers P.DEF of the enemy directly ahead. Also moderately recovers own TP. If the target is already Poisoned, boosts Poison damage. If the target is already Venomed, boosts Venom damage.
+r:"^敵単体の物理防御力を(\d+)ダウン敵単体の被クリダメを(\d+)％アップ(\d+)ダメージを与える毒状態にする敵が毒状態の時、(\d+)ダメージを与える毒状態にする(\d+)ダメージを与える猛毒状態にする敵が猛毒状態の時、(\d+)ダメージを与える猛毒状態にする自分のＴＰを(\d+)回復$"=►Lowers a single enemy's P.DEF by $1.\n►Boosts a single enemy's CRIT DMG taken by $2%.\n►Inflicts Poison, dealing $3 P.DMG.\nIf enemy is Poisoned:\n►Inflicts Poison, dealing $4 P.DMG.\n►Inflicts Venom, dealing $5 P.DMG.\nIf enemy is Venomed:\n►Inflicts Venom, dealing $6 P.DMG.\n►Recovers own TP by $7.
+
 ##UE##
 ミッドサマー=Midsummer
+
+##UE2##
+ロマンスポーション=Romance Potion
