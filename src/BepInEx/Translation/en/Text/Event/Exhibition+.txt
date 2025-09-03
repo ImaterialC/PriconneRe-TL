@@ -24,15 +24,8 @@ sr:"^バトル開始後(\d+)秒間(.{2,12}?)(極(?:\n　)?大|絶(?:\n　)?大|�
 r:"^【(.+)】付与$"=[b][$1][/b] applied\nTN:see character's skill for further info.
 r:"^【残り挑戦回数 ([0-9/]+)】$"=[Attempt Left: $1]
 
-バトル開始後90秒間敵全体の魔法防御力特大ダウン=For 90s at start of battle, maximum lower to all enemies' M.DEF
-バトル開始後90秒間敵全体の物理防御力特大ダウン=For 90s at start of battle, maximum lower to all enemies' P.DEF
 r:"^バトル開始後味方全体の行動不能(\d)回無効$"=After the start of the battle, disable all allies' incapacitation $1 times
-バトル開始後90秒間味方全体に継続ＨＰ回復状態付与=Grants continuous HP recovery to all allies for 90 seconds after the start of battle.
 
-
-バトル開始後90秒間継続ＴＰ回復状態付与=Continuous TP recovery status added for 90 seconds after the start of battle
-
-バトル開始後90秒間継続ＨＰ回復状態付与=Continuous HP recovery status added for 90 seconds after the start of battle
 
 ボスのフィールド効果無効=Boss's field effect nullified
 ボスの環境効果無効=Boss's environmental effect nullified
@@ -60,13 +53,22 @@ SPECIALはバトルモードが３段階変化するバトルです。\nより�
 EXHIBITIONでは、SPECIALのボスと何度も戦えます。\nまた、バトルのログを保存して振り返ることができるので、\n独自の攻略法を見つけたり、様々な編成を試してみましょう。=In EXHIBITION, you can fight the boss of SPEACIAL over and over again. You can also save your battle logs and look back at them, so try to find your own unique strategy and organize them in various ways.
 
 ボスの麻痺無効=Boss paralysis nullification
-バトル開始後90秒間物理攻撃力絶大\nアップ、味方全体の物理攻撃力と\n魔法攻撃力極大アップ=For 90 seconds after the start of battle, physical attack power is maximum increased, and the physical attack power and magical attack power of all allies are huge increased.
-バトル開始後90秒間魔法攻撃力絶大\nアップ、味方全体の物理攻撃力と\n魔法攻撃力極大アップ=For 90 seconds after the start of battle, magical attack power is maximum increased, and the physical attack power and magical attack power of all allies are huge increased.
+バトル開始後90秒間物理攻撃力絶大アップ、味方全体の物理攻撃力と魔法攻撃力極大アップ=For 90s at start of battle, physical attack power is maximum increased, and the physical attack power and magical attack power of all allies are huge increased.
+バトル開始後90秒間魔法攻撃力絶大アップ、味方全体の物理攻撃力と魔法攻撃力極大アップ=For 90s at start of battle, magical attack power is maximum increased, and the physical attack power and magical attack power of all allies are huge increased.
 
 
-バトル開始後90秒間味方全体の魔法\n防御力特大アップ=For 90s at start of battle, maximum boost to all allies M.DEF.
-バトル開始後90秒間味方全体の物理\n防御力特大アップ=For 90s at start of battle, maximum boost to all allies P.DEF.
+バトル開始後90秒間味方全体の魔法防御力特大アップ=For 90s at start of battle, maximum boost to all allies M.DEF.
+バトル開始後90秒間味方全体の物理防御力特大アップ=For 90s at start of battle, maximum boost to all allies P.DEF.
 バトル開始後味方全体のＴＰ大回復=After the start of battle, all allies recover a large amount of TP.
-バトル開始後90秒間味方全体の物理\n攻撃力特大アップ=For 90s at start of battle, maximum boost to all allies P.ATK.
-バトル開始後90秒間味方全体の魔法\n攻撃力特大アップ=For 90s at start of battle, maximum boost to all allies M.ATK.
+バトル開始後90秒間味方全体の物理攻撃力特大アップ=For 90s at start of battle, maximum boost to all allies P.ATK.
+バトル開始後90秒間味方全体の魔法攻撃力特大アップ=For 90s at start of battle, maximum boost to all allies M.ATK.
 
+バトル開始後90秒間敵全体の魔法攻撃力中ダウン=For 90s at start of battle, maximum lower to all enemies M.ATK.
+バトル開始後90秒間敵全体の物理攻撃力中ダウン=For 90s at start of battle, maximum lower to all enemies P.ATK.
+バトル開始後90秒間敵全体の魔法防御力特大ダウン=For 90s at start of battle, maximum lower to all enemies' M.DEF
+バトル開始後90秒間敵全体の物理防御力特大ダウン=For 90s at start of battle, maximum lower to all enemies' P.DEF
+
+バトル開始後90秒間味方全体に継続ＴＰ回復状態付与=For 90s at start of battle, continuous TP recovery status added to all allies.
+バトル開始後90秒間味方全体に継続ＨＰ回復状態付与=For 90s at start of battle, continuous HP recovery status added to all allies.
+バトル開始後90秒間継続ＴＰ回復状態付与=For 90s at start of battle, continuous TP recovery status added.
+バトル開始後90秒間継続ＨＰ回復状態付与=For 90s at start of battle, continuous HP recovery status added.

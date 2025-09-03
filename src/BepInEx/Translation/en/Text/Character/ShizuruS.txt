@@ -30,7 +30,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理防御力を(\d+)
 サン・フラワリー+=Sun-Flowery+
 r:"^味方全体の物理攻撃力を(\d+)アップ味方全体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Boosts all allies' P.ATK by $1(+2.7xPDEF).\n►Recovers all allies' HP by $2(+0.9xPDEF).\n►Grants HP Regen, recovering $3 HP every second(+0.2xPDEF).\n►Boosts own P.ATK by $4(+2.7xPDEFxNumber of enemies).\n►Boosts own P.DEF by $5.
 
-r:"^味方全体の物理攻撃力を大アップ、ＨＰを小回復させ、継続ＨＰ回復状態を付与する。さらに、自分の物理攻撃力を大アップ、物理防御力を小アップする。自分の物理防御力が高い程、味方全体の物理攻撃力の上昇量とＨＰの回復量がアップし、自分の物理防御力と敵の数に応じて、自分の物理攻撃力の上昇量がアップする。$"=Greatly boosts all allies' P.ATK, slightly recovers their HP, and grants HP Regen status. Also greatly boosts own P.ATK and slightly boosts own P.DEF. The higher own P.DEF, the more all allies' P.ATK is boosted and HP is recovered. The amount own P.ATK is boosted increases based on own P.DEF and number of enemies.
+味方全体の物理攻撃力を大アップ、ＨＰを小回復させ、継続ＨＰ回復状態を付与する。さらに、自分の物理攻撃力を大アップ、物理防御力を小アップする。自分の物理防御力が高い程、味方全体の物理攻撃力の上昇量とＨＰの回復量がアップし、自分の物理防御力と敵の数に応じて、自分の物理攻撃力の上昇量がアップする。=Greatly boosts all allies' P.ATK, slightly recovers their HP, and grants HP Regen status. Also greatly boosts own P.ATK and slightly boosts own P.DEF. The higher own P.DEF, the more all allies' P.ATK is boosted and HP is recovered. The amount own P.ATK is boosted increases based on own P.DEF and number of enemies.
 
 ##UE##
 スプラッシュハート=Splash Heart

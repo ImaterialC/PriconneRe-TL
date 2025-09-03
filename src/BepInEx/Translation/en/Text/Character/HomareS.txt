@@ -14,7 +14,7 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダ
 ##S1+##
 アクアスプラッシュ+=Aqua Splash+
 r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン対象の日食が25以上の時、範囲内の敵に(\d+)の魔法ダメージ対象の日食が25以上の時、自分の魔法攻撃力を(\d+)アップ対象の日食が25以上の時、自分のＴＰを(\d+)回復$"="►Deals $1 M.DMG to enemy with lowest M.DEF\n►Lowers their M.DEF by $2\n\nIf target has ≥25 [Solar Eclipse]:\n►Deals $3 M.DMG to enemies around target\n►Boosts own M.ATK by $4\n►Recovers own TP by $5"
-r:"^最も魔法防御力の低い敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。対象の【日食】の数が25以上の場合、その敵を中心とした範囲内の敵すべてに魔法大ダメージを与え、自分の魔法攻撃力を大アップ、ＴＰを小回復する。最も魔法防御力の低い敵１キャラの【日食】の数に応じてこのスキルのダメージがアップする。$"="Deals large M.DMG to enemy with lowest M.DEF while slightly lowering their M.DEF. With ≥25 [Solar Eclipse] on target, deals additional large M.DMG to surrounding enemies while greatly boosting own M.ATK and slightly recovering TP. Damage scales with target's [Solar Eclipse] count."
+最も魔法防御力の低い敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。対象の【日食】の数が25以上の場合、その敵を中心とした範囲内の敵すべてに魔法大ダメージを与え、自分の魔法攻撃力を大アップ、ＴＰを小回復する。最も魔法防御力の低い敵１キャラの【日食】の数に応じてこのスキルのダメージがアップする。=Deals large M.DMG to enemy with lowest M.DEF while slightly lowering their M.DEF. With ≥25 [Solar Eclipse] on target, deals additional large M.DMG to surrounding enemies while greatly boosting own M.ATK and slightly recovering TP. Damage scales with target's [Solar Eclipse] count.
 
 ##S2##
 サマーサンダーボルト=Summer Thunderbolt

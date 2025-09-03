@@ -1,7 +1,7 @@
 ##UB##
 アムニス・オケアノス=Amnis Oceanus
 
-r:"^敵全体の魔法防御力を特大ダウンさせ、魔法大ダメージを与える。最も魔法防御力の低い敵１キャラの【虚脱】の数が80の場合、味方全体の魔法攻撃力を極大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、最も魔法防御力の低い敵１キャラに追加の魔法特大ダメージを与える。$"=Lowers all enemies' M.DEF by a massive amount and deals heavy M.DMG. When the enemy with lowest M.DEF has 80 [Exhaust] stacks: greatly boosts all allies' M.ATK, slightly boosts M.CRIT DMG, and deals additional massive M.DMG to the enemy with lowest M.DEF.
+敵全体の魔法防御力を特大ダウンさせ、魔法大ダメージを与える。最も魔法防御力の低い敵１キャラの【虚脱】の数が80の場合、味方全体の魔法攻撃力を極大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、最も魔法防御力の低い敵１キャラに追加の魔法特大ダメージを与える。=Lowers all enemies' M.DEF by a massive amount and deals heavy M.DMG. When the enemy with lowest M.DEF has 80 [Exhaust] stacks: greatly boosts all allies' M.ATK, slightly boosts M.CRIT DMG, and deals additional massive M.DMG to the enemy with lowest M.DEF.
 
 r:"^敵全体の魔法防御力を(\d+)ダウン敵全体に(\d+)の魔法ダメージ対象の虚脱が80の時、味方全体の魔法攻撃力を(\d+)アップ対象の虚脱が80の時、味方全体の魔法クリダメを(\d+)％アップ対象の虚脱が80の時、敵単体に(\d+)の魔法ダメージ$"=►Lowers all enemies' M.DEF by 3.\n►Deals 5527 M.DMG to all enemies.\n\nIf target has 80 [Exhaust]:\n►Boosts all allies' M.ATK by 120.\n►Boosts all allies' M.CRIT DMG by 12%.\n►Deals 13818 M.DMG to a single enemy.
 
@@ -22,4 +22,4 @@ r:"^敵全体の物理攻撃力を(\d+)ダウン敵全体の魔法攻撃力を(\
 定時退勤の心得+=Principles of Clocking Out on Time+
 
 ##Profile##
-r:"^後衛で、小柄で大人対応な錬金堂の省エネ店主。強力な弱体効果を与えながら、デバフ付与のたび増加する【虚脱】が80溜まると本気を出し定時厳守で戦い抜く。$"=A petite but professional alchemy shop owner conserving energy in the rear. While applying powerful debuffs, she gets serious when [Exhaustion] from debuffing reaches 80, fighting strictly by the clock.
+【魔法】後衛で、小柄で大人対応な錬金堂の省エネ店主。強力な弱体効果を与えながら、デバフ付与のたび増加する【虚脱】が80溜まると本気を出し定時厳守で戦い抜く。=[Magic] A petite but professional alchemy shop owner conserving energy in the rear. While applying powerful debuffs, she gets serious when [Exhaustion] from debuffing reaches 80, fighting strictly by the clock.

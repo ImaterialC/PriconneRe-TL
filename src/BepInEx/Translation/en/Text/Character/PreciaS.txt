@@ -1,19 +1,19 @@
-r:"^で夏の食を満喫し、ぷかぷか漂う天然少女。ＴＰ・攻撃支援やバリアは味方の数で効果量が変化し、物理と魔法攻撃力合算のダメージで夏の思い出を心に刻む。$"=A ditzy maiden adrift, savoring summer's feast.\nTP Boost/ATK Support & Barrier potency scales with ally count.\nDeals combined P.ATK+M.ATK DMG to carve summer into memory.
+で夏の食を満喫し、ぷかぷか漂う天然少女。ＴＰ・攻撃支援やバリアは味方の数で効果量が変化し、物理と魔法攻撃力合算のダメージで夏の思い出を心に刻む。=A ditzy maiden adrift, savoring summer's feast. TP Boost/ATK Support & Barrier potency scales with ally count. Deals combined P.ATK+M.ATK DMG to carve summer into memory.
 
 #UB##
 ビッグピッグヒップドロップ=Big Pig Hip Drop
-r:"^目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法特大ダメージを与え、追加の物理特大ダメージを与える。さらに、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。物理攻撃力アップと物理クリティカルアップの効果量は味方の数に応じて変化する。$"="Deals massive M.DMG (counts as P.DMG if target's P.DEF < M.DEF) and additional massive P.DMG to one enemy in front. Greatly boosts all allies' P.ATK and P.CRIT RATE. Effect scales with number of allies."
+目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法特大ダメージを与え、追加の物理特大ダメージを与える。さらに、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。物理攻撃力アップと物理クリティカルアップの効果量は味方の数に応じて変化する。=Deals massive M.DMG (counts as P.DMG if target's P.DEF < M.DEF) and additional massive P.DMG to one enemy in front. Greatly boosts all allies' P.ATK and P.CRIT RATE. Effect scales with number of allies.
 r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ$"="►Deals $1 M.DMG to a single enemy (uses lower DEF value)\n►Deals $2 P.DMG to a single enemy\n►Boosts all allies' P.ATK by $3\n►Boosts all allies' P.CRIT RATE by 100"
 
 ##S1##
 たねれんしゃ=Seed Barrage
-r:"^目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法大ダメージを与える。さらに、味方全体の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、物理無効バリアを展開する。物理攻撃力アップ、物理攻撃クリティカル時のダメージアップの効果量とバリアの無効ダメージ量は味方の数に応じて変化する。$"="Deals large M.DMG (counts as P.DMG if target's P.DEF < M.DEF) to one enemy in front. Greatly boosts all allies' P.ATK, slightly boosts P.CRIT DMG, and deploys Physical Null Barrier. Effects scale with number of allies."
+目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法大ダメージを与える。さらに、味方全体の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、物理無効バリアを展開する。物理攻撃力アップ、物理攻撃クリティカル時のダメージアップの効果量とバリアの無効ダメージ量は味方の数に応じて変化する。=Deals large M.DMG (counts as P.DMG if target's P.DEF < M.DEF) to one enemy in front. Greatly boosts all allies' P.ATK, slightly boosts P.CRIT DMG, and deploys Physical Null Barrier. Effects scale with number of allies.
 r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリダメを8％アップ(\d+)ダメージ分の物理無効バリアを展開する$"="►Deals $1 M.DMG to a single enemy (uses lower DEF value)\n►Boosts all allies' P.ATK by $2\n►Boosts all allies' P.CRIT DMG by 8%\n►Deploys Physical Null Barrier ($3 DMG)"
 
 ##S2##
 おいしいひんやり=Tasty Cool Treat
 r:"^自分の魔法攻撃力を(\d+)アップ味方全体の物理クリダメを8％アップ味方全体のＨＰを(\d+)回復自分のＴＰを30回復自分以外の味方全体のＴＰを20回復$"="►Boosts own M.ATK by $1\n►Boosts all allies' P.CRIT DMG by 8%\n►Recovers all allies' HP by $2\n►Recovers own TP by 30\n►Recovers all other allies' TP by 20"
-r:"^自分の魔法攻撃力を特大アップし、味方全体の物理攻撃クリティカル時のダメージを小アップ、ＨＰを小回復させる。さらに自分のＴＰを小回復し、自分以外の味方全体のＴＰを小回復させる。魔法攻撃力アップ、物理攻撃クリティカル時のダメージアップの効果量とＴＰの回復量は味方の数に応じて変化する。$"="Greatly boosts own M.ATK, slightly boosts all allies' P.CRIT DMG, and slightly recovers HP. Also slightly recovers own TP and all other allies' TP. Effects scale with number of allies."
+自分の魔法攻撃力を特大アップし、味方全体の物理攻撃クリティカル時のダメージを小アップ、ＨＰを小回復させる。さらに自分のＴＰを小回復し、自分以外の味方全体のＴＰを小回復させる。魔法攻撃力アップ、物理攻撃クリティカル時のダメージアップの効果量とＴＰの回復量は味方の数に応じて変化する。=Greatly boosts own M.ATK, slightly boosts all allies' P.CRIT DMG, and slightly recovers HP. Also slightly recovers own TP and all other allies' TP. Effects scale with number of allies.
 
 #EX#
 はっぴーさまー+=Happy Summer+
@@ -22,5 +22,5 @@ r:"^自分の魔法攻撃力を特大アップし、味方全体の物理攻撃�
 ##Special Effect##
 すーぱーはっぴー=Super Happy
 特殊効果=Special effect
-r:"^ダメージとＨＰ回復は物理攻撃力と魔法攻撃力を合わせるクリティカルは物理クリティカルと魔法クリティカルを合わせる$"="[Always Active] Combines P.ATK and M.ATK for damage/HP recovery calculations. Combines P.CRIT and M.CRIT for critical calculations."
-r:"^【常時発動】自分のユニオンバーストおよびスキルのダメージとＨＰ回復は物理と魔法攻撃力を合わせ、クリティカルは物理と魔法クリティカルの値を合わせる。$"="[Permanent Effect] Combines P.ATK and M.ATK for UB/skill damage and HP recovery. Combines P.CRIT and M.CRIT for critical calculations."
+ダメージとＨＰ回復は物理攻撃力と魔法攻撃力を合わせるクリティカルは物理クリティカルと魔法クリティカルを合わせる=[Always Active] Combines P.ATK and M.ATK for damage/HP recovery calculations. Combines P.CRIT and M.CRIT for critical calculations."
+【常時発動】自分のユニオンバーストおよびスキルのダメージとＨＰ回復は物理と魔法攻撃力を合わせ、クリティカルは物理と魔法クリティカルの値を合わせる。=[Permanent Effect] Combines P.ATK and M.ATK for UB/skill damage and HP recovery. Combines P.CRIT and M.CRIT for critical calculations.

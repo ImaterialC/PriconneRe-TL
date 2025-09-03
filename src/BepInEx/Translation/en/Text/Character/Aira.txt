@@ -1,3 +1,8 @@
+人助け、街歩き、利き麦しゅわ=Helping people, walking around town, smart wheat
+
+【物理】前衛で、世界を守り笑顔を咲かせる情熱の豪炎。前方の敵全てを対象とする連撃の強化通常攻撃や、天楼覇断剣から放たれる極大ダメージの一閃で未来を切り拓く。=[Physical] A frontline warrior with a passionate flame that protects the world and brings smiles to faces. He carves out a path to the future with a powerful multi-hit normal attack that targets all enemies in front, and a flash of his Tenrou Hadanken sword that deals enormous damage.
+
+
 ##UB##
 天楼覇断剣・焔=Heavenly Castle Supreme Severing Sword: Blaze
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ攻撃する度にダメージ1500増加$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Deals $3 P.DMG to a single enemy.\n►DMG increases by 1500 with each attack.

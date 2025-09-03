@@ -1,24 +1,27 @@
-## UB ##
+##Profile##
+【物理】中衛で、大きな体で無邪気に遊び回る天才剣士。戦いの中で【剣圧】を溜め、その後のスキルやＵＢで物防一定無視のダメージを連発し、才気煥発の活躍を見せる。=[Physical] A genius swordsman who plays around in a big body with child-like innocence.
+During combat she gains [Sword Pressure], which allows her to continuously dish out damage that ignores physical defense, allowing her radiant genius to shine through.
 
-r:"^イスルギ流奥義・いろは歌【琥珀】$"="Isurugi-ryū Secret Art: Iroha Song [Amber]"
-r:"^目の前の敵１キャラに物理防御力を一定値無視する物理特大ダメージを３回与える。【剣圧】が10の時の初回のユニオンバーストは、追加で目の前の敵１キャラに物理防御力を一定値無視する物理特大ダメージを３回与える。$"="Deals 3 hits of massive P.DMG (ignores some P.DEF) to one enemy in front. When [Sword Pressure] is 10, first UB adds 3 more hits of massive P.DMG (ignores some P.DEF)."
+## UB ##
+イスルギ流奥義・いろは歌【琥珀】=Isurugi-ryū Secret Art: Iroha Song [Amber]
+目の前の敵１キャラに物理防御力を一定値無視する物理特大ダメージを３回与える。【剣圧】が10の時の初回のユニオンバーストは、追加で目の前の敵１キャラに物理防御力を一定値無視する物理特大ダメージを３回与える。=Deals 3 hits of massive P.DMG (ignores some P.DEF) to one enemy in front. When [Sword Pressure] is 10, first UB adds 3 more hits of massive P.DMG (ignores some P.DEF).
 r:"^敵単体に物理防御力を50無視する(\d+)の物理ダメージ敵単体に物理防御力を50無視する(\d+)の物理ダメージ敵単体に物理防御力を50無視する(\d+)の物理ダメージ剣圧が10の場合の初使用時、敵単体に物理防御力を50無視する(\d+)の物理ダメージ剣圧が10の場合の初使用時、敵単体に物理防御力を50無視する(\d+)の物理ダメージ剣圧が10の場合の初使用時、敵単体に物理防御力を50無視する(\d+)の物理ダメージ$"="►Deals $1 P.DMG (ignores 50 P.DEF) to a single enemy.\n►Deals $2 P.DMG (ignores 50 P.DEF) to a single enemy.\n►Deals $3 P.DMG (ignores 50 P.DEF) to a single enemy.\n\nIf [Sword Pressure] is 10 on first use:\n►Deals $4 P.DMG (ignores 50 P.DEF) to a single enemy.\n►Deals $5 P.DMG (ignores 50 P.DEF) to a single enemy.\n►Deals $6 P.DMG (ignores 50 P.DEF) to a single enemy."
 
 ## S1 ##
-r:"^イスルギ流剣術・青嵐$"="Isurugi-ryū Sword Art: Blue Storm"
-r:"^目の前の敵１キャラに物理大ダメージを３回与える。【剣圧】が10の時、この物理ダメージが敵の物理防御力を一定値無視するようになり、追加で目の前の敵１キャラに物理防御力を一定値無視する物理特大ダメージを与える。$"="Deals 3 hits of large P.DMG to one enemy in front. When [Sword Pressure] is 10, DMG ignores some P.DEF and adds 1 hit of massive P.DMG (ignores some P.DEF)."
+イスルギ流剣術・青嵐=Isurugi-ryū Sword Art: Blue Storm
+目の前の敵１キャラに物理大ダメージを３回与える。【剣圧】が10の時、この物理ダメージが敵の物理防御力を一定値無視するようになり、追加で目の前の敵１キャラに物理防御力を一定値無視する物理特大ダメージを与える。=Deals 3 hits of large P.DMG to one enemy in front. When [Sword Pressure] is 10, DMG ignores some P.DEF and adds 1 hit of massive P.DMG (ignores some P.DEF).
 r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ剣圧が10の場合、敵単体に物理防御力を50無視する(\d+)の物理ダメージ剣圧が10の場合、敵単体に物理防御力を50無視する(\d+)の物理ダメージ剣圧が10の場合、敵単体に物理防御力を50無視する(\d+)の物理ダメージ剣圧が10の場合、敵単体に物理防御力を50無視する(\d+)の物理ダメージ$"="►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.\n\nIf [Sword Pressure] is 10:\n►Deals $4 P.DMG (ignores 50 P.DEF) to a single enemy.\n►Deals $5 P.DMG (ignores 50 P.DEF) to a single enemy.\n►Deals $6 P.DMG (ignores 50 P.DEF) to a single enemy.\n►Deals $7 P.DMG (ignores 50 P.DEF) to a single enemy."
 
 ## S2 ##
-r:"^イスルギ流・銀花の構え$"="Isurugi-ryū: Silver Flower Stance"
-r:"^【剣圧】を２つ獲得し、自分の物理攻撃力を特大アップ、物理クリダメを小アップ、行動速度を大アップする。（このスキルの効果は他の行動速度変化スキルと重複する）【剣圧】は最大10まで獲得できる。このスキルを使用するたび、【剣圧】の獲得量と物理攻撃力アップと物理クリダメアップの効果値が増加する。$"="Gains 2 [Sword Pressure], greatly boosts own P.ATK, slightly boosts P.CRIT DMG, and largely boosts action speed (stacks with other speed effects). [Sword Pressure] max is 10. Each use increases [Sword Pressure] gain and buff effectiveness."
+イスルギ流・銀花の構え=Isurugi-ryū: Silver Flower Stance
+【剣圧】を２つ獲得し、自分の物理攻撃力を特大アップ、物理クリダメを小アップ、行動速度を大アップする。（このスキルの効果は他の行動速度変化スキルと重複する）【剣圧】は最大10まで獲得できる。このスキルを使用するたび、【剣圧】の獲得量と物理攻撃力アップと物理クリダメアップの効果値が増加する。=Gains 2 [Sword Pressure], greatly boosts own P.ATK, slightly boosts P.CRIT DMG, and largely boosts action speed (stacks with other speed effects). [Sword Pressure] max is 10. Each use increases [Sword Pressure] gain and buff effectiveness."
 r:"^剣圧を２つ獲得自分の物理攻撃力を(\d+)アップ自分の物理クリダメを16％アップ自分の行動速度アップ$"="►Gains 2 [Sword Pressure].\n►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 16%.\n►Increases own action speed."
 
 ##SP##
-r:"^イスルギ流・銀花の構え…？$"="Isurugi-ryū: Silver Flower Stance…?"
-r:"^バトル終了まで自分が敵から受ける行動不能を無効化する。さらに、【剣圧】を１つ獲得するが、自分の物理クリダメを中ダウン、物理攻撃のダメージを大ダウンする。【剣圧】は最大10まで獲得できる。$"="Nullifies disable effects until battle ends. Gains 1 [Sword Pressure] (max 10), but moderately lowers own P.CRIT DMG and greatly lowers P.DMG dealt."
+イスルギ流・銀花の構え…？=Isurugi-ryū: Silver Flower Stance…?
+バトル終了まで自分が敵から受ける行動不能を無効化する。さらに、【剣圧】を１つ獲得するが、自分の物理クリダメを中ダウン、物理攻撃のダメージを大ダウンする。【剣圧】は最大10まで獲得できる。=Nullifies disable effects until battle ends. Gains 1 [Sword Pressure] (max 10), but moderately lowers own P.CRIT DMG and greatly lowers P.DMG dealt.
 r:"^剣圧を１つ獲得自分が与える物理ダメージを20％ダウン自分の物理クリダメを20％ダウン自分が敵から受ける行動不能を無効化する$"="►Gains 1 [Sword Pressure].\n►Reduces own P.DMG dealt by 20%.\n►Reduces own P.CRIT DMG by 20%.\n►Nullifies disable effects from enemies."
 
 ##EX##
-r:"^剣のいろは\$"="The Basics of the Sword"
-r:"^剣のいろは\+$"="The Basics of the Sword+"
+剣のいろは=The Basics of the Sword
+剣のいろは+=The Basics of the Sword+
