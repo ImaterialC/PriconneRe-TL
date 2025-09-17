@@ -48,7 +48,7 @@ tutorial laby
 累計=Total
 同行するギルドを選択してください。=Select a guild to accompany you.
 
-アルファルピ=Alpha Rupies
+アルファルピ=αRupees
 アストラルブースト=Astral Boost
 
 挑戦終了時報酬=Challenge Complete Reward
@@ -243,8 +243,8 @@ Difficulty Details
 r:"^(\d+)で更新$"=$1 to Reroll
 
 
-必要アルファルピ=Alpha Rupies Needed
-アルファルピを消費してラインナップを更新しますか？=Would you like to use Alpha Rupies to Reroll?
+必要アルファルピ=αRupees Needed
+アルファルピを消費してラインナップを更新しますか？=Would you like to use αRupees to Reroll?
 更新確認=Reroll Confirmation
 
 アタッカーロールのキャラか\nらランダムに1人仲間にでき\nる。=You can get 1 random person from the characters in the Attacker Role.
@@ -273,8 +273,8 @@ r:"^(\d+)で更新$"=$1 to Reroll
 加速=Acceleration
 会心=Critical
 
-アルファルピでアイテムを購入することができます。=You can purchase items using Alpha Rupies.
-所持アルファルピ=Alpha Rupies Held
+アルファルピでアイテムを購入することができます。=You can purchase items using αRupees.
+所持アルファルピ=αRupees Held
 
 
 
@@ -340,7 +340,7 @@ r:"^(\d+)で更新$"=$1 to Reroll
 
 
 
-50％でアルファルピ×1500\n50％でアルファルピ=50%: Alpha Rupies×1500\n50%: Alpha Rupies
+50％でアルファルピ×1500\n50％でアルファルピ=50%: αRupees×1500\n50%: αRupees
 ぷうきち\nフルスイ～ング☆=Pukichi\nFull Swing☆
 箱の中から声が聞こえる……=I can hear voices coming from inside the box...
 お兄ちゃん\nこっちですよ♪=Onii-chan\nover here♪
@@ -351,14 +351,14 @@ r:"^現在：(\d+)$"=Current: $1
 
 代償=Cost
 r:"^([0-9\,]+)消費$"=Consume $1
-r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベントへ$"=$1%: Alpha Rupies×$2\nand to the next event.
+r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベントへ$"=$1%: αRupees×$2\nand to the next event.
 やってやるですよ！=I'll do it!
 スロットマシンだ！挑戦する？=It's a slot machine! Want to try it?
 今日はツイてるです！=I'm lucky today!
 挑戦終了=Challenge complete
 もうこの辺で……=Around here already...
 もう一勝負だ！=One more go!
-50％でアルファルピ=50%: Alpha Rupies
+50％でアルファルピ=50%: αRupees
 今日のあたしは\n負け知らずです！=I'm not going\nto lose today!
 そろそろやめた方が……=Let's stop already...
 ラスト一発！=Last shot!
@@ -384,7 +384,7 @@ r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベント�
 
 
 サレンディアノーブル=Sarendia Noble
-通常攻撃強化アップ（アル\nファルピ所持数×0.01、最大\n100）=Normal Attack Enhancement Up (Alpha Rupees Possession x0.01, Max 100)
+通常攻撃強化アップ（アル\nファルピ所持数×0.01、最大\n100）=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)
 
 マスターオブラビリンス=Master of Labyrinth
 挑戦開始時にランダムな★1\nの迷宮遺物を１個獲得=Obtain a random ★1 Labyrinth artifact at the start of the challenge
@@ -400,3 +400,10 @@ r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベント�
 チェックしたギルドがありません。=No checked guilds found
 Image
 パスポート不足のため\nスキップを実行できないギルドがあります。=There are guilds that cannot be skipped due to insufficient passports.
+
+ダークなあたし=The Dark Me
+じゃんけん……ぽん！=Rock, paper,...scissors!
+グー！！！=Rock!!!
+勝つとアルファルピ×3000\n負けるとアルファルピ=Win: Get αRupees x 3000\nLose: Get αRupees
+チョキにしよう=Let's choose Scissors
+パーにしようかな=Maybe I'll play Paper

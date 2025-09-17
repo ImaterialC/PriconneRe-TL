@@ -75,9 +75,9 @@ r:"^(\d+)秒ごとに物理無効バリア展開（【守備】数×(\d+)無効�
 r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効）$"=►Deploys Magic Null Barrier every $1s\n(Nullifies [Guard] count ×$2)
 
 ## Purchase ##
-r:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n以下のアイテムを購入しますか？\[-\]$"=[3C404E]Would you like to use [FFBB00,CE4F00]$1[-] Alpha Rupees to purchase these items?[-]
-sr:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)を購入しました。\[-\]$"=[3C404E]Spent [FFBB00,CE4F00]$1[-] Alpha Rupees to purchase [FFBB00,CE4F00]$2[-].
-アルファルピが不足しています。=Insufficient Alpha Rupees
+r:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n以下のアイテムを購入しますか？\[-\]$"=[3C404E]Would you like to use [FFBB00,CE4F00]$1[-] αRupees to purchase these items?[-]
+sr:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)を購入しました。\[-\]$"=[3C404E]Spent [FFBB00,CE4F00]$1[-] αRupees to purchase [FFBB00,CE4F00]$2[-].
+アルファルピが不足しています。=Insufficient αRupees
 
 ## Relic Name ##
 アブゾーブハチェット=Absorb Hatchet
