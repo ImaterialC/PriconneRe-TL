@@ -1,3 +1,5 @@
+
+r:"^水都ランドソル([0-9\-\(\)\w （）]*)$"=Water City Landosol $1
 とあるの水着君=A certain swimsuit boy
 あ、来たわね。=Ah, you've come.
 ええと。\nあんたに伝えたいことがあるんだけど……\nはぁ……なんであたしが……=Um.\nI have something to tell you...\nSigh... Why do I have to...
@@ -988,7 +990,6 @@ The ultimate system crafted by the Seven Crowns.
 この偉大なるガイド妖精のネビアさまに任せなさい♪=Leave it to the great guide fairy, Nebbia~♪
 ふふっ、ネビアちゃんの導きで、\n一気に勝負を決めちゃうよ～♪=Hehe, with Nebbia-chan's guidance,\nwe'll settle this match quickly~♪
 あたしもガイド妖精の先輩として、\nいいとこ見せてあげようじゃない！=I'll also show you what a senior guide fairy can do!
-r:"^水都ランドソル([0-9\-\(\)\w （）]*)$"=r:"^Water City Landosol([0-9\-\(\)\w （）]*)$"
 カオス・ジェネレーター=Chaos Generator
 一定時間が経過するごとに、敵全体をノックバックさせる。=Every predetermined amount of time, knock back all enemies.
 はい、お疲れさま。ネビアの悪戯でランドソルがとんでもないことになっ\nてるわね。早くなんとかしなきゃだけど……　え、何？あんた寄り道した\nいの？まぁ、街の人たちもそんなに困ってないみたいだし、少しだけよ？=Yes, good work. Because of Nebbia's prank, Landosol is in a terrible state.\nWe need to do something soon... What? You want to make a detour?\nWell, the people in the city don't seem that troubled, so just a little, okay?

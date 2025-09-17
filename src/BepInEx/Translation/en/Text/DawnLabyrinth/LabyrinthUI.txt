@@ -389,3 +389,14 @@ r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベント�
 マスターオブラビリンス=Master of Labyrinth
 挑戦開始時にランダムな★1\nの迷宮遺物を１個獲得=Obtain a random ★1 Labyrinth artifact at the start of the challenge
 
+パスポートを消費して、以下のギルドおよび難易度でスキップを実行します。よろしいですか？=You will use a passport to skip to the following guilds and difficulty levels. Are you sure?
+
+スキップするギルド=Skip Guild
+
+消費パスポート=Passport cost
+
+ギルド検索=Guild Search
+
+チェックしたギルドがありません。=No checked guilds found
+Image
+パスポート不足のため\nスキップを実行できないギルドがあります。=There are guilds that cannot be skipped due to insufficient passports.

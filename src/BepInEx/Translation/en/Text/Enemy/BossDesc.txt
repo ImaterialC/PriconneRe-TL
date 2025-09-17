@@ -1986,3 +1986,8 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 自身がクリティカルダメージを受けたとき：マジムンの【吸魂】を１個減少=When taking critical damage: Reduces Majimun's [Soul Absorption] by 1
 マジムンに【吸魂】を１個追加=Adds 1 [Soul Absorption] to Majimun
 自身がクリティカルダメージを受けたとき：自身の【吸魂】を１個減少=When taking critical damage: Reduces own [Soul Absorption] by 1
+
+最も近い敵１キャラに物理大ダメージを与え、スタン状態を付与する。=Deals large physical damage to the nearest enemy character and stuns them.
+
+ユニオンバーストは、最も近い敵１キャラに物理特大ダメージを与え、スタン状態を付与し、さらに自身の物理攻撃力と物理防御力をバトル終了まで小アップさせる。=Union Burst deals extra-large physical damage to the nearest enemy character, stuns them, and also slightly increases the user's physical attack and physical defense until the end of the battle.
+ゴブリングレートから受けるすべての状態異常は、ダメージを無効化しても付与される。=All status effects from Goblin Grate are inflicted even if the damage is negated.

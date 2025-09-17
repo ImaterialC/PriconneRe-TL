@@ -4,13 +4,34 @@
 「補助系」= 
 「特殊系」= 
 
+スキップ報酬=Skip Reward
+参加報酬を入手しました。=Obtained participation fee.
+獲得マイルアップ効果を適用しました。=Obtained miles-up effect applied.
+ミニゲームをスキップして、以下のアイテムを獲得しました。=Skip the minigame to obtain the following items:
+
+トレジャーマス=Treasure Tiles
+マイルマス=Mile Tiles
+ショップマス=Shop Tiles
+
 【料理】移動時に料理マスをスキップできる=[Dish] You will skip Food Tiles when moving.
 
-3ターンの間、すべての「マイルマス」をランク\n3の「トレジャーマス」に変化させる。=For 3 turns, all Mile Tiles are transformed into Rank 3 Treasure Tiles.
+sr:"^(\d)ターンの間、すべての「(.+)」をランク(\d)の「(.+)」に変化させる。$"=For $1 turns, all $2 are transformed into Rank $3 $4.
+
+出たダイスの目が奇数だった場合、+1進める=If the dice rolls an odd number, you can move 1 extra tile.
+
 
 【仲間】出たダイスの目が奇数だった場合、1マス分多く進める=[Ally] If the dice rolls an odd number, you can move 1 extra tile.
+【仲間】出たダイスの目が奇数だった場合、+1進める=[Ally] If the dice rolls an odd number, you can move 1 extra tile.
 
-このターンに振るダイスの目が必ず「5」にな\nる。=Roll a guaranteed 5 this turn.
+このターンに振るダイスの目が必ず「1」になる。=Roll a guaranteed 1 this turn.
+このターンに振るダイスの目が必ず「2」になる。=Roll a guaranteed 2 this turn.
+このターンに振るダイスの目が必ず「3」になる。=Roll a guaranteed 3 this turn.
+このターンに振るダイスの目が必ず「4」になる。=Roll a guaranteed 4 this turn.
+このターンに振るダイスの目が必ず「5」になる。=Roll a guaranteed 5 this turn.
+このターンに振るダイスの目が必ず「6」になる。=Roll a guaranteed 6 this turn.
+このターンに振るダイスの目が必ず「7」になる。=Roll a guaranteed 7 this turn.
+このターンに振るダイスの目が必ず「8」になる。=Roll a guaranteed 8 this turn.
+r:"^このターンに振るダイスの目が必ず「(\d+)」になる。$"=You will roll a guaranteed $1 this turn.
 
 \nミニゲームをスキップしますか？\nプレイ報酬の代わりにマイルが獲得できます。=Would you like to skip the minigame?\nInstead of rewards, you will receive miles.
 
@@ -43,6 +64,11 @@
 シェフィの氷晶煌めく手作りアイス=Sheffy's Handmade Glittering Ice Crystal Ice Cream
 次に振るダイスの目が「1・2」のみになる\n代わりに、その場で福引券を3枚獲得する。=You will roll a 1 or 2 this turn.\nIn return, instantly receive 3 lottery tickets.
 
+イリヤの†ブラッディ†トマトジュース=Illya’s Bloody Tomato Juice
+アリサがお届け♪リノセウスの包み焼き=Arisa delivers ♪ Rhinoceros wrapped and baked
+魔法少女ナナカちゃんウエハース=Magical girl nakachan wafers
+マツリの活力源～騎士団遠征プレート～=Matsuri's Source of Energy ~Knights' Expedition Plate~
+
 ---Yellow----
 アヤネとクルミの青空ピクニックセット=Ayane and Kurumi's Blue Sky Picnic Set
 カヤとイノリの食欲倍増ケバブサンド=Kaya and Inori's Appetite-Doubling Kebab Sandwich
@@ -59,9 +85,18 @@
 ---Red---
 次に振るダイスが2個に増える。出目の合計の数だけ進める。=You will roll 2 dice this turn and move as many tiles as their sum.
 次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 this turn. The turn counter will not increase.
-このターンに振るダイスの目が必ず「1」にな\nる。さらに、次のターン数のカウントをスキップ\nする。=You will roll a guaranteed 1 this turn. The turn counter will not increase.
 次に振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 2 this turn. The turn counter will not increase.
 次に振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 3 this turn. The turn counter will not increase.
+
+このターンに振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。=You will roll a guaranteed 1 this turn. The turn counter will not increase.
+このターンに振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。=The die's eyes always turn to 2 for this turn. Furthermore, it skips the count of the next turn.
+このターンに振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。=The die's eyes always turn to 3 for this turn. Furthermore, it skips the count of the next turn.
+
+[3C404E]このターンに振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。[-]=[3C404E]You will roll a guaranteed 1 this turn. The turn counter will not increase.[-]
+[3C404E]このターンに振るダイスの目が必ず「2」になる。さらに、次のターン数のカウントをスキップする。[-]=[3C404E]The die's eyes always turn to 2 for this turn. Furthermore, it skips the count of the next turn.[-]
+[3C404E]このターンに振るダイスの目が必ず「3」になる。さらに、次のターン数のカウントをスキップする。[-]=[3C404E]The die's eyes always turn to 3 for this turn. Furthermore, it skips the count of the next turn.[-]
+
+
 次に振るダイスの目が必ず「2」になる。=You will roll a guaranteed 2 this turn.
 次に振るダイスの目が必ず「3」になる。=You will roll a guaranteed 3 this turn.
 次に振るダイスの目が必ず「5」になる。=You will roll a guaranteed 5 this turn.
@@ -71,24 +106,33 @@
 次に振るダイスの目が必ず「9」になる。=You will roll a guaranteed 9 this turn.
 r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」になる。$"=You will roll a guaranteed $2 for the next $1 turns.
 
-
 アネモネの花爛漫ステーキサラダ=Anemone's Flower Steak Salad
 次に振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=You will roll a 1 or 2 this turn.\nIn return, instantly receive 3 lottery tickets.
 このターンに振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=You will roll a 1 or 2 this turn.\nIn return, instantly receive 3 lottery tickets.
 次に振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 next turn.
 このターンに振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 this turn.
+このターンに振るダイスの目が「1・6・6・6・8・8」になる。=You will roll a 1, 6, 6, 6, 8, or 8 this turn.
+[3C404E]このターンに振るダイスの目が「1・2」のみになる代わりに、その場で福引券を3枚獲得する。=You will roll a 1 or 2 this turn.\nIn return, instantly receive 3 lottery tickets.
+[3C404E]このターンに振るダイスの目が「4・5・6」のみになる。=You will roll a 4, 5 or 6 this turn.
+[3C404E]このターンに振るダイスの目が「1・6・6・6・8・8」になる。=You will roll a 1, 6, 6, 6, 8, or 8 this turn.
 
 次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
 このターンに振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。=You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.
+このターンに振るダイスの目を必ず「2」に、次のターンに振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.
+
+r:"^このターンに振るダイスの目を必ず「(\d)」に、次のターンに振るダイスの目を必ず「(\d)」にする。$"=You will roll a guaranteed $1 this turn. Then, a guaranteed $2 the turn after.
+
 
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「8」に、その次に振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で2000マイルを獲得する。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] In exchange for not being able to eat [Movement] category food next turn, earn 2,000 miles on the spot.[-]
 [3C404E][FF7C4E,D62146]【上書き不可】[-]次に振るダイスの目を必ず「6」に、その次に振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 3 the turn after.[-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「12」に、次とさらに\nその次のターンに振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] You will roll a guaranteed 12 this turn. Then, a guaranteed 1 for the next 2 turns. [-]
-[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「8」に、次のターン\nに振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「12」に、次とさらにその次のターンに振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-] You will roll a guaranteed 12 this turn. Then, a guaranteed 1 for the next 2 turns. [-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「8」に、次のターンに振るダイスの目を必ず「1」にする。[-]=[3C404E][FF7C4E,D62146]【Non-overwritable】[-]You will roll a guaranteed 8 this turn. Then, a guaranteed 1 the turn after.[-]
+[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「6」に、次のターンに振るダイスの目を必ず「3」にする。[-]=[3C404E] [FF7C4E,D621466]【Non-overwritable】[-]You will roll a guaranteed 6 this turn. Then, a guaranteed 3 the turn after.[-]
+
 
 次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。=You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.
-次に振るダイスの目が「1・2・3」のみになる。\nさらに、次のターン数のカウントをスキップす\nる。=You will roll a 1, 2 or 3 this turn.\nThe turn count will be skipped.
+次に振るダイスの目が「1・2・3」のみになる。さらに、次のターン数のカウントをスキップする。=You will roll a 1, 2 or 3 this turn.\nThe turn count will be skipped.
 マイルマスをスキップして移動できる。効果は2ターンの間継続する。=You will skip Mile Tiles when moving. This effect lasts for 2 turns.
 次にダイスを振った際、1マス多く進める。=You can move 1 extra Tile next turn.
 次にダイスを振った際、2マス多く進める。=You can move 2 extra Tiles next turn.
@@ -100,6 +144,7 @@ r:"^ダイスを(\d)回振るまでの間、ダイスの目が必ず「(\d)」�
 次にダイスを振った際、8マス多く進める。=You can move 8 extra Tiles next turn.
 ---Yellow---
 マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
+マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANK\nが1つ上がる。効果は対象のマスに計1回止まるまで継続する。=The RANK of all "Mile Tiles", "Treasure Tiles" and "Shop Tiles" will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. 
 次にマイルマスに止まった際の獲得マイルが200%アップする。=You will get 200% more Miles on the next Mile Tile you stop at.
 ---Green---
 ランダムなイベントを発生させる。=You will get a random event next turn.
@@ -126,6 +171,7 @@ sr:"^(【料理】|【イベント】|【仲間】|)次回移動時に(\d)マス
 sr:"^(【料理】|【イベント】|【仲間】|)福引券を(\d)枚入手する。?$"=$1Acquire $2 lottery ticket
 福引券を1枚獲得する。=Acquire 1 lottery ticket.
 福引券を2枚獲得する。=Acquire 2 lottery tickets.
+福引券を3枚獲得する。=Acquire 3 lottery tickets.
 2ターンの間ターン数のカウントを\nスキッ\rプする。=Skips turn count for 2 turns.
 r:"^(\d)/(\d)食事済$"=$1/$2 Meals
 これ以上料理を食べられません。=Can't eat any more food.
@@ -136,6 +182,7 @@ r:"^(\d)/(\d)食事済$"=$1/$2 Meals
 【料理】移動系カテゴリーの料理が食べられなくなる=[Cooking] You won't be able to eat food in the Movement category.
 【料理】移動時に「マイルマス」「トレジャーマス」をスキップできる=[Cooking] Skip Mile Tiles and Treasure Tiles when moving.
 【料理】移動時にトレジャーマスをスキップできる=[Cooking] Skip Treasure Tiles when moving
+【料理】「マイルマス」を「トレジャーマス」に変化させる=[Cooking] Change Mile Tiles into Treasure Tiles
 
 ---Sub-effects---
 r:"^([0-9,]+)マイルを獲得する。?$"=Acquire $1 miles.
@@ -154,16 +201,31 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 [90A0BC]次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。[-]=[90A0BC]You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.[-]
 [90A0BC]次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。[-]=[90A0BC]You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.[-]
 [90A0BC]次に振るダイスの目が「1・2・3」のみになる。さらに、次のターン数のカウントをスキップする。[-]=[90A0BC]You will roll a 1, 2 or 3 this turn. The turn count will be skipped.[-]
-出目が固定されているため振りなおせません。=I can't roll again because the starting point is fixed.
 [90A0BC]トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。[-]=[90A0BC]You will skip Treasure Tiles when moving. This effect lasts for 3 turns.[-]
+
+[3C404E]マイルマスをスキップして移動できる。効果は2ターンの間継続する。[-]=[3C404E]You will skip Mile Tiles when moving. This effect lasts for 2 turns.[-]
+[3C404E]次に振るダイスが2個に増える。出目の合計の数だけ進める。[-]=[3C404E]Roll two Dice this turn and move equal to the sum of the two rolls.[-]
+[3C404E]次に振るダイスの目が必ず「1」になる。さらに、次のターン数のカウントをスキップする。[-]=[3C404E]You will roll a guaranteed 1 this turn. The turn count will be skipped.[-]
+[3C404E]次に振るダイスの目が必ず「5」になる。[-]=[3C404E]You will roll a guaranteed 5 next turn.[-]
+[3C404E]ダイスを3回振るまでの間、ダイスの目が必ず「4」になる。[-]=[3C404E]You will roll a guaranteed 4 for the next 3 turns.[-]
+[3C404E]次に振るダイスの目が「4・5・6」のみになる。[-]=[3C404E]You will roll a 4, 5 or 6 next turn.[-]
+[3C404E]次に振るダイスの目を必ず「3」に、その次に振るダイスの目を必ず「6」にする。[-]=[3C404E]You will roll a guaranteed 3 this turn. Then, a guaranteed 6 the turn after.[-]
+[3C404E]次に振るダイスの目を必ず「2」に、その次に振るダイスの目を必ず「7」にする。[-]=[3C404E]You will roll a guaranteed 2 this turn. Then, a guaranteed 7 the turn after.[-]
+[3C404E]このターンに振るダイスの目が「1・2・3」のみになる。さらに、次のターン数のカウントをスキップする。[-]=[3C404E]You will roll a 1, 2 or 3 this turn. The turn count will be skipped.[-]
+[3C404E]トレジャーマスをスキップして移動できる。効果は3ターンの間継続する。[-]=[3C404E]You will skip Treasure Tiles when moving. This effect lasts for 3 turns.[-]
+出目が固定されているため振りなおせません。=I can't roll again because the starting point is fixed.
 ---Yellow---
 [90A0BC]マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。[-]=[90A0BC]The RANK of all Mile Tiles, Treasure Tiles and Shop Tiles will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. [-]
 [90A0BC]次にマイルマスに止まった際の獲得マイルが200%アップする。[-]=[90A0BC]You will get 200% more Miles on the next Mile Tile you stop at.[-]
+[3C404E]マップ上の「マイルマス」「トレジャーマス」 「ショップマス」のRANKが1つ上がる。効果は対象のマスに計2回止まるまで継続する。[-]=[3C404E]The RANK of all Mile Tiles, Treasure Tiles and Shop Tiles will increase by 1. This effect will last until you stop at a relevant tile mentioned earlier for a total of 2 times. [-]
+[3C404E]次にマイルマスに止まった際の獲得マイルが200%アップする。[-]=[3C404E]You will get 200% more Miles on the next Mile Tile you stop at.[-]
 ---Green---
 [90A0BC]ランダムなイベントを発生させる。[-]=[90A0BC]You will get a random Event next turn.[-]
+[90A0BC]ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。[-]=[90A0BC]The odds of rolling a 5 or 6 are tripled[-]
+[3C404E]ランダムなイベントを発生させる。[-]=[3C404E]You will get a random Event next turn.[-]
+[3C404E]ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。[-]=[3C404E]The odds of rolling a 5 or 6 are tripled[-]
 ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。=For the next three rolls, the probability of getting a 5 or 6 is tripled.
 【料理】ダイスの「5と6」の目が出る確率が3倍になる=【Cooking】 The odds of rolling a 5 or 6 are tripled
-[90A0BC]ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。[-]=[90A0BC]The odds of rolling a 5 or 6 are tripled[-]
 
 一定の経過ターン以内にチェックポイントを通過すると\n豪華なアイテムが手に入ります!=Pass a checkpoint within a certain amount of turns to obtain extravagant items!
 

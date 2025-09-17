@@ -1,0 +1,21 @@
+##Profile##
+【物理】前衛で、二人きりの月下の空旅にときめく黒猫。物防弱体の他、ダメージ100ヒット後には華麗なステップの追撃とＴＰ回復量増加で、砂漠の夜空に花を咲かせる。=[Physical] Frontline black cat thrilled by a moonlit sky journey just for two. In addition to debuffing P.DEF, after 100 damage hits, performs a splendid step follow-up attack and increases TP recovery, making flowers bloom in the desert night sky.
+
+##UB##
+ヒヨリムーンフィナーレ=Hiyori Moon Finale
+目の前の敵１キャラに物理特大ダメージを与える。対象の敵が継続ダメージ状態だった場合、このダメージのヒット数が増加する。さらに闇属性の味方すべてに継続ＨＰ回復状態と継続ＴＰ回復状態を付与する。【サラサリアンステップ】を獲得している場合、追加で目の前の敵１キャラに物理大ダメージを与える。=Deals massive P.DMG to an enemy in front. If the target enemy is in continuous damage state, the hit count of this damage increases. Additionally, grants continuous HP recovery state and continuous TP recovery state to all dark attribute allies. If possessing [Salasarian Step], additionally deals large P.DMG to an enemy in front.
+r:"^敵単体に(\d+)の物理ダメージ毎秒ＨＰを(\d+)回復する毎秒ＴＰを10回復するサラサリアンステップを獲得している時、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to a single enemy.\n►Recovers HP by $2 per second.\n►Recovers TP by 10 per second.\n\nIf [Sarasarian Step] is active:\n►Deals $3 P.DMG to a single enemy.
+
+##S1##
+流麗キャットステップ=Graceful Cat Step
+闇属性の味方すべての物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＨＰを中回復させる。バトル開始後初めてこのスキルを使用した後、10回ダメージを与えるたびに、最大10回まで闇属性の味方すべての物理攻撃力を大アップさせる。さらに100回ダメージを与えた時、【サラサリアンステップ】を獲得する。=Greatly boosts all dark attribute allies' P.CRIT RATE, slightly boosts their P.CRIT DMG, and moderately recovers their HP. After using this skill for the first time after battle start, every 10 damages dealt, up to 10 times, greatly boosts all dark attribute allies' P.ATK. Furthermore, when 100 damages are dealt, gains [Salasarian Step].
+r:"^闇属性の味方の物理クリティカルを120アップ闇属性の味方の物理クリダメを10％アップ闇属性の味方のＨＰを(\d+)回復(\d+)回ダメージを与えるたびに、闇属性の味方の物理攻撃力を(\d+)アップ100回ダメージを与えた時、サラサリアンステップを獲得$"=►Boosts Dark allies' P.CRIT RATE by 120.\n►Boosts Dark allies' P.CRIT DMG by 10％.\n►Restores Dark allies' HP by $1.\n►Every $2 damage instances: Boosts Dark allies' P.ATK by $3.\n►At 100 damage instances: Grants [Sarasarian Step].
+
+##S2##
+サラサリアンラッシュ=Salasarian Rush
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。対象の敵が継続ダメージ状態だった場合、このスキルのダメージのヒット数が増加する。【サラサリアンステップ】を獲得していない場合、闇属性の味方すべてのＴＰを小回復させ、獲得している場合、闇属性の味方すべての物理攻撃クリティカル時のダメージを小アップ、ＴＰを中回復させる。=Deals large P.DMG to an enemy in front and slightly lowers their P.DEF. If the target enemy is in continuous damage state, the hit count of this damage increases. If not possessing [Salasarian Step], slightly recovers all dark attribute allies' TP; if possessing, slightly boosts all dark attribute allies' P.CRIT DMG and moderately recovers their TP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンサラサリアンステップを獲得していない時、闇属性の味方のＴＰを50回復サラサリアンステップを獲得している時、闇属性の味方の物理クリダメを15％アップサラサリアンステップを獲得している時、闇属性の味方のＴＰを200回復$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n\nIf [Sarasarian Step] is not active:\n►Recovers Dark allies' TP by 50.\n\nIf [Sarasarian Step] is active:\n►Boosts Dark allies' P.CRIT DMG by 15％.\n►Recovers Dark allies' TP by 200.
+
+##EX##
+アンダーザムーン=Under the Moon
+アンダーザムーン+=Under the Moon+
