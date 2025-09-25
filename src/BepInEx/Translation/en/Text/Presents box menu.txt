@@ -83,6 +83,9 @@ sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。
 ---Premium---
 sr:"^(?:\[3C404E\])?([0-9]*.+?)(\d+)日目のアイテムセット\[-\] \[3C404E\]あと\[-\]\[FFBB00,CE4F00\]([0-9,]+)\[-\]\[3C404E\]日有効(?:\[-\])?(?: \[3C404E\](\+\d+)日予約中(?:\[-\])?)?$"=[3C404E]$1: Day $2 reward. [FFBB00,CE4F00]$3[-]$4[3C404E] day(s) remaining.[-]
 
+sr:"^(?:\[3C404E\])?(.+)「(.+)」\[-\] \[3C404E\]あと\[-\]\[FFBB00\,CE4F00\]([0-9,]+)\[-\]\[3C404E\]日有効$"=$1 [$2] reward. [FFBB00,CE4F00]$3[-][3C404E] day(s) remaining.[-]
+
+
 sr:"^(?:\[3C404E\])?(.+)のアイテムです。(?:\[-\])?$"="Item acquired from "$1""
 
 スタミナ上限に到達しました。\n獲得したスタミナをプレゼントに送ります。=Your Stamina has reached its maximum. Remaining Stamina will be sent to the Present Box.
@@ -92,6 +95,3 @@ sr:"^(?:\[3C404E\])?(.+)のアイテムです。(?:\[-\])?$"="Item acquired from
 無料対象キャラは無料分のみの強化になります。=Free characters will only be strengthened for free.
 所持上限を超えて獲得したダイスです。=Dice obtained above the posession limit.
 ダイス=Dice
-
-TANITAコラボ記念カスタムマイページ=Custom My Page to commemorate the Tanita collaboration
-TANITAコラボログイン=TANITA Collab log in

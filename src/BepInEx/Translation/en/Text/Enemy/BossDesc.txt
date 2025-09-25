@@ -1991,3 +1991,23 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 
 ユニオンバーストは、最も近い敵１キャラに物理特大ダメージを与え、スタン状態を付与し、さらに自身の物理攻撃力と物理防御力をバトル終了まで小アップさせる。=Union Burst deals extra-large physical damage to the nearest enemy character, stuns them, and also slightly increases the user's physical attack and physical defense until the end of the battle.
 ゴブリングレートから受けるすべての状態異常は、ダメージを無効化しても付与される。=All status effects from Goblin Grate are inflicted even if the damage is negated.
+
+前から１番目の敵と周囲に物理／魔法攻撃力ダウン（必中）=Lowers P.ATK/M.ATK of frontmost enemy and surrounding enemies (unavoidable)
+対象数が少ないほど：ダウン量上昇=The fewer targets hit, the greater the reduction amount
+物理攻撃をする敵全体に火傷=Inflicts Burn on all enemies that use physical attacks
+魔法攻撃をする敵全体に火傷=Inflicts Burn on all enemies that use magic attacks
+敵全体をノックバック（飛行効果無視=Knocks back all enemies (ignores Flight effects)
+前方範囲に移動速度ダウン（飛行効果無視=Decreases Movement Speed in forward area (ignores Flight effects)
+【ターゲットブレイク時発動】=【Activates when target breaks】
+部位１ブレイク：物理攻撃力ダウン=Part 1 break: Lowers P.ATK
+部位２ブレイク：物理／魔法防御力ダウン=Part 2 break: Lowers P.DEF/M.DEF
+部位３ブレイク：魔法攻撃力ダウン=Part 3 break: Lowers M.ATK
+自身の魔法攻撃力が高いほど：ダウン量上昇=The higher own M.ATK, the greater the reduction amount
+前方範囲に行動速度ダウン=Decreases Action Speed in forward area
+前方範囲に束縛=Inflicts Bind in forward area
+自身の魔法攻撃力が高いほど：回復量アップ=The higher own M.ATK, the greater the recovery amount
+前方範囲に重複可能の行動速度ダウン=Stacks Action Speed Down in forward area
+敵全体に継続物理割合ダメージ=Deals continuous percentage P.DMG to all enemies
+敵全体に継続ＴＰダウン=Deals continuous TP Down to all enemies
+敵全体に継続ＴＰダウン=Continuous TP Down for the entire enemy
+自身の魔法攻撃力が高いほど：ダウン量上昇\n\n・自身に調和状態\n【ターゲットブレイク時発動】\n\n・部位１ブレイク：物理攻撃力ダウン\n\n・部位２ブレイク：物理／魔法防御力ダウン\n\n・部位３ブレイク：魔法攻撃力ダウン=The higher own M.ATK, the greater the reduction amount\n►Grants self Harmony state\n\n【Activates when target breaks】\n►Part 1 break: Lowers P.ATK\n►Part 2 break: Lowers P.DEF/M.DEF\n►Part 3 break: Lowers M.ATK\n
