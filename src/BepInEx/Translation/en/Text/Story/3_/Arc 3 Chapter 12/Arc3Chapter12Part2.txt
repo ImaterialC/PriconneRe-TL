@@ -13,7 +13,7 @@ Chapter 4
 だが、そこで待ち構えていたのは……=But, what awaited them there was...
 に、忍法……！？=N-Ninja arts...!?
 じゃあ、このひとって──忍者なのっ！？=Then, this guy... you're telling me he's a ninja?!
-いいや。\nただの忍びが、こんな場所にいるはずがない。\nましてや、ジオ・ニヴルヘルの住人というわけでもないようだし。=No. There's no way any normal shinobi would be found in a place like this. Not to mention, he doesn't strike me as a resident of Geo Niflhell either.
+いいや。\nただの忍びが、こんな場所にいるはずがない。\nましてや、ジオ・ニヴルヘルの住人というわけでもないようだし。=No. There's no way any normal shinobi would be found in a place like this. Not to mention, he doesn't strike me as a resident of Gio Nivlhel either.
 ……聞くところによると、『現実』側では\n{playername}や七冠たちは\nある組織に付け狙われているとのことだけど……=...From what {playername} has told me, he and the Seven Crowns were targeted by a certain organization in the "real world"...
 フム。\n当然こちらの素性は心当たりがあるか。=Hmm. It seems you have a vague idea of who I am, I suppose that's a given.
 あらためて、自己紹介をしておこう。\n私は──=Allow me to properly introduce myself. I am...
@@ -65,7 +65,7 @@ Chapter 4
 『正義のために』ですな。\nでは──=For the sake of justice, I take it. Well then...
 そろそろ冒険へ繰り出すことにしましょうか。\nかつてのレジェンドオブアストルムでは踏み入ることのできなかった\n特殊エリアの数々──実に興味をそそられる。=It's about time we set out on an adventure. There are many special areas that were previously inaccessible in the former Legend of Astrum. They're piquing my interest.
 目的の施設のある場所は、廃棄データの世界……とのことだが。\n名はなんと言ったかな。=The location of the facility in question is in a world of discarded data... Though its name currently escapes me.
-region名称──『ニヴルヘル』。\n古エッダの詩編、暗い国から名前を取った\n冥府の如きエリアだそうですよ。=The region's name is... "Geo Niflhell". It is said to be an area similar to a netherworld, named after the dark land in the poems of the Ancient Edda.
+region名称──『ニヴルヘル』。\n古エッダの詩編、暗い国から名前を取った\n冥府の如きエリアだそうですよ。=The region's name is... "Gio Nivlhel". It is said to be an area similar to a netherworld, named after the dark land in the poems of the Ancient Edda.
 黒曜宮の最下層を目指していたものの、\nグルーヌイの操る触手が作りだした転移魔法陣によって\n宮殿のあちこちに飛ばされてしまった一同。=Although they were heading for the lowest level of the Obsidian Palace, our heroes were scattered all over the palace due to a teleportation magic circle created by the tentacles Grenouille controlled.
 {playername}、ヴァイオレット、グレイス、サツキは\n長い回廊を下った末、奇妙な地下空間へと辿り着く。\nそこで待ち構えていたのは……={playername}, Violet, Grace and Satsuki arrive at a strange underground space after descending a long corridor. What awaits them there is...
 あなたは……！？=You're...!?
@@ -77,7 +77,7 @@ region名称──『ニヴルヘル』。\n古エッダの詩編、暗い国か
 仁義あんがとよ。ヤトガミさんよ。\n俺ぁ鬼のサツキってもんだ。夜露死苦な。\n……でもって──=Praise for your righteousness, Yatogami-san. Name's Satsuki. The oni, Satsuki. My greetings. ...That said--
 こんな地べたの底の底で通せんぼたぁ、どういう了見だい。\n立ち入り禁止の札でもなきゃ、侵入るなっつうのが\nわかんねえわけでもあるめえに。=Standing in our path, as if to blocking the entry, in this underground maze we're in... What's the meaning of this? It's almost like you're trying to put a "no entry" sign our way... or maybe you don't know how to go deeper yourself.
 やれやれ。\n口数を費やさなくては、わからないわけでもあるまいに……\nまあいい。=Good grief. I guess words are wasted if you're able to understand that much just by that... Well, whatever.
-グルーヌイ──俺の部下曰く。\nこのすぐ先に鎮座する巨大な結晶柱こそ、ジオ・ニヴルヘルのシステムを\n司る礎との事だが。プロテクトが強固で、解放に難儀しているそうでな。=Grenouille--According to what my subordinate said, the giant crystal pillar sitting just ahead of us is the foundation that governs the system behind Geo Niflhell. It's so heavily protected, even he's having trouble releasing its seal.
+グルーヌイ──俺の部下曰く。\nこのすぐ先に鎮座する巨大な結晶柱こそ、ジオ・ニヴルヘルのシステムを\n司る礎との事だが。プロテクトが強固で、解放に難儀しているそうでな。=Grenouille--According to what my subordinate said, the giant crystal pillar sitting just ahead of us is the foundation that governs the system behind Gio Nivlhel. It's so heavily protected, even he's having trouble releasing its seal.
 ……ずいぶんとまぁ、詳しいじゃねぇか……=...Well, aren't you the knowledgeable sort...
 そして──もう一人の部下、フェイスレスからは\nそちらの姫君が封印の『鍵』を手にしたという報告も受けている。\n故に……=What's more--I have also received a report from another of my subordinates, Faceless, that your Princess has obtained the "key" to said seal. Therefore...
 渡してもらおうか。\n『黒曜宮の鍵』とやらを。=Why don't you just hand it over. That key to the Obsidian Palace.
@@ -383,7 +383,7 @@ Chapter 6
 ぴえん。=Boo-hoo.
 ……ま、カリザきゅんもマジのマジってカンジだったし？\nやっとゼーンちゃんたちの手がかり見つかったってなったらさー\nアタシとしても、ちょっち止めにくいなー、みたいな？=...Well, I should also add that Kariza-kyun was very, extremely, serious... you know? If he could finally find a clue about Zane-san and Azo-san here, it'd be kind of hard for me to stop him, you know?
 そ・れ・に──=Which-is-why...
-ジオ・ニヴルヘルのあちこちウロウロしてて。\nショタはぜんぜん見つからんかったけど、\nカリザきゅんの……んー、ケンカともだち？　とバッタリしちってさー=We were wandering all over Geo Niflhell. I couldn't find any shota myself, but then we bumped into Kariza-kyun's, hmm... fighting buddy, I guess?
+ジオ・ニヴルヘルのあちこちウロウロしてて。\nショタはぜんぜん見つからんかったけど、\nカリザきゅんの……んー、ケンカともだち？　とバッタリしちってさー=We were wandering all over Gio Nivlhel. I couldn't find any shota myself, but then we bumped into Kariza-kyun's, hmm... fighting buddy, I guess?
 それがネネカさんと、マサキさんだったのね。\n本当に、頼もしいわ。=Which would be Neneka-san and Masaki-san, correct? They can be really reliable, how reassuring.
 ……変貌大妃が、局長たちの妨害に来ているとはな。\nどうやら一刻も早く、お前たちを片付けなくてはならんようだ。=...Metamorph Monarch, huh. I never would've expected her to come here and mess with the Chief and the others. Even the more reason for me to take care of you guys as soon as possible.
 ケッ！\n来やがれゴリラ野郎──=KEH! Bring it on, you gorilla bastard--
@@ -539,7 +539,7 @@ Chapter 6
 ……好きにしろ。=...Do as you please.
 では……いずれまた会おう。\n七冠──そして、模索路晶のプリンセスナイト。\n……俺は必ず、この世界に正義をもたらす。=Well then... we shall meet again. Seven Crowns - and also... Mosakuji Akira's Princess Knight. I will definitely bring justice to this world.
 ……ふぅ。\n危ないところでした……\nミイラ取りが、ミイラになってしまうかと。=...Phew. That was a close call... I was almost turned into a mummy while searching for the dead.
-……あんな抵抗するミイラは、さすがにいませんよ。\nジオ・ニヴルヘルにも。=...There's no mummy that would put up that kind of resistance. Even in this Geo Niflhell.
+……あんな抵抗するミイラは、さすがにいませんよ。\nジオ・ニヴルヘルにも。=...There's no mummy that would put up that kind of resistance. Even in this Gio Nivlhel.
 グレイス、サツキは……=Grace, Satsuki is...
 気絶しているだけです。\n貴女ほどではありませんが、頑丈なので。サツキも。\nそれより……=She's just unconscious. She's not as strong as I am, but she's sturdy. That Satsuki. More importantly...
 ……よく頑張ったわね、スミレ。\n貴女の守護騎士であることを、私は誇りに思うわ。=...You did well, Sumire. You made me proud to be your Chevalier.
@@ -607,10 +607,10 @@ Interlude XIV
 って。\nいーたいトコだけど？\nま、今日のところは褒めてつかわすわ♪=Eh, maybe that's a good thing in itself? Well, I'll give you a compliment for today♪
 【トゥインクルウィッシュ】の連中を──\n良いタイミングで送り込んでやった、あたしの手柄をね。\nきゃははっ♪=Though the perfect timing at which the girls of Twinkle Wish arrived to help you... I'll take the credit for all that. Kyahaha♪
 フン。\n貸しはまぁ、そのうち必ず返してもらうケド──=Hmph. Well, I'll ask for you to pay me back eventually, though...
-……そーね。ジオ・ニヴルヘルのお姫さま……\n巨鯨城で王家の装備使った時は、菫みたいな顔色になっちゃって。\nたぶんアレが、王家の装備ナシのデフォの彼女なんでしょーけど……=...That's right. Geo Niflhell's Princess... When she used the royal family's equipment in the Giant Whale Castle, her face turned the same color as her name's. Though that's probably just how she looks without it in the first place...
+……そーね。ジオ・ニヴルヘルのお姫さま……\n巨鯨城で王家の装備使った時は、菫みたいな顔色になっちゃって。\nたぶんアレが、王家の装備ナシのデフォの彼女なんでしょーけど……=...That's right. Gio Nivlhel's Princess... When she used the royal family's equipment in the Giant Whale Castle, her face turned the same color as her name's. Though that's probably just how she looks without it in the first place...
 今回は、そーゆーコトもなかったみたいだし。\nどうにか使いこなせたっぽい？　わね『怠惰』。\nおっかなびっくりじゃなくて、勇気を出せたから──あんたのオカゲで。=This time, it seems like nothing like that happened. Maybe she managed to use it properly? I guess. Her "Acedia (Sloth)"... She wasn't scared to wield it anymore and managed to muster up her courage--thanks to you.
 あーはじまったわ鈍感ムーブ。\nもーあたし知らねー=Aaahhh... it has been activated, your "dense mode". Geez, I give up.
-……とにかく。\nウォーロックはやっつけて、黒曜宮は取り返して。\nジオ・ニヴルヘルでの戦いも、これにておしまい。=...Anyway. You've defeated WARLOCK and taken back the Obsidian Palace. This concludes your battle in Geo Niflhell.
+……とにかく。\nウォーロックはやっつけて、黒曜宮は取り返して。\nジオ・ニヴルヘルでの戦いも、これにておしまい。=...Anyway. You've defeated WARLOCK and taken back the Obsidian Palace. This concludes your battle in Gio Nivlhel.
 シェフィちゃんのおにーたんとか、プレシアちゃんのパパさんとか。\nたくさんのロストしちゃってたひとたちの魂が眠りから覚めて……\nめでたしめでたし。ね？=Sheffy-san's "Onii-tan" and Precia-chan's Papa. The souls of so many people who are Lost are finally going to be returned... and happily ever after. Right?
 や。\nかったりーコトにさ、\nそー上手くはいかないっぽいんだわーこれが。はぁ。=Ah. Unfortunately, it doesn't seem things are going to go that smoothly. Hah.
 黒曜宮の最深部にある制御室──『玄室』は、\nヴァイオレット姫がゲットした鍵でコントロールできるけど。\nウォーロックのやつら、そのジャマする仕掛けを残してたっぽくて……=The control room in the deepest part of the Obsidian Palace - the "burial chamber" - can be controlled with the key that Princess Violet obtained. But it seems that WARLOCK left behind a device that interferes with that...
@@ -678,7 +678,7 @@ New Titlecards
 元プレイヤー３=Former Player 3
 
 Substory
-{playername}たちがヴァイオレットを追っていた頃──\nホウオウはジオ・ニヴルヘルの木の上にいた。=While {playername} and the others were chasing Violet, Ho-ou was on top of a tree in Geo Niflhel.
+{playername}たちがヴァイオレットを追っていた頃──\nホウオウはジオ・ニヴルヘルの木の上にいた。=While {playername} and the others were chasing Violet, Ho-ou was on top of a tree in Gio Nivlhel.
 もうなんなんですかこの場所は～っ！\nあっちもこっちもゾンビばっかり……\n無礼ですよっ！　あっちへ行きなさ～いっ！=Geez, what in earth's wrong with this place?! It's all zombies here and there... How rude! Go awaaaay!
 キャーーーーーーッ！！=KYAAAAAAAHHHHHHHH!!
 うりゃりゃりゃりゃーーっ！=URYARYARYARYARYAH!
@@ -688,14 +688,14 @@ Substory
 炎がよく効いていたみたいで、なんとか……\n通りすがりの見知らぬ方、感謝します。\n名を聞かせてください。=My flames seemed to have worked well enough, so I'm getting by... Thank you, stranger. Please tell me your name.
 あたしはヒヨリだよ！\nキミは……しゃべれるみたいだけど、魔物やオウムとかじゃないよね？=I'm known as Hiyori! You... seem to be able to talk, but you're no monster nor parrot, are you?
 オ、オウムじゃないですぅ！！\n私はジオ・ゲヘナの六凶が一柱、煉華の鳳凰！\nこれでもとっても強くて気高い存在なんですっ。頭が高～い！　ですよ！=I-I'm not a parrot!! I'm one of the Six Calamities of Geo Gehenna, the Purgatory Phoenix! Aside from that, I'm also a very strong and noble being. Very smart too!
-ははぁ～っ♪\nえーっと、レンカノホウオウちゃんはジオ・ゲヘナから来たの？\nでもここ、ジオ・ニヴルヘルだよ？=Haha~♪ Ummm, so you came from Geo Gehenna, Purgatory Ho-ou-chan? However, we're in Geo Niflhell now, you know?
+ははぁ～っ♪\nえーっと、レンカノホウオウちゃんはジオ・ゲヘナから来たの？\nでもここ、ジオ・ニヴルヘルだよ？=Haha~♪ Ummm, so you came from Geo Gehenna, Purgatory Ho-ou-chan? However, we're in Gio Nivlhel now, you know?
 そうなんですか！？\nどうりで全然景色が違うと……って、待ってください。\nつまり私、いつの間にかゲートを通ってたってことですか！？=Is that so?! No wonder the scenery is completely different... but wait a minute. So, does that mean I passed through a gate without even realizing it!?
 うぅ、ジオ・ゲヘナで魔物に追われて、\n必死に逃げてたはずが……どうしてこんなことに～～っ！　=Ugh, I recall I was being chased by monsters in Geo Gehenna, running frantically for my life in the process... How did this happen?!　
 うーん、そっか……ねぇ、ホーホーちゃん。\nよかったらあたしと一緒に、このあたりを回ってみない？\nもしかしたら、ゲートも見つかるかも！=Hmm, I see... Hey, Ho-oh-chan. If you'd like, why don't you come and explore this area with me? Maybe we'll even find a Gate!
 いいんですか！？\nっていうかホーホーちゃんって誰ですか！？=Are you sure?! Actually, wait... who are you calling Ho-oh-chan?!
 実はあたしもこの世界に来たばっかりで、\nあたりを調べてるところなんだ。\nそれに、困ったときはお互いさまさまだよ！=Actually, I've only just arrived in this world myself, so I'm investigating the area. Besides, when you're in trouble, we help each other out, y'know!
 ヒヨリさん……！\n……コホン。そういうことなら、良いでしょう。\nあなたに同行する栄誉を与えます！=Hiyori-san...! ...Ahem. In that case, I'll gracefully accept. I shall give you the honor of coming with me!
-こうして、ヒヨリとホウオウは\n共にジオ・ニヴルヘルを探索することにしたのだが──=Thus, Hiyori and Ho-ou decided to explore Geo Niflhell together, but...
+こうして、ヒヨリとホウオウは\n共にジオ・ニヴルヘルを探索することにしたのだが──=Thus, Hiyori and Ho-ou decided to explore Gio Nivlhel together, but...
 うぅっ、見つかりません……\nもうずっと探し回ってるのに、ゲートなんてあるんでしょうか……=Ugh, it's nowhere to be found... We've been looking for ages, but I wonder if there's even a gate in this place...
 ……このまま帰れなかったら、私もゾンビに？\n輪廻転生を司る私が腐った死体になっちゃうなんて、そんな～っ！　=...If I can't find my way back home, will I end up becoming a zombie myself? I, who controls a power of reincarnation, can't turn into a rotting corpse, no way!
 ゲートはあたしが絶対見つけてあげるから、\n大丈夫だよホーホーちゃん！\nそうだっ♪　気分転換になにかおしゃべりしない？=I'll definitely find a gate for you, so don't worry, Ho-oh-chan! That's right♪ How about we chat for a change of pace?

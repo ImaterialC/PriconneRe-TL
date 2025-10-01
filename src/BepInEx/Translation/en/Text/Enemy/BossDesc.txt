@@ -1377,7 +1377,7 @@
 バトル開始時、狂乱の配信者=At the start of battle, Frenzied Streamer\n
 自身の存在を絶対的なものにするべく、狂気を重ねる配信者。欲望にとり憑かれ、純粋な想いを持つ者たちに刃を向ける。=A streamer who accumulates madness to render its existence absolute. Possessed by desire, it turns its blade on those with pure hearts.\n
 
-ジオ・ニヴルヘルを徘徊する亡霊の集合体。生ある者をつけ狙い、深い闇の底に引きずり込む。=A wandering collective of spirits in Geo Niflhel. They prey on the living, dragging them into the depths of darkness.\n
+ジオ・ニヴルヘルを徘徊する亡霊の集合体。生ある者をつけ狙い、深い闇の底に引きずり込む。=A wandering collective of spirits in Gio Nivlhel. They prey on the living, dragging them into the depths of darkness.\n
 バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of battle, slightly boosts all allies' P.DEF and M.DEF. The DEF boosted by this effect is unaffected by DEF-down skills during battle.\n
 ユニオンバーストは、敵全体にキャラの現在ＨＰに応じた魔法割合ダメージ。キャラのＨＰが50％未満の場合、混乱状態を付与。=Union Burst deals percentage M.DMG to all enemies based on their current HP. If an enemy's HP is below 50%, inflicts Confusion.\n
 敵全体に呪い状態を付与する。キャラのＨＰが50％未満の場合、長時間呪い状態を付与する。=Inflicts Curse on all enemies. If an enemy's HP is below 50%, inflicts a long-duration Curse.\n
@@ -1753,7 +1753,7 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 冥府の魔鎧自身のＨＰが40％を切ると、さらに攻撃が激しく凶暴になる。=When Netherworld Armor's HP drops below 40%, its attacks become fiercer and more violent.  
 残りＨＰの割合が多い敵３キャラのＴＰを小ダウンさせ、ノックバックさせる。さらに、自身の物理攻撃力を大アップ。=Slightly decreases TP and knocks back 3 enemies with highest HP%. Greatly boosts own P.ATK.  
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、物理攻撃力と物理防御力を大ダウン。=Union Burst deals percentage P.DMG to all enemies based on max HP, greatly lowering P.ATK and P.DEF.  
-ジオ・ニヴルヘルに流れ着いた騎士の成れの果て。彷徨う魂を屠り、生き永らえる。=A fallen knight washed ashore in Geo Niflhel. Sustains itself by slaughtering wandering souls.  
+ジオ・ニヴルヘルに流れ着いた騎士の成れの果て。彷徨う魂を屠り、生き永らえる。=A fallen knight washed ashore in Gio Nivlhel. Sustains itself by slaughtering wandering souls.  
 
 ひと夏の冒険のはじまりです！アネモネさんも楽しんでくれたら…できれば、もう少し仲良くなれたらうれしいな…=Our summer adventure begins! If Anemone enjoys it too... I'd be happy if we could become closer...  
 
@@ -2011,3 +2011,10 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 敵全体に継続ＴＰダウン=Deals continuous TP Down to all enemies
 敵全体に継続ＴＰダウン=Continuous TP Down for the entire enemy
 自身の魔法攻撃力が高いほど：ダウン量上昇\n\n・自身に調和状態\n【ターゲットブレイク時発動】\n\n・部位１ブレイク：物理攻撃力ダウン\n\n・部位２ブレイク：物理／魔法防御力ダウン\n\n・部位３ブレイク：魔法攻撃力ダウン=The higher own M.ATK, the greater the reduction amount\n►Grants self Harmony state\n\n【Activates when target breaks】\n►Part 1 break: Lowers P.ATK\n►Part 2 break: Lowers P.DEF/M.DEF\n►Part 3 break: Lowers M.ATK\n
+
+
+対象を倒した場合：自身に魔法攻撃力アップ=If the target is defeated: Increases your own magic attack power
+このスキルで与えたダメージが多いほど：魔法攻撃力アップ量上昇=The more damage dealt with this skill, the greater the magic attack power increase.
+前から敵１体にバリア解除=Disengage barrier to one enemy unit from the front
+久遠氷河に封印されていた単眼一角の悪鬼。妖力漲る四つ腕より怒涛の氷礫を投じ、生者も亡者も冥府に積もりし塵芥へと堕す。=A one-eyed, one-horned demon sealed away in the Eternal Glacier. It hurls waves of ice from its four arms, overflowing with demonic power, sending both the living and the dead into the netherworld, reduced to piles of rubble.
+対象のＨＰ60％未満：凍結=Target's HP is less than 60%: Freeze

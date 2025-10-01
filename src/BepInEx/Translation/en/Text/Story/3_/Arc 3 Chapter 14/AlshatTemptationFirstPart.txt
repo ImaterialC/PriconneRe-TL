@@ -31,7 +31,7 @@ Chapter 1
 王宮や冒険者ギルドの情報網も、まだ手がかりはないみたいですけど。\n裏世界の『門』が使われた痕跡もないですし、これってやっぱり……=It seems the information networks of the royal palace and the adventurer's guild have not provided any clues yet. There are no signs that a "Gate" to the Underworlds was used, so this must be...
 ……コッコロさん。\n例の『カウンター』には、まだ反応はないのよね？=...Kokkoro-san. Your counter hasn't reacted at all, has it?
 ……えと。\nコロ助を疑うわけじゃないけど……本当に信頼できんの？\nその、『主さまのお知り合いカウンター』てやつ。=...Umm. It's not like I'm doubting Korosuke here, but... can we really trust it? That "My Lord's Acquaintance Counter" thing.
-はい。主さまがまだ『こちら』にいらっしゃるなら、\n必ずやこちらのカウンターが鳴り響くはずでございます。\n……ジオ・ニヴルヘルでの活躍を踏まえた、改良版ですし……=We can. If My Lord was still around here somewhere, the counter would ring without fail. ...It is an improved version, following what happened in Geo Niflhell...
+はい。主さまがまだ『こちら』にいらっしゃるなら、\n必ずやこちらのカウンターが鳴り響くはずでございます。\n……ジオ・ニヴルヘルでの活躍を踏まえた、改良版ですし……=We can. If My Lord was still around here somewhere, the counter would ring without fail. ...It is an improved version, following what happened in Gio Nivlhel...
 みんなの捜索も、コッコロちゃんのマジックアイテムも、空振りで。\nそれに、何より──{playername}くんが\n光って消えてしまった、あの感じ。あれって……=Everyone's search efforts, and Kokkoro-chan magic item, are proving fruitless. And, more than anything, there was that feeling when {playername} flashed and disappeared. So...
 『現実』への、強制ログアウト──なんでしょうか。\nやっぱり……=I wonder if it was a forced log-out to "reality"... after all...
 ……けどさ、どこのどいつがどうやって\n{playername}に、そんなトンデモないこと仕掛けたってのよ？\n普通のログアウトは、今できないはずなのに。=...But who and how did someone do something so ridiculous to {playername}? Normal logouts aren't supposed to be possible right now.
@@ -133,9 +133,9 @@ Chapter 2
 そうなのですか？\nフレイヤからは、有益な互恵関係が築ける相手と聞いていますが。=Is that so? From what Freyja told me, you are seeking for a mutually beneficial relationship.
 フレイヤが、何を言ったかは知らないけど。私は──=I've no idea what Freyja told you, but I...
 この世界が、本当に『偽物』でしかないっていうのなら。\n何も知らないままで巻き添えになるなんて、嫌だっていうだけよ。=If this world is truly nothing but a "fake", then I just don't want to be caught up in it without knowing anything.
-リーザ。\nあなたは、Region：NIFLHEL……いえ。\n『ジオ・ニヴルヘル』でも、有力な貴族の出だそうですね。=Lisa. You are from Region: NIFLHELL... No. I hear you come from a powerful noble family, even in Geo Niflhell.
-世界の真実を知ったなら、まずは\nジオ・ニヴルヘルの『王家の装備』を持つ者と\n手を携えようとは思わなかったのですか？=Once you learned the truth about this world, did you not first consider to join forces with she who possesses the Royal Family equipment in Geo Niflhell?
-フレイヤさんのおかげもあってね──\n姫を危険な目に遭わせた私は、『ジオ・ニヴルヘル』では立場が無いの。\n……スパイ行為なんて、するつもりはないわ。どちらに対してもね。=Mostly thanks to Freya-san... I put my Princess in danger, so I currently have no standing in Geo Niflhell. ...I have no intention to act as a spy. For either of you.
+リーザ。\nあなたは、Region：NIFLHEL……いえ。\n『ジオ・ニヴルヘル』でも、有力な貴族の出だそうですね。=Lisa. You are from Region: NIFLHELL... No. I hear you come from a powerful noble family, even in Gio Nivlhel.
+世界の真実を知ったなら、まずは\nジオ・ニヴルヘルの『王家の装備』を持つ者と\n手を携えようとは思わなかったのですか？=Once you learned the truth about this world, did you not first consider to join forces with she who possesses the Royal Family equipment in Gio Nivlhel?
+フレイヤさんのおかげもあってね──\n姫を危険な目に遭わせた私は、『ジオ・ニヴルヘル』では立場が無いの。\n……スパイ行為なんて、するつもりはないわ。どちらに対してもね。=Mostly thanks to Freya-san... I put my Princess in danger, so I currently have no standing in Gio Nivlhel. ...I have no intention to act as a spy. For either of you.
 おかげ、なんて──よく言いますね。\n私が持ちかけた『提案』を利用して、\nあわよくばヴァイオレット姫を殺めようとしたでしょう？　貴方は。="Mostly thanks to me"... what a claim to make. You used the "proposal" I made to you, and if you had the chance, you would have killed Princess Violet, right?
 あら、そうだったかしら？=Oh my, is that what it seemed to you?
 ……♡　フレイヤちゃぁん♡\nとか言ってぇ～、ぜ～んぜん怒ってるニオイしませんよぉ？=...♡ Freya-chaaan♡ Even if you say that, I don't sense any anger coming from you at all?
@@ -175,12 +175,12 @@ Chapter 2
 ……っ。\nそれ、って──=......! That means......
 あなたが出身地だと思っている場所──\nRegion：NIFLHELは、開発中に不要化した没データの格納先。\nそして……=The place you believe you are from -- Region: NIFLHELL is where unused data was stored during the development process. And...
 それは、最初期の電脳ダイブ実験における\n『帰還不能者』たちの魂を、移送する場所でもあったのです。=It was also the place where the souls of those who were unable to return from the earliest "Dive" experiments were transported.
-あなたがそんな『実験体』だったとは思いませんが……\nジオ・ニヴルヘルはそれからも、\n『死者の魂のログイン先』という隠し機能を残したままでした。=I do not believe you were one of those test subjects, yet... Geo Niflhell continued to have a hidden function called "Login Destination for the Souls of the Dead" even after that.
+あなたがそんな『実験体』だったとは思いませんが……\nジオ・ニヴルヘルはそれからも、\n『死者の魂のログイン先』という隠し機能を残したままでした。=I do not believe you were one of those test subjects, yet... Gio Nivlhel continued to have a hidden function called "Login Destination for the Souls of the Dead" even after that.
 ああ、嚮導老君や覇瞳皇帝あたりは気付いていたかもしれませんが。\n彼らも、反対はしないでしょう。『あちら』で死んだはずのプレイヤーが\nゲーム内では活動を続けているとなったら、運営上、問題ですし。=Ah, I am certain that both Great Guidance and Kaiser Insight must have noticed that. They probably would not object to it. If a player who was supposed to have died "over there" continued to be active within the game, it would be a problem for the game's operation.
 ……なるほどね。\n私の肉体が、『あちら』では滅んでるかもしれないって……\nそういう話かしら。=...I see. So that is why you are saying... that my body "over there" might not exist anymore.
 ──わぁ♡\nリーザちゃんったら、すっごいク～ルです♡=Wow♡ Lisa-chan, you're so cool♡
 フツー、自分が死んでるかもって聞いたら\n凹んじゃうとかぁ、ビックリしちゃうとかぁ、おもらししちゃうとかぁ、\nかわいいリアクション見れるかなぁ～って思ってたのに……♡=Normally, if someone heard that they might be dead... they'd be depressed, or surprised, or even wet themselves, so I thought I'd see some cute reactions...♡
-……期待に沿えなくて、ごめんなさいね。\nでも、知り合いに死んでる人たちはたくさんいるから──\nたとえ、ジオ・ニヴルヘルが『造り物』だったとしてもね。=...Very sorry that I didn't live up to your expectations. But I happen to know a lot of people who are "dead"... even though Geo Niflhell might be "fake".
+……期待に沿えなくて、ごめんなさいね。\nでも、知り合いに死んでる人たちはたくさんいるから──\nたとえ、ジオ・ニヴルヘルが『造り物』だったとしてもね。=...Very sorry that I didn't live up to your expectations. But I happen to know a lot of people who are "dead"... even though Gio Nivlhel might be "fake".
 ……ふふ。\n確かに、面白い人材かもしれませんね。\nフレイヤ。=...Hehe. Now I can see why you believe she might be an interesting girl, Freyja.
 はい。\n……少々野心的なところは、気がかりですが。=Yes. Although her ambitions leave me a little worried.
 まぁ♡\nフレイヤちゃんだって、狙ってるコトがあるクセに～……=Well♡ Even you have things you're after, Freyja-chan~...
@@ -363,7 +363,7 @@ Chapter 3
 これまでいくら考えても、わからなかった。\nこの──自分の衝動が、『願い』が、どこから来たのか。=No matter how much I thought about it, I couldn't figure it out. Where did this impulse... this "wish"... come from?
 いつもは、優等生のような顔をして。\nサツキやグレイスの身勝手に注意したり、姫の怯懦に直言したり。\n……いえ、彼女たちの言動を見過ごせないのも事実だけど──=I usually put on the face of an honor student. Scolding Satsuki and Grace for their selfishness, and speaking frankly about the princess's cowardice. ...No, it's true that I can't overlook their words and actions, but...
 ……みんなには、黙っているけれど。\n私の中には、叶うはずのない『願い』がある。\nそのせいで、私は常に、何があっても満足できないでいる。=...I kept it a secret from everyone, but inside me there is a "wish" that will never come true. Because of that, I am never satisfied, no matter what happens.
-理性で考えれば……三魔姫属の一人として、\nジオ・ニヴルヘルのために身を粉にするべきなのに。\n姫たちの哀しむ顔を見たいとは、思っていないはずなのに。=Rationally speaking... as one of the Three Demon Princesses, I ought to devote myself wholly to Geo Niflhell. I shouldn't want to see the Princess' sorrowful face... and yet.
+理性で考えれば……三魔姫属の一人として、\nジオ・ニヴルヘルのために身を粉にするべきなのに。\n姫たちの哀しむ顔を見たいとは、思っていないはずなのに。=Rationally speaking... as one of the Three Demon Princesses, I ought to devote myself wholly to Gio Nivlhel. I shouldn't want to see the Princess' sorrowful face... and yet.
 でも、自分でもわからない衝動が、理性を塗りつぶして。\n私をどこまでも、上へ上へと向かわせようとする。\n私の衝動、私の渇望、私の『願い』が。=Yet this impulse I don't even understand smothers my reason, driving me ever upward, higher and higher without end. My impulse, my desire... my "wish".
 私の『願い』。\nそれは──=My "wish". That's...
 『世界が、私のためにあってほしい』。="I want the world to be for me."
@@ -372,7 +372,7 @@ Chapter 3
 『本当の世界』──\n現実、っていうのがどんな世界なのか……\n今の私には、とても想像できないけれど。="The real world" -- what kind of world is reality...? The me right here can't really imagine it.
 本当の私は、もしかしたら。\n信じられないほど、『強欲』な人物なのかもしれない──……=The real me might be... An unbelievably greedy person...
 ……そして──=...And then...
-プリンセス会議の後、お忍びでアストライア大陸を巡った\nヴァイオレットたちは、{playername}の消失を知らないまま\nジオ・ニヴルヘルへ戻ろうとしていた。=After the Princess Conference, Violet and the others secretly traveled around the continent of Astraea and were about to return to Geo Niflhell, unaware of {playername}'s disappearance.
+プリンセス会議の後、お忍びでアストライア大陸を巡った\nヴァイオレットたちは、{playername}の消失を知らないまま\nジオ・ニヴルヘルへ戻ろうとしていた。=After the Princess Conference, Violet and the others secretly traveled around the continent of Astraea and were about to return to Gio Nivlhel, unaware of {playername}'s disappearance.
 ラ、ランドソル……\nいいとこ、だったねぇ。\nちょっと、暑かったけど……=L-Landosol... That was a nice place. Maybe a little hot for my tastes...
 ええ、ユキノ。\n今度は、ルルィも一緒に連れて来てあげましょうね。=Yes, Yukino. Next time, let us bring Lului alongside us.
 ……？\n誰か、先にいるみたい。\n見てくるわ。=...Hm? Looks like someone's here already. I'll go take a look.
