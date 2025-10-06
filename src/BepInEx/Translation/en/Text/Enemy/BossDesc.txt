@@ -2022,9 +2022,6 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 
 
 
-
-
-
 前から敵３体に魔法固定ダメージ=Deals fixed M.DMG to 3 front enemies
 物理か魔法攻撃力が最も高い敵１体にステータ\n　スアップ解除、魔法ダメージ=Removes status-up effects and deals M.DMG to enemy with highest P.ATK or M.ATK
 物理か魔法攻撃力が最も高い敵１体にＴＰダウ\n　ン、呪詛（必中）=Decreases TP and inflicts Cursed (unavoidable) on enemy with highest P.ATK or M.ATK
