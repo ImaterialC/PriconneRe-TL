@@ -1,0 +1,24 @@
+##Profile##
+【物理】前衛で、華奢な体躯に厚い仁義を宿す鬼のお嬢。攻防自己強化や行動不能無効化で豪胆に立ち続け、自分が呪詛状態の時に振るう追加攻撃で、怪力無双の力を示す。=[Physical] Frontline oni lady who harbors a strong sense of justice in her slender frame. She boldly stands firm with self-buffs to attack and defense as well as invalidating incapacitation, and demonstrates her unmatched superhuman strength with additional attacks when in a cursed state.
+
+##UB##
+六角納骨・陰入蟻落とし=Rokkaku Ossuary - Shadow Infusion Ant Drop
+目の前の敵１キャラに物理極大ダメージを与えてバリアを解除する。さらに、自分と目の前の敵１キャラを呪詛状態にする。呪詛による継続ダメージは毎秒ごとに増加する。発動時既に自分が呪詛状態だった場合、追加で目の前の敵１キャラに物理大ダメージを２回与える。このスキルの呪詛による自分へのダメージでは自分のＴＰは回復しない。=Deals extreme P.DMG to an enemy in front and cancels their barrier. Furthermore, inflicts curse state on self and the enemy in front. The continuous damage from the curse increases every second. If already in curse state at activation, additionally deals large P.DMG twice to the enemy in front. The damage to self from this skill's curse does not recover own TP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体のバリアを解除する自分を毎秒ダメージが初期値(\d+)の(\d+)％ずつアップするダメージを与える呪詛状態にする敵単体を毎秒ダメージが初期値(\d+)の(\d+)％ずつアップするダメージを与える呪詛状態にする自分が呪詛状態の時、敵単体に(\d+)の物理ダメージ自分が呪詛状態の時、敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to a single enemy.\n►Removes barrier from a single enemy.\n►Inflicts Curse on self, dealing damage every second starting at $2 and increasing by $3% each time.\n►Inflicts Curse on a single enemy, dealing damage every second starting at $4 and increasing by $5% each time.\n►When under Curse, deals $6 P.DMG to a single enemy.\n►When under Curse, deals $7 P.DMG to a single enemy.
+
+##S1##
+六角納骨・引き独鈷=Rokkaku Ossuary - Pulling Vajra
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせ、自分のＴＰを中回復する。発動時既に自分が呪詛状態だった場合、追加で目の前の敵１キャラに物理大ダメージを与え、自分の物理攻撃のダメージを小アップする。=Deals large P.DMG to an enemy in front, slightly lowers their P.DEF, and moderately recovers own TP. If already in curse state at activation, additionally deals large P.DMG to the enemy in front and slightly boosts own P.DMG.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分のＴＰを(\d+)回復自分が呪詛状態の時、敵単体に(\d+)の物理ダメージ自分が呪詛状態の時、自分が与える物理ダメージを(\d+)％アップ$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Recovers own TP by $3.\n►When under Curse, deals $4 P.DMG to a single enemy.\n►When under Curse, boosts P.DMG dealt by $5%.
+
+##S2##
+奉献の盃=Dedication Goblet
+自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップ、物理防御力と魔法防御力を中アップする。発動時既に自分が呪詛状態だった場合、自分のＨＰ吸収を中アップする。=Massively boosts own P.ATK, slightly boosts P.CRIT DMG, and moderately boosts P.DEF and M.DEF. If already in curse state at activation, moderately boosts own HP absorption.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリダメを(\d+)％アップ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ自分が呪詛状態の時、自分のＨＰ吸収を(\d+)アップ$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by $2%.\n►Boosts own P.DEF by $3.\n►Boosts own M.DEF by $4.\n►When under Curse, boosts own HP Absorption by $5.
+
+##EX##
+不屈の鬼=Indomitable Oni
+不屈の鬼+=Indomitable Oni+
+
+自分の物理攻撃力を特大アップ、物理クリティカルを極大アップ、物理攻撃クリティカル時のダメージを小アップ、物理防御力と魔法防御力を特大アップし、バトル終了まで自分が敵から受ける行動不能を無効化して自分のＴＰを特大回復する。発動時既に自分が呪詛状態だった場合、自分のＨＰ吸収を中アップする。=Massively boosts own P.ATK, extremely boosts P.CRIT RATE, slightly boosts P.CRIT DMG, massively boosts P.DEF and M.DEF, invalidates incapacitation effects received from enemies until the end of battle, and massively recovers own TP. If already in curse state at activation, moderately boosts own HP absorption.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理クリダメを(\d+)％アップ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ自分が呪詛状態の時、自分のＨＰ吸収を(\d+)アップ自分が敵から受ける行動不能を無効化する自分のＴＰを(\d+)回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT RATE by $2.\n►Boosts own P.CRIT DMG by $3%.\n►Boosts own P.DEF by $4.\n►Boosts own M.DEF by $5.\n►When under Curse, boosts own HP Absorption by $6.\n►Nullifies Stun from enemies.\n►Recovers own TP by $7.

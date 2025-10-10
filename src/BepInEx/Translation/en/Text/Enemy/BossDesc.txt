@@ -2020,7 +2020,14 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 対象のＨＰ60％未満：凍結=Target's HP is less than 60%: Freeze
 
 
-
+前から敵３体に魔法固定ダメージ=Magic fixed damage to three enemies from the front
+物理か魔法攻撃力が最も高い敵１体にステータ\n　スアップ解除、魔法ダメージ=Physical or magical attack power is removed from one enemy with the highest stat boost, magic damage
+物理か魔法攻撃力が最も高い敵１体にＴＰダウ\n　ン、呪詛（必中）=TP is down for one enemy with the highest physical or magical attack power, and curses (necessary)
+呪詛状態の敵全体にステータスアップ解除、魔\n　法ダメージ（飛行効果無視）=Unlock Status Boost on all Cursed Opponents, Magic DMG (ignoring flight effects)
+後ろから１番目の敵と周囲にＴＰダウン、呪い\n　（挑発無視）=TP down to the first enemy from behind and the surrounding area, curse (ignoring provocation)
+カースドメイル・ロクス=Cursed Mayle Rox
+尽き果てぬ動力で、命令を遂行する魔鎧。\n剛毅たる双肩は、領域を侵す者を拒み圧砕する。=The Demon Armor carries out its orders with unending power. Its sturdy shoulders refuse and crush anyone who violates its domain.
+前から１番目の敵に物理ダメージ=Physical damage to the first enemy from the front
 
 前から敵３体に魔法固定ダメージ=Deals fixed M.DMG to 3 front enemies
 物理か魔法攻撃力が最も高い敵１体にステータ\n　スアップ解除、魔法ダメージ=Removes status-up effects and deals M.DMG to enemy with highest P.ATK or M.ATK

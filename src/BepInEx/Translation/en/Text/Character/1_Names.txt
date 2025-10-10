@@ -170,7 +170,7 @@ Ameth alias
 アイラ=Aira
 シナツ=Shinatsu
 ユキノ=Yukino
-
+サツキ=Satsuki
 メドゥーサ=Medusa
 
 sr:"^このスキルのスキルレベルは「([\S\s]+)」と連動しています$"="This skill's level is linked to "$1""
