@@ -721,3 +721,10 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 大賢者の宝珠Ｒ=Arcsage Orb R
 焔帝の指輪Ｒ=Sovereign Flame R
 聖信徒のペンダントＲ=Disciple's Pendant R
+
+純潔の巫女装束Ｒ=Priestess Garb R
+ファンタズムメイルＲ=Phantasm Mail R
+蒼輝の鎧Ｒ=Azure Splendor R
+忘哭の冠Ｒ=Crown of Anguish R
+フェザーワルツＲ=Feather Waltz R
+インファナルグリーブＲ=Infernal Greaves R

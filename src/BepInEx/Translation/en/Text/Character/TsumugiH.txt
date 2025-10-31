@@ -28,3 +28,10 @@ r:"^(\d+)ダメージ分の物理無効バリアを展開する自分の物理�
 
 ##UE##
 ハロウィンナイトドレス=Halloween Night Dress
+
+##S2+##
+ハロウィンナイトヘアバンド=Halloween Night Hairband
+フィアーアテンション+=Fear Attention+
+【挑発】敵全体を挑発し、自分に魔法無効バリアを展開し、魔法防御力を大アップし、ＨＰを大回復する。さらに最も物理攻撃力が高い敵１キャラの物理攻撃力を大ダウン、物理防御力を中ダウンさせ、恐慌状態にする。また、最も魔法攻撃力が高い敵１キャラの魔法攻撃力を大ダウン、物理防御力を中ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。=[Taunt] Taunts all enemies, deploys a magic invalid barrier to self, greatly boosts M.DEF, and greatly recovers HP. Furthermore, greatly lowers the P.ATK of the enemy with the highest P.ATK, moderately lowers their P.DEF, and inflicts panic state. Also, greatly lowers the M.ATK of the enemy with the highest M.ATK, moderately lowers their P.DEF, and slightly increases the damage they receive from critical hits.
+
+r:"^敵全体を挑発する(\d+)ダメージ分の魔法無効バリアを展開する自分の魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復敵単体の物理攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン敵単体を恐慌状態にする敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン敵単体の被クリダメを16％アップ$"=►Taunts all enemies.\n►Deploys a Magic Null Barrier absorbing $1 DMG.\n►Boosts own M.DEF by $2.\n►Restores own HP by $3.\n►Lowers a single enemy's P.ATK by $4.\n►Lowers a single enemy's P.DEF by $5.\n►Inflicts [Panic] to a single enemy.\n►Lowers a single enemy's M.ATK by $6.\n►Lowers a single enemy's P.DEF by $7.\n►Boosts a single enemy's CRIT DMG taken by 16%.

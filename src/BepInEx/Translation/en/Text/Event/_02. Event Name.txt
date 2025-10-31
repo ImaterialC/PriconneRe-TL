@@ -1,5 +1,12 @@
 sr:"^(.+) エンディングを閲覧で解放$"=Unlocked by Viewing the Ending of \n$1
 sr:"^(.+) ?次回予告$"=""$1" Next Episode Preview"
+
+
+no index
+ゾンビランドコネクト！\nRe:DIEve=Zombieland Connect! Re:DIEVE
+ゾンビランドコネクト！Re:DIEve=Zombieland Connect! Re:DIEVE
+
+
 1
 ハツネのプレゼント大作戦=Hatsune's Perfect Present
 
@@ -339,3 +346,6 @@ Everyone's Radio Exercise
 
 91
 Demon/Snow　起死回生ノ冥府旅情 =Demon/Snow: Netherworld Journey of Resurrection
+
+92
+煉獄の名探偵　すべてがＷ（ウェブ）になる エンディングを閲覧=The Great Detective of Purgatory: Everything Turns to Web

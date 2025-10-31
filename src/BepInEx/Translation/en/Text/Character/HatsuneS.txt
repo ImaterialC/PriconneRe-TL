@@ -29,3 +29,11 @@ r:"^敵全体に(\d+)の魔法ダメージ自分のＴＰを(\d+)回復$"=►Dea
 
 ##UE##
 グリッタースターズ☆ポンポン=Glitter Stars☆Pom-Pom
+
+##S2##
+チアリーダー☆ミーティア=Cheerleader☆Mitia
+チアフル☆ハピネス+=Cheerful☆Happiness+
+
+自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップ、魔法クリティカルを大アップさせる。さらに、バトル開始後、初弾のこのスキルは自分を中心とした範囲内の味方すべてのＴＰを特大回復させる。=Massively boosts all allies in range centered on self's M.ATK, and greatly boosts M.CRIT RATE. Furthermore, after battle start, the first use of this skill massively recovers all allies in range centered on self's TP.
+
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを80アップ初使用時、範囲内の味方のＴＰを500回復$"=►Boosts M.ATK of allies within range by $1.\n►Boosts M.CRIT RATE of allies within range by 80.\n►On first use, recovers TP for allies within range by 500.

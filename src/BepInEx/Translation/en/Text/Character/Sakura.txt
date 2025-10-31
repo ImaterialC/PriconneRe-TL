@@ -1,0 +1,24 @@
+【物理】中衛で不運に抗い歌い続けるゾンビィアイドル。一度倒れても立ち上がり、ＴＰを糧に強化されるスキルのダメージと味方の支援で、サガの心をアストルムに刻む。=[Physical] Midline zombie idol singing against misfortune. Even when defeated, she rises again, carving Saga's spirit into Astrum through TP-enhanced skills and ally support.
+お菓子作り、パズルゲーム=Sweets making, puzzle games
+サガを救うアイドルゾンビ=Idol Zombie to Save Saga
+##UB##
+グッドモーニングサガ=Good Morning Saga
+味方全体のＴＰを中回復、自分の物理攻撃力を特大アップし、さらに、前方の敵すべてにそのキャラの最大ＨＰに応じて最大4444444の物理割合ダメージを与えるが、自分の残りＨＰを全て消費する。=Moderately recovers all allies' TP, massively boosts own P.ATK, and additionally deals physical proportional damage up to a maximum of 4,444,444 to all enemies ahead based on that character's max HP, but consumes all of own remaining HP.
+r:"^味方全体のＴＰを(\d+)回復自分の物理攻撃力を(\d+)アップ範囲内の敵に最大(\d+)の物理割合ダメージを与える自分の残りＨＰを全て消費$"=►Recovers all allies' TP by $1.\n►Boosts own P.ATK by $2.\n►Deals proportional P.DMG up to $3 to enemies within range.\n►Consumes all remaining HP.
+
+##S1##
+ゾンビオンステージ=Zombie On Stage
+味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。ゾンビ状態の時、さらに前方の敵すべてに物理大ダメージを与え、発動時の自分の残りＴＰに応じてこのスキルの効果量がアップするが、自分のＴＰを400消費する。=Massively boosts all allies' P.ATK, greatly boosts P.CRIT RATE, and slightly boosts P.CRIT DMG. When in zombie state, additionally deals large P.DMG to all enemies ahead, and the effect amount of this skill increases based on own TP at activation, but consumes 400 of own TP.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを120アップ味方全体の物理クリダメを7％アップゾンビ状態の場合、範囲内の敵に(\d+)の物理ダメージゾンビ状態の場合、自分のＴＰを(\d+)消費$"=►Boosts all allies' P.ATK by $1.\n►Boosts all allies' P.CRIT RATE by 120.\n►Boosts all allies' P.CRIT DMG by 7％.\n\nIf [Zombie] is active:\n►Deals $2 P.DMG to enemies within range.\n►Consumes own TP by $3.
+
+##S2##
+リベンジングチューン=Revenging Tune
+味方全体の物理攻撃力を特大アップ、ＨＰを中回復、ＴＰを小回復させる。ゾンビ状態の時、さらに前方の敵すべてに物理大ダメージを与え、発動時の自分の残りＴＰに応じて物理攻撃力の上昇量とダメージがアップするが、自分のＴＰを400消費する。=Massively boosts all allies' P.ATK, moderately recovers their HP, and slightly recovers their TP. When in zombie state, additionally deals large P.DMG to all enemies ahead, and the P.ATK boost amount and damage increase based on own TP at activation, but consumes 400 of own TP.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体のＨＰを(\d+)回復味方全体のＴＰを100回復ゾンビ状態の場合、範囲内の敵に(\d+)の物理ダメージゾンビ状態の場合、自分のＴＰを(\d+)消費$"=►Boosts all allies' P.ATK by $1.\n►Restores all allies' HP by $2.\n►Recovers all allies' TP by 100.\n\nIf [Zombie] is active:\n►Deals $3 P.DMG to enemies within range.\n►Consumes own TP by $4.
+
+##EX##
+私のSAGA=My SAGA
+私のSAGA+=My SAGA+
+
+死んでも叶えたい！=I Want to Achieve It Even If I Die!
+自分のＨＰを全回復ＵＢを発動できなくなる\nＨＰが０になった時に発動し、倒れずに自分のＨＰを極大回復させるが、ゾンビ状態になり、バトル終了までユニオンバーストが発動できなくなる。このスキルはバトル中一度しか発動しない。=Fully recovers own HP but UB cannot be activated.\nActivates when HP reaches 0, recovering own HP extremely without falling, but enters zombie state and Union Burst cannot be activated until the end of battle. This skill activates only once per battle.

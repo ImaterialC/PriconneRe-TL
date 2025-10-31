@@ -24,3 +24,11 @@ r:"^フィールド展開中、以下の効果がもう一度発動する範囲�
 ##EX##
 お洗濯マイスター=Laundry Meister
 お洗濯マイスター+=Laundry Meister+
+
+##S1+##
+お掃除します！+=I'll Clean Up!+
+ドラゴンメイドモップ=Dragon Maid Mop
+
+自分を中心とした範囲内の味方すべての魔法攻撃力を大アップ、魔法クリティカルを中アップ、魔法攻撃クリティカル時のダメージを小アップさせる。【フィールド展開中】このスキルの効果がもう一度発動する。=Greatly boosts all allies in range centered on self's M.ATK, moderately boosts M.CRIT RATE, and slightly boosts M.CRIT DMG. [During Field Deployment] This skill's effect activates once more.
+
+r:"^フィールド展開中、以下の効果がもう一度発動する範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを50アップ範囲内の味方の魔法クリダメを6％アップ$"=►While [Field] is active, the following effects reactivate:\n►Boosts M.ATK of allies within range by $1.\n►Boosts M.CRIT RATE of allies within range by 50.\n►Boosts M.CRIT DMG of allies within range by 6%.

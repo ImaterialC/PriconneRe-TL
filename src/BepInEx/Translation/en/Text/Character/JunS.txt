@@ -25,3 +25,11 @@ r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメー
 
 ##UE##
 サマーシュバリエソード=Summer Chevalier Sword
+
+##S2+##
+サマーシュバリエスーツ=Summer Chevalier Suit
+サンライトブレイク+=Sunlight Break+
+
+自分の物理攻撃力を特大アップし、目の前の敵１キャラに物理特大ダメージを与え、スタンさせる。対象の敵が火傷状態だった場合、さらにそのキャラの最大ＨＰに応じて最大200万の物理割合ダメージを与える。=Massively boosts own P.ATK, deals massive P.DMG to an enemy in front, and stuns them. If the target enemy is in burn state, additionally deals physical proportional damage up to a maximum of 2,000,000 based on that character's max HP.
+
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする敵が火傷状態の時、敵単体に最大200万の物理割合ダメージを与える$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to a single enemy.\n►Inflicts Stun to a single enemy.\n►If enemy is [Burned]: Deals proportional P.DMG up to 2,000,000 to a single enemy.

@@ -1,0 +1,55 @@
+【物理】後衛で、喪われた光を求めてもがく元『六凶』。敵のＵＢを遅延する【遮絶の操糸】や、味方単体のＵＢを連続発動可能にする【賦活の糸】を戦場に張り巡らせる。=[Physical] Rearguard former "Six Calamities" seeking lost light. Deploys threads that delay enemy UBs and enable ally UB spamming across the battlefield.
+光を追うこと、整理整頓=Chasing the light, organizing and tidying up.
+
+##UB##
+ウィドウ・ウェヴ・ウィーヴ=Widow Web Weave
+味方全体に物理/魔法無効バリアを展開し、継続ＨＰ回復状態を付与する。自分以外の物理攻撃をする味方のうち最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップさせ、【賦活の糸】を１つ付与する。【賦活の糸】が付与されているキャラがＵＢを使用した場合、そのキャラの【賦活の糸】を１つ消費し、ＴＰを特大回復する。【賦活の糸】は最大１つまで追加される。=Deploys a physical/magic invalid barrier to all allies and grants continuous HP recovery state. Massively boosts the P.ATK of the ally with the highest P.ATK among allies other than self who perform physical attacks, and grants 1 [Revitalizing Thread]. If a character with [Revitalizing Thread] uses UB, consumes 1 [Revitalizing Thread] from that character and massively recovers their TP. [Revitalizing Thread] can be added up to a maximum of 1.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する対象の味方の物理攻撃力を(\d+)アップ対象の味方に賦活の糸を付与する対象の味方がＵＢを使用した時に、賦活の糸を１つ消費し、ＴＰを1000回復$"=►Deploys a Phys/Mag Null Barrier absorbing $1 DMG.\n►Recovers HP by $2 per second.\n►Boosts target ally's P.ATK by $3.\n►Grants [Activation Thread] to target ally.\n►When target ally uses UB: Consumes 1 [Activation Thread] and recovers TP by 1000.
+
+##S1##
+忘却の財禍=Oblivion's Calamity
+味方全体のＴＰ上昇を小アップし、自分以外の味方全体のＴＰを小回復する。さらに、味方全体の物理攻撃力を特大アップ、物理防御力と魔法防御力を中アップする。=Slightly boosts all allies' TP Boost, and slightly recovers TP of all allies other than self. Furthermore, massively boosts all allies' P.ATK, and moderately boosts their P.DEF and M.DEF.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体のＴＰ上昇を5アップ自分以外の味方全体のＴＰを100回復$"=►Boosts all allies' P.ATK by $1.\n►Boosts all allies' P.DEF by $2.\n►Boosts all allies' M.DEF by $3.\n►Boosts all allies' TP Boost by 5.\n►Recovers TP for all allies except self by 100.
+
+##S2##
+粘つく白糸=Sticky White Thread
+目の前の敵１キャラの物理攻撃力と魔法攻撃力を大ダウン、物理防御力を小ダウンさせ、物理攻撃を受けた際のダメージを小アップさせる。=Greatly lowers an enemy in front's P.ATK and M.ATK, slightly lowers their P.DEF, and slightly increases the damage they receive from physical attacks.
+
+r:"^敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン敵単体が受ける物理ダメージを3％アップ$"=►Lowers a single enemy's P.ATK by $1.\n►Lowers a single enemy's M.ATK by $2.\n►Lowers a single enemy's P.DEF by $3.\n►Boosts physical damage taken by a single enemy by 3%.
+
+##EX##
+光射す方へ=Toward the Shining Light
+光射す方へ+=Toward the Shining Light+
+
+逃れ得ぬカルマ=Inescapable Karma
+敵単体を遮絶の操糸状態にする物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラを遮絶の操糸状態にする。遮絶の操糸状態の間はＴＰが増加しない。=Inflicts isolated puppet string state on a single enemy.\nInflicts isolated puppet string state on the enemy with the highest attack power, whether P.ATK or M.ATK. While in isolated puppet string state, TP does not increase.
+
+Story Title Cards
+逃れられない過去=An Inescapable Past
+脱出、あるいは運命の再会=Escape or Fateful Reunion
+小さな従者と大きな従者=Little Servant and Big Servant
+わたしの光=My Light
+
+
+
+Wurm Special Skill
+
+Lind Special Skill
+
+
+Emilia Special Skill
+
+
+Echidona
+
+
+
+RemS
+
+
+Tsumugi
+
+
+Hatsune Summer
+
+JunS

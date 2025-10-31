@@ -1,0 +1,18 @@
+サガタウロス=Sagataur
+コラボレイドイベントのデイリーミッション報酬を受け取ろう=Take the daily mission rewards for the collab raid event
+
+全体報酬=Total Reward
+全体ミッションクリア！=Complete the entire mission!
+討伐チケット=Subjugation Ticket
+期間限定ミッション：2025/10/24 12:00～2025/11/03 11:59=Limited-time mission: 2025/10/24 12:00 - 2025/11/03/03 11:59
+サガタウロス（NORMAL）を１回倒そう=Defeat the Sagataur (NORMAL) once
+サガタウロスと１回バトルしよう (全難易度共通)=Let's have one battle with the Sagataur. (All difficulty levels are the same.)
+r:"^\(期限：あと (\d+)時間(\d+)分\)$"=(Time limit: $1 hours $2 minutes)
+サガタウロス（HARD）を１回倒そう=Defeat the Sagataur (HARD) once
+サガタウロス（VERY HARD）を１回倒そう=Defeat the Sagataur (VERY HARD) once
+サガタウロスを５回倒そう (全難易度共通)=Defeat 5 Sagataurs (All difficulty)
+サガタウロスを40回倒そう (全難易度共通)=Defeat 40 Sagataurs
+サガタウロスに累計1,000,000,000ダメージ与えよう=Deal a total of 1,000,000,000 damage to Sagataur
+サガタウロスに１度のバトルで30,000,000ダメージ与えよう=Deal a total of 30,000,000 damage to Sagataur in a single battle
+サガタウロスに累計2,000,000,000ダメージ与えよう=Deal a total of 2,000,000,000 damage to Sagataur
+サガタウロスに１度のバトルで120,000,000ダメージ与えよう=Deal a total of 120,000,000 damage to Sagataur in a single battle

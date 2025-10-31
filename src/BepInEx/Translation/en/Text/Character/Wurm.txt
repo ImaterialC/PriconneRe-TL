@@ -20,3 +20,12 @@ r:"^サボりの誘惑を５つ消費する自分のＴＰを250回復(\d+)ダ�
 ##EX##
 つまみ食いマイスター=Snack Meister
 つまみ食いマイスター+=Snack Meister+
+
+
+##S1+##
+めんどくさ…+=What A Pain...+
+ドラゴンメイドティーセット=Dragon Maid Tea Set
+【サボりの誘惑】が39以下の場合、目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせるが、自分に【サボりの誘惑】を20付与する。【サボりの誘惑】が40以上の場合、目の前の敵１キャラに魔法中ダメージを与え、【サボりの誘惑】を10消費する。【サボりの誘惑】は最大60まで追加され、ステータスアップ効果を受ける度に１つ解除される。=If [Lure of Loafing] is 39 or below, deals massive M.DMG to an enemy in front, slightly lowers their M.DEF, and slightly increases the damage they receive from critical hits, but grants self 20 [Lure of Loafing]. If [Lure of Loafing] is 40 or above, deals moderate M.DMG to an enemy in front and consumes 10 [Lure of Loafing]. [Lure of Loafing] can be added up to a maximum of 60, and is removed by 1 each time a status up effect is received.
+
+r:"^サボりの誘惑が39以下の場合敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の被クリダメを3％アップ自分にサボりの誘惑を20付与するサボりの誘惑が40以上の場合敵単体に(\d+)の魔法ダメージサボりの誘惑を10消費する$"=►If [Lure of Loafing] ≤39:\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Boosts a single enemy's CRIT DMG taken by 3%.\n►Grants 20 [Lure of Loafing] to self.\n\nIf [Lure of Loafing] ≥40:\n►Deals $3 M.DMG to a single enemy.\n►Consumes 10 [Lure of Loafing].
+

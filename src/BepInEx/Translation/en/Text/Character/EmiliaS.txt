@@ -18,3 +18,9 @@ r:"^氷の壁を生成する(\d+)ダメージ分の物理魔法無効バリア�
 大精霊とのばかんす=Vacation with the Great Spirit
 大精霊とのばかんす+=Vacation with the Great Spirit+
 
+
+##S1+##
+氷壁の護り+=Ice Wall Protection+
+【召喚】前から３番目の敵の後ろに氷の壁を生成し、その敵を中心とした範囲内の敵すべてを凍結させる。さらに味方全体の物理防御力と魔法防御力を中アップさせ、物理/魔法無効バリアを展開する。氷の壁は一定時間後に消滅する。=[Summon] Generates an ice wall behind the 3rd enemy from the front, and freezes all enemies in range centered on that enemy. Furthermore, moderately boosts all allies' P.DEF and M.DEF, and deploys a physical/magic invalid barrier. The ice wall disappears after a certain time.
+
+r:"^氷の壁を生成する範囲内の敵を一定時間行動不能にする味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Generates an [Ice Wall].\n►Inflicts Stun to enemies within range.\n►Boosts all allies' P.DEF by $1.\n►Boosts all allies' M.DEF by $2.\n►Deploys a Phys/Mag Null Barrier absorbing $3 DMG.

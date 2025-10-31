@@ -99,6 +99,10 @@ r:"^\[3C404E\]\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\
 
 r:"^\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個消費して、\n以下のクエストの残り挑戦回数を回復しました。\[-\]$"=[3C404E]Jewels [FFBB00,CE4F00]$1[-] consumed,\nThe number of remaining Attempts for the following quests has been restored.[-]
 
+r:"^\[3B3F4D\]本日の挑戦回数の上限に達しています。\nジュエル×\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3B3F4D\]を使用して\n挑戦回数をリセットしますか？\[-\]$"=[3B3F4D] You have reached the maximum number of attempts allowed for today.\nWould you like to reset the number of attempts using [FFBB00,CE4F00]$1[-] Jewels?[-]
+再挑戦する=Try again
+終了する=End of story
+レイド=Raid
 ---Skip Table---
 本日の回復可能回数上限に達しました。=Today's recoverable limit was reached.
 スキップ回数=Skip count

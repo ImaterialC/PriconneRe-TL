@@ -32,3 +32,16 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復自分以
 ##EX##
 夏まっ盛りです！=Summer in Full Swing!
 夏まっ盛りです！+=Summer in Full Swing!+
+
+
+
+##S1+##
+サマーモーニングスター=Summer Morning Star
+ビーチサイドスター+=Beachside Star+
+逆巻く鉄球+=Raging Morningstar+
+
+目の前の敵１キャラに物理特大ダメージを与え、自分の物理攻撃力を大アップする。=Deals massive P.DMG to an enemy in front and greatly boosts own P.ATK.
+
+目の前の敵１キャラに物理特大ダメージを２回与え、物理防御力を小ダウンさせ、自分のＴＰを中回復する。さらに、自分以外の味方全員に最大ＨＰに応じた物理割合ダメージを与える。このスキルのダメージは、【狂騒】の数に応じて増加する。このスキルによる味方へのダメージでは味方のＴＰは回復しない。=Deals massive P.DMG twice to an enemy in front, slightly lowers their P.DEF, and moderately recovers own TP. Furthermore, deals physical proportional damage to all allies other than self based on their max HP. This skill's damage increases based on the number of [Mania]. The damage to allies from this skill does not recover their TP.
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分のＴＰを200回復自分以外の味方全体に最大ＨＰの１％の物理割合ダメージ$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $3.\n►Recovers own TP by 200.\n►Deals physical proportional damage equal to 1% of max HP to all allies except self.

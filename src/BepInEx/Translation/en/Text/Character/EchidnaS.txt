@@ -28,3 +28,12 @@ r:"^自分のＨＰを(\d+)回復自分を幻化状態にする$"=►Recovers ow
 ##EX##
 知識欲の権化=The Embodiment Of Thirst For Knowledge
 知識欲の権化+=The Embodiment Of Thirst For Knowledge+
+
+
+
+##S1+##
+君たちの可能性を見せてほしい+=Show Me Your Potential!+
+魔女のティーセット=Witch's Tea Set
+自分を中心とした範囲内の味方すべての魔法攻撃力と魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、行動速度を大アップさせる。さらにＴＰを小回復させる。=Greatly boosts all allies in range centered on self's M.ATK and M.CRIT RATE, slightly boosts M.CRIT DMG, and greatly boosts action speed. Furthermore, slightly recovers TP.
+
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを120アップ範囲内の味方の魔法クリダメを12％アップ範囲内の味方の行動速度60％アップ範囲内の味方のＴＰを60回復$"=►Boosts M.ATK of allies within range by $1.\n►Boosts M.CRIT RATE of allies within range by 120.\n►Boosts M.CRIT DMG of allies within range by 12％.\n►Boosts Action Speed of allies within range by 60％.\n►Recovers TP for allies within range by 60.
