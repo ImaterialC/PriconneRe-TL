@@ -1,0 +1,41 @@
+##Profile##
+【魔法】後衛で、聖なる光に包まれ微笑み祈るシスター。攻防デバフを操り【真実の導き】が集まると最大３キャラへの攻撃が最も魔防の低い敵を追及し、真理を照らす。=[Magic] A backline sister wrapped in holy light, smiling as she prays. She manipulates offensive and defensive debuffs, and when [True Guidance] accumulates, her attacks targeting up to 3 enemies pursue the foe with the lowest M.DEF, illuminating the truth.
+
+##UB##
+ルクス・イン・テネブリス=Lux in Tenebris
+敵全体の魔法防御力とＴＰを中ダウンさせ、目の前の最大２キャラまでの敵に魔法大ダメージを与える。【真実の導き】が40の場合、このスキルのダメージは最も魔法防御力の低い敵１キャラに計２回与えるようになり、追加で最も魔法防御力の低い敵１キャラに魔法特大ダメージを与える。=Moderately lowers all enemies' M.DEF and TP, and deals large M.DMG to up to 2 enemies in front. If [True Guidance] is 40, this skill's damage is dealt a total of 2 times to the enemy with the lowest M.DEF, and additionally deals massive M.DMG to the enemy with the lowest M.DEF.
+
+r:"^敵全体の魔法防御力を(\d+)ダウン敵全体のＴＰを(\d+)失わせる１番目に近い敵単体に(\d+)の魔法ダメージ真実の導きが40の場合、最も魔法防御力の低い敵に(\d+)の魔法ダメージ２番目に近い敵単体に(\d+)の魔法ダメージ真実の導きが40の場合、最も魔法防御力の低い敵に(\d+)の魔法ダメージ真実の導きが40の場合、最も魔法防御力の低い敵に(\d+)の魔法ダメージ$"=►Lowers all enemies' M.DEF by $1.\n►Depletes all enemies' TP by $2.\n►Deals $3 M.DMG to the closest enemy.\n►If [Truth Guidance] is 40: Deals $4 M.DMG to the enemy with lowest M.DEF.\n►Deals $5 M.DMG to the second closest enemy.\n►If [Truth Guidance] is 40: Deals $6 M.DMG to the enemy with lowest M.DEF.\n►If [Truth Guidance] is 40: Deals $7 M.DMG to the enemy with lowest M.DEF.
+
+
+##S1##
+ミラーオブトゥルース=Mirror of Truth
+敵全体の魔法防御力を小ダウン、魔法攻撃力を大ダウンさせ、目の前の最大３キャラまでの敵に魔法中ダメージを与える。発動時既に【真実の導き】が40の場合、行動パターンが変化する。=Slightly lowers all enemies' M.DEF, greatly lowers their M.ATK, and deals moderate M.DMG to up to 3 enemies in front. If [True Guidance] is already 40 upon activation, the action pattern changes.
+
+r:"^カスミ（シスター）の攻撃が当たるたびに真実の導きを１つ獲得真実の導きを６つ獲得味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復(\d+)ダメージ分の魔法無効バリアを展開する$"=►Each time Kasumi (Sister) hits with an attack, gain 1 [Truth Guidance].\n►Gains 6 [Truth Guidance].\n►Boosts all allies' M.DEF by $1.\n►Restores all allies' HP by $2.\n►Deploys a Magic Nullification Barrier absorbing $3 DMG.
+
+
+##S2##
+セイントヴェール=Saint Veil
+バトル開始後、初弾のこのスキルは、敵に攻撃が当たるたびに【真実の導き】が１つ追加される状態にする。【真実の導き】は最大40まで追加される。自分に【真実の導き】を６つ追加し、味方全体の魔法防御力を中アップ、ＨＰを小回復して魔法無効バリアを展開する。発動時既に【真実の導き】が40の場合、行動パターンが変化する。=After battle start, the first use of this skill enables a state where [True Guidance] +1 is added each time an attack lands on an enemy. [True Guidance] can accumulate up to a maximum of 40. Adds 6 [True Guidance] to self, moderately boosts all allies' M.DEF, slightly recovers their HP, and deploys a magic-nullifying barrier. If [True Guidance] is already 40 upon activation, the action pattern changes.
+
+r:"^敵全体の魔法防御力を(\d+)ダウン敵全体の魔法攻撃力を(\d+)ダウン１番目に近い敵単体に(\d+)の魔法ダメージ２番目に近い敵単体に(\d+)の魔法ダメージ３番目に近い敵単体に(\d+)の魔法ダメージ$"=►Lowers all enemies' M.DEF by $1.\n►Lowers all enemies' M.ATK by $2.\n►Deals $3 M.DMG to the closest enemy.\n►Deals $4 M.DMG to the second closest enemy.\n►Deals $5 M.DMG to the third closest enemy.
+
+
+##EX##
+オクルス・デイ=Oculus Dei
+オクルス・デイ+=Oculus Dei+
+
+
+##S1##
+パターン変化後=After Pattern Change
+敵全体の魔法防御力を小ダウン、魔法攻撃力を大ダウンさせ、最も魔法防御力の低い敵１キャラに魔法中ダメージを３回与える。=Slightly lowers all enemies' M.DEF, greatly lowers their M.ATK, and deals moderate M.DMG 3 times to the enemy with the lowest M.DEF.
+
+r:"^敵全体の魔法防御力を(\d+)ダウン敵全体の魔法攻撃力を(\d+)ダウン最も魔法防御力の低い敵に(\d+)の魔法ダメージ最も魔法防御力の低い敵に(\d+)の魔法ダメージ最も魔法防御力の低い敵に(\d+)の魔法ダメージ$"=►Lowers all enemies' M.DEF by $1.\n►Lowers all enemies' M.ATK by $2.\n►Deals $3 M.DMG to the enemy with lowest M.DEF.\n►Deals $4 M.DMG to the enemy with lowest M.DEF.\n►Deals $5 M.DMG to the enemy with lowest M.DEF.
+
+
+##S2##
+自分の魔法攻撃力を大アップ、魔法クリティカルを中アップ、魔法攻撃クリティカル時のダメージを小アップする。さらに味方全体の魔法防御力を中アップ、ＨＰを小回復して魔法無効バリアを展開する。=Greatly boosts own M.ATK, moderately boosts own M.CRIT RATE, and slightly boosts own M.CRIT DMG. Additionally, moderately boosts all allies' M.DEF, slightly recovers their HP, and deploys a magic-nullifying barrier.
+
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ自分の魔法クリダメを(\d+)％アップ味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts own M.ATK by $1.\n►Boosts own M.CRIT RATE by $2.\n►Boosts own M.CRIT DMG by $3％.\n►Boosts all allies' M.DEF by $4.\n►Restores all allies' HP by $5.\n►Deploys a Magic Nullification Barrier absorbing $6 DMG.
+

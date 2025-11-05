@@ -5,6 +5,7 @@
 轟流の深淵=Turbulent Abyss
 玄闇の深淵=Oblivion Abyss
 烈風の深淵=Gale Abyss
+燦爛の深淵=Brilliant Abyss
 
 深淵討伐戦へ=To the Abyss Battle
 スタミナ不足のため実行しません。=Not executed due to lack of stamina.
@@ -89,3 +90,24 @@ r:"^スキップチケットと討伐依頼証を消費して\n([0-9]+)回バト
 ……あーもうしょうがないわね！　とっとと片付けてきてやるから、\n報酬いーっぱい用意しときなさいよね！=...Oh, fine! I'll take care of this quickly, so make sure you have plenty of rewards ready!
 【美食殿】、レッツゴーです☆=[Gourmet Guild], let's go☆
 
+
+
+
+####
+消費討伐チケット=Expendable Subjugation Ticket
+討伐チケットを消費して\n5回バトルをスキップします。=Spend Subjugation Ticket to skip 5 battles.
+討伐報酬券=Subjugation Reward Ticket
+r:"^キャラストーリー(\d+)話解放中！$"=Character Story $1: Unlocked!
+
+強敵との手合わせ、夜廻り=A sparring match with a formidable enemy, and a night shift
+
+新刊入荷=New books in stock
+ログインボーナスとして以下のアイテムを受け取りました。=Received the following items as a login bonus:
+チャレンジ報酬=Challenge Reward
+初回討伐完了まではチャレンジ報酬は獲得できません。=Challenge rewards will not be obtained until the first subjugation is complete.
+
+r:"^(\d+)枚の討伐報酬券をまとめて交換しますか？$"=Would you like to exchange $1 subjugation reward tickets at once?
+討伐報酬券を集めて、豪華報酬をGET!=Collect monster hunting reward tickets to get amazing rewards!
+こんにちは！ギルド管理協会です！\nとっておきの報酬も用意していますので頑張ってくださいね=Hello! This is the Guild Management Association! We've prepared some special rewards, so please do your best!
+
+ナーナ、すいりとかろんぱとか、\nむずかしくてわかんないけど…\nお友だちとドーナツのためならっ\nせーいっぱいがんばるよっ！=Nana, I don't understand difficult things like deduction and logic puzzles... but for my friends and for donuts, I'll do my very best!

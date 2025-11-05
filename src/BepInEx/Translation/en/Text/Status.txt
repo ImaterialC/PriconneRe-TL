@@ -29,6 +29,9 @@ TP消費軽減=TP Retain
 回避=Dodge
 強化スキル=Enhance Skill
 戦力=Power
+ダメージカット=Damage Cut
+物理=Physical
+魔法=Magic
 
 ＴＰ=TP
 ＨＰ=HP
@@ -36,6 +39,7 @@ TP消費軽減=TP Retain
 ＨＰ回復量=HP Recovery Amount
 TP回復量=TP Recovery Amount
 HP回復量=HP Recovery Amount
+回復=Recovery
 
 現在のHP=Boss HP
 あなたのターンです。=Your turn.
@@ -147,3 +151,50 @@ r:"^水属性攻撃力\＋([0-9,]+)$"=Water Attack +$1
 r:"^風属性攻撃力\＋([0-9,]+)$"=Wind Attack +$1
 r:"^光属性攻撃力\＋([0-9,]+)$"=Light Attack +$1
 r:"^闇属性攻撃力\＋([0-9,]+)$"=Darkness Attack +$1
+
+
+##Filter
+
+基本設定=Basic setting
+絞り込み設定=Filter settings
+すべて含む=All inclusive
+どれかを含む=Contains any
+攻撃属性=Attack Type
+攻撃特性=Attack Speciality
+単体=Single
+範囲=AoE
+継続ダメージ=DoT
+隊列=Formation
+
+
+強化効果=Buff effect
+速度アップ=Speed up
+加算速度アップ=Addition Speed up
+物クリアップ=P.CRIT RATE up
+魔クリアップ=M.CRIT RATE up
+物クリダメアップ=P.CRIT DMG up
+魔クリダメアップ=M.CRIT DMG up
+弱体効果=Debuff effect
+
+速度ダウン=Speed down
+ＨＰ回復=HP recovery
+継続ＨＰ回復=Continuous HP recovery
+物理無効=Physical nullification
+魔法無効=Magic nullification
+物理魔法無効=P/M nullification
+物理吸収=Physical absorption
+魔法吸収=Magic absorption
+物理魔法吸収=P/M absorption
+行動不能=Stunt
+魅了・混乱=Charm & Confusion
+挑発=Taunt
+飛行=Flight
+調和=Harmony
+行動不能無効=Incapacitation nullification
+スキルの設定で使用可能です。=It can be used in the skill settings.
+
+
+
+低い順=Ascending
+高い順=Descending
+並び順=Order

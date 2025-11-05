@@ -28,3 +28,6 @@ r:"^自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)ア
 ##EX##
 オープニングジュエル=Opening Jewel
 オープニングジュエル+=Opening Jewel+
+
+
+かばばん君警備員モード+=Kababan-kun Guard Mode+

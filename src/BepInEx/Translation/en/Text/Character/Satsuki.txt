@@ -1,6 +1,8 @@
 ##Profile##
 【物理】前衛で、華奢な体躯に厚い仁義を宿す鬼のお嬢。攻防自己強化や行動不能無効化で豪胆に立ち続け、自分が呪詛状態の時に振るう追加攻撃で、怪力無双の力を示す。=[Physical] Frontline oni lady who harbors a strong sense of justice in her slender frame. She boldly stands firm with self-buffs to attack and defense as well as invalidating incapacitation, and demonstrates her unmatched superhuman strength with additional attacks when in a cursed state.
 
+鬼族=Oni
+
 ##UB##
 六角納骨・陰入蟻落とし=Rokkaku Ossuary - Shadow Infusion Ant Drop
 目の前の敵１キャラに物理極大ダメージを与えてバリアを解除する。さらに、自分と目の前の敵１キャラを呪詛状態にする。呪詛による継続ダメージは毎秒ごとに増加する。発動時既に自分が呪詛状態だった場合、追加で目の前の敵１キャラに物理大ダメージを２回与える。このスキルの呪詛による自分へのダメージでは自分のＴＰは回復しない。=Deals extreme P.DMG to an enemy in front and cancels their barrier. Furthermore, inflicts curse state on self and the enemy in front. The continuous damage from the curse increases every second. If already in curse state at activation, additionally deals large P.DMG twice to the enemy in front. The damage to self from this skill's curse does not recover own TP.

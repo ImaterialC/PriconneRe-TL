@@ -74,6 +74,9 @@ r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効�
 r:"^(\d+)秒ごとに物理無効バリア展開（【守備】数×(\d+)無効）$"=►Deploys Physical Null Barrier every $1s\n(Nullifies [Guard] count ×$2)
 r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効）$"=►Deploys Magic Null Barrier every $1s\n(Nullifies [Guard] count ×$2)
 
+r:"^物理/魔法攻撃力アップ（加入キャラ数×(\d+)％、最大(\d+)％）（現在(\d+)人）$"=P/M.ATK Bonus (Joined Characters x$1%, max $1%) (Currently $3 peoples)
+
+
 ## Purchase ##
 r:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n以下のアイテムを購入しますか？\[-\]$"=[3C404E]Would you like to use [FFBB00,CE4F00]$1[-] αRupees to purchase these items?[-]
 sr:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(.+)を購入しました。\[-\]$"=[3C404E]Spent [FFBB00,CE4F00]$1[-] αRupees to purchase [FFBB00,CE4F00]$2[-].
@@ -159,6 +162,11 @@ sr:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(
 天命授環・伊邪那=Heaven's Blessing Ring: Izana
 セレスティアルエイジ=Celestial Age
 アースデストラクション=Earth Destruction
+
+薔薇彩鎧カリスティア=Rose-colored Armor Kalistia
+薔薇織衣エリュシオン=Rose Weaving Clothes Elysion
+薔薇夜装アイオニオス=Rose Nightdress Ionios
+薔薇天装セレスティア=Rose Tensou Celestia
 
 ## Relic Desc ##
 効果詳細=Effect Details

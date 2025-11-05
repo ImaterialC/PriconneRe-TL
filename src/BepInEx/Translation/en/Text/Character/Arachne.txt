@@ -22,7 +22,10 @@ r:"^敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\
 光射す方へ+=Toward the Shining Light+
 
 逃れ得ぬカルマ=Inescapable Karma
-敵単体を遮絶の操糸状態にする物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラを遮絶の操糸状態にする。遮絶の操糸状態の間はＴＰが増加しない。=Inflicts isolated puppet string state on a single enemy.\nInflicts isolated puppet string state on the enemy with the highest attack power, whether P.ATK or M.ATK. While in isolated puppet string state, TP does not increase.
+敵単体を遮絶の操糸状態にする物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラを遮絶の操糸状態にする。遮絶の操糸状態の間はＴＰが増加しない。=Inflicts Isolation Thread string state on a single enemy.\nInflicts Isolation Thread string state on the enemy with the highest attack power, whether P.ATK or M.ATK. While in Isolation Thread string state, TP does not increase.
+
+物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラを遮絶の操糸状態にする。遮絶の操糸状態の間はＴＰが増加しない。=Inflicts Isolation Thread string state on the enemy with the highest attack power, whether P.ATK or M.ATK. While in Isolation Thread string state, TP does not increase.
+敵単体を遮絶の操糸状態にする=Inflicts Isolation Thread string state on a single enemy.
 
 Story Title Cards
 逃れられない過去=An Inescapable Past
@@ -31,25 +34,3 @@ Story Title Cards
 わたしの光=My Light
 
 
-
-Wurm Special Skill
-
-Lind Special Skill
-
-
-Emilia Special Skill
-
-
-Echidona
-
-
-
-RemS
-
-
-Tsumugi
-
-
-Hatsune Summer
-
-JunS

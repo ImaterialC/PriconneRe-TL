@@ -111,7 +111,7 @@
 サクラ=Sakura;ZombieLandSaga;Collab
 アラクネ=Arachne
 
-
+カスミ（シスター）=Kasumi (Sister);SiKasumi;Sister;Nun
 
 カスミ（マジカル）=Kasumi (Magical);MKasumi;MGKasumi;Magical
 シオリ（マジカル）=Shiori (Magical);MShiori;MGShiori;Magical
@@ -197,13 +197,13 @@
 キャル（プリンセス）=Karyl (Princess);Kyaru (Princess);PKyaru;PKaryl;Princess
 サレン（サラサリア）=Saren (Salasaria);SaSaren;Mama;Salasaria;Sarasaria
 ルカ（サラサリア）=Ruka (Salasaria);SaRuka;Salasaria;Sarasaria
-ハツネ＆シオリ=Hatsune & Shiori;HatsuShio;Shiori & Hatsune;Duo;Sister;Shimai;&
+ハツネ＆シオリ=Hatsune & Shiori;HatsuShio;Shiori & Hatsune;Duo;Shimai;&
 ミソギ＆ミミ＆キョウカ=Misogi & Mimi & Kyoka;Mimi;Kyoka;Kyouka;LLTrio;&
 アキノ＆サレン=Akino & Saren;AkiSaren;AkinoSaren;Saren;Mama;Duo;&
 アン＆グレア=Anne & Grea;AnneGrea;GreAnne;Grea;Collab;Manaria;Duo;&
-シズル＆リノ=Shizuru & Rino;ShizuruRino;Rino;ShiRi;Duo;Sister;Shimai;&
+シズル＆リノ=Shizuru & Rino;ShizuruRino;Rino;ShiRi;DuoShimai;&
 シズル（シズル＆リノ）=Shizuru & Rino;ShizuruRino;Rino;ShiRi;Duo;&
-リノ（シズル＆リノ）=Shizuru & Rino;ShizuruRino;Rino;ShiRi;Duo;Sister;Shimai;&
+リノ（シズル＆リノ）=Shizuru & Rino;ShizuruRino;Rino;ShiRi;Duo;Shimai;&
 ヒヨリ（サマー）=Hiyori (Summer);SHiyori;Summer;Swimsuit;Bikini
 ユイ（サマー）=Yui (Summer);SYui;Summer;Swimsuit;Bikini
 レイ（サマー）=Rei (Summer);SRei;Summer;Swimsuit;Bikini

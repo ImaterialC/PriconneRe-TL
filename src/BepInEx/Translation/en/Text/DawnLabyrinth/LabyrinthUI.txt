@@ -8,6 +8,7 @@
 アルファ強化=Alpha Enhancement
 遺物図鑑=Relic Guide
 アルファボーナス=Alpha bonus
+所持ラビリンスコイン=Labyrinth Coin Held
 
 遺物効果結果=Relic Effect Results
 「トゥインクルブレス」の迷宮遺物効果により、\nバトル結果が敗北から勝利へと変更されました。=Due to the Labyrinth Relic effect of "Twinkle Breath",\n the battle result has changed from defeat to victory.
@@ -399,6 +400,8 @@ r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベント�
 
 サレンディアノーブル=Sarendia Noble
 通常攻撃強化アップ（アル\nファルピ所持数×0.01、最大\n100）=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)
+r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）（現在(\d+)枚）$"=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)(Currently $1)
+
 
 マスターオブラビリンス=Master of Labyrinth
 挑戦開始時にランダムな★1\nの迷宮遺物を１個獲得=Obtain a random ★1 Labyrinth artifact at the start of the challenge

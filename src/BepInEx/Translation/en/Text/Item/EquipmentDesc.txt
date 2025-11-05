@@ -3,6 +3,20 @@ sr:"^必要Lv(\d+)([^「」]{20,})$"=Required Lv $1\n$2
 
 Selling
 sr:"^(?:\[3C404E\])?(.+?)(の設計図|（欠片）)?×\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3C404E\]を(?:\n)?売却しますか？(?:\[-\])?$"=[3C404E]Would you like to sell the$1$2 × [FFBB00,CE4F00]$3[-]？[-]
+
+EX 
+LoA開発黎明期にテスト用に作成されたイヤリングタイプの装備。最大値テスト用装備の為、闇属性の攻撃力を大幅に増幅させる。=These earring-type accessories were created for testing purposes during the early stages of LoA development. As they were designed for maximum value testing, they significantly amplify Dark attribute attack power.
+LoA開発黎明期にテスト用に作成されたイヤリングタイプの装備。最大値テスト用装備の為、火属性の攻撃力を大幅に増幅させる。=These earring-type accessories were created for testing purposes during the early stages of LoA development. As they were designed for maximum value testing, they significantly amplify Fire attribute attack power.
+LoA開発黎明期にテスト用に作成されたイヤリングタイプの装備。最大値テスト用装備の為、光属性の攻撃力を大幅に増幅させる。=These earring-type accessories were created for testing purposes during the early stages of LoA development. As they were designed for maximum value testing, they significantly amplify Light attribute attack power.
+LoA開発黎明期にテスト用に作成されたイヤリングタイプの装備。最大値テスト用装備の為、水属性の攻撃力を大幅に増幅させる。=These earring-type accessories were created for testing purposes during the early stages of LoA development. As they were designed for maximum value testing, they significantly amplify Water attribute attack power.
+LoA開発黎明期にテスト用に作成されたイヤリングタイプの装備。最大値テスト用装備の為、風属性の攻撃力を大幅に増幅させる。=These earring-type accessories were created for testing purposes during the early stages of LoA development. As they were designed for maximum value testing, they significantly amplify Wind attribute attack power.
+
+
+
+
+
+
+
 覇瞳皇帝の残響を撃ち破りし勇者に与えられる書物。敗北し、失われた覇道の先に何を見据えるのか。その瞳に映る未来は未だ見通せぬまま。=A book given to the hero who defeats the echo of the Overlord Emperor. What lies beyond the path of defeat and loss? The future reflected in those eyes remains unclear.
 
 覇瞳皇帝の残響を撃ち破りし勇者に与えられる弓。獄に繋がれし神狐は唯々瞑想を続けやがて肥大化した自我と世界の境界を認知していく。=A bow given to the brave who defeats the echoes of the Overpowered Emperor. The fox god, chained in prison, continues to meditate and eventually becomes aware of the boundaries between his enlarged self and the world.
