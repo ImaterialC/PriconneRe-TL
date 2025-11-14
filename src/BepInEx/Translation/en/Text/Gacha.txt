@@ -420,6 +420,8 @@ sr:"^(.{2,12}ガチャ)「(\d+)回引く」$"="$1 "Draw $2 Times"."
 ピース交換チケットについて=Regarding Shard Exchange Tickets
 
 
+[FFBB00,CE4F00]有償ジュエル限定\n黎明界ラビリンス追加ギルド★3確定プラチナガチャ開催！[-]=[FFBB00,CE4F00]Paid jewel-only New Guild in Dawn Realm Labyrinth ★3 guaranteed platinum gacha now available![-]
+10キャラ目は[FFBB00,CE4F00]黎明界ラビリンス追加ギルド★3キャラ確定！=A [FFBB00,CE4F00]★3 character Dawn Realm Labyrinth[-] is guaranteed with a 10x draw!
 
 
 

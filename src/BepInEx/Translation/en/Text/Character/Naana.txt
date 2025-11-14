@@ -1,0 +1,22 @@
+##Profile##
+【物理】前衛でダメダメでも逃げず戦うアルミラージ娘。最も近くの味方に強化や行動不能無効の付与、回復を行い敵の注意をそらすことで、過酷な世界を生き延びる。=[Physical] A frontline Almiraj girl who fights without fleeing even when she's down and out. She buffs the nearest ally with enhancements and disable immunity, provides recovery, and draws enemy attention to survive in a harsh world.
+
+##Union Burst##
+アルミラージュバッシュ=Almirage Bash
+目の前の敵１キャラに最も物理攻撃力が高い味方の物理攻撃力をもとにした物理特大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。さらに、自分以外の味方すべての物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせる。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals massive P.DMG to the enemy in front based on the ally with the highest P.ATK, and greatly lowers their P.ATK and M.ATK. Additionally, massively boosts all other allies' P.ATK and slightly boosts their P.CRIT DMG. If this skill crits, the damage is 3x instead of 2x.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン自分以外の味方の物理攻撃力を(\d+)アップ自分以外の味方の物理クリダメを(\d+)％アップ$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.ATK by $2.\n►Lowers a single enemy's M.ATK by $3.\n►Boosts P.ATK of allies except self by $4.\n►Boosts P.CRIT DMG of allies except self by $5%.
+
+##Skill 1 (S1)##
+ブービークラッカー=Booby Cracker
+【挑発】自分以外の最も近くの味方１キャラが、敵全体を挑発して敵から受ける行動不能を短時間無効化する。さらにそのキャラの物理防御力と魔法防御力と物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップし、ＨＰとＴＰを小回復させる。=[Taunt] The nearest ally excluding self taunts all enemies and gains short immunity to disables from enemies. Additionally, massively boosts that ally's P.DEF, M.DEF, and P.ATK, slightly boosts their P.CRIT DMG, and slightly recovers their HP and TP.
+r:"^対象の味方を挑発状態にする味方単体が敵から受ける行動不能を無効化する味方単体の物理防御力を(\d+)アップ味方単体の魔法防御力を(\d+)アップ味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリダメを(\d+)％アップ味方単体のＨＰを(\d+)回復味方単体のＴＰを(\d+)回復$"=►Puts target ally in [Taunt] state.\n►Nullifies Stun from enemies for a single ally.\n►Boosts a single ally's P.DEF by $1.\n►Boosts a single ally's M.DEF by $2.\n►Boosts a single ally's P.ATK by $3.\n►Boosts a single ally's P.CRIT DMG by $4%.\n►Restores a single ally's HP by $5.\n►Recovers a single ally's TP by $6.
+
+
+##Skill 2 (S2)##
+甘いの食べたいなー？=Wanna Eat Something Sweet~?
+自分以外の味方すべての物理防御力と魔法防御力を中アップさせ、ＴＰ上昇を小アップさせる。さらにこのスキルの発動後、自分がステータスアップ効果を受ける度に、自分以外の味方すべてに【とっておきドーナツ】を１つ追加し物理攻撃力を小アップさせる。この効果は最大40回発動し、このスキルによって他のスキルの効果は発動しない。=Moderately boosts all other allies' P.DEF and M.DEF, and slightly boosts TP Boost. Additionally, after activating this skill, each time self receives a status up effect, adds one [Special Donut] to all other allies, slightly boosting their P.ATK. This effect triggers up to 40 times, and other skills' effects do not activate due to this skill.
+r:"^自分以外の味方の物理防御力を(\d+)アップ自分以外の味方の魔法防御力を(\d+)アップ自分以外の味方のＴＰ上昇を5アップステータスアップ効果を受けるたびに自分以外の味方にとっておきドーナツを追加する状態になるステータスアップ効果を受けるたびに自分以外の味方の物理攻撃力を(\d+)アップ$"=►Boosts P.DEF of allies except self by $1.\n►Boosts M.DEF of allies except self by $2.\n►Boosts TP Boost of allies except self by 5.\n►Each time a status boost is received, allies except self gain [Secret Donut].\n►Each time a status boost is received, boosts P.ATK of allies except self by $3.
+
+##EX Skill##
+アルミラージのしっぽ=Almirage's Tail
+アルミラージのしっぽ+=Almirage's Tail+

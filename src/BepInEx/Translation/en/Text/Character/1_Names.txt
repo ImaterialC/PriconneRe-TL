@@ -175,6 +175,7 @@ Ameth alias
 サツキ=Satsuki
 メドゥーサ=Medusa
 サクラ=Sakura
+ナーナ=Naana
 
 sr:"^このスキルのスキルレベルは「([\S\s]+)」と連動しています$"="This skill's level is linked to "$1""
 

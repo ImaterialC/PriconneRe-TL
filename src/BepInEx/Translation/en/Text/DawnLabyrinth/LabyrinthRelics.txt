@@ -1,28 +1,128 @@
+## Initial Relic ##
+ＨＰ＋15％物理/魔法与ダメ＋15％=►Max HP +15%\n►P/M.DMG +15%
+
+プリンセスエンチャント=Princess Enchant
+物理/魔法攻撃力アップ（加入キャラ数×4％、最大100％）=Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)
+
+アストラルブースト=Astral Boost
+属性ボーナス＋50％=►Elemental Bonus +50%
+
+トゥインクルブレス=Twinkle Breath
+ボスバトルを除いて一度だけバトル敗北を免除=►Exempt from defeat in battle once, excluding boss battles
+
+サレンディアエンゲージ=Sarendia Engage
+ショップの販売価格－10％=►Shop Price -10%
+
+サレンディアノーブル=Sarendia Noble
+通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）=►Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)
+r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）（現在(\d+)枚）$"=►Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)(Currently $1)
+
+ナイツオブフェイス=Nights of Face
+物理/魔法クリダメ＋50％物理/魔法クリティカル－25％=►P/M.Crit DMG +50%\n►P/M.Crit rate -25%
+
+レジーナガーラ=Regina Gear
+敵の物理/魔法被ダメ＋25％味方の物理/魔法被ダメ＋25％=►Enemy P/M.DMG +25%\n►Ally P/M.DMG +20%
+
+ラビリンスオーソリティ=Labyrinth Authority
+挑戦開始時にラビリスタが加入=►Labyrista joins at the start of the challenge
+
+マスターオブラビリンス=Master of Labyrinth
+挑戦開始時にランダムな★1の迷宮遺物を１個獲得=►Obtain a random ★1 Labyrinth relic at the start of the challenge
+
+イルミネイトカルミナ=Illuminate Carmina
+物理/魔法攻撃力＋15％バフ強化＋15=►P/M.ATK +15%\n►Buff Enhancement +15
+
+ヴォイスフォーユー=Voice for You
+30秒ごとに物理/魔法攻撃力ダウン解除=►P/M.ATK Down is removed every 30 seconds
+
+
+ディアボロスフィアー=Diablos Sphere
+敵のＴＰ上昇－15=►Enemy TP Boost -15
+
+ブルートナハト=Blutnacht
+15秒ごとにＴＰ固定量100回復\n敵のＴＰ100ダウン=Every 15 seconds:\n►Recovers allies' TP by 100.\n►Reduces enemies' TP in range by 100.
+
+エリザベスガーディアン=Elizabeth Guardian
+バトル開始時に最もＨＰが多いキャラが敵を挑発=►At the start of the battle, the character with the most HP will [Taunt] the enemy.
+
+ドングリースピリット=Acorn Spirit
+行動不能無効１回=►Incapacitation nullification once
+
+ノブレスウィスタリア=Noblesse Wistaria
+初期アルファルピ+3000\nアルファルピ獲得量－30%=►Initial αRupees +3,000\n►αRupees Acquisition Amount -30%
+
+リヴァイアサンコール=Leviathan Call
+物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）=►P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)
+r:"^物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）（現在(\d+)枚）$"=►P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)(αRupees Possession x0.01, Max 100)(Currently $1)
+
+兵法二海一流=Hyōpo Nikai Ichiryu
+デバフ強化＋20=►Debuff Enhancement +20
+
+バインディングローズ=Binding Rose
+敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）=►Continuous DMG against opponents increased (Enlisted characters x10%, maximum 500,000 damage)
+
+迷宮遺物詳細=Labyrinth Relic Details
+
+【美⾷殿】と共に迷宮を冒険するための遺物。王家の装備を精巧に模しており、味方の⾝体能⼒を⼤きく向上させてくれる。=A relic for dungeon exploration with 【Gourmet Guild】. Expertly modeled after royal equipment, it greatly enhances allies' physical abilities.
+【美⾷殿】と共に迷宮を冒険するための遺物。冒険の道中で絆を結べば結ぶほどに、味⽅の攻撃⼒を⾼めてくれる。=A relic for dungeon exploration with 【Gourmet Guild】. The stronger the bonds forged during adventure, the more it boosts allies' attack power.
+
+【トゥインクルウィッシュ】と共に迷宮を冒険するための遺物。３人のアストラルに呼応して、属性の力を増幅させてくれる。=A relic for dungeon exploration with 【Twinkle Wish】. Resonating with three Astral beings, it amplifies elemental power.
+【トゥインクルウィッシュ】と共に迷宮を冒険するための遺物。ギルドマスターの諦めない心が、味方を一度だけ敗北から守る。=A relic for dungeon exploration with 【Twinkle Wish】. The guild master's unwavering spirit protects allies from defeat once.
+
+【サレンディア救護院】と共に迷宮を冒険するための遺物。主人が築いた信頼関係のおかげで、商品の価格を値引きしてもらえる。=A relic for dungeon exploration with 【Sarendia Orphanage】. Built on trust forged by its owner, it grants discounts on merchandise.
+【サレンディア救護院】と共に迷宮を冒険するための遺物。主人の気品を漂わせる剣は、築いた富を⼒に変転させる効果を持つ。=A relic for dungeon exploration with 【Sarendia Orphanage】. A sword imbued with its owner's elegance, it converts accumulated wealth into power.
+
+【王宮騎士団】と共に迷宮を冒険するための遺物。団長の愛⽤品を模し会⼼率と引き換えに、会⼼時の威⼒を⾼めてくれる。=A relic for dungeon exploration with 【Nightmare】. Modeled after the captain's favorite gear, it boosts critical DMG at the cost of critical rate.
+【王宮騎士団】と共に迷宮を冒険するための遺物。副団長の催す闘争の宴は、敵味⽅が受けるダメージをみな悉く増加させる。=A relic for dungeon exploration with 【Nightmare】. The vice-captain's battle feast increases all damage received by both allies and foes.
+
+【ラビリンス】と共に迷宮を冒険するための遺物。迷宮女王はその権能でナイトがどこに居ようとも即座に参戦してくれる。=A relic for dungeon exploration with 【Labyrinth】. The Labyrinth Queen uses her authority to instantly join the Knight wherever they are.
+【ラビリンス】と共に迷宮を冒険するための遺物。マスターの⼒を冠した剣は、開発者権限の⼀部を解放し、遺物を即座に獲得する。=A relic for dungeon exploration with 【Labyrinth】. A sword crowned with the Master's power unlocks developer privileges to instantly acquire relics.
+
+【カルミナ】と共に迷宮を冒険するための遺物。これを振るう者の熱き声援は、ステージに立つ者の能力をより一層高めてくれる。=A relic for dungeon exploration with 【Carmina】. The wielder's passionate cheers greatly enhance the abilities of those on stage.
+【カルミナ】と共に迷宮を冒険するための遺物。ハンドマイクを通じて拡がっていく歌声は、味方の疲労をふき飛ばす。=A relic for dungeon exploration with 【Carmina】. Songs projected through the handheld microphone blow away allies' fatigue.
+
+【悪魔偽王国軍】と共に迷宮を冒険するための遺物。紅き両刃から禍々しく迸る魔力の前では、いかなる敵だろうと戦意を失う。=A relic for dungeon exploration with 【Diabolos】. The sinister magic erupting from crimson twin blades makes any enemy lose will to fight.
+【悪魔偽王国軍】と共に迷宮を冒険するための遺物。重く振りかざす一撃は、斬り裂いた獲物の生気を我が物とする。=A relic for dungeon exploration with 【Diabolos】. Each heavy strike absorbs the vitality of slashed prey.
+
+【牧場】と共に迷宮を冒険するための遺物。被ったらたちまちその場で最も目立つ存在となり、すべての攻撃を引きつけてしまう。=A relic for dungeon exploration with 【Elizabeth Park】. When worn, makes the user the most conspicuous target, drawing all attacks.
+【牧場】と共に迷宮を冒険するための遺物。持ち主のやる気を呼び起こし、ぐうたらさを１回だけ無効化できる。あくまで１回だけ。=A relic for dungeon exploration with 【Elizabeth Park】. Awakens owner's motivation, negating laziness once. Just once.
+
+【メルクリウス財団】と共に迷宮を冒険するための遺物。人から決して多く受け取らず、生まれ持った財のみで戦いぬく高潔さの証。=A relic for dungeon exploration with 【Mercurius Foundation】. Proof of integrity - never taking much from others, fighting solely with innate wealth.
+【メルクリウス財団】と共に迷宮を冒険するための遺物。富を積めば積むほど精神を集中させ、必殺の一突きを敵に見舞う。=A relic for dungeon exploration with 【Mercurius Foundation】. Accumulating wealth sharpens focus to deliver a fatal thrust.
+
+【トワイライトキャラバン】と共に迷宮を冒険するための遺物。さまざまな者たちの個性を学習し、敵を苦しめる術に転化する。=A relic for dungeon exploration with 【Twilight Caravan】. Learns various individuals' traits and converts them into techniques to torment enemies.
+【トワイライトキャラバン】と共に迷宮を冒険するための遺物。二本の刀が見せる煌めきは、悪党どもの気炎を容易く挫く。=A relic for dungeon exploration with 【Twilight Caravan】. The gleam of twin blades easily crushes villains' arrogance.
+
 ## Relic Type Level ##
+【会心】=【Focus】
 【会心+1】=【Focus +1】
 【会心+2】=【Focus +2】
 【会心+3】=【Focus +3】
 【会心+5】=【Focus +5】
 
+【加速】=【Haste】
 【加速+1】=【Haste +1】
 【加速+2】=【Haste +2】
 【加速+3】=【Haste +3】
 【加速+5】=【Haste +5】
 
+【守備】=【Guard】
 【守備+1】=【Guard +1】
 【守備+2】=【Guard +2】
 【守備+3】=【Guard +3】
 【守備+5】=【Guard +5】
 
+【弱体】=【Debuff】
 【弱体+1】=【Debuff +1】
 【弱体+2】=【Debuff +2】
 【弱体+3】=【Debuff +3】
 【弱体+5】=【Debuff +5】
 
-【強化+1】=【Enhancement +1】
-【強化+2】=【Enhancement +2】
-【強化+3】=【Enhancement +3】
-【強化+5】=【Enhancement +5】
+【強化】=【Buff】
+【強化+1】=【Buff +1】
+【強化+2】=【Buff +2】
+【強化+3】=【Buff +3】
+【強化+5】=【Buff +5】
 
 ## Effect ## 
 

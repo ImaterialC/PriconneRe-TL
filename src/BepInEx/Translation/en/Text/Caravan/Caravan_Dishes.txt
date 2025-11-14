@@ -314,7 +314,6 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 ジオ・ゲヘナの空の覇者にして煉華のホウオウが\n己への信仰心を集めるべく作らせたお菓子。中の\n餡はしっとり甘く、上品な味わい。ジオ・ゲヘナ\n銘菓の名を恣にする日も近い、かもしれない。=A confection created by Geo Gehenna's ruler of the skies: The Kaleido Phoenix, Ho-oh!.. in an attempt to inspire others' faith in her. The bean paste inside is moist, sweet, and has a refined flavor. The day when Geo Gehenna's greatest dessert is known to all may soon be upon us.
 
 
-ナーナ=Naana
 出たダイスの目が奇数だった場合、\nライバルを1ターン休みにできる=If the die has an odd number of eyes, you can take a turn off your rival
 【仲間】出たダイスの目が奇数だった場合、ライバルを1ターン休みにできる=[Friend] If the dice roll is an odd number, you can give your rival one turn off.
 

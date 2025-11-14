@@ -10,6 +10,8 @@
 アルファボーナス=Alpha bonus
 所持ラビリンスコイン=Labyrinth Coin Held
 
+パスポートを所持していません。=Insufficient passport.
+
 遺物効果結果=Relic Effect Results
 「トゥインクルブレス」の迷宮遺物効果により、\nバトル結果が敗北から勝利へと変更されました。=Due to the Labyrinth Relic effect of "Twinkle Breath",\n the battle result has changed from defeat to victory.
 
@@ -64,7 +66,6 @@ tutorial laby
 同行するギルドを選択してください。=Select a guild to accompany you.
 
 アルファルピ=αRupees
-アストラルブースト=Astral Boost
 
 挑戦終了時報酬=Challenge Complete Reward
 挑戦時アイテム=Challenge Item
@@ -76,102 +77,45 @@ tutorial laby
 宝箱からは以下を含む報酬が抽選されます。=Rewards including the following will be drawn from the chest.
 挑戦開始時に以下のアイテムが獲得できます。=The following items can be obtained at the start of the challenge:
 
-【トゥインクルウィッシュ】のセレクト\nサイン=Twinkle Wish Charas Select
-【美食殿】のセレクトサイン=Gourmet Charas Select
-【王宮騎士団（NIGHTMARE）】のセ\nレクトサイン=Nightmare Charas Select
-【ラビリンス】のセレクトサイン=Labyrinth Charas Select
 
-黎明光環アルファドミナント=Dawn Light Ring Alpha Dominant
-黎明風環アルファドミナント=Dawn Wind Ring Alpha Dominant
-黎明水環アルファドミナント=Dawn Water Ring Alpha Dominant
-黎明火環アルファドミナント=Dawn Fire Ring Alpha Dominant
-黎明闇環アルファドミナント=Dawn Dark Ring Alpha Dominant
-黎明闇輪アルファプレイズ=Dawn Dark Ring Alpha Praise
-黎明光輪アルファプレイズ=Dawn Light Ring Alpha Praise
-黎明風輪アルファプレイズ=Dawn Wind Ring Alpha Praise
-黎明水輪アルファプレイズ=Dawn Water Ring Alpha Praise
-黎明火輪アルファプレイズ=Dawn Fire Ring Alpha Praise
-黎明闇装アルファハイネス=Dawn Dark Royal Attire Alpha 
-黎明光装アルファハイネス=Dawn Light Royal Attire Alpha
-黎明風装アルファハイネス=Dawn Wind Royal Attire Alpha
-黎明水装アルファハイネス=Dawn Water Royal Attire Alpha
-黎明火装アルファハイネス=Dawn Fire Royal Attire Alpha
-黎明闇玉アルファプレシャス=Dawn Dark Alpha Precious Orb
-黎明光玉アルファプレシャス=Dawn Light Alpha Precious Orb
-黎明風玉アルファプレシャス=Dawn Wind  Alpha Precious Orb
-黎明水玉アルファプレシャス=Dawn Water Alpha Precious Orb
-黎明火玉アルファプレシャス=Dawn Fire Alpha Precious Orb
-黎明闇飾アルファグローリー=Dawn Dark Alpha Glory Decoration
-黎明光飾アルファグローリー=Dawn Light Alpha Glory Decoration
-黎明風飾アルファグローリー=Dawn Wind Alpha Glory Decoration
-黎明水飾アルファグローリー=Dawn Water Alpha Glory Decoration
-黎明火飾アルファグローリー=Dawn Fire Alpha Glory Decoration
+sr:"^【(.+)】のセレクトサイン$"=$1 Charas Select
 
-サレンディアエンゲージ=Sarendia Engage
-【サレンディア救護院】のセレクトサイ\nン=Sarendia Orphanage Charas Select
+sr:"^\[3C404E\]ラビリンスパスポートを1枚消費して\[FFBB00,CE4F00\]【(.+)】\[-\]と一緒に出発します。\nよろしいですか？\[-\]$"=[3C404E] Consume one Labyrinth Passport and depart with[FFFBB00, SE4F00] [$1][-]?[-]
 
-ナイツオブフェイス=Nights of Face
+sr:"^\[3C404E\]\[FFBB00,CE4F00\]【(.+)】\[-\]と一緒に出発します。\nよろしいですか？\[-\]$"=[3C404E]depart with[FFFBB00, SE4F00] [$1][-]?[-]
 
-ラビリンスオーソリティ=Labyrinth Authority
-
-【加速+1】=【Acceleration +1】
-ショップの販売価格－10％=Shop Price -10%
-[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【サレンディア救護院】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFFBB00, SE4F00] [Sarendia Orphanage]? [-]
 所持ラビリンスパスポート=Labyrinth Pass Held
 ラビリンスパスポートを所持していないため報酬は獲得できません。=You cannot claim a reward without a Labyrinth Pass.
 ギルド選択確認=Guild Selection Confirmation
 開始時に獲得できる迷宮遺物=Labyrinth Relics obtained at the start
-【会心+1】=【Focus +1】
-物理/魔法クリダメ＋50％\n物理/魔法クリティカル－2\n5％=Physical/Magic Crit DMG +50%\nPhysical/Magic Critical -25%
-[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【王宮騎士団（NIGHTMARE）】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFBB00, CE4F00][Nightmare]? [-]
-【弱体+1】=[Debuff +1]
-挑戦開始時にラビリスタが加\n入=Labyrista joins at the start of the challenge
-[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【ラビリンス】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFFBB00, CE4F00] [Labyrinth]? [-]
-【守備+1】=【Defense +1】
-ＨＰ＋15％\n物理/魔法与ダメ＋15％=HP +15%\nPhysical/Magic DMG Dealt +15%
-[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【美食殿】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFBB00, C4F00] [Gourmet Guild]? [-]
-【強化+1】=【Buffs +1】
-属性ボーナス＋50％=Elemental Bonus +50%
-[3C404E]ラビリンスパスポートを1枚消費して[FFBB00,CE4F00]【トゥインクルウィッシュ】[-]と一緒に出発します。\nよろしいですか？[-]=[3C404E] Consume one Labyrinth Passport and depart with[FFFBB00, SE4F00] [Twinkle Wish]? [-]
+
 
 シリーズ効果詳細=Series Effect Details
-【加速】=[Acceleration]
 【加速】9以上：\nユニオンバースト発動時に【烈風】＋１（最大99）\n20秒ごとに物理/魔法与ダメアップフィールド展開\n（【烈風】数×1％）\n=[Acceleration] 9 or higher: When Union Burst is activated, [Gale] stack is increased by 1 (Caps at 99).\nEvery 20s, deploy a Physical/Magic DMG UP Field\n(DMG +% is [Gale] x 1%).
 【加速】4以上：\nＴＰ上昇＋30\n重複可能の行動速度＋100％\n=[Acceleration] 4 or higher: TP Boost +30. Stackable +100% SPD Buff.
 【加速】15以上：\n9秒ごとにＴＰ1000回復\n=[Acceleration] 15+: Recover 1000 TP every 9s.
 ＴＰ回復や行動速度アップにより、キャラのスキルやユニ\nオンバーストの発動数が増加する\n=Increases UB and Skill usage with TP Recovery and Speed Buffs.
 
 
-【会心】=[Focus]
 【会心】9以上：\n物理/魔法クリティカル＋2000\n=[Focus] 9 or higher: Physical/Magic Crit Stat +2000.
 【会心】4以上：\n物理/魔法クリダメ＋100％\n=[Focus] 4 or higher: Physical/Magic Crit DMG +100%.
 【会心】15以上：\nクリティカルヒット時【看破】＋１（最大99）\n20秒ごとにランダムな敵１体に固定ダメージ×５回\n（毎回5万＋対象の【看破】数×5万ダメージ）\n=[Focus] 15 or higher: When you deal a critical hit, increase [Penetration] stack by +1 (caps at 99). Every 20s, deal damage 5 times to 1 random enemy.\n(Deals 50k + [Penetration] stack x 50k as dmg every hit).
 クリティカルや通常攻撃強化により、攻撃性能を強化する\n=Strengthen offensive power through Critical and Normal Attack Buffs.
 
-【弱体】=[Debuff]
 【弱体】9以上：\n敵への継続ダメージ＋1000％（最大50万ダメージ）\n=[Debuff] 9 or higher: Continuous DMG dealt to enemies +1000% (Caps at 500k dmg)
 【弱体】4以上：\n敵全体に黒炎付与（毎秒1万ダメージ、毎回5％ずつダ\nメージ上昇）\n=[Debuff] 4 or higher: Gives the "Black Flame" debuff to all enemies (10k DMG/s, increases by 5% each tick).
 【弱体】15以上：\n弱体効果数に応じて敵の被ダメアップ（対象の弱体効果数\n×50％、最大＋500％）\nさらに敵への継続ダメージ＋1000％（最大50万ダメージ）\n=[Debuff] 15 or higher: Increases DMG dealt to enemies based on the number of debuffs on them (+50% for each debuff, caps at +500%), additionally continuous DMG dealt to enemies +1000% (Caps at 500k dmg)
 敵に継続ダメージ系状態異常や弱体効果を付与し、敵を弱\n体化させる\n=Weakens the enemy by inflicting debuffs and continuous DMG.
 
-【強化】=[Enhancement]
-【強化】9以上：\nさらにバトル開始40秒後、物理/魔法攻撃力アップフィー\nルド展開（現在値＋50％）\nさらに敵へのダメージ減衰量緩和\n=[Enhancement] 9 or higher: Additionally, 40s after the battle start, deploy a Physical/Magic ATK Bonus Field (current value + 50%). Lowers enemy DMG Attenuation amount.
-【強化】4以上：\nバトル開始20秒後、物理/魔法攻撃力アップフィールド展\n開（現在値＋30％）\n敵へのダメージ減衰量緩和\n=[Enhancement] 4 or higher: 20s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 30%). Lowers enemy DMG Attenuation amount.
-【強化】15以上：\nさらにバトル開始60秒後、物理/魔法攻撃力アップフィールド展開（現在値＋70％）\nさらに敵へのダメージ減衰量緩和\n=[Enhancement] 15 or higher: 60s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 70%). Lowers enemy DMG Attenuation amount.
+【強化】9以上：\nさらにバトル開始40秒後、物理/魔法攻撃力アップフィー\nルド展開（現在値＋50％）\nさらに敵へのダメージ減衰量緩和\n=[Buff] 9 or higher: Additionally, 40s after the battle start, deploy a Physical/Magic ATK Bonus Field (current value + 50%). Lowers enemy DMG Attenuation amount.
+【強化】4以上：\nバトル開始20秒後、物理/魔法攻撃力アップフィールド展\n開（現在値＋30％）\n敵へのダメージ減衰量緩和\n=[Buff] 4 or higher: 20s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 30%). Lowers enemy DMG Attenuation amount.
+【強化】15以上：\nさらにバトル開始60秒後、物理/魔法攻撃力アップフィールド展開（現在値＋70％）\nさらに敵へのダメージ減衰量緩和\n=[Buff] 15 or higher: 60s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 70%). Lowers enemy DMG Attenuation amount.
 攻撃力や防御力アップのバフ効果を用いて、キャラを強化\nする\n=Strengthen your characters with ATK and DEF buffs.
 
-【守備】=[Guard]
 【守備】9以上：\n15秒ごとに前から敵１体に物理と魔法固定ダメージ\n（味方全体の現在ＨＰ合計×200ダメージ）\n=[Guard] 9 or higher: Every 15s, deals Fixed Physical and Magic DMG to an enemy.\n(Current HP Total of All Allies x 200 as dmg).
 【守備】4以上：\n全ダメージ33％カット\n=[Guard] 4 or higher: Reduce all damage you receive by 33%
 【守備】15以上：\n15秒ごとに物理/魔法与ダメアップフィールド展開\n（味方全体の現在ＨＰ合計×0.0001％、最大200％）\n=[Guard] 15 or higher: Every 15s, deploy a Physical/Magic DMG Bonus Field (Current HP Total of All Allies x 0.0001%, caps at 200%).
 ＨＰアップやバリア展開により、耐久性能を強化する\n=Strengthen your team's durability with HP Buffs and Barriers.
-
-迷宮遺物詳細=Labyrinth Relic Details
-【美⾷殿】と共に迷宮を冒険する\nための遺物。王家の装備を精巧に\n模しており、味方の⾝体能⼒を⼤\nきく向上させてくれる。=A relic for exploring the labyrinth with Gourmet Guild. It imitates the royal family's equipment in great detail, greatly improving the physical abilities of your allies.
-【トゥインクルウィッシュ】と共\nに迷宮を冒険するための遺物。\n３人のアストラルに呼応して、属\n性の力を増幅させてくれる。=A relic for exploring the labyrinth with Twinkle Wish. It responds to the wishes of the 3 Astrals, greatly increasing your elemental power.
-【サレンディア救護院】と共に迷\n宮を冒険するための遺物。主人が\n築いた信頼関係のおかげで、商品\nの価格を値引きしてもらえる。=A relic for exploring the labyrinth with Sarendia Orphanage. Thanks to the trust you've built with them, prices of items in the store gets a discount.
-【王宮騎士団】と共に迷宮を冒険\nするための遺物。団長の愛⽤品を\n模し会⼼率と引き換えに、会⼼時\nの威⼒を⾼めてくれる。=A relic for exploring the labyrinth with NIGHTMARE. It imitates the boss's favorite item, enhances the DMG you deal with Crit Hits in exchange for Crit Rate.
-【ラビリンス】と共に迷宮を冒険\nするための遺物。迷宮女王はその\n権能でナイトがどこに居ようとも\n即座に参戦してくれる。=A relic for exploring the labyrinth with Labyrinth. With the authority of the Labyrinth Queen, she'll join her Knight no matter where he is.
 
 
 仲間=Allies
@@ -253,10 +197,8 @@ Difficulty Details
 
 現在の挑戦を終了し、獲得済みの報酬を持ち帰ります。\n\nよろしいですか？=Finish your current challenge and return with the current rewards you have earned?
 
-
 ショップマスに移動します。\nよろしいですか？=Move to Shop Tile?
 r:"^(\d+)で更新$"=$1 to Reroll
-
 
 必要アルファルピ=αRupees Needed
 アルファルピを消費してラインナップを更新しますか？=Would you like to use αRupees to Reroll?
@@ -290,8 +232,6 @@ r:"^(\d+)で更新$"=$1 to Reroll
 
 アルファルピでアイテムを購入することができます。=You can purchase items using αRupees.
 所持アルファルピ=αRupees Held
-
-
 
 シリーズ効果が発動していません。=Series effect has not been activated.
 シリーズ効果一覧=List of Series Effects
@@ -343,7 +283,6 @@ r:"^(\d+)で更新$"=$1 to Reroll
 ブースターロールのキャラか\nら1人選んで仲間にできる。=You can choose 1 character from the Booster Role as your ally.
 ブースターロールのセレクトサイン=Booster Role Chara Select
 
-
 ラビリンストークンが不足しています。=Not enough Labyrinth Token.
 この報酬は受け取り済みです。=You've already received this reward.
 
@@ -352,7 +291,6 @@ r:"^(\d+)で更新$"=$1 to Reroll
 パスポート=Passport
 スキップ可能ギルド一覧=List of Skipable Guilds
 1ギルドあたりの\n使用パスポート数=Passports per Guild
-
 
 
 50％でアルファルピ×1500\n50％でアルファルピ=50%: αRupees×1500\n50%: αRupees
@@ -378,33 +316,9 @@ r:"^([0-9\,]+)％でアルファルピ×([0-9\,]+)\nさらに次のイベント�
 そろそろやめた方が……=Let's stop already...
 ラスト一発！=Last shot!
 
-
-
 加入済みのキャラがいません。=There are no characters currently joined.
 
 ラビリンスショップ=Labyrinth Shop
-
-
-
-
-レジーナガーラ=Regina Gear
-敵の物理/魔法被ダメ＋25％\n味方の物理/魔法被ダメ＋2\n5％=Enemy Physical/Magic Attack DMG +25% Ally Physical/Mage Attack DMH +20%
-
-
-プリンセスエンチャント=Princess Enchant
-物理/魔法攻撃力アップ（加\n入キャラ数×4％、最大10\n0％）=Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)
-
-トゥインクルブレス=Twinkle Breath
-ボスバトルを除いて一度だけ\nバトル敗北を免除=Exempt from defeat in battle once, excluding boss battles
-
-
-サレンディアノーブル=Sarendia Noble
-通常攻撃強化アップ（アル\nファルピ所持数×0.01、最大\n100）=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)
-r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）（現在(\d+)枚）$"=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)(Currently $1)
-
-
-マスターオブラビリンス=Master of Labyrinth
-挑戦開始時にランダムな★1\nの迷宮遺物を１個獲得=Obtain a random ★1 Labyrinth artifact at the start of the challenge
 
 パスポートを消費して、以下のギルドおよび難易度でスキップを実行します。よろしいですか？=You will use a passport to skip to the following guilds and difficulty levels. Are you sure?
 

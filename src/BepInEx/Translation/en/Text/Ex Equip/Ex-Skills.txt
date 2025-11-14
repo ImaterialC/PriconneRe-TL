@@ -98,5 +98,19 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 
 
 
+火属性防御力アップ=Fire element defense up
+水属性防御力アップ=Water element defense up
+風属性防御力アップ=Wind element defense up
+光属性防御力アップ=Light element defense up
+闇属性防御力アップ=Dark element defense up
+
+装備者が火属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Fire-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.
+装備者が水属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Water-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.
+装備者が風属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Wind-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.
+装備者が光属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Light-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.
+装備者が闇属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Dark-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.
+
+
+
 
 

@@ -27,3 +27,12 @@ r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法無
 ##EX##
 とっておき節約レシピ=Best Money-Saving Recipe
 とっておき節約レシピ+=Best Money-Saving Recipe+
+
+
+##UE##
+ワカナのお手製エプロン=Wakana's Handmade Apron
+##S1+##
+カレー、いかがです？+=Would You Like Some Curry?+
+自分以外の味方全体の物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＨＰとＴＰを中回復させる。さらに、自分の物理攻撃力を中アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップし、ＨＰとＴＰを小回復する。=Massively boosts all other allies' P.ATK and P.CRIT RATE, slightly boosts their P.CRIT DMG, and moderately recovers their HP and TP. Additionally, moderately boosts own P.ATK, greatly boosts own P.CRIT RATE, slightly boosts own P.CRIT DMG, and slightly recovers own HP and TP.
+
+r:"^自分以外の味方全体の物理攻撃力を(\d+)アップ自分以外の味方全体の物理クリティカルを180アップ自分以外の味方全体のＨＰを(\d+)回復自分以外の味方全体のＴＰを150回復自分以外の味方全体の物理クリダメを6％アップ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを90アップ自分のＨＰを(\d+)回復自分のＴＰを75回復自分の物理クリダメを3％アップ$"=►Boosts P.ATK of all allies except self by $1.\n►Boosts P.CRIT RATE of all allies except self by 180.\n►Restores HP of all allies except self by $2.\n►Recovers TP of all allies except self by 150.\n►Boosts P.CRIT DMG of all allies except self by 6%.\n►Boosts own P.ATK by $3.\n►Boosts own P.CRIT RATE by 90.\n►Restores own HP by $4.\n►Recovers own TP by 75.\n►Boosts own P.CRIT DMG by 3%.

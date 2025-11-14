@@ -2038,6 +2038,29 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 尽き果てぬ動力で、命令を遂行する魔鎧。\n剛毅たる双肩は、領域を侵す者を拒み圧砕する。=A cursed mail that endlessly executes commands.\nIts stalwart shoulders repel and crush intruders.
 前から１番目の敵に物理ダメージ=Deals P.DMG to frontmost enemy
 
+魔蜘から生まれ、かの乱を生き延びた魁傑の子蜘蛛。同胞を喰らい宿した魔力を糧に、再び煉獄の地へと糸を張り巡らせる。=Born from a demon spider, this offspring of a calamitous general survived the great rebellion. Feeding on kin and fueled by stored magic, it spins its web across the infernal lands once more.
+『六凶』=Six Calamities
+生気を吸われ光彩を奪われ、果ては挺身の徒として使役される、悲壮なる宝石蜘蛛。=A tragic jewel spider drained of vitality and luster, ultimately enslaved as a sacrificial pawn.
+ランダムな敵１体に束縛=Binds a random enemy
+尽き果てぬ動力で、命令を遂行する魔鎧。無双の膂力を誇り、極大の剣戟で全てを斬破する。=An enchanted armor executing commands with endless power. Boasts peerless strength, cleaving all with colossal blades.
+自身が呪い／呪詛状態でない：物理追加ダメージ=If not under Curse/Cursed: Deals additional P.DMG
+自身が呪い／呪詛状態でない：自身に物理ダメージカット=If not under Curse/Cursed: Grants self P.DMG Cut
+堅牢な鉱石の表皮を持つ岩トカゲ。=A rock lizard with stony mineral hide.
+このスキルで与えたダメージに応じて：敵全体に魔法ダメージ=Deals M.DMG to all enemies based on DMG dealt by this skill
+敵全体に石化=Petrifies all enemies
+前から敵１体に魔法防御力ダウン=Lowers M.DEF of frontmost enemy
+自身のＨＰ回復=Recovers own HP
+このスキルで与えたダメージが大きいほど：ＨＰ回復量アップ=The greater the DMG dealt by this skill, the higher the HP recovery
+前から敵３体に麻痺=Inflicts Paralysis on 3 front enemies
+鮮やかな大輪を地表に残し、魔物は土中深くに身を潜める。再びその姿があらわとなるとき、辺りは命を脅かす花粉で満たされるだろう。=Leaving vibrant blossoms on the surface, the fiend burrows deep. When it emerges again, the area will fill with lethal pollen.
+敵の数が少ないほど：ダメージアップ=The fewer enemies, the higher the DMG
+敵の数が少ないほど：ダウン量アップ=The fewer enemies, the greater the reduction amount
+前から敵２体に麻痺／猛毒=Inflicts Paralysis/Deadly Poison on 2 front enemies
+【残り時間30秒で発動】=【Activates at 30 seconds remaining】
+深域の力を我が物に画策する小鬼学者。禁忌の劇毒を創出し、全ての自由を強奪する。=A goblin scholar coveting abyssal power. Creates forbidden toxins to steal all freedom.
+深域の魔力を帯び変異した巨大トカゲ。硬い棘状のうろこが、敵の体力と鎧を削り落とす。=A giant lizard mutated by abyssal magic. Its hard spiked scales shred foe's health and armor.
+前から敵１体に物理／魔法与ダメージダウン（必中）=Lowers P.DMG/M.DMG dealt by frontmost enemy (unavoidable)
+
 
 
 ゲームにログインしよう=log in to the game
@@ -2050,3 +2073,10 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 すべてのキャラのＨＰ回復量をダウンさせる。=Decreases HP recovery for all characters.
 ガードスパイク=Guard spike
 じゃあワイルドグ
+
+
+
+ワイルドグリフォンから受けるすべての状態異常とステータスダウン効果は、ダメージを無効化しても付与される。=All abnormal statuses and status down effects received from the Wild Griffon will be inflicted even if the damage is nullified.
+ユニオンバーストは、召喚体、分身を除いた最も近い敵３キャラに魔法中ダメージを与え、ノックバックさせる。さらに、キャラのＨＰが70％未満の場合、スタン状態を付与する。=Union Burst deals magic damage to the three closest enemies (excluding summoned or cloned characters) and knocks them back. Additionally, if a character's HP is below 70%, it stuns them.
+召喚体、分身を除いた最も近い敵３キャラに魔法中ダメージを与え、魔法防御力を中ダウンさせる。=Deals moderate magical damage to the three nearest enemy characters (excluding summoned beings and clones) and moderately reduces their magical defense.
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、物理攻撃力と魔法攻撃力を中ダウンさせ、スタン状態を付与する。このスキルのステータスダウン効果と状態異常は、ダメージを無効化しても付与される。=Union Burst deals magic damage to all enemies based on the character's maximum HP, moderately reduces their physical and magical attack power, and inflicts a stun. The status-lowering and abnormal status effects of this skill remain even if the damage is nullified.
