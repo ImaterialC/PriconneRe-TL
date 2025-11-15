@@ -74,7 +74,6 @@ r:"^信頼度を(\d+)まで到達させよう$"=Raise intimacy to $1
 
 「VERY HARD」ボスは、１日１体討伐できます。="Very Hard" Boss can only be defeated once per day.
 「VERY HARD」は、１日１回完了できます。="VERY HARD" can be completed once a day.
-ボスチケットの所持数が足りません。=Insufficient boss tickets
 残り討伐体数=Remaining Attempts
 ボスチケット枚数=Boss Tickets
 合計討伐数=#Victory
