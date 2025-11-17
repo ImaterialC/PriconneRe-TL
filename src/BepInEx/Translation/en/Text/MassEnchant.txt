@@ -12,7 +12,7 @@
 装備を装着=Equip
 原鉱を消費=Use Ore
 装備Lv強化=Refine
-
+ランクアップ条件=Rank-up Conditions
 上限消費500,000,000まで=Max up to 500,000,000.
 
 まとめておまかせ強化で一度に強化できるキャラ上限に達しました。=Reached the limit of characters that can be enhanced at once with Multi Auto Enhancement.
