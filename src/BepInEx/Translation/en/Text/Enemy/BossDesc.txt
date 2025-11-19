@@ -2080,3 +2080,19 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 ユニオンバーストは、召喚体、分身を除いた最も近い敵３キャラに魔法中ダメージを与え、ノックバックさせる。さらに、キャラのＨＰが70％未満の場合、スタン状態を付与する。=Union Burst deals magic damage to the three closest enemies (excluding summoned or cloned characters) and knocks them back. Additionally, if a character's HP is below 70%, it stuns them.
 召喚体、分身を除いた最も近い敵３キャラに魔法中ダメージを与え、魔法防御力を中ダウンさせる。=Deals moderate magical damage to the three nearest enemy characters (excluding summoned beings and clones) and moderately reduces their magical defense.
 ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、物理攻撃力と魔法攻撃力を中ダウンさせ、スタン状態を付与する。このスキルのステータスダウン効果と状態異常は、ダメージを無効化しても付与される。=Union Burst deals magic damage to all enemies based on the character's maximum HP, moderately reduces their physical and magical attack power, and inflicts a stun. The status-lowering and abnormal status effects of this skill remain even if the damage is nullified.
+
+物理攻撃力もしくは魔法攻撃力が最も高い敵１キャラに物理特大ダメージを与える。さらにそのキャラを中心にした小範囲内の敵すべてに物理大ダメージを与え、ＴＰを小ダウンさせる。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals extreme P.DMG to the enemy with highest P.ATK or M.ATK. Then deals large P.DMG and slightly decreases TP to all enemies in a small area around that target. TP decrease occurs even if DMG is nullified.
+
+敵全体のＨＰ吸収を特大ダウンさせ、物理防御力を大ダウンさせる。=Massively decreases all enemies' HP absorption and greatly lowers their P.DEF.
+
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、さらにＴＰを中ダウンさせる。このスキルによるダメージでは、ＴＰが回復しない。このスキルはダメージを無効化してもＴＰをダウンさせる。=Union Burst deals percentage M.DMG to all enemies based on max HP and moderately decreases their TP. DMG from this skill does not recover TP. TP decrease occurs even if DMG is nullified.
+
+バトル開始時、自身にＴＰダウン100%カット効果を付与する。=At battle start: Grants self 100% TP Down Resistance.
+
+召喚体、分身を除いた最も近い敵３キャラに魔法大ダメージを与え、魔法防御力を中ダウンさせる。=Deals large M.DMG and moderately lowers M.DEF to 3 nearest enemies (excluding summons/clones).
+
+ユニオンバーストは、召喚体、分身を除いた最も近い敵３キャラに魔法特大ダメージを与え、凍結状態を付与し、自身の魔法防御力をバトル終了まで小アップさせる。=Union Burst deals extreme M.DMG and inflicts Freeze to 3 nearest enemies (excluding summons/clones). Slightly boosts own M.DEF until battle ends.
+
+フロストハウンドから受けるすべての状態異常とステータスダウン効果は、ダメージを無効化しても付与される。=All status ailments and debuffs from Frost Hound are applied even if DMG is nullified.
+
+バトル開始時、自身にＴＰダウン25％カット効果を付与する。=At battle start: Grants self 25% TP Down Resistance.

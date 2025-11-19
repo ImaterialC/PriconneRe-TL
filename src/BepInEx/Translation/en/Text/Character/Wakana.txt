@@ -13,6 +13,8 @@ r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダ
 自分以外の味方全体の物理攻撃力と物理クリティカルを特大アップさせ、ＨＰとＴＰを中回復させる。さらに、自分の物理攻撃力を中アップ、物理クリティカルを大アップし、ＨＰとＴＰを小回復する。=Massively boosts all other allies' P.ATK and P.CRIT Rate, and moderately recovers their HP and TP. Also moderately boosts own P.ATK, greatly boosts own P.CRIT Rate, and slightly recovers own HP and TP.
 r:"^自分以外の味方全体の物理攻撃力を(\d+)アップ自分以外の味方全体の物理クリティカルを180アップ自分以外の味方全体のＨＰを(\d+)回復自分以外の味方全体のＴＰを150回復自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを90アップ自分のＨＰを(\d+)回復自分のＴＰを75回復$"=►Boosts all other allies' P.ATK by $1 for 12s.\n►Boosts all other allies' P.CRIT Rate by 180 for 12s.\n►Recovers all other allies' HP by $2.\n►Recovers all other allies' TP by 150.\n►Boosts own P.ATK by $3 for 12s.\n►Boosts own P.CRIT Rate by 90 for 12s.\n►Recovers own HP by $3.\n►Recovers own TP by 75.
 
+
+
 ##S2##
 スパイクラッシュ=Spiral Crash
 目の前の敵１キャラに物理大ダメージを与え、味方全体に物理/魔法無効バリアを展開する。=Deals large P.DMG to an enemy in front, and deploys Barrier over all allies that negates P/M.DMG.

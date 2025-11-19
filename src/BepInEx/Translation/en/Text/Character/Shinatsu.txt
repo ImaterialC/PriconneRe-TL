@@ -1,0 +1,30 @@
+曙光と翠嵐の国で未来を護る寡黙な剣豪=A silent swordsman who protects the future in the land of dawn and vermilion storms.
+武器の手入れ、瞑想、釣り=Weapons maintenance, meditation, fishing
+皆川純子=Minagawa Junko
+##Profile##
+【物理】前衛から、風裂く刃で世界を護る孤高の剣豪。卓越した剣技で敵の攻撃を捌いて反撃し、初回ＵＢで生成する分身と共に疾風迅雷の攻めで、未来へと駆け抜ける。=[Physical] A lone swordmaster in the frontline who protects the world with wind-splitting blades. She parries enemy attacks with peerless swordsmanship to counter, and together with the clone created by her first UB, she storms forward with lightning speed toward the future.
+
+##Union Burst##
+神業・大祓科戸風=Divine Art - Ooharai Shinatobe Kaze
+【召喚】目の前の敵１キャラに物理特大ダメージを与える。シナツが生成した分身が味方にいる場合、さらに追加の物理特大ダメージを与え、物理攻撃を受けた際のダメージを小アップさせる。バトル開始後、初弾のユニオンバーストは、味方全体の行動速度を大アップさせ、ユニオンバーストを使用しない自分の分身を生成する。=[Summon] Deals massive P.DMG to the enemy in front. If a clone created by Shinatsu is among allies, deals additional massive P.DMG and slightly increases damage taken from physical attacks. The very first Union Burst after battle start greatly boosts the action speed of all allies and summons a clone of herself that does not use Union Burst.
+r:"^敵単体に(\d+)の物理ダメージシナツの分身がいる場合、敵単体に(\d+)の物理ダメージシナツの分身がいる場合、敵単体が受ける物理ダメージを(\d+)％アップ初使用時、分身を生成する初使用時、味方全体の行動速度(\d+)％アップ$"=►Deals $1 P.DMG to a single enemy.\n►If [Shizuru's Clone] is present, deals $2 P.DMG to a single enemy.\n►If [Shizuru's Clone] is present, boosts P.DMG taken by a single enemy by $3%.\n►On first use, generates a clone.\n►On first use, boosts all allies' Action Speed by $4%.
+
+##Skill 1 (S1)##
+秘剣・十迅風=Secret Sword - Juujin Kaze
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに、自分に物理無効バリアを展開し、ＨＰを中回復する。=Deals large P.DMG to the enemy in front and slightly lowers their P.DEF. Additionally, deploys a physical-nullifying barrier on self and moderately recovers own HP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン(\d+)ダメージ分の物理無効バリアを展開する自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Deploys a Physical Nullification Barrier absorbing $3 DMG.\n►Recovers own HP by $4.
+
+##Skill 2 (S2)##
+祓ノ剣舞=Purifying Sword Dance
+自分が受けるダメージを50％軽減する状態になる。自分より前に味方がいない場合、ダメージ軽減状態は解除される。さらに自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップする。=Enters a state that reduces damage taken by 50%. This damage reduction is removed if no ally is positioned in front of self. Additionally, massively boosts own P.ATK and slightly boosts own P.CRIT DMG.
+r:"^自分をダメージ軽減状態にする自分の物理攻撃力を(\d+)アップ自分の物理クリダメを(\d+)％アップ$"=►Puts self in [Damage Reduction] state.\n►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by $2%.
+
+##EX Skill##
+天ツ風=Ama no Tsujikaze
+天ツ風+=Ama no Tsujikaze+
+
+##Special Skills 1##
+不死ノ空刃=Immortal Sky Blade
+敵から攻撃を受けた時に発動し、その敵に物理中ダメージを与える。=Triggers when attacked by an enemy and deals moderate P.DMG to that enemy.
+
+r:"^自分を攻撃した敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies who attack her.
