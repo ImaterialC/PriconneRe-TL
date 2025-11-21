@@ -1,0 +1,21 @@
+##Profile##
+【魔法】後衛で儀装束を纏い歌を紡ぎ伝えていく唱喚士。自分と最も近くの味方へ強力なバフとＴＰ回復を行うことで攻撃を支援し、共に心を通わせ美しき旋律を奏でる。=[Magic] A backline summoner clad in ceremonial robes, weaving and passing down songs. She supports attacks by providing powerful buffs and TP recovery to herself and the nearest ally, resonating hearts together to play beautiful melodies.
+
+##UB##
+エメラルドシンフォニー=Emerald Symphony
+味方全体の魔法攻撃力を特大アップさせ、物理無効バリアを展開する。さらに、自分と最も近くの味方１キャラの魔法攻撃力を特大アップさせ、ＴＰを中回復させる。=Massively boosts all allies' M.ATK and deploys a physical-nullifying barrier. Additionally, massively boosts M.ATK of self and the nearest ally and moderately recovers their TP.
+r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する自分と対象の味方の魔法攻撃力を(\d+)アップ自分と対象の味方のＴＰを120回復$"=►Boosts all allies' M.ATK by $1.\n►Deploys a Physical Nullification Barrier absorbing $2 DMG.\n►Boosts M.ATK of self and target ally by $3.\n►Recovers TP of self and target ally by 120.
+
+##S1##
+サンクトゥスコーラス=Sanctus Chorus
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせる。さらに、自分と最も近くの味方１キャラの魔法攻撃力と魔法クリティカルを特大アップ、魔法クリダメを小アップさせ、敵全体に魔法大ダメージを与え、味方全体のＨＰを小回復させる。=Massively boosts all allies' M.ATK and greatly boosts their M.CRIT RATE. Additionally, massively boosts M.ATK and M.CRIT RATE of self and the nearest ally, slightly boosts M.CRIT DMG, deals large M.DMG to all enemies, and slightly recovers all allies' HP.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを80アップ味方全体のＨＰを(\d+)回復自分と対象の味方の魔法攻撃力を(\d+)アップ、魔法クリティカルを160アップ、魔法クリダメを12％アップ敵全体に(\d+)の魔法ダメージ$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' M.CRIT RATE by 80.\n►Restores all allies' HP by $2.\n►Boosts M.ATK of self and target ally by $3.\n►Boosts M.CRIT RATE of self and target ally by 160.\n►Boosts M.CRIT DMG of self and target ally by 12％.\n►Deals $4 M.DMG to all enemies.
+
+##S2##
+シルフェンカンタービレ=Sylphen Cantabile
+味方全体の物理防御力を大アップさせる。さらに、自分と最も近くの味方１キャラの魔法攻撃力と魔法クリティカルを特大アップ、魔法クリダメを小アップ、ＴＰ上昇を小アップさせる。=Greatly boosts all allies' P.DEF. Additionally, massively boosts M.ATK and M.CRIT RATE of self and the nearest ally, slightly boosts M.CRIT DMG, and slightly boosts TP Boost.
+r:"^味方全体の物理防御力を(\d+)アップ自分と対象の味方の魔法攻撃力を(\d+)アップ自分と対象の味方の魔法クリティカルを160アップ自分と対象の味方の魔法クリダメを12％アップ自分と対象の味方のＴＰ上昇を8アップ$"=►Boosts all allies' P.DEF by $1.\n►Boosts M.ATK of self and target ally by $2.\n►Boosts M.CRIT RATE of self and target ally by 160.\n►Boosts M.CRIT DMG of self and target ally by 12％.\n►Boosts TP Boost of self and target ally by 8.
+
+##EX##
+フェアリーズディーヴァ=Fairies Diva
+フェアリーズディーヴァ+=Fairies Diva+

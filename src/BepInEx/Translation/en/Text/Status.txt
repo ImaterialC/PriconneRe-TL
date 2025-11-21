@@ -33,6 +33,9 @@ TP消費軽減=TP Retain
 物理=Physical
 魔法=Magic
 
+TPダウン=TP Down
+
+
 ＴＰ=TP
 ＨＰ=HP
 ＴＰ回復量=TP Recovery Amount
