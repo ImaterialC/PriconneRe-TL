@@ -114,3 +114,5 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 
 
 
+オーバー・ザ・ムーン=Over the Moon
+バトル開始後90秒間味方全体の物理攻撃力を10％アップさせる。=Increases all allies' P.ATK by 10% for 90 seconds after the start of battle.

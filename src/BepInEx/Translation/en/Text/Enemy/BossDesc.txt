@@ -2096,3 +2096,42 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 フロストハウンドから受けるすべての状態異常とステータスダウン効果は、ダメージを無効化しても付与される。=All status ailments and debuffs from Frost Hound are applied even if DMG is nullified.
 
 バトル開始時、自身にＴＰダウン25％カット効果を付与する。=At battle start: Grants self 25% TP Down Resistance.
+
+
+前から敵２体に物理防御力ダウン（召喚体無視=Lowers P.DEF of 2 front enemies (ignores Summons)
+範囲内の敵が多いほど：追加数アップ=The more enemies in range, the more additional targets
+自身に【黒星】を１個追加=Grants self 1 stack of [Black Star]
+前から１番目の敵と周囲に魔法ダメージ（飛行効果無視）=Deals M.DMG to frontmost enemy and surrounding enemies (ignores Flight effects)
+自身の【黒星】の数が多いほど：追加魔法割合ダメージ（飛行効果無視）=The more [Black Star] stacks, the more additional percentage M.DMG dealt (ignores Flight effects)
+自身の【黒星】の数が多いほど：回復量アップ=The more [Black Star] stacks, the higher the recovery amount
+ランダムな敵３体に物理ダメージ=Deals P.DMG to 3 random enemies
+このスキルの対象にスタン=Inflicts Stun on this skill's targets
+魔力で変異し要塞と化した魔樹。大地の力を砲弾に変え、破壊の限りを尽くす。=A demon tree mutated by magic into a fortress. Converts earth's power into projectiles for utter destruction.
+ダメージを与えた対象数が少ないほど：ダウン量上昇=The fewer targets hit, the greater the reduction amount
+前から敵１体にＨＰ回復量ダウン=Decreases HP recovery of frontmost enemy
+頂上=Summit
+自身に【月の祝福】20付与=Grants self 20 stacks of [Moon's Blessing]
+自身がブレイク状態：付与数ダウン=If in Break state: Fewer stacks granted
+前から敵１体に最大ＨＰダウン=Decreases max HP of frontmost enemy
+このスキルで与えたダメージが多いほど：ダウン量上昇=The more DMG dealt by this skill, the greater the reduction amount
+
+オーバートップフォース=Overtop Force
+自身がブレイク状態：ダメージダウン=If in Break state: DMG dealt decreases
+
+【クリティカルを受けると発動】=[Activates when receiving critical hit]
+自身に調和状態=Grants self Harmony state
+敵味方全体にＴＰダウン=Decreases TP for all allies and enemies
+味方全体に物理／魔法防御力アップ（ダウン不可）=Boosts all allies' P.DEF/M.DEF (undispellable)
+味方全体にダメージ減衰=Grants all allies DMG decay
+【バトル開始時効果】=[Battle start effect]
+クリティカルダメージが発生する=Critical DMG occurs
+ルナの塔の創造主によって生み出された幻影の守護者。記憶の海から復元された超負荷の剣を振るい、天頂を侵さんとする者を退ける。=An illusory guardian created by Luna Tower's architect. Wields an overload sword restored from the sea of memory to repel invaders.
+【全フェーズ共通】【特殊効果】=[All Phases][Special Effect]
+
+森の奥深くにて生き物たちを見守る心優しき猿の魔物。しかし塔の魔力により理性を失い、森を破壊する狂乱の存在へと変貌した。=A gentle monkey fiend that watched over creatures deep in the forest. But tower's magic robbed its reason, transforming it into a destructive frenzy.
+キョウオウショウジョウから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Massively decreases party's TP recovery from all DMG taken from Kyōōshōjo.
+ユニオンバーストは、敵全体に物理大ダメージを与え、スタンさせる。その後、自身の物理防御力と魔法防御力をバトル終了まで小ダウンさせる。=Union Burst deals large P.DMG and Stuns all enemies. Then slightly lowers own P.DEF/M.DEF until battle ends.
+敵全体に物理中ダメージを与え、物理防御力をバトル終了まで中ダウンさせる。このスキルの効果はダメージを無効化しても付与される。その後、自身の物理防御力と魔法防御力をバトル終了まで小ダウンさせる。=Deals moderate P.DMG to all enemies, moderately lowers P.DEF until battle ends. Effects apply even if DMG nullified. Then slightly lowers own P.DEF/M.DEF until battle ends.
+自身のＴＰ上昇をバトル終了まで中アップさせ、行動速度をバトル終了まで大アップさせる。その後、自身の物理防御力と魔法防御力をバトル終了まで小ダウンさせる。=Moderately boosts own TP Boost and greatly boosts Action Speed until battle ends. Then slightly lowers own P.DEF/M.DEF until battle ends.
+最も近い敵１キャラに物理特大ダメージを与える。その後、自身の物理防御力と魔法防御力をバトル終了まで小ダウンさせる。=Deals extreme P.DMG to nearest enemy. Then slightly lowers own P.DEF/M.DEF until battle ends.
+

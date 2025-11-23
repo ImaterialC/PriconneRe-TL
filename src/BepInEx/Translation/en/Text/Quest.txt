@@ -7,6 +7,7 @@ r:"^([0-9]+)枚 ?使う$"=Use $1
 
 r:"^あと (\d+)$"=remaining $1
 クリアパーティ一覧=Clear Party List
+ルナの塔頂上 EXクエスト クリアパーティ一覧=List of Luna’s Towertop EX Quests Clear Party
 リセット=Reset
 情報が更新されるまで、時間がかかる場合があります。=It may take some time until the information is updated.
 　現在、対象プレイヤーの情報がありません。=　Currently, there is no information on the target player.

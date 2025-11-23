@@ -28,42 +28,9 @@
 難易度2以上で18回クリアしよう（スキップを除く）=Clear 18x at difficulty 2 or higher (without skips)
 
 難易度2以上で20回クリアしよう（スキップを除く）=Clear 20x at difficulty 2 or higher (without skips)
+以上= or higher
+sr:"^【(.+)】難易度(\d+)(以上)?で(\d+)回クリアしよう$"=With [$1], Clear $4x at difficulty $2$3.
 
-
-【美食殿】難易度3以上で1回クリアしよう=【Gourmet Guild】 Clear 1x at difficulty 3 or higher.
-【美食殿】難易度4以上で1回クリアしよう=【Gourmet Guild】 Clear 1x at difficulty 4 or higher.
-【美食殿】難易度5で1回クリアしよう=【Gourmet Guild】 Clear 1x at difficulty 5.
-
-【トゥインクルウィッシュ】難易度3以上で1回クリアしよう=[Twinkle Wish] Clear 1x at difficulty 3 or higher.
-【トゥインクルウィッシュ】難易度4以上で1回クリアしよう=[Twinkle Wish] Clear 1x at difficulty 4 or higher.
-【トゥインクルウィッシュ】難易度5で1回クリアしよう=[Twinkle Wish] Clear 1x at difficulty 5.
-
-【サレンディア救護院】難易度3以上で1回クリアしよう=[Sarendia Orphanage] Clear 1x at difficulty 3 or higher.
-【サレンディア救護院】難易度4以上で1回クリアしよう=[Sarendia Orphanage] Clear 1x at difficulty 4 or higher.
-【サレンディア救護院】難易度5で1回クリアしよう=[Sarendia Orphanage] Clear 1x at difficulty 5.
-
-【王宮騎士団（NIGHTMARE）】難易度3以上で1回クリアしよう=【Royal Palace Knights (NIGHTMARE)】 Clear 1x at difficulty 3 or higher.
-【王宮騎士団（NIGHTMARE）】難易度4以上で1回クリアしよう=【Royal Palace Knights (NIGHTMARE)】 Clear 1x at difficulty 4 or higher.
-【王宮騎士団（NIGHTMARE）】難易度5で1回クリアしよう=【Royal Palace Knights (NIGHTMARE)】 Clear 1x at difficulty 5.
-
-【ラビリンス】難易度3以上で1回クリアしよう=【Labyrinth】 Clear 1x at difficulty 3 or higher.
-【ラビリンス】難易度4以上で1回クリアしよう=【Labyrinth】 Clear 1x at difficulty 4 or higher.
-【ラビリンス】難易度5で1回クリアしよう=[Labyrinth] Clear 1x at difficulty 5.
-
-キャラを累計で10人勧誘しよう=Recruit 10 characters in total.
-キャラを累計で50人勧誘しよう=Recruit 50 characters in total.
-キャラを累計で100人勧誘しよう=Recruit 100 characters in total.
-キャラを累計で150人勧誘しよう=Recruit 150 characters in total.
-
-迷宮遺物を15個以上所持した状態でクリアしよう=Clear while having at least 15 Labyrinth Relic.
-迷宮遺物を20個以上所持した状態でクリアしよう=Clear while having at least 20 Labyrinth Relic.
-迷宮遺物を25個以上所持した状態でクリアしよう=Clear while having at least 25 Labyrinth Relic.
-
-アルファ強化でノードを1個解放しよう=Unlock 1 node of Alpha Enhancement.
-アルファ強化でノードを5個解放しよう=Unlock 5 node of Alpha Enhancement.
-アルファ強化でノードを10個解放しよう=Unlock 10 node of Alpha Enhancement.
-アルファ強化でノードを15個解放しよう=Unlock 15 node of Alpha Enhancement.
-アルファ強化でノードを20個解放しよう=Unlock 20 node of Alpha Enhancement.
-アルファ強化でノードを25個解放しよう=Unlock 25 node of Alpha Enhancement.
-アルファ強化でノードを30個解放しよう=Unlock 30 node of Alpha Enhancement.
-アルファ強化でノードを40個解放しよう=Unlock 40 node of Alpha Enhancement.
+r:"^キャラを累計で(\d+)人勧誘しよう$"=Recruit $1 characters in total.
+r:"^迷宮遺物を(\d+)個以上所持した状態でクリアしよう$"=Clear while having at least $1 Labyrinth Relic.
+r:"^アルファ強化でノードを(\d+)個解放しよう$"=Unlock $1 node of Alpha Enhancement.
