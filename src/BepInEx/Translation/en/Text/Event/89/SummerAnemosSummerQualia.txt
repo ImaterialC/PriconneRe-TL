@@ -16,7 +16,7 @@ Opening
 海とかひっさしぶりだわ～♪\nペコリーヌは例によって公務だけど、\nあいつらの分までめいっぱい遊ぶわよ！=It's been a while since I've been to the beach♪ Pecorine's off on official business as usual, but let's play as much as we can for her sake!
 お、お待ちくださいキャル様。ついはしゃいでしまいましたが……\nこの度のわたくしたちのお務めは、ジオ・ゲヘナよりいらした\nネフィ＝ネラ様たちの御案内ですので……=P-Please wait, Lady Kyaru. I may have gotten carried away just now, however... Our duty this time is to guide Lady Nephy Nella and the others here from Geo Gehenna...
 あっ……\nそ、そうですよねリリちゃん。\nごめんなさい、ネフィ＝ネラさん。=Ah... Y-You're right, Lily-chan. I'm sorry, Nephy Nella-san.
-──コロコロコロ。\nどうぞお楽に、クリア殿。=...Korokorokoro. Please be at ease, Lady Clear.
+──コロコロコロ。\nどうぞお楽に、クリア殿。=...Korokorokoro. Please be at ease, Lady Quria.
 『ばかんす』なる行楽の要訣は、気の置けぬ輩と\nゆるりと愉しむことと拝察致しんす。\nさすれば案内など硬い事を仰らず、心の儘にお過ごしくだしゃんせ。=I believe the essence of this so-called "vacation" lies in relaxing with companions you feel at ease with. So please, no need for stiff guiding -- just enjoy yourselves however your heart desires.
 徳量寛大、気宇壮大……\n感謝いたします、ネフィ＝ネラ様。=Such generosity, such magnanimity... I am truly grateful, Lady Nephy Nella.
 なら気兼ねなく羽を伸ばさせてもらうわ♪\nぶっちゃけもうネフィ＝ネラもアネモネも、身内みたいなもんだしねっ。=In that case, I won't hesitate to spread my wings♪ To be honest, you feel like relatives of mine by now, Nephy Nella and Anemone!
@@ -27,9 +27,9 @@ Opening
 その後も{playername}たちはアネモネをビーチバレーや\n海の家の食事に誘ったり、水着に着替えさせようとしたりしたものの、\n彼女の頑なな態度を崩すことはできなかった。=After that, {playername} and the others tried to get Anemone to play beach volleyball, eat at a beach hut, and even try to get her to change into a swimsuit, but they couldn't get her to change her stubborn attitude.
 これはこれは、お前さま。\n此度の案内に続き、お気遣い誠に感謝いたしまする。=My, oh my. My dear, I am truly grateful for your kind attention and thoughtful guidance.
 折角の御誘い故、是非に──\nと、常ならば肯ずる所存でありんすが。\n若人らの交流に水を差すは、野暮天極まると云うもの。=Such a gracious invitation -- I would gladly accept it, under normal circumstances. But to intrude on the camaraderie of youth would be most uncouth.
-並びに、『ばかんす』──わっちの国元では味わえぬ行楽を\nより長く愉しみたい故、此処は体力を温存したく思い侍り。\n騎士殿に於かれては、どうかご寛恕いただきたく候。=Moreover, as this "vacation" is a pleasure unknown in my homeland, I would like to conserve my strength to enjoy it for as long as I can. I beg your understanding, Lord Knight.
+並びに、『ばかんす』──わっちの国元では味わえぬ行楽を\nより長く愉しみたい故、此処は体力を温存したく思い侍り。\n騎士殿に於かれては、どうかご寛恕いただきたく候。=Moreover, as this "vacation" is a pleasure unknown in my homeland, I would like to conserve my strength to enjoy it for as long as I can. I beg your understanding, Lord Kishi.
 然り。そも、ジオ・ゲヘナは魔物や自然の危難溢るる地。\n長閑に羽を伸ばせる場所すら、優曇華の花の如く稀有。\n行楽なる概念も、民の多くには縁なき様にあり申す。=Indeed. Geo Gehenna is a land beset by monsters and natural disasters. Places where one can relax in peace are as rare as the elusive udonge flower. For most of our people, the notion of leisure is wholly unfamiliar.
-フフ。誠に御座んすか？\n然すれば御言葉に御甘えし、騎士殿に『えすこおと』願い奉らん。\nまずは何処へ向かうが宜しいか喃──=Hehe. Is that really so? If so, I will take you up on your offer and ask you for your "escort", Lord Knight. Where should we head first?
+フフ。誠に御座んすか？\n然すれば御言葉に御甘えし、騎士殿に『えすこおと』願い奉らん。\nまずは何処へ向かうが宜しいか喃──=Hehe. Is that really so? If so, I will take you up on your offer and ask you for your "escort", Lord Kishi. Where should we head first?
 アネモネさん？\nどうかしたんですか？=Anemone-san? What's wrong?
 ──媛が、移動するようなので。\n護衛に。=...The Princess seems to be moving. So I also will.
 そんなの{playername}もついてるんだし、心配いらないわよ。\nほら、ビーチバレーやるわよー=She's with {playername}, so there's no need to worry. Come on, let's play beach volleyball!
@@ -43,7 +43,7 @@ Opening
 私──羽、ありません。\nあと、ここ──暑くて、風が、べたつくので。=I... don't have wings. Also... it's hot here... and the wind is sticky.
 暑い──？\nジオ・ゲヘナの火山にも動じぬ汝が喃……=Hot~? To think you, unfazed by Geo Gehenna's volcano, would say so...
 然れど……覚えておきなんし。\n世には独りきりでは見えざるもの、\n誰かと在って初めて識るを叶うものも、数多にありけり。=That said... remember this. There are many things in this world that you cannot see alone, and many things that you can only understand by being with someone.
-……騎士殿らとの交流を経て、\n少しは角が取れたと思っておったが……果て扨て。\n何ぞ手を講じねばなるまいか喃。=...After interacting with Lord Knight, I believed that she had mellowed out a bit... but in the end, I wonder if I still have to do something.
+……騎士殿らとの交流を経て、\n少しは角が取れたと思っておったが……果て扨て。\n何ぞ手を講じねばなるまいか喃。=...After interacting with Lord Kishi, I believed that she had mellowed out a bit... but in the end, I wonder if I still have to do something.
 リアさん……\nその……バカンスは始まったばかりですし、\n気を落とさないでください。=Lea-san... Umm... Our vacation has only just begun, so please do not let it get you down.
 アネモネも相変わらずよね。\n人と馴れ合わないっていうか、野良猫みたいっていうか。=That Anemone hasn't changed one bit, huh. She doesn't get along with people, or rather, she looks like a stray cat.
 誰が野良猫よっ！？\n引っ掻くぞ！？　ついでに喉笛噛みつくぞっ！？\nフシャーーーッ！！=Whooooo are you calling a stray cat?! I'm gonna scratch you! And I'll bite your throat while I'm at it! HISSSSSSSSSS!!
@@ -93,18 +93,18 @@ Opening
 ああっ、待ってください！\nせっかく似合ってるのにもったいないですよ……って、そうだ！=Ahh, wait! It would be a shame to throw it away with how good it looks on you... Ah, that's right!
 アネモネさん、横失礼しますね。\nえっと……=Anemone-san, excuse me for a second. Let's see...
 ──はい！\nこれなら、お揃いですね♪=...Here! Now we're both ready to go♪
-どうして──\nクリアさんまで水着を……？=Why... are you wearing a swimsuit, too, Clear-san?
+どうして──\nクリアさんまで水着を……？=Why... are you wearing a swimsuit, too, Quria-san?
 えっ？\nだって、『夏の盛装』ですし──\nアネモネさんと一緒でうれしいですから♪=Huh? Well, it's my "formal summer wear" after all~ I'm just happy to be with you, Anemone-san♪
 ……はぁ。\n──勝手にしてください。=*sigh* ...Feel free to do as you please.
 そーね。\nとりあえず第一歩、ってとこかしら。=Yup... For now, I guess that shall serve as the first step.
-にしてもクリアってば。\nアネモネと二人で冒険に行きたい、ねぇ……\n急に言い出したときは何かと思ったけど。=Still, that Clear. To want to go on an adventure with Anemone out of nowhere, huh... I was wondering what she meant when she suggested it.
+にしてもクリアってば。\nアネモネと二人で冒険に行きたい、ねぇ……\n急に言い出したときは何かと思ったけど。=Still, that Quria. To want to go on an adventure with Anemone out of nowhere, huh... I was wondering what she meant when she suggested it.
 てゆーかヒンターランドって場所、あたし初耳なんだけど。\n{playername}、知ってた？=Actually, this is the first time I've heard of this legendary place known as the "Hinterland". Did you know about it, {playername}?
-その仕儀も含めて、\nクリア殿には思うところがある様子。\n先ずは思う儘にしていただくが良ぅ御座んしょ。=It seems that Lady Clear has her own thoughts concerning this adventure, down to her own personal feelings. For now, letting her do as she pleases seems to be for the best.
+その仕儀も含めて、\nクリア殿には思うところがある様子。\n先ずは思う儘にしていただくが良ぅ御座んしょ。=It seems that Lady Quria has her own thoughts concerning this adventure, down to her own personal feelings. For now, letting her do as she pleases seems to be for the best.
 み、皆様！\n申し訳ありませんが、わたくし独りでは限界で……！\nこちらもお手伝いいただけますでしょうか……！=E-Everyone! Sorry to intrude on your conversation, but I cannot handle this on my own...! Will you help me...?!
 とまれかくまれ、古きより\n「かわいい子には旅をさせよ」との云いあらば。\nわっちらにかなうことは、幼子らの後を追うのみ。=Well, as the old saying goes... "Send your precious ones out to travel". All we can do now is follow those two children on their journey.
 二人の旅路を見守るためにも──\n今は先ず、目の前の些事を片付けるといたしんしょう。=In order to watch over the two of them as they move forward... we shall take care of all the small annoyances on their path.
 そうね。\nったく、ここなんで魔物が多いのかしら……ねっ！=That's right. Geez, I wonder why there are so many monsters... HERE!
-{playername}たちに陰でこっそり見守られているとは知らず、\n旅に出たクリアとアネモネ。\nこうして、二人のひと夏の冒険が始まった。=Clear and Anemone set out on a journey, unaware that {playername} and his friends were secretly watching over them. Thus began their summer adventure.
+{playername}たちに陰でこっそり見守られているとは知らず、\n旅に出たクリアとアネモネ。\nこうして、二人のひと夏の冒険が始まった。=Quria and Anemone set out on a journey, unaware that {playername} and his friends were secretly watching over them. Thus began their summer adventure.
 
 Player Prompts
 ……アネモネちゃん……=...Anemone...
@@ -118,10 +118,10 @@ Player Prompts
 他に仲良くなれる案がないか考えよう。=Let me think of a plan...
 
 Player Prompts
-キャル・クリア・リリ=Kyaru Clear Lily
+キャル・クリア・リリ=Kyaru Quria Lily
 
 Chapter 1
-「3000年に一度しか咲かない花」が咲くという幻の場所、\nヒンターランドを目指して出発したクリアとアネモネ。\n二人は旅に必要なものを買うため、とある村に立ち寄っていた。=Clear and Anemone set off for the Hinterland, a legendary place said to be home to a flower that blooms only once every 3000 years. On the way, they stopped by a small village to stock up on supplies.
+「3000年に一度しか咲かない花」が咲くという幻の場所、\nヒンターランドを目指して出発したクリアとアネモネ。\n二人は旅に必要なものを買うため、とある村に立ち寄っていた。=Quria and Anemone set off for the Hinterland, a legendary place said to be home to a flower that blooms only once every 3000 years. On the way, they stopped by a small village to stock up on supplies.
 先は長いですから、食べ物とか買っていきましょうか。\nお菓子もあるといいですよね♪=It's going to be a long trip, so let's grab some food. Oh, and I hope we find some sweets too~♪
 そうですか──では、私はこれで。=I see. Well then... I'll go on ahead.
 えっ？\nア、アネモネさん？=Huh? A-Anemone-san?
@@ -186,16 +186,16 @@ Chapter 1
 ……いいんですか？=...Are you sure?
 二度は、言いません。\n──食料、買うんですよね？=I won't repeat myself. ...We're buying food, right?
 はいっ！\n行きましょう、アネモネさん♪=Yes! Let's go, Anemone-san♪
-こうしてクリアとアネモネが連れ立って買い物を始めた、\n一方その頃──=And so, while Clear and Anemone started to travel together and begun their shopping...
+こうしてクリアとアネモネが連れ立って買い物を始めた、\n一方その頃──=And so, while Quria and Anemone started to travel together and begun their shopping...
 もぐもぐ……\nったく、アネモネってば初っ端からヒヤヒヤさせんじゃないわよ！=*munch munch*... Geez, that Anemone! Already making me sweat from the very start...
-執り成してくださったクリア殿には感謝せねばなりませぬ喃。\nモネにとっては良い経験になり申した。\n更には、此方の果実……=We must give thanks to Lady Clear for mediating. For Mone, it became a valuable experience. And as for these fruits...
+執り成してくださったクリア殿には感謝せねばなりませぬ喃。\nモネにとっては良い経験になり申した。\n更には、此方の果実……=We must give thanks to Lady Quria for mediating. For Mone, it became a valuable experience. And as for these fruits...
 ……大層美味に御座んす。\n特に、この凍らせた林檎の爽やかなる事……\n交易が叶えば、ジオ・ゲヘナの民もさぞ喜びましょうぞ。=...Hamph. It is quite delicious. In particular, these frozen apples are so refreshing... If trade were to open, the people of Geo Gehenna would surely rejoice.
 ですが、その……\nこんなにのんびりしていて、よいのでしょうか……？=That said, umm... is it really okay for us to be taking it this easy...?
 まぁ、こればっかりはねー=Well, that's just how it is sometimes.
 此度の冒険の成否は、すべてあの二人の心持次第。\nわっちらがいくら気を揉んだところで、\n一朝一夕で片付くものではありますまい。=The success or failure of this adventure depends entirely on the attitude of those two. No matter how worried we are, it is not something that will be resolved overnight.
 かてて加えて、古くより、心通わすためには\nぶつかることも必要と申しますれば……\n今は只々、見守る程度が良ぅ御座んしょ。=Furthermore, it has been said since ancient times that in order to communicate with one another, it is necessary to clash... so for now, it would be best to just watch over them.
 心通わすためには、ぶつかることも……\n確かに、そうかもしれません。\nリアさんはいつも優しくて……優しすぎるほどですから。=In order to communicate with each other, we sometimes have to clash... That may certainly be true. Lea-san is always kind... almost too kind.
-クリア殿の御心、此のランドソルの穏やかな日差しの如し。\nジオ・ゲヘナの酷暑に馴染んだモネ奴には、\n戸惑う事も千々に在るかと存じまする。=Lady Clear's heart is like the gentle sunlight of Landosol. For someone like Mone, used to the searing heat of Geo Gehenna, it must be quite bewildering.
+クリア殿の御心、此のランドソルの穏やかな日差しの如し。\nジオ・ゲヘナの酷暑に馴染んだモネ奴には、\n戸惑う事も千々に在るかと存じまする。=Lady Quria's heart is like the gentle sunlight of Landosol. For someone like Mone, used to the searing heat of Geo Gehenna, it must be quite bewildering.
 そりゃ、ジオ・ゲヘナは灼熱地獄みたいなもんだし……\nてかそういえば、今年のランドソルの夏はちょっと過ごしやすいかも？\n冷夏ってやつ？=Well, Geo Gehenna is basically a scorching hell... But hey, come to think of it, isn't this summer in Landosol kinda mild? A cool summer, maybe?
 ……ちょっと待ちなさい。\nなんかそれ、嫌な予感がするんだけど……=...Wait just a minute. That's giving me a bad feeling all of a sudden...
 た、大変だーーっ！=TH-THIS IS TERRIBLEEEEE!!!
@@ -203,7 +203,7 @@ Chapter 1
 いやほんと大変なんだよ！\n夏が……夏が……=No, it's really terrible I said! Summer... Summer...
 夏が奪われちまいそうなんだ！=SUMMER IS ABOUT TO BE TAKEN AWAY!
 奪われる……？=Taken away...?
-なんとか買い出しを始めたクリアとアネモネと、\nそんな二人を見守る{playername}たち。\n平和に思えたひと時に、騒動の気配が近づいていた。=Clear and Anemone had just barely managed to start their shopping, while {playername} and the others looked on. But even in that moment of peace, the scent of chaos was already in the air.
+なんとか買い出しを始めたクリアとアネモネと、\nそんな二人を見守る{playername}たち。\n平和に思えたひと時に、騒動の気配が近づいていた。=Quria and Anemone had just barely managed to start their shopping, while {playername} and the others looked on. But even in that moment of peace, the scent of chaos was already in the air.
  
 Player Prompts
 ネラさん、この村の特産りんごはどう？=How's that village local specialty, Nella-san?
@@ -214,7 +214,7 @@ New Titlecards
 露店の店員=Stall Clerk
 
 Chapter 2
-なんとか買い出しを済ませ、村を出たクリアとアネモネは\n共に街道を歩いていた。=Having somehow finished their shopping, Clear and Anemone left the village and walked together along the road.
+なんとか買い出しを済ませ、村を出たクリアとアネモネは\n共に街道を歩いていた。=Having somehow finished their shopping, Quria and Anemone left the village and walked together along the road.
 ところで──\nヒンターランドって、どこなんですか。=By the way... this "Hinterland"... where is it?
 えっ？\nそれは……えっと……=Huh? Well... Um...
 確か、もっと東……に行ってから、さらに北のほうって聞きました！\nだから、まずは向こうの草原を突っ切らないとですね。=I'm pretty sure I heard it was further east... and then further north! Which means... we'll have to get through the grassland over there.
@@ -242,12 +242,12 @@ Chapter 2
 第一、このままじゃレジャー施設も商売あがったりだろ？\nそうなるとうちの村の作物も売れなくなっちまう！=First of all, if things continue like this, the leisure facilities will lose business, right? And if that happens, our village's crops won't sell either!
 それは……群軽折軸ともいいますし\n見逃すわけにはまいりませんね。=That is a case of... "Even small forces can become great if many of them are gathered together", right? Then we cannot overlook this.
 本当か！？\nありがとう……本当に助かるよ！=REALLY?! Thank you... You're a lifesaver!
-例の魔物たちが来てるの、\nどうもクリアたちが向かってる方向からっぽいのよねー\nったく、ただでさえヒヤヒヤするってのに……=And those monsters seem to be coming from the direction Clear and Anemone are heading towards. Seriously, I'm already getting chills...
+例の魔物たちが来てるの、\nどうもクリアたちが向かってる方向からっぽいのよねー\nったく、ただでさえヒヤヒヤするってのに……=And those monsters seem to be coming from the direction Quria and Anemone are heading towards. Seriously, I'm already getting chills...
 では、お二人の行く先に先回りするのはいかがでしょう？\nそうして魔物も倒してしまえば一石二鳥。\n村の皆様も一安心かと存じます。=Then, how about we get ahead of them? Once we defeat those monsters, we shall kill two birds with one stone. Since I am sure everyone at the village will be relieved.
 そうね。\nこっちはちょうど足もあるわけだし、\nちょっと抜けてパッとやって戻ってくれば大丈夫でしょ。=That's right. We've got a fine ride here, so it'll be fine if we just go ahead and then come back here stat!
 そうとなったら、ちょっと飛ばすよ。\nこっちは魔物が収まってくれるならなんでもOKだからさ！=If that's your demand, I'll put wings on this carriage! As long as those monsters settle down, I'm OK with anything!
 フフ……\n此方の旅も忙しのうありんすな。=Korokoro... It seems our own journey is also getting busy.
-{playername}たちが先行した少し後、\nクリアとアネモネは川辺に差し掛かっていた。=A little while after {playername} and the others had gone ahead, Clear and Anemone approached the riverside.
+{playername}たちが先行した少し後、\nクリアとアネモネは川辺に差し掛かっていた。=A little while after {playername} and the others had gone ahead, Quria and Anemone approached the riverside.
 わぁ、きれいな川……♪\nそうだ！　アネモネさん、少し水浴びしていきませんか？=Uwaaaah, what a beautiful river...♪ Right, Anemone-san! Shall we take a dip?
 ──水浴び？=...A dip?
 はい♪\nせっかく水着も持ってますし、夏なので！\nきっと気持ちいいですよ。=Yes♪ We have swimsuits after all, and it's summer! I'm sure it'll feel good.
@@ -286,7 +286,7 @@ Chapter 2
 それはそうかもしれませんけど……\nって、ちょっと、アネモネさん！=That may be true, but... Wait a sec, Anemone-san!
 うぅ……高い……\nでも、これまでの冒険に比べれば……！=Ughhhh... It's so high... But! Compared to all the adventures I've gone through...!
 空から魔物が……！\nここはわたしに任せてください！=Monsters are attacking from the sky...! Leave this to me!
-こっちは平気です。\nむしろ、クリアさんが下がって──=I'm fine here. In fact, Clear-san, you should step back...
+こっちは平気です。\nむしろ、クリアさんが下がって──=I'm fine here. In fact, Quria-san, you should step back...
 アネモネさんっ！=ANEMONE-SAN!
 アネモネさん、大丈夫ですか……？=Anemone-san, are you okay...?
 平気です。\n落ちるときに──少し、捻っただけなので。=I'm fine. I just... twisted my ankle a little when I fell.
@@ -295,15 +295,15 @@ Chapter 2
 無理しないでください！=Don't push yourself too hard!
 魔物は追ってこないみたいですけど。\nアネモネさんの怪我……\nわたしが魔法で治癒しなきゃ、ですよね。=It doesn't look like those monsters are coming after us. Anemone-san's injuries... I should be healing them with magic, right?
 じゃないと……\n……前、みたいなことに……=Otherwise... Everything will end just like that time...
-クリアさん……？=Clear-san...?
+クリアさん……？=Quria-san...?
 アネモネさん、怪我したところを──=Anemone-san, where did you get hurt--...
 ん？\nなんでこんなところに女の子が……\nって君たち、大丈夫か！？=Hm? What's some girls doing out here... Wait, are you guys all right?!
 やだ、そっちの子怪我してるじゃない……！\nちょっと待ってね、今治療してあげるから！=Oh no, that girl over there is injured...! Hold on, I'll heal you right away!
 あ……ありがとうございます！\nアネモネさん。\n怪我してるところ、この人に見せられますか？=Th-Thank you very much! Anemone-san, can you show this person where you're injured?
 ………………………………どうぞ。=...Mm. Here.
 ……よかった……\nアネモネさんが素直に聞いてくれて……=...Thank goodness... Anemone-san listened obediently...
-さっきのクリアさん──躊躇っていた……？\nでも、何を……？　=Clear-san earlier was... hesitant...? About what...?　
-通りすがりの旅人に助けられ、トラブルを脱したクリアとアネモネ。\nしかしアネモネはその間も変わらず、\n思考を巡らせているのだった。=Clear and Anemone escape trouble with the help of a passing traveler. However, Anemone remains lost in thought.
+さっきのクリアさん──躊躇っていた……？\nでも、何を……？　=Quria-san earlier was... hesitant...? About what...?　
+通りすがりの旅人に助けられ、トラブルを脱したクリアとアネモネ。\nしかしアネモネはその間も変わらず、\n思考を巡らせているのだった。=Quria and Anemone escape trouble with the help of a passing traveler. However, Anemone remains lost in thought.
 
 Player Prompts
 二人とも、助け合って動けてるみたい。=Looks like they're helping each other now
@@ -368,7 +368,7 @@ Chapter 3
 ちょっとタイミングが良くないわね……\n確かニノンって、アネモネとも顔見知りなんでしょ？=Her timing isn't really the best... If I'm not mistaken, Ninon and Anemone are acquainted with each other, right?
 「オー！　ワタシもヒンターランド行くデース！」\n……って言うに決まってるわ。普段なら全然いいんだけど、\n今はあの二人の時間を大事にしてあげたいわよね……="Oh! I'm going to this Hinterland too!" ...Of course she'd say something like that. Normally, it'd be perfectly fine, but right now, I want those two to treasure their time together...
 大変僭越ながら、ニノン様の天真爛漫さは尾行には不向き……\nですが、悪気があるようなお方ではありませんし\n悲しませるわけにもまいりません。一体、どうしたら……=It may be presumptuous of me to say this, but Lady Ninon's innocent nature makes her unsuitable for tailing... However, she is not the kind of person who has any ill will, and I cannot bear to make her sad. What should we do...?
-手が足りぬなら、二手に分かれるが定石。\nモネらの見守りは、万事わっちにお任せくだしゃんせ。\nニノン殿のお相手は、お前さまらにお頼申しまする。=If we are short on hands, splitting up is the obvious move. Leave watching over Mone and Lady Clear to me. I will be counting on you all to take care of Lady Ninon.
+手が足りぬなら、二手に分かれるが定石。\nモネらの見守りは、万事わっちにお任せくだしゃんせ。\nニノン殿のお相手は、お前さまらにお頼申しまする。=If we are short on hands, splitting up is the obvious move. Leave watching over Mone and Lady Quria to me. I will be counting on you all to take care of Lady Ninon.
 オッケー、それでいきましょ。\n──ごめんニノン、お待たせ！\nあんたの特訓ての、あたしらも見せてもらっていい？=Okay, let's go with that. -- Sorry to keep you waiting, Ninon! Could you show us how you're training?
 モチロンデース！\nみんなで上忍目指して、特訓スタートデス！=Of course! Let's all start our special training to become Jonin!
 夏と言えば海！\nつまり水場の特訓にはモッテコイ！　デスね！=When you speak of summer, the beach is a must! In other words, a super popular place for water jutsu training! Right?!
@@ -405,12 +405,12 @@ Chapter 3
 そうなんすよ！\nなんでも人間をすごい恨んでるみたいで、\n通りすがりの馬車を片っ端から冷気で攻撃してるらしいんす！=That's right! Apparently they have a grand grudge against humans, and they attack every passing carriage with cold air!
 冷気で？\n……ちょっと待って。\nそれって、もしかして……=Cold air? Carriage? ...Wait a minute. Could they be...
 なんっっっで無駄に頭いいのよも～～～っ！\n……いいわ、こーなったらとことんやってやろーじゃない。\n覚悟しなさいクソ魔物……！=WHY ARE THEY SO UNNECESSARILY SMART?! ...Fine, I'll give it my all since things have come this far. Prepare yourself, you shitty monsters...!
-魔物と相対するため、{playername}たちは\n夏イベント会場を出発する。\nそして、アネモネたちも──=To confront the monsters, {playername} and his group leave the summer event grounds. And not long after... Anemone and Clear follow suit.
+魔物と相対するため、{playername}たちは\n夏イベント会場を出発する。\nそして、アネモネたちも──=To confront the monsters, {playername} and his group leave the summer event grounds. And not long after... Anemone and Quria follow suit.
 ふぅっ……♪\nすっかり遊んじゃいましたね。\n巨大スイカ割り大会とか、海の家のメニュー早食い競争とか……♪=Phew...♪ We really had a blast, didn't we? The giant watermelon-smashing contest, the beach shack's speed-eating competition...♪
 ──……\nそろそろ──移動、しませんか。=....Mm. It's about time... we moved on.
 えっ？　あっ……ですね！\nあんまりここにいても、ヒンターランドに着くのが\n遅くなっちゃいますし。=Huh? Ah... I see! If we stay here too long, it'll take us too long to get to the Hinterland.
 楽しくって、つい遊ぶのに夢中になっちゃいました……\n行きましょう、アネモネさん♪=It was so much fun, I couldn't help but be engrossed in those activities... Let's go, Anemone-san♪
-──クリアさん。\n前から、気になってたんですけど──=...Clear-san. I've been wondering about this for a while now...
+──クリアさん。\n前から、気になってたんですけど──=...Quria-san. I've been wondering about this for a while now...
 どうして──私に、構うんですか？=Why... do you care about me?
 えっ──？=Huh~...?
 
@@ -432,11 +432,11 @@ New Titlecards
 キャル・ニノン・リリ=Kyaru Ninon Lily
 
 Chapter 4
-道中立ち寄った夏イベント会場を満喫したクリアとアネモネ。\n二人はヒンターランドへ向けて出発しようとしていたが──=Clear and Anemone enjoyed the summer event they stopped at along the way. They were about to depart for the Hinterland, but...
+道中立ち寄った夏イベント会場を満喫したクリアとアネモネ。\n二人はヒンターランドへ向けて出発しようとしていたが──=Quria and Anemone enjoyed the summer event they stopped at along the way. They were about to depart for the Hinterland, but...
 どうして──私に構うんですか？=Why... do you care about me?
 それは……\nわたしはただ、アネモネさんと仲良くなりたいだけですよ。=That's... I just... want to be friends with you, Anemone-san.
 それに、こういうのって理屈じゃないっていうか……\n『なんとなく気になったから』じゃ、だめですか？=Besides, this kind of thing doesn't really need to follow a logic... Isn't it okay to just say, "I just so happened to be curious"?
-──クリアさん。\n見た目通りの人じゃ──ない、ですよね？=...Clear-san. You're not really the person... you appear to be, are you?
+──クリアさん。\n見た目通りの人じゃ──ない、ですよね？=...Quria-san. You're not really the person... you appear to be, are you?
 ……！\nそれは……その……=...Ah! That's... Um...
 ──……\n否定──しないんですね。=...Hmph. You're not... denying it...
 ──……\n私の能力とか。媛のこととか。\n狙ってるって、わけじゃ──なさそう、だけど──=...My power. Or the Princess. It doesn't seem like... she's after those.
@@ -450,9 +450,9 @@ Chapter 4
 ──何か、買う気ですか？=...Are you going to buy something?
 はい！\nこの旅の思い出になるものがないかなぁって。\nアネモネさんも、お土産どうですか？=Yes! I was hoping to find something to remember this trip by. Would you like a souvenir too, Anemone-san?
 この旅の──思い出……？=A memento... of this trip...?
-そんなの、別に──\nというか……\n何考えてるんですか？　クリアさん──=I don't need something like that... Or rather... What are you thinking, Clear-san?
+そんなの、別に──\nというか……\n何考えてるんですか？　クリアさん──=I don't need something like that... Or rather... What are you thinking, Quria-san?
 さっき、あんな話をしたのに──\nその流れで……こんなこと、言うなんて──=After everything we just talked about... how can she say something like that now...
-私は──\nクリアさんに、『何か』があると思って。\nそれを、探っているのに──……=I thought... there was "something off" about Clear-san... That's what I've been trying to find out...
+私は──\nクリアさんに、『何か』があると思って。\nそれを、探っているのに──……=I thought... there was "something off" about Quria-san... That's what I've been trying to find out...
 そう、私がこの話に乗ったのも……\nそもそもは──=Right... in the first place... the reason I went along with this trip was...
 アネモネさん？=Anemone-san?
 あ──……すみません。\nその──=Ah... I'm sorry. Umm...
@@ -460,13 +460,13 @@ Chapter 4
 はーもう！\nあの二人、なんでよそよそしくなってんのよ！？=AAAAAHHHHH GEEEZ! Why are those two now acting so distant?!
 わたくしたちが目を離している間に、\n何かあったのかもしれませんね……\nその場にいられなかったことが悔やまれます。=Something may have happened while we were not looking... I regret not being able to stay put.
 モネの疑り深さは、煉獄の世を生きる上で身に纏った鎧。\n着せたわっちが云うのも憚られども、\nそう易々とは脱げぬ筋金入りと化しておりまする。=Mone's skepticism is the armor she wears to survive in our world of purgatory. I hesitate to say it, as I was the one who put such armor on her, but it has become a weight on her personality that is not so easily removed.
-てか、クリアのほうも変じゃない？\nなんか遠慮してるっていうか。=Actually wait... isn't Clear herself weird? It's like she's holding back.
+てか、クリアのほうも変じゃない？\nなんか遠慮してるっていうか。=Actually wait... isn't Quria herself weird? It's like she's holding back.
 …………\nきっと……リアさんも悩んでいるのではないでしょうか。\nその詳細までは、窺い知ることはできませんが……=...I am sure... that Lea-san is also troubled. I cannot exactly determine as to why, but...
 リアさんは、いつもそうなのです。\n不器用なわたくしやプレシアさんのフォローをしてくださって、\nそれ自体は、大変ありがたいのですが……=Lea-san is always like that. I am very grateful that she is always backing up me and Precia-san in our clumsy acts, even so...
 そのぶん、ご自分の気持ちを押し隠している気もして。\nしかし今の未熟なわたくしでは、うまく窺うこともできず……\n時折、ほんの少しだけ歯痒く感じるのです。=To do that, I feel like she is suppressing her own feelings. However, as inexperienced as I am now, I cannot quite make out what exactly she is feeling... Sometimes, it makes me feel just a little frustrated.
 ……はい。\n今回のお話は、リアさんがわたくしたちに打ち明けてくださった\n数少ない、心からの要望──いえ。『わがまま』です。=...Yes. This event is one such case where Lea-san confided in us for an heartfelt request -- no, for a "selfish wish".
 そんなリアさんの願いを、友として──大切な仲間として\n少しでも叶えて差し上げたく、\n微力ながらお力になれればと思った次第です。=As a friend and a valued companion -- I want to grant Lea-san's wish, even if only a little. And I hope to be of help of her, in any way I can.
-成程……リリ殿の気概、確と受け取り申した。\nクリア殿は誠良き仲間を持たれました喃。=I see... Lady Lily, I have perceived your resolve loud and clear. Lady Clear is truly blessed to have a friend like you.
+成程……リリ殿の気概、確と受け取り申した。\nクリア殿は誠良き仲間を持たれました喃。=I see... Lady Lily, I have perceived your resolve loud and clear. Lady Quria is truly blessed to have a friend like you.
 ま、そこまで聞いちゃ頑張るしかないわよね。\nこれでも冒険者としちゃ先輩だし？=Well, if you're going that far, guess I've got no choice but to give it my all too. I am your senpai in this adventuring business, after all.
 ──ね、あんたたちもそう思わない？=...Right? Don't you guys think the same?
 聞く耳なし、か。\nまぁでも、やっと理解したみたいね。\nあんたたちの敵は他のやつらじゃなくて、あたしたちよ。=Not listening, huh? Well, at least you finally understand. Your enemy is not other people, it's us.
@@ -477,7 +477,7 @@ Chapter 4
 あっ……！　えっと、なんでもないです。\nちょっと、目にゴミが入ったみたいで、それで……=Ah...! Um, it's nothing. There's a bit of trash in my eyes, so...
 誤魔化さなくていいのよ。\nもし悩んでることがあるなら、話してみて？\nこんなおばあさんでも、相槌くらいなら打てるから。=You don't have to hide it. If something's bothering you, why not talk about it? Even an old lady like me can lend a sympathetic ear.
 ……！\nじゃあ、その……\n少しだけ、聞いてもらってもいいですか？=...! Then, umm... could you listen to me for a bit?
-そう……\nクリアちゃんは、その子と仲良くなりたいのね。=I see... Clear-chan, you want to become friends with that girl.
+そう……\nクリアちゃんは、その子と仲良くなりたいのね。=I see... Quria-chan, you want to become friends with that girl.
 はい……\nでも、どうして構うんですかって聞かれたとき、わたし……\nうまく答えられなかったんです。=Yes... But when she asked me why I cared about her, I... couldn't find the right words.
 見た目通りの人じゃないって言われて、\nなんだか、わたしの心の奥まで見透かされた気がしたんです。\nそれで、ついドキッとしちゃって。=When she said I wasn't the person I appeared to be... it felt like she saw right through me, all the way to my core. It caught me off guard.
 それで……\nアネモネさんの言葉に、ちゃんと返せなかったから……\n多分、がっかりさせちゃったんですよね。=So... I couldn't respond properly to Anemone-san's words... I think I let her down.
@@ -485,32 +485,32 @@ Chapter 4
 でも、それだけじゃだめなんです。\nだってわたしは……いい子なんかじゃない。\n本当に、見た目通りの子じゃないんですから……=Even so, that's no good. Because I'm... not a good girl. I'm really not what I seem...
 聖女でも、楽観的でもない。全部自分のためで……\nアネモネさんに信じてもらえるような人じゃないんです。\nそんな自分が……自分でも、信じられないんです。=I'm not a saint, or some sunny optimist. Everything I do is for myself... I'm not the kind of person Anemone-san can trust. And that version of me... I can't even believe in her myself.
 だって、そのせいで……\n……リリちゃんたちも……=I mean, because of that... Lily-chan and Precia-chan...
-待ってちょうだい。\n……だめよ、クリアちゃん。\nそんなに自分を責めちゃだめ。=Hold on a moment. ...No, Clear-chan. Don't be so hard on yourself.
-クリアちゃんにどういう事情があるのか、\n私にはよくわからないけれど……\nあなたみたいな若い子が、そんなに思いつめちゃいけないわ。=I don't really know what your circumstances are, Clear-chan... But someone as young as you shouldn't carry such a heavy burden.
+待ってちょうだい。\n……だめよ、クリアちゃん。\nそんなに自分を責めちゃだめ。=Hold on a moment. ...No, Quria-chan. Don't be so hard on yourself.
+クリアちゃんにどういう事情があるのか、\n私にはよくわからないけれど……\nあなたみたいな若い子が、そんなに思いつめちゃいけないわ。=I don't really know what your circumstances are, Quria-chan... But someone as young as you shouldn't carry such a heavy burden.
 それにね、私が聞く限り\nあなたの「アネモネちゃんと仲良くなりたい」って気持ちは\n間違いなく本物だと思うの。=Besides, from what I've heard, I think your desire to become friends with Anemone-chan is definitely genuine.
 だから、その気持ちを\nそのまま全部アネモネちゃんに話してみたらどう？\n見た目通りとか、そういうのは気にしないで。ね？=So why don't you just tell Anemone-chan how you feel? Don't worry about how you look on the outside, or anything like that. Okay?
 ……！\nおばあさん……=...! Grandma...
 ……そう、ですよね。\nこの気持ちには、嘘はないはず……=...That's right. In these feelings... there are no lies...
 ありがとうございます。\nわたし……アネモネさんを捜してきます！=Thank you very much. I... I'll go look for Anemone-san!
 どうして──\nあんなこと、思ったんだろう。=Why... did I think that...
-クリアさんが、否定してくれなくて──\n悲しい、なんて。\nこれじゃ、まるで……=Clear-san didn't deny it... It made me sad... It was like I...
+クリアさんが、否定してくれなくて──\n悲しい、なんて。\nこれじゃ、まるで……=Quria-san didn't deny it... It made me sad... It was like I...
 ……！\nまた、猫──=...! There's another cat~
 ……にゃっ！=...Meow!
 ……っ！？\nなに──って……！=...?! What... are you?!
-クリアさんの、ばんそうこうが……\nあの猫……あれを、狙ってた？　なんでっ──=Clear-san's band-aid... That cat... Was it... aiming for that? Why...
+クリアさんの、ばんそうこうが……\nあの猫……あれを、狙ってた？　なんでっ──=Quria-san's band-aid... That cat... Was it... aiming for that? Why...
 待て……っ！=Wait...!
 にゃっ！=Meow!
 私──なんで、走ってるんだろう……=I... Why am I... running...
 あんな──薄っぺらいの一枚、捨ててもいいのに。\nなんで私、こんなに必死になって……=I could have just... thrown away that flimsy piece of paper. Why am I being so desperate...
-もう、わからない──\n私のことも……クリアさんのことも……\nぜんぜん──！　=I don't know... Not about me... nor about Clear-san... Nothing!
+もう、わからない──\n私のことも……クリアさんのことも……\nぜんぜん──！　=I don't know... Not about me... nor about Quria-san... Nothing!
 っ、はぁ、はぁ……\n観念してください。=*pant pant*... Please give up.
 みぃ……=Mii...
 あの猫──この、ケガした子猫のために、ばんそうこうを？\n……でも──=That cat... Wanted my bandaid... for this little injured one? ...But--
 それ、あげても──\nその子、助かりませんよ。=Even if you give it to her... that little one... won't be saved.
 弱い者は、死んで当然。\nそのケガじゃ、ばんそうこうどころか──\n普通の回復魔法でも、きっと……=The weak deserve to die. With injuries like that, not even a bandaid would do the trick -- Not even regular magic would...
 シャーーッ！=HISSSSS!
-……でも。\nこの子、あの騎士のひとなら──助けようとするんでしょうね。=...But, this little one... if it was that Knight, he'd try to save her...
-それから──……クリアさんも。=Also... Clear-san would too.
+……でも。\nこの子、あの騎士のひとなら──助けようとするんでしょうね。=...But, this little one... if it was that Person-Kishi, he'd try to save her...
+それから──……クリアさんも。=Also... Quria-san would too.
 ──今回だけ、です。=...Just this once.
 みゃあ……？\nみゃあ、みゃあ！=Mya...? Myaa, myaa!
 にゃあ？\n……にゃーん♪=Meow? ...Meow♪
@@ -520,7 +520,7 @@ Chapter 4
 動かないでください。\nでないと、首を──=Please don't move. Otherwise, your head...
 待ってください、アネモネさんっ！=WAIT JUST A SECOND! ANEMONE-SAN!
 わたしもっ……！\nわたしも、アネモネさんと……同じなんです！=Me too...! I'm... just like you, Anemone-san!
-咄嗟にクリアを羽交い締めにしたアネモネ。\nしかしそのクリアの口から出た言葉に、驚いて手を止めるのだった。=Anemone immediately grabbed Clear in a neck choke, but was shocked by the words that came out of Clear's mouth and stopped her hand.
+咄嗟にクリアを羽交い締めにしたアネモネ。\nしかしそのクリアの口から出た言葉に、驚いて手を止めるのだった。=Anemone immediately grabbed Quria in a neck choke, but was shocked by the words that came out of Quria's mouth and stopped her hand.
 
 Player Prompts
 もしかして、今回張り切ってたのは……=Could it be the one who came up with this plan was...
@@ -529,8 +529,8 @@ New Titlecards
 やせこけた子猫=Skinny Kitten
 
 Chapter 5
-アネモネの問いに答えられないクリア。些細なすれ違いから二人は別行動\nを取る。互いに相手への感情に戸惑い、自分の感情をうまく言葉にできず\n悩む中、クリアはアネモネの秘密を知ってしまう。=Clear, who can't answer Anemone's question. The two of them act separately from each other because of a minor misunderstanding. While they're both bewildered by each other's emotions and unable to put their own emotions into words and agonize over them, Clear learns Anemone's secret.
-子猫を涙で癒す姿をクリアに見られてしまい、\n咄嗟に彼女を羽交い締めにしたアネモネ。\nしかし──=When Clear saw her healing a kitten with her tears, Anemone instinctively grabbed her in a panic. However...
+アネモネの問いに答えられないクリア。些細なすれ違いから二人は別行動\nを取る。互いに相手への感情に戸惑い、自分の感情をうまく言葉にできず\n悩む中、クリアはアネモネの秘密を知ってしまう。=Quria, who can't answer Anemone's question. The two of them act separately from each other because of a minor misunderstanding. While they're both bewildered by each other's emotions and unable to put their own emotions into words and agonize over them, Quria learns Anemone's secret.
+子猫を涙で癒す姿をクリアに見られてしまい、\n咄嗟に彼女を羽交い締めにしたアネモネ。\nしかし──=When Quria saw her healing a kitten with her tears, Anemone instinctively grabbed her in a panic. However...
 同じ、って──\nどういうことですか。=Just like me...? What do you mean?
 アネモネさん、また手を怪我しちゃってますよね。\nだから……今から、見せますね。=Anemone-san, I see you've hurt your hand again. So... allow me to show you.
 ──……回復魔法。\nかなりの腕前──=...Recovery magic. Quite powerful at that...
@@ -541,14 +541,14 @@ Chapter 5
 それで……もうなるべく回復魔法は使いたくなくて。\nこんなこと、本当は良くないって、わかってるんですけど……=So... I don't want to use recovery magic as much as possible. I know that isn't a good mindset to have, though...
 村に来る前──「どうして構うのか」って。\n上手く答えられなくって……ごめんなさい。=Before we came to this village, you asked me why I care... I'm sorry I couldn't give you a good answer.
 あのときは……\n正直、自分でもよくわかってなかったんです。\nどうしてアネモネさんと、友だちになりたいって思うのか……=At the time... To be honest, I didn't really get it myself. Why did I want to be friends with you, Anemone-san…?
-さ、最初は……、ジオ・ゲヘナで会ったばかりの頃は……\n守護騎士のひとと仲良くなったら、未知の世界での冒険で\n助かるかもって、思ってた……かも、しれないです、けど……=A-At first... when I first met you in Geo Gehenna... I thought maybe if I got close to a Chevalier, I'd have someone to help me survive in this unfamiliar world... That's... what I might've been thinking, but...
+さ、最初は……、ジオ・ゲヘナで会ったばかりの頃は……\n守護騎士のひとと仲良くなったら、未知の世界での冒険で\n助かるかもって、思ってた……かも、しれないです、けど……=A-At first... when I first met Person-Kishi in Geo Gehenna... I thought maybe if I got close to a Chevalier, I'd have someone to help me survive in this unfamiliar world... That's... what I might've been thinking, but...
 ……そんな小狡いことしなくても、ネフィ＝ネラさん、\nとっても優しい人で。とっても良くしてくれて。\nでも、そうわかった後でも……=...I didn't need to be so cunning. Nephy-Nella is a very kind person. She was very kind to me. But even after I learned that...
 わたしは、アネモネさんと、仲良くなりたいって思ってました。\nその理由……ずっと、自分でもわからなくて。\n理由なんて、いらないって、思ってました、けど……=I still wanted to be friends with you, Anemone-san. Even if the reason itself escaped me... for a long time. I thought I didn't need a reason, but...
 今──ようやく、わかりました。\nきっとアネモネさんが……わたしと似た秘密を持っているから……=Now... I finally understand. I'm sure it's because you have a secret similar to mine, Anemone-san...
 ……信じてもらえないかもしれないですけど……\n絶対に、誰にも言わないって約束します。\nだから……今は、一緒に旅を続けてくれませんか？=...You may not believe me, but... I promise I will never tell anyone. So, for now... will you continue your journey with me?
 …………\n──そう、ですか……=...I see...
 今の話が、本当なら──\n滝で私が怪我した時のためらいも、説明がつく──=If what she just said is true... It'd explain her hesitation when I got injured... back at the waterfall...
-クリアさんが言ってるのは、本当のこと──\n秘密にするっていう約束も──きっと、守って……=What Clear-san is saying is the truth -- I'm sure she'll also... keep her promise to hold it as a secret...
+クリアさんが言ってるのは、本当のこと──\n秘密にするっていう約束も──きっと、守って……=What Quria-san is saying is the truth -- I'm sure she'll also... keep her promise to hold it as a secret...
 私だって──信じられるなら、信じたい……\n──でも──=I also want to believe in her, if I can... But...
 っ…………\n──=............
 ──とりあえず。\n先へ、進みましょう──=For now... let's move on...
@@ -571,18 +571,18 @@ Chapter 5
 それより、その……アネモネさんこそ大丈夫ですか？\nここ、なんだか不気味ですよね。\n幽霊が出たりしたら、怖いですし……戻って別の道を探しましょう？=More importantly, um... Are you okay, Anemone-san? This place is kind of creepy. It'd be scary if ghosts appeared... Let's go back and find another way, okay?
 ……！\n──そ、それは……=...! Th-That's...
 今来た道を、戻る──？\nやっと、ここまで進んだのに……？　=We're going back... the way we came~? When we've finally made it this far...?　
-──それに。\nジオ・ニヴルヘルに行った時も──\n多分クリアさんは──幽霊とか、本当は、そんなに……=...Besides. When we went to Gio Nivlhel... I think Clear-san was never really comfortable with ghosts...
+──それに。\nジオ・ニヴルヘルに行った時も──\n多分クリアさんは──幽霊とか、本当は、そんなに……=...Besides. When we went to Gio Nivlhel... I think Quria-san was never really comfortable with ghosts...
 今だって、私を気にして──\nなのに、私は……=Even now, she's still worried about me. And yet, I...
 ──へーき、です……=I'm... fine...
 大丈夫ですから──このまま、進みましょう。\nべ、別に──幽霊とか、怖くない……ので。=It's okay, I said... Let's keep going... I-It's not like... I'm scared of ghosts.
 でも、無理はしないほうがいいですよ！\nだってアネモネさん、怖いのは苦手なんじゃ──=But! You really shouldn't push yourself! After all, you're not good with scary things, Anemone-san~
 苦手じゃ──ないです。\n目的地──この先、ですよね。\nなら、さっさと進んだほうがいいです。=It's not like... I'm bad with them. Our destination's up ahead, right? Then we should just keep moving.
 それに……もし、私がだめだったら──\nそのときは、捨ておいてください。=And... if you find me unable to move onward... at that time, just leave me behind.
-だって──クリアさんが言い出したんですよね。\n花、見に行きたい、って。\nなら──クリアさんだけでも、行くべきです。=After all... you said you wanted to go see the flowers, didn't you, Clear-san? Then... even if it's just you, you should go.
+だって──クリアさんが言い出したんですよね。\n花、見に行きたい、って。\nなら──クリアさんだけでも、行くべきです。=After all... you said you wanted to go see the flowers, didn't you, Quria-san? Then... even if it's just you, you should go.
 ていうか、そもそも──\n私たち、他人じゃないですか。=I mean... in the first place... aren't we strangers...?
 この旅の最初も、別々でしたし。\nなら、私のこと──気にする必要、ないです。=We even started this journey apart. So... there's no reason for you to worry about me.
 ──……\n考えたけど──\nやっぱり、わからない──=......I thought about it... but I still don't understand...
-──わかりたく、ない。\n媛のことも、あのひとのことも──\nクリアさんのことも。=...I don't want to understand. About the Princess... about the Knight... and about Clear-san...
+──わかりたく、ない。\n媛のことも、あのひとのことも──\nクリアさんのことも。=...I don't want to understand. About the Princess... about that person... and about Quria-san...
 友達って──なんですか？\nどうして──私に、優しくするんですか？　=What... are friends? Why... are you being so nice to me?
 ……じゃあ──\n他人は、助けちゃいけないんですか？=...So what, we're not supposed to help strangers?
 大切な人が大変な目にあって苦しんでるのを見て、\n助けたいって思ったり。=When someone you care about is hurting, of course you want to help them.
@@ -592,19 +592,19 @@ Chapter 5
 ──私と、媛も……\n他人──=...The Princess and I... were also strangers...
 わたしは、アネモネさんだからそう思ったんです。\nどうしてかは、さっきまで……うまく言葉にできませんでしたけど。\nでも、そんなのわからなくても、アネモネさんが一緒だからここまで──=It's because it was you, Anemone-san. I didn't know how to put it into words before... but even if I didn't understand why, I made it this far because you were with me.
 ──……あ……=...Ah...
-……クリアさん？=...Clear-san?
+……クリアさん？=...Quria-san?
 あぁ、そっか……そう、ですよね。\nもとはといえば、こんなことになったのは……\n全部、わたしの……=Ah, I see... that's right. The reason this all happened in the first place... it was all my fault...
-……？\nクリアさん、どうして手を──=...? Clear-san, why are you holding my hand?
+……？\nクリアさん、どうして手を──=...? Quria-san, why are you holding my hand?
 アネモネさんは、嫌かもしれないですけど。\nでも、わたし──やっぱり、ヒンターランドには\nアネモネさんと行きたいんです。=You might not like this idea, Anemone-san... but after all, I still want to reach the Hinterland with you.
 あと少しですから……\n早く目的地について。\nもう──何もかも、終わらせちゃいましょう。=We're almost there... Let's hurry up and get to our destination. That way... we can put an end to all of this.
-クリアとアネモネの旅が大きく動き出した、その頃──=Around the time Clear and Anemone's journey began to take off...
+クリアとアネモネの旅が大きく動き出した、その頃──=Around the time Quria and Anemone's journey began to take off...
 {playername}たちの旅もまた、\n大きな山場を迎えようとしていた。={playername} and his friends' journey was also about to reach a major turning point.
 
 New Titlecards
 鳥=Bird
 
 Chapter 6
-クリアとアネモネの旅が山場を迎えた頃、\n{playername}たちもそう遠くない場所で\n魔物の群れとの戦いを繰り広げていた。=As Clear and Anemone's journey reached its climax, {playername} and the others were locked in battle with a swarm of monsters not far away.
+クリアとアネモネの旅が山場を迎えた頃、\n{playername}たちもそう遠くない場所で\n魔物の群れとの戦いを繰り広げていた。=As Quria and Anemone's journey reached its climax, {playername} and the others were locked in battle with a swarm of monsters not far away.
 このっ……あっちに行きなさいよ！\nったく、ほんとに次から次へとやってくるわね！=YOU... JUST GO AWAY ALREADY! Geez, they're really coming one after another!
 怜悧狡猾な連携──だとしても。\nここから先、進ませるわけにはまいりません……！=Even if this is a cunning, well-coordinated assault... we cannot let them get any further...!
 ……フム？=...Hmm?
@@ -612,15 +612,15 @@ Chapter 6
 どういうこと？\nもしかして目的地が近い……ってわけじゃなさそうね。\nだってこの先って山よ？=What does that mean? Don't tell me they're almost there... No, that can't be it. There's a mountain up ahead, remember?
 「ひんたーらんど」なる地が山奥の秘境であったか──\nはたまた別の理由があるか、でございましょうな。=Perhaps this legendary place known as the "Hinterland" is a hidden place deep in the mountains -- or perhaps there is another reason.
 ……リアさん……=...Lea-san...
-クリアさん──\n寒く、ないですか？=Clear-san... aren't you cold?
+クリアさん──\n寒く、ないですか？=Quria-san... aren't you cold?
 ……平気ですよ。\nアネモネさんこそ、大丈夫ですか？=...I'm fine. Are you okay, Anemone-san?
 ──っ、\nはい──……=...Uh... Yes...
-クリアさん──\nさっきから……無理、してますよね。=Clear-san... she's been pushing herself this whole time... hasn't she...
+クリアさん──\nさっきから……無理、してますよね。=Quria-san... she's been pushing herself this whole time... hasn't she...
 道でつまずいても……何しても。\nぜんぶ堪えて──傷だらけになって、歩いてる。=Even when she stumbles... no matter what happens... she just grits her teeth and keeps walking, all covered in scrapes...
-私の、せいだ。\n私が──いつまでも、信じなくて。\nそれで……クリアさんを追い詰めてしまった……=It's my... fault. I... never believed in Clear-san. That's why... I ended up cornering her...
+私の、せいだ。\n私が──いつまでも、信じなくて。\nそれで……クリアさんを追い詰めてしまった……=It's my... fault. I... never believed in Quria-san. That's why... I ended up cornering her...
 こんなふうに、なるなら──\nもっと早く言えばよかった。=If it was going to end up like this.... I should have said something sooner.
 ……あぁ、私は──=...Ah, I...
-クリアとアネモネは、それぞれに想いを秘めて山の奥へ歩き続けた。\nそして──=Clear and Anemone continued walking deeper into the mountains, each with their own hidden feelings. And then...
+クリアとアネモネは、それぞれに想いを秘めて山の奥へ歩き続けた。\nそして──=Quria and Anemone continued walking deeper into the mountains, each with their own hidden feelings. And then...
 ──ここが、ヒンターランド……？=This is... the "Hinterland"?
 でも──花は、咲いてない。\nどこにも……=But... these blooming flowers. They're nowhere to be found...
 ……はい。\nアネモネさん、その──=...Yes. Anemone-san, um...
@@ -631,13 +631,13 @@ Chapter 6
 この旅の間も、アネモネさんを振り回して、傷つけて。\nアネモネさんに怪我までさせて……\nなのに、旅ができてうれしい、なんて思ってたんです。=Even during this journey, I've been deceiving and pushing you around, Anemone-san. You even got injured because of me... And still, part of me was happy just to be traveling with you.
 本当に、ごめんなさい。\nアネモネさんの、言う通りですよね。\nわたしは見た目通りじゃない……いい子でも、なんでもない。=I'm really sorry. You were right, Anemone-san. I'm not what I look like... I'm not a good girl. Not at all.
 昔から……もちろん、今も。\n他人の顔色を見て、期待されたら、それに応えようとしちゃうだけで。\nわたしはずっと……聖女とか、そんなんじゃ……=Ever since I was little... and of course, even now. I've just been watching how people react, trying to be what they want. I've never been some kind of saint... not even close.
-クリアさん──=Clear-san...
+クリアさん──=Quria-san...
 ──謝らないでください。=...Please don't apologize.
 それを言うなら──私も。\n謝らなきゃです。=If that's your worry... then I also... have to apologize...
 だって、私は──\nこの旅が嘘だって、知ってました。\n──最初から。=After all... I knew this journey was a lie. ...From the very beginning.
-クリアさん、目が泳いでたので──\n話を聞いて、嘘かもって──すぐ、気付きました。=Your eyes were shifting all over, Clear-san... so the moment I heard your story, I knew... it had to be a lie.
+クリアさん、目が泳いでたので──\n話を聞いて、嘘かもって──すぐ、気付きました。=Your eyes were shifting all over, Quria-san... so the moment I heard your story, I knew... it had to be a lie.
 でも……それでもいいって、思ってました。\nだって──知りたかったから。=But... Even so, I thought that was fine. Because... I wanted to know more.
-どうして、クリアさんが私に構うのか。\nどうして、クリアさんのことを──無視、できないのか。=Why does Clear-san care about me? Why can't I just ignore her?
+どうして、クリアさんが私に構うのか。\nどうして、クリアさんのことを──無視、できないのか。=Why does Quria-san care about me? Why can't I just ignore her?
 一緒に旅をしたらわかるかも、って──\nそう思って──わざと、話に乗りました。=...I thought I might've found out why... if we traveled together... That's why I went along with your story... on purpose.
 でも……私は──結局、わからなくて。\n貴方を、追い詰めて──傷つけてしまいました。=But......in the end, I... didn't understand. I cornered you... and ended up hurting you.
 悪いのは……私も、同じです。\n──いいえ。=So if anyone's to blame... I am too. No...
@@ -647,10 +647,10 @@ Chapter 6
 つーか夏が暑くて何が悪いのよ！\nそりゃー日差し強いし？　暑さで頭バカになるし？\n海に行きゃあ浮かれたやつも変なやつもいますけど！=Plus, what's wrong with summer being so hot?! Yeah, the sun's brutal, and sure... it fries your brain. But the beach is full of hyped-up weirdos, and that's part of the fun!
 そーやって考えてること全部脇に置いて\nとりあえずはっちゃけられんのが夏ってもんでしょーが！=Summer's about tossing all that overthinking aside and just going wild!
 魔物に隙が……！\n兄様、今です！=There is an opening in the monsters formation...! Nii-sama, now!
-感謝いたしまする、騎士殿。\nさて……宴も酣、\nそろそろ締めの一幕といたしましょうぞ。=Thank you very much, Lord Knight. Now then... the feast is at its peak -- Let's bring it to a grand finale.
-私──わかったんです。\nクリアさんは、嘘をついてないって。=I... I knew. That you weren't lying, Clear-san...
+感謝いたしまする、騎士殿。\nさて……宴も酣、\nそろそろ締めの一幕といたしましょうぞ。=Thank you very much, Lord Kishi. Now then... the feast is at its peak -- Let's bring it to a grand finale.
+私──わかったんです。\nクリアさんは、嘘をついてないって。=I... I knew. That you weren't lying, Quria-san...
 見た目通りの人じゃ、なくっても──\n私に向けてくれた気持ちは、ほんものだったって。=Even if you're not who you seem to be... the feelings you showed me were real.
-だから──クリアさん。=That's why, Clear-san...
+だから──クリアさん。=That's why, Quria-san...
 貴方のこと──\nもう少し、教えてください。=Tell me a little more... about you.
 そうして互いを知って、理解して──\nそうやって、できるのが。\n友達……なんです、よね？=So we get to know each other, understand each other... That's how we become... friends, right?
 ……！\n……アネモネさん……=...! Anemone-san...
@@ -685,16 +685,16 @@ Cutscene
 わぁ……！=Wow...!
 
 Finale
-数日後。\n無事旅を終えたクリアとアネモネ、そして{playername}たちは\n再び海へとやってきていた。=A few days later, Clear, Anemone, and {playername}'s group returned to the sea, their journey safely behind them.
+数日後。\n無事旅を終えたクリアとアネモネ、そして{playername}たちは\n再び海へとやってきていた。=A few days later, Quria, Anemone, and {playername}'s group returned to the sea, their journey safely behind them.
 これ、モネや？\nその愛い顔をわっちに見せておくんなんし。=Come now, Mone? Turn around to show me that adorable face of yours.
-ねぇクリア～？\nこっちにきれいな貝殻があったんだけど、一緒にとりにいかない？=Hey, Clear~? I found some pretty seashells over here, do you want to come and collect some?
+ねぇクリア～？\nこっちにきれいな貝殻があったんだけど、一緒にとりにいかない？=Hey, Quria~? I found some pretty seashells over here, do you want to come and collect some?
 い、いりません……！=I-I don't need any...!
 お兄さんと、りんご飴……はっ！\nえーっと、その……ごめんなさいっ！=Onii-san and... candy apples... HAH! Umm, well... I'm sorry!
 ……{playername}が\n物で釣ってもダメかぁ……=...So even {playername} can't bribe her with treats, huh...
 兄様のお言葉にも耳を傾けないとは……\nリアさん、それほどまでに……=I cannot believe she would not listen to Nii-sama either... Lea-san, so that is how much you...
 ──よよよ。\nわっちのモネも、反抗期になりけり。=...Sobsobsob. My poor Mone has entered her rebellious phase...
 そりゃま、後をつけてたってバレたらこうなるわよねー\nあたしだったら恥ずかしさで死ねるもん。=Well, of course... this was bound to happen the moment they found out we were tailing them. If it was me, I'd die of embarrassment.
-{playername}たちの誘惑にもなびかず\n不機嫌（？）なクリアとアネモネ。\nその理由は、旅の最終日まで遡る。=Clear and Anemone are in a sulky mood ( ? ), refusing to give in to {playername} and his friends' advances. The reason for this goes back to the last day of their journey.
+{playername}たちの誘惑にもなびかず\n不機嫌（？）なクリアとアネモネ。\nその理由は、旅の最終日まで遡る。=Quria and Anemone are in a sulky mood ( ? ), refusing to give in to {playername} and his friends' advances. The reason for this goes back to the last day of their journey.
 念のため辺りを見回ってみましたが、\nもう魔物たちはいないようです。=I took a look around, just to be sure, but there seems to be no more monsters to be found.
 これでやっとしっかり見守れるわね。\nさーて、あの二人はどうなってるかしら……って、あれ？=We can finally keep a close eye on those two. Now, I wonder what's going on with them... Wait, huh?
 ちょっと何あれ、何があったわけ？\nなんかいつの間にか仲直り──どころか、\n前よりもっと仲良くなってない！？=Hey, what's going on? What happened? Before we knew it, they've made up -- or rather, aren't they even closer than before?!
@@ -720,7 +720,7 @@ Finale
 えっ？\nあ、いえ、その……はい。=Huh? Oh, no, um... Yes.
 大変申し上げにくいのですが……\nわたくしとしては正直、少しほっとしているんです。=It is hard to put into words... To be honest, I am a little relieved.
 もちろん、リアさんには申し訳ないことをしてしまいましたが……\nですが、ああやって怒るリアさんを見ることは\n滅多にありませんから。それで、つい……=Of course, I felt bad for doing that to Lea-san, however... I rarely see her get angry like that. So, I could not help but...
-言われてみれば、あんなに真っ赤になるクリアは初めて見たわねー\n声にならない声で呻いてたし。=Come to think of it, I've never seen Clear go that red before. She was even letting out those voiceless little groans.
+言われてみれば、あんなに真っ赤になるクリアは初めて見たわねー\n声にならない声で呻いてたし。=Come to think of it, I've never seen Quria go that red before. She was even letting out those voiceless little groans.
 ま、結果的に二人に悪いことしちゃったのは確かだし、\n問題はどうやって謝るかよねー=Well, we definitely did them wrong, so the question now is how to apologize-
 ここは、策を講ずるよりも……\n誠心誠意、玉砕覚悟で平身低頭、陳謝するのが正道と愚考します。\nですので──=Instead of scheming, I humbly believe the proper path is to bow low, apologize with all our hearts, and be ready for total defeat. Therefore...
 わたくし、参ります！\nリアさんっ──！=I! Am arriving! Lea-san...!
@@ -757,7 +757,7 @@ Finale
 忍法──？=Ninja arts~?
 よくわかりませんけど──\nお願いします、ニノンさん♪=I don't really get it, but... we're in your hands, Ninon-san♪
 見つけたわよあんたたちっ──=We finally found you...
-──クリアさん、合点ショウチの助デス！\n忍法・花隠れの術～っ！！=...Clear-san, I understand! This ninja's here to save you! Ninja arts: Flower Hiding Technique!!
+──クリアさん、合点ショウチの助デス！\n忍法・花隠れの術～っ！！=...Quria-san, I understand! This ninja's here to save you! Ninja arts: Flower Hiding Technique!!
 きゃっ……！？\nこの花びら、どこから……=Eek...!? Where did these petals come from...?
 ……これ、ただ花を撒いてるだけじゃ──=...This... You're just scattering flowers~
 でも、効果あるみたいです！\n今のうちですよ、ニノンさん♪=But! It seems to have worked! Now's our chance to escape, Ninon-san♪
@@ -768,13 +768,13 @@ Finale
 や。\nです──=Don't... want to.
 って──言ってました。\nリアが。=That's... what Lea said.
 えぇっ！？\nま、待ってください、モネちゃ～～んっ！=EEEEEEHHHHH?! W-Wait a second, Mone-chaaan!
-{playername}たちの声を背に、駆け出したクリアとアネモネ。\n二人の夏は、まだまだ続くのだった。=With the voices of {playername} and the others behind them, Clear and Anemone took off. Their summer was about to continue.
+{playername}たちの声を背に、駆け出したクリアとアネモネ。\n二人の夏は、まだまだ続くのだった。=With the voices of {playername} and the others behind them, Quria and Anemone took off. Their summer was about to continue.
 
 Player Prompts
 一緒にりんご飴食べない……？=...Wanna eat candy apples together...?
 ネフィ＝ネラさん？=Nephy Nella-san?
 これには、深い訳が……=There's a... very good reason for this...
-クリアちゃん、アネモネちゃん、待って！=Clear! Anemone! Wait!
+クリアちゃん、アネモネちゃん、待って！=Quria! Anemone! Wait!
 
 
 Scenario Boss Fight

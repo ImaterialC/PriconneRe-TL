@@ -11,7 +11,7 @@
 観光ですねっ！\n道案内なら任せてください！\nランドソルの街並みはメモリーにバッチリ残ってますからっ♪=It's sightseeing time! Let me guide Lyrael-sama!\nI still have a perfect memory of Landosol's streets!
 ふふっ。\nそれは良い案ですね、クローチェ。\nわたしも賛成です。=Fufu, I agree. That is a good idea, Croce. 
 ……ですが。\nまずはペコリーヌ姫にご挨拶をしましょう。\nせっかくお招きいただいたのですから。=...But first, let's greet Princess Pecorine and give her our thanks for inviting us.
-騎士、わたしたちを連れていってくださいますか。\nペコリーヌ姫のところへ。=Sir Knight, could you take us to Princess Pecorine?
+騎士、わたしたちを連れていってくださいますか。\nペコリーヌ姫のところへ。={playername}, could you take us to Princess Pecorine?
 あっ！\nみなさん、オイッス☆\nランドソルへようこそ！=Oh, hello everyone! Welcome to Landosol!
 この度はお招きいただきありがとうございます、ペコリーヌ姫。\n滞在期間中、お世話になりますね。=Thank you for inviting us, Princess Pecorine.\nWe'll be in your care.
 いえいえ、気にしないでください！\nむしろ急にお誘いしちゃって、すみませんっ。\nそれに、ちゃんとお迎えもできなくって……=Don't worry about it, I'm also sorry for inviting you at such short notice! I couldn't even welcome everyone properly...
@@ -35,7 +35,7 @@
 はい～……\nすみません、完全にわたしの見通しが甘かったです……\nうう、まさかあんなに書類が増えるなんて……まるで乾燥ワカメですよ～=Exactly... I'm really sorry, it's my fault...\nI didn't expect to have so many paperwork to deal with～
 そうですか……\n残念ですが、仕方ありませんね。=Is that so... that's quite unfortunate, but it couldn't be helped.
 その代わり、僕はずっと一緒にいます。=I'll be with you instead.
-それは助かります。\nこちらの世界のことは不勉強ですから。\n頼みましたよ、騎士。=That'd quite helpful, I still have much to learn in this world so I'll be relying on you, Sir Knight.
+それは助かります。\nこちらの世界のことは不勉強ですから。\n頼みましたよ、騎士。=That'd quite helpful, I still have much to learn in this world so I'll be relying on you, {playername}.
 ……ペコリーヌ姫、あまり気に病まないでください。\nこうして滞在の機会をいただけたこと、\nわたしは心から感謝しているのです。=...Princess Pecorine, please don't worry about me.\nI am very grateful to have the opportunity to be here already.
 それに。\n考え方によっては、かえって良かったのかもしれませんよ。=And depending on how you think about it, this might actually be a good thing.
 へ？=Eh?
@@ -56,7 +56,7 @@
 ペコリーヌと{playername}のやり取りを見て、\nライラエルとクローチェはおかしそうに笑うのだった。=Lyrael and Croce had fun looking at how Pecorine and {playername} interacts with one another.
 その後──\n政務に戻ったぺコリーヌと別れたライラエルたちは\n一息ついた後にランドソルの観光をはじめるのだった。=After that, Pecorine went back to deal with her paperworks. Lyrael parted ways with her and took a short break before continuing their sightseeing trip again. 
 ……それでは、改めて散策をはじめましょうか。=...Let's start walking again, shall we?
-クローチェ、騎士。\nあまり遠くへは行かないようにしてくださいね。\nわたしの通信魔法があるとはいえ、異国には変わりありません。=Croce, Sir Knight, please don't go too far. Even with my communication magic, we are still in a foreign country.
+クローチェ、騎士。\nあまり遠くへは行かないようにしてくださいね。\nわたしの通信魔法があるとはいえ、異国には変わりありません。=Croce, {playername}, please don't go too far. Even with my communication magic, we are still in a foreign country.
 もちろんですっ！\nわたしはライラエルさまのシュヴァリエですから！\nピターっとくっついて離れませんっ！=Of course, I'm Lyrael-sama's Chevalier!\nI won't get separated!
 ふふっ。\n……ああ、そうでした。\n一つ大切なことを忘れていましたね。=Fufu... Oh, I almost forgot one important thing.
 この街では目立たないように、\n高高度の飛行は元より、できるだけ地に足をつけるか\nそう見えるように気を付けましょう。=I need to keep my feet on the ground and not float too high to avoid standing out in the city.
@@ -82,7 +82,7 @@
 がんばってください、ライラエルさま！\n飲み物でハチミツを頼みますか？\nそれとも練乳にしますかっ？=Please do your best, Lyrael-sama! Would you like some honey with your drink? Or do you prefer some condensed milk?
 両方、お願いします。\n……それと、もし注文可能であれば\nジャムの盛り合わせを一つ。=Both... please...\nAnd if it's possible to order one jam platters.
 お願いしてみます。=Let me help.
-騎士……！\nありがとう。頼みますね。\nふぅ……暑い……=Sir Knight...! I'm grateful for your help.\nPhew... It's so hot...
+騎士……！\nありがとう。頼みますね。\nふぅ……暑い……={playername}...! I'm grateful for your help.\nPhew... It's so hot...
 せーのっ！=Let's start!
 おしくらまんじゅう、押っされて泣くなっ♪\nおしくらまんじゅう、押っされて泣くなっ♪=Oshikura Manjuu, don't cry if you're pushed♪\nOshikura Manjuu, don't cry if you're pushed♪
 ライラエルさま～！\nファイトですよっ♪=Lyrael-sama! Do your best♪

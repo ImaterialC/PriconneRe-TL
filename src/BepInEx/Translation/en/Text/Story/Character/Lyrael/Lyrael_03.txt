@@ -1,7 +1,7 @@
 クローチェに内緒で宿泊先を抜け出したライラエルは{playername}と二人きりでランドソルの街を散歩したいと告げる。姫としてだけではなく個人的な思い出まで作った彼女は、笑顔で帰国するのだった。=Lyrael sneaked out of her accomodation without telling Croce, and told {playername} that she would like to take a walk around the town of Landosol. She wanted to make memories not just as a princess but also for herself, and returned to her country with a smile.
 
 ペコリーヌの招待を受け、ランドソルを訪れているライラエル。\n{playername}やクローチェと共に街を散策し\n夕食を済ませた後、彼女たちは滞在先の館に戻ってきていた。=Lyrael arrived in Landosol after receiving an invite from Pecorine. After walking around the city with {playername} and Croce, they had dinner and returned to the mansion.
-クローチェ、騎士。\n今日はお疲れさまでした。\n二人のおかげで、とても楽しい時間を過ごせました。感謝します。=Croce, Sir Knight, I had a lot of fun with the two of you today. I really appreciate it. 
+クローチェ、騎士。\n今日はお疲れさまでした。\n二人のおかげで、とても楽しい時間を過ごせました。感謝します。=Croce, {playername}, I had a lot of fun with the two of you today. I really appreciate it. 
 えへへっ♪\nライラエルさまが楽しかったのなら、なによりです！\nあっ！　もちろんわたしも楽しかったですよっ！=Ehehe♪ If Lyrael-sama enjoyed it, then nothing else matters! Oh and of course, I really enjoyed it too!
 思い出はたくさんできました？=Did you make lots of memories?
 ええ。\nおかげさまで『ジオ・テオゴニア』に帰っても\nしばらくは話題に事欠かないでしょう。=Yeah. Thanks to you, I'll have lots to talk about when I return to Gio Teogonia.
@@ -19,14 +19,14 @@
 ええと、それで……\n騎士はこの後はどうされますか？\nこちらに泊まっていかれます？=And... what will you be doing after this?\nWill you be staying here?
 自分の家に帰ります。=I'll be going home.
 ええっ、そうなんですかっ！？\nてっきり一緒にお泊りできると思ってました～=Ehh, really? I really thought we'll be staying here together～
-騎士にも都合というものがありますからね。\n仕方がありませんよ。=I'm sure Sir Knight has his own circumstances to deal with, we shouldn't force him.
+騎士にも都合というものがありますからね。\n仕方がありませんよ。=I'm sure {playername} has his own circumstances to deal with, we shouldn't force him.
 ……あ。\nなるほど、騎士が帰られるのであれば……=...Ah, I see now. If he'll be returning...
 ？\nライラエルさまっ？\n何かおっしゃいましたか？=Lyrael-sama? Did you say something?
 えっ？\nあ、いえ、何もありませんよ、何も……=Eh? I-It's nothing...
-……そ、それでは。\n騎士、今日はありがとうございました。\n明日もまた、よろしくお願いしますね。=...Again, Sir Knight, thank you for today.\nSee you again tomorrow.
+……そ、それでは。\n騎士、今日はありがとうございました。\n明日もまた、よろしくお願いしますね。=...Again, {playername}, thank you for today.\nSee you again tomorrow.
 ちゃんと送り届けます。=I will escort you properly tomorrow.
 旅はお家に帰るまで、ですもんねっ！\n明日も楽しみですっ♪=The trip isn't over until we return back home!\nI can't wait for tomorrow♪
-おやすみなさい、騎士。\n……よい夢を。=Good night, Sir Knight... have a pleasant dream.
+おやすみなさい、騎士。\n……よい夢を。=Good night, {playername}... have a pleasant dream.
 おやすみなさい。=Good night.
 おやすみなさーいっ！=Good night～!
 ……さて。\nそれでは、お風呂をいただくことにしましょうか。=...Now, let's have a bath then.
@@ -46,7 +46,7 @@ choice
 身構える。=Be on guard.
 大丈夫、あなたの敵ではありません。\nよく聞いてください。\nわたしの声を……=It's alright, I'm not an enemy. Please listen... to my voice...
 
-また会いましたね、騎士。=We meet again, Sir Knight.
+また会いましたね、騎士。=We meet again, {playername}.
 どうしてここに！？=Why are you here!?
 ふふ、抜け出してきてしまいました。\nお風呂に入るふりをして、浴室からこっそりと。=Fufu, I sneaked out.\nI pretended to take a bath and sneaked out of the bathroom.
 わたしが今ここにいることは、クローチェにも知らせていません。\nあの子には内緒です。=Not even Croce know that I'm here.\nIt's still a secret to her.
@@ -64,7 +64,7 @@ choice
 子どもたちを見かけないからでしょうか。\n少し落ち着いた雰囲気が──\nあら？=Is it because there's no childrens around?\nThat it's a bit calmer── Ara?
 よく見たら、寄り添って歩いている方たちが多いですね。\n仲睦まじく手を繋いだり、腕を組んだりと……=If I look a bit closer, there are a lot of people together holding their hands together and linking their arms...
 ああ……\nなるほど、そういうことですね。=Ah... I see what's going on now.
-騎士。\nもう少し、わたしの近くにいてはもらえませんか。=Sir Knight. Can you get a little closer with me?
+騎士。\nもう少し、わたしの近くにいてはもらえませんか。={playername}. Can you get a little closer with me?
 いくら明かりがあるとはいえ、\nこちらは『ジオ・テオゴニア』よりも夜の色を濃く感じます。\n幾分、心もとないものですから。=Even though there's plenty of light, the night here feels darker than in Gio Teogonia. I can't get used to it.
 彼女に近づく。=Get closer.
 ふふ、ありがとうございます。=Fufu, thank you.
@@ -73,7 +73,7 @@ choice
 いいえ。何も♪\nさあ、急ぎましょう。\nお忍びとはいえ、誰が見ているかわかりませんからね。=It's nothing♪ Let's hurry, we never know who might be watching us.
 こうして──\n二人はささやかながらも\n人目を気にすることのない時間を過ごしたのだった。=Thus── the two of them spent some time without worrying about being seen by other people.
 ああ……\nとても、よい時間でした。\n心からそう思います。=Ahh... It was a pleasant walk, I really do think so.
-騎士。\nわたしのワガママを聞いてくださって、感謝します。=Sir Knight, thank you for going along with my selfish request.
+騎士。\nわたしのワガママを聞いてくださって、感謝します。={playername}, thank you for going along with my selfish request.
 どういたしまして。=You're welcome.
 ふふ。\n……おかげで、ようやくこの旅の目的が果たせた気がします。=Fufu... with that, I've finally achieved my goals for this trip.
 異邦の地をこの目で見、この肌で感じ……\n訪れた国の営みを理解すること。=Seeing this foreign land with my own eyes, feeling it with my own skin... and coming to understand the country I've arrived in.

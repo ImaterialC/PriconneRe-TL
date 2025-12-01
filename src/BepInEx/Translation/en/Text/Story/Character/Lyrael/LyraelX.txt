@@ -1,13 +1,13 @@
 ---Bond---
 後衛で、雪白の肌を黒衣に包んだ甘美なる姫君。\n味方のＨＰを代償に強力なバリアを展開しつつ、バリアを\n起点とした高出力の二連撃で、聖夜の大樹に灯を点す。=A divine princess wrapped in a dark garment, with snowy skin, stationed at the rear.\nShe deploys a powerful barrier at the cost of her allies' HP and\nilluminates the holy night tree with a high-powered two-hit attack stemming from the barrier.
-ランドソルとの親善のためにも、聖夜を守る悪魔として\nしっかりと街を見守ってまいりましょう\n騎士…どうか案内を。頼りにしていますよ？\n=To strengthen relations with Landosol and to protect the holy night as a demon,\nlet's carefully watch over the city.\nKnight... please guide me. I'm counting on you.
-見てください、騎士。ケーキが売っていますよ？\nそれに、あちらでは聖歌隊が歌っています…♪\nあっ！　騎士…わたし、はしゃぎすぎていますか…？\n=Look, Knight. They are selling cakes!\nAnd over there, the choir is singing...♪\nAh! Knight... am I being too excited?
+ランドソルとの親善のためにも、聖夜を守る悪魔として\nしっかりと街を見守ってまいりましょう\n騎士…どうか案内を。頼りにしていますよ？\n=To strengthen relations with Landosol and to protect the holy night as a demon,\nlet's carefully watch over the city.\n{playername}... please guide me. I'm counting on you.
+見てください、騎士。ケーキが売っていますよ？\nそれに、あちらでは聖歌隊が歌っています…♪\nあっ！　騎士…わたし、はしゃぎすぎていますか…？\n=Look, {playername}. They are selling cakes!\nAnd over there, the choir is singing...♪\nAh! {playername}... am I being too excited?
 …浮ついていては、いけませんね\n姫として、悪魔として…しっかり役目を果たさなくては\n職務を全うできるよう、見守っていてください…ね？\n=...I shouldn't be carried away.\nAs a princess, as a demon, I must fulfill my role.\nPlease watch over so I can fulfill my duties... okay?
 こうしてまたあなたとランドソルで過ごせることを\nとても…とてもうれしく思う、わたしがいます\nしかも、このような特別な日に…\n=I am truly... very happy to be spending time with you here in Landosol again.\nAnd on such a special day...
-…騎士。その…\n姫としての公務と、悪魔としての使命…\nそのさなかではありますが…\n=...Knight, um...\nI am in the midst of my duties as a princess and my mission as a demon...\n
-騎士はクリスマスの過ごし方に詳しいのですね\nやはり女性の知り合いが多いからでしょうか…？\nその…ほどほどに、なさってくださいねっ？\n=You seem well-versed in how to spend Christmas, Knight.\nIs it because you have many female acquaintances...?\nPlease keep it in moderation, okay?
+…騎士。その…\n姫としての公務と、悪魔としての使命…\nそのさなかではありますが…\n=...{playername}, um...\nI am in the midst of my duties as a princess and my mission as a demon...\n
+騎士はクリスマスの過ごし方に詳しいのですね\nやはり女性の知り合いが多いからでしょうか…？\nその…ほどほどに、なさってくださいねっ？\n=You seem well-versed in how to spend Christmas, {playername}.\nIs it because you have many female acquaintances...?\nPlease keep it in moderation, okay?
 …わたしは姫であり、天使…人ならざるものですから\n人の子の愛などは、本当はわからないかもしれません\n…もしそうなら、このあふれる感情は…？\n=...I am a princess and an angel... not of this world.\nI might not truly understand human love.\n...If so, what is this overflowing feeling?
-お返しのプレゼントは…\n悪魔からのとびっきりの祝福です\nメリークリスマス─騎士♪\n=The returning gift is...\na special blessing from the devil.\nMerry Christmas—Knight♪
+お返しのプレゼントは…\n悪魔からのとびっきりの祝福です\nメリークリスマス─騎士♪\n=The returning gift is...\na special blessing from the devil.\nMerry Christmas—{playername}♪
 けれど、この時間がたまらなく愛おしい…\n素敵なプレゼントを頂いてしまいましたね…ふふっ\n=Yet, this time is unbearably dear...\nYou have given me a wonderful present... Hehe.
 本当に今日は、特別な日です…\n立場を忘れて、はしゃいでしまったり、\n拗ねてしまったり、甘えてしまったり…\n=Today truly is a special day...\nIt's time to forget about status, to frolic,\npout, or cuddle...
 ---Story---
@@ -56,13 +56,13 @@
 なるほど……？\nそんなコンセプトがあったとは……=I see...? Such a concept existed...
 しかし、何を作るんでしょうか？\nこれから料理を始めるとなると、時間がかかりますよ……？=But what will we make?\nStarting to cook now will take time...
 ええっと……それは……\n少々お待ちください、プログラムには、ええっと……=Um... well...\nPlease wait a moment, the program states, well...
-騎士、どうしましょう……即興で乗り切ろうとしたのですが、\nランドソルの料理に明るくないもので……=Knight, what should we do... I tried to improvise, but I'm not familiar with Landosol's cuisine...
+騎士、どうしましょう……即興で乗り切ろうとしたのですが、\nランドソルの料理に明るくないもので……={playername}, what should we do... I tried to improvise, but I'm not familiar with Landosol's cuisine...
 鍋ものはどうですか？=How about a hot pot?
 鍋もの、ですか……？\nなるほど……食材を切って煮るだけ……この季節にピッタリ……\nありがとうございます、それにしましょう！=Hot pot...?\nI see... just slice and boil ingredients... perfectly seasonal...\nThank you, let's go with that!
 みなさま、これから作るのは鍋ものです。\nランドソルの特産品を用いた様々な出汁のお鍋を楽しみましょう。=Everyone, we will make hot pot.\nLet's enjoy various soups with Landosol's specialties.
 フム……こういった場で鍋は珍しいですが、\n親睦を深めるという意味では、悪くないかもしれませんね。=Hmm... Having a hot pot at such an occasion is unusual,\nbut in terms of strengthening friendship, it might not be bad.
 ライラエル姫からのご提案とあれば、\n反対する理由などありませんな。=If it's a suggestion from Princess Lyrael,\nthere's no reason to oppose, is there?
-では、わたしが時間を稼ぎますので、\n騎士、あなたは買い出しをお願いできますでしょうか？=Then I'll stall for time,\nso, Knight, could you do the shopping?
+では、わたしが時間を稼ぎますので、\n騎士、あなたは買い出しをお願いできますでしょうか？=Then I'll stall for time,\nso, {playername}, could you do the shopping?
 わたしの財布をあなたに預けますね。\n高級な食材を用意できれば、格式もある程度保てるはずです。=I'll entrust you with my wallet.\nWith high-grade ingredients, the dignity can be maintained to an extent.
 分かりました、行ってきます……！=Understood, I'll head out...!
 では、みなさま。\n準備が整うまでの間、わたしのハープ演奏をお楽しみください。\nこの日のために練習した、クリスマスソングのメドレーです♪=Now, everyone,\nplease enjoy my harp performance until preparations are ready.\nIt's a medley of Christmas songs I practiced for this day♪
@@ -139,7 +139,7 @@
 これが、由緒正しいクリスマス……\nすれ違う人々も皆、とても楽しそうです。=This is the historical Christmas...\nEveryone passing looks very happy.
 その様子を見ていると、住民のみなさまにとって、\nクリスマスがどのような催事であるか興味が湧いてきました。=Watching them makes me curious about\nwhat kind of event Christmas is for the residents.
 きっと一人ひとりに、\nクリスマスの思い出や大切な思い入れがあるのでしょうね。=I bet each person has their own\nChristmas memories and attachments.
-……騎士。\n実は、あなたにお願いがあります。\nあなたにとってクリスマスとは何か、わたしに教えてほしいのです。=...Knight.\nActually, I have a request for you.\nPlease tell me what Christmas means to you.
+……騎士。\n実は、あなたにお願いがあります。\nあなたにとってクリスマスとは何か、わたしに教えてほしいのです。=...{playername}.\nActually, I have a request for you.\nPlease tell me what Christmas means to you.
 あなたの思い出の場所を、わたしに紹介してもらえませんか？=Could you introduce me to your memorable places?
 ふふ、ワガママを聞いてくださって感謝します♪\nでは、案内をお願いしますね。=Hehe, thank you for granting my selfish request♪\nPlease guide me.
 この路地裏に、思い出の場所が……？\nあ、何やら列ができていますね。=In this alley, a memorable place...? Ah, there seems to be a queue.
@@ -165,10 +165,10 @@
 きっと、この待ち時間もまた\nクリスマスの魅力なのでしょうね♪=Surely, even this waiting time is\npart of Christmas's charm♪
 ──まぁ、とっても美味しいです♪\nこのクッキーは、リンドたちへのお土産にしましょう。=──Well, it's very delicious♪\nThese cookies would be a lovely souvenir for Lind and the others.
 ふふ。\nそんなに喜んでもらえると、私もうれしいよ。=Hehe.\nI'm happy that you like them so much.
-騎士から、コンテストのことをお聞きしました。\nプリンも絶品だとか。ぜひ、食べてみたいです。=The Knight told me about the contest.\nThe pudding is especially exquisite. I'd love to try it.
+騎士から、コンテストのことをお聞きしました。\nプリンも絶品だとか。ぜひ、食べてみたいです。=The {playername} told me about the contest.\nThe pudding is especially exquisite. I'd love to try it.
 あぁ……プリンはずっ～と品切れ状態なのよ。\nごめんなさいね。=Ah... the pudding is always sold out.\nI'm sorry.
 というのも、いつもミヤコちゃんがお手伝い……\nというより、プリンを食べに来て全部なくなっちゃうの。=You see, Miyako-chan always comes to help...\nOr rather, she eats all the pudding.
-な、なるほど……？\n騎士のお仲間とも交流があったのですね。=I-I see...?\nYou've interacted with the Knight's companions.
+な、なるほど……？\n騎士のお仲間とも交流があったのですね。=I-I see...?\nYou've interacted with the {playername}'s companions.
 ん、ミヤコちゃんのことかい？\n他の子も知っているよ。マヒルちゃんもリノちゃんも\n一緒にコンテストを手伝ってくれたからね。=Hmm, are you talking about Miyako-chan?\nI know other girls too. Like Mahiru-chan and Rino-chan,\nwho helped out with the contest.
 大変なこともあったけど、すっごく楽しかったねぇ。=There were tough times, but it was so much fun.
 ふふ、二人ともいい笑顔です。\nそれほど、よい思い出だったのですね。=Hehe, both of them are smiling warmly.\nIt must have been such a good memory.
@@ -180,8 +180,8 @@
 アルバイトとはいえ、お見合いまで……\nあなたは本当に、多岐にわたる経験を……=Even as a part-time job, to be involved in matchmaking...\nYou truly have a wide range of experiences...
 ここで、一緒にやりたいことがあります。=There's something I want to do here together.
 まぁ……！？\nもしかして、お見合いですか……？=Oh...!?\nCould it be matchmaking...?
-しかし、わたしは一国の姫なので……\n騎士であっても、簡単には……\nいえ、決して断っているわけではなく……=However, I'm a princess of a nation,\neven if it's you, Knight, simply...\nNo, I'm not necessarily rejecting...
-……？\n騎士、何をしているのですか？=......?\nKnight, what are you doing?
+しかし、わたしは一国の姫なので……\n騎士であっても、簡単には……\nいえ、決して断っているわけではなく……=However, I'm a princess of a nation,\neven if it's you, {playername}, simply...\nNo, I'm not necessarily rejecting...
+……？\n騎士、何をしているのですか？=......?\n{playername}, what are you doing?
 こんな感じで雪玉を作ってみてください。=Please make a snowball like this.
 雪玉、ですか……？\nなるほど。雪玉をぶつけ合う遊び、雪合戦……=A snowball...? I see.\nA game of throwing snowballs at each other, snowball fight...
 お見合いをするわけでは、なかったのですね。\n一度経験してみたかったのですが……=So it wasn't matchmaking after all.\nI wanted to try it once...
@@ -200,7 +200,7 @@
 ぎゅっが過ぎると壊れてしまう……なるほど。\n「スポンジ生地は、混ぜ過ぎるな」というわけですね。=Gripping too firmly causes it to break... I see.\n'Don't overmix the sponge batter,' they say.
 あっ、きれいにできましたよ！\nありがとうございます♪=Ah, I've made a beautiful one!\nThank you♪
 しかし、雪は冷たいですね……\nすっかり手が冷えてしまいました。=However, the snow is cold...\nMy hands have gotten very cold.
-ですので……もう少しこのまま、手を重ねてくださいますか？\n騎士の手は、温かいので……=So... would you mind keeping your hand over mine like this for a little while longer?\nThe Knight's hands are warm...
+ですので……もう少しこのまま、手を重ねてくださいますか？\n騎士の手は、温かいので……=So... would you mind keeping your hand over mine like this for a little while longer?\nThe {playername}'s hands are warm...
 もちろんいいですよ。=Of course, no problem.
 ふふ、ありがとうございます。\nあなたは雪玉を作るのも、教えるのもお上手なのですね……=Hehe, thank you.\nYou're quite good at making snowballs, and teaching too...
 アキノさんたちにも教えたことあるから。=I've taught Akino-san and the others before.
@@ -215,7 +215,7 @@
 ……不思議な気持ちです。\nいくつもの事件を共に乗り越えてきたとはいえ、\n知り合ってからまだ日も浅いというのに。=...It's a strange feeling.\nDespite overcoming many incidents together,\nwe've only known each other for a short time.
 天の使いであるわたしが、\n彼との思い出を……こんなにも、求めてしまうとは。=For a celestial being like me,\nto yearn for memories with him... this much.
 ライラエルさん、大丈夫ですか？=Lyrael-san, are you alright?
-あ、すみません。少し考え事を。\n……騎士？=Ah, sorry. I was just thinking...\n...Knight?
+あ、すみません。少し考え事を。\n……騎士？=Ah, sorry. I was just thinking...\n...{playername}?
 この場所、覚えていないですか？=Do you not remember this place?
 この通りを、ですか……？=This street, you mean...?
 あっ……ここは……=Ah... this is...
@@ -223,7 +223,7 @@
 ここは、以前二人で歩いた道ですね。\nどうしてこの場所を……？=This is the path we once walked together.\nWhy this place...?
 僕の大切な思い出の場所だからです。=Because it's an important place of memory for me.
 ふふ。\n本当にズルい方ですね、あなたは……=Hehe.\nYou're truly a sly one, aren't you...
-騎士。\n今日は、手を繋いで歩きませんか？=Knight.\nShall we hold hands as we walk today?
+騎士。\n今日は、手を繋いで歩きませんか？={playername}.\nShall we hold hands as we walk today?
 クリスマスイブは、人が多いようですし。\nあなたと、はぐれたくはありません。=Christmas Eve seems crowded.\nI don't want to get separated from you.
 ふふ。\nこれでもう、はぐれることはありませんね。=Hehe.\nWith this, we won't get separated.
 何だか、イオの愛の授業を思い出しませんか？=Doesn't it remind you of Io's lessons of love?
@@ -240,7 +240,7 @@
 はぁ……本当に、あっという間ですね。\n楽しい時間が過ぎるのは……=Haa... time really flew by didn't it.\nIt's amazing how fast fun times pass...
 う～ん………………=Hmm........
 もじもじ=Fidgeting
-困りました……\n騎士、どうしましょう。=Oh no...\nKnight, what should I do?
+困りました……\n騎士、どうしましょう。=Oh no...\n{playername}, what should I do?
 あの、ワガママばかり言ってすみません……=I'm sorry for being selfish......
 帰りたくなくなってしまいました…………=I've grown reluctant to say goodbye.........
 今日はクリスマスイブというものだそうですし、\nもう少し一緒に過ごしませんか……？=Considering today is Christmas Eve,\nshall we spend a little more time together...?
@@ -250,17 +250,17 @@
 聖夜の天使とふたりきり=Alone with the Angel of Christmas
 {playername}を宿泊先に誘うが、ブドウ朱で傲慢モードになってしまうライラエル。だが語らう中で彼との心の繋がりを実感すると上機嫌になり、『クリスマスプレゼント』で更に心を通じ合わせていく。=Inviting {playername} to her accommodation, Lyrael enters her arrogant mode due to the effects of Grape Aureate. However, as she converses with him, she realizes their emotional connection, and with a 'Christmas present,' their hearts become even more aligned.
 クリスマスイブの夜。\nライラエルの宿泊先で、彼女と一緒に\n過ごすことになった{playername}。=On Christmas Eve night,\n{playername} is spending time\nwith Lyrael at her accommodation.
-騎士、どうぞ座ってください。\nあっ、今、お茶を用意しますね……！=Knight, please have a seat.\nOh, let me prepare some tea...!
+騎士、どうぞ座ってください。\nあっ、今、お茶を用意しますね……！={playername}, please have a seat.\nOh, let me prepare some tea...!
 ええっと、ポットでお湯を沸かして……\nお茶は、確かこのあたりに……=Um, I'll boil water in the pot and...\nThe tea should be around here...
 手伝います。=I'll help.
-騎士、ありがとうございます。\nですが、結構ですよ。あなたはゆっくり休んでいてください。=Thank you, Knight.\nBut it's alright. Please, take it easy and rest for a bit.
+騎士、ありがとうございます。\nですが、結構ですよ。あなたはゆっくり休んでいてください。=Thank you, {playername}.\nBut it's alright. Please, take it easy and rest for a bit.
 ええっと……\nたしか、お菓子は……=Uh, the sweets are, let's see...
 あぁ……自分で誘っておきながら、\nわたしは何を動揺しているのでしょうか……=Oh dear... I invited him myself,\nand yet, why am I so flustered...
 ただお菓子を食べながら、お話をして過ごすだけ。\n別に緊張する必要はないのです……=We'll just be chatting while having sweets.\nThere's no need to be nervous...
 あっ、お湯がそろそろ……\nあつっ……！=Oh, the hot water should be ready soon...\nAh, Ouch...!
 やっぱり、手伝います……！=I knew it, I'll help...!
-騎士、感謝します。\nおかげで、お茶とお菓子を無事に用意できました。=Thank you, Knight.\nThanks to you, the tea and sweets are ready without a problem.
-それで、えっと……\n騎士は、最近どうですか……？=So, um... how about you, Knight, recently?
+騎士、感謝します。\nおかげで、お茶とお菓子を無事に用意できました。=Thank you, {playername}.\nThanks to you, the tea and sweets are ready without a problem.
+それで、えっと……\n騎士は、最近どうですか……？=So, um... how about you, {playername}, recently?
 このクリスマスは忙しかったですね。=This Christmas has been quite busy.
 そ、そうですよね……\nわたしも、そうでした……=Y-yes, indeed...\nIt was the same for me...
 あ、よければこのお菓子も試してみてください。\nお茶とよく合うそうですよ……=Oh, if you'd like, please try this sweet too.\nI hear it pairs well with tea...
@@ -278,7 +278,7 @@
 ふふ、本当に大丈夫れすよ……？\n体が少し熱くて、ふわふわするだけれすので……=Hehe, really, I'm fine...?\nMy body's a bit warm and floaty...
 少し、休まれた方がいいのでは……？=It might be good to rest a bit...
 いえ、結構れす。\nせっかく、あなたとクリスマスイブを過ごしているのれすよ。=No, it's okay.\nWe're spending Christmas Eve together after all.
-このまま、眠ってしまうのはもったいないではありましぇんか。\nね、騎士？=It'd be a waste to fall asleep like this.\nRight, Knight?
+このまま、眠ってしまうのはもったいないではありましぇんか。\nね、騎士？=It'd be a waste to fall asleep like this.\nRight, {playername}?
 このあとは……\nアカリの言っていたように、ボードゲームを……\nでも……もう、げんかい。ふわぁ……=Next up...\nAs Akari suggested, a board game... but... no more strength. Yawn...
 ……おやすみなさい。=...Good night.
 ライラエルさんに毛布をかける。=Covering Lyrael with a blanket.
@@ -468,7 +468,7 @@
 まぁいーけどー\nどーなっちゃうか怖いもの見たさはあるし。=Well, whatever.\nThere’s a part of me curious about how it’s going to turn out.
 でも、あたしはもう一切関わんないから。天使コワいし。\nどーなるか見てるだけ。ROM専しとくわ。=But I’m not getting involved anymore. Angels are scary.\nI’ll just watch. I’ll stay as a spectator.
 てーわけで、\n食われると思ったら自分で逃げなさいよー=So,\nIf it looks like you'll get eaten, run away.
-……あら？\n騎士……=...Huh?\nKnight...
+……あら？\n騎士……=...Huh?\n{playername}...
 ……いつの間にか、眠ってしまっていたようですね。=...Seems like I fell asleep at some point.
 ……夢に、サンタさんが出てきたような？=...Was there a Santa in my dream?
 ふふ、誰かからのクリスマスプレゼントかもしれませんね。\nおかげで、心が満たされました。=Haha, maybe it was a Christmas present from someone.\nThanks to it, my heart feels satisfied.
