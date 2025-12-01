@@ -7,16 +7,16 @@ Chapter Names
 怜悧で幽愁、オバケでオトボケな守護騎士=A Clever, Melancholic, Ghostly Chevalier
 
 Chapter 1
-アラクネとの戦いが終わった後のジオ・ゲヘナ、鬼岩城塞──\nグレイスと{playername}が、\n温泉付近の壁を念入りに調べていた。=Geo Gehenna, after the battle against Lady Arachne, at the Demon's Foot Citadel - Grace and {playername} were carefully examining the walls near the hot spring.
+アラクネとの戦いが終わった後のジオ・ゲヘナ、鬼岩城塞──\nグレイスと{playername}が、\n温泉付近の壁を念入りに調べていた。=Gio Gehenna, after the battle against Lady Arachne, at the Demon's Foot Citadel - Grace and {playername} were carefully examining the walls near the hot spring.
 ……ふむ。\n魔物たちや【バンディ・シスターズ】に破壊された壁は、\nすでに修復されたようですね。=...Hmm. The walls destroyed by those monsters and the Bandy Sisters seems to have been repaired already.
-ジオ・ゲヘナはスピーディな建築技術をお持ちの様で。\nきっと普段から、魔物に壊されることを前提に……\n……ん？　どうかしましたか騎士氏。=This Geo Gehenna... seems to have quite the speedy construction techniques. I'm sure that's because they assume a monster or two might always strike their constructions down... Hm? Is something the matter, Kishi-shi?
+ジオ・ゲヘナはスピーディな建築技術をお持ちの様で。\nきっと普段から、魔物に壊されることを前提に……\n……ん？　どうかしましたか騎士氏。=This Gio Gehenna... seems to have quite the speedy construction techniques. I'm sure that's because they assume a monster or two might always strike their constructions down... Hm? Is something the matter, Kishi-shi?
 はい。\n温泉を覗こうかと。=Yes. I was thinking of taking a peek into the hot springs.
 フフ。冗談ですよ冗談。\nというか壁なんて無意味です。\nこちとらレイスなので、壁抜け余裕です。=Hehe. That was just a joke, I'm kidding. In fact, against me even walls are useless. I'm a wraith after all, I can simply get past through them.
 こんな感じで、ほら。\nスー……ッ。=Like this, look. Suu...
 ばあ。=...Boo.
 ……ふむ。ということは騎士氏。\nもしかして何もわからないまま、\n外壁調査のお手伝いをしてくれてたんですか？=...Hmm. In other words, Kishi-shi. Could it be that you were helping me investigate those walls without any ulterior motive?
 ……そういえば、説明してなかったかもしれません。\n今更ですが、要するにですね……=...Come to think of it, I might've not explained my reasons either. It might be a little late to say this, but...
-実は先日ネフィ＝ネラ媛から、\nジオ・ゲヘナとジオ・ニヴルヘルの国家間交流として、\nうちのプリンセスに、温泉をご一緒しないかとのお誘いがありまして。=Actually, the other day, Princess Nephy Nella invited my princess to join her in a hot spring today as part of a cultural exchange between the worlds of Geo Gehenna and Gio Nivlhel.
+実は先日ネフィ＝ネラ媛から、\nジオ・ゲヘナとジオ・ニヴルヘルの国家間交流として、\nうちのプリンセスに、温泉をご一緒しないかとのお誘いがありまして。=Actually, the other day, Princess Nephy Nella invited my princess to join her in a hot spring today as part of a cultural exchange between the worlds of Gio Gehenna and Gio Nivlhel.
 覗きたいんですか？=Wanna go and take a peek?
 じゃああれですか。\nアンデッドでもお風呂に入るのかなぁ的なやつですか？\nひどい。=So that's how it is. You're wondering if it's possible for an undead like her to take a bath? That's terrible.
 そうですか。それは失礼。\n……まあそんな訳で、温泉の周りの調査を。=I see. That's my bad. ...Anyway, that's why I decided to investigate the area around the hot spring.
@@ -105,7 +105,7 @@ Player Prompts
 目を細めない。=I don't squint my eyes
 
 Chapter 2
-{playername}がジオ・ニヴルヘルを訪れてからしばらくして。\n温泉調査のお礼がしたいというグレイスに呼ばれ、\n{playername}はある屋敷を訪れていた。=A while after {playername} first entered Gio Nivlhel, Grace called him to offer her thanks in investigating the hot springs back in Geo Gehenna. {playername} was visiting a certain mansion.
+{playername}がジオ・ニヴルヘルを訪れてからしばらくして。\n温泉調査のお礼がしたいというグレイスに呼ばれ、\n{playername}はある屋敷を訪れていた。=A while after {playername} first entered Gio Nivlhel, Grace called him to offer her thanks in investigating the hot springs back in Gio Gehenna. {playername} was visiting a certain mansion.
 お待たせして申し訳ないです、騎士氏。=My deepest apologies for making you wait, Kishi-shi.
 こっちです、後ろです。\nさあ……振り返ってください。=This way. Behind you. Now... turn around, please.
 オ゛オ゛オ゛……ッ！！=OWAAAAAAAAAAAAHHHH...!!
@@ -409,7 +409,7 @@ LSSの研究自体は、mimiとかカンケーなしに\n世界中でいろん�
 はい──=Well...
 騎士氏の、死後を考えたく思いまして。=Kishi-shi... I wanted to know what happened to him after his death.
 聞くところによると、騎士氏は冒険者を生業としている……そうですが。\nつまり死と隣り合わせの、危険なご職業ということで。=From what I've heard, you're an adventurer by trade, Kishi-shi... That is to say, you're part of a dangerous profession where death is always close at hand.
-ジオ・ゲヘナの戦いでも、命の危険は何度もありましたし。\nもし運に見放されてしまえば、流れ矢でも額に刺さって\nあっさり御陀仏ガメオベラ……という可能性もあるわけですね。=Even in the battle for Geo Gehenna, your life was in danger many times. Let's say that luck had abandoned you, even a stray arrow could have pierced your forehead... and you could have easily ended up dead as you slowly realized it like a turtle.
+ジオ・ゲヘナの戦いでも、命の危険は何度もありましたし。\nもし運に見放されてしまえば、流れ矢でも額に刺さって\nあっさり御陀仏ガメオベラ……という可能性もあるわけですね。=Even in the battle for Gio Gehenna, your life was in danger many times. Let's say that luck had abandoned you, even a stray arrow could have pierced your forehead... and you could have easily ended up dead as you slowly realized it like a turtle.
 ガ、ガメ……？=A-A turtle...?
 はい。\n私としても、手が届く範囲ならばお助けするつもりではありますが……\n万が一、騎士氏が騎士死してしまった場合の話をしておきたくて。=Yes. Certainly, I'd love to help you avoid such a fate by helping as much as I can, but... I wanted to ponder what to do in case Kishi-shi dies in the line of work as a Kishi-shi.
 いいえ。\n遺体とかの話、です。=No. I'm talking about your corpse, of course.

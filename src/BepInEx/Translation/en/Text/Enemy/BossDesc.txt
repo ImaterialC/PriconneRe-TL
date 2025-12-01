@@ -1627,7 +1627,7 @@
 自身に行動速度アップ=Increases own action speed.
 自身に継続ダメージ=Inflicts continuous damage on self.
 
-ジオ・ニヴルヘルを縄張りとし、闇に潜み獲物を待ち伏せる。彷徨う者たちを夢幻に誘う。=A creature that claims Geo Niflheim as its territory, lurking in the darkness to ambush its prey. It lures wanderers into a dreamlike illusion.
+ジオ・ニヴルヘルを縄張りとし、闇に潜み獲物を待ち伏せる。彷徨う者たちを夢幻に誘う。=A creature that claims Gio Niflheim as its territory, lurking in the darkness to ambush its prey. It lures wanderers into a dreamlike illusion.
 
 バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。（ダウン不可）=At the start of the battle, slightly increases P.DEF and M.DEF of all allies. (Cannot be reduced)
 ユニオンバーストは、物理もしくは魔法攻撃力が最も高い敵１キャラのステータスアップ効果を解除後、魔法特大ダメージを与え、ＴＰを特大ダウン。ダメージを無効化してもＴＰダウン。=The Union Burst removes stat buffs from the enemy with the highest P.ATK or M.ATK, then deals massive M.DMG and greatly reduces their TP. Even if the damage is negated, the TP reduction still applies.

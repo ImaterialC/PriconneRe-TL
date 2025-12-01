@@ -68,7 +68,7 @@ Interlude XIX
 返す返すも、礼には及びませぬ。\n全ては此の妖精擬きの働きと、そして──=No matter how many times I say it, you do not have to thank me. Everything rests upon the efforts of this mock-fairy creature, and──
 ──コッコロ殿の御手並みに、掛かっておりまする。=Upon Lady Kokkoro's skill.
 グレイス──貴女なら。\nもう私が引き返せないってことも、わかるわね？=Grace... Since it's you. You understand, right? There's no turning back for me anymore.
-ジオ・ニヴルヘル。\n巨鯨城へ攻撃を仕掛けようとするリーザの前に、\n守護騎士・グレイスが立ちはだかる。=Geo Niflhell. As Lisa attempts to lay siege to the Giant Whale Castle, the Chevalier Grace stands in her way.
+ジオ・ニヴルヘル。\n巨鯨城へ攻撃を仕掛けようとするリーザの前に、\n守護騎士・グレイスが立ちはだかる。=Gio Nivlhel. As Lisa attempts to lay siege to the Giant Whale Castle, the Chevalier Grace stands in her way.
 どうしたの？\nグレイス。\nもっとこちらへいらっしゃい。そこからじゃ槍も届かないでしょ？=What's wrong, Grace? Come closer, please. Your spear won't reach me from there, will it?
 ……女性のほうから誘うなんて、はしたないって習わなかったの？\nダークエルフの村では。=...Didn't they teach you it's unbecoming for a woman to make the first move? Back in that little dark-elf village of yours.
 さぁ──\n忘れたわ。\n自分が『ダークエルフの生まれ』かどうかも。=Well... I guess I forgot. Whether I am a "dark elf" or not, too.
@@ -133,7 +133,7 @@ Interlude XIX
 悪いけど。\n経験の差ね、お姫さま。=I'm sorry... but there's a difference in experience between us. My dear Princess.
 …………リー、ザ……=...Li...sa...
 巨鯨城の玉座なんて、いらないけれど。\nでも──=I don't need the throne of the Giant Whale Castle, but...
-これからも『王家の装備』を扱うなら。\nジオ・ニヴルヘルごと、もらっておいてあげてもいいかもね。\nプリンセスは、一人でいいでしょうし──=If I'm going to keep using this Royal Family's equipment from now on, I might as well take Geo Niflhell with me. One Princess is plenty, after all~
+これからも『王家の装備』を扱うなら。\nジオ・ニヴルヘルごと、もらっておいてあげてもいいかもね。\nプリンセスは、一人でいいでしょうし──=If I'm going to keep using this Royal Family's equipment from now on, I might as well take Gio Nivlhel with me. One Princess is plenty, after all~
 ──誰っ？=...Who?
 
 Player Prompts
@@ -419,7 +419,7 @@ Interlude XXI
 待て待て！\n豚の嬢ちゃん！=Wait, wait! Pig little lady!
 っ？=...Uh?!
 助けてくれて、あんがとな！\nけどよ、もう大丈夫だ！=You have our thanks for saving us! But we're fine now!
-ジオ・ゲヘナの戦士をナメんじゃねっぺ！\nあんなトカゲもどき、後はオレたちだけで余裕だってーの！=Don't underestimate the warriors of Geo Gehenna! We'll be able to easily defeat those lizard-like creatures on our own!
+ジオ・ゲヘナの戦士をナメんじゃねっぺ！\nあんなトカゲもどき、後はオレたちだけで余裕だってーの！=Don't underestimate the warriors of Gio Gehenna! We'll be able to easily defeat those lizard-like creatures on our own!
 お前さんは早く、\n先に城塞に向かった嬢ちゃんのトコに行ってやんな！\n「心配です」ってカオにでっかく書いてあんぜ！=Hurry up and go check on that young lady who went into the Fortress first! There's a huge sign on your face that you're dead worried about her!
 ……ん。\nありがと、ござます……！=...Mm. Thank you... very much...!
 ……はい、リアさん。\n消えてしまうなら……一緒に、いきましょう。\nあの日一緒に、ゲームを始めたように……=...Yes, Lea-san. If we are really fated to disappear here... Let us go together. Just like that day... when we started playing this game...
@@ -451,7 +451,7 @@ PV Cutscene
 たとえ、どのような姿となってでも──！=No matter what form I may take...!
 
 Substory
-基本世界にやってきたアイラの頼みで、\n{playername}たちは裏世界のジオ・ゲヘナを訪れていた──=At the request of Isla, who had come to visit the Base World, {playername} and the others visited Geo Gehenna with her~
+基本世界にやってきたアイラの頼みで、\n{playername}たちは裏世界のジオ・ゲヘナを訪れていた──=At the request of Isla, who had come to visit the Base World, {playername} and the others visited Gio Gehenna with her~
 あっつ～～～～～～い！=IT'S HOOOOOOOOT!
 サラサリアと違って、日差しや砂が熱いっていうより空気全体が！\nじっとり！　あっつい！　すごいな～っ！　あははっ♪=Unlike Salasaria, it's not the sun or the sand that's hot, but the whole air! It's humid! Hot! Amazing! Ahahaha♪
 今日は付き合ってくれてありがとね、騎士くん！\n『裏世界』ってどんな所か、一度見てみたかったんだ。=Thanks for coming with me today, Kishi-kun! I've always wanted to see what kind of place these Underworlds are.
