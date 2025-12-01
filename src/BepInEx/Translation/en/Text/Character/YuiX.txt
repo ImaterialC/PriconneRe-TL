@@ -1,0 +1,26 @@
+##Profile##
+【魔法】中衛で、騎士の隣に一歩踏み出す聖夜の魔法士。敵の注目を集めながら攻防支援を行い【聖夜の愛慕】が高まると、ＴＰ支援やダメージカットで優しく包み込む。=[Magic] A midline magic caster who steps forward beside the knight on this holy night. She draws enemy attention while providing offensive and defensive support, and when [Holy Night Adoration] builds up, she gently envelops allies with TP support and damage cuts.
+
+##UB##
+ルミナリィギフト=Luminari Gift
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を中ダウンさせる。さらに味方全体のＨＰを中回復し、物理無効バリアを展開する。【聖夜の愛慕】の数に応じてバリアの無効ダメージ量がアップする。【聖夜の愛慕】が40の場合、味方全体に物理ダメージカット効果と魔法ダメージカット効果を付与し、魔法攻撃クリティカル時のダメージを小アップさせる。=Deals massive M.DMG to the enemy in front and moderately lowers their M.DEF. Additionally, moderately recovers all allies' HP and deploys a physical-nullifying barrier. The barrier's nullified damage increases based on the number of [Holy Night Adoration]. If [Holy Night Adoration] is 40, grants physical damage cut and magical damage cut to all allies, and slightly boosts their M.CRIT DMG.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン味方全体のＨＰを(\d+)回復(\d+)ダメージ分の物理無効バリアを展開する聖夜の愛慕が40の場合、以下の効果が発動する味方全体が受ける物理ダメージを15％カット味方全体が受ける魔法ダメージを15％カット味方全体の魔法クリダメを9％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Restores all allies' HP by $3.\n►Deploys a Physical Nullification Barrier absorbing $4 DMG.\n\nIf [Holy Night's Adoration] is 40:\n►Reduces P.DMG taken by all allies by 15％.\n►Reduces M.DMG taken by all allies by 15％.\n►Boosts all allies' M.CRIT DMG by 9％.
+
+##S1##
+ハートフルスター=Heartful Star
+【挑発】味方全体に継続ＨＰ回復状態を付与して物理防御力と魔法防御力を中アップし、自分が敵全体を挑発する。【聖夜の愛慕】の数に応じて物理防御力アップと魔法防御力アップの効果量が上昇する。【聖夜の愛慕】が40の場合、味方全体に継続ＴＰ回復状態を付与する。=[Taunt] Grants continuous HP recovery to all allies, moderately boosts their P.DEF and M.DEF, and self taunts all enemies. The P.DEF boost and M.DEF boost amounts increase based on the number of [Holy Night Adoration]. If [Holy Night Adoration] is 40, grants continuous TP recovery to all allies.
+r:"^毎秒ＨＰを(\d+)回復する味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ敵全体を挑発する聖夜の愛慕が40の場合、毎秒ＴＰを10回復する$"=►Recovers HP by $1 per second.\n►Boosts all allies' P.DEF by $2.\n►Boosts all allies' M.DEF by $3.\n►Taunts all enemies.\n\nIf [Holy Night's Adoration] is 40:\n►Recovers TP by 10 per second.
+
+##S1 Start##
+【挑発】味方全体に継続ＨＰ回復状態を付与して物理防御力と魔法防御力を中アップし、自分が敵全体を挑発する。さらに、自分がステータスアップ効果を受ける度に【聖夜の愛慕】が１つ追加される状態にする。【聖夜の愛慕】は最大40まで追加される。=[Taunt] Grants continuous HP recovery to all allies, moderately boosts their P.DEF and M.DEF, and self taunts all enemies. Additionally, enters a state where 1 [Holy Night Adoration] is added each time self receives a status up effect. [Holy Night Adoration] can accumulate up to a maximum of 40.
+r:"^毎秒ＨＰを(\d+)回復する味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ敵全体を挑発するステータスアップ効果を受けるたびに自分に聖夜の愛慕を追加する状態になる$"=►Recovers HP by $1 per second.\n►Boosts all allies' P.DEF by $2.\n►Boosts all allies' M.DEF by $3.\n►Taunts all enemies.\n►Each time a status boost is received, adds 1 [Holy Night's Adoration] to self.
+
+##S2##
+ホワイトプロミス=White Promise
+目の前の敵１キャラの魔法防御力を小ダウン、物理攻撃力を大ダウンさせ、味方全体の魔法攻撃力を大アップ、物理防御力、魔法防御力を小アップさせる。【聖夜の愛慕】の数に応じて魔法攻撃力アップと物理防御力アップと魔法防御力アップの効果量が上昇する。【聖夜の愛慕】が40の場合、味方全体に魔法無効バリアを展開する。=Slightly lowers the M.DEF and greatly lowers the P.ATK of the enemy in front, greatly boosts all allies' M.ATK, and slightly boosts their P.DEF and M.DEF. The M.ATK boost, P.DEF boost, and M.DEF boost amounts increase based on the number of [Holy Night Adoration]. If [Holy Night Adoration] is 40, deploys a magic-nullifying barrier for all allies.
+r:"^敵単体の魔法防御力を(\d+)ダウン敵単体の物理攻撃力を(\d+)ダウン味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ聖夜の愛慕が40の場合、(\d+)ダメージ分の魔法無効バリアを展開する$"=►Lowers a single enemy's M.DEF by $1.\n►Lowers a single enemy's P.ATK by $2.\n►Boosts all allies' M.ATK by $3.\n►Boosts all allies' P.DEF by $4.\n►Boosts all allies' M.DEF by $5.\n\nIf [Holy Night's Adoration] is 40:\n►Deploys a Magic Nullification Barrier absorbing $6 DMG.
+
+##EX##
+ブレッシングスノー+=Blessing Snow+
+ブレッシングスノー=Blessing Snow
+

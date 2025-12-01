@@ -3,6 +3,7 @@
 
 プリンセスエンチャント=Princess Enchant
 物理/魔法攻撃力アップ（加入キャラ数×4％、最大100％）=Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)
+r:"^物理/魔法攻撃力アップ（加入キャラ数×4％、最大100％）（現在(\d+)人）$"=►Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)(Currently $1)
 
 アストラルブースト=Astral Boost
 属性ボーナス＋50％=►Elemental Bonus +50%
@@ -60,6 +61,7 @@ r:"^物理/魔法クリダメアップ（アルファルピ所持数×0.01%、�
 
 バインディングローズ=Binding Rose
 敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）=►Continuous DMG against opponents increased (Enlisted characters x10%, maximum 500,000 damage)
+r:"^敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）（現在(\d+)人）$"=►Continuous DMG against opponents increased (Enlisted characters x10%, maximum 500,000 damage)(Currently $1)
 
 迷宮遺物詳細=Labyrinth Relic Details
 
