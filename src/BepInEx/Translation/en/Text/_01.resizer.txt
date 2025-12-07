@@ -354,6 +354,14 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/contents/FilterTab/TabButton_Talent_4/Label=ChangeFontSize(16)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitTop(Clone)/contents/FilterTab/TabButton_Talent_5/Label=ChangeFontSize(16)
 
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogTravelPartyEdit(Clone)/FilterTab/TabButton_Talent_1/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogTravelPartyEdit(Clone)/FilterTab/TabButton_Talent_2/Label=ChangeFontSize(14)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogTravelPartyEdit(Clone)/FilterTab/TabButton_Talent_3/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogTravelPartyEdit(Clone)/FilterTab/TabButton_Talent_4/Label=ChangeFontSize(16)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogTravelPartyEdit(Clone)/FilterTab/TabButton_Talent_5/Label=ChangeFontSize(16)
+
+
+
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsTalentQuestDetail(Clone)/OverUiParent/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(15)
 /PartsTalentQuestDetail(Clone)/OverUiParent/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(13)
 /PartsQuestDetail(Clone)/contents/GUIGroup_DialogTitle/ButtonGrid/GUIGroup_texticon_TalentBonus/Label=ChangeFontSize(13)

@@ -2,7 +2,7 @@
 【魔法】中衛で、騎士の隣に一歩踏み出す聖夜の魔法士。敵の注目を集めながら攻防支援を行い【聖夜の愛慕】が高まると、ＴＰ支援やダメージカットで優しく包み込む。=[Magic] A midline magic caster who steps forward beside Kishi on this holy night. She draws enemy attention while providing offensive and defensive support, and when [Holy Night Adoration] builds up, she gently envelops allies with TP support and damage cuts.
 
 ##UB##
-ルミナリィギフト=Luminari Gift
+ルミナリィギフト=Luminary Gift
 目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を中ダウンさせる。さらに味方全体のＨＰを中回復し、物理無効バリアを展開する。【聖夜の愛慕】の数に応じてバリアの無効ダメージ量がアップする。【聖夜の愛慕】が40の場合、味方全体に物理ダメージカット効果と魔法ダメージカット効果を付与し、魔法攻撃クリティカル時のダメージを小アップさせる。=Deals massive M.DMG to the enemy in front and moderately lowers their M.DEF. Additionally, moderately recovers all allies' HP and deploys a physical-nullifying barrier. The barrier's nullified damage increases based on the number of [Holy Night Adoration]. If [Holy Night Adoration] is 40, grants physical damage cut and magical damage cut to all allies, and slightly boosts their M.CRIT DMG.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン味方全体のＨＰを(\d+)回復(\d+)ダメージ分の物理無効バリアを展開する聖夜の愛慕が40の場合、以下の効果が発動する味方全体が受ける物理ダメージを15％カット味方全体が受ける魔法ダメージを15％カット味方全体の魔法クリダメを9％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Restores all allies' HP by $3.\n►Deploys a Physical Nullification Barrier absorbing $4 DMG.\n\nIf [Holy Night's Adoration] is 40:\n►Reduces P.DMG taken by all allies by 15％.\n►Reduces M.DMG taken by all allies by 15％.\n►Boosts all allies' M.CRIT DMG by 9％.
 
