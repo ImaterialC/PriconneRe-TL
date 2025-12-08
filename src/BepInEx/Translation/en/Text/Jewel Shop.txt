@@ -71,8 +71,8 @@ pack
 購入Lv制限あり=Purchase Lv Limit
 マンスリーテーマパック=Monthly Theme Package
 --- Anniv---
-r:"^([0-9.a-zA-Z ]*)プリンセスフェスSPキャラ交換ガチャセット$"=$1 Princess Fes SP Character Exchange Gacha Set
-r:"^([0-9.a-zA-Z ]*)スペシャルキャラ交換ガチャセット$"=$1 Special Character Exchange Gacha Set
+r:"^([0-9.a-zA-Z ]*)プリンセスフェスSPキャラ交換ガチャセット$"=$1 Princess Fes SP Chara Exchange Gacha Set
+r:"^([0-9.a-zA-Z ]*)スペシャルキャラ交換ガチャセット$"=$1 Special Chara Exchange Gacha Set
 r:"^([0-9.a-zA-Z ]*)専用装備１グロウスフィアパック$"=$1 UE-1 Growsphere Pack
 r:"^([0-9.a-zA-Z ]*)キャンペーンパック$"=$1 Campaign Package
 毎月更新 ロールマスタリーパック=Monthly Updated Role Mastery Pack
@@ -95,7 +95,7 @@ r:"^([0-9.a-zA-Z ]*)属性強化パック$"=$1 Element Enhancement Pack
 装備ショップ=Equipment Shop
 EX★4装備パック=EX★4 Equipment Package
 r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
-r:"^([0-9.]+)周年 SPキャラ交換ガチャセット$"=$1th Anniversary SP Character Exchange Gacha Set
+r:"^([0-9.]+)周年 SPキャラ交換ガチャセット$"=$1th Anniversary SP Chara Exchange Gacha Set
 r:"^([0-9.]+)周年 ★6キャラ育成パック$"=$1th Anniversary★6 Character Raising Package
 r:"^([0-9.]+)周年 専用装備１グロウスフィアパック$"=$1th Anniversary Unique Equipment 1 Growsphere Package
 r:"^([0-9.]+)周年 ピュアメモリーピースパック$"=$1th Anniversary Pure Memory Shard Package
@@ -104,7 +104,7 @@ sr:"^([0-9.]+)周年 EX★4装備パック\((片手剣|槍|弓|本|両手剣|斧
 
 (片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)
 
-GW スペシャルキャラ交換ガチャセット=GW Special Character Exchange Gacha Set
+GW スペシャルキャラ交換ガチャセット=GW Special Chara Exchange Gacha Set
 2025 GW ビギナー&カムバック強化パック=2025 GW Beginner & Comeback Enhancement Pack
 GW 錬成スフィアパック=GW Refining Sphere Pack
 GW 専用装備１グロウスフィアパック=GW Unique Equipment 1 Growth Sphere Pack
@@ -230,7 +230,7 @@ r:"^交換期間が(\d+)月(\d+)日 (\d+)時(\d+)分に終了します。\n\(残
 r:"^交換期間が(\d+)月(\d+)日 (\d+)時(\d+)分に終了します。\n\(残り(\d+)分\)$"=The exchange period will end on $2/$1 at $3:$4.\n($5m remaining)
 
 
-sr:"^(.{2,20})未受け取り分の(.{2,6})$=$1: Unclaimed $2
+sr:"^(.{2,20})未受け取り分の(.{2,6})$"=$1: Unclaimed $2
 
 
 交換ページへ移動しますか？=Would you like to go to the exchange page?
