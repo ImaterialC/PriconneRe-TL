@@ -229,4 +229,8 @@ r:"^交換期間が(\d+)月(\d+)日 (\d+)時(\d+)分に終了します。\n\(残
 r:"^交換期間が(\d+)月(\d+)日 (\d+)時(\d+)分に終了します。\n\(残り(\d+)時間(\d+)分\)$"=The exchange period will end on $2/$1 at $3:$4.\n($5h$6m remaining)
 r:"^交換期間が(\d+)月(\d+)日 (\d+)時(\d+)分に終了します。\n\(残り(\d+)分\)$"=The exchange period will end on $2/$1 at $3:$4.\n($5m remaining)
 
+
+sr:"^(.{2,20})未受け取り分の(.{2,6})$=$1: Unclaimed $2
+
+
 交換ページへ移動しますか？=Would you like to go to the exchange page?
