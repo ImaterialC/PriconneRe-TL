@@ -14,6 +14,10 @@ sr:"^(\[[0-9A-F]{6}\])?スペシャルかエキシビションのバトルで(.+
 EXHIBITION＋でボスを5回以内に討伐しよう=Clear the Exhibition＋ within 5 attempts.
 [FFFFFF]EXHIBITION＋でボスを5回以内に討伐しよう[-]=[FFFFFF]Clear the Exhibition＋ within 5 attempts.[-]
 
+【前編】ボスに1回挑戦しよう=[Part 1] Challenge the boss once
+【後編】ボスに1回挑戦しよう=[Part 1] Challenge the boss once
+ボスに1回挑戦しよう=Challenge the boss once
+
 sr:"^(\[[0-9A-F]{6}\])?(.+)を(\d+)体倒そう ?(?:（|\()EX(?:・EX\＋)?を除く(?:）|\)) ?(\[-\])?$"="$1Defeat $2 $3 times (Excluding EX and EX+).$4"
 
 sr:"^(\[[0-9A-F]{6}\])?(スペシャルバトルの)?(.+)を討伐しよう(\[-\])?$"=$1Defeat $3.$4

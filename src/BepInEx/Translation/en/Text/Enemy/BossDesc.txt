@@ -193,7 +193,7 @@
 
 
 塔の魔力を喰らい、暴れ回る巨大魔鳥。迂闊に近づくものは、暴風と雷豪が身を引き裂く。=A gigantic magical bird that rampages after consuming the power of the tower. Those who approach carelessly are torn apart by storms and thunder.\n
-ユニオンバーストは、敵全体に物理大ダメージを与える。=The Union Burst deals large P.DMG to all enemies.\n
+ユニオンバーストは、敵全体に物理大ダメージを与える。=Union Burst: deals large P.DMG to all enemies.\n
 前から２番目のキャラを中心にした小範囲に物理小ダメージを与え、スタンさせる。=Deals small P.DMG and inflicts stun to a small area centered around the second character from the front.\n
 前方範囲内の敵に物理中ダメージを与える。=Deals medium P.DMG to enemies within the frontal area.\n
 
@@ -1610,7 +1610,7 @@
 自身にＴＰ継続回復=Continuously recovers own TP.
 対象ＨＰ80％未満：自身に物理攻撃力アップ=If the target's HP is below 80%: boosts own P.ATK.
 前方範囲に物理／魔法与ダメージダウン=Reduces P.DMG and M.DMG dealt by enemies in front range.
-ユニオンバーストは、召喚体、分身を除いた最も近い敵１キャラに物理特大ダメージを与える。その後、召喚体、分身を除いた敵全体にこのスキルで与えたダメージ量に応じた物理ダメージを与える。このスキルによる追加ダメージでは、ＴＰが回復しない。=The Union Burst deals massive P.DMG to the closest enemy character, excluding summoned units and clones. Then, deals P.DMG to all enemies, excluding summoned units and clones, based on the damage dealt by this skill. The additional damage does not recover TP.
+ユニオンバーストは、召喚体、分身を除いた最も近い敵１キャラに物理特大ダメージを与える。その後、召喚体、分身を除いた敵全体にこのスキルで与えたダメージ量に応じた物理ダメージを与える。このスキルによる追加ダメージでは、ＴＰが回復しない。=Union Burst: deals massive P.DMG to the closest enemy character, excluding summoned units and clones. Then, deals P.DMG to all enemies, excluding summoned units and clones, based on the damage dealt by this skill. The additional damage does not recover TP.
 ライデンから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the TP recovery amount for party characters from all damage taken from Raiden.
 
 
@@ -1630,29 +1630,29 @@
 ジオ・ニヴルヘルを縄張りとし、闇に潜み獲物を待ち伏せる。彷徨う者たちを夢幻に誘う。=A creature that claims Gio Niflheim as its territory, lurking in the darkness to ambush its prey. It lures wanderers into a dreamlike illusion.
 
 バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。（ダウン不可）=At the start of the battle, slightly increases P.DEF and M.DEF of all allies. (Cannot be reduced)
-ユニオンバーストは、物理もしくは魔法攻撃力が最も高い敵１キャラのステータスアップ効果を解除後、魔法特大ダメージを与え、ＴＰを特大ダウン。ダメージを無効化してもＴＰダウン。=The Union Burst removes stat buffs from the enemy with the highest P.ATK or M.ATK, then deals massive M.DMG and greatly reduces their TP. Even if the damage is negated, the TP reduction still applies.
+ユニオンバーストは、物理もしくは魔法攻撃力が最も高い敵１キャラのステータスアップ効果を解除後、魔法特大ダメージを与え、ＴＰを特大ダウン。ダメージを無効化してもＴＰダウン。=Union Burst: removes stat buffs from the enemy with the highest P.ATK or M.ATK, then deals massive M.DMG and greatly reduces their TP. Even if the damage is negated, the TP reduction still applies.
 敵の挑発を無視し、最も遠い敵１キャラを中心にした中範囲内の敵にＴＰ小ダウンと呪い状態を付与。このスキルの呪いではＴＰが回復しない。=Ignores enemy taunts and inflicts a small TP reduction and curse on enemies within a medium range centered on the farthest enemy. The curse prevents TP recovery.
 通常攻撃は、物理もしくは魔法攻撃力が最も高い敵１キャラに物理特大ダメージを与える。=The normal attack deals massive P.DMG to the enemy with the highest P.ATK or M.ATK.
 
 バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of the battle, slightly increases P.DEF and M.DEF of all allies. The increased defense from this effect is not affected by defense reduction skills during the battle.
-ユニオンバーストは、敵全体にキャラの現在ＨＰに応じた魔法割合ダメージ。キャラのＨＰが50％未満の場合、混乱状態を付与。=The Union Burst deals percentage M.DMG to all enemies based on the character's current HP. If the character's HP is below 50%, it also inflicts confusion.
+ユニオンバーストは、敵全体にキャラの現在ＨＰに応じた魔法割合ダメージ。キャラのＨＰが50％未満の場合、混乱状態を付与。=Union Burst: deals percentage M.DMG to all enemies based on the character's current HP. If the character's HP is below 50%, it also inflicts confusion.
 敵全体に呪い状態を付与する。キャラのＨＰが50％未満の場合、長時間呪い状態を付与する。=Inflicts a curse on all enemies. If the character's HP is below 50%, the curse lasts longer.
 最も近い敵１キャラに魔法特大ダメージを与え、ＴＰを小ダウンさせる。さらに自身のＴＰを小回復する。このスキルはダメージを無効化してもＴＰをダウンさせる。=Deals massive M.DMG to the closest enemy and slightly reduces their TP. Also slightly recovers own TP. Even if the damage is negated, the TP reduction still applies.
 
 バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。この防御力アップ効果で上昇した防御力はバトル中に受ける防御力ダウンスキルの影響を受けない。=At the start of the battle, slightly increases P.DEF and M.DEF of all allies. The increased defense from this effect is not affected by defense reduction skills during the battle.
-ユニオンバーストは、最も近い敵１キャラに魔法大ダメージを与える。さらに敵全体に魔法中ダメージを与え、石化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=The Union Burst deals large M.DMG to the closest enemy. Then, deals medium M.DMG to all enemies and inflicts petrification. The status effect is applied even if the damage is negated.
+ユニオンバーストは、最も近い敵１キャラに魔法大ダメージを与える。さらに敵全体に魔法中ダメージを与え、石化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: deals large M.DMG to the closest enemy. Then, deals medium M.DMG to all enemies and inflicts petrification. The status effect is applied even if the damage is negated.
 敵全体に魔法中ダメージを与え、石化状態を付与する。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium M.DMG to all enemies and inflicts petrification. The status effect is applied even if the damage is negated.
 最も近い敵１キャラに魔法特大ダメージを与える。=Deals massive M.DMG to the closest enemy.
  
 バトル開始時、味方全体の物理防御力と魔法防御力を中アップさせる。この防御力アップ効果で上昇した防御力は、バトル中に受ける防御力ダウンスキルの影響を受けない。また味方全体にＴＰダウン90％カット効果を付与する。=At the start of the battle, moderately increases P.DEF and M.DEF of all allies. The increased defense from this effect is not affected by defense reduction skills during the battle. Also, grants all allies a 90% reduction in TP reduction effects.
-ユニオンバーストは、敵全体のバリアを解除後、魔法割合ダメージを与え、さらに物理防御力とＨＰ吸収をダウンさせる。=The Union Burst removes barriers from all enemies, then deals percentage M.DMG, and reduces their P.DEF and HP drain.
+ユニオンバーストは、敵全体のバリアを解除後、魔法割合ダメージを与え、さらに物理防御力とＨＰ吸収をダウンさせる。=Union Burst: removes barriers from all enemies, then deals percentage M.DMG, and reduces their P.DEF and HP drain.
 敵全体に物理大ダメージを与え、キャラのＨＰが90％未満の場合スタンさせる。=Deals large P.DMG to all enemies and stuns them if the character's HP is below 90%.
 敵全体に物理特大ダメージ。=Deals massive P.DMG to all enemies.
 強獣ゲドンのＨＰが一定値以下になると、パワーアップする。=When Strong Beast Geddon's HP falls below a certain value, it powers up.
 
 バトル開始時、自身にＴＰダウン50％カット効果を付与する。=At the start of the battle, grants self a 50% reduction in TP reduction effects.
 エリマキレックスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を中ダウンさせる。=Moderately reduces the TP recovery amount for party characters from all damage taken from Erimaki Rex.
-ユニオンバーストは、敵全体にエリマキレックスの物理攻撃力に応じた物理割合ダメージを与える。=The Union Burst deals percentage P.DMG to all enemies based on Erimaki Rex's P.ATK.
+ユニオンバーストは、敵全体にエリマキレックスの物理攻撃力に応じた物理割合ダメージを与える。=Union Burst: deals percentage P.DMG to all enemies based on Erimaki Rex's P.ATK.
 前から２キャラに物理中ダメージを与え、ノックバックさせると同時にスタンさせる。このスキルの状態異常はダメージを無効化しても付与される。=Deals medium P.DMG to the two enemies in front, knocks them back, and stuns them. The status effect is applied even if the damage is negated.
 
 ランダムな敵キャラに、単体物理中ダメージを計３回与え、スタン状態を計３回付与する。=Deals moderate P.DMG 3 times to a random enemy and inflicts Stun 3 times.
@@ -1703,7 +1703,7 @@
 
 子分を４体召喚し、敵全体をノックバックさせる。子分は最も近い敵１キャラに物理中ダメージを与え、キャラのＨＰが50％未満の場合キャラをノックバックさせる。このスキルの状態異常はダメージを無効化しても付与される。=Summons 4 minions and knocks back all enemies. The minions deal medium P.DMG to the closest enemy and knock them back if their HP is below 50%. The status effect is applied even if the damage is negated.
 最も近い敵３キャラに物理小ダメージを与え、味方全体の物理攻撃力を特大アップ、行動速度を中アップさせる。味方の数に応じて、物理攻撃力の上昇量がダウンする。=Deals small P.DMG to the three closest enemies, massively boosts all allies' P.ATK, and moderately increases their action speed. The P.ATK boost decreases based on the number of allies.
-ユニオンバーストは、敵全体に物理中ダメージを与え、さらにキャラのＨＰが70％未満のキャラに混乱状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=The Union Burst deals medium P.DMG to all enemies and inflicts confusion on those with HP below 70%. This damage does not recover TP, and the status effect is applied even if the damage is negated.
+ユニオンバーストは、敵全体に物理中ダメージを与え、さらにキャラのＨＰが70％未満のキャラに混乱状態を付与する。このスキルによるダメージでは、ＴＰが回復しない。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst: deals medium P.DMG to all enemies and inflicts confusion on those with HP below 70%. This damage does not recover TP, and the status effect is applied even if the damage is negated.
 
 HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 このスキルで物理ダメージを受けた敵に物理攻撃力ダウン=This skill lowers physical attack power against opponents that take physical damage
@@ -2141,3 +2141,45 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 敵全体に物理／魔法与ダメダウン、誘惑=Lowers P.DMG/M.DMG dealt by all enemies, and inflicts Temptation  
 自身に割合ダメージ無効=Grants self Percentage DMG Immunity  
 前方範囲に物理／魔法与ダメダウン、誘惑=Lowers P.DMG/M.DMG dealt in forward area, and inflicts Temptation  
+
+
+
+最も近い敵１キャラを中心にした中範囲内の敵すべてに物理中ダメージを与え、さらに行動速度を大ダウンさせる。=Deals medium P.DMG to all enemies in medium range centered on the closest enemy, and greatly reduces action speed.
+魔法防御力が大幅にダウンする。=Greatly reduces M.DEF.
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与え、ノックバックさせる。その後、目を回している間、自身の物理=Union Burst: deals percentage P.DMG to all enemies based on the character's max HP and knocks them back. Then, while they are dizzy, boosts own P.
+ポップな体色をした大ウサギの魔物。見た目とは裏腹に迷惑極まりないその歌声は、大地を震わせ冒険者の心をも折る。=A great rabbit monster with a pop-colored body. Contrary to its cute appearance, its utterly annoying song shakes the earth and shatters adventurers' spirits.
+最も近い敵３キャラに物理小ダメージを与え、さらに物理防御力を大ダウンさせる。=Deals small P.DMG to the three closest enemies, and greatly reduces their P.DEF.
+葛藤のうえきちゃん=Uekichan the Conflicted
+向かって右側の葉っぱのブレイク時、物理防御力と魔法防御力が大ダウン。=When the right leaf (facing it) breaks: greatly reduces P.DEF and M.DEF.
+本体のブレイク時、物理防御力と魔法防御力が小ダウン。=When the main body breaks: slightly reduces P.DEF and M.DEF.
+向かって左側の葉っぱのブレイク時、物理防御力と魔法防御力が小ダウン。=When the left leaf (facing it) breaks: slightly reduces P.DEF and M.DEF.
+左右の葉っぱは、ブレイクすると一定時間消滅する。=Left and right leaves disappear for a set time when broken.
+前方範囲内の敵にキャラの最大ＨＰに応じた物理割合ダメージを与え、ノックバックさせる。=Deals percentage P.DMG based on character's max HP to enemies in front range and knocks them back.
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、物理防御力と魔法防御力を小ダウンさせる。=Union Burst: deals percentage M.DMG to all enemies based on character's max HP, and slightly reduces their P.DEF and M.DEF.
+魔物かはたまた精霊なのか、謎多き巨躯のいきもの。如何ともし難いその表情のまま謎の花粉を噴霧し、市中を混乱へと誘い落とす。=Monster or spirit? A mysterious colossal being. With its inscrutable expression unchanged, it sprays enigmatic pollen, plunging the city into chaos.
+きゅうこんちゃんを召喚。きゅうこんちゃんは攻撃の対象にならず、一定時間が経つと自爆して前方範囲内の２キャラに魔法大ダメージを与える。=Summons Kyukon-chan. Kyukon-chan cannot be targeted and self-destructs after a set time, dealing large M.DMG to 2 characters in front range.
+葛藤のうえきちゃん自身のＨＰが40％を切ると、さらに攻撃が激しく凶暴になる。=When Uekichan the Conflicted's own HP drops below 40%, its attacks become even fiercer and more violent.
+終に極大化した謎のいきもの。またしても如何ともし難い表情で、大滝の涙が大地を濡らしその涙は意思なく皆を蝕んでゆく。=Finally hypertrophied into a colossal mystery. Once more with its inscrutable expression, waterfall tears soak the earth, mindlessly corroding all.
+敵全体のＴＰをアップさせたのち、継続魔法ダメージを与えるフィールドを展開する。=Boosts all enemies' TP, then deploys a field dealing continuous M.DMG.
+冒険者の抵抗に怯んだか、両葉とその巨躯を晒しつつ佇む。だが、その表情は相も変わらず、如何ともし難い表情のまま。=Intimidated by the adventurers' resistance? It stands exposing both leaves and its massive body. Yet its expression remains unchanged, utterly inscrutable.
+バトル開始時、葛藤のうえきちゃんはブレイクされなくなる。=At battle start, Uekichan the Conflicted becomes unbreakable.
+その変わらぬ表情は、終にも変わらず冒険者は、そのいきものの狂気と畏怖に慄く。果たしていきものの謎は解かれるのか…。=That unchanging expression persists to the end; adventurers tremble before the creature's madness and terror. Will its mystery ever be unraveled...?
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた魔法割合ダメージを与え、物理防御力と魔法防御力を中ダウンさせる。=Union Burst: deals percentage M.DMG to all enemies based on character's max HP, and moderately reduces their P.DEF and M.DEF.
+ラウドラパーン自身のＨＰが40％を切ると、さらに攻撃が激しく凶暴になる。=When Laudrapan's own HP drops below 40%, its attacks become even fiercer and more violent.
+ニュージェネレーションズのシャドウを召喚。森で出会った大ウサギ。３人は夢をあきらめない心を貫き通せるか、大ウサギは各個の弱さを見せつける。=Summons New Generations Shadow. The great rabbit met in the forest. Can the three hold firm to their unwavering dream? The great rabbit lays bare each one's weaknesses.
+割合ダメージ無効。=Immune to percentage DMG.
+目の前の最大３キャラまでの敵に魔法中ダメージを与え、さらに自分の魔法攻撃力を大アップさせる。このスキルのダメージ倍率と魔法攻撃力アップの効果量は自分を除く味方の残りＨＰに応じて最大３倍までアップする。このダメージは、遠い敵ほど増加する。=Deals medium M.DMG to up to 3 enemies in front, and greatly boosts own M.ATK. This skill's damage multiplier and M.ATK boost scale up to 3x based on allies' (excl. self) remaining HP. Damage increases the farther the enemies.
+目の前の最大３キャラまでの敵に魔法中ダメージを与え、自分の魔法攻撃力を中アップし、ＴＰを中回復する。このスキルの魔法攻撃力アップの効果量は自分を除く味方の残りＨＰに応じて最大３倍までアップする。このダメージは、遠い敵ほど増加する。=Deals medium M.DMG to up to 3 enemies in front, moderately boosts own M.ATK, and moderately recovers own TP. This skill's M.ATK boost scales up to 3x based on allies' (excl. self) remaining HP. Damage increases the farther the enemies.
+最もＨＰが低い味方１キャラを中心とした範囲内の味方すべての魔法攻撃力を大アップ、ＨＰを小回復する。さらに、そのキャラを中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開し、自分のＴＰを中回復する。このスキルのＴＰ回復の効果量は自分を除く味方の残りＨＰに応じて最大３倍までアップする。=Greatly boosts M.ATK and slightly recovers HP of all allies in range centered on the ally with lowest HP. Additionally, deploys a field slightly recovering HP of allies in that range, and moderately recovers own TP. This skill's TP recovery scales up to 3x based on allies' (excl. self) remaining HP.
+味方全体の物理攻撃力と魔法攻撃力を特大アップさせ、前方範囲内の敵すべてに物理と魔法攻撃力を合わせた物理大ダメージを与え、物理防御力と魔法防御力を小ダウンさせる。敵の数が３キャラ以上の場合、追加で物理と魔法攻撃力を合わせた物理大ダメージを与える。このスキルのダメージは、対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる。=Massively boosts all allies' P.ATK and M.ATK, deals large P.DMG (combined P.ATK + M.ATK) to all enemies in front range, slightly reduces their P.DEF and M.DEF. If 3+ enemies, deals additional large P.DMG (combined). If target's M.DEF < P.DEF, treated as M.DMG.
+味方全体の物理攻撃力と魔法攻撃力を大アップ、ＴＰ上昇を小アップさせ、ＴＰを中回復させる。敵の数が３キャラ以上の場合、さらに、自分のＴＰを中回復させる。=Greatly boosts all allies' P.ATK and M.ATK, slightly boosts their TP Boost, moderately recovers TP. If 3+ enemies, additionally moderately recovers own TP.
+味方全体の物理攻撃力と魔法攻撃力を特大アップさせ、前方範囲内の敵すべてに物理と魔法攻撃力を合わせた物理中ダメージを与える。敵の数が３キャラ以上の場合、追加で物理と魔法攻撃力を合わせた物理中ダメージを与える。このスキルのダメージは、対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる。=Massively boosts all allies' P.ATK and M.ATK, deals medium P.DMG (combined P.ATK + M.ATK) to all enemies in front range. If 3+ enemies, deals additional medium P.DMG (combined). If target's M.DEF < P.DEF, treated as M.DMG.
+前方範囲内の敵すべてに物理大ダメージを与え、物理防御力と魔法防御力を小ダウンさせ、凍結させる。さらに自分のＨＰを小回復し、物理/魔法吸収バリアを展開する。=Deals large P.DMG to all enemies in front range, slightly reduces their P.DEF and M.DEF, freezes them. Additionally, slightly recovers own HP and deploys P/M absorption barrier.
+【挑発】前方範囲内の敵すべてに物理大ダメージを与え、物理=[Taunt] Deals large P.DMG to all enemies in front range, P.
+魔法攻撃力を大ダウン、物理=Greatly reduces M.ATK, P.
+魔法防御力を小ダウンさせる。さらに敵全体を挑発し、自分の物理=Slightly reduces M.DEF. Additionally, taunts all enemies, boosts own P.
+魔法防御力を中アップする。=Moderately boosts M.DEF.
+前方範囲内の敵すべてを束縛し、物理中ダメージを与え、さらに、自分のＴＰを小回復する。目の前の敵１キャラが蒼の鎖状態でない場合、蒼の鎖状態にし、そうでない場合、クリティカルを受けた際のダメージを小アップさせる。蒼の鎖状態は、そのキャラの弱体効果の種類の数に応じて被ダメージを最大24％までアップさせる。=Binds all enemies in front range, deals medium P.DMG, and slightly recovers own TP. If the frontmost enemy is not in Azure Chain state, applies it; otherwise, slightly boosts crit damage taken. Azure Chain state increases damage taken by up to 24% based on number of debuff types on the character.
+森の人気者の歌声に魔物たちが大挙する。血沸き肉躍る野生の宴会が今、開幕する。=Monsters flock to the forest favorite's song. The wild feast that sets blood boiling and flesh dancing now begins.
+宴も終焉、大兎が最後の力を振り絞る。咆哮にも似た壊震の歌声が、３人の夢道を阻む。=The banquet ends; the great rabbit musters its final strength. A roar-like, earth-shaking song blocks the three's path to their dreams.
+バトル開始直後に、さらに攻撃が激しく凶暴になる。=Immediately after battle start, attacks become even fiercer and more violent.
