@@ -91,6 +91,7 @@ r:"^(75\.)?巨鯨城・近隣(.*)$"=$1 Giant Whale Castle Vicinity $2
 r:"^(76\.)?忘却された町(.*)$"=$1 Forgotten Town $2
 r:"^(77\.)?黒曜に臨む丘(.*)$"=$1 Hill Overlooking Obsidian $2
 r:"^(78\.)?屍蝋の眠り城(.*)$"=$1 Necrowax Sleeping Castle $2
+r:"^(79\.)?はぐれ鬼の集落(.*)$"=$1 Stray Demon Village $2
 
 ---*6 Quest---
 sr:"^([べ-ヺー＆＝]+)(（.+）)?の解放クエスト$"=$1$2 Ascension Quest

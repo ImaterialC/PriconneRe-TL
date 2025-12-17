@@ -11,3 +11,55 @@ EX階=EX floor
 ルナの塔のバトルスキップ後のダイアログにて、スキップ選択時にリタイアを表示するか設定します。\n※ボスEX階では、ダイアログは表示されません。=Setting to display the "Retire" option when selecting "Skip"\nin the dialog box that appears after skipping battles in Luna Tower.\n※The dialog box will not be displayed on Boss EX floors."
 ルナの塔 バトルスキップ確認ダイアログ表示=Luna Tower Battle Skip Confirmation Dialog display
 ルナの塔にてバトルスキップを押したときに、確認ダイアログを表示するか設定します。=When you press the battle skip in the Luna Tower, set the confirmation dialog.
+
+
+
+
+
+
+
+
+
+
+
+
+------
+
+バトル中、「バトル中継続物理攻撃力アップ」、「バトル中継続魔法攻撃力アップ」効果が発動する。=During battle, the effects “Continuous P.ATK Up (During Battle)” and “Continuous M.ATK Up (During Battle)” are activated.
+
+みんなのカレンダーのデータ保存設定=Everyone’s Calendar data save settings
+バトル中のダメージ数字の大きさ=Damage number size during battle
+バトル中に表示されるダメージの数字の大きさの設定です。=Sets the size of the damage numbers displayed during battle.
+バトル中の回復数字の大きさ=Recovery number size during battle
+バトル中に表示されるＨＰ・ＴＰ回復の数字の大きさの設定です。=Sets the size of the HP/TP recovery numbers displayed during battle.
+バトル中の数字の表示　ユニオンバースト=Number display during battle: Union Burst
+バトル中、ユニオンバーストで表示されるダメージやＨＰ・ＴＰ回復の数字の表示設定です。\n「全て表示」に設定するとダメージやＨＰ回復とＴＰ回復、全ての数字を表示します。=Sets the display of damage and HP/TP recovery numbers shown during Union Bursts in battle.\nIf set to “Show All,” all numbers for damage, HP recovery, and TP recovery will be displayed.
+ダメージのみ表示=Show damage only
+回復のみ表示=Show recovery only
+バトル中の数字の表示　ユニオンバースト以外=Number display during battle: Other than Union Burst
+バトル中、ユニオンバースト以外で表示されるダメージやＨＰ・ＴＰ回復の数字の表示設定です。\n「全て表示」に設定するとダメージやＨＰ回復とＴＰ回復、全ての数字を表示します。=Sets the display of damage and HP/TP recovery numbers shown during battle other than Union Bursts.\nIf set to “Show All,” all numbers for damage, HP recovery, and TP recovery will be displayed.
+バトル中の回復エフェクトの表示設定=Recovery effect display settings during battle
+バトル中に表示されるＨＰ・ＴＰ回復のエフェクトの表示設定です。\n　「表示する」に設定するとＨＰ回復とＴＰ回復のエフェクトを表示します。=Sets the display of HP/TP recovery effects during battle.\nIf set to “Show,” HP recovery and TP recovery effects will be displayed.
+バトル中のバフ・デバフエフェクトの表示設定=Buff/Debuff effect display settings during battle
+バトル中に表示されるバフ・デバフのエフェクトの表示設定です。\n　「表示する」に設定するとバフとデバフのエフェクトを表示します。=Sets the display of buff and debuff effects during battle.\nIf set to “Show,” buff and debuff effects will be displayed.
+75％で表示する=Display at 75%
+同じ名前のキャラを同一パーティ内に編成できるようにするかの設定です。\nアメスとフィオは同名キャラとして扱います。=Sets whether characters with the same name can be placed in the same party.\nAmes and Fio are treated as characters with the same name.
+ルナの塔 EX階バトルスキップ=Luna Tower EX Floor Battle Skip
+ルナの塔のEX階で、パーティ決定直後スキップを行うか設定します。\n※スキップ中は、「AUTO」で戦闘が実行されます。=Sets whether to skip immediately after party selection on EX floors of Luna Tower.\n*During skip, the battle is carried out on “AUTO.”
+EX装備おまかせ装備時の除外設定=Exclusion settings when using Auto-Equip for EX equipment
+「他キャラが装備中のEX装備を選択する」にチェックを入れた際に以下のEX装備を対象から除外します=When “Select EX equipment currently equipped by other characters” is checked, the following EX equipment will be excluded from selection.
+3パーティバトル中の、他キャラが装備しているもの=EX equipment equipped by other characters in 3-party battles
+アリーナの防衛に設定しているキャラが装備しているもの=EX equipment equipped by characters set for Arena defense
+サポートに設定しているキャラが装備しているもの=EX equipment equipped by characters set as Support
+
+
+ミニゲーム スキップの確認ダイアログ表示=Show confirmation dialog when skipping minigames
+ミニゲームでスキップを選択したとき、確認ダイアログを表示するか設定します。=Sets whether to display a confirmation dialog when selecting Skip in a minigame.
+みんなのゲームテーブルのデータ保存設定=Everyone’s Game Table data save settings
+ダウンロードした追加データを保存するか設定します。\n「保存しない」を選択すると、追加データはアプリ起動のたびに削除されます。=Sets whether to save downloaded additional data.\nIf “Do Not Save” is selected, the additional data will be deleted each time the app is launched.
+
+黎明界ラビリンス設定=Dawnrealm Labyrinth settings
+黎明界ラビリンスが解放されている状態でラビリンスパスポートを所持しているとき予定帳に表示するかどうかを設定できます。=Sets whether to display the Dawnrealm Labyrinth in the Schedule when it is unlocked and you possess a Labyrinth Passport.
+コラボレイドイベントのデイリーミッションを達成していないとき、予定帳に表示するかを設定できます。=Sets whether to display the Collaboration Raid Event daily missions in the Schedule when they have not been completed.
+コラボレイドイベントのデイリーミッション設定=Collaboration Raid Event daily mission settings
+

@@ -2183,3 +2183,21 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 森の人気者の歌声に魔物たちが大挙する。血沸き肉躍る野生の宴会が今、開幕する。=Monsters flock to the forest favorite's song. The wild feast that sets blood boiling and flesh dancing now begins.
 宴も終焉、大兎が最後の力を振り絞る。咆哮にも似た壊震の歌声が、３人の夢道を阻む。=The banquet ends; the great rabbit musters its final strength. A roar-like, earth-shaking song blocks the three's path to their dreams.
 バトル開始直後に、さらに攻撃が激しく凶暴になる。=Immediately after battle start, attacks become even fiercer and more violent.
+
+
+前から１番目の敵と周囲に魔法防御力ダウン（必中）=Lowers M.DEF of frontmost enemy and surrounding enemies (unavoidable)
+敵全体に物理／魔法クリダメダウン（飛行効果無視=Lowers all enemies' P.CRIT DMG/M.CRIT DMG (ignores Flight effects)
+先頭に物理ダメージ=Deals P.DMG to frontmost enemy
+味方全体に物理ダメージカット=Grants all allies P.DMG Cut
+味方全体に魔法ダメージカット=Grants all allies M.DMG Cut
+近接攻撃、毒=Melee attack, inflicts Poison
+毒ダメージによるＴＰ回復なし=TP not recovered from Poison DMG
+
+
+敵全体に物理中ダメージを与え、スタンさせる。その後、自身の物理防御力と魔法防御力を特大ダウン。このスキルの状態異常はダメージを無効化しても付与される。=Deals moderate P.DMG and inflicts Stun to all enemies. Then massively lowers own P.DEF and M.DEF. Stun is applied even if DMG is nullified.
+前方３キャラに物理中ダメージを与え、ノックバックさせる。その後、自身の物理防御力と魔法防御力を特大ダウン。このスキルの状態異常はダメージを無効化しても付与される。=Deals moderate P.DMG and knocks back 3 front enemies. Then massively lowers own P.DEF and M.DEF. Knockback applies even if DMG is nullified.
+目の前の１キャラに物理中ダメージを与える。その後、自身の物理防御力と魔法防御力を特大ダウン。=Deals moderate P.DMG to enemy in front. Then massively lowers own P.DEF and M.DEF.
+ユニオンバーストは、敵全体に物理大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。その後、自身の物理防御力と魔法防御力を特大ダウン。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large P.DMG to all enemies, greatly lowering P.ATK and M.ATK. Then massively lowers own P.DEF and M.DEF. Debuffs are applied even if DMG is nullified.
+次元の狭間に誕生した、生きた財宝。煌めく財貨を散らしながら、冒険者に襲い掛かる。=A living treasure born in the dimensional void. It scatters glittering coins as it assails adventurers.
+
+

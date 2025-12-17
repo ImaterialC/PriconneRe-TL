@@ -134,7 +134,6 @@ Difficulty Details
 すべてのモンスターの物理/魔法防御力をアップさせ\nる。=Increases all monster's Physical/Magic Defense.
 クリティカルダウン=Critical Down
 すべてのキャラの物理/魔法クリティカルをダウンさ\nせる。=Lowers all allies' Physical/Magic Critical Stat.
-すべてのキャラのＨＰ吸収をダウンさせる。=Lowers all allies' HP Drain.
 
 すべてのモンスターの物理/魔法防御力をアップさせ\nる。=Increases all monster's Physical/Magic Defense.
 与ダメージアップ=DMG Dealt Bonus
@@ -342,3 +341,8 @@ Image
 50％でオールセレクトサイン×２=50% for All Select Sign x2
 
 ノブレスウィスタリアの効果により、以下のアイテムを入手しました。=Thanks to the effects of Noblesse Wistaria,\nyou have obtained the following items:
+
+r:"^すべてのモンスターが一度の行動で受けるダメージの値が「(\d+)」以上の場合、ダメージの値に応じてダメージ量を減少させる。$"=If the damage value taken by all monsters in a single action is $1 or more, the amount of damage will be reduced according to the damage value.
+魔法クリティカルデバフ=Magic Critical debuff
+
+sr:"^すべてのキャラの(.+)をダウンさせる。$"=Lowers all allies' $1.

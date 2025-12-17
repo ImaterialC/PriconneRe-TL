@@ -739,3 +739,10 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 白銀の大翼弓Ｒ=Platinum Wingspan Ｒ
 エメラルドダガーＲ=Emerald Dagger Ｒ
 ゼロフロストランスＲ=Deepfrost Lance Ｒ
+
+ミレニアムイヤリングＲ=Millennium Earrings Ｒ
+海神の耳飾りＲ=Poseidon Earrings Ｒ
+精霊王の護石Ｒ=Spirit King's Talisman Ｒ
+
+ラフィングスカル=Rafing Skull
+ガイストチェイン=Geist Chain

@@ -27,17 +27,18 @@ r:"^モンスター(\d)体追加$"=Add $1 monster
 シャドウ強化=Shadow Strengthening
 
 sr:"^([べ-ヺー＆＝]+?)(（.+）)?(?:と|、)([べ-ヺー＆＝]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。$"=$1$2 and $3$4's shadow becomes ★6.
----
+------
+リ=Li
+ノ=No
 ([べ-ヺー＆＝]+?)(（.+）)?のシャドウが★6になる。
 $1$2's shadow becomes ★6.
 
 ([べ-ヺー＆＝]+?)(（.+）)?、([べ-ヺー＆＝]+)(（.+）)?、([べ-ヺー＆＝]+)(（.+）)?\n?の\n?シ\n?ャ\n?ド\n?ウ\n?が\n?★\n?6\n?に\n?な\n?る。
 $1$2, $3$4, and $5$6's shadow becomes ★6.
----
+------
+sr:"^([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?のシャドウが★6になる。$"=$1$2$3$4$5$6$7$8$9$10$11$12$13$14’s Shadow becomes ★6
 
-sr:"^([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?のシャドウが★6になる。$"=$1$2$3$4$5$6$7$8$9$10$11$12$13$14’s Shadow becomes ★6
-
----
+------
 ([べ-ヺー＆＝]+?)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。
 Unique Equipment was added to $1$2's Shadow.
 
@@ -46,7 +47,7 @@ Unique Equipment was added to $1$2 and $3$4's Shadow.
 
 ([べ-ヺー＆＝]+?)(（.+）)?、([べ-ヺー＆＝]+)(（.+）)?、([べ-ヺー＆＝]+)(（.+）)?の\n?シ\n?ャ\n?ド\n?ウ\n?に\n?専\n?用\n?装\n?備\n?が\n?追\n?加\n?さ\n?れ\n?る。
 Unique Equipment was added to $1$2, $3$4, $5$6's Shadow.
----
+------
 
 バトル開始時、カーズ・レリックが味方全体を魔法\nダメージ50%カット状態にさせる。=At the start of the battle, Car's Relic will reduce all allies' M.DMG by 50%.
 バトル開始時、カーズ・レリックが味方全体を魔法\nダメージ75%カット状態にさせる。=At the start of the battle, Car's Relic will reduce all allies' M.DMG by 75%.
@@ -103,8 +104,8 @@ sr:"^バトル開始時、(.+)が(\D+)(.+)％カット状態になる。$"=At th
 
 
 編成キャラ数制限=Limited Formation Characters 
-r:"^編成可能キャラ数が(\d+)キャラになる。$"=Characters that can be organized is $1 characters.
-編成制限=Limited
+r:"^編成可能キャラ数が(\d+)キャラになる。$"=Characters that can be organized is $1.
+編成制限=Restricted
 
 バトル開始後一定時間、ボスモンスターの物理攻撃\n力が中アップする。=P.ATK of the Boss Monster is increased to medium for a certain period of time after the battle starts.
 バトル開始後一定時間、ボスモンスターの魔法攻撃\n力が中アップする。=M.ATK of the Boss Monster is increased to medium for a certain period of time after the battle starts.
@@ -129,7 +130,7 @@ r:"^(\[[0-9A-F]{6}\])?次元断層のEXTRA PHASEをクリアしよう(\[-\])?$"=
 
 途中でリタイアした場合、この内容はキャンセルされます。=If you retire on the way, this content will be canceled.
 
-sr:"^([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?のシャドウに専用装備が追加される。$"=UE was added to $1$2$3$4$5$6$7$8$9$10$11$12$13$14’s Shadow
+sr:"^([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?のシャドウに専用装備(１|２)が追加される。$"=Unique Equipment $15 was added to\n$1$2$3$4$5$6$7$8$9$10$11$12$13$14’s Shadow
 
 sr:"^([べ-ヺー＆＝の]+)(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?）)?が追加される。$"=$1$2$3$4$5$6$7$8$9$10$11$12$13$14 were added.
 モンスター追加=Monster Added
@@ -141,6 +142,8 @@ sr:"^([べ-ヺー＆＝の]+)(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?�
 クエストに勝利してゲージが最大になると、トレジャークエストが出現し\nます。トレジャークエストに勝利することでジュエルを獲得できますよ。\n出現したらぜひ挑戦してみてくださいまし。=If you win the quest and fill the gauge to the maximum, a treasure quest will appear. You can get jewels by winning treasure quests. Please try it when it appears.
 
 PHASE5をクリアしたことで、EXTRA PHASEが解放されました。\nEXTRA PHASEでは、すべてのクエストの最大危険度まで挑戦でき\nるようでございます。すべて勝利して完全クリアを目指しましょう。=Clearing PHASE5 unlocked EXTRA PHASE. In EXTRA PHASE, it seems that you can challenge all quests up to the maximum danger level. Let's win all and aim for complete clear.
+
+バトル開始時、すべてのシャドウのＴＰを特大回復。=At the start of battle, all Shadows recover a large amount of TP.
 
 
 リッチゴーレム=Rich Golem

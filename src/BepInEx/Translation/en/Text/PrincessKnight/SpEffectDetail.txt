@@ -16,7 +16,7 @@
 闇属性ボーナス特大アップ=Boosted Dark Element Bonus
 闇属性のキャラが４体以上編成されているとき、キャラの属性ボーナスが強化される。闇属性以外の属性ボーナスを無効化する。=When four or more Dark characters are in the party, boost to Element Bonus. Negates Ele. Bonus for other elements.
 
-ＨＰ吸収ダウン=HP Drain DOWN
+ＨＰ吸収ダウン=HP absorption down
 バトル開始時、すべてのキャラのＨＰ吸収を大ダウンさせる。=At the start of battle, all characters' HP Drain is greatly decreased.
 
 深域モンスター=Deep Zone Monster
