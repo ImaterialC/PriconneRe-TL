@@ -12,7 +12,9 @@
 *.bmp
 *.webp
 *.doc
-*.xdoc
+*.docx
+*.xlsx
+*.xls
 **/Texture/1dump
 **/temp/
 src/BepInEx/Translation/en/Texture/[Dump]/*.*
