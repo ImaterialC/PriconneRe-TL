@@ -25,3 +25,17 @@ r:"^ステータスアップ効果を受けるたびに聖夜の煌きを付与�
 
 ##UE##
 ウィスタリアノエルドレス=Wisteria Noel Dress
+
+
+##UE2##
+ウィスタリアノエルターキー=Wisteria Christmas Turkey
+ブリリアントスラッシュ+=Brilliant Slash+
+【聖夜の煌き】を10消費するが、目の前の敵１キャラに物理特大ダメージを２回与え、自分の物理攻撃力を大アップし、ＴＰを特大回復する。このスキルの発動後、【聖夜の煌き】が20以下の場合、行動パターン変化を解除する。このスキルのスキルレベルは「ブリリアントスラッシュ」と連動しています=Consumes 10 [Christmas Sparkle] to deal massive P.DMG twice to 1 enemy in front, greatly boosts own P.ATK, and massively recovers TP. After activating this skill, cancels action pattern change if [Christmas Sparkle] is 20 or less. This skill's level is linked with "Brilliant Slash."
+目の前の敵１キャラに物理小ダメージを与える。このスキルのダメージは、【聖夜の煌き】の数に応じて増加する。【聖夜の煌き】が50の場合、行動パターンが変化する。=Deals small P.DMG to 1 enemy in front. This skill's damage increases based on the number of [Christmas Sparkle]. Action pattern changes when [Christmas Sparkle] reaches 50.
+パターン変化中=During Pattern Change
+専用装備２を装備すると、行動パターン変化が発生するようになります。=Equipping Dedicated Equipment 2 enables action pattern changes.
+【聖夜の煌き】を10消費するが、目の前の敵１キャラに物理特大ダメージを２回与え、自分の物理攻撃力を大アップし、ＴＰを特大回復する。このスキルの発動後、【聖夜の煌き】が20以下の場合、行動パターン変化を解除する。=Consumes 10 [Christmas Sparkle] to deal massive P.DMG twice to 1 enemy in front, greatly boosts own P.ATK, and massively recovers TP. After activating this skill, cancels action pattern change if [Christmas Sparkle] is 20 or less.
+
+r:"^聖夜の煌きを10消費する敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰを1000回復$"=►Consumes 10 [Holy Night's Radiance].\n►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Boosts own P.ATK by $3.\n►Recovers own TP by 1000.
+
+

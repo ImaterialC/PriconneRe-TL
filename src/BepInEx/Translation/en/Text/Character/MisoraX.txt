@@ -1,0 +1,22 @@
+##Profile##
+【魔法】後衛で、シゲキ的な聖夜に鼓動高鳴る溌溂少女★【イルミネーションバレット】を消費して味方を支援し、40消費後は追加の範囲攻撃やバフでキュン★を届ける。=[Magic] A vivacious rearguard girl whose heart races during the exhilarating Christmas night★ Supports allies by consuming [Illumination Bullets], and after consuming 40, delivers heart-throbbing "kyun★" moments with extra area attacks and buffs.
+
+##UB##
+クラッシュ★クラッカー=Crash★Cracker
+自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、前方の敵すべてに魔法大ダメージを与える。【イルミネーションバレット】が10の場合、すべて消費して、自分を中心とした範囲内の味方すべての魔法攻撃のダメージを小アップする。発動時既にユニオンバーストで【イルミネーションバレット】を40以上消費している場合、追加で前方の敵すべてに魔法特大ダメージを与える。=Massively boosts all allies' M.ATK in a circular area around oneself and slightly boosts M.CRIT DMG, while dealing large M.DMG to all enemies ahead. If [Illumination Bullet] count is 10, consumes them all to slightly boost M.DMG for all allies in a circular area around oneself. If 40+ [Illumination Bullets] have already been consumed by UB at activation, additionally deals massive M.DMG to all enemies ahead.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリダメを10％アップ範囲内の敵に(\d+)の魔法ダメージイルミネーションバレットが10の場合、イルミネーションバレットを10消費するイルミネーションバレットが10の場合、範囲内の味方が与える魔法ダメージを10％アップユニオンバーストでイルミネーションバレットを40以上消費している場合、範囲内の敵に(\d+)の魔法ダメージ$"=►Boosts M.ATK of allies within range by $1.\n►Boosts M.CRIT DMG of allies within range by 10％.\n►Deals $2 M.DMG to enemies within range.\n\nIf [Illumination Bullet] is 10:\n►Consumes 10 [Illumination Bullet].\n►Boosts M.DMG dealt by allies within range by 10％.\n\nIf 40 or more [Illumination Bullet] were consumed by Union Burst:\n►Deals $3 M.DMG to enemies within range.
+
+
+##S1##
+ゆきだる★ぺんぽこりん=Snowman★Penpokorin
+自分を中心とした範囲内の味方すべてのＨＰを小回復、魔法攻撃力を特大アップさせ、前方の敵すべてに魔法大ダメージを与える。さらに【イルミネーションバレット】を３つ獲得する。このスキルがクリティカルした場合、【イルミネーションバレット】の獲得量が６つになる。ユニオンバーストで【イルミネーションバレット】を40以上消費している場合、追加で自分を中心とした範囲内の味方すべての魔法攻撃力を特大アップさせ、前方の敵すべてに魔法大ダメージを与える。=Slightly recovers HP of all allies in a circular area around oneself and massively boosts their M.ATK, while dealing large M.DMG to all enemies ahead. Additionally gains 3 [Illumination Bullets]. If this skill crits, gains 6 [Illumination Bullets] instead. If UB has consumed 40+ [Illumination Bullets], additionally massively boosts M.ATK for all allies in a circular area around oneself and deals large M.DMG to all enemies ahead.
+r:"^範囲内の味方のＨＰを(\d+)回復範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の敵に(\d+)の魔法ダメージこのスキルがクリティカルしていない場合、イルミネーションバレットを(\d+)つ獲得このスキルがクリティカルした場合、イルミネーションバレットを(\d+)つ獲得ユニオンバーストでイルミネーションバレットを40以上消費している場合、以下の効果が発動する範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の敵に(\d+)の魔法ダメージ$"=►Restores HP of allies within range by $1.\n►Boosts M.ATK of allies within range by $2.\n►Deals $3 M.DMG to enemies within range.\n\nIf this skill does not crit:\n►Gains $4 [Illumination Bullet].\n\nIf this skill crits:\n►Gains $5 [Illumination Bullet].\n\nIf 40 or more [Illumination Bullet] were consumed by Union Burst:\n►Boosts M.ATK of allies within range by $6.\n►Deals $7 M.DMG to enemies within range.
+
+##S2##
+メリー★ばっきゅん=Merry★Bakkyun
+自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開し、物理防御力と魔法防御力を中アップ、ＴＰ上昇を小アップ、魔法クリティカルを特大アップさせ、自分のＴＰを小回復し、【イルミネーションバレット】を４つ獲得する。【イルミネーションバレット】は最大10まで獲得できる。ユニオンバーストで【イルミネーションバレット】を40以上消費している場合、追加で【イルミネーションバレット】を６つ獲得し、自分のＴＰを特大回復する。=Deploys a field around oneself that slightly recovers HP of all allies in range, moderately boosts P.DEF and M.DEF, slightly boosts TP Boost, massively boosts M.CRIT RATE, slightly recovers own TP, and gains 4 [Illumination Bullets]. [Illumination Bullets] can be gained up to a maximum of 10. If UB has consumed 40+ [Illumination Bullets], additionally gains 6 [Illumination Bullets] and massively recovers own TP.
+r:"^毎秒ＨＰを(\d+)回復するフィールドを展開する範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方のＴＰ上昇を8アップ範囲内の味方の魔法クリティカルを180アップ自分のＴＰを100回復イルミネーションバレットを(\d+)つ獲得ユニオンバーストでイルミネーションバレットを40以上消費している場合、以下の効果が発動するイルミネーションバレットを(\d+)つ獲得自分のＴＰを1000回復$"=►Deploys a field that recovers HP by $1 per second.\n►Boosts P.DEF of allies within range by $2.\n►Boosts M.DEF of allies within range by $3.\n►Boosts TP Boost of allies within range by 8.\n►Boosts M.CRIT RATE of allies within range by 180.\n►Recovers own TP by 100.\n►Gains $4 [Illumination Bullet].\n\nIf 40 or more [Illumination Bullet] were consumed by Union Burst:\n►Gains $5 [Illumination Bullet].\n►Recovers own TP by 1000.
+
+##EX##
+チャーミング★スカイ=Charming★Sky
+チャーミング★スカイ+=Charming★Sky+

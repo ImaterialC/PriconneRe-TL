@@ -24,3 +24,9 @@ r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカル�
 
 ##UE##
 ハッピーエンジェルボウ=Happy Angel Bow
+
+##UE2##
+エンジェリックラブドレス=Angelic Love Dress
+エンジェルシュート+=Angel Shoot+
+自分の魔法攻撃力を短時間特大アップし、目の前の敵１キャラに魔法大ダメージを３回与える。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。このスキルの初回使用後、行動パターンが変化する。=Massively boosts own M.ATK for a short time and deals large M.DMG 3 times to 1 enemy in front. If this skill crits, the damage becomes 3x instead of 2x. Action pattern changes after the first use of this skill.
+r:"^自分の魔法攻撃力を(\d+)アップ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=►Boosts own M.ATK by $1.\n►Deals $2 M.DMG to a single enemy.\n►Deals $3 M.DMG to a single enemy.\n►Deals $4 M.DMG to a single enemy.

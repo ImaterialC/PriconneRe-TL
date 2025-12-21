@@ -19,3 +19,11 @@ r:"^自分と召喚体以外の残りＨＰの25％を消費味方全体の魔�
 ##EX##
 ラブ＆パニッシュメント=Love & Punishment
 ラブ＆パニッシュメント+=Love & Punishment+
+
+
+##UE##
+シニスターエンジェル=Sinister Angel
+衝雷の投吻+=Thunderbolt Kiss+
+目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。自分にバリアが展開されている場合、このスキルのダメージがアップし、さらに追加の魔法大ダメージを与え、魔法防御力を小ダウンさせる。=Deals moderate M.DMG to 1 enemy in front and slightly reduces their M.DEF. If a barrier is deployed on oneself, boosts this skill's damage, additionally deals large M.DMG, and slightly reduces M.DEF.
+r:"^バリアが展開されていない時、敵単体に(\d+)の魔法ダメージバリアが展開されている時、敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウンバリアが展開されている時、敵単体に(\d+)の魔法ダメージバリアが展開されている時、敵単体の魔法防御力を(\d+)ダウン$"=►When no barrier is active, deals $1 M.DMG to a single enemy.\n►When a barrier is active, deals $2 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $3.\n►When a barrier is active, deals $4 M.DMG to a single enemy.\n►When a barrier is active, lowers a single enemy's M.DEF by $5.
+

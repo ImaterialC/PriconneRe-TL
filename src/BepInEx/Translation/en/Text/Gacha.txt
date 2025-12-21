@@ -29,6 +29,7 @@ Sダッシュ=S:Dash
 対象キャラを仲間にすると=Rate-up recruit bonus:
 選択人数=Select
 
+クリスマス★3確定プラチナガチャ=Guarantee ★3 Christmas Platinum Gacha
 闇属性 選べる★3確定プラチナガチャ=Guarantee ★3 Dark Platinum Gacha
 光属性 選べる★3確定プラチナガチャ=Guarantee ★3 Light Platinum Gacha
 火属性 選べる★3確定プラチナガチャ=Guarantee ★3 Fire Platinum Gacha
@@ -73,7 +74,7 @@ r:"^あと ([0-9:]{8})$"=$1 Left
 限定Sダッシュ=Limited S Dash
 無償=Free
 プライズ=Prize
-キャラ詳細=Characters Details
+キャラ詳細=Chara Details
 有償ジュエルで！=Use Paid Jewels!
 r:"^ストーリー (\d+)話$"=Story Episode $1
 
@@ -207,6 +208,7 @@ r:"^(1?[4-9,0])等に当選し、以下のプライズを入手しました。$"
 1回ガチャを引くごとに、下記リストの中から\nプライズが1つ抽選されます。\n獲得したプライズは直接所持数に加算されます。=One prize from the list below\nwill be drawn for each gacha drawn.
 
 プライズガチャで獲得したプライズ報酬の\n履歴を見ることができます。=You can view the history of the prize rewards you have won in the Prize Gacha.
+10回目ピックアップキャラ出現率3倍ガチャ=10th Pull Pickup Character Appearance Rate x3 Gacha
 
 [FFBB00,CE4F00]ピックアップキャラを選べる！\n『10回引く』で5等以上1個確定！[-]=[FFBB00,CE4F00]You can choose your Rate-up Character!!\n"Draw 10 times" to guarantee a 5th prize or higher! [-]
 ピックアップキャラ選択=Select Focus Character

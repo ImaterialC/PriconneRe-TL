@@ -1,7 +1,7 @@
 ##Profile##
 スーパースターを目指す元気娘☆☆★=Energetic girl aiming to be a superstar ☆☆★
 
-【魔法】後衛で攻防共に活躍するパッション溢れる少女。\nダメージを受けた味方中心に回復魔法で補助をし、\nさらに魔法攻撃を仕掛けて、敵を一網打尽にする。=[Magic] A passionate girl who contributes to both offense and defense from the rearguard. While supporting damaged allies with targeted healing, she fires off magical attacks to decimate the enemy formation.
+【魔法】後衛で攻防共に活躍するパッション溢れる少女。ダメージを受けた味方中心に回復魔法で補助をし、さらに魔法攻撃を仕掛けて、敵を一網打尽にする。=[Magic] A passionate girl who contributes to both offense and defense from the rearguard. While supporting damaged allies with targeted healing, she fires off magical attacks to decimate the enemy formation.
 
 ##UB##
 スパークル・マジック=Sparkle Magic
@@ -26,3 +26,8 @@ r:"^１番目に近い敵単体に(\d+)の魔法ダメージ２番目に近い�
 
 ##UE##
 ステージオブパッション=Passion Stage
+
+##UE2##
+スターライトドレス・ミオ=Starlight Dress Mio
+進め☆ファイトエール+=Forward☆Fight Yell+
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復するフィールドを展開する自分のＴＰを150回復$"=►Boosts M.ATK of allies within range by $1.\n►Restores HP of allies within range by $2.\n►Deploys a field that recovers HP by $3 per second.\n►Recovers own TP by 150.

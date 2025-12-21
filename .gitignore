@@ -6,6 +6,13 @@
 *.srt
 *.psd
 *.7z
+*.pdf
+*.jpg
+*.jpeg
+*.bmp
+*.webp
+*.doc
+*.xdoc
 **/Texture/1dump
 **/temp/
 src/BepInEx/Translation/en/Texture/[Dump]/*.*
@@ -21,6 +28,8 @@ src/BepInEx/Translation/en/Text/4_Temp.txt
 src/BepInEx/Translation/en/Texture/*.*
 src/BepInEx/Translation/en/Texture/Atlas/*.json
 src/BepInEx/Translation/en/Texture/Untranslated
-
+src/BepInEx/Translation/en/plugins/ArmoryExporter.dll
+src/BepInEx/Translation/en/plugins/PriconneQOL.dll
 src/BepInEx/Translation/en/Texture/[Dump]
+src/BepInEx/config/PriconneQoL.cfg
 **/desktop.ini

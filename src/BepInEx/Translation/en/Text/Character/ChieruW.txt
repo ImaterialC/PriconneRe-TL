@@ -24,3 +24,10 @@ r:"^ステータスアップ効果を受けるたびに自分にちぇるを付�
 ##EX##
 春夏秋冬☆ちぇるんな子=Spring, Summer, Autumn, Winter☆Chierun~nako
 春夏秋冬☆ちぇるんな子+=Spring, Summer, Autumn, Winter☆Chierun~nako+
+
+
+##UE2##
+ちぇるるんるん☆ふろーと=Cherurunrun☆Float
+ちぇるすぺ☆うぃんどみる+=Cheruspe☆Windmill+
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせ、味方全体の物理攻撃力を特大アップさせる。このダメージは【ちぇる】の数に応じて最大30個分まで増加する。【ちぇる】が30以上の時、追加で味方全体の物理攻撃力と物理クリティカルを大アップする。=Deals large P.DMG to 1 enemy in front, slightly reduces P.DEF, and massively boosts all allies' P.ATK. This damage increases based on the number of [Chieru], up to a maximum equivalent of 30. If [Chieru] is 30+, additionally greatly boosts all allies' P.ATK and P.CRIT RATE.
+r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンちぇるが30以上の時、味方全体の物理攻撃力を(\d+)アップちぇるが30以上の時、味方全体の物理クリティカルを100アップ$"=►Boosts all allies' P.ATK by $1.\n►Deals $2 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $3.\n\nIf [Chieru] is 30 or more:\n►Boosts all allies' P.ATK by $4.\n►Boosts all allies' P.CRIT RATE by 100.

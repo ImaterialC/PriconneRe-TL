@@ -6,6 +6,7 @@ r:"^シーズン(\d+)は開催されていません。$"=Season $1 is not open y
 トレジャーは売却できません。=Treasures cannot be sold.
 
 r:"^キャラバンコイン（シーズン([0-9,]+)）$"=Caravan Coins (Season $1)
+r:"^キャラバンコイン（シーズン([0-9,]+)）ｘ(\d+)$"=Caravan Coin (Season $1) ｘ$2
 r:"^トレジャーの清算で獲得できる特別\nな通貨。キャラバンショップの\n「シーズン([0-9,]+)」タブで買い物ができ\nる。$"=A special currency that can be obtained through the appraisal of Treasures. It can be used for shopping in the Season $1 tab of the Caravan Shop.
 
 ---about to buy---

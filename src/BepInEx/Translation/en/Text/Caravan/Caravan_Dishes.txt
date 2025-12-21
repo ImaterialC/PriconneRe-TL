@@ -320,3 +320,30 @@ sr:"^(.+)を([0-9,]+)個獲得…$"=Obtain $2 x $1.
 出たダイスの目が偶数だった場合、\n+1進める=If the dice roll is an even number, move forward +1.
 【仲間】出たダイスの目が偶数だった場合、1マス分多く進める=[Friend] If the dice roll is an even number, move forward one tile.
 \n「まとめて３個」モードでダイスを振ると、\n出現中の仲間効果は消失します。\nダイスを振ってもよろしいですか？=\nIf you roll the dice in "Three at once" mode,\nany active companion effects will disappear. \nAre you sure you want to roll the dice?
+
+
+
+
+
+
+```
+ユキノ製ごろっと果実のかちこち氷菓子=Yukino’s Chunky Fruit Rock-Solid Ice Treat
+アイラのみんなで飲みたい赤麦しゅわ=Aira’s Everyone-Wants-to-Drink Fizzy Red Barley
+集めたリンゴはマイルと交換させていただきます。金リンゴは、赤リンゴ5個分の価値がありますよ♪さらに宝箱をキャッチすると、トレジャーがGETできます！=Collected apples can be exchanged for Miles. A Gold Apple is worth five Red Apples♪ Catch treasure chests to get treasures as well!
+レイの釣りたて鮮魚七輪塩焼き=Rei’s Freshly Caught Fish Charcoal-Grilled with Salt
+2ターンの間、すべての「マイルマス」をランク3の「ショップマス」に変化させる。=For 2 turns, all “Mile Tiles” are transformed into Rank 3 “Shop Tiles.”
+ヴァンピィちゃんのさいきょースープ=Vampy-chan’s Ultimate Soup
+
+3ターンの間、すべての「マイルマス」をランク3の「トレジャーマス」に変化させる。=For 3 turns, all “Mile Tiles” are transformed into Rank 3 “Treasure Tiles.”
+
+ダイスを2回振るまでの間、出る目が「4・5・6」のみになる=Until you roll the dice twice, only “4, 5, or 6” can appear.
+[3C404E][FF7C4E,D62146]【上書き不可】[-]このターンに振るダイスの目を必ず「7」に、次のターンに振るダイスの目を必ず「2」にする。[-]=[3C404E][FF7C4E,D62146][Cannot be overwritten][-]The die roll this turn is guaranteed to be “7,” and the die roll next turn is guaranteed to be “2.”[-]
+
+この我に店番させるとは…全て買わねば許さぬぞ我が国庫に貢献するが良い=To think you would make me tend the shop… I shall not forgive you unless you buy everything. Contribute to my treasury.
+ギガンティックローチェ、おひとついかがですかっ？格納庫用意して下さいねっ=How about a Gigantic Roche? Please prepare a hangar!
+…リマさんのブロマイド？買い取るに決まってらぁ！なんでも持ってけ泥棒っ！=…Rima’s bromide? Of course I’ll buy it! Take whatever you want, you thief!
+アナライズっ！本日のオススメ商品は～…こちらですっ♪=Analyze! Today’s recommended item is… this one♪
+クルルをお求めですかっ？それならお礼に、こちらの jewels もどうぞですよ～♪=Are you looking for Kururu? Then as a thank-you, please take these jewels as well♪
+よぅ！　今日の俺さまは門番じゃなく、店番だぜメモピ～スフィア～てな！=Yo! Today I’m not a gatekeeper, I’m a shopkeeper—Memo-Pi~Sphere~!
+こ、この格好は…ヴルムが集客効果があると言って……本当でしょうか？=Th-this outfit is… Vurm said it would attract customers… Is that really true?
+はっ！　ヒーローさんからお代なんて頂けないです！どうぞどうぞ…え、ダメ？=Ah! I can’t accept payment from a hero! Please, go ahead… Huh, no?

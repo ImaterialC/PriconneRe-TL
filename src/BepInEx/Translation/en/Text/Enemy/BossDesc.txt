@@ -2201,3 +2201,11 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 次元の狭間に誕生した、生きた財宝。煌めく財貨を散らしながら、冒険者に襲い掛かる。=A living treasure born in the dimensional void. It scatters glittering coins as it assails adventurers.
 
 
+私がキミの力になってあげる\nお給料の相談は、またあとでね=I’ll be your strength.\nWe can talk about my pay later.
+バトル中継続物理攻撃力アップ=Continuous Physical Attack Power Up (During Battle)
+バトル開始後一定時間ごとに、すべてのモンスターの物理攻撃力を中\nアップさせる。=At fixed intervals after the battle starts, moderately increases the physical attack power of all monsters.
+バトル開始後一定時間ごとに、すべてのモンスターの魔法攻撃力を中\nアップさせる。=At fixed intervals after the battle starts, moderately increases the magic attack power of all monsters.
+バトル中継続魔法攻撃力アップ=Continuous Magic Attack Power Up (During Battle)
+バトル中、「バトル中継続物理攻撃力アップ」効果が発動する。=During battle, the effect “Continuous Physical Attack Power Up (During Battle)” is activated.
+
+

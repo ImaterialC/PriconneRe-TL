@@ -59,6 +59,8 @@ Lv強化=Level Up
 消費装備=Equipment Consumed
 キャラLvとスキルLvのみ強化=Ignore equips
 上限解放する=Uncap
+無料対象のLv強化を行ってください。=Please upgrade your level for free.
+強化、上限解放済みを含める=Includes enhanced and uncapped items
 
 装備/作成確認=Equipment/Confirm Creation
 必要作成Pt=Required creation Pt

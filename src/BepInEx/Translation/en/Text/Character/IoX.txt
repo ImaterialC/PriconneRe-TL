@@ -23,3 +23,10 @@ r:"^自分以外の最も魔法攻撃力が高い味方１キャラに悪魔の�
 ##EX##
 シークレットレッスン=Secret Lessons
 シークレットレッスン+=Secret Lessons+
+
+##Io Xmas##
+チャーミングホワイト=Charming White
+スウィートハートプレゼント+=Sweet Heart Present+
+目の前の敵１キャラの魔法防御力を小ダウン、魔法攻撃力を特大ダウンさせる。さらに【悪魔の口づけ】が付与されている味方の魔法攻撃力を特大アップ、魔法攻撃クリティカル時のダメージを小アップ、ＴＰを小回復させ、そのキャラを中心とした範囲内の味方すべての魔法攻撃力を大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。=Slightly reduces M.DEF and massively reduces M.ATK of 1 enemy in front. Additionally, massively boosts M.ATK, slightly boosts M.CRIT DMG, and slightly recovers TP for allies afflicted with [Devil's Kiss], while greatly boosting M.ATK and slightly boosting M.CRIT DMG for all allies in a circular area around that character.
+r:"^敵単体の魔法防御力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリダメを10％アップ対象の味方のＴＰを100回復範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリダメを4％アップ$"=►Lowers a single enemy's M.DEF by $1.\n►Lowers a single enemy's M.ATK by $2.\n►Boosts target ally's M.ATK by $3.\n►Boosts target ally's M.CRIT DMG by 10％.\n►Recovers target ally's TP by 100.\n►Boosts M.ATK of allies within range by $4.\n►Boosts M.CRIT DMG of allies within range by 4％.
+

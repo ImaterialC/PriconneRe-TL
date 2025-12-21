@@ -28,3 +28,11 @@ r:"^対象の味方を挑発状態にする対象の味方の物理防御力を(
 
 ##UE##
 ハッピーエンジェルアロー=Happy Angel Arrow
+
+
+
+##UE2##
+エンジェリックピュアドレス=Angelic Pure Dress
+エンジェルブレッシング+=Angel Blessing+
+味方全体の魔法攻撃力を特大アップ、物理クリティカルと魔法クリティカルを大アップ、物理防御力と魔法防御力を小アップさせ、さらにＨＰを小回復する。また、自分のＴＰを中回復する。=Massively boosts all allies' M.ATK, greatly boosts P.CRIT RATE and M.CRIT RATE, slightly boosts P.DEF and M.DEF, and additionally slightly recovers HP. Also moderately recovers own TP.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理クリティカルを125アップ味方全体の魔法クリティカルを125アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復自分のＴＰを150回復$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' P.CRIT RATE by 125.\n►Boosts all allies' M.CRIT RATE by 125.\n►Boosts all allies' P.DEF by $2.\n►Boosts all allies' M.DEF by $3.\n►Restores all allies' HP by $4.\n►Recovers own TP by 150.

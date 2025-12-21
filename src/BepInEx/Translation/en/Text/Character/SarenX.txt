@@ -33,17 +33,10 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の�
 ##UE##
 サレンディアノエルドレス=Sarendia Noel Dress
 
-##Comments##
+##Saren Xmas##
+サレンディアノエルケーキ=Sarendia Christmas Cake
+ルミナスバレット+=Luminous Bullet+
+目の前の最大３キャラまでの敵に物理中ダメージを与え、物理防御力を小ダウンさせる。さらに、最もＨＰが低い味方１キャラのＨＰを中回復させ、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。=Deals moderate P.DMG to up to 3 enemies in front and slightly reduces their P.DEF. Additionally, moderately recovers HP of the ally with the lowest HP, massively boosts all allies' P.ATK, greatly boosts P.CRIT RATE, and slightly boosts P.CRIT DMG.
+r:"^１番目に近い敵単体に(\d+)の物理ダメージ１番目に近い敵単体の物理防御力を(\d+)ダウン２番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体の物理防御力を(\d+)ダウン３番目に近い敵単体に(\d+)の物理ダメージ３番目に近い敵単体の物理防御力を(\d+)ダウン味方単体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の物理クリダメを3％アップ$"=►Deals $1 P.DMG to the closest enemy.\n►Lowers the closest enemy's P.DEF by $2.\n►Deals $3 P.DMG to the second closest enemy.\n►Lowers the second closest enemy's P.DEF by $4.\n►Deals $5 P.DMG to the third closest enemy.\n►Lowers the third closest enemy's P.DEF by $6.\n►Restores a single ally's HP by $7.\n►Boosts all allies' P.ATK by $8.\n►Boosts all allies' P.CRIT RATE by 100.\n►Boosts all allies' P.CRIT DMG by 3％.
 
-お金をかけなくても素敵な\nクリスマスが過ごせるってこと\n見せてあげるわ！=I'll show you that you don't have to spend a fortune to have a wonderful Christmas!
-子どもってクリスマスが好きよね\nまあ、あたしも人のこと\n言えないけど…何だか\n楽しい気分になれるのよね=Kids really love Christmas, don't they? Well, I can't really blame them... it just puts me in a really happy mood, too.
-子どもたちが笑顔で\nクリスマスを\n過ごせること\nそれが一番の幸せよ=The happiest thing for me is when children can spend Christmas with a smile on their faces.
-せっかくのクリスマスなのに\n暇そうね。仕方ない、少しだけ\n付き合ってあげるわ。何か\n温かい物でも飲みに行きましょ？=It looks like you're bored even though it's Christmas. Oh well, I guess I'll keep you company for a little while. Let's go get something warm to drink, shall we?
-え、ドレスが似合ってる？\nそ、そう…ありがと…\nあんたに褒めてもらうのって…\nうれしいわ=Eh? You think this dress suits me? I-Is that so...? Thank you... It makes me happy to be praised by you.
-さあ、熱く楽しいクリスマスを\n始めるわよ！\n寒がってる暇なんて\nないんだからね♪=Now, let's start a hot and fun Christmas! There's no time to be feeling cold♪
-少しエレガントじゃないかも\nしれないけど、許してね？\nあたし、目いっぱいクリスマスを\n楽しんじゃうんだから♪=I may be a little less elegant, but you'll have to forgive me, okay? I'm going to enjoy Christmas to the fullest.
-あんたと一緒のクリスマス…\n結構いい感じね♪\n気の許せる相手と\n過ごせるのって…幸せよね=Spending Christmas with you... feels pretty good♪. Being able to spend time with someone I can trust and feel at ease with... it's just happiness.
-外にいるのに何だか暑いって\n思うのは、もしかして…\nあんたが隣にいるから\nなのかしら…？=Even though I'm outside, I feel like it's hot, is it perhaps because you're next to me...?
-高級レストランで豪華なディナー\nなんてのは柄じゃないし\nあんたがいてくれれば、それが…\nその…さ、最高のクリスマスよ！=I'm not cut out for fancy dinners at high-end restaurants. But if you're here with me, then... Well, it'll be the best Christmas ever!
-ハッピーバースデー！\n子どもたちからあんたに\nプレゼントがあるみたい\nあたしも…一応用意してあるわ=Happy Birthday! Looks like the kids have a present for you. I've prepared one for you, too.
-ええと…誕生日おめでとう\nこれから一緒にプレゼントを\n見に行かない？\nデ、デートじゃないわよ、もう！=Umm... Happy Birthday! Why don't we go see the presents together? It's not a date, geez!
+
