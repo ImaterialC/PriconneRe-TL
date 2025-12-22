@@ -45,6 +45,4 @@ r:"^Lv(\d+)まで$"=Until Lv$1
 ---attempt---
 挑戦回数アップ=Increase attempt count
 
-sr:"^\[475F7B\](.+?)((?:（|\().+(?:）|\)))?の挑戦回数が通常よりも(\d+)回増加[-]=[475F7B]$3
-
-[475F7B]メインクエスト（HARD）の挑戦回数が通常よりも3回増加[-]=[475F7B] The number of attempts for the $1$2 has increased by $3 times.
+sr:"^\[475F7B\](.+?)((?:（|\().+(?:）|\)))?\n?の\n?挑戦回数が通常よりも(\d+)回増加\[-\]$"=[475F7B]The number of attempts for the $1$2 has increased by $3 times.[-]
