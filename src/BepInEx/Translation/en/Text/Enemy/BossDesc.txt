@@ -2209,3 +2209,14 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 バトル中、「バトル中継続物理攻撃力アップ」効果が発動する。=During battle, the effect “Continuous Physical Attack Power Up (During Battle)” is activated.
 
 
+敵全体に沈黙=Inflicts silence on all enemies.
+前から敵１体にＴＰダウン=Reduces TP of one enemy in front.
+前から敵１体にＵＢ封印=Seals the Union Burst of one enemy in front.
+敵全体に魔法防御力ダウン解除=Removes M.DEF reduction effects from all enemies.
+魔法攻撃をする敵全体に魔法攻撃力ダウン=Reduces M.ATK of all enemies that use magic attacks.
+物理攻撃をする敵全体に物理攻撃力ダウン=Reduces P.ATK of all enemies that use physical attacks.
+邪教の秘術を極めし、山羊座の魔星獣。\n膨大な魔力を自在に操り、全ての自由を剥奪する。=A Capricorn magical beast that has mastered heretical secret arts. It freely manipulates immense magical power, stripping away all freedom.
+敵全体に物理／魔法クリダメダウン=Reduces P.CRIT DMG and M.CRIT DMG of all enemies.
+後ろから敵２体にＴＰ上昇ダウン=Reduces TP Boost of the two backmost enemies.
+自身に物理無効バリア=Grants self a barrier that nullifies P.DMG.
+自身に魔法無効バリア=Grants self a barrier that nullifies M.DMG.
