@@ -2,7 +2,7 @@
 ユイ=Yui
 レイ=Rei
 ペコリーヌ=Pecorine
-コッコロ=Kokkoro;KKR;kokoro;mama
+コッコロ=Kokkoro;KKR;kokoro;mama;korosuke
 キャル=Karyl;Kyaru
 シェフィ=Sheffy;Sheffi;Shefi
 アメス=Ameth;Ames
@@ -127,7 +127,7 @@
 アユミ（ワンダー）=Ayumi (Wonderland);WAyumi;Wonderland
 アカリ（エンジェル）=Akari (Angel);AAkari;Angel
 ヨリ（エンジェル）=Yori (Angel);AYori;Angel
-コッコロ（儀装束）=Kokkoro (Ceremonial);Kokoro (Ceremonial);KKR (Ceremonial);CKKR;CKokoro;CKokkoro;Ceremonial;mama
+コッコロ（儀装束）=Kokkoro (Ceremonial);Kokoro (Ceremonial);KKR (Ceremonial);CKKR;CKokoro;CKokkoro;Ceremonial;korosuke;mama
 ユイ（儀装束）=Yui (Ceremonial);CYui;Ceremonial
 チカ（儀装束）=Chika (Ceremonial);CChika;Ceremonial
 ランファ（儀装束）=Ranpha (Ceremonial);Ranfa (Ceremonial);CRanpha;CRanfa;Ceremonial
@@ -182,7 +182,7 @@
 ムイミ（リベレイター）=Muimi (Liberator);LMuimi;Noemu;Liberator
 タマキ（カフェ）=Tamaki (Cafe);CTamaki;Cafe
 モニカ（カフェ）=Monika (Cafe);CMonika;Cafe
-コッコロ（レンジャー）=Kokkoro (Ranger);Kokoro;KKR;RKKR;Ranger;RKokoro;Rkokkoro;mama
+コッコロ（レンジャー）=Kokkoro (Ranger);Kokoro;KKR;RKKR;Ranger;RKokoro;Rkokkoro;korosuke;mama
 シオリ（レンジャー）=Shiori (Ranger);RShiori;Ranger
 ジータ（ウォーロック）=Djeeta (Warlock);WDjeeta;zeta;zeeta;Wzeta;wzeeta;Collab;Granblue
 カリン（アルケミスト）=Karin (Alchemist);AKarin;Alchemist
@@ -194,7 +194,7 @@
 シェフィ（プリンセス）=Sheffy (Princess);PSheffy;Shefi;Shefy;Princess
 ペコリーヌ（プリンセス）=Pecorine (Princess);PPecorine;Princess
 ぺコリーヌ（プリンセス）=Pecorine (Princess);PPecorine;Princess
-コッコロ（プリンセス）=Kokkoro (Princess);Kokoro;KKR;PKKR;Princess;Pkokoro;Pkokkoro;mama
+コッコロ（プリンセス）=Kokkoro (Princess);Kokoro;KKR;PKKR;Princess;Pkokoro;Pkokkoro;korosuke;mama
 キャル（プリンセス）=Karyl (Princess);Kyaru (Princess);PKyaru;PKaryl;Princess
 サレン（サラサリア）=Saren (Salasaria);SaSaren;Mama;Salasaria;Sarasaria
 ルカ（サラサリア）=Ruka (Salasaria);SaRuka;Salasaria;Sarasaria
@@ -209,7 +209,7 @@
 ユイ（サマー）=Yui (Summer);SYui;Summer;Swimsuit;Bikini
 レイ（サマー）=Rei (Summer);SRei;Summer;Swimsuit;Bikini
 ペコリーヌ（サマー）=Pecorine (Summer);SPecorine;Summer;Swimsuit;Bikini
-コッコロ（サマー）=Kokkoro (Summer);KKR (Summer);kokoro (Summer);mama (Summer);SKokkoro;SKKR;Skokoro;Smama;Summer;Swimsuit;Bikini
+コッコロ（サマー）=Kokkoro (Summer);KKR (Summer);kokoro (Summer);mama (Summer);SKokkoro;SKKR;Skokoro;Smama;Summer;Swimsuit;korosuke;Bikini
 キャル（サマー）=Karyl (Summer);Kyaru (Summer);SKaryl;SKyaru;Summer;Swimsuit;Bikini
 シェフィ（サマー）=Sheffy (Summer);Sheffi (Summer);SSheffy;SSheffi;Summer;Swimsuit;Bikini
 アメス（サマー）=Ameth (Summer);Ames (Summer);SAmeth;SAmes;Summer;Swimsuit;Bikini
@@ -301,7 +301,7 @@
 ユイ（ハロウィン）=Yui (Halloween);HYui;Halloween
 レイ（ハロウィン）=Rei (Halloween);HRei;Halloween
 ペコリーヌ（ハロウィン）=Pecorine (Halloween);HPecorine;Halloween
-コッコロ（ハロウィン）=Kokkoro (Halloween);KKR (Halloween);kokoro (Halloween);mama (Halloween);HKokkoro;HKKR;Hkokoro;Hmama;Halloween
+コッコロ（ハロウィン）=Kokkoro (Halloween);KKR (Halloween);kokoro (Halloween);mama (Halloween);HKokkoro;HKKR;Hkokoro;Hmama;korosuke;Halloween
 キャル（ハロウィン）=Karyl (Halloween);Kyaru (Halloween);HKaryl;HKyaru;Halloween
 シェフィ（ハロウィン）=Sheffy (Halloween);Sheffi (Halloween);HSheffy;HSheffi;Halloween
 アメス（ハロウィン）=Ameth (Halloween);Ames (Halloween);HAmeth;HAmes;Halloween
@@ -389,7 +389,7 @@
 ユイ（クリスマス）=Yui (Holiday);XYui;Holiday;Christmas;Xmas
 レイ（クリスマス）=Rei (Holiday);XRei;Holiday;Christmas;Xmas
 ペコリーヌ（クリスマス）=Pecorine (Holiday);XPecorine;Holiday;Christmas;Xmas
-コッコロ（クリスマス）=Kokkoro (Holiday);KKR (Holiday);kokoro (Holiday);mama (Holiday);XKokkoro;XKKR;Xkokoro;Xmama;Holiday;Christmas;Xmas
+コッコロ（クリスマス）=Kokkoro (Holiday);KKR (Holiday);kokoro (Holiday);mama (Holiday);XKokkoro;XKKR;Xkokoro;Xmama;Holiday;Christmas;korosuke;Xmas
 キャル（クリスマス）=Karyl (Holiday);Kyaru (Holiday);XKaryl;XKyaru;Holiday;Christmas;Xmas
 シェフィ（クリスマス）=Sheffy (Holiday);Sheffi (Holiday);XSheffy;XSheffi;Holiday;Christmas;Xmas
 アメス（クリスマス）=Ameth (Holiday);Ames (Holiday);XAmeth;XAmes;Holiday;Christmas;Xmas
@@ -477,7 +477,7 @@
 ユイ（ニューイヤー）=Yui (New Year);NyYui;Nyui;New Year;Kimono
 レイ（ニューイヤー）=Rei (New Year);NyRei;New Year;Kimono
 ペコリーヌ（ニューイヤー）=Pecorine (New Year);NyPecorine;New Year;Kimono
-コッコロ（ニューイヤー）=Kokkoro (New Year);KKR (New Year);kokoro (New Year);mama (New Year);NyKokkoro;NyKKR;Nykokoro;Nymama;New Year;Kimono
+コッコロ（ニューイヤー）=Kokkoro (New Year);KKR (New Year);kokoro (New Year);mama (New Year);NyKokkoro;NyKKR;Nykokoro;korosuke;Nymama;New Year;Kimono
 キャル（ニューイヤー）=Karyl (New Year);Kyaru (New Year);NyKaryl;NyKyaru;New Year;Kimono;Nyaru
 シェフィ（ニューイヤー）=Sheffy (New Year);Sheffi (New Year);NySheffy;NySheffi;New Year;Kimono
 アメス（ニューイヤー）=Ameth (New Year);Ames (New Year);NyAmeth;NyAmes;New Year;Kimono
@@ -618,3 +618,7 @@
 
 
 ヒヨリ（サラサリア）=Hiyori (Salasaria);SaHiyori;Salasaria;Sarasaria
+
+
+
+コッコロ（嚮導幼君）=KKRLG;LGKKR;LGKokkoro;LGKokoro;Little GuidanceKokkoro;KokkoroAdult;kokoroLG;mama;LGmama;Kokkoro;korosuke

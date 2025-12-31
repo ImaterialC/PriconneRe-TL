@@ -1,7 +1,7 @@
 chris & matsuri encounter
 魔物たちが集まる闘技場を見つけた！=Found an arena where monsters are gathering!
 バトルマス(EXTREME)の\n敵に挑戦する\n＋アルファルピ=Challenge an enemy in Battle Tile (EXTREME) + αRupees
-強敵との戦いは心躍る！=Fighting a strong opponent excites me!
+強敵との戦いは心躍る！=Fighting a strong\nopponent excites me!
 バトルマス(NORMAL)の\n敵に挑戦する\n＋アルファルピ=Challenge an enemy in Battle Tile (NORMAL) + αRupees
 腕試しッス！=Let's test our skills!
 サポートキャラはマイパーティに設定できません。=Support characters can't be set to your own party.
@@ -45,7 +45,7 @@ jun tomo
 ruka fishing
 釣りスポットを発見！=Found a fishing spot!
 50％で★1迷宮遺物×1\nさらに次のイベントへ=50% for ★1 Labyrinth Relic x1, and move to the next event.
-のんびり\n釣りでもしようか=Why don't we take our time fishing?
+のんびり\n釣りでもしようか=Why don't we take\nour time fishing?
 25％で★2迷宮遺物×1\nさらに次のイベントへ=25% for ★2 Labyrinth Relic x1, and move to the next event.
 もう一回挑戦だ！=Let's try again!
 ラッキー！もう一回釣れるぞ！=Lucky! I can catch another one!

@@ -2064,8 +2064,7 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 
 
 ゲームにログインしよう=log in to the game
-消費チケット1枚=One spending ticket
-1度に10枚使用しても10連目が★2以上確定になりません。=Even if you use ten cards at once, you won't be able to confirm that the tenth row is ★2 or higher.
+1度に10枚使用しても10連目が★2以上確定になりません。=Even if you use ten cards at once, you won't be\nable to confirm that the tenth row is ★2 or higher.
 ザ・ハーヴェスト=The Harvest
 EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy appears at a fixed rate during an EXtreme battle.
 強敵出現=A formidable enemy appears
@@ -2135,12 +2134,12 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 自身のＴＰ上昇をバトル終了まで中アップさせ、行動速度をバトル終了まで大アップさせる。その後、自身の物理防御力と魔法防御力をバトル終了まで小ダウンさせる。=Moderately boosts own TP Boost and greatly boosts Action Speed until battle ends. Then slightly lowers own P.DEF/M.DEF until battle ends.
 最も近い敵１キャラに物理特大ダメージを与える。その後、自身の物理防御力と魔法防御力をバトル終了まで小ダウンさせる。=Deals extreme P.DMG to nearest enemy. Then slightly lowers own P.DEF/M.DEF until battle ends.
 
-アルトリクス=Artricks  
-色欲の魔女の手先として聖夜に降り立つ怪鳥。無窮の愛を求め尾羽から咽返るような色香を放ち、物皆総てを艶美なその姿に耽溺させる。=A monstrous bird that descends on the Holy Night as a servant of the Witch of Lust. Emitting a hypnotic allure from its tail feathers in its quest for boundless love, it captivates all with its luscious beauty.  
-対象が誘惑状態：ダメージアップ、誘惑解除=If target is under Temptation: DMG increased, then removes Temptation  
-敵全体に物理／魔法与ダメダウン、誘惑=Lowers P.DMG/M.DMG dealt by all enemies, and inflicts Temptation  
-自身に割合ダメージ無効=Grants self Percentage DMG Immunity  
-前方範囲に物理／魔法与ダメダウン、誘惑=Lowers P.DMG/M.DMG dealt in forward area, and inflicts Temptation  
+アルトリクス=Artricks
+色欲の魔女の手先として聖夜に降り立つ怪鳥。無窮の愛を求め尾羽から咽返るような色香を放ち、物皆総てを艶美なその姿に耽溺させる。=A monstrous bird that descends on the Holy Night as a servant of the Witch of Lust. Emitting a hypnotic allure from its tail feathers in its quest for boundless love, it captivates all with its luscious beauty.
+対象が誘惑状態：ダメージアップ、誘惑解除=If target is under Temptation: DMG increased, then removes Temptation
+敵全体に物理／魔法与ダメダウン、誘惑=Lowers P.DMG/M.DMG dealt by all enemies, and inflicts Temptation
+自身に割合ダメージ無効=Grants self Percentage DMG Immunity
+前方範囲に物理／魔法与ダメダウン、誘惑=Lowers P.DMG/M.DMG dealt in forward area, and inflicts Temptation
 
 
 
@@ -2220,3 +2219,22 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 後ろから敵２体にＴＰ上昇ダウン=Reduces TP Boost of the two backmost enemies.
 自身に物理無効バリア=Grants self a barrier that nullifies P.DMG.
 自身に魔法無効バリア=Grants self a barrier that nullifies M.DMG.
+
+
+
+後ろから敵１体に魔法ダメージ=Deals M.DMG to rearmost enemy
+解除不可=Undispellable
+自身に魔法攻撃力アップ解除=Removes own M.ATK Up
+とある目的で黎明界に仕込まれた奸計。七冠が一人、幻境竜后による蠢動を具象化させた姿。その外見は古の防衛兵器に酷似している。=A scheme planted in the Dawn Realm for a hidden purpose. A manifestation of the Phantom Dragon Empress's machinations, materialized by one of the Seven Crowns. Its form closely resembles an ancient defense weapon.
+レリック１体召喚=Summons 1 Relic
+シールド=Shield
+敵全体に物理／魔法防御力アップ=Boosts all enemies' P.DEF/M.DEF
+デアムに物理／魔法ダメージカット=Grants Deam P.DMG/M.DMG Cut
+味方の召喚体に継続ダメージアップ=Boosts Continuous DMG for allied summons
+ブレイク=Break
+デアムに物理／魔法防御力ダウン=Lowers Deam's P.DEF/M.DEF
+敵全体に物理／魔法防御力ダウン（飛行効果無視）=Lowers all enemies' P.DEF/M.DEF (ignores Flight effects)
+アタック=Attack
+レリック=Relic
+【死亡時発動】=【Activates when destroyed】
+ランダムな敵１体に魔法ダメージ×３回=Deals M.DMG to a random enemy 3 times

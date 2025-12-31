@@ -78,6 +78,11 @@ r:"^あと ([0-9:]{8})$"=$1 Left
 有償ジュエルで！=Use Paid Jewels!
 r:"^ストーリー (\d+)話$"=Story Episode $1
 
+キャラ交換Ptに応じて、以下のアイテムが獲得できます。=Depending on Character Exchange Pt, the following items can be obtained.
+対象キャラクターが交換可能！=Target characters exchangeable!
+このメッセージを自動表示しない※メニューから設定が可能です=Do not auto-display this message ※Can be set from menu
+r:"^(\d+)Ptで $"=$1 Pts
+
 キャラ交換=Exchange
 
 キャラ交換Ptを200Pt消費して、\n対象のラインナップから1キャラ仲間にできます。=You can use 200 Chara Exchange Points to recruit one character from the lineup.
@@ -95,7 +100,7 @@ r:"^ストーリー (\d+)話$"=Story Episode $1
 未解放キャラを仲間にする際に、1キャラあたり\n最大55MBの追加データをダウンロードします。=You will download up to 55MB of additional\ndata per unowned character.
 r:"^ガチャチケットを消費してガチャを (\d+) 回引きます。\nよろしいですか？$"=Consume $1 Gacha Ticket to draw 1 time.\nIs this OK?
 
-r:"^消費チケット(\d+)枚$"=$1 Tickets consumed
+r:"^消費チケット(\d+)枚$"=Use $1 Tix
 ・キャラ交換Ptを「200Pt」以上所持している場合、\nキャラ交換Ptを使用してキャラを仲間にするか、すでに仲間にしているキャラを選択して「女神の秘石」を獲得するまで、キャラ交換Ptが共通のガチャを利用できません。\n・チュートリアル中に引くガチャでは、キャラ交換Ptを獲得できません。\n・「有効期間」内にキャラ交換Ptを200Pt以上保持したまま「有効期間」が終了した場合も、キャラ交換Ptは\n「0Pt」にリセットされてPt数と同枚数の\n「スキップチケット」に変換されるため、キャラを仲間にすることはできません。\n・キャラ交換の有効期間、内容は予告なく変更する場合があります。\n・おまけでメモリーピースが獲得できる場合、直接付与されます。ただし、獲得したメモリーピースが所持上限に達している場合、プレゼントボックスに贈られます。=►If you have more than 200 "Chara Exchange Pt", you cannot draw any gacha with a shared "Chara Exchange Pt" counter until you use them either to recruit a new character or recruit a character you already have for Divine Amulets.\n・Chara Exchange Pt cannot be earned from gacha draws used during the tutorial.\n・If you have 200 or more "Chara Exchange Pt" when the Validity Period ends, the points will be converted into Skip Tickets and the point count will reset to 0, so you will not be able to recruit a character.\n・The Validity Period and options for Chara Exchange are subject to change without notice.\n・If Memory Shards are obtained as an extra, they will be sent directly to your inventory. However, if the acquired Memory Shard has reached the possession limit, it will be sent to the gift box.
 ・キャラ交換Ptを「200Pt」以上所持している場合、\nキャラ交換Ptを使用してキャラを仲間にするか、すでに仲間にしているキャラを選択して「女神の秘石」を獲得するまで、キャラ交換Ptが共通のガチャを利用できません。\n・チュートリアル中に引くガチャでは、キャラ交換Ptを獲得できません。\n・「有効期間」内にキャラ交換Ptを200Pt以上保持したまま「有効期間」が終了した場合も、キャラ交換Ptは\n「0Pt」にリセットされてPt数と同枚数の\n「スキップチケット」に変換されるため、キャラを仲間にすることはできません。\n・キャラ交換の有効期間、内容は予告なく変更する場合があります。\n・メモリーピース、マスターピースが獲得できる場合、直接付与されます。ただし、獲得したメモリーピース、マスターピースが所持上限に達している場合、プレゼントボックスに贈られます。=►If you have more than 200 "Chara Exchange Pt", you cannot draw any gacha with a shared "Chara Exchange Pt" counter until you use them either to recruit a new character or recruit a character you already have for Divine Amulets.\n・Chara Exchange Pt cannot be earned from gacha draws used during the tutorial.\n・If you have 200 or more "Chara Exchange Pt" when the Validity Period ends, the points will be converted into Skip Tickets and the point count will reset to 0, so you will not be able to recruit a character.\n・The Validity Period and options for Chara Exchange are subject to change without notice.\n・If Memory Shards are obtained as an extra, they will be sent directly to your inventory. However, if the acquired Memory Shard has reached the possession limit, it will be sent to the gift box.
 キャラ交換Ptを200Pt消費して\n以下のキャラと交換しますか?=Would you like to spend 200pt\nto exchange for the selected character?
