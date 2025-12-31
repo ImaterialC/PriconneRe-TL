@@ -41,6 +41,8 @@ r:"^Lv(\d+)まで$"=Until Lv$1
 アプリ配信期間終了=End of app period
 
 
+パスポート獲得数増加=Passport Acquisition Increase
+[475F7B]黎明界ラビリンスの\nパスポート獲得数が通常よりも1枚増加[-]=[475F7B]Dawn Realm Labyrinth\nPassport acquisition increased by 1[-]
 
 ---attempt---
 挑戦回数アップ=Increase attempt count

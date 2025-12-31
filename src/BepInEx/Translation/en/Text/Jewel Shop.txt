@@ -1,3 +1,6 @@
+必ず（かならず）保護者（ほごしゃ）の許可（きょか）をもらってから購入（こうにゅう）してください。保護者（ほごしゃ）の許可（きょか）をもらいましたか？=Please be sure to get permission from your guardian before purchasing.\nHave you got permission from your guardian?
+未成年（みせいねん）の方（かた）へ=To a minor
+
 ジュエルショップ=Jewel Shop
 　ジュエル・その他購入=Jewels/Other Purchases
 所持ジュエル確認=Check Jewels Held
@@ -234,3 +237,20 @@ sr:"^(.{2,20})未受け取り分の(.{2,6})$"=$1: Unclaimed $2
 
 
 交換ページへ移動しますか？=Would you like to go to the exchange page?
+
+
+
+新春記念=New Year's Commemorative
+2026 新春記念=2026 New Year's Commemorative
+r:"^(\d+) 新春記念$"=$1 New Year's Commemorative
+sr:"^(.+?) お得なジュエル(\d+)個$"=$1 $2 Jewels Pack
+sr:"^(.+?) 専用装備１グロウスフィアパック$"=$1 Unique Equipment 1 Spheres
+毎日1回限定 スタミナパック=Once Daily Limited Stamina Pack
+sr:"^(.+?) 属性強化パック$"=$1 Elemental Enhancement Pack
+sr:"^(.+?) キャラ育成パック$"=$1 Character Enhancement Pack
+sr:"^(.+?) ピュアメモリーピースパック$"=$1 Pure Memory Shards Pack
+
+sr:"^(.+?) ピュアメモリーピース交換チケット$"=$1 Pure Memory Piece Exchange Ticket
+sr:"^(.+?) メモリーピース交換チケット$"=$1 Memory Piece Exchange Ticket
+スペシャル交換チケット（限定+）=Special Exchange Ticket (Limited+)
+10回ガチャチケット=10-Pull Gacha Ticket

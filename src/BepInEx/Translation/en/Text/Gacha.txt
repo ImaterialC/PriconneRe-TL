@@ -443,6 +443,7 @@ r:"^交換期間:([0-9 /:]+)まで$"=Exchange period: $1
 
 
 
+新春記念 スペシャルキャラ交換ガチャセット=New Year's Anniversary Special Character Exchange Gacha Set
 
 スタートダッシュキャラ交換チケット=Start Dash Chara Exchange Ticket
 交換キャラ選択=Select Exchange Character
