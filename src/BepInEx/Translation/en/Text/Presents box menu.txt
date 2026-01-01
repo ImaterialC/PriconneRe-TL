@@ -63,6 +63,7 @@ sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan
 クリスマス=Christmas
 謹賀新年 お正月=Happy New Year
 元日特別=New Year's Day Special
+元日特別ログインボーナス=New Year's special login bonus
 復刻イベント=Revival Event
 スタートダッシュログイン=Jump Start Log In 
 事前登録=Pre-registration
