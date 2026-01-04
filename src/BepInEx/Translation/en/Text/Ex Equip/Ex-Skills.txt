@@ -111,7 +111,8 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 装備者が闇属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Dark-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.
 
 
-
+バトル開始後90秒間自分の魔法防御力を３％アップさせ、自分に３％の魔法ダメージカット効果を付与する。=Boost own M.DEF by 3% and M.DMG Cut by 3% for 90 seconds after the start of battle.
+バトル開始後90秒間自分の物理防御力を３％アップさせ、自分に３％の物理ダメージカット効果を付与する。=Boost own P.DEF by 3% and P.DMG Cut by 3% taken by 3% for 90 seconds after the start of battle.
 
 
 オーバー・ザ・ムーン=Over the Moon

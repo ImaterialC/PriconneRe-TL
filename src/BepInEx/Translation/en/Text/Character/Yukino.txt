@@ -8,26 +8,33 @@
 純朴雪女、初めての都会へ=The innocent Yuki-onna goes to the city for the first time
 はじめておけいこ=First lesson
 雪女、ラブラブ夫婦になる=Yuki-onna and her Dear become a loving couple
+
 ##Profile##
-【魔法】後衛から、雪魄氷姿の三味を弾じる初心な雪女。多様なデバフ効果で敵を弱体化させ、最も魔防の低い敵の状態に応じて発生する追加効果で、冥府を真白に染める。=[Magic] A naive snow woman who plucks a shamisen in an icy, snow-spirit form from the backlines. She weakens enemies with a variety of debuffs, and—depending on the condition of the enemy with the lowest M.DEF—triggers additional effects that paint the netherworld pure white.
+【魔法】後衛から、雪魄氷姿の三味を弾じる初心な雪女。多様なデバフ効果で敵を弱体化させ、最も魔防の低い敵の状態に応じて発生する追加効果で、冥府を真白に染める。=[Magic] A pure and innocent snow woman in the back line, playing her shamisen with a pristine, icy elegance. She weakens enemies with a wide variety of debuffs, and depending on the condition of the enemy with the lowest M.DEF, triggers additional effects that paint the netherworld pure white.
 
 ##UB##
-涅槃雪・勧進帳=Nirvana Snow: Kanjinchō
-前方の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせる。発動時既に最も魔法防御力の低い敵１キャラが魔法攻撃力ダウン状態だった場合、その敵のクリティカルを受けた際のダメージを小アップさせる。発動時既に最も魔法防御力の低い敵１キャラがＴＰ上昇ダウン状態だった場合、その敵に追加の魔法特大ダメージを与え、魔法攻撃を受けた際のダメージを小アップさせる。このスキルを使用するたび、最大３回までダメージが増加する。=Deals large M.DMG to all enemies in a forward area and slightly lowers their M.DEF. If, at activation, the enemy with the lowest M.DEF is already under M.ATK down, slightly increases the damage that enemy receives when critically hit. If, at activation, the enemy with the lowest M.DEF is already under TP Boost down, deals additional massive M.DMG to that enemy and slightly increases the damage they receive from magic attacks. Each time this skill is used, its damage increases, up to a maximum of three times.
+涅槃雪・勧進帳=Nirvana Snow: Sacred Deception
+前方の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせる。発動時既に最も魔法防御力の低い敵１キャラが魔法攻撃力ダウン状態だった場合、その敵のクリティカルを受けた際のダメージを小アップさせる。発動時既に最も魔法防御力の低い敵１キャラがＴＰ上昇ダウン状態だった場合、その敵に追加の魔法特大ダメージを与え、魔法攻撃を受けた際のダメージを小アップさせる。このスキルを使用するたび、最大３回までダメージが増加する。=Deals large M.DMG to all enemies in front and slightly lowers their M.DEF. If, at activation, the enemy with the lowest M.DEF is already under an M.ATK down effect, slightly increases the damage that enemy takes when receiving critical hits. If, at activation, the enemy with the lowest M.DEF is already under a TP Boost down effect, deals additional massive M.DMG to that enemy and slightly increases the damage they take when receiving magic attacks. Each time this skill is used, the damage increases, up to a maximum of three times.
 
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン最も魔法防御力の低い敵が魔法攻撃力ダウン状態の時、敵単体の被クリダメを6％アップ最も魔法防御力の低い敵がＴＰ上昇ダウン状態の時、以下の効果が発動する敵単体に(\d+)の魔法ダメージ敵単体が受ける魔法ダメージを3％アップ$"=►Deals $1 M.DMG to enemies within range.\n►Lowers M.DEF of enemies within range by $2.\n►If enemy with lowest M.DEF has M.ATK down: Boosts a single enemy's CRIT DMG taken by 6%.\n►If enemy with lowest M.DEF has TP Boost down:\n►Deals $3 M.DMG to a single enemy.\n►Boosts magic damage taken by a single enemy by 3%.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン最も魔法防御力の低い敵が魔法攻撃力ダウン状態の時、敵単体の被クリダメを6％アップ最も魔法防御力の低い敵がＴＰ上昇ダウン状態の時、以下の効果が発動する敵単体に(\d+)の魔法ダメージ敵単体が受ける魔法ダメージを3％アップ$"=►Deals $1 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $2.\n\nIf the enemy with the lowest M.DEF has M.ATK Down:\n►Boosts a single enemy's CRIT DMG taken by 6％.\n\nIf the enemy with the lowest M.DEF has TP Boost Down:\n►Deals $3 M.DMG to a single enemy.\n►Boosts M.DMG taken by a single enemy by 3％.
+
 
 ##S1##
-すくたれ・霜枯=Sukutare: Shimokare
-前方の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。発動時既に最も魔法防御力の低い敵１キャラが魔法防御力ダウン状態だった場合、その敵の魔法攻撃力を大ダウンさせる。発動時既に最も魔法防御力の低い敵１キャラが魔法攻撃力ダウン状態だった場合、その敵に追加の魔法大ダメージを与え、ＴＰ上昇を小ダウンさせ、さらに味方全体のＨＰを小回復させる。=Deals moderate M.DMG to all enemies in a forward area and slightly lowers their M.DEF. If, at activation, the enemy with the lowest M.DEF is already under M.DEF down, greatly lowers that enemy's M.ATK. If, at activation, the enemy with the lowest M.DEF is already under M.ATK down, deals additional large M.DMG to that enemy, slightly reduces their TP Boost, and slightly recovers HP for all allies.
+すくたれ・霜枯=Sukutare: Withering Frost
+前方の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。発動時既に最も魔法防御力の低い敵１キャラが魔法防御力ダウン状態だった場合、その敵の魔法攻撃力を大ダウンさせる。発動時既に最も魔法防御力の低い敵１キャラが魔法攻撃力ダウン状態だった場合、その敵に追加の魔法大ダメージを与え、ＴＰ上昇を小ダウンさせ、さらに味方全体のＨＰを小回復させる。=Deals medium M.DMG to all enemies in front and slightly lowers their M.DEF. If, at activation, the enemy with the lowest M.DEF is already under an M.DEF down effect, greatly lowers that enemy’s M.ATK. If, at activation, the enemy with the lowest M.DEF is already under an M.ATK down effect, deals additional large M.DMG to that enemy, slightly lowers their TP Boost, and additionally slightly recovers all allies’ HP.
 
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン最も魔法防御力の低い敵が魔法防御力ダウン状態の時、敵単体の魔法攻撃力を(\d+)ダウン最も魔法防御力の低い敵が魔法攻撃力ダウン状態の時、以下の効果が発動する敵単体に(\d+)の魔法ダメージ敵単体のＴＰ上昇を(\d+)ダウン味方全体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies within range.\n►Lowers M.DEF of enemies within range by $2.\n►If enemy with lowest M.DEF has M.DEF down: Lowers a single enemy's M.ATK by $3.\n►If enemy with lowest M.DEF has M.ATK down:\n►Deals $4 M.DMG to a single enemy.\n►Lowers a single enemy's TP Boost by $5.\n►Restores all allies' HP by $6.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン最も魔法防御力の低い敵が魔法防御力ダウン状態の時、敵単体の魔法攻撃力を(\d+)ダウン最も魔法防御力の低い敵が魔法攻撃力ダウン状態の時、以下の効果が発動する敵単体に(\d+)の魔法ダメージ敵単体のＴＰ上昇を(\d+)ダウン味方全体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $2.\n\nIf the enemy with the lowest M.DEF has M.DEF Down:\n►Lowers a single enemy's M.ATK by $3.\n\nIf the enemy with the lowest M.DEF has M.ATK Down:\n►Deals $4 M.DMG to a single enemy.\n►Lowers a single enemy's TP Boost by $5.\n►Recovers HP for all allies by $6.
+
 
 ##S2##
-早雪・河東節=Hayayuki: Katōbushi
-味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、さらに、敵全体の行動速度を大ダウン、移動速度を小ダウンさせる。発動時既に最も魔法防御力の低い敵１キャラがＴＰ上昇ダウン状態だった場合、敵全体に魔法大ダメージを与え、ＴＰを中ダウンさせる。=Massively boosts all allies' M.ATK, greatly boosts their M.CRIT RATE, and slightly boosts their M.CRIT DMG, and also greatly lowers all enemies' action speed and slightly lowers their movement speed. If, at activation, the enemy with the lowest M.DEF is already under TP Boost down, deals large M.DMG to all enemies and moderately reduces their TP Boost.
+早雪・河東節=Early Snow: Ballad
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、さらに、敵全体の行動速度を大ダウン、移動速度を小ダウンさせる。発動時既に最も魔法防御力の低い敵１キャラがＴＰ上昇ダウン状態だった場合、敵全体に魔法大ダメージを与え、ＴＰを中ダウンさせる。=Massively boosts all allies’ M.ATK, greatly boosts their M.CRIT RATE, and slightly boosts their M.CRIT DMG. Additionally, greatly lowers all enemies’ action speed and slightly lowers their movement speed. If, at activation, the enemy with the lowest M.DEF is already under a TP Boost down effect, deals large M.DMG to all enemies and moderately lowers their TP.
 
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを120アップ味方全体の魔法クリダメを8％アップ敵全体の行動速度を一定時間低下させる敵全体の移動速度を一定時間低下させる最も魔法防御力の低い敵がＴＰ上昇ダウン状態の時、以下の効果が発動する敵全体に(\d+)の魔法ダメージ敵全体のＴＰを150失わせる$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' M.CRIT RATE by 120.\n►Boosts all allies' M.CRIT DMG by 8%.\n►Lowers all enemies' Action Speed.\n►Lowers all enemies' Movement Speed.\n►If enemy with lowest M.DEF has TP Boost down:\n►Deals $2 M.DMG to all enemies.\n►Depletes all enemies' TP by 150.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを120アップ味方全体の魔法クリダメを8％アップ敵全体の行動速度50％ダウン敵全体の移動速度を一定時間低下させる最も魔法防御力の低い敵がＴＰ上昇ダウン状態の時、以下の効果が発動する敵全体に(\d+)の魔法ダメージ敵全体のＴＰを150失わせる$"=►Boosts allies' M.ATK by $1.\n►Boosts allies' M.CRIT RATE by 120.\n►Boosts allies' M.CRIT DMG by 8％.\n►Lowers all enemies' action speed by 50％.\n►Reduces all enemies' movement speed for a period of time.\n\nIf the enemy with the lowest M.DEF has TP Boost Down:\n►Deals $2 M.DMG to all enemies.\n►Reduces TP of all enemies by 150.
+
+
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを120アップ味方全体の魔法クリダメを8％アップ敵全体の行動速度を一定時間低下させる敵全体の移動速度を一定時間低下させる最も魔法防御力の低い敵がＴＰ上昇ダウン状態の時、以下の効果が発動する敵全体に(\d+)の魔法ダメージ敵全体のＴＰを150失わせる$"=►Boosts allies' M.ATK by $1.\n►Boosts allies' M.CRIT RATE by 120.\n►Boosts allies' M.CRIT DMG by 8％.\n►Reduces all enemies' action speed for a period of time.\n►Reduces all enemies' movement speed for a period of time.\n\nIf the enemy with the lowest M.DEF has TP Boost Down:\n►Deals $2 M.DMG to all enemies.\n►Reduces TP of all enemies by 150.
 
 ##EX##
-幽天・月冴え=Ethereal Sky: Moon's Clarity
+幽天・月冴え=Gloomy Heavens: Clear Moon
+幽天・月冴え+=Gloomy Heavens: Clear Moon+

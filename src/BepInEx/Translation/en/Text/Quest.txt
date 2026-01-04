@@ -27,7 +27,7 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 探索・調査=Search &\nSurvey
 探索・調査\nダンジョン=Grotto &\nDungeon
 探索・調査・ダンジョン=Grotto, Expedition, and Dungeon
-深域クエスト=Talent Quest
+深域クエスト=Deep Quest
 消費挑戦回数=Use attempts
 メインクエスト=Main Quest
 開催中=Underway!

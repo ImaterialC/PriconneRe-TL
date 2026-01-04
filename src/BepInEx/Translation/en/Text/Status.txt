@@ -201,3 +201,4 @@ r:"^闇属性攻撃力\＋([0-9,]+)$"=Darkness Attack +$1
 低い順=Ascending
 高い順=Descending
 並び順=Order
+レアリティ=Rarity

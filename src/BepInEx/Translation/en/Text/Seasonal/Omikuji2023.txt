@@ -1,14 +1,3 @@
-大吉=Great blessing
-中吉=Mid Blessing
-吉=Blessing
-小吉=Small Blessing
-末吉=Future Blessing
-末小吉=Future Small Blessing
-末中吉=Future Mid Blessing
-大凶=Great Misfortune
-凶=Misfortune
-吉凶未分=Undetermined
-sr:"^「(.*)ログインボーナス」(\d+日)目「(.+)」で獲得したアイテムです。$"="Item obtained on $2 day($3) "$1 Login Bonus"."
 
 新年を迎え、新たに始まる一日を\nおみくじで占ってみませんか？\n良い運勢であるほど、\n沢山のプレゼントが貰えますよ♪=With the new year, why not get your fortune told with an omikuji? The more luck you have, the more gifts you can get♪
 

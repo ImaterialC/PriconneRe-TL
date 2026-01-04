@@ -69,12 +69,26 @@ sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan
 事前登録=Pre-registration
 メインストーリー第3部開始記念ログイン=Main story Part 3 commemorative login
 
+大吉=Great Luck
+中吉=Good Luck
+吉=Blessing
+小吉=Fair Luck
+末吉=Future Good Luck
+末小吉=Future Fair Luck
+末中吉=Future Good Luck
+大凶=Great Unluck
+凶=Misfortune
+吉凶未分=Undetermined
+sr:"^「(.*)ログインボーナス」(\d+日)目「(.+)」で獲得したアイテムです。$"="Item obtained on $2 day($3) "$1 Login Bonus"."
+sr:"^「(.+)ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $2 day of "$1 Login Bonus"."
+
+
 r:"^([0-9.]+) Year Anniversary カウントダウン$"=$1 Year Anniversary Countdown
 r:"^([0-9.]+) Year Anniversary スペシャル$"=$1 Year Anniversary Special
 期間限定ストーリーの通知=Limited-time Story Notification
 r:"^([0-9.]+) Year Anniversary カウントダウンログインボーナスの開催期間中、通知を表示するか設定します。$"=$1 Year Anniversary Set to display a notification during the countdown login bonus event.
+謹賀新年 お正月ログインボーナス」2日目「大吉=⁇  New Year's login bonus ⁇  Day 2, ⁇ Daikichi ⁇
 
-sr:"^「(.+)ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $2 day of "$1 Login Bonus"."
 sr:"^「ログインボーナス」(\d+日)目で獲得したアイテムです。$"="Item obtained on $1 day of "Login Bonus"."
 sr:"^「(.+)キャンペーン」(\d+日)目で獲得したアイテムです。$"="Item obtained on $2 day of "$1 Campaign"."
 

@@ -26,6 +26,7 @@ sr:"^あと(\d+)?時?間(\d+分)で利用できます。$"=$1h$2 remaining to us
 EXクエスト一覧=EX Floors
 
 回廊探索 クリアパーティ一覧=Phantom Passage Search Clear Party List
+ルナの塔頂上 EXクエスト=Luna Tower Summit EX Quest
 
 不参加=N/A
 
