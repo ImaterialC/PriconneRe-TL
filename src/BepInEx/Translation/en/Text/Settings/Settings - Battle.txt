@@ -38,6 +38,11 @@ UBオートOFF=UB Auto-Off
 1倍速=Normal speed
 2倍速=2x speed
 
+全SETON=All SET ON
+全SETOFF=All SET OFF
+バトルの速度を切り替えます。=Switching battle speed.
+SPEEDボタン=Speed button
+
 クランバトル バトル速度設定の確認ダイアログ=CB Confirmation Prompt for Battle Speed Settings
 クランバトルを開始する前に、模擬戦・トレーニングバトルのバトル速度設定を確認するダイアログを開きます。=Confirmation for battle speed settings for CB training.
 
