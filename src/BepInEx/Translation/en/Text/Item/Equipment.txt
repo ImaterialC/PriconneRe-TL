@@ -746,3 +746,15 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 
 ラフィングスカル=Rafing Skull
 ガイストチェイン=Geist Chain
+
+
+
+
+エンプレスローブＲ=Empress Robe Ｒ
+九天の鎧Ｒ=Heavenly Raiment Ｒ
+フェアリアルブーツＲ=Fairie Boots Ｒ
+メイデンクロースＲ=Maiden Cloth Ｒ
+白祈の聖冠Ｒ=Mitter of Virtue Ｒ
+聖櫻の鎧Ｒ=Petalfall Regalia Ｒ
+
+

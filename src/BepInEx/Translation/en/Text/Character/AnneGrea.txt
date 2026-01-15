@@ -28,3 +28,14 @@ r:"^ステータスアップ効果を受けるたびに【友情の魔印】を�
 ##EX##
 マナリアハート=Manaria Heart
 マナリアハート+=Manaria Heart+
+
+
+
+
+##S1##
+フレンズリンケージ=Friends Linkage
+フレンズリンケージ+=Friends Linkage+
+ブレイズフレンズランス=Blaze Friends Lance
+
+
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを80アップ自分の魔法クリダメを6％アップ自分のＴＰを90回復友情の魔印が40の場合、敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Boosts own M.ATK by $3.\n►Boosts own M.CRIT RATE by 80.\n►Boosts own M.CRIT DMG by 6％.\n►Recovers own TP by 90.\n\nIf [Friendship Sigil] is 40:\n►Deals $4 M.DMG to a single enemy.

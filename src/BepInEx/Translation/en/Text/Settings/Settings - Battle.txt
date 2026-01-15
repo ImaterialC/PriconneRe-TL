@@ -40,6 +40,8 @@ UBオートOFF=UB Auto-Off
 
 全SETON=All SET ON
 全SETOFF=All SET OFF
+SET 無効=SET Invalid
+
 バトルの速度を切り替えます。=Switching battle speed.
 SPEEDボタン=Speed button
 

@@ -24,3 +24,9 @@ r:"^自分の魔法攻撃力を(\d+)アップ自分以外の味方全体の魔�
 ##EX##
 ノーブルニューイヤー=Noble New Year
 ノーブルニューイヤー+=Noble New Year+
+
+
+
+##S1+##
+救護院長の新春晴れ着=Infirmary Director's New Year Kimono
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ自分のＴＰを250回復自分の火の鳥が10以上の時、敵単体に(\d+)の魔法ダメージ自分の火の鳥が10以上の時、敵単体の被クリダメを8％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Boosts own M.ATK by $3.\n►Recovers own TP by 250.\n\nIf [Phoenix] is 10 or higher:\n►Deals $4 M.DMG to a single enemy.\n►Boosts a single enemy's CRIT DMG taken by 8％.

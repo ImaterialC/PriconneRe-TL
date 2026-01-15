@@ -41,6 +41,13 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間�
 ##S1+##
 フリューゲルエール+=Flügel Fanfare+
 味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに行動速度を大アップさせる。=Large boost to P.ATK, M.ATK and action speeds of all allies.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to enemies within range.\n►Lowers enemies' P.DEF within range by $3.
 
 ##UE##
 フリューゲルコート=Flügel Coat
+
+
+
+
+
+

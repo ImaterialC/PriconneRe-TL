@@ -27,3 +27,13 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリ�
 ##EX##
 ゴルゴーンの威光=Gorgon's Might
 ゴルゴーンの威光+=Gorgon's Might+
+
+
+
+
+
+##S1+##
+姫衛の大蛇・メドゥシアナ=Royal Guardian Serpent Medusiana
+イリュージョンウィップ+=Illusion Whip+
+
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の被クリダメを3％アップ$"=►Deals $1 P.DMG to enemies within range.\n►Lowers enemies' P.ATK within range by $2.\n►Lowers enemies' M.ATK within range by $3.\n►Lowers enemies' P.DEF within range by $4.\n►Boosts enemies' CRIT DMG taken within range by 3％.
