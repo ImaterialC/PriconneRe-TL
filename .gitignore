@@ -15,6 +15,7 @@
 *.docx
 *.xlsx
 *.xls
+*.torrent
 **/Texture/1dump
 **/temp/
 src/BepInEx/Translation/en/Texture/[Dump]/*.*

@@ -747,9 +747,6 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 ラフィングスカル=Rafing Skull
 ガイストチェイン=Geist Chain
 
-
-
-
 エンプレスローブＲ=Empress Robe Ｒ
 九天の鎧Ｒ=Heavenly Raiment Ｒ
 フェアリアルブーツＲ=Fairie Boots Ｒ
