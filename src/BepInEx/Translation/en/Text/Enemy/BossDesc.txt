@@ -2276,3 +2276,18 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 
 
+後ろから敵３体にＴＰ上昇ダウン=Reduces TP Boost of the 3 rearmost enemies.
+後ろから敵３体にＴＰダウン=Reduces TP of the 3 rearmost enemies.
+後ろから敵３体に魔法ダメージ=Deals M.DMG to the 3 rearmost enemies.
+敵全体にスタン（飛行効果無視=Inflicts Stun on all enemies (ignores flight effects).
+後ろから１番目の敵と周囲に魔法ダメージ=Deals M.DMG to the rearmost enemy and surrounding enemies.
+後ろから１番目の敵と周囲に魔法防御力ダウン、ＴＰダウン、呪い（必中）=Reduces M.DEF, reduces TP, and inflicts Curse (guaranteed hit) on the rearmost enemy and surrounding enemies.
+後ろから２番目の敵を中心に魔法ダメージフィールド=Deploys an M.DMG field centered on the second rearmost enemy.
+後ろから２番目の敵に魔法ダメージ=Deals M.DMG to the second rearmost enemy.
+後ろから２番目の敵と周囲に行動速度ダウン（必中）=Reduces action speed of the second rearmost enemy and surrounding enemies (guaranteed hit).
+敵全体に物理／魔法防御力ダウン=Reduces P.DEF and M.DEF of all enemies.
+【バトルフィールド効果】=[Battlefield Effect]
+敵全体に物理／魔法防御力アップ解除=Removes P.DEF and M.DEF buffs from all enemies.
+味方全体に物理／魔法防御力ダウン解除=Removes P.DEF and M.DEF debuffs from all allies.
+自身の魔攻が高いほど：スタン時間アップ=The higher own M.ATK, the longer the Stun duration.
+神瓶に宿る魔力を操る水瓶座の魔星獣。激流は全てを飲込み蒼海の支配者として君臨する。=An Aquarius demon star beast that manipulates the magic power dwelling within a divine vessel.Raging torrents swallow all, reigning as the ruler of the azure seas.

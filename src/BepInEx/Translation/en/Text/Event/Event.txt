@@ -5,6 +5,8 @@ r:"^◆([0-9//: ]+)を迎える$"=◆Stay tuned in $1
 時間=h
 分=m
 開演直前=Coming soon
+
+r:"^ギルドレース　３区→４区([0-9\-\(\)\w （）]*)$"=Guild Race [Area 3→4] $1
 r:"^神殿への参道([0-9\-\(\)\w （）]*)$"=Road to the Temple $1
 r:"^ランドソル郊外([0-9\-\(\)\w （）]*)$"=Landosol Outskirts $1
 r:"^光の裂け目([0-9\-\(\)\w （）]*)$"=Fissure of Light $1
