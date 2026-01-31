@@ -1,0 +1,21 @@
+##Profile##
+【物理】前衛から慈愛の心で冥府を包む彼岸の屍姫。ＵＢは敵全体を呑み込む割合ダメージを与え、【冥海の加護】を消費して味方の攻防ダウン効果までも禊ぎ清める。=[Physical] A corpse princess of the nether shore who envelops the underworld with compassion from the front line.Her UB deals proportional damage that engulfs all enemies, and by consuming 【Underworld Blessing】, purifies even P.ATK, M.ATK, P.DEF, and M.DEF down effects affecting allies.
+
+##UB##
+かんながら・ゐさなをろし=Kannagara: Isanaoroshi
+敵全体の物理防御力を大ダウンさせ、そのキャラの最大ＨＰに応じて最大200万の物理割合ダメージを与え、味方全体のＨＰを大回復させる。【冥海の加護】が30以上の場合、味方全体の物理攻撃力を特大アップさせる。【冥海の加護】が60の場合、【冥海の加護】を30消費して、味方全体の物理攻撃のダメージを小アップし、物理・魔法攻撃力ダウン効果と物理・魔法防御力ダウン効果を解除する。=Greatly lowers all enemies’ P.DEF, then deals proportional P.DMG based on each target’s max HP, up to a maximum of 2,000,000, and greatly recovers all allies’ HP. If 【Underworld Blessing】 is at 30 or higher, massively boosts all allies’ P.ATK. If 【Underworld Blessing】 is at 60, consumes 30 stacks of 【Underworld Blessing】 to slightly boost all allies’ P.DMG, and removes P.ATK, M.ATK, P.DEF, and M.DEF down effects from all allies.
+r:"^敵全体の物理防御力を(\d+)ダウン敵全体に最大200万の物理割合ダメージを与える味方全体のＨＰを30％回復冥海の加護が30以上の場合、味方全体の物理攻撃力を(\d+)アップ冥海の加護が60の場合、以下の効果が発動する冥海の加護を30消費する味方全体が与える物理ダメージを6％アップ味方全体の攻撃力・防御力ダウン効果を解除する$"=►Lowers all enemies' P.DEF by $1.\n►Deals physical proportional damage to all enemies (up to 2,000,000).\n►Recovers 30％ HP for all allies.\n\nIf [Underworld Blessing] is 30 or higher:\n►Boosts allies' P.ATK by $2.\n\nIf [Underworld Blessing] is 60:\n►Consumes 30 [Underworld Blessing].\n►Boosts allies' P.DMG dealt by 6％.\n►Removes P.ATK Down and P.DEF Down effects from all allies.
+
+##S1##
+つらなぎのゐざなひ=Tsuranagi: Izanahi
+敵全体の物理防御力を小ダウンさせる。【冥海の加護】が30以上の場合、味方全体の物理・魔法防御力を中アップさせる。バトル開始後、初弾のこのスキルは、敵がステータスダウンを受ける度に、自分に【冥海の加護】が１つ追加される状態にする。【冥海の加護】は最大60まで追加される。=Slightly lowers all enemies’ P.DEF. If 【Underworld Blessing】 is at 30 or higher, moderately boosts all allies’ P.DEF and M.DEF. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【Underworld Blessing】 each time an enemy receives a status down effect. 【Underworld Blessing】 can stack up to 60 times.
+r:"^敵全体の物理防御力を(\d+)ダウン冥海の加護が30以上の場合、味方全体の物理・魔法防御力を(\d+)アップ敵がステータスダウン効果を受けるたびに自分に冥海の加護が１つ追加される状態にする$"=►Lowers all enemies' P.DEF by $1.\n\nIf [Underworld Blessing] is 30 or higher:\n►Boosts allies' P.DEF and M.DEF by $2.\n\n►Grants a state where each time an enemy receives a status down effect, gain 1 [Underworld Blessing].
+
+##S2##
+あめのみくまり=Ame-no-Mikumari
+敵全体の物理・魔法攻撃力を大ダウン、ＴＰ上昇を小ダウンさせ、ＴＰを小ダウンさせる。【冥海の加護】が30以上の場合、味方全体の物理・魔法攻撃力を特大アップ、ＴＰ上昇を小アップさせ、ＴＰを小回復させる。=Greatly lowers all enemies’ P.ATK and M.ATK, slightly lowers their TP Boost, and slightly reduces their TP. If 【Underworld Blessing】 is at 30 or higher, massively boosts all allies’ P.ATK and M.ATK, slightly boosts their TP Boost, and slightly recovers their TP.
+r:"^敵全体の物理・魔法攻撃力を(\d+)ダウン敵全体のＴＰ上昇を5ダウン敵全体のＴＰを75失わせる冥海の加護が30以上の場合、以下の効果が発動する味方全体の物理・魔法攻撃力を(\d+)アップ味方全体のＴＰ上昇を5アップ味方全体のＴＰを75回復$"=►Lowers all enemies' P.ATK and M.ATK by $1.\n►Lowers TP Boost of all enemies by 5.\n►Reduces TP of all enemies by 75.\n\nIf [Underworld Blessing] is 30 or higher:\n►Boosts allies' P.ATK and M.ATK by $2.\n►Boosts allies' TP Boost by 5.\n►Recovers TP for all allies by 75.
+
+##EX##
+イサナミの加護=Isanami’s Blessing
+イサナミの加護+=Isanami’s Blessing+

@@ -48,6 +48,7 @@
 （ジオ・ゲヘナ）= (Gio Gehenna)
 （シスター）= (Sister)
 （嚮導幼君）= (Little Guidance)
+（イサナミ）= (Isanami)
 
 クリスティーナ=Christina
 ラビリスタ=Labyrista
@@ -177,6 +178,7 @@ Ameth alias
 メドゥーサ=Medusa
 サクラ=Sakura
 ナーナ=Naana
+メリッサ=Melissa
 
 sr:"^このスキルのスキルレベルは「([\S\s]+)」と連動しています$"="This skill's level is linked to "$1""
 

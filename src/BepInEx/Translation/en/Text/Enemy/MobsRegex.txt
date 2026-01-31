@@ -134,4 +134,3 @@ r:"^与えるダメージによるＴＰ回復量(\d+)％ダウン$"=$1% reducti
 必中=sure shot
 ダウン不可=Cannot be down
 
-
