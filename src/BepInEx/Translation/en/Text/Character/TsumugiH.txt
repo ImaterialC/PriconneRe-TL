@@ -14,6 +14,8 @@ r:"^(\d+)ダメージ分の物理無効バリアを展開する自分の物理�
 ##S2##
 フィアーアテンション=Fear Attention
 敵全体を挑発し、自分のＨＰを中回復する。さらに最も物理攻撃力が高い敵１キャラを恐慌状態にする。=Taunts all enemies and recovers own HP by a large amount. Additionally, inflicts Fear to an enemy with highest P.ATK.
+【挑発】敵全体を挑発し、自分のＨＰを中回復する。さらに最も物理攻撃力が高い敵１キャラを恐慌状態にする。=【Taunt】 Taunts all enemies and recovers own HP by a large amount. Additionally, inflicts Fear to an enemy with highest P.ATK.
+
 敵全体を挑発し、自分のＨＰを大回復する。さらに最も物理攻撃力が高い敵１キャラを恐慌状態にする。=Taunts all enemies and recovers own HP by a large amount. Additionally, inflicts Fear to an enemy with highest P.ATK.
 r:"^敵全体を挑発する自分のＨＰを(\d+)回復敵単体を恐慌状態にする$"=Cast time: 0.715s\n►Provokes all enemies for 19s.\n►Recovers own HP by $1.\n►Inflicts Fear to an enemy for 8s.
 
