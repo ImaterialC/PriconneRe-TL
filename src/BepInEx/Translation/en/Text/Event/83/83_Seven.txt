@@ -1,10 +1,11 @@
 イベントクエスト・ボス=Event Quest and Boss
 報酬券=Tickets
 報酬交換=Exchange
-前編ボスへ=To Boss (Part 1)
-後編ボスへ=To Boss (Part 2)
-r:"^イベント前編クエスト([ A-Za-z\-0-9]+)$"=Event Part 1 Quest$1
-r:"^イベント後編クエスト([ A-Za-z\-0-9]+)$"=Event Part 2 Quest$1
+前編ボスへ=To Boss (First Part)
+後編ボスへ=To Boss (Last Part)
+r:"^イベント前編クエスト([ A-Za-z\-0-9]+)$"=Event First Part Quest$1
+r:"^イベント後編クエスト([ A-Za-z\-0-9]+)$"=Event Last Part Quest$1
+r:"^イベント中編クエスト([ A-Za-z\-0-9]+)$"=Event Mid Part Quest$1
 イベントストーリー 第1話（誓約女君）を閲覧しよう=View the Event Story Episode 1 (Regina Geas)
 イベントストーリー 第1話（迷宮女王）を閲覧しよう=View the Event Story Episode 1 (Queen Labyrinth)
 イベントストーリー 第1話（跳躍王）を閲覧しよう=View the Event Story Episode 1 (Leap King)
