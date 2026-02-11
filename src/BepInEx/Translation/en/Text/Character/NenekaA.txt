@@ -8,7 +8,6 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御�
 
 ##S1##
 ティターニアブライト=Titania Bright
-ティターニアブライト+=Titania Bright+
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウン、物理攻撃力と魔法攻撃力を大ダウンさせる。ネネカ（アルファ）が召喚したグレゴールが味方にいる場合、グレゴールの魔法攻撃力に応じて与えるダメージがアップし、追加で敵全体の魔法防御力を小ダウンさせる。=Deals medium M.DMG to enemies in area, reducing M.DEF while greatly lowering P.ATK/M.ATK. With Gregor summoned, damage scales with his M.ATK and adds group M.DEF reduction.
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウングレゴールがいる場合、敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within range.\n►Lowers M.DEF of enemies within range by $2.\n►Lowers P.ATK of enemies within range by $3.\n►Lowers M.ATK of enemies within range by $4.\n\nIf Gregor is present:\n►Lowers all enemies' M.DEF by $5.
 
@@ -29,3 +28,9 @@ r:"^対象の味方のＴＰ上昇を5アップ対象の味方のＴＰを50回�
 妖精の羽ばたき=Faerie Flutter
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、ＴＰを小ダウンさせ、グレゴールのＨＰとＴＰを小回復する。また、グレゴール以外の味方すべての魔法攻撃力と魔法クリティカルを大アップさせる。グレゴール以外の闇属性のキャラに対してはこの効果が２回発動する。=Deals major M.DMG while reducing TP. Heals Gregor's HP/TP. Greatly boosts M.ATK/M.CRIT Rate for non-Gregor allies, with dark allies receiving two activations.
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵のＴＰを100失わせるグレゴールのＨＰを(\d+)回復グレゴールのＴＰを100回復対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリティカルを80アップ$"=►Deals $1 M.DMG to enemies within range.\n►Drains 100 TP from enemies within range.\n►Recovers Gregor's HP by $2.\n►Recovers Gregor's TP by 100.\n►Boosts the target's M.ATK by $3.\n►Boosts the target's M.CRIT RATE by 80.
+
+##S1+##
+グレゴール・オリジン=Gregory Origin
+ティターニアブライト+=Titania Bright+
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウン、物理・魔法攻撃力を大ダウンさせる。ネネカ（アルファ）が召喚したグレゴールが味方にいる場合、グレゴールの魔法攻撃力に応じて与えるダメージがアップし、追加で敵全体の魔法防御力を小ダウンさせる。=Deals large M.DMG to all enemies in an area centered on an enemy in front, slightly lowers their M.DEF, and greatly lowers their P.ATK and M.ATK. If a Gregory summoned by Neneka (Alpha) is present among allies, the damage dealt is increased based on Gregory’s M.ATK, and additionally slightly lowers all enemies’ M.DEF.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の物理・魔法攻撃力を(\d+)ダウングレゴールがいる場合、敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $2.\n►Lowers enemies' P.ATK and M.ATK within range by $3.\n\nIf [Gregor] is present:\n►Lowers all enemies' M.DEF by $4.

@@ -58,6 +58,7 @@ sr:"^(\d+月)クランバトルランキング(\d+位)の報酬です。$"="Clan
 期限を過ぎていたため、一部のプレゼントは受け取れませんでした。=Some gifts were not received because the deadline had passed.
 所持上限を超えて獲得したスタミナです。=It is a stamina acquired beyond the upper limit.
 スタミナ受取対象外にチェックしているため受け取れません。=Stamina is currently excluded. Please uncheck "Exclude Stamina" to claim.
+ウマ娘「The Game Awards 2025」受賞記念★3確定ガチャチケット=Uma Musume "The Game Awards 2025" Award Commemoration ★3 Guaranteed Gacha Ticket =
 ---Login Bonus---
 
 クリスマス=Christmas
@@ -84,6 +85,8 @@ sr:"^「(.+)ログインボーナス」(\d+日)目で獲得したアイテムで
 
 
 r:"^([0-9.]+) Year Anniversary カウントダウン$"=$1 Year Anniversary Countdown
+r:"^([0-9.]+)th Anniversary カウントダウンログインボーナス$"=$1th Anniversary Countdown Log-in Bonus
+
 r:"^([0-9.]+) Year Anniversary スペシャル$"=$1 Year Anniversary Special
 期間限定ストーリーの通知=Limited-time Story Notification
 r:"^([0-9.]+) Year Anniversary カウントダウンログインボーナスの開催期間中、通知を表示するか設定します。$"=$1 Year Anniversary Set to display a notification during the countdown login bonus event.

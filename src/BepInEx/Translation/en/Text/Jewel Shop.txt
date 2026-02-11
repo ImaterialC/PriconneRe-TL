@@ -50,7 +50,7 @@ r:"^([2-9])回限定$"="Limited!\n$1 times only"
 コラボ記念 専用装備１グロウスフィアパック=Collab-Event UE 1Growsphere Pack
 コラボ記念 専用装備２グロウスフィアパック=Collab-Event UE 2 Growsphere Pack
 専用装備グロウスフィアパック=UE Growsphere Pack
-専用装備１グロウスフィアパック=UE 1Growsphere Pack
+専用装備１グロウスフィアパック=UE 1 Growsphere Pack
 専用装備２グロウスフィアパック=UE 2 Growsphere Pack
 Anniversary グロウスフィアパック　=Anniversary Growsphere Pack
 Anniversary 専用装備グロウスフィアパック=Anniversary UE Growsphere Pack
@@ -83,6 +83,7 @@ pack
 30日間探索挑戦回数+3回期間通知=30 days Grotto +3 pack Period Notification
 購入Lv制限あり=Purchase Lv Limit
 マンスリーテーマパック=Monthly Theme Package
+スタミナパック=Stamina Package
 --- Anniv---
 r:"^([0-9.a-zA-Z ]*)プリンセスフェスSPキャラ交換ガチャセット$"=$1 Princess Fes SP Chara Exchange Gacha Set
 r:"^([0-9.a-zA-Z ]*)スペシャルキャラ交換ガチャセット$"=$1 Special Chara Exchange Gacha Set
