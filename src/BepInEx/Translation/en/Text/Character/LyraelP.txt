@@ -12,6 +12,8 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリダメを12％アップステータスアップ効果を受けるたびに自分にエクスマキナを１つ追加する状態になる$"=►Boosts allies' M.ATK by $1.\n►Boosts allies' M.CRIT DMG by 12％.\n►Grants a state where each time self receives a stat-up effect, gain 1 [Ex Machina].
 
 ##S2##
+このスキルのスキルレベルは「天鳴の疾奏」と連動しています=This skill’s skill level is linked to Heavenly Thunder Allegro
+
 天鳴の疾奏=Heavenly Thunder Allegro
 目の前の敵１キャラに魔法大ダメージを２回与え、魔法防御力を小ダウンさせる。発動時既に【エクスマキナ】が60の場合、行動パターンが変化する。=Deals large M.DMG to an enemy in front twice and slightly lowers their M.DEF. If [Ex Machina] is already at 60 at activation, the action pattern changes.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $3.
