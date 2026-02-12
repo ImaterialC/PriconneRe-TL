@@ -45,7 +45,7 @@ r:"^(\[[0-9A-F]{6}\])?イベント前編クエスト([ A-Za-z\-0-9]+)をクリ�
 r:"^(\[[0-9A-F]{6}\])?イベント後編クエスト([ A-Za-z\-0-9]+)をクリアしよう(\[-\])?$"=$1Clear Event Part 2 Quest$2$3
 
 イベントストーリー オープニングを閲覧しよう=View the Event Story Opening
-r:"^イベントストーリー 第(\d)話を閲覧しよう$"=Event Story: viewing Episode $1
+r:"^イベントストーリー 第(\d+)話を閲覧しよう$"=Event Story: viewing Episode $1
 r:"^第(\d)話を閲覧で解放$"=Unlock by viewing Episode $1
 
 イベントクエストを1回クリアしよう=Clear 1 time Event Quest

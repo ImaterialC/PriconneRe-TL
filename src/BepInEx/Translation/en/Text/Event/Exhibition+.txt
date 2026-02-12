@@ -76,3 +76,5 @@ EXHIBITIONでは、SPECIALのボスと何度も戦えます。\nまた、バト�
 
 バトル開始後90秒間味方全体の行動速度大アップ（重複可能）=For the first 90 seconds after the battle begins, greatly increases the action speed of all allies (stackable).
 バトル開始後90秒間味方全体のＴＰ上昇中アップ=For the first 90 seconds of battle, the TP Boost of all allies is greatly increased.
+
+バトル開始後90秒間敵全体を挑発=Taunts all enemies for 90 seconds after the start of battle
