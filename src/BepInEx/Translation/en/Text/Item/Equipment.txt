@@ -755,3 +755,12 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 聖櫻の鎧Ｒ=Petalfall Regalia Ｒ
 
 
+ジェネシスロッドＲ=Genesis Rod Ｒ
+ゲイルスティンガーＲ=Gale Stinger Ｒ
+神判の聖斧Ｒ=Judgement Axe Ｒ
+流禍の蒼刃Ｒ=Forsaken Blue Ｒ
+クリムゾンクローＲ=Crimson Claw Ｒ
+神花の聖杖Ｒ=Purebloom Rod Ｒ
+アビスボウＲ=Abyss Bow Ｒ
+ラヴァエッジＲ=Molten Edge Ｒ
+天開の聖剣Ｒ=Sword of Liberation Ｒ

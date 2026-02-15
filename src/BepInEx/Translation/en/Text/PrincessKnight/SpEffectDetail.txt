@@ -45,6 +45,9 @@
 バトル開始時、すべてのキャラに火傷状態を付与する。=At the start of the battle, all characters will be inflicted with Burn.
 火傷付与=Burning
 バトル開始時、すべてのキャラのＴＰ上昇を特大ダウンさせる。=At the start of the battle, all characters' TP Boost will be decreased by a massive amount.
+
+バトル開始時、すべてのキャラのＴＰ上昇を中ダウンさせる。=At the start of battle, moderately decreases TP gain for all characters.
+バトル開始時、すべてのキャラのＴＰ上昇を小ダウンさせる。=At the start of battle, slightly decreases TP gain for all characters.
 ＴＰ上昇ダウン=TP boost down
 バトル開始時、すべてのキャラの魔法防御力を大ダウンさせる。=At the start of the battle, all characters' M.DEF will be greatly decreased.
 魔法防御力ダウン=Magic Defense Down

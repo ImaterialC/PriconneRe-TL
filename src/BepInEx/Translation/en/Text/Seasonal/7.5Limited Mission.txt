@@ -21,7 +21,10 @@ r:"^キャラのスキルLvを合計で(\d+)回上げよう$"=Raise a character'
 マナクエストを1回クリアしよう=Complete mana quest once
 聖跡調査クエストを1回クリアしよう=Complete Sanctum Survey once
 神殿調査クエストを1回クリアしよう=Complete Temple Trek once
-r:"^メインストーリー第(\d+)部ステップ(\d+)のミッションをすべて達成しよう$"=Complete all missions in Main Story Part $1, Step $2
+r:"^メインストーリー第(\d+)部(前編|後編|中編|)ステップ(\d+)のミッションをすべて達成しよう$"=Complete all missions in Main Story Part $1 ($2), Step $3
+
+メインストーリー第3部前編ステップ1のミッションをすべて達成しよう=Let's complete the main story, part three, part one, step one, mission
+
 r:"^メインストーリー第(\d+)部のミッション報酬を全て受け取ると解放。$"=Unlocked after receiving all mission rewards from Part $1 of the main story
 
 sr:"^(.+)を限界突破しよう$"=Limit Break $1

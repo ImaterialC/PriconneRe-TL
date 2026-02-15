@@ -113,3 +113,19 @@ sr:"^(?:\[3C404E\])?(.+)のアイテムです。(?:\[-\])?$"="Item acquired from
 無料対象キャラは無料分のみの強化になります。=Free characters will only be strengthened for free.
 所持上限を超えて獲得したダイスです。=Dice obtained above the posession limit.
 ダイス=Dice
+
+
+シリアルコードの報酬を獲得しました。=Received Serial Code Reward.
+r:"^プリコネフェス([0-9 ]+) シリアルコード(.)$"=PriConne Fes $1 Serial Code $2
+r:"^プリコネフェス([0-9 ]+) 特別協賛記念カスタムマイぺージ(.)$"=PriConne Fes $1 Special Sponsorship Commemorative Custom My Page $2
+
+r:"^「(.+)」(.*) カスタムマイぺージ(.)?$"=""$1" $2 Custom My Page $3"
+EX★5防具交換チケット=EX★5 Armor Exchange Ticket
+
+r:"^([0-9.]+)周年記念カスタムマイページ$"=$1th Anniversary Custom My Page
+
+r:"^([0-9.]+)年ピュアメモリーピース交換チケット$"=$1 Pure Memory Shard Exchange Ticket
+r:"^([0-9.]+)年メモリーピース交換チケット$"=$1 Memory Shard Exchange Ticket
+r:"^([0-9.]+)周年セレクトガチャ$"=$1th Anniversary Select Gacha
+
+ウマ娘「The Game Awards 2025」受賞記念★3確定ガチャチケット=Uma Musume "The Game Awards 2025" Award Commemoration ★3 Guaranteed Gacha Ticket

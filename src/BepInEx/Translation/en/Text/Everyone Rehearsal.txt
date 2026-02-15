@@ -39,6 +39,7 @@ sr:"^(\d+)年(\d+月) クランバトル（([0-9 :/]+)まで）$"=Clan Battle $2
 無料対象のためアイテムやマナは消費しません。=Free, no item or mana cost.
 r:"^難易度「(.+)」のクリア報酬です。$"="It is a clear reward for the difficulty "$1"."
 初回クリア報酬獲得=Get first time clear reward
+初回クリア報酬=First Clear Reward
 ---Mission---
 稽古場ミッション=Trial Mission
 稽古場=Trial hall

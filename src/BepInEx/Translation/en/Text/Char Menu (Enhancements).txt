@@ -345,6 +345,10 @@ RANKボーナス詳細のステータス=Status Details
 
 （キャラ）=(Character)
 
+
+r:"^強化数:([0-9/]+)$"=Enhancements: $1
+
+
 専用装備をまだ装備していません。\n作成するにはRANK7にする必要があります。\n\nランクアップしますか？=You can't equip Unique Equipment yet\nMust be RANK7 or higher to create Unique Equipment.\n\nWould you like to rank up?
 専用装備１をまだ装備していません。\n作成するにはRANK7にする必要があります。\n\nランクアップしますか？=You can't equip Unique Equipment 1 yet\nMust be RANK7 or higher to create Unique Equipment 2.\n\nWould you like to rank up?
 ---NPC---

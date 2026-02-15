@@ -106,6 +106,9 @@ r:"^([0-9.a-zA-Z ]*)EX★4装備パック 片手剣・槍$"=$1 EX★4 Equipment 
 r:"^([0-9.a-zA-Z ]*)属性強化パック$"=$1 Element Enhancement Pack
 2024 年末年始 属性強化パック=2024 New Year's Attribute Enhancement Pack
 
+r:"^([0-9.a-zA-Z ]*)プリンセスナイト強化パック$"=$1 Princess Knight Enhancement Package
+
+
 装備ショップ=Equipment Shop
 EX★4装備パック=EX★4 Equipment Package
 r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
