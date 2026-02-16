@@ -1,6 +1,6 @@
 次元断層=Dimension Fault
 次元断層へ=To Dimension Fault
-r:"^開催期間:([0-9/ :]+)～([0-9/ :]+)$"="Period: $1 to $2 (JST)"
+r:"^開催期間\s*:\s*([0-9/ :]+)～([0-9/ :]+)$"="Period: $1 to $2 (JST)"
 PHASE\nクリア報酬=Phase\nClear Reward
 出現中！=Appearing!
 出現中!=Appearing!

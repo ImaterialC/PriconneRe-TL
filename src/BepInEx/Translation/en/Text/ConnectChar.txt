@@ -1,0 +1,24 @@
+
+r:"^条件(\d+)$"=Condition $1
+r:"^強化上限 (\d+)$"=Enhancement Limit $1
+r:"^コネクト (\d+)$"=Connect $1
+
+r:"^属性ボーナスアップ(?:\[-\] \[FFBB00,CE4F00\])＋(\d+)％$"=Elemental Bonus[-] [FFBB00,CE4F00]+$1%[-]
+r:"^パーティダメージブースト(?:\[-\] \[FFBB00,CE4F00\])Lv(\d+)$"=Party Damage Boost[-] [FFBB00,CE4F00]Lv$1[-]
+r:"^キャラLv上限突破(?:\[-\] \[FFBB00,CE4F00\])＋(\d+)$"=Character Lv Limit[-] [FFBB00,CE4F00]+$1[-]
+
+解放済みのコネクトRANKボーナスはありません。=There are no unlocked Connect Rank bonuses.
+以下のアイテムを消費してコネクトRANKアップします。\nよろしいですか？=The following items will be consumed to increase Connect Rank.\nIs this okay?
+コネクトRANK選択=Select Connect Rank
+選択したコネクトRANKまでまとめて強化できます。=You can enhance up to the selected Connect Rank all at once.
+アイテムの入手場所を確認できます。=You can check the location of the item.
+
+r:"^コネクトRANK (\d+)$"=Connect RANK $1
+コネクトRANKボーナス詳細=Connect RANK Bonus Details
+コネクトRANK強化に必要なアイテムを確認できます。=Items required to strengthen the Connect Rank.
+r:"^コネクトRANK強化上限を(\d+)から(\d+)に解放$"=Unlock Connect Rank enhancement cap from $1 to $2
+
+
+
+主さま、新たな強化「コネクトRANK」が登場しました。アイテムを消費して、キャラをさらに強化することができるようになりますよ。アイテムは様々な場所で獲得できますから、頑張って集めましょう。=My lord, a new enhancement system, “Connect Rank,” has been introduced. By consuming items, you will be able to strengthen your characters even further. These items can be obtained in various places, so do your best to collect them.
+コネクトRANKの強化にはRANKアップと上限解放がございます。RANKアップと上限解放を繰り返してコネクトRANKを上げるとステータスや専用のボーナスが獲得できるようです。=Enhancing Connect Rank includes both Rank Ups and Cap Unlocks. By repeatedly performing Rank Ups and Cap Unlocks to raise Connect Rank, you can obtain increased stats and exclusive bonuses.

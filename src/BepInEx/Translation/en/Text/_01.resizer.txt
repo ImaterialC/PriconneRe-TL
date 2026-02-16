@@ -392,3 +392,28 @@ _Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(
 
 
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogMonsterDetail(Clone)/GUIPanel_DialogCommonSmall/GUIGroup_DialogContents/ScrollContent/ScrollView/WrapContent/PartsMonsterDetailTextPlate(Clone)/TextPlate/DetailLabel=ChangeFontSize(20)
+
+
+
+
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsInvasionQuestDetail(Clone)/contents/GUIGroup_BossInfo/InfoPanel/quest_clanBossInfoBg/GUIGroup_Weak/GUIGroup_Difficulty_Normal/common_texticon_difficulty_normal/Label=ChangeFontSize(11)
+
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab2/State_Active/common_tab_selected/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab3/State_Active/common_tab_selected/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab4/State_Active/common_tab_selected/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab5/State_Active/common_tab_selected/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab6/State_Active/common_tab_selected/Label=ChangeFontSize(15)
+
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab2/State_Normal/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab3/State_Normal/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab4/State_Normal/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab5/State_Normal/Label=ChangeFontSize(15)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogInvasionRelicEquipMenu(Clone)/PartsLeft/GUIPanel_Tab/GUIGroup_tab6/State_Normal/Label=ChangeFontSize(15)
+
+
+
+
+

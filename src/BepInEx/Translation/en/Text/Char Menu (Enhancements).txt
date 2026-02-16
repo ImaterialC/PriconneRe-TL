@@ -370,3 +370,11 @@ r:"^強化数:([0-9/]+)$"=Enhancements: $1
 
 
 ミッションをクリアすると報酬が\n受け取れるわ。ジャンジャン\nクリアしてバリバリ強化して\nあげなさい♪=Clear the missions to receive rewards. Clear them quickly and strengthen your character♪
+
+
+
+
+
+
+シンクロ=Synchronization
+ご覧ください、主さま。マナや装備を消費せずに強化ができるようになったようですよ。みなさまのお力を借りて、より万全な状態でクエストに挑みましょう。=Please take a look, my lord. It seems enhancements can now be performed without consuming Mana or equipment. With everyone’s support, let us take on quests in an even more fully prepared state.

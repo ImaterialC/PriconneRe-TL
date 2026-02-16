@@ -447,6 +447,8 @@ r:"^交換期間:([0-9 /:]+)まで$"=Exchange period: $1
 
 スタートダッシュキャラ交換チケット=Start Dash Chara Exchange Ticket
 交換キャラ選択=Select Exchange Character
+スタートダッシュプリンセスキャラ交換チケット＋=Start Dash Princess Character Exchange Ticket+
+スタートダッシュ限定キャラ交換チケット=Start Dash Limited Character Exchange Ticket
 
 キャラ交換チケットについて=About Chara Exchange Tickets
 スペシャル交換チケット、キャラ交換チケットについて=Special Exchange Tickets, Chara Exchange Tickets

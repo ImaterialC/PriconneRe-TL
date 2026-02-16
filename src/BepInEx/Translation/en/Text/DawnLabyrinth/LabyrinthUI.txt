@@ -226,7 +226,7 @@ r:"^(\d+)で更新$"=$1 to Reroll
 ボスバトルマスに移動します。\nよろしいですか？=Move to Boss Battle Tile?
 ボスバトルマス=Boss Battle Tile
 守備=Defense
-加速=Acceleration
+加速=Haste
 会心=Critical
 
 アルファルピでアイテムを購入することができます。=You can purchase items using αRupees.

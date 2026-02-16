@@ -98,5 +98,15 @@ TANITAコラボログイン=TANITA Collab log in
 世界を構成している属性の力であるアストラルのうち水の属性が結晶化した宝玉。使用することで対応する属性を活性化させることができる。=A crystallized orb composed of the water elements of astral that make up the world. By using it, you can activate the corresponding element.
 世界を構成している属性の力であるアストラルのうち火の属性が結晶化した宝玉。使用することで対応する属性を活性化させることができる。=A crystallized orb composed of the fire elements of astral that make up the world. By using it, you can activate the corresponding element.
 
+古の王が遺した、女神の聖像。込められた祈りによって微かな恵みが灯る。コネクトRANKの強化上限を解放するために必要。=A sacred statue of the goddess left behind by an ancient king. The prayers imbued within it kindle a faint blessing. Required to unlock the enhancement cap of Connect Rank.
+キャラの中に眠る闘志の力を呼び醒まし、立ち向かう勇気を湧き上がらせる小さなオーブ。使用すると　　コネクトRANKを強化できる。=A small orb that awakens the power of fighting spirit slumbering within a character, stirring the courage to stand and fight. When used, it enhances the character’s Connect Rank.
+キャラの中に眠る才気の力を呼び醒まし、技巧を洗練させる小さな　　オーブ。使用するとコネクトRANKを強化できる。=A small orb that awakens the power of talent slumbering within a character, refining their techniques. When used, it enhances the character’s Connect Rank.
+不安定な世界の歪みから誕生した特異個体の精霊。数奇な擦れ違いを端に暴走し、他の精霊たちを巻き込んで里に壊滅の音色を響かせる。=A unique spirit born from distortions in an unstable world. Triggered by a strange twist of fate, it runs rampant, drawing other spirits into its wake and sounding a melody of devastation throughout the village.
+古の王が遺した、銀色に輝く女神の聖像。心まで澄む白銀の輝きには清らかな祝福が宿る。コネクトRANKの強化上限を解放するために必要。=A silver-radiant sacred statue of the goddess left behind by an ancient king. Its pure, silvery glow carries a blessing that cleanses even the heart. Required to unlock the enhancement cap of Connect Rank.
+キャラの中に眠る加護の力を呼び醒まし、守りを強固なものとする小さなオーブ。使用するとコネクト　　RANKを強化できる。=A small orb that awakens the power of divine protection slumbering within a character, reinforcing their defenses. When used, it enhances the character’s Connect Rank.
+
+
+
+
 ---Dedicated Ring---
 sr:"^([べ-ヺー＆＝]+)(（.+）)?\s?専用リング$"=Dedicated $1$2's Ring
