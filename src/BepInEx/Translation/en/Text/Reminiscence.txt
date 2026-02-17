@@ -19,6 +19,9 @@ r:"^覇瞳皇帝の領域(\d+)層$"=Kaiser Insight Level $1
 r:"^ミロクの領域(\d+)層$"=Miroku Level $1
 
 
+アラクネの領域=Arachne's Domain
+r:"^アラクネの領域(\d+)層$"=Arachne Level $1
+
 r:"^記憶領域(\d+)層$"=Memory Phase $1
 
 r:"^(\d+)層$"=Phase $1

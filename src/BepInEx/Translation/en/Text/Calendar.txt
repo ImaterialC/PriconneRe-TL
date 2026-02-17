@@ -33,4 +33,4 @@ sr:"^9月(\d+日)のストーリー(\d)?$"=September $1 Story $2
 sr:"^10月(\d+日)のストーリー(\d)?$"=October $1 Story $2
 sr:"^11月(\d+日)のストーリー(\d)?$"=November $1 Story $2
 sr:"^12月(\d+日)のストーリー(\d)?$"=December $1 Story $2
-sr:"^(\d+月)(\d+日)/(\d+)歳$"=$1 $2 ($3yo)
+sr:"^(\d+月)(\d+日)/(.+)歳$"=$1 $2 ($3yo)

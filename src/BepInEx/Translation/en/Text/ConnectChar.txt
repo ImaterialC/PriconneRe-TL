@@ -5,9 +5,10 @@ r:"^コネクト (\d+)$"=Connect $1
 強化状況=Strengthening status
 r:"^ボーナス(\d+)$"=Bonus $1
 総コネクトRANK=Total Connect RANK
-r:"^属性ボーナスアップ(?:\[-\] \[FFBB00,CE4F00\])＋(\d+)％$"=Elemental Bonus[-] [FFBB00,CE4F00]+$1%[-]
-r:"^パーティダメージブースト(?:\[-\] \[FFBB00,CE4F00\])Lv(\d+)$"=Party Damage Boost[-] [FFBB00,CE4F00]Lv$1[-]
-r:"^キャラLv上限突破(?:\[-\] \[FFBB00,CE4F00\])＋(\d+)$"=Character Lv Limit[-] [FFBB00,CE4F00]+$1[-]
+r:"^属性ボーナスアップ(\[-\] \[FFBB00,CE4F00\])?([0-9＋+.%％]*)$"=Elemental Bonus$1$2[-]
+r:"^パーティダメージブースト(\[-\] \[FFBB00,CE4F00\])?([LvVl0-9.%％]*)$"=Party Damage Boost$1$2[-]
+r:"^キャラLv上限突破(\[-\] \[FFBB00,CE4F00\])?([0-9＋+.%％]*)$"=Character Lv Limit$1$2[-]
+
 
 解放済みのコネクトRANKボーナスはありません。=There are no unlocked Connect Rank bonuses.
 以下のアイテムを消費してコネクトRANKアップします。\nよろしいですか？=The following items will be consumed to increase Connect Rank.\nIs this okay?
@@ -33,9 +34,15 @@ r:"^コネクトRANKを(\d+)以上にする$"=Connect RANK is $1 or higher
 r:"^専用装備１をLvMAX（Lv(\d+)）にする$"=Unique Equipment-1 Lv MAX (Lv $1)
 装備後に確認できます。=You can view it after equipping it.
 
+追加ステータス=Additional Status
 
+アイテムを消費してコネクトRANK上限を解放します。\nよろしいですか？=Consumes items to unlock the Connect RANK limit.\nIs that all right?
+コネクトRANK上限解放=Unlock Connect RANK limit
+r:"^上限(\d+)$"=Limit $1
+[3C404E]専用装備１SP条件[-] =[3C404E]UE-1 SP Requirement[-] 
 
-
+専用装備１SP条件=UE-1 SP Requirement
+専用１SP強化可能=Unlock UE-1 SP
 
 「キャラ専用装備１SP」が解放されました。\n強化を進めるためには、厳しい条件をクリアする必要があるようです。\n焦らずゆっくり、着実に強化を進めてまいりましょう、主さま。=“Character Unique Equipment 1 SP” has been unlocked.\nTo proceed with its enhancement, it seems you must clear some demanding conditions.\nThere is no need to rush—let us strengthen it steadily and surely, my lord.
 

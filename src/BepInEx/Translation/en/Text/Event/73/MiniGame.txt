@@ -7,7 +7,7 @@
 ここからは\n前人未到の領域です！=From here on out, it's unexplored territory!
 はっはっは！\n任せろ！=Ha ha ha! Leave it to me!
 
-r:"^参加回数 x ([0-9,]+)回 / ([0-9,]+)pt$"=Total x$1/$2pt
+r:"^参加回数 x ([0-9.]+)回 / ([0-9.]+)pt$"=Total x$1/$2pt
 まったくもって不甲斐ない結果です\nしかし、挽回の機会はまだありますわ\n次はゴミ虫の地位から脱却できるよう\n死力を尽くしなさい。いいですね？=It's a completely inadequate result, but you still have a chance to make up for it. Next time, do your best to break out of your position as a garbage insect. Okay?
 助っ人参加ボーナス=Helper bonus
 討伐スコア=Subjugation Score

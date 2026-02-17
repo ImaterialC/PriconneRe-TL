@@ -6,6 +6,11 @@
 前方範囲内のランダムな敵キャラに、単体物理中ダメージを計４回与える。=Deals moderate P.DMG to a random enemy in range 4 times.
 r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Deals $4 P.DMG to an enemy.
 
+計４回、前方範囲内のランダムな敵キャラに単体物理大ダメージを与え、短時間物理防御力を小ダウンさせる。=A total of 4 times, deals large single-target P.DMG to random enemies in a frontal area and slightly lowers their P.DEF for a short time.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 3s.\n►Deals $3 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $4 for 3s.\n►Deals $5 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $6 for 3s.\n►Deals $7 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $8 for 3s.
+
+
+
 ##S1##
 サマービーチアブソーブ=Summer Sun Absorption
 目の前の敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Lowers the enemy's TP directly in front by a small amount and recovers own TP by a small amount.
@@ -17,8 +22,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ
 ##S2##
 アイスブレイク=Ice Breaker
 自分の物理攻撃力を中アップさせ、さらに行動速度を大アップさせる。=Large boost to own P.ATK and action speed.
-## r:"^自分の物理攻撃力を(\d+)アップ自分の行動速度アップ$"=►Boosts own P.ATK by $1.\n►Boosts own action speed.
-## Same as XAyane S1+
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分の行動速度100％アップ$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 10％.\n►Boosts own action speed by 100％.
 
 ##EX##
 キャッツインパラダイス=Kitty in Paradise
@@ -27,13 +31,26 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ
 ##S1+##
 サマービーチアブソーブ+=Summer Sun Absorption+
 目の前の敵１キャラのＴＰを小ダウンさせ、自分のＴＰを小回復する。さらに目の前の敵１キャラの物理攻撃力を大ダウンさせ、自分の物理攻撃力を特大アップさせる。=Lowers the TP of an enemy directly in front by a small amount and recovers own TP by a small amount. Lowers the P.ATK of an enemy directly in front by a large amount, and massively boosts own P.ATK.
+
+目の前の敵１キャラのＴＰを中ダウン、物理攻撃力を大ダウンさせ、さらに、自分の物理攻撃力を特大アップ、ＴＰを大回復する。=Moderately lowers the TP of an enemy in front, greatly lowers their P.ATK, and additionally massively boosts own P.ATK and greatly recovers own TP.
+
 r:"^敵単体のＴＰを(\d+)失わせる自分のＴＰを(\d+)回復敵単体の物理攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=Cast time: 0.5s\n►Reduces an enemy's TP by $1.\n►Recovers own TP by $2.\n►Lowers an enemy's P.ATK by $3 for 12s.\n►Boosts own P.ATK by $4 for 12s.
 
 ##S2+##
 アイスブレイク+=Ice Breaker+
 自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、さらに行動速度を大アップさせる。=Greatly boosts her own P.ATK, slightly enhances damage dealt on physical attack criticals, and further greatly increases her action speed.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分の行動速度アップ$"=Cast time: 1.1s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 10% for 180s.\n►Boosts own action speed into 200% for 18s.
+##r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分の行動速度アップ$"=Cast time: 1.1s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 10% for 180s.\n►Boosts own action speed into 200% for 18s.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分の行動速度100％アップ$"=Cast time: 1.1s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 10％ for 180s.\n►Boosts own action speed by 100％ for 18s.
 
 ##UE##
 氷鯛アイスダガー=Ice-Bream Dagger
 ねこねこフェザーローブ=Cat Feather Robe
+
+
+
+##S1++##
+TamakiS
+サマービーチアブソーブ++=Summer Sun Absorption++
+目の前の敵１キャラに物理大ダメージを与え、ＴＰを中ダウン、物理攻撃力を大ダウンさせ、さらに、自分の物理攻撃力を特大アップ、ＴＰを大回復する。=Deals large P.DMG to an enemy in front, moderately lowers their TP, and greatly lowers their P.ATK. Additionally, massively boosts own P.ATK and greatly recovers own TP.
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体のＴＰを220失わせる自分のＴＰを500回復敵単体の物理攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=Cast time: 0.5s\n►►Deals $1 P.DMG to a single enemy.\n►Reduces TP of a single enemy by 220.\n►Recovers own TP by 500.\n►Lowers a single enemy's P.ATK by $2 for 12s.\n►Boosts own P.ATK by $3 for 12s.

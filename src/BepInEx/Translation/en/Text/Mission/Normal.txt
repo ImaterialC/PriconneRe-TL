@@ -29,6 +29,8 @@ r:"^(\[[0-9A-F]{6}\])?アドベンチャーを(\d+)回完了させよう(\[-\])?
 
 r:"^(\[[0-9A-F]{6}\])?【期間限定】メインストーリー第(\d+)部 第(\d+)章の第(\d+)話を閲覧しよう(\[-\])?$"=$1[Limited time] View Main Story Part $2 Chapter $3 Episode $4$5
 
+r:"^(\[[0-9A-F]{6}\])?(\d+)キャラのコネクトRANKを(\d+)まで上げよう(\[-\])?$"=$1Raise $2 character Connect RANK to $3$4
+
 
 sr:"^(.+?)のマスタリー(.)ヵ所をレベル(.)以上にしよう$"=Raise all $2 $1 mastery levels to level $3 or above
 

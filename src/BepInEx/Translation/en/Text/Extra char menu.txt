@@ -5,7 +5,7 @@
 アイテムを集めてキャラを解放=Collect items to unlock the character.
 
 セットするマナの量を指定してください。=Specify the amount of Mana.
-r:"^最小単位は([0-9,]+)です。$"=Minimum unit is $1.
+r:"^最小単位は([0-9.]+)です。$"=Minimum unit is $1.
 
 必要アイテム=Required Items
 
