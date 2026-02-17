@@ -48,7 +48,6 @@ Lv強化=Level Up
 使う=Use
 強化ポーションを所持していません=No EXP Potions left!
 あと=Left:
-この装備は今後登場予定です。=This equipment will be released at a later date.
 マイパーティ=My Parties
 エクストラキャラ=Extra Character
 [FF7C4E,D62146]必要素材が不足しています。[-]=[FF7C4E,D62146]Insufficient required materials.[-]
@@ -102,8 +101,16 @@ r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F0
 キャラのRANKが7以上で装備できます。=Can be equipped at RANK 7.
 [FF7C4E,D62146]キャラのRANKが7以上で装備できます。[-]=[FF7C4E,D62146]Equipable at RANK 7.[-]
 
+この装備は今後登場予定です。=This equipment will be released at a later date.
 このキャラの★6は今後登場予定です。=This character's 6★ ascension \nwill be introduced at a later date.
 パーティ情報がありません。=There is no party information.
+
+この専用装備は今後登場予定です。=[3C404E]This Unique Equipment will be introduced at a later date.[-]
+この専用装備１は今後登場予定です。=[3C404E]This Unique Equipment-1 will be introduced at a later date.[-]
+この専用装備２は今後登場予定です。=[3C404E]This Unique Equipment-2 will be introduced at a later date.[-]
+
+この専用装備１のSP強化は今後登場予定です。=This Unique Equipment 1 SP enhancement will be introduced at a later date.
+
 [FF7C4E,D62146]専用装備グロウスフィアを使用できます。[-]=[FF7C4E,D62146]UE Growsphere can be used.[-]
 [FF7C4E,D62146]専用装備１グロウスフィアを使用できます。[-]=[FF7C4E,D62146]UE-1 Growsphere can be used.[-]
 [FF7C4E,D62146]専用装備２グロウスフィアを使用できます。[-]=[FF7C4E,D62146]UE-2 Growsphere can be used.[-]

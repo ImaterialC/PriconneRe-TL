@@ -9,4 +9,10 @@
 役職=Position
 ロール=Role
 編成順=Formation order
+
+まとめて強化対象設定=Enhancement target settings at once
+まとめて強化対象の設定をします。=Set a target for enhancement at once.
+シンクロ対象=Synchronization target
+専用１SP登場済=UE-1SP
+
 本日編成したキャラを優先して表示=Prioritize characters used in parties today

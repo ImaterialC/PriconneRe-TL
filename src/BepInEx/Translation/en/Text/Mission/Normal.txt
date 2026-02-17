@@ -54,3 +54,5 @@ sr:"^(.+?)のマスタリー(.)ヵ所をレベル(.)以上にしよう$"=Raise a
 [FFFFFF]称号を受け取ろう[-]=[FFFFFF]Receive a title[-]
 登頂せよ！『四彩の霊峰』=Climb! "Four-Colored Sacred Mountain"
 
+
+ルナの塔頂上EXクエストをクリアしよう=Clear the EX quest at the top of Luna Tower
