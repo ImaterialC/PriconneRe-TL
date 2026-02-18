@@ -43,8 +43,8 @@ Sダッシュ=S:Dash
 
 限定★3確定=Limited ★3\nGuarantee
 限定★3確定ガチャ=Guarantee ★3\nLim gacha
-r:"^([0-9.]+)Year Anniversaryガチャ$"=$1 Year Anniversary Gacha
-r:"^([0-9.]+)th Anniversaryガチャ$"=$1th Anniversary Gacha
+r:"^([0-9,.]+)Year Anniversaryガチャ$"=$1 Year Anniversary Gacha
+r:"^([0-9,.]+)th Anniversaryガチャ$"=$1th Anniversary Gacha
 限定スタートダッシュガチャ=Limited Start Dash Gacha
 ★3確定 ガチャチケットについて=Guarantee ★3 Gacha Ticket
 Anniv. スペシャル交換チケットについて=Anniv. Sp Exchange Ticket
@@ -52,7 +52,7 @@ Anniv. スペシャル交換チケットについて=Anniv. Sp Exchange Ticket
 ★3確定 アニメガチャチケットについて=Guarantee ★3 Anime Gacha Ticket
 ★3確定 プリコネフェス記念ガチャチケット=Guarantee ★3 Pricone-FES Memorial Gacha Ticket
 r:"^★3確定 プリコネフェス(\d*)記念ガチャチケット$"=Guarantee ★3 PriCone-FES $1 Memorial gacha ticket
-r:"^★3確定 ([0-9.]+)周年記念ガチャチケット$"=Guarantee ★3 $1th Anniversary Gacha Ticket
+r:"^★3確定 ([0-9,.]+)周年記念ガチャチケット$"=Guarantee ★3 $1th Anniversary Gacha Ticket
 ★3確定プラチナガチャ=Guarantee ★3 Premium Gacha
 ★3確定ガチャ=Guarantee ★3 Gacha
 sr:"^★3確定( )?(.*)?(ガチャ)(チケット)?$"=Guarantee ★3 $2 $3 $4
@@ -302,12 +302,12 @@ Sダッシュ スペシャル交換チケットについて=Regarding the S-Dash
 
 ■メモリーピース交換チケットについて\n・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×100と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。\n\n■GWメモリーピース交換チケットについて\n・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×50と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。\n\n■ピュアメモリーピース交換チケットについて\n・交換対象のキャラのピュアメモリーピース交換チケット1枚につき1キャラのピュアメモリーピース×50と交換できるチケットです。\n・獲得したピュアメモリーピースは直接付与されます。ピュアメモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。=■About Memory Piece Exchange Tickets:\n►This is a ticket that can be exchanged for 100 Memory Shards of one eligible character per Memory Piece Exchange Ticket.\n\n►Obtained Memory Shards will be granted directly. If you reach the maximum limit of Memory Shards, they will be sent to the Present Box.\n※Please check within each ticket's exchange dialog for eligible characters.\n\n■About GW Memory Piece Exchange Tickets:\n►This is a ticket that can be exchanged for 50 Memory Shards of one eligible character per Memory Piece Exchange Ticket.\n\n►Obtained Memory Shards will be granted directly. If you reach the maximum limit of Memory Shards, they will be sent to the Present Box.\n※Please check within each ticket's exchange dialog for eligible characters.\n\n■About Pure Memory Piece Exchange Tickets:\n►This is a ticket that can be exchanged for 50 Pure Memory Shards of one eligible character per Pure Memory Piece Exchange Ticket.\n\n►Obtained Pure Memory Shards will be granted directly. If you reach the maximum limit of Pure Memory Shards, they will be sent to the Present Box.\n※Please check within each ticket's exchange dialog for eligible characters.
 
-r:"^([0-9.]+)th Anniv\. スペシャル交換チケットについて$"=About $1th Anniv. special exchange tickets
-r:"^([0-9.]+)th Anniv\. スペシャル交換チケットを所持していません。$"=Insufficient $1th Anniv. Special Exchange Ticket.
-r:"^([0-9.]+)th Anniv\. スペシャル交換チケット$"=$1th Anniv. Special Exchange Ticket
+r:"^([0-9,.]+)th Anniv\. スペシャル交換チケットについて$"=About $1th Anniv. special exchange tickets
+r:"^([0-9,.]+)th Anniv\. スペシャル交換チケットを所持していません。$"=Insufficient $1th Anniv. Special Exchange Ticket.
+r:"^([0-9,.]+)th Anniv\. スペシャル交換チケット$"=$1th Anniv. Special Exchange Ticket
 
-r:"^([0-9.]+)th Year Anniversary スペシャル$"=$1th Anniversary Special
-r:"^([0-9.]+)周年 ピュアメモリーピース交換チケット$"=$1th Anniversary Pure Memory Shards Exchange Ticket
+r:"^([0-9,.]+)th Year Anniversary スペシャル$"=$1th Anniversary Special
+r:"^([0-9,.]+)周年 ピュアメモリーピース交換チケット$"=$1th Anniversary Pure Memory Shards Exchange Ticket
 マスタリーチケット=Mastery Ticket
 チケットガチャではキャラ交換Ptは獲得できません。=Chara Exchange Pt cannot be earned\nwith this Gacha Ticket .
 sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?$"=Use $1 to draw Gacha.\nIs this OK?
@@ -356,7 +356,7 @@ sr:"^(.+)\nを消費してガチャを1回引きます。よろしいですか\?
 ---Special Tickets use---
 スペシャル キャラ交換ガチャセット=Special Chara Exchange
 GW SPキャラ交換ガチャセット=Golden Week SP Chara Exchange Gacha Set
-r:"^([0-9.]+)th Anniv. SPキャラ交換ガチャセット$"=$1th Anniv. Special Chara Exchange
+r:"^([0-9,.]+)th Anniv. SPキャラ交換ガチャセット$"=$1th Anniv. Special Chara Exchange
 年末年始 SPキャラ交換ガチャセット=New Year's holiday SP Special Chara Exchange
 限定＋=Limited+
 クランバトル同窓会=Clan Battle Class reunion

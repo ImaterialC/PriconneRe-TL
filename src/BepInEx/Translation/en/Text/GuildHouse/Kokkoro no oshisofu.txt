@@ -6,7 +6,7 @@
 
 引き出すマナは1以上で入力してください。=Please enter at least 1 mana to be withdrawn.
 マナが所持上限に達しているため引き出せません。=Already carrying max Mana. Cannot withdraw.
-sr:"^(?:\[3C404E\])?所持上限に達しているため\nプレゼントは受け取れませんでした。\n\n\[3C404E\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9.]+)\[-\](?:\[-\])?$"=[3C404E]Already carrying max $1.\nCannot withdraw.\n\n$1 × [FFBB00,CE4F001]$2[-][-]
+sr:"^(?:\[3C404E\])?所持上限に達しているため\nプレゼントは受け取れませんでした。\n\n\[3C404E\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9,.]+)\[-\](?:\[-\])?$"=[3C404E]Already carrying max $1.\nCannot withdraw.\n\n$1 × [FFBB00,CE4F001]$2[-][-]
 
 
 所持上限をこえている、\nまたは期限を過ぎているため\nプレゼントを受け取れませんでした。=You have exceeded the limit of your possession, or have passed the expiration date, so you were unable to receive a present.
@@ -15,7 +15,7 @@ sr:"^(?:\[3C404E\])?所持上限に達しているため\nプレゼントは受�
 ストックしたマナを引き出します。=Withdraw stocked Mana.
 マナを引き出す=Mana Withdraw
 引き出し結果=Result of Withdraw
-r:"^\[FFBB00,CE4F00\]([0-9.]+)\[-\]\[3C404E\]マナを引き出しました。\[-\]$"=[3C404E]Withdraw [FFBB00,CE4F00]$1[-] Manas.[-]
+r:"^\[FFBB00,CE4F00\]([0-9,.]+)\[-\]\[3C404E\]マナを引き出しました。\[-\]$"=[3C404E]Withdraw [FFBB00,CE4F00]$1[-] Manas.[-]
 引き出せるマナがありません。=There is no mana that can be withdraw.
 マナ所持上限をこえました=Exceeded the Mana Possession Limit
 ---setting---

@@ -63,12 +63,12 @@ Lv/RANK シンクロ機能実装に伴う配布です。=Implementation of sync 
 大天使の泪=Archangel's Tears
 一見ただの飴玉だが実は霊験あらた\nかな聖遺物であり、巷では模造品や\n偽物が出回る超レアアイテム。=At first glance, it's just look like a candy ball, but it's actually a holy relic with a spiritual test, and it's a super rare item with imitations and counterfeits on the streets.
 
-r:"^EXPを ([0-9.]+) 獲得できる$"=Gain $1 EXP.
-r:"^キャラのLv強化に使用すると、キャラEXPが([0-9.]+)加算される。$"=Used to upgrade a character's level. Adds $1 character EXP.
-r:"^ギルドハウス内で使用すると、キャラの絆Ptが([0-9.]+)加算される。$"=Used in the Guildhouse. Adds $1 character's bond points.
-r:"^キャラの装備強化に使用すると、装備強化Ptが([0-9.]+)加算される。$"=Used to refine a character's equipment. Adds $1 equipment refinement points.
+r:"^EXPを ([0-9,.]+) 獲得できる$"=Gain $1 EXP.
+r:"^キャラのLv強化に使用すると、キャラEXPが([0-9,.]+)加算される。$"=Used to upgrade a character's level. Adds $1 character EXP.
+r:"^ギルドハウス内で使用すると、キャラの絆Ptが([0-9,.]+)加算される。$"=Used in the Guildhouse. Adds $1 character's bond points.
+r:"^キャラの装備強化に使用すると、装備強化Ptが([0-9,.]+)加算される。$"=Used to refine a character's equipment. Adds $1 equipment refinement points.
 
-r:"^ギルドハウスやキャラの強化画面で使用すると、キャラの絆Ptが([0-9.]+)加算される。$"=When used in the guild house or character strengthening screen, the character's bond points will be increased by $1.
+r:"^ギルドハウスやキャラの強化画面で使用すると、キャラの絆Ptが([0-9,.]+)加算される。$"=When used in the guild house or character strengthening screen, the character's bond points will be increased by $1.
 
 sr:"^(.+?)ロールのマスタリー強化用素材。(.+?)(?:アップ)?の強化に使用できる。$"=A material used for $1 role mastery enhancement. Can be used to enhance their $2.
 マスタリー強化用素材。全てのロールの強化に使用できる。=A material used for mastery enhancement. Can be used to enhance all roles.

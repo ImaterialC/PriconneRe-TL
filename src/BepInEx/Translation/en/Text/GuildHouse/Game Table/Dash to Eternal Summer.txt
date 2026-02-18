@@ -36,12 +36,12 @@
 普通=Average
 とても長い=Very long
 長時間、スピード特大アップ！=Massive Speed for a long time!
-r:"^([0-9.]+)秒$"=$1s
+r:"^([0-9,.]+)秒$"=$1s
 タイムボーナス=Time bonus
 着順ボーナス=Arrival order bonus
 sr:"^ラウンド(\d+) ([べ-ヺー＆＝]+)のスコア詳細$"=Round $1 $2 score details
 難易度ボーナス=Difficulty bonus
-r:"^([0-9.]+)倍$"=$1 times
+r:"^([0-9,.]+)倍$"=$1 times
 回避ボーナス=Dodge Bonus
 今回のスコア=Score
 結果発表へ=To the Result

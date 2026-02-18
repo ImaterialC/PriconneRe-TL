@@ -54,7 +54,7 @@ r:"^期間限定ミッション([0-9:：/～\- ]+)$"=Event Mission$1
 コネクトRANK=Connect RANK
 
 イベント参加ボーナス=Event Participation Bonus
-r:"^難易度ボーナス ×([0-9.]+)$"=Difficulty Bonus ×$1
+r:"^難易度ボーナス ×([0-9,.]+)$"=Difficulty Bonus ×$1
 
 １戦目=1st match
 ２戦目=2nd match
@@ -76,9 +76,94 @@ r:"^難易度ボーナス ×([0-9.]+)$"=Difficulty Bonus ×$1
 スキップスコアが最大の難易度でスキップします。=Skip using the difficulty with the highest skip score.
 挑戦回数を消費しないで1回バトルをスキップします。=Skip one battle without consuming an attempt.
 
+挑戦回数を消費して、バトルをまとめて\nスキップします。よろしいですか？=This will consume your attempts and skip the entire battle.\nIs this OK?
+
+
+
+挑戦回数が不足しています。=Insufficient number of attempts.
 
 sr:"^(.)属性のキャラが(.)体以上編成されているとき、\n?キャラの属性ボーナスが強化される。(.)属性と(.)属\n?性以外の属性ボーナスを無効化する。$"=When $1 or more $2-element characters are in the party, the characters’ Elemental Bonus is enhanced. Elemental Bonuses other than $3 and $4 are nullified.
 
 「エルピス討魔戦線」は、地下深くより湧きし魔物を討伐するイベントで\nございます。こちらのバトルでは、コネクトRANKボーナスが強化され\nるようですよ。また「遺物」の装備によっても強化を得られるのだとか。=“Elpis Demon-Suppression Frontline” is an event where you subjugate monsters that surge forth from deep underground.\nIn these battles, the Connect RANK bonus will be enhanced.\nYou can also gain additional boosts by equipping “Relics.”
 ボスの初回クリア時や、撃破時に得られるポイントを集めることで報酬が\n獲得できます。ポイントは撃破までのタイムが短いほど多く得られるよう\nです。コネクトRANK強化アイテムの入手を目指して頑張りましょう。=You can earn rewards by collecting points obtained from your first clear of a boss and from defeating it.\nThe shorter the time it takes to defeat the boss, the more points you will earn.\nDo your best to obtain Connect RANK enhancement items.
 
+
+
+
+
+遺物詳細=Artifact Details
+不思議な効果を持つ聖なる腕輪。失われた技術で装飾された宝石が装備者に加護を齎し、危機が迫ると膨大な力を分け与える。=A sacred bracelet with mysterious effects. A gemstone adorned with lost technology bestows protection upon the wearer, and when danger approaches, it shares immense power.
+不思議な効果を持つ宝石を飾った円盾。海のような青き魔力は装備者に庇護を与え、迫り来る脅威すらエネルギーへと昇華させる。=A round shield adorned with a gemstone that holds mysterious effects. Ocean-like blue magic grants protection to the wearer, transforming even approaching threats into energy.
+不思議な効果を持っている月を象る耳飾り。内部から発する魔力は装備者に蝶のような瞬麗さを授け活力加速を大きく上昇させる。=Moon-shaped earrings with mysterious effects. The magic emitted from within grants the wearer butterfly-like grace and greatly increases vitality acceleration.
+不思議な効果を持つ、地神の力を宿した烈槍。大地の力を糧に放つ無比の一閃は、地に立つすべての敵に甚大なダメージを与える。=A fierce spear imbued with the power of the earth god and mysterious effects. A peerless strike fueled by the earth’s power deals tremendous damage to all enemies standing on the ground.
+不思議な効果を持つ、伝説に語られる極みの一振り。鳳凰の力を宿した真紅の刃は、焔の如き赫く激烈な一撃を与える。=A legendary ultimate blade with mysterious effects. Its crimson edge, imbued with the power of the phoenix, delivers a blazing, intensely fierce strike like flames.
+不思議な効果を持つ、妖精の輝きを封じた杖。宝⽟から無限の⽣命⼒が溢れ出し、増幅された快癒の⼒であらゆる苦しみを取り除く。=A staff sealing fairy radiance with mysterious effects. Infinite vitality overflows from its jewel, removing all suffering through amplified healing power.
+不思議な効果を持つ、翠緑に彩られた指輪。装備者に、かつて豊穣に溢れた楽園の光景を想起させ、際限なき⽣命⼒を与える。=An emerald-colored ring with mysterious effects. It reminds the wearer of a paradise once overflowing with abundance and grants limitless vitality.
+不思議な効果を持つ、白金の輝きを放つ鎧。顕現する翅は、意思を持つかのよう、装備者に呼応して物理攻撃を断つ障壁を展開する。=Armor emitting a platinum radiance with mysterious effects. Its manifested wings respond to the wearer as if they have a will of their own, deploying a barrier that cuts off physical attacks.
+不思議な効果を持つ、幽庵の煌きを宿す鎧。顕現する翅は、意思を持つかのよう、装備者に呼応して魔法攻撃を絶つ障壁を展開する。=Armor bearing a secluded radiance with mysterious effects. Its manifested wings respond to the wearer as if they have a will of their own, deploying a barrier that cuts off magical attacks.
+不思議な効果を持つ、翠宝玉をあしらった腕輪。常に滾々とマナが湧き出し、生命力を湛え続ける。=A bracelet adorned with emerald gems and mysterious effects. Mana constantly wells forth, continuously filling it with vitality.
+不思議な効果を持つ、東の国に伝わりし聖鎧。玉の様に透き通る輝きを放つ鎧は、装備者に華の加護を授け、守護の力を高める。=A sacred armor passed down in the eastern lands with mysterious effects. Its jewel-like transparent radiance grants a floral blessing to the wearer and enhances protective power.
+不思議な効果を持つ、光⿓の⼒を授かりし⼤剣。その⼀振りはかつての栄光の羽ばたきを想起させ、極限の覇気を世界に放つ。=A greatsword bestowed with the power of the Light Dragon and mysterious effects. Each swing recalls the wings of former glory and releases ultimate dominance into the world.
+不思議な効果を持つ、栄華の象徴として仕立てられたドレス。深紅に咲き乱れる花の加護は、装備者の絶魔の⼒を攻撃⼒へ変換する。=A dress crafted as a symbol of splendor with mysterious effects. The blessing of crimson flowers converts the wearer’s anti-magic power into attack power.
+不思議な効果を持つ、⽩⾦の鎧。⽩⻯の鱗を繋ぎ合わせた外装が盟友の力を集結させる効果を持ち強力無比な一撃を可能にする。=A platinum armor with mysterious effects. Its exterior, formed by linking white dragon scales, gathers the power of allies and enables an incomparably powerful strike.
+不思議な効果を持つ、炎天の魔力を封じた耳飾り。潜在能力を究極まで呼び覚まし、強化の力を大幅に上昇させる。=Earrings sealing infernal flame magic with mysterious effects. They awaken latent abilities to their ultimate limit and greatly increase strengthening power.
+不思議な効果を持つ、金色の⼤戦斧。刈り取った獲物の魂を糧に、その絢爛なる刃は燦燦と輝きを増してゆく。=A golden great axe with mysterious effects. Feeding on the souls of harvested prey, its splendid blade grows ever more radiant.
+不思議な効果を持つ、咎⼈を裁きし聖⼸。この弓に選ばれし装備者は神⾵の加護を得て、対象に慈悲を与えず一瞬で急所を射貫く。=A sacred bow that judges sinners with mysterious effects. The wielder chosen by this bow gains the blessing of divine wind and pierces vital points in an instant without mercy.
+不思議な効果を持つ、地核のエネルギーを封じた籠手。振るう一撃は、世界を破壊するかの如く、通常攻撃を大きく強化する。=Gauntlets sealing the energy of the earth’s core with mysterious effects. Each strike, as if capable of destroying the world, greatly enhances normal attacks.
+不思議な効果を持つ、幻獣を象る首飾り。この宝石の神秘に魅せられた者は、一切の異変や脅威に抗うことができなくなってしまう。=A necklace shaped after a phantom beast with mysterious effects. Those captivated by the gem’s mystery lose the ability to resist any anomalies or threats.
+不思議な効果を持つ、月を蝕む杖存在するだけで、絶えず呪力の奔流を溢れさせ、近づく全ての敵を呪いで浸食していく。=A staff that devours the moon with mysterious effects. Merely existing, it constantly overflows with torrents of cursed power, corroding all approaching enemies with curses.
+不思議な効果を持つ、黒刃の刺剣刃に埋め込まれた宝玉が、絶え間なく邪毒を撒き散らし、破滅へと刻々と時を数える。=A black-bladed rapier with mysterious effects. The gemstone embedded in its blade endlessly scatters vile poison, counting down the moments toward ruin.
+不思議な効果を持つ、宝飾をあしらったベール。蔽布の下から滲み出るオーラが、相手の敵意を解きほぐし、無力化させてしまう。=A jewel-adorned veil with mysterious effects. The aura seeping from beneath the cloth dissolves hostility and renders opponents powerless.
+不思議な効果を持つ、⼑⾝に鎖を這わせた妖⼑。主の意思に逆らい暴れる鎖が怨敵の守りを打ち崩し紫黒の凶刃が悉くを断ち斬る。=A cursed blade wrapped in chains with mysterious effects. The chains rampage against the wielder’s will, shattering foes’ defenses as the dark violet blade cuts down all.
+不思議な効果を持つ、天使の加護を宿した戦靴。装備するだけで神性を授かり、天使のような自在さで空を翔ることができる。=War boots bearing angelic blessings with mysterious effects. Simply equipping them grants divinity and allows the wearer to soar freely like an angel.
+不思議な効果を持つ、かつて天界に伝えられし杖。天にかざすと鏡⽟に篭められた祈りが溢れ出して尽きることなき力を授ける。=A staff once passed down in the heavens with mysterious effects. When raised to the sky, prayers sealed within its mirror gem overflow, granting endless power.
+不思議な効果を持った杖の遺物。装備者に⼤樹の恵みを施し、治癒術の才覚を授けてくれる。=A staff-shaped relic with mysterious effects. It bestows the blessing of the great tree upon the wearer and grants aptitude for healing arts.
+不思議な効果を持った、指輪の形をした遺物。装備者を天空の護りで包み込み生命力を増幅させる。=A ring-shaped relic with mysterious effects. It envelops the wearer in heavenly protection and amplifies vitality.
+不思議な効果を持った、鎧の形をした遺物。高度な技術で精錬された鋼は、物理攻撃から身を護る。=An armor-shaped relic with mysterious effects. Steel refined with advanced techniques protects the wearer from physical attacks.
+不思議な効果を持った、ローブの遺物。神樹の蔦が織り込まれ、装備者を魔法から護る。=A robe relic with mysterious effects. Vines of the sacred tree are woven into it, protecting the wearer from magic.
+不思議な効果を持った、腕輪の遺物。溢れ出す⾃然の⼒は装備者に生命の息吹をもたらす。=A bracelet relic with mysterious effects. Overflowing natural power brings the breath of life to the wearer.
+不思議な効果を持った鎧の遺物。千年咲く桜の如く、盤石な堅牢さを装備者に与える。=An armor relic with mysterious effects. Like a cherry blossom that blooms for a thousand years, it grants unwavering sturdiness to the wearer.
+不思議な効果を持った、大剣の形をした遺物。湧き出る炎の力が、攻撃の能力を大きく高める。=A greatsword-shaped relic with mysterious effects. Surging flame power greatly enhances offensive capability.
+不思議な効果を持った、ドレスの遺物。精霊の加護が、防魔結界から力を集めてくれる。=A dress relic with mysterious effects. The blessing of spirits gathers power from anti-magic barriers.
+不思議な効果を持った、鎧の遺物紅き鋼の加護は、守備力を攻撃力へと変換する力を持つ。=An armor relic with mysterious effects. The blessing of crimson steel possesses the power to convert defense into attack.
+不思議な効果を持った、耳飾りの形をした遺物。魔石に込められた魔力が強化の力を増幅させる。=An earring-shaped relic with mysterious effects. The magic power sealed within the magic stone amplifies strengthening effects.
+不思議な効果を持った斧の遺物。繰り出される⼀撃は、掠めるだけで獲物の魂を吸い取る。=An axe relic with mysterious effects. Each strike drains the prey’s soul even with a mere graze.
+不思議な効果を持った、⼸の遺物装備者は烈⾵の⼒を授かり、獲物の急所を貫きやすくなる。=A bow relic with mysterious effects. The wearer is granted the power of fierce winds, making it easier to pierce an enemy’s vital points.
+不思議な効果を持った籠⼿の遺物。装備者は研ぎ澄まされた強力な一撃を放つことができる。=A gauntlet-shaped relic with mysterious effects. The wearer can unleash a finely honed, powerful strike.
+不思議な効果を持った、刀の形をした遺物。秋の紅を映す美しき刃は致命の攻撃をさらに強化する。=A sword-shaped relic with mysterious effects. Its beautiful blade reflecting autumn crimson further enhances lethal attacks.
+不思議な効果を持った、槍の遺物特殊な形の穂先が、敵により深い傷を刻み込む。=A spear relic with mysterious effects. Its uniquely shaped spearhead carves deeper wounds into enemies.
+不思議な効果を持った、⼑の遺物血で⾚く染まった⼑⾝で、敵の装甲をたやすく断ち割る。=A blade relic with mysterious effects. Its blood-red blade easily cleaves through enemy armor.
+不思議な効果を持った、帽子の形をした遺物。絡みつく茨の様に、敵の攻撃力を阻害する。=A hat-shaped relic with mysterious effects. Like entwining thorns, it hinders the enemy’s attack power.
+不思議な効果を持った、短剣の形をした遺物。刃に仕込まれた毒が気化し、接敵と共に毒を与える。=A dagger-shaped relic with mysterious effects. Poison embedded in the blade vaporizes, inflicting poison upon contact.
+不思議な効果を持った、杖の形をした遺物。杖先のコアから流れる邪気が敵に呪いを付与する。=A staff-shaped relic with mysterious effects. Malignant energy flowing from the core at its tip inflicts curses on enemies.
+不思議な効果を持った、⾸飾りの遺物。宝⽯の輝きで敵を虜にし、怪異をもたらすという。=A necklace relic with mysterious effects. Its gemstone’s radiance enthralls enemies and is said to bring about strange phenomena.
+不思議な効果を持った、翼の生えた靴形の遺物。装備した者に疾風の力を施し、行動を速める。=A winged shoe-shaped relic with mysterious effects. It bestows the power of swift winds upon the wearer, accelerating their actions.
+不思議な効果を持った杖の遺物。封じられた星々の神秘が、力の消耗を肩代わりしてくれる。=A staff relic with mysterious effects. The sealed mystery of the stars bears the burden of power consumption.
+不思議な効果を持った腕輪の遺物あしらわれた蒼珠が、敵を感知し力を授ける。=A bracelet relic with mysterious effects. The azure gem adorning it senses enemies and grants power.
+不思議な効果を持った円盾の形をした遺物。装備者に星の癒しを与え攻撃をエネルギーに変換する。=A round shield-shaped relic with mysterious effects. It grants stellar healing to the wearer and converts attacks into energy.
+不思議な効果を持った耳飾りの形をした遺物。流水の激しさのように、活力加速を増幅させる。=An earring-shaped relic with mysterious effects. Like rushing water, it amplifies vitality acceleration.
+不思議な効果を持つ腕輪。装備者に再生の力を与える。=A bracelet with mysterious effects. It grants regenerative power to the wearer.
+不思議な効果を持つローブ。装備者を魔法攻撃から守る。=A robe with mysterious effects. It protects the wearer from magical attacks.
+不思議な効果を持つ鎧。装備者を物理攻撃から守る。=Armor with mysterious effects. It protects the wearer from physical attacks.
+不思議な効果を持つ指輪。装備者の生命力を強化する。=A ring with mysterious effects. It enhances the wearer’s vitality.
+不思議な効果を持つ杖。癒しの⼒を高めてくれる。=A staff with mysterious effects. It enhances healing power.
+不思議な効果を持つ鎧。装備者の守りの力を高めることができる。=Armor with mysterious effects. It increases the wearer’s defensive power.
+不思議な効果を持つ大剣。装備者の攻撃力を強化する。=A greatsword with mysterious effects. It strengthens the wearer’s attack power.
+不思議な効果を持つドレス。装備者の抗魔の才を攻撃⼒に換える。=A dress with mysterious effects. It converts the wearer’s anti-magic aptitude into attack power.
+不思議な効果を持つ鎧。同朋の強靭を、自身の攻撃に変換する。=Armor with mysterious effects. It converts the toughness of allies into the wearer’s own attack power.
+不思議な効果を持つ耳飾り。装備者の強化効果を高める。=Earrings with mysterious effects. They enhance the wearer’s strengthening effects.
+不思議な効果を持つ斧。攻撃と共に敵の体力を吸い取る力を宿す。=An axe with mysterious effects. It possesses the power to drain enemy vitality with each attack.
+不思議な効果を持つ⼸。装備すると致命の一射を与えやすくなる。=A bow with mysterious effects. Equipping it makes it easier to land lethal shots.
+不思議な効果を持つ籠手。強化された一撃を放つことができる。=Gauntlets with mysterious effects. They allow the wearer to unleash enhanced strikes.
+不思議な効果を持つ刀。致命の攻撃を与えたときの威力を高める。=A sword with mysterious effects. It increases the power of lethal attacks.
+不思議な効果を持つ槍。鋭い一撃で敵に深い傷を負わせる。=A spear with mysterious effects. A sharp strike inflicts deep wounds on enemies.
+不思議な効果を持つ刀。敵の守りを断ち崩す力がある。=A blade with mysterious effects. It has the power to break through enemy defenses.
+不思議な効果を持つ帽子。装備すると敵の攻撃を弱体させる。=A hat with mysterious effects. Equipping it weakens enemy attacks.
+不思議な効果を持つ短剣。持つだけで敵を毒にすることができる。=A dagger with mysterious effects. Merely holding it can poison enemies.
+不思議な効果を持つ杖。所持するだけで敵を呪うことができる。=A staff with mysterious effects. Simply possessing it allows the user to curse enemies.
+不思議な効果を持つ首飾り。敵に異常を与えやすくなる。=A necklace with mysterious effects. It makes it easier to inflict status ailments on enemies.
+不思議な効果を持つ靴。装備した者は迅速に動くことができる。=Shoes with mysterious effects. The wearer can move swiftly.
+不思議な効果を持つ杖。装備者に力を温存させる効果をもたらす。=A staff with mysterious effects. It grants an effect that conserves the wearer’s power.
+不思議な効果を持つ腕輪。戦いの始まりとともに、装備者にエネルギーを与える。=A bracelet with mysterious effects. At the start of battle, it grants energy to the wearer.
+不思議な効果を持つ円盾。受けた攻撃をエネルギーに変換できる。=A round shield with mysterious effects. It can convert received attacks into energy.
+不思議な効果を持つイヤリング。装備者に活力加速を与える。=Earrings with mysterious effects. They grant vitality acceleration to the wearer.

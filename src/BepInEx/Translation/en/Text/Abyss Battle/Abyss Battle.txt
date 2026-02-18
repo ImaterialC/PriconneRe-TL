@@ -10,8 +10,8 @@
 深淵討伐戦へ=To the Abyss Battle
 スタミナ不足のため実行しません。=Not executed due to lack of stamina.
 スコア報酬=Score Reward
-r:"^スコアを([0-9.]+)pt獲得しよう$"=Get a score of $1pt
-r:"^\[3C404E\]初回クリアでスコア\[-\]\[FFBB00,CE4F00\]([0-9.]+)pt\[-\]\[3C404E\]獲得！\[-\]$"=[3C404E] Earn a score of [FFBB00,CE4F00]$1pt[-] on your first clear![-]
+r:"^スコアを([0-9,.]+)pt獲得しよう$"=Get a score of $1pt
+r:"^\[3C404E\]初回クリアでスコア\[-\]\[FFBB00,CE4F00\]([0-9,.]+)pt\[-\]\[3C404E\]獲得！\[-\]$"=[3C404E] Earn a score of [FFBB00,CE4F00]$1pt[-] on your first clear![-]
 スコアレート=Score rate
 ボスリザルト=Boss Result
 初回クリアボーナス=First Clear Bonus
@@ -22,7 +22,7 @@ r:"^\[3C404E\]初回クリアでスコア\[-\]\[FFBB00,CE4F00\]([0-9.]+)pt\[-\]\
 難易度HARD=Hard
 難易度NORMAL=Normal
 スキップ可能な前哨クエストがありません。=There are no skipping Outpost Quests.
-r:"^\[FFBB00,CE4F00\]([0-9.]+)\[-\]\[3C404E\]枚で挑戦\[-\]$"=[3C404E]Challenge with [FFBB00,CE4F00]$1[-] Form(s)[-]
+r:"^\[FFBB00,CE4F00\]([0-9,.]+)\[-\]\[3C404E\]枚で挑戦\[-\]$"=[3C404E]Challenge with [FFBB00,CE4F00]$1[-] Form(s)[-]
 
 撃破回数=Defeat count
 消費討伐依頼証=Use Hunting Tickets

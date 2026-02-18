@@ -169,14 +169,14 @@ r:"^(\d+)回目の報酬交換ラインナップ$"=Reward Exchange Lineup: Lap $
 まとめて交換確認=Exchange at Once Confirmation 
 交換後のBOX状況=BOX Status
 リセットするBOX数=BOX Reset
-r:"^([0-9.]+)枚の討伐証をまとめて交換しますか？$"=Do you want exchange\n\n$1 Victory Medals at Once?
+r:"^([0-9,.]+)枚の討伐証をまとめて交換しますか？$"=Do you want exchange\n\n$1 Victory Medals at Once?
 
-r:"^([0-9.]+)枚のイベント報酬券をまとめて交換しますか？$"=Do you want exchange\n\n$1 Event Reward Tickets in bulk?
+r:"^([0-9,.]+)枚のイベント報酬券をまとめて交換しますか？$"=Do you want exchange\n\n$1 Event Reward Tickets in bulk?
 リセットすると元に戻すことはできません。\n\nリセットすることにより、\n新しい報酬ラインナップに切り替わります。\n\nよろしいですか？=Resetting cannot be undone; resetting will switch you to the new reward lineup.\n\nAre you sure?
 
 
 
-r:"^討伐証([0-9.]+)枚を消費して、以下のアイテムを獲得できます。$"=Exchange $1 Victory Medals and received the following items.
+r:"^討伐証([0-9,.]+)枚を消費して、以下のアイテムを獲得できます。$"=Exchange $1 Victory Medals and received the following items.
 確定で獲得できる報酬はありません。=There are no Fixed rewards.
 まとめて交換詳細=Exchange at Once Details 
 リセットされないBOXの報酬は、未確定のためこの一覧に含まれません。=BOX rewards that are not reset are not included in this list as they are undecided.

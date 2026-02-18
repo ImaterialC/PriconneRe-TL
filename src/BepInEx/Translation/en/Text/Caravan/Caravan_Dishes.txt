@@ -185,10 +185,10 @@ r:"^(\d)/(\d)食事済$"=$1/$2 Meals
 【料理】「マイルマス」を「トレジャーマス」に変化させる=[Cooking] Change Mile Tiles into Treasure Tiles
 
 ---Sub-effects---
-r:"^([0-9.]+)マイルを獲得する。?$"=Acquire $1 miles.
+r:"^([0-9,.]+)マイルを獲得する。?$"=Acquire $1 miles.
 r:"^RANK(\d+)のマイルショップを開く。$"=Open a RANK$1 mile shop.
-sr:"^(.+)を([0-9.]+)個獲得する。$"=Obtain $2 x $1.
-sr:"^(.+)を([0-9.]+)個獲得…$"=Obtain $2 x $1.
+sr:"^(.+)を([0-9,.]+)個獲得する。$"=Obtain $2 x $1.
+sr:"^(.+)を([0-9,.]+)個獲得…$"=Obtain $2 x $1.
 
 ---Overwrite confirmation texts, cause the have gray color codes... Could not test all yet, excluded the non-overwritable one, will test on the go---
 ---Red---

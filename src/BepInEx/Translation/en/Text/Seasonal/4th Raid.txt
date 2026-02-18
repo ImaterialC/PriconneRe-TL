@@ -13,7 +13,7 @@
 宝石蜘蛛の群れ討伐で魔蜘の金糸獲得!=Get "Golden Spider Silk" by defeating\nthe swarm of Jewel Spiders!
 撃退数=Repelling number
 r:"^残り魔蜘の金糸 : (\d+)$"=Golden Spider Silk: $1
-r:"^([0-9.]+)体\((\d+)%\)$"=$1 Times ($2%)
+r:"^([0-9,.]+)体\((\d+)%\)$"=$1 Times ($2%)
 全プレイヤーでバンディ・シスターズを合計1,000,000回倒そう=Defeat Bundy Sisters 1,000,000 times with all players
 で挑戦=is used\nto challenge
 残り体数=Remaining total

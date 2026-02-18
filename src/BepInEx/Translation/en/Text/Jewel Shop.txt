@@ -111,13 +111,13 @@ r:"^([0-9.a-zA-Z ]*)プリンセスナイト強化パック$"=$1 Princess Knight
 
 装備ショップ=Equipment Shop
 EX★4装備パック=EX★4 Equipment Package
-r:"^([0-9.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
-r:"^([0-9.]+)周年 SPキャラ交換ガチャセット$"=$1th Anniversary SP Chara Exchange Gacha Set
-r:"^([0-9.]+)周年 ★6キャラ育成パック$"=$1th Anniversary★6 Character Raising Package
-r:"^([0-9.]+)周年 専用装備１グロウスフィアパック$"=$1th Anniversary Unique Equipment 1 Growsphere Package
-r:"^([0-9.]+)周年 ピュアメモリーピースパック$"=$1th Anniversary Pure Memory Shard Package
-r:"^([0-9.]+)周年 属性強化パック$"=$1th Anniversary Elemental Enhancement Package
-sr:"^([0-9.]+)周年 EX★4装備パック\((片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)・(片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)\)$"=$1th Anniversary EX★4 Equipment Package ($2 and $3)
+r:"^([0-9,.]+)周年 プリンセスナイト強化パック$"=$1th Anniversary Princess Knight Enhancement Package
+r:"^([0-9,.]+)周年 SPキャラ交換ガチャセット$"=$1th Anniversary SP Chara Exchange Gacha Set
+r:"^([0-9,.]+)周年 ★6キャラ育成パック$"=$1th Anniversary★6 Character Raising Package
+r:"^([0-9,.]+)周年 専用装備１グロウスフィアパック$"=$1th Anniversary Unique Equipment 1 Growsphere Package
+r:"^([0-9,.]+)周年 ピュアメモリーピースパック$"=$1th Anniversary Pure Memory Shard Package
+r:"^([0-9,.]+)周年 属性強化パック$"=$1th Anniversary Elemental Enhancement Package
+sr:"^([0-9,.]+)周年 EX★4装備パック\((片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)・(片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)\)$"=$1th Anniversary EX★4 Equipment Package ($2 and $3)
 
 (片手剣|槍|弓|本|両手剣|斧|盾|杖|短剣|拳)
 
@@ -138,11 +138,11 @@ GW EX★4装備パック (両手剣・斧)=GW EX★4 Equipment Pack (Two-Handed 
 
 
 
-sr:"^\[FFBB00,CE4F00\]([0-9.]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of\n[FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1 pts[-]?[-]
+sr:"^\[FFBB00,CE4F00\]([0-9,.]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を\n１セット購入しますか？\[-\]$"=[3C404E]Would you like to purchase 1 set of\n[FFBB00,CE4F00]$2[-] for [FFBB00,CE4F00]$1 pts[-]?[-]
 
 r:"^探索挑戦回数+(\d+)回の期間が追加となります。\n(\d+)日間スタミナ応援パックを購入しますか？?$"=Grotto attempts +$1 for the selected period.\nWould you like to purchase \nthe $2-Day Stamina Support Pack?
 
-sr:"^(?:\[3C404E\])?探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9.]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？(?:\[-\])?$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase \n[FFBB00,CE4F00]$3[-] for [FFBB00,CE4F00]$2 pts[-]?[-]
+sr:"^(?:\[3C404E\])?探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\]([0-9,.]+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](.+)\[-\]\[3C404E\]を購入しますか？(?:\[-\])?$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase \n[FFBB00,CE4F00]$3[-] for [FFBB00,CE4F00]$2 pts[-]?[-]
 
 r:"^\[3C404E\]探索挑戦回数\+(\d+)回の期間が追加となります。\n\[-\]\[FFBB00,CE4F00\](\d+)pt\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\](\d+)日間スタミナ応援パック\[-\]\[3C404E\]を購入しますか？\[-\]$"=[3C404E]Grotto attempts +$1 for the selected period.\nWould you like to purchase the\n $3-Day Stamina Support Pack for [FFBB00,CE4F00]$2 pts[-]?[-]
 
@@ -153,7 +153,7 @@ r:"^(\[3C404E\]\[FFBB00,CE4F00\])(\d+)日(\[-\]\[-\])$"=$1$2 Days $3
 
 
 sr:"^(\d+)年(\d+月)(\d+)日まで$"=Until $2 $3, $1
-r:"^ジュエル ([0-9.]+)個$"=$1 Jewels
+r:"^ジュエル ([0-9,.]+)個$"=$1 Jewels
 
 毎月更新 ジュエル 7500個=7,500 jewels (Monthly deal)
 3回限定 ジュエル 7500個=7,500 Jewels (Three-time deal)

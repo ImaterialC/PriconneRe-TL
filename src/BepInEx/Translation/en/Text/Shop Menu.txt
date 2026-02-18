@@ -23,15 +23,15 @@ r:"^残り(\d+)回$"=$1 Times Left
 所持コイン=Coins Held:
 これ以上購入回数を減らせません。=The number of purchases cannot be reduced any further.
 ポーション=EXP Potion
-r:^"([0-9.]+)でまとめて購入する$"=Buy All with: $1
+r:^"([0-9,.]+)でまとめて購入する$"=Buy All with: $1
 まとめて購入する=Buy All
 ---Confirm---
-sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9.]+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しますか\?\[-\]$"=[3B3F4D]Use $1 × [FFBB00,CE4F00]$2[-]\nto purchase the following items?[-]
+sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9,.]+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しますか\?\[-\]$"=[3B3F4D]Use $1 × [FFBB00,CE4F00]$2[-]\nto purchase the following items?[-]
 
 ---Bough List---
-sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9.]+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しました。\[-\]$"=[3B3F4D]You used $1 × [FFBB00,CE4F00]$2[-]\n to buy the following items.[-]
+sr:"^\[3B3F4D\](.+)×\[-\]\[FFBB00,CE4F00\]([0-9,.]+)\[-\]\[3B3F4D\]を消費して\n以下のアイテムを購入しました。\[-\]$"=[3B3F4D]You used $1 × [FFBB00,CE4F00]$2[-]\n to buy the following items.[-]
 
-sr:"^(?:\[3C404E\])?(.+)×\[FFBB00,CE4F00\]([0-9.]+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\]([0-9.]+)\[-\]を購入しました。(?:\[-\])?$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-] to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
+sr:"^(?:\[3C404E\])?(.+)×\[FFBB00,CE4F00\]([0-9,.]+)\[-\]を消費して\n(.+)×\[FFBB00,CE4F00\]([0-9,.]+)\[-\]を購入しました。(?:\[-\])?$"=[3C404E]You used $1 × [FFBB00,CE4F00]$2[-] to buy\n$3 × [FFBB00,CE4F00]$4[-].[-]
 
 ---sort order---
 ピュアメモリー\nピースのみ=Pure Memory\nShard only
@@ -78,8 +78,8 @@ sr:"^(?:\[3C404E\])?(.+)×\[FFBB00,CE4F00\]([0-9.]+)\[-\]を消費して\n(.+)×
 リセット対象のアイテムがありません。=There are no items to reset.
 
 r:"^(\d+)で一部ラインナップを今すぐ更新$"=Reset some lineup: $1
-r:"^([0-9.]+)で今すぐ更新$"=$1: Reset
-r:"^([0-9.]+)で一部更新$"=$1: Reset Some.
+r:"^([0-9,.]+)で今すぐ更新$"=$1: Reset
+r:"^([0-9,.]+)で一部更新$"=$1: Reset Some.
 一部ラインナップは毎日5:00更新=Some lineup Reset Daily at 5:00(JST)
 r:"^([0-9/]+) 枚$"=$1 Coin
 
@@ -106,7 +106,7 @@ sr:"^購入に必要な(.{4,20})が不足しています。$"=Insufficient $1 to
 
 メモリーピース購入数=Purchase amount
 そのまま購入=Just buy that
-r:"^([0-9.]+)で購入$"=buy $1
+r:"^([0-9,.]+)で購入$"=buy $1
 ★6才能開花に必要な数を超えています。=Exceeds the number required for *6 Ascension.
 [FF7C4E,D62146]専用装備１作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-1.[-]
 [FF7C4E,D62146]専用装備１作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-1.[-]

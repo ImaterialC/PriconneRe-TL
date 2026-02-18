@@ -33,7 +33,7 @@ r:"^第?(\d+)部 第(\d+)章 第(\d+)話$"=Part $1 Chapter $2 Episode $3
 r:"^幕間・(.{1,5})$"=Interlude $1
 
 r:"^サブストーリー(.{1,4})$"=Substory $1
-r:"^第([0-9.]+)話$"=Episode $1
+r:"^第([0-9,.]+)話$"=Episode $1
 sr:"^(.+)が\n?解放可能になりました。$"=$1\nhas been unlocked.
 メインクエスト2-1\n（NORMAL）クリア\nまたは期間限定\nイベント参加で解放=Unlock by clearing\nMain Quest\n2-1 (NORMAL)\nor participating in\na limited time event
 メインクエスト2-1\n（NORMAL）クリア\nまたは特別な\nイベント視聴で解放=Unlock by clearing\nMain Quest\n2-1 (NORMAL)\nor participating in\na limited time event
