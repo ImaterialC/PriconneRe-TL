@@ -38,7 +38,7 @@
 
 ##Mission##
 sr:"^難易度(.+?)の(.+)を(.+)秒以上残してクリアしよう$"=Clear the $1 difficulty $2 with $3 or more remaining.
-sr:"^難易度(.+?)の(.+)をパーティ(.)までにクリアしよう$"=Clear the $1 difficulty $2 using only $1 party.
+sr:"^難易度(.+?)の(.+)をパーティ(.)までにクリアしよう$"=Clear the $1 difficulty $2 using only $3 party.
 
 r:"^難易度(.+)クリア$"=Clear $1 difficulty
 
@@ -47,6 +47,7 @@ r:"^期間限定ミッション([0-9:：/～\- ]+)$"=Event Mission$1
 
 １つ前の難易度=The previous difficulty level
 
+挑戦回数を消費して挑戦を開始します。\n\nよろしいですか？=Consume attempt count to start the challenge.\n\nIs that okay?
 
 コネクトRANK=Connect RANK
 

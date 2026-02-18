@@ -27,8 +27,7 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃�
 ##S2##
 スピードアップ=Speed Boost
 味方全体の行動速度を小アップさせ、さらに物理攻撃力を小アップさせる。=Small boost to action speed and allies' P.ATK.
-r:"^味方全体の行動速度アップ味方全体の物理攻撃力を(\d+)アップ$"=►Boosts all allies' action speed to 120% for 12s.\n►Boosts allies' P.ATK by $1 for 12s.
-
+r:"^味方全体の行動速度アップ味方全体の物理攻撃力を(\d+)アップ$"=Cast time: 1.4s\n►Boosts all allies' action speed to 120% for 12s.\n►Boosts allies' P.ATK by $1 for 12s.
 ##EX##
 精霊の啓示=Spiritual Epiphany
 精霊の啓示+=Spiritual Epiphany+
@@ -36,21 +35,35 @@ r:"^味方全体の行動速度アップ味方全体の物理攻撃力を(\d+)�
 ##UB+##
 オーロラブルーミング=Aurora Blooming
 自分のＨＰを大回復させる。味方全体のＨＰを中回復し、物理攻撃力と魔法攻撃力を大アップさせ、さらにＴＰ上昇を小アップさせる。=Boost P.ATK and M.ATK power of all allies by a large amount, boost TP Boost of all allies by a small amount, recovers own HP by a large amount and recovers allies HP by a moderate amount.
-r:"^自分のＨＰを(\d+)回復味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体のＴＰ上昇を(\d+)アップ$"=►Recovers own HP by $1.\n►Recovers all allies HP by $2.\n►Boosts allies' P.ATK by $3 for 18s.\n►Boosts allies' M.ATK by $4 for 18s.\n►Raise allies' TP Boost by $5 for 18s.
+###Oldr:"^自分のＨＰを(\d+)回復味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体のＴＰ上昇を(\d+)アップ$"=►Recovers own HP by $1.\n►Recovers all allies HP by $2.\n►Boosts allies' P.ATK by $3 for 18s.\n►Boosts allies' M.ATK by $4 for 18s.\n►Raise allies' TP Boost by $5 for 18s.
+
+自分のＨＰを大回復させる。味方全体のＨＰを中回復し、物理・魔法攻撃力を大アップさせ、さらにＴＰ上昇を小アップさせる。発動時既に自分が物理・魔法攻撃力アップ状態だった場合、味方全体の物理・魔法攻撃力を極大アップさせる。=Greatly recovers own HP. Moderately recovers all allies’ HP, greatly boosts their P.ATK and M.ATK, and additionally slightly boosts their TP Boost. If self is already under both P.ATK and M.ATK boost effects at activation, extremely massively boosts all allies’ P.ATK and M.ATK.
+
+r:"^自分のＨＰを(\d+)回復味方全体のＨＰを(\d+)回復味方全体の物理・魔法攻撃力を(\d+)アップ味方全体のＴＰ上昇を10アップ自分が物理・魔法攻撃力アップ状態の場合、味方全体の物理・魔法攻撃力を(\d+)アップ$"=►Recovers own HP by $1.\n►Recovers HP for all allies by $2.\n►Boosts allies' P.ATK and M.ATK by $3 for 18s.\n►Boosts allies' TP Boost by 10 for 18s.\n\nIf own P.ATK and M.ATK are boosted:\n►Boosts allies' P.ATK and M.ATK by $4 for 18s.
+
 
 ##S1+##
 トライスラッシュ+=Tri-Slash+
 目の前の敵１キャラに物理中ダメージを与え、さらに自分の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。=Deals moderate P.DMG to an enemy directly in front. Moderate boost to own P.ATK and small boost to own TP Boost.
-r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own TP Boost by $3 for 12s.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=Cast time: 0.66s\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own TP Boost by $3 for 12s.
 
 ##S2+##
 スピードアップ+=Speed Boost+
 味方全体の行動速度を大アップさせ、さらに物理攻撃力を特大アップ、物理クリティカルを大アップさせる。さらに最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップ、物理クリティカルを大アップさせ、味方全体のＴＰを小回復させる。=Greatly boosts all allies' action speed, massively boosts their P.ATK and greatly boosts their P.CRIT Rate. Also massively boosts highest P.ATK ally's P.ATK and greatly boosts its P.CRIT  Rate, and slightly recovers all allies' TP. 
-r:"^味方全体の行動速度アップ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ味方全体のＴＰを50回復$"=►Boosts all allies' action speed into 160% for 18s.\n►Boosts all allies' P.ATK by $1 for 18s.\n►Boosts all allies' P.CRIT Rate by 100 for 18s.\n►Boosts highest P.ATK ally's P.ATK by $2 for 18s.\n►Boosts highest P.ATK ally's P.CRIT Rate by 100 for 18s.\n►Recovers all allies' TP by 50.
+###old r:"^味方全体の行動速度アップ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ味方全体のＴＰを50回復$"=►Boosts all allies' action speed into 160% for 18s.\n►Boosts all allies' P.ATK by $1 for 18s.\n►Boosts all allies' P.CRIT Rate by 100 for 18s.\n►Boosts highest P.ATK ally's P.ATK by $2 for 18s.\n►Boosts highest P.ATK ally's P.CRIT Rate by 100 for 18s.\n►Recovers all allies' TP by 50.
+
+r:"^味方全体の行動速度60％アップ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ味方全体のＴＰを50回復$"=Cast time: 1.4s\n►Boosts allies' action speed by 60％ for 18s.\n►Boosts allies' P.ATK by $1 for 18s.\n►Boosts allies' P.CRIT RATE by 100 for 18s.\n►Boosts a single ally's P.ATK by $2 for 18s.\n►Boosts a single ally's P.CRIT RATE by 100 for 18s.\n►Recovers TP for all allies by 50.
 
 ##UE##
 アメスアミュレット=Ameth Amulet
 コッコロの精霊=Kokkoro Spirit
+
+##S1++##
+トライスラッシュ++=Tri-Slash++
+目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を中アップさせ、ＴＰ上昇を小アップさせる。自分が物理・魔法攻撃力アップ状態だった場合、追加の物理大ダメージを与え、さらに、最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップ、ＴＰ上昇を小アップ、ＴＰを中回復させる。=Deals large P.DMG to an enemy in front, then moderately boosts own P.ATK and slightly boosts own TP Boost. If self is under both P.ATK and M.ATK boost effects, deals additional large P.DMG, and additionally massively boosts the P.ATK of the ally with the highest P.ATK, greatly boosts their P.CRIT RATE, slightly boosts their P.CRIT DMG, slightly boosts their TP Boost, and moderately recovers their TP.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を15アップ自分が物理・魔法攻撃力アップ状態の場合、以下の効果が発動する敵単体に(\d+)の物理ダメージ対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリティカルを120アップ対象の味方の物理クリダメを12％アップ対象の味方のＴＰ上昇を5アップ対象の味方のＴＰを150回復$"=Cast time: 0.66s\n►Deals $1 P.DMG to a single enemy.\n►Boosts own P.ATK by $2.\n►Boosts own TP Boost by 15.\n\nIf own P.ATK and M.ATK are boosted:\n►Deals $3 P.DMG to a single enemy.\n►Boosts target ally's P.ATK by $4.\n►Boosts target ally's P.CRIT RATE by 120.\n►Boosts target ally's P.CRIT DMG by 12％.\n►Boosts target ally's TP Boost by 5.\n►Recovers target ally's TP by 150.
+
+
 
 ##Comments##
 

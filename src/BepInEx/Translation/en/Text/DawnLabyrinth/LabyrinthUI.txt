@@ -91,9 +91,9 @@ sr:"^\[3C404E\]\[FFBB00,CE4F00\]【(.+)】\[-\]と一緒に出発します。\n�
 
 
 シリーズ効果詳細=Series Effect Details
-【加速】9以上：\nユニオンバースト発動時に【烈風】＋１（最大99）\n20秒ごとに物理/魔法与ダメアップフィールド展開\n（【烈風】数×1％）\n=[Acceleration] 9 or higher: When Union Burst is activated, [Gale] stack is increased by 1 (Caps at 99).\nEvery 20s, deploy a Physical/Magic DMG UP Field\n(DMG +% is [Gale] x 1%).
-【加速】4以上：\nＴＰ上昇＋30\n重複可能の行動速度＋100％\n=[Acceleration] 4 or higher: TP Boost +30. Stackable +100% SPD Buff.
-【加速】15以上：\n9秒ごとにＴＰ1000回復\n=[Acceleration] 15+: Recover 1000 TP every 9s.
+【加速】9以上：\nユニオンバースト発動時に【烈風】＋１（最大99）\n20秒ごとに物理/魔法与ダメアップフィールド展開\n（【烈風】数×1％）\n=[Haste] 9 or higher: When Union Burst is activated, [Gale] stack is increased by 1 (Caps at 99).\nEvery 20s, deploy a Physical/Magic DMG UP Field\n(DMG +% is [Gale] x 1%).
+【加速】4以上：\nＴＰ上昇＋30\n重複可能の行動速度＋100％\n=[Haste] 4 or higher: TP Boost +30. Stackable +100% SPD Buff.
+【加速】15以上：\n9秒ごとにＴＰ1000回復\n=[Haste] 15+: Recover 1000 TP every 9s.
 ＴＰ回復や行動速度アップにより、キャラのスキルやユニ\nオンバーストの発動数が増加する\n=Increases UB and Skill usage with TP Recovery and Speed Buffs.
 
 
@@ -225,9 +225,9 @@ r:"^(\d+)で更新$"=$1 to Reroll
 ショップ確認=Shop Confirmation
 ボスバトルマスに移動します。\nよろしいですか？=Move to Boss Battle Tile?
 ボスバトルマス=Boss Battle Tile
-守備=Defense
+守備=Guard
 加速=Haste
-会心=Critical
+会心=Focus
 
 アルファルピでアイテムを購入することができます。=You can purchase items using αRupees.
 所持アルファルピ=αRupees Held

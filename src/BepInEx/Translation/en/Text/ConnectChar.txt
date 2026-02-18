@@ -43,6 +43,9 @@ r:"^上限(\d+)$"=Limit $1
 
 専用装備１SP条件=UE-1 SP Requirement
 専用１SP強化可能=Unlock UE-1 SP
+アイテムを消費して専用装備１SPを解放します。=Consume items to unlock UE 1 SP.
+専用１SP強化済=UE 1 SP Enhanced
+
 
 「キャラ専用装備１SP」が解放されました。\n強化を進めるためには、厳しい条件をクリアする必要があるようです。\n焦らずゆっくり、着実に強化を進めてまいりましょう、主さま。=“Character Unique Equipment 1 SP” has been unlocked.\nTo proceed with its enhancement, it seems you must clear some demanding conditions.\nThere is no need to rush—let us strengthen it steadily and surely, my lord.
 

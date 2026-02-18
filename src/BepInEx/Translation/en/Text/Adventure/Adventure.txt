@@ -32,6 +32,7 @@ r:"^(\d+)ジュエル1時間短縮$"=$1 Jewels for 1h reduction
 チケットを使って必要時間を短縮！=Speed up with Tickets!
 r:"^\[FF7C4E\,D62146\]残り ([0-9/]+)回\[-\]$"=[FF7C4E,D62146]$1 Left[-]
 チケットが不足しています。=Insufficient tickets.
+EX装備錬成Ptが不足しています。=Insufficient EX Equip Synthesis Pt.
 チケットやジュエルを使って時間を短縮！=Save time with Tickets and Jewels!
 1日の時間短縮可能回数の上限に達しているため時間短縮できません。=You cannot speed up the Adventure any more for today.
 戦力オーバーによる時間短縮の上限になりました。=You have already reached the cap on time that can be reduced with Power.

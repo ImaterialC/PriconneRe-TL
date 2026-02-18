@@ -35,6 +35,7 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御�
 マホマホダークネス=Maho-Maho Darkness
 前から２番目の敵１キャラを暗闇状態にする。=Inflicts Blind to an enemy in the 2nd position.
 r:"^敵単体を暗闇状態にする$"=►Inflicts Blind.
+r:"^敵単体を暗闇状態にする敵単体の物理・魔法攻撃力を(\d+)ダウン敵単体の物理・魔法クリティカルを150ダウン$"=Cast time: 2.13s\n►Inflicts Blind (P.ATK miss by 60%) on a single enemy for 8s.\n►Lowers a single enemy's P.ATK and M.ATK by $1 for 18s.\n►Lowers a single enemy's P.CRIT RATE and M.CRIT RATE by 150 for 18s.
 
 ##EX##
 メルヘンチャージ=Fairy-tale Charge
@@ -45,21 +46,30 @@ r:"^自分の物理防御力を(\d+)アップ自分の魔法攻撃力を(\d+)ア
 ##Legacy UB+##
 メルヘンキングダム=Fairy-tale Kingdom
 味方全体の魔法攻撃力を特大アップ、物理防御力を中アップさせ、さらにＴＰを中回復し、継続ＴＰ回復状態を付与する。=Massive boost to M.ATK and allies' P.DEF, recovers their TP by a moderate amount, and grant a continuous TP recovery state.
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを(\d+)回復毎秒ＴＰを(\d+)回復する$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.\n►Recovers TP by $4/s for 10s.
+###Old r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを(\d+)回復毎秒ＴＰを(\d+)回復する$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers allies' TP by $3.\n►Recovers TP by $4/s for 10s.
 
 ##UB+##
 メルヘンキングダム=Fairy-tale Kingdom
 味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップ、物理防御力を大アップさせ、さらにＴＰを固定量で中回復し、継続ＴＰ回復状態を付与する。=Massively boosts all allies' M.ATK, greatly boosts their M.CRIT Rate and P.DEF, and slightly boosts their M.CRIT DMG. Additionally moderately recovers all allies' TP by a fixed amount and grants them continuous TP recovery.
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法攻撃クリティカル時のダメージを5％アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを固定量で120回復毎秒ＴＰを10回復する$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' M.CRIT Rate by 100 for 18s.\n►Boosts all allies' M.CRIT DMG by 5% for 18s.\n►Boosts all allies' P.DEF by $2 for 18s.\n►Recovers all allies' TP by fixed 120.\n►Recovers all allies' TP by 10/s for 10s.
+###Oldr:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法攻撃クリティカル時のダメージを5％アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを固定量で120回復毎秒ＴＰを10回復する$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' M.CRIT Rate by 100 for 18s.\n►Boosts all allies' M.CRIT DMG by 5% for 18s.\n►Boosts all allies' P.DEF by $2 for 18s.\n►Recovers all allies' TP by fixed 120.\n►Recovers all allies' TP by 10/s for 10s.
+
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを5％アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを固定量で120回復毎秒ＴＰを10回復する$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.CRIT RATE by 100 for 18s.\n►Boosts allies' M.CRIT DMG by 5％ for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers TP for all allies by 120.\n►Restores 10 TP per second to all allies for 10s.
+
 
 ##S1+##
 マホマホヒール+=Maho-Maho Healing+
 最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP% by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP Regen state is given.
 最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに物理防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount. Furthermore, the P.DEF is increased by a moderate amount, and a HP Regen state is given.
-r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2.\n►Recovers HP by $3/s.
+r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=Cast time: 1.53s\n►Recovers an ally's HP by $1.\n►Boosts an ally's P.DEF by $2.\n►Recovers HP by $3/s for 8.5s.
 
 ##UE##
 ピュアメルヘンワンド=Pure Fairy-tale Wand
+
+
+##S1++##
+マホマホヒール++=Maho-Maho Healing++
+最もＨＰの割合が低い味方１キャラのＨＰを大回復、物理防御力を中アップし、継続ＨＰ回復状態を付与する。さらに、物理・魔法攻撃力いずれかで、最も攻撃力が高い味方１キャラの物理・魔法攻撃力を特大アップ、物理・魔法攻撃クリティカル時のダメージを小アップ、行動速度を大アップ、ＴＰを特大回復させる。（このスキルの効果は他の行動速度変化スキルと重複する）=Greatly recovers the HP of the ally with the lowest HP percentage, moderately boosts their P.DEF, and grants a continuous HP recovery effect. Additionally, for the ally with the highest attack stat between P.ATK and M.ATK, massively boosts their P.ATK and M.ATK, slightly boosts their P.CRIT DMG and M.CRIT DMG, greatly boosts their action speed, and massively recovers their TP. (This skill’s action speed effect stacks with other action speed changes.)
+r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する味方単体の物理・魔法攻撃力を(\d+)アップ味方単体の物理・魔法クリダメを12％アップ味方単体の行動速度50%加算味方単体のＴＰを1000回復$"=Cast time: 1.53s\n►Recovers HP of a single ally by $1.\n►Boosts a single ally's P.DEF by $2.\n►Grants a state that recovers $3 HP per second.\n►Boosts a single ally's P.ATK and M.ATK by $4.\n►Boosts a single ally's P.CRIT DMG and M.CRIT DMG by 12％.\n►Increases a single ally's action speed by 50%.\n►Recovers TP of a single ally by 1000.
 
 ##Comments##
 誘拐された時は、どないしよ～思たけど、\n運命の相手かもしれへん王子はんに出会えたんやし\n人生、何があるかわからへんもんどす～\n=When I got kidnapped, I didn't know what to do~ But I met the prince, who might be my destined partner, so in life, you never know what's gonna happen, ya know~

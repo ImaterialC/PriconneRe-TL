@@ -37,7 +37,7 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 
 
 バトル中盤クリティカル強化=Critical Boost In Mid-Battle
-魔蜘ノ凶槍=Magic Spider's Violent Spear
+魔蜘ノ凶槍=Demon Spider's Violent Spear
 バトルの残り時間が45秒を切ると味方全体の物理クリティカルと物理攻撃クリティカル時のダメージを３％アップさせる。=When there are less than 45 seconds left in battle, boosts P.CRIT RATE and P.CRIT DMG for all allies by 3%.
 
 バトル中盤クリティカル中アップ=Critical Up (L) In Mid-Battle
@@ -117,3 +117,17 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 
 オーバー・ザ・ムーン=Over the Moon
 バトル開始後90秒間味方全体の物理攻撃力を10％アップさせる。=Increases all allies' P.ATK by 10% for 90 seconds after the start of battle.
+
+
+魔蜘ノ縁環=Demonic Spider’s Bond Ring
+魔蜘ノ煌輪=Demonic Spider’s Radiant Bracelet
+魔蜘ノ玲玉=Demonic Spider’s Spirit Orb
+魔蜘ノ艶装=Demonic Spider’s Glossy Necklace
+魔蜘ノ絢飾=Demonic Spider’s Ornate Earrings
+
+バトル中物理攻撃強化　=P.ATK Boost in Battle
+バトル開始後90秒間自分の物理攻撃力と物理クリティカルと物理攻撃クリティカル時のダメージを３％アップさせる。=For 90 seconds after battle starts, increases own Physical Attack, Physical Crit, and Physical Crit Damage by 3%.
+バトル中物魔耐久強化=P.DEF & M.DEF Boost in Battle
+バトル開始後90秒間自分の物理防御力と魔法防御力を３％アップさせ、３％の物理ダメージカット効果と魔法ダメージカット効果を付与する。=For 90 seconds after battle starts, increases own Physical Defense and Magic Defense by 3%, and grants 3% Physical Damage Cut and Magic Damage Cut effects.
+バトル中魔法攻撃強化　=M.ATK Boost in Battle
+バトル開始後90秒間自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを３％アップさせる。=For 90 seconds after battle starts, increases own Magic Attack, Magic Crit, and Magic Crit Damage by 3%.
