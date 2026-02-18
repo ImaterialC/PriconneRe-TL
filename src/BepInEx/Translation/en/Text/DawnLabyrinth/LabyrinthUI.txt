@@ -91,32 +91,51 @@ sr:"^\[3C404E\]\[FFBB00,CE4F00\]【(.+)】\[-\]と一緒に出発します。\n�
 
 
 シリーズ効果詳細=Series Effect Details
-【加速】9以上：\nユニオンバースト発動時に【烈風】＋１（最大99）\n20秒ごとに物理/魔法与ダメアップフィールド展開\n（【烈風】数×1％）\n=[Haste] 9 or higher: When Union Burst is activated, [Gale] stack is increased by 1 (Caps at 99).\nEvery 20s, deploy a Physical/Magic DMG UP Field\n(DMG +% is [Gale] x 1%).
-【加速】4以上：\nＴＰ上昇＋30\n重複可能の行動速度＋100％\n=[Haste] 4 or higher: TP Boost +30. Stackable +100% SPD Buff.
-【加速】15以上：\n9秒ごとにＴＰ1000回復\n=[Haste] 15+: Recover 1000 TP every 9s.
-ＴＰ回復や行動速度アップにより、キャラのスキルやユニ\nオンバーストの発動数が増加する\n=Increases UB and Skill usage with TP Recovery and Speed Buffs.
 
 
-【会心】9以上：\n物理/魔法クリティカル＋2000\n=[Focus] 9 or higher: Physical/Magic Crit Stat +2000.
-【会心】4以上：\n物理/魔法クリダメ＋100％\n=[Focus] 4 or higher: Physical/Magic Crit DMG +100%.
-【会心】15以上：\nクリティカルヒット時【看破】＋１（最大99）\n20秒ごとにランダムな敵１体に固定ダメージ×５回\n（毎回5万＋対象の【看破】数×5万ダメージ）\n=[Focus] 15 or higher: When you deal a critical hit, increase [Penetration] stack by +1 (caps at 99). Every 20s, deal damage 5 times to 1 random enemy.\n(Deals 50k + [Penetration] stack x 50k as dmg every hit).
-クリティカルや通常攻撃強化により、攻撃性能を強化する\n=Strengthen offensive power through Critical and Normal Attack Buffs.
 
-【弱体】9以上：\n敵への継続ダメージ＋1000％（最大50万ダメージ）\n=[Debuff] 9 or higher: Continuous DMG dealt to enemies +1000% (Caps at 500k dmg)
-【弱体】4以上：\n敵全体に黒炎付与（毎秒1万ダメージ、毎回5％ずつダ\nメージ上昇）\n=[Debuff] 4 or higher: Gives the "Black Flame" debuff to all enemies (10k DMG/s, increases by 5% each tick).
-【弱体】15以上：\n弱体効果数に応じて敵の被ダメアップ（対象の弱体効果数\n×50％、最大＋500％）\nさらに敵への継続ダメージ＋1000％（最大50万ダメージ）\n=[Debuff] 15 or higher: Increases DMG dealt to enemies based on the number of debuffs on them (+50% for each debuff, caps at +500%), additionally continuous DMG dealt to enemies +1000% (Caps at 500k dmg)
-敵に継続ダメージ系状態異常や弱体効果を付与し、敵を弱\n体化させる\n=Weakens the enemy by inflicting debuffs and continuous DMG.
+ＴＰ回復や行動速度アップにより、キャラのスキルやユニ\nオンバーストの発動数が増加する=Increases UB and Skill usage with TP Recovery and Speed Buffs.
+【加速】4以上：ＴＰ上昇＋30重複可能の行動速度＋100％=[Haste] 4+:\n►TP Boost +30.\n►Stackable +100% SPD Buff.\n
+【加速】9以上：ユニオンバースト発動時に【烈風】＋１（最大99）20秒ごとに物理/魔法与ダメアップフィールド展開（【烈風】数×1％）=[Haste] 9+:\n►When activating UB, gain +1 [Gale] (max 99).\nEvery 20s, deploy a P/M DMG UP Field\n(1% per [Gale] stack).\n
+【加速】9以上：ユニオンバースト発動時に【烈風】＋１（最大99）20秒ごとに物理/魔法与ダメアップフィールド展開（【烈風】数×１％）=[Haste] 9+:\n►When activating UB, gain +1 [Gale] (max 99).\nEvery 20s, deploy a P/M DMG UP Field\n(1% per [Gale] stack).\n
 
-【強化】9以上：\nさらにバトル開始40秒後、物理/魔法攻撃力アップフィー\nルド展開（現在値＋50％）\nさらに敵へのダメージ減衰量緩和\n=[Buff] 9 or higher: Additionally, 40s after the battle start, deploy a Physical/Magic ATK Bonus Field (current value + 50%). Lowers enemy DMG Attenuation amount.
-【強化】4以上：\nバトル開始20秒後、物理/魔法攻撃力アップフィールド展\n開（現在値＋30％）\n敵へのダメージ減衰量緩和\n=[Buff] 4 or higher: 20s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 30%). Lowers enemy DMG Attenuation amount.
-【強化】15以上：\nさらにバトル開始60秒後、物理/魔法攻撃力アップフィールド展開（現在値＋70％）\nさらに敵へのダメージ減衰量緩和\n=[Buff] 15 or higher: 60s after the battle starts, deploy a Physical/Magic ATK Bonus Field (current value + 70%). Lowers enemy DMG Attenuation amount.
-攻撃力や防御力アップのバフ効果を用いて、キャラを強化\nする\n=Strengthen your characters with ATK and DEF buffs.
+【加速】15以上：9秒ごとにＴＰ1000回復=[Haste] 15+:\n►Recover 1000 TP every 9s.\n
+【加速】15以上：９秒ごとにＴＰ1000回復=[Haste] 15+:\n►Recover 1000 TP every 9s.\n
 
-【守備】9以上：\n15秒ごとに前から敵１体に物理と魔法固定ダメージ\n（味方全体の現在ＨＰ合計×200ダメージ）\n=[Guard] 9 or higher: Every 15s, deals Fixed Physical and Magic DMG to an enemy.\n(Current HP Total of All Allies x 200 as dmg).
-【守備】4以上：\n全ダメージ33％カット\n=[Guard] 4 or higher: Reduce all damage you receive by 33%
-【守備】15以上：\n15秒ごとに物理/魔法与ダメアップフィールド展開\n（味方全体の現在ＨＰ合計×0.0001％、最大200％）\n=[Guard] 15 or higher: Every 15s, deploy a Physical/Magic DMG Bonus Field (Current HP Total of All Allies x 0.0001%, caps at 200%).
-ＨＰアップやバリア展開により、耐久性能を強化する\n=Strengthen your team's durability with HP Buffs and Barriers.
 
+
+
+
+クリティカルや通常攻撃強化により、攻撃性能を強化する=Strengthen offensive power through Critical and Normal Attack Buffs.
+【会心】4以上：物理/魔法クリダメ＋100％=[Focus] 4+:\n►P&M CRIT DMG +100%.\n
+【会心】4以上：物理/魔法クリダメ＋150％=[Focus] 4+:\n►P&M CRIT DMG +150%.\n
+【会心】9以上：物理/魔法クリティカル＋2000=[Focus] 9+:\n►P&M CRIT RATE +2000.\n
+【会心】9以上：物理/魔法クリティカル＋2000物理/魔法クリダメ＋150％=[Focus] 9 or higher\n►P&M CRIT RATE +2000.\n►P&M CRIT DMG +150%.\n
+【会心】15以上：クリティカルヒット時【看破】＋１（最大99）20秒ごとにランダムな敵１体に固定ダメージ×５回（毎回5万＋対象の【看破】数×5万ダメージ）=[Focus] 15 or higher:\n►When you deal a critical hit, increase [Penetration] stack by +1 (caps at 99). Every 20s, deal damage 5 times to 1 random enemy.\n(Deals 50,000 + [Penetration] stack x 50,000 as dmg every hit).\n
+【会心】15以上：クリティカルヒット時【看破】＋１（最大99）20秒ごとにランダムな敵１体に固定ダメージ×５回（毎回５万＋対象の【看破】数×５万ダメージ）=[Focus] 15 or higher:\n►When you deal a critical hit, increase [Penetration] stack by +1 (caps at 99). Every 20s, deal damage 5 times to 1 random enemy.\n(Deals 50,000 + [Penetration] stack x 50,000 as dmg every hit).\n
+
+
+敵に継続ダメージ系状態異常や弱体効果を付与し、敵を弱体化させる=Weakens the enemy by inflicting debuffs and continuous DMG.
+【弱体】4以上：敵全体に黒炎付与（毎秒1万ダメージ、毎回5％ずつダメージ上昇）=[Debuff] 4+:\n►Gives the "Black Flame" debuff to all enemies (10k DMG/s, increases by 5% each tick).\n
+【弱体】4以上：敵全体に黒炎付与（毎秒１万ダメージ、毎回５％ずつダメージ上昇）=[Debuff] 4+:\n►Gives the "Black Flame" debuff to all enemies (10k DMG/s, increases by 5% each tick).\n
+【弱体】9以上：敵への継続ダメージ＋1000％（最大50万ダメージ）=[Debuff] 9+:\n►Damage over time +1000% (up to 500,000 damage)\n
+【弱体】9以上：敵への継続ダメージ＋2000％（最大30万ダメージ）=[Debuff] 9+:\n►Damage over time +2000% (up to 300,000 damage)\n
+【弱体】15以上：弱体効果数に応じて敵の被ダメアップ（対象の弱体効果数×50％、最大＋500％）さらに敵への継続ダメージ＋1000％（最大50万ダメージ）=[Debuff] 15+:\n►Increases Damage over time based on the number of debuffs (50% per debuff, up to +500%)\n►Damage over time inflicted on enemies +1000% (up to 500,000 damage).\n
+【弱体】15以上：弱体効果数に応じて敵の被ダメアップ（対象の弱体効果数×20％、最大＋200％）=[Debuff] 15+:\n►Increases Damage over time based on the number of debuffs (20% per debuff, up to +200%)\n
+
+
+攻撃力や防御力アップのバフ効果を用いて、キャラを強化する=Strengthen your characters with ATK and DEF buffs.
+【強化】4以上：バトル開始20秒後、物理/魔法攻撃力アップフィールド展開（現在値＋30％）敵へのダメージ減衰量緩和=[Buff] 4+:\n►20s after battle starts, deploy a P/M.ATK Up field (Current value +30%).\n►Reduces damage attenuation against enemies.\n
+【強化】9以上：さらにバトル開始40秒後、物理/魔法攻撃力アップフィールド展開（現在値＋50％）さらに敵へのダメージ減衰量緩和=[Buff] 9+:\n►Additionally, 40s after battle starts, deploy a P/M.ATK Up field (Current value +50%).\n►Reduces damage attenuation against enemies.\n
+【強化】15以上：さらにバトル開始60秒後、物理/魔法攻撃力アップフィールド展開（現在値＋70％）さらに敵へのダメージ減衰量緩和=[Buff] 15+:\n►Additionally, 60s after battle starts, deploy a P/M.ATK Up field (Current value +70%).\n►Reduces damage attenuation against enemies.\n
+
+
+ＨＰアップやバリア展開により、耐久性能を強化する=Strengthen your team's durability with HP Buffs and Barriers.
+【守備】4以上：全ダメージ33％カット=[Defense] 4+:\n►Reduces all damage taken by 33%.\n
+【守備】9以上：15秒ごとに前から敵１体に物理と魔法固定ダメージ（味方全体の現在ＨＰ合計×200ダメージ）=[Defense] 9+:\n►Every 15s, deals fixed P.DMG and M.DMG to 1 enemy from the front (Damage equal to the party’s total current HP ×200).\n
+【守備】9以上：15秒ごとに前から敵1体に物理と魔法固定ダメージ（味方全体の現在ＨＰ合計×400ダメージ）=[Defense] 9+:\n►Every 15s, deals fixed P.DMG and M.DMG to 1 enemy from the front (Damage equal to the party’s total current HP ×400).\n
+【守備】15以上：15秒ごとに物理/魔法与ダメアップフィールド展開（味方全体の現在ＨＰ合計×0.0001％、最大200％）=[Defense] 15+:\n►Every 15s, deploys a P/M.DMG up field (Party’s total current HP ×0.0001%, up to 200%).\n
+【守備】15以上：15秒ごとに物理/魔法与ダメアップフィールド展開（味方全体の現在ＨＰ合計×0．0004％、最大200％）=[Defense] 15+:\n►Every 15s, deploys a P/M.DMG up field (Party’s total current HP ×0.0004%, up to 200%).\n
 
 仲間=Allies
 インベントリ=Inventory
@@ -125,25 +144,25 @@ sr:"^\[3C404E\]\[FFBB00,CE4F00\]【(.+)】\[-\]と一緒に出発します。\n�
 Difficulty Details
 難易度詳細=Diff Details
 防御力（ダウン不可）アップ=Defense Up (Can't Be Reduced) 
-すべてのモンスターの物理/魔法防御力をアップさせ\nる。この効果は物理/魔法防御力ダウンの影響を受け\nない。=Increases all monsters' Physical/Magic Defense. This effect is unaffected by Physical/Magic Defense Down.
+すべてのモンスターの物理/魔法防御力をアップさせる。この効果は物理/魔法防御力ダウンの影響を受けない。=Increases all monsters' Physical/Magic Defense. This effect is unaffected by Physical/Magic Defense Down.
 全ダメージカット=All DMG Cut
-すべてのモンスターが受けるダメージを一定値カッ\nトさせる。=Reduces all DMG received by all monsters.
+すべてのモンスターが受けるダメージを一定値カットさせる。=Reduces all DMG received by all monsters.
 与ダメージアップ=DMG Dealt Bonus
-すべてのモンスターの与えるダメージをアップさせ\nる。=Increases damage dealt by all monsters.
+すべてのモンスターの与えるダメージをアップさせる。=Increases damage dealt by all monsters.
 防御力アップ=Defense Up
-すべてのモンスターの物理/魔法防御力をアップさせ\nる。=Increases all monster's Physical/Magic Defense.
+すべてのモンスターの物理/魔法防御力をアップさせる。=Increases all monster's Physical/Magic Defense.
 クリティカルダウン=Critical Down
-すべてのキャラの物理/魔法クリティカルをダウンさ\nせる。=Lowers all allies' Physical/Magic Critical Stat.
+すべてのキャラの物理/魔法クリティカルをダウンさせる。=Lowers all allies' Physical/Magic Critical Stat.
 
-すべてのモンスターの物理/魔法防御力をアップさせ\nる。=Increases all monster's Physical/Magic Defense.
+すべてのモンスターの物理/魔法防御力をアップさせる。=Increases all monster's Physical/Magic Defense.
 与ダメージアップ=DMG Dealt Bonus
-すべてのモンスターの与えるダメージをアップさせ\nる。=Increases damage dealt by all monsters.
+すべてのモンスターの与えるダメージをアップさせる。=Increases damage dealt by all monsters.
 全ダメージカット=All DMG Cut
-すべてのモンスターが受けるダメージを一定値カッ\nトさせる。=Reduces all DMG received by all monsters.
+すべてのモンスターが受けるダメージを一定値カットさせる。=Reduces all DMG received by all monsters.
 防御力（ダウン不可）アップ=Defense Up (Can't Be Reduced) 
-すべてのモンスターの物理/魔法防御力をアップさせ\nる。この効果は物理/魔法防御力ダウンの影響を受け\nない。=Increases all monsters' Physical/Magic Defense. This effect is unaffected by Physical/Magic Defense Down.
+すべてのモンスターの物理/魔法防御力をアップさせる。この効果は物理/魔法防御力ダウンの影響を受けない。=Increases all monsters' Physical/Magic Defense. This effect is unaffected by Physical/Magic Defense Down.
 クリティカルダウン=Critical Down
-すべてのキャラの物理/魔法クリティカルをダウンさ\nせる。=Lowers all allies' Physical/Magic Critical Stat.
+すべてのキャラの物理/魔法クリティカルをダウンさせる。=Lowers all allies' Physical/Magic Critical Stat.
 
 エリア=Area
 　 撤退する\n （報酬なし）=　 Retreat (w/o rewards)
@@ -225,7 +244,7 @@ r:"^(\d+)で更新$"=$1 to Reroll
 ショップ確認=Shop Confirmation
 ボスバトルマスに移動します。\nよろしいですか？=Move to Boss Battle Tile?
 ボスバトルマス=Boss Battle Tile
-守備=Guard
+守備=Defense
 加速=Haste
 会心=Focus
 

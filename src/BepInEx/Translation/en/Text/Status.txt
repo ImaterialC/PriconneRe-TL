@@ -58,6 +58,9 @@ HP回復量=HP Recovery Amount
 スキル切り替え！=Skills Change!
 r:"^被ダメカット[＋+]([0-9.%％]+)$"=Damage Reduction +$1
 r:"^属性ボーナスアップ[＋+]([0-9.%％]+)$"=Elemental Bonus Up +$1
+r:"^属性ボーナス[＋+]([0-9.%％]+)$"=Elemental Bonus +$1
+r:"^魔法クリティカルダメージ倍率[＋+]([0-9.%％]+)$"=M.CRIT DMG Multiplier +$1
+r:"^物理クリティカルダメージ倍率[＋+]([0-9.%％]+)$"=M.CRIT DMG Multiplier +$1
 
 r:"^魔法防御貫通[＋+]([0-9.%％]+)$"=M.DEF PEN +$1
 r:"^物理防御貫通[＋+]([0-9.%％]+)$"=P.DEF PEN +$1

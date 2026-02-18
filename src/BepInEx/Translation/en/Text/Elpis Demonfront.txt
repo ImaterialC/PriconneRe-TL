@@ -34,6 +34,8 @@
 コネクトRANKステータス=Connect Rank Status
 コネクトRANKボーナスアップ=Connect Rank Bonus Up
 バトル開始時のコネクトRANKボーナスの効果量がアップします。=Increases the effect amount of\nConnect Rank bonuses at the start of battle.
+エルピス討魔戦線で全ボスのVERY HARDをクリアしよう=Clear all bosses on VERY HARD in Elpis Demonfront
+エルピス討魔戦線へ=To Elpis Demonfront
 
 
 ##Mission##
@@ -70,6 +72,9 @@ r:"^難易度ボーナス ×([0-9.]+)$"=Difficulty Bonus ×$1
 闇属性ボーナスアップ=Dark attribute bonus up
 水属性ボーナスアップ=Water attribute bonus up
 風属性ボーナスアップ=Wind attribute bonus up
+
+スキップスコアが最大の難易度でスキップします。=Skip using the difficulty with the highest skip score.
+挑戦回数を消費しないで1回バトルをスキップします。=Skip one battle without consuming an attempt.
 
 
 sr:"^(.)属性のキャラが(.)体以上編成されているとき、\n?キャラの属性ボーナスが強化される。(.)属性と(.)属\n?性以外の属性ボーナスを無効化する。$"=When $1 or more $2-element characters are in the party, the characters’ Elemental Bonus is enhanced. Elemental Bonuses other than $3 and $4 are nullified.

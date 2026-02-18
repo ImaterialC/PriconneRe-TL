@@ -1,68 +1,68 @@
 ## Initial Relic ##
-ＨＰ＋15％物理/魔法与ダメ＋15％=►Max HP +15%\n►P/M.DMG +15%
+ＨＰ＋15％物理/魔法与ダメ＋15％=Max HP +15%\n►P/M.DMG +15%
 お使いの端末は正常です=Your device is healthy
 
 プリンセスエンチャント=Princess Enchant
 物理/魔法攻撃力アップ（加入キャラ数×4％、最大100％）=Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)
-r:"^物理/魔法攻撃力アップ（加入キャラ数×4％、最大100％）（現在(\d+)人）$"=►Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)(Currently $1)
+r:"^物理/魔法攻撃力アップ（加入キャラ数×4％、最大100％）（現在(\d+)人）$"=Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)(Currently $1)
 
 アストラルブースト=Astral Boost
-属性ボーナス＋50％=►Elemental Bonus +50%
+属性ボーナス＋50％=Elemental Bonus +50%
 
 トゥインクルブレス=Twinkle Breath
-ボスバトルを除いて一度だけバトル敗北を免除=►Exempt from defeat in battle once, excluding boss battles
+ボスバトルを除いて一度だけバトル敗北を免除=Exempt from defeat in battle once, excluding boss battles
 
 サレンディアエンゲージ=Sarendia Engage
-ショップの販売価格－10％=►Shop Price -10%
+ショップの販売価格－10％=Shop Price -10%
 
 サレンディアノーブル=Sarendia Noble
-通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）=►Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)
-r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）（現在(\d+)枚）$"=►Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)(Currently $1)
+通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)
+r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）（現在(\d+)枚）$"=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)(Currently $1)
 
 ナイツオブフェイス=Nights of Face
-物理/魔法クリダメ＋50％物理/魔法クリティカル－25％=►P/M.Crit DMG +50%\n►P/M.Crit rate -25%
+物理/魔法クリダメ＋50％物理/魔法クリティカル－25％=P/M.Crit DMG +50%\n►P/M.Crit rate -25%
 
 レジーナガーラ=Regina Gear
-敵の物理/魔法被ダメ＋25％味方の物理/魔法被ダメ＋25％=►Enemy P/M.DMG +25%\n►Ally P/M.DMG +20%
+敵の物理/魔法被ダメ＋25％味方の物理/魔法被ダメ＋25％=Enemy P/M.DMG +25%\n►Ally P/M.DMG +20%
 
 ラビリンスオーソリティ=Labyrinth Authority
-挑戦開始時にラビリスタが加入=►Labyrista joins at the start of the challenge
+挑戦開始時にラビリスタが加入=Labyrista joins at the start of the challenge
 
 マスターオブラビリンス=Master of Labyrinth
-挑戦開始時にランダムな★1の迷宮遺物を１個獲得=►Obtain a random ★1 Labyrinth relic at the start of the challenge
+挑戦開始時にランダムな★1の迷宮遺物を１個獲得=Obtain a random ★1 Labyrinth relic at the start of the challenge
 
 イルミネイトカルミナ=Illuminate Carmina
-物理/魔法攻撃力＋15％バフ強化＋15=►P/M.ATK +15%\n►Buff Enhancement +15
+物理/魔法攻撃力＋15％バフ強化＋15=P/M.ATK +15%\n►Buff Enhancement +15
 
 ヴォイスフォーユー=Voice for You
-30秒ごとに物理/魔法攻撃力ダウン解除=►P/M.ATK Down is removed every 30 seconds
+30秒ごとに物理/魔法攻撃力ダウン解除=P/M.ATK Down is removed every 30 seconds
 
 
 ディアボロスフィアー=Diablos Sphere
-敵のＴＰ上昇－15=►Enemy TP Boost -15
+敵のＴＰ上昇－15=Enemy TP Boost -15
 
 ブルートナハト=Blutnacht
 15秒ごとにＴＰ固定量100回復\n敵のＴＰ100ダウン=Every 15 seconds:\n►Recovers allies' TP by 100.\n►Reduces enemies' TP in range by 100.
 
 エリザベスガーディアン=Elizabeth Guardian
-バトル開始時に最もＨＰが多いキャラが敵を挑発=►At the start of the battle, the character with the most HP will [Taunt] the enemy.
+バトル開始時に最もＨＰが多いキャラが敵を挑発=At the start of the battle, the character with the most HP will [Taunt] the enemy.
 
 ドングリースピリット=Acorn Spirit
-行動不能無効１回=►Incapacitation nullification once
+行動不能無効１回=Incapacitation nullification once
 
 ノブレスウィスタリア=Noblesse Wistaria
-初期アルファルピ+3000\nアルファルピ獲得量－30%=►Initial αRupees +3,000\n►αRupees Acquisition Amount -30%
+初期アルファルピ+3000\nアルファルピ獲得量－30%=Initial αRupees +3,000\n►αRupees Acquisition Amount -30%
 
 リヴァイアサンコール=Leviathan Call
-物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）=►P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)
-r:"^物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）（現在(\d+)枚）$"=►P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)(αRupees Possession x0.01, Max 100)(Currently $1)
+物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）=P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)
+r:"^物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）（現在(\d+)枚）$"=P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)(αRupees Possession x0.01, Max 100)(Currently $1)
 
 兵法二海一流=Hyōpo Nikai Ichiryu
-デバフ強化＋20=►Debuff Enhancement +20
+デバフ強化＋20=Debuff Enhancement +20
 
 バインディングローズ=Binding Rose
-敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）=►Continuous DMG against opponents increased (Enlisted characters x10%, maximum 500,000 damage)
-r:"^敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）（現在(\d+)人）$"=►Continuous DMG against opponents increased (Enlisted characters x10%, maximum 500,000 damage)(Currently $1)
+敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）=Damage over time Up (Enlisted characters x10%, maximum 500,000 damage)
+r:"^敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）（現在(\d+)人）$"=Damage over time Up (Enlisted characters x10%, maximum 500,000 damage)(Currently $1)
 
 迷宮遺物詳細=Labyrinth Relic Details
 
@@ -109,11 +109,11 @@ r:"^敵への継続ダメージアップ（加入キャラ数×10％、最大50�
 【加速+3】=【Haste +3】
 【加速+5】=【Haste +5】
 
-【守備】=【Guard】
-【守備+1】=【Guard +1】
-【守備+2】=【Guard +2】
-【守備+3】=【Guard +3】
-【守備+5】=【Guard +5】
+【守備】=【Defense】
+【守備+1】=【Defense +1】
+【守備+2】=【Defense +2】
+【守備+3】=【Defense +3】
+【守備+5】=【Defense +5】
 
 【弱体】=【Debuff】
 【弱体+1】=【Debuff +1】
@@ -129,53 +129,50 @@ r:"^敵への継続ダメージアップ（加入キャラ数×10％、最大50�
 
 ## Effect ## 
 
-r:"^ダメージを受けるたびＴＰ(\d+)回復（最大(.)回）$"=►Recovers $1 TP when taking damage\n(Max $2 time(s))
-r:"^バトル開始時、物理/魔法攻撃力アップフィールド展開（現在値＋(\d+)％）$"=►At battle start, deploys P.ATK/M.ATK Boost Field\n(Current value +$1%)
-r:"^バトル開始時ＴＰ(\d+)回復$"=►Recovers $1 TP at battle start
-r:"^バフ強化＋(\d+)$"=►Buff Enhancement +$1
-r:"^回復強化＋(\d+)$"=►Recovery Enhancement +$1
-r:"^属性ボーナス＋(\d+)％$"=►Elemental Bonus +$1%
-r:"^敵の物理/魔法与ダメ－(\d+)％敵の物理/魔法被ダメ＋(\d+)％$"=►Enemy P.DMG/M.DMG dealt -$1%\n►Enemy P.DMG/M.DMG taken +$2%
-r:"^敵の物理/魔法攻撃力－(\d+)％$"=►Lowers enemies' P.ATK/M.ATK by $1%
-r:"^敵の物理/魔法被クリダメ＋(\d+)％$"=►Increases enemies' P.CRIT/M.CRIT DMG taken by $1%
-r:"^敵の物理/魔法防御力－(\d+)％$"=►Lowers enemies' P.DEF/M.DEF by $1%
-r:"^物理/魔法クリダメ＋(\d+)％$"=►P.CRIT/M.CRIT DMG +$1%
+r:"^ダメージを受けるたびＴＰ(\d+)回復（最大(.)回）$"=Recovers $1 TP when taking damage\n(Max $2 time(s))
+r:"^バトル開始時、物理/魔法攻撃力アップフィールド展開（現在値[＋+]([0-9.%％]+)％）$"=At battle start, deploys P.ATK/M.ATK Boost Field\n(Current value +$1%)
+r:"^バトル開始時ＴＰ(\d+)回復$"=Recovers $1 TP at battle start
+r:"^敵の物理/魔法与ダメ[－\-]([0-9.%％]+)\n?敵の物理/魔法被ダメ[＋+]([0-9.%％]+)$"=Enemy P.DMG/M.DMG dealt -$1\n►Enemy P.DMG/M.DMG taken +$2
+r:"^敵の物理/魔法攻撃力[－\-]([0-9.%％]+)$"=Lowers enemies' P.ATK/M.ATK by $1
+r:"^敵の物理/魔法被クリダメ[＋+]([0-9.%％]+)$"=Increases enemies' P.CRIT/M.CRIT DMG taken by $1
+r:"^敵の物理/魔法防御力[－\-]([0-9.%％]+)$"=Lowers enemies' P.DEF/M.DEF by $1
+r:"^物理/魔法クリダメ[＋+]([0-9.%％]+)$"=P.CRIT/M.CRIT DMG +$1
 
-r:"^物理/魔法攻撃力アップ（先頭キャラの物理防御力×(\d+)）$"=►Boosts P.ATK/M.ATK (Vanguard character's P.DEF ×$1)
-r:"^物理/魔法攻撃力アップ（先頭キャラの魔法防御力×(\d+)）$"=►Boosts P.ATK/M.ATK (Vanguard character's M.DEF ×$1)
-r:"^物理/魔法攻撃力＋(\d+)％$"=►P.ATK/M.ATK +$1%
-r:"^物理/魔法防御力＋(\d+)％$"=►P.DEF/M.DEF +$1%
-r:"^物理/魔法クリティカル＋(\d+)％$"=►Physical/Magic Critical +$1%
-r:"^状態異常命中＋(\d+)$"=►Status Ailment Accuracy +$1
-r:"^通常攻撃強化＋(\d+)$"=►Normal Attack Boost +$1
-r:"^通常攻撃強化＋(\d+)\nＨＰ吸収＋(\d+)$"=►Normal Attack Boost +$1\n►HP Absorption +$2
-r:"^重複可能の行動速度＋(\d+)％$"=►Stackable Action Speed +$1%
-r:"^ＨＰ吸収＋(\d+)$"=►HP Absorption +$1
-r:"^ＴＰ上昇＋(\d+)$"=►TP Boost +$1
-r:"^ＴＰ消費軽減＋(\d+)$"=►TP Cost Reduction +$1
+r:"^物理/魔法攻撃力アップ（先頭キャラの物理防御力×(\d+)）$"=Boosts P.ATK/M.ATK (Vanguard character's P.DEF ×$1)
+r:"^物理/魔法攻撃力アップ（先頭キャラの魔法防御力×(\d+)）$"=Boosts P.ATK/M.ATK (Vanguard character's M.DEF ×$1)
+r:"^物理/魔法攻撃力[＋+]([0-9.%％]+)$"=P.ATK/M.ATK +$1
+r:"^物理/魔法防御力[＋+]([0-9.%％]+)$"=P.DEF/M.DEF +$1
+r:"^物理/魔法クリティカル[＋+]([0-9.%％]+)$"=Physical/Magic Critical +$1
+r:"^状態異常命中[＋+]([0-9.%％]+)$"=Status Ailment Accuracy +$1
+r:"^通常攻撃強化[＋+]([0-9.%％]+)$"=Normal Attack Boost +$1
+r:"^通常攻撃強化[＋+]([0-9.%％]+)\nＨＰ吸収[＋+]([0-9.%％]+)$"=Normal Attack Boost +$1\n►HP Absorption +$2
+r:"^重複可能の行動速度[＋+]([0-9.%％]+)$"=Stackable Action Speed +$1
+r:"^ＨＰ吸収[＋+]([0-9.%％]+)$"=HP Absorption +$1
+r:"^ＴＰ上昇[＋+]([0-9.%％]+)$"=TP Boost +$1
+r:"^ＴＰ消費軽減[＋+]([0-9.%％]+)$"=TP Cost Reduction +$1
 
-r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=►Continuous HP Recovery ([Guard] count ×1000 per second)
-r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=►Continuous HP Recovery ([Guard] count ×$1 per second) (Current: $2)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=Continuous HP Recovery ([Defense] count ×1000 per second)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=Continuous HP Recovery ([Defense] count ×$1 per second) (Current: $2)
 
-r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=►Continuous HP Recovery ([Guard] count ×$1 per second)
-r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=►Continuous HP Recovery ([Guard] count ×$1 per second) (Current: $2)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=Continuous HP Recovery ([Defense] count ×$1 per second)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=Continuous HP Recovery ([Defense] count ×$1 per second) (Current: $2)
 
-r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=►Continuous HP Recovery ([Guard] count ×$1 per second)
-r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=►Continuous HP Recovery ([Guard] count ×$1 per second) (Current: $2)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）$"=Continuous HP Recovery ([Defense] count ×$1 per second)
+r:"^継続ＨＰ回復（毎秒【守備】数×(\d+)回復）（現在(\d+)個）$"=Continuous HP Recovery ([Defense] count ×$1 per second) (Current: $2)
 
-r:"^敵全体に毒付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）$"=►Poisons all enemies\n(Deals [Debuff] count ×$1 DMG per second)
-r:"^敵全体に毒付与（毎秒【\n?弱\n?体\n?】\n?数×(\d+)ダメージ）（\n?現\n?在\n?(\d+)個）$"=►Poisons all enemies ([Debuff] count ×$1 DMG per second) (Current: 0)
+r:"^敵全体に毒付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）$"=Poisons all enemies\n(Deals [Debuff] count ×$1 DMG per second)
+r:"^敵全体に毒付与（毎秒【\n?弱\n?体\n?】\n?数×(\d+)ダメージ）（\n?現\n?在\n?(\d+)個）$"=Poisons all enemies ([Debuff] count ×$1 DMG per second) (Current: 0)
 
-r:"^敵全体に呪い付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）$"=►Curses all enemies\n(Deals [Debuff] count ×$1 DMG per second)
-r:"^敵全体に呪い付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）（\n?現\n?在\n?(\d+)個）$"=►Curses all enemies ([Debuff] count ×$1 DMG per second) (Current: $2)
+r:"^敵全体に呪い付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）$"=Curses all enemies\n(Deals [Debuff] count ×$1 DMG per second)
+r:"^敵全体に呪い付与（毎秒【弱\n?体\n?】\n?数×(\d+)ダメージ）（\n?現\n?在\n?(\d+)個）$"=Curses all enemies ([Debuff] count ×$1 DMG per second) (Current: $2)
 
 
 
-r:"^(\d+)秒ごとに物理無効バリア展開（【守備】数×(\d+)無効）（現在(\d+)個）$"=►Deploys Physical Null Barrier every $1s ([Guard] count ×$2 null) (Current: $3)
-r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効）（現在(\d+)個）$"=►Deploys Magic Null Barrier every $1s ([Guard] count ×$2 null) (Current: $3)
+r:"^(\d+)秒ごとに物理無効バリア展開（【守備】数×(\d+)無効）（現在(\d+)個）$"=Deploys Physical Null Barrier every $1s ([Defense] count ×$2 null) (Current: $3)
+r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効）（現在(\d+)個）$"=Deploys Magic Null Barrier every $1s ([Defense] count ×$2 null) (Current: $3)
 
-r:"^(\d+)秒ごとに物理無効バリア展開（【守備】数×(\d+)無効）$"=►Deploys Physical Null Barrier every $1s\n(Nullifies [Guard] count ×$2)
-r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効）$"=►Deploys Magic Null Barrier every $1s\n(Nullifies [Guard] count ×$2)
+r:"^(\d+)秒ごとに物理無効バリア展開（【守備】数×(\d+)無効）$"=Deploys Physical Null Barrier every $1s\n(Nullifies [Defense] count ×$2)
+r:"^(\d+)秒ごとに魔法無効バリア展開（【守備】数×(\d+)無効）$"=Deploys Magic Null Barrier every $1s\n(Nullifies [Defense] count ×$2)
 
 r:"^物理/魔法攻撃力アップ（加入キャラ数×(\d+)％、最大(\d+)％）（現在(\d+)人）$"=P/M.ATK Bonus (Joined Characters x$1%, max $1%) (Currently $3 peoples)
 

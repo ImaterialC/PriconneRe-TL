@@ -3,7 +3,10 @@
 
 ##UB##
 スライミィサービス=Slime-y Service
-r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を255ダウン敵単体の物理・魔法攻撃力を1452ダウン自分のＨＰを20885回復ネバネバが４つ以上の場合、16335ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts 2 [Sticky] on a single enemy.\n►Lowers a single enemy's P.DEF by 255.\n►Lowers a single enemy's P.ATK & M.ATK by 1452.\n►Recovers own HP by 20885.\n\nIf [Sticky] is 4 or more:\n►Creates a P.DMG/M.DMG Null Barrier (16335 HP) for self.
+##oldr:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を255ダウン敵単体の物理・魔法攻撃力を1452ダウン自分のＨＰを20885回復ネバネバが４つ以上の場合、16335ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts 2 [Sticky] on a single enemy.\n►Lowers a single enemy's P.DEF by 255.\n►Lowers a single enemy's P.ATK & M.ATK by 1452.\n►Recovers own HP by 20885.\n\nIf [Sticky] is 4 or more:\n►Creates a P.DMG/M.DMG Null Barrier (16335 HP) for self.
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を(\d+)ダウン敵単体の物理・魔法攻撃力を(\d+)ダウン自分のＨＰを(\d+)回復ネバネバが４つ以上の場合、(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Grants 2 [Sticky] to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 18s.\n►Lowers a single enemy's P.ATK and M.ATK by $3 for 18s.\n►Recovers own HP by $4.\n\nIf [Sticky] is 4 or more:\n►Deploys a physical & magic null barrier absorbing $5 damage.
+
 
 目の前の敵１キャラに物理特大ダメージ、物理防御力を中ダウン、【ネバネバ】を２つ付与する（最大６つまで）。【ネバネバ】の数に応じて敵の攻撃力はダウンする。自分のＨＰを中回復する。【ネバネバ】の数が４つ以上の場合、自分に物理/魔法無効バリアを展開する。=Deals massive P.DMG to 1 enemy directly ahead, moderately lowers their P.DEF, and inflicts 2 [Sticky] (max: 6). Enemy ATK decreases based on [Sticky] count. Recovers own HP by a moderate amount. If [Sticky] count is 4 or more, creates a P.DMG/M.DMG Null Barrier for self.
 
