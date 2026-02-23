@@ -56,6 +56,7 @@ HP回復量=HP Recovery Amount
 ---Status Popup---
 
 スキル切り替え！=Skills Change!
+r:"^与ダメアップ[＋+]([0-9.%％]+)$"=Damage Up +$1
 r:"^被ダメカット[＋+]([0-9.%％]+)$"=Damage Reduction +$1
 r:"^属性ボーナスアップ[＋+]([0-9.%％]+)$"=Elemental Bonus Up +$1
 r:"^属性ボーナス[＋+]([0-9.%％]+)$"=Elemental Bonus +$1

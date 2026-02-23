@@ -21,18 +21,22 @@
 ##UB##
 ヒヨリラッシュ=Hiyori Rush
 目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理中ダメージを与える。=Deals large P.DMG to an enemy directly in front and deals moderate P.DMG to all enemies in a small radius around it.
+
 r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to enemies in range.
 
 ##S1##
 キャットストライク=Kitty Kapow
 目の前の敵１キャラに物理中ダメー\nジを与える。=Deals moderate P.DMG to an enemy directly in front.
-## r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ$"=This value is ignored because it's the same as UB. Cast time can't be include.
+##OLD r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ$"=This value is ignored because it's the same as UB. Cast time can't be include.
 
 ##S2##
 キャットコンビネーション=Kitty Combo
 目の前の敵１キャラに物理小ダメージを与え、さらに自分の物理攻撃力を中アップさせる。=Deals small P.DMG to an enemy directly in front. Boosts own P.ATK by a moderate amount.
-## r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=This value is ignored because it's the same as Djeeta UB. Cast time can't be include.
 
+自分の物理攻撃力を大アップし、目の前の敵１キャラに物理中ダメージを与える。敵の数が２キャラ以上の場合、追加で前方範囲内の敵すべてに物理中ダメージを与える。=Greatly boosts own P.ATK and deals medium P.DMG to an enemy in front. If there are 2 or more enemies, additionally deals medium P.DMG to all enemies in a frontal area.
+
+##OLD r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=This value is ignored because it's the same as Djeeta UB. Cast time can't be include.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵の数が２キャラ以上の場合、範囲内の敵に(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to a single enemy.\n\nIf there are 2 or more enemies:\n►Deals $3 P.DMG to enemies within range.
 ##EX##
 肉球パワー！=Paw Power!
 肉球パワー！+=Paw Power!+
@@ -41,13 +45,23 @@ r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメ
 ヒヨリバーニングラッシュ=Hiyori Burning Rush
 目の前の敵１キャラに物理特大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。=Deals massive P.DMG to an enemy directly in front and deals moderate P.DMG to all enemies in a radius around it.
 
+目の前の敵１キャラに物理特大ダメージを与え、さらに前方範囲内の敵すべてに物理大ダメージを与える。=Deals massive P.DMG to an enemy in front, and additionally deals large P.DMG to all enemies in a frontal area.
+
 ##S1+##
 キャットストライク+=Kitty Kapow+
 目の前の敵１キャラに物理大ダメージを与え、さらに自分を中心とした範囲内の敵すべてに物理小ダメージを与える。=Deals large P.DMG to an enemy directly in front and deals small P.DMG to all enemies in a small radius around it.
-## r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ$"=This value is ignored because it's the same as UB. Cast time can't be include.
+##OLD r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ$"=This value is ignored because it's the same as UB. Cast time can't be include.
 
+目の前の敵１キャラに物理大ダメージを与え、さらに、前方範囲内の敵すべてに物理小ダメージを与える。=Deals large P.DMG to an enemy in front, and additionally deals small P.DMG to all enemies in a frontal area.
 ##UE##
 ニャンピオンベルト=Nyanpion's Belt
+
+##S1++##
+キャットストライク++=Cat Strike++
+目の前の敵１キャラに物理大ダメージを与え、さらに、前方範囲内の敵すべてに物理大ダメージを与える。敵の数が２キャラ以上の場合、自分の行動速度を大アップし、ＴＰを特大回復する。このスキルの初回使用後、ヒヨリが敵を攻撃するたびに、以降その敵にヒヨリが与えるダメージがアップする。この効果は最大100回まで累積する。=Deals large P.DMG to an enemy in front, and additionally deals large P.DMG to all enemies in a frontal area. If there are 2 or more enemies, greatly boosts own action speed and massively recovers own TP. After this skill is used for the first time, each time Hiyori attacks an enemy, the damage she deals to that enemy increases. This effect can stack up to 100 times.
+
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ攻撃する度にダメージ1500増加敵の数が２キャラ以上の場合、以下の効果が発動する自分の行動速度200％アップ自分のＴＰを1000回復$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to enemies within range.\n►Damage increases by 1500 with each attack.\n\nIf there are 2 or more enemies:\n►Boosts own action speed by 200％.\n►Recovers own TP by 1000.
+
 
 ##Comments##
 みんなが笑顔でいられるように！\nヒヨリ、頑張りまーっす！　いぇい！=So everyone can smile!\nHiyori'll do her best! Yay!

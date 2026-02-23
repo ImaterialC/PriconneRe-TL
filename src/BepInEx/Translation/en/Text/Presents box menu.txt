@@ -29,6 +29,8 @@ sr:"^「(.+)」キービジュアル カスタムマイぺージ$"=""$1" Key Vis
 
 以下の交換結果になりました。=The following exchange results are as follows:
 
+イベントミッション達成で獲得したアイテムです。=This item was obtained from completing an event mission.
+イベントクエスト（HARD）クリアで獲得したアイテムです。=This item was obtained from completing an event quest (HARD).
 
 
 ---sort---

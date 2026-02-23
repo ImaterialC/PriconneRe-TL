@@ -79,7 +79,7 @@ r:"^難易度ボーナス ×([0-9,.]+)$"=Difficulty Bonus ×$1
 挑戦回数を消費して、バトルをまとめて\nスキップします。よろしいですか？=This will consume your attempts and skip the entire battle.\nIs this OK?
 
 
-
+挑戦回数を消費して、以下の５戦分のバトルをまとめてスキップします。=Spend the number of challenges to skip the following five battles.
 挑戦回数が不足しています。=Insufficient number of attempts.
 
 sr:"^(.)属性のキャラが(.)体以上編成されているとき、\n?キャラの属性ボーナスが強化される。(.)属性と(.)属\n?性以外の属性ボーナスを無効化する。$"=When $1 or more $2-element characters are in the party, the characters’ Elemental Bonus is enhanced. Elemental Bonuses other than $3 and $4 are nullified.

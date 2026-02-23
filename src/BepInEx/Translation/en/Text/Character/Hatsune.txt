@@ -14,7 +14,11 @@ r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ敵全体に(\d+)
 ##S2##
 スター☆ライト=Star☆Light
 最も物理攻撃力が高い敵１キャラに魔法小ダメージを与え、さらにスタンさせる。=Deals small M.DMG to the enemy with the highest P.ATK and inflicts Stun for 1.5s.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする$"=►Deals $1 M.DMG to an enemy.\n►Renders an enemy immobile.
+##OLD r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする$"=►Deals $1 M.DMG to an enemy.\n►Renders an enemy immobile.
+
+最も物理攻撃力が高い敵１キャラに魔法中ダメージを与え、スタンさせる。さらに、そのキャラを中心とした範囲内の敵すべてに魔法中ダメージを与える。=Deals medium M.DMG to the enemy with the highest P.ATK and stuns them. Additionally, deals medium M.DMG to all enemies in an area centered on that target.
+
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to a single enemy.\n►Inflicts incapacitation on a single enemy for a period of time.\n►Deals $2 M.DMG to enemies within range.
 
 ##EX##
 ハピネス☆エナジー=Happiness☆Energy
@@ -23,7 +27,12 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能�
 ##UB+##
 シューティング☆ミーティア=Shooting☆Meteor
 物理攻撃をする敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ長時間スタンさせる。さらに敵全体に魔法中ダメージを与える。=Great M.DMG to all enemies that attack physical attacks, reduce M.DEF small and stun for a long time. In addition, it does M.DMG to all enemies.
-r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ物理攻撃をする敵の魔法防御力を(\d+)ダウン物理攻撃をする敵を一定時間行動不能にする敵全体に(\d+)の魔法ダメージ$"=►Deals $1 extra M.DMG to all enemies that use P.ATK.\n►Lowers all enemies M.DEF that use P.ATK by $2 for 6s.\n►Renders all enemies immobile that use P.ATK for 6s.\n►Deals $3 M.DMG to all enemies.
+##OLD r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ物理攻撃をする敵の魔法防御力を(\d+)ダウン物理攻撃をする敵を一定時間行動不能にする敵全体に(\d+)の魔法ダメージ$"=►Deals $1 extra M.DMG to all enemies that use P.ATK.\n►Lowers all enemies M.DEF that use P.ATK by $2 for 6s.\n►Renders all enemies immobile that use P.ATK for 6s.\n►Deals $3 M.DMG to all enemies.
+
+
+物理攻撃をする敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ長時間スタンさせる。さらに敵全体に魔法中ダメージを与える。魔法攻撃をする敵がいない場合、敵全体に追加の魔法中ダメージを与える。=Deals large M.DMG to all enemies that perform physical attacks, slightly lowers their M.DEF, and stuns them for a long duration. Additionally, deals medium M.DMG to all enemies. If there are no enemies that perform magic attacks, additionally deals extra medium M.DMG to all enemies.
+
+r:"^物理攻撃をする敵に(\d+)の魔法ダメージ物理攻撃をする敵の魔法防御力を(\d+)ダウン物理攻撃をする敵を一定時間行動不能にする敵全体に(\d+)の魔法ダメージ魔法攻撃をする敵がいない場合、敵全体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies that use physical attacks.\n►Lowers M.DEF of enemies that use physical attacks by $2.\n►Inflicts incapacitation on enemies that use physical attacks for a period of time.\n►Deals $3 M.DMG to all enemies.\n\nIf there are no enemies that use magic attacks:\n►Deals $4 M.DMG to all enemies.
 
 ##S1+##
 サイコ☆ブラスト+=Psychic☆Blast+
@@ -31,3 +40,12 @@ r:"^物理攻撃をする敵に(\d+)の追加魔法ダメージ物理攻撃を�
 
 ##UE##
 ミーティア☆リボン=Meteor☆Ribbon
+
+
+##S1++##
+
+Hatsune
+サイコ☆ブラスト++=Psycho☆Blast++
+最も物理攻撃力が高い敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせる。魔法攻撃をする敵がいない場合、敵全体に追加の魔法中ダメージを与え、物理攻撃力を大ダウンさせ、自分の魔法攻撃力を特大アップし、ＴＰを大回復する。=Deals large M.DMG to all enemies in an area centered on the enemy with the highest P.ATK, and slightly lowers their M.DEF. If there are no enemies that use magic attacks, additionally deals medium M.DMG to all enemies, greatly lowers their P.ATK, massively boosts own M.ATK, and greatly recovers own TP.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン魔法攻撃をする敵がいない場合、以下の効果が発動敵全体に(\d+)の魔法ダメージ敵全体の物理攻撃力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ自分のＴＰを300回復$"=►Deals $1 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $2.\n\nIf there are no enemies that use magic attacks:\n►Deals $3 M.DMG to all enemies.\n►Lowers all enemies' P.ATK by $4.\n►Boosts own M.ATK by $5.\n►Recovers own TP by 300.
+

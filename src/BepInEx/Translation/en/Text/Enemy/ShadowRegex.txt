@@ -51,3 +51,9 @@ sr:"^([べ-ヺー＆＝]+)(（.+）)?の姿をした特殊な魔物(?:\n?\n(\n�
 ?)
 ?)
 ?)?$
+
+
+un catched shadow regex
+ディアブロスカルペ=Diablo Scarpe
+【召喚=【Summoning】
+挑発】敵全体に物理大ダメージ、物防を小ダウンさせる。短時間無敵になり敵全体を挑発する。アカ、アオが味方にいる場合１体につき敵全体に追加の物理小ダメージ、そうでない場合召喚する。アカのスキルは目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージ、スタンさせ、物攻中ダウン、物防を小ダウンさせる。アオのスキルは味方全体のＨＰとＴＰを小回復、物攻特大アップ、物クリ大アップ、物理クリダメを小アップさせる。=[Provoke] Deals large physical damage to all enemies and slightly reduces their physical defense. Becomes invincible for a short time and provokes all enemies. If Aka or Ao is an ally, each one deals additional small physical damage to all enemies, otherwise summons them. Aka's skill deals medium physical damage, stuns, moderately reduces physical attack, and slightly reduces physical defense to all enemies within an area centered on the enemy in front of them. Ao's skill slightly recovers HP and TP for all allies, greatly increases physical attack, greatly increases physical critical damage, and slightly increases physical critical damage.

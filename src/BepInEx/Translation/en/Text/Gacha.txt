@@ -302,6 +302,10 @@ Sダッシュ スペシャル交換チケットについて=Regarding the S-Dash
 
 ■メモリーピース交換チケットについて\n・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×100と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。\n\n■GWメモリーピース交換チケットについて\n・交換対象のキャラのメモリーピース交換チケット1枚につき1キャラのメモリーピース×50と交換できるチケットです。\n・獲得したメモリーピースは直接付与されます。メモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。\n\n■ピュアメモリーピース交換チケットについて\n・交換対象のキャラのピュアメモリーピース交換チケット1枚につき1キャラのピュアメモリーピース×50と交換できるチケットです。\n・獲得したピュアメモリーピースは直接付与されます。ピュアメモリーピースの所持数が上限に達している場合、プレゼントボックスに贈られます。\n※交換対象のキャラは、各チケットの交換ダイアログ内をご確認ください。=■About Memory Piece Exchange Tickets:\n►This is a ticket that can be exchanged for 100 Memory Shards of one eligible character per Memory Piece Exchange Ticket.\n\n►Obtained Memory Shards will be granted directly. If you reach the maximum limit of Memory Shards, they will be sent to the Present Box.\n※Please check within each ticket's exchange dialog for eligible characters.\n\n■About GW Memory Piece Exchange Tickets:\n►This is a ticket that can be exchanged for 50 Memory Shards of one eligible character per Memory Piece Exchange Ticket.\n\n►Obtained Memory Shards will be granted directly. If you reach the maximum limit of Memory Shards, they will be sent to the Present Box.\n※Please check within each ticket's exchange dialog for eligible characters.\n\n■About Pure Memory Piece Exchange Tickets:\n►This is a ticket that can be exchanged for 50 Pure Memory Shards of one eligible character per Pure Memory Piece Exchange Ticket.\n\n►Obtained Pure Memory Shards will be granted directly. If you reach the maximum limit of Pure Memory Shards, they will be sent to the Present Box.\n※Please check within each ticket's exchange dialog for eligible characters.
 
+フェス限定＋=FES Exclusive+
+スペシャル交換チケット（フェス限定＋）を所持していません。=You don't have a special exchange ticket (Fes Exclusive +).
+
+
 r:"^([0-9,.]+)th Anniv\. スペシャル交換チケットについて$"=About $1th Anniv. special exchange tickets
 r:"^([0-9,.]+)th Anniv\. スペシャル交換チケットを所持していません。$"=Insufficient $1th Anniv. Special Exchange Ticket.
 r:"^([0-9,.]+)th Anniv\. スペシャル交換チケット$"=$1th Anniv. Special Exchange Ticket

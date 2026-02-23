@@ -23,9 +23,11 @@ r:"^コネクトRANK強化上限を(\d+)から(\d+)に解放$"=Unlock Connect Ra
 
 被ダメカット=Damage reduction
 
-
+マスターオブラビリンスの効果により、以下のアイテムを入手しました。=As a result of the effects of Master of Labyrinth, I obtained the following items:
 UE-SP
+表示する強化内容がありません。=There are no enhancements to display.
 
+コネクトRANK達成=Connect RANK achieved
 達成済み=Finished
 専用装備１SP詳細=Unique Equipment 1 SP Details
 専用装備１SPの情報を確認できます。=You can check the information of the UE-1SP.

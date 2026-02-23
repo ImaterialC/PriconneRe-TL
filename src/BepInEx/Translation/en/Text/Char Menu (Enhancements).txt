@@ -110,7 +110,7 @@ r:"^\[3C404E\]アイテムを消費して、強化Lv上限を\[-\]\[FFBB00,CE4F0
 この専用装備１は今後登場予定です。=[3C404E]This Unique Equipment-1 will be introduced at a later date.[-]
 この専用装備２は今後登場予定です。=[3C404E]This Unique Equipment-2 will be introduced at a later date.[-]
 
-この専用装備１のSP強化は今後登場予定です。=This Unique Equipment 1 SP enhancement will be introduced at a later date.
+この専用装備１のSP強化は今後登場予定です。=This Unique Equipment 1 SP enhancement\nwill be introduced at a later date.
 
 [FF7C4E,D62146]専用装備グロウスフィアを使用できます。[-]=[FF7C4E,D62146]UE Growsphere can be used.[-]
 [FF7C4E,D62146]専用装備１グロウスフィアを使用できます。[-]=[FF7C4E,D62146]UE-1 Growsphere can be used.[-]
