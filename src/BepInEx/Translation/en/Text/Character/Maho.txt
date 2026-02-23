@@ -36,6 +36,8 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御�
 前から２番目の敵１キャラを暗闇状態にする。=Inflicts Blind to an enemy in the 2nd position.
 r:"^敵単体を暗闇状態にする$"=►Inflicts Blind.
 r:"^敵単体を暗闇状態にする敵単体の物理・魔法攻撃力を(\d+)ダウン敵単体の物理・魔法クリティカルを150ダウン$"=Cast time: 2.13s\n►Inflicts Blind (P.ATK miss by 60%) on a single enemy for 8s.\n►Lowers a single enemy's P.ATK and M.ATK by $1 for 18s.\n►Lowers a single enemy's P.CRIT RATE and M.CRIT RATE by 150 for 18s.
+前から２番目の敵１キャラを暗闇状態にし、物理・魔法攻撃力、物理・魔法クリティカルを大ダウンさせる。=Puts the second-most enemy character into a state of darkness, greatly reducing their physical and magical attack power, and their physical and magical critical hits.
+
 
 ##EX##
 メルヘンチャージ=Fairy-tale Charge

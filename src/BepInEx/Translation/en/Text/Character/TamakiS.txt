@@ -53,4 +53,4 @@ TamakiS
 サマービーチアブソーブ++=Summer Sun Absorption++
 目の前の敵１キャラに物理大ダメージを与え、ＴＰを中ダウン、物理攻撃力を大ダウンさせ、さらに、自分の物理攻撃力を特大アップ、ＴＰを大回復する。=Deals large P.DMG to an enemy in front, moderately lowers their TP, and greatly lowers their P.ATK. Additionally, massively boosts own P.ATK and greatly recovers own TP.
 
-r:"^敵単体に(\d+)の物理ダメージ敵単体のＴＰを220失わせる自分のＴＰを500回復敵単体の物理攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=Cast time: 0.5s\n►►Deals $1 P.DMG to a single enemy.\n►Reduces TP of a single enemy by 220.\n►Recovers own TP by 500.\n►Lowers a single enemy's P.ATK by $2 for 12s.\n►Boosts own P.ATK by $3 for 12s.
+r:"^敵単体に(\d+)の物理ダメージ敵単体のＴＰを220失わせる自分のＴＰを500回復敵単体の物理攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=Cast time: 0.5s\n►Deals $1 P.DMG to a single enemy.\n►Reduces TP of a single enemy by 220.\n►Recovers own TP by 500.\n►Lowers a single enemy's P.ATK by $2 for 12s.\n►Boosts own P.ATK by $3 for 12s.

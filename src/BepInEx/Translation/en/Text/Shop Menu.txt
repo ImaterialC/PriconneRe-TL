@@ -113,6 +113,12 @@ r:"^([0-9,.]+)で購入$"=buy $1
 [FF7C4E,D62146]専用装備２作成に必要な数を超えています。[-]=[FF7C4E,D62146]Exceeds the number required to create UE-2.[-]
 [FF7C4E,D62146]専用装備２作成に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to create UE-2.[-]
 [FF7C4E,D62146]専用装備１の最大上限解放に必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary amount to unlock Max Lv UE-1.[-]
+
+
+必要素材が不足しています。=There is a shortage of necessary materials.
+[FF7C4E,D62146]コネクトランク最大上限解放に\n必要な数を所持しています。[-]=[FF7C4E,D62146]Has the necessary\namount to unlock Connect Rank.[-]
+
+
 ア
 使用可能なスロットがありません。=No usable slots.
 sr:"^\[FF7C4E,D62146\]([べ-・ー＆]{2,11})(\（.{2,10}\）)?の専用装備(.)を\n(.)段階強化するのに必要な数を超えています。\[-\]$"=[FFF7C4E,D621446]You have the necessary quantity required to upgrade\n$1$2's Unique Equipment-$3 by $4 level(s).[-]
