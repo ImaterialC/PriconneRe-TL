@@ -1,0 +1,224 @@
+Sheffy
+雪沓++=Snow Boots++
+目の前の敵1キャラに物理小ダメージを与え、魔法攻撃力を大ダウン、物理防御力を中ダウンさせる。さらに、自分の物理攻撃力を小アップし、ＴＰを小回復する。このスキルのダメージと物理攻撃力の上昇量は、【氷竜の印】の数に応じて増加する。【氷竜の印】を１つ消費する。スキル発動時、【氷竜の印】の数が10以上の場合、さらに【氷竜の印】を１つ消費して目の前の敵１キャラに追加の物理特大ダメージを与える。=Deals small P.DMG to an enemy in front, greatly lowers their M.ATK, and moderately lowers their P.DEF. Additionally, slightly boosts own P.ATK and slightly recovers own TP. The damage of this skill and the amount of P.ATK boosted increase based on the number of 【Ice Dragon Sigils】. Consumes 1 【Ice Dragon Sigil】. At skill activation, if the number of 【Ice Dragon Sigils】 is 10 or more, additionally consumes 1 【Ice Dragon Sigil】 to deal extra massive P.DMG to an enemy in front.
+r:"^氷竜の印を１つ消費する敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=►Consumes 1 [Ice Dragon Mark].\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Boosts own P.ATK by $3.
+r:"^氷竜の印を１つ消費する敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ自分のＴＰを100回復氷竜の印が10以上の場合、以下の効果が発動敵単体に(\d+)の物理ダメージ氷竜の印を１つ消費する$"=►Consumes 1 [Ice Dragon Mark].\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's M.ATK by $2.\n►Lowers a single enemy's P.DEF by $3.\n►Boosts own P.ATK by $4.\n►Recovers own TP by 100.\n\nIf [Ice Dragon Mark] is 10 or more:\n►Deals $5 P.DMG to a single enemy.\n►Consumes 1 [Ice Dragon Mark].
+
+Arisa
+絡みつく蔦++=Entangling Vines++
+最も魔法攻撃力が高い敵１キャラに物理大ダメージを与え、さらに魔法攻撃力と行動速度を大ダウンさせる。バトル開始後、初弾のこのスキルは自分をステータスアップ効果を受ける度に、【妖精の導き】が１つ追加される状態にする。【妖精の導き】は最大10まで追加される。=Deals large P.DMG to the enemy with the highest M.ATK, and greatly lowers their M.ATK and action speed. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【Fairy’s Guidance】 each time she receives a status up effect. 【Fairy’s Guidance】 can stack up to 10 times.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度20％ダウン敵単体の魔法攻撃力を(\d+)ダウンステータスアップ効果を受けるたびに自分に妖精の導きを付与する状態になる$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's action speed by 20％.\n►Lowers a single enemy's M.ATK by $2.\n►Grants a state where each time self receives a stat-up effect, gain 1 [Fairy Guidance].
+
+最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力と行動速度を小ダウンさせる。バトル開始後、初弾のこのスキルは自分をステータスアップ効果を受ける度に、【妖精の導き】が１つ追加される状態にする。【妖精の導き】は最大５つまで追加される。=Deals medium P.DMG to the enemy with the highest M.ATK, and slightly lowers their M.ATK and action speed. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【Fairy’s Guidance】 each time she receives a status up effect. 【Fairy’s Guidance】 can stack up to 5 times.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度50％ダウン敵単体の魔法攻撃力を(\d+)ダウンステータスアップ効果を受けるたびに自分に妖精の導きを付与する状態になる$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's action speed by 50％.\n►Lowers a single enemy's M.ATK by $2.\n►Grants a state where each time self receives a stat-up effect, gain 1 [Fairy Guidance].
+
+Muimi
+天楼廻刃斬++=Heavenly Spire Revolving Blade++
+目の前の敵１キャラに物理特大ダメージを与える。発動時の自分の残りＴＰに応じてこのスキルのダメージがアップする。敵の数が１キャラの場合、自分のＴＰを大回復する。=Deals massive P.DMG to an enemy in front. The damage of this skill increases based on own remaining TP at activation. If there is only one enemy, greatly recovers own TP.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵の数が１キャラの場合、自分のＴＰを500回復$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
+
+ビビらせてやる！++=I’ll Scare You!++
+前方範囲内の敵すべてに物理中ダメージを２回与え、スタンさせ、小さく吹き飛ばす。敵の数が１キャラの場合、自分のＴＰを大回復する。=Deals medium P.DMG twice to all enemies in a frontal area, stuns them, and knocks them back slightly. If there is only one enemy, greatly recovers own TP.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵単体に(\d+)の物理ダメージ敵の数が１キャラの場合、自分のＴＰを500回復$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Deals $3 P.DMG to a single enemy.\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
+
+目の前の敵１キャラに物理特大ダメージを与える。このスキルのスキルレベルは「天楼覇断剣」と連動しています=Deals massive P.DMG to an enemy in front. This skill’s level is linked to “Heavenly Spire Supreme Severing Blade”.
+
+前方範囲内の敵すべてに物理小ダメージを２回与え、さらにスタンさせて小さく吹き飛ばす。=Deals small P.DMG twice to all enemies in a frontal area, and additionally stuns them and knocks them back slightly.
+
+
+Kyaru
+サンダーボール++=Thunder Ball++
+目の前の敵１キャラに魔法大ダメージを与える。さらに、その敵を中心とした範囲内の敵すべてに魔法中ダメージを与え、物理・魔法防御力を小ダウンさせる。=Deals large M.DMG to an enemy in front. Additionally, deals medium M.DMG to all enemies in an area centered on that target, and slightly lowers their P.DEF and M.DEF.
+r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $3.
+r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理・魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to enemies within range.\n►Lowers enemies' P.DEF and M.DEF within range by $3.
+
+Pecorine
+ランチタイム++=Lunchtime++
+自分の物理攻撃力を大アップ、物理・魔法防御力を中アップ、ＨＰを大回復し、物理/魔法吸収バリアを展開する。さらに、ＴＰを大回復する。=Greatly boosts own P.ATK, moderately boosts own P.DEF and M.DEF, greatly recovers own HP, and deploys P.DMG/M.DMG absorption barriers. Additionally, greatly recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理・魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＴＰを500回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.DEF and M.DEF by $2.\n►Recovers own HP by $3.\n►Deploys a physical & magic absorb barrier absorbing $4 damage.\n►Recovers own TP by 500.
+
+
+Djeeta
+目の前の敵１キャラに物理特大ダメージを与える。さらに、自分以外の味方全てのＴＰを小回復させ、自分のＴＰを中回復する。バトル開始後、初弾のこのスキルは味方がＵＢを使用するたびに自分に【CHAIN】が１つ追加される状態にする。【CHAIN】は最大５つまで追加される。=Deals massive P.DMG to an enemy in front. Additionally, slightly recovers the TP of all allies except self, and moderately recovers own TP. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【CHAIN】 each time an ally uses a UB. 【CHAIN】 can stack up to 5 times.
+r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを200回復自分以外の味方全体のＴＰを100回復初使用時、味方がＵＢを使用するたびに自分にCHAINが１つ付与される状態にする$"=►Deals $1 P.DMG to a single enemy.\n►Recovers own TP by 200.\n►Recovers TP for all allies (excluding self) by 100.\n►Upon first use, each time an ally uses their UB, add 1 [CHAIN] to self.
+r:"^敵単体に(\d+)の物理ダメージ自分以外の味方全体のＴＰを150回復自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ自分の物理クリダメを3％アップ自分のＴＰを200回復初使用時、味方がＵＢを使用するたびに自分にCHAINが１つ付与される状態にする$"=►Deals $1 P.DMG to a single enemy.\n►Recovers TP for all allies (excluding self) by 150.\n►Boosts own P.ATK by $2.\n►Boosts own P.CRIT RATE by 100.\n►Boosts own P.CRIT DMG by 3％.\n►Recovers own TP by 200.\n►Upon first use, each time an ally uses their UB, add 1 [CHAIN] to self.
+
+アウレア+=Aurea+
+目の前の敵１キャラに物理特大ダメージを与える。さらに、自分以外の味方全てのＴＰを中回復させ、自分の物理攻撃力、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップ、ＴＰを中回復する。バトル開始後、初弾のこのスキルは味方がＵＢを使用するたびに自分に【CHAIN】が１つ追加される状態にする。【CHAIN】は最大５つまで追加される。=Deals massive P.DMG to an enemy in front. Additionally, moderately recovers the TP of all allies except self, greatly boosts own P.ATK and P.CRIT RATE, slightly boosts own P.CRIT DMG, and moderately recovers own TP. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【CHAIN】 each time an ally uses a UB. 【CHAIN】 can stack up to 5 times.
+
+Mitsuki
+カースブルーム++=Curse Bloom++
+前方の敵すべてを呪い状態と麻痺状態にし、物理・魔法攻撃力を大ダウン、物理防御力を小ダウン、行動速度を中ダウンさせる。さらに、自分のＴＰを中回復する。範囲内の敵の数に応じて、呪いのダメージとＴＰの回復量が最大３倍までアップする。=Inflicts Curse and Paralysis on all enemies in front, greatly lowers their P.ATK and M.ATK, slightly lowers their P.DEF, and moderately lowers their action speed. Additionally, moderately recovers own TP. Based on the number of enemies in range, the damage dealt by Curse and the amount of TP recovered increase, up to a maximum of 3×.
+r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の行動速度５％ダウン$"=►Inflicts Curse, dealing $1 damage.\n►Lowers action speed of enemies within range by 5％.
+r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵を一定時間行動不能にする範囲内の敵の物理・魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の行動速度30％ダウン自分のＴＰを250回復$"=►Inflicts Curse, dealing $1 damage.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Lowers enemies' P.ATK and M.ATK within range by $2.\n►Lowers enemies' P.DEF within range by $3.\n►Lowers enemies' action speed within range by 30％.\n►Recovers own TP by 250.
+
+Mifuyu
+ファーストエイド++=First Aid++
+自分のＨＰを大回復、物理・魔法防御力を大アップし、自分の周囲に範囲内の味方すべてのＨＰを小回復するフィールドを展開する。発動時既に目の前の敵１キャラが行動不能状態だった場合、自分のＴＰを特大回復する。=Greatly recovers own HP, greatly boosts own P.DEF and M.DEF, and deploys a field around self that slightly recovers the HP of all allies in range. If, at activation, the enemy in front is already incapacitated, massively recovers own TP.
+r:"^自分のＨＰを(\d+)回復自分の物理・魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Recovers own HP by $1.\n►Boosts own P.DEF and M.DEF by $2.\n►Deploys a field that recovers $3 HP per second.
+
+自分のＨＰを大回復、物理・魔法防御力を大アップし、自分の周囲に範囲内の味方すべてのＨＰを小回復するフィールドを展開する。=Greatly recovers own HP, greatly boosts own P.DEF and M.DEF, and deploys a field around self that slightly recovers the HP of all allies in range.
+r:"^自分のＨＰを(\d+)回復自分の物理・魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する目の前の敵が行動不能状態の場合、自分のＴＰを1000回復$"=►Recovers own HP by $1.\n►Boosts own P.DEF and M.DEF by $2.\n►Deploys a field that recovers $3 HP per second.\n\nIf the enemy in front is incapacitated:\n►Recovers own TP by 1000.
+
+Ilya
+自分の残りＨＰの90％を消費して、目の前の敵１キャラに魔法大ダメージを与え、さらに、自分の魔法攻撃力を中アップ、ＴＰを大回復する。消費したＨＰ量に応じて、ＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to deal large M.DMG to an enemy in front. Additionally, moderately boosts own M.ATK and greatly recovers own TP. Based on the amount of HP consumed, the amount of TP recovered increases, up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
+r:"^自分の残りＨＰの90％を消費敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分のＴＰを300回復$"=►Consumes 90％ of own remaining HP.\n►Deals $1 M.DMG to a single enemy.\n►Boosts own M.ATK by $2.\n►Recovers own TP by 300.
+r:"^自分の残りＨＰの90％を消費範囲内の敵に(\d+)の魔法ダメージ敵が呪い状態の時、一定時間全ての物理攻撃を回避する闇属性の味方の行動速度55％アップ自分の魔法攻撃力を(\d+)アップ自分のＴＰを300回復$"=►Consumes 90％ of own remaining HP.\n►Deals $1 M.DMG to enemies within range.\n►If the enemy is afflicted with Curse, evade all physical attacks for a period of time.\n►Boosts action speed of Dark allies by 55％.\n►Boosts own M.ATK by $2.\n►Recovers own TP by 300.
+
+ブリーディングブラスト++=Bleeding Blast++
+自分の残りＨＰの90％を消費して、目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、目の前の敵１キャラが呪い状態だった場合、自分は短時間全ての物理攻撃を回避する。さらに、闇属性の味方すべての行動速度を大アップ、自分の魔法攻撃力を大アップ、ＴＰを大回復する。消費したＨＰ量に応じて、物理回避の効果時間、魔法攻撃力の上昇量、ＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to deal large M.DMG to all enemies in an area centered on an enemy in front. If the enemy in front is under Curse, self temporarily evades all physical attacks. Additionally, greatly boosts the action speed of all Dark-element allies, greatly boosts own M.ATK, and greatly recovers own TP. Based on the amount of HP consumed, the duration of physical evasion, the amount of M.ATK boosted, and the amount of TP recovered increase, up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
+
+
+Tomo
+前方範囲内の敵すべてに物理中ダメージを与える。前方範囲内の敵が２キャラ以上の場合、追加の物理小ダメージを与える。=Deals medium P.DMG to all enemies in a frontal area. If there are 2 or more enemies in the area, deals additional small P.DMG.
+r:"^範囲内の敵に(\d+)の物理ダメージ前方範囲内の敵の数が２キャラ以上の場合、範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies within range.\n\nIf there are 2 or more enemies in the frontal area:\n►Deals $2 P.DMG to enemies within range.
+r:"^範囲内の敵に(\d+)の物理ダメージ前方範囲内の敵の数が２キャラ以上の場合、範囲内の敵に(\d+)の物理ダメージ前方範囲内の敵の数が３キャラ以上の場合、範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies within range.\n\nIf there are 2 or more enemies in the frontal area:\n►Deals $2 P.DMG to enemies within range.\n\nIf there are 3 or more enemies in the frontal area:\n►Deals $3 P.DMG to enemies within range.
+
+ミクマ流剣術・陣風++=Mikuma-Style Swordsmanship: Gale Formation++
+前方範囲内の敵すべてに物理大ダメージを与える。前方範囲内の敵が２キャラ以上の場合、追加の物理小ダメージを与える。前方範囲内の敵が３キャラ以上の場合、さらに追加の物理小ダメージを与える。=Deals large P.DMG to all enemies in a frontal area. If there are 2 or more enemies in the area, deals additional small P.DMG. If there are 3 or more enemies in the area, deals further additional small P.DMG.
+
+
+
+Kyouka
+アイスランス++=Ice Lance++
+目の前の敵１キャラに魔法大ダメージを与え、凍結させる。目の前の敵がマルチターゲットの場合、前方の敵すべてに追加の魔法大ダメージを与え、自分のＴＰを大回復する。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals large M.DMG to an enemy in front and inflicts Freeze. If the enemy in front is a multi-target enemy, deals additional large M.DMG to all enemies in front and greatly recovers own TP. If this skill lands a critical hit, the damage becomes 4× instead of 2×.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする目の前の敵がマルチターゲットの場合、範囲内の敵に(\d+)の魔法ダメージ目の前の敵がマルチターゲットの場合、自分のＴＰを500回復$"=►Deals $1 M.DMG to a single enemy.\n►Inflicts incapacitation on a single enemy for a period of time.\n\nIf the enemy in front is multi-target:\n►Deals $2 M.DMG to enemies within range.\n►Recovers own TP by 500.
+
+
+
+Yukari
+最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、魔法防御力を中アップし、継続ＨＰ回復状態を付与する。さらに、【乾杯！】する。【乾杯！】は最大２回まで行う。=Greatly recovers the HP of the ally with the lowest HP percentage, moderately boosts their M.DEF, and grants a continuous HP recovery effect. Additionally, performs 【Cheers!】. 【Cheers!】 can be performed up to 2 times.
+r:"^味方単体のＨＰを(\d+)回復味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する乾杯！する$"=►Recovers HP of a single ally by $1.\n►Boosts a single ally's M.DEF by $2.\n►Grants a state that recovers $3 HP per second.\n►Cheers!
+
+アクアヴィット++=Aquavit++
+最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、魔法防御力を中アップし、継続ＨＰ回復状態を付与する。さらに、【乾杯！】する。【乾杯！】は最大５回まで行う。=Greatly recovers the HP of the ally with the lowest HP percentage, moderately boosts their M.DEF, and grants a continuous HP recovery effect. Additionally, performs 【Cheers!】. 【Cheers!】 can be performed up to 5 times.
+
+
+
+
+
+
+Ayane
+ぷうきちブレイク++=Puukichi Break++
+自分の物理攻撃力を大アップし、前方範囲内の敵すべてに物理中ダメージを与え、物理防御力を小ダウンさせ、スタンさせる。さらに、前方範囲内の敵すべてに追加の物理中ダメージを与え、行動速度を小ダウンさせる。目の前の敵が魔法防御力ダウン状態だった場合、このスキルは必ずクリティカルし、自分のＴＰを大回復する。=Greatly boosts own P.ATK, then deals medium P.DMG to all enemies in a frontal area, slightly lowers their P.DEF, and stuns them. Additionally, deals extra medium P.DMG to all enemies in the frontal area and slightly lowers their action speed. If the enemy in front is under an M.DEF down effect, this skill always lands a critical hit and greatly recovers own TP.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする目の前の敵に(\d+)の物理ダメージ敵単体の行動速度20％ダウン$"=►Deals $1 P.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Deals $2 P.DMG to the enemy in front.\n►Lowers a single enemy's action speed by 20％.
+r:"^自分の物理攻撃力を(\d+)アップ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵を一定時間行動不能にする範囲内の敵に(\d+)の物理ダメージ範囲内の敵の行動速度20％ダウン目の前の敵が魔法防御力ダウン状態の場合、自分のＴＰを500回復$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to enemies within range.\n►Lowers enemies' P.DEF within range by $3.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Deals $4 P.DMG to enemies within range.\n►Lowers enemies' action speed within range by 20％.\n\nIf the enemy in front has M.DEF Down:\n►Recovers own TP by 500.
+
+
+
+Yori
+オーバーチャージ++=Overcharge++
+自分の残りＨＰの90％を消費して、自分の魔法攻撃力を特大アップし、前方の自分以外の最も近くの味方１キャラと自分のＴＰを大回復させる。消費したＨＰ量に応じて、魔法攻撃力の上昇量とＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to massively boost own M.ATK, and greatly recovers the TP of the nearest ally in front (excluding self) and self. Based on the amount of HP consumed, the M.ATK boost and TP recovery increase, up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
+
+自分の残りＨＰの90％を消費して、自分の魔法攻撃力を特大アップ、ＴＰを大回復させる。消費したＨＰ量に応じて、魔法攻撃力の上昇量とＴＰの回復量が最大=Consumes 90% of own remaining HP to massively boost own M.ATK and greatly recover own TP. Based on the amount of HP consumed, the M.ATK boost and TP recovery increase, up to a maximum value.
+r:"^自分の残りＨＰを90％消費自分の魔法攻撃力を(\d+)アップ自分のＴＰを360回復$"=►Consumes 90％ of own remaining HP.\n►Boosts own M.ATK by $1.\n►Recovers own TP by 360.
+r:"^自分の残りＨＰを90％消費自分の魔法攻撃力を(\d+)アップ味方単体のＴＰを360回復自分のＴＰを360回復$"=►Consumes 90％ of own remaining HP.\n►Boosts own M.ATK by $1.\n►Recovers TP of a single ally by 360.\n►Recovers own TP by 360.
+
+
+
+Kurumi
+ブレイブリーベル++=Bravery Bell++
+味方全体の物理・魔法防御力を中アップさせ、ＴＰを小回復させる。目の前の敵が魔法防御力ダウン状態だった場合、味方全体の物理攻撃力を特大アップさせ、物理無効バリアと魔法無効バリアを展開し、さらにＴＰを小回復させる。=Moderately boosts all allies’ P.DEF and M.DEF, and slightly recovers their TP. If the enemy in front is under an M.DEF down effect, massively boosts all allies’ P.ATK, deploys P.DMG-nullifying and M.DMG-nullifying barriers, and additionally slightly recovers their TP.
+r:"^味方全体の物理・魔法防御力を(\d+)アップ味方全体のＴＰを50回復目の前の敵が魔法防御力ダウン状態の場合、以下の効果が発動する味方全体の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する(\d+)ダメージ分の魔法無効バリアを展開する味方全体のＴＰを75回復$"=►Boosts allies' P.DEF and M.DEF by $1.\n►Recovers TP for all allies by 50.\n\nIf the enemy in front has M.DEF Down:\n►Boosts allies' P.ATK by $2.\n►Deploys a physical null barrier absorbing $3 damage.\n►Deploys a magic null barrier absorbing $4 damage.\n►Recovers TP for all allies by 75.
+
+
+
+Mimi
+ぴょんぴょんアタック++=Hop-Hop Attack++
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与える。目の前の敵がマルチターゲットの場合、さらに、物理・魔法攻撃力を大ダウンさせ、自分のＴＰを特大回復する。=Deals large P.DMG to all enemies in an area centered on an enemy in front. If the enemy in front is a multi-target enemy, additionally greatly lowers their P.ATK and M.ATK, and massively recovers own TP.
+r:"^範囲内の敵に(\d+)の物理ダメージ目の前の敵がマルチターゲットの場合、以下の効果が発動する範囲内の敵の物理・魔法攻撃力を(\d+)ダウン自分のＴＰを1000回復$"=►Deals $1 P.DMG to enemies within range.\n\nIf the enemy in front is multi-target:\n►Lowers enemies' P.ATK and M.ATK within range by $2.\n►Recovers own TP by 1000.
+
+
+
+Suzuna
+おこぷんダーツ++=Angry Pudding Darts++
+目の前の敵１キャラに物理中ダメージを３回与える。このスキルは必ずクリティカルし、クリティカル時のダメージが３倍になる。初弾のこのスキルは、自分を敵にクリティカルでダメージを与えるたびにそのキャラの最大ＨＰに応じて最大50万の割合ダメージを与える状態にする。=Deals medium P.DMG to an enemy in front 3 times. This skill always lands critical hits, and critical damage is tripled. The first time this skill is used after battle start, grants a state where each time self deals critical damage to an enemy, deals proportional damage based on that enemy’s max HP, up to a maximum of 500,000.
+
+目の前の敵１キャラに物理中ダメージを１回、物理小ダメージを２回与える。このスキルの１ヒットのダメージは必ずクリティカルし、クリティカル時のダメージが３倍になる。=Deals medium P.DMG once and small P.DMG twice to an enemy in front. Each hit of this skill always lands a critical hit, and critical damage is tripled.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージクリティカルでダメージを与えるたびに敵単体に最大50万の物理割合ダメージを与える状態になる$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.\n►Grants a state where each time a critical hit is dealt, deal physical proportional damage (up to 500,000) to a single enemy.
+
+
+
+Kasumi
+ルートオブバインド++=Route of Bind++
+前方範囲内の敵すべてに魔法中ダメージを与え、束縛し、自分に【証拠】を１つ付与する。【証拠】は最大５つまで付与される。その後、【証拠】が５つの場合、前方範囲内の敵すべてに魔法中ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、物理・魔法攻撃力アップ効果を解除する。範囲内の敵の数に応じて、束縛時間、ダメージ、【証拠】の付与数が増加する。このスキルは必ずクリティカルする。=Deals medium M.DMG to all enemies in a frontal area, binds them, and grants self 1 stack of 【Evidence】. 【Evidence】 can stack up to 5 times. If 【Evidence】 is at 5 stacks afterward, deals medium M.DMG to all enemies in the frontal area, slightly increases the damage they take when receiving critical hits, and removes P.ATK and M.ATK up effects. Based on the number of enemies in range, the bind duration, damage dealt, and number of 【Evidence】 stacks granted increase. This skill always lands a critical hit.
+
+前方範囲内の敵全てに魔法小ダメージを与え、さらに束縛し、自分に【証拠】を１つ付与する。【証拠】は最大５つまで付与される。範囲内の敵の数に応じて、束縛時間が増加する。=Deals small M.DMG to all enemies in a frontal area, binds them, and grants self 1 stack of 【Evidence】. 【Evidence】 can stack up to 5 times. Based on the number of enemies in range, the bind duration increases.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする自分に証拠を１つ付与する$"=►Deals $1 M.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Grants 1 [Evidence] to self.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする自分に証拠を１つ付与する証拠が５つの場合、以下の効果が発動する範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の被クリダメを8％アップ範囲内の敵の攻撃力アップ効果を解除する$"=►Deals $1 M.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Grants 1 [Evidence] to self.\n\nIf [Evidence] is 5:\n►Deals $2 M.DMG to enemies within range.\n►Boosts enemies' CRIT DMG taken within range by 8％.\n►Removes ATK Up effects from enemies within range.
+
+
+
+
+Miyako
+う～ら～め～し～や～なの++=Ura~me~shi~ya~nano++
+【変身】幽霊に変身し、しばらくの間無敵状態になる。また、自分の回避を特大アップさせ、さらに物理防御力を大アップさせる。目の前の敵１キャラが呪い状態でない場合、呪い状態にし、呪い状態であり呪詛状態でない場合、呪詛状態にする。=[Transform] Transforms into a ghost and becomes invincible for a short time. Additionally, massively boosts own evasion and greatly boosts own P.DEF. If the enemy in front is not under Curse, inflicts Curse. If the enemy is under Curse but not under Hex, inflicts Hex.
+【変身】幽霊に変身し、しばらくの間無敵状態になる。また、自分の回避を特大アップさせ、さらに物理防御力を大アップさせる。=[Transform] Transforms into a ghost and becomes invincible for a short time. Additionally, massively boosts own evasion and greatly boosts own P.DEF.
+
+r:"^一定時間無敵状態になる自分の回避を(\d+)アップ自分の物理防御力を(\d+)アップ敵が呪い状態でない場合、(\d+)ダメージを与える呪い状態にする敵が呪い状態であり呪詛状態でない場合、毎秒ダメージが初期値(\d+)の150％ずつアップするダメージを与える呪詛状態にする$"=►Becomes invincible for a period of time.\n►Boosts own evasion by $1.\n►Boosts own P.DEF by $2.\n\nIf the enemy is not afflicted with Curse:\n►Inflicts Curse, dealing $3 damage.\n\nIf the enemy is afflicted with Curse but not Hex:\n►Inflicts Hex, dealing damage that increases each second by 150％ of the initial $4 damage.
+
+
+
+Akari
+シャドウボルト++=Shadow Bolt++
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、さらに魔法防御力を小ダウンさせ、呪い状態にする。このスキルの初回発動後、自分以外の最も近くの味方１キャラの残りＨＰ割合が低いほどユニオンバーストの効果量が最大３倍までアップするようになる。=Deals large M.DMG to all enemies in an area centered on an enemy in front, slightly lowers their M.DEF, and inflicts Curse. After this skill is used for the first time, the lower the remaining HP percentage of the nearest ally (excluding self), the more that ally’s Union Burst effect increases, up to a maximum of 3×.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン(\d+)ダメージを与える呪い状態にする$"=►Deals $1 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $2.\n►Inflicts Curse, dealing $3 damage.
+
+
+
+Misogi
+インクシューター++=Ink Shooter++
+自分から２番目に近い敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、暗闇状態にし、物理攻撃力を大ダウン、ＴＰを小ダウンさせる。目の前の敵がマルチターゲットの場合、範囲内の敵すべてに追加の物理中ダメージを与え、物理防御力を小ダウンさせる。=Deals medium P.DMG to all enemies in an area centered on the second-closest enemy, inflicts Blind, greatly lowers their P.ATK, and slightly lowers their TP. If the enemy in front is a multi-target enemy, deals additional medium P.DMG to all enemies in range and slightly lowers their P.DEF.
+
+自分から２番目に近い敵１キャラに物理中ダメージを与え、暗闇状態にする。さらにそのキャラを中心とした範囲内の敵すべての物理攻撃力を大ダウンさせる。=Deals medium P.DMG to the second-closest enemy and inflicts Blind. Additionally, greatly lowers the P.ATK of all enemies in an area centered on that target.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を暗闇状態にする範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵のＴＰを75失わせる目の前の敵がマルチターゲットの場合、以下の効果が発動する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to enemies within range.\n►Inflicts Blind on enemies within range.\n►Lowers enemies' P.ATK within range by $2.\n►Reduces TP of enemies within range by 75.\n\nIf the enemy in front is multi-target:\n►Deals $3 P.DMG to enemies within range.\n►Lowers enemies' P.DEF within range by $4.
+
+Monika
+白翼提督の新春晴れ着=White-Winged Admiral’s New Year Attire
+目の前の敵１キャラに物理大ダメージを与える。さらにそのキャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理防御力を小ダウンさせる。=Deals large P.DMG to an enemy in front. Additionally, deals medium P.DMG to all enemies in an area centered on that target and slightly lowers their P.DEF.
+
+
+
+S.Nea
+カリザきゅんランド=Kariza-kyun Land
+
+
+
+nea
+スライミィダーリン♡=Slimy Darling♡
+【Taunt】Deals large P.DMG to all enemies, becomes invincible for a short time, and taunts all enemies.
+
+【Summon・Taunt】Deals large P.DMG to all enemies and slightly lowers their P.DEF, becomes invincible for a short time, and taunts all enemies. If Aka and/or Ao are present among allies, deals additional small P.DMG to all enemies for each one present; otherwise, summons them. Aka’s skill deals medium P.DMG to all enemies in an area centered on an enemy in front, stuns them, moderately lowers their P.ATK, and slightly lowers their P.DEF. Ao’s skill slightly recovers all allies’ HP and TP, massively boosts their P.ATK, greatly boosts their P.CRIT RATE, and slightly boosts their P.CRIT DMG.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵のＴＰを200失わせる範囲内の敵の行動速度40％ダウン$"=►Deals $1 P.DMG to enemies within range.\n►Reduces TP of enemies within range by 200.\n►Lowers enemies' action speed within range by 40％.
+r:"^敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン一定時間無敵状態になる敵全体を挑発するアカがいない場合、アカを召喚するアカがいる場合、敵全体に(\d+)の物理ダメージアオがいない場合、アオを召喚するアオがいる場合、敵全体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies.\n►Lowers all enemies' P.DEF by $2.\n►Becomes invincible for a period of time.\n►Taunts all enemies.\n\nIf [Aka] is not present:\n►Summons [Aka].\nIf [Aka] is present:\n►Deals $3 P.DMG to all enemies.\n\nIf [Ao] is not present:\n►Summons [Ao].\nIf [Ao] is present:\n►Deals $4 P.DMG to all enemies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
