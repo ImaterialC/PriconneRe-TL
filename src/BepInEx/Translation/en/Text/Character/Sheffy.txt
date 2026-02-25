@@ -27,6 +27,8 @@
 自分の周囲に、物理攻撃力を小アップさせるフィールドを展開する。物理攻撃力の上昇量は、【氷竜の印】の数に応じて増加する。【氷竜の印】を１つ消費する。=Deploys a field around oneself that slightly boosts P.ATK. The P.ATK boost increases according to the number of [Ice Dragon Mark] stacks. Consumes 1 [Ice Dragon Mark].
 r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する$"=►Deploys a field of radius 400 that boosts allies' P.ATK by $1 for 12s.
 
+r:"^氷竜の印を１つ消費する物理攻撃力を(\d+)アップさせるフィールドを展開する$"=Cast Time: 0465s\n►Consumes 1 [Ice Dragon Mark].\n►Deploys a field that boosts P.ATK by $1.
+
 ##SP1##
 氷竜の印=Ice Dragon Mark
 【氷竜の印】を４つ得る。=Gains 4 [Ice Dragon Mark] stacks.
@@ -38,14 +40,29 @@ r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する$"=�
 ##UB+##
 フロストファング=Frost Fang
 目の前の敵１キャラに物理特大ダメージを与え、さらに自分に【氷竜の印】を７つ追加する。このバトル中にユニオンバーストを使用する度に、追加する印の数が１つ増える。【氷竜の印】は最大20まで追加される。【凍る湖】のフィールド展開中、自分に継続ＴＰ回復状態を付与する。このスキルのＴＰの回復量は【氷竜の印】の数に応じて増加する。=Deals massive P.DMG to an enemy in front and gains 7 [Ice Dragon Mark] stacks. After every UB gains 1 [Ice Dragon Mark], up to a maximum of 20. Grants continuous TP recovery to self while deploying [Frozen Lake] (field). TP recovery amount increases with [Ice Dragon Mark].
-r:"^敵単体に(\d+)の物理ダメージフィールド展開中、毎秒ＴＰを10回復する$"=►Deals $1 P.DMG to an enemy.\n►Deploys a field that recovers own TP by 10/s for 10.5s.
-r:"^敵単体に(\d+)の物理ダメージ毎秒ＴＰを10回復する$"=►Deals $1 P.DMG to an enemy.\n►Deploys a field that recovers own TP by 10/s for 10.5s.
+###OLD r:"^敵単体に(\d+)の物理ダメージフィールド展開中、毎秒ＴＰを10回復する$"=►Deals $1 P.DMG to an enemy.\n►Deploys a field that recovers own TP by 10/s for 10.5s.
+###OLD r:"^敵単体に(\d+)の物理ダメージ毎秒ＴＰを10回復する$"=►Deals $1 P.DMG to an enemy.\n►Deploys a field that recovers own TP by 10/s for 10.5s.
+
+
+目の前の敵１キャラに物理特大ダメージを与え、自分に【氷竜の印】を7つ追加する。【氷竜の印】の数が10以上の場合、さらに目の前の敵１キャラに追加の物理特大ダメージを与える。このバトル中にユニオンバーストを使用する度に、追加する印の数が1つ増える。【氷竜の印】は最大20まで追加される。さらに、自分のＴＰを固定量で小回復する。【凍る湖】のフィールド展開中、このスキルのＴＰの回復量はスキル発動時の【氷竜の印】の数に応じて増加する。=Deals massive P.DMG to an enemy in front and grants self 7 stacks of [Ice Dragon Mark]. If the number of 【Ice Dragon Sigils】 is 10 or more, additionally deals extra massive P.DMG to the enemy in front. Each time a Union Burst is used during this battle, the number of sigils granted increases by 1. [Ice Dragon Mark] can stack up to 20 times. Additionally, slightly recovers own TP by a fixed amount. While the 【Frozen Lake】 field is deployed, the amount of TP recovered by this skill increases based on the number of 【Ice Dragon Sigils】 at activation.
+r:"^敵単体に(\d+)の物理ダメージ自分に氷竜の印を７つ追加する自分の氷竜の印が10以上の時、敵単体に(\d+)の物理ダメージ自分のＴＰを固定量で100回復$"=►Deals $1 P.DMG to a single enemy.\n►Adds 7 [Ice Dragon Mark] to self.\n\nIf own [Ice Dragon Mark] is 10 or more:\n►Deals $2 P.DMG to a single enemy.\n►Recovers own TP by 100.
+
 
 ##S1+##
 雪沓+=Snow Shoe+
 目の前の敵１キャラに物理小ダメージを与え、物理防御力を中ダウンさせ、さらに自分の物理攻撃力を小アップさせる。このスキルのダメージと物理攻撃力の上昇量は、【氷竜の印】の数に応じて増加する。【氷竜の印】を１つ消費する。=Deals large P.DMG to an enemy in front, lowers its P.DEF, and boosts own P.ATK both for 12s. This skill's damage and P.ATK buff potency increase according to the number of [Ice Dragon Mark] stacks. Consumes 1 [Ice Dragon Mark].
-r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.\n►Boosts own P.ATK by $3.
+###OLD r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.\n►Boosts own P.ATK by $3.
 ## Same with SEriko
+
+r:"^氷竜の印を１つ消費する敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=Cast Time: 0465s\n►Consumes 1 [Ice Dragon Mark].\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Boosts own P.ATK by $3.
 
 ##UE##
 氷竜剣=Ice Dragon Sword
+
+
+
+##S1++##
+雪沓++=Snow Shoe++
+目の前の敵1キャラに物理小ダメージを与え、魔法攻撃力を大ダウン、物理防御力を中ダウンさせる。さらに、自分の物理攻撃力を小アップし、ＴＰを小回復する。このスキルのダメージと物理攻撃力の上昇量は、【氷竜の印】の数に応じて増加する。【氷竜の印】を１つ消費する。スキル発動時、【氷竜の印】の数が10以上の場合、さらに【氷竜の印】を１つ消費して目の前の敵１キャラに追加の物理特大ダメージを与える。=Deals small P.DMG to an enemy in front, greatly lowers their M.ATK, and moderately lowers their P.DEF. Additionally, slightly boosts own P.ATK and slightly recovers own TP. The damage of this skill and the amount of P.ATK boosted increase based on the number of 【Ice Dragon Sigils】. Consumes 1 [Ice Dragon Mark]. At skill activation, if the number of 【Ice Dragon Sigils】 is 10 or more, additionally consumes 1 [Ice Dragon Mark] to deal extra massive P.DMG to an enemy in front.
+
+r:"^氷竜の印を１つ消費する敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ自分のＴＰを100回復氷竜の印が10以上の場合、以下の効果が発動敵単体に(\d+)の物理ダメージ氷竜の印を１つ消費する$"=Cast Time: 0465s\n►Consumes 1 [Ice Dragon Mark].\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's M.ATK by $2.\n►Lowers a single enemy's P.DEF by $3.\n►Boosts own P.ATK by $4.\n►Recovers own TP by 100.\n\nIf [Ice Dragon Mark] is 10 or more:\n►Deals $5 P.DMG to a single enemy.\n►Consumes 1 [Ice Dragon Mark].

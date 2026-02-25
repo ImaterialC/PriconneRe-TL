@@ -1,9 +1,3 @@
-Sheffy
-雪沓++=Snow Boots++
-目の前の敵1キャラに物理小ダメージを与え、魔法攻撃力を大ダウン、物理防御力を中ダウンさせる。さらに、自分の物理攻撃力を小アップし、ＴＰを小回復する。このスキルのダメージと物理攻撃力の上昇量は、【氷竜の印】の数に応じて増加する。【氷竜の印】を１つ消費する。スキル発動時、【氷竜の印】の数が10以上の場合、さらに【氷竜の印】を１つ消費して目の前の敵１キャラに追加の物理特大ダメージを与える。=Deals small P.DMG to an enemy in front, greatly lowers their M.ATK, and moderately lowers their P.DEF. Additionally, slightly boosts own P.ATK and slightly recovers own TP. The damage of this skill and the amount of P.ATK boosted increase based on the number of 【Ice Dragon Sigils】. Consumes 1 【Ice Dragon Sigil】. At skill activation, if the number of 【Ice Dragon Sigils】 is 10 or more, additionally consumes 1 【Ice Dragon Sigil】 to deal extra massive P.DMG to an enemy in front.
-r:"^氷竜の印を１つ消費する敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=►Consumes 1 [Ice Dragon Mark].\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Boosts own P.ATK by $3.
-r:"^氷竜の印を１つ消費する敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ自分のＴＰを100回復氷竜の印が10以上の場合、以下の効果が発動敵単体に(\d+)の物理ダメージ氷竜の印を１つ消費する$"=►Consumes 1 [Ice Dragon Mark].\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's M.ATK by $2.\n►Lowers a single enemy's P.DEF by $3.\n►Boosts own P.ATK by $4.\n►Recovers own TP by 100.\n\nIf [Ice Dragon Mark] is 10 or more:\n►Deals $5 P.DMG to a single enemy.\n►Consumes 1 [Ice Dragon Mark].
-
 Arisa
 絡みつく蔦++=Entangling Vines++
 最も魔法攻撃力が高い敵１キャラに物理大ダメージを与え、さらに魔法攻撃力と行動速度を大ダウンさせる。バトル開始後、初弾のこのスキルは自分をステータスアップ効果を受ける度に、【妖精の導き】が１つ追加される状態にする。【妖精の導き】は最大10まで追加される。=Deals large P.DMG to the enemy with the highest M.ATK, and greatly lowers their M.ATK and action speed. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【Fairy’s Guidance】 each time she receives a status up effect. 【Fairy’s Guidance】 can stack up to 10 times.
