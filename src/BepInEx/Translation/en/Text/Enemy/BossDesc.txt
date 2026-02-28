@@ -2377,3 +2377,8 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 前から敵３体に物理／魔法クリダメダウン（召喚体無視）=Reduces P.CRIT DMG and M.CRIT DMG of the three foremost enemies (ignores summons).
 上記対象に物理／魔法攻撃力ダウン=Reduces P.ATK and M.ATK of the affected targets.
 旗持ち子分を３体召喚=Summons 3 flag-bearing henchmen.
+
+自身にＴＰダウン=Reduces own TP.
+自身に無敵=Grants Invincibility to self.
+物理か魔法攻撃力が最も高い敵１体に物理割合ダメージ=Deals percentage P.DMG to the enemy with the highest P.ATK or M.ATK.
+控えめな次女の覚悟を問う、盗賊ギルドの長女。ケツ気盛んに猛攻を繰り出し、四の五の言わさぬ豪ケツぶりで妹のケツ意を見極める。=The eldest sister of the Thieves Guild who tests the resolve of her modest younger sister. Launching relentless rear-guard assaults with unstoppable boldness, she gauges her sister's determination with overwhelming force.

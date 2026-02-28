@@ -29,6 +29,7 @@
 ##S2##
 マジックブースト=Magic Surge
 自分の魔法攻撃力を短時間大アップさせる。=Large boost to own M.ATK for brief period (9s).
+自分の魔法攻撃力と魔法クリティカルを短時間特大アップさせる。=Massively boosts own M.ATK and M.CRIT RATE for a short duration.
 
 ##EX##
 小さな勇気=Pinch of Bravery
@@ -38,9 +39,24 @@
 コスモブループラネット=Cosmo Blue Planet
 目の前の敵１キャラに魔法大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals large M.DMG to an enemy directly in front. When critical occurs deals x4 damage instead x2.
 
+目の前の敵がマルチターゲットでない場合、目の前の敵１キャラに魔法特大ダメージを２回与える。目の前の敵がマルチターゲットの場合、敵全体に魔法特大ダメージを２回与える。敵全体へのダメージは対象になった敵の数に応じて減少する。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=If the enemy in front is not a multi-target enemy, deals massive M.DMG twice to an enemy in front. If the enemy in front is a multi-target enemy, deals massive M.DMG twice to all enemies. Damage dealt to all enemies decreases based on the number of targets hit. If this skill lands a critical hit, the damage becomes 4× instead of 2×.
+
+r:"^目の前の敵がマルチターゲットでない場合、敵単体に(\d+)の魔法ダメージ目の前の敵がマルチターゲットでない場合、敵単体に(\d+)の魔法ダメージ目の前の敵がマルチターゲットの場合、敵全体に(\d+)の魔法ダメージ目の前の敵がマルチターゲットの場合、敵全体に(\d+)の魔法ダメージ$"=►If the enemy in front is not multi-target:\n►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n\nIf the enemy in front is multi-target:\n►Deals $3 M.DMG to all enemies.\n►Deals $4 M.DMG to all enemies.
+
+
 ##S1+##
 アイスランス+=Ice Lance+
 目の前の敵１キャラに魔法特大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals massive M.DMG to an enemy directly in front. When critical occurs deals x4 damage instead x2.
 
 ##UE##
 コスモブルーロッド=Cosmo Blue Rod
+
+
+
+
+##S1++##
+Kyouka
+アイスランス++=Ice Lance++
+目の前の敵１キャラに魔法大ダメージを与え、凍結させる。目の前の敵がマルチターゲットの場合、前方の敵すべてに追加の魔法大ダメージを与え、自分のＴＰを大回復する。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals large M.DMG to an enemy in front and inflicts Freeze. If the enemy in front is a multi-target enemy, deals additional large M.DMG to all enemies in front and greatly recovers own TP. If this skill lands a critical hit, the damage becomes 4× instead of 2×.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする目の前の敵がマルチターゲットの場合、範囲内の敵に(\d+)の魔法ダメージ目の前の敵がマルチターゲットの場合、自分のＴＰを500回復$"=Cast time: 1.83s\n►Deals $1 M.DMG to a single enemy.\n►Inflicts incapacitation on a single enemy for a period of time.\n\nIf the enemy in front is multi-target:\n►Deals $2 M.DMG to enemies within range.\n►Recovers own TP by 500.
+

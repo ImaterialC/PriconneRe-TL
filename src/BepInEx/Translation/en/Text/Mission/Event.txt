@@ -50,6 +50,13 @@ r:"^第(\d)話を閲覧で解放$"=Unlock by viewing Episode $1
 
 イベントクエストを1回クリアしよう=Clear 1 time Event Quest
 
+r:"^イベントクエストを合計(\d+)回クリアしよう$"=Complete the event quest a total of $1 times
+復刻は除く=Excluding Resurect Event
+ストーリーイベントの最終話を閲覧しよう=View the final episode of the story event
+
+ストーリーイベントのボスバトル(SCENARIO)をクリアしよう=Clear the boss battle (SCENARIO) of the story event
+ストーリーイベントのボスバトル(SPECIAL)をクリアしよう=Clear the boss battle (SPECIAL) of the story event
+
 ボスバトル（SPECIAL）をクリアしよう=Clear boss battle (SPECIAL)
 前編ボスバトル（SPECIAL）をクリアしよう=Clear Part 1 boss battle (SPECIAL)
 前編ボスバトル（SPECIAL）を挑戦回数5回以内でクリアしよう=Clear Part 1 boss battle (SPECIAL) within 5 challenges

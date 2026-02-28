@@ -1,11 +1,3 @@
-Arisa
-絡みつく蔦++=Entangling Vines++
-最も魔法攻撃力が高い敵１キャラに物理大ダメージを与え、さらに魔法攻撃力と行動速度を大ダウンさせる。バトル開始後、初弾のこのスキルは自分をステータスアップ効果を受ける度に、【妖精の導き】が１つ追加される状態にする。【妖精の導き】は最大10まで追加される。=Deals large P.DMG to the enemy with the highest M.ATK, and greatly lowers their M.ATK and action speed. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【Fairy’s Guidance】 each time she receives a status up effect. 【Fairy’s Guidance】 can stack up to 10 times.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度20％ダウン敵単体の魔法攻撃力を(\d+)ダウンステータスアップ効果を受けるたびに自分に妖精の導きを付与する状態になる$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's action speed by 20％.\n►Lowers a single enemy's M.ATK by $2.\n►Grants a state where each time self receives a stat-up effect, gain 1 [Fairy Guidance].
-
-最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力と行動速度を小ダウンさせる。バトル開始後、初弾のこのスキルは自分をステータスアップ効果を受ける度に、【妖精の導き】が１つ追加される状態にする。【妖精の導き】は最大５つまで追加される。=Deals medium P.DMG to the enemy with the highest M.ATK, and slightly lowers their M.ATK and action speed. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【Fairy’s Guidance】 each time she receives a status up effect. 【Fairy’s Guidance】 can stack up to 5 times.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度50％ダウン敵単体の魔法攻撃力を(\d+)ダウンステータスアップ効果を受けるたびに自分に妖精の導きを付与する状態になる$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's action speed by 50％.\n►Lowers a single enemy's M.ATK by $2.\n►Grants a state where each time self receives a stat-up effect, gain 1 [Fairy Guidance].
-
 Muimi
 天楼廻刃斬++=Heavenly Spire Revolving Blade++
 目の前の敵１キャラに物理特大ダメージを与える。発動時の自分の残りＴＰに応じてこのスキルのダメージがアップする。敵の数が１キャラの場合、自分のＴＰを大回復する。=Deals massive P.DMG to an enemy in front. The damage of this skill increases based on own remaining TP at activation. If there is only one enemy, greatly recovers own TP.
@@ -70,14 +62,6 @@ r:"^範囲内の敵に(\d+)の物理ダメージ前方範囲内の敵の数が�
 
 ミクマ流剣術・陣風++=Mikuma-Style Swordsmanship: Gale Formation++
 前方範囲内の敵すべてに物理大ダメージを与える。前方範囲内の敵が２キャラ以上の場合、追加の物理小ダメージを与える。前方範囲内の敵が３キャラ以上の場合、さらに追加の物理小ダメージを与える。=Deals large P.DMG to all enemies in a frontal area. If there are 2 or more enemies in the area, deals additional small P.DMG. If there are 3 or more enemies in the area, deals further additional small P.DMG.
-
-
-
-Kyouka
-アイスランス++=Ice Lance++
-目の前の敵１キャラに魔法大ダメージを与え、凍結させる。目の前の敵がマルチターゲットの場合、前方の敵すべてに追加の魔法大ダメージを与え、自分のＴＰを大回復する。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals large M.DMG to an enemy in front and inflicts Freeze. If the enemy in front is a multi-target enemy, deals additional large M.DMG to all enemies in front and greatly recovers own TP. If this skill lands a critical hit, the damage becomes 4× instead of 2×.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする目の前の敵がマルチターゲットの場合、範囲内の敵に(\d+)の魔法ダメージ目の前の敵がマルチターゲットの場合、自分のＴＰを500回復$"=►Deals $1 M.DMG to a single enemy.\n►Inflicts incapacitation on a single enemy for a period of time.\n\nIf the enemy in front is multi-target:\n►Deals $2 M.DMG to enemies within range.\n►Recovers own TP by 500.
-
 
 
 Yukari

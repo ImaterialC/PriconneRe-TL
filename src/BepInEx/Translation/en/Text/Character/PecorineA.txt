@@ -1,0 +1,35 @@
+##Profile##
+【物理】前衛で女神の血脈と矜持を揮う全力全開の王女。物理攻撃力の高い味方を【裁定の盾】で庇い、自身は圧倒的な防御とＨＰ回復で前線に立ち幸せな食卓を守り抜く。=[Physical] A princess fighting at full power on the front lines, wielding the pride and divine bloodline of a goddess. She protects allies with high P.ATK using [Judgment Shield], while standing firm with overwhelming defense and HP recovery to safeguard a joyful dining table.
+
+##Chapters##
+お腹いっぱいの、愛=Love That Fills the Stomach
+通じ合えば、愛=When Hearts Connect, It Is Love
+むすぶのは、愛=What Binds Us Is Love
+いただくのは、愛=What We Receive Is Love
+
+##UB##
+アストライアヴァリアント=Astraea Variant
+味方全体の物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、目の前の敵１キャラに物理防御力を一定値無視する物理特大ダメージを与え、物理防御力を小ダウンさせる。バトル開始後、初弾のこのスキルはさらに、自分のダメージブーストを中アップさせる。４回目のこのスキルはさらに、自分を【お腹いっぱい☆】状態にする。発動時既に自分が【お腹いっぱい☆】状態の場合、このスキルのダメージは必ずクリティカルする。=Massively boosts all allies' P.ATK and P.CRIT RATE, and slightly boosts their P.CRIT DMG. Deals massive P.DMG to an enemy in front that ignores a fixed amount of P.DEF, and slightly lowers their P.DEF. The first time this skill is used after battle start, additionally moderately boosts own Damage Boost. The fourth time this skill is used, additionally grants self [Full Belly☆]. If self is already under [Full Belly☆] at activation, this skill always lands a critical hit.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを180アップ味方全体の物理クリダメを6％アップ敵単体に物理防御力を50無視する(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン初使用時、自分にダメージブースト30％を付与（上限1500000）４回目の使用時、自分をお腹いっぱい☆状態にする$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' P.CRIT RATE by 180.\n►Boosts allies' P.CRIT DMG by 6％.\n►Deals $2 P.DMG to a single enemy, ignoring 50 P.DEF.\n►Lowers a single enemy's P.DEF by $3.\n►Upon first use, grants self 30％ Damage Boost (cap: 1,500,000).\n►Upon 4th use, enter [Full Belly☆] state.
+
+
+##S1##
+デュアライズスラッシュ=Dualize Slash
+目の前の敵１キャラに物理大ダメージを２回与え、物理防御力を小ダウン、物理・魔法攻撃力を大ダウンさせる。自分が【お腹いっぱい☆】状態の場合、このスキルのダメージは物理防御力を一定値無視し、必ずクリティカルする。さらに、自分のＨＰを中回復する。=Deals large P.DMG twice to an enemy in front, slightly lowers their P.DEF, and greatly lowers their P.ATK and M.ATK. If self is under [Full Belly☆], this skill ignores a fixed amount of P.DEF and always lands a critical hit. Additionally, moderately recovers own HP.
+r:"^お腹いっぱい☆状態でない場合、敵単体に(\d+)の物理ダメージお腹いっぱい☆状態でない場合、敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体の物理・魔法攻撃力を(\d+)ダウンお腹いっぱい☆状態の場合、以下の効果が発動する敵単体に物理防御力を50無視する(\d+)の物理ダメージ敵単体に物理防御力を50無視する(\d+)の物理ダメージ自分のＨＰを(\d+)回復$"=►If not in [Full Belly☆] state:\n►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $3.\n►Lowers a single enemy's P.ATK and M.ATK by $4.\n\nIf in [Full Belly☆] state:\n►Deals $5 P.DMG to a single enemy, ignoring 50 P.DEF.\n►Deals $6 P.DMG to a single enemy, ignoring 50 P.DEF.\n►Recovers own HP by $7.
+
+
+##S2##
+天秤の守護=Scales' Protection
+味方全体の受ける物理ダメージと魔法ダメージを減少させ、自分以外の味方全体のＨＰを中回復し、自分以外の最も物理攻撃力が高い味方１キャラに【裁定の盾】を付与する。【裁定の盾】が付与されている間、そのキャラへの敵の攻撃を代わりに受ける。さらに、自分に物理無効バリアと魔法無効バリアを展開して調和状態を付与し、ＴＰを中回復する。自分が【お腹いっぱい☆】状態の場合、味方全体の受けるダメージの減少量が２倍にアップする。=Reduces P.DMG and M.DMG taken by all allies, moderately recovers the HP of all allies except self, and grants [Judgment Shield] to the ally (excluding self) with the highest P.ATK. While [Judgment Shield] is active, redirects attacks targeting that ally to self instead. Additionally, deploys P.DMG-nullifying and M.DMG-nullifying barriers on self, grants Harmony, and moderately recovers own TP. If self is under [Full Belly☆], the damage reduction effect for all allies is doubled.
+r:"^味方全体の受ける物理ダメージを2500減少味方全体の受ける魔法ダメージを2500減少自分以外の味方全体のＨＰを(\d+)回復味方単体に【裁定の盾】を付与(\d+)ダメージ分の物理無効バリアを展開する(\d+)ダメージ分の魔法無効バリアを展開する自分に調和状態を付与する自分のＴＰを180回復$"=►Reduces physical damage taken by all allies by 2500.\n►Reduces magic damage taken by all allies by 2500.\n►Recovers HP for all allies (excluding self) by $1.\n►Grants [Shield of Judgment] to a single ally.\n►Deploys a physical null barrier absorbing $2 damage.\n►Deploys a magic null barrier absorbing $3 damage.\n►Grants [Harmony] to self.\n►Recovers own TP by 180.
+
+
+##EX##
+アストライアフォース=Astraea Force
+アストライアフォース+=Astraea Force+
+
+##SP##
+おにぎりの絆=Onigiri Bond
+敵から攻撃を受けた時に発動し、その敵に物理中ダメージを与え、自分の残りＨＰが50％未満だった場合自分のＨＰを小回復する。自分が【お腹いっぱい☆】状態の場合、このスキルのダメージは必ずクリティカルする。=Activates when attacked by an enemy, dealing medium P.DMG to that enemy. If own remaining HP is below 50%, slightly recovers own HP. If self is under [Full Belly☆], this skill always lands a critical hit.
+r:"^自分を攻撃した敵に(\d+)の物理ダメージ自分の残りＨＰが最大ＨＰの50％未満の場合、自分のＨＰを10％回復$"=►Deals $1 P.DMG to the enemy that attacked self.\n\nIf own remaining HP is below 50％ of max HP:\n►Recovers 10％ of own HP.

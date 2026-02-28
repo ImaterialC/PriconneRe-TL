@@ -1,0 +1,31 @@
+
+シーズンパス=Season Pass
+Lv購入=Purchase Lv
+r:"^シーズンパス([A-Z]*)$"=Season Pass $1
+
+シーズンパスミッションへ=To the Season Pass Mission
+シーズンパスミッション=Season Pass Mission
+ミッション報酬受取=Receive mission rewards
+次のLvまで=Until the next Lv
+完了=Done
+r:"^(\d+)Lv購入$"=Purchase $1Lv
+レベルを有償ジュエルで引くことができます。=You can draw levels using paid jewels.
+有償ジュエルを使用してシーズンパスのパスLvを購入しますか？=Purchase a season pass pass Lv using a paid jewel?
+シーズンパス　パスLv購入=Season Pass: Pass Level Purchase
+購入Lv数指定=Specify the purchase level
+獲得できる報酬=Rewards earned
+プレミアム枠の報酬と\n20Lvが\n獲得できます=You can get premium rewards and advance 20 Level.
+プレミアム枠の報酬が\n獲得できます=You can get premium rewards.
+有償ジュエルを使用してプレミアムパスを購入しますか？=Would you like to purchase the Premium Pass using paid jewels?
+プレミアムパス購入=Premium Pass Purchase
+
+
+残り期限=Deadline
+シーズン=Season
+シーズンパス画面へ=To Season Pass
+シーズンパス画面=Season Pass
+r:"^究極錬成を(\d+)回行おう$"=Perform Ultimate Synthesis $1 times
+r:"^コネクトRANKを合計(\d+)上げよう$"=Increase your Connect RANK by a total of $1
+r:"^キャラのレベルを合計で(\d+)上げよう$"=Raise your character's level by a total of $1
+r:"^黎明界ラビリンスをスキップせずに(\d+)回クリアしよう$"=Complete the Dawn Labyrinth $1 times without skipping
+ミッションが開催されていません。=The mission is not running.
