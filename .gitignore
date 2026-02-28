@@ -35,5 +35,6 @@ src/BepInEx/Translation/en/Texture/Untranslated
 src/BepInEx/Translation/en/plugins/ArmoryExporter.dll
 src/BepInEx/Translation/en/plugins/PriconneQOL.dll
 src/BepInEx/Translation/en/Texture/[Dump]
+src/BepInEx/Translation/en/RedirectedResources
 src/BepInEx/config/PriconneQoL.cfg
 **/desktop.ini
