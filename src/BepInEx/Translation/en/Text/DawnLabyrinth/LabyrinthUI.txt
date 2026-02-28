@@ -307,7 +307,7 @@ r:"^(\d+)で更新$"=$1 to Reroll
 全ギルド=All Guilds
 対象のギルドがありません。=There is no guild for the target.
 パスポート=Passport
-スキップ可能ギルド一覧=List of Skipable Guilds
+スキップ可能ギルド一覧=List of Skippable Guilds
 1ギルドあたりの\n使用パスポート数=Passports per Guild
 
 
