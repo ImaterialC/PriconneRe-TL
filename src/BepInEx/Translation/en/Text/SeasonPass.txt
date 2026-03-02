@@ -20,6 +20,20 @@ r:"^(\d+)Lv購入$"=Purchase $1Lv
 プレミアムパス購入=Premium Pass Purchase
 
 
+繰り返し報酬について=About Repeat Rewards
+期間中一定ポイントを獲得する度に報酬が獲得できます=You can obtain rewards each time you earn a certain number of points during the event period.
+
+プレミアムパス購入確認=Premium Pass Purchase Confirmation
+このプレミアムパスは有償ジュエルで購入できます。=Can only be purchased with paid Jewels.
+
+r:"^\[FFBB00,CE4F00\](\d+)ジュエル\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\]シーズンパス\[-\]\[3C404E\]のプレミアムパスを\n購入しますか？\n今シーズンのプレミアムパス販売期間：\n([0-9/ :]+)まで\[-\]$"=[3C404E]Spend [FFBB00,CE4F00]$1 Jewels[-] to unlock the\n[FFBB00,CE4F00]Season Pass[-] Premium Pass?\nPremium Pass sales period for this season:\nAvailable until $2[-]
+
+ポイント付きプレミアムパス購入確認=Premium Pass with Points Purchase Confirmation
+r:"^\[FFBB00,CE4F00\](\d+)ジュエル\[-\]\[3C404E\]で\[-\]\[FFBB00,CE4F00\]シーズンパス\[-\]\[3C404E\]の\n(\d+)レベル付きプレミアムパスを購入しますか？\n今シーズンのプレミアムパス販売期間：\n([0-9/ :]+)まで\[-\]$"=[3C404E]Spend [FFBB00,CE4F00]$1 Jewels[-] to unlock the\n[FFBB00,CE4F00]Season Pass[-] Premium Pass +$2 Levels?\nPremium Pass sales period for this season:\nAvailable until $3[-]
+
+以下のミッション報酬を受け取りました。=Received the following mission rewards.
+シーズンパスpt\r\n=Season pass\r\n
+
 残り期限=Deadline
 シーズン=Season
 シーズンパス画面へ=To Season Pass
@@ -29,3 +43,18 @@ r:"^コネクトRANKを合計(\d+)上げよう$"=Increase your Connect RANK by a
 r:"^キャラのレベルを合計で(\d+)上げよう$"=Raise your character's level by a total of $1
 r:"^黎明界ラビリンスをスキップせずに(\d+)回クリアしよう$"=Complete the Dawn Labyrinth $1 times without skipping
 ミッションが開催されていません。=The mission is not running.
+
+ゲームに1回ログインしよう=Log in to the game once
+r:"^ゲームに合計(\d+)回ログインしよう$"=Log in to the game a total of $1 times
+
+
+r:"^スタミナを(\d+)消費しよう$"=Spend $1 Stamina
+r:"^スタミナを合計(\d+)消費しよう$"=Spend a total of $1 Stamina
+r:"^メイン・イベント・サイドいずれかのクエストを(\d+)回クリアしよう$"="Clear "Main Quest" or "Event Quest" or "Side Quest" $1 times"
+
+r:"^経験値クエストかマナクエストを合計(\d+)回クリアしよう$"="Clear "EXP Quest" or "Mana Quest" $1 times"
+
+r:"^深域クエストを(\d+)回クリアしよう$"="Clear "Deep Quest" $1 times"
+ジュノー=Juno
+
+r:"^バトルアリーナかプリンセスアリーナで合計(\d+)回戦おう$"="Participate in the "Battle Arena" or "Princess Arena" $1 times"

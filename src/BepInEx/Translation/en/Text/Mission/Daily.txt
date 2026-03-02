@@ -22,6 +22,8 @@ r:"^あと ([0-9]{2})分([0-9]{2})秒$"=$1m$2s
 [3C404E]18:00～翌朝04:59の間にゲームにログインしよう[-]=[3C404E]Log-in between 18:00 and the next morning 04:59(JST)[-]
 [3C404E]メインかイベントクエストを10回クリアしよう[-]=[3C404E]Clear "Main Quest" or "Event Quest" 10 times[-]
 [3C404E]メインかイベントクエストを20回クリアしよう[-]=[3C404E]Clear "Main Quest" or "Event Quest" 20 times[-]
+
+
 [3C404E]イベントクエストを10回クリアしよう[-]=[3C404E]Clear "Event Quest" 10 times[-]
 [3C404E]メイン(HARD、VERY HARD)かイベントクエスト(HARD)を3回クリアしよう[-]=[3C404E]Clear Main/Event Quest HARD/VERY HARD 3 times[-]
 [3C404E]バトルアリーナで1回戦おう[-]=[3C404E]Participate in the "Battle Arena" 1 time[-]
