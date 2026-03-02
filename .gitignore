@@ -16,6 +16,7 @@
 *.xlsx
 *.xls
 *.torrent
+*.unity3d
 **/Texture/1dump
 **/temp/
 **/q/
