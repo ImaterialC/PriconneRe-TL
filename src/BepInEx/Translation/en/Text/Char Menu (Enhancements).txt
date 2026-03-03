@@ -194,7 +194,7 @@ EXスキルスロット=EX skill slot
 スキルLv上限=Skill Lv Limit
 限界突破=LB
 なし=None
-使用するアストライアリングを選択してください。=Select the Astrea Ring to use.
+使用するアストライアリングを選択してください。=Select the Astraea Ring to use.
 使用するアストライアリングを選択してください。キャラの最大Lv上限を上昇できます。=Choose the Astraea Ring you wish to use\nit will increase your character's maximum level
 
 キャラLv限界突破確認=Limit Break Confirmation

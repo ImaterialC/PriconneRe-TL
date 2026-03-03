@@ -8,7 +8,7 @@
 いただくのは、愛=What We Receive Is Love
 
 ##UB##
-アストライアヴァリアント=Astraea Variant
+アストライアヴァリアント=Astraea Valiant
 味方全体の物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、目の前の敵１キャラに物理防御力を一定値無視する物理特大ダメージを与え、物理防御力を小ダウンさせる。バトル開始後、初弾のこのスキルはさらに、自分のダメージブーストを中アップさせる。４回目のこのスキルはさらに、自分を【お腹いっぱい☆】状態にする。発動時既に自分が【お腹いっぱい☆】状態の場合、このスキルのダメージは必ずクリティカルする。=Massively boosts all allies' P.ATK and P.CRIT RATE, and slightly boosts their P.CRIT DMG. Deals massive P.DMG to an enemy in front that ignores a fixed amount of P.DEF, and slightly lowers their P.DEF. The first time this skill is used after battle start, additionally moderately boosts own Damage Boost. The fourth time this skill is used, additionally grants self [Full Belly☆]. If self is already under [Full Belly☆] at activation, this skill always lands a critical hit.
 r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを180アップ味方全体の物理クリダメを6％アップ敵単体に物理防御力を50無視する(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン初使用時、自分にダメージブースト30％を付与（上限1500000）４回目の使用時、自分をお腹いっぱい☆状態にする$"=►Boosts allies' P.ATK by $1.\n►Boosts allies' P.CRIT RATE by 180.\n►Boosts allies' P.CRIT DMG by 6％.\n►Deals $2 P.DMG to a single enemy, ignoring 50 P.DEF.\n►Lowers a single enemy's P.DEF by $3.\n►Upon first use, grants self 30％ Damage Boost (cap: 1,500,000).\n►Upon 4th use, enter [Full Belly☆] state.
 
