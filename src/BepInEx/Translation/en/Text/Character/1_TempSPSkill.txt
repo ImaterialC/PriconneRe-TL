@@ -1,11 +1,4 @@
 
-Djeeta
-目の前の敵１キャラに物理特大ダメージを与える。さらに、自分以外の味方全てのＴＰを小回復させ、自分のＴＰを中回復する。バトル開始後、初弾のこのスキルは味方がＵＢを使用するたびに自分に【CHAIN】が１つ追加される状態にする。【CHAIN】は最大５つまで追加される。=Deals massive P.DMG to an enemy in front. Additionally, slightly recovers the TP of all allies except self, and moderately recovers own TP. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【CHAIN】 each time an ally uses a UB. 【CHAIN】 can stack up to 5 times.
-r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを200回復自分以外の味方全体のＴＰを100回復初使用時、味方がＵＢを使用するたびに自分にCHAINが１つ付与される状態にする$"=►Deals $1 P.DMG to a single enemy.\n►Recovers own TP by 200.\n►Recovers TP for all allies (excluding self) by 100.\n►Upon first use, each time an ally uses their UB, add 1 [CHAIN] to self.
-r:"^敵単体に(\d+)の物理ダメージ自分以外の味方全体のＴＰを150回復自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ自分の物理クリダメを3％アップ自分のＴＰを200回復初使用時、味方がＵＢを使用するたびに自分にCHAINが１つ付与される状態にする$"=►Deals $1 P.DMG to a single enemy.\n►Recovers TP for all allies (excluding self) by 150.\n►Boosts own P.ATK by $2.\n►Boosts own P.CRIT RATE by 100.\n►Boosts own P.CRIT DMG by 3％.\n►Recovers own TP by 200.\n►Upon first use, each time an ally uses their UB, add 1 [CHAIN] to self.
-
-アウレア+=Aurea+
-目の前の敵１キャラに物理特大ダメージを与える。さらに、自分以外の味方全てのＴＰを中回復させ、自分の物理攻撃力、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップ、ＴＰを中回復する。バトル開始後、初弾のこのスキルは味方がＵＢを使用するたびに自分に【CHAIN】が１つ追加される状態にする。【CHAIN】は最大５つまで追加される。=Deals massive P.DMG to an enemy in front. Additionally, moderately recovers the TP of all allies except self, greatly boosts own P.ATK and P.CRIT RATE, slightly boosts own P.CRIT DMG, and moderately recovers own TP. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【CHAIN】 each time an ally uses a UB. 【CHAIN】 can stack up to 5 times.
 
 Mitsuki
 カースブルーム++=Curse Bloom++
