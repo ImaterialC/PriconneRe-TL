@@ -13,7 +13,7 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ敵単体に(\d+)の物
 ##S2##
 アズールショット=Azure Shot
 目の前の敵１キャラに物理中ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。このスキルのダメージは、【水刃の加護】の数に応じて増加する。【水刃の加護】を１つ消費する。=Deals moderate P.DMG to an enemy in front and slightly boosts its P.CRIT DMG taken. The P.DMG dealt based on number of [Water Blade's Blessing]. Consumes 1 [Water Blade's Blessing].
-r:"^敵単体に(\d+)の物理ダメージ敵単体のクリティカルを受けた際のダメージを16％アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG taken by 16% for 12s\n►Consumes 1 [Water Blade's Blessing].
+r:"^敵単体に(\d+)の物理ダメージ敵単体のクリティカルを受けた際のダメージを16％アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG taken by 16% for 12s.\n►Consumes 1 [Water Blade's Blessing].
 
 ##EX##
 アンリミットサマー=Unlimited Summer

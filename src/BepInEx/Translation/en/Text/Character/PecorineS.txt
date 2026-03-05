@@ -35,7 +35,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)
 ##S1+##
 デザートタイム+=Dessert Time+
 自分の物理攻撃力を特大アップさせ、物理クリティカルを大アップさせるが、魔法防御力を中ダウンさせる。=Massive boost to own P.ATK and Large boost to own P.CRIT Rate, but lowers own M.DEF by a moderate amount.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ自分の魔法防御力を初期値の20%ダウン$"=Cast time: 0.065s\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by 100 for 12s.\n►Lowers own M.DEF by 20% for 12s.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ自分の魔法防御力を初期値の20%ダウン$"=Cast time: 0.065s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by 100 for 12s.\n►Lowers own M.DEF by 20% for 12s.
 
 ##UE##
 傘剣ビーチプリンセス=Princess Parasword

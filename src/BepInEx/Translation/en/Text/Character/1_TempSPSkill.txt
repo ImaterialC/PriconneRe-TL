@@ -1,28 +1,3 @@
-Muimi
-天楼廻刃斬++=Heavenly Spire Revolving Blade++
-目の前の敵１キャラに物理特大ダメージを与える。発動時の自分の残りＴＰに応じてこのスキルのダメージがアップする。敵の数が１キャラの場合、自分のＴＰを大回復する。=Deals massive P.DMG to an enemy in front. The damage of this skill increases based on own remaining TP at activation. If there is only one enemy, greatly recovers own TP.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵の数が１キャラの場合、自分のＴＰを500回復$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
-
-ビビらせてやる！++=I’ll Scare You!++
-前方範囲内の敵すべてに物理中ダメージを２回与え、スタンさせ、小さく吹き飛ばす。敵の数が１キャラの場合、自分のＴＰを大回復する。=Deals medium P.DMG twice to all enemies in a frontal area, stuns them, and knocks them back slightly. If there is only one enemy, greatly recovers own TP.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵単体に(\d+)の物理ダメージ敵の数が１キャラの場合、自分のＴＰを500回復$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Deals $3 P.DMG to a single enemy.\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
-
-目の前の敵１キャラに物理特大ダメージを与える。このスキルのスキルレベルは「天楼覇断剣」と連動しています=Deals massive P.DMG to an enemy in front. This skill’s level is linked to “Heavenly Spire Supreme Severing Blade”.
-
-前方範囲内の敵すべてに物理小ダメージを２回与え、さらにスタンさせて小さく吹き飛ばす。=Deals small P.DMG twice to all enemies in a frontal area, and additionally stuns them and knocks them back slightly.
-
-
-Kyaru
-サンダーボール++=Thunder Ball++
-目の前の敵１キャラに魔法大ダメージを与える。さらに、その敵を中心とした範囲内の敵すべてに魔法中ダメージを与え、物理・魔法防御力を小ダウンさせる。=Deals large M.DMG to an enemy in front. Additionally, deals medium M.DMG to all enemies in an area centered on that target, and slightly lowers their P.DEF and M.DEF.
-r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $3.
-r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理・魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to enemies within range.\n►Lowers enemies' P.DEF and M.DEF within range by $3.
-
-Pecorine
-ランチタイム++=Lunchtime++
-自分の物理攻撃力を大アップ、物理・魔法防御力を中アップ、ＨＰを大回復し、物理/魔法吸収バリアを展開する。さらに、ＴＰを大回復する。=Greatly boosts own P.ATK, moderately boosts own P.DEF and M.DEF, greatly recovers own HP, and deploys P.DMG/M.DMG absorption barriers. Additionally, greatly recovers own TP.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理・魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＴＰを500回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.DEF and M.DEF by $2.\n►Recovers own HP by $3.\n►Deploys a physical & magic absorb barrier absorbing $4 damage.\n►Recovers own TP by 500.
-
 
 Djeeta
 目の前の敵１キャラに物理特大ダメージを与える。さらに、自分以外の味方全てのＴＰを小回復させ、自分のＴＰを中回復する。バトル開始後、初弾のこのスキルは味方がＵＢを使用するたびに自分に【CHAIN】が１つ追加される状態にする。【CHAIN】は最大５つまで追加される。=Deals massive P.DMG to an enemy in front. Additionally, slightly recovers the TP of all allies except self, and moderately recovers own TP. The first time this skill is used after battle start, grants a state where self gains 1 stack of 【CHAIN】 each time an ally uses a UB. 【CHAIN】 can stack up to 5 times.
@@ -163,13 +138,7 @@ S.Nea
 
 
 
-nea
-スライミィダーリン♡=Slimy Darling♡
-【Taunt】Deals large P.DMG to all enemies, becomes invincible for a short time, and taunts all enemies.
 
-【Summon・Taunt】Deals large P.DMG to all enemies and slightly lowers their P.DEF, becomes invincible for a short time, and taunts all enemies. If Aka and/or Ao are present among allies, deals additional small P.DMG to all enemies for each one present; otherwise, summons them. Aka’s skill deals medium P.DMG to all enemies in an area centered on an enemy in front, stuns them, moderately lowers their P.ATK, and slightly lowers their P.DEF. Ao’s skill slightly recovers all allies’ HP and TP, massively boosts their P.ATK, greatly boosts their P.CRIT RATE, and slightly boosts their P.CRIT DMG.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵のＴＰを200失わせる範囲内の敵の行動速度40％ダウン$"=►Deals $1 P.DMG to enemies within range.\n►Reduces TP of enemies within range by 200.\n►Lowers enemies' action speed within range by 40％.
-r:"^敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン一定時間無敵状態になる敵全体を挑発するアカがいない場合、アカを召喚するアカがいる場合、敵全体に(\d+)の物理ダメージアオがいない場合、アオを召喚するアオがいる場合、敵全体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies.\n►Lowers all enemies' P.DEF by $2.\n►Becomes invincible for a period of time.\n►Taunts all enemies.\n\nIf [Aka] is not present:\n►Summons [Aka].\nIf [Aka] is present:\n►Deals $3 P.DMG to all enemies.\n\nIf [Ao] is not present:\n►Summons [Ao].\nIf [Ao] is present:\n►Deals $4 P.DMG to all enemies.
 
 
 

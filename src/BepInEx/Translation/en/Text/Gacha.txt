@@ -23,6 +23,10 @@ Sダッシュ=S:Dash
 選べる★3(水)=3★ Water
 選べる★3(火)=3★ Fire
 選べる★3(風)=3★ Wind
+
+
+r:"^([0-9,.]+)周年$"=$1th anniv.
+EX★5ラビリンスアクセサリー交換チケット=EX★5 Labyrinth Accessory Exchange Ticket
 マスターピース残り獲得可能回数=Master Pc. left
 
 残り=/

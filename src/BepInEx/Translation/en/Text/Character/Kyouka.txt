@@ -58,5 +58,5 @@ r:"^目の前の敵がマルチターゲットでない場合、敵単体に(\d+
 Kyouka
 アイスランス++=Ice Lance++
 目の前の敵１キャラに魔法大ダメージを与え、凍結させる。目の前の敵がマルチターゲットの場合、前方の敵すべてに追加の魔法大ダメージを与え、自分のＴＰを大回復する。このスキルがクリティカルした場合のダメージは、２倍ではなく４倍になる。=Deals large M.DMG to an enemy in front and inflicts Freeze. If the enemy in front is a multi-target enemy, deals additional large M.DMG to all enemies in front and greatly recovers own TP. If this skill lands a critical hit, the damage becomes 4× instead of 2×.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする目の前の敵がマルチターゲットの場合、範囲内の敵に(\d+)の魔法ダメージ目の前の敵がマルチターゲットの場合、自分のＴＰを500回復$"=Cast time: 1.83s\n►Deals $1 M.DMG to a single enemy.\n►Inflicts incapacitation on a single enemy for a period of time.\n\nIf the enemy in front is multi-target:\n►Deals $2 M.DMG to enemies within range.\n►Recovers own TP by 500.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする目の前の敵がマルチターゲットの場合、範囲内の敵に(\d+)の魔法ダメージ目の前の敵がマルチターゲットの場合、自分のＴＰを500回復$"=Cast time: 1.83s.\n►Deals $1 M.DMG to a single enemy.\n►Inflicts incapacitation on a single enemy for a period of time.\n\nIf the enemy in front is multi-target:\n►Deals $2 M.DMG to enemies within range.\n►Recovers own TP by 500.
 

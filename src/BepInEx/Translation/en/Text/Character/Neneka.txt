@@ -12,7 +12,7 @@
 ##UB##
 ミラーミラー=Mirror Mirror
 【召喚】ユニオンバーストを使用しない、自分の分身を生成する。さらに自分の周囲に魔法攻撃力を特大アップさせ、ＴＰ上昇を小アップさせるフィールドを展開する。=[Summon] Create a duplicate of herself that cannot use UB. Deploys a field around self that grants a massive boost to M.ATK and small boost to TP Boost.
-r:"^分身を生成する魔法攻撃力を(\d+)アップさせるフィールドを展開するＴＰ上昇を15アップさせるフィールドを展開する$"=►Creates a clone of oneself.\n►Deploys a field within 400 range around herself for 18s\n►Boosts allies' M.ATK within field by $1.\n►Boosts allies' TP Boost within field by 15.
+r:"^分身を生成する魔法攻撃力を(\d+)アップさせるフィールドを展開するＴＰ上昇を15アップさせるフィールドを展開する$"=►Creates a clone of oneself.\n►Deploys a field within 400 range around herself for 18s.\n►Boosts allies' M.ATK within field by $1.\n►Boosts allies' TP Boost within field by 15.
 
 ##S1##
 サテュレイト・レイ=Saturation Ray

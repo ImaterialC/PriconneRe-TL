@@ -32,7 +32,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体を混乱させる$"=►Deals
 ##S2+## 
 フォークスラッシュ+=Pitchfork Pummel+
 目の前の敵１キャラに物理大ダメージを与え、スタンさせる。さらに自分の物理攻撃力を大アップさせる。=Dealt physical damage to a character in front of you and stun them. Additionally, increases your own physical attack power.
-r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする自分の物理攻撃力を(\d+)アップ$"=Cast Time: 1.4s\n►Deals $1 P.DMG to an enemy.\n►Inflicts Stun to an enemy for 1s.\n►Boosts own P.ATK by $2 for 12s.
+r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする自分の物理攻撃力を(\d+)アップ$"=Cast Time: 1.4s.\n►Deals $1 P.DMG to an enemy.\n►Inflicts Stun to an enemy for 1s.\n►Boosts own P.ATK by $2 for 12s.
 
 ##UE##
 エリザベスポンチョ=Elizabeth Poncho

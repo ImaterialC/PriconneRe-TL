@@ -18,7 +18,7 @@ r:"^敵単体に(\d+)の魔法ダメージ味方全体の魔法攻撃力を(\d+)
 ##S2##
 エンジェルオーナメント=Angel Ornament
 味方全体の魔法攻撃力と魔法クリティカルを特大アップさせ、自分のＴＰ上昇を小アップさせる。=Massively boosts all allies' M.ATK and M.CRIT Rate, and slightly boosts own TP Boost.
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=Cast time: 0.45s\n►Boosts all allies' M.ATK by $1 for 180s.\n►Boosts all allies' M.CRIT Rate by $2 for 180s.\n►Boosts own TP Boost by $3 for 180s.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ自分のＴＰ上昇を(\d+)アップ$"=Cast time: 0.45s.\n►Boosts all allies' M.ATK by $1 for 180s.\n►Boosts all allies' M.CRIT Rate by $2 for 180s.\n►Boosts own TP Boost by $3 for 180s.
 
 ##EX##
 エンジェルスウィング=Angel's Wing

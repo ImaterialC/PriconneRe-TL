@@ -15,7 +15,7 @@ r:"^味方全体のＨＰを(\d+)回復味方全体の魔法防御力を(\d+)ア
 ##S2##
 アフェクションキュア=Caring Cure
 一番前の味方１キャラに継続ＨＰ回復状態を付与する。=Grants HP Regen to the foremost ally.
-r:"^毎秒ＨＰを(\d+)回復する$"=Cast time: 1.6s\n►Recovers HP by $1/s.
+r:"^毎秒ＨＰを(\d+)回復する$"=Cast time: 1.6s.\n►Recovers HP by $1/s.
 
 ##EX##
 天女の威光=Angelic Majesty
@@ -29,7 +29,7 @@ r:"^味方全体のＨＰを(\d+)回復味方全体の魔法防御力を(\d+)ア
 ##S1+##
 ディバインフォース+=Divine Force+
 自分の周囲の味方すべての魔法攻撃力を大アップさせ、さらに魔法クリティカルを中アップさせる。=Large boost to M.ATK and moderate boost to magical critical rate of all nearby allies.
-r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを40アップ$"=Cast time: 1.17s\n►Boosts allies' M.ATK in 300 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 300 range by 40 for 12s.
+r:"^範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の魔法クリティカルを40アップ$"=Cast time: 1.17s.\n►Boosts allies' M.ATK in 300 range by $1 for 12s.\n►Boosts allies' M.CRIT Rate in 300 range by 40 for 12s.
 
 ##UE##
 アガペーヴェール=Agape Veil

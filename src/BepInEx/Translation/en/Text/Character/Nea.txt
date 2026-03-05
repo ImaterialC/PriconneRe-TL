@@ -10,22 +10,31 @@
 
 ##UB##
 スライミィストリーム=Slimey Stream
-敵全体に物理大ダメージを与え、短時間無敵状態になり敵全体を挑発する。=Deals large P.DMG to all enemies, becomes invincible for a short time, and provokes all enemies.
+【挑発】敵全体に物理大ダメージを与え、短時間無敵状態になり敵全体を挑発する。=[Taunt] Deals large P.DMG to all enemies, becomes invincible for a short time, and taunts all enemies.
+天職見つけたった～♡=I found my calling~♡
 r:"^敵全体に(\d+)の物理ダメージ一定時間無敵状態になる敵全体を挑発する$"=►Deals $1 P.DMG to all enemies\n►Becomes immune to all damage for 3s.\n►Provokes all enemies for 3s.
 
 ##S1##
 カムカムスライム=Camu-Camu Slime
 最もＴＰが多い敵１キャラに物理中ダメージを与え、ＴＰを中ダウンさせる。ＴＰが最大値に達しているキャラを除く。=Deals moderate P.DMG to an enemy with the highest TP (excluding Max TP), and moderately lowers its TP.
-r:"^敵単体に(\d+)の物理ダメージ敵単体のＴＰを(\d+)失わせる$"=Cast time: 0.59s\n►Deals $1 P.DMG to an enemy with the highest TP.\n►Reduces an enemy's TP by $2.
+## OLD r:"^敵単体に(\d+)の物理ダメージ敵単体のＴＰを(\d+)失わせる$"=Cast time: 0.59s.\n►Deals $1 P.DMG to an enemy with the highest TP.\n►Reduces an enemy's TP by $2.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵のＴＰを200失わせる範囲内の敵の行動速度40％ダウン$"=Cast time: 0.59s.\n►Deals $1 P.DMG to enemies within 250 range.\n►Reduces TP of enemies within 250 range by 200.\n►Lowers enemies' action speed within range by 40％ for 12s.
 
 ##S2##
 ジャムジャムスライム=Jam-Jam Slime
 敵全体の物理攻撃力を大ダウンさせ、物理クリティカルとＴＰ上昇を中ダウンさせる。=Greatly lowers all enemies' P.ATK, and moderately lowers their P.CRIT Rate and TP Boost.
-r:"^敵全体の物理攻撃力を(\d+)ダウン敵全体の物理クリティカルを(\d+)ダウン敵全体のＴＰ上昇を(\d+)ダウン$"=Cast time: 0.59s\n►Lowers all enemies' P.ATK by $1 for 12s.\n►Lowers all enemies' P.CRIT Rate by $2 for 12s.\n►Lowers all enemies' TP Boost by $3 for 12s.
+r:"^敵全体の物理攻撃力を(\d+)ダウン敵全体の物理クリティカルを(\d+)ダウン敵全体のＴＰ上昇を(\d+)ダウン$"=Cast time: 0.59s.\n►Lowers all enemies' P.ATK by $1 for 12s.\n►Lowers all enemies' P.CRIT Rate by $2 for 12s.\n►Lowers all enemies' TP Boost by $3 for 12s.
 
 ##EX##
 イエロージェル=Yellow Gel
 イエロージェル+=Yellow Gel+
+
+##UB+##
+スライミィダーリン♡=Slimy Darling♡
+【召喚・挑発】敵全体に物理大ダメージ、物防を小ダウンさせる。短時間無敵になり敵全体を挑発する。アカ、アオが味方にいる場合１体につき敵全体に追加の物理小ダメージ、そうでない場合召喚する。アカのスキルは目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージ、スタンさせ、物攻中ダウン、物防を小ダウンさせる。アオのスキルは味方全体のＨＰとＴＰを小回復、物攻特大アップ、物クリ大アップ、物理クリダメを小アップさせる。=[Summon][Taunt] Deals large P.DMG to all enemies and slightly lowers their P.DEF, becomes invincible for a short time, and taunts all enemies. If Aka and/or Ao are present among allies, deals additional small P.DMG to all enemies for each one present; otherwise, summons them. Aka’s skill deals medium P.DMG to all enemies in an area centered on an enemy in front, stuns them, moderately lowers their P.ATK, and slightly lowers their P.DEF. Ao’s skill slightly recovers all allies’ HP and TP, massively boosts their P.ATK, greatly boosts their P.CRIT RATE, and slightly boosts their P.CRIT DMG.
+r:"^敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン一定時間無敵状態になる敵全体を挑発するアカがいない場合、アカを召喚するアカがいる場合、敵全体に(\d+)の物理ダメージアオがいない場合、アオを召喚するアオがいる場合、敵全体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to all enemies.\n►Lowers all enemies' P.DEF by $2 for 18s.\n►Becomes invincible for 3s.\n►Taunts all enemies for 3s.\n\nIf [Aka] is not present:\n►Summons [Aka].\nIf [Aka] is present:\n►Deals $3 P.DMG to all enemies.\n\nIf [Ao] is not present:\n►Summons [Ao].\nIf [Ao] is present:\n►Deals $4 P.DMG to all enemies.
+
 
 ##S1+##
 カムカムスライム+=Camu-Camu Slime+

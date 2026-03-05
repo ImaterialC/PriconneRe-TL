@@ -59,3 +59,5 @@ r:"^深域クエストを(\d+)回クリアしよう$"="Clear "Deep Quest" $1 tim
 
 r:"^バトルアリーナかプリンセスアリーナで合計(\d+)回戦おう$"="Participate in the "Battle Arena" or "Princess Arena" $1 times"
 r:"^追憶の戦域 追憶戦・覇を(\d+)回クリアしよう$"="Clear the Battle of "Reminiscence and Conquest" $1 times."
+r:"^深淵討伐戦でボスに(\d+)回挑戦しよう$"=Challenge the boss $1 times in the Abyss Subjugation Battle
+r:"^深淵討伐戦で(\d+)0億Pt獲得しよう$"=Earn $1 billion Pt in the Abyss Subjugation Battle

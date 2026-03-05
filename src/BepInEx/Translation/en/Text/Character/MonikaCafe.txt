@@ -12,7 +12,7 @@
 ##S2##
 キャンディシャワー=Candy Shower
 自分に継続ＴＰ回復状態を付与し、味方全体の物理防御力を中アップさせる。さらに３回攻撃を受けるか一定時間経過するまでの間、味方全体の物理攻撃力を極大アップさせる。=Grants TP recovery to self and moderately boosts all allies' P.DEF. Additionally, greatly boosts all allies' P.ATK until Monika gets attacked 3 times or a certain period of time elapses.
-r:"^キャンディを振りまいている間、味方全体の物理攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ毎秒ＴＰを15回復する$"=Cast time: 0.59s\n►Boosts all allies' P.ATK by $1 for 24s, but is interrupted upon receiving damage 3 times.\n►Boosts all allies' P.DEF by $2 for 24s.\n►Recovers own TP by 15/s for 24.5s.
+r:"^キャンディを振りまいている間、味方全体の物理攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ毎秒ＴＰを15回復する$"=Cast time: 0.59s.\n►Boosts all allies' P.ATK by $1 for 24s, but is interrupted upon receiving damage 3 times.\n►Boosts all allies' P.DEF by $2 for 24s.\n►Recovers own TP by 15/s for 24.5s.
 
 ##EX##
 コーヒーブレイク=Coffee Break

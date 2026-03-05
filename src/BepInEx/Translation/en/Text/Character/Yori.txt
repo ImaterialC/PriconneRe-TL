@@ -26,7 +26,7 @@
 ##S1##
 オーバーチャージ=Overcharge
 ＨＰを消費して、自分の魔法攻撃力を大アップさせる。=Large boost to own M.ATK at the cost of HP.
-r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ$"=Cast Time: 1.25s\n►Reduces own HP by $1.\n►Boosts own M.ATK by $2.
+r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ$"=Cast Time: 1.25s.\n►Reduces own HP by $1.\n►Boosts own M.ATK by $2.
 
 ##S2##
 シャドウブラスト=Shadow Blast
@@ -43,7 +43,7 @@ r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ$"=Cas
 ##S1+##
 オーバーチャージ+=Overcharge+
 ＨＰを消費して、自分の魔法攻撃力を特大アップさせ、さらにＴＰを中回復させる。=Massive boost to own M.ATK at the cost of HP. Recovers own TP by a moderate amount.
-r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ自分のＴＰを(\d+)回復$"=Cast Time: 1.25s\n►Reduces own HP by $1.\n►Boosts own M.ATK by $2.\n►Recovers own TP by $3.
+r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ自分のＴＰを(\d+)回復$"=Cast Time: 1.25s.\n►Reduces own HP by $1.\n►Boosts own M.ATK by $2.\n►Recovers own TP by $3.
 
 ##UE##
 デモンズジャベリン=Demon's Javelin

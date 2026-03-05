@@ -14,12 +14,12 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ
 ##S1##
 アメイジングギフト=Amazing Gift
 自分を中心とした範囲内の味方すべての物理攻撃力と魔法攻撃力を大アップさせ、さらに物理防御力と魔法防御力を中アップさせる。=Boosts allies' P.ATK and M.ATK in range by a large amount, moderately boosts allies' P.DEF and M.DEF in range.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.8s\n►Boosts allies' P.ATK and M.ATK in 300 range by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF in 300 range by $3 for 12s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ$"=Cast time: 0.8s.\n►Boosts allies' P.ATK and M.ATK in 300 range by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF in 300 range by $3 for 12s.
 
 ##S2##
 ルミナスバレット=Luminous Bullet
 前方のランダムな敵キャラに、単体物理小ダメージを計３回与える。さらに、最もＨＰが低い味方１キャラのＨＰを中回復させる。=Deals 3 consecutive small P.DMG to a random enemy in front, and recovers an ally's HP with the lowest HP by a moderate amount.
-r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ味方単体のＨＰを(\d+)回復$"=Cast time: 0.8s\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Recovers an ally's HP by $1.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ味方単体のＨＰを(\d+)回復$"=Cast time: 0.8s.\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Deals $1 P.DMG to an enemy.\n►Recovers an ally's HP by $1.
 
 ##EX##
 サイレントブレイズ=Silent Blaze
@@ -28,7 +28,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ
 ##S1+##
 アメイジングギフト+=Amazing Gift+
 自分を中心とした範囲内の味方すべての物理攻撃力と魔法攻撃力を特大アップ、物理防御力と魔法防御力を中アップさせ、さらに物理クリティカルと魔法クリティカルを大アップさせる。=Boosts allies' P.ATK and M.ATK in range by a massive amount, moderately boosts allies' P.DEF and M.DEF in range. Also, greatly boosts allies' P.CRIT Rate and M.CRIT Rate in range.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ範囲内の味方の魔法クリティカルを100アップ$"=Cast time: 0.8s\n►Boosts allies' P.ATK and M.ATK in 350 range by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF in 350 range by $3 for 12s.\n►Boosts allies' P.CRIT Rate and M.CRIT Rate in 350 range by 100 for 12s.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ範囲内の味方の魔法クリティカルを100アップ$"=Cast time: 0.8s.\n►Boosts allies' P.ATK and M.ATK in 350 range by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF in 350 range by $3 for 12s.\n►Boosts allies' P.CRIT Rate and M.CRIT Rate in 350 range by 100 for 12s.
 
 ##UE##
 サレンディアノエルドレス=Sarendia Noel Dress

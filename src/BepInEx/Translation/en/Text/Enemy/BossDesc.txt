@@ -2382,3 +2382,6 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 自身に無敵=Grants Invincibility to self.
 物理か魔法攻撃力が最も高い敵１体に物理割合ダメージ=Deals percentage P.DMG to the enemy with the highest P.ATK or M.ATK.
 控えめな次女の覚悟を問う、盗賊ギルドの長女。ケツ気盛んに猛攻を繰り出し、四の五の言わさぬ豪ケツぶりで妹のケツ意を見極める。=The eldest sister of the Thieves Guild who tests the resolve of her modest younger sister. Launching relentless rear-guard assaults with unstoppable boldness, she gauges her sister's determination with overwhelming force.
+
+
+自身の物理攻撃力に応じてバズナイトに物理攻撃力アップ=Boosts Buzz Knight's P.ATK based on own P.ATK.

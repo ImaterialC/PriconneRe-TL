@@ -44,7 +44,7 @@ r:"^味方全体のＨＰを(\d+)回復味方全体の物理防御力を(\d+)ア
 ##S1+##
 フラワーショット+=Blooming Blast+
 目の前の敵１キャラに魔法中ダメージを与え、さらに物理攻撃力を中ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and lowers its P.ATK by a moderate amount.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体の物理攻撃力を(\d+)ダウン$"=Cast time: 1.46s\n►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 12s.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の物理攻撃力を(\d+)ダウン$"=Cast time: 1.46s.\n►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 12s.
 
 ##UE##
 ブロッサムウィッシュ=Blossoming Wish

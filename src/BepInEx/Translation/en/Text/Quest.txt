@@ -39,6 +39,11 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 プリンセスアリーナ=Princess Arena
 キャンペーン中=Campaign
 
+エクストラクエストへ=To Extra Quest
+
+メインクエストへ=To Main Quest
+エクストラクエスト=Extra Quest
+
 ★3クリアで使用できます。=Available after clearing with 3★.
 スキップ可能なクエストがありません。=There are no Skippable Quests.
 スキップ=Skip

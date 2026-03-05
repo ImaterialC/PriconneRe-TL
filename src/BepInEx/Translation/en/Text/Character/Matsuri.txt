@@ -28,7 +28,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔
 ##S1+##
 タイガーショック+=Tiger Shock+
 自分の前後の範囲内の敵に物理小ダメージを与え、スタンさせる。さらに、自分の物理防御力と魔法防御力を特大アップさせる。=Deals small P.DMG to all enemies in an area around oneself and inflicts Stun. Massive boost to own P.DEF and M.DEF.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=Cast time: 0.76s\n►Deals $1 P.DMG to enemies in 200 range.\n►Inflicts Stun to the targets for 2s.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=Cast time: 0.76s.\n►Deals $1 P.DMG to enemies in 200 range.\n►Inflicts Stun to the targets for 2s.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.
 
 ##UE##
 ジャスティスメダル=Justice Medal

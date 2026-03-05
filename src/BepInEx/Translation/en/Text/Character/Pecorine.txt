@@ -26,7 +26,7 @@ r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アッ
 ##S1##
 ランチタイム=Lunchtime
 自分の魔法防御力を中アップさせ、さらにＨＰを中回復する。=Boost own M.DEF by a small amount and recovers own HP by a small amount.
-r:"^自分の魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復$"=Cast Time: 0.21s\n►Boosts own M.DEF by $1 for 12s.\n►Recovers own HP by $2.
+r:"^自分の魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復$"=Cast Time: 0.21s.\n►Boosts own M.DEF by $1 for 12s.\n►Recovers own HP by $2.
 
 ##S2##
 フォールスラッシュ=Falling Slash
@@ -42,21 +42,37 @@ r:"^自分の最大ＨＰを(\d+)アップ$"=►Boosts own max HP by $1.
 ##UB+##
 プリンセスヴァリアント=Princess Valiant
 目の前の敵１キャラに物理特大ダメージを与え、物理防御力と魔法防御力を特大アップさせ、物理攻撃力を中アップさせる。物理攻撃力アップの効果値は、残りＨＰが高い程増加する。=Deals massive P.DMG to an enemy directly in front. Massive boost to own P.DEF and M.DEF. Moderate boost to own P.ATK (Amount of P.ATK buff increase based on how high Pecorine's current HP.)
-r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2 for 18s.\n►Boosts own M.DEF by $3 for 18s.\n►Boosts own P.ATK by $4 for 18s.
+##OLD r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2 for 18s.\n►Boosts own M.DEF by $3 for 18s.\n►Boosts own P.ATK by $4 for 18s.
+
+目の前の敵１キャラのバリアを解除し、物理特大ダメージを与え、物理防御力を小ダウンさせ、そのキャラの最大ＨＰに応じて最大200万の物理割合ダメージを与える。さらに、自分の物理・魔法防御力を特大アップ、物理攻撃力を大アップし、ＨＰを小回復する。自分の残りＨＰに応じて物理攻撃力の上昇量が最大２倍までアップする。=Removes the barrier from an enemy in front, deals massive P.DMG, slightly lowers their P.DEF, and deals proportional P.DMG based on the target's max HP, up to a maximum of 2,000,000. Additionally, massively boosts own P.DEF and M.DEF, greatly boosts own P.ATK, and slightly recovers own HP. The amount of P.ATK boosted increases based on own remaining HP, up to a maximum of 2×.
+r:"^敵単体のバリアを解除する敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に最大200万の物理割合ダメージを与える自分の物理攻撃力を(\d+)アップ自分の物理・魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復$"=►Removes barriers from a single enemy.\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Deals physical proportional damage to a single enemy (up to 2,000,000).\n►Boosts own P.ATK by $3.\n►Boosts own P.DEF and M.DEF by $4.\n►Recovers own HP by $5.
 
 ##S1+##
 ランチタイム+=Lunchtime+
 自分の魔法防御力を中アップさせ、さらにＨＰを大回復し、自分に物理/魔法吸収バリアを展開する。=Boost own M.DEF by a small amount. Deploy a barrier around oneself that absorbs P.DMG and M.DMG.
-r:"^自分の魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Cast Time: 0.21s\n►Boosts own M.DEF by $1 for 12s.\n►Recovers own HP by $2.\n►Deploy Barrier that absorbs $3 P.DMG and M.DMG for 8s.
+r:"^自分の魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Cast Time: 0.21s.\n►Boosts own M.DEF by $1 for 12s.\n►Recovers own HP by $2.\n►Deploy Barrier that absorbs $3 P.DMG and M.DMG for 8s.
 
 ##S2+##
 フォールスラッシュ+=Falling Slash+
 自分の物理攻撃力を特大アップし、目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに自分に継続ＨＰ回復状態を付与する。=Greatly boosts own P.ATK, deals massive P.DMG to the enemy in front, and slightly decreases their P.DEF. Additionally, grants herself a continuous HP recovery status.
-r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン毎秒ＨＰを(\d+)回復する$"=Cast Time: 1.21s\n►Boosts own P.ATK by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 12s.\n►Recovers HP by $4/s for 12s.
+##OLD r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン毎秒ＨＰを(\d+)回復する$"=Cast Time: 1.21s.\n►Boosts own P.ATK by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 12s.\n►Recovers HP by $4/s for 12s.
+
+
+自分の物理攻撃力を大アップし、目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせ、そのキャラの最大ＨＰに応じて最大200万の物理割合ダメージを与える。さらに、自分に継続ＨＰ回復状態を付与する。=Greatly boosts own P.ATK, deals large P.DMG to an enemy in front, slightly lowers their P.DEF, and deals proportional P.DMG based on the target's max HP, up to a maximum of 2,000,000. Additionally, grants self a continuous HP recovery effect.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に最大200万の物理割合ダメージを与える毎秒ＨＰを(\d+)回復する$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $3.\n►Deals physical proportional damage to a single enemy (up to 2,000,000).\n►Restores $4 HP per second.
 
 ##UE##
 プリンセスソード=Princess Sword
 プリンセスティアラ=Princess Tiara
+
+
+
+##S1++##
+ランチタイム++=Lunchtime++
+自分の物理攻撃力を大アップ、物理・魔法防御力を中アップ、ＨＰを大回復し、物理/魔法吸収バリアを展開する。さらに、ＴＰを大回復する。=Greatly boosts own P.ATK, moderately boosts own P.DEF and M.DEF, greatly recovers own HP, and deploys P.DMG/M.DMG absorption barriers. Additionally, greatly recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理・魔法防御力を(\d+)アップ自分のＨＰを(\d+)回復(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＴＰを500回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.DEF and M.DEF by $2.\n►Recovers own HP by $3.\n►Deploys a physical & magic absorb barrier absorbing $4 damage.\n►Recovers own TP by 500.
+
+
 
 ##Comments##
 

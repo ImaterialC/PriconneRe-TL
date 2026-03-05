@@ -13,7 +13,7 @@
 ##S1##
 トゥインクルエッジ=Twinkle Edge
 自分の物理攻撃力と物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。敵の数に応じて、このスキルの効果値がアップする。=Greatly boosts own P.ATK and P.CRIT Rate, and also slightly boosts own P.CRIT DMG. The effects value increases according to number of enemies in range.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを50アップ自分の物理攻撃クリティカル時のダメージを8％アップ$"=Cast time: 0.415s\n►Boosts own P.ATK by $1 (+$1×Enemy Count) for 12s.\n►Boosts own P.CRIT Rate by 50 (+50×Enemy Count) for 12s.\n►Boosts own P.CRIT DMG by 8% (+8%×Enemy Count) for 12s.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを50アップ自分の物理攻撃クリティカル時のダメージを8％アップ$"=Cast time: 0.415s.\n►Boosts own P.ATK by $1 (+$1×Enemy Count) for 12s.\n►Boosts own P.CRIT Rate by 50 (+50×Enemy Count) for 12s.\n►Boosts own P.CRIT DMG by 8% (+8%×Enemy Count) for 12s.
 
 ##S2##
 ランペイジスラッシュ=Rampage Slash

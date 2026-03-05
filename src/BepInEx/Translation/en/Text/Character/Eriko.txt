@@ -43,7 +43,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ
 ##S1+##
 オブセッション+=Obsession+
 自分の物理攻撃力を大アップさせ、さらに短時間物理攻撃力と物理クリティカルを特大アップさせる。=Large boost to own P.ATK. Additional massive boost to own P.ATK and P.CRIT Rate for a brief period.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを400アップ$"=Cast time: 1.125s\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.ATK by $2 for 7.5s.\n►Boosts own P.CRIT Rate by 400 for 7.5s.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを400アップ$"=Cast time: 1.125s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.ATK by $2 for 7.5s.\n►Boosts own P.CRIT Rate by 400 for 7.5s.
 
 ##UE##
 ノーマーシー=No Mercy

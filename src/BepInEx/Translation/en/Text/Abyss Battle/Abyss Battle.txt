@@ -33,7 +33,7 @@ r:"^スキップチケットと討伐依頼証を消費して\n([0-9]+)回バト
 モンスターＨＰを本戦状態\\nにする=Set monster HP to main battle state
 モンスターＨＰを本戦状態\nにする=Set monster HP to main battle state
 モンスターＨＰを本戦状態\にする=Set monster HP to battle status
-討伐依頼証枚数=Number of Hunting Tickets
+討伐依頼証枚数=Hunt Tickets
 スキップダメージ=Skip Damage
 sr:"^(.{2,6})の所持数が足りません。$"=Insufficient $1.
 

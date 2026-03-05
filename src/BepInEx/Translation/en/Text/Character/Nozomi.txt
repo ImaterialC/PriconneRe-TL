@@ -28,7 +28,7 @@ r:"^味方全体の物理攻撃力を(\d+)アップ自分の物理防御力を(\
 クレールスラッシュ=Glamorous Slice
 
 前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせて物理攻撃力を小ダウンさせる。=Deals moderate P.DMG to all enemies in range, inflicts Stun, and lowers their P.ATK by a small amount.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.25s\n►Deals $1 P.DMG to enemies in 280 range.\n►Inflicts Stun to enemies in 280 range for 2s.\n►Lowers enemies' P.ATK in 280 range by $2 for 12s.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.25s.\n►Deals $1 P.DMG to enemies in 280 range.\n►Inflicts Stun to enemies in 280 range for 2s.\n►Lowers enemies' P.ATK in 280 range by $2 for 12s.
 
 ##S2##
 アイドルエール=Idol's Encouragement

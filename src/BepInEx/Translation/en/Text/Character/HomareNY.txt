@@ -26,7 +26,7 @@ r:"^敵全体に(\d+)の魔法ダメージ敵全体の魔法防御力を(\d+)ダ
 ##S1+##
 スティッキーバイト+=Sticky Bite+
 自分の魔法攻撃力と魔法クリティカルを特大アップ、魔法攻撃クリティカル時のダメージを小アップし、ＴＰを中回復させる。敵の数に応じて、魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージの上昇量が増加する。=Greatly boosts own M.ATK and M.CRIT Rate, slightly boosts own M.CRIT DMG, and moderately recovers own TP. The M.ATK boost, M.CRIT Rate boost and M.CRIT DMG boost increase according to number of enemies.
-r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ自分の魔法攻撃クリティカル時のダメージを10％アップ自分のＴＰを(\d+)回復$"=Cast time: 0.59s\n►Boosts own M.ATK by $1 (+0.2×$1×Enemy Count) for 12s.\n►Boosts own M.CRIT Rate by $2 (+20×Enemy Count) for 12s.\n►Boosts own M.CRIT DMG by 10% (+1%×Enemy Count) for 12s.\n►Recovers own TP by $3.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ自分の魔法攻撃クリティカル時のダメージを10％アップ自分のＴＰを(\d+)回復$"=Cast time: 0.59s.\n►Boosts own M.ATK by $1 (+0.2×$1×Enemy Count) for 12s.\n►Boosts own M.CRIT Rate by $2 (+20×Enemy Count) for 12s.\n►Boosts own M.CRIT DMG by 10% (+1%×Enemy Count) for 12s.\n►Recovers own TP by $3.
 
 ##UE##
 竜女将の極道扇子=Dragon Proprietress's Gang Fan

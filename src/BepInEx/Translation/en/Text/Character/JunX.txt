@@ -13,7 +13,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダ
 ##S2##
 ブレッシングホーン=Blessing Horn
 目の前の敵１キャラに物理中ダメージを与え、自分に物理/魔法吸収バリアを展開する。さらに最も後ろの味方から前方範囲内の味方すべての物理攻撃クリティカル時のダメージを小アップする。=Deals moderate P.DMG to an enemy in front and deploys Barrier over oneself that absorbs P/M.DMG. Additionally, slightly boosts allies' P.CRIT DMG in range around a rearmost ally.
-r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法吸収バリアを展開する範囲内の味方の物理攻撃クリティカル時のダメージを8％アップ$"=Cast time: 1.795s\n►Deals $1 P.DMG to an enemy.\n►Deploy Barrier over oneself that absorbs $2 P/M.DMG for 12s.\n►Boosts allies' P.CRIT DMG in 150 range by 8% for 12s.
+r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法吸収バリアを展開する範囲内の味方の物理攻撃クリティカル時のダメージを8％アップ$"=Cast time: 1.795s.\n►Deals $1 P.DMG to an enemy.\n►Deploy Barrier over oneself that absorbs $2 P/M.DMG for 12s.\n►Boosts allies' P.CRIT DMG in 150 range by 8% for 12s.
 
 ##EX##
 セイントジャスティス=Saint Justice
@@ -22,7 +22,7 @@ r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法吸
 ##S1+##
 セイントエンハンス+=Saint Enhancement+
 最も後ろの味方から前方範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップし、ＴＰを小回復する。=Greatly boosts allies' P.ATK in range around a rearmost ally, massively boosts their P.CRIT Rate, and slightly recovers their TP.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方のＴＰを(\d+)回復$"=Cast time: 1.795s\n►Boosts allies' P.ATK in 150 range by $1 for 12s.\n►Boosts allies' P.CRIT Rate in 150 range by $2 for 12s.\n►Recovers allies' TP in 150 range by $3.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方のＴＰを(\d+)回復$"=Cast time: 1.795s.\n►Boosts allies' P.ATK in 150 range by $1 for 12s.\n►Boosts allies' P.CRIT Rate in 150 range by $2 for 12s.\n►Recovers allies' TP in 150 range by $3.
 
 ##UE##
 聖女仮面の鎧=Armor of the Holy Maiden Mask

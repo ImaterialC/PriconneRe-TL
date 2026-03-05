@@ -25,7 +25,7 @@ Profile
 ##S1##
 旋風撃=Hurricane Assault
 前方範囲内の敵すべてに物理小ダメージを与え、さらにこのスキルで敵を倒した場合、自分のＴＰを中回復する。とどめを刺した敵の数に応じてＴＰの回復量が増加する。=Deals small P.DMG to all enemies in range. Recovers own TP by a moderate amount if an enemy is defeated by this skill.
-r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自分のＴＰを150回復$"=Cast time: 1.85s\n►Deals $1 P.DMG to enemies in 750 range.\n►Recovers own TP by 150 for each fallen enemy.
+r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自分のＴＰを150回復$"=Cast time: 1.85s.\n►Deals $1 P.DMG to enemies in 750 range.\n►Recovers own TP by 150 for each fallen enemy.
 
 ##S2##
 火炎扇=Blazing Fan
@@ -43,7 +43,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)
 ##S1+##
 旋風撃+=Hurricane Assault+
 前方範囲内の敵すべてに物理中ダメージを与え、さらにこのスキルで敵を倒した場合、自分のＴＰを特大回復する。=Deals moderate P.DMG to all enemies in range. Recovers own TP by a massive amount if an enemy is defeated by this skill.
-r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自分のＴＰを1000回復$"=Cast time: 1.85s\n►Deals $1 P.DMG to enemies in 750 range.\n►Recovers own TP by 1000 for each fallen enemy.
+r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自分のＴＰを1000回復$"=Cast time: 1.85s.\n►Deals $1 P.DMG to enemies in 750 range.\n►Recovers own TP by 1000 for each fallen enemy.
 
 ##UE##
 紅蓮爆炎扇=Crimson Blaze

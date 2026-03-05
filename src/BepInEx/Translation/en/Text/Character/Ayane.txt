@@ -46,7 +46,7 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の魔法防御力を(\d+)ア
 
 ##S1+##
 ぷうきちブレイク+=Pukichi Pummel+
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする目の前の敵に(\d+)の物理ダメージ敵単体の行動速度を一定時間低下させる$"=Cast time: 1.125s\n►Deals $1 P.DMG to enemies in 325 range.\n►Renders enemies in 325 range immobile for 2.5s.\n►Deals $2 P.DMG in 325 range.\n►Reduces an enemy's action speed into 80% for 10.5s.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする目の前の敵に(\d+)の物理ダメージ敵単体の行動速度を一定時間低下させる$"=Cast time: 1.125s.\n►Deals $1 P.DMG to enemies in 325 range.\n►Renders enemies in 325 range immobile for 2.5s.\n►Deals $2 P.DMG in 325 range.\n►Reduces an enemy's action speed into 80% for 10.5s.
 
 ##UE##
 偉大なクマ王ぷうきち=Pukichi, the Mighty Bear King
