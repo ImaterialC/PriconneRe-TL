@@ -1,5 +1,3 @@
-
-
 Mitsuki
 カースブルーム++=Curse Bloom++
 前方の敵すべてを呪い状態と麻痺状態にし、物理・魔法攻撃力を大ダウン、物理防御力を小ダウン、行動速度を中ダウンさせる。さらに、自分のＴＰを中回復する。範囲内の敵の数に応じて、呪いのダメージとＴＰの回復量が最大３倍までアップする。=Inflicts Curse and Paralysis on all enemies in front, greatly lowers their P.ATK and M.ATK, slightly lowers their P.DEF, and moderately lowers their action speed. Additionally, moderately recovers own TP. Based on the number of enemies in range, the damage dealt by Curse and the amount of TP recovered increase, up to a maximum of 3×.
