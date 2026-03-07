@@ -1,33 +1,3 @@
-Mitsuki
-カースブルーム++=Curse Bloom++
-前方の敵すべてを呪い状態と麻痺状態にし、物理・魔法攻撃力を大ダウン、物理防御力を小ダウン、行動速度を中ダウンさせる。さらに、自分のＴＰを中回復する。範囲内の敵の数に応じて、呪いのダメージとＴＰの回復量が最大３倍までアップする。=Inflicts Curse and Paralysis on all enemies in front, greatly lowers their P.ATK and M.ATK, slightly lowers their P.DEF, and moderately lowers their action speed. Additionally, moderately recovers own TP. Based on the number of enemies in range, the damage dealt by Curse and the amount of TP recovered increase, up to a maximum of 3×.
-r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の行動速度５％ダウン$"=►Inflicts Curse, dealing $1 damage.\n►Lowers action speed of enemies within range by 5％.
-r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵を一定時間行動不能にする範囲内の敵の物理・魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の行動速度30％ダウン自分のＴＰを250回復$"=►Inflicts Curse, dealing $1 damage.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Lowers enemies' P.ATK and M.ATK within range by $2.\n►Lowers enemies' P.DEF within range by $3.\n►Lowers enemies' action speed within range by 30％.\n►Recovers own TP by 250.
-
-Mifuyu
-ファーストエイド++=First Aid++
-自分のＨＰを大回復、物理・魔法防御力を大アップし、自分の周囲に範囲内の味方すべてのＨＰを小回復するフィールドを展開する。発動時既に目の前の敵１キャラが行動不能状態だった場合、自分のＴＰを特大回復する。=Greatly recovers own HP, greatly boosts own P.DEF and M.DEF, and deploys a field around self that slightly recovers the HP of all allies in range. If, at activation, the enemy in front is already incapacitated, massively recovers own TP.
-r:"^自分のＨＰを(\d+)回復自分の物理・魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Recovers own HP by $1.\n►Boosts own P.DEF and M.DEF by $2.\n►Deploys a field that recovers $3 HP per second.
-
-自分のＨＰを大回復、物理・魔法防御力を大アップし、自分の周囲に範囲内の味方すべてのＨＰを小回復するフィールドを展開する。=Greatly recovers own HP, greatly boosts own P.DEF and M.DEF, and deploys a field around self that slightly recovers the HP of all allies in range.
-r:"^自分のＨＰを(\d+)回復自分の物理・魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する目の前の敵が行動不能状態の場合、自分のＴＰを1000回復$"=►Recovers own HP by $1.\n►Boosts own P.DEF and M.DEF by $2.\n►Deploys a field that recovers $3 HP per second.\n\nIf the enemy in front is incapacitated:\n►Recovers own TP by 1000.
-
-Ilya
-自分の残りＨＰの90％を消費して、目の前の敵１キャラに魔法大ダメージを与え、さらに、自分の魔法攻撃力を中アップ、ＴＰを大回復する。消費したＨＰ量に応じて、ＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to deal large M.DMG to an enemy in front. Additionally, moderately boosts own M.ATK and greatly recovers own TP. Based on the amount of HP consumed, the amount of TP recovered increases, up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
-r:"^自分の残りＨＰの90％を消費敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分のＴＰを300回復$"=►Consumes 90％ of own remaining HP.\n►Deals $1 M.DMG to a single enemy.\n►Boosts own M.ATK by $2.\n►Recovers own TP by 300.
-r:"^自分の残りＨＰの90％を消費範囲内の敵に(\d+)の魔法ダメージ敵が呪い状態の時、一定時間全ての物理攻撃を回避する闇属性の味方の行動速度55％アップ自分の魔法攻撃力を(\d+)アップ自分のＴＰを300回復$"=►Consumes 90％ of own remaining HP.\n►Deals $1 M.DMG to enemies within range.\n►If the enemy is afflicted with Curse, evade all physical attacks for a period of time.\n►Boosts action speed of Dark allies by 55％.\n►Boosts own M.ATK by $2.\n►Recovers own TP by 300.
-
-ブリーディングブラスト++=Bleeding Blast++
-自分の残りＨＰの90％を消費して、目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、目の前の敵１キャラが呪い状態だった場合、自分は短時間全ての物理攻撃を回避する。さらに、闇属性の味方すべての行動速度を大アップ、自分の魔法攻撃力を大アップ、ＴＰを大回復する。消費したＨＰ量に応じて、物理回避の効果時間、魔法攻撃力の上昇量、ＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to deal large M.DMG to all enemies in an area centered on an enemy in front. If the enemy in front is under Curse, self temporarily evades all physical attacks. Additionally, greatly boosts the action speed of all Dark-element allies, greatly boosts own M.ATK, and greatly recovers own TP. Based on the amount of HP consumed, the duration of physical evasion, the amount of M.ATK boosted, and the amount of TP recovered increase, up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
-
-
-Tomo
-前方範囲内の敵すべてに物理中ダメージを与える。前方範囲内の敵が２キャラ以上の場合、追加の物理小ダメージを与える。=Deals medium P.DMG to all enemies in a frontal area. If there are 2 or more enemies in the area, deals additional small P.DMG.
-r:"^範囲内の敵に(\d+)の物理ダメージ前方範囲内の敵の数が２キャラ以上の場合、範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies within range.\n\nIf there are 2 or more enemies in the frontal area:\n►Deals $2 P.DMG to enemies within range.
-r:"^範囲内の敵に(\d+)の物理ダメージ前方範囲内の敵の数が２キャラ以上の場合、範囲内の敵に(\d+)の物理ダメージ前方範囲内の敵の数が３キャラ以上の場合、範囲内の敵に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to enemies within range.\n\nIf there are 2 or more enemies in the frontal area:\n►Deals $2 P.DMG to enemies within range.\n\nIf there are 3 or more enemies in the frontal area:\n►Deals $3 P.DMG to enemies within range.
-
-ミクマ流剣術・陣風++=Mikuma-Style Swordsmanship: Gale Formation++
-前方範囲内の敵すべてに物理大ダメージを与える。前方範囲内の敵が２キャラ以上の場合、追加の物理小ダメージを与える。前方範囲内の敵が３キャラ以上の場合、さらに追加の物理小ダメージを与える。=Deals large P.DMG to all enemies in a frontal area. If there are 2 or more enemies in the area, deals additional small P.DMG. If there are 3 or more enemies in the area, deals further additional small P.DMG.
 
 
 Yukari

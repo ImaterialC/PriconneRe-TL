@@ -1,0 +1,61 @@
+ジュンとの出会い=Meeting Jun
+黄金色の悩みごと=Golden Troubles
+
+ジータたちは、フリーマーケット会場で\n少し困った様子のジュンを見かける。=Djeeta and the others saw Jun looking a little troubled at the flea market.
+騎空団の装備を充実させようと、\nフリーマーケットにやってきたジータたち。\nするとそこには、{playername}の見知った姿があった。=Djeeta and {playername} went to the flea market to enrich their crew's equipment. As they did, they saw a figure that was familiar to {playername}.
+さて、どうしたものかな……=Now then, what should I do...
+
+Player Input
+こんにちは、ジュンさん。=Hello, Jun.
+
+ん？\nああ、少年。\nこんにちは、君も買い物かな？=Hm? Oh, young man. Hello, are you shopping too?
+わわっ、【王宮騎士団（NIGHTMARE）】の団長さん……！\nあなたって、本当に知り合いが多いんだね。=Wow, it's the leader of NIGHTMARE! You really know a lot of people, don't you?
+そちらの君は……はじめまして、だよね。\n少年、よければ私にも紹介してくれるかな。=As for you... It's nice to meet you, isn't it? If you don't mind, could you introduce me, young man?
+
+Player Input
+騎空士のジータだよ。=This is Djeeta, the Skyfarer.
+
+ああ、君がジータちゃんなんだね。\n少年から話はよく聞いているよ。=Ah, so you're Djeeta-chan. I've heard a lot about you from the young man.
+私はジュンだ。\n【王宮騎士団（NIGHTMARE）】の団長を務めている。\nよろしくね。=My name is Jun. I'm the captain of NIGHTMARE. Nice to meet you.
+こちらこそ、よろしくお願いします！\n団長さんの話は、私もよく聞いてるんです。\nとっても強くて頼りになる人だって……=It's nice to meet you, too! I've heard a lot about you too. You're a very strong and reliable person...
+ふふ、そう言われると少し気恥ずかしいな。\n私はただ、自分の役目を果たしているだけだよ。=Haha, it's a little embarrassing to hear you say that. I'm just doing my part.
+
+Player Input
+今日はお休みなの？=Are you off today?
+
+いや、休憩時間だよ。\nそれで自主的に会場を見回っていたんだ。=No, it's just break time. That's why I was patrolling the venue on my own.
+こういった大きな催し物には、観光客も多いからね。\n人が多ければ、それだけトラブルも起きやすい。\n大きな揉め事に発展する前に対処しておきたいと思ったんだ。=There are a lot of tourists at these big events. The more people there are, the easier it is for trouble to break out. I wanted to deal with anything before it turned into a major conflict.
+そうだったんですね。\nあ、じゃあ……\nその金色のは押収品か何かですか？=I see. Oh, then... Is that golden thing confiscated or something?
+ジータが視線を向けたのは、ジュンが手にしている金色の物体だった。=Djeeta indicated the golden object Jun was holding.
+ああ、これか……\n押収品ではないのだけど……\n実は少し困っているんだ。=Oh, this... It's not confiscated, but... Actually, I'm a little troubled.
+
+これはヒヒイロカネといってね、異国で見つかる金属なんだ。\n見回りをしていたとき、露店でつい買ってしまったんだよ。=This is called a Gold Brick. It's a metal found in a foreign country. While I was patrolling, I bought it at a stall.
+ヒヒイロカネ……\n不思議な名前ですね。=Gold Brick... What a strange name.
+その店主によると、なんでも非常に丈夫な武具の素材にもなるらしい。\n実際、手にしてみると頑強さがよく分かるよ。=According to the owner, it can also be used as a material for a very durable weapon. In fact, I can tell how strong it is by looking at it.
+熱心に声をかけられた上、\n私も武具の素材になるのであればと思ってね。=Not only did he talk to me so passionately, but I also thought I could use it as a material for weapons.
+それで買ってみたはよかったのだけど……\n今になって、武具にするには量が少ないことに気が付いたんだ。=I'm glad I bought it, but... now I realize that it's not enough to make a weapon out of.
+確かに装備一式を作るのは難しそうですね。\nかといって、武器にするにしても選択肢が少ないかも。=It would certainly be difficult to make a full set of equipment. On the other hand, even if we wanted to use it as a weapon, we might not have many options.
+やはり慣れないことはするものじゃないな。\nいつもは衝動買いなんてしないからね……=It's not something I'm used to doing. I don't usually buy things on impulse...
+きっと自分が思うよりも、周りの空気に浮かれていたんだろう。\n恥ずかしい話をしてしまったな。すまない、忘れてくれるとうれしい。=I’m sure I got more carried away by the atmosphere around me than I realized. I ended up saying something embarrassing. Sorry about that—I’d appreciate it if you could forget it.
+気にしないでください！\n買ってから考えるってこと、私にもありますから。=Please don’t worry about it! I’ve had times when I buy something and only think about it afterward too.
+そう言ってもらえると気が楽だよ。\nありがとう、ジータちゃん。=It's nice to hear you say that. Thank you, Djeeta.
+……そうだ。\n話のついでに、これの使い道を一緒に考えてくれないか？\n二人なら私よりも柔軟な発想ができると思うんだ。=...That's right. While we're talking, could you think of a way to use this together? I think you two can think of something more flexibly than me.
+分かりました！\n私たちでよければ力になります！=Understood! If you don't mind, we'll help!
+助かるよ。\nさっそくだけど、少年。\n何かいいアイデアはあるかな？=You're a lifesaver. Now, young man, do you have any good ideas?
+
+Player Input
+盾にするのはどうかな？=How about using it as a shield?
+
+盾か……\n確かに、少し手を加えれば手持ちの盾になりそうだね。\n頑強さ故の加工の手間も、最小限に抑えられるかもしれない。=A shield, huh… Indeed, with a bit of modification it might be possible to turn it into a handheld shield. Because it’s so sturdy, the effort needed to process it might also be kept to a minimum.
+いいアイデアだよ、{playername}！=That's a great idea, {playername}!
+……よし。\nでは、これは君たちに譲ろう。\nぜひ有効活用してほしい。=...All right. Then I'll give this to you guys. I hope you'll make good use of it.
+えっ？\nど、どうしてですか？=Huh? Wh-Why?
+アイデアをくれたお礼だよ。\nそれに、私が盾に頼るわけにはいかないんだ。=It's a token of my gratitude for the idea. Besides, I can't rely on a shield.
+他でもない、私自身が皆を守る盾だからね。=Because the shield is me. I'm the shield that protects everyone.
+おっと、のんびりしすぎたかな。\nそろそろ持ち場に戻らないと。\n少年、ジータちゃん。またね。=Whoops, I guess I was too laid-back. I need to get back to my post. See you later, young man. Djeeta-chan.
+あ……\nは、はい。=Ah... Y-Yes.
+…………\nジュンさんって、かっこいいね……=...Jun is so cool...
+ジュンから受け取ったヒヒイロカネを手に、\nジータは思わずぽつりと呟いたのだった──=With the Gold Brick she had received from Jun in hand, Djeeta couldn't help but murmur to herself.
+
+
+

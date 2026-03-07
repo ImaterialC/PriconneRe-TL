@@ -116,7 +116,7 @@ sr:"^(【物理】|【魔法】|【回復】|【補助】|【ＭＯＤＥ１】|
 全体継続回復=\n►Continuous recovery for all.
 ＨＰ・ＴＰ回復=\n►HP/TP recovery.
 攻撃力ダウン=\n►Attack Power Down.
-ダメージカット=\n►Damage Cutter.
+ダメージカット=Damage Cut
 物理・魔法範囲攻撃=\n►Physical/Magic range attack.
 防御力ダウン=\n►Defense Down
 

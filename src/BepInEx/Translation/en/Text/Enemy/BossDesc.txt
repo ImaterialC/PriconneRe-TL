@@ -2109,7 +2109,6 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 魔力で変異し要塞と化した魔樹。大地の力を砲弾に変え、破壊の限りを尽くす。=A demon tree mutated by magic into a fortress. Converts earth's power into projectiles for utter destruction.
 ダメージを与えた対象数が少ないほど：ダウン量上昇=The fewer targets hit, the greater the reduction amount
 前から敵１体にＨＰ回復量ダウン=Decreases HP recovery of frontmost enemy
-頂上=Summit
 自身に【月の祝福】20付与=Grants self 20 stacks of [Moon's Blessing]
 自身がブレイク状態：付与数ダウン=If in Break state: Fewer stacks granted
 前から敵１体に最大ＨＰダウン=Decreases max HP of frontmost enemy

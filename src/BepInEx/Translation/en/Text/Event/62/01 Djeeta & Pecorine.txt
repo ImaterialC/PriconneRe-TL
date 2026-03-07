@@ -1,0 +1,50 @@
+﻿外伝イベントストーリー=Gaiden Event Story
+ペコリーヌとの出会い=Meeting Pecorine
+青空の下で謁見=An Audience Under The Blue Sky
+
+フリーマーケットを訪れたジータが出会ったのは\n城をこっそり抜け出していたペコリーヌだった。=While visiting the flea market Djeeta met Pecorine, who had snuck out of the castle in secret.
+フリーマーケット会場=Flea Market Venue
+その日の依頼を終えたジータと{playername}。\n二人は騎空団の活動に役立ちそうな物を求めて、\nフリーマーケットの会場を訪れていた。=Djeeta and {playername} had finished their commission for the day, the two of them had come to the flea market in search of things that might be useful for their crew’s activities.
+うーん、なかなか「これだ！」っていう物は見つからないね。\n……うん？\nどうしたの{playername}、急に立ち止まって。=Hmm, we aren't finding anything that screams 'This is it!' ...Hmm? What's wrong, {playername}? Why are you stopping all of a sudden?
+
+Player Input
+あの後ろ姿は……=That person sneaking around is…
+
+こそこそ……\nうん、今のところ誰にもバレてませんね。\nよーし、この調子で……=Sneak sneak... Yep, no one's noticed yet. Okay, keep it up...
+
+Player Input
+Pecorine?
+
+わわっ！？\nって、あなたでしたか！\nもう驚かせないでくださいよ～=Wah?! Oh, it's you! Please don't scare me like that~
+というわけで……\n改めて、オイッス～☆=So... once again, heyas~☆
+あ、あの……\nもしかして…………王女さま、ですか？=U-Umm... Could it be... The Princess?
+はい！\nああっ、でも周りの皆さんには内緒にしてくれますか？\n実はこっそりお城を抜け出してきてるので……！=Yes! Ah, but could you keep it a secret from everyone? I've actually snuck out of the castle...!
+あと、わたしのことはペコリーヌって呼んでください。\n彼もそう呼んでくれてますから。=Also, please call me Pecorine. He calls me that, too.
+わ、分かりました。\nそれじゃあ……ペコリーヌさん。\nはじめまして！　私は騎空士のジータです！=I-I understand. Well then... Pecorine. Nice to meet you! I'm Djeeta, the Skyfarer!
+騎空士のジータさん……\nああ、あなたがそうなんですね！\nよろしくお願いします！=Djeeta, the Skyfarer... Oh, so you're the one! Nice to meet ya!
+もしかして……\n私のこと知ってるんですか？=Could it be... that you know me?
+{playername}くんから聞いてたんです。\nとっても頼りになる騎空士さんがいるって。=I heard from {playername} that there's a very reliable skyfarer.
+
+そうだったんですか……\nあはは、恐縮です。=I see... Ahaha, thanks.
+あの、ところで……\nどうして今日はフリーマーケットに？=Um, by the way... Why are you at the flea market today?
+簡単に言っちゃうと視察です！\nせっかくの催し物ですから、\n皆さん盛り上がってくれてるかな～って。=To put it simply, it's an inspection! It's a special event, so I thought everyone might be excited.
+あとは……\n屋台のいい匂いに我慢できませんでした～！\nお城までただよってくるんです～！=Also... I couldn't resist the smell of the food stalls! It drifts all the way to the castle!
+な、なるほど……\n確かに屋台の料理って妙に魅力的ですよね。\n気持ちは分かるかも。=I-I see... The food at the food stalls is strangely attractive. I think I understand how you feel.
+もうどこのお店もおいしくって、やばいです☆\nぜひ食べてみてくださいね！=Every restaurant is so delicious, it's crazy! ☆ Please try them!
+ところでお二人は買い物ですか？\n食べ歩きとかも楽しんじゃってますか？=By the way, are you two shopping? Are you having fun walking around eating?
+はい！\n実は……=Yes! Actually...
+ふむふむ。\n騎空団の活動に役立ちそうなものを探してたんですね。\nそれで、今日はなかなか収穫がないと。=Hmm... So you were looking for something useful for your crew's activities, huh? And you haven't been able to find anything today?
+そういうことなら、わたしに考えがあります！\n少し待っててもらえますか？\nすぐに戻ってきますから！=In that case, I have an idea! Could you wait a moment? I'll be right back!
+えっ？\nは、はい……=Huh? Y-Yes...
+……行っちゃった。\nペコリーヌさん、急にどうしたのかな？=...She's gone. What's gotten into Pecorine all of a sudden?
+お待たせしました！\nジータさん、これをどうぞ！=Sorry to keep you waiting! Here you go, Djeeta!
+こ、これって……\n飛空艇の模型じゃないですか！？\nそれもすっごく立派……！！=Th-This is... an airship model, isn't it?! And it's amazing...!!
+わたしが小さい頃に買った物なんです。\n大きくなったらこんな飛空艇に乗って、\n色んな国を巡ってみたいな～って！=I bought it when I was little. When I grew up, I dreamed of riding an airship like this and travelling all over the country!
+そんな思い出がある品なんですか……\nとてもじゃないけど、受け取れません！=I didn't know it had such memories attached to it... I can't accept something like that!
+あはは、遠慮しないでください！\nわたしよりジータさんが持っている方が、きっと役に立ちますから！=Ahaha, don't hold back! I'm sure it'll be more useful for you to have it than me!
+好きなもののためにがんばることの大切さを、わたしは知ってます。\nだから……受け取ってほしいんです。\n大好きな空と騎空団のためにがんばるあなたに。=I know how important it is to work hard for what you love. That's why...I want you to accept it. To do your best for your beloved sky and crew.
+あ。ちなみに、これは王宮の所蔵品じゃありませんよ？\n勝手に持ち出したら、お城のみんなに怒られちゃいますから！\nというわけで、安心してくださいね☆=Oh, By the way, this isn’t an item from the royal palace’s collection, okay? If I took something out without permission, everyone at the castle would get mad at me! So, don’t worry☆
+ペコリーヌさん……\n分かりました。\nそれじゃあ、ありがたくいただきます！=Pecorine... Understood. I'll gladly accept!
+いつか聞かせてくださいね！\nジータさんが体験した、空の冒険のお話を！=I hope you'll tell me about it someday! About the sky adventures that Djeeta experienced!
+はいっ！\n必ず……必ず、話しに行きますね！=Yes! I'll definitely... definitely tell you about it!
+ペコリーヌから飛空艇の模型を受け取ったジータは、\n空への憧れを一層強くするのだった。=After receiving the model airship from Pecorine, Djeeta’s yearning for the sky grew even stronger.

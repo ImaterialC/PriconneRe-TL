@@ -26,7 +26,10 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復$"=
 ##S2##
 ブラッディスピア=Bloody Spear
 前方範囲内の敵すべてに魔法中ダメージを与えるが、自分のＨＰを消費する。=Deals Moderate M.DMG to all enemies in the frontline at cost own HP.
-r:"^自分のＨＰを(\d+)消費範囲内の敵に(\d+)の魔法ダメージ$"=►Reduces own HP by $1.\n►Deals $2 M.DMG to all enemies in 600 Range.
+## OLD r:"^自分のＨＰを(\d+)消費範囲内の敵に(\d+)の魔法ダメージ$"=►Reduces own HP by $1.\n►Deals $2 M.DMG to all enemies in 600 Range.
+
+自分の残りＨＰの90％を消費して、前方範囲内の敵すべてに魔法中ダメージを与え、自分のＴＰを小回復する。消費したＨＰ量に応じて、ＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to deal medium M.DMG to all enemies in a frontal area and slightly recovers own TP. Based on the amount of HP consumed, the TP recovered increases up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
+r:"^自分の残りＨＰの90％を消費範囲内の敵に(\d+)の魔法ダメージ自分のＴＰを100回復$"=Cast time: 0.865s.\n►Consumes 90％ of own remaining HP.\n►Deals $1 M.DMG to enemies within range.\n►Recovers own TP by 100.
 
 ##EX##
 血の契約=Blood Pact
@@ -36,13 +39,26 @@ r:"^自分の魔法攻撃力を(\d+)アップ$"=►Boosts own M.ATK by $1.
 
 ##UB+##
 ヴァーミリオンエンプレス=Vermilion Empress
-最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、自分のＨＰを中回復し、クリティカルを受けた際のダメージを大ダウンさせる。さらに【宵闇の加護】を１つ追加する。【宵闇の加護】を得た状態で使用するスキルのダメージが【宵闇の加護】の個数に応じて増加する。【宵闇の加護】は最大４まで追加される。=Deals M.DMG to all enemies within range centered on the closest enemy, restores own HP moderately, and greatly reduces damage taken from critical hits. Also adds one stack of 【Blessing of Twilight】, which increases damage of skills use with it (up to 4 stacks).
-r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復自分がクリティカルを受けた際のダメージを50％ダウン$"=►Shifts to the nearest enemy target and returns to original position after skill ends.\n►Deals $1 M.DMG to enemies in 250 range.\n►Recovers own HP by $2.\n►Boosts own M.CRIT DMG resistance by 50% for 18s.\n►Receives Blessing of Twilight.
+最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、自分のＨＰを中回復し、クリティカルを受けた際のダメージを大ダウンさせる。さらに【宵闇の加護】を１つ追加する。【宵闇の加護】を得た状態で使用するスキルのダメージが【宵闇の加護】の個数に応じて増加する。【宵闇の加護】は最大４まで追加される。=Deals M.DMG to all enemies within range centered on the closest enemy, restores own HP moderately, and greatly reduces damage taken from critical hits. Also adds one stack of [Twilight Blessing], which increases damage of skills use with it (up to 4 stacks).
+## OLD r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復自分がクリティカルを受けた際のダメージを50％ダウン$"=►Shifts to the nearest enemy target and returns to original position after skill ends.\n►Deals $1 M.DMG to enemies in 250 range.\n►Recovers own HP by $2.\n►Boosts own M.CRIT DMG resistance by 50% for 18s.\n►Receives Blessing of Twilight.
+
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法特大ダメージを与え、自分のＨＰを中回復し【宵闇の加護】を１つ付与する。【宵闇の加護】が付与されている間に１回魔法ダメージを受けると【宵闇の加護】を１つ消費してダメージを無効化する。【宵闇の加護】は最大１つまで付与される。=Deals massive M.DMG to all enemies in an area centered on an enemy in front, moderately recovers own HP, and grants 1 stack of [Twilight Blessing]. While [Twilight Blessing] is active, when receiving magic damage once, consumes 1 stack to nullify the damage. [Twilight Blessing] can stack up to 1 time.
+r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを20％回復自分に宵闇の加護を１つ付与する$"=►Shifts to the nearest enemy target and returns to original position after skill ends.\n►Deals $1 M.DMG to enemies within 300 range.\n►Recovers 20％ of own HP.\n►Grants 1 [Twilight Blessing] to self.
 
 ##S1+##
 ブリーディングブラスト+=Bloodthirsty Blast+
 自分の魔法攻撃力を中アップさせ、さらに目の前の敵１キャラに魔法大ダメージを与えるが、自分のＨＰを消費する。=Moderate boost to own M.ATK. Deals moderate M.DMG to an enemy directly in front at the cost of own HP.
-r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ敵単体に(\d+)の魔法ダメージ$"=►Reduces own HP by $1.\n►Boosts own M.ATK by $2.\n►Deals magic $3 damage to an enemy.
+## OLD r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ敵単体に(\d+)の魔法ダメージ$"=►Reduces own HP by $1.\n►Boosts own M.ATK by $2.\n►Deals magic $3 damage to an enemy.
+
+自分の残りＨＰの90％を消費して、目の前の敵１キャラに魔法大ダメージを与え、さらに、自分の魔法攻撃力を中アップ、ＴＰを大回復する。消費したＨＰ量に応じて、ＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to deal large M.DMG to an enemy in front. Additionally, moderately boosts own M.ATK and greatly recovers own TP. Based on the amount of HP consumed, the amount of TP recovered increases, up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
+r:"^自分の残りＨＰの90％を消費敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分のＴＰを300回復$"=Cast time: 1.125s.\n►Consumes 90％ of own remaining HP.\n►Deals $1 M.DMG to a single enemy.\n►Boosts own M.ATK by $2 for 12s.\n►Recovers own TP by 300.
 
 ##UE##
 闇斧ナハトファング=Dark Axe Nachfang
+
+
+##S1++##
+ブリーディングブラスト++=Bloodthirsty Blast++
+自分の残りＨＰの90％を消費して、目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、目の前の敵１キャラが呪い状態だった場合、自分は短時間全ての物理攻撃を回避する。さらに、闇属性の味方すべての行動速度を大アップ、自分の魔法攻撃力を大アップ、ＴＰを大回復する。消費したＨＰ量に応じて、物理回避の効果時間、魔法攻撃力の上昇量、ＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to deal large M.DMG to all enemies in an area centered on an enemy in front. If the enemy in front is under Curse, self temporarily evades all physical attacks. Additionally, greatly boosts the action speed of all Dark-element allies, greatly boosts own M.ATK, and greatly recovers own TP. Based on the amount of HP consumed, the duration of physical evasion, the amount of M.ATK boosted, and the amount of TP recovered increase, up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
+r:"^自分の残りＨＰの90％を消費範囲内の敵に(\d+)の魔法ダメージ敵が呪い状態の時、一定時間全ての物理攻撃を回避する闇属性の味方の行動速度55％アップ自分の魔法攻撃力を(\d+)アップ自分のＴＰを300回復$"=Cast time: 1.125s.\n►Consumes 90％ of own remaining HP.\n►Deals $1 M.DMG to enemies within range.\n►If the enemy is afflicted with Curse, evade all physical attacks for a period of time.\n►Boosts action speed of Dark allies by 55％.\n►Boosts own M.ATK by $2.\n►Recovers own TP by 300.
+

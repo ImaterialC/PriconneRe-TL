@@ -18,7 +18,11 @@ r:"^(\d+)ダメージを与える呪い状態にする$"=Cast time: 1.41s.\n►I
 ##S2##
 ローズフィールド=Field of Thorns
 自分の前の一定範囲に、物理防御力を大ダウンさせるフィールドを展開する。=Deploys a field that lowers P.DEF of all enemies in range.
-r:"^フィールド内の敵の物理防御力(\d+)ダウン$"=Cast time: 0.28s.\n►Deploy a 250 radius field that lowers enemies' P.DEF in range by $1 for 8s.
+## OLD r:"^フィールド内の敵の物理防御力(\d+)ダウン$"=Cast time: 0.28s.\n►Deploy a 250 radius field that lowers enemies' P.DEF in range by $1 for 8s.
+
+前から２番目の敵を中心に物理ダメージフィールドと範囲内の敵すべての物理防御力を大ダウンさせるフィールドを展開する。=Deploys a P.DMG field centered on the second enemy from the front and a field that greatly lowers the P.DEF of all enemies in range.
+r:"^毎秒(\d+)の物理ダメージを与えるフィールドを展開するフィールド内の敵の物理防御力(\d+)ダウン$"=Cast time: 0.28s.\n►Deploys a 300 radius field that deals $1 P.DMG/s for 8.5s.\n►Lowers P.DEF of enemies within the field by $2 for 8.5s.
+
 
 ##EX##
 隻眼の悪魔=One-Eyed Devil
@@ -27,12 +31,26 @@ r:"^フィールド内の敵の物理防御力(\d+)ダウン$"=Cast time: 0.28s.
 ##UB+##
 ブルータルローズ=Brutal Rose
 前方の敵すべての物理防御力を大ダウンさせ、物理大ダメージを与える。このスキルでとどめを刺した敵の数に応じて、自分のＨＰを回復する。=Large lowers the P.DEF of all enemies in front and inflicts great P.DMG. Restores HP according to the number of enemies killed by this skill.
-r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵に(\d+)の物理ダメージ敵を倒した数×20%のＨＰを回復$"=►Lowers all enemies' P.DEF by $1 for 18s.\n►Deals $2 P.DMG to all enemies in range.\n►Recovers HP based on enemies defeated ×20%.
+## OLD r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵に(\d+)の物理ダメージ敵を倒した数×20%のＨＰを回復$"=►Lowers all enemies' P.DEF by $1 for 18s.\n►Deals $2 P.DMG to all enemies in range.\n►Recovers HP based on enemies defeated ×20%.
+
+
+前方の敵すべての物理防御力を大ダウン、クリティカルを受けた際のダメージを小アップさせ、物理大ダメージを与える。さらに、自分の物理攻撃力を大アップし、ＨＰを小回復する。範囲内の敵の数に応じて、ＨＰの回復倍率が最大３倍までアップする。=Greatly lowers the P.DEF of all enemies in front, slightly increases the damage they take when receiving critical hits, and deals large P.DMG. Additionally, greatly boosts own P.ATK and slightly recovers own HP. Based on the number of enemies in range, the HP recovery multiplier increases up to a maximum of 3×.
+r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の被クリダメを3％アップ範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＨＰを(\d+)回復$"=►Lowers enemies' P.DEF within range by $1.\n►Boosts enemies' CRIT DMG taken within range by 3％.\n►Deals $2 P.DMG to enemies within range.\n►Boosts own P.ATK by $3.\n►Recovers own HP by $4.
 
 ##S1+##
 カースブルーム+=Curse Bloom+
 前方範囲内の敵すべてを呪い状態にし、さらに行動速度を小ダウンさせる。=Inflicts Curse to all enemies in range and reduces their action speed by a small amount.
-r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の行動速度を一定時間低下させる$"=Cast time: 1.41s.\n►Inflicts Curse in 620 range that deals $1 P.DMG/s.\n►Reduces enemies' action speed in 620 range to 95% for 12s.
+## OLD r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の行動速度を一定時間低下させる$"=Cast time: 1.41s.\n►Inflicts Curse in 620 range that deals $1 P.DMG/s.\n►Reduces enemies' action speed in 620 range to 95% for 12s.
+
+r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の行動速度５％ダウン$"=Cast time: 1.41s.\n►Inflicts Curse in 620 range that deals $1 P.DMG/s for 12s.\n►Lowers action speed of enemies within 620 range by 5％ for 12s.
 
 ##UE##
 ローズオブカース=Rose of Curses
+
+
+##S1++##
+Mitsuki
+カースブルーム++=Curse Bloom++
+前方の敵すべてを呪い状態と麻痺状態にし、物理・魔法攻撃力を大ダウン、物理防御力を小ダウン、行動速度を中ダウンさせる。さらに、自分のＴＰを中回復する。範囲内の敵の数に応じて、呪いのダメージとＴＰの回復量が最大３倍までアップする。=Inflicts Curse and Paralysis on all enemies in front, greatly lowers their P.ATK and M.ATK, slightly lowers their P.DEF, and moderately lowers their action speed. Additionally, moderately recovers own TP. Based on the number of enemies in range, the damage dealt by Curse and the amount of TP recovered increase, up to a maximum of 3×.
+
+r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵を一定時間行動不能にする範囲内の敵の物理・魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の行動速度30％ダウン自分のＴＰを250回復$"=Cast time: 1.41s.\nInflicts Curse in 620 range that deals $1 P.DMG/s.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Lowers enemies' P.ATK and M.ATK within range by $2.\n►Lowers enemies' P.DEF within range by $3.\n►Lowers enemies' action speed within range by 30％.\n►Recovers own TP by 250.
