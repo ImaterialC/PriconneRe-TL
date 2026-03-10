@@ -34,6 +34,11 @@ r:"^(\d+)ダメージ分の魔法無効バリアを展開する$"=►Deploys Bar
 ## 260lvl
 最もＴＰが低い味方１キャラのＴＰを中回復し、物理攻撃力と魔法攻撃力を小アップさせる。=Recovers the TP of the party member with the lowest TP by a medium amount, and raise P.ATK and M.ATK by small amount.
 
+
+味方全体の物理・魔法攻撃力を特大アップし、最もＴＰが低い味方１キャラのＴＰを特大回復させる。さらに、【乾杯！】した回数と同じ人数、自分を中心とした範囲内の味方のＴＰを大回復させる。=Massively boosts all allies’ P.ATK and M.ATK, and massively recovers the TP of the ally with the lowest TP. Additionally, greatly recovers the TP of a number of allies in range centered on self equal to the number of [Cheers!] performed.
+r:"^味方単体のＴＰを725回復味方全体の物理・魔法攻撃力を(\d+)アップ乾杯！した数と同じ人数まで、範囲内の味方のＴＰを250回復$"=Cast time: 1.13s.\n►Recovers TP of a single ally by 725.\n►Boosts allies' P.ATK and M.ATK by $1.\n►Recovers TP of allies within range by 250, up to the number of times [Cheers!] has been performed.
+
+
 ##EX##
 プレリュードフィズ=Liquid Courage
 プレリュードフィズ+=Liquid Courage+
@@ -43,16 +48,41 @@ r:"^自分の魔法防御力を(\d+)アップ自分の物理攻撃力を(\d+)ア
 ##UB+##
 セブンスヘブン=Seventh Heaven
 味方全体に魔法無効バリアを展開し、魔法防御力を大アップさせ、さらにＨＰを小回復させる。=Develop a magic invalid barrier to all allies, increase the M.DEF power, and recover the HP smaller.
-r:"^(\d+)ダメージ分の魔法無効バリアを展開する味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Deploys Barrier over all allies that negates $1 M.DMG.\n►Boosts allies' M.DEF by $2 for 18s.\n►Recovers allies' HP by $3.
+## OLD r:"^(\d+)ダメージ分の魔法無効バリアを展開する味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Deploys Barrier over all allies that negates $1 M.DMG.\n►Boosts allies' M.DEF by $2 for 18s.\n►Recovers allies' HP by $3.
+
+
+味方全体に魔法無効バリアを展開し、物理・魔法攻撃力と魔法防御力を大アップさせ、さらにＨＰを小回復させる。【乾杯！】した回数に応じてこのスキルの効果がアップする。=Deploys an M.DMG-nullifying barrier to all allies, greatly boosts their P.ATK, M.ATK, and M.DEF, and additionally slightly recovers their HP. The effects of this skill increase based on the number of [Cheers!] performed.
+r:"^(\d+)ダメージ分の魔法無効バリアを展開する味方全体の物理・魔法攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Deploys Barrier over all allies that negates $1 M.DMG for 18s.\n►Boosts allies' P.ATK and M.ATK by $2 for 18s.\n►Boosts allies' M.DEF by $3 for 18s.\n►Recovers HP for all allies by $4.
 
 ##S1+##
 アクアヴィット+=Aqua Vitae+
 最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP% by a large amount, boosts their M.DEF by a moderate amount, and grants HP Regen.
 最もＨＰが低い味方１キャラのＨＰを大回復させ、さらに魔法防御力を中アップし、継続ＨＰ回復状態を付与する。=Recovers the HP of the party member with the lowest HP by a large amount, boosts their M.DEF by a moderate amount, and grants HP Regen.
-r:"^味方単体のＨＰを(\d+)回復味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's M.DEF by $2 for 12s.\n►Recovers HP by $3/s for 8.5s.
+## OLD r:"^味方単体のＨＰを(\d+)回復味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Boosts an ally's M.DEF by $2 for 12s.\n►Recovers HP by $3/s for 8.5s.
+
+
+最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、魔法防御力を中アップし、継続ＨＰ回復状態を付与する。さらに、【乾杯！】する。【乾杯！】は最大２回まで行う。=Greatly recovers the HP of the ally with the lowest HP percentage, moderately boosts their M.DEF, and grants a continuous HP recovery effect. Additionally, performs [Cheers!]. [Cheers!] can be performed up to 2 times.
+
 
 ##UE##
 エターナルジョッキ=Eternal Tankard
+
+
+
+
+##S1++##
+Yukari
+アクアヴィット++=Aquavit++
+最もＨＰの割合が低い味方１キャラのＨＰを大回復させ、魔法防御力を中アップし、継続ＨＰ回復状態を付与する。さらに、【乾杯！】する。【乾杯！】は最大５回まで行う。=Greatly recovers the HP of the ally with the lowest HP percentage, moderately boosts their M.DEF, and grants a continuous HP recovery effect. Additionally, performs [Cheers!]. [Cheers!] can be performed up to 5 times.
+
+r:"^味方単体のＨＰを(\d+)回復味方単体の魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する乾杯！する$"=Cast time: 1.4s.►Recovers an ally's HP by $1.\n►Boosts an ally's M.DEF by $2 for 12s.\n►Recovers an ally's HP by $3/s for 8.5s.\n►Cheers!
+
+
+
+
+
+
+
 
 ##Comments##
 
