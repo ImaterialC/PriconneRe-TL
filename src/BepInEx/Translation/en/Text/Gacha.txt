@@ -492,6 +492,7 @@ r:"^ガチャチケットを消費してガチャを (\d+) 回引きます。$"=
 10回ガチャチケット
 有償ジュエルを消費してガチャを 1 回引きます。=Consume Paid Jewel to draw the gacha 1 time.
 有償ジュエルを消費してガチャを 10 回引きます。=Consume Paid Jewel to draw the gacha 10 times.
+ノーマルガチャを無料で10回引きます。=Draw Normal Gacha 10 times for free.
 
 
 ------------

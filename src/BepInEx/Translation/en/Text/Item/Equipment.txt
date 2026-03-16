@@ -764,3 +764,8 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 アビスボウＲ=Abyss Bow Ｒ
 ラヴァエッジＲ=Molten Edge Ｒ
 天開の聖剣Ｒ=Sword of Liberation Ｒ
+
+
+人魚姫の霊涙Ｒ=Mermaid Tears Ｒ
+赫怒竜のペンダントＲ=Wyrmswarth Pendant Ｒ
+聖獣の祈念Ｒ=Sacred Steed's Grace Ｒ
