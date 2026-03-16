@@ -419,3 +419,9 @@ _Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(
 
 
 
+/_Game(Clone)/UI Root/ViewsArea/View/ViewGachaTop(Clone)/WidgetOff(Clone)/SlideRight/AnchorRightBottom/CharaDetailButton/Label=ChangeFontSize(18)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewGachaTop(Clone)/WidgetOff(Clone)/SlideRight/AnchorRightBottom/GachaDetailButton/Label=ChangeFontSize(18)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewGachaTop(Clone)/WidgetOff(Clone)/SlideRight/AnchorRightBottom/PartsGachaExchangeInfo/CharaExchangeButton/ButtonLabel=ChangeFontSize(15)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogGachaBonusList(Clone)/ExchangePointObjects/common_dt_bg/Label_HaveExchangePointNum=ChangeFontSize(18)

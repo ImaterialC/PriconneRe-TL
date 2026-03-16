@@ -68,3 +68,4 @@ r:"^深淵討伐戦で(\d+)0億Pt獲得しよう$"=Earn $1 billion Pt in the Aby
 
 トレジャークエストは除く=Except Treasure Quests
 r:"^次元断層で(\d+)回勝利しよう$"="Clear the "Dimensional Fault" $1 times."
+r:"^エルピス討魔戦線でボスバトルを(\d+)回クリアしよう$"=Clear the boss battle $1 times in the Elpis Demonfront.

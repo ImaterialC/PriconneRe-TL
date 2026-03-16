@@ -1733,7 +1733,7 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 【回帰の薔薇】=【Regression Rose】
 対象のＨＰが０になった時：【回帰の薔薇】を消費してＨＰ回復=When target's HP reaches 0: Consumes 【Regression Rose】 to recover HP
 マルチターゲット=Multi-target
-全スキルダメージＴＰ回復不可=TP not recovered from any skill DMG
+全スキルダメージＴＰ回復不可=TP not recovered from any skill damage\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 前から敵３体に凍結=Inflicts Freeze on 3 front enemies
 前から敵３体に魔法防御力ダウン=Lowers M.DEF of 3 front enemies
 
@@ -2384,3 +2384,34 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 
 自身の物理攻撃力に応じてバズナイトに物理攻撃力アップ=Boosts Buzz Knight's P.ATK based on own P.ATK.
+
+前から敵３体にスタン=Stuns the three foremost enemies.
+与えたダメージに応じて自身に物理ダメージ=Deals P.DMG to self based on the damage dealt.
+オーマの漁師に古くから伝わる幻の巨魚。巨躯超速の突進は、全ての船を海の藻屑と化す。しかしその身はこの世のものと思えぬ絶品らしい。=A legendary giant fish passed down among the fishermen of Oma since ancient times. Its massive body and supersonic charge reduce all ships to wreckage in the sea. Yet its flesh is said to be an otherworldly delicacy.
+自身の物理攻撃力が高いほど：割合アップ=The higher own P.ATK: the higher the percentage effect.
+対象のHP70％未満：スタン時間アップ=If the target's HP is below 70%: increases stun duration.
+前方範囲に物理固定ダメージ=Deals fixed P.DMG to enemies in a frontal area.
+
+前から敵１体と周囲に物理ダメージ=Deals P.DMG to the foremost enemy and nearby enemies.
+前から敵１体と周囲をノックバック=Knocks back the foremost enemy and nearby enemies.
+【ＨＰ50％未満時発動】=[Activates when HP is below 50%]
+ボムの場合：スタン=If Bomb: inflicts Stun.
+シンバルの場合：魔法攻撃力ダウン=If Cymbal: reduces M.ATK.
+ハンマーの場合：物理攻撃力ダウン=If Hammer: reduces P.ATK.
+敵全体に下記いずれかの効果=Applies one of the following effects to all enemies.
+愛の力を求め顕現した、負の魔法生物。皆の心の中の愛の力を歪め世界に災いをもたらす。=A negative magical creature manifested in search of the power of love. It twists the love within people's hearts and brings calamity to the world.
+数多の探検家を飲み込んだ幻島の巨鯨。欲望、幻想に憑りつかれた愚者を無慈悲に葬る。=A giant whale of the phantom island that has swallowed countless explorers. It mercilessly buries fools possessed by desire and illusion.
+前から敵４体に魔法ダメージ=Deals M.DMG to the four foremost enemies.
+前から敵４体を大きく打ち上げる=Launches the four foremost enemies high into the air.
+【ＨＰ30％未満時発動】=[Activates when HP is below 30%]
+孤塔の頂に座する、暴虐なる混成魔獣。千変万化の猛攻は、挑む者数多を屠ってきた。=A savage hybrid demon beast seated atop the lone tower. Its ever-changing onslaught has slaughtered countless challengers.
+前方範囲に火傷=Inflicts Burn on enemies in a frontal area.
+前方範囲に物理／魔法防御力ダウン=Reduces P.DEF and M.DEF of enemies in a frontal area.
+【ＨＰ40％未満時発動】=[Activates when HP is below 40%]
+
+いや体力つく前に死ぬわ。=No way, you'd die before building up stamina.
+自身以外の味方全体にHP100％回復=Fully restores HP of all allies except self.
+勧誘可能な上限までキャラを選択してください。=Please select characters up to the recruitment limit.
+規格外のアイデアと歪んだ情熱から爆誕した鋼鉄の巨人。礎となった者の特性を、異常な解釈で再構築し敵の言語中枢と精神を破壊する。=A steel giant born from outlandish ideas and twisted passion. It reconstructs the traits of its foundation through abnormal interpretation, destroying the enemy's language center and mind.
+前から２／３／４番目の敵キャラにＴＰダウン（必中）=Reduces TP of the 2nd/3rd/4th enemies from the front (guaranteed hit).
+前から２／３／４番目の敵キャラに物理ダメージ=Deals P.DMG to the 2nd/3rd/4th enemies from the front.

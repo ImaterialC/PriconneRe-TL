@@ -1,0 +1,21 @@
+##Profile##
+【物理】中衛で、過酷なお尻の世界を生き抜く桃闘者。攻防ダウンを併せ持つＵＢを矢継ぎ早に放ち、ステータスダウン効果で付与する【魅惑の矢】で敵を骨抜きにする。=[Physical] A peach fighter in the midline who survives the harsh world of peach combat. She rapidly unleashes UBs that inflict both offensive and defensive debuffs, and weakens enemies with [Enchanted Arrow] granted by status-down effects.
+
+##UB##
+ピーチツイスターアロー=Peach Twister Arrow
+目の前の最大２キャラまでの敵に物理特大ダメージを与え、物理攻撃力を中ダウン、物理防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせる。さらに、自分の物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップする。=Deals massive P.DMG to up to 2 enemies in front, moderately lowers their P.ATK, slightly lowers their P.DEF, and slightly increases the damage they take when receiving critical hits. Additionally, greatly boosts own P.ATK and slightly boosts own P.CRIT DMG.
+r:"^１番目に近い敵単体に(\d+)の物理ダメージ１番目に近い敵単体の物理攻撃力を(\d+)ダウン１番目に近い敵単体の物理防御力を(\d+)ダウン１番目に近い敵単体の被クリダメを4％アップ２番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体の物理攻撃力を(\d+)ダウン２番目に近い敵単体の物理防御力を(\d+)ダウン２番目に近い敵単体の被クリダメを4％アップ自分の物理攻撃力を(\d+)アップ自分の物理クリダメを8％アップ$"=►Deals $1 P.DMG to the nearest enemy.\n►Lowers the nearest enemy's P.ATK by $2 for 18s.\n►Lowers the nearest enemy's P.DEF by $3 for 18s.\n►Boosts the nearest enemy's CRIT DMG taken by 4％ for 18s.\n►Deals $4 P.DMG to the second nearest enemy.\n►Lowers the second nearest enemy's P.ATK by $5 for 18s.\n►Lowers the second nearest enemy's P.DEF by $6 for 18s.\n►Boosts the second nearest enemy's CRIT DMG taken by 4％ for 18s.\n►Boosts own P.ATK by $7 for 18s.\n►Boosts own P.CRIT DMG by 8％ for 18s.
+
+##S1##
+ウィンターアロー=Winter Arrow
+目の前の最大２キャラまでの敵に物理大ダメージを与え、物理防御力を小ダウン、物理クリティカルを中ダウン、ＴＰを小ダウンさせる。さらに、自分の物理クリティカルを大アップし、ＴＰを中回復する。=Deals large P.DMG to up to 2 enemies in front, slightly lowers their P.DEF, moderately lowers their P.CRIT RATE, and slightly reduces their TP. Additionally, greatly boosts own P.CRIT RATE and moderately recovers own TP.
+r:"^１番目に近い敵単体に(\d+)の物理ダメージ１番目に近い敵単体の物理防御力を(\d+)ダウン１番目に近い敵単体の物理クリティカルを75ダウン１番目に近い敵単体のＴＰを75失わせる２番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体の物理防御力を(\d+)ダウン２番目に近い敵単体の物理クリティカルを75ダウン２番目に近い敵単体のＴＰを75失わせる自分の物理クリティカルを80アップ自分のＴＰを150回復$"=►Deals $1 P.DMG to the nearest enemy.\n►Lowers the nearest enemy's P.DEF by $2 for 12s.\n►Lowers the nearest enemy's P.CRIT RATE by 75 for 12s.\n►Reduces TP of the nearest enemy by 75.\n►Deals $3 P.DMG to the second nearest enemy.\n►Lowers the second nearest enemy's P.DEF by $4 for 12s.\n►Lowers the second nearest enemy's P.CRIT RATE by 75 for 12s.\n►Reduces TP of the second nearest enemy by 75.\n►Boosts own P.CRIT RATE by 80 for 180s.\n►Recovers own TP by 150.
+
+##S2##
+チャーミングチャレンジ=Charming Challenge
+自分の物理攻撃力を大アップ、物理クリティカルを特大アップし、ＴＰを大回復する。さらに敵の【魅惑の矢】が20の場合、対象の【魅惑の矢】を全て消費し、そのキャラの最大ＨＰに応じて最大200万の物理割合ダメージを与える。バトル開始後、初弾のこのスキルは敵全体をステータスダウンを受ける度に、【魅惑の矢】が１つ付与される状態にする。【魅惑の矢】は最大20まで付与される。=Greatly boosts own P.ATK, massively boosts own P.CRIT RATE, and greatly recovers own TP. If an enemy has 20 stacks of [Enchanted Arrow], consumes all stacks to deal percentage P.DMG based on the target's max HP, up to 2,000,000. The first time this skill is used after battle start, grants a state where enemies gain 1 stack of [Enchanted Arrow] each time they receive a status-down effect. [Enchanted Arrow] can stack up to 20 times.
+r:"^初使用時、敵全体をステータスダウン効果を受けるたびに魅惑の矢が付与される状態にする自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを160アップ自分のＴＰを300回復敵の魅惑の矢が20の時、以下の効果が発動する対象の敵の魅惑の矢を全て消費する対象の敵に最大200万の物理割合ダメージを与える$"=►Upon first use, grants a state where each time an enemy receives a status down effect, add 1 [Charm Arrow] to them.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT RATE by 160 for 180s.\n►Recovers own TP by 300.\n\nIf an enemy has 20 [Charm Arrow]:\n►Consumes all [Charm Arrow] on the target enemy.\n►Deals percentage P.DMG to the target enemy (up to 2,000,000).
+
+##EX##
+明鏡尻水の境地=Butt-Water Enlightenment
+明鏡尻水の境地+=Butt-Water Enlightenment+

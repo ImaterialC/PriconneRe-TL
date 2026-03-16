@@ -81,7 +81,15 @@ r:"^味方単体のＨＰを(\d+)回復味方単体の魔法防御力を(\d+)ア
 
 
 
+Shadow
+Yukari
+味方全体に魔法無効バリアを展開し、物理・魔法攻撃力と魔法防御力を大アップさせ、さらにＨＰを小回復させる。【乾杯！】した回数に応じてこのスキルの効果がアップする。=Deploys an M.DMG-nullifying barrier to all allies, greatly boosts their P.ATK, M.ATK, and M.DEF, and slightly recovers their HP. The effects of this skill increase based on the number of [Cheers!] performed.
+味方全体の物理・魔法攻撃力を特大アップし、最もＴＰが低い味方１キャラのＴＰを特大回復させる。さらに、【乾杯！】した回数と同じ人数、自分を中心とした範囲内の味方のＴＰを大回復させる。=Massively boosts all allies' P.ATK and M.ATK, massively recovers the TP of the ally with the lowest TP, and additionally greatly recovers the TP of a number of allies in range centered on self equal to the number of [Cheers!] performed.
+魔法攻撃力を特大アップし、最もＴＰが低い味方１キャラのＴＰを特大回復させる。さらに、【乾杯！】した回数と同じ人数、自分を中心とした範囲内の味方のＴＰを大回復させる。=Massively boosts M.ATK, massively recovers the TP of the ally with the lowest TP, and additionally greatly recovers the TP of a number of allies in range centered on self equal to the number of [Cheers!] performed.
 
+味方全体に魔法無効バリアを展開し、物理=Deploys an M.DMG-nullifying barrier to all allies
+魔法攻撃力と魔法防御力を大アップさせ、さらにＨＰを小回復させる。【乾杯！】した回数に応じてこのスキルの効果がアップする。=greatly boosts their P.ATK, M.ATK, and M.DEF, and slightly recovers their HP. The effects of this skill increase based on the number of [Cheers!] performed.
+味方全体の物理=All allies' P.ATK
 
 
 ##Comments##
