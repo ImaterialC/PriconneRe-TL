@@ -15,7 +15,7 @@ r:"^\[3C404E\]初回クリアでスコア\[-\]\[FFBB00,CE4F00\]([0-9,.]+)pt\[-\]
 スコアレート=Score rate
 ボスリザルト=Boss Result
 初回クリアボーナス=First Clear Bonus
-模擬戦のためスコア、報酬は獲得できません。=Scores and rewards will not be obtained for mock battles.
+模擬戦のためスコア、報酬は獲得できません。=No Scores and rewards earned in mock battles.
 サポートキャラが編成されているため再戦できません。=Rematch is not possible because a support character is included in the team.
 リタイアすると報酬を\n獲得することができません。\n討伐依頼証は消費されません。\n\nよろしいですか？\n=If you quit, you will not receive any rewards. The Subjugation Request Form will not be consumed.\n\nAre you sure?
 
@@ -50,6 +50,9 @@ sr:"^(.{2,6})の所持数が足りません。$"=Insufficient $1.
 
 
 
+復刻ストーリーイベント=Resurect Story Event
+確認できるアイテムがありません。=There are no items to check.
+挑戦回数を消費して1回バトルをスキップします。=Spend a challenge to skip a battle.
 
 ---Tutorial First Time---
 き、き、緊急事態です！　『深域』の最奥地帯である『深淵』から、\nとてつもなく強力な魔物が現れたようです！=Emergency! There's a tremendously powerful monster emerging from the deepest region of the 'Abyss'!

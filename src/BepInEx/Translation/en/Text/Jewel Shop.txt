@@ -19,6 +19,7 @@
 収納BOX拡張=Expand Storage
 スタミナ回復=Recharge Stamina
 価格=Price
+商品=Product
 商品内容の詳細=Details
 r:"^毎日更新 ジュエル ([0-9]+)個$"=Daily Update Jewel $1
 r:"^([1-9])回限定 ジュエル ([0-9]+)個$"="Limited Jewels $2 ($1 left)"

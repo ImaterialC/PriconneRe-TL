@@ -347,3 +347,16 @@ sr:"^(.+)を([0-9,.]+)個獲得…$"=Obtain $2 x $1.
 よぅ！　今日の俺さまは門番じゃなく、店番だぜメモピ～スフィア～てな！=Yo! Today I’m not a gatekeeper, I’m a shopkeeper—Memo-Pi~Sphere~!
 こ、この格好は…ヴルムが集客効果があると言って……本当でしょうか？=Th-this outfit is… Vurm said it would attract customers… Is that really true?
 はっ！　ヒーローさんからお代なんて頂けないです！どうぞどうぞ…え、ダメ？=Ah! I can’t accept payment from a hero! Please, go ahead… Huh, no?
+
+
+
+
+
+サレンの思い出ぎっしり焼きそばパン=Saren’s Memory-Packed Yakisoba Bread
+「ショップマス」「ミニゲームマス」「イベントマス」をスキップして移動できる。効果は3ターンの間継続する。=Allows you to move while skipping “Shop Spaces,” “Minigame Spaces,” and “Event Spaces.” Effect lasts for 3 turns.
+サレンが作った思い出の焼きそばパン。どっしりしたボリュームある炭水化物×炭水化物の信頼感で皆を笑顔に変える。専用の皿に盛り付けたら見栄えも十分。カロリーは気にしないのがお作法。=Yakisoba bread made by Saren, filled with memories. The hearty combination of carbs × carbs brings smiles to everyone. Served on a special plate, it even looks great. Ignoring the calories is proper etiquette.
+マイルマスをスキップして移動できる。効果は3ターンの間継続する。=Allows you to move while skipping Mile Spaces. Effect lasts for 3 turns.
+アラクネが初めて覚えた料理。周囲の人々が自分より小さいのは小食が理由と思っているらしく、たくさん食べて大きくなってほしいという優しさから、超ボリュームなデカ盛り仕様となった。=The first dish Arachne ever learned to make. Believing others are smaller because they eat less, she made it extra large out of kindness, hoping everyone will eat a lot and grow big.
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で…=[3C404E][FF7C4E,D62146][Cannot be overwritten][-]Instead of being able to eat “Movement-type category dishes” next turn, on the spot...
+[3C404E][FF7C4E,D62146]【上書き不可】[-]次のターン「移動系カテゴリーの料理」が食べられない代わりに、その場で貴重な未鑑定トレジャーを3個獲得する。[-]=[3C404E][FF7C4E,D62146][Cannot be overwritten][-]Instead of being able to eat “Movement-type category dishes” next turn, you immediately obtain 3 valuable unidentified treasures.[-]
+レイが釣った魚の塩焼き。試行錯誤の末に理想の塩と火の加減にたどり着いた。調理は真剣勝負で釣りと同様、己の心との戦いだという。レイも時々、集中しすぎて仲間に心配されているとか。=Salt-grilled fish caught by Rei. After much trial and error, she perfected the balance of salt and heat. Cooking is a serious battle, just like fishing—a struggle against one’s own mind. Sometimes, Rei gets so focused that her companions worry about her.

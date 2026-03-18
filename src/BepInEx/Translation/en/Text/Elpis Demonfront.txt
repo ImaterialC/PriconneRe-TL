@@ -42,10 +42,12 @@
 sr:"^難易度(.+?)の(.+)を(.+)秒以上残してクリアしよう$"=Clear the $1 difficulty $2 with $3 or more remaining.
 sr:"^難易度(.+?)の(.+)をパーティ(.)までにクリアしよう$"=Clear the $1 difficulty $2 using only $3 party.
 
-r:"^難易度(.+)クリア$"=Clear $1 difficulty
+r:"^難易度(.+?)クリア$"=Clear $1 difficulty
 
 r:"^期間限定ミッション([0-9:：/～\- ]+)$"=Event Mission$1
 
+
+sr:"^(.)属性か(.)属性だけを編成して難易度(.+?)の(.+)をパーティ(.)までにクリアしよう$"=Clear the $3 difficulty $4 using only $1 or $2 elemental within $5 party.
 
 １つ前の難易度=The previous difficulty level
 
@@ -84,11 +86,17 @@ r:"^難易度ボーナス ×([0-9,.]+)$"=Difficulty Bonus ×$1
 
 sr:"^(.)属性のキャラが(.)体以上編成されているとき、\n?キャラの属性ボーナスが強化される。(.)属性と(.)属\n?性以外の属性ボーナスを無効化する。$"=When $1 or more $2-element characters are in the party, the characters’ Elemental Bonus is enhanced. Elemental Bonuses other than $3 and $4 are nullified.
 
-「エルピス討魔戦線」は、地下深くより湧きし魔物を討伐するイベントで\nございます。こちらのバトルでは、コネクトRANKボーナスが強化され\nるようですよ。また「遺物」の装備によっても強化を得られるのだとか。=“Elpis Demon-Suppression Frontline” is an event where you subjugate monsters that surge forth from deep underground.\nIn these battles, the Connect RANK bonus will be enhanced.\nYou can also gain additional boosts by equipping “Relics.”
+「エルピス討魔戦線」は、地下深くより湧きし魔物を討伐するイベントで\nございます。こちらのバトルでは、コネクトRANKボーナスが強化され\nるようですよ。また「遺物」の装備によっても強化を得られるのだとか。=“Elpis Demon Subjugation Frontline” is an event where you subjugate monsters that surge forth from deep underground.\nIn these battles, the Connect RANK bonus will be enhanced.\nYou can also gain additional boosts by equipping “Relics.”
 ボスの初回クリア時や、撃破時に得られるポイントを集めることで報酬が\n獲得できます。ポイントは撃破までのタイムが短いほど多く得られるよう\nです。コネクトRANK強化アイテムの入手を目指して頑張りましょう。=You can earn rewards by collecting points obtained from your first clear of a boss and from defeating it.\nThe shorter the time it takes to defeat the boss, the more points you will earn.\nDo your best to obtain Connect RANK enhancement items.
 
+難易度NORMALをクリアしたため、次の難易度が解放されました。難易度が上がると、貰えるスコアや報酬が増えるので、より高い難易度のボスに挑戦してみましょう。=Since you cleared NORMAL difficulty, the next difficulty has been unlocked.\n\nHigher difficulties grant more score and rewards, so try challenging stronger bosses.
 
 
+
+エルピス討魔戦線モンスター討伐演出設定の確認ダイアログ=Confirmation dialog for Elpis Demonfront monster defeat animation settings
+エルピス討魔戦線のモンスター討伐演出を再生するか設定します。=Set whether to play monster defeat animations in Elpis Demonfront.
+エルピス討魔戦線のモンスター討伐演出設定=Monster Defeat Animation Settings for Elpis Demonfront
+エルピス討魔戦線を開始する前に、モンスター討伐演出設定を確認するダイアログを開きます。=Opens a dialog to confirm monster defeat animation settings before starting Elpis Demonfront.
 
 
 遺物詳細=Artifact Details

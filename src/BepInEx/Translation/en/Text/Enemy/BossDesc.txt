@@ -2415,3 +2415,23 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 規格外のアイデアと歪んだ情熱から爆誕した鋼鉄の巨人。礎となった者の特性を、異常な解釈で再構築し敵の言語中枢と精神を破壊する。=A steel giant born from outlandish ideas and twisted passion. It reconstructs the traits of its foundation through abnormal interpretation, destroying the enemy's language center and mind.
 前から２／３／４番目の敵キャラにＴＰダウン（必中）=Reduces TP of the 2nd/3rd/4th enemies from the front (guaranteed hit).
 前から２／３／４番目の敵キャラに物理ダメージ=Deals P.DMG to the 2nd/3rd/4th enemies from the front.
+
+
+自身に重複可能の行動速度アップ=Grants stackable Action Speed Up to self
+自身の物理攻撃力が高いほど：ダウン量上昇=The higher own P.ATK, the greater the reduction amount.
+対象が火傷状態：ダメージアップ=If the target is inflicted with Burn: damage increases.
+５秒後に対象のＨＰ80％未満：沈黙=After 5 seconds, if the target's HP is below 80%: inflicts Silence.
+対象のＨＰ60％未満：束縛=If the target's HP is below 60%: inflicts Bind.
+大地に穿たれし禍穴より現れた、災いをもたらす巨竜。放たれる猛炎は万象を焼き尽くし、愚かなる冒険者の覚悟を、希望を灰燼へと帰す。=A calamity-bringing giant dragon that emerged from a cursed chasm carved into the earth. Its raging flames burn all creation to ashes, reducing the resolve and hope of foolish adventurers to cinders.
+前から１番目の敵を中心に物理／魔法ダメージ　フィールド=Deploys a field centered on the foremost enemy that deals P.DMG and M.DMG.
+敵全体に猛毒=Inflicts Poison on all enemies.
+ＴＰ回復減少=Reduces TP recovery.
+ぺんぽこりんを召喚=Summons Penpokorin.
+ぺんぽこりんのＨＰを回復=Restores HP of Penpokorin.
+自身HP50％未満：自身に魔法防御力ダウン=[When own HP is below 50%]: reduces own M.DEF.
+自身がバリア状態：自身にＴＰ回復=If self is under a barrier: restores own TP.
+自身がバリア状態でない：自身にＴＰダウン=If self is not under a barrier: reduces own TP.
+自身HP50％未満：自身に魔法無効バリア=[When own HP is below 50%]: grants self a magic null barrier.
+自身HP50％以上：自身に物理防御力ダウン=[When own HP is 50% or above]: reduces own P.DEF.
+自身HP50％以上：自身に物理無効バリア=[When own HP is 50% or above]: grants self a physical null barrier.
+完全な力を取り戻した太古の人工生命体。無限の動力から編み出された防壁は、いかなる攻撃も無に帰す。=An ancient artificial lifeform that has regained its full power. The barrier woven from its infinite energy nullifies any attack.
