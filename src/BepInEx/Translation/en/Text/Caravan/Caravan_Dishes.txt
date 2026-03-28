@@ -184,6 +184,10 @@ r:"^(\d)/(\d)食事済$"=$1/$2 Meals
 【料理】移動時にトレジャーマスをスキップできる=[Cooking] Skip Treasure Tiles when moving
 【料理】「マイルマス」を「トレジャーマス」に変化させる=[Cooking] Change Mile Tiles into Treasure Tiles
 
+【料理】移動時に「ショップマス」「ミニゲームマス」「イベントマス」をスキップできる=[Cooking] Allows you to skip “Shop Spaces,” “Minigame Spaces,” and “Event Spaces” when moving
+
+
+
 ---Sub-effects---
 r:"^([0-9,.]+)マイルを獲得する。?$"=Acquire $1 miles.
 r:"^RANK(\d+)のマイルショップを開く。$"=Open a RANK$1 mile shop.

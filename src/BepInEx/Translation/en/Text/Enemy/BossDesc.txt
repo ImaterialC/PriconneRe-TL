@@ -2435,3 +2435,14 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 自身HP50％以上：自身に物理防御力ダウン=[When own HP is 50% or above]: reduces own P.DEF.
 自身HP50％以上：自身に物理無効バリア=[When own HP is 50% or above]: grants self a physical null barrier.
 完全な力を取り戻した太古の人工生命体。無限の動力から編み出された防壁は、いかなる攻撃も無に帰す。=An ancient artificial lifeform that has regained its full power. The barrier woven from its infinite energy nullifies any attack.
+
+
+対象が２体以上：魔法割合追加ダメージ=If there are 2 or more targets: deals additional percentage M.DMG.
+前から敵１体に物理／魔法与ダメダウン（必中）=Reduces P.DMG dealt and M.DMG dealt of the foremost enemy (guaranteed hit).
+前から１番目の敵を中心に物理／魔法与ダメダウンフィールド=Deploys a field centered on the foremost enemy that reduces P.DMG dealt and M.DMG dealt.
+残りＨＰ割合が最も低い敵１体に束縛（挑発／召喚体無視）=Inflicts Bind on the enemy with the lowest remaining HP percentage (ignores Taunt and summons).
+敵全体に物理／魔法クリダメダウン（必中）=Reduces P.CRIT DMG and M.CRIT DMG of all enemies (guaranteed hit).
+対象が行動不能状態：ＴＰダウン=If the target is unable to act: reduces TP.
+対象が行動不能状態：魔法追加ダメージ=If the target is unable to act: deals additional M.DMG.
+ＴＰ増加不可無視=Ignores TP gain prevention.
+目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、物理攻撃力と魔法攻撃力を特大ダウン、物理防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせる。このスキルのダメージと攻撃力・防御力ダウンの効果量は【魔眼】の数に応じて上昇する。=Deals major P.DMG to all enemies in a range centered on the nearest enemy, greatly reduces P.ATK and M.ATK, slightly reduces P.DEF, and slightly increases damage taken from critical hits. The damage and the amount of ATK/DEF reduction increase based on the number of [Magic Eyes].

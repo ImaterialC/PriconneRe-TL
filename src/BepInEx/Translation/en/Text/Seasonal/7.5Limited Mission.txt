@@ -35,8 +35,6 @@ r:"^メインストーリー第(\d+)部第(\d+)章をすべて閲覧しよう$"=
 
 
 r:"^深域クエストでいずれかの属性の(.+?)をクリアしよう$"=Clear $1 of any element in Deep Region Quests.
-r:"^覇瞳皇帝の領域(\d+)層をクリアしよう$"=Clear Level $1 of the Tyrant-Eyed Emperor’s Domain.
-r:"^ゼーンの領域(\d+)層をクリアしよう$"=Clear Level $1 of Zane’s Domain.
 煉獄のリベリオンをクリアしよう=Clear Purgatory Rebellion
 
 

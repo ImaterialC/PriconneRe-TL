@@ -170,3 +170,6 @@ r:"^本日の出現数　([0-9/]+)回$"=Appearance Today: $1
 獲得したアイテムは直接付与されます。=Items obtained will be added directly.
 交換しました。=Exchanged.
 ピース交換完了=Shard exchange complete
+
+
+こちらのタブは現在使用できません。「メニュー」の「ジュエルショップ」から購入してください。=This tab is currently unavailable. Please purchase it from the “Jewel Shop” in the “Menu”.

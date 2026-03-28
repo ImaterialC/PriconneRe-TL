@@ -57,9 +57,16 @@ Anniv. スペシャル交換チケットについて=Anniv. Sp Exchange Ticket
 ★3確定 プリコネフェス記念ガチャチケット=Guarantee ★3 Pricone-FES Memorial Gacha Ticket
 r:"^★3確定 プリコネフェス(\d*)記念ガチャチケット$"=Guarantee ★3 PriCone-FES $1 Memorial gacha ticket
 r:"^★3確定 ([0-9,.]+)周年記念ガチャチケット$"=Guarantee ★3 $1th Anniversary Gacha Ticket
+
+★3確定 プリコネフェス2026記念ガチャチケット=Guaranteed ★3 Priconne Fest 2026 Commemorative Gacha Ticket
+ウマ娘「The Game Awards 2025」受賞記念★3確定ガチャチケット=Uma Musume “The Game Awards 2025” Commemorative Guaranteed ★3 Gacha Ticket
+★3確定 Sダッシュミッションガチャチケット=Guaranteed ★3 S Dash Mission Gacha Ticket
 ★3確定プラチナガチャ=Guarantee ★3 Premium Gacha
 ★3確定ガチャ=Guarantee ★3 Gacha
 sr:"^★3確定( )?(.*)?(ガチャ)(チケット)?$"=Guarantee ★3 $2 $3 $4
+
+sr:"^(.+?)を消費してガチャを1回引きます。$"=Use $1 to perform 1 draw.
+
 出現率UP=Boosted rates
 
 選択人数が不足しています。=The number of selections is insufficient.

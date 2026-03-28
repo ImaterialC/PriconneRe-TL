@@ -1,3 +1,5 @@
+明日5:00以降のログインでミッションが進行します。=Missions will progress when you log in after 5:00 tomorrow.
+獲得できるミッション報酬がありません。=There is no reward for this mission.
 
 シーズンパス=Season Pass
 Lv購入=Purchase Lv
@@ -69,3 +71,10 @@ r:"^深淵討伐戦で(\d+)0億Pt獲得しよう$"=Earn $1 billion Pt in the Aby
 トレジャークエストは除く=Except Treasure Quests
 r:"^次元断層で(\d+)回勝利しよう$"="Clear the "Dimensional Fault" $1 times."
 r:"^エルピス討魔戦線でボスバトルを(\d+)回クリアしよう$"=Clear the boss battle $1 times in the Elpis Demonfront.
+r:"^クランバトルに合計(\d+)回挑戦しよう$"="Participate in the "Clan Battle" $1 times"
+
+ルナの塔頂上をクリアしよう=clear the top of Luna's Tower.
+
+r:"^覇瞳皇帝の領域(\d+)層をクリアしよう$"=Clear Level $1 of the Kaiser Insight’s Domain.
+r:"^ゼーンの領域(\d+)層をクリアしよう$"=Clear Level $1 of Zane’s Domain.
+r:"^アラクネの領域(\d+)層をクリアしよう$"=Clear Level $1 of Arachne's Domain.
