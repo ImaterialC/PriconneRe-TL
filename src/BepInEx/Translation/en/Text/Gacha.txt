@@ -526,3 +526,5 @@ r:"^ガチャチケットを消費してガチャを (\d+) 回引きます。$"=
 [3C404E]10キャラ目は[FFBB00,CE4F00]ピックアップキャラの出現率3倍！=[3C404E]10th character has a [FFBB00,CE4F00]3x the chance of featured characters appearing!
 スペシャルガチャ=Special Gacha
 
+マスターピース×１獲得可能！=Obtain a Masterpiece x1!
+有償ジュエル限定！[3C404E]10キャラ目は[FFBB00,CE4F00]★3キャラ確定！=Paid jewels only! [3C404E] The 10th character is guaranteed to be a [FFBB00,CE4F00]★3 character !
