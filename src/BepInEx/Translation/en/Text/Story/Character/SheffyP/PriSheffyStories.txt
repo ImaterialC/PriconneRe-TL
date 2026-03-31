@@ -169,7 +169,7 @@ Player Prompts
 あの人もシェフィちゃんが助けたんだよ。=You saved him, Sheffy
 
 Chapter 3
-【美食殿】のギルドハウスに帰還して数日後。\nシェフィと{playername}は再び\nジオ・ゲヘナへ戻り、特訓に励んでいた。=A few days after returning to the Gourmet Guild guildhouse, Sheffy and {playername} returned to Geo Gehenna once again to resume their training.
+【美食殿】のギルドハウスに帰還して数日後。\nシェフィと{playername}は再び\nジオ・ゲヘナへ戻り、特訓に励んでいた。=A few days after returning to the Gourmet Guild guildhouse, Sheffy and {playername} returned to Gio Gehenna once again to resume their training.
 いくわよ？\nはぁっ……！=I'll start, okay? HAAH...!
 きっと運送ギルドで手伝いをしたおかげね。\nほら、あのときトゥンヌスをたくさん冷凍したでしょ？\n魔法をたくさん使ったのが、感覚を取り戻すいい訓練になったんだわ。=I'm sure it's all thanks to the help I've been giving back home with the Delivery Guild. You know, remember how I froze a lot of Tunnus back then? Using a lot of magic was good training for me to get my senses back.
 けど……正直なところ、まだ自信がないの。\nプリンセスフォームのほうは、使いこなせているとは\n言えないし……=But... to be honest, I still don't have much confidence in myself. I can't say I've truly mastered my Princess Form yet either...
@@ -209,7 +209,7 @@ Chapter 3
 そうさ！\nさあ、かかっておいで！\n来なけりゃこっちから行くよ！=Righto! Come on, come at me! If you don't, I'll come for you!
 えっ……\n……ええっ！？=Eh........EEEHHHHH!?
 いたた……\nすっかり筋肉痛になっちゃった。\n熱くなりすぎはダメね。=Ouch... I've got some serious muscle pain now. It seems I got too heated.
-でもおかげで、ちょっとは打たれ強くなれたのかしら。\nジオ・ゲヘナの人たちも「いい線いってる」って褒めてくれたもの。=But thanks to that, I guess I've become a little more resilient. Even the people at Geo Gehenna praised me, saying, "You're doing pretty well."
+でもおかげで、ちょっとは打たれ強くなれたのかしら。\nジオ・ゲヘナの人たちも「いい線いってる」って褒めてくれたもの。=But thanks to that, I guess I've become a little more resilient. Even the people at Gio Gehenna praised me, saying, "You're doing pretty well."
 そうするわ。\nランドソルから本を持ってきておいてよかった。\n戦いにも知識は必要だし、体を休ませる間に読めるもの。=I sure will. I'm glad I brought some books from Landosol. Knowledge is necessary for battle, and I can read them while I take a break.
 この本はとある剣客が書いた指南書で、\nこっちはルーセント学院推薦の魔法書。それから……\n……ちょっと借り過ぎた気もするけど、片っ端から読みましょう。=This book is a guidebook written by a certain swordsman, while this one is a magic book recommended by Lucent Academy. Furthermore we have... ...I feel like I might've borrowed a tad too many, I should just read one by one.
 プレシアちゃん、そっちの本はどう？\n参考になりそうなものを持ってきたつもりだけれど……=Precia, what do you think of that book? I thought I'd brought something that might be useful, but...
@@ -235,7 +235,7 @@ Chapter 3
 ……頼りにされたいのは、本当の気持ち。\nいつまた特訓できるかわからないもの、\n今のうちにもっともっと強くなっておかないと。=...Wanting to be relied on, those are my true feelings. I don't know when I'll be able to train again, so I need to get stronger while I still can.
 あんまり長く彼に付き合ってもらうのも申し訳ないし。\n私たちだけで、何かいいアイデアが思いつけばいいけど……=I don't want to rely on him forever like we are now. I hope we can come up with some good ideas on our own...
 つよさのひけつ。\nきいた。\nよ。=Secret to new strength. I heard. About it.
-それって、もしかして、ジオ・ゲヘナの人たちが\n強い理由、ってこと？\n教えてもらってきたの？=You mean you found a secret from the people of Geo Gehenna on how to get stronger? Did you learn it already?
+それって、もしかして、ジオ・ゲヘナの人たちが\n強い理由、ってこと？\n教えてもらってきたの？=You mean you found a secret from the people of Gio Gehenna on how to get stronger? Did you learn it already?
 れんしゅうすぽっと。\nいこ。\n……ないしょ。=Not yet. Practice spot. Let's go. ...Keep secret.
 ここが練習スポット、なのね。\n魔物の気配がたくさんするわ……みんなここで戦って訓練するのね。\n……ここなら確かに強くなれそうだわ。=So this is the practice spot, huh? I can sense a lot of monsters here... Everyone fights and trains here. ...I'm sure we'll be able to get stronger here.
 ええ。\n{playername}に言ったら「危ない」って\n止められそうな場所だけど……=Yeah. If I just told {playername}, I'm sure he'd say it's too dangerous and block us, so...
@@ -380,7 +380,7 @@ Chapter 4
 でも、みんなに迷惑をかけられないわ！\n戦った後で疲れてるのに\n赤ちゃんの面倒までみたくはないでしょう？=But...! I can't keep causing trouble for everyone. You're all going to be tired after fighting, and taking care of an unruly baby is the last thing you'd want, right?
 それは……確かにそうね。=That's... true.
 ひとりで努力するのも大事だけど、\nみんなで手を取り合えば、もっと大きな力が出せるのよね。\n……私も今日、実感したわ。=Working hard on your own is important, but if we all join hands, we can achieve even greater results. ...I realized that today once more.
-ええ、そうね。\nそして、一緒に行きましょう──\nジオ・ニヴルヘルへ。=Yes... you're right. And then we'll go together... to Geo Niflhell!
+ええ、そうね。\nそして、一緒に行きましょう──\nジオ・ニヴルヘルへ。=Yes... you're right. And then we'll go together... to Gio Nivlhel!
 自らが成したこと、そして自分自身と向き合い、\n改めて多くの気づきを得たシェフィ。\n彼女は決意を胸に、新たな地へと向かうのだった。=Having faced what she had accomplished and herself, Sheffy gained many new realizations. With determination in her heart, she sets off for a new world with her friends.
 
 New Titlecard

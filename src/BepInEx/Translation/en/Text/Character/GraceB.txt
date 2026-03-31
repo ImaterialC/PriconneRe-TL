@@ -1,0 +1,23 @@
+##Profile##
+【物理】中衛で、妖しく跳ねるバニーの幽霊守護騎士。物理攻撃力を代償に物理クリダメを極大アップし、【ブラックうさ耳】で油断した敵の虚を突き、御首を頂戴する。=[Physical] A ghostly guardian knight in bunny form who eerily leaps about from the midline. She sacrifices P.ATK to massively boost P.CRIT DMG, and strikes at careless enemies with [Black Bunny Ears] to claim their heads.
+
+##UB##
+アメイジング・グレイシャス=Amazing Gracious
+目の前の敵１キャラに物理特大ダメージを２回与え、自分に【ブラックうさ耳】を付与する。【ブラックうさ耳】が付与されている間、自分の攻撃は必ずクリティカルする。=Deals massive P.DMG twice to an enemy in front and grants self [Black Bunny Ears]. While [Black Bunny Ears] is active, all of own attacks always land critical hits.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ自分にブラックうさ耳を付与する$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Grants [Black Bunny Ears] to self for 18s.
+
+
+##S1##
+死霊の棒踊り=Undead Stick Dance
+目の前の敵１キャラに物理大ダメージを２回与え、自分のＴＰを中回復する。=Deals large P.DMG twice to an enemy in front and moderately recovers own TP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ自分のＴＰを150回復$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Recovers own TP by 150.
+
+
+##S2##
+剣磨・研ぎ田楽=Sword Polish: Togi Dengaku
+自分の物理攻撃力を中ダウンさせるが、物理攻撃クリティカル時のダメージを極大アップする。さらに、敵全体を凍結させ、自分のＴＰを特大回復し、自分以外の味方全体のＴＰを小回復する。バトル開始後、初弾のこのスキルは自分を敵にクリティカルでダメージを与えるたびにそのキャラの最大ＨＰに応じて最大50万の物理割合ダメージを与える状態にする。=Moderately lowers own P.ATK, but massively boosts own P.CRIT DMG. Additionally, inflicts Freeze on all enemies, massively recovers own TP, and slightly recovers TP of all allies except self. The first time this skill is used after battle start, grants a state where each time self deals critical damage to an enemy, deals percentage P.DMG based on that enemy’s max HP, up to a maximum of 500,000.
+r:"^自分の物理攻撃力を現在値の40％ダウン自分の物理クリダメを100％アップ敵全体を一定時間行動不能にする自分のＴＰを1000回復自分以外の味方全体のＴＰを100回復初使用時、クリティカルでダメージを与えるたびに敵単体に最大50万の物理割合ダメージを与える状態になる$"=►Reduces own P.ATK by 40％ of current value for 18s.\n►Boosts own P.CRIT DMG by 100％ for 18s.\n►Inflicts Frozen on all enemy targets for 1.5s.\n►Recovers own TP by 1000.\n►Recovers TP for all allies (excluding self) by 100.\n►Upon first use, grants a state where each time a critical hit is dealt, deal Fixed P.DMG equal to 5% of Max HP (up to 500,000) to a single enemy.
+
+##EX##
+インレ・ラーの跳影=Inre Ra’s Leaping Shadow
+インレ・ラーの跳影+=Inre Ra’s Leaping Shadow+

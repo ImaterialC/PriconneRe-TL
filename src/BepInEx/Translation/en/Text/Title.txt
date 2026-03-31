@@ -109,6 +109,10 @@ sr:"^(.+?)(EASY|NORMAL|HARD|VERY HARD|SPECIAL|EXHIBITION＋)討伐！$"=Defeat a
 クランバトル（クランモード）で3000位以内に入ろう=Get into the top 3,000th place in Clan Battle (Clan Mode)
 クランバトル（クランモード）で1000位以内に入ろう=Get into the top 1000 in Clan Battle (Clan Mode)
 クランバトル（クランモード）で100位以内に入ろう=Get into the top 100 in Clan Battle (Clan Mode)
+
+誕生日を迎えたプリンセスのバースデー称号です。=This is a birthday title for a princess celebrating her birthday.
+
+
 スペシャルダンジョンを1回登頂しよう=Climb a Special Dungeon 1 Time
 スペシャルダンジョンを2回登頂しよう=Climb a Special Dungeon 2 Times
 スペシャルダンジョンを3回登頂しよう=Climb a Special Dungeon 3 Times

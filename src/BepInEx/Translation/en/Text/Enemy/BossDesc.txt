@@ -1628,7 +1628,7 @@
 自身に行動速度アップ=Increases own action speed.
 自身に継続ダメージ=Inflicts continuous damage on self.
 
-ジオ・ニヴルヘルを縄張りとし、闇に潜み獲物を待ち伏せる。彷徨う者たちを夢幻に誘う。=A creature that claims Gio Niflheim as its territory, lurking in the darkness to ambush its prey. It lures wanderers into a dreamlike illusion.
+ジオ・ニヴルヘルを縄張りとし、闇に潜み獲物を待ち伏せる。彷徨う者たちを夢幻に誘う。=A creature that claims Gio Nivlhel as its territory, lurking in the darkness to ambush its prey. It lures wanderers into a dreamlike illusion.
 
 バトル開始時、味方全体の物理防御力と魔法防御力を小アップ。（ダウン不可）=At the start of the battle, slightly increases P.DEF and M.DEF of all allies. (Cannot be reduced)
 ユニオンバーストは、物理もしくは魔法攻撃力が最も高い敵１キャラのステータスアップ効果を解除後、魔法特大ダメージを与え、ＴＰを特大ダウン。ダメージを無効化してもＴＰダウン。=Union Burst: removes stat buffs from the enemy with the highest P.ATK or M.ATK, then deals massive M.DMG and greatly reduces their TP. Even if the damage is negated, the TP reduction still applies.
@@ -2446,3 +2446,20 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 対象が行動不能状態：魔法追加ダメージ=If the target is unable to act: deals additional M.DMG.
 ＴＰ増加不可無視=Ignores TP gain prevention.
 目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、物理攻撃力と魔法攻撃力を特大ダウン、物理防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせる。このスキルのダメージと攻撃力・防御力ダウンの効果量は【魔眼】の数に応じて上昇する。=Deals major P.DMG to all enemies in a range centered on the nearest enemy, greatly reduces P.ATK and M.ATK, slightly reduces P.DEF, and slightly increases damage taken from critical hits. The damage and the amount of ATK/DEF reduction increase based on the number of [Magic Eyes].
+
+
+
+前から敵３体に呪い（ＴＰ回復不可=Inflicts Curse on the three foremost enemies (prevents TP recovery).
+前から敵３体に恐慌=Inflicts Panic on the three foremost enemies.
+前から２／３番目の敵にスタン=Inflicts Stun on the 2nd/3rd enemies from the front.
+前から２／３番目の敵に魔法ダメージ=Deals M.DMG to the 2nd/3rd enemies from the front.
+対象が恐慌状態：混乱=If the target is inflicted with Panic: inflicts Confusion.
+旧支配者の眷属を自称する、高笑いとマ$1ウンティングが十八番の傲慢令嬢。冥界で眠りに$1ついていた女神を依り代として信者拡大を謀る。=An arrogant young lady who claims to be a servant of the Old Ones, known for her cackling laughter and condescending attitude. She seeks to expand her followers by using a goddess who had been slumbering in the underworld as her vessel.
+敵全体に継続ダメージアップ=Increases continuous damage taken by all enemies.
+前から敵２体に物理攻撃力ダウン=Reduces P.ATK of the two foremost enemies.
+後ろから２番目中心範囲攻撃、毒=Deals area damage centered on the second enemy from the back and inflicts Poison.
+
+
+幻夢郷の狂信者=Fanatics of Phantasmagoria
+旧支配者の眷属を自称する、高笑いとマウンティングが十八番の傲慢令嬢。冥界で眠りについていた女神を依り代として信者拡大を謀る。=A proud young lady who claims to be a minion of the Old Ones, whose trademarks are loud laughter and one-upmanship. She seeks to expand her followers by using a goddess who was sleeping in the underworld as a vessel.
+前から２番目攻撃、物防ダウン（ダメージ無効化時も付与）=Attacks the second target from the front, reduces physical defense (applies even when damage is nullified).
