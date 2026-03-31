@@ -38,9 +38,6 @@ Kasumi
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする自分に証拠を１つ付与する$"=►Deals $1 M.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Grants 1 [Evidence] to self.
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする自分に証拠を１つ付与する証拠が５つの場合、以下の効果が発動する範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の被クリダメを8％アップ範囲内の敵の攻撃力アップ効果を解除する$"=►Deals $1 M.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Grants 1 [Evidence] to self.\n\nIf [Evidence] is 5:\n►Deals $2 M.DMG to enemies within range.\n►Boosts enemies' CRIT DMG taken within range by 8％.\n►Removes ATK Up effects from enemies within range.
 
-
-
-
 Miyako
 う～ら～め～し～や～なの++=Ura~me~shi~ya~nano++
 【変身】幽霊に変身し、しばらくの間無敵状態になる。また、自分の回避を特大アップさせ、さらに物理防御力を大アップさせる。目の前の敵１キャラが呪い状態でない場合、呪い状態にし、呪い状態であり呪詛状態でない場合、呪詛状態にする。=[Transform] Transforms into a ghost and becomes invincible for a short time. Additionally, massively boosts own evasion and greatly boosts own P.DEF. If the enemy in front is not under Curse, inflicts Curse. If the enemy is under Curse but not under Hex, inflicts Hex.
