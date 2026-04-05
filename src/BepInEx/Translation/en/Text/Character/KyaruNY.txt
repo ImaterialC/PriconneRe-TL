@@ -7,15 +7,16 @@
 やさしさに触れるとき=A Touch of Kindness
 優しさに触れるとき=A Touch of Kindness
 
-##UB##
+
+##OLD UB##
 ニューイヤーバースト=New Year Burst
 目の前の敵１キャラに魔法特大ダメージを与え、さらに魔法攻撃力を中アップさせる。このスキルで与えたダメージ量に応じて、攻撃力の上昇量がアップする。=Deals massive M.DMG to an enemy directly in front and moderately boosts own M.ATK. M.ATK boost increases based on the damage dealt by this skill.
 
-##S1##
+##OLD S1##
 シャドウバレット=Shadow Bullet
 目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
 
-##S2##
+##OLD S2##
 ウィッシングフィールド=Wishing Field
 味方全体の魔法攻撃力を中アップさせ、さらに物理無効バリアを展開する。自分の魔法攻撃力が高い程、バリアの無効ダメージ量がアップする。=Moderate boost to allies' M.ATK, and deploys a barrier that negates P.DMG around them. Damage negated by barrier increases based on own M.ATK.
 r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=►Boosts allies' M.ATK by $1 for 12s.\n►Deploys Barrier over all allies that negates $2 (+0.08×M.ATK) P.DMG for 12s.
@@ -24,9 +25,27 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理
 デザイアベール=Veil of Desire
 デザイアベール+=Veil of Desire+
 
-##S1+##
+##OLD S1+##
 シャドウバレット+=Shadow Bullet+
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与える。=Deals massive M.DMG to all enemies in range of enemy directly in front.
 
 ##UE##
 賀正猫耳の羽子板=Gasho Cat's Ear Racket
+一筆入魂の猫抱負=Cat’s Resolution of Single-Stroke Devotion
+
+
+##UB##
+目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を中アップさせる。このスキルで与えたダメージ量に応じて、魔法攻撃力の上昇量がアップする。【謹賀の羽子】が99の場合、１度だけ自分のダメージブーストを短時間特大アップし、以降【謹賀の羽子】が11以上付与されている場合、【謹賀の羽子】を11消費し、自分のＴＰを特大回復するようになる。=Deals massive M.DMG to an enemy in front and moderately boosts own M.ATK. The amount of M.ATK boosted increases based on the damage dealt by this skill. If [Happy New Year's Shuttlecock] is at 99, greatly boosts own Damage Boost for a short time once. Afterward, if [Happy New Year's Shuttlecock] is at 11 or more, consumes 11 stacks to massively recover own TP.
+r:"^敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ謹賀の羽子が99の場合、１度だけ自分にダメージブースト100％を付与（上限5000000）謹賀の羽子を11消費する謹賀の羽子を11消費した場合、自分のＴＰを1000回復$"=►Deals $1 M.DMG to a single enemy.\n►Boosts own M.ATK by $2 for 18s.\n\nIf [Happy New Year's Shuttlecock] is 99:\n►Grants self 100％ Damage Boost once (cap: 5,000,000).\n\n►Consumes 11 [Happy New Year's Shuttlecock].\n\nIf 11 [Happy New Year's Shuttlecock] are consumed:\n►Recovers own TP by 1000.
+
+##S1##
+目の前の敵１キャラに魔法特大ダメージを与える。このスキルのダメージは、【謹賀の羽子】の数に応じて増加する。=Deals massive M.DMG to an enemy in front. The damage of this skill increases based on the number of [Happy New Year's Shuttlecock] stacks.
+
+##S2##
+味方全体の魔法攻撃力を中アップさせ、物理無効バリアを展開する。【謹賀の羽子】の数に応じて、バリアの無効ダメージ量がアップする。さらに、自分に【謹賀の羽子】（上限99）を５つ付与する。=Moderately boosts all allies’ M.ATK and deploys a P.DMG-nullifying barrier. The amount of damage nullified by the barrier increases based on the number of [Happy New Year's Shuttlecock] stacks. Additionally, grants self 5 stacks of [Happy New Year's Shuttlecock] (max 99).
+r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する自分に謹賀の羽子を５つ付与する$"=►Boosts allies' M.ATK by $1 for 12s.\n►Deploys a barrier over all allies that negate $2 P.DMG for 12s.\n►Grants 5 [Happy New Year's Shuttlecock] to self.
+
+##S2+##
+ウィッシングフィールド+=Wishing Field+
+味方全体の魔法攻撃力を特大アップさせ、物理無効バリアを展開する。【謹賀の羽子】の数に応じて、バリアの無効ダメージ量がアップする。さらに、自分のＴＰを全て消費し、消費した量に応じて【謹賀の羽子】（上限99）を最大で13付与する。その後、【謹賀の羽子】が99の場合、自分のＴＰを特大回復する。=Massively boosts all allies’ M.ATK and deploys a P.DMG-nullifying barrier. The amount of damage nullified by the barrier increases based on the number of [Happy New Year's Shuttlecock] stacks. Additionally, consumes all own TP and grants up to 13 stacks of [Happy New Year's Shuttlecock] (max 99) based on the amount consumed. Afterward, if [Happy New Year's Shuttlecock] is at 99, massively recovers own TP.
+r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する自分のＴＰを全て消費する自分に謹賀の羽子を付与する謹賀の羽子が99の場合、自分のＴＰを1000回復$"=►Boosts allies' M.ATK by $1 for 12s.\n►Deploys a barrier over all allies that negate $2 P.DMG for 12s.\n►Consumes all own TP.\n►Grants [Happy New Year's Shuttlecock] to self.\n\nIf [Happy New Year's Shuttlecock] is 99:\n►Recovers own TP by 1000.

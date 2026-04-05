@@ -1735,7 +1735,7 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 【回帰の薔薇】=【Regression Rose】
 対象のＨＰが０になった時：【回帰の薔薇】を消費してＨＰ回復=When target's HP reaches 0: Consumes 【Regression Rose】 to recover HP
 マルチターゲット=Multi-target
-全スキルダメージＴＰ回復不可=TP not recovered from any skill damage\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+全スキルダメージＴＰ回復不可=TP not recovered from any skill damage
 前から敵３体に凍結=Inflicts Freeze on 3 front enemies
 前から敵３体に魔法防御力ダウン=Lowers M.DEF of 3 front enemies
 

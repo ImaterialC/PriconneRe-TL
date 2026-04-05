@@ -19,3 +19,10 @@ sr:"^12月(\d+日)のストーリー(\d)?$"=December $1 Story $2
 アイテム獲得=Acquiring items
 現在、未読のバースデーストーリーはありません。=Currently, there is no unread birthday story.
 バースデーストーリー=Birthday story
+
+おねえさんになれたかな？=I wonder if I’ve become a big sister?
+毒じゃないから、いっか──=It’s not poison, so I guess it’s fine──
+リアルサイド・バースデー=Real-Side Birthday
+思い出\nプレイバックムービー=Memories\nPlayback Movie
+バースデープリンセスに一問一答=Q&A with the Birthday Princess
+愛情定食一人前=One Serving of the Love Set Meal

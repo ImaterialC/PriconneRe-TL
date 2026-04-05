@@ -45,8 +45,8 @@
 TPチャージ=TP Charge
 HPチャージ=HP Charge
 回復強化=Recovery
-状態異常抵抗=Status Ailment Resistance
-状態異常命中=Status Ailment Accuracy
+状態異常抵抗=Stat Ail Res
+状態異常命中=Stat Ail Acc
 与ダメアップ=Damage Up
 クリダメアップ=Critical Damage Up
 r:"^オールマスタリーLv(\d+)$"=All-Mastery Lv $1
