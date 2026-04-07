@@ -36,6 +36,8 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies 
 ##UB+##
 羅刹涅槃・《覇極》万象無尽冥壊破=Raksha Nirvana: Parallel End-Worlds
 自分の魔法攻撃力を短時間特大アップさせ、敵全体に魔法特大ダメージを与えるが、使用後アンナの物理防御力と魔法防御力が特大ダウンする。=Temporarily greatly increases Anna's M.ATK, dealing massive M.DMG to all enemies, but after use, Anna's P.DEF and M.DEF will greatly decrease.
+
+自分の魔法攻撃力を短時間特大アップさせ、敵全体に魔法特大ダメージを与えるが、使用後バトル終了時までアンナの物理・魔法防御力が特大ダウンする。このステータスダウン効果は解除できない。=Massively boosts own M.ATK for a short time and deals massive M.DMG to all enemies, but after use, Anna’s P.DEF and M.DEF are massively reduced until the end of battle. This debuff cannot be removed.
 r:"^自分の魔法攻撃力を(\d+)アップ敵全体に(\d+)の魔法ダメージ自分の物理防御力を初期値の100%ダウン自分の魔法防御力を初期値の100%ダウン$"=►Boosts own M.ATK by $1 for 8s.\n►Deals $2 M.DMG to all enemies.\n►Lowers own P.DEF to 0 for 99s. \n►Lowers own M.DEF to 0 for 99s.\n
 
 ##S1+##

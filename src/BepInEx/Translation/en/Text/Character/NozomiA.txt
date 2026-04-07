@@ -19,3 +19,7 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダ
 ##EX##
 フレグランススマイル=Fragrance Smile
 フレグランススマイル+=Fragrance Smile+
+
+
+
+エレメントエール+=Elemental Cheer+

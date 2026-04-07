@@ -18,11 +18,11 @@
 
 挑戦を終了してラビリンスTOPに戻りますか？\n\n※「撤退する」を選択すると、報酬が獲得できない\n代わりにラビリンスパスポートが返却されます。=Would you like to end the challenge and return to the Labyrinth TOP?\n\n※If you select "Withdraw", you will not receive any rewards.\nInstead, your Labyrinth Passport will be returned to you.
 
-有効効果=Effect
-ボスへの\n有効効果=Effect\non the Boss
+有効効果=Recommended
+ボスへの\n有効効果=Effective\nagaint this boss
 バリア=Barrier
 対象のキャラがいません。=No target character.
-効果所有キャラ=Effect-owned Characters
+効果所有キャラ=Owned Recommended Characters
 タグ詳細=Tag Details
 
 Menu Shizuru&Rino

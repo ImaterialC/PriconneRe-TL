@@ -9,7 +9,7 @@
 
 バトル開始時に自分の最大ＨＰ、物理・魔法防御力を中アップさせる。=At the start of battle, moderately increases your maximum HP and physical and magical defense.
 
-
+敵全体にスタン（飛行効果無視=Inflicts Stun on all enemies (ignores flight effects).
 敵全体に物理中ダメージを与え、自分の行動速度を上げる。=Inflicts moderate P.DMG to all enemies and boost own action speed.\n
 
 荒れ山の捕食者として君臨する、凶悪な怪鳥獣。狩りを続けることでつくりあげた膂力と剛爪が、侵入者をつけ狙う。=A ferocious monster bird that reigns as a predator in the deserted mountains. The physical strength and stiff claws built up by continuing to hunt will stalk intruders.\n
@@ -1529,18 +1529,12 @@
 敵全体にＨＰ吸収ダウン=Reduces HP drain effects for all enemies.
 自身に魔法攻撃力アップ=Increases own M.ATK.
 自身に魔法防御力アップ=Increases own M.DEF.
-前から敵１体に魔法ダメージ=Deals M.DMG to one enemy in front.
 前から敵１体に麻痺=Paralyzes one enemy in front.
 自身に物理／魔法防御力アップ=Boosts own P.DEF and M.DEF.
-後ろから敵３体に物理ダメージ=Deals P.DMG to the three backmost enemies.
-後ろから敵３体にスタン=Stuns the three backmost enemies.
-後ろから敵２体に物理ダメージ=Deals P.DMG to the two backmost enemies.
-後ろから敵２体に物理防御力ダウン=Reduces P.DEF of the two backmost enemies.
-後ろから敵１体に物理ダメージ=Deals P.DMG to the backmost enemy.
+
 挑発無視=Ignores taunt.
 自身にＴＰダウンカット=Reduces the effect of TP reduction on self.
 後ろから敵２体にＴＰダウン=Reduces TP of the two backmost enemies.
-前から敵１体に物理ダメージ=Deals P.DMG to one enemy in front.
 敵全体に麻痺=Paralyzes all enemies.
 敵全体に物理／魔法攻撃力ダウン=Reduces P.ATK and M.ATK of all enemies.
 丸太状態：自身に物理／魔法防御力アップ=While in Log State: Boosts own P.DEF and M.DEF.
@@ -1594,18 +1588,12 @@
 前方範囲に誘惑=Inflicts charm on enemies in front range.
 敵全体に物理／魔法攻撃力アップ=Boosts all enemies' P.ATK and M.ATK.
 対象がバリア状態でない：誘惑=If the target is not in a barrier state: inflicts charm.
-後ろから１番目の敵を中心に魔法ダメージフィールド=Deploys a M.DMG field centered on the backmost enemy.
-後ろから１番目の敵に魔法ダメージ=Deals M.DMG to the backmost enemy.
-後ろから１番目の敵と周囲に行動速度ダウン（必中）=Inflicts action speed reduction on the backmost enemy and enemies in range (cannot miss).
-前から敵１体をノックバック=Knocks back one enemy in front.
-前から敵１体にスタン=Stuns one enemy in front.
+
 対象ＨＰ60％未満：自身に物理攻撃力アップ=If the target's HP is below 60%: boosts own P.ATK.
 敵全体に物理／魔法クリティカルダメージダウン（必中）=Reduces all enemies' P.CRIT DMG and M.CRIT DMG (cannot miss).
 敵全体に火傷=Inflicts burn on all enemies.
 敵全体に物理割合ダメージ=Deals percentage P.DMG to all enemies.
 さらなる力を得た牡牛座の魔星獣。\n力の限界を超えた戦斧の一撃が全てを破砕する。=A Taurus magical beast that has acquired further power. Its battle axe, wielded with strength beyond limits, shatters all.
-前から敵２体に物理ダメージ=Deals P.DMG to the two enemies in front.
-前から敵２体にスタン=Stuns the two enemies in front.
 対象ＨＰ80%未満：自身に物理攻撃力アップ=If the target's HP is below 80%: boosts own P.ATK.
 敵味方全体に物理／魔法攻撃力アップ=Boosts P.ATK and M.ATK of all units.
 敵味方全体に物理／魔法防御力ダウン=Reduces P.DEF and M.DEF of all units.
@@ -1669,26 +1657,19 @@
 敵全体に物理／魔法攻撃力ダウン（必中）=Lowers all enemies' P.ATK/M.ATK (unavoidable)
 怪腕で大地を割る、剛力無双の一角獣。稲妻纏う雷角が、獲物の喉元に突き立てられる。=A peerless unicorn that sunders earth with monstrous strength. Its lightning-wreathed horn pierces prey's vitals.
 自身の魔法防御力が高いほど：麻痺時間アップ=Paralysis duration increases with own M.DEF
-前から敵３体に魔法ダメージ=Deals M.DMG to 3 front enemies
 自身の魔法防御力が高いほど：ダメージアップ=DMG increases with higher M.DEF
 過酷な環境に棲み変異した巨大トカゲ。硬い棘状のうろこが、敵の体力と鎧を削り落とす。=A giant lizard mutated in harsh environments. Its spiked scales erode foes' health and armor.
-前から敵１体に物理／魔法攻撃ダメージダウン（必中）=Lowers frontmost enemy's P.DMG/M.DMG (unavoidable)
-前から敵５体をノックバック=Knocks back 5 front enemies
-前から敵５体にスタン=Inflicts Stun on 5 front enemies
-前から敵５体に魔法ダメージ=Deals M.DMG to 5 front enemies
-前から敵５体に魔法防御力ダウン=Lowers M.DEF of 5 front enemies
-前から敵５体に物理／魔法クリティカルダメージダウン（必中）=Lowers P.CRIT DMG/M.CRIT DMG of 5 front enemies (unavoidable)
+
 自身への継続ダメージ量アップ=Self: Continuous DMG Up
-前から敵３体に凍結（召喚体無視=Inflicts Freeze to 3 front enemies (ignores Summons)
+
 召喚体無視=Ignores Summons
-前から敵３体に魔法防御力ダウン（召喚体無視必中）=Lowers M.DEF of 3 front enemies (ignores Summons/unavoidable)
 
 元剣奴として歴戦を誇るゴブリン族のレディ。恩人にして最愛のマスターを煉獄の覇者とすべく、灼熱の竜を駆りて自慢の鋭槍を揮わせる。=A proud goblin lady, once a sword slave, who boasts a storied battle history. Wielding her prized sharp spear while riding a blazing dragon, she aims to make her beloved master the ruler of purgatory.
 残り時間が30秒になった時：覚醒状態に移行=When 30 seconds remain: transitions to Awakened State.
 自身の行動パターン変更=Changes own action pattern.
 【覚醒状態：スキル３】=[Awakened State: Skill 3]
-前から敵２体に火傷（ＴＰ回復不可=Inflicts burn on the two enemies in front (TP recovery disabled).
-前から敵２体に魔法ダメージ=Deals M.DMG to the two enemies in front.
+
+
 敵全体に火傷（ＴＰ回復不可=Inflicts burn on all enemies (TP recovery disabled).
 必中）=hitting the target.
 敵全体に火傷（ＴＰ回復不可必中）=Inflicts burn on all enemies (TP recovery disabled, cannot miss).
@@ -1736,8 +1717,6 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 対象のＨＰが０になった時：【回帰の薔薇】を消費してＨＰ回復=When target's HP reaches 0: Consumes 【Regression Rose】 to recover HP
 マルチターゲット=Multi-target
 全スキルダメージＴＰ回復不可=TP not recovered from any skill damage
-前から敵３体に凍結=Inflicts Freeze on 3 front enemies
-前から敵３体に魔法防御力ダウン=Lowers M.DEF of 3 front enemies
 
 
 ＴＰ回復不可=TP cannot be recovered
@@ -1844,10 +1823,7 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 このスキルの対象に麻痺=Paralyze the target of this skill
 このスキルの対象に継続ＴＰダウン=Continuous TP down to the target of this skill
 自身のＴＰ回復=Recover own TP
-後ろから敵２体に魔法ダメージ=Magic damage to 2 enemies from the back
-後ろから敵２体に物理／魔法攻撃力ダウン（必中）=Physical/Magic attack power down to 2 enemies from the back (always hits)
-前から敵３体に魔法防御力ダウン（召喚体無視=Reduces magic defense of the first 3 enemies (ignores summoned units
-敵全体に魔法割合ダメージ（飛行効果無視=Deals magic-based percentage damage to all enemies (ignores flying effect
+敵全体に魔法割合ダメージ（飛行効果無視=Deals magic-based percentage damage to all enemies (ignores flying effect)
 敵全体にステータスアップ解除=Removes status boosts from all enemies
 自身が継続ダメージ状態ではない：自身に物理／魔法防御力アップ=When not in a continuous damage state: Increases own physical/magic defense
 前から敵１体に物理／魔法ダメージ=Deals physical/magic damage to the first enemy
@@ -1855,7 +1831,7 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 部位１ブレイク：物理／魔法攻撃力ダウン=Part 1 Break: Reduces physical/magic attack power
 部位２ブレイク：物理／魔法攻撃力ダウン=Part 2 Break: Reduces physical/magic attack power
 部位３ブレイク：物理／魔法攻撃力ダウン=Part 3 Break: Reduces physical/magic attack power
-敵全体に物理割合ダメージ（飛行効果無視=Deals physical-based percentage damage to all enemies (ignores flying effect
+敵全体に物理割合ダメージ（飛行効果無視=Deals physical-based percentage damage to all enemies (ignores flying effect)
 自身の弱体効果数が多いほど：自身の被ダメージアップ=The more debuffs you have: Increases damage taken
 前から１番目の敵と周囲にスタン=Stun the foremost enemy and surrounding enemies
 前から１番目の敵と周囲に物理防御力ダウン（必中）=Reduces physical defense of the foremost enemy and surrounding enemies (unavoidable)
@@ -1869,16 +1845,10 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 前方範囲の敵４体に物理／魔法攻撃力ダウン（必中）=Reduces the physical/magic attack power of 4 enemies in the front area (guaranteed hit)
 前から１番目の敵と周囲に毒=Poisons the foremost enemy and surrounding area
 人竜一体となって戦うゴブリン騎手。敏速に空を駆け巡り、地上の敵に襲いかかる=A goblin rider who fights as one with his dragon. Swiftly soars through the sky and attacks ground enemies
-後ろから敵３体にスタン（召喚体無視=Stuns 3 enemies from the back (ignores summoned units)
-後ろから敵２体に物理防御力ダウン（召喚体無視=Reduces the physical defense of 2 enemies from the back (ignores summoned units)
-後ろから敵１体に物理ダメージ（挑発無視=Deals physical damage to 1 enemy from the back (ignores taunt)
-前から敵３体をノックバック（召喚体無視=Knocks back 3 enemies from the front (ignores summoned units)
+
 敵全体に魔法ダメージ（飛行効果無視=Deals magic damage to all enemies (ignores flying effect)
 敵全体に麻痺（飛行効果無視=Paralyzes all enemies (ignores flying effect)
-前から敵２体をノックバック=Knocks back 2 enemies from the front
-前から敵２体に魔法追加ダメージ=Additional magic damage to the first two enemies
-前から敵２体に魔法防御力ダウン=Reduces magic defense of the first two enemies
-ランダムな敵３体にステータスアップ解除=Removes status buffs from three random enemies
+
 このスキルの対象に物理ダメージ=Physical damage to the target of this skill
 深域の魔力が集まり形成した冷酷な水霊。吹き荒れる暴雨は、無慈悲に冒険者を飲み込む。=A ruthless water spirit formed by the concentrated magic of the abyss. The raging storm mercilessly swallows adventurers.
 対象のＨＰ70％以下：前方範囲の敵をノックバック、後方範囲の敵を引き寄せる（必中）=If target's HP is 70% or below: Knocks back enemies in the front range, pulls in enemies in the back range (guaranteed hit)
@@ -1891,7 +1861,6 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 【全ターゲットブレイク時発動】=[Activates when all targets are broken]
 自身に物理／魔法防御力ダウン=Decreases physical/magic defense of self
 自身にブレイク無効化=Grants break immunity to self
-前から敵３体に物理ダメージ=Deals physical damage to the first 3 enemies
 前から敵３体に物理／魔法防御力ダウン（召喚体無視=Decreases physical/magic defense of the first 3 enemies (ignores summoned units)
 前から敵２体に凍結（召喚体無視=Freezes the first 2 enemies (ignores summoned units)
 対象のＨＰ70％以下：凍結時間アップ=If target's HP is 70% or below: Increases freeze duration
@@ -1902,12 +1871,9 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 対象のＨＰ80％未満：スタン=Target with less than 80% HP: Stun
 敵全体を打ち上げる=Launch all enemies into the air
 対象が火傷：ダメージアップ=Target is burned: Increased damage
-前から敵３体に火傷=Burn the first 3 enemies
-前から１番目の敵と周囲の敵３体までに物理ダメージ=Physical damage to the first enemy and up to 3 surrounding enemies
-前から１番目の敵と周囲の敵３体までに物理防御力ダウン（必中）=Decrease physical defense of the first enemy and up to 3 surrounding enemies (Guaranteed hit)
+
 自身の物理防御力アップ=Increase own physical defense
-前から敵３体をノックバック=Knock back the front 3 enemies
-前から敵３体に行動速度ダウン=Reduce action speed of the front 3 enemies
+
 バトル開始時、すべてのキャラの物理と魔法クリティカルを大ダウンさせる。=At the start of battle, greatly decrease all characters' physical and magical critical.
 物理魔法クリティカルダウン=Physical and magical critical down
 バトル中、「物理攻撃力ダウン」効果が発動する。=During battle, the effect of 'Physical Attack Power Down' activates.
@@ -1974,7 +1940,6 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 前方範囲に物理割合ダメージ=Physical percentage damage in a frontal area
 我が子への妄執に囚われた亡親の霊。娘と偽りの日々を享受すべく、立ち塞がる者を容赦なく屠る。=A spirit of a deceased parent obsessed with their child. To enjoy the days with a false daughter, they mercilessly slay those who stand in their way.
 後ろから敵１体を引き寄せる=Pulls one enemy from the rear
-後ろから敵１体にスタン=Stuns one enemy from the rear
 覇瞳皇帝が生み出した動く力の貯蔵庫。魔道の権能を司り、無尽の魔力で全てを滅却する。=A moving power repository created by the Emperor of Hades. Governs the authority of magic, annihilating everything with infinite magic power.
 物理か魔法攻撃力が最も高い敵１体に魔法ダメージ=Deals magic damage to the enemy with the highest physical or magic attack power
 このスキルの対象に呪い／麻痺／ＴＰダウン（ＴＰ回復不可／必中）=Inflicts curse/paralysis/TP decrease (cannot recover TP/guaranteed hit) on the target of this skill
@@ -2044,14 +2009,13 @@ HP吸収ダウン回復量ダウン=HP Absorption Down Recovery Down
 魔蜘から生まれ、かの乱を生き延びた魁傑の子蜘蛛。同胞を喰らい宿した魔力を糧に、再び煉獄の地へと糸を張り巡らせる。=Born from a demon spider, this offspring of a calamitous general survived the great rebellion. Feeding on kin and fueled by stored magic, it spins its web across the infernal lands once more.
 『六凶』=Six Calamities
 生気を吸われ光彩を奪われ、果ては挺身の徒として使役される、悲壮なる宝石蜘蛛。=A tragic jewel spider drained of vitality and luster, ultimately enslaved as a sacrificial pawn.
-ランダムな敵１体に束縛=Binds a random enemy
 尽き果てぬ動力で、命令を遂行する魔鎧。無双の膂力を誇り、極大の剣戟で全てを斬破する。=An enchanted armor executing commands with endless power. Boasts peerless strength, cleaving all with colossal blades.
 自身が呪い／呪詛状態でない：物理追加ダメージ=If not under Curse/Cursed: Deals additional P.DMG
 自身が呪い／呪詛状態でない：自身に物理ダメージカット=If not under Curse/Cursed: Grants self P.DMG Cut
 堅牢な鉱石の表皮を持つ岩トカゲ。=A rock lizard with stony mineral hide.
 このスキルで与えたダメージに応じて：敵全体に魔法ダメージ=Deals M.DMG to all enemies based on DMG dealt by this skill
 敵全体に石化=Petrifies all enemies
-前から敵１体に魔法防御力ダウン=Lowers M.DEF of frontmost enemy
+
 自身のＨＰ回復=Recovers own HP
 このスキルで与えたダメージが大きいほど：ＨＰ回復量アップ=The greater the DMG dealt by this skill, the higher the HP recovery
 前から敵３体に麻痺=Inflicts Paralysis on 3 front enemies
@@ -2224,7 +2188,6 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 
 
-後ろから敵１体に魔法ダメージ=Deals M.DMG to rearmost enemy
 解除不可=Undispellable
 自身に魔法攻撃力アップ解除=Removes own M.ATK Up
 とある目的で黎明界に仕込まれた奸計。七冠が一人、幻境竜后による蠢動を具象化させた姿。その外見は古の防衛兵器に酷似している。=A scheme planted in the Dawn Realm for a hidden purpose. A manifestation of the Phantom Dragon Empress's machinations, materialized by one of the Seven Crowns. Its form closely resembles an ancient defense weapon.
@@ -2278,15 +2241,8 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 
 
-後ろから敵３体にＴＰ上昇ダウン=Reduces TP Boost of the 3 rearmost enemies.
-後ろから敵３体にＴＰダウン=Reduces TP of the 3 rearmost enemies.
-後ろから敵３体に魔法ダメージ=Deals M.DMG to the 3 rearmost enemies.
-敵全体にスタン（飛行効果無視=Inflicts Stun on all enemies (ignores flight effects).
-後ろから１番目の敵と周囲に魔法ダメージ=Deals M.DMG to the rearmost enemy and surrounding enemies.
-後ろから１番目の敵と周囲に魔法防御力ダウン、ＴＰダウン、呪い（必中）=Reduces M.DEF, reduces TP, and inflicts Curse (guaranteed hit) on the rearmost enemy and surrounding enemies.
-後ろから２番目の敵を中心に魔法ダメージフィールド=Deploys an M.DMG field centered on the second rearmost enemy.
-後ろから２番目の敵に魔法ダメージ=Deals M.DMG to the second rearmost enemy.
-後ろから２番目の敵と周囲に行動速度ダウン（必中）=Reduces action speed of the second rearmost enemy and surrounding enemies (guaranteed hit).
+
+
 敵全体に物理／魔法防御力ダウン=Reduces P.DEF and M.DEF of all enemies.
 【バトルフィールド効果】=[Battlefield Effect]
 敵全体に物理／魔法防御力アップ解除=Removes P.DEF and M.DEF buffs from all enemies.
@@ -2387,7 +2343,6 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 自身の物理攻撃力に応じてバズナイトに物理攻撃力アップ=Boosts Buzz Knight's P.ATK based on own P.ATK.
 
-前から敵３体にスタン=Stuns the three foremost enemies.
 与えたダメージに応じて自身に物理ダメージ=Deals P.DMG to self based on the damage dealt.
 オーマの漁師に古くから伝わる幻の巨魚。巨躯超速の突進は、全ての船を海の藻屑と化す。しかしその身はこの世のものと思えぬ絶品らしい。=A legendary giant fish passed down among the fishermen of Oma since ancient times. Its massive body and supersonic charge reduce all ships to wreckage in the sea. Yet its flesh is said to be an otherworldly delicacy.
 自身の物理攻撃力が高いほど：割合アップ=The higher own P.ATK: the higher the percentage effect.
@@ -2403,8 +2358,8 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 敵全体に下記いずれかの効果=Applies one of the following effects to all enemies.
 愛の力を求め顕現した、負の魔法生物。皆の心の中の愛の力を歪め世界に災いをもたらす。=A negative magical creature manifested in search of the power of love. It twists the love within people's hearts and brings calamity to the world.
 数多の探検家を飲み込んだ幻島の巨鯨。欲望、幻想に憑りつかれた愚者を無慈悲に葬る。=A giant whale of the phantom island that has swallowed countless explorers. It mercilessly buries fools possessed by desire and illusion.
-前から敵４体に魔法ダメージ=Deals M.DMG to the four foremost enemies.
-前から敵４体を大きく打ち上げる=Launches the four foremost enemies high into the air.
+
+
 【ＨＰ30％未満時発動】=[Activates when HP is below 30%]
 孤塔の頂に座する、暴虐なる混成魔獣。千変万化の猛攻は、挑む者数多を屠ってきた。=A savage hybrid demon beast seated atop the lone tower. Its ever-changing onslaught has slaughtered countless challengers.
 前方範囲に火傷=Inflicts Burn on enemies in a frontal area.
@@ -2449,10 +2404,69 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 ＴＰ増加不可無視=Ignores TP gain prevention.
 目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、物理攻撃力と魔法攻撃力を特大ダウン、物理防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせる。このスキルのダメージと攻撃力・防御力ダウンの効果量は【魔眼】の数に応じて上昇する。=Deals major P.DMG to all enemies in a range centered on the nearest enemy, greatly reduces P.ATK and M.ATK, slightly reduces P.DEF, and slightly increases damage taken from critical hits. The damage and the amount of ATK/DEF reduction increase based on the number of [Magic Eyes].
 
+前から敵５体に呪い=Inflicts Curse on the five foremost enemies.
+前から敵４体に呪い=Inflicts Curse on the four foremost enemies.
+前から敵３体に呪い=Inflicts Curse on the three foremost enemies.
+前から敵２体に呪い=Inflicts Curse on the two foremost enemies.
+前から敵１体に呪い=Inflicts Curse on the one foremost enemies.
 
-
+前から敵５体に呪い（ＴＰ回復不可=Inflicts Curse on the five foremost enemies (prevents TP recovery).
+前から敵４体に呪い（ＴＰ回復不可=Inflicts Curse on the four foremost enemies (prevents TP recovery).
 前から敵３体に呪い（ＴＰ回復不可=Inflicts Curse on the three foremost enemies (prevents TP recovery).
+前から敵２体に呪い（ＴＰ回復不可=Inflicts Curse on the two foremost enemies (prevents TP recovery).
+前から敵１体に呪い（ＴＰ回復不可=Inflicts Curse on the one foremost enemies (prevents TP recovery).
+
+前から敵５体に恐慌=Inflicts Panic on the five foremost enemies.
+前から敵４体に恐慌=Inflicts Panic on the four foremost enemies.
 前から敵３体に恐慌=Inflicts Panic on the three foremost enemies.
+前から敵２体に恐慌=Inflicts Panic on the two foremost enemies.
+前から敵１体に恐慌=Inflicts Panic on the one foremost enemy.
+
+前から敵５体に恐慌（召喚体無視=Inflicts Panic on the five foremost enemies (ignores summoned units).
+前から敵４体に恐慌（召喚体無視=Inflicts Panic on the four foremost enemies (ignores summoned units).
+前から敵３体に恐慌（召喚体無視=Inflicts Panic on the three foremost enemies (ignores summoned units).
+前から敵２体に恐慌（召喚体無視=Inflicts Panic on the two foremost enemies (ignores summoned units).
+前から敵１体に恐慌（召喚体無視=Inflicts Panic on the one foremost enemy (ignores summoned units).
+
+前から敵１体にスタン（召喚体無視=Stuns one enemy in front (ignores summoned units).
+前から敵２体にスタン（召喚体無視=Stuns the two enemies in fron t(ignores summoned units).
+前から敵３体にスタン（召喚体無視=Stuns the three foremost enemies (ignores summoned units).
+前から敵４体にスタン（召喚体無視=Stuns the four foremost enemies (ignores summoned units).
+前から敵５体にスタン（召喚体無視=Stuns the five foremost enemies (ignores summoned units).
+
+前から敵１体にスタン=Stuns one enemy in front.
+前から敵２体にスタン=Stuns the two enemies in front.
+前から敵３体にスタン=Stuns the three foremost enemies.
+前から敵４体にスタン=Stuns the four foremost enemies.
+前から敵５体にスタン=Stuns the five foremost enemies.
+
+後ろから敵１体にスタン（召喚体無視=Stuns 1 enemy from the back (ignores summoned units)
+後ろから敵２体にスタン（召喚体無視=Stuns 2 enemies from the back (ignores summoned units)
+後ろから敵３体にスタン（召喚体無視=Stuns 3 enemies from the back (ignores summoned units)
+後ろから敵４体にスタン（召喚体無視=Stuns 4 enemies from the back (ignores summoned units)
+後ろから敵５体にスタン（召喚体無視=Stuns 3 enemies from the back (ignores summoned units)
+
+後ろから敵５体にスタン=Stuns 5 backmost enemies.
+後ろから敵４体にスタン=Stuns 4 backmost enemies.
+後ろから敵３体にスタン=Stuns 3 backmost enemies.
+後ろから敵２体にスタン=Stuns 2 backmost enemies.
+後ろから敵１体にスタン=Stuns 1 backmost enemy.
+
+
+前から敵５体をノックバック=Knocks back 5 front enemies
+前から敵４体をノックバック=Knocks back 4 front enemies
+前から敵３体をノックバック=Knocks back 3 front enemies
+前から敵２体をノックバック=Knocks back 2 front enemies
+前から敵１体をノックバック=Knocks back 1 front enemies
+
+前から敵５体をノックバック（召喚体無視=Knocks back 5 enemies from the front (ignores summoned units)
+前から敵４体をノックバック（召喚体無視=Knocks back 4 enemies from the front (ignores summoned units)
+前から敵３体をノックバック（召喚体無視=Knocks back 3 enemies from the front (ignores summoned units)
+前から敵２体をノックバック（召喚体無視=Knocks back 2 enemies from the front (ignores summoned units)
+前から敵１体をノックバック（召喚体無視=Knocks back 1 enemies from the front (ignores summoned units)
+
+
+
 前から２／３番目の敵にスタン=Inflicts Stun on the 2nd/3rd enemies from the front.
 前から２／３番目の敵に魔法ダメージ=Deals M.DMG to the 2nd/3rd enemies from the front.
 対象が恐慌状態：混乱=If the target is inflicted with Panic: inflicts Confusion.
@@ -2465,3 +2479,111 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 幻夢郷の狂信者=Fanatics of Phantasmagoria
 旧支配者の眷属を自称する、高笑いとマウンティングが十八番の傲慢令嬢。冥界で眠りについていた女神を依り代として信者拡大を謀る。=A proud young lady who claims to be a minion of the Old Ones, whose trademarks are loud laughter and one-upmanship. She seeks to expand her followers by using a goddess who was sleeping in the underworld as a vessel.
 前から２番目攻撃、物防ダウン（ダメージ無効化時も付与）=Attacks the second target from the front, reduces physical defense (applies even when damage is nullified).
+
+
+砂地にのさばる獰猛な大怪鳥。紫電を纏い嵐を巻き起こすさまは、天災と恐れられる。=A ferocious, gigantic bird that roams the sandy lands. Its appearance, shrouded in purple lightning and capable of creating storms, makes it a feared natural disaster.
+前から敵５体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the five foremost enemies (guaranteed hit).
+前から敵４体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the four foremost enemies (guaranteed hit).
+前から敵３体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the three foremost enemies (guaranteed hit).
+前から敵２体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the two foremost enemies (guaranteed hit).
+前から敵１体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the one foremost enemies (guaranteed hit).
+
+前から敵１体に物理ダメージ=Deals P.DMG to one enemy in front.
+前から敵２体に物理ダメージ=Deals P.DMG to the two enemies in front.
+前から敵３体に物理ダメージ=Deals P.DMG to the three enemies in front.
+前から敵４体に物理ダメージ=Deals P.DMG to the four enemies in front.
+前から敵５体に物理ダメージ=Deals P.DMG to the five enemies in front.
+
+前から敵１体に魔法ダメージ=Deals M.DMG to one enemy in front.
+前から敵２体に魔法ダメージ=Deals M.DMG to the two enemies in front.
+前から敵３体に魔法ダメージ=Deals M.DMG to the three enemies in front.
+前から敵４体に魔法ダメージ=Deals M.DMG to the four enemies in front.
+前から敵５体に魔法ダメージ=Deals M.DMG to the five enemies in front.
+
+前から敵１体に魔法防御力ダウン=Lowers M.DEF of 1 front enemy
+前から敵２体に魔法防御力ダウン=Lowers M.DEF of 2 front enemies
+前から敵３体に魔法防御力ダウン=Lowers M.DEF of 3 front enemies
+前から敵４体に魔法防御力ダウン=Lowers M.DEF of 4 front enemies
+前から敵５体に魔法防御力ダウン=Lowers M.DEF of 5 front enemies
+
+前から敵１体に魔法防御力ダウン（召喚体無視必中）=Lowers M.DEF of 1 front enemy (ignores Summons/unavoidable)
+前から敵２体に魔法防御力ダウン（召喚体無視必中）=Lowers M.DEF of 2 front enemies (ignores Summons/unavoidable)
+前から敵３体に魔法防御力ダウン（召喚体無視必中）=Lowers M.DEF of 3 front enemies (ignores Summons/unavoidable)
+前から敵４体に魔法防御力ダウン（召喚体無視必中）=Lowers M.DEF of 4 front enemies (ignores Summons/unavoidable)
+前から敵５体に魔法防御力ダウン（召喚体無視必中）=Lowers M.DEF of 5 front enemies (ignores Summons/unavoidable)
+
+前から敵３体に魔法防御力ダウン（召喚体無視=Reduces magic defense of the first 3 enemies (ignores summoned units)
+
+
+
+後ろから敵１体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the 1 rearmost enemy (guaranteed hit).
+後ろから敵２体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the 2 rearmost enemies (guaranteed hit).
+後ろから敵３体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the 3 rearmost enemies (guaranteed hit).
+後ろから敵４体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the 4 rearmost enemies (guaranteed hit).
+後ろから敵５体に物理／魔法攻撃力ダウン（必中）=Reduces P.ATK and M.ATK of the 5 rearmost enemies (guaranteed hit).
+
+
+後ろから敵１体に魔法ダメージ=Deals M.DMG to the 1 rearmost enemy.
+後ろから敵２体に魔法ダメージ=Deals M.DMG to the 2 rearmost enemies.
+後ろから敵３体に魔法ダメージ=Deals M.DMG to the 3 rearmost enemies.
+後ろから敵４体に魔法ダメージ=Deals M.DMG to the 4 rearmost enemies.
+後ろから敵５体に魔法ダメージ=Deals M.DMG to the 5 rearmost enemies.
+
+後ろから２番目の敵と周囲に行動速度ダウン（必中）=Reduces action speed of the second rearmost enemy and surrounding enemies (guaranteed hit).
+
+
+
+
+
+前から敵５体に魔法防御力ダウン=Lowers M.DEF of 5 front enemies
+前から敵５体に物理／魔法クリティカルダメージダウン（必中）=Lowers P.CRIT DMG/M.CRIT DMG of 5 front enemies (unavoidable)
+
+
+前から敵２体に魔法追加ダメージ=Additional magic damage to the first two enemies
+前から敵２体に魔法防御力ダウン=Reduces magic defense of the first two enemies
+ランダムな敵３体にステータスアップ解除=Removes status buffs from three random enemies
+前から敵３体に凍結（召喚体無視=Inflicts Freeze to 3 front enemies (ignores Summons)
+
+前から敵１体に物理／魔法攻撃ダメージダウン（必中）=Lowers frontmost enemy's P.DMG/M.DMG (unavoidable)
+
+後ろから敵２体に物理防御力ダウン（召喚体無視=Reduces the physical defense of 2 enemies from the back (ignores summoned units)
+後ろから敵１体に物理ダメージ（挑発無視=Deals physical damage to 1 enemy from the back (ignores taunt)
+
+前から敵３体に行動速度ダウン=Reduce action speed of the front 3 enemies
+
+前から敵３体に火傷=Burn the first 3 enemies
+前から１番目の敵と周囲の敵３体までに物理ダメージ=Physical damage to the first enemy and up to 3 surrounding enemies
+前から１番目の敵と周囲の敵３体までに物理防御力ダウン（必中）=Decrease physical defense of the first enemy and up to 3 surrounding enemies (Guaranteed hit)
+
+
+後ろから敵３体に物理ダメージ=Deals P.DMG to the three backmost enemies.
+後ろから敵２体に物理ダメージ=Deals P.DMG to the two backmost enemies.
+後ろから敵２体に物理防御力ダウン=Reduces P.DEF of the two backmost enemies.
+後ろから敵１体に物理ダメージ=Deals P.DMG to the backmost enemy.
+
+後ろから敵３体に物理ダメージ=Deals P.DMG to the three backmost enemies.
+後ろから敵２体に物理ダメージ=Deals P.DMG to the two backmost enemies.
+後ろから敵２体に物理防御力ダウン=Reduces P.DEF of the two backmost enemies.
+後ろから敵１体に物理ダメージ=Deals P.DMG to the backmost enemy.
+
+
+前から敵２体に火傷（ＴＰ回復不可=Inflicts burn on the two enemies in front (TP recovery disabled).
+前から敵４体を大きく打ち上げる=Launches the four foremost enemies high into the air.
+
+前から敵３体に凍結=Inflicts Freeze on 3 front enemies
+
+
+
+前から敵３体に魔法防御力ダウン=Lowers M.DEF of 3 front enemies
+ランダムな敵１体に束縛=Binds a random enemy
+後ろから敵３体にＴＰ上昇ダウン=Reduces TP Boost of the 3 rearmost enemies.
+後ろから敵３体にＴＰダウン=Reduces TP of the 3 rearmost enemies.
+
+
+後ろから１番目の敵と周囲に魔法ダメージ=Deals M.DMG to the rearmost enemy and surrounding enemies.
+後ろから１番目の敵と周囲に魔法防御力ダウン、ＴＰダウン、呪い（必中）=Reduces M.DEF, reduces TP, and inflicts Curse (guaranteed hit) on the rearmost enemy and surrounding enemies.
+後ろから２番目の敵を中心に魔法ダメージフィールド=Deploys an M.DMG field centered on the second rearmost enemy.
+後ろから２番目の敵に魔法ダメージ=Deals M.DMG to the second rearmost enemy.
+後ろから１番目の敵を中心に魔法ダメージフィールド=Deploys a M.DMG field centered on the backmost enemy.
+後ろから１番目の敵に魔法ダメージ=Deals M.DMG to the backmost enemy.
+後ろから１番目の敵と周囲に行動速度ダウン（必中）=Inflicts action speed reduction on the backmost enemy and enemies in range (cannot miss).
