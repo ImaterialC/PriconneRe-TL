@@ -1,0 +1,21 @@
+##Profile##
+【魔法】後衛で、破滅の運命にあらがうお嬢様？優等生。【呪いの鎖】の溢れる魔力で魔防デバフやＴＰ、速度支援を行うが、限界を迎えると永久的狂気に陥ってしまう。=[Magic] A refined young lady(?) and honor student in the back line who resists a doomed fate. With the overflowing power of [Cursed Chain], she applies M.DEF debuffs and supports TP and speed, but upon reaching her limit, she falls into permanent madness.
+
+##UB##
+レディズガーランド=Lady’s Garland
+目の前の敵１キャラに魔法特大ダメージを２回与え、物理・魔法攻撃力を大ダウン、魔法防御力を中ダウン、クリティカルを受けた際のダメージを小アップさせる。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals massive M.DMG twice to an enemy in front, greatly lowers their P.ATK and M.ATK, moderately lowers their M.DEF, and slightly increases the damage they take when receiving critical hits. If this skill lands a critical hit, the damage becomes 3× instead of 2×.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の物理・魔法攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン敵単体の被クリダメを6％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Lowers a single enemy's P.ATK and M.ATK by $3 for 18s.\n►Lowers a single enemy's M.DEF by $4 for 18s.\n►Boosts a single enemy's CRIT DMG taken by 6％ for 18s.
+
+##S1##
+ヴィラネススマイル=Villainous Smile
+目の前の敵１キャラに魔法大ダメージを２回与え、魔法防御力を小ダウンさせる。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。自分のＨＰが最大でない場合、自分のＨＰを大回復するが、【呪いの鎖】を１つ消費する。自分に【呪いの鎖】が付与されていない場合、自分を長時間混乱状態にし、このスキルによるダメージではＴＰは回復しなくなる。=Deals large M.DMG twice to an enemy in front and slightly lowers their M.DEF. If this skill lands a critical hit, the damage becomes 3× instead of 2×. If own HP is not full, greatly recovers own HP but consumes 1 [Cursed Chain]. If [Cursed Chain] is not applied to self, inflicts long-duration Confusion on self, and damage from this skill no longer recovers TP.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分のＨＰが最大でない場合、呪いの鎖を１つ消費する自分のＨＰが最大でない場合、自分のＨＰを40％回復呪いの鎖がない場合、自分を混乱させる$"=Cast time: 1.05s\n►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $3 for 12s.\n\nIf own HP is not full:\n►Consumes 1 [Cursed Chain].\n►Recovers 40％ of own HP.\n\nIf there are no [Cursed Chain]:\n►Inflicts Confusion on self for 180s.
+
+##S2##
+パラソルアクト=Parasol Act
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップ、行動速度を大アップ、ＴＰを小回復させる。バトル開始後、初弾のこのスキルは自分に【呪いの鎖】を３つ付与し、ＨＰ回復量を中ダウンする。=Massively boosts all allies’ M.ATK, greatly boosts their M.CRIT RATE, slightly boosts their M.CRIT DMG, greatly boosts their action speed, and slightly recovers their TP. The first time this skill is used after battle start, grants self 3 stacks of [Cursed Chain] and moderately reduces HP recovery received.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを150アップ味方全体の魔法クリダメを6％アップ味方全体の行動速度60％アップ味方全体のＴＰを100回復初使用時、以下の効果が発動する自分に呪いの鎖を３つ付与する自分のＨＰ回復量を40％ダウン$"=Cast time: 1.05s\n►Boosts allies' M.ATK by $1 for 12s.\n►Boosts allies' M.CRIT RATE by 150 for 12s.\n►Boosts allies' M.CRIT DMG by 6％ for 12s.\n►Boosts allies' action speed by 60％ for 12s.\n►Recovers TP for all allies by 100.\n\nUpon first use:\n►Grants 3 [Cursed Chain] to self.\n►Reduces own HP recovery received by 40％.
+
+##EX##
+エンパワーチェイン=Empower Chain
+エンパワーチェイン+=Empower Chain+

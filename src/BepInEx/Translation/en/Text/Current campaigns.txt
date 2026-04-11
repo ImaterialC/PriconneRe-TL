@@ -24,6 +24,7 @@ sr:"^\[475F7B\](.+?)((?:（|\().+(?:）|\)))?\n?の\n?(.+)(ドロップ|獲得)�
 
 ---exp---
 プレイヤーEXP獲得量アップ=EXP Up
+[475F7B]イベントクエストの消費スタミナが半減[-]=[475F7B]Event quest stamina cost halved.[-]
 
 ---reward---
 報酬ドロップ量アップ=Reward Drops Up

@@ -1,0 +1,11 @@
+キャラ加入演出を再生するか設定します。=Set whether to play character recruitment animations.
+ガチャ結果の獲得ボーナスダイアログ表示=Gacha Bonus Acquisition Dialog Display
+ガチャでボーナスを獲得したときに、獲得ダイアログを自動で表示するか設定します。=Set whether to automatically display the acquisition dialog when bonuses are obtained from gacha.
+ストーリーイベントのミニコンテンツのデータ保存設定=Story Event Mini-Content Data Storage Settings
+一部ミニコンテンツは、イベント開催期間外に閲覧する際、追加データのダウンロードが必要となります。\nダウンロードしたミニコンテンツの追加データを端末に保存するか設定します。\n※「保存しない」を選択すると、データがアプリ起動の度に削除され、\n端末のデータ容量を削減できる代わりに、毎回ダウンロードし直す必要があります。=Some mini-content requires additional data download when viewed outside the event period.\nSet whether to store downloaded mini-content data on your device.\n*If “Do Not Save” is selected, data will be deleted each time the app launches,\nreducing storage usage but requiring re-download each time.
+UB演出=UB Animation
+各キャラがユニオンバーストを発動する際に演出を再生するか設定できます。\nこの設定は次回バトルから反映されます。=Set whether to play animations when characters activate Union Burst.\nThis setting will apply from the next battle.
+各キャラがクランバトルでユニオンバーストを発動する際に演出を再生するか設定できます。\nこの設定は次回バトルから反映されます。=Set whether to play animations when characters activate Union Burst in Clan Battle.\nThis setting will apply from the next battle.
+クランバトル UB演出設定の確認ダイアログ=Clan Battle UB Animation Settings Confirmation Dialog
+クランバトルを開始する前に、クランバトルのUB演出設定を確認するダイアログを開きます。=Opens a dialog to confirm Clan Battle UB animation settings before starting.
+「他キャラが装備中のEX装備を選択する」にチェックを入れた際に以下のEX装備を対象から除外します\n3パーティバトル中の、他キャラが装備しているもの\nアリーナの防衛に設定しているキャラが装備しているもの\nサポートに設定しているキャラが装備しているもの=When “Select EX equipment currently equipped by other characters” is checked, the following EX equipment will be excluded:\nEquipment used by other characters in 3-party battles\nEquipment used by characters set for Arena defense\nEquipment used by characters set as Support
