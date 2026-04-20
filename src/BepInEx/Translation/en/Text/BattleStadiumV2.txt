@@ -52,7 +52,7 @@ r:"^戦闘不能になったキャラが(\d)人以下で勝利$"=Win with $1 or 
 バトル中、「凍結」の効果時間が増加する。=During battle, the duration of "Frozen" is increased.
 
 ---Mission---
-r:"^(\[[0-9A-F]{6}\])?★を累計(\d+)個獲得しよう(\[-\])?$"="$1Collect stars $2★$3"
+r:"^(\[[0-9A-F]{6}\])?★を累計(\d+)個獲得しよう(\[-\])?$"="$1Collect $2★ stars $3"
 ★獲得ミッション=Collect stars ★ mission
 
 r:"^([0-9/]+)\n([0-9:]+) 解放$"=Unlock on\n$1 $2 (JST).
