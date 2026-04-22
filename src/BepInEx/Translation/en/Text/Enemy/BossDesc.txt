@@ -2614,3 +2614,7 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 自身の物理攻撃力と魔法攻撃力をバトル終了まで小アップさせ、物理防御力と魔法防御力をバトル終了まで中アップさせる。=Slightly increases own P.ATK and M.ATK until the end of battle, and moderately increases own P.DEF and M.DEF until the end of battle.
 アルファ・レガリアスから受けるすべての状態異常とステータスダウン効果は、ダメージを無効化しても付与される。=All status ailments and stat reductions inflicted by Alpha Regalias are applied even if the damage is nullified.
 アルファ・レガリアスから受けるすべてのダメージで発生する、パーティキャラのＴＰ回復量を特大ダウンさせる。=Greatly reduces TP recovery gained by party members from all damage received from Alpha Regalias.
+
+
+バトル中、「継続ＴＰ回復」効果が発動する。=During battle, activates a continuous TP recovery effect.
+バトル開始時、すべてのモンスターに継続ＴＰ小回復状態を付与する。=At the start of battle, grants all monsters a state of slight continuous TP recovery.

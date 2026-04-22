@@ -21,6 +21,8 @@ r:"^(\d+)Lv購入$"=Purchase $1Lv
 有償ジュエルを使用してプレミアムパスを購入しますか？=Would you like to purchase the Premium Pass using paid jewels?
 プレミアムパス購入=Premium Pass Purchase
 
+r:"^パスLvが(\d+)を超えているため購入できません。$"=You cannot purchase this because your pass level is over $1.
+
 
 繰り返し報酬について=About Repeat Rewards
 期間中一定ポイントを獲得する度に報酬が獲得できます=You can obtain rewards each time you earn a certain number of points during the event period.
@@ -78,3 +80,4 @@ r:"^クランバトルに合計(\d+)回挑戦しよう$"="Participate in the "Cl
 r:"^覇瞳皇帝の領域(\d+)層をクリアしよう$"=Clear Level $1 of the Kaiser Insight’s Domain.
 r:"^ゼーンの領域(\d+)層をクリアしよう$"=Clear Level $1 of Zane’s Domain.
 r:"^アラクネの領域(\d+)層をクリアしよう$"=Clear Level $1 of Arachne's Domain.
+r:"^バトルスタジアムで★を合計(\d+)個獲得しよう$"=Acquire a total of $1 ★s in the Battle Stadium

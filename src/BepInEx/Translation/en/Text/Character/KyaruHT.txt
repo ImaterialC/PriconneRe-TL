@@ -1,0 +1,24 @@
+##Profile##
+【魔法】後衛で、天の星を瞳に映し、仲間と進む黒猫娘。敵全体を激烈に弱体化させながら、【千里真眼】状態時に未来を視通す能力で仲間をあらゆる脅威から遠ざける。=[Magic] A black cat girl in the back line who reflects the stars of the heavens in her eyes and advances with her allies. While heavily weakening all enemies, she uses her foresight in the [Clairvoyant Eye] state to protect her allies from all threats.
+
+##UB##
+覇瞳天星・滅影=Heavenly Overlord Eye: Destruction Shadow
+敵全体に魔法極大ダメージを与え、魔法防御力を中ダウンさせる。このスキルのダメージは対象になった敵の数に応じて減少する。バトル開始後、初弾のこのスキルはさらに、味方全体のデバフ強化を小アップさせる。４回目のこのスキルはさらに、自分を【千里真眼】状態にする。=Deals extreme M.DMG to all enemies and moderately lowers their M.DEF. The damage of this skill decreases based on the number of targets hit. The first time this skill is used after battle start, additionally slightly boosts all allies’ debuff potency. The fourth time this skill is used, additionally puts self into the [Clairvoyant Eye] state.
+r:"^敵全体に(\d+)の魔法ダメージ敵全体の魔法防御力を(\d+)ダウン初使用時、味方全体のデバフ強化を10アップ４回目使用時、自分を千里真眼状態にする$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' M.DEF by $2 for 18s.\n►Upon first use, boosts allies' Debuff Amplification by 10.\n►Upon 4th use, enter [Clairvoyant Eye] state.
+
+
+##S1##
+グリムスパーク=Grim Spark
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウン、魔法攻撃を受けた際のダメージを小アップさせる。自分が【千里真眼】状態の場合、このスキルは最も魔法防御力の低い敵１キャラを対象とし、ダメージは魔法防御力を一定値無視する。=Deals massive M.DMG to an enemy in front, slightly lowers their M.DEF, and slightly increases the damage they take from magic attacks. If self is in the [Clairvoyant Eye] state, this skill instead targets the enemy with the lowest M.DEF, and its damage ignores a portion of M.DEF.
+r:"^千里真眼状態でない場合、敵単体に(\d+)の魔法ダメージ千里真眼状態の場合、敵単体に魔法防御力を50無視する(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体が受ける魔法ダメージを8％アップ$"=►If not in [Clairvoyant Eye] state:\n►Deals $1 M.DMG to a single enemy.\n\nIf in [Clairvoyant Eye] state:\n►Deals $2 M.DMG to a single enemy, ignoring 50 M.DEF.\n►Lowers a single enemy's M.DEF by $3 for 12s.\n►Boosts M.DMG taken by a single enemy by 8％ for 12s.
+
+
+##S2##
+ダークネスベール=Darkness Veil
+自分を一定時間無敵状態にする。敵全体の物理・魔法攻撃力を大ダウン、物理・魔法攻撃のダメージを小ダウン、クリティカルを受けた際のダメージを小アップさせる。さらに自分のＴＰを中回復する。自分が【千里真眼】状態の場合、闇属性の味方すべてを一定時間無敵状態にする。=Grants self invincibility for a period of time. Greatly lowers all enemies’ P.ATK and M.ATK, slightly lowers their P.DMG and M.DMG dealt, and slightly increases the damage they take when receiving critical hits. Additionally, moderately recovers own TP. If self is in the [Clairvoyant Eye] state, grants invincibility to all dark-element allies for a period of time.
+r:"^敵全体の物理・魔法攻撃力を(\d+)ダウン敵全体が与える物理・魔法ダメージを8％ダウン敵全体の被クリダメを8％アップ一定時間無敵状態になる千里真眼状態の場合、闇属性の味方を一定時間無敵状態にする自分のＴＰを180回復$"=►Lowers all enemies' P.ATK and M.ATK by $1 for 12s.\n►Reduces all enemies' P.DMG and M.DMG dealt by 8％ for 12s.\n►Boosts all enemies' CRIT DMG taken by 8％ for 12s.\n►Becomes invincible for a period of time.\n\nIf in [Clairvoyant Eye] state:\n►Grants invincibility to Dark allies for a period of time.\n\n►Recovers own TP by 180.
+
+
+##EX##
+覇瞳開眼=Awakening Omniscient Eye
+覇瞳開眼+=Awakening Omniscient Eye+

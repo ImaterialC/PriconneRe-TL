@@ -131,3 +131,7 @@ r:"^([0-9,.]+)年メモリーピース交換チケット$"=$1 Memory Shard Excha
 r:"^([0-9,.]+)周年セレクトガチャ$"=$1th Anniversary Select Gacha
 
 ウマ娘「The Game Awards 2025」受賞記念★3確定ガチャチケット=Uma Musume "The Game Awards 2025" Award Commemoration ★3 Guaranteed Gacha Ticket
+
+
+r:"^イベントクエスト（(.+)）クリアで獲得したアイテムです。$"=These are items obtained by clearing the Event Quest ($1).
+所持上限を超えて獲得した復刻イベントログインボーナスの報酬です。=These are rewards from the Revival Event login bonus, obtained in excess of the maximum possession limit.
