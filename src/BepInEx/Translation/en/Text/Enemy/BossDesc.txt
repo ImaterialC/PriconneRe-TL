@@ -2618,3 +2618,23 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 バトル中、「継続ＴＰ回復」効果が発動する。=During battle, activates a continuous TP recovery effect.
 バトル開始時、すべてのモンスターに継続ＴＰ小回復状態を付与する。=At the start of battle, grants all monsters a state of slight continuous TP recovery.
+
+召喚体無視・必中=Ignores summons; guaranteed hit.
+敵全体に物理／魔法クリダメダウン（飛行効果無視・必中）=Reduces P.CRIT DMG and M.CRIT DMG of all enemies (ignores flying effects; guaranteed hit).
+前方範囲に移動速度ダウン（飛行効果無視・必中）=Reduces movement speed of enemies in a frontal area (ignores flying effects; guaranteed hit).
+飛行効果無視・必中=Ignores flying effects; guaranteed hit.
+敵の数が少ないほど：ダウン量上昇=The fewer the enemies, the greater the reduction amount.
+
+レイスコレクター=Wraith Collector.
+武具に取り憑き、手足のように操る魔物。堅牢な装甲と巨大な魔剣で冒険者を苦しめる。=A monster that possesses weapons and armor, manipulating them like limbs. It torments adventurers with its sturdy armor and massive demon sword.
+自身が継続ダメージ状態ではない：攻撃力アップ量上昇=If self is not under continuous damage: increases the amount of ATK increase.
+最もＨＰ割合が低い敵のＨＰ割合が低いほど：束縛時間アップ=The lower the HP percentage of the enemy with the lowest HP percentage, the longer the Bind duration.
+物理か魔法攻撃力が最も高い敵１体に物理／魔法与ダメージダウン、呪詛（必中）=Reduces P.DMG dealt and M.DMG dealt and inflicts Curse on the enemy with the highest P.ATK or M.ATK (guaranteed hit).
+敵全体に呪い=Inflicts Curse on all enemies.
+棄てられたモノの怨念より生まれた悪霊。怨む者の心臓を狙い定め、呪いの釘を打ち込む。=An evil spirit born from the grudges of discarded things. It targets the hearts of those it resents and drives cursed nails into them.
+自身に被クリダメアップ=Increases damage taken from critical hits on self.
+自身にブレイク無効=Grants self Break immunity.
+敵全体に物理／魔法クリティカルダウン=Reduces P.CRIT RATE and M.CRIT RATE of all enemies.
+対象のＨＰ割合が低いほど：アップ量上昇=The lower the target's HP percentage, the greater the increase amount.
+
+召喚体、分身を除いた最も遠い敵２キャラに物理小ダメージを与え、物理防御力を大ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals minor P.DMG to the two farthest enemies (excluding summons and clones) and greatly reduces their P.DEF. This effect is applied even if the damage is nullified.

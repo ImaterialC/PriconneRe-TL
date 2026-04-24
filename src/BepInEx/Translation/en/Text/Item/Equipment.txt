@@ -769,3 +769,11 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 人魚姫の霊涙Ｒ=Mermaid Tears Ｒ
 赫怒竜のペンダントＲ=Wyrmswarth Pendant Ｒ
 聖獣の祈念Ｒ=Sacred Steed's Grace Ｒ
+
+
+鬼焔の闘衣Ｒ=Fiendflame Gear Ｒ
+レイジクイーンドレスＲ=Rage Queen Dress ＲＲ
+エクゾマギアローブＲ=Exomagia Robe Ｒ
+煌金の王鎧Ｒ=Royal Goldplate Ｒ
+ブラッドルビーヒールＲ=Bloodruby Heels Ｒ
+ロイヤルガードハットＲ=Royal Guard Hat Ｒ
