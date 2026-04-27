@@ -30,13 +30,6 @@ Suzuna
 目の前の敵１キャラに物理中ダメージを１回、物理小ダメージを２回与える。このスキルの１ヒットのダメージは必ずクリティカルし、クリティカル時のダメージが３倍になる。=Deals medium P.DMG once and small P.DMG twice to an enemy in front. Each hit of this skill always lands a critical hit, and critical damage is tripled.
 r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージクリティカルでダメージを与えるたびに敵単体に最大50万の物理割合ダメージを与える状態になる$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.\n►Grants a state where each time a critical hit is dealt, deal physical proportional damage (up to 500,000) to a single enemy.
 
-Kasumi
-ルートオブバインド++=Route of Bind++
-前方範囲内の敵すべてに魔法中ダメージを与え、束縛し、自分に【証拠】を１つ付与する。【証拠】は最大５つまで付与される。その後、【証拠】が５つの場合、前方範囲内の敵すべてに魔法中ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、物理・魔法攻撃力アップ効果を解除する。範囲内の敵の数に応じて、束縛時間、ダメージ、【証拠】の付与数が増加する。このスキルは必ずクリティカルする。=Deals medium M.DMG to all enemies in a frontal area, binds them, and grants self 1 stack of 【Evidence】. 【Evidence】 can stack up to 5 times. If 【Evidence】 is at 5 stacks afterward, deals medium M.DMG to all enemies in the frontal area, slightly increases the damage they take when receiving critical hits, and removes P.ATK and M.ATK up effects. Based on the number of enemies in range, the bind duration, damage dealt, and number of 【Evidence】 stacks granted increase. This skill always lands a critical hit.
-
-前方範囲内の敵全てに魔法小ダメージを与え、さらに束縛し、自分に【証拠】を１つ付与する。【証拠】は最大５つまで付与される。範囲内の敵の数に応じて、束縛時間が増加する。=Deals small M.DMG to all enemies in a frontal area, binds them, and grants self 1 stack of 【Evidence】. 【Evidence】 can stack up to 5 times. Based on the number of enemies in range, the bind duration increases.
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする自分に証拠を１つ付与する$"=►Deals $1 M.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Grants 1 [Evidence] to self.
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする自分に証拠を１つ付与する証拠が５つの場合、以下の効果が発動する範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の被クリダメを8％アップ範囲内の敵の攻撃力アップ効果を解除する$"=►Deals $1 M.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Grants 1 [Evidence] to self.\n\nIf [Evidence] is 5:\n►Deals $2 M.DMG to enemies within range.\n►Boosts enemies' CRIT DMG taken within range by 8％.\n►Removes ATK Up effects from enemies within range.
 
 Miyako
 う～ら～め～し～や～なの++=Ura~me~shi~ya~nano++

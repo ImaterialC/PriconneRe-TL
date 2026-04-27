@@ -16,8 +16,9 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間�
 
 ##S2##
 ミスリードバレット=Misdirection Bullet
-目の前の敵１キャラに魔法小ダメージを与え、さらに混乱させる。=Deals small M.DMG to an enemy directly in front and inflicts Confusion.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体を混乱させる$"=►Deals $1 M.DMG to an enemy.\n►Confuses an enemy for 7.5s.
+目の前の敵１キャラに魔法中ダメージを与え、さらに混乱させる。【証拠】が５つの場合、このスキルは必ずクリティカルし、前方範囲内の敵すべてに魔法中ダメージを与える。範囲内の敵の数に応じて、追加ダメージが増加する。=Deals medium M.DMG to an enemy in front and inflicts Confusion. If there are 5 [Evidence] stacks, this skill always lands a critical hit and deals medium M.DMG to all enemies in a frontal area. Additional damage increases based on the number of enemies in range.
+
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を混乱させる証拠が５つの場合、範囲内の敵に(\d+)の魔法ダメージ$"=Cast time: 1.4s\n►Deals $1 M.DMG to a single enemy.\n►Inflicts Confusion on a single enemyfor 7.5s.\n\nIf [Evidence] is 5:\n►Deals $2 M.DMG to enemies within 1200 range.
 
 ##EX##
 ディテクティブマインド=Detective Mind
@@ -25,12 +26,19 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体を混乱させる$"=►Deals
 
 ##UB+##
 トゥルーエンドケース=True End Case
-前から３番目の敵を中心に、範囲内の敵の魔法防御力を特大ダウン、ＴＰ上昇を小ダウンさせるフィールドを展開し、さらに行動速度を中ダウンさせる。さらに【カウントダウン】を付与し、５カウント後に敵全体に魔法小ダメージを与える。このスキルによるダメージでは敵のＴＰは回復しない。=Deploys a field to the 3rd enemy from the front, massively lowering the M.DEF of enemies within the area, slightly decreasing TP Boost, and moderately reducing their action speed. Additionally, applies Countdown, and after 5 counts, deals small M.DMG to all enemies. This skill's damage does not recover an enemy's TP.
-r:"^フィールド内の敵の魔法防御力(\d+)ダウンフィールド内の敵のＴＰ上昇10ダウン範囲内の敵の行動速度を一定時間低下させる敵全体に(\d+)の魔法ダメージ$"=►Lowers M.DEF of enemies within 410 range by $1 for 18s.\n►Reduces enemies' TP Boost within 410 range by 10 for 18s.\n►Reduces action speed of enemies to 70% within 300 range for 18s.\n►Deals $2 M.DMG to all enemies.
+前から３番目の敵を中心に、範囲内の敵の魔法防御力を特大ダウン、ＴＰ上昇を小ダウンさせるフィールドを展開し、さらに行動速度を中ダウンさせる。さらに【カウントダウン】を付与し、５カウント後に敵全体に魔法小ダメージを与える。このスキルによるダメージでは敵のＴＰは回復しない。【証拠】が５つの場合、このスキルは必ずクリティカルする。=Deploys a field centered on the third enemy from the front that massively lowers M.DEF and slightly lowers TP Boost of enemies in range, and additionally moderately lowers their action speed. Also inflicts [Countdown], dealing small M.DMG to all enemies after 5 counts. Damage from this skill does not restore TP to enemies. If there are 5 [Evidence] stacks, this skill always lands a critical hit.
+
+r:"^フィールド内の敵の魔法防御力(\d+)ダウンフィールド内の敵のＴＰ上昇10ダウン範囲内の敵の行動速度30％ダウン敵全体に(\d+)の魔法ダメージ$"=►Deploys a field within 410 to the 3rd closest enemy target.\n►Lowers M.DEF of enemies within the field by $1 for 18s.\n►Lowers TP Boost of enemies within the field by 10 $1 for 18s.\n►Lowers enemies' action speed within range by 30％ $1 for 18s.\n►Deals $2 M.DMG to all enemies.
 
 ##S1+##
 ルートオブバインド+=Binding Route+
-前方範囲内の敵全てに魔法小ダメージを与え、さらに束縛する。範囲内の敵の数に応じて、束縛時間が増加する。=Deals small M.DMG to all enemies in range and inflicts Bind. The binding time boost according to the number of enemies within the range.unable to act for a certain period of time
+前方範囲内の敵全てに魔法小ダメージを与え、さらに束縛し、自分に【証拠】を１つ付与する。【証拠】は最大５つまで付与される。範囲内の敵の数に応じて、束縛時間が増加する。=Deals small M.DMG to all enemies in a frontal area, binds them, and grants self 1 stack of [Evidence]. [Evidence] can stack up to 5 times. Based on the number of enemies in range, the bind duration increases.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする自分に証拠を１つ付与する$"=Cast time: 1.4s\n►Deals $1 M.DMG to enemies within 800 range.\n►Inflicts bind on enemies within 800 range for 2.5s.\n►Grants 1 [Evidence] to self.
 
 ##UE##
 ディテクティブルーペ=Detective Magnifier
+
+ルートオブバインド++=Binding Route++
+前方範囲内の敵すべてに魔法中ダメージを与え、束縛し、自分に【証拠】を１つ付与する。【証拠】は最大５つまで付与される。その後、【証拠】が５つの場合、前方範囲内の敵すべてに魔法中ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、物理・魔法攻撃力アップ効果を解除する。範囲内の敵の数に応じて、束縛時間、ダメージ、【証拠】の付与数が増加する。このスキルは必ずクリティカルする。=Deals medium M.DMG to all enemies in a frontal area, binds them, and grants self 1 stack of [Evidence]. [Evidence] can stack up to 5 times. If [Evidence] is at 5 stacks afterward, deals medium M.DMG to all enemies in the frontal area, slightly increases the damage they take when receiving critical hits, and removes P.ATK and M.ATK up effects. Based on the number of enemies in range, the bind duration, damage dealt, and number of [Evidence] stacks granted increase. This skill always lands a critical hit.
+
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする自分に証拠を１つ付与する証拠が５つの場合、以下の効果が発動する範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の被クリダメを8％アップ範囲内の敵の攻撃力アップ効果を解除する$"=Cast time: 1.4s\n►Deals $1 M.DMG to enemies within 800 range.\n►Inflicts bind on enemies within 800 range for 2.5.\n►Grants 1 [Evidence] to self.\n\nIf [Evidence] is 5:\n►Deals $2 M.DMG to enemies within 1200 range.\n►Boosts enemies' CRIT DMG taken within range by 8％ for 12s.\n►Removes ATK Up effects from enemies within 1200 range.
