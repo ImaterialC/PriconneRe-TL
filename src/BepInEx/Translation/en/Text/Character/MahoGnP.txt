@@ -1,0 +1,25 @@
+##Profile##
+【物理】後衛から必中の一射で敵を貫く西住流の継承者。【榴弾】を装填した状態のＵＢは、防御力を無視する火傷フィールドを発生させ、圧倒的な戦力差で敵を蹂躙する。=[Physical] A Nishizumi-style successor who pierces enemies with unfailing shots from the back line. When her UB is used with [High-Explosive Shell] loaded, it generates a burn field that ignores defense, overwhelming enemies with sheer force.
+
+##UB##
+ブリッツクリーク=Blitzkrieg
+最も物理防御力の低い敵１キャラに物理特大ダメージを与え、そのキャラを中心とした範囲内の敵すべてに最大ＨＰに応じて最大200万の物理割合ダメージを与える。この攻撃は必ず命中する。自分に【榴弾】が付与されている場合、【榴弾】を消費し、最も物理防御力の低い敵１キャラを中心とした範囲内の敵すべてを火傷状態にするフィールドを展開する。=Deals massive P.DMG to the enemy with the lowest P.DEF, and deals percentage P.DMG to all enemies in an area centered on that target based on their max HP, up to a maximum of 2,000,000. This attack always hits. If self has [High-Explosive Shell], consumes it to deploy a field that inflicts Burn on all enemies in an area centered on the enemy with the lowest P.DEF.
+
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に最大200万の物理割合ダメージを与える榴弾が付与されている場合、以下の効果が発動する榴弾を消費する敵を(\d+)ダメージを与える火傷状態にするフィールドを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Deals fixed P.DMGto enemies within 300 range that equal to 15% of Max HP to enemy (up to 2,000,000).\n\nIf [Grenade] is applied:\n►Consumes [Grenade].\n►Deploys a field within 510 that inflicts Burn, dealing $2 damage per second for 15.5s.
+
+
+##S1##
+シュプレンググラナーテ=Sprenggranate
+前方範囲内の敵すべてに物理中ダメージを２回与え、物理防御力を小ダウンさせる。さらに対象が火傷状態の場合、このスキルのダメージがアップし、そのキャラの最大ＨＰに応じて最大100万の物理割合ダメージを与える。=Deals medium P.DMG twice to all enemies in a frontal area and slightly lowers their P.DEF. If the targets are under Burn, this skill’s damage increases and deals additional percentage P.DMG based on their max HP, up to a maximum of 1,000,000.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン敵が火傷状態の場合、範囲内の敵に最大100万の物理割合ダメージを与える$"=Cast time: 1.05s\n►Deals $1 P.DMG to enemies within 1200 range.\n►Deals $2 P.DMG to enemies within 1200 range.\n►Lowers P.DEF of enemies within 1200 range by $3 for 12s.\n\nIf enemies are afflicted with Burn:\n►Deals fixed P.DMG to enemies within 1200 range that equal to 10% of the Max HP (up to 1,000,000).
+
+##S2##
+アイゼンヘルツ=Eisenherz
+自分の物理攻撃力を特大アップし、【榴弾】を付与し、一定時間すべての物理攻撃を回避する。さらに、自分のＴＰを特大回復する。=Massively boosts own P.ATK, grants [High-Explosive Shell], and allows self to evade all physical attacks for a period of time. Additionally, massively recovers own TP.
+
+r:"^自分の物理攻撃力を(\d+)アップ自分に榴弾を付与する一定時間すべての物理攻撃を回避する自分のＴＰを1000回復$"=Cast time: 1.05s\n►Boosts own P.ATK by $1 for 180s.\n►Grants [Grenade] to self.\n►Evades all physical attacks for 6s.\n►Recovers own TP by 1000.
+
+##EX##
+ゲーゲンシュラーク=Gegenschlag
+ゲーゲンシュラーク+=Gegenschlag+

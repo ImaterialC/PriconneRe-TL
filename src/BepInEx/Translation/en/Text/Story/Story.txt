@@ -85,7 +85,7 @@ r:"^メインストーリーが\n(\d+)つ解放されました。$"=$1 Main Stor
 
 ---Bond Stuff---
 絆ランク=Bond
-r:"^第(\d+)話$"=Episode $1
+r:"^第(\d+)話(R)?$"=Episode $1$2
 キャラストーリー=Character Story
 ステータスアップボーナス=Stats boost Bonus
 絆ランクアップ=Bond Rank Up

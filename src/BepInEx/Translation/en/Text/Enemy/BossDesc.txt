@@ -2638,3 +2638,8 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 対象のＨＰ割合が低いほど：アップ量上昇=The lower the target's HP percentage, the greater the increase amount.
 
 召喚体、分身を除いた最も遠い敵２キャラに物理小ダメージを与え、物理防御力を大ダウンさせる。このスキルの効果はダメージを無効化しても付与される。=Deals minor P.DMG to the two farthest enemies (excluding summons and clones) and greatly reduces their P.DEF. This effect is applied even if the damage is nullified.
+
+クーゲルゴーレム=Kugel Golem.
+『二つの世界』の因子を宿すゴーレムの変異体。黒鉄の車輌を内包し、アストルムの理から外れた予測もつかぬ動きで戦場を駆け回る。=A mutated golem bearing the factors of the "Two Worlds." Containing a black iron vehicle within, it races across the battlefield with unpredictable movements that defy the laws of Astrum.
+ランダムな敵２体に物理ダメージ=Deals P.DMG to two random enemies.
+前から１番目中心範囲攻撃=Deals area damage centered on the foremost enemy.

@@ -1,21 +1,30 @@
-【魔法】後衛で超速飛行からの大火力を叩き込むロボ娘。上空から速度バフで味方全体を支援しつつ、自分のバリアを解除して力へと変え、世界の命運を背負い飛翔する！=[Magic] An automaton girl who flies at super-speed in the rear and unleashes massive firepower. While supporting all allies with a speed buff from above, she removes her own barrier and transforms it into power, soaring with the fate of the world on her shoulders!
+##Profile##
+【魔法】後衛で超速飛行からの大火力を叩き込むロボ娘。上空から速度バフで味方全体を支援しつつ、自分のバリアを解除して力へと変え、世界の命運を背負い飛翔する！=[Magic]  An automaton girl in the backline who unleashes overwhelming firepower from high-speed flight. While supporting all allies with speed buffs from above, she converts her own barriers into power, soaring with the fate of the world on her shoulders!
 
 全備重量278.1kg=Total weight: 273.1kg
-##UB##
-エアリアルブラストーム=Aerial Blast Storm
+ぬいぐるみを集めること=Collecting stuffed animals
 
-味方全体の魔法攻撃力と魔法クリティカルを特大アップさせ、目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。=Massively increases all allies' M.ATK and M.CRIT, deals massive M.DMG to the frontmost enemy, and slightly lowers their M.DEF. One hit will always be a critical, and critical damage is tripled instead of doubled.
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' M.CRIT by $2.\n►Deals $3 M.DMG to the frontmost enemy.\n►Lowers enemy’s M.DEF by $4.\n►One hit of this UB is guaranteed to crit.\n►Critical damage is 3x instead of 2x.
+##UB##
+エアリアルブラストーム=Aerial Blastorm
+味方全体の魔法攻撃力と魔法クリティカルを特大アップさせ、目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。このスキルは１ヒットは必ずクリティカルし、クリティカルした場合のダメージは、２倍ではなく３倍になる。=Massively boosts all allies’ M.ATK and M.CRIT RATE, deals massive M.DMG to an enemy in front, and slightly lowers their M.DEF. One hit of this skill always lands a critical hit, and critical damage is 3× instead of 2×.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' M.CRIT by $2 for 18s.\n►Deals $3 M.DMG to the frontmost enemy.\n►Lowers enemy’s M.DEF by $4 for 18s.\n►One hit of this UB is guaranteed to crit.\n►Critical damage is 3x instead of 2x.
 
 ##S1##
-クロスピンボルト=Cross Pin Bolt
-敵全体の物理攻撃力と魔法攻撃力を大ダウン、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせ、行動速度を大ダウンさせる。さらに、自分のＴＰを小回復する。自分にバリアが展開されている場合、自分のバリアを全て解除し、ＨＰとＴＰを小回復する。=Greatly reduces all enemies' P.ATK and M.ATK, slightly reduces their M.DEF, slightly increases crit damage taken, and greatly reduces their action speed. Also slightly recovers own TP. If self has a barrier, it is removed and HP/TP are slightly recovered.
-r:"^敵全体の物理・魔法攻撃力を(\d+)ダウン敵全体の魔法防御力を(\d+)ダウン敵全体の被クリダメを(\d+％)アップ敵全体の行動速度を一定時間低下させる自分のＴＰを(\d+)回復バリアが展開されている時、自分のバリアを解除して、自分のＨＰを(\d+)回復、ＴＰを(\d+)回復$"=►Lowers all enemies' P/M.ATK by $1.\n►Lowers all enemies' M.DEF by $2.\n►Increases crit damage taken by enemies by $3.\n►Reduces enemies' action speed by 50%.\n►Recovers own TP by $4.\n►If self has Barrier:\n　►Removes own Barrier.\n　►Recovers own HP by $5.\n　►Recovers own TP by $6.
+クロスピンボルト=Cross Spin Bolt
+敵全体の物理・魔法攻撃力を大ダウン、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせ、行動速度を大ダウンさせる。さらに、自分のＴＰを小回復する。自分にバリアが展開されている場合、自分のバリアを全て解除し、ＨＰとＴＰを小回復する。=Greatly lowers all enemies’ P.ATK and M.ATK, slightly lowers their M.DEF, slightly increases the damage they take when receiving critical hits, and greatly lowers their action speed. Additionally, slightly recovers own TP. If self has a barrier, removes all barriers from self and slightly recovers own HP and TP.
+r:"^敵全体の物理・魔法攻撃力を(\d+)ダウン敵全体の魔法防御力を(\d+)ダウン敵全体の被クリダメを5％アップ敵全体の行動速度50％ダウン自分のＴＰを100回復バリアが展開されている時、自分のバリアを解除して、自分のＨＰを(\d+)回復、ＴＰを100回復$"=Cast time: 1.05s\n►Lowers all enemies' P.ATK and M.ATK by $1 for 12s.\n►Lowers all enemies' M.DEF by $2 for 12s.\n►Boosts all enemies' CRIT DMG taken by 5％ for 12s.\n►Lowers all enemies' action speed by 50％ for 12s.\n►Recovers own TP by 100.\n\nIf a barrier is active:\n►Removes own barrier.\n►Recovers own HP by $3.\n►Recovers own TP by 100.
 
 ##S2##
 エアリアルバリア=Aerial Barrier
-味方全体の魔法攻撃力を特大アップ、物理防御力と魔法防御力を大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、行動速度を大アップさせる。さらに、自分のＴＰを小回復する。自分にバリアが展開されている場合、自分のバリアを全て解除し、ＨＰとＴＰを小回復する。=Massively boosts all allies' M.ATK, greatly boosts their P.DEF and M.DEF, slightly increases M.Crit damage, and greatly increases action speed. Also slightly recovers own TP. If self has a barrier, it is removed and HP/TP are slightly recovered.
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理・魔法防御力を(\d+)アップ味方全体の魔法クリダメを(\d+％)アップ味方全体の行動速度アップ自分のＴＰを(\d+)回復バリアが展開されている時、自分のバリアを解除して、自分のＨＰを(\d+)回復、ＴＰを(\d+)回復$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' P/M.DEF by $2.\n►Increases M.Crit DMG of all allies by $3.\n►Boosts all allies' action speed by 100%.\n►Recovers own TP by $4.\n►If self has Barrier:\n　►Removes own Barrier.\n　►Recovers own HP by $5.\n　►Recovers own TP by $6.
+味方全体の魔法攻撃力を特大アップ、物理防御力と魔法防御力を大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、行動速度を大アップさせる。さらに、自分のＴＰを小回復する。自分にバリアが展開されている場合、自分のバリアを全て解除し、ＨＰとＴＰを小回復する。=Massively boosts all allies’ M.ATK, greatly boosts their P.DEF and M.DEF, slightly boosts their M.CRIT DMG, and greatly boosts their action speed. Additionally, slightly recovers own TP. If self has a barrier, removes all barriers from self and slightly recovers own HP and TP.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理・魔法防御力を(\d+)アップ味方全体の魔法クリダメを8％アップ味方全体の行動速度100％アップ自分のＴＰを100回復バリアが展開されている時、自分のバリアを解除して、自分のＨＰを(\d+)回復、ＴＰを100回復$"=Cast time: 1.05s\n►Boosts allies' M.ATK by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF by $2 for 12s.\n►Boosts allies' M.CRIT DMG by 8％ for 12s.\n►Boosts allies' action speed by 100％ for 12s.\n►Recovers own TP by 100.\n\nIf a barrier is active:\n►Removes own barrier.\n►Recovers own HP by $3.\n►Recovers own TP by 100.
 
+##EX##
+フルバースト=Full Burst
 フルバースト+=Full Burst+
 スラスターＯＮ！=Thrusters ON!
+
+##S1+##
+クロスピンボルト+=Cross Spin Bolt+
+敵全体の物理・魔法攻撃力を大ダウン、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップ、行動速度を大ダウンさせ、麻痺状態にする。さらに、自分のＴＰを小回復する。自分にバリアが展開されている場合、自分のバリアを全て解除し、ＨＰとＴＰを小回復する。=Greatly lowers all enemies’ P.ATK and M.ATK, slightly lowers their M.DEF, slightly increases the damage they take when receiving critical hits, greatly lowers their action speed, and inflicts Paralysis. Additionally, slightly recovers own TP. If self has a barrier, removes all barriers from self and slightly recovers own HP and TP.
+r:"^敵全体の物理・魔法攻撃力を(\d+)ダウン敵全体の魔法防御力を(\d+)ダウン敵全体の被クリダメを6％アップ敵全体の行動速度50％ダウン敵全体を一定時間行動不能にする自分のＴＰを100回復バリアが展開されている時、自分のバリアを解除して、自分のＨＰを(\d+)回復、ＴＰを100回復$"=Cast time: 1.05s\n►Lowers all enemies' P.ATK and M.ATK by $1 for 12s.\n►Lowers all enemies' M.DEF by $2 for 12s.\n►Boosts all enemies' CRIT DMG taken by 6％ for 12s.\n►Lowers all enemies' action speed by 50％ for 12s.\n►Inflicts Paralysis on all enemies for 1.5s.\n►Recovers own TP by 100.\n\nIf a barrier is active:\n►Removes own barrier.\n►Recovers own HP by $3.\n►Recovers own TP by 100.

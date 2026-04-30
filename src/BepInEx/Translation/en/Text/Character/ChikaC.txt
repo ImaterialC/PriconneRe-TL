@@ -4,17 +4,20 @@
 ##UB##
 エメラルドシンフォニー=Emerald Symphony
 味方全体の魔法攻撃力を特大アップさせ、物理無効バリアを展開する。さらに、自分と最も近くの味方１キャラの魔法攻撃力を特大アップさせ、ＴＰを中回復させる。=Massively boosts all allies' M.ATK and deploys a physical-nullifying barrier. Additionally, massively boosts M.ATK of self and the nearest ally and moderately recovers their TP.
-r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する自分と対象の味方の魔法攻撃力を(\d+)アップ自分と対象の味方のＴＰを120回復$"=►Boosts all allies' M.ATK by $1.\n►Deploys a Physical Nullification Barrier absorbing $2 DMG.\n►Boosts M.ATK of self and target ally by $3.\n►Recovers TP of self and target ally by 120.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを80アップ味方全体のＨＰを(\d+)回復自分と対象の味方の魔法攻撃力を(\d+)アップ、魔法クリティカルを160アップ、魔法クリダメを12％アップ敵全体に(\d+)の魔法ダメージ$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' M.CRIT RATE by 80 for 18s.\n►Restores all allies' HP by $2.\n►Boosts M.ATK of self and target ally by $3 for 18s.\n►Boosts M.CRIT RATE of self and target ally by 160 for 18s.\n►Boosts M.CRIT DMG of self and target ally by 12％ for 18s.\n►Deals $4 M.DMG to all enemies.
 
 ##S1##
 サンクトゥスコーラス=Sanctus Chorus
 味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせる。さらに、自分と最も近くの味方１キャラの魔法攻撃力と魔法クリティカルを特大アップ、魔法クリダメを小アップさせ、敵全体に魔法大ダメージを与え、味方全体のＨＰを小回復させる。=Massively boosts all allies' M.ATK and greatly boosts their M.CRIT RATE. Additionally, massively boosts M.ATK and M.CRIT RATE of self and the nearest ally, slightly boosts M.CRIT DMG, deals large M.DMG to all enemies, and slightly recovers all allies' HP.
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを80アップ味方全体のＨＰを(\d+)回復自分と対象の味方の魔法攻撃力を(\d+)アップ、魔法クリティカルを160アップ、魔法クリダメを12％アップ敵全体に(\d+)の魔法ダメージ$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' M.CRIT RATE by 80.\n►Restores all allies' HP by $2.\n►Boosts M.ATK of self and target ally by $3.\n►Boosts M.CRIT RATE of self and target ally by 160.\n►Boosts M.CRIT DMG of self and target ally by 12％.\n►Deals $4 M.DMG to all enemies.
+
+
+
+r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する自分と対象の味方の魔法攻撃力を(\d+)アップ自分と対象の味方のＴＰを120回復$"=Cast time: 0.74s\n►Boosts all allies' M.ATK by $1 for 12s.\n►Deploys a Physical Nullification Barrier absorbing $2 P.DMG for 12s.\n►Boosts M.ATK of self and target ally by $3 for 12s.\n►Recovers TP of self and target ally by 120.
 
 ##S2##
 シルフェンカンタービレ=Sylphen Cantabile
 味方全体の物理防御力を大アップさせる。さらに、自分と最も近くの味方１キャラの魔法攻撃力と魔法クリティカルを特大アップ、魔法クリダメを小アップ、ＴＰ上昇を小アップさせる。=Greatly boosts all allies' P.DEF. Additionally, massively boosts M.ATK and M.CRIT RATE of self and the nearest ally, slightly boosts M.CRIT DMG, and slightly boosts TP Boost.
-r:"^味方全体の物理防御力を(\d+)アップ自分と対象の味方の魔法攻撃力を(\d+)アップ自分と対象の味方の魔法クリティカルを160アップ自分と対象の味方の魔法クリダメを12％アップ自分と対象の味方のＴＰ上昇を8アップ$"=►Boosts all allies' P.DEF by $1.\n►Boosts M.ATK of self and target ally by $2.\n►Boosts M.CRIT RATE of self and target ally by 160.\n►Boosts M.CRIT DMG of self and target ally by 12％.\n►Boosts TP Boost of self and target ally by 8.
+r:"^味方全体の物理防御力を(\d+)アップ自分と対象の味方の魔法攻撃力を(\d+)アップ自分と対象の味方の魔法クリティカルを160アップ自分と対象の味方の魔法クリダメを12％アップ自分と対象の味方のＴＰ上昇を8アップ$"=Cast time: 0.74s\n►Boosts all allies' P.DEF by $1 for 12s.\n►Boosts M.ATK of self and target ally by $2 for 12s.\n►Boosts M.CRIT RATE of self and target ally by 160 for 12s.\n►Boosts M.CRIT DMG of self and target ally by 12％ for 12s.\n►Boosts TP Boost of self and target ally by 8 for 12s.
 
 ##EX##
 フェアリーズディーヴァ=Fairies Diva
@@ -22,4 +25,10 @@ r:"^味方全体の物理防御力を(\d+)アップ自分と対象の味方の�
 
 
 
+
+
+##S1+##
+ルーンテーラ・ネロ=Runetail Nero
 サンクトゥスコーラス+=Sanctus Chorus+
+味方全体の魔法攻撃力を特大アップさせ、物理無効バリアを展開する。さらに、自分と最も近くの味方１キャラの魔法攻撃力を特大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、ＴＰを中回復させる。=Massively boosts all allies' M.ATK and deploys a physical null barrier. Additionally, massively boosts the M.ATK of self and the nearest ally, slightly boosts their M.CRIT DMG, and moderately recovers their TP.
+r:"^味方全体の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する自分と対象の味方の魔法攻撃力を(\d+)アップ自分と対象の味方の魔法クリダメを8％アップ自分と対象の味方のＴＰを120回復$"=Cast time: 0.74s\n►Boosts allies' M.ATK by $1.\n►Deploys a physical null barrier absorbing $2 damage.\n►Boosts own and target ally's M.ATK by $3.\n►Boosts own and target ally's M.CRIT DMG by 8％.\n►Recovers TP of self and target ally by 120.

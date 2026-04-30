@@ -1,22 +1,36 @@
-【物理】中衛で巨大ロボを駆り戦うぼっちのパイロット。敵の弱体化や、味方へバリアを展開するスキルを持ち、鋼鉄の乙女から放つ光線はいかに堅固な守りも打ち破る。=[Physical] A bocchi pilot who driving a giant robot from the midlines. She weakens the enemy and protects her allies with a barrier. The beam of light that she shoots out of her Steel Maiden can pierce through any enemy, no matter how tough.
+【物理】中衛で巨大ロボを駆り戦うぼっちのパイロット。敵の弱体化や、味方へバリアを展開するスキルを持ち、鋼鉄の乙女から放つ光線はいかに堅固な守りも打ち破る。=[Physical] A loner pilot who driving a giant robot from the midlines. She weakens the enemy and protects her allies with a barrier. The beam of light that she shoots out of her Steel Maiden can pierce through any enemy, no matter how tough.
 
 ##UB##
 ギガンティックキャノン発射！=Gigantic Cannon, fire!
 
 自分の物理攻撃力を特大アップし、\n目の前の敵１キャラに物理特大ダ\nメージを与える。さらに目の前の敵\n１キャラを中心に、物理ダメージ\nフィールドと、物理攻撃力を大ダウ\nン、物理防御力を特大ダウンさせる\nフィールドを展開する。=Massively increases own P.ATK, deals massive P.DMG to the frontmost enemy. Also deploys a field centered on that enemy that deals P.DMG over time, greatly reduces their P.ATK, and massively reduces their P.DEF.
-r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージフィールド内の敵の物理攻撃力(\d+)ダウンフィールド内の敵の物理防御力(\d+)ダウン毎秒(\d+)の物理ダメージを与えるフィールドを展開する$"=►Boosts own P.ATK by $1.\n►Deals $2 P.DMG to the frontmost enemy.\n►Lowers P.ATK of enemies in the field by $3.\n►Lowers P.DEF of enemies in the field by $4.\n►Field deals $5 P.DMG/s.
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージフィールド内の敵の物理攻撃力(\d+)ダウンフィールド内の敵の物理防御力(\d+)ダウン毎秒(\d+)の物理ダメージを与えるフィールドを展開する$"=►Boosts own P.ATK by $1 for 18s.\n►Deals $2 P.DMG to the frontmost enemy.\n►Lowers P.ATK of enemies in the field by $3 for 18s.\n►Lowers P.DEF of enemies in the field by $4 for 18s.\n►Deploy a field within 510 radius that deals $5 P.DMG/s for 18.5s.
 
 ##S1##
-クロースぼっちコンバット=Close Bocchi Combat
+クロースぼっちコンバット=Close Loner Combat
 
 目の前の敵１キャラに物理大ダメー\nジを与える。さらにそのキャラを中\n心とした範囲内の敵すべてに物理中\nダメージを与え、物理攻撃力を中ダ\nウン、物理防御力を小ダウンさせ\nる。【フィールド展開中】このスキ\nルのダメージがアップし、目の前の\n敵１キャラを中心とした範囲内の敵\nすべてのクリティカルを受けた際の\nダメージを小アップさせる。=Deals large P.DMG to the frontmost enemy. Also deals moderate P.DMG to enemies in an area centered on that target, moderately lowers their P.ATK, and slightly lowers their P.DEF. [While field is active] Damage increases, and enemies in range take slightly more critical damage.
-r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウンフィールド展開中、範囲内の敵の被クリダメを(\d+％)アップ$"=►Deals $1 P.DMG to the frontmost enemy.\n►Deals $2 P.DMG to enemies in range.\n►Lowers P.ATK of enemies in range by $3.\n►Lowers P.DEF of enemies in range by $4.\n►Increases crit DMG taken by enemies in range by $5 while field is active.
+r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウンフィールド展開中、範囲内の敵の被クリダメを(\d+％)アップ$"=Cast time:1.05s\n►Deals $1 P.DMG to the frontmost enemy.\n►Deals $2 P.DMG to enemies within 400 range.\n►Lowers P.ATK of enemies within 400 range by $3 for 12s.\n►Lowers P.DEF of enemies within 400 range by $4 for 12s.\n►Increases crit DMG taken by enemies within 400 range by $5 while field is active for 12s.
 
 ##S2##
-ピンポイントぼっちバリア=Pinpoint Bocchi Barrier
+ピンポイントぼっちバリア=Pinpoint Loner Barrier
 
 自分に物理無効バリアを展開し、さ\nらに自分の物理攻撃力を特大アッ\nプ、ＴＰ上昇を小アップし、ＴＰを\n中回復する。【フィールド展開中】\n味方全体に物理/魔法吸収バリアを\n展開し、さらに味方全体の物理攻撃\n力を特大アップ、ＴＰを小回復させ\nる。=Deploys a physical-nullifying barrier for self, massively increases own P.ATK, slightly boosts TP Boost, and moderately recovers TP. [While field is active] Deploys a physical/magical absorption barrier to all allies, greatly increases their P.ATK, and slightly recovers their TP.
-r:"^(\d+)ダメージ分の物理無効バリアを展開する自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ自分のＴＰを(\d+)回復フィールド展開中、以下の効果が発動する(\d+)ダメージ分の物理魔法吸収バリアを展開する味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰを(\d+)回復$"=►Deploys phys-nullifying Barrier on self that negates $1 P.DMG.\n►Boosts own P.ATK by $2.\n►Boosts own TP Boost by $3.\n►Recovers own TP by $4.\n►[If field is active]:\n　►Deploys phys/magic absorb Barrier to all allies that absorbs $5 damage.\n　►Boosts all allies' P.ATK by $6.\n　►Recovers all allies' TP by $7.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アップ自分のＴＰを(\d+)回復フィールド展開中、以下の効果が発動する(\d+)ダメージ分の物理魔法吸収バリアを展開する味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰを(\d+)回復$"=Cast time:1.05s\n►Deploys phys-nullifying Barrier on self that negates $1 P.DMG for 12s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own TP Boost by $3 for 12s.\n►Recovers own TP by $4.\n►[If field is active]:\n　►Deploys phys/magic absorb Barrier to all allies that absorbs $5 damage for 12s.\n　►Boosts all allies' P.ATK by $6 for 12s.\n　►Recovers all allies' TP by $7.
 
 ##EX##
-ぼっちの出撃+=Bocchi's sortie +
+ぼっちの出撃=Loner Sortie
+ぼっちの出撃+=Loner Sortie+
+
+
+
+
+##S1+##
+鋼の友情ヘルメット=Steel Friendship Helmet
+クロースぼっちコンバット=Close Loner Combat
+クロースぼっちコンバット+=Close Loner Combat+
+
+自分の物理攻撃力を大アップし、目の前の敵１キャラに物理大ダメージを与える。さらに目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理攻撃力を中ダウン、物理防御力を小ダウンさせる。【フィールド展開中】このスキルのダメージがアップし、目の前の敵１キャラを中心とした範囲内の敵すべてのクリティカルを受けた際のダメージを小アップさせる。=Greatly boosts own P.ATK and deals large P.DMG to an enemy in front. Additionally, deals medium P.DMG to all enemies in an area centered on that target, moderately lowers their P.ATK, and slightly lowers their P.DEF. [While a field is deployed] This skill’s damage increases, and slightly increases the damage all enemies in the area take when receiving critical hits.
+
+
+r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウンフィールド展開中、範囲内の敵の被クリダメを8％アップ$"=Cast time:1.05s\n►Boosts own P.ATK by $1 for 12s.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to enemies within 400 range.\n►Lowers enemies' P.ATK within 400 range by $4 for 12s.\n►Lowers enemies' P.DEF within 400 range by $5 for 12s.\n\nWhile a field is active:\n►Boosts enemies' CRIT DMG taken within 400 range by 8％ for 12s.

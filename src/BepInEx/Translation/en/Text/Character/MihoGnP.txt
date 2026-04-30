@@ -1,0 +1,23 @@
+##Profile##
+【魔法】中衛で臨機応変に作戦を指揮する戦車道の乙女。召喚したボコが敵の攻撃を引き付けている間に、周囲の味方の攻撃、回復支援によって、全員での勝利を目指す。=[Magic] A Tankery maiden in the midline who flexibly commands tactics. While the summoned Boko draws enemy attacks, she supports nearby allies with offense and healing to secure victory for all.
+
+##UB##
+ボコ召喚作戦です！=Operation: Boko Summon!
+【召喚】ボコられグマのボコが味方にいる場合、ボコのＨＰを中回復し、そうでない場合ボコを１体召喚する。自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップさせ、ＨＰを中回復させる。さらに目の前の敵１キャラの物理防御力を小ダウンさせる。このスキルのＨＰ回復量は、このキャラの物理と魔法攻撃力に応じて増加する。=[Summon] If Boko (Punching Bear) is present among allies, moderately recovers Boko’s HP; otherwise, summons 1 Boko. Massively boosts P.ATK and greatly boosts P.CRIT RATE of all allies in range centered on self, and moderately recovers their HP. Additionally, slightly lowers the P.DEF of an enemy in front. The HP recovery amount of this skill increases based on this character’s P.ATK and M.ATK.
+
+r:"^ボコのＨＰを(\d+)回復ボコを召喚する範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ範囲内の味方のＨＰを(\d+)回復敵単体の物理防御力を(\d+)ダウン$"=►Recovers HP of [Boko] by $1.\n►Summons [Boko] at 420 in front of self.\n►Boosts allies' P.ATK within 300 range by $2 for 18s.\n►Boosts allies' P.CRIT RATE within 300 range by 100 for 18s.\n►Recovers HP of allies within 300 range by $3.\n►Lowers a single enemy's P.DEF by $4 for 18s.
+
+##S1##
+パンツァー・フォー！=Panzer Vor!
+自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップさせ、ＨＰとＴＰを小回復させる。さらに、自分が短時間すべての物理攻撃を回避する。このスキルのＨＰ回復量は、このキャラの物理と魔法攻撃力に応じて増加する。=Massively boosts P.ATK and greatly boosts P.CRIT RATE of all allies in range centered on self, and slightly recovers their HP and TP. Additionally, self evades all physical attacks for a short time. The HP recovery amount of this skill increases based on this character’s P.ATK and M.ATK.
+
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ範囲内の味方のＨＰを(\d+)回復範囲内の味方のＴＰを90回復一定時間すべての物理攻撃を回避する$"=Cast time: 1.05s\n►Boosts allies' P.ATK within 300 range by $1 for 12s.\n►Boosts allies' P.CRIT RATE within 300 range by 100 for 12s.\n►Recovers HP of allies within 300 range by $2.\n►Recovers TP of allies within 300 range by 90.\n►Evades all physical attacks for 3s.
+
+##S2##
+ボコ、がんばれ！=Go, Boko!
+【召喚】自分を中心とした範囲内の味方すべての物理・魔法防御力を小アップさせ、ＨＰを小回復させる。ボコられグマのボコが味方にいる場合、ボコのＨＰを中回復し、そうでない場合ボコを１体召喚する。このスキルのＨＰ回復量は、このキャラの物理と魔法攻撃力に応じて増加する。=[Summon] Slightly boosts P.DEF and M.DEF of all allies in range centered on self and slightly recovers their HP. If Boko (Punching Bear) is present among allies, moderately recovers Boko’s HP; otherwise, summons 1 Boko. The HP recovery amount of this skill increases based on this character’s P.ATK and M.ATK.
+r:"^範囲内の味方の物理・魔法防御力を(\d+)アップ範囲内の味方のＨＰを(\d+)回復ボコのＨＰを(\d+)回復ボコを召喚する$"=Cast time: 1.05s\n►Boosts allies' P.DEF and M.DEF within 300 range by $1 for 12s.\n►Recovers HP of allies within 300 range by $2.\n►Recovers HP of [Boko] by $3.\n►Summons [Boko] at 420 in front of self.
+
+##EX##
+みんなで勝つ西住流=Nishizumi Style: Victory Together
+みんなで勝つ西住流+=Nishizumi Style: Victory Together+

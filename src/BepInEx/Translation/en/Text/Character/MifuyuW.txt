@@ -4,15 +4,15 @@
 ##UB##
 インテグラルスパナ=Integral Spanner
 目の前の敵１キャラに物理特大ダメージを与え、さらに自分の物理クリティカルを大アップさせる。=Deals massive P.DMG to an enemy in front, and also greatly boosts own P.CRIT Rate for 180s.
-r:"^敵単体に(\d+)の物理ダメージ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.CRIT Rate by $2.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.CRIT Rate by $2 for 180s.
 
 ##S1##
 ヘビーツール=Heavy Tool
 
 ##S2##
 モディフィケーション=Modification
-自分の物理攻撃力を中アップさせ、さらに物理防御力と魔法防御力を小アップさせる。=Boosts own P.ATK by a moderate amount, and also boosts own P.DEF and M.DEF by a small amount.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.DEF by $2 for 180s.\n►Boosts own M.DEF by $3 for 180s.
+自分の物理攻撃力を中アップさせ、さらに物理・魔法防御力を小アップさせる。=Moderately boosts own P.ATK, and additionally slightly boosts own P.DEF and M.DEF.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理・魔法防御力を(\d+)アップ$"=Cast time: 0.59s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.DEF and M.DEF by $2 for 180s.
 
 ##EX##
 超速ラインワーク=Superspeed Linework
@@ -24,3 +24,13 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)ア
 
 ##UE##
 機鋼槍ヴァンガードスパナ=Steel Spear Vanguard Spanner
+
+##UE2##
+
+超効率ツールベルト=Ultra-Efficient Tool Belt
+
+
+##S2+
+モディフィケーション+=Modification+
+自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージと物理攻撃のダメージを小アップ、物理・魔法防御力を中アップする。５回目のこのスキルは、さらにバトル終了時まで自分に【効率全開スパナ】を付与し、行動パターンが変化する。【効率全開スパナ】が付与されている間、ヘビーツール+のダメージの対象が目の前の敵１キャラを中心とした範囲内の敵になり、スタンさせる効果が追加され、発動時既に行動不能状態の敵に対してはダメージが上昇する。=Massively boosts own P.ATK, slightly boosts own P.CRIT DMG and P.DMG, and moderately boosts own P.DEF and M.DEF. The fifth time this skill is used, additionally grants self [Full Efficiency Spanner] until the end of battle and changes the action pattern. While [Full Efficiency Spanner] is active, Heavy Tool+ targets enemies in an area centered on an enemy in front, gains a stun effect, and deals increased damage to enemies that are already incapacitated at activation.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリダメを6％アップ自分が与える物理ダメージを6％アップ自分の物理・魔法防御力を(\d+)アップ５回目の使用時、自分に効率全開スパナを付与する$"=Cast time: 0.59s\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 6％ for 180s.\n►Boosts own P.DMG dealt by 6％ for 180s.\n►Boosts own P.DEF and M.DEF by $2 for 180s.\n►Upon 5th use, grants [Full Efficiency Spanner] to self.
