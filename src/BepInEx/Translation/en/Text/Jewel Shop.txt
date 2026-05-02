@@ -254,6 +254,14 @@ sr:"^(.{2,20})未受け取り分の(.{2,6})$"=$1: Unclaimed $2
 交換ページへ移動しますか？=Would you like to go to the exchange page?
 
 
+Golden week pack
+Cygames WebStore限定 GW 火属性強化スペシャルパック=Cygames WebStore Exclusive GW Fire Attribute Enhancement Special Pack
+EX★5アクセサリー交換チケット=EX★5 Accessory Exchange Ticket
+マホ（ガルパン）ピックアップガチャ専用10回ガチャチケット=Maho (Girls und Panzer) Pickup Gacha 10-Draw Ticket
+コラボ記念パック=Collaboration Commemorative Pack
+究極錬成パック=Ultimate Synthesis Pack
+GW スペシャルジュエル7500個パック=GW Special 7500 Jewels Pack
+GW コネクトRANK強化パック=GW Connect RANK Enhancement Pack
 
 新春記念=New Year's Commemorative
 2026 新春記念=2026 New Year's Commemorative

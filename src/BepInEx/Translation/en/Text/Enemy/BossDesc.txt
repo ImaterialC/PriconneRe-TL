@@ -2643,3 +2643,14 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 『二つの世界』の因子を宿すゴーレムの変異体。黒鉄の車輌を内包し、アストルムの理から外れた予測もつかぬ動きで戦場を駆け回る。=A mutated golem bearing the factors of the "Two Worlds." Containing a black iron vehicle within, it races across the battlefield with unpredictable movements that defy the laws of Astrum.
 ランダムな敵２体に物理ダメージ=Deals P.DMG to two random enemies.
 前から１番目中心範囲攻撃=Deals area damage centered on the foremost enemy.
+
+ボッコボコにしてやるぜ！=I'll beat you to a pulp!
+それがボコだから！=That's what Boco does!
+バトル中敵魔法攻撃力中ダウン=Moderately reduces enemies' M.ATK during battle.
+攻撃の命中率が高い=Has high accuracy.
+与えた物理ダメージが高いほど：魔法ダメージアップ=The higher the P.DMG dealt: the greater the increase to M.DMG.
+
+バトル開始後90秒間敵全体の魔法攻撃力を５％ダウンさせる。=Reduces M.ATK of all enemies by 5% for 90 seconds after the battle starts.
+メロディックブリーズ+=Melodic Breeze+.
+
+プリンセスアリーナは設定にかかわらず「標準」で再生されます。=Princess Arena will be played on "Standard" regardless of settings.

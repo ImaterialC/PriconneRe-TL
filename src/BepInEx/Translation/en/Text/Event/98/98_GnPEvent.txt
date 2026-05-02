@@ -1,5 +1,14 @@
 戦車、作ります！=Let's Built Our Tank!
 
+seasoned
+キャンペーンコイ=Campaign Coins
+キャンペーンコイン獲得=Obtains Campaign Coins.
+r:"^(\[3C404E\])?スタミナを(?:\[-\])?(\[FFBB00,CE4F00\])?([0-9]+)(?:\[-\])?(?:\[3C404E\])?消費したため、\nキャンペーンコインを(?:\[-\])?(?:\[FFBB00,CE4F00\])?([0-9]+)枚(?:\[-\])?(?:\[3C404E\])?獲得しました。(\[-\])?$"=$1Consumed $2$3$5$1 Stamina,\nand earned $2$4$5$1 Campaign Coins.$5
+
+r:"^終了まであと ([0-9]+)日([0-9]+)時間$"=$1d $2h remaining
+r:"^終了まであと ([0-9]+)時間([0-9]+)分$"=$1h $2m remaining
+
+
 専用=Unique
 ステップ1のミッションをすべて達成しよう=Complete all Step 1 missions
 加入します！=Joining!
