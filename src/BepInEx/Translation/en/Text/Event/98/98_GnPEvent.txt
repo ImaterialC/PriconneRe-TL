@@ -1,76 +1,12 @@
 戦車、作ります！=Let's Built Our Tank!
 
-seasoned
-キャンペーンコイ=Campaign Coins
-キャンペーンコイン獲得=Obtains Campaign Coins.
-r:"^(\[3C404E\])?スタミナを(?:\[-\])?(\[FFBB00,CE4F00\])?([0-9]+)(?:\[-\])?(?:\[3C404E\])?消費したため、\nキャンペーンコインを(?:\[-\])?(?:\[FFBB00,CE4F00\])?([0-9]+)枚(?:\[-\])?(?:\[3C404E\])?獲得しました。(\[-\])?$"=$1Consumed $2$3$5$1 Stamina,\nand earned $2$4$5$1 Campaign Coins.$5
-
-r:"^終了まであと ([0-9]+)日([0-9]+)時間$"=$1d $2h remaining
-r:"^終了まであと ([0-9]+)時間([0-9]+)分$"=$1h $2m remaining
-
-
-専用=Unique
-ステップ1のミッションをすべて達成しよう=Complete all Step 1 missions
-加入します！=Joining!
-育成ミッションは、特定の条件を達成することで報酬が獲得できる\n期間限定のミッションでございます。ステップごとに設定された\nミッションを全て達成すると、次のステップに進めますよ。=Training Missions are limited-time missions where you can earn rewards by meeting specific conditions.\nComplete all missions in each step to proceed to the next step.
-イベントに1日ログインしよう=Log in to the event for 1 day
-アストルム、始めます！=Astrum, commencing!
-ミホ（ガルパン）のユニオンバースト=Miho (Girls und Panzer) Union Burst
-
-専用10回ガチャチケットを消費してガチャを10回引きます。=Use a Special 10-Draw Gacha Ticket to perform 10 pulls.
-マホ（ガルパン）ピックアップガチャ=Maho (Girls und Panzer) Pickup Gacha
-無料でガチャを10回引きます。=Pull the gacha ten times for free.
-
-
-育成ミッション=Training Missions
-イベント報酬券を500枚消費しよう=Use 500 Event Reward Tickets
-探索を4回クリアしよう=Clear Explore 4 times
-イベントに2日ログインしよう=Log in to the event for 2 days
-イベントクエストを30回クリアしよう=Clear Event Quests 30 times
-イベント報酬券を1500枚消費しよう=Use 1500 Event Reward Tickets
-ミホ（ガルパン）のキャラクターストーリー第1話を閲覧しよう=View Miho (Girls und Panzer) Character Story Episode 1
-キャラのLvを合計で100回上げよう=Increase character levels a total of 100 times
-キャラのRANKを合計で10回上げよう=Increase character RANK a total of 10 times
-探索を8回クリアしよう=Clear Explore 8 times
-ダンジョンに2回挑戦しよう=Attempt Dungeon 2 times
-バトルアリーナで5回戦おう=Battle 5 times in Battle Arena
-ステップ2のミッションをすべて達成しよう=Complete all Step 2 missions
-プリンセスアリーナで5回戦おう=Battle 5 times in Princess Arena
-イベントクエストを100回クリアしよう=Clear Event Quests 100 times
-イベントに5日ログインしよう=Log in to the event for 5 days
-ミホ（ガルパン）のキャラクターストーリー第2話を閲覧しよう=View Miho (Girls und Panzer) Character Story Episode 2
-マホ（ガルパン）を編成してイベントボス(SCENARIO)を撃破しよう=Defeat the Event Boss (SCENARIO) with Maho (Girls und Panzer) in your party
-イベント報酬券を2000枚消費しよう=Use 2000 Event Reward Tickets
-キャラのRANKを合計で20回上げよう=Increase character RANK a total of 20 times
-キャラのLvを合計で200回上げよう=Increase character levels a total of 200 times
-探索を20回クリアしよう=Clear Explore 20 times
-ダンジョンに5回挑戦しよう=Attempt Dungeon 5 times
-バトルアリーナで15回戦おう=Battle 15 times in Battle Arena
-ステップ3のミッションをすべて達成しよう=Complete all Step 3 missions
-プリンセスアリーナで15回戦おう=Battle 15 times in Princess Arena
-イベントクエストを150回クリアしよう=Clear Event Quests 150 times
-イベントに10日ログインしよう=Log in to the event for 10 days
-ミホ（ガルパン）を編成してイベントボス(SCENARIO)を撃破しよう=Defeat the Event Boss (SCENARIO) with Miho (Girls und Panzer) in your party
-キャラのLvを合計で300回上げよう=Increase character levels a total of 300 times
-キャラのRANKを合計で30回上げよう=Increase character RANK a total of 30 times
-ミホ（ガルパン）のキャラクターストーリー第4話を閲覧しよう=View Miho (Girls und Panzer) Character Story Episode 4
-EX装備を10回上限解放しよう=Unlock EX Equipment limit 10 times
-ミホ（ガルパン）に通常枠のEX装備を3つ装備させよう=Equip 3 normal-slot EX Equipment on Miho (Girls und Panzer)
-ダンジョンに10回挑戦しよう=Attempt Dungeon 10 times
-探索を40回クリアしよう=Clear Explore 40 times
-プリンセスアリーナで30回戦おう=Battle 30 times in Princess Arena
-バトルアリーナで30回戦おう=Battle 30 times in Battle Arena
-ステップ4のミッションをすべて達成しよう=Complete all Step 4 missions
-ミホ（ガルパン）のユニオンバースト=Miho (Girls und Panzer) Union Burst
-
-ボスバトル（SPECIAL）を解放すると確認できます。=Can be viewed after unlocking Boss Battle (SPECIAL).
-ボスバトル（SCENARIO）を解放すると確認できます。=Can be viewed after unlocking Boss Battle (SCENARIO).
 
 
 
 大洗女子学園の、西住みほです。この世界にやってきたばっかりで、分からないことも多いけど……こんなに素敵な世界で冒険できるなんて、夢みたい……♪みなさんと一緒に戦えるように、一生懸命がんばりますね！そのためにもまずは、魔法を上手に使えるようにならなくちゃ。それから戦車にも乗りたい……けど。まずは、そのっ。よろしく、お願いします……！=I’m Miho Nishizumi from Ōarai Girls’ Academy. I’ve only just arrived in this world, so there’s still a lot I don’t understand… but being able to go on adventures in such a wonderful world feels like a dream…♪ I’ll do my very best so I can fight alongside all of you! First, I need to learn how to use magic properly… and I’d like to ride a tank too… but for now, um… it’s nice to meet you, please take care of me!
 育成ミッションは、特定の条件を達成することで報酬が獲得できる期間限定のミッションでございます。ステップごとに設定されたミッションを全て達成すると、次のステップに進めますよ。=Training Missions are limited-time missions where you can earn rewards by fulfilling specific conditions. Clear all missions in each step to advance to the next one.
-イベントに1日ログインしよう=Log in to the event for 1 day
+
+r:"^イベントに([0-9]+)日ログインしよう$"=Log in to the event for $1 day
 アストルム、始めます！=Astrum, let’s begin!
 想定外の事象が発生したな…だがいかなる苦境も切り抜けてみせるいつもの自分とは違う姿になってもわたしはわたし、西住流だ=An unexpected situation has occurred… but I’ll overcome any hardship. Even if I’ve taken on a different form than usual, I’m still me—the Nishizumi style.
 何でこんなことになっているのか全然わからないけど、迷ってる暇はないわ。黒森峰の次期隊長として、前進あるのみ！　これも戦車道よ！=I have no idea why things turned out like this, but there’s no time to hesitate. As the next commander of Kuromorimine, I’ll keep moving forward! This too is part of Sensha-dō!
