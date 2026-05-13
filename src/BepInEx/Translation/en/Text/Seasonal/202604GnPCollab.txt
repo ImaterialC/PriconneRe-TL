@@ -2,7 +2,7 @@
 以下の報酬がプレゼントボックスに送られました。=The following rewards have been sent to your Present Box.
 r:"^「ガルパンコラボ記念 ログインキャンペーン その(\d+)」(\d+)日目で獲得したアイテムです。$"=This item was obtained on Day $2 of the “Girls und Panzer Collaboration Commemorative Login Campaign Part $1.”
 seasoned
-キャンペーンコイ=Campaign Coins
+キャンペーンコイン=Campaign Coins
 キャンペーンコイン獲得=Obtains Campaign Coins.
 r:"^イベントに([0-9]+)日ログインしよう$"=Log in to the event for $1 day
 r:"^(\[3C404E\])?スタミナを(?:\[-\])?(\[FFBB00,CE4F00\])?([0-9]+)(?:\[-\])?(?:\[3C404E\])?消費したため、\nキャンペーンコインを(?:\[-\])?(?:\[FFBB00,CE4F00\])?([0-9]+)枚(?:\[-\])?(?:\[3C404E\])?獲得しました。(\[-\])?$"=$1Consumed $2$3$5$1 Stamina,\nand earned $2$4$5$1 Campaign Coins.$5

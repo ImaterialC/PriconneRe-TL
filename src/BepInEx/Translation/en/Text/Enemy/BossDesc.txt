@@ -2654,3 +2654,17 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 メロディックブリーズ+=Melodic Breeze+.
 
 プリンセスアリーナは設定にかかわらず「標準」で再生されます。=Princess Arena will be played on "Standard" regardless of settings.
+
+
+前から敵３体にＴＰダウン=Reduces TP of the three foremost enemies.
+前から敵３体に物理固定ダメージ=Deals physical fixed damage to the three foremost enemies.
+捕食者として君臨する、凶悪な怪鳥獣。\n狩りを続ける膂力と剛爪が、侵入者をつけ狙う。=A vicious bird beast that reigns supreme as a predator.\nIts powerful muscles and mighty claws relentlessly hunt down intruders.
+前から１番目の敵と周囲に麻痺=Inflicts Paralysis on the foremost enemy and nearby enemies.
+石化状態の敵全体に魔法割合ダメージ=Deals percentage M.DMG to all petrified enemies.
+前方範囲に石化=Inflicts Petrify on enemies in a frontal area.
+石化状態でない敵全体に石化=Inflicts Petrify on all enemies not already petrified.
+石化状態でない敵全体に魔法ダメージ=Deals M.DMG to all enemies not already petrified.
+石化の呪剣を携えた怪鳥。尾蛇の毒牙で\n獲物を蝕み、呪剣の石化で冒険者の歩みを止める。=A monstrous bird wielding a cursed petrifying sword. Its serpent tail's venomous fangs corrode prey,\nwhile the cursed blade's petrification halts adventurers in their tracks.
+薬品の力で際限なく強化される錬成生物。\n注入液は繊細で、高温や不純物に狂わされやすい。=An alchemical lifeform endlessly strengthened by chemicals.\nIts injected fluids are delicate and easily destabilized by heat or impurities.
+自身が継続ダメージ状態：ＴＰ回復量ダウン=If self is under continuous damage: reduces TP recovery amount.
+バイオドーザー=Bio Dozer.
