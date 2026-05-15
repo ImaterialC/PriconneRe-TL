@@ -4,7 +4,7 @@
 大慾暴君・カジノ王=Greed Tyrant: Casino King
 
 ---Mission---
-倒そうDefeat
+倒そう=Defeat
 
 sr:"^(.+?)(（.+）)?を([0-9０-９]+)回倒そう$"=Defeat $1$2 $3 time(s)
 
@@ -16,6 +16,15 @@ sr:"^(.+?)(?:と|を)([0-9０-９]+)回(バトル|倒そう)(?:しよう)? \(全
 
 
 r:"^レイドバトルでボスを合計([0-9０-９]+)回倒そう$"=Defeat Raid Battle bosses a total of $1 times
+
+全体ミッション=Total mission
+全体=All
+全プレイヤーで協力して大慾暴君・カジノ王のTotal HPを20%減らそう=Work together with all players to reduce Greed Tyrant: Casino King’s Total HP by 20%
+全プレイヤーで協力して大慾暴君・カジノ王のTotal HPを40%減らそう=Work together with all players to reduce Greed Tyrant: Casino King’s Total HP by 40%
+全プレイヤーで協力して大慾暴君・カジノ王のTotal HPを60%減らそう=Work together with all players to reduce Greed Tyrant: Casino King’s Total HP by 60%
+全プレイヤーで協力して大慾暴君・カジノ王のTotal HPを80%減らそう=Work together with all players to reduce Greed Tyrant: Casino King’s Total HP by 80%
+全プレイヤーで協力して大慾暴君・カジノ王のTotal HPを100%減らそう=Work together with all players to reduce Greed Tyrant: Casino King’s Total HP by 100%
+
 ---Others---
 討伐報酬券を所持していません。=You do not have any Subjugation Reward Tickets.
 
