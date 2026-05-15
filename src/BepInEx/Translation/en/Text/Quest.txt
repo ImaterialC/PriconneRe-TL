@@ -100,6 +100,16 @@ r:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nス�
 [3C404E]スタミナが不足しています。\n回復しますか?[-]=[3C404E]Insufficient Stamina.\nDo you want to recharge? [-]
 
 r:"^\[3C404E\]\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個使用して\nスタミナを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回復しました。\[-\]\n\n本日の回復可能回数 ([0-9/]+)回\[-\]$"=[3C404E]Use [FFBB00,CE4F00]$1[-] Jewels \nto recover [FFBB00,CE4F00]$2[-] Stamina\n\nRecharges left today: $3[-]
+----------------------
+New stamina---
+スタミナ回復確認=Stamina Recovery Confirmation
+スタミナを回復する方法を選択してください。=Please select a method to recover Stamina.
+受け取れるスタミナがありません。=There is no Stamina available to claim.
+
+
+
+
+
 ---Attempt restore---
 r:"^\[3C404E\]\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個使用して\n残り挑戦回数を\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回復しました。\[-\]\n\n本日の回復可能回数 ([0-9/]+)回\[-\]$"=[3C404E]Use [FFBB00,CE4F00]$1[-] Jewels\nto recover [FFBB00,CE4F00]$2[-] Attempts\n\nRecharges left today: $3[-]
 

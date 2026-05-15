@@ -3,11 +3,13 @@
 の\n欠片= Piece
 の設計図= Blueprint
 の\n設計図= Blueprint
-sr:"^(.+)（欠片）$"=$1 (Piece)
-sr:"^(.+)の設計図$"=$1 Blueprint
+sr:"^(.+)(Ｒ)?（欠片）$"=$1$2 (Piece)
+sr:"^(.+)(Ｒ)?の設計図$"=$1$2 Blueprint
 
-sr:"^必要Lv(\d+)\n「(.+)」([の欠片設計図\n]+)。$"=Required Lv $1\nA$3 of $2.
-sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
+sr:"^必要Lv(\d+)\n「(.+)(Ｒ)?」([の欠片設計図\n]+)。$"=Required Lv $1\nA$4 of $2$3.
+sr:"^「(.+)(Ｒ)?」([の設計図欠片\n]+)。$"="A$3 of $1$2."
+
+sr:"^(.+)Ｒ$"=$1Ｒ
 
 アイアンブレード=Iron Blade
 キラーペンシル=Killer Pen
@@ -679,101 +681,3 @@ sr:"^「(.+)」([の設計図欠片\n]+)。$"="A$2 of $1."
 紅飾ラディオドンタ=Crimson Adornment Radiodonta
 碧飾ケロニオイデア=Jade Adornment Cheloniodea
 蒼飾フィロセラス=Azure Adornment Philoceras
-
-バイオレットアーマーＲ=Violet Armor R  
-クルセイダープレートＲ=Crusader Plate R  
-聖者のローブＲ=Saint's Robe R  
-ガーディアンシールドＲ=Guardian Shield R  
-ネクロマンサーブーツＲ=Necromancer Boots R  
-蒼天のローブＲ=Azure Sky Robe R  
-ミントチョココロネ=Mint Choco Cornet
-
-ダークマターエッジＲ=Dark Matter Edge Ｒ
-戦女王の烈斧Ｒ=Battle Queen’s Blazing Axe Ｒ
-ブリザードクローＲ=Blizzard Claw Ｒ
-ストームブリンガーＲ=Storm Bringer Ｒ
-フェニックスロッドＲ=Phoenix Rod Ｒ
-アルテミスボウＲ=Artemis Bow Ｒ
-アイスクレイモアＲ=Ice Claymore Ｒ
-鷹神の煌剣Ｒ=Radiant Sword of the Hawk God Ｒ
-司法神の錫杖Ｒ=Scepter of the God of Justice Ｒ
-月のブレスレットＲ=Moon Bracelet Ｒ
-猫神のペンダントＲ=Cat God's pendant Ｒ
-竜の涙Ｒ=Dragon's Tear Ｒ
-
-
-スカーレットメイルＲ=Scarlet Mail Ｒ
-ドラゴニックアーマーＲ=Dragonic Armor Ｒ
-翠緑の霊衣Ｒ=ViridianDress Ｒ
-アクエリアスブーツＲ=Aquarius Boots Ｒ
-ドラゴンヘッドＲ=Dragon's Head Ｒ
-ダークテラードレスＲ=Dark Terror Dress Ｒ
-カオスブレードＲ=Chaos Blade Ｒ
-アクアスラッシャーＲ=Aqua Slasher Ｒ
-ユニコーンナイフＲ=Unicorn Knife Ｒ
-ガイアバルディッシュＲ=Gaia Bardiche Ｒ
-蒼雷拳Ｒ=Azure Thunder Ｒ
-精霊樹の弓Ｒ=Feywood Bow Ｒ
-ハイエンジェルロッドＲ=Arcangel Rod Ｒ
-鳳凰刀Ｒ=Phoenix Sword Ｒ
-ハイデビルズワンドＲ=Arcdemon's Wand Ｒ
-
-大賢者の宝珠Ｒ=Arcsage Orb Ｒ
-焔帝の指輪Ｒ=Sovereign Flame Ｒ
-聖信徒のペンダントＲ=Disciple's Pendant Ｒ
-
-純潔の巫女装束Ｒ=Priestess Garb Ｒ
-ファンタズムメイルＲ=Phantasm Mail Ｒ
-蒼輝の鎧Ｒ=Azure Splendor Ｒ
-忘哭の冠Ｒ=Crown of Anguish Ｒ
-フェザーワルツＲ=Feather Waltz Ｒ
-インファナルグリーブＲ=Infernal Greaves Ｒ
-百華白桜刀Ｒ=Whiteblossom Blade Ｒ
-
-
-ゼノスフィアロッドＲ=Xenosphere Rod Ｒ
-ネクロディムアックスＲ=Reaper Axe Ｒ
-ライトニングブレードＲ=Lightning Blade Ｒ
-ムーンセスタスＲ=Moon Caestus Ｒ
-フレイアムルロッドＲ=Pyramour Rod Ｒ
-白銀の大翼弓Ｒ=Platinum Wingspan Ｒ
-エメラルドダガーＲ=Emerald Dagger Ｒ
-ゼロフロストランスＲ=Deepfrost Lance Ｒ
-
-ミレニアムイヤリングＲ=Millennium Earrings Ｒ
-海神の耳飾りＲ=Poseidon Earrings Ｒ
-精霊王の護石Ｒ=Spirit King's Talisman Ｒ
-
-ラフィングスカル=Rafing Skull
-ガイストチェイン=Geist Chain
-
-エンプレスローブＲ=Empress Robe Ｒ
-九天の鎧Ｒ=Heavenly Raiment Ｒ
-フェアリアルブーツＲ=Fairie Boots Ｒ
-メイデンクロースＲ=Maiden Cloth Ｒ
-白祈の聖冠Ｒ=Mitter of Virtue Ｒ
-聖櫻の鎧Ｒ=Petalfall Regalia Ｒ
-
-
-ジェネシスロッドＲ=Genesis Rod Ｒ
-ゲイルスティンガーＲ=Gale Stinger Ｒ
-神判の聖斧Ｒ=Judgement Axe Ｒ
-流禍の蒼刃Ｒ=Forsaken Blue Ｒ
-クリムゾンクローＲ=Crimson Claw Ｒ
-神花の聖杖Ｒ=Purebloom Rod Ｒ
-アビスボウＲ=Abyss Bow Ｒ
-ラヴァエッジＲ=Molten Edge Ｒ
-天開の聖剣Ｒ=Sword of Liberation Ｒ
-
-
-人魚姫の霊涙Ｒ=Mermaid Tears Ｒ
-赫怒竜のペンダントＲ=Wyrmswarth Pendant Ｒ
-聖獣の祈念Ｒ=Sacred Steed's Grace Ｒ
-
-
-鬼焔の闘衣Ｒ=Fiendflame Gear Ｒ
-レイジクイーンドレスＲ=Rage Queen Dress ＲＲ
-エクゾマギアローブＲ=Exomagia Robe Ｒ
-煌金の王鎧Ｒ=Royal Goldplate Ｒ
-ブラッドルビーヒールＲ=Bloodruby Heels Ｒ
-ロイヤルガードハットＲ=Royal Guard Hat Ｒ

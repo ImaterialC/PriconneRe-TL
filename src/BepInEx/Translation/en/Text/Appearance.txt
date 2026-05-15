@@ -12,3 +12,9 @@
 バトルキャラ表示=Chibi Character Display
 ★6以降=★6+
 ★6のキャラは★変更を利用できません。=Can't be used with ★6 characters.
+
+
+「★1、★2、★6への変更」「本来★５ではないキャラからの変更」はできません。=“Changing to ★1, ★2, or ★6” and “Changing from characters that are not originally ★5” cannot be performed.
+★の数を選択したパーティに合わせる=Match Star Level to Selected Party
+選択したパーティと現状のキャラの★の数が異なります。=The selected party and the current character have different Star Levels.
+現状のキャラの★=Current Character Star Level

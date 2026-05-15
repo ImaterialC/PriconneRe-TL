@@ -1,0 +1,34 @@
+レイドバトル=Raid Battle
+初回討伐完了までチャレンジ報酬は獲得できません。=Challenge Rewards cannot be obtained until the first subjugation is completed.
+初回討伐まで消費なし=No consumption until first subjugation
+大慾暴君・カジノ王=Greed Tyrant: Casino King
+
+---Mission---
+倒そうDefeat
+
+sr:"^(.+?)(（.+）)?を([0-9０-９]+)回倒そう$"=Defeat $1$2 $3 time(s)
+
+sr:"^(.+?)に累計([0-9,.]+)ダメージ与えよう$"=Deal a total of $2 damage to $1
+sr:"^(.+?)に１度のバトルで([0-9,.]+)ダメージ与えよう$"=Deal $2 damage to $1 in a single battle
+
+
+sr:"^(.+?)(?:と|を)([0-9０-９]+)回(バトル|倒そう)(?:しよう)? \(全難易度共通\)$"=$3 $1 $2 time(s) (All difficulties)
+
+
+r:"^レイドバトルでボスを合計([0-9０-９]+)回倒そう$"=Defeat Raid Battle bosses a total of $1 times
+---Others---
+討伐報酬券を所持していません。=You do not have any Subjugation Reward Tickets.
+
+
+自身にダメージ減衰=Applies Damage Attenuation to self
+
+このボスバトルではサポートキャラを最大５人まで\n編成できます。また、マナも消費されません。=In this Boss Battle, up to 5 Support Characters can be included in the party.\nMana is also not consumed.
+HARD解放=HARD Unlocked
+VERY HARD解放=VERY HARD Unlocked
+
+全難易度共通=All difficulties
+---NPC---
+イベントボスには非常に高い「Total HP」が設定されております。\n「Total HP」は、皆さまがバトル中に与えたダメージの分だけ減らせる\nのだとか。豪華報酬を目指し、力を合わせて討伐いたしましょう。=Event Bosses have extremely high “Total HP” values.\n“Total HP” decreases according to the damage dealt by everyone during battle.\nWork together to defeat them and earn luxurious rewards.
+ボスバトルは、イベント期間中に配布される「討伐チケット」を消費して\n挑戦できます。また、難易度は「ボス詳細」から変更できますよ。\n討伐を達成した難易度はスキップも行えるので、活用してくださいまし。=Boss Battles can be challenged by consuming “Subjugation Tickets” distributed during the event period.\nYou can also change the difficulty from “Boss Details.”\nCleared difficulties can be skipped, so make good use of it.
+
+報酬交換では「討伐報酬券」と様々なアイテムを交換できます。\n目玉となるリセット対象報酬を引くことで、より多くのアイテムが\n獲得できる次のラインナップへと進めるそうです。=In Reward Exchange, you can exchange “Subjugation Reward Tickets” for various items.\nBy obtaining the featured reset target reward, you can proceed to the next lineup,\nwhere even more items can be acquired.
