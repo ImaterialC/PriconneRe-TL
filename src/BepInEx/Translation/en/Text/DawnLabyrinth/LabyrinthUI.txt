@@ -49,18 +49,12 @@ tutorial laby
 迷宮遺物を獲得すると、各詳細を確認できます。=Obtain a Labyrinth Relic to view the details.
 ラビリンス内で拾った迷宮遺物は、専用の図鑑に登録されていくからね。\n未発見の遺物を入手した際はご褒美をあげちゃうよ！　あ、でも、図鑑を\n埋めるのに執心しすぎて攻略がお留守にならないよう注意、だけどね！=Any labyrinth relic you pick up in Labyrinth will be registered in your own personal guide. You'll get a reward for every unobtained relic you get! Oh, but don't get too focused on them and ends up neglecting your quests!
 
+バフ強化ステータス=Buff Enhancement Stats
+デバフ強化ステータス=Debuff Enhancement Stats
 
-難易度ボーナス ×1.0=Diff Bonus x1.0
-難易度ボーナス ×1.2=Diff Bonus x1.2
-難易度ボーナス ×1.4=Diff Bonus x1.4
-難易度ボーナス ×1.7=Diff Bonus x1.7
-難易度ボーナス ×2.0=Diff Bonus x2.0
+r:"^難易度ボーナス ×([0-9.]+)$"=Diff Bonus x$1
 特殊効果なし=No effect
-難易度1=Diff 1
-難易度2=Diff 2
-難易度3=Diff 3
-難易度4=Diff 4
-難易度5=Diff 5
+r:"^難易度(\d+)$"=Diff $1
 まだ解放されていない難易度です。=This difficulty has yet to be unlocked.
 累計=Total
 同行するギルドを選択してください。=Select a guild to accompany you.
@@ -365,3 +359,10 @@ r:"^すべてのモンスターが一度の行動で受けるダメージの値�
 魔法クリティカルデバフ=Magic Critical debuff
 
 sr:"^すべてのキャラの(.+)をダウンさせる。$"=Lowers all allies' $1.
+
+
+
+挑戦開始時のコネクトサイン追加=Add Connect Sign at Challenge Start
+挑戦開始時、選択したギルドに応じた[-][FFBB00,CE4F00]コネクトサイン[-][3C404E]を追加獲得できる=[3C404E]At the start of a challenge, you can additionally obtain [FFBB00,CE4F00]Connect Signs[-] according to the selected Guild[-]
+
+挑戦開始時、アルファルピを[-][FFBB00,CE4F00]2000[-][3C404E]多く所持して出発できる=[3C404E]At the start of a challenge, you can begin with an additional [FFBB00,CE4F00]2000[-] Alphalupi[-]

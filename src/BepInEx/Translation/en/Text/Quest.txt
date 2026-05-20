@@ -131,6 +131,11 @@ r:"^\[3B3F4D\]本日の挑戦回数の上限に達しています。\nジュエ�
 
 クエストTOPへ=To the Quest top
 
+スタミナ受け取り確認=Stamina Receipt Confirmation
+【プレゼントボックス（期限あり）】=[Present Box (Limited-Time)]
+以下のスタミナを受け取りますか？=Receive the following Stamina?
+【ミッション】=[Missions]
+
 ---Main Quest Menu---
 未達成=Unfinished
 未達成クエスト=Unfinished Quests

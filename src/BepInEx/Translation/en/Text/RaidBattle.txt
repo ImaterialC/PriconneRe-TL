@@ -14,7 +14,7 @@ sr:"^(.+?)に１度のバトルで([0-9,.]+)ダメージ与えよう$"=Deal $2 d
 
 sr:"^(.+?)(?:と|を)([0-9０-９]+)回(バトル|倒そう)(?:しよう)? \(全難易度共通\)$"=$3 $1 $2 time(s) (All difficulties)
 
-
+レイドバトルのデイリーミッション報酬を受け取ろう=Claim the daily mission rewards from the raid battle
 r:"^レイドバトルでボスを合計([0-9０-９]+)回倒そう$"=Defeat Raid Battle bosses a total of $1 times
 
 全体ミッション=Total mission

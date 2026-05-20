@@ -352,3 +352,58 @@ sr:"^\[3C404E\]アルファルピ×\[FFBB00,CE4F00\](\d+)\[-\]を消費して\n(
 迷宮の奥深くに眠る、宝飾をあしらったベール。蔽布の下から滲み出るオーラが、相手の敵意を解きほぐし、無力化させてしまう。=A jeweled veil slumbering deep within the labyrinth. The aura seeping from beneath its fabric disarms hostility, rendering foes powerless.
 迷宮の奥深くに眠る、地神の力を宿した烈槍。大地の力を糧に放つ無比の一閃は、地に立つすべての敵に甚大なダメージを与える。=A fierce spear imbued with the power of the earth god, slumbering deep within the labyrinth. Fueled by the earth's might, its unrivaled slash deals massive damage to all grounded enemies.
 迷宮の奥深くに眠る、地核のエネルギーを封じた籠手。振るう一撃は、世界を破壊するかの如く、通常攻撃を大きく強化する。=Gauntlets sealing the energy of the earth's core, slumbering deep within the labyrinth. Each swing, as if capable of shattering the world, greatly enhances normal attacks.
+
+
+
+relic
+黎明光鎧アルファレゾルテ=Dawnlight Armor Alpha Resolte
+黎明風鎧アルファレゾルテ=Dawnwind Armor Alpha Resolte
+黎明水鎧アルファレゾルテ=Dawnwater Armor Alpha Resolte
+黎明火鎧アルファレゾルテ=Dawnfire Armor Alpha Resolte
+黎明闇鎧アルファレゾルテ=Dawndark Armor Alpha Resolte
+【自警団】と共に迷宮を冒険するための遺物。護りの奥義が記されており、読み込めば攻撃から身を守る技術を得ることができる。=A relic for adventuring through the labyrinth alongside the [Caon]. It contains secret defensive techniques, and studying it grants the skill to protect oneself from attacks.
+【自警団】と共に迷宮を冒険するための遺物。姫さま親衛隊の精鋭隊員たちで、仲間をより増やすために日夜勤しんでいる。=A relic for adventuring through the labyrinth alongside the [Caon]. The elite members of the Princess Guard work day and night to recruit even more companions.
+
+【ルーセント学院】と共に迷宮を冒険するための遺物。誘惑した相手の生気を少しずつ削ぎ、気付かぬ間に甘い終焉を迎えさせる。=A relic for adventuring through the labyrinth alongside [Lucent Academy]. It gradually drains the vitality of those it seduces, leading them to a sweet demise before they even realize it.
+【ルーセント学院】と共に迷宮を冒険するための遺物。悪魔的なほどに真紅の艶めきは、見た者の目を釘付けにし、二度と逃さない。=A relic for adventuring through the labyrinth alongside [Lucent Academy]. Its devilishly crimson luster captivates all who see it, never letting their gaze escape.
+
+【フォレスティエ】と共に迷宮を冒険するための遺物。森の息吹を内に秘め、所持しているだけで味方に調和の力を授ける。=A relic for adventuring through the labyrinth alongside [Forestier]. It holds the breath of the forest within, granting allies the power of harmony simply by being carried.
+【フォレスティエ】と共に迷宮を冒険するための遺物。きらりと輝く流れ星が、多くのアイテムを手に入れる幸運を呼び寄せる。=A relic for adventuring through the labyrinth alongside [Forestier]. The sparkling shooting star draws in good fortune, helping obtain many items.
+
+【リトルリリカル】と共に迷宮を冒険するための遺物。中に宿っている強い絆が、どこにいても３人をふたたび繋いでくれる。=A relic for adventuring through the labyrinth alongside [Little Lyrical]. The strong bond dwelling within reconnects the three no matter where they are.
+【リトルリリカル】と共に迷宮を冒険するための遺物。履くと元気が溢れ出し、走り回ってより多くの仲間を勧誘できる。=A relic for adventuring through the labyrinth alongside [Little Lyrical]. Wearing it overflows the wearer with energy, allowing them to run around and recruit more companions.
+
+挑戦開始時にミソギ＆ミミ＆\nキョウカが加入=Misogi, Mimi, &\nKyouka join at the start of the challenge
+絆のリボン=Ribbon of Bonds
+トリックランナー=Trick Runner
+コネクトサインマスの抽選回\n数+1（1回）=Connect Sign Space draw\ncount +1 (1 time)
+
+【会心】9以上：\n敵全体に物理/魔法被クリダメアップ（【会心】数×5％）\nダメージブースト（【会心】数×2％）\n=[Focus]9 or higher:\nBoost all enemies' P/M CRIT DMG Taken ([Critical] count × 5%)\nDamage Boost ([Critical] count × 2%)\n
+【会心】4以上：\n物理/魔法クリダメアップ（【会心】数×10％）\n物理/魔法クリティカルアップ（【会心】数×400）\n=[Focus]4 or higher:\nBoost P/M CRIT DMG ([Critical] count × 10%)\nBoost P/M CRIT RATE ([Critical] count × 400)\n
+【会心】15以上：\n攻撃時追加ダメージ（【会心】数×2％）\n=[Focus]15 or higher:\nAdditional damage on attack ([Critical] count × 2%)\n
+
+バトル勝利後時の仲間キャラ\n加入数+1（3回）=After battle victory, ally character\nrecruitment count +1 (3 times)
+姫さま親衛隊勧誘係=Princess Guard Recruitment Officer
+バトル開始時に先頭キャラに\n物理/魔法防御力+50%=At battle start, grant the frontmost character\n+50% Physical/Magic Defense
+琉球犬甲唄=Ryukyu Guardian Dog Song
+
+迷宮遺物マスの抽選回数+1\n（1回）=Labyrinth Relic Space draw count +1\n(1 time)
+フォーチュンミーティア=Fortune Meteor
+バトル開始時に調和状態=Enter Harmony state at battle start
+フォレストハーモニー=Forest Harmony
+
+【守備】9以上：\nＨＰ回復量ダウン耐性付与\n味方からバフを受けるか、敵から攻撃を受けるたびに【闘\n志】＋１（最大50）\n【闘志】の数に応じて与ダメアップ（【闘志】数×3％）\n=[Defense]9 or higher:\nGrant resistance to reduced HP Recovery\nGain +1 [Fighting Spirit] whenever receiving a buff from allies or being attacked by enemies (max 50)\nIncrease damage dealt according to [Fighting Spirit] count ([Fighting Spirit] × 3%)\n
+【守備】15以上：\n残りＨＰ割合に応じたダメージブースト（最大60％）\nＨＰが0になった場合、戦闘不能になる前にＨＰを100％回復（1回）\n=[Defense]15 or higher:\nDamage Boost according to remaining HP ratio (max 60%)\nWhen HP reaches 0, recover 100% HP before being defeated (1 time)\n
+ベルベットルージュ=Velvet Rouge
+チャームファタール=Charm Fatale
+敵の誘惑時間+50％=Enemy Charm duration +50%
+1秒ごとに誘惑状態の敵に最\n大ＨＰの5％の魔法割合ダ\nメージ（最大50万ダメー\nジ）=Every second, deal Magic percentage damage equal to 5% of max HP to Charmed enemies\n(max 500,000 damage)
+
+ＨＰ吸収=HP Absorption
+
+討伐報酬券の交換で、リセット対象報酬を入手すると、即時ラインナップのリセットが行えます。\n\nリセット対象報酬を入手した後も、リセットせずに引き続き同じラインナップ内から交換することも可能です。\n\n6回目以降は報酬のラインナップを交換しきった場合に限り、リセットを行えます。=In Subjugation Reward Ticket Exchange, obtaining a reset target reward allows the lineup to be reset immediately.\n\nEven after obtaining the reset target reward, you may continue exchanging items from the same lineup without resetting.\n\nFrom the 6th reset onward, resets can only be performed after all rewards in the lineup have been exchanged.
+スタミナを受け取る=Receive Stamina
+上限「999」を超えて受け取ることはできません。=Cannot receive beyond the limit of “999”.
+受け取る項目を選択してください。=Please select the items to receive.
+黎明水衣アルファレディアンス=Dawnwater Garb Alpha Radiance
+一呼吸いれて=Take a Breath

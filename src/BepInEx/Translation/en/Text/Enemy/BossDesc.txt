@@ -2654,7 +2654,8 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 メロディックブリーズ+=Melodic Breeze+.
 
 プリンセスアリーナは設定にかかわらず「標準」で再生されます。=Princess Arena will be played on "Standard" regardless of settings.
-
+最も近い敵２キャラに物理特大ダメージを与え、ＴＰを中ダウンさせる。さらに敵キャラのＨＰが80％未満の場合、ノックバックさせる。このスキルの効果はダメージを無効化しても付与される。=Deals massive P.DMG to the two nearest enemies and moderately reduces their TP. Additionally, if an enemy's HP is below 80%, knocks them back. This effect is applied even if the damage is nullified.
+歪音の精霊は毒、猛毒、呪い、火傷、呪詛の効果および環境効果によるダメージを受けない。=The Spirit of Distorted Sound does not take damage from Poison, Venom, Curse, Burn, Hex, or environmental effects.
 
 前から敵３体にＴＰダウン=Reduces TP of the three foremost enemies.
 前から敵３体に物理固定ダメージ=Deals physical fixed damage to the three foremost enemies.

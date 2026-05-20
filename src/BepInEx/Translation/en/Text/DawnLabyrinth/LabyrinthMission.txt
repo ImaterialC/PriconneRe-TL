@@ -9,25 +9,9 @@
 キャラを25人以上勧誘した状態でクリアしよう=Clear with at least 25 characters recruited.
 キャラを30人以上勧誘した状態でクリアしよう=Clear with at least 30 characters recruited.
 
+r:"^難易度(\d+)以上で(\d+)回クリアしよう$"=Clear $2x at difficulty $1 or higher.
+r:"^難易度(\d+)以上で(\d+)回クリアしよう（スキップを除く）$"=Clear $2x at difficulty $1 or higher (without skips).
 
-難易度3以上で1回クリアしよう=Clear 1x at difficulty 3 or higher.
-難易度4以上で1回クリアしよう=Clear 1x at difficulty 4 or higher.
-難易度2以上で1回クリアしよう=Clear 1x at difficulty 2 or higher.
-難易度1以上で1回クリアしよう=Clear 1x at difficulty 1 or higher.
-難易度5で1回クリアしよう=Clear 1x at difficulty 5.
-
-難易度2以上で3回クリアしよう=Clear 3x at difficulty 2 or higher
-難易度2以上で5回クリアしよう=Clear 5x at difficulty 2 or higher
-難易度2以上で10回クリアしよう=Clear 10x at difficulty 2 or higher
-難易度2以上で12回クリアしよう（スキップを除く）=Clear 12x at difficulty 2 or higher (without skips)
-
-難易度2以上で14回クリアしよう（スキップを除く）=Clear 14x at difficulty 2 or higher (without skips)
-
-難易度2以上で16回クリアしよう（スキップを除く）=Clear 16x at difficulty 2 or higher (without skips)
-
-難易度2以上で18回クリアしよう（スキップを除く）=Clear 18x at difficulty 2 or higher (without skips)
-
-難易度2以上で20回クリアしよう（スキップを除く）=Clear 20x at difficulty 2 or higher (without skips)
 以上= or higher
 sr:"^【(.+)】難易度(\d+)(以上)?で(\d+)回クリアしよう$"=With [$1], Clear $4x at difficulty $2$3.
 
