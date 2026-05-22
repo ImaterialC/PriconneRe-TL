@@ -148,7 +148,7 @@ sr:"^(\[[0-9A-F,]{6,13}\])?★3(?:キャラ)?出現率2倍！限定(?:｢|「)([
 
 sr:"^「([べ-ヺー＆＝]+?)(（.+）)?のメモリーピース」\nに変更しますか？$"="Do you want to swap to\n"$1$2 Memory Shard"?"
 sr:"^(\[[0-9A-F,]{6,13}\])★3キャラ出現率2倍\n新キャラ「([べ-ヺー＆＝]+)(（.+）)?」登場！期間中出現率UP！\[-\]$"="$1Double rates for the New character\n$2$3![-]"
-sr:"^(\[[0-9A-F,]{6,13}\])新キャラ「([べ-ヺー＆＝]+)(（.+）)?」登場！\n期間中出現率UP！\[-\]$"="$1Boosted rates for the New character\n$2$3![-]"
+sr:"^新キャラ「([べ-ヺー＆＝]+)(（.+）)?」登場！$"="A new character 「$1$2」 is now available!"
 
 sr:"^(\[[0-9A-F,]{6,13}\])★3キャラ出現率2倍！限定「([べ-ヺー＆＝]+)(（.+）)?」(?:登場|出現率UP)！\n対象キャラ(?:を仲間に|が加入)する度に対象メモピ(\d+)個GET！\[-\]$"="$1Boosted rates for the Limited ★3 $2$3!\nRate-up characters come with a bonus of $4 Memory Shards![-]"
 

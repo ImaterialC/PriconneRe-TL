@@ -7,6 +7,7 @@ seasoned
 r:"^イベントに([0-9]+)日ログインしよう$"=Log in to the event for $1 day
 r:"^(\[3C404E\])?スタミナを(?:\[-\])?(\[FFBB00,CE4F00\])?([0-9]+)(?:\[-\])?(?:\[3C404E\])?消費したため、\nキャンペーンコインを(?:\[-\])?(?:\[FFBB00,CE4F00\])?([0-9]+)枚(?:\[-\])?(?:\[3C404E\])?獲得しました。(\[-\])?$"=$1Consumed $2$3$5$1 Stamina,\nand earned $2$4$5$1 Campaign Coins.$5
 
+最終日=Last Day
 r:"^終了まであと ([0-9]+)日([0-9]+)時間$"=$1d $2h remaining
 r:"^終了まであと ([0-9]+)時間([0-9]+)分$"=$1h $2m remaining
 GW記念キャンペーンショップ=Golden Week Commemorative Campaign Shop
