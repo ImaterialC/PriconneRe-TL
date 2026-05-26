@@ -366,3 +366,11 @@ sr:"^すべてのキャラの(.+)をダウンさせる。$"=Lowers all allies' $
 挑戦開始時、選択したギルドに応じた[-][FFBB00,CE4F00]コネクトサイン[-][3C404E]を追加獲得できる=[3C404E]At the start of a challenge, you can additionally obtain [FFBB00,CE4F00]Connect Signs[-] according to the selected Guild[-]
 
 挑戦開始時、アルファルピを[-][FFBB00,CE4F00]2000[-][3C404E]多く所持して出発できる=[3C404E]At the start of a challenge, you can begin with an additional [FFBB00,CE4F00]2000[-] Alphalupi[-]
+
+
+黎明光衣アルファレディアンス=Dawnlight Garb Alpha Radiance
+アルファルピ獲得量ダウン=Reduced Alpha Rupees Acquisition
+バトル勝利時のアルファルピ獲得量がダウンする。=Reduces the amount of Alpha Rupees obtained upon battle victory.
+すべてのモンスターが受ける継続ダメージの発生間\n隔と効果時間が延長される。=Extends the interval and duration of continuous damage received by all monsters.
+継続ダメージ発生間隔/効果時間延長=Continuous Damage Interval/Duration Extension
+NPCキャラのEX装備は変更できません。=NPC characters’ EX Equipment cannot be changed.

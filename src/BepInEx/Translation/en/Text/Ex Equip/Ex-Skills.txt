@@ -104,6 +104,12 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 光属性防御力アップ=Light element defense up
 闇属性防御力アップ=Dark element defense up
 
+水属性クリティカル強化=Water Attribute Critical Enhancement
+光属性クリティカル強化=Light Attribute Critical Enhancement
+火属性クリティカル強化=Fire Attribute Critical Enhancement
+風属性クリティカル強化=Wind Attribute Critical Enhancement
+闇属性クリティカル強化=Dark Attribute Critical Enhancement
+
 装備者が火属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Fire-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.
 装備者が水属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Water-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.
 装備者が風属性の場合、バトル開始後90秒間自分の物理防御力と魔法防御力を20％アップさせる。=If the wearer is Wind-element, increases the wearer's physical and magical defenses by 20% for 90 seconds after the start of battle.

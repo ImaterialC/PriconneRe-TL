@@ -2679,3 +2679,22 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 剣士たちの大乱舞=The Swordsmen's Wild Rampage.
 《EX》危険な魔物・魔狼=<EX> Dangerous Monster: Demon Wolf.
 召喚体、分身を除いた最も近い敵３キャラに魔\n　法大ダメージを与え、魔法防御力を中ダウンさ\n　せる。このスキルの効果はダメージを無効化し\n　ても付与される。=Deals major M.DMG to the three nearest enemies excluding summons and clones, and moderately reduces their M.DEF. This effect is applied even if the damage is nullified.
+
+自身の物理攻撃力を特大アップし、ＴＰを特大回復する。自身のＨＰが低いほど、物理攻撃力の上昇量がアップする。=Greatly increases own P.ATK and greatly restores own TP. The lower own HP, the greater the P.ATK increase.
+最も近い敵３キャラにキャラの残りＨＰに応じた物理割合ダメージを与える。自身の物理攻撃力に応じて与えるダメージの割合が増加する。=Deals percentage P.DMG based on remaining HP to the three nearest enemies. The damage percentage increases based on own P.ATK.
+ユニオンバーストは、敵全体にキャラの最大ＨＰに応じた物理割合ダメージを与える。自身の物理攻撃力に応じて与えるダメージの割合が増加する。=Union Burst: Deals percentage P.DMG based on max HP to all enemies. The damage percentage increases based on own P.ATK.
+聖なる学舎の秘されし暗部を預かる獄卒。教義絶対を掲げる『鋼の聖女』の正義を守るべくまつろわぬ咎人に容赦なき服従と更生を強いる。=A jailer entrusted with the hidden dark side of the holy academy. To protect the justice of the "Steel Saintess," who upholds absolute doctrine, it mercilessly forces obedience and reformation upon unrepentant sinners.
+
+前から敵２体にＨＰ吸収ダウン=Reduces HP absorption of the two foremost enemies.
+自身の魔法攻撃力が高いほど：カット量上昇=The higher own M.ATK, the greater the cut amount.
+後方範囲の敵２体にＴＰダウン（召喚体無視・必中）=Reduces TP of two enemies in the rear area (ignores summons; guaranteed hit).
+敵全体に物理／魔法与ダメージダウン=Reduces P.DMG dealt and M.DMG dealt of all enemies.
+後方範囲の敵２体に物理ダメージ=Deals P.DMG to two enemies in the rear area.
+後方範囲の敵２体にスタン=Inflicts Stun on two enemies in the rear area.
+前から１番目の敵を中心に物理／魔法クリティカルダウンフィールド=Deploys a field centered on the foremost enemy that reduces P.CRIT RATE and M.CRIT RATE.
+前から１番目の敵を中心に物理／魔法攻撃力ダウンフィールド=Deploys a field centered on the foremost enemy that reduces P.ATK and M.ATK.
+産地直送=Fresh from the Source.
+難易度10で1回クリアしよう=Clear once on Difficulty 10.
+ふなつ=Funatsu.
+北の森の魔物=Monster of the Northern Forest
+清掃員に扮して虎視眈々と『グランドリームパーク』の乗っ取りを謀っていた元・カジノ王。これまでの働きぶりはどこへやら、屈辱を晴らすべくパレード間近の園内で反旗を翻す。=The former Casino King, disguised as a janitor, had been patiently plotting to take over “Grand Dream Park.” Forgetting all of his previous hard work, he now raises the banner of rebellion within the park just before the parade begins, seeking to erase his humiliation.
