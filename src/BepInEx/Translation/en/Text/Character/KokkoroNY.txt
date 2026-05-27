@@ -8,8 +8,9 @@
 
 ##UB##
 ニューイヤーズブライト=New Year's Light
-自分のＨＰを中回復し、味方全体に継続ＨＰ回復を付与し、さらに物理攻撃力を大アップさせる。=Recovers own HP to medium, grants HP Regen to all allies and boost allies' P.ATK by a large amount.
-r:"^自分のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する味方全体の物理攻撃力を(\d+)アップ$"=►Recovers own HP by $1.\n►Recovers allies' HP by $2/s for 10s.\n►Boosts allies' P.ATK by $3 for 18s.
+味方全体の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせる。さらに自分のＨＰを大回復し、味方全体のＨＰを中回復させ、継続ＨＰ回復状態を付与、物理吸収バリアと魔法吸収バリアを展開する。また、敵全体の物理防御力を小ダウンさせる。=Massively boosts all allies' P.ATK and slightly boosts their P.CRIT DMG. Additionally, greatly recovers own HP, moderately recovers all allies' HP, grants continuous HP recovery, deploys physical absorption and magic absorption barriers, and slightly lowers all enemies' P.DEF.
+
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリダメを6％アップ自分のＨＰを(\d+)回復味方全体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する(\d+)ダメージ分の物理吸収バリアを展開する(\d+)ダメージ分の魔法吸収バリアを展開する敵全体の物理防御力を(\d+)ダウン$"=►Boosts allies' P.ATK by $1 for 18s.\n►Boosts allies' P.CRIT DMG by 6％ for 18s.\n►Recovers own HP by $2.\n►Recovers HP for all allies by $3.\n►Restores $4 HP per second for 10.5s.\n►Deploys a barrier over all allies that absorbs $5 P.DMG for 18s.\n►Deploys a barrier over all allies that absorbs $6 M.DMG for 18s.\n►Lowers all enemies' P.DEF by $7 for 18s.
 
 ##S1##
 スピリットウォール=Spirit Wall
@@ -18,8 +19,9 @@ r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する敵全体�
 
 ##S2##
 ブレッシングスピリット=Spiritual Blessing
-最も物理攻撃力が高い味方の物理攻撃力を中アップ、物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを中アップさせる。=Moderate boost to P.ATK, large boost to P.CRIT Rate, and Moderate boost to P.CRIT DMG for the ally with the highest P.ATK.
-r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ味方単体の物理攻撃クリティカル時のダメージを30％アップ$"=►Boosts a highest P.ATK ally's P.ATK by $1 for 12s.\n►Boosts a highest P.ATK ally's P.CRIT Rate by 100 for 12s.\n►Boosts a highest P.ATK ally's P.CRIT DMG by 30% for 12s.
+最も物理攻撃力が高い味方１キャラの物理攻撃力を中アップ、物理クリティカルを大アップさせ、さらに物理攻撃クリティカル時のダメージを中アップさせる。=Moderately boosts P.ATK of the ally with the highest P.ATK, greatly boosts their P.CRIT RATE, and additionally moderately boosts their P.CRIT DMG.
+
+r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ味方単体の物理クリダメを30％アップ$"=Cast time: 0.715s.\n►Boosts a single ally's P.ATK by $1 for 12s.\n►Boosts a single ally's P.CRIT RATE by 100 for 12s.\n►Boosts a single ally's P.CRIT DMG by 30％ for 12s.
 
 ##EX##
 祝福の新風=Auspicious Wind
@@ -27,9 +29,15 @@ r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリ�
 
 ##S1+##
 スピリットウォール+=Spirit Wall+
-【挑発】自身に物理/魔法吸収バリアを展開し、味方全体の物理攻撃力を小アップさせ、さらに敵全体を挑発する。=[Taunt] Deploy a barrier around self that absorbs P/M DMG, boosts the all allies' P.ATK, and taunts all enemies.
-【挑発】自身に物理/魔法吸収バリアを展開し、味方全体の物理攻撃力を大アップさせ、さらに敵全体を挑発する。=[Taunt] Deploy a barrier around self that absorbs P/M DMG, boosts the all allies' P.ATK, and taunts all enemies.
-r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する味方全体の物理攻撃力を(\d+)アップ敵全体を挑発する$"=►Deploys Barrier over oneself that absorbs $1 P/M.DMG for 12s.\n►Boosts all allies' P.ATK by $2 for 12s.\n►Provokes all enemies for 17s.
+【挑発】味方全体に物理/魔法吸収バリアを展開し、物理攻撃力を特大アップ、物理・魔法防御力を中アップさせ、さらに敵全体を挑発する。=[Taunt] Deploys physical/magic absorption barriers on all allies, massively boosts their P.ATK, moderately boosts their P.DEF and M.DEF, and additionally taunts all enemies.
+r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する味方全体の物理攻撃力を(\d+)アップ味方全体の物理・魔法防御力を(\d+)アップ敵全体を挑発する$"=Cast time: 0.375s.\n►Deploys a barrier over all allies that absorbs $1 P/M.DMG for 12s.\n►Boosts allies' P.ATK by $2 for 12s.\n►Boosts allies' P.DEF and M.DEF by $3 for 12s.\n►Inflicts Taunt on all enemies for 20s.
 
 ##UE##
 新春祈幸の精霊杖=New Year Prayer Spirit Staff
+
+##UE2##
+衷心奉仕の舞装束=Devoted Service Dance Attire
+ブレッシングスピリット+=Spiritual Blessing+
+最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを中アップさせる。さらに、バリアが展開されている味方全てのＴＰを小回復させる。=Massively boosts P.ATK of the ally with the highest P.ATK, greatly boosts their P.CRIT RATE, and moderately boosts their P.CRIT DMG. Additionally, slightly recovers TP of all allies currently protected by a barrier.
+
+r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ味方単体の物理クリダメを30％アップバリアが展開されている味方のＴＰを100回復$"=Cast time: 0.715s.\n►Boosts a single ally's P.ATK by $1 for 12s.\n►Boosts a single ally's P.CRIT RATE by 100 for 12s.\n►Boosts a single ally's P.CRIT DMG by 30％ for 12s.\n►Recovers TP of allies with an active barrier by 100.
