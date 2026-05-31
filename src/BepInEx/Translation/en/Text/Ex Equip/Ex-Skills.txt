@@ -139,7 +139,22 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 バトル開始後90秒間自分の魔法攻撃力と魔法クリティカルと魔法攻撃クリティカル時のダメージを３％アップさせる。=For 90 seconds after battle starts, increases own Magic Attack, Magic Crit, and Magic Crit Damage by 3%.
 
 
-
+バトル中敵魔法防御力中ダウン=Moderately Reduces Enemy Magic Defense During Battle
+バトル開始後90秒間敵全体の魔法防御力を５％ダウンさせる。=Reduces all enemies' Magic Defense by 5% for 90 seconds after battle starts.
+月盈則食=When the Moon Waxes, It Must Wane
 
 ヴィズ・ラ・リュンヌ=Vis la Lune
 バトル開始後90秒間味方全体の魔法攻撃力を10％アップさせる。=Increases all allies' Magic Attack by 10% for 90 seconds after battle starts.
+
+
+黎明風絹アルファチェリッシュ=Dawnwind Silk Alpha Cherish
+黎明火絹アルファチェリッシュ=Dawnfire Silk Alpha Cherish
+黎明水絹アルファチェリッシュ=Dawnwater Silk Alpha Cherish
+黎明光絹アルファチェリッシュ=Dawnlight Silk Alpha Cherish
+黎明闇絹アルファチェリッシュ=Dawndark Silk Alpha Cherish
+装備者が風属性の場合、バトル開始後90秒間自分の魔法クリティカルと魔法攻撃クリティカル時のダメージを10％アップさせる。=If the wearer is Wind attribute, increases own Magic Critical and Magic Critical Damage by 10% for 90 seconds after battle starts.
+
+装備者が火属性の場合、バトル開始後90秒間自分の魔法クリティカルと魔法攻撃クリティカル時のダメージを10％アップさせる。=If the wearer is Fire attribute, increases own Magic Critical and Magic Critical Damage by 10% for 90 seconds after battle starts.
+装備者が水属性の場合、バトル開始後90秒間自分の魔法クリティカルと魔法攻撃クリティカル時のダメージを10％アップさせる。=If the wearer is Water attribute, increases own Magic Critical and Magic Critical Damage by 10% for 90 seconds after battle starts.
+装備者が光属性の場合、バトル開始後90秒間自分の魔法クリティカルと魔法攻撃クリティカル時のダメージを10％アップさせる。=If the wearer is Light attribute, increases own Magic Critical and Magic Critical Damage by 10% for 90 seconds after battle starts.
+装備者が闇属性の場合、バトル開始後90秒間自分の魔法クリティカルと魔法攻撃クリティカル時のダメージを10％アップさせる。=If the wearer is Dark attribute, increases own Magic Critical and Magic Critical Damage by 10% for 90 seconds after battle starts.

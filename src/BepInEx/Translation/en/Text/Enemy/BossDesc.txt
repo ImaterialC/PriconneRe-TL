@@ -2698,3 +2698,11 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 ふなつ=Funatsu.
 北の森の魔物=Monster of the Northern Forest
 清掃員に扮して虎視眈々と『グランドリームパーク』の乗っ取りを謀っていた元・カジノ王。これまでの働きぶりはどこへやら、屈辱を晴らすべくパレード間近の園内で反旗を翻す。=The former Casino King, disguised as a janitor, had been patiently plotting to take over “Grand Dream Park.” Forgetting all of his previous hard work, he now raises the banner of rebellion within the park just before the parade begins, seeking to erase his humiliation.
+
+
+ウォーロック局長 ヤトガミ=Warlock Director Yatogami.
+対象が呪い状態：魔法追加ダメージ=If the target is inflicted with Curse: deals additional M.DMG.
+対象が呪い状態：行動速度ダウン=If the target is inflicted with Curse: reduces action speed.
+対象が毒状態：物理／魔法防御力ダウン=If the target is inflicted with Poison: reduces P.DEF and M.DEF.
+対象が毒状態：物理追加ダメージ=If the target is inflicted with Poison: deals additional P.DMG.
+己が「正義」のため修羅の道を邁進する国際警察特殊機関の長。怨禍を纏う太刀を猛らせ、世に蔓延る不義不正の因子を撲滅せんとす。=The head of a special international police agency who relentlessly walks the path of carnage for the sake of his own "justice." Wielding a blade shrouded in calamity and resentment, he seeks to eradicate the roots of corruption and injustice that plague the world.

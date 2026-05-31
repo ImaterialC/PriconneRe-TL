@@ -9,7 +9,7 @@
 ##UB##
 シールドオブガーデン=Shield of Garden
 前方のランダムな敵キャラに単体物理大ダメージを計３回与え、味方全体の物理・魔法攻撃力を中アップさせ、自分に光の盾を３つ付与する。光の盾は１回ダメージを受ける毎に代わりに１つ破壊され、同時に敵にダメージを与える。=Deals 3 large P.DMG to random front enemies, boosts allies' P.ATK and M.ATK by a moderate amount, and deploys over herself 3 light shields. Each destroyed shield deals P.DMG to an enemy.
-r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ攻撃してきた敵に(\d+)ダメージを与えて消失する光の盾を最大5つまで付与する$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Boosts allies' P.ATK by $4 for 18s.\n►Boosts allies' M.ATK by $5 for 18s.\n►Deploys 3 shields over oneself that reflect $6 P.DMG of received damage.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ攻撃してきた敵に(\d+)ダメージを与えて消失する光の盾を最大(.)つまで付与する$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.\n►Boosts allies' P.ATK by $4 for 18s.\n►Boosts allies' M.ATK by $5 for 18s.\n►Grants up to $6 [Light Shields] that deal $7 damage to attacking enemies and disappear upon activation.
 
 ##S1##
 アメイジングギフト=Amazing Gift

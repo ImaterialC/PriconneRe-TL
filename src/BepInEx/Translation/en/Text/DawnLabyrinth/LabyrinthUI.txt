@@ -258,6 +258,7 @@ r:"^(\d+)で更新$"=$1 to Reroll
 加入したキャラ=Characters Recruited
 獲得上限に達しました。=You've reached the limit.
 獲得ラビリンスコイン=Acquired Labyrinth Coin
+必要ラビリンスコイン=Required Labyrinth Coin
 獲得アルファシャード=Acquired Alpha Shard
 獲得ラビリンストークン=Acquired Labyrinth Token
 宝箱開封結果=Chest Opening Results

@@ -1,0 +1,26 @@
+##Profile##
+【魔法】中衛で、寄る辺無き魂を繋ぎ導く清廉の戦乙女。ダメージと共に敵の魔防を削ぎ、継続ダメージを与える聖浄の光が戦乙女の聖槍を降り注がせ、敵を清め祓う。=[Magic] A pure Valkyrie in the midline who guides and connects wandering souls. As she deals damage and strips away enemies' M.DEF, her Sacred Purifying Light inflicts continuous damage and calls down holy spears to cleanse and purge her foes.
+
+##UB##
+シャイン・エンゲージ -希鎌-=Shine Engage: Rare Scythe
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせ、聖浄の光状態にする。発動時既に、目の前の敵１キャラが継続ダメージ状態だった場合、さらに追加で魔法大ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、このスキルのダメージは必ずクリティカルする。=Deals massive M.DMG to an enemy in front, slightly lowers their M.DEF, and inflicts Sacred Purifying Light. If the target is already affected by a damage-over-time effect when activated, additionally deals large M.DMG, slightly increases the damage they take when receiving critical hits, and this skill's damage always lands as a critical hit.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン(\d+)ダメージを与える聖浄の光状態にする目の前の敵が継続ダメージ状態の場合、以下の効果が発動する敵単体に(\d+)の魔法ダメージ敵単体の被クリダメを6％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Inflicts [Holy Purification Light], dealing $3 damage.\n\nIf the frontmost enemy is affected by a damage-over-time effect:\n►Deals $4 M.DMG to a single enemy.\n►Boosts an enemy's CRIT DMG taken by 6％ for 18s.
+
+
+##S1##
+聖輪斬光=Sacred Ring Slashlight
+自分に【戦乙女の聖槍・祓】を１つ付与する。【戦乙女の聖槍・祓】は最大６つまで付与される。目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。目の前の敵１キャラが継続ダメージ状態だった場合、さらに追加で魔法大ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、このスキルのダメージは必ずクリティカルする。=Grants self 1 stack of [Valkyrie's Holy Spear: Purge]. Up to 6 stacks can be granted. Deals large M.DMG to an enemy in front and slightly lowers their M.DEF. If the target is affected by a damage-over-time effect, additionally deals large M.DMG, slightly increases the damage they take when receiving critical hits, and this skill's damage always lands as a critical hit.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分に戦乙女の聖槍・祓を１つ付与する目の前の敵が継続ダメージ状態の場合、以下の効果が発動する敵単体に(\d+)の魔法ダメージ敵単体の被クリダメを6％アップ$"=Cast time: 0.59s.\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2 for 12s.\n►Grants 1 [Valkyrie's Holy Spear: Purge] to self.\n\nIf the frontmost enemy is affected by a damage-over-time effect:\n►Deals $3 M.DMG to a single enemy.\n►Boosts an enemy's CRIT DMG taken by 6％ for 12s.
+
+##S2##
+槍翼天恵=Spearwing Blessing
+光属性の味方の数に応じて自分に【戦乙女の聖槍・祓】を付与する。自分の残りＨＰの25％を消費するが、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせる。自分の残りＨＰが多いほど、魔法攻撃力と魔法クリティカルの上昇量が最大２倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Grants self [Valkyrie's Holy Spear: Purge] stacks based on the number of light-element allies. Consumes 25% of own remaining HP, but massively boosts all allies' M.ATK and greatly boosts their M.CRIT RATE. The higher own remaining HP, the greater the M.ATK and M.CRIT RATE increase, up to 2×. Damage dealt to self by this skill does not restore TP.
+r:"^自分の残りＨＰの25％を消費味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ自分に戦乙女の聖槍・祓を１つ付与する$"=Cast time: 0.59s.\n►Consumes 25％ of own remaining HP.\n►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.CRIT RATE by 100 for 18s.\n►Grants 1 [Valkyrie's Holy Spear: Purge] to self.
+
+##EX##
+ヴァルキュリアモード=Valkyria Mode
+ヴァルキュリアモード+=Valkyria Mode+
+
+清廉の戦乙女=Pure Valkyrie
+自分の【戦乙女の聖槍・祓】が２つ以上の場合、目の前の敵１キャラが継続ダメージ状態になるたび【戦乙女の聖槍・祓】を２つ消費し、その敵に魔法大ダメージを与え、魔法防御力を小ダウンさせる。このスキルのダメージは必ずクリティカルする。=If self has 2 or more [Valkyrie's Holy Spear: Purge] stacks, whenever an enemy in front becomes afflicted with a damage-over-time effect, consumes 2 [Valkyrie's Holy Spear: Purge] stacks to deal large M.DMG to that enemy and slightly lower their M.DEF. This skill's damage always lands as a critical hit.
+r:"^自分の戦乙女の聖槍・祓を２つ消費する敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.59s.\n►Consumes 2 [Valkyrie's Holy Spear: Purge].\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2 for 12s.

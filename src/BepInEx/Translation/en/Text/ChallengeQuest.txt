@@ -1,2 +1,12 @@
 今回の達成数=Current Completion Count
 チャレンジクエストでは、10体の強力なボスが待ち受けております。\n敵を討伐すると、報酬を手にすることができますよ。相手の弱点を突ける\n有利な属性でパーティを編成し、万全の態勢で挑みましょう。=In the Challenge Quest, 10 powerful bosses await you.\nBy defeating enemies, you can obtain rewards. Form a party with advantageous elements\nthat can exploit the enemy’s weaknesses, and take on the challenge fully prepared.
+チャレンジクエスト=Challenge Quest
+模擬戦のため挑戦目標は達成できません。=Challenge objectives cannot be completed in Practice Battles.
+
+mission
+火属性キャラを5人編成して勝利=Win with a party of 5 Fire attribute characters
+水属性キャラを5人編成して勝利=Win with a party of 5 Water attribute characters
+地属性キャラを5人編成して勝利=Win with a party of 5 Earth attribute characters
+風属性キャラを5人編成して勝利=Win with a party of 5 Wind attribute characters
+光属性キャラを5人編成して勝利=Win with a party of 5 Light attribute characters
+闇属性キャラを5人編成して勝利=Win with a party of 5 Dark attribute characters
