@@ -10,3 +10,15 @@ mission
 風属性キャラを5人編成して勝利=Win with a party of 5 Wind attribute characters
 光属性キャラを5人編成して勝利=Win with a party of 5 Light attribute characters
 闇属性キャラを5人編成して勝利=Win with a party of 5 Dark attribute characters
+
+r:"^魔法タイプキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Magic-type characters
+r:"^物理タイプキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Physical-type characters
+r:"^アタッカーキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Attacker characters
+r:"^ブレイカーキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Breaker characters
+r:"^バッファーキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Buffer characters
+r:"^デバッファーキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Debuffer characters
+r:"^ブースターキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Booster characters
+r:"^ヒーラーキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Healer characters
+r:"^タンクキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Tank characters
+r:"^ジャマーキャラを(\d+)人以上編成して勝利$"=Win with a party of $1 or more Jammer characters
+召喚=Summoning
