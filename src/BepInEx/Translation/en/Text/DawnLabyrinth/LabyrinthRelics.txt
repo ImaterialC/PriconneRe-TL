@@ -51,7 +51,7 @@ r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100�
 行動不能無効１回=Incapacitation nullification once
 
 ノブレスウィスタリア=Noblesse Wistaria
-初期アルファルピ+3000\nアルファルピ獲得量－30%=Initial αRupees +3,000\n►αRupees Acquisition Amount -30%
+初期アルファルピ+3000\nアルファルピ獲得量－10%=Initial αRupees +3,000\n►αRupees Acquisition Amount -10%
 
 リヴァイアサンコール=Leviathan Call
 物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）=P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)

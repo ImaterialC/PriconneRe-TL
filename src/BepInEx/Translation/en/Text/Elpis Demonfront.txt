@@ -43,6 +43,7 @@ sr:"^難易度(.+?)の(.+)を(.+)秒以上残してクリアしよう$"=Clear th
 sr:"^難易度(.+?)の(.+)をパーティ(.)までにクリアしよう$"=Clear the $1 difficulty $2 using only $3 party.
 
 r:"^難易度(.+?)クリア$"=Clear $1 difficulty
+sr:"^難易度(.+?)の(.+)をクリアしよう$"=Clear the $1 difficulty $2.
 
 r:"^期間限定ミッション([0-9:：/～\- ]+)$"=Event Mission$1
 
@@ -84,7 +85,7 @@ r:"^難易度ボーナス ×([0-9,.]+)$"=Difficulty Bonus ×$1
 挑戦回数を消費して、以下の５戦分のバトルをまとめてスキップします。=Spend the number of challenges to skip the following five battles.
 挑戦回数が不足しています。=Insufficient number of attempts.
 
-sr:"^(.)属性のキャラが(.)体以上編成されているとき、\n?キャラの属性ボーナスが強化される。(.)属性と(.)属\n?性以外の属性ボーナスを無効化する。$"=When $1 or more $2-element characters are in the party, the characters’ Elemental Bonus is enhanced. Elemental Bonuses other than $3 and $4 are nullified.
+sr:"^(.)属性のキャラが(.)体以上編成されているとき、\n?キャラの属性ボーナスが強化される。(.)属性と(.)属\n?性以外の属性ボーナスを無効化する。$"=If $2+ $1 characters are in the party, Elemental\nBonus is increased. Bonuses other than $3 and $4 are disabled.
 
 「エルピス討魔戦線」は、地下深くより湧きし魔物を討伐するイベントで\nございます。こちらのバトルでは、コネクトRANKボーナスが強化され\nるようですよ。また「遺物」の装備によっても強化を得られるのだとか。=“Elpis Demon Subjugation Frontline” is an event where you subjugate monsters that surge forth from deep underground.\nIn these battles, the Connect RANK bonus will be enhanced.\nYou can also gain additional boosts by equipping “Relics.”
 ボスの初回クリア時や、撃破時に得られるポイントを集めることで報酬が\n獲得できます。ポイントは撃破までのタイムが短いほど多く得られるよう\nです。コネクトRANK強化アイテムの入手を目指して頑張りましょう。=You can earn rewards by collecting points obtained from your first clear of a boss and from defeating it.\nThe shorter the time it takes to defeat the boss, the more points you will earn.\nDo your best to obtain Connect RANK enhancement items.

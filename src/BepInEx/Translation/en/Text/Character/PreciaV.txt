@@ -1,0 +1,22 @@
+##Profile##
+【魔法】中衛で、正義の光で邪な魂を祓う勧善の戦乙女。多彩な支援効果で味方を支え、継続ダメージを与える聖浄の光が戦乙女の聖槍を喚び寄せ、悪をこらしめる。=[Magic] A righteous Valkyrie in the midline who purges wicked souls with the light of justice. Using a myriad of buffs, she supports her allies, her Sacred Purifying Light inflicts continuous damage and calls forth holy spears to punish evil.
+
+##UB##
+シャイン・エンゲージ -祝杖-=Shine Engage: Blessed Staff
+目の前の敵１キャラに魔法特大ダメージを与え、聖浄の光状態にする。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。発動時既に、目の前の敵１キャラが継続ダメージ状態だった場合、さらに追加で味方全体の魔法攻撃力を特大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、このスキルのダメージは必ずクリティカルする。=Deals massive M.DMG to an enemy in front and inflicts Sacred Purifying Light. Additionally, massively boosts all allies' M.ATK, greatly boosts their M.CRIT RATE, and slightly boosts their M.CRIT DMG. If the target is already affected by a damage-over-time effect when activated, additionally massively boosts all allies' M.ATK, slightly boosts their M.CRIT DMG, and this skill's damage always lands as a critical hit.
+r:"^敵単体に(\d+)の魔法ダメージ(\d+)ダメージを与える聖浄の光状態にする味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを8％アップ目の前の敵が継続ダメージ状態の場合、以下の効果が発動する味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリダメを8％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Inflicts [Sacred Purifying Light], dealing $2 DMG/s for 19s.\n►Boosts allies' M.ATK by $3 for 18s.\n►Boosts allies' M.CRIT RATE by 100 for 18s.\n►Boosts allies' M.CRIT DMG by 8％ for 18s.\n\nIf the frontmost enemy is affected by a damage-over-time effect:\n►Boosts allies' M.ATK by $4 for 18s.\n►Boosts allies' M.CRIT DMG by 8％ for 18s.
+
+##S1##
+シュバイン・ガーベル=Schwein Gabel
+自分に【戦乙女の聖槍・義】を１つ付与する。【戦乙女の聖槍・義】は最大６つまで付与される。目の前の敵１キャラに魔法大ダメージを与え、味方全体の魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。目の前の敵１キャラが継続ダメージ状態だった場合、さらに追加で味方全体の魔法攻撃力を特大アップ、魔法攻撃クリティカル時のダメージを小アップさせ、このスキルのダメージは必ずクリティカルする。=Grants self 1 stack of [Valkyrie's Holy Spear: Justice]. Up to 6 stacks can be granted. Deals large M.DMG to an enemy in front, greatly boosts all allies' M.CRIT RATE, and slightly boosts their M.CRIT DMG. If the target is affected by a damage-over-time effect, additionally massively boosts all allies' M.ATK, slightly boosts their M.CRIT DMG, and this skill's damage always lands as a critical hit.
+r:"^敵単体に(\d+)の魔法ダメージ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを3％アップ自分に戦乙女の聖槍・義を１つ付与する目の前の敵が継続ダメージ状態の場合、以下の効果が発動する味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリダメを3％アップ$"=Cast time:0.59s.\n►Deals $1 M.DMG to a single enemy.\n►Boosts allies' M.CRIT RATE by 100 for 12s.\n►Boosts allies' M.CRIT DMG by 3％ for 12s.\n►Grants 1 [Valkyrie's Holy Spear: Justice] to self.\n\nIf the frontmost enemy is affected by a damage-over-time effect:\n►Boosts allies' M.ATK by $2 for 12s.\n►Boosts allies' M.CRIT DMG by 3％ for 12s.
+
+##S2##
+おいしいおいのり・おかわり=Delicious Prayer: Seconds Please
+光属性の味方の数に応じて自分に【戦乙女の聖槍・義】を付与する。味方全体の魔法クリティカルを大アップ、ＨＰを中回復、ＴＰを小回復する。=Grants self [Valkyrie's Holy Spear: Justice] stacks based on the number of light-element allies. Greatly boosts all allies' M.CRIT RATE, moderately recovers their HP, and slightly recovers their TP.
+r:"^味方全体の魔法クリティカルを100アップ味方全体のＨＰを(\d+)回復味方全体のＴＰを100回復自分に戦乙女の聖槍・義を１つ付与する$"=Cast time:0.59s.\n►Boosts allies' M.CRIT RATE by 100 for 12s.\n►Recovers HP of all allies by $1.\n►Recovers TP for all allies by 100.\n►Grants 1 [Valkyrie's Holy Spear: Justice] to self.
+
+##SP1##
+勧善の戦乙女=Righteous Valkyrie
+自分の【戦乙女の聖槍・義】が２つ以上の場合、目の前の敵１キャラが継続ダメージ状態になるたび【戦乙女の聖槍・義】を２つ消費し、その敵に魔法大ダメージを与え、魔法防御力を小ダウンさせる。このスキルのダメージは必ずクリティカルする。=If self has 2 or more [Valkyrie's Holy Spear: Justice] stacks, whenever an enemy in front becomes afflicted with a damage-over-time effect, consumes 2 [Valkyrie's Holy Spear: Justice] stacks to deal large M.DMG to that enemy and slightly lower their M.DEF. This skill's damage always lands as a critical hit.
+r:"^自分の戦乙女の聖槍・義を２つ消費する敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=Cast time:0.59s.\n►Consumes 2 [Valkyrie's Holy Spear: Justice].\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2 for 12s.
