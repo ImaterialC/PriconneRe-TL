@@ -7,13 +7,13 @@
 ##UB##
 ブラッディローズ=Bloody Rose
 前方範囲内の敵すべてに物理中ダメージを与える。このスキルでとどめを刺した敵の数に応じて、自分のＨＰを回復する。=Deals moderate P.DMG to all enemies in range. Recovers own HP for each foe defeated by this skill.
-r:"^範囲内の敵に(\d+)の物理ダメージ敵を倒した数×20%のＨＰを回復$"=►Deals $1 P.DMG to enemies in range.\n►Recovers HP based on enemies defeated ×20%.
+r:"^範囲内の敵に(\d+)の物理ダメージ敵を倒した数×20%のＨＰを回復$"=►Deals $1 P.DMG to enemies within 750 range.\n►Recovers HP based on enemies defeated ×20%.
 
 ##S1##
 カースブルーム=Curse Bloom
 
 前方範囲内の敵すべてを呪い状態にする。=Inflicts Curse to all enemies in range.
-r:"^(\d+)ダメージを与える呪い状態にする$"=Cast time: 1.41s.\n►Inflicts Curse in 620 range that deals $1 P.DMG/s.
+r:"^(\d+)ダメージを与える呪い状態にする$"=Cast time: 1.41s.\n►Inflicts Curse in 620 range that deals $1 P.DMG/s for 12s.
 
 ##S2##
 ローズフィールド=Field of Thorns
@@ -35,7 +35,7 @@ r:"^毎秒(\d+)の物理ダメージを与えるフィールドを展開する�
 
 
 前方の敵すべての物理防御力を大ダウン、クリティカルを受けた際のダメージを小アップさせ、物理大ダメージを与える。さらに、自分の物理攻撃力を大アップし、ＨＰを小回復する。範囲内の敵の数に応じて、ＨＰの回復倍率が最大３倍までアップする。=Greatly lowers the P.DEF of all enemies in front, slightly increases the damage they take when receiving critical hits, and deals large P.DMG. Additionally, greatly boosts own P.ATK and slightly recovers own HP. Based on the number of enemies in range, the HP recovery multiplier increases up to a maximum of 3×.
-r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の被クリダメを3％アップ範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＨＰを(\d+)回復$"=►Lowers enemies' P.DEF within range by $1.\n►Boosts enemies' CRIT DMG taken within range by 3％.\n►Deals $2 P.DMG to enemies within range.\n►Boosts own P.ATK by $3.\n►Recovers own HP by $4.
+r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の被クリダメを3％アップ範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＨＰを(\d+)回復$"=►Lowers enemies' P.DEF within 750 range by $1 for 18s.\n►Boosts enemies' CRIT DMG taken within 750 range by 3％ for 18s.\n►Deals $2 P.DMG to enemies within 750 range.\n►Boosts own P.ATK by $3 for 180s.\n►Recovers own HP by $4.
 
 ##S1+##
 カースブルーム+=Curse Bloom+
@@ -53,4 +53,4 @@ Mitsuki
 カースブルーム++=Curse Bloom++
 前方の敵すべてを呪い状態と麻痺状態にし、物理・魔法攻撃力を大ダウン、物理防御力を小ダウン、行動速度を中ダウンさせる。さらに、自分のＴＰを中回復する。範囲内の敵の数に応じて、呪いのダメージとＴＰの回復量が最大３倍までアップする。=Inflicts Curse and Paralysis on all enemies in front, greatly lowers their P.ATK and M.ATK, slightly lowers their P.DEF, and moderately lowers their action speed. Additionally, moderately recovers own TP. Based on the number of enemies in range, the damage dealt by Curse and the amount of TP recovered increase, up to a maximum of 3×.
 
-r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵を一定時間行動不能にする範囲内の敵の物理・魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の行動速度30％ダウン自分のＴＰを250回復$"=Cast time: 1.41s.\nInflicts Curse in 620 range that deals $1 P.DMG/s.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Lowers enemies' P.ATK and M.ATK within range by $2.\n►Lowers enemies' P.DEF within range by $3.\n►Lowers enemies' action speed within range by 30％.\n►Recovers own TP by 250.
+r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵を一定時間行動不能にする範囲内の敵の物理・魔法攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の行動速度30％ダウン自分のＴＰを250回復$"=Cast time: 1.41s.\nInflicts Curse in 620 range that deals $1 P.DMG/s for 12s.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Lowers enemies' P.ATK and M.ATK within range by $2 for 12s.\n►Lowers enemies' P.DEF within range by $3 for 12s.\n►Lowers enemies' action speed within range by 30％ for 12s.\n►Recovers own TP by 250.

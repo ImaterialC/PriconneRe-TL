@@ -39,8 +39,7 @@ r:"^味方全体の物理防御力を(\d+)アップ$"=►Boosts allies' P.DEF by
 ##UB+##
 フラワリングヒール=Flowering Heal
 味方全体のＨＰを中回復し、さらに物理防御力を大アップさせ、物理無効バリアを展開し、さらに行動速度を大アップさせる。=Recovers a moderate amount of HP for all allies, Large boost their P.DEF, deploys a physical immunity barrier, and Large boost their action speed.
-r:"^味方全体のＨＰを(\d+)回復味方全体の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する味方全体の行動速度アップ$"=►Recovers allies' HP by $1.\n►Boosts allies' P.DEF by $2 for 18s.\n►Deploys Barrier over all allies that negates $3 P.DMG for 18s.\n►Boosts action speed to 200% to All Allies for 18s.
-
+r:"^味方全体のＨＰを(\d+)回復味方全体の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する味方全体の行動速度100％アップ$"=►Recovers HP of all allies by $1.\n►Boosts allies' P.DEF by $2 for 18s.\n►Deploys Barrier over all allies that negates $3 P.DMG for 18s.\n►Increases allies' action speed by 100％ for 18s.
 ##S1+##
 フラワーショット+=Blooming Blast+
 目の前の敵１キャラに魔法中ダメージを与え、さらに物理攻撃力を中ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and lowers its P.ATK by a moderate amount.

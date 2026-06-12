@@ -17,7 +17,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間�
 ##S2##
 スパイラルヤーン=Spiral Yarn
 前方範囲内の敵すべてに物理小ダメージを与え、さらに移動速度と行動速度を小ダウンさせる。=Deals small P.DMG to all enemies in range and reduces their movement speed and action speed by a small amount.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の移動速度を一定時間低下させる範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 P.DMG to enemies in range.\n►Reduces movement speed of enemies in range for a set period of time.\n►Reduces action speed of enemies in range for a set period of time.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の移動速度を一定時間低下させる範囲内の敵の行動速度10％ダウン$"=Cast time: 1.23s.\n►Deals $1 P.DMG to enemies within 700 range.\n►Lowers movement speed of enemies within 700 range by 150 for 12s.\n►Lowers action speed of enemies within 700 range by 10％ 12s.
 
 ##EX##
 テーラーガッツ=Tailor's Grit

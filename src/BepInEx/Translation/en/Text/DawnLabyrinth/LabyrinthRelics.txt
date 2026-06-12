@@ -58,7 +58,6 @@ r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100�
 r:"^物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）（現在(\d+)枚）$"=P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)(αRupees Possession x0.01, Max 100)(Currently $1)
 
 兵法二海一流=Hyōpo Nikai Ichiryu
-デバフ強化＋20=Debuff Enhancement +20
 
 バインディングローズ=Binding Rose
 敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）=Damage over time Up (Enlisted characters x10%, maximum 500,000 damage)

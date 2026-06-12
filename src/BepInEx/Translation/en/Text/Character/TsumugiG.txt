@@ -4,15 +4,23 @@
 ##UB##
 ブレイジングダンス=Blazing Dance
 目の前の敵１キャラに物理特大ダメージを与え、魔法攻撃力を大ダウン、物理防御力を小ダウンさせる。さらに、味方全体の物理攻撃力と物理クリティカルを特大アップさせ、ＨＰを中回復させる。=Deals massive P.DMG to an enemy in front, greatly lowers their M.ATK, and slightly lowers their P.DEF. Additionally, massively boosts all allies’ P.ATK and P.CRIT RATE, and moderately recovers HP.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを160アップ味方全体のＨＰを(\d+)回復$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's M.ATK by $2.\n►Lowers a single enemy's P.DEF by $3.\n►Boosts all allies' P.ATK by $4.\n►Boosts all allies' P.CRIT RATE by 160.\n►Restores all allies' HP by $5.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを160アップ味方全体のＨＰを(\d+)回復$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's M.ATK by $2 for 18s.\n►Lowers a single enemy's P.DEF by $3 for 18s.\n►Boosts all allies' P.ATK by $4 for 18s.\n►Boosts all allies' P.CRIT RATE by 160 for 18s.\n►Restores all allies' HP by $5.
+
 ##S1##
 テーラードブースト=Tailored Boost
-自分以外の最も物理攻撃力が高い味方１キャラの行動速度を大アップ、物理攻撃力を特大アップさせ、ＴＰを小回復させる。（このスキルの効果は他の行動速度変化スキルと重複する）さらに、味方全体の物理攻撃力と物理クリティカルを大アップさせる。=Greatly boosts the action speed of the ally (excluding self) with the highest P.ATK, massively boosts their P.ATK, and slightly recovers their TP. (This skill’s effect stacks with other action-speed-change skills.) Additionally, greatly boosts all allies’ P.ATK and P.CRIT RATE.
-r:"^対象の味方の行動速度アップ対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰを100回復味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ$"=►Boosts target ally's Action Speed.\n►Boosts target ally's P.ATK by $1.\n►Recovers target ally's TP by 100.\n►Boosts all allies' P.ATK by $2.\n►Boosts all allies' P.CRIT RATE by 100.
+自分以外の最も物理攻撃力が高い味方１キャラの行動速度を大アップ、物理攻撃力を特大アップさせ、ＴＰを小回復させる。（このスキルの効果は他の行動速度変化スキルと重複する）さらに、味方全体の物理攻撃力と物理クリティカルを大アップさせる。=Greatly boosts the action speed of the ally other than self with the highest P.ATK, massively boosts their P.ATK, and slightly recovers their TP. (This action speed increase stacks with other action speed modifying skills.) Additionally, greatly boosts all allies' P.ATK and P.CRIT RATE.
+r:"^対象の味方の行動速度50％加算対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰを100回復味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ$"=Cast time: 1.05s.\n►Increases an ally's action speed by 50％ for 18s.\n►Boosts an ally's P.ATK by $1 for 18s.\n►Recovers TP for an ally by 100.\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' P.CRIT RATE by 100 for 18s.
+
 ##S2##
 エンハンスフルーツ=Enhance Fruits
 自分以外の最も物理攻撃力が高い味方１キャラの物理攻撃力を特大アップさせ、ＴＰを小回復させる。さらに、味方全体の物理攻撃力を大アップ、魔法防御力を中アップ、魔法無効バリアを展開し、ＨＰを中回復、ＴＰを小回復させる。=Massively boosts the P.ATK of the ally (excluding self) with the highest P.ATK and slightly recovers their TP. Additionally, greatly boosts all allies’ P.ATK, moderately boosts their M.DEF, deploys a magic-nullification barrier, moderately recovers their HP, and slightly recovers their TP.
-r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰを50回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する味方全体のＨＰを(\d+)回復味方全体のＴＰを50回復$"=►Boosts target ally's P.ATK by $1.\n►Recovers target ally's TP by 50.\n►Boosts all allies' P.ATK by $2.\n►Boosts all allies' M.DEF by $3.\n►Deploys a Magic Nullification Barrier absorbing $4 DMG.\n►Restores all allies' HP by $5.\n►Recovers all allies' TP by 50.
+r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰを50回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ(\d+)ダメージ分の魔法無効バリアを展開する味方全体のＨＰを(\d+)回復味方全体のＴＰを50回復$"=Cast time: 0.74s.\n►Boosts target ally's P.ATK by $1 for 12s.\n►Recovers target ally's TP by 50.\n►Boosts all allies' P.ATK by $2 for 12s.\n►Boosts all allies' M.DEF by $3 for 12s.\n►Deploys Barrier over all allies that negates $4 M.DMG for 18s.\n►Restores all allies' HP by $5.\n►Recovers all allies' TP by 50.
 ##EX##
 ゲヘナトレンド=Gehenna Trend
 ゲヘナトレンド+=Gehenna Trend+
+
+##UE##
+ピンキーハートフレイム=Pinky Heart Flame
+テーラードブースト+=Tailored Boost+
+自分以外の最も物理攻撃力が高い味方１キャラの行動速度を大アップ、物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを小アップし、ＴＰを小回復させる。（このスキルの効果は他の行動速度変化スキルと重複する）さらに、味方全体の物理攻撃力と物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。=Greatly boosts the action speed of the ally other than self with the highest P.ATK, massively boosts their P.ATK and P.CRIT RATE, slightly boosts their P.CRIT DMG, and slightly recovers their TP. (This action speed increase stacks with other action speed modifying skills.) Additionally, greatly boosts all allies' P.ATK and P.CRIT RATE, and slightly boosts their P.CRIT DMG.
+r:"^対象の味方の行動速度50％加算対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリティカルを200アップ対象の味方の物理クリダメを6％アップ対象の味方のＴＰを100回復味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の物理クリダメを2％アップ$"=Cast time: 1.05s.\n►Increases an ally's action speed by 50％ for 18s.\n►Boosts an ally's P.ATK by $1 for 18s.\n►Boosts an ally's P.CRIT RATE by 200 for 18s.\n►Boosts an ally's P.CRIT DMG by 6％ for 18s.\n►Recovers TP for an ally by 100.\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' P.CRIT RATE by 100 for 18s.\n►Boosts allies' P.CRIT DMG by 2％ for 18s.

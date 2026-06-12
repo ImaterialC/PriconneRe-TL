@@ -154,6 +154,8 @@ r:"^戦力[＋+]([0-9.%％]+)$"=Combat Power +$1
 
 r:"^回復強化[＋+]([0-9.%％]+)$"=Recovery +$1
 r:"^バフ強化[＋+]([0-9.%％]+)$"=Buff Enhancement +$1
+r:"^デバフ強化[＋+]([0-9.%％]+)$"=Debuff Enhancement +$1
+
 r:"^通常攻撃強化[＋+]([0-9.%％]+)$"=Normal Attack +$1
 ---Rank Bonus---
 r:"^RANK([0-9.%％]+)が登場した場合、RANK([0-9.%％]+)では\nRANKボーナスが獲得されていない状態になります。$"=When RANK $1 appears, RANK $2\nwill not be able to get the RANK bonus.

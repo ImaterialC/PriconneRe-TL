@@ -23,11 +23,12 @@ r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメー
 ##S1##
 トライアロー=Triple Shot
 目の前の最大３キャラまでの敵に物理小ダメージを与え、さらに自分のＴＰを小回復させる。=Deals small P.DMG to up to 3 enemies directly in front. Recovers own TP by a small amount.
-r:"^最大３キャラに各(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to a maximum of 3 characters.\n►Recovers own TP by $2.
+r:"^最大３キャラに各(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=Cast time:0.76s\n►Deals $1 P.DMG to a maximum of 3 characters.\n►Recovers own TP by $2.
 
 ##S2##
 ウィンドアロー=Wind Arrow
 目の前の敵１キャラに物理中ダメージを与え、さらに自分のＴＰを小回復させる。=Inflicts moderate P.DMG to one enemy directly in front while also recovering own TP by a small amount.
+r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを300回復$"=Cast time:1.5s\n►Deals $1 P.DMG to a single enemy.\n►Recovers own TP by 300.
 
 ##EX##
 エンハンスエイム=Enhanced Aim

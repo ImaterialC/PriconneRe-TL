@@ -55,13 +55,16 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理
 ##SP1++##
 天楼廻刃斬++=Spiresplitter Sweep++
 目の前の敵１キャラに物理特大ダメージを与える。発動時の自分の残りＴＰに応じてこのスキルのダメージがアップする。敵の数が１キャラの場合、自分のＴＰを大回復する。=Deals massive P.DMG to an enemy in front. The damage of this skill increases based on own remaining TP at activation. If there is only one enemy, greatly recovers own TP.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵の数が１キャラの場合、自分のＴＰを500回復$"=Cast time: 0.25s.\n►►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵の数が１キャラの場合、自分のＴＰを500回復$"=Cast time: 0.25s.\n►eals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflicts stun on enemies within 250 range for 1.5s\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
 
 ##S1++##
 ビビらせてやる！++=Feeling Scared Yet?!++
 前方範囲内の敵すべてに物理中ダメージを２回与え、スタンさせ、小さく吹き飛ばす。敵の数が１キャラの場合、自分のＴＰを大回復する。=Deals medium P.DMG twice to all enemies in a frontal area, stuns them, and knocks them back slightly. If there is only one enemy, greatly recovers own TP.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵単体に(\d+)の物理ダメージ敵の数が１キャラの場合、自分のＴＰを500回復$"=►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Deals $3 P.DMG to a single enemy.\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵単体に(\d+)の物理ダメージ敵の数が１キャラの場合、自分のＴＰを500回復$"=Cast time: 0.25s.\n►►Deals $1 P.DMG to enemies within range.\n►Deals $2 P.DMG to enemies within range.\n►Inflicts incapacitation on enemies within range for a period of time.\n►Deals $3 P.DMG to a single enemy.\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
 
 目の前の敵１キャラに物理特大ダメージを与える。このスキルのスキルレベルは「天楼覇断剣」と連動しています=Deals massive P.DMG to an enemy in front.\nThis skill’s level is linked to “Spiresbane Blade”.
 
 前方範囲内の敵すべてに物理小ダメージを２回与え、さらにスタンさせて小さく吹き飛ばす。=Deals small P.DMG twice to all enemies in a frontal area, and additionally stuns them and knocks them back slightly.
+
+
+r:"^敵単体に(\d+)の物理ダメージ敵の数が１キャラの場合、自分のＴＰを500回復$"=Cast time: 0.25s.\n►Deals $1 P.DMG to a single enemy.\n\nIf there is only 1 enemy:\n►Recovers own TP by 500.
