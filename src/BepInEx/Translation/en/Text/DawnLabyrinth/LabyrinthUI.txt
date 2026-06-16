@@ -2,6 +2,7 @@
 黎明界ラビリンスβ=Dawn Realm Labyrinth β
 黎明界ラビリンスβに挑戦しよう=Let's challenge Dawn Realm Labyrinth β
 
+r:"^残り(\d+)セット購入可能！$"=Only $1 set left!
 所持パスポート=Passport
 挑戦中=In Progress
 出発=Depart
@@ -115,6 +116,19 @@ sr:"^\[3C404E\]\[FFBB00,CE4F00\]【(.+)】\[-\]と一緒に出発します。\n�
 【弱体】9以上：敵への継続ダメージ＋2000％（最大30万ダメージ）=[Debuff] 9+:\n►Damage over time +2000% (up to 300,000 damage)\n
 【弱体】15以上：弱体効果数に応じて敵の被ダメアップ（対象の弱体効果数×50％、最大＋500％）さらに敵への継続ダメージ＋1000％（最大50万ダメージ）=[Debuff] 15+:\n►Increases Damage over time based on the number of debuffs (50% per debuff, up to +500%)\n►Damage over time inflicted on enemies +1000% (up to 500,000 damage).\n
 【弱体】15以上：弱体効果数に応じて敵の被ダメアップ（対象の弱体効果数×20％、最大＋200％）=[Debuff] 15+:\n►Increases Damage over time based on the number of debuffs (20% per debuff, up to +200%)\n
+【会心】4以上：物理/魔法クリダメアップ（【会心】数×5％）物理/魔法クリティカルアップ（【会心】数×200）=[Critical] 4 or higher: Increase Physical/Magic Critical Damage ([Critical] count × 5%) Increase Physical/Magic Critical ([Critical] count × 200)
+【会心】9以上：クリティカルするたびに敵に【看破】＋１（最大99）敵の物理/魔法被クリダメアップ（【看破】数×1％）=[Critical] 9 or higher: Each time a Critical Hit occurs, inflict +1 [Expose] on the enemy (max 99) Increase enemy Physical/Magic Critical Damage Taken ([Expose] count × 1%)
+【会心】15以上：敵の【看破】99：攻撃時追加ダメージ＋30％=[Critical] 15 or higher: Enemy [Expose] 99: +30% Additional Damage on attack
+
+【弱体】4以上：敵への継続ダメージアップ（【弱体】数×50％）=[Debuff] 4 or higher: Increase Damage over Time dealt to enemies ([Debuff] count × 50%)
+【弱体】9以上：敵にデバフを付与するたびに敵に【衰弱】＋１（最大66）敵の物理/魔法被ダメアップ（【衰弱】数×2％）=[Debuff] 9 or higher: Each time a debuff is inflicted on an enemy, inflict +1 [Weaken] (max 66) Increase enemy Physical/Magic Damage Taken ([Weaken] count × 2%)
+【弱体】15以上：敵の【衰弱】66：１秒ごとに最大ＨＰの5％の割合ダメージ（最大100万）=[Debuff] 15 or higher: Enemy [Weaken] 66: Deal damage equal to 5% of max HP every second (max 1,000,000)
+
+【強化】4以上：ダメージブーストアップ（【強化】数×2％）=[Buff] 4 or higher: Increase Damage Boost ([Buff] count × 2%)
+【強化】9以上：味方からバフを受けるたびに【高揚】＋１（最大99）物理/魔法攻撃力アップ（【高揚】数×1％）=[Buff] 9 or higher: Each time a buff is received from an ally, gain +1 [Exaltation] (max 99) Increase Physical/Magic Attack ([Exaltation] count × 1%)
+【強化】15以上：【高揚】99：１秒ごとに物理/魔法攻撃力ダウンと物理/魔法防御力ダウン効果解除物理/魔法攻撃力アップ（現在値＋10％）=[Buff] 15 or higher: [Exaltation] 99: Every second, remove Physical/Magic Attack Down and Physical/Magic Defense Down effects and increase Physical/Magic Attack (current value +10%)
+
+【加速】15以上：【烈風】20：【烈風】をすべて消費してＴＰ1000回復ダメージブースト＋10％=[Haste] 15 or higher: [Gale] 20: Consume all [Gale] stacks to recover 1000 TP and gain +10% Damage Boost
 
 
 攻撃力や防御力アップのバフ効果を用いて、キャラを強化する=Strengthen your characters with ATK and DEF buffs.
@@ -129,6 +143,11 @@ sr:"^\[3C404E\]\[FFBB00,CE4F00\]【(.+)】\[-\]と一緒に出発します。\n�
 【守備】9以上：15秒ごとに前から敵1体に物理と魔法固定ダメージ（味方全体の現在ＨＰ合計×400ダメージ）=[Defense] 9+:\n►Every 15s, deals fixed P.DMG and M.DMG to 1 enemy from the front (Damage equal to the party’s total current HP ×400).\n
 【守備】15以上：15秒ごとに物理/魔法与ダメアップフィールド展開（味方全体の現在ＨＰ合計×0.0001％、最大200％）=[Defense] 15+:\n►Every 15s, deploys a P/M.DMG up field (Party’s total current HP ×0.0001%, up to 200%).\n
 【守備】15以上：15秒ごとに物理/魔法与ダメアップフィールド展開（味方全体の現在ＨＰ合計×0．0004％、最大200％）=[Defense] 15+:\n►Every 15s, deploys a P/M.DMG up field (Party’s total current HP ×0.0004%, up to 200%).\n
+
+【守備】4以上：全ダメージカット（【守備】数×2％）=[Defense] 4+: Reduces all damage taken ([Defense] × 2%).
+【守備】9以上：敵から攻撃かデバフを受けるたびに【闘志】＋１（最大15）与ダメアップ（【闘志】数×5％）ＨＰ吸収アップ（【闘志】数×5）=[Defense] 9+: Each time an attack or debuff is received from an enemy, gains +1 [Fighting Spirit] (max 15). Increases damage dealt ([Fighting Spirit] × 5%) and HP absorption ([Fighting Spirit] × 5).
+【守備】15以上：【闘志】15：【闘志】をすべて消費して与ダメ＋50％ダメージブースト＋25％=[Defense] 15+: When [Fighting Spirit] reaches 15, consumes all [Fighting Spirit] to increase damage dealt by 50% and Damage Boost by 25%.
+
 
 仲間=Allies
 インベントリ=Inventory

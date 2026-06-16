@@ -93,6 +93,8 @@ r:"^(77\.)?黒曜に臨む丘(.*)$"=$1 Hill Overlooking Obsidian $2
 r:"^(78\.)?屍蝋の眠り城(.*)$"=$1 Necrowax Sleeping Castle $2
 r:"^(79\.)?はぐれ鬼の集落(.*)$"=$1 Stray Demon Village $2
 r:"^(80\.)?幻葬湖のほとり(.*)$"=$1 Shore of Phantom Burial Lake $2
+
+r:"^(80\.)?影蚕の礼拝所(.*)$"=$1 Sanctuary of the Shadow Silkworm $2
 ---*6 Quest---
 sr:"^([べ-ヺー＆＝]+)(（.+）)?の解放クエスト$"=$1$2 Ascension Quest
 sr:"^(.+)（(.+)）$"=$1 ($2)

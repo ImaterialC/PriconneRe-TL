@@ -1,0 +1,11 @@
+プリンセス紹介キャンペーン=Princess Showcase Campaign
+どなたかお一人を選び投稿を\n行ってくださいまし。\n報酬が獲得できるのは、\n初回投稿時のみでございますよ。=Please choose one person and\nmake a post.\nRewards can only be obtained\nfor your first post.
+主さまにとっての「プリンセス」――大切に想われているお方を選んで、\n皆さまに紹介いたしましょう。投稿後には報酬が獲得できるようですよ。\nわたくし、主さまのいかなる選択も尊重する所存にございます。=Choose the person who is your “Princess” — someone you hold dear —\nand introduce them to everyone.\nYou can receive a reward after posting.\nI shall respect whichever choice you make, my lord.
+紹介確認=Introduction Confirmation
+紹介する=Introduce
+キャンペーン参加報酬は二回以上\n受け取ることはできません。=Campaign participation rewards\ncan only be claimed once.
+sr:"^([べ-ヺー＆＝]+)\[-\]\[3C404E\]をプリンセスとして紹介しますか？$"=Introduce $1[-]\n[3C404E] as your Princess?
+「紹介する」を選ぶと、外部サイトに移動します。=Selecting “Introduce” will take you to an external website.
+報酬を2回以上獲得することはできません。=Rewards can only be claimed once.
+
+メインストーリー第3部最終章開幕記念ショップ=Main Story Part 3 Final Chapter Opening Commemorative Shop

@@ -1,0 +1,7 @@
+前方範囲内の敵に物理中ダメージを与える。敵を倒した場合、さらに自分のＴＰを特大回復する。=Deals moderate P.DMG to enemies in a frontal area. If an enemy is defeated, greatly restores own TP.
+目の前の敵１キャラに物理中ダメージを与え、小さく吹き飛ばす。=Deals moderate P.DMG to the nearest enemy and knocks them back a short distance.
+前方範囲内の敵に魔法中ダメージを与え、物理防御力を小～中ダウンさせる。=Deals moderate M.DMG to enemies in a frontal area and slightly to moderately reduces their P.DEF.
+前方範囲内の敵に魔法中ダメージを与え、物理・魔法防御力を小ダウンさせる。=Deals moderate M.DMG to enemies in a frontal area and slightly reduces their P.DEF and M.DEF.
+自分を中心とした範囲内の味方のＨＰを小回復、物理攻撃力を小アップさせる。=Slightly restores HP of allies within range around self and slightly increases their P.ATK.
+【召喚】自分の背後にいない味方のＨＰを中回復させ、最も前の味方のそばに精霊を唱喚する。=[Summon] Moderately restores HP of allies not positioned behind self and summons a spirit beside the foremost ally.
+最も前の味方を中心とした範囲内の味方の物理攻撃力を大アップ、物理クリティカルを中アップさせ、範囲内の味方を小回復させるフィールドを展開する。=Deploys a field centered on the foremost ally that greatly increases P.ATK, moderately increases P.CRIT RATE, and slightly restores HP of allies within the area.

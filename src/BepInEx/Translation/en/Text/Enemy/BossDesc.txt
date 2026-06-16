@@ -2706,3 +2706,19 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 対象が毒状態：物理／魔法防御力ダウン=If the target is inflicted with Poison: reduces P.DEF and M.DEF.
 対象が毒状態：物理追加ダメージ=If the target is inflicted with Poison: deals additional P.DMG.
 己が「正義」のため修羅の道を邁進する国際警察特殊機関の長。怨禍を纏う太刀を猛らせ、世に蔓延る不義不正の因子を撲滅せんとす。=The head of a special international police agency who relentlessly walks the path of carnage for the sake of his own "justice." Wielding a blade shrouded in calamity and resentment, he seeks to eradicate the roots of corruption and injustice that plague the world.
+
+前から３番目の敵と周囲に束縛=Inflicts Bind on the 3rd enemy from the front and nearby enemies.
+敵の数が少ないほど：束縛時間アップ=The fewer the enemies, the longer the Bind duration.
+前から３番目の敵と周囲に物理ダメージ=Deals P.DMG to the 3rd enemy from the front and nearby enemies.
+対象が行動速度ダウン状態：物理／魔法与ダメダウン（必中）=If the target is under an action speed reduction effect: reduces P.DMG dealt and M.DMG dealt (guaranteed hit).
+
+【バトル開始時】=[At the start of battle]
+味方全体に魔法攻撃力アップ=Increases M.ATK of all allies.
+黒月の守護像が存在しない：行動パターン変化=If the Black Moon Guardian Statue is not present: changes behavior pattern.
+白陽の守護像が存在しない：行動パターン変化=If the White Sun Guardian Statue is not present: changes behavior pattern.
+継続ダメージ状態になった時：自身に行動速度ダウン=When inflicted with continuous damage: reduces own action speed.
+自身にステータスダウン解除=Removes stat reductions from self.
+自身以外の味方全体に物理／魔法防御力アップ=Increases P.DEF and M.DEF of all allies except self.
+一ツ目族の王に仕える、小さな召使い。王様がくれた金ピカ装備が、大のお気に入り。=A small servant who serves the king of the Cyclops tribe. Its favorite possession is the shiny golden equipment given to it by the king.
+リトルアイ=Little Eye.
+
