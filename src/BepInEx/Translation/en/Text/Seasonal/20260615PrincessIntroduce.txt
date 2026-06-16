@@ -7,5 +7,5 @@
 sr:"^([べ-ヺー＆＝]+)\[-\]\[3C404E\]をプリンセスとして紹介しますか？$"=Introduce $1[-]\n[3C404E] as your Princess?
 「紹介する」を選ぶと、外部サイトに移動します。=Selecting “Introduce” will take you to an external website.
 報酬を2回以上獲得することはできません。=Rewards can only be claimed once.
-
+    
 メインストーリー第3部最終章開幕記念ショップ=Main Story Part 3 Final Chapter Opening Commemorative Shop
