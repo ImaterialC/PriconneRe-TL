@@ -36,13 +36,13 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理防御�
 前から２番目の敵１キャラを暗闇状態にする。=Inflicts Blind to an enemy in the 2nd position.
 r:"^敵単体を暗闇状態にする$"=►Inflicts Blind.
 r:"^敵単体を暗闇状態にする敵単体の物理・魔法攻撃力を(\d+)ダウン敵単体の物理・魔法クリティカルを150ダウン$"=Cast time: 2.13s.\n►Inflicts Blind (P.ATK miss by 60%) on a single enemy for 8s.\n►Lowers a single enemy's P.ATK and M.ATK by $1 for 18s.\n►Lowers a single enemy's P.CRIT RATE and M.CRIT RATE by 150 for 18s.
-前から２番目の敵１キャラを暗闇状態にし、物理・魔法攻撃力、物理・魔法クリティカルを大ダウンさせる。=Puts the second-most enemy character into a state of darkness, greatly reducing their physical and magical attack power, and their physical and magical critical hits.
+前から２番目の敵を暗闇状態にし、物理・魔法攻撃力と物理・魔法クリティカルを大ダウンさせる。=Inflicts Blind on the second enemy from the front, and greatly lowers their P.ATK, M.ATK, P.CRIT RATE, and M.CRIT RATE.
 
 
 ##EX##
 メルヘンチャージ=Fairy-tale Charge
 メルヘンチャージ+=Fairy-tale Charge+
-バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法攻撃力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.ATK at start of battle.
+バトル開始時に自分の物理防御力を中アップ、魔法攻撃力を小アップする。=At the start of battle, moderately boosts own P.DEF and slightly boosts own M.ATK.
 r:"^自分の物理防御力を(\d+)アップ自分の魔法攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own M.ATK by $2.
 
 ##Legacy UB+##
@@ -52,8 +52,7 @@ r:"^自分の物理防御力を(\d+)アップ自分の魔法攻撃力を(\d+)ア
 
 ##UB+##
 メルヘンキングダム=Fairy-tale Kingdom
-味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップ、物理防御力を大アップさせ、さらにＴＰを固定量で中回復し、継続ＴＰ回復状態を付与する。=Massively boosts all allies' M.ATK, greatly boosts their M.CRIT Rate and P.DEF, and slightly boosts their M.CRIT DMG. Additionally moderately recovers all allies' TP by a fixed amount and grants them continuous TP recovery.
-###Oldr:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法攻撃クリティカル時のダメージを5％アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを固定量で120回復毎秒ＴＰを10回復する$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' M.CRIT Rate by 100 for 18s.\n►Boosts all allies' M.CRIT DMG by 5% for 18s.\n►Boosts all allies' P.DEF by $2 for 18s.\n►Recovers all allies' TP by fixed 120.\n►Recovers all allies' TP by 10/s for 10s.
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法クリティカルダメージを小アップ、物理防御力を大アップ、ＴＰを固定量で中回復させ、継続ＴＰ回復状態を付与する。=Massively boosts all allies' M.ATK, greatly boosts their M.CRIT RATE, slightly boosts their M.CRIT DMG, greatly boosts their P.DEF, restores a fixed amount of TP, and grants continuous TP recovery.
 
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを5％アップ味方全体の物理防御力を(\d+)アップ味方全体のＴＰを固定量で120回復毎秒ＴＰを10回復する$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.CRIT RATE by 100 for 18s.\n►Boosts allies' M.CRIT DMG by 5％ for 18s.\n►Boosts allies' P.DEF by $2 for 18s.\n►Recovers TP for all allies by 120.\n►Restores 10 TP per second to all allies for 10s.
 
@@ -70,7 +69,8 @@ r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)ア
 
 ##S1++##
 マホマホヒール++=Maho-Maho Healing++
-最もＨＰの割合が低い味方１キャラのＨＰを大回復、物理防御力を中アップし、継続ＨＰ回復状態を付与する。さらに、物理・魔法攻撃力いずれかで、最も攻撃力が高い味方１キャラの物理・魔法攻撃力を特大アップ、物理・魔法攻撃クリティカル時のダメージを小アップ、行動速度を大アップ、ＴＰを特大回復させる。（このスキルの効果は他の行動速度変化スキルと重複する）=Greatly recovers the HP of the ally with the lowest HP percentage, moderately boosts their P.DEF, and grants a continuous HP recovery effect. Additionally, for the ally with the highest attack stat between P.ATK and M.ATK, massively boosts their P.ATK and M.ATK, slightly boosts their P.CRIT DMG and M.CRIT DMG, greatly boosts their action speed, and massively recovers their TP. (This skill’s action speed effect stacks with other action speed changes.)
+最もＨＰの割合が低い味方のＨＰを大回復、物理防御力を中アップさせ、継続ＨＰ回復状態を付与する。最も攻撃力が高い味方の物理・魔法攻撃力を特大アップ、物理・魔法クリティカルダメージを小アップ、加算行動速度を大アップ、ＴＰを特大回復させる。=Greatly recovers the HP of the ally with the lowest HP percentage, moderately boosts their P.DEF, and grants continuous HP recovery. Additionally, massively boosts the P.ATK and M.ATK of the ally with the highest attack power, slightly boosts their P.CRIT DMG and M.CRIT DMG, greatly boosts their additive action speed, and massively recovers their TP.
+
 r:"^味方単体のＨＰを(\d+)回復味方単体の物理防御力を(\d+)アップ毎秒ＨＰを(\d+)回復する味方単体の物理・魔法攻撃力を(\d+)アップ味方単体の物理・魔法クリダメを12％アップ味方単体の行動速度50%加算味方単体のＴＰを1000回復$"=Cast time: 1.53s.\n►Recovers HP of a single ally by $1.\n►Boosts a single ally's P.DEF by $2 for 12s.\n►Grants a state that recovers $3 HP per second.\n►Boosts a single ally's P.ATK and M.ATK by $4 for 12s.\n►Boosts a single ally's P.CRIT DMG and M.CRIT DMG by 12％ for 12s.\n►Increases a single ally's action speed by 50% for 12s.\n►Recovers TP of a single ally by 1000.
 
 ##Comments##

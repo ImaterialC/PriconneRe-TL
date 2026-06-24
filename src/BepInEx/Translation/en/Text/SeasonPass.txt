@@ -1,6 +1,7 @@
 明日5:00以降のログインでミッションが進行します。=Missions will progress when you log in after 5:00 tomorrow.
 獲得できるミッション報酬がありません。=There is no reward for this mission.
-
+SPダンジョン残り挑戦回数=SP Dungeon Attempts
+ダンジョン残り挑戦回数=Dungeon Attempts
 シーズンパス=Season Pass
 Lv購入=Purchase Lv
 r:"^シーズンパス([A-Z]*)$"=Season Pass $1
@@ -64,6 +65,7 @@ r:"^経験値クエストかマナクエストを合計(\d+)回クリアしよ�
 r:"^深域クエストを(\d+)回クリアしよう$"="Clear "Deep Quest" $1 times"
 ジュノー=Juno
 
+r:"^スペシャルダンジョンのバトルを20回クリアしよう$"=Clear the Special Dungeon battles $1 times
 r:"^バトルアリーナかプリンセスアリーナで合計(\d+)回戦おう$"="Participate in the "Battle Arena" or "Princess Arena" $1 times"
 r:"^追憶の戦域 追憶戦・覇を(\d+)回クリアしよう$"="Clear the "Battle of Reminiscence and Conquest" $1 times."
 r:"^深淵討伐戦でボスに(\d+)回挑戦しよう$"=Challenge the boss $1 times in the Abyss Subjugation Battle

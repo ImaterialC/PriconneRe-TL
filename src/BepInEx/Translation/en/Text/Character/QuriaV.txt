@@ -1,0 +1,25 @@
+##Profile##
+【魔法】前衛で、奇跡により魂の疵を癒す浄罪の戦乙女。味方を物理攻撃から堅牢に守り、継続ダメージを与える聖浄の光を敵に浴びせ、戦乙女の聖槍による天罰を下す。=[Magic] A Valkyrie of Absolution who stands on the front lines, healing the wounds of the soul through miracles. She steadfastly protects allies from physical attacks, bathes enemies in Sacred Purifying Light that inflicts continuous damage, and delivers divine punishment with her holy spear.
+
+##UB##
+シャイン・エンゲージ -愛棘-=Shine Engage -Thorn of Love-
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を中ダウンさせ、聖浄の光状態にする。味方全体の物理・魔法防御力を中アップ、ＨＰを中回復させる。発動時既に、目の前の敵１キャラが継続ダメージ状態だった場合、さらに受けるクリティカルダメージを小アップさせ、このスキルのダメージは必ずクリティカルする。=Deals massive M.DMG to an enemy in front, moderately lowers their M.DEF, and inflicts Sacred Purifying Light. Moderately boosts all allies' P.DEF and M.DEF, and moderately recovers their HP. If the target is already affected by a damage-over-time effect when activated, additionally slightly increases the critical damage they take, and this skill's damage always lands as a critical hit.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン(\d+)ダメージを与える聖浄の光状態にする味方全体の物理・魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復目の前の敵が継続ダメージ状態の場合、敵単体の被クリダメを6％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2 for 18s.\n►Inflicts [Holy Purification Light], dealing $3 damage.\n►Boosts allies' P.DEF and M.DEF by $4 for 18s.\n►Recovers HP of all allies by $5.\n\nIf the frontmost enemy is affected by a damage-over-time effect:\n►Boosts an enemy's CRIT DMG taken by 6％ for 18s.
+
+##S1##
+ハートピアース=Heart Pierce
+自分に【戦乙女の聖槍・愛】（上限６）を１個付与する。目の前の敵１キャラに魔法大ダメージを与え、物理攻撃力を大ダウン、魔法防御力を小ダウンさせる。目の前の敵１キャラが継続ダメージ状態だった場合、さらに自分のＨＰを中回復し、このスキルのダメージは必ずクリティカルする。=Grants self 1 stack of [Valkyrie's Holy Spear: Love] (up to 6). Deals large M.DMG to an enemy in front, greatly lowers their P.ATK, and slightly lowers their M.DEF. If the target is affected by a damage-over-time effect, additionally moderately recovers own HP, and this skill's damage always lands as a critical hit.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン自分に戦乙女の聖槍・愛を１個付与する目の前の敵が継続ダメージ状態の場合、自分のＨＰを(\d+)回復$"=Cast time: 0.59s\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's P.ATK by $2 for 12s.\n►Lowers a single enemy's M.DEF by $3 for 12s.\n►Grants 1 [Valkyrie's Holy Spear: Love] to self.\n\nIf the frontmost enemy is affected by a damage-over-time effect:\n►Recovers own HP by $4.
+
+##S2##
+フェザープロテクト=Feather Protect
+光属性の味方の数に応じて、自分に【戦乙女の聖槍・愛】を付与する。味方全体に物理無効バリアを展開し、受ける物理ダメージを減少させる。=Grants self [Valkyrie's Holy Spear: Love] stacks based on the number of light-element allies. Deploys a physical null barrier on all allies and reduces the physical damage they take.
+r:"^(\d+)ダメージ分の物理無効バリアを展開する味方全体の受ける物理ダメージを4000減少自分に戦乙女の聖槍・愛を１個付与する$"=Cast time: 0.59s\n►Deploys a barrier  over all allies that nullifies $1 P.DMG for 18s.\n►Reduces physical damage taken by all allies by 4000 for 18s.\n►Grants 1 [Valkyrie's Holy Spear: Love] to self.
+
+##EX##
+バトル開始時に自分の魔法攻撃力を中アップする。=At the start of battle, moderately boosts own M.ATK.
+
+##SP##
+浄罪の戦乙女=Valkyrie of Absolution
+【戦乙女の聖槍・愛】が２個以上の場合、目の前の敵１キャラが継続ダメージ状態になるたびに、その敵に魔法大ダメージを与え、魔法防御力を小ダウンさせ、【戦乙女の聖槍・愛】を２個消費する。このスキルのダメージは必ずクリティカルする。=If self has 2 or more [Valkyrie's Holy Spear: Love] stacks, whenever an enemy in front becomes afflicted with a damage-over-time effect, deals large M.DMG to that enemy, slightly lowers their M.DEF, and consumes 2 [Valkyrie's Holy Spear: Love] stacks. This skill's damage always lands as a critical hit.
+r:"^自分の戦乙女の聖槍・愛を２個消費する敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.59s\n►Consumes 2 [Valkyrie's Holy Spear: Love].\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2 for 12s.

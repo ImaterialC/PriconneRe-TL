@@ -11,11 +11,6 @@ r:"^自分の残りＨＰを90％消費自分の魔法攻撃力を(\d+)アップ
 
 
 
-Mimi
-ぴょんぴょんアタック++=Hop-Hop Attack++
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与える。目の前の敵がマルチターゲットの場合、さらに、物理・魔法攻撃力を大ダウンさせ、自分のＴＰを特大回復する。=Deals large P.DMG to all enemies in an area centered on an enemy in front. If the enemy in front is a multi-target enemy, additionally greatly lowers their P.ATK and M.ATK, and massively recovers own TP.
-r:"^範囲内の敵に(\d+)の物理ダメージ目の前の敵がマルチターゲットの場合、以下の効果が発動する範囲内の敵の物理・魔法攻撃力を(\d+)ダウン自分のＴＰを1000回復$"=►Deals $1 P.DMG to enemies within range.\n\nIf the enemy in front is multi-target:\n►Lowers enemies' P.ATK and M.ATK within range by $2.\n►Recovers own TP by 1000.
-
 Suzuna
 おこぷんダーツ++=Angry Pudding Darts++
 目の前の敵１キャラに物理中ダメージを３回与える。このスキルは必ずクリティカルし、クリティカル時のダメージが３倍になる。初弾のこのスキルは、自分を敵にクリティカルでダメージを与えるたびにそのキャラの最大ＨＰに応じて最大50万の割合ダメージを与える状態にする。=Deals medium P.DMG to an enemy in front 3 times. This skill always lands critical hits, and critical damage is tripled. The first time this skill is used after battle start, grants a state where each time self deals critical damage to an enemy, deals proportional damage based on that enemy’s max HP, up to a maximum of 500,000.

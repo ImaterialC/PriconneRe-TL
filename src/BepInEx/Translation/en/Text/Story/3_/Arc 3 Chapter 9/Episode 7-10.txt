@@ -83,7 +83,7 @@ Chapter 4
 えっ？　えっと……お、王家の装備を奪おうとしたり。\nバンディシャーク号でお城を砲撃したり。\n魔物と戦っているところに乱入したり、温泉で勝負したりとか……=Huh? Um... We tried to steal various royal family equipments. We bombarded various castles with the Bandyshark. We barged in while you were trying to fight off monsters, and we had a competition in the local hot springs here...
 ……あらためて考えると、とんでもないというか。\n開いた口が塞がりませんね……=...Now that you remind me, that all sounds pretty outrageous indeed. I’m left speechless too...
 うﾞっ！\nすみませんすみませんっ、……でも……=Ugh! I’m sorry, I'm truly so sorry... However...
-……リリさんたちの言うとおり。\n今回の姉さんが、いつもと違うっていうのは……わたしも思ってて。\nいつも好き勝手する姉さんが、誰かの命令に従うだなんて……=...It's exactly like what Lily and Clear just said. I also thought that Big Sis this time was different from usual. Big Sis always does whatever she wants, but suddenly she started to follow someone else's orders...
+……リリさんたちの言うとおり。\n今回の姉さんが、いつもと違うっていうのは……わたしも思ってて。\nいつも好き勝手する姉さんが、誰かの命令に従うだなんて……=...It's exactly like what Riri and Quria just said. I also thought that Big Sis this time was different from usual. Big Sis always does whatever she wants, but suddenly she started to follow someone else's orders...
 ……もう、教えてくれてもいいよね？\n何があったの？　姉さん。=...You can tell us now, right? What happened to you, Big Sis?
 弁明など聞くつもりはない。\n我を出し抜こうとしたならば──=I have no intention of listening to your excuses. If you try to outwit me...
 直ちにお前の妹たちを、我が爪で引き裂いてくれようぞ。\n熟れた柘榴の如くになア。\nクカカカッ──=I will tear your sisters apart with my claws right now. Like ripe pomegranates. Kukakaka~
@@ -265,7 +265,7 @@ Chapter 5
 お兄の。\nいもうと、どうし。\nなので。=You're Onii's. Sister. That's why. So...
 お兄……ひょっとして、{playername}のこと？\nわ、私は別に、妹っていうわけじゃ……="Onii"... Are you talking about {playername}? I-It's not like I'm his real little sister...
 あと。\nたんまつ、どうし。\nなので。=Also. Everyone else. Say hello.
-……シェフィさま。\nあらためまして……【アルターメイデン】のギルドマスター\nリリと申します。=...Lady Sheffy. Allow me to introduce myself once more... My name is Lily, guild master of Alter Maiden.
+……シェフィさま。\nあらためまして……【アルターメイデン】のギルドマスター\nリリと申します。=...Lady Sheffy. Allow me to introduce myself once more... My name is Riri, guild master of Alter Maiden.
 同じく、クリアです。\nわたしたちは……えっと。\nこの姿を見てもらうのが早いと思うんですけど……=Likewise, my name is Quria. As for us... Umm... I think it'll be faster for you to understand if you see us in another form...
 っ……！　そう、だったのね。\n私も黒い天使のシャドウと戦ったから、よく覚えてる。\n……あなたたちも私と同じ、エリスさんの元『端末』……=...! I see. I fought the "Black Angel Shadows" too, so I remember it well. ...You girls are Eris's former "Terminals", just like me...
 ……あ。\nそれじゃあ、この獣人族の子は……=...Oh. Then this beastfolk girl...
@@ -275,7 +275,7 @@ Chapter 5
 ええ、ありがとう……\n……？=Yes, thank you... Hm...?
 兄様？\nお兄さん？\nひょっとして、やっぱり……{playername}のこと？="Nii-sama"? "Onii-san"? When you say that, you're referring to... {playername}?
 あっ！\nわたくしたちはその、\n敬意と親愛で兄様とお呼びさせていただいているだけで……！=Ah! We... The three of us... we're just calling him Nii-sama and the like out of respect and affection...!
-ふふっ。シェフィさん、おいくつですか？\n──１４歳？　それじゃ、この四人だとリリちゃんが一番上ですね♪\nシェフィさんも、リリちゃんをお姉ちゃんって呼んでいいんですよ？=Heehee. How old are you, Sheffy? ...14 years old? Then among us four Lily-chan is still at the top, isn't she♪? She won't mind if you call her "Big Sis Lily", you know.
+ふふっ。シェフィさん、おいくつですか？\n──１４歳？　それじゃ、この四人だとリリちゃんが一番上ですね♪\nシェフィさんも、リリちゃんをお姉ちゃんって呼んでいいんですよ？=Heehee. How old are you, Sheffy? ...14 years old? Then among us four Riri-chan is still at the top, isn't she♪? She won't mind if you call her "Big Sis Riri", you know.
 「呼ばないわよっ！？」\n「良くありませんっ……！」="I won't call her that!"  "That's not good..."
 あと。\nハッピー\nちゃん。=Also. Here's Happy-chan.
 ぶっぶぶぅ♪=Bububuu♪
@@ -355,7 +355,7 @@ Player Prompts
 ミソラちゃんも会いたがってるよ。=Misora wants to see you too
 
 New Titlecards
-シェフィ・リリ=Sheffy Lily
+シェフィ・リリ=Sheffy Riri
 ミーア=Mia
 
 Chapter 6
@@ -798,14 +798,14 @@ Player Prompts
 エリスさんなら知ってるかも。=Eris might know
 
 Substory
-ジオ・ゲヘナ、密林の一角にて。\nリリは鍛錬のため、{playername}と共に魔物と戦っていた。=In a corner of the dense jungle in Gio Gehenna, Lily was fighting monsters with {playername} to train.
+ジオ・ゲヘナ、密林の一角にて。\nリリは鍛錬のため、{playername}と共に魔物と戦っていた。=In a corner of the dense jungle in Gio Gehenna, Riri was fighting monsters with {playername} to train.
 そこですっ……ていっ！！=That's it... TEI!!
 ふぅ……お褒めにあずかり光栄です。\nですがやはり、黒い天使の力を振るう時に比べれば、\n力不足と言わざるを得ません。=Phew... I'm honored to receive your praise. However, compared to when I wield the power of the Black Angel, I have to say that my power is still lacking.
 己に課した使命をやり遂げるため、\nそして兄様の手助けに報いるためにも、\nさらなる鍛錬を重ねなければ……=In order to complete the mission I have set for myself, and to repay Nii-sama for his help, I must continue to train even harder...
 あらあらあらぁ～？\n誰かと思えば、馬ボーンとそのお仲間じゃありませんの。=Oh my, oh my, oh my~? I was wondering who it was, but if it isn't the slave-born boy and his friend.
 カノン様？　なぜここに……\n療養中と聞き及んでおりましたが、\nお怪我はもう大丈夫なのでしょうか？=Lady Kanon? Why are you here...? I heard you were recuperating. So I can assume you're all right now?
 フンッ、見くびらないでくださいな！\n不意打ちとはいえ弱っちいおたんこウサギにどつかれた程度で、\nあたくしが深手を負うはずありませんでしょう？=Hmph, don't underestimate me! Even though it was a surprise attack, there's no way I could be seriously injured by an axe slash from such a weak little rabbit, right?
-ふぅ、ふぅ……\nカノンさん、もうちょっとゆっくり歩いてくださ～い……\nってあれ？　リリさんに騎士さんではありませんか。=Phew, phew... Kanon, please walk just a little slower... Wait, huh, isn't that the Knight and Lily?
+ふぅ、ふぅ……\nカノンさん、もうちょっとゆっくり歩いてくださ～い……\nってあれ？　リリさんに騎士さんではありませんか。=Phew, phew... Kanon, please walk just a little slower... Wait, huh, isn't that the Knight and Riri?
 ほーちゃん様も、ご健勝で何よりです。\n本日はお二人そろって、どうなさったのでしょう。=I'm glad you're doing well too, Lady Ho-chan. I find myself questioning what the two of you are doing here tough.
 それはあたくし様の台詞ですわ。\n馬ボーンさんたちはこんなところで何をなさってらっしゃいますの？\nまさか、そちらも例の魔物を狙って……？=That actually would be my line here. What are a slave-born boy and his merry friends doing in such a forest? Don't tell me, are you after those monsters too...?
 例の魔物、とは？=What's that about a monster...?
@@ -834,7 +834,7 @@ Substory
 おんぎゃーーーーっ！！！=ONGYAAAHHHHHHH!!!
 カノンさーーーん！！！=KANON-SAAAAAAAN!!!
 な、なんという強さ……\nそれに何より……お美しすぎ、るッ……=Wh-What strength... And above all... such beau...ty.
-カノンさんがあっさりと……私たちじゃもう勝ち目がないです！\nリリさんたち、あの魔物と知り合いなんですか！？\n見逃してもらえるようお願いしてください！=Kanon was dealt with so easily... We don't stand a chance anymore! Lily and the Knight, are you acquainted with that monster?! Please ask them to let us go!
+カノンさんがあっさりと……私たちじゃもう勝ち目がないです！\nリリさんたち、あの魔物と知り合いなんですか！？\n見逃してもらえるようお願いしてください！=Kanon was dealt with so easily... We don't stand a chance anymore! Riri and the Knight, are you acquainted with that monster?! Please ask them to let us go!
 ま、魔物ではない……はずです。\nすみません、まだ状況に思考が追いついておらず……=I-It's not really a monster... I believe. I'm sorry, my thoughts haven't caught up to the situation just yet...
 おや？\nもしかして、ボクの美しさがどうやって磨かれたのか知りたいのかな？\nなら教えてあげようか……ボクが辿った美しすぎる足跡をね！=Oh? Perhaps you want to know how my beauty was cultivated? Then I'll tell you... the beautiful footsteps I've taken!
 ボクはシズルさんに連れられて、この世界に来たんだ。\nでもなんか暑くてむしむしべたべたするし、一刻も早く帰りたくてさ。=Shizuru took me to this world, but it was kind of hot and sticky, and I wanted to get home as soon as possible.
@@ -857,7 +857,7 @@ Substory
 本当に？　断るなんてもったいないなぁ。\nキミはそんなに立派な羽を持っているのに。\nもっと美しくなる素質を感じるよ。=Really? It's such a waste to refuse. You have such splendid wings. I feel like you have the potential to become even more beautiful.
 え？　立派な羽？\nそ、そうですか、変な人ですけど見る目はあるみたいですねぇ……=Hehehe? Splendid wings? I-I see. You're quite the strange person, but you seem to have a fine eye for good things...
 ほーちゃん様、落ち着いてください！\n甘言に惑わされてはなりませんっ……！=Lady Hoo-chan, please calm down! Don't let mere sweet talk fool you so easily...!
-リリさんだって、この強さが欲しくはないの？\nこの美しい羽ばたきひとつで、どんな相手もなぎ倒せるよ。\nキミの前に敵はいなくなるだろうね。=Don't you want this strength, too, Lily? With just one flap of these beautiful wings, you can knock down any opponent. There will be no enemies left to stand before you.
+リリさんだって、この強さが欲しくはないの？\nこの美しい羽ばたきひとつで、どんな相手もなぎ倒せるよ。\nキミの前に敵はいなくなるだろうね。=Don't you want this strength, too, Riri? With just one flap of these beautiful wings, you can knock down any opponent. There will be no enemies left to stand before you.
 そ、そこまで強くなれるのですか……？\nわたくしがあのような姿になれば……\n兄様のお役に立ち、末永くお供させていただくことも……=I-I can become that strong...? If I can become like that... I can be of use to Nii-sama, and I can accompany him forever...
 はっ！　も、申し訳ありません、兄様！\nわたくしは決して、安易に強くなろうなどという\n怠惰な考えは……=Hah! M-My deepest apologies, Nii-sama! I would never, ever lazily think of getting stronger in such a cheap and easy manner...
 ちょっとちょっと、どうして邪魔をするんだい？\nキミだって、最高に強くて究極に美しいボクを見られて\n心が喜びに満ちているはずだろう。=Hey, hey, {playername}, why are you getting in my way? I'm sure your heart is also filled with joy seeing me, the strongest and most beautiful of all.
