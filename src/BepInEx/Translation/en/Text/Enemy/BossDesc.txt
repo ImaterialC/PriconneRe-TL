@@ -2740,3 +2740,15 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 後ろから敵４体にＴＰ上昇ダウン=Reduces TP Boost of the four rearmost enemies.
 
 恋の連敗街道をひた走る、自分本位な海の荒くれ者。脅威的な大口から見初めた相手への愛を囁き、恋路を邪魔する者は海の藻屑にする。=A selfish brute of the sea who keeps charging down a road of romantic failures. It whispers words of love to those it falls for with its enormous maw, and turns anyone who stands in the way of its romance into debris beneath the waves.
+
+
+前から３番目の敵を中心に物理攻撃力／魔法攻撃力／物理防御力ダウンフィールド=Deploys a field centered on the 3rd enemy from the front that reduces P.ATK, M.ATK, and P.DEF.
+前から３番目の敵と周囲にバリア解除=Removes barriers from the 3rd enemy from the front and nearby enemies.
+
+前から敵３体に魔法防御力ダウン（召喚体無視・必中）=Reduces M.DEF of the three foremost enemies (ignores summons; guaranteed hit).
+与えた総ダメージが高いほど：ＨＰダウン量上昇=The higher the total damage dealt: the greater the HP reduction.
+自身の魔法攻撃力が高いほど：カット量アップ=The higher own M.ATK, the greater the damage reduction.
+バトル開始時、すべてのモンスターの魔法防御力をアップさせる。この効果は魔法防御力ダウンの影響を受けない。=At the start of battle, increases M.DEF of all monsters. This effect is unaffected by M.DEF reduction effects.
+バトル開始時、すべてのモンスターの物理防御力をアップさせる。この効果は物理防御力ダウンの影響を受けない。=At the start of battle, increases P.DEF of all monsters. This effect is unaffected by P.DEF reduction effects.
+バトル開始時、すべてのキャラのＴＰ上昇をダウンさせる。=At the start of battle, reduces TP Boost of all characters.
+バトル開始時、すべてのキャラのＨＰ吸収をダウンさせる。=At the start of battle, reduces HP absorption of all characters.

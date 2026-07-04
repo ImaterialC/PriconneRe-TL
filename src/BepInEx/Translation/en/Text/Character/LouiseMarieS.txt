@@ -1,0 +1,21 @@
+##Profile##
+【魔法】後衛で、大人の階段を上りたい水着の錬金術師。発動回数で性能が上昇するＵＢとスキルで、調和状態の付与と攻防たゆまぬ支援を行い、ひと夏の思い出を創る。=[Magic] A backline alchemist in a swimsuit eager to take her first steps into adulthood. With a UB and skills that grow stronger the more they are used, she grants [Harmony] while providing relentless offensive and defensive support to create unforgettable summer memories.
+
+##UB##
+究極錬成‐夕泡恋弾‐=Ultimate Synthesis: Twilight Bubble Love Shot
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルダメージを小アップさせる。目の前の敵１キャラに魔法特大ダメージを与える。発動するたびに、最大４回まで魔法攻撃力、魔法クリティカルダメージのアップ量が増加し、５回目以降はさらに追加で目の前の敵１キャラに魔法大ダメージを与える。=Massively boosts all allies' M.ATK, slightly boosts their M.CRIT DMG, and deals massive M.DMG to an enemy in front. Each time this skill is activated, the M.ATK and M.CRIT DMG boosts increase, up to 4 activations. From the 5th activation onward, additionally deals large M.DMG to an enemy in front.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリダメを8％アップ敵単体に(\d+)の魔法ダメージ５回目以降発動時、敵単体に(\d+)の魔法ダメージ$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.CRIT DMG by 8％ for 18s.\n►Deals $2 M.DMG to a single enemy.\n\nUpon the fifth use and thereafter:\n►Deals $3 M.DMG to a single enemy.
+
+##S1##
+セプテンルーメン=Septem Lumen
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルダメージを小アップさせる。目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。発動するたびに、最大４回まで魔法防御力のダウン量が増加し、５回目以降はさらに追加で目の前の敵１キャラに魔法大ダメージを与える。=Massively boosts all allies' M.ATK, slightly boosts their M.CRIT DMG, deals large M.DMG to an enemy in front, and slightly lowers their M.DEF. Each time this skill is activated, the M.DEF reduction increases, up to 4 activations. From the 5th activation onward, additionally deals large M.DMG to an enemy in front.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリダメを8％アップ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン５回目以降発動時、敵単体に(\d+)の魔法ダメージ$"=►Boosts allies' M.ATK by $1 for 12s.\n►Boosts allies' M.CRIT DMG by 8％ for 12s.\n►Deals $2 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $3 for 12s.\n\nUpon the fifth use and thereafter:\n►Deals $4 M.DMG to a single enemy.
+
+##S2##
+アエスタース=Aestas
+味方全体の物理・魔法防御力を小アップさせ、物理/魔法無効バリアを展開、調和状態を付与し、ＨＰとＴＰを小回復させる。発動するたびに、最大２回まで防御力のアップ量とバリアの無効ダメージ量が増加し、３回目以降はさらに味方全体に継続ＨＰ回復状態を付与する。=Slightly boosts all allies' P.DEF and M.DEF, deploys physical/magic null barriers, grants [Harmony], and slightly recovers their HP and TP. Each time this skill is activated, the DEF boosts and barrier strength increase, up to 2 activations. From the 3rd activation onward, additionally grants all allies continuous HP recovery.
+r:"^味方全体の物理・魔法防御力を(\d+)アップ(\d+)ダメージ分の物理魔法無効バリアを展開する味方全体に調和状態を付与する味方全体のＨＰを(\d+)回復味方全体のＴＰを100回復３回目以降発動時、毎秒ＨＰを(\d+)回復する$"=►Boosts allies' P.DEF and M.DEF by $1 for 18s.\n►Deploys a barrier over all allies that nullifies $2 P.DMG or M.DMG for 18s.\n►Grants [Harmony] to all allies.\n►Recovers HP of all allies by $3.\n►Recovers TP for all allies by 100.\n\nUpon the third use and thereafter:\n►Recovers $4 HP per second for 12.5s.
+
+##EX##
+恋する乙女の錬金術=Alchemy of a Maiden in Love
+恋する乙女の錬金術+=Alchemy of a Maiden in Love+
