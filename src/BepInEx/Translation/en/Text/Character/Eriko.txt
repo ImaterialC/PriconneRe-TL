@@ -30,6 +30,7 @@ r:"^敵単体に(\d+)の物理ダメージとどめを刺した時、自分の�
 
 ##S2##
 ポイズンブロウ=Poison Blow
+目の前の敵１キャラに物理中ダメージを与え、毒状態にする。=Deals medium P.DMG to an enemy in front and inflicts Poison.
 
 ##EX##
 狂愛の力=The Power of Twisted Love
@@ -37,12 +38,13 @@ r:"^敵単体に(\d+)の物理ダメージとどめを刺した時、自分の�
 
 ##UB+##
 デッドリーエグゼキューション=Deadly Execution
-目の前の敵１キャラに物理特大ダメージを２回与え、クリティカルを受けた際のダメージを小アップさせ、さらに自分の物理攻撃力を大アップさせる。このスキルで敵を倒せなかった場合、自分の物理攻撃クリティカル時のダメージを大アップさせる。=Deals massive P.DMG twice to the first enemy character in front of you, slightly inflicts the critical damage reduce toward the target, and large boost to your P.ATK power. If this skill fails to defeat the enemy, large boost to P.CRIT DMG.
+目の前の敵１キャラに物理特大ダメージを２回与え、受けるクリティカルダメージを小アップさせ、自分の物理攻撃力を大アップする。敵を倒せなかった場合、さらに自分の物理クリティカルダメージを大アップする。=Deals massive P.DMG twice to an enemy in front, slightly increases the critical damage they take, and greatly boosts own P.ATK. If the target is not defeated, additionally greatly boosts own P.CRIT DMG.
+
 r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体のクリティカルを受けた際のダメージを6％アップ自分の物理攻撃力を(\d+)アップとどめを刺せなかった時、自分の物理攻撃クリティカル時のダメージを40％アップ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Lowers 6% P.CRIT DMG resistance to an enemy for 18s.\n►Boosts own P.ATK by $3 for 180s.\n►If target is not defeated, boosts own P.CRIT DMG by 40% for 18s.
 
 ##S1+##
 オブセッション+=Obsession+
-自分の物理攻撃力を大アップさせ、さらに短時間物理攻撃力と物理クリティカルを特大アップさせる。=Large boost to own P.ATK. Additional massive boost to own P.ATK and P.CRIT Rate for a brief period.
+自分の物理攻撃力を大アップし、物理攻撃力と物理クリティカルを短時間特大アップする。=Greatly boosts own P.ATK, then massively boosts own P.ATK and P.CRIT RATE for a short duration.
 r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを400アップ$"=Cast time: 1.125s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.ATK by $2 for 7.5s.\n►Boosts own P.CRIT Rate by 400 for 7.5s.
 
 ##UE##

@@ -33,19 +33,21 @@
 
 ##S2+##
 カウンタースラッシュ+=Counter Slash+
-目の前の敵１キャラに物理大ダメー\nジを２回与え、自分が敵から受ける\n行動不能を１回まで無効にする。さ\nらに、行動パターンが変化する。=Deals 2 instances of large P.DMG to the frontmost enemy, and nullifies one immobilizing effect. Also changes skill loop.
+目の前の敵１キャラに物理大ダメージを２回与え、自分が敵から受ける行動不能を１回まで無効にし、行動パターンが変化する。=Deals large P.DMG twice to an enemy in front, grants immunity to the next incapacitating effect received from an enemy, and changes the action pattern.
+
 r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ自分の受ける行動不能を１回まで無効化する$"=►Deals $1 P.DMG to the frontmost enemy.\n►Deals an additional $2 P.DMG to the same enemy.\n►Nullifies one instance of immobilizing status on self.
 
 
 ##EX##
 ラピッドフェンサー=Rapid Riposte
 ラピッドフェンサー+=Rapid Riposte+
-バトル開始時に自分の物理攻撃力を中アップさせ、さらに自分の最大ＨＰを小アップさせる。=Moderate boost to own P.ATK and small boost to max HP at start of battle.
+バトル開始時に自分の物理攻撃力を中アップ、最大ＨＰを小アップする。=At the start of battle, moderately boosts own P.ATK and slightly boosts own Max HP.
 r:"^自分の物理攻撃力を(\d+)アップ自分の最大ＨＰを(\d+)アップさせる$"=►Boosts own P.ATK by $1.\n►Boosts own max HP by $2.
 
 ##UB+##
 スラッシュテンペスト=Tempest Slash
-目の前の敵１キャラに物理特大ダメージを与え、さらに風の刃を纏う。纏っている間、スキルの効果値が２倍になる。=Deals massive P.DMG to an enemy directly in front, and applies a Wind Blade. While wearing it, the effect value of the skill is doubled.
+目の前の敵１キャラに物理特大ダメージを与え、自分が【風の刃】を纏う。纏っている間、スキルの効果値が２倍になる。=Deals massive P.DMG to an enemy in front and envelops self in [Blade of Wind]. While enveloped, skill effect values are doubled.
+
 r:"^敵単体に(\d+)の物理ダメージ一定時間風の刃を纏う$"=►Deals $1 P.DMG to an enemy.\n►Applies a Wind Blade (x2 effect of the skills) for 18s.
 
 ##S1+##

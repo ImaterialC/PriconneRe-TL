@@ -14,23 +14,24 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体を暗闇状態にする$"=�
 
 ##S2##
 ウォーターバルーン=Water Balloon
-最も物理攻撃力が高い敵１キャラに物理小ダメージを与え、物理攻撃力を大ダウン、物理攻撃クリティカル時のダメージを中ダウンさせる。さらに、自分の物理攻撃力を大アップする。目の前の敵がマルチターゲットの場合、さらに、魔法攻撃力を大ダウン、魔法攻撃クリティカル時のダメージを中ダウンさせる。=Deals small P.DMG to the enemy with the highest P.ATK, greatly lowers their P.ATK, and moderately lowers their P.CRIT DMG. Additionally, greatly boosts own P.ATK. If the enemy in front is a multi-target enemy, additionally greatly lowers their M.ATK and moderately lowers their M.CRIT DMG.
+最も物理攻撃力が高い敵に物理小ダメージを与え、物理攻撃力を大ダウン、物理クリティカルダメージを中ダウンさせる。自分の物理攻撃力を大アップする。目の前の敵がマルチターゲットの場合、さらに魔法攻撃力を大ダウン、魔法クリティカルダメージを中ダウンさせる。=Deals small P.DMG to the enemy with the highest P.ATK, greatly lowers their P.ATK, moderately lowers their P.CRIT DMG, and greatly boosts own P.ATK. If the enemy in front is a multi-target enemy, additionally greatly lowers their M.ATK and moderately lowers their M.CRIT DMG.
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の物理クリダメを25％ダウン自分の物理攻撃力を(\d+)アップ目の前の敵がマルチターゲットの場合、以下の効果が発動する敵単体の魔法攻撃力を(\d+)ダウン敵単体の魔法クリダメを25％ダウン$"=Cast time: 1.18s.\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.ATK by $2 for 180s.\n►Lowers a single enemy's P.CRIT DMG by 25％ for 180s.\n►Boosts own P.ATK by $3 for 180s.\n\nIf the frontmost enemy is a multi-target enemy:\n►Lowers a single enemy's M.ATK by $4 for 180s.\n►Lowers a single enemy's M.CRIT DMG by 25％ for 180s.
 ##EX##
 トラップエキスパート=Professional Prankster
 トラップエキスパート+=Professional Prankster+
-バトル開始時に自分の物理防御力を中アップさせ、さらに自分の物理攻撃力を小アップさせる。=Moderate boost to own P.DEF and small boost to P.ATK at start of battle.
+バトル開始時に自分の物理防御力を中アップ、物理攻撃力を小アップする。=At the start of battle, moderately boosts own P.DEF and slightly boosts own P.ATK.
+
 r:"^自分の物理防御力を(\d+)アップ自分の物理攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own P.ATK by $2.
 
 ##UB+##
 トリックハート=Trick Heart
-敵全体に物理大ダメージを与え、物理攻撃力と物理クリティカルを特大ダウン、物理攻撃クリティカル時のダメージを中ダウンさせる。目の前の敵がマルチターゲットの場合、敵全体に追加の物理大ダメージを与え、物理防御力を中ダウンさせる。=Deals large P.DMG to all enemies, massively lowers their P.ATK and P.CRIT RATE, and moderately lowers their P.CRIT DMG. If the enemy in front is a multi-target enemy, additionally deals large P.DMG to all enemies and moderately lowers their P.DEF.
+敵全体に物理大ダメージを与え、物理攻撃力と物理クリティカルを特大ダウン、物理クリティカルダメージを中ダウンさせる。目の前の敵がマルチターゲットの場合、さらに追加で敵全体に物理大ダメージを与え、物理防御力を中ダウンさせる。=Deals large P.DMG to all enemies, massively lowers their P.ATK and P.CRIT RATE, and moderately lowers their P.CRIT DMG. If the enemy in front is a multi-target enemy, additionally deals large P.DMG to all enemies and moderately lowers their P.DEF.
+
 r:"^敵全体に(\d+)の物理ダメージ敵全体の物理攻撃力を(\d+)ダウン敵全体の物理クリティカルを600ダウン敵全体の物理クリダメを25％ダウン目の前の敵がマルチターゲットの場合、以下の効果が発動する敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to all enemies.\n►Lowers all enemies' P.ATK by $2 for 18s.\n►Lowers all enemies' P.CRIT RATE by 600 for 18s.\n►Lowers all enemies' P.CRIT DMG by 25％ for 18s.\n\nIf the frontmost enemy is a multi-target enemy:\n►Deals $3 P.DMG to all enemies.\n►Lowers all enemies' P.DEF by $4 for 18s.
 
 ##S1+##
 インクシューター+=Ink Spray+
-
-自分から２番目に近い敵１キャラに物理中ダメージを与え、暗闇状態にする。さらにそのキャラを中心とした範囲内の敵すべての物理攻撃力を大ダウンさせる。=Deals medium P.DMG to the second-closest enemy and inflicts Blind. Additionally, greatly lowers the P.ATK of all enemies in an area centered on that target.
+２番目に近い敵に物理中ダメージを与え、暗闇状態にする。その敵を中心とした範囲内の敵の物理攻撃力を大ダウンさせる。=Deals medium P.DMG to the second nearest enemy and inflicts Blind. Additionally, greatly lowers the P.ATK of enemies within an area centered on that enemy.
 r:"^敵単体に(\d+)の物理ダメージ敵単体を暗闇状態にする範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.55s.\n►Deals $1 P.DMG to an enemy.\n►Inflicts Blind for 10s.\n►Lowers enemies' P.ATK in 200 range by $2 for 12s.
 
 ##UE##
@@ -41,7 +42,6 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体を暗闇状態にする範�
 
 Misogi
 インクシューター++=Ink Spray++
-自分から２番目に近い敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、暗闇状態にし、物理攻撃力を大ダウン、ＴＰを小ダウンさせる。目の前の敵がマルチターゲットの場合、範囲内の敵すべてに追加の物理中ダメージを与え、物理防御力を小ダウンさせる。=Deals medium P.DMG to all enemies in an area centered on the second-closest enemy, inflicts Blind, greatly lowers their P.ATK, and slightly lowers their TP. If the enemy in front is a multi-target enemy, deals additional medium P.DMG to all enemies in range and slightly lowers their P.DEF.
-
+２番目に近い敵を中心とした範囲内の敵に物理中ダメージを与え、暗闇状態にし、物理攻撃力を大ダウン、ＴＰを小ダウンさせる。目の前の敵がマルチターゲットの場合、さらに追加で範囲内の敵に物理中ダメージを与え、物理防御力を小ダウンさせる。=Deals medium P.DMG to enemies within an area centered on the second nearest enemy, inflicts Blind, greatly lowers their P.ATK, and slightly reduces their TP. If the enemy in front is a multi-target enemy, additionally deals medium P.DMG to enemies in the area and slightly lowers their P.DEF.
 
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を暗闇状態にする範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵のＴＰを75失わせる目の前の敵がマルチターゲットの場合、以下の効果が発動する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=Cast time: 1.55s.\n►Deals $1 P.DMG to enemies within 200 range.\n►Inflicts Blind on enemies within 200 range for 10s.\n►Lowers enemies' P.ATK within 200 range by $2 for 12s.\n►Reduces TP of enemies within 200 range by 75.\n\nIf the enemy in front is multi-target:\n►Deals $3 P.DMG to enemies within 200 range.\n►Lowers enemies' P.DEF within 200 range by $4 for 12s.
