@@ -14,7 +14,7 @@
 
 ##S2##
 タイガースピン=Tiger Spin
-自分の前後の範囲内の敵に物理小ダメージを与える。=Deals moderate P.DMG to all enemies in an area around oneself.
+自分を中心とした範囲内の敵に物理小ダメージを与える。=Deals minor P.DMG to enemies within range centered on self.
 
 ##EX##
 ヒーローの心得=Hero's Code
@@ -22,12 +22,12 @@
 
 ##UB+##
 ナイトメアブレイブス=Nightmare Braves
-前から３番目の敵の目の前に飛び込み、その敵を中心とした範囲内の敵すべてに物理大ダメージを与える。さらに、自分に物理/魔法無効バリアを展開する。自分のＨＰが低いほどダメージとバリアの無効ダメージ量がアップする。=Leaps in front of the third enemy and deals massive P.DMG to all enemies within the range centered around that enemy. Additionally, she deploys a physical/magical nullification barrier on herself. The lower her HP, the higher the damage dealt by the skill and the nullification damage of the barrier.
+前から３番目の敵の目の前に飛び込み、その敵を中心とした範囲内の敵に物理大ダメージを与える。自分に物理/魔法無効バリアを展開する。自分のＨＰが低いほど、ダメージとバリアの無効ダメージ量が増加する。=Leaps in front of the third enemy from the front, dealing major P.DMG to enemies within range centered on that enemy. Deploys a Physical/Magical Nullification Barrier on self. The lower own HP, the greater the damage dealt and the barrier's damage absorption.
 r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to enemies in 450 range.\n►Deploys Barrier over oneself that negates P/M.DMG $2 to herself for 18s.
 
 ##S1+##
 タイガーショック+=Tiger Shock+
-自分の前後の範囲内の敵に物理小ダメージを与え、スタンさせる。さらに、自分の物理防御力と魔法防御力を特大アップさせる。=Deals small P.DMG to all enemies in an area around oneself and inflicts Stun. Massive boost to own P.DEF and M.DEF.
+自分を中心とした範囲内の敵に物理小ダメージを与え、スタンさせる。自分の物理・魔法防御力を特大アップする。=Deals minor P.DMG to enemies within range centered on self and inflicts Stun. Greatly boosts own P.DEF and M.DEF.
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=Cast time: 0.76s.\n►Deals $1 P.DMG to enemies in 200 range.\n►Inflicts Stun to the targets for 2s.\n►Boosts own P.DEF by $2 for 12s.\n►Boosts own M.DEF by $3 for 12s.
 
 ##UE##

@@ -16,7 +16,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間�
 
 ##S2##
 スパイラルヤーン=Spiral Yarn
-前方範囲内の敵すべてに物理小ダメージを与え、さらに移動速度と行動速度を小ダウンさせる。=Deals small P.DMG to all enemies in range and reduces their movement speed and action speed by a small amount.
+前方範囲内の敵に物理小ダメージを与え、移動速度と行動速度を小ダウンさせる。=Deals minor P.DMG to enemies in the frontal area and slightly lowers their movement speed and action speed.
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の移動速度を一定時間低下させる範囲内の敵の行動速度10％ダウン$"=Cast time: 1.23s.\n►Deals $1 P.DMG to enemies within 700 range.\n►Lowers movement speed of enemies within 700 range by 150 for 12s.\n►Lowers action speed of enemies within 700 range by 10％ 12s.
 
 ##EX##
@@ -25,11 +25,12 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の移動速度�
 
 ##UB+##
 エンドドレステーラー=Endless Dresstailor
-前方範囲内の敵すべてに物理大ダメージを与えて束縛し、さらに前方範囲内の一番遠くの敵を大きく引き寄せ、一番近くの敵を大きく吹き飛ばす。範囲内の敵の数に応じて、与えるダメージ量が増加する。=Deals massive P.DMG to all enemies within the frontal area, binding them, and greatly pulls the farthest enemy closer while launching the nearest enemy far away. The amount of damage increases based on the number of enemies within the area.
+前方範囲内の敵に物理大ダメージを与え、束縛する。前方範囲内の最も遠くの敵を大きく引き寄せ、最も近くの敵を大きく吹き飛ばす。範囲内の敵の数に応じて、ダメージが増加する。=Deals major P.DMG to enemies in the frontal area and inflicts Bind. Greatly pulls in the farthest enemy within the frontal area and greatly knocks back the nearest enemy. Damage increases based on the number of enemies within range.
 
 ##S1+##
 キャプチャーストリング+=Capture String+
-前から２番目の敵１キャラに物理中ダメージを与え、小さく引き寄せ、スタンさせる。さらに自分の物理攻撃力を中アップ、物理防御力を小アップさせる。=Deals Small P.DMG to the 2nd Closest Enemy. Slightly Pulls the Target Towards Her and Stun the Target. In addition, Boost own P.ATK by Medium Amount and Boost own P.DEF by Small Amount.
+前から２番目の敵に物理中ダメージを与え、小さく引き寄せ、スタンさせる。自分の物理攻撃力を中アップ、物理防御力を小アップする。=Deals moderate P.DMG to the second enemy from the front, slightly pulls them in, and inflicts Stun. Moderately boosts own P.ATK and slightly boosts own P.DEF.
+
 r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts Stun to an enemy for 1.5s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.DEF by $3 for 12s.
 
 ##UE##

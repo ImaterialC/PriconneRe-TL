@@ -19,11 +19,7 @@
 
 ##UB+##
 ボルテクスストリーム=Vortex Stream
-目の前の敵１キャラに物理特大ダメージを与え、さらにスタンさせる。そのキャラがユニオンバースト発動時既に行動不能状態だった場合、さらに敵全体に物理特大ダメージを与え、スタンさせる。=Deals massive P.DMG to an enemy directly in front and stuns it further. If target is already disabled when UB is activated, it will deal extra P.DMG to all enemies and stun them.
-## OLD r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする敵全体に(\d+)の物理ダメージ敵全体を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Inflicts Stun to an enemy for 4s.\n\nIf already stunned:\n►Deals $2 P.DMG to all enemies.\n►Inflicts Stun to all enemies for 4s.
-
-
-目の前の敵１キャラに物理特大ダメージを与え、スタンさせる。発動時既にこのスキルの対象が行動不能状態だった場合、このスキルは必ずクリティカルし、敵全体に追加の物理特大ダメージを与え、スタンさせる。=Deals massive P.DMG to an enemy in front and stuns them. If the target is already stunned at activation, this skill always lands a critical hit, and additionally deals massive P.DMG to all enemies and stuns them.
+目の前の敵１キャラに物理特大ダメージを与え、スタンさせる。発動時既に対象が行動不能状態だった場合、このスキルは必ずクリティカルし、さらに追加で敵全体に物理特大ダメージを与え、スタンさせる。=Deals massive P.DMG to 1 enemy in front and inflicts Stun. If the target is already unable to act when activated, this skill is guaranteed to CRIT, then additionally deals massive P.DMG to all enemies and inflicts Stun.
 r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする目の前の敵が行動不能状態の場合、以下の効果が発動する敵全体に(\d+)の物理ダメージ敵全体を一定時間行動不能にする$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts Stun to an enemy for 4s.\n\nIf already stunned:\n►Deals $2 P.DMG to all enemies.\n►Inflicts Stun to all enemies for 4s.
 
 
@@ -41,5 +37,5 @@ r:"^自分のＨＰを(\d+)回復自分の物理・魔法防御力を(\d+)アッ
 
 ##S1++##
 ファーストエイド++=First Aid++
-自分のＨＰを大回復、物理・魔法防御力を大アップし、自分の周囲に範囲内の味方すべてのＨＰを小回復するフィールドを展開する。発動時既に目の前の敵１キャラが行動不能状態だった場合、自分のＴＰを特大回復する。=Greatly recovers own HP, greatly boosts own P.DEF and M.DEF, and deploys a field around self that slightly recovers the HP of all allies in range. If, at activation, the enemy in front is already stunned, massively recovers own TP.
+自分のＨＰを大回復、物理・魔法防御力を大アップし、自分を中心とした範囲内の味方のＨＰを小回復させるフィールドを展開する。目の前の敵１キャラが行動不能状態の場合、さらに自分のＴＰを特大回復する。=Greatly recovers own HP, greatly boosts own P.DEF and M.DEF, and deploys a field centered on self that slightly recovers HP of allies within range. If the enemy in front is unable to act, additionally greatly recovers own TP.
 r:"^自分のＨＰを(\d+)回復自分の物理・魔法防御力を(\d+)アップ毎秒ＨＰを(\d+)回復するフィールドを展開する目の前の敵が行動不能状態の場合、自分のＴＰを1000回復$"=►Recovers own HP by $1.\n►Boosts own P.DEF and M.DEF by $2.\n►Deploys a field that recovers HP $3 per second.\n\nIf the enemy in front is stunned:\n►Recovers own TP by 1000.

@@ -9,7 +9,8 @@
 
 ##S2##
 スパイラルウェーブ=Spiral Wave
-目の前の敵１キャラに魔法小ダメージを与え、さらに魔法防御力を中ダウンさせる。=Deals small M.DMG to an enemy directly in front and lowers their M.DEF by a moderate amount.
+目の前の敵１キャラに魔法小ダメージを与え、魔法防御力を中ダウンさせる。=Deals small M.DMG to an enemy in front and moderately lowers their M.DEF.
+
 
 ##EX##
 ハイドロリンク=Hydro Link
@@ -17,11 +18,20 @@
 
 ##UB+##
 サマーフルフローター=Summer Full Floater
-目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。発動時既にこのスキルの対象が魔法防御力ダウン状態だった場合、さらに魔法大ダメージを与える。=Deals massive M.DMG to an enemy directly in front, and reduces M.DEF by small amount. If the target of this skill is already in the M.DEF down state at the time of activation, it will do more M.DMG.
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を小ダウンさせる。発動時既に対象が魔法防御力ダウン状態だった場合、さらに追加で魔法大ダメージを与える。=Deals massive M.DMG to an enemy in front and slightly lowers their M.DEF. If the target is already affected by an M.DEF Down debuff when this skill is activated, additionally deals large M.DMG.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン対象が魔法防御力ダウン状態の時、敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's M.DEF by $2.\n\nIf enemy's M.DEF is already lowered:\n►Deals $3 M.DMG to an enemy.
 
 ##S1+##
 ウォーターバレット+=Aqua Bullet+
+目の前の敵１キャラに魔法大ダメージを与え、魔法防御力を小ダウンさせる。=Deals large M.DMG to an enemy in front and slightly lowers their M.DEF.
 
 ##UE##
 猫輪サマーフロート=Feline Floatring
+
+
+##UE2##
+サニーデイ・バースト=Sunny Day Burst
+
+自分の魔法攻撃力を大アップ、魔法クリティカルを特大アップ、魔法クリティカルダメージを小アップし、目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を中ダウンさせる。発動時既に対象の敵が魔法防御力ダウン状態だった場合、さらに追加で魔法大ダメージを与え、受けるクリティカルダメージを小アップさせる。=Greatly boosts own M.ATK, massively boosts own M.CRIT RATE, slightly boosts own M.CRIT DMG, deals massive M.DMG to an enemy in front, and moderately lowers their M.DEF. If the target is already affected by an M.DEF Down debuff when this skill is activated, additionally deals large M.DMG and slightly increases the critical damage they take.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを200アップ自分の魔法クリダメを16％アップ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン対象が魔法防御力ダウン状態の場合、以下の効果が発動する敵単体に(\d+)の魔法ダメージ敵単体の被クリダメを4％アップ$"=Cast time: 1.14s.\n►Boosts own M.ATK by $1 for 12s.\n►Boosts own M.CRIT RATE by 200 for 12s.\n►Boosts own M.CRIT DMG by 16％ for 12s.\n►Deals $2 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $3 for 12s.\n\nIf the target is affected by M.DEF Down:\n►Deals $4 M.DMG to a single enemy.\n►Boosts a single enemy's CRIT DMG taken by 4％ for 12s.
+

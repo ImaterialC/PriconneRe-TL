@@ -24,11 +24,10 @@
 ##S1##
 ダークフォトン=Dark Photon
 目の前の敵１キャラに魔法小ダメージを与え、さらに行動速度を小ダウンさせる。=Deals small M.DMG to an enemy directly in front and reduces their action speed by a small amount.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体の行動速度を一定時間低下させる$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's action speed for a set period of time.
 
 ##S2##
 スローイングアイ=Eyeball Volley
-範囲内の敵すべてに魔法小ダメージを３回与える。範囲の中心になる敵はミサキの前方から近い順に選ばれる。=Deals small M.DMG to all enemies in a radius around the closest enemy 3 times.
+目の前の最大３キャラまでの敵を中心とした範囲内の敵に魔法小ダメージを与える。=Deals minor M.DMG to enemies within range centered on up to the 3 enemies in front.
 r:"^範囲内の敵にそれぞれ(\d+)の魔法ダメージ$"=►Deals $1 M.DMG per hit to enemies in range.
 
 ##EX##
@@ -37,13 +36,13 @@ r:"^範囲内の敵にそれぞれ(\d+)の魔法ダメージ$"=►Deals $1 M.DMG
 
 ##UB+##
 ヴィーナス・ドゥームアイ=Venus Doom Eye
-敵全体に魔法中ダメージを与え、呪詛状態にする。呪詛状態だった場合は代わりに呪い状態にする。呪いか呪詛状態だった場合、ダメージ量が増加し誘惑状態にする。呪詛による継続ダメージは毎秒ごとに増加する。=Deals moderate M.DMG to all enemies and curse them. If it is in a curse or hexed state, the amount of damage will increase and it will be in a charmed state. The continuous damage caused by the hexed boost every second.
+敵全体に魔法中ダメージを与え、呪詛状態にする。発動時既に呪詛状態だった場合、代わりに呪い状態にする。呪いか呪詛状態だった場合、このスキルのダメージが増加し、さらに誘惑状態にする。=Deals moderate M.DMG to all enemies and inflicts Curse Mark. If the target is already afflicted with Curse Mark when this skill is activated, inflicts Curse instead. If the target is afflicted with either Curse or Curse Mark, this skill deals increased damage and additionally inflicts Charm.
 r:"^呪いまたは呪詛状態ではない敵に(\d+)の魔法ダメージ呪いまたは呪詛状態の敵に(\d+)の魔法ダメージ敵が呪いまたは呪詛状態の場合、誘惑する毎秒ダメージが初期値(\d+)の30％ずつアップするダメージを与える呪詛状態にする(\d+)ダメージを与える呪い状態にする$"=If the enemies are not cursed/hexed:\n►Deals $1 M.DMG to enemies.\n►Inflicts Curse $3 M.DMG/s.\n\nIf the enemies are cursed/hexed:\n►Deals $2 M.DMG to enemies.\n►Inflicts Hex $4+30% M.DMG/s.\n►Inflicts Charm for 5s.
 
 ##S1+##
 ダークフォトン+=Dark Photon+
-最も近くの敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに行動速度を大ダウンさせる。=Deals moderate M.DMG to all enemies in range and reduces their action speed by a large amount.
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の行動速度を一定時間低下させる$"=►Deals $1 M.DMG to enemies in range.\n►Reduces enemies' action speed in range.
+最も近くの敵を中心とした範囲内の敵に魔法中ダメージを与え、行動速度を大ダウンさせる。=Deals moderate M.DMG to enemies within range centered on the nearest enemy and greatly reduces their Action Speed.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の行動速度(\d+)％ダウン$"=Cast time: 1.4s.\n►Deals $1 M.DMG to enemies within 200 range.\n►Lowers action speed of enemies within range by $2％ for 10s.
 
 ##UE##
 魔眼杖デモネス・アイ=Eye of the Demoness

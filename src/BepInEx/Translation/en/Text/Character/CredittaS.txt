@@ -1,0 +1,21 @@
+##Profile##
+【魔法】後衛で、リゾート建設に奔走する水着の女商人。初回発動時に強力な攻撃支援と一定時間魔攻・物防・魔防ダウンを無効化するスキルで、豪奢に味方を駆り立てる。=[Magic] A backline swimsuit-clad merchant who tirelessly works to build the ultimate resort. On its first activation, her powerful support skill lavishly empowers allies while temporarily nullifying M.ATK Down, P.DEF Down, and M.DEF Down effects.
+
+##UB##
+ゴージャスセレブサマー=Gorgeous Celeb Summer
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルダメージを小アップさせ、敵全体に魔法大ダメージを与える。敵の数に応じて、効果量が最大３キャラ分まで増加する。=Massively boosts all allies' M.ATK, slightly boosts their M.CRIT DMG, and deals large M.DMG to all enemies. The effect increases based on the number of enemies, up to a maximum of 3 enemies.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリダメを8％アップ敵全体に(\d+)の魔法ダメージ$"=►Boosts allies' M.ATK by $1 for 18s.\n►Boosts allies' M.CRIT DMG by 8％ for 18s.\n►Deals $2 M.DMG to all enemies.
+
+##S1##
+マニーシャワー=Money Shower
+味方全体の魔法攻撃力を特大アップ、物理・魔法防御力を小アップさせ、敵全体に魔法大ダメージを与える。初回発動時、さらに敵全体の魔法防御力を小ダウン、受けるクリティカルダメージを小アップさせる。敵の数に応じて、効果量が最大３キャラ分まで増加する。=Massively boosts all allies' M.ATK, slightly boosts their P.DEF and M.DEF, and deals large M.DMG to all enemies. On the first activation, additionally slightly lowers all enemies' M.DEF and slightly increases the critical damage they take. The effect increases based on the number of enemies, up to a maximum of 3 enemies.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理・魔法防御力を(\d+)アップ敵全体に(\d+)の魔法ダメージ初使用時、以下の効果が発動する敵全体の魔法防御力を(\d+)ダウン敵全体の被クリダメを5％アップ$"=Cast time: 0.59s.\n►Boosts allies' M.ATK by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF by $2 for 12s.\n►Deals $3 M.DMG to all enemies.\n\nUpon first use:\n►Lowers all enemies' M.DEF by $4 for 180s.\n►Boosts all enemies' CRIT DMG taken by 5％ for 180.
+
+##S2##
+エレガントドレッサー=Elegant Dresser
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法クリティカルダメージを小アップ、ＨＰを中回復、ＴＰを小回復させる。初回発動時、さらに追加で味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法クリティカルダメージを小アップさせ、自分を中心とした範囲内の味方の受ける魔法攻撃力ダウン、物理・魔法防御力ダウンを一定時間無効化する。敵の数に応じて、ステータスアップの効果量が最大３キャラ分まで増加する。=Massively boosts all allies' M.ATK, greatly boosts their M.CRIT RATE, slightly boosts their M.CRIT DMG, moderately recovers their HP, and slightly recovers their TP. On the first activation, additionally massively boosts all allies' M.ATK, greatly boosts their M.CRIT RATE, slightly boosts their M.CRIT DMG, and grants allies within range centered on self temporary immunity to M.ATK Down, P.DEF Down, and M.DEF Down effects. The strength of the stat boosts increases based on the number of enemies, up to a maximum of 3 enemies.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを80アップ味方全体の魔法クリダメを4％アップ味方全体のＨＰを(\d+)回復味方全体のＴＰを100回復初使用時、以下の効果が発動する味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを4％アップ範囲内の味方の受ける魔法攻撃力、物理・魔法防御力ダウンを無効化する$"=Cast time: 1.125s.\n►Boosts allies' M.ATK by $1 for 12s.\n►Boosts allies' M.CRIT RATE by 80 for 12s.\n►Boosts allies' M.CRIT DMG by 4％ for 12s.\n►Recovers HP of all allies by $2.\n►Recovers TP for all allies by 100.\n\nUpon first use:\n►Boosts allies' M.ATK by $3 for 180s.\n►Boosts allies' M.CRIT RATE by 100 for 180s.\n►Boosts allies' M.CRIT DMG by 4％ for 180s.\n►Nullifies incoming M.ATK Down, P.DEF Down, and M.DEF Down effects for allies within range.
+
+##EX##
+PDCAブースト=PDCA Boost
+PDCAブースト+=PDCA Boost+

@@ -29,12 +29,12 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の魔法防御力を初期�
 
 ##UB+##
 プリンセスマリンインパクト=Princess Marine Impact
-前方範囲内の敵すべてに物理特大ダメージを与え、さらに自分の物理攻撃力を中アップさせる。このスキルで与えたダメージ量に応じて、物理攻撃力の上昇量が最大10倍までアップする。=Deals massive P.DMG to all enemies in the front range, and further boost your physical attack power. Depending on the amount of damage done by this skill, P.ATK will increase up to 10 times.
+前方範囲内の敵に物理特大ダメージを与え、自分の物理攻撃力を中アップする。与えたダメージに応じて、物理攻撃力のアップ量が最大10倍まで増加する。=Deals massive P.DMG to enemies in the frontal area and moderately boosts own P.ATK. The P.ATK boost increases based on the damage dealt, up to 10 times its original value.
 r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies in range.\n►Boosts own P.ATK by $2.
 
 ##S1+##
 デザートタイム+=Dessert Time+
-自分の物理攻撃力を特大アップさせ、物理クリティカルを大アップさせるが、魔法防御力を中ダウンさせる。=Massive boost to own P.ATK and Large boost to own P.CRIT Rate, but lowers own M.DEF by a moderate amount.
+自分の物理攻撃力を特大アップ、物理クリティカルを大アップするが、魔法防御力を中ダウンする。=Massively boosts own P.ATK, greatly boosts own P.CRIT RATE, but moderately lowers own M.DEF.
 r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ自分の魔法防御力を初期値の20%ダウン$"=Cast time: 0.065s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by 100 for 12s.\n►Lowers own M.DEF by 20% for 12s.
 
 ##UE##
@@ -42,7 +42,8 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカル�
 
 ##UE2##
 
-r:"^パラソルアサルト\+$"="Parasol Assault+"
-r:"^渚のプリンセスサマー$"="Beachside Princess Summer"
-r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリダメを12％アップ自分におかわり券を１枚付与し、ＴＰを1000回復ＵＢを使用した時におかわり券が１枚以上の場合、おかわり券を１枚消費し、ＴＰを1000回復$"="►Deals $1 P.DMG to enemies within range.\n►Boosts own P.CRIT DMG by 12%.\n►Grants 1 [Second Helping Ticket] and recovers 1000 TP.\n\nWhen using UB with at least 1 [Second Helping Ticket]:\n►Consumes 1 [Second Helping Ticket] to recover 1000 TP."
-r:"^前方範囲内の敵すべてに物理大ダメージを与え、目の前の敵１キャラを小さく吹き飛ばす。さらに自分の物理攻撃クリティカル時のダメージを小アップ、【おかわり券】を１枚付与し、ＴＰを特大回復する。【おかわり券】が付与されている状態でＵＢを使用した場合、【おかわり券】を１枚消費し、自分のＴＰを特大回復する。【おかわり券】は最大２枚まで追加される。$"="Deals large P.DMG to all enemies in front and knocks back the nearest enemy. Slightly boosts P.CRIT DMG, grants 1 [Second Helping Ticket], and greatly recovers TP. When using UB with [Second Helping Ticket], consumes 1 to greatly recover TP. Max 2 [Second Helping Tickets] can be stacked."
+パラソルアサルト+=Parasol Assault+
+渚のプリンセスサマー=Beachside Princess Summer
+前方範囲内の敵に物理大ダメージを与え、目の前の敵１キャラを小さく吹き飛ばす。自分の物理クリティカルダメージを小アップ、【おかわり券】（上限２）を１枚付与し、ＴＰを特大回復する。【おかわり券】付与中にＵＢを発動した場合、【おかわり券】を１枚消費し、さらに自分のＴＰを特大回復する。=Deals large P.DMG to enemies in the frontal area and knocks the enemy in front back a short distance. Slightly boosts own P.CRIT DMG, grants 1 [Refill Ticket] (up to 2), and massively recovers own TP. If a Union Burst is activated while [Refill Ticket] is active, consumes 1 [Refill Ticket] and additionally massively recovers own TP.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリダメを12％アップ自分におかわり券を１枚付与し、ＴＰを1000回復ＵＢを使用した時におかわり券が１枚以上の場合、おかわり券を１枚消費し、ＴＰを1000回復$"=Cast time: 1.125s.\n►Deals $1 P.DMG to enemies within 700 range.\n►Knock the nearest front enemy targets within 700 range back by 200.\n►Boosts own P.CRIT DMG by 12% for 18s.\n►Grants 1 [Second Helping Ticket] and recovers 1000 TP.\n\nWhen using UB with at least 1 [Second Helping Ticket]:\n►Consumes 1 [Second Helping Ticket] to recover 1000 TP.

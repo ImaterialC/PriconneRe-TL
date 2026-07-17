@@ -35,19 +35,29 @@
 
 ##UB+##
 オートクチュール・ハート=Haute Couture Heart
-自分の物理攻撃クリティカル時のダメージを中アップさせる。さらに目の前の敵１キャラに物理特大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Moderately boost your P.ATK Crit DMG. Deals massive P.DMG to one enemy character in front. This skill's 1-hit damage is always a critical hit.
-r:"^自分の物理攻撃クリティカル時のダメージを25％アップ敵単体に(\d+)の物理ダメージ$"=►Boosts own P.CRIT DMG by 25% for 18s.\n►Deals $1 P.DMG to an enemy.\nGuaranteed to crit.
+自分の物理クリティカルダメージを中アップし、目の前の敵１キャラに物理特大ダメージを与える。このスキルは必ずクリティカルし、クリティカルダメージは３倍になる。=Moderately boosts own P.CRIT DMG and deals massive P.DMG to an enemy in front. This skill always lands as a critical hit, and its critical damage is tripled instead of doubled.
+
+r:"^自分の物理クリダメを25％アップ敵単体に(\d+)の物理ダメージ$"=►Boosts own P.CRIT DMG by 25％ for 18s.\n►Deals $1 P.DMG to a single enemy.
 
 ##S1+##
 おこぷんダーツ+=Meany Missile+
 目の前の敵１キャラに計３回ヒットし、クリティカル時のダメージが２倍ではなく３倍になる物理大ダメージを与える。このスキルの１ヒットのダメージは必ずクリティカルする。=Hits 1 enemy in front of you 3 times in total, dealing large P.DMG that x3 the damage of a critical hit instead of x2 it. This skill's 1-hit damage is always a critical hit.
-r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=Cast time:0.71s.\n►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.
 
 ##S2+##
 カリスマオーラ♪+=Charisma Aura ♪+
-自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップし、ＴＰを中回復する。=Boosts own P.ATK and P.CRIT DMG. Recovers own TP.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを15％アップ自分のＴＰを150回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 15%.\n►Boosts own TP by 150.
+
+自分の物理攻撃力を特大アップ、物理クリティカルダメージを小アップ、ＴＰを中回復する。=Massively boosts own P.ATK, slightly boosts own P.CRIT DMG, and moderately recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリダメを15％アップ自分のＴＰを150回復$"=Cast time:1.4s.\n►Boosts own P.ATK by $1.\n►Boosts own P.CRIT DMG by 15％.\n►Recovers own TP by 150.
 
 ##UE##
 クリティカルキス=Critical Kiss
 カリスマオートクチュール=Charisma Haute Couture
+
+
+##S1++##
+おこぷんダーツ++=Angry Pudding Darts++
+
+目の前の敵１キャラに物理中ダメージを３回与える。このスキルは必ずクリティカルし、クリティカルダメージは３倍になる。初回発動時、自分が敵にクリティカルでダメージを与えるたびに、その敵の最大ＨＰに応じて最大50万の percentage P.DMGを与える状態になる。=Deals medium P.DMG to an enemy in front 3 times. This skill always lands as a critical hit, and its critical damage is tripled instead of doubled. On the first activation, grants a state where each time self deals critical damage to an enemy, it additionally deals percentage P.DMG based on that enemy's Max HP, up to 500,000 damage.
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージクリティカルでダメージを与えるたびに敵単体に最大50万の物理割合ダメージを与える状態になる$"=Cast time:0.71s.\n►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.\n►Grants a state where each time a critical hit is dealt, deal physical proportional damage (up to 500,000) to a single enemy.

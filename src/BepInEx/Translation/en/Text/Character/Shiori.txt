@@ -27,7 +27,7 @@ r:"^最大３キャラに各(\d+)の物理ダメージ自分のＴＰを(\d+)回
 
 ##S2##
 ウィンドアロー=Wind Arrow
-目の前の敵１キャラに物理中ダメージを与え、さらに自分のＴＰを小回復させる。=Inflicts moderate P.DMG to one enemy directly in front while also recovering own TP by a small amount.
+目の前の敵１キャラに物理中ダメージを与え、自分のＴＰを小回復する。=Deals moderate P.DMG to 1 enemy in front. Slightly recovers own TP.
 r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを300回復$"=Cast time:1.5s\n►Deals $1 P.DMG to a single enemy.\n►Recovers own TP by 300.
 
 ##EX##
@@ -36,13 +36,13 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを300回復$"=Cast tim
 
 ##UB+##
 エングロスアロー=Engross Arrow
-目の前の最大２キャラまでの敵に物理特大ダメージを与え、物理防御力を小ダウンさせる。さらに、自分の物理攻撃力を特大アップさせる。=Deals massive P.DMG to the enemies in front, up to two characters, and slightly decreases their P.DEF. Additionally, greatly boosts own P.ATK.
+目の前の最大２キャラまでの敵に物理特大ダメージを与え、物理防御力を小ダウンさせる。自分の物理攻撃力を特大アップする。=Deals massive P.DMG to up to 2 enemies in front, slightly lowers their P.DEF, and greatly boosts own P.ATK.
+
 r:"^１番目に近い敵単体に(\d+)の物理ダメージ１番目に近い敵単体の物理防御力を(\d+)ダウン２番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to the nearest enemy.\n►Lowers P.DEF of the nearest enemy by $2 for 18s.\n►Deals $3 P.DMG to the second nearest enemy.\n►Lowers P.DEF of the second nearest enemy by $4 for 18s.\n►Boosts own P.ATK by $5 for 90s.
 
 ##S1+##
 トライアロー+=Triple Shot+
-目の前の最大３キャラまでの敵に物理小ダメージを与える。このダメージは、遠い敵ほどダメージが増加する。さらに自分のＴＰを小回復させる。=Deals small P.DMG to all enemies in range. Damage boost based on the number of targets.
-目の前の最大３キャラまでの敵に物理中ダメージを与える。このダメージは、遠い敵ほどダメージが増加する。さらに自分のＴＰを小回復させる。=Deals moderate P.DMG to all enemies in range. Damage boost based on the number of targets.
+目の前の最大３キャラまでの敵に物理中ダメージを与える。自分のＴＰを小回復する。=Deals moderate P.DMG to up to 3 enemies in front. Slightly recovers own TP.
 r:"^１番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体に(\d+)の物理ダメージ３番目に近い敵単体に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to closest target.\n►Deals $2 P.DMG to 2nd closest target.\n►Deals $3 P.DMG to 3rd closest target.\n►Recovers own TP by $4.
 
 ##UE##

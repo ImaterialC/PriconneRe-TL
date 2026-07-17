@@ -19,13 +19,21 @@
 
 ##UB+##
 オーシャンサンクチュアリ=Ocean's Sanctuary
-最もＨＰの割合が低い味方１キャラのＨＰを特大回復させる。さらに味方全体のＨＰを中回復し、物理攻撃力を特大アップ、ＴＰ上昇を小アップさせ、物理攻撃クリティカル時のダメージを中アップさせる。さらに敵全体の物理防御力を小ダウンさせる。=Greatly recovers an ally's HP with the lowest HP, and moderately recovers all allies' HP. Massively boosts all allies' P.ATK, moderately boosts their P.CRIT DMG and slightly boosts their TP Boost. Also, slightly lowers all enemies' P.DEF. All effects last 18s.
-最もＨＰが低い味方１キャラのＨＰを特大回復させる。さらに味方全体のＨＰを中回復し、物理攻撃力を特大アップ、ＴＰ上昇を小アップさせ、物理攻撃クリティカル時のダメージを中アップさせる。さらに敵全体の物理防御力を小ダウンさせる。=Greatly recovers an ally's HP with the lowest HP, and moderately recovers all allies' HP. Massively boosts all allies' P.ATK, moderately boosts their P.CRIT DMG and slightly boosts their TP Boost. Also, slightly lowers all enemies' P.DEF. All effects last 18s.
+最もＨＰの割合が低い味方のＨＰを特大回復させる。味方全体のＨＰを中回復、物理攻撃力を特大アップ、ＴＰ上昇を小アップ、物理クリティカルダメージを中アップさせる。敵全体の物理防御力を小ダウンさせる。=Massively recovers the HP of the ally with the lowest HP percentage. Additionally, moderately recovers all allies' HP, massively boosts their P.ATK, slightly boosts their TP Boost, moderately boosts their P.CRIT DMG, and slightly lowers all enemies' P.DEF.
 r:"^味方単体のＨＰを(\d+)回復味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰ上昇を10アップ味方全体の物理攻撃クリティカル時のダメージを20％アップ敵全体の物理防御力を(\d+)ダウン$"=►Recovers an ally's HP by $1.\n►Recovers all allies' HP by $2.\n►Boosts all allies' P.ATK by $3.\n►Boosts all allies' TP Boost by 10.\n►Boosts all allies' P.CRIT DMG by 20%.\n►Lowers all enemies' P.DEF by $4.
 
 ##S1+##
 ネレイドスピア+=Nereid Spear+
-目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を大ダウンさせる。=Deals small P.DMG to an enemy in front and greatly lowers its P.DEF.
+目の前の敵１キャラに物理小ダメージを与え、物理防御力を大ダウンさせる。=Deals small P.DMG to an enemy in front and greatly lowers their P.DEF.
 
 ##UE##
 涼槍アクアスカッシュ=Aqua Breezelance
+
+
+##UE2##
+オーシャン・ブルーミー=Ocean Bloomy
+ネーブルサポート+=Navel Support+
+
+味方全体の物理攻撃力を特大アップ、物理・魔法防御力を中アップ、物理クリティカルダメージを小アップ、ＨＰを中回復させ、継続ＨＰ回復状態を付与し、物理/魔法無効バリアを展開する。初回発動時、行動パターンが変化する。=Massively boosts all allies' P.ATK, moderately boosts their P.DEF and M.DEF, slightly boosts their P.CRIT DMG, moderately recovers their HP, grants continuous HP recovery, and deploys physical/magic null barriers. On the first activation, changes the action pattern.
+
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理・魔法防御力を(\d+)アップ味方全体の物理クリダメを6％アップ味方全体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する(\d+)ダメージ分の物理魔法無効バリアを展開する$"=Cast time: 0.59s.\n►Boosts allies' P.ATK by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF by $2 for 12s.\n►Boosts allies' P.CRIT DMG by 6％ for 12s.\n►Recovers HP of all allies by $3.\n►Recovers $4 HP per second for 8.5ss.\n►Deploys a barrier over all allies that nullifies for $5 Physical and Magical Damage for 12s.

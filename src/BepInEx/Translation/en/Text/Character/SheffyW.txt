@@ -8,11 +8,11 @@ r:"^範囲内の敵に(\d+)の物理ダメージを２回与える敵単体に(\
 ##S1##
 晶閃=Crystal Flash
 最も物理防御力が低い敵に物理大ダメージを与え、自分のＴＰを中回復する。【氷竜超克】状態でない場合、さらにその敵に物理大ダメージを与える。【氷竜超克】状態の場合、さらに前方の敵に物理大ダメージを与える。=Deals large P.DMG to the enemy with the lowest P.DEF and moderately recovers own TP. If not in [Ice Dragon Transcendence], additionally deals large P.DMG to that enemy. If in [Ice Dragon Transcendence], additionally deals large P.DMG to enemies in the frontal area.
-r:"^敵単体に(\d+)の物理ダメージ氷竜超克状態でない場合、敵単体に(\d+)の物理ダメージ氷竜超克状態の場合、範囲内の敵に(\d+)の物理ダメージ自分のＴＰを150回復$"=►Deals $1 P.DMG to a single enemy.\n\nIf not in [Ice Dragon Transcendence]:\n►Deals $2 P.DMG to a single enemy.\n\nIf in [Ice Dragon Transcendence]:\n►Deals $3 P.DMG to enemies within range.\n►Recovers own TP by 150.
+r:"^敵単体に(\d+)の物理ダメージ氷竜超克状態でない場合、敵単体に(\d+)の物理ダメージ氷竜超克状態の場合、範囲内の敵に(\d+)の物理ダメージ自分のＴＰを150回復$"=Cast time: 0.59s.\n►Deals $1 P.DMG to a single enemy.\n\nIf not in [Ice Dragon Transcendence]:\n►Deals $2 P.DMG to a single enemy.\n\nIf in [Ice Dragon Transcendence]:\n►Deals $3 P.DMG to enemies within range.\n►Recovers own TP by 150.
 ##S2##
 闇氷の竜気=Darkfrost Dragon Aura
 自分の物理攻撃力を大アップ、ＴＰを中回復する。発動するたびに、最大３回まで効果量が増加する。【氷竜超克】状態の場合の初回発動時、さらに加算行動速度を大アップし、物理追撃状態にする。追撃状態中、敵に通常攻撃またはスキルでダメージを与えた時、追加のダメージが発生する。=Greatly boosts own P.ATK and moderately recovers own TP. The effect increases each time it is activated, up to 3 times. On the first activation while in [Ice Dragon Transcendence], additionally greatly boosts additive action speed and grants a physical follow-up attack state. While in this state, dealing damage with normal attacks or skills triggers additional damage.
-r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰを250回復氷竜超克状態の場合の初使用時、以下の効果が発動する自分の行動速度50％加算自分を10％の物理追撃ダメージが発生する状態にする$"=►Boosts own P.ATK by $1 for 18s.\n►Recovers own TP by 250.\n\nUpon first use while in [Ice Dragon Transcendence]:\n►Increases own action speed by 50％ for 180s.\n►Grants self a state that triggers 10％ Physical Follow-Up Damage.
+r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰを250回復氷竜超克状態の場合の初使用時、以下の効果が発動する自分の行動速度50％加算自分を10％の物理追撃ダメージが発生する状態にする$"=Cast time: 0.59s.\n►Boosts own P.ATK by $1 for 18s.\n►Recovers own TP by 250.\n\nUpon first use while in [Ice Dragon Transcendence]:\n►Increases own action speed by 50％ for 180s.\n►Grants self a state that triggers 10％ Physical Follow-Up Damage.
 ##EX##
 クロスドシークエンス=Crossed Sequence
 バトル開始時に自分の物理攻撃力を中アップする。=At the start of battle, moderately boosts own P.ATK.
