@@ -23,7 +23,7 @@ r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ$"=►Pr
 
 ##S2##
 海内無双の型=Peerless Stance
-自分のＨＰを中回復し、さらに物理防御力を中アップさせる。=Recovers own HP by a small amount and boosts P.DEF by a moderate amount.
+自分のＨＰを中回復、物理防御力を中アップする。=Moderately recovers own HP and moderately boosts own P.DEF.
 r:"^自分のＨＰを(\d+)回復自分の物理防御力を(\d+)アップ$"=►Recovers own HP by $1.\n►Boosts own P.DEF by $2.
 
 ##EX##
@@ -34,12 +34,13 @@ r:"^自分の魔法防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.
 
 ##UB+##
 極の太刀・止水龍吟の哮り=Ultimate Strike: Water Dragon Roar
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力を特大ダウンさせる。さらに自分に【絶海の型】を１つ付与する。【絶海の型】が付与されている間に１回ダメージを受けると【絶海の型】を１つ消費してダメージを無効化し、同時に敵に物理特大ダメージを与える。このスキルによるダメージは必ずクリティカルする。=Deals massive P.DMG to an enemy in front and massively lowers its P.DEF. Also gains [Distant Sea Form] status. When taking damage with [Distant Sea Form] status active, consumes the status, nullifies incoming damage once, and deals massive P.DMG to the attacking enemy. This attack is always a critical hit.
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を特大ダウンさせる。自分に【絶海の型】（上限１）を付与する。【絶海の型】付与中に１回ダメージを受けると【絶海の型】を消費してダメージを無効化し、同時に敵に物理特大ダメージを与える。このスキルによるダメージは必ずクリティカルする。=Deals massive P.DMG to an enemy in front, massively lowers their P.DEF, and grants self [Distant Sea Form] (up to 1). While [Distant Sea Form] is active, the next time self takes damage, consumes [Distant Sea Form] to nullify the damage and simultaneously deals massive P.DMG to the attacker. Damage from this skill always lands as a critical hit.
+
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン攻撃してきた敵に(\d+)の物理ダメージを与えて消失する絶海の型を最大１つまで付与する$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 24s.\n►Gains [Distant Sea Form] status, which nullifies incoming DMG and deals $3 P.DMG to an attacking enemy once.
 
 ##S1+##
 一の太刀・雫薙ぎ+=First Strike: Reticence+
-敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵すべてに物理大ダメージを与え、物理防御力を小ダウンさせ、さらに小さく吹き飛ばす。=Taunts all enemies. If attacked during the provoke action, deals large P.DMG to enemies in range, lowers their P.DMG by a small amount, and blows them up into small pieces.
+【挑発】敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵に物理大ダメージを与え、物理防御力を小ダウンさせ、小さく吹き飛ばす。=[Taunt] Taunts all enemies. If attacked during the post-taunt animation, deals large P.DMG to enemies in the frontal area, slightly lowers their P.DEF, and knocks them back a short distance.
 r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range.\n►Knockbacks all enemies by 200 units.\n►Lowers enemies' P.DEF in 200 range by $2 for 12s.
 
 ##UE##

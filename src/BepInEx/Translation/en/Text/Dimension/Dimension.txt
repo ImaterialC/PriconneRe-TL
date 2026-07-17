@@ -130,7 +130,7 @@ r:"^(\[[0-9A-F]{6}\])?次元断層のEXTRA PHASEをクリアしよう(\[-\])?$"=
 
 途中でリタイアした場合、この内容はキャンセルされます。=If you retire on the way, this content will be canceled.
 
-sr:"^([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?のシャドウに専用装備(１|２)が追加される。$"=Unique Equipment $15 was added to\n$1$2$3$4$5$6$7$8$9$10$11$12$13$14’s Shadow
+sr:"^([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?(、)?([べ-ヺー＆＝]+)?(（.+?）)?のシャドウに専用装備(１|２|1|2|)が追加される。$"=Unique Equipment $15 was added to\n$1$2$3$4$5$6$7$8$9$10$11$12$13$14’s Shadow
 
 sr:"^([べ-ヺー＆＝の]+)(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?）)?が追加される。$"=$1$2$3$4$5$6$7$8$9$10$11$12$13$14 were added.
 モンスター追加=Monster Added
@@ -144,7 +144,7 @@ sr:"^([べ-ヺー＆＝の]+)(（.+?）)?(、)?([べ-ヺー＆＝の]+)?(（.+?�
 PHASE5をクリアしたことで、EXTRA PHASEが解放されました。\nEXTRA PHASEでは、すべてのクエストの最大危険度まで挑戦でき\nるようでございます。すべて勝利して完全クリアを目指しましょう。=Clearing PHASE5 unlocked EXTRA PHASE. In EXTRA PHASE, it seems that you can challenge all quests up to the maximum danger level. Let's win all and aim for complete clear.
 
 バトル開始時、すべてのシャドウのＴＰを特大回復。=At the start of battle, all Shadows recover a large amount of TP.
-
+バトル開始時、すべてのシャドウのＴＰを回復。=At the start of battle, restores TP to all Shadows.
 
 リッチゴーレム=Rich Golem
 【物理】次元の狭間に誕生した、生きた財宝。\n煌めく財貨を散しながら、冒険者に襲い掛かる。\n\n\n・ユニオンバーストは、敵全体に物理大ダメージ\n　を与え、物理攻撃力と魔法攻撃力を大ダウンさ\n　せる。その後、自身の物理防御力と魔法防御力\n　を特大ダウン。このスキルの状態異常はダメー\n　ジを無効化しても付与される。\n\n・敵全体に物理中ダメージを与え、スタンさせる。\n　その後、自身の物理防御力と魔法防御力を特大\n　ダウン。このスキルの状態異常はダメージを無\n　効化しても付与される。\n\n・前方３キャラに物理中ダメージを与え、ノック\n　バックさせる。その後、自身の物理防御力と魔\n　法防御力を特大ダウン。このスキルの状態異常\n　はダメージを無効化しても付与される。\n\n・目の前の１キャラに物理中ダメージを与える。\n　その後、自身の物理防御力と魔法防御力を特大\n　ダウン。=[Physical] A living treasure born in the rift of dimensions. It assaults adventurers while scattering sparkling riches.\n\n►UB: Deals massive P.DMG to all enemies and greatly reduces P.ATK and M.ATK. Subsequently, greatly reduces its own P.DEF and M.DEF. The status ailments caused by this skill persist even if the damage is nullified.\n\n►Deals moderate P.DMG to all enemies and inflicts stun. Subsequently, greatly reduces its own P.DEF and M.DEF. The status ailments caused by this skill persist even if the damage is nullified.\n\n►Deals moderate P.DMG to the front three characters and knocks them back. Subsequently, greatly reduces its own P.DEF and M.DEF. The status ailments caused by this skill persist even if the damage is nullified.\n\n►Deals moderate P.DMG to the enemy character in front. Subsequently, greatly reduces its own P.DEF and M.DEF. The status ailments caused by this skill persist even if the damage is nullified.

@@ -2752,3 +2752,9 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 バトル開始時、すべてのモンスターの物理防御力をアップさせる。この効果は物理防御力ダウンの影響を受けない。=At the start of battle, increases P.DEF of all monsters. This effect is unaffected by P.DEF reduction effects.
 バトル開始時、すべてのキャラのＴＰ上昇をダウンさせる。=At the start of battle, reduces TP Boost of all characters.
 バトル開始時、すべてのキャラのＨＰ吸収をダウンさせる。=At the start of battle, reduces HP absorption of all characters.
+
+自身に物理魔法無効バリア=Physical/Magical Nullification Barrier (Self)
+
+超天才錬金術師・マリステラが生み出したムキムキマッチョな錬成生物。ほの字の主を脅かす不届者を、おったまげーな腕力でねじ伏せる。=A muscular alchemical creature created by the super-genius alchemist Maristella. It crushes anyone who threatens its master's beloved with astonishing brute strength.
+
+割合ダメージ無効=Immune to Percentage Damage

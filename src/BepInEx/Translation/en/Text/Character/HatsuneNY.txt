@@ -7,12 +7,12 @@
 r:"^対象が魔法攻撃をする敵だった場合、味方全体の魔法攻撃力を(\d+)アップ対象が物理攻撃をする敵だった場合、味方全体の魔法攻撃力を(\d+)アップ対象の敵単体に(\d+)の魔法ダメージ対象の敵単体に(\d+)の魔法ダメージ対象が物理攻撃をする敵だった場合、物理攻撃力を(\d+)ダウン$"=If an enemy is M-type:\n►Boosts all allies' M.ATK by $1 for 18s.\n►Deals $3 M.DMG to an enemy.\n\nIf an enemy is P-type:\n►Boosts all allies' M.ATK by $2 for 18s.\n►Deals $4 M.DMG to an enemy.\n►Lowers an enemy's P.ATK by $5 for 18s.
 
 ##S1##
-ドリーム☆シュート=Dream☆Shoot
+ドリーム☆シュート=Dream★Shoot
 目の前の敵１キャラに魔法中ダメージを与える。対象が物理攻撃をする敵だった場合、ダメージがアップし、さらに物理攻撃力を大ダウン、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。=Deals moderate M.DMG to an enemy in front. If an enemy is P-type, the M.DMG dealt increases, and also massively lowers an enemy's P.ATK, slightly lowers its M.DEF, and slightly boosts its M.CRIT DMG taken.
 r:"^対象の敵単体に(\d+)の魔法ダメージ対象の敵単体に(\d+)の魔法ダメージ対象が物理攻撃をする敵だった場合、物理攻撃力を(\d+)ダウン対象が物理攻撃をする敵だった場合、魔法防御力を(\d+)ダウン対象が物理攻撃をする敵だった場合、クリティカルを受けた際のダメージを5％アップ$"=If an enemy is M-type:\n►Deals $1 M.DMG to an enemy.\n\nIf an enemy is P-type:\n►Deals $2 M.DMG to an enemy.\n►Lowers an enemy's P.ATK by $3 for 12s.\n►Lowers an enemy's M.DEF by by $4 for 12s.\n►Boosts an enemy's M.CRIT DMG taken by 5% for 12s.
 
 ##S1+##
-ドリーム☆シュート+=Dream☆Shoot+
+ドリーム☆シュート+=Dream★Shoot+
 r:"^対象の敵単体に(\d+)の魔法ダメージ対象の敵単体に(\d+)の魔法ダメージ対象が物理攻撃をする敵だった場合、物理攻撃力を([0-9]+)ダウン対象が物理攻撃をする敵だった場合、魔法防御力を(\d+)ダウン対象が物理攻撃をする敵だった場合、被クリダメを5％アップ対象の敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n\nIf the target is a physical attacker:\n►Lowers P.ATK by $3.\n►Lowers M.DEF by $4.\n►Boosts P.CRIT DMG taken by 5％.\n►Deals $5 M.DMG to a single enemy.
 
 
@@ -23,12 +23,12 @@ r:"^対象の敵単体に(\d+)の魔法ダメージ対象の敵単体に(\d+)の
 
 
 ##S2##
-ミラクル☆スパークル=Miracle☆Sparkle
+ミラクル☆スパークル=Miracle★Sparkle
 目の前の敵１キャラに魔法中ダメージを与え、味方全体の魔法攻撃力を大アップさせる。対象が物理攻撃をする敵だった場合、ダメージと攻撃力の上昇量がアップし、味方全体に物理無効バリアを展開する。=Deals moderate M.DMG to an enemy in front and greatly boosts all allies' M.ATK. If an enemy is P-type, the M.DMG dealt and M.ATK boost increase, and also deploys Barrier over all allies that negates P.DMG.
 r:"^対象が魔法攻撃をする敵だった場合、味方全体の魔法攻撃力を(\d+)アップ対象が物理攻撃をする敵だった場合、味方全体の魔法攻撃力を(\d+)アップ対象の敵単体に(\d+)の魔法ダメージ対象の敵単体に(\d+)の魔法ダメージ対象が物理攻撃をする敵だった場合(\d+)ダメージ分の物理無効バリアを展開する$"=If an enemy is M-type:\n►Boosts allies' M.ATK by $1 for 12s.\n►Deals $3 M.DMG to an enemy.\n\nIf an enemy is P-type:\n►Boosts allies' M.ATK by $2.\n►Deals $4 M.DMG to an enemy.\n►Deploy Barrier over all allies that negates $5 P.DMG for 12s.
 
 ##EX##
-ニューイヤー☆ドリーム=New Year☆Dream
-ニューイヤー☆ドリーム+=New Year☆Dream+
+ニューイヤー☆ドリーム=New Year★Dream
+ニューイヤー☆ドリーム+=New Year★Dream+
 
-ニューイヤー☆ミーティア=New Year's☆Meteor
+ニューイヤー☆ミーティア=New Year's★Meteor

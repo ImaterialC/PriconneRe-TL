@@ -2,7 +2,7 @@
 
 
 ##Union Burst##
-プルメリア☆スプラッシュ=Plumeria☆Splash
+プルメリア☆スプラッシュ=Plumeria★Splash
 目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。さらに追加の物理特大ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、味方全体に魔法無効バリアを展開する。このスキルの効果量は味方の数に応じて変化する。=Deals massive P.DMG to the enemy in front and slightly lowers their P.DEF. Additionally, deals extra massive P.DMG, slightly increases damage taken from critical hits, and deploys a magic-nullifying barrier for all allies. The effect of this skill varies based on the number of allies.
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ敵単体の被クリダメを6％アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Deals $3 P.DMG to a single enemy.\n►Boosts a single enemy's CRIT DMG taken by 6%.\n►Deploys a barrier that nullifies $4 magic damage.
 

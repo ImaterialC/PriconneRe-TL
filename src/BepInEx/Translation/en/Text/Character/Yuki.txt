@@ -15,16 +15,17 @@
 
 ##UB##
 ボクの美にひれ伏すがいい！=Bow to My Beauty!
-敵全体に魔法小ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals small M.DMG to all enemies in the front and lowers their P.DEF by a small amount.
+敵全体に魔法小ダメージを与え、物理防御力を小ダウンさせる。=Deals small M.DMG to all enemies and slightly lowers their P.DEF.
 r:"^敵全体に(\d+)の魔法ダメージ敵全体の物理防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' P.DEF by $2 for 18s.
 
 ##S1##
 ボクの目が眩む程の美しさ♪=My Beauty Is Blinding ♪
-自分から２番目に近い敵１キャラに魔法中ダメージを与え、さらに暗闇状態にする。=Deals small M.DMG to the 2nd closest enemy and inflicts Blind.
+２番目に近い敵に魔法中ダメージを与え、暗闇状態にする。=Deals medium M.DMG to the second nearest enemy and inflicts Blind.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体を暗闇状態にする$"=Cast Time: 1.93s.\n►Deals $1 M.DMG to an enemy.\n►Inflicts Blind (60% miss) for 8s.
 
 ##S2##
 可愛いボクが応援するよ♪=The Cutest Supporter ♪
+最もＴＰが多い味方のＴＰを中回復させる。=Moderately recovers the TP of the ally with the highest TP.
 最もＴＰが多い味方のＴＰを中回復、物理攻撃力を小アップさせる。=Moderately recovers the TP of the ally with the highest TP and slightly boosts their P.ATK.
 r:"^味方単体のＴＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ$"=►Recovers an ally's TP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.
 

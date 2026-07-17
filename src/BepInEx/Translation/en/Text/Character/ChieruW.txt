@@ -3,17 +3,17 @@
 
 
 ##UB##
-ちぇるちぇる☆すぷらっしゅ=Chieru-Chieru☆Splash
+ちぇるちぇる☆すぷらっしゅ=Chieru-Chieru★Splash
 味方全体の物理攻撃力を特大アップ、物理無効バリアと魔法無効バリアを展開し、目の前の敵１キャラに物理特大ダメージを２回与える。このダメージは【ちぇる】の数に応じて最大30個分まで増加する。【ちぇる】が30以上の時、味方全体の物理攻撃力を特大アップ、物理クリダメを小アップさせる。=Massively boosts all allies' P.ATK and deploys Barrier over them that negates P/M.DMG, and deals 2 instances of massive P.DMG to an enemy in front. The P.DMG increases according to number of [Chieru] stacks, up to 30. If there are 30 or more [Chieru] stacks, massively boosts all allies' P.ATK and boosts their P.CRIT DMG.
 r:"^味方全体の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する(\d+)ダメージ分の魔法無効バリアを展開する敵単体に(\d+)の物理ダメージを２回与えるちぇるが30以上の時、味方全体の物理攻撃力を(\d+)アップ、物理クリダメを８％アップ$"=►Boosts all allies' P.ATK by $1 for 18s.\n►Deploys Barrier over all allies that negates $2 P/M.DMG for 18s.\n►Deals $4x2 P.DMG to an enemy.\n\nIf [Chieru] ≥ 30:\n►Boosts all allies' P.ATK by $1 for 18s.\n►Boosts all allies' P.CRIT DMG by 8% for 18s.
 
 ##S1##
-ちぇるすぺ☆うぃんどみる=Chieru~supe☆Windmill
+ちぇるすぺ☆うぃんどみる=Chieru~supe★Windmill
 目の前の敵１キャラに物理大ダメージを与え、味方全体の物理攻撃力を大アップさせる。このダメージは【ちぇる】の数に応じて最大30個分まで増加する。【ちぇる】が30以上の時、追加で味方全体の物理攻撃力と物理クリティカルを大アップさせる。=Deals large P.DMG to an enemy in front and greatly boosts all allies' P.ATK. The P.DMG increases according to number of [Chieru] stacks, up to 30. If there are 30 or more [Chieru] stacks, greatly boosts all allies' P.ATK and boosts their P.CRIT Rate.
 r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージちぇるが30以上の時、味方全体の物理攻撃力を(\d+)アップちぇるが30以上の時、味方全体の物理クリティカルを100アップ$"=►Boosts all allies' P.ATK by $1 for 12s.\n►Deals $2 P.DMG to an enemy.\n\nIf [Chieru] ≥ 30:\n►Boosts all allies' P.ATK by $3 for 12s.\n►Boosts all allies' P.CRIT Rate by 100 for 12s.
 
 ##S2##
-ちぇるりぞ☆えくそだす=Chieru~rizo☆Exodus
+ちぇるりぞ☆えくそだす=Chieru~rizo★Exodus
 味方全体の物理攻撃力を大アップ、ＴＰ上昇を小アップさせる。【ちぇる】が30以上の時、味方全体のＴＰを中回復させる。【ちぇる】が60の時、【ちぇる】を30消費して、ＴＰの回復量が大幅にアップする。=Greatly boosts all allies' P.ATK and slightly boosts their TP Boost. If there are 30 or more [Chieru] stacks, moderately recovers all allies' TP. If there are 60 or more [Chieru] stacks, consumes 30 [Chieru] stacks and greatly recovers all allies' TP.
 r:"^味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰ上昇を5アップちぇるが30以上の時、味方全体のＴＰを150回復ちぇるが60の時、味方全体のＴＰを520回復ちぇるが60の時、ちぇるを30消費する$"=►Boosts all allies' P.ATK by $1 for 18s.\n►Boosts all allies' TP Boost by 5 for 18s.\n►If [Chieru] ≥ 30 & [Chieru] < 60, recovers all allies' TP by 150.\n►If [Chieru] ≥ 60, recovers all allies' TP by 520.\n►If [Chieru] ≥ 60, consumes 30 [Chieru].
 
@@ -22,12 +22,12 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰ上昇�
 r:"^ステータスアップ効果を受けるたびに自分にちぇるを付与する状態になる味方全体の物理攻撃力を(\d+)アップ味方全体のＴＰ上昇を5アップ$"=►Gains 1 [Chieru] whenever receives a stat boost.\n►Boosts all allies' P.ATK by $1 for 18s.\n►Boosts all allies' TP Boost by 5 for 18s.
 
 ##EX##
-春夏秋冬☆ちぇるんな子=Spring, Summer, Autumn, Winter☆Chierun~nako
-春夏秋冬☆ちぇるんな子+=Spring, Summer, Autumn, Winter☆Chierun~nako+
+春夏秋冬☆ちぇるんな子=Spring, Summer, Autumn, Winter★Chierun~nako
+春夏秋冬☆ちぇるんな子+=Spring, Summer, Autumn, Winter★Chierun~nako+
 
 
 ##UE2##
-ちぇるるんるん☆ふろーと=Cherurunrun☆Float
-ちぇるすぺ☆うぃんどみる+=Cheruspe☆Windmill+
+ちぇるるんるん☆ふろーと=Cherurunrun★Float
+ちぇるすぺ☆うぃんどみる+=Cheruspe★Windmill+
 目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせ、味方全体の物理攻撃力を特大アップさせる。このダメージは【ちぇる】の数に応じて最大30個分まで増加する。【ちぇる】が30以上の時、追加で味方全体の物理攻撃力と物理クリティカルを大アップする。=Deals large P.DMG to 1 enemy in front, slightly reduces P.DEF, and massively boosts all allies' P.ATK. This damage increases based on the number of [Chieru], up to a maximum equivalent of 30. If [Chieru] is 30+, additionally greatly boosts all allies' P.ATK and P.CRIT RATE.
 r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンちぇるが30以上の時、味方全体の物理攻撃力を(\d+)アップちぇるが30以上の時、味方全体の物理クリティカルを100アップ$"=►Boosts all allies' P.ATK by $1.\n►Deals $2 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $3.\n\nIf [Chieru] is 30 or more:\n►Boosts all allies' P.ATK by $4.\n►Boosts all allies' P.CRIT RATE by 100.

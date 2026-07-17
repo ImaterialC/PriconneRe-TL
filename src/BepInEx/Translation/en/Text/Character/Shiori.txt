@@ -43,6 +43,7 @@ r:"^１番目に近い敵単体に(\d+)の物理ダメージ１番目に近い�
 ##S1+##
 トライアロー+=Triple Shot+
 目の前の最大３キャラまでの敵に物理中ダメージを与える。自分のＴＰを小回復する。=Deals moderate P.DMG to up to 3 enemies in front. Slightly recovers own TP.
+目の前の最大３キャラまでの敵に物理小～中ダメージを与える。自分のＴＰを小回復する。=Deals minor to moderate P.DMG to up to the 3 nearest enemies in front. Slightly recovers own TP.
 r:"^１番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体に(\d+)の物理ダメージ３番目に近い敵単体に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 P.DMG to closest target.\n►Deals $2 P.DMG to 2nd closest target.\n►Deals $3 P.DMG to 3rd closest target.\n►Recovers own TP by $4.
 
 ##UE##

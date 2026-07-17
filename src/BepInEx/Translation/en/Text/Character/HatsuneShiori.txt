@@ -23,8 +23,8 @@ r:"^範囲内の敵に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=
 r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを1％アップ$"=►Boosts allies' P.ATK in 200 range by $1 (+0.04×P.ATK) for 180s.\n►Boosts allies' P.CRIT Rate in range by $2 (+0.0005×P.ATK) for 180s.\n►Boosts allies P.CRIT DMG in 200 range by 1% (+0.00005×P.ATK) for 180s.
 
 ##EX##
-全開☆絆パワー=Zenkai☆Kizuna Power
-全開☆絆パワー+=Zenkai☆Kizuna Power+
+全開☆絆パワー=Zenkai★Kizuna Power
+全開☆絆パワー+=Zenkai★Kizuna Power+
 
 ##S1+##
 スターライトシュート+=Starlight Shoot+
