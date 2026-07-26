@@ -6,17 +6,18 @@
 
 ##UB##
 マッドネスクリーヴ=Madness Cleave
-前方範囲内の敵すべてに魔法大ダメージを与える。=Deals large M.DMG to all enemies in range.
+前方範囲内の敵に魔法大ダメージを与える。【フィールド展開中】さらに追加で魔法大ダメージを与える。=Deals large M.DMG to enemies in the frontal area. While [Field] is active, additionally deals large M.DMG.
+r:"^範囲内の敵に(\d+)の魔法ダメージフィールド展開中、範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies within range.\n\nWhile a field is deployed:\n►Deals $2 M.DMG to enemies within range.
 
 ##S1##
 ドラグインフェルノ=Dragon Inferno
 目の前の敵１キャラの所まで無敵状態で突進し、魔法中ダメージを与える。=Gains invincibility and charges toward an enemy directly in front, dealing moderate M.DMG.
-r:"^飛行中無敵状態になる敵単体に(\d+)の魔法ダメージ$"=►Becomes immune to all damage during flight.\n►Deals $1 M.DMG to an enemy.
+r:"^飛行中無敵状態になる敵単体に(\d+)の魔法ダメージ$"=Cast time: 1.052s.\n►Becomes immune to all damage during flight.\n►Deals $1 M.DMG to an enemy.
 
 ##S2##
 ドラグアグニ=Dragon Agni
-最も物理攻撃力が高い敵を中心として、魔法ダメージフィールドを展開する。=Deploys a field that deals M.DMG around the enemy with the highest P.ATK.
-r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する$"=►Deploys a field that deals $1 M.DMG/s.
+最も魔法防御力が低い敵を中心に魔法ダメージフィールドを展開する。=Deploys a magic damage field centered on the enemy with the lowest M.DEF.
+r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する$"=Cast time: 0.92s.\n►Deploys a field that deals $1 M.DMG/s.
 
 ##EX##
 ドラグハート=Dragonheart
@@ -24,8 +25,19 @@ r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する$"
 
 ##S1+##
 ドラグインフェルノ+=Dragon Inferno+
-目の前の敵１キャラの所まで無敵状態で突進し、魔法大ダメージを与え、さらにその周囲の敵に魔法中ダメージを与える。=It rushes to one character in front of you in invincible state, causes M.DMG, and also causes M.DMG to the surrounding enemies.
-r:"^突進中無敵状態になる敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ$"=►Become invincible during flight\n►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to enemies in range.
+目の前の敵１キャラまで無敵状態で突進し、魔法大ダメージを与え、その敵を中心とした範囲内の敵に魔法中ダメージを与える。=Charges toward the enemy in front while invincible, deals large M.DMG to them, then deals medium M.DMG to enemies within an area centered on that enemy.
+
+r:"^一定時間無敵状態になる敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ$"=Cast time: 1.052s.\n►Becomes Invincible for 2.2s.\n►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to enemies within range.
+
+
+
 
 ##UE##
 ドラグアミュレット=Dragon Amulet
+
+
+
+##S1++##
+ドラグインフェルノ++=Dragon Inferno++
+【召喚】前方の最も魔法防御力が低い敵まで無敵状態で突進し、魔法大ダメージを与え、その敵を中心とした範囲内の敵に魔法大ダメージを与える。初回発動時、アン（同名キャラを含む）が味方にいない場合、火属性のアンが駆け付ける。=[Summon] Charges toward the frontmost enemy with the lowest M.DEF while invincible, deals large M.DMG to that enemy, then deals large M.DMG to enemies within an area centered on them. On the first activation, if Anne (including alternate versions of Anne) is not an ally, Fire-element Anne joins the battle.
+r:"^一定時間無敵状態になる敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ初使用時、アンがいない場合、アンが駆け付ける$"=Cast time: 1.052s.\n►Becomes Invincible for 2.2s.\n►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to enemies within 450 range.\n►Upon first use, if [Anne] is not present, [Anne] joins the battle.

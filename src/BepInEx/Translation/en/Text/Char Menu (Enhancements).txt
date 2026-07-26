@@ -256,6 +256,8 @@ EXスキルスロット=EX skill slot
 編成固定=Fixed
 編成済=Organized
 UB予約を有効にする=Enable UB reservation
+UB発動時に演出を再生するか設定します。=Configure whether to play the animation when a Union Burst is activated.
+
 [3C404E]リタイアすると報酬は獲得できませんが、\nクリアするまで何度でも再挑戦できます。[-]=[3C404E]If you retire, you won't get any rewards,\nYou can try again until you clear it.[-]
 r:"^(\d+)文字以上(\d+)文字以下で入力してください。$"=Please enter between $1-$2 character.
 強化上限に達しています。上限解放を行ってください。="You have reached the enhancement limit.\nYou can enhance by select "Uncap"."

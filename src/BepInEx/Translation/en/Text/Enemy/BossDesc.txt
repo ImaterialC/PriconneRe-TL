@@ -2758,3 +2758,9 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 超天才錬金術師・マリステラが生み出したムキムキマッチョな錬成生物。ほの字の主を脅かす不届者を、おったまげーな腕力でねじ伏せる。=A muscular alchemical creature created by the super-genius alchemist Maristella. It crushes anyone who threatens its master's beloved with astonishing brute strength.
 
 割合ダメージ無効=Immune to Percentage Damage
+
+前から３番目の敵を中心に物理／魔法攻撃力ダウンフィールド（挑発無視）=Deploys a field centered on the 3rd enemy from the front that reduces P.ATK and M.ATK (ignores Taunt).
+前から３番目の敵を中心に魔法ダメージフィールド（挑発無視）=Deploys a M.DMG field centered on the 3rd enemy from the front (ignores Taunt).
+対象のＨＰ70％未満：スタン時間アップ=If the target's HP is below 70%: increases Stun duration.
+対象が火傷：物理固定追加ダメージ=If the target is inflicted with Burn: deals additional physical fixed damage.
+対象のＨＰ70％未満：火傷時間アップ=If the target's HP is below 70%: increases Burn duration.

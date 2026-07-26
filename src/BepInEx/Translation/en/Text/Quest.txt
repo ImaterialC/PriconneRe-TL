@@ -98,7 +98,7 @@ r:"^\[3C404E\]リタイアするとクエスト報酬を獲得できず、\nス�
 スタミナ回復回数に応じて、スタミナ回復１回あたりの\nジュエルの必要数が異なります。詳細は下記をご覧ください。=Depending on the number of Stamina Recharges performed, the Jewel Cost per recharge differs.\nSee below for details.
 スタミナ回復すると、スタミナ上限を超えてしまうため回復できません。=Cannot recover any more Stamina, you are already maxed out.
 [3C404E]スタミナが不足しています。\n回復しますか?[-]=[3C404E]Insufficient Stamina.\nDo you want to recharge? [-]
-
+スタミナが不足しています。\n回復する方法を選択してください。=You do not have enough Stamina.\nPlease choose a method to recover it.
 r:"^\[3C404E\]\[3C404E\]ジュエルを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]個使用して\nスタミナを\[-\]\[FFBB00,CE4F00\](\d+)\[-\]\[3C404E\]回復しました。\[-\]\n\n本日の回復可能回数 ([0-9/]+)回\[-\]$"=[3C404E]Use [FFBB00,CE4F00]$1[-] Jewels \nto recover [FFBB00,CE4F00]$2[-] Stamina\n\nRecharges left today: $3[-]
 ----------------------
 New stamina---

@@ -3,24 +3,24 @@
 
 ##UB##
 メルヘンカーテンコール=Fairy-tale Curtain Call
-前方範囲内の敵すべての魔法防御力を小ダウンさせる。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、自分の魔法攻撃クリティカル時のダメージを小アップさせて、【カーテンコール】を付与する。=Slightly lowers enemies' M.DEF in range. Additionally, greatly boosts all allies' M.ATK and M.CRIT Rate, and slightly boosts their M.CRIT DMG. Grants [Curtain Call] to self.
-r:"^範囲内の敵の魔法防御力を(\d+)ダウン味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを150アップ自分の魔法攻撃クリティカル時のダメージを15％アップ自分にカーテンコールを付与する$"=►Lowers enemies' M.DEF in 1400 range by $1 for 18s.\n►Boosts all allies' M.ATK by $2 for 18s.\n►Boosts all allies' M.CRIT Rate by 60 for 18s.\n►Boosts all allies' M.CRIT DMG by 15% for 18s.\n►Grants [Curtain Call] to self.
+前方範囲内の敵の魔法防御力を小ダウンさせる。味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、自分の魔法クリティカルダメージを小アップし、【カーテンコール】を付与する。=Slightly lowers the M.DEF of enemies in the frontal area. Massively boosts all allies' M.ATK, greatly boosts their M.CRIT RATE, slightly boosts own M.CRIT DMG, and grants [Curtain Call].
+r:"^範囲内の敵の魔法防御力を(\d+)ダウン味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを150アップ自分の魔法クリダメを15％アップ自分にカーテンコールを付与する$"=►Lowers M.DEF of enemies within 1400 range by $1 for 18s.\n►Boosts allies' M.ATK by $2 for 18s.\n►Boosts allies' M.CRIT RATE by 150 for 18s.\n►Boosts own M.CRIT DMG by 15％ for 18s.\n►Grants [Curtain Call] to self for 18s.
 
 ##S1##
 マホマホファンシーボール=Maho-Maho Fancy Ball
 マホマホファンシーボール+=Maho-Maho Fancy Ball+
 前方範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、物理防御力と魔法防御力を小アップさせる。【カーテンコール】が付与されている場合、前方範囲内の敵すべてに追加の魔法大ダメージを与える。=Deals moderate M.DMG to enemies in range and slightly lowers their M.DEF. Additionally, greatly boosts all allies M.ATK, P.DEF and M.DEF. If [Curtain Call] is active, deals additional M.DMG to enemies in range.
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=►Deals $1 M.DMG to enemies in 1400 range.\n►Lowers enemies' M.DEF in 1400 range by $2 for 12s.\n►If [Curtain Call] is active, deals $3 M.DMG to enemies' in 1400 range.\n►Boosts all allies' M.ATK by $4 for 12s.\n►Boosts all allies' P.DEF by $5 for 12s.\n►Boosts all allies' M.DEF by $5 for 12s.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=Cast time: 0.59s.\n►Deals $1 M.DMG to enemies in 1400 range.\n►Lowers enemies' M.DEF in 1400 range by $2 for 12s.\n►If [Curtain Call] is active, deals $3 M.DMG to enemies' in 1400 range.\n►Boosts all allies' M.ATK by $4 for 12s.\n►Boosts all allies' P.DEF by $5 for 12s.\n►Boosts all allies' M.DEF by $5 for 12s.
 
-##Skill+##
-前方範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせる。さらに、味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップさせ、魔法攻撃クリティカル時のダメージ、物理防御力、魔法防御力を小アップさせる。【カーテンコール】が付与されている場合、前方範囲内の敵すべてに追加の魔法大ダメージを与える。=Deals large M.DMG to all enemies in a forward area and slightly lowers their M.DEF. Additionally, massively boosts all allies’ M.ATK, greatly boosts their M.CRIT RATE, and slightly boosts their M.CRIT DMG, P.DEF, and M.DEF. If Curtain Call is active, deals additional large M.DMG to all enemies in the forward area.
+##S1+##
+前方範囲内の敵に魔法大ダメージを与え、魔法防御力を小ダウンさせる。味方全体の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法クリティカルダメージと物理・魔法防御力を小アップさせる。【カーテンコール】付与中、さらに追加で前方範囲内の敵に魔法大ダメージを与える。=Deals large M.DMG to enemies in the frontal area, slightly lowers their M.DEF, massively boosts all allies' M.ATK, greatly boosts their M.CRIT RATE, slightly boosts their M.CRIT DMG, and slightly boosts their P.DEF and M.DEF. While [Curtain Call] is active, additionally deals large M.DMG to enemies in the frontal area.
 
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを10％アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=►Deals $1 M.DMG to enemies within 1400 range.\n►Lowers enemies' M.DEF within 1400 range by $2 for 12s.\n►During [Curtain Call]: Deals additional $3 M.DMG.\n►Boosts all allies' M.ATK by $4 for 12s.\n►Boosts all allies' M.CRIT RATE by 100 for 12s.\n►Boosts all allies' M.CRIT DMG by 10％ for 12s.\n►Boosts all allies' P.DEF by $5 for 12s.\n►Boosts all allies' M.DEF by $6 for 12s.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを100アップ味方全体の魔法クリダメを10％アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=Cast time: 0.59s.\n►Deals $1 M.DMG to enemies within 1400 range.\n►Lowers enemies' M.DEF within 1400 range by $2 for 12s.\n►During [Curtain Call]: Deals additional $3 M.DMG.\n►Boosts all allies' M.ATK by $4 for 12s.\n►Boosts all allies' M.CRIT RATE by 100 for 12s.\n►Boosts all allies' M.CRIT DMG by 10％ for 12s.\n►Boosts all allies' P.DEF by $5 for 12s.\n►Boosts all allies' M.DEF by $6 for 12s.
 
 ##S2##
 マホマホワンダーフープ=Maho-Maho Wonder Hoop
-前方範囲内の敵すべてに魔法中ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。さらに味方全体のＴＰ上昇を小アップさせ、ＴＰを小回復する。【カーテンコール】が付与されている場合、前方範囲内の敵すべてに追加の魔法大ダメージを与える。=Deals moderate M.DMG to enemies in range and greatly lowers their P.ATK and M.ATK. Also slightly boosts all allies' TP Boost and recovers their TP by a small amount. If [Curtain Call] is active, deals additional large M.DMG to all enemies in range.
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体のＴＰ上昇を5アップ味方全体のＴＰを80回復$"=►Deals $1 M.DMG to enemies in 1400 range.\n►Lower enemies' P.ATK in 1400 range by $2 for 12s.\n►Lower enemies' M.ATK in 1400 range by $3 for 12s.\n►If [Curtain Call] is active, deals $4 M.DMG to enemies' in 1400 range.\n►Boosts all allies' TP Boost by 5 for 12s.\n►Recovers all allies' TP by 80.
+前方範囲内の敵に魔法中ダメージを与え、物理・魔法攻撃力を大ダウンさせる。味方全体のＴＰ上昇を小アップ、ＴＰを小回復させる。【カーテンコール】付与中、さらに追加で前方範囲内の敵に魔法大ダメージを与える。=Deals medium M.DMG to enemies in the frontal area, greatly lowers their P.ATK and M.ATK, slightly boosts all allies' TP Boost, and slightly recovers their TP. While [Curtain Call] is active, additionally deals large M.DMG to enemies in the frontal area.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の魔法攻撃力を(\d+)ダウンカーテンコール付与中、範囲内の敵に(\d+)の追加魔法ダメージ味方全体のＴＰ上昇を5アップ味方全体のＴＰを80回復$"=Cast time: 0.59s.\n►Deals $1 M.DMG to enemies in 1400 range.\n►Lower enemies' P.ATK in 1400 range by $2 for 12s.\n►Lower enemies' M.ATK in 1400 range by $3 for 12s.\n►If [Curtain Call] is active, deals $4 M.DMG to enemies' in 1400 range.\n►Boosts all allies' TP Boost by 5 for 12s.\n►Recovers all allies' TP by 80.
 
 ##EX##
 メルヘンサーカス=Fairy-tale Circus

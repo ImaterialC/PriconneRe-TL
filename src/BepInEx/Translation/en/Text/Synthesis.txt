@@ -2,6 +2,7 @@
 サブステータス=Sub-Status
 錬成されていません。=Not synthesized.
 錬成=Synthesis
+カスタム錬成=Custom Synthesis
 変換=Conversion
 EX装備錬成Pt=EX Equip Synthesis Pt
 パラメータを最大値にするスロット=Slots to max out parameters
@@ -65,3 +66,55 @@ EX装備錬成結果反映の確認ダイアログ=EX Equipment Synthesis Result
 錬成結果を反映する場合に、確認ダイアログを表示するか設定します。=Set whether to display a confirmation dialog when review the synthesis results.
 錬成スフィアの使用確認ダイアログ=Confirmation dialog for using the Synthesis Sphere
 錬成スフィアを使用する場合に、確認ダイアログを開きます。=Opens a confirmation dialog when using a Synthesis Sphere.
+
+
+
+
+
+
+
+
+
+-------
+条件を満たすサブステータスが抽選された場合は、途中で錬成を停止します。=Synthesis will stop early if a Sub Stat meeting the specified conditions is obtained.
+実行回数=Attempt #
+指定した条件で実行回数分、繰り返し錬成します。=Performs Synthesis repeatedly for the specified number of times using the selected conditions.
+条件なし=None
+カスタム錬成設定=Custom Synthesis Settings
+サブステータス条件=Sub Stat Conditions
+グレード条件=Grade Conditions
+最大消費数=Maximum Uses
+Sグレード=S Grade
+Aグレード以上=A Grade or Higher
+Bグレード以上=B Grade or Higher
+Cグレード以上=C Grade or Higher
+[3C404E]サブステータスの評価には D ～ [F374FF,95289F]S[-] グレードがありま\nす。\n\n　[F374FF,95289F]S[-] グレード（最高）\n　[FF5C77,CE0030]A[-] グレード\n　[2DB075,31635C]B[-] グレード\n　[FFBB00,CE4F00]C[-] グレード\n　D グレード（最低）\n\n錬成を実行すると、装備ごとに決められた種類の中からランダムにサブステータスの種類とグレードが抽選されます。[-]=[3C404E]Sub Stats are rated from D to [F374FF,95289F]S[-] Grade.\n\n　[F374FF,95289F]S[-] Grade (Highest)\n　[FF5C77,CE0030]A[-] Grade\n　[2DB075,31635C]B[-] Grade\n　[FFBB00,CE4F00]C[-] Grade\n　D Grade (Lowest)\n\nWhen Synthesis is performed, the Sub Stat type and Grade are randomly selected from the available options for that piece of equipment.[-]
+サブステータスのグレードについて=About Sub Stat Grades
+カスタム錬成は、指定した種類とグレードの両方の条件を満たすサブステータスが抽選されるまで錬成を繰り返します。\n\n条件を満たすサブステータスが抽選されなかった場合\nは、設定した最大実行回数まで錬成が実行されます。=Custom Synthesis repeats Synthesis until a Sub Stat matching both the specified type and grade is obtained.\n\nIf no Sub Stat meeting the conditions is obtained, Synthesis will continue until the specified maximum number of attempts is reached.
+カスタム錬成について=About Custom Synthesis
+グレードについて=About Grades
+
+1種類選択中=1 Type Selected
+r:"^(\d+)種類選択中$"=$1 Types Selected
+r:"^以下のアイテムを消費して、最大\[FFBB00\,CE4F00\](\d+)回\[-\]錬成します。$"=Consume the following items to perform up to [FFBB00,CE4F00]$1[-] Synthesis.
+カスタム錬成確認=Confirm Custom Synthesis
+途中結果=Interim Results
+消費したアイテム=Items Consumed
+r:"^(\d+)回\[-\]\[3C404E\]錬成を行いました。$"=Performed [FFBB00,CE4F00]$1[-][3C404E] Synthesis.
+カスタム錬成完了=Custom Synthesis Complete
+カスタム錬成 設定確認=Custom Transmutation Check Settings
+選択中のサブステータス=Sub-Status selected
+カスタム錬成 途中結果=Custom Transmutation: Partway Results
+カスタム錬成 設定確認=Custom Synthesis Settings Confirmation
+選択中のサブステータス=Selected Sub Stats
+カスタム錬成 途中結果=Custom Synthesis Progress
+
+一度に実行できる回数の上限です。=This is the maximum number of times that can be performed at once.
+
+
+
+錬成結果を破棄して再錬成します。=Discard the current synthesis result and refine again.
+前回の錬成結果=Previous Synthesis Result
+r:"^以下のアイテムを消費して、最大\[FFBB00\,CE4F00\](\d+)回\[-\]錬成します。前回の錬成結果を破棄してから再錬成します。$"=Consume the following items to perform up to [FFBB00,CE4F00]$1[-] synthesis.\nThe previous synthesis result will be discarded before refining again.
+カスタム再錬成確認=Confirm Custom Re-Synthesis
+条件を満たすサブステータスが抽選されました。=A Sub Stat meeting the specified conditions has been obtained.

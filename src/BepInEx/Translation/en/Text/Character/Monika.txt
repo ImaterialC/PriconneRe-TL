@@ -35,14 +35,13 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃�
 
 ##UB+##
 旋風雷閃撃鎖斬=Archon Squallchain
-前方範囲内の敵すべてに物理大ダメージを与え、スタンさせる。さらに、味方全体の物理攻撃力と魔法攻撃力を大アップさせ、行動速度を大アップさせる。=Deals massive P.DMG to enemies in range, and inflicts Stun to them. Additionally, greatly boosts all allies' P.ATK, M.ATK and action speed.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の行動速度アップ$"=►Deals $1 P.DMG to enemies in 820 range.\n►Inflicts Stun to enemies in 820 range for 2.5s.\n►Boosts all allies' P.ATK by $2 for 30s.\n►Boosts all allies' M.ATK by $3 for 30s.\n►Boosts all allies' action speed to 200% for 30s.
+前方範囲内の敵に物理大ダメージを与え、スタンさせる。味方全体の物理・魔法攻撃力と行動速度を大アップさせる。=Deals large P.DMG to enemies in the frontal area and stuns them. Greatly boosts all allies' P.ATK, M.ATK, and action speed.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の行動速度100％アップ$"=►Deals $1 physical damage to all enemies within 820 range.\n►Stuns all enemies within 820 range for 2.5s.\n►Boosts all allies' P.ATK by $2 for 30s.\n►Boosts all allies' M.ATK by $3 for 30s.\n►Boosts all allies' action speed by 100% for 30s.
 
 ##S1+##
 フリューゲルエール+=Flügel Fanfare+
 味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらに行動速度を大アップさせる。=Large boost to P.ATK, M.ATK and action speeds of all allies.
-r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to enemies within range.\n►Lowers enemies' P.DEF within range by $3.
-
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の行動速度100％アップ$"=Cast time: 1.06s.\n►Boosts all allies' P.ATK by $1 for 20s.\n►Boosts all allies' M.ATK by $2 for 20s.\n►Boosts all allies' action speed by 100% for 20s.
 ##UE##
 フリューゲルコート=Flügel Coat
 

@@ -6,19 +6,18 @@
 
 ##UB##
 シャドウ・スプリット -破杖-=Shadow Split: Destruction Staff
-目の前の敵１キャラに物理と魔法攻撃力を合わせた物理特大ダメージを与え、自分の周囲の味方の物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。範囲内の味方の数に応じて味方への強化量がアップする。このスキルのクリティカルは物理と魔法クリティカルの値を合わせる。=Deals massive P.DMG that combines P/M.ATK to an enemy in front. Greatly boosts allies' P.CRIT Rate in range, slightly boosts their P.CRIT DMG. The P.CRIT Rate and P.CRIT DMG boost increase according to number of allies in range. Uses both P/M.CRIT Rate to judge critical attacks.
+目の前の敵１キャラに物理特大ダメージを与え、自分を中心とした範囲内の味方の物理クリティカルを大アップ、物理クリティカルダメージを小アップさせる。範囲内の味方の数に応じて、味方への効果量が増加する。このスキルのダメージは物理・魔法攻撃力の値を合わせ、クリティカルは物理・魔法クリティカルの値を合わせる。=Deals massive P.DMG to an enemy in front, greatly boosts the P.CRIT RATE of allies within range centered on self, and slightly boosts their P.CRIT DMG. The effects granted to allies increase based on the number of allies within range. This skill's damage uses the combined values of P.ATK and M.ATK, and its critical rate uses the combined values of P.CRIT RATE and M.CRIT RATE.
 r:"^敵単体に(\d+)の物理ダメージ範囲内の味方の物理クリティカルを30アップ範囲内の味方の物理攻撃クリティカル時のダメー?ジを1％アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts allies' P.CRIT Rate in range by 30 (+50×Ally Count) for 18s.\n►Boosts allies' P.CRIT DMG in range by 1% (+2%×Ally Count) for 18s.
 
 ##S1##
 シュバイン・クラプフェン=Schwein Krapfen
 目の前の敵１キャラに物理と魔法攻撃力を合わせた物理大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。さらに、その敵を中心とした範囲内の敵すべてを束縛する。このスキルのクリティカルは物理と魔法クリティカルの値を合わせる。=Deals massive P.DMG that combines P/M.ATK to an enemy in front, and slightly boosts its P.CRIT DMG taken. Additionally, inflicts Bind to enemies in range. Uses both P/M.CRIT Rate to judge critical attacks.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の被クリダメを4％アップ範囲内の敵を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG taken by 4% for 12s.\n►Inflicts Bind to enemies in 200 range for 2s.
-r:"^敵単体に(\d+)の物理ダメージ敵単体のクリティカルを受けた際のダメージを4％アップ範囲内の敵を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG taken by 4% for 12s.\n►Inflicts Bind to enemies in 200 range for 2s.
+r:"^敵単体に(\d+)の物理ダメージ敵単体のクリティカルを受けた際のダメージを4％アップ範囲内の敵を一定時間行動不能にする$"=Cast time: 0.44s.\n►Deals $1 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG taken by 4% for 12s.\n►Inflicts Bind to enemies in 200 range for 2s.
 
 ##S2##
 おいしいおいのり=Delicious Wish
-自分の周囲の味方の物理クリティカルを中アップ、ＨＰを中回復し、ＴＰを小回復する。さらに、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。範囲内の味方の数に応じて物理クリティカルの上昇量がアップする。このスキルのＨＰ回復量は、このキャラの物理と魔法攻撃力に応じて増加する。=Moderately boosts allies' P.CRIT Rate in range, moderately recovers their HP, and slightly recovers their TP. Additionally, slightly boosts an enemy's P.CRIT DMG taken. The P.CRIT Rate boost increases according to number of allies in range.
-r:"^範囲内の味方の物理クリティカルを10アップ範囲内の味方のＨＰを(\d+)回復敵単体のクリティカルを受けた際のダメージを6％アップ範囲内の味方のＴＰを80回復$"=►Boosts allies' P.CRIT Rate in 220 range by 10 (+50×Ally Count) for 12s.\n►Recovers allies' HP in 220 range by $1.\n►Boosts an enemy's P.CRIT DMG taken by 6% for 12s.\n►Recovers allies' TP in 220 range by 80.
+自分を中心とした範囲内の味方の物理クリティカルを中アップ、ＨＰを中回復、ＴＰを小回復させる。目の前の敵１キャラの受けるクリティカルダメージを小アップさせる。範囲内の味方の数に応じて、物理クリティカルのアップ量が増加する。このスキルのＨＰ回復量は、物理・魔法攻撃力の値を合わせる。=Moderately boosts the P.CRIT RATE of allies within range centered on self, moderately recovers their HP, and slightly recovers their TP. Slightly increases the critical damage taken by an enemy in front. The P.CRIT RATE boost increases based on the number of allies within range. HP recovery from this skill is based on the combined values of P.ATK and M.ATK.
+r:"^範囲内の味方の物理クリティカルを10アップ範囲内の味方のＨＰを(\d+)回復敵単体のクリティカルを受けた際のダメージを6％アップ範囲内の味方のＴＰを80回復$"=Cast time: 0.44s.\n►Boosts allies' P.CRIT Rate in 220 range by 10 (+50×Ally Count) for 12s.\n►Recovers allies' HP in 220 range by $1.\n►Boosts an enemy's P.CRIT DMG taken by 6% for 12s.\n►Recovers allies' TP in 220 range by 80.
 
 ##SP1##
 このスキルのスキルレベルは「シャドウ・スプリット -破杖-」と連動しています=This skill's level is linked to "Shadow Split: Destruction Staff"
@@ -29,8 +28,8 @@ r:"^範囲内の味方の物理クリティカルを10アップ範囲内の味�
 
 ##S1+##
 シュバイン・クラプフェン+=Schwein Krapfen+
-自分の物理攻撃力と魔法攻撃力を中アップさせ、目の前の敵１キャラに物理と魔法攻撃力を合わせた物理大ダメージを与え、クリティカルを受けた際のダメージを小アップさせる。さらに、その敵を中心とした範囲内の敵すべてを束縛する。このスキルのクリティカルは物理と魔法クリティカルの値を合わせる。=Moderately boosts own P.ATK and M.ATK, deals massive P.DMG that combines P/M.ATK to an enemy in front, and slightly boosts its P.CRIT DMG taken. Additionally, inflicts Bind to enemies in range. Uses both P/M.CRIT Rate to judge critical attacks.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の被クリダメを6％アップ範囲内の敵を一定時間行動不能にする自分の物理攻撃力を(\d+)アップ自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG taken by 6% for 12s.\n►Inflicts Bind to enemies in 200 range for 2s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own M.ATK by $3 for 12s.
+自分の物理・魔法攻撃力を中アップし、目の前の敵１キャラに物理大ダメージを与え、受けるクリティカルダメージを小アップさせ、その敵を中心とした範囲内の敵を束縛する。このスキルのダメージは物理・魔法攻撃力の値を合わせ、クリティカルは物理・魔法クリティカルの値を合わせる。=Moderately boosts own P.ATK and M.ATK, deals large P.DMG to an enemy in front, slightly increases the critical damage they take, and inflicts Bind on enemies within an area centered on that enemy. This skill's damage uses the combined values of P.ATK and M.ATK, and its critical rate uses the combined values of P.CRIT RATE and M.CRIT RATE.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の被クリダメを6％アップ範囲内の敵を一定時間行動不能にする自分の物理攻撃力を(\d+)アップ自分の魔法攻撃力を(\d+)アップ$"=Cast time: 0.44s.\n►Deals $1 P.DMG to an enemy.\n►Boosts an enemy's P.CRIT DMG taken by 6% for 12s.\n►Inflicts Bind to enemies in 200 range for 2s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own M.ATK by $3 for 12s.
 
 ##UE##
 デュスノミアの破杖=Dusnomia's Breaker Staff

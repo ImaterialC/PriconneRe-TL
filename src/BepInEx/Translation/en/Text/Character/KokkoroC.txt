@@ -16,7 +16,7 @@ r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃クリティカ�
 自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、さらにＴＰを小回復する。=Greatly boosts own P.ATK and P.CRIT Rate, and also recovers own TP by a small amount. All effects last 12s.
 自分の物理攻撃力と物理クリティカルを大アップさせ、さらにＴＰを小回復する。=Greatly boosts own P.ATK and P.CRIT Rate, and also recovers own TP by a small amount. All effects last 12s.
 
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分のＴＰを(\d+)回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Recovers own TP by $3.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分のＴＰを180回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Recovers own TP by 180.
 
 ##EX##
 光風の天啓=Light and Wind

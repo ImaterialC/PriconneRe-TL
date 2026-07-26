@@ -30,14 +30,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度を一定時�
 
 ##S2##
 翅の輝き=Shimmering Wings
-自分のＴＰを中回復する。既にユニオンバーストを使用していた場合、回復量が増加する。=Recovers own TP by a moderate amount. This amount boost when a UB has been used.
-r:"^自分のＴＰを(\d+)回復ユニオンバースト使用後、自分のＴＰを(\d+)回復$"=Cast time: 1.35s.\n►Recovers own TP by $1.\n►After using UB, recovers own TP by $2.
-## 260lvl
-自分のＴＰを中回復する。既にユニオンバーストを使用していた場合、回復量が増加する。さらに自分の物理攻撃力を小アップさせる。=Recovers own TP by a moderate amount. This amount boost when a UB has been used. Also boosts own P.ATK by a small amount.
-r:"^自分のＴＰを(\d+)回復ユニオンバースト使用後、自分のＴＰを(\d+)回復自分の物理攻撃力を(\d+)アップ$"=Cast time: 1.35s.\n►Recovers own TP by $1.\n►After using UB, recovers own TP by $2.\n►Boosts own P.ATK by $3 for 12s.
-
-
-自分のＴＰを大回復する。既にユニオンバーストを使用していた場合、回復量が増加する。さらに自分の物理攻撃力を小アップさせる。=Greatly recovers own TP. If a Union Burst has already been used, the recovery amount increases. Additionally, slightly boosts own P.ATK.
+自分の物理攻撃力を小アップ、ＴＰを大回復する。既にＵＢを発動していた場合、ＴＰの回復量が増加する。=Slightly boosts own P.ATK and greatly recovers own TP. If self has already activated a Union Burst, TP recovery is increased.
 
 
 
@@ -48,19 +41,12 @@ r:"^自分のＴＰを(\d+)回復ユニオンバースト使用後、自分の�
 
 ##UB+##
 この矢に未来を乗せて！=I'll Place The Future On This Arrow!
-目の前の敵１キャラに物理特大ダメージを与える。このスキルを使用するたび、最大４回までダメージが増加する。=Deals massive damage to an enemy directly in front. Gain a damage boosting stack for each UB casted, up to 5.
-##OLD r:"^敵単体に(\d+)の物理ダメージ５回目以降の使用時、敵単体に(\d+)の物理ダメージ$"=For the 1st-4th UB:\n►Deals $1 P.DMG to an enemy.\n\nFor the 5th UB onwards:\n►Deals $2 P.DMG to an enemy.
+目の前の敵１キャラに物理特大ダメージを与える。【妖精の導き】が３個以上の場合、さらに追加で物理中ダメージを２回与える。【妖精の導き】の数に応じて、ダメージが増加する。=Deals massive P.DMG to an enemy in front. If self has 3 or more [Fairy's Guidance], additionally deals medium P.DMG twice. Damage increases based on the number of [Fairy's Guidance] stacks.
 
-目の前の敵１キャラに物理特大ダメージを与える。【妖精の導き】が３つ以上の場合、追加で物理中ダメージを２回与える。このスキルのダメージは【妖精の導き】の数に応じて増加する。=Deals massive P.DMG to an enemy in front. If [Fairy’s Guidance] is at 3 or more stacks, additionally deals medium P.DMG twice. The damage of this skill increases based on the number of [Fairy’s Guidance] stacks.
 r:"^敵単体に(\d+)の物理ダメージ妖精の導きが３つ以上の場合、以下の効果が発動する敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to a single enemy.\n\nIf [Fairy Guidance] is 3 or more:\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.
 ##S1+##
 絡みつく蔦+=Clinging Vines+
-最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力と行動速度を小ダウンさせる。=Deals moderate P.DMG to the enemy with the highest M.ATK. Lowers their M.ATK and reduces their action speed by a small amount.
-
-##OLD r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度を一定時間低下させる敵単体の魔法攻撃力を(\d+)ダウン$"=Cast time: 1.27s.\n►Deals $1 P.DMG to an enemy.\n►Reduces an enemy's action speed to 80% for 12s.\n►Lowers an enemy's M.ATK by $2 for 12s.
-
-
-最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、さらに魔法攻撃力と行動速度を小ダウンさせる。バトル開始後、初弾のこのスキルは自分をステータスアップ効果を受ける度に、【妖精の導き】が１つ追加される状態にする。【妖精の導き】は最大５つまで追加される。=Deals medium P.DMG to the enemy with the highest M.ATK, and slightly lowers their M.ATK and action speed. The first time this skill is used after battle start, grants a state where self gains 1 stack of [Fairy Guidance] each time she receives a status up effect. [Fairy Guidance] can stack up to 5 times.
+最も魔法攻撃力が高い敵１キャラに物理中ダメージを与え、魔法攻撃力と行動速度を小ダウンさせる。初回発動時、自分がステータスアップ効果を受けるたびに、【妖精の導き】（上限５）が１個付与される状態になる。=Deals medium P.DMG to the enemy with the highest M.ATK, slightly lowers their M.ATK and action speed. On the first activation, whenever self receives a stat-up effect, gains 1 [Fairy's Guidance] (up to 5).
 r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度50％ダウン敵単体の魔法攻撃力を(\d+)ダウンステータスアップ効果を受けるたびに自分に妖精の導きを付与する状態になる$"=Cast time: 1.27s.\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's action speed by 50％.\n►Lowers a single enemy's M.ATK by $2.\n►Grants a state where each time self receives a stat-up effect, gain 1 [Fairy Guidance].
 
 
@@ -71,7 +57,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度50％ダウン
 
 ##S1++##
 絡みつく蔦++=Entangling Vines++
-最も魔法攻撃力が高い敵１キャラに物理大ダメージを与え、さらに魔法攻撃力と行動速度を大ダウンさせる。バトル開始後、初弾のこのスキルは自分をステータスアップ効果を受ける度に、【妖精の導き】が１つ追加される状態にする。【妖精の導き】は最大10まで追加される。=Deals large P.DMG to the enemy with the highest M.ATK, and greatly lowers their M.ATK and action speed. The first time this skill is used after battle start, grants a state where self gains 1 stack of [Fairy’s Guidance] each time she receives a status up effect. [Fairy’s Guidance] can stack up to 10 times.
+最も魔法攻撃力が高い敵１キャラに物理大ダメージを与え、魔法攻撃力と行動速度を大ダウンさせる。初回発動時、自分がステータスアップ効果を受けるたびに、【妖精の導き】（上限10）が１個付与される状態になる。=Deals large P.DMG to the enemy with the highest M.ATK, greatly lowers their M.ATK and action speed. On the first activation, whenever self receives a stat-up effect, gains 1 [Fairy's Guidance] (up to 10).
 r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度20％ダウン敵単体の魔法攻撃力を(\d+)ダウンステータスアップ効果を受けるたびに自分に妖精の導きを付与する状態になる$"=Cast time: 1.27s.\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's action speed by 20％.\n►Lowers a single enemy's M.ATK by $2.\n►Grants a state where each time self receives a stat-up effect, gain 1 [Fairy Guidance].
 
 

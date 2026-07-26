@@ -12,18 +12,18 @@
 
 ##UB##
 金牙神然=Gold Fangs
-目の前の敵１キャラに物理大ダメージを与え、一定時間無敵状態になる。【フィールド展開中】自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせる。=Deals large P.DMG to an enemy in front and becomes immune to all damage for a set period of time. If field is active, greatly boosts allies' P.ATK in range.
+目の前の敵１キャラに物理大ダメージを与え、一定時間無敵状態になる。【フィールド展開中】自分を中心とした範囲内の味方の物理攻撃力を特大アップさせる。=Deals large P.DMG to an enemy in front and becomes invincible for a period of time. While [Field] is active, massively boosts the P.ATK of allies within range centered on self.
 r:"^敵単体に(\d+)の物理ダメージ一定時間無敵状態になるフィールド展開中、範囲内の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Becomes immune to all damage for 4s.\n►If field is active, boosts allies' P.ATK in 195 range by $2 for 18s.
 
 ##S1##
 一子之夢=Only Child's Dream
 自分を中心とした範囲内の味方すべての物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＴＰを小回復させる。【フィールド展開中】ＴＰの回復量がアップし、自分を中心とした範囲内の味方すべてのＴＰ上昇を小アップさせる。=Greatly boosts allies' P.ATK in 195 range, slightly boosts their P.CRIT DMG, and slightly recovers their TP. If field is active, doubles allies' TP recovery, and slightly boosts allies' TP Boosts in 195 range.
-r:"^範囲内の味方のＴＰを50回復フィールド展開中、範囲内の味方のＴＰを100回復フィールド展開中、範囲内の味方のＴＰ上昇を8アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカル時のダメージを5％アップ$"=►Recovers allies' TP in range by 50.\n►If field is active, boosts allies' TP Boost in range by 8 for 12s.\n►Boosts allies' P.ATK in range by $1 for 12s.\n►Boosts allies' P.CRIT DMG in range by 5% for 12s.
+r:"^範囲内の味方のＴＰを50回復フィールド展開中、範囲内の味方のＴＰを100回復フィールド展開中、範囲内の味方のＴＰ上昇を8アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカル時のダメージを5％アップ$"=Cast time: 0.59s.\n►Recovers allies' TP in range by 50.\n►If field is active, boosts allies' TP Boost in range by 8 for 12s.\n►Boosts allies' P.ATK in range by $1 for 12s.\n►Boosts allies' P.CRIT DMG in range by 5% for 12s.
 
 ##S2##
 パレードの時間だよ♪=It's Parade Time♪
-自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開し、さらに自分を中心とした範囲内の味方すべての物理攻撃力と物理クリティカルを大アップさせる。=Deploys a field that slightly recovers allies' HP in 305 range, and greatly boosts allies' P.ATK and P.CRIT Rate in 195 range.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを120アップ毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Boosts allies' P.ATK in range by $1 for 12s.\n►Boosts allies' P.CRIT Rate in range by 120 for 12s.\n►Deploys a field that recovers allies' HP by $2/s for 12s.
+自分を中心とした範囲内の味方のＨＰを小回復させるフィールドを展開し、自分を中心とした範囲内の味方の物理攻撃力と物理クリティカルを大アップさせる。=Deploys a field centered on self that slightly recovers the HP of allies within range, and greatly boosts their P.ATK and P.CRIT RATE.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを120アップ毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 0.59s.\n►Boosts allies' P.ATK in range by $1 for 12s.\n►Boosts allies' P.CRIT Rate in range by 120 for 12s.\n►Deploys a field that recovers allies' HP by $2/s for 12s.
 
 ##EX##
 ビート･ザ･マウス=Beat the Mouse
@@ -34,8 +34,9 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の�
 
 ##S1+##
 一子之夢+=Only Child's Dream+
-自分を中心とした範囲内の味方すべての物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＴＰを小回復させる。【フィールド展開中】スキルの効果量がアップし、自分を中心とした範囲内の味方すべてのＴＰ上昇を小アップさせる。=Greatly boosts allies' P.ATK in 195 range, slightly boosts their P.CRIT DMG, and slightly recovers their TP. If field is active, boosts all skill effects and slightly boosts allies' TP Boosts in 195 range.
-r:"^範囲内の味方のＴＰを60回復展開中、範囲内の味方のＴＰを120回復展開中、範囲内の味方のＴＰ上昇を8アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカル時のダメージを5％アップ展開中、範囲内の味方の物理攻撃力を(\d+)アップ展開中、範囲内の味方の物理クリティカル時のダメージを15％アップ$"=If field isn't active:\n►Recovers allies' TP in range by 60.\n►Boosts allies' P.ATK in range by $1 for 12s.\n►Boosts allies' P.CRIT DMG in range by 5% for 12s.\nIf field is active:\n►Recovers allies' TP in range by 120.\n►Boosts allies' TP Boost in range by 8 for 12s.\n►Boosts allies' P.ATK in range by $2 for 12s.\n►Boosts allies' P.CRIT DMG in range by 15% for 12s.
+自分を中心とした範囲内の味方の物理攻撃力を大アップ、物理クリティカルダメージを小アップ、ＴＰを小回復させる。【フィールド展開中】効果量が増加し、自分を中心とした範囲内の味方のＴＰ上昇を小アップさせる。=Greatly boosts the P.ATK of allies within range centered on self, slightly boosts their P.CRIT DMG, and slightly recovers their TP. While [Field] is active, these effects are strengthened and additionally slightly boosts their TP Boost.
+
+r:"^範囲内の味方のＴＰを60回復展開中、範囲内の味方のＴＰを120回復展開中、範囲内の味方のＴＰ上昇を8アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカル時のダメージを5％アップ展開中、範囲内の味方の物理攻撃力を(\d+)アップ展開中、範囲内の味方の物理クリティカル時のダメージを15％アップ$"=Cast time: 0.59s.\nIf field isn't active:\n►Recovers allies' TP in range by 60.\n►Boosts allies' P.ATK in range by $1 for 12s.\n►Boosts allies' P.CRIT DMG in range by 5% for 12s.\nIf field is active:\n►Recovers allies' TP in range by 120.\n►Boosts allies' TP Boost in range by 8 for 12s.\n►Boosts allies' P.ATK in range by $2 for 12s.\n►Boosts allies' P.CRIT DMG in range by 15% for 12s.
 
 ##Comments##
 やぁ！　これからどこか楽しい場所に\n案内してくれるかい？\nまだ知り合いが少ないから、きみだけが頼りなんだ！=Hey! Can you show me to a fun place?\nI don't know many people yet,\nso I can only rely on you!
