@@ -3,7 +3,8 @@
 
 ##UB##
 緑翠の絆風=Green Bond Wind
-自分の物理攻撃がクリティカルした時のダメージを中アップさせ、さらに目の前の敵１キャラに物理大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく５倍になる。=Moderately boosts own P.CRIT DMG, and also deals large P.DMG to an enemy in front. If this skill hits a critical hit, the damage will be x5 instead of x2.
+自分の物理クリティカルダメージを中アップし、目の前の敵１キャラに物理大ダメージを与える。このスキルのクリティカルダメージは５倍になる。=Moderately boosts own P.CRIT DMG and deals large P.DMG to an enemy in front. This skill's critical damage is 5× instead of doubled.
+
 
 r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃クリティカル時のダメージを30％アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.CRIT DMG by 30% for 18s.
 
@@ -12,11 +13,10 @@ r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃クリティカ�
 目の前の敵１キャラに物理中ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく５倍になる。=Deals moderate P.DMG to an enemy in front. If this skill hits a critical hit, the damage will be x5 instead of x2.
 
 ##S2##
-翔る薫風=Soaring Fragrant Wind
-自分の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、さらにＴＰを小回復する。=Greatly boosts own P.ATK and P.CRIT Rate, and also recovers own TP by a small amount. All effects last 12s.
-自分の物理攻撃力と物理クリティカルを大アップさせ、さらにＴＰを小回復する。=Greatly boosts own P.ATK and P.CRIT Rate, and also recovers own TP by a small amount. All effects last 12s.
+翔る薫風=Soaring Fragrant Breeze
+自分の物理攻撃力を特大アップ、物理クリティカルを大アップ、ＴＰを小回復する。=Massively boosts own P.ATK, greatly boosts own P.CRIT RATE, and slightly recovers own TP.
 
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分のＴＰを180回復$"=►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Recovers own TP by 180.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分のＴＰを180回復$"=Cast time: 0.9s.\n►Boosts own P.ATK by $1.\n►Boosts own P.CRIT Rate by $2.\n►Recovers own TP by 180.
 
 ##EX##
 光風の天啓=Light and Wind
@@ -24,7 +24,14 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカル�
 
 ##S1+##
 春疾風+=Strong Spring Wind+
-自分の物理攻撃力と物理クリティカルを大アップさせ、目の前の敵１キャラに物理中ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく７倍になる。=Greatly boosts own P.ATK and P.CRIT Rate, and deals moderate P.DMG to an enemy in front. If this skill hits a critical hit, the damage will be x7 instead of x2.
+自分の物理攻撃力と物理クリティカルを大アップし、目の前の敵１キャラに物理中ダメージを与える。このスキルのクリティカルダメージは７倍になる。=Greatly boosts own P.ATK and P.CRIT RATE, then deals medium P.DMG to an enemy in front. This skill's critical damage is 7× instead of doubled.
 
 ##UE##
 大精霊の儀剣=Great Spirit Sword
+
+
+##UE2##
+息吹の白装束=White Garments of Vital Breath
+翔る薫風+=Soaring Fragrant Breeze+
+自分の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理クリティカルダメージを小アップし、ＴＰを特大回復する。初回発動時、自分が敵にクリティカルでダメージを与えるたびにその敵の最大ＨＰに応じて最大50万の物理割合ダメージを与える状態になる。=Massively boosts own P.ATK, greatly boosts own P.CRIT RATE, slightly boosts own P.CRIT DMG, and massively recovers own TP. On the first activation, whenever self deals critical damage to an enemy, additionally deals P.DMG based on that enemy's max HP, up to 500,000 damage.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ自分の物理クリダメを6％アップ自分のＴＰを1000回復初使用時、クリティカルでダメージを与えるたびに敵単体に最大50万の物理割合ダメージを与える状態になる$"=Cast time: 0.9s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT RATE by 100 for 180s.\n►Boosts own P.CRIT DMG by 6％ for 180s.\n►Recovers own TP by 1000.\n►Upon first use, grants a state where each time self deals CRIT damage to an enemy, it also deals Physical percentage damage based on that enemy's Max HP, up to 500,000 damage.

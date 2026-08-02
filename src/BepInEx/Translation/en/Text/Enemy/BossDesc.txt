@@ -2764,3 +2764,14 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 対象のＨＰ70％未満：スタン時間アップ=If the target's HP is below 70%: increases Stun duration.
 対象が火傷：物理固定追加ダメージ=If the target is inflicted with Burn: deals additional physical fixed damage.
 対象のＨＰ70％未満：火傷時間アップ=If the target's HP is below 70%: increases Burn duration.
+
+
+行楽地の近海より漂着した厄介者。捕食前に触手でねっとり獲物を撫で回す習性を持つ。リゾート側は体よく客を遣わして討つ策に出た。=A troublesome creature that drifted ashore from the waters near a resort. Before devouring its prey, it has the unsettling habit of slowly caressing them with its tentacles. The resort has conveniently sent its guests to deal with the menace.
+対象の残りＨＰが少ないほど：ダウン量上昇=The lower the target's remaining HP, the greater the reduction amount.
+敵全体への継続ダメージ量アップ=Increases continuous damage dealt to all enemies.
+
+挑発／飛行効果無視=Ignores Taunt and flying effects.
+敵全体に物理ダメージ（召喚体無視・ＴＰ回復不可）=Deals P.DMG to all enemies (ignores summons; does not restore TP).
+
+
+
