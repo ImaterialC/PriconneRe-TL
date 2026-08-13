@@ -253,6 +253,8 @@ Here are some third-party translation plugins that you can use with AutoTranslat
    * Requires an APIKey, paid per tokens used.
  * [AutoLLMTranslator](https://github.com/NothingNullNull/XUnity.AutoLLMTranslator), a generic endpoint that supports many different LLM's, including Ollama models.
    * Very flexible but requires advanced manual configuration. Recommended only for advanced users.
+* [AutoPollinationTranslator](https://github.com/kikyo2006/XUnity.AutoPollinationTranslator), a high-quality translator utilizing the Pollinations.ai API.
+   * Requires a Pollinations API Key. Powered by top-tier models like Grok, Gemini, DeepSeek, and Mistral.
 
 *NOTE: You use third-party plugins at your own risk - they were checked at the time of being added to the list, but may change over time. Third-party plugins might cause issues or have security issues.*
  
@@ -313,6 +315,7 @@ PostprocessorsFile=Translation\{Lang}\Text\_Postprocessors.txt      ;File that c
 
 [TextFrameworks]
 EnableUGUI=True                  ;Enable or disable UGUI translation
+EnableUIElements=True            ;Enable or disable UIElements translation
 EnableNGUI=True                  ;Enable or disable NGUI translation
 EnableTextMeshPro=True           ;Enable or disable TextMeshPro translation
 EnableTextMesh=False             ;Enable or disable TextMesh translation
@@ -374,6 +377,7 @@ DuplicateTextureNames=           ;Indicates specific texture names that are dupl
 DetectDuplicateTextureNames=False;Indicates if the plugin should detect duplicate texture names.
 EnableLegacyTextureLoading=False ;Indicates the plugin should use a different strategy to load images, that may be relevant if the game engine is old
 CacheTexturesInMemory=True       ;Indicates that all textures loaded should be kept in memory for optimal performance. Disable to decrease memory usage
+EnableTextureMemoryDiagnostics=False ;Logs texture lifetime counters every ten seconds to help diagnose memory growth
 
 [ResourceRedirector]
 PreferredStoragePath=Translation\{Lang}\RedirectedResources ;Indicates the preferred storage for redirected resources in relation to the Auto Translator. Can use placeholder: {GameExeName}, {Lang}
@@ -466,22 +470,37 @@ The `PostprocessorsFile` allows defining entries that modifies the translated te
 #### UI Resizing
 Often when performing a translation on a text component, the resulting text is larger than the original. This often means that there is not enough room in the text component for the result. This section describes ways to remedy that by changing important parameters of the text components.
 
-By default, the plugin will attempt some basic auto-resizing behaviour, which are controlled by the following parameters: `EnableUIResizing`, `ResizeUILineSpacingScale`, `ForceUIResizing`, `OverrideFont` and `OverrideFontTextMeshPro`.
+By default, the plugin will attempt some basic auto-resizing behaviour, which are controlled by the following parameters:
  * `EnableUIResizing`: Resizes the components when a translation is performed.
  * `ForceUIResizing`: Resizes all components at all times, period.
  * `ResizeUILineSpacingScale`: Changes the line spacing of resized components. UGUI only.
- * `OverrideFont`: Changes the font of all text components regardless of `EnableUIResizing` and `ForceUIResizing`. UGUI only.
- * `OverrideFontTextMeshPro`: Consider using `FallbackFontTextMeshPro` instead. Changes the font of all text components regardless of `EnableUIResizing` and `ForceUIResizing`. TextMeshPro only. This option is able to load a font in two different ways. If the specified string indicates a path within the game folder, then that file will be attempted to be loaded as an asset bundle (requires Unity 2018 or greater (or alternatively a custom asset bundle built specifically for the targeted game)). If not, it will be attempted to be loaded through the Resources API. Default resources that are often distributed with TextMeshPro are: `Fonts & Materials/LiberationSans SDF` or `Fonts & Materials/ARIAL SDF`.
- * `FallbackFontTextMeshPro`: Adds a fallback font that TextMesh Pro can use in case a specific character is not supported.
-
-An additional note on changing the font of TextMeshPro: You can download some pre-built asset bundles for Unity 2018 and 2019 in the release tab, but for now, they are not particularly well tested. If you want to try them out, simply download the .zip folder and put one of the font assets into the game folder. Then configure it up by writing the name of the file in the configuration file in `OverrideFontTextMeshPro`.
 
 Resizing of a UI component does not refer to changing of it's dimensions, but rather how the component handles overflow. The plugin changes the overflow parameters such that text is more likely to be displayed.
 
 The configuratiaon `EnableUIResizing` and `ForceUIResizing` also control whether or not manual UI resize behaviour is enabled. See [this section](#ui-font-resizing) for more information.
 
+#### Font overriding
+When translating to languages that use non-ASCII letters the game's default font might not be able to display some of those characters. This is the most common when translating to Chinese. To fix this you can supply your own ccustom font that will be used to display the missing characters (or all text in the game).
+
+ * `OverrideFont`: Changes the font of all text components. UGUI only.
+ * `OverrideFontTextMeshPro`: Consider using `FallbackFontTextMeshPro` instead. Changes the font of all text components regardless of `EnableUIResizing` and `ForceUIResizing`. TextMeshPro only.
+     This option is able to load a font in three different ways:
+     1. If the specified string indicates a path within the game folder, then that file will be attempted to be loaded as an asset bundle. Requires a custom asset bundle built specifically for the targeted game.
+     2. If the specified string matches name of a font installed on the system (e.g. Arial), the font will be attempted to be loaded as a TMP font. Requires TextMeshPro 3.2.0+ (see #854).
+     3. Otherwise, the string will be used to attempt to load a font through the Resources API. Default resources that are often distributed with TextMeshPro are: `Fonts & Materials/LiberationSans SDF` or `Fonts & Materials/ARIAL SDF`.
+ * `FallbackFontTextMeshPro`: Adds a fallback font that TextMesh Pro can use in case a specific character is not supported.
+
+These settings are not affected by `EnableUIResizing` and `ForceUIResizing`, but the resizing behavior may change how the custom font is displayed.
+
+##### Where to get custom fonts
+- You can download some pre-built asset bundles with TextMeshPro fonts in the release tab (TMP_Font_AssetBundles), but for now, they are not particularly well tested. If you want to try them out, simply download the .zip folder and put one of the font assets into the game folder. Then configure it up by writing the name of the file in the configuration file in `OverrideFontTextMeshPro` or `FallbackFontTextMeshPro`.
+- [sorrowmoil-MoeFont-for-XUnity.AutoTranslator](https://github.com/sorrowmoil/sorrowmoil-MoeFont-for-XUnity.AutoTranslator) - Repository full of fonts for variuous versions of Unity (zh-CN), more information in https://github.com/bbepis/XUnity.AutoTranslator/issues/842.
+
+##### How to create new custom fonts
+You will have to create the font in the same version of Unity Editor as your game and then add it to an AssetBundle. Check [this guide](https://github.com/bbepis/XUnity.AutoTranslator/wiki/TextMeshPro-Font-Asset-Creation-&-Packaging-Guide) for detailed steps.
+
 #### Reducing Translation Requests
-The following aims at reducing the number of requests send to the translation endpoint:
+The following aims at reducing the number of requests sent to the translation endpoint:
  * `EnableBatching`: Batches several translation requests into a single with supported endpoints.
  * `UseStaticTranslations`: Enables usage of internal lookup dictionary of various english-to-japanese terms.
  * `MaxCharactersPerTranslation`: Specifies the maximum length of a text to translate. Any texts longer than this is ignored by the plugin. Cannot be greater than 1000. **Never redistribute this mod with this value greater than 400**
@@ -531,7 +550,7 @@ If MonoMod hooks are not forced they are only used if available and a given meth
 
 ## IL2CPP Support
 While this plugin offers some level of IL2CPP support, it is by no means complete. The following differences can be observed/features are missing:
- * Subpar text hooking capabilities
+ * Subpar text hooking capabilities - Some changes to text components are not detected, requiring a manual refresh to get translated. Currently this can be worked around by using the [AutoTranslator.IL2CPP.BruteForceFix](https://github.com/ManlyMarco/RandomPlugins) helper plugin.
  * TextGetterCompatibilityMode is not supported
  * Plugin-specific translations are not supported (yet)
  * IMGUI translations are not supported (yet)
@@ -645,6 +664,8 @@ When creating manual translations, use this file as sparingly as you would use r
 
 ### Regex Usage
 Text translation files support regexes as well. Always remember to use regexes sparingly and scope them to avoid performance issues.
+
+**Warning:** Regexes can be placed in any file inside of the Text folder **except for all automatically generated files** that start with `_` (i.e. they won't work if placed inside `_AutoGeneratedTranslations.txt`).
 
 Regexes can be applied to translations in two different ways. The following two sections describes these two ways:
 
@@ -885,6 +906,7 @@ DuplicateTextureNames=
 DetectDuplicateTextureNames=False
 EnableLegacyTextureLoading=False
 CacheTexturesInMemory=True
+EnableTextureMemoryDiagnostics=False
 ```
 
 `TextureDirectory` specifies the directory where textures are dumped to and loaded from. Loading will happen from all subdirectories of the specified directory as well, so you can move dumped images to whatever folder structure you desire.
@@ -908,6 +930,8 @@ CacheTexturesInMemory=True
 `EnableLegacyTextureLoading` specifies that the plugin should use attempt to load images differently, which may be relevant if the unity engine is old (verified with versions less than 5.3). This should not be used unless the images that are loaded are not the ones that you expected.
 
 `CacheTexturesInMemory` specifies that all translation textures should be kept in memory to optimize performance. Can be disabled to reduce memory usage.
+
+`EnableTextureMemoryDiagnostics` logs texture metadata, replacement allocation, cleanup, and managed-memory counters every ten seconds. It is disabled by default and should only be enabled while diagnosing texture memory usage.
 
 `TextureHashGenerationStrategy` specifies how images are identified. When images are stored, the game will need some way of associating them with the image that it has to replace.
 This is done through a hash-value that is stored in square brackets in each image file name, like this: `file_name [0223B639A2-6E698E9272].png`. This configuration specifies how these hash-values are generated:
@@ -977,7 +1001,7 @@ This requires version 3.7.0 or later!
 
 ### Implementing a component that the Auto Translator should not interfere with
 As a mod author, you might not want the Auto Translator to interfere with your mods UI. If this is the case there's two ways to tell Auto Translator not to perform any translation:
- * If your UI is based on GameObjects, you can simply name your GameObjects containing the text element (for example Text class) to something that contains the string "XUAIGNORE". The Auto Translator will check for this and ignore components that contains the string.
+ * If your UI is based on GameObjects, you can simply name your GameObjects containing the text element (for example Text class) to something that contains the string "XUAIGNORE". The Auto Translator will check for this and ignore components that contains the string. If you name the GameObject with "XUAIGNORETREE" instead, Auto Translator will also ignore components on all child GameObjects. Warning: This is checked on component creation. If you rename the GameObject after the component has been instantiated, it will not be ignored.
  * If your UI is based on IMGUI, the above approach is not possible, because there are no GameObject. In that case you can do the following instead:
 
 ```C#

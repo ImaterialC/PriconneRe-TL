@@ -185,6 +185,8 @@ Difficulty Details
 キャラ加入=Character Joined
 このマスには移動できません。=You can't move to this tile.
 バトルマス（NORMAL）に移動します。\nよろしいですか？=Move to Battle Tile (NORMAL)?
+バトルマス（EXTREME）に移動します。\nよろしいですか？=Move to Battle Tile (EXTREME)?
+バトルマス（HELL）に移動します。\nよろしいですか？=Move to the Battle Tile (HELL)?
 移動先確認=Destination Confirmation
 バトルマス=Battle Tile
 マップを見る=Check Map
@@ -218,7 +220,6 @@ Difficulty Details
 加入しているキャラがいません。=There are no characters in this party.
 
 現在の状況=Current Situation
-バトルマス（EXTREME）に移動します。\nよろしいですか？=Move to Battle Tile (EXTREME)?
 
 ラビリンスパスポートは返却されます。=Labyrinth Passport will be returned.
 ラビリンスパスポート=Labyrinth Passport
@@ -393,3 +394,11 @@ sr:"^すべてのキャラの(.+)をダウンさせる。$"=Lowers all allies' $
 すべてのモンスターが受ける継続ダメージの発生間\n隔と効果時間が延長される。=Extends the interval and duration of continuous damage received by all monsters.
 継続ダメージ発生間隔/効果時間延長=Continuous Damage Interval/Duration Extension
 NPCキャラのEX装備は変更できません。=NPC characters’ EX Equipment cannot be changed.
+
+
+パス=Pass
+パスを利用できないマスです。=This Tile cannot be skipped.
+
+究極錬成‐氷炎融合‐=Ultimate Refinement - Ice-Flame Fusion -
+パス確認=Confirm Pass
+[FF7C4E,D62146]スコアとバトル報酬を獲得せず[-][3C404E]に\nこのバトルをパスします。\nよろしいですか？[-]=[FF7C4E,D62146]You will skip this battle without receiving the score or battle rewards.[-][3C404E]\nAre you sure?[-]

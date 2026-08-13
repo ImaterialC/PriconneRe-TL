@@ -14,9 +14,17 @@ r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御�
 
 味方全体の物理・魔法防御力を小アップさせ、行動速度を大アップさせる。光属性の味方のＨＰとＴＰを小回復させる。初回発動時、光属性の味方の数に応じてＴＰの回復量が最大５倍まで増加する。=Slightly boosts all allies' P.DEF and M.DEF, and greatly boosts their action speed. Slightly recovers the HP and TP of Light allies. On the first activation, TP recovery increases based on the number of Light allies, up to 5×.
 
-#EX##
+##EX##
 トロピカルリーフ=Tropical Leaf
 トロピカルリーフ+=Tropical Leaf+
 
 ##Misc##
 【魔法】中衛で砂浜の木陰に微睡むアルラウネの妖魔人。行動速度アップや初回使用時に回復量が増加するＴＰ回復を起点に支援し、穏やかな木漏れ日と共にゆらゆら憩う。=[Magic] An Alraune Monstress who dozes in the shade of trees along the sandy shore from the midline. She supports her allies by boosting action speed and restoring TP—granting increased recovery on its first use—and sways at ease beneath the gentle dappled sunlight.
+
+
+
+##S1##
+サマーガーデンスコップ=Summer Garden Scoop
+バルーンクラップ+=Balloon Clap+
+目の前の敵１キャラの物理・魔法攻撃力を特大ダウン、魔法防御力を小ダウン、受けるクリティカルダメージを小アップさせる。初回発動時、さらに目の前の敵１キャラの与える物理・魔法ダメージを小ダウンさせる。=Massively lowers the P.ATK and M.ATK of an enemy in front, slightly lowers their M.DEF, and slightly increases the critical damage they take. On the first activation, additionally slightly lowers the P.DMG and M.DMG they deal.
+r:"^敵単体の物理・魔法攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン敵単体の被クリダメを3％アップ初回発動時、敵単体が与える物理・魔法ダメージを5％ダウン$"=Cast time: 1.05s.\n►Lowers a single enemy's P.ATK and M.ATK by $1 for 12s.\n►Lowers a single enemy's M.DEF by $2 for 12s.\n►Boosts a single enemy's CRIT DMG taken by 3％ for 12s.\n►Upon first use, lowers physical and magical damage dealt by a single enemy by 5％ for 180s.
