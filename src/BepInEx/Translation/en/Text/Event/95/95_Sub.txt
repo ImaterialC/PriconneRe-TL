@@ -20,7 +20,7 @@ sr:"^福弾ける出張ビストロ　(.+)$"=Fortune-Bursting Traveling Bistro: 
 ふふっ、いいですね。\nでは、掛け声はどのような……えっ、こちらですか。=Hehe, that sounds nice.\nThen, what should the chant be… huh, this one?
 ネフィ＝ネラ媛、お気に召して……？\nわ、分かりました。では僭越ながら、わたくしが音頭を。\nせーの……！=Princess Nefi-Nera, does this please you…?\nV-very well. Then, if I may be so bold, I shall lead the call.\nReady—!
 こうして『ビストロプリンセス』が始まるまでの数日間、\nプリンセスが各々で料理を振る舞うことになったのだった。=And so, in the days leading up to the start of “Bistro Princess,”\nthe princesses each ended up serving their own dishes.
-ビストロプリンセス本番まで、料理の練習をしようとクッキングスタジア\nムを訪れたプリンセスたち。Corneliaのアイデアで料理をゲストに振舞う\nことになり、３人はそれぞれ気合を入れるのだった。=In preparation for the Bistro Princess event, the princesses visited the cooking stadium to practice.\nAt Cornelia’s suggestion, they decided to serve their food to guests,\nand each of the three steeled herself with renewed determination.
+ビストロプリンセス本番まで、料理の練習をしようとクッキングスタジア\nムを訪れたプリンセスたち。{playername}のアイデアで料理をゲストに振舞う\nことになり、３人はそれぞれ気合を入れるのだった。=In preparation for the Bistro Princess event, the princesses visited the cooking stadium to practice.\nAt {playername}’s suggestion, they decided to serve their food to guests,\nand each of the three steeled herself with renewed determination.
 
 さぁ、参りますよ。\n目指すはランドソル万博の屋台、完全制覇です。\nついてきてください騎士──そして、アネモネ。=Now then, let us be off.\nOur goal is to conquer every food stall at the Landsol Expo.\nPlease follow me, Knight—and you as well, Anemone.
 ──え、と。\n意味、わかりません──\nそもそもなんで、私……。──クローチェさんは……？=…Um.\nI don’t really understand what you mean—\nAnd why me, of all people…? What about Croce…?
@@ -185,7 +185,7 @@ sr:"^福弾ける出張ビストロ　(.+)$"=Fortune-Bursting Traveling Bistro: 
 ──コロコロコロ。\nシオリ殿が望むのであれば、\n何時也と案内致しまする。=—Korokoro.\nIf Lady Shiori so desires,\nI shall guide you there at any time.
 岩漿煮え滾る巌窟、瘴気渦巻く古跡、精霊荒れ狂う混沌の原野──\n何れも未だ見ぬ一大冒険譚になりんしょう。\n万事万端、相調えてお越しくだしゃんせ。=Caverns of boiling magma, ancient ruins swirling with miasma, chaotic plains where spirits rage—\nAll shall become a grand adventure yet unseen.\nWe shall make all preparations; please come when ready.
 ほ、本当ですか……っ？\nぜひお願いします！　色々と準備をしなくちゃ……\nまずは体を鍛えるところから、ですね。=R-Really…?\nPlease, I’d love that! I need to prepare lots of things…\nFirst of all, I should start training my body.
-私、きっと強くなります！\nジオ・ゲヘナの秘境へ行けるくらい……\nCorneliaさん。一緒にトレーニング、お願いします！=I’ll definitely become stronger!\nStrong enough to venture into Gio Gehenna’s hidden regions…\nCornelia, please train with me!
+私、きっと強くなります！\nジオ・ゲヘナの秘境へ行けるくらい……\n{playername}さん。一緒にトレーニング、お願いします！=I’ll definitely become stronger!\nStrong enough to venture into Gio Gehenna’s hidden regions…\n{playername}, please train with me!
 斯くの如き祝祭の場、民草の心も華やぐと云ふもの。\n足を運ぶ老若男女、皆々が喜ぶ料理となると……\n此れは中々に悩ましき難事なりけり。=At a festive venue such as this, the hearts of the people naturally grow lively.\nTo create a dish that delights all—young and old alike…\nThat is indeed a vexing challenge.
 万人の心躍らせるは至難の極み故。\n先ずは愛らしき稚児らの為、童心くすぐる一品を。\n騎士殿の御手を借りられるとあらば、美味なる品と仕上がりましょうぞ。=Since stirring the hearts of all is exceedingly difficult,\nwe shall first craft a dish to delight the innocent children.\nWith the Knight’s help, it shall surely turn out delicious.
 はぁはぁ……くっくっくっ……\n滾る……滾るぞ……っ！\n私の中に秘められた漆黒の魔力の高まりを感じる……！=Hah, hah… kuh kuh kuh…\nIt surges… it surges…!\nI can feel the dark magic hidden within me rising!

@@ -1,0 +1,23 @@
+##Profile##
+【魔法】中衛でけんぞくとラヴを集めるつよつよ吸血姫。スキルでＴＰを吸収し、【チャームスローブ】を消費して放つＵＢは、ほとばしるカワいさで敵を骨抜きにする。=[Magic] A powerful vampire princess who gathers kin and love from the midline. Her skills absorb TP, while her UB consumes [Charm Slobes] to unleash a burst of overflowing cuteness that leaves enemies powerless.
+
+##UB##
+サマーナイト・スプラッシュ=Summer Night Splash
+目の前の敵１キャラに魔法特大ダメージを２回与え、魔法防御力を小ダウンさせる。対象の【チャームスローブ】が７個以上の場合、さらに受けるクリティカルダメージを小アップさせ、与えたダメージに応じて味方全体のＨＰを最大20％回復させる。対象の【チャームスローブ】が最大の場合、さらに与える物理・魔法ダメージを短時間極大ダウンさせ、【チャームスローブ】を３個消費する。=Deals massive M.DMG twice to an enemy in front and slightly lowers their M.DEF. If the target has 7 or more [Charm Slobes], additionally slightly increases the critical damage they take and recovers all allies' HP by up to 20% based on the damage dealt. If the target has the maximum number of [Charm Slobes], additionally drastically lowers the P.DMG and M.DMG they deal for a short time and consumes 3 [Charm Slobes].
+r:"^敵単体に(\d+)の魔法ダメージを２回与える敵単体の魔法防御力を(\d+)ダウン対象のチャームスローブが７個以上の場合、以下の効果が発動する敵単体の被クリダメを6％アップ味方全体のＨＰを与ダメージに応じて最大20％回復対象のチャームスローブが最大の場合、以下の効果が発動する敵単体のチャームスローブを３個消費する敵単体が与える物理・魔法ダメージを70％ダウン$"=►Deals $1 M.DMG to a single enemy 2 times.\n►Lowers a single enemy's M.DEF by $2 for 18s.\n\nIf the target has 7 or more [Charm Cloak]:\n►Boosts a single enemy's CRIT DMG taken by 6％ for 18s.\n►Recovers HP of all allies by up to 20％ based on damage dealt.\n\nIf the target has the maximum number of [Charm Cloak]:\n►Consumes 3 [Charm Cloak] from the target.\n►Lowers physical and magical damage dealt by the target by 70％ for 18s.
+
+##S1##
+ネオンバットフィズ=Neon Bat Fizz
+目の前の敵１キャラに【チャームスローブ】（上限12）を１個付与し、魔法大ダメージを２回与え、魔法防御力とＴＰを小ダウンさせる。発動時既に対象の【チャームスローブ】が７個以上だった場合、さらに追加でＴＰを小ダウンさせ、自分のＴＰを中回復する。=Grants 1 [Charm Slobe] (up to 12) to an enemy in front, deals large M.DMG twice, and slightly lowers their M.DEF and TP. If the target already has 7 or more [Charm Slobes] when activated, additionally slightly lowers their TP and moderately recovers own TP.
+
+r:"^敵単体に(\d+)の魔法ダメージを２回与える敵単体の魔法防御力を(\d+)ダウン敵単体のＴＰを75失わせる敵単体にチャームスローブを１個付与する対象のチャームスローブが７個以上の場合、以下の効果が発動する敵単体のＴＰを75失わせる自分のＴＰを150回復$"=Cast time: 0.59s.\n►Deals $1 M.DMG to a single enemy 2 times.\n►Lowers a single enemy's M.DEF by $2 for 12s.\n►Reduces a single enemy's TP by 75.\n►Grants 1 [Charm Cloak] to a single enemy.\n\nIf the target has 7 or more [Charm Cloak]:\n►Reduces a single enemy's TP by 75.\n►Recovers own TP by 150.
+
+##S2##
+ラヴリーインプレッション=Lovely Impression
+目の前の敵１キャラの魔法攻撃力を大ダウン、ＴＰを小ダウンさせ、【チャームスローブ】（上限12）を１個付与する。発動時既に対象の【チャームスローブ】が７個以上だった場合、さらに追加でＴＰを小ダウンさせ、自分の魔法攻撃力を大アップし、味方全体のＴＰを小回復させる。=Greatly lowers the M.ATK and slightly lowers the TP of an enemy in front, and grants them 1 [Charm Slobe] (up to 12). If the target already has 7 or more [Charm Slobes] when activated, additionally slightly lowers their TP, greatly boosts own M.ATK, and slightly recovers all allies' TP.
+
+r:"^敵単体の魔法攻撃力を(\d+)ダウン敵単体のＴＰを50失わせる敵単体にチャームスローブを１個付与する対象のチャームスローブが７個以上の場合、以下の効果が発動する敵単体のＴＰを50失わせる自分の魔法攻撃力を(\d+)アップ味方全体のＴＰを100回復$"=Cast time: 0.59s.\n►Lowers a single enemy's M.ATK by $1 for 12s.\n►Reduces a single enemy's TP by 50.\n►Grants 1 [Charm Cloak] to a single enemy.\n\nIf the target has 7 or more [Charm Cloak]:\n►Reduces a single enemy's TP by 50.\n►Boosts own M.ATK by $2 for 12s.\n►Recovers TP of all allies by 100.
+
+##EX##
+#ラヴよろしくぅ♪=#LoveGreeting♪
+#ラヴよろしくぅ♪+=#LoveGreeting♪+

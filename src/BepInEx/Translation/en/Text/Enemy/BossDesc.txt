@@ -2775,3 +2775,39 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 
 
+王家の装備──『怠惰』！=Royal Armament—"Sloth"!
+王家の装備──『強欲』！=Royal Armament—"Greed"!
+【苦死の冥咆】数が３個以上：対象に物理割合ダメージ=If [Deathly Nether Roar] stacks are 3 or more: deals percentage P.DMG to the target.
+敵全体の【苦死の冥咆】をリセット=Resets [Deathly Nether Roar] stacks on all enemies.
+前から敵１体がバリア状態ではない：前から敵１体に【苦死の冥咆】を１個追加=If the foremost enemy is not under a barrier: adds 1 [Deathly Nether Roar] to the foremost enemy.
+前から敵１体に物理／魔法与ダメダウン（召喚体無視・必中）=Reduces P.DMG dealt and M.DMG dealt of the foremost enemy (ignores summons; guaranteed hit).
+自身が防御力ダウン状態ではない：敵全体に【苦死の冥咆】を１個追加=If self is not under a DEF reduction effect: adds 1 [Deathly Nether Roar] to all enemies.
+自身が継続ダメージ状態ではない：敵全体に【苦死の冥咆】を１個追加=If self is not under continuous damage: adds 1 [Deathly Nether Roar] to all enemies.
+【苦死の冥咆】の数が多いほど：ダウン量上昇=The more [Deathly Nether Roar] stacks, the greater the reduction amount.
+敵全体にＴＰ上昇上限=Applies a TP Boost cap to all enemies.
+身丈を超した『願い』の為、幻境竜后についた元三魔姫属。呪術と弓術で相手を翻弄し、『強欲』で未来を、希望を、生命を奪う。=A former member of the Three Demon Princesses who joined the Phantom Realm Dragon Empress for a "wish" beyond her means. She toys with her opponents using curses and archery, stealing the future, hope, and life with "Greed".
+
+ルイズマリー・アカリ=Luise Marie Akari.
+幻境竜后のプリンセスナイトであり友。妖艶かつ陰惨を極めた牝山羊は邪法を用いて弱ったココロに付け込み、魂を堕とし絡み合う。=A Princess Knight and friend of the Phantom Realm Dragon Empress. This bewitching and sinister she-goat exploits weakened hearts with forbidden arts, corrupting and entwining their souls.
+物理か魔法攻撃力が最も高い敵１体に魔法割合ダメージ（召喚体無視）=Deals percentage M.DMG to the enemy with the highest P.ATK or M.ATK (ignores summons).
+物理か魔法攻撃力が最も高い敵１体に誘惑（召喚体無視・必中）=Inflicts Charm on the enemy with the highest P.ATK or M.ATK (ignores summons; guaranteed hit).
+物理か魔法攻撃力が最も高い敵１体の攻撃力を奪って自身に魔法攻撃力アップ（召喚体無視・必中）=Steals the ATK of the enemy with the highest P.ATK or M.ATK and increases own M.ATK (ignores summons; guaranteed hit).
+前から敵１体に与えたダメージが多いほど：ダメージ量アップ=The more damage dealt to the foremost enemy: the greater the damage dealt.
+前から敵１体に与えたダメージが多いほど：沈黙時間アップ=The more damage dealt to the foremost enemy: the longer the Silence duration.
+敵の数が多いほど：ＴＰ回復量アップ=The more enemies there are: the greater the TP recovery amount.
+自身に物理／魔法被ダメアップ=Increases P.DMG and M.DMG taken by self.
+
+冷徹にして悲業の革命者。アストライアへの『憤怒』の炎は激しく燃え上がり、自身をも焚べながら一切を灰燼に帰すまで猛り続ける。=A cold and tragic revolutionary. The flames of "Wrath" toward Astraea burn fiercely, raging on until everything is reduced to ashes, even as they consume herself.
+このスキルの使用回数が多いほど：ダメージアップ=The more times this skill has been used: the greater the damage.
+前から敵２体に魔法割合ダメージ（挑発／召喚体無視）=Deals percentage M.DMG to the two foremost enemies (ignores Taunt and summons).
+前から敵２体に憤怒の伝播（挑発／召喚体無視）=Inflicts Propagation of Wrath on the two foremost enemies (ignores Taunt and summons).
+自身に魔法割合ダメージ=Deals percentage M.DMG to self.
+自身に物理固定ダメージ=Deals physical fixed damage to self.
+敵全体に与えたダメージが多いほど：ダメージアップ=The more damage dealt to all enemies: the greater the damage.
+【残り時間45秒で発動】=[Activates when 45 seconds remain]
+
+冥府にて旧き神と邂逅し狂気に呑まれた偽りの救済者。魔法の威力は熾烈を極め、救い手の望む世界のため抗う全ての敵を尽滅する。=A false savior who encountered an Old God in the underworld and was consumed by madness. Her magic is devastatingly powerful, annihilating all enemies who resist the world her savior desires.
+敵全体に物理／魔法攻撃力ダウン／ＴＰ上昇ダウン／ＨＰ回復量ダウン（必中）=Reduces P.ATK, M.ATK, TP Boost, and HP recovery of all enemies (guaranteed hit).
+
+幻境竜后と盟を結び、再び小さき者の前に立つ創世者。鋭さを増した瞳で未来を見据え因縁に応報すべく終幕の刃を世界に突き立てる。=A creator who forged an alliance with the Phantom Realm Dragon Empress and once again stands before the small ones. With sharpened eyes fixed on the future, he drives the blade of the finale into the world to repay old grudges.
+挑戦回数はイベント参加から2時間ごとに1回分付与されます。=One challenge attempt is granted every 2 hours after joining the event.
