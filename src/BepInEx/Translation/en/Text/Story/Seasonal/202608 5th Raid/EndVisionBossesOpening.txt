@@ -1,0 +1,236 @@
+End Vision Opening, Bosses dialogue
+
+Opening
+「ぴっぎゅうぅ～っ！！」\n「ぶっぅう～～っ！！」="PIGYUUU" "BUUUU"~!!"
+──……来たか。\nアストライア……=...So you have come, Astraea...
+フレイヤさんっ……！\n今度こそ、決着をつけましょう……！=Freyja...! Let us settle this once and for all...!
+リーザ……！\nかつての主君として──\nあなたに、裁きを……！=Lisa...! As your former sovereign, I shall pass judgement upon you...!
+……良い眼をするようになりましたね、ヴァイオレット姫。\nでも──\n私を裁くなんて、できるかしら？=....You've developed quite the discerning eye, Princess Violet. But... are you really capable of judging me?
+うふふふっ♡\nチェリーちゃんや美味しそうな子たちが、よりどりみどり♡\n山盛りのフルーツポンチみたいで、ヨダレが止まりません……♡=Ufufufu♡ Cherry-chan and all those delectable fruits give me the embarassment of choice♡ It's like a mountain of fruit punch, I can't stop drooling...♡
+現れましたね、アルシャト……！\nもう誰も、あなたに堕とさせはしませんよ……！=So you have shown yourself, Alshat...! Nobody shall fall for your schemes any longer...!
+──陛下っ！\nあたしの成長、今度こそお見せしますから……！=...Your Majesty! I'll show you how much I've grown this time...!
+拙い技で、私の『眼』を穢そうというの？\nあなたにしては良い作戦かもしれないわね、キャル……♪=Trying to defile my "Eyes" using your shoddy technique? I see you can put together a decent plan if you try, Kyaru...♪
+きっ──\nきっ──、きっ──\n「君と出逢いぃ～　君と往くぅ～」♪=Me~ Me~ Me~, "Meeting you~ To go together on a journey~"♪
+ミロク……！\n今度こそ、冥界に送り返してあげるわ！=Miroku...! This time, I'll make sure to send you back to the grave!
+キッ！　キキキ来ぃ～やがったなドラゴン娘ぇ……！\nここから先には、逝かせぬゎぁあああぁいっ……！\n先の無いBAD ENDに、送ってやらぁぁ……！=Kih! Kikikikiiiiiii! So you have arrived, accursed dragon girl...! I will not allow you to pass through! The one who shall send you to a futureless BAD END is me...!
+あんた！\nこの前はよくもあたしのこと踏んずけてくれたわね！\nたっぷりお返ししてやるんだから……！=You bastard! How dare you mess me up like you did the other day?! I'll show you a thing or three...!
+……主さま、アメスさま。そしてみなさまも。\n敵は強大にして、数多くおります。\nまずは各個撃破を目指しましょう。=...My Lord, Lady Ameth, and everyone else. The enemies we face are formidable and numerous. Let us aim to defeat them one by one first.
+然り。\n後に控える本命は、此度の首魁にして梟悪──幻境竜后也。\n努々御忘れ無き様に、伏して御願い申し上げ奉る。=Indeed. The main antagonist waiting in the sky is the ringleader of this battle, the wicked dragon... Vision Empress. I humbly request that you do not forget our aim here.
+幻境竜后の元には、行かせない──\nお前たちは、ここで終わりだ。=As if I would allow you to reach Vision Empress... this is where you meet your end.
+お空のソルドラちゃんのおナカが、[rub:リソース]　餌　[/rub]でパンパンになるまで──\nみぃんなで、イチャイチャしましょうね……♡=We should all cuddle together and have fun until Sol Dragon-chan's tummy in the sky is completely full of [rub:Resources]Food[/rub]...♡~ Join me everyone~♡
+……あんま、のんびりしてらんないわね。\nただでさえ絶望的なのに、もっとパワーアップされちゃったら……！=...We cannot afford to be too lax here. This fight is already hopeless enough, but if that beast were to get even more powerful...!
+かしこまりました──\n一意専心、迅速果断に参りましょう！=Understood~ Let us proceed with single-minded focus and swift, decisive action!
+おっけー！\nそれじゃああたしたちも、全力全開だーっ！=Okay! Then we'll give it everything we've got, too! Full power, full throttle!
+よーしっ！\n行きましょう、{playername}くん！\nみんなで、未来を勝ち取るために！=Alright! Let's go, {playername}-kun! To win our future ourselves!
+
+Freyja Pre Fight
+ヲ～ッホッホッホ♪　アラクネさんとのお決戦ではあたくし、\nナーナさんにズンバラリされてスヤスヤでしたけど？\nマンティコア流毒殺剣術の恐怖、今こそ叩き込んで差し上げますわ～っ！=OH HO HO HO♪ During the showdown with Arachne-san, Nana-san cut me down and I ended up sleeping through the whole thing, I hope you remember. Now, allow me to show you the terror of my Manticore-style Poison Swordsmanship~!
+……叩き込まれるのはお前のほうだ。=...You are the one who should grovel in fear here.
+──んひゃあああぁんっ！？=NHYAAAAAAAH!?
+カノンさぁ～んっ！=Kanon-saaaan!
+フレイヤ様とは、過去に何度か相対しておりますが。\nこれほどまでとは……=I have faced Lady Freyja several times in the past, but never would I have expected for her to get this intense...
+……この前わたしと戦ったときよりも、\nさらにパワーアップしてるみたいですね……=...It seems she has powered up even further since we last fought...
+これはもしや……\n幻境竜后からの、強化の力……？=Could this possibly be... a power of enhancement from Vision Empress...?
+ユースティアナ・フォン・アストライア……\n私は最早、貴様との因果に拘泥しない。=Eustiana von Astraea... I no longer concern myself with the fate that binds us.
+幻境竜后のプリンセスナイトとして、王家の装備を振るうだけ。\n怒りの炎はそのままに、機械のように──\n貴様たちを最後の一人まで根絶してやる。=As the Princess Knight of Vision Empress, I will wield my Royal Family's Equipment. With my flames of rage everburning, I will eradicate you down to the very last one, like a machine.
+……そうだ、私の……願いのために──……=...Indeed, all for... my wish...
+……？\nあの方。怒りだけではない、何かが……=......? That girl. There is something more driving her than anger alone...
+いくぞ。\n王家の装備、『憤怒』──！=Here I come. Royal Family's Equipment... "IRA"!!!
+リリちゃん、危ないっ！=LILY-CHAN, WATCH OUT!!
+！\n申し訳ありません、ペコリーヌ様……！=...! My deepest apologies, Lady Pecorine!
+だ、大丈夫です！\nフレイヤさん……\nやっぱり、手ごわいですね……！　でも……！=I-I am fine! Freyja-san... You really are tough...! EVEN SO...!
+ペコリーヌさま、ご無理をなさらず……！\nわたくしたちがおります……！=Lady Pecorine, do not push yourself too hard! We are here with you!
+はいっ……！\n頼りにしてます、みなさん！=Yes...! I shall be counting on you, everyone!
+っ……！\n……アスト、ライア……\n私を……乱すな……！=Kh...! Astraea... do not dare... TO MOCK ME...!
+
+Freyja Post Fight
+……はぁ、はぁっ……！=...Haa, haa...!
+──『[rub:ハウリング・ネメシス]復讐の咆哮[/rub]』！！=..."[rub:Howling Nemesis]ROAR OF VENGEANCE[/rub]"!!
+あ～らあらあら♪　フレイヤさんったらフラフラじゃありませんこと♪\nこのおビューティーなあたくし様が、トドメを刺して差し上げますわ\nお命とったらぁですわ～♪　──んどりゃあああああっっ！！！！=Oh my, oh my♪ You are looking quite woozy, Freyja-san♪ I, the o'most beautiful one, will finish you off. Your o'life is mine♪ NDORYAAAAAH!!!
+しんでる。=She's dead.
+──んびゃあああぁ～～んっ！？！？=NBYAAAHHHHHH!?!?
+まだだ……！\n私の怒りは、ようやく火が付いた程度に過ぎない……！=Nothing is over just yet! My anger has only just begun to ignite...!
+はああぁっ……！！=HAAAAAAAH...!!
+……！\nまだ、これほどの力が……！\nそれに──=...! She can still unleash so much power...! And...
+──漆身呑炭。\nまるで、命の炎をくべているかのような……=A forever burning charcoal. It is as if the very flames of her life sustain it...
+フレイヤさん……=Freyja-san...
+……っ……\nその──\n哀れむような、眼──=Kh... Those... pitying eyes...
+私は、[rub:・]お[/rub][rub:・]前[/rub]が気に食わない。=I really cannot stand YOU.
+お前の眼が。お前の声が。お前の顔が。お前の性格が。\nお前の同情が。\nお前のすべてが──！=Your eyes. Your voice. Your face. Your personality. Your sympathy. EVERYTHING ABOUT YOU...!
+ユースティアナ──いや！\nランドソルの王女、ペコリーヌ！！\n私の怒りを、その卑しい腹がはち切れるまで味わわせてやるッ！！！=EUSTIANA... No! PRINCESS OF LANDOSOL, PECORINE! I WILL MAKE YOU TASTE MY WRATH UNTIL YOUR VULGAR STOMACH BURSTS!!!
+──はい！\nわたしのお腹で、あなたのすべてを受け止めてみせます！=...Very well! My belly will accept that dish until I am full!
+「やあああああぁっ！！」\n「だあああああぁっ！！」="YAAAAAAAAAH!!!" "DAAAAAAAAHHHH!!!"
+
+Lisa Pre Fight
+「リーザ！」\n「リーザちゃ！」\n「リーザ姉しゃま！」="Lisa!"\n"Lisa-cha"\n"Big Shish Lisa!"
+あらあら……ずいぶんと、頭数を揃えて来たわね。\nよってたかって私を嬲るつもりかしら。=Oh dear... Quite the group you've gathered. Planning to gang up and torment me?
+おう。\n落とし前、つけてもらおうかい。=Yeah. About time you paid the price.
+悪いけど。\nそういうワケにもいかないの。=My apologies, but that's not going to happen.
+情けないわね。\n幻境竜后の足の裏は、そんなに甘いのかしら？=How pathetic. Are the soles of Vision Empress's feet really that sweet?
+あたちの足のほうが、おいしいでしゅよきっと……！=I'm certain mine will probably taste better...!
+そんなものいらないわ。\n……タコ焼きは嫌いじゃないけどね。=Didn't ask, nor do I want them. Though... I don't mind takoyaki.
+じゃ、じゃあ……クーちゃんは？\nすっげぇさびしそうに、リーザちゃのこと待ってたよ……？=T-Then... what about yar Cu-chan? She looked really lonely waiting for ya, Lisa-cha...
+未練なんて、ありはしないわ。\nあの子は私の、弱みになるかもしれなかったのだから。=I have no regrets whatsoever. That little one could have become my weakness.
+御託はいらねぇよ。\n曲がった性根、首根っこごとへし折って畳んでやらぁ。=Enough with the excuses. I'll break that twisted nature of yours at the neck and fold you up with it.
+姫？\nさっきの啖呵、忘れてませんよね。=Princess? You have not forgotten your words from earlier, have you?
+……ええ。\nプリンセスとして──\nあなたを裁きます……！=...No. As a Princess... I SHALL PASS JUDGEMENT ON YOU!
+王家の装備──『怠惰』！=Royal Family's Equipment... "ACEDIA"!
+王家の装備──『強欲』！=Royal Family's Equipment... "AVARITIA"!
+
+Lisa Post Fight
+「リーザちゃ……！」\n「リーザ姉しゃま……！」="Lisa-cha...!"\n"Big Shish Lisa...!"
+っ……\nあのね……\n敵がちょっと傷ついた程度で、心配してどうするの。=Hah... Listen... The hell's the point of getting worried if the enemy gets hurt a little?
+あてやっぱ、こんなん嫌だぁ……！\nこっち戻ろ？\nリーザちゃ……！=I-I really don't want this...! Please come back to us, Lisa-cha...!
+うじゅっ……！\nごめんなしゃいでしゅっ……\nで、でしゅけどぉ……！=Ujyuu...! I'm shorry for thatsh... B-Butsh...!
+今なら、全身くしゅぐり刑と久遠氷河でかき氷の刑だけで済みましゅよ！=Right nowsh, you'd just getsh a punishmentsh of getting your bodysh rubbedsh and you'd be forcedsh to make shaved icesh at the Kuon Glacier!
+やれやれ。\n困った奴らだぜ。=Good grief. What a troublesome bunch.
+いや済まないですけどね普通に。\n終身刑でゾンビの廃村の清掃と──\nグレイスちゃんのスケスケな足を舐める刑も、オマケしてあげます。=No, that's not nearly enough. I'll add a life sentence of cleaning up a zombie-infested abandoned village... and, as a bonus, you'll have to lick Grace-chan's sheer feet.
+……最後のだけで、徹底抗戦のための十分な理由になるわね。=...That last part alone is reason enough for me to fight to the bitter end.
+……わかっております。\nあなたが、抵抗を続けるということは。=...I understand. I know very well that you intend to struggle until the very end.
+[rub:・]全[/rub][rub:・]力[/rub][rub:・]で[/rub]挑んで参りなさい──叛逆の徒よ。\nただでさえ、数の利はこちらにあるのですから。=Come at me with ALL YOUR MIGHT... you rebel. We already have the advantage in numbers, after all.
+っ……\n言われなくたって、そうさせてもらうわっ……=...As if you need to tell me. I'll do just that...
+リーザ……！　=Lisa...!　
+
+Alshat Pre Fight
+ヴルムを苦しめた、幻境竜后のプリンセスナイト……！\nここで神罰を下します、アルシャト……！=Princess Knight of Vision Empress who dared to torment my Wyrm...! Here and now, I shall deliver divine punishment upon you, Alshat...!
+やぁん♡\n電流プレイなんて、マニアックすぎますぅ♡\nそれよりも──=Yaaan♡ Electric shock play is way too kinky for me♡ But more importantly...
+まずは、しりとりで勝負♡\nですよぉ♡=First, let's settle this with a game of shiritori♡ Shall we♡
+し、しりとり！？=S-Shiritori?!
+『り』ですか？　ウフフ……\n──『リップサービス』♡=The "ri" sound, is it? Ufufu... "Lip service"♡
+っ！？　そ、それってどういう意味──じゃなくて！\nす、す……\n『スイッチヒッター』！=...Huh?! W-What does that even... No, forget it! S-S... "Switch Hitter"!
+た？\nた～……『玉遊び』、ですっ♪="Ta"? Mmm, then... "Ball play"♪
+まぁ♡\nとっても手ごわいひとたち……♡\nそれなら──=Well now♡ You're a bunch of formidable opponents...♡ In that case...
+『[rub:ビ]ヴィ[/rub]ーちゃんはFカップ』です……♡="[rub:Ve]Vee-chan[/rub] is an F-cup"...♡
+えぇっ！？\nまさか、そんな高等テクを使ってくるなんて……！=What?! I cannot believe you would resort to such an advanced technique...!
+どうしよう～！？\n『ぷ』だよ、お姉ちゃん！=What should I do?! "Pu" is next, Sis!
+へっ！？\nいきなりそんなこと言われても……！\n『ぷ』、『ぷ』……！=Huh?! You can't spring that on me out of nowhere...! "Pu"... "Pu", huh...!
+『プリン』なの～！="PU"DDING, of course!
+ミヤコちゃん！？=MIYAKO-CHAN?!
+あっ♡\n『ん』がついちゃいましたね……♡\n罰ゲームはぁ、お口とお口で──=Ah♡ You ended with an "n"...♡ Your punishment is going to be mouth-to-mouth...
+やあぁぁ～んっ！=YAAAAAHN!
+下卑た座興に付き合う暇など無い。\n欠片も残さず黒焦げにしてくれる……！=I have no time to indulge in such vulgar entertainment. I shall burn you to a crisp, leaving not a single piece behind...!
+はぁ……仕方がありません。\nそれじゃあ、お尻の取り合いはこれくらいにして。\nお肉とお肉をぶつけあうプレイ──はじめましょうか♡=Sigh... I suppose there's no other way. Well then, let's stop with the foreplay. Time to start a flesh-on-flesh game of combat♡
+
+New Titlecard
+ルイズマリー・アカリ=Louise Marie Akari
+
+Alshat Post Fight
+やりましたぁ！\nお兄ちゃん、アカリをた～っくさん褒めてください♡=We did it! Onii-chan, please praise Akari lots and lots♡
+きゃああんっ……♡=Kyaaahn...♡
+あぁん♡\nアカリちゃんやルイズマリーちゃんばっかり、ずるいです♡\nワタシもチェリーちゃんと、ちゅっちゅしまぁす♡=Aaahn♡ It's not fair that Akari-chan and Louise Marie-chan get all the attention♡ I want to give Cherry-chan some kisses too♡
+ダーリンダーリン♡\n私にも、ご褒美くれるわよね？\n今度こそ、唇と唇でっ……！=Darling, darling♡ You'll give me a reward too, right? This time, it'll be lips to lips...!
+ええっ！？\nあの人、まだまだ元気いっぱいって感じじゃない……！=Eeeh?! That woman... she's still full of energy!
+ハイ♡\nヴィーちゃんに、力を貰ってますし──\n何回戦でも、気を抜かずにお相手しちゃいますよ♡=Yup♡ Vee-chan's filling me with power~ I'll gladly take you on for as many rounds as it takes, without ever letting my guard down♡~
+もちろん……\n肉弾戦じゃなくて、構いませんからね……♡\nしりとりでも♡　お相撲でも♡=Of course... It doesn't have to be a physical battle, either...♡ Shiritori will do♡ Or even butt wrestling♡
+雑草みたいに、生えてくるなら──\n刈り取るだけです。\n何度でも──=If you keep sprouting back like weeds... I'll cut you down. Over and over... as many times as it takes.
+モネや、手緩き事を言いなんし。\n不貞の山羊奴──今こそ根切りにしてくれようぞ。=Mone, that is far too lenient. You unfaithful goat-woman... now is the time to tear you out by the roots.
+ふふっ……こわぁい♡\nでも──=Ehehehe... How scaaary♡ But...
+みんな、みぃんな……\n汗や汁まみれの、ドロドロになるまでぶつかりあって。\n心を晒して。それから──ワタシが、抱いてあげますね♡=Everyone, every single one of you... Let's clash until we're covered in sweat and bodily fluids, until we're a complete mess. Lay your hearts bare. At that moment... I'll hold you within my arms♡
+
+Miroku Pre Fight
+……フフ。\n世界が滅びる間際の、この感覚──\n何やら懐かしくすらありますね。=...Heheheh. This feeling, with the world on the verge of destruction... It almost feels nostalgic.
+その節はLoAを焼き滅ぼすこと、叶いませんでしたが。\n此度は現実ごと、滅却すると致しましょう──我が幻境竜后と共に。=I failed to burn the Legend of Astrum to the ground last time. But this time, I shall annihilate reality along with it... together with my Lady Vision Empress.
+現れましたね、ミロク……！=So you have appeared, Miroku...!
+【アルターメイデン】のみんな、気を付けて！\nそいつは──=Girls of Alter Maiden, be careful! That man is...
+──存じております。\n以前わたくしたちが『端末』だった頃、\nミソラ様らと共に、エリス様に仕えていた方……=...We are aware. Back when we were "Terminals", he was one of the people who served Lady Eris alongside Lady Misora and some others...
+御無沙汰をしておりますね……\nTYPE-Rさん。Pさん。Qさん。\n随分と、様変わりしたようですが。=It has been quite some time... Type R-san. P-san. Q-san. You seem to have changed quite a bit.
+今のわたしたちは、そんな名前じゃありませんっ……！\n行きますよ！=Those names do not belong to us anymore...! Let's go!
+「「「シャイン・エンゲージ！！」」」="SHINE ENGAGE!!!"
+……！\nまほう。\nけされた。=...! Our magic. Was erased.
+相変わらず、大変厄介な能力でございます……！=As always, that ability of his proves troublesome...!
+ええ、それに……\n……なんだか、違和感あるわね。\nこの前は、もう少しその……様子が変だったような？=Yes, and what's more... Something feels off. Last time, he seemed a little more... strange, didn't he?
+えっ？\nそうだったんですか？\nわたしたちが知っているあの人と、変わらないですけど……=Huh? Is that so? But he seems no different to us...
+心頭滅却すればなんとやら。\nシェフィさん──貴方とゼーンさんに海へ落とされたことで頭が冷え、\n精神の落ち着きを取り戻したのですよ。=As they say, if you clear your mind, you can overcome anything. Sheffy-san, being thrown into the sea by you and Zane-san cooled my head, allowing me to regain my composure.
+そ、そういうものなの……？=I-Is that really how it works...?
+──おや？\nそちらにいるのは、ミソラさんではないですか。\n懐かしい顔が揃い踏み、まるで同窓会のようですね。=...Oh my? Is that Misora-san I spot over there? So many familiar faces, almost like a class reunion!
+……はぁ。\n正直もう関わりたくないな～ってカンジですけど。=...Sigh. Frankly, I feel like I really don't want anything to do with you anymore.
+幻境竜后のついでに、大掃除しちゃいましょっか★\nそれじゃ、どるるる──=While we're fighting our way to Vision Empress, I might as well do a little housecleaning★ Well then... Dururu~
+うじゅっ！？\nあたちをよびまちた？=UJYUUH?! D-Did you just call for me?
+──ひぃっ！！！！！=HYAAAAAY!!!
+タ、タコぉっ！！！！！！！\nいやぁ！！！\nタコいやぁ！！！　ぐちょぐちょぬるぬるカミサマいやぁ～っ！！！！=A-AN OCTOPUS!!! NOT AN OCTOPUS!!! I HATE THEM!!! I HATE THEM AND THEIR SLIMY, GOOEY GOD!!! 
+ぜんぜん落ち着いてないじゃない！？=YOU'RE NOT COMPOSED AT ALL, ARE YOU?!
+──無効化能力に隙が生まれたようです。\n畳みかけましょう、主さま。=...It seems an opening has appeared in his nullification ability. Let us press it to our advantage, my Lord.
+
+Miroku Post Fight
+いいわ、効いてる……！=Good, it's working...!
+どひいいいぃっ！？=WAAAEEEEYYY?!
+「ナナカ・∞・グリッター！」\n「忍法・烈火之紅蓮旋風～っ！」\n「羅刹涅槃・《覇極》万象無尽冥壊破！」="NANAKA INFINITE GLIMMER!!!"\n"NINPOU: BLAZING CRIMSON WHIRLWIND!!!"\n"NIRVANA OF THE RAKSHASA: WORLD DESTRUCTION!!!"
+こ、ごの゛ぉ゛っ……！\n『[rub:プレイ・ウィズ]無手にて[/rub]──=C-Curse you...! [rub:Pray without]Unarmed[/rub]...
+「エンド・ヴィジョン　-幻竜争覇戦-」でミロクに1回挑戦しよう=Let's challenge Miroku in the End Vision: The Phantom Dragon Battle
+うじゅるるる～っ！=UJYURURURUR...!
+──『プレイ・ウィズ・うじゅるる』！！=..."Pray With UJYURURU"!!!
+「イスルギ流奥義・いろは歌【琥珀】！」\n「極の太刀・止水龍吟の哮り！」\n「ミクマ流奥義・烈風迅光！」="ISURUGI STYLE SECRET TECHNIQUE: IROHA SONG [Amber]!"\n"ULTIMATE SWORD TECHNIQUE: STILL WATER DRAGON'S ROAR!"\n"MIKUMA STYLE SECRET TECHNIQUE: GALE FORCE LIGHT!!!"
+ぉんぎゃあああぁぁっ！？=OGYAAAAAHHHH?!
+ぅぅ……\n……ぐすっ……=Ugh... *sniffle*
+うじゅっ、うじゅっ……！　ふぇぇん、ひどすぎでしゅぅ～っ！！\nようやく見つけたカミサマがあんなうじゅうじゅネバネバとかぁ……！\nどうせならいないほうがよ゛がっだよ゛ぉ゛～っ゛！！=Ujuu, ujuu......! Waaah, this is TOO cruel!! When I finally found God... he was all slimy and sticky!!! I wish I never met him!
+わぁ～……\nミロクさん、すっかりはっちゃけちゃいましたね★\nドン引きです♪=Wow... Miroku-san's totally lost it★ How creepy♪
+わたしも、タコはちょっと……=I don't particularly like octopuses either...
+……なんていうか、ゲームでたとえるなら\n弱点とか特効のようなもんみたいね。\n何がどう効いてんのかは分からないけど……=...How should I put it? I guess you could call it a weakness or a special effect in a game. I don't know exactly why it's working, though...
+よくわからないでしゅけど、ありがとうございましゅ！\nそれじゃ、もっとも～っとうじゅうじゅしましゅよっ！\n『全身もみほぐちタコ足乱舞──=I dont'sh really getsh it, but thanksh you very much! Well thensh, I'll give yoush an even better tentaclesh massage! "Full bodysh massage, octopush tentacles dancing wildlysh"
+……ちょぉぉぉＣにィ──=...Stop playing...
+乗りゅにゃああぁあっ！！！=AROUUUUUND!!!
+うじゅ～っ！！？=UJYUUUUUUUU!!?
+ルルィちゃ──っ！=LULUI-CHA!!
+──ばあぁぁぁっ……！\nこのにゅるにゅるガミのケンゾクがぁぁぁ……\nたこわさにして、オレのカミ殺しの一歩目にしてやらぁぁぁ……！=GRAAAH.....! That slimy God's relative... I shall turn her into octopus wasabi and make her the first step in my God-killing quest...!
+ったく……！\n相変わらず、しぶといやつね……！=Geez...! As stubborn as ever...!
+しかも、幻境竜后の力でパワーアップまでしてるみたい……\nでも、こんな人に絶対負けられないわ！\n行きましょう！=What's more, it seems he's even powered up by the power of Vision Empress... But I absolutely refuse to lose to someone like him! LET'S GO!
+
+Player Prompts
+ルルィちゃん、ナイス……！=Good job, Lului...!
+
+Kaiser Insight Pre Fight
+「『覇瞳天星』──！」\n「──『覇瞳天星』」="HADOU TENSEI...!" "...Hadou Tensei"
+……視えた！\nそこっ──=...I see it! RIGHT THERE~
+天叢雲剣・雷霆。=Ama-no-Murakumo Sword: Thunderclap.
+──えっ？\nぎゃああああぁっ！=...Eh? GYAAAAAAAH!!!
+フン──私の権能の猿真似なんて。\n本当、恥知らずな真似をするわね。\nいったい誰に似たのかしら。=Hmph. A brute-force imitation of my authority. Really, what a shameless thing to do. I wonder who you could have gotten that from.
+──ほら。\nその『瞳』で予知して、避けてみなさいな。=Come on. Use those "eyes" of yours to foresee and try to dodge these.
+避けろって、言われても……！\n避けた先に、かならず雷の球が置いてあるんですけどっ……！　=Even if you tell me to dodge...! There's always a ball of lightning waiting wherever I move to...!
+──ぎゃっ！\n──ひぐっ……！\n──ぅあああっ！！=...GYAH! Ughhh... GAAAAAH!!!
+……はぁ。\n本当に愚かなんだから。\nうわべだけ真似た技で、私の相手になると思っていたの？=...Hah. You really are a fool. Did you really think you could stand against me with a technique you merely copied on the surface?
+あなたの予知精度は、私の予知精度の──そうね。\n甘めに採点してあげても、20％にも満たない。\nこれがどういうことか、分かる？=Your predictive accuracy is... Well. Even if I grade you generously, it does not even reach 20% of mine. Do you understand what that means?
+…………ぁ、あははっ……♪\nうれしい、です……♪\n陛下の、20％なんて……あたし、すご────ぎゃっ！！？=...A-Ahaha...♪ That makes me so happy...♪ 20% of Her Majesty's... 20%... I guess I really am... a geniu--... GUAAAH!!!
+まったく……やっぱり、何も分かってないじゃない。\nあなたはね？　ようやくチェスのルールを覚えた子供のようなもの。\nグランドマスターの私とは、読みの深さが違うのよ。=Honestly... You truly do not understand anything. Like a child who has just learned the rules of chess. The depth of your calculations is on an entirely different level from that of a "Grandmaster" like me.
+つまり──私は[rub:・]あ[/rub][rub:・]な[/rub][rub:・]た[/rub][rub:・]の[/rub][rub:・]予[/rub][rub:・]知[/rub][rub:・]を[/rub][rub:・]予[/rub][rub:・]知[/rub][rub:・]で[/rub][rub:・]き[/rub][rub:・]る[/rub]。\n[rub:・]あ[/rub][rub:・]な[/rub][rub:・]た[/rub][rub:・]が[/rub][rub:・]予[/rub][rub:・]知[/rub][rub:・]で[/rub][rub:・]き[/rub][rub:・]な[/rub][rub:・]い[/rub][rub:・]こ[/rub][rub:・]と[/rub][rub:・]を[/rub][rub:・]予[/rub][rub:・]知[/rub][rub:・]で[/rub][rub:・]き[/rub][rub:・]る[/rub]。\n10手先を読んで、３手先しか読めないあなたが詰む先に雷撃を置ける。=In other words, I am capable of predicting your predictions.\nI CAN FORESEE THINGS YOU SIMPLY CANNOT.\nBy reading 10 moves ahead, I can place a lightning strike where you, who can only read 3 moves ahead, will be checkmated.
+だから──\nそろそろワガママをやめなさい？\nその雷撃防御のアミュレットも、もう保たないわよ。=So... it is about time you stopped being so selfish. That lightning-resistant amulet of yours will not last much longer.
+──来たわね。=...So you have finally arrived.
+「キャルちゃん！」\n「キャル！」="Kyaru-CHAN!" "Kyaru!!"
+──光の精よ、癒しを……！=O'Spirit of Light, heal her......!
+……わ、悪いわね。あんたたち。\n「一回でいいから、陛下とタイマンさせて」なんて\nワガママに付き合ってもらっちゃってさ……=...I-I'm sorry, you guys. I made you indulge my selfish request of "Just once, let me have a one-on-one fight with Her Majesty"...
+もう、ムチャしすぎだよ～っ！=Geez, that was WAY too reckless!
+師を──恩ある人物を超えたい、っていう気持ちは分かるけどね。=I understand why you wish to surpass your mentor, someone who used to be your benefactor, even so...
+師だとか、恩人だとか。\n気持ち悪いことを言わないで頂戴……不敬罪ものよ？=Mentor, benefactor... Please refrain from saying disgusting things... That is practically grounds for lese-majesty, you know?
+まぁ──\nそうでなくても、あなたたちのことは始末するけどね。\n【トゥインクルウィッシュ】。=Well... Even if that were not the case, I would still dispose of you... "Twinkle Wish".
+覇瞳皇帝さん……！\n[rub:・]も[/rub][rub:・]う[/rub]、わたしたちは負けません……！=Kaiser Insight-san...! We WILL NOT lose to you anymore...!
+かつてあなたに敵わなかった私たちの不甲斐なさが、『懲役』を──\n今の世界の窮状を、作ったようなものだ。\nだからっ……！=Our own inadequacy, when we were unable to stand against you before, is what brought about the "imprisonment"... and, in a way, the dire state of the world we find ourselves in now. Which is why...!
+──今度こそ、あのとき掴めなかった勝利を掴んでみせるっ！\n一緒に行こう、騎士くん！　キャルちゃん！　みんな！=This time, we'll seize the victory that slipped through our hands back then!\nLET'S DO THIS TOGETHER! KNIGHT-KUN! Kyaru-CHAN! EVERYONE!
+ええ……！\n拙い技なんかじゃなくて──しっかり見てもらいます、陛下！\nあたしたちの絆を！=Yes...! Not some through some clumsy imitation of your technique... Take a good look, Your Majesty! I'll show you the strength of our bonds!
+
+New Titlecard
+キャル・覇瞳皇帝=Kaiser Insight & Kyaru
+
+Player Prompts
+キャルを強化する！=*Enhance Kyaru*!
+
+Kaiser Insight Post Fight
+チャンスだ！\n畳みかけよう！=THIS IS OUR CHANCE! PRESS THE ATTACK!
+よーしっ！\nヒヨリブレイジング──=Right! Hiyori Blazing...
+っ！\n待って──=WAIT! STOP...
+……覇瞳天星・滅光！！=...Hadou Tensei: ANNIHILATION!!
+うぅっ……！\nあたしがもっと、正確に攻撃を予知できたら……！　=Ugh...! If only I could predict those attack more accurately...!　
+──あんたたち！\n下がって回復してなさい！\n戦いは、まだまだこれからなんだからね！？=You five! Fall back and heal up! This fight is only getting started, you hear me?!
+……ごめん、フィオちゃん……！\nすぐ戻るから！=...Sorry, Fio-chan...! We'll be right back!
+……ガイド妖精。\nまた自爆でもする気かしら？\nあのとき同様、何の意味もないけどね。=...Guide Fairy. Planning to stage another self-destruction? Yet, just like last time, it shall prove meaningless.
+しないわよそんなこと！\n体を直すの、ほんとしんどかったんだから！\nそれよりも──=I wouldn't do something like that! It was really tough getting my body fixed! More importantly...
+選手交代！\n頼むわよ──七冠！=Player switch! I'm counting on you... Seven Crowns!
+──[rub:ナンバーズアヴァロン]乱数聖域[/rub]！\nアヴァロン！\nアアァヴァロォンッ！！=...[rub:Numbers Avalon]"Random Number Sanctuary"[/rub]! AVALON! AVAAAALON!!!
+……っ！\nああ、やだ……\nその切っ先──前より鋭くなったようね。クリス。=...! Oh dear... That blade of yours... I find it sharper than before, Chris.
+もちろんだとも！\nステージに命を燃やす少女たちの輝きを受けて、\nワタシの剣も輝きを増したのさ☆=Of course! Inspired by the radiance of the girls who pour their hearts and souls into the stage, my sword shines brighter than ever☆
+さぁ陛下！　もっと！　もっとだ！\n全力で殺し合い、愛し合おうじゃないか！\nナンヴァーズ──=Come now, Your Majesty! More! More, I say! Let's kill each other in a dance filled with love and might! Numbers~...
+やっほー、真那ー？\nビックリしたよ、まさかキミが幻境竜后と組むなんてね。\nキミたちそんなに仲良かったっけ？=Hey there, Mana? I was so surprised, I never thought you'd team up with Vision Empress. Were you two always that close?
+別に、仲良しこよしなんかじゃないわ。\n私を倒したあなたたちに、今度こそ負けないために行動しているだけよ。\n……どれだけ不愉快でもね。=Not really. Not even friends or anything of the sort. I am just taking the necessary actions to not lose to the lot of you again... No matter how unpleasant it may be.
+……なんだか変わったね。\nたかーく伸びてた鼻が折れて、ますます器量良しになったんじゃない？=...Seems like you've changed a bit. That nose you had stuck way up in the air has finally been broken. I think you're even prettier for it, don't you?
+慢心が消えた今のほうが、前よりずっとずーっと手強そうだ。\n……こりゃあ、こっちも後先考えてたらあっさりへし折られるね。=Now that you've lost that arrogance, you seem much, MUCH tougher than before. ...Looks like we'll be crushed in no time if we start worrying about what comes next.
+こらこらこら。\nワタシと陛下のダンスの最中に、割り込みはやめてもらおうか？=Hey, hey, hey. Can you please stop interrupting this thrilling dance I'm having with His Majesty?
+ダンスだなんて嫌よ、疲れるもの。\nそれよりも──\nあなたたちは私に頭を垂れて、跪くのがお似合いよ！=I find dancing to be displeasing, far too tiring. Instead... You are much better off bowing your heads and kneeling before me!
+

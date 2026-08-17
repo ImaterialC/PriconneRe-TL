@@ -133,7 +133,7 @@ sr:"^(.+)のバースト効果確認$"=Burst Effect of $1
 イベントで使用されるサポートキャラを設定できます。=You can set the support characters used in the event.
 特別サポート設定=Special Support Settings
 
-リタイアしても、挑戦回数は消費されません。\n　※バトルの途中経過は保存されません。\n\nリタイアしますか？=Even if you retire, the attempt will be used.\n※The progress of the battle is not saved.\n\nDo you want to retire?
+リタイアしても、挑戦回数は消費されません。\n　※バトルの途中経過は保存されません。\n\nリタイアしますか？=Retiring will not consume an attempt.\n※The progress of the battle is not saved.\n\nDo you want to retire?
 
 イベント参加時点では、\n6回挑戦できる状態でスタートします。=At the time of the event, there will start with six attempts.
 挑戦回数はイベント開始から\n1時間ごとに1回分付与されます。=The number of attempts is given one every hour from the start of the event.
