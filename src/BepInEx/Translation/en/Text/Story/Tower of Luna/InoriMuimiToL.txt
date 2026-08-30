@@ -64,8 +64,8 @@ Chapter 1
 Player Prompts
 ……なにか聞こえない？=...Don't you hear something?
 ……上だ！=...Up above!
-ノウェムちゃん！？=Novem?!
-よろしくお願いします、ノウェムちゃん。=Glad to adventure with you, Novem!
+ノウェムちゃん！？=Noemu?!
+よろしくお願いします、ノウェムちゃん。=Glad to adventure with you, Noemu!
 大悪党だもんね。=She's a "Big Villain", after all
 
 Chapter 2
@@ -177,7 +177,7 @@ Chapter 3
 
 Player Prompts
 また一人になるのは危ないよ！=It'd be dangerous if you're alone again!
-ノウェムちゃんを置いていけない！=I can't just leave Novem behind!
+ノウェムちゃんを置いていけない！=I can't just leave Noemu behind!
 数が多すぎる……！=There's too many of them...!
 イノリを強化する。=Enhance Inori
 良い子だよ。=She's a good girl
@@ -396,7 +396,7 @@ Chapter 6
 ……あっ、そうだ。\nまだ、自己紹介してなかったですね。=...Ah, that's right. I haven't introduced myself yet.
 あたしは祈梨。一ノ瀬祈梨です。=I'm Inori. Ichinose Inori.
 祈梨か。いい名前だな！　アタシは……=Inori, huh? That's a nice name! As for me...
-{playername}の前で\nノウェムだって名乗るわけにもいかないしな。ここは……=I can't introduce myself as Novem in front of {playername}. Therefore, I should go with...
+{playername}の前で\nノウェムだって名乗るわけにもいかないしな。ここは……=I can't introduce myself as Noemu in front of {playername}. Therefore, I should go with...
 矛依未だ。\n……好きな名前じゃないんだけどな。=I'm Muimi. ...Though it's not my favourite name to go by.
 えっ……じゃあ、お姉さんのこと、なんて呼べば……=Huh...? Then, what should I call you with, Onee-san...?
 気にするな、今は矛依未でいい！\n……本当に呼んでほしい名前は、\nいつか、一緒に冒険した時にでも教えてやる！=Don't worry about it, I'm fine just being Muimi for now! ...The name I really want you to call me by will be revealed to you someday, when we go on an adventure together!
@@ -406,13 +406,13 @@ Chapter 6
 ……ああ、まあな。\nけど別に、ムイミでいいぞ？=...Yeah, pretty much. But it's fine if you just call me Muimi, you know?
 いいや！　そういうわけにもいかないですよ！\nあたしたちは、ここまで一緒に冒険した仲間……いや、悪友ですからね！=No! I won't accept that! We're friends who've been adventuring together so far... No, we're villain pals!
 ははっ、いいなそれ！\n悪友なんて初めてできた！=Haha, that's a great way to put it! This is the first time I've made a villain pal!
-そういうわけですし、それじゃあ……\nこれからはお兄さんみたいに、ノウェムって呼ばせてもらうです！=That's how it is, so... Just like Onii-san does, I'll call you Novem from now on!
+そういうわけですし、それじゃあ……\nこれからはお兄さんみたいに、ノウェムって呼ばせてもらうです！=That's how it is, so... Just like Onii-san does, I'll call you Noemu from now on!
 それでいいですね？　文句は言わせないですよ！=Is that fine for you? I won't accept any complaints!
 ……ああ！　ありがとな！=...Yeah! Thanks!
 ……それはそうと。\nもう、アタシはヘトヘトだ……オマエたちもそうだろ？=...That aside, I'm already exhausted... I bet you two are no different, right?
 うぐっ……じ、実はそうです……\n結局、金目のものは手にはいらなかったですけど……\n今日のところは引き揚げるとするですよ。=Ugh... A-Actually, yes... In the end, I didn't get anything valuable, but... I think I'll call it a day for now.
 ああ、そうするか。\n……また一緒に冒険したいな、イノリ！=Yeah, let's do that. ...I'd love to go on another adventure with you, Inori!
-ですね！　今度こそお宝手にいれるですよ、ノウェム！=Same here! And next time, we'll be able to get our hands on the treasure, Novem!
+ですね！　今度こそお宝手にいれるですよ、ノウェム！=Same here! And next time, we'll be able to get our hands on the treasure, Noemu!
 そして{playername}と悪党コンビは、\n満足げにルナの塔から撤退したのだった。=And so, {playername} and the villainous duo retreated from the Tower of Luna with a sense of satisfaction.
 
 Player Prompts

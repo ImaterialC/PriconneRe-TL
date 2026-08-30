@@ -2811,3 +2811,17 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 幻境竜后と盟を結び、再び小さき者の前に立つ創世者。鋭さを増した瞳で未来を見据え因縁に応報すべく終幕の刃を世界に突き立てる。=A creator who forged an alliance with the Phantom Realm Dragon Empress and once again stands before the small ones. With sharpened eyes fixed on the future, he drives the blade of the finale into the world to repay old grudges.
 挑戦回数はイベント参加から2時間ごとに1回分付与されます。=One challenge attempt is granted every 2 hours after joining the event.
+
+
+魔力を帯びた霧が実体化した魔物。怨嗟を振りまいては、冒険者の生気を徐々に蝕む。=A monster formed from magically charged mist. It spreads resentment while gradually draining the vitality of adventurers.
+自身が継続ダメージ状態：ダウン量減少=If self is under continuous damage: reduces the reduction amount.
+メデューサに物理固定ダメージ=Deals physical fixed damage to Medusa.
+自身への継続ダメージ量アップ 【召喚体死亡時】=Increases continuous damage dealt to self \n\n[When a summon dies].
+自身への継続ダメージ量アップ \n【召喚体死亡時】=Increases continuous damage dealt to self \n\n[When a summon dies].
+しもべ２体召喚【召喚体特殊効果】=Summons 2 minions\n\n[Special Summon Effect].
+対象のＨＰ70％未満：対象に石化=If the target's HP is below 70%: inflicts Petrify on the target.
+後ろから２番目の敵と周囲に魔法ダメージ=Deals M.DMG to the 2nd enemy from the back and nearby enemies.
+対象のＨＰ70％未満：毒ではなく猛毒=If the target's HP is below 70%: inflicts Venom instead of Poison.
+後ろから２番目の敵と周囲に毒=Inflicts Poison on the 2nd enemy from the back and nearby enemies.
+対象のＨＰ80％未満：対象に最大ＨＰダウン（必中）=If the target's HP is below 80%: reduces the target's max HP (guaranteed hit).
+対象のＨＰ70％未満：石化時間アップ=If the target's HP is below 70%: increases Petrify duration.

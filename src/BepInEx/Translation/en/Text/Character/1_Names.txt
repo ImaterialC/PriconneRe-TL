@@ -157,13 +157,14 @@
 ヤマト=Yamato
 フブキ=Fubuki
 ワカナ=Wakana
+ティア=Tia
 
 カズマサ=Kazumasa
 ユウキ=Yuuki
 ネビア=Nebbia
 ホウオウ=Ho-oh
 
-ルルィ=Lului
+ルルィ=Rurui
 ヴァイオレット=Violet
 グレイス=Grace
 イロハ=Iroha
@@ -192,6 +193,10 @@ Ameth alias
 ミホ=Miho
 エリカ=Erika
 
+リーザ・フレイヤ=Lisa Freyja
+アルシャト=Alshat
+アグライア=Aglaia
+エウロス=Euros
 
 sr:"^このスキルのスキルレベルは「([\S\s]+)」と連動しています$"="This skill's level is linked to "$1""
 

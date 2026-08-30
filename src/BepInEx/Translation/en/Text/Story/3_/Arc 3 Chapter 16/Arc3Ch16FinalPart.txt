@@ -44,7 +44,7 @@ LoAの基盤プログラムを内部から破却するには\n『この子』の
 「う、嘘だろ……俺が、こんな罠にかかって、死んじまうとか……」\n「お母さん、どこいっちゃったの？」「ロストって、なに……？」\n「……許さない、許さない許さない許さない許さない……！」="Y-You're kidding... I can't believe I'd fall into a trap like this and die..." "Mom, where did you go?" "Lost... What's that?" "...I won't forgive you, I won't forgive you, I won't forgive you, I won't forgive you, I won't forgive you...!"
 これは……不具合？\nアイテール・モジュールに、何が──=Is this... an error? Is there something wrong with the Aether Module...
 ──おっ！\nこのカケラは……{playername}と最初に戦ったときの記録かー！\nなつかしーっ！　ははっ、オクトー若いなー！=...Oh! This memory fragment... a record of when we first fought {playername}! How nostalgic! Haha, you look so young here, Octo!
-いやいやノウェム。言うほど変わんないでしょ～\nアバターだってリセットされてるんだから。\n……変わってないよね？=No, no, Novem. I don't look that different, do I? My avatar's been reset too, after all... It hasn't changed, right?
+いやいやノウェム。言うほど変わんないでしょ～\nアバターだってリセットされてるんだから。\n……変わってないよね？=No, no, Noemu. I don't look that different, do I? My avatar's been reset too, after all... It hasn't changed, right?
 ……？\nここ、は──=...? This place is...
 おっ、ミネルヴァ！\n目が覚めたか？=Oh, Minerva! Are you awake?
 まあ、目が覚めたっていうか。\n休眠状態が解除されたっていうのが正しいんだろうけどね。\nとにかくおはよう、ミネルヴァ。=Well, I guess you could say she's "awake". Though technically, it's more like her dormant state was deactivated. Anyway, good morning, Minerva.
@@ -57,12 +57,12 @@ LoAの基盤プログラムを内部から破却するには\n『この子』の
 契約──\nあなたたちには、私の能力を用いて、現実での自由を。\nその代わり私には、七冠からの脱却のための手伝いを……でしたね。=The "contract"... you will be granted freedom in the real world using my abilities. In return, you will help me break free from the Seven Crowns... correct?
 そして──ここは、ルナの塔。\n……？\n管理者権限を持つ私はともかく、あなたたちはどうやってこの塔の中へ？=And this is... The Tower of Luna? Setting me aside, as someone with Administrator privileges... how did the two of you get inside this tower?
 そんなの、オクトーがどうにかしたに決まってるだろ？\nアタシの相棒は、超すっっっごいハッカーなんだからさ！=Do you even have to ask? It's all thanks to Octo, of course! My partner is a super awesome hacker!
-ノウェムが{playername}やイノリって子と一緒に冒険した\n話を聞いてさ。入口のセキュリティは、ちょーっとセンサーを誤魔化して\nついでにIDも偽装しちゃえばなんとかなるかなーって。=I heard about how Novem went on an adventure with a girl named Inori and {playername}. I figured if I spoofed the sensors a little, and spoofed some IDs while I was at it, we'd probably manage somehow.
+ノウェムが{playername}やイノリって子と一緒に冒険した\n話を聞いてさ。入口のセキュリティは、ちょーっとセンサーを誤魔化して\nついでにIDも偽装しちゃえばなんとかなるかなーって。=I heard about how Noemu went on an adventure with a girl named Inori and {playername}. I figured if I spoofed the sensors a little, and spoofed some IDs while I was at it, we'd probably manage somehow.
 むしろ、ミネルヴァを探すほうが大変だったけどねー。ソルの塔以外で\n休眠状態になるならここだろうって長老が推測してたけど、\n隠しフォルダ──じゃなくて、次元の断層の奥に隠れてるんだもん。=If anything, it was harder to find you. The Elder speculated that if you were going into a dormant state anywhere other than the Tower of Sol, it would be here, but you were hiding deep inside a dimensional rift... not a hidden folder, I mean.
 流石です、オクトー\n腕は落ちていないようですね。=Marvelous, Octo. It seems your skills have kept their edge.
-それにノウェムとも再会し、仲直りができたようで。\n何よりです。=And to you too, Novem. I am glad to see the two of you have made up.
+それにノウェムとも再会し、仲直りができたようで。\n何よりです。=And to you too, Noemu. I am glad to see the two of you have made up.
 ほんともう、やっと元通りって感じだけどさー\nオクトーってば、ずいぶん長いこと無愛想してくれたよなー\nこのこのっ。=Seriously! It really feels like things are finally back to normal, but... You spent forever acting all cold toward me. Octo, you meanie!
-いただっ！\n悪かったってばも～\nヘソの周りグーパンで狙わないでよノウェム。=Ow, ow! I'm sorry, seriously. Quit aiming punches at my stomach, Novem!
+いただっ！\n悪かったってばも～\nヘソの周りグーパンで狙わないでよノウェム。=Ow, ow! I'm sorry, seriously. Quit aiming punches at my stomach, Noemu!
 っていうか──\nミネルヴァ。\nキミ、調子はどうなの？=By the way... Minerva. How are you doing?
 そうそう！\nなんか悪夢でも見てうなされてるみたいだったぞオマエ！=Right, right! You were tossing and turning like you were having a nightmare or something!
 ……正直なところ。\n再々構築からこれまで休眠し、デフラグを実行しても\n状態はあまり改善されていないようです。=...To be honest, since the second rebuild, my system has been dormant. Even after running defragmentation, my condition does not appear to have improved significantly.
@@ -85,7 +85,7 @@ LoAの基盤プログラムを内部から破却するには\n『この子』の
 はい。プレイヤー、NPC、魔物などで行われた戦闘はもちろん\n魔法や精霊の行使、オブジェクトの破壊や変更履歴、天候の変化。\n誰がいつ、どこで、誰と何を話し、何を食べたか。すべて記録されます。=Yes. This includes not only battles between players, NPCs, and monsters, but also the use of magic and spirits, the destruction and modification history of objects, and weather changes. It also records who spoke, when, where, with whom, and what they ate. Everything is recorded.
 そして──プレイヤーたちの、『感情』も。=And also... the players' emotions.
 ふーん？　よくわかんないけど、すごいんだよな？\nそのアイテール・モジュールっての。\nこの世界のデータ全部って、きっととんでもない量だろうし。=Hmm? I don't really understand it, but it's amazing, right? This... Aether Module thing. Considering all the data in this world, it must be an enormous amount.
-……とんでもない、どころじゃないよノウェム。\n現在の技術水準を飛び越えまくった、『オーパーツ』もいいとこだ。\n何百万、何千万ものプレイヤーの魂の格納先でもあったんだから。=...Amazing doesn't even begin to describe it, Novem. It's an out-of-place artifact (OOPArt) that far surpasses current technological standards. It also acts as the storage location for the souls of millions, even tens of millions, of players.
+……とんでもない、どころじゃないよノウェム。\n現在の技術水準を飛び越えまくった、『オーパーツ』もいいとこだ。\n何百万、何千万ものプレイヤーの魂の格納先でもあったんだから。=...Amazing doesn't even begin to describe it, Noemu. It's an out-of-place artifact (OOPArt) that far surpasses current technological standards. It also acts as the storage location for the souls of millions, even tens of millions, of players.
 それに──……ねえミネルヴァ。\n「すべて記録される」っていうのは、{playername}たちが\n覇瞳皇帝を倒すまでの『周回』のログも含まれるのかな。=And also... hey, Minerva. When you say "everything is recorded", does that include the logs of the "loops" leading up to {playername} and the others defeating Kaiser Insight?
 もちろんです。\n圧縮・加速された時間の中で行われた、無数の『周回』。\nそのすべてが、『アイテール・モジュール』には記録されています。=Of course. Countless "loops" carried out within compressed, accelerated time. All of them are recorded in the "Aether Module".
 当然、周回と同じ数の『滅び』があり──\nLoAの世界を真実と信じるプレイヤーたちの、死が。\n極限状態における強い苦しみと悲しみの、『負の感情』がありました。=Naturally, there were as many "resets" as there were "loops"... including the deaths of players who believed the world of LoA to be real. There were "negative emotions" of intense suffering and sorrow in extreme circumstances.
@@ -93,7 +93,7 @@ CPUなどが処理速度を上げるためオーバークロックするよう�
 おそらくは。\n大量の周回と、大量のプレイヤーたちの、極限の『負の感情』──\nそれがアイテール・モジュールに焼き付き、不具合を起こしているかと。=Most likely... Due to the massive amounts of "loops", and the resulting extreme negative emotions generated by an equally absurd amount of players... Those emotions may have been burned into the Aether Module itself, causing errors.
 『感情』がモジュールに焼き付いて、不具合……？\nそんな現象、本当に有りうるの？="Emotions" burned into this module, causing errors...? Is such a phenomenon truly possible?
 へへっ、知らないのかオクトー？\n花も悪口ばっか浴びせられると枯れるって、テレビか何かで見たぞ！\n多分それと、似たようなものなんだろ？=Heheh, don't you know, Octo? I saw on TV once that flowers'll wilt if you keep saying mean things to them! It's probably something similar to that, right?
-うーん。ノウェムが言いたいのって、バクスター効果のことだよね？\n植物みたいな有機物ならともかく、デバイスは無機物だからなぁ……\n……っとごめん、ミネルヴァをディスるつもりはないからね。=Hmm. Novem what you're talking about... it's the Baxter effect, right? It might work for organic matter like plants, but digital systems are inorganic... Ah, sorry. That was not meant as a diss, Minerva.
+うーん。ノウェムが言いたいのって、バクスター効果のことだよね？\n植物みたいな有機物ならともかく、デバイスは無機物だからなぁ……\n……っとごめん、ミネルヴァをディスるつもりはないからね。=Hmm. Noemu what you're talking about... it's the Baxter effect, right? It might work for organic matter like plants, but digital systems are inorganic... Ah, sorry. That was not meant as a diss, Minerva.
 気にしていませんよ。\nただ、私たちAIの思考も、電気信号のネットワークという観点では\nあなたがた人間の脳と変わらないことは忘れないで頂ければと思います。=No offense taken. However, I would ask that you remember this: our AI thought processes are, fundamentally, networks of electrical signals... no different from the human brain.
 うーんと……とりあえず、ミネルヴァやナントカモジュールに\nエラーが出てるっぽいのはわかったけど。\nオクトー、オマエ、メンテナンスとかしてやれないのか？=Hmm... Anyway, I understand that there seem to be errors with you and that whatchamacallit module. Octo, can't you do some maintenance or something?
 いやぁ、ちょっとなぁ……\n設計者ならともかく\nまずは解析からとなると、どれだけかかることやら。=Well, that's a bit of a problem... If I were the designer, it would be one thing, but if I have to start by reverse-engineering everything... who knows how long that will take.
@@ -208,7 +208,7 @@ Interlude XXVIII
 確かに『ボクら』には、アンタを倒す力はないけど。\n動きを止められれば、それでいいのさ。\nついでに──空間跳躍での逃げ道も、封じられればね！=It's true that "we" don't have the power to defeat you. But if we can just stop your movements, that'll be enough. And while we're at it... if we can also block your escape route through teleportation, then...!
 ああ！\n「準備した」って言ったはずだ！=Yeah! I told you we were "prepared"!
 ──やれ！\nヴァイオレット！！=...DO IT! VIOLET!!!
-お二人とも！\nノウェム様から、合図をいただきました……！=BOTH OF YOU! I received the signal from Lady Novem...!
+お二人とも！\nノウェム様から、合図をいただきました……！=BOTH OF YOU! I received the signal from Lady Noemu...!
 ヴルムを貶めた敵の首魁──決して許すことはできません。\n用意はよろしいですね、ネフィ＝ネラ媛。=The person behind the one who disgraced my Wyrm... An unforgivable miscreant. I hope you are well prepared, Princess Nephy Nella.
 何時也と、ライラエル姫。\n幻境竜后──其の罪科、万死に値せん。=I stand ready, Princess Lyrael. Vision Empress... Her crimes deserve death a thousand times over.
 ──fauna　of　whale　falls.\n大いなる命、神なる勇魚。\n冥海の慈しみをご照覧あれ──『イサナミ』。=Fauna of Whale Falls. Great life, Divine Whale. Behold the Compassion of the Netherworld sea... "Isanami".
@@ -217,32 +217,32 @@ Interlude XXVIII
 ──『箭雷夜天』！\n──『天元万化・鬼神仏掌』！\n──『かんながら・ゐさなをろし』！=..."Arrow Thunder Night Sky"! ..."Heavenly Origin Transformation: Demon God, Buddha Palm"! ..."Kannagara, Isanaoroshi"!
 ランドソルで行われた万博が終わって、少し後──=A little while after the World's Food Expo held in Landosol ended...
 うおーっ！　ウマいぞ！\nこれがジオ・ニヴルヘルの海老ピレオかー！=Whoa! This is delicious! So this is the Ebi-pireo shrimp from Geo Niflhell!
-ふふ……\nノウェム様にお気に召していただいて、大変光栄ですわ。=Hehe... I am very honored that it is to your taste, Lady Novem.
+ふふ……\nノウェム様にお気に召していただいて、大変光栄ですわ。=Hehe... I am very honored that it is to your taste, Lady Noemu.
 ちょっと前にランドソルであった万博、\nノゾミからライブに招待されてたし、行きたかったんだけど。\n友達を捜したりすげー高い塔を登ったりで、忙しくってさー=A little while back, Nozomi invited me to one of her concerts at the Expo in Landosol. I really wanted to go, too.
 そして、今はそのご友人と再会できたと……\nわたくしも、うれしく思います。=And now, you have been able to reunite with that friend of yours... I am so happy for you.
 おう、ありがとな！　でも……その友達を、狙うヤツがいてさ。\nそれで、ちょっとネネカの手を借りにジオ・ニヴルヘルに来たんだけど。\nアイツも大事な用事の最中らしいんだよなー=Yeah, thanks! But... there's someone after this friend of mine. So I came here to Geo Niflhell to ask for Neneka's help. But it seems she's in the middle of something important.
-……では、ノウェム様。\nわたくしに、何かお手伝いさせていただけませんでしょうか。=...In that case, Lady Novem, would it be alright if I offered to help in any way?
+……では、ノウェム様。\nわたくしに、何かお手伝いさせていただけませんでしょうか。=...In that case, Lady Noemu, would it be alright if I offered to help in any way?
 へっ？\nオマエがか？=Huh? You?
 ネネカ様の御用事は、元を辿れば黒曜宮に賊の侵入を許した\nわたくしの不甲斐なさが招いた結果です。それにノウェム様のご友人が\n危ういというのでしたら、むざと見過ごすことなど出来ませんわ。=Lady Neneka's business ultimately stems from my own incompetence in allowing intruders to enter the Obsidian Palace. Furthermore, if your friend is in danger, I cannot simply overlook it.
 ……へへっ。\n何があったか知らないけどオマエ、なんか変わったな！\n前よりずっと、頼もしくなったカンジだぞ！=...Heheh. I don't know what happened, but you've changed somehow! You seem much more reliable than before!
-ノウェム様に、勇気を持つことが必要だと教えていただいたおかげです。\nそれに……=It is thanks to you teaching me the importance of courage, Lady Novem. And also...
+ノウェム様に、勇気を持つことが必要だと教えていただいたおかげです。\nそれに……=It is thanks to you teaching me the importance of courage, Lady Noemu. And also...
 大切な方への想いが、とても大きな力になるということも……=The feelings I have for someone I love deeply have turned into a very powerful force...
 ──塔の頂上、跡形も無く粉砕せり。=The top of the tower... has been completely shattered, no trace left behind.
 わたしたち３人の、全力を注ぎこみました。\nどのような相手であれ、耐えられるものではないはずですが……=We poured all the energy the three of us could muster into that attack. No matter who the opponent was, nothing should have been able to survive that.
-……はい。\nですが、ノウェム様たちは……=...Indeed. However, as for Lady Novem and the others...
+……はい。\nですが、ノウェム様たちは……=...Indeed. However, as for Lady Noemu and the others...
 『──おーい！\nヴァイオレット～っ！』="Oiiii! Violet!"
-ノウェム様……！\nあらかじめ打ち合わせていたとおりに、技を放ちましたが……\nご無事でしょうか？=Lady Novem...! I unleashed my technique exactly as we had planned beforehand... Are you alright?
+ノウェム様……！\nあらかじめ打ち合わせていたとおりに、技を放ちましたが……\nご無事でしょうか？=Lady Noemu...! I unleashed my technique exactly as we had planned beforehand... Are you alright?
 『アタシたちは空間跳躍で塔の入り口に移動して、ちゃーんと避けたぞ！\nオクトーたちも、もちろん無事だ！』="We used my teleport ability to get out of the Tower back to its entrance and avoided it just fine! Octo and the others are safe, of course!"
-『ひっどい目にあったけどねー\nノウェムの剣も折られちゃったしさ？』="I had a terrible time, you know. Novem's sword got broken too, you know?"
+『ひっどい目にあったけどねー\nノウェムの剣も折られちゃったしさ？』="I had a terrible time, you know. Noemu's sword got broken too, you know?"
 『ほんとだよなー\n晶もこっちに来てるらしいし、捕まえて\n修理してもらわなきゃだ！』=You're right! It seems like Akira's around, so we have to catch her and get her to repair it!"
-『捜すのは手伝いますよ、ノウェム。\n私も迷宮女王に、依頼がありますから。\nそれに──』="I shall aid you in that search, Novem. I also have a request for Queen Labyrinth. Furthermore..."
+『捜すのは手伝いますよ、ノウェム。\n私も迷宮女王に、依頼がありますから。\nそれに──』="I shall aid you in that search, Noemu. I also have a request for Queen Labyrinth. Furthermore..."
 『──ジオ・テオゴニア。ジオ・ゲヘナ。ジオ・ニヴルヘル。\n私の管轄の外だった、三界を治めるプリンセスたちよ。\n御助力いただいたこと、感謝します』="Geo Teogonia. Geo Gehenna. Geo Niflhell. Princesses who rule the three Underworlds, which were outside my jurisdiction. I am grateful for your assistance."
 戦い続けている騎士たちの負担を少しでも減らせるなら、\nいくらでも手を貸しましょう。\n……それに、相手はわたしたちにも因縁のある人物の長でしたから。=If we can lighten the burden on Knight and his friends, who continue to fight relentlessly, we will lend a hand in any way we can. ...Besides, this enemy was the head of a group we all have old grudges with.
 然り──蜘蛛の虚けを、『憤怒』奴により傀儡とし。\n剰え、『色欲』の山羊にてクリア殿とモネの友情を引き裂かんとするなど\n言語道断の手合い也。刎頸に処してしかるべし。=Indeed... The foolish "Spider" was turned into a puppet by her "Wrathful" slave. Furthermore, to attempt to tear apart the friendship between Lady Quria and my Mone through that lustful goat is utterly outrageous. Beheadment is the least she deserved.
 ……リーザも。\nその幻境竜后という者の、プリンセスナイトになることを選んだ……\nわたくしが、もっとしっかりしていれば……=...Lisa too. She chose to become the Princess Knight of that Vision Empress... If only I had been more responsible...
 ──みなさま。\nこの場の後始末を済ませましたら、共に温泉にて、汗を流しましょう。\nそして、ジオ・テオゴニアの誇るジェラートを振る舞わせてください。=...Everyone! Once we are finished with the clean up here, let us go to the hot springs together and wash off our sweat. I hope you will allow me to serve you the gelato my Geo Teogonia is proud of.
 『おっ！\nそれいいな、やっぱ働いた後には甘いモノだよな～！』="Oh! That sounds great, something sweet is definitely the best thing after a hard day's work~!"
-『ったく。\n現実のほうだって大変そうなのに、お気楽なんだからノウェムは──\n……？』="Honestly. Real life sounds like it's going to be rough too, but you're so carefree, Novem... Hm?"
+『ったく。\n現実のほうだって大変そうなのに、お気楽なんだからノウェムは──\n……？』="Honestly. Real life sounds like it's going to be rough too, but you're so carefree, Noemu... Hm?"
 ……あいや。\nお待ちあれ……=...Oh no. Hold on that thought...
 ネフィ＝ネラ媛？=Princess Nephy Nella?
 やんぬるかな。\nこの雲行きは……浮かれてもおれぬ仕儀かと存じまする。=Irreprehensible. Given the current situation... I do not believe we can afford to be complacent.
@@ -261,7 +261,7 @@ Interlude XXVIII
 
 New Titlecards
 塔の守護騎士=Guardian Knight of the Tower
-ノウェムたち=Novem and the others
+ノウェムたち=Noemu and the others
 M９号=M9
 
 Preview

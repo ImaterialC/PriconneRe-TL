@@ -101,7 +101,7 @@
 アラクネ=Arachne
 メドゥーサ=Medusa;Collab;Granblue
 フィオ=Ameth;Ames;Fio
-ルルィ=Lului
+ルルィ=Rurui
 ホウオウ=Ho-oh;Hoou;Hooh;Houou
 カノン=Kanon
 アイラ=Aira;Hiyori
@@ -113,6 +113,12 @@
 ナーナ=Naana
 メリッサ=Melissa
 
+ティア=Tia
+アグライア=Aglaia
+エウロス=Euros
+
+リーザ・フレイヤ=Lisa Freyja
+アルシャト=Alshat
 カスミ（シスター）=Kasumi (Sister);SiKasumi;Sister;Nun
 
 カスミ（マジカル）=Kasumi (Magical);MKasumi;MGKasumi;Magical
@@ -638,9 +644,9 @@
 
 キャル（覇瞳天星）=Karyl (Hadou Tensei);Kyaru (Hadou Tensei);HKyaru;HKaryl;HTKyaru;HTKaryl;Kaiser Insight;KKyaru
 
-ミホ（ガルパン）=Miho(Garupan);GMiho;Garupan;GuP;Colab
-マホ（ガルパン）=Maho(Garupan);GMaho;Garupan;GuP;Colab
-エリカ（ガルパン）=Erika(Garupan);GErika;Garupan;GuP;Colab
+ミホ（ガルパン）=Miho(Garupan);GMiho;GPMiho;Garupan;GuP;Colab
+マホ（ガルパン）=Maho(Garupan);GMaho;GPMaho;Garupan;GuP;Colab
+エリカ（ガルパン）=Erika(Garupan);GErika;GPErika;Garupan;GuP;Colab
 
 クリア（ヴァルキュリア）=Quria (Valkyria);VQuria;Clear;Alter Maiden;Maiden;Valkyria
 プレシア（ヴァルキュリア）=Precia (Valkyria);VPrecia;Alter Maiden;Maiden;Valkyria
@@ -653,3 +659,8 @@
 ルイズマリー（サマー）=Louise Marie;Marie;Atelier;Alces;SLouise Marie;SMarie;Summer
 ソノ（サマー）=Sono;Atelier;Alces;SSono;Summer
 クレジッタ（サマー）=Creditta;SCreditta;Summer
+
+
+クローチェ（ヴァードラッヘ）=Croce(Wahrdrache);Croche(Wahrdrache);Crotch(Wahrdrache);WCroce;WCroche;WCrotch
+リンド（ヴァードラッヘ）=Lind(Wahrdrache);WLind
+ヴルム（ヴァードラッヘ）=Wyrm(Wahrdrache);Wurm(Wahrdrache);WWyrm;WWurm

@@ -1,0 +1,26 @@
+##Profile##
+【魔法】後衛から、中立で平等とうそぶく認識の修正者。敵の認識を乱して弱体効果を付与し、一方で味方が受ける混乱、誘惑状態を無効化しお気に入りの彼に肩入れする。=[Magic] A backline modifier of perception who claims to be neutral and impartial. She disrupts enemies' perceptions to inflict debuffs, while nullifying Confusion and Charm inflicted on allies and playing favorites with the man she adores.
+高田憂希=Takada Yuki
+
+##UB##
+レコグナイズ・リバース=Recognize Reverse
+敵全体の受ける物理・魔法ダメージを小アップ、物理・魔法防御力を小ダウンさせる。目の前の敵１キャラの弱体効果の種類の数に応じて、受ける物理・魔法ダメージのアップ量が最大５倍まで増加する。水属性の味方に【幻識痛】を付与する。【幻識痛】付与中は受ける特定のダメージの15％を継続ダメージに変換する。=Slightly increases the P.DMG and M.DMG taken by all enemies and slightly lowers their P.DEF and M.DEF. The increase to P.DMG and M.DMG taken increases by up to 5× based on the number of different debuff types affecting the enemy in front. Grants Water allies [Phantom Pain]. While [Phantom Pain] is active, 15% of certain damage taken is converted into continuous damage.
+r:"^敵全体の受ける物理・魔法ダメージを2％アップ敵全体の物理・魔法防御力を(\d+)ダウン水属性の味方に幻識痛を付与する$"=►Boosts physical and magical damage taken by all enemies by 2％ for 12s.\n►Lowers all enemies' P.DEF and M.DEF by $1 for 12s.\n►Inflicts [Phantom Pain] on Water allies.
+
+##S1##
+オーバークロック=Overclock
+敵全体の与える物理・魔法ダメージを小ダウンさせる。味方全体の物理・魔法攻撃力と行動速度を大アップさせる。目の前の敵１キャラの弱体効果の種類の数に応じて、物理・魔法攻撃力のアップ量が最大５倍まで増加する。=Slightly lowers the P.DMG and M.DMG dealt by all enemies. Greatly boosts all allies' P.ATK, M.ATK, and action speed. The P.ATK and M.ATK boost increases by up to 5× based on the number of different debuff types affecting the enemy in front.
+
+r:"^敵全体が与える物理・魔法ダメージを4％ダウン味方全体の物理・魔法攻撃力を(\d+)アップ味方全体の行動速度100％アップ$"=►Lowers physical and magical damage dealt by all enemies by 4％ for 12s.\n►Boosts allies' P.ATK and M.ATK by $1 for 12s.\n►Boosts allies' action speed by 100％ for 12s.
+
+##S2##
+エクスプロイト=Exploit
+敵全体の物理・魔法防御力を小ダウン、受けるクリティカルダメージを小アップさせる。味方全体のＴＰを小回復させる。目の前の敵１キャラの弱体効果の種類の数に応じて、ＴＰの回復量が最大５倍まで増加する。=Slightly lowers the P.DEF and M.DEF of all enemies and slightly increases the critical damage they take. Slightly recovers all allies' TP. TP recovery increases by up to 5× based on the number of different debuff types affecting the enemy in front.
+
+r:"^敵全体の物理・魔法防御力を(\d+)ダウン敵全体の被クリダメを4％アップ味方全体のＴＰを20回復$"=►Lowers all enemies' P.DEF and M.DEF by $1 for 12s.\n►Boosts all enemies' CRIT DMG taken by 4％ for 12s.\n►Recovers TP of all allies by 20.
+
+##EX##
+クイズの時間よ♪=It's Quiz Time♪ 
+クイズの時間よ♪+=It's Quiz Time♪+
+ブランクブロック=Blank Block
+味方全体の受ける混乱と誘惑を無効化する。=Nullifies Confusion and Charm inflicted on all allies.
