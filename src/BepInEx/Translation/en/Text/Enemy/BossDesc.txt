@@ -2157,23 +2157,17 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 味方全体に魔法ダメージカット=Grants all allies M.DMG Cut
 近接攻撃、毒=Melee attack, inflicts Poison
 毒ダメージによるＴＰ回復なし=TP not recovered from Poison DMG
-
-
 敵全体に物理中ダメージを与え、スタンさせる。その後、自身の物理防御力と魔法防御力を特大ダウン。このスキルの状態異常はダメージを無効化しても付与される。=Deals moderate P.DMG and inflicts Stun to all enemies. Then massively lowers own P.DEF and M.DEF. Stun is applied even if DMG is nullified.
 前方３キャラに物理中ダメージを与え、ノックバックさせる。その後、自身の物理防御力と魔法防御力を特大ダウン。このスキルの状態異常はダメージを無効化しても付与される。=Deals moderate P.DMG and knocks back 3 front enemies. Then massively lowers own P.DEF and M.DEF. Knockback applies even if DMG is nullified.
 目の前の１キャラに物理中ダメージを与える。その後、自身の物理防御力と魔法防御力を特大ダウン。=Deals moderate P.DMG to enemy in front. Then massively lowers own P.DEF and M.DEF.
 ユニオンバーストは、敵全体に物理大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウンさせる。その後、自身の物理防御力と魔法防御力を特大ダウン。このスキルの状態異常はダメージを無効化しても付与される。=Union Burst deals large P.DMG to all enemies, greatly lowering P.ATK and M.ATK. Then massively lowers own P.DEF and M.DEF. Debuffs are applied even if DMG is nullified.
 次元の狭間に誕生した、生きた財宝。煌めく財貨を散らしながら、冒険者に襲い掛かる。=A living treasure born in the dimensional void. It scatters glittering coins as it assails adventurers.
-
-
 私がキミの力になってあげる\nお給料の相談は、またあとでね=I’ll be your strength.\nWe can talk about my pay later.
 バトル中継続物理攻撃力アップ=Continuous Physical Attack Power Up (During Battle)
 バトル開始後一定時間ごとに、すべてのモンスターの物理攻撃力を中\nアップさせる。=At fixed intervals after the battle starts, moderately increases the physical attack power of all monsters.
 バトル開始後一定時間ごとに、すべてのモンスターの魔法攻撃力を中\nアップさせる。=At fixed intervals after the battle starts, moderately increases the magic attack power of all monsters.
 バトル中継続魔法攻撃力アップ=Continuous Magic Attack Power Up (During Battle)
 バトル中、「バトル中継続物理攻撃力アップ」効果が発動する。=During battle, the effect “Continuous Physical Attack Power Up (During Battle)” is activated.
-
-
 敵全体に沈黙=Inflicts silence on all enemies.
 前から敵１体にＴＰダウン=Reduces TP of one enemy in front.
 前から敵１体にＵＢ封印=Seals the Union Burst of one enemy in front.
@@ -2185,9 +2179,6 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 後ろから敵２体にＴＰ上昇ダウン=Reduces TP Boost of the two backmost enemies.
 自身に物理無効バリア=Grants self a barrier that nullifies P.DMG.
 自身に魔法無効バリア=Grants self a barrier that nullifies M.DMG.
-
-
-
 解除不可=Undispellable
 自身に魔法攻撃力アップ解除=Removes own M.ATK Up
 とある目的で黎明界に仕込まれた奸計。七冠が一人、幻境竜后による蠢動を具象化させた姿。その外見は古の防衛兵器に酷似している。=A scheme planted in the Dawn Realm for a hidden purpose. A manifestation of the Phantom Dragon Empress's machinations, materialized by one of the Seven Crowns. Its form closely resembles an ancient defense weapon.
@@ -2203,7 +2194,6 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 レリック=Relic
 【死亡時発動】=【Activates when destroyed】
 ランダムな敵１体に魔法ダメージ×３回=Deals M.DMG to a random enemy 3 times
-
 自身を中心に物理／魔法防御力アップフィールド=Deploys a field centered on self that boosts P.DEF and M.DEF.
 【召喚体通常攻撃】=[Summoned Unit Normal Attack]
 対象のＨＰ50％未満：ノックバック=If target HP is below 50%: Knockback.
