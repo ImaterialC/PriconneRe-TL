@@ -26,8 +26,8 @@ r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージを与える毒状態
 
 ##S2##
 パラライズアロー=Paralyze Arrow
-目の前の敵１キャラに物理小ダメージを与え、麻痺状態にする。=Deals minor P.DMG to the enemy in front and inflicts Paralysis.
-r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする$"=►Deals $1 P.DMG to an enemy.\n►Renders an enemy immobile.
+前方範囲内の敵に物理小ダメージを与え、麻痺状態にする。発動時既に対象が毒状態だった場合、ダメージと麻痺状態の効果時間が増加する。発動時既に対象が毒状態かつ猛毒状態だった場合、物理防御力を小ダウンさせる。自分を中心とした範囲内の味方の数が２キャラ以下の場合、ダメージが増加する。=Deals slight P.DMG to enemies in front and inflicts Paralysis. If the targets are already Poisoned when activated, increases the damage and duration of Paralysis. If the targets are already Poisoned and Venomed when activated, slightly lowers their P.DEF. If there are 2 or fewer allies in range around self, increases the damage.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵が毒状態の場合、対象の敵の麻痺時間アップ敵が毒状態かつ猛毒状態の場合、対象の敵の物理防御力を(\d+)ダウン$"=Cast time: 1.06s.\n►Deals $1 P.DMG to enemies within 1185 range.\n►Inflicts Stun on enemies within 1185 range for 2.25s.\n\n►If the enemy is Poisoned, increases the target's Paralysis duration for 4s.\n\n►If the enemy is Poisoned and Venomed, reduces the target's P.DEF by $2 for 18s.
 
 ##EX##
 フォレストシューター=Woodland Marksman
@@ -35,13 +35,21 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能�
 
 ##UB+##
 ヴェノムブルーミング=Venom Blooming
-目の前の敵１キャラを中心とした範囲内の敵に物理中ダメージを与え、毒状態にする。発動時既に対象が毒状態だった場合、代わりに物理特大ダメージを与え、猛毒状態にする。=Deals moderate P.DMG to enemies within range centered on the enemy in front and inflicts Poison. If the target is already Poisoned when this skill is activated, deals massive P.DMG instead and inflicts Venom.
-r:"^敵が毒状態の時、範囲内の敵に(\d+)の物理ダメージ敵が毒状態の時、(\d+)ダメージを与える猛毒状態にする敵が毒状態でない時、範囲内の敵に(\d+)の物理ダメージ敵が毒状態でない時、(\d+)ダメージを与える毒状態にする$"=If target is not poisoned or venomed:\n►Deals $3 P.DMG to all enemies in 400 range.\n►Inflicts Poison that deals $4 P.DMG/s for 24s.\n\nIf target is poisoned or venomed:\n►Deals $1 P.DMG to all enemies in 400 range.\n►Inflicts Venom that deals $2 P.DMG/s for 12s.
+目の前の敵１キャラを中心とした範囲内の敵に物理中ダメージを与え、毒状態にする。発動時既に対象が毒状態だった場合、物理ダメージと毒のダメージが増加し、さらに猛毒状態にする。発動時既に対象が毒状態かつ猛毒状態だった場合、物理ダメージがさらに増加し、物理防御力を小ダウンさせる。自分を中心とした範囲内の味方の数が２キャラ以下の場合、物理ダメージが増加する。=Deals moderate P.DMG to enemies in an area centered on an enemy in front and inflicts Poison. If the targets are already Poisoned when activated, increases the P.DMG and Poison damage, and additionally inflicts Venom. If the targets are already Poisoned and Venomed when activated, further increases the P.DMG and slightly lowers their P.DEF. If there are 2 or fewer allies in range around self, increases the P.DMG.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える毒状態にする敵が毒状態の場合、対象の敵に以下の効果が発動する(\d+)ダメージを与える毒状態にする(\d+)ダメージを与える猛毒状態にする敵が毒状態かつ猛毒状態の場合、対象の敵の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to enemies within 400 range.\n►Deals $2 damage and inflicts Poison for 25s.\n\n►If the enemy is Poisoned, the following effects activate on the target:\n►Deals $3 damage and inflicts Poison for 25s.\n►Deals $4 damage and inflicts Venom for 19s.\n\nIf the enemy is Poisoned and Venomed:\n►Reduces the target's P.DEF by $5 for 18s.
 
 ##S1+##
 ポイズンアロー+=Poison Arrow+
-目の前の敵１キャラに物理中ダメージを与え、毒状態にする。発動時既に対象が毒状態だった場合、代わりに物理特大ダメージを与え、猛毒状態にする。=Deals moderate P.DMG to the enemy in front and inflicts Poison. If the target is already Poisoned when this skill is activated, deals massive P.DMG instead and inflicts Venom.
-r:"^敵が毒状態の時、敵単体に(\d+)の物理ダメージ敵が毒状態でない時、敵単体に(\d+)の物理ダメージ敵が毒状態の時、(\d+)ダメージを与える猛毒状態にする敵が毒状態でない時、(\d+)ダメージを与える毒状態にする$"=Cast time: 0.86s\nIf target is not poisoned or venomed:\n►Deals $2 P.DMG to an enemy.\n►Inflicts Poison that deals $4 P.DMG/s for 24s.\n\nIf target is poisoned or venomed:\n►Deals $1 P.DMG to an enemy\n►Inflicts Venom that deals $3 P.DMG/s for 12s.
+目の前の敵１キャラに物理中ダメージを与え、毒状態にする。発動時既に対象が毒状態だった場合、物理ダメージが増加し、猛毒状態にする。=Deals moderate P.DMG to an enemy in front and inflicts Poison. If the target is already Poisoned when activated, increases the P.DMG and inflicts Venom.
+
+r:"^敵単体に(\d+)の物理ダメージ敵が毒状態の場合、(\d+)ダメージを与える猛毒状態にする敵が毒状態でない場合、(\d+)ダメージを与える毒状態にする$"=Cast time: 0.86s.\n►Deals $1 P.DMG to 1 enemy.\n\n►If the enemy is Poisoned, deals $2 damage and inflicts Venom for 13s.\n►If the enemy is not Poisoned, deals $3 damage and inflicts Poison for 25s.
+
 
 ##UE##
 BB団の絆ベレー=BB Brigade Beret
+
+
+##S1++##
+ポイズンアロー++=Poison Arrow++
+前方範囲内の敵に物理中ダメージを与え、毒状態にする。発動時既に対象が毒状態だった場合、物理ダメージと毒のダメージが増加し、さらに猛毒状態にする。発動時既に対象が毒状態かつ猛毒状態だった場合、物理防御力を小ダウンさせる。自分を中心とした範囲内の味方の数が２キャラ以下の場合、物理ダメージが増加する。=Deals moderate P.DMG to enemies in front and inflicts Poison. If the targets are already Poisoned when activated, increases the P.DMG and Poison damage, and additionally inflicts Venom. If the targets are already Poisoned and Venomed when activated, slightly lowers their P.DEF. If there are 2 or fewer allies in range around self, increases the P.DMG.
+r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える毒状態にする敵が毒状態の場合、対象の敵に以下の効果が発動する(\d+)ダメージを与える毒状態にする(\d+)ダメージを与える猛毒状態にする敵が毒状態かつ猛毒状態の場合、対象の敵の物理防御力を(\d+)ダウン$"=Cast time: 0.86s.\n►Deals $1 P.DMG to enemies within range.\n►Deals $2 damage and inflicts Poison.\n\nIf the enemy is Poisoned, the following effects activate on the target:\n►Deals $3 damage and inflicts Poison for 25s.\n►Deals $4 damage and inflicts Venom for 13s.\n\nIf the enemy is Poisoned and Venomed, reduces the target's P.DEF by $5 for 12s.

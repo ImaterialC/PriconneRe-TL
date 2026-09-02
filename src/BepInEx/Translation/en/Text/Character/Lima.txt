@@ -30,6 +30,7 @@ r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アッ
 
 ##S2##
 もふもふヘッドバット=Hairy Headbutt
+前方範囲内の敵に物理大ダメージを与え、小さく吹き飛ばし、スタンさせる。=Deals large P.DMG to enemies in front, slightly knocks them back, and stuns them.
 
 ##EX##
 プロテクトファー=Downy Defense
@@ -38,13 +39,19 @@ r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アッ
 
 ##UB+##
 メリーウールストライク=Whopping Woolly Wallop
-前方範囲内の敵に物理大ダメージを与え、小さく吹き飛ばす。自分の物理防御力を特大アップし、味方全体に物理無効バリアを展開する。=Deals major P.DMG to enemies in front, knocking them back a short distance. Greatly increases own P.DEF and deploys a Physical Barrier to all allies.
+前方範囲内の敵に物理大ダメージを与え、小さく吹き飛ばす。自分の物理防御力を特大アップし、味方全体に物理無効バリアを展開する。発動するたびに、最大２回までダメージが増加する。=Deals large P.DMG to enemies in front and slightly knocks them back. Massively boosts own P.DEF and deploys a physical nullification barrier on all allies. Each activation increases the damage, up to 2 times.
 r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=►Deals $1 P.DMG to enemies in 400 range.\n►Knockbacks an enemy by 50 units.\n►Boosts own P.DEF by $2 for 18s.\n►Deploys Barrier over all allies that negates $3 P.DMG for 18s.
 
 ##S1+##
 もふもふアサルト+=Fuzzy Fury+
-バトル開始後暫くして、最も前の敵まで突進し、その敵に物理中ダメージを与え、自分の物理防御力を中アップする。味方全体に物理無効バリアを展開する。=A short time after battle begins, charges toward the frontmost enemy, dealing moderate P.DMG to that target and moderately increasing own P.DEF. Deploys a Physical Barrier to all allies.
+バトル開始後しばらくして、最も前の敵まで突進し、その敵に物理中ダメージを与え、自分の物理防御力を中アップする。味方全体に物理無効バリアを展開する。=After some time has passed from the start of battle, charges toward the foremost enemy, deals moderate P.DMG to them, and moderately boosts own P.DEF. Deploys a physical nullification barrier on all allies.
 r:"^敵単体に(\d+)の物理ダメージ自分の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する$"=►Appear 1s after the wave begins to 100 in front of nearest enemy.\n►Invulnerability on self for 1s.\n►Deals $1 P.DMG to an enemy.\n►Boosts own P.DEF by $2 for 16s.\n►Deploys Barrier over all allies that negates $3 P.DMG for 16s.
 
 ##UE##
 アンビシャスドレス=Dreamer's Dress
+
+
+##S1++##
+もふもふアサルト++=Fuzzy Fury++
+バトル開始後しばらくして、最も前の敵まで突進し、その敵の最大ＨＰに応じて最大200万の物理割合ダメージを与え、大きく吹き飛ばす。自分の物理防御力を中アップ、味方全体に物理無効バリアを展開する。初回発動後、自分が５回ダメージを与えるたびに、自分の物理攻撃力と物理クリティカルを特大アップし、ＨＰを小回復する。=After some time has passed from the start of battle, charges toward the foremost enemy, deals P.DMG equal to a percentage of their max HP, up to 2,000,000, and greatly knocks them back. Moderately boosts own P.DEF and deploys a physical nullification barrier on all allies. After the first activation, every time self deals damage 5 times, massively boosts own P.ATK and P.CRIT RATE and slightly recovers own HP.
+r:"^敵単体に最大200万の物理割合ダメージを与える自分の物理防御力を(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する５回ダメージを与えるたびに、以下の効果が発動する自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分のＨＰを(\d+)回復$"=►Deals fixed P.DMG up to 2,000,000 to 1 enemy.\n►Boosts own P.DEF by $1 for 12s.\n►Deploys a Barrier over self that nullifies $2 P.DMG for 12s.\n\n►Every 5 times damage is dealt, the following effects activate:\n►Boosts own P.ATK by $3 for 12s.\n►Boosts own P.CRIT by $4 for 12s.\n►Recovers $5 HP.

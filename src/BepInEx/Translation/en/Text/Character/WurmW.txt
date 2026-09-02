@@ -1,0 +1,29 @@
+##Profile##
+【物理】中衛で、愛する者たちのため本意気を放つ妹竜。【決意の流星】を溜め覚醒すると、攻撃スキルが再発動しさらに味方の火力を引き上げ、渦炎で敵を灰燼に変える。=[Physical] A younger dragon sister in the midline who unleashes her true strength for those she loves. By accumulating [Meteor of Resolve] and awakening, her attack skills activate again, further boosting allies' firepower and reducing enemies to ash with swirling flames.
+
+##UB##
+バルムンク・ヴォーテクス=Balmung Vortex
+敵全体に物理大ダメージを与え、物理防御力を小ダウンさせる。【渦竜覚醒】状態の場合、このスキルの効果がもう一度発動し、さらに味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理クリティカルダメージを小アップさせる。=Deals major P.DMG to all enemies and slightly lowers their P.DEF. If in [Vortex Dragon Awakening] state, this skill activates one more time, and additionally massively boosts all allies' P.ATK, greatly boosts their P.CRIT RATE, and slightly boosts their P.CRIT DMG.
+r:"^敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン渦竜覚醒状態の場合、以下の効果が発動する敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを(\d+)アップ味方全体の物理クリダメを(\d+)%アップ$"=►Deals $1 P.DMG to all enemies.\n►Reduces all enemies' P.DEF by $2 for 18s.\n\nIf self is in Vortex Dragon Awakening, the following effects activate:\n►Deals $3 P.DMG to all enemies.\n►Reduces all enemies' P.DEF by $4 for 18s.\n►Boosts all allies' P.ATK by $5 for 18s.\n►Boosts all allies' P.CRIT by $6 for 18s.\n►Boosts all allies' P.CRIT DMG by $7% for 18s.
+
+##S1##
+ブレイザー=Blazer
+敵全体に物理大ダメージを与え、物理防御力を小ダウンさせる。【渦竜覚醒】状態の場合、このスキルの効果がもう一度発動し、さらに味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。=Deals major P.DMG to all enemies and slightly lowers their P.DEF. If in [Vortex Dragon Awakening] state, this skill activates one more time, and additionally massively boosts all allies' P.ATK and greatly boosts their P.CRIT RATE.
+r:"^敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン渦竜覚醒状態の場合、以下の効果が発動する敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを(\d+)アップ$"=Cast time: 1.05s.\n►Deals $1 P.DMG to all enemies.\n►Reduces all enemies' P.DEF by $2 for 12s.\n\nIf self is in Whirl Dragon Awakening, the following effects activate:\n►Deals $3 P.DMG to all enemies.\n►Reduces all enemies' P.DEF by $4 for 12s.\n►Boosts all allies' P.ATK by $5 for 12s.\n►Boosts all allies' P.CRIT by $6 for 12s.
+
+##S2##
+パイロクラズム=Pyroclasm
+自分に【決意の流星】（上限60）を５個付与する。味方全体の行動速度を大アップ、ＨＰとＴＰを小回復させる。【決意の流星】が最大の場合の初回発動時、さらに自分を【渦竜覚醒】状態にし、加算行動速度を大アップし、物理追撃状態になる。発動時既に【渦竜覚醒】状態だった場合、さらに味方全体の与える物理ダメージを小アップさせる。=Grants self 5 stacks of [Meteor of Resolve] (max 60). Greatly boosts all allies' action speed and slightly recovers their HP and TP. On the first activation while [Meteor of Resolve] is at maximum, additionally puts self into [Vortex Dragon Awakening] state, greatly boosts additive action speed, and grants a state that deals follow-up P.DMG. If already in [Vortex Dragon Awakening] state when activated, additionally slightly boosts all allies' P.DMG dealt.
+r:"^味方全体の行動速度100％アップ味方全体のＨＰを(\d+)回復味方全体のＴＰを100回復自分に決意の流星を５個付与する決意の流星が最大の場合の初回発動時、以下の効果が発動する自分を渦竜覚醒状態にする自分の行動速度50％加算自分を10％の物理追撃ダメージが発生する状態にする渦竜覚醒状態の場合、味方全体の与える物理ダメージを5％アップ$"=Cast time: 1.05s.\n►Boosts all allies' action speed by 100% for 12s.\n►Recovers $1 HP for all allies.\n►Recovers 100 TP for all allies.\n►Grants self 5 Meteor of Resolve.\n\nOn the first activation when Meteor of Resolve is at maximum, the following effects activate:\n►Inflicts Vortex Dragon Awakening on self.\n►Adds 50% to own action speed for 180s.\n►Inflicts a state that deals 10% Physical follow-up damage for 180s.\n►If self is in Vortex Dragon Awakening, boosts P.DMG dealt by all allies by 5% for 180s.
+
+
+##EX##
+ヤキ入れてやりますよ=I'll burn you to a crisp!
+ヤキ入れてやりますよ+=I'll burn you to a crisp!+
+
+##SP1##
+業火よ、渦巻け！=Inferno, swirl!
+
+自分を飛行状態にするステータスアップ効果を受けるたびに自分に決意の流星を付与する状態になる=Grants a state where each time self receives a stat-boosting effect that puts self into [Flight] state, self gains [Meteor of Resolve].
+
+【飛行】自分を飛行状態にする。自分がステータスアップ効果を受けるたびに、【決意の流星】（上限60）が１個付与される状態になる。=Cast time: 1.05s.\n►[Flight] Puts self into [Flight] state.\n►Each time self receives a stat-boosting effect, grants self 1 stack of [Meteor of Resolve] (max 60).

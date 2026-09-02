@@ -1,15 +1,4 @@
 
-
-
-Yori
-オーバーチャージ++=Overcharge++
-自分の残りＨＰの90％を消費して、自分の魔法攻撃力を特大アップし、前方の自分以外の最も近くの味方１キャラと自分のＴＰを大回復させる。消費したＨＰ量に応じて、魔法攻撃力の上昇量とＴＰの回復量が最大３倍までアップする。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own remaining HP to massively boost own M.ATK, and greatly recovers the TP of the nearest ally in front (excluding self) and self. Based on the amount of HP consumed, the M.ATK boost and TP recovery increase, up to a maximum of 3×. Damage dealt to self by this skill does not recover own TP.
-
-自分の残りＨＰの90％を消費して、自分の魔法攻撃力を特大アップ、ＴＰを大回復させる。消費したＨＰ量に応じて、魔法攻撃力の上昇量とＴＰの回復量が最大=Consumes 90% of own remaining HP to massively boost own M.ATK and greatly recover own TP. Based on the amount of HP consumed, the M.ATK boost and TP recovery increase, up to a maximum value.
-r:"^自分の残りＨＰを90％消費自分の魔法攻撃力を(\d+)アップ自分のＴＰを360回復$"=►Consumes 90％ of own remaining HP.\n►Boosts own M.ATK by $1.\n►Recovers own TP by 360.
-r:"^自分の残りＨＰを90％消費自分の魔法攻撃力を(\d+)アップ味方単体のＴＰを360回復自分のＴＰを360回復$"=►Consumes 90％ of own remaining HP.\n►Boosts own M.ATK by $1.\n►Recovers TP of a single ally by 360.\n►Recovers own TP by 360.
-
-
 Miyako
 う～ら～め～し～や～なの++=Ura~me~shi~ya~nano++
 【変身】幽霊に変身し、しばらくの間無敵状態になる。また、自分の回避を特大アップさせ、さらに物理防御力を大アップさせる。目の前の敵１キャラが呪い状態でない場合、呪い状態にし、呪い状態であり呪詛状態でない場合、呪詛状態にする。=[Transform] Transforms into a ghost and becomes invincible for a short time. Additionally, massively boosts own evasion and greatly boosts own P.DEF. If the enemy in front is not under Curse, inflicts Curse. If the enemy is under Curse but not under Hex, inflicts Hex.

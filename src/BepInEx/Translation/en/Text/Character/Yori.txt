@@ -30,7 +30,7 @@ r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ$"=Cas
 
 ##S2##
 シャドウブラスト=Shadow Blast
-前方範囲内の敵すべてに魔法小ダメージを与える。=Deals moderate M.DMG to all enemies in range.
+前方範囲内の敵に魔法大ダメージを与える。=Deals major M.DMG to enemies in front.
 
 ##EX##
 ライトニングブースト=Lightning Surge
@@ -38,12 +38,21 @@ r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ$"=Cas
 
 ##UB+##
 ジャッジメントジャベリン=Judgment Javelin
-前方範囲内の敵すべてに魔法大ダメージを与える。ヨリのＨＰが低いほど、ダメージがアップする。=Great M.DMG to all enemies within the front range. The lower the HP of Yori, the more damage it will increase.
+前方範囲内の敵に魔法中ダメージを２回与え、自分がバリア展開中の場合、さらに追加で魔法中ダメージを与える。自分のＨＰ割合が低いほど、ダメージ倍率が最大1.5倍まで増加する。=Deals moderate M.DMG 2 times to enemies in front. If self has a barrier deployed, additionally deals moderate M.DMG. The lower own HP percentage, the higher the damage multiplier, up to 1.5×.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージバリアが展開されている時、範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies within range.\n►Deals $2 M.DMG to enemies within range.\n►When a barrier is deployed, deals $3 M.DMG to enemies within range.
 
 ##S1+##
 オーバーチャージ+=Overcharge+
 ＨＰを消費して、自分の魔法攻撃力を特大アップさせ、さらにＴＰを中回復させる。=Massive boost to own M.ATK at the cost of HP. Recovers own TP by a moderate amount.
+自分の残りＨＰの90％を消費して、自分の魔法攻撃力を特大アップ、ＴＰを大回復させる。消費したＨＰ量に応じて、魔法攻撃力の上昇量とＴＰの回復量が最大=Consumes 90% of own remaining HP to massively boost own M.ATK and greatly recover own TP. Based on the amount of HP consumed, the M.ATK boost and TP recovery increase, up to a maximum value.
 r:"^自分のＨＰを(\d+)消費自分の魔法攻撃力を(\d+)アップ自分のＴＰを(\d+)回復$"=Cast Time: 1.25s.\n►Reduces own HP by $1.\n►Boosts own M.ATK by $2.\n►Recovers own TP by $3.
+r:"^自分の残りＨＰを90％消費自分の魔法攻撃力を(\d+)アップ自分のＴＰを360回復$"=Cast Time: 1.25s.\n►Consumes 90％ of own remaining HP.\n►Boosts own M.ATK by $1 for 12s.\n►Recovers own TP by 360.
 
 ##UE##
 デモンズジャベリン=Demon's Javelin
+
+
+##S1+##
+オーバーチャージ++=Overcharge++
+自分のＨＰの90％を消費して、自分の魔法攻撃力を特大アップし、前方の自分以外の最も近くの味方と自分のＴＰを大回復させる。消費したＨＰ量に応じて、魔法攻撃力のアップ量とＴＰの回復量が最大３倍まで増加する。このスキルによる自分へのダメージでは自分のＴＰは回復しない。=Consumes 90% of own HP to massively boost own M.ATK and greatly recover the TP of self and the nearest ally in front, excluding self. The amount of M.ATK boost and TP recovery increases based on the amount of HP consumed, up to 3×. Damage dealt to self by this skill does not recover own TP.
+r:"^自分の残りＨＰを90％消費自分の魔法攻撃力を(\d+)アップ味方単体のＴＰを360回復自分のＴＰを360回復$"=Cast Time: 1.25s.\n►Consumes 90％ of own remaining HP.\n►Boosts own M.ATK by $1 for 12s.\n►Recovers TP of a single ally by 360.\n►Recovers own TP by 360.

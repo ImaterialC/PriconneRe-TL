@@ -58,6 +58,6 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリダメを15％
 ##S1++##
 おこぷんダーツ++=Angry Pudding Darts++
 
-目の前の敵１キャラに物理中ダメージを３回与える。このスキルは必ずクリティカルし、クリティカルダメージは３倍になる。初回発動時、自分が敵にクリティカルでダメージを与えるたびに、その敵の最大ＨＰに応じて最大50万の percentage P.DMGを与える状態になる。=Deals medium P.DMG to an enemy in front 3 times. This skill always lands as a critical hit, and its critical damage is tripled instead of doubled. On the first activation, grants a state where each time self deals critical damage to an enemy, it additionally deals percentage P.DMG based on that enemy's Max HP, up to 500,000 damage.
+目の前の敵１キャラに物理中ダメージを３回与える。このスキルは必ずクリティカルし、クリティカルダメージは３倍になる。初回発動時、自分が敵にクリティカルでダメージを与えるたびに、その敵の最大ＨＰに応じて最大50万の物理割合ダメージを与える状態になる。=Deals moderate P.DMG 3 times to an enemy in front. This skill is guaranteed to deal critical hits, and its critical damage is 3×. On the first activation, grants a state where each time self deals critical damage to an enemy, deals P.DMG equal to a percentage of that enemy's max HP, up to 500,000. 
 
 r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージクリティカルでダメージを与えるたびに敵単体に最大50万の物理割合ダメージを与える状態になる$"=Cast time:0.71s.\n►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.\n►Grants a state where each time a critical hit is dealt, deal physical proportional damage (up to 500,000) to a single enemy.

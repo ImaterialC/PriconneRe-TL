@@ -13,6 +13,7 @@
 
 ##S2##
 ハイドロスラッシュ=Hydro Slash
+r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする$"=Cast time: 1.31s.\n►Deals $1 P.DMG to 1 enemy.\n►Inflicts Stun on 1 enemy for 3.5s.
 
 ##EX##
 マーセナリープライド=Mercenary's Pride
