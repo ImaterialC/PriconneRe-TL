@@ -12,10 +12,10 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復$"=►Dea
 ##S1##
 う～ら～め～し～や～なの=I~ Will~ Haunt~ You~
 【変身】幽霊に変身し、しばらくの間無敵状態になる。=[Transform] Transforms into a ghost, becoming invincible for a short time.
-r:"^一定時間無敵状態になる$"=►Becomes immune to all damage for 3+(0.01Lv)s.
+r:"^一定時間無敵状態になる$"=Cast time: 0.00s.\n►Becomes immune to all damage for 6s.
 ## 260lvl
 【変身】幽霊に変身し、しばらくの間無敵状態になり、自分の物理防御力を小アップさせる。=[Transform] Transforms into a ghost, becoming invincible for a short time. Also slight boost to own P.DEF.
-r:"^一定時間無敵状態になる自分の物理防御力を(\d+)アップ$"=►Becomes immune to all damage for 3+(0.01Lv)s.\n►Boosts own P.DEF by $1 for 12s.
+r:"^一定時間無敵状態になる自分の物理防御力を(\d+)アップ$"=Cast time: 0.00s.\n►Becomes immune to all damage for 6s.\n►Boosts own P.DEF by $1 for 12s.
 
 ##S2##
 おやつの時間なの=Snack Time!
@@ -28,13 +28,13 @@ r:"^自分のＨＰを(\d+)回復$"=►Recovers own HP by $1.
 
 ##UB+##
 ぜ～んぶプリンにしてやるの=Everyone's Pudding Now!
-r:"^敵単体に(\d+)の物理ダメージ自分のＨＰを(\d+)回復自分の回避を(\d+)アップ$"=►Deals $1 physical damage to a single enemy.\n►Recovers own HP by $2.\n►Boosts own dodge by $3 for 180s.
-目の前の敵１キャラに物理特大ダメージを与え、さらに自分のＨＰを中回復し、回避を中アップさせる。=Deal massive P.DMG to the enemy in front, additionally restore a moderate amount of your own HP, and increase dodge by a moderate amount.
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を大ダウンさせる。自分のＨＰを中回復、回避を特大アップする。=Deals colossal P.DMG to an enemy in front, greatly lowers their P.DEF, moderately recovers own HP, and massively boosts own evasion.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン自分のＨＰを(\d+)回復自分の回避を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Recovers own HP by $3.\n►Boosts own evasion by $4.
 
 ##S1+##
 う～ら～め～し～や～なの+=I~ Will~ Haunt~ You~+
-【変身】幽霊に変身し、しばらくの間無敵状態になる。また、自分の回避を中アップさせ、さらに物理防御力を大アップさせる。=[Transform] Transforms into a ghost, becoming invincible for a short time. Additionally, moderate boost to own Dodge and large boost to own P.DEF.
-r:"^一定時間無敵状態になる自分の回避を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Becomes immune to all damage for 3+(0.01Lv)s.\n►Boosts own dodge by $1 for 12s.\n►Boosts own P.DEF by $2 for 12s.
+【変身】幽霊に変身し、一定時間無敵状態になり、自分の回避を特大アップ、物理防御力を大アップする。=[Transform] Transforms into a ghost, becoming invincible for a certain period, massively boosts own evasion, and greatly boosts own P.DEF.
+r:"^一定時間無敵状態になる自分の回避を(\d+)アップ自分の物理防御力を(\d+)アップ$"=Cast time: 0.00s.\n►Becomes immune to all damage for 6s.\n►Boosts own evasion by $1 for 12s.\n►Boosts own P.DEF by $2 for 12s.
 
 ##UE##
 霊甘ゴーストプリン=Spirit's Delight Pudding
@@ -42,3 +42,11 @@ r:"^一定時間無敵状態になる自分の回避を(\d+)アップ自分の�
 
 ##uncategorized (shadow)##
 目の前の敵１キャラに物理特大ダメージを与え、物理防御力を大ダウンさせる。さらに自分のＨＰを中回復し、回避を特大アップさせる。=Deals massive P.DMG to an enemy in front, greatly lowers their P.DEF, moderately recovers own HP, and massively boosts own evasion.
+
+
+##S1++##
+【変身】幽霊に変身し、一定時間無敵状態になり、自分の回避を特大アップ、物理防御力を大アップする。目の前の敵１キャラが呪い状態でない場合、さらに呪い状態にし、呪い状態であり呪詛状態でない場合、呪詛状態にする。=[Transform] Transforms into a ghost, becoming invincible for a certain period, massively boosts own evasion, and greatly boosts own P.DEF. If the enemy in front is not afflicted with Curse, additionally inflicts Curse; if already afflicted with Curse but not Hex, additionally inflicts Hex.
+
+Miyako
+う～ら～め～し～や～なの++=Ura~me~shi~ya~nano++
+r:"^一定時間無敵状態になる自分の回避を(\d+)アップ自分の物理防御力を(\d+)アップ敵が呪い状態でない場合、(\d+)ダメージを与える呪い状態にする敵が呪い状態であり呪詛状態でない場合、毎秒ダメージが初期値(\d+)の150％ずつアップするダメージを与える呪詛状態にする$"=Cast time: 0.00s.\n►Becomes immune to all damage for 6s.\n►Boosts own evasion by $1 for 12s.\n►Boosts own P.DEF by $2 for 12s.\n\nIf the enemy is not afflicted with Curse:\n►Inflicts Curse, dealing $3 damage.\n\nIf the enemy is afflicted with Curse but not Hex:\n►Inflicts Hex, dealing damage that increases each second by 150％ of the initial $4 damage.

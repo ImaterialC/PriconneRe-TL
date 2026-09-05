@@ -34,7 +34,7 @@ r:"^味方単体のＴＰを(\d+)回復$"=►Recovers an ally's TP by $1.
 最も近くの味方１キャラのＴＰを中回復し、物理攻撃力と魔法攻撃力を小アップさせる。=Recovers the TP of the closest party member by a moderate amount, and raise P.ATK and M.ATK by small amount.
 r:"^味方単体のＴＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ味方単体の魔法攻撃力を(\d+)アップ$"=►Recovers an ally's TP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.\n►Boosts an ally's M.ATK by $3 for 12s.
 
-アキノ（同名キャラを除く）が味方にいる場合、前方の火属性の味方すべての物理・魔法攻撃力を特大アップさせ、ＴＰを特大回復させる。そうでない場合、最も近くの味方１キャラの物理・魔法攻撃力を大アップさせ、ＴＰを特大回復させる。=If Akino (ORIGINAL AKINO ONLY) is present among allies, massively boosts the P.ATK and M.ATK of all Fire-element allies in front and massively recovers their TP. Otherwise, greatly boosts the P.ATK and M.ATK of the nearest ally and massively recovers their TP.
+アキノ（同名キャラを除く）が味方にいる場合、前方の火属性の味方の物理・魔法攻撃力を特大アップ、ＴＰを特大回復させる。そうでない場合、最も近くの味方の物理・魔法攻撃力を大アップ、ＴＰを特大回復させる。=If Akino (excluding self) is on the ally side, massively boosts the P.ATK and M.ATK of fire-element allies in front and greatly recovers their TP. Otherwise, greatly boosts the P.ATK and M.ATK of the nearest ally and greatly recovers their TP.
 
 r:"^アキノがいない場合、味方単体の物理・魔法攻撃力を(\d+)アップアキノがいない場合、味方単体のＴＰを725回復アキノがいる場合、範囲内の火属性の味方の物理・魔法攻撃力を(\d+)アップアキノがいる場合、範囲内の火属性の味方のＴＰを500回復$"=Cast time: 1.25s.\n►If [Akino] is not present:\n►Boosts a single ally's P.ATK and M.ATK by $1 for 18s.\n►Recovers TP of a single ally by 725.\n\nIf [Akino] is present:\n►Boosts Fire allies' P.ATK and M.ATK within range by $2 for 18s.\n►Recovers TP of Fire allies within range by 500.
 
@@ -47,10 +47,7 @@ r:"^アキノがいない場合、味方単体の物理・魔法攻撃力を(\d+
 
 ##UB+##
 エンドオブフェニックス=End of Phoenix
-前方範囲内の敵すべてに物理大ダメージを与え、さらに味方全体の物理攻撃力と魔法攻撃力を大アップさせる。サレンのＨＰが低いほど、ダメージと攻撃力の上昇量がアップする。=Inflicts a large amount of P.DMG to all enemies within range, and large boost to the allies' P/M.ATK. The lower Saren's HP, the more damage and attack power Boost.
-### OLD r:"^範囲内の敵に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to enemies in 900 range.\n►Deals additional P.DMG by x2.5 HP lost.\n►Boosts allies' P.ATK by $2 for 18s.\n►Boosts allies' M.ATK by $3 for 18s.\n►Boosts additional P/M.ATK by x0.2 HP lost.
-
-前方範囲内の敵すべてに物理大ダメージを与え、さらに味方全体の物理攻撃力と魔法攻撃力を特大アップさせる。アキノ（同名キャラを除く）が味方にいる場合、さらに前方範囲内の敵すべての物理防御力を小ダウンさせる。サレンのＨＰが低いほど、ダメージ倍率と攻撃力の上昇量が最大２倍までアップする。=Deals large P.DMG to all enemies in a frontal area, and additionally massively boosts all allies’ P.ATK and M.ATK. If Akino (ORIGINAL AKINO ONLY) is present among allies, additionally slightly lowers the P.DEF of all enemies in the frontal area. The lower Saren’s HP, the higher the damage multiplier and the amount of ATK boosted, up to a maximum of 2×.
+前方範囲内の敵に物理大ダメージを与え、味方全体の物理・魔法攻撃力を特大アップさせる。アキノ（同名キャラを除く）が味方にいる場合、さらに前方範囲内の敵の物理防御力を小ダウンさせる。自分のＨＰ割合が低いほど、ダメージ倍率と攻撃力のアップ量が最大２倍まで増加する。=Deals major P.DMG to enemies in front and massively boosts all allies' P.ATK and M.ATK. If Akino (excluding self) is on the ally side, additionally slightly lowers the P.DEF of enemies in front. The lower own HP percentage, the higher the damage multiplier and ATK boost, up to 2×.
 r:"^範囲内の敵に(\d+)の物理ダメージ味方全体の物理・魔法攻撃力を(\d+)アップアキノがいる場合、範囲内の敵の物理防御力を(\d+)ダウン$"=►Deals $1 P.DMG to enemies in 900 range.\n►Boosts allies' P.ATK and M.ATK by $2 for 18s.\n\nIf [Akino] is present:\n►Lowers enemies' P.DEF in 900 range by $3 for 18s.
 
 
@@ -65,7 +62,8 @@ r:"^範囲内の敵に(\d+)の物理ダメージ味方全体の物理・魔法�
 
 ##S1++##
 ファイアスラッシュ++=Fire Slash++
-前方範囲内の敵すべてに物理大ダメージを与え、物理防御力を小ダウンさせる。サレンのＨＰが低いほど、ダメージ倍率が最大２倍までアップする。アキノ（同名キャラを除く）が味方にいる場合、自分のＨＰ回復量が特大ダウン、物理・魔法防御力が大ダウンするが、自分に【競争心】を付与し、前方の火属性の味方すべての物理攻撃力を特大アップさせる。【競争心】付与時にＨＰが0になるダメージを受けると、ＨＰ１で耐える。=Deals large P.DMG to all enemies in a frontal area and slightly lowers their P.DEF. The lower Saren’s HP, the higher the damage multiplier, up to a maximum of 2×. If Akino (ORIGINAL AKINO ONLY) is present among allies, greatly lowers own HP recovery amount and greatly lowers own P.DEF and M.DEF, but grants self [Competitive Spirit] and massively boosts the P.ATK of all Fire-element allies in front. While [Competitive Spirit] is active, if damage that would reduce HP to 0 is taken, survives with 1 HP.
+前方範囲内の敵に物理大ダメージを与え、物理防御力を小ダウンさせる。自分のＨＰ割合が低いほど、ダメージ倍率が最大２倍まで増加する。アキノ（同名キャラを除く）が味方にいる場合、自分のＨＰ回復量が特大ダウン、物理・魔法防御力が大ダウンするが、自分に【競争心】を付与し、前方の火属性の味方の物理攻撃力を特大アップさせる。【競争心】付与時にＨＰが０になるダメージを受けると、ＨＰ１で耐える。=Deals major P.DMG to enemies in front and slightly lowers their P.DEF. The lower own HP percentage, the higher the damage multiplier, up to 2×. If Akino (excluding self) is on the ally side, greatly reduces own HP recovery and DEF, but grants self [Rivalry] and massively boosts the P.ATK of fire-element allies in front. While [Rivalry] is active, if self would take damage that reduces HP to 0, survives with 1 HP.
+
 
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウンアキノがいる場合、以下の効果が発動する競争心付与中にＨＰが0になった場合、ＨＰ1で耐える範囲内の火属性の味方の物理攻撃力を(\d+)アップ自分のＨＰ回復量を100％ダウン自分の物理・魔法防御力を現在値の50%ダウン$"=Cast time: 1.45s.\n►Deals $1 P.DMG to enemies within range.\n►Lowers enemies' P.DEF within range by $2.\n\nIf [Akino] is present:\n►If HP reaches 0 while [Competitive Spirit] is active, survive with 1 HP.\n►Boosts P.ATK of Fire allies within range by $3.\n►Reduces own HP recovery received by 100％.\n►Reduces own P.DEF and M.DEF by 50% of current value.
 

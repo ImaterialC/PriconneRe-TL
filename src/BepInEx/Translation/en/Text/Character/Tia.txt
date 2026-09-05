@@ -27,3 +27,5 @@ r:"^敵全体の物理・魔法防御力を(\d+)ダウン敵全体の被クリ�
 ブランクブロック=Blank Block
 味方全体の受ける混乱と誘惑を無効化する。=Nullifies Confusion and Charm inflicted on all allies.
 味方全体の受ける混乱、誘惑を無効化する=Nullifies Confusion and Charm for all allies.
+味方全体の受ける混乱、誘惑を無効化する=Nullifies Confusion and Charm inflicted on all allies.
+バトル中敵物理防御力中ダウン=Moderately lowers the Physical Defense of all enemies during battle.

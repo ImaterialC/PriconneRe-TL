@@ -661,6 +661,6 @@
 クレジッタ（サマー）=Creditta;SCreditta;Summer
 
 
-クローチェ（ヴァルムドラッヘ）=Croce(Wahrdrache);Croche(Wahrdrache);Crotch(Wahrdrache);WCroce;WCroche;WCrotch
-リンド（ヴァルムドラッヘ）=Lind(Wahrdrache);WLind
-ヴルム（ヴァルムドラッヘ）=Wyrm(Wahrdrache);Wurm(Wahrdrache);WWyrm;WWurm
+クローチェ（ヴァルムドラッヘ）=Croce(Warmdrache);Croche(Warmdrache);Crotch(Warmdrache);WCroce;WCroche;WCrotch
+リンド（ヴァルムドラッヘ）=Lind(Warmdrache);WLind
+ヴルム（ヴァルムドラッヘ）=Wyrm(Warmdrache);Wurm(Warmdrache);WWyrm;WWurm

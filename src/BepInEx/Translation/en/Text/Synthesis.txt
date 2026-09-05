@@ -22,6 +22,7 @@ EX装備錬成確認=EX Equip Synthesis Confirmed
 錬成結果破棄確認=Discard Synthesis Result
 再錬成=Reforging
 
+ロック状態・数に変更があるため、アイテムの消費数が変化しています。錬成結果を確定後に再錬成します。=The number of items consumed has changed due to changes in the locked status and quantity. Confirm the synthesis result before synthesizing again.
 
 橙=Orange
 緑=Green
@@ -118,3 +119,10 @@ r:"^(\d+)回\[-\]\[3C404E\]錬成を行いました。$"=Performed [FFBB00,CE4F0
 r:"^以下のアイテムを消費して、最大\[FFBB00\,CE4F00\](\d+)回\[-\]錬成します。前回の錬成結果を破棄してから再錬成します。$"=Consume the following items to perform up to [FFBB00,CE4F00]$1[-] synthesis.\nThe previous synthesis result will be discarded before refining again.
 カスタム再錬成確認=Confirm Custom Re-Synthesis
 条件を満たすサブステータスが抽選されました。=A Sub Stat meeting the specified conditions has been obtained.
+
+
+r:"^以下のアイテムを消費して、最大\[FFBB00,CE4F00\](\d+)回\[-\]錬成します。前回の錬成結果を確定してから再錬成します。$"=Consume the following items to perform up to [FFBB00,CE4F00]$1[-] refinements. Confirm the previous synthesis result before refining again.
+ロック状態・数に変更があるため、アイテムの消費数が変化しています。錬成結果を確定後に再錬成します。=The number of items consumed has changed due to changes in the locked status and quantity. Confirm the synthesis result before refining again.
+
+以下のアイテムを消費して再錬成します。前回の錬成結果を破棄してから再錬成します。=Consume the following items to synthesize again. The previous synthesis result will be discarded before synthesis again.
+EX装備再錬成確認=Confirm EX Equipment Re-Synthesis

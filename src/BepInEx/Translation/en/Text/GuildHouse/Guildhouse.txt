@@ -185,9 +185,8 @@ Lvアップ中止確認=LV-up Cancellation Confirmation
 [FF7C4E,D62146]Lvアップに消費したルピは半額戻ります。[-]=[FF7C4E,D62146]Rupi consumed for Lv Up will be returned by half.[-]
 ---upgrade done---
 r:"^\[3C404E\]Lv(\d+)→\[-\]\[FFBB00,CE4F00\]Lv(\d+)\[-\]$"=[3C404E]Lv$1→[-][FFBB00,CE4F00]Lv$2[-]
-
-sr:"^(\d+時間)?(\d+分)?で(.+)×(\d+)生産、(\d+)まで保管可能\(あと(\d+時間)?(\d+分)?(\d+秒)?\)$"=Produce $3 × $4 every $1$2. Can store up to $5.($6$7$8 left)
-sr:"^(\d+時間)?(\d+分)?で(.+)×(\d+)生産、(\d+)まで保管可能$"=$3 × $4 every $1$2. Can store up to $5.
+sr:"^(\d+時間)?(\d+分)?で(.+)×([\d,]+)生産、([\d,]+)まで保管可能\(あと(\d+時間)?(\d+分)?(\d+秒)?\)$"=Produce $3 × $4 every $1$2. Can store up to $5.($6$7$8 left)
+sr:"^(\d+時間)?(\d+分)?で(.+)×([\d,]+)生産、([\d,]+)まで保管可能$"=$3 × $4 every $1$2. Can store up to $5.
 r:"^(\d+)秒$"=$1s
 r:"^(\d+)分$"=$1m
 r:"^(\d+)時間$"=$1h

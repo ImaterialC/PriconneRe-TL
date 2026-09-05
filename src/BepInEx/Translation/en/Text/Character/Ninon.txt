@@ -29,7 +29,8 @@ r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自�
 
 ##S2##
 火炎扇=Blazing Fan
-目の前の敵１キャラに物理中ダメージを与え、さらに小さく吹き飛ばす。=Deals moderate P.DMG to an enemy directly in front and knocks them back slightly.
+目の前の敵１キャラに物理大ダメージを与え、小さく吹き飛ばす。これを２回行う。自分に【火遁の印】（上限５）を１個付与する。=Deals major P.DMG to an enemy in front and slightly knocks them back. Does this twice. Grants self 1 [Fire Style Mark] (max 5).
+r:"^敵単体に(\d+)の物理ダメージを２回与える自分に火遁の印を１個付与する$"=Cast time: 0.85s.\n►Deals $1 P.DMG to a single enemy twice.\n►Grants self 1 [Fire Style Mark].
 
 ##EX##
 ホンノウジブースト=Honnoji Hustle
@@ -37,13 +38,20 @@ r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自�
 
 ##UB+##
 忍法・烈火之紅蓮旋風=Ninpo: Crimson Conflagration Gale
-前方範囲内の敵すべてに物理大ダメージを与え、自分の物理攻撃力を大アップさせ、ＴＰを小回復する。とどめを刺した敵の数に応じて物理攻撃力の上昇量とＴＰの回復量が増加する。=Damage all of the enemies within the front range, increase your P.ATK, and recover the TP small. The amount of P.ATK boost and the amount of TP recovery boost according to the number of enemies that stabbed the end.
-r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＴＰを100回復$"=►Deals $1 P.DMG to enemies in 815 range.\n►Boosts own P.ATK by $2 for 12s.\n►Recovers own TP by 100.\n►Recovers own TP by 200 for each fallen enemy.
+前方範囲内の敵に物理特大ダメージを与え、自分の物理攻撃力を短時間大アップする。敵を倒した場合、自分に【火遁の印】（上限５）を１個付与する。倒した敵の数に応じて【火遁の印】の付与数と、物理攻撃力のアップ量が増加する。【火遁の印】付与中、【火遁の印】を１個消費し、自分のＴＰを特大回復する。=Deals colossal P.DMG to enemies in front and greatly boosts own P.ATK for a short time. If an enemy is defeated, grants self 1 [Fire Style Mark] (max 5). The number of [Fire Style Mark] stacks granted and the amount of P.ATK boost increase based on the number of enemies defeated. While [Fire Style Mark] is active, consumes 1 [Fire Style Mark] to greatly recover own TP.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ倒した敵の数に応じて、自分に火遁の印を付与する火遁の印が１個以上の場合、以下の効果が発動する火遁の印を１個消費する自分のＴＰを1000回復$"=►Deals $1 P.DMG to enemies within 815 range.\n►Boosts own P.ATK by $2 6s.\n►Grants self [Fire Style Mark] based on the number of enemies defeated.\n\nIf self has 1 or more [Fire Style Marks]:\n►Consumes 1 [Fire Style Mark].\n►Recovers own TP by 1000.
 
 ##S1+##
 旋風撃+=Hurricane Assault+
 前方範囲内の敵すべてに物理中ダメージを与え、さらにこのスキルで敵を倒した場合、自分のＴＰを特大回復する。=Deals moderate P.DMG to all enemies in range. Recovers own TP by a massive amount if an enemy is defeated by this skill.
-r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自分のＴＰを1000回復$"=Cast time: 1.85s.\n►Deals $1 P.DMG to enemies in 750 range.\n►Recovers own TP by 1000 for each fallen enemy.
+r:"^範囲内の敵に(\d+)の物理ダメージ敵を倒した場合、自分のＴＰを1000回復$"=Cast time: 1.85s.\n►Deals $1 P.DMG to enemies within 750 range.\n►If an enemy is defeated, recovers own TP by 1000.
 
 ##UE##
 紅蓮爆炎扇=Crimson Blaze
+
+
+
+##S1++##
+前方範囲内の敵に物理大ダメージを与え、自分に【火遁の印】（上限５）を１個付与する。敵を倒した場合、その数に応じて【火遁の印】の付与数が増加し、さらに自分のＴＰを特大回復する。=Deals major P.DMG to enemies in front and grants self 1 [Fire Style Mark] (max 5). If any enemies are defeated, the number of [Fire Style Mark] stacks granted increases based on the number defeated, and greatly recovers own TP.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ自分に火遁の印を１個付与する敵を倒した場合、自分のＴＰを1000回復$"=Cast time: 1.85s.\n►Deals $1 P.DMG to enemies within 750 range.\n►Grants self 1 [Fire Style Mark].\n►If an enemy is defeated, recovers own TP by 1000.

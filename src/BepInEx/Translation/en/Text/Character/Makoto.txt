@@ -23,12 +23,12 @@ r:"^敵単体の物理防御力を(\d+)ダウン$"=►Lowers an enemy's P.DEF by
 
 ##UB+##
 ウルフェンランページ=Wolven Rampage
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力を特大ダウンさせる。さらに自分に【狼牙の咆哮】を付与する。【狼牙の咆哮】が付与されている間、すべてのスキルの効果値が増加する。=Deals massive P.DMG to the enemy character in front and greatly reduces their P.DEF. Additionally, grants self "Wolf's Howl." While "Wolf's Howl" is active, the effectiveness of all skills is increased.
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を特大ダウンさせる。自分に【狼牙の咆哮】を付与する。【狼牙の咆哮】付与中、スキルの効果値が増加する。=Deals colossal P.DMG to an enemy in front and greatly lowers their P.DEF. Grants self [Wolf's Howl]. While [Wolf's Howl] is active, increases the effect values of skills.
 r:"^自分に狼牙の咆哮を付与する敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=►Grants self Wolf's Howl.\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.
 
 ##S1+##
 ハードスラッシュ+=Hard Slash+
-目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を小アップさせる。=Deals large P.DMG to an enemy directly in front. Moderate boost to own P.ATK.
+目の前の敵１キャラに物理大ダメージを与え、自分の物理攻撃力を小アップする。=Deals major P.DMG to an enemy in front and slightly boosts own P.ATK.
 
 ##UE##
 ウルフェンブレード=Wolven Blade
