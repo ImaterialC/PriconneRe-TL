@@ -8,11 +8,13 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ
 
 ##S1##
 神聖なる機翼=Sacred Mechanized Wings
-味方全体の魔法攻撃力を特大アップ、魔法攻撃クリティカル時のダメージを小アップさせる。発動時既に【エクスマキナ】が60の場合、行動パターンが変化する。バトル開始後、初弾のこのスキルは、自分がステータスアップ効果を受ける度に、【エクスマキナ】が１つ追加される状態にする。【エクスマキナ】は最大60まで追加される。=Massively boosts all allies’ M.ATK and slightly boosts their M.CRIT DMG. If [Ex Machina] is already at 60 at activation, the action pattern changes. The first time this skill is used after battle start, grants a state where self gains 1 stack of [Ex Machina] each time she receives a status up effect. [Ex Machina] can stack up to 60 times.
+味方全体の魔法攻撃力を特大アップ、魔法クリティカルダメージを小アップさせる。発動時既に【エクスマキナ】が最大だった場合、行動パターンが変化する。初回発動時、自分がステータスアップ効果を受けるたびに、【エクスマキナ】（上限60）が１個付与される状態になる。=Massively boosts all allies' M.ATK and slightly boosts their M.CRIT DMG. If [Ex Machina] is already at maximum upon activation, changes action pattern. On first activation, enters a state where oneself gains 1 [Ex Machina] (max 60) whenever receiving a stat boost effect.
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリダメを12％アップステータスアップ効果を受けるたびに自分にエクスマキナを１つ追加する状態になる$"=Cast time: 1.05s.\n►Boosts allies' M.ATK by $1 for 12s.\n►Boosts allies' M.CRIT DMG by 12％ for 12s.\n►Grants a state where each time self receives a stat-up effect, gain 1 [Ex Machina].
 
 ##S2##
 このスキルのスキルレベルは「天鳴の疾奏」と連動しています=This skill’s skill level is linked to Heavenly Thunder Allegro
+目の前の敵１キャラに魔法大ダメージを２回与え、魔法防御力を小ダウンさせる。【エクスマキナ】が60個の場合、行動パターンが変化する。=Deals major M.DMG twice to an enemy in front and slightly lowers their M.DEF. If there are 60 [Ex Machina], changes action pattern.
+
 
 天鳴の疾奏=Heavenly Thunder Allegro
 天鳴の疾奏+=Heavenly Thunder Allegro+
@@ -25,9 +27,11 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ
 
 
 ---Pattern Change---
-【エクスマキナ】を10消費するが、味方全体の魔法攻撃クリティカル時のダメージと魔法攻撃のダメージを小アップさせ、さらに自分の魔法攻撃力を大アップし、ＴＰを小回復する。【エクスマキナ】が10以下の場合、行動パターン変化を解除する。=Consumes 10 stacks of [Ex Machina] to slightly boost all allies’ M.CRIT DMG and M.DMG. Additionally, greatly boosts own M.ATK and slightly recovers own TP. If [Ex Machina] is 10 or lower, the action pattern change is canceled.
+
+【エクスマキナ】を10個消費するが、味方全体の魔法クリティカルダメージと与える魔法ダメージを小アップさせ、自分の魔法攻撃力を大アップ、ＴＰを小回復する。【エクスマキナ】が10個以下の場合、行動パターン変化を解除する。=Consumes 10 [Ex Machina] to slightly boost all allies' M.CRIT DMG and M.DMG dealt, greatly boost own M.ATK, and slightly recover own TP. If [Ex Machina] is at 10 or fewer, reverts action pattern.
+
 r:"^エクスマキナを10消費する味方全体が与える魔法ダメージを6％アップ味方全体の魔法クリダメを12％アップ自分の魔法攻撃力を(\d+)アップ自分のＴＰを125回復$"=Cast time: 1.05s.\n►Consumes 10 [Ex Machina].\n►Boosts allies' M.DMG dealt by 6％ for 12s.\n►Boosts allies' M.CRIT DMG by 12％ for 12s.\n►Boosts own M.ATK by $1 for 12s.\n►Recovers own TP by 125.
 
 
-【エクスマキナ】を10消費するが、目の前の敵１キャラに魔法大ダメージを２回与え、魔法防御力を小ダウンさせ、さらに自分の魔法攻撃力を大アップし、ＴＰを小回復する。【エクスマキナ】が10以下の場合、行動パターン変化を解除する。=Consumes 10 stacks of [Ex Machina] to deal large M.DMG to an enemy in front twice and slightly lower their M.DEF. Additionally, greatly boosts own M.ATK and slightly recovers own TP. If [Ex Machina] is 10 or lower, the action pattern change is canceled.
+【エクスマキナ】を10個消費するが、目の前の敵１キャラに魔法大ダメージを２回与え、魔法防御力を小ダウンさせ、自分の魔法攻撃力を大アップ、ＴＰを小回復する。【エクスマキナ】が10個以下の場合、行動パターン変化を解除する。=Consumes 10 [Ex Machina] to deal major M.DMG twice to an enemy in front, slightly lower their M.DEF, greatly boost own M.ATK, and slightly recover own TP. If [Ex Machina] is at 10 or fewer, reverts action pattern.
 r:"^エクスマキナを10消費する敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ自分のＴＰを125回復$"=Cast time: 1.05s.\n►Consumes 10 [Ex Machina].\n►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $3 for 12s.\n►Boosts own M.ATK by $4 for 12s.\n►Recovers own TP by 125.

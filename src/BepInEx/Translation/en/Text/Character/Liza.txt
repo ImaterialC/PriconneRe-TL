@@ -1,0 +1,27 @@
+若山詩音=Wakayama Shion
+薬学の勉強、クーの散歩=Studying pharmacology, stroll with Cu
+
+
+##Profile##
+【物理】後衛で、答えを求め彷徨うダークエルフの咎人。ＵＢで放つ矢の呪いは二度重なれば呪詛、三度重なれば強烈な割合ダメージとなり、立ちはだかる敵を殺める。=[Physical] A dark elf sinner in the backline, wandering in search of answers. The curse carried by her arrows becomes Hex when applied twice, and devastating percentage-based damage when applied three times, slaying any enemies who stand in her way.
+
+##UB##
+イクリプス・ショット=Eclipse Shot
+前方範囲内の敵に物理大ダメージを与え、物理防御力を小ダウンさせ、呪い状態にする。発動時既に対象が呪い状態だった場合、物理ダメージと呪いのダメージが増加し、さらに呪詛状態でない場合、呪詛状態にする。発動時既に前方範囲内の最も物理防御力が低い敵が呪い状態かつ呪詛状態だった場合、その敵の最大ＨＰに応じて最大444万の物理割合ダメージを与え、さらに弱体効果が９種類以上の場合、受ける物理ダメージを小アップさせる。=Deals major P.DMG to enemies in front, slightly lowers their P.DEF, and inflicts Curse. If the target is already afflicted with Curse when activated, increases the P.DMG and Curse damage, and additionally inflicts Hex if they are not already afflicted with it. If the enemy with the lowest P.DEF in front is already afflicted with both Curse and Hex when activated, deals percentage-based P.DMG based on that enemy's max HP, up to 4.44 million. If that enemy has 9 or more types of debuffs, additionally slightly increases their incoming P.DMG.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン(\d+)ダメージを与える呪い状態にする敵が呪い状態であり呪詛状態でない場合、毎秒ダメージが初期値(\d+)の30％ずつアップするダメージを与える呪詛状態にする対象の敵が呪い状態かつ呪詛状態の場合、敵単体に最大444万の物理割合ダメージを与える対象の敵が呪い状態かつ呪詛状態であり弱体効果が９種類以上の場合、敵単体が受ける物理ダメージを9％アップ$"=►Deals $1 P.DMG to enemies within 1185 range.\n►Lowers P.DEF of enemies within range by $2 for 18s.\n►Inflicts Curse on enemies within 1185 range, dealing $3 damage.\n\nIf the enemy is Cursed but not Hexed:\n►Inflicts Hex, dealing damage every second starting at $4 and increasing by 30% each time.\n\nIf the target is Cursed and Hexed:\n►Deals fixed P.DMG up to 4,440,000 to a single enemy.\n\nIf the target is Cursed, Hexed, and has 9 or more debuff types:\n►Increases P.DMG taken by a single enemy by 9%.
+
+##S1##
+ゴーストハンド=Ghost Hand
+前方範囲内の敵に物理中ダメージを与え、束縛する。対象が呪い状態の場合、ダメージが増加し、さらに物理防御力を小ダウンさせる。対象が呪い状態かつ呪詛状態の場合、さらにダメージが増加する。=Deals moderate P.DMG to enemies in front and binds them. If the targets are afflicted with Curse, increases the damage and additionally slightly lowers their P.DEF. If the targets are afflicted with both Curse and Hex, further increases the damage.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間行動不能にする敵が呪い状態の場合、以下の効果が発動する範囲内の敵の物理防御力を(\d+)ダウン$"=Cast time: 1.05s.\n►Deals $1 P.DMG to enemies within 1185 range.\n►Inflict Bind on the targets that damaged by act for 3s.\n\nIf the enemy is Cursed:\n►Lowers P.DEF of enemies within range by $2 for 12s.
+
+##S2##
+カースサークル=Curse Circle
+前方範囲内の敵のＨＰ回復量と行動速度を大ダウンさせる。前方範囲内の最も物理防御力が低い敵が呪い状態の場合、さらにその敵のＴＰを中ダウンさせ、自分のＴＰを中回復する。前方範囲内の最も物理防御力が低い敵が呪い状態かつ呪詛状態の場合、さらにその敵の受けるクリティカルダメージを小アップさせる。=Greatly lowers the HP recovery and action speed of enemies in front. If the enemy with the lowest P.DEF in front is afflicted with Curse, additionally moderately lowers their TP and moderately recovers own TP. If that enemy is afflicted with both Curse and Hex, additionally slightly increases their incoming CRIT DMG.
+r:"^範囲内の敵のＨＰ回復量を50％ダウン範囲内の敵の行動速度50％ダウン対象の敵が呪い状態の場合、以下の効果が発動する敵単体のＴＰを250失わせる自分のＴＰを250回復対象の敵が呪い状態かつ呪詛状態の場合、敵単体の被クリダメを8％アップ$"=Cast time: 1.05s.\n►Lowers HP recovery of enemies within 1185 range by 50% for 18s.\n►Lowers action speed of enemies within range by 50% for 18s.\n\nIf the target is Cursed:\n►Drains 250 TP from a single enemy.\n►Recovers own TP by 250.\n\nIf the target is Cursed and Hexed:\n►Boosts a single enemy's CRIT DMG taken by 8% for 18s.
+
+##EX##
+ダークエルフの秘術=Dark Elf's Secret Art
+ダークエルフの秘術+=Dark Elf's Secret Art+

@@ -32,22 +32,23 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を一定時間�
 
 ##S2##
 アイドルエール=Idol's Encouragement
-自分の周囲の味方すべてのＨＰを中回復させる。=Recovers HP of all nearby allies by a small amount.
+自分を中心とした範囲内の味方のＨＰを中回復させる。=Moderately recovers the HP of all allies in range centered on oneself.
 r:"^範囲内の味方のＨＰを(\d+)回復$"=►Recovers allies' HP in range by $1.
 
 ##EX##
 ルミナススマイル=Radiant Smile
 ルミナススマイル+=Radiant Smile+
-バトル開始時に自分の物理防御力を中アップさせ、さらに自分の魔法防御力を小アップさせる。=Moderate boost to own P.DEF and small boost to M.DEF at start of battle.
+バトル開始時に自分の物理防御力を中アップ、魔法防御力を小アップする。=At the start of battle, moderately boosts own P.DEF and slightly boosts own M.DEF.
 r:"^自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=►Boosts own P.DEF by $1.\n►Boosts own M.DEF by $2.
 
 ##UB+##
 ライブ・オンスペシャルステージ=Live on Special Stage
-【挑発】味方全体の物理攻撃力を大アップさせ、物理/魔法無効バリアを展開し、自分の物理防御力と魔法防御力を特大アップさせる。さらに敵全体を挑発してスタンさせる。=[Taunt] Large boost the allies' P.ATK, deploys a P/M nullification barrier, and Large boost own M/P.DEF. Also provokes and stuns all enemies.
+【挑発】味方全体の物理攻撃力を大アップさせ、物理/魔法無効バリアを展開し、自分の物理・魔法防御力を特大アップする。敵全体を挑発し、スタンさせる。=[Taunt] Greatly boosts all allies' P.ATK, deploys a P.DMG/M.DMG nullification barrier, and massively boosts own P.DEF and M.DEF. Taunts and stuns all enemies.
 r:"^味方全体の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物理魔法無効バリアを展開する自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ敵全体を挑発する敵全体を一定時間行動不能にする$"=►Boosts allies' P.ATK by $1 for 18s.\n►Deploys Barrier over all allies that negates P/M.DMG $2 for 20s.\n►Boosts own P.DEF by $3 for 18s.\n►Boosts own M.DEF by $4 for 18s.\n►Provokes all enemies for 11s.\n►Inflicts Stun to all enemies for 1.5s.
 
 ##S1+##
 クレールスラッシュ+=Glamorous Slice+
+前方範囲内の敵に物理小ダメージを与え、スタンさせ、物理攻撃力を小ダウンさせる。=Deals minor P.DMG to enemies in range ahead, stuns them, and slightly lowers their P.ATK.
 
 ##UE##
 ブリリアントマイク=Brilliant Microphone

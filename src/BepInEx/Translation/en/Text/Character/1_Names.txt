@@ -198,6 +198,7 @@ Ameth alias
 アルシャト=Alshat
 アグライア=Aglaia
 エウロス=Euros
+リーザ=Liza
 
 sr:"^このスキルのスキルレベルは「([\S\s]+)」と連動しています$"="This skill's level is linked to "$1""
 

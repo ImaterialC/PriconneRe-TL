@@ -2822,3 +2822,7 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 前から敵１体に暗闇=Inflicts Blind on the foremost enemy.
 敵全体に物理／魔法与ダメダウン=Reduces P.DMG dealt and M.DMG dealt of all enemies.
 対象が行動速度ダウン状態：沈黙時間アップ=If the target is under an action speed reduction effect: increases Silence duration.
+
+強靭な脚と鋭利なツメを操る獰猛な恐竜。滅びた大地でマグマを喰らい生きる孤高の存在。【特殊効果】=A ferocious dinosaur with powerful legs and razor-sharp claws. A solitary creature that survives by feeding on magma in a ruined land. [Special Effect]
+全スキルダメージＴＰ回復不可【ユニオンバースト】=All skill damage does not restore TP. [Union Burst]
+自身に行動速度アップ【スキル１】=Increases own action speed. [Skill 1]
