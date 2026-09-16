@@ -3,7 +3,7 @@
 
 ##UB##
 琉球犬アラウンドシュート=Ryukyu-Ken Spiral Shot
-前方範囲内の敵すべてに物理中ダメージを与える。このスキルの攻撃対象の数が多いほどダメージが増加する。=Deals moderate P.DMG to all enemies in range. Damage increases based on the number of targets.
+前方範囲内の敵に物理中ダメージを与える。対象の敵の数が多いほど、ダメージが増加する。=Deals moderate P.DMG to enemies in front. Damage increases based on the number of enemies hit.
 
 ##S1##
 円心裂波=Cyclone Smash
@@ -20,13 +20,13 @@ r:"^自分の物理攻撃力を(\d+)アップ範囲内の味方の行動速度�
 
 ##S1+##
 円心裂波+=Cyclone Smash+
-前方範囲内の敵すべてに物理中ダメージを与えてスタンさせ、さらに目の前の敵１キャラを大きく吹き飛ばす。=Deals moderate P.DMG to all enemies in range and Stuns them, and knockbacks an enemy directly in front.
+前方範囲内の敵に物理中ダメージを与え、スタンさせ、目の前の敵１キャラを大きく吹き飛ばす。=Deals moderate P.DMG to enemies in front and stuns them, then knocks the enemy in front back greatly.
 
 ##S2+##
 琉球犬唄+=Ryukyu Calypso+
-自分を中心とした範囲内の味方の行動速度を大アップさせる。さらに、自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップ、ＴＰを中回復する。=Massively boosts own P.ATK, slightly boosts own P.CRIT DMG and moderately recovers own TP. Also greatly boosts allies' action speed in range.
-r:"^範囲内の味方の行動速度アップ自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを6％アップ自分のＴＰを150回復$"=►Boosts allies' action speed in 300 range to 155% for 12s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 6% for 180s.\n►Recovers own TP by 150.
+自分を中心とした範囲内の味方の行動速度を大アップさせる。自分の物理攻撃力を特大アップ、物理クリティカルダメージを小アップ、ＴＰを中回復する。=Greatly boosts the action speed of allies in range around oneself. Massively boosts own P.ATK, slightly boosts own P.CRIT DMG, and moderately recovers own TP.
 
+r:"^範囲内の味方の行動速度55％アップ自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを6％アップ自分のＴＰを150回復$"=Cast time: 0.84s.\n►Boosts action speed of allies within range by 55% for 12s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 6% for 180s.\n►Recovers own TP by 150.
 ##UE##
 琉球犬式・神舞之籠手=Ryukyu-Ken Style: Divine Dance Gauntlet
 琉球犬式・踊三線=Ryukyu Dog Style: Dance Sanshin

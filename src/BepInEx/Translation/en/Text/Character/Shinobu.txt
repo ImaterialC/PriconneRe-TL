@@ -24,13 +24,18 @@ r:"^敵全体の物理防御力を(\d+)ダウン$"=►Lowers all enemies' P.DEF 
 
 ##UB+##
 ファントムインフェルノ=Phantom Inferno
-前方範囲内の敵すべてに物理大ダメージを与え、物理防御力を中ダウン、行動速度を大ダウンさせ、恐慌状態にする。さらに、【霊力】を解放する。【霊力】解放中、召喚するドクロ親父の各種ステータスがアップする。=Deals large P.DMG to all enemies within range, moderately lowers P.DEF, largely reduces speed, and inflicts Fear. Furthermore, receives [Spiritual Power] (various stats of the summoned Skull Father will be increased).
+前方範囲内の敵に物理大ダメージを与え、物理防御力を中ダウン、行動速度を大ダウンさせ、恐慌状態にする。【霊力】を解放する。【霊力】解放中、召喚するドクロ親父の各種ステータスがアップする。=Deals major P.DMG to enemies in range ahead, moderately lowers their P.DEF, greatly lowers their action speed, and inflicts Panic. Releases [Spiritual Power]. While [Spiritual Power] is released, the various stats of the summoned Skull Father are boosted.
+
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の行動速度を一定時間低下させる範囲内の敵を恐慌状態にする霊力を解放する$"=►Deals $1 P.DMG to enemies in 850 range.\n►Lowers enemies' P.DEF in range by $2 for 18s.\n►Reduces enemies' action speed in range to 65% for 12s.\n►Inflicts Fear to enemies in range for 12s.\n►Receive Spiritual Power for 180s.
+
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の行動速度35％ダウン範囲内の敵を恐慌状態にする霊力を解放する$"=►Deals $1 P.DMG to enemies within 850 range.\n►Lowers P.DEF of enemies within 850 range by $2 for 18s.\n►Lowers action speed of enemies within 850 range by 35% for 12s.\n►Inflicts Fear on enemies within 850 range for 12s.\n►Receive Spiritual Power.
+
 
 ##S1+##
 ファントムコール+=Otherworldly Beckoning+
-【召喚】自分の前に、目の前の敵１キャラを攻撃するドクロを召喚し、自分を中心とした範囲内の味方の物理攻撃力と物理クリティカルを中アップする。=[Summon] Summons a skull in front of oneself, which attacks an enemy directly in front. Moderate boost to P.ATK and allies' P.CRIT Rate in a radius around the frontmost ally.
-r:"^ドクロ親父を召喚する範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ$"=►Summons Shinobu's Skull Father.\n►Boosts allies' P.ATK in range by $1.\n►Boosts allies' P.CRIT Rate in range by $2.
+【召喚】自分の前に、目の前の敵１キャラを攻撃するドクロを召喚し、自分を中心とした範囲内の味方の物理攻撃力と物理クリティカルを中アップさせる。=[Summon] Summons a Skull in front of oneself that attacks the enemy in front, and moderately boosts the P.ATK and P.CRIT RATE of allies in range centered on oneself.
+
+r:"^ドクロ親父を召喚する範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ$"=Cast time: 1.38s\n►Summons Shinobu's Skull Father.\n►Boosts allies' P.ATK in range by $1.\n►Boosts allies' P.CRIT Rate in range by $2.
 
 ##UE##
 グリムソウルローブ=Grim Soul Robe

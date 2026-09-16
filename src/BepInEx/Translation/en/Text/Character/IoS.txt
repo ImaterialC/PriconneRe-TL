@@ -3,13 +3,15 @@
 
 ##UB##
 タイフーン・ラブドリーム=Love Dream Typhoon
-敵全体に魔法中ダメージを与え、さらに味方全体のＨＰを中回復させる。=Deals moderate M.DMG to all enemies and recovers all allies' HP by a moderate amount.
+
+敵全体に魔法中ダメージを与え、味方全体のＨＰを中回復させる。=Deals moderate M.DMG to all enemies and moderately recovers all allies' HP.
+
 r:"^敵全体に(\d+)の魔法ダメージ味方全体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to all enemies.\n►Recovers allies' HP by $2.
 
 ##S1##
 ラブスティール=Love Bandit
 前方範囲内の敵すべてに魔法小ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復する。範囲内の敵の数に応じて回復量が増加する。=Deals small M.DMG to enemies in range, and slightly recovers HP of the ally with the lowest HP. HP recovery increases according to number of enemies in range.
-r:"^範囲内の敵すべてに(\d+)の魔法ダメージ味方単体のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in range.\n►Recovers an ally's HP by $2.
+r:"^範囲内の敵すべてに(\d+)の魔法ダメージ味方単体のＨＰを(\d+)回復$"=Cast time: 0.74s.\n►Deals $1 M.DMG to enemies in range.\n►Recovers an ally's HP by $2.
 
 ##S2##
 ラブスプラッシュ=Love Splash
@@ -22,12 +24,12 @@ r:"^範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵すべ�
 
 ##S1+##
 ラブスティール+=Love Bandit+
-前方範囲内の敵すべてに魔法中ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復する。範囲内の敵の数に応じて回復量が増加する。=Deals moderate M.DMG to enemies in range, and slightly recovers HP of the ally with the lowest HP. HP recovery increases according to number of enemies in range.
+前方範囲内の敵に魔法中ダメージを与え、最もＨＰが低い味方のＨＰを小回復させる。対象の敵の数に応じて、ＨＰの回復量が増加する。=Deals moderate M.DMG to enemies in front and slightly recovers the HP of the ally with the lowest HP. HP recovery increases based on the number of enemies hit.
 
 ##S2+##
 ラブスプラッシュ+=Love Splash+
-自分の魔法攻撃力を大アップ、魔法クリティカルを大アップする。さらに前方範囲内の敵すべてに魔法中ダメージを与え、魔法防御力を小ダウンさせる。範囲内の敵の数に応じてダメージと魔法防御力のダウン量がアップする。=Deals moderate M.DMG to enemies in range and slightly lowers their M.DEF. Also greatly boosts own M.ATK and M.CRIT Rate. The M.DMG dealt and lowered M.DEF increase according to number of enemies in range.
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを150アップ$"=►Deals $1 (+0.18×$1×Enemy Count) M.DMG to enemies in 1100 range.\n►Lowers enemies' M.DEF in 1100 range by $2 (+0.1×$2×Enemy Count) for 18s.\n►Boosts own M.ATK by $3 for 180s.\n►Boosts own M.CRIT Rate by 150 for 180s.
+自分の魔法攻撃力を大アップ、魔法クリティカルを大アップする。前方範囲内の敵に魔法中ダメージを与え、魔法防御力を小ダウンさせる。対象の敵の数に応じて、ダメージと魔法防御力のダウン量が増加する。=Greatly boosts own M.ATK and M.CRIT RATE. Deals moderate M.DMG to enemies in front and slightly lowers their M.DEF. Damage and the amount of M.DEF lowered increase based on the number of enemies hit.
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを150アップ$"=Cast time: 0.74s.\n►Deals $1 (+0.18×$1×Enemy Count) M.DMG to enemies in 1100 range.\n►Lowers enemies' M.DEF in 1100 range by $2 (+0.1×$2×Enemy Count) for 18s.\n►Boosts own M.ATK by $3 for 180s.\n►Boosts own M.CRIT Rate by 150 for 180s.
 
 ##UE##
 恵愛剣サマーラブファミリア=Lovely Summer Familia Sword

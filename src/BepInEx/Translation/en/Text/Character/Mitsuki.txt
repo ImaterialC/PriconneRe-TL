@@ -13,6 +13,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ敵を倒した数×20%のＨＰ
 カースブルーム=Curse Bloom
 
 前方範囲内の敵すべてを呪い状態にする。=Inflicts Curse to all enemies in range.
+
 r:"^(\d+)ダメージを与える呪い状態にする$"=Cast time: 1.41s.\n►Inflicts Curse in 620 range that deals $1 P.DMG/s for 12s.
 
 ##S2##
@@ -33,8 +34,8 @@ r:"^範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の被ク�
 
 ##S1+##
 カースブルーム+=Curse Bloom+
-前方範囲内の敵すべてを呪い状態にし、さらに行動速度を小ダウンさせる。=Inflicts Curse to all enemies in range and reduces their action speed by a small amount.
-## OLD r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の行動速度を一定時間低下させる$"=Cast time: 1.41s.\n►Inflicts Curse in 620 range that deals $1 P.DMG/s.\n►Reduces enemies' action speed in 620 range to 95% for 12s.
+前方範囲内の敵を呪い状態にし、行動速度を小ダウンさせる。=Inflicts Curse to all enemies in range and reduces their action speed by a small amount.
+
 
 r:"^(\d+)ダメージを与える呪い状態にする範囲内の敵の行動速度５％ダウン$"=Cast time: 1.41s.\n►Inflicts Curse in 620 range that deals $1 P.DMG/s for 12s.\n►Lowers action speed of enemies within 620 range by 5％ for 12s.
 

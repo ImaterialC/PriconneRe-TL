@@ -26,7 +26,8 @@ r:"^敵全体に(\d+)の魔法ダメージ自分の物理防御力を0にする�
 
 ##S2##
 冥空天昇=Void Accession
-【自爆】アンナのＨＰが最大ＨＰの１０％以下になった時に発動し、周囲の敵すべてに魔法大ダメージを与えるが、自身は戦闘不能になる。=[Self Destruct] Activates when HP falls to 10% or below. Deals large M.DMG to all enemies in range but knocks herself out.
+【自爆】自分のＨＰが最大ＨＰの１０％以下になった時に発動し、自分を中心とした範囲内の敵に魔法大ダメージを与えるが、自分は戦闘不能になる。=[Self-Destruct] Activates when own HP falls to 10% or less of maximum HP, dealing major M.DMG to enemies in range centered on oneself, but causes oneself to become incapacitated.
+
 r:"^範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies in range.
 
 ##EX##
@@ -35,14 +36,12 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to enemies 
 
 ##UB+##
 羅刹涅槃・《覇極》万象無尽冥壊破=Raksha Nirvana: Parallel End-Worlds
-自分の魔法攻撃力を短時間特大アップさせ、敵全体に魔法特大ダメージを与えるが、使用後アンナの物理防御力と魔法防御力が特大ダウンする。=Temporarily greatly increases Anna's M.ATK, dealing massive M.DMG to all enemies, but after use, Anna's P.DEF and M.DEF will greatly decrease.
-
-自分の魔法攻撃力を短時間特大アップさせ、敵全体に魔法特大ダメージを与えるが、使用後バトル終了時までアンナの物理・魔法防御力が特大ダウンする。このステータスダウン効果は解除できない。=Massively boosts own M.ATK for a short time and deals massive M.DMG to all enemies, but after use, Anna’s P.DEF and M.DEF are massively reduced until the end of battle. This debuff cannot be removed.
+自分の魔法攻撃力を短時間特大アップし、敵全体に魔法特大ダメージを与えるが、バトル終了時まで自分の物理・魔法防御力が特大ダウンする。このステータスダウン効果は解除できない。=Massively boosts own M.ATK for a short time and deals massive M.DMG to all enemies, but massively lowers own P.DEF and M.DEF until the end of battle. This stat reduction effect cannot be removed.
 r:"^自分の魔法攻撃力を(\d+)アップ敵全体に(\d+)の魔法ダメージ自分の物理防御力を初期値の100%ダウン自分の魔法防御力を初期値の100%ダウン$"=►Boosts own M.ATK by $1 for 8s.\n►Deals $2 M.DMG to all enemies.\n►Lowers own P.DEF to 0 for 99s. \n►Lowers own M.DEF to 0 for 99s.\n
 
 ##S1+##
 羅刹涅槃・無式+=Raksha Nirvana: Infinity+
-目の前の敵１キャラに魔法中ダメージを与え、さらに魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy directly in front and lowers its M.DEF by small amount.
+目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。=Deals moderate M.DMG to an enemy in front and slightly lowers their M.DEF.
 
 ##UE##
 螺旋霊撃疾風飛剣=Spiral Gale Soaring Blades

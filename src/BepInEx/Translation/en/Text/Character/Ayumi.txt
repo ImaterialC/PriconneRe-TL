@@ -31,6 +31,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃�
 
 ##S2##
 目を閉じて行けるかな…？=Can I keep my eyes closed...?
+前方範囲内の敵に物理小ダメージを与え、スタンさせる。=Deals minor P.DMG to enemies in range ahead and stuns them.
 
 ##EX##
 湧き出す勇気=Burst of Courage
@@ -41,12 +42,13 @@ r:"^自分の物理防御力を(\d+)アップ$"=►Boosts own P.DEF by $1.
 
 ##UB+##
 はわわわ、大変です～！？=Hawawa, Isn't this a Disaster~!?
-前方範囲内の敵すべてに物理大ダメージを与え、暗闇・混乱状態にし、さらにＴＰ上昇を大ダウンさせる。このスキルを使用するたび、最大３回までダメージが増加する。=Deals massive P.DMG to all enemies within range, inflicts darkness and confusion, and greatly reduces TP Boost. Each time you use this skill, damage increases up to 3 times.
+前方範囲内の敵に物理大ダメージを与え、暗闇・混乱状態にし、ＴＰ上昇を大ダウンさせる。発動するたびに、最大３回までダメージが増加する。=Deals major P.DMG to enemies in range ahead, inflicts Blind and Confusion, and greatly lowers their TP Boost. Damage increases with each activation, up to 3 times.
+
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵を暗闇状態にする範囲内の敵を混乱させる範囲内の敵のＴＰ上昇を(\d+)ダウン$"=►Deals $1 P.DMG to all enemies in 1200 range to enemies.\n►Inflicts Blind to enemies in range for 12s (-70% hit rate).\n►Confuses enemies in range for 8s.\n►Lowers enemies TP Boost in range by $2 for 12s.
 
 ##S1+##
 つ、突き刺します！+=I-I'll Stab You!+
-自分を中心とした範囲内の敵すべてに物理中ダメージを与え、さらに物理攻撃力を中ダウンさせる。=Deals moderate P.DMG to all enemies and lowers their P.ATK by a moderate amount.
+自分を中心とした範囲内の敵に物理中ダメージを与え、物理攻撃力を中ダウンさせる。=Deals moderate P.DMG to enemies in range centered on oneself and moderately lowers their P.ATK.
 
 ##UE##
 ストーキングマント=Stalking Cloak

@@ -12,8 +12,9 @@
 
 ##UB##
 ディターレントスラスト=Deterrent Thrust
-目の前の敵１キャラに魔法特大ダメージを与え、さらに英霊の加護を受けているキャラの魔法攻撃力を大アップさせる。=Deals massive M.DMG to an enemy directly in front. Boosts the allies' M.ATK under Spirit's Blessing by a large amount.
-r:"^敵単体に(\d+)の魔法ダメージ対象の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to an enemy.\n►Boosts target allies' M.ATK by $2 for 18s.
+目の前の敵１キャラに魔法特大ダメージを与え、その敵を中心とした範囲内の敵に魔法中ダメージを与え、味方全体の魔法攻撃力を特大アップさせる。=Deals massive M.DMG to an enemy in front and moderate M.DMG to enemies in range around the target. Massively boosts all allies' M.ATK.
+r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ味方全体の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to enemies within 300 range.\n►Boosts all allies' M.ATK by $3 for 18s.
+
 
 ##S1##
 コリジョンスペル=Collision Spell
@@ -21,16 +22,28 @@ r:"^敵単体に(\d+)の魔法ダメージ対象の味方の魔法攻撃力を(\
 
 ##S2##
 プリンセスコーリング=Princess Calling
-自分を中心とした範囲内の味方すべてに英霊の加護を付与し、さらに魔法攻撃力を中アップさせ、行動速度を小アップさせる。=Grants Spirit's Blessing to all nearby allies. Boosts their M.ATK by a large amount and their action speed by a small amount.
-r:"^範囲内の味方に英霊の加護を付与範囲内の味方の行動速度10％アップ範囲内の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.065s\n►Grants [Heroic Blessing] to allies within range.\n►Boosts allies' action speed within range by 10％ for 12s.\n►Boosts allies' M.ATK within range by $1 for 12s.
+
+味方全体に【英霊の加護】（上限３）を３個付与し、魔法攻撃力を特大アップ、行動速度を小アップさせ、発動時既に【英霊の加護】を受けている味方の魔法攻撃力を特大アップ、行動速度を大アップさせる。【英霊の加護】は１回ダメージを受けると１個減少する。=Grants all allies 3 stacks of [Heroic Spirit's Blessing] (max 3), massively boosts their M.ATK, and slightly boosts their action speed. Allies already affected by [Heroic Spirit's Blessing] when activated instead receive an additional massive M.ATK boost and major action speed boost. [Heroic Spirit's Blessing] loses 1 stack each time damage is taken.
+r:"^味方全体に英霊の加護を３つ付与する味方全体の魔法攻撃力を(\d+)アップ味方全体の行動速度10％アップ対象の味方の魔法攻撃力を(\d+)アップ対象の味方の行動速度50％アップ$"=Cast time: 1.065s.\n►Grants 3 [Heroic Spirit's Protection] to all allies.\n►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' action speed by 10% for 18s.\n►Boosts the target ally's M.ATK by $2 for 18s.\n►Boosts the target ally's action speed by 50% for 18s.
+
 ##EX##
 レイディアントコーリング=Radiant Calling
 レイディアントコーリング+=Radiant Calling+
 
 ##S1+##
 コリジョンスペル+=Collision Spell+
-目の前の敵１キャラに魔法大ダメージを与え、自分が英霊の加護を受けている場合味方全体のＴＰを小回復し、自分が英霊の加護を受けていない場合自分の行動速度を中アップさせる。=Deals large M.DMG to an enemy directly in front. If Anne has Spirit's Blessing, recovers all allies' TP by a small amount. If Anne does not have Spirit's Blessing, boosts own action speed by a moderate amount.
+目の前の敵１キャラに魔法大ダメージを与える。自分が【英霊の加護】を受けている場合、さらに味方全体のＴＰを小回復させ、そうでない場合、自分の行動速度を中アップする。=Deals major M.DMG to an enemy in front. If affected by [Heroic Spirit's Blessing], additionally slightly recovers all allies' TP. Otherwise, moderately boosts own action speed.
+
 r:"^敵単体に(\d+)の魔法ダメージ味方全体のＴＰを100回復自分の行動速度25％アップ$"=Cast time: 0.925s\n►Deals $1 M.DMG to a single enemy.\n►Recovers TP for all allies by 100.\n►Boosts own action speed by 25％ for 12s.
 
 ##UE##
 アンの魔導書=Anne's Grimoire
+
+
+
+
+##S1++##
+コリジョンスペル++=Collision Spell++
+
+【召喚】目の前の敵１キャラを中心とした範囲内の敵に魔法大ダメージを与える。自分が【英霊の加護】を受けている場合、さらに味方全体のＴＰを小回復させる。初回発動時、グレア（同名キャラを含む）が味方にいない場合、光属性のグレアが駆け付ける。=[Summon] Deals major M.DMG to enemies in range around an enemy in front. If affected by [Heroic Spirit's Blessing], additionally slightly recovers all allies' TP. On first activation, if Grea (including alternate versions) is not an ally, Light-element Grea rushes to the party.
+r:"^範囲内の敵に(\d+)の魔法ダメージ英霊の加護付与中、味方全体のＴＰを100回復初使用時、グレアがいない場合、グレアが駆け付ける$"=Cast time: 0.925s.\n►Deals $1 M.DMG to enemies within range.\n►While [Heroic Spirit's Protection] is active, recovers 100 TP for all allies.\n►Upon first use, if Grea is not present, Grea rushes to the battle.

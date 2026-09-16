@@ -47,10 +47,8 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを200回復自分以�
 
 ##UB-Kai##
 星河一天=Celestial Torrent
-目の前の敵１キャラに物理特大ダメージを与え、さらに自分の物理攻撃力を特大アップさせる。=Deals massive P.DMG to an enemy directly in front, and massive boost to own physical attack.
-## OLD r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own P.ATK by $2.
+目の前の敵１キャラに物理特大ダメージを与え、味方全体の物理攻撃力を特大アップさせる。発動時既に【CHAIN】が付与されていた場合、【CHAIN】をすべて消費し、さらに追加で敵全体に物理中ダメージを与える。消費した【CHAIN】の数に応じて敵全体へのダメージ倍率が増加する。=Deals massive P.DMG to an enemy in front and massively boosts all allies' P.ATK. If [CHAIN] is already present upon activation, consumes all [CHAIN] and additionally deals moderate P.DMG to all enemies. The damage multiplier against all enemies increases based on the number of [CHAIN] consumed.
 
-目の前の敵１キャラに物理特大ダメージを与え、味方全体の物理攻撃力を特大アップさせる。発動時既に【CHAIN】が付与されている場合、【CHAIN】を全て消費し、敵全体に物理中ダメージを与える。消費した【CHAIN】の数に応じて敵全体へのダメージ倍率がアップする。=Deals massive P.DMG to an enemy in front and massively boosts all allies’ P.ATK. If [CHAIN] is already applied at activation, consumes all [CHAIN] to deal medium P.DMG to all enemies. The damage multiplier to all enemies increases based on the number of [CHAIN] consumed.
 r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分以外の味方全体の物理攻撃力を(\d+)アップCHAINが１つ以上の場合、以下の効果が発動する敵全体に(\d+)の物理ダメージCHAINを全て消費する$"=►Deals $1 P.DMG to a single enemy.\n►Boosts own P.ATK by $2 for 18s.\n►Boosts allies' P.ATK (excluding self) by $3 for 18s.\n\nIf [CHAIN] is 1 or more:\n►Deals $4 P.DMG to all enemies.\n►Consumes all [CHAIN].
 
 ##S1-Kai##
@@ -76,7 +74,8 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを190回復敵単体�
 
 ##S1SP##
 アウレア+=Aurea+
-目の前の敵１キャラに物理特大ダメージを与える。さらに、自分以外の味方全てのＴＰを中回復させ、自分の物理攻撃力、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップ、ＴＰを中回復する。バトル開始後、初弾のこのスキルは味方がＵＢを使用するたびに自分に【CHAIN】が１つ追加される状態にする。【CHAIN】は最大５つまで追加される。=Deals massive P.DMG to an enemy in front. Additionally, moderately recovers the TP of all allies except self, greatly boosts own P.ATK and P.CRIT RATE, slightly boosts own P.CRIT DMG, and moderately recovers own TP. The first time this skill is used after battle start, grants a state where self gains 1 stack of [CHAIN] each time an ally uses a UB. [CHAIN] can stack up to 5 times.
+目の前の敵１キャラに物理特大ダメージを与える。自分以外の味方のＴＰを中回復させ、自分の物理攻撃力、物理クリティカルを大アップ、物理クリティカルダメージを小アップ、ＴＰを中回復する。初回発動時、味方がＵＢを発動するたびに自分に【CHAIN】（上限５）が１個付与される状態になる。=Deals massive P.DMG to an enemy in front. Moderately recovers the TP of all allies except oneself, greatly boosts own P.ATK and P.CRIT RATE, slightly boosts own P.CRIT DMG, and moderately recovers own TP. On first activation, enters a state where oneself gains 1 [CHAIN] (max 5) whenever an ally activates their UB.
+
 
 Djeeta
 r:"^敵単体に(\d+)の物理ダメージ自分以外の味方全体のＴＰを150回復自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを100アップ自分の物理クリダメを3％アップ自分のＴＰを200回復初使用時、味方がＵＢを使用するたびに自分にCHAINが１つ付与される状態にする$"=►Deals $1 P.DMG to a single enemy.\n►Recovers TP for all allies (excluding self) by 150.\n►Boosts own P.ATK by $2.\n►Boosts own P.CRIT RATE by 100.\n►Boosts own P.CRIT DMG by 3％.\n►Recovers own TP by 200.\n►Upon first use, each time an ally uses their UB, add 1 [CHAIN] to self.

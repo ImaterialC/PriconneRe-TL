@@ -3,15 +3,16 @@
 
 ##UB##
 カルミナサマードーム=Carmina Summer Dome
-目の前の敵１キャラに物理特大ダメージを与え、さらに行動速度を大ダウンさせる。=Deals massive P.DMG to an enemy in front, and greatly reduces its action speed (50%).
+目の前の敵１キャラに物理特大ダメージを与え、行動速度を大ダウンさせる。=Deals massive P.DMG to an enemy in front and greatly lowers their action speed.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の行動速度50％ダウン$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's action speed by 50% for 18s.
 
 ##S1##
 スプラッシュストリング=Splash String
-目の前の敵１キャラに物理中ダメージを与え、さらに束縛する。=Deals moderate P.DMG to an enemy in front and binds it.
+目の前の敵１キャラに物理中ダメージを与え、束縛する。=Deals moderate P.DMG to an enemy in front and binds them.
 
 ##S2##
 サマーバインドアクション=Summer Bind Action
-前方の敵の中で物理攻撃力、魔法攻撃力いずれかで最も攻撃力が高い敵１キャラに物理小ダメージを与えて束縛し、さらにツムギの目の前まで引き寄せる。=Deals small P.DMG to an enemy in front with the highest P/M.ATK, binds it, and pulls it in front of oneself.
+前方の最も攻撃力が高い敵に物理小ダメージを与え、束縛し、自分の目の前まで引き寄せる。=Deals minor P.DMG to the enemy with the highest ATK in front, binds them, and pulls them directly in front of self.
 
 ##EX##
 テーラーイマジネーション=Tailor Imagination
@@ -19,7 +20,7 @@
 
 ##S1+##
 スプラッシュストリング+=Splash String+
-前方の敵の中で物理攻撃力、魔法攻撃力いずれかで最も攻撃力が高い敵１キャラに物理大ダメージを与えて束縛し、さらにＴＰを中ダウンさせる。=Deals massive P.DMG to an enemy in front with the highest P/M.ATK, binds it, and moderately reduces its TP.
+前方の最も攻撃力が高い敵に物理大ダメージを与え、束縛し、ＴＰを中ダウンさせる。=Deals major P.DMG to the enemy with the highest ATK in front, binds them, and moderately lowers their TP.
 r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする敵単体のＴＰを(\d+)失わせる$"=►Deals $1 P.DMG to an enemy.\n►Inflicts Bind to an enemy for 3.5s.\n►Reduces an enemy's TP by $2.
 
 ##UE##

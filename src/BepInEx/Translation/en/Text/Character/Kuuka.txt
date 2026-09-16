@@ -38,12 +38,13 @@ r:"^自分の魔法防御力を(\d+)アップ$"=►Boosts own M.DEF by $1.
 
 ##UB+##
 エクスタシートランス=Trance of Ecstasy
-自分に魔法吸収バリアを展開し、ＨＰを中回復する。さらに自分に魔法ダメージカット効果を付与する。=Deploys Barrier over oneself that absorb M.DMG, recovers own HP by a moderate amount, and grants M.DMG Cut to self.
+自分に魔法吸収バリアを展開し、ＨＰを中回復し、魔法ダメージカット効果を付与する。=Deploys an M.DMG absorption barrier on oneself, moderately recovers own HP, and grants an M.DMG reduction effect.
 r:"^(\d+)ダメージ分の魔法吸収バリアを展開する自分のＨＰを(\d+)回復自分が受ける魔法ダメージを25％カット$"=►Deploys Barrier over oneself that absorbs $1 M.DMG for 18s.\n►Recovers own HP by $2.\n►Grants M.DMG Cut to self by 25％ for 18s.
 
 ##S1+##
 狙うならクウカを！+=Play with Me Instead!+
-【挑発】敵全体を挑発し、自分の物理防御力を大アップさせる。さらに自分のＨＰを中回復させる。=[Taunt] Taunts all enemies. Greatly boosts own P.DEF, and recovers own HP by moderate amount.
+【挑発】敵全体を挑発し、自分の物理防御力を大アップ、ＨＰを中回復する。=[Taunt] Taunts all enemies, greatly boosts own P.DEF, and moderately recovers own HP.
+
 r:"^敵全体を挑発する自分の物理防御力を(\d+)アップ自分のＨＰを(\d+)回復$"=►Provokes all enemies for 16.6-17.1s.\n►Boosts own P.DEF by $1.\n►Recovers own HP by $2.
 
 ##UE##

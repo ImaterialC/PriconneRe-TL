@@ -15,28 +15,33 @@ r:"^敵全体に(\d+)の魔法ダメージ敵全体を誘惑する$"=►Deals $1
 
 ##S2##
 ソウルドレイン=Soul Drain
-ランダムな敵１キャラのＴＰを小ダウンさせ、さらに自分のＴＰを小回復する。=Reduces the TP of one random enemy by a small amount while also recovering own TP by a small amount.
-r:"^敵単体のＴＰを(\d+)失わせる自分のＴＰを(\d+)回復$"=►Reduces an enemy's TP by $1.\n►Recovers own TP by $2.
-## 260lvl
-ランダムな敵１キャラのＴＰを小ダウンさせ、物理攻撃力と魔法攻撃力を小ダウンさせる。さらに自分のＴＰを小回復する。=Reduces the TP, P.ATK and M.ATK of one random enemy by a small amount while also recovering own TP by a small amount.
-r:"^敵単体のＴＰを(\d+)失わせる敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン自分のＴＰを(\d+)回復$"=Cast time: 1.33s.\n►Reduces an enemy's TP by $1.\n►Lowers an enemy's P.ATK by $2.\n►Lowers an enemy's M.ATK by $3.\n►Recovers own TP by $4.
+ランダムな敵のＴＰと物理・魔法攻撃力を大ダウンさせる。自分のＴＰを大回復する。=Greatly lowers the TP, P.ATK, and M.ATK of a random enemy. Greatly recovers own TP.
 
+r:"^敵単体のＴＰを310失わせる敵単体の物理・魔法攻撃力を(\d+)ダウン自分のＴＰを310回復$"=Cast time: 1.33s.\n►Drains 310 TP from a single enemy.\n►Lowers a single enemy's P.ATK and M.ATK by $1.\n►Recovers own TP by 310.
 ##EX##
 スウィートラブリーハート=Sweet, Loving Heart
 スウィートラブリーハート+=Sweet, Loving Heart+
 
 ##UB+##
 ハートラブサイクロン=Lovely Heart Cyclone
-Deals moderate M.DMG and inflicts Charm to all enemies.
-敵全体に魔法中ダメージを与え、ＴＰを小ダウンさせ、ＴＰ上昇を小ダウンさせ、さらに誘惑状態にする。=Deals moderate M.DMG, reduces enemies TP by small amount, reduces enemies TP Boost by small amount and inflicts Charm to all enemies.
-r:"^敵全体に(\d+)の魔法ダメージ敵全体のＴＰを(\d+)失わせる敵全体のＴＰ上昇を(\d+)ダウン敵全体を誘惑する$"=►Deals $1 M.DMG to all enemies.\n►Inflicts Charm to all enemies for 5s.\n►Reduces enemies TP by $2.\n►Lowers enemies TP Boost by $3 for 18s.
+敵全体に魔法中ダメージを与え、ＴＰ上昇を小ダウンさせ、誘惑状態にし、ＴＰを中ダウンさせる。=Deals moderate M.DMG to all enemies, slightly lowers their TP Boost, charms them, and moderately lowers their TP.
+
+r:"^敵全体に(\d+)の魔法ダメージ敵全体のＴＰを124失わせる敵全体のＴＰ上昇を15ダウン敵全体を誘惑する$"=►Deals $1 M.DMG to all enemies.\n►Drains 124 TP from all enemies.\n►Lowers all enemies' TP Boost by 15 for 18s.\n►Charms all enemies for 5s.
+
 
 ##S1+##
 テイルウィップ+=Tail Whip+
-前から２番目の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに誘惑状態の敵のＴＰを大ダウンさせ、そうでない敵の物理攻撃力と魔法攻撃力を中ダウンさせる。=Deals moderate M.DMG to all enemies in range. If they are Charmed, reduces their TP by a large amount, and if they are not, lowers their P.ATK and M.ATK by a moderate amount.
-r:"^範囲内の敵に(\d+)の魔法ダメージ敵が誘惑状態の時、敵単体のＴＰを(\d+)失わせる敵が誘惑状態でない時、範囲内の敵の物理攻撃力を(\d+)ダウン$"=Cast time: 1.66s.\n►Deals $1 M.DMG to enemies in range.\n\nIf the enemies in range are charmed:\n►Reduces enemies TP by $2.\n►Lowers enemies' P.ATK by $3.
-## 260lvl
-r:"^範囲内の敵に(\d+)の魔法ダメージ敵が誘惑状態の時、敵単体のＴＰを(\d+)失わせる敵が誘惑状態でない時、範囲内の敵の物理攻撃力を(\d+)ダウン敵が誘惑状態でない時、範囲内の敵の魔法攻撃力を(\d+)ダウン$"=Cast time: 1.66s.\n►Deals $1 M.DMG to enemies in range.\n\nIf the enemies in range are charmed:\n►Reduces enemies' TP by $2.\n►Lowers enemies' P.ATK by $3.\n►Lowers enemies' M.ATK by $4.
-
+前から２番目の敵を中心とした範囲内の敵に魔法中ダメージを与える。対象が誘惑状態の場合、その敵のＴＰを特大ダウンさせ、そうでない場合、物理・魔法攻撃力を中ダウンさせる。=Deals moderate M.DMG to enemies in range centered on the second enemy from the front. If the target is charmed, massively lowers their TP. Otherwise, moderately lowers their P.ATK and M.ATK.
+r:"^範囲内の敵に(\d+)の魔法ダメージ敵が誘惑状態の場合、対象の敵のＴＰを560失わせる敵が誘惑状態でない場合、対象の敵の物理・魔法攻撃力を(\d+)ダウン$"=Cast time: 1.66s.\n►Deals $1 M.DMG to enemies within 100 range.\n\nIf the enemy is Confused or Charmed:\n►Drains 560 TP from the target enemy.\n\nIf the enemy is not Charmed:\n►Lowers the target enemy's P.ATK and M.ATK by $3 for 12s.
 ##UE##
 グラマーウィップ=Glamorous Whip
+
+
+
+
+
+##S1++##
+テイルウィップ++=Tail Whip++
+前から２番目の敵を中心とした範囲内の敵に魔法中ダメージを与える。対象が誘惑状態の場合、その敵のＴＰを特大ダウンさせ、そうでない場合、物理・魔法攻撃力を大ダウンさせ、誘惑状態にする。初回発動後、敵から攻撃を受けるたびに、その敵のＴＰを中ダウンさせ、自分のＴＰを中回復する状態になる。=Deals moderate M.DMG to enemies in range centered on the second enemy from the front. If the target is charmed, massively lowers their TP. Otherwise, greatly lowers their P.ATK and M.ATK and charms them. After first activation, enters a state where each time oneself is attacked by an enemy, moderately lowers that enemy's TP and moderately recovers own TP.
+
+r:"^初回発動後、自分を攻撃した敵のＴＰを(\d+)失わせ、自分のＴＰを200回復範囲内の敵に(\d+)の魔法ダメージ敵が誘惑状態の場合、対象の敵のＴＰを(\d+)失わせる敵が誘惑状態でない場合、以下の効果が発動する対象の敵の物理・魔法攻撃力を(\d+)ダウン対象の敵を誘惑する$"=Cast time: 1.66s.\n►After first activation, enemies that attack self lose $1 TP, and self recovers 200 TP.\n►Deals $2 M.DMG to enemies within 100 range.\n\nIf the enemy is Charmed:\n►Drains $3 TP from the target enemy.\n\nIf the enemy is not Charmed:\n►Lowers the target enemy's P.ATK and M.ATK by $4 for 12s.\n►Charms the target enemy for 5s.

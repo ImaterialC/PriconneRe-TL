@@ -2,21 +2,28 @@
 
 ##UB##
 常夏忍法・ノウリョウ背水之陣=Eternal Summer Ninjutsu: Desperate Stand of the Rising Dragon
-r:"^敵単体に(\d+)の魔法ダメージ水遁の印が１つ以上の場合、以下の効果が発動する水遁の印を１つ消費する自分の魔法攻撃力を(\d+)アップ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを4％アップ$"="►Deals $1 M.DMG to a single enemy\n\nIf [Seal of Tidal Binding] ≥ 1:\n►Consumes 1 [Seal of Tidal Binding]\n►Boosts own M.ATK by $2\n►Deals $3 M.DMG to enemies in range\n►Lowers enemies' M.DEF in range by $4\n►Boosts enemies' CRIT DMG taken by 4%"
-前方の最も遠い敵１キャラに魔法特大ダメージを与える。自分に【水遁の印】が付与されている場合、【水遁の印】を１つ消費して自分の魔法攻撃力を大アップし、追加で前方の最も遠い敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせる。=Deals massive M.DMG to farthest enemy. With [Seal of Tidal Binding], consumes 1 to greatly boost own M.ATK and deal additional large M.DMG to enemies around farthest target while slightly lowering their M.DEF and boosting their CRIT DMG taken."
+前方の最も遠い敵に魔法特大ダメージを与える。【水遁の印】付与中、【水遁の印】を１個消費し、さらに自分の魔法攻撃力を大アップし、追加で前方の最も遠い敵を中心とした範囲内の敵に魔法大ダメージを与え、魔法防御力を小ダウン、受けるクリティカルダメージを小アップさせる。=Deals massive M.DMG to the farthest enemy in front. While [Seal of Tidal Binding] is active, consumes 1 [Seal of Tidal Binding] to additionally greatly boost own M.ATK, deal major M.DMG to enemies in an area around the farthest enemy in front, slightly lower their M.DEF, and slightly increase their CRIT DMG taken.
+r:"^敵単体に(\d+)の魔法ダメージ水遁の印が１個以上の場合、以下の効果が発動する水遁の印を１個消費する自分の魔法攻撃力を(\d+)アップ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを4％アップ$"=►Deals $1 M.DMG to a single enemy.\n\nIf there is at least 1 [Seal of Tidal Binding]:\n►Consumes 1 [Seal of Tidal Binding].\n►Boosts own M.ATK by $2 for 180s.\n►Deals $3 M.DMG to enemies within 500 range.\n►Lowers M.DEF of enemies within 500 range by $4 for 18s.\n►Boosts CRIT DMG taken by enemies within 500 range by 4% for 18s.
 
 
 ##S1##
 常夏忍法・まきびし貝の術=Eternal Summer Ninjutsu: Caltrop Shell Technique
-r:"^敵単体に(\d+)の魔法ダメージ敵を行動不能にするフィールドを展開する水遁の印が１つ以上の場合、以下の効果が発動する水遁の印を１つ消費する自分の魔法攻撃力を(\d+)アップ範囲内の敵に(\d+)の魔法ダメージ$"="►Deals $1 M.DMG to a single enemy\n►Deploys Bind field\n\nIf [Seal of Tidal Binding] ≥ 1:\n►Consumes 1 [Seal of Tidal Binding]\n►Boosts own M.ATK by $2\n►Deals $3 M.DMG to enemies in range"
-前方の最も遠い敵１キャラに魔法特大ダメージを与え、そのキャラを中心とした範囲内の敵すべてを束縛するフィールドを展開する。自分に【水遁の印】が付与されている場合、【水遁の印】を１つ消費して自分の魔法攻撃力を大アップし、追加で前方の最も遠い敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与える。=Deals massive M.DMG to farthest enemy and deploys Bind field around them. With [Seal of Tidal Binding], consumes 1 to greatly boost own M.ATK and deal additional medium M.DMG to enemies around farthest target.
+前方の最も遠い敵に魔法特大ダメージを与え、その敵を中心とした範囲内の敵を束縛するフィールドを展開する。【水遁の印】付与中、【水遁の印】を１個消費し、さらに自分の魔法攻撃力を大アップし、追加で前方の最も遠い敵を中心とした範囲内の敵に魔法中ダメージを与える。=Deals massive M.DMG to the farthest enemy in front and deploys a field that binds enemies in an area around them. While [Seal of Tidal Binding] is active, consumes 1 [Seal of Tidal Binding] to additionally greatly boost own M.ATK and deal moderate M.DMG to enemies in an area around the farthest enemy in front.
+r:"^敵単体に(\d+)の魔法ダメージ敵を行動不能にするフィールドを展開する水遁の印が１個以上の場合、以下の効果が発動する水遁の印を１個消費する自分の魔法攻撃力を(\d+)アップ範囲内の敵に(\d+)の魔法ダメージ$"=Cast time: 1.05s.\n►Deals $1 M.DMG to a single enemy.\n►Inflict Bind on enemy target within 200 range for 4s.\n\nIf there is at least 1 [Seal of Tidal Binding]:\n►Consumes 1 [Seal of Tidal Binding].\n►Boosts own M.ATK by $2 for 180s.\n►Deals $3 M.DMG to enemies within 500 range.
+
 
 
 ##S2##
 常夏忍法・水遁印ムスビ=Eternal Summer Ninjutsu: Water Seal - Musubi
-r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを150アップ自分の魔法クリダメを8％アップ自分のＴＰを250回復敵の数に応じて、水遁の印を獲得$"="►Boosts own M.ATK by $1\n►Boosts own M.CRIT RATE by 150\n►Boosts own M.CRIT DMG by 8%\n►Recovers own TP by 250\n►Gains [Seal of Tidal Binding] based on enemy count"
-自分の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法攻撃クリティカル時のダメージを小アップ、ＴＰを中回復し、さらに【水遁の印】を獲得する。敵の数に応じて、【水遁の印】の獲得量が増加する。【水遁の印】は最大５つまで獲得できる。=Greatly boosts M.ATK, largely boosts M.CRIT RATE, slightly boosts M.CRIT DMG, moderately recovers TP, and gains [Seal of Tidal Binding]. Seal amount increases with enemy count (Max: 5).
+自分の魔法攻撃力を特大アップ、魔法クリティカルを大アップ、魔法クリティカルダメージを小アップ、ＴＰを中回復し、【水遁の印】（上限５）を１個付与する。敵の数に応じて、【水遁の印】の付与数が増加する。=Massively boosts own M.ATK, greatly boosts M.CRIT RATE, slightly boosts M.CRIT DMG, moderately recovers TP, and grants 1 [Seal of Tidal Binding] (max 5). The number of [Seal of Tidal Binding]s granted increases based on the number of enemies.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを150アップ自分の魔法クリダメを8％アップ自分のＴＰを250回復敵の数に応じて、水遁の印を獲得$"=Cast time: 1.05s.\n►Boosts own M.ATK by $1 for 180s.\n►Boosts own M.CRIT RATE by 150 for 180s.\n►Boosts own M.CRIT DMG by 8% for 180s.\n►Recovers own TP by 250.\n►Gains [Seal of Tidal Binding] based on enemy count.
 
 ##EX##
 トトノイサウナの極み=Totono Sauna's Pinnacle
 トトノイサウナの極み+=Totono Sauna's Pinnacle+
+
+##UE##
+常夏忍法・まきびし貝の術+=Eternal Summer Ninjutsu: Caltrop Shell Technique+
+常夏忍法・水着の術=Eternal Summer Ninjutsu: Swimsuit jutsu
+前方の最も遠い敵に魔法特大ダメージを与え、行動速度を大ダウンさせ、その敵を中心とした範囲内の敵を束縛するフィールドを展開する。【水遁の印】付与中、【水遁の印】を１個消費し、さらに自分の魔法攻撃力を大アップし、追加で前方の最も遠い敵を中心とした範囲内の敵に魔法大ダメージを与え、受けるクリティカルダメージを小アップさせる。=Deals massive M.DMG to the farthest enemy in front, greatly lowers their action speed, and deploys a field that binds enemies in an area around them. While [Seal of Tidal Binding] is active, consumes 1 [Seal of Tidal Binding] to additionally greatly boost own M.ATK, deal major M.DMG to enemies in an area around the farthest enemy in front, and slightly increase their CRIT DMG taken.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の行動速度50％ダウン敵を行動不能にするフィールドを展開する水遁の印が１個以上の場合、以下の効果が発動する水遁の印を１個消費する自分の魔法攻撃力を(\d+)アップ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の被クリダメを3％アップ$"=Cast time: 1.05s.\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's action speed by 50% for 12s.\n►Inflict Bind on enemy target within 200 range for 4s.\n\nIf there is at least 1 [Seal of Tidal Binding]:\n►Consumes 1 [Seal of Tidal Binding].\n►Boosts own M.ATK by $2 for 180s.\n►Deals $3 M.DMG to enemies within 500 range.\n►Boosts CRIT DMG taken by enemies within range by 3% for 12s.

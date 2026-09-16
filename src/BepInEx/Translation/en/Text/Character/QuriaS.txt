@@ -3,19 +3,30 @@
 
 ##Union Burst##
 プルメリア☆スプラッシュ=Plumeria★Splash
-目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。さらに追加の物理特大ダメージを与え、クリティカルを受けた際のダメージを小アップさせ、味方全体に魔法無効バリアを展開する。このスキルの効果量は味方の数に応じて変化する。=Deals massive P.DMG to the enemy in front and slightly lowers their P.DEF. Additionally, deals extra massive P.DMG, slightly increases damage taken from critical hits, and deploys a magic-nullifying barrier for all allies. The effect of this skill varies based on the number of allies.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ敵単体の被クリダメを6％アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Deals $3 P.DMG to a single enemy.\n►Boosts a single enemy's CRIT DMG taken by 6%.\n►Deploys a barrier that nullifies $4 magic damage.
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。さらに追加で物理特大ダメージを与え、受けるクリティカルダメージを小アップさせ、味方全体に魔法無効バリアを展開する。味方の数に応じて、効果量が変化する。=Deals massive P.DMG to an enemy in front and slightly lowers their P.DEF. Additionally deals massive P.DMG, slightly increases their CRIT DMG taken, and deploys an M.DMG nullification barrier for all allies. Effect strength varies based on the number of allies.
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ敵単体の被クリダメを6％アップ(\d+)ダメージ分の魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 18s.\n►Deals $3 P.DMG to a single enemy.\n►Boosts a single enemy's CRIT DMG taken by 6% for 18s.\n►Deploys a barrier that nullifies $4 M.DMG for 18s.
 
 ##Skill 1 (S1)##
 水やりショット=Watering Shot
-目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに追加の物理中ダメージを与え、味方全体の魔法防御力を小アップさせる。このスキルの効果量は味方の数に応じて変化する。=Deals large P.DMG to the enemy in front and slightly lowers their P.DEF. Additionally, deals extra moderate P.DMG and slightly boosts all allies' M.DEF. The effect of this skill varies based on the number of allies.
-r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ味方全体の魔法防御力を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Deals $3 P.DMG to a single enemy.\n►Boosts all allies' M.DEF by $4.
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに追加で物理中ダメージを与え、味方全体の魔法防御力を小アップさせる。味方の数に応じて、効果量が変化する。=Deals major P.DMG to an enemy in front and slightly lowers their P.DEF. Additionally deals moderate P.DMG and slightly boosts all allies' M.DEF. Effect strength varies based on the number of allies.
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ味方全体の魔法防御力を(\d+)アップ$"=Cast time: 1.05s.\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 12s.\n►Deals $3 P.DMG to a single enemy.\n►Boosts all allies' M.DEF by $4.
 
 ##Skill 2 (S2)##
 夏バテ防止です=Summer Fatigue Prevention
-味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、一番前の味方１キャラに【プルメリアのお守り】を２つ付与する。さらに、自分のＴＰを中回復する。【プルメリアのお守り】が付与されている間に１回ダメージを受けると【プルメリアのお守り】を１つ消費してダメージを無効化し、同時に敵に物理中ダメージを与える。このスキルの物理攻撃力アップ、物理クリティカルアップの効果量とダメージとＴＰの回復量は味方の数に応じて変化する。=Massively boosts all allies' P.ATK, greatly boosts their P.CRIT RATE, and grants two [Plumeria Protection] to the ally in the frontmost position. Additionally, moderately recovers own TP. When an ally with [Plumeria Protection] takes damage, one amulet is consumed to nullify the damage and simultaneously deal moderate P.DMG to the enemy. The P.ATK boost, P.CRIT RATE boost, damage, and TP recovery of this skill vary based on the number of allies.
-r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方単体に攻撃してきた敵に(\d+)の物理ダメージを与えて消失するプルメリアのお守りを最大２つまで付与する自分のＴＰを250回復$"=►Boosts all allies' P.ATK by $1.\n►Boosts all allies' P.CRIT RATE by 100.\n►Grants a single ally up to 2 [PPlumeria Protection] that deal $2 P.DMG to attacking enemies and then disappear.\n►Recovers own TP by 250.
+味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせ、最も前の味方に【プルメリアのお守り】（上限２）を２個付与し、自分のＴＰを中回復する。【プルメリアのお守り】付与中に１回ダメージを受けると【プルメリアのお守り】を１個消費してダメージを無効化し、同時に敵に物理中ダメージを与える。味方の数に応じて、物理攻撃力と物理クリティカルのアップ量とダメージとＴＰの回復量が変化する。=Massively boosts all allies' P.ATK and greatly boosts their P.CRIT RATE, grants the frontmost ally 2 stacks of [Plumeria Protection] (max 2), and moderately recovers own TP. When receiving damage while [Plumeria Protection] is active, consumes 1 stack to nullify the damage and simultaneously deals moderate P.DMG to enemies. The amount of P.ATK and P.CRIT RATE boosted, damage dealt, and TP recovered varies based on the number of allies.
+r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方単体に攻撃してきた敵に(\d+)の物理ダメージを与えて消失するプルメリアのお守りを最大２個まで付与する自分のＴＰを250回復$"=Cast time: 1.05s.\n►Boosts all allies' P.ATK by $1 for 12s.\n►Boosts all allies' P.CRIT RATE by 100 for 12s.\n►Grants a single ally up to 2 [Plumeria Protection] that deal $2 P.DMG to enemies that attack and then disappear.\n►Recovers own TP by 250.
 
 ##EX##
 水浴びしませんか？+=Would you like to take a bath?+
 水浴びしませんか？=Would you like to take a bath?
+
+
+
+##UE##
+水やりショット+=Watering Shot+
+ぴゅーっと♪ペンギンガン=Pew Pew♪ Penguin Gun
+
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに追加で物理大ダメージを与え、味方全体の物理攻撃力を大アップ、魔法防御力を小アップさせる。味方の数に応じて、効果量が変化する。=Deals major P.DMG to an enemy in front and slightly lowers their P.DEF. Additionally deals major P.DMG, greatly boosts all allies' P.ATK, and slightly boosts their M.DEF. Effect strength varies based on the number of allies.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ$"=Cast time: 1.05s.\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 12s.\n►Deals $3 P.DMG to a single enemy.\n►Boosts all allies' P.ATK by $4 for 12s.\n►Boosts all allies' M.DEF by $5 for 12s.

@@ -6,17 +6,17 @@
 ##UB##
 ラムの邪魔をしないで=Out of My Way
 敵全体に魔法中ダメージを与え、さらに束縛する。=Deals moderate M.DMG to all enemies and inflicts Bind (4s).
-r:"^敵全体に(\d+)の魔法ダメージ敵全体を一定時間行動不能にする$"=►Deals $1 M.DMG to all enemies.\n►Renders enemies in range immobile for a set period of time.
+r:"^敵全体に(\d+)の魔法ダメージ敵全体を一定時間行動不能にする$"=►Deals $1 M.DMG to all enemies.\n►Inflict Bind on all enemy targets for 5s.\n►Knockback all enemy targets back by 750.
 
 ##S1##
 フーラ=Fura
 目の前の敵１キャラが行動不能状態だった場合魔法大ダメージを与えて大きく吹き飛ばし、そうでない場合魔法中ダメージを与えて小さく吹き飛ばす。=If the enemy directly in front is unable to move, deals large M.DMG and knocks them back a large distance. If not, deals moderate M.DMG and knocks them back a small distance.
-r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy if they are immobile.\n►Deals $1 M.DMG to an enemy if they are not immobile.
+r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=Cast time: 0.465s.\n►Deals $1 M.DMG to an enemy if they are immobile.\n►Deals $1 M.DMG to an enemy if they are not immobile.
 
 ##S2##
 千里眼=Clairvoyance
-最も物理攻撃力が高い敵１キャラを、次に使う物理攻撃が必ず回避される状態にする。=Inflicts a special status on the enemy with the highest P.ATK, causing their next P.ATK to miss.
-r:"^敵単体に次の物理攻撃が確定で回避される状態を付与する$"=►Inflicts a status on an enemy causing their next P.ATK to miss.
+最も物理攻撃力が高い敵を、次に使う物理攻撃が必ず回避される状態にする。=Causes the enemy with the highest P.ATK to enter a state where their next physical attack is guaranteed to miss.
+r:"^敵単体に次の物理攻撃が確定で回避される状態を付与する$"=Cast time: 0.465s.\n►Inflicts a status on an enemy causing their next P.ATK to miss.
 
 ##EX##
 傲岸不遜=Pure Arrogance
@@ -24,12 +24,12 @@ r:"^敵単体に次の物理攻撃が確定で回避される状態を付与す�
 
 ##UB+##
 死にたくなりなさい=Please Die Already
-敵全体に魔法中ダメージを与え、大きく吹き飛ばし、さらに長時間束縛する。=Deals moderate M.DMG to all enemies, inflicts a long Bind (5s) to them, and greatly blows them away.
-
+敵全体に魔法中ダメージを与え、大きく吹き飛ばし、長時間束縛する。=Deals moderate M.DMG to all enemies, knocks them back greatly, and binds them for a long time.
 ##S1+##
 フーラ+=Fura+
-目の前の敵１キャラが行動不能状態だった場合魔法特大ダメージを与えて大きく吹き飛ばし、そうでない場合魔法大ダメージを与えて小さく吹き飛ばす。=If the enemy directly in front is unable to move, deals massive M.DMG and knocks them back a large distance. If not, deals moderate M.DMG and knocks them back a small distance.
-r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy if they are immobile.\n►Deals $1 M.DMG to an enemy if they are not immobile.
+目の前の敵１キャラが行動不能状態の場合、魔法特大ダメージを与え、大きく吹き飛ばし、そうでない場合、魔法大ダメージを与え、小さく吹き飛ばす。=If the enemy in front is incapacitated, deals massive M.DMG and knocks them back greatly. Otherwise, deals major M.DMG and knocks them back slightly.
+
+r:"^敵単体に、行動不能の時(\d+)の魔法ダメージ敵単体に、行動不能でない時(\d+)の魔法ダメージ$"=Cast time: 0.465s.\n►Deals $1 M.DMG to an enemy if they are immobile.\n►Deals $1 M.DMG to an enemy if they are not immobile.
 
 ##UE##
 ラムの髪飾り=Ram's Hair Ornament
