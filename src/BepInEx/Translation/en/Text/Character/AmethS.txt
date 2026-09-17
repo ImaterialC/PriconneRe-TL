@@ -3,22 +3,25 @@
 
 ##UB##
 フィオレ・オセアーノ=Fiore Oceano
-目の前の敵１キャラに魔法特大ダメージを与え、物理攻撃力と魔法攻撃力を大ダウン、魔法防御力を小ダウンさせる。=Deals massive M.DMG to an enemy in front, greatly lowers its P.ATK and M.ATK, and slightly lowers its M.DEF.
+目の前の敵１キャラに魔法特大ダメージを与え、物理・魔法攻撃力を大ダウン、魔法防御力を小ダウンさせる。=Deals massive M.DMG to an enemy in front, greatly lowers their P.ATK and M.ATK, and slightly lowers their M.DEF.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►Lowers an enemy's P.ATK by $2 for 18s.\n►Lowers an enemy's M.ATK by $3 for 18s.\n►Lowers an enemy's M.DEF by $4 for 18s.
 
 ##S1##
 アクア・メンブラーナ=Aqua Membrana
 味方全体に物理/魔法無効バリアを展開する。さらに、最もＴＰが低い味方１キャラのＴＰを小回復させ、そのキャラを中心とした範囲内の味方すべてに継続ＴＰ回復状態を付与する。=Deploys Barrier over all allies that negates P/M.DMG. Also slightly recovers TP of lowest TP ally, and continuously recovers allies' TP in range of that ally.
-r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する味方単体のＴＰを50回復毎秒ＴＰを10回復する$"=►Deploys Barrier over all allies that negates $1 P/M.DMG for 18s.\n►Recovers an ally's TP by 50.\n►Recovers allies' TP in 300 range by 10/s for 10s.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する味方単体のＴＰを50回復毎秒ＴＰを10回復する$"=Cast time: 0.74s.\n►Deploys Barrier over all allies that negates $1 P/M.DMG for 12s.\n►Recovers an ally's TP by 50.\n►Recovers allies' TP in 300 range by 10/s for 10s.
 
 ##S1+##
 アクア・メンブラーナ+=Aqua Membrana+
-r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する味方全体に調和状態を付与する味方単体のＴＰを50回復毎秒ＴＰを10回復する$"="►Deploys P.DMG/M.DMG Null Barrier ($1)\n►Grants [Harmony] to all allies\n►Recovers 50 TP for ally with lowest TP\n►Grants 10 TP per second"
-r:"^味方全体に物理/魔法無効バリアを展開し、調和状態を付与する。さらに、最もＴＰが低い味方１キャラのＴＰを小回復させ、そのキャラを中心とした範囲内の味方すべてに継続ＴＰ回復状態を付与する。調和状態の間は物理防御力と魔法防御力のうち高い方によって計算されたダメージを受ける。$"="Deploys P.DMG/M.DMG Null Barrier for all allies and grants [Harmony]. Also slightly recovers TP for ally with lowest TP and grants continuous TP recovery to allies around them. During [Harmony], damage taken is calculated using the higher of P.DEF or M.DEF."
+味方全体に物理/魔法無効バリアを展開し、調和状態を付与する。最もＴＰが低い味方のＴＰを小回復させ、その味方を中心とした範囲内の味方に継続ＴＰ回復状態を付与する。=Deploys a physical/magic nullification barrier on all allies and grants them [Harmony]. Slightly recovers the TP of the ally with the lowest TP and grants allies within range centered on that ally continuous TP recovery.
+r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する味方全体に調和状態を付与する味方単体のＴＰを50回復毎秒ＴＰを10回復する$"=Cast time: 0.74s.\n►Deploys Barrier over all allies that negate $1 P.DMG or M.DMG for 12s.\n►Grants [Harmony] to all allies\n►Recovers 50 TP for ally with lowest TP\n►Recovers 10 TP per second to allies within 300 range for 10.5s.
+
 ##S2##
 ヴィータ・オペラーレ=Vita Operare
-味方全体の行動速度を大アップさせる。さらに、最もＨＰが低い味方１キャラのＨＰを中回復させ、そのキャラを中心とした範囲内の味方すべてに継続ＨＰ回復状態を付与する。=Greatly boosts all allies' action speed. Also moderately recovers HP of lowest HP ally, and continuously recovers allies' HP in range of that ally.
-r:"^味方全体の行動速度アップ味方単体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=►Boosts all allies' action speed to 200% for 12s.\n►Recovers an ally's HP by $1.\n►Recovers allies' HP in 300 range by $2/s for 10s.
+味方全体の行動速度を大アップさせる。最もＨＰが低い味方のＨＰを中回復させ、その味方を中心とした範囲内の味方に継続ＨＰ回復状態を付与する。=Greatly boosts all allies' action speed. Moderately recovers the HP of the ally with the lowest HP and grants allies within range centered on that ally continuous HP recovery.
+
+r:"^味方全体の行動速度100％アップ味方単体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=Cast time: 0.74s.\n►Boosts all allies' action speed by 100% for 12s.\n►Recovers $1 HP for a single ally.\n►Recovers $2 HP  every second within 300 range for 10.5s.
+
 
 ##EX##
 ファータスプルッツォ=Fata Spruzzo

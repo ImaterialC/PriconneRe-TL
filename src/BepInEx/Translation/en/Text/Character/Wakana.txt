@@ -5,7 +5,8 @@
 大変だけど元気です。盗賊ギルドの次女=She's tough, but she's doing well. The second daughter of the Thieves Guild
 ##UB##
 お願い！スパイクブラザーズ=Please! Spike Brothers!
-【召喚】味方全体の物理攻撃力を特大アップさせ、目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。さらにワカナが呼び出したスパイクブラザーズが味方にいる場合、スパイクブラザーズのＨＰを大回復し、そうでない場合スパイクブラザーズを１体呼び出す。=[Summon] Massively boosts all allies' P.ATK, deals massive P.DMG to an enemy in front and lowers its P.DEF. If the Spike Brothers are on the field, greatly recovers their HP; otherwise, summons the Spike Brothers onto the field.
+【召喚】味方全体の物理攻撃力を特大アップさせ、目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。自分が呼び出したスパイクブラザーズが味方にいる場合、さらにスパイクブラザーズのＨＰを大回復させ、そうでない場合スパイクブラザーズを１体呼び出す。=[Summon] Massively boosts all allies' P.ATK, deals massive P.DMG to an enemy in front, and slightly lowers their P.DEF. If a Spike Brothers summoned by self is on the allied side, additionally greatly recovers the Spike Brothers' HP. Otherwise, summons 1 Spike Brothers.
+
 r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンスパイクブラザーズのＨＰを(\d+)回復スパイクブラザーズを呼び出す$"=►Boosts all allies' P.ATK by $1 for 18s.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 18s.\n►If Spike Brothers are on the field, recovers their HP by $4; Otherwise, summons Spike Brothers.
 
 ##S1##
@@ -18,12 +19,12 @@ r:"^自分以外の味方全体の物理攻撃力を(\d+)アップ自分以外�
 ##S2##
 スパイクラッシュ=Spiral Crash
 目の前の敵１キャラに物理大ダメージを与え、味方全体に物理/魔法無効バリアを展開する。=Deals large P.DMG to an enemy in front, and deploys Barrier over all allies that negates P/M.DMG.
-r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to an enemy.\n►Deploys Barrier over all allies that negates $2 P/M.DMG for 12s.
+r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法無効バリアを展開する$"=Cast time: 1.05s.\n►Deals $1 P.DMG to an enemy.\n►Deploys Barrier over all allies that negates $2 P/M.DMG for 12s.
 
 ##SP1##
 誰か助けて～！=Somebody Help Me!
 このスキルのスキルレベルは「お願い！スパ\nイクブラザーズ」と連動しています=This skill's level is linked to "Please! Spike Brothers!"
-【召喚】ワカナが呼び出したスパイクブラザーズが味方にいない場合、スパイクブラザーズを１体呼び出す。スパイクブラザーズは召喚後、ワカナに【スパイクガード】を付与し、敵から攻撃を受けるたび、その敵の最大ＨＰに応じて最大99999の割合ダメージを与える状態になる。さらに次の行動から、スパイクブラザーズがスキルを発動した後、一定時間【スパイクガード】が付与されているキャラへの敵の攻撃を代わりに受ける。=[Summon] If the Spike Brothers are not on the field, summons them onto the field. After they are summoned, grants [Spike Guard] to Wakana, which deals damage to the enemy based on their maximum HP (max 99999) for each attack that Wakana receives. From the next action onward, they will receive the damage for the character with the [Spike Guard] status.
+【召喚】自分が呼び出したスパイクブラザーズが味方にいない場合、１体呼び出す。スパイクブラザーズは召喚後、自分に【スパイクガード】を付与し、敵から攻撃を受けるたびに、その敵の最大ＨＰに応じて最大99999の割合ダメージを与える状態になる。さらに次の行動から、スパイクブラザーズがスキルを発動した後、一定時間【スパイクガード】付与中のキャラへの敵の攻撃を代わりに受ける。=[Summon] If a Spike Brothers summoned by self is not on the allied side, summons 1. After being summoned, Spike Brothers grants self [Spike Guard] and enters a state where, each time it is attacked by an enemy, it deals percentage damage to that enemy based on their max HP, up to 99,999. Additionally, starting from its next action, after Spike Brothers activates a skill, it will take attacks from enemies targeting characters affected by [Spike Guard] in their place for a certain period.
 スパイクブラザーズを呼び出す=►Summons Spike Brothers.
 
 ##EX##
@@ -35,6 +36,6 @@ r:"^敵単体に(\d+)の物理ダメージ(\d+)ダメージ分の物理魔法無
 ワカナのお手製エプロン=Wakana's Handmade Apron
 ##S1+##
 カレー、いかがです？+=Would You Like Some Curry?+
-自分以外の味方全体の物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、ＨＰとＴＰを中回復させる。さらに、自分の物理攻撃力を中アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップし、ＨＰとＴＰを小回復する。=Massively boosts all other allies' P.ATK and P.CRIT RATE, slightly boosts their P.CRIT DMG, and moderately recovers their HP and TP. Additionally, moderately boosts own P.ATK, greatly boosts own P.CRIT RATE, slightly boosts own P.CRIT DMG, and slightly recovers own HP and TP.
+自分以外の味方の物理攻撃力と物理クリティカルを特大アップ、物理クリティカルダメージを小アップ、ＨＰとＴＰを中回復させる。自分の物理攻撃力を中アップ、物理クリティカルを大アップ、物理クリティカルダメージを小アップ、ＨＰとＴＰを小回復する。=Massively boosts the P.ATK and P.CRIT RATE of all allies except self, slightly boosts their P.CRIT DMG, and moderately recovers their HP and TP. Moderately boosts own P.ATK, greatly boosts own P.CRIT RATE, slightly boosts own P.CRIT DMG, and slightly recovers own HP and TP.
 
-r:"^自分以外の味方全体の物理攻撃力を(\d+)アップ自分以外の味方全体の物理クリティカルを180アップ自分以外の味方全体のＨＰを(\d+)回復自分以外の味方全体のＴＰを150回復自分以外の味方全体の物理クリダメを6％アップ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを90アップ自分のＨＰを(\d+)回復自分のＴＰを75回復自分の物理クリダメを3％アップ$"=►Boosts P.ATK of all allies except self by $1.\n►Boosts P.CRIT RATE of all allies except self by 180.\n►Restores HP of all allies except self by $2.\n►Recovers TP of all allies except self by 150.\n►Boosts P.CRIT DMG of all allies except self by 6%.\n►Boosts own P.ATK by $3.\n►Boosts own P.CRIT RATE by 90.\n►Restores own HP by $4.\n►Recovers own TP by 75.\n►Boosts own P.CRIT DMG by 3%.
+r:"^自分以外の味方全体の物理攻撃力を(\d+)アップ自分以外の味方全体の物理クリティカルを180アップ自分以外の味方全体のＨＰを(\d+)回復自分以外の味方全体のＴＰを150回復自分以外の味方全体の物理クリダメを6％アップ自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを90アップ自分のＨＰを(\d+)回復自分のＴＰを75回復自分の物理クリダメを3％アップ$"=Cast time: 1.05s.\n►Boosts P.ATK of all allies except self by $1.\n►Boosts P.CRIT RATE of all allies except self by 180.\n►Restores HP of all allies except self by $2.\n►Recovers TP of all allies except self by 150.\n►Boosts P.CRIT DMG of all allies except self by 6%.\n►Boosts own P.ATK by $3.\n►Boosts own P.CRIT RATE by 90.\n►Restores own HP by $4.\n►Recovers own TP by 75.\n►Boosts own P.CRIT DMG by 3%.

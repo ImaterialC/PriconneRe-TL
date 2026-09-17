@@ -170,3 +170,28 @@ sr:"^(.+)のアドベンチャーから撤退しました。$"=Retreat from the 
 アストライア大陸の未踏地=Unexplored Lands of Astraea
 
 チェックされていないアドベンチャーポイントの\n設定はクリアされます。\n\nよろしいですか？=Settings for adventure points that are not checked will be cleared. \n\nAre you sure?
+
+
+
+
+
+
+
+
+
+おまかせ設定=Auto Settings
+まとめておまかせボタンを押した際に、\nコッコロにおまかせの設定になっている項目のスキップ実行確認を自動で進行するか設定できます。=When the "Auto All" button is pressed,\nconfigure whether to automatically proceed with skip confirmations for items set to Kokkoro's Auto.
+開催中のイベントのデイリーミッション報酬を受け取っていないとき\n予定帳に表示するか設定できます。=Configure whether to display unclaimed Daily Mission rewards for ongoing events in the Schedule.
+スペシャルダンジョンの挑戦回数が残っているとき予定帳に表示するかどうかを設定できます。=Configure whether to display the Special Dungeon in the Schedule when you have remaining attempts.
+スペシャルダンジョン設定=Special Dungeon Settings
+前哨クエストの挑戦回数が1回以上残っているとき予定帳に表示するか設定できます。=Configure whether to display it in the Schedule when you have at least 1 remaining Prelude Quest attempt.
+深淵討伐戦 前哨クエスト設定=Abyss Subjugation Battle Prelude Quest Settings
+究極錬成設定=Ultimate Synthesis Settings
+深淵討伐戦の終了まで残り24時間を切っており、討伐依頼証を1枚以上所持しているとき\n予定帳に表示するか設定できます。=Configure whether to display it in the Schedule when less than 24 hours remain until the end of the Abyss Subjugation Battle and you have at least 1 Subjugation Request Certificate.
+深淵討伐戦 ボス設定=Abyss Subjugation Battle Boss Settings
+アルケス錬金堂の日常ストーリーが発生しているとき\n予定帳から報酬を受け取れるようにするか、表示するか設定できます。=Configure whether to display the Alches Alchemy Hall Daily Story in the Schedule and allow its rewards to be claimed from there when it is available.
+レイドバトルのデイリーミッションを達成していないとき、予定帳に表示するかを設定できます。=Configure whether to display uncompleted Raid Battle Daily Missions in the Schedule.
+レイドバトルのデイリーミッション設定=Raid Battle Daily Mission Settings
+エルピス討魔戦線の終了まで残り24時間を切っており、\n挑戦可能なボスがいるとき予定帳に表示するか設定できます。=Configure whether to display Elpis Demonfront in the Schedule when less than 24 hours remain until its end and a boss is available to challenge.
+エルピス討魔戦線設定=Elpis Demonfront Settings
+

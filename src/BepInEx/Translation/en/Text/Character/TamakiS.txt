@@ -3,7 +3,7 @@
 
 ##UB##
 ねこねこサマーレイブ=Kitty-Cat Summer Rave
-前方範囲内のランダムな敵キャラに、単体物理中ダメージを計４回与える。=Deals moderate P.DMG to a random enemy in range 4 times.
+前方範囲内のランダムな敵に物理大ダメージを与え、物理防御力を短時間小ダウンさせる。これを４回行う。=Deals major P.DMG to a random enemy within range in front, slightly lowers their P.DEF for a short time, and does this 4 times.
 r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Deals $4 P.DMG to an enemy.
 
 計４回、前方範囲内のランダムな敵キャラに単体物理大ダメージを与え、短時間物理防御力を小ダウンさせる。=A total of 4 times, deals large single-target P.DMG to random enemies in a frontal area and slightly lowers their P.DEF for a short time.
@@ -38,8 +38,7 @@ r:"^敵単体のＴＰを(\d+)失わせる自分のＴＰを(\d+)回復敵単体
 
 ##S2+##
 アイスブレイク+=Ice Breaker+
-自分の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、さらに行動速度を大アップさせる。=Greatly boosts her own P.ATK, slightly enhances damage dealt on physical attack criticals, and further greatly increases her action speed.
-##r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分の行動速度アップ$"=Cast time: 1.1s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 10% for 180s.\n►Boosts own action speed into 200% for 18s.
+自分の物理攻撃力を特大アップ、物理クリティカルダメージを小アップ、行動速度を大アップする。=Massively boosts own P.ATK, slightly boosts P.CRIT DMG, and greatly boosts action speed.
 r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを10％アップ自分の行動速度100％アップ$"=Cast time: 1.1s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT DMG by 10％ for 180s.\n►Boosts own action speed by 100％ for 18s.
 
 ##UE##
@@ -51,6 +50,5 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティ�
 ##S1++##
 TamakiS
 サマービーチアブソーブ++=Summer Sun Absorption++
-目の前の敵１キャラに物理大ダメージを与え、ＴＰを中ダウン、物理攻撃力を大ダウンさせ、さらに、自分の物理攻撃力を特大アップ、ＴＰを大回復する。=Deals large P.DMG to an enemy in front, moderately lowers their TP, and greatly lowers their P.ATK. Additionally, massively boosts own P.ATK and greatly recovers own TP.
-
+目の前の敵１キャラに物理大ダメージを与え、ＴＰを中ダウン、物理攻撃力を大ダウンさせ、自分の物理攻撃力を特大アップ、ＴＰを大回復する。=Deals major P.DMG to an enemy in front, moderately lowers their TP and greatly lowers their P.ATK, then massively boosts own P.ATK and greatly recovers TP.
 r:"^敵単体に(\d+)の物理ダメージ敵単体のＴＰを220失わせる自分のＴＰを500回復敵単体の物理攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ$"=Cast time: 0.5s.\n►Deals $1 P.DMG to a single enemy.\n►Reduces TP of a single enemy by 220.\n►Recovers own TP by 500.\n►Lowers a single enemy's P.ATK by $2 for 12s.\n►Boosts own P.ATK by $3 for 12s.

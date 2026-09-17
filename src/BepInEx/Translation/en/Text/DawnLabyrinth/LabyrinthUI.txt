@@ -1,6 +1,5 @@
 黎明界ラビリンス=Dawn Realm Labyrinth
 黎明界ラビリンスβ=Dawn Realm Labyrinth β
-黎明界ラビリンスβに挑戦しよう=Let's challenge Dawn Realm Labyrinth β
 
 r:"^残り(\d+)セット購入可能！$"=Only $1 set left!
 所持パスポート=Passport

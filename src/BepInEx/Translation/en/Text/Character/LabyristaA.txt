@@ -4,21 +4,21 @@
 
 ##UB##
 バレット・ワールド=Bullet World
-目の前の敵１キャラに魔法大ダメージを３回与える。１回ごとにダメージがアップする。さらに、自分を中心に、魔法攻撃力を大アップさせるフィールドを展開する。フィールド上にいるキャラが水属性だった場合、追加で魔法攻撃力を大アップさせ、ＴＰ上昇を小アップさせる。=Deals M.DMG 3 times to an enemy in front, with each hit increasing in power. Deploys a field centered on self that greatly boosts M.ATK. If water-element characters are in field, additionally greatly boosts their M.ATK and slightly increases TP Boost.
+目の前の敵１キャラに魔法大ダメージを３回与える。１回ごとにダメージが増加する。自分を中心とした範囲内の味方の魔法攻撃力を大アップさせるフィールドと、水属性の味方の魔法攻撃力を大アップ、ＴＰ上昇を小アップさせるフィールドを展開する。=Deals major M.DMG to an enemy in front 3 times, with damage increasing each time. Deploys a field centered on self that greatly boosts the M.ATK of allies within range, and a field that greatly boosts the M.ATK and slightly boosts the TP Boost of Water-element allies.
 
-r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ魔法攻撃力を(\d+)アップさせるフィールドを展開する水属性の味方の魔法攻撃力を(\d+)アップ、ＴＰ上昇を15アップさせるフィールドを展開する$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Deals $3 M.DMG to a single enemy.\n►Creates a field that boosts M.ATK by $4.\n►Creates a field that boosts Water allies' M.ATK by $5 and TP Boost by 15.
+
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ魔法攻撃力を(\d+)アップさせるフィールドを展開する水属性の味方の魔法攻撃力を(\d+)アップ、ＴＰ上昇を15アップさせるフィールドを展開する$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Deals $3 M.DMG to a single enemy.\n►Creates a field of radius 350 that boosts M.ATK by $4 for 18s.\n►Creates a field of radius 350 that boosts Water allies' M.ATK by $5 and TP Boost by 15 for 18s.
 
 ##S1##
 デコーデッドスナイプ=Decoded Snipe
 目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。これを３回行い、１回ごとにダメージと魔法防御力ダウンの効果量がアップする。=Deals medium M.DMG to an enemy in front and slightly lowers their M.DEF. Repeats 3 times, with each iteration increasing both damage and M.DEF reduction effects.
 
-r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Deals $3 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $4.\n►Deals $5 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $6.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 1.05s.\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Deals $3 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $4.\n►Deals $5 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $6.
 
 ##S2##
 リロードスクリプト=Reload Script
-自分の魔法攻撃力を大アップ、魔法攻撃クリティカル時のダメージを小アップし、ＴＰを小回復する。【フィールド展開中】このスキルの効果量がアップする。=Greatly boosts own M.ATK, slightly boosts M.CRIT DMG, and slightly recovers TP. [Field Active] Enhances all effect magnitudes of this skill.
-
-r:"^フィールド展開中、自分の魔法攻撃力を(\d+)アップフィールド展開中、自分の魔法攻撃クリティカル時のダメージを18％アップフィールド展開中、自分のＴＰを250回復自分の魔法攻撃力を(\d+)アップ自分の魔法攻撃クリティカル時のダメージを9％アップ自分のＴＰを125回復$"=►While [Field is Active]:\n►Boosts own M.ATK by $1.\n►Boosts own M.CRIT DMG by 18％.\n►Recovers own TP by 250.\n\n►If not:\n►Boosts own M.ATK by $2.\n►Boosts own M.CRIT DMG by 9％.\n►Recovers own TP by 125.
+自分の魔法攻撃力を大アップ、魔法クリティカルダメージを小アップ、ＴＰを小回復する。【フィールド展開中】効果量が増加する。=Greatly boosts own M.ATK, slightly boosts own M.CRIT DMG, and slightly recovers TP. [While Field is Active] Effect values are increased.
+r:"^フィールド展開中、自分の魔法攻撃力を(\d+)アップフィールド展開中、自分の魔法攻撃クリティカル時のダメージを18％アップフィールド展開中、自分のＴＰを250回復自分の魔法攻撃力を(\d+)アップ自分の魔法攻撃クリティカル時のダメージを9％アップ自分のＴＰを125回復$"=Cast time: 1.05s.\n►While [Field is Active]:\n►Boosts own M.ATK by $1 for 18s.\n►Boosts own M.CRIT DMG by 18％ for 18s.\n►Recovers own TP by 250.\n\n►If not:\n►Boosts own M.ATK by $2 for 18s.\n►Boosts own M.CRIT DMG by 9％ for 18s.\n►Recovers own TP by 125.
 
 アームズクリエイション=Arms Creation
 アームズクリエイション+=Arms Creation+
@@ -29,5 +29,5 @@ r:"^フィールド展開中、自分の魔法攻撃力を(\d+)アップフィ�
 デコーデッドスナイプ+=Decoded Snipe+
 
 クイーンズガンビット=Queen’s Gambit
-目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。これを３回行い、１回ごとにダメージと魔法防御力ダウンの効果量がアップする。さらに、自分の魔法攻撃力を中アップする。=Deals medium M.DMG to an enemy in front and slightly lowers their M.DEF. Repeats this effect three times, with the damage and M.DEF down effect increasing each time. Additionally, moderately boosts own M.ATK.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2.\n►Deals $3 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $4.\n►Deals $5 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $6.\n►Boosts own M.ATK by $7.
+目の前の敵１キャラに魔法中ダメージを与え、魔法防御力を小ダウンさせる。これを３回行い、１回ごとにダメージと魔法防御力のダウン量が増加する。自分の魔法攻撃力を中アップする。=Deals moderate M.DMG to an enemy in front and slightly lowers their M.DEF. Does this 3 times, with the damage and amount of M.DEF reduction increasing each time. Moderately boosts own M.ATK.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ$"=Cast time: 1.05s.\n►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $2 for 12s.\n►Deals $3 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $4 for 12s.\n►Deals $5 M.DMG to a single enemy.\n►Lowers a single enemy's M.DEF by $6 for 12s.\n►Boosts own M.ATK by $7 for 12s.

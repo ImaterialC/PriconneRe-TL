@@ -3,25 +3,28 @@
 
 ##UB##
 新春・姉文字斬り=New Year: Big Sister Character Slash
-目の前の敵１キャラに対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる物理特大ダメージを与え、物理防御力と魔法防御力を小ダウンさせる。さらに、味方全体の物理攻撃力と魔法攻撃力を特大アップさせ、ＨＰを小回復させる。=Deals massive P.DMG to an enemy in front. If the target’s M.DEF is lower than their P.DEF, this damage is treated as M.DMG instead. Lowers the target’s P.DEF and M.DEF slightly. Additionally, massively boosts all allies’ P.ATK and M.ATK, and slightly recovers their HP.
+目の前の敵１キャラに対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる物理特大ダメージを与え、物理・魔法防御力を小ダウンさせる。味方全体の物理・魔法攻撃力を特大アップ、ＨＰを小回復させる。=Deals massive P.DMG to an enemy in front, treated as M.DMG if their M.DEF is lower than their P.DEF, and slightly lowers their P.DEF and M.DEF. Massively boosts all allies' P.ATK and M.ATK, and slightly recovers their HP.
+
 r:"^敵単体に(\d+)の低い側の防御力で防御する物理ダメージ敵単体の物理・魔法防御力を(\d+)ダウン味方全体の物理・魔法攻撃力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Deals $1 P.DMG to a single enemy, calculated using the lower of their P.DEF or M.DEF.\n►Lowers a single enemy's P.DEF and M.DEF by $2.\n►Boosts allies' P.ATK and M.ATK by $3.\n►Recovers HP for all allies by $4.
 
 ##S1##
 新春お姉ちゃん頭突き=New Year Onee-chan Headbutt
-目の前の敵１キャラに対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる物理大ダメージを与え、物理防御力と魔法防御力を小ダウン、物理攻撃力と魔法攻撃力を大ダウンさせる。自分が物理・魔法攻撃力アップ状態だった場合、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。=Deals large P.DMG to an enemy in front. If the target’s M.DEF is lower than their P.DEF, this damage is treated as M.DMG instead. Slightly lowers the target’s P.DEF and M.DEF, and greatly lowers their P.ATK and M.ATK. If self is under a P.ATK and M.ATK boost effect, slightly increases the damage the target takes when receiving critical hits.
-r:"^敵単体に(\d+)の低い側の防御力で防御する物理ダメージ敵単体の物理・魔法防御力を(\d+)ダウン敵単体の物理・魔法攻撃力を(\d+)ダウン自分が物理・魔法攻撃力アップ状態の時、敵単体の被クリダメを10％アップ$"=►Deals $1 P.DMG to a single enemy, calculated using the lower of their P.DEF or M.DEF.\n►Lowers a single enemy's P.DEF and M.DEF by $2.\n►Lowers a single enemy's P.ATK and M.ATK by $3.\n\nIf own P.ATK and M.ATK are boosted:\n►Boosts a single enemy's CRIT DMG taken by 10％.
+目の前の敵１キャラに対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる物理大ダメージを与え、物理・魔法防御力を小ダウン、物理・魔法攻撃力を大ダウンさせる。自分が物理・魔法攻撃力アップ状態の場合、さらに目の前の敵１キャラの受けるクリティカルダメージを小アップさせる。=Deals major P.DMG to an enemy in front, treated as M.DMG if their M.DEF is lower than their P.DEF, and slightly lowers their P.DEF and M.DEF, and greatly lowers their P.ATK and M.ATK. If self is affected by a P.ATK and M.ATK boost, additionally slightly increases the critical damage received by an enemy in front.
+r:"^敵単体に(\d+)の低い側の防御力で防御する物理ダメージ敵単体の物理・魔法防御力を(\d+)ダウン敵単体の物理・魔法攻撃力を(\d+)ダウン自分が物理・魔法攻撃力アップ状態の時、敵単体の被クリダメを10％アップ$"=Cast time: 1.05s.\n►Deals $1 P.DMG to a single enemy, calculated using the lower of their P.DEF or M.DEF.\n►Lowers a single enemy's P.DEF and M.DEF by $2 for 12s.\n►Lowers a single enemy's P.ATK and M.ATK by $3 for 12s.\n\nIf own P.ATK and M.ATK are boosted:\n►Boosts a single enemy's CRIT DMG taken by 10％ for 12s.
 
 ##S2##
 見せつけるきょうだい愛=Showing Off Sibling Love
-【挑発】敵全体を挑発し、自分が敵から受ける行動不能を３回まで無効にする。自分が物理攻撃力アップ状態だった場合、味方全体の物理攻撃力を特大アップさせる。自分が魔法攻撃力アップ状態だった場合、味方全体の魔法攻撃力を特大アップさせる。自分が物理・魔法攻撃力アップ状態だった場合、味方全体のＴＰを中回復させる。=[Taunt] Taunts all enemies and nullifies up to three instances of incapacitation effects received from enemies. If self is under a P.ATK boost effect, massively boosts all allies’ P.ATK. If self is under an M.ATK boost effect, massively boosts all allies’ M.ATK. If self is under both P.ATK and M.ATK boost effects, moderately recovers all allies’ TP.
-
-r:"^敵全体を挑発する自分の受ける行動不能を３回まで無効化する自分が物理攻撃力アップ状態の時、味方全体の物理攻撃力を(\d+)アップ自分が魔法攻撃力アップ状態の時、味方全体の魔法攻撃力を(\d+)アップ自分が物理・魔法攻撃力アップ状態の時、味方全体のＴＰを150回復$"=►Taunts all enemies.\n►Nullifies up to 3 incoming incapacitating effects on self.\n\nIf own P.ATK is boosted:\n►Boosts allies' P.ATK by $1.\n\nIf own M.ATK is boosted:\n►Boosts allies' M.ATK by $2.\n\nIf own P.ATK and M.ATK are boosted:\n►Recovers TP for all allies by 150.
+【挑発】敵全体を挑発し、自分が敵から受ける行動不能を３回まで無効にする。自分が物理攻撃力アップ状態の場合、さらに味方全体の物理攻撃力を特大アップさせる。自分が魔法攻撃力アップ状態の場合、さらに味方全体の魔法攻撃力を特大アップさせる。自分が物理・魔法攻撃力アップ状態の場合、さらに味方全体のＴＰを中回復させる。=[Taunt] Taunts all enemies and nullifies up to 3 instances of action incapacitation inflicted on self by enemies. If self is affected by a P.ATK boost, additionally massively boosts all allies' P.ATK. If self is affected by an M.ATK boost, additionally massively boosts all allies' M.ATK. If self is affected by both P.ATK and M.ATK boosts, additionally moderately recovers all allies' TP.
+r:"^敵全体を挑発する自分の受ける行動不能を３回まで無効化する自分が物理攻撃力アップ状態の時、味方全体の物理攻撃力を(\d+)アップ自分が魔法攻撃力アップ状態の時、味方全体の魔法攻撃力を(\d+)アップ自分が物理・魔法攻撃力アップ状態の時、味方全体のＴＰを150回復$"=Cast time: 1.05s.\n►Taunts all enemies for 18s.\n►Nullifies up to 3 incoming incapacitating effects on self for 18s.\n\nIf own P.ATK is boosted:\n►Boosts allies' P.ATK by $1 for 18s.\n\nIf own M.ATK is boosted:\n►Boosts allies' M.ATK by $2 for 18s.\n\nIf own P.ATK and M.ATK are boosted:\n►Recovers TP for all allies by 150.
 
 
 ##EX##
 春は、あけぼのお姉ちゃん=Spring Is the Dawn Onee-chan
 春は、あけぼのお姉ちゃん+=Spring Is the Dawn Onee-chan+
 
+
+##Same with PreciaS, but diferent wording
+【常時発動】自分のＵＢおよびスキルのダメージとＨＰ回復は物理・魔法攻撃力を合わせ、クリティカルは物理・魔法クリティカルの値を合わせる。=[Always Active] Combines P.ATK and M.ATK for UB/skill damage and HP recovery. Combines P.CRIT and M.CRIT for critical calculations.
 
 
 

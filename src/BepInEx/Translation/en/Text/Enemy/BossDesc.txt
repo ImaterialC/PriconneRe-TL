@@ -635,8 +635,8 @@
 ラースドラゴン自身の残りＨＰが10％を切るとさらに攻撃が激しく強暴になり、ブレイクされなくなる。=When the remaining HP of the Wrathful Dragon falls below 10%, its attacks become even more intense and ferocious, and it becomes unbreakable.\n
 エルダータイラント=Elder Tyrant
 岩山の如く進化した、大いなる老亀。強力無比な頭突きは、大地を容易く砕き割る。=The Great Old Tortoise has evolved like a rocky mountain. Its unrivaled headbutt easily shatters the earth. 
-・ユニオンバーストは前から４キャラに物理ダメージを与え、さらに麻痺状態にする。=Union Burst: deals P.DMG to 4 characters in front of it, rendering them even more paralyzed.\n
-・前方3キャラに物理防御力ダウン。=P.DEF decreased to 3 characters in the front.\n
+ユニオンバーストは前から４キャラに物理ダメージを与え、さらに麻痺状態にする。=Union Burst: deals P.DMG to 4 characters in front of it, rendering them even more paralyzed.\n
+前方3キャラに物理防御力ダウン。=P.DEF decreased to 3 characters in the front.\n
 
 ワイズオウル=Wise Owl
 大樹の頂に棲まう、聡明なる大梟。森に生ける者の英知を束ね、巧みに魔術を操る。=A wise owl that resides at the top of the great tree, harnessing the wisdom of the forest inhabitants and skillfully manipulating magic.\n
@@ -2667,7 +2667,8 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 あらゆる物理攻撃を剣ではじき返す、命ある石像。=A living stone statue that deflects all physical attacks with its sword.
 動く剣士=Moving Swordsman.
 剣士たちの大乱舞=The Swordsmen's Wild Rampage.
-《EX》危険な魔物・魔狼=<EX> Dangerous Monster: Demon Wolf.
+《EX》危険な魔物・魔狼=《EX》Dangerous Monster: Demon Wolf.
+《EX》危険な魔物・妖蛇=《EX》Dangerous Beast: Demon Serpent
 召喚体、分身を除いた最も近い敵３キャラに魔\n　法大ダメージを与え、魔法防御力を中ダウンさ\n　せる。このスキルの効果はダメージを無効化し\n　ても付与される。=Deals major M.DMG to the three nearest enemies excluding summons and clones, and moderately reduces their M.DEF. This effect is applied even if the damage is nullified.
 
 自身の物理攻撃力を特大アップし、ＴＰを特大回復する。自身のＨＰが低いほど、物理攻撃力の上昇量がアップする。=Greatly increases own P.ATK and greatly restores own TP. The lower own HP, the greater the P.ATK increase.
@@ -2826,3 +2827,20 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 強靭な脚と鋭利なツメを操る獰猛な恐竜。滅びた大地でマグマを喰らい生きる孤高の存在。【特殊効果】=A ferocious dinosaur with powerful legs and razor-sharp claws. A solitary creature that survives by feeding on magma in a ruined land. [Special Effect]
 全スキルダメージＴＰ回復不可【ユニオンバースト】=All skill damage does not restore TP. [Union Burst]
 自身に行動速度アップ【スキル１】=Increases own action speed. [Skill 1]
+
+ゴブリンランサー=Goblin Lancer
+【バトル開始時発動】=【Activates at Battle Start】
+自身に行動速度、魔法攻撃力アップ=Increases own Action Speed and Magic Attack.
+前から敵２体に火傷=Inflicts Burn on the 2 enemies at the front.
+勇猛果敢にして歴戦を誇るゴブリン族の槍騎兵。灼熱の竜を駆りて自慢の鋭槍を揮わせる。【特殊効果】=A brave and battle-hardened Goblin lancer. Riding a blazing dragon, it wields its prized, razor-sharp spear.\n\n【Special Effect】
+
+
+バトル中敵物理攻撃力中ダウン=Moderately lowers enemies' P.ATK during battle
+対象が行動速度ダウン状態：麻痺時間アップ=If the target is under an action speed down effect: increases paralysis duration
+前から敵２体に行動速度ダウン、猛毒=Inflicts action speed down and venom on the 2 enemies in front
+周囲の敵３体に火傷=Inflicts burn on 3 nearby enemies
+周囲の敵全体に魔法ダメージ=Deals M.DMG to all nearby enemies
+周囲の敵全体に行動速度、物理／魔法防御力ダウン（必中）=Lowers the action speed and P.DEF/M.DEF of all nearby enemies (sure hit)
+自身に行動速度、物理攻撃力アップ=Boosts own action speed and P.ATK
+周囲の敵３体に物理ダメージ=Deals P.DMG to 3 nearby enemies
+周囲の敵全体に物理ダメージ=Deals P.DMG to all nearby enemies

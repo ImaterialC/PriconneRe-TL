@@ -270,7 +270,7 @@ r:"^1分30秒以内に\n(\d+)人が本戦を開始しました。$"=$1 Players s
 このパーティを編成した時と★が異なるキャラがいます。\n以下は★の設定も含めて編成が保存されています。=There are characters whose ★ is different from when this party was organized. Below, the line-up is saved including the setting of ★.
 ★設定の保存について=Saving ★ Settings
 [FF7C4E,D62146]保存時と★設定が違うキャラがいます。[-]=[FF7C4E,D62146]Some characters have different ★ settings than when they were saved.[-]
-・マイパーティ\n・バトルアリーナ/プリンセスアリーナの防衛設定=・ My party Battle Arena/Princess Arena Defense Settings
+・マイパーティ\n・バトルアリーナ/プリンセスアリーナの防衛設定=►My party\n►Battle Arena/Princess Arena Defense Settings
 挑戦回数を消費してクランバトルを開始しますか？=Use your attempt to start battle?
 [FF7C4E,D62146]バトルを開始した時点で挑戦回数が消費されます。\n通信環境の良い場所でプレイして下さい。[-]=[FF7C4E,D62146]Number of attempts will be\nconsumed upon start.\nPlease play in a place with a good connection.[-]
 

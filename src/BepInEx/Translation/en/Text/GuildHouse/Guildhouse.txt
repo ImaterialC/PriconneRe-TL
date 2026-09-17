@@ -1,7 +1,9 @@
 ---Guildhouse---
 データの取得に失敗しました。\nタイトルへ戻ります。=Data acquisition failed.\nReturn to the title.
+ルピが不足しています=You do not have enough Rupi.
+Lvアップする家具とLvを選択してください。=Select the furniture and Lv to increase.
 
-Lv上限：=Max Lv:
+r:"^Lv上限([ ：:0-9]+)$"=Max Lv$1
 r:"^(\d+)ルピを消費してLvアップ可能$"=Ready to Lv up using [00ff0099]$1[-] Rupies
 Lvアップ可能な家具があります。=There is furniture that can be leveled up.
 すでに最大Lvに達しています。=Already at Max Level.

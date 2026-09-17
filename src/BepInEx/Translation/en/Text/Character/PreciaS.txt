@@ -8,7 +8,7 @@ r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ�
 ##S1##
 たねれんしゃ=Seed Barrage
 目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法大ダメージを与える。さらに、味方全体の物理攻撃力を特大アップ、物理攻撃クリティカル時のダメージを小アップさせ、物理無効バリアを展開する。物理攻撃力アップ、物理攻撃クリティカル時のダメージアップの効果量とバリアの無効ダメージ量は味方の数に応じて変化する。=Deals large M.DMG (counts as P.DMG if target's P.DEF < M.DEF) to one enemy in front. Greatly boosts all allies' P.ATK, slightly boosts P.CRIT DMG, and deploys Physical Null Barrier. Effects scale with number of allies.
-r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリダメを8％アップ(\d+)ダメージ分の物理無効バリアを展開する$"="►Deals $1 M.DMG to a single enemy (uses lower DEF value)\n►Boosts all allies' P.ATK by $2\n►Boosts all allies' P.CRIT DMG by 8%\n►Deploys Physical Null Barrier ($3 DMG)"
+r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリダメを8％アップ(\d+)ダメージ分の物理無効バリアを展開する$"=►Deals $1 M.DMG to a single enemy (uses lower DEF value)\n►Boosts all allies' P.ATK by $2\n►Boosts all allies' P.CRIT DMG by 8%\n►Deploys Physical Null Barrier ($3 DMG)
 
 ##S2##
 おいしいひんやり=Tasty Cool Treat
@@ -22,5 +22,5 @@ r:"^自分の魔法攻撃力を(\d+)アップ味方全体の物理クリダメ�
 ##Special Effect##
 すーぱーはっぴー=Super Happy
 特殊効果=Special effect
-ダメージとＨＰ回復は物理攻撃力と魔法攻撃力を合わせるクリティカルは物理クリティカルと魔法クリティカルを合わせる=[Always Active] Combines P.ATK and M.ATK for damage/HP recovery calculations. Combines P.CRIT and M.CRIT for critical calculations."
-【常時発動】自分のユニオンバーストおよびスキルのダメージとＨＰ回復は物理と魔法攻撃力を合わせ、クリティカルは物理と魔法クリティカルの値を合わせる。=[Permanent Effect] Combines P.ATK and M.ATK for UB/skill damage and HP recovery. Combines P.CRIT and M.CRIT for critical calculations.
+ダメージとＨＰ回復は物理攻撃力と魔法攻撃力を合わせるクリティカルは物理クリティカルと魔法クリティカルを合わせる=[Always Active]\n ►Combines P.ATK and M.ATK for damage/HP recovery calculations.\n►Combines P.CRIT and M.CRIT for critical calculations.
+【常時発動】自分のユニオンバーストおよびスキルのダメージとＨＰ回復は物理と魔法攻撃力を合わせ、クリティカルは物理と魔法クリティカルの値を合わせる。=[Always Active] Combines P.ATK and M.ATK for UB/skill damage and HP recovery. Combines P.CRIT and M.CRIT for critical calculations.

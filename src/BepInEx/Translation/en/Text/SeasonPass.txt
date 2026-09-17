@@ -85,3 +85,6 @@ r:"^アラクネの領域(\d+)層をクリアしよう$"=Clear Level $1 of Arach
 r:"^バトルスタジアムで★を合計(\d+)個獲得しよう$"=Acquire a total of $1 ★s in the Battle Stadium
 
 深淵討伐戦の前哨クエストに挑戦しよう=Challenge the Abyss Subjugation Battle Prelude Quest
+深淵討伐戦のボスに挑戦しよう=Challenge the Abyss Subjugation Battle Boss
+黎明界ラビリンスに挑戦しよう=Challenge the dawn world of Labyrinth
+黎明界ラビリンスβに挑戦しよう=Challenge Dawn Realm Labyrinth β
