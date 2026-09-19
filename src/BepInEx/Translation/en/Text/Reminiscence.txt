@@ -1,10 +1,10 @@
 ３rdアニバーサリーフォトブック=3rd Anniversary Photobook
 フォト\nブック=Photobook
-追憶の戦域=Battlefield of Reminiscence
-追憶戦=Reminiscence
-追憶戦・覇=Reminiscence and Conquest
-Reminiscence &\nConquestへ=To Reminiscence and Conquest
-追憶戦・覇へ=To Reminiscence and Conquest
+追憶の戦域=Battlefield of Recollections
+追憶戦=Recollections
+追憶戦・覇=Recollections and Conquest
+Recollections &\nConquestへ=To Recollections and Conquest
+追憶戦・覇へ=To Recollections and Conquest
 
 宝箱詳細=Chest Details
 受け取り=Receipt
@@ -26,14 +26,14 @@ r:"^記憶領域(\d+)層$"=Memory Phase $1
 
 r:"^(\d+)層$"=Phase $1
 r:"^記憶領域(\d+)層をクリアしよう$"=Clear Phase $1 of the Memory Domain
-追憶戦宝箱詳細=Reminiscence Chest Details
+追憶戦宝箱詳細=Recollections Chest Details
 一定時間ごとにクリア済みの階層に応じて\n以下のアイテムが獲得できます。=At regular intervals, you can obtain the following items according to the levels you have cleared.
 記憶領域1層クリアで解放されます。=Clear the Phase 1 of Memory Domain to unlock it.
 r:"^次の報酬まで\n([0-9:]+)$"=Until next reward\n$1
 挑戦する難易度を変更できます。=You can change the challenge difficulty.
 
 毎月更新 究極錬成パック=Monthly Update Ultimate Synthesis Pack
-追憶戦・覇に挑戦しよう=Challenge the Reminiscence and Conquest
-追憶戦の報酬を受け取ろう=Receive the Reminiscence Battle Rewards
+追憶戦・覇に挑戦しよう=Challenge the Recollections and Conquest
+追憶戦の報酬を受け取ろう=Receive the Recollections Battle Rewards
 サーヴァント・ブレド=Servant Blade
 サーヴァント・マギ=Servant Magi

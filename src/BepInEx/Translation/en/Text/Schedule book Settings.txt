@@ -24,11 +24,11 @@
 スペシャルダンジョン開催中にダンジョンの挑戦回数が残っているとき\n予定帳からダンジョンをスキップ可能にするか表示するかを設定できます。\n「ダンジョン設定」の項目で「表示する」設定にしている場合はスキップできません。\n「ダンジョン設定」の項目で「表示しない」設定にしている場合はスキップできず表示もされません。=You can set a task that will attempt or skip Special Dungeon if you still have attempts remaining.\nYou cannot skip it if you set "Display" for "Dungeon Settings".\nIf you set "Do not display" for "Dungeon Settings", it will not be shown regardless of this setting.
 ダンジョンの挑戦回数が残っているとき予定帳からスキップ可能にするか、表示するか設定できます。\nスキップの設定であってもスペシャルダンジョンの開催期間中はスキップできません。=When there are remaining dungeon challenge attempts,\nyou can set whether to enable skipping from the schedule or just display it.\nEven if set to enable skipping, skipping is not possible during the special dungeon event period.
 
-追憶戦報酬受け取り設定=Reminiscence Battle Reward Collection Setting
-追憶戦の報酬を受け取っていないとき\n予定帳から報酬を受け取れるようにするか、表示するか設定できます。\n記憶領域1層をクリアしていない場合は設定によらず表示されません。=When there are uncollected rewards from Reminiscence Battles,\nyou can set whether to enable collecting rewards from the schedule or just display it.\nIf you have not cleared Memory Area Floor 1, it will not be displayed regardless of the setting.
+追憶戦報酬受け取り設定=Recollections Battle Reward Collection Setting
+追憶戦の報酬を受け取っていないとき\n予定帳から報酬を受け取れるようにするか、表示するか設定できます。\n記憶領域1層をクリアしていない場合は設定によらず表示されません。=When there are uncollected rewards from Recollection Battles,\nyou can set whether to enable collecting rewards from the schedule or just display it.\nIf you have not cleared Memory Area Floor 1, it will not be displayed regardless of the setting.
 
-追憶戦・覇設定=Reminiscence and Conquest Setting
-追憶戦・覇の挑戦回数が残っているとき予定帳に表示するか設定できます。\n挑戦できるボスがいない場合は設定によらず表示されません。=You can set whether to display Reminiscence and Conquest\nin the schedule when there are remaining challenge attempts.\nIf there are no bosses available to challenge, it will not be displayed regardless of the setting.
+追憶戦・覇設定=Recollections and Conquest Setting
+追憶戦・覇の挑戦回数が残っているとき予定帳に表示するか設定できます。\n挑戦できるボスがいない場合は設定によらず表示されません。=You can set whether to display Recollections and Conquest\nin the schedule when there are remaining challenge attempts.\nIf there are no bosses available to challenge, it will not be displayed regardless of the setting.
 
 
 経験値クエスト設定=EXP Quest Settings
