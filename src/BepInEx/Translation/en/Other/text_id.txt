@@ -1,6 +1,6 @@
 CLEAR=Clear
 MY_PARTY_CLEAR_BUTTON_TEXT=Clear
 TALENT_QUEST=Deep Quest
-MIRAGE_NEMESIS=Reminiscence &\nConquest
+MIRAGE_NEMESIS=Recollections\n& Conquest
 BULK_SKIP_FAVORITE_BUTTON_TEXT=Skip Multiple
 UNIT_ROLE_MASTERY_ENHANCE_SETTING=Enhancement\nSetting
