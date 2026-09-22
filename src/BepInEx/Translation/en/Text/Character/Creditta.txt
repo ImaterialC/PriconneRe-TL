@@ -14,7 +14,7 @@
 
 ##UB##
 ミリオンフリッピング=Million Flipping
-前方の敵すべてに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。範囲内の敵の数に応じて、ダメージと防御力の減少量が増加する。=Deals moderate P.DMG to all enemies, and slightly lowers their P.DEF. P.DMG dealt and lowered P.DEF amount increases depending on the number of enemies in range.\nP.DMG x 0.6 x Enemy Count.\nP.DEF x Enemy Count.
+前方の敵に物理中ダメージを与え、物理防御力を小ダウンさせる。範囲内の敵の数に応じて、効果量が増加する。=Deals moderate P.DMG to enemies in front and slightly lowers their P.DEF. Effect values increase based on the number of enemies within range.
 
 ##S1##
 トラップウォレット=Trap Wallet
@@ -22,8 +22,8 @@
 
 ##S2##
 ロイヤリティライト=Royalty Light
-味方全体に継続ＨＰ回復状態と継続ＴＰ回復状態を付与し、さらに物理無効バリアを展開する。=Grants HP recovery and continuous TP recovery to all allies, and deploys Barrier that negates P.DMG.
-r:"^毎秒ＨＰを(\d+)回復する毎秒ＴＰを10回復する(\d+)ダメージ分の物理無効バリアを展開する$"=►Recovers all allies' HP by $1/s for 10.5s.\n►Recovers all allies' TP by 10 for 10.5s.\n►Deploys Barrier over all allies that negates $2 P.DMG for 11s.
+味方全体に継続ＨＰ回復状態と継続ＴＰ回復状態を付与し、物理無効バリアを展開する。=Grants all allies continuous HP recovery and continuous TP recovery, and deploys a physical nullification barrier.
+r:"^毎秒ＨＰを(\d+)回復する毎秒ＴＰを10回復する(\d+)ダメージ分の物理無効バリアを展開する$"=Cast time: 0.465s.\n►Recovers all allies' HP by $1/s for 10.5s.\n►Recovers all allies' TP by 10 for 10.5s.\n►Deploys Barrier over all allies that negates $2 P.DMG for 11s.
 
 ##EX##
 へそくりブースト=Savings Boost
@@ -31,8 +31,8 @@ r:"^毎秒ＨＰを(\d+)回復する毎秒ＴＰを10回復する(\d+)ダメー�
 
 ##S1+##
 トラップウォレット+=Trap Wallet+
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与える。バトル開始後、初弾のこのスキルはさらに敵の物理防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。=Deals moderate P.DMG to all enemies in 250 range of frontmost enemy. When battle begins, 1st skill usage lowers enemies' P.DEF in range by a small amount, and slightly boosts enemies' P.CRIT DMG taken in range.
-r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵のクリティカルを受けた際のダメージを2％アップ$"=►Deals $1 P.DMG to enemies in range.\n\nFor the 1st skill usage:\n►Lowers enemies' P.DEF in range by $2 for 180s.\n►Boosts enemies' P.CRIT DMG taken in range by 2% for 180s.
+目の前の敵１キャラを中心とした範囲内の敵に物理中ダメージを与える。初回発動時、敵の物理防御力を小ダウンさせ、受けるクリティカルダメージを小アップさせる。=Deals moderate P.DMG to enemies within range centered on an enemy in front. Upon first activation, slightly lowers the enemies' P.DEF and slightly increases the critical damage they receive.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵のクリティカルを受けた際のダメージを2％アップ$"=Cast time: 0.235s.\n►Deals $1 P.DMG to enemies in range.\n\nFor the 1st skill usage:\n►Lowers enemies' P.DEF in range by $2 for 180s.\n►Boosts enemies' P.CRIT DMG taken in range by 2% for 180s.
 
 ##UE##
 アバカス・アーバレスト=Abacus Arbalest

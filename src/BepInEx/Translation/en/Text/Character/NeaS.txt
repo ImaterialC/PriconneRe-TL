@@ -3,28 +3,30 @@
 
 ##UB##
 スライミィサービス=Slime-y Service
-##oldr:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を255ダウン敵単体の物理・魔法攻撃力を1452ダウン自分のＨＰを20885回復ネバネバが４つ以上の場合、16335ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts 2 [Sticky] on a single enemy.\n►Lowers a single enemy's P.DEF by 255.\n►Lowers a single enemy's P.ATK & M.ATK by 1452.\n►Recovers own HP by 20885.\n\nIf [Sticky] is 4 or more:\n►Creates a P.DMG/M.DMG Null Barrier (16335 HP) for self.
+目の前の敵１キャラに物理特大ダメージを与え、物理防御力を中ダウンさせ、【ネバネバ】（上限６）を２個付与する。【ネバネバ】の数に応じて敵の攻撃力はダウンする。自分のＨＰを中回復する。対象の【ネバネバ】が４個以上の場合、さらに自分に物理/魔法無効バリアを展開する。=Deals massive P.DMG to an enemy in front, moderately lowers their P.DEF, and inflicts 2 [Sticky] stacks (max 6). The enemy's ATK decreases based on the number of [Sticky] stacks. Moderately recovers own HP. If the target has 4 or more [Sticky] stacks, additionally deploys a physical/magic nullification barrier on self.
 
-r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を(\d+)ダウン敵単体の物理・魔法攻撃力を(\d+)ダウン自分のＨＰを(\d+)回復ネバネバが４つ以上の場合、(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Grants 2 [Sticky] to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 18s.\n►Lowers a single enemy's P.ATK and M.ATK by $3 for 18s.\n►Recovers own HP by $4.\n\nIf [Sticky] is 4 or more:\n►Deploys a physical & magic null barrier absorbing $5 damage.
-
-
-目の前の敵１キャラに物理特大ダメージ、物理防御力を中ダウン、【ネバネバ】を２つ付与する（最大６つまで）。【ネバネバ】の数に応じて敵の攻撃力はダウンする。自分のＨＰを中回復する。【ネバネバ】の数が４つ以上の場合、自分に物理/魔法無効バリアを展開する。=Deals massive P.DMG to 1 enemy directly ahead, moderately lowers their P.DEF, and inflicts 2 [Sticky] (max: 6). Enemy ATK decreases based on [Sticky] count. Recovers own HP by a moderate amount. If [Sticky] count is 4 or more, creates a P.DMG/M.DMG Null Barrier for self.
+r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付与する敵単体の物理防御力を(\d+)ダウン敵単体の物理・魔法攻撃力を(\d+)ダウン自分のＨＰを(\d+)回復ネバネバが４つ以上の場合、(\d+)ダメージ分の物理魔法無効バリアを展開する$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts 2 [Sticky] on a single enemy.\n►Lowers P.DEF of a single enemy by $2 for 18s.\n►Lowers P.ATK and M.ATK of a single enemy by $3 for 18s.\n►Recovers own HP by $4 HP.\n\nIf [Sticky] is 4 or more:\n►Deploys a Barrier that nullifies $5 P.DMG and M.DMG for 18s.
 
 ##S1##
-ホットヒップドロップ+=Hot hip drop+
 ホットヒップドロップ=Hot hip drop
-
-r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを80アップネバネバが２つ以上の場合、味方全体の物理クリダメを8％アップネバネバが４つ以上の場合、味方全体のＴＰを30回復$"=►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2.\n►Boosts all allies' P.ATK by $3.\n►Boosts all allies' P.CRIT RATE by 80.\nIf [Sticky] is 2 or more:\n►Boosts all allies' P.CRIT DMG by 8％.\nIf [Sticky] is 4 or more:\n►Recovers all allies' TP by 30.
-
-目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。さらに、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。対象の【ネバネバ】の数が２つ以上の場合、味方全体の物理攻撃クリティカル時のダメージを小アップ、４つ以上の場合、さらに味方全体のＴＰを小回復させる。=Deals moderate P.DMG to 1 enemy ahead and slightly lowers their P.DEF. Also greatly boosts all allies' P.ATK and significantly raises their P.CRIT RATE. If target has 2+ [Sticky], slightly boosts all allies' P.CRIT DMG. If 4+ [Sticky], additionally recovers all allies' TP by a small amount.
 
 ##S2##
 ハグハグスライム=Hug-Hug Slime
+敵から攻撃を受けるたびに、その敵に【ネバネバ】（上限６）を１個付与する状態になる。【ネバネバ】の数に応じて敵の攻撃力はダウンする。【ネバネバ】が６個の敵から攻撃を受けた場合、その敵の【ネバネバ】を２個消費し、物理中ダメージを与え、束縛し、自分のＨＰを中回復する。=Enters a state where 1 [Sticky] stack (max 6) is inflicted on an attacking enemy each time self is attacked. The enemy's ATK decreases based on the number of [Sticky] stacks. When attacked by an enemy with 6 [Sticky] stacks, consumes 2 of that enemy's [Sticky] stacks, deals moderate P.DMG to them, binds them, and moderately recovers own HP.
 
-r:"^自分を攻撃した敵にネバネバを１つ付与する敵単体の物理・魔法攻撃力を(\d+)ダウン自分を攻撃した敵のネバネバが６つの場合、以下の効果が発動するその敵のネバネバを２つ消費するその敵に(\d+)の物理ダメージその敵を一定時間行動不能にする自分のＨＰを(\d+)回復$"=►Inflicts 1 [Sticky] on attacking enemy.\n►Lowers attacking enemy's P.ATK & M.ATK by $1.\n\nIf attacking enemy has 6 [Sticky]:\n►Consumes 2 [Sticky] from that enemy.\n►Deals $2 P.DMG to that enemy.\n►Binds that enemy.\n►Recovers own HP by $3.
 
-敵から攻撃を受けるたび、その敵に【ネバネバ】を１つ付与する状態になる。【ネバネバ】は最大６つまで追加される。【ネバネバ】の数に応じて敵の攻撃力はダウンする。【ネバネバ】が６つの敵から攻撃を受けた場合、その敵の【ネバネバ】を２つ消費し、物理中ダメージを与え、束縛し、さらに自分のＨＰを中回復する。=When attacked, inflicts 1 [Sticky] on the attacking enemy (max: 6). Enemy ATK decreases based on [Sticky] count. If attacked by an enemy with 6 [Sticky], consumes 2 [Sticky] from them, deals moderate P.DMG, binds them, and moderately recovers own HP.
+r:"^自分を攻撃した敵にネバネバを１つ付与する敵単体の物理・魔法攻撃力を(\d+)ダウン自分を攻撃した敵のネバネバが６つの場合、以下の効果が発動するその敵のネバネバを２つ消費するその敵に(\d+)の物理ダメージその敵を一定時間行動不能にする自分のＨＰを(\d+)回復$"=Cast time: 1.05s.\n►Inflicts 1 [Sticky] on attacking enemy.\n►Lowers attacking enemy's P.ATK & M.ATK by $1 for 12s.\n\nIf attacking enemy has 6 [Sticky]:\n►Consumes 2 [Sticky] from that enemy.\n►Deals $2 P.DMG to that enemy.\n►Binds that enemy.\n►Recovers own HP by $3.
+
+r:"^自分を攻撃した敵にネバネバを１つ付与する敵単体の物理・魔法攻撃力を(\d+)ダウン自分を攻撃した敵のネバネバが６つの場合、以下の効果が発動するその敵のネバネバを２つ消費するその敵に(\d+)の物理ダメージその敵を一定時間行動不能にする自分のＨＰを(\d+)回復$"=Cast time: 1.05s.\n►Inflicts 1 [Sticky] on the enemy that attacks self.\n►Lowers P.ATK and M.ATK of a single enemy by $1 for 12s.\n\nIf the [Sticky] on the enemy that attacked self reaches 6:\n►Consumes 2 [Sticky] from that enemy.\n►Deals $2 P.DMG to that enemy.\n►Bind that enemy for 2.5s.\n►Recovers own HP by $3.
 
 ##EX##
 ぷるぷるサンスクリーン=Puru-Puru Sunscreen
 ぷるぷるサンスクリーン+=Puru-Puru Sunscreen+
+
+
+##S1+##
+カリザきゅんランド=Kariza-kyun Land
+ホットヒップドロップ+=Hot hip drop+
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。対象の【ネバネバ】が２個以上の場合、さらに味方全体の物理クリティカルダメージを小アップさせ、４個以上の場合、さらに味方全体のＴＰを小回復させる。=Deals moderate P.DMG to an enemy in front and slightly lowers their P.DEF. Massively boosts all allies' P.ATK and greatly boosts P.CRIT RATE. If the target has 2 or more [Sticky] stacks, additionally slightly boosts all allies' P.CRIT DMG, and if they have 4 or more, additionally slightly recovers all allies' TP.
+
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを80アップネバネバが２つ以上の場合、味方全体の物理クリダメを8％アップネバネバが４つ以上の場合、味方全体のＴＰを30回復$"=Cast time: 1.05s.\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 12s.\n►Boosts all allies' P.ATK by $3 for 12s.\n►Boosts all allies' P.CRIT RATE by 80 for 12s.\nIf [Sticky] is 2 or more:\n►Boosts all allies' P.CRIT DMG by 8％ for 12s.\n\nIf [Sticky] is 4 or more:\n►Recovers all allies' TP by 30.

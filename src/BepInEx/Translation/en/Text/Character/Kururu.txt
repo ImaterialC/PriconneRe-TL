@@ -8,7 +8,7 @@
 
 ##UB##
 グランドリームパレード=Grand Dream Parade
-前方の敵すべてに魔法大ダメージを与え、自分のＨＰを中回復し、無敵状態になる。このスキルのダメージは【かばばん君】の数に応じて増加し、クリティカル時のダメージが３倍になる。【かばばん君】が20以上の場合、このスキルは必ずクリティカルし、40の場合、さらに、味方全体の魔法攻撃クリティカル時のダメージを小アップする。=Deals large M.DMG to all enemies in front, moderately recovers own HP, and becomes immune to all damage for a set period of time. The M.DMG increases according to number of [Kababan-kun] stacks, and deals x3 M.DMG if critical. If there are 20+ [Kababan-kun] stacks, the UB always critical. If there are 40 [Kababan-kun] stacks, slightly boosts all allies' M.CRIT DMG.
+前方の敵に魔法大ダメージを与え、自分のＨＰを中回復し、一定時間無敵状態になる。【かばばん君】の数に応じて、ダメージが増加し、クリティカルダメージは３倍になる。【かばばん君】が20体以上の場合、必ずクリティカルし、40体の場合、さらに味方全体の魔法クリティカルダメージを小アップさせる。=Deals major M.DMG to enemies in front, moderately recovers own HP, and becomes invincible for a set period. Damage increases based on the number of [Kababan-kun], and critical damage is tripled. If there are 20 or more [Kababan-kun], the attack always critically hits, and if there are 40, additionally slightly boosts all allies' M.CRIT DMG.
 r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復一定時間無敵状態になるかばばん君が40の場合、味方全体の魔法攻撃クリティカル時のダメージを15％アップ$"=►Deals $1 M.DMG to all enemies.\n►Recovers own HP by $2.\n►Becomes immune to all damage for 4s.\n►If there are 40 [Kababan-kun] stacks, boosts allies' M.CRIT DMG by 15% for 18s.
 
 ##S1##
@@ -16,19 +16,21 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復一
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、自分のＨＰを小回復させ、さらに物理/魔法吸収バリアを展開する。このスキルのダメージは【かばばん君】の数に応じて増加する。=Deals moderate M.DMG to enemies in range, slightly recovers own HP, and deploys Barrier that absorbs P/M.DMG. The M.DMG increases according to number of [Kababan-kun] stacks.
 r:"^範囲内の敵に(\d+)の魔法ダメージ(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in range.\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.\n►Recovers own HP by $3.
 
-##Skill Desc##
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、自分のＨＰを小回復し、物理/魔法吸収バリアを展開する。このスキルのダメージは【かばばん君】の数に応じて増加し、クリティカル時のダメージが３倍になる。【かばばん君】が20以上の場合、このスキルは必ずクリティカルし、40の場合、さらにダメージを与えた敵を束縛する。=Deals moderate M.DMG to all enemies in an area centered on an enemy in front, slightly recovers own HP, and deploys a physical/magic-absorption barrier. The damage of this skill increases based on the number of Kababan-kun. Critical damage is tripled. If Kababan-kun count is 20 or more, this skill always critically hits; if 40, it additionally binds the enemies damaged.
-r:"^範囲内の敵に(\d+)の魔法ダメージかばばん君が40の場合、範囲内の敵を一定時間行動不能にする(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies within 300 range.\n►If [Kababan-kun] is 40: Inflicts Bind to enemies in range.\n►Deploys Barrier over self that absorbs $2 P/M.DMG for 12s.\n►Recovers own HP by $3.
 
 
 ##S2##
 恩返しですっ！=It's My Repayment!
-自分の物理防御力と魔法防御力を中アップさせる。さらに、自分がステータスアップ効果を受ける度に、【かばばん君】を１体追加し、自分以外の味方すべての魔法攻撃力を小アップさせる。この効果は【かばばん君】が40より少ない場合に発動し、このスキルによって他のスキルの効果は発動しない。=Moderately boosts own P.DEF and M.DEF. Additionally, each time a buff is applied to oneself, gains one [Kababan-kun] stack and slightly boosts all other allies' M.ATK. This additional effect only occurs when the [Kababan-kun] stack < 40, and will not trigger the effects of other skills.
-r:"^自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップステータスアップ効果を受けるたびに自分にかばばん君を追加する状態になるステータスアップ効果を受けるたびに自分以外の味方の魔法攻撃力を(\d+)アップ$"=►Boosts own P.DEF by $1 for 180s.\n►Boosts own M.DEF by $2 for 180s.\n►Each time a buff is applied to oneself, gains one [Kababan-kun] stack and boosts all other allies' M.ATK by $3 for 180s.
+自分の物理・魔法防御力を中アップする。自分がステータスアップ効果を受けるたびに【かばばん君】を１体追加し、自分以外の味方の魔法攻撃力を小アップさせる。この効果は【かばばん君】が40体より少ない場合に発動し、このスキルによって他のスキルの効果は発動しない。=Moderately boosts own P.DEF and M.DEF. Each time self receives a stat up effect, adds 1 [Kababan-kun] and slightly boosts the M.ATK of all allies except self. This effect activates while there are fewer than 40 [Kababan-kun], and this skill does not activate the effects of other skills.
+r:"^自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップステータスアップ効果を受けるたびに自分にかばばん君を追加する状態になるステータスアップ効果を受けるたびに自分以外の味方の魔法攻撃力を(\d+)アップ$"=Cast time: 1.05s.\n►Boosts own P.DEF by $1 for 180s.\n►Boosts own M.DEF by $2 for 180s.\n►Each time a buff is applied to oneself, gains one [Kababan-kun] stack and boosts all other allies' M.ATK by $3 for 180s.
 
 ##EX##
 オープニングジュエル=Opening Jewel
 オープニングジュエル+=Opening Jewel+
 
 
+
+##S1+##
+かばばん君=Kababan-kun
 かばばん君警備員モード+=Kababan-kun Guard Mode+
+目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、自分のＨＰを小回復し、物理/魔法吸収バリアを展開する。このスキルのダメージは【かばばん君】の数に応じて増加し、クリティカル時のダメージが３倍になる。【かばばん君】が20以上の場合、このスキルは必ずクリティカルし、40の場合、さらにダメージを与えた敵を束縛する。=Deals moderate M.DMG to all enemies in an area centered on an enemy in front, slightly recovers own HP, and deploys a physical/magic-absorption barrier. The damage of this skill increases based on the number of Kababan-kun. Critical damage is tripled. If Kababan-kun count is 20 or more, this skill always critically hits; if 40, it additionally binds the enemies damaged.
+r:"^範囲内の敵に(\d+)の魔法ダメージかばばん君が40の場合、範囲内の敵を一定時間行動不能にする(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＨＰを(\d+)回復$"=Cast time: 1.05s.\n►Deals $1 M.DMG to enemies within 300 range.\n►If [Kababan-kun] is 40: Inflicts Bind to enemies in range.\n►Deploys Barrier over self that absorbs $2 P/M.DMG for 12s.\n►Recovers own HP by $3.

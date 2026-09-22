@@ -31,7 +31,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の移動速度�
 キャプチャーストリング+=Capture String+
 前から２番目の敵に物理中ダメージを与え、小さく引き寄せ、スタンさせる。自分の物理攻撃力を中アップ、物理防御力を小アップする。=Deals moderate P.DMG to the second enemy from the front, slightly pulls them in, and inflicts Stun. Moderately boosts own P.ATK and slightly boosts own P.DEF.
 
-r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=►Deals $1 P.DMG to a single enemy.\n►Inflicts Stun to an enemy for 1.5s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.DEF by $3 for 12s.
+r:"^敵単体に(\d+)の物理ダメージ敵単体を一定時間行動不能にする自分の物理攻撃力を(\d+)アップ自分の物理防御力を(\d+)アップ$"=Cast time: 1.23s.\n►Deals $1 P.DMG to a single enemy.\n►Inflicts Stun to an enemy for 1.5s.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.DEF by $3 for 12s.
 
 ##UE##
 ハイクチュリエベルト=High Couturier Belt

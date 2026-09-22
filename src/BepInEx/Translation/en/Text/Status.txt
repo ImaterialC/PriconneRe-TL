@@ -53,126 +53,143 @@ HP回復量=HP Recovery Amount
 
 
 属性ボーナスアップ=Elemental Bonus Up
+
+
+適正装備ではないため\n効果が発揮しません=The effect will not activate\nbecause this is not the appropriate equipment.
+究極解放する=Unlock Ultimate Limit.
+
 ---Status Popup---
 
 
 強化条件を満たしていません。=Enhancement conditions not met.
 
 スキル切り替え！=Skills Change!
-r:"^与ダメアップ[＋+]([0-9.%％]+)$"=Damage Up +$1
-r:"^被ダメカット[＋+]([0-9.%％]+)$"=Damage Reduction +$1
-r:"^属性ボーナスアップ[＋+]([0-9.%％]+)$"=Elemental Bonus Up +$1
-r:"^属性ボーナス[＋+]([0-9.%％]+)$"=Elemental Bonus +$1
-r:"^魔法クリティカルダメージ倍率[＋+]([0-9.%％]+)$"=M.CRIT DMG Multiplier +$1
-r:"^物理クリティカルダメージ倍率[＋+]([0-9.%％]+)$"=M.CRIT DMG Multiplier +$1
+r:"^与ダメアップ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Damage Up $1
+r:"^被ダメカット([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Damage Reduction $1
+r:"^属性ボーナスアップ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Elemental Bonus Up $1
+r:"^属性ボーナス([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Elemental Bonus $1
+r:"^魔法クリティカルダメージ倍率([ＬｖLv＋+－\-0-9０-９.%％]+)$"=M.CRIT DMG Multiplier $1
+r:"^物理クリティカルダメージ倍率([ＬｖLv＋+－\-0-9０-９.%％]+)$"=M.CRIT DMG Multiplier $1
 
-r:"^魔法防御貫通[＋+]([0-9.%％]+)$"=M.DEF PEN +$1
-r:"^物理防御貫通[＋+]([0-9.%％]+)$"=P.DEF PEN +$1
-r:"^魔法攻撃力アップ[＋+]([0-9.%％]+)$"=Magic Attack up +$1
-r:"^魔法攻撃力ダウン[＋+]([0-9.%％]+)$"=Magic Attack Down +$1
-r:"^魔法防御力ダウン[＋+]([0-9.%％]+)$"=Magic Defense Down +$1
-r:"^魔法防御力アップ[＋+]([0-9.%％]+)$"=Magic Defense Up +$1
-r:"^魔法ダメージ[＋+]([0-9.%％]+)$"=M.DMG +$1
-r:"^範囲魔法ダメージ[＋+]([0-9.%％]+)$"=Range M.DMG +$1
-r:"^単体魔法ダメージ[＋+]([0-9.%％]+)$"=Single M.DMG +$1
-r:"^全体魔法ダメージ[＋+]([0-9.%％]+)$"=Total M.DMG +$1
-r:"^追加魔法ダメージ[＋+]([0-9.%％]+)$"=Additional M.DMG +$1
-r:"^龍眼状態の敵への魔法ダメージ[＋+]([0-9.%％]+)$"=M.DMG to enemies with Dragon Eye state $1
+r:"^魔法防御貫通([ＬｖLv＋+－\-0-9０-９.%％]+)$"=M.DEF PEN $1
+r:"^物理防御貫通([ＬｖLv＋+－\-0-9０-９.%％]+)$"=P.DEF PEN $1
+r:"^魔法攻撃力アップ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Magic Attack up $1
+r:"^魔法攻撃力ダウン([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Magic Attack Down $1
+r:"^魔法防御力ダウン([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Magic Defense Down $1
+r:"^魔法防御力アップ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Magic Defense Up $1
+r:"^魔法ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=M.DMG $1
+r:"^範囲魔法ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Range M.DMG $1
+r:"^単体魔法ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Single M.DMG $1
+r:"^全体魔法ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Total M.DMG $1
+r:"^追加魔法ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Additional M.DMG $1
+r:"^龍眼状態の敵への魔法ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=M.DMG to enemies with Dragon Eye state $1
 
-r:"^物理攻撃力アップ[＋+]([0-9.%％]+)$"=Physical Attack Power up +$1
-r:"^物理攻撃力ダウン[＋+]([0-9.%％]+)$"=Physical Attack Power Down +$1
-r:"^物理防御力アップ[＋+]([0-9.%％]+)$"=Physical Defense up +$1
-r:"^物理防御力ダウン[＋+]([0-9.%％]+)$"=Physical Defense Down +$1
-r:"^物理ダメージ[＋+]([0-9.%％]+)$"=Physical Damage +$1
-r:"^範囲物理ダメージ[＋+]([0-9.%％]+)$"=Range P.DMG +$1
-r:"^単体物理ダメージ[＋+]([0-9.%％]+)$"=Single P.DMG +$1
-r:"^全体物理ダメージ[＋+]([0-9.%％]+)$"=Total P.DMG +$1
-r:"^追加物理ダメージ[＋+]([0-9.%％]+)$"=Additional P.DMG +$1
+r:"^物理攻撃力アップ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Physical Attack Power up $1
+r:"^物理攻撃力ダウン([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Physical Attack Power Down $1
+r:"^物理防御力アップ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Physical Defense up $1
+r:"^物理防御力ダウン([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Physical Defense Down $1
+r:"^物理ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Physical Damage $1
+r:"^範囲物理ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Range P.DMG $1
+r:"^単体物理ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Single P.DMG $1
+r:"^全体物理ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Total P.DMG $1
+r:"^追加物理ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Additional P.DMG $1
 
-r:"^HP自動回復[＋+]([0-9.%％]+)$"=HP Regen +$1
-r:"^HP吸収[＋+]([0-9.%％]+)$"=HP Drain +$1
-r:"^ＨＰ回復量[＋+]([0-9.%％]+)$"=HP Recovery Amount +$1
-r:"^TP自動回復[＋+]([0-9.%％]+)$"=TP Regen +$1
-r:"^ＴＰ回復量[＋+]([0-9.%％]+)$"=TP Recovery Amount +$1
-r:"^回復量[＋+]([0-9.%％]+)$"=Recovery Amount +$1
-r:"^回復量上昇[＋+]([0-9.%％]+)$"=Recovery Amount Increase +$1
+r:"^HP自動回復([ＬｖLv＋+－\-0-9０-９.%％]+)$"=HP Regen $1
+r:"^HP吸収([ＬｖLv＋+－\-0-9０-９.%％]+)$"=HP Drain $1
+r:"^ＨＰ回復量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=HP Recovery Amount $1
+r:"^TP自動回復([ＬｖLv＋+－\-0-9０-９.%％]+)$"=TP Regen $1
+r:"^ＴＰ回復量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=TP Recovery Amount $1
+r:"^回復量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Recovery Amount $1
+r:"^回復量上昇([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Recovery Amount Increase $1
 
-r:"^回避[＋+]([0-9.%％]+)$"=Dodge +$1
-r:"^命中[＋+]([0-9.%％]+)$"=Accuracy +$1
-r:"^ＴＰダメージ[＋+]([0-9.%％]+)$"=TP Damage +$1
+r:"^回避([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Dodge $1
+r:"^命中([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Accuracy $1
+r:"^ＴＰダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=TP Damage $1
 
-r:"^反撃ダメージ[＋+]([0-9.%％]+)$"=Counterattack Damage +$1
-r:"^反撃時の物理ダメージ[＋+]([0-9.%％]+)$"=P.DMG During Counterattack +$1
-r:"^１秒当たりのダメージ量[＋+]([0-9.%％]+)$"=Damage per Second +$1
-r:"^１秒当たりのＨＰ回復量[＋+]([0-9.%％]+)$"=HP Recovery per Second +$1
-r:"^無効ダメージ量[＋+]([0-9.%％]+)$"=Null damage amount +$1
-r:"^最大ＨＰアップ[＋+]([0-9.%％]+)$"=Max HP up +$1
-r:"^吸収ダメージ量[＋+]([0-9.%％]+)$"=Absorb Damage +$1
-r:"^継続時間[＋+]([0-9,.]+)秒$"=Duration +$1
-r:"^無敵時間[＋+]([0-9,.]+)秒$"=Invincible Time +$1
-r:"^召喚するドクロ親父のＬｖ[＋+]([0-9.%％]+)$"=Skull Father Summon Lv +$1
-r:"^行動速度低下の確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Slowdown Success Lv +$1
-r:"^束縛の確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Binding Success Lv +$1
-r:"^時間停止の確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Time Stop Success Lv +$1
-r:"^恐慌の確定成功Ｌv[＋+]([0-9.%％]+)$"=Fear Success LV +$1
-r:"^暗闇の確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Blind Success Lv +$1
-r:"^混乱の確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Confusion Success Lv +$1
-r:"^誘惑の確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Charm Success Lv +$1
-r:"^麻痺の確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Paralysis Success Lv +$1
-r:"^スタンの確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Stun Success Lv +$1
-r:"^呪詛の初期ダメージ量[＋+]([0-9.%％]+)$"=Initial Damage Amount of Hex +$1
-r:"^呪いの1秒当たりのダメージ量[＋+]([0-9.%％]+)$"=Curse Damage per Second +$1
-r:"^毒の1秒当たりのダメージ量[＋+]([0-9.%％]+)$"=Poison Damage per Second +$1
-r:"^猛毒の1秒当たりのダメージ量[＋+]([0-9.%％]+)$"=Venom Damage per Second +$1
-r:"^確定成功Ｌｖ[＋+]([0-9.%％]+)$"=Inflict Success Lv +$1
+r:"^反撃ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Counterattack Damage $1
+r:"^反撃時の物理ダメージ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=P.DMG During Counterattack $1
+r:"^１秒当たりのダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Damage per Second $1
+r:"^１秒当たりのＨＰ回復量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=HP Recovery per Second $1
+r:"^無効ダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Null damage amount $1
+r:"^最大ＨＰアップ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Max HP up $1
+r:"^吸収ダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Absorb Damage $1
+r:"^継続時間([ＬｖLv＋+－\-0-9０-９.%％]+)秒$"=Duration $1s
+r:"^無敵時間([ＬｖLv＋+－\-0-9０-９.%％]+)秒$"=Invincible Time $1s
+r:"^召喚するドクロ親父の([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Skull Father Summon $1
+r:"^行動速度低下の確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Slowdown Success $1
+r:"^束縛の確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Binding Success $1
+r:"^時間停止の確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Time Stop Success $1
+r:"^恐慌の確定成功Ｌv([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Fear Success $1
+r:"^暗闇の確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Blind Success $1
+r:"^混乱の確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Confusion Success $1
+r:"^誘惑の確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Charm Success $1
+r:"^麻痺の確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Paralysis Success $1
+r:"^スタンの確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Stun Success $1
+r:"^呪いの初期ダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Initial Damage Amount of Curse $1
+r:"^呪詛の初期ダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Initial Damage Amount of Hex $1
+r:"^火傷の初期ダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Initial Damage Amount of Burn $1
+r:"^毒の初期ダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Initial Damage Amount of Poison $1
+r:"^猛毒の初期ダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Initial Damage Amount of Venom $1
+r:"^呪いの1秒当たりのダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Curse Damage per Second $1
+r:"^呪詛の1秒当たりのダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Hex Damage per second $1
+r:"^火傷の1秒当たりのダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Burn Damage per second $1
+r:"^毒の1秒当たりのダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Poison Damage per Second $1
+r:"^猛毒の1秒当たりのダメージ量([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Venom Damage per Second $1
+
+
+r:"^確定成功([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Inflict Success $1
 ------
 r:"^装備必要キャラLv：([0-9.%％]+)$"=[3C404E]LV Requirement: $1[-]
 r:"^上限解放必要キャラLv:([0-9.%％]+)$"=Character Lv required to unlock the Level Cap: $1
 上限解放に必要なキャラLvを満たしていません。=Insufficient character Lv to unlock the cap.
 r:"^\[FF7C4E,D62146\]装備必要キャラLv：([0-9.%％]+)\[-\]$"=[FF7C4E,D62146]LV Requirement: $1[-]
-r:"^強化Lv上限  ([0-9.%％]+)$"=Max Lv $1
+r:"^強化Lv上限  ([0-9.%％]+)$"=Max $1
 r:"^上限Lv([0-9.%％]+)$"=Lv. $1
 ---Status UP Equip---
-r:"^HP吸収[＋+]([0-9.%％]+)$"=HP Drain +$1
-r:"^HP自動回復[＋+]([0-9.%％]+)$"=HP Regen +$1
-r:"^回復量上昇[＋+]([0-9.%％]+)$"=Heal Bonus +$1
+r:"^HP吸収([ＬｖLv＋+－\-0-9０-９.%％]+)$"=HP Drain $1
+r:"^HP自動回復([ＬｖLv＋+－\-0-9０-９.%％]+)$"=HP Regen $1
+r:"^回復量上昇([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Heal Bonus $1
 
-r:"^TP上昇[＋+]([0-9.%％]+)$"=TP Boost +$1
-r:"^TP自動回復[＋+]([0-9.%％]+)$"=TP Regen +$1
-r:"^TP消費軽減[＋+]([0-9.%％]+)$"=TP Retain +$1
+r:"^TP上昇([ＬｖLv＋+－\-0-9０-９.%％]+)$"=TP Boost $1
+r:"^TP自動回復([ＬｖLv＋+－\-0-9０-９.%％]+)$"=TP Regen $1
+r:"^TP消費軽減([ＬｖLv＋+－\-0-9０-９.%％]+)$"=TP Retain $1
 
-r:"^物理攻撃力[＋+]([0-9.%％]+)$"=Physical ATK +$1
-r:"^物理防御力[＋+]([0-9.%％]+)$"=Physical DEF +$1
-r:"^物理クリティカル[＋+]([0-9.%％]+)$"=Physical Critical +$1
+r:"^物理攻撃力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Physical ATK $1
+r:"^物理防御力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Physical DEF $1
+r:"^物理クリティカル([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Physical Critical $1
 
-r:"^魔法攻撃力[＋+]([0-9.%％]+)$"=Magic ATK +$1
-r:"^魔法防御力[＋+]([0-9.%％]+)$"=Magic DEF +$1
-r:"^魔法クリティカル[＋+]([0-9.%％]+)$"=Magic Critical +$1
-r:"^命中[＋+]([0-9.%％]+)$"=Accuracy +$1
-r:"^回避[＋+]([0-9.%％]+)$"=Dodge +$1
-r:"^戦力[＋+]([0-9.%％]+)$"=Combat Power +$1
+r:"^魔法攻撃力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Magic ATK $1
+r:"^魔法防御力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Magic DEF $1
+r:"^魔法クリティカル([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Magic Critical $1
+r:"^命中([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Accuracy $1
+r:"^回避([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Dodge $1
+r:"^戦力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Combat Power $1
 
 
-r:"^回復強化[＋+]([0-9.%％]+)$"=Recovery +$1
-r:"^バフ強化[＋+]([0-9.%％]+)$"=Buff Enhancement +$1
-r:"^デバフ強化[＋+]([0-9.%％]+)$"=Debuff Enhancement +$1
+r:"^回復強化([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Recovery $1
+r:"^バフ強化([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Buff Enhancement $1
+r:"^デバフ強化([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Debuff Enhancement $1
 
-r:"^通常攻撃強化[＋+]([0-9.%％]+)$"=Normal Attack +$1
+r:"^通常攻撃強化([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Normal Attack $1
 ---Rank Bonus---
 r:"^RANK([0-9.%％]+)が登場した場合、RANK([0-9.%％]+)では\nRANKボーナスが獲得されていない状態になります。$"=When RANK $1 appears, RANK $2\nwill not be able to get the RANK bonus.
 
 r:"^(\[[0-9A-F,]+\])RANK([0-9.%％]+)\[-\]\[3C404E\]まで強化したため\n以下のステータスボーナスを獲得しています。\[-\]$"=[3C404E]The following status bonuses are obtained for strengthening to $1RANK $2[-].[-]
 
 
+r:"^ドロップ率([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Drop Rate $1
+r:"^与ダメ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Damage Dealt $1
+r:"^被ダメ([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Damage Taken $1
+
 ---Princess Knight---
 Attributes to be strengthened at once
 まとめて強化対象属性=Enhancement elemental at once
 以下のアイテムを消費してまとめて強化しますか？=Spend the following items to strengthen them all at once?
-r:"^火属性攻撃力[＋+]([0-9.%％]+)$"=Fire Attack +$1
-r:"^水属性攻撃力[＋+]([0-9.%％]+)$"=Water Attack +$1
-r:"^風属性攻撃力[＋+]([0-9.%％]+)$"=Wind Attack +$1
-r:"^光属性攻撃力[＋+]([0-9.%％]+)$"=Light Attack +$1
-r:"^闇属性攻撃力[＋+]([0-9.%％]+)$"=Darkness Attack +$1
+r:"^火属性攻撃力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Fire Attack $1
+r:"^水属性攻撃力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Water Attack $1
+r:"^風属性攻撃力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Wind Attack $1
+r:"^光属性攻撃力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Light Attack $1
+r:"^闇属性攻撃力([ＬｖLv＋+－\-0-9０-９.%％]+)$"=Darkness Attack $1
 
 
 ##Filter

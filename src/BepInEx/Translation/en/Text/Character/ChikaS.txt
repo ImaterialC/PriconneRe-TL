@@ -4,7 +4,8 @@
 ##UB##
 サマーオーシャンシンフォニー=Summer Ocean Symphony
 味方全体の物理・魔法防御力を中アップさせ、物理/魔法吸収バリアを展開する。=Moderately boosts all allies' P.DEF and M.DEF and deploys a P./M.DMG absorption barrier.
-r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Boosts all allies' P.DEF by $1 for 18s.\n►Boosts all allies' M.DEF by $2 for 18s.\n►Deploys Barrier over all allies that absorbs $3 P/M.DMG for 18s.
+r:"^味方全体の物理・魔法防御力を(\d+)アップ(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=►Boosts all allies' P.DEF and M.DEF by $1 for 18s.\n►Deploys a Barrier over all allies that absorbs $2 P.DMG and M.DMG for 18s.
+
 
 ##S1##
 オーシャンプロテクション=Ocean Protection
@@ -13,7 +14,7 @@ r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御�
 ##S2##
 ドルフィンソング=Dolphin Song
 最もＨＰが低い味方のＨＰを小回復させ、継続ＨＰ回復状態を付与する。=Slightly recovers the HP of the ally with the lowest HP and grants them continuous HP recovery.
-r:"^味方単体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=►Recovers an ally's HP by $1.\n►Recovers an ally's HP by $2/s for 8.5s.
+r:"^味方単体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=Cast time: 0.465s.\n►Recovers an ally's HP by $1.\n►Recovers an ally's HP by $2/s for 8.5s.
 
 ##EX##
 サマーディーヴァ=Summer Diva
@@ -21,9 +22,21 @@ r:"^味方単体のＨＰを(\d+)回復毎秒ＨＰを(\d+)回復する$"=►Rec
 
 ##S1+##
 オーシャンプロテクション+=Ocean Protection+
-自分を中心とした範囲内の味方の魔法防御力を特大アップさせ、魔法無効バリアを展開し、自分のＴＰを特大回復する。発動するたびに、最大３回まで効果量がダウンする。=Massively boosts the M.DEF of allies in range around self, deploys an M.DMG nullification barrier, and massively recovers own TP. The effect strength decreases with each activation, up to 3 times.
+自分を中心とした範囲内の味方の魔法防御力を特大アップさせ、魔法無効バリアを展開し、自分のＴＰを特大回復する。発動するたびに、最大３回まで効果量が減少する。=Massively boosts the M.DEF of allies within range centered on self, deploys a magic nullification barrier, and massively recovers own TP. Effect values decrease each time this is activated, up to 3 times.
 
-r:"^範囲内の味方の魔法防御力を(\d+)アップ自分のＴＰを(\d+)回復(\d+)ダメージ分の魔法無効バリアを展開する$"=►Boosts allies' M.DEF by $1 in 255 range for 12s.\n►Recovers own TP by $2.\n►Deploys Barrier over allies in 255 range that negates $3 M.DMG for 12s.
+r:"^範囲内の味方の魔法防御力を(\d+)アップ自分のＴＰを(\d+)回復(\d+)ダメージ分の魔法無効バリアを展開する$"=Cast time: 0.695s.\n►Boosts allies' M.DEF by $1 in 255 range for 12s.\n►Recovers own TP by $2.\n►Deploys Barrier over allies in 255 range that negates $3 M.DMG for 12s.
 
 ##UE##
 翠夏杖オーシャンルーン=Midsummer Cane Ocean Rune
+
+
+
+
+
+
+##S2+##
+ドルフィンソング+=Dolphin Song+
+ビーチシンフォニー・クロース=Beach Symphony Close
+
+自分を中心とした範囲内の味方の物理・魔法防御力を極大アップ、ＨＰを大回復、ＴＰを特大回復させ、継続ＨＰ回復状態と物理・魔法ダメージカット効果を付与し、物理無効バリアを展開する。発動するたびに、最大３回まで効果量が減少する。=Extremely boosts the P.DEF and M.DEF of allies within range centered on self, greatly recovers their HP, massively recovers their TP, grants them continuous HP recovery and a physical/magic damage reduction effect, and deploys a physical nullification barrier. Effect values decrease each time this is activated, up to 3 times.
+r:"^範囲内の味方の物理・魔法防御力を(\d+)アップ範囲内の味方のＨＰを(\d+)回復範囲内の味方のＴＰを500回復毎秒ＨＰを(\d+)回復する範囲内の味方が受ける物理・魔法ダメージを20％カット(\d+)ダメージ分の物理無効バリアを展開する$"=Cast time: 0.465s.\n►Boosts P.DEF and M.DEF of allies within 255 range by $1 for 12s.\n►Recovers $2 HP for allies within 255 range.\n►Recovers 500 TP for allies within 255 range.\n►Recovers $3 HP for allies within 255 range every second for 8.5s.\n►Reduces P.DMG and M.DMG taken by allies within 255 range by 20% for 12s.\n►Deploys a Barrier over allies within 255 range that nullifies $4 P.DMG for 12s.
