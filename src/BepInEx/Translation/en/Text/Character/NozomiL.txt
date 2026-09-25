@@ -9,7 +9,7 @@
 
 ##UB##
 ホープ・オンステージ=Hope on Stage
-目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。さらに、物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップさせる。=Deals large P.DMG to an enemy in the front, and lowers its P.DEF by a small amount. Additionally, boosts all P-type allies' P.ATK by an massive amount.
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。物理攻撃を行う味方の物理攻撃力を特大アップさせる。=Deals major P.DMG to an enemy in front, slightly lowers their P.DEF, and massively boosts the P.ATK of allies who deal physical attacks.
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン対象の味方の物理攻撃力を(\d+)アップ$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 18s.\n►Boosts all P-type allies' P.ATK by $3 for 18s.
 
 ##S1##
@@ -19,7 +19,7 @@ r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理�
 
 ##S2##
 エールフォーフューチャー=Cheer for Future
-物理攻撃を行うすべての味方キャラの物理攻撃力を大アップさせ、ＴＰを小回復させる。バトル開始後、初弾のこのスキルはＴＰの回復量が大幅アップし、敵全体の物理防御力を小ダウンさせる。=Greatly boosts all P-type allies' P.ATK, and slightly recovers their TP. When battle begins, 1st skill usage massively recovers all P-type allies' TP and slightly lowers all enemies' P.DEF.
+物理攻撃を行う味方の物理攻撃力を大アップ、ＴＰを小回復させる。初回発動時、ＴＰの回復量が大幅に増加し、さらに敵全体の物理防御力を小ダウンさせる。=Greatly boosts the P.ATK and slightly recovers the TP of allies who deal physical attacks. Upon first activation, TP recovery increases significantly, and additionally slightly lowers all enemies' P.DEF.
 r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰを(\d+)回復初使用時、対象の味方のＴＰを(\d+)回復初使用時、敵全体の物理防御力を(\d+)ダウン$"=Cast time: 1.05s.\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n\nFor the 1st skill usage:\n►Recovers all P-type allies' TP by $3.\n►Lowers all enemies' P.DEF by $4 for 180s\n\nFor the 2nd skill usage onwards:\n►Recovers all P-type allies' TP by $2.
 
 ##EX##
@@ -28,7 +28,7 @@ r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方のＴＰ�
 
 ##S1+##
 グロウイレーション+=Glow Elation+
-物理攻撃を行うすべての味方キャラの物理攻撃力を特大アップ、物理クリティカルを大アップし、物理攻撃クリティカル時のダメージを小アップさせ、さらにＴＰ上昇を小アップさせる。=Greatly boosts all P-type allies' P.ATK and P.CRIT Rate, and boosts their P.CRIT DMG by a small amount. Additionally, slightly boosts their TP Boost.
+物理攻撃を行う味方の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理クリティカルダメージとＴＰ上昇を小アップさせる。=Massively boosts the P.ATK, greatly boosts the P.CRIT RATE, and slightly boosts the P.CRIT DMG and TP Boost of allies who deal physical attacks.
 r:"^対象の味方の物理攻撃力を(\d+)アップ対象の味方の物理クリティカルを(\d+)アップ対象の味方の物理攻撃クリティカル時のダメージを12％アップ対象の味方のＴＰ上昇を(\d+)アップ$"=Cast time: 1.05s.\n►Boosts all P-type allies' P.ATK by $1 for 12s.\n►Boosts all P-type allies' P.CRIT Rate by $2 for 12s.\n►Boosts all P-type allies' P.CRIT DMG by 12% for 12s.\n►Boosts all P-type allies' TP Boost by $3 for 12s.
 
 ##UE##

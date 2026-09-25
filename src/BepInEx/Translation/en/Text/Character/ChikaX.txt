@@ -3,8 +3,8 @@
 
 ##UB##
 シルフィードキャロル=Sylphid Carol
-【召喚】自分の目の前に３体の精霊を唱喚する。=[Summon] Summons three spirits directly in front of oneself.
-魔法攻撃を行う精霊を唱喚する最もＨＰが低い味方のＨＰを回復する精霊を唱喚する味方全体のＴＰを回復する精霊を唱喚する=Summons a spirit that performs M.ATKs.\nSummons a spirit that recovers the HP of the ally with the lowest HP.\nSummons a spirit that recovers the TP of all allies.
+【召喚】物理攻撃を行う味方の行動速度を大アップさせる。自分が唱喚した精霊が味方にいない場合、さらに自分の目の前に精霊を唱喚し、そうでない場合、さらに精霊の魔法攻撃力を大アップさせ、行動速度のアップ量が増加する。自分の魔法攻撃力に応じて、魔法攻撃力のアップ量が最大２倍まで増加する。精霊のスキルは物理攻撃を行う味方の物理攻撃力を３回中アップ、最もＨＰが低い味方のＨＰを中回復、味方全体のＴＰを小回復させる。=[Summon]Greatly boosts the action speed of allies who perform physical attacks. If a spirit summoned by self is not on the allied side, additionally summons a spirit in front of self; otherwise, additionally greatly boosts the spirit's M.ATK and increases the action speed boost. The M.ATK boost increases up to 2 times based on own M.ATK. The spirit's skill moderately boosts the P.ATK of allies who perform physical attacks 3 times, moderately recovers the HP of the ally with the lowest HP, and slightly recovers all allies' TP.
+r:"^対象の味方の行動速度50％アップ精霊がいない場合、精霊を唱喚する精霊がいる場合、以下の効果が発動する精霊の魔法攻撃力を(\d+)アップ対象の味方の行動速度100％アップ$"=►Boosts action speed of the target ally by 50% for 18s.\n\nIf there is no [Spirit]:\n►Summons a [Spirit].\n\nIf there is a [Spirit]:\n►Boosts the [Spirit]'s M.ATK by $1 for 18s.\n►Boosts action speed of the target ally by 100% for 18s.
 
 ##S1##
 アセンションワルツ=Ascension Waltz
@@ -24,18 +24,13 @@ r:"^範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の�
 
 ##S1+##
 アセンションワルツ+=Ascension Waltz+
-一番物理攻撃力が高い味方１キャラの物理攻撃力と物理クリティカルを大アップさせる。このキャラの魔法攻撃力が高い程、物理攻撃力の上昇量がアップする。=Greatly boosts the P.ATK and P.CRIT Rate of the ally with the highest P.ATK. The boost in P.ATK is further enhanced based on the character's M.ATK.
-r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを(\d+)アップ$"=►Boosts an ally's P.ATK by $1.\n►Boosts an ally's P.CRIT Rate by $2.
+最も物理攻撃力が高い味方の物理攻撃力と物理クリティカルを大アップさせる。対象が水属性かつ自分が唱喚した精霊が味方にいる場合、これを３回行う。=Greatly boosts the P.ATK and P.CRIT RATE of the ally with the highest P.ATK. If the target has Water affinity and a spirit summoned by self is on the allied side, does this 3 times.
+r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ対象が水属性かつ精霊がいる場合、以上の効果が追加で２回発動する$"=Cast time: 1.05s.\n►Boosts P.ATK of a single ally by $1 for 12s.\n►Boosts P.CRIT RATE of a single ally by 100 for 12s.\n\nIf the target is Water element and there is a [Spirit], the above effects activate 2 additional times.
 
 ##S2+##
 ガーディアンメロディ+=Guardian Melody+
-
-自分の魔法攻撃力を特大アップさせ、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理防御力を中アップし、さらにＴＰを小回復する。このキャラの魔法攻撃力に応じて最大２倍まで物理攻撃力の上昇量がアップする。=Boosts own M.ATK massively, and within a range centered around the user, boost allies' P.ATK massively , boost P.DEF moderately, and further recovers TP slightly. The boost in P.ATK is further enhanced, up to a maximum of two times, based on this character's M.ATK.
-
-自分の魔法攻撃力を特大アップさせ、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理防御力を大アップし、さらにＴＰを小回復する。このキャラの魔法攻撃力に応じて最大２倍まで物理攻撃力の上昇量がアップする。=Boosts own M.ATK massively, and within a range centered around the user, boost allies' P.ATK massively , boost P.DEF massively, and further recovers TP slightly. The boost in P.ATK is further enhanced, up to a maximum of two times, based on this character's M.ATK.
-
-
-r:"^自分の魔法攻撃力を(\d+)アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方のＴＰを(\d+)回復$"=►Boosts own M.ATK by $1 for 18s.\n►Boosts allies' P.ATK in 400 range by $2 for 18s.\n►Boosts allies' P.DEF in 400 range by $3 for 18s.\n►Recovers allies' TP in 400 range by $4.
+自分の魔法攻撃力を特大アップし、最も物理攻撃力が高い味方を中心とした範囲内の味方の物理攻撃力を特大アップ、物理防御力を大アップ、ＴＰを中回復させる。自分が唱喚した精霊が味方にいる場合、さらに追加で最も物理攻撃力が高い味方の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。=Massively boosts own M.ATK. Massively boosts the P.ATK and greatly boosts the P.DEF of allies within range centered on the ally with the highest P.ATK, and moderately recovers their TP. If a spirit summoned by self is on the allied side, additionally massively boosts the P.ATK and greatly boosts the P.CRIT RATE of the ally with the highest P.ATK.
+r:"^自分の魔法攻撃力を(\d+)アップ範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方のＴＰを108回復精霊がいる場合、以下の効果が発動する味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ$"=Cast time: 1.19s.\n►Boosts own M.ATK by $1 for 18s.\n►Boosts P.ATK of allies within 400 range by $2 for 18s.\n►Boosts P.DEF of allies within 400 range by $3 for 18s.\n►Recovers 108 TP for allies within 400 range.\n\nIf there is a [Spirit]:\n►Boosts P.ATK of a single ally by $4 for 18s.\n►Boosts P.CRIT RATE of a single ally by 100 for 18s.
 
 ##UE##
 翠霊杖ルーンスノウ=Jadestaff Rune Snow

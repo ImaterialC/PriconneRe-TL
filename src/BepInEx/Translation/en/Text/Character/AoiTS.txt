@@ -3,8 +3,7 @@
 
 ##UB##
 ヴェノムブラスト=Venom Blast
-目の前の敵１キャラに物理大ダメージを与え、毒状態にし、物理防御力を大ダウンさせる。=Deals large P.DMG to an enemy in front, inflicts Poison, and greatly lowers their P.DEF.
-
+前方の最も遠い敵を中心とした範囲内の敵を行動するたびにダメージを与える毒状態にし、行動速度を小ダウン、物理防御力を特大ダウンさせるフィールドを展開する。=Deploys a field that inflicts enemies within range centered on the farthest enemy in front with Poison that deals damage whenever they act, slightly lowers their action speed, and massively lowers their P.DEF.
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン(\d+)ダメージを与える毒状態にする$"=►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2.\n►Inflicts Poison that deals $3 P.DMG/s for 20s.
 
 ##S1##
@@ -23,13 +22,13 @@ r:"^敵単体の物理防御力を(\d+)ダウン対象が毒または猛毒状�
 
 ##S1+##
 スパイクサークル+=Spiky Circle+
-目の前の敵１キャラを中心に物理ダメージフィールドと物理防御力を小ダウンさせるフィールドを展開する。中心の敵が毒か猛毒状態の場合、フィールドのダメージが増加する。=Deploys a physical damage field and a field that slightly lowers P.DEF centered on an enemy in front. If the target at the center is afflicted with Poison or Venom, the field's damage is increased.
-
+目の前の敵１キャラを中心とした範囲内の敵に物理小ダメージを与え、毒状態にし、物理防御力を小ダウンさせる。発動時既に対象が毒状態だった場合、さらに追加で物理中ダメージを与える。=Deals minor P.DMG to enemies within range centered on an enemy in front, inflicts Poison, and slightly lowers their P.DEF. If the targets are already Poisoned when activated, additionally deals moderate P.DMG.
 r:"^発動時の中心の敵が毒または猛毒状態の時、毎秒(\d+)の物理ダメージを与えるフィールドを展開する発動時の中心の敵が毒または猛毒状態でない時、毎秒(\d+)の物理ダメージを与えるフィールドを展開するフィールド内の敵の物理防御力(\d+)ダウン$"=Cast time: 0.9s.\n►Deploys a field that lowers P.DEF by $3 for 8s.\n\nIf target is not poisoned or venomed:\n►Deploys a field that deals $2 P.DMG/s for 8s.\n\nIf target is poisoned or venomed:\n►Deploys a field that deals $1 P.DMG/s for 8s.
 
 ##S2+##
 アシッドヴァイン+=Acid Vines+
-目の前の敵１キャラの物理防御力を大ダウンさせ、物理大ダメージを与え、自分のＴＰを大回復する。対象が毒か猛毒状態の場合、さらに追加で物理大ダメージを与える。=Greatly lowers the P.DEF of an enemy in front, deals large P.DMG, and greatly recovers own TP. If the target is afflicted with Poison or Venom, additionally deals large P.DMG.
+目の前の敵１キャラを中心とした範囲内の敵に物理大ダメージを与え、物理防御力を小ダウン、受けるクリティカルダメージを小アップさせ、麻痺状態にする。=Deals major P.DMG to enemies within range centered on an enemy in front, slightly lowers their P.DEF, slightly increases the critical damage they receive, and inflicts Paralysis.
+
 r:"^敵単体の物理防御力を(\d+)ダウン対象が毒または猛毒状態の時、敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ自分のＴＰを450回復$"=Cast time: 1.14s.\n►Lowers an enemy's P.DEF by $1 for 12s.\n►If target is poisoned or venomed, deals $2 P.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Recovers own TP by 450.
 
 ##UE##

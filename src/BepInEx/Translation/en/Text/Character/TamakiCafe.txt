@@ -3,7 +3,7 @@
 
 ##UB##
 ねこねこカフェパーティー=Neko-Neko Café Party
-敵全体に物理大ダメージを与え、自分の物理攻撃力を中アップし、自分を中心とした範囲内の味方すべてのＨＰを小回復する。範囲内の味方の人数に応じて、ダメージと物理攻撃力の上昇量が増加する。=Deals large P.DMG to all enemies, moderately boosts own P.ATK, and slightly recovers allies' HP in range. The P.DMG dealt and P.ATK boost increase according to number of allies in range.
+敵全体に物理大ダメージを与え、自分の物理攻撃力を中アップし、自分を中心とした範囲内の味方のＨＰを小回復させる。範囲内の味方の数に応じて、ダメージと物理攻撃力のアップ量が増加する。=Deals major P.DMG to all enemies, moderately boosts own P.ATK, and slightly recovers the HP of allies within range centered on self. Damage and the P.ATK boost increase based on the number of allies within range.
 r:"^敵全体に(\d+)の物理ダメージ範囲内の味方のＨＰを(\d+)回復自分の物理攻撃力を(\d+)アップ$"=►Deals $1 (+0.48×$1×Ally Count) P.DMG to all enemies.\n►Recovers allies' HP in 150 range by $2.\n►Boosts own P.ATK by $3 (+0.2×$3×Ally Count) for 18s.
 
 ##S1##
@@ -13,7 +13,8 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の味方のＴＰを75
 
 ##S2##
 スウィートサービス=Sweet Service
-最も物理攻撃力の高い味方１キャラの傍に移動し、そのキャラを中心とした範囲内の味方すべての物理攻撃力を大アップ、ＨＰを小回復するフィールドを展開する。=Shifts to an other ally with the highest P.ATK, and deploys a field that greatly boosts allies' P.ATK in range and slightly restores their HP.
+最も物理攻撃力が高い味方の傍に移動し、その味方を中心とした範囲内の味方の物理攻撃力を大アップ、ＨＰを小回復させるフィールドを展開する。=Moves next to the ally with the highest P.ATK and deploys a field that greatly boosts the P.ATK and slightly recovers the HP of allies within range centered on that ally.
+
 r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する毎秒ＨＰを(\d+)回復するフィールドを展開する$"=Cast time: 1.05s.\n►Shifts to an other ally with highest P.ATK.\n►Deploys a 150 radius field that boosts P.ATK by $1 for 12s.\n►Deploys a 150 radius field that recovers HP by $2/s for 7.5s.
 
 ##EX##
@@ -22,7 +23,7 @@ r:"^物理攻撃力を(\d+)アップさせるフィールドを展開する毎�
 
 ##S1+##
 ビターエッジ+=Bitter Edge+
-前方の敵すべてに物理中ダメージを与え、自分を中心とした範囲内の味方すべての物理攻撃力を大アップし、ＴＰを小回復させ、自分のＴＰを小回復させる。範囲内の味方の人数に応じて、ダメージと物理攻撃力の上昇量と自分のＴＰの回復量が増加する。=Deals moderate P.DMG to all enemies in front, greatly boosts allies' P.ATK in range, slightly recovers their TP, and recover own TP by a small amount. The P.DMG dealt, P.ATK boost and TP recovery increase according to number of allies in range.
+前方の敵に物理中ダメージを与え、自分を中心とした範囲内の味方の物理攻撃力を大アップ、ＴＰを小回復させ、自分のＴＰを小回復する。範囲内の味方の数に応じて、ダメージと物理攻撃力のアップ量と自分のＴＰの回復量が増加する。=Deals moderate P.DMG to enemies in front, greatly boosts the P.ATK of allies within range centered on self, slightly recovers their TP, and slightly recovers own TP. Damage, the P.ATK boost, and own TP recovery increase based on the number of allies within range.
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の味方のＴＰを75回復自分のＴＰを100回復範囲内の味方の物理攻撃力を(\d+)アップ$"=Cast time: 1.05s.\n►Deals $1 (+0.48×$1×Ally Count) P.DMG to all enemies in front.\n►Recovers allies' TP in 150 range by 75.\n►Recovers own TP by 100 (+10×Ally Count).\n►Boosts allies' P.ATK in 150 range by $2 (+0.2×$2×Ally Count) for 12s.
 
 ##UE##

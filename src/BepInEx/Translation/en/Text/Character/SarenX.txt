@@ -8,8 +8,8 @@
 
 ##UB##
 シールドオブガーデン=Shield of Garden
-前方のランダムな敵キャラに単体物理大ダメージを計３回与え、味方全体の物理・魔法攻撃力を中アップさせ、自分に光の盾を３つ付与する。光の盾は１回ダメージを受ける毎に代わりに１つ破壊され、同時に敵にダメージを与える。=Deals 3 large P.DMG to random front enemies, boosts allies' P.ATK and M.ATK by a moderate amount, and deploys over herself 3 light shields. Each destroyed shield deals P.DMG to an enemy.
-r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ攻撃してきた敵に(\d+)ダメージを与えて消失する光の盾を最大(.)つまで付与する$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.\n►Boosts allies' P.ATK by $4 for 18s.\n►Boosts allies' M.ATK by $5 for 18s.\n►Grants up to $6 [Light Shields] that deal $7 damage to attacking enemies and disappear upon activation.
+前方のランダムな敵に物理大ダメージを与える。これを３回行う。味方全体の物理・魔法攻撃力を中アップさせ、自分に【光の盾】（上限５）を３個付与する。【光の盾】は１回ダメージを受ける毎に代わりに１つ破壊され、同時に敵にダメージを与える。=Deals major P.DMG to a random enemy in front 3 times. Moderately boosts all allies' P.ATK and M.ATK, and grants self 3 [Shield of Light] stacks (max 5). Each time damage is received, 1 [Shield of Light] stack is destroyed instead, simultaneously dealing damage to the enemy.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ攻撃してきた敵に(\d+)ダメージを与えて消失する光の盾を最大(.)つまで付与する$"=►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to a single enemy.\n►Deals $3 P.DMG to a single enemy.\n►Boosts allies' P.ATK by $4 for 18s.\n►Boosts allies' M.ATK by $5 for 18s.\n►Grants up to $6 [Shield of Light] that deal $7 damage to attacking enemies and disappear upon activation.
 
 ##S1##
 アメイジングギフト=Amazing Gift
@@ -25,18 +25,21 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の物理ダメージ
 サイレントブレイズ=Silent Blaze
 サイレントブレイズ+=Silent Blaze+
 
-##S1+##
-アメイジングギフト+=Amazing Gift+
-自分を中心とした範囲内の味方すべての物理攻撃力と魔法攻撃力を特大アップ、物理防御力と魔法防御力を中アップさせ、さらに物理クリティカルと魔法クリティカルを大アップさせる。=Boosts allies' P.ATK and M.ATK in range by a massive amount, moderately boosts allies' P.DEF and M.DEF in range. Also, greatly boosts allies' P.CRIT Rate and M.CRIT Rate in range.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ範囲内の味方の魔法クリティカルを100アップ$"=Cast time: 0.8s.\n►Boosts allies' P.ATK and M.ATK in 350 range by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF in 350 range by $3 for 12s.\n►Boosts allies' P.CRIT Rate and M.CRIT Rate in 350 range by 100 for 12s.
 
 ##UE##
 サレンディアノエルドレス=Sarendia Noel Dress
+##S1+##
+アメイジングギフト+=Amazing Gift+
+自分を中心とした範囲内の味方の物理・魔法攻撃力を特大アップ、物理・魔法防御力を中アップ、物理・魔法クリティカルを大アップさせる。=Massively boosts the P.ATK and M.ATK, moderately boosts the P.DEF and M.DEF, and greatly boosts the P.CRIT RATE and M.CRIT RATE of allies within range centered on self.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の魔法攻撃力を(\d+)アップ範囲内の味方の物理防御力を(\d+)アップ範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ範囲内の味方の魔法クリティカルを100アップ$"=Cast time: 0.8s.\n►Boosts allies' P.ATK and M.ATK in 350 range by $1 for 12s.\n►Boosts allies' P.DEF and M.DEF in 350 range by $3 for 12s.\n►Boosts allies' P.CRIT Rate and M.CRIT Rate in 350 range by 100 for 12s.
 
-##Saren Xmas##
+
+##UE2##
 サレンディアノエルケーキ=Sarendia Christmas Cake
+##S2+##
 ルミナスバレット+=Luminous Bullet+
-目の前の最大３キャラまでの敵に物理中ダメージを与え、物理防御力を小ダウンさせる。さらに、最もＨＰが低い味方１キャラのＨＰを中回復させ、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップさせる。=Deals moderate P.DMG to up to 3 enemies in front and slightly reduces their P.DEF. Additionally, moderately recovers HP of the ally with the lowest HP, massively boosts all allies' P.ATK, greatly boosts P.CRIT RATE, and slightly boosts P.CRIT DMG.
-r:"^１番目に近い敵単体に(\d+)の物理ダメージ１番目に近い敵単体の物理防御力を(\d+)ダウン２番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体の物理防御力を(\d+)ダウン３番目に近い敵単体に(\d+)の物理ダメージ３番目に近い敵単体の物理防御力を(\d+)ダウン味方単体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の物理クリダメを3％アップ$"=►Deals $1 P.DMG to the closest enemy.\n►Lowers the closest enemy's P.DEF by $2.\n►Deals $3 P.DMG to the second closest enemy.\n►Lowers the second closest enemy's P.DEF by $4.\n►Deals $5 P.DMG to the third closest enemy.\n►Lowers the third closest enemy's P.DEF by $6.\n►Restores a single ally's HP by $7.\n►Boosts all allies' P.ATK by $8.\n►Boosts all allies' P.CRIT RATE by 100.\n►Boosts all allies' P.CRIT DMG by 3％.
+目の前の最大３キャラまでの敵に物理中ダメージを与え、物理防御力を小ダウンさせる。最もＨＰが低い味方のＨＰを中回復させ、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理クリティカルダメージを小アップさせる。=Deals moderate P.DMG to up to 3 enemies in front and slightly lowers their P.DEF. Moderately recovers the HP of the ally with the lowest HP, massively boosts all allies' P.ATK, greatly boosts their P.CRIT RATE, and slightly boosts their P.CRIT DMG.
+
+r:"^１番目に近い敵単体に(\d+)の物理ダメージ１番目に近い敵単体の物理防御力を(\d+)ダウン２番目に近い敵単体に(\d+)の物理ダメージ２番目に近い敵単体の物理防御力を(\d+)ダウン３番目に近い敵単体に(\d+)の物理ダメージ３番目に近い敵単体の物理防御力を(\d+)ダウン味方単体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ味方全体の物理クリダメを3％アップ$"=Cast time: 0.8s.\n►Deals $1 P.DMG to the closest enemy.\n►Lowers the closest enemy's P.DEF by $2 for 12s.\n►Deals $3 P.DMG to the second closest enemy.\n►Lowers the second closest enemy's P.DEF by $4 for 12s.\n►Deals $5 P.DMG to the third closest enemy.\n►Lowers the third closest enemy's P.DEF by $6 for 12s.\n►Restores a single ally's HP by $7.\n►Boosts all allies' P.ATK by $8 for 12s.\n►Boosts all allies' P.CRIT RATE by 100 for 12s.\n►Boosts all allies' P.CRIT DMG by 3％ for 12s.
 
 

@@ -13,6 +13,8 @@ r:"^敵全体の受ける物理・魔法ダメージを2％アップ敵全体の
 
 r:"^敵全体が与える物理・魔法ダメージを4％ダウン味方全体の物理・魔法攻撃力を(\d+)アップ味方全体の行動速度100％アップ$"=Cast time: 1.05s.\n►Lowers physical and magical damage dealt by all enemies by 4％ for 12s.\n►Boosts allies' P.ATK and M.ATK by $1 for 12s.\n►Boosts allies' action speed by 100％ for 12s.
 
+r:"^敵全体の与える物理・魔法ダメージを4％ダウン味方全体の物理・魔法攻撃力を(\d+)アップ味方全体の行動速度100％アップ$"=Cast time: 1.05s.\n►Lowers physical and magical damage dealt by all enemies by 4％ for 12s.\n►Boosts allies' P.ATK and M.ATK by $1 for 12s.\n►Boosts allies' action speed by 100％ for 12s.
+
 ##S2##
 エクスプロイト=Exploit
 敵全体の物理・魔法防御力を小ダウン、受けるクリティカルダメージを小アップさせる。味方全体のＴＰを小回復させる。目の前の敵１キャラの弱体効果の種類の数に応じて、ＴＰの回復量が最大５倍まで増加する。=Slightly lowers the P.DEF and M.DEF of all enemies and slightly increases the critical damage they take. Slightly recovers all allies' TP. TP recovery increases by up to 5× based on the number of different debuff types affecting the enemy in front.

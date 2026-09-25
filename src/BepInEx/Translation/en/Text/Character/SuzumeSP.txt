@@ -4,23 +4,29 @@
 
 ##UB##
 ブルーミングサイクロン=Blooming Cyclone
-目の前の敵１キャラに魔法特大ダメージを与える。さらにそのキャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を中ダウン、クリティカルを受けた際のダメージを小アップさせる。=Deals massive M.DMG to an enemy in front. Additionally, deals large M.DMG to enemies in range, moderately lowers their M.DEF, and slightly boosts their M.CRIT DMG taken.
-r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵のクリティカルを受けた際のダメージを5％アップ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to enemies in range.\n►Lowers enemies' M.DEF in range by $3 for 18s.\n►Boosts enemies' M.CRIT DMG taken in range by 5% for 18s.
+目の前の敵１キャラに魔法特大ダメージを与える。その敵を中心とした範囲内の敵に魔法大ダメージを与え、魔法防御力を中ダウン、受けるクリティカルダメージを小アップさせる。=Deals massive M.DMG to an enemy in front. Deals major M.DMG to enemies within range centered on that enemy, moderately lowers their M.DEF, and slightly increases the critical damage they receive.
+r:"^敵単体に(\d+)の魔法ダメージ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを5％アップ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to enemies within 400 range.\n►Lowers M.DEF of enemies within 400 range by $3 for 18s.\n►Boosts CRIT DMG taken by enemies within 400 range by 5% for 18s.
+
 
 ##S1##
 スウィンギングペタル=Swinging Petal
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせる。=Deals large M.DMG to enemies in range, and slightly lowers their M.DEF.
 ## Same as Ranpha
 ##s1+##
+
+
 スウィンギングペタル+=Swinging Petal+
-r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを3％アップ$"=►Deals $1 M.DMG to enemies within range.\n►Lowers enemies' M.DEF within range by $2.\n►Boosts enemies' CRIT DMG taken by 3%.
+目の前の敵１キャラを中心とした範囲内の敵に魔法大ダメージを与え、魔法防御力を小ダウン、受けるクリティカルダメージを小アップさせる。=Deals major M.DMG to enemies within range centered on an enemy in front, slightly lowers their M.DEF, and slightly increases the critical damage they receive.
+
+r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを3％アップ$"=Cast time: 0.66s.\n►Deals $1 M.DMG to enemies within 400 range.\n►Lowers enemies' M.DEF within 400 range by $2 for 12s.\n►Boosts enemies' CRIT DMG taken by 3% for 12s.
 r:"^目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。$"=Deals large M.DMG to all enemies in range (centered on front enemy), slightly lowers M.DEF, and slightly increases CRIT DMG taken.
 サンライトフローラ=Sunlight Flora
 
 ##S2##
 スプリングリース=Spring Wreath
-目の前の敵１キャラを中心とした範囲内の敵すべての物理攻撃力を中ダウン、物理クリティカルを特大ダウン、物理攻撃クリティカル時のダメージを小ダウンさせる。さらに魔法防御力を小ダウン、ＴＰを中ダウンさせる。=Moderately lowers enemies P.ATK in range, greatly lowers their P.CRIT Rate, and slightly lowers their P.CRIT DMG. Additionally, lowers enemies M.DEF in range by a small amount and TP by a moderate amount.
-r:"^範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の物理クリティカルを500ダウン範囲内の敵の物理攻撃クリティカル時のダメージを10％ダウン範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵のＴＰを120失わせる$"=►Lowers enemies P.ATK in range by $1 for 18s.\n►Lowers enemies P.CRIT Rate in range by 500 for 18s.\n►Lowers enemies P.CRIT DMG in range by 10% for 18s.\n►Lowers enemies M.DEF in range by $2 for 18s.\n►Reduces enemies TP in range by 120.
+目の前の敵１キャラを中心とした範囲内の敵の物理クリティカルを特大ダウン、物理攻撃力とＴＰを中ダウン、物理クリティカルダメージと魔法防御力を小ダウンさせる。=Massively lowers the P.CRIT RATE of enemies within range centered on an enemy in front, moderately lowers their P.ATK and TP, and slightly lowers their P.CRIT DMG and M.DEF.
+
+r:"^範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の物理クリティカルを500ダウン範囲内の敵の物理攻撃クリティカル時のダメージを10％ダウン範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵のＴＰを120失わせる$"=Cast time: 0.796s.\n►Lowers P.ATK of enemies within 400 range by $1 for 18s.\n►Lowers P.CRIT RATE of enemies within 400 range by 500 for 18s.\n►Lowers P.CRIT DMG of enemies within 400 range by 10% for 18s.\n►Lowers M.DEF of enemies within 400 range by $2 for 18s.\n►Drains 120 TP from enemies within 400 range.
 
 ##EX##
 ブルームメイデン=Bloom Maiden

@@ -14,8 +14,9 @@
 ピュアリースナイプ+=Purely Snipe+
 自分を中心とした範囲内の味方の物理攻撃力を大アップさせ、さらに目の前の敵１キャラに物理特大ダメージを与える。=Large boost to P.ATK of all allies in 300 range. Deals massive P.DMG to an enemy directly in front.
 
-自分を中心とした範囲内の味方の物理攻撃力を特大アップさせ、自分に物理/魔法無効バリアを展開し、目の前の敵１キャラに物理特大ダメージを与えて物理防御力を大ダウンさせる。攻撃時、自分にバリアが展開されている場合、自分の物理攻撃力を特大アップし、このスキルのダメージは前方の敵すべてが対象になり、物理防御力を一定値無視し、スタンさせる。=Massively boosts P.ATK of allies within a range centered on self, deploys a physical/magic-nullification barrier on self, and deals massive P.DMG to an enemy in front while greatly lowering their P.DEF. When attacking, if a barrier is active on self, massively boosts own P.ATK; this skill’s damage then targets all enemies in front, ignores a fixed amount of P.DEF, and stuns them.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物魔無効バリアを展開する自分の物理攻撃力を(\d+)アップ対象の敵に(\d+)の物理ダメージ\(バリア展開中、物理防御力を50無視する\)対象の敵の物理防御力を(\d+)ダウン対象の敵を一定時間行動不能にする$"=►Boosts P.ATK of allies in range by $1.\n►Deploys Barrier over self that absorbs $2 P/M.DMG for 12s.\n►Boosts own P.ATK by $3 for 12s.\n►Deals $4 P.DMG to target enemy (ignores 50 P.DEF during barrier).\n►Lowers target enemy's P.DEF by $5 for 12s.\n►Inflicts Stun to target enemy for 3s.
+自分を中心とした範囲内の味方の物理攻撃力を特大アップさせ、自分に物理/魔法無効バリアを展開し、目の前の敵１キャラに物理特大ダメージを与え、物理防御力を大ダウンさせる。攻撃時、自分がバリア展開中の場合、さらに自分の物理攻撃力を特大アップし、ダメージは前方の敵が対象になり、物理防御力を一定値無視し、スタンさせる。=Massively boosts the P.ATK of allies within range centered on self, deploys a physical/magic nullification barrier on self, deals massive P.DMG to an enemy in front, and greatly lowers their P.DEF. When attacking, if self has a barrier active, additionally massively boosts own P.ATK, targets enemies in front instead, ignores a fixed amount of P.DEF, and stuns them.
+
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物魔無効バリアを展開する自分の物理攻撃力を(\d+)アップ対象の敵に(\d+)の物理ダメージ\(バリア展開中、物理防御力を50無視する\)対象の敵の物理防御力を(\d+)ダウン対象の敵を一定時間行動不能にする$"=Cast: 0.77s.\n►Boosts P.ATK of allies within 300 range by $1 for 12s.\n►Deploys a Barrier over allies within 300 range that nullifies $2 P.DMG and M.DMG for 12s.\n►Boosts own P.ATK by $3 for 12s.\n►Deals $4 P.DMG to the target enemy.\n►While the Barrier is active, ignores 50 P.DEF.\n►Lowers P.DEF of the target enemy by $5 for 12s.\n►Inflicts Stun to target enemy for 3s.
 
 ##EX##
 ピュアリーブレイブ=Purely Courage
@@ -23,8 +24,8 @@ r:"^範囲内の味方の物理攻撃力を(\d+)アップ(\d+)ダメージ分の
 
 ##S1+##
 ピュアリーエイミング+=Purely Aiming+
-自分を中心とした範囲内の味方の物理攻撃力を大アップ、物理クリティカルを中アップさせ、さらに物理攻撃クリティカル時のダメージを小アップさせる。=Massive boost to P.ATK and moderate boost to P.CRIT Rate of all nearby allies. Also, slightly boosts allies' P.CRIT DMG.
-r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを(\d+)％アップ$"=►Boosts allies' P.ATK by $1 for 18s.\n►Boosts allies' P.CRIT Rate by $2 for 18s.\n►Boosts allies' P.CRIT DMG by $3% for 18s.
+自分を中心とした範囲内の味方の物理攻撃力を大アップ、物理クリティカルを中アップ、物理クリティカルダメージを小アップさせる。=Greatly boosts the P.ATK, moderately boosts the P.CRIT RATE, and slightly boosts the P.CRIT DMG of allies within range centered on self.
+r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ範囲内の味方の物理攻撃クリティカル時のダメージを(\d+)％アップ$"=Cast: 1.27s.\n►Boosts allies' P.ATK by $1 for 18s.\n►Boosts allies' P.CRIT Rate by $2 for 18s.\n►Boosts allies' P.CRIT DMG by $3% for 18s.
 
 ##UE##
 マジカルピュアリーボウ=Magical Purely Bow
