@@ -35,3 +35,12 @@ r:"^自分の魔法攻撃力を(\d+)アップ範囲内の味方の物理攻撃�
 ##UE##
 翠霊杖ルーンスノウ=Jadestaff Rune Snow
 ルーンノエルドレス=Rune-Noel Dress
+
+
+
+
+
+
+アセンションワルツ++=Ascension Waltz++
+最も物理攻撃力が高い味方の物理攻撃力と物理クリティカルを大アップさせる。対象が水属性かつ自分が唱喚した精霊が味方にいる場合、これを６回行い、さらにダメージブーストを大アップさせる。初回発動時、さらに自分のＴＰを特大回復する。=Greatly boosts the P.ATK and P.CRIT RATE of the ally with the highest P.ATK. If the target is Water element and a spirit summoned by self is on the allied side, does this 6 times and additionally greatly boosts damage boost. Upon first activation, additionally massively recovers own TP.
+r:"^味方単体の物理攻撃力を(\d+)アップ味方単体の物理クリティカルを100アップ対象が水属性かつ精霊がいる場合、以上の効果が追加で５回発動する対象が水属性かつ精霊がいる場合、味方単体にダメージブースト50％を付与（上限250万）初回発動時、自分のＴＰを1000回復$"=Cast time: 1.05s.\n►Boosts P.ATK of a single ally by $1 for 12s.\n►Boosts P.CRIT RATE of a single ally by 100 for 12s.\n\nIf the target is Water element and there is a [Spirit], the above effects activate 5 additional times.\n►If the target is Water element and there is a [Spirit], grants a single ally 50% Damage Boost (up to 2,500,000).\n\nUpon first use, recovers 1000 TP.
