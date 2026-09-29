@@ -13,7 +13,6 @@ r:"^味方全体のＨＰを(\d+)回復味方全体の行動速度60％アップ
 ##S2##
 加護ノ破魔矢=Warding Arrow
 
-
 ##S2+##
 加護ノ破魔矢+=Blessed Purifying Arrow+
 味方全体の物理・魔法攻撃力を大アップさせ、物理無効バリアと魔法無効バリアを展開する。=Greatly boosts all allies' P.ATK and M.ATK, and deploys physical and magic nullification barriers.
@@ -29,4 +28,4 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃�
 
 ##UE##
 神殿巫女の鈴飾り=Shrine Maiden's Bell Decoration
-神殿巫女の装束=Shrine Maiden's Costume
+神殿巫女の装束=Shrine Maiden's Attire

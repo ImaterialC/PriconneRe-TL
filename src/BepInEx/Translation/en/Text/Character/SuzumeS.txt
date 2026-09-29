@@ -41,8 +41,6 @@ r:"^ぷちゴーレムを召喚する物理防御力を(\d+)アップさせる�
 
 r:"^範囲内の味方の魔法防御力を(\d+)アップ範囲内の味方の物理・魔法攻撃力を(\d+)アップ範囲内の味方のＨＰを(\d+)回復(\d+)ダメージ分の魔法吸収バリアを展開する$"=Cast: 0.92s.\n►Boosts allies' M.DEF in 600 range by $1 for 18s.\n►Boosts allies' P.ATK and M.ATK in 600 range by $2 for 18s.\n►Recovers HP of allies in 600 range by $3 for 18s.\n►Deploys a magic absorb barrier in 600 range that absorbing $4 M.DMG for 18s.
 
-
-
 ##UE##
 陽杖シャインサンデー=Shining Sunday
 思い出の麦わら帽子=Straw Hat of Memories
