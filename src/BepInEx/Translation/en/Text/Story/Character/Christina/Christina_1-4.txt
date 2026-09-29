@@ -40,7 +40,7 @@
 ますます興味深い。n他人なんぞに毛ほども興味を抱かん『陛下』が、nオマエを名指しで追い回していたのだからな……=How deeply intriguing.\nOur ruler, who has never showed any interest in others,\nwas determined to hunt you down by name...
 本当に、何者なんだ？n答えを聞くまで帰さんぞ。nたぁっぷりお喋りしよう、{playername}くん♪=Who exactly are you, boy? I'm going to need a full answer.\nLet's talk until you're willing to share, my dear {playername}♪
 {playername}はクリスティーナが提案した、体に触れることが出来れば無罪放免になる条件の組み手に挑む。苦戦するも足を滑らせたところをクリスティーナに抱き留められ、無罪放免となるのだった。={playername} takes on the challenge of the condition proposed by Christina that he would be acquitted if he could touch her body. Despite struggling, he slips and is caught by Christina, leading to his acquittal.
-運悪く【王宮騎士団（NIGHTMARE）】にn捕獲された{playername}は、nクリスティーナによって面白半分な尋問をうけていた。=Unluckily captured by the knights of Nightmare,\n{playername} finds himself being interrogated\nfor Christina's entertainment.\n
+運悪く【王宮騎士団（NIGHTMARE）】にn捕獲された{playername}は、nクリスティーナによって面白半分な尋問をうけていた。=Unluckily captured by the Nightmare's\n{playername} finds himself being interrogated\nfor Christina's entertainment.\n
 ふぅむ、記憶喪失ねぇ……いかにも言い訳くさくて嘘っぽいな。n偽証を見抜くような魔法も存在するんだが、n生憎と魔術師や魔法道具の用意がなくてね。=Hmm... Amnesia, you say? What a terribly convenient excuse.\nThere are spells that can expose outright lies,\nbut alas, I do not have the necessary mages or artifacts to hand.\n
 かといって。オマエが自分で【ラビリンス】の関係者である、nという嫌疑を否定する証拠をだすのも難しいだろう。nいつだって、真実を語るよりも嘘をつくほうが簡単なのさ。=On the other hand, it will be most difficult for you to prove\nthat you aren't associated with Labyrinth in any way.\nFalsehoods are always so much easier to produce than the truth.\n
 なので、こうしよう。nこれから簡単なテストをする。nそれにオマエが合格すれば晴れて無罪放免だ、おうちに帰れるぞ。=So how does this sound? I'll give you a simple test.\nIf you successfully pass it, I'll let you go free. All suspicion cleared.\n
@@ -180,8 +180,8 @@
 失礼する。nまた会いにきたよ、坊や。=I'm coming in.\nHow have you been, young lad?\n
 ふふん。n今日はオマエが年下しか愛せない可能性を考えて、nワタシがかわいい幼女だったころの写真を持ってきたよ。=Hahah.\nIt occurred to me that you may be more interested in younger girls,\nso today I've brought some cute photos from my childhood to show you.\n
 すっかり育ってしまったが、子供のころのワタシもワタシだ。nすこしでも、今のワタシに好意を抱くきっかけになればと……む？=I've grown a lot since then, but this is still me, after all.\nPerhaps it will stir some new forms of affection in you... Hmm?
-{playername}くん、nソファに寝っ転がって熟睡しているのか。="It looks as if he's... fast asleep on the sofa
-いつもこの時間にワタシが顔を見せるのだから、n訪れるのを予想して然るべきなのに。=I often come to visit him at this hour,\nso {playername} by rights have expected my arrival...\n
+{playername}くん、nソファに寝っ転がって熟睡しているのか。=It looks as if he's... fast asleep on the sofa?
+いつもこの時間にワタシが顔を見せるのだから、n訪れるのを予想して然るべきなのに。=I often come to visit him at this hour,\nso he {player}d by rights have expected my arrival...\n
 すこしは身構えでもしてくれないと、歯応えがないな。nまぁ鬱陶しがられて、拒絶もされていないようだが。=Where's the fun in mounting an ambush on a completely\nunwitting victim? Though I suppose it at least indicates\nthat he's making no efforts to reject me.\n
 状況が遅々として、思ったように進まないので苛々するな。nいったい何が気に食わないんだろうか、nこんな美女に求婚されているというのに。=Still, our progress has been so slow that it begins to grate.\nWhat cause could he have to hesitate,\nwhen such a gorgeous bride is his for the taking?\n
 おお？　何だ、この光は……？n{playername}くんが、n能力を発動させるときの輝きに似ているようだが？=Oh...? Now what is this light?\nIt reminds me of the glow when {playername}\nactivates his ability...\n
@@ -213,7 +213,7 @@
 ……おっと、もう時間切れだ。nスケジュールをやりくりして三十分ほど余暇をつくったんだがな、nあっさり使いきってしまったよ。=...Oh dear, we're clean out of time.\nI worked hard to free up these thirty minutes in my schedule,\nbut they were over in a flash.\n
 晶に会えなかったのは残念だけど。nまぁ仕事と言い張ってログインすれば、nレジェンド・オブ・アストルムのなかで相まみえることもあるだろう。=It‘s a shame that I couldn't see Akira,\nbut ah well, if I log in during work hours,\nI'm sure I can track her down in Legend of Astrum instead.\n
 我々がつくりあげた、永劫不滅の理想郷でね。=In that undying paradise that we created together.\n
-ではね、ワタシは失礼する。n愉しい時間をありがとう、{playername}くん……nアデュー♪=Well then, I'll be going.\nThank you for the diversion, young {playername}...\nAdieu!♪\n
+ではね、ワタシは失礼する。n愉しい時間をありがとう、{playername}くん……nアデュー♪=Well then, I'll be going.\nThank you for the diversion, young {playername}...\nAdieu! *\n
 あんたが今、見ていたのは夢のようなものよ。n起きたら、ぜんぶ忘れちゃうわ。=Everything you just saw was basically a dream.\nWhen you wake up, you'll forget it all.\n
 な～んて、何度も何度も同じ説明をしてるから面倒になってきたわ。n次からは録音でもして、それを再生することにしようかしら。=Honestly, I'm getting pretty tired of repeating that every time.\nMaybe I'll make a recording, so I can just sit back and replay it.\n
 ともあれ。nあんたって、『あっち』でもあの『誓約女君』と会ってたのね。=Anyway. Looks like you'd met the Regina Geas\n"over there" as well as "here," huh?\n
@@ -229,9 +229,9 @@
 あたしは、そのまま平和な感じに仲良くなってくれたら……nって思うわ。=Myself, I'd like nothing better than if you could keep up\nthat peaceful friendship.
 『前世』では敵対して、潰しあって、n最後まであんたたちの道が交わることはなかったから。=In the old world, you were enemies, bitterly opposed,\nand you never were able to resolve your differences.\n
 今こうして手を繋ぐようにして、一緒に歩いてるのが奇跡みたい。nううん、ほんとに夢みたいだわ。=So it's almost like a miracle that you‘re walking hand in hand.\nIn fact, it's a dream come true.\n
-結婚？　良いじゃないの、nあたしは応援するし祝福するわよ……{playername}♪="And marriage? Well, why not?\nI'd be happy to wish you two all the best!♪"
+結婚？　良いじゃないの、nあたしは応援するし祝福するわよ……{playername}♪=And marriage? Well, why not?\nI'd be happy to wish you two all the best!♪
 どうせ、すべては泡沫の夢……n本来は有り得なかった未来を、n人生を、思いっきり満喫しちゃいなさい。=This is all just a fleeting dream...\nSo this impossible future, this new life, is for you to enjoy as you wish.\n
-それじゃあね、{playername}。\nまた夢で逢いましょう。=I'll see you around, {playername}.\nUntil our next dream together.\n
+それじゃあね、{playername}。nまた夢で逢いましょう。=I'll see you around, {playername}.\nUntil our next dream together.\n
 ……んん？nほんの刹那だが、意識が途切れていたようだな。=...Mmnhh?\nJust for a moment, I feel like I lost consciousness...\n
 それに。何だこれは、知らない記憶が蘇ってくる。n『七冠』、『誓約女君』、『乱数聖域』、【ラウンドテーブル】……=In fact... What's this? I‘m recalling unfamiliar memories.\n"Seven Crowns," "Regina Geas," "Numbers Avalon,"\nthe "Round Table"...\n
 あぁ坊や、オマエとワタシは……n『前世』では敵だったのか？=Ah, young lad. Were you and I... enemies in a past life?\n
