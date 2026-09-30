@@ -2854,3 +2854,25 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 対象が毒状態：麻痺時間アップ=If the target is inflicted with Poison: increases Paralysis duration.
 前から敵１体に猛毒=Inflicts Venom on the foremost enemy.
 周囲の敵全体に行動速度ダウン=Reduces action speed of all nearby enemies.
+
+
+
+
+
+星獣姫・ルクバト=Star Beast Princess: Rukbat
+残りＨＰが最も低い敵１体に挑発=Taunts the enemy with the lowest remaining HP.
+残りＨＰが最も低い敵１体に被クリダメアップ=Increases CRIT DMG taken by the enemy with the lowest remaining HP.
+自身に物理回避=Grants self P.Evasion.
+自身に魔法回避=Grants self M.Evasion.
+対象を倒した場合：自身に【キルストリーク】を20個追加=If the target is defeated: adds 20 [Kill Streak] stacks to self.
+ランダムな敵１体に物理ダメージ=Deals P.DMG to 1 random enemy.
+前から敵１体に与えたダメージが高いほど：ダメージアップ=The higher the damage dealt to the foremost enemy: the greater the damage.
+敵全体に魔法クリティカルダメージ=Deals M.CRIT DMG to all enemies.
+前から敵１体に魔法クリティカルダメージ=Deals M.CRIT DMG to the foremost enemy.
+自身の【キルストリーク】を１個減少=Reduces own [Kill Streak] by 1 stack.
+【クリティカルダメージを受けた時発動】=[Activates when receiving CRIT DMG]
+自身に【キルストリーク】を10個追加=Adds 10 [Kill Streak] stacks to self.
+【クリティカルダメージを与えた時発動】=[Activates when dealing CRIT DMG]
+【キルストリーク】の数が多いほど：自身の物理／魔法クリダメアップ=The more [Kill Streak] stacks, the greater own P.CRIT DMG and M.CRIT DMG.
+物理攻撃をする敵と魔法攻撃をする敵の数に応じて行動パターン変化=Action pattern changes according to the number of enemies that use physical attacks and magic attacks.
+外宇宙から襲来せし、射手座の星獣姫。神出鬼没な動きで死角を消し去り、終焉を告げる銃声が響くとき獲物は既に死を刻まれている。=The Star Beast Princess of Sagittarius, who has invaded from outer space. With her elusive movements, she eliminates all blind spots, and when the gunshot heralding the end rings out, her prey has already been marked for death.

@@ -1,0 +1,31 @@
+【物理】中衛で、敵影に照準を定める戦場のサレンママ。７種以上の弱体効果があれば更に効果が増すスキルで敵の装甲に風穴を開け、臨機応変の戦術で窮地を逆手に取る。=[Physical] Saren Mama on the battlefield, taking aim at enemy silhouettes from the middle position. Her skills become even more effective when 7 or more types of debuffs are active, punching holes through enemy armor and turning dire situations to her advantage with adaptive tactics.
+
+##UB##
+ナイトフォールストレイフ=Nightfall Strafe
+目の前の敵１キャラに物理特大ダメージを２回与え、物理防御力を小ダウンさせる。発動時既に対象の弱体効果が７種類以上だった場合、物理防御力のダウン量が増加し、さらに受けるクリティカルダメージを小アップさせ、自分を中心とした範囲内の味方に物理無効バリアを展開する。=Deals massive P.DMG to an enemy in front 2 times and slightly lowers their P.DEF. If the target already has 7 or more types of debuffs when activated, increases the amount of P.DEF reduction, additionally slightly increases the critical damage they receive, and deploys a physical nullification barrier on allies within range centered on self.
+r:"^敵単体に(\d+)の物理ダメージを２回与える敵単体の物理防御力を(\d+)ダウン対象の弱体効果が７種類以上の場合、以下の効果が発動する(\d+)ダメージ分の物理無効バリアを展開する敵単体の被クリダメを9％アップ$"=►Deals $1 P.DMG to a single enemy 2 times.\n►Lowers P.DEF of a single enemy by $2 for 18s.\n\nIf the target has 7 or more debuffs:\n►Deploys a Barrier that nullifies $3 P.DMG for 18s.\n►Boosts CRIT DMG taken by a single enemy by 9% for 18s.
+
+
+##S1##
+ラピッドエレガント=Rapid Elegant
+目の前の敵１キャラに物理大ダメージを２回与え、物理防御力を小ダウン、受けるクリティカルダメージを小アップさせる。発動時既に対象の弱体効果が７種類以上だった場合、物理防御力のダウン量が増加する。=Deals major P.DMG to an enemy in front 2 times, slightly lowers their P.DEF, and slightly increases the critical damage they receive. If the target already has 7 or more types of debuffs when activated, increases the amount of P.DEF reduction.
+r:"^敵単体に(\d+)の物理ダメージを２回与える敵単体の物理防御力を(\d+)ダウン敵単体の被クリダメを6％アップ$"=Cast time: 1.05s.\n►Deals $1 P.DMG to a single enemy 2 times.\n►Lowers P.DEF of a single enemy by $2 for 12s.\n►Boosts CRIT DMG taken by a single enemy by 6% for 12s.
+
+
+##S2##
+イルミネートフレア=Illuminate Flare
+目の前の敵１キャラをスタンさせ、暗闇状態にし、物理攻撃力を大ダウンさせる。自分の物理攻撃力を大アップ、物理クリティカルダメージを小アップ、ＴＰを大回復する。発動時既に目の前の敵の弱体効果が７種類以上だった場合、物理攻撃力と物理クリティカルダメージのアップ量が増加し、さらに自分を中心とした範囲内の闇属性の味方のＴＰを小回復させる。=Stuns an enemy in front, inflicts Blind, and greatly lowers their P.ATK. Greatly boosts own P.ATK, slightly boosts P.CRIT DMG, and greatly recovers TP. If the enemy in front already has 7 or more types of debuffs when activated, increases the P.ATK and P.CRIT DMG boost values, and additionally slightly recovers the TP of Dark-element allies within range centered on self.
+r:"^敵単体を一定時間行動不能にする敵単体を暗闇状態にする敵単体の物理攻撃力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ自分の物理クリダメを9％アップ自分のＴＰを300回復対象の敵の弱体効果が７種類以上の場合、範囲内の闇属性の味方のＴＰを100回復$"=Cast time: 1.05s.\n►Inflict Stun on the nearest enemy for 3s.\n►Inflicts Darkness on a single enemy for 8s.\n►Lowers P.ATK of a single enemy by $1 for 18s.\n►Boosts own P.ATK by $2 for 18s.\n►Boosts own P.CRIT DMG by 9% for 18s.\n►Recovers 300 TP.\n\nIf the target enemy has 7 or more debuffs:\n►Recovers 100 TP for Dark allies within range.
+
+
+##EX##
+スピンコック=Spin Cock
+スピンコック+=Spin Cock+
+
+##SP1##
+カウンタースナイプ=Counter Snipe
+敵から攻撃を受けた時に発動し、その敵に物理中ダメージを与え、回避を大ダウンさせる。このスキルは必ずクリティカルし、発動後一定時間発動しない。=Activates when attacked by an enemy, dealing moderate P.DMG to that enemy and greatly lowering their evasion. This skill always critically hits and cannot activate again for a set period after activation.
+r:"^自分を攻撃した敵に(\d+)の物理ダメージ自分を攻撃した敵の回避を(\d+)ダウン$"=Cast time: 1.05s.\n►Deals $1 P.DMG to the enemy that attacks self.\n►Lowers the evasion of the enemy that attacks self by $2 for 180s.
+
+
+

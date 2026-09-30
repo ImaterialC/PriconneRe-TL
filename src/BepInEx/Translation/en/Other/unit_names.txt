@@ -117,6 +117,7 @@
 ティア=Tia
 アグライア=Aglaia
 エウロス=Euros
+ルクバト=Rukbat
 
 リーザ・フレイヤ=Lisa Freyja
 アルシャト=Alshat
@@ -665,3 +666,8 @@
 クローチェ（サブマリン）=Croce(Submarine);Croche(Submarine);Crotch(Submarine);SCroce;SCroche;SCrotch;Submarine;Sukumizu
 リンド（ヴァルムドラッヘ）=Lind(Warmdrache);WLind
 ヴルム（ヴァルムドラッヘ）=Wyrm(Warmdrache);Wurm(Warmdrache);WWyrm;WWurm
+
+
+
+サレン（ガンナー）=Saren(Gunner);Gsaren;mama;Gunner
+アメス（ガンナー）=Ameth(Gunner);Ames(Gunner);GAmeth;GAmes;Gunner

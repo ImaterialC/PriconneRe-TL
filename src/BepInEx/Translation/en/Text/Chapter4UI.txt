@@ -1,0 +1,97 @@
+
+r:"^在庫数:([0-9∞]+)$"=Stock: $1
+
+
+NPC
+4部メインクエストをクリアすると、\n報酬としてEX装備作成や錬成に必要なアイテムを獲得できますよ。\nEX装備を集めてキャラを強化いたしましょう。=By clearing Part 4 Main Quests,\nyou can obtain items required to Craft and synthesize EX Equipment as rewards.\nCollect EX Equipment to strengthen your characters.
+見事★3クリアを達成したクエストはスキップができます。\nゾディアックチケットを使うとスタミナを消費せずに\nスキップできますので、★3クリアを目指しましょう。=Quests cleared with a ★3 rating can be skipped.\nUsing Zodiac Tickets allows you to skip quests without consuming Stamina,\nso aim for ★3 clears.
+主さま。アイテムを獲得しましたので、\nEX装備の作成にまいりましょう。=My lord. Now that we've obtained the items,\nlet's Craft some EX Equipment.
+
+新たな敵の出現により風の大精霊の力が暴走し、ランドソルは無数の竜巻に襲われていた。通信が安定しない中でテーセウス号からモニタリングするこころは、先行している{playername}に情報を伝えるため捜索を続けるのだった。=With the appearance of a new enemy, the power of the Great Wind Spirit ran wild, and Landosol was being ravaged by countless tornadoes. As communications remained unstable, Kokoro continued searching from the Theseus, monitoring the situation and trying to relay information to {playername}, who had gone ahead.
+『……これは……\n魔力による竜巻が、いくつも荒れ狂っておりますね。\nテーセウス号からの[rub:モニター]観察[/rub]では正確な分析とはいきませんが……ふむ……』="...This is...\nThere are numerous tornadoes raging with magical power.\nI cannot make an accurate analysis through [rub:monitor]observation[/rub] from the Theseus, but... hmm..."
+『……風の大精霊さまが、ご乱心を──いえ。\nもしや新たな“敵”によって、操られてしまっているのでしょうか？\nセキュリティ上、そのようなことはありえないはずなのですが……』="...The Great Wind Spirit has gone mad──no.\nCould it be that it is being controlled by the new "enemy"?\nThat shouldn't be possible from a security standpoint, though..."
+『……ノイズがひどく、接続が不安定ですね……\nしかし一刻も早く、主さまたちを捜し出し、情報を共有しなくては』="...The interference is severe, and the connection is unstable...\nBut we must find my lord and the others and share the information as soon as possible."
+『……こちらのエリアを攻略することで、\n新たな装備の獲得や、強化が可能なことなども──……』="...By clearing this area,\nyou will be able to obtain and strengthen new equipment as well──..."
+
+4部メインクエストで獲得したアイテムを使って、\nゾディアックシリーズEX装備が作成できます。\n同じEX装備を集めればさらに、超越錬醒をすることができますよ。=Using items obtained from Part 4 Main Quests,\nyou can Craft Zodiac Series EX Equipment.\nCollecting the same EX Equipment also allows you to perform Transcendent Awakening.
+EX装備をセットし、さまざまなエリアボーナスを獲得できましたね。\nでは、練習はこれにて終了でございます。\n実際にEX装備を身につけてから、クエストに挑戦いたしましょう。=You've equipped EX Equipment and gained various Area Bonuses.\nThat concludes the practice.\nNow, equip EX Equipment and challenge the quest for real.
+ゾディアックシリーズのEX装備は、\n装備カテゴリが異なっても強力なエリアボーナスが獲得できます。\n忘れずにセットしてから、クエストに挑戦いたしましょう。=Zodiac Series EX Equipment grants powerful Area Bonuses even when the equipment category is different.\nDon't forget to equip it before challenging quests.
+
+
+
+
+
+Item
+ステラミネーラ・アレス=Stella Minera Ares
+射手座の星彩片=Sagittarius Starlight Fragment
+sr:"^(.+?)の星彩片$"=$1 Starlight Fragment
+
+Quest?
+エリア初回報酬受け取り=Claim Area First-Clear Reward
+
+UI
+アイテム作成=Craft Item
+作成する=Craft
+
+
+sr:"^(.+?)を(\d+)個作成します。\nよろしいですか？$"=Craft $2 $1.\nAre you sure?
+sr:"^(.+?)を(\d+)個作成しよう$"=Craft $2 $1
+作成アイテム受け取り=Claim Crafted Item
+まとめてスキップ使用チケット確認=Confirm Tickets for Bulk Skip
+使用するチケットを選択してください。=Select the tickets to use.
+
+
+アイテム作成に必要な素材が不足しています。=You do not have enough materials required to craft the item.
+
+
+Quest
+4部メインクエストミッション=Part 4 Main Quest Missions
+暴風のランドソル=Stormy Landosol
+人馬弓カウス・メディアを1個作成しよう=Craft 1 Sagittarius Bow Caus Media
+人馬環アルナスル《R》を1個作成しよう=Craft 1 Sagittarius Ring Alnasl 《R》
+人馬衣アルカブ《R》を1個作成しよう=Craft 1 Sagittarius Garb Alkaid 《R》
+開催中のミッションがありません。=There are no active missions.
+
+sr:"^(.+?) (ボスバトル|[a-zA-Z\-0-9]+)(（.+）)?クリアで解放$"=Unlocked by clearing $1 $2$3
+
+sr:"^(.+?)(ボスバトル|[a-zA-Z\-0-9]+)(（.+）)?をクリアしよう$"=Clear $1 $2$3
+
+sr:"^(.+?)のクエストを(\d+)回クリアしよう$"=Clear a $1 quest $2 time(s)
+sr:"^(.+?) ([a-zA-Z\-0-9]+)をクリアしよう$"=Clear $1 $2
+
+sr:"^(.+?)のクエストを(\d+)回スキップしよう$"=Skip $1 quest $2 time(s)
+
+sr:"^(.+?)のEX装備を(\d+)個以上装備して(.+?)のクエストをクリアしよう$"=Clear a $3 quest while equipping at least $2 $1 EX Equipment
+
+
+sr:"^(.+?) ボスバトル（(.+)）を(.)属性(\d)人編成でクリアしよう$"=Clear $1 Boss Battle ($2) with a party of $4 $3-type characters
+sr:"^(.+?) ボスバトル（(.+)）を([0-9:]+)以上残してクリアしよう$"=Clear $1 Boss Battle ($2) with at least $3 remaining
+
+牡羊座=Aries
+牡牛座=Taurus
+双子座=Gemini
+蟹座=Cancer
+獅子座=Leo
+乙女座=Virgo
+天秤座=Libra
+蠍座=Scorpio
+射手座=Sagittarius
+山羊座=Capricorn
+水瓶座=Aquarius
+魚座=Pisces
+
+
+4部メインクエスト 暴風のランドソル=Part 4 Main Quest: Stormy Landosol
+
+
+初回消費なし=No Cost for 1st
+オート進行が設定されています。=Auto Progress is enabled.
+ゾディアックシリーズのEX装備を装着すると、\nドロップ率アップなどのエリアボーナスを獲得できます。\nまずはEX装備を身に着ける練習をしてみましょう。=Equipping Zodiac Series EX Equipment grants Area Bonuses such as increased Drop Rate.\nFirst, let's practice equipping EX Equipment.
+装備カテゴリが異なるゾディアックシリーズEX装備もセットできますが\nこの場合はエリアボーナスのみが発動し、\nスキルやサブステータスは発動いたしませんのでご注意くださいまし。=You can also equip Zodiac Series EX Equipment from different equipment categories,\nbut in this case, only the Area Bonuses will activate,\nwhile the skills and Sub Stats will not activate, so please be careful.
+
+
+
+
+
+
+第4部 第1章 エンディング=Part 4 Chapter 1: The Ending

@@ -4,6 +4,11 @@
 オート進行設定中=Auto Advance Setting
 主さま、オート進行が使えるようになりましたよ。\nオート進行はまだクリアしていないイベントクエストで使用できます。\nクエストの攻略が便利になりますので、さっそく使ってみましょう。=My Lord, the advance of the Auto Advance is now available. Auto Advance can be used in event quests that have not been cleared yet. Quest capture will be convenient, so let's use it immediately.
 
+4部メインストーリー解放時にオート進行を停止するか設定します。=Configure whether to stop Auto Advance when Part 4 Main Story is unlocked.
+4部メインストーリー解放時のオート進行停止設定=Auto Advance Stop Settings When Part 4 Main Story is Unlocked
+合計消費マナ=Total Mana Cost
+
+
 停止する=Stop
 停止しない=Don't
 合計消費スタミナ=Total Consumption Stamina
@@ -23,12 +28,12 @@ sr:"^オート進行で(メイン|イベント)(前編|後編|中編)?クエス�
 
 敗北のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Due to defeat, Auto-Advance has been suspended. The following Stamina consumption has been carried out according to this Auto-Advance. \n※This does not include stamina consumed from retreats or defeats.
 
-スタミナ不足のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to insufficient stamina.\nThe following stamina was consumed during this auto progression.\n※This does not include stamina consumed from retreats or defeats.
+スタミナ不足のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to insufficient stamina.\nThe following stamina was consumed during this auto Advanceion.\n※This does not include stamina consumed from retreats or defeats.
 
 ☆3クリア未達成のためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has stopped due to not achieving a 3☆ clear.\nThe following stamina was consumed during this Auto Advance.\n※This does not include stamina consumed from retreats or defeats.
 
 
-最終クエストのためオート進行を終了しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has ended due to reaching the final quest.\nThe following stamina has already been consumed during this auto-progress session.\nThis does not include stamina consumed from retreats or defeats.
+最終クエストのためオート進行を終了しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has ended due to reaching the final quest.\nThe following stamina has already been consumed during this auto-Advance session.\nThis does not include stamina consumed from retreats or defeats.
 
 プレイヤーLvアップのためオート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=Auto Advance has been paused due to Player Level up.\nThe following stamina has already been consumed during this Auto Advance session.\n※This does not include stamina consumed from retreats or defeats.
 
@@ -62,7 +67,7 @@ r:"^信頼度エピソードが\n(\d+)[つ個]解放されました。$"=$1 Inti
 キャラクターストーリー解放=Character Story Unlock
 sr:"^([べ-ヺー＆＝]+)の\n絆ランクが(\d+)になりました。$"=$1\nThe bond rank is $2.
 
-特別なコンテンツの解放のため、オート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=For unlocking special content, auto-progress has been stopped.\nThe following stamina consumption has been executed by this auto-progress.\n※ Stamina consumption during retreat or defeat is not included.
+特別なコンテンツの解放のため、オート進行を停止しました。\n本オート進行により以下のスタミナ消費は実行されています。\n※リタイア、敗北時のスタミナ消費は含まれていません。=For unlocking special content, auto-Advance has been stopped.\nThe following stamina consumption has been executed by this auto-Advance.\n※ Stamina consumption during retreat or defeat is not included.
 
 
 最小=Min
@@ -74,7 +79,7 @@ sr:"^([べ-ヺー＆＝]+)の\n絆ランクが(\d+)になりました。$"=$1\nT
 挑戦回数上限設定=Skip amount setting
 自動選択しない=Do not auto select
 
-主さま、オート進行が使えるようになりましたよ。\nオート進行はまだクリアしていないメインクエストで使用できます。=My Lord, the progress of the Auto Advance is now available. Auto Advance can be used in the main quest that has not been cleared yet.
+主さま、オート進行が使えるようになりましたよ。\nオート進行はまだクリアしていないメインクエストで使用できます。=My Lord, the Advance of the Auto Advance is now available. Auto Advance can be used in the main quest that has not been cleared yet.
 オート進行中の各条件は主さまお好みの設定ができるようです。\nクエストの攻略が便利になりますので、さっそく使ってみましょう。=Each condition during the Auto Advance seems to be able to set your favorite Main. Quest capture will be convenient, so let's use it immediately.
 
 クエストクリアごとの最大消費マナ=Max Mana Consumption per Quest Cleared
@@ -89,7 +94,7 @@ BOSS出現クエスト直前=Before the BOSS
 ストーリー解放時=Unlock the story 
 ☆3クリア未達成時の停止設定=Stop setting when ☆3 clearing has not been achieved
 ☆3クリアが出来なかった場合にオート進行を停止するか設定します。=Set to stop the Auto Advance, If cannot ☆3 clear.
-スタミナが不足するまでクエストをオートで進行します。オート進行中に回復したスタミナも消費します。=The quest will progress automatically until you run out of stamina.\nAlso consumes stamina recovered during auto progress.
+スタミナが不足するまでクエストをオートで進行します。オート進行中に回復したスタミナも消費します。=The quest will Advance automatically until you run out of stamina.\nAlso consumes stamina recovered during auto Advance.
 特別なコンテンツが解放された場合、オート進行が停止する場合があります。=Stop Auto Advance when special content is unlocked.
 バトル中のボス会話をスキップするか設定します。=Skip or set the boss conversation in the battle.
 ボスバトル時会話のスキップ設定=Skip setting of conversation during boss battles

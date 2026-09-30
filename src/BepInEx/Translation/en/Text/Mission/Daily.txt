@@ -8,6 +8,7 @@
 共通 =Common
 達成状況=Completion
 期限=EoD
+r:"^期限([0-9：:]+)$"=EoD$1
 獲得した報酬はありません=No rewards earned
 
 獲得したプレイヤー経験値はダンジョンコインに変換されました。=Player Exp points earned have been converted\ninto Dungeon Coins.

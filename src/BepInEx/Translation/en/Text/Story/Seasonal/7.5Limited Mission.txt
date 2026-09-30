@@ -33,6 +33,7 @@ r:"^メインストーリー第(\d+)部のミッション報酬を全て受け�
 sr:"^(.+)を限界突破しよう$"=Limit Break $1
 r:"^メインストーリー第(\d+)部第(\d+)章をすべて閲覧しよう$"=View the entire Main Story Part $1 Chapter $2
 
+r:"^第(\d+)部第(\d+)章$"=Part $1 Chapter $2
 
 r:"^深域クエストでいずれかの属性の(.+?)をクリアしよう$"=Clear $1 of any element in Deep Region Quests.
 煉獄のリベリオンをクリアしよう=Clear Purgatory Rebellion
