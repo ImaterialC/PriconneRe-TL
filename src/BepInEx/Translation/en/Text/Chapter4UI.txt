@@ -1,6 +1,6 @@
 
 r:"^在庫数:([0-9∞]+)$"=Stock: $1
-
+r:"^暴風のランドソル([0-9\-\(\)A-Za-z （）]*?)$"=Stormy Landosol $1
 
 NPC
 4部メインクエストをクリアすると、\n報酬としてEX装備作成や錬成に必要なアイテムを獲得できますよ。\nEX装備を集めてキャラを強化いたしましょう。=By clearing Part 4 Main Quests,\nyou can obtain items required to Craft and synthesize EX Equipment as rewards.\nCollect EX Equipment to strengthen your characters.
@@ -95,3 +95,91 @@ sr:"^(.+?) ボスバトル（(.+)）を([0-9:]+)以上残してクリアしよ�
 
 
 第4部 第1章 エンディング=Part 4 Chapter 1: The Ending
+クリア数=Clear Count
+オート進行を停止しますか？=Stop Auto Progress?
+4部メインクエストのボスバトルを10回クリアしよう=Clear Part 4 Main Quest Boss Battles 10 times
+4部メインクエストのボスバトルを20回クリアしよう=Clear Part 4 Main Quest Boss Battles 20 times
+暴風のランドソル H-3=Stormy Landosol H-3
+射手座のEX装備を15個装備して暴風のランドソルのクエストをクリアしよう=Clear a Stormy Landosol quest while equipping 15 Sagittarius EX Equipment
+4部クエスト=Part 4 Quests
+メイン(4部含む)・イベント・サイドいずれか=Any Main (including Part 4), Event, or Side Quest
+メインストーリー第4部 第1章 エンディングを閲覧しよう=View the ending of Part 4, Chapter 1 of the Main Story
+
+
+
+
+クリア数=Clear Count
+オート進行を停止しますか？=Stop Auto Progress?
+4部メインクエストのボスバトルを10回クリアしよう=Clear Part 4 Main Quest Boss Battles 10 times
+4部メインクエストのボスバトルを20回クリアしよう=Clear Part 4 Main Quest Boss Battles 20 times
+暴風のランドソル H-3=Stormy Landosol H-3
+射手座のEX装備を15個装備して暴風のランドソルのクエストをクリアしよう=Clear a Stormy Landosol quest while equipping 15 Sagittarius EX Equipment
+4部クエスト=Part 4 Quests
+メイン(4部含む)・イベント・サイドいずれか=Any Main (including Part 4), Event, or Side Quest
+メインストーリー第4部 第1章 エンディングを閲覧しよう=View the ending of Part 4, Chapter 1 of the Main Story
+この装備の超越錬醒は今後登場予定です。=Transcendent Awakening for this equipment will be introduced in the future.
+超越錬醒1段階目で解放されます。=Unlocked at Transcendent Awakening Stage 1.
+さらに超越錬醒=Further Transcendent Awakening
+超越錬醒する=Perform Transcendent Awakening
+EX装備 超越錬醒=EX Equipment Transcendent Awakening
+超越錬醒{0}段階目で解放されます。=Unlocked at Transcendent Awakening Stage {0}.
+消費素材=Materials Consumed
+選択されていません。=Not Selected.
+錬醒済み=Awakened
+素材選択中=Selecting Materials
+アイテムとマナが不足しています。=You do not have enough items and Mana.
+闇属性スキルダメアップⅠ=Dark Attribute Skill DMG Up I
+使用する素材を選択=Select Materials to Use
+同じ装備を使用=Use the Same Equipment
+EX★５装備に『超越錬醒』が解放されました。\n超越錬醒を進めるとステータスアップや超越スキルの獲得ができます。\nEX★５装備やアイテムを集めて、パワーアップしてまいりましょう。='Transcendent Awakening' has been unlocked for EX★5 Equipment.\nProgressing through Transcendent Awakening increases stats and grants Transcendent Skills.\nCollect EX★5 Equipment and items to power up.
+EX装備 超越錬醒1段階目=EX Equipment Transcendent Awakening Stage 1
+EX装備 超越錬醒 使用装備選択=EX Equipment Transcendent Awakening: Select Equipment to Use
+特別な強化がされている装備が選択されています。=Equipment with special enhancements is selected.
+火属性スキルダメアップⅠ=Fire Attribute Skill DMG Up I
+消費素材に特別な強化がされている装備が含まれています。=The materials consumed include equipment with special enhancements.
+前の段階の使用素材が確定されていません。=The materials to use for the previous stage have not been confirmed.
+装備者が火属性の場合、バトル開始後90秒間自分\nの物理クリティカルと物理攻撃クリティカル時の\nダメージを10％アップさせる。=If the wearer is Fire-type, increases own P.CRIT RATE and P.CRIT DMG by 10% for 90 seconds after battle starts.
+一部のEX装備を超越錬醒する際に必要\nな、外宇宙からもたらされし黄色の鋳\n塊。=A yellow ingot brought from outer space, required for performing Transcendent Awakening on certain EX Equipment.
+ステラインゴット・カペラ=Stella Ingot Capella
+彼方より来訪せし射手座の星獣姫の力を\n宿した結晶塊。根源を等しくする武具の\n鍛錬に用いることで、秘められた星海の\n力を解き放つ。=A crystal ingot imbued with the power of the Sagittarius Star Beast Princess who came from beyond. Using it to forge equipment of the same origin unleashes the hidden power of the starry sea.
+射手座の星彩塊=Sagittarius Starlight Crystal
+一部のEX装備を超越錬醒する際に必要\nな、外宇宙からもたらされし赤色の鋳\n塊。=A red ingot brought from outer space, required for performing Transcendent Awakening on certain EX Equipment.
+ステラインゴット・アレス=Stella Ingot Ares
+一部のEX装備を超越錬醒する際に必要\nな、外宇宙からもたらされし青色の鋳\n塊。=A blue ingot brought from outer space, required for performing Transcendent Awakening on certain EX Equipment.
+ステラインゴット・リゲル=Stella Ingot Rigel
+上記以外のアイテムも出現する場合があります。=Other items not listed above may also appear.
+以下のアイテムを入手できます。=You can obtain the following items.
+属性なし=No Attribute
+使用する素材を選択してください。=Select the materials to use.
+使用するチケットの枚数を選択して下さい。=Select the number of tickets to use.
+エリアボーナス=Area Bonuses
+超越錬醒回数=Transcendent Awakening Count
+超越スキルあり=Transcendent Skill Available
+
+スキップチケットを消費してクエストを\n実行します。よろしいですか？=Consume Skip Tickets to\nperform the quest. Are you sure?
+メイン(4部含む)・イベントクエストを10回クリアしよう=Clear Main (including Part 4) or Event Quests 10 times
+メイン(4部含む)・イベントクエストを20回クリアしよう=Clear Main (including Part 4) or Event Quests 20 times
+ゾディアックチケットを消費して、以下のクエストを実行します。よろしいですか？=Consume Zodiac Tickets to perform the following quests. Are you sure?
+チケット不足のため実行できないクエストがあります。=Some quests cannot be performed due to insufficient tickets.
+ゾディアックチケット確認=Confirm Zodiac Tickets
+ゾディアックチケットを消費してクエストを\n実行します。よろしいですか？=Consume Zodiac Tickets to\nperform the quest. Are you sure?
+メイン・4部メイン・イベント・サイドのクエストを合計10回クリアしよう=Clear a total of 10 Main, Part 4 Main, Event, or Side Quests
+メイン・4部メイン・イベント・サイドのクエストを合計20回クリアしよう=Clear a total of 20 Main, Part 4 Main, Event, or Side Quests
+メイン・4部メイン・イベント・サイドのH・VHを合計3回クリアしよう=Clear a total of 3 H or VH Main, Part 4 Main, Event, or Side Quests
+
+
+
+ゾディアックチケット詳細=Zodiac Ticket Details
+r:"^あと(\d+)時間(\d+)分後に\n?ゾディアックチケットを(\d+)枚獲得$"=Obtain $3 Zodiac Tickets in $1h $2m.
+r:"^あと(\d+)分後に\n?ゾディアックチケットを(\d+)枚獲得$"=Obtain $2 Zodiac Tickets in $1m.
+ゾディアックチケットは所持上限を超えて付与されません。=Zodiac Tickets will not be granted beyond the possession limit.
+シナツの極うな重　韋駄天仕上げ=Shinatsu's Ultimate Unaju: Idaten Style
+胃に入れば何でも同じ、が信条のシナツが自分で\n釣った鰻で拵えたうな重。レイの協力のもと練習\nを重ね、見た目も味も合格点に到達した。一番\n苦労したのは調理場を破壊しない力加減だとか。=An unaju made by Shinatsu using an eel she caught herself. Shinatsu's motto is that everything is the same once it reaches your stomach. With Rei's help, she practiced repeatedly until both its appearance and taste reached passing marks. Apparently, the hardest part was controlling her strength so she wouldn't destroy the kitchen.
+スキップの実行、またはダイスか料理を\n使用する前であれば画面右上より再度開けます。=You can reopen this from the top right of the screen before performing a skip or using a die or dish.
+
+
+
+第4部開幕記念=Part 4 Launch Celebration
+敵全体に物理／魔法攻撃力ダウン（飛行効果無視・必中）=Lowers the P.ATK/M.ATK of all enemies (ignores Flying effects; guaranteed to hit)
+敵全体に物理割合ダメージ（飛行効果無視・ＴＰ回復不可）=Deals percentage P.DMG to all enemies (ignores Flying effects; TP cannot be restored)
+
