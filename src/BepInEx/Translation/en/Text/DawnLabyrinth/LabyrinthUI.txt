@@ -16,6 +16,11 @@ r:"^残り(\d+)セット購入可能！$"=Only $1 set left!
 「トゥインクルブレス」の迷宮遺物効果により、\nバトル結果が敗北から勝利へと変更されました。=Due to the Labyrinth Relic effect of "Twinkle Breath",\n the battle result has changed from defeat to victory.
 
 
+迷宮遺物使用=Use Labyrinth Relic
+迷宮遺物発動=Activate Labyrinth Relic
+発動する=Activate
+[3C404E]「トゥインクルブレス」の迷宮遺物効果を発動して\nバトル結果を敗北から勝利へと変更します。\nよろしいですか？[-][FF7C4E,D62146]（一度きり）[-]=[3C404E]Activate the Labyrinth Relic effect of "Twinkle Breath" to\nchange the battle result from defeat to victory.\nAre you sure?[-][FF7C4E,D62146](One-time use only)[-]
+
 挑戦を終了してラビリンスTOPに戻りますか？\n\n※「撤退する」を選択すると、報酬が獲得できない\n代わりにラビリンスパスポートが返却されます。=Would you like to end the challenge and return to the Labyrinth TOP?\n\n※If you select "Withdraw", you will not receive any rewards.\nInstead, your Labyrinth Passport will be returned to you.
 
 有効効果=Recommended

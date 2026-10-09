@@ -14,8 +14,11 @@ r:"^あと (\d+)$"=remaining $1
 [3C404E]残り挑戦回数が0になりました。\n回復しますか?[-]=[3C404E]Your remaining attempts have reached 0.\nRestore?
 ジュエルを消費して、以下のクエストの\n残り挑戦回数をまとめて回復します。\nよろしいですか？=Consume Jewels and restore the number of remaining attempts of the following quests collectively.\nIs this OK?
 r:"^\[3C404E\]現在、撃破数が(\d+)体に設定されています。\n設定をリセットし、撃破数を1体に戻しますか？\[-\]$"=[3C404E]The number of skip tickets to use\nis currently set at $1.\nReset this number to 1? [-]
-r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定されています。\n設定をリセットし、消費枚数を1枚に戻しますか？$"=The number of skip tickets to use\nis currently set at $1.\nReset this number to 1?
+r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定されています。\n設定をリセットし、消費枚数を(\d+)枚に戻しますか？$"=The number of skip tickets to use\nis currently set at $1.\nReset this number to $2?
+
+0枚に戻す=Reset to 0
 1枚に戻す=Reset to 1
+0体に戻す=Reset to 0
 1体に戻す=Reset to 1
 スキップチケット枚数リセット確認=Skip Ticket Number Reset
 下記のアイテムを装備します。よろしいですか？=Equip the following items. Is it OK?

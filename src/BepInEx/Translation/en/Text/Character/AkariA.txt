@@ -19,7 +19,7 @@ r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカル�
 
 ##S1+##
 エンジェルチャージ+=Angel Charge+
-自分の魔法攻撃力と魔法クリティカルを短時間特大アップ、魔法攻撃クリティカル時のダメージを短時間中アップさせ、さらに自分のＴＰを中回復させる。=Greatly boosts own M.ATK and M.CRIT Rate for a short period of time, and boosts own M.CRIT DMG by a moderate amount for a short period of time. Also, recovers own TP by a moderate amount.
+自分の魔法攻撃力と魔法クリティカルを短時間特大アップ、魔法クリティカルダメージを短時間中アップ、ＴＰを中回復する。=Temporarily massively boosts own M.ATK and M.CRIT RATE, temporarily moderately boosts M.CRIT DMG, and moderately recovers TP.
 r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを(\d+)アップ自分の魔法攻撃クリティカル時のダメージを24％アップ自分のＴＰを(\d+)回復$"=►Boosts own M.ATK by $1 for 6s.\n►Boosts own M.CRIT Rate by $1 for 6s.\n►Boosts own M.CRIT DMG by 24% for 6s.\n►Recovers own TP by $3.
 
 ##UE##
@@ -28,5 +28,5 @@ r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカル�
 ##UE2##
 エンジェリックラブドレス=Angelic Love Dress
 エンジェルシュート+=Angel Shoot+
-自分の魔法攻撃力を短時間特大アップし、目の前の敵１キャラに魔法大ダメージを３回与える。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。このスキルの初回使用後、行動パターンが変化する。=Massively boosts own M.ATK for a short time and deals large M.DMG 3 times to 1 enemy in front. If this skill crits, the damage becomes 3x instead of 2x. Action pattern changes after the first use of this skill.
+自分の魔法攻撃力を短時間特大アップし、目の前の敵１キャラに魔法大ダメージを３回与える。このスキルのクリティカルダメージは３倍になる。初回発動時、行動パターンが変化する。=Temporarily massively boosts own M.ATK and deals major M.DMG to an enemy in front 3 times. Critical damage dealt by this skill is tripled. Upon first activation, the action pattern changes.
 r:"^自分の魔法攻撃力を(\d+)アップ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=►Boosts own M.ATK by $1.\n►Deals $2 M.DMG to a single enemy.\n►Deals $3 M.DMG to a single enemy.\n►Deals $4 M.DMG to a single enemy.

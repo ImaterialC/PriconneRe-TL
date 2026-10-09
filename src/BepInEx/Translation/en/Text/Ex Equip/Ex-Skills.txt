@@ -168,3 +168,5 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 
 バトル中物理防御力小アップ=Slightly increases Physical Defense during battle.
 バトル開始後90秒間自分の物理防御力と魔法防御力を３％アップさせる。=Increases own Physical Defense and Magic Defense by 3% for 90 seconds after battle starts.
+
+バトル開始後90秒間敵全体の物理攻撃力を５％ダウンさせる。=Reduces the P.ATK of all enemies by 5% for 90 seconds after battle starts.

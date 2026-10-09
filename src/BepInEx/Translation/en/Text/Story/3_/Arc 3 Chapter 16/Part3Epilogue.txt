@@ -2,7 +2,7 @@ Part 3 Epilogue
 
 Chapter Names
 第3部 エピローグ=Part 3 Epilogue
-『選ばなかった』世界="No Choice" Wordline
+『選ばなかった』世界="No Choice" worldline
 ひとときの別れ=A Brief Parting
 リーブ・アストルム=Leave Astrum
 
@@ -40,11 +40,11 @@ Chapter 1
 他の方法かぁ……\nいっそ、『認識を修正』してやるくらいしかなかったかもね。\n……あたしの性能じゃ、逆立ちしてもムリだけど。=Another way, huh...? Maybe the only choice possible was to "correct her perception". ...But with my abilities, that'd have been impossible no matter how hard I tried.
 ……あんま、クヨクヨうじうじすんじゃないの。\n勝者は胸を張らないと、敗者も負けを認めにくいっしょ。=...Don't mope around so much. If the winner doesn't hold their head high, it's hard for the loser to accept defeat, right?
 これは、中立的な視点から言わせてもらうケド。\nあんたたちは、よくやったわ。\n本来の実力の120％どころか、10000％くらいね。=Let me say this from a neutral and equal perspective. You guys did a great job. You didn't use a mere 120% of your true potential back there, more like 10,000%.
-……まぁちょっと、崖っぷちギリギリだったってゆーか\n一度は崖から落とされて、ついでに世界線枝分かれしたかもだけど……=Well, I mean... you were on the brink of disaster at the same time. Or rather, you were thrown off a cliff once, and maybe the wordline even branched off as a result...
+……まぁちょっと、崖っぷちギリギリだったってゆーか\n一度は崖から落とされて、ついでに世界線枝分かれしたかもだけど……=Well, I mean... you were on the brink of disaster at the same time. Or rather, you were thrown off a cliff once, and maybe the worldline even branched off as a result...
 実感ない？\nそりゃそーでしょ。=It doesn't feel real yet? Well, of course.
 ま、そりゃそーでしょ。=Well, no wonder.
 この『さかさまの塔』が、３つの裏世界に同時に遍在してるよーに。\nアイテール・モジュールも、この世界のモノと[rub:・]全[/rub][rub:・]く[/rub][rub:・]同[/rub][rub:・]じ[/rub][rub:・]モ[/rub][rub:・]ノ[/rub]が\n他の世界線に同時に遍在して、記録を蓄積し続けてる……らしーけど……=Just like this "Inversed Tower" exists simultaneously across all three of the Underworlds, the "Aether Module" apparently has identical copies in other worldlines, too, all existing simultaneously and continuing to accumulate records...
-モジュールに寄生してるあたしだって、\nせーぜー『閉じた扉』が増えてるのが分かるくらいで……\nアクセスできるのは『この世界線の記録』だけだもん。=Even I, who am parasitic on the module, can only tell that the number of "closed doors" is increasing... and all I can access is "the records of this specific wordline".
+モジュールに寄生してるあたしだって、\nせーぜー『閉じた扉』が増えてるのが分かるくらいで……\nアクセスできるのは『この世界線の記録』だけだもん。=Even I, who am parasitic on the module, can only tell that the number of "closed doors" is increasing... and all I can access is "the records of this specific worldline".
 さぁね。\n……あったと思っておいても、いいんじゃない？=Who knows. ...Isn't it fine to just assume it exists?
 『誰も選ばなかったあんた』が、\n幻境竜后を選んで、受け入れられた……なんて可能性がさ。=The possibility that a "you who chose no one" might have chosen Vision Empress, and been accepted by her...
 ──さてと。\nそろそろお開きにしますか。\nあんたこれから、ランドソルで祝勝会みたいだし？=...Well then. Shall we wrap things up now? You're off to a victory celebration in Landosol, right?
@@ -69,7 +69,7 @@ Player Prompts
 ……幻境竜后さん……=Vision Empress...
 何か、他の方法はなかったのかな……=I cannot help but wonder if another way existed...
 枝分かれ……=Branched out...
-幻境竜后さんと和解した世界線もある……？=So a wordline may exist where we reconciled with Vision Empress...?
+幻境竜后さんと和解した世界線もある……？=So a worldline may exist where we reconciled with Vision Empress...?
 ティアは来ないの？=You're not coming, Tia?
 実感、ないけど……=It's hard to accept as real...
 

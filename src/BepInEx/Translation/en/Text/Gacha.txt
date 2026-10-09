@@ -531,3 +531,7 @@ r:"^ガチャチケットを消費してガチャを (\d+) 回引きます。$"=
 
 マスターピース×１獲得可能！=Obtain a Masterpiece x1!
 有償ジュエル限定！[3C404E]10キャラ目は[FFBB00,CE4F00]★3キャラ確定！=Paid jewels only! [3C404E] The 10th character is guaranteed to be a [FFBB00,CE4F00]★3 character !
+
+
+
+コネクトコイン×400獲得可能！=Earn up to 400 Connect Coins!

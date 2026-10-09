@@ -116,7 +116,11 @@ r:"^(\d+)回\[-\]\[3C404E\]錬成を行いました。$"=Performed [FFBB00,CE4F0
 
 錬成結果を破棄して再錬成します。=Discard the current synthesis result and refine again.
 前回の錬成結果=Previous Synthesis Result
-r:"^以下のアイテムを消費して、最大\[FFBB00\,CE4F00\](\d+)回\[-\]錬成します。前回の錬成結果を破棄してから再錬成します。$"=Consume the following items to perform up to [FFBB00,CE4F00]$1[-] synthesis.\nThe previous synthesis result will be discarded before refining again.
+r:"^以下のアイテムを消費して、最大\[FFBB00\,CE4F00\](\d+)回\[-\]錬成します。前回の錬成結果を破棄してから再錬成します。$"=Consume the following items to perform up to [FFBB00,CE4F00]$1[-] synthesis.\nThe previous synthesis result will be discarded before synthesizing again.
+
+r:"^以下のアイテムを消費して、最大\[FFBB00\,CE4F00\](\d+)回\[-\]錬成します。前回の錬成結果を確定してから再錬成します。$"=Consume the following items to perform up to [FFBB00,CE4F00]$1[-] syntheses.\nConfirm the previous synthesis result before synthesizing again.
+
+
 カスタム再錬成確認=Confirm Custom Re-Synthesis
 条件を満たすサブステータスが抽選されました。=A Sub Stat meeting the specified conditions has been obtained.
 
@@ -125,3 +129,17 @@ r:"^以下のアイテムを消費して、最大\[FFBB00\,CE4F00\](\d+)回\[-\]
 
 以下のアイテムを消費して再錬成します。前回の錬成結果を破棄してから再錬成します。=Consume the following items to synthesize again. The previous synthesis result will be discarded before synthesis again.
 EX装備再錬成確認=Confirm EX Equipment Re-Synthesis
+
+
+
+
+この装備はこれ以上超越錬醒できません。=This equipment cannot undergo any further Transcendent Awakening.
+素材に使用するEX装備を選択してください。=Select the EX Equipment to use as materials.
+素材に使用するEX装備のサブステータスは継承されません。=The Sub Stats of EX Equipment used as materials will not be inherited.
+EX装備選択=Select EX Equipment
+在庫がありません。=Out of Stock.
+ミニゲームをリタイアしました。=Retired from the minigame.
+EX装備変更確認=Confirm EX Equipment Change
+他のキャラが装備中のEX装備があります。\n外してマイパーティを呼び出します。\nよろしいですか？=Some EX Equipment is equipped by other characters.\nIt will be unequipped, and My Party will be loaded.\nAre you sure?
+EX装備には、『強化』や『上限解放』できるものがございます。\nEX装備を強化すると、ステータスがアップします。\nEX装備の強化と上限解放で、強敵との戦いに備えましょう。=Some EX Equipment can be enhanced or have its level cap raised.\nEnhancing EX Equipment increases its stats.\nEnhance your EX Equipment and raise its level cap to prepare for battles against powerful enemies.
+すみません、わたくしの\n手料理は売り切れなのです\nグレイスが、買い占めを…=I'm sorry, but my\nhomemade dishes are sold out.\nGrace bought them all up...

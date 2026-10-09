@@ -2876,3 +2876,19 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 【キルストリーク】の数が多いほど：自身の物理／魔法クリダメアップ=The more [Kill Streak] stacks, the greater own P.CRIT DMG and M.CRIT DMG.
 物理攻撃をする敵と魔法攻撃をする敵の数に応じて行動パターン変化=Action pattern changes according to the number of enemies that use physical attacks and magic attacks.
 外宇宙から襲来せし、射手座の星獣姫。神出鬼没な動きで死角を消し去り、終焉を告げる銃声が響くとき獲物は既に死を刻まれている。=The Star Beast Princess of Sagittarius, who has invaded from outer space. With her elusive movements, she eliminates all blind spots, and when the gunshot heralding the end rings out, her prey has already been marked for death.
+
+
+
+氷河地帯を支配する厳霜の魔狼。冷酷な仔らが標的を貫き、氷爪が獲物を引き裂く。【特殊効果】=A demon wolf of bitter frost that rules the glacial region. Its merciless young pierce their targets, while its icy claws tear prey apart.\n\n[Special Effect]
+
+石化の呪剣を携えた怪鳥。尾蛇の毒牙で獲物を蝕み、呪剣の石化で冒険者の歩みを止める。【特殊効果】=A monstrous bird wielding a cursed sword of petrification. It poisons its prey with the venomous fangs of its serpent tail and halts adventurers in their tracks by petrifying them with its cursed blade.\n\n[Special Effect]
+
+捕食者として君臨する、凶悪な怪鳥獣。狩りを続ける膂力と剛爪が、侵入者をつけ狙う。【特殊効果】=A vicious monstrous bird-beast that reigns as a predator. Its formidable strength and powerful claws, honed by relentless hunting, stalk intruders.\n\n[Special Effect]
+
+このスキルで与えたダメージが高いほど：ダメージアップ=The higher the damage dealt by this skill, the greater the damage.
+
+果てのない愛憎に狂う乙女座の魔星獣。凄まじい嫉妬と拒絶が見るもの全てを石化させる。【特殊効果】=The Virgo Demon Star Beast, driven mad by endless love and hatred. Its overwhelming jealousy and rejection petrify everything it sees.\n\n[Special Effect]
+
+
+挑発無視・必中=Ignores Taunt; guaranteed hit
+後ろから敵１体に行動速度ダウン（挑発無視・必中）=Reduces action speed of the rearmost enemy (ignores Taunt; guaranteed hit).

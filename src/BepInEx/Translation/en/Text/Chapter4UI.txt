@@ -105,6 +105,11 @@ sr:"^(.+?) ボスバトル（(.+)）を([0-9:]+)以上残してクリアしよ�
 メイン(4部含む)・イベント・サイドいずれか=Any Main (including Part 4), Event, or Side Quest
 メインストーリー第4部 第1章 エンディングを閲覧しよう=View the ending of Part 4, Chapter 1 of the Main Story
 
+同じ装備・アイテムを使用=Use the Same Equipment/Items
+バトル中クリダメアップⅠ=Crit DMG Up I During Battle
+超越錬醒素材の入手場所を確認できます。=You can check where to obtain Transcendent Awakening materials.
+超越錬醒素材入手方法=How to Obtain Transcendent Awakening Materials
+暴風のランドソル ボスバトル=Stormy Landosol Boss Battle
 
 
 
@@ -167,6 +172,11 @@ EX装備 超越錬醒 使用装備選択=EX Equipment Transcendent Awakening: Se
 メイン・4部メイン・イベント・サイドのクエストを合計20回クリアしよう=Clear a total of 20 Main, Part 4 Main, Event, or Side Quests
 メイン・4部メイン・イベント・サイドのH・VHを合計3回クリアしよう=Clear a total of 3 H or VH Main, Part 4 Main, Event, or Side Quests
 
+ブースト発動中=Boost Active
+危険なクエスト=Dangerous Quest
+クエストガイド=Quest Guide
+
+ゾディアックチケットを所持していません。=You do not have any Zodiac Tickets.
 
 
 ゾディアックチケット詳細=Zodiac Ticket Details

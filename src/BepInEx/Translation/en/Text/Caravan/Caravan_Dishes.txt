@@ -230,6 +230,9 @@ sr:"^(.+)を([0-9,.]+)個獲得…$"=Obtain $2 x $1.
 [3C404E]ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。[-]=[3C404E]The odds of rolling a 5 or 6 are tripled[-]
 ダイスを3回振るまでの間、「5と6」の⽬が出る確率が3倍になる。=For the next three rolls, the probability of getting a 5 or 6 is tripled.
 【料理】ダイスの「5と6」の目が出る確率が3倍になる=【Cooking】 The odds of rolling a 5 or 6 are tripled
+ミニゲームプレイ中に、合計2回中断した場合\nリタイアとなります。=If you interrupt the minigame a total of 2 times while playing,\nyou will retire from it.
+
+【料理】ダイスの目が1ターン目は必ず「12」に、2・3ターン目は必ず「1」になる=【Cooking】The die will always roll "12" on Turn 1 and "1" on Turns 2 and 3.
 
 一定の経過ターン以内にチェックポイントを通過すると\n豪華なアイテムが手に入ります!=Pass a checkpoint within a certain amount of turns to obtain extravagant items!
 

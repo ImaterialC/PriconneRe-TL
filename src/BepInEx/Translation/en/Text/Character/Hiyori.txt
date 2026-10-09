@@ -58,6 +58,9 @@ r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメー
 
 r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ攻撃する度にダメージ1500増加敵の数が２キャラ以上の場合、以下の効果が発動する自分の行動速度200％アップ自分のＴＰを1000回復$"=Cast time: 1.125s.\n►Deals $1 P.DMG to a single enemy.\n►Deals $2 P.DMG to enemies within range.\n►Damage increases by 1500 with each attack.\n\nIf there are 2 or more enemies:\n►Boosts own action speed by 200％.\n►Recovers own TP by 1000.
 
+##Shadow
+目の前の敵１キャラに物理大ダメージを与え、前方範囲内の敵に物理小ダメージを与える。=Deals major P.DMG to an enemy in front and minor P.DMG to enemies within range in front.
+
 
 ##Comments##
 みんなが笑顔でいられるように！\nヒヨリ、頑張りまーっす！　いぇい！=So everyone can smile!\nHiyori'll do her best! Yay!

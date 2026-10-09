@@ -3,8 +3,7 @@
 
 ##UB##
 ヘブンリーハーツ=Heavenly Hearts
-最もＴＰが多い敵１キャラに魔法中ダメージを与え、ＴＰを中ダウンさせ、さらに魔法防御力を中ダウンさせる。=Deals moderate M.DMG to an enemy with the most TP, moderately lowers its TP, and also moderately lowers its M.DEF.
-最もＴＰが多い敵１キャラに魔法大ダメージを与え、ＴＰを中ダウンさせ、さらに魔法防御力を中ダウンさせる。=Deals large M.DMG to an enemy with the most TP, moderately lowers its TP, and also moderately lowers its M.DEF.
+最もＴＰが多い敵に魔法大ダメージを与え、ＴＰと魔法防御力を中ダウンさせる。=Deals major M.DMG to the enemy with the highest TP and moderately lowers their TP and M.DEF.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを(\d+)失わせる敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's TP by $2.\n►Lowers an enemy's M.DEF by $3 for 18s.
 
 ##S1##
@@ -23,7 +22,7 @@ r:"^味方全体の物理クリティカルを(\d+)アップ味方全体の魔�
 
 ##S1+##
 エンジェルアテンション+=Angel Attention+
-【挑発】ヨリの背後にいないキャラの内、最も残りＨＰの値が多い味方１キャラが、敵全体を挑発する。さらにそのキャラの物理防御力と魔法防御力を特大アップ、物理攻撃力と魔法攻撃力を中アップさせ、継続ＨＰ回復状態を付与する。=[Taunt] Among the characters not behind Yori, the ally with the highest remaining HP provokes all enemies. Additionally, it greatly boosts its P.DEF and M.DEF, moderately boosts its P.ATK and M.ATK, and gives it a continuous HP recovery.
+【挑発】自分の背後にいないキャラの内、最もＨＰが高い味方が、敵全体を挑発する。その味方の物理・魔法防御力を特大アップ、物理・魔法攻撃力を中アップさせ、継続ＨＰ回復状態を付与する。=[Taunt] The ally with the highest HP among those not behind self taunts all enemies. Massively boosts that ally's P.DEF and M.DEF, moderately boosts their P.ATK and M.ATK, and grants them continuous HP recovery.
 r:"^対象の味方を挑発状態にする対象の味方の物理防御力を(\d+)アップ対象の味方の魔法防御力を(\d+)アップ対象の味方の物理攻撃力を(\d+)アップ対象の味方の魔法攻撃力を(\d+)アップ毎秒ＨＰを(\d+)回復する$"=►Grants Taunt to an ally for 12s.\n►Boosts an ally's P/M.DEF by $1 for 12s.\n►Boosts an ally's P/M.ATK by $3 for 12s.\n►Recovers an ally's HP by $5/s for 12s.
 
 ##UE##
@@ -34,5 +33,10 @@ r:"^対象の味方を挑発状態にする対象の味方の物理防御力を(
 ##UE2##
 エンジェリックピュアドレス=Angelic Pure Dress
 エンジェルブレッシング+=Angel Blessing+
-味方全体の魔法攻撃力を特大アップ、物理クリティカルと魔法クリティカルを大アップ、物理防御力と魔法防御力を小アップさせ、さらにＨＰを小回復する。また、自分のＴＰを中回復する。=Massively boosts all allies' M.ATK, greatly boosts P.CRIT RATE and M.CRIT RATE, slightly boosts P.DEF and M.DEF, and additionally slightly recovers HP. Also moderately recovers own TP.
+味方全体の魔法攻撃力を特大アップ、物理・魔法クリティカルを大アップ、物理・魔法防御力を小アップ、ＨＰを小回復させる。自分のＴＰを中回復する。=Massively boosts all allies' M.ATK, greatly boosts their P.CRIT RATE and M.CRIT RATE, slightly boosts their P.DEF and M.DEF, and slightly recovers their HP. Moderately recovers own TP.
 r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の物理クリティカルを125アップ味方全体の魔法クリティカルを125アップ味方全体の物理防御力を(\d+)アップ味方全体の魔法防御力を(\d+)アップ味方全体のＨＰを(\d+)回復自分のＴＰを150回復$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' P.CRIT RATE by 125.\n►Boosts all allies' M.CRIT RATE by 125.\n►Boosts all allies' P.DEF by $2.\n►Boosts all allies' M.DEF by $3.\n►Restores all allies' HP by $4.\n►Recovers own TP by 150.
+
+
+##Shadow
+最もＴＰが多い敵に魔法中ダメージを与え、ＴＰと魔法防御力を中ダウンさせる。=Deals moderate M.DMG to the enemy with the highest TP and moderately lowers their TP and M.DEF.
+味方全体の物理・魔法クリティカルを大アップ、ＨＰを小回復させる。=Greatly boosts all allies' P.CRIT RATE and M.CRIT RATE, and slightly recovers their HP.

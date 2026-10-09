@@ -1,0 +1,35 @@
+##Profile##
+【魔法】中衛で、まばゆい弾丸の雨を降らす銃装の妖精。一定回数ダメージを与えるたび割合ダメージを発生させ、【ペタロ】で敵からの攻撃をひらりと躱し、無効化する。=[Magic] A gun-wielding fairy who rains down dazzling bullets from the middle position. Deals percentage damage every time she deals damage a certain number of times, and gracefully dodges and nullifies enemy attacks with [Petalo].
+
+
+?月?日/??歳=?? Month ?? Day / ?? Years Old
+懐かしい温もりを掴んで=Grasping a Familiar Warmth
+‘妖精をパートナーにして’='Make a Fairy Your Partner'
+絆のフラグムービー=Bond Flag Movie
+心の照準を重ねて=Aligning the Sights of Our Hearts
+
+
+##UB## 
+フィオレ・ティラトーレ=Fiore Tiratore
+敵全体に魔法特大ダメージを２回与え、魔法防御力を小ダウン、受けるクリティカルダメージを小アップさせる。【ファータ・ポルヴェレ】が30個以上の場合、ダメージが増加する。【ファータ・ポルヴェレ】が最大の場合、【ファータ・ポルヴェレ】を30個消費し、さらにダメージとヒット数が増加する。対象の敵の数に応じて、ダメージが減少する。=Deals massive M.DMG to all enemies 2 times, slightly lowers their M.DEF, and slightly increases the critical damage they receive. Damage increases if there are 30 or more [Fata Polvere]. If [Fata Polvere] is at maximum, consumes 30 [Fata Polvere] to further increase damage and hit count. Damage decreases based on the number of enemies targeted.
+r:"^敵全体に(\d+)の魔法ダメージを２回与える敵全体の魔法防御力を(\d+)ダウン敵全体の被クリダメを8％アップファータ・ポルヴェレが最大の場合、ファータ・ポルヴェレを30個消費する$"=►Deals $1 M.DMG to all enemies 2 times.\n►Lowers M.DEF of all enemies by $2 for 18s.\n►Boosts CRIT DMG taken by all enemies by 8% for 18s.\n\nIf [Fata Polvere] is at maximum:\n►Consumes 30 [Fata Polvere].
+
+##S1## 
+ルーチェ・アッサルト=Luce Assalto 
+敵全体に魔法特大ダメージを２回与え、物理・魔法攻撃力を特大ダウン、魔法防御力を小ダウンさせる。【ファータ・ポルヴェレ】が30個以上の場合、ダメージが増加する。対象の敵の数に応じて、ダメージが減少する。=Deals massive M.DMG to all enemies 2 times, massively lowers their P.ATK and M.ATK, and slightly lowers their M.DEF. Damage increases if there are 30 or more [Fata Polvere]. Damage decreases based on the number of enemies targeted.
+r:"^敵全体に(\d+)の魔法ダメージを２回与える敵全体の物理・魔法攻撃力を(\d+)ダウン敵全体の魔法防御力を(\d+)ダウン$"=Cast time: 1.05s.\n►Deals $1 M.DMG to all enemies 2 times.\n►Lowers P.ATK and M.ATK of all enemies by $2 for 12s.\n►Lowers M.DEF of all enemies by $3 for 12s.
+
+##S2##
+バッテリーア=Batteria 
+自分の魔法攻撃力と魔法クリティカルを特大アップ、魔法クリティカルダメージを小アップし、ＴＰを中回復する。初回発動時、自分がステータスアップ効果を受けるたびに、【ファータ・ポルヴェレ】（上限60）が１個付与される状態と、自分が10回ダメージを与えるたびに、近い敵５キャラに最大ＨＰに応じて最大20万の魔法割合ダメージを与える状態になる。=Massively boosts own M.ATK and M.CRIT RATE, slightly boosts M.CRIT DMG, and moderately recovers TP. Upon first activation, enters a state where 1 [Fata Polvere] stack (max 60) is granted to self each time self receives a stat up effect, and a state where every time self deals damage 10 times, deals percentage M.DMG based on the targets' max HP, up to 200,000 damage, to the 5 nearest enemies.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを160アップ自分の魔法クリダメを8％アップ自分のＴＰを200回復初回発動時、以下の効果が発動するステータスアップ効果を受けるたびに自分にファータ・ポルヴェレを付与する状態になる10回ダメージを与えるたびに、敵５体に最大20万の魔法割合ダメージを与える状態になる$"=Cast time: 1.05s.\n►Boosts own M.ATK by $1 for 18s.\n►Boosts own M.CRIT RATE by 160 for 18s.\n►Boosts own M.CRIT DMG by 8% for 18s.\n►Recovers 200 TP.\n\nUpon first use:\n►Enters a state where [Fata Polvere] is granted to self each time a stat-up effect is received.\n►Enters a state where, every time damage is dealt 10 times, deals percentage-based M.DMG to 5 enemies, up to 200,000 damage.
+
+##EX## 
+ミーラ・ファタータ=Mirra Fatata
+ミーラ・ファタータ+=Mirra Fatata+
+
+##SP1## 
+ドゥーエ・スクード=Due Scudo 
+敵から攻撃を受けた時に発動し、自分に【ペタロ】（上限２）を２個付与する。【ペタロ】付与中に１回ダメージを受けると【ペタロ】を１個消費してダメージを無効化する。このスキルは発動後一定時間発動しない。=Activates when attacked by an enemy and grants self 2 [Petalo] stacks (max 2). When taking damage once while [Petalo] is active, consumes 1 [Petalo] stack to nullify that damage. This skill cannot activate again for a set period after activation.
+攻撃を受けた時、自分にペタロを２個付与する=►When attacked, grants 2 [Petalo] to self.
+

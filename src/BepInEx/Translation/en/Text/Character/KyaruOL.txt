@@ -12,7 +12,7 @@
 
 ##UB##
 オーバーロードバースト=Overload Burst
-敵全体に魔法中ダメージを与え、さらに恐慌状態にする。このスキルによるダメージでは敵のＴＰは回復しない。発動時既に恐慌状態の敵がいた場合、その敵のＴＰを小ダウンさせる。=Deals moderate M.DMG to all enemies and inflicts Fear to them. Damage from this skill doesn't recover enemies' TP. If enemies are already in Fear state, slightly reduces enemies' TP.
+敵全体に魔法中ダメージを与え、恐慌状態にする。このスキルによるダメージでは敵のＴＰは回復しない。発動時既に恐慌状態の敵がいた場合、さらにその敵のＴＰを小ダウンさせる。=Deals moderate M.DMG to all enemies and inflicts Dread. Damage dealt by this skill does not restore enemies' TP. If any enemies are already under Dread when activated, additionally slightly lowers their TP.
 r:"^敵全体に(\d+)の魔法ダメージ敵全体を恐慌状態にする敵が恐慌状態の時、対象のＴＰを(\d+)失わせる$"=►Deals $1 M.DMG to all enemies.\n►Inflicts Fear to all enemies for 8s.\n►If enemies are in Fear state, reduces enemies' TP in range by $2.
 
 ##S1##
@@ -22,8 +22,7 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵のＴＰを(\d+)
 
 ##S2##
 デッドエンドカース=Deadend Curse
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法小ダメージを与え、さらに麻痺状態にする。=Deals small M.DMG to enemies in range, and also inflicts Stun to them.
-
+目の前の敵１キャラを中心とした範囲内の敵に魔法小ダメージを与え、麻痺状態にする。=Deals minor M.DMG to enemies within range centered on an enemy in front and inflicts Paralysis.
 ##EX##
 ダークアブソリュート=Dark Absolute
 ダークアブソリュート+=Dark Absolute+
@@ -31,8 +30,7 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵のＴＰを(\d+)
 ##S1+##
 ダークボルテックス+=Dark Vortex+
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵のＴＰを180失わせる敵が恐慌状態の時、対象のＴＰを180失わせる$"=Cast time: 0.74s.\n►Deals $1 M.DMG to enemies in 300 range.\n►Reduces enemies' TP in range by 180.\n►If enemies are Fear state, reduces enemies' TP in range by 180.
-
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、ＴＰを中ダウンさせる。このスキルの対象が恐慌状態だった場合、さらにＴＰを中ダウンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy in front, and moderately decreases TP. If the target of this skill is in Fear state, further reduces TP by a medium amount.
+目の前の敵１キャラを中心とした範囲内の敵に魔法大ダメージを与え、ＴＰを中ダウンさせる。対象が恐慌状態の場合、さらに追加でＴＰを中ダウンさせる。=Deals major M.DMG to enemies within range centered on an enemy in front and moderately lowers their TP. If the targets are under Dread, additionally moderately lowers their TP.
 
 ##UE##
 超越叛逆のグリモアロッド=Transcendental Rebellion Grimoire Rod

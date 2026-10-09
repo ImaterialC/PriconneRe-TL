@@ -30,7 +30,7 @@ r:"^味方単体のＨＰを(\d+)回復$"=►Recovers an ally's HP by $1.
 
 ##S2##
 アーマーブレイク=Armor Breaker
-目の前の敵１キャラに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals small P.DMG to an enemy directly in front and lowers their P.DEF by a small amount.
+目の前の敵１キャラに物理小ダメージを与え、物理防御力を小ダウンさせる。=Deals minor P.DMG to an enemy in front and slightly lowers their P.DEF.
 
 ##EX##
 ジャスティスバリア=Justice Barrier
@@ -38,14 +38,13 @@ r:"^味方単体のＨＰを(\d+)回復$"=►Recovers an ally's HP by $1.
 
 ##UB+##
 インフェルノランパート=Inferno Rampart
-自分に物理/魔法吸収バリアを展開し、自分の周囲に範囲内の味方すべての物理攻撃力を特大アップ、行動速度を大アップさせるフィールドを展開する。=Deploys a P/M absorption barrier on herself, and creates a field around self that greatly increases the P.ATK and action speed of all allies within range.
-r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する物理攻撃力を(\d+)アップさせるフィールドを展開する行動速度をアップさせるフィールドを展開する$"=►Deploys Barrier over oneself that absorbs $1 P/M.DMG for 18s.\n►Boosts allies' P.ATK in 300 range by $2 for 18s.\n►Boosts allies' action speed in 300 range into 155% for 18s.
+自分に物理/魔法吸収バリアを展開し、自分を中心とした範囲内の味方の物理攻撃力を特大アップ、行動速度を大アップさせるフィールドを展開する。=Deploys a physical/magic absorption barrier on self and deploys a field that massively boosts the P.ATK and greatly boosts the action speed of allies within range centered on self.
+r:"^(\d+)ダメージ分の物理魔法吸収バリアを展開する物理攻撃力を(\d+)アップさせるフィールドを展開する行動速度を55％アップさせるフィールドを展開する$"=►Deploys a Barrier that absorbs $1 P.DMG and M.DMG for 18s.\n►Deploys a field within 300 that boosts P.ATK by $2 for 18s.\n►Deploys a field within 300 that boosts action speed by 55% for 18s.
 
 ##S1+##
 ブレイブリカバリー+=Inspiring Courage+
-自分の周りの味方のうち、最もＨＰが低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a moderate amount. Large boost to the ally's P.ATK and small boost to their action speed.
-自分の周りの味方のうち、最もＨＰの割合が低い味方１キャラのＨＰを中回復させ、さらに物理攻撃力を中アップ、行動速度を小アップさせる。=Recovers HP of the nearby ally with the lowest HP by a large amount. Large boost to the ally's P.ATK and small boost to their action speed.
-r:"^味方単体のＨＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ味方単体の行動速度アップ$"=►Recovers an ally's HP by $1.\n►Boosts an ally's P.ATK by $2 for 12s.\n►Boosts an ally's action speed into 120% for 12s.
+自分を中心とした範囲内の味方のうち、最もＨＰの割合が低い味方のＨＰを中回復、物理攻撃力を中アップ、行動速度を小アップさせる。=Moderately recovers the HP, moderately boosts the P.ATK, and slightly boosts the action speed of the ally with the lowest HP percentage among allies within range centered on self.
+r:"^味方単体のＨＰを(\d+)回復味方単体の物理攻撃力を(\d+)アップ味方単体の行動速度20％アップ$"=Cast time: 0.475s.\n►Recovers a single ally's HP by $1 HP.\n►Boosts P.ATK of a single ally by $2 for 12s.\n►Boosts action speed of a single ally by 20% for 12s.
 
 ##UE##
 シュバリエメイル=Chevalier Mail
