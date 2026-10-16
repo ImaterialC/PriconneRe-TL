@@ -170,3 +170,41 @@ r:"^バトル開始後(\d+)秒間自分の魔法防御力を(\d+)％アッ\nプ�
 バトル開始後90秒間自分の物理防御力と魔法防御力を３％アップさせる。=Increases own Physical Defense and Magic Defense by 3% for 90 seconds after battle starts.
 
 バトル開始後90秒間敵全体の物理攻撃力を５％ダウンさせる。=Reduces the P.ATK of all enemies by 5% for 90 seconds after battle starts.
+
+------Awakening------
+超越スキル確認=Transcendent Skill Details
+超越錬醒1段階目=Transcendent Awakening Stage 1
+超越錬醒2段階目=Transcendent Awakening Stage 2
+超越錬醒3段階目=Transcendent Awakening Stage 3
+超越錬醒4段階目=Transcendent Awakening Stage 4
+超越錬醒5段階目=Transcendent Awakening Stage 5
+選択中の装備に付与される\n超越スキルを確認できます。=You can check the Transcendent Skills\ngranted to the selected equipment.
+
+
+sr:"^(.)属性ＵＢダメアップ([Ⅰ-Ⅹ0-9A-Z]+)$"=$1 Element UB Damage Up $2
+
+sr:"^(.)属性の味方が([0-9０-９]+)キャラの場合、自分のユニオン\n?バーストのダメージを([0-9０-９.%％]+)アップさせる。$"=If there are $2 $1 element allies,\nboosts own Union Burst Damage by $3.
+
+sr:"^(.)属性クリダメアップ([Ⅰ-Ⅹ0-9A-Z]+)$"=$1 Element CRIT DMG Boost $2
+
+sr:"^(.)属性の味方が([0-9０-９]+)キャラの場合、自分の物理/魔法\n?攻撃クリティカル時のダメージを([0-9０-９.%％]+)アップさせ\n?る。$"=If there are $2 $1 element allies, boosts\nown P.CRIT DMG and M.CRIT DMG by $3.
+
+
+sr:"^(.)属性スキルダメアップ([Ⅰ-Ⅹ0-9A-Z]+)$"=$1 Element Skill DMG Boost $2
+
+sr:"^(.)属性の味方が([0-9０-９]+)キャラの場合、自分のスキルの\n?ダメージを([0-9０-９.%％]+)アップさせる。$"=If there are $2 $1 element allies,\nboosts own Skill Damage by $3.
+
+
+r:"^バトル中物理与ダメアップ([Ⅰ-Ⅹ0-9A-Z]+)$"=P.DMG Boost During Battle $1
+
+r:"^バトル開始後([0-9０-９]+)秒間自分の与える物理ダメージを([0-9０-９.%％]+)アップさせる。$"=Boosts own P.DMG dealt by $2\nfor $1 seconds after the battle begins.
+
+r:"^バトル中魔法与ダメアップ([Ⅰ-Ⅹ0-9A-Z]+)$"=M.DMG Boost During Battle $1
+
+r:"^バトル開始後([0-9０-９]+)秒間自分の与える魔法ダメージを([0-9０-９.%％]+)アップさせる。$"=Boosts own M.DMG dealt by $2\nfor $1 seconds after the battle begins.
+
+r:"^バトル中ＵＢダメアップ([Ⅰ-Ⅹ0-9A-Z]+)$"=UB DMG Boost During Battle $1
+r:"^バトル開始後([0-9０-９]+)秒間自分のユニオンバーストのダメージを([0-9０-９.%％]+)アップさせる。$"=Boosts own Union Burst Damage by $2\nfor $1 seconds after the battle begins.
+
+r:"^バトル中クリダメアップ([Ⅰ-Ⅹ0-9A-Z]+)$"=CRIT DMG Boost During Battle $1
+r:"^バトル開始後([0-9０-９]+)秒間自分の物理/魔法攻撃クリティ\nカル時のダメージを([0-9０-９.%％]+)アップさせる。$"=Boosts own P.CRIT DMG and M.CRIT DMG by\n$2 for $1 seconds after the battle begins.

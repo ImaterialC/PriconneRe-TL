@@ -1,6 +1,6 @@
 みんな=Everyone
 魔物=Monster
-
+【ＨＰ33％以下時発動】=[Activate when HP is under 33%]
 【物理】盗賊ギルド、バンディ=[Physical] Bandit, a member of the Thief Guild.\n
 シスターズ次女。戦闘中後方でおびえているワカナを助けるために、スパイク=The second of the Sisters. She aids the frightened Wakana in the rear during battles, while the Spike Brothers block the path of adventurers.\n
 
@@ -2667,8 +2667,6 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 あらゆる物理攻撃を剣ではじき返す、命ある石像。=A living stone statue that deflects all physical attacks with its sword.
 動く剣士=Moving Swordsman.
 剣士たちの大乱舞=The Swordsmen's Wild Rampage.
-《EX》危険な魔物・魔狼=《EX》Dangerous Monster: Demon Wolf.
-《EX》危険な魔物・妖蛇=《EX》Dangerous Beast: Demon Serpent
 召喚体、分身を除いた最も近い敵３キャラに魔\n　法大ダメージを与え、魔法防御力を中ダウンさ\n　せる。このスキルの効果はダメージを無効化し\n　ても付与される。=Deals major M.DMG to the three nearest enemies excluding summons and clones, and moderately reduces their M.DEF. This effect is applied even if the damage is nullified.
 
 自身の物理攻撃力を特大アップし、ＴＰを特大回復する。自身のＨＰが低いほど、物理攻撃力の上昇量がアップする。=Greatly increases own P.ATK and greatly restores own TP. The lower own HP, the greater the P.ATK increase.
@@ -2892,3 +2890,17 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 挑発無視・必中=Ignores Taunt; guaranteed hit
 後ろから敵１体に行動速度ダウン（挑発無視・必中）=Reduces action speed of the rearmost enemy (ignores Taunt; guaranteed hit).
+
+
+以下のストーリーを閲覧できます。=You can view the following story.
+前から敵４体に物理／魔法与ダメダウン（必中）=Reduces P.DMG dealt and M.DMG dealt of the four foremost enemies (guaranteed hit).
+周囲の敵４体に行動速度ダウン=Reduces action speed of the four nearest enemies.
+周囲の敵４体にＴＰ上昇ダウン=Reduces TP Boost of the four nearest enemies.
+周囲の敵４体にＴＰダウン=Reduces TP of the four nearest enemies.
+周囲の敵４体に物理ダメージ=Deals P.DMG to the four nearest enemies.
+
+
+ジオ・ニヴルヘルの深淵に澱む妖霧。道行く者の周囲に現れ、触れた者の魂を蝕む。=An eerie mist that festers in the depths of Geo Niflhel. It appears around travelers and corrupts the souls of those it touches.
+ユニオンバーストは、敵全体に魔法大ダメージ。=Union Burst deals major M.DMG to all enemies.
+敵全体に魔法大ダメージ。さらに、ミストヴェイル自身のＨＰが80％以下の場合、物理攻撃力と魔法攻撃力を大ダウン。=Deals major M.DMG to all enemies. Furthermore, if Mistveil's HP is at or below 80%, greatly reduces P.ATK and M.ATK.
+ミストヴェイル自身のＨＰが80％以下になると、さらに攻撃が激しく凶暴になる。=When Mistveil's HP falls to 80% or below, its attacks become even more intense and ferocious.

@@ -133,14 +133,12 @@ EX装備 超越錬醒=EX Equipment Transcendent Awakening
 錬醒済み=Awakened
 素材選択中=Selecting Materials
 アイテムとマナが不足しています。=You do not have enough items and Mana.
-闇属性スキルダメアップⅠ=Dark Attribute Skill DMG Up I
 使用する素材を選択=Select Materials to Use
 同じ装備を使用=Use the Same Equipment
 EX★５装備に『超越錬醒』が解放されました。\n超越錬醒を進めるとステータスアップや超越スキルの獲得ができます。\nEX★５装備やアイテムを集めて、パワーアップしてまいりましょう。='Transcendent Awakening' has been unlocked for EX★5 Equipment.\nProgressing through Transcendent Awakening increases stats and grants Transcendent Skills.\nCollect EX★5 Equipment and items to power up.
 EX装備 超越錬醒1段階目=EX Equipment Transcendent Awakening Stage 1
 EX装備 超越錬醒 使用装備選択=EX Equipment Transcendent Awakening: Select Equipment to Use
 特別な強化がされている装備が選択されています。=Equipment with special enhancements is selected.
-火属性スキルダメアップⅠ=Fire Attribute Skill DMG Up I
 消費素材に特別な強化がされている装備が含まれています。=The materials consumed include equipment with special enhancements.
 前の段階の使用素材が確定されていません。=The materials to use for the previous stage have not been confirmed.
 装備者が火属性の場合、バトル開始後90秒間自分\nの物理クリティカルと物理攻撃クリティカル時の\nダメージを10％アップさせる。=If the wearer is Fire-type, increases own P.CRIT RATE and P.CRIT DMG by 10% for 90 seconds after battle starts.
@@ -193,3 +191,38 @@ r:"^あと(\d+)分後に\n?ゾディアックチケットを(\d+)枚獲得$"=Obt
 敵全体に物理／魔法攻撃力ダウン（飛行効果無視・必中）=Lowers the P.ATK/M.ATK of all enemies (ignores Flying effects; guaranteed to hit)
 敵全体に物理割合ダメージ（飛行効果無視・ＴＰ回復不可）=Deals percentage P.DMG to all enemies (ignores Flying effects; TP cannot be restored)
 
+9個の同じEX装備を消費して、最大まで超越錬醒が可能です。このEX装備素材の超越錬醒へ移動しますか？=You can reach the maximum Transcendent Awakening level by consuming 9 copies of the same EX Equipment. Go to Transcendent Awakening for this EX Equipment?
+【レプリカ】星獣姫が有する権能を微かに宿した大弓。遥かに仰ぐ理、外宇宙を根源とする力を秘め、射手座の領域内でその真価を発揮する。=【Replica】A great bow faintly imbued with the authority of the Star Beast Princess. It holds the power of a distant ideal originating from outer space, revealing its true potential within Sagittarius's domain.
+
+
+
+強化状態=Enhancement Status
+現在の強化状態=Current Enhancement Status
+クエスト推奨=Quest Recommendations
+プレイヤーレベル=Player Level
+プリンセスナイトRANK=Princess Knight Rank
+アドバンスブースト=Advance Boost
+条件を達成してプリンセスナイト超強化を発動しよう=Meet the requirements to activate Princess Knight Super Enhancement
+バトル開始時のコネクトRANKボーナスの効果量=Connect Rank Bonus Effect at Battle Start
+Lv強化におすすめ=Recommended for Lv Enhancement
+Pナイト強化におすすめ=Recommended for Princess Knight Enhancement
+初心者におすすめ=Recommended for Beginners
+EX装備におすすめ=Recommended for EX Equipment
+バトルマス（HELL）が出現する。=Battle Tile (HELL) appear.
+HELLマス出現=HELL Tile Appears
+[3C404E]主さまの実力であれば[FFBB00,CE4F00]十分クリア\n可能なクエスト[-]でございますね。\nご健闘をお祈りしております。[-]=[3C404E]With your abilities, my lord, this quest should be [FFBB00,CE4F00]well within your capabilities[-].\nI wish you the best of luck.[-]
+推奨プレイヤー情報=Recommended Player Information
+バトルボーナス情報=Battle Bonus Information
+
+全てのスロットがロックされています。=All slots are locked.
+
+特別な強化がされている装備が消費されます。=Equipment with special enhancements will be consumed.
+上記を確認し、超越錬醒を実行します。=I have reviewed the above and will proceed with Transcendent Awakening.
+チェックボックスの内容を確認してください。=Please review the checkbox details.
+
+獲得シャード=Shards Obtained
+獲得トークン=Tokens Obtained
+幻の花を探し、二人だけの冒険に向かったクリアとアネモネ。ひと夏の旅の果てに少女たちは何を目にするのか──？=Clair and Anemone set off on an adventure for two in search of a phantom flower. What will the girls discover at the end of their midsummer journey──?
+美が生まれた日=The Day Beauty Was Born
+最強でお美しいあたくし様=The Strongest and Most Beautiful Me
+難易度が変更されていません。=The difficulty has not been changed.

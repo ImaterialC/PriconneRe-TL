@@ -1,5 +1,5 @@
 ## Initial Relic ##
-ＨＰ＋15％物理/魔法与ダメ＋15％=Max HP +15%\n►P/M.DMG +15%
+ＨＰ＋15％物理/魔法与ダメ＋15％=►Max HP +15%\n►P/M.DMG +15%
 お使いの端末は正常です=Your device is healthy
 
 プリンセスエンチャント=Princess Enchant
@@ -7,23 +7,23 @@
 r:"^物理/魔法攻撃力アップ（加入キャラ数×4％、最大100％）（現在(\d+)人）$"=Physical/Magic ATK Bonus (Joined Characters x4%, max 100%)(Currently $1)
 
 アストラルブースト=Astral Boost
-属性ボーナス＋50％=Elemental Bonus +50%
+属性ボーナス＋50％=►Elemental Bonus +50%
 
 トゥインクルブレス=Twinkle Breath
 ボスバトルを除いて一度だけバトル敗北を免除=Exempt from defeat in battle once, excluding boss battles
 
 サレンディアエンゲージ=Sarendia Engage
-ショップの販売価格－10％=Shop Price -10%
+ショップの販売価格－10％=►Shop Price -10%
 
 サレンディアノーブル=Sarendia Noble
 通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)
 r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100）（現在(\d+)枚）$"=Normal Attack Enhancement Up (αRupees Possession x0.01, Max 100)(Currently $1)
 
 ナイツオブフェイス=Nights of Face
-物理/魔法クリダメ＋50％物理/魔法クリティカル－25％=P/M.Crit DMG +50%\n►P/M.Crit rate -25%
+物理/魔法クリダメ＋50％物理/魔法クリティカル－25％=►P/M.Crit DMG +50%\n►P/M.Crit rate -25%
 
 レジーナガーラ=Regina Gear
-敵の物理/魔法被ダメ＋25％味方の物理/魔法被ダメ＋25％=Enemy P/M.DMG +25%\n►Ally P/M.DMG +20%
+敵の物理/魔法被ダメ＋25％味方の物理/魔法被ダメ＋25％=►Enemy P/M.DMG +25%\n►Ally P/M.DMG +20%
 
 ラビリンスオーソリティ=Labyrinth Authority
 挑戦開始時にラビリスタが加入=Labyrista joins at the start of the challenge
@@ -32,10 +32,10 @@ r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100�
 挑戦開始時にランダムな★1の迷宮遺物を１個獲得=Obtain a random ★1 Labyrinth relic at the start of the challenge
 
 イルミネイトカルミナ=Illuminate Carmina
-物理/魔法攻撃力＋15％バフ強化＋15=P/M.ATK +15%\n►Buff Enhancement +15
+物理/魔法攻撃力＋15％バフ強化＋15=►P/M.ATK +15%\n►Buff Enhancement +15
 
 ヴォイスフォーユー=Voice for You
-30秒ごとに物理/魔法攻撃力ダウン解除=P/M.ATK Down is removed every 30 seconds
+30秒ごとに物理/魔法攻撃力ダウン解除=►P/M.ATK Down is removed every 30 seconds
 
 
 ディアボロスフィアー=Diablos Sphere
@@ -51,17 +51,17 @@ r:"^通常攻撃強化アップ（アルファルピ所持数×0.01、最大100�
 行動不能無効１回=Incapacitation nullification once
 
 ノブレスウィスタリア=Noblesse Wistaria
-初期アルファルピ+3000\nアルファルピ獲得量－10%=Initial αRupees +3,000\n►αRupees Acquisition Amount -10%
+初期アルファルピ+3000\nアルファルピ獲得量－10%=►Initial αRupees +3,000\n►αRupees Acquisition Amount -10%
 
 リヴァイアサンコール=Leviathan Call
-物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）=P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)
-r:"^物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）（現在(\d+)枚）$"=P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)(αRupees Possession x0.01, Max 100)(Currently $1)
+物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）=►P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)
+r:"^物理/魔法クリダメアップ（アルファルピ所持数×0.01%、最大100%）（現在(\d+)枚）$"=►P/M.CRIT DMG Up (αRupees Possession x0.01, Max 100)(αRupees Possession x0.01, Max 100)(Currently $1)
 
 兵法二海一流=Hyōpo Nikai Ichiryu
 
 バインディングローズ=Binding Rose
-敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）=Damage over time Up (Enlisted characters x10%, maximum 500,000 damage)
-r:"^敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）（現在(\d+)人）$"=Damage over time Up (Enlisted characters x10%, maximum 500,000 damage)(Currently $1)
+敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）=►Damage over time Up (Enlisted characters x10%, maximum 500,000 damage)
+r:"^敵への継続ダメージアップ（加入キャラ数×10％、最大50万ダメージ）（現在(\d+)人）$"=►Damage over time Up (Enlisted characters x10%, maximum 500,000 damage)(Currently $1)
 
 迷宮遺物詳細=Relic Details
 
@@ -377,9 +377,9 @@ relic
 トリックランナー=Trick Runner
 コネクトサインマスの抽選回\n数+1（1回）=Connect Sign Space draw\ncount +1 (1 time)
 
-【会心】9以上：\n敵全体に物理/魔法被クリダメアップ（【会心】数×5％）\nダメージブースト（【会心】数×2％）\n=[Focus]9 or higher:\nBoost all enemies' P/M CRIT DMG Taken ([Critical] count × 5%)\nDamage Boost ([Critical] count × 2%)\n
-【会心】4以上：\n物理/魔法クリダメアップ（【会心】数×10％）\n物理/魔法クリティカルアップ（【会心】数×400）\n=[Focus]4 or higher:\nBoost P/M CRIT DMG ([Critical] count × 10%)\nBoost P/M CRIT RATE ([Critical] count × 400)\n
-【会心】15以上：\n攻撃時追加ダメージ（【会心】数×2％）\n=[Focus]15 or higher:\nAdditional damage on attack ([Critical] count × 2%)\n
+【会心】9以上：\n敵全体に物理/魔法被クリダメアップ（【会心】数×5％）\nダメージブースト（【会心】数×2％）\n=[Focus]9+ :\n►Boost all enemies' P/M CRIT DMG Taken ([Critical] count × 5%)\n►Damage Boost ([Critical] count × 2%)\n
+【会心】4以上：\n物理/魔法クリダメアップ（【会心】数×10％）\n物理/魔法クリティカルアップ（【会心】数×400）\n=[Focus]4+ :\n►Boost P/M CRIT DMG ([Critical] count × 10%)\n►Boost P/M CRIT RATE ([Critical] count × 400)\n
+【会心】15以上：\n攻撃時追加ダメージ（【会心】数×2％）\n=[Focus]15+: \n►Additional damage on attack ([Critical] count × 2%)\n
 
 バトル勝利後時の仲間キャラ\n加入数+1（3回）=After battle victory, ally character\nrecruitment count +1 (3 times)
 姫さま親衛隊勧誘係=Princess Guard Recruitment Officer
@@ -391,8 +391,8 @@ relic
 バトル開始時に調和状態=Enter Harmony state at battle start
 フォレストハーモニー=Forest Harmony
 
-【守備】9以上：\nＨＰ回復量ダウン耐性付与\n味方からバフを受けるか、敵から攻撃を受けるたびに【闘\n志】＋１（最大50）\n【闘志】の数に応じて与ダメアップ（【闘志】数×3％）\n=[Defense]9 or higher:\nGrant resistance to reduced HP Recovery\nGain +1 [Fighting Spirit] whenever receiving a buff from allies or being attacked by enemies (max 50)\nIncrease damage dealt according to [Fighting Spirit] count ([Fighting Spirit] × 3%)\n
-【守備】15以上：\n残りＨＰ割合に応じたダメージブースト（最大60％）\nＨＰが0になった場合、戦闘不能になる前にＨＰを100％回復（1回）\n=[Defense]15 or higher:\nDamage Boost according to remaining HP ratio (max 60%)\nWhen HP reaches 0, recover 100% HP before being defeated (1 time)\n
+【守備】9以上：\nＨＰ回復量ダウン耐性付与\n味方からバフを受けるか、敵から攻撃を受けるたびに【闘\n志】＋１（最大50）\n【闘志】の数に応じて与ダメアップ（【闘志】数×3％）\n=[Defense]9+: \n►Grant resistance to reduced HP Recovery\n►Gain +1 [Fighting Spirit] whenever receiving a buff from allies or being attacked by enemies (max 50)\n►Increase damage dealt according to [Fighting Spirit] count ([Fighting Spirit] × 3%)\n
+【守備】15以上：\n残りＨＰ割合に応じたダメージブースト（最大60％）\nＨＰが0になった場合、戦闘不能になる前にＨＰを100％回復（1回）\n=[Defense]15+: \n►Damage Boost according to remaining HP ratio (max 60%)\n►When HP reaches 0, recover 100% HP before being defeated (1 time)\n
 ベルベットルージュ=Velvet Rouge
 チャームファタール=Charm Fatale
 敵の誘惑時間+50％=Enemy Charm duration +50%

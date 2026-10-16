@@ -8,51 +8,62 @@ auto限定=Auto only
 納品アイテム=Items rewarded
 
 出現モンスター=Monsters
+sr:"^クエストガイド【(.+)】$"=Quest Guide [$1]
+
+《EX》危険な魔物・翼竜ふたたび=<EX> Dangerous Monster: Winged Dragon, Once More
+《EX》危険な魔物・懶獣=<EX> Dangerous Monster: Sloth Beast
+《EX》危険な魔物・鬼騎兵=<EX> Dangerous Monster: Ogre Cavalry
+《EX》危険な魔物・雷鳥ふたたび=<EX> Dangerous Monster: Thunderbird, Once More
+《EX》危険な魔物・大鬼ふたたび=<EX> Dangerous Monster: Great Ogre, Once More
+《EX》天才発明家の三女、襲来=<EX> The Genius Inventor's Third Daughter Strikes!
+《EX》危険な魔物・狂熊と翼竜=<EX> Dangerous Monsters: Mad Bear and Winged Dragon
+《EX》危険な影と魔物・雷々傲M=<EX> Dangerous Shadow and Monster: Rairai Gou M
+《EX》受難体質の次女、遭難=<EX> The Accident-Prone Second Daughter Goes Missing
+《EX》危険な魔物・大鬼と雷鳥=<EX> Dangerous Monsters: Great Ogre and Thunderbird
+《EX》豪放磊落の長女、狂酔=<EX> The Free-Spirited Eldest Daughter Goes on a Drunken Rampage
+《EX》危険な魔物・胡狼と眼蔓=<EX> Dangerous Monsters: Jackal and Eyestalk Vines
+《EX》危険な影の群れ・堕天=<EX> Dangerous Shadow Horde: Fallen Angels
+《EX》危険な影の群れ・魔学=<EX> Dangerous Shadow Horde: Magic Academy
+《EX》危険な影と怪鳥獣=<EX> Dangerous Shadows and Monstrous Birds
+《EX》危険な魔物・鷲獅子=<EX> Dangerous Monster: Griffin
+《EX》危険な魔物・深海竜=<EX> Dangerous Monster: Deep-Sea Dragon
+《EX》危険な魔物・眼蔓ふたたび=<EX> Dangerous Monster: Eyestalk Vines, Once More
+《EX》危険な魔物・魔狼=<EX> Dangerous Monster: Demon Wolf
+《EX》危険な魔物・妖蛇=<EX> Dangerous Monster: Serpent
+《EX》危険な魔物・老大亀=<EX> Dangerous Monster: Ancient Giant Turtle
+《EX》危険な魔物・仙猿=<EX> Dangerous Monster: Immortal Ape
+《EX》危険な魔物・霊王=<EX> Dangerous Monster: Spirit King
+
+
+《EX》危険な影の群れ=<EX> Dangerous Shadow Horde
+《EX》危険な影の群れ・学院=<EX> Dangerous Shadow Horde: Academy
+《EX》危険な影の群れ・光願=<EX> Dangerous Shadow Horde: Light's Wish
+《EX》危険な影の群れ・偶像=<EX> Dangerous Shadow Horde: Idols
+《EX》危険な影の群れ・救護=<EX> Dangerous Shadow Horde: Infirmary
+《EX》危険な影の群れ・財団=<EX> Dangerous Shadow Horde: Foundation
+《EX》危険な影の群れ・美食=<EX> Dangerous Shadow Horde: Gourmet
+《EX》危険な影の群れ・黄昏=<EX> Dangerous Shadow Horde: Twilight
+《EX》危険な影の群れ・学院=<EX> Dangerous Shadow Horde: Academy
+《EX》危険な影の群れ・白翼=<EX> Dangerous Shadow Horde: White Wings
+《EX》危険な影の群れ・竜巣=<EX> Dangerous Shadow Horde: Dragon's Nest
+《EX》危険な影の群れ・森精=<EX> Dangerous Shadow Horde: Forest Spirits
+《EX》危険な影の群れ・仲良=<EX> Dangerous Shadow Horde: Friendship
+《EX》危険な影の群れ・魔軍=<EX> Dangerous Shadow Horde: Demon Army
 
 裏世界での戦闘訓練=Combat Training in the Reverse World
 【トワイライトキャラバン】出動！=Twilight Caravan Dispatch!
 裏世界への修学旅行？=School Trip to the Reverse World?
-《EX》危険な影と怪鳥獣=《EX》Dangerous Shadows and Monsters
-《EX》危険な影の群れ=《EX》Dangerous Flock of Shadows
-《EX》危険な影の群れ・偶像=《EX》Dangerous Shadow Horde: Idols
-《EX》危険な影の群れ・救護=《EX》Dangerous Shadow Horde: Orphane
-《EX》危険な影の群れ・財団=《EX》Dangerous Shadow Horde: Foundation
-《EX》危険な影の群れ・美食=《EX》Dangerous Shadow Horde: Gourmet
-《EX》危険な影の群れ・黄昏=《EX》Dangerous Shadow Horde: Twilight
-《EX》危険な影の群れ・学院=《EX》Dangerous Shadow Horde: Academy
-《EX》危険な影の群れ・白翼=《EX》Dangerous Shadow Horde: White Wings
-《EX》危険な影の群れ・竜巣=《EX》Dangerous Shadow Horde: Dragon's Nest  
-《EX》危険な影の群れ・森精=《EX》Dangerous Shadow Horde: Forest Spirits
-《EX》危険な影の群れ・仲良=《EX》Dangerous Shadow Horde: Friends
-《EX》危険な影の群れ・魔軍=《EX》Dangerous Shadow Horde: Demon Army
-《EX》危険な魔物・鷲獅子=《EX》Dangerous monster & Eagle Lion
-《EX》危険な魔物・深海竜=《EX》Dangerous Monster: Deep Sea Dragon
 衝突、母性vs商魂！？=Clash: Motherly Love vs. Mercantile Spirit!?
 冥界に漂う魔性の香り=The Enchanting Scent Drifting Through the Underworld
-《EX》危険な影の群れ・堕天=《EX》Dangerous Swarm of Shadows: Fallen Angel
-《EX》危険な影の群れ・魔学=《EX》Dangerous Swarm of Shadows: Dark Arts
-
-《EX》危険な魔物・眼蔓ふたたび=《EX》Dangerous Monster: Eyestalk Vines, Once More
 うるわしや、冥界べっぴん旅行客=Beautiful, beautiful tourists to the underworld
 冥府の魔鎧=Demonic Armor of the Underworld
-
 ギャングとヒーロー=Gangs and Heroes
-《EX》危険な魔物・大鬼ふたたび=《EX》Dangerous Monsters: Great Oni Again
-
 襲来！赤髪盗賊三姉妹！？=Attack! Three red-haired bandit sisters?!
-《EX》天才発明家の三女、襲来=《EX》The 3rd Daughter of a Genius Inventor, Assault
-《EX》危険な魔物・狂熊と翼竜=《EX》Dangerous Mad Bear and Wyvern
-《EX》危険な影と魔物・雷々傲M=《EX》Dangerous Monsters with Thunderous Arrogance
-《EX》受難体質の次女、遭難=《EX》The 2nd Daughter of Sensitive Constitution, Stranded
-《EX》危険な魔物・大鬼と雷鳥=《EX》Dangerous Monsters: Great Oni and Thunderbird
-《EX》豪放磊落の長女、狂酔=《EX》The Eldest Daughter of Unrestrained Nobility, Drunkenness
-《EX》危険な魔物・胡狼と眼蔓=《EX》Dangerous Demon, Horo and Eyeball Tendril
 迷子の鳥を導け！=Guide the Lost Bird!  
 白き剣と黒き盾=White Sword and Black Shield
 冥界を笑わせに来ました！=I Came to Make the Underworld Laugh!
 大人女子会へようこそ=Welcome to the Adult Ladies' Gathering
 裏世界安全講習会=Netherworld Safety Training
-
 おさんぽはアツアツヒヤヒヤ=Osanpo is hot, hot, and hot
 冥界の魔物調査=Underworld Creature Investigation
 魔と闇の令嬢=The Young Lady of Evil and Darkness
@@ -95,7 +106,6 @@ auto限定=Auto only
 
 冥界ファッションショー☆=Underworld Fashion Show☆
 忍者冥剣伝=Ninja Netherblade Chronicles
-《EX》危険な影の群れ・光願=EX: Dangerous Shadow Swarm – Radiant Wish
 
 
 このクエストはクリア後の挑戦ができません。=This quest cannot be attempted after completion.
@@ -110,12 +120,9 @@ auto限定=Auto only
 以下の報酬を受け取りました。=Received the following rewards.
 
 ミスト・イン・リビングデッド=Mist in Living Dead
-《EX》危険な魔物・懶獣=《EX》 Dangerous Monster: Raiju
-《EX》危険な魔物・鬼騎兵=《EX》Dangerous Monster: Oni Cavalry
-《EX》危険な魔物・雷鳥ふたたび=《EX》 Dangerous Monster Thunderbird Again
+
 凸凹楽団三重奏=Convex Band Trio
 
 蒼海の孤島=Isolated Island in the Blue Sea
 アラクネの肉マシマシマシ炒め野菜入り=Arachne Meat Extra-Extra-Extra with Stir-Fried Vegetables
 目立つ女と目立たない少女=The Showy Woman and the Unassuming Girl
-《EX》危険な魔物・翼竜ふたたび=<EX> Dangerous Monster: Winged Dragon, Once More

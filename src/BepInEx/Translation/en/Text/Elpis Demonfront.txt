@@ -69,12 +69,14 @@ r:"^難易度ボーナス ×([0-9,.]+)$"=Difficulty Bonus ×$1
 3戦目=3rd match
 4戦目=4th match
 5戦目=5th match
+r:"^([0-9０-９])戦目(（.+）)$"=$2 Match $1
 
 火属性ボーナスアップ=Fire attribute bonus up
 光属性ボーナスアップ=Light attribute bonus up
 闇属性ボーナスアップ=Dark attribute bonus up
 水属性ボーナスアップ=Water attribute bonus up
 風属性ボーナスアップ=Wind attribute bonus up
+
 
 スキップスコアが最大の難易度でスキップします。=Skip using the difficulty with the highest skip score.
 挑戦回数を消費しないで1回バトルをスキップします。=Skip one battle without consuming an attempt.
