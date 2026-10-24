@@ -1,0 +1,33 @@
+##Profile##
+【魔法】後衛で働いて働いて働く仕事中毒な光の大精霊。自分に展開されているバリアに応じて性能が強化されるスキルを武器に、ブラックな環境さえ輝く笑顔で照らす。=[Magic] A workaholic great light spirit who works and works from the back line. Armed with skills that grow stronger based on the barriers deployed on herself, she illuminates even the harshest workplaces with her radiant smile.
+
+光の大魔法陣=Great Light Magic Circle
+お仕事、残業、奉仕活動=Work, Overtime, Volunteer Activities
+異変を照らす光=Light That Illuminates the Anomaly
+かがやく休息を=A Radiant Respite
+-月-日/-歳=-Month -Day/-yo
+光精霊、働き者。=Light Spirit, Hard Worker.
+
+
+##UB##
+大いなる光矢=Great Light Arrow
+味方全体の魔法攻撃力と魔法クリティカルを特大アップ、物理/魔法無効バリアを展開する。自分に展開中のバリアの数に応じて追加効果が発動する。１つの場合、目の前の敵１キャラに魔法特大ダメージを与える。２つの場合、目の前の最大２キャラまでの敵に魔法特大ダメージを与える。３つ以上の場合、目の前の最大３キャラまでの敵に魔法特大ダメージを与える。=Massively boosts all allies' M.ATK and M.CRIT RATE, and deploys physical/magic nullification barriers. Additional effects activate based on the number of barriers currently deployed on self. If there is 1 barrier, deals massive M.DMG to an enemy in front. If there are 2 barriers, deals massive M.DMG to up to 2 enemies in front. If there are 3 or more barriers, deals massive M.DMG to up to 3 enemies in front.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを200アップ(\d+)ダメージ分の物理魔法無効バリアを展開する自分にバリアが１つ展開中、敵単体に(\d+)の魔法ダメージ自分にバリアが２つ展開中、以下の効果が発動する１番目に近い敵単体に(\d+)の魔法ダメージ２番目に近い敵単体に(\d+)の魔法ダメージ自分にバリアが３つ以上展開中、以下の効果が発動する１番目に近い敵単体に(\d+)の魔法ダメージ２番目に近い敵単体に(\d+)の魔法ダメージ３番目に近い敵単体に(\d+)の魔法ダメージ$"=►Boosts all allies' M.ATK by $1 for 18s.\n►Boosts all allies' M.CRIT RATE by 200 for 18s.\n►Deploys a Barrier that nullifies $2 P.DMG and M.DMG for 18s.\n\nIf self has 1 Barrier deployed:\n►Deals $3 M.DMG to the closest enemy.\n\nIf self has 2 Barriers deployed:\n►Deals $4 M.DMG to the closest enemy.\n►Deals $5 M.DMG to the second-closest enemy.\n\nIf self has 3 or more Barriers deployed:\n►Deals $6 M.DMG to the closest enemy.\n►Deals $7 M.DMG to the second-closest enemy.\n►Deals $8 M.DMG to the third-closest enemy.
+
+##S1##
+聖なる力=Holy Power
+味方全体の魔法攻撃力を特大アップ、ＴＰを小回復させ、継続ＨＰ回復状態を付与する。自分に展開中のバリアの数に応じて追加効果が発動する。１つ以上の場合、さらに味方全体の魔法クリティカルダメージを小アップさせる。２つ以上の場合、さらに味方全体のＴＰ上昇を小アップさせる。３つ以上の場合、さらに追加で自分のＴＰを特大回復する。=Massively boosts all allies' M.ATK, slightly recovers their TP, and grants them continuous HP recovery. Additional effects activate based on the number of barriers currently deployed on self. If there is 1 or more barriers, additionally slightly boosts all allies' M.CRIT DMG. If there are 2 or more barriers, additionally slightly boosts all allies' TP Boost. If there are 3 or more barriers, additionally massively recovers own TP.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体のＴＰを100回復毎秒ＨＰを(\d+)回復する自分に展開中のバリアの数に応じて以下の効果が発動する１つ以上の場合、味方全体の魔法クリダメを12％アップ２つ以上の場合、味方全体のＴＰ上昇を5アップ３つ以上の場合、自分のＴＰを1000回復$"=Cast time: 1.05s.\n►Boosts all allies' M.ATK by $1 for 12s.\n►Recovers 100 TP for all allies.\n►Recovers $2 HP every second for 10.5s.\n\nThe following effects activate based on the number of Barriers deployed on self:\nIf 1 or more:\n►Boosts all allies' M.CRIT DMG by 12% for 12s.\nIf 2 or more:\n►Boosts all allies' TP Boost by 5 for 12s.\nIf 3 or more:\n►Recovers 1000 TP.
+
+##S2##
+光の閃霊=Light Flash Spirit
+目の前の敵１キャラに魔法大ダメージを与え、スタン状態と暗闇状態にする。自分が物理無効または吸収バリア展開中の場合、さらに自分を一定時間物理回避状態にする。自分が魔法無効または吸収バリア展開中の場合、さらに自分を一定時間魔法回避状態にする。=Deals major M.DMG to an enemy in front and inflicts Stun and Blind. If self has a physical nullification or absorption barrier active, additionally grants self physical evasion for a set period. If self has a magic nullification or absorption barrier active, additionally grants self magic evasion for a set period.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体を一定時間行動不能にする敵単体を暗闇状態にする自分に物理無効または吸収バリア展開中、一定時間すべての物理攻撃を回避する自分に魔法無効または吸収バリア展開中、一定時間すべての魔法攻撃を回避する$"=Cast time: 1.05s.\n►Deals $1 M.DMG to a single enemy.\n►Stuns a single enemy for 3%.\n►Inflicts Blind on a single enemy for 6s.\n►While self has a Physical Barrier that nullifies or absorbs damage, evades all P.ATK for 6s.\n►While self has a Magic Barrier that nullifies or absorbs damage, evades all M.ATK for 6s.
+
+##EX##
+お仕事ですね！？=It's Time to Work!?
+お仕事ですね！？+=It's Time to Work!?+
+
+##SP1##
+味方のＴＰを小回復させるフィールドを展開する。光属性の味方の数が５キャラ以上の場合、この効果はバトル終了まで継続する。=Deploys a field that slightly recovers allies' TP. If there are 5 or more Light-element allies, this effect lasts until the end of battle.
+r:"^毎秒ＴＰを5回復するフィールドを展開する$"=►Deploys a field within 2160 that recovers 5 TP every second for 10s.\n\nIf there are 5 or more Light-element allies:\n►Deploys a field within 2160 that recovers 5 TP every second for 180s.

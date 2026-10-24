@@ -12,16 +12,17 @@ r:"^味方全体の物理防御力を(\d+)アップ味方全体の魔法防御�
 
 ##S1##
 ルーチェ・クラティーヴァ=Luce Creativa
-最もＨＰが低い味方１キャラのＨＰを中回復し、さらに物理ダメージカット効果と魔法ダメージカット効果を付与する。=Moderately recovers an ally's HP with the lowest HP, and grants P/M.DMG Cut to them.
+最もＨＰが低い味方のＨＰを中回復させ、物理・魔法ダメージカット効果を付与する。=Moderately restores the HP of the ally with the lowest HP and grants them a physical/magic damage reduction effect.
 r:"^味方単体のＨＰを(\d+)回復味方単体が受ける物理ダメージを15％カット味方単体が受ける魔法ダメージを15％カット$"=Cast time: 1.04s.\n►Recovers an ally's HP by $1.\n►Grants P.DMG Cut to an ally by 15% for 12s.\n►Grants M.DMG Cut to an ally by 15% for 12s.
 
 ##S2##
 トーレ・スプレデンテ=Torre Splendente
-バリアが展開されている味方全ての物理攻撃力と魔法攻撃力を極大アップさせ、ＴＰを中回復させる。自分の魔法攻撃力が高い程、物理攻撃力と魔法攻撃力の上昇量が最大５倍までアップする。=Massively boosts all allies' P/M.ATK with Barrier, and recovers their TP by a moderate amount. The higher own M.ATK, the higher P/M.ATK boost is, up to 5 times.
+バリア展開中の味方の物理・魔法攻撃力を極大アップ、ＴＰを中回復させる。自分の魔法攻撃力に応じて、物理・魔法攻撃力のアップ量が最大５倍まで増加する。=Extremely boosts the P.ATK and M.ATK of allies with an active barrier and moderately recovers their TP. The P.ATK and M.ATK boosts increase by up to 5 times based on own M.ATK.
 r:"^バリアが展開されている味方の物理攻撃力を(\d+)アップバリアが展開されている味方の魔法攻撃力を(\d+)アップバリアが展開されている味方のＴＰを200回復$"=Cast time: 0.74s.\n►Boosts all allies' P.ATK with Barrier by $1 for 18s.\n►Boosts all allies' M.ATK with Barrier by $2 for 18s.\n►Recovers all allies' TP with Barrier by 200.
 
 ##SP1##
 スクデット=Scudo
+味方全体の物理・魔法防御力を小アップさせる。=Slightly boosts all allies' P.DEF and M.DEF.
 味方全体の物理防御力を初期値の15％アップ味方全体の魔法防御力を初期値の15％アップ=Cast time: 2.04s.\n►Boosts all allies' P.DEF by 15% for 12s.\n►Boosts all allies' M.DEF by 15% for 12s.
 このスキルのスキルレベルは「フィオレ・フェリチータ」と連動しています=This skill's level is linked to "Fiore Felicità"
 

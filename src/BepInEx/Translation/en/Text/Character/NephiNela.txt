@@ -6,25 +6,27 @@
 
 ##UB##
 滅裂万化・輪廻転掌=Destruction Morph: Palm of Reincarnation
-最も物理防御力の低い敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせる。【妨魔塵】中、このスキルの効果がアップする。=Deals massive P.DMG to an enemy with the lowest P.DEF, slightly lowers its P.DEF, and slightly boosts its P.CRIT DMG taken. If [Magic Disturbance Dust] is active, doubles all effects.
+最も物理防御力が低い敵に物理特大ダメージを与え、物理防御力を小ダウン、受けるクリティカルダメージを小アップさせる。【妨魔塵】中、効果量が増加する。=Deals massive P.DMG to the enemy with the lowest P.DEF, slightly lowers their P.DEF, and slightly increases the critical damage they take. Effect values increase while [Magic Disturbance Dust] is active.
 r:"^敵単体に(\d+)の物理ダメージ妨魔塵中、敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン妨魔塵中、敵単体の物理防御力を(\d+)ダウン敵単体のクリティカルを受けた際のダメージを4％アップ妨魔塵中、敵単体のクリティカルを受けた際のダメージを8％アップ$"=If [Magic Disturbance Dust] is not active:\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy P.DEF by $3 for 18s.\n►Boosts an enemy's P.CRIT DMG taken by 4% for 18s.\n\nIf [Magic Disturbance Dust] is active:\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy P.DEF by $4 for 18s.\n►Boosts an enemy's P.CRIT DMG taken by 8% for 18s.
 
 ##S1##
 万化・硬拳=Morph: Hard Fist
-最も物理防御力の低い敵１キャラに物理中ダメージを与え、味方全体の物理攻撃力を大アップ、物理クリティカルを中アップ、物理攻撃クリティカル時のダメージを小アップさせる。【妨魔塵】中、このスキルの効果がアップする。=Deals moderate P.DMG, greatly boosts all allies' P.ATK, P.CRIT Rate, and P.CRIT DMG. If [Magic Disturbance Dust] is active, doubles all effects.
-r:"^敵単体に(\d+)の物理ダメージ妨魔塵中、敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ妨魔塵中、味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを75アップ妨魔塵中、味方全体の物理クリティカルを150アップ味方全体の物理クリダメを3％アップ妨魔塵中、味方全体の物理クリダメを6％アップ$"=If [Magic Disturbance Dust] is not active:\n►Deals $1 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $3 for 12s.\n►Boosts all allies' P.CRIT Rate by 75 for 12s.\n►Boosts all allies' P.CRIT DMG by 3% for 12s.\n\nIf [Magic Disturbance Dust] is active:\n►Deals $2 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $4 for 12s.\n►Boosts all allies' P.CRIT Rate by 150 for 12s.\n►Boosts all allies' P.CRIT DMG by 6% for 12s.
+最も物理防御力が低い敵に物理中ダメージを与え、味方全体の物理攻撃力を大アップ、物理クリティカルを中アップ、物理クリティカルダメージを小アップさせる。【妨魔塵】中、効果量が増加する。=Deals moderate P.DMG to the enemy with the lowest P.DEF, greatly boosts all allies' P.ATK, moderately boosts their P.CRIT RATE, and slightly boosts their P.CRIT DMG. Effect values increase while [Magic Disturbance Dust] is active.
+
+r:"^敵単体に(\d+)の物理ダメージ妨魔塵中、敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ妨魔塵中、味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを75アップ妨魔塵中、味方全体の物理クリティカルを150アップ味方全体の物理クリダメを3％アップ妨魔塵中、味方全体の物理クリダメを6％アップ$"=Cast time: 1.05s.\nIf [Magic Disturbance Dust] is not active:\n►Deals $1 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $3 for 12s.\n►Boosts all allies' P.CRIT Rate by 75 for 12s.\n►Boosts all allies' P.CRIT DMG by 3% for 12s.\n\nIf [Magic Disturbance Dust] is active:\n►Deals $2 P.DMG to an enemy.\n►Boosts all allies' P.ATK by $4 for 12s.\n►Boosts all allies' P.CRIT Rate by 150 for 12s.\n►Boosts all allies' P.CRIT DMG by 6% for 12s.
 
 ##S2##
 万化・蛇盾=Morph: Snake Shield
-味方全体の行動速度を大アップ、ＨＰを中回復する。バトル開始後、初弾のこのスキルは自分に【鉄気ノ護リ】を20追加し、付与されている間、味方全員が敵から受けるダメージを10％軽減する。味方が敵からダメージを受ける度、【鉄気ノ護リ】を１つ消費し、その敵の最大ＨＰに応じて最大99999の割合ダメージを与え、味方全体の物理攻撃力を中アップする。【妨魔塵】中、行動速度の上昇量がアップする。=Greatly boosts all allies' action speed, moderately recovers their HP. When battle begins, 1st skill usage gains 20 [Iron Will Guard], which lowers all allies' P/M.DMG taken by 10%. When an ally receives damage, 1 [Iron Will Guard] is consumed, deals HP% based damage to an enemy capped at 99999, and moderately boosts all allies' P.ATK. If [Magic Disturbance Dust] is active, speed boost effect is increased.
-r:"^味方全体の行動速度アップ初使用時、自分に鉄気ノ護リを20追加する敵単体に最大99999の割合ダメージを与える味方全体の物理攻撃力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=►Boosts all allies' action speed to 150% for 12s.\n►For 1st skill usage, gains 20 [Iron Will Guard] stacks.\n►Recovers all allies' HP by $2.\n►If [Magic Disturbance Dust] is active, boosts all allies' action speed to 200% for 12s.
+味方全体の行動速度を大アップ、ＨＰを中回復させる。初回発動時、自分に【鉄気ノ護リ】を20個付与し、付与中、味方全体が敵から受けるダメージを10％軽減する。味方が敵からダメージを受けるたびに、【鉄気ノ護リ】を１個消費し、その敵の最大ＨＰに応じて最大99999の割合ダメージを与え、味方全体の物理攻撃力を中アップさせる。【妨魔塵】中、行動速度のアップ量が増加する。=Greatly boosts all allies' action speed and moderately restores their HP. On the first activation, grants self 20 [Iron Spirit Protection] stacks. While this effect is active, reduces damage taken by all allies from enemies by 10％. Each time an ally takes damage from an enemy, consumes 1 [Iron Spirit Protection] stack, deals percentage damage to that enemy based on their max HP, up to 99999, and moderately boosts all allies' P.ATK. The action speed boost increases while [Magic Disturbance Dust] is active.
+
+r:"^味方全体の行動速度50％アップ妨魔塵中、味方全体の行動速度100％アップ初使用時、自分に鉄気ノ護リを20追加する敵単体に最大99999の割合ダメージを与える味方全体の物理攻撃力を(\d+)アップ味方全体のＨＰを(\d+)回復$"=Cast time: 1.05s.\n►Boosts all allies' action speed by 50％ for 12s.\n►While [Magic Disturbance Dust] is active, boosts all allies' action speed by 100％ for 12s.\n\nUpon first use:\n►Adds 20 [Iron Will Guard] to self.\n►Deals percentage-based damage to a single enemy, up to 99,999.\n►Boosts all allies' P.ATK by $1 for 12s.\n►Recovers all allies' HP by $2.
 
 ##SP1##
 欺魔・鉄霞=Magic Dust: Iron Mist
 このスキルのスキルレベルは「滅裂万化・輪廻転掌」と連動しています=This skill's level is linked to "Destruction Morph: Palm of Reincarnation"
-環境効果【妨魔塵】を発動する。このスキルの効果は敵、味方すべてに適用される。魔法攻撃で与えるダメージが小ダウンする。=Activates the environmental effect [Magic Disturbance Dust]. This skill's effect applies to all enemies and allies. Slightly lowers everyone M.DMG taken.
-環境を妨魔塵にする敵味方が与える魔法ダメージを5％ダウン=►Lowers everyone's M.DMG taken by 5% for 180s.
+環境効果【妨魔塵】を発動する。このスキルの効果は敵、味方に適用される。魔法攻撃で与えるダメージを小ダウンさせる。=Activates the environment effect [Magic Disturbance Dust]. This skill's effects apply to both enemies and allies. Slightly reduces damage dealt by magic attacks.
 
+r:"^環境を妨魔塵にする敵味方の与える魔法ダメージを5％ダウン$"=Cast time: 1.05s.\n►Changes the environment to [Magic Disturbance Dust].\n►Reduces M.DMG dealt by both enemies and allies by 5％.
 ##EX##
 万化・尖鋭=Morph: Sharpness
 万化・尖鋭+=Morph: Sharpness+

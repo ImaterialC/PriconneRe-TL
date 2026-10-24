@@ -14,8 +14,8 @@ r:"^自分の物理攻撃力を(\d+)アップ範囲内の敵に(\d+)の物理ダ
 
 ##S1##
 スターライトシュート=Starlight Shoot
-前方の敵すべてに物理中ダメージを与え、さらに自分のＴＰを中回復する。範囲内の敵の数に応じて、ダメージとＴＰの回復量が増加する。=Deals moderate damage to all enemies, and slightly recovers own TP. The P.DMG dealt and TP recovery increase according to number of enemies.
-r:"^範囲内の敵に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=►Deals $1 (+0.3×$1×Enemy Count) P.DMG to all enemies.\n►Recovers own TP by $2 (+25×Enemy Count).
+前方の敵に物理中ダメージを与え、自分のＴＰを中回復する。範囲内の敵の数に応じて、効果量が増加する。=Deals moderate P.DMG to an enemy in front and moderately recovers own TP. Effect values increase based on the number of enemies within range.
+r:"^範囲内の敵に(\d+)の物理ダメージ自分のＴＰを(\d+)回復$"=Cast time: 0.59s.\n►Deals $1 (+0.3×$1×Enemy Count) P.DMG to all enemies.\n►Recovers own TP by $2 (+25×Enemy Count).
 
 ##S2##
 シスターズリンク=Sisters' Link

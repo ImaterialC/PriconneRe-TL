@@ -13,24 +13,32 @@
 約束の花をあなたに=The Promise Flower for You
 吸血姫とベス人形=Vampire Princess and Beth Doll
 
-r:"^ゴロツキに絡まれていた(.{1,10})を助けてくれたのは、謎の少女ヴァンピィだった。友だちのドラゴン『ベス』を探すヴァンピィのために(.{1,10})は協力することに。$"="It was Vampy, a mysterious girl, who helped $1, who was entwined with Gorotsuki. Finding her friend's dragon "Beth".$1 decides to cooperate for Vampy."
-r:"^ベスを探す(.{1,10})とヴァンピィ。そんな二人の前に、吸血鬼のイリヤが現れる。かくして(.{1,10})を巡り、イリヤとヴァンピィによる眷属の取り合いが始まるのだった。$"=$1 and Vampy looking for Beth. A vampire, Illya, appears in front of them. Thus, over $1, Illya and Vampy began to fight for the genus.
-r:"^元々、ヴァンピィとベスは何者かに誘拐されてランドソルへ来たことを知った(.{1,10})。イリヤのコウモリのおかげでベスの居場所が判明し、ついにベスとヴァンピィは再会を果たした。$"=Originally $1 learned that Vampy and Beth had been kidnapped by someone and came to Landosol. Thanks to Illya's bats, Beth's whereabouts were revealed, and Beth and Vampy finally reunited.
-r:"^夜の学校に少女の霊が現れるという噂が囁かれていた頃。成り行きで(.{1,10})はその少女と出会い、学校案内を頼まれる。そこで(.{1,10})は、少女の本当の正体を知るのだった。$"=Around the time when rumors were whispered that a girl's spirit would appear at night school. $1 meets the girl and is asked for her school information. So $1 knew what she really was about the girl.
-r:"^ヴァンピィとベスが再会した後、ヴァンピィは自分の故郷がどこにあるのか思い出せないことが分かる。そこで(.{1,10})は、ヴァンピィを故郷へ帰すために手助けすることを決める。$"=After Vampy and Beth meet again, Vampy finds that she can't remember where her hometown is. So $1 decides to help Vampy return to his hometown.
-r:"^ヴァンピィたちを誘拐した黒幕が『伯爵』だと判明。単独で『伯爵』の屋敷へ乗り込んだヴァンピィを追って(.{1,10})はベスと一緒に城へ乗り込み、『伯爵』との決着をつけるのだった。$"="The mastermind behind the kidnapping of Vampies turned out to be the "Count". Following Vampy who had boarded the mansion of "Count" alone, $1 boarded the castle with Beth and settled with "Count"."
-r:"^『伯爵』の供述によって、ヴァンピィの故郷がすでにないことを知る。永い眠りの末、大切な記憶を失ったヴァンピィのために、(.{1,10})とベスはひとつの約束をヴァンピィに伝えるのだった。$"="The statement of "Count" tells us that Vampy's hometown is no longer there. $1 and Beth tell Vampy a promise for Vampy, who lost her precious memory after a long sleep."
-r:"^眠る(.{1,10})の前に現れたヴァンピィは、ぬいぐるみのベスを紹介。『レジェンドオブアストルム』にもベスがいると知ったヴァンピィは、(.{1,10})とゲームで会う約束をするのだった。$"="Vampy, who appeared in front of Sleeping $1, introduced Beth, a stuffed animal. Knowing that Beth is also in Legend of Astrum, Vampy promises to meet $1 in the game."
+ゴロツキに絡まれていた{playername}を助けてくれたのは、謎の少女ヴァンピィだった。友だちのドラゴン『ベス』を探すヴァンピィのために{playername}は協力することに。=It was Vampy, a mysterious girl, who helped {playername}, who was entwined with Gorotsuki. Finding her friend's dragon "Beth".{playername} decides to cooperate for Vampy.
+ベスを探す{playername}とヴァンピィ。そんな二人の前に、吸血鬼のイリヤが現れる。かくして{playername}を巡り、イリヤとヴァンピィによる眷属の取り合いが始まるのだった。={playername} and Vampy looking for Beth. A vampire, Illya, appears in front of them. Thus, over {playername}, Illya and Vampy began to fight for the genus.
+元々、ヴァンピィとベスは何者かに誘拐されてランドソルへ来たことを知った{playername}。イリヤのコウモリのおかげでベスの居場所が判明し、ついにベスとヴァンピィは再会を果たした。=Originally {playername} learned that Vampy and Beth had been kidnapped by someone and came to Landosol. Thanks to Illya's bats, Beth's whereabouts were revealed, and Beth and Vampy finally reunited.
+夜の学校に少女の霊が現れるという噂が囁かれていた頃。成り行きで{playername}はその少女と出会い、学校案内を頼まれる。そこで{playername}は、少女の本当の正体を知るのだった。=Around the time when rumors were whispered that a girl's spirit would appear at night school. {playername} meets the girl and is asked for her school information. So {playername} knew what she really was about the girl.
+ヴァンピィとベスが再会した後、ヴァンピィは自分の故郷がどこにあるのか思い出せないことが分かる。そこで{playername}は、ヴァンピィを故郷へ帰すために手助けすることを決める。=After Vampy and Beth meet again, Vampy finds that she can't remember where her hometown is. So {playername} decides to help Vampy return to his hometown.
+ヴァンピィたちを誘拐した黒幕が『伯爵』だと判明。単独で『伯爵』の屋敷へ乗り込んだヴァンピィを追って{playername}はベスと一緒に城へ乗り込み、『伯爵』との決着をつけるのだった。=The mastermind behind the kidnapping of Vampies turned out to be the "Count". Following Vampy who had boarded the mansion of "Count" alone, {playername} boarded the castle with Beth and settled with "Count".
+『伯爵』の供述によって、ヴァンピィの故郷がすでにないことを知る。永い眠りの末、大切な記憶を失ったヴァンピィのために、{playername}とベスはひとつの約束をヴァンピィに伝えるのだった。=The statement of "Count" tells us that Vampy's hometown is no longer there. {playername} and Beth tell Vampy a promise for Vampy, who lost her precious memory after a long sleep.
+眠る{playername}の前に現れたヴァンピィは、ぬいぐるみのベスを紹介。『レジェンドオブアストルム』にもベスがいると知ったヴァンピィは、{playername}とゲームで会う約束をするのだった。=Vampy, who appeared in front of Sleeping {playername}, introduced Beth, a stuffed animal. Knowing that Beth is also in Legend of Astrum, Vampy promises to meet {playername} in the game.
 
 ##UB##
 エターナル・フレンドシップ=Eternal Friendship
-目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップさせる。さらにＴＰが無くなるまでの間ベスと共闘状態になる。=Deals massive M.DMG to the enemy in front and greatly increases her own M.ATK. Additionally, she enters a cooperative state with "Beth" until her TP is depleted.
+目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップし、ベスと共闘状態になる。共闘中はＴＰが減少し続け、ＴＰが無くなると共闘状態が解除される。=Deals massive M.DMG to an enemy in front, greatly boosts own M.ATK, and enters a co-op state with Beth. While in the co-op state, TP continuously decreases, and the state ends when TP reaches 0.
 
-目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップし、与ダメージに応じて味方全体のＨＰを回復させる。さらに【竜の実】を初回発動時は５つ、２回目以降は２つ獲得し（最大５つまで）、バトル終了時までベスと共闘状態になる。共闘中のスキル発動時に【竜の実】を１つ消費し、目の前の敵１キャラのＴＰを小ダウンさせ、自分のＴＰを小回復する。=Deals massive magic damage to a single foe, greatly boosts the user’s Magic Attack, and restores all allies’ HP based on damage dealt. Grants 5 [Dragon’s Fruits] on first use and 2 thereafter (max 5), entering Co-op Mode with Beth until battle ends. When you activate a skill while fighting together, one [Dragon Fruit] will be consumed, slightly reducing the TP of one enemy in front of you and slightly recovering your own TP.
+
+##UB+##
+目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップし、与えたダメージに応じて味方全体のＨＰを回復させる。自分に【竜の実】（上限５）を初回発動時は５個、２回目以降は２個付与し、バトル終了時までベスと共闘状態になる。共闘中のスキル発動時に【竜の実】を１個消費し、目の前の敵１キャラのＴＰを小ダウンさせ、自分のＴＰを小回復する。=Deals extra-large damage to an enemy character in front of you, greatly increases your own magic attack power, and restores the HP of your entire ally based on the damage you inflict. You infuse yourself with 5 [Dragon Fruit] (max 5) the first time you activate it, 2 times afterward, and you will be in a state of battle with Beth until the battle is over. Consume 1 [Dragon Fruit] when you activate a skill in the middle of a co-fight, lowering the TP of the enemy character before you, and restoring your own TP.
+r:"^敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ初使用時、竜の実を５つ獲得味方全体のＨＰを与ダメージの２％回復$"=►Deals $1 M.DMG to a single enemy.\n►Boosts own M.ATK by $2 for 18s.\n\nUpon first use:\n►Obtains 5 [Dragon Fruit].\n►Recovers all allies' HP by 2% of damage dealt.
+
+##UB+SP##
+目の前の敵１キャラに魔法特大ダメージを与え、自分の魔法攻撃力を大アップし、与えたダメージに応じて味方全体のＨＰを回復させる。自分に【竜の実】（上限５）を２個付与する。共闘中のスキル発動時に【竜の実】を１個消費し、目の前の敵１キャラのＴＰを小ダウンさせ、自分のＴＰを小回復する。=Deals extra-large damage to an enemy character in front of you, greatly increases your own magic attack power, and restores the HP of your entire ally based on the damage you inflict. You infuse yourself with 2 [Dragon Fruits] (max 5). Consumes 1 [Dragons Fruit] when using skills during a joint battle, lowers TP of the enemy character before you, and recovers your own TP.
+SP1
+r:"^敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ竜の実を２つ獲得味方全体のＨＰを与ダメージの２％回復$"=►Deals $1 M.DMG to a single enemy.\n►Boosts own M.ATK by $2 for 18s.\n►Obtains 2 [Dragon Fruit].\n►Recovers all allies' HP by 2% of damage dealt.
 
 ##S1##
 ブラッド・ドレイン=Blood Drain
-目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、さらに自分のＴＰを小回復させる。=Deals large M.DMG to an enemy in front, slightly reduces its TP, and slightly recovers own TP.
+目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、自分のＴＰを小回復する。=Deals major M.DMG to an enemy in front, slightly reduces their TP, and slightly recovers own TP.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを75失わせる自分のＴＰを75回復$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's TP by 75.\n►Recovers own TP by 75.
 
 ##S2##
@@ -45,7 +53,7 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを75失わせる自
 
 ##SP2##
 リトルブレス=Little Breath
-目の前の敵１キャラに魔法大ダメージを与え、さらに自分の魔法攻撃力を大アップさせる。=Deals large M.DMG to an enemy in front, and also boosts own M.ATK.
+目の前の敵１キャラに魔法大ダメージを与え、自分の魔法攻撃力を大アップする。=Deals major M.DMG to an enemy in front and greatly boosts own M.ATK.
 
 ##EX##
 おしおきしちゃうよっ！=I'll Punish You!
@@ -53,12 +61,13 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを75失わせる自
 
 ##S1+##
 ブラッド・ドレイン+=Blood Drain+
-目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、さらに味方全体の魔法攻撃力を大アップさせ、自分のＴＰを小回復させる。=Deals large M.DMG to an enemy in front, slightly reduces its TP, greatly boosts all allies' M.ATK, and slightly recovers own TP.
+目の前の敵１キャラに魔法大ダメージを与え、ＴＰを小ダウンさせ、味方全体の魔法攻撃力を大アップさせ、自分のＴＰを小回復する。=Dealt a lot of magic damage to one enemy character in front of you, lower your TP, greatly increase the magic attack power of all your allies, and recover your own TP.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体のＴＰを75失わせる味方全体の魔法攻撃力を(\d+)アップ自分のＴＰを75回復$"=►Deals $1 M.DMG to an enemy.\n►Reduces an enemy's TP by 75.\n►Boosts all allies' M.ATK by $2 for 180s.\n►Recovers own TP by 75.
 
 ##SP1+##
 スカーレット・リンク+=Scarlet Link+
-目の前の敵１キャラに魔法特大ダメージを与え、さらに魔法防御力を大ダウンさせる。=Deals massive M.DMG to an enemy in front, and greatly lowers its M.DEF.
+目の前の敵１キャラに魔法特大ダメージを与え、魔法防御力を大ダウンさせる。=Deals extra-large damage to an enemy character in front of you, greatly reducing your magic defense.
+
 
 ##UE##
 ベスちゃん=Beth-chan

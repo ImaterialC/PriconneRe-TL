@@ -14,17 +14,17 @@
 
 ##UB##
 零の太刀・水月鏡花=Origin Strike: Severing Moon
-目の前の敵１キャラに物理大ダメージを与え、さらに物理防御力を大ダウンさせる。=Deals large P.DMG to an enemy directly in front and lowers their P.DEF by a large amount.
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を大ダウンさせる。=Deals major P.DMG to an enemy in front and greatly lowers their P.DEF.
 
 ##S1##
 一の太刀・雫薙ぎ=First Strike: Reticence
-敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵すべてに物理中ダメージを与え、さらに小さく吹き飛ばす。=Taunts all enemies and enters a stance. If attacked during this stance, deals moderate P.DMG to all enemies in range and knocks them back slightly.
-r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ$"=►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range\n►Knockbacks all enemies by 200 units.
+【挑発】敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵に物理中ダメージを与え、小さく吹き飛ばす。=[Taunt] Taunts all enemies. If hit by an attack during the post-taunt animation, deals moderate P.DMG to enemies in a forward range and knocks them back slightly.
+r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ$"=Cast time: 1.125s.\n►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range\n►Knockbacks all enemies by 200 units.
 
 ##S2##
 海内無双の型=Peerless Stance
 自分のＨＰを中回復、物理防御力を中アップする。=Moderately recovers own HP and moderately boosts own P.DEF.
-r:"^自分のＨＰを(\d+)回復自分の物理防御力を(\d+)アップ$"=►Recovers own HP by $1.\n►Boosts own P.DEF by $2.
+r:"^自分のＨＰを(\d+)回復自分の物理防御力を(\d+)アップ$"=Cast time: 1.125s.\n►Recovers own HP by $1.\n►Boosts own P.DEF by $2.
 
 ##EX##
 明鏡止水の境地=True Enlightenment
@@ -41,7 +41,7 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダ
 ##S1+##
 一の太刀・雫薙ぎ+=First Strike: Reticence+
 【挑発】敵全体を挑発する。挑発後のモーション中に攻撃を受けた場合、前方範囲内の敵に物理大ダメージを与え、物理防御力を小ダウンさせ、小さく吹き飛ばす。=[Taunt] Taunts all enemies. If attacked during the post-taunt animation, deals large P.DMG to enemies in the frontal area, slightly lowers their P.DEF, and knocks them back a short distance.
-r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range.\n►Knockbacks all enemies by 200 units.\n►Lowers enemies' P.DEF in 200 range by $2 for 12s.
+r:"^敵全体を挑発する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン$"=Cast time: 1.125s.\n►Provokes all enemies for 17s.\n►Counter if damage is taken in next 2s by $1 P.DMG in 200 range.\n►Knockbacks all enemies by 200 units.\n►Lowers enemies' P.DEF in 200 range by $2 for 12s.
 
 ##UE##
 真打 絶海・波浪丸=Zekkai & Haromaru - Origin

@@ -25,7 +25,7 @@ r:"^絶氷中、味方全体の物理攻撃力を(\d+)アップ絶氷中、味�
 ##EX##
 ラディアントルッツ=Radiant Lutz
 ラディアントルッツ+=Radiant Lutz+
-
+バトル開始時に自分の物理クリティカルを中アップする。=Moderately boosts own P.CRIT RATE at the start of battle.
 
 絶氷=Icebreaker
 物理攻撃クリティカル時のダメージが小アップする。=Slightly boosts Physical Critical Damage.

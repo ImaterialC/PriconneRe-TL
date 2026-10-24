@@ -5,8 +5,7 @@
 
 ##UB##
 天楼覇断剣=Spiresbane Blade
-目の前の敵１キャラに物理特大ダメージを与える。さらにＴＰが無くなるまでの間天楼覇断剣を装備する。=Deals massive P.DMG to an enemy directly in front. Equips the Spiresbane Blade until TP is fully depleted. Changes her Skills' Effects until her TP is Depleted (100 TP/s) and changes her rotation into Loop Rotation (UB). Changes her Skills' Effects back after TP reaches 0. (UB Does Not Cost Any TP)
-
+目の前の敵１キャラに物理特大ダメージを与え、天楼覇断剣を装備する。装備中はＴＰが減少し続け、ＴＰが無くなると装備が解除される。=Deals massive P.DMG to an enemy in front and equips the Heavenly Tower Severing Sword. While equipped, TP continuously decreases, and the equipment is removed when TP reaches 0.
 
 
 ##S1##

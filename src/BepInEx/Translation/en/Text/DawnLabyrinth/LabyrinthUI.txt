@@ -24,7 +24,7 @@ r:"^残り(\d+)セット購入可能！$"=Only $1 set left!
 挑戦を終了してラビリンスTOPに戻りますか？\n\n※「撤退する」を選択すると、報酬が獲得できない\n代わりにラビリンスパスポートが返却されます。=Would you like to end the challenge and return to the Labyrinth TOP?\n\n※If you select "Withdraw", you will not receive any rewards.\nInstead, your Labyrinth Passport will be returned to you.
 
 有効効果=Recommended
-ボスへの\n有効効果=Effective\nagaint this boss
+ボスへの\n有効効果=Effective\nagainst this boss
 バリア=Barrier
 対象のキャラがいません。=No target character.
 効果所有キャラ=Owned Recommended Characters
@@ -125,8 +125,9 @@ sr:"^\[3C404E\]\[FFBB00,CE4F00\]【(.+)】\[-\]と一緒に出発します。\n�
 【会心】15以上：敵の【看破】99：攻撃時追加ダメージ＋30％=[Critical] 15+:\n►Enemy [Expose] 99: +30% Additional Damage on attack
 
 【弱体】4以上：敵への継続ダメージアップ（【弱体】数×50％）=[Debuff] 4+:\n►Increase Damage over Time dealt to enemies ([Debuff] count × 50%)
-【弱体】9以上：敵にデバフを付与するたびに敵に【衰弱】＋１（最大66）敵の物理/魔法被ダメアップ（【衰弱】数×2％）=[Debuff] 9+:\n►Each time a debuff is inflicted on an enemy\n►inflict +1 [Weaken] (max 66)\n►Increase enemy Physical/Magic Damage Taken ([Weaken] count × 2%)
-【弱体】15以上：敵の【衰弱】66：１秒ごとに最大ＨＰの5％の割合ダメージ（最大100万）=[Debuff] 15+:\n►Enemy [Weaken] 66: Deal damage equal to 5% of max HP every second (max 1,000,000)
+【弱体】9以上：敵にデバフを付与するたびに敵に【衰弱】＋１（最大99）敵の物理/魔法被ダメアップ（【衰弱】数×2％）=[Debuff] 9+:\n►Each time a debuff is inflicted on an enemy\n►inflict +1 [Weaken] (max 99)\n►Increase enemy Physical/Magic Damage Taken ([Weaken] count × 2%)
+【弱体】15以上：敵の【衰弱】66：１秒ごとに最大ＨＰの5％の割合ダメージ（最大100万）=[Debuff] 15+:\n►Enemy [Debuff] 66: Deal damage equal to 5% of max HP every second (max 1,000,000)
+【弱体】15以上：敵の【衰弱】66：１秒ごとに最大ＨＰの5％の割合ダメージ（最大200万）=[Debuff] 15+:\n►Enemy [Debuff] 66: Deal damage equal to 5% of max HP every second (max 2,000,000)
 
 【強化】4以上：ダメージブーストアップ（【強化】数×2％）=[Buff] 4+:\n►Increase Damage Boost ([Buff] count × 2%)
 【強化】9以上：味方からバフを受けるたびに【高揚】＋１（最大99）物理/魔法攻撃力アップ（【高揚】数×1％）=[Buff] 9+:\n►Each time a buff is received from an ally\n►gain +1 [Exaltation] (max 99)\n►Increase Physical/Magic Attack ([Exaltation] count × 1%)

@@ -1,11 +1,13 @@
-【物理】後衛で、喪われた光を求めてもがく元『六凶』。敵のＵＢを遅延する【遮絶の操糸】や、味方単体のＵＢを連続発動可能にする【賦活の糸】を戦場に張り巡らせる。=[Physical] Rearguard former "Six Calamities" seeking lost light. Deploys threads that delay enemy UBs and enable ally UB spamming across the battlefield.
+【物理】後衛で、喪われた光を求めてもがく元『六凶』。敵のＵＢを遅延する【遮絶の操糸】や、味方単体のＵＢを連続発動可能にする【賦活の糸】を戦場に張り巡らせる。=[Physical] A former member of the "Six Calamities" who fights from the rear, struggling to reclaim the light she lost. She spreads [Severing Puppet Strings], which delays enemy UBs, and [Revitalizing Threads], which allow a single ally to activate their UB consecutively, across the battlefield.
+
+
 光を追うこと、整理整頓=Chasing the light, organizing and tidying up.
 
 新たな道を歩み始めた女郎蜘蛛=An arachne who has begun walking a new path
 
 ##UB##
 ウィドウ・ウェヴ・ウィーヴ=Widow Web Weave
-味方全体に物理/魔法無効バリアを展開し、継続ＨＰ回復状態を付与する。自分以外の物理攻撃を行う味方のうち最も物理攻撃力が高い味方の物理攻撃力を特大アップさせ、【賦活の糸】（上限１）を１個付与する。【賦活の糸】付与中の味方がＵＢを発動した場合、その味方の【賦活の糸】を１個消費し、さらにＴＰを特大回復させる。=Deploys physical/magic null barriers on all allies and grants continuous HP recovery. Massively boosts the P.ATK of the physical attacker (excluding self) with the highest P.ATK and grants them 1 [Thread of Vitality] (up to 1). When an ally with [Thread of Vitality] activates a Union Burst, they consume 1 [Thread of Vitality] and additionally massively recover TP.
+味方全体に物理/魔法無効バリアを展開し、継続ＨＰ回復状態を付与する。自分以外の物理攻撃を行う味方のうち最も物理攻撃力が高い味方の物理攻撃力を特大アップさせ、【賦活の糸】（上限１）を１個付与する。【賦活の糸】付与中の味方がＵＢを発動した場合、その味方の【賦活の糸】を１個消費し、さらにＴＰを特大回復させる。=Deploys physical/magic null barriers on all allies and grants continuous HP recovery. Massively boosts the P.ATK of the physical attacker (excluding self) with the highest P.ATK and grants them 1 [Revitalizing Threads] (up to 1). When an ally with [Revitalizing Threads] activates a Union Burst, they consume 1 [Revitalizing Threads] and additionally massively recover TP.
 
 r:"^(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する対象の味方の物理攻撃力を(\d+)アップ対象の味方に賦活の糸を付与する対象の味方がＵＢを使用した時に、賦活の糸を１つ消費し、ＴＰを1000回復$"=►Deploys a Phys/Mag Null Barrier absorbing $1 DMG.\n►Recovers HP by $2 per second.\n►Boosts target ally's P.ATK by $3.\n►Grants [Activation Thread] to target ally.\n►When target ally uses UB: Consumes 1 [Activation Thread] and recovers TP by 1000.
 
@@ -18,16 +20,16 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の物理防御�
 ##S2##
 粘つく白糸=Sticky White Thread
 目の前の敵１キャラの物理・魔法攻撃力を大ダウン、物理防御力を小ダウンさせ、受ける物理ダメージを小アップさせる。=Greatly lowers the P.ATK and M.ATK of an enemy in front, slightly lowers their P.DEF, and slightly increases the P.DMG they take.
-r:"^敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン敵単体が受ける物理ダメージを3％アップ$"=Cast time: 1.05s.\n►Lowers a single enemy's P.ATK by $1.\n►Lowers a single enemy's M.ATK by $2.\n►Lowers a single enemy's P.DEF by $3.\n►Boosts physical damage taken by a single enemy by 3%.
+r:"^敵単体の物理攻撃力を(\d+)ダウン敵単体の魔法攻撃力を(\d+)ダウン敵単体の物理防御力を(\d+)ダウン敵単体の受ける物理ダメージを3％アップ$"=Cast time: 1.05s.\n►Lowers a single enemy's P.ATK by $1.\n►Lowers a single enemy's M.ATK by $2.\n►Lowers a single enemy's P.DEF by $3.\n►Boosts physical damage taken by a single enemy by 3%.
 
 ##EX##
 光射す方へ=Toward the Shining Light
 光射す方へ+=Toward the Shining Light+
 
 逃れ得ぬカルマ=Inescapable Karma
-敵単体を遮絶の操糸状態にする物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラを遮絶の操糸状態にする。遮絶の操糸状態の間はＴＰが増加しない。=Inflicts Isolation Thread string state on a single enemy.\nInflicts Isolation Thread string state on the enemy with the highest attack power, whether P.ATK or M.ATK. While in Isolation Thread string state, TP does not increase.
+敵単体を遮絶の操糸状態にする物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラを遮絶の操糸状態にする。遮絶の操糸状態の間はＴＰが増加しない。=Inflicts [Severing Puppet Strings] on the enemy with the highest P.ATK or M.ATK. While under [Severing Puppet Strings], their TP cannot increase.
 
-物理攻撃力、魔法攻撃力いずれかで、最も攻撃力が高い敵１キャラを遮絶の操糸状態にする。遮絶の操糸状態の間はＴＰが増加しない。=Inflicts Isolation Thread string state on the enemy with the highest attack power, whether P.ATK or M.ATK. While in Isolation Thread string state, TP does not increase.
+最も攻撃力が高い敵を遮絶の操糸状態にする。遮絶の操糸状態中はＴＰが増加しない。=Inflicts [Severing Puppet Strings] on the enemy with the highest ATK. While under [Severing Puppet Strings], their TP cannot increase.
 敵単体を遮絶の操糸状態にする=Inflicts Isolation Thread string state on a single enemy.
 
 Story Title Cards

@@ -7,20 +7,13 @@
 
 ##UB##
 ガトリング★シンフォニア=Gatling★Symphonia
-目の前の最大３キャラまでの敵に魔法大ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。さらに、目の前の敵１キャラのクリティカルを受けた際のダメージを小アップさせる。=Deals large M.DMG to up to 3 enemies in front. Damage increases against farther enemies. Also slightly boosts P/M.CRIT DMG taken by an enemy in front.
+目の前の最大３キャラまでの敵に魔法大ダメージを与える。目の前の敵１キャラの受けるクリティカルダメージを小アップさせる。=Deals major M.DMG to up to 3 enemies in front. Slightly increases the critical damage taken by an enemy in front.
 r:"^１番目に近い敵に(\d+)の魔法ダメージ２番目に近い敵に(\d+)の魔法ダメージ３番目に近い敵に(\d+)の魔法ダメージ敵単体のクリティカルを受けた際のダメージを10％アップPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to the 1st nearest enemy.\n►Deals $2 M.DMG to the 2nd nearest enemy.\n►Deals $3 M.DMG to the 3rd nearest enemy.\n►Boosts an enemy's P.M/CRIT DMG taken by 10% for 10s.\n►If Misora has [PSI★Charge], lowers an enemy's M.DEF by $4 for 18s.
 
 ##S1##
 どるるる～ん★=Dorururu～n★
-目の前の最大３キャラまでの敵に魔法中ダメージを与える。このスキルのダメージは、遠い敵ほどダメージが増加する。=Deals moderate M.DMG to up to 3 enemies in front. Damage increases against farther enemies.
+目の前の最大３キャラまでの敵に魔法中ダメージを与える。=Deals moderate M.DMG to up to 3 enemies in front.
 r:"^１番目に近い敵に(\d+)の魔法ダメージ２番目に近い敵に(\d+)の魔法ダメージ３番目に近い敵に(\d+)の魔法ダメージPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウン$"=Cast time: 0.0s.\n►Deals $1 M.DMG to the 1st nearest enemy.\n►Deals $2 M.DMG to the 2nd nearest enemy.\n►Deals $3 M.DMG to the 3rd nearest enemy.\n►If Misora has [PSI★Charge], lowers an enemy's M.DEF by $4 for 12s.
-
-## UE1 ##
-
-どるるる～ん★+=Dorrururu~n★+
-ミソラのガトリング=Misora's Gatling
-r:"^敵３体に(\d+)の魔法ダメージ敵３体に(\d+)の魔法ダメージ敵３体に(\d+)の魔法ダメージPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウンPSI★チャージ状態中、自分の魔法攻撃力を(\d+)アップPSI★チャージ状態中、自分のＴＰを(\d+)回復$"="►Deals $1 M.DMG to 3 enemies\n►Deals $2 M.DMG to 3 enemies\n►Deals $3 M.DMG to 3 enemies\n\nDuring [PSI★Charge]:\n►Lowers 1 enemy's M.DEF by $4\n►Boosts own M.ATK by $5\n►Recovers own TP by $6"
-r:"^目の前の敵３キャラに魔法中ダメージを３回与える。１回ごとにダメージがアップする。さらに【PSI★チャージ】状態の場合、自分の魔法攻撃力を大アップし、ＴＰを小回復する。$"="Deals medium M.DMG 3 times to front 3 enemies (damage increases per hit). During [PSI★Charge], greatly boosts own M.ATK and slightly recovers TP."
 
 
 ##S2##
@@ -31,9 +24,21 @@ r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリ�
 ##SP1##
 バンキッシュ・バレット=Vanquish Bullet
 このスキルのスキルレベルは「ガトリング★シンフォニア」と連動しています=This skill's level is linked to "Gatling★Symphonia"
-自分に【PSI★チャージ】状態を付与する。【PSI★チャージ】状態中はＨＰが毎秒回復し、ダメージスキルを使用する際、目の前の敵１キャラの魔法防御力を小ダウンさせる。=Grants [PSI★Charge] to self. While under the [PSI★Charge] state, grants HP recovery to self and lowers an enemy's M.DEF when using damage skills.
+自分に【PSI★チャージ】状態を付与する。【PSI★チャージ】状態中はＨＰが毎秒回復し、ダメージスキルを発動する際、目の前の敵１キャラの魔法防御力を小ダウンさせる。=Grants self the [PSI★Charge] state. While [PSI★Charge] is active, recovers HP every second and slightly lowers the M.DEF of an enemy in front when activating a damage skill.
 r:"^自分にPSI★チャージ状態を付与する毎秒ＨＰを(\d+)回復する$"=Cast time: 1.24s.\n►Grants [PSI★Charge] to self for 12s.\n►Recovers own HP by $1/s for 12s.
 
 ##EX##
 サイキック・サイト=Psychic Sight
 サイキック・サイト+=Psychic Sight+
+
+
+
+## UE1 ##
+
+どるるる～ん★+=Dorrururu~n★+
+ミソラのガトリング=Misora's Gatling
+
+目の前の敵３キャラに魔法中ダメージを３回与える。１回ごとにダメージが増加する。【PSI★チャージ】状態の場合、さらに自分の魔法攻撃力を大アップ、ＴＰを小回復する。=Deals moderate M.DMG to 3 enemies in front 3 times, with damage increasing each time. While [PSI★Charge] is active, additionally greatly boosts own M.ATK and slightly recovers own TP.
+
+r:"^敵３体に(\d+)の魔法ダメージ敵３体に(\d+)の魔法ダメージ敵３体に(\d+)の魔法ダメージPSI★チャージ状態中、敵単体の魔法防御力を(\d+)ダウンPSI★チャージ状態中、自分の魔法攻撃力を(\d+)アップPSI★チャージ状態中、自分のＴＰを(\d+)回復$"="►Deals $1 M.DMG to 3 enemies\n►Deals $2 M.DMG to 3 enemies\n►Deals $3 M.DMG to 3 enemies\n\nDuring [PSI★Charge]:\n►Lowers 1 enemy's M.DEF by $4\n►Boosts own M.ATK by $5\n►Recovers own TP by $6"
+

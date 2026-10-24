@@ -9,18 +9,14 @@ etude　～練習曲～=Etude ~Practice song~
 
 ##UB##
 クリスタルララバイ=Crystal Lullaby
-前方の敵すべてに魔法中ダメージを与え、さらに魔法防御力を中ダウンさせる。=Deals moderate M.DMG to all enemies, and moderately lowers their M.DEF.
+前方の敵に魔法中ダメージを与え、魔法防御力を中ダウンさせる。=Deals moderate M.DMG to an enemy in front and moderately lowers their M.DEF.
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to all enemies.\n►Lowers all enemies' M.DEF by $2.
 
 ##S1##
 ミスティックハーモニー=Mystic Harmony
-【召喚】味方全体の魔法攻撃力を大アップさせる。ネフライトワイバーンが味方にいない場合、さらにネフライトワイバーンを召喚する。=[Summon] Greatly boosts all allies' M.ATK. If Nephrite Wyvern is not in battle, summons Nephrite Wyvern.
+【召喚】味方全体の魔法攻撃力を大アップさせる。ネフライトワイバーンが味方にいない場合、召喚する。=[Summon] Greatly boosts all allies' M.ATK. Summons the Nephrite Wyvern if it is not already an ally.
 r:"^味方全体の魔法攻撃力を(\d+)アップネフライトワイバーンを召喚する$"=Cast time: 0.733s.\n►Boosts all allies' M.ATK by $1 for 180s.\n►Summons a Nephrite Wyvern at 125 in front of self.
 
-##SP1##
-ミスティックハーモニー+=Mystic Harmony+
-【召喚】味方全体の魔攻特大アッ\nプ、魔クリ中アップ、物理無効バリ\nアを展開する。ネフライトワイバー\nンが味方にいる場合、ネフライトワ\nイバーンの魔攻と魔クリ特大アッ\nプ、ＨＰ中回復、ＴＰ特大回復、【\n翡翠の葬歌】を付与し、そうでない\n場合召喚する。【翡翠の葬歌】が付\n与されている間ネフライトワイバー\nンのＵＢとスキルは前方の最も魔防\nの低い敵１キャラを対象とする。=Massively boosts all allies' M.ATK, moderately boosts M.Crit, and deploys a Phys-nullifying Barrier. If Nephrite Wyvern is present, boosts its M.ATK and M.Crit, restores its HP and TP, and grants [Jade Requiem]. Otherwise, summons it. With [Jade Requiem], its UB and skills target the frontmost enemy with the lowest M.DEF.
-r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する味方単体の魔法攻撃力を(\d+)アップ味方単体の魔法クリティカルを(\d+)アップ味方単体のＨＰを(\d+)回復・ＴＰを(\d+)回復ネフライトワイバーンを召喚する$"=►Boosts all allies' M.ATK by $1.\n►Boosts all allies' M.Crit by $2.\n►Deploys a Phys-nullifying Barrier that nullifies $3 damage.\n►Boosts Nephrite Wyvern’s M.ATK by $4.\n►Boosts Nephrite Wyvern’s M.Crit by $5.\n►Recovers Nephrite Wyvern’s HP by $6.\n►Recovers Nephrite Wyvern’s TP by $7.\n►Summons Nephrite Wyvern if not present.\n►Grants [Jade Requiem] if already present.
 
 
 ##S2##
@@ -37,3 +33,9 @@ r:"^敵全体の魔法防御力を(\d+)ダウン敵全体のクリティカル�
 
 ##UE##
 ネフライト・レゾナンス=Nephrite Resonance
+
+
+##S1+##
+ミスティックハーモニー+=Mystic Harmony+
+【召喚】味方全体の魔法攻撃力を特大アップ、魔法クリティカルを中アップ、物理無効バリアを展開する。ネフライトワイバーンの魔法攻撃力と魔法クリティカルを特大アップ、ＨＰを中回復、ＴＰを特大回復させ、【翡翠の葬歌】を付与する。ネフライトワイバーンが味方にいない場合、召喚する。【翡翠の葬歌】付与中、ネフライトワイバーンのＵＢとスキルは前方の最も魔防が低い敵を対象とする。=[Summon] Massively boosts all allies' M.ATK, moderately boosts their M.CRIT RATE, and deploys a physical nullification barrier. Massively boosts the Nephrite Wyvern's M.ATK and M.CRIT RATE, moderately restores its HP, greatly recovers its TP, and grants it [Jade Requiem]. Summons the Nephrite Wyvern if it is not already an ally. While [Jade Requiem] is active, the Nephrite Wyvern's UB and skills target the enemy in front with the lowest M.DEF.
+r:"^味方全体の魔法攻撃力を(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ(\d+)ダメージ分の物理無効バリアを展開する味方単体の魔法攻撃力を(\d+)アップ味方単体の魔法クリティカルを(\d+)アップ味方単体のＨＰを(\d+)回復・ＴＰを(\d+)回復ネフライトワイバーンを召喚する$"=Cast time: 0.733s.\n►Boosts all allies' M.ATK by $1.\n►Boosts all allies' M.Crit by $2.\n►Deploys a Phys-nullifying Barrier that nullifies $3 damage.\n►Boosts Nephrite Wyvern’s M.ATK by $4.\n►Boosts Nephrite Wyvern’s M.Crit by $5.\n►Recovers Nephrite Wyvern’s HP by $6.\n►Recovers Nephrite Wyvern’s TP by $7.\n►Summons Nephrite Wyvern if not present.\n►Grants [Jade Requiem] if already present.

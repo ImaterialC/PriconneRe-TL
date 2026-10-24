@@ -22,17 +22,17 @@ r:"^龍眼状態の敵に(\d+)の魔法ダメージ龍眼状態の敵の魔法�
 ##S1##
 マインドクラック=Mind crack
 龍眼状態の敵の魔法防御力を中ダウンさせる。龍眼状態の敵がいない場合、最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを小アップさせる。=Moderately lowers the M.DEF of enemies in the [Dragon Eye] state. If there are no enemies in the [Dragon Eye] state, places the enemy with the highest M.ATK into the [Dragon Eye] state and slightly increases the M.DMG they take.
-r:"^龍眼状態の敵の魔法防御力を(\d+)ダウン龍眼状態の敵がいない場合、最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを12％アップ$"=►Lowers M.DEF of enemies in [Dragon Eye] state by $1 for 12s.\n\nIf there are no enemies in [Dragon Eye] state:\n►Inflicts [Dragon Eye] on the enemy with the highest M.ATK and increases M.DMG taken by 12％ for 180s.
+r:"^龍眼状態の敵の魔法防御力を(\d+)ダウン龍眼状態の敵がいない場合、最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを12％アップ$"=Cast time: 1.09s.\n►Lowers M.DEF of enemies in [Dragon Eye] state by $1 for 12s.\n\nIf there are no enemies in [Dragon Eye] state:\n►Inflicts [Dragon Eye] on the enemy with the highest M.ATK and increases M.DMG taken by 12％ for 180s.
 
 ##S2##
 エクスプロイトフレイム=Exploit Flame
 龍眼状態の敵に魔法中ダメージを与え、魔法防御力を小ダウン、受けるクリティカルダメージを小アップさせる。自分のＴＰを小回復する。=Deals medium M.DMG to enemies in the [Dragon Eye] state, slightly lowers their M.DEF, slightly increases the critical damage they take, and slightly recovers own TP.
-r:"^龍眼状態の敵に(\d+)の魔法ダメージ龍眼状態の敵の魔法防御力を(\d+)ダウン龍眼状態の敵の被クリダメを10％アップ自分のＴＰを180回復$"=►Deals $1 M.DMG to enemies in [Dragon Eye] state.\n►Lowers M.DEF of enemies in [Dragon Eye] state by $2 for 12s.\n►Boosts CRIT DMG taken by enemies in [Dragon Eye] state by 10％ for 12s.\n►Recovers own TP by 180.
+r:"^龍眼状態の敵に(\d+)の魔法ダメージ龍眼状態の敵の魔法防御力を(\d+)ダウン龍眼状態の敵の被クリダメを10％アップ自分のＴＰを180回復$"=Cast time: 1.09s.\n►Deals $1 M.DMG to enemies in [Dragon Eye] state.\n►Lowers M.DEF of enemies in [Dragon Eye] state by $2 for 12s.\n►Boosts CRIT DMG taken by enemies in [Dragon Eye] state by 10％ for 12s.\n►Recovers own TP by 180.
 
 ##SP1##
 龍眼=Dragon's Eye
 最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを小アップさせる。=Places the enemy with the highest M.ATK into the [Dragon Eye] state and slightly increases the M.DMG they take.
-最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを12％アップ=►Inflicts [Dragon Eye] on the enemy with the highest M.ATK and increases M.DMG taken by 12％ for 180s.
+最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを12％アップ=Cast time: 0.93s.\n►Inflicts [Dragon Eye] on the enemy with the highest M.ATK and increases M.DMG taken by 12％ for 180s.
 
 ##EX##
 クロージングアイズ+=Closing Eyes+
@@ -44,5 +44,5 @@ r:"^龍眼状態の敵に(\d+)の魔法ダメージ龍眼状態の敵の魔法�
 
 マインドクラック+=Mind Crack+
 龍眼状態の敵がいる場合、龍眼状態でない敵を龍眼状態にし、受ける魔法ダメージを小アップ、龍眼状態の敵の魔法防御力を中ダウンさせ、魔法中ダメージを与え、自分を【臥竜覚醒】状態にする。【臥竜覚醒】状態中のＵＢは敵全体に最大ＨＰの20％、最大200万の魔法割合ダメージを追加で与えるようになる。龍眼状態の敵の数に応じて、与えるダメージの割合は最大100％まで増加する。龍眼状態の敵がいない場合、最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを小アップさせる。=If there are enemies in the [Dragon Eye] state, places all enemies not already in the [Dragon Eye] state into the [Dragon Eye] state, slightly increases the M.DMG they take, moderately lowers the M.DEF of enemies in the [Dragon Eye] state, deals medium M.DMG, and places self into the [Crouching Dragon Awakening] state. While in the [Crouching Dragon Awakening] state, Union Burst additionally deals percentage M.DMG equal to 20% of each enemy's Max HP, up to 2,000,000 damage. The percentage damage increases based on the number of enemies in the [Dragon Eye] state, up to 100%. If there are no enemies in the [Dragon Eye] state, places the enemy with the highest M.ATK into the [Dragon Eye] state and slightly increases the M.DMG they take.
-r:"^龍眼状態の敵がいる場合、以下の効果が発動する龍眼状態でない敵を龍眼状態にし、受ける魔法ダメージを12％アップ龍眼状態の敵の魔法防御力を(\d+)ダウン龍眼状態の敵に(\d+)の魔法ダメージ自分を臥竜覚醒状態にする龍眼状態の敵がいない場合、最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを12％アップ$"=If there are enemies in [Dragon Eye] state:\n►Inflicts [Dragon Eye] on enemies not already in [Dragon Eye] state and increases M.DMG taken by 12％ for 180s.\n►Lowers M.DEF of enemies in [Dragon Eye] state by $1 for 12s.\n►Deals $2 M.DMG to enemies in [Dragon Eye] state.\n►Enters [Crouching Dragon Awakening].\n\nIf there are no enemies in [Dragon Eye] state:\n►Inflicts [Dragon Eye] on the enemy with the highest M.ATK and increases M.DMG taken by 12％ for 180s.
+r:"^龍眼状態の敵がいる場合、以下の効果が発動する龍眼状態でない敵を龍眼状態にし、受ける魔法ダメージを12％アップ龍眼状態の敵の魔法防御力を(\d+)ダウン龍眼状態の敵に(\d+)の魔法ダメージ自分を臥竜覚醒状態にする龍眼状態の敵がいない場合、最も魔法攻撃力が高い敵を龍眼状態にし、受ける魔法ダメージを12％アップ$"=Cast time: 1.09s.\nIf there are enemies in [Dragon Eye] state:\n►Inflicts [Dragon Eye] on enemies not already in [Dragon Eye] state and increases M.DMG taken by 12％ for 180s.\n►Lowers M.DEF of enemies in [Dragon Eye] state by $1 for 12s.\n►Deals $2 M.DMG to enemies in [Dragon Eye] state.\n►Enters [Crouching Dragon Awakening].\n\nIf there are no enemies in [Dragon Eye] state:\n►Inflicts [Dragon Eye] on the enemy with the highest M.ATK and increases M.DMG taken by 12％ for 180s.
 

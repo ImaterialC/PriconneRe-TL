@@ -8,17 +8,17 @@
 
 ##UB##
 超全力全開☆プリンセスストライク=Ultimate☆Princess Strike
-目の前の敵１キャラに物理特大ダメージを与える。ぺコリーヌのＨＰが高い程ダメージがアップ。残りＨＰが50%未満で自分に騎士の加護を付与する。騎士の加護付与時にＨＰが0になると、倒れずに加護を消費してＨＰを回復する。=Deals massive P.DMG to an enemy in front. The P.DMG increases the more own HP. Grants Knight's Blessing to herself when her remaining HP < 50%. Knight's Blessing will revive her when she receives damage greater than remaining HP.
+目の前の敵１キャラに物理特大ダメージを与える。自分のＨＰが高いほど、ダメージが増加する。ＨＰが50%未満の場合、さらに自分に【騎士の加護】を付与する。【騎士の加護】付与中にＨＰが０になると、倒れずに【騎士の加護】を消費してＨＰを中回復する。=Deals massive P.DMG to an enemy in front. The higher own HP, the greater the damage. If own HP is below 50%, additionally grants self [Knight's Blessing]. If own HP reaches 0 while [Knight's Blessing] is active, consumes [Knight's Blessing] to moderately restore own HP without being knocked out.
 r:"^敵単体に(\d+)の物理ダメージ騎士の加護付与中にＨＰが0になった場合、戦闘不能になる前に加護を消費してＨＰを(\d+)回復する$"=►Deals $1 (+2.7×HP) P.DMG to an enemy.\n►If own HP < 50%, grants Knight's Blessing to self that recovers own HP by $2 in lethal case for 12s.
 
 ##S1##
 オニギリタイム=Onigiri Time
-自分の物理攻撃力を大アップさせる。ぺコリーヌのＨＰが高い程攻撃力の上昇量がアップする。残りＨＰが50%未満で自分に物理/魔法吸収バリアを展開する。=Greatly boosts own P.ATK. The higher own HP, the greater P.ATK boost. Deploys Barrier over oneself that absorbs P/M.DMG when remaining HP < 50%.
+自分の物理攻撃力を大アップする。自分のＨＰが高いほど攻撃力のアップ量が増加する。ＨＰが50%未満の場合、さらに自分に物理/魔法吸収バリアを展開する。=Greatly boosts own P.ATK. The higher own HP, the greater the P.ATK boost. If own HP is below 50%, additionally deploys a physical/magic absorption barrier on self.
 r:"^自分の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物理魔法吸収バリアを展開する$"=Cast time: 0.46s.\n►Boosts own P.ATK by $1 (+0.2×HP) for 12s.\n►If own HP < 50%, deploys Barrier over oneself that absorbs $2 P/M.DMG for 12s.
 
 ##S2##
 ロイヤルスラッシュ=Royal Slash
-前方範囲内の敵すべてに物理中ダメージを与える。ぺコリーヌのＨＰが高い程ダメージがアップ。残りＨＰが50%以上でダメージの合計に応じて自分の物理攻撃力をアップさせ、50%未満でダメージの合計に応じて自分のＨＰを回復させる。=Deals moderate P.DMG to enemies in range. The higher own HP, the higher P.DMG dealt. Boosts own P.ATK based on remaining HP (≥50%HP), and heals own HP based on damage total (<50%HP).
+前方範囲内の敵に物理中ダメージを与える。自分のＨＰが高いほど、ダメージが増加する。ＨＰが50%以上の場合、与えたダメージに応じて自分の物理攻撃力が増加し、そうでない場合、与えたダメージに応じて自分のＨＰを回復する。=Deals moderate P.DMG to enemies in front. The higher own HP, the greater the damage. If own HP is at least 50%, increases own P.ATK based on the damage dealt; otherwise, restores own HP based on the damage dealt.
 r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分のＨＰを(\d+)回復$"=Cast time: 0.62s.\n►Deals $1 P.DMG to enemies in 300 range.\n►If own HP ≥ 50%, boosts own P.ATK by $2 for 12s.\n►If own HP < 50%, recovers own HP by $3.
 
 ##EX##
@@ -27,7 +27,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)
 
 ##S1+##
 オニギリタイム+=Onigiri Time+
-自分の物理攻撃力を特大アップし、継続ＨＰ回復状態を付与する。ぺコリーヌのＨＰが高い程攻撃力の上昇量がアップする。残りＨＰが50%未満で自分に物理/魔法吸収バリアを展開する。=Massively boosts own P.ATK and grants continuous HP recovery to self. The higher own HP, the greater P.ATK boost. Deploys Barrier over oneself that absorbs P/M.DMG when remaining HP < 50%.
+自分の物理攻撃力を特大アップし、継続ＨＰ回復状態を付与する。自分のＨＰが高いほど、攻撃力のアップ量が増加する。ＨＰが50%未満の場合、さらに自分に物理/魔法吸収バリアを展開する。=Massively boosts own P.ATK and grants continuous HP recovery. The higher own HP, the greater the P.ATK boost. If own HP is below 50%, additionally deploys a physical/magic absorption barrier on self.
 r:"^自分の物理攻撃力を(\d+)アップ(\d+)ダメージ分の物理魔法吸収バリアを展開する毎秒ＨＰを(\d+)回復する$"=Cast time: 0.46s.\n►Boosts own P.ATK by $1 (+0.2×HP) for 12s.\n►Recovers own HP by $3/s for 12.5s.\n►If own HP < 50%, deploys Barrier over oneself that absorbs $2 P/M.DMG for 12s.
 
 ##UE##

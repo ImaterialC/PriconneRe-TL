@@ -184,6 +184,7 @@ r:"^探索挑戦回数\+(\d+)回の期間が\n追加されました。$"=Grotto 
 1か月=per month
 16歳～19歳=16-19yo
 20歳以上=20yo or older
+r:"^(\d+)歳$"=$1yo
 制限なし=No limit
 5,000ptまで=Up to 5,000PT
 10,000ptまで=Up to 10,000PT

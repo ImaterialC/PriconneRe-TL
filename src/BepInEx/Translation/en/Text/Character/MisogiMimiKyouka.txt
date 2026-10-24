@@ -12,12 +12,12 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の低い側の防御
 ##S1##
 トライ・アドべンチャー=Tri-Adventures
 目の前の敵１キャラに物理中ダメージと、対象の魔法防御力が物理防御力より低い場合、魔法ダメージ扱いになる物理小ダメージを与える。=Deals moderate P.DMG and small P.DMG that is treated as M.DMG if an enemy's M.DEF < P.DEF.
-r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の低い側の防御力で防御する物理ダメージ$"=►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG or M.DMG to an enemy.
+r:"^敵単体に(\d+)の物理ダメージ敵単体に(\d+)の低い側の防御力で防御する物理ダメージ$"=Cast time: 0.14s.\n►Deals $1 P.DMG to an enemy.\n►Deals $2 P.DMG or M.DMG to an enemy.
 
 ##S2##
 リリカルダンシング=Lyrical Dancing
-自分の物理攻撃力と物理クリティカルを中アップさせ、目の前の敵１キャラの物理防御力を小ダウンさせる。さらに自分のＴＰを小回復させる。=Moderately boosts own P.ATK and P.CRIT Rate, slightly lowers an enemy's P.DEF, and slightly recovers own TP.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを60アップ敵単体の物理防御力を(\d+)ダウン自分のＴＰを50回復$"=►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by 60 for 180s.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Recovers own TP by 50.
+自分の物理攻撃力と物理クリティカルを中アップ、目の前の敵１キャラの物理防御力を小ダウンさせる。自分のＴＰを小回復する。=Moderately boosts own P.ATK and P.CRIT RATE, slightly lowers the P.DEF of an enemy in front, and slightly recovers own TP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを60アップ敵単体の物理防御力を(\d+)ダウン自分のＴＰを50回復$"=Cast time: 0.59s.\n►Boosts own P.ATK by $1 for 180s.\n►Boosts own P.CRIT Rate by 60 for 180s.\n►Lowers an enemy's P.DEF by $2 for 12s.\n►Recovers own TP by 50.
 
 ##EX##
 リトルブレイブリー=Little Bravely
@@ -25,8 +25,8 @@ r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカル�
 
 ##S1+##
 トライ・アドべンチャー+=Tri-Adventures+
-目の前の敵１キャラに物理大ダメージを３回与える。ミミの攻撃は対象の物理防御力を一定値無視し、キョウカの攻撃は対象の魔法防御力が物理防御力より低い場合魔法ダメージ扱いになり、ミソギの攻撃は対象の物理攻撃力を大ダウンさせる。さらに自分のＴＰを小回復させる。=Deals 3 instances of large P.DMG to an enemy in front. Mimi's attack penetrates defense, Kyouka's attack uses the lower of the target's defenses, and Misogi's attack greatly lowers the enemy's P.ATK. Also slightly recovers own TP.
-r:"^敵単体に物理防御力を50無視する(\d+)の物理ダメージ敵単体に(\d+)の低い側の防御力で防御する物理ダメージ敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン自分のＴＰを100回復$"=►Deals $1 P.DMG to an enemy ignoring 50 of their P.DEF.\n►Deals $2 P.DMG or M.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Lowers enemies' P.ATK by $4 for 18s.\n►Recovers own TP by 100s.
+目の前の敵１キャラに物理大ダメージを３回与える。ミミの攻撃は対象の物理防御力を一定値無視し、キョウカの攻撃は対象の魔法防御力が物理防御力より低い場合魔法ダメージ扱いになり、ミソギの攻撃は対象の物理攻撃力を大ダウンさせる。自分のＴＰを小回復する。=Deals major P.DMG to an enemy in front 3 times. Mimi's attacks ignore a fixed amount of the target's P.DEF, Kyouka's attacks are treated as magic damage if the target's M.DEF is lower than their P.DEF, and Misogi's attacks greatly lower the target's P.ATK. Slightly recovers own TP.
+r:"^敵単体に物理防御力を50無視する(\d+)の物理ダメージ敵単体に(\d+)の低い側の防御力で防御する物理ダメージ敵単体に(\d+)の物理ダメージ敵単体の物理攻撃力を(\d+)ダウン自分のＴＰを100回復$"=Cast time: 0.14s.\n►Deals $1 P.DMG to an enemy ignoring 50 of their P.DEF.\n►Deals $2 P.DMG or M.DMG to an enemy.\n►Deals $3 P.DMG to an enemy.\n►Lowers enemies' P.ATK by $4 for 18s.\n►Recovers own TP by 100s.
 
 
 ##UE##

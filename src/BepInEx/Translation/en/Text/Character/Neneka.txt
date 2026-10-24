@@ -16,7 +16,7 @@ r:"^分身を生成する魔法攻撃力を(\d+)アップさせるフィール�
 
 ##S1##
 サテュレイト・レイ=Saturation Ray
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、さらに短時間スタンさせる。=Deals large amounts of M.DMG to all enemies within range centering on the first enemy character in front of you,  and stuns them.
+目の前の敵１キャラを中心とした範囲内の敵に魔法中ダメージを与え、短時間スタンさせる。=Deals moderate M.DMG to enemies within range centered on the enemy in front and stuns them for a short time.
 r:"^範囲内の敵すべてに(\d+)の魔法ダメージ範囲内の敵を一定時間行動不能にする$"=►Deals $1 M.DMG to all enemies in 250 range.\n►Inflicts Stun to targets for 1.5s.
 
 ##S2##

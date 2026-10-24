@@ -1,5 +1,5 @@
 ##Profile##
-【魔法】中衛で、魔力共鳴し連撃を放つマナリアの双姫。ステータスアップ効果を受けると増加する【友情の魔印】がスキルを強化し、波長を合わせた炎の魔槍で敵を討つ。=[Magic] The two princesses of Manaria that resonate with one another to fire a barrage of magical attacks from the midline. With [Magic Seal of Friendship] from stat boosts, they can power up their skills and unleash a flaming magic spear to decimate their foes.
+【魔法】中衛で、魔力共鳴し連撃を放つマナリアの双姫。ステータスアップ効果を受けると増加する【友情の魔印】がスキルを強化し、波長を合わせた炎の魔槍で敵を討つ。=[Magic] The two princesses of Manaria that resonate with one another to fire a barrage of magical attacks from the midline. With [Friendship Magic Marks] from stat boosts, they can power up their skills and unleash a flaming magic spear to decimate their foes.
 
 一緒にピアノを連弾すること=Playing piano together
 ヒューマン、半人半竜=Human, half-human half-dragon
@@ -12,27 +12,29 @@
 
 ##UB##
 レイディアントインフェルノ=Radiant Inferno
-目の前の敵１キャラに魔法大ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。さらに、自分の周囲の味方すべての魔法攻撃力を大アップさせる。=Deals large M.DMG to an enemy in front twice. The M.DMG dealt increases according to number of [Magic Seal of Friendship]. Additionally, greatly boosts allies' M.ATK in range.
-r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 (+0.225×$1× \n[Magic Seal of Friendship]) M.DMG to an enemy.\n►Deals $2 (+0.225×$1× \n[Magic Seal of Friendship]) M.DMG to an enemy.\n►Boosts allies' M.ATK in 200 range by $3 for 18s.
+目の前の敵１キャラに魔法大ダメージを２回与える。【友情の魔印】の数に応じて、ダメージが増加する。自分を中心とした範囲内の味方の魔法攻撃力を大アップさせる。=Deals major M.DMG to an enemy in front twice. Damage increases based on the number of [Friendship Magic Marks]. Greatly boosts the M.ATK of allies within range centered on self.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 (+0.225×$1× \n[Friendship Magic Marks]) M.DMG to an enemy.\n►Deals $2 (+0.225×$1× \n[Friendship Magic Marks]) M.DMG to an enemy.\n►Boosts allies' M.ATK in 200 range by $3 for 18s.
 
 ##S1##
 フレンズリンケージ=Friends Linkage
-目の前の敵１キャラに魔法小ダメージを２回与える。このスキルのダメージは、【友情の魔印】の数に応じて増加する。=Deals small M.DMG to an enemy in front twice. The M.DMG dealt increases according to number of [Magic Seal of Friendship]. 
+目の前の敵１キャラに魔法小ダメージを２回与える。【友情の魔印】の数に応じて、ダメージが増加する。=Deals minor M.DMG to an enemy in front twice. Damage increases based on the number of [Friendship Magic Marks].
+
 r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.
 
 ##S2##
 フレンズリード=Friends Lead
-自分がステータスアップ効果を受ける度に、【友情の魔印】が１つ追加される。【友情の魔印】は最大40まで追加される。さらに自分の魔法攻撃力と魔法クリティカルを特大アップさせ、ＴＰ上昇を小アップさせる。=Whenever Anne & Grea receives a boost, gains 1 [Magic Seal of Friendship], up to a maximum of 40. Also, greatly boosts own M.ATK and M.CRIT Rate, and slightly boosts own TP Boost.
-r:"^ステータスアップ効果を受けるたびに【友情の魔印】を付与する状態になる自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを200アップ自分のＴＰ上昇を15アップ$"=►When receives a boost, gains 1 [Magic Seal of Friendship].\n►Boosts own M.ATK by $1 for 180s.\n►Boosts own M.CRIT Rate by 200 for 180s.\n►Boosts own TP Boost by 15 for 180s.
+自分がステータスアップ効果を受けるたびに、【友情の魔印】（上限40）が１個付与される状態になる。自分の魔法攻撃力と魔法クリティカルを特大アップ、ＴＰ上昇を小アップする。=Enters a state where 1 [Friendship Magic Mark] stack (max 40) is granted each time self receives a stat boost. Massively boosts own M.ATK and M.CRIT RATE, and slightly boosts own TP Boost.
+r:"^ステータスアップ効果を受けるたびに自分に友情の魔印を追加する状態になる自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを200アップ自分のＴＰ上昇を15アップ$"=►Enters a state where gains 1 [Friendship Magic Mark] each time a stat-up effect is received.\n►Boosts own M.ATK by $1 for 180s.\n►Boosts own M.CRIT RATE by 200 for 180s.\n►Boosts own TP Boost by 15 for 180s.
 
 ##EX##
 マナリアハート=Manaria Heart
 マナリアハート+=Manaria Heart+
 
-##S1##
+##S1+##
 フレンズリンケージ=Friends Linkage
 フレンズリンケージ+=Friends Linkage+
 ブレイズフレンズランス=Blaze Friends Lance
 
+目の前の敵１キャラに【友情の魔印】の数に応じてダメージが増加する魔法小ダメージを２回与える。【友情の魔印】が最大の場合、さらに追加で魔法大ダメージを与える。自分の魔法攻撃力と魔法クリティカルを大アップ、魔法クリティカルダメージを小アップ、ＴＰを小回復する。=Deals minor M.DMG to an enemy in front twice, with damage increasing based on the number of [Friendship Magic Marks]. If [Friendship Magic Marks] are at maximum, additionally deals major M.DMG. Greatly boosts own M.ATK and M.CRIT RATE, slightly boosts own M.CRIT DMG, and slightly recovers own TP.
 
 r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ自分の魔法攻撃力を(\d+)アップ自分の魔法クリティカルを80アップ自分の魔法クリダメを6％アップ自分のＴＰを90回復友情の魔印が40の場合、敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to a single enemy.\n►Deals $2 M.DMG to a single enemy.\n►Boosts own M.ATK by $3.\n►Boosts own M.CRIT RATE by 80.\n►Boosts own M.CRIT DMG by 6％.\n►Recovers own TP by 90.\n\nIf [Friendship Sigil] is 40:\n►Deals $4 M.DMG to a single enemy.

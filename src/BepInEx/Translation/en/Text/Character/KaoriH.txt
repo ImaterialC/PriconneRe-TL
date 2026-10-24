@@ -3,15 +3,15 @@
 
 ##UB##
 琉球犬ハロウィンダイヴ=Ryukyu-Ken Halloween Dive
-目の前の敵１キャラに物理大ダメージを与える。対象の最大ＨＰに対する残りＨＰの割合が少ない程ダメージがアップする。=Deals large P.DMG to an enemy in front. The smaller enemy's HP% is, the greater P.DMG dealt.
+目の前の敵１キャラに物理大ダメージを与える。対象のＨＰ割合が低いほど、ダメージが増加する。=Deals major P.DMG to an enemy in front. Damage increases as the target's HP percentage decreases.
 
 ##S1##
 幽玄足刀=Yugen Kick
-目の前の敵１キャラに物理中ダメージを与え、さらに自分の物理攻撃力を小アップさせる。対象の最大ＨＰに対する残りＨＰの割合が少ない程、ダメージと攻撃力の上昇量がアップする。=Deals moderate P.DMG to an enemy in front, and also slightly boosts own P.ATK. The smaller enemy's HP% is, the greater P.DMG dealt and P.ATK boost is.
+目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を小アップする。対象のＨＰ割合が低いほど、効果量が増加する。=Deals moderate P.DMG to an enemy in front and slightly boosts own P.ATK. Effect values increase as the target's HP percentage decreases.
 
 ##S2##
 サーターアンダギーさ～=Sata Undergi~sa
-自分の物理攻撃力を中アップさせ、物理クリティカルを大アップさせる。最もＨＰの割合が低い敵の、最大ＨＰに対する残りＨＰの割合が少ない程、このスキルの効果値が増加する。=Moderately boosts own P.ATK and greatly boosts own P.CRIT Rate. The smaller enemy's HP% is, the greater P.ATK boost and P.CRIT Rate boost are.
+自分の物理攻撃力を中アップ、物理クリティカルを大アップする。最もＨＰの割合が低い敵の、ＨＰ割合が低いほど、効果量が増加する。=Moderately boosts own P.ATK and greatly boosts own P.CRIT RATE. Effect values increase as the HP percentage of the enemy with the lowest HP percentage decreases.
 
 ##EX##
 琉球犬式南瓜術=Ryukyu-Ken Style: Pumpkin Technique
@@ -20,6 +20,7 @@
 ##S1+##
 幽玄足刀+=Yugen Kick+
 目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を小アップさせる。対象の最大ＨＰに対する残りＨＰの割合が少ない程、ダメージと攻撃力の上昇量がアップする。対象の残りＨＰが50％未満の場合、自分の物理攻撃がクリティカルした時のダメージを中アップする。=Deals large P.DMG to an enemy in front, and also slightly boosts own P.ATK. The smaller enemy's HP% is, the greater P.DMG dealt and P.ATK boost is. If an enemy's remaining HP < 50%, moderately boosts own P.CRIT DMG.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを20％アップ$"=Cast time: 0.34s.\n►Deals $1 P.DMG to a single enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.CRIT DMG by 20% for 12s.
 
 ##UE##
 琉球犬式・南瓜道着=Ryukyu-Ken Style: Pumpkin Uniform

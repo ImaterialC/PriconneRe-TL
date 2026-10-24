@@ -8,19 +8,16 @@
 
 ##UB##
 オーロラ・サンクチュアリ=Aurora Sanctuary
-自分を中心に、範囲内の味方すべてのＨ\nＰを小回復し、ＴＰ上昇を小アップさせ\nるフィールドを展開する。さらに味方全\n体の物理・魔法攻撃クリティカル時のダ\nメージを小アップさせ、敵全体の物理・\n魔法防御力を小ダウンさせる。=Deploys a field centered on self that slightly restores HP and boosts TP Boost for nearby allies. Also slightly boosts all allies’ P/M.Crit DMG, and lowers all enemies’ P/M.DEF.
+自分を中心とした範囲内の味方のＨＰを小回復、ＴＰ上昇を小アップさせるフィールドを展開する。味方全体の物理・魔法クリティカルダメージを小アップさせ、敵全体の物理・魔法防御力を小ダウンさせる。=Deploys a field that slightly restores the HP and slightly boosts TP Boost of allies within range centered on self. Slightly boosts all allies' P.CRIT DMG and M.CRIT DMG, and slightly lowers all enemies' P.DEF and M.DEF.
 r:"^毎秒ＨＰを(\d+)回復するフィールドを展開するＴＰ上昇を(\d+)アップさせるフィールドを展開する味方全体の物理・魔法攻撃クリティカル時のダメージを(\d+％)アップ敵全体の物理・魔法防御力を(\d+)ダウン$"=►Deploys a field centered on self that restores $1 HP/s.\n►Boosts TP Boost by $2.\n►Boosts all allies’ P.Crit and M.Crit DMG by $3.\n►Lowers all enemies’ P.DEF and M.DEF by $4.
 
 ##S1##
 エアロヒーリング=Aero Healing
-エアロヒーリング+=Aero Healing+
-味方全体のＨＰを小回復する。=Slightly restores HP for all allies.
-味方全体のＨＰを小回復する。さらに、\n味方全体の物理攻撃力と魔法攻撃力を特\n大アップさせ、物理クリティカルと魔法\nクリティカルを大アップし、物理・魔法\n攻撃クリティカル時のダメージを小アッ\nプさせる。=Slightly restores HP to all allies. Also massively boosts P.ATK and M.ATK, greatly boosts P.Crit and M.Crit, and slightly increases P/M.Crit DMG.
-r:"^味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の物理クリティカルを(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ味方全体の物理・魔法攻撃クリティカル時のダメージを(\d+％)アップ$"=►Recovers all allies' HP by $1.\n►Boosts all allies’ P.ATK by $2.\n►Boosts all allies’ M.ATK by $3.\n►Boosts all allies’ P.Crit by $4.\n►Boosts all allies’ M.Crit by $5.\n►Boosts all allies’ P.Crit and M.Crit DMG by $6.
+味方全体のＨＰを小回復させる。=Slightly restores the HP of all allies.
 
 ##S2##
 ブライトアテンション=Bright Attitude
-味方全体の物理攻撃力と魔法攻撃力を大アップさせ、さらにＴＰを小回復する。=Greatly boosts P.ATK and M.ATK for all allies, and slightly recovers their TP.
+味方全体の物理・魔法攻撃力を大アップ、ＴＰを小回復させる。=Greatly boosts all allies' P.ATK and M.ATK, and slightly recovers their TP.
 r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体のＴＰを(\d+)回復$"=►Boosts all allies' P.ATK by $1.\n►Boosts all allies' M.ATK by $2.\n►Recovers all allies' TP by $3.
 
 ##EX##
@@ -29,3 +26,8 @@ r:"^味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃�
 
 ##UE##
 マーシフルプリンセスローブ=Merciful Princess Robe
+
+##S1+##
+エアロヒーリング+=Aero Healing+
+味方全体のＨＰを小回復、物理・魔法攻撃力を特大アップ、物理・魔法クリティカルを大アップ、物理・魔法クリティカルダメージを小アップさせる。=Slightly restores all allies' HP, massively boosts their P.ATK and M.ATK, greatly boosts their P.CRIT RATE and M.CRIT RATE, and slightly boosts their P.CRIT DMG and M.CRIT DMG.
+r:"^味方全体のＨＰを(\d+)回復味方全体の物理攻撃力を(\d+)アップ味方全体の魔法攻撃力を(\d+)アップ味方全体の物理クリティカルを(\d+)アップ味方全体の魔法クリティカルを(\d+)アップ味方全体の物理・魔法攻撃クリティカル時のダメージを(\d+％)アップ$"=►Recovers all allies' HP by $1.\n►Boosts all allies’ P.ATK by $2.\n►Boosts all allies’ M.ATK by $3.\n►Boosts all allies’ P.Crit by $4.\n►Boosts all allies’ M.Crit by $5.\n►Boosts all allies’ P.Crit and M.Crit DMG by $6.
