@@ -53,6 +53,11 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体の物理攻撃力を(\d+)ダ
 ##UE##
 ブロッサムウィッシュ=Blossoming Wish
 
+##S1++##
+フラワーショット++=Blooming Blast++
+目の前の敵１キャラに魔法大ダメージを与え、物理・魔法攻撃力を大ダウン、魔法防御力を小ダウンさせる。自分にバリア展開中の場合、さらに自分のＴＰを大回復する。=Deals major M.DMG to an enemy in front, greatly lowers their P.ATK and M.ATK, and slightly lowers their M.DEF. If a barrier is active on self, greatly recovers own TP.
+r:"^敵単体に(\d+)の魔法ダメージ敵単体の物理・魔法攻撃力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン自分にバリアが展開されている場合、自分のＴＰを500回復$"=►Deals $1 M.DMG to a single enemy.\n►Lowers a single enemy's P.ATK and M.ATK by $2 for 12s.\n►Lowers a single enemy's M.DEF by $3 for 12s.\n\nIf self has a Barrier deployed:\n►Recovers own TP by 500.
+
 ##Comments##
 わたしでよかったら、力になりたいな…\nこれからよろしくね。騎士クン=If you don't mind, I'd like to help...\nI'm looking forward to working with you, Kishi-kun
 今日は付き合ってくれてありがとう\nもっと強くなれるようにがんばるから、\nこれからもよろしくねっ！=Thank you for going out with me today.\nI'll do my best to get stronger, so I'm looking\nforward to working with you from now on!
