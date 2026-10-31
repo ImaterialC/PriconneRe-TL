@@ -1,0 +1,24 @@
+##Profile##
+【物理】中衛から破天荒に翻弄するゴルシちゃんだぜ☆後ろでコソコソしてる敵を狙い打ち！　ラストスパートの追込でダメージレースをぶっちぎってやんよオラァッ！=[Physical] It's your girl Golshi, wreaking havoc from the midline☆ I'll pick off those enemies sneaking around in the back! Then I'll leave everyone in the dust with a late-race charge! OORAAAH!
+他愛もない可愛いイタズラ=Just a Harmless Little Prank
+
+粗暴、奔放！　謎テンションな黄金電波娘=Rough and Reckless! The Golden Eccentric with Unmatched Energy
+
+##UB##
+君と出逢い、君にキック=Meeting You, Kicking You
+前方の最も遠くの敵に物理特大ダメージを与え、物理防御力を中ダウンさせ、大きく引き寄せる。バトルの残り時間が30秒未満の場合、敵全体が対象になる。バトルの残り時間が10秒未満の場合、自分の【スタミナ】を半分消費し、消費した【スタミナ】の量に応じてダメージ倍率が増加する。=Deals massive P.DMG to the farthest enemy in front, moderately lowers their P.DEF, and pulls them significantly closer. If less than 30 seconds remain in the battle, targets all enemies instead. If less than 10 seconds remain, consumes half of own [Stamina], and the damage multiplier increases based on the amount of [Stamina] consumed.
+r:"^バトルの残り時間が30秒以上の場合、以下の効果が発動する敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンバトルの残り時間が30秒未満の場合、以下の効果が発動する敵全体に(\d+)の物理ダメージ敵全体の物理防御力を(\d+)ダウンバトルの残り時間が10秒未満の場合、自分のスタミナを半分消費する$"=If 30 seconds or more remain in battle:\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 18s.\n\nIf less than 30 seconds remain in battle:\n►Deals $3 P.DMG to all enemies.\n►Lowers all enemies' P.DEF by $4 for 18s.\n\nIf less than 10 seconds remain in battle:\n►Consumes half of own Stamina.
+
+##S1##
+不沈艦抜錨・LoAコース=Unsinkable Ship, Weigh Anchor: LoA Course
+前方の最も遠くの敵に物理大ダメージを与え、物理防御力を小ダウン、受けるクリティカルダメージを小アップさせる。対象の敵の弱体効果の種類の数に応じて、自分の【スタミナ】（上限564）を最大で42回復する。バトルの残り時間が30秒未満の場合、敵への効果は前方の最も遠くの敵を中心とした範囲内の敵が対象になる。バトルの残り時間が10秒未満の場合、さらに自分のＴＰを特大回復する。=Deals major P.DMG to the farthest enemy in front, slightly lowers their P.DEF, and slightly increases the critical damage they take. Restores up to 42 of own [Stamina] (maximum 564) based on the number of different debuffs affecting the target. If less than 30 seconds remain in the battle, the effects on enemies instead target enemies within range centered on the farthest enemy in front. If less than 10 seconds remain, additionally greatly recovers own TP.
+r:"^自分のスタミナを回復するバトルの残り時間が30秒以上の場合、以下の効果が発動する敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン敵単体の被クリダメを6％アップバトルの残り時間が30秒未満の場合、以下の効果が発動する範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の被クリダメを6％アップバトルの残り時間が10秒未満の場合、自分のＴＰを1000回復$"=Cast time: 1.05s.\n►Recovers own Stamina.\n\nIf 30 seconds or more remain in battle:\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 12s.\n►Boosts a single enemy's CRIT DMG taken by 6％ for 12s.\n\nIf less than 30 seconds remain in battle:\n►Deals $3 P.DMG to enemies within 300 range.\n►Lowers P.DEF of enemies within 300 range by $4 for 12s.\n►Boosts CRIT DMG taken by enemies within range by 6％ for 12s.\n\nIf less than 10 seconds remain in battle:\n►Recovers own TP by 1000.
+
+##S2##
+マックちゃんのやつ=McQueen's Thing
+自分の【スタミナ】を99回復し、物理・魔法防御力を中アップ、加算行動速度を大アップする。バトルの残り時間が30秒未満の場合、さらに自分の【スタミナ】を最大まで回復する。=Restores own [Stamina] by 99, moderately boosts own P.DEF and M.DEF, and greatly boosts additional action speed. If less than 30 seconds remain in the battle, additionally restores own [Stamina] to its maximum.
+r:"^自分のスタミナを(\d+)回復する自分の物理・魔法防御力を(\d+)アップ自分の行動速度100％加算バトルの残り時間が30秒未満の場合、自分のスタミナを最大まで回復する$"=Cast time: 1.05s.\n►Recovers $1 own Stamina.\n►Boosts own P.DEF and M.DEF by $2 for 180s.\n►Adds 100％ to own action speed for 180s.\n\nIf less than 30 seconds remain in battle:\n►Fully recovers own Stamina.
+
+##EX##
+勇者ゴルシの威光=The Glory of Hero Golshi
+勇者ゴルシの威光+=The Glory of Hero Golshi+

@@ -2954,3 +2954,10 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 自身の【月の祝福】をすべて消費=Consumes all own [Lunar Blessing] stacks.
 自身のＨＰを25％回復=Restores 25% of own HP.
 【フェーズ１】・シャドウが存在している・自身に全ダメージ100％カット【フェーズ２】・シャドウが存在しない、自身のＨＰ50％以上・行動パターン変更【スキル２】・敵全体に物理／魔法ダメージ・敵全体に物理／魔法防御力ダウン（必中）・自身がブレイク状態：ダウン量減少【フェーズ３】・シャドウが存在しない、自身のＨＰ50％未満・行動パターン変更・自身の【月の祝福】50消費・自身にブレイク無効・自身に物理／魔法防御力ダウン・自身に行動速度アップ・自身にＴＰ上昇アップ【スキル３】・敵全体に物理／魔法ダメージ・敵全体に物理／魔法攻撃力ダウン（必中）・自身が継続ダメージ状態でない：自身に　【月の祝福】15付与=[Phase 1]\n►Shadow is present\n►Reduces all damage taken by self by 100%\n\n[Phase 2]\n►Shadow is absent and own HP is at least 50%\n►Changes action pattern\n\n[Skill 2]\n►Deals P.DMG and M.DMG to all enemies\n►Reduces P.DEF and M.DEF of all enemies (guaranteed hit)\n►If self is in Break state: reduces the reduction amount\n\n[Phase 3]\n►Shadow is absent and own HP is below 50%\n►Changes action pattern\n►Consumes 50 of own [Lunar Blessing] stacks\n►Grants self Break immunity\n►Reduces own P.DEF and M.DEF\n►Increases own action speed\n►Increases own TP Boost\n\n[Skill 3]\n►Deals P.DMG and M.DMG to all enemies\n►Reduces P.ATK and M.ATK of all enemies (guaranteed hit)\n►If self is not under continuous damage: grants self 15 [Lunar Blessing] stacks
+
+
+
+
+
+
+自身に無敵\n【スキル１】 =Invincible to myself\n[Skill 1] 

@@ -1,0 +1,27 @@
+##Profile##
+【物理】前衛でLoAを駆ける超×９負けず嫌いなウマ娘。自分より攻撃力の高い味方がいると、【スタミナ】を消費してスキルの性能を強化し、さらなる高みへと躍進する。=[Physical] A fiercely competitive horse girl who races in the front line of LoA. When an ally has higher ATK than her, she consumes [Stamina] to enhance her skill effects and surge to even greater heights.
+
+完璧、よ=Perfect!
+型=Type
+ウマ娘=Uma Musume
+ゆっくりお風呂につかること=Taking a long, relaxing bath
+
+
+##UB## 
+ピアレスロードスター=Peerless Roadster
+目の前の敵１キャラに物理大ダメージを３回与え、物理防御力を小ダウン、受けるクリティカルダメージを小アップさせる。自分より物理攻撃力が高い味方がいる場合、さらに自分の与える物理ダメージを小アップし、ＴＰを固定量で中回復する。最も物理攻撃力が高い味方の物理攻撃力に応じて、与える物理ダメージのアップ量が最大５倍まで増加する。=Deals major P.DMG to an enemy in front 3 times, slightly lowers their P.DEF, and slightly increases the critical damage they take. If an ally has higher P.ATK than self, additionally slightly boosts own P.DMG dealt and moderately recovers own TP by a fixed amount. The P.DMG boost increases based on the P.ATK of the ally with the highest P.ATK, up to 5 times.
+r:"^敵単体に(\d+)の物理ダメージを３回与える敵単体の物理防御力を(\d+)ダウン敵単体の被クリダメを6％アップ自分より物理攻撃力が高い味方がいる場合、以下の効果が発動する自分の与える物理ダメージを1％アップ自分のＴＰを固定量で150回復$"=►Deals $1 P.DMG to a single enemy 3 times.\n►Lowers a single enemy's P.DEF by $2 for 18s.\n►Boosts a single enemy's CRIT DMG taken by 6％ for 18s.\n\nIf there is an ally with higher P.ATK than self:\n►Boosts own P.DMG dealt by 1％ for 180s.\n►Recovers own TP by 150.
+
+##S1## 
+直向きな眼差し=Single-Minded Gaze
+目の前の敵１キャラに物理大ダメージを与え、その敵を中心に物理ダメージフィールドと、魔法攻撃力を大ダウン、物理防御力を小ダウンさせるフィールドを展開する。自分の【スタミナ】が９以上の場合、自分の【スタミナ】を９消費し、さらに自分のＴＰを小回復する。自分より物理攻撃力が高い味方がいる場合、さらに自分の【スタミナ】を最大３消費し、消費した【スタミナ】の量に応じて自分のＴＰを回復する。=Deals major P.DMG to an enemy in front and deploys two fields centered on that enemy: a physical damage field, and a field that greatly lowers M.ATK and slightly lowers P.DEF. If own [Stamina] is at least 9, consumes 9 [Stamina] and additionally slightly recovers own TP. If an ally has higher P.ATK than self, additionally consumes up to 3 [Stamina] and recovers own TP based on the amount of [Stamina] consumed.
+r:"^敵単体に(\d+)の物理ダメージ毎秒(\d+)の物理ダメージを与えるフィールドを展開するフィールド内の敵の魔法攻撃力(\d+)ダウンフィールド内の敵の物理防御力(\d+)ダウン自分のスタミナが９以上の場合、以下の効果が発動する自分のスタミナを９消費する自分のＴＰを100回復自分より物理攻撃力が高い味方がいる場合、以下の効果が発動する自分のスタミナを最大３消費する自分のＴＰを最大60回復$"=Cast time: 1.05s.\n►Deals $1 P.DMG to a single enemy.\n►Deploys a field within 300 radius that deals $2 P.DMG every second for 12.5s.\n►Lowers M.ATK of enemies within the field by $3 for 12.5s.\n►Lowers P.DEF of enemies within the field by $4 for 12.5s.\n\nIf own Stamina is 9 or more:\n►Consumes 9 own Stamina.\n►Recovers own TP by 100.\n\nIf there is an ally with higher P.ATK than self:\n►Consumes up to 3 own Stamina.\n►Recovers up to 60 own TP.
+
+##S2##
+勝利へ繋ぐ一呼吸=A Breath Toward Victory
+自分の【スタミナ】（上限99）を99回復し、物理・魔法防御力を中アップ、加算行動速度を大アップする。味方がＵＢを発動するたびに自分の【スタミナ】が２回復する状態になる。=Restores own [Stamina] by 99 (maximum 99), moderately boosts own P.DEF and M.DEF, and greatly boosts additional action speed. Grants a state that restores 2 [Stamina] each time an ally activates their UB.
+r:"^自分のスタミナを(\d+)回復する自分の物理・魔法防御力を(\d+)アップ自分の行動速度100％加算味方がＵＢを使用するたびに自分のスタミナが２回復する状態になる$"=Cast time: 1.05s.\n►Recovers $1 own Stamina.\n►Boosts own P.DEF and M.DEF by $2 for 180s.\n►Adds 100％ to own action speed for 180s.\n►Enters a state where own Stamina is recovered by 2 each time an ally uses their UB.
+
+##EX## 
+絶対負けないんだから！=I'm Absolutely Not Going to Lose!
+絶対負けないんだから！+=I'm Absolutely Not Going to Lose!+
