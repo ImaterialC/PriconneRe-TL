@@ -3,16 +3,16 @@
 
 ##UB##
 ナナカ・マニアックフレイム=Nanaka Maniac Flame
-残りＨＰが最も高い敵を中心とした範囲内の敵すべてに魔法大ダメージを与え、火傷状態にする。火傷のダメージは範囲内の敵の数に応じて増加する。=Deals large M.DMG to enemies in range around an enemy with highest remaining HP, and inflicts Burn to them. Burn damage increases with the number of enemies in range.
+ＨＰが最も高い敵を中心とした範囲内の敵に魔法大ダメージを与え、火傷状態にする。範囲内の敵の数に応じて、火傷のダメージが増加する。=Deals major M.DMG to enemies within range centered on the enemy with the highest HP and inflicts Burn on them. Burn damage increases based on the number of enemies within range.
 r:"^範囲内の敵に(\d+)の魔法ダメージ(\d+)ダメージを与える火傷状態にする$"=►Deals $1 M.DMG to enemies in 300 range.\n►Inflicts Burn to enemies in 300 range that deals $2/s for 7s.
 
 ##S1##
 ジャックオーサークル=Jack-o'-Circle
-残りＨＰが最も高い敵を中心として、魔法ダメージフィールドを展開する。=Deploys a M.DMG field around an enemy with highest remaining HP.
+ＨＰが最も高い敵を中心に魔法ダメージフィールドを展開する。=Deploys a magic damage field centered on the enemy with the highest HP.
 
 ##S2##
 ナナカちゃんトリック=Nanaka-chan Trick
-残りＨＰが最も高い敵を中心とした範囲内の敵すべてのＨＰ回復量を特大ダウンさせ、魔法防御力を小ダウンさせる。=Greatly reduces enemies' HP Recovery Rate in range around an enemy with highest remaining HP, and slightly lowers their M.DEF.
+ＨＰが最も高い敵を中心とした範囲内の敵のＨＰ回復量を特大ダウン、魔法防御力を小ダウンさせる。=Massively reduces the HP recovery received by enemies within range centered on the enemy with the highest HP and slightly lowers their M.DEF.
 r:"^範囲内の敵のＨＰ回復量を80％ダウン範囲内の敵の魔法防御力を(\d+)ダウン$"=►Reduces enemies' HP Recovery Rate in 300 range around an enemy with highest remaining HP to 20% for 12s.\n►Lowers enemies' M.DEF in 300 range around an enemy with highest remaining HP by $1 for 12s. 
 
 ##EX##
@@ -21,7 +21,7 @@ r:"^範囲内の敵のＨＰ回復量を80％ダウン範囲内の敵の魔法�
 
 ##S1+##
 ジャックオーサークル+=Jack-o'-Circle+
-残りＨＰが最も高い敵を中心として、魔法ダメージフィールドを展開する。さらに、残りＨＰが最も高い敵を中心とした範囲内の敵すべてのＴＰ上昇を中ダウンさせる。=Deploys a M.DMG field around an enemy with highest remaining HP. Additionally, moderately lowers their TP Boost.
+ＨＰが最も高い敵を中心に魔法ダメージフィールドを展開する。その敵を中心とした範囲内の敵のＴＰ上昇を中ダウンさせる。=Deploys a magic damage field centered on the enemy with the highest HP. Moderately lowers the TP Boost of enemies within range centered on that enemy.
 r:"^毎秒(\d+)の魔法ダメージを与えるフィールドを展開する範囲内の敵のＴＰ上昇を(\d+)ダウン$"=►Deploys a 410 radius field around an enemy with highest remaining HP that deals $1/s M.DMG for 12s.\n►Lowers enemies' TP Boost in 300 range by $2 for 12s.
 
 ##UE##

@@ -11,7 +11,7 @@
 
 ##S2##
 キャンディシャワー=Candy Shower
-自分に継続ＴＰ回復状態を付与し、味方全体の物理防御力を中アップさせる。さらに３回攻撃を受けるか一定時間経過するまでの間、味方全体の物理攻撃力を極大アップさせる。=Grants TP recovery to self and moderately boosts all allies' P.DEF. Additionally, greatly boosts all allies' P.ATK until Monika gets attacked 3 times or a certain period of time elapses.
+自分に継続ＴＰ回復状態を付与し、味方全体の物理防御力を中アップさせる。３回攻撃を受けるか一定時間経過するまでの間、味方全体の物理攻撃力を極大アップさせる。=Grants self continuous TP recovery and moderately boosts all allies' P.DEF. Extremely boosts all allies' P.ATK until they receive 3 attacks or a certain amount of time passes.
 r:"^キャンディを振りまいている間、味方全体の物理攻撃力を(\d+)アップ味方全体の物理防御力を(\d+)アップ毎秒ＴＰを15回復する$"=Cast time: 0.59s.\n►Boosts all allies' P.ATK by $1 for 24s, but is interrupted upon receiving damage 3 times.\n►Boosts all allies' P.DEF by $2 for 24s.\n►Recovers own TP by 15/s for 24.5s.
 
 ##EX##
@@ -20,7 +20,7 @@ r:"^キャンディを振りまいている間、味方全体の物理攻撃力�
 
 ##S1+##
 バブルガムポップ+=Bubble Gum Pop+
-目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。バトル開始後、初弾のこのスキルは追加で目の前の敵１キャラの物理防御力を大ダウンさせる。=Deals large P.DMG to an enemy in front, and slightly lowers its P.DEF for 12s. When battle begins, 1st skill usage lowers an enemy's P.DEF by a moderate amount for 30s.
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を小ダウンさせる。初回発動時、さらに追加で物理防御力を大ダウンさせる。=Deals major P.DMG to an enemy in front and slightly lowers their P.DEF. Upon first activation, additionally greatly lowers their P.DEF.
 
 ##UE##
 ナッシュカッツェ店長服=Naschkatze Manager Uniform

@@ -3,7 +3,7 @@
 
 ##UB##
 スプレッドアフェクション=Spread Affection
-魔法攻撃を行うすべての味方キャラの魔法攻撃力を中アップさせ、物理/魔法無効バリアを展開し、さらに継続ＨＰ回復状態を付与する。このスキルの魔法攻撃力の上昇量は自分の残りＨＰに応じて最大２倍までアップする。=Moderately boosts all M-type allies' M.ATK, deploys Barrier over them that negates P/M.DMG, and grants continuous HP recovery to them. The M.ATK boost increases up to double, based on own remaining HP.
+魔法攻撃を行う味方の魔法攻撃力を中アップさせ、物理/魔法無効バリアを展開し、さらに継続ＨＰ回復状態を付与する。自分のＨＰが高いほど、魔法攻撃力のアップ量が最大２倍まで増加する。=Moderately boosts the M.ATK of allies who deal magic damage, deploys physical/magic nullification barriers on them, and additionally grants continuous HP recovery. The higher own HP, the greater the M.ATK boost, up to 2 times.
 r:"^対象の味方の魔法攻撃力を(\d+)アップ(\d+)ダメージ分の物理魔法無効バリアを展開する毎秒ＨＰを(\d+)回復する$"=►Boosts all M-type allies' M.ATK by $1 for 180s.\n►Deploys Barrier over all M-type allies' that negates $2 P/M.DMG for 18s.\n►Recovers all M-type allies' HP by $3/s for 18s.
 
 ##S1##
@@ -13,7 +13,7 @@ r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法�
 
 ##S2##
 ヴァイタルウェーブ=Vital Wave
-魔法攻撃を行うすべての味方キャラのＴＰを小回復させ、自分のＨＰを小回復する。=Slightly recovers all M-type allies' TP, and slightly recovers own HP.
+魔法攻撃を行う味方のＴＰを小回復させ、自分のＨＰを小回復する。=Slightly recovers the TP of allies who deal magic damage and slightly restores own HP.
 r:"^対象の味方のＴＰを100回復自分のＨＰを(\d+)回復$"=Cast time: 0.66s.\n►Recovers all M-type allies' TP by 100.\n►Recovers own HP by $1.
 
 ##EX##
@@ -22,7 +22,7 @@ r:"^対象の味方のＴＰを100回復自分のＨＰを(\d+)回復$"=Cast tim
 
 ##S1+##
 マリンコンフィデンス+=Marine Confidence+
-魔法攻撃を行うすべての味方キャラの魔法攻撃力と魔法クリティカルを中アップし、魔法攻撃クリティカル時のダメージを小アップさせる。このスキルの魔法攻撃力の上昇量は自分の残りＨＰに応じて最大２倍までアップする。=Moderately boosts all M-type allies' M.ATK and M.CRIT Rate, and slightly boosts their M.CRIT DMG. The M.ATK boost increases up to double, based on own remaining HP.
+魔法攻撃を行う味方の魔法攻撃力と魔法クリティカルを中アップ、魔法クリティカルダメージを小アップさせる。自分のＨＰが高いほど、魔法攻撃力のアップ量が最大２倍まで増加する。=Moderately boosts the M.ATK and M.CRIT RATE of allies who deal magic damage, and slightly boosts their M.CRIT DMG. The higher own HP, the greater the M.ATK boost, up to 2 times.
 r:"^対象の味方の魔法攻撃力を(\d+)アップ対象の味方の魔法クリティカルを60アップ対象の味方の魔法攻撃クリティカル時のダメージを(3|３)％アップ$"=►Boosts all M-type allies' M.ATK by $1 for 180s.\n►Boosts all M-type allies' M.CRIT Rate by 60 for 180s.\n►Boosts all M-type allies' M.CRIT DMG by 3% for 180s.
 
 ##UE##

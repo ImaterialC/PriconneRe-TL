@@ -24,7 +24,7 @@ r:"^攻撃が当たるたびに畏縮を付与する状態になる自分の物�
 
 ##S2##
 白銀の月影=Silver Moonlight
-目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。ダメージと物理防御力の減少量は、対象の【畏縮】の数に応じて増加する。=Deals moderate P.DMG to the first enemy in front, and slightly lowers their P.DEF. The damage and P.DEF decrease become more powerful depending on how many stacks of "Cower" the enemy has.
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。対象の【畏縮】の数に応じて、効果量が増加する。=Deals moderate P.DMG to an enemy in front and slightly lowers their P.DEF. Effect values increase based on the number of [Intimidation] stacks on the target.
 
 ##EX##
 更け征く夜=Deepening Night
@@ -32,8 +32,7 @@ r:"^攻撃が当たるたびに畏縮を付与する状態になる自分の物�
 
 ##S1+##
 紫紺の黄昏+=Violet Dusk+
-敵全体を、クロエの攻撃が当たるたびに【畏縮】ステータスが１つ追加されるようにする。【畏縮】は最大99まで追加される。さらに、自身の物理攻撃力を中アップさせる。=Whenever one of Chloe's attacks hit an enemy, that enemy gains one stack of the "Cower" debuff. Up to 99 stacks can be inflicted at once. Additionally, moderately boosts Chloe's own P.ATK.
-【畏縮】を敵へ付与できる状態になる。攻撃が敵に当たるたび【畏縮】を１つ付与する。【畏縮】は最大99まで追加される。さらに、自身の物理攻撃力を大アップさせる。=Whenever one of Chloe's attacks hit an enemy, that enemy gains one stack of the "Cower" debuff. Up to 99 stacks can be inflicted at once. Additionally, moderately boosts Chloe's own P.ATK.
+自分の攻撃が敵に当たるたびに、敵に【畏縮】（上限99）を１個付与する状態になる。自分の物理攻撃力を大アップする。=Grants a state in which each time own attacks hit an enemy, they inflict 1 stack of [Intimidation] on that enemy (maximum 99). Greatly boosts own P.ATK.
 
 ##UE##
 フロムダスク・ティルドーン=From Dusk Till Dawn

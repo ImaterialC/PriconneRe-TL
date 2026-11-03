@@ -3,7 +3,7 @@
 
 ##UB##
 スカイラブリーハリケーン=Sky Lovely Hurricane
-目の前の敵１キャラに物理大ダメージを与え、さらに自分の行動速度を大アップさせる。このスキルのダメージと行動速度の上昇量は、ユニオンバーストを使用するたび増加する。（最大４回）=Deals massive P.DMG to an enemy in front and massively boosts own action speed. The damage and action speed increase of this skill accumulate with each Union Burst used. (Up to 4 times)
+目の前の敵１キャラに物理大ダメージを与え、物理防御力を中ダウンさせる。=Deals major P.DMG to an enemy in front and moderately lowers their P.DEF.
 r:"^敵単体に(\d+)の物理ダメージ自分の行動速度アップ$"=►Deals $1 P.DMG to an enemy.\n►Boosts own action speed to 150% for 12s.
 
 ##S1##
@@ -12,7 +12,7 @@ r:"^敵単体に(\d+)の物理ダメージ自分の行動速度アップ$"=►De
 
 ##S2##
 ラブリーインパルス=Lovely Impulse
-目の前の敵１キャラに物理中ダメージを与え、さらに最もＨＰが低い味方１キャラのＨＰを小回復させる。このスキルで与えたダメージ量に応じてＨＰの回復量がアップする。=Deals moderate P.DMG to an enemy in front, and also slightly recovers an ally's HP with the lowest HP. The amount of HP recovered increases according to the amount of damage dealt with this skill.
+目の前の敵１キャラに物理中ダメージを与え、最もＨＰが低い味方のＨＰを小回復させる。与えたダメージに応じて、ＨＰの回復量が増加する。=Deals moderate P.DMG to an enemy in front and slightly restores the HP of the ally with the lowest HP. The amount of HP restored increases based on the damage dealt.
 r:"^敵単体に(\d+)の物理ダメージ味方単体のＨＰを(\d+)回復$"=►Deals $1 P.DMG to an enemy.\n►Recovers an ally's HP by $2.
 
 ##EX##
@@ -21,7 +21,7 @@ r:"^敵単体に(\d+)の物理ダメージ味方単体のＨＰを(\d+)回復$"=
 
 ##S1+##
 ラブリーオーダー+=Lovely Order+
-自分を中心とした範囲内の味方の物理攻撃力を中アップさせ、物理クリティカルを大アップさせる。自分の物理攻撃力と自分を中心とした範囲内の味方の人数に応じて、物理攻撃力の上昇量がアップする。=Moderately boosts allies' P.ATK in 150 range around herself, and greatly boosts their P.CRIT Rate. The P.ATK boost increases according to own P.ATK and number of allies in range around herself.
+自分を中心とした範囲内の味方の物理攻撃力を中アップ、物理クリティカルを大アップさせる。自分の物理攻撃力と対象の数に応じて、物理攻撃力のアップ量が増加する。=Moderately boosts the P.ATK and greatly boosts the P.CRIT RATE of allies within range centered on self. The P.ATK boost increases based on own P.ATK and the number of targets.
 r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを(\d+)アップ$"=►Boosts allies' P.ATK in range by $1.\n►Boosts allies' P.CRIT Rate in range by $2.
 
 ##UE##

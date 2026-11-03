@@ -3,7 +3,7 @@
 
 ##UB##
 サマーアクアフロック=Summer Aqua Flock
-ランダムな敵キャラに、単体魔法中ダメージを計３回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Deals moderate M.DMG to a random enemy 3 times. The M.DMG increases according to number of [Butterfly Seal] on enemy.
+ランダムな敵に魔法中ダメージを与える。これを３回行う。対象の【バタフライシール】の数に応じて、ダメージが増加する。=Deals moderate M.DMG to random enemies 3 times. Damage increases based on the number of [Butterfly Seals] on each target.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.\n►Deals $3 M.DMG to an enemy.
 
 ##S1##
@@ -13,21 +13,19 @@ r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ
 
 ##S2##
 アクアウィング=Aqua Wing
-ランダムな敵キャラに、単体魔法小ダメージを計３回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。=Deals small M.DMG to a random enemy 3 times. The M.DMG increases according to number of [Butterfly Seal] on enemy.
+ランダムな敵に魔法小ダメージを与える。これを３回行う。対象の【バタフライシール】の数に応じて、ダメージが増加する。=Deals minor M.DMG to random enemies 3 times. Damage increases based on the number of [Butterfly Seals] on each target.
 
 ##SP1##
 サマーブースト=Summer Boost
 このスキルのスキルレベルは「サマーアクア\nフロック」と連動しています=This skill's level is linked to "Summer Aqua Flock"
-自分の魔法攻撃力を大アップさせ、【バタフライシール】を敵へ付与できる状態になる。攻撃が敵に当たるたび【バタフライシール】を１つ付与する。【バタフライシール】は最大30まで追加される。=Greatly boosts own M.ATK. Whenever one of Kyouka's attacks hit an enemy, that enemy gains 1 [Butterfly Seal] stack, up to a maximum of 30.
-自分の魔法攻撃力を大アップさせ、敵全体を、キョウカ（サマー）の攻撃が当たるたびに、【バタフライシール】が１つ付与されるようにする。【バタフライシール】は最大30まで追加される。=Greatly boosts own M.ATK. Whenever one of Kyouka's attacks hit an enemy, that enemy gains 1 [Butterfly Seal] stack, up to a maximum of 30.
-
+自分の魔法攻撃力を大アップし、自分の攻撃が敵に当たるたびに、敵に【バタフライシール】（上限30）を１個付与する状態になる。=Greatly boosts own M.ATK and grants a state in which each time own attacks hit an enemy, they inflict 1 stack of [Butterfly Seal] on that enemy (maximum 30).
 ##EX##
 サマーリトルブレイブ=Summer Little Brave
 サマーリトルブレイブ+=Summer Little Brave+
 
 ##S1+##
 アクアクレスト+=Aqua Crest+
-ランダムな敵キャラに、単体魔法小ダメージと魔法防御力小ダウンを計２回与える。このスキルのダメージは対象の【バタフライシール】の数に応じて増加する。さらに自分の魔法攻撃力を大アップさせる。=Deals small M.DMG to an enemy and slightly lowers its M.DEF twice. The M.DMG increases according to number of [Butterfly Seal] on enemy. Additionally, greatly boosts own M.ATK.
+ランダムな敵に魔法小ダメージを与え、魔法防御力を小ダウンさせる。これを２回行う。対象の【バタフライシール】の数に応じて、ダメージが増加する。自分の魔法攻撃力を大アップする。=Deals minor M.DMG to random enemies and slightly lowers their M.DEF. Does this 2 times. Damage increases based on the number of [Butterfly Seals] on each target. Greatly boosts own M.ATK.
 r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ敵単体の魔法防御力を(\d+)ダウン敵単体の魔法防御力を(\d+)ダウン自分の魔法攻撃力を(\d+)アップ$"=►Deals $1 M.DMG to a random enemy.\n►Deals $2 M.DMG to a random enemy.\n►Lowers a random enemy's M.DEF by $3 for 12s.\n►Lowers a random enemy's M.DEF by $4 for 12s.\n►Boosts own M.ATK by $5 for 180s.
 
 ##UE##
