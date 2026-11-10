@@ -1,0 +1,33 @@
+##Profile##
+【魔法】後衛で気高く咲き誇る時を待つ、忍耐のウマ娘。バトル後半になると内に秘めた【スタミナ】を解き放ち、しとやかな足取りで立ち塞がる敵を一息にかわす。=[Magic] A patient Uma Musume who waits in the rear for her moment to bloom in all her glory. In the latter half of battle, she unleashes her hidden [Stamina] and gracefully slips past any enemies standing in her way.
+
+花のお世話=Taking Care of Flowers
+たおやかな推移=Graceful Passage
+長き冬を越え、気高く咲き誇る花=A Noble Flower Blooming Proudly After a Long Winter
+
+##UB##
+空に咲う花形=Sky-Blooming Star
+最も魔法防御力が低い敵に魔法特大ダメージを２回与える。バトルの残り時間が30秒未満の場合、さらに追加で最も魔法防御力が低い敵に魔法特大ダメージを与える。=Deals colossal M.DMG to the enemy with the lowest M.DEF 2 times. If less than 30 seconds remain in battle, additionally deals colossal M.DMG to the enemy with the lowest M.DEF.
+r:"^敵単体に(\d+)の魔法ダメージを２回与えるバトルの残り時間が30秒未満の場合、敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to a single enemy 2 times.\n\nIf less than 30 seconds remain in battle:\n►Deals $2 M.DMG to a single enemy.
+
+
+##S1##
+なんでやねん！=What the heck?!
+自分が敵から受ける行動不能を１回まで無効にする。最も魔法防御力が低い敵に魔法大ダメージを２回与え、自分のＴＰを小回復する。自分の【スタミナ】が15以上の場合、自分の【スタミナ】を15消費し、さらに追加で最も魔法防御力が低い敵に魔法大ダメージを与え、自分のＴＰを小回復する。バトルの残り時間が30秒未満の場合の初回発動時、さらに自分の【スタミナ】（上限99）を99回復し、行動パターンが変化する。=Nullifies one instance of being incapacitated by an enemy. Deals major M.DMG to the enemy with the lowest M.DEF 2 times and slightly recovers own TP. If own [Stamina] is 15 or higher, consumes 15 [Stamina] to additionally deal major M.DMG to the enemy with the lowest M.DEF and slightly recover own TP. Upon first activation when less than 30 seconds remain in battle, additionally recovers own [Stamina] by 99 (up to 99), and changes action pattern.
+
+r:"^自分の受ける行動不能を１回まで無効化する敵単体に(\d+)の魔法ダメージを２回与える自分のＴＰを100回復自分のスタミナが15以上の場合、以下の効果が発動する自分のスタミナを15消費する敵単体に(\d+)の魔法ダメージ自分のＴＰを100回復バトルの残り時間が30秒未満の場合の初回発動時、自分のスタミナを99回復する$"=Cast time: 1.05s.\n►Nullifies the next action incapacitator effect on self, up to 1 time for 12s.\n►Deals $1 M.DMG to a single enemy 2 times.\n►Recovers own TP by 100.\n\nIf own Stamina is 15 or higher, the following effects activate:\n►Consumes 15 of own Stamina.\n►Deals $2 M.DMG to a single enemy.\n►Recovers own TP by 100.\n\nUpon first activation when less than 30 seconds remain in battle:\n►Recovers own Stamina by 99.
+
+
+##S2##
+静かな気炎=Quietly Burning Spirit
+自分の魔法攻撃力を特大アップ、魔法クリティカルダメージを小アップする。初回発動時、さらに自分の【スタミナ】を99回復し、物理・魔法防御力を中アップ、加算行動速度を大アップし、自分がステータスアップ効果を受けるたびに、自分の【スタミナ】が１回復する状態になる。=Massively boosts own M.ATK and slightly boosts M.CRIT DMG. Upon first activation, additionally recovers own [Stamina] by 99, moderately boosts own P.DEF and M.DEF, greatly boosts additional action speed, and enters a state in which own [Stamina] is restored by 1 each time self receives a stat boost effect.
+r:"^自分の魔法攻撃力を(\d+)アップ自分の魔法クリダメを8％アップ初回発動時、以下の効果が発動する自分のスタミナを99回復する自分の物理・魔法防御力を(\d+)アップ自分の行動速度100％加算ステータスアップ効果を受けるたびに自分のスタミナを１回復する状態になる$"=Cast time: 1.05s.\n►Boosts own M.ATK by $1 for 180s.\n►Boosts own M.CRIT DMG by 8％ for 180s.\n\nUpon first activation, the following effects activate:\n►Recovers own Stamina by 99.\n►Boosts own P.DEF and M.DEF by $2 for 180s.\n►Adds 100％ to own action speed for 180s.\n►Enters a state where own Stamina is recovered by 1 each time a stat boost effect is received.
+
+##EX##
+しとやかな足取り=Graceful Footwork
+しとやかな足取り+=Graceful Footwork+
+
+##S1+##
+なんでやねん！+=What the heck?!+
+
+##UE##

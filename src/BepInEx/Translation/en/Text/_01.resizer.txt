@@ -176,6 +176,8 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/NodeItemDetail/NormalItem/NodeItemInfo/ItemDescription/ItemDescriptionLabel=ChangeFontSize(11)
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/NodeItemDetail/ExEquip/ExEquipStatus/Head/ItemDescriptionLabel=ChangeFontSize(11)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/WidgetOff(Clone)/SlideObj/Main/NodeItemDetail/ExEquip/ExEquipStatus/FooterButtonExEquip5/ExEquip5ExceedLimitButton/Label=ChangeFontSize(11)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/WidgetOff(Clone)/SlideObj/Main/NodeItemDetail/ExEquip/ExEquipStatus/FooterButtonExEquip5/AlcesButton/Label=ChangeFontSize(11)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/NodeItemDetail/ExEquip/ExEquipStatus/FooterButtonExEquip5/ExEquip5ExceedLimitButton/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/NodeItemDetail/ExEquip/ExEquipStatus/FooterButtonExEquip5/AlcesButton/Label=ChangeFontSize(13)
 

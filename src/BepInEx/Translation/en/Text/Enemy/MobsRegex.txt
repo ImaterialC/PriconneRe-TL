@@ -88,6 +88,7 @@ sr:"^(【物理】|【魔法】|【回復】|【補助】|【ＭＯＤＥ１】|
 【スキル２】=\n\n[Skill 2]
 【スキル３】=\n\n[Skill 3]
 【スキル４】=\n\n[Skill 4]
+【スキル５】=\n\n[Skill 5]
 【召喚体特殊効果】=\n\n[Summoned Creature Special Effects]
 【召喚体スキル１】=\n\n[Summoned Creature Skill 1]
 【召喚体スキル２】=\n\n[Summoned Creature Skill 2]

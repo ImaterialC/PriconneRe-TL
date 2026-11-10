@@ -3,7 +3,7 @@
 
 ##UB##
 クリスマススターダスト=Christmas Stardust
-自分の物理クリティカルを大アップし、前方範囲内の敵すべてに物理大ダメージを与える。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Greatly boosts own P.CRIT Rate and deals large P.DMG to enemies in range. If this skill hits a critical hit, the damage will be tripled.
+自分の物理クリティカルを大アップし、前方範囲内の敵に物理大ダメージを与える。このスキルのクリティカルダメージは３倍になる。=Greatly boosts own P.CRIT RATE and deals major P.DMG to enemies in front. This skill's critical damage is tripled.
 r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリティカルを(\d+)アップ$"=►Deals $1 to enemies in range.\n►Boosts own P.CRIT Rate by $2 for 180s.
 
 ##S1##
@@ -12,7 +12,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリティカ�
 
 ##S2##
 ジングルアロー=Jingle Arrow
-前方範囲内の敵すべてに物理小ダメージを与え、さらに物理防御力を小ダウンさせる。範囲内の敵の数に応じて、防御力の減少量が最大４倍までアップする。このスキルがクリティカルした場合のダメージは、２倍ではなく３倍になる。=Deals small P.DMG to enemies in range, and slightly lowers their P.DEF. The lowered P.DEF increases according to number of enemies, up to 4 times. If this skill hits a critical hit, the damage will be tripled.
+前方範囲内の敵に物理小ダメージを与え、物理防御力を小ダウンさせる。範囲内の敵の数に応じて、物理防御力のダウン量が最大４倍まで増加する。このスキルのクリティカルダメージは３倍になる。=Deals minor P.DMG to enemies in front and slightly lowers their P.DEF. The amount of P.DEF reduction increases based on the number of enemies within range, up to 4 times. This skill's critical damage is tripled.
 
 ##EX##
 クリスマスアプローチ=Christmas Approach
@@ -20,7 +20,7 @@ r:"^範囲内の敵に(\d+)の物理ダメージ自分の物理クリティカ�
 
 ##S1+##
 ブレッシングリース+=Blessing Wreath+
-自分を中心とした範囲内の味方すべてのＨＰを小回復するフィールドを展開し、自分を中心とした範囲内の味方すべての物理攻撃力を特大アップさせ、物理クリティカルを中アップする。=Deploys a field that slightly recovers allies' HP in range of oneself. Greatly boosts allies' P.ATK in range, and boosts their P.CRIT Rate by a moderate amount.
+自分を中心とした範囲内の味方のＨＰを小回復させるフィールドを展開し、自分を中心とした範囲内の味方の物理攻撃力を特大アップ、物理クリティカルを中アップさせる。=Deploys a field that slightly restores the HP of allies within range centered on self, massively boosts their P.ATK, and moderately boosts their P.CRIT RATE.
 r:"^範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを70アップ毎秒ＨＰを(\d+)回復するフィールドを展開する$"=►Boosts allies' P.ATK in 150 range by $1 for 180s.\n►Boosts allies' P.CRIT Rate in 150 range by 70 for 180s.\n►Deploys a 260 radius field that recovers allies' HP by $2/s for 8.5s.
 
 ##UE##
