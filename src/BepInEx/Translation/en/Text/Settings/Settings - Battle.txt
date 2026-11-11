@@ -84,3 +84,20 @@ SPEEDボタン=Speed button
 
 ★設定の保存についての確認=Confirmation prompt for saving ★ level
 マイパーティやアリーナの防衛設定で編成を保存した時と今の★の数の設定が異なる場合、確認ダイアログ\nを表示するか設定します。=Set whether to display a confirmation prompt when the current setting for the number of ★\nis different from when the party was saved in My Party or Arena defense settings.
+
+
+
+レンタルパーティ=Rental Party
+利用可能なレンタルパーティがありません。=No rental parties are available.
+UB予約を有効にする=Enable UB reservation
+UB発動時に演出を再生するか設定します。=Configure whether to play the animation when a Union Burst is activated.
+プレイヤーの強化状況がクエスト推奨に満たしていないときに、確認ダイアログを開きます。=Opens a confirmation dialog when the player's character enhancement level is below the quest's recommended level.
+バトル開始時の強化状況確認ダイアログ=Enhancement Status Confirmation Dialog at Battle Start
+味方の行動パターンを表示します。=Displays allies' action patterns.
+行動パターンの表示設定=Action Pattern Display Settings
+味方に付与されている特殊な状態のアイコンを表示します。=Displays icons for special statuses applied to allies.
+特殊な状態のアイコン表示設定=Special Status Icon Display Settings
+味方に付与されている不利な状態のアイコンを表示します。=Displays icons for debuffs applied to allies.
+不利な状態のアイコン表示設定=Debuff Icon Display Settings
+味方に付与されている有利な状態のアイコンを表示します。=Displays icons for buffs applied to allies.
+有利な状態のアイコン表示設定=Buff Icon Display Settings

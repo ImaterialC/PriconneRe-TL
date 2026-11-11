@@ -1,0 +1,44 @@
+
+バトル詳細=Battle Details
+バトルログはありません。=No battle logs.
+
+無敵=Invincible
+物理回避=Physical evasion
+魔法回避=Magic Evasion
+ボコ=Boko
+魅了=Charm
+##sample [FFBB00,CE4F00]キャル[-]が無敵状態になった
+##[64C9FD,0060BA]リマ[-]が無敵状態になった
+sr:"^(\[64C9FD,0060BA\]|\[FFBB00,CE4F00\])(.+)(（.+）)?\[-\]が(.+)状態になった$"=$1$2$3[-] enter [$4] state.
+
+##sample [3D404D][FFBB00,CE4F00]キャル[-]がUBを発動！(SET)11005074ダメージ[-]
+##[FFBB00,CE4F00]スズメ[-]がUBを発動！(AUTO)
+sr:"^(?:\[3D404D\])?(\[64C9FD,0060BA\]|\[FFBB00,CE4F00\])(.+)(（.+）)?\[-\]がUBを発動！(\(SET\)|\(AUTO\))?\n?(\d+)ダメージ\[-\]$"=[3D404D]$1$2$3[-] activated her UB!$4\nDealt $5 damage[-]
+sr:"^(?:\[3D404D\])?(\[64C9FD,0060BA\]|\[FFBB00,CE4F00\])(.+)(（.+）)?\[-\]がUBを発動！(\(SET\)|\(AUTO\))?$"=[3D404D]$1$2$3[-] activated her UB!
+
+##sample [FFBB00,CE4F00]ネネカ[-]が
+##[FFBB00,CE4F00]グレゴール[-]を召喚！
+##[64C9FD,0060BA]敵[-]2体を倒した！
+sr:"^(\[64C9FD,0060BA\]|\[FFBB00,CE4F00\])(.+)(（.+）)?\[-\]が$"=$1$2$3[-] has
+sr:"^(\[64C9FD,0060BA\]|\[FFBB00,CE4F00\])(.+)\[-\]を召喚！$"=summoned $1$2[-]!
+sr:"^(\[64C9FD,0060BA\]|\[FFBB00,CE4F00\])(.+)(（.+）)?\[-\]を倒した！$"=defeated $1$2$3[-]
+
+r:"^(?:\[3D404D\])?\[64C9FD,0060BA\]敵\[-\](\d+)体を倒した！$"=defeated $1 [64C9FD,0060BA]enemies[-]!
+r:"^(?:\[3D404D\])?\[FFBB00,CE4F00\]味方\[-\](\d+)体を倒した！$"=defeated $1 [FFBB00,CE4F00]allies[-]!
+
+##sample [3D404D][FFBB00,CE4F00]味方[-]6体の行動速度アップ[-]
+##[64C9FD,0060BA]リマ[-]の行動速度アップ
+r:"^(?:\[3D404D\])?\[FFBB00,CE4F00\]味方\[-\](\d+)体の行動速度アップ\[-\]$"=[3D404D]$1 [FFBB00,CE4F00]allied[-] units' action speed increased[-]
+r:"^(?:\[3D404D\])?\[FFBB00,CE4F00\]味方\[-\](\d+)体の行動速度ダウン\[-\]$"=[3D404D]$1 [FFBB00,CE4F00]allied[-] units' action speed decreased[-]
+r:"^(?:\[3D404D\])?\[64C9FD,0060BA\]敵\[-\](\d+)体の行動速度アップ\[-\]$"=[3D404D]$1 [64C9FD,0060BA]enemy[-] units' action speed increased[-]
+r:"^(?:\[3D404D\])?\[64C9FD,0060BA\]敵\[-\](\d+)体の行動速度ダウン\[-\]$"=[3D404D]$1 [64C9FD,0060BA]enemy[-] units' action speed decreased[-]
+sr:"^(?:\[3D404D\])?(\[64C9FD,0060BA\]|\[FFBB00,CE4F00\])(.+)(（.+）)?\[-\]の行動速度アップ?$"=[3D404D]$1$2$3[-]'s action speed increased[-]
+sr:"^(?:\[3D404D\])?(\[64C9FD,0060BA\]|\[FFBB00,CE4F00\])(.+)(（.+）)?\[-\]の行動速度ダウン?$"=[3D404D]$1$2$3[-]'s action speed decreased[-]
+
+
+##sample [3D404D][FFBB00,CE4F00]味方[-]5体がスタン状態になった[-]
+sr:"^\[3D404D\]\[FFBB00,CE4F00\]味方\[-\](\d+)体が(.+)\n?状\n?態\n?に\n?な\n?っ\n?た\[-\]$"=[3D404D]$1 [FFBB00,CE4F00]allied[-] units enter [$2] state[-]
+sr:"^\[3D404D\]\[64C9FD,0060BA\]敵\[-\](\d+)体が(.+)\n?状\n?態\n?に\n?な\n?っ\n?た\[-\]$"=[3D404D]$1 [64C9FD,0060BA]enemy[-] units enter [$2] state[-]
+
+##sample [64C9FD,0060BA]ライライ[-]が絶怠霊度状態になった
+

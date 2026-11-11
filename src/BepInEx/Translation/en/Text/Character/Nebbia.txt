@@ -9,12 +9,12 @@
 
 ##S1##
 スケルツォ=Scherzo
-最も物理攻撃力が高い敵１キャラを執着状態にし、自分のＨＰを小回復し、一定時間全ての物理攻撃を回避する。さらに、ランダムな敵の傍に移動する。=Inflicts Attachment to an enemy with the highest P.ATK, slightly recovers own HP, and gains P.ATK evasion for a period of time. Also randomly moves to an enemy character.
+最も物理攻撃力が高い敵を執着状態にし、自分のＨＰを小回復し、一定時間物理回避状態にする。ランダムな敵の傍に移動する。=Inflicts Obsession on the enemy with the highest P.ATK, slightly restores own HP, and grants self Physical Evasion for a set period of time. Moves beside a random enemy.
 r:"^敵単体を執着状態にする自分のＨＰを(\d+)回復一定時間全ての物理攻撃を回避する$"=►Shifts to an enemy with the highest P.ATK.\n►Inflicts Attachment to an enemy for 4s.\n►Recovers own HP by $1.\n►Shifts to a random enemy.
 
 ##S2##
 カプリッチョ=Capriccio
-最も魔法攻撃力が高い敵１キャラを執着状態にし、自分のＨＰを小回復し、一定時間全ての魔法攻撃を回避する。さらに、ランダムな敵の傍に移動する。=Inflicts Attachment to an enemy with the highest M.ATK, slightly recovers own HP, and gains M.ATK evasion for a period of time. Also randomly moves to an enemy character.
+最も魔法攻撃力が高い敵を執着状態にし、自分のＨＰを小回復し、一定時間魔法回避状態にする。ランダムな敵の傍に移動する。=Inflicts Obsession on the enemy with the highest M.ATK, slightly restores own HP, and grants self Magic Evasion for a set period of time. Moves beside a random enemy.
 r:"^敵単体を執着状態にする自分のＨＰを(\d+)回復一定時間全ての魔法攻撃を回避する$"=►Shifts to an enemy with the highest M.ATK.\n►Inflicts Attachment to an enemy for 4s.\n►Recovers own HP by $1.\n►Shifts to a random enemy.
 
 ##SP1##

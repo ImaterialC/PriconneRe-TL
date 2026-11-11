@@ -14,6 +14,7 @@ r:"^味方全体の物理・魔法攻撃力を(\d+)アップ味方全体の物�
 
 ##S1##
 ぷちゴーレムサモン=Summon Mini-Golem
+ぷちゴーレム=Puchi Golem
 【召喚】自分の前に、目の前の敵１キャラを攻撃するぷちゴーレムを召喚する。=[Summon] Summons a mini-golem in front of oneself, which attacks an enemy directly in front.
 r:"^ぷちゴーレムを召喚する$"=Cast: 0.85s.\n►Summons Mini-Golem.
 

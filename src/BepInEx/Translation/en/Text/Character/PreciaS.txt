@@ -2,7 +2,7 @@
 
 #UB##
 ビッグピッグヒップドロップ=Big Pig Hip Drop
-目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法特大ダメージを与え、追加の物理特大ダメージを与える。さらに、味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。物理攻撃力アップと物理クリティカルアップの効果量は味方の数に応じて変化する。=Deals massive M.DMG (counts as P.DMG if target's P.DEF < M.DEF) and additional massive P.DMG to one enemy in front. Greatly boosts all allies' P.ATK and P.CRIT RATE. Effect scales with number of allies.
+目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法特大ダメージを与え、さらに追加で物理特大ダメージを与える。味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。味方の数に応じて、物理攻撃力と物理クリティカルのアップ量が変化する。=Deals colossal M.DMG to an enemy in front, treated as P.DMG if their P.DEF is lower than their M.DEF, then additionally deals colossal P.DMG. Massively boosts all allies' P.ATK and greatly boosts their P.CRIT RATE. The boost values for P.ATK and P.CRIT RATE vary based on the number of allies.
 r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ敵単体に(\d+)の物理ダメージ味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを100アップ$"="►Deals $1 M.DMG to a single enemy (uses lower DEF value)\n►Deals $2 P.DMG to a single enemy\n►Boosts all allies' P.ATK by $3\n►Boosts all allies' P.CRIT RATE by 100"
 
 ##S1##
@@ -13,7 +13,8 @@ r:"^敵単体に(\d+)の低い側の防御力で防御する魔法ダメージ�
 ##S2##
 おいしいひんやり=Tasty Cool Treat
 r:"^自分の魔法攻撃力を(\d+)アップ味方全体の物理クリダメを8％アップ味方全体のＨＰを(\d+)回復自分のＴＰを30回復自分以外の味方全体のＴＰを20回復$"="►Boosts own M.ATK by $1\n►Boosts all allies' P.CRIT DMG by 8%\n►Recovers all allies' HP by $2\n►Recovers own TP by 30\n►Recovers all other allies' TP by 20"
-自分の魔法攻撃力を特大アップし、味方全体の物理攻撃クリティカル時のダメージを小アップ、ＨＰを小回復させる。さらに自分のＴＰを小回復し、自分以外の味方全体のＴＰを小回復させる。魔法攻撃力アップ、物理攻撃クリティカル時のダメージアップの効果量とＴＰの回復量は味方の数に応じて変化する。=Greatly boosts own M.ATK, slightly boosts all allies' P.CRIT DMG, and slightly recovers HP. Also slightly recovers own TP and all other allies' TP. Effects scale with number of allies.
+自分の魔法攻撃力を特大アップし、味方全体の物理クリティカルダメージを小アップ、ＨＰを小回復させる。自分のＴＰを小回復し、自分以外の味方のＴＰを小回復させる。味方の数に応じて、魔法攻撃力と物理クリティカルダメージのアップ量とＴＰの回復量が変化する。=Massively boosts own M.ATK, slightly boosts all allies' P.CRIT DMG, and slightly restores their HP. Slightly recovers own TP and slightly recovers the TP of all allies except self. The boost values for M.ATK and P.CRIT DMG, as well as the amount of TP recovered, vary based on the number of allies.
+
 
 #EX#
 はっぴーさまー+=Happy Summer+
@@ -24,3 +25,9 @@ r:"^自分の魔法攻撃力を(\d+)アップ味方全体の物理クリダメ�
 特殊効果=Special effect
 ダメージとＨＰ回復は物理攻撃力と魔法攻撃力を合わせるクリティカルは物理クリティカルと魔法クリティカルを合わせる=[Always Active]\n ►Combines P.ATK and M.ATK for damage/HP recovery calculations.\n►Combines P.CRIT and M.CRIT for critical calculations.
 【常時発動】自分のユニオンバーストおよびスキルのダメージとＨＰ回復は物理と魔法攻撃力を合わせ、クリティカルは物理と魔法クリティカルの値を合わせる。=[Always Active] Combines P.ATK and M.ATK for UB/skill damage and HP recovery. Combines P.CRIT and M.CRIT for critical calculations.
+
+
+
+##Skill 1+ (S1+)##
+たねれんしゃ+=Seed Barrage+
+目の前の敵１キャラに対象の物理防御力が魔法防御力より低い場合、物理ダメージ扱いになる魔法特大ダメージを与える。味方全体の物理攻撃力を特大アップ、物理クリティカルダメージを小アップさせ、物理無効バリアを展開する。味方の数に応じて、効果量が変化する。=Deals colossal M.DMG to an enemy in front, treated as P.DMG if their P.DEF is lower than their M.DEF. Massively boosts all allies' P.ATK, slightly boosts their P.CRIT DMG, and deploys a physical nullification barrier. The effect values vary based on the number of allies.

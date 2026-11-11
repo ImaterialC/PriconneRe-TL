@@ -19,3 +19,10 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダ
 ##EX##
 アンダーザムーン=Under the Moon
 アンダーザムーン+=Under the Moon+
+
+
+##Skill 1+ (S1+)##
+##S1##
+流麗キャットステップ+=Graceful Cat Step+
+
+闇属性の味方の物理攻撃力を特大アップ、物理クリティカルを大アップ、物理クリティカルダメージを小アップ、ＨＰを中回復させる。初回発動後、自分が10回ダメージを与えるたびに、最大10回まで闇属性の味方の物理攻撃力を大アップさせる。100回ダメージを与えた場合、自分に【サラサリアンステップ】を付与する。=Massively boosts the P.ATK of Dark allies, greatly boosts their P.CRIT RATE, slightly boosts their P.CRIT DMG, and moderately restores their HP. After the first activation, every time self deals damage 10 times, greatly boosts the P.ATK of Dark allies, up to 10 times. Upon dealing damage 100 times, grants self [Salasarian Step].

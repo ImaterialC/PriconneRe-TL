@@ -4,7 +4,7 @@
 
 ##UB##
 ティース・ワインディング=Teeth Winding
-敵全体の物理防御力を小ダウンさせ、クリティカルを受けた際のダメージを小アップさせ、前方範囲内の敵すべてに物理大ダメージを与える。さらに、自分のＨＰを中回復する。このスキルのダメージは、１ヒットは必ずクリティカルする。=Moderately lowers all enemies' P.DEF and boosts their P.CRIT DMG taken, and deals large P.DMG to enemies in range. Also moderately recovers own HP. At least one hit of the UB will always be a critical hit.
+敵全体の物理防御力を小ダウン、受けるクリティカルダメージを小アップさせ、前方範囲内の敵に物理大ダメージを与える。自分のＨＰを中回復する。このスキルのダメージは、１ヒットは必ずクリティカルする。=Slightly lowers all enemies' P.DEF and slightly increases the critical damage they take, then deals major P.DMG to enemies in front. Moderately restores own HP. One hit of this skill is guaranteed to be critical.
 r:"^敵全体の物理防御力を(\d+)ダウン敵全体の被クリダメを5％アップ範囲内の敵に(\d+)の物理ダメージ自分のＨＰを(\d+)回復$"=►Lowers all enemies' P.DEF by $1 for 18s.\n►Boosts all enemies' P.CRIT DMG taken by 5% for 18s.\n►Deals $2 P.DMG to enemies in 500 range.\n►Recovers own HP by $3. 
 
 ##S1##
@@ -14,14 +14,19 @@ r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理
 
 ##S2##
 バンディットダイス=Bandy Dice
-自分の物理攻撃力を大アップ、物理攻撃クリティカル時のダメージを小アップさせる。さらに、【バンディダイス】をすべて消費するが、消費した【バンディダイス】の数に応じて効果量がアップする。【バンディダイス】を８つ消費した場合、効果量の上昇量と効果時間が増加する。=Greatly boosts own P.ATK and slightly boosts own P.CRIT DMG. Also consumes all [Bandy Dice] stacks, but increases the effects of the skill based on the number of [Bandy Dice] stacks consumed. If 8 [Bandy Dice] stacks are consumed, both the effects and the duration increase.
-r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを1％アップバンディダイスを全て消費する$"=►Boosts own P.ATK by $1 (+0.25×$1×\n[Bandy Dice]) for 12s.\n►Boosts own P.CRIT DMG by 1% (+1%×[Bandy Dice]) for 12s.\n►Consumes all {Bandy Dice].
+自分の物理攻撃力を大アップ、物理クリティカルダメージを小アップする。【バンディダイス】をすべて消費するが、消費した【バンディダイス】の数に応じて効果量が増加する。【バンディダイス】を８個消費した場合、さらに効果量と効果時間が増加する。=Greatly boosts own P.ATK and slightly boosts own P.CRIT DMG. Consumes all [Bandy Dice], with effect values increasing based on the number consumed. If 8 [Bandy Dice] are consumed, the effect values and duration increase further.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを1％アップバンディダイスを全て消費する$"=►Boosts own P.ATK by $1 (+0.25×$1×\n[Bandy Dice]) for 12s.\n►Boosts own P.CRIT DMG by 1% (+1%×[Bandy Dice]) for 12s.\n►Consumes all [Bandy Dice].
 
 ##SP1##
 水分補給だよ=Rehydration
-自分の物理防御力と魔法防御力を大アップする。さらに、自分を敵にクリティカルでダメージを与えるたびに【バンディダイス】が１つ追加される状態にし、自分に【バンディダイス】を３つ付与する。【バンディダイス】は最大８つまで追加される。=Greatly boosts own P.DEF and M.DEF, gains 3 [Bandy Dice] stacks, and adds one [Bandy Dice] stack for each time she lands a critical hit, up to a maximum of 8.
+自分の物理・魔法防御力を大アップする。自分が敵にクリティカルでダメージを与えるたびに【バンディダイス】（上限８）が１個付与される状態になる。自分に【バンディダイス】を３個付与する。=Greatly boosts own P.DEF and M.DEF. Enters a state in which 1 [Bandy Dice] (up to 8) is granted to self each time self deals critical damage to an enemy. Grants self 3 [Bandy Dice].
 r:"^クリティカルでダメージを与えるたびにバンディダイスを付与する状態になる自分にバンディダイスを３つ付与する自分の物理防御力を(\d+)アップ自分の魔法防御力を(\d+)アップ$"=►Boosts own P.DEF by $1 for 180s.\n►Boosts own M.DEF by $2 for 180s.\n►When landing a critical hit, gains 1 [Bandy Dice] stack.\n►Gains 3 [Bandy Dice] stacks.
 
 ##EX##
 品定めの時間=Time to check the goods
 品定めの時間+=Time to check the goods+
+
+##Skill 1+ (S1+)##
+##S1##
+チェーンエッジ+=Chain Edge+
+前方範囲内の敵に物理大ダメージを２回与え、物理防御力を小ダウンさせる。自分のＨＰを大回復する。クリティカルした場合、さらに自分の物理攻撃力を中アップ、与える物理ダメージを小アップし、追加で前方範囲内の最も物理防御力が低い敵に物理中ダメージを与える。=Deals major P.DMG to enemies in front 2 times and slightly lowers their P.DEF. Greatly restores own HP. If a critical hit occurs, additionally moderately boosts own P.ATK, slightly boosts own P.DMG dealt, and deals moderate P.DMG to the enemy with the lowest P.DEF within range in front.
