@@ -438,3 +438,8 @@ _Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/Contents/SubTabRoot/NormalShopCategoryTab/PartsCommonTab(Clone)/REFININIG_STONE/Normal/Text=ChangeFontSize(18)
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/Contents/SubTabRoot/NormalShopCategoryTab/PartsCommonTab(Clone)/REFININIG_STONE/Active/Text=ChangeFontSize(18)
+
+/_Game(Clone)/UI Root/ViewsArea/View/ViewUnitDetail(Clone)/Right/UnitExtraEquip(Clone)/Equipped/ExEquip5FooterButton/ExceedLimitButton/Label=ChangeFontSize(22)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogExEquip5ExceedLimitLineup(Clone)/EquipStatus/SkillPlate_2/SkillIcon_2/Label=ChangeFontSize(12)
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogAlcesBulkAlchemyExec(Clone)/PartsAlcesTopExEquipStatePlate/EquipmentStatus/SkillStatus/DoubleRow/skill_texticon_yellow_2/LabelSkill=ChangeFontSize(12)

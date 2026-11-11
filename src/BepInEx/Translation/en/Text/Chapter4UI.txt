@@ -125,7 +125,7 @@ sr:"^(.+?) ボスバトル（(.+)）を([0-9:]+)以上残してクリアしよ�
 この装備の超越錬醒は今後登場予定です。=Transcendent Awakening for this equipment will be introduced in the future.
 超越錬醒1段階目で解放されます。=Unlocked at Transcendent Awakening Stage 1.
 さらに超越錬醒=Further Transcendent Awakening
-超越錬醒する=Perform Transcendent Awakening
+超越錬醒する=Transcendent Awakening
 EX装備 超越錬醒=EX Equipment Transcendent Awakening
 超越錬醒{0}段階目で解放されます。=Unlocked at Transcendent Awakening Stage {0}.
 消費素材=Materials Consumed
