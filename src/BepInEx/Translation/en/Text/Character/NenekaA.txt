@@ -3,6 +3,7 @@
 
 ##UB##
 ティル・ナ・ノーグ=Tír na nÓg
+グレゴール=Gregor
 目の前の敵１キャラを中心とした範囲内の敵すべてに魔法大ダメージを与え、魔法防御力を小ダウン、クリティカルを受けた際のダメージを小アップさせる。ネネカ（アルファ）が召喚したグレゴールが味方にいる場合、グレゴールの魔法攻撃力に応じて与えるダメージがアップし、追加で敵全体の魔法防御力を小ダウンさせる。=Deals major M.DMG to enemies around target. Slightly lowers M.DEF and increases critical damage taken. With Gregor summoned, damage scales with Gregor's M.ATK and additionally lowers all enemies' M.DEF.
 r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御力を(\d+)ダウン範囲内の敵の被クリダメを7％アップグレゴールがいる場合、敵全体の魔法防御力を(\d+)ダウン$"=►Deals $1 M.DMG to enemies within range.\n►Lowers M.DEF of enemies within range by $2.\n►Boosts enemies' CRIT DMG taken within range by 7%.\n\nIf Gregor is present:\n►Lowers all enemies' M.DEF by $3.
 

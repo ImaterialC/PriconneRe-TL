@@ -14,6 +14,7 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の魔法防御�
 
 ##S1##
 ミスティックハーモニー=Mystic Harmony
+ネフライトワイバーン=Nephrite Wyvern
 【召喚】味方全体の魔法攻撃力を大アップさせる。ネフライトワイバーンが味方にいない場合、召喚する。=[Summon] Greatly boosts all allies' M.ATK. Summons the Nephrite Wyvern if it is not already an ally.
 r:"^味方全体の魔法攻撃力を(\d+)アップネフライトワイバーンを召喚する$"=Cast time: 0.733s.\n►Boosts all allies' M.ATK by $1 for 180s.\n►Summons a Nephrite Wyvern at 125 in front of self.
 

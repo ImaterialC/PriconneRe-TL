@@ -2960,7 +2960,12 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 このスキルで与えたダメージが高いほど：アップ量上昇=The higher the damage dealt by this skill, the greater the boost.
 対象のＨＰが95％未満：スタン（飛行効果無視・必中）=Target's HP below 95%: Stun (ignores flight effects; guaranteed to hit).
 前から敵１体をノックバック（召喚体無視・必中）=Knocks back 1 enemy from the front (ignores summons; guaranteed to hit).
-
+敵全体の召喚体か分身を消滅=Destroys all enemy summons and clones.
+対象が消滅：自身に全ダメージカット=If the target is destroyed: grants self all-damage reduction.
+自身の【黒星】の数が多いほど：バリア耐久量アップ=The more [Black Star] stacks self has, the greater the barrier's durability.
+自身の【黒星】の数が多いほど：アップ量上昇=The more [Black Star] stacks self has, the greater the increase.
+敵全体に被クリダメアップ（飛行効果無視・必中）=Increases CRIT DMG taken by all enemies (ignores flying effects; guaranteed hit).
+全スキルダメージクリティカル確定=All skill damage is guaranteed to CRIT.
 
 自身に無敵\n【スキル１】 =Invincible to myself\n[Skill 1]\n
 自身に無敵【スキル１】=Invincible to myself\n[Skill 1]\n

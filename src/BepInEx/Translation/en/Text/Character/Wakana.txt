@@ -5,13 +5,16 @@
 大変だけど元気です。盗賊ギルドの次女=She's tough, but she's doing well. The second daughter of the Thieves Guild
 ##UB##
 お願い！スパイクブラザーズ=Please! Spike Brothers!
+スパイクブラザーズ=Spike Brothers
+
 【召喚】味方全体の物理攻撃力を特大アップさせ、目の前の敵１キャラに物理特大ダメージを与え、物理防御力を小ダウンさせる。自分が呼び出したスパイクブラザーズが味方にいる場合、さらにスパイクブラザーズのＨＰを大回復させ、そうでない場合スパイクブラザーズを１体呼び出す。=[Summon] Massively boosts all allies' P.ATK, deals massive P.DMG to an enemy in front, and slightly lowers their P.DEF. If a Spike Brothers summoned by self is on the allied side, additionally greatly recovers the Spike Brothers' HP. Otherwise, summons 1 Spike Brothers.
 
 r:"^味方全体の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウンスパイクブラザーズのＨＰを(\d+)回復スパイクブラザーズを呼び出す$"=►Boosts all allies' P.ATK by $1 for 18s.\n►Deals $2 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $3 for 18s.\n►If Spike Brothers are on the field, recovers their HP by $4; Otherwise, summons Spike Brothers.
 
 ##S1##
 カレー、いかがです？=Would You Like Some Curry?
-自分以外の味方全体の物理攻撃力と物理クリティカルを特大アップさせ、ＨＰとＴＰを中回復させる。さらに、自分の物理攻撃力を中アップ、物理クリティカルを大アップし、ＨＰとＴＰを小回復する。=Massively boosts all other allies' P.ATK and P.CRIT Rate, and moderately recovers their HP and TP. Also moderately boosts own P.ATK, greatly boosts own P.CRIT Rate, and slightly recovers own HP and TP.
+自分以外の味方の物理攻撃力と物理クリティカルを特大アップ、ＨＰとＴＰを中回復させる。自分の物理攻撃力を中アップ、物理クリティカルを大アップ、ＨＰとＴＰを小回復する。=Massively boosts P.ATK and P.CRIT RATE of all allies except self, and moderately recovers their HP and TP. Moderately boosts own P.ATK, greatly boosts P.CRIT RATE, and slightly recovers own HP and TP.
+
 r:"^自分以外の味方全体の物理攻撃力を(\d+)アップ自分以外の味方全体の物理クリティカルを180アップ自分以外の味方全体のＨＰを(\d+)回復自分以外の味方全体のＴＰを150回復自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを90アップ自分のＨＰを(\d+)回復自分のＴＰを75回復$"=►Boosts all other allies' P.ATK by $1 for 12s.\n►Boosts all other allies' P.CRIT Rate by 180 for 12s.\n►Recovers all other allies' HP by $2.\n►Recovers all other allies' TP by 150.\n►Boosts own P.ATK by $3 for 12s.\n►Boosts own P.CRIT Rate by 90 for 12s.\n►Recovers own HP by $3.\n►Recovers own TP by 75.
 
 

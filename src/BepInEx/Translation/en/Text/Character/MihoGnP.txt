@@ -5,6 +5,7 @@
 
 ##UB##
 ボコ召喚作戦です！=Operation: Boko Summon!
+ボコ=Boko
 【召喚】ボコられグマのボコが味方にいる場合、ボコのＨＰを中回復し、そうでない場合ボコを１体召喚する。自分を中心とした範囲内の味方すべての物理攻撃力を特大アップ、物理クリティカルを大アップさせ、ＨＰを中回復させる。さらに目の前の敵１キャラの物理防御力を小ダウンさせる。このスキルのＨＰ回復量は、このキャラの物理と魔法攻撃力に応じて増加する。=[Summon] If Boko (Punching Bear) is present among allies, moderately recovers Boko’s HP; otherwise, summons 1 Boko. Massively boosts P.ATK and greatly boosts P.CRIT RATE of all allies in range centered on self, and moderately recovers their HP. Additionally, slightly lowers the P.DEF of an enemy in front. The HP recovery amount of this skill increases based on this character’s P.ATK and M.ATK.
 
 r:"^ボコのＨＰを(\d+)回復ボコを召喚する範囲内の味方の物理攻撃力を(\d+)アップ範囲内の味方の物理クリティカルを100アップ範囲内の味方のＨＰを(\d+)回復敵単体の物理防御力を(\d+)ダウン$"=►Recovers HP of [Boko] by $1.\n►Summons [Boko] at 420 in front of self.\n►Boosts allies' P.ATK within 300 range by $2 for 18s.\n►Boosts allies' P.CRIT RATE within 300 range by 100 for 18s.\n►Recovers HP of allies within 300 range by $3.\n►Lowers a single enemy's P.DEF by $4 for 18s.

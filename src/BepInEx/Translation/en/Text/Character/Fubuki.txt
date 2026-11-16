@@ -7,19 +7,19 @@
 
 ##UB##
 しんじゃえ♡フルバースト=Die♡ Full Burst
-自分の物理攻撃力を特大アップさせる。さらに目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与え、物理防御力を中ダウンさせ、スタンさせる。ＨＰが最大の場合、このスキルのダメージがアップし、追加で最も物理防御力の低い敵１キャラに物理特大ダメージを与える。=Massively boosts own P.ATK, and deals large P.DMG to enemies in range, lowers their P.DEF, and stuns them. If Fubuki's HP is at 100%, the damage of this skill increases, and deals an additional instance of massive P.DMG to an enemy with the lowest P.DEF.
+自分の物理攻撃力を特大アップする。目の前の敵１キャラを中心とした範囲内の敵に物理大ダメージを与え、物理防御力を中ダウンさせ、スタンさせる。自分のＨＰが最大の場合、ダメージが増加し、さらに追加で最も物理防御力が低い敵に物理特大ダメージを与える。=Massively boosts own P.ATK. Deals major P.DMG to enemies within range centered on an enemy in front, moderately lowers their P.DEF, and stuns them. If own HP is full, damage increases, and additionally deals massive P.DMG to the enemy with the lowest P.DEF.
 r:"^自分の物理攻撃力を(\d+)アップ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵を一定時間行動不能にするＨＰが最大の場合、敵単体に(\d+)の物理ダメージ$"=►Boosts own P.ATK by $1 for 18s.\n►Deals $2 P.DMG to enemies in 1000 range.\n►Inflicts Stun to enemies in 1000 range for 2.5s.\n►Lowers enemies' P.DEF in 1000 range by $3 for 18s.\n\nIf own HP is 100%:\n►Deals $4 P.DMG to an enemy.
 
 ##S1##
 かばって♡味方シールド=Protect Me♡Ally Shield
-前方の自分以外の一番前の味方１キャラに【味方バリアー♡】を付与する。【味方バリアー♡】が付与されている間、自分への攻撃を【味方バリアー♡】が付与されている味方１キャラが代わりに受ける。さらに自分の物理攻撃力と物理クリティカルを大アップ、物理攻撃クリティカル時のダメージを小アップして、ＨＰを中回復、ＴＰを小回復する。=Applies the [Ally Barrier♡] status to the frontmost other ally. While [Ally Barrier♡] is in effect, all attacks directed towards oneself will be received by the ally inflicted with the [Ally Barrier♡] effect. Also greatly boosts own P.ATK and P.CRIT Rate, slightly boosts own P.CRIT DMG, moderately recovers own HP and slightly recovers own TP.
+前方の自分以外で最も前の味方に【味方バリアー♡】を付与する。【味方バリアー♡】付与中の味方は、自分への攻撃を代わりに受ける。自分の物理攻撃力と物理クリティカルを大アップ、物理クリティカルダメージを小アップ、ＨＰを中回復、ＴＰを小回復する。=Grants [Ally Barrier♡] to the frontmost ally in front other than self. The ally with [Ally Barrier♡] takes attacks aimed at self in their place. Greatly boosts own P.ATK and P.CRIT RATE, slightly boosts P.CRIT DMG, moderately recovers HP, and slightly recovers TP.
 r:"^味方単体に【味方バリアー♡】を付与自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを150アップ自分の物理攻撃クリティカル時のダメージを7％アップ自分のＨＰを(\d+)回復自分のＴＰを80回復$"=►Applies [Ally Barrier♡] to an ally.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT Rate by 150 for 12s.\n►Boosts own P.CRIT DMG by 7% for 12s.\n►Recovers own HP by $2.\n►Recovers own TP by 80.
 
 r:"^味方単体に【味方バリアー♡】を付与自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを(\d+)アップ自分の物理クリダメを(\d+)％アップ自分のＨＰを(\d+)回復自分のＴＰを(\d+)回復$"="►Grants [Ally Barrier♡] to a single ally.\n►Boosts own P.ATK by $1.\n►Boosts own P.CRIT RATE by $2.\n►Boosts own P.CRIT DMG by $3％.\n►Restores own HP by $4.\n►Recovers own TP by $5."
 
 ##S2##
 きゅっ♡イズナランチャー=Kyuu♡ Izuna Launcher
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理中ダメージを与え、物理防御力を小ダウンさせる。ＨＰが最大の場合、このスキルのダメージがアップする。=Deals moderate P.DMG to enemies in range, and lowers their P.DEF. If Fubuki's HP is at 100%, the damage of this skill increases.
+目の前の敵１キャラを中心とした範囲内の敵に物理中ダメージを与え、物理防御力を小ダウンさせる。自分のＨＰが最大の場合、ダメージが増加する。=Deals moderate P.DMG to enemies within range centered on an enemy in front and slightly lowers their P.DEF. If own HP is full, damage increases.
 
 ##EX##
 ナマイキ♡ジーニアス=Cheeky♡Genius
@@ -29,5 +29,6 @@ r:"^味方単体に【味方バリアー♡】を付与自分の物理攻撃力�
 イズナランチャー♡かすたむ=Izuna Launcher♡Kasumi
 ##S1+##
 かばって♡味方シールド+=Protect Me♡Ally Shield+
-前方の自分以外の一番前の味方１キャラに【味方バリアー♡】を付与してＨＰを小回復する。【味方バリアー♡】が付与されている間、自分への攻撃を【味方バリアー♡】が付与されている味方１キャラが代わりに受ける。さらに自分の物理攻撃力と物理クリティカルを特大アップ、物理攻撃クリティカル時のダメージを小アップして、ＨＰを中回復、ＴＰを小回復する。ＨＰが最大の場合、ＴＰの回復量がアップする。=Grants [Ally Barrier♡] to the frontmost ally excluding self in front, slightly recovering their HP. While [Ally Barrier♡] is active, attacks on self are taken by the ally with [Ally Barrier♡] instead. Additionally, massively boosts own P.ATK and P.CRIT RATE, slightly boosts own P.CRIT DMG, moderately recovers own HP, and slightly recovers own TP. If HP is at max, the TP recovery amount increases.
+前方の自分以外で最も前の味方に【味方バリアー♡】を付与し、ＨＰを小回復させる。【味方バリアー♡】付与中の味方は、自分への攻撃を代わりに受ける。自分の物理攻撃力と物理クリティカルを特大アップ、物理クリティカルダメージを小アップ、ＨＰを中回復、ＴＰを小回復する。自分のＨＰが最大の場合、ＴＰの回復量が増加する。=Grants [Ally Barrier♡] to the frontmost ally in front other than self and slightly recovers their HP. The ally with [Ally Barrier♡] takes attacks aimed at self in their place. Massively boosts own P.ATK and P.CRIT RATE, slightly boosts P.CRIT DMG, moderately recovers HP, and slightly recovers TP. If own HP is full, the amount of TP recovered increases.
+
 r:"^味方単体に【味方バリアー♡】を付与味方単体のＨＰを(\d+)回復自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを200アップ自分の物理クリダメを12％アップ自分のＨＰを(\d+)回復自分のＴＰを80回復ＨＰが最大の場合、自分のＴＰを300回復$"=►Grants [Ally Barrier♡] to a single ally.\n►Restores a single ally's HP by $1.\n►Boosts own P.ATK by $2.\n►Boosts own P.CRIT RATE by 200.\n►Boosts own P.CRIT DMG by 12%.\n►Restores own HP by $3.\n►Recovers own TP by 80.\n►If HP is full, recovers own TP by 300.

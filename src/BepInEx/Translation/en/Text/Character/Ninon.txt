@@ -21,11 +21,14 @@ Profile
 
 ##UB##
 忍法・灼熱地獄=Ninpo: Scorching Hell
+前方範囲内の敵に物理中ダメージを与える。【火遁の印】付与中、【火遁の印】を１個消費し、自分のＴＰを特大回復する。=Deals moderate P.DMG to enemies within range in front. If [Fire Seal] is granted, consumes 1 [Fire Seal] and massively recovers own TP.
+r:"^範囲内の敵に(\d+)の物理ダメージ火遁の印が１個以上の場合、以下の効果が発動する火遁の印を１個消費する自分のＴＰを1000回復$"=►Deals $1 P.DMG to enemies within range.\n\nIf [Fire Seal] is 1 or higher:\n►Consumes 1 [Fire Seal].\n►Recovers own TP by 1000.
 
 ##S1##
 旋風撃=Hurricane Assault
-前方範囲内の敵すべてに物理小ダメージを与え、さらにこのスキルで敵を倒した場合、自分のＴＰを中回復する。とどめを刺した敵の数に応じてＴＰの回復量が増加する。=Deals small P.DMG to all enemies in range. Recovers own TP by a moderate amount if an enemy is defeated by this skill.
-r:"^範囲内の敵に(\d+)の物理ダメージとどめを刺した時、自分のＴＰを150回復$"=Cast time: 1.85s.\n►Deals $1 P.DMG to enemies in 750 range.\n►Recovers own TP by 150 for each fallen enemy.
+前方範囲内の敵に物理小ダメージを与える。敵を倒した場合、さらに自分のＴＰを中回復する。倒した敵の数に応じて、ＴＰの回復量が増加する。=Deals minor P.DMG to enemies within range in front. If an enemy is defeated, additionally moderately recovers own TP. The amount of TP recovered increases based on the number of defeated enemies.
+r:"^範囲内の敵に(\d+)の物理ダメージ敵を倒した場合、自分のＴＰを150回復$"=Cast time: 1.85s.\n►Deals $1 P.DMG to enemies within 750 range.\n\nIf an enemy is defeated:\n►Recovers own TP by 150.
+
 
 ##S2##
 火炎扇=Blazing Fan

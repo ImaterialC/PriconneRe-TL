@@ -9,7 +9,7 @@ r:"^敵全体の物理防御力を(\d+)ダウン敵全体の被クリダメを5�
 
 ##S1##
 チェーンエッジ=Chain Edge
-前方範囲内の敵すべてに物理中ダメージを２回与え、物理防御力を小ダウンさせる。さらに、自分のＨＰを中回復する。=Deals two instances of moderate P.DMG enemies in front and slightly lowers their P.DEF. Also moderately recovers own HP.
+前方範囲内の敵に物理中ダメージを２回与え、物理防御力を小ダウンさせる。自分のＨＰを中回復する。=Deals moderate P.DMG twice to enemies within range in front and slightly lowers their P.DEF. Moderately recovers own HP.
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン自分のＨＰを(\d+)回復$"=►Deals $1 P.DMG to enemies in 500 range.\n►Deals $2 P.DMG to enemies in 500 range.\n►Lowers enemies' P.DEF in 500 range by $3 for 12s.\n►Recovers own HP by $4.
 
 ##S2##

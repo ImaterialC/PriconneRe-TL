@@ -20,10 +20,13 @@
 
 ##UB##
 テンペストブレード=Tempest Blade
+目の前の敵１キャラに物理特大ダメージを与える。発動時既に【CHAIN】が付与されていた場合、【CHAIN】をすべて消費し、さらに追加で敵全体に物理中ダメージを与える。消費した【CHAIN】の数に応じて敵全体へのダメージ倍率がアップする。=Deals massive P.DMG to an enemy in front. If [CHAIN] is already granted when this activates, consumes all [CHAIN] and additionally deals moderate P.DMG to all enemies. The damage multiplier against all enemies increases based on the number of [CHAIN] consumed.
+r:"^敵単体に(\d+)の物理ダメージCHAINが１つ以上の場合、以下の効果が発動する敵全体に(\d+)の物理ダメージCHAINを全て消費する$"=►Deals $1 P.DMG to a single enemy.\n\nIf [CHAIN] is 1 or higher:\n►Deals $2 P.DMG to all enemies.\n►Consumes all [CHAIN].
 
 ##S1##
 ワイドブレード=Wide Blade
-目の前の敵１キャラに物理中ダメージを与える。=Deals moderate P.DMG to an enemy directly in front.
+目の前の敵１キャラに物理中ダメージを与える。初回発動時、味方がＵＢを発動するたびに自分に【CHAIN】（上限５）が１個付与される状態になる。=Deals moderate P.DMG to an enemy in front. On first activation, enters a state where self gains 1 [CHAIN] (max 5) each time an ally activates their UB.
+r:"^敵単体に(\d+)の物理ダメージ初使用時、味方がＵＢを使用するたびに自分にCHAINが１つ付与される状態にする$"=►Deals $1 P.DMG to a single enemy.\n►Upon first use, each time an ally uses their UB, add 1 [CHAIN] to self.
 
 ##S2##
 ウェポンバースト=Weapon Burst

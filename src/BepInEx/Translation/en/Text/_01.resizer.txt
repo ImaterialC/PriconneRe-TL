@@ -46,7 +46,8 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/ConnectShopTab/TabButton_8/State_Active/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/ConnectShopTab/TabButton_8/State_Normal/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/ConnectShopTab/TabButton_8/State_Normal/Label=ChangeFontSize(13)
-
+/_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/NormalShopTab/TabButton_1/State_Active/Label=ChangeFontSize(10)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/NormalShopTab/TabButton_1/State_Normal/Label=ChangeFontSize(10)
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/MemoryPieceShopTab/TabButton_9/State_Normal/Label=ChangeFontSize(11)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/MemoryPieceShopTab/TabButton_9/State_Active/Label=ChangeFontSize(11)
@@ -436,10 +437,14 @@ _Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogQuestDetail(Clone)/Main/PartsSevenBossQuestDetail(Clone)/contents/PlayerLv/GUIGroup_PlayerLv/Label=ChangeFontSize(15)
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/Contents/SubTabRoot/NormalShopCategoryTab/PartsCommonTab(Clone)/REFININIG_STONE/Normal/Text=ChangeFontSize(18)
-
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/Contents/SubTabRoot/NormalShopCategoryTab/PartsCommonTab(Clone)/REFININIG_STONE/Active/Text=ChangeFontSize(18)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/Contents/SubTabRoot/NormalShopCategoryTab/PartsCommonTab(Clone)/middle_2/Normal/Text=ChangeFontSize(18)
+/_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/Contents/SubTabRoot/NormalShopCategoryTab/PartsCommonTab(Clone)/middle_2/Active/Text=ChangeFontSize(18)
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewUnitDetail(Clone)/Right/UnitExtraEquip(Clone)/Equipped/ExEquip5FooterButton/ExceedLimitButton/Label=ChangeFontSize(22)
 
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogExEquip5ExceedLimitLineup(Clone)/EquipStatus/SkillPlate_2/SkillIcon_2/Label=ChangeFontSize(12)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogAlcesBulkAlchemyExec(Clone)/PartsAlcesTopExEquipStatePlate/EquipmentStatus/SkillStatus/DoubleRow/skill_texticon_yellow_2/LabelSkill=ChangeFontSize(12)
+
+
+/_Game(Clone)/ExceptNGUIRoot/ca_memory_piece_01(Clone)/Flatout/pf_memory_piece_01/MOT_root/OBJ_object30/offset/MOT_serif_box/OBJ_object0/MOT_TextCharaComment/TXT_CharaComment_00/offset/TextMain=ChangeFontSize(12)

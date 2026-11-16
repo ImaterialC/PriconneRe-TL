@@ -1,0 +1,26 @@
+##Profile##
+【物理】中衛でファンタジーの大自然を満喫するウマ娘。物理・魔法を問わず自身の糧とし、温存した【スタミナ】をふりしぼる差し脚は、巨大な熊といえど震え上がる。=[Physical] A middle-line Uma Musume who revels in the great nature of fantasy. Making both physical and magic her nourishment, her late surge fueled by conserved [Stamina] is enough to make even a giant bear tremble.
+
+##UB##
+イノセント・チェイサー=Innocent Chaser
+前方の敵に物理大ダメージを２回与え、物理防御力を小ダウン、受けるクリティカルダメージを小アップさせる。前方の最も物理防御力が低い敵に物理特大ダメージを与える。バトルの残り時間が30秒未満の場合、さらに行動パターンが変化する。=Deals major P.DMG to enemies in front 2 times, slightly lowers their P.DEF, and slightly increases the critical damage they take. Deals massive P.DMG to the enemy in front with the lowest P.DEF. If less than 30 seconds remain in battle, additionally changes action pattern.
+r:"^範囲内の敵に(\d+)の物理ダメージを２回与える範囲内の敵の物理防御力を(\d+)ダウン範囲内の敵の被クリダメを3％アップ敵単体に(\d+)の物理ダメージ$"=►Deals $1 P.DMG 2 times to enemies within range.\n►Lowers P.DEF of enemies within range by $2 for 18s.\n►Boosts Crit DMG taken by enemies within range by 3% for 18s.\n►Deals $3 P.DMG to a single enemy.
+
+##S1##
+狙うは大物！=Aiming for the Big Catch!
+前方の敵に物理大ダメージを与え、物理防御力を小ダウンさせる。自分の物理攻撃力を中アップ、ＴＰを小回復する。自分の【スタミナ】を最大９消費し、消費した【スタミナ】の量に応じて物理攻撃力のアップ量とＴＰの回復量が増加する。=Deals major P.DMG to enemies in front and slightly lowers their P.DEF. Moderately boosts own P.ATK and slightly recovers own TP. Consumes up to 9 own [Stamina], and the P.ATK boost and TP recovery amounts increase based on the amount of [Stamina] consumed.
+r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理防御力を(\d+)ダウン自分の物理攻撃力を(\d+)アップ自分のＴＰを30回復自分のスタミナを最大９消費する$"=Cast time: 1.05s.\n►Deals $1 P.DMG to enemies within range.\n►Lowers P.DEF of enemies within range by $2 for 12s.\n►Boosts own P.ATK by $3 for 12s.\n►Recovers own TP by 30.\n►Consumes up to 9 Stamina.
+
+##S2##
+清流の恵み=Blessing of the Clear Stream
+自分が次の状態の場合、効果が発動する。【物理攻撃力アップ状態】自分の物理攻撃力を大アップし、【スタミナ】（上限99）を３回復する。【魔法攻撃力アップ状態】自分の物理攻撃力を大アップし、【スタミナ】を３回復する。【物理・魔法攻撃力アップ状態】自分の【スタミナ】を９回復し、味方全体のＨＰを小回復させる。初回発動時、さらに自分の【スタミナ】を99回復し、物理・魔法防御力を中アップ、加算行動速度を大アップする。=Activates effects if self is in the following states. [P.ATK Boost State]: Greatly boosts own P.ATK and recovers 3 [Stamina] (up to 99). [M.ATK Boost State]: Greatly boosts own P.ATK and recovers 3 [Stamina]. [P.ATK/M.ATK Boost State]: Recovers 9 own [Stamina] and slightly recovers all allies' HP. Upon first activation, additionally recovers own [Stamina] by 99, moderately boosts own P.DEF and M.DEF, and greatly boosts additional action speed.
+r:"^自分が物理攻撃力アップ状態の場合、以下の効果が発動する自分の物理攻撃力を(\d+)アップ自分のスタミナを３回復する自分が魔法攻撃力アップ状態の場合、以下の効果が発動する自分の物理攻撃力を(\d+)アップ自分のスタミナを３回復する自分が物理・魔法攻撃力アップ状態の場合、以下の効果が発動する自分のスタミナを９回復する味方全体のＨＰを(\d+)回復初回発動時、以下の効果が発動する自分のスタミナを99回復する自分の物理・魔法防御力を(\d+)アップ自分の行動速度100％加算$"=Cast time: 1.05s.\nIf self has P.ATK Up:\n►Boosts own P.ATK by $1 for 180s.\n►Recovers 3 Stamina.\n\nIf self has M.ATK Up:\n►Boosts own P.ATK by $2 for 180s.\n►Recovers 3 Stamina.\n\nIf self has P.ATK and M.ATK Up:\n►Recovers 9 Stamina.\n►Recovers $3 HP for all allies.\n\nUpon first activation:\n►Recovers 99 Stamina.\n►Boosts own P.DEF and M.DEF by $4 for 180s.\n►Increases own Action Speed by 100% for 180s.
+
+##EX##
+故郷を胸に=Hometown in My Heart
+故郷を胸に+=Hometown in My Heart+
+
+##UE##
+
+##S1+##
+狙うは大物！+=Aiming for the Big Catch!+

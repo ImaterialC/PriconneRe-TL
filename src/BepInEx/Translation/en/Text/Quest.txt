@@ -1,5 +1,7 @@
 エスト=Quests 
 ク= 
+
+エリア解放=Area unlocked
 r:"^スタミナ回復まで残り ([0-9]{2}):([0-9]{2})$"=Stamina refill in $1m$2s
 マップ=Map
 r:"^([0-9,.]+)枚$"=$1 Tix

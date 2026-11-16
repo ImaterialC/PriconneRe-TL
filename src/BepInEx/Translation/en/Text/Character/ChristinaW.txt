@@ -8,15 +8,15 @@
 
 ##UB##
 ブルートゥスアヴァロン=Brutus Avalon
-目の前の敵１キャラを中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ず命中し、１ヒットは必ずクリティカルする。=Deals large P.DMG to enemies in range. This attack always hits, and one hit is always a critical hit.
+目の前の敵１キャラを中心とした範囲内の敵に物理大ダメージを与える。この攻撃は必ず命中し、１ヒットは必ずクリティカルする。=Deals major P.DMG to enemies within range centered on an enemy in front. This attack always hits, and one hit is guaranteed to crit.
 
 ##S1##
 ラピッドラビット=Rapid Rabbit
-目の前の敵１キャラに物理中ダメージを与え大きく吹き飛ばす。さらに自分を中心とした範囲内の敵すべてに物理大ダメージを与える。この攻撃は必ずクリティカルする。=Deals moderate P.DMG to an enemy in front, blowing them away. Deals large P.DMG to enemies in range. This attack is always critical.
+目の前の敵１キャラに物理中ダメージを与え、大きく吹き飛ばす。自分を中心とした範囲内の敵に物理大ダメージを与える。この攻撃は必ずクリティカルする。=Deals moderate P.DMG to an enemy in front and knocks them far back. Deals major P.DMG to enemies within range centered on self. This attack always crits.
 
 ##S2##
 エレベーション=Elevation
-自分を一定時間全ての物理攻撃を回避する状態にする。さらに物理攻撃力を大アップさせる。=Dodges all P-type attacks for a set period of time. Also greatly boosts own P.ATK.
+自分を一定時間物理回避状態にし、物理攻撃力を大アップする。=Puts self in a physical evasion state for a set time and greatly boosts P.ATK.
 r:"^自分の物理攻撃力を(\d+)アップ一定時間全ての物理攻撃を回避する$"=Cast time: 0.46s.\n►Boosts own P.ATK by $1 for 180s.\n►Dodges all P-type attacks for 6s.
 
 ##EX##

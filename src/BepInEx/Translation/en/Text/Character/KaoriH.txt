@@ -6,7 +6,7 @@
 目の前の敵１キャラに物理大ダメージを与える。対象のＨＰ割合が低いほど、ダメージが増加する。=Deals major P.DMG to an enemy in front. Damage increases as the target's HP percentage decreases.
 
 ##S1##
-幽玄足刀=Yugen Kick
+幽玄足刀=Mystic Foot Blade
 目の前の敵１キャラに物理中ダメージを与え、自分の物理攻撃力を小アップする。対象のＨＰ割合が低いほど、効果量が増加する。=Deals moderate P.DMG to an enemy in front and slightly boosts own P.ATK. Effect values increase as the target's HP percentage decreases.
 
 ##S2##
@@ -17,10 +17,19 @@
 琉球犬式南瓜術=Ryukyu-Ken Style: Pumpkin Technique
 琉球犬式南瓜術+=Ryukyu-Ken Style: Pumpkin Technique+
 
-##S1+##
-幽玄足刀+=Yugen Kick+
-目の前の敵１キャラに物理大ダメージを与え、さらに自分の物理攻撃力を小アップさせる。対象の最大ＨＰに対する残りＨＰの割合が少ない程、ダメージと攻撃力の上昇量がアップする。対象の残りＨＰが50％未満の場合、自分の物理攻撃がクリティカルした時のダメージを中アップする。=Deals large P.DMG to an enemy in front, and also slightly boosts own P.ATK. The smaller enemy's HP% is, the greater P.DMG dealt and P.ATK boost is. If an enemy's remaining HP < 50%, moderately boosts own P.CRIT DMG.
-r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分の物理攻撃クリティカル時のダメージを20％アップ$"=Cast time: 0.34s.\n►Deals $1 P.DMG to a single enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.CRIT DMG by 20% for 12s.
-
 ##UE##
 琉球犬式・南瓜道着=Ryukyu-Ken Style: Pumpkin Uniform
+##S1+##
+幽玄足刀+=Mystic Foot Blade+
+
+目の前の敵１キャラに物理大ダメージを与え、自分の物理攻撃力を小アップする。対象のＨＰ割合が低いほど、ダメージと物理攻撃力のアップ量が増加する。対象のＨＰが50％未満の場合、さらに自分の物理クリティカルダメージを中アップする。=Deals major P.DMG to an enemy in front and slightly boosts own P.ATK. The lower the target's HP percentage, the more the damage and P.ATK boost increase. If the target's HP is below 50%, additionally moderately boosts own P.CRIT DMG.
+r:"^敵単体に(\d+)の物理ダメージ自分の物理攻撃力を(\d+)アップ自分の物理クリダメを20％アップ$"=Cast time: 0.34s.\n►Deals $1 P.DMG to a single enemy.\n►Boosts own P.ATK by $2 for 12s.\n►Boosts own P.CRIT DMG by 20% for 12s.
+
+
+##UE2##
+琉球犬式・南瓜手甲=Ryukyu Dog-Style Pumpkin Gauntlets
+##S2+##
+サーターアンダギーさ～+=Sata Undergi~sa+
+
+自分の物理攻撃力を中アップ、物理クリティカルを大アップさせる。最もＨＰの割合が低い敵の、ＨＰ割合が低いほど、このスキルの効果量がアップする。初回発動時、最もＨＰの割合が低い敵の残りＨＰが50％未満の場合、自分に【さんさんアンダギー】を付与する。【さんさんアンダギー】付与中、自分が受けるダメージを３回無効化し、自分のＴＰを中回復する。さらに、自分のユニオンバーストとスキルは対象の敵のＨＰの割合に関わらず最大値の効果が発動し、ダメージを与えた場合、追加で最大ＨＰに応じて最大300万の物理割合ダメージを与えるようになる。=Moderately boosts own P.ATK and greatly boosts P.CRIT RATE. The lower the HP percentage of the enemy with the lowest HP percentage, the more this skill's effect increases. Upon first activation, if the remaining HP of the enemy with the lowest HP percentage is below 50%, grants self [Sansan Andagi]. While [Sansan Andagi] is granted, nullifies damage taken by self 3 times and moderately recovers own TP. Furthermore, own UB and skills will activate with their maximum effects regardless of the target enemy's HP percentage, and when dealing damage, will additionally deal percentage P.DMG up to 3,000,000 based on max HP.
+r:"^自分の物理攻撃力を(\d+)アップ自分の物理クリティカルを80アップ初回発動時、最もＨＰ割合が低い敵のＨＰが50％未満の場合、自分にさんさんアンダギーを付与するさんさんアンダギーが付与されている場合、以下の効果が発動する自分が受けるダメージを３回無効化する自分のＴＰを150回復する$"=Cast time: 0.34s.\n►Boosts own P.ATK by $1 for 12s.\n►Boosts own P.CRIT RATE by 80 for 12s.\n\nUpon first activation, if the enemy with the lowest HP percentage is below 50% HP:\n►Grants [Sansan Andagi] to self.\n\nIf [Sansan Andagi] is granted:\n►Nullifies damage received 3 times.\n►Recovers own TP by 150.

@@ -13,7 +13,7 @@ r:"^範囲内の敵に(\d+)の魔法ダメージ自分のＨＰを(\d+)回復一
 
 ##S1##
 かばばん君警備員モード=Kababan-kun Guard Mode
-目の前の敵１キャラを中心とした範囲内の敵すべてに魔法中ダメージを与え、自分のＨＰを小回復させ、さらに物理/魔法吸収バリアを展開する。このスキルのダメージは【かばばん君】の数に応じて増加する。=Deals moderate M.DMG to enemies in range, slightly recovers own HP, and deploys Barrier that absorbs P/M.DMG. The M.DMG increases according to number of [Kababan-kun] stacks.
+目の前の敵１キャラを中心とした範囲内の敵に魔法中ダメージを与え、自分のＨＰを小回復し、物理/魔法吸収バリアを展開する。【かばばん君】の数に応じて、ダメージが増加する。=Deals moderate M.DMG to enemies within range centered on an enemy in front, slightly recovers own HP, and deploys a physical/magic absorption barrier. Damage increases based on the number of [Kababan-kun].
 r:"^範囲内の敵に(\d+)の魔法ダメージ(\d+)ダメージ分の物理魔法吸収バリアを展開する自分のＨＰを(\d+)回復$"=►Deals $1 M.DMG to enemies in range.\n►Deploys Barrier that absorbs $2 P/M.DMG for 12s.\n►Recovers own HP by $3.
 
 

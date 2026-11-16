@@ -42,3 +42,7 @@ r:"^\[3C404E\]\[FFBB00\,CE4F00\]([0-9/ :]+)～ 翌([0-9/ :]+)\[-\]に\nメンテ
 対戦相手との通信がタイムアウトしました。\nリトライしてください。=Communication with your opponent timed out.\nPlease try again.
 
 [FF7C4E,D62146]タイムアウトが続く場合は\nアプリの再起動をお試しください[-]=[FFF7C4E,D62146]If the timeout continues, please try restarting the app.[-]
+
+
+ただいま深域クエストはメンテナンス中です。\nメンテナンスは11月16日　12時頃終了予定です。\n詳細はお知らせをご確認ください。=The Depths Quests are currently undergoing maintenance.\nMaintenance is scheduled to end around 12:00 on November 16.\nPlease check the Notices for details.
+初回クリアまで消費なし=No Cost Until First Clear

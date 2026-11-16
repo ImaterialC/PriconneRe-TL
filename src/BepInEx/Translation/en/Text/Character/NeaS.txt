@@ -9,6 +9,8 @@ r:"^敵単体に(\d+)の物理ダメージ敵単体にネバネバを２つ付�
 
 ##S1##
 ホットヒップドロップ=Hot hip drop
+目の前の敵１キャラに物理中ダメージを与え、物理防御力を小ダウンさせる。味方全体の物理攻撃力を特大アップ、物理クリティカルを大アップさせる。対象の【ネバネバ】が４個以上の場合、さらに味方全体のＴＰを小回復させる。=Deals moderate P.DMG to an enemy in front and slightly lowers their P.DEF. Massively boosts all allies' P.ATK and greatly boosts their P.CRIT RATE. If the target has 4 or more [Sticky] stacks, additionally slightly recovers all allies' TP.
+r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン味方全体の物理攻撃力を(\d+)アップ味方全体の物理クリティカルを80アップネバネバが４つ以上の場合、味方全体のＴＰを30回復$"=Cast time: 1.05s.\n►Deals $1 P.DMG to a single enemy.\n►Lowers a single enemy's P.DEF by $2 for 12s.\n►Boosts all allies' P.ATK by $3 for 12s.\n►Boosts all allies' P.CRIT RATE by 80 for 12s.\n\nIf [Sticky] has 4 or more stacks:\n►Recovers all allies' TP by 30.
 
 ##S2##
 ハグハグスライム=Hug-Hug Slime

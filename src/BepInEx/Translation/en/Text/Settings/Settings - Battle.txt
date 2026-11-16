@@ -101,3 +101,15 @@ UB発動時に演出を再生するか設定します。=Configure whether to pl
 不利な状態のアイコン表示設定=Debuff Icon Display Settings
 味方に付与されている有利な状態のアイコンを表示します。=Displays icons for buffs applied to allies.
 有利な状態のアイコン表示設定=Buff Icon Display Settings
+
+レンタルパーティ一覧=Rental Party List
+風属性・物理=Wind / Physical
+水属性・魔法=Water / Magic
+水属性・物理=Water / Physical
+火属性・魔法=Fire / Magic
+火属性・物理=Fire / Physical
+風属性・魔法=Wind / Magic
+光属性・物理=Light / Physical
+光属性・魔法=Light / Magic
+闇属性・物理=Dark / Physical
+闇属性・魔法=Dark / Magic
