@@ -47,7 +47,6 @@
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/ConnectShopTab/TabButton_8/State_Normal/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/ConnectShopTab/TabButton_8/State_Normal/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/NormalShopTab/TabButton_1/State_Active/Label=ChangeFontSize(10)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/NormalShopTab/TabButton_1/State_Normal/Label=ChangeFontSize(10)
 
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/MemoryPieceShopTab/TabButton_9/State_Normal/Label=ChangeFontSize(11)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewShop(Clone)/Main/WidgetOff(Clone)/SlideRight/AnchorRight/TabPos/PartsShopTab04(Clone)/MemoryPieceShopTab/TabButton_9/State_Active/Label=ChangeFontSize(11)
@@ -172,7 +171,6 @@
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogTravelExEventAlbum(Clone)/Progress/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/TabObject/MemoryPieceTab/State_Normal/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/TabObject/MemoryPieceTab/State_Active/Label=ChangeFontSize(13)
-/_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/WidgetOff(Clone)/SlideObj/Main/TabObject/MemoryPieceTab/State_Normal/Label=ChangeFontSize(13)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/NodeItemDetail/ExEquip/ExEquipStatus/Scroll/ScrollView/EquipmentInfo/UITable/Head/ItemDescription/ItemDescriptionLabel=ChangeFontSize(11)
 /_Game(Clone)/UI Root/ViewsArea/View/ViewSharedItemList(Clone)/SlideObj/Main/NodeItemDetail/NormalItem/NodeItemInfo/ItemDescription/ItemDescriptionLabel=ChangeFontSize(11)
 
@@ -289,7 +287,6 @@ Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParen
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogPurchaseOrUseCharaExchangeTicket(Clone)/ScrollContent/ScrollView/WrapContent/PartsDialogCharaExchangeTicketUnitRow(Clone)/Center/Plate/OwnedUnitObject/Label=ChangeFontSize(12)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogPurchaseOrUseCharaExchangeTicket(Clone)/ScrollContent/ScrollView/WrapContent/PartsDialogCharaExchangeTicketUnitRow(Clone)/Right/Plate/OwnedUnitObject/Label=ChangeFontSize(12)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogPurchaseOrUseCharaExchangeTicket(Clone)/ScrollContent/ScrollView/WrapContent/PartsDialogCharaExchangeTicketUnitRow(Clone)/Left/Plate/OwnedUnitObject/Label=ChangeFontSize(12)
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogPurchaseOrUseCharaExchangeTicket(Clone)/GUIGroup_Price/PriceLabel=ChangeFontSize(16)
 
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogGoldShop(Clone)/Main/GUIPanel_Dialog_R/PartsScrollObjects/ScrollContent/ScrollView/WrapContent/PartsGoldShopPlate(Clone)/PartsSet/GUIGroup_UseJewel/Label_UseJewelType=ChangeFontSize(16)
 /_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonSmall(Clone)/Main/PartsParent/PartsDialogGoldBuyConfirm(Clone)/Main/GUIPanel_Dialog_SS/GUIGroup_DialogContents/GUIGroup_Num_Mana/Label=ChangeFontSize(17)
@@ -401,7 +398,6 @@ _Game(Clone)/UI Root/ViewsArea/View/ViewQuestSpecialAndUnitExpand(Clone)/Main/qu
 _Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(Clone)/Main/ButtonShort/ButtonExEquip/ExEquipLabel=ChangeFontSize(15)
 
 
-/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonBig(Clone)/Main/PartsParent/PartsDialogMonsterDetail(Clone)/GUIPanel_DialogCommonSmall/GUIGroup_DialogContents/ScrollContent/ScrollView/WrapContent/PartsMonsterDetailTextPlate(Clone)/TextPlate/DetailLabel=ChangeFontSize(20)
 
 
 
@@ -448,3 +444,7 @@ _Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonPartyEdit(
 
 
 /_Game(Clone)/ExceptNGUIRoot/ca_memory_piece_01(Clone)/Flatout/pf_memory_piece_01/MOT_root/OBJ_object30/offset/MOT_serif_box/OBJ_object0/MOT_TextCharaComment/TXT_CharaComment_00/offset/TextMain=ChangeFontSize(12)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogSelectExtraEquip(Clone)/ExtraEquipList/SortButton/Label=ChangeFontSize(14)
+
+/_Game(Clone)/UI Root/FrontArea/IgnoreBlurLayer/DialogArea/DialogCommonFullSize(Clone)/Main/PartsParent/PartsDialogPresetPartyDetail(Clone)/ChangeExEquipmentButton/Label=ChangeFontSize(14)

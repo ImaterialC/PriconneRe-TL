@@ -248,7 +248,6 @@ EXスキルスロット=EX skill slot
 購入数=Price
 
 セットに必要なプリンセスオーブ=Princess Orb required for fusion
-セットに必要なプリンセスオーブ=Princess orb required for the fusion
 プリンセスオーブは最大まで強化する必要があります。\n各段階で必要数が異なります。=You need Princess Orbs to enhance. \nThe required number is different for each stage.
 このクエストは勝利するまで何度でも挑戦可能です。=This quest can be challenged\nas many times until you win.
 編成固定キャラ=Required
@@ -336,7 +335,6 @@ RANKボーナス詳細のステータス=Status Details
 装備やメモリーピースを消費して、\n専用装備１を作成します。=Consume items and Memory Shards to create Unique Equipment 1.
 [FF7C4E,D62146]作成した専用装備１を元に戻すことはできません。[-]=[FF7C4E,D62146]You cannot un-equip UE 1 once crafted.[-]
 キャラ専用装備の所持最大数に達しています。=This character already has UE equipped.
-作成確認=Creation confirmation
 
 専用装備スフィア=Unique Equipment Spheres
 キャラスフィア=Character Spheres

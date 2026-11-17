@@ -3,19 +3,7 @@
 料理、人間観察=Cooking, People watching
 【魔法】最後衛から、味方の回復と補助を行う魔法士。打たれ弱いが高い魔法攻撃力を持ち、ランクを上げると攻撃も補助もバランスよくこなせるようになる。=[Magic] A mage who heals and supports her allies from the rearguard. Though lacking in defensive capabilities, she boasts high attack strength, allowing her to provide both support and firepower at higher ranks.
 
-いつか目覚めた思い=Someday I Woke Up
-守りたい人に捧げる力=Power to Give to Those You Want to Protect
-信頼の行く末は光の中に=The Future of Trust Lies in the Light
-知られざる心を記して=Write Down Your Unknown Heart
 
-不思議なおまじない=Of Love and Charms
-頼れる魔法？=A Reliable Partner?
-本当の気持ちが知りたくて=Lay It All Bare
-少しずつでも前に……=One Step at a Time
-隣のあなたに伝えたい=So Close, Yet So Far
-おいしいごはんの食べかた=A Spoonful of Love
-ランチ・ウィズ・ミー！=Operation Lunch Time!
-今度はきっと=This Time, For Sure
 
 ##UB##
 ヒールオール=Group Heal
@@ -24,7 +12,6 @@ r:"^味方全体のＨＰを(\d+)回復$"=►Recovers allies' HP by $1.
 
 ##S1##
 フラワーショット=Blooming Blast
-目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
 
 ##S2##
 フローラルシールド=Flower Guard

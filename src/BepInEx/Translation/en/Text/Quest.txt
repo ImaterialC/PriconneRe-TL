@@ -40,8 +40,6 @@ r:"^現在、スキップチケットの消費枚数が\n(\d+)枚に設定され
 ダンジョン=Dungeon
 調査=Expedition
 探索=Grotto
-バトルアリーナ=Battle Arena
-プリンセスアリーナ=Princess Arena
 キャンペーン中=Campaign
 
 エクストラクエストへ=To Extra Quest
@@ -73,7 +71,6 @@ Lv上限に達した状態で消費したスタミナは\nマスターコイン�
 ※80文字以下=※Max of 80 characters
 バトルログをクランチャットに投稿しますか？=Do you want to post battle log to clan chat?
 投稿する=Post
-バトルログ投稿確認=Battle Log Post Confirmation
 ---Re enter---AB->Text color,C-> stamina,D number
 再戦する=Retry
 

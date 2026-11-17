@@ -135,3 +135,5 @@ r:"^([0-9,.]+)周年セレクトガチャ$"=$1th Anniversary Select Gacha
 
 r:"^イベントクエスト（(.+)）クリアで獲得したアイテムです。$"=These are items obtained by clearing the Event Quest ($1).
 所持上限を超えて獲得した復刻イベントログインボーナスの報酬です。=These are rewards from the Revival Event login bonus, obtained in excess of the maximum possession limit.
+
+「プリンセスナイト強化」および「深域クエスト」のアップデートにともなう配布です。=This distribution is provided in conjunction with the updates to "Princess Knight Enhancement" and "Deep-Area Quests."

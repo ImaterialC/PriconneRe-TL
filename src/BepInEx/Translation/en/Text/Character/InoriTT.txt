@@ -8,7 +8,6 @@ r:"^味方全体の物理攻撃力を(\d+)アップ自分以外の味方の物�
 
 ##S1##
 ドラゴニックショット=Dragonic Shot
-目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy in front, and also slightly lowers its P.DEF.
 
 ##S2##
 ドラモフレイム=Dramo Flame

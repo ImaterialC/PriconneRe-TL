@@ -16,7 +16,6 @@
 r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ範囲内の味方の魔法攻撃力を(\d+)アップ$"=►Deals $1 (+0.225×$1× \n[Friendship Magic Marks]) M.DMG to an enemy.\n►Deals $2 (+0.225×$1× \n[Friendship Magic Marks]) M.DMG to an enemy.\n►Boosts allies' M.ATK in 200 range by $3 for 18s.
 
 ##S1##
-フレンズリンケージ=Friends Linkage
 目の前の敵１キャラに魔法小ダメージを２回与える。【友情の魔印】の数に応じて、ダメージが増加する。=Deals minor M.DMG to an enemy in front twice. Damage increases based on the number of [Friendship Magic Marks].
 
 r:"^敵単体に(\d+)の魔法ダメージ敵単体に(\d+)の魔法ダメージ$"=►Deals $1 M.DMG to an enemy.\n►Deals $2 M.DMG to an enemy.

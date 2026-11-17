@@ -5,14 +5,6 @@
 
 森番を目指すエルフの少女=A young elf striving to become a forest guardian
 
-自然の導き=Nature's Guidance
-深緑の守護者=The Verdant Steward
-収穫祭=Harvest Festival
-妖精のいたずら=Pixie Mischief
-エルフの弓術=Elven Archery
-まどろみの森=Forest of Dreams
-放浪するエルフ=The Elven Wanderer
-妖精の楽園=Pixie Paradise
 フォレストムーブ=Forest Movement
 森の意志=Will of the Forest
 妖精の調べ=Fairy Investigation
@@ -35,7 +27,6 @@ r:"^自分のＴＰを450回復ユニオンバースト使用後、自分のＴ�
 
 
 ##EX##
-エルフの弓術=Elven Archery
 エルフの弓術+=Elven Archery+
 バトル開始時に自分の物理攻撃力を大アップさせる。=Large boost to own physical attack at start of battle.
 

@@ -21,18 +21,18 @@ sr:"^(.+)をクリアで解放されます。$"=Clear $1 to unlock.
 属性ボーナス=Elemental Bonus
 属性弱点=Elemental Weakness
 
-火属性キャラ=All Fire Character
-水属性キャラ=All Water Character
-風属性キャラ=All Wind Character
-光属性キャラ=All Light Character
-闇属性キャラ=All Dark Character
+火属性キャラ=All [FF6B4A,B81D13]Fire[-] Character
+水属性キャラ=All [5CE1FF,005BB5]Water[-] Character
+風属性キャラ=All [9BE15D,1E7E22]Wind[-] Character
+光属性キャラ=All [FFD740,B27800]Light[-] Character
+闇属性キャラ=All [E066FF,5E1987]Dark[-] Character
 
 
-All [FF7C4E]Fire[-] Character
-All [DAA520]Water[-] Character
-All [006400]Wind[-] Character
-All [cc9900]Light[-] Character
-All [800080]Dark[-] Character
+All [FF6B4A,B81D13]Fire [FF5E3A,A8140B]Character[-][-]
+All [5CE1FF,005BB5]Water [64C9FD,0060BA]Character[-][-]
+All [9BE15D,1E7E22]Wind [8CE043,196F1D]Character[-][-]
+All [FFD740,B27800]Light [FFCA28,9E6900]Character[-][-]
+All [E066FF,5E1987]Dark [D557F5,4A106E]Character[-][-]
 
 
 チェック引継ぎ確認=Check Handover Confirmation

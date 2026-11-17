@@ -1,11 +1,3 @@
-フォーエバーフレンズ=Forever Friends
-悲しい夜にさよならを=Farewell to Unhappy Halloween
-囚われし者たちの館=The House of Captive Souls
-見知らぬ少女と謎の声=A Mystery Girl and a Spooky Voice
-絆が開く扉=The Door that Bonds Open
-その声は異空をこえて=Voices From The Void
-ミッシングチルドレン=Missing Children
-危険な好奇心=Dangerous Curiosity
 ハロウィンのパーティー用にお菓子を集めて回る【リトルリリカル】は、ミソギの提案で街外れの幽霊屋敷にお菓子をもらいに行く。無人と思われた屋敷だが、ドアが勝手に開き３人は好奇心で中に入ってしまう。=For the Halloween party,【Little Lyrical】goes around collecting sweets. At Misogi's suggestion, they go to a haunted house on the outskirts of town to get some candy. Although the house seems deserted, the door opens on its own and the three of them enter out of curiosity.
 ハロウィンムード華やぐある日のこと──=One lively Halloween evening in Landosol...
 トリックオアトリート～\nお菓子をくれなきゃ、イタズラしちゃうよ～=Trick or treat!\nGive me some candy, or I'll play a trick!
@@ -71,7 +63,6 @@
 ちょっとミソギ！=Wait, Misogi!
 ふえ～、二人とも置いてかないでよ～=Uwehh... Don't leave me behind, you guys...!
 ちょっとした好奇心から、幽霊屋敷へと足を踏み入れた３人。\nそこに恐怖が待ち受けることなど、まだ知る由もなかった……=Spurred on by curiosity, the girls set foot in the haunted mansion. Little did they know what terrors would await them within...
-お菓子を\n食べよう=Let's have some sweets
 屋敷の中では謎の子どもの声が聞こえ、３人はパニックに陥る。さらに魔物が現れるとミミを連れ去り、キョウカも屋敷に閉じ込められてしまう。一人外に出たミソギは{playername}に助けを求めに行く。=Inside the mansion, they hear the mysterious voice of a child, causing the three of them to panic. And then, a monster appears and takes Mimi away, while Kyouka is trapped inside the mansion. Misogi, who went outside alone, goes to seek help from {playername}.
 ミソギの提案で幽霊屋敷を訪れた【リトルリリカル】の３人は、\n軽い探検のつもりで屋敷の中へと足を踏み入れていた。=On Misogi's suggestion, the intrepid members of Little Lyrical have come trick-or-treating at a mansion said to be haunted. Curiosity getting the better of them, they venture inside its open doors...
 すみませーん！　誰かいますかー！=Excuse me? Is anybody home?
@@ -128,7 +119,6 @@
 そうだ……にいちゃんなら……にいちゃんなら助けてくれるかも！　=I know... Nii-chan...!\nHe'll be able to do something!
 ……待っててね二人とも……すぐに助けるから！=Hang in there, you guys... I'll be back soon!
 幽霊屋敷に閉じ込められたキョウカと消えたミミを助けるため、\nミソギは{playername}の元へと向かうのだった。=Misogi heads to {playername} in order to rescue Kyouka, who is trapped in a haunted house, and Mimi, who has disappeared.
-謎の女の子=Mysterious girl
 {playername}を連れ屋敷に戻るミソギだが、中に入ることはできない。一方、屋敷内を探索していたキョウカは墓場のような場所でミソギの声を聞く。キョウカはその声をつなぎ止めるように呼び掛ける。={playername} and I return to the mansion, but we cannot enter. Meanwhile, Kyouka, who was exploring inside the mansion, hears Misogi's voice in a place that resembles a graveyard. Kyouka calls out to that voice, trying to hold onto it.
 ハロウィンの当日、{playername}はサレンに頼まれ、\nハロウィンパーティーの準備をしていた。\nそんな中、{playername}を呼ぶ声が響き渡る。=This Halloween, {playername} has been asked\nto help Saren prepare a big party for the children.\nWhile he's hard at work, he hears a voice calling for him.
 にいちゃーん！　にいちゃーーーーん！=Nii-chan! Nii-chaaan!
@@ -168,7 +158,6 @@
 ……違う、この声！　=No, this voice is...!
 そこにいるの！？　ミソギ！=Are you there?! Misogi!
 キョウカは、ミソギの声をつなぎ止めるように呼びかけるのだった。=Scared that it might vanish at any moment, Kyouka called out as if to cling to the sound of Misogi's voice.
-にあってる？=Does it fit?
 幽霊屋敷の中と外からの同時攻撃によって扉を開けたミソギは、無事キョウカと再会する。幽霊が立てる音に誘われて屋敷の内部に進んで行くと、ある部屋の中にミミと見知らぬ少女の姿を見つける。=Misogi, who opened the door with a simultaneous attack from inside and outside the haunted mansion, safely reunites with Kyouka. As he is lured by the sound of ghosts, he proceeds into the interior of the mansion and finds Mimi and an unfamiliar girl in a certain room.
 ミミとキョウカを救うため、\nミソギと共に墓地へとやってきた{playername}。\nそんな中、どこからかキョウカの声が聞こえてくる。=Misogi returns to the mansion with {playername} in tow,\ndetermined to save Mimi and Kyouka. Soon after they arrive, they hear Kyouka's voice coming from thin air.
 キョウカ、どこにいるの？　声は聞こえるのに……=Kyouka, where are you? I can hear your voice, but...
@@ -220,7 +209,6 @@
 えっと、誰？=Urn... who's that?
 謎の少女の登場に驚くミソギとキョウカだった。=Misogi and Kyouka were surprised to see Mimi\nwith an unfamiliar little girl.
 二人を強化する。=Lend them your power.
-ハナちゃんだよ=It's Hana.
 さらわれたミミは子ども部屋で謎の少女、ハナと遊んでいた。ハナを連れ一刻も早い脱出を促すキョウカだが、謎の光に包まれ全員霊界の墓場に送られる。そこにはハナを取り返そうとする謎の男の姿があった。=Kidnapped, Mimi was playing with a mysterious girl named Hana in a children's room. Kyouka, urging them to escape as soon as possible, is enveloped in a mysterious light and sent to the spirit world graveyard. There, they see the figure of a mysterious man trying to take back Hana.
 ようやくミミを見つけ出した３人。\nしかし、そんな彼女の傍らには、見覚えのない少女がいた。=Finally, the three girls are reunited,\nbut Misogi and Kyouka are surprised to find Mimi\nwith a girl they have never seen before.
 うゅ……えへへ、キョウカちゃんくすぐったいよ～=Ooh... Ehehe, Kyouka, that tickles~
@@ -264,7 +252,6 @@
 わー！　で、でたー！！=Wahhh! A-a ghost!
 ……パパ？=...Papa?
 脱出を図るも、不思議な場所へと転送されてしまった一同。\nそこに、謎の男が姿を現すのだった。=Though they tried to escape, the group was suddenly transported\nto a strange new location.\nAnd who should await them there but a mysterious man...?
-霊界って\nなに？=What's the spirit world?
 死してなおハナに執着する父親は、現世に留まるためハロウィンの日に集めた子供の魂を喰らおうとする悪霊だった。ハナを連れ消えた父親を追うミミ、そしてミソギたちは屋敷に囚われた魂を解放すると誓う。=Even in death, Her father clings to Hana, he was an evil spirit who sought to devour the souls of the children gathered on Halloween to remain in the mortal realm. Mimi, who follows after the father who disappeared with Hana, and Misogi, vows to release the trapped souls in the mansion.
 {playername}たちの前に現れた謎の男。\nそんな男を、ハナは『パパ』と呼ぶのだった。=A mystery man appears before {playername} and the girls,\nand to their surprise, Hana addresses him as "Papa."
 ……ミミおねえちゃん？=...Mimi Onee-chan?
@@ -320,7 +307,6 @@
 終わりにしちゃおう！　こんな悲しいハロウィン……\nそうしたら、みんなで楽しいハロウィンに帰れるから！=Let's put a stop to it! \nWe'll end this messed-up Halloween... \nThen we can all go back to our fun Halloween together!
 ハナと囚われた幽霊たちを救うため、\n３人はミミの後を追うのだった。=Determined to save both Hana and the captive spirits,\nthe three of them hurried off after Mimi.
 男=Man
-ハロウィン\nパーティー=Halloween Party
 ハナに否定された父親は、子どもの霊魂を纏い魔物と化す。ミソギの案でお菓子を使い霊魂をはがして魔物を撃破し、ハナの言葉で父親も成仏する。その影響で空間が崩れ始めたその時、周囲を不思議な光が包む。=The father who was denied by Hana, envelops the souls of children and transforms into a monster. With the plan of Misogi, they use sweets to remove the souls and defeat the monster, and with Hana's words, her father also finds peace. At that moment, when the space began to collapse due to the influence, mysterious light enveloped the surroundings.
 悲しきハロウィンを終わらせるため、ミソギ、キョウカ、\nそして{playername}は子ども部屋へと戻ってきた。=Determined to put a stop to this twisted Halloween,\nMisogi, Kyouka and {playername} arrive back at Hana's bedroom.
 おねえちゃん！　おねえちゃん！=Onee-chan! Onee-chan!

@@ -9,7 +9,6 @@ r:"^([0-9,.]+)マイル([×\d]{2})? 獲得！$"=$1$2 Miles acquired!
 今回の獲得マイル=Obtained Miles
 r:"^(\d+)ターン以内に到着$"=Arrive in $1 turns
 ------
-個= 
 
 平凡なインゴット=Ordinary Ingot
 平凡なルーン=Ordinary Runes

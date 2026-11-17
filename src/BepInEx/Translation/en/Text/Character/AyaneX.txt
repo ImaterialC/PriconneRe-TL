@@ -8,7 +8,6 @@ r:"^敵単体に(\d+)の物理ダメージ自分のＴＰを固定量で200回�
 
 ##S1##
 ぷうきちエール=Pukichi Cheering
-自分の物理攻撃力を大アップさせる。=Massively increases own P.ATK.
 
 ##S2##
 ぷうきちラッシュ=Pukichi Rush

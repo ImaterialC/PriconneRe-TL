@@ -11,7 +11,6 @@
 
 トレジャーマス=Treasure Tiles
 マイルマス=Mile Tiles
-ショップマス=Shop Tiles
 
 【料理】移動時に料理マスをスキップできる=[Dish] You will skip Food Tiles when moving.
 
@@ -53,7 +52,6 @@ r:"^このターンに振るダイスの目が必ず「(\d+)」になる。$"=Yo
 シズルの愛情\n盛り盛りハンバーグ=Shizuru's Affection-Loaded Hamburger Steak
 アオイの疾走サンドイッチ=Aoi's Sprinting Sandwich
 クウカの緊縛触手活け造り=Kuuka's Binding Live Octopus
-クレジッタの開運お菓子盛り合わせ=Creditta's Lucky Sweet Platter
 ジータのグリルド・グラッジチャンク=Djeeta's Grilled Grudge Chunk
 グレイスの目ん玉飛び出るカップケーキ=Grace's Eye-Popping Cupcake
 ホウオウの食べる権利をあげます！饅頭="I'll Allow You To Eat Ho-oh!" Manjuu  

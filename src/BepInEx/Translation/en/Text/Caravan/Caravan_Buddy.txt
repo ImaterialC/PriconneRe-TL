@@ -48,7 +48,6 @@ r:"^【仲間】出目が(\d)のダイスを同時に振ってどちらか選択
 【仲間】最大2000マイルを入手する=[Friend] Acquire up to 2,000 miles
 
 画面の左右をクリックか左右の矢印キー移動できますよ！\nおジャマに当たると、少しの間、動けなくなるので要注意です！\n上手に避けて、フルーツをたくさん集めましょう！=You can either use the left/right arrow keys or hold the left/right sides of the screen! If you get hit, you will be stunned for a while, so be careful! Dodge well and gather lots of fruit!
-練習する=Practice
 練習中=Practicing
 
 r:"^\[3C404E\]ダイスの目を(\d)回振りなおせる\n\（あと\[D13250\](\d)\[-\]回\）\[-\]$"=[3C404E]Can re-roll dice $1x ([D13250]$2[-] more)

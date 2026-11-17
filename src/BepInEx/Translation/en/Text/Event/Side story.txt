@@ -99,7 +99,6 @@ r:"^おもちゃ工場([0-9\-\(\)\w （）]*)$"=Toy Factory $1
 入れ替わり\nについて=Replacement\nabout
 エンジェルの衣装=Angel costume
 ラフィについて=About raffy
-リンについて=About phosphorus
 誰と\n入れ替わりたい？=with who\nWant to replace it?
 巨大弓矢\nについて=Giant bow and arrow\nabout
 ヨリについて=About Yori

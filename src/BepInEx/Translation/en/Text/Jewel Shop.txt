@@ -278,3 +278,23 @@ sr:"^(.+?) ピュアメモリーピース交換チケット$"=$1 Pure Memory Pie
 sr:"^(.+?) メモリーピース交換チケット$"=$1 Memory Piece Exchange Ticket
 スペシャル交換チケット（限定+）=Special Exchange Ticket (Limited+)
 10回ガチャチケット=10-Pull Gacha Ticket
+
+
+---Rental Party---
+ウマ娘コラボ記念 スペシャルジュエル7500個パック=Umamusume Collaboration Celebration Special Jewel Pack (7,500 Jewels)
+レンタルパーティ火属性・物理=Fire-type Physical Rental Party
+パーティ詳細=Party Details
+レンタルパーティ火属性・魔法=Fire-type Magic Rental Party
+レンタルパーティ水属性・物理=Water-type Physical Rental Party
+レンタルパーティ水属性・魔法=Water-type Magic Rental Party
+レンタルパーティ風属性・物理=Wind-type Physical Rental Party
+レンタルパーティ風属性・魔法=Wind-type Magic Rental Party
+レンタルパーティ光属性・物理=Light-type Physical Rental Party
+レンタルパーティ光属性・魔法=Light-type Magic Rental Party
+レンタルパーティ闇属性・物理=Dark-type Physical Rental Party
+レンタルパーティ闇属性・魔法=Dark-type Magic Rental Party
+レンタルパーティについて=About Rental Parties
+EX装備はそれぞれ最大強化にまで必要な未強化状態のEX装備と強化Pt、無償マナを付与します。=For each EX Equipment, you will receive an unenhanced copy,\nthe Enhancement Points required to fully enhance it, and Free Mana.
+このパーティを購入すると、以下のキャラとEX装備が獲得できます。=Purchasing this party grants you the following characters and EX Equipment.
+EX装備切替=Switch EX Equipment
+レンタルパーティ詳細=Rental Party Details

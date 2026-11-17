@@ -1,7 +1,6 @@
 r:"^サマーゲームリゾート([0-9\-\(\)\w （）]*)$"=Summer Game Resort $1
 海将タツノココマンダー=General Tatsunoko
 はじけるバカンスガール=Battle Vacation Girl
-オープニング=Opening
 集うゲーム参加者達=Game participants to gather
 気持ち、解き放って=Feeling, releasing
 支配人=Manager

@@ -13,7 +13,6 @@ r:"^敵全体の行動速度を一定時間低下させる敵全体の物理攻�
 
 ##S2##
 クロックエンド=Clock End
-最も物理攻撃力が高い敵１キャラの行動時間を停止させる。=Inflicts Time Stop to an enemy with highest P.ATK.
 r:"^敵単体を一定時間行動不能にする$"=►Inflicts Time Stop to an enemy for 1.75s.
 
 ##EX##

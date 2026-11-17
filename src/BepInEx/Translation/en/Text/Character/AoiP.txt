@@ -7,7 +7,6 @@
 r:"^自分の物理攻撃力を(\d+)アップ敵単体に(\d+)の物理ダメージフィールド内の敵の物理攻撃力(\d+)ダウンフィールド内の敵の物理防御力(\d+)ダウン毎秒(\d+)の物理ダメージを与えるフィールドを展開する$"=►Boosts own P.ATK by $1 for 18s.\n►Deals $2 P.DMG to the frontmost enemy.\n►Lowers P.ATK of enemies in the field by $3 for 18s.\n►Lowers P.DEF of enemies in the field by $4 for 18s.\n►Deploy a field within 510 radius that deals $5 P.DMG/s for 18.5s.
 
 ##S1##
-クロースぼっちコンバット=Close Loner Combat
 
 目の前の敵１キャラに物理大ダメー\nジを与える。さらにそのキャラを中\n心とした範囲内の敵すべてに物理中\nダメージを与え、物理攻撃力を中ダ\nウン、物理防御力を小ダウンさせ\nる。【フィールド展開中】このスキ\nルのダメージがアップし、目の前の\n敵１キャラを中心とした範囲内の敵\nすべてのクリティカルを受けた際の\nダメージを小アップさせる。=Deals large P.DMG to the frontmost enemy. Also deals moderate P.DMG to enemies in an area centered on that target, moderately lowers their P.ATK, and slightly lowers their P.DEF. [While field is active] Damage increases, and enemies in range take slightly more critical damage.
 r:"^敵単体に(\d+)の物理ダメージ範囲内の敵に(\d+)の物理ダメージ範囲内の敵の物理攻撃力を(\d+)ダウン範囲内の敵の物理防御力を(\d+)ダウンフィールド展開中、範囲内の敵の被クリダメを(\d+％)アップ$"=Cast time:1.05s\n►Deals $1 P.DMG to the frontmost enemy.\n►Deals $2 P.DMG to enemies within 400 range.\n►Lowers P.ATK of enemies within 400 range by $3 for 12s.\n►Lowers P.DEF of enemies within 400 range by $4 for 12s.\n►Increases crit DMG taken by enemies within 400 range by $5 while field is active for 12s.

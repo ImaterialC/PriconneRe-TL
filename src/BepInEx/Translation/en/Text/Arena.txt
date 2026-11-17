@@ -80,9 +80,6 @@ r:"^\[3B3F4D\]ランキングが\[-\]\[FFBB00\,CE4F00\](\d+)\[-\]\[3B3F4D\]位�
 [FF7C4E,D62146]相手または自分が50位以内のためスキップ不可です。[-]=[FF7C4E,D62146]Only challenge rank under 50 can skip.
 [3C404E]クールタイム中です。\n解除しますか？[-]=[3C404E]During Cooldown.\nDo you want to reset cooldown?[-]
 [FF7C4E,D62146]メッセージは必須ではありません。[-]=[FF7C4E,D62146]Message is not mandatory.[-]
-※80文字以下=※80 characters or less
-バトルログをクランチャットに投稿しますか？=Do you want to post battle log to Clan chat?
-投稿する=Post
 バトルログ投稿確認=Battle Log Post Confirmation
 
 [3C404E]現在対戦中です。\nしばらくお待ちください。[-]=[3C404E]Currently in a match.\nPlease wait for a moment.[-]
@@ -117,4 +114,3 @@ sr:"^対戦相手のランキングが(\d+位)に変更されました。\n勝�
 最大15キャラ対15キャラのバトルです。\nバトルを勝ち抜いて、ランキングの頂点を目指しましょう。\n上位ランクインするほど、Pアリーナコインが多く手に入ります。=Princess Arena Battles are fought between teams of up to 15 characters each. Keep winning battles to climb to the top of the rankings. At higher 
 
 プリンセスアリーナでは選択できません。=This option is not available in Princess Arena.
-バトルアリーナでは選択できません。=This option is not available in Battle Arena.

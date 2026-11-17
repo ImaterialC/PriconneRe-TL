@@ -4,10 +4,6 @@
 
 【物理】前衛で、絶対的な制圧力を誇る『誓約女君』。攻防一体かつ超大な破壊力を誇るユニオンバーストと、その発動を加速するＴＰ上昇アップスキルを併せ持つ。=[Physical] The peerless Regina Geas who exerts her dominance from the frontlines. Her terrifyingly destructive Union Burst annihilates foes while also protecting her from harm, and thanks to her TP-boosting skill, she can use it with alarming frequency.
 
-『七冠』の余暇は３０分=The Seven Crowns' 30 Minute Rest
-絶対の誓約=An Absolute Geas
-命がけの余興=A Deadly Diversion
-ワガママ副団長は問題児=The Troublesome Vice-Captain
 
 押しかけ新婚生活=Pushing for Newlywed Life
 ある家出少女の翻意=A Runaway's Change of Heart
@@ -26,7 +22,6 @@ r:"^自分の物理攻撃力を(\d+)アップ自分のＴＰ上昇を(\d+)アッ
 
 ##S2##
 インジェクション=Injection
-目の前の敵１キャラに物理中ダメージを与え、さらに物理防御力を小ダウンさせる。=Deals moderate P.DMG to an enemy in front and lowers its P.DEF by a small amount.
 r:"^敵単体に(\d+)の物理ダメージ敵単体の物理防御力を(\d+)ダウン$"=Cast time: 1.35s.\n►Deals $1 P.DMG to an enemy.\n►Lowers an enemy's P.DEF by $2 for 12s.
 
 ##EX##

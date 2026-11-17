@@ -5,14 +5,6 @@
 
 前世を信じる中二病患者、「疾風の冥姫」=A delusional girl who believes she was a hero named "Hecate of the Gale" in a previous life
 
-邂逅、閃光のシグルド！=Sigurd! We Meet Again!
-盟友との共同戦線=Comrades on the Field of Battle
-喪った記憶の在処=In Search of Lost Memories
-異世界で出会う二人=Echoes of a Distant Realm
-魔狼のごとく駆け抜けろ！=Fly Like the Blazing Hellhound!
-なくした自分を取り戻せ！=In Search of Past Glory
-「組織」との対決=Rise of the Syndicate
-前世での関係=Bygone Relations
 
 ##UB##
 羅刹涅槃・極光終天冥壊破=Raksha Nirvana: Apocalypse Dawn
@@ -22,7 +14,6 @@ r:"^敵全体に(\d+)の魔法ダメージ自分の物理防御力を0にする�
 
 ##S1##
 羅刹涅槃・無式=Raksha Nirvana: Infinity
-目の前の敵１キャラに魔法中ダメージを与える。=Deals moderate M.DMG to an enemy directly in front.
 
 ##S2##
 冥空天昇=Void Accession

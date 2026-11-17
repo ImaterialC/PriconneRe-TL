@@ -51,7 +51,15 @@ r:"^(\d+)個のアイテムを選択中$"=$1 items selected
 上限に達したアイテムはプレゼントに送られます。=Items that reach the limit will be sent to Present Box.
 使用制限状態のEX装備は選択できません。=Already used EX equipment cannot be selected.
 購入回数または所持数が上限に達しています。=You have reached the maximum number of purchases or possessions.
-他キャラが装備中のEX装備が選択されています。=The Ex Equip currently equipped by other characters is selected.
+他キャラが装備中のEX装備が選択されています。=The Ex Equip currently equipped\nby other characters is selected.
+
+適正装備ではないため一部効果が発揮しません=Some effects will not activate\nbecause the equipment is not appropriate.
+
+
+エリアボーナス=Area Bonuses
+超越錬醒回数=Transcendent\nAwakening Count
+超越スキルあり=Transcendent\nSkill Available
+
 パーティキャラのEX装備を変更できます。=You can change the Ex Equip of the party character.
 EX装備が変更されていません。=EX Equip has not been changed.
 装備確定=Equip Confirmation

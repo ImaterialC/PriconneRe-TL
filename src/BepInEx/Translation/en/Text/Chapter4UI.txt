@@ -113,15 +113,6 @@ sr:"^(.+?) ボスバトル（(.+)）を([0-9:]+)以上残してクリアしよ�
 
 
 
-クリア数=Clear Count
-オート進行を停止しますか？=Stop Auto Progress?
-4部メインクエストのボスバトルを10回クリアしよう=Clear Part 4 Main Quest Boss Battles 10 times
-4部メインクエストのボスバトルを20回クリアしよう=Clear Part 4 Main Quest Boss Battles 20 times
-暴風のランドソル H-3=Stormy Landosol H-3
-射手座のEX装備を15個装備して暴風のランドソルのクエストをクリアしよう=Clear a Stormy Landosol quest while equipping 15 Sagittarius EX Equipment
-4部クエスト=Part 4 Quests
-メイン(4部含む)・イベント・サイドいずれか=Any Main (including Part 4), Event, or Side Quest
-メインストーリー第4部 第1章 エンディングを閲覧しよう=View the ending of Part 4, Chapter 1 of the Main Story
 この装備の超越錬醒は今後登場予定です。=Transcendent Awakening for this equipment will be introduced in the future.
 超越錬醒1段階目で解放されます。=Unlocked at Transcendent Awakening Stage 1.
 さらに超越錬醒=Further Transcendent Awakening
@@ -155,9 +146,6 @@ EX装備 超越錬醒 使用装備選択=EX Equipment Transcendent Awakening: Se
 属性なし=No Attribute
 使用する素材を選択してください。=Select the materials to use.
 使用するチケットの枚数を選択して下さい。=Select the number of tickets to use.
-エリアボーナス=Area Bonuses
-超越錬醒回数=Transcendent Awakening Count
-超越スキルあり=Transcendent Skill Available
 
 スキップチケットを消費してクエストを\n実行します。よろしいですか？=Consume Skip Tickets to\nperform the quest. Are you sure?
 メイン(4部含む)・イベントクエストを10回クリアしよう=Clear Main (including Part 4) or Event Quests 10 times

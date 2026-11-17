@@ -1,5 +1,4 @@
 ##Profile##
-拳で語る喧嘩屋ドラゴン少女=A brawler dragon girl who speaks with her fist
 
 【物理】前衛で範囲攻撃が得意な口達者のドラゴン娘。ユニオンバーストで範囲内の敵をまとめて吹き飛ばし、陣形を乱したところで、敵を一気に焼き尽くす。=[Physical] A well-spoken dragon girl who specializes in ranged attacks in the vanguard. She blows away enemies in range with her UB, burning all her enemies in one fell swoop once the formation is disturbed.
 
@@ -10,13 +9,11 @@ r:"^範囲内の敵に(\d+)の物理ダメージ(\d+)ダメージを与える火
 
 ##S1##
 ドラゴニックピコハン=Draconic Pico Hammer
-前方範囲内の敵すべてに物理小ダメージを与え、さらにスタンさせる。=Deals small P.DMG and inflicts Stun to enemies in range.
 
 ##S2##
 ドラゴンファイア=Dragon Fire
 前方範囲内の敵すべてに物理中ダメージを与える。=Deals moderate P.DMG to enemies in range.
 ## Blame Cygames for invisible space symbol
-前方範囲内の敵すべてに物理中ダメージを与える。 =Deals moderate P.DMG to enemies in range.
 
 ##EX##
 やってやるですよ=I'll Do It
