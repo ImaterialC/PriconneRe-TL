@@ -54,3 +54,4 @@ Tag: $ReleaseTag
 Title: $ReleaseTitle
 Previous: $PreviousTag
 ::endgroup::
+"@
