@@ -195,3 +195,12 @@ sr:"^(.+)のアドベンチャーから撤退しました。$"=Retreat from the 
 エルピス討魔戦線の終了まで残り24時間を切っており、\n挑戦可能なボスがいるとき予定帳に表示するか設定できます。=Configure whether to display Elpis Demonfront in the Schedule when less than 24 hours remain until its end and a boss is available to challenge.
 エルピス討魔戦線設定=Elpis Demonfront Settings
 
+
+
+
+深域クエストスキップ確認=Confirm Depths Quest Skip
+スキップチケットと挑戦回数を消費して深域クエストを実行します。よろしいですか？\n※全属性の挑戦回数を合算して表示しています。=Consume Skip Tickets and an attempt to perform a Depths Quest. Are you sure?\n※The number of attempts shown is the total across all attributes.
+深域クエストに挑戦しよう=Challenge a Depths Quest
+
+深域クエスト設定=Depths Quest Settings
+深域クエストの挑戦回数が残っているとき、予定帳からスキップ可能にするか、表示するか設定できます。\n最新のクリア済みクエストをスキップします。=When you have remaining attempts for Depths Quests,\nyou can configure whether to allow skipping them from the Schedule or display them there.\nThe most recently cleared quest will be skipped.

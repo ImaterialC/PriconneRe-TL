@@ -44,3 +44,12 @@ UE
 
 前方の敵に物理中ダメージと魔法中ダメージを与え、物理・魔法攻撃力を大ダウン、ＴＰを小ダウンさせる。自分のＴＰを小回復する。このスキルのダメージは物理・魔法攻撃力の値を合わせ、クリティカルは物理・魔法クリティカルの値を合わせる。=Deals moderate P.DMG and moderate M.DMG to enemies in front, greatly lowers their P.ATK and M.ATK, and slightly lowers their TP. Slightly recovers own TP. This skill's damage is based on the combined values of P.ATK and M.ATK, while its critical rate is based on the combined values of P.CRIT RATE and M.CRIT RATE.
 r:"^範囲内の敵に(\d+)の物理ダメージ範囲内の敵に(\d+)の魔法ダメージ範囲内の敵の物理・魔法攻撃力を(\d+)ダウン範囲内の敵のＴＰを(\d+)失わせる自分のＴＰを100回復$"=Cast time: 1.1s.\n►Deals $1 P.DMG to enemies within range.\n►Deals $2 M.DMG to enemies within range.\n►Lowers P.ATK and M.ATK of enemies within range by $3 for 12s.\n►Drains $4 TP from enemies within range.\n►Recovers own TP by 100.
+
+
+
+
+
+
+## as enemy
+一定時間が経過するごとに、敵、味方全体の物理攻撃力、魔法攻撃力をアップさせる。この効果の効果量は現在の対象の物理攻撃力、魔法攻撃力に応じて増加する。=At regular intervals, increases the P.ATK and M.ATK of all enemies and allies. The potency of this effect increases based on each target's current P.ATK and M.ATK.
+マナの流脈=Mana Flow
