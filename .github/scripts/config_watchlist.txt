@@ -1,0 +1,17 @@
+# ============================================================
+#  config_watchlist.txt — Watched Configuration Scopes
+# ============================================================
+# Mod users run an updater that skips the config folder so personal MTL preferences
+# are not overwritten. When any key inside a watched scope is added, removed, or
+# changed, a warning banner is shown in GitHub Releases and Discord.
+#
+# Syntax (no regex):
+#   [Section]          -> watches EVERY key inside [Section] (case-insensitive)
+#   [Section] KeyName  -> watches a specific literal key in [Section] (case-insensitive)
+#
+# Note: Section-level entries intentionally fire on preference keys too; that is
+# the user's explicit choice. Secret values (ApiKey, Token, Secret, Password)
+# and C:\Users\<name> paths are automatically redacted before output.
+
+[Behaviour]
+[Texture]

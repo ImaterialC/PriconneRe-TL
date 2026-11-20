@@ -1,4 +1,5 @@
 name: Create new release
+
 on:
   workflow_dispatch:
     inputs:
@@ -22,15 +23,19 @@ on:
         required: true
         default: true
       kokkoro_message:
-        type: tring
-        description: Kokkoro's Message
+        type: string
+        description: Kokkoro's Message (leave 'auto' for dynamic greeting, or type custom text)
         required: false
-        default: Aruji-sama, look like there is a new update dropped, why don't we check it out?
+        default: auto
       test_mode:
         type: boolean
-        description: Test mode
+        description: Test mode (dry run without publishing release or Discord announcement)
         required: true
         default: false
+
+concurrency:
+  group: release
+  cancel-in-progress: false
 
 defaults:
   run:
@@ -41,9 +46,10 @@ jobs:
     name: Windows release
     runs-on: windows-latest
     outputs:
+      kokkoro_greeting: ${{ steps.changes.outputs.kokkoro_greeting }}
       changes: ${{ steps.changes.outputs.discord_changes }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -52,18 +58,21 @@ jobs:
           & .\.github\scripts\initialize.ps1
 
       - name: Add small note
-        if: inputs.release_note_smallnote
+        if: inputs.release_note_smallnote != ''
+        env:
+          SMALL_NOTE: ${{ inputs.release_note_smallnote }}
         run: |
-          "${{ inputs.release_note_smallnote }}" >> "./RELEASE_NOTE"
+          $rnPath = Join-Path (Get-Location).Path 'RELEASE_NOTE'
+          [System.IO.File]::AppendAllText($rnPath, "$env:SMALL_NOTE`r`n", [System.Text.UTF8Encoding]::new($false))
 
       - name: Create download button
         if: inputs.release_note_download
         run: |
-          #"`r`n# Download`r`n" >> "./RELEASE_NOTE"
-          #"Choose a version:`r`n" >> "./RELEASE_NOTE"
-          "|[Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/${{ env.RELEASE_TAG }}/PriconneTL_${{ env.RELEASE_TAG }}.zip)|`r`n|-|" >> "./RELEASE_NOTE"
+          $rnPath = Join-Path (Get-Location).Path 'RELEASE_NOTE'
+          $btn = "|[Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/$env:RELEASE_TAG/PriconneTL_$env:RELEASE_TAG.zip)|`r`n|-|`r`n"
+          [System.IO.File]::AppendAllText($rnPath, $btn, [System.Text.UTF8Encoding]::new($false))
           Write-Output "::group::Release Note"
-          Get-Content -Raw "./RELEASE_NOTE"
+          Get-Content -LiteralPath $rnPath -Raw
           Write-Output "::endgroup::"
 
       - name: Generating changelog
@@ -73,33 +82,89 @@ jobs:
 
       - name: Generating changelog in Discord format
         id: changes
+        env:
+          KOKKORO_MESSAGE: ${{ inputs.kokkoro_message }}
         run: |
           & .\.github\scripts\make_announce.ps1
 
       - name: Create compare link
-        if: inputs.release_note_compare
+        if: inputs.release_note_compare && env.PREVIOUS_TAG != ''
         run: |
-          "`r`n`r`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/${{ env.PREVIOUS_TAG }}...${{ env.RELEASE_TAG }}" >> ./RELEASE_NOTE
+          $rnPath = Join-Path (Get-Location).Path 'RELEASE_NOTE'
+          $cmp = "`r`n`r`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/$env:PREVIOUS_TAG...$env:RELEASE_TAG"
+          [System.IO.File]::AppendAllText($rnPath, $cmp, [System.Text.UTF8Encoding]::new($false))
+
+      - name: Upload test-mode preview artifacts
+        if: inputs.test_mode == true
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-preview-${{ env.RELEASE_TAG }}
+          path: |
+            RELEASE_NOTE
+            CHANGES.json
+          if-no-files-found: warn
 
       - name: Generating artifact
         run: |
-          $Version = Get-Content "src/BepInEx/Translation/en/Text/Version.txt"
-          Set-Content -Path "src/BepInEx/Translation/en/Text/Version.txt" -Value $Version.Replace("Pre-release", "${{ env.RELEASE_TAG }}")
-          Write-Output "Generated Version file"
-          Compress-Archive -Path "src/*" -DestinationPath 'PriconneTL_${{ env.RELEASE_TAG }}.zip'
-          Get-Item "PriconneTL_${{ env.RELEASE_TAG }}.zip" -ErrorAction Stop
+          $verPath = Join-Path (Get-Location).Path "src/BepInEx/Translation/en/Text/Version.txt"
+          if (Test-Path -LiteralPath $verPath) {
+              $verRaw = Get-Content -LiteralPath $verPath -Raw -Encoding utf8
+              if ($verRaw -notmatch 'Pre-release') {
+                  Write-Warning "Token 'Pre-release' not found in $verPath"
+              }
+              $verUpdated = $verRaw.Replace("Pre-release", $env:RELEASE_TAG)
+              [System.IO.File]::WriteAllText($verPath, $verUpdated, [System.Text.UTF8Encoding]::new($false))
+              Write-Output "Generated Version file"
+          }
+
+          if (-not (Get-Command 7z -ErrorAction SilentlyContinue)) {
+              throw "7z executable not found on runner."
+          }
+
+          $zipName = "PriconneTL_$env:RELEASE_TAG.zip"
+          if (Test-Path -LiteralPath $zipName) { Remove-Item -LiteralPath $zipName -Force }
+
+          & 7z a -tzip -mx=3 $zipName ".\src\*" `
+              "-xr!*.rar" "-xr!*.7z" "-xr!*.zip" "-xr!*.psd" "-xr!*.bak*" `
+              "-xr!New folder" "-xr![Dump]" "-xr!Template" `
+              "-xr!_AutoGeneratedTranslations*" "-xr!daftar_file.txt" "-xr!changelog.txt"
+
+          if ($LASTEXITCODE -ge 2) {
+              throw "7z failed to archive release with exit code $LASTEXITCODE"
+          } elseif ($LASTEXITCODE -eq 1) {
+              Write-Warning "7z finished with non-fatal warnings (exit code 1)."
+          }
+
+          $item = Get-Item -LiteralPath $zipName -ErrorAction Stop
+          $maxBytes = 2GB
+          Write-Output ("Archive size: {0:N2} MB" -f ($item.Length / 1MB))
+          if ($item.Length -ge $maxBytes) {
+              throw "Archive size ($($item.Length) bytes) exceeds GitHub Release 2 GB limit!"
+          }
 
       - name: Publish Release
         if: inputs.test_mode == false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create `
-            --latest `
-            --notes-file RELEASE_NOTE `
-            --title "${{ env.RELEASE_TITLE }}"`
-            ${{ env.RELEASE_TAG }} `
-            PriconneTL_${{ env.RELEASE_TAG }}.zip `
+          $zipFile = "PriconneTL_$env:RELEASE_TAG.zip"
+          $exists = $false
+          gh release view $env:RELEASE_TAG 2>$null
+          if ($LASTEXITCODE -eq 0) { $exists = $true }
+
+          if ($exists) {
+              Write-Output "Release $env:RELEASE_TAG already exists — updating assets and notes..."
+              gh release upload $env:RELEASE_TAG $zipFile --clobber
+              gh release edit $env:RELEASE_TAG --title "$env:RELEASE_TITLE" --notes-file RELEASE_NOTE
+          } else {
+              gh release create `
+                --latest `
+                --notes-file RELEASE_NOTE `
+                --title "$env:RELEASE_TITLE" `
+                $env:RELEASE_TAG `
+                $zipFile
+          }
+
   announce:
     name: Discord Announcement
     if: inputs.test_mode == false
@@ -111,4 +176,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9
         with:
-          args: "<@&1349491054214385816> ${{ inputs.kokkoro_message }} \n${{ needs.build.outputs.changes }}\n"
+          args: "<@&1349491054214385816> ${{ needs.build.outputs.kokkoro_greeting }} \n${{ needs.build.outputs.changes }}\n"
