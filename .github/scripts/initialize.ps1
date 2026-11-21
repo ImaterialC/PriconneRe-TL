@@ -1,57 +1,122 @@
-# ============================================================
-#  initialize.ps1 — Deterministic Tag & PreviousTag Resolver
-#  Uses WIB (UTC+7) date with optional a..z same-day suffixes
-# ============================================================
-$ErrorActionPreference = 'Stop'
-$PSNativeCommandUseErrorActionPreference = $false
+# ============================================================================
+# initialize.ps1 - Shared Encoding, Safe Data Loaders & UTF-16 Helpers
+# ============================================================================
+Set-StrictMode -Version Latest
 
-# 1. Resolve current date in WIB (SE Asia Standard Time, UTC+7)
-try   { $Now = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, 'SE Asia Standard Time') }
-catch { $Now = Get-Date }
-$Date = $Now.ToString('yyyyMMdd')
-
-# 2. Candidate tags: yyyyMMdd, yyyyMMdda..z (pick first unused tag)
-$candidates = @($Date) + @([char[]](97..122) | ForEach-Object { "$Date$_" })
-$ReleaseTag = $candidates | Where-Object { -not (git tag -l $_) } | Select-Object -First 1
-if (-not $ReleaseTag) {
-    throw "More than 27 releases on a single date ($Date) — clean up old tags first."
+try {
+    $utf8NoBom = [System.Text.UTF8Encoding]::new($false)
+    [Console]::OutputEncoding = $utf8NoBom
+    [Console]::InputEncoding  = $utf8NoBom
+    $OutputEncoding           = $utf8NoBom
+} catch {
+    # Ignore non-interactive host console handle errors
 }
 
-# 3. Deterministic PreviousTag (reachability-first + same-commit tie-break)
-$PreviousTag = ''
-$desc = @(git describe --tags --abbrev=0 --match "[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]*" --exclude="$ReleaseTag" HEAD 2>$null)
-if ($LASTEXITCODE -eq 0 -and $desc.Count -gt 0 -and $desc[0]) {
-    $baseTag = $desc[0].Trim()
-    $commit  = (git rev-list -n 1 $baseTag 2>$null | Select-Object -First 1)
-    if ($commit) {
-        $same = @(git tag --points-at $commit | Where-Object { $_ -match '^\d{8}[a-z]?$' -and $_ -ne $ReleaseTag })
-        if ($same.Count -gt 0) {
-            $PreviousTag = ($same | Sort-Object -Descending | Select-Object -First 1)
-        } else {
-            $PreviousTag = $baseTag
-        }
-    } else {
-        $PreviousTag = $baseTag
+function Get-SafePsd1Data {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)]
+        [string] $Path,
+        [hashtable] $Default = @{}
+    )
+    if ([string]::IsNullOrWhiteSpace($Path) -or -not (Test-Path -LiteralPath $Path)) {
+        return $Default
     }
+    try {
+        $data = Import-PowerShellDataFile -LiteralPath $Path
+        if ($data -is [hashtable]) {
+            return $data
+        }
+    } catch {
+        Write-Warning "Failed to parse PowerShell data file '$Path': $($_.Exception.Message)"
+    }
+    return $Default
 }
 
-# Fallback when git describe finds nothing (e.g. shallow/unannotated edge case)
-if (-not $PreviousTag) {
-    $tags = @(git for-each-ref --sort=-refname --sort=-creatordate --format='%(refname:short)' refs/tags)
-    $PreviousTag = ($tags | Where-Object { $_ -match '^\d{8}[a-z]?$' -and $_ -ne $ReleaseTag } | Select-Object -First 1)
+function Read-WatchlistRules {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)]
+        [string] $Path
+    )
+    $rules = [System.Collections.ArrayList]::new()
+    if ([string]::IsNullOrWhiteSpace($Path) -or -not (Test-Path -LiteralPath $Path)) {
+        return ,$rules
+    }
+    $lines = @(Get-Content -LiteralPath $Path -Encoding utf8)
+    $lineNo = 0
+    foreach ($raw in $lines) {
+        $lineNo++
+        if ($null -eq $raw) { continue }
+        $line = $raw.Trim()
+        if ($line -eq '' -or $line.StartsWith('#')) { continue }
+
+        if ($line -match '^\[([^\[\]]+)\]\s*(.*)$') {
+            $sec = $Matches[1].Trim()
+            $key = $Matches[2].Trim()
+            if ([string]::IsNullOrWhiteSpace($sec)) {
+                Write-Warning "Malformed watchlist line ${lineNo} in '$Path': empty section name."
+                continue
+            }
+            [void]$rules.Add([PSCustomObject]@{
+                Section = $sec
+                Key     = $key
+            })
+        } else {
+            Write-Warning "Malformed watchlist line ${lineNo} in '$Path': '$line' (expected '[Section]' or '[Section] Key')."
+        }
+    }
+    return ,$rules
 }
 
-$ReleaseTitle = "Priconne UI EN DMM v$ReleaseTag"
-
-if ($env:GITHUB_ENV) {
-    $envPayload = "RELEASE_TAG=$ReleaseTag`nRELEASE_TITLE=$ReleaseTitle`nPREVIOUS_TAG=$PreviousTag`n"
-    [System.IO.File]::AppendAllText($env:GITHUB_ENV, $envPayload, [System.Text.UTF8Encoding]::new($false))
+function Test-HasLoneSurrogate {
+    [CmdletBinding()]
+    param(
+        [AllowEmptyString()]
+        [string] $Text = ''
+    )
+    if ([string]::IsNullOrEmpty($Text)) { return $false }
+    for ($i = 0; $i -lt $Text.Length; $i++) {
+        $c = $Text[$i]
+        if ([char]::IsHighSurrogate($c)) {
+            if (($i + 1) -ge $Text.Length -or -not [char]::IsLowSurrogate($Text[$i + 1])) {
+                return $true
+            }
+            $i++
+        } elseif ([char]::IsLowSurrogate($c)) {
+            return $true
+        }
+    }
+    return $false
 }
 
-Write-Output @"
-::group::Logs
-Tag: $ReleaseTag
-Title: $ReleaseTitle
-Previous: $PreviousTag
-::endgroup::
-"@
+function Limit-SafeText {
+    [CmdletBinding()]
+    param(
+        [AllowEmptyString()]
+        [string] $Text = '',
+        [Parameter(Mandatory = $true)]
+        [int] $MaxLength,
+        [string] $Suffix = ''
+    )
+    if ($MaxLength -le 0 -or [string]::IsNullOrEmpty($Text)) {
+        return ''
+    }
+    if ($Text.Length -le $MaxLength) {
+        return $Text
+    }
+    $cut = $MaxLength - $Suffix.Length
+    if ($cut -le 0) {
+        $cut = $MaxLength
+        $Suffix = ''
+    }
+    if ($cut -gt $Text.Length) { $cut = $Text.Length }
+    if ($cut -gt 0 -and [char]::IsHighSurrogate($Text[$cut - 1])) {
+        $cut--
+    }
+    $sub = $Text.Substring(0, $cut).TrimEnd()
+    if ($sub.Length -gt 0 -and [char]::IsHighSurrogate($sub[$sub.Length - 1])) {
+        $sub = $sub.Substring(0, $sub.Length - 1)
+    }
+    return ($sub + $Suffix)
+}

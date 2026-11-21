@@ -1,439 +1,588 @@
-# Root hashtable of Kokkoro's dynamic greeting templates (deterministic from WIB release tag)
-# Voice rules: polite keigo, humble, devoted; no slang or casual contractions; always 'Aruji-sama'.
-# Lore: Astraea = continent / Pecorine's house; Landosol = capital city / guild house;
-#       Kokkoro cooks; Pecorine eats heartily; Kyaru is tsundere (protests, never 'shy').
-@{
-    Timezone        = 'SE Asia Standard Time'
-    MaxMainLength   = 145
-    MaxNoteLength   = 80
-    MaxBdayLength   = 90
-    SoftGreetingCap = 380
-    MajorThreshold  = 15
-    Calendar        = @(
-        # --- Kokkoro Birthday (May 11): Window H-6 / H / H+1 ---
-        @{
-            Name         = 'KokkoroBDay'
-            Month        = 5
-            Day          = 11
-            WindowBefore = 6
-            WindowAfter  = 1
-            Priority     = 100
-            LinesBefore  = @(
-                'Aruji-sama, my birthday draws near on May 11. I would be honored to celebrate the day beside you. 🌸'
-                'Aruji-sama, the eleventh of May approaches — my birthday. I shall prepare quietly to mark the occasion with you.'
-            )
-            Lines        = @(
-                'Aruji-sama, today is my birthday. Thank you for walking this path with me — I shall continue to serve you faithfully. 🎂'
-                'Aruji-sama, it is my birthday today. Your trust means everything to me, and I shall do my utmost for you. 🌸'
-            )
-            LinesAfter   = @(
-                'Aruji-sama, thank you sincerely for your birthday wishes. I shall treasure your kindness and keep guiding you. 🌸'
-                'Aruji-sama, my birthday has passed, yet your warmth remains in my heart. I am grateful to remain at your side.'
-            )
-            NoteBefore   = 'Incidentally, my own birthday draws near on May 11. 🌸'
-            Note         = 'Today also happens to be my birthday, Aruji-sama. 🎂'
-            NoteAfter    = 'Thank you again for the kind wishes on my birthday. 🌸'
-        }
+﻿@{
+    # Kokkoro's Own Birthday (May 11) - Locked to H-6..H+1 (DaysBefore = 6, DaysAfter = 1)
+    KokkoroBDay = @{
+        Month      = 5
+        Day        = 11
+        DaysBefore = 6
+        DaysAfter  = 1
+        LinesBefore = @(
+            'Aruji-sama, my own birthday on May 11 draws near, though serving by your side remains my greatest gift. 🍃'
+            'Aruji-sama, as the eleventh of May approaches, I am grateful to continue guiding your adventures. 🌸'
+            'Aruji-sama, May 11 is almost here. I have been quietly preparing—serving you is celebration enough. 🌸'
+            'Aruji-sama, I find myself thinking that every day beside you is already a gift. Still, May 11 nears. 🍃'
+            'Aruji-sama, Pecorine-sama keeps asking what I would like for my birthday. I truly have everything here. 🎂'
+            'Aruji-sama, Kyaru-sama has been unusually cheerful lately. I wonder if she is planning something for May 11. 🐱'
+        )
+        Lines = @(
+            'Aruji-sama, it is my birthday today! Thank you warmly for always letting me accompany you. 🎂'
+            'Aruji-sama, celebrating my birthday today while assisting you brings me quiet joy. 🌸'
+            'Aruji-sama, today is my birthday! I shall keep serving you with renewed energy. ✨'
+            'Aruji-sama, today is my birthday, and yet you are the one who fills my day with meaning. 🎂'
+            'Aruji-sama, Pecorine-sama insisted on baking something today. It is my birthday, after all. 🍰'
+            'Aruji-sama, Kyaru-sama presented me with a gift this morning and looked away immediately. How kind. 🐱'
+        )
+        LinesAfter = @(
+            'Aruji-sama, thank you for your kind birthday wishes. I shall continue serving you faithfully. ✨'
+            'Aruji-sama, I still cherish the warmth of your birthday wishes as we review today''s update. 🍃'
+            'Aruji-sama, the glow of yesterday''s birthday lingers warmly. I am ready to report on the new patch. 🌸'
+        )
+    }
 
-        # --- Gourmet Guild Birthdays: Window H-1 / H ---
+    # Gourmet Guild Member Birthdays and Special Characters - Locked to H-1..H (DaysBefore = 1, DaysAfter = 0)
+    GourmetBirthdays = @(
         @{
-            Name         = 'PecorineBDay'
-            Month        = 3
-            Day          = 31
-            WindowBefore = 1
-            WindowAfter  = 0
-            Priority     = 96
-            LinesBefore  = @(
-                'Aruji-sama, tomorrow is Pecorine-sama''s birthday. I am preparing a splendid feast to celebrate with her. 🍙'
-                'Aruji-sama, Pecorine-sama''s birthday is just one day away. Let us prepare a warm celebration together. ✨'
+            Id         = 'PecorineBDay'
+            Month      = 3
+            Day        = 31
+            DaysBefore = 1
+            DaysAfter  = 0
+            LinesBefore = @(
+                'Aruji-sama, Pecorine-sama''s birthday is tomorrow! I am preparing a grand feast for her. 🍙'
+                'Aruji-sama, tomorrow is Pecorine-sama''s birthday. The kitchen has been quite lively this evening. 🍽️'
+                'Aruji-sama, I have confirmed the ingredients for Pecorine-sama''s birthday feast tomorrow. 🌸'
             )
-            Lines        = @(
-                'Aruji-sama, today is Pecorine-sama''s birthday! I have cooked a hearty feast so she may celebrate to her heart''s content. 🎂'
-                'Aruji-sama, we celebrate Pecorine-sama''s birthday today. May her bright smile shine across Landosol. 🌸'
+            Lines = @(
+                'Aruji-sama, today is Pecorine-sama''s birthday! Let us celebrate with plenty of delicious dishes. 🎂'
+                'Aruji-sama, Pecorine-sama is beaming on her birthday today—and her appetite is livelier than ever! 🍙'
+                'Aruji-sama, happy birthday to Pecorine-sama! Her spirit brightens every corner of the guild. 🌸'
+                'Aruji-sama, Pecorine-sama''s birthday has arrived. The Gourmet Guild table has never been fuller. 🍴'
+                'Aruji-sama, today we celebrate Pecorine-sama! No amount of cooking seems quite sufficient. 🎂'
+                'Aruji-sama, it is Pecorine-sama''s birthday. She greeted the morning with her brightest smile. ✨'
             )
-            NoteBefore   = 'Incidentally, tomorrow is Pecorine-sama''s birthday. 🍙'
-            Note         = 'Today is also Pecorine-sama''s birthday! 🎂'
-            NoteAfter    = 'Pecorine-sama is still beaming from her birthday feast. 🍙'
         }
         @{
-            Name         = 'KyaruBDay'
-            Month        = 9
-            Day          = 2
-            WindowBefore = 1
-            WindowAfter  = 0
-            Priority     = 96
-            LinesBefore  = @(
-                'Aruji-sama, tomorrow is Kyaru-sama''s birthday. Let us prepare a thoughtful surprise for her. 🐱'
-                'Aruji-sama, Kyaru-sama''s birthday arrives tomorrow. I shall make sure everything is ready for our celebration. ✨'
+            Id         = 'KyaruBDay'
+            Month      = 9
+            Day        = 2
+            DaysBefore = 1
+            DaysAfter  = 0
+            LinesBefore = @(
+                'Aruji-sama, Kyaru-sama''s birthday is tomorrow. Let us prepare a thoughtful surprise for her. 🐱'
+                'Aruji-sama, I am quietly arranging something for Kyaru-sama''s birthday tomorrow. She must not know. 🐱'
+                'Aruji-sama, tomorrow is Kyaru-sama''s birthday. She has been unusually distracted today. 🌸'
             )
-            Lines        = @(
+            Lines = @(
                 'Aruji-sama, today is Kyaru-sama''s birthday! Though she may protest, I believe she treasures our company. 🎂'
-                'Aruji-sama, let us offer our warmest wishes to Kyaru-sama on her birthday today. 🌸'
+                'Aruji-sama, let us wish Kyaru-sama a happy birthday today—she secretly appreciates every kind word. 🐱'
+                'Aruji-sama, Kyaru-sama''s birthday is here. She looked away when I said happy birthday, then smiled. 🌸'
+                'Aruji-sama, happy birthday, Kyaru-sama! She grumbled a little but accepted the flowers. 🐱'
+                'Aruji-sama, it is Kyaru-sama''s birthday. I prepared her favourite treat; she said nothing, then ate it all. 🎂'
+                'Aruji-sama, Kyaru-sama''s birthday arrived. Even she cannot hide a smile when the whole guild gathers. ✨'
             )
-            NoteBefore   = 'Incidentally, tomorrow is Kyaru-sama''s birthday. 🐱'
-            Note         = 'Today is also Kyaru-sama''s birthday! 🎂'
-            NoteAfter    = 'Kyaru-sama seemed quietly pleased by her birthday wishes. 🐱'
         }
         @{
-            Name         = 'SheffyBDay'
-            Month        = 1
-            Day          = 11
-            WindowBefore = 1
-            WindowAfter  = 0
-            Priority     = 96
-            LinesBefore  = @(
-                'Aruji-sama, tomorrow is Sheffy-sama''s birthday. Let us prepare a gentle and joyful celebration for her. ❄️'
-                'Aruji-sama, Sheffy-sama''s birthday draws near tomorrow. I shall ready everything with care. ✨'
+            Id         = 'SheffyBDay'
+            Month      = 12
+            Day        = 14
+            DaysBefore = 1
+            DaysAfter  = 0
+            LinesBefore = @(
+                'Aruji-sama, Sheffy-sama''s birthday arrives tomorrow. Let us make sure she feels warmly celebrated. ❄️'
+                'Aruji-sama, tomorrow is Sheffy-sama''s birthday. I have prepared a small winter arrangement for her. ❄️'
+                'Aruji-sama, Sheffy-sama''s birthday is tomorrow. The guild feels a little crisper today, somehow. 🌟'
             )
-            Lines        = @(
-                'Aruji-sama, today is Sheffy-sama''s birthday! May her smile shine as brightly as clear winter crystal. 🎂'
-                'Aruji-sama, let us celebrate Sheffy-sama''s birthday warmly together today. 🌸'
+            Lines = @(
+                'Aruji-sama, today is Sheffy-sama''s birthday! May her smile shine brightly like clear winter ice. 🎂'
+                'Aruji-sama, let us celebrate Sheffy-sama''s birthday together with warm tea and sweet treats. ❄️'
+                'Aruji-sama, happy birthday, Sheffy-sama! Winter suits her perfectly. ❄️'
+                'Aruji-sama, Sheffy-sama''s birthday is here. I offered warm tea; she said the cold does not bother her. 🎂'
+                'Aruji-sama, today we celebrate Sheffy-sama! Even frost seems to sparkle a little brighter today. ✨'
+                'Aruji-sama, Sheffy-sama''s birthday has come. I do hope she accepts a small gift with her usual calm. 🌟'
             )
-            NoteBefore   = 'Incidentally, tomorrow is Sheffy-sama''s birthday. ❄️'
-            Note         = 'Today is also Sheffy-sama''s birthday! 🎂'
-            NoteAfter    = 'We shared a gentle celebration for Sheffy-sama''s birthday. ❄️'
         }
+        @{
+            Id         = 'AmethBDay'
+            Month      = 2
+            Day        = 18
+            DaysBefore = 1
+            DaysAfter  = 0
+            LinesBefore = @(
+                'Aruji-sama, Ameth-sama''s birthday is tomorrow. I find myself wanting to prepare something truly worthy of her. 🌟'
+                'Aruji-sama, tomorrow is Ameth-sama''s birthday. She has watched over so many souls; it is our turn to celebrate her. ✨'
+                'Aruji-sama, Ameth-sama''s birthday draws near. I shall do my best to repay even a little of what she has given us. 🍃'
+            )
+            Lines = @(
+                'Aruji-sama, today is Ameth-sama''s birthday! She has guided countless lives; I am grateful she is part of ours. 🎂'
+                'Aruji-sama, happy birthday to Ameth-sama! Her gentle wisdom has shaped so much of our journey together. ✨'
+                'Aruji-sama, it is Ameth-sama''s birthday. She smiles the same as always—yet today it feels especially warm. 🌟'
+                'Aruji-sama, today we celebrate Ameth-sama! Every memory of her kindness fills me with quiet gratitude. 🎂'
+                'Aruji-sama, Ameth-sama''s birthday has arrived. I offered my sincerest thanks; she said it was nothing, as always. 🍃'
+                'Aruji-sama, happy birthday, Ameth-sama! Knowing her has made every chapter of this journey richer. ✨'
+            )
+        }
+        @{
+            Id         = 'KaiserInsightBDay'
+            Month      = 7
+            Day        = 1
+            DaysBefore = 1
+            DaysAfter  = 0
+            LinesBefore = @(
+                'Aruji-sama, Kyaru-sama has been unusually quiet today. Tomorrow is her uncle''s birthday—Kaiser Insight-sama. 🍃'
+                'Aruji-sama, I noticed Kyaru-sama staring into the distance this evening. Tomorrow is Kaiser Insight-sama''s birthday. 🌿'
+                'Aruji-sama, Kyaru-sama''s uncle, Kaiser Insight-sama, celebrates his birthday tomorrow. She does not speak of him often. ✨'
+            )
+            Lines = @(
+                'Aruji-sama, Kyaru-sama has been unusually quiet today. I recall it is her uncle''s birthday—Kaiser Insight-sama. She does not speak of him often. 🍃'
+                'Aruji-sama, today is Kaiser Insight-sama''s birthday. Kyaru-sama''s uncle carries a great burden; I hope he finds a moment of peace. ✨'
+                'Aruji-sama, it is Kaiser Insight-sama''s birthday. Kyaru-sama sat alone by the window this morning. I left her tea. 🌿'
+                'Aruji-sama, today we quietly mark the birthday of Kyaru-sama''s uncle, Kaiser Insight-sama. Family bonds are complicated things. 🍃'
+                'Aruji-sama, Kaiser Insight-sama''s birthday has arrived. Kyaru-sama seems to carry something heavy today. 🌿'
+                'Aruji-sama, Kyaru-sama''s uncle celebrates his birthday today. She has not said a word, but I am here if she needs me. ✨'
+            )
+        }
+    )
 
-        # --- Holidays & Anniversaries: Window H-3 / H / H+1 ---
+    # Seasonal & Priconne Calendar Events
+    # Standard seasonal events use DaysBefore = 3, DaysAfter = 1 (locked by user).
+    # Anniversaries (JPAnniv, AnimeS1, AnimeS2) use DaysBefore = 0, DaysAfter = 3
+    #   (anniversaries mark a completed year; "before" window does not apply).
+    # AprilFool uses DaysBefore = 0, DaysAfter = 1 (jokes should not leak early).
+    Calendar = @(
         @{
-            Name         = 'JPAnniv'
-            Month        = 2
-            Day          = 15
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 92
-            LinesBefore  = @(
-                'Aruji-sama, our grand anniversary milestone draws near! Festive preparations are filling Landosol. ✨'
-                'Aruji-sama, the anniversary celebration approaches in just a few days. Let us look forward to it together. 🌸'
+            Id          = 'NewYear'
+            Month       = 1
+            Day         = 1
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 90
+            LinesBefore = @(
+                'Aruji-sama, the year is drawing to a close. Let us prepare to welcome the new year together. 🎍'
+                'Aruji-sama, the year''s final days are here. I have tidied the guild carefully in preparation. 🎍'
+                'Aruji-sama, the new year is nearly upon us. I look forward to guiding you through the coming seasons. ✨'
             )
-            Lines        = @(
-                'Aruji-sama, happy anniversary! Thank you for continuing our journey across Astraea together. 🎉'
-                'Aruji-sama, let us celebrate another wonderful year of adventures in Landosol together. 🌸'
+            Lines = @(
+                'Aruji-sama, Happy New Year! May this new year bring you health, fortune, and pleasant journeys. 🎍'
+                'Aruji-sama, a fresh year opens before us! I am honoured to begin it by your side. 🎍'
+                'Aruji-sama, Happy New Year! Every step we take into this new year together fills me with hope. ✨'
+                'Aruji-sama, the year has renewed. I prepared the guild before dawn so we could begin together. 🎍'
+                'Aruji-sama, Happy New Year across Landosol! May every chapter ahead bring joy and discovery. 🌸'
+                'Aruji-sama, another year starts today. I pledge to serve you faithfully through every update it brings. 🌿'
             )
-            LinesAfter   = @(
-                'Aruji-sama, the anniversary festivities continue! Let us keep creating cherished memories together. ✨'
-                'Aruji-sama, following yesterday''s anniversary milestone, I have prepared today''s latest update for you. 🌸'
+            LinesAfter = @(
+                'Aruji-sama, the new year has begun. I shall continue to support your adventures faithfully. ✨'
+                'Aruji-sama, I hope the new year''s start has been restful. Here is today''s translation update. 🍃'
+                'Aruji-sama, the new year is underway. Let us make this first week a good one together. 🌸'
             )
-            NoteBefore   = 'Incidentally, the anniversary of our journey arrives tomorrow. 🎉'
-            Note         = 'Today marks the day our journey in Landosol began. 🎉'
-            NoteAfter    = 'The anniversary festivities continue into today. 🎉'
+            NoteBefore = 'Incidentally, the new year will arrive very soon. 🎍'
+            Note       = 'Incidentally, Happy New Year, Aruji-sama. 🎍'
+            NoteAfter  = 'Incidentally, may this new year treat you kindly. 🎍'
         }
         @{
-            Name         = 'NewYear'
-            Month        = 1
-            Day          = 1
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 90
-            LinesBefore  = @(
-                'Aruji-sama, the current year is drawing to a close. Let us prepare calmly to welcome the new year together. 🎍'
-                'Aruji-sama, only a few days remain before the new year arrives. Thank you for your steadfast guidance. ✨'
+            Id          = 'AnimeS2'
+            Month       = 1
+            Day         = 11
+            DaysBefore  = 0
+            DaysAfter   = 3
+            Priority    = 93
+            Lines = @(
+                'Aruji-sama, today marks the anniversary of the Princess Connect! anime Season 2 premiere! What a journey it has been. 🎬'
+                'Aruji-sama, it was on this day that Season 2 began—so many cherished moments since then. 🌸'
+                'Aruji-sama, happy anniversary of the anime''s second season! Revisiting those episodes still brings warmth. ✨'
+                'Aruji-sama, Season 2 of the anime premiered on this day. I still remember how everyone gathered to watch. 🎬'
+                'Aruji-sama, another year since the anime''s second season began! Shall we recall a favourite scene? 🌸'
+                'Aruji-sama, it is the anniversary of the Princess Connect! Season 2 premiere. I am grateful for every moment. ✨'
             )
-            Lines        = @(
-                'Aruji-sama, Happy New Year! May this new year bring you good health, fortune, and peaceful journeys. 🎍'
-                'Aruji-sama, a fresh year begins today. I shall continue to guide and support you faithfully. ✨'
+            LinesAfter = @(
+                'Aruji-sama, the anime Season 2 anniversary echoes in our hearts for a few days yet. 🎬'
+                'Aruji-sama, the Season 2 premiere anniversary was just the other day. Its spirit lingers warmly. ✨'
+                'Aruji-sama, we are still in the glow of the Season 2 anniversary. Wonderful memories indeed. 🌸'
             )
-            LinesAfter   = @(
-                'Aruji-sama, the new year has begun smoothly. I have arranged the latest update notes for you below. 🎍'
-                'Aruji-sama, may the opening days of this new year treat you kindly as you review this update. ✨'
-            )
-            NoteBefore   = 'Incidentally, the new year will soon be upon us. 🎍'
-            Note         = 'Today is also New Year''s Day in Landosol. 🎍'
-            NoteAfter    = 'May the opening days of this new year bring you peace. 🎍'
+            Note       = 'Incidentally, today marks the Season 2 anime premiere anniversary! 🎬'
+            NoteAfter  = 'Incidentally, the Season 2 anime anniversary was very recent. 🎬'
         }
         @{
-            Name         = 'Christmas'
-            Month        = 12
-            Day          = 25
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 88
-            LinesBefore  = @(
-                'Aruji-sama, Christmas draws near! Winter lights are twinkling brightly across town. 🎄'
-                'Aruji-sama, the winter festivities are almost upon us. Please dress warmly while reviewing this update. ❄️'
+            Id          = 'Valentine'
+            Month       = 2
+            Day         = 14
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 85
+            LinesBefore = @(
+                'Aruji-sama, Valentine''s Day is approaching. I am preparing something sweet with utmost care. 💝'
+                'Aruji-sama, Valentine''s Day draws near. I have been making careful preparations for the occasion. 💝'
+                'Aruji-sama, the gentlest day of the year approaches. Please look forward to a small token of gratitude. 🌸'
             )
-            Lines        = @(
-                'Aruji-sama, Merry Christmas! Please stay warm while we enjoy this peaceful winter celebration. 🎄'
-                'Aruji-sama, festive lights fill the winter air today. I have prepared a fresh update for your holiday. ✨'
+            Lines = @(
+                'Aruji-sama, Happy Valentine''s Day! Please accept this humble update prepared with gratitude. 💝'
+                'Aruji-sama, on this gentle Valentine day of gratitude, I am thankful to remain faithfully by your side. 💝'
+                'Aruji-sama, Happy Valentine''s Day! I prepared this translation patch with extra care today. 🌸'
+                'Aruji-sama, today is Valentine''s Day. Please accept my sincerest gratitude along with the latest update. 💝'
+                'Aruji-sama, Happy Valentine''s Day across Landosol! May warmth follow you wherever you travel. 🌸'
+                'Aruji-sama, on Valentine''s Day, I am reminded how glad I am to accompany you on this journey. 💝'
             )
-            LinesAfter   = @(
-                'Aruji-sama, I hope you enjoyed a peaceful Christmas. Here is a fresh update as the year nears its end. ✨'
-                'Aruji-sama, the gentle warmth of Christmas lingers on. Please review today''s latest changes below. 🎄'
+            LinesAfter = @(
+                'Aruji-sama, I hope yesterday''s Valentine brought you warmth. Here is today''s latest update. 🌸'
+                'Aruji-sama, the warmth of Valentine''s Day still lingers. I hope yours was pleasant. 💝'
+                'Aruji-sama, though Valentine''s Day has passed, my gratitude for you does not waver. 🌸'
             )
-            NoteBefore   = 'Incidentally, Christmas is nearly upon us. 🎄'
-            Note         = 'Today is Christmas Day as well, Aruji-sama. 🎄'
-            NoteAfter    = 'The gentle warmth of Christmas still lingers today. 🎄'
+            NoteBefore = 'Incidentally, Valentine''s Day is just around the corner. 💝'
+            Note       = 'Incidentally, Happy Valentine''s Day, Aruji-sama. 💝'
+            NoteAfter  = 'Incidentally, I hope you enjoyed a warm Valentine''s Day yesterday. 💝'
         }
         @{
-            Name         = 'Valentine'
-            Month        = 2
-            Day          = 14
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 84
-            LinesBefore  = @(
-                'Aruji-sama, Valentine''s Day approaches. I am preparing a small token of gratitude with utmost care. 💝'
-                'Aruji-sama, only a few days remain until Valentine''s Day. Please accept this update in the meantime. 🌸'
+            Id          = 'JPAnniv'
+            Month       = 2
+            Day         = 15
+            DaysBefore  = 0
+            DaysAfter   = 3
+            Priority    = 95
+            Lines = @(
+                'Aruji-sama, happy anniversary! Today marks another year of adventures together across Astraea. 🎉'
+                'Aruji-sama, happy anniversary! Thank you for walking across Astraea with us all this time. 🎉'
+                'Aruji-sama, today marks another celebratory year of adventures together across Astraea! 🎉'
+                'Aruji-sama, it is the Princess Connect! game anniversary! Every year we celebrate is a treasure. ✨'
+                'Aruji-sama, another year of journeys across Landosol—happy anniversary to everyone who has joined us. 🎉'
+                'Aruji-sama, happy anniversary across Astraea! I am grateful for every update that brought us here. ✨'
             )
-            Lines        = @(
-                'Aruji-sama, Happy Valentine''s Day. Please accept this humble update prepared with sincere appreciation. 💝'
-                'Aruji-sama, on this gentle day of gratitude, I am thankful to remain faithfully by your side. 🌸'
+            LinesAfter = @(
+                'Aruji-sama, the anniversary festivities continue! Let us keep making wonderful memories together. ✨'
+                'Aruji-sama, our anniversary celebrations continue across Landosol. 🎉'
+                'Aruji-sama, the anniversary spirit still lifts my heart. Here is today''s patch with gratitude. ✨'
             )
-            LinesAfter   = @(
-                'Aruji-sama, I hope yesterday''s Valentine''s Day brought you warmth. Here is today''s newest update. 🌸'
-                'Aruji-sama, thank you always for your kindness. Please inspect the latest translation notes below. 💝'
-            )
-            NoteBefore   = 'Incidentally, Valentine''s Day is nearly upon us. 💝'
-            Note         = 'Today is Valentine''s Day as well. 💝'
-            NoteAfter    = 'The warmth of yesterday''s Valentine still lingers. 💝'
+            Note       = 'Incidentally, happy anniversary of our journey across Astraea! 🎉'
+            NoteAfter  = 'Incidentally, our anniversary celebrations continue across Landosol. 🎉'
         }
         @{
-            Name         = 'WhiteDay'
-            Month        = 3
-            Day          = 14
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 80
-            LinesBefore  = @(
+            Id          = 'WhiteDay'
+            Month       = 3
+            Day         = 14
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 75
+            LinesBefore = @(
                 'Aruji-sama, White Day is just around the corner. Gentle spring breezes carry warm feelings. 🤍'
-                'Aruji-sama, White Day approaches soon. I have organized today''s latest translation files for you. ✨'
+                'Aruji-sama, White Day approaches. I have been thinking of a small way to express my gratitude. 🤍'
+                'Aruji-sama, spring is nearly here and White Day draws close. The air is already softer today. 🌸'
             )
-            Lines        = @(
-                'Aruji-sama, Happy White Day. Your thoughtfulness always guides me — please accept this new update. 🤍'
-                'Aruji-sama, on this serene White Day, I remain grateful for your constant care and leadership. 🌸'
+            Lines = @(
+                'Aruji-sama, Happy White Day. Your kindness always guides me—please accept this new update. 🤍'
+                'Aruji-sama, Happy White Day! I hope this small gesture conveys my sincere gratitude. 🌸'
+                'Aruji-sama, it is White Day today. I have no grand gift, only faithful service and this new patch. 🤍'
+                'Aruji-sama, Happy White Day across Landosol! Spring and kindness arrive together. 🌸'
+                'Aruji-sama, on White Day, I wish you nothing but warmth. Here is the latest update. 🤍'
+                'Aruji-sama, White Day is here. Please know that serving you is itself a gift I treasure. ✨'
             )
-            LinesAfter   = @(
-                'Aruji-sama, thank you for always being so considerate. Here are the newest translation updates below. 🌸'
-                'Aruji-sama, following yesterday''s White Day, everything is neatly prepared for your journey. ✨'
+            LinesAfter = @(
+                'Aruji-sama, thank you for always being so thoughtful. Here are the newest translation notes. 🌸'
+                'Aruji-sama, White Day has passed but its warmth remains. Here is today''s update. 🤍'
+                'Aruji-sama, I hope yesterday''s White Day was kind to you. The spring update continues. 🌸'
             )
-            NoteBefore   = 'Incidentally, White Day approaches soon. 🤍'
-            Note         = 'Today is also White Day, Aruji-sama. 🤍'
-            NoteAfter    = 'The gentle spirit of White Day remains with us today. 🤍'
+            NoteBefore = 'Incidentally, White Day approaches soon. 🤍'
+            Note       = 'Incidentally, Happy White Day, Aruji-sama. 🤍'
+            NoteAfter  = 'Incidentally, thank you always for your kindness. 🤍'
         }
         @{
-            Name         = 'Halloween'
-            Month        = 10
-            Day          = 31
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 76
-            LinesBefore  = @(
-                'Aruji-sama, Halloween is drawing near. Festive autumn decorations are appearing across Landosol. 🎃'
-                'Aruji-sama, autumn lanterns and playful decorations announce that Halloween is nearly here. 🍂'
+            Id          = 'Hanami'
+            Month       = 3
+            Day         = 25
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 70
+            LinesBefore = @(
+                'Aruji-sama, the cherry blossom buds are about to open. Spring is nearly in full bloom. 🌸'
+                'Aruji-sama, I spotted the first cherry blossoms today. The viewing season is almost upon us. 🌸'
+                'Aruji-sama, spring petals are budding. The guild courtyard will be lovely very soon. 🌸'
             )
-            Lines        = @(
-                'Aruji-sama, it is Halloween today. Even among playful spirits, your faithful guide remains right beside you. 🎃'
-                'Aruji-sama, festive autumn mischief fills the air — please enjoy this new update safely. 🍂'
+            Lines = @(
+                'Aruji-sama, the cherry blossoms are blooming softly. Perhaps we can rest briefly after updating. 🌸'
+                'Aruji-sama, the hanami season is here! Blossoms drift across Landosol like gentle snowflakes. 🌸'
+                'Aruji-sama, cherry blossoms are in full bloom today. I have prepared tea to enjoy them with. 🍵'
+                'Aruji-sama, spring has arrived in earnest! The guild courtyard is covered in petals. 🌸'
+                'Aruji-sama, I stepped outside and was met with a cascade of blossoms. What a day for a new patch. 🌸'
+                'Aruji-sama, the hanami petals fall gently today. I find it difficult not to smile. ✨'
             )
-            LinesAfter   = @(
-                'Aruji-sama, Halloween has passed peacefully. Here is today''s latest translation update. 🍂'
-                'Aruji-sama, now that the Halloween festivities have settled, please review the latest notes below. ✨'
+            LinesAfter = @(
+                'Aruji-sama, spring petals dance upon the breeze today. Here is the latest update for you. 🌸'
+                'Aruji-sama, the blossoms linger a little longer. I hope you enjoyed viewing them. 🌸'
+                'Aruji-sama, petal season is winding down but its gentleness still touches the air. ✨'
             )
-            NoteBefore   = 'Incidentally, Halloween is nearly upon us. 🎃'
-            Note         = 'Today is Halloween as well, Aruji-sama. 🎃'
-            NoteAfter    = 'The playful autumn air of Halloween still lingers. 🎃'
+            NoteBefore = 'Incidentally, the cherry blossoms will soon reach full bloom. 🌸'
+            Note       = 'Incidentally, the cherry blossoms are in lovely bloom today. 🌸'
+            NoteAfter  = 'Incidentally, spring blossom petals are drifting gently outside. 🌸'
         }
         @{
-            Name         = 'Tanabata'
-            Month        = 7
-            Day          = 7
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 72
-            LinesBefore  = @(
-                'Aruji-sama, Tanabata approaches soon. Have you thought of a wish to inscribe upon a paper strip? 🎋'
-                'Aruji-sama, the star festival draws near. I am preparing colorful strips for our wishes. ✨'
+            Id          = 'AprilFool'
+            Month       = 4
+            Day         = 1
+            DaysBefore  = 0
+            DaysAfter   = 1
+            Priority    = 88
+            Lines = @(
+                'Aruji-sama, Kyaru-sama says our guild is dissolved today. I have begun packing... she is laughing. Why is she laughing? 🐱'
+                'Aruji-sama, I was told the sky would turn green at noon. I waited diligently. Kyaru-sama has not stopped smiling. 🌤️'
+                'Aruji-sama, Kyaru-sama claims Pecorine-sama ate the entire pantry. I checked twice. It is full. I do not understand. 🍙'
+                'Aruji-sama, apparently today permits one harmless falsehood. I shall try: I am not glad to see you. ...I have failed. 🌸'
+                'Aruji-sama, Kyaru-sama insists you have grown a tail. I looked carefully. Please tell me if you find it before I do. 🐾'
+                'Aruji-sama, I have been informed that supper is your duty today. I prepared an apron in your size. Was that a jest? 🍳'
             )
-            Lines        = @(
-                'Aruji-sama, it is Tanabata today. I have written a wish upon a strip of paper for your well-being. 🎋'
-                'Aruji-sama, may the stars of Tanabata watch gently over our travels together across Astraea. ✨'
+            LinesAfter = @(
+                'Aruji-sama, I have learned yesterday''s words were a jest. I believed every one. Please forgive my slowness. 🍃'
+                'Aruji-sama, Kyaru-sama''s April jest has been explained to me. I am relieved, though a little embarrassed. 🌸'
+                'Aruji-sama, I now understand yesterday permitted harmless lies. Today my report is entirely truthful. ✨'
             )
-            LinesAfter   = @(
-                'Aruji-sama, may the wishes we entrusted to the stars of Tanabata soon be fulfilled. ✨'
-                'Aruji-sama, following the star festival, I have prepared today''s update summary below. 🎋'
-            )
-            NoteBefore   = 'Incidentally, the Tanabata star festival draws near. 🎋'
-            Note         = 'Today is also the Tanabata star festival. 🎋'
-            NoteAfter    = 'May our Tanabata wishes reach the stars above. 🎋'
+            Note       = 'Incidentally, Kyaru-sama has been smiling a great deal today. I am not sure why. 🐱'
+            NoteAfter  = 'Incidentally, yesterday apparently called for harmless jests. All is well. 🍃'
         }
         @{
-            Name         = 'GoldenWeek'
-            Month        = 5
-            Day          = 3
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 68
-            LinesBefore  = @(
-                'Aruji-sama, the spring holidays are approaching. Let us prepare our equipment for restful travels. 🌿'
-                'Aruji-sama, Golden Week draws near. I have tidied our translation files ahead of the holidays. ✨'
+            Id          = 'AnimeS1'
+            Month       = 4
+            Day         = 7
+            DaysBefore  = 0
+            DaysAfter   = 3
+            Priority    = 93
+            Lines = @(
+                'Aruji-sama, today is the anniversary of the Princess Connect! anime Season 1 premiere! So many memories since that first episode. 🎬'
+                'Aruji-sama, happy anniversary of the anime''s very first episode! I still remember how much anticipation there was. ✨'
+                'Aruji-sama, it was on this day that our anime story first graced the screen. I am glad you were part of it. 🌸'
+                'Aruji-sama, the Season 1 anime premiered on this date. Every episode held something new and wonderful. 🎬'
+                'Aruji-sama, another year since the Princess Connect! anime began! I cherish every chapter it brought to life. 🌸'
+                'Aruji-sama, today marks the anime''s Season 1 anniversary. Shall we look back on the beginning together? ✨'
             )
-            Lines        = @(
-                'Aruji-sama, Happy Golden Week! May your holidays be filled with peaceful adventures across Astraea. ✨'
-                'Aruji-sama, please enjoy a restful holiday while reviewing the newest translation updates below. 🌿'
+            LinesAfter = @(
+                'Aruji-sama, the Season 1 anime premiere anniversary was just the other day. Its warmth lingers. 🎬'
+                'Aruji-sama, we are still within the glow of the Season 1 anniversary. What wonderful memories. ✨'
+                'Aruji-sama, the anime premiere anniversary echoes a little while longer. I am grateful for the story it told. 🌸'
             )
-            LinesAfter   = @(
-                'Aruji-sama, I hope you are enjoying the spring holiday season. Here is a fresh update for your journey. 🌸'
-                'Aruji-sama, everything remains in good order during these pleasant holiday days. ✨'
-            )
-            NoteBefore   = 'Incidentally, the Golden Week holidays draw near. 🌿'
-            Note         = 'Today is also part of the Golden Week holidays. 🌿'
-            NoteAfter    = 'I hope your Golden Week holidays remain restful. 🌿'
+            Note       = 'Incidentally, today is the Season 1 anime premiere anniversary! 🎬'
+            NoteAfter  = 'Incidentally, the Season 1 anime anniversary was very recently. 🎬'
         }
         @{
-            Name         = 'Hanami'
-            Month        = 3
-            Day          = 25
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 64
-            LinesBefore  = @(
-                'Aruji-sama, the cherry blossom buds are about to open. Spring will soon be in full bloom. 🌸'
-                'Aruji-sama, blossom season draws near. Perhaps we may enjoy a quiet tea break once the flowers open. 🍵'
+            Id          = 'GoldenWeek'
+            Month       = 5
+            Day         = 3
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 72
+            LinesBefore = @(
+                'Aruji-sama, the spring holidays are approaching. Let us prepare our gear for restful travels. 🌿'
+                'Aruji-sama, Golden Week draws near. I hope you are planning some well-earned rest. 🌸'
+                'Aruji-sama, the holiday season approaches. Landosol feels lighter already. ✨'
             )
-            Lines        = @(
-                'Aruji-sama, the cherry blossoms are blooming softly. Perhaps we can enjoy a brief rest after updating. 🌸'
-                'Aruji-sama, spring petals dance upon the gentle breeze today. Here is the latest update for your journey. 🌸'
+            Lines = @(
+                'Aruji-sama, Happy Golden Week! May your holidays be filled with peaceful adventures in Landosol. ✨'
+                'Aruji-sama, Golden Week has begun! I hope you can rest between our guild''s expeditions. 🌿'
+                'Aruji-sama, Happy Golden Week! Even the sky over Astraea seems a little brighter today. 🌸'
+                'Aruji-sama, the holidays are here. I have prepared everything neatly so you may rest without worry. ✨'
+                'Aruji-sama, Happy Golden Week across Landosol! May every day hold something pleasant. 🌿'
+                'Aruji-sama, it is Golden Week! Please take good care of yourself during the break. 🌸'
             )
-            LinesAfter   = @(
-                'Aruji-sama, drifting cherry petals still adorn the paths today. Please check the newest notes below. 🌸'
-                'Aruji-sama, the serene beauty of spring accompanies today''s fresh translation update. ✨'
+            LinesAfter = @(
+                'Aruji-sama, I hope you are enjoying the holiday season. Here is a fresh update for your journey. 🌸'
+                'Aruji-sama, Golden Week continues. I hope the rest has been restorative. 🌿'
+                'Aruji-sama, the holidays linger a little longer. Please take what rest you can. ✨'
             )
-            NoteBefore   = 'Incidentally, the cherry blossoms will soon reach full bloom. 🌸'
-            Note         = 'The cherry blossoms are in lovely bloom today. 🌸'
-            NoteAfter    = 'Drifting cherry petals still grace the breeze today. 🌸'
+            NoteBefore = 'Incidentally, the Golden Week holidays begin soon. 🌿'
+            Note       = 'Incidentally, wishing you a restful Golden Week, Aruji-sama. 🌿'
+            NoteAfter  = 'Incidentally, I hope your Golden Week travels are going smoothly. 🌿'
         }
         @{
-            Name         = 'Obon'
-            Month        = 8
-            Day          = 15
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 60
-            LinesBefore  = @(
+            Id          = 'Tanabata'
+            Month       = 7
+            Day         = 7
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 75
+            LinesBefore = @(
+                'Aruji-sama, Tanabata approaches. Have you thought of a wish to write upon a paper strip? 🎋'
+                'Aruji-sama, the Star Festival is almost here. I am preparing paper strips for wishes. 🎋'
+                'Aruji-sama, Tanabata draws near. The bamboo in the courtyard has been decorated already. ✨'
+            )
+            Lines = @(
+                'Aruji-sama, it is Tanabata tonight. I wrote a wish upon a strip of paper for your well-being. 🎋'
+                'Aruji-sama, happy Tanabata! The stars seem especially bright over Landosol this evening. 🌟'
+                'Aruji-sama, it is the Star Festival tonight. I hung a wish for your continued health and happiness. 🎋'
+                'Aruji-sama, Tanabata is here! I hope your wish reaches the stars. 🌟'
+                'Aruji-sama, the bamboo is adorned with wishes tonight. I added one for your safe journey. 🎋'
+                'Aruji-sama, Tanabata arrives on the wings of summer wind. The stars above Astraea shine bright. ✨'
+            )
+            LinesAfter = @(
+                'Aruji-sama, may the stars of Tanabata continue to watch over our travels across Landosol. ✨'
+                'Aruji-sama, Tanabata has passed but I hope your wish was heard by the stars. 🌟'
+                'Aruji-sama, the summer night after Tanabata still carries a certain quiet magic. 🎋'
+            )
+            NoteBefore = 'Incidentally, the Star Festival of Tanabata draws near. 🎋'
+            Note       = 'Incidentally, tonight is the Star Festival of Tanabata. 🎋'
+            NoteAfter  = 'Incidentally, the summer stars remain bright after Tanabata. 🎋'
+        }
+        @{
+            Id          = 'Obon'
+            Month       = 8
+            Day         = 15
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 72
+            LinesBefore = @(
                 'Aruji-sama, the midsummer lantern season draws near. Please take good care in the summer heat. 🏮'
-                'Aruji-sama, gentle summer lanterns will soon be lit. Remember to rest well and stay hydrated. 🍵'
+                'Aruji-sama, lanterns are being prepared across town. The midsummer festival is almost here. 🏮'
+                'Aruji-sama, please stay hydrated as the midsummer ceremonies approach. 🌊'
             )
-            Lines        = @(
-                'Aruji-sama, the midsummer lantern season is here. Please take good care of yourself in the heat. 🏮'
-                'Aruji-sama, gentle lanterns glow warmly today. I have prepared a new update for you below. ✨'
+            Lines = @(
+                'Aruji-sama, the midsummer lanterns glow tonight. Please stay cool while checking this update. 🏮'
+                'Aruji-sama, it is the midsummer festival tonight. Warm light drifts across the water. 🏮'
+                'Aruji-sama, the lanterns are lit across Landosol tonight. I hope the season treats you gently. ✨'
+                'Aruji-sama, it is the midsummer ceremony. I prepared cold water and a fan for you. 🌊'
+                'Aruji-sama, festival lanterns glow across the town tonight. Please do not overexert yourself. 🏮'
+                'Aruji-sama, the summer night is warm and the lanterns are bright. Here is the newest update. ✨'
             )
-            LinesAfter   = @(
-                'Aruji-sama, the warm glow of the summer lanterns still lingers. Here is today''s update report. 🏮'
-                'Aruji-sama, please continue to stay cool and well-rested while checking the latest changes. ✨'
+            LinesAfter = @(
+                'Aruji-sama, gentle evening lanterns still linger this season. I have prepared a new update. ✨'
+                'Aruji-sama, the midsummer festival has passed. Please continue to stay cool. 🏮'
+                'Aruji-sama, please stay hydrated in this lingering summer warmth. 🌊'
             )
-            NoteBefore   = 'Incidentally, the midsummer lantern season draws near. 🏮'
-            Note         = 'Today marks the midsummer lantern festival. 🏮'
-            NoteAfter    = 'The gentle glow of the summer lanterns lingers today. 🏮'
+            NoteBefore = 'Incidentally, the midsummer lantern festival begins soon. 🏮'
+            Note       = 'Incidentally, warm festival lanterns are lit across town tonight. 🏮'
+            NoteAfter  = 'Incidentally, please stay hydrated in this lingering summer warmth. 🏮'
         }
         @{
-            Name         = 'Tsukimi'
-            Month        = 9
-            Day          = 15
-            WindowBefore = 3
-            WindowAfter  = 1
-            Priority     = 56
-            LinesBefore  = @(
-                'Aruji-sama, the autumn harvest moon will soon be full. Shall I prepare some rice dumplings? 🌕'
-                'Aruji-sama, moon-viewing season approaches. Clear autumn skies await us soon. ✨'
+            Id          = 'Tsukimi'
+            Month       = 9
+            Day         = 15
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 72
+            LinesBefore = @(
+                'Aruji-sama, the autumn harvest moon will soon be full. Shall we prepare some rice dumplings? 🌕'
+                'Aruji-sama, the moon-viewing season draws near. The evenings are growing crisp and clear. 🌕'
+                'Aruji-sama, Tsukimi approaches. I have set aside dumplings for the occasion. ✨'
             )
-            Lines        = @(
-                'Aruji-sama, the autumn harvest moon shines brightly. Let us review the latest updates calmly. 🌕'
-                'Aruji-sama, a serene moonlit season greets us. Please check the newest translation notes below. ✨'
+            Lines = @(
+                'Aruji-sama, the autumn harvest moon shines brightly tonight. Let us review the updates calmly. 🌕'
+                'Aruji-sama, it is Tsukimi tonight. The moon over Landosol is especially beautiful. 🌕'
+                'Aruji-sama, the harvest moon is full and clear this evening. I prepared dumplings for us both. 🌕'
+                'Aruji-sama, happy Tsukimi! The autumn air is calm and the moon is perfect. ✨'
+                'Aruji-sama, moon-viewing night has arrived. I cannot think of a better companion to enjoy it with. 🌕'
+                'Aruji-sama, the full harvest moon rises over Astraea. Even Kyaru-sama stepped outside to look. 🌕'
             )
-            LinesAfter   = @(
-                'Aruji-sama, the tranquil autumn moonlight remains lovely. Here is today''s update summary. 🌕'
-                'Aruji-sama, following our peaceful moon viewing, everything is neatly arranged for you below. ✨'
+            LinesAfter = @(
+                'Aruji-sama, the serene autumn moonlight remains lovely. Please check the newest notes below. ✨'
+                'Aruji-sama, Tsukimi has passed but the autumn moon lingers on. 🌕'
+                'Aruji-sama, the crisp autumn moonlight still lingers softly. ✨'
             )
-            NoteBefore   = 'Incidentally, the autumn harvest moon will soon be full. 🌕'
-            Note         = 'Today is also the autumn moon-viewing festival. 🌕'
-            NoteAfter    = 'The tranquil autumn harvest moon lingers on. 🌕'
+            NoteBefore = 'Incidentally, the autumn moon-viewing evening approaches. 🌕'
+            Note       = 'Incidentally, the harvest moon is especially clear tonight. 🌕'
+            NoteAfter  = 'Incidentally, the crisp autumn moonlight still lingers softly. 🌕'
+        }
+        @{
+            Id          = 'Halloween'
+            Month       = 10
+            Day         = 31
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 80
+            LinesBefore = @(
+                'Aruji-sama, Halloween is drawing near. Festive autumn decorations are appearing everywhere. 🎃'
+                'Aruji-sama, pumpkin lanterns are starting to appear around Landosol. Halloween approaches. 🎃'
+                'Aruji-sama, the guild has become a little more atmospheric lately. Halloween must be near. 🍂'
+            )
+            Lines = @(
+                'Aruji-sama, tonight is Halloween. Even among playful spirits, your faithful guide is right beside you. 🎃'
+                'Aruji-sama, Happy Halloween! The night is a little spooky but I am here to light the way. 🎃'
+                'Aruji-sama, Halloween has arrived! Kyaru-sama looks unusually pleased—I do not think it is coincidence. 🐱'
+                'Aruji-sama, it is Halloween tonight. I am not afraid of spirits, but I will stay close just in case. 🎃'
+                'Aruji-sama, Happy Halloween across Landosol! The festival lanterns are beautiful even when spooky. ✨'
+                'Aruji-sama, ghosts and guilds share one thing tonight: they both need a good organizer. Happy Halloween! 🎃'
+            )
+            LinesAfter = @(
+                'Aruji-sama, Halloween night has passed peacefully. Here is today''s latest translation update. 🍂'
+                'Aruji-sama, the Halloween spirits have quieted. I hope you slept soundly. 🎃'
+                'Aruji-sama, autumn deepens after Halloween. Here is the newest patch. 🍂'
+            )
+            NoteBefore = 'Incidentally, Halloween festivities arrive very soon. 🎃'
+            Note       = 'Incidentally, Happy Halloween, Aruji-sama. 🎃'
+            NoteAfter  = 'Incidentally, I hope you had a pleasant Halloween evening. 🎃'
+        }
+        @{
+            Id          = 'Christmas'
+            Month       = 12
+            Day         = 25
+            DaysBefore  = 3
+            DaysAfter   = 1
+            Priority    = 88
+            LinesBefore = @(
+                'Aruji-sama, Christmas is almost here! Winter lights are twinkling brightly across town. 🎄'
+                'Aruji-sama, the guild has been decorated for Christmas. It feels warm and festive inside. 🎄'
+                'Aruji-sama, Christmas approaches! I have prepared a small seasonal arrangement for the guildhall. ✨'
+            )
+            Lines = @(
+                'Aruji-sama, Merry Christmas! Please stay warm while we enjoy this peaceful winter celebration. 🎄'
+                'Aruji-sama, Merry Christmas across Landosol! Even the snow over Geo Gehenna seems gentler tonight. 🎄'
+                'Aruji-sama, it is Christmas! The guildhall is lit and warm. I hope your evening is the same. ✨'
+                'Aruji-sama, Merry Christmas! I prepared warm cocoa and the latest patch, in that order. 🍫'
+                'Aruji-sama, Christmas has come to Astraea. I am glad to spend it in service to you. 🎄'
+                'Aruji-sama, Merry Christmas! Even Kyaru-sama wore a small ribbon today. I noticed. 🐱'
+            )
+            LinesAfter = @(
+                'Aruji-sama, I hope you had a wonderful Christmas. Here is a fresh update to end the year well. ✨'
+                'Aruji-sama, the Christmas season lingers warmly. Please rest well as the year closes. 🎄'
+                'Aruji-sama, festive winter lights still glow warmly across town. ✨'
+            )
+            NoteBefore = 'Incidentally, Christmas is just around the corner. 🎄'
+            Note       = 'Incidentally, Merry Christmas, Aruji-sama. 🎄'
+            NoteAfter  = 'Incidentally, festive winter lights still glow warmly across town. 🎄'
         }
     )
-    Seasons         = @(
-        @{
-            Name   = 'Spring'
-            Months = @(3, 4, 5)
-            Lines  = @(
-                'Aruji-sama, a gentle spring breeze accompanies today''s update. Let us review what is new. 🌸'
-                'Aruji-sama, the warmth of spring has arrived in Landosol. I have organized the latest changes below. ✨'
-                'Aruji-sama, fresh spring blossoms brighten our path across Astraea today. Please review the new notes. 🌸'
-                'Aruji-sama, I gathered fresh spring herbs at the Landosol market before tidying today''s update files. 🌿'
-                'Aruji-sama, Pecorine-sama is already eager for a spring picnic, so I prepared provisions and this patch. 🍙'
-                'Aruji-sama, mild spring weather greets the Gourmet Guild today. Here is the latest translation report. ✨'
-            )
-        }
-        @{
-            Name   = 'Summer'
-            Months = @(6, 7, 8)
-            Lines  = @(
-                'Aruji-sama, please remember to stay hydrated in this summer weather while checking the new update. ☀️'
-                'Aruji-sama, bright summer skies greet Landosol today. Here is the latest report on our progress. ✨'
-                'Aruji-sama, I have prepared chilled tea for the guild while organizing today''s translation updates. 🍵'
-                'Aruji-sama, even under the warm summer sun, our journey across Astraea continues smoothly. 🌻'
-                'Aruji-sama, Kyaru-sama insisted she was fine in the heat, though she gladly accepted a cold drink. 🐱'
-                'Aruji-sama, please rest in the shade for a moment as you look over today''s newest changes. ✨'
-            )
-        }
-        @{
-            Name   = 'Autumn'
-            Months = @(9, 10, 11)
-            Lines  = @(
-                'Aruji-sama, the crisp autumn air feels refreshing today. I have prepared the latest update report. 🍂'
-                'Aruji-sama, calm autumn days have arrived in Landosol. Please review the newly updated files below. ✨'
-                'Aruji-sama, the autumn harvest has filled the market with fine ingredients for the Gourmet Guild. 🍠'
-                'Aruji-sama, golden leaves drift across Astraea today. I have gathered the latest translation notes for you. 🍁'
-                'Aruji-sama, Pecorine-sama has been eyeing the autumn chestnuts, while I prepared this update for you. 🌰'
-                'Aruji-sama, cool autumn breezes make travel pleasant. Here is a summary of what has been refined. ✨'
-            )
-        }
-        @{
-            Name   = 'Winter'
-            Months = @(12, 1, 2)
-            Lines  = @(
-                'Aruji-sama, please keep yourself warm in this chilly weather while I present today''s update. ❄️'
-                'Aruji-sama, a quiet winter day brings another step forward. Here are the latest release notes. ✨'
-                'Aruji-sama, I have simmering stew ready in the guild kitchen so everyone stays warm in Landosol. 🍲'
-                'Aruji-sama, Sheffy-sama seems right at home in this crisp winter air. Please review today''s update. ❄️'
-                'Aruji-sama, though winter winds blow across Astraea, your faithful guide has everything in order. 🧣'
-                'Aruji-sama, please enjoy a warm cup of tea while looking through the latest translation changes. 🍵'
-            )
-        }
-    )
-    Context         = @{
-        Critical    = @(
-            'Aruji-sama, please read the critical config notice below carefully before applying this update. ⚠️'
+
+    # Context-Sensitive Pools (checked when no higher-priority calendar/birthday main greeting applies)
+    Context = @{
+        Critical = @(
             'Aruji-sama, important configuration changes require your attention before you launch the game. ⚠️'
+            'Aruji-sama, critical settings have been updated—please review the configuration notice carefully. ⚠️'
+            'Aruji-sama, your configuration files have changed in ways that require a manual review. ⚠️'
+            'Aruji-sama, before you begin, please note that critical settings need your attention today. ⚠️'
         )
         Maintenance = @(
-            'Aruji-sama, only quiet housekeeping was performed this time — no translation changes were needed. 🍃'
-            'Aruji-sama, everything remains calm and orderly; this is a routine maintenance release. ✨'
+            'Aruji-sama, only quiet housekeeping was performed this time. 🍃'
+            'Aruji-sama, this is a maintenance release with no translation changes. 🍵'
+            'Aruji-sama, no translation files were changed this time—only internal tidying. 🍃'
+            'Aruji-sama, all is calm in Landosol today. This is a maintenance release. 🍵'
         )
-        NewStory    = @(
-            'Aruji-sama, new story chapters have arrived! Shall we read through the latest tales together? 📖'
-            'Aruji-sama, fresh story translations are ready for you to experience at your leisure. ✨'
-            'Aruji-sama, another chapter of our journey across Astraea and the other worlds has been translated. 📜'
-        )
-        Plugin      = @(
-            'Aruji-sama, plugin components have been updated to keep our tools running smoothly. 🔧'
-            'Aruji-sama, I have prepared a summary of the latest plugin improvements for your setup. ✨'
-        )
-        Major       = @(
+        Major = @(
             'Aruji-sama, a substantial batch of translations has arrived! Please take your time reviewing it. 📚'
-            'Aruji-sama, we made great strides today — many files have been newly translated and refined. ✨'
+            'Aruji-sama, we made great strides today—many files have been newly translated and refined. ✨'
+            'Aruji-sama, this is a large update. Please find a comfortable seat before you begin reviewing. 📚'
+            'Aruji-sama, an impressive number of files have changed today. I organised them as clearly as I could. ✨'
         )
-        Texture     = @(
-            'Aruji-sama, fresh visual and interface textures have been polished to make your screen clearer. 🖼️'
-            'Aruji-sama, newly translated graphics are ready so every banner and menu feels right at home. ✨'
+        NewStory = @(
+            'Aruji-sama, new story chapters have arrived! Shall we read through the latest tales together? 📖'
+            'Aruji-sama, another chapter of our journey across Astraea has been translated for you. 🌸'
+            'Aruji-sama, fresh story content awaits! I have arranged it neatly for your reading. 📖'
+            'Aruji-sama, new story translations are ready. I look forward to experiencing them with you. 🌸'
         )
-        Default     = @(
-            'Aruji-sama, Pecorine-sama has already asked what is for supper. I shall prepare enough for everyone. 🍲'
-            'Aruji-sama, the market in Landosol is lively today. I have gathered fresh ingredients for the guild. 🥕'
-            'Aruji-sama, Kyaru-sama insists she has no interest in sweets, yet she lingered by the kitchen. 🍰'
+        Texture = @(
+            'Aruji-sama, fresh visual and UI textures have been polished to make your screen clearer. 🖼️'
+            'Aruji-sama, new translated graphics are ready so every banner and button feels right at home. ✨'
+            'Aruji-sama, the textures in this update will make the UI feel much more natural. 🖼️'
+            'Aruji-sama, fresh graphics have been prepared. Every translated banner makes Landosol feel like home. ✨'
+        )
+        Default = @(
             'Aruji-sama, our journey across Astraea continues. Please allow me to see to your preparations. 🌿'
-            'Aruji-sama, I have packed provisions for the road ahead. Please rest before we set out. 🎒'
-            'Aruji-sama, Sheffy-sama asked about the stars again. The zodiac tales weigh on my mind. ✨'
-            'Aruji-sama, whether our path leads through Geo Gehenna, Geo Teogonia, or other worlds, I remain by your side. 🌸'
-            'Aruji-sama, from Elpis Demonfront to Alshat Temptation, I shall faithfully record every step of our journey. 📜'
+            'Aruji-sama, the market in Landosol is lively today. I have gathered fresh ingredients for the guild. 🧺'
+            'Aruji-sama, whether our path leads toward Geo Gehenna or Geo Teogonia, I remain by your side. 🍃'
+            'Aruji-sama, from Elpis Demonfront to Alshat Temptation, every chronicle is kept neat for you. 📖'
+            'Aruji-sama, even when princesses from other worlds visit Landosol, your translation files stay tidy. ✨'
+            'Aruji-sama, beneath the guidance of the zodiac, I have prepared today''s latest translation notes. 🌟'
+            'Aruji-sama, have you eaten well today? Please take a short break while reviewing the update. 🍵'
+            'Aruji-sama, a new update has arrived. Please check the details below at your leisure. ✨'
+        )
+    }
+
+    # Seasonal Pools (fallback flavor lines blended with Default pool)
+    Seasons = @{
+        Spring = @(
+            'Aruji-sama, a gentle spring breeze blows across Landosol as today''s update arrives. 🌸'
+            'Aruji-sama, spring sunlight warms the guildhall while I organize the latest translation notes. 🌷'
+        )
+        Summer = @(
+            'Aruji-sama, please stay cool and hydrated in the summer sun while checking today''s update. ☀️'
+            'Aruji-sama, clear summer skies stretch over Astraea today. Here is the newest patch. 🌊'
+        )
+        Autumn = @(
+            'Aruji-sama, crisp autumn winds carry falling leaves across Landosol. Please review today''s update. 🍂'
+            'Aruji-sama, the harvest season brings calm evenings—ideal for reading newly translated chapters. 🍁'
+        )
+        Winter = @(
+            'Aruji-sama, winter air is chilly today, so please keep warm while reviewing the latest update. ❄️'
+            'Aruji-sama, I have prepared warm tea at the guildhall alongside today''s translation notes. 🍵'
         )
     }
 }

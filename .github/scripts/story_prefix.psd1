@@ -1,14 +1,16 @@
-# Root hashtable mapping the leading digit of storydata_<digit>xxxxxx IDs
 @{
+    # Folder-name prefixes under RedirectedResources -> readable group titles.
+    # NOTE: [ordered] is NOT allowed (Import-PowerShellDataFile rejects it).
+    # These match FOLDER names only. Files sitting at the RedirectedResources root
+    # fall into group "General"; digit-based storydata labeling needs a code change.
     Prefixes = @{
-        '0' = 'Main Story'
-        '1' = 'Character Story'
-        '2' = 'Event Story'
-        '3' = 'Story (3xxxxxx)'
-        '4' = 'Story (4xxxxxx)'
-        '5' = 'Story (5xxxxxx)'
-        '6' = 'Story (6xxxxxx)'
-        '7' = 'Story (7xxxxxx)'
-        '9' = 'Story (9xxxxxx)'
+        'storydata'   = 'Story Data'
+        'chara'       = 'Character Stories'
+        'main'        = 'Main Story'
+        'event'       = 'Event Stories'
+        'guild'       = 'Guild Stories'
+        'tower'       = 'Tower of Luna'
+        'birthday'    = 'Birthday Episodes'
+        'anniversary' = 'Anniversary Specials'
     }
 }

@@ -1,179 +1,289 @@
-name: Create new release
+name: Windows Release
 
+# The "push: tags" trigger was removed on purpose: `gh release create` creates a
+# tag, which used to re-trigger this same workflow (double packaging + double
+# Discord post). Releases are started manually from the Actions tab.
 on:
   workflow_dispatch:
     inputs:
-      release_note_smallnote:
-        type: string
-        description: Small note above download button
+      release_tag:
+        description: 'Release tag (e.g. 20261120 or 20261120a; auto-generated in WIB if blank)'
         required: false
-      release_note_download:
-        type: boolean
-        description: Show download button
-        required: true
-        default: true
-      release_note_changelog:
-        type: boolean
-        description: Show changelog
-        required: true
-        default: true
-      release_note_compare:
-        type: boolean
-        description: Show compare link
-        required: true
-        default: true
+        default: ''
+      previous_tag:
+        description: 'Previous tag for diff comparison (auto-detected if blank)'
+        required: false
+        default: ''
       kokkoro_message:
-        type: string
-        description: Kokkoro's Message (leave 'auto' for dynamic greeting, or type custom text)
+        description: 'Kokkoro greeting override (leave as "auto" for dynamic greeting)'
         required: false
-        default: auto
+        default: 'auto'
+      release_note_smallnote:
+        description: 'Optional extra note appended above the changelog'
+        required: false
+        default: ''
       test_mode:
+        description: 'Dry run (generate notes & ZIP without publishing GitHub Release or Discord)'
         type: boolean
-        description: Test mode (dry run without publishing release or Discord announcement)
-        required: true
+        required: false
         default: false
 
+permissions:
+  contents: write
+
 concurrency:
-  group: release
+  group: priconne-release
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: pwsh
-
 jobs:
-  build:
-    name: Windows release
+  windows-release:
     runs-on: windows-latest
-    outputs:
-      kokkoro_greeting: ${{ steps.changes.outputs.kokkoro_greeting }}
-      changes: ${{ steps.changes.outputs.discord_changes }}
+    env:
+      # The "secrets" context is NOT allowed inside an `if:` expression.
+      # It must be mapped to a job-level env var first, then tested as a string.
+      HAS_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK != '' }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Preparing
-        run: |
-          & .\.github\scripts\initialize.ps1
-
-      - name: Add small note
-        if: inputs.release_note_smallnote != ''
+      - name: Resolve release & previous tags (WIB + reachability)
+        id: meta
+        shell: pwsh
         env:
+          INPUT_TAG: ${{ inputs.release_tag }}
+          INPUT_PREV: ${{ inputs.previous_tag }}
+          EVENT_NAME: ${{ github.event_name }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          # git exits non-zero for normal "not found" cases; do not let PS 7.4
+          # turn that into a terminating error.
+          $PSNativeCommandUseErrorActionPreference = $false
+
+          $tz = [System.TimeZoneInfo]::FindSystemTimeZoneById('SE Asia Standard Time')
+          $nowWib = [System.TimeZoneInfo]::ConvertTimeFromUtc([DateTime]::UtcNow, $tz)
+
+          $inputTag  = ([string]$env:INPUT_TAG).Trim()
+          $inputPrev = ([string]$env:INPUT_PREV).Trim()
+          $eventName = ([string]$env:EVENT_NAME).Trim()
+          $refName   = ([string]$env:REF_NAME).Trim()
+
+          if ($eventName -eq 'workflow_dispatch' -and -not [string]::IsNullOrWhiteSpace($inputTag)) {
+              $tag = $inputTag
+          } elseif ($eventName -eq 'push') {
+              $tag = $refName
+          } else {
+              # Pick the first candidate that does NOT exist yet.
+              # Counting existing tags could re-issue a tag after one was deleted.
+              $base = $nowWib.ToString('yyyyMMdd')
+              $candidates = @($base) + @([char[]](97..122) | ForEach-Object { "$base$_" })
+              $tag = $candidates |
+                  Where-Object { @(git tag -l $_).Count -eq 0 } |
+                  Select-Object -First 1
+              if ([string]::IsNullOrWhiteSpace($tag)) {
+                  throw 'More than 27 releases in a single day. Clean up old tags first.'
+              }
+          }
+
+          $prev = $inputPrev
+          if ([string]::IsNullOrWhiteSpace($prev)) {
+              # Reachability first. --exclude skips the active tag on re-runs,
+              # so no HEAD~1 workaround is needed.
+              $desc = & git describe --tags --abbrev=0 `
+                  --match '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]*' `
+                  --exclude="$tag" HEAD 2>$null
+              if ($LASTEXITCODE -eq 0 -and $null -ne $desc) {
+                  $first = @($desc)[0]
+                  if (-not [string]::IsNullOrWhiteSpace([string]$first)) {
+                      $prev = ([string]$first).Trim()
+                  }
+              }
+          }
+          if ([string]::IsNullOrWhiteSpace($prev)) {
+              # Fallback: newest creator date first, tag name descending as tie-break
+              # (20261120b > 20261120a > 20261120 when they share one commit).
+              $fallbackTags = @(git for-each-ref --sort=-refname --sort=-creatordate `
+                  --format='%(refname:short)' refs/tags |
+                  Where-Object { $_ -match '^\d{8}[a-z]?$' -and $_ -ne $tag })
+              if ($fallbackTags.Count -gt 0) {
+                  $prev = ([string]$fallbackTags[0]).Trim()
+              }
+          }
+
+          Write-Host "Release tag : $tag"
+          Write-Host "Previous tag: $prev"
+
+          "tag=$tag"     | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "prev=$prev"   | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "title=Priconne UI EN DMM v$tag" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+
+      - name: Build release note & changelog
+        shell: pwsh
+        env:
+          RELEASE_TAG: ${{ steps.meta.outputs.tag }}
+          PREVIOUS_TAG: ${{ steps.meta.outputs.prev }}
+          RELEASE_TITLE: ${{ steps.meta.outputs.title }}
           SMALL_NOTE: ${{ inputs.release_note_smallnote }}
+          REPO_SLUG: ${{ github.repository }}
         run: |
-          $rnPath = Join-Path (Get-Location).Path 'RELEASE_NOTE'
-          [System.IO.File]::AppendAllText($rnPath, "$env:SMALL_NOTE`r`n", [System.Text.UTF8Encoding]::new($false))
+          $ErrorActionPreference = 'Stop'
+          $zipName = "PriconneTL_$env:RELEASE_TAG.zip"
+          $zipUrl  = "https://github.com/$env:REPO_SLUG/releases/download/$env:RELEASE_TAG/$zipName"
 
-      - name: Create download button
-        if: inputs.release_note_download
-        run: |
-          $rnPath = Join-Path (Get-Location).Path 'RELEASE_NOTE'
-          $btn = "|[Download](https://github.com/ImaterialC/PriconneRe-TL/releases/download/$env:RELEASE_TAG/PriconneTL_$env:RELEASE_TAG.zip)|`r`n|-|`r`n"
-          [System.IO.File]::AppendAllText($rnPath, $btn, [System.Text.UTF8Encoding]::new($false))
-          Write-Output "::group::Release Note"
-          Get-Content -LiteralPath $rnPath -Raw
-          Write-Output "::endgroup::"
+          $header = [System.Collections.ArrayList]::new()
+          [void]$header.Add('# Download')
+          [void]$header.Add('Choose a version:')
+          [void]$header.Add("|[Download]($zipUrl)|")
+          [void]$header.Add('|-|')
+          if (-not [string]::IsNullOrWhiteSpace($env:SMALL_NOTE)) {
+              [void]$header.Add('')
+              [void]$header.Add(([string]$env:SMALL_NOTE).Trim())
+          }
+          Set-Content -LiteralPath './RELEASE_NOTE' -Value (($header -join "`r`n") + "`r`n") -Encoding utf8
 
-      - name: Generating changelog
-        if: inputs.release_note_changelog
-        run: |
           & .\.github\scripts\make_changelog.ps1
 
-      - name: Generating changelog in Discord format
-        id: changes
+      - name: Build Kokkoro greeting & Discord announcement
+        id: announce
+        shell: pwsh
         env:
-          KOKKORO_MESSAGE: ${{ inputs.kokkoro_message }}
+          RELEASE_TAG: ${{ steps.meta.outputs.tag }}
+          PREVIOUS_TAG: ${{ steps.meta.outputs.prev }}
+          RELEASE_TITLE: ${{ steps.meta.outputs.title }}
+          CUSTOM_GREETING: ${{ inputs.kokkoro_message }}
+          DISCORD_ROLE_MENTION: '<@&1349491054214385816>'
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
+          $ErrorActionPreference = 'Stop'
           & .\.github\scripts\make_announce.ps1
 
-      - name: Create compare link
-        if: inputs.release_note_compare && env.PREVIOUS_TAG != ''
+      # Restored: v9 dropped this step, so the shipped ZIP kept saying
+      # "Pre-release" in-game instead of the actual release tag.
+      # Runs AFTER the changelog and BEFORE packaging.
+      - name: Stamp version file
+        shell: pwsh
+        env:
+          RELEASE_TAG: ${{ steps.meta.outputs.tag }}
         run: |
-          $rnPath = Join-Path (Get-Location).Path 'RELEASE_NOTE'
-          $cmp = "`r`n`r`n**Full Changelog:** https://github.com/ImaterialC/PriconneRe-TL/compare/$env:PREVIOUS_TAG...$env:RELEASE_TAG"
-          [System.IO.File]::AppendAllText($rnPath, $cmp, [System.Text.UTF8Encoding]::new($false))
+          $ErrorActionPreference = 'Stop'
+          $verPath = Join-Path (Get-Location).ProviderPath 'src/BepInEx/Translation/en/Text/Version.txt'
+          if (-not (Test-Path -LiteralPath $verPath)) {
+              Write-Warning "Version file not found: $verPath"
+              return
+          }
+          $raw = Get-Content -LiteralPath $verPath -Raw -Encoding utf8
+          if ($raw -notmatch 'Pre-release') {
+              Write-Warning "Token 'Pre-release' not found in Version.txt; leaving it unchanged."
+          } else {
+              $updated = $raw.Replace('Pre-release', $env:RELEASE_TAG)
+              [System.IO.File]::WriteAllText($verPath, $updated, [System.Text.UTF8Encoding]::new($false))
+              Write-Host "Stamped Version.txt with $env:RELEASE_TAG"
+          }
 
-      - name: Upload test-mode preview artifacts
-        if: inputs.test_mode == true
+      - name: Package release ZIP with 7-Zip (under 2 GB check)
+        shell: pwsh
+        env:
+          RELEASE_TAG: ${{ steps.meta.outputs.tag }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $PSNativeCommandUseErrorActionPreference = $false
+
+          if (-not (Get-Command 7z -ErrorAction SilentlyContinue)) {
+              throw '7z was not found on this runner.'
+          }
+
+          $zipPath = Join-Path (Get-Location).ProviderPath "PriconneTL_$env:RELEASE_TAG.zip"
+          if (Test-Path -LiteralPath $zipPath) {
+              Remove-Item -LiteralPath $zipPath -Force
+          }
+
+          # Archive the CONTENTS of src/ so BepInEx/, dotnet/, ... sit at the ZIP
+          # root, exactly like the old Compress-Archive layout.
+          Push-Location -LiteralPath './src'
+          try {
+              & 7z a -tzip -mx=5 $zipPath '*' `
+                  '-xr!*.rar' '-xr!*.7z' '-xr!*.zip' '-xr!*.psd' `
+                  '-xr!*.bak*' '-xr!*.tmp' `
+                  '-xr!New folder' '-xr![Dump]' '-xr!Template' `
+                  '-xr!_AutoGeneratedTranslations*'
+              if ($LASTEXITCODE -ne 0) {
+                  throw "7z packaging failed with exit code $LASTEXITCODE"
+              }
+          } finally {
+              Pop-Location
+          }
+
+          $zipInfo = Get-Item -LiteralPath $zipPath
+          $maxBytes = 2147483648L
+          if ($zipInfo.Length -ge $maxBytes) {
+              throw "Release archive is $($zipInfo.Length) bytes, exceeding GitHub's 2 GB asset limit."
+          }
+          Write-Host "Packaged $zipPath ($([Math]::Round($zipInfo.Length / 1MB, 2)) MB)"
+
+      - name: Upload dry-run artifacts (test_mode)
+        if: ${{ inputs.test_mode }}
         uses: actions/upload-artifact@v4
         with:
-          name: release-preview-${{ env.RELEASE_TAG }}
+          name: release-dry-run-${{ steps.meta.outputs.tag }}
+          if-no-files-found: warn
           path: |
             RELEASE_NOTE
             CHANGES.json
-          if-no-files-found: warn
+          # Text only. Uncomment the next line if you also want the multi-GB ZIP:
+          # PriconneTL_${{ steps.meta.outputs.tag }}.zip
 
-      - name: Generating artifact
-        run: |
-          $verPath = Join-Path (Get-Location).Path "src/BepInEx/Translation/en/Text/Version.txt"
-          if (Test-Path -LiteralPath $verPath) {
-              $verRaw = Get-Content -LiteralPath $verPath -Raw -Encoding utf8
-              if ($verRaw -notmatch 'Pre-release') {
-                  Write-Warning "Token 'Pre-release' not found in $verPath"
-              }
-              $verUpdated = $verRaw.Replace("Pre-release", $env:RELEASE_TAG)
-              [System.IO.File]::WriteAllText($verPath, $verUpdated, [System.Text.UTF8Encoding]::new($false))
-              Write-Output "Generated Version file"
-          }
-
-          if (-not (Get-Command 7z -ErrorAction SilentlyContinue)) {
-              throw "7z executable not found on runner."
-          }
-
-          $zipName = "PriconneTL_$env:RELEASE_TAG.zip"
-          if (Test-Path -LiteralPath $zipName) { Remove-Item -LiteralPath $zipName -Force }
-
-          & 7z a -tzip -mx=3 $zipName ".\src\*" `
-              "-xr!*.rar" "-xr!*.7z" "-xr!*.zip" "-xr!*.psd" "-xr!*.bak*" `
-              "-xr!New folder" "-xr![Dump]" "-xr!Template" `
-              "-xr!_AutoGeneratedTranslations*" "-xr!daftar_file.txt" "-xr!changelog.txt"
-
-          if ($LASTEXITCODE -ge 2) {
-              throw "7z failed to archive release with exit code $LASTEXITCODE"
-          } elseif ($LASTEXITCODE -eq 1) {
-              Write-Warning "7z finished with non-fatal warnings (exit code 1)."
-          }
-
-          $item = Get-Item -LiteralPath $zipName -ErrorAction Stop
-          $maxBytes = 2GB
-          Write-Output ("Archive size: {0:N2} MB" -f ($item.Length / 1MB))
-          if ($item.Length -ge $maxBytes) {
-              throw "Archive size ($($item.Length) bytes) exceeds GitHub Release 2 GB limit!"
-          }
-
-      - name: Publish Release
-        if: inputs.test_mode == false
+      - name: Create or update GitHub Release
+        if: ${{ !inputs.test_mode }}
+        shell: pwsh
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ steps.meta.outputs.tag }}
+          RELEASE_TITLE: ${{ steps.meta.outputs.title }}
         run: |
+          $ErrorActionPreference = 'Stop'
+          # PowerShell 7.4+ turns a non-zero native exit code into a terminating
+          # error while $ErrorActionPreference = 'Stop'. `gh release view` returns
+          # 1 when the release does not exist yet, which would abort this step
+          # before the "create" branch could ever run.
+          $PSNativeCommandUseErrorActionPreference = $false
+
           $zipFile = "PriconneTL_$env:RELEASE_TAG.zip"
+
           $exists = $false
-          gh release view $env:RELEASE_TAG 2>$null
+          gh release view "$env:RELEASE_TAG" 2>$null | Out-Null
           if ($LASTEXITCODE -eq 0) { $exists = $true }
 
           if ($exists) {
-              Write-Output "Release $env:RELEASE_TAG already exists — updating assets and notes..."
-              gh release upload $env:RELEASE_TAG $zipFile --clobber
-              gh release edit $env:RELEASE_TAG --title "$env:RELEASE_TITLE" --notes-file RELEASE_NOTE
+              Write-Host "Release $env:RELEASE_TAG already exists - updating notes and asset."
+              gh release upload "$env:RELEASE_TAG" "$zipFile" --clobber
+              if ($LASTEXITCODE -ne 0) { throw "gh release upload failed ($LASTEXITCODE)." }
+              gh release edit "$env:RELEASE_TAG" --title "$env:RELEASE_TITLE" --notes-file "./RELEASE_NOTE"
+              if ($LASTEXITCODE -ne 0) { throw "gh release edit failed ($LASTEXITCODE)." }
           } else {
-              gh release create `
-                --latest `
-                --notes-file RELEASE_NOTE `
-                --title "$env:RELEASE_TITLE" `
-                $env:RELEASE_TAG `
-                $zipFile
+              gh release create "$env:RELEASE_TAG" "$zipFile" `
+                  --target "$env:GITHUB_SHA" `
+                  --title "$env:RELEASE_TITLE" `
+                  --notes-file "./RELEASE_NOTE"
+              if ($LASTEXITCODE -ne 0) { throw "gh release create failed ($LASTEXITCODE)." }
           }
 
-  announce:
-    name: Discord Announcement
-    if: inputs.test_mode == false
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Announcing new release
+      - name: Send Discord Webhook Notification
+        if: ${{ !inputs.test_mode && env.HAS_WEBHOOK == 'true' }}
+        shell: pwsh
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        uses: Ilshidur/action-discord@0c4b27844ba47cb1c7bee539c8eead5284ce9fa9
-        with:
-          args: "<@&1349491054214385816> ${{ needs.build.outputs.kokkoro_greeting }} \n${{ needs.build.outputs.changes }}\n"
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK }}
+          ROLE_MENTION: '<@&1349491054214385816>'
+          GREETING: ${{ steps.announce.outputs.greeting }}
+          DISCORD_BODY: ${{ steps.announce.outputs.discord_body }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $content = "📌 $env:ROLE_MENTION`n$env:GREETING`n`n$env:DISCORD_BODY"
+          if ($content.Length -gt 2000) {
+              throw "Discord payload exceeded 2000 UTF-16 code units ($($content.Length) chars)."
+          }
+          $payload = @{ content = $content } | ConvertTo-Json -Compress
+          Invoke-RestMethod -Uri $env:WEBHOOK_URL -Method Post `
+              -ContentType 'application/json; charset=utf-8' `
+              -Body ([System.Text.Encoding]::UTF8.GetBytes($payload))
