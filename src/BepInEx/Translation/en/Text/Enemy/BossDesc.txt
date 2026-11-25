@@ -2968,3 +2968,16 @@ EXTREMEバトル時に一定確率で強敵が出現する。=A strong enemy app
 
 自身に無敵\n【スキル１】 =Invincible to myself\n[Skill 1]\n
 自身に無敵【スキル１】=Invincible to myself\n[Skill 1]\n
+マウントペンギン=Mount Penguin
+前から１番目の敵と周囲に物理被ダメアップ（必中）=Increases P.DMG taken by the foremost enemy and nearby enemies (guaranteed hit).
+前から１番目の敵のＨＰが低いほど：カット量アップ=The lower the foremost enemy's HP: increases reduction amount.
+行動不能状態の敵全体に魔法割合ダメージ（飛行効果無視）=Deals percentage M.DMG to all immobilized enemies (ignores flying effects).
+周囲の敵全体に石化=Inflicts Petrify on all nearby enemies.
+行動不能状態でない敵全体に石化（飛行効果無視・必中）=Inflicts Petrify on all enemies that are not immobilized (ignores flying effects, guaranteed hit).
+行動不能状態でない敵全体に魔法ダメージ（飛行効果無視）=Deals M.DMG to all enemies that are not immobilized (ignores flying effects).
+【寒気凛冽】=[Biting Cold]
+敵味方全体に重複可能の行動速度ダウン=Reduces Action Speed of all allies and enemies (stackable).
+一定時間が経過するごとに初期値より行動速度が低いキャラに凍結=Every time a certain period passes, inflicts Freeze on characters whose Action Speed is lower than their initial value.
+対象が凍結状態：ダウン量上昇=If target is Frozen: increases reduction amount.
+環境効果【寒気凛冽】発動=Activates field effect [Biting Cold].
+冷気を撒き尊大に振る舞う魔物。癇に障\nりし他種族へ怜悧狡猾な立ち回りで襲いかかる。=A monster that scatters cold air and acts arrogantly. It attacks other races that get on\nits nerves with cold-hearted and cunning tactics.
